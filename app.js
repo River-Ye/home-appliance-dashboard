@@ -1878,10 +1878,10 @@ function renderSelects() {
 
 function renderTabs() {
   const tabs = document.getElementById("categoryTabs");
-  const allButton = `<button class="tab-button ${state.category === "all" ? "active" : ""}" type="button" data-category="all">全部</button>`;
+  const allButton = `<button class="tab-button ${state.category === "all" ? "active" : ""}" type="button" data-category="all" aria-pressed="${state.category === "all"}">全部</button>`;
   tabs.innerHTML = allButton + categories.map((category) => {
     const count = products.filter((product) => product.category === category.id).length;
-    return `<button class="tab-button ${state.category === category.id ? "active" : ""}" type="button" data-category="${category.id}">${category.label} ${count}</button>`;
+    return `<button class="tab-button ${state.category === category.id ? "active" : ""}" type="button" data-category="${category.id}" aria-pressed="${state.category === category.id}">${category.label} ${count}</button>`;
   }).join("");
 }
 
@@ -1890,6 +1890,9 @@ function renderStats(visible) {
   document.getElementById("productCount").textContent = products.length;
   document.getElementById("visibleCount").textContent = visible.length;
   document.getElementById("compareCount").textContent = state.compare.size;
+  document.getElementById("mobileVisibleCount").textContent = visible.length;
+  document.getElementById("mobileCompareCount").textContent = state.compare.size;
+  document.getElementById("mobileCompareLink").classList.toggle("active", state.compare.size > 0);
 }
 
 function renderTopPicks(visible) {
@@ -1997,7 +2000,7 @@ function cardMarkup(product) {
       </div>
       <div class="card-actions">
         <a class="buy-link" href="${product.buyUrl}" target="_blank" rel="noreferrer">購買連結</a>
-        <button class="compare-button ${isCompared ? "active" : ""}" type="button" data-compare="${product.id}">
+        <button class="compare-button ${isCompared ? "active" : ""}" type="button" data-compare="${product.id}" aria-pressed="${isCompared}">
           ${isCompared ? "已加入比較" : "加入比較"}
         </button>
       </div>
@@ -2017,6 +2020,7 @@ function renderProducts(visible) {
 function renderCompare() {
   const selected = products.filter((product) => state.compare.has(product.id));
   const wrap = document.getElementById("compareTable");
+  document.getElementById("clearCompare").disabled = selected.length === 0;
   if (!selected.length) {
     wrap.innerHTML = `<div class="empty-state">點選產品卡片的「加入比較」後，這裡會出現橫向比較表。</div>`;
     return;
@@ -2057,13 +2061,39 @@ function render() {
 
 function setCategory(category) {
   state.category = category;
-  document.getElementById("categorySelect").value = category;
+  syncControls();
   render();
+}
+
+function syncControls() {
+  document.getElementById("categorySelect").value = state.category;
+  document.getElementById("brandSelect").value = state.brand;
+  document.getElementById("budgetSelect").value = state.budget;
+  document.getElementById("channelSelect").value = state.channel;
+  document.getElementById("sortSelect").value = state.sort;
+  document.getElementById("searchInput").value = state.search;
+}
+
+function resetFilters() {
+  state.category = "all";
+  state.brand = "all";
+  state.budget = "all";
+  state.channel = "all";
+  state.sort = "rank";
+  state.search = "";
+  syncControls();
+  render();
+}
+
+function updateMobileDock() {
+  document.body.classList.toggle("show-mobile-dock", window.scrollY > 360);
 }
 
 document.addEventListener("DOMContentLoaded", () => {
   renderSelects();
+  syncControls();
   render();
+  updateMobileDock();
 
   document.getElementById("searchInput").addEventListener("input", (event) => {
     state.search = event.target.value;
@@ -2088,6 +2118,7 @@ document.addEventListener("DOMContentLoaded", () => {
     state.sort = event.target.value;
     render();
   });
+  document.getElementById("resetFilters").addEventListener("click", resetFilters);
   document.getElementById("categoryTabs").addEventListener("click", (event) => {
     const button = event.target.closest("[data-category]");
     if (!button) return;
@@ -2108,4 +2139,5 @@ document.addEventListener("DOMContentLoaded", () => {
     state.compare.clear();
     render();
   });
+  window.addEventListener("scroll", updateMobileDock, { passive: true });
 });

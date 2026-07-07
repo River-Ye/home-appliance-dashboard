@@ -21,7 +21,7 @@
     </header>
 
     <main>
-      <section class="toolbar" aria-label="篩選器">
+      <section id="filters" class="toolbar" aria-label="篩選器">
         <label>
           <span>搜尋</span>
           <input id="searchInput" type="search" placeholder="品牌、型號、功能、適合對象">
@@ -60,6 +60,7 @@
             <option value="scoreDesc">評估分數</option>
           </select>
         </label>
+        <button id="resetFilters" type="button" class="reset-button">重設篩選</button>
       </section>
 
       <nav id="categoryTabs" class="tabs" aria-label="產品分類"></nav>
@@ -87,7 +88,7 @@
 
       <section id="productGrid" class="product-grid" aria-label="產品卡片"></section>
 
-      <section class="compare-panel" aria-label="比較清單">
+      <section id="comparePanel" class="compare-panel" aria-label="比較清單">
         <div class="section-heading">
           <div>
             <p class="eyebrow">Compare</p>
@@ -102,6 +103,12 @@
     <footer>
       <p>價格為 2026-07-07 查詢或通路常見售價參考；實際到手價以購買頁為準。海外商品需自行確認電壓、插頭、保固與進口成本。</p>
     </footer>
+
+    <nav class="mobile-dock" aria-label="手機快速操作">
+      <a href="#filters">篩選</a>
+      <a href="#productGrid">商品 <strong id="mobileVisibleCount">0</strong></a>
+      <a id="mobileCompareLink" href="#comparePanel">比較 <strong id="mobileCompareCount">0</strong></a>
+    </nav>
 
     <script src="./app.js"></script>
   </body>
