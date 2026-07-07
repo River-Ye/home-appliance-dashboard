@@ -129,7 +129,7 @@ main {
   top: 0;
   z-index: 3;
   display: grid;
-  grid-template-columns: minmax(220px, 1.4fr) repeat(5, minmax(140px, 1fr)) auto;
+  grid-template-columns: minmax(220px, 1.2fr) minmax(0, 5fr);
   gap: 10px;
   align-items: end;
   padding: 12px;
@@ -138,6 +138,22 @@ main {
   border-radius: 8px;
   backdrop-filter: blur(14px);
   scroll-margin-top: 12px;
+}
+
+.search-field {
+  min-width: 0;
+}
+
+.filter-panel {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(132px, 1fr)) auto;
+  gap: 10px;
+  align-items: end;
+  min-width: 0;
+}
+
+.filter-panel[hidden] {
+  display: none;
 }
 
 .toolbar label {
@@ -153,6 +169,7 @@ main {
 
 .toolbar input,
 .toolbar select,
+.filter-toggle,
 .reset-button {
   width: 100%;
   min-height: 40px;
@@ -166,11 +183,61 @@ main {
 
 .toolbar input:focus,
 .toolbar select:focus,
+.filter-toggle:focus-visible,
 .reset-button:focus-visible,
 button:focus-visible,
 a:focus-visible {
   outline: 3px solid rgba(37, 95, 133, 0.25);
   outline-offset: 2px;
+}
+
+.filter-toggle {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  width: auto;
+  color: var(--primary-dark);
+  font-weight: 850;
+}
+
+.filter-toggle span {
+  color: inherit;
+  font-size: 14px;
+  font-weight: inherit;
+}
+
+.filter-toggle::after {
+  width: 7px;
+  height: 7px;
+  border-right: 2px solid currentColor;
+  border-bottom: 2px solid currentColor;
+  content: "";
+  transform: rotate(45deg) translateY(-2px);
+  transition: transform 160ms ease;
+}
+
+.filter-toggle[aria-expanded="true"]::after {
+  transform: rotate(225deg) translate(-2px, -1px);
+}
+
+.filter-toggle strong {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 20px;
+  height: 20px;
+  padding: 0 6px;
+  color: #fff;
+  background: var(--teal);
+  border-radius: 999px;
+  font-size: 12px;
+  line-height: 1;
+}
+
+.filter-toggle[hidden],
+.filter-toggle strong[hidden] {
+  display: none;
 }
 
 .tabs {
@@ -585,9 +652,20 @@ footer {
 }
 
 @media (max-width: 1040px) {
-  .topbar,
+  .topbar {
+    grid-template-columns: 1fr;
+  }
+
   .toolbar {
     grid-template-columns: 1fr;
+  }
+
+  .filter-panel {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .filter-panel .reset-button {
+    grid-column: 1 / -1;
   }
 
   .summary-grid {
@@ -615,12 +693,34 @@ footer {
 
   .toolbar {
     position: static;
+    grid-template-columns: minmax(0, 1fr) auto;
     gap: 12px;
     padding: 12px;
   }
 
+  .search-field {
+    grid-column: 1;
+  }
+
+  .filter-toggle {
+    grid-column: 2;
+    display: inline-flex;
+    min-width: 92px;
+    white-space: nowrap;
+  }
+
+  .filter-panel {
+    grid-column: 1 / -1;
+    grid-template-columns: 1fr;
+  }
+
+  .filter-panel .reset-button {
+    grid-column: auto;
+  }
+
   .toolbar input,
   .toolbar select,
+  .filter-toggle,
   .reset-button,
   .tab-button,
   .buy-link,

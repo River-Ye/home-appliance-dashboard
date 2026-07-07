@@ -2095,6 +2095,7 @@ const state = {
   sort: "rank",
   search: "",
   compare: new Set(),
+  mobileFiltersOpen: false,
 };
 
 const currencyFormatter = new Intl.NumberFormat("zh-TW", {
@@ -2356,6 +2357,7 @@ function render() {
   renderTopPicks(visible);
   renderProducts(visible);
   renderCompare();
+  updateFilterDisclosure();
 }
 
 function setCategory(category) {
@@ -2382,6 +2384,43 @@ function resetFilters() {
   state.search = "";
   syncControls();
   render();
+}
+
+function activeAdvancedFilterCount() {
+  return [
+    state.category !== "all",
+    state.brand !== "all",
+    state.budget !== "all",
+    state.channel !== "all",
+    state.sort !== "rank",
+  ].filter(Boolean).length;
+}
+
+function isMobileFilterLayout() {
+  return window.matchMedia("(max-width: 620px)").matches;
+}
+
+function setMobileFiltersOpen(open) {
+  state.mobileFiltersOpen = open;
+  updateFilterDisclosure();
+}
+
+function updateFilterDisclosure() {
+  const toolbar = document.getElementById("filters");
+  const panel = document.getElementById("advancedFilters");
+  const toggle = document.getElementById("filterToggle");
+  const countBadge = document.getElementById("activeFilterCount");
+  if (!toolbar || !panel || !toggle || !countBadge) return;
+
+  const mobile = isMobileFilterLayout();
+  const open = !mobile || state.mobileFiltersOpen;
+  const activeCount = activeAdvancedFilterCount();
+  toolbar.classList.toggle("filters-open", mobile && open);
+  panel.hidden = !open;
+  toggle.hidden = !mobile;
+  toggle.setAttribute("aria-expanded", String(open));
+  countBadge.hidden = activeCount === 0;
+  countBadge.textContent = activeCount;
 }
 
 function updateMobileDock() {
@@ -2418,6 +2457,15 @@ document.addEventListener("DOMContentLoaded", () => {
     render();
   });
   document.getElementById("resetFilters").addEventListener("click", resetFilters);
+  document.getElementById("filterToggle").addEventListener("click", () => {
+    setMobileFiltersOpen(!state.mobileFiltersOpen);
+  });
+  document.querySelector('.mobile-dock a[href="#filters"]').addEventListener("click", () => {
+    if (isMobileFilterLayout()) {
+      setMobileFiltersOpen(true);
+    }
+  });
+  window.addEventListener("resize", updateFilterDisclosure);
   document.getElementById("categoryTabs").addEventListener("click", (event) => {
     const button = event.target.closest("[data-category]");
     if (!button) return;

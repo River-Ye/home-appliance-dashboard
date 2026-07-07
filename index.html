@@ -22,45 +22,51 @@
 
     <main>
       <section id="filters" class="toolbar" aria-label="篩選器">
-        <label>
+        <label class="search-field">
           <span>搜尋</span>
           <input id="searchInput" type="search" placeholder="品牌、型號、功能、適合對象">
         </label>
-        <label>
-          <span>分類</span>
-          <select id="categorySelect"></select>
-        </label>
-        <label>
-          <span>品牌</span>
-          <select id="brandSelect"></select>
-        </label>
-        <label>
-          <span>預算</span>
-          <select id="budgetSelect">
-            <option value="all">全部</option>
-            <option value="value">CP 值</option>
-            <option value="mid">均衡</option>
-            <option value="premium">旗艦</option>
-          </select>
-        </label>
-        <label>
-          <span>通路</span>
-          <select id="channelSelect">
-            <option value="all">全部</option>
-            <option value="tw">台灣通路</option>
-            <option value="global">海外通路</option>
-          </select>
-        </label>
-        <label>
-          <span>排序</span>
-          <select id="sortSelect">
-            <option value="rank">推薦排序</option>
-            <option value="priceAsc">價格低到高</option>
-            <option value="priceDesc">價格高到低</option>
-            <option value="scoreDesc">評估分數</option>
-          </select>
-        </label>
-        <button id="resetFilters" type="button" class="reset-button">重設篩選</button>
+        <button id="filterToggle" class="filter-toggle" type="button" aria-expanded="false" aria-controls="advancedFilters">
+          <span>篩選</span>
+          <strong id="activeFilterCount" hidden>0</strong>
+        </button>
+        <div id="advancedFilters" class="filter-panel">
+          <label>
+            <span>分類</span>
+            <select id="categorySelect"></select>
+          </label>
+          <label>
+            <span>品牌</span>
+            <select id="brandSelect"></select>
+          </label>
+          <label>
+            <span>預算</span>
+            <select id="budgetSelect">
+              <option value="all">全部</option>
+              <option value="value">CP 值</option>
+              <option value="mid">均衡</option>
+              <option value="premium">旗艦</option>
+            </select>
+          </label>
+          <label>
+            <span>通路</span>
+            <select id="channelSelect">
+              <option value="all">全部</option>
+              <option value="tw">台灣通路</option>
+              <option value="global">海外通路</option>
+            </select>
+          </label>
+          <label>
+            <span>排序</span>
+            <select id="sortSelect">
+              <option value="rank">推薦排序</option>
+              <option value="priceAsc">價格低到高</option>
+              <option value="priceDesc">價格高到低</option>
+              <option value="scoreDesc">評估分數</option>
+            </select>
+          </label>
+          <button id="resetFilters" type="button" class="reset-button">重設篩選</button>
+        </div>
       </section>
 
       <nav id="categoryTabs" class="tabs" aria-label="產品分類"></nav>
