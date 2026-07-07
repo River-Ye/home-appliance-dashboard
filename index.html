@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>家電採購比較表</title>
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+    <header class="topbar">
+      <div>
+        <p class="eyebrow">Home Appliance Shortlist</p>
+        <h1>家電推薦比較工作台</h1>
+        <p class="subhead">以台灣使用情境為主，整合台灣與海外通路價格、規格、優劣與購買連結。</p>
+      </div>
+      <div class="rate-card" aria-label="匯率與擷取資訊">
+        <span>資料擷取</span>
+        <strong>2026-07-07</strong>
+        <small>USD 1 = TWD 32.079；海外價未含國際運費、關稅與台灣保固。</small>
+      </div>
+    </header>
+
+    <main>
+      <section class="toolbar" aria-label="篩選器">
+        <label>
+          <span>搜尋</span>
+          <input id="searchInput" type="search" placeholder="品牌、型號、功能、適合對象">
+        </label>
+        <label>
+          <span>分類</span>
+          <select id="categorySelect"></select>
+        </label>
+        <label>
+          <span>品牌</span>
+          <select id="brandSelect"></select>
+        </label>
+        <label>
+          <span>預算</span>
+          <select id="budgetSelect">
+            <option value="all">全部</option>
+            <option value="value">CP 值</option>
+            <option value="mid">均衡</option>
+            <option value="premium">旗艦</option>
+          </select>
+        </label>
+        <label>
+          <span>通路</span>
+          <select id="channelSelect">
+            <option value="all">全部</option>
+            <option value="tw">台灣通路</option>
+            <option value="global">海外通路</option>
+          </select>
+        </label>
+        <label>
+          <span>排序</span>
+          <select id="sortSelect">
+            <option value="rank">推薦排序</option>
+            <option value="priceAsc">價格低到高</option>
+            <option value="priceDesc">價格高到低</option>
+            <option value="scoreDesc">評估分數</option>
+          </select>
+        </label>
+      </section>
+
+      <nav id="categoryTabs" class="tabs" aria-label="產品分類"></nav>
+
+      <section class="summary-grid" aria-label="總覽">
+        <article class="summary-card">
+          <span>分類</span>
+          <strong id="categoryCount">0</strong>
+        </article>
+        <article class="summary-card">
+          <span>型號</span>
+          <strong id="productCount">0</strong>
+        </article>
+        <article class="summary-card">
+          <span>目前顯示</span>
+          <strong id="visibleCount">0</strong>
+        </article>
+        <article class="summary-card">
+          <span>比較清單</span>
+          <strong id="compareCount">0</strong>
+        </article>
+      </section>
+
+      <section id="topPicks" class="top-picks" aria-label="每類推薦"></section>
+
+      <section id="productGrid" class="product-grid" aria-label="產品卡片"></section>
+
+      <section class="compare-panel" aria-label="比較清單">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Compare</p>
+            <h2>比較清單</h2>
+          </div>
+          <button id="clearCompare" type="button" class="ghost-button">清空</button>
+        </div>
+        <div id="compareTable" class="compare-table-wrap"></div>
+      </section>
+    </main>
+
+    <footer>
+      <p>價格為 2026-07-07 查詢或通路常見售價參考；實際到手價以購買頁為準。海外商品需自行確認電壓、插頭、保固與進口成本。</p>
+    </footer>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
