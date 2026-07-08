@@ -457,8 +457,8 @@
     "name": "PuriCare 12 公升雙變頻除濕機",
     "price": {
       "currency": "TWD",
-      "amount": 12800,
-      "converted": 12800,
+      "amount": 12600,
+      "converted": 12600,
       "confidence": "可信通路查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ4NA900JF9HP/000001_1778165423.jpg",

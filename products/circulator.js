@@ -237,8 +237,8 @@
     "name": "52-TW 黑色渦流空氣循環扇",
     "price": {
       "currency": "TWD",
-      "amount": 2457,
-      "converted": 2457,
+      "amount": 2730,
+      "converted": 2730,
       "confidence": "可信通路查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAB3XA900JWRUP/000001_1776066916.jpg",
@@ -325,8 +325,8 @@
     "name": "7.5 吋經典復古循環扇綠色",
     "price": {
       "currency": "TWD",
-      "amount": 5305,
-      "converted": 5305,
+      "amount": 5895,
+      "converted": 5895,
       "confidence": "可信通路查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/QBAF31A900ARWXH/000001_1765269049.jpg",
@@ -369,8 +369,8 @@
     "name": "RTRHD-TW 渦流空氣循環機",
     "price": {
       "currency": "TWD",
-      "amount": 4518,
-      "converted": 4518,
+      "amount": 5020,
+      "converted": 5020,
       "confidence": "可信通路查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAB3XA900HNEWA/000001_1782713198.jpg",
@@ -545,8 +545,8 @@
     "name": "EXO61HD-TW 渦流空氣循環機",
     "price": {
       "currency": "TWD",
-      "amount": 4033,
-      "converted": 4033,
+      "amount": 4482,
+      "converted": 4482,
       "confidence": "可信通路查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAB3XA900HN9W0/000001_1782713517.jpg",

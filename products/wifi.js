@@ -367,9 +367,423 @@
     ]
   },
   {
+    "id": "wifi-unifi-u7-pro",
+    "category": "wifi",
+    "budget": "premium",
+    "channel": "global",
+    "brand": "UniFi",
+    "model": "U7 Pro",
+    "name": "Wi-Fi 7 6GHz Ceiling AP",
+    "price": {
+      "currency": "USD",
+      "amount": 189,
+      "converted": 6063,
+      "confidence": "Ubiquiti 官方美國售價"
+    },
+    "image": "https://cdn.ecomm.ui.com/products/fa8dd4e4-36c8-4c79-a928-22c7bff2ce29/ab5bc8a4-6135-402e-a695-e3ea5e16d3e6.png",
+    "buyUrl": "https://store.ui.com/us/en/category/all-wifi/products/u7-pro",
+    "buyLabel": "Ubiquiti Store",
+    "specs": [
+      "Wi-Fi 7",
+      "6 spatial streams，支援 6GHz",
+      "Mesh：UniFi AP 可做無線 uplink/漫遊，需 UniFi Network 管理",
+      "2.5GbE PoE+ uplink"
+    ],
+    "description": "UniFi U7 Pro 是商用/Prosumer Wi-Fi 7 AP，不是單台家用分享器；適合已準備 UniFi Gateway、PoE Switch 或控制器的環境。",
+    "pros": [
+      "UniFi 生態系完整，適合 gateway、switch、AP 一起管理",
+      "官方美國通路售價清楚，規格與產品線更新快"
+    ],
+    "cons": [
+      "多數 AP 需 PoE 交換器或 PoE Injector，部分配件另購",
+      "海外官方價未含國際運費、進口稅與台灣保固"
+    ],
+    "bestFor": "想用 UniFi 生態佈建 2-3 顆 AP，並重視集中管理、VLAN、漫遊與後續擴充的人。",
+    "recommendation": "UniFi 綜合推薦：U7 Pro 價格仍在可接受範圍，已支援 Wi-Fi 7 與 6GHz，是現在切入 UniFi AP 的均衡款。",
+    "score": 86,
+    "voltage": "PoE+ 供電；海外官方通路，需確認 PoE 交換器/Injector、插頭與台灣保固",
+    "warranty": "Ubiquiti 官方美國通路；海外運費、進口稅與台灣保固另計",
+    "tags": [
+      "UniFi",
+      "Ubiquiti",
+      "Wi-Fi 7",
+      "PoE",
+      "商用 AP"
+    ],
+    "rank": 9
+  },
+  {
+    "id": "wifi-unifi-u6-pro",
+    "category": "wifi",
+    "budget": "mid",
+    "channel": "global",
+    "brand": "UniFi",
+    "model": "U6 Pro",
+    "name": "Wi-Fi 6 6-stream Ceiling AP",
+    "price": {
+      "currency": "USD",
+      "amount": 159,
+      "converted": 5101,
+      "confidence": "Ubiquiti 官方美國售價"
+    },
+    "image": "https://cdn.ecomm.ui.com/products/8e88b222-7a55-4cf0-8677-ae9b6347fe84/e16aa122-b5e5-4ffb-9f1a-27ee14d9ab3d.png",
+    "buyUrl": "https://store.ui.com/us/en/category/all-wifi/products/u6-pro",
+    "buyLabel": "Ubiquiti Store",
+    "specs": [
+      "Wi-Fi 6",
+      "6 spatial streams",
+      "Mesh：UniFi AP 可做無線 uplink/漫遊，需 UniFi Network 管理",
+      "Gigabit PoE uplink"
+    ],
+    "description": "UniFi U6 Pro 是成熟的 Wi-Fi 6 商用 AP，適合不急著上 6GHz、但希望穩定佈建 UniFi 多 AP 的環境。",
+    "pros": [
+      "UniFi 生態系完整，適合 gateway、switch、AP 一起管理",
+      "官方美國通路售價清楚，規格與產品線更新快"
+    ],
+    "cons": [
+      "多數 AP 需 PoE 交換器或 PoE Injector，部分配件另購",
+      "海外官方價未含國際運費、進口稅與台灣保固"
+    ],
+    "bestFor": "已經有 PoE 交換器、想用較穩定成熟的 Wi-Fi 6 AP 做多點漫遊的人。",
+    "recommendation": "UniFi Wi-Fi 6 推薦：U6 Pro 口碑成熟，價格比 Wi-Fi 7 款更好控制，適合重視穩定勝過追新規格的使用者。",
+    "score": 84,
+    "voltage": "PoE 供電；海外官方通路，需確認 PoE 交換器/Injector、插頭與台灣保固",
+    "warranty": "Ubiquiti 官方美國通路；海外運費、進口稅與台灣保固另計",
+    "tags": [
+      "UniFi",
+      "Ubiquiti",
+      "Wi-Fi 6",
+      "PoE",
+      "商用 AP"
+    ],
+    "rank": 10
+  },
+  {
+    "id": "wifi-unifi-u7-lite",
+    "category": "wifi",
+    "budget": "mid",
+    "channel": "global",
+    "brand": "UniFi",
+    "model": "U7 Lite",
+    "name": "Compact Wi-Fi 7 AP",
+    "price": {
+      "currency": "USD",
+      "amount": 99,
+      "converted": 3176,
+      "confidence": "Ubiquiti 官方美國售價"
+    },
+    "image": "https://cdn.ecomm.ui.com/products/253cc208-4b09-4b2e-9d1a-7aa1e8f93507/49241c96-878f-4e40-8541-c2e89c1c5e6e.png",
+    "buyUrl": "https://store.ui.com/us/en/category/all-wifi/products/u7-lite",
+    "buyLabel": "Ubiquiti Store",
+    "specs": [
+      "Wi-Fi 7",
+      "4 spatial streams",
+      "Mesh：UniFi AP 可做無線 uplink/漫遊，需 UniFi Network 管理",
+      "2.5GbE PoE uplink"
+    ],
+    "description": "UniFi U7 Lite 是入門 Wi-Fi 7 AP，適合想用較低單價鋪 2-3 顆 UniFi AP 的家庭工作室或小型辦公室。",
+    "pros": [
+      "UniFi 生態系完整，適合 gateway、switch、AP 一起管理",
+      "官方美國通路售價清楚，規格與產品線更新快"
+    ],
+    "cons": [
+      "多數 AP 需 PoE 交換器或 PoE Injector，部分配件另購",
+      "海外官方價未含國際運費、進口稅與台灣保固"
+    ],
+    "bestFor": "想控制單顆成本，又希望直接進 Wi-Fi 7 與 UniFi 管理生態的人。",
+    "recommendation": "UniFi 低價 Wi-Fi 7 候選：官方售價低，買 2-3 顆的總成本好控制，但仍要把 PoE 與 Gateway 成本算進去。",
+    "score": 83,
+    "voltage": "PoE 供電；海外官方通路，需確認 PoE 交換器/Injector、插頭與台灣保固",
+    "warranty": "Ubiquiti 官方美國通路；海外運費、進口稅與台灣保固另計",
+    "tags": [
+      "UniFi",
+      "Ubiquiti",
+      "Wi-Fi 7",
+      "PoE",
+      "低價 AP"
+    ],
+    "rank": 11
+  },
+  {
+    "id": "wifi-aruba-ap22",
+    "category": "wifi",
+    "budget": "premium",
+    "channel": "tw",
+    "brand": "Aruba",
+    "model": "Instant On AP22",
+    "name": "HPE Aruba Instant On Wi-Fi 6 室內 AP",
+    "price": {
+      "currency": "TWD",
+      "amount": 14112,
+      "converted": 14112,
+      "confidence": "PChome 可信通路低價查核"
+    },
+    "image": "https://cs-a.ecimg.tw/items/DRAFJRA900JB5WP/000001_1759461654.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DRAFJR-A900JB5WP",
+    "buyLabel": "PChome",
+    "specs": [
+      "Wi‑Fi 6",
+      "室內型 AP",
+      "Mesh：Instant On 多 AP/Smart Mesh 與漫遊，需同系統管理",
+      "需 PoE 或相容電源方案"
+    ],
+    "description": "Aruba Instant On AP22 是國際商用網路品牌的 Wi-Fi 6 AP，適合想把家用分享器升級成多 AP 漫遊架構的人。",
+    "pros": [
+      "國際商用網路品牌，適合多 AP 漫遊與集中管理",
+      "台灣 PChome 可信通路新品，價格與圖片可查核"
+    ],
+    "cons": [
+      "屬商用無線基地台，不是家用一體式 NAT 路由器",
+      "通常需既有閘道器/路由器與 PoE 或電源供應規劃"
+    ],
+    "bestFor": "願意用商用 AP 佈建、重視穩定漫遊與品牌售後的小型辦公室或大坪數住宅。",
+    "recommendation": "Aruba 綜合推薦：AP22 是 Instant On Wi-Fi 6 的主流均衡款，比 AP25 便宜、比 AP21 更有餘裕。",
+    "score": 82,
+    "voltage": "多為 PoE/外接電源；台灣 PChome 通路，需確認是否含變壓器與安裝條件",
+    "warranty": "依 PChome/供應商頁面",
+    "tags": [
+      "Aruba",
+      "HPE",
+      "Instant On",
+      "Wi‑Fi 6",
+      "商用 AP"
+    ],
+    "rank": 12
+  },
+  {
+    "id": "wifi-aruba-ap25",
+    "category": "wifi",
+    "budget": "premium",
+    "channel": "tw",
+    "brand": "Aruba",
+    "model": "Instant On AP25",
+    "name": "HPE Aruba Instant On 4x4 Wi-Fi 6 室內 AP",
+    "price": {
+      "currency": "TWD",
+      "amount": 21112,
+      "converted": 21112,
+      "confidence": "PChome 可信通路低價查核"
+    },
+    "image": "https://cs-a.ecimg.tw/items/DRAFJRA900JB5QX/000001_1759459286.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DRAFJR-A900JB5QX",
+    "buyLabel": "PChome",
+    "specs": [
+      "Wi‑Fi 6",
+      "4x4 室內型 AP",
+      "Mesh：Instant On 多 AP/Smart Mesh 與漫遊，需同系統管理",
+      "需 PoE 或相容電源方案"
+    ],
+    "description": "Aruba Instant On AP25 是更高規的 Wi-Fi 6 室內 AP，適合裝置數多、同時連線壓力較高的場域。",
+    "pros": [
+      "國際商用網路品牌，適合多 AP 漫遊與集中管理",
+      "台灣 PChome 可信通路新品，價格與圖片可查核"
+    ],
+    "cons": [
+      "屬商用無線基地台，不是家用一體式 NAT 路由器",
+      "通常需既有閘道器/路由器與 PoE 或電源供應規劃"
+    ],
+    "bestFor": "多人辦公室、工作室、餐飲門店或高裝置密度家庭。",
+    "recommendation": "Aruba 高密度推薦：AP25 價格較高，但 4x4 規格更適合多人同時連線與商用場景。",
+    "score": 81,
+    "voltage": "多為 PoE/外接電源；台灣 PChome 通路，需確認是否含變壓器與安裝條件",
+    "warranty": "依 PChome/供應商頁面",
+    "tags": [
+      "Aruba",
+      "HPE",
+      "Instant On",
+      "Wi‑Fi 6",
+      "高密度"
+    ],
+    "rank": 13
+  },
+  {
+    "id": "wifi-aruba-ap32",
+    "category": "wifi",
+    "budget": "premium",
+    "channel": "tw",
+    "brand": "Aruba",
+    "model": "Instant On AP32",
+    "name": "HPE Aruba Instant On Wi-Fi 6E 三頻 AP",
+    "price": {
+      "currency": "TWD",
+      "amount": 19111,
+      "converted": 19111,
+      "confidence": "PChome 可信通路低價查核"
+    },
+    "image": "https://cs-a.ecimg.tw/items/DRAFJRA900JB5RW/000001_1759459789.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DRAFJR-A900JB5RW",
+    "buyLabel": "PChome",
+    "specs": [
+      "Wi‑Fi 6E",
+      "三頻室內型 AP",
+      "Mesh：Instant On 多 AP/Smart Mesh 與漫遊，需同系統管理",
+      "6GHz 使用需終端與地區規範支援"
+    ],
+    "description": "Aruba Instant On AP32 是 Wi-Fi 6E 三頻 AP，適合想要 6GHz 頻段、但仍偏好 Aruba Instant On 管理生態的人。",
+    "pros": [
+      "國際商用網路品牌，適合多 AP 漫遊與集中管理",
+      "台灣 PChome 可信通路新品，價格與圖片可查核"
+    ],
+    "cons": [
+      "屬商用無線基地台，不是家用一體式 NAT 路由器",
+      "通常需既有閘道器/路由器與 PoE 或電源供應規劃"
+    ],
+    "bestFor": "有 Wi-Fi 6E 終端、想降低 5GHz 壅塞並使用商用 AP 管理的人。",
+    "recommendation": "Aruba 6E 推薦：AP32 比 AP25 便宜一些且有 6GHz，但要確認終端支援與佈建條件。",
+    "score": 80,
+    "voltage": "多為 PoE/外接電源；台灣 PChome 通路，需確認是否含變壓器與安裝條件",
+    "warranty": "依 PChome/供應商頁面",
+    "tags": [
+      "Aruba",
+      "HPE",
+      "Instant On",
+      "Wi‑Fi 6E",
+      "6GHz"
+    ],
+    "rank": 14
+  },
+  {
+    "id": "wifi-aruba-ap21",
+    "category": "wifi",
+    "budget": "premium",
+    "channel": "tw",
+    "brand": "Aruba",
+    "model": "Instant On AP21",
+    "name": "HPE Aruba Instant On Wi-Fi 6 室內 AP",
+    "price": {
+      "currency": "TWD",
+      "amount": 9912,
+      "converted": 9912,
+      "confidence": "PChome 可信通路低價查核"
+    },
+    "image": "https://cs-a.ecimg.tw/items/DRAFJRA900JB6BU/000001_1759470005.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DRAFJR-A900JB6BU",
+    "buyLabel": "PChome",
+    "specs": [
+      "Wi‑Fi 6",
+      "室內型 AP",
+      "Mesh：Instant On 多 AP/Smart Mesh 與漫遊，需同系統管理",
+      "需 PoE 或相容電源方案"
+    ],
+    "description": "Aruba Instant On AP21 是較入門的 Wi-Fi 6 商用 AP，適合想用 Aruba 生態但先控制單顆成本的人。",
+    "pros": [
+      "國際商用網路品牌，適合多 AP 漫遊與集中管理",
+      "台灣 PChome 可信通路新品，價格與圖片可查核"
+    ],
+    "cons": [
+      "屬商用無線基地台，不是家用一體式 NAT 路由器",
+      "通常需既有閘道器/路由器與 PoE 或電源供應規劃"
+    ],
+    "bestFor": "小坪數辦公室、工作室或想用 Aruba AP 先試佈建的人。",
+    "recommendation": "Aruba 入門候選：價格是 Aruba Instant On 這批裡最低，適合先買 1-2 顆測覆蓋。",
+    "score": 79,
+    "voltage": "多為 PoE/外接電源；台灣 PChome 通路，需確認是否含變壓器與安裝條件",
+    "warranty": "依 PChome/供應商頁面",
+    "tags": [
+      "Aruba",
+      "HPE",
+      "Instant On",
+      "Wi‑Fi 6",
+      "入門 AP"
+    ],
+    "rank": 15
+  },
+  {
+    "id": "wifi-unifi-u6-plus",
+    "category": "wifi",
+    "budget": "mid",
+    "channel": "global",
+    "brand": "UniFi",
+    "model": "U6+",
+    "name": "Compact Wi-Fi 6 AP",
+    "price": {
+      "currency": "USD",
+      "amount": 129,
+      "converted": 4138,
+      "confidence": "Ubiquiti 官方美國售價"
+    },
+    "image": "https://cdn.ecomm.ui.com/products/6d5c6141-e2e9-416a-b789-53e59416bb1a/853bc73b-f65b-4e59-a171-75c9a4a4615e.png",
+    "buyUrl": "https://store.ui.com/us/en/category/all-wifi/products/u6-plus",
+    "buyLabel": "Ubiquiti Store",
+    "specs": [
+      "Wi-Fi 6",
+      "4 spatial streams",
+      "Mesh：UniFi AP 可做無線 uplink/漫遊，需 UniFi Network 管理",
+      "Gigabit PoE uplink"
+    ],
+    "description": "UniFi U6+ 是較低價的 Wi-Fi 6 AP，適合小型空間或想用多顆低單價 AP 做覆蓋的人。",
+    "pros": [
+      "UniFi 生態系完整，適合 gateway、switch、AP 一起管理",
+      "官方美國通路售價清楚，規格與產品線更新快"
+    ],
+    "cons": [
+      "多數 AP 需 PoE 交換器或 PoE Injector，部分配件另購",
+      "海外官方價未含國際運費、進口稅與台灣保固"
+    ],
+    "bestFor": "想用 UniFi 管理，但不需要高規 6GHz 或高密度吞吐的人。",
+    "recommendation": "UniFi 入門 AP 推薦：單價低、容易鋪多顆，但若裝置數很多可上 U6 Pro/U7 Pro。",
+    "score": 78,
+    "voltage": "PoE 供電；海外官方通路，需確認 PoE 交換器/Injector、插頭與台灣保固",
+    "warranty": "Ubiquiti 官方美國通路；海外運費、進口稅與台灣保固另計",
+    "tags": [
+      "UniFi",
+      "Ubiquiti",
+      "Wi-Fi 6",
+      "PoE",
+      "入門 AP"
+    ],
+    "rank": 16
+  },
+  {
+    "id": "wifi-unifi-u7-pro-max",
+    "category": "wifi",
+    "budget": "premium",
+    "channel": "global",
+    "brand": "UniFi",
+    "model": "U7 Pro Max",
+    "name": "Wi-Fi 7 8-stream Ceiling AP",
+    "price": {
+      "currency": "USD",
+      "amount": 279,
+      "converted": 8950,
+      "confidence": "Ubiquiti 官方美國售價"
+    },
+    "image": "https://cdn.ecomm.ui.com/products/350070a0-ae43-431b-b052-8e849c3b0a75/bad94693-bc54-4ab4-b060-9b972401941c.png",
+    "buyUrl": "https://store.ui.com/us/en/category/all-wifi/products/u7-pro-max",
+    "buyLabel": "Ubiquiti Store",
+    "specs": [
+      "Wi-Fi 7",
+      "8 spatial streams，支援 6GHz",
+      "Mesh：UniFi AP 可做無線 uplink/漫遊，需 UniFi Network 管理",
+      "2.5GbE PoE+ uplink"
+    ],
+    "description": "UniFi U7 Pro Max 是更高階的 Wi-Fi 7 AP，適合高密度、重視頻譜掃描與長期規格餘裕的場域。",
+    "pros": [
+      "UniFi 生態系完整，適合 gateway、switch、AP 一起管理",
+      "官方美國通路售價清楚，規格與產品線更新快"
+    ],
+    "cons": [
+      "多數 AP 需 PoE 交換器或 PoE Injector，部分配件另購",
+      "海外官方價未含國際運費、進口稅與台灣保固"
+    ],
+    "bestFor": "高裝置密度、小型辦公室或想一步到位買 UniFi 旗艦 AP 的人。",
+    "recommendation": "UniFi 旗艦候選：規格最完整但價格高，除非環境很吃無線容量，否則 U7 Pro 通常更均衡。",
+    "score": 77,
+    "voltage": "PoE+ 供電；海外官方通路，需確認 PoE 交換器/Injector、插頭與台灣保固",
+    "warranty": "Ubiquiti 官方美國通路；海外運費、進口稅與台灣保固另計",
+    "tags": [
+      "UniFi",
+      "Ubiquiti",
+      "Wi-Fi 7",
+      "PoE",
+      "旗艦 AP"
+    ],
+    "rank": 17
+  },
+  {
     "id": "wifi-asus-rt-be82u",
     "category": "wifi",
-    "rank": 9,
+    "rank": 18,
     "budget": "mid",
     "channel": "tw",
     "brand": "ASUS",
@@ -414,7 +828,7 @@
   {
     "id": "wifi-tplink-archer-be700",
     "category": "wifi",
-    "rank": 10,
+    "rank": 19,
     "budget": "mid",
     "channel": "tw",
     "brand": "TP-Link",
@@ -459,7 +873,7 @@
   {
     "id": "wifi-dlink-r95",
     "category": "wifi",
-    "rank": 11,
+    "rank": 20,
     "budget": "mid",
     "channel": "tw",
     "brand": "D-Link",
@@ -504,7 +918,7 @@
   {
     "id": "wifi-acer-predator-t7",
     "category": "wifi",
-    "rank": 12,
+    "rank": 21,
     "budget": "mid",
     "channel": "tw",
     "brand": "Acer",
@@ -549,7 +963,7 @@
   {
     "id": "wifi-mercusys-halo-h80x-3pack",
     "category": "wifi",
-    "rank": 13,
+    "rank": 22,
     "budget": "mid",
     "channel": "tw",
     "brand": "Mercusys",
@@ -594,7 +1008,7 @@
   {
     "id": "wifi-xiaomi-ax3000-2pack",
     "category": "wifi",
-    "rank": 14,
+    "rank": 23,
     "budget": "value",
     "channel": "tw",
     "brand": "Xiaomi",
@@ -639,7 +1053,7 @@
   {
     "id": "wifi-tplink-archer-be220",
     "category": "wifi",
-    "rank": 15,
+    "rank": 24,
     "budget": "value",
     "channel": "tw",
     "brand": "TP-Link",
@@ -684,7 +1098,7 @@
   {
     "id": "wifi-mercusys-mr27be",
     "category": "wifi",
-    "rank": 16,
+    "rank": 25,
     "budget": "value",
     "channel": "tw",
     "brand": "Mercusys",
@@ -729,7 +1143,7 @@
   {
     "id": "wifi-totolink-be5",
     "category": "wifi",
-    "rank": 17,
+    "rank": 26,
     "budget": "value",
     "channel": "tw",
     "brand": "TOTOLINK",
@@ -774,7 +1188,7 @@
   {
     "id": "wifi-dlink-m36",
     "category": "wifi",
-    "rank": 18,
+    "rank": 27,
     "budget": "value",
     "channel": "tw",
     "brand": "D-Link",
@@ -819,7 +1233,7 @@
   {
     "id": "wifi-netgear-rs100",
     "category": "wifi",
-    "rank": 19,
+    "rank": 28,
     "budget": "mid",
     "channel": "tw",
     "brand": "NETGEAR",
@@ -864,7 +1278,7 @@
   {
     "id": "wifi-linksys-mx5502-3pack",
     "category": "wifi",
-    "rank": 20,
+    "rank": 29,
     "budget": "premium",
     "channel": "tw",
     "brand": "Linksys",
@@ -909,7 +1323,7 @@
   {
     "id": "wifi-synology-rt6600ax",
     "category": "wifi",
-    "rank": 21,
+    "rank": 30,
     "budget": "premium",
     "channel": "tw",
     "brand": "Synology",
@@ -954,7 +1368,7 @@
   {
     "id": "wifi-asus-rt-be88u",
     "category": "wifi",
-    "rank": 22,
+    "rank": 31,
     "budget": "premium",
     "channel": "tw",
     "brand": "ASUS",
@@ -999,7 +1413,7 @@
   {
     "id": "wifi-tplink-archer-be805",
     "category": "wifi",
-    "rank": 23,
+    "rank": 32,
     "budget": "premium",
     "channel": "tw",
     "brand": "TP-Link",
@@ -1044,7 +1458,7 @@
   {
     "id": "wifi-tplink-archer-be900",
     "category": "wifi",
-    "rank": 24,
+    "rank": 33,
     "budget": "premium",
     "channel": "tw",
     "brand": "TP-Link",
@@ -1089,7 +1503,7 @@
   {
     "id": "wifi-netgear-rs300",
     "category": "wifi",
-    "rank": 25,
+    "rank": 34,
     "budget": "mid",
     "channel": "tw",
     "brand": "NETGEAR",
@@ -1134,7 +1548,7 @@
   {
     "id": "wifi-zyxel-usg-lite-60ax",
     "category": "wifi",
-    "rank": 26,
+    "rank": 35,
     "budget": "mid",
     "channel": "tw",
     "brand": "Zyxel",
@@ -1179,7 +1593,7 @@
   {
     "id": "wifi-msi-radix-axe6600",
     "category": "wifi",
-    "rank": 27,
+    "rank": 36,
     "budget": "mid",
     "channel": "tw",
     "brand": "MSI",
@@ -1224,7 +1638,7 @@
   {
     "id": "wifi-acer-ovia-t360",
     "category": "wifi",
-    "rank": 28,
+    "rank": 37,
     "budget": "value",
     "channel": "tw",
     "brand": "Acer",
@@ -1269,7 +1683,7 @@
   {
     "id": "wifi-xiaomi-ax3000-1pack",
     "category": "wifi",
-    "rank": 29,
+    "rank": 38,
     "budget": "value",
     "channel": "tw",
     "brand": "Xiaomi",
@@ -1314,7 +1728,7 @@
   {
     "id": "wifi-totolink-x30-se",
     "category": "wifi",
-    "rank": 30,
+    "rank": 39,
     "budget": "value",
     "channel": "tw",
     "brand": "TOTOLINK",
@@ -1359,7 +1773,7 @@
   {
     "id": "wifi-qnap-qhora-301w",
     "category": "wifi",
-    "rank": 31,
+    "rank": 40,
     "budget": "mid",
     "channel": "tw",
     "brand": "QNAP",
@@ -1404,7 +1818,7 @@
   {
     "id": "wifi-cudy-ax3000-mesh",
     "category": "wifi",
-    "rank": 32,
+    "rank": 41,
     "budget": "value",
     "channel": "tw",
     "brand": "Cudy",
@@ -1449,7 +1863,7 @@
   {
     "id": "wifi-cudy-be3600",
     "category": "wifi",
-    "rank": 33,
+    "rank": 42,
     "budget": "value",
     "channel": "tw",
     "brand": "Cudy",
@@ -1494,7 +1908,7 @@
   {
     "id": "wifi-asus-rt-be3600hp",
     "category": "wifi",
-    "rank": 34,
+    "rank": 43,
     "budget": "mid",
     "channel": "tw",
     "brand": "ASUS",
@@ -1539,7 +1953,7 @@
   {
     "id": "wifi-tplink-deco-be22",
     "category": "wifi",
-    "rank": 35,
+    "rank": 44,
     "budget": "value",
     "channel": "tw",
     "brand": "TP-Link",
@@ -1584,7 +1998,7 @@
   {
     "id": "wifi-mercusys-halo-h25be-2pack",
     "category": "wifi",
-    "rank": 36,
+    "rank": 45,
     "budget": "mid",
     "channel": "tw",
     "brand": "Mercusys",
