@@ -29,6 +29,7 @@ const categories = [
   { id: "standingdesk", label: "升降桌", group: "工作網路" },
   { id: "chair", label: "電腦椅", group: "工作網路" },
   { id: "monitor", label: "電腦螢幕", group: "工作網路" },
+  { id: "monitorarm", label: "懸臂支架", group: "工作網路" },
 ];
 
 const products = [];

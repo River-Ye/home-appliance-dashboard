@@ -1662,6 +1662,711 @@
       "4K",
       "色彩管理"
     ]
+  },
+  {
+    "id": "monitor-acer-ed343cur-j0",
+    "category": "monitor",
+    "rank": 37,
+    "budget": "value",
+    "channel": "tw",
+    "brand": "Acer",
+    "model": "ED343CUR J0",
+    "name": "34 型 21:9 UWQHD 120Hz 曲面螢幕",
+    "price": {
+      "currency": "TWD",
+      "amount": 5499,
+      "converted": 5499,
+      "confidence": "可信通路查核價"
+    },
+    "image": "https://cs-a.ecimg.tw/items/DSABTEA900JE4G6/000001_1761734629.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DSABTE-A900JE4G6",
+    "buyLabel": "PChome",
+    "specs": [
+      "34 吋",
+      "3440x1440 / 21:9",
+      "120Hz",
+      "VA",
+      "曲面"
+    ],
+    "description": "Acer ED343CUR J0 是低預算切入 34 吋 UWQHD 寬螢幕的選項，適合想要左右並排視窗又不想花太多的人。",
+    "pros": [
+      "34 吋 UWQHD 價格低",
+      "120Hz 比一般辦公螢幕順",
+      "21:9 適合多視窗工作"
+    ],
+    "cons": [
+      "VA 面板拖影與可視角不如 IPS/OLED",
+      "支架與色彩功能偏基本"
+    ],
+    "bestFor": "預算有限、想先試 21:9 寬螢幕做文書、程式與一般遊戲的人。",
+    "recommendation": "入門寬螢幕推薦：價格非常甜，但若很在意動態殘影可往 AOC 180Hz 或 OLED 款升級。",
+    "score": 86,
+    "voltage": "110V 台灣通路",
+    "warranty": "依 PChome/供應商頁面",
+    "tags": [
+      "寬螢幕",
+      "21:9",
+      "UWQHD",
+      "曲面"
+    ]
+  },
+  {
+    "id": "monitor-gigabyte-gs34wqca",
+    "category": "monitor",
+    "rank": 38,
+    "budget": "value",
+    "channel": "tw",
+    "brand": "GIGABYTE",
+    "model": "GS34WQCA",
+    "name": "34 型 21:9 WQHD 120Hz 1500R 曲面螢幕",
+    "price": {
+      "currency": "TWD",
+      "amount": 5990,
+      "converted": 5990,
+      "confidence": "可信通路查核價"
+    },
+    "image": "https://cs-a.ecimg.tw/items/DSABW5A900K1FZH/000001_1779473385.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DSABW5-A900K1FZH",
+    "buyLabel": "PChome",
+    "specs": [
+      "34 吋",
+      "WQHD / 21:9",
+      "120Hz",
+      "1500R",
+      "120% sRGB"
+    ],
+    "description": "GIGABYTE GS34WQCA 以 34 吋 21:9、120Hz 和 1500R 曲率切進低價寬螢幕帶，工作和輕遊戲都能用。",
+    "pros": [
+      "價格仍在六千元附近",
+      "1500R 曲率適合近距離寬螢幕",
+      "技嘉通路常見"
+    ],
+    "cons": [
+      "120Hz 不算高刷旗艦",
+      "VA 面板需接受暗部拖影風險"
+    ],
+    "bestFor": "想要平價 34 吋曲面、偶爾玩遊戲、桌深不大的使用者。",
+    "recommendation": "平價曲面候選：和 Acer 接近，但技嘉品牌與色域標示較完整，適合比較售後與庫存後選。",
+    "score": 85,
+    "voltage": "110V 台灣通路",
+    "warranty": "依 PChome/供應商頁面",
+    "tags": [
+      "寬螢幕",
+      "21:9",
+      "WQHD",
+      "曲面"
+    ]
+  },
+  {
+    "id": "monitor-msi-pro-mp341cqw-e12",
+    "category": "monitor",
+    "rank": 39,
+    "budget": "value",
+    "channel": "tw",
+    "brand": "MSI",
+    "model": "PRO MP341CQW E12",
+    "name": "34 型 UWQHD 120Hz 曲面美型螢幕",
+    "price": {
+      "currency": "TWD",
+      "amount": 6288,
+      "converted": 6288,
+      "confidence": "可信通路查核價"
+    },
+    "image": "https://cs-a.ecimg.tw/items/DSABPFA900K0AJK/000001_1778658221.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DSABPF-A900K0AJK",
+    "buyLabel": "PChome",
+    "specs": [
+      "34 吋",
+      "UWQHD",
+      "120Hz",
+      "1500R",
+      "內建喇叭"
+    ],
+    "description": "MSI PRO MP341CQW E12 偏工作和娛樂兼用，34 吋 21:9 加上內建喇叭，桌面可以少一點線材。",
+    "pros": [
+      "34 吋 UWQHD 價格合理",
+      "內建喇叭方便臨時使用",
+      "MSI EyesErgo 護眼定位明確"
+    ],
+    "cons": [
+      "不是高階電競或 OLED",
+      "內建喇叭音質不會取代外接喇叭"
+    ],
+    "bestFor": "工作為主、偶爾娛樂，想要一台簡單大視野螢幕的人。",
+    "recommendation": "工作寬螢幕推薦：比純電競款安靜，適合辦公桌和居家工作混用。",
+    "score": 86,
+    "voltage": "110V 台灣通路",
+    "warranty": "依 PChome/供應商頁面",
+    "tags": [
+      "寬螢幕",
+      "21:9",
+      "UWQHD",
+      "文書"
+    ]
+  },
+  {
+    "id": "monitor-aoc-cu34g4",
+    "category": "monitor",
+    "rank": 40,
+    "budget": "value",
+    "channel": "tw",
+    "brand": "AOC",
+    "model": "CU34G4",
+    "name": "34 型 WQHD 180Hz 1500R 曲面電競螢幕",
+    "price": {
+      "currency": "TWD",
+      "amount": 6888,
+      "converted": 6888,
+      "confidence": "可信通路查核價"
+    },
+    "image": "https://cs-a.ecimg.tw/items/DSABQRA900JPRWC/000001_1770367990.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DSABQR-A900JPRWC",
+    "buyLabel": "PChome",
+    "specs": [
+      "34 吋",
+      "3440x1440 / 21:9",
+      "180Hz",
+      "0.5ms MPRT",
+      "1500R"
+    ],
+    "description": "AOC CU34G4 把 34 吋 21:9 與 180Hz 放在相對親民價格，是寬螢幕遊戲 CP 值很強的候選。",
+    "pros": [
+      "180Hz 比多數平價 34 吋更順",
+      "價格仍不到萬元",
+      "21:9 適合沉浸遊戲與多視窗"
+    ],
+    "cons": [
+      "VA 面板不是每個人都喜歡",
+      "HDR 與色彩不是高階主打"
+    ],
+    "bestFor": "想買 34 吋寬螢幕打遊戲，又不想上 OLED 價格的人。",
+    "recommendation": "寬螢幕 CP 推薦：價格、刷新率與尺寸最均衡，是多數人先看的 34 吋選項。",
+    "score": 90,
+    "voltage": "110V 台灣通路",
+    "warranty": "依 PChome/供應商頁面",
+    "tags": [
+      "寬螢幕",
+      "21:9",
+      "180Hz",
+      "CP 值"
+    ]
+  },
+  {
+    "id": "monitor-acer-ed340cur-x0",
+    "category": "monitor",
+    "rank": 41,
+    "budget": "value",
+    "channel": "tw",
+    "brand": "Acer",
+    "model": "ED340CUR X0",
+    "name": "34 型 UWQHD 200Hz 曲面螢幕",
+    "price": {
+      "currency": "TWD",
+      "amount": 6999,
+      "converted": 6999,
+      "confidence": "可信通路查核價"
+    },
+    "image": "https://cs-a.ecimg.tw/items/DSABTEA900JSV4E/000001_1773130247.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DSABTE-A900JSV4E",
+    "buyLabel": "PChome",
+    "specs": [
+      "34 吋",
+      "UWQHD",
+      "200Hz",
+      "1ms",
+      "曲面 VA"
+    ],
+    "description": "Acer ED340CUR X0 在低價寬螢幕裡給到 200Hz，適合比一般 120Hz 更在意滑順度的玩家。",
+    "pros": [
+      "200Hz 規格亮眼",
+      "價格仍低",
+      "34 吋 UWQHD 視野好"
+    ],
+    "cons": [
+      "VA 面板動態表現需實際感受",
+      "支架與 USB-C 等生產力功能較少"
+    ],
+    "bestFor": "想在七千元上下買到 34 吋高刷新寬螢幕的人。",
+    "recommendation": "高刷平價候選：如果比起品牌調校更重視刷新率，這台比 120Hz 款更有吸引力。",
+    "score": 88,
+    "voltage": "110V 台灣通路",
+    "warranty": "依 PChome/供應商頁面",
+    "tags": [
+      "寬螢幕",
+      "21:9",
+      "200Hz",
+      "電競"
+    ]
+  },
+  {
+    "id": "monitor-asus-xg34wcdms",
+    "category": "monitor",
+    "rank": 42,
+    "budget": "premium",
+    "channel": "tw",
+    "brand": "ASUS",
+    "model": "ROG Strix XG34WCDMS",
+    "name": "34 型 UWQHD 280Hz QD-OLED 曲面電競螢幕",
+    "price": {
+      "currency": "TWD",
+      "amount": 26888,
+      "converted": 26888,
+      "confidence": "可信通路查核價"
+    },
+    "image": "https://cs-a.ecimg.tw/items/DSABKBA900K0YA0/000001_1779246107.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DSABKB-A900K0YA0",
+    "buyLabel": "PChome",
+    "specs": [
+      "34 吋",
+      "3440x1440",
+      "280Hz",
+      "QD-OLED",
+      "USB-C"
+    ],
+    "description": "ROG Strix XG34WCDMS 是高階 34 吋 QD-OLED 寬螢幕，主打極快反應、280Hz 與 USB-C。",
+    "pros": [
+      "QD-OLED 對比與反應速度優秀",
+      "280Hz 高刷新率",
+      "ROG 售後與 OLED 保固資訊較完整"
+    ],
+    "cons": [
+      "價格明顯高於 VA 寬螢幕",
+      "OLED 仍需注意長時間靜態畫面"
+    ],
+    "bestFor": "高階遊戲、影音與想要 21:9 OLED 沉浸感的人。",
+    "recommendation": "34 吋 OLED 推薦：比 49 吋容易放進一般桌面，畫質與刷新率都很強。",
+    "score": 91,
+    "voltage": "110V 台灣通路",
+    "warranty": "依 PChome/供應商頁面",
+    "tags": [
+      "寬螢幕",
+      "OLED",
+      "280Hz",
+      "USB-C"
+    ]
+  },
+  {
+    "id": "monitor-samsung-s34dg852sc",
+    "category": "monitor",
+    "rank": 43,
+    "budget": "premium",
+    "channel": "tw",
+    "brand": "Samsung",
+    "model": "S34DG852SC",
+    "name": "34 型 OLED G8 21:9 175Hz 曲面智慧顯示器",
+    "price": {
+      "currency": "TWD",
+      "amount": 24900,
+      "converted": 24900,
+      "confidence": "可信通路查核價"
+    },
+    "image": "https://cs-a.ecimg.tw/items/DSABUFA900K03Q2/000001_1778565462.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DSABUF-A900K03Q2",
+    "buyLabel": "PChome",
+    "specs": [
+      "34 吋",
+      "UWQHD / 21:9",
+      "OLED",
+      "175Hz",
+      "智慧聯網"
+    ],
+    "description": "Samsung OLED G8 34 吋結合 21:9、OLED 與智慧聯網功能，適合同時看重遊戲與影音串流的人。",
+    "pros": [
+      "OLED 畫質與反應速度強",
+      "智慧聯網功能可獨立看影音",
+      "外型與抗眩光處理佳"
+    ],
+    "cons": [
+      "價格高於一般 34 吋",
+      "175Hz 不如最新 240/280Hz OLED"
+    ],
+    "bestFor": "桌面想兼顧 PC 遊戲、主機與影音串流的人。",
+    "recommendation": "影音型 OLED 推薦：如果會把螢幕當小電視用，OLED G8 的智慧功能很加分。",
+    "score": 88,
+    "voltage": "110V 台灣通路",
+    "warranty": "依 PChome/供應商頁面",
+    "tags": [
+      "寬螢幕",
+      "OLED",
+      "智慧聯網",
+      "21:9"
+    ]
+  },
+  {
+    "id": "monitor-aoc-pd34",
+    "category": "monitor",
+    "rank": 44,
+    "budget": "premium",
+    "channel": "tw",
+    "brand": "AOC",
+    "model": "PD34",
+    "name": "34 型 Porsche Design 240Hz QD-OLED 曲面螢幕",
+    "price": {
+      "currency": "TWD",
+      "amount": 29988,
+      "converted": 29988,
+      "confidence": "可信通路查核價"
+    },
+    "image": "https://cs-a.ecimg.tw/items/DSABQRA900K5BI4/000001_1782298311.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DSABQR-A900K5BI4",
+    "buyLabel": "PChome",
+    "specs": [
+      "34 吋",
+      "WQHD / 21:9",
+      "QD-OLED",
+      "240Hz",
+      "1800R"
+    ],
+    "description": "AOC PD34 是 Porsche Design 外觀的 34 吋 QD-OLED，規格和設計感都走高階路線。",
+    "pros": [
+      "QD-OLED 240Hz",
+      "設計感強",
+      "21:9 遊戲沉浸感佳"
+    ],
+    "cons": [
+      "價格高",
+      "設計溢價不是每個人都需要"
+    ],
+    "bestFor": "想要高階 OLED，又在意螢幕外觀和桌面質感的人。",
+    "recommendation": "設計型 OLED 候選：規格很完整，但若只看 CP 值，ASUS/AOC 平價 34 吋會更理性。",
+    "score": 87,
+    "voltage": "110V 台灣通路",
+    "warranty": "依 PChome/供應商頁面",
+    "tags": [
+      "寬螢幕",
+      "QD-OLED",
+      "240Hz",
+      "設計"
+    ]
+  },
+  {
+    "id": "monitor-samsung-s49fg916e",
+    "category": "monitor",
+    "rank": 45,
+    "budget": "premium",
+    "channel": "tw",
+    "brand": "Samsung",
+    "model": "S49FG916E",
+    "name": "49 型 Odyssey G9 Dual QHD 144Hz 32:9 曲面螢幕",
+    "price": {
+      "currency": "TWD",
+      "amount": 22900,
+      "converted": 22900,
+      "confidence": "可信通路查核價"
+    },
+    "image": "https://cs-a.ecimg.tw/items/DSABW5A900K1VVE/000001_1779865665.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DSABW5-A900K1VVE",
+    "buyLabel": "PChome",
+    "specs": [
+      "49 吋",
+      "5120x1440 / 32:9",
+      "144Hz",
+      "1000R",
+      "HDR600"
+    ],
+    "description": "Samsung Odyssey G9 49 吋相當於兩台 27 吋 QHD 並排，適合大量視窗、剪輯時間軸與沉浸遊戲。",
+    "pros": [
+      "32:9 大視野非常適合多工",
+      "Dual QHD 比 3840x1080 細緻",
+      "價格比 OLED G9 低很多"
+    ],
+    "cons": [
+      "桌深與桌寬需求高",
+      "建議搭配高承重懸臂支架或穩固原廠腳架"
+    ],
+    "bestFor": "想用一台螢幕取代雙 27 吋的人，尤其是剪輯、交易、多文件與模擬遊戲。",
+    "recommendation": "49 吋 CP 推薦：Dual QHD 加上 144Hz，價格比 OLED 版本親切，是超寬大螢幕甜蜜點。",
+    "score": 90,
+    "voltage": "110V 台灣通路",
+    "warranty": "依 PChome/供應商頁面",
+    "tags": [
+      "寬螢幕",
+      "49吋",
+      "32:9",
+      "Dual QHD"
+    ]
+  },
+  {
+    "id": "monitor-samsung-s49dg932scxzw",
+    "category": "monitor",
+    "rank": 46,
+    "budget": "premium",
+    "channel": "tw",
+    "brand": "Samsung",
+    "model": "S49DG932SCXZW",
+    "name": "49 型 Odyssey OLED G9 Dual QHD 240Hz 曲面螢幕",
+    "price": {
+      "currency": "TWD",
+      "amount": 36900,
+      "converted": 36900,
+      "confidence": "可信通路查核價"
+    },
+    "image": "https://cs-a.ecimg.tw/items/DMBM10A900HZCPE/000001_1781766568.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DMBM10-A900HZCPE",
+    "buyLabel": "PChome",
+    "specs": [
+      "49 吋",
+      "5120x1440 / 32:9",
+      "OLED",
+      "240Hz",
+      "0.03ms"
+    ],
+    "description": "Odyssey OLED G9 把 49 吋 32:9、OLED 與 240Hz 結合，是追求沉浸感和畫質的高階選擇。",
+    "pros": [
+      "49 吋 OLED 沉浸感極強",
+      "240Hz 與 0.03ms 反應快速",
+      "可取代雙螢幕配置"
+    ],
+    "cons": [
+      "價格高",
+      "大型 OLED 更需要注意靜態畫面與支架承重"
+    ],
+    "bestFor": "高階遊戲、模擬器、影音創作和想要一台超寬 OLED 主螢幕的人。",
+    "recommendation": "49 吋 OLED 推薦：畫質與速度都頂，但務必確認桌深與支架至少能承受螢幕重量。",
+    "score": 89,
+    "voltage": "110V 台灣通路",
+    "warranty": "依 PChome/供應商頁面",
+    "tags": [
+      "寬螢幕",
+      "49吋",
+      "OLED",
+      "32:9"
+    ]
+  },
+  {
+    "id": "monitor-aoc-ag456uczd",
+    "category": "monitor",
+    "rank": 47,
+    "budget": "premium",
+    "channel": "tw",
+    "brand": "AOC",
+    "model": "AG456UCZD",
+    "name": "45 型 21:9 OLED 240Hz 800R 曲面電競螢幕",
+    "price": {
+      "currency": "TWD",
+      "amount": 38888,
+      "converted": 38888,
+      "confidence": "可信通路查核價"
+    },
+    "image": "https://cs-a.ecimg.tw/items/DSABW9A900K5BHI/000001_1782298284.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DSABW9-A900K5BHI",
+    "buyLabel": "PChome",
+    "specs": [
+      "45 吋",
+      "21:9",
+      "OLED",
+      "240Hz",
+      "800R"
+    ],
+    "description": "AOC AG456UCZD 是 45 吋 21:9 OLED 大曲面螢幕，視野比 34 吋更開闊，但桌面占用也明顯增加。",
+    "pros": [
+      "45 吋 21:9 沉浸感強",
+      "OLED 240Hz",
+      "800R 曲率適合包覆視野"
+    ],
+    "cons": [
+      "桌深、坐距與支架承重都要仔細確認",
+      "文字細緻度不一定適合所有文書工作"
+    ],
+    "bestFor": "以遊戲、影音和沉浸感為主，桌面空間充足的人。",
+    "recommendation": "45 吋 OLED 候選：遊戲爽度很高，但如果主要寫字或程式，建議先比較 34/49 吋解析度密度。",
+    "score": 86,
+    "voltage": "110V 台灣通路",
+    "warranty": "依 PChome/供應商頁面",
+    "tags": [
+      "寬螢幕",
+      "45吋",
+      "OLED",
+      "大螢幕"
+    ]
+  },
+  {
+    "id": "monitor-lg-45gx90sa",
+    "category": "monitor",
+    "rank": 48,
+    "budget": "premium",
+    "channel": "tw",
+    "brand": "LG",
+    "model": "45GX90SA-B",
+    "name": "45 型 UltraGear 21:9 OLED 240Hz 智慧曲面螢幕",
+    "price": {
+      "currency": "TWD",
+      "amount": 41310,
+      "converted": 41310,
+      "confidence": "可信通路查核價"
+    },
+    "image": "https://cs-a.ecimg.tw/items/DPADZMA900JPITR/000001_1770272421.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DPADZM-A900JPITR",
+    "buyLabel": "PChome",
+    "specs": [
+      "45 吋",
+      "WQHD / 21:9",
+      "OLED",
+      "240Hz",
+      "webOS"
+    ],
+    "description": "LG 45GX90SA-B 是 45 吋 OLED 21:9 智慧電競螢幕，內建 webOS，兼顧 PC、主機與影音用途。",
+    "pros": [
+      "45 吋 OLED 畫面震撼",
+      "webOS 可獨立使用串流",
+      "LG OLED 調校與品牌口碑強"
+    ],
+    "cons": [
+      "價格高",
+      "大尺寸 21:9 對桌深與坐距要求高"
+    ],
+    "bestFor": "想把工作桌變成遊戲/影音主戰場，又喜歡 LG OLED 生態的人。",
+    "recommendation": "智慧 45 吋推薦：如果會常看影音，LG webOS 比純 PC 螢幕更方便。",
+    "score": 87,
+    "voltage": "110V 台灣通路",
+    "warranty": "依 PChome/供應商頁面",
+    "tags": [
+      "寬螢幕",
+      "45吋",
+      "OLED",
+      "智慧聯網"
+    ]
+  },
+  {
+    "id": "monitor-samsung-s57cg952nc",
+    "category": "monitor",
+    "rank": 49,
+    "budget": "premium",
+    "channel": "tw",
+    "brand": "Samsung",
+    "model": "S57CG952NC",
+    "name": "57 型 Odyssey Neo G9 Dual UHD 240Hz Mini LED 曲面螢幕",
+    "price": {
+      "currency": "TWD",
+      "amount": 69900,
+      "converted": 69900,
+      "confidence": "可信通路查核價"
+    },
+    "image": "https://cs-a.ecimg.tw/items/DSABT5A900J8G5R/000001_1775545592.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DSABT5-A900J8G5R",
+    "buyLabel": "PChome",
+    "specs": [
+      "57 吋",
+      "7680x2160 / 32:9",
+      "Mini LED",
+      "240Hz",
+      "1000R"
+    ],
+    "description": "Odyssey Neo G9 57 吋是 Dual UHD 超寬旗艦，解析度與尺寸都非常吃桌面、顯卡與支架承重。",
+    "pros": [
+      "57 吋 Dual UHD 工作區巨大",
+      "Mini LED 與 HDR 規格高",
+      "240Hz 旗艦定位"
+    ],
+    "cons": [
+      "價格高且非常吃顯卡",
+      "支架需特別確認 57 吋與重量支援"
+    ],
+    "bestFor": "頂級模擬器、金融交易、多工工作站與有足夠桌深的大桌使用者。",
+    "recommendation": "超大寬螢幕旗艦：只有真的需要 57 吋 Dual UHD 才值得，懸臂支架建議看 27kg/30kg 級距。",
+    "score": 85,
+    "voltage": "110V 台灣通路",
+    "warranty": "依 PChome/供應商頁面",
+    "tags": [
+      "寬螢幕",
+      "57吋",
+      "32:9",
+      "Mini LED"
+    ]
+  },
+  {
+    "id": "monitor-dell-u3425we",
+    "category": "monitor",
+    "rank": 50,
+    "budget": "premium",
+    "channel": "tw",
+    "brand": "Dell",
+    "model": "U3425WE-5Y",
+    "name": "34 型 21:9 IPS Black 120Hz USB-C 商務曲面螢幕",
+    "price": {
+      "currency": "TWD",
+      "amount": 39888,
+      "converted": 39888,
+      "confidence": "可信通路查核價"
+    },
+    "image": "https://cs-a.ecimg.tw/items/DSABOMA900HIJN3/000001_1716881117.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DSABOM-A900HIJN3",
+    "buyLabel": "PChome",
+    "specs": [
+      "34 吋",
+      "3440x1440 / 21:9",
+      "IPS",
+      "120Hz",
+      "Type-C"
+    ],
+    "description": "Dell U3425WE 是偏商務生產力的 34 吋寬螢幕，重點在 USB-C、保固與辦公穩定性。",
+    "pros": [
+      "Dell UltraSharp 商務口碑佳",
+      "USB-C 與辦公連接性完整",
+      "IPS 類型更適合文字與色彩穩定"
+    ],
+    "cons": [
+      "價格遠高於平價 34 吋 VA",
+      "不是高階電競取向"
+    ],
+    "bestFor": "MacBook/筆電外接、長時間文書、程式與會議使用者。",
+    "recommendation": "商務寬螢幕推薦：如果你把穩定、保固、Type-C 擺在遊戲規格前面，這台很合理。",
+    "score": 86,
+    "voltage": "110V 台灣通路",
+    "warranty": "依 PChome/供應商頁面",
+    "tags": [
+      "寬螢幕",
+      "21:9",
+      "USB-C",
+      "商務"
+    ]
+  },
+  {
+    "id": "monitor-msi-mpg-491cqp",
+    "category": "monitor",
+    "rank": 51,
+    "budget": "premium",
+    "channel": "tw",
+    "brand": "MSI",
+    "model": "MPG 491CQP",
+    "name": "49 型 DQHD QD-OLED 144Hz Type-C 曲面螢幕",
+    "price": {
+      "currency": "TWD",
+      "amount": 32900,
+      "converted": 32900,
+      "confidence": "可信通路查核價"
+    },
+    "image": "https://cs-a.ecimg.tw/items/DSABPDA900H9PEB/000001_1709257135.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DSABPD-A900H9PEB",
+    "buyLabel": "PChome",
+    "specs": [
+      "49 吋",
+      "5120x1440 / 32:9",
+      "QD-OLED",
+      "144Hz",
+      "Type-C 90W"
+    ],
+    "description": "MSI MPG 491CQP 是 49 吋 QD-OLED 超寬螢幕，帶 Type-C 供電與 KVM，工作與遊戲都能整合。",
+    "pros": [
+      "49 吋 QD-OLED 價格具競爭力",
+      "Type-C 90W 與 KVM 對筆電族方便",
+      "32:9 可取代雙螢幕"
+    ],
+    "cons": [
+      "144Hz 不如 240Hz OLED G9",
+      "仍需高承重支架或穩固大桌"
+    ],
+    "bestFor": "同時接桌機與筆電、需要 32:9 大工作區與 OLED 畫質的人。",
+    "recommendation": "49 吋生產力 OLED 推薦：比 Samsung OLED G9 多了明確 Type-C/KVM 賣點，辦公整合更方便。",
+    "score": 88,
+    "voltage": "110V 台灣通路",
+    "warranty": "依 PChome/供應商頁面",
+    "tags": [
+      "寬螢幕",
+      "49吋",
+      "QD-OLED",
+      "Type-C"
+    ]
   }
 ]);
 })();
