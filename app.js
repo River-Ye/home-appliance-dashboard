@@ -63,6 +63,8 @@ const state = {
   renderLimit: INITIAL_PRODUCT_LIMIT,
 };
 
+let lazyLoadingPausedUntil = 0;
+
 const currencyFormatter = new Intl.NumberFormat("zh-TW", {
   maximumFractionDigits: 0,
 });
@@ -141,7 +143,16 @@ function hasMoreProducts(matchedProducts) {
   return state.renderLimit < matchedProducts.length;
 }
 
+function pauseLazyLoading(duration = 1800) {
+  lazyLoadingPausedUntil = Date.now() + duration;
+}
+
+function isLazyLoadingPaused() {
+  return Date.now() < lazyLoadingPausedUntil;
+}
+
 function loadMoreProducts() {
+  if (isLazyLoadingPaused()) return;
   const matchedProducts = filteredProducts();
   if (!hasMoreProducts(matchedProducts)) return;
   state.renderLimit = Math.min(matchedProducts.length, state.renderLimit + LOAD_MORE_PRODUCT_COUNT);
@@ -594,6 +605,19 @@ function imageMarkup(product) {
   return `<img src="${product.image}" alt="${product.brand} ${product.model}" loading="lazy" onerror="this.style.display='none'; this.nextElementSibling.style.display='grid';">${fallback}`;
 }
 
+function releaseDateText(product) {
+  return product.releaseDate || "找不到";
+}
+
+function specItemMarkup(label, value) {
+  return `
+    <div class="spec-item">
+      <b>${escapeHtml(label)}</b>
+      <span>${escapeHtml(value)}</span>
+    </div>
+  `;
+}
+
 function cardMarkup(product) {
   const isCompared = state.compare.has(product.id);
   const priceNote = product.price.currency === "TWD"
@@ -627,12 +651,7 @@ function cardMarkup(product) {
           <div class="score" title="綜合評估分數">${product.score}</div>
         </div>
         <div class="spec-list">
-          ${product.specs.map((spec, index) => `
-            <div class="spec-item">
-              <b>規格 ${index + 1}</b>
-              <span>${spec}</span>
-            </div>
-          `).join("")}
+          ${product.specs.map((spec, index) => specItemMarkup(`規格 ${index + 1}`, spec)).join("")}
         </div>
         <p class="description">${product.description}</p>
         <p class="recommendation">${product.recommendation}</p>
@@ -646,18 +665,9 @@ function cardMarkup(product) {
             <ul>${product.cons.map((item) => `<li>${item}</li>`).join("")}</ul>
           </div>
         </div>
-        <div class="spec-item">
-          <b>適合對象</b>
-          <span>${product.bestFor}</span>
-        </div>
-        <div class="spec-item">
-          <b>電壓 / 保固</b>
-          <span>${product.voltage}；${product.warranty}</span>
-        </div>
-        <div class="spec-item">
-          <b>上市 / 發售日期</b>
-          <span>${product.releaseDate || "找不到"}</span>
-        </div>
+        ${specItemMarkup("適合對象", product.bestFor)}
+        ${specItemMarkup("電壓 / 保固", `${product.voltage}；${product.warranty}`)}
+        ${specItemMarkup("上市 / 發售日期", releaseDateText(product))}
         <div class="tag-row">${product.tags.map((tag) => `<span class="tag">${tag}</span>`).join("")}</div>
         <p class="fineprint">資料來源：${product.buyLabel}，擷取日 2026-07-08。</p>
       </div>
@@ -693,7 +703,7 @@ function renderCompare() {
     ["品牌/型號", (product) => `${product.brand} ${product.model}`],
     ["TWD 價格", (product) => formatTwd(product.price.converted)],
     ["原幣價格", (product) => formatOriginal(product.price)],
-    ["上市/發售", (product) => product.releaseDate || "找不到"],
+    ["上市/發售", releaseDateText],
     ["規格", (product) => product.specs.join(" / ")],
     ["優勢", (product) => product.pros.join(" / ")],
     ["留意", (product) => product.cons.join(" / ")],
@@ -818,25 +828,58 @@ function scrollToPageBottom() {
   window.scrollTo({ top: target, behavior: "smooth" });
 }
 
+function shouldReduceMotion() {
+  return window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+}
+
+function scrollProductCardIntoView(card) {
+  const rect = card.getBoundingClientRect();
+  const stickyOffset = window.innerWidth < 760 ? 88 : 112;
+  const targetTop = Math.max(0, Math.round(window.scrollY + rect.top - stickyOffset));
+  const distance = Math.abs(window.scrollY - targetTop);
+  const behavior = shouldReduceMotion() || distance > 6000 ? "auto" : "smooth";
+
+  window.scrollTo({ top: targetTop, behavior });
+  return behavior === "auto" ? 80 : 360;
+}
+
+function productCardIsVisible(card) {
+  const rect = card.getBoundingClientRect();
+  return rect.top < window.innerHeight - 80 && rect.bottom > 80;
+}
+
+function markProductCardWhenVisible(productId, startedAt) {
+  const card = document.querySelector(`[data-product-id="${productId}"]`);
+  if (!card) return;
+
+  if (!productCardIsVisible(card) && Date.now() - startedAt < 1800) {
+    window.requestAnimationFrame(() => markProductCardWhenVisible(productId, startedAt));
+    return;
+  }
+
+  card.classList.add("is-targeted");
+  window.setTimeout(() => {
+    card.classList.remove("is-targeted");
+  }, 1500);
+}
+
 function highlightProductCard(productId) {
   const card = document.querySelector(`[data-product-id="${productId}"]`);
   if (!card) return;
   card.classList.remove("is-targeted");
-  card.scrollIntoView({ behavior: "smooth", block: "center" });
+  const highlightDelay = scrollProductCardIntoView(card);
   window.setTimeout(() => {
-    card.classList.add("is-targeted");
-  }, 220);
-  window.setTimeout(() => {
-    card.classList.remove("is-targeted");
-  }, 1500);
+    markProductCardWhenVisible(productId, Date.now());
+  }, highlightDelay);
 }
 
 function focusProductFromTopPick(productId) {
   const visible = filteredProducts();
   const index = visible.findIndex((product) => product.id === productId);
   if (index < 0) return;
+  pauseLazyLoading();
   if (index >= state.renderLimit) {
-    state.renderLimit = index + 1;
+    state.renderLimit = Math.min(visible.length, index + LOAD_MORE_PRODUCT_COUNT);
     render();
   }
   window.requestAnimationFrame(() => highlightProductCard(productId));
