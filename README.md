@@ -12,16 +12,8 @@
 
 ## 內容
 
-- 21 類商品，每類至少 20 個型號，共 510 筆。
-- 掃拖機器人已擴充到 28 筆，涵蓋 Roborock、ECOVACS、Dreame、Narwal、iRobot、eufy、MOVA、LG、Shark、Dyson 的旗艦 / 次旗艦或代表機種。
-- 無線路由器已擴充到 45 筆，只保留 Wi-Fi 6 以上機種，涵蓋 ASUS、TP-Link、D-Link、NETGEAR、Linksys、Synology、Aruba、UniFi、Zyxel、Mercusys、MSI、Acer、Xiaomi、TOTOLINK、QNAP、Cudy 等品牌，並逐筆標示 Mesh/多 AP/商用管理支援狀態。
-- 升降桌已加入 20 筆，涵蓋 Loctek、iRocks、LOGIS、NITORI、COUGAR、Apexgaming、Water3F、Kraftdale、E-home 等可信通路可購買款。
-- 電腦椅已加入 20 筆，涵蓋 iRocks、Ergohuman、Razer、Herman Miller、Steelcase、Backbone、AOTTO、IONRAX、COUGAR、MARSRHINO、Artso 等人體工學與電競代表款。
-- 電腦螢幕已加入 51 筆，涵蓋 ASUS、Acer、BenQ、LG、Dell、Samsung、MSI、GIGABYTE、ViewSonic、AOC、Philips、EIZO、Xiaomi 等品牌，包含入門 FHD、高 CP 2K 高刷新、4K/USB-C、生產力、OLED、Mini LED、專業色彩與 34/45/49/57 吋寬螢幕款。
-- 懸臂支架已加入 20 筆，涵蓋 Raymii、Happy Tech、TDGB、Loctek、Ergotron、j5create、BenQ、LINDY、易控王等通路可買款；若支援 49/57 吋大寬螢幕，逐筆標示支援尺寸與承重重量。
-- 電子鎖已加入 46 筆，涵蓋 Yale、Philips、Kaadas、Aqara、Lockin、Zigbang/SHP、dormakaba、Milre、FIBRE、HITACHI、Lockly、WAFERLOCK、SHARP、Panasonic、HYUNDAI、3E、moorgen 等通路可買品牌。
-- 鍋具、刀具、櫥下飲水機、洗碗機各 20 筆，聚焦可信通路新品，排除配件、耗材、福利品、展示機與誤判品。
-- 空氣清淨機已補入 POIEMA 新氣几系列；電風扇已補入 Philips 風扇/循環扇/塔扇/無葉片款。
+- 共 21 類商品，每種商品至少 20 個，共 510 筆。
+- 聚焦可信通路新品，排除配件、耗材、福利品、展示機與誤判品。
 - 每類「綜合推薦」以 CP 值、評價口碑、價格、可信通路、台灣售後/保固風險綜合判斷，並附簡短推薦原因。
 - 支援分類、品牌、預算、通路、搜尋、排序與比較清單。
 - 針對桌機與手機操作最佳化，包含群組化分類列、sticky 分類列、手機快速操作列與重設篩選。
