@@ -710,6 +710,226 @@
       "9kg",
       "低價"
     ]
+  },
+  {
+    "id": "monitorarm-extra-16-dcagu1a900i6wcy",
+    "category": "monitorarm",
+    "rank": 16,
+    "budget": "value",
+    "channel": "tw",
+    "brand": "BenQ",
+    "model": "BSH01",
+    "name": "45吋 20KG 氣壓式螢幕支架",
+    "price": {
+      "currency": "TWD",
+      "amount": 2999,
+      "converted": 2999,
+      "confidence": "可信通路查核價，擷取 2026-07-08"
+    },
+    "image": "https://cs-a.ecimg.tw/items/DCAGU1A900I6WCY/000001_1754374453.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DCAGU1-A900I6WCY",
+    "buyLabel": "PChome",
+    "specs": [
+      "支援 45吋",
+      "承重 20kg",
+      "氣壓式",
+      "VESA"
+    ],
+    "description": "BenQ BSH01 補進本分類比較池，重點是支援 45吋、承重 20kg、氣壓式，適合和同類 Top Pick 依預算、售後與規格一起比較。",
+    "pros": [
+      "品牌售後比雜牌安心",
+      "20kg 可支援多數 34/45 吋螢幕"
+    ],
+    "cons": [
+      "不適合 57 吋超重螢幕",
+      "價格高於一般支架"
+    ],
+    "bestFor": "想依螢幕尺寸、重量、桌板厚度與 VESA 規格挑支架的人。",
+    "recommendation": "補充推薦：45吋 20KG 氣壓式螢幕支架 的優勢在品牌售後比雜牌安心，但仍建議把不適合 57 吋超重螢幕納入取捨。",
+    "score": 86,
+    "voltage": "無需用電",
+    "warranty": "依台灣通路/品牌保固",
+    "tags": [
+      "45吋",
+      "20kg",
+      "大螢幕"
+    ]
+  },
+  {
+    "id": "monitorarm-extra-17-dcagu1a900ix2md",
+    "category": "monitorarm",
+    "rank": 17,
+    "budget": "value",
+    "channel": "tw",
+    "brand": "BenQ",
+    "model": "BDH01",
+    "name": "35吋 20KG 雙臂氣壓式螢幕支架",
+    "price": {
+      "currency": "TWD",
+      "amount": 5390,
+      "converted": 5390,
+      "confidence": "可信通路查核價，擷取 2026-07-08"
+    },
+    "image": "https://cs-a.ecimg.tw/items/DCAGU1A900IX2MD/000001_1749518938.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DCAGU1-A900IX2MD",
+    "buyLabel": "PChome",
+    "specs": [
+      "雙臂",
+      "支援 35吋",
+      "承重 20kg",
+      "氣壓式"
+    ],
+    "description": "BenQ BDH01 補進本分類比較池，重點是雙臂、支援 35吋、承重 20kg，適合和同類 Top Pick 依預算、售後與規格一起比較。",
+    "pros": [
+      "雙螢幕桌面整線方便",
+      "單臂承重規格高"
+    ],
+    "cons": [
+      "35 吋以上寬螢幕要保守評估",
+      "雙臂需要較深桌面"
+    ],
+    "bestFor": "想依螢幕尺寸、重量、桌板厚度與 VESA 規格挑支架的人。",
+    "recommendation": "補充推薦：35吋 20KG 雙臂氣壓式螢幕支架 的優勢在雙螢幕桌面整線方便，但仍建議把35 吋以上寬螢幕要保守評估納入取捨。",
+    "score": 85,
+    "voltage": "無需用電",
+    "warranty": "依台灣通路/品牌保固",
+    "tags": [
+      "雙臂",
+      "20kg",
+      "雙螢幕"
+    ]
+  },
+  {
+    "id": "monitorarm-extra-18-dsabn2a900ginee",
+    "category": "monitorarm",
+    "rank": 18,
+    "budget": "value",
+    "channel": "tw",
+    "brand": "LINDY",
+    "model": "40693+40940",
+    "name": "台灣製氣壓式螢幕支架加長桿組",
+    "price": {
+      "currency": "TWD",
+      "amount": 4540,
+      "converted": 4540,
+      "confidence": "可信通路查核價，擷取 2026-07-08"
+    },
+    "image": "https://cs-a.ecimg.tw/items/DSABN2A900GINEE/000001_1690179981.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DSABN2-A900GINEE",
+    "buyLabel": "PChome",
+    "specs": [
+      "氣壓式",
+      "70cm C型夾鉗支桿",
+      "桌夾",
+      "VESA"
+    ],
+    "description": "LINDY 40693+40940 補進本分類比較池，重點是氣壓式、70cm C型夾鉗支桿、桌夾，適合和同類 Top Pick 依預算、售後與規格一起比較。",
+    "pros": [
+      "加長支桿對高度調整友善",
+      "台灣製造"
+    ],
+    "cons": [
+      "承重需依頁面確認",
+      "大寬螢幕不如 20kg/30kg 款明確"
+    ],
+    "bestFor": "想依螢幕尺寸、重量、桌板厚度與 VESA 規格挑支架的人。",
+    "recommendation": "補充推薦：台灣製氣壓式螢幕支架加長桿組 的優勢在加長支桿對高度調整友善，但仍建議把承重需依頁面確認納入取捨。",
+    "score": 84,
+    "voltage": "無需用電",
+    "warranty": "依台灣通路/品牌保固",
+    "tags": [
+      "加長桿",
+      "氣壓式",
+      "台灣製"
+    ]
+  },
+  {
+    "id": "monitorarm-extra-19-dcbb62a900fv397",
+    "category": "monitorarm",
+    "rank": 19,
+    "budget": "value",
+    "channel": "tw",
+    "brand": "EGTC",
+    "model": "EGTC743Q",
+    "name": "三螢幕快拆式穿夾兩用鋁合金支架",
+    "price": {
+      "currency": "TWD",
+      "amount": 4288,
+      "converted": 4288,
+      "confidence": "可信通路查核價，擷取 2026-07-08"
+    },
+    "image": "https://cs-a.ecimg.tw/items/DPADYKA900B0UWS/000001_1722844563.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DPADYK-A900B0UWS",
+    "buyLabel": "PChome",
+    "specs": [
+      "三螢幕",
+      "穿夾兩用",
+      "鋁合金",
+      "快拆"
+    ],
+    "description": "EGTC EGTC743Q 補進本分類比較池，重點是三螢幕、穿夾兩用、鋁合金，適合和同類 Top Pick 依預算、售後與規格一起比較。",
+    "pros": [
+      "多螢幕一次整理",
+      "桌夾與穿孔彈性高"
+    ],
+    "cons": [
+      "不適合超寬重螢幕",
+      "安裝與配重較麻煩"
+    ],
+    "bestFor": "想依螢幕尺寸、重量、桌板厚度與 VESA 規格挑支架的人。",
+    "recommendation": "補充推薦：三螢幕快拆式穿夾兩用鋁合金支架 的優勢在多螢幕一次整理，但仍建議把不適合超寬重螢幕納入取捨。",
+    "score": 83,
+    "voltage": "無需用電",
+    "warranty": "依台灣通路/品牌保固",
+    "tags": [
+      "三螢幕",
+      "快拆",
+      "穿夾兩用"
+    ]
+  },
+  {
+    "id": "monitorarm-extra-20-dcbakfa900hafjo",
+    "category": "monitorarm",
+    "rank": 20,
+    "budget": "value",
+    "channel": "tw",
+    "brand": "易控王",
+    "model": "ZENO M10",
+    "name": "17-35吋 10KG 氣壓懸臂式螢幕支架",
+    "price": {
+      "currency": "TWD",
+      "amount": 1130,
+      "converted": 1130,
+      "confidence": "可信通路查核價，擷取 2026-07-08"
+    },
+    "image": "https://cs-a.ecimg.tw/items/DCBAKFA900HAFJO/000001_1709791102.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DCBAKF-A900HAFJO",
+    "buyLabel": "PChome",
+    "specs": [
+      "17-35吋",
+      "承重 10kg",
+      "氣壓式",
+      "曲面螢幕可用"
+    ],
+    "description": "易控王 ZENO M10 補進本分類比較池，重點是17-35吋、承重 10kg、氣壓式，適合和同類 Top Pick 依預算、售後與規格一起比較。",
+    "pros": [
+      "價格親民",
+      "一般 27/32 吋很夠用"
+    ],
+    "cons": [
+      "不適合 49/57 吋大寬螢幕",
+      "10kg 承重餘裕有限"
+    ],
+    "bestFor": "想依螢幕尺寸、重量、桌板厚度與 VESA 規格挑支架的人。",
+    "recommendation": "補充推薦：17-35吋 10KG 氣壓懸臂式螢幕支架 的優勢在價格親民，但仍建議把不適合 49/57 吋大寬螢幕納入取捨。",
+    "score": 82,
+    "voltage": "無需用電",
+    "warranty": "依台灣通路/品牌保固",
+    "tags": [
+      "35吋",
+      "10kg",
+      "預算"
+    ]
   }
 ]);
 })();

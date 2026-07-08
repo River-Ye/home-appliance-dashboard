@@ -665,6 +665,226 @@
       "豆漿",
       "CP 值"
     ]
+  },
+  {
+    "id": "blender-extra-16-dmay01a900gfjco",
+    "category": "blender",
+    "rank": 16,
+    "budget": "mid",
+    "channel": "tw",
+    "brand": "Joyoung",
+    "model": "DJ10M-K96G",
+    "name": "免清洗多功能破壁豆漿機",
+    "price": {
+      "currency": "TWD",
+      "amount": 9480,
+      "converted": 9480,
+      "confidence": "可信通路查核價，擷取 2026-07-08"
+    },
+    "image": "https://cs-a.ecimg.tw/items/DMAY01A900GFJCO/000001_1780310319.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DMAY01-A900GFJCO",
+    "buyLabel": "PChome",
+    "specs": [
+      "免清洗",
+      "破壁豆漿",
+      "多功能熱飲",
+      "預約"
+    ],
+    "description": "Joyoung DJ10M-K96G 補進本分類比較池，重點是免清洗、破壁豆漿、多功能熱飲，適合和同類 Top Pick 依預算、售後與規格一起比較。",
+    "pros": [
+      "自動清洗省事",
+      "豆漿與濃湯流程完整"
+    ],
+    "cons": [
+      "體積較大",
+      "高速細緻度不如 Vitamix"
+    ],
+    "bestFor": "常做豆漿、果昔、濃湯或副食品，想比較不同清潔與馬力取向的人。",
+    "recommendation": "補充推薦：免清洗多功能破壁豆漿機 的優勢在自動清洗省事，但仍建議把體積較大納入取捨。",
+    "score": 86,
+    "voltage": "110V 台灣通路",
+    "warranty": "依台灣通路/品牌保固",
+    "tags": [
+      "免清洗",
+      "豆漿",
+      "破壁"
+    ]
+  },
+  {
+    "id": "blender-extra-17-dmaye4a900jtmqr",
+    "category": "blender",
+    "rank": 17,
+    "budget": "value",
+    "channel": "tw",
+    "brand": "Tefal",
+    "model": "SP21",
+    "name": "高速熱能營養調理機",
+    "price": {
+      "currency": "TWD",
+      "amount": 3290,
+      "converted": 3290,
+      "confidence": "可信通路查核價，擷取 2026-07-08"
+    },
+    "image": "https://cs-a.ecimg.tw/items/DMAYE4A900JTMQR/000001_1773730782.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DMAYE4-A900JTMQR",
+    "buyLabel": "PChome",
+    "specs": [
+      "冷熱雙全",
+      "一鍵清洗",
+      "豆漿機",
+      "副食品"
+    ],
+    "description": "Tefal SP21 補進本分類比較池，重點是冷熱雙全、一鍵清洗、豆漿機，適合和同類 Top Pick 依預算、售後與規格一起比較。",
+    "pros": [
+      "冷熱料理彈性大",
+      "品牌售後比雜牌安心"
+    ],
+    "cons": [
+      "杯體清潔仍需習慣",
+      "不是商用等級馬力"
+    ],
+    "bestFor": "常做豆漿、果昔、濃湯或副食品，想比較不同清潔與馬力取向的人。",
+    "recommendation": "補充推薦：高速熱能營養調理機 的優勢在冷熱料理彈性大，但仍建議把杯體清潔仍需習慣納入取捨。",
+    "score": 85,
+    "voltage": "110V 台灣通路",
+    "warranty": "依台灣通路/品牌保固",
+    "tags": [
+      "冷熱",
+      "一鍵清洗",
+      "副食品"
+    ]
+  },
+  {
+    "id": "blender-extra-18-dmaydla900ih6gz",
+    "category": "blender",
+    "rank": 18,
+    "budget": "mid",
+    "channel": "tw",
+    "brand": "Bosch",
+    "model": "MMBH6P6BTW",
+    "name": "超高速全營養調理機",
+    "price": {
+      "currency": "TWD",
+      "amount": 12900,
+      "converted": 12900,
+      "confidence": "可信通路查核價，擷取 2026-07-08"
+    },
+    "image": "https://cs-a.ecimg.tw/items/DMAYDLA900IH6GZ/000001_1782875037.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DMAYDL-A900IH6GZ",
+    "buyLabel": "PChome",
+    "specs": [
+      "超高速",
+      "全營養調理",
+      "大容量",
+      "歐系品牌"
+    ],
+    "description": "Bosch MMBH6P6BTW 補進本分類比較池，重點是超高速、全營養調理、大容量，適合和同類 Top Pick 依預算、售後與規格一起比較。",
+    "pros": [
+      "品牌與做工穩",
+      "適合果昔與濃湯"
+    ],
+    "cons": [
+      "價格高於入門豆漿機",
+      "耗材取得需留意"
+    ],
+    "bestFor": "常做豆漿、果昔、濃湯或副食品，想比較不同清潔與馬力取向的人。",
+    "recommendation": "補充推薦：超高速全營養調理機 的優勢在品牌與做工穩，但仍建議把價格高於入門豆漿機納入取捨。",
+    "score": 84,
+    "voltage": "110V 台灣通路",
+    "warranty": "依台灣通路/品牌保固",
+    "tags": [
+      "高速",
+      "歐系",
+      "調理機"
+    ]
+  },
+  {
+    "id": "blender-extra-19-dmay4ya900i3ild",
+    "category": "blender",
+    "rank": 19,
+    "budget": "mid",
+    "channel": "tw",
+    "brand": "Joyoung",
+    "model": "L18M-Y6G",
+    "name": "多功能變頻輕音冷熱調理機",
+    "price": {
+      "currency": "TWD",
+      "amount": 11490,
+      "converted": 11490,
+      "confidence": "可信通路查核價，擷取 2026-07-08"
+    },
+    "image": "https://cs-a.ecimg.tw/items/DMAY4YA900I3ILD/000001_1783328441.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DMAY4Y-A900I3ILD",
+    "buyLabel": "PChome",
+    "specs": [
+      "變頻",
+      "輕音設計",
+      "冷熱調理",
+      "豆漿機"
+    ],
+    "description": "Joyoung L18M-Y6G 補進本分類比較池，重點是變頻、輕音設計、冷熱調理，適合和同類 Top Pick 依預算、售後與規格一起比較。",
+    "pros": [
+      "噪音控制比傳統破壁機友善",
+      "功能完整"
+    ],
+    "cons": [
+      "價位高於入門九陽款",
+      "仍需預留清洗空間"
+    ],
+    "bestFor": "常做豆漿、果昔、濃湯或副食品，想比較不同清潔與馬力取向的人。",
+    "recommendation": "補充推薦：多功能變頻輕音冷熱調理機 的優勢在噪音控制比傳統破壁機友善，但仍建議把價位高於入門九陽款納入取捨。",
+    "score": 83,
+    "voltage": "110V 台灣通路",
+    "warranty": "依台灣通路/品牌保固",
+    "tags": [
+      "輕音",
+      "冷熱",
+      "豆漿"
+    ]
+  },
+  {
+    "id": "blender-extra-20-dmaygba900iw311",
+    "category": "blender",
+    "rank": 20,
+    "budget": "value",
+    "channel": "tw",
+    "brand": "Joyoung",
+    "model": "SMM55",
+    "name": "多功能營養調理機",
+    "price": {
+      "currency": "TWD",
+      "amount": 3380,
+      "converted": 3380,
+      "confidence": "可信通路查核價，擷取 2026-07-08"
+    },
+    "image": "https://cs-a.ecimg.tw/items/DMAYGBA900IW311/000001_1767836506.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DMAYGB-A900IW311",
+    "buyLabel": "PChome",
+    "specs": [
+      "多功能",
+      "營養調理",
+      "豆漿/果汁",
+      "家用"
+    ],
+    "description": "Joyoung SMM55 補進本分類比較池，重點是多功能、營養調理、豆漿/果汁，適合和同類 Top Pick 依預算、售後與規格一起比較。",
+    "pros": [
+      "價格較親民",
+      "基本調理需求足夠"
+    ],
+    "cons": [
+      "自動化不如免清洗款",
+      "外型與質感較普通"
+    ],
+    "bestFor": "常做豆漿、果昔、濃湯或副食品，想比較不同清潔與馬力取向的人。",
+    "recommendation": "補充推薦：多功能營養調理機 的優勢在價格較親民，但仍建議把自動化不如免清洗款納入取捨。",
+    "score": 82,
+    "voltage": "110V 台灣通路",
+    "warranty": "依台灣通路/品牌保固",
+    "tags": [
+      "入門",
+      "營養調理",
+      "家用"
+    ]
   }
 ]);
 })();

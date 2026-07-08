@@ -665,6 +665,226 @@
       "32L",
       "蒸烤"
     ]
+  },
+  {
+    "id": "oven-extra-16-dmbj8ja900h3u40",
+    "category": "oven",
+    "rank": 16,
+    "budget": "mid",
+    "channel": "tw",
+    "brand": "LG",
+    "model": "MJ3965BCP",
+    "name": "39L 智慧變頻蒸烘烤微波爐",
+    "price": {
+      "currency": "TWD",
+      "amount": 14900,
+      "converted": 14900,
+      "confidence": "可信通路查核價，擷取 2026-07-08"
+    },
+    "image": "https://cs-a.ecimg.tw/items/DMBJ8JA900H3U40/000001_1749176905.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DMBJ8J-A900H3U40",
+    "buyLabel": "PChome",
+    "specs": [
+      "39L",
+      "變頻微波",
+      "蒸烘烤",
+      "大容量"
+    ],
+    "description": "LG MJ3965BCP 補進本分類比較池，重點是39L、變頻微波、蒸烘烤，適合和同類 Top Pick 依預算、售後與規格一起比較。",
+    "pros": [
+      "容量大、功能整合高",
+      "適合取代微波爐與小烤箱"
+    ],
+    "cons": [
+      "機身較大",
+      "價格高於一般微波爐"
+    ],
+    "bestFor": "家電櫃空間有限，希望一台整合微波、蒸、烤、氣炸的人。",
+    "recommendation": "補充推薦：39L 智慧變頻蒸烘烤微波爐 的優勢在容量大、功能整合高，但仍建議把機身較大納入取捨。",
+    "score": 86,
+    "voltage": "110V 台灣通路",
+    "warranty": "依台灣通路/品牌保固",
+    "tags": [
+      "蒸烘烤",
+      "大容量",
+      "變頻"
+    ]
+  },
+  {
+    "id": "oven-extra-17-dmbj0fa900aex9t",
+    "category": "oven",
+    "rank": 17,
+    "budget": "mid",
+    "channel": "tw",
+    "brand": "HITACHI",
+    "model": "MRO-VS700T",
+    "name": "22L 過熱水蒸氣烘烤微波爐",
+    "price": {
+      "currency": "TWD",
+      "amount": 14900,
+      "converted": 14900,
+      "confidence": "可信通路查核價，擷取 2026-07-08"
+    },
+    "image": "https://cs-a.ecimg.tw/items/DMBJ0FA900AEX9T/000001_1765349539.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DMBJ0F-A900AEX9T",
+    "buyLabel": "PChome",
+    "specs": [
+      "22L",
+      "過熱水蒸氣",
+      "微波/烘烤",
+      "日系"
+    ],
+    "description": "HITACHI MRO-VS700T 補進本分類比較池，重點是22L、過熱水蒸氣、微波/烘烤，適合和同類 Top Pick 依預算、售後與規格一起比較。",
+    "pros": [
+      "水蒸氣料理彈性好",
+      "體積比 30L 旗艦更好擺"
+    ],
+    "cons": [
+      "容量有限",
+      "操作學習成本較高"
+    ],
+    "bestFor": "家電櫃空間有限，希望一台整合微波、蒸、烤、氣炸的人。",
+    "recommendation": "補充推薦：22L 過熱水蒸氣烘烤微波爐 的優勢在水蒸氣料理彈性好，但仍建議把容量有限納入取捨。",
+    "score": 85,
+    "voltage": "110V 台灣通路",
+    "warranty": "依台灣通路/品牌保固",
+    "tags": [
+      "水蒸氣",
+      "日系",
+      "22L"
+    ]
+  },
+  {
+    "id": "oven-extra-18-dmbm1pa900garya",
+    "category": "oven",
+    "rank": 18,
+    "budget": "mid",
+    "channel": "tw",
+    "brand": "HITACHI",
+    "model": "MROS800AT",
+    "name": "過熱水蒸氣烘烤微波爐",
+    "price": {
+      "currency": "TWD",
+      "amount": 21900,
+      "converted": 21900,
+      "confidence": "可信通路查核價，擷取 2026-07-08"
+    },
+    "image": "https://cs-a.ecimg.tw/items/DMBJ031900I80DM/000001_1778655849.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DMBJ03-1900I80DM",
+    "buyLabel": "PChome",
+    "specs": [
+      "過熱水蒸氣",
+      "烘烤微波",
+      "高階日系",
+      "多功能"
+    ],
+    "description": "HITACHI MROS800AT 補進本分類比較池，重點是過熱水蒸氣、烘烤微波、高階日系，適合和同類 Top Pick 依預算、售後與規格一起比較。",
+    "pros": [
+      "功能比入門水波爐完整",
+      "適合常做烤蒸料理"
+    ],
+    "cons": [
+      "價格不低",
+      "需要時間熟悉菜單"
+    ],
+    "bestFor": "家電櫃空間有限，希望一台整合微波、蒸、烤、氣炸的人。",
+    "recommendation": "補充推薦：過熱水蒸氣烘烤微波爐 的優勢在功能比入門水波爐完整，但仍建議把價格不低納入取捨。",
+    "score": 84,
+    "voltage": "110V 台灣通路",
+    "warranty": "依台灣通路/品牌保固",
+    "tags": [
+      "水波爐",
+      "高階",
+      "日系"
+    ]
+  },
+  {
+    "id": "oven-extra-19-dmbj5pa900gn8pm",
+    "category": "oven",
+    "rank": 19,
+    "budget": "premium",
+    "channel": "tw",
+    "brand": "HITACHI",
+    "model": "MROBK5000AT",
+    "name": "過熱水蒸氣烘烤微波爐",
+    "price": {
+      "currency": "TWD",
+      "amount": 48668,
+      "converted": 48668,
+      "confidence": "可信通路查核價，擷取 2026-07-08"
+    },
+    "image": "https://cs-a.ecimg.tw/items/DMBJ5PA900GN8PM/000001_1750840663.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DMBJ5P-A900GN8PM",
+    "buyLabel": "PChome",
+    "specs": [
+      "旗艦水波爐",
+      "過熱水蒸氣",
+      "烘烤微波",
+      "多功能"
+    ],
+    "description": "HITACHI MROBK5000AT 補進本分類比較池，重點是旗艦水波爐、過熱水蒸氣、烘烤微波，適合和同類 Top Pick 依預算、售後與規格一起比較。",
+    "pros": [
+      "規格完整、適合重度料理",
+      "可整合多台小家電"
+    ],
+    "cons": [
+      "價格高",
+      "尺寸與散熱空間要先量"
+    ],
+    "bestFor": "家電櫃空間有限，希望一台整合微波、蒸、烤、氣炸的人。",
+    "recommendation": "補充推薦：過熱水蒸氣烘烤微波爐 的優勢在規格完整、適合重度料理，但仍建議把價格高納入取捨。",
+    "score": 83,
+    "voltage": "110V 台灣通路",
+    "warranty": "依台灣通路/品牌保固",
+    "tags": [
+      "旗艦",
+      "水波爐",
+      "多合一"
+    ]
+  },
+  {
+    "id": "oven-extra-20-dmbm0ga900h5125",
+    "category": "oven",
+    "rank": 20,
+    "budget": "premium",
+    "channel": "tw",
+    "brand": "Svago",
+    "model": "VE8966",
+    "name": "蒸烘烤變頻微波爐",
+    "price": {
+      "currency": "TWD",
+      "amount": 43920,
+      "converted": 43920,
+      "confidence": "可信通路查核價，擷取 2026-07-08"
+    },
+    "image": "https://cs-a.ecimg.tw/items/DMBM0GA900H5125/000001_1783054719.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DMBM0G-A900H5125",
+    "buyLabel": "PChome",
+    "specs": [
+      "蒸烘烤",
+      "變頻微波",
+      "嵌入式風格",
+      "多功能"
+    ],
+    "description": "Svago VE8966 補進本分類比較池，重點是蒸烘烤、變頻微波、嵌入式風格，適合和同類 Top Pick 依預算、售後與規格一起比較。",
+    "pros": [
+      "多合一且外型較整合",
+      "適合規劃家電櫃"
+    ],
+    "cons": [
+      "安裝尺寸要精準",
+      "售後需確認通路"
+    ],
+    "bestFor": "家電櫃空間有限，希望一台整合微波、蒸、烤、氣炸的人。",
+    "recommendation": "補充推薦：蒸烘烤變頻微波爐 的優勢在多合一且外型較整合，但仍建議把安裝尺寸要精準納入取捨。",
+    "score": 82,
+    "voltage": "110V 台灣通路",
+    "warranty": "依台灣通路/品牌保固",
+    "tags": [
+      "蒸烘烤",
+      "變頻",
+      "家電櫃"
+    ]
   }
 ]);
 })();

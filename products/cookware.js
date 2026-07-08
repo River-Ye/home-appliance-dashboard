@@ -724,5 +724,225 @@ globalThis.applianceDashboard.registerProducts("cookware", [
       "廚房",
       "台灣通路"
     ]
+  },
+  {
+    "id": "cookware-extra-16-deawmja900j9bir",
+    "category": "cookware",
+    "rank": 16,
+    "budget": "value",
+    "channel": "tw",
+    "brand": "WMF",
+    "model": "Belmonte 20cm",
+    "name": "低身湯鍋 2.5L",
+    "price": {
+      "currency": "TWD",
+      "amount": 1869,
+      "converted": 1869,
+      "confidence": "可信通路查核價，擷取 2026-07-08"
+    },
+    "image": "https://cs-a.ecimg.tw/items/DEAWMJA900J9BIR/000001_1758078020.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DEAWMJ-A900J9BIR",
+    "buyLabel": "PChome",
+    "specs": [
+      "20cm",
+      "2.5L",
+      "不鏽鋼",
+      "湯鍋"
+    ],
+    "description": "WMF Belmonte 20cm 補進本分類比較池，重點是20cm、2.5L、不鏽鋼，適合和同類 Top Pick 依預算、售後與規格一起比較。",
+    "pros": [
+      "尺寸適合小家庭",
+      "WMF 售後與質感穩"
+    ],
+    "cons": [
+      "不是大容量湯鍋",
+      "單鍋價格高於國產款"
+    ],
+    "bestFor": "想補齊日常鍋具尺寸與材質，並比較不沾、不鏽鋼與琺瑯鍋的人。",
+    "recommendation": "補充推薦：低身湯鍋 2.5L 的優勢在尺寸適合小家庭，但仍建議把不是大容量湯鍋納入取捨。",
+    "score": 86,
+    "voltage": "無需用電",
+    "warranty": "依台灣通路/品牌保固",
+    "tags": [
+      "不鏽鋼",
+      "湯鍋",
+      "小家庭"
+    ]
+  },
+  {
+    "id": "cookware-extra-17-deawmja900jmza5",
+    "category": "cookware",
+    "rank": 17,
+    "budget": "mid",
+    "channel": "tw",
+    "brand": "WMF",
+    "model": "Fusiontec Mineral 12.5cm",
+    "name": "陶晶壺型鍋 1.7L",
+    "price": {
+      "currency": "TWD",
+      "amount": 6240,
+      "converted": 6240,
+      "confidence": "可信通路查核價，擷取 2026-07-08"
+    },
+    "image": "https://cs-a.ecimg.tw/items/DEAWMJA900JMZA5/000001_1768290148.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DEAWMJ-A900JMZA5",
+    "buyLabel": "PChome",
+    "specs": [
+      "12.5cm",
+      "1.7L",
+      "Fusiontec",
+      "陶晶鍋"
+    ],
+    "description": "WMF Fusiontec Mineral 12.5cm 補進本分類比較池，重點是12.5cm、1.7L、Fusiontec，適合和同類 Top Pick 依預算、售後與規格一起比較。",
+    "pros": [
+      "材質耐用且好清潔",
+      "適合單人小鍋"
+    ],
+    "cons": [
+      "容量偏小",
+      "價格高於一般泡麵鍋"
+    ],
+    "bestFor": "想補齊日常鍋具尺寸與材質，並比較不沾、不鏽鋼與琺瑯鍋的人。",
+    "recommendation": "補充推薦：陶晶壺型鍋 1.7L 的優勢在材質耐用且好清潔，但仍建議把容量偏小納入取捨。",
+    "score": 85,
+    "voltage": "無需用電",
+    "warranty": "依台灣通路/品牌保固",
+    "tags": [
+      "Fusiontec",
+      "小鍋",
+      "耐用"
+    ]
+  },
+  {
+    "id": "cookware-extra-18-deawtga900fchlz",
+    "category": "cookware",
+    "rank": 18,
+    "budget": "mid",
+    "channel": "tw",
+    "brand": "Le Creuset",
+    "model": "TNS 28cm",
+    "name": "不沾雙耳醬汁鍋",
+    "price": {
+      "currency": "TWD",
+      "amount": 6850,
+      "converted": 6850,
+      "confidence": "可信通路查核價，擷取 2026-07-08"
+    },
+    "image": "https://cs-a.ecimg.tw/items/DEAWTGA900FCHLZ/000001_1745980849.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DEAWTG-A900FCHLZ",
+    "buyLabel": "PChome",
+    "specs": [
+      "28cm",
+      "不沾鍋",
+      "雙耳",
+      "附蓋"
+    ],
+    "description": "Le Creuset TNS 28cm 補進本分類比較池，重點是28cm、不沾鍋、雙耳，適合和同類 Top Pick 依預算、售後與規格一起比較。",
+    "pros": [
+      "不沾塗層與設計感佳",
+      "適合煎炒燉混用"
+    ],
+    "cons": [
+      "價格高",
+      "塗層鍋仍需溫柔使用"
+    ],
+    "bestFor": "想補齊日常鍋具尺寸與材質，並比較不沾、不鏽鋼與琺瑯鍋的人。",
+    "recommendation": "補充推薦：不沾雙耳醬汁鍋 的優勢在不沾塗層與設計感佳，但仍建議把價格高納入取捨。",
+    "score": 84,
+    "voltage": "無需用電",
+    "warranty": "依台灣通路/品牌保固",
+    "tags": [
+      "不沾",
+      "設計",
+      "中大尺寸"
+    ]
+  },
+  {
+    "id": "cookware-extra-19-dees01a900iq6x3",
+    "category": "cookware",
+    "rank": 19,
+    "budget": "value",
+    "channel": "tw",
+    "brand": "Tefal",
+    "model": "Espresso 34cm",
+    "name": "醇火系列不沾炒鍋",
+    "price": {
+      "currency": "TWD",
+      "amount": 1259,
+      "converted": 1259,
+      "confidence": "可信通路查核價，擷取 2026-07-08"
+    },
+    "image": "https://cs-a.ecimg.tw/items/DEES01A900IQ6X3/000001_1764832269.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DEES01-A900IQ6X3",
+    "buyLabel": "PChome",
+    "specs": [
+      "34cm",
+      "不沾炒鍋",
+      "玻璃蓋",
+      "大尺寸"
+    ],
+    "description": "Tefal Espresso 34cm 補進本分類比較池，重點是34cm、不沾炒鍋、玻璃蓋，適合和同類 Top Pick 依預算、售後與規格一起比較。",
+    "pros": [
+      "價格實惠",
+      "34cm 適合家庭快炒"
+    ],
+    "cons": [
+      "大鍋收納較占空間",
+      "塗層壽命看使用方式"
+    ],
+    "bestFor": "想補齊日常鍋具尺寸與材質，並比較不沾、不鏽鋼與琺瑯鍋的人。",
+    "recommendation": "補充推薦：醇火系列不沾炒鍋 的優勢在價格實惠，但仍建議把大鍋收納較占空間納入取捨。",
+    "score": 83,
+    "voltage": "無需用電",
+    "warranty": "依台灣通路/品牌保固",
+    "tags": [
+      "不沾",
+      "炒鍋",
+      "CP 值"
+    ]
+  },
+  {
+    "id": "cookware-extra-20-deawmla900jsti6",
+    "category": "cookware",
+    "rank": 20,
+    "budget": "value",
+    "channel": "tw",
+    "brand": "Fissler",
+    "model": "Cianmic",
+    "name": "瓷安系列不沾單柄牛奶鍋",
+    "price": {
+      "currency": "TWD",
+      "amount": 2290,
+      "converted": 2290,
+      "confidence": "可信通路查核價，擷取 2026-07-08"
+    },
+    "image": "https://cs-a.ecimg.tw/items/DEAWMLA900JSTI6/000001_1773108785.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DEAWML-A900JSTI6",
+    "buyLabel": "PChome",
+    "specs": [
+      "不沾塗層",
+      "單柄",
+      "牛奶鍋",
+      "小鍋"
+    ],
+    "description": "Fissler Cianmic 補進本分類比較池，重點是不沾塗層、單柄、牛奶鍋，適合和同類 Top Pick 依預算、售後與規格一起比較。",
+    "pros": [
+      "適合少量加熱與副食品",
+      "Fissler 品牌質感佳"
+    ],
+    "cons": [
+      "容量偏小",
+      "單柄鍋不適合大份量"
+    ],
+    "bestFor": "想補齊日常鍋具尺寸與材質，並比較不沾、不鏽鋼與琺瑯鍋的人。",
+    "recommendation": "補充推薦：瓷安系列不沾單柄牛奶鍋 的優勢在適合少量加熱與副食品，但仍建議把容量偏小納入取捨。",
+    "score": 82,
+    "voltage": "無需用電",
+    "warranty": "依台灣通路/品牌保固",
+    "tags": [
+      "小鍋",
+      "不沾",
+      "德系"
+    ]
   }
 ]);

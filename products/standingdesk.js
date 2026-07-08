@@ -680,6 +680,226 @@
       "180cm",
       "電競"
     ]
+  },
+  {
+    "id": "standingdesk-extra-16-dsbc8ra900huota",
+    "category": "standingdesk",
+    "rank": 16,
+    "budget": "mid",
+    "channel": "tw",
+    "brand": "Water3F",
+    "model": "快裝安全版 F1",
+    "name": "智慧記憶電動升降桌 120x60",
+    "price": {
+      "currency": "TWD",
+      "amount": 8999,
+      "converted": 8999,
+      "confidence": "可信通路查核價，擷取 2026-07-08"
+    },
+    "image": "https://cs-a.ecimg.tw/items/DSBC8RA900HUOTA/000001_1728700090.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DSBC8R-A900HUOTA",
+    "buyLabel": "PChome",
+    "specs": [
+      "120x60cm",
+      "記憶高度",
+      "快裝",
+      "電動升降"
+    ],
+    "description": "Water3F 快裝安全版 F1 補進本分類比較池，重點是120x60cm、記憶高度、快裝，適合和同類 Top Pick 依預算、售後與規格一起比較。",
+    "pros": [
+      "價格低於多數品牌桌",
+      "附桌板即可直接比較"
+    ],
+    "cons": [
+      "承重與穩定度需看使用重量",
+      "品牌售後需確認"
+    ],
+    "bestFor": "居家辦公、雙螢幕或想久坐久站切換的人。",
+    "recommendation": "補充推薦：智慧記憶電動升降桌 120x60 的優勢在價格低於多數品牌桌，但仍建議把承重與穩定度需看使用重量納入取捨。",
+    "score": 86,
+    "voltage": "110V 台灣通路",
+    "warranty": "依台灣通路/品牌保固",
+    "tags": [
+      "120x60",
+      "記憶高度",
+      "CP 值"
+    ]
+  },
+  {
+    "id": "standingdesk-extra-17-debhcta900bw2x6",
+    "category": "standingdesk",
+    "rank": 17,
+    "budget": "value",
+    "channel": "tw",
+    "brand": "Kraftdale",
+    "model": "人體工學電動升降桌",
+    "name": "柚木色電動升降桌",
+    "price": {
+      "currency": "TWD",
+      "amount": 6890,
+      "converted": 6890,
+      "confidence": "可信通路查核價，擷取 2026-07-08"
+    },
+    "image": "https://cs-a.ecimg.tw/items/DEBHCTA900BW2X6/000001_1634603420.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DEBHCT-A900BW2X6",
+    "buyLabel": "PChome",
+    "specs": [
+      "電動升降",
+      "柚木色",
+      "辦公桌",
+      "人體工學"
+    ],
+    "description": "Kraftdale 人體工學電動升降桌 補進本分類比較池，重點是電動升降、柚木色、辦公桌，適合和同類 Top Pick 依預算、售後與規格一起比較。",
+    "pros": [
+      "價格親民",
+      "桌面風格適合居家"
+    ],
+    "cons": [
+      "規格資訊需以頁面為準",
+      "長期穩定度口碑較少"
+    ],
+    "bestFor": "居家辦公、雙螢幕或想久坐久站切換的人。",
+    "recommendation": "補充推薦：柚木色電動升降桌 的優勢在價格親民，但仍建議把規格資訊需以頁面為準納入取捨。",
+    "score": 85,
+    "voltage": "110V 台灣通路",
+    "warranty": "依台灣通路/品牌保固",
+    "tags": [
+      "居家辦公",
+      "電動",
+      "預算"
+    ]
+  },
+  {
+    "id": "standingdesk-extra-18-dsbc1ta900ht0du",
+    "category": "standingdesk",
+    "rank": 18,
+    "budget": "mid",
+    "channel": "tw",
+    "brand": "Loctek",
+    "model": "F2 智慧記憶電動升降桌",
+    "name": "120x60 黑色電動升降桌",
+    "price": {
+      "currency": "TWD",
+      "amount": 9999,
+      "converted": 9999,
+      "confidence": "可信通路查核價，擷取 2026-07-08"
+    },
+    "image": "https://cs-a.ecimg.tw/items/DSBC1TA900HT0DU/000001_1738574875.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DSBC1T-A900HT0DU",
+    "buyLabel": "PChome",
+    "specs": [
+      "120x60cm",
+      "智慧記憶",
+      "黑色",
+      "電動升降"
+    ],
+    "description": "Loctek F2 智慧記憶電動升降桌 補進本分類比較池，重點是120x60cm、智慧記憶、黑色，適合和同類 Top Pick 依預算、售後與規格一起比較。",
+    "pros": [
+      "Loctek 類型成熟",
+      "小桌面適合有限空間"
+    ],
+    "cons": [
+      "120x60 對多螢幕偏小",
+      "黑色較顯灰塵"
+    ],
+    "bestFor": "居家辦公、雙螢幕或想久坐久站切換的人。",
+    "recommendation": "補充推薦：120x60 黑色電動升降桌 的優勢在Loctek 類型成熟，但仍建議把120x60 對多螢幕偏小納入取捨。",
+    "score": 84,
+    "voltage": "110V 台灣通路",
+    "warranty": "依台灣通路/品牌保固",
+    "tags": [
+      "Loctek",
+      "120x60",
+      "記憶高度"
+    ]
+  },
+  {
+    "id": "standingdesk-extra-19-dcbb6oa900hsvt2",
+    "category": "standingdesk",
+    "rank": 19,
+    "budget": "mid",
+    "channel": "tw",
+    "brand": "COUGAR",
+    "model": "E-STAR 140",
+    "name": "電競電動升降桌",
+    "price": {
+      "currency": "TWD",
+      "amount": 13990,
+      "converted": 13990,
+      "confidence": "可信通路查核價，擷取 2026-07-08"
+    },
+    "image": "https://cs-a.ecimg.tw/items/DCBB6OA900HSVT2/000001_1782822944.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DCBB6O-A900HSVT2",
+    "buyLabel": "PChome",
+    "specs": [
+      "140cm",
+      "電競桌",
+      "電動升降",
+      "寬桌面"
+    ],
+    "description": "COUGAR E-STAR 140 補進本分類比較池，重點是140cm、電競桌、電動升降，適合和同類 Top Pick 依預算、售後與規格一起比較。",
+    "pros": [
+      "桌寬適合多螢幕",
+      "品牌電競定位明確"
+    ],
+    "cons": [
+      "造型較電競",
+      "不一定適合極簡辦公室"
+    ],
+    "bestFor": "居家辦公、雙螢幕或想久坐久站切換的人。",
+    "recommendation": "補充推薦：電競電動升降桌 的優勢在桌寬適合多螢幕，但仍建議把造型較電競納入取捨。",
+    "score": 83,
+    "voltage": "110V 台灣通路",
+    "warranty": "依台灣通路/品牌保固",
+    "tags": [
+      "140cm",
+      "電競",
+      "多螢幕"
+    ]
+  },
+  {
+    "id": "standingdesk-extra-20-dcbb6oa900frsk6",
+    "category": "standingdesk",
+    "rank": 20,
+    "budget": "mid",
+    "channel": "tw",
+    "brand": "E-home",
+    "model": "一片式鴨嘴斜沿雙節USB電動記憶升降桌",
+    "name": "120cm USB 電動記憶升降桌",
+    "price": {
+      "currency": "TWD",
+      "amount": 8980,
+      "converted": 8980,
+      "confidence": "可信通路查核價，擷取 2026-07-08"
+    },
+    "image": "https://cs-a.ecimg.tw/items/DCBB6OA900FRSK6/000001_1669107568.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DCBB6O-A900FRSK6",
+    "buyLabel": "PChome",
+    "specs": [
+      "120cm",
+      "USB",
+      "記憶升降",
+      "一片式桌面"
+    ],
+    "description": "E-home 一片式鴨嘴斜沿雙節USB電動記憶升降桌 補進本分類比較池，重點是120cm、USB、記憶升降，適合和同類 Top Pick 依預算、售後與規格一起比較。",
+    "pros": [
+      "桌面與升降一起到位",
+      "USB 與記憶高度方便"
+    ],
+    "cons": [
+      "桌板規格需看頁面",
+      "承重不如高階雙馬達款明確"
+    ],
+    "bestFor": "居家辦公、雙螢幕或想久坐久站切換的人。",
+    "recommendation": "補充推薦：120cm USB 電動記憶升降桌 的優勢在桌面與升降一起到位，但仍建議把桌板規格需看頁面納入取捨。",
+    "score": 82,
+    "voltage": "110V 台灣通路",
+    "warranty": "依台灣通路/品牌保固",
+    "tags": [
+      "USB",
+      "120cm",
+      "記憶高度"
+    ]
   }
 ]);
 })();

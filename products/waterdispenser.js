@@ -734,5 +734,225 @@ globalThis.applianceDashboard.registerProducts("waterdispenser", [
       "淨水",
       "RO"
     ]
+  },
+  {
+    "id": "waterdispenser-extra-16-dsbe1fa900gsoln",
+    "category": "waterdispenser",
+    "rank": 16,
+    "budget": "premium",
+    "channel": "tw",
+    "brand": "EVERPOLL",
+    "model": "EVB-298-E",
+    "name": "櫥下型雙溫 UV 觸控飲水機",
+    "price": {
+      "currency": "TWD",
+      "amount": 34000,
+      "converted": 34000,
+      "confidence": "可信通路查核價，擷取 2026-07-08"
+    },
+    "image": "https://cs-a.ecimg.tw/items/DSBE1FA900GSOLN/000001_1698896380.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DSBE1F-A900GSOLN",
+    "buyLabel": "PChome",
+    "specs": [
+      "櫥下型",
+      "雙溫",
+      "UV 滅菌",
+      "觸控"
+    ],
+    "description": "EVERPOLL EVB-298-E 補進本分類比較池，重點是櫥下型、雙溫、UV 滅菌，適合和同類 Top Pick 依預算、售後與規格一起比較。",
+    "pros": [
+      "櫥下節省檯面",
+      "UV 與雙溫適合家庭"
+    ],
+    "cons": [
+      "需安裝與櫃內空間",
+      "淨水系統搭配需確認"
+    ],
+    "bestFor": "規劃廚下淨水/飲水系統，想比較 RO、瞬熱、冷熱與安裝條件的人。",
+    "recommendation": "補充推薦：櫥下型雙溫 UV 觸控飲水機 的優勢在櫥下節省檯面，但仍建議把需安裝與櫃內空間納入取捨。",
+    "score": 86,
+    "voltage": "110V 台灣通路",
+    "warranty": "依台灣通路/品牌保固",
+    "tags": [
+      "櫥下",
+      "UV",
+      "雙溫"
+    ]
+  },
+  {
+    "id": "waterdispenser-extra-17-dmci2fa900jbnk6",
+    "category": "waterdispenser",
+    "rank": 17,
+    "budget": "premium",
+    "channel": "tw",
+    "brand": "Culligan",
+    "model": "US-201C-TW",
+    "name": "聲控櫥下 RO 瞬熱飲水機",
+    "price": {
+      "currency": "TWD",
+      "amount": 45800,
+      "converted": 45800,
+      "confidence": "可信通路查核價，擷取 2026-07-08"
+    },
+    "image": "https://cs-a.ecimg.tw/items/DMCI2FA900JBNK6/000001_1782095017.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DMCI2F-A900JBNK6",
+    "buyLabel": "PChome",
+    "specs": [
+      "櫥下 RO",
+      "瞬熱",
+      "聲控龍頭",
+      "Wi-Fi"
+    ],
+    "description": "Culligan US-201C-TW 補進本分類比較池，重點是櫥下 RO、瞬熱、聲控龍頭，適合和同類 Top Pick 依預算、售後與規格一起比較。",
+    "pros": [
+      "聲控與瞬熱規格新",
+      "RO 淨水整合度高"
+    ],
+    "cons": [
+      "價格高",
+      "安裝與濾芯成本需估算"
+    ],
+    "bestFor": "規劃廚下淨水/飲水系統，想比較 RO、瞬熱、冷熱與安裝條件的人。",
+    "recommendation": "補充推薦：聲控櫥下 RO 瞬熱飲水機 的優勢在聲控與瞬熱規格新，但仍建議把價格高納入取捨。",
+    "score": 85,
+    "voltage": "110V 台灣通路",
+    "warranty": "依台灣通路/品牌保固",
+    "tags": [
+      "RO",
+      "瞬熱",
+      "聲控"
+    ]
+  },
+  {
+    "id": "waterdispenser-extra-18-dmci0oa900jt66n",
+    "category": "waterdispenser",
+    "rank": 18,
+    "budget": "premium",
+    "channel": "tw",
+    "brand": "SAKURA",
+    "model": "P0531",
+    "name": "廚下 RO 雙溫觸控飲水機",
+    "price": {
+      "currency": "TWD",
+      "amount": 36810,
+      "converted": 36810,
+      "confidence": "可信通路查核價，擷取 2026-07-08"
+    },
+    "image": "https://cs-a.ecimg.tw/items/DMCI0OA900JT66N/000001_1773306819.png",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DMCI0O-A900JT66N",
+    "buyLabel": "PChome",
+    "specs": [
+      "廚下 RO",
+      "雙溫",
+      "觸控",
+      "節能"
+    ],
+    "description": "SAKURA P0531 補進本分類比較池，重點是廚下 RO、雙溫、觸控，適合和同類 Top Pick 依預算、售後與規格一起比較。",
+    "pros": [
+      "櫻花售後與安裝網較成熟",
+      "RO 與熱水雙機合一"
+    ],
+    "cons": [
+      "價格進入中高階",
+      "櫃內空間需確認"
+    ],
+    "bestFor": "規劃廚下淨水/飲水系統，想比較 RO、瞬熱、冷熱與安裝條件的人。",
+    "recommendation": "補充推薦：廚下 RO 雙溫觸控飲水機 的優勢在櫻花售後與安裝網較成熟，但仍建議把價格進入中高階納入取捨。",
+    "score": 84,
+    "voltage": "110V 台灣通路",
+    "warranty": "依台灣通路/品牌保固",
+    "tags": [
+      "SAKURA",
+      "RO",
+      "雙溫"
+    ]
+  },
+  {
+    "id": "waterdispenser-extra-19-dmci19a900iw2pm",
+    "category": "waterdispenser",
+    "rank": 19,
+    "budget": "premium",
+    "channel": "tw",
+    "brand": "Honeywell",
+    "model": "廚下觸控型RO冷熱飲水機",
+    "name": "廚下觸控型 RO 冷熱飲水機",
+    "price": {
+      "currency": "TWD",
+      "amount": 51450,
+      "converted": 51450,
+      "confidence": "可信通路查核價，擷取 2026-07-08"
+    },
+    "image": "https://cs-a.ecimg.tw/items/DMCI19A900IW2PM/000001_1756711258.png",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DMCI19-A900IW2PM",
+    "buyLabel": "PChome",
+    "specs": [
+      "廚下 RO",
+      "冷熱飲",
+      "觸控",
+      "含安裝"
+    ],
+    "description": "Honeywell 廚下觸控型RO冷熱飲水機 補進本分類比較池，重點是廚下 RO、冷熱飲、觸控，適合和同類 Top Pick 依預算、售後與規格一起比較。",
+    "pros": [
+      "冷熱與 RO 一次整合",
+      "品牌國際知名"
+    ],
+    "cons": [
+      "價格高",
+      "後續濾芯與保固需確認"
+    ],
+    "bestFor": "規劃廚下淨水/飲水系統，想比較 RO、瞬熱、冷熱與安裝條件的人。",
+    "recommendation": "補充推薦：廚下觸控型 RO 冷熱飲水機 的優勢在冷熱與 RO 一次整合，但仍建議把價格高納入取捨。",
+    "score": 83,
+    "voltage": "110V 台灣通路",
+    "warranty": "依台灣通路/品牌保固",
+    "tags": [
+      "RO",
+      "冷熱",
+      "Honeywell"
+    ]
+  },
+  {
+    "id": "waterdispenser-extra-20-dmawb8a900bveog",
+    "category": "waterdispenser",
+    "rank": 20,
+    "budget": "mid",
+    "channel": "tw",
+    "brand": "BWT",
+    "model": "DWH30A",
+    "name": "廚下型飲用水加熱器",
+    "price": {
+      "currency": "TWD",
+      "amount": 23600,
+      "converted": 23600,
+      "confidence": "可信通路查核價，擷取 2026-07-08"
+    },
+    "image": "https://cs-a.ecimg.tw/items/DMAWB8A900BVEOG/000001_1760685693.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DMAWB8-A900BVEOG",
+    "buyLabel": "PChome",
+    "specs": [
+      "廚下型",
+      "加熱器",
+      "ECO 節能",
+      "數位溫度"
+    ],
+    "description": "BWT DWH30A 補進本分類比較池，重點是廚下型、加熱器、ECO 節能，適合和同類 Top Pick 依預算、售後與規格一起比較。",
+    "pros": [
+      "適合既有淨水器再加熱水",
+      "BWT 淨水品牌能見度高"
+    ],
+    "cons": [
+      "需搭配淨水系統",
+      "不是單機 RO 飲水機"
+    ],
+    "bestFor": "規劃廚下淨水/飲水系統，想比較 RO、瞬熱、冷熱與安裝條件的人。",
+    "recommendation": "補充推薦：廚下型飲用水加熱器 的優勢在適合既有淨水器再加熱水，但仍建議把需搭配淨水系統納入取捨。",
+    "score": 82,
+    "voltage": "110V 台灣通路",
+    "warranty": "依台灣通路/品牌保固",
+    "tags": [
+      "廚下",
+      "加熱",
+      "BWT"
+    ]
   }
 ]);

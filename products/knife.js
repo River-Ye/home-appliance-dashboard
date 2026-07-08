@@ -721,5 +721,225 @@ globalThis.applianceDashboard.registerProducts("knife", [
       "廚房",
       "主廚刀"
     ]
+  },
+  {
+    "id": "knife-extra-16-dsbe0ma900jd4ad",
+    "category": "knife",
+    "rank": 16,
+    "budget": "mid",
+    "channel": "tw",
+    "brand": "TOJIRO",
+    "model": "F-809",
+    "name": "DP 牛刀 240mm",
+    "price": {
+      "currency": "TWD",
+      "amount": 3360,
+      "converted": 3360,
+      "confidence": "可信通路查核價，擷取 2026-07-08"
+    },
+    "image": "https://cs-a.ecimg.tw/items/DSBE0MA900JD4AD/000001_1761016741.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DSBE0M-A900JD4AD",
+    "buyLabel": "PChome",
+    "specs": [
+      "240mm",
+      "VG10",
+      "主廚刀",
+      "日本製"
+    ],
+    "description": "TOJIRO F-809 補進本分類比較池，重點是240mm、VG10、主廚刀，適合和同類 Top Pick 依預算、售後與規格一起比較。",
+    "pros": [
+      "刀長適合大量備料",
+      "藤次郎 DP 口碑穩"
+    ],
+    "cons": [
+      "240mm 對小砧板偏長",
+      "需要定期保養磨刀"
+    ],
+    "bestFor": "想從入門小刀到主廚刀逐步補齊廚房刀具的人。",
+    "recommendation": "補充推薦：DP 牛刀 240mm 的優勢在刀長適合大量備料，但仍建議把240mm 對小砧板偏長納入取捨。",
+    "score": 86,
+    "voltage": "無需用電",
+    "warranty": "依台灣通路/品牌保固",
+    "tags": [
+      "主廚刀",
+      "日本製",
+      "VG10"
+    ]
+  },
+  {
+    "id": "knife-extra-17-debm2ca900j9cyp",
+    "category": "knife",
+    "rank": 17,
+    "budget": "mid",
+    "channel": "tw",
+    "brand": "WMF",
+    "model": "Ultimate 12cm",
+    "name": "萬用刀 12cm",
+    "price": {
+      "currency": "TWD",
+      "amount": 15120,
+      "converted": 15120,
+      "confidence": "可信通路查核價，擷取 2026-07-08"
+    },
+    "image": "https://cs-a.ecimg.tw/items/DEBM2CA900J9CYP/000001_1758097012.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DEBM2C-A900J9CYP",
+    "buyLabel": "PChome",
+    "specs": [
+      "12cm",
+      "萬用刀",
+      "不鏽鋼",
+      "德系"
+    ],
+    "description": "WMF Ultimate 12cm 補進本分類比較池，重點是12cm、萬用刀、不鏽鋼，適合和同類 Top Pick 依預算、售後與規格一起比較。",
+    "pros": [
+      "尺寸靈活",
+      "適合水果與小型備料"
+    ],
+    "cons": [
+      "不適合大量切肉",
+      "單刀價格較高"
+    ],
+    "bestFor": "想從入門小刀到主廚刀逐步補齊廚房刀具的人。",
+    "recommendation": "補充推薦：萬用刀 12cm 的優勢在尺寸靈活，但仍建議把不適合大量切肉納入取捨。",
+    "score": 85,
+    "voltage": "無需用電",
+    "warranty": "依台灣通路/品牌保固",
+    "tags": [
+      "萬用刀",
+      "德系",
+      "小刀"
+    ]
+  },
+  {
+    "id": "knife-extra-18-deag16a900iji66",
+    "category": "knife",
+    "rank": 18,
+    "budget": "value",
+    "channel": "tw",
+    "brand": "Kai",
+    "model": "關孫六 12cm",
+    "name": "日本製水果刀附刀套",
+    "price": {
+      "currency": "TWD",
+      "amount": 609,
+      "converted": 609,
+      "confidence": "可信通路查核價，擷取 2026-07-08"
+    },
+    "image": "https://cs-a.ecimg.tw/items/DEAG16A900IJI66/000001_1744270563.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DEAG16-A900IJI66",
+    "buyLabel": "PChome",
+    "specs": [
+      "12cm",
+      "水果刀",
+      "附刀套",
+      "日本製"
+    ],
+    "description": "Kai 關孫六 12cm 補進本分類比較池，重點是12cm、水果刀、附刀套，適合和同類 Top Pick 依預算、售後與規格一起比較。",
+    "pros": [
+      "好收納",
+      "日常水果與小物備料方便"
+    ],
+    "cons": [
+      "用途較窄",
+      "不是主廚刀替代"
+    ],
+    "bestFor": "想從入門小刀到主廚刀逐步補齊廚房刀具的人。",
+    "recommendation": "補充推薦：日本製水果刀附刀套 的優勢在好收納，但仍建議把用途較窄納入取捨。",
+    "score": 84,
+    "voltage": "無需用電",
+    "warranty": "依台灣通路/品牌保固",
+    "tags": [
+      "水果刀",
+      "日本製",
+      "收納"
+    ]
+  },
+  {
+    "id": "knife-extra-19-deagyea900bcet2",
+    "category": "knife",
+    "rank": 19,
+    "budget": "value",
+    "channel": "tw",
+    "brand": "Victorinox",
+    "model": "6.8003.19B",
+    "name": "切肉刀 19cm",
+    "price": {
+      "currency": "TWD",
+      "amount": 1185,
+      "converted": 1185,
+      "confidence": "可信通路查核價，擷取 2026-07-08"
+    },
+    "image": "https://cs-a.ecimg.tw/items/DEAGYEA900BCET2/000001_1656480680.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DEAGYE-A900BCET2",
+    "buyLabel": "PChome",
+    "specs": [
+      "19cm",
+      "切肉刀",
+      "瑞士品牌",
+      "黑柄"
+    ],
+    "description": "Victorinox 6.8003.19B 補進本分類比較池，重點是19cm、切肉刀、瑞士品牌，適合和同類 Top Pick 依預算、售後與規格一起比較。",
+    "pros": [
+      "商用餐廚常見品牌",
+      "切肉用途明確"
+    ],
+    "cons": [
+      "外型偏專業廚房",
+      "不如三德刀泛用"
+    ],
+    "bestFor": "想從入門小刀到主廚刀逐步補齊廚房刀具的人。",
+    "recommendation": "補充推薦：切肉刀 19cm 的優勢在商用餐廚常見品牌，但仍建議把外型偏專業廚房納入取捨。",
+    "score": 83,
+    "voltage": "無需用電",
+    "warranty": "依台灣通路/品牌保固",
+    "tags": [
+      "切肉刀",
+      "瑞士",
+      "專業"
+    ]
+  },
+  {
+    "id": "knife-extra-20-deawrua900hdkxq",
+    "category": "knife",
+    "rank": 20,
+    "budget": "value",
+    "channel": "tw",
+    "brand": "WMF",
+    "model": "輕巧萬用小刀",
+    "name": "料理刀水果刀含刀套",
+    "price": {
+      "currency": "TWD",
+      "amount": 697,
+      "converted": 697,
+      "confidence": "可信通路查核價，擷取 2026-07-08"
+    },
+    "image": "https://cs-a.ecimg.tw/items/DEAWRUA900HDKXQ/000001_1712727942.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DEAWRU-A900HDKXQ",
+    "buyLabel": "PChome",
+    "specs": [
+      "萬用小刀",
+      "含刀套",
+      "料理/水果",
+      "不鏽鋼"
+    ],
+    "description": "WMF 輕巧萬用小刀 補進本分類比較池，重點是萬用小刀、含刀套、料理/水果，適合和同類 Top Pick 依預算、售後與規格一起比較。",
+    "pros": [
+      "便宜好入手",
+      "有刀套適合收納"
+    ],
+    "cons": [
+      "不是重度料理主刀",
+      "刀刃長度較短"
+    ],
+    "bestFor": "想從入門小刀到主廚刀逐步補齊廚房刀具的人。",
+    "recommendation": "補充推薦：料理刀水果刀含刀套 的優勢在便宜好入手，但仍建議把不是重度料理主刀納入取捨。",
+    "score": 82,
+    "voltage": "無需用電",
+    "warranty": "依台灣通路/品牌保固",
+    "tags": [
+      "小刀",
+      "收納",
+      "入門"
+    ]
   }
 ]);

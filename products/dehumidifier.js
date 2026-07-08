@@ -665,6 +665,226 @@
       "20L",
       "高 CP"
     ]
+  },
+  {
+    "id": "dehumidifier-extra-16-dmbq3sa900i7nsn",
+    "category": "dehumidifier",
+    "rank": 16,
+    "budget": "value",
+    "channel": "tw",
+    "brand": "Whirlpool",
+    "model": "WDEE06TW",
+    "name": "6公升節能除濕機",
+    "price": {
+      "currency": "TWD",
+      "amount": 3790,
+      "converted": 3790,
+      "confidence": "可信通路查核價，擷取 2026-07-08"
+    },
+    "image": "https://cs-a.ecimg.tw/items/DMBQ3SA900I7NSN/000001_1767929673.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DMBQ3S-A900I7NSN",
+    "buyLabel": "PChome",
+    "specs": [
+      "6L",
+      "二級能效",
+      "節能",
+      "小坪數"
+    ],
+    "description": "Whirlpool WDEE06TW 補進本分類比較池，重點是6L、二級能效、節能，適合和同類 Top Pick 依預算、售後與規格一起比較。",
+    "pros": [
+      "價格低、適合小房間",
+      "品牌通路穩"
+    ],
+    "cons": [
+      "除濕量不適合大客廳",
+      "功能較基本"
+    ],
+    "bestFor": "想依照房間坪數、除濕量與品牌售後挑除濕機的人。",
+    "recommendation": "補充推薦：6公升節能除濕機 的優勢在價格低、適合小房間，但仍建議把除濕量不適合大客廳納入取捨。",
+    "score": 86,
+    "voltage": "110V 台灣通路",
+    "warranty": "依台灣通路/品牌保固",
+    "tags": [
+      "小坪數",
+      "節能",
+      "預算"
+    ]
+  },
+  {
+    "id": "dehumidifier-extra-17-dmbq08a900ixl3k",
+    "category": "dehumidifier",
+    "rank": 17,
+    "budget": "value",
+    "channel": "tw",
+    "brand": "SHARP",
+    "model": "DW-WL6NT-W",
+    "name": "6公升高效除濕機",
+    "price": {
+      "currency": "TWD",
+      "amount": 4390,
+      "converted": 4390,
+      "confidence": "可信通路查核價，擷取 2026-07-08"
+    },
+    "image": "https://cs-a.ecimg.tw/items/DMBQ08A900IXL3K/000001_1753349026.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DMBQ08-A900IXL3K",
+    "buyLabel": "PChome",
+    "specs": [
+      "6L",
+      "高效除濕",
+      "小坪數",
+      "衣物乾燥"
+    ],
+    "description": "SHARP DW-WL6NT-W 補進本分類比較池，重點是6L、高效除濕、小坪數，適合和同類 Top Pick 依預算、售後與規格一起比較。",
+    "pros": [
+      "體積小、好擺放",
+      "SHARP 品牌能見度高"
+    ],
+    "cons": [
+      "水箱與除濕量有限",
+      "大空間需要更高公升數"
+    ],
+    "bestFor": "想依照房間坪數、除濕量與品牌售後挑除濕機的人。",
+    "recommendation": "補充推薦：6公升高效除濕機 的優勢在體積小、好擺放，但仍建議把水箱與除濕量有限納入取捨。",
+    "score": 85,
+    "voltage": "110V 台灣通路",
+    "warranty": "依台灣通路/品牌保固",
+    "tags": [
+      "小坪數",
+      "衣物乾燥",
+      "SHARP"
+    ]
+  },
+  {
+    "id": "dehumidifier-extra-18-dmbq3pa900j9fh9",
+    "category": "dehumidifier",
+    "rank": 18,
+    "budget": "value",
+    "channel": "tw",
+    "brand": "Panasonic",
+    "model": "F-Y12PS",
+    "name": "6L 除濕機",
+    "price": {
+      "currency": "TWD",
+      "amount": 5095,
+      "converted": 5095,
+      "confidence": "可信通路查核價，擷取 2026-07-08"
+    },
+    "image": "https://cs-a.ecimg.tw/items/DMBQ3PA900J9FH9/000001_1776325410.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DMBQ3P-A900J9FH9",
+    "buyLabel": "PChome",
+    "specs": [
+      "6L",
+      "Panasonic",
+      "小房間",
+      "基本除濕"
+    ],
+    "description": "Panasonic F-Y12PS 補進本分類比較池，重點是6L、Panasonic、小房間，適合和同類 Top Pick 依預算、售後與規格一起比較。",
+    "pros": [
+      "品牌售後穩",
+      "入門房間用夠用"
+    ],
+    "cons": [
+      "功能較基本",
+      "除濕速度不如變頻大容量"
+    ],
+    "bestFor": "想依照房間坪數、除濕量與品牌售後挑除濕機的人。",
+    "recommendation": "補充推薦：6L 除濕機 的優勢在品牌售後穩，但仍建議把功能較基本納入取捨。",
+    "score": 84,
+    "voltage": "110V 台灣通路",
+    "warranty": "依台灣通路/品牌保固",
+    "tags": [
+      "Panasonic",
+      "小房間",
+      "入門"
+    ]
+  },
+  {
+    "id": "dehumidifier-extra-19-dmbq08a900jpcl1",
+    "category": "dehumidifier",
+    "rank": 19,
+    "budget": "mid",
+    "channel": "tw",
+    "brand": "SHARP",
+    "model": "DW-PT12HT-W",
+    "name": "12公升 PCI 自動除菌離子除濕機",
+    "price": {
+      "currency": "TWD",
+      "amount": 8990,
+      "converted": 8990,
+      "confidence": "可信通路查核價，擷取 2026-07-08"
+    },
+    "image": "https://cs-a.ecimg.tw/items/DMBQ08A900JPCL1/000001_1770962000.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DMBQ08-A900JPCL1",
+    "buyLabel": "PChome",
+    "specs": [
+      "12L",
+      "PCI 除菌離子",
+      "衣物乾燥",
+      "中坪數"
+    ],
+    "description": "SHARP DW-PT12HT-W 補進本分類比較池，重點是12L、PCI 除菌離子、衣物乾燥，適合和同類 Top Pick 依預算、售後與規格一起比較。",
+    "pros": [
+      "除濕量比 6L 款實用",
+      "附加除菌離子功能"
+    ],
+    "cons": [
+      "價格較入門高",
+      "離子功能非空氣清淨替代"
+    ],
+    "bestFor": "想依照房間坪數、除濕量與品牌售後挑除濕機的人。",
+    "recommendation": "補充推薦：12公升 PCI 自動除菌離子除濕機 的優勢在除濕量比 6L 款實用，但仍建議把價格較入門高納入取捨。",
+    "score": 83,
+    "voltage": "110V 台灣通路",
+    "warranty": "依台灣通路/品牌保固",
+    "tags": [
+      "12L",
+      "PCI",
+      "中坪數"
+    ]
+  },
+  {
+    "id": "dehumidifier-extra-20-dmbq01a900gsfgx",
+    "category": "dehumidifier",
+    "rank": 20,
+    "budget": "mid",
+    "channel": "tw",
+    "brand": "HITACHI",
+    "model": "RD-22FC",
+    "name": "11公升清淨型除濕機",
+    "price": {
+      "currency": "TWD",
+      "amount": 9671,
+      "converted": 9671,
+      "confidence": "可信通路查核價，擷取 2026-07-08"
+    },
+    "image": "https://cs-a.ecimg.tw/items/DMBQ01A900GSFGX/000001_1767322095.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DMBQ01-A900GSFGX",
+    "buyLabel": "PChome",
+    "specs": [
+      "11L",
+      "清淨型",
+      "衣物乾燥",
+      "節電"
+    ],
+    "description": "HITACHI RD-22FC 補進本分類比較池，重點是11L、清淨型、衣物乾燥，適合和同類 Top Pick 依預算、售後與規格一起比較。",
+    "pros": [
+      "日系品牌與穩定性佳",
+      "除濕兼清淨概念"
+    ],
+    "cons": [
+      "價格比純除濕款高",
+      "濾網維護需留意"
+    ],
+    "bestFor": "想依照房間坪數、除濕量與品牌售後挑除濕機的人。",
+    "recommendation": "補充推薦：11公升清淨型除濕機 的優勢在日系品牌與穩定性佳，但仍建議把價格比純除濕款高納入取捨。",
+    "score": 82,
+    "voltage": "110V 台灣通路",
+    "warranty": "依台灣通路/品牌保固",
+    "tags": [
+      "清淨型",
+      "日系",
+      "11L"
+    ]
   }
 ]);
 })();

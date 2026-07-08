@@ -665,6 +665,226 @@
       "低價",
       "簡約"
     ]
+  },
+  {
+    "id": "purifier-extra-16-dmau5ea900jyg1w",
+    "category": "purifier",
+    "rank": 16,
+    "budget": "mid",
+    "channel": "tw",
+    "brand": "POIEMA",
+    "model": "P50",
+    "name": "新氣几 UV 抑菌空氣清淨機",
+    "price": {
+      "currency": "TWD",
+      "amount": 15990,
+      "converted": 15990,
+      "confidence": "可信通路查核價，擷取 2026-07-08"
+    },
+    "image": "https://cs-a.ecimg.tw/items/DMAU5EA900JYG1W/000001_1782872854.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DMAU5E-A900JYG1W",
+    "buyLabel": "PChome",
+    "specs": [
+      "CADR 300",
+      "UV 抑菌",
+      "無耗材",
+      "水洗濾網"
+    ],
+    "description": "POIEMA P50 補進本分類比較池，重點是CADR 300、UV 抑菌、無耗材，適合和同類 Top Pick 依預算、售後與規格一起比較。",
+    "pros": [
+      "無耗材降低長期成本",
+      "寵物毛屑情境訴求明確"
+    ],
+    "cons": [
+      "機身價格高於入門 HEPA",
+      "水洗濾網需定期維護"
+    ],
+    "bestFor": "想比較 HEPA、無耗材、水洗濾網與寵物抗敏取向的人。",
+    "recommendation": "補充推薦：新氣几 UV 抑菌空氣清淨機 的優勢在無耗材降低長期成本，但仍建議把機身價格高於入門 HEPA納入取捨。",
+    "score": 86,
+    "voltage": "110V 台灣通路",
+    "warranty": "依台灣通路/品牌保固",
+    "tags": [
+      "POIEMA",
+      "無耗材",
+      "寵物"
+    ]
+  },
+  {
+    "id": "purifier-extra-17-dmau5ea900jyg87",
+    "category": "purifier",
+    "rank": 17,
+    "budget": "mid",
+    "channel": "tw",
+    "brand": "POIEMA",
+    "model": "P50B",
+    "name": "新氣几 Lite 抑菌除臭空氣清淨機",
+    "price": {
+      "currency": "TWD",
+      "amount": 13990,
+      "converted": 13990,
+      "confidence": "可信通路查核價，擷取 2026-07-08"
+    },
+    "image": "https://cs-a.ecimg.tw/items/DMAU5EA900JYG87/000001_1782872232.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DMAU5E-A900JYG87",
+    "buyLabel": "PChome",
+    "specs": [
+      "CADR 300",
+      "抑菌除臭",
+      "無耗材",
+      "水洗濾網"
+    ],
+    "description": "POIEMA P50B 補進本分類比較池，重點是CADR 300、抑菌除臭、無耗材，適合和同類 Top Pick 依預算、售後與規格一起比較。",
+    "pros": [
+      "比 UV 版便宜",
+      "適合重視低耗材成本的人"
+    ],
+    "cons": [
+      "不是傳統 HEPA 濾網路線",
+      "除臭效果需看空間與維護"
+    ],
+    "bestFor": "想比較 HEPA、無耗材、水洗濾網與寵物抗敏取向的人。",
+    "recommendation": "補充推薦：新氣几 Lite 抑菌除臭空氣清淨機 的優勢在比 UV 版便宜，但仍建議把不是傳統 HEPA 濾網路線納入取捨。",
+    "score": 85,
+    "voltage": "110V 台灣通路",
+    "warranty": "依台灣通路/品牌保固",
+    "tags": [
+      "POIEMA",
+      "Lite",
+      "無耗材"
+    ]
+  },
+  {
+    "id": "purifier-extra-18-dmau6ta900ivwe0",
+    "category": "purifier",
+    "rank": 18,
+    "budget": "value",
+    "channel": "tw",
+    "brand": "SHARP",
+    "model": "FU-J41T-W",
+    "name": "10坪圓嘟嘟空氣清淨機",
+    "price": {
+      "currency": "TWD",
+      "amount": 5990,
+      "converted": 5990,
+      "confidence": "可信通路查核價，擷取 2026-07-08"
+    },
+    "image": "https://cs-a.ecimg.tw/items/DMAU25A900IK1F2/000001_1744651718.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DMAU25-A900IK1F2",
+    "buyLabel": "PChome",
+    "specs": [
+      "10 坪",
+      "空氣清淨",
+      "小中坪數",
+      "SHARP"
+    ],
+    "description": "SHARP FU-J41T-W 補進本分類比較池，重點是10 坪、空氣清淨、小中坪數，適合和同類 Top Pick 依預算、售後與規格一起比較。",
+    "pros": [
+      "價格與坪數平衡",
+      "品牌售後成熟"
+    ],
+    "cons": [
+      "大客廳不夠力",
+      "智慧功能較少"
+    ],
+    "bestFor": "想比較 HEPA、無耗材、水洗濾網與寵物抗敏取向的人。",
+    "recommendation": "補充推薦：10坪圓嘟嘟空氣清淨機 的優勢在價格與坪數平衡，但仍建議把大客廳不夠力納入取捨。",
+    "score": 84,
+    "voltage": "110V 台灣通路",
+    "warranty": "依台灣通路/品牌保固",
+    "tags": [
+      "10坪",
+      "中價位",
+      "SHARP"
+    ]
+  },
+  {
+    "id": "purifier-extra-19-dmac2oa900j7sbo",
+    "category": "purifier",
+    "rank": 19,
+    "budget": "mid",
+    "channel": "tw",
+    "brand": "Philips",
+    "model": "AC3360/80",
+    "name": "寵物抗敏空氣清淨機輕量版",
+    "price": {
+      "currency": "TWD",
+      "amount": 10890,
+      "converted": 10890,
+      "confidence": "可信通路查核價，擷取 2026-07-08"
+    },
+    "image": "https://cs-a.ecimg.tw/items/DMAC2OA900J7SBO/000001_1781799851.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DMAC2O-A900J7SBO",
+    "buyLabel": "PChome",
+    "specs": [
+      "寵物抗敏",
+      "空氣品質偵測",
+      "中大坪數",
+      "Philips"
+    ],
+    "description": "Philips AC3360/80 補進本分類比較池，重點是寵物抗敏、空氣品質偵測、中大坪數，適合和同類 Top Pick 依預算、售後與規格一起比較。",
+    "pros": [
+      "寵物家庭定位明確",
+      "Philips 濾材取得較安心"
+    ],
+    "cons": [
+      "耗材成本需列入",
+      "價格高於入門機"
+    ],
+    "bestFor": "想比較 HEPA、無耗材、水洗濾網與寵物抗敏取向的人。",
+    "recommendation": "補充推薦：寵物抗敏空氣清淨機輕量版 的優勢在寵物家庭定位明確，但仍建議把耗材成本需列入納入取捨。",
+    "score": 83,
+    "voltage": "110V 台灣通路",
+    "warranty": "依台灣通路/品牌保固",
+    "tags": [
+      "寵物",
+      "抗敏",
+      "Philips"
+    ]
+  },
+  {
+    "id": "purifier-extra-20-dmbm0ka900id5xp",
+    "category": "purifier",
+    "rank": 20,
+    "budget": "mid",
+    "channel": "tw",
+    "brand": "LG",
+    "model": "AS601HWG0",
+    "name": "PuriCare 超淨化大白空氣清淨機",
+    "price": {
+      "currency": "TWD",
+      "amount": 6810,
+      "converted": 6810,
+      "confidence": "可信通路查核價，擷取 2026-07-08"
+    },
+    "image": "https://cs-a.ecimg.tw/items/DMAU0BA900GI0Q1/000001_1763349087.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DMAU0B-A900GI0Q1",
+    "buyLabel": "PChome",
+    "specs": [
+      "PuriCare",
+      "空氣清淨",
+      "中坪數",
+      "LG"
+    ],
+    "description": "LG AS601HWG0 補進本分類比較池，重點是PuriCare、空氣清淨、中坪數，適合和同類 Top Pick 依預算、售後與規格一起比較。",
+    "pros": [
+      "外型簡潔、品牌售後佳",
+      "適合客廳或主臥"
+    ],
+    "cons": [
+      "耗材成本需留意",
+      "坪數不如 360 大型款"
+    ],
+    "bestFor": "想比較 HEPA、無耗材、水洗濾網與寵物抗敏取向的人。",
+    "recommendation": "補充推薦：PuriCare 超淨化大白空氣清淨機 的優勢在外型簡潔、品牌售後佳，但仍建議把耗材成本需留意納入取捨。",
+    "score": 82,
+    "voltage": "110V 台灣通路",
+    "warranty": "依台灣通路/品牌保固",
+    "tags": [
+      "LG",
+      "PuriCare",
+      "中坪數"
+    ]
   }
 ]);
 })();

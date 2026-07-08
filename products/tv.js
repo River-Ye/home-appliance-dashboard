@@ -665,6 +665,226 @@
       "遊戲",
       "CP 值"
     ]
+  },
+  {
+    "id": "tv-extra-16-dpadb2a900jgkqb",
+    "category": "tv",
+    "rank": 16,
+    "budget": "mid",
+    "channel": "tw",
+    "brand": "AOC",
+    "model": "65U8040",
+    "name": "65型 4K QLED Google TV 智慧顯示器",
+    "price": {
+      "currency": "TWD",
+      "amount": 13999,
+      "converted": 13999,
+      "confidence": "可信通路查核價，擷取 2026-07-08"
+    },
+    "image": "https://cs-a.ecimg.tw/items/DPADB2A900JGKQB/000001_1764820202.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DPADB2-A900JGKQB",
+    "buyLabel": "PChome",
+    "specs": [
+      "65 吋",
+      "4K",
+      "QLED",
+      "Google TV"
+    ],
+    "description": "AOC 65U8040 補進本分類比較池，重點是65 吋、4K、QLED，適合和同類 Top Pick 依預算、售後與規格一起比較。",
+    "pros": [
+      "價格很有競爭力",
+      "QLED 與 Google TV 規格完整"
+    ],
+    "cons": [
+      "品牌高階畫質口碑不如日韓旗艦",
+      "安裝另計需確認"
+    ],
+    "bestFor": "以 65 吋客廳主力電視為主，想看 QLED、Google TV 與品牌售後的人。",
+    "recommendation": "補充推薦：65型 4K QLED Google TV 智慧顯示器 的優勢在價格很有競爭力，但仍建議把品牌高階畫質口碑不如日韓旗艦納入取捨。",
+    "score": 86,
+    "voltage": "110V 台灣通路",
+    "warranty": "依台灣通路/品牌保固",
+    "tags": [
+      "65吋",
+      "QLED",
+      "CP 值"
+    ]
+  },
+  {
+    "id": "tv-extra-17-dpado5a900ie3y5",
+    "category": "tv",
+    "rank": 17,
+    "budget": "mid",
+    "channel": "tw",
+    "brand": "Toshiba",
+    "model": "65M450NT",
+    "name": "REGZA 65型 4K QLED Google TV",
+    "price": {
+      "currency": "TWD",
+      "amount": 17999,
+      "converted": 17999,
+      "confidence": "可信通路查核價，擷取 2026-07-08"
+    },
+    "image": "https://cs-a.ecimg.tw/items/DPADBHA900HWJZ7/000001_1780076528.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DPADBH-A900HWJZ7",
+    "buyLabel": "PChome",
+    "specs": [
+      "65 吋",
+      "4K",
+      "QLED",
+      "Google TV"
+    ],
+    "description": "Toshiba 65M450NT 補進本分類比較池，重點是65 吋、4K、QLED，適合和同類 Top Pick 依預算、售後與規格一起比較。",
+    "pros": [
+      "REGZA 品牌調校有口碑",
+      "含壁掛安裝方案可參考"
+    ],
+    "cons": [
+      "非 Mini LED/OLED",
+      "同型號不同方案需比價"
+    ],
+    "bestFor": "以 65 吋客廳主力電視為主，想看 QLED、Google TV 與品牌售後的人。",
+    "recommendation": "補充推薦：REGZA 65型 4K QLED Google TV 的優勢在REGZA 品牌調校有口碑，但仍建議把非 Mini LED/OLED納入取捨。",
+    "score": 85,
+    "voltage": "110V 台灣通路",
+    "warranty": "依台灣通路/品牌保固",
+    "tags": [
+      "65吋",
+      "QLED",
+      "REGZA"
+    ]
+  },
+  {
+    "id": "tv-extra-18-dpadtoa900jne73",
+    "category": "tv",
+    "rank": 18,
+    "budget": "mid",
+    "channel": "tw",
+    "brand": "CHiQ",
+    "model": "CQ-65QX250",
+    "name": "65型 4K QLED 120Hz Google TV",
+    "price": {
+      "currency": "TWD",
+      "amount": 13990,
+      "converted": 13990,
+      "confidence": "可信通路查核價，擷取 2026-07-08"
+    },
+    "image": "https://cs-a.ecimg.tw/items/DPADTOA900JNE73/000001_1768523868.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DPADTO-A900JNE73",
+    "buyLabel": "PChome",
+    "specs": [
+      "65 吋",
+      "4K",
+      "QLED",
+      "120Hz"
+    ],
+    "description": "CHiQ CQ-65QX250 補進本分類比較池，重點是65 吋、4K、QLED，適合和同類 Top Pick 依預算、售後與規格一起比較。",
+    "pros": [
+      "120Hz 規格價格漂亮",
+      "適合預算型客廳"
+    ],
+    "cons": [
+      "品牌售後與調校需斟酌",
+      "HDR 表現不如高階款"
+    ],
+    "bestFor": "以 65 吋客廳主力電視為主，想看 QLED、Google TV 與品牌售後的人。",
+    "recommendation": "補充推薦：65型 4K QLED 120Hz Google TV 的優勢在120Hz 規格價格漂亮，但仍建議把品牌售後與調校需斟酌納入取捨。",
+    "score": 84,
+    "voltage": "110V 台灣通路",
+    "warranty": "依台灣通路/品牌保固",
+    "tags": [
+      "65吋",
+      "120Hz",
+      "預算"
+    ]
+  },
+  {
+    "id": "tv-extra-19-dmbm10a900ifxk7",
+    "category": "tv",
+    "rank": 19,
+    "budget": "mid",
+    "channel": "tw",
+    "brand": "TECO",
+    "model": "TL65QU1TRE",
+    "name": "65型 4K QLED Google TV 顯示器",
+    "price": {
+      "currency": "TWD",
+      "amount": 21411,
+      "converted": 21411,
+      "confidence": "可信通路查核價，擷取 2026-07-08"
+    },
+    "image": "https://cs-a.ecimg.tw/items/DPAD0WA900I9LNS/000001_1769648262.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DPAD0W-A900I9LNS",
+    "buyLabel": "PChome",
+    "specs": [
+      "65 吋",
+      "4K",
+      "QLED",
+      "Google TV"
+    ],
+    "description": "TECO TL65QU1TRE 補進本分類比較池，重點是65 吋、4K、QLED，適合和同類 Top Pick 依預算、售後與規格一起比較。",
+    "pros": [
+      "台灣品牌、維修點較安心",
+      "價格與規格平衡"
+    ],
+    "cons": [
+      "影像處理不如高階國際品牌",
+      "外型與聲音較基本"
+    ],
+    "bestFor": "以 65 吋客廳主力電視為主，想看 QLED、Google TV 與品牌售後的人。",
+    "recommendation": "補充推薦：65型 4K QLED Google TV 顯示器 的優勢在台灣品牌、維修點較安心，但仍建議把影像處理不如高階國際品牌納入取捨。",
+    "score": 83,
+    "voltage": "110V 台灣通路",
+    "warranty": "依台灣通路/品牌保固",
+    "tags": [
+      "65吋",
+      "台灣品牌",
+      "QLED"
+    ]
+  },
+  {
+    "id": "tv-extra-20-dpadw5a900k1qa7",
+    "category": "tv",
+    "rank": 20,
+    "budget": "mid",
+    "channel": "tw",
+    "brand": "SAMPO",
+    "model": "QM-65SF620",
+    "name": "65型 QLED Google TV 顯示器",
+    "price": {
+      "currency": "TWD",
+      "amount": 19710,
+      "converted": 19710,
+      "confidence": "可信通路查核價，擷取 2026-07-08"
+    },
+    "image": "https://cs-a.ecimg.tw/items/DPADW5A900K1QA7/000001_1782888863.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DPADW5-A900K1QA7",
+    "buyLabel": "PChome",
+    "specs": [
+      "65 吋",
+      "QLED",
+      "Google TV",
+      "量子點"
+    ],
+    "description": "SAMPO QM-65SF620 補進本分類比較池，重點是65 吋、QLED、Google TV，適合和同類 Top Pick 依預算、售後與規格一起比較。",
+    "pros": [
+      "台灣通路與售後友善",
+      "價格常有組合優惠"
+    ],
+    "cons": [
+      "贈品方案需看是否真的需要",
+      "高階畫質非主打"
+    ],
+    "bestFor": "以 65 吋客廳主力電視為主，想看 QLED、Google TV 與品牌售後的人。",
+    "recommendation": "補充推薦：65型 QLED Google TV 顯示器 的優勢在台灣通路與售後友善，但仍建議把贈品方案需看是否真的需要納入取捨。",
+    "score": 82,
+    "voltage": "110V 台灣通路",
+    "warranty": "依台灣通路/品牌保固",
+    "tags": [
+      "65吋",
+      "QLED",
+      "台灣通路"
+    ]
   }
 ]);
 })();

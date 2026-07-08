@@ -665,6 +665,226 @@
       "音樂",
       "簡潔"
     ]
+  },
+  {
+    "id": "soundbar-extra-16-dmaalna900hp6mr",
+    "category": "soundbar",
+    "rank": 16,
+    "budget": "value",
+    "channel": "tw",
+    "brand": "Philips",
+    "model": "TAB4288",
+    "name": "2.0 聲道無線藍牙聲霸",
+    "price": {
+      "currency": "TWD",
+      "amount": 4990,
+      "converted": 4990,
+      "confidence": "可信通路查核價，擷取 2026-07-08"
+    },
+    "image": "https://cs-a.ecimg.tw/items/DMAALNA900HP6MR/000001_1722414518.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DMAALN-A900HP6MR",
+    "buyLabel": "PChome",
+    "specs": [
+      "2.0 聲道",
+      "藍牙",
+      "無線聲霸",
+      "入門"
+    ],
+    "description": "Philips TAB4288 補進本分類比較池，重點是2.0 聲道、藍牙、無線聲霸，適合和同類 Top Pick 依預算、售後與規格一起比較。",
+    "pros": [
+      "價格低、比電視內建喇叭好",
+      "安裝簡單"
+    ],
+    "cons": [
+      "沒有獨立重低音",
+      "環繞感有限"
+    ],
+    "bestFor": "想依預算補強電視音效，並比較入門、Atmos 與實體環繞的人。",
+    "recommendation": "補充推薦：2.0 聲道無線藍牙聲霸 的優勢在價格低、比電視內建喇叭好，但仍建議把沒有獨立重低音納入取捨。",
+    "score": 86,
+    "voltage": "110V 台灣通路",
+    "warranty": "依台灣通路/品牌保固",
+    "tags": [
+      "入門",
+      "藍牙",
+      "Philips"
+    ]
+  },
+  {
+    "id": "soundbar-extra-17-dmbm1da900hpuxn",
+    "category": "soundbar",
+    "rank": 17,
+    "budget": "mid",
+    "channel": "tw",
+    "brand": "Sony",
+    "model": "HT-A8000",
+    "name": "BRAVIA Theatre Bar 8 聲霸",
+    "price": {
+      "currency": "TWD",
+      "amount": 22950,
+      "converted": 22950,
+      "confidence": "可信通路查核價，擷取 2026-07-08"
+    },
+    "image": "https://cs-a.ecimg.tw/items/DMBM1DA900HTC64/000001_1781747501.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DMBM1D-A900HTC64",
+    "buyLabel": "PChome",
+    "specs": [
+      "11 單體",
+      "Dolby Atmos",
+      "空間音場",
+      "Sony"
+    ],
+    "description": "Sony HT-A8000 補進本分類比較池，重點是11 單體、Dolby Atmos、空間音場，適合和同類 Top Pick 依預算、售後與規格一起比較。",
+    "pros": [
+      "音場與人聲強化表現好",
+      "適合 Sony 電視搭配"
+    ],
+    "cons": [
+      "價格較高",
+      "低頻可視需求加購重低音"
+    ],
+    "bestFor": "想依預算補強電視音效，並比較入門、Atmos 與實體環繞的人。",
+    "recommendation": "補充推薦：BRAVIA Theatre Bar 8 聲霸 的優勢在音場與人聲強化表現好，但仍建議把價格較高納入取捨。",
+    "score": 85,
+    "voltage": "110V 台灣通路",
+    "warranty": "依台灣通路/品牌保固",
+    "tags": [
+      "Atmos",
+      "Sony",
+      "高階"
+    ]
+  },
+  {
+    "id": "soundbar-extra-18-dmbm1da900iuzuj",
+    "category": "soundbar",
+    "rank": 18,
+    "budget": "premium",
+    "channel": "tw",
+    "brand": "Sony",
+    "model": "HT-A9000",
+    "name": "BRAVIA Theatre Bar 9 旗艦聲霸",
+    "price": {
+      "currency": "TWD",
+      "amount": 36810,
+      "converted": 36810,
+      "confidence": "可信通路查核價，擷取 2026-07-08"
+    },
+    "image": "https://cs-a.ecimg.tw/items/DMBM1DA900IUZUJ/000001_1781790756.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DMBM1D-A900IUZUJ",
+    "buyLabel": "PChome",
+    "specs": [
+      "13 單體",
+      "360 空間音場",
+      "Dolby Atmos",
+      "旗艦"
+    ],
+    "description": "Sony HT-A9000 補進本分類比較池，重點是13 單體、360 空間音場、Dolby Atmos，適合和同類 Top Pick 依預算、售後與規格一起比較。",
+    "pros": [
+      "Sony 旗艦單件式聲霸",
+      "電影沉浸感強"
+    ],
+    "cons": [
+      "價格高",
+      "完整環繞仍需後環繞/重低音"
+    ],
+    "bestFor": "想依預算補強電視音效，並比較入門、Atmos 與實體環繞的人。",
+    "recommendation": "補充推薦：BRAVIA Theatre Bar 9 旗艦聲霸 的優勢在Sony 旗艦單件式聲霸，但仍建議把價格高納入取捨。",
+    "score": 84,
+    "voltage": "110V 台灣通路",
+    "warranty": "依台灣通路/品牌保固",
+    "tags": [
+      "旗艦",
+      "Atmos",
+      "Sony"
+    ]
+  },
+  {
+    "id": "soundbar-extra-19-dmaahga900j5777",
+    "category": "soundbar",
+    "rank": 19,
+    "budget": "premium",
+    "channel": "tw",
+    "brand": "JBL",
+    "model": "BAR 1000 MK2",
+    "name": "7.1.4 聲道家庭劇院聲霸",
+    "price": {
+      "currency": "TWD",
+      "amount": 42900,
+      "converted": 42900,
+      "confidence": "可信通路查核價，擷取 2026-07-08"
+    },
+    "image": "https://cs-a.ecimg.tw/items/DMAAHGA900J5777/000001_1755253698.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DMAAHG-A900J5777",
+    "buyLabel": "PChome",
+    "specs": [
+      "7.1.4 聲道",
+      "可拆式無線喇叭",
+      "10 吋重低音",
+      "Dolby Atmos"
+    ],
+    "description": "JBL BAR 1000 MK2 補進本分類比較池，重點是7.1.4 聲道、可拆式無線喇叭、10 吋重低音，適合和同類 Top Pick 依預算、售後與規格一起比較。",
+    "pros": [
+      "實體後環繞彈性高",
+      "低頻與環繞感完整"
+    ],
+    "cons": [
+      "價格與空間需求較高",
+      "後喇叭充電/擺放要規劃"
+    ],
+    "bestFor": "想依預算補強電視音效，並比較入門、Atmos 與實體環繞的人。",
+    "recommendation": "補充推薦：7.1.4 聲道家庭劇院聲霸 的優勢在實體後環繞彈性高，但仍建議把價格與空間需求較高納入取捨。",
+    "score": 83,
+    "voltage": "110V 台灣通路",
+    "warranty": "依台灣通路/品牌保固",
+    "tags": [
+      "7.1.4",
+      "可拆環繞",
+      "重低音"
+    ]
+  },
+  {
+    "id": "soundbar-extra-20-dmaf02a900h2g5r",
+    "category": "soundbar",
+    "rank": 20,
+    "budget": "premium",
+    "channel": "tw",
+    "brand": "Philips",
+    "model": "TAFB1/96",
+    "name": "Fidelio 7.1.2 Dolby Atmos 旗艦聲霸",
+    "price": {
+      "currency": "TWD",
+      "amount": 36955,
+      "converted": 36955,
+      "confidence": "可信通路查核價，擷取 2026-07-08"
+    },
+    "image": "https://cs-a.ecimg.tw/items/DMAF02A900H2G5R/000001_1704612188.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DMAF02-A900H2G5R",
+    "buyLabel": "PChome",
+    "specs": [
+      "7.1.2 聲道",
+      "Dolby Atmos",
+      "IMAX Enhanced",
+      "無線重低音"
+    ],
+    "description": "Philips TAFB1/96 補進本分類比較池，重點是7.1.2 聲道、Dolby Atmos、IMAX Enhanced，適合和同類 Top Pick 依預算、售後與規格一起比較。",
+    "pros": [
+      "規格完整、價格低於部分旗艦",
+      "重低音與聲道數一次到位"
+    ],
+    "cons": [
+      "Philips 高階聲霸討論度較少",
+      "尺寸與擺位需確認"
+    ],
+    "bestFor": "想依預算補強電視音效，並比較入門、Atmos 與實體環繞的人。",
+    "recommendation": "補充推薦：Fidelio 7.1.2 Dolby Atmos 旗艦聲霸 的優勢在規格完整、價格低於部分旗艦，但仍建議把Philips 高階聲霸討論度較少納入取捨。",
+    "score": 82,
+    "voltage": "110V 台灣通路",
+    "warranty": "依台灣通路/品牌保固",
+    "tags": [
+      "Fidelio",
+      "Atmos",
+      "旗艦"
+    ]
   }
 ]);
 })();

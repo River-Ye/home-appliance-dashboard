@@ -665,6 +665,226 @@
       "10 坪",
       "均衡"
     ]
+  },
+  {
+    "id": "circulator-extra-16-dmablya900jx0yj",
+    "category": "circulator",
+    "rank": 16,
+    "budget": "value",
+    "channel": "tw",
+    "brand": "TECO",
+    "model": "XYFXA1101CB",
+    "name": "11吋智能聲控 DC 3D 循環扇",
+    "price": {
+      "currency": "TWD",
+      "amount": 2111,
+      "converted": 2111,
+      "confidence": "可信通路查核價，擷取 2026-07-08"
+    },
+    "image": "https://cs-a.ecimg.tw/items/DSBE18A900K5EJK/000001_1782367256.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DSBE18-A900K5EJK",
+    "buyLabel": "PChome",
+    "specs": [
+      "11 吋",
+      "DC 馬達",
+      "3D 擺頭",
+      "聲控"
+    ],
+    "description": "TECO XYFXA1101CB 補進本分類比較池，重點是11 吋、DC 馬達、3D 擺頭，適合和同類 Top Pick 依預算、售後與規格一起比較。",
+    "pros": [
+      "聲控與 DC 規格完整",
+      "台灣品牌維修較安心"
+    ],
+    "cons": [
+      "聲控實用性看使用習慣",
+      "風量不如大尺寸款"
+    ],
+    "bestFor": "需要搭配冷氣或跨房間循環，並比較 DC、聲控、吸頂與大風量的人。",
+    "recommendation": "補充推薦：11吋智能聲控 DC 3D 循環扇 的優勢在聲控與 DC 規格完整，但仍建議把聲控實用性看使用習慣納入取捨。",
+    "score": 86,
+    "voltage": "110V 台灣通路",
+    "warranty": "依台灣通路/品牌保固",
+    "tags": [
+      "DC",
+      "聲控",
+      "3D"
+    ]
+  },
+  {
+    "id": "circulator-extra-17-dmablxa900gds4d",
+    "category": "circulator",
+    "rank": 17,
+    "budget": "mid",
+    "channel": "tw",
+    "brand": "I-COOL",
+    "model": "MYDC-8877",
+    "name": "18吋微電腦 360 度 DC 節能循環扇",
+    "price": {
+      "currency": "TWD",
+      "amount": 2888,
+      "converted": 2888,
+      "confidence": "可信通路查核價，擷取 2026-07-08"
+    },
+    "image": "https://cs-a.ecimg.tw/items/DMABLXA900GDS4D/000001_1685677114.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DMABLX-A900GDS4D",
+    "buyLabel": "PChome",
+    "specs": [
+      "18 吋",
+      "DC 節能",
+      "360 度",
+      "微電腦"
+    ],
+    "description": "I-COOL MYDC-8877 補進本分類比較池，重點是18 吋、DC 節能、360 度，適合和同類 Top Pick 依預算、售後與規格一起比較。",
+    "pros": [
+      "大尺寸覆蓋廣",
+      "360 度循環彈性高"
+    ],
+    "cons": [
+      "占地較大",
+      "品牌能見度較低"
+    ],
+    "bestFor": "需要搭配冷氣或跨房間循環，並比較 DC、聲控、吸頂與大風量的人。",
+    "recommendation": "補充推薦：18吋微電腦 360 度 DC 節能循環扇 的優勢在大尺寸覆蓋廣，但仍建議把占地較大納入取捨。",
+    "score": 85,
+    "voltage": "110V 台灣通路",
+    "warranty": "依台灣通路/品牌保固",
+    "tags": [
+      "大風量",
+      "DC",
+      "360 度"
+    ]
+  },
+  {
+    "id": "circulator-extra-18-dmablxa900hi682",
+    "category": "circulator",
+    "rank": 18,
+    "budget": "mid",
+    "channel": "tw",
+    "brand": "日虎",
+    "model": "AI語音循環扇",
+    "name": "DC 語音循環扇",
+    "price": {
+      "currency": "TWD",
+      "amount": 3680,
+      "converted": 3680,
+      "confidence": "可信通路查核價，擷取 2026-07-08"
+    },
+    "image": "https://cs-a.ecimg.tw/items/DMABLXA900HI682/000001_1716457070.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DMABLX-A900HI682",
+    "buyLabel": "PChome",
+    "specs": [
+      "DC",
+      "AI 語音",
+      "循環扇",
+      "多段風量"
+    ],
+    "description": "日虎 AI語音循環扇 補進本分類比較池，重點是DC、AI 語音、循環扇，適合和同類 Top Pick 依預算、售後與規格一起比較。",
+    "pros": [
+      "語音控制方便",
+      "價格比進口高階款低"
+    ],
+    "cons": [
+      "語音辨識體驗需實測",
+      "品牌售後需看通路"
+    ],
+    "bestFor": "需要搭配冷氣或跨房間循環，並比較 DC、聲控、吸頂與大風量的人。",
+    "recommendation": "補充推薦：DC 語音循環扇 的優勢在語音控制方便，但仍建議把語音辨識體驗需實測納入取捨。",
+    "score": 84,
+    "voltage": "110V 台灣通路",
+    "warranty": "依台灣通路/品牌保固",
+    "tags": [
+      "語音",
+      "DC",
+      "預算"
+    ]
+  },
+  {
+    "id": "circulator-extra-19-dmablya900k3cs7",
+    "category": "circulator",
+    "rank": 19,
+    "budget": "mid",
+    "channel": "tw",
+    "brand": "SAMPO",
+    "model": "SK-S24181WL",
+    "name": "18吋 DC 直流馬達循環吸頂扇",
+    "price": {
+      "currency": "TWD",
+      "amount": 2980,
+      "converted": 2980,
+      "confidence": "可信通路查核價，擷取 2026-07-08"
+    },
+    "image": "https://cs-a.ecimg.tw/items/DMBM3GA900IUV09/000001_1777977008.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DMBM3G-A900IUV09",
+    "buyLabel": "PChome",
+    "specs": [
+      "18 吋",
+      "DC 馬達",
+      "吸頂",
+      "循環"
+    ],
+    "description": "SAMPO SK-S24181WL 補進本分類比較池，重點是18 吋、DC 馬達、吸頂，適合和同類 Top Pick 依預算、售後與規格一起比較。",
+    "pros": [
+      "不占地面空間",
+      "適合固定房間循環"
+    ],
+    "cons": [
+      "安裝條件較受限",
+      "不適合租屋隨搬"
+    ],
+    "bestFor": "需要搭配冷氣或跨房間循環，並比較 DC、聲控、吸頂與大風量的人。",
+    "recommendation": "補充推薦：18吋 DC 直流馬達循環吸頂扇 的優勢在不占地面空間，但仍建議把安裝條件較受限納入取捨。",
+    "score": 83,
+    "voltage": "110V 台灣通路",
+    "warranty": "依台灣通路/品牌保固",
+    "tags": [
+      "吸頂",
+      "DC",
+      "固定式"
+    ]
+  },
+  {
+    "id": "circulator-extra-20-dmablya900h2h5c",
+    "category": "circulator",
+    "rank": 20,
+    "budget": "mid",
+    "channel": "tw",
+    "brand": "DELTA",
+    "model": "雙渦輪多向循環扇",
+    "name": "DC 直流雙渦輪多向循環扇",
+    "price": {
+      "currency": "TWD",
+      "amount": 6400,
+      "converted": 6400,
+      "confidence": "可信通路查核價，擷取 2026-07-08"
+    },
+    "image": "https://cs-a.ecimg.tw/items/DMABLYA900H2H5C/000001_1782200669.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DMABLY-A900H2H5C",
+    "buyLabel": "PChome",
+    "specs": [
+      "DC",
+      "雙渦輪",
+      "多向循環",
+      "節能"
+    ],
+    "description": "DELTA 雙渦輪多向循環扇 補進本分類比較池，重點是DC、雙渦輪、多向循環，適合和同類 Top Pick 依預算、售後與規格一起比較。",
+    "pros": [
+      "台達馬達與節能口碑好",
+      "多向循環適合大空間"
+    ],
+    "cons": [
+      "價格比入門循環扇高",
+      "外型偏機能"
+    ],
+    "bestFor": "需要搭配冷氣或跨房間循環，並比較 DC、聲控、吸頂與大風量的人。",
+    "recommendation": "補充推薦：DC 直流雙渦輪多向循環扇 的優勢在台達馬達與節能口碑好，但仍建議把價格比入門循環扇高納入取捨。",
+    "score": 82,
+    "voltage": "110V 台灣通路",
+    "warranty": "依台灣通路/品牌保固",
+    "tags": [
+      "雙渦輪",
+      "DC",
+      "大空間"
+    ]
   }
 ]);
 })();

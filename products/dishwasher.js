@@ -723,5 +723,225 @@ globalThis.applianceDashboard.registerProducts("dishwasher", [
       "廚房",
       "安裝"
     ]
+  },
+  {
+    "id": "dishwasher-extra-16-dmbr0pa900jbv02",
+    "category": "dishwasher",
+    "rank": 16,
+    "budget": "mid",
+    "channel": "tw",
+    "brand": "KE",
+    "model": "KDW-156W",
+    "name": "桌上型洗碗機",
+    "price": {
+      "currency": "TWD",
+      "amount": 11000,
+      "converted": 11000,
+      "confidence": "可信通路查核價，擷取 2026-07-08"
+    },
+    "image": "https://cs-a.ecimg.tw/items/DMBR0PA900JBV02/000001_1762938951.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DMBR0P-A900JBV02",
+    "buyLabel": "PChome",
+    "specs": [
+      "桌上型",
+      "小家庭",
+      "烘乾",
+      "免大型裝修"
+    ],
+    "description": "KE KDW-156W 補進本分類比較池，重點是桌上型、小家庭、烘乾，適合和同類 Top Pick 依預算、售後與規格一起比較。",
+    "pros": [
+      "價格比歐系嵌入式低",
+      "適合租屋或小家庭"
+    ],
+    "cons": [
+      "容量有限",
+      "品牌知名度較低"
+    ],
+    "bestFor": "租屋、小家庭或想比較桌上型與嵌入式洗碗機的人。",
+    "recommendation": "補充推薦：桌上型洗碗機 的優勢在價格比歐系嵌入式低，但仍建議把容量有限納入取捨。",
+    "score": 86,
+    "voltage": "110V 台灣通路",
+    "warranty": "依台灣通路/品牌保固",
+    "tags": [
+      "桌上型",
+      "小家庭",
+      "預算"
+    ]
+  },
+  {
+    "id": "dishwasher-extra-17-dmbr17a900ihtz3",
+    "category": "dishwasher",
+    "rank": 17,
+    "budget": "mid",
+    "channel": "tw",
+    "brand": "Celinda",
+    "model": "DGF-601",
+    "name": "免安裝自動 6 人份洗碗機",
+    "price": {
+      "currency": "TWD",
+      "amount": 15809,
+      "converted": 15809,
+      "confidence": "可信通路查核價，擷取 2026-07-08"
+    },
+    "image": "https://cs-a.ecimg.tw/items/DMBR17A900IHTZ3/000001_1777540146.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DMBR17-A900IHTZ3",
+    "buyLabel": "PChome",
+    "specs": [
+      "6 人份",
+      "免安裝",
+      "110V",
+      "桌上型"
+    ],
+    "description": "Celinda DGF-601 補進本分類比較池，重點是6 人份、免安裝、110V，適合和同類 Top Pick 依預算、售後與規格一起比較。",
+    "pros": [
+      "免安裝門檻低",
+      "6 人份比迷你款實用"
+    ],
+    "cons": [
+      "水箱/排水動線需整理",
+      "品牌售後需確認"
+    ],
+    "bestFor": "租屋、小家庭或想比較桌上型與嵌入式洗碗機的人。",
+    "recommendation": "補充推薦：免安裝自動 6 人份洗碗機 的優勢在免安裝門檻低，但仍建議把水箱/排水動線需整理納入取捨。",
+    "score": 85,
+    "voltage": "110V 台灣通路",
+    "warranty": "依台灣通路/品牌保固",
+    "tags": [
+      "免安裝",
+      "6 人份",
+      "桌上型"
+    ]
+  },
+  {
+    "id": "dishwasher-extra-18-dmbr25a900j5bgp",
+    "category": "dishwasher",
+    "rank": 18,
+    "budget": "mid",
+    "channel": "tw",
+    "brand": "Acerpure",
+    "model": "KW534-60W",
+    "name": "VORTEX KW1 桌上型全自動洗碗機",
+    "price": {
+      "currency": "TWD",
+      "amount": 15990,
+      "converted": 15990,
+      "confidence": "可信通路查核價，擷取 2026-07-08"
+    },
+    "image": "https://cs-a.ecimg.tw/items/DMBR25A900J5BGP/000001_1782112645.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DMBR25-A900J5BGP",
+    "buyLabel": "PChome",
+    "specs": [
+      "桌上型",
+      "全自動",
+      "Acerpure",
+      "小家庭"
+    ],
+    "description": "Acerpure KW534-60W 補進本分類比較池，重點是桌上型、全自動、Acerpure，適合和同類 Top Pick 依預算、售後與規格一起比較。",
+    "pros": [
+      "Acerpure 通路能見度高",
+      "適合不想改櫃體的人"
+    ],
+    "cons": [
+      "容量不如 13/14 人份",
+      "長鍋具仍不適合"
+    ],
+    "bestFor": "租屋、小家庭或想比較桌上型與嵌入式洗碗機的人。",
+    "recommendation": "補充推薦：VORTEX KW1 桌上型全自動洗碗機 的優勢在Acerpure 通路能見度高，但仍建議把容量不如 13/14 人份納入取捨。",
+    "score": 84,
+    "voltage": "110V 台灣通路",
+    "warranty": "依台灣通路/品牌保固",
+    "tags": [
+      "桌上型",
+      "Acerpure",
+      "小家庭"
+    ]
+  },
+  {
+    "id": "dishwasher-extra-19-dmbr0pa900iamac",
+    "category": "dishwasher",
+    "rank": 19,
+    "budget": "mid",
+    "channel": "tw",
+    "brand": "only",
+    "model": "OKD06-M22",
+    "name": "6-8人份桌上型智慧洗碗機",
+    "price": {
+      "currency": "TWD",
+      "amount": 14990,
+      "converted": 14990,
+      "confidence": "可信通路查核價，擷取 2026-07-08"
+    },
+    "image": "https://cs-a.ecimg.tw/items/DMBR0PA900IAMAC/000001_1770171922.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DMBR0P-A900IAMAC",
+    "buyLabel": "PChome",
+    "specs": [
+      "6-8 人份",
+      "桌上型",
+      "智慧洗程",
+      "可獨立/嵌入"
+    ],
+    "description": "only OKD06-M22 補進本分類比較池，重點是6-8 人份、桌上型、智慧洗程，適合和同類 Top Pick 依預算、售後與規格一起比較。",
+    "pros": [
+      "容量比 4 人份更彈性",
+      "價格控制不錯"
+    ],
+    "cons": [
+      "品牌售後需看通路",
+      "嵌入尺寸仍要量櫥櫃"
+    ],
+    "bestFor": "租屋、小家庭或想比較桌上型與嵌入式洗碗機的人。",
+    "recommendation": "補充推薦：6-8人份桌上型智慧洗碗機 的優勢在容量比 4 人份更彈性，但仍建議把品牌售後需看通路納入取捨。",
+    "score": 83,
+    "voltage": "110V 台灣通路",
+    "warranty": "依台灣通路/品牌保固",
+    "tags": [
+      "6-8 人份",
+      "桌上型",
+      "CP 值"
+    ]
+  },
+  {
+    "id": "dishwasher-extra-20-dmbr24a900jfsr7",
+    "category": "dishwasher",
+    "rank": 20,
+    "budget": "mid",
+    "channel": "tw",
+    "brand": "Xiaomi",
+    "model": "桌上型洗碗機",
+    "name": "桌上型洗碗機",
+    "price": {
+      "currency": "TWD",
+      "amount": 12999,
+      "converted": 12999,
+      "confidence": "可信通路查核價，擷取 2026-07-08"
+    },
+    "image": "https://cs-a.ecimg.tw/items/DMBR24A900JFSR7/000001_1762761618.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DMBR24-A900JFSR7",
+    "buyLabel": "PChome",
+    "specs": [
+      "桌上型",
+      "小米",
+      "小家庭",
+      "省空間"
+    ],
+    "description": "Xiaomi 桌上型洗碗機 補進本分類比較池，重點是桌上型、小米、小家庭，適合和同類 Top Pick 依預算、售後與規格一起比較。",
+    "pros": [
+      "價格相對親民",
+      "外型簡潔"
+    ],
+    "cons": [
+      "容量偏小",
+      "售後與耗材需確認"
+    ],
+    "bestFor": "租屋、小家庭或想比較桌上型與嵌入式洗碗機的人。",
+    "recommendation": "補充推薦：桌上型洗碗機 的優勢在價格相對親民，但仍建議把容量偏小納入取捨。",
+    "score": 82,
+    "voltage": "110V 台灣通路",
+    "warranty": "依台灣通路/品牌保固",
+    "tags": [
+      "桌上型",
+      "小米",
+      "預算"
+    ]
   }
 ]);

@@ -680,6 +680,226 @@
       "電競",
       "大型"
     ]
+  },
+  {
+    "id": "chair-extra-16-dqbj0aa900jsbyx",
+    "category": "chair",
+    "rank": 16,
+    "budget": "value",
+    "channel": "tw",
+    "brand": "MARSRHINO",
+    "model": "CORSA",
+    "name": "高彈力人體工學網椅",
+    "price": {
+      "currency": "TWD",
+      "amount": 5890,
+      "converted": 5890,
+      "confidence": "可信通路查核價，擷取 2026-07-08"
+    },
+    "image": "https://cs-a.ecimg.tw/items/DQBJ0AA900JSBYX/000001_1780972580.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DQBJ0A-A900JSBYX",
+    "buyLabel": "PChome",
+    "specs": [
+      "高彈力椅背",
+      "3D 扶手",
+      "2D 頭枕",
+      "網椅"
+    ],
+    "description": "MARSRHINO CORSA 補進本分類比較池，重點是高彈力椅背、3D 扶手、2D 頭枕，適合和同類 Top Pick 依預算、售後與規格一起比較。",
+    "pros": [
+      "規格完整",
+      "價格低於進口人體工學椅"
+    ],
+    "cons": [
+      "品牌長期耐用口碑較少",
+      "調整精細度需實坐確認"
+    ],
+    "bestFor": "長時間坐在電腦前，想在人體工學、預算與外型之間比較的人。",
+    "recommendation": "補充推薦：高彈力人體工學網椅 的優勢在規格完整，但仍建議把品牌長期耐用口碑較少納入取捨。",
+    "score": 86,
+    "voltage": "無需用電",
+    "warranty": "依台灣通路/品牌保固",
+    "tags": [
+      "人體工學",
+      "網椅",
+      "CP 值"
+    ]
+  },
+  {
+    "id": "chair-extra-17-dcaki5a900haaza",
+    "category": "chair",
+    "rank": 17,
+    "budget": "value",
+    "channel": "tw",
+    "brand": "Artso",
+    "model": "ARC Chair",
+    "name": "仿生曲線人體工學椅",
+    "price": {
+      "currency": "TWD",
+      "amount": 5688,
+      "converted": 5688,
+      "confidence": "可信通路查核價，擷取 2026-07-08"
+    },
+    "image": "https://cs-a.ecimg.tw/items/DCAKI5A900HAAZA/000001_1734059628.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DCAKI5-A900HAAZA",
+    "buyLabel": "PChome",
+    "specs": [
+      "仿生曲線",
+      "辦公椅",
+      "電腦椅",
+      "人體工學"
+    ],
+    "description": "Artso ARC Chair 補進本分類比較池，重點是仿生曲線、辦公椅、電腦椅，適合和同類 Top Pick 依預算、售後與規格一起比較。",
+    "pros": [
+      "外型比一般網椅柔和",
+      "適合居家辦公"
+    ],
+    "cons": [
+      "調整項目需看個人身形",
+      "椅面支撐偏好需試坐"
+    ],
+    "bestFor": "長時間坐在電腦前，想在人體工學、預算與外型之間比較的人。",
+    "recommendation": "補充推薦：仿生曲線人體工學椅 的優勢在外型比一般網椅柔和，但仍建議把調整項目需看個人身形納入取捨。",
+    "score": 85,
+    "voltage": "無需用電",
+    "warranty": "依台灣通路/品牌保固",
+    "tags": [
+      "人體工學",
+      "居家辦公",
+      "中價位"
+    ]
+  },
+  {
+    "id": "chair-extra-18-dqbj6za900hndmy",
+    "category": "chair",
+    "rank": 18,
+    "budget": "value",
+    "channel": "tw",
+    "brand": "AOTTO",
+    "model": "訂製款",
+    "name": "透氣皮革工學賽車電競椅",
+    "price": {
+      "currency": "TWD",
+      "amount": 3280,
+      "converted": 3280,
+      "confidence": "可信通路查核價，擷取 2026-07-08"
+    },
+    "image": "https://cs-a.ecimg.tw/items/DQBJ6ZA900HNDMY/000001_1720591564.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DQBJ6Z-A900HNDMY",
+    "buyLabel": "PChome",
+    "specs": [
+      "電競椅",
+      "透氣皮革",
+      "升降",
+      "後仰"
+    ],
+    "description": "AOTTO 訂製款 補進本分類比較池，重點是電競椅、透氣皮革、升降，適合和同類 Top Pick 依預算、售後與規格一起比較。",
+    "pros": [
+      "價格親民",
+      "包覆感比網椅強"
+    ],
+    "cons": [
+      "夏天久坐較悶",
+      "人體工學調整較有限"
+    ],
+    "bestFor": "長時間坐在電腦前，想在人體工學、預算與外型之間比較的人。",
+    "recommendation": "補充推薦：透氣皮革工學賽車電競椅 的優勢在價格親民，但仍建議把夏天久坐較悶納入取捨。",
+    "score": 84,
+    "voltage": "無需用電",
+    "warranty": "依台灣通路/品牌保固",
+    "tags": [
+      "電競椅",
+      "預算",
+      "包覆"
+    ]
+  },
+  {
+    "id": "chair-extra-19-dqbj2xa900k3i6a",
+    "category": "chair",
+    "rank": 19,
+    "budget": "value",
+    "channel": "tw",
+    "brand": "IDEA",
+    "model": "享愜",
+    "name": "護腰多調整透氣辦公椅",
+    "price": {
+      "currency": "TWD",
+      "amount": 3880,
+      "converted": 3880,
+      "confidence": "可信通路查核價，擷取 2026-07-08"
+    },
+    "image": "https://cs-a.ecimg.tw/items/DQBJ2XA900K3I6A/000001_1781062288.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DQBJ2X-A900K3I6A",
+    "buyLabel": "PChome",
+    "specs": [
+      "護腰",
+      "多段調整",
+      "透氣",
+      "辦公椅"
+    ],
+    "description": "IDEA 享愜 補進本分類比較池，重點是護腰、多段調整、透氣，適合和同類 Top Pick 依預算、售後與規格一起比較。",
+    "pros": [
+      "護腰與透氣性兼顧",
+      "價格適合入門升級"
+    ],
+    "cons": [
+      "品牌售後需看通路",
+      "乘坐感仍建議實測"
+    ],
+    "bestFor": "長時間坐在電腦前，想在人體工學、預算與外型之間比較的人。",
+    "recommendation": "補充推薦：護腰多調整透氣辦公椅 的優勢在護腰與透氣性兼顧，但仍建議把品牌售後需看通路納入取捨。",
+    "score": 83,
+    "voltage": "無需用電",
+    "warranty": "依台灣通路/品牌保固",
+    "tags": [
+      "護腰",
+      "辦公椅",
+      "透氣"
+    ]
+  },
+  {
+    "id": "chair-extra-20-dqbj0ra900ja4sv",
+    "category": "chair",
+    "rank": 20,
+    "budget": "mid",
+    "channel": "tw",
+    "brand": "Artso",
+    "model": "巴哈椅",
+    "name": "人體工學辦公椅",
+    "price": {
+      "currency": "TWD",
+      "amount": 17888,
+      "converted": 17888,
+      "confidence": "可信通路查核價，擷取 2026-07-08"
+    },
+    "image": "https://cs-a.ecimg.tw/items/DQBJ0RA900JA4SV/000001_1758791091.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DQBJ0R-A900JA4SV",
+    "buyLabel": "PChome",
+    "specs": [
+      "人體工學",
+      "辦公椅",
+      "高支撐",
+      "中高階"
+    ],
+    "description": "Artso 巴哈椅 補進本分類比較池，重點是人體工學、辦公椅、高支撐，適合和同類 Top Pick 依預算、售後與規格一起比較。",
+    "pros": [
+      "支撐感比入門椅好",
+      "適合長時間辦公"
+    ],
+    "cons": [
+      "價格進入中高階",
+      "需要確認座深與身形"
+    ],
+    "bestFor": "長時間坐在電腦前，想在人體工學、預算與外型之間比較的人。",
+    "recommendation": "補充推薦：人體工學辦公椅 的優勢在支撐感比入門椅好，但仍建議把價格進入中高階納入取捨。",
+    "score": 82,
+    "voltage": "無需用電",
+    "warranty": "依台灣通路/品牌保固",
+    "tags": [
+      "人體工學",
+      "長時間",
+      "支撐"
+    ]
   }
 ]);
 })();

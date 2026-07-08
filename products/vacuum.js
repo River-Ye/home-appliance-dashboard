@@ -665,6 +665,226 @@
       "低價",
       "家用"
     ]
+  },
+  {
+    "id": "vacuum-extra-16-dmaxb5a900jp6tz",
+    "category": "vacuum",
+    "rank": 16,
+    "budget": "mid",
+    "channel": "tw",
+    "brand": "Tineco",
+    "model": "S7 Stretch Steam",
+    "name": "蒸氣旗艦洗地機",
+    "price": {
+      "currency": "TWD",
+      "amount": 15488,
+      "converted": 15488,
+      "confidence": "可信通路查核價，擷取 2026-07-08"
+    },
+    "image": "https://cs-a.ecimg.tw/items/DMAXB5A900JP6TZ/000001_1770084365.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DMAXB5-A900JP6TZ",
+    "buyLabel": "PChome",
+    "specs": [
+      "160度蒸氣",
+      "80min 續航",
+      "5分鐘速烘",
+      "洗地機"
+    ],
+    "description": "Tineco S7 Stretch Steam 補進本分類比較池，重點是160度蒸氣、80min 續航、5分鐘速烘，適合和同類 Top Pick 依預算、售後與規格一起比較。",
+    "pros": [
+      "硬污與地板清潔能力強",
+      "自清潔與速烘完整"
+    ],
+    "cons": [
+      "比一般吸塵器重",
+      "主要適合硬地板"
+    ],
+    "bestFor": "想依照吸塵、洗地、自動集塵與輕量需求比較的人。",
+    "recommendation": "補充推薦：蒸氣旗艦洗地機 的優勢在硬污與地板清潔能力強，但仍建議把比一般吸塵器重納入取捨。",
+    "score": 86,
+    "voltage": "110V 台灣通路",
+    "warranty": "依台灣通路/品牌保固",
+    "tags": [
+      "洗地機",
+      "蒸氣",
+      "旗艦"
+    ]
+  },
+  {
+    "id": "vacuum-extra-17-dmax00a900jpj7h",
+    "category": "vacuum",
+    "rank": 17,
+    "budget": "mid",
+    "channel": "tw",
+    "brand": "Dyson",
+    "model": "SV50",
+    "name": "PencilVac Fluffycones 筆型吸塵器",
+    "price": {
+      "currency": "TWD",
+      "amount": 19900,
+      "converted": 19900,
+      "confidence": "可信通路查核價，擷取 2026-07-08"
+    },
+    "image": "https://cs-a.ecimg.tw/items/DMAX00A900JPJ7H/000001_1777291832.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DMAX00-A900JPJ7H",
+    "buyLabel": "PChome",
+    "specs": [
+      "筆型",
+      "Fluffycones",
+      "輕量",
+      "無線"
+    ],
+    "description": "Dyson SV50 補進本分類比較池，重點是筆型、Fluffycones、輕量，適合和同類 Top Pick 依預算、售後與規格一起比較。",
+    "pros": [
+      "極輕巧、日常隨手吸很方便",
+      "Dyson 售後與耗材成熟"
+    ],
+    "cons": [
+      "集塵容量較小",
+      "不適合一次清大坪數"
+    ],
+    "bestFor": "想依照吸塵、洗地、自動集塵與輕量需求比較的人。",
+    "recommendation": "補充推薦：PencilVac Fluffycones 筆型吸塵器 的優勢在極輕巧、日常隨手吸很方便，但仍建議把集塵容量較小納入取捨。",
+    "score": 85,
+    "voltage": "110V 台灣通路",
+    "warranty": "依台灣通路/品牌保固",
+    "tags": [
+      "Dyson",
+      "輕量",
+      "筆型"
+    ]
+  },
+  {
+    "id": "vacuum-extra-18-dmaxb5a900jcn6g",
+    "category": "vacuum",
+    "rank": 18,
+    "budget": "mid",
+    "channel": "tw",
+    "brand": "Tineco",
+    "model": "S9 Artist Pro",
+    "name": "AI 美型長續航平躺速乾洗地機",
+    "price": {
+      "currency": "TWD",
+      "amount": 15988,
+      "converted": 15988,
+      "confidence": "可信通路查核價，擷取 2026-07-08"
+    },
+    "image": "https://cs-a.ecimg.tw/items/DMAXB5A900JCN6G/000001_1760586651.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DMAXB5-A900JCN6G",
+    "buyLabel": "PChome",
+    "specs": [
+      "22000Pa",
+      "AI 助航",
+      "平躺",
+      "5分鐘速乾"
+    ],
+    "description": "Tineco S9 Artist Pro 補進本分類比較池，重點是22000Pa、AI 助航、平躺，適合和同類 Top Pick 依預算、售後與規格一起比較。",
+    "pros": [
+      "規格高、平躺清潔方便",
+      "外型與自清潔完整"
+    ],
+    "cons": [
+      "價格高",
+      "水箱維護比吸塵器麻煩"
+    ],
+    "bestFor": "想依照吸塵、洗地、自動集塵與輕量需求比較的人。",
+    "recommendation": "補充推薦：AI 美型長續航平躺速乾洗地機 的優勢在規格高、平躺清潔方便，但仍建議把價格高納入取捨。",
+    "score": 84,
+    "voltage": "110V 台灣通路",
+    "warranty": "依台灣通路/品牌保固",
+    "tags": [
+      "洗地機",
+      "AI",
+      "平躺"
+    ]
+  },
+  {
+    "id": "vacuum-extra-19-dmax0za900higmz",
+    "category": "vacuum",
+    "rank": 19,
+    "budget": "mid",
+    "channel": "tw",
+    "brand": "Panasonic",
+    "model": "MC-KC1W",
+    "name": "One Box 自動集塵吸塵器",
+    "price": {
+      "currency": "TWD",
+      "amount": 9290,
+      "converted": 9290,
+      "confidence": "可信通路查核價，擷取 2026-07-08"
+    },
+    "image": "https://cs-a.ecimg.tw/items/DMAX0ZA900HIGMZ/000001_1716798929.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DMAX0Z-A900HIGMZ",
+    "buyLabel": "PChome",
+    "specs": [
+      "自動集塵",
+      "無線",
+      "One Box",
+      "Panasonic"
+    ],
+    "description": "Panasonic MC-KC1W 補進本分類比較池，重點是自動集塵、無線、One Box，適合和同類 Top Pick 依預算、售後與規格一起比較。",
+    "pros": [
+      "自動集塵降低倒塵頻率",
+      "日系品牌售後穩"
+    ],
+    "cons": [
+      "主機與集塵座占空間",
+      "價格高於一般手持吸塵器"
+    ],
+    "bestFor": "想依照吸塵、洗地、自動集塵與輕量需求比較的人。",
+    "recommendation": "補充推薦：One Box 自動集塵吸塵器 的優勢在自動集塵降低倒塵頻率，但仍建議把主機與集塵座占空間納入取捨。",
+    "score": 83,
+    "voltage": "110V 台灣通路",
+    "warranty": "依台灣通路/品牌保固",
+    "tags": [
+      "自動集塵",
+      "Panasonic",
+      "無線"
+    ]
+  },
+  {
+    "id": "vacuum-extra-20-dmax0za900k4iqz",
+    "category": "vacuum",
+    "rank": 20,
+    "budget": "mid",
+    "channel": "tw",
+    "brand": "Panasonic",
+    "model": "MC-SBR70",
+    "name": "微塵感知極淨光無線吸塵器",
+    "price": {
+      "currency": "TWD",
+      "amount": 12000,
+      "converted": 12000,
+      "confidence": "可信通路查核價，擷取 2026-07-08"
+    },
+    "image": "https://cs-a.ecimg.tw/items/DMAX0ZA900K4IQZ/000001_1781668428.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DMAX0Z-A900K4IQZ",
+    "buyLabel": "PChome",
+    "specs": [
+      "無線直立/手持",
+      "微塵感知",
+      "極淨光",
+      "Panasonic"
+    ],
+    "description": "Panasonic MC-SBR70 補進本分類比較池，重點是無線直立/手持、微塵感知、極淨光，適合和同類 Top Pick 依預算、售後與規格一起比較。",
+    "pros": [
+      "偵測灰塵讓清潔更有感",
+      "品牌維修較安心"
+    ],
+    "cons": [
+      "沒有自動集塵",
+      "同價位需比較 Dyson/LG"
+    ],
+    "bestFor": "想依照吸塵、洗地、自動集塵與輕量需求比較的人。",
+    "recommendation": "補充推薦：微塵感知極淨光無線吸塵器 的優勢在偵測灰塵讓清潔更有感，但仍建議把沒有自動集塵納入取捨。",
+    "score": 82,
+    "voltage": "110V 台灣通路",
+    "warranty": "依台灣通路/品牌保固",
+    "tags": [
+      "微塵感知",
+      "無線",
+      "Panasonic"
+    ]
   }
 ]);
 })();

@@ -665,6 +665,226 @@
       "低價",
       "遙控"
     ]
+  },
+  {
+    "id": "fan-extra-16-dmacaka900g4vtv",
+    "category": "fan",
+    "rank": 16,
+    "budget": "value",
+    "channel": "tw",
+    "brand": "Philips",
+    "model": "ACR2142SF",
+    "name": "窄邊框時尚美型風扇",
+    "price": {
+      "currency": "TWD",
+      "amount": 1266,
+      "converted": 1266,
+      "confidence": "可信通路查核價，擷取 2026-07-08"
+    },
+    "image": "https://cs-a.ecimg.tw/items/DMACAKA900G4VTV/000001_1779763282.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DMACAK-A900G4VTV",
+    "buyLabel": "PChome",
+    "specs": [
+      "時尚外型",
+      "窄邊框",
+      "家用風扇",
+      "110V"
+    ],
+    "description": "Philips ACR2142SF 補進本分類比較池，重點是時尚外型、窄邊框、家用風扇，適合和同類 Top Pick 依預算、售後與規格一起比較。",
+    "pros": [
+      "Philips 品牌與外型加分",
+      "價格親民"
+    ],
+    "cons": [
+      "規格不如 DC 高階立扇明確",
+      "風量需看實際空間"
+    ],
+    "bestFor": "想補進 Philips 風扇，並比較傳統立扇、塔扇、循環扇與無葉片的人。",
+    "recommendation": "補充推薦：窄邊框時尚美型風扇 的優勢在Philips 品牌與外型加分，但仍建議把規格不如 DC 高階立扇明確納入取捨。",
+    "score": 86,
+    "voltage": "110V 台灣通路",
+    "warranty": "依台灣通路/品牌保固",
+    "tags": [
+      "Philips",
+      "美型",
+      "預算"
+    ]
+  },
+  {
+    "id": "fan-extra-17-dmab2za900exoh3",
+    "category": "fan",
+    "rank": 17,
+    "budget": "mid",
+    "channel": "tw",
+    "brand": "Philips",
+    "model": "ACR3142CF",
+    "name": "DC 立式循環扇",
+    "price": {
+      "currency": "TWD",
+      "amount": 2541,
+      "converted": 2541,
+      "confidence": "可信通路查核價，擷取 2026-07-08"
+    },
+    "image": "https://cs-a.ecimg.tw/items/DMACAKA900G0BE8/000001_1779955873.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DMACAK-A900G0BE8",
+    "buyLabel": "PChome",
+    "specs": [
+      "DC",
+      "立式",
+      "循環扇",
+      "節能"
+    ],
+    "description": "Philips ACR3142CF 補進本分類比較池，重點是DC、立式、循環扇，適合和同類 Top Pick 依預算、售後與規格一起比較。",
+    "pros": [
+      "兼具風扇與循環扇定位",
+      "DC 節能"
+    ],
+    "cons": [
+      "價格比入門立扇高",
+      "循環效果需看擺放"
+    ],
+    "bestFor": "想補進 Philips 風扇，並比較傳統立扇、塔扇、循環扇與無葉片的人。",
+    "recommendation": "補充推薦：DC 立式循環扇 的優勢在兼具風扇與循環扇定位，但仍建議把價格比入門立扇高納入取捨。",
+    "score": 85,
+    "voltage": "110V 台灣通路",
+    "warranty": "依台灣通路/品牌保固",
+    "tags": [
+      "Philips",
+      "DC",
+      "循環"
+    ]
+  },
+  {
+    "id": "fan-extra-18-dmacbua900iudv9",
+    "category": "fan",
+    "rank": 18,
+    "budget": "mid",
+    "channel": "tw",
+    "brand": "Philips",
+    "model": "ACR3342CFD",
+    "name": "全方位渦輪 DC 循環扇",
+    "price": {
+      "currency": "TWD",
+      "amount": 2796,
+      "converted": 2796,
+      "confidence": "可信通路查核價，擷取 2026-07-08"
+    },
+    "image": "https://cs-a.ecimg.tw/items/DMABOWA900IUZ7V/000001_1780022324.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DMABOW-A900IUZ7V",
+    "buyLabel": "PChome",
+    "specs": [
+      "DC",
+      "渦輪循環",
+      "全方位",
+      "遙控"
+    ],
+    "description": "Philips ACR3342CFD 補進本分類比較池，重點是DC、渦輪循環、全方位，適合和同類 Top Pick 依預算、售後與規格一起比較。",
+    "pros": [
+      "風道集中、循環效率好",
+      "適合搭配冷氣"
+    ],
+    "cons": [
+      "不一定有傳統立扇的柔風感",
+      "價格較高"
+    ],
+    "bestFor": "想補進 Philips 風扇，並比較傳統立扇、塔扇、循環扇與無葉片的人。",
+    "recommendation": "補充推薦：全方位渦輪 DC 循環扇 的優勢在風道集中、循環效率好，但仍建議把不一定有傳統立扇的柔風感納入取捨。",
+    "score": 84,
+    "voltage": "110V 台灣通路",
+    "warranty": "依台灣通路/品牌保固",
+    "tags": [
+      "Philips",
+      "DC",
+      "冷氣搭配"
+    ]
+  },
+  {
+    "id": "fan-extra-19-dmacaka900g0bb4",
+    "category": "fan",
+    "rank": 19,
+    "budget": "mid",
+    "channel": "tw",
+    "brand": "Philips",
+    "model": "ACR3144WTF",
+    "name": "DC 塔式風扇",
+    "price": {
+      "currency": "TWD",
+      "amount": 3476,
+      "converted": 3476,
+      "confidence": "可信通路查核價，擷取 2026-07-08"
+    },
+    "image": "https://cs-a.ecimg.tw/items/DMACAKA900G0BB4/000001_1778646103.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DMACAK-A900G0BB4",
+    "buyLabel": "PChome",
+    "specs": [
+      "塔扇",
+      "DC",
+      "省空間",
+      "擺頭"
+    ],
+    "description": "Philips ACR3144WTF 補進本分類比較池，重點是塔扇、DC、省空間，適合和同類 Top Pick 依預算、售後與規格一起比較。",
+    "pros": [
+      "占地小、外型俐落",
+      "適合臥室角落"
+    ],
+    "cons": [
+      "清潔比傳統扇麻煩",
+      "風量不如大葉片立扇"
+    ],
+    "bestFor": "想補進 Philips 風扇，並比較傳統立扇、塔扇、循環扇與無葉片的人。",
+    "recommendation": "補充推薦：DC 塔式風扇 的優勢在占地小、外型俐落，但仍建議把清潔比傳統扇麻煩納入取捨。",
+    "score": 83,
+    "voltage": "110V 台灣通路",
+    "warranty": "依台灣通路/品牌保固",
+    "tags": [
+      "Philips",
+      "塔扇",
+      "省空間"
+    ]
+  },
+  {
+    "id": "fan-extra-20-dmab6za900flc55",
+    "category": "fan",
+    "rank": 20,
+    "budget": "mid",
+    "channel": "tw",
+    "brand": "Philips",
+    "model": "AHR5164FD",
+    "name": "DC 冷暖兩用無扇葉風扇",
+    "price": {
+      "currency": "TWD",
+      "amount": 9900,
+      "converted": 9900,
+      "confidence": "可信通路查核價，擷取 2026-07-08"
+    },
+    "image": "https://cs-a.ecimg.tw/items/DMAB6ZA900FLC55/000001_1780151316.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DMAB6Z-A900FLC55",
+    "buyLabel": "PChome",
+    "specs": [
+      "無扇葉",
+      "冷暖兩用",
+      "DC",
+      "安全"
+    ],
+    "description": "Philips AHR5164FD 補進本分類比較池，重點是無扇葉、冷暖兩用、DC，適合和同類 Top Pick 依預算、售後與規格一起比較。",
+    "pros": [
+      "四季可用",
+      "無葉片安全好清潔"
+    ],
+    "cons": [
+      "價格高",
+      "暖風功能耗電需留意"
+    ],
+    "bestFor": "想補進 Philips 風扇，並比較傳統立扇、塔扇、循環扇與無葉片的人。",
+    "recommendation": "補充推薦：DC 冷暖兩用無扇葉風扇 的優勢在四季可用，但仍建議把價格高納入取捨。",
+    "score": 82,
+    "voltage": "110V 台灣通路",
+    "warranty": "依台灣通路/品牌保固",
+    "tags": [
+      "Philips",
+      "無葉片",
+      "冷暖"
+    ]
   }
 ]);
 })();
