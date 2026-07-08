@@ -349,6 +349,16 @@ a:focus-visible {
   scrollbar-width: thin;
 }
 
+.tab-group-label {
+  align-self: center;
+  flex: 0 0 auto;
+  margin-left: 8px;
+  color: var(--muted);
+  font-size: 0.78rem;
+  font-weight: 850;
+  letter-spacing: 0;
+}
+
 .tab-button,
 .ghost-button,
 .buy-link,

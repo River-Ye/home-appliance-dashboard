@@ -9,22 +9,26 @@ const exchange = {
 };
 
 const categories = [
-  { id: "tv", label: "電視" },
-  { id: "soundbar", label: "Soundbar" },
-  { id: "fan", label: "電風扇" },
-  { id: "circulator", label: "循環扇" },
-  { id: "dehumidifier", label: "除濕機" },
-  { id: "purifier", label: "空氣清淨機" },
-  { id: "robot", label: "掃拖機器人" },
-  { id: "vacuum", label: "吸塵器" },
-  { id: "wifi", label: "無線路由器" },
-  { id: "standingdesk", label: "升降桌" },
-  { id: "chair", label: "電腦椅" },
-  { id: "monitor", label: "電腦螢幕" },
-  { id: "blender", label: "破壁機" },
-  { id: "oven", label: "多功能氣炸烤箱/微波爐" },
-  { id: "bidet", label: "免治馬桶" },
-  { id: "smartlock", label: "電子鎖" },
+  { id: "tv", label: "電視", group: "影音" },
+  { id: "soundbar", label: "Soundbar", group: "影音" },
+  { id: "fan", label: "電風扇", group: "空氣環境" },
+  { id: "circulator", label: "循環扇", group: "空氣環境" },
+  { id: "dehumidifier", label: "除濕機", group: "空氣環境" },
+  { id: "purifier", label: "空氣清淨機", group: "空氣環境" },
+  { id: "robot", label: "掃拖機器人", group: "清潔家務" },
+  { id: "vacuum", label: "吸塵器", group: "清潔家務" },
+  { id: "cookware", label: "鍋具", group: "廚房餐飲" },
+  { id: "knife", label: "刀具", group: "廚房餐飲" },
+  { id: "blender", label: "破壁機", group: "廚房餐飲" },
+  { id: "oven", label: "多功能氣炸烤箱/微波爐", group: "廚房餐飲" },
+  { id: "waterdispenser", label: "櫥下飲水機", group: "廚房餐飲" },
+  { id: "dishwasher", label: "洗碗機", group: "廚房餐飲" },
+  { id: "bidet", label: "免治馬桶", group: "衛浴安全" },
+  { id: "smartlock", label: "電子鎖", group: "衛浴安全" },
+  { id: "wifi", label: "無線路由器", group: "工作網路" },
+  { id: "standingdesk", label: "升降桌", group: "工作網路" },
+  { id: "chair", label: "電腦椅", group: "工作網路" },
+  { id: "monitor", label: "電腦螢幕", group: "工作網路" },
 ];
 
 const products = [];
@@ -405,10 +409,16 @@ function initializeFilterCombos() {
 function renderTabs() {
   const tabs = document.getElementById("categoryTabs");
   const allButton = `<button class="tab-button ${state.category === "all" ? "active" : ""}" type="button" data-category="all" aria-pressed="${state.category === "all"}">全部</button>`;
-  tabs.innerHTML = allButton + categories.map((category) => {
+  let lastGroup = "";
+  const groupedButtons = categories.map((category) => {
     const count = products.filter((product) => product.category === category.id).length;
-    return `<button class="tab-button ${state.category === category.id ? "active" : ""}" type="button" data-category="${category.id}" aria-pressed="${state.category === category.id}">${category.label} ${count}</button>`;
+    const groupLabel = category.group !== lastGroup
+      ? `<span class="tab-group-label">${escapeHtml(category.group)}</span>`
+      : "";
+    lastGroup = category.group;
+    return `${groupLabel}<button class="tab-button ${state.category === category.id ? "active" : ""}" type="button" data-category="${category.id}" aria-pressed="${state.category === category.id}">${category.label} ${count}</button>`;
   }).join("");
+  tabs.innerHTML = allButton + groupedButtons;
 }
 
 function renderStats(visible) {
