@@ -326,7 +326,7 @@
       "網椅",
       "電競"
     ],
-    "releaseDate": "找不到"
+    "releaseDate": "2023-09-21"
   },
   {
     "id": "chair-razer-iskur-v2",
@@ -372,7 +372,7 @@
       "電競",
       "包覆"
     ],
-    "releaseDate": "找不到"
+    "releaseDate": "2024-01-08"
   },
   {
     "id": "chair-razer-enki",
@@ -418,7 +418,7 @@
       "CP 值",
       "電競"
     ],
-    "releaseDate": "找不到"
+    "releaseDate": "2021-10-21"
   },
   {
     "id": "chair-herman-miller-aeron-c",
@@ -464,7 +464,7 @@
       "授權代理",
       "人體工學"
     ],
-    "releaseDate": "找不到"
+    "releaseDate": "1994"
   },
   {
     "id": "chair-steelcase-karman",

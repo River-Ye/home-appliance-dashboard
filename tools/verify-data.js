@@ -5,7 +5,7 @@ const { readDashboardProducts } = require("./read-dashboard-products");
 const EXPECTED_CATEGORY_COUNT = 25;
 const EXPECTED_PRODUCT_COUNT = 590;
 const MIN_PRODUCTS_PER_CATEGORY = 20;
-const DATE_PATTERN = /^(找不到|20\d{2}(?:[-/.]\d{1,2}(?:[-/.]\d{1,2})?)?)$/;
+const DATE_PATTERN = /^(找不到|\d{4}(?:[-/.]\d{1,2}(?:[-/.]\d{1,2})?)?)$/;
 
 const requiredFields = [
   "id",

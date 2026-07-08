@@ -769,7 +769,7 @@
       "20kg",
       "大螢幕"
     ],
-    "releaseDate": "找不到"
+    "releaseDate": "2025-12-24"
   },
   {
     "id": "monitorarm-extra-17-dcagu1a900ix2md",
@@ -814,7 +814,7 @@
       "20kg",
       "雙螢幕"
     ],
-    "releaseDate": "找不到"
+    "releaseDate": "2025-12-24"
   },
   {
     "id": "monitorarm-extra-18-dsabn2a900ginee",

@@ -849,7 +849,7 @@
       "小鍋",
       "耐用"
     ],
-    "releaseDate": "找不到"
+    "releaseDate": "2021-10-30"
   },
   {
     "id": "cookware-extra-18-deawtga900fchlz",

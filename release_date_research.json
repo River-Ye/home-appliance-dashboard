@@ -1,13 +1,13 @@
 {
   "summary": {
-    "checkedAt": "2026-07-08T10:10:20.244Z",
+    "checkedAt": "2026-07-08T10:32:46.360Z",
     "total": 590,
-    "found": 113,
-    "missing": 477,
+    "found": 121,
+    "missing": 469,
     "byConfidence": {
-      "official": 51,
-      "credible_article": 62,
-      "not_found": 477
+      "official": 55,
+      "credible_article": 66,
+      "not_found": 469
     }
   },
   "results": [
@@ -3635,13 +3635,15 @@
       "brand": "WMF",
       "model": "Fusiontec Mineral 12.5cm",
       "name": "陶晶壺型鍋 1.7L",
-      "releaseDate": "找不到",
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "confidence": "not_found",
+      "releaseDate": "2021-10-30",
+      "sourceUrl": "https://www.asiae.co.kr/en/article/2021102909282846899",
+      "sourceTitle": "Premium Pot 'FusionTech Mineral' Launches on Lotte Home Shopping Choi Yura Show on the 30th",
+      "evidenceSnippet": "AsiaE article says WMF will hold the launch broadcast for Fusiontec Mineral on Lotte Home Shopping Choi Yura Show at 8:20 AM on the 30th.",
+      "confidence": "credible_article",
       "query": "WMF Fusiontec Mineral 12.5cm release date launch announced",
-      "error": "Browser Use cannot open https://www.bing.com/search in tab 1139074745. Browser reported: net::ERR_CONNECTION_CLOSED"
+      "error": "Browser Use cannot open https://www.bing.com/search in tab 1139074745. Browser reported: net::ERR_CONNECTION_CLOSED",
+      "sourceKind": "manual_research",
+      "reason": ""
     },
     {
       "id": "cookware-extra-18-deawtga900fchlz",
@@ -3915,13 +3917,15 @@
       "brand": "WMF",
       "model": "Ultimate 12cm",
       "name": "萬用刀 12cm",
-      "releaseDate": "找不到",
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "confidence": "not_found",
+      "releaseDate": "2022",
+      "sourceUrl": "https://ifdesign.com/en/winner-ranking/project/ultimate-black/564042",
+      "sourceTitle": "iF Design - Ultimate Black",
+      "evidenceSnippet": "iF Design identifies Ultimate Black as a WMF kitchen knife and lists Date of Launch as 2022.",
+      "confidence": "credible_article",
       "query": "WMF Ultimate 12cm release date launch announced",
-      "error": "Browser Use cannot open https://www.bing.com/search in tab 1139074745. Browser reported: net::ERR_CONNECTION_CLOSED"
+      "error": "Browser Use cannot open https://www.bing.com/search in tab 1139074745. Browser reported: net::ERR_CONNECTION_CLOSED",
+      "sourceKind": "manual_research",
+      "reason": ""
     },
     {
       "id": "knife-extra-18-deag16a900iji66",
@@ -7021,13 +7025,14 @@
       "brand": "Razer",
       "model": "Fujin",
       "name": "Fujin 風靈網狀人體工學電競椅",
-      "releaseDate": "找不到",
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "confidence": "not_found",
+      "releaseDate": "2023-09-21",
+      "sourceUrl": "https://www.razer.com/newsroom/product-news/razercon-2023-lights-up-the-global-gaming-community-with-groundbreaking-announcements-exclusive-partnerships",
+      "sourceTitle": "RazerCon 2023 lights up the global gaming community with groundbreaking announcements & exclusive partnerships",
+      "evidenceSnippet": "Razer's RazerCon 2023 page lists Razer Fujin as available now on September 21.",
+      "confidence": "official",
       "query": "Razer Fujin release date launch announced 上市 發售",
-      "sourceKind": "not_found_after_available_search"
+      "sourceKind": "not_found_after_available_search",
+      "reason": ""
     },
     {
       "id": "chair-razer-iskur-v2",
@@ -7035,13 +7040,14 @@
       "brand": "Razer",
       "model": "Iskur V2",
       "name": "Iskur V2 電競椅",
-      "releaseDate": "找不到",
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "confidence": "not_found",
+      "releaseDate": "2024-01-08",
+      "sourceUrl": "https://www.razer.com/newsroom/product-news/ces-2024",
+      "sourceTitle": "Razer Pioneers The Future of Gaming With Exciting Announcements at CES 2024",
+      "evidenceSnippet": "Razer's CES 2024 page lists Razer Iskur V2 as available now on 8 January 2024.",
+      "confidence": "official",
       "query": "Razer Iskur V2 release date launch announced 上市 發售",
-      "sourceKind": "not_found_after_available_search"
+      "sourceKind": "not_found_after_available_search",
+      "reason": ""
     },
     {
       "id": "chair-razer-enki",
@@ -7049,13 +7055,14 @@
       "brand": "Razer",
       "model": "Enki",
       "name": "Enki 電競椅",
-      "releaseDate": "找不到",
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "confidence": "not_found",
+      "releaseDate": "2021-10-21",
+      "sourceUrl": "https://www.razer.com/newsroom/company-news/uniting-fans-across-the-globe-razercon-2021-delivers-exclusive-announcements-first-looks-giveaways/",
+      "sourceTitle": "Uniting fans across the globe: RazerCon 2021 delivers exclusive announcements, first looks & giveaways",
+      "evidenceSnippet": "Razer's RazerCon 2021 page says the Razer Enki gaming chair family was launched at RazerCon 2021 and was available at Razer.com and select retailers.",
+      "confidence": "official",
       "query": "Razer Enki release date launch announced 上市 發售",
-      "sourceKind": "not_found_after_available_search"
+      "sourceKind": "not_found_after_available_search",
+      "reason": ""
     },
     {
       "id": "chair-herman-miller-aeron-c",
@@ -7063,13 +7070,14 @@
       "brand": "Herman Miller",
       "model": "Aeron C Size",
       "name": "Aeron 全功能人體工學椅 C Size",
-      "releaseDate": "找不到",
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "confidence": "not_found",
+      "releaseDate": "1994",
+      "sourceUrl": "https://www.hermanmiller.com/products/seating/office-chairs/aeron-chair/",
+      "sourceTitle": "Aeron Chair - Office Chairs - Herman Miller",
+      "evidenceSnippet": "Herman Miller's Aeron page says the Aeron Chair has been the benchmark for ergonomic seating since its debut in 1994.",
+      "confidence": "official",
       "query": "Herman Miller Aeron C Size release date launch announced 上市 發售",
-      "sourceKind": "not_found_after_available_search"
+      "sourceKind": "not_found_after_available_search",
+      "reason": ""
     },
     {
       "id": "chair-steelcase-karman",
@@ -8151,13 +8159,14 @@
       "brand": "BenQ",
       "model": "BSH01",
       "name": "45吋 20KG 氣壓式螢幕支架",
-      "releaseDate": "找不到",
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "confidence": "not_found",
+      "releaseDate": "2025-12-24",
+      "sourceUrl": "https://timesofindia.indiatimes.com/technology/laptops-pc/benq-launches-bsh-and-bdh-monitor-arms-in-india/articleshow/126141259.cms",
+      "sourceTitle": "Benq launches BSH and BDH monitor arms in India",
+      "evidenceSnippet": "Times of India reports BenQ announced the launch of BSH and BDH monitor arms, identifies BSH01 as the black single monitor arm, and says the models are now available in India.",
+      "confidence": "credible_article",
       "query": "BenQ BSH01 release date launch announced 上市 發售",
-      "sourceKind": "not_found_after_available_search"
+      "sourceKind": "not_found_after_available_search",
+      "reason": ""
     },
     {
       "id": "monitorarm-extra-17-dcagu1a900ix2md",
@@ -8165,13 +8174,14 @@
       "brand": "BenQ",
       "model": "BDH01",
       "name": "35吋 20KG 雙臂氣壓式螢幕支架",
-      "releaseDate": "找不到",
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "confidence": "not_found",
+      "releaseDate": "2025-12-24",
+      "sourceUrl": "https://timesofindia.indiatimes.com/technology/laptops-pc/benq-launches-bsh-and-bdh-monitor-arms-in-india/articleshow/126141259.cms",
+      "sourceTitle": "Benq launches BSH and BDH monitor arms in India",
+      "evidenceSnippet": "Times of India reports BenQ announced the launch of BSH and BDH monitor arms, describes BDH as the dual monitor arm, and says the models are now available in India.",
+      "confidence": "credible_article",
       "query": "BenQ BDH01 release date launch announced 上市 發售",
-      "sourceKind": "not_found_after_available_search"
+      "sourceKind": "not_found_after_available_search",
+      "reason": ""
     },
     {
       "id": "monitorarm-extra-18-dsabn2a900ginee",
