@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>家電採購比較表</title>
-    <link rel="stylesheet" href="./styles.css?v=20260708-kitchen1">
+    <link rel="stylesheet" href="./styles.css?v=20260708-combo1">
   </head>
   <body>
     <header class="topbar">
@@ -37,6 +37,7 @@
             <label id="categoryInputLabel" for="categoryInput">分類</label>
             <div class="combo-control" data-combo="category">
               <input id="categoryInput" type="search" autocomplete="off" role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="categoryOptions" aria-labelledby="categoryInputLabel" placeholder="搜尋分類">
+              <button class="combo-clear" type="button" aria-label="清除分類" tabindex="-1" hidden></button>
               <button class="combo-button" type="button" aria-label="展開分類選項" tabindex="-1"></button>
               <div id="categoryOptions" class="combo-list" role="listbox" hidden></div>
             </div>
@@ -45,6 +46,7 @@
             <label id="brandInputLabel" for="brandInput">品牌</label>
             <div class="combo-control" data-combo="brand">
               <input id="brandInput" type="search" autocomplete="off" role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="brandOptions" aria-labelledby="brandInputLabel" placeholder="搜尋品牌">
+              <button class="combo-clear" type="button" aria-label="清除品牌" tabindex="-1" hidden></button>
               <button class="combo-button" type="button" aria-label="展開品牌選項" tabindex="-1"></button>
               <div id="brandOptions" class="combo-list" role="listbox" hidden></div>
             </div>
@@ -53,6 +55,7 @@
             <label id="budgetInputLabel" for="budgetInput">預算</label>
             <div class="combo-control" data-combo="budget">
               <input id="budgetInput" type="search" autocomplete="off" role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="budgetOptions" aria-labelledby="budgetInputLabel" placeholder="搜尋預算">
+              <button class="combo-clear" type="button" aria-label="清除預算" tabindex="-1" hidden></button>
               <button class="combo-button" type="button" aria-label="展開預算選項" tabindex="-1"></button>
               <div id="budgetOptions" class="combo-list" role="listbox" hidden></div>
             </div>
@@ -61,6 +64,7 @@
             <label id="channelInputLabel" for="channelInput">通路</label>
             <div class="combo-control" data-combo="channel">
               <input id="channelInput" type="search" autocomplete="off" role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="channelOptions" aria-labelledby="channelInputLabel" placeholder="搜尋通路">
+              <button class="combo-clear" type="button" aria-label="清除通路" tabindex="-1" hidden></button>
               <button class="combo-button" type="button" aria-label="展開通路選項" tabindex="-1"></button>
               <div id="channelOptions" class="combo-list" role="listbox" hidden></div>
             </div>
@@ -69,6 +73,7 @@
             <label id="sortInputLabel" for="sortInput">排序</label>
             <div class="combo-control" data-combo="sort">
               <input id="sortInput" type="search" autocomplete="off" role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="sortOptions" aria-labelledby="sortInputLabel" placeholder="搜尋排序">
+              <button class="combo-clear" type="button" aria-label="清除排序" tabindex="-1" hidden></button>
               <button class="combo-button" type="button" aria-label="展開排序選項" tabindex="-1"></button>
               <div id="sortOptions" class="combo-list" role="listbox" hidden></div>
             </div>
@@ -124,26 +129,26 @@
       <a id="mobileCompareLink" href="#comparePanel">比較 <strong id="mobileCompareCount">0</strong></a>
     </nav>
 
-    <script src="./app.js?v=20260708-kitchen1"></script>
-    <script src="./products/tv.js?v=20260708-kitchen1"></script>
-    <script src="./products/soundbar.js?v=20260708-kitchen1"></script>
-    <script src="./products/fan.js?v=20260708-kitchen1"></script>
-    <script src="./products/circulator.js?v=20260708-kitchen1"></script>
-    <script src="./products/dehumidifier.js?v=20260708-kitchen1"></script>
-    <script src="./products/purifier.js?v=20260708-kitchen1"></script>
-    <script src="./products/robot.js?v=20260708-kitchen1"></script>
-    <script src="./products/vacuum.js?v=20260708-kitchen1"></script>
-    <script src="./products/cookware.js?v=20260708-kitchen1"></script>
-    <script src="./products/knife.js?v=20260708-kitchen1"></script>
-    <script src="./products/blender.js?v=20260708-kitchen1"></script>
-    <script src="./products/oven.js?v=20260708-kitchen1"></script>
-    <script src="./products/waterdispenser.js?v=20260708-kitchen1"></script>
-    <script src="./products/dishwasher.js?v=20260708-kitchen1"></script>
-    <script src="./products/bidet.js?v=20260708-kitchen1"></script>
-    <script src="./products/smartlock.js?v=20260708-kitchen1"></script>
-    <script src="./products/wifi.js?v=20260708-kitchen1"></script>
-    <script src="./products/standingdesk.js?v=20260708-kitchen1"></script>
-    <script src="./products/chair.js?v=20260708-kitchen1"></script>
-    <script src="./products/monitor.js?v=20260708-kitchen1"></script>
+    <script src="./app.js?v=20260708-combo1"></script>
+    <script src="./products/tv.js?v=20260708-combo1"></script>
+    <script src="./products/soundbar.js?v=20260708-combo1"></script>
+    <script src="./products/fan.js?v=20260708-combo1"></script>
+    <script src="./products/circulator.js?v=20260708-combo1"></script>
+    <script src="./products/dehumidifier.js?v=20260708-combo1"></script>
+    <script src="./products/purifier.js?v=20260708-combo1"></script>
+    <script src="./products/robot.js?v=20260708-combo1"></script>
+    <script src="./products/vacuum.js?v=20260708-combo1"></script>
+    <script src="./products/cookware.js?v=20260708-combo1"></script>
+    <script src="./products/knife.js?v=20260708-combo1"></script>
+    <script src="./products/blender.js?v=20260708-combo1"></script>
+    <script src="./products/oven.js?v=20260708-combo1"></script>
+    <script src="./products/waterdispenser.js?v=20260708-combo1"></script>
+    <script src="./products/dishwasher.js?v=20260708-combo1"></script>
+    <script src="./products/bidet.js?v=20260708-combo1"></script>
+    <script src="./products/smartlock.js?v=20260708-combo1"></script>
+    <script src="./products/wifi.js?v=20260708-combo1"></script>
+    <script src="./products/standingdesk.js?v=20260708-combo1"></script>
+    <script src="./products/chair.js?v=20260708-combo1"></script>
+    <script src="./products/monitor.js?v=20260708-combo1"></script>
   </body>
 </html>

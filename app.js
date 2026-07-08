@@ -221,6 +221,10 @@ function filterControl(name) {
   return document.querySelector(`[data-combo="${name}"]`);
 }
 
+function comboClearButton(name) {
+  return filterControl(name)?.querySelector(".combo-clear");
+}
+
 function comboQuery(name) {
   const input = filterInput(name);
   const selected = selectedFilterOption(name);
@@ -234,6 +238,29 @@ function filteredComboOptions(name) {
   const options = filterOptions(name);
   if (!query) return options;
   return options.filter((option) => normalizeText(`${option.label} ${option.keywords}`).includes(query));
+}
+
+function defaultFilterValue(name) {
+  return filterOptions(name)[0].value;
+}
+
+function comboHasClearableValue(name) {
+  const input = filterInput(name);
+  if (!input) return false;
+  const raw = input.value.trim();
+  const selected = selectedFilterOption(name);
+  const hasManualQuery = raw && normalizeText(raw) !== normalizeText(selected.label);
+  return hasManualQuery || filterStateValue(name) !== defaultFilterValue(name);
+}
+
+function syncComboClear(name) {
+  const clearButton = comboClearButton(name);
+  if (!clearButton) return;
+  clearButton.hidden = !comboHasClearableValue(name);
+}
+
+function syncComboClears() {
+  filterControlNames.forEach(syncComboClear);
 }
 
 function renderComboOptions(name) {
@@ -275,8 +302,12 @@ function renderComboOptions(name) {
 function syncComboInput(name, force = false) {
   const input = filterInput(name);
   if (!input) return;
-  if (!force && document.activeElement === input) return;
+  if (!force && document.activeElement === input) {
+    syncComboClear(name);
+    return;
+  }
   input.value = selectedFilterOption(name).label;
+  syncComboClear(name);
 }
 
 function syncControls(force = false) {
@@ -312,15 +343,30 @@ function closeAllCombos(exceptName = "") {
   });
 }
 
-function selectFilterValue(name, value) {
+function applyFilterValue(name, value) {
   if (name === "category") {
     state.category = value;
     ensureSelectedBrandIsAvailable();
-    syncControls(true);
   } else {
     state[name] = value;
+  }
+}
+
+function selectFilterValue(name, value) {
+  applyFilterValue(name, value);
+  if (name === "category") {
+    syncControls(true);
+  } else {
     syncComboInput(name, true);
   }
+  setComboOpen(name, false);
+  render();
+}
+
+function clearFilterValue(name) {
+  applyFilterValue(name, defaultFilterValue(name));
+  comboState[name].activeIndex = 0;
+  syncControls(true);
   setComboOpen(name, false);
   render();
 }
@@ -346,7 +392,8 @@ function initializeFilterCombos() {
     const list = filterList(name);
     const control = filterControl(name);
     const button = control?.querySelector(".combo-button");
-    if (!input || !list || !control || !button) return;
+    const clearButton = control?.querySelector(".combo-clear");
+    if (!input || !list || !control || !button || !clearButton) return;
 
     input.addEventListener("focus", () => {
       closeAllCombos(name);
@@ -356,6 +403,7 @@ function initializeFilterCombos() {
 
     input.addEventListener("input", () => {
       comboState[name].activeIndex = 0;
+      syncComboClear(name);
       setComboOpen(name, true);
       renderComboOptions(name);
     });
@@ -390,6 +438,13 @@ function initializeFilterCombos() {
       const shouldOpen = !comboState[name].open;
       input.focus();
       setComboOpen(name, shouldOpen);
+    });
+
+    clearButton.addEventListener("mousedown", (event) => event.preventDefault());
+    clearButton.addEventListener("click", (event) => {
+      event.stopPropagation();
+      clearFilterValue(name);
+      input.focus();
     });
 
     list.addEventListener("mousedown", (event) => event.preventDefault());
@@ -595,6 +650,7 @@ function render() {
   renderProducts(visible);
   renderCompare();
   updateFilterDisclosure();
+  syncComboClears();
 }
 
 function setCategory(category) {
