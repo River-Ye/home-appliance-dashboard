@@ -197,8 +197,8 @@
     "name": "智慧氣炸烤箱",
     "price": {
       "currency": "USD",
-      "amount": 549.95,
-      "converted": 17642,
+      "amount": 499.95,
+      "converted": 16038,
       "confidence": "海外可信通路參考價"
     },
     "image": "https://cdn11.bigcommerce.com/s-ihwnd7z21q/images/stencil/640w/products/1251/4666/212814_JouleOvenAirFryer1__10534.1724079466.jpg?c=1",
@@ -906,5 +906,5 @@
     ],
     "releaseDate": "找不到"
   }
-  ]);
+]);
 })();

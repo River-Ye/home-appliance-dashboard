@@ -782,8 +782,8 @@
     "name": "BRAVIA Theatre Bar 9 旗艦聲霸",
     "price": {
       "currency": "TWD",
-      "amount": 36810,
-      "converted": 36810,
+      "amount": 41227,
+      "converted": 41227,
       "confidence": "可信通路查核價，擷取 2026-07-08"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBM1DA900IUZUJ/000001_1781790756.jpg",
@@ -906,5 +906,5 @@
     ],
     "releaseDate": "找不到"
   }
-  ]);
+]);
 })();

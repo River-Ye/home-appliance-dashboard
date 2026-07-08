@@ -197,8 +197,8 @@
     "name": "Professional Plus Blender",
     "price": {
       "currency": "USD",
-      "amount": 79.99,
-      "converted": 2566,
+      "amount": 99.99,
+      "converted": 3208,
       "confidence": "海外可信通路參考價"
     },
     "image": "https://ak1.ostkcdn.com/images/products/is/images/direct/d1c25153baa2aa99eae7831be826d2a51d87c485/Ninja-BN701-Professional-Plus-Blender-with-Auto-iQ.jpg",
@@ -906,5 +906,5 @@
     ],
     "releaseDate": "找不到"
   }
-  ]);
+]);
 })();

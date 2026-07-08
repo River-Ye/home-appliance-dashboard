@@ -17,8 +17,8 @@
     "name": "渦流空氣循環機",
     "price": {
       "currency": "TWD",
-      "amount": 4032,
-      "converted": 4032,
+      "amount": 4480,
+      "converted": 4480,
       "confidence": "可信通路查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/QBAF31A9008YQOZ/000001_1765269816.jpg",
@@ -906,5 +906,5 @@
     ],
     "releaseDate": "找不到"
   }
-  ]);
+]);
 })();

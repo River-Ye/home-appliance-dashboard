@@ -624,8 +624,8 @@
     "budget": "mid",
     "channel": "tw",
     "brand": "Apexgaming",
-    "model": "LUMI",
-    "name": "LUMI 落地型鋼化玻璃電動升降桌",
+    "model": "LUMI 深色",
+    "name": "LUMI 落地型鋼化玻璃電動升降桌 深色",
     "price": {
       "currency": "TWD",
       "amount": 14990,
@@ -642,7 +642,7 @@
       "電競風格",
       "桌板厚度：未標示"
     ],
-    "description": "同樣是 LUMI 玻璃桌，但色系更偏沉穩，適合黑灰桌機與電競週邊。",
+    "description": "Apexgaming LUMI 深色款採鋼化玻璃桌面，色系偏沉穩，適合黑灰桌機與電競週邊。",
     "pros": [
       "視覺辨識度高",
       "適合桌機展示",
@@ -653,7 +653,7 @@
       "需留意玻璃桌使用習慣"
     ],
     "bestFor": "想要展示型桌面與電競房氛圍的人。",
-    "recommendation": "桌搭推薦：外觀是主要賣點，重視實用 CP 可先看 Loctek/iRocks。",
+    "recommendation": "桌搭推薦：LUMI 深色款外觀是主要賣點，重視實用 CP 可先看 Loctek/iRocks。",
     "score": 76,
     "voltage": "110V 台灣通路",
     "warranty": "依 PChome/供應商頁面",
@@ -941,5 +941,5 @@
     ],
     "releaseDate": "找不到"
   }
-  ]);
+]);
 })();

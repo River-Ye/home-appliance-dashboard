@@ -15,8 +15,8 @@
       "image": "https://img.yec.tw/zp/MerchandiseImages/80ae994660-Gd-11679958.jpg",
       "price": {
         "currency": "TWD",
-        "amount": 16735,
-        "converted": 16735,
+        "amount": 15899,
+        "converted": 15899,
         "confidence": "Yahoo 購物中心低價查核"
       },
       "channel": "tw",
@@ -171,8 +171,8 @@
       "image": "https://img.yec.tw/zp/MerchandiseImages/a4e0db233c-Gd-10538421.jpg",
       "price": {
         "currency": "TWD",
-        "amount": 23900,
-        "converted": 23900,
+        "amount": 22705,
+        "converted": 22705,
         "confidence": "Yahoo 購物中心低價查核"
       },
       "channel": "tw",
@@ -223,8 +223,8 @@
       "image": "https://img.yec.tw/zp/MerchandiseImages/09409EE61F-SP-14769059.jpg",
       "price": {
         "currency": "TWD",
-        "amount": 22900,
-        "converted": 22900,
+        "amount": 21755,
+        "converted": 21755,
         "confidence": "Yahoo 購物中心低價查核"
       },
       "channel": "tw",
@@ -275,8 +275,8 @@
       "image": "https://img.yec.tw/zp/MerchandiseImages/340D2A8AF6-SP-10482488.jpg",
       "price": {
         "currency": "TWD",
-        "amount": 18900,
-        "converted": 18900,
+        "amount": 16632,
+        "converted": 16632,
         "confidence": "Yahoo 購物中心低價查核"
       },
       "channel": "tw",
@@ -327,8 +327,8 @@
       "image": "https://img.yec.tw/zp/MerchandiseImages/14fd573d8b-Gd-11368468.jpg",
       "price": {
         "currency": "TWD",
-        "amount": 28017,
-        "converted": 28017,
+        "amount": 24655,
+        "converted": 24655,
         "confidence": "Yahoo 購物中心低價查核"
       },
       "channel": "tw",
@@ -379,8 +379,8 @@
       "image": "https://img.yec.tw/zp/MerchandiseImages/aeae8992ae-Gd-10764299.jpg",
       "price": {
         "currency": "TWD",
-        "amount": 8410,
-        "converted": 8410,
+        "amount": 7990,
+        "converted": 7990,
         "confidence": "Yahoo 購物中心低價查核"
       },
       "channel": "tw",
@@ -431,8 +431,8 @@
       "image": "https://img.yec.tw/zp/MerchandiseImages/6a4879fcf0-Gd-10743682.jpg",
       "price": {
         "currency": "TWD",
-        "amount": 9900,
-        "converted": 9900,
+        "amount": 9108,
+        "converted": 9108,
         "confidence": "Yahoo 購物中心低價查核"
       },
       "channel": "tw",
@@ -584,24 +584,24 @@
       "brand": "HERAN",
       "model": "HWM-1061V",
       "name": "HERAN HWM-1061V",
-      "image": "https://img.yec.tw/zp/MerchandiseImages/1721813E83-SP-19749620.jpg",
+      "image": "https://cs-a.ecimg.tw/items/DPAIB6A900IM3H3/000001_1750206335.jpg",
       "price": {
         "currency": "TWD",
-        "amount": 8666,
-        "converted": 8666,
-        "confidence": "Yahoo 購物中心低價查核"
+        "amount": 8190,
+        "converted": 8190,
+        "confidence": "PChome 24h 低價查核"
       },
       "channel": "tw",
-      "buyLabel": "Yahoo購物",
-      "buyUrl": "https://tw.buy.yahoo.com/gdsale/HERAN禾聯-10KG變頻洗衣機-HWM-1061V-11587728.html",
+      "buyLabel": "PChome",
+      "buyUrl": "https://24h.pchome.com.tw/prod/DPAIB6-A900IM3H3",
       "specs": [
-        "洗衣機：HERAN禾聯 10KG變頻洗衣機 HWM-1061V",
+        "洗衣機：【HERAN 禾聯】10KG變頻 銀離子抗菌直立式洗衣機HWM-1061V",
         "容量：10kg",
         "形式：依商品頁標示",
         "變頻：有標示",
         "溫水洗：依商品頁標示",
         "需確認進排水、插座、門向與安裝空間",
-        "Yahoo購物 可信通路低價；排除洗脫烘、福利品、展示機與配件頁"
+        "PChome 24h 可信通路低價；排除洗脫烘、福利品、展示機與配件頁"
       ],
       "description": "涵蓋直立式與滾筒式洗衣機，依容量、變頻、省水、省電、品牌售後與安裝門檻排序。",
       "pros": [
@@ -615,7 +615,7 @@
         "容量標示需對照棉被與家庭人口需求"
       ],
       "bestFor": "想依家庭人口、衣物量與空間限制挑選單洗功能的人。",
-      "recommendation": "洗衣機第 12 推薦：HERAN HWM-1061V 以容量、可信通路價格與台灣售後風險綜合評估，適合納入比較。",
+      "recommendation": "洗衣機第 12 推薦：HERAN HWM-1061V 以 10kg 直立變頻、PChome 可購買價格與台灣售後風險綜合評估，適合納入比較。",
       "voltage": "110V 台灣通路；需確認進排水、專用插座、地面水平與安裝空間",
       "warranty": "依可信通路與品牌/供應商頁面標示；大型家電安裝與搬運費依通路方案",
       "score": 85,
@@ -639,8 +639,8 @@
       "image": "https://img.yec.tw/zp/MerchandiseImages/1be1c9536e-Gd-9713719.jpg",
       "price": {
         "currency": "TWD",
-        "amount": 9463,
-        "converted": 9463,
+        "amount": 8990,
+        "converted": 8990,
         "confidence": "Yahoo 購物中心低價查核"
       },
       "channel": "tw",
@@ -691,8 +691,8 @@
       "image": "https://img.yec.tw/zp/MerchandiseImages/368c0016f2-Gd-10764300.jpg",
       "price": {
         "currency": "TWD",
-        "amount": 12526,
-        "converted": 12526,
+        "amount": 11900,
+        "converted": 11900,
         "confidence": "Yahoo 購物中心低價查核"
       },
       "channel": "tw",
@@ -743,8 +743,8 @@
       "image": "https://img.yec.tw/zp/MerchandiseImages/e9f3c9c0e6-Gd-9577871.jpg",
       "price": {
         "currency": "TWD",
-        "amount": 9147,
-        "converted": 9147,
+        "amount": 8690,
+        "converted": 8690,
         "confidence": "Yahoo 購物中心低價查核"
       },
       "channel": "tw",

@@ -16,8 +16,8 @@
     "name": "全能機械手臂旗艦掃拖王者",
     "price": {
       "currency": "TWD",
-      "amount": 36980,
-      "converted": 36980,
+      "amount": 35500,
+      "converted": 35500,
       "confidence": "可信通路查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL1CA900IGHHM/000001_1782870336.jpg",
@@ -602,8 +602,8 @@
     "name": "滾筒洗地旗艦掃拖機器人",
     "price": {
       "currency": "EUR",
-      "amount": 1299,
-      "converted": 47645,
+      "amount": 999,
+      "converted": 36641,
       "confidence": "海外可信通路參考價"
     },
     "image": "https://boulanger.scene7.com/is/image/Boulanger/6972075738536_h_f_l_0?fmt=png-alpha&wid=640&hei=640",
@@ -737,8 +737,8 @@
     "name": "熱旋風延邊避障全能掃拖機器人",
     "price": {
       "currency": "TWD",
-      "amount": 19880,
-      "converted": 19880,
+      "amount": 19677,
+      "converted": 19677,
       "confidence": "可信通路查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL0JA900ITF7U/000001_1782802931.jpg",
@@ -1266,5 +1266,5 @@
     ],
     "releaseDate": "2026-03-12"
   }
-  ]);
+]);
 })();

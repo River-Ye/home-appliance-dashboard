@@ -1997,8 +1997,8 @@
     "name": "AI 智慧 A50 頂級電子門鎖",
     "price": {
       "currency": "TWD",
-      "amount": 39800,
-      "converted": 39800,
+      "amount": 32800,
+      "converted": 32800,
       "confidence": "可信通路查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBS4NA900K2WIC/000001_1783308785.jpg",
@@ -2042,8 +2042,8 @@
     "name": "AI 智慧 A90 頂級電子門鎖",
     "price": {
       "currency": "TWD",
-      "amount": 49800,
-      "converted": 49800,
+      "amount": 33800,
+      "converted": 33800,
       "confidence": "可信通路查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBS4NA900K2STR/000001_1783309040.jpg",
@@ -2076,5 +2076,5 @@
     ],
     "releaseDate": "找不到"
   }
-  ]);
+]);
 })();

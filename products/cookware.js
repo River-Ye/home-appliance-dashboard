@@ -858,8 +858,8 @@
     "budget": "mid",
     "channel": "tw",
     "brand": "Le Creuset",
-    "model": "TNS 28cm",
-    "name": "不沾雙耳醬汁鍋",
+    "model": "TNS 雙耳醬汁鍋 28cm",
+    "name": "TNS 雙耳醬汁鍋 28cm",
     "price": {
       "currency": "TWD",
       "amount": 6850,
@@ -875,7 +875,7 @@
       "雙耳",
       "附蓋"
     ],
-    "description": "Le Creuset TNS 28cm 補進本分類比較池，重點是28cm、不沾鍋、雙耳，適合和同類 Top Pick 依預算、售後與規格一起比較。",
+    "description": "Le Creuset TNS 雙耳醬汁鍋 28cm 補進本分類比較池，重點是 28cm、不沾鍋、雙耳與附蓋，和單柄煎鍋是不同鍋型。",
     "pros": [
       "不沾塗層與設計感佳",
       "適合煎炒燉混用"
@@ -885,7 +885,7 @@
       "塗層鍋仍需溫柔使用"
     ],
     "bestFor": "想補齊日常鍋具尺寸與材質，並比較不沾、不鏽鋼與琺瑯鍋的人。",
-    "recommendation": "補充推薦：不沾雙耳醬汁鍋 的優勢在不沾塗層與設計感佳，但仍建議把價格高納入取捨。",
+    "recommendation": "補充推薦：TNS 雙耳醬汁鍋 28cm 的優勢在雙耳附蓋與不沾塗層，但價格高，適合需要煎煮燉混用的人。",
     "score": 84,
     "voltage": "無需用電",
     "warranty": "依台灣通路/品牌保固",
@@ -986,5 +986,5 @@
     ],
     "releaseDate": "找不到"
   }
-  ]);
+]);
 })();
