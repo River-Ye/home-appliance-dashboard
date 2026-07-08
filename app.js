@@ -3842,6 +3842,21 @@ function filterStateValue(name) {
   return state[name];
 }
 
+function brandOptionsForCurrentCategory() {
+  const sourceProducts = state.category === "all"
+    ? products
+    : products.filter((product) => product.category === state.category);
+  return [...new Set(sourceProducts.map((product) => product.brand))]
+    .sort((a, b) => a.localeCompare(b, "zh-Hant"));
+}
+
+function ensureSelectedBrandIsAvailable() {
+  if (state.brand === "all") return;
+  if (!brandOptionsForCurrentCategory().includes(state.brand)) {
+    state.brand = "all";
+  }
+}
+
 function filterOptions(name) {
   if (name === "category") {
     return [
@@ -3855,7 +3870,7 @@ function filterOptions(name) {
   }
 
   if (name === "brand") {
-    const brands = [...new Set(products.map((product) => product.brand))].sort((a, b) => a.localeCompare(b, "zh-Hant"));
+    const brands = brandOptionsForCurrentCategory();
     return [
       { value: "all", label: "全部品牌", keywords: "all" },
       ...brands.map((brand) => ({ value: brand, label: brand, keywords: brand })),
@@ -3998,10 +4013,12 @@ function closeAllCombos(exceptName = "") {
 function selectFilterValue(name, value) {
   if (name === "category") {
     state.category = value;
+    ensureSelectedBrandIsAvailable();
+    syncControls(true);
   } else {
     state[name] = value;
+    syncComboInput(name, true);
   }
-  syncComboInput(name, true);
   setComboOpen(name, false);
   render();
 }
@@ -4262,6 +4279,7 @@ function renderCompare() {
 }
 
 function render() {
+  ensureSelectedBrandIsAvailable();
   const visible = filteredProducts();
   renderTabs();
   renderStats(visible);
@@ -4273,6 +4291,7 @@ function render() {
 
 function setCategory(category) {
   state.category = category;
+  ensureSelectedBrandIsAvailable();
   syncControls(true);
   render();
 }
