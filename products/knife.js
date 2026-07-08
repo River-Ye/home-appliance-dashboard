@@ -1,4 +1,10 @@
-globalThis.applianceDashboard.registerProducts("knife", [
+(() => {
+  const dashboard = globalThis.applianceDashboard;
+  if (!dashboard || typeof dashboard.registerProducts !== "function") {
+    throw new Error("appliance dashboard registry is not ready");
+  }
+
+  dashboard.registerProducts("knife", [
   {
     "id": "knife-tojiro-dp-f-808-210mm",
     "rank": 1,
@@ -46,7 +52,9 @@ globalThis.applianceDashboard.registerProducts("knife", [
       "刀具",
       "廚房",
       "主廚刀"
-    ]
+    ],
+    "category": "knife",
+    "releaseDate": "找不到"
   },
   {
     "id": "knife-global-g-4-180mm",
@@ -94,7 +102,9 @@ globalThis.applianceDashboard.registerProducts("knife", [
       "刀具",
       "廚房",
       "主廚刀"
-    ]
+    ],
+    "category": "knife",
+    "releaseDate": "找不到"
   },
   {
     "id": "knife-victorinox-swiss-classic",
@@ -142,7 +152,9 @@ globalThis.applianceDashboard.registerProducts("knife", [
       "刀具",
       "廚房",
       "主廚刀"
-    ]
+    ],
+    "category": "knife",
+    "releaseDate": "找不到"
   },
   {
     "id": "knife-kai-16-5cm",
@@ -191,7 +203,9 @@ globalThis.applianceDashboard.registerProducts("knife", [
       "刀具",
       "廚房",
       "主廚刀"
-    ]
+    ],
+    "category": "knife",
+    "releaseDate": "找不到"
   },
   {
     "id": "knife-kyocera-deagy1-a900jbvod",
@@ -239,7 +253,9 @@ globalThis.applianceDashboard.registerProducts("knife", [
       "刀具",
       "廚房",
       "主廚刀"
-    ]
+    ],
+    "category": "knife",
+    "releaseDate": "找不到"
   },
   {
     "id": "knife-wmf-18cm",
@@ -287,7 +303,9 @@ globalThis.applianceDashboard.registerProducts("knife", [
       "刀具",
       "廚房",
       "主廚刀"
-    ]
+    ],
+    "category": "knife",
+    "releaseDate": "找不到"
   },
   {
     "id": "knife-wusthof-gourmet-17cm",
@@ -335,7 +353,9 @@ globalThis.applianceDashboard.registerProducts("knife", [
       "刀具",
       "廚房",
       "主廚刀"
-    ]
+    ],
+    "category": "knife",
+    "releaseDate": "找不到"
   },
   {
     "id": "knife-tefal-ice-force-15cm",
@@ -382,7 +402,9 @@ globalThis.applianceDashboard.registerProducts("knife", [
       "入門",
       "刀具",
       "廚房"
-    ]
+    ],
+    "category": "knife",
+    "releaseDate": "找不到"
   },
   {
     "id": "knife-global-g-1-210mm",
@@ -429,7 +451,9 @@ globalThis.applianceDashboard.registerProducts("knife", [
       "一體成型",
       "刀具",
       "廚房"
-    ]
+    ],
+    "category": "knife",
+    "releaseDate": "找不到"
   },
   {
     "id": "knife-kai-18cm",
@@ -478,7 +502,9 @@ globalThis.applianceDashboard.registerProducts("knife", [
       "刀具",
       "廚房",
       "主廚刀"
-    ]
+    ],
+    "category": "knife",
+    "releaseDate": "找不到"
   },
   {
     "id": "knife-kyocera-16cm",
@@ -527,7 +553,9 @@ globalThis.applianceDashboard.registerProducts("knife", [
       "刀具",
       "廚房",
       "主廚刀"
-    ]
+    ],
+    "category": "knife",
+    "releaseDate": "找不到"
   },
   {
     "id": "knife-victorinox-5-2000-15",
@@ -575,7 +603,9 @@ globalThis.applianceDashboard.registerProducts("knife", [
       "刀具",
       "廚房",
       "主廚刀"
-    ]
+    ],
+    "category": "knife",
+    "releaseDate": "找不到"
   },
   {
     "id": "knife-tojiro-black-zen-f-187bk-165mm",
@@ -623,7 +653,9 @@ globalThis.applianceDashboard.registerProducts("knife", [
       "刀具",
       "廚房",
       "主廚刀"
-    ]
+    ],
+    "category": "knife",
+    "releaseDate": "找不到"
   },
   {
     "id": "knife-tefal-ice-force",
@@ -671,7 +703,9 @@ globalThis.applianceDashboard.registerProducts("knife", [
       "刀具",
       "廚房",
       "主廚刀"
-    ]
+    ],
+    "category": "knife",
+    "releaseDate": "找不到"
   },
   {
     "id": "knife-wusthof-gourmet",
@@ -720,7 +754,9 @@ globalThis.applianceDashboard.registerProducts("knife", [
       "刀具",
       "廚房",
       "主廚刀"
-    ]
+    ],
+    "category": "knife",
+    "releaseDate": "找不到"
   },
   {
     "id": "knife-extra-16-dsbe0ma900jd4ad",
@@ -764,7 +800,8 @@ globalThis.applianceDashboard.registerProducts("knife", [
       "主廚刀",
       "日本製",
       "VG10"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "knife-extra-17-debm2ca900j9cyp",
@@ -808,7 +845,8 @@ globalThis.applianceDashboard.registerProducts("knife", [
       "萬用刀",
       "德系",
       "小刀"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "knife-extra-18-deag16a900iji66",
@@ -852,7 +890,8 @@ globalThis.applianceDashboard.registerProducts("knife", [
       "水果刀",
       "日本製",
       "收納"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "knife-extra-19-deagyea900bcet2",
@@ -896,7 +935,8 @@ globalThis.applianceDashboard.registerProducts("knife", [
       "切肉刀",
       "瑞士",
       "專業"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "knife-extra-20-deawrua900hdkxq",
@@ -940,6 +980,8 @@ globalThis.applianceDashboard.registerProducts("knife", [
       "小刀",
       "收納",
       "入門"
-    ]
+    ],
+    "releaseDate": "找不到"
   }
-]);
+  ]);
+})();

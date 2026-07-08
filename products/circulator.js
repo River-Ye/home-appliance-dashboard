@@ -48,7 +48,8 @@
       "強循環",
       "冷氣搭配",
       "經典"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "circ-iris-sc15t",
@@ -92,7 +93,8 @@
       "小空間",
       "遙控",
       "CP 值"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "circ-panasonic-fe10",
@@ -136,7 +138,8 @@
       "DC",
       "靜音",
       "遙控"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "circ-balmuda-cirq",
@@ -180,7 +183,8 @@
       "設計",
       "低噪",
       "高質感"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "circ-iris-hd15",
@@ -224,7 +228,8 @@
       "低價",
       "小巧",
       "租屋"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "circulator-extra-6-dmab3x-a900jwrup",
@@ -268,7 +273,8 @@
       "渦流",
       "小空間",
       "Vornado"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "circulator-extra-7-dmab3x-a900iigo1",
@@ -312,7 +318,8 @@
       "渦流",
       "客廳",
       "Vornado"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "circulator-extra-8-qbaf31-a900arwxh",
@@ -356,7 +363,8 @@
       "復古",
       "設計",
       "小空間"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "circulator-extra-9-dmab3x-a900hnewa",
@@ -400,7 +408,8 @@
       "渦流",
       "高風量",
       "客廳"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "circulator-extra-10-dmab3x-a900jy5i9",
@@ -444,7 +453,8 @@
       "渦流",
       "高風量",
       "旗艦"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "circulator-extra-11-dmab1o-a900eq6z4",
@@ -488,7 +498,8 @@
       "大坪數",
       "渦流",
       "Vornado"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "circulator-extra-12-qbaf31-a9008ybed",
@@ -532,7 +543,8 @@
       "DC",
       "渦流",
       "高階"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "circulator-extra-13-dmab3x-a900hn9w0",
@@ -576,7 +588,8 @@
       "渦流",
       "均衡",
       "客廳"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "circulator-extra-14-dmabll-a900ij6jp",
@@ -620,7 +633,8 @@
       "低價",
       "桌上",
       "臥室"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "circulator-extra-15-dmbm3g-a900fhkj2",
@@ -664,7 +678,8 @@
       "IRIS",
       "10 坪",
       "均衡"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "circulator-extra-16-dmablya900jx0yj",
@@ -708,7 +723,8 @@
       "DC",
       "聲控",
       "3D"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "circulator-extra-17-dmablxa900gds4d",
@@ -752,7 +768,8 @@
       "大風量",
       "DC",
       "360 度"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "circulator-extra-18-dmablxa900hi682",
@@ -796,7 +813,8 @@
       "語音",
       "DC",
       "預算"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "circulator-extra-19-dmablya900k3cs7",
@@ -840,7 +858,8 @@
       "吸頂",
       "DC",
       "固定式"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "circulator-extra-20-dmablya900h2h5c",
@@ -884,7 +903,8 @@
       "雙渦輪",
       "DC",
       "大空間"
-    ]
+    ],
+    "releaseDate": "找不到"
   }
-]);
+  ]);
 })();

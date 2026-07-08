@@ -48,7 +48,8 @@
       "變頻",
       "節能",
       "主力款"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "dh-lg-de221",
@@ -92,7 +93,8 @@
       "大容量",
       "變頻",
       "智慧"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "dh-mitsubishi-ehv220",
@@ -136,7 +138,8 @@
       "日製",
       "清淨",
       "旗艦"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "dh-lg-dd201",
@@ -180,7 +183,8 @@
       "變頻",
       "智慧",
       "中大坪數"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "dh-whirlpool-wdee10",
@@ -224,7 +228,8 @@
       "小坪數",
       "低價",
       "CP 值"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "dehumidifier-extra-6-dmbq4y-a900ikocc",
@@ -268,7 +273,8 @@
       "16L",
       "變頻",
       "節能"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "dehumidifier-extra-7-dmbq3p-a900gtphc",
@@ -312,7 +318,8 @@
       "清淨",
       "16L",
       "高階"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "dehumidifier-extra-8-dmau0f-a900b1hpu",
@@ -356,7 +363,8 @@
       "8L",
       "小坪數",
       "清淨"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "dehumidifier-extra-9-dmbq00-a900jb38a",
@@ -400,7 +408,8 @@
       "9L",
       "節能",
       "臥室"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "dehumidifier-extra-10-dmbq07-a900hq3l5",
@@ -444,7 +453,8 @@
       "LG",
       "WiFi",
       "16L"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "dehumidifier-extra-11-dmbq4n-a900jf9hp",
@@ -488,7 +498,8 @@
       "LG",
       "12L",
       "變頻"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "dehumidifier-extra-12-dmbq4y-a900jbqp2",
@@ -532,7 +543,8 @@
       "LG",
       "變頻",
       "均衡"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "dehumidifier-extra-13-dmbq07-a900gfbvp",
@@ -576,7 +588,8 @@
       "LG",
       "大容量",
       "高階"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "dehumidifier-extra-14-dmbq4n-a900jchfz",
@@ -620,7 +633,8 @@
       "LG",
       "18L",
       "節能"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "dehumidifier-extra-15-dmbq3s-a900k13zr",
@@ -664,7 +678,8 @@
       "Whirlpool",
       "20L",
       "高 CP"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "dehumidifier-extra-16-dmbq3sa900i7nsn",
@@ -708,7 +723,8 @@
       "小坪數",
       "節能",
       "預算"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "dehumidifier-extra-17-dmbq08a900ixl3k",
@@ -752,7 +768,8 @@
       "小坪數",
       "衣物乾燥",
       "SHARP"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "dehumidifier-extra-18-dmbq3pa900j9fh9",
@@ -796,7 +813,8 @@
       "Panasonic",
       "小房間",
       "入門"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "dehumidifier-extra-19-dmbq08a900jpcl1",
@@ -840,7 +858,8 @@
       "12L",
       "PCI",
       "中坪數"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "dehumidifier-extra-20-dmbq01a900gsfgx",
@@ -884,7 +903,8 @@
       "清淨型",
       "日系",
       "11L"
-    ]
+    ],
+    "releaseDate": "找不到"
   }
-]);
+  ]);
 })();

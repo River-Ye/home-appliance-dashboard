@@ -49,7 +49,8 @@
       "人體工學",
       "台灣品牌",
       "CP 值"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "chair-ergohuman-special-20",
@@ -94,7 +95,8 @@
       "人體工學",
       "網椅",
       "長坐"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "chair-irocks-t08-plus",
@@ -139,7 +141,8 @@
       "入門",
       "台灣品牌",
       "電腦椅"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "chair-irocks-t03-neo",
@@ -184,7 +187,8 @@
       "網椅",
       "透氣",
       "白色"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "chair-irocks-t05-plus",
@@ -229,7 +233,8 @@
       "五年保固",
       "台灣製造",
       "長坐"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "chair-irocks-t27",
@@ -274,7 +279,8 @@
       "網椅",
       "人體工學",
       "台灣品牌"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "chair-razer-fujin",
@@ -319,7 +325,8 @@
       "Razer",
       "網椅",
       "電競"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "chair-razer-iskur-v2",
@@ -364,7 +371,8 @@
       "Razer",
       "電競",
       "包覆"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "chair-razer-enki",
@@ -409,7 +417,8 @@
       "Razer",
       "CP 值",
       "電競"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "chair-herman-miller-aeron-c",
@@ -454,7 +463,8 @@
       "高階",
       "授權代理",
       "人體工學"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "chair-steelcase-karman",
@@ -499,7 +509,8 @@
       "高階",
       "Steelcase",
       "辦公椅"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "chair-backbone-kangaroo-pro",
@@ -544,7 +555,8 @@
       "網椅",
       "萬元內",
       "人體工學"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "chair-aotto-3d-mesh",
@@ -589,7 +601,8 @@
       "低價",
       "入門",
       "網布"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "chair-ionrax-oc2",
@@ -634,7 +647,8 @@
       "入門",
       "電競",
       "坐躺"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "chair-cougar-titan-pro-v2",
@@ -679,7 +693,8 @@
       "COUGAR",
       "電競",
       "大型"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "chair-extra-16-dqbj0aa900jsbyx",
@@ -723,7 +738,8 @@
       "人體工學",
       "網椅",
       "CP 值"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "chair-extra-17-dcaki5a900haaza",
@@ -767,7 +783,8 @@
       "人體工學",
       "居家辦公",
       "中價位"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "chair-extra-18-dqbj6za900hndmy",
@@ -811,7 +828,8 @@
       "電競椅",
       "預算",
       "包覆"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "chair-extra-19-dqbj2xa900k3i6a",
@@ -855,7 +873,8 @@
       "護腰",
       "辦公椅",
       "透氣"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "chair-extra-20-dqbj0ra900ja4sv",
@@ -899,7 +918,8 @@
       "人體工學",
       "長時間",
       "支撐"
-    ]
+    ],
+    "releaseDate": "找不到"
   }
-]);
+  ]);
 })();

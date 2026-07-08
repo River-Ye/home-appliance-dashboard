@@ -49,7 +49,8 @@
       "OLED",
       "遊戲",
       "電影"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "tv-samsung-s90f-65",
@@ -94,7 +95,8 @@
       "OLED",
       "CP 值",
       "遊戲"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "tv-sony-bravia7-65",
@@ -139,7 +141,8 @@
       "Mini LED",
       "電影",
       "組合價"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "tv-hisense-u7n-65",
@@ -184,7 +187,8 @@
       "Mini LED",
       "CP 值",
       "144Hz"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "tv-benq-e65-760",
@@ -229,7 +233,8 @@
       "QLED",
       "大尺寸",
       "本地品牌"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "tv-extra-6-dpad06-a900hlbjo",
@@ -274,7 +279,8 @@
       "OLED",
       "電影",
       "旗艦"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "tv-extra-7-dpadye-1900jgoya",
@@ -319,7 +325,8 @@
       "OLED",
       "藝廊",
       "旗艦"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "tv-extra-8-dpad09-a900j9faz",
@@ -364,7 +371,8 @@
       "OLED",
       "電影",
       "均衡"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "tv-extra-9-dpadik-a900hjgf2",
@@ -409,7 +417,8 @@
       "OLED",
       "遊戲",
       "Google TV"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "tv-extra-10-dmbm10-a900ixjzg",
@@ -454,7 +463,8 @@
       "OLED",
       "高亮度",
       "旗艦"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "tv-extra-11-dpadzm-a900k3904",
@@ -499,7 +509,8 @@
       "Mini LED",
       "Google TV",
       "客廳"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "tv-extra-12-dpadzm-a900k2rgj",
@@ -544,7 +555,8 @@
       "Mini LED",
       "CP 值",
       "串流"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "tv-extra-13-dpadbu-1900jc97w",
@@ -589,7 +601,8 @@
       "Mini LED",
       "遊戲",
       "CP 值"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "tv-extra-14-dpadew-1900jpy1s",
@@ -634,7 +647,8 @@
       "8K",
       "Mini LED",
       "旗艦"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "tv-extra-15-dpad0o-1900jl0z8",
@@ -679,7 +693,8 @@
       "Mini LED",
       "遊戲",
       "CP 值"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "tv-extra-16-dpadb2a900jgkqb",
@@ -724,7 +739,8 @@
       "65吋",
       "QLED",
       "CP 值"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "tv-extra-17-dpado5a900ie3y5",
@@ -769,7 +785,8 @@
       "65吋",
       "QLED",
       "REGZA"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "tv-extra-18-dpadtoa900jne73",
@@ -814,7 +831,8 @@
       "65吋",
       "120Hz",
       "預算"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "tv-extra-19-dmbm10a900ifxk7",
@@ -859,7 +877,8 @@
       "65吋",
       "台灣品牌",
       "QLED"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "tv-extra-20-dpadw5a900k1qa7",
@@ -904,7 +923,8 @@
       "65吋",
       "QLED",
       "台灣通路"
-    ]
+    ],
+    "releaseDate": "找不到"
   }
   ]);
 })();

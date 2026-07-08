@@ -49,7 +49,8 @@
       "Mesh",
       "二入組",
       "ASUS"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "wifi-tplink-deco-be25-2pack",
@@ -94,7 +95,8 @@
       "二入組",
       "CP 值",
       "TP-Link"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "wifi-dlink-m36-3pack",
@@ -139,7 +141,8 @@
       "三入組",
       "D-Link",
       "全屋"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "wifi-asus-rt-be58u-v2",
@@ -184,7 +187,8 @@
       "單台",
       "CP 值",
       "ASUS"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "wifi-tplink-deco-be65-2pack",
@@ -229,7 +233,8 @@
       "三頻",
       "2.5G",
       "高階"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "wifi-netgear-orbi-rbe373",
@@ -274,7 +279,8 @@
       "三件式",
       "NETGEAR",
       "Orbi"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "wifi-linksys-velop-pro-axe5400",
@@ -319,7 +325,8 @@
       "Wi-Fi 6E",
       "Linksys",
       "三頻"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "wifi-synology-wrx560",
@@ -364,7 +371,8 @@
       "管理",
       "Synology",
       "2.5G"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "wifi-unifi-u7-pro",
@@ -410,7 +418,8 @@
       "PoE",
       "商用 AP"
     ],
-    "rank": 9
+    "rank": 9,
+    "releaseDate": "找不到"
   },
   {
     "id": "wifi-unifi-u6-pro",
@@ -456,7 +465,8 @@
       "PoE",
       "商用 AP"
     ],
-    "rank": 10
+    "rank": 10,
+    "releaseDate": "找不到"
   },
   {
     "id": "wifi-unifi-u7-lite",
@@ -502,7 +512,8 @@
       "PoE",
       "低價 AP"
     ],
-    "rank": 11
+    "rank": 11,
+    "releaseDate": "找不到"
   },
   {
     "id": "wifi-aruba-ap22",
@@ -548,7 +559,8 @@
       "Wi‑Fi 6",
       "商用 AP"
     ],
-    "rank": 12
+    "rank": 12,
+    "releaseDate": "找不到"
   },
   {
     "id": "wifi-aruba-ap25",
@@ -594,7 +606,8 @@
       "Wi‑Fi 6",
       "高密度"
     ],
-    "rank": 13
+    "rank": 13,
+    "releaseDate": "找不到"
   },
   {
     "id": "wifi-aruba-ap32",
@@ -640,7 +653,8 @@
       "Wi‑Fi 6E",
       "6GHz"
     ],
-    "rank": 14
+    "rank": 14,
+    "releaseDate": "找不到"
   },
   {
     "id": "wifi-aruba-ap21",
@@ -686,7 +700,8 @@
       "Wi‑Fi 6",
       "入門 AP"
     ],
-    "rank": 15
+    "rank": 15,
+    "releaseDate": "找不到"
   },
   {
     "id": "wifi-unifi-u6-plus",
@@ -732,7 +747,8 @@
       "PoE",
       "入門 AP"
     ],
-    "rank": 16
+    "rank": 16,
+    "releaseDate": "找不到"
   },
   {
     "id": "wifi-unifi-u7-pro-max",
@@ -778,7 +794,8 @@
       "PoE",
       "旗艦 AP"
     ],
-    "rank": 17
+    "rank": 17,
+    "releaseDate": "找不到"
   },
   {
     "id": "wifi-asus-rt-be82u",
@@ -823,7 +840,8 @@
       "ASUS",
       "中階",
       "Wi-Fi 7"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "wifi-tplink-archer-be700",
@@ -868,7 +886,8 @@
       "10G",
       "三頻",
       "高階"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "wifi-dlink-r95",
@@ -913,7 +932,8 @@
       "三頻",
       "D-Link",
       "2.5G"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "wifi-acer-predator-t7",
@@ -958,7 +978,8 @@
       "電競",
       "Acer",
       "三頻"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "wifi-mercusys-halo-h80x-3pack",
@@ -1003,7 +1024,8 @@
       "三入組",
       "Wi-Fi 6",
       "低價"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "wifi-xiaomi-ax3000-2pack",
@@ -1048,7 +1070,8 @@
       "二入組",
       "低價",
       "Xiaomi"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "wifi-tplink-archer-be220",
@@ -1093,7 +1116,8 @@
       "低價",
       "TP-Link",
       "Wi-Fi 7"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "wifi-mercusys-mr27be",
@@ -1138,7 +1162,8 @@
       "2.5G",
       "單台",
       "Mercusys"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "wifi-totolink-be5",
@@ -1183,7 +1208,8 @@
       "低價",
       "TOTOLINK",
       "Wi-Fi 7"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "wifi-dlink-m36",
@@ -1228,7 +1254,8 @@
       "D-Link",
       "2.5G",
       "入門"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "wifi-netgear-rs100",
@@ -1273,7 +1300,8 @@
       "單台",
       "Wi-Fi 7",
       "Nighthawk"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "wifi-linksys-mx5502-3pack",
@@ -1318,7 +1346,8 @@
       "三入組",
       "Linksys",
       "Wi-Fi 6"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "wifi-synology-rt6600ax",
@@ -1363,7 +1392,8 @@
       "Synology",
       "管理",
       "Wi-Fi 6"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "wifi-asus-rt-be88u",
@@ -1408,7 +1438,8 @@
       "高階",
       "ASUS",
       "多埠"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "wifi-tplink-archer-be805",
@@ -1453,7 +1484,8 @@
       "三頻",
       "TP-Link",
       "旗艦"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "wifi-tplink-archer-be900",
@@ -1498,7 +1530,8 @@
       "四頻",
       "旗艦",
       "TP-Link"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "wifi-netgear-rs300",
@@ -1543,7 +1576,8 @@
       "三頻",
       "單台",
       "高階"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "wifi-zyxel-usg-lite-60ax",
@@ -1588,7 +1622,8 @@
       "Zyxel",
       "小辦公",
       "Wi-Fi 6"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "wifi-msi-radix-axe6600",
@@ -1633,7 +1668,8 @@
       "電競",
       "MSI",
       "三頻"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "wifi-acer-ovia-t360",
@@ -1678,7 +1714,8 @@
       "Acer",
       "低價",
       "Wi-Fi 7"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "wifi-xiaomi-ax3000-1pack",
@@ -1723,7 +1760,8 @@
       "低價",
       "Xiaomi",
       "Wi-Fi 6"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "wifi-totolink-x30-se",
@@ -1768,7 +1806,8 @@
       "最低價",
       "TOTOLINK",
       "Wi-Fi 6"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "wifi-qnap-qhora-301w",
@@ -1813,7 +1852,8 @@
       "QNAP",
       "SD-WAN",
       "進階"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "wifi-cudy-ax3000-mesh",
@@ -1858,7 +1898,8 @@
       "2.5G",
       "低價",
       "Cudy"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "wifi-cudy-be3600",
@@ -1903,7 +1944,8 @@
       "Mesh",
       "Cudy",
       "Wi-Fi 7"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "wifi-asus-rt-be3600hp",
@@ -1948,7 +1990,8 @@
       "ASUS",
       "入門",
       "Wi-Fi 7"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "wifi-tplink-deco-be22",
@@ -1993,7 +2036,8 @@
       "單入",
       "TP-Link",
       "可擴充"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "wifi-mercusys-halo-h25be-2pack",
@@ -2038,7 +2082,8 @@
       "二入組",
       "低價",
       "Mercusys"
-    ]
+    ],
+    "releaseDate": "找不到"
   }
-]);
+  ]);
 })();

@@ -52,7 +52,8 @@
       "180Hz",
       "USB-C",
       "CP 值"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "monitor-acer-vg270u-p6",
@@ -99,7 +100,8 @@
       "2K",
       "低價",
       "IPS"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "monitor-benq-ex271q",
@@ -146,7 +148,8 @@
       "2K",
       "180Hz",
       "護眼"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "monitor-lg-27u631a",
@@ -193,7 +196,8 @@
       "2K",
       "USB-C",
       "文書"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "monitor-dell-p2425h",
@@ -240,7 +244,8 @@
       "商務",
       "USB-C",
       "四年保"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "monitor-samsung-g5-s27fg532",
@@ -287,7 +292,8 @@
       "2K",
       "200Hz",
       "電競"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "monitor-msi-g275l-e14",
@@ -334,7 +340,8 @@
       "FHD",
       "144Hz",
       "入門"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "monitor-gigabyte-g27q20t",
@@ -381,7 +388,8 @@
       "2K",
       "210Hz",
       "CP 值"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "monitor-viewsonic-vx2479",
@@ -428,7 +436,8 @@
       "240Hz",
       "FPS",
       "FHD"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "monitor-aoc-q27g42ze",
@@ -475,7 +484,8 @@
       "2K",
       "260Hz",
       "CP 值"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "monitor-philips-27m2n2500nf",
@@ -522,7 +532,8 @@
       "2K",
       "144Hz",
       "平價"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "monitor-eizo-ev2460",
@@ -569,7 +580,8 @@
       "辦公",
       "EIZO",
       "舒適"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "monitor-xiaomi-a27qi-2026",
@@ -616,7 +628,8 @@
       "2K",
       "120Hz",
       "低價"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "monitor-lg-27up850k",
@@ -663,7 +676,8 @@
       "4K",
       "生產力",
       "Mac"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "monitor-asus-proart-pa278qev",
@@ -710,7 +724,8 @@
       "ProArt",
       "2K",
       "創作"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "monitor-asus-xg27ucg",
@@ -757,7 +772,8 @@
       "4K",
       "160Hz",
       "USB-C"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "monitor-acer-predator-x27u-x2",
@@ -804,7 +820,8 @@
       "OLED",
       "240Hz",
       "電競"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "monitor-aoc-q27g4zmn",
@@ -851,7 +868,8 @@
       "Mini LED",
       "240Hz",
       "HDR"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "monitor-samsung-oled-g5",
@@ -898,7 +916,8 @@
       "OLED",
       "Samsung",
       "遊戲"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "monitor-gigabyte-m27up",
@@ -945,7 +964,8 @@
       "4K",
       "雙模",
       "KVM"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "monitor-benq-ma270u",
@@ -992,7 +1012,8 @@
       "Mac",
       "4K",
       "USB-C"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "monitor-benq-ew3290u",
@@ -1039,7 +1060,8 @@
       "32吋",
       "4K",
       "USB-C"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "monitor-dell-u2724d",
@@ -1086,7 +1108,8 @@
       "UltraSharp",
       "商務",
       "四年保"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "monitor-dell-u2725qe",
@@ -1133,7 +1156,8 @@
       "4K",
       "Thunderbolt",
       "商務"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "monitor-lg-27gx790a",
@@ -1180,7 +1204,8 @@
       "OLED",
       "480Hz",
       "FPS"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "monitor-asus-xg32ucwg",
@@ -1227,7 +1252,8 @@
       "OLED",
       "32吋",
       "ASUS"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "monitor-asus-xg27aqdmes",
@@ -1274,7 +1300,8 @@
       "OLED",
       "240Hz",
       "ROG"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "monitor-msi-271qrx",
@@ -1321,7 +1348,8 @@
       "OLED",
       "360Hz",
       "MSI"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "monitor-gigabyte-mo27q2a",
@@ -1368,7 +1396,8 @@
       "OLED",
       "280Hz",
       "GIGABYTE"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "monitor-viewsonic-vg2719u",
@@ -1415,7 +1444,8 @@
       "4K",
       "USB-C",
       "人體工學"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "monitor-viewsonic-vx2740d",
@@ -1462,7 +1492,8 @@
       "4K",
       "160Hz",
       "遊戲主機"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "monitor-philips-27m2n3500pf",
@@ -1509,7 +1540,8 @@
       "2K",
       "260Hz",
       "Philips"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "monitor-aoc-q27g40xmn",
@@ -1556,7 +1588,8 @@
       "Mini LED",
       "2K",
       "HDR"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "monitor-samsung-oled-g6-500",
@@ -1603,7 +1636,8 @@
       "OLED",
       "500Hz",
       "旗艦"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "monitor-dell-aw3225qf",
@@ -1650,7 +1684,8 @@
       "4K",
       "OLED",
       "Alienware"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "monitor-eizo-cs2740",
@@ -1697,7 +1732,8 @@
       "專業",
       "4K",
       "色彩管理"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "monitor-acer-ed343cur-j0",
@@ -1745,7 +1781,8 @@
       "21:9",
       "UWQHD",
       "曲面"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "monitor-gigabyte-gs34wqca",
@@ -1793,7 +1830,8 @@
       "21:9",
       "WQHD",
       "曲面"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "monitor-msi-pro-mp341cqw-e12",
@@ -1841,7 +1879,8 @@
       "21:9",
       "UWQHD",
       "文書"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "monitor-aoc-cu34g4",
@@ -1889,7 +1928,8 @@
       "21:9",
       "180Hz",
       "CP 值"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "monitor-acer-ed340cur-x0",
@@ -1937,7 +1977,8 @@
       "21:9",
       "200Hz",
       "電競"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "monitor-asus-xg34wcdms",
@@ -1985,7 +2026,8 @@
       "OLED",
       "280Hz",
       "USB-C"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "monitor-samsung-s34dg852sc",
@@ -2033,7 +2075,8 @@
       "OLED",
       "智慧聯網",
       "21:9"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "monitor-aoc-pd34",
@@ -2081,7 +2124,8 @@
       "QD-OLED",
       "240Hz",
       "設計"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "monitor-samsung-s49fg916e",
@@ -2129,7 +2173,8 @@
       "49吋",
       "32:9",
       "Dual QHD"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "monitor-samsung-s49dg932scxzw",
@@ -2177,7 +2222,8 @@
       "49吋",
       "OLED",
       "32:9"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "monitor-aoc-ag456uczd",
@@ -2225,7 +2271,8 @@
       "45吋",
       "OLED",
       "大螢幕"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "monitor-lg-45gx90sa",
@@ -2273,7 +2320,8 @@
       "45吋",
       "OLED",
       "智慧聯網"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "monitor-samsung-s57cg952nc",
@@ -2321,7 +2369,8 @@
       "57吋",
       "32:9",
       "Mini LED"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "monitor-dell-u3425we",
@@ -2369,7 +2418,8 @@
       "21:9",
       "USB-C",
       "商務"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "monitor-msi-mpg-491cqp",
@@ -2417,7 +2467,8 @@
       "49吋",
       "QD-OLED",
       "Type-C"
-    ]
+    ],
+    "releaseDate": "找不到"
   }
   ]);
 })();

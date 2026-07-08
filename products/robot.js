@@ -47,7 +47,8 @@
       "旗艦",
       "機械手臂",
       "零纏繞"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "robot-roborock-saros-20-aqua",
@@ -91,7 +92,8 @@
       "旗艦",
       "熱水洗拖",
       "越障"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "robot-roborock-saros-20",
@@ -135,7 +137,8 @@
       "旗艦",
       "越障",
       "寵物毛"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "robot-roborock-qrevo-edge-2-pro",
@@ -179,7 +182,8 @@
       "次旗艦",
       "超薄",
       "熱水洗拖"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "robot-roborock-qrevo-curv-2-flow",
@@ -224,7 +228,8 @@
       "次旗艦",
       "滾筒拖地",
       "自動洗烘"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "robot-ecovacs-x11-pro-plumbed",
@@ -268,7 +273,8 @@
       "旗艦",
       "上下水",
       "滾筒洗地"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "robot-ecovacs-x11-pro",
@@ -312,7 +318,8 @@
       "旗艦",
       "滾筒洗地",
       "快速回充"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "robot-ecovacs-t80-omni",
@@ -356,7 +363,8 @@
       "次旗艦",
       "滾筒洗地",
       "貼邊清潔"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "robot-ecovacs-t50-pro",
@@ -400,7 +408,8 @@
       "次旗艦",
       "超薄",
       "沿邊清潔"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "robot-ecovacs-n50",
@@ -444,7 +453,8 @@
       "次旗艦",
       "CP 值",
       "全能基站"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "robot-dreame-x60-master",
@@ -488,7 +498,8 @@
       "旗艦",
       "超薄",
       "AI 辨識"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "robot-dreame-d30-ultra-ce",
@@ -532,7 +543,8 @@
       "次旗艦",
       "全能基站",
       "CP 值"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "robot-narwal-freo-z-ultra",
@@ -576,7 +588,8 @@
       "旗艦",
       "AI 避障",
       "熱水熱烘"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "robot-narwal-flow-2",
@@ -620,7 +633,8 @@
       "旗艦",
       "海外參考",
       "滾筒洗地"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "robot-narwal-freo-z10-ultra",
@@ -664,7 +678,8 @@
       "次旗艦",
       "海外參考",
       "熱水洗拖"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "robot-irobot-max-705",
@@ -708,7 +723,8 @@
       "旗艦",
       "滾筒",
       "Roomba"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "robot-irobot-plus-505",
@@ -752,7 +768,8 @@
       "次旗艦",
       "延邊清潔",
       "Roomba"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "robot-irobot-plus-405",
@@ -796,7 +813,8 @@
       "次旗艦",
       "Roomba",
       "均衡"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "robot-irobot-205-combo",
@@ -840,7 +858,8 @@
       "次旗艦",
       "自動集塵",
       "Roomba"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "robot-eufy-omni-s2",
@@ -884,7 +903,8 @@
       "旗艦",
       "AI 掃拖",
       "自清潔"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "robot-eufy-omni-e25",
@@ -928,7 +948,8 @@
       "次旗艦",
       "活水洗地",
       "零纏繞"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "robot-eufy-omni-c28",
@@ -972,7 +993,8 @@
       "次旗艦",
       "CP 值",
       "自清潔"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "robot-mova-s70-ultra-roller",
@@ -1016,7 +1038,8 @@
       "旗艦",
       "極薄",
       "滾筒洗地"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "robot-mova-s70-roller",
@@ -1060,7 +1083,8 @@
       "次旗艦",
       "極薄",
       "滾筒洗地"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "robot-lg-r5t-ultimate",
@@ -1104,7 +1128,8 @@
       "次旗艦",
       "LG 生態",
       "濕拖"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "robot-lg-r5-proplus",
@@ -1148,7 +1173,8 @@
       "次旗艦",
       "CP 值",
       "濕拖"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "robot-shark-powerdetect-nevertouch-pro",
@@ -1192,7 +1218,8 @@
       "旗艦",
       "海外參考",
       "自動洗烘"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "robot-dyson-spot-scrub-ai",
@@ -1236,7 +1263,8 @@
       "旗艦",
       "海外參考",
       "供貨待確認"
-    ]
+    ],
+    "releaseDate": "找不到"
   }
-]);
+  ]);
 })();

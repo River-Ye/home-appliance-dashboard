@@ -1,4 +1,10 @@
-globalThis.applianceDashboard.registerProducts("waterdispenser", [
+(() => {
+  const dashboard = globalThis.applianceDashboard;
+  if (!dashboard || typeof dashboard.registerProducts !== "function") {
+    throw new Error("appliance dashboard registry is not ready");
+  }
+
+  dashboard.registerProducts("waterdispenser", [
   {
     "id": "waterdispenser-3m-s301",
     "rank": 1,
@@ -48,7 +54,9 @@ globalThis.applianceDashboard.registerProducts("waterdispenser", [
       "廚下",
       "淨水",
       "RO"
-    ]
+    ],
+    "category": "waterdispenser",
+    "releaseDate": "找不到"
   },
   {
     "id": "waterdispenser-3m-hfro-800g",
@@ -97,7 +105,9 @@ globalThis.applianceDashboard.registerProducts("waterdispenser", [
       "櫥下",
       "廚下",
       "淨水"
-    ]
+    ],
+    "category": "waterdispenser",
+    "releaseDate": "找不到"
   },
   {
     "id": "waterdispenser-everpure-purvive-h300nxt",
@@ -147,7 +157,9 @@ globalThis.applianceDashboard.registerProducts("waterdispenser", [
       "廚下",
       "淨水",
       "RO"
-    ]
+    ],
+    "category": "waterdispenser",
+    "releaseDate": "找不到"
   },
   {
     "id": "waterdispenser-coway-p-150n",
@@ -197,7 +209,9 @@ globalThis.applianceDashboard.registerProducts("waterdispenser", [
       "廚下",
       "淨水",
       "RO"
-    ]
+    ],
+    "category": "waterdispenser",
+    "releaseDate": "找不到"
   },
   {
     "id": "waterdispenser-panasonic-tk-cb30",
@@ -247,7 +261,9 @@ globalThis.applianceDashboard.registerProducts("waterdispenser", [
       "廚下",
       "淨水",
       "RO"
-    ]
+    ],
+    "category": "waterdispenser",
+    "releaseDate": "找不到"
   },
   {
     "id": "waterdispenser-bwt-slim-3",
@@ -296,7 +312,9 @@ globalThis.applianceDashboard.registerProducts("waterdispenser", [
       "廚下",
       "淨水",
       "RO"
-    ]
+    ],
+    "category": "waterdispenser",
+    "releaseDate": "找不到"
   },
   {
     "id": "waterdispenser-sakura-p0261-600g",
@@ -344,7 +362,9 @@ globalThis.applianceDashboard.registerProducts("waterdispenser", [
       "廚下",
       "櫥下",
       "淨水"
-    ]
+    ],
+    "category": "waterdispenser",
+    "releaseDate": "找不到"
   },
   {
     "id": "waterdispenser-philips-aut7005",
@@ -392,7 +412,9 @@ globalThis.applianceDashboard.registerProducts("waterdispenser", [
       "櫥下",
       "廚下",
       "淨水"
-    ]
+    ],
+    "category": "waterdispenser",
+    "releaseDate": "找不到"
   },
   {
     "id": "waterdispenser-brita-mypure-gr1000",
@@ -441,7 +463,9 @@ globalThis.applianceDashboard.registerProducts("waterdispenser", [
       "櫥下",
       "廚下",
       "淨水"
-    ]
+    ],
+    "category": "waterdispenser",
+    "releaseDate": "找不到"
   },
   {
     "id": "waterdispenser-bwt-slim-ro-df",
@@ -489,7 +513,9 @@ globalThis.applianceDashboard.registerProducts("waterdispenser", [
       "櫥下",
       "廚下",
       "淨水"
-    ]
+    ],
+    "category": "waterdispenser",
+    "releaseDate": "找不到"
   },
   {
     "id": "waterdispenser-everpure-hs188-4h2",
@@ -538,7 +564,9 @@ globalThis.applianceDashboard.registerProducts("waterdispenser", [
       "廚下",
       "淨水",
       "RO"
-    ]
+    ],
+    "category": "waterdispenser",
+    "releaseDate": "找不到"
   },
   {
     "id": "waterdispenser--uw-2262hw-1",
@@ -587,7 +615,9 @@ globalThis.applianceDashboard.registerProducts("waterdispenser", [
       "櫥下",
       "淨水",
       "RO"
-    ]
+    ],
+    "category": "waterdispenser",
+    "releaseDate": "找不到"
   },
   {
     "id": "waterdispenser--hs-400g",
@@ -635,7 +665,9 @@ globalThis.applianceDashboard.registerProducts("waterdispenser", [
       "櫥下",
       "廚下",
       "淨水"
-    ]
+    ],
+    "category": "waterdispenser",
+    "releaseDate": "找不到"
   },
   {
     "id": "waterdispenser-sakura-p0563",
@@ -683,7 +715,9 @@ globalThis.applianceDashboard.registerProducts("waterdispenser", [
       "櫥下",
       "淨水",
       "RO"
-    ]
+    ],
+    "category": "waterdispenser",
+    "releaseDate": "找不到"
   },
   {
     "id": "waterdispenser-coway-noble-chp-3140n",
@@ -733,7 +767,9 @@ globalThis.applianceDashboard.registerProducts("waterdispenser", [
       "廚下",
       "淨水",
       "RO"
-    ]
+    ],
+    "category": "waterdispenser",
+    "releaseDate": "找不到"
   },
   {
     "id": "waterdispenser-extra-16-dsbe1fa900gsoln",
@@ -777,7 +813,8 @@ globalThis.applianceDashboard.registerProducts("waterdispenser", [
       "櫥下",
       "UV",
       "雙溫"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "waterdispenser-extra-17-dmci2fa900jbnk6",
@@ -821,7 +858,8 @@ globalThis.applianceDashboard.registerProducts("waterdispenser", [
       "RO",
       "瞬熱",
       "聲控"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "waterdispenser-extra-18-dmci0oa900jt66n",
@@ -865,7 +903,8 @@ globalThis.applianceDashboard.registerProducts("waterdispenser", [
       "SAKURA",
       "RO",
       "雙溫"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "waterdispenser-extra-19-dmci19a900iw2pm",
@@ -909,7 +948,8 @@ globalThis.applianceDashboard.registerProducts("waterdispenser", [
       "RO",
       "冷熱",
       "Honeywell"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "waterdispenser-extra-20-dmawb8a900bveog",
@@ -953,6 +993,8 @@ globalThis.applianceDashboard.registerProducts("waterdispenser", [
       "廚下",
       "加熱",
       "BWT"
-    ]
+    ],
+    "releaseDate": "找不到"
   }
-]);
+  ]);
+})();

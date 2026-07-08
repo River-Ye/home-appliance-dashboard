@@ -101,6 +101,7 @@ function productText(product) {
     product.description,
     product.bestFor,
     product.recommendation,
+    product.releaseDate,
     product.specs.join(" "),
     product.tags.join(" "),
   ].join(" ").toLowerCase();
@@ -653,6 +654,10 @@ function cardMarkup(product) {
           <b>電壓 / 保固</b>
           <span>${product.voltage}；${product.warranty}</span>
         </div>
+        <div class="spec-item">
+          <b>上市 / 發售日期</b>
+          <span>${product.releaseDate || "找不到"}</span>
+        </div>
         <div class="tag-row">${product.tags.map((tag) => `<span class="tag">${tag}</span>`).join("")}</div>
         <p class="fineprint">資料來源：${product.buyLabel}，擷取日 2026-07-08。</p>
       </div>
@@ -688,6 +693,7 @@ function renderCompare() {
     ["品牌/型號", (product) => `${product.brand} ${product.model}`],
     ["TWD 價格", (product) => formatTwd(product.price.converted)],
     ["原幣價格", (product) => formatOriginal(product.price)],
+    ["上市/發售", (product) => product.releaseDate || "找不到"],
     ["規格", (product) => product.specs.join(" / ")],
     ["優勢", (product) => product.pros.join(" / ")],
     ["留意", (product) => product.cons.join(" / ")],

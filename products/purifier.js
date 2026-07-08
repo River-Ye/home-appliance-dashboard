@@ -48,7 +48,8 @@
       "CP 值",
       "耗材",
       "小中坪數"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "ap-blueair-3450i",
@@ -92,7 +93,8 @@
       "大坪數",
       "低噪",
       "Wi-Fi"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "ap-dyson-tp11",
@@ -136,7 +138,8 @@
       "二合一",
       "無葉片",
       "設計"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "ap-philips-ac2936",
@@ -180,7 +183,8 @@
       "中坪數",
       "360 度",
       "安全牌"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "ap-coway-noble",
@@ -224,7 +228,8 @@
       "大坪數",
       "美型",
       "旗艦"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "purifier-extra-6-dmaue4-a900ijcap",
@@ -268,7 +273,8 @@
       "大坪數",
       "Blueair",
       "高階"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "purifier-extra-7-dmaue4-a900j9knk",
@@ -312,7 +318,8 @@
       "大坪數",
       "Blueair",
       "設計"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "purifier-extra-8-dmaue4-a900i7dj1",
@@ -356,7 +363,8 @@
       "小坪數",
       "WiFi",
       "CP 值"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "purifier-extra-9-dmaue4-a900i7dn1",
@@ -400,7 +408,8 @@
       "中坪數",
       "WiFi",
       "均衡"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "purifier-extra-10-dmaue4-a900j40ne",
@@ -444,7 +453,8 @@
       "涼暖",
       "三合一",
       "臥室"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "purifier-extra-11-dmau1f-a900ijca6",
@@ -488,7 +498,8 @@
       "Blueair",
       "中大坪數",
       "高效"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "purifier-extra-12-dmau3c-a900i7ork",
@@ -532,7 +543,8 @@
       "涼暖",
       "偵測",
       "旗艦"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "purifier-extra-13-dmau3c-a900j2mv6",
@@ -576,7 +588,8 @@
       "涼暖",
       "Dyson",
       "均衡"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "purifier-extra-14-dmau3c-a900htkrg",
@@ -620,7 +633,8 @@
       "涼風",
       "偵測",
       "客廳"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "purifier-extra-15-dmac2o-a900gd1zv",
@@ -664,7 +678,8 @@
       "小坪數",
       "低價",
       "簡約"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "purifier-extra-16-dmau5ea900jyg1w",
@@ -708,7 +723,8 @@
       "POIEMA",
       "無耗材",
       "寵物"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "purifier-extra-17-dmau5ea900jyg87",
@@ -752,7 +768,8 @@
       "POIEMA",
       "Lite",
       "無耗材"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "purifier-extra-18-dmau6ta900ivwe0",
@@ -796,7 +813,8 @@
       "10坪",
       "中價位",
       "SHARP"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "purifier-extra-19-dmac2oa900j7sbo",
@@ -840,7 +858,8 @@
       "寵物",
       "抗敏",
       "Philips"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "purifier-extra-20-dmbm0ka900id5xp",
@@ -884,7 +903,8 @@
       "LG",
       "PuriCare",
       "中坪數"
-    ]
+    ],
+    "releaseDate": "找不到"
   }
-]);
+  ]);
 })();

@@ -48,7 +48,8 @@
       "綜合推薦",
       "指紋",
       "含安裝"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "smartlock-yale-ymf30a",
@@ -92,7 +93,8 @@
       "Yale",
       "中階",
       "含安裝"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "smartlock-yale-byyou-pro-apple",
@@ -136,7 +138,8 @@
       "Apple",
       "Yale",
       "指紋"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "smartlock-yale-luna-pro-plus",
@@ -180,7 +183,8 @@
       "人臉",
       "高階",
       "Yale"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "smartlock-yale-ydm7216a",
@@ -224,7 +228,8 @@
       "五合一",
       "Yale",
       "均衡"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "smartlock-yale-ydr343a",
@@ -268,7 +273,8 @@
       "輔助鎖",
       "低預算",
       "Yale"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "smartlock-philips-7300",
@@ -312,7 +318,8 @@
       "Philips",
       "指紋",
       "五合一"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "smartlock-philips-ddl610",
@@ -356,7 +363,8 @@
       "Philips",
       "防潑水",
       "五合一"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "smartlock-philips-alpha-vp",
@@ -400,7 +408,8 @@
       "貓眼",
       "推拉式",
       "Philips"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "smartlock-philips-702fvp",
@@ -444,7 +453,8 @@
       "人臉",
       "貓眼",
       "旗艦"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "smartlock-philips-709fvp",
@@ -488,7 +498,8 @@
       "七合一",
       "人臉",
       "高階"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "smartlock-philips-ddl801",
@@ -532,7 +543,8 @@
       "推拉式",
       "Philips",
       "Wi-Fi"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "smartlock-kaadas-q3",
@@ -576,7 +588,8 @@
       "CP 值",
       "推拉式",
       "指紋"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "smartlock-kaadas-q9-fvp",
@@ -620,7 +633,8 @@
       "人臉",
       "指靜脈",
       "高 CP"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "smartlock-kaadas-m7w",
@@ -664,7 +678,8 @@
       "低價",
       "指紋",
       "Wi-Fi"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "smartlock-aqara-a100",
@@ -708,7 +723,8 @@
       "智慧家庭",
       "Aqara",
       "指紋"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "smartlock-aqara-d200i",
@@ -752,7 +768,8 @@
       "Aqara",
       "高階",
       "智慧家庭"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "smartlock-lockin-x9",
@@ -796,7 +813,8 @@
       "鹿客",
       "指紋",
       "中價位"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "smartlock-lockin-halo",
@@ -840,7 +858,8 @@
       "人臉",
       "指靜脈",
       "高階"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "smartlock-zigbang-shp-p52",
@@ -884,7 +903,8 @@
       "SHP",
       "推拉式",
       "APP"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "smartlock-dormakaba-rl360",
@@ -928,7 +948,8 @@
       "輔助鎖",
       "dormakaba",
       "低預算"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "smartlock-dormakaba-ml660",
@@ -972,7 +993,8 @@
       "dormakaba",
       "指紋",
       "四合一"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "smartlock-dormakaba-ml770",
@@ -1016,7 +1038,8 @@
       "dormakaba",
       "四合一",
       "含安裝"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "smartlock-dormakaba-fa9000",
@@ -1060,7 +1083,8 @@
       "人臉",
       "dormakaba",
       "旗艦"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "smartlock-milre-mdl510f",
@@ -1104,7 +1128,8 @@
       "輔助鎖",
       "低價",
       "指紋"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "smartlock-milre-mi6450",
@@ -1148,7 +1173,8 @@
       "Milre",
       "三合一",
       "含安裝"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "smartlock-milre-mi7150",
@@ -1192,7 +1218,8 @@
       "Milre",
       "四合一",
       "指紋"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "smartlock-fibre-fb63m",
@@ -1236,7 +1263,8 @@
       "窄框",
       "FIBRE",
       "特殊門型"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "smartlock-fibre-fb70x",
@@ -1280,7 +1308,8 @@
       "FIBRE",
       "APP",
       "抗菌"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "smartlock-fibre-fb90",
@@ -1324,7 +1353,8 @@
       "掌靜脈",
       "貓眼",
       "旗艦"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "smartlock-hitachi-fh10t",
@@ -1368,7 +1398,8 @@
       "人臉",
       "掌靜脈",
       "HITACHI"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "smartlock-hitachi-fv70t",
@@ -1412,7 +1443,8 @@
       "人臉",
       "全自動",
       "HITACHI"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "smartlock-hitachi-fy10t",
@@ -1456,7 +1488,8 @@
       "貓眼",
       "夜視",
       "旗艦"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "smartlock-lockly-latch-plus",
@@ -1500,7 +1533,8 @@
       "Lockly",
       "指紋",
       "美系"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "smartlock-waferlock-d310",
@@ -1544,7 +1578,8 @@
       "台灣品牌",
       "輔助鎖",
       "指紋"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "smartlock-sharp-tiko-one",
@@ -1588,7 +1623,8 @@
       "SHARP",
       "指紋",
       "公司貨"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "smartlock-panasonic-g11",
@@ -1632,7 +1668,8 @@
       "Panasonic",
       "低價",
       "指紋"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "smartlock-hyundai-hdl1100s",
@@ -1676,7 +1713,8 @@
       "低價",
       "輔助鎖",
       "密碼"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "smartlock-3e-z",
@@ -1720,7 +1758,8 @@
       "低價",
       "3E",
       "入門"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "smartlock-3e-t9-plus",
@@ -1764,7 +1803,8 @@
       "掌靜脈",
       "九合一",
       "高階"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "smartlock-3e-tk",
@@ -1808,7 +1848,8 @@
       "人臉",
       "掌靜脈",
       "九合一"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "smartlock-moorgen-t12",
@@ -1852,7 +1893,8 @@
       "APP",
       "五合一",
       "中價位"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "smartlock-kingnet-djs-sk07",
@@ -1896,7 +1938,8 @@
       "全自動",
       "門禁",
       "中價位"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "smartlock-arpha-z2",
@@ -1940,7 +1983,8 @@
       "指靜脈",
       "貓眼",
       "高階"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "smartlock-chatlock-a50",
@@ -1984,7 +2028,8 @@
       "日本製",
       "12合1",
       "高階"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "smartlock-chatlock-a90",
@@ -2028,7 +2073,8 @@
       "日本製",
       "13合1",
       "旗艦"
-    ]
+    ],
+    "releaseDate": "找不到"
   }
-]);
+  ]);
 })();

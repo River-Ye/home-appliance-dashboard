@@ -48,7 +48,8 @@
       "輕量",
       "顯塵",
       "乾吸"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "vac-lg-a9x",
@@ -92,7 +93,8 @@
       "自動集塵",
       "除蟎",
       "乾吸"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "vac-lg-a9k",
@@ -136,7 +138,8 @@
       "CP 值",
       "寵物",
       "濕拖"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "vac-tineco-s7",
@@ -180,7 +183,8 @@
       "洗地",
       "熱水洗",
       "寵物"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "vac-dyson-submarine",
@@ -224,7 +228,8 @@
       "乾濕",
       "顯塵",
       "旗艦"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "vacuum-extra-6-dmax00-1900i2dsh",
@@ -268,7 +273,8 @@
       "Dyson",
       "輕量",
       "無線"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "vacuum-extra-7-dmax00-1900jra9w",
@@ -312,7 +318,8 @@
       "洗地",
       "Dyson",
       "寵物"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "vacuum-extra-8-dmax00-a900hc7b6",
@@ -356,7 +363,8 @@
       "顯塵",
       "Dyson",
       "高吸力"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "vacuum-extra-9-dmax00-a900hc5bz",
@@ -400,7 +408,8 @@
       "除螨",
       "手持",
       "CP 值"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "vacuum-extra-10-dmax8k-a900hlxaq",
@@ -444,7 +453,8 @@
       "自動集塵",
       "蒸氣",
       "LG"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "vacuum-extra-11-dmbm2z-a900iukmi",
@@ -488,7 +498,8 @@
       "LG",
       "輕量",
       "低價"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "vacuum-extra-12-dmax6f-a900k2nsv",
@@ -532,7 +543,8 @@
       "LG",
       "輕量",
       "均衡"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "vacuum-extra-13-dsbe1a-a900jj4lu",
@@ -576,7 +588,8 @@
       "輕量",
       "低價",
       "小宅"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "vacuum-extra-14-dsbe1a-a900j8h81",
@@ -620,7 +633,8 @@
       "低價",
       "手持",
       "設計"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "vacuum-extra-15-dsbe1a-a900ha30v",
@@ -664,7 +678,8 @@
       "HERAN",
       "低價",
       "家用"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "vacuum-extra-16-dmaxb5a900jp6tz",
@@ -708,7 +723,8 @@
       "洗地機",
       "蒸氣",
       "旗艦"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "vacuum-extra-17-dmax00a900jpj7h",
@@ -752,7 +768,8 @@
       "Dyson",
       "輕量",
       "筆型"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "vacuum-extra-18-dmaxb5a900jcn6g",
@@ -796,7 +813,8 @@
       "洗地機",
       "AI",
       "平躺"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "vacuum-extra-19-dmax0za900higmz",
@@ -840,7 +858,8 @@
       "自動集塵",
       "Panasonic",
       "無線"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "vacuum-extra-20-dmax0za900k4iqz",
@@ -884,7 +903,8 @@
       "微塵感知",
       "無線",
       "Panasonic"
-    ]
+    ],
+    "releaseDate": "找不到"
   }
-]);
+  ]);
 })();

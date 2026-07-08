@@ -1,4 +1,10 @@
-globalThis.applianceDashboard.registerProducts("dishwasher", [
+(() => {
+  const dashboard = globalThis.applianceDashboard;
+  if (!dashboard || typeof dashboard.registerProducts !== "function") {
+    throw new Error("appliance dashboard registry is not ready");
+  }
+
+  dashboard.registerProducts("dishwasher", [
   {
     "id": "dishwasher-panasonic-np-k1ywhr2tw",
     "rank": 1,
@@ -45,7 +51,9 @@ globalThis.applianceDashboard.registerProducts("dishwasher", [
       "洗碗機",
       "廚房",
       "安裝"
-    ]
+    ],
+    "category": "dishwasher",
+    "releaseDate": "找不到"
   },
   {
     "id": "dishwasher-teco-xyfyw-5001cbw",
@@ -93,7 +101,9 @@ globalThis.applianceDashboard.registerProducts("dishwasher", [
       "洗碗機",
       "廚房",
       "安裝"
-    ]
+    ],
+    "category": "dishwasher",
+    "releaseDate": "找不到"
   },
   {
     "id": "dishwasher-toshiba-dws-34btw",
@@ -141,7 +151,9 @@ globalThis.applianceDashboard.registerProducts("dishwasher", [
       "洗碗機",
       "廚房",
       "安裝"
-    ]
+    ],
+    "category": "dishwasher",
+    "releaseDate": "找不到"
   },
   {
     "id": "dishwasher-toshiba-dw-05t1-tw",
@@ -189,7 +201,9 @@ globalThis.applianceDashboard.registerProducts("dishwasher", [
       "洗碗機",
       "廚房",
       "安裝"
-    ]
+    ],
+    "category": "dishwasher",
+    "releaseDate": "找不到"
   },
   {
     "id": "dishwasher-bosch-sms2iti06x",
@@ -237,7 +251,9 @@ globalThis.applianceDashboard.registerProducts("dishwasher", [
       "洗碗機",
       "廚房",
       "安裝"
-    ]
+    ],
+    "category": "dishwasher",
+    "releaseDate": "找不到"
   },
   {
     "id": "dishwasher-electrolux-eff3360vwb",
@@ -285,7 +301,9 @@ globalThis.applianceDashboard.registerProducts("dishwasher", [
       "洗碗機",
       "廚房",
       "安裝"
-    ]
+    ],
+    "category": "dishwasher",
+    "releaseDate": "找不到"
   },
   {
     "id": "dishwasher-lg-dfb533fw",
@@ -334,7 +352,9 @@ globalThis.applianceDashboard.registerProducts("dishwasher", [
       "洗碗機",
       "廚房",
       "安裝"
-    ]
+    ],
+    "category": "dishwasher",
+    "releaseDate": "找不到"
   },
   {
     "id": "dishwasher-whirlpool-wdfs2r4pwetw",
@@ -382,7 +402,9 @@ globalThis.applianceDashboard.registerProducts("dishwasher", [
       "洗碗機",
       "廚房",
       "安裝"
-    ]
+    ],
+    "category": "dishwasher",
+    "releaseDate": "找不到"
   },
   {
     "id": "dishwasher-haier-h500",
@@ -430,7 +452,9 @@ globalThis.applianceDashboard.registerProducts("dishwasher", [
       "洗碗機",
       "廚房",
       "安裝"
-    ]
+    ],
+    "category": "dishwasher",
+    "releaseDate": "找不到"
   },
   {
     "id": "dishwasher-sakura-e-7682",
@@ -479,7 +503,9 @@ globalThis.applianceDashboard.registerProducts("dishwasher", [
       "洗碗機",
       "廚房",
       "安裝"
-    ]
+    ],
+    "category": "dishwasher",
+    "releaseDate": "找不到"
   },
   {
     "id": "dishwasher-bosch-sju4ekw00w",
@@ -527,7 +553,9 @@ globalThis.applianceDashboard.registerProducts("dishwasher", [
       "洗碗機",
       "廚房",
       "安裝"
-    ]
+    ],
+    "category": "dishwasher",
+    "releaseDate": "找不到"
   },
   {
     "id": "dishwasher-fisher-paykel-dd60shi9",
@@ -576,7 +604,9 @@ globalThis.applianceDashboard.registerProducts("dishwasher", [
       "洗碗機",
       "廚房",
       "安裝"
-    ]
+    ],
+    "category": "dishwasher",
+    "releaseDate": "找不到"
   },
   {
     "id": "dishwasher-lg-dfb335hs",
@@ -625,7 +655,9 @@ globalThis.applianceDashboard.registerProducts("dishwasher", [
       "洗碗機",
       "廚房",
       "安裝"
-    ]
+    ],
+    "category": "dishwasher",
+    "releaseDate": "找不到"
   },
   {
     "id": "dishwasher-asko-dbi544id-w-tw",
@@ -673,7 +705,9 @@ globalThis.applianceDashboard.registerProducts("dishwasher", [
       "洗碗機",
       "廚房",
       "安裝"
-    ]
+    ],
+    "category": "dishwasher",
+    "releaseDate": "找不到"
   },
   {
     "id": "dishwasher-miele-g5314-c-sci",
@@ -722,7 +756,9 @@ globalThis.applianceDashboard.registerProducts("dishwasher", [
       "洗碗機",
       "廚房",
       "安裝"
-    ]
+    ],
+    "category": "dishwasher",
+    "releaseDate": "找不到"
   },
   {
     "id": "dishwasher-extra-16-dmbr0pa900jbv02",
@@ -766,7 +802,8 @@ globalThis.applianceDashboard.registerProducts("dishwasher", [
       "桌上型",
       "小家庭",
       "預算"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "dishwasher-extra-17-dmbr17a900ihtz3",
@@ -810,7 +847,8 @@ globalThis.applianceDashboard.registerProducts("dishwasher", [
       "免安裝",
       "6 人份",
       "桌上型"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "dishwasher-extra-18-dmbr25a900j5bgp",
@@ -854,7 +892,8 @@ globalThis.applianceDashboard.registerProducts("dishwasher", [
       "桌上型",
       "Acerpure",
       "小家庭"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "dishwasher-extra-19-dmbr0pa900iamac",
@@ -898,7 +937,8 @@ globalThis.applianceDashboard.registerProducts("dishwasher", [
       "6-8 人份",
       "桌上型",
       "CP 值"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "dishwasher-extra-20-dmbr24a900jfsr7",
@@ -942,6 +982,8 @@ globalThis.applianceDashboard.registerProducts("dishwasher", [
       "桌上型",
       "小米",
       "預算"
-    ]
+    ],
+    "releaseDate": "找不到"
   }
-]);
+  ]);
+})();

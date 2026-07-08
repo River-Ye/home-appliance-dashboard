@@ -48,7 +48,8 @@
       "DC",
       "靜音",
       "溫控"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "fan-sharp-pv16",
@@ -92,7 +93,8 @@
       "DC",
       "除菌離子",
       "中價位"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "fan-dyson-am12",
@@ -136,7 +138,8 @@
       "無葉片",
       "設計",
       "安全"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "fan-heran-hdf16",
@@ -180,7 +183,8 @@
       "CP 值",
       "DC",
       "租屋"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "fan-nwt-wpf16",
@@ -224,7 +228,8 @@
       "低價",
       "DC",
       "備用"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "fan-extra-6-dmablm-a900eorov",
@@ -268,7 +273,8 @@
       "DC",
       "16 吋",
       "CP 值"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "fan-extra-7-dmablm-a900eoq12",
@@ -312,7 +318,8 @@
       "DC",
       "負離子",
       "臥室"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "fan-extra-8-dmablm-a900eorp0",
@@ -356,7 +363,8 @@
       "DC",
       "高階",
       "臥室"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "fan-extra-9-dmab1f-a900b4sp0",
@@ -400,7 +408,8 @@
       "DC",
       "低價",
       "租屋"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "fan-extra-10-dmab30-a900eoq5x",
@@ -444,7 +453,8 @@
       "DC",
       "溫控",
       "客廳"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "fan-extra-11-dmab1f-a900jxknn",
@@ -488,7 +498,8 @@
       "DC",
       "溫控",
       "CP 值"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "fan-extra-12-dmab1f-a900jx6mj",
@@ -532,7 +543,8 @@
       "小空間",
       "DC",
       "臥室"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "fan-extra-13-dmabpe-a900jzz0q",
@@ -576,7 +588,8 @@
       "SHARP",
       "DC",
       "客廳"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "fan-extra-14-dmabpm-a900k2j9e",
@@ -620,7 +633,8 @@
       "SHARP",
       "低價",
       "小空間"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "fan-extra-15-dmabpm-a900j334p",
@@ -664,7 +678,8 @@
       "SHARP",
       "低價",
       "遙控"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "fan-extra-16-dmacaka900g4vtv",
@@ -708,7 +723,8 @@
       "Philips",
       "美型",
       "預算"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "fan-extra-17-dmab2za900exoh3",
@@ -752,7 +768,8 @@
       "Philips",
       "DC",
       "循環"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "fan-extra-18-dmacbua900iudv9",
@@ -796,7 +813,8 @@
       "Philips",
       "DC",
       "冷氣搭配"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "fan-extra-19-dmacaka900g0bb4",
@@ -840,7 +858,8 @@
       "Philips",
       "塔扇",
       "省空間"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "fan-extra-20-dmab6za900flc55",
@@ -884,7 +903,8 @@
       "Philips",
       "無葉片",
       "冷暖"
-    ]
+    ],
+    "releaseDate": "找不到"
   }
-]);
+  ]);
 })();

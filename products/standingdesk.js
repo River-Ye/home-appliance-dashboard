@@ -50,7 +50,8 @@
       "CP 值",
       "記憶高度",
       "小宅"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "standingdesk-irocks-d01-120",
@@ -96,7 +97,8 @@
       "台灣品牌",
       "120x80",
       "雙螢幕"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "standingdesk-irocks-d01-150",
@@ -142,7 +144,8 @@
       "150x80",
       "工作站",
       "台灣品牌"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "standingdesk-irocks-d01-160",
@@ -188,7 +191,8 @@
       "160x80",
       "大型桌面",
       "雙螢幕"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "standingdesk-irocks-d01-180",
@@ -234,7 +238,8 @@
       "180x80",
       "大型工作台",
       "創作者"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "standingdesk-logis-kg11",
@@ -280,7 +285,8 @@
       "入門",
       "低價",
       "辦公桌"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "standingdesk-nitori-up002",
@@ -326,7 +332,8 @@
       "NITORI",
       "白色",
       "小空間"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "standingdesk-nitori-up006-1260",
@@ -372,7 +379,8 @@
       "NITORI",
       "126cm",
       "白色"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "standingdesk-nitori-up006-1460",
@@ -418,7 +426,8 @@
       "146cm",
       "NITORI",
       "大桌面"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "standingdesk-cougar-royal-mossa",
@@ -464,7 +473,8 @@
       "電競",
       "150cm",
       "白色"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "standingdesk-cougar-e-ares",
@@ -510,7 +520,8 @@
       "RGB",
       "電競",
       "120cm"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "standingdesk-cougar-e-grav",
@@ -556,7 +567,8 @@
       "雙馬達",
       "160cm",
       "電競"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "standingdesk-apexgaming-lumi-white",
@@ -602,7 +614,8 @@
       "玻璃桌面",
       "白色",
       "桌搭"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "standingdesk-apexgaming-lumi",
@@ -648,7 +661,8 @@
       "玻璃桌面",
       "電競",
       "桌搭"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "standingdesk-cougar-e-grav-180",
@@ -694,7 +708,8 @@
       "雙馬達",
       "180cm",
       "電競"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "standingdesk-extra-16-dsbc8ra900huota",
@@ -739,7 +754,8 @@
       "120x60",
       "記憶高度",
       "CP 值"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "standingdesk-extra-17-debhcta900bw2x6",
@@ -784,7 +800,8 @@
       "居家辦公",
       "電動",
       "預算"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "standingdesk-extra-18-dsbc1ta900ht0du",
@@ -829,7 +846,8 @@
       "Loctek",
       "120x60",
       "記憶高度"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "standingdesk-extra-19-dcbb6oa900hsvt2",
@@ -874,7 +892,8 @@
       "140cm",
       "電競",
       "多螢幕"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "standingdesk-extra-20-dcbb6oa900frsk6",
@@ -919,7 +938,8 @@
       "USB",
       "120cm",
       "記憶高度"
-    ]
+    ],
+    "releaseDate": "找不到"
   }
   ]);
 })();

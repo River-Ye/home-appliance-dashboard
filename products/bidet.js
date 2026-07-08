@@ -48,7 +48,8 @@
       "WASHLET",
       "中階",
       "安心牌"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "bidet-toto-c2",
@@ -92,7 +93,8 @@
       "入門",
       "WASHLET",
       "CP 值"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "bidet-panasonic-pstk09",
@@ -136,7 +138,8 @@
       "瞬熱",
       "節能",
       "CP 值"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "bidet-kohler-c3430",
@@ -180,7 +183,8 @@
       "UV",
       "衛浴品牌",
       "瞬熱"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "bidet-hcg-af890",
@@ -224,7 +228,8 @@
       "本地品牌",
       "低價",
       "需安裝"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "bidet-extra-6-dmal6w-a900jnqf2",
@@ -268,7 +273,8 @@
       "TOTO",
       "除菌",
       "高階"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "bidet-extra-7-dmal6i-a900jewps",
@@ -312,7 +318,8 @@
       "TOTO",
       "藏線",
       "均衡"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "bidet-extra-8-dmal6w-a900jvx5o",
@@ -356,7 +363,8 @@
       "TOTO",
       "除臭",
       "遙控"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "bidet-extra-9-dmal6w-a900jw0lw",
@@ -400,7 +408,8 @@
       "TOTO",
       "標準",
       "CP 值"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "bidet-extra-10-dmal6i-a900jekad",
@@ -444,7 +453,8 @@
       "TOTO",
       "旗艦",
       "除菌"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "bidet-extra-11-dmal6w-a900jvwi8",
@@ -488,7 +498,8 @@
       "TOTO",
       "暖風",
       "除臭"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "bidet-extra-12-dmal8l-a900gh6f4",
@@ -532,7 +543,8 @@
       "Panasonic",
       "低價",
       "安裝"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "bidet-extra-13-dmal6w-a900i0l73",
@@ -576,7 +588,8 @@
       "Panasonic",
       "瞬熱",
       "設計"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "bidet-extra-14-dmal6w-a900jeeze",
@@ -620,7 +633,8 @@
       "Panasonic",
       "瞬熱",
       "均衡"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "bidet-extra-15-dmale4-a900fw2kj",
@@ -664,7 +678,8 @@
       "KOHLER",
       "瞬熱",
       "衛浴品牌"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "bidet-extra-16-dmbm0ma900g29jm",
@@ -708,7 +723,8 @@
       "儲熱式",
       "CP 值",
       "免治"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "bidet-extra-17-dmal6wa900iz8tm",
@@ -752,7 +768,8 @@
       "遙控",
       "免治",
       "中價位"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "bidet-extra-18-dmalcca900j0ybz",
@@ -796,7 +813,8 @@
       "台灣售後",
       "儲熱式",
       "免治"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "bidet-extra-19-dmal6wa900iz94o",
@@ -840,7 +858,8 @@
       "按鍵",
       "免治",
       "預算"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "bidet-extra-20-dmal6wa900iz8yl",
@@ -884,7 +903,8 @@
       "遙控",
       "免治",
       "中價位"
-    ]
+    ],
+    "releaseDate": "找不到"
   }
-]);
+  ]);
 })();

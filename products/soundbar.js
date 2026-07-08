@@ -48,7 +48,8 @@
       "Atmos",
       "後環繞",
       "旗艦"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "soundbar-samsung-q800h",
@@ -92,7 +93,8 @@
       "Atmos",
       "均衡",
       "後環繞"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "soundbar-sony-b600",
@@ -136,7 +138,8 @@
       "CP 值",
       "重低音",
       "對白"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "soundbar-sonos-arc-ultra",
@@ -180,7 +183,8 @@
       "單件式",
       "音樂",
       "Wi-Fi"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "soundbar-jbl-500mk2",
@@ -224,7 +228,8 @@
       "低頻",
       "電影",
       "中價位"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "soundbar-extra-6-dmaaod-a900k3qsm",
@@ -268,7 +273,8 @@
       "Atmos",
       "環繞",
       "旗艦"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "soundbar-extra-7-dmaaod-a900jmdr4",
@@ -312,7 +318,8 @@
       "Atmos",
       "中階",
       "電視搭配"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "soundbar-extra-8-dmbm1d-a900j5jaz",
@@ -356,7 +363,8 @@
       "LG",
       "環繞",
       "均衡"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "soundbar-extra-9-dpado2-a900k5vut",
@@ -400,7 +408,8 @@
       "Atmos",
       "旗艦",
       "劇院"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "soundbar-extra-10-dmaaod-a900k5489",
@@ -444,7 +453,8 @@
       "Atmos",
       "客廳",
       "均衡"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "soundbar-extra-11-dmbm1d-a900ghtfe",
@@ -488,7 +498,8 @@
       "CP 值",
       "入門劇院",
       "Sony"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "soundbar-extra-12-dmaamt-a900i5hho",
@@ -532,7 +543,8 @@
       "小空間",
       "入門",
       "簡潔"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "soundbar-extra-13-dmaahg-a900jcy2v",
@@ -576,7 +588,8 @@
       "JBL",
       "小客廳",
       "均衡"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "soundbar-extra-14-dmaahg-a900j56ok",
@@ -620,7 +633,8 @@
       "JBL",
       "後環繞",
       "客廳"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "soundbar-extra-15-dmaanj-a900hzbzv",
@@ -664,7 +678,8 @@
       "Bose",
       "音樂",
       "簡潔"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "soundbar-extra-16-dmaalna900hp6mr",
@@ -708,7 +723,8 @@
       "入門",
       "藍牙",
       "Philips"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "soundbar-extra-17-dmbm1da900hpuxn",
@@ -752,7 +768,8 @@
       "Atmos",
       "Sony",
       "高階"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "soundbar-extra-18-dmbm1da900iuzuj",
@@ -796,7 +813,8 @@
       "旗艦",
       "Atmos",
       "Sony"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "soundbar-extra-19-dmaahga900j5777",
@@ -840,7 +858,8 @@
       "7.1.4",
       "可拆環繞",
       "重低音"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "soundbar-extra-20-dmaf02a900h2g5r",
@@ -884,7 +903,8 @@
       "Fidelio",
       "Atmos",
       "旗艦"
-    ]
+    ],
+    "releaseDate": "找不到"
   }
-]);
+  ]);
 })();

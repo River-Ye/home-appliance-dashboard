@@ -51,7 +51,8 @@
       "57吋",
       "30kg",
       "大螢幕"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "monitorarm-raymii-ls104m1",
@@ -98,7 +99,8 @@
       "57吋",
       "27kg",
       "大螢幕"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "monitorarm-raymii-halo-max2-1m",
@@ -145,7 +147,8 @@
       "57吋",
       "27kg",
       "CP 值"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "monitorarm-happytech-t101-12u",
@@ -192,7 +195,8 @@
       "57吋",
       "27kg",
       "大螢幕"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "monitorarm-raymii-ls129m1",
@@ -239,7 +243,8 @@
       "57吋",
       "27kg",
       "電競"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "monitorarm-raymii-ls118m1",
@@ -286,7 +291,8 @@
       "49吋",
       "20kg",
       "大螢幕"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "monitorarm-raymii-ls114s1",
@@ -333,7 +339,8 @@
       "49吋",
       "20kg",
       "低價"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "monitorarm-raymii-ls114exm1",
@@ -380,7 +387,8 @@
       "49吋",
       "20kg",
       "加高"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "monitorarm-happytech-tc92-10",
@@ -427,7 +435,8 @@
       "49吋",
       "20kg",
       "中柱"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "monitorarm-tdgb-t95-gamw",
@@ -474,7 +483,8 @@
       "49吋",
       "20kg",
       "電競"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "monitorarm-loctek-d7h",
@@ -521,7 +531,8 @@
       "15kg",
       "Loctek",
       "人體工學"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "monitorarm-ergotron-lx-pro",
@@ -568,7 +579,8 @@
       "Ergotron",
       "高質感",
       "一般螢幕"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "monitorarm-j5create-jtsa101",
@@ -615,7 +627,8 @@
       "32吋",
       "8kg",
       "一般螢幕"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "monitorarm-j5create-jtsa102",
@@ -662,7 +675,8 @@
       "雙螢幕",
       "8kg",
       "一般螢幕"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "monitorarm-loctek-d5s",
@@ -709,7 +723,8 @@
       "32吋",
       "9kg",
       "低價"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "monitorarm-extra-16-dcagu1a900i6wcy",
@@ -753,7 +768,8 @@
       "45吋",
       "20kg",
       "大螢幕"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "monitorarm-extra-17-dcagu1a900ix2md",
@@ -797,7 +813,8 @@
       "雙臂",
       "20kg",
       "雙螢幕"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "monitorarm-extra-18-dsabn2a900ginee",
@@ -841,7 +858,8 @@
       "加長桿",
       "氣壓式",
       "台灣製"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "monitorarm-extra-19-dcbb62a900fv397",
@@ -885,7 +903,8 @@
       "三螢幕",
       "快拆",
       "穿夾兩用"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "monitorarm-extra-20-dcbakfa900hafjo",
@@ -929,7 +948,8 @@
       "35吋",
       "10kg",
       "預算"
-    ]
+    ],
+    "releaseDate": "找不到"
   }
-]);
+  ]);
 })();

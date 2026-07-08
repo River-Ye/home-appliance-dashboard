@@ -48,7 +48,8 @@
       "多合一",
       "蒸烤",
       "變頻"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "oven-whirlpool-mwp269",
@@ -92,7 +93,8 @@
       "氣炸",
       "多合一",
       "變頻"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "oven-panasonic-bs807",
@@ -136,7 +138,8 @@
       "30L",
       "蒸烤",
       "主力機"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "oven-sharp-xp10",
@@ -180,7 +183,8 @@
       "水波爐",
       "蒸氣",
       "健康料理"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "oven-breville-joule",
@@ -224,7 +228,8 @@
       "海外",
       "氣炸",
       "智慧"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "oven-extra-6-dmbj02-a900i9lq2",
@@ -268,7 +273,8 @@
       "多合一",
       "CP 值",
       "小家庭"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "oven-extra-7-dmbj6g-a900j947g",
@@ -312,7 +318,8 @@
       "Cuisinart",
       "多合一",
       "CP 值"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "oven-extra-8-dmbj7p-1900hci3e",
@@ -356,7 +363,8 @@
       "Panasonic",
       "蒸烤",
       "旗艦"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "oven-extra-9-dmbj03-a900iyx0l",
@@ -400,7 +408,8 @@
       "Whirlpool",
       "32L",
       "多合一"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "oven-extra-10-dmbm0g-a900hf91a",
@@ -444,7 +453,8 @@
       "Cuisinart",
       "氣炸",
       "蒸氣"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "oven-extra-11-dmbj6q-a900eo5dh",
@@ -488,7 +498,8 @@
       "Whirlpool",
       "蒸烤",
       "小家庭"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "oven-extra-12-dmbm0g-a900g41cw",
@@ -532,7 +543,8 @@
       "SHARP",
       "水波爐",
       "旗艦"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "oven-extra-13-dmbj7p-1900hcm99",
@@ -576,7 +588,8 @@
       "Panasonic",
       "蒸氣",
       "省空間"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "oven-extra-14-dmbj0r-a900jt4zv",
@@ -620,7 +633,8 @@
       "SHARP",
       "31L",
       "均衡"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "oven-extra-15-dmbj6q-a900eo9m8",
@@ -664,7 +678,8 @@
       "Whirlpool",
       "32L",
       "蒸烤"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "oven-extra-16-dmbj8ja900h3u40",
@@ -708,7 +723,8 @@
       "蒸烘烤",
       "大容量",
       "變頻"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "oven-extra-17-dmbj0fa900aex9t",
@@ -752,7 +768,8 @@
       "水蒸氣",
       "日系",
       "22L"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "oven-extra-18-dmbm1pa900garya",
@@ -796,7 +813,8 @@
       "水波爐",
       "高階",
       "日系"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "oven-extra-19-dmbj5pa900gn8pm",
@@ -840,7 +858,8 @@
       "旗艦",
       "水波爐",
       "多合一"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "oven-extra-20-dmbm0ga900h5125",
@@ -884,7 +903,8 @@
       "蒸烘烤",
       "變頻",
       "家電櫃"
-    ]
+    ],
+    "releaseDate": "找不到"
   }
-]);
+  ]);
 })();

@@ -1,4 +1,10 @@
-globalThis.applianceDashboard.registerProducts("cookware", [
+(() => {
+  const dashboard = globalThis.applianceDashboard;
+  if (!dashboard || typeof dashboard.registerProducts !== "function") {
+    throw new Error("appliance dashboard registry is not ready");
+  }
+
+  dashboard.registerProducts("cookware", [
   {
     "id": "cookware-tefal-daisy-28cm-ih",
     "rank": 1,
@@ -46,7 +52,9 @@ globalThis.applianceDashboard.registerProducts("cookware", [
       "鍋具",
       "廚房",
       "台灣通路"
-    ]
+    ],
+    "category": "cookware",
+    "releaseDate": "找不到"
   },
   {
     "id": "cookware-buffalo-26cm",
@@ -95,7 +103,9 @@ globalThis.applianceDashboard.registerProducts("cookware", [
       "鍋具",
       "廚房",
       "台灣通路"
-    ]
+    ],
+    "category": "cookware",
+    "releaseDate": "找不到"
   },
   {
     "id": "cookware-thermos-kfm-030d-r-30cm",
@@ -144,7 +154,9 @@ globalThis.applianceDashboard.registerProducts("cookware", [
       "鍋具",
       "廚房",
       "台灣通路"
-    ]
+    ],
+    "category": "cookware",
+    "releaseDate": "找不到"
   },
   {
     "id": "cookware-wmf-durado-24cm",
@@ -192,7 +204,9 @@ globalThis.applianceDashboard.registerProducts("cookware", [
       "鍋具",
       "廚房",
       "台灣通路"
-    ]
+    ],
+    "category": "cookware",
+    "releaseDate": "找不到"
   },
   {
     "id": "cookware-fissler-cianmic-28cm",
@@ -240,7 +254,9 @@ globalThis.applianceDashboard.registerProducts("cookware", [
       "鍋具",
       "廚房",
       "台灣通路"
-    ]
+    ],
+    "category": "cookware",
+    "releaseDate": "找不到"
   },
   {
     "id": "cookware-zwilling-joy-plus-24cm",
@@ -289,7 +305,9 @@ globalThis.applianceDashboard.registerProducts("cookware", [
       "鍋具",
       "廚房",
       "台灣通路"
-    ]
+    ],
+    "category": "cookware",
+    "releaseDate": "找不到"
   },
   {
     "id": "cookware-le-creuset-tns-28cm",
@@ -337,7 +355,9 @@ globalThis.applianceDashboard.registerProducts("cookware", [
       "鍋具",
       "廚房",
       "台灣通路"
-    ]
+    ],
+    "category": "cookware",
+    "releaseDate": "找不到"
   },
   {
     "id": "cookware-staub-26cm",
@@ -385,7 +405,9 @@ globalThis.applianceDashboard.registerProducts("cookware", [
       "鍋具",
       "廚房",
       "台灣通路"
-    ]
+    ],
+    "category": "cookware",
+    "releaseDate": "找不到"
   },
   {
     "id": "cookware-wmf-astoria-20cm-2-5l",
@@ -433,7 +455,9 @@ globalThis.applianceDashboard.registerProducts("cookware", [
       "鍋具",
       "廚房",
       "台灣通路"
-    ]
+    ],
+    "category": "cookware",
+    "releaseDate": "找不到"
   },
   {
     "id": "cookware-fissler-levital-28cm",
@@ -481,7 +505,9 @@ globalThis.applianceDashboard.registerProducts("cookware", [
       "鍋具",
       "廚房",
       "台灣通路"
-    ]
+    ],
+    "category": "cookware",
+    "releaseDate": "找不到"
   },
   {
     "id": "cookware-tefal-4",
@@ -530,7 +556,9 @@ globalThis.applianceDashboard.registerProducts("cookware", [
       "鍋具",
       "廚房",
       "台灣通路"
-    ]
+    ],
+    "category": "cookware",
+    "releaseDate": "找不到"
   },
   {
     "id": "cookware-buffalo-18cm",
@@ -579,7 +607,9 @@ globalThis.applianceDashboard.registerProducts("cookware", [
       "鍋具",
       "廚房",
       "台灣通路"
-    ]
+    ],
+    "category": "cookware",
+    "releaseDate": "找不到"
   },
   {
     "id": "cookware-sambonet-titan-28cm",
@@ -627,7 +657,9 @@ globalThis.applianceDashboard.registerProducts("cookware", [
       "鍋具",
       "廚房",
       "台灣通路"
-    ]
+    ],
+    "category": "cookware",
+    "releaseDate": "找不到"
   },
   {
     "id": "cookware-cookpower-og-42bk",
@@ -675,7 +707,9 @@ globalThis.applianceDashboard.registerProducts("cookware", [
       "鍋具",
       "廚房",
       "台灣通路"
-    ]
+    ],
+    "category": "cookware",
+    "releaseDate": "找不到"
   },
   {
     "id": "cookware-le-creuset-16cm",
@@ -723,7 +757,9 @@ globalThis.applianceDashboard.registerProducts("cookware", [
       "鍋具",
       "廚房",
       "台灣通路"
-    ]
+    ],
+    "category": "cookware",
+    "releaseDate": "找不到"
   },
   {
     "id": "cookware-extra-16-deawmja900j9bir",
@@ -767,7 +803,8 @@ globalThis.applianceDashboard.registerProducts("cookware", [
       "不鏽鋼",
       "湯鍋",
       "小家庭"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "cookware-extra-17-deawmja900jmza5",
@@ -811,7 +848,8 @@ globalThis.applianceDashboard.registerProducts("cookware", [
       "Fusiontec",
       "小鍋",
       "耐用"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "cookware-extra-18-deawtga900fchlz",
@@ -855,7 +893,8 @@ globalThis.applianceDashboard.registerProducts("cookware", [
       "不沾",
       "設計",
       "中大尺寸"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "cookware-extra-19-dees01a900iq6x3",
@@ -899,7 +938,8 @@ globalThis.applianceDashboard.registerProducts("cookware", [
       "不沾",
       "炒鍋",
       "CP 值"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "cookware-extra-20-deawmla900jsti6",
@@ -943,6 +983,8 @@ globalThis.applianceDashboard.registerProducts("cookware", [
       "小鍋",
       "不沾",
       "德系"
-    ]
+    ],
+    "releaseDate": "找不到"
   }
-]);
+  ]);
+})();

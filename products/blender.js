@@ -47,7 +47,8 @@
       "旗艦",
       "耐用",
       "全食物"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "blender-vitamix-a2500i",
@@ -92,7 +93,8 @@
       "性能",
       "均衡",
       "全食物"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "blender-joyoung-k8s",
@@ -136,7 +138,8 @@
       "豆漿",
       "自清潔",
       "冷熱"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "blender-philips-hr2038",
@@ -180,7 +183,8 @@
       "入門",
       "冷熱",
       "低價"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "blender-ninja-bn701",
@@ -224,7 +228,8 @@
       "海外",
       "冰沙",
       "CP 值"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "blender-extra-6-qbao0f-a9008qmg3",
@@ -268,7 +273,8 @@
       "Vitamix",
       "高馬力",
       "耐用"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "blender-extra-7-dmay9t-a900g068x",
@@ -312,7 +318,8 @@
       "Vitamix",
       "旗艦",
       "高馬力"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "blender-extra-8-dmay0g-a900agmd8",
@@ -356,7 +363,8 @@
       "Vitamix",
       "雙杯",
       "家用"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "blender-extra-9-qbao0f-a900as2dj",
@@ -400,7 +408,8 @@
       "Vitamix",
       "智能",
       "家用"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "blender-extra-10-dmay0h-a9009qnf5",
@@ -444,7 +453,8 @@
       "Blendtec",
       "隔音",
       "旗艦"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "blender-extra-11-qbao0g-a900a6dwk",
@@ -488,7 +498,8 @@
       "Blendtec",
       "商用",
       "高馬力"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "blender-extra-12-dmaybb-a900k6vsy",
@@ -532,7 +543,8 @@
       "Blendtec",
       "設計",
       "家用"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "blender-extra-13-dmaybb-a900k3czm",
@@ -576,7 +588,8 @@
       "Blendtec",
       "公司貨",
       "高馬力"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "blender-extra-14-dmay7k-a900jxotj",
@@ -620,7 +633,8 @@
       "Joyoung",
       "低價",
       "小家庭"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "blender-extra-15-dmay4y-a900j7nyf",
@@ -664,7 +678,8 @@
       "加熱",
       "豆漿",
       "CP 值"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "blender-extra-16-dmay01a900gfjco",
@@ -708,7 +723,8 @@
       "免清洗",
       "豆漿",
       "破壁"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "blender-extra-17-dmaye4a900jtmqr",
@@ -752,7 +768,8 @@
       "冷熱",
       "一鍵清洗",
       "副食品"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "blender-extra-18-dmaydla900ih6gz",
@@ -796,7 +813,8 @@
       "高速",
       "歐系",
       "調理機"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "blender-extra-19-dmay4ya900i3ild",
@@ -840,7 +858,8 @@
       "輕音",
       "冷熱",
       "豆漿"
-    ]
+    ],
+    "releaseDate": "找不到"
   },
   {
     "id": "blender-extra-20-dmaygba900iw311",
@@ -884,7 +903,8 @@
       "入門",
       "營養調理",
       "家用"
-    ]
+    ],
+    "releaseDate": "找不到"
   }
-]);
+  ]);
 })();
