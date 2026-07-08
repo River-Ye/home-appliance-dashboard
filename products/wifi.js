@@ -234,7 +234,7 @@
       "2.5G",
       "高階"
     ],
-    "releaseDate": "找不到"
+    "releaseDate": "2024-05-16"
   },
   {
     "id": "wifi-netgear-orbi-rbe373",
@@ -841,7 +841,7 @@
       "中階",
       "Wi-Fi 7"
     ],
-    "releaseDate": "找不到"
+    "releaseDate": "2025-04-30"
   },
   {
     "id": "wifi-tplink-archer-be700",
@@ -887,7 +887,7 @@
       "三頻",
       "高階"
     ],
-    "releaseDate": "找不到"
+    "releaseDate": "2025-01-20"
   },
   {
     "id": "wifi-dlink-r95",
@@ -933,7 +933,7 @@
       "D-Link",
       "2.5G"
     ],
-    "releaseDate": "找不到"
+    "releaseDate": "2026-04-16"
   },
   {
     "id": "wifi-acer-predator-t7",
@@ -1117,7 +1117,7 @@
       "TP-Link",
       "Wi-Fi 7"
     ],
-    "releaseDate": "找不到"
+    "releaseDate": "2024-11-07"
   },
   {
     "id": "wifi-mercusys-mr27be",
@@ -1531,7 +1531,7 @@
       "旗艦",
       "TP-Link"
     ],
-    "releaseDate": "找不到"
+    "releaseDate": "2022-12-31"
   },
   {
     "id": "wifi-netgear-rs300",
@@ -1669,7 +1669,7 @@
       "MSI",
       "三頻"
     ],
-    "releaseDate": "找不到"
+    "releaseDate": "2023-02-16"
   },
   {
     "id": "wifi-acer-ovia-t360",
@@ -2037,7 +2037,7 @@
       "TP-Link",
       "可擴充"
     ],
-    "releaseDate": "找不到"
+    "releaseDate": "2025-08-27"
   },
   {
     "id": "wifi-mercusys-halo-h25be-2pack",

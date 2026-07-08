@@ -938,7 +938,7 @@
         "洗衣家務"
       ],
       "category": "washer",
-      "releaseDate": "找不到"
+      "releaseDate": "2023"
     },
     {
       "id": "washer-samsung-ww12bb744dgbtw",

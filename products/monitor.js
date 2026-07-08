@@ -53,7 +53,7 @@
       "USB-C",
       "CP 值"
     ],
-    "releaseDate": "找不到"
+    "releaseDate": "2024-04-17"
   },
   {
     "id": "monitor-acer-vg270u-p6",
@@ -485,7 +485,7 @@
       "260Hz",
       "CP 值"
     ],
-    "releaseDate": "找不到"
+    "releaseDate": "2025-07"
   },
   {
     "id": "monitor-philips-27m2n2500nf",
@@ -773,7 +773,7 @@
       "160Hz",
       "USB-C"
     ],
-    "releaseDate": "找不到"
+    "releaseDate": "2024-11"
   },
   {
     "id": "monitor-acer-predator-x27u-x2",
@@ -821,7 +821,7 @@
       "240Hz",
       "電競"
     ],
-    "releaseDate": "找不到"
+    "releaseDate": "2025-07-23"
   },
   {
     "id": "monitor-aoc-q27g4zmn",
@@ -869,7 +869,7 @@
       "240Hz",
       "HDR"
     ],
-    "releaseDate": "找不到"
+    "releaseDate": "2025-06-27"
   },
   {
     "id": "monitor-samsung-oled-g5",
@@ -965,7 +965,7 @@
       "雙模",
       "KVM"
     ],
-    "releaseDate": "找不到"
+    "releaseDate": "2025-10-24"
   },
   {
     "id": "monitor-benq-ma270u",
@@ -1109,7 +1109,7 @@
       "商務",
       "四年保"
     ],
-    "releaseDate": "找不到"
+    "releaseDate": "2023-11-09"
   },
   {
     "id": "monitor-dell-u2725qe",
@@ -1397,7 +1397,7 @@
       "280Hz",
       "GIGABYTE"
     ],
-    "releaseDate": "找不到"
+    "releaseDate": "2025-06-18"
   },
   {
     "id": "monitor-viewsonic-vg2719u",
@@ -1880,7 +1880,7 @@
       "UWQHD",
       "文書"
     ],
-    "releaseDate": "找不到"
+    "releaseDate": "2026-04-09"
   },
   {
     "id": "monitor-aoc-cu34g4",
@@ -2272,7 +2272,7 @@
       "OLED",
       "大螢幕"
     ],
-    "releaseDate": "找不到"
+    "releaseDate": "2024-03-26"
   },
   {
     "id": "monitor-lg-45gx90sa",
@@ -2468,7 +2468,7 @@
       "QD-OLED",
       "Type-C"
     ],
-    "releaseDate": "找不到"
+    "releaseDate": "2024-03-21"
   }
   ]);
 })();
