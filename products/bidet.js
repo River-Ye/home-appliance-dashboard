@@ -1,0 +1,670 @@
+(() => {
+  const dashboard = globalThis.applianceDashboard;
+  if (!dashboard || typeof dashboard.registerProducts !== "function") {
+    throw new Error("appliance dashboard registry is not ready");
+  }
+
+  dashboard.registerProducts("bidet", [
+  {
+    "id": "bidet-toto-s2",
+    "category": "bidet",
+    "rank": 1,
+    "topPick": true,
+    "budget": "mid",
+    "channel": "tw",
+    "brand": "TOTO",
+    "model": "TCF8342TW S2",
+    "name": "WASHLET 溫水洗淨便座",
+    "price": {
+      "currency": "TWD",
+      "amount": 9900,
+      "converted": 9900,
+      "confidence": "可信通路查核價"
+    },
+    "image": "https://cs-a.ecimg.tw/items/DPAL2NA900HYYVV/000001_1732173829.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DPAL2N-A900HYYVV",
+    "buyLabel": "PChome",
+    "specs": [
+      "溫水洗淨",
+      "溫熱無縫便座",
+      "噴嘴自潔",
+      "基本安裝需確認"
+    ],
+    "description": "TOTO 口碑與維修能見度高，中階價格已具備日常所需功能。",
+    "pros": [
+      "品牌與維修安心",
+      "功能完整不過度昂貴"
+    ],
+    "cons": [
+      "需確認馬桶尺寸",
+      "安裝與插座可能另計"
+    ],
+    "bestFor": "首次安裝免治、重視品牌安心。",
+    "recommendation": "綜合推薦：TOTO S2 安裝尺寸、零件與售後最安心，價格比高階款親民，長期使用風險最低。",
+    "score": 93,
+    "voltage": "110V 台灣公司貨，浴廁需有安全插座",
+    "warranty": "台灣保固",
+    "tags": [
+      "WASHLET",
+      "中階",
+      "安心牌"
+    ]
+  },
+  {
+    "id": "bidet-toto-c2",
+    "category": "bidet",
+    "rank": 2,
+    "budget": "value",
+    "channel": "tw",
+    "brand": "TOTO",
+    "model": "TCF23710ATW C2",
+    "name": "WASHLET 溫水洗淨便座",
+    "price": {
+      "currency": "TWD",
+      "amount": 8990,
+      "converted": 8990,
+      "confidence": "可信通路查核價"
+    },
+    "image": "https://cs-a.ecimg.tw/items/DEDW0RA900I2TTG/000001_1764912449.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DEDW0R-A900I2TTG",
+    "buyLabel": "PChome",
+    "specs": [
+      "溫水洗淨",
+      "噴嘴自潔",
+      "溫熱便座",
+      "標準款"
+    ],
+    "description": "TOTO 入門到中階的實用款，價格比高階 WASHLET 容易下手。",
+    "pros": [
+      "價格較低",
+      "TOTO 品牌安心"
+    ],
+    "cons": [
+      "高階除臭/遙控功能較少",
+      "仍需確認安裝條件"
+    ],
+    "bestFor": "預算一萬元內、想要 TOTO 基本款。",
+    "recommendation": "小預算選 TOTO 時，C2 是務實入口。",
+    "score": 89,
+    "voltage": "110V 台灣公司貨，浴廁需有安全插座",
+    "warranty": "台灣保固",
+    "tags": [
+      "入門",
+      "WASHLET",
+      "CP 值"
+    ]
+  },
+  {
+    "id": "bidet-panasonic-pstk09",
+    "category": "bidet",
+    "rank": 3,
+    "budget": "value",
+    "channel": "tw",
+    "brand": "Panasonic",
+    "model": "DL-PSTK09TWW",
+    "name": "瞬熱式溫水洗淨便座",
+    "price": {
+      "currency": "TWD",
+      "amount": 8990,
+      "converted": 8990,
+      "confidence": "可信通路查核價"
+    },
+    "image": "https://cs-a.ecimg.tw/items/DMAL8LA900H03A0/000001_1760407099.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DMAL8L-A900H03A0",
+    "buyLabel": "PChome",
+    "specs": [
+      "瞬熱式",
+      "溫水洗淨",
+      "基本安裝",
+      "省電"
+    ],
+    "description": "瞬熱式不用長時間保溫，適合重視節能與基本清潔的人。",
+    "pros": [
+      "瞬熱省電",
+      "Panasonic 售後普及"
+    ],
+    "cons": [
+      "設計感普通",
+      "高階功能較少"
+    ],
+    "bestFor": "一萬元內、重視瞬熱與品牌售後。",
+    "recommendation": "若偏好家電品牌售後，Panasonic 瞬熱款很有 CP 值。",
+    "score": 88,
+    "voltage": "110V 台灣公司貨，浴廁需有安全插座",
+    "warranty": "台灣保固",
+    "tags": [
+      "瞬熱",
+      "節能",
+      "CP 值"
+    ]
+  },
+  {
+    "id": "bidet-kohler-c3430",
+    "category": "bidet",
+    "rank": 4,
+    "budget": "mid",
+    "channel": "tw",
+    "brand": "KOHLER",
+    "model": "C3-430",
+    "name": "瞬熱式電腦免治馬桶蓋",
+    "price": {
+      "currency": "TWD",
+      "amount": 12900,
+      "converted": 12900,
+      "confidence": "可信通路查核價"
+    },
+    "image": "https://cs-a.ecimg.tw/items/DEDW1HA900FW2KD/000001_1672380333.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DEDW1H-A900FW2KD",
+    "buyLabel": "PChome",
+    "specs": [
+      "瞬熱式",
+      "UV 除菌",
+      "三檔溫控",
+      "不鏽鋼噴嘴"
+    ],
+    "description": "衛浴品牌質感好，UV 除菌與不鏽鋼噴嘴是差異化重點。",
+    "pros": [
+      "質感佳",
+      "UV 除菌加分"
+    ],
+    "cons": [
+      "價格高於入門",
+      "需確認座型相容"
+    ],
+    "bestFor": "重視衛浴品牌與外觀質感。",
+    "recommendation": "衛浴整體質感優先，KOHLER 比家電品牌更搭配裝潢。",
+    "score": 86,
+    "voltage": "110V 台灣通路，浴廁需有安全插座",
+    "warranty": "依通路",
+    "tags": [
+      "UV",
+      "衛浴品牌",
+      "瞬熱"
+    ]
+  },
+  {
+    "id": "bidet-hcg-af890",
+    "category": "bidet",
+    "rank": 5,
+    "budget": "value",
+    "channel": "tw",
+    "brand": "HCG",
+    "model": "AF890AW",
+    "name": "免治沖洗馬桶座",
+    "price": {
+      "currency": "TWD",
+      "amount": 8537,
+      "converted": 8537,
+      "confidence": "可信通路查核價"
+    },
+    "image": "https://cs-a.ecimg.tw/items/DMAL6WA900IYWWR/000001_1750758652.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DMAL6W-A900IYWWR",
+    "buyLabel": "PChome",
+    "specs": [
+      "44/47cm",
+      "免治沖洗",
+      "台灣衛浴品牌",
+      "不含安裝"
+    ],
+    "description": "本地衛浴品牌，價格與維修可得性不錯，但需另外確認安裝費。",
+    "pros": [
+      "本地品牌",
+      "價格合理"
+    ],
+    "cons": [
+      "頁面標示不含安裝",
+      "功能不如高階 TOTO/Panasonic"
+    ],
+    "bestFor": "預算有限、偏好台灣衛浴品牌。",
+    "recommendation": "若已有 HCG 馬桶或偏好本地維修，可列為務實選項。",
+    "score": 82,
+    "voltage": "110V 台灣通路，浴廁需有安全插座",
+    "warranty": "依通路",
+    "tags": [
+      "本地品牌",
+      "低價",
+      "需安裝"
+    ]
+  },
+  {
+    "id": "bidet-extra-6-dmal6w-a900jnqf2",
+    "category": "bidet",
+    "rank": 6,
+    "budget": "premium",
+    "channel": "tw",
+    "brand": "TOTO",
+    "model": "TCF47160GTW S7",
+    "name": "S7 輕奢款 WASHLET 溫水洗淨便座",
+    "price": {
+      "currency": "TWD",
+      "amount": 23900,
+      "converted": 23900,
+      "confidence": "可信通路查核價"
+    },
+    "image": "https://cs-a.ecimg.tw/items/DMAL6WA900JNQF2/000001_1783412715.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DMAL6W-A900JNQF2",
+    "buyLabel": "PChome",
+    "specs": [
+      "WASHLET",
+      "電解除菌水",
+      "溫熱便座",
+      "S7 輕奢款"
+    ],
+    "description": "TOTO TCF47160GTW S7 是免治馬桶類的補充比較型號，依 2026-07-08 通路頁面整理售價、圖片與核心規格。",
+    "pros": [
+      "舒適度升級明顯",
+      "高階款除菌、除臭與遙控功能完整"
+    ],
+    "cons": [
+      "需確認馬桶尺寸與插座位置",
+      "安裝費與基本安裝範圍需看通路"
+    ],
+    "bestFor": "浴廁已有安全插座，想升級溫水洗淨、除臭或暖風烘乾的人。",
+    "recommendation": "同類推薦：補入 TOTO、Panasonic、KOHLER 不同功能帶，方便看安裝與保固。",
+    "score": 87,
+    "voltage": "110V 台灣通路，浴廁需有安全插座",
+    "warranty": "依 PChome/供應商頁面",
+    "tags": [
+      "TOTO",
+      "除菌",
+      "高階"
+    ]
+  },
+  {
+    "id": "bidet-extra-7-dmal6i-a900jewps",
+    "category": "bidet",
+    "rank": 7,
+    "budget": "mid",
+    "channel": "tw",
+    "brand": "TOTO",
+    "model": "TCF24460ATW C5",
+    "name": "C5 藏線式 WASHLET 溫水洗淨便座",
+    "price": {
+      "currency": "TWD",
+      "amount": 14300,
+      "converted": 14300,
+      "confidence": "可信通路查核價"
+    },
+    "image": "https://cs-a.ecimg.tw/items/DMAL6IA900JEWPS/000001_1765348841.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DMAL6I-A900JEWPS",
+    "buyLabel": "PChome",
+    "specs": [
+      "WASHLET",
+      "噴嘴自潔",
+      "溫熱便座",
+      "藏線式"
+    ],
+    "description": "TOTO TCF24460ATW C5 是免治馬桶類的補充比較型號，依 2026-07-08 通路頁面整理售價、圖片與核心規格。",
+    "pros": [
+      "舒適度升級明顯",
+      "高階款除菌、除臭與遙控功能完整"
+    ],
+    "cons": [
+      "需確認馬桶尺寸與插座位置",
+      "安裝費與基本安裝範圍需看通路"
+    ],
+    "bestFor": "浴廁已有安全插座，想升級溫水洗淨、除臭或暖風烘乾的人。",
+    "recommendation": "同類推薦：補入 TOTO、Panasonic、KOHLER 不同功能帶，方便看安裝與保固。",
+    "score": 86,
+    "voltage": "110V 台灣通路，浴廁需有安全插座",
+    "warranty": "依 PChome/供應商頁面",
+    "tags": [
+      "TOTO",
+      "藏線",
+      "均衡"
+    ]
+  },
+  {
+    "id": "bidet-extra-8-dmal6w-a900jvx5o",
+    "category": "bidet",
+    "rank": 8,
+    "budget": "mid",
+    "channel": "tw",
+    "brand": "TOTO",
+    "model": "TCF34461GTW S5",
+    "name": "S5 除菌溫水洗淨便座",
+    "price": {
+      "currency": "TWD",
+      "amount": 17900,
+      "converted": 17900,
+      "confidence": "可信通路查核價"
+    },
+    "image": "https://cs-a.ecimg.tw/items/DMAL6WA900JVX5O/000001_1775638184.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DMAL6W-A900JVX5O",
+    "buyLabel": "PChome",
+    "specs": [
+      "電解除菌水",
+      "強力除臭",
+      "無線遙控",
+      "WASHLET"
+    ],
+    "description": "TOTO TCF34461GTW S5 是免治馬桶類的補充比較型號，依 2026-07-08 通路頁面整理售價、圖片與核心規格。",
+    "pros": [
+      "舒適度升級明顯",
+      "高階款除菌、除臭與遙控功能完整"
+    ],
+    "cons": [
+      "需確認馬桶尺寸與插座位置",
+      "安裝費與基本安裝範圍需看通路"
+    ],
+    "bestFor": "浴廁已有安全插座，想升級溫水洗淨、除臭或暖風烘乾的人。",
+    "recommendation": "同類推薦：補入 TOTO、Panasonic、KOHLER 不同功能帶，方便看安裝與保固。",
+    "score": 85,
+    "voltage": "110V 台灣通路，浴廁需有安全插座",
+    "warranty": "依 PChome/供應商頁面",
+    "tags": [
+      "TOTO",
+      "除臭",
+      "遙控"
+    ]
+  },
+  {
+    "id": "bidet-extra-9-dmal6w-a900jw0lw",
+    "category": "bidet",
+    "rank": 9,
+    "budget": "mid",
+    "channel": "tw",
+    "brand": "TOTO",
+    "model": "TCF33161GTW S2",
+    "name": "S2 標準款除菌溫水洗淨便座",
+    "price": {
+      "currency": "TWD",
+      "amount": 11900,
+      "converted": 11900,
+      "confidence": "可信通路查核價"
+    },
+    "image": "https://cs-a.ecimg.tw/items/DMAL6WA900JW0LW/000001_1775705407.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DMAL6W-A900JW0LW",
+    "buyLabel": "PChome",
+    "specs": [
+      "電解除菌水",
+      "智慧洗淨",
+      "溫熱便座",
+      "標準款"
+    ],
+    "description": "TOTO TCF33161GTW S2 是免治馬桶類的補充比較型號，依 2026-07-08 通路頁面整理售價、圖片與核心規格。",
+    "pros": [
+      "舒適度升級明顯",
+      "高階款除菌、除臭與遙控功能完整"
+    ],
+    "cons": [
+      "需確認馬桶尺寸與插座位置",
+      "安裝費與基本安裝範圍需看通路"
+    ],
+    "bestFor": "浴廁已有安全插座，想升級溫水洗淨、除臭或暖風烘乾的人。",
+    "recommendation": "同類推薦：補入 TOTO、Panasonic、KOHLER 不同功能帶，方便看安裝與保固。",
+    "score": 84,
+    "voltage": "110V 台灣通路，浴廁需有安全插座",
+    "warranty": "依 PChome/供應商頁面",
+    "tags": [
+      "TOTO",
+      "標準",
+      "CP 值"
+    ]
+  },
+  {
+    "id": "bidet-extra-10-dmal6i-a900jekad",
+    "category": "bidet",
+    "rank": 10,
+    "budget": "premium",
+    "channel": "tw",
+    "brand": "TOTO",
+    "model": "TCF47360GTW S7",
+    "name": "S7 旗艦款 WASHLET 溫水洗淨便座",
+    "price": {
+      "currency": "TWD",
+      "amount": 34900,
+      "converted": 34900,
+      "confidence": "可信通路查核價"
+    },
+    "image": "https://cs-a.ecimg.tw/items/DMAL6IA900JEKAD/000001_1783410655.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DMAL6I-A900JEKAD",
+    "buyLabel": "PChome",
+    "specs": [
+      "WASHLET",
+      "噴嘴自潔",
+      "溫熱便座",
+      "旗艦款"
+    ],
+    "description": "TOTO TCF47360GTW S7 是免治馬桶類的補充比較型號，依 2026-07-08 通路頁面整理售價、圖片與核心規格。",
+    "pros": [
+      "舒適度升級明顯",
+      "高階款除菌、除臭與遙控功能完整"
+    ],
+    "cons": [
+      "需確認馬桶尺寸與插座位置",
+      "安裝費與基本安裝範圍需看通路"
+    ],
+    "bestFor": "浴廁已有安全插座，想升級溫水洗淨、除臭或暖風烘乾的人。",
+    "recommendation": "同類推薦：補入 TOTO、Panasonic、KOHLER 不同功能帶，方便看安裝與保固。",
+    "score": 83,
+    "voltage": "110V 台灣通路，浴廁需有安全插座",
+    "warranty": "依 PChome/供應商頁面",
+    "tags": [
+      "TOTO",
+      "旗艦",
+      "除菌"
+    ]
+  },
+  {
+    "id": "bidet-extra-11-dmal6w-a900jvwi8",
+    "category": "bidet",
+    "rank": 11,
+    "budget": "mid",
+    "channel": "tw",
+    "brand": "TOTO",
+    "model": "TCF33461GTW S2",
+    "name": "S2 進階款除菌溫水洗淨便座",
+    "price": {
+      "currency": "TWD",
+      "amount": 14900,
+      "converted": 14900,
+      "confidence": "可信通路查核價"
+    },
+    "image": "https://cs-a.ecimg.tw/items/DMAL6WA900JVWI8/000001_1775634174.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DMAL6W-A900JVWI8",
+    "buyLabel": "PChome",
+    "specs": [
+      "電解除菌水",
+      "強力除臭",
+      "暖風烘乾",
+      "WASHLET"
+    ],
+    "description": "TOTO TCF33461GTW S2 是免治馬桶類的補充比較型號，依 2026-07-08 通路頁面整理售價、圖片與核心規格。",
+    "pros": [
+      "舒適度升級明顯",
+      "高階款除菌、除臭與遙控功能完整"
+    ],
+    "cons": [
+      "需確認馬桶尺寸與插座位置",
+      "安裝費與基本安裝範圍需看通路"
+    ],
+    "bestFor": "浴廁已有安全插座，想升級溫水洗淨、除臭或暖風烘乾的人。",
+    "recommendation": "同類推薦：補入 TOTO、Panasonic、KOHLER 不同功能帶，方便看安裝與保固。",
+    "score": 82,
+    "voltage": "110V 台灣通路，浴廁需有安全插座",
+    "warranty": "依 PChome/供應商頁面",
+    "tags": [
+      "TOTO",
+      "暖風",
+      "除臭"
+    ]
+  },
+  {
+    "id": "bidet-extra-12-dmal8l-a900gh6f4",
+    "category": "bidet",
+    "rank": 12,
+    "budget": "value",
+    "channel": "tw",
+    "brand": "Panasonic",
+    "model": "DL-F610RTWS",
+    "name": "儲熱式溫水洗淨便座含原廠基本安裝",
+    "price": {
+      "currency": "TWD",
+      "amount": 6190,
+      "converted": 6190,
+      "confidence": "可信通路查核價"
+    },
+    "image": "https://cs-a.ecimg.tw/items/DMAL8LA900GH6F4/000001_1724400418.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DMAL8L-A900GH6F4",
+    "buyLabel": "PChome",
+    "specs": [
+      "儲熱式",
+      "溫水洗淨",
+      "含基本安裝",
+      "入門價位"
+    ],
+    "description": "Panasonic DL-F610RTWS 是免治馬桶類的補充比較型號，依 2026-07-08 通路頁面整理售價、圖片與核心規格。",
+    "pros": [
+      "舒適度升級明顯",
+      "高階款除菌、除臭與遙控功能完整"
+    ],
+    "cons": [
+      "需確認馬桶尺寸與插座位置",
+      "安裝費與基本安裝範圍需看通路"
+    ],
+    "bestFor": "浴廁已有安全插座，想升級溫水洗淨、除臭或暖風烘乾的人。",
+    "recommendation": "同類推薦：補入 TOTO、Panasonic、KOHLER 不同功能帶，方便看安裝與保固。",
+    "score": 81,
+    "voltage": "110V 台灣通路，浴廁需有安全插座",
+    "warranty": "依 PChome/供應商頁面",
+    "tags": [
+      "Panasonic",
+      "低價",
+      "安裝"
+    ]
+  },
+  {
+    "id": "bidet-extra-13-dmal6w-a900i0l73",
+    "category": "bidet",
+    "rank": 13,
+    "budget": "mid",
+    "channel": "tw",
+    "brand": "Panasonic",
+    "model": "DL-RT30TWWS",
+    "name": "纖薄美型瞬熱式溫水洗淨便座",
+    "price": {
+      "currency": "TWD",
+      "amount": 15752,
+      "converted": 15752,
+      "confidence": "可信通路查核價"
+    },
+    "image": "https://cs-a.ecimg.tw/items/DMAL6WA900I0L73/000001_1729761324.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DMAL6W-A900I0L73",
+    "buyLabel": "PChome",
+    "specs": [
+      "瞬熱式",
+      "纖薄設計",
+      "溫水洗淨",
+      "美型"
+    ],
+    "description": "Panasonic DL-RT30TWWS 是免治馬桶類的補充比較型號，依 2026-07-08 通路頁面整理售價、圖片與核心規格。",
+    "pros": [
+      "舒適度升級明顯",
+      "高階款除菌、除臭與遙控功能完整"
+    ],
+    "cons": [
+      "需確認馬桶尺寸與插座位置",
+      "安裝費與基本安裝範圍需看通路"
+    ],
+    "bestFor": "浴廁已有安全插座，想升級溫水洗淨、除臭或暖風烘乾的人。",
+    "recommendation": "同類推薦：補入 TOTO、Panasonic、KOHLER 不同功能帶，方便看安裝與保固。",
+    "score": 80,
+    "voltage": "110V 台灣通路，浴廁需有安全插座",
+    "warranty": "依 PChome/供應商頁面",
+    "tags": [
+      "Panasonic",
+      "瞬熱",
+      "設計"
+    ]
+  },
+  {
+    "id": "bidet-extra-14-dmal6w-a900jeeze",
+    "category": "bidet",
+    "rank": 14,
+    "budget": "mid",
+    "channel": "tw",
+    "brand": "Panasonic",
+    "model": "DL-PU30TWWS",
+    "name": "瞬熱式溫水洗淨便座",
+    "price": {
+      "currency": "TWD",
+      "amount": 11954,
+      "converted": 11954,
+      "confidence": "可信通路查核價"
+    },
+    "image": "https://cs-a.ecimg.tw/items/DMAL6WA900JEEZE/000001_1776140283.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DMAL6W-A900JEEZE",
+    "buyLabel": "PChome",
+    "specs": [
+      "瞬熱式",
+      "溫水洗淨",
+      "溫控",
+      "家用"
+    ],
+    "description": "Panasonic DL-PU30TWWS 是免治馬桶類的補充比較型號，依 2026-07-08 通路頁面整理售價、圖片與核心規格。",
+    "pros": [
+      "舒適度升級明顯",
+      "高階款除菌、除臭與遙控功能完整"
+    ],
+    "cons": [
+      "需確認馬桶尺寸與插座位置",
+      "安裝費與基本安裝範圍需看通路"
+    ],
+    "bestFor": "浴廁已有安全插座，想升級溫水洗淨、除臭或暖風烘乾的人。",
+    "recommendation": "同類推薦：補入 TOTO、Panasonic、KOHLER 不同功能帶，方便看安裝與保固。",
+    "score": 79,
+    "voltage": "110V 台灣通路，浴廁需有安全插座",
+    "warranty": "依 PChome/供應商頁面",
+    "tags": [
+      "Panasonic",
+      "瞬熱",
+      "均衡"
+    ]
+  },
+  {
+    "id": "bidet-extra-15-dmale4-a900fw2kj",
+    "category": "bidet",
+    "rank": 15,
+    "budget": "mid",
+    "channel": "tw",
+    "brand": "KOHLER",
+    "model": "C3-150",
+    "name": "C3-150 電腦免治馬桶蓋",
+    "price": {
+      "currency": "TWD",
+      "amount": 14900,
+      "converted": 14900,
+      "confidence": "可信通路查核價"
+    },
+    "image": "https://cs-a.ecimg.tw/items/DMALE4A900FW2KJ/000001_1752829867.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DMALE4-A900FW2KJ",
+    "buyLabel": "PChome",
+    "specs": [
+      "瞬熱出水",
+      "五檔溫控",
+      "不鏽鋼噴嘴",
+      "KOHLER"
+    ],
+    "description": "KOHLER C3-150 是免治馬桶類的補充比較型號，依 2026-07-08 通路頁面整理售價、圖片與核心規格。",
+    "pros": [
+      "舒適度升級明顯",
+      "高階款除菌、除臭與遙控功能完整"
+    ],
+    "cons": [
+      "需確認馬桶尺寸與插座位置",
+      "安裝費與基本安裝範圍需看通路"
+    ],
+    "bestFor": "浴廁已有安全插座，想升級溫水洗淨、除臭或暖風烘乾的人。",
+    "recommendation": "同類推薦：補入 TOTO、Panasonic、KOHLER 不同功能帶，方便看安裝與保固。",
+    "score": 78,
+    "voltage": "110V 台灣通路，浴廁需有安全插座",
+    "warranty": "依 PChome/供應商頁面",
+    "tags": [
+      "KOHLER",
+      "瞬熱",
+      "衛浴品牌"
+    ]
+  }
+]);
+})();

@@ -28,3 +28,5 @@
 ## 使用
 
 直接開啟 `index.html`，或透過 [GitHub Pages](https://river-ye.github.io/home-appliance-dashboard/) 瀏覽。
+
+商品資料已依分類拆到 `products/*.js`；`app.js` 僅保留分類設定、資料註冊器、篩選、排序、比較與畫面渲染邏輯。

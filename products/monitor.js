@@ -1,0 +1,1667 @@
+(() => {
+  const dashboard = globalThis.applianceDashboard;
+  if (!dashboard || typeof dashboard.registerProducts !== "function") {
+    throw new Error("appliance dashboard registry is not ready");
+  }
+
+  dashboard.registerProducts("monitor", [
+  {
+    "id": "monitor-asus-xg27acs",
+    "category": "monitor",
+    "rank": 1,
+    "topPick": true,
+    "budget": "value",
+    "channel": "tw",
+    "brand": "ASUS",
+    "model": "ROG Strix XG27ACS",
+    "name": "27 型 2K 180Hz IPS USB-C 電競螢幕",
+    "price": {
+      "currency": "TWD",
+      "amount": 5218,
+      "converted": 5218,
+      "confidence": "可信通路查核價"
+    },
+    "image": "https://cs-a.ecimg.tw/items/DSABKBA900JZ3CV/000001_1777866944.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DSABKB-A900JZ3CV",
+    "buyLabel": "PChome",
+    "specs": [
+      "27 吋",
+      "2K/QHD",
+      "180Hz",
+      "IPS",
+      "USB-C"
+    ],
+    "description": "XG27ACS 以五千多元給到 27 吋 2K、180Hz、IPS 與 USB-C，是遊戲與工作兼用甜蜜點。",
+    "pros": [
+      "規格完整且價格漂亮",
+      "ASUS/ROG 通路與售後穩",
+      "工作與遊戲兼顧"
+    ],
+    "cons": [
+      "不是 4K 或 OLED",
+      "USB-C 供電能力需看頁面規格"
+    ],
+    "bestFor": "想買一台主螢幕兼顧工作、遊戲與預算的人。",
+    "recommendation": "本類 Top Pick：2K 高刷新、IPS、USB-C、品牌售後與價格最均衡。",
+    "score": 94,
+    "voltage": "110V 台灣通路",
+    "warranty": "依 PChome/供應商頁面",
+    "tags": [
+      "2K",
+      "180Hz",
+      "USB-C",
+      "CP 值"
+    ]
+  },
+  {
+    "id": "monitor-acer-vg270u-p6",
+    "category": "monitor",
+    "rank": 2,
+    "budget": "value",
+    "channel": "tw",
+    "brand": "Acer",
+    "model": "VG270U P6",
+    "name": "27 吋 QHD 144Hz IPS 電競螢幕",
+    "price": {
+      "currency": "TWD",
+      "amount": 3999,
+      "converted": 3999,
+      "confidence": "可信通路查核價"
+    },
+    "image": "https://cs-a.ecimg.tw/items/DSABTCA900K0ABK/000001_1781756574.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DSABTC-A900K0ABK",
+    "buyLabel": "PChome",
+    "specs": [
+      "27 吋",
+      "2K/QHD",
+      "144Hz",
+      "IPS",
+      "1ms"
+    ],
+    "description": "Acer VG270U P6 把 27 吋 2K IPS 價格壓到很低，是升級 FHD 的高 CP 選項。",
+    "pros": [
+      "2K 價格很低",
+      "IPS 視角好",
+      "適合入門電競"
+    ],
+    "cons": [
+      "支架與色彩功能偏基本",
+      "庫存不多"
+    ],
+    "bestFor": "預算四千上下、想從 FHD 升級 2K 的人。",
+    "recommendation": "低價 2K 推薦：預算有限時先看這台，再往 ASUS/BenQ 升級。",
+    "score": 89,
+    "voltage": "110V 台灣通路",
+    "warranty": "依 PChome/供應商頁面",
+    "tags": [
+      "2K",
+      "低價",
+      "IPS"
+    ]
+  },
+  {
+    "id": "monitor-benq-ex271q",
+    "category": "monitor",
+    "rank": 3,
+    "budget": "value",
+    "channel": "tw",
+    "brand": "BenQ",
+    "model": "MOBIUZ EX271Q",
+    "name": "27 吋 2K 180Hz HDR400 電競螢幕",
+    "price": {
+      "currency": "TWD",
+      "amount": 5988,
+      "converted": 5988,
+      "confidence": "可信通路查核價"
+    },
+    "image": "https://cs-a.ecimg.tw/items/DSABF3A900JA047/000001_1758694183.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DSABF3-A900JA047",
+    "buyLabel": "PChome",
+    "specs": [
+      "27 吋",
+      "2K/QHD",
+      "180Hz",
+      "IPS",
+      "HDR400"
+    ],
+    "description": "BenQ EX271Q 以護眼、HDR400 與遊戲規格取得平衡，台灣售後也容易理解。",
+    "pros": [
+      "BenQ 護眼口碑",
+      "2K 180Hz 規格完整",
+      "HDR400 加分"
+    ],
+    "cons": [
+      "價格高於 Acer 入門 2K",
+      "不是 USB-C 生產力款"
+    ],
+    "bestFor": "想要遊戲與護眼品牌兼顧的人。",
+    "recommendation": "護眼電競推薦：比低價 2K 多花一些，換來 BenQ 調校與品牌安心感。",
+    "score": 90,
+    "voltage": "110V 台灣通路",
+    "warranty": "依 PChome/供應商頁面",
+    "tags": [
+      "2K",
+      "180Hz",
+      "護眼"
+    ]
+  },
+  {
+    "id": "monitor-lg-27u631a",
+    "category": "monitor",
+    "rank": 4,
+    "budget": "value",
+    "channel": "tw",
+    "brand": "LG",
+    "model": "27U631A-B",
+    "name": "27 型 2K 100Hz USB-C IPS 護眼螢幕",
+    "price": {
+      "currency": "TWD",
+      "amount": 3980,
+      "converted": 3980,
+      "confidence": "可信通路查核價"
+    },
+    "image": "https://cs-a.ecimg.tw/items/DSABRBA900JTLHW/000001_1773730777.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DSABRB-A900JTLHW",
+    "buyLabel": "PChome",
+    "specs": [
+      "27 吋",
+      "2K/QHD",
+      "100Hz",
+      "IPS",
+      "USB-C"
+    ],
+    "description": "LG 27U631A-B 是偏工作與日常的 2K 螢幕，USB-C 與 100Hz 讓筆電使用更順。",
+    "pros": [
+      "價格低",
+      "USB-C 方便筆電",
+      "LG 面板口碑佳"
+    ],
+    "cons": [
+      "遊戲刷新率不如 144/180Hz",
+      "支架功能偏基本"
+    ],
+    "bestFor": "筆電外接、文書、程式與一般娛樂。",
+    "recommendation": "文書 CP 推薦：如果不主打競技遊戲，這台 2K USB-C 很划算。",
+    "score": 88,
+    "voltage": "110V 台灣通路",
+    "warranty": "依 PChome/供應商頁面",
+    "tags": [
+      "2K",
+      "USB-C",
+      "文書"
+    ]
+  },
+  {
+    "id": "monitor-dell-p2425h",
+    "category": "monitor",
+    "rank": 5,
+    "budget": "value",
+    "channel": "tw",
+    "brand": "Dell",
+    "model": "P2425H-4Y",
+    "name": "24 型 FHD IPS USB-C 商務螢幕",
+    "price": {
+      "currency": "TWD",
+      "amount": 4988,
+      "converted": 4988,
+      "confidence": "可信通路查核價"
+    },
+    "image": "https://cs-a.ecimg.tw/items/DSABOLA900K1NAC/000001_1779696949.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DSABOL-A900K1NAC",
+    "buyLabel": "PChome",
+    "specs": [
+      "24 吋",
+      "FHD",
+      "IPS",
+      "USB-C",
+      "四年保"
+    ],
+    "description": "Dell P 系列重點是商務穩定與保固，適合辦公採購與雙螢幕標準化。",
+    "pros": [
+      "Dell 商務保固",
+      "USB-C 與端口完整",
+      "適合大量採購"
+    ],
+    "cons": [
+      "解析度只有 FHD",
+      "遊戲規格普通"
+    ],
+    "bestFor": "辦公室、會計、行政與雙螢幕文書。",
+    "recommendation": "商務售後推薦：規格不是最炫，但保固與穩定性適合工作用。",
+    "score": 84,
+    "voltage": "110V 台灣通路",
+    "warranty": "依 PChome/供應商頁面",
+    "tags": [
+      "商務",
+      "USB-C",
+      "四年保"
+    ]
+  },
+  {
+    "id": "monitor-samsung-g5-s27fg532",
+    "category": "monitor",
+    "rank": 6,
+    "budget": "value",
+    "channel": "tw",
+    "brand": "Samsung",
+    "model": "S27FG532EC Odyssey G5",
+    "name": "27 型 2K 200Hz IPS Odyssey G5",
+    "price": {
+      "currency": "TWD",
+      "amount": 4990,
+      "converted": 4990,
+      "confidence": "可信通路查核價"
+    },
+    "image": "https://cs-a.ecimg.tw/items/DSABONA900JZ7RG/000001_1777952241.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DSABON-A900JZ7RG",
+    "buyLabel": "PChome",
+    "specs": [
+      "27 吋",
+      "2K/QHD",
+      "200Hz",
+      "IPS",
+      "1ms"
+    ],
+    "description": "Odyssey G5 這筆以不到五千元給到 27 吋 2K 200Hz，是電競性價比很強的三星選項。",
+    "pros": [
+      "刷新率高",
+      "2K 價格漂亮",
+      "Samsung 品牌"
+    ],
+    "cons": [
+      "庫存不多",
+      "支架與色彩專業功能非重點"
+    ],
+    "bestFor": "預算有限但想要高刷新 2K 遊戲螢幕。",
+    "recommendation": "電競 CP 推薦：規格比價格漂亮，適合 FPS/MOBA 玩家。",
+    "score": 88,
+    "voltage": "110V 台灣通路",
+    "warranty": "依 PChome/供應商頁面",
+    "tags": [
+      "2K",
+      "200Hz",
+      "電競"
+    ]
+  },
+  {
+    "id": "monitor-msi-g275l-e14",
+    "category": "monitor",
+    "rank": 7,
+    "budget": "value",
+    "channel": "tw",
+    "brand": "MSI",
+    "model": "G275L E14",
+    "name": "27 型 FHD 144Hz IPS 電競螢幕",
+    "price": {
+      "currency": "TWD",
+      "amount": 2990,
+      "converted": 2990,
+      "confidence": "可信通路查核價"
+    },
+    "image": "https://cs-a.ecimg.tw/items/DSABPDA900JTLEG/000001_1773715062.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DSABPD-A900JTLEG",
+    "buyLabel": "PChome",
+    "specs": [
+      "27 吋",
+      "FHD",
+      "144Hz",
+      "IPS",
+      "HDR"
+    ],
+    "description": "MSI G275L E14 是 27 吋低價電競入門款，適合預算先決的遊戲或副螢幕。",
+    "pros": [
+      "價格低",
+      "27 吋大畫面",
+      "144Hz 入門遊戲足夠"
+    ],
+    "cons": [
+      "FHD 在 27 吋細緻度一般",
+      "不適合精細文字工作"
+    ],
+    "bestFor": "入門遊戲、副螢幕或預算三千左右的人。",
+    "recommendation": "低價大螢幕推薦：不追求 2K 時，它的價格很有吸引力。",
+    "score": 80,
+    "voltage": "110V 台灣通路",
+    "warranty": "依 PChome/供應商頁面",
+    "tags": [
+      "FHD",
+      "144Hz",
+      "入門"
+    ]
+  },
+  {
+    "id": "monitor-gigabyte-g27q20t",
+    "category": "monitor",
+    "rank": 8,
+    "budget": "value",
+    "channel": "tw",
+    "brand": "GIGABYTE",
+    "model": "G27Q20T",
+    "name": "27 型 QHD 210Hz IPS 電競螢幕",
+    "price": {
+      "currency": "TWD",
+      "amount": 4488,
+      "converted": 4488,
+      "confidence": "可信通路查核價"
+    },
+    "image": "https://cs-a.ecimg.tw/items/DSABW6A900K63WS/000001_1782880934.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DSABW6-A900K63WS",
+    "buyLabel": "PChome",
+    "specs": [
+      "27 吋",
+      "2K/QHD",
+      "210Hz",
+      "IPS",
+      "1ms"
+    ],
+    "description": "技嘉 G27Q20T 以四千多元提供 2K 210Hz，適合重視高刷新與 CP 值的玩家。",
+    "pros": [
+      "2K 高刷新很便宜",
+      "品牌售後較熟悉",
+      "規格適合遊戲"
+    ],
+    "cons": [
+      "支架與色彩功能需看評測",
+      "庫存較少"
+    ],
+    "bestFor": "想用低預算買高刷新 2K 的玩家。",
+    "recommendation": "高刷新 CP 推薦：價格對規格很有競爭力。",
+    "score": 87,
+    "voltage": "110V 台灣通路",
+    "warranty": "依 PChome/供應商頁面",
+    "tags": [
+      "2K",
+      "210Hz",
+      "CP 值"
+    ]
+  },
+  {
+    "id": "monitor-viewsonic-vx2479",
+    "category": "monitor",
+    "rank": 9,
+    "budget": "value",
+    "channel": "tw",
+    "brand": "ViewSonic",
+    "model": "VX2479A-HD-PRO",
+    "name": "24 型 FHD 240Hz IPS 電競螢幕",
+    "price": {
+      "currency": "TWD",
+      "amount": 3888,
+      "converted": 3888,
+      "confidence": "可信通路查核價"
+    },
+    "image": "https://cs-a.ecimg.tw/items/DSABOIA900IC2G2/000001_1738836667.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DSABOI-A900IC2G2",
+    "buyLabel": "PChome",
+    "specs": [
+      "24 吋",
+      "FHD",
+      "240Hz",
+      "IPS",
+      "1ms"
+    ],
+    "description": "24 吋 FHD 240Hz 是競技遊戲常見尺寸，ViewSonic 這台價格也很親民。",
+    "pros": [
+      "240Hz 低價",
+      "24 吋適合 FPS",
+      "IPS 視角佳"
+    ],
+    "cons": [
+      "解析度只有 FHD",
+      "工作區域較小"
+    ],
+    "bestFor": "FPS、競技遊戲與小桌面玩家。",
+    "recommendation": "競技入門推薦：想要 240Hz 又不想花大錢，可列入清單。",
+    "score": 83,
+    "voltage": "110V 台灣通路",
+    "warranty": "依 PChome/供應商頁面",
+    "tags": [
+      "240Hz",
+      "FPS",
+      "FHD"
+    ]
+  },
+  {
+    "id": "monitor-aoc-q27g42ze",
+    "category": "monitor",
+    "rank": 10,
+    "budget": "value",
+    "channel": "tw",
+    "brand": "AOC",
+    "model": "Q27G42ZE",
+    "name": "27 型 QHD 260Hz IPS 電競螢幕",
+    "price": {
+      "currency": "TWD",
+      "amount": 4288,
+      "converted": 4288,
+      "confidence": "可信通路查核價"
+    },
+    "image": "https://cs-a.ecimg.tw/items/DSABQRA900JJPCW/000001_1765505711.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DSABQR-A900JJPCW",
+    "buyLabel": "PChome",
+    "specs": [
+      "27 吋",
+      "2K/QHD",
+      "260Hz",
+      "IPS",
+      "0.3ms"
+    ],
+    "description": "AOC Q27G42ZE 用很低價格給到 2K 260Hz，規格紙面 CP 值很強。",
+    "pros": [
+      "刷新率很高",
+      "2K 價格低",
+      "適合電競比較"
+    ],
+    "cons": [
+      "品牌售後需和 ASUS/BenQ 比較",
+      "色彩與支架需看實測"
+    ],
+    "bestFor": "重視高刷新規格、預算有限的玩家。",
+    "recommendation": "規格怪物推薦：若看重 Hz 與價格，AOC 這台很有競爭力。",
+    "score": 86,
+    "voltage": "110V 台灣通路",
+    "warranty": "依 PChome/供應商頁面",
+    "tags": [
+      "2K",
+      "260Hz",
+      "CP 值"
+    ]
+  },
+  {
+    "id": "monitor-philips-27m2n2500nf",
+    "category": "monitor",
+    "rank": 11,
+    "budget": "value",
+    "channel": "tw",
+    "brand": "Philips",
+    "model": "27M2N2500NF",
+    "name": "27 型 2K 144Hz IPS 電競螢幕",
+    "price": {
+      "currency": "TWD",
+      "amount": 3888,
+      "converted": 3888,
+      "confidence": "可信通路查核價"
+    },
+    "image": "https://cs-a.ecimg.tw/items/DSABQQA900K2OE1/000001_1780474188.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DSABQQ-A900K2OE1",
+    "buyLabel": "PChome",
+    "specs": [
+      "27 吋",
+      "2K/QHD",
+      "144Hz",
+      "IPS",
+      "HDMI"
+    ],
+    "description": "Philips 27M2N2500NF 是低價 2K 144Hz 選項，適合一般遊戲與文書混用。",
+    "pros": [
+      "價格低",
+      "2K 144Hz 基本盤完整",
+      "品牌辨識度高"
+    ],
+    "cons": [
+      "高階功能較少",
+      "支架與色準非專業定位"
+    ],
+    "bestFor": "預算四千上下、想買知名品牌 2K 螢幕。",
+    "recommendation": "平價品牌推薦：比無名款安心，價格接近低價甜蜜點。",
+    "score": 83,
+    "voltage": "110V 台灣通路",
+    "warranty": "依 PChome/供應商頁面",
+    "tags": [
+      "2K",
+      "144Hz",
+      "平價"
+    ]
+  },
+  {
+    "id": "monitor-eizo-ev2460",
+    "category": "monitor",
+    "rank": 12,
+    "budget": "mid",
+    "channel": "tw",
+    "brand": "EIZO",
+    "model": "FlexScan EV2460",
+    "name": "23.8 吋 IPS 超薄邊框商務螢幕",
+    "price": {
+      "currency": "TWD",
+      "amount": 10900,
+      "converted": 10900,
+      "confidence": "可信通路查核價"
+    },
+    "image": "https://cs-a.ecimg.tw/items/DSABABA900AHPRB/000001_1641969597.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DSABAB-A900AHPRB",
+    "buyLabel": "PChome",
+    "specs": [
+      "23.8 吋",
+      "FHD",
+      "IPS",
+      "商務",
+      "窄邊框"
+    ],
+    "description": "EIZO EV2460 不是規格 CP 取向，而是重視舒適、可靠與長期辦公品質。",
+    "pros": [
+      "EIZO 品牌與穩定性",
+      "辦公舒適度佳",
+      "耐用口碑好"
+    ],
+    "cons": [
+      "價格高於同規格 FHD",
+      "不適合遊戲規格黨"
+    ],
+    "bestFor": "長時間看文字、重視眼睛舒適與耐用的人。",
+    "recommendation": "長時間辦公推薦：規格普通但穩定舒適，適合文字工作者。",
+    "score": 81,
+    "voltage": "110V 台灣通路",
+    "warranty": "依 PChome/供應商頁面",
+    "tags": [
+      "辦公",
+      "EIZO",
+      "舒適"
+    ]
+  },
+  {
+    "id": "monitor-xiaomi-a27qi-2026",
+    "category": "monitor",
+    "rank": 13,
+    "budget": "value",
+    "channel": "tw",
+    "brand": "Xiaomi",
+    "model": "A27Qi 2026",
+    "name": "27 型 2K 120Hz 電腦螢幕",
+    "price": {
+      "currency": "TWD",
+      "amount": 3699,
+      "converted": 3699,
+      "confidence": "可信通路查核價"
+    },
+    "image": "https://cs-a.ecimg.tw/items/DSABVOA900JMD8B/000001_1768285501.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DSABVO-A900JMD8B",
+    "buyLabel": "PChome",
+    "specs": [
+      "27 吋",
+      "2K/QHD",
+      "120Hz",
+      "2026 款",
+      "平價"
+    ],
+    "description": "小米 A27Qi 2026 價格低、解析度高，適合預算有限的文書與一般娛樂。",
+    "pros": [
+      "價格低",
+      "2K 120Hz",
+      "外型簡潔"
+    ],
+    "cons": [
+      "品牌售後與調校需接受小米風格",
+      "遊戲規格不如 180Hz 以上款"
+    ],
+    "bestFor": "一般工作、學生與預算導向外接螢幕。",
+    "recommendation": "平價 2K 推薦：不追電競，想把解析度拉高就很划算。",
+    "score": 82,
+    "voltage": "110V 台灣通路",
+    "warranty": "依 PChome/供應商頁面",
+    "tags": [
+      "2K",
+      "120Hz",
+      "低價"
+    ]
+  },
+  {
+    "id": "monitor-lg-27up850k",
+    "category": "monitor",
+    "rank": 14,
+    "budget": "mid",
+    "channel": "tw",
+    "brand": "LG",
+    "model": "UltraFine 27UP850K-W",
+    "name": "27 型 4K IPS UltraFine 顯示器",
+    "price": {
+      "currency": "TWD",
+      "amount": 11900,
+      "converted": 11900,
+      "confidence": "可信通路查核價"
+    },
+    "image": "https://cs-a.ecimg.tw/items/DSABRBA900IUVR5/000001_1768806798.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DSABRB-A900IUVR5",
+    "buyLabel": "PChome",
+    "specs": [
+      "27 吋",
+      "4K/UHD",
+      "IPS",
+      "UltraFine",
+      "USB-C"
+    ],
+    "description": "LG UltraFine 27UP850K-W 適合 Mac/筆電生產力，4K 文字細緻度比 2K 明顯提升。",
+    "pros": [
+      "4K 文字細膩",
+      "LG 面板與設計口碑",
+      "適合筆電外接"
+    ],
+    "cons": [
+      "刷新率非電競取向",
+      "價格高於 2K 款"
+    ],
+    "bestFor": "程式、文書、修圖入門與 Mac 外接。",
+    "recommendation": "4K 生產力推薦：想要細緻文字與主流品牌，這台很穩。",
+    "score": 88,
+    "voltage": "110V 台灣通路",
+    "warranty": "依 PChome/供應商頁面",
+    "tags": [
+      "4K",
+      "生產力",
+      "Mac"
+    ]
+  },
+  {
+    "id": "monitor-asus-proart-pa278qev",
+    "category": "monitor",
+    "rank": 15,
+    "budget": "value",
+    "channel": "tw",
+    "brand": "ASUS",
+    "model": "ProArt PA278QEV",
+    "name": "27 型 2K IPS 專業螢幕",
+    "price": {
+      "currency": "TWD",
+      "amount": 5988,
+      "converted": 5988,
+      "confidence": "可信通路查核價"
+    },
+    "image": "https://cs-a.ecimg.tw/items/DSABBIA900JTZCP/000001_1773910733.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DSABBI-A900JTZCP",
+    "buyLabel": "PChome",
+    "specs": [
+      "27 吋",
+      "2K/QHD",
+      "IPS",
+      "ProArt",
+      "專業螢幕"
+    ],
+    "description": "ProArt PA278QEV 適合想要色彩取向但預算有限的人，比電競螢幕更偏創作與文書。",
+    "pros": [
+      "ProArt 系列",
+      "價格親民",
+      "適合創作入門"
+    ],
+    "cons": [
+      "不是 4K",
+      "刷新率非競技重點"
+    ],
+    "bestFor": "設計入門、修圖、影片剪輯與長時間文書。",
+    "recommendation": "創作入門推薦：比一般低價 2K 更重視色彩與工作用途。",
+    "score": 86,
+    "voltage": "110V 台灣通路",
+    "warranty": "依 PChome/供應商頁面",
+    "tags": [
+      "ProArt",
+      "2K",
+      "創作"
+    ]
+  },
+  {
+    "id": "monitor-asus-xg27ucg",
+    "category": "monitor",
+    "rank": 16,
+    "budget": "mid",
+    "channel": "tw",
+    "brand": "ASUS",
+    "model": "ROG Strix XG27UCG",
+    "name": "27 型 4K 160Hz IPS USB-C 電競螢幕",
+    "price": {
+      "currency": "TWD",
+      "amount": 7980,
+      "converted": 7980,
+      "confidence": "可信通路查核價"
+    },
+    "image": "https://cs-a.ecimg.tw/items/DSABW6A900K6A95/000001_1783072253.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DSABW6-A900K6A95",
+    "buyLabel": "PChome",
+    "specs": [
+      "27 吋",
+      "4K/UHD",
+      "160Hz",
+      "IPS",
+      "USB-C"
+    ],
+    "description": "XG27UCG 是 4K 高刷新與 USB-C 的高 CP 組合，適合遊戲主機與 PC 共用。",
+    "pros": [
+      "4K 160Hz 價格很強",
+      "USB-C 加分",
+      "ASUS 售後熟悉"
+    ],
+    "cons": [
+      "庫存很少",
+      "若不用 4K 可省預算買 2K"
+    ],
+    "bestFor": "PS5/PC 雙用、想要 4K 高刷新的人。",
+    "recommendation": "4K 電競 CP 推薦：規格對價格非常漂亮，有貨時值得優先看。",
+    "score": 90,
+    "voltage": "110V 台灣通路",
+    "warranty": "依 PChome/供應商頁面",
+    "tags": [
+      "4K",
+      "160Hz",
+      "USB-C"
+    ]
+  },
+  {
+    "id": "monitor-acer-predator-x27u-x2",
+    "category": "monitor",
+    "rank": 17,
+    "budget": "mid",
+    "channel": "tw",
+    "brand": "Acer",
+    "model": "Predator X27U X2",
+    "name": "27 型 2K 240Hz OLED 電競螢幕",
+    "price": {
+      "currency": "TWD",
+      "amount": 10999,
+      "converted": 10999,
+      "confidence": "可信通路查核價"
+    },
+    "image": "https://cs-a.ecimg.tw/items/DSABELA900IX8MS/000001_1754810956.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DSABEL-A900IX8MS",
+    "buyLabel": "PChome",
+    "specs": [
+      "27 吋",
+      "2K/QHD",
+      "OLED",
+      "240Hz",
+      "0.03ms"
+    ],
+    "description": "Predator X27U X2 把 OLED 240Hz 價格壓到中階帶，是想入門 OLED 電競的好選項。",
+    "pros": [
+      "OLED 價格漂亮",
+      "240Hz 適合競技",
+      "Acer Predator 系列"
+    ],
+    "cons": [
+      "OLED 需注意烙印保養",
+      "亮度與保固條件要核對"
+    ],
+    "bestFor": "想用較低預算體驗 OLED 遊戲畫面的人。",
+    "recommendation": "OLED 入門推薦：價格比多數 OLED 螢幕低，畫質升級感明顯。",
+    "score": 87,
+    "voltage": "110V 台灣通路",
+    "warranty": "依 PChome/供應商頁面",
+    "tags": [
+      "OLED",
+      "240Hz",
+      "電競"
+    ]
+  },
+  {
+    "id": "monitor-aoc-q27g4zmn",
+    "category": "monitor",
+    "rank": 18,
+    "budget": "mid",
+    "channel": "tw",
+    "brand": "AOC",
+    "model": "Q27G4ZMN",
+    "name": "27 型 2K 240Hz Mini LED 電競螢幕",
+    "price": {
+      "currency": "TWD",
+      "amount": 8588,
+      "converted": 8588,
+      "confidence": "可信通路查核價"
+    },
+    "image": "https://cs-a.ecimg.tw/items/DSABTAA900IGUKX/000001_1742198541.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DSABTA-A900IGUKX",
+    "buyLabel": "PChome",
+    "specs": [
+      "27 吋",
+      "2K/QHD",
+      "Mini LED",
+      "240Hz",
+      "1ms"
+    ],
+    "description": "AOC Q27G4ZMN 用 Mini LED 補足 HDR 與亮度，相比 OLED 少了烙印顧慮。",
+    "pros": [
+      "Mini LED 規格稀有",
+      "2K 240Hz",
+      "價格合理"
+    ],
+    "cons": [
+      "Mini LED 分區與調校需看實測",
+      "品牌售後不如一線大廠安心"
+    ],
+    "bestFor": "想要高亮 HDR 與高刷新，但擔心 OLED 烙印的人。",
+    "recommendation": "Mini LED 推薦：規格完整，適合 OLED 以外的高階電競候選。",
+    "score": 85,
+    "voltage": "110V 台灣通路",
+    "warranty": "依 PChome/供應商頁面",
+    "tags": [
+      "Mini LED",
+      "240Hz",
+      "HDR"
+    ]
+  },
+  {
+    "id": "monitor-samsung-oled-g5",
+    "category": "monitor",
+    "rank": 19,
+    "budget": "mid",
+    "channel": "tw",
+    "brand": "Samsung",
+    "model": "S27FG502SC Odyssey OLED G5",
+    "name": "27 型 2K 180Hz QD-OLED Odyssey G5",
+    "price": {
+      "currency": "TWD",
+      "amount": 11900,
+      "converted": 11900,
+      "confidence": "可信通路查核價"
+    },
+    "image": "https://cs-a.ecimg.tw/items/DSABONA900JTSHY/000001_1773805820.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DSABON-A900JTSHY",
+    "buyLabel": "PChome",
+    "specs": [
+      "27 吋",
+      "2K/QHD",
+      "QD-OLED",
+      "180Hz",
+      "0.03ms"
+    ],
+    "description": "Odyssey OLED G5 是三星 OLED 電競入門款，重點在 OLED 對比與反應速度。",
+    "pros": [
+      "QD-OLED 畫質",
+      "三星品牌",
+      "價格相對高階 OLED 可接受"
+    ],
+    "cons": [
+      "180Hz 不如 240/360Hz",
+      "OLED 保養與保固需確認"
+    ],
+    "bestFor": "看重遊戲畫面、電影黑位與 OLED 對比的人。",
+    "recommendation": "三星 OLED 推薦：畫質取向比純規格 Hz 更吸引人。",
+    "score": 86,
+    "voltage": "110V 台灣通路",
+    "warranty": "依 PChome/供應商頁面",
+    "tags": [
+      "OLED",
+      "Samsung",
+      "遊戲"
+    ]
+  },
+  {
+    "id": "monitor-gigabyte-m27up",
+    "category": "monitor",
+    "rank": 20,
+    "budget": "mid",
+    "channel": "tw",
+    "brand": "GIGABYTE",
+    "model": "M27UP",
+    "name": "27 型雙模 4K 160Hz / FHD 320Hz 電競螢幕",
+    "price": {
+      "currency": "TWD",
+      "amount": 8990,
+      "converted": 8990,
+      "confidence": "可信通路查核價"
+    },
+    "image": "https://cs-a.ecimg.tw/items/DSABHUA900J98GT/000001_1758009805.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DSABHU-A900J98GT",
+    "buyLabel": "PChome",
+    "specs": [
+      "27 吋",
+      "4K/UHD",
+      "160Hz",
+      "FHD 320Hz",
+      "KVM"
+    ],
+    "description": "M27UP 主打雙模，日常用 4K、競技可切 FHD 320Hz，還有 KVM 對多設備友善。",
+    "pros": [
+      "雙模很實用",
+      "KVM 對筆電/桌機友善",
+      "價格合理"
+    ],
+    "cons": [
+      "雙模使用情境較特定",
+      "色彩專業用途仍要校色"
+    ],
+    "bestFor": "同時接桌機與筆電、遊戲與工作切換的人。",
+    "recommendation": "多設備推薦：KVM 與雙模規格讓它很適合複合工作桌。",
+    "score": 88,
+    "voltage": "110V 台灣通路",
+    "warranty": "依 PChome/供應商頁面",
+    "tags": [
+      "4K",
+      "雙模",
+      "KVM"
+    ]
+  },
+  {
+    "id": "monitor-benq-ma270u",
+    "category": "monitor",
+    "rank": 21,
+    "budget": "mid",
+    "channel": "tw",
+    "brand": "BenQ",
+    "model": "MA270U",
+    "name": "27 型 4K Mac 外接護眼螢幕",
+    "price": {
+      "currency": "TWD",
+      "amount": 14888,
+      "converted": 14888,
+      "confidence": "可信通路查核價"
+    },
+    "image": "https://cs-a.ecimg.tw/items/DSABF1A900HW6JB/000001_1754623836.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DSABF1-A900HW6JB",
+    "buyLabel": "PChome",
+    "specs": [
+      "27 吋",
+      "4K/UHD",
+      "IPS",
+      "USB-C",
+      "Mac 外接"
+    ],
+    "description": "BenQ MA270U 專為 Mac 外接與護眼場景設計，色彩與亮度一致性比低價 4K 更有保障。",
+    "pros": [
+      "Mac 外接友善",
+      "4K 細緻",
+      "BenQ 護眼與售後"
+    ],
+    "cons": [
+      "價格高於一般 4K",
+      "非高刷新遊戲螢幕"
+    ],
+    "bestFor": "MacBook 使用者、設計文書與長時間辦公。",
+    "recommendation": "Mac 外接推薦：不想研究相容性與色彩調校時，MA 系列省心。",
+    "score": 89,
+    "voltage": "110V 台灣通路",
+    "warranty": "依 PChome/供應商頁面",
+    "tags": [
+      "Mac",
+      "4K",
+      "USB-C"
+    ]
+  },
+  {
+    "id": "monitor-benq-ew3290u",
+    "category": "monitor",
+    "rank": 22,
+    "budget": "mid",
+    "channel": "tw",
+    "brand": "BenQ",
+    "model": "EW3290U",
+    "name": "32 型 4K USB-C 影音護眼螢幕",
+    "price": {
+      "currency": "TWD",
+      "amount": 14888,
+      "converted": 14888,
+      "confidence": "可信通路查核價"
+    },
+    "image": "https://cs-a.ecimg.tw/items/DSABF1A900I90FS/000001_1736480988.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DSABF1-A900I90FS",
+    "buyLabel": "PChome",
+    "specs": [
+      "32 吋",
+      "4K/UHD",
+      "IPS",
+      "USB-C",
+      "影音護眼"
+    ],
+    "description": "EW3290U 適合需要大畫面 4K、追劇與文書兼用的人，32 吋比 27 吋更舒展。",
+    "pros": [
+      "32 吋 4K 好用",
+      "BenQ 護眼",
+      "USB-C 對筆電方便"
+    ],
+    "cons": [
+      "桌深不足會太大",
+      "高刷新遊戲不是主軸"
+    ],
+    "bestFor": "影音、文書、程式多視窗與筆電外接。",
+    "recommendation": "大尺寸 4K 推薦：需要空間與舒適度時，32 吋比 27 吋更有感。",
+    "score": 87,
+    "voltage": "110V 台灣通路",
+    "warranty": "依 PChome/供應商頁面",
+    "tags": [
+      "32吋",
+      "4K",
+      "USB-C"
+    ]
+  },
+  {
+    "id": "monitor-dell-u2724d",
+    "category": "monitor",
+    "rank": 23,
+    "budget": "mid",
+    "channel": "tw",
+    "brand": "Dell",
+    "model": "U2724D-4Y",
+    "name": "27 型 2K IPS USB-C UltraSharp 螢幕",
+    "price": {
+      "currency": "TWD",
+      "amount": 13888,
+      "converted": 13888,
+      "confidence": "可信通路查核價"
+    },
+    "image": "https://cs-a.ecimg.tw/items/DSABOMA900GS1DN/000001_1699955230.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DSABOM-A900GS1DN",
+    "buyLabel": "PChome",
+    "specs": [
+      "27 吋",
+      "2K/QHD",
+      "IPS",
+      "USB-C",
+      "四年保"
+    ],
+    "description": "Dell U2724D 重點是商務/創作可靠度、端口與保固，不靠高刷新取勝。",
+    "pros": [
+      "UltraSharp 系列",
+      "四年保固",
+      "辦公與創作穩"
+    ],
+    "cons": [
+      "同價位可買 4K 或 OLED",
+      "遊戲規格普通"
+    ],
+    "bestFor": "公司採購、文字工作、設計入門與多螢幕辦公。",
+    "recommendation": "商務主力推薦：長期穩定與保固，比規格表更重要時選它。",
+    "score": 86,
+    "voltage": "110V 台灣通路",
+    "warranty": "依 PChome/供應商頁面",
+    "tags": [
+      "UltraSharp",
+      "商務",
+      "四年保"
+    ]
+  },
+  {
+    "id": "monitor-dell-u2725qe",
+    "category": "monitor",
+    "rank": 24,
+    "budget": "premium",
+    "channel": "tw",
+    "brand": "Dell",
+    "model": "U2725QE-4Y",
+    "name": "27 型 4K Thunderbolt USB-C UltraSharp 螢幕",
+    "price": {
+      "currency": "TWD",
+      "amount": 27888,
+      "converted": 27888,
+      "confidence": "可信通路查核價"
+    },
+    "image": "https://cs-a.ecimg.tw/items/DSABOLA900IIFQG/000001_1744702043.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DSABOL-A900IIFQG",
+    "buyLabel": "PChome",
+    "specs": [
+      "27 吋",
+      "4K/UHD",
+      "IPS",
+      "Thunderbolt",
+      "USB-C"
+    ],
+    "description": "U2725QE 是高階生產力螢幕，Thunderbolt/USB-C 擴充與保固適合筆電工作站。",
+    "pros": [
+      "端口擴充完整",
+      "4K 細緻",
+      "Dell 保固與商務支援"
+    ],
+    "cons": [
+      "價格高",
+      "非遊戲取向"
+    ],
+    "bestFor": "Mac/Windows 筆電工作站、擴充座需求與商務環境。",
+    "recommendation": "高階生產力推薦：把螢幕當 Dock 與長期工作中樞時才值得。",
+    "score": 86,
+    "voltage": "110V 台灣通路",
+    "warranty": "依 PChome/供應商頁面",
+    "tags": [
+      "4K",
+      "Thunderbolt",
+      "商務"
+    ]
+  },
+  {
+    "id": "monitor-lg-27gx790a",
+    "category": "monitor",
+    "rank": 25,
+    "budget": "premium",
+    "channel": "tw",
+    "brand": "LG",
+    "model": "UltraGear 27GX790A-B",
+    "name": "27 型 QHD 480Hz OLED 電競螢幕",
+    "price": {
+      "currency": "TWD",
+      "amount": 22900,
+      "converted": 22900,
+      "confidence": "可信通路查核價"
+    },
+    "image": "https://cs-a.ecimg.tw/items/DSBC1ZA900IVK4E/000001_1782895465.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DSBC1Z-A900IVK4E",
+    "buyLabel": "PChome",
+    "specs": [
+      "27 吋",
+      "2K/QHD",
+      "OLED",
+      "480Hz",
+      "UltraGear"
+    ],
+    "description": "LG 27GX790A-B 是競技型 OLED，480Hz 對 FPS 玩家很有吸引力。",
+    "pros": [
+      "480Hz 極高刷新",
+      "OLED 反應快",
+      "LG UltraGear 系列"
+    ],
+    "cons": [
+      "價格高",
+      "OLED 保養與烙印風險需接受"
+    ],
+    "bestFor": "高階 FPS 玩家、追求極低延遲與 OLED 畫質的人。",
+    "recommendation": "高階競技推薦：若 240Hz 不夠，這台是 OLED 480Hz 代表。",
+    "score": 90,
+    "voltage": "110V 台灣通路",
+    "warranty": "依 PChome/供應商頁面",
+    "tags": [
+      "OLED",
+      "480Hz",
+      "FPS"
+    ]
+  },
+  {
+    "id": "monitor-asus-xg32ucwg",
+    "category": "monitor",
+    "rank": 26,
+    "budget": "premium",
+    "channel": "tw",
+    "brand": "ASUS",
+    "model": "XG32UCWG",
+    "name": "32 型 OLED 電競螢幕",
+    "price": {
+      "currency": "TWD",
+      "amount": 21212,
+      "converted": 21212,
+      "confidence": "可信通路查核價"
+    },
+    "image": "https://cs-a.ecimg.tw/items/DSABW5A900JNAEB/000001_1768452551.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DSABW5-A900JNAEB",
+    "buyLabel": "PChome",
+    "specs": [
+      "32 吋",
+      "OLED",
+      "電競",
+      "ASUS",
+      "大尺寸"
+    ],
+    "description": "XG32UCWG 適合想要 32 吋 OLED 大畫面，但預算低於頂級 Alienware/ROG 旗艦的人。",
+    "pros": [
+      "32 吋 OLED",
+      "ASUS 售後熟悉",
+      "價格相對高階 OLED 可接受"
+    ],
+    "cons": [
+      "規格細節需看頁面確認",
+      "OLED 需保養"
+    ],
+    "bestFor": "單機遊戲、影音與桌面大畫面玩家。",
+    "recommendation": "32 吋 OLED 推薦：價格比頂級款低，畫質升級感仍明顯。",
+    "score": 84,
+    "voltage": "110V 台灣通路",
+    "warranty": "依 PChome/供應商頁面",
+    "tags": [
+      "OLED",
+      "32吋",
+      "ASUS"
+    ]
+  },
+  {
+    "id": "monitor-asus-xg27aqdmes",
+    "category": "monitor",
+    "rank": 27,
+    "budget": "mid",
+    "channel": "tw",
+    "brand": "ASUS",
+    "model": "ROG Strix XG27AQDMES",
+    "name": "27 型 2K 240Hz QD-OLED 電競螢幕",
+    "price": {
+      "currency": "TWD",
+      "amount": 10888,
+      "converted": 10888,
+      "confidence": "可信通路查核價"
+    },
+    "image": "https://cs-a.ecimg.tw/items/DSABKBA900K092J/000001_1778642752.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DSABKB-A900K092J",
+    "buyLabel": "PChome",
+    "specs": [
+      "27 吋",
+      "2K/QHD",
+      "QD-OLED",
+      "240Hz",
+      "0.03ms"
+    ],
+    "description": "XG27AQDMES 是 ASUS 27 吋 OLED 電競的甜蜜價格點，通路庫存也比許多 OLED 更好。",
+    "pros": [
+      "OLED 240Hz 價格漂亮",
+      "ASUS/ROG 品牌",
+      "庫存相對足"
+    ],
+    "cons": [
+      "OLED 保養仍需注意",
+      "比 2K IPS 貴一倍左右"
+    ],
+    "bestFor": "想升級 OLED、又不想上兩三萬元旗艦的人。",
+    "recommendation": "OLED CP 推薦：ROG 品牌加上萬元出頭價格，很適合升級黨。",
+    "score": 89,
+    "voltage": "110V 台灣通路",
+    "warranty": "依 PChome/供應商頁面",
+    "tags": [
+      "OLED",
+      "240Hz",
+      "ROG"
+    ]
+  },
+  {
+    "id": "monitor-msi-271qrx",
+    "category": "monitor",
+    "rank": 28,
+    "budget": "premium",
+    "channel": "tw",
+    "brand": "MSI",
+    "model": "MPG 271QRX",
+    "name": "27 型 WQHD 360Hz QD-OLED 電競螢幕",
+    "price": {
+      "currency": "TWD",
+      "amount": 18900,
+      "converted": 18900,
+      "confidence": "可信通路查核價"
+    },
+    "image": "https://cs-a.ecimg.tw/items/DSBC1ZA900HE04M/000001_1757303897.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DSBC1Z-A900HE04M",
+    "buyLabel": "PChome",
+    "specs": [
+      "27 吋",
+      "2K/QHD",
+      "QD-OLED",
+      "360Hz",
+      "MSI MPG"
+    ],
+    "description": "MSI MPG 271QRX 是 360Hz OLED 競技款，適合追求畫質與高刷新都要的人。",
+    "pros": [
+      "360Hz OLED",
+      "MPG 高階系列",
+      "適合競技與畫質兼顧"
+    ],
+    "cons": [
+      "價格高",
+      "庫存少"
+    ],
+    "bestFor": "高階 FPS/MOBA 玩家與 OLED 競技需求。",
+    "recommendation": "360Hz OLED 推薦：比 240Hz 更進一步，適合高階玩家。",
+    "score": 88,
+    "voltage": "110V 台灣通路",
+    "warranty": "依 PChome/供應商頁面",
+    "tags": [
+      "OLED",
+      "360Hz",
+      "MSI"
+    ]
+  },
+  {
+    "id": "monitor-gigabyte-mo27q2a",
+    "category": "monitor",
+    "rank": 29,
+    "budget": "mid",
+    "channel": "tw",
+    "brand": "GIGABYTE",
+    "model": "MO27Q2A",
+    "name": "27 型 280Hz QD-OLED 電競螢幕",
+    "price": {
+      "currency": "TWD",
+      "amount": 14666,
+      "converted": 14666,
+      "confidence": "可信通路查核價"
+    },
+    "image": "https://cs-a.ecimg.tw/items/DSABW6A900JKTWS/000001_1782951412.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DSABW6-A900JKTWS",
+    "buyLabel": "PChome",
+    "specs": [
+      "27 吋",
+      "2K/QHD",
+      "QD-OLED",
+      "280Hz",
+      "HDR400"
+    ],
+    "description": "技嘉 MO27Q2A 介於萬元 OLED 與高階 360Hz 之間，價格與規格很平衡。",
+    "pros": [
+      "280Hz OLED",
+      "內建喇叭",
+      "價格中段"
+    ],
+    "cons": [
+      "庫存少",
+      "OLED 保固細節要確認"
+    ],
+    "bestFor": "想要比 240Hz 更高、但不想上 360/480Hz 價格的人。",
+    "recommendation": "OLED 中價推薦：規格完整，價格比頂級競技 OLED 友善。",
+    "score": 86,
+    "voltage": "110V 台灣通路",
+    "warranty": "依 PChome/供應商頁面",
+    "tags": [
+      "OLED",
+      "280Hz",
+      "GIGABYTE"
+    ]
+  },
+  {
+    "id": "monitor-viewsonic-vg2719u",
+    "category": "monitor",
+    "rank": 30,
+    "budget": "value",
+    "channel": "tw",
+    "brand": "ViewSonic",
+    "model": "VG2719U-4K",
+    "name": "27 型 4K IPS USB-C 人體工學螢幕",
+    "price": {
+      "currency": "TWD",
+      "amount": 7290,
+      "converted": 7290,
+      "confidence": "可信通路查核價"
+    },
+    "image": "https://cs-a.ecimg.tw/items/DSABEZA900K1N6R/000001_1782816950.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DSABEZ-A900K1N6R",
+    "buyLabel": "PChome",
+    "specs": [
+      "27 吋",
+      "4K/UHD",
+      "IPS",
+      "USB-C",
+      "人體工學支架"
+    ],
+    "description": "VG2719U-4K 用低價給到 4K、USB-C 與人體工學支架，工作用途 CP 值突出。",
+    "pros": [
+      "4K 價格低",
+      "USB-C",
+      "支架功能較完整"
+    ],
+    "cons": [
+      "刷新率非電競",
+      "品牌調校需看實測"
+    ],
+    "bestFor": "文書、程式、多視窗與筆電外接。",
+    "recommendation": "4K CP 推薦：想要便宜 4K USB-C 工作螢幕，可以優先看它。",
+    "score": 86,
+    "voltage": "110V 台灣通路",
+    "warranty": "依 PChome/供應商頁面",
+    "tags": [
+      "4K",
+      "USB-C",
+      "人體工學"
+    ]
+  },
+  {
+    "id": "monitor-viewsonic-vx2740d",
+    "category": "monitor",
+    "rank": 31,
+    "budget": "mid",
+    "channel": "tw",
+    "brand": "ViewSonic",
+    "model": "VX2740D-4K",
+    "name": "27 型 4K 160Hz IPS 雙模電競螢幕",
+    "price": {
+      "currency": "TWD",
+      "amount": 7988,
+      "converted": 7988,
+      "confidence": "可信通路查核價"
+    },
+    "image": "https://cs-a.ecimg.tw/items/DSABOIA900K129O/000001_1779250013.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DSABOI-A900K129O",
+    "buyLabel": "PChome",
+    "specs": [
+      "27 吋",
+      "4K/UHD",
+      "160Hz",
+      "IPS",
+      "雙模"
+    ],
+    "description": "VX2740D-4K 以八千元內切入 4K 160Hz，對遊戲主機與 PC 玩家很有吸引力。",
+    "pros": [
+      "4K 160Hz 價格低",
+      "ViewSonic 通路常見",
+      "適合遊戲主機"
+    ],
+    "cons": [
+      "高階 HDR 不是重點",
+      "支架與色彩需看頁面"
+    ],
+    "bestFor": "PS5/PC 雙用與入門 4K 高刷新玩家。",
+    "recommendation": "4K 遊戲 CP 推薦：價格接近中階 2K，但解析度升一級。",
+    "score": 85,
+    "voltage": "110V 台灣通路",
+    "warranty": "依 PChome/供應商頁面",
+    "tags": [
+      "4K",
+      "160Hz",
+      "遊戲主機"
+    ]
+  },
+  {
+    "id": "monitor-philips-27m2n3500pf",
+    "category": "monitor",
+    "rank": 32,
+    "budget": "value",
+    "channel": "tw",
+    "brand": "Philips",
+    "model": "27M2N3500PF",
+    "name": "27 型 QHD 260Hz IPS 電競螢幕",
+    "price": {
+      "currency": "TWD",
+      "amount": 5088,
+      "converted": 5088,
+      "confidence": "可信通路查核價"
+    },
+    "image": "https://cs-a.ecimg.tw/items/DSABQIA900J82S0/000001_1757486726.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DSABQI-A900J82S0",
+    "buyLabel": "PChome",
+    "specs": [
+      "27 吋",
+      "2K/QHD",
+      "260Hz",
+      "IPS",
+      "0.3ms"
+    ],
+    "description": "Philips 27M2N3500PF 是五千元級 2K 260Hz，適合看重刷新率又想買知名品牌的人。",
+    "pros": [
+      "260Hz 價格好",
+      "2K 規格完整",
+      "品牌辨識度高"
+    ],
+    "cons": [
+      "高階 HDR 與支架不是亮點",
+      "與 AOC 同規格要比保固"
+    ],
+    "bestFor": "FPS/MOBA、預算五千上下的玩家。",
+    "recommendation": "高刷新平價推薦：品牌與規格都不錯，適合和 AOC/技嘉一起比。",
+    "score": 84,
+    "voltage": "110V 台灣通路",
+    "warranty": "依 PChome/供應商頁面",
+    "tags": [
+      "2K",
+      "260Hz",
+      "Philips"
+    ]
+  },
+  {
+    "id": "monitor-aoc-q27g40xmn",
+    "category": "monitor",
+    "rank": 33,
+    "budget": "mid",
+    "channel": "tw",
+    "brand": "AOC",
+    "model": "Q27G40XMN",
+    "name": "27 型 2K 180Hz Mini LED 電競螢幕",
+    "price": {
+      "currency": "TWD",
+      "amount": 7788,
+      "converted": 7788,
+      "confidence": "可信通路查核價"
+    },
+    "image": "https://cs-a.ecimg.tw/items/DSABTAA900JBMD6/000001_1759809326.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DSABTA-A900JBMD6",
+    "buyLabel": "PChome",
+    "specs": [
+      "27 吋",
+      "2K/QHD",
+      "Mini LED",
+      "180Hz",
+      "1ms"
+    ],
+    "description": "Q27G40XMN 是較便宜的 2K Mini LED 選項，適合想要亮度與分區控光的人。",
+    "pros": [
+      "Mini LED 價格低",
+      "2K 180Hz",
+      "HDR 潛力較好"
+    ],
+    "cons": [
+      "實際分區效果需看評測",
+      "不是 OLED 黑位"
+    ],
+    "bestFor": "想要亮度與 HDR，但不想買 OLED 的玩家。",
+    "recommendation": "Mini LED 入門推薦：比 OLED 便宜且少烙印顧慮。",
+    "score": 83,
+    "voltage": "110V 台灣通路",
+    "warranty": "依 PChome/供應商頁面",
+    "tags": [
+      "Mini LED",
+      "2K",
+      "HDR"
+    ]
+  },
+  {
+    "id": "monitor-samsung-oled-g6-500",
+    "category": "monitor",
+    "rank": 34,
+    "budget": "premium",
+    "channel": "tw",
+    "brand": "Samsung",
+    "model": "S27FG602SC Odyssey OLED G6",
+    "name": "27 型 2K 500Hz OLED Odyssey G6",
+    "price": {
+      "currency": "TWD",
+      "amount": 26900,
+      "converted": 26900,
+      "confidence": "可信通路查核價"
+    },
+    "image": "https://cs-a.ecimg.tw/items/DSABSLA900JNWTU/000001_1768983299.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DSABSL-A900JNWTU",
+    "buyLabel": "PChome",
+    "specs": [
+      "27 吋",
+      "2K/QHD",
+      "OLED",
+      "500Hz",
+      "HDMI 2.1"
+    ],
+    "description": "Odyssey OLED G6 500Hz 是競技旗艦取向，刷新率比多數 OLED 競品更激進。",
+    "pros": [
+      "500Hz 極高刷新",
+      "OLED 反應速度",
+      "Samsung 旗艦規格"
+    ],
+    "cons": [
+      "價格高",
+      "需要高階顯卡才吃滿"
+    ],
+    "bestFor": "頂級 FPS 玩家與高階桌機。",
+    "recommendation": "競技旗艦推薦：只有真的追 500Hz 才需要它，否則 240Hz OLED 更划算。",
+    "score": 88,
+    "voltage": "110V 台灣通路",
+    "warranty": "依 PChome/供應商頁面",
+    "tags": [
+      "OLED",
+      "500Hz",
+      "旗艦"
+    ]
+  },
+  {
+    "id": "monitor-dell-aw3225qf",
+    "category": "monitor",
+    "rank": 35,
+    "budget": "premium",
+    "channel": "tw",
+    "brand": "Dell",
+    "model": "Alienware AW3225QF",
+    "name": "32 型 4K 240Hz OLED Alienware 電競螢幕",
+    "price": {
+      "currency": "TWD",
+      "amount": 33888,
+      "converted": 33888,
+      "confidence": "可信通路查核價"
+    },
+    "image": "https://cs-a.ecimg.tw/items/DSABOKA900HB1B5/000001_1710325731.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DSABOK-A900HB1B5",
+    "buyLabel": "PChome",
+    "specs": [
+      "32 吋",
+      "4K/UHD",
+      "OLED",
+      "240Hz",
+      "HDMI 2.1"
+    ],
+    "description": "Alienware AW3225QF 是 32 吋 4K OLED 旗艦代表，畫質、刷新率與保固都屬高階。",
+    "pros": [
+      "4K OLED 畫質頂級",
+      "240Hz",
+      "Dell/Alienware 保固較安心"
+    ],
+    "cons": [
+      "價格高",
+      "需要大桌深與高階顯卡"
+    ],
+    "bestFor": "高階遊戲、影音與想一次到位的玩家。",
+    "recommendation": "4K OLED 旗艦推薦：預算足夠且顯卡夠強時，這台很有代表性。",
+    "score": 91,
+    "voltage": "110V 台灣通路",
+    "warranty": "依 PChome/供應商頁面",
+    "tags": [
+      "4K",
+      "OLED",
+      "Alienware"
+    ]
+  },
+  {
+    "id": "monitor-eizo-cs2740",
+    "category": "monitor",
+    "rank": 36,
+    "budget": "premium",
+    "channel": "tw",
+    "brand": "EIZO",
+    "model": "ColorEdge CS2740",
+    "name": "27 型 4K AdobeRGB 99% 專業攝影螢幕",
+    "price": {
+      "currency": "TWD",
+      "amount": 59900,
+      "converted": 59900,
+      "confidence": "可信通路查核價"
+    },
+    "image": "https://cs-a.ecimg.tw/items/DSABGWA900ANM62/000001_1741748518.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DSABGW-A900ANM62",
+    "buyLabel": "PChome",
+    "specs": [
+      "27 吋",
+      "4K/UHD",
+      "AdobeRGB 99%",
+      "ColorEdge",
+      "攝影設計"
+    ],
+    "description": "ColorEdge CS2740 是專業攝影、印刷與色彩工作用螢幕，不以遊戲或 CP 值為主。",
+    "pros": [
+      "專業色彩口碑強",
+      "4K 細緻",
+      "適合嚴肅色彩工作"
+    ],
+    "cons": [
+      "價格非常高",
+      "一般辦公/遊戲不需要"
+    ],
+    "bestFor": "攝影、印刷、設計與需要穩定色彩管理的人。",
+    "recommendation": "專業色彩推薦：只有色彩準確度會帶來收益時才值得買。",
+    "score": 86,
+    "voltage": "110V 台灣通路",
+    "warranty": "依 PChome/供應商頁面",
+    "tags": [
+      "專業",
+      "4K",
+      "色彩管理"
+    ]
+  }
+]);
+})();
