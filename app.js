@@ -2449,7 +2449,7 @@ function cardMarkup(product) {
         <div class="badge-row">
           <span class="badge ${product.budget}">${budgetLabel(product.budget)}</span>
           <span class="badge ${product.channel === "global" ? "risk" : ""}">${channelLabel(product.channel)}</span>
-          ${product.topPick ? `<span class="badge value">Top Pick</span>` : ""}
+          ${product.topPick ? `<span class="badge value">綜合推薦</span>` : ""}
         </div>
         ${imageMarkup(product)}
       </div>

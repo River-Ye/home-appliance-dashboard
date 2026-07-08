@@ -242,8 +242,9 @@ a:focus-visible {
 
 .tabs {
   display: flex;
+  flex-wrap: wrap;
   gap: 8px;
-  overflow-x: auto;
+  overflow-x: visible;
   padding: 16px 2px 12px;
   scrollbar-width: thin;
 }
@@ -292,18 +293,24 @@ a:focus-visible {
 }
 
 .top-picks {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+  display: flex;
   gap: 12px;
+  overflow-x: auto;
+  overscroll-behavior-inline: contain;
+  scroll-snap-type: x proximity;
+  scrollbar-width: thin;
+  padding-bottom: 4px;
   margin-bottom: 20px;
 }
 
 .pick-card {
+  flex: 0 0 clamp(280px, 24vw, 360px);
   display: grid;
   grid-template-columns: 74px 1fr;
   gap: 12px;
   padding: 12px;
   min-height: 128px;
+  scroll-snap-align: start;
 }
 
 .pick-card img {
@@ -733,6 +740,8 @@ footer {
     position: sticky;
     top: 0;
     z-index: 4;
+    flex-wrap: nowrap;
+    overflow-x: auto;
     margin: 0 -10px;
     padding: 10px;
     background: rgba(246, 248, 251, 0.96);
@@ -745,7 +754,6 @@ footer {
     scroll-snap-align: start;
   }
 
-  .summary-grid,
   .product-grid,
   .pros-cons,
   .spec-list,
@@ -753,8 +761,31 @@ footer {
     grid-template-columns: 1fr;
   }
 
+  .summary-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 10px;
+  }
+
+  .summary-card {
+    padding: 14px;
+  }
+
+  .summary-card strong {
+    font-size: 24px;
+  }
+
   .product-grid {
     gap: 12px;
+  }
+
+  .top-picks {
+    margin-right: -10px;
+    margin-left: -10px;
+    padding: 0 10px 6px;
+  }
+
+  .pick-card {
+    flex-basis: min(86vw, 340px);
   }
 
   .image-wrap {
