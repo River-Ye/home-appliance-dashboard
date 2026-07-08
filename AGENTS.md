@@ -258,6 +258,7 @@
 - 使用者提出新的需求，或在後續聊天對話中延伸、修正同一需求時，AI 預設要自行建立專用 git worktree 與短期分支處理，不要直接在主要 branch 上開發。
 - 在 worktree 內完成實作、文件、測試與必要驗證；若遇到 conflict，AI 需自行判讀並解決，解完後重新執行相關驗證。
 - 完成後由 AI 自行將短期分支 merge 回主要 branch，確認主要 branch 狀態正確後再推送到 repo。
+- Merge 回主要 branch 時，若需要產生 merge commit，commit message 必須寫實際完成的行為或需求摘要，例如「補查商品上市發售日期」；不可使用 `Merge branch 'codex/...'` 這類只含分支名稱、缺乏語意的預設訊息。
 - Push 後需確認 GitHub Pages build 或相關部署/檢查沒有明顯問題，再回報公開頁面連結、commit hash 與驗證結果。
 - 確認沒有問題後，AI 需刪除本次建立的 worktree，避免留下已完成工作的臨時目錄。
 - 若使用者明確要求不要開 worktree、不要 merge、不要 push、保留 worktree，或指定其他 branch/流程，則以使用者最新指示為準。
@@ -265,6 +266,6 @@
 ## 發布規則
 
 - 這是公開 GitHub Pages repo；一般需求依照上方 git worktree 流程完成後 merge 到 `main` 並 push。
-- Commit message 使用繁體中文且簡短描述變更。
+- Commit message 使用繁體中文且簡短描述實際行為；包含 merge commit message，不要只寫分支名稱。
 - Push 後檢查 GitHub Pages build 狀態。
 - 最後回報公開頁面連結、commit hash、做了哪些驗證。
