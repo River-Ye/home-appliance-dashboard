@@ -40,13 +40,18 @@ a {
 }
 
 .topbar {
+  padding: 34px 0 24px;
+  background: linear-gradient(135deg, #f9fbff 0%, #e9f1f5 52%, #f3f0e8 100%);
+  border-bottom: 1px solid var(--line);
+}
+
+.topbar-inner {
   display: grid;
   grid-template-columns: minmax(0, 1fr) 360px;
   gap: 24px;
   align-items: end;
-  padding: 34px clamp(18px, 4vw, 56px) 24px;
-  background: linear-gradient(135deg, #f9fbff 0%, #e9f1f5 52%, #f3f0e8 100%);
-  border-bottom: 1px solid var(--line);
+  width: min(1480px, calc(100% - 32px));
+  margin: 0 auto;
 }
 
 .eyebrow {
@@ -156,19 +161,20 @@ main {
   display: none;
 }
 
-.toolbar label {
+.toolbar label,
+.combo-field {
   display: grid;
   gap: 5px;
 }
 
-.toolbar span {
+.toolbar span,
+.combo-field label {
   color: var(--muted);
   font-size: 12px;
   font-weight: 750;
 }
 
 .toolbar input,
-.toolbar select,
 .filter-toggle,
 .reset-button {
   width: 100%;
@@ -182,7 +188,6 @@ main {
 }
 
 .toolbar input:focus,
-.toolbar select:focus,
 .filter-toggle:focus-visible,
 .reset-button:focus-visible,
 button:focus-visible,
@@ -238,6 +243,101 @@ a:focus-visible {
 .filter-toggle[hidden],
 .filter-toggle strong[hidden] {
   display: none;
+}
+
+.combo-field {
+  min-width: 0;
+}
+
+.combo-control {
+  position: relative;
+  min-width: 0;
+}
+
+.combo-control input {
+  padding-right: 38px;
+}
+
+.combo-control input::-webkit-search-cancel-button {
+  appearance: none;
+}
+
+.combo-button {
+  position: absolute;
+  right: 3px;
+  top: 3px;
+  display: grid;
+  place-items: center;
+  width: 34px;
+  height: calc(100% - 6px);
+  color: var(--primary-dark);
+  background: transparent;
+  border: 0;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.combo-button::before {
+  width: 8px;
+  height: 8px;
+  border-right: 2px solid currentColor;
+  border-bottom: 2px solid currentColor;
+  content: "";
+  transform: rotate(45deg) translateY(-2px);
+  transition: transform 160ms ease;
+}
+
+.combo-control.open .combo-button::before {
+  transform: rotate(225deg) translate(-2px, -1px);
+}
+
+.combo-list {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: calc(100% + 4px);
+  z-index: 20;
+  max-height: min(320px, 52vh);
+  overflow-y: auto;
+  padding: 6px;
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  box-shadow: 0 20px 44px rgba(23, 32, 51, 0.18);
+}
+
+.combo-option,
+.combo-empty {
+  width: 100%;
+  min-height: 36px;
+  padding: 8px 10px;
+  color: var(--ink);
+  text-align: left;
+  background: transparent;
+  border: 0;
+  border-radius: 6px;
+}
+
+.combo-option {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.combo-option:hover,
+.combo-option.active {
+  color: var(--primary-dark);
+  background: #eaf2f7;
+}
+
+.combo-option[aria-selected="true"] {
+  color: #fff;
+  background: var(--primary-dark);
+}
+
+.combo-empty {
+  color: var(--muted);
 }
 
 .tabs {
@@ -659,7 +759,7 @@ footer {
 }
 
 @media (max-width: 1040px) {
-  .topbar {
+  .topbar-inner {
     grid-template-columns: 1fr;
   }
 
@@ -691,7 +791,11 @@ footer {
   }
 
   .topbar {
-    padding: 24px 14px 18px;
+    padding: 24px 0 18px;
+  }
+
+  .topbar-inner {
+    width: min(100% - 28px, 1480px);
   }
 
   h1 {
@@ -726,7 +830,6 @@ footer {
   }
 
   .toolbar input,
-  .toolbar select,
   .filter-toggle,
   .reset-button,
   .tab-button,

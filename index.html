@@ -4,19 +4,21 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>家電採購比較表</title>
-    <link rel="stylesheet" href="./styles.css?v=20260708-smartlock1">
+    <link rel="stylesheet" href="./styles.css?v=20260708-combo1">
   </head>
   <body>
     <header class="topbar">
-      <div>
-        <p class="eyebrow">Home Appliance Shortlist</p>
-        <h1>家電推薦比較工作台</h1>
-        <p class="subhead">以台灣使用情境為主，整合台灣與海外通路價格、規格、優劣與購買連結。</p>
-      </div>
-      <div class="rate-card" aria-label="匯率與擷取資訊">
-        <span>資料擷取</span>
-        <strong>2026-07-08</strong>
-        <small>可信通路低價查核；不採用不明網站。USD 1 = TWD 32.079；海外價未含國際運費、關稅與台灣保固。</small>
+      <div class="topbar-inner">
+        <div>
+          <p class="eyebrow">Home Appliance Shortlist</p>
+          <h1>家電推薦比較工作台</h1>
+          <p class="subhead">以台灣使用情境為主，整合台灣與海外通路價格、規格、優劣與購買連結。</p>
+        </div>
+        <div class="rate-card" aria-label="匯率與擷取資訊">
+          <span>資料擷取</span>
+          <strong>2026-07-08</strong>
+          <small>可信通路低價查核；不採用不明網站。USD 1 = TWD 32.079；海外價未含國際運費、關稅與台灣保固。</small>
+        </div>
       </div>
     </header>
 
@@ -31,40 +33,46 @@
           <strong id="activeFilterCount" hidden>0</strong>
         </button>
         <div id="advancedFilters" class="filter-panel">
-          <label>
-            <span>分類</span>
-            <select id="categorySelect"></select>
-          </label>
-          <label>
-            <span>品牌</span>
-            <select id="brandSelect"></select>
-          </label>
-          <label>
-            <span>預算</span>
-            <select id="budgetSelect">
-              <option value="all">全部</option>
-              <option value="value">CP 值</option>
-              <option value="mid">均衡</option>
-              <option value="premium">旗艦</option>
-            </select>
-          </label>
-          <label>
-            <span>通路</span>
-            <select id="channelSelect">
-              <option value="all">全部</option>
-              <option value="tw">台灣通路</option>
-              <option value="global">海外通路</option>
-            </select>
-          </label>
-          <label>
-            <span>排序</span>
-            <select id="sortSelect">
-              <option value="rank">推薦排序</option>
-              <option value="priceAsc">價格低到高</option>
-              <option value="priceDesc">價格高到低</option>
-              <option value="scoreDesc">評估分數</option>
-            </select>
-          </label>
+          <div class="combo-field">
+            <label id="categoryInputLabel" for="categoryInput">分類</label>
+            <div class="combo-control" data-combo="category">
+              <input id="categoryInput" type="search" autocomplete="off" role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="categoryOptions" aria-labelledby="categoryInputLabel" placeholder="搜尋分類">
+              <button class="combo-button" type="button" aria-label="展開分類選項" tabindex="-1"></button>
+              <div id="categoryOptions" class="combo-list" role="listbox" hidden></div>
+            </div>
+          </div>
+          <div class="combo-field">
+            <label id="brandInputLabel" for="brandInput">品牌</label>
+            <div class="combo-control" data-combo="brand">
+              <input id="brandInput" type="search" autocomplete="off" role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="brandOptions" aria-labelledby="brandInputLabel" placeholder="搜尋品牌">
+              <button class="combo-button" type="button" aria-label="展開品牌選項" tabindex="-1"></button>
+              <div id="brandOptions" class="combo-list" role="listbox" hidden></div>
+            </div>
+          </div>
+          <div class="combo-field">
+            <label id="budgetInputLabel" for="budgetInput">預算</label>
+            <div class="combo-control" data-combo="budget">
+              <input id="budgetInput" type="search" autocomplete="off" role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="budgetOptions" aria-labelledby="budgetInputLabel" placeholder="搜尋預算">
+              <button class="combo-button" type="button" aria-label="展開預算選項" tabindex="-1"></button>
+              <div id="budgetOptions" class="combo-list" role="listbox" hidden></div>
+            </div>
+          </div>
+          <div class="combo-field">
+            <label id="channelInputLabel" for="channelInput">通路</label>
+            <div class="combo-control" data-combo="channel">
+              <input id="channelInput" type="search" autocomplete="off" role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="channelOptions" aria-labelledby="channelInputLabel" placeholder="搜尋通路">
+              <button class="combo-button" type="button" aria-label="展開通路選項" tabindex="-1"></button>
+              <div id="channelOptions" class="combo-list" role="listbox" hidden></div>
+            </div>
+          </div>
+          <div class="combo-field">
+            <label id="sortInputLabel" for="sortInput">排序</label>
+            <div class="combo-control" data-combo="sort">
+              <input id="sortInput" type="search" autocomplete="off" role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="sortOptions" aria-labelledby="sortInputLabel" placeholder="搜尋排序">
+              <button class="combo-button" type="button" aria-label="展開排序選項" tabindex="-1"></button>
+              <div id="sortOptions" class="combo-list" role="listbox" hidden></div>
+            </div>
+          </div>
           <button id="resetFilters" type="button" class="reset-button">重設篩選</button>
         </div>
       </section>
@@ -116,6 +124,6 @@
       <a id="mobileCompareLink" href="#comparePanel">比較 <strong id="mobileCompareCount">0</strong></a>
     </nav>
 
-    <script src="./app.js?v=20260708-smartlock1"></script>
+    <script src="./app.js?v=20260708-combo1"></script>
   </body>
 </html>

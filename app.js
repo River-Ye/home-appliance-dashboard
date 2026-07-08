@@ -3122,17 +3122,269 @@ function filteredProducts() {
   }));
 }
 
-function renderSelects() {
-  const categorySelect = document.getElementById("categorySelect");
-  categorySelect.innerHTML = `<option value="all">全部分類</option>${categories
-    .map((category) => `<option value="${category.id}">${category.label}</option>`)
-    .join("")}`;
+const filterControlNames = ["category", "brand", "budget", "channel", "sort"];
+const comboState = Object.fromEntries(filterControlNames.map((name) => [name, { open: false, activeIndex: 0 }]));
 
-  const brands = [...new Set(products.map((product) => product.brand))].sort((a, b) => a.localeCompare(b, "zh-Hant"));
-  const brandSelect = document.getElementById("brandSelect");
-  brandSelect.innerHTML = `<option value="all">全部品牌</option>${brands
-    .map((brand) => `<option value="${brand}">${brand}</option>`)
-    .join("")}`;
+function normalizeText(value) {
+  return String(value || "").trim().toLowerCase();
+}
+
+function escapeHtml(value) {
+  return String(value)
+    .replaceAll("&", "&amp;")
+    .replaceAll("<", "&lt;")
+    .replaceAll(">", "&gt;")
+    .replaceAll('"', "&quot;")
+    .replaceAll("'", "&#039;");
+}
+
+function filterStateValue(name) {
+  return state[name];
+}
+
+function filterOptions(name) {
+  if (name === "category") {
+    return [
+      { value: "all", label: "全部分類", keywords: "all" },
+      ...categories.map((category) => ({
+        value: category.id,
+        label: category.label,
+        keywords: `${category.id} ${category.label}`,
+      })),
+    ];
+  }
+
+  if (name === "brand") {
+    const brands = [...new Set(products.map((product) => product.brand))].sort((a, b) => a.localeCompare(b, "zh-Hant"));
+    return [
+      { value: "all", label: "全部品牌", keywords: "all" },
+      ...brands.map((brand) => ({ value: brand, label: brand, keywords: brand })),
+    ];
+  }
+
+  if (name === "budget") {
+    return [
+      { value: "all", label: "全部", keywords: "all 所有預算" },
+      { value: "value", label: "CP 值", keywords: "value cp 低價" },
+      { value: "mid", label: "均衡", keywords: "mid 中階" },
+      { value: "premium", label: "旗艦", keywords: "premium 高階" },
+    ];
+  }
+
+  if (name === "channel") {
+    return [
+      { value: "all", label: "全部", keywords: "all 所有通路" },
+      { value: "tw", label: "台灣通路", keywords: "tw 台灣 公司貨 pchome momo yahoo costco" },
+      { value: "global", label: "海外通路", keywords: "global 海外 amazon best buy 國外" },
+    ];
+  }
+
+  return [
+    { value: "rank", label: "推薦排序", keywords: "rank 推薦 綜合" },
+    { value: "priceAsc", label: "價格低到高", keywords: "price asc 低價 便宜" },
+    { value: "priceDesc", label: "價格高到低", keywords: "price desc 高價" },
+    { value: "scoreDesc", label: "評估分數", keywords: "score 分數 評估" },
+  ];
+}
+
+function selectedFilterOption(name) {
+  const selected = filterOptions(name).find((option) => option.value === filterStateValue(name));
+  return selected || filterOptions(name)[0];
+}
+
+function filterInput(name) {
+  return document.getElementById(`${name}Input`);
+}
+
+function filterList(name) {
+  return document.getElementById(`${name}Options`);
+}
+
+function filterControl(name) {
+  return document.querySelector(`[data-combo="${name}"]`);
+}
+
+function comboQuery(name) {
+  const input = filterInput(name);
+  const selected = selectedFilterOption(name);
+  const raw = input ? input.value.trim() : "";
+  if (!raw || normalizeText(raw) === normalizeText(selected.label)) return "";
+  return normalizeText(raw);
+}
+
+function filteredComboOptions(name) {
+  const query = comboQuery(name);
+  const options = filterOptions(name);
+  if (!query) return options;
+  return options.filter((option) => normalizeText(`${option.label} ${option.keywords}`).includes(query));
+}
+
+function renderComboOptions(name) {
+  const input = filterInput(name);
+  const list = filterList(name);
+  if (!input || !list) return;
+
+  const options = filteredComboOptions(name);
+  const selectedValue = filterStateValue(name);
+  comboState[name].activeIndex = Math.min(Math.max(comboState[name].activeIndex, 0), Math.max(options.length - 1, 0));
+
+  if (!options.length) {
+    list.innerHTML = `<div class="combo-empty">沒有符合的選項</div>`;
+    input.removeAttribute("aria-activedescendant");
+    return;
+  }
+
+  list.innerHTML = options.map((option, index) => {
+    const active = index === comboState[name].activeIndex;
+    const selected = option.value === selectedValue;
+    return `
+      <button
+        id="${name}Option${index}"
+        class="combo-option ${active ? "active" : ""}"
+        type="button"
+        role="option"
+        data-value="${escapeHtml(option.value)}"
+        aria-selected="${selected}"
+        tabindex="-1"
+      >
+        <span>${escapeHtml(option.label)}</span>
+      </button>
+    `;
+  }).join("");
+
+  input.setAttribute("aria-activedescendant", `${name}Option${comboState[name].activeIndex}`);
+}
+
+function syncComboInput(name, force = false) {
+  const input = filterInput(name);
+  if (!input) return;
+  if (!force && document.activeElement === input) return;
+  input.value = selectedFilterOption(name).label;
+}
+
+function syncControls(force = false) {
+  filterControlNames.forEach((name) => syncComboInput(name, force));
+  document.getElementById("searchInput").value = state.search;
+}
+
+function setComboOpen(name, open) {
+  const input = filterInput(name);
+  const list = filterList(name);
+  const control = filterControl(name);
+  if (!input || !list || !control) return;
+
+  comboState[name].open = open;
+  control.classList.toggle("open", open);
+  input.setAttribute("aria-expanded", String(open));
+  list.hidden = !open;
+
+  if (!open) {
+    input.removeAttribute("aria-activedescendant");
+    return;
+  }
+
+  const options = filteredComboOptions(name);
+  const selectedIndex = options.findIndex((option) => option.value === filterStateValue(name));
+  comboState[name].activeIndex = selectedIndex >= 0 ? selectedIndex : 0;
+  renderComboOptions(name);
+}
+
+function closeAllCombos(exceptName = "") {
+  filterControlNames.forEach((name) => {
+    if (name !== exceptName) setComboOpen(name, false);
+  });
+}
+
+function selectFilterValue(name, value) {
+  if (name === "category") {
+    state.category = value;
+  } else {
+    state[name] = value;
+  }
+  syncComboInput(name, true);
+  setComboOpen(name, false);
+  render();
+}
+
+function moveComboActiveOption(name, direction) {
+  if (!comboState[name].open) setComboOpen(name, true);
+  const options = filteredComboOptions(name);
+  if (!options.length) return;
+  comboState[name].activeIndex = (comboState[name].activeIndex + direction + options.length) % options.length;
+  renderComboOptions(name);
+  document.getElementById(`${name}Option${comboState[name].activeIndex}`)?.scrollIntoView({ block: "nearest" });
+}
+
+function selectActiveComboOption(name) {
+  const options = filteredComboOptions(name);
+  const option = options[comboState[name].activeIndex];
+  if (option) selectFilterValue(name, option.value);
+}
+
+function initializeFilterCombos() {
+  filterControlNames.forEach((name) => {
+    const input = filterInput(name);
+    const list = filterList(name);
+    const control = filterControl(name);
+    const button = control?.querySelector(".combo-button");
+    if (!input || !list || !control || !button) return;
+
+    input.addEventListener("focus", () => {
+      closeAllCombos(name);
+      setComboOpen(name, true);
+      input.select();
+    });
+
+    input.addEventListener("input", () => {
+      comboState[name].activeIndex = 0;
+      setComboOpen(name, true);
+      renderComboOptions(name);
+    });
+
+    input.addEventListener("keydown", (event) => {
+      if (event.key === "ArrowDown") {
+        event.preventDefault();
+        moveComboActiveOption(name, 1);
+      } else if (event.key === "ArrowUp") {
+        event.preventDefault();
+        moveComboActiveOption(name, -1);
+      } else if (event.key === "Enter") {
+        event.preventDefault();
+        selectActiveComboOption(name);
+      } else if (event.key === "Escape") {
+        setComboOpen(name, false);
+        syncComboInput(name, true);
+      }
+    });
+
+    input.addEventListener("blur", () => {
+      window.setTimeout(() => {
+        if (control.contains(document.activeElement)) return;
+        setComboOpen(name, false);
+        syncComboInput(name, true);
+      }, 80);
+    });
+
+    button.addEventListener("mousedown", (event) => event.preventDefault());
+    button.addEventListener("click", () => {
+      closeAllCombos(name);
+      const shouldOpen = !comboState[name].open;
+      input.focus();
+      setComboOpen(name, shouldOpen);
+    });
+
+    list.addEventListener("mousedown", (event) => event.preventDefault());
+    list.addEventListener("click", (event) => {
+      const optionButton = event.target.closest("[data-value]");
+      if (!optionButton) return;
+      selectFilterValue(name, optionButton.dataset.value);
+    });
+  });
+
+  document.addEventListener("click", (event) => {
+    if (event.target.closest(".combo-control")) return;
+    closeAllCombos();
+  });
 }
 
 function renderTabs() {
@@ -3321,17 +3573,8 @@ function render() {
 
 function setCategory(category) {
   state.category = category;
-  syncControls();
+  syncControls(true);
   render();
-}
-
-function syncControls() {
-  document.getElementById("categorySelect").value = state.category;
-  document.getElementById("brandSelect").value = state.brand;
-  document.getElementById("budgetSelect").value = state.budget;
-  document.getElementById("channelSelect").value = state.channel;
-  document.getElementById("sortSelect").value = state.sort;
-  document.getElementById("searchInput").value = state.search;
 }
 
 function resetFilters() {
@@ -3341,7 +3584,8 @@ function resetFilters() {
   state.channel = "all";
   state.sort = "rank";
   state.search = "";
-  syncControls();
+  syncControls(true);
+  closeAllCombos();
   render();
 }
 
@@ -3387,32 +3631,13 @@ function updateMobileDock() {
 }
 
 document.addEventListener("DOMContentLoaded", () => {
-  renderSelects();
-  syncControls();
+  initializeFilterCombos();
+  syncControls(true);
   render();
   updateMobileDock();
 
   document.getElementById("searchInput").addEventListener("input", (event) => {
     state.search = event.target.value;
-    render();
-  });
-  document.getElementById("categorySelect").addEventListener("change", (event) => {
-    setCategory(event.target.value);
-  });
-  document.getElementById("brandSelect").addEventListener("change", (event) => {
-    state.brand = event.target.value;
-    render();
-  });
-  document.getElementById("budgetSelect").addEventListener("change", (event) => {
-    state.budget = event.target.value;
-    render();
-  });
-  document.getElementById("channelSelect").addEventListener("change", (event) => {
-    state.channel = event.target.value;
-    render();
-  });
-  document.getElementById("sortSelect").addEventListener("change", (event) => {
-    state.sort = event.target.value;
     render();
   });
   document.getElementById("resetFilters").addEventListener("click", resetFilters);
