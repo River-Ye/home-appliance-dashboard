@@ -1,13 +1,13 @@
 {
   "summary": {
-    "checkedAt": "2026-07-08T11:02:08.482Z",
+    "checkedAt": "2026-07-08T11:19:20.495Z",
     "total": 590,
-    "found": 128,
-    "missing": 462,
+    "found": 129,
+    "missing": 461,
     "byConfidence": {
-      "official": 57,
+      "official": 58,
       "credible_article": 70,
-      "not_found": 462,
+      "not_found": 461,
       "retailer_explicit": 1
     }
   },
@@ -444,12 +444,14 @@
       "brand": "Sony",
       "model": "HT-S100F",
       "name": "2.0 聲道單件式藍牙 Soundbar",
-      "releaseDate": "找不到",
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "confidence": "not_found",
-      "query": "Sony S100F release date launch announced"
+      "releaseDate": "2018-02-17",
+      "sourceUrl": "https://www.sony.jp/CorporateCruise/Press/201801/18-0115/",
+      "sourceTitle": "テレビ前にも手軽に置けるサウンドバー2機種を発売 | プレスリリース | ソニー",
+      "evidenceSnippet": "Sony's official January 2018 press release lists HT-S100F in the release-date table with a February 17 launch date.",
+      "confidence": "official",
+      "query": "Sony S100F release date launch announced",
+      "sourceKind": "manual_research",
+      "reason": ""
     },
     {
       "id": "soundbar-extra-13-dmaahg-a900jcy2v",

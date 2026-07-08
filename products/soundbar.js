@@ -544,7 +544,7 @@
       "入門",
       "簡潔"
     ],
-    "releaseDate": "找不到"
+    "releaseDate": "2018-02-17"
   },
   {
     "id": "soundbar-extra-13-dmaahg-a900jcy2v",
