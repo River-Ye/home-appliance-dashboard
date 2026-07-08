@@ -197,8 +197,8 @@
     "name": "乾濕全能洗地吸塵器",
     "price": {
       "currency": "TWD",
-      "amount": 22900,
-      "converted": 22900,
+      "amount": 24900,
+      "converted": 24900,
       "confidence": "可信通路查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBF05A900GCL8W/000001_1780460543.jpg",
@@ -255,7 +255,7 @@
       "Fluffy 吸頭",
       "SV46"
     ],
-    "description": "Dyson V12 Fluffy SV46 是吸塵器類的補充比較型號，依 2026-07-08 通路頁面整理售價、圖片與核心規格。",
+    "description": "Dyson V12 Fluffy SV46 是吸塵器類的補充比較型號，依 2026-07-09 通路頁面整理售價、圖片與核心規格。",
     "pros": [
       "從手持到洗地機價差清楚",
       "可依重量與吸頭配置挑選"
@@ -300,7 +300,7 @@
       "雙主吸頭",
       "SV49"
     ],
-    "description": "Dyson V12s Origin Submarine SV49 是吸塵器類的補充比較型號，依 2026-07-08 通路頁面整理售價、圖片與核心規格。",
+    "description": "Dyson V12s Origin Submarine SV49 是吸塵器類的補充比較型號，依 2026-07-09 通路頁面整理售價、圖片與核心規格。",
     "pros": [
       "從手持到洗地機價差清楚",
       "可依重量與吸頭配置挑選"
@@ -345,7 +345,7 @@
       "除螨",
       "SV47"
     ],
-    "description": "Dyson V15 Detect Fluffy SV47 是吸塵器類的補充比較型號，依 2026-07-08 通路頁面整理售價、圖片與核心規格。",
+    "description": "Dyson V15 Detect Fluffy SV47 是吸塵器類的補充比較型號，依 2026-07-09 通路頁面整理售價、圖片與核心規格。",
     "pros": [
       "從手持到洗地機價差清楚",
       "可依重量與吸頭配置挑選"
@@ -377,8 +377,8 @@
     "name": "V8 Focus Mattress origin 強勁無線除塵螨機",
     "price": {
       "currency": "TWD",
-      "amount": 6999,
-      "converted": 6999,
+      "amount": 7990,
+      "converted": 7990,
       "confidence": "可信通路查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAX00A900HC5BZ/000001_1780458569.jpg",
@@ -390,7 +390,7 @@
       "床墊清潔",
       "HH15"
     ],
-    "description": "Dyson V8 Focus Mattress HH15 是吸塵器類的補充比較型號，依 2026-07-08 通路頁面整理售價、圖片與核心規格。",
+    "description": "Dyson V8 Focus Mattress HH15 是吸塵器類的補充比較型號，依 2026-07-09 通路頁面整理售價、圖片與核心規格。",
     "pros": [
       "從手持到洗地機價差清楚",
       "可依重量與吸頭配置挑選"
@@ -422,8 +422,8 @@
     "name": "CordZero A9X 蒸氣濕拖自動集塵無線吸塵器",
     "price": {
       "currency": "TWD",
-      "amount": 25900,
-      "converted": 25900,
+      "amount": 26900,
+      "converted": 26900,
       "confidence": "可信通路查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAX8KA900HLXAQ/000001_1744871444.jpg",
@@ -435,7 +435,7 @@
       "自動集塵",
       "LCD 螢幕"
     ],
-    "description": "LG CordZero A9X-STEAM 是吸塵器類的補充比較型號，依 2026-07-08 通路頁面整理售價、圖片與核心規格。",
+    "description": "LG CordZero A9X-STEAM 是吸塵器類的補充比較型號，依 2026-07-09 通路頁面整理售價、圖片與核心規格。",
     "pros": [
       "從手持到洗地機價差清楚",
       "可依重量與吸頭配置挑選"
@@ -480,7 +480,7 @@
       "快清式",
       "A7-LITE"
     ],
-    "description": "LG CordZero A9 Air A7-LITE 是吸塵器類的補充比較型號，依 2026-07-08 通路頁面整理售價、圖片與核心規格。",
+    "description": "LG CordZero A9 Air A7-LITE 是吸塵器類的補充比較型號，依 2026-07-09 通路頁面整理售價、圖片與核心規格。",
     "pros": [
       "從手持到洗地機價差清楚",
       "可依重量與吸頭配置挑選"
@@ -525,7 +525,7 @@
       "雪霧白",
       "A9 Air"
     ],
-    "description": "LG CordZero A9 Air 是吸塵器類的補充比較型號，依 2026-07-08 通路頁面整理售價、圖片與核心規格。",
+    "description": "LG CordZero A9 Air 是吸塵器類的補充比較型號，依 2026-07-09 通路頁面整理售價、圖片與核心規格。",
     "pros": [
       "從手持到洗地機價差清楚",
       "可依重量與吸頭配置挑選"
@@ -570,7 +570,7 @@
       "小空間",
       "入門價位"
     ],
-    "description": "Siroca SV-SP3710 是吸塵器類的補充比較型號，依 2026-07-08 通路頁面整理售價、圖片與核心規格。",
+    "description": "Siroca SV-SP3710 是吸塵器類的補充比較型號，依 2026-07-09 通路頁面整理售價、圖片與核心規格。",
     "pros": [
       "從手持到洗地機價差清楚",
       "可依重量與吸頭配置挑選"
@@ -615,7 +615,7 @@
       "簡約設計",
       "入門價格"
     ],
-    "description": "Plus Minus Zero XJC-Y011 是吸塵器類的補充比較型號，依 2026-07-08 通路頁面整理售價、圖片與核心規格。",
+    "description": "Plus Minus Zero XJC-Y011 是吸塵器類的補充比較型號，依 2026-07-09 通路頁面整理售價、圖片與核心規格。",
     "pros": [
       "從手持到洗地機價差清楚",
       "可依重量與吸頭配置挑選"
@@ -660,7 +660,7 @@
       "無線",
       "入門價位"
     ],
-    "description": "HERAN HVC-35SC050 是吸塵器類的補充比較型號，依 2026-07-08 通路頁面整理售價、圖片與核心規格。",
+    "description": "HERAN HVC-35SC050 是吸塵器類的補充比較型號，依 2026-07-09 通路頁面整理售價、圖片與核心規格。",
     "pros": [
       "從手持到洗地機價差清楚",
       "可依重量與吸頭配置挑選"
@@ -694,7 +694,7 @@
       "currency": "TWD",
       "amount": 15488,
       "converted": 15488,
-      "confidence": "可信通路查核價，擷取 2026-07-08"
+      "confidence": "可信通路查核價，擷取 2026-07-09"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAXB5A900JP6TZ/000001_1770084365.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAXB5-A900JP6TZ",
@@ -739,7 +739,7 @@
       "currency": "TWD",
       "amount": 19900,
       "converted": 19900,
-      "confidence": "可信通路查核價，擷取 2026-07-08"
+      "confidence": "可信通路查核價，擷取 2026-07-09"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAX00A900JPJ7H/000001_1777291832.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAX00-A900JPJ7H",
@@ -784,7 +784,7 @@
       "currency": "TWD",
       "amount": 15988,
       "converted": 15988,
-      "confidence": "可信通路查核價，擷取 2026-07-08"
+      "confidence": "可信通路查核價，擷取 2026-07-09"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAXB5A900JCN6G/000001_1760586651.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAXB5-A900JCN6G",
@@ -827,9 +827,9 @@
     "name": "One Box 自動集塵吸塵器",
     "price": {
       "currency": "TWD",
-      "amount": 9290,
-      "converted": 9290,
-      "confidence": "可信通路查核價，擷取 2026-07-08"
+      "amount": 9310,
+      "converted": 9310,
+      "confidence": "可信通路查核價，擷取 2026-07-09"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAX0ZA900HIGMZ/000001_1716798929.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAX0Z-A900HIGMZ",
@@ -874,7 +874,7 @@
       "currency": "TWD",
       "amount": 12000,
       "converted": 12000,
-      "confidence": "可信通路查核價，擷取 2026-07-08"
+      "confidence": "可信通路查核價，擷取 2026-07-09"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAX0ZA900K4IQZ/000001_1781668428.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAX0Z-A900K4IQZ",

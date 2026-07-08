@@ -6,10 +6,10 @@
     source: "ExchangeRate-API",
     date: "2026-07-08 00:02 UTC",
     USD_TWD: 32.127508,
-    GBP_TWD: 42.935,
-    EUR_TWD: 36.683,
-    JPY_TWD: 0.198,
-    CNY_TWD: 4.723,
+    GBP_TWD: 42.934626,
+    EUR_TWD: 36.683361,
+    JPY_TWD: 0.198184,
+    CNY_TWD: 4.723326,
   };
 
   const categories = [
@@ -57,7 +57,7 @@
     initialProductLimit: 12,
     loadMoreProductCount: 40,
     filterControlNames: ["category", "brand", "budget", "channel", "sort"],
-    cacheVersion: "20260709-costco1",
+    cacheVersion: "20260709-price1",
   };
 
   function registerProducts(categoryId, items) {

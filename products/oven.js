@@ -62,8 +62,8 @@
     "name": "26L 8 合 1 變頻氣炸蒸烤微波爐",
     "price": {
       "currency": "TWD",
-      "amount": 16562,
-      "converted": 16562,
+      "amount": 19900,
+      "converted": 19900,
       "confidence": "可信通路查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBJ02A900J1WEX/000001_1753093870.jpg",
@@ -107,8 +107,8 @@
     "name": "30L 蒸氣烘烤微波爐",
     "price": {
       "currency": "TWD",
-      "amount": 19399,
-      "converted": 19399,
+      "amount": 24900,
+      "converted": 24900,
       "confidence": "可信通路查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBJ02A900IXED0/000001_1749708993.jpg",
@@ -255,7 +255,7 @@
       "乾果/舒肥/優格",
       "質感黑"
     ],
-    "description": "only OM27-M54 是多功能氣炸烤箱/微波爐類的補充比較型號，依 2026-07-08 通路頁面整理售價、圖片與核心規格。",
+    "description": "only OM27-M54 是多功能氣炸烤箱/微波爐類的補充比較型號，依 2026-07-09 通路頁面整理售價、圖片與核心規格。",
     "pros": [
       "一機多用節省檯面",
       "高階款蒸烤與微波整合度高"
@@ -300,7 +300,7 @@
       "氣炸",
       "烤箱"
     ],
-    "description": "Cuisinart AMW-90TW 是多功能氣炸烤箱/微波爐類的補充比較型號，依 2026-07-08 通路頁面整理售價、圖片與核心規格。",
+    "description": "Cuisinart AMW-90TW 是多功能氣炸烤箱/微波爐類的補充比較型號，依 2026-07-09 通路頁面整理售價、圖片與核心規格。",
     "pros": [
       "一機多用節省檯面",
       "高階款蒸烤與微波整合度高"
@@ -345,7 +345,7 @@
       "微波",
       "高階水波爐"
     ],
-    "description": "Panasonic NN-BS1700 是多功能氣炸烤箱/微波爐類的補充比較型號，依 2026-07-08 通路頁面整理售價、圖片與核心規格。",
+    "description": "Panasonic NN-BS1700 是多功能氣炸烤箱/微波爐類的補充比較型號，依 2026-07-09 通路頁面整理售價、圖片與核心規格。",
     "pros": [
       "一機多用節省檯面",
       "高階款蒸烤與微波整合度高"
@@ -377,8 +377,8 @@
     "name": "Coloris 系列 32L 8 合 1 變頻氣炸蒸烤微波爐",
     "price": {
       "currency": "TWD",
-      "amount": 22442,
-      "converted": 22442,
+      "amount": 26900,
+      "converted": 26900,
       "confidence": "可信通路查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBJ03A900IYX0L/000001_1750758530.jpg",
@@ -390,7 +390,7 @@
       "變頻",
       "氣炸蒸烤微波"
     ],
-    "description": "Whirlpool MWP329TST 是多功能氣炸烤箱/微波爐類的補充比較型號，依 2026-07-08 通路頁面整理售價、圖片與核心規格。",
+    "description": "Whirlpool MWP329TST 是多功能氣炸烤箱/微波爐類的補充比較型號，依 2026-07-09 通路頁面整理售價、圖片與核心規格。",
     "pros": [
       "一機多用節省檯面",
       "高階款蒸烤與微波整合度高"
@@ -422,8 +422,8 @@
     "name": "20L 多功能蒸氣氣炸烤箱",
     "price": {
       "currency": "TWD",
-      "amount": 10260,
-      "converted": 10260,
+      "amount": 10800,
+      "converted": 10800,
       "confidence": "可信通路查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBM0GA900HF91A/000001_1768545220.jpg",
@@ -435,7 +435,7 @@
       "氣炸",
       "烘焙"
     ],
-    "description": "Cuisinart CSO-500TW 是多功能氣炸烤箱/微波爐類的補充比較型號，依 2026-07-08 通路頁面整理售價、圖片與核心規格。",
+    "description": "Cuisinart CSO-500TW 是多功能氣炸烤箱/微波爐類的補充比較型號，依 2026-07-09 通路頁面整理售價、圖片與核心規格。",
     "pros": [
       "一機多用節省檯面",
       "高階款蒸烤與微波整合度高"
@@ -480,7 +480,7 @@
       "舒肥",
       "低溫發酵"
     ],
-    "description": "Whirlpool WSO2500B 是多功能氣炸烤箱/微波爐類的補充比較型號，依 2026-07-08 通路頁面整理售價、圖片與核心規格。",
+    "description": "Whirlpool WSO2500B 是多功能氣炸烤箱/微波爐類的補充比較型號，依 2026-07-09 通路頁面整理售價、圖片與核心規格。",
     "pros": [
       "一機多用節省檯面",
       "高階款蒸烤與微波整合度高"
@@ -525,7 +525,7 @@
       "AIoT",
       "蒸氣烘烤微波"
     ],
-    "description": "SHARP AX-XW10T 是多功能氣炸烤箱/微波爐類的補充比較型號，依 2026-07-08 通路頁面整理售價、圖片與核心規格。",
+    "description": "SHARP AX-XW10T 是多功能氣炸烤箱/微波爐類的補充比較型號，依 2026-07-09 通路頁面整理售價、圖片與核心規格。",
     "pros": [
       "一機多用節省檯面",
       "高階款蒸烤與微波整合度高"
@@ -570,7 +570,7 @@
       "18 項自動菜單",
       "120 度快速蒸"
     ],
-    "description": "Panasonic NU-SC180B 是多功能氣炸烤箱/微波爐類的補充比較型號，依 2026-07-08 通路頁面整理售價、圖片與核心規格。",
+    "description": "Panasonic NU-SC180B 是多功能氣炸烤箱/微波爐類的補充比較型號，依 2026-07-09 通路頁面整理售價、圖片與核心規格。",
     "pros": [
       "一機多用節省檯面",
       "高階款蒸烤與微波整合度高"
@@ -615,7 +615,7 @@
       "水波爐",
       "黑/白"
     ],
-    "description": "SHARP AX-XS10T 是多功能氣炸烤箱/微波爐類的補充比較型號，依 2026-07-08 通路頁面整理售價、圖片與核心規格。",
+    "description": "SHARP AX-XS10T 是多功能氣炸烤箱/微波爐類的補充比較型號，依 2026-07-09 通路頁面整理售價、圖片與核心規格。",
     "pros": [
       "一機多用節省檯面",
       "高階款蒸烤與微波整合度高"
@@ -647,8 +647,8 @@
     "name": "32 公升獨立式萬用蒸烤爐",
     "price": {
       "currency": "TWD",
-      "amount": 14504,
-      "converted": 14504,
+      "amount": 15800,
+      "converted": 15800,
       "confidence": "可信通路查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBJ6QA900EO9M8/000001_1716271473.jpg",
@@ -660,7 +660,7 @@
       "烘烤",
       "旋風"
     ],
-    "description": "Whirlpool WSO322EB 是多功能氣炸烤箱/微波爐類的補充比較型號，依 2026-07-08 通路頁面整理售價、圖片與核心規格。",
+    "description": "Whirlpool WSO322EB 是多功能氣炸烤箱/微波爐類的補充比較型號，依 2026-07-09 通路頁面整理售價、圖片與核心規格。",
     "pros": [
       "一機多用節省檯面",
       "高階款蒸烤與微波整合度高"
@@ -692,9 +692,9 @@
     "name": "39L 智慧變頻蒸烘烤微波爐",
     "price": {
       "currency": "TWD",
-      "amount": 14900,
-      "converted": 14900,
-      "confidence": "可信通路查核價，擷取 2026-07-08"
+      "amount": 15900,
+      "converted": 15900,
+      "confidence": "可信通路查核價，擷取 2026-07-09"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBJ8JA900H3U40/000001_1749176905.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBJ8J-A900H3U40",
@@ -739,7 +739,7 @@
       "currency": "TWD",
       "amount": 14900,
       "converted": 14900,
-      "confidence": "可信通路查核價，擷取 2026-07-08"
+      "confidence": "可信通路查核價，擷取 2026-07-09"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBJ0FA900AEX9T/000001_1765349539.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBJ0F-A900AEX9T",
@@ -784,7 +784,7 @@
       "currency": "TWD",
       "amount": 21900,
       "converted": 21900,
-      "confidence": "可信通路查核價，擷取 2026-07-08"
+      "confidence": "可信通路查核價，擷取 2026-07-09"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBJ031900I80DM/000001_1778655849.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBJ03-1900I80DM",
@@ -829,7 +829,7 @@
       "currency": "TWD",
       "amount": 48668,
       "converted": 48668,
-      "confidence": "可信通路查核價，擷取 2026-07-08"
+      "confidence": "可信通路查核價，擷取 2026-07-09"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBJ5PA900GN8PM/000001_1750840663.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBJ5P-A900GN8PM",
@@ -872,9 +872,9 @@
     "name": "蒸烘烤變頻微波爐",
     "price": {
       "currency": "TWD",
-      "amount": 41724,
-      "converted": 41724,
-      "confidence": "可信通路查核價，擷取 2026-07-08"
+      "amount": 43920,
+      "converted": 43920,
+      "confidence": "可信通路查核價，擷取 2026-07-09"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBM0GA900H5125/000001_1783054719.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBM0G-A900H5125",

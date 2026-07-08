@@ -15,8 +15,8 @@
     "image": "https://cs-a.ecimg.tw/items/DEES01A900ILXUX/000001_1779237227.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 899,
-      "converted": 899,
+      "amount": 999,
+      "converted": 999,
       "confidence": "PChome 24h 低價查核"
     },
     "channel": "tw",
@@ -66,8 +66,8 @@
     "image": "https://cs-a.ecimg.tw/items/DEAWN3A900JOVE3/000001_1770623146.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 759,
-      "converted": 759,
+      "amount": 799,
+      "converted": 799,
       "confidence": "PChome 24h 低價查核"
     },
     "channel": "tw",
@@ -319,8 +319,8 @@
     "image": "https://cs-a.ecimg.tw/items/DEAWTGA900FCFJC/000001_1692859840.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 4490,
-      "converted": 4490,
+      "amount": 8980,
+      "converted": 8980,
       "confidence": "PChome 24h 低價查核"
     },
     "channel": "tw",
@@ -419,8 +419,8 @@
     "image": "https://cs-a.ecimg.tw/items/DEAWMJA900JN626/000001_1768377713.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 1584,
-      "converted": 1584,
+      "amount": 1980,
+      "converted": 1980,
       "confidence": "PChome 24h 低價查核"
     },
     "channel": "tw",
@@ -671,8 +671,8 @@
     "image": "https://cs-a.ecimg.tw/items/DEAWGAA900B4V1I/000001_1670815636.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 1415,
-      "converted": 1415,
+      "amount": 1490,
+      "converted": 1490,
       "confidence": "PChome 24h 低價查核"
     },
     "channel": "tw",
@@ -721,8 +721,8 @@
     "image": "https://cs-a.ecimg.tw/items/DEER19A900GPL2R/000001_1696456300.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 5125,
-      "converted": 5125,
+      "amount": 10250,
+      "converted": 10250,
       "confidence": "PChome 24h 低價查核"
     },
     "channel": "tw",
@@ -772,9 +772,9 @@
     "name": "低身湯鍋 2.5L",
     "price": {
       "currency": "TWD",
-      "amount": 1869,
-      "converted": 1869,
-      "confidence": "可信通路查核價，擷取 2026-07-08"
+      "amount": 1968,
+      "converted": 1968,
+      "confidence": "可信通路查核價，擷取 2026-07-09"
     },
     "image": "https://cs-a.ecimg.tw/items/DEAWMJA900J9BIR/000001_1758078020.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DEAWMJ-A900J9BIR",
@@ -817,9 +817,9 @@
     "name": "陶晶壺型鍋 1.7L",
     "price": {
       "currency": "TWD",
-      "amount": 6240,
-      "converted": 6240,
-      "confidence": "可信通路查核價，擷取 2026-07-08"
+      "amount": 7800,
+      "converted": 7800,
+      "confidence": "可信通路查核價，擷取 2026-07-09"
     },
     "image": "https://cs-a.ecimg.tw/items/DEAWMJA900JMZA5/000001_1768290148.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DEAWMJ-A900JMZA5",
@@ -862,9 +862,9 @@
     "name": "TNS 雙耳醬汁鍋 28cm",
     "price": {
       "currency": "TWD",
-      "amount": 6850,
-      "converted": 6850,
-      "confidence": "可信通路查核價，擷取 2026-07-08"
+      "amount": 13700,
+      "converted": 13700,
+      "confidence": "可信通路查核價，擷取 2026-07-09"
     },
     "image": "https://cs-a.ecimg.tw/items/DEAWTGA900FCHLZ/000001_1745980849.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DEAWTG-A900FCHLZ",
@@ -907,9 +907,9 @@
     "name": "醇火系列不沾炒鍋",
     "price": {
       "currency": "TWD",
-      "amount": 1259,
-      "converted": 1259,
-      "confidence": "可信通路查核價，擷取 2026-07-08"
+      "amount": 1399,
+      "converted": 1399,
+      "confidence": "可信通路查核價，擷取 2026-07-09"
     },
     "image": "https://cs-a.ecimg.tw/items/DEES01A900IQ6X3/000001_1764832269.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DEES01-A900IQ6X3",
@@ -954,7 +954,7 @@
       "currency": "TWD",
       "amount": 2290,
       "converted": 2290,
-      "confidence": "可信通路查核價，擷取 2026-07-08"
+      "confidence": "可信通路查核價，擷取 2026-07-09"
     },
     "image": "https://cs-a.ecimg.tw/items/DEAWMLA900JSTI6/000001_1773108785.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DEAWML-A900JSTI6",

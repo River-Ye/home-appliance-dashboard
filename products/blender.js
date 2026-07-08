@@ -255,7 +255,7 @@
       "美國原廠貨",
       "商家用"
     ],
-    "description": "Vitamix VITA PREP 是破壁機類的補充比較型號，依 2026-07-08 通路頁面整理售價、圖片與核心規格。",
+    "description": "Vitamix VITA PREP 是破壁機類的補充比較型號，依 2026-07-09 通路頁面整理售價、圖片與核心規格。",
     "pros": [
       "高階馬力與杯體選擇多",
       "可依加熱/冷打需求分流"
@@ -300,7 +300,7 @@
       "美國原廠貨",
       "商家用"
     ],
-    "description": "Vitamix VITA PREP 3 是破壁機類的補充比較型號，依 2026-07-08 通路頁面整理售價、圖片與核心規格。",
+    "description": "Vitamix VITA PREP 3 是破壁機類的補充比較型號，依 2026-07-09 通路頁面整理售價、圖片與核心規格。",
     "pros": [
       "高階馬力與杯體選擇多",
       "可依加熱/冷打需求分流"
@@ -345,7 +345,7 @@
       "Explorian 系列",
       "雙杯組"
     ],
-    "description": "Vitamix E320 Explorian 是破壁機類的補充比較型號，依 2026-07-08 通路頁面整理售價、圖片與核心規格。",
+    "description": "Vitamix E320 Explorian 是破壁機類的補充比較型號，依 2026-07-09 通路頁面整理售價、圖片與核心規格。",
     "pros": [
       "高階馬力與杯體選擇多",
       "可依加熱/冷打需求分流"
@@ -390,7 +390,7 @@
       "全食物調理",
       "白色"
     ],
-    "description": "Vitamix A2500i White 是破壁機類的補充比較型號，依 2026-07-08 通路頁面整理售價、圖片與核心規格。",
+    "description": "Vitamix A2500i White 是破壁機類的補充比較型號，依 2026-07-09 通路頁面整理售價、圖片與核心規格。",
     "pros": [
       "高階馬力與杯體選擇多",
       "可依加熱/冷打需求分流"
@@ -435,7 +435,7 @@
       "專業 800",
       "尊爵黑"
     ],
-    "description": "Blendtec Professional 800 是破壁機類的補充比較型號，依 2026-07-08 通路頁面整理售價、圖片與核心規格。",
+    "description": "Blendtec Professional 800 是破壁機類的補充比較型號，依 2026-07-09 通路頁面整理售價、圖片與核心規格。",
     "pros": [
       "高階馬力與杯體選擇多",
       "可依加熱/冷打需求分流"
@@ -480,7 +480,7 @@
       "SpaceSaver",
       "美國原廠貨"
     ],
-    "description": "Blendtec Connoisseur 825 是破壁機類的補充比較型號，依 2026-07-08 通路頁面整理售價、圖片與核心規格。",
+    "description": "Blendtec Connoisseur 825 是破壁機類的補充比較型號，依 2026-07-09 通路頁面整理售價、圖片與核心規格。",
     "pros": [
       "高階馬力與杯體選擇多",
       "可依加熱/冷打需求分流"
@@ -525,7 +525,7 @@
       "預設行程",
       "寶石紅"
     ],
-    "description": "Blendtec Designer 650 是破壁機類的補充比較型號，依 2026-07-08 通路頁面整理售價、圖片與核心規格。",
+    "description": "Blendtec Designer 650 是破壁機類的補充比較型號，依 2026-07-09 通路頁面整理售價、圖片與核心規格。",
     "pros": [
       "高階馬力與杯體選擇多",
       "可依加熱/冷打需求分流"
@@ -570,7 +570,7 @@
       "台灣公司貨",
       "全食物調理"
     ],
-    "description": "Blendtec Total Blender 是破壁機類的補充比較型號，依 2026-07-08 通路頁面整理售價、圖片與核心規格。",
+    "description": "Blendtec Total Blender 是破壁機類的補充比較型號，依 2026-07-09 通路頁面整理售價、圖片與核心規格。",
     "pros": [
       "高階馬力與杯體選擇多",
       "可依加熱/冷打需求分流"
@@ -615,7 +615,7 @@
       "果汁/冰沙",
       "入門價位"
     ],
-    "description": "Joyoung L19N-Y1W 是破壁機類的補充比較型號，依 2026-07-08 通路頁面整理售價、圖片與核心規格。",
+    "description": "Joyoung L19N-Y1W 是破壁機類的補充比較型號，依 2026-07-09 通路頁面整理售價、圖片與核心規格。",
     "pros": [
       "高階馬力與杯體選擇多",
       "可依加熱/冷打需求分流"
@@ -660,7 +660,7 @@
       "多功能料理",
       "家用"
     ],
-    "description": "XD XD-A08 是破壁機類的補充比較型號，依 2026-07-08 通路頁面整理售價、圖片與核心規格。",
+    "description": "XD XD-A08 是破壁機類的補充比較型號，依 2026-07-09 通路頁面整理售價、圖片與核心規格。",
     "pros": [
       "高階馬力與杯體選擇多",
       "可依加熱/冷打需求分流"
@@ -694,7 +694,7 @@
       "currency": "TWD",
       "amount": 9480,
       "converted": 9480,
-      "confidence": "可信通路查核價，擷取 2026-07-08"
+      "confidence": "可信通路查核價，擷取 2026-07-09"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAY01A900GFJCO/000001_1780310319.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAY01-A900GFJCO",
@@ -739,7 +739,7 @@
       "currency": "TWD",
       "amount": 3290,
       "converted": 3290,
-      "confidence": "可信通路查核價，擷取 2026-07-08"
+      "confidence": "可信通路查核價，擷取 2026-07-09"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAYE4A900JTMQR/000001_1773730782.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAYE4-A900JTMQR",
@@ -784,7 +784,7 @@
       "currency": "TWD",
       "amount": 12900,
       "converted": 12900,
-      "confidence": "可信通路查核價，擷取 2026-07-08"
+      "confidence": "可信通路查核價，擷取 2026-07-09"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAYDLA900IH6GZ/000001_1782875037.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAYDL-A900IH6GZ",
@@ -829,7 +829,7 @@
       "currency": "TWD",
       "amount": 11490,
       "converted": 11490,
-      "confidence": "可信通路查核價，擷取 2026-07-08"
+      "confidence": "可信通路查核價，擷取 2026-07-09"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAY4YA900I3ILD/000001_1783328441.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAY4Y-A900I3ILD",
@@ -874,7 +874,7 @@
       "currency": "TWD",
       "amount": 3380,
       "converted": 3380,
-      "confidence": "可信通路查核價，擷取 2026-07-08"
+      "confidence": "可信通路查核價，擷取 2026-07-09"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAYGBA900IW311/000001_1767836506.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAYGB-A900IW311",

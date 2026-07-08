@@ -17,8 +17,8 @@
     "name": "16 吋 DC 微電腦定時電風扇",
     "price": {
       "currency": "TWD",
-      "amount": 3272,
-      "converted": 3272,
+      "amount": 4090,
+      "converted": 4090,
       "confidence": "可信通路查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAB30A900EOQ24/000001_1753338098.png",
@@ -242,8 +242,8 @@
     "name": "16 吋 DC 變頻電風扇",
     "price": {
       "currency": "TWD",
-      "amount": 2472,
-      "converted": 2472,
+      "amount": 3090,
+      "converted": 3090,
       "confidence": "可信通路查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMABLMA900EOROV/000001_1757038312.jpg",
@@ -255,7 +255,7 @@
       "立扇",
       "節能"
     ],
-    "description": "Panasonic F-S16LMD 是電風扇類的補充比較型號，依 2026-07-08 通路頁面整理售價、圖片與核心規格。",
+    "description": "Panasonic F-S16LMD 是電風扇類的補充比較型號，依 2026-07-09 通路頁面整理售價、圖片與核心規格。",
     "pros": [
       "DC 機種普遍省電",
       "台灣夏季替代冷氣循環很實用"
@@ -300,7 +300,7 @@
       "負離子",
       "ECO 溫控"
     ],
-    "description": "Panasonic F-H14GND-K 是電風扇類的補充比較型號，依 2026-07-08 通路頁面整理售價、圖片與核心規格。",
+    "description": "Panasonic F-H14GND-K 是電風扇類的補充比較型號，依 2026-07-09 通路頁面整理售價、圖片與核心規格。",
     "pros": [
       "DC 機種普遍省電",
       "台灣夏季替代冷氣循環很實用"
@@ -332,8 +332,8 @@
     "name": "14 吋 DC 微電腦定時電風扇",
     "price": {
       "currency": "TWD",
-      "amount": 3920,
-      "converted": 3920,
+      "amount": 4900,
+      "converted": 4900,
       "confidence": "可信通路查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMABLMA900EORP0/000001_1697161466.jpg",
@@ -345,7 +345,7 @@
       "定時",
       "遙控"
     ],
-    "description": "Panasonic F-H14LXD-K 是電風扇類的補充比較型號，依 2026-07-08 通路頁面整理售價、圖片與核心規格。",
+    "description": "Panasonic F-H14LXD-K 是電風扇類的補充比較型號，依 2026-07-09 通路頁面整理售價、圖片與核心規格。",
     "pros": [
       "DC 機種普遍省電",
       "台灣夏季替代冷氣循環很實用"
@@ -390,7 +390,7 @@
       "微電腦",
       "台灣製造"
     ],
-    "description": "Panasonic F-S14KM 是電風扇類的補充比較型號，依 2026-07-08 通路頁面整理售價、圖片與核心規格。",
+    "description": "Panasonic F-S14KM 是電風扇類的補充比較型號，依 2026-07-09 通路頁面整理售價、圖片與核心規格。",
     "pros": [
       "DC 機種普遍省電",
       "台灣夏季替代冷氣循環很實用"
@@ -422,8 +422,8 @@
     "name": "16 吋 DC 變頻高級型溫感遙控電風扇",
     "price": {
       "currency": "TWD",
-      "amount": 3231,
-      "converted": 3231,
+      "amount": 3590,
+      "converted": 3590,
       "confidence": "可信通路查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAB30A900EOQ5X/000001_1693793932.jpg",
@@ -435,7 +435,7 @@
       "溫感",
       "遙控"
     ],
-    "description": "Panasonic F-L16GMD 是電風扇類的補充比較型號，依 2026-07-08 通路頁面整理售價、圖片與核心規格。",
+    "description": "Panasonic F-L16GMD 是電風扇類的補充比較型號，依 2026-07-09 通路頁面整理售價、圖片與核心規格。",
     "pros": [
       "DC 機種普遍省電",
       "台灣夏季替代冷氣循環很實用"
@@ -480,7 +480,7 @@
       "ECO 溫度感知",
       "附遙控器"
     ],
-    "description": "Panasonic F-S14QT 是電風扇類的補充比較型號，依 2026-07-08 通路頁面整理售價、圖片與核心規格。",
+    "description": "Panasonic F-S14QT 是電風扇類的補充比較型號，依 2026-07-09 通路頁面整理售價、圖片與核心規格。",
     "pros": [
       "DC 機種普遍省電",
       "台灣夏季替代冷氣循環很實用"
@@ -525,7 +525,7 @@
       "ECO 溫控",
       "附遙控器"
     ],
-    "description": "Panasonic F-S12QT 是電風扇類的補充比較型號，依 2026-07-08 通路頁面整理售價、圖片與核心規格。",
+    "description": "Panasonic F-S12QT 是電風扇類的補充比較型號，依 2026-07-09 通路頁面整理售價、圖片與核心規格。",
     "pros": [
       "DC 機種普遍省電",
       "台灣夏季替代冷氣循環很實用"
@@ -570,7 +570,7 @@
       "節能",
       "立扇"
     ],
-    "description": "SHARP PJ-DC16VT-W 是電風扇類的補充比較型號，依 2026-07-08 通路頁面整理售價、圖片與核心規格。",
+    "description": "SHARP PJ-DC16VT-W 是電風扇類的補充比較型號，依 2026-07-09 通路頁面整理售價、圖片與核心規格。",
     "pros": [
       "DC 機種普遍省電",
       "台灣夏季替代冷氣循環很實用"
@@ -615,7 +615,7 @@
       "伸縮立扇",
       "入門價位"
     ],
-    "description": "SHARP PJ-V14A-W 是電風扇類的補充比較型號，依 2026-07-08 通路頁面整理售價、圖片與核心規格。",
+    "description": "SHARP PJ-V14A-W 是電風扇類的補充比較型號，依 2026-07-09 通路頁面整理售價、圖片與核心規格。",
     "pros": [
       "DC 機種普遍省電",
       "台灣夏季替代冷氣循環很實用"
@@ -660,7 +660,7 @@
       "遙控",
       "立扇"
     ],
-    "description": "SHARP PJ-E14GE 是電風扇類的補充比較型號，依 2026-07-08 通路頁面整理售價、圖片與核心規格。",
+    "description": "SHARP PJ-E14GE 是電風扇類的補充比較型號，依 2026-07-09 通路頁面整理售價、圖片與核心規格。",
     "pros": [
       "DC 機種普遍省電",
       "台灣夏季替代冷氣循環很實用"
@@ -692,9 +692,9 @@
     "name": "窄邊框時尚美型風扇",
     "price": {
       "currency": "TWD",
-      "amount": 1266,
-      "converted": 1266,
-      "confidence": "可信通路查核價，擷取 2026-07-08"
+      "amount": 1490,
+      "converted": 1490,
+      "confidence": "可信通路查核價，擷取 2026-07-09"
     },
     "image": "https://cs-a.ecimg.tw/items/DMACAKA900G4VTV/000001_1779763282.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMACAK-A900G4VTV",
@@ -737,9 +737,9 @@
     "name": "DC 立式循環扇",
     "price": {
       "currency": "TWD",
-      "amount": 2541,
-      "converted": 2541,
-      "confidence": "可信通路查核價，擷取 2026-07-08"
+      "amount": 2990,
+      "converted": 2990,
+      "confidence": "可信通路查核價，擷取 2026-07-09"
     },
     "image": "https://cs-a.ecimg.tw/items/DMACAKA900G0BE8/000001_1779955873.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMACAK-A900G0BE8",
@@ -782,9 +782,9 @@
     "name": "全方位渦輪 DC 循環扇",
     "price": {
       "currency": "TWD",
-      "amount": 2796,
-      "converted": 2796,
-      "confidence": "可信通路查核價，擷取 2026-07-08"
+      "amount": 3290,
+      "converted": 3290,
+      "confidence": "可信通路查核價，擷取 2026-07-09"
     },
     "image": "https://cs-a.ecimg.tw/items/DMABOWA900IUZ7V/000001_1780022324.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMABOW-A900IUZ7V",
@@ -827,9 +827,9 @@
     "name": "DC 塔式風扇",
     "price": {
       "currency": "TWD",
-      "amount": 3476,
-      "converted": 3476,
-      "confidence": "可信通路查核價，擷取 2026-07-08"
+      "amount": 4090,
+      "converted": 4090,
+      "confidence": "可信通路查核價，擷取 2026-07-09"
     },
     "image": "https://cs-a.ecimg.tw/items/DMACAKA900G0BB4/000001_1778646103.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMACAK-A900G0BB4",
@@ -874,7 +874,7 @@
       "currency": "TWD",
       "amount": 9900,
       "converted": 9900,
-      "confidence": "可信通路查核價，擷取 2026-07-08"
+      "confidence": "可信通路查核價，擷取 2026-07-09"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAB6ZA900FLC55/000001_1780151316.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAB6Z-A900FLC55",

@@ -15,8 +15,8 @@
     "image": "https://cs-a.ecimg.tw/items/DMBR1PA900I386D/000001_1738721735.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 18000,
-      "converted": 18000,
+      "amount": 22900,
+      "converted": 22900,
       "confidence": "PChome 24h 低價查核"
     },
     "channel": "tw",
@@ -65,8 +65,8 @@
     "image": "https://cs-a.ecimg.tw/items/DMBR0PA900IX8N8/000001_1770277214.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 7290,
-      "converted": 7290,
+      "amount": 7990,
+      "converted": 7990,
       "confidence": "PChome 24h 低價查核"
     },
     "channel": "tw",
@@ -165,8 +165,8 @@
     "image": "https://cs-a.ecimg.tw/items/DCBE34A900HUR37/000001_1779329303.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 15423,
-      "converted": 15423,
+      "amount": 15900,
+      "converted": 15900,
       "confidence": "PChome 24h 低價查核"
     },
     "channel": "tw",
@@ -366,8 +366,8 @@
     "image": "https://cs-a.ecimg.tw/items/DMBR0NA900IIOZ6/000001_1776157892.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 27900,
-      "converted": 27900,
+      "amount": 29900,
+      "converted": 29900,
       "confidence": "PChome 24h 低價查核"
     },
     "channel": "tw",
@@ -567,8 +567,8 @@
     "image": "https://cs-a.ecimg.tw/items/DPAL7PA900G5M47/000001_1783049805.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 37525,
-      "converted": 37525,
+      "amount": 39500,
+      "converted": 39500,
       "confidence": "PChome 24h 低價查核"
     },
     "channel": "tw",
@@ -669,8 +669,8 @@
     "image": "https://cs-a.ecimg.tw/items/DMBR16A900HZZEG/000001_1763949344.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 74619,
-      "converted": 74619,
+      "amount": 81999,
+      "converted": 81999,
       "confidence": "PChome 24h 低價查核"
     },
     "channel": "tw",
@@ -719,8 +719,8 @@
     "image": "https://cs-a.ecimg.tw/items/DMBR1WA900K4MYS/000001_1781748945.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 75050,
-      "converted": 75050,
+      "amount": 79000,
+      "converted": 79000,
       "confidence": "PChome 24h 低價查核"
     },
     "channel": "tw",
@@ -773,7 +773,7 @@
       "currency": "TWD",
       "amount": 11000,
       "converted": 11000,
-      "confidence": "可信通路查核價，擷取 2026-07-08"
+      "confidence": "可信通路查核價，擷取 2026-07-09"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBR0PA900JBV02/000001_1762938951.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBR0P-A900JBV02",
@@ -816,9 +816,9 @@
     "name": "免安裝自動 6 人份洗碗機",
     "price": {
       "currency": "TWD",
-      "amount": 15809,
-      "converted": 15809,
-      "confidence": "可信通路查核價，擷取 2026-07-08"
+      "amount": 16999,
+      "converted": 16999,
+      "confidence": "可信通路查核價，擷取 2026-07-09"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBR17A900IHTZ3/000001_1777540146.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBR17-A900IHTZ3",
@@ -863,7 +863,7 @@
       "currency": "TWD",
       "amount": 15990,
       "converted": 15990,
-      "confidence": "可信通路查核價，擷取 2026-07-08"
+      "confidence": "可信通路查核價，擷取 2026-07-09"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBR25A900J5BGP/000001_1782112645.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBR25-A900J5BGP",
@@ -908,7 +908,7 @@
       "currency": "TWD",
       "amount": 14990,
       "converted": 14990,
-      "confidence": "可信通路查核價，擷取 2026-07-08"
+      "confidence": "可信通路查核價，擷取 2026-07-09"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBR0PA900IAMAC/000001_1770171922.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBR0P-A900IAMAC",
@@ -953,7 +953,7 @@
       "currency": "TWD",
       "amount": 12999,
       "converted": 12999,
-      "confidence": "可信通路查核價，擷取 2026-07-08"
+      "confidence": "可信通路查核價，擷取 2026-07-09"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBR24A900JFSR7/000001_1762761618.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBR24-A900JFSR7",

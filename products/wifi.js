@@ -339,8 +339,8 @@
     "name": "AX3000 雙頻 Wi-Fi 6 Mesh 路由器",
     "price": {
       "currency": "TWD",
-      "amount": 6699,
-      "converted": 6699,
+      "amount": 6899,
+      "converted": 6899,
       "confidence": "可信通路查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAGCMA900FQ3JZ/000001_1681110575.png",
@@ -525,8 +525,8 @@
     "name": "HPE Aruba Instant On Wi-Fi 6 室內 AP",
     "price": {
       "currency": "TWD",
-      "amount": 14112,
-      "converted": 14112,
+      "amount": 15000,
+      "converted": 15000,
       "confidence": "PChome 可信通路低價查核"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAFJRA900JB5WP/000001_1759461654.jpg",
@@ -572,8 +572,8 @@
     "name": "HPE Aruba Instant On 4x4 Wi-Fi 6 室內 AP",
     "price": {
       "currency": "TWD",
-      "amount": 21112,
-      "converted": 21112,
+      "amount": 22000,
+      "converted": 22000,
       "confidence": "PChome 可信通路低價查核"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAFJRA900JB5QX/000001_1759459286.jpg",
@@ -619,8 +619,8 @@
     "name": "HPE Aruba Instant On Wi-Fi 6E 三頻 AP",
     "price": {
       "currency": "TWD",
-      "amount": 19111,
-      "converted": 19111,
+      "amount": 19999,
+      "converted": 19999,
       "confidence": "PChome 可信通路低價查核"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAFJRA900JB5RW/000001_1759459789.jpg",
@@ -666,8 +666,8 @@
     "name": "HPE Aruba Instant On Wi-Fi 6 室內 AP",
     "price": {
       "currency": "TWD",
-      "amount": 9912,
-      "converted": 9912,
+      "amount": 10800,
+      "converted": 10800,
       "confidence": "PChome 可信通路低價查核"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAFJRA900JB6BU/000001_1759470005.jpg",
@@ -946,8 +946,8 @@
     "name": "BE11000 Mesh Wi-Fi 7 電競路由器",
     "price": {
       "currency": "TWD",
-      "amount": 5290,
-      "converted": 5290,
+      "amount": 5490,
+      "converted": 5490,
       "confidence": "可信通路查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAF02A900I473A/000001_1732699929.jpg",
@@ -1314,8 +1314,8 @@
     "name": "AX5400 Velop Mesh Wi-Fi 6 三入組",
     "price": {
       "currency": "TWD",
-      "amount": 10990,
-      "converted": 10990,
+      "amount": 12349,
+      "converted": 12349,
       "confidence": "可信通路查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAFE5A900JUA8C/000001_1774227439.jpg",
@@ -1360,8 +1360,8 @@
     "name": "三頻 Wi-Fi 6 Router 無線路由器",
     "price": {
       "currency": "TWD",
-      "amount": 9999,
-      "converted": 9999,
+      "amount": 11235,
+      "converted": 11235,
       "confidence": "可信通路查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBS4VA900JIQU0/000001_1764896894.jpg",
@@ -1636,8 +1636,8 @@
     "name": "Wi-Fi 6E 三頻電競路由器",
     "price": {
       "currency": "TWD",
-      "amount": 7790,
-      "converted": 7790,
+      "amount": 7990,
+      "converted": 7990,
       "confidence": "可信通路查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAFKSA900HEQVN/000001_1713512948.jpg",
@@ -1820,8 +1820,8 @@
     "name": "Wi-Fi 6 雙 10GbE SD-WAN 路由器",
     "price": {
       "currency": "TWD",
-      "amount": 7790,
-      "converted": 7790,
+      "amount": 7990,
+      "converted": 7990,
       "confidence": "可信通路查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAG6JA900AUW3D/000001_1626400932.jpg",

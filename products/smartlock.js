@@ -62,8 +62,8 @@
     "name": "YMF-30A 四合一電子鎖",
     "price": {
       "currency": "TWD",
-      "amount": 16149,
-      "converted": 16149,
+      "amount": 16999,
+      "converted": 16999,
       "confidence": "可信通路查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBS4NA900I5HGS/000001_1733814561.jpg",
@@ -152,8 +152,8 @@
     "name": "Luna Pro+ 六合一電子鎖",
     "price": {
       "currency": "TWD",
-      "amount": 23750,
-      "converted": 23750,
+      "amount": 25000,
+      "converted": 25000,
       "confidence": "可信通路查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBS4NA900K6BSE/000001_1782972514.jpg",
@@ -197,8 +197,8 @@
     "name": "YDM-7216A 五合一電子鎖",
     "price": {
       "currency": "TWD",
-      "amount": 18049,
-      "converted": 18049,
+      "amount": 18999,
+      "converted": 18999,
       "confidence": "可信通路查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBS4NA900I5H7X/000001_1733811821.jpg",
@@ -782,8 +782,8 @@
     "name": "X9 指紋把手電子鎖",
     "price": {
       "currency": "TWD",
-      "amount": 11400,
-      "converted": 11400,
+      "amount": 12000,
+      "converted": 12000,
       "confidence": "可信通路查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBS4NA900JJ8LG/000001_1765347346.jpg",
@@ -827,8 +827,8 @@
     "name": "Halo 指靜脈人臉辨識電子鎖",
     "price": {
       "currency": "TWD",
-      "amount": 25175,
-      "converted": 25175,
+      "amount": 26500,
+      "converted": 26500,
       "confidence": "可信通路查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBS4NA900JUBVW/000001_1774253039.jpg",
@@ -872,8 +872,8 @@
     "name": "SHP-P52 推拉式電子鎖",
     "price": {
       "currency": "TWD",
-      "amount": 23275,
-      "converted": 23275,
+      "amount": 24500,
+      "converted": 24500,
       "confidence": "可信通路查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBS4NA900JXYBS/000001_1776909348.jpg",
@@ -962,8 +962,8 @@
     "name": "ML660 四合一智能電子鎖",
     "price": {
       "currency": "TWD",
-      "amount": 23750,
-      "converted": 23750,
+      "amount": 25000,
+      "converted": 25000,
       "confidence": "可信通路查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DECE4EA900DXNUC/000001_1643338134.jpg",
@@ -1053,8 +1053,8 @@
     "name": "FA9000 五合一人臉辨識電子鎖",
     "price": {
       "currency": "TWD",
-      "amount": 27540,
-      "converted": 27540,
+      "amount": 28990,
+      "converted": 28990,
       "confidence": "可信通路查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBS4NA900IAVXZ/000001_1740465068.jpg",
@@ -1098,8 +1098,8 @@
     "name": "MI-510F 三合一輔助型電子鎖",
     "price": {
       "currency": "TWD",
-      "amount": 9025,
-      "converted": 9025,
+      "amount": 9500,
+      "converted": 9500,
       "confidence": "可信通路查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBS4NA900ILR7A/000001_1767853677.jpg",
@@ -1143,8 +1143,8 @@
     "name": "MI-6450 三合一電子鎖",
     "price": {
       "currency": "TWD",
-      "amount": 14250,
-      "converted": 14250,
+      "amount": 15000,
+      "converted": 15000,
       "confidence": "可信通路查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBS4NA900ILR3T/000001_1767087495.jpg",
@@ -1188,8 +1188,8 @@
     "name": "MI-7150+ 四合一電子鎖",
     "price": {
       "currency": "TWD",
-      "amount": 18050,
-      "converted": 18050,
+      "amount": 19000,
+      "converted": 19000,
       "confidence": "可信通路查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBS4NA900IOJ43/000001_1766741547.jpg",
@@ -1233,8 +1233,8 @@
     "name": "FB63M 精簡電子智慧門鎖",
     "price": {
       "currency": "TWD",
-      "amount": 13775,
-      "converted": 13775,
+      "amount": 14500,
+      "converted": 14500,
       "confidence": "可信通路查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBS4NA900I8ITU/000001_1753416985.jpg",
@@ -1278,8 +1278,8 @@
     "name": "FB70X 樸實電子智慧門鎖",
     "price": {
       "currency": "TWD",
-      "amount": 20900,
-      "converted": 20900,
+      "amount": 22000,
+      "converted": 22000,
       "confidence": "可信通路查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DQAT0IA900GXIHM/000001_1764834253.jpg",
@@ -1368,8 +1368,8 @@
     "name": "七合一人臉/貓眼掌靜脈電子鎖",
     "price": {
       "currency": "TWD",
-      "amount": 28310,
-      "converted": 28310,
+      "amount": 29800,
+      "converted": 29800,
       "confidence": "可信通路查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBS4NA900IT8YL/000001_1782961750.jpg",
@@ -1413,8 +1413,8 @@
     "name": "和系列全自動七合一智慧鎖",
     "price": {
       "currency": "TWD",
-      "amount": 21755,
-      "converted": 21755,
+      "amount": 22900,
+      "converted": 22900,
       "confidence": "可信通路查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBS4NA900JLLZ3/000001_1782963047.jpg",
@@ -1458,8 +1458,8 @@
     "name": "逸系列微光夜視貓眼電子鎖",
     "price": {
       "currency": "TWD",
-      "amount": 36860,
-      "converted": 36860,
+      "amount": 38800,
+      "converted": 38800,
       "confidence": "可信通路查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBS4NA900K2QWO/000001_1782963114.jpg",
@@ -1593,8 +1593,8 @@
     "name": "Tiko One 指紋卡片密碼電子鎖",
     "price": {
       "currency": "TWD",
-      "amount": 16910,
-      "converted": 16910,
+      "amount": 17800,
+      "converted": 17800,
       "confidence": "可信通路查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBS4NA900K0KZV/000001_1779265986.jpg",
@@ -1638,8 +1638,8 @@
     "name": "G-11 指紋密碼電子鎖",
     "price": {
       "currency": "TWD",
-      "amount": 9310,
-      "converted": 9310,
+      "amount": 9800,
+      "converted": 9800,
       "confidence": "可信通路查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBS4NA900K1WBU/000001_1779862478.jpg",
@@ -1773,8 +1773,8 @@
     "name": "T9 Plus+ 掌靜脈九合一電子鎖",
     "price": {
       "currency": "TWD",
-      "amount": 23750,
-      "converted": 23750,
+      "amount": 25000,
+      "converted": 25000,
       "confidence": "可信通路查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBS4NA900K03FM/000001_1778558520.jpg",
@@ -1818,8 +1818,8 @@
     "name": "TK 九合一電子鎖",
     "price": {
       "currency": "TWD",
-      "amount": 30248,
-      "converted": 30248,
+      "amount": 31840,
+      "converted": 31840,
       "confidence": "可信通路查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBS4NA900JG66I/000001_1771990337.jpg",
@@ -1863,8 +1863,8 @@
     "name": "T12 五合一把手式電子鎖",
     "price": {
       "currency": "TWD",
-      "amount": 14155,
-      "converted": 14155,
+      "amount": 14900,
+      "converted": 14900,
       "confidence": "可信通路查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBS4NA900IDEPI/000001_1748323634.jpg",
@@ -1908,8 +1908,8 @@
     "name": "DJS-SK07 全自動智慧電子鎖",
     "price": {
       "currency": "TWD",
-      "amount": 22230,
-      "converted": 22230,
+      "amount": 23400,
+      "converted": 23400,
       "confidence": "可信通路查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBS4NA900J5GYW/000001_1755762130.jpg",
@@ -1953,8 +1953,8 @@
     "name": "Z2 指靜脈貓眼智慧靜音電子鎖",
     "price": {
       "currency": "TWD",
-      "amount": 32138,
-      "converted": 32138,
+      "amount": 33830,
+      "converted": 33830,
       "confidence": "可信通路查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBS4NA900JISCM/000001_1780306235.jpg",

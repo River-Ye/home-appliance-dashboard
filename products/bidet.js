@@ -255,7 +255,7 @@
       "溫熱便座",
       "S7 輕奢款"
     ],
-    "description": "TOTO TCF47160GTW S7 是免治馬桶類的補充比較型號，依 2026-07-08 通路頁面整理售價、圖片與核心規格。",
+    "description": "TOTO TCF47160GTW S7 是免治馬桶類的補充比較型號，依 2026-07-09 通路頁面整理售價、圖片與核心規格。",
     "pros": [
       "舒適度升級明顯",
       "高階款除菌、除臭與遙控功能完整"
@@ -300,7 +300,7 @@
       "溫熱便座",
       "藏線式"
     ],
-    "description": "TOTO TCF24460ATW C5 是免治馬桶類的補充比較型號，依 2026-07-08 通路頁面整理售價、圖片與核心規格。",
+    "description": "TOTO TCF24460ATW C5 是免治馬桶類的補充比較型號，依 2026-07-09 通路頁面整理售價、圖片與核心規格。",
     "pros": [
       "舒適度升級明顯",
       "高階款除菌、除臭與遙控功能完整"
@@ -345,7 +345,7 @@
       "無線遙控",
       "WASHLET"
     ],
-    "description": "TOTO TCF34461GTW S5 是免治馬桶類的補充比較型號，依 2026-07-08 通路頁面整理售價、圖片與核心規格。",
+    "description": "TOTO TCF34461GTW S5 是免治馬桶類的補充比較型號，依 2026-07-09 通路頁面整理售價、圖片與核心規格。",
     "pros": [
       "舒適度升級明顯",
       "高階款除菌、除臭與遙控功能完整"
@@ -390,7 +390,7 @@
       "溫熱便座",
       "標準款"
     ],
-    "description": "TOTO TCF33161GTW S2 是免治馬桶類的補充比較型號，依 2026-07-08 通路頁面整理售價、圖片與核心規格。",
+    "description": "TOTO TCF33161GTW S2 是免治馬桶類的補充比較型號，依 2026-07-09 通路頁面整理售價、圖片與核心規格。",
     "pros": [
       "舒適度升級明顯",
       "高階款除菌、除臭與遙控功能完整"
@@ -435,7 +435,7 @@
       "溫熱便座",
       "旗艦款"
     ],
-    "description": "TOTO TCF47360GTW S7 是免治馬桶類的補充比較型號，依 2026-07-08 通路頁面整理售價、圖片與核心規格。",
+    "description": "TOTO TCF47360GTW S7 是免治馬桶類的補充比較型號，依 2026-07-09 通路頁面整理售價、圖片與核心規格。",
     "pros": [
       "舒適度升級明顯",
       "高階款除菌、除臭與遙控功能完整"
@@ -480,7 +480,7 @@
       "暖風烘乾",
       "WASHLET"
     ],
-    "description": "TOTO TCF33461GTW S2 是免治馬桶類的補充比較型號，依 2026-07-08 通路頁面整理售價、圖片與核心規格。",
+    "description": "TOTO TCF33461GTW S2 是免治馬桶類的補充比較型號，依 2026-07-09 通路頁面整理售價、圖片與核心規格。",
     "pros": [
       "舒適度升級明顯",
       "高階款除菌、除臭與遙控功能完整"
@@ -512,8 +512,8 @@
     "name": "儲熱式溫水洗淨便座含原廠基本安裝",
     "price": {
       "currency": "TWD",
-      "amount": 6190,
-      "converted": 6190,
+      "amount": 6990,
+      "converted": 6990,
       "confidence": "可信通路查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAL8LA900GH6F4/000001_1724400418.jpg",
@@ -525,7 +525,7 @@
       "含基本安裝",
       "入門價位"
     ],
-    "description": "Panasonic DL-F610RTWS 是免治馬桶類的補充比較型號，依 2026-07-08 通路頁面整理售價、圖片與核心規格。",
+    "description": "Panasonic DL-F610RTWS 是免治馬桶類的補充比較型號，依 2026-07-09 通路頁面整理售價、圖片與核心規格。",
     "pros": [
       "舒適度升級明顯",
       "高階款除菌、除臭與遙控功能完整"
@@ -557,8 +557,8 @@
     "name": "纖薄美型瞬熱式溫水洗淨便座",
     "price": {
       "currency": "TWD",
-      "amount": 15752,
-      "converted": 15752,
+      "amount": 17900,
+      "converted": 17900,
       "confidence": "可信通路查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAL6WA900I0L73/000001_1729761324.jpg",
@@ -570,7 +570,7 @@
       "溫水洗淨",
       "美型"
     ],
-    "description": "Panasonic DL-RT30TWWS 是免治馬桶類的補充比較型號，依 2026-07-08 通路頁面整理售價、圖片與核心規格。",
+    "description": "Panasonic DL-RT30TWWS 是免治馬桶類的補充比較型號，依 2026-07-09 通路頁面整理售價、圖片與核心規格。",
     "pros": [
       "舒適度升級明顯",
       "高階款除菌、除臭與遙控功能完整"
@@ -602,8 +602,8 @@
     "name": "瞬熱式溫水洗淨便座",
     "price": {
       "currency": "TWD",
-      "amount": 11954,
-      "converted": 11954,
+      "amount": 13900,
+      "converted": 13900,
       "confidence": "可信通路查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAL6WA900JEEZE/000001_1776140283.jpg",
@@ -615,7 +615,7 @@
       "溫控",
       "家用"
     ],
-    "description": "Panasonic DL-PU30TWWS 是免治馬桶類的補充比較型號，依 2026-07-08 通路頁面整理售價、圖片與核心規格。",
+    "description": "Panasonic DL-PU30TWWS 是免治馬桶類的補充比較型號，依 2026-07-09 通路頁面整理售價、圖片與核心規格。",
     "pros": [
       "舒適度升級明顯",
       "高階款除菌、除臭與遙控功能完整"
@@ -660,7 +660,7 @@
       "不鏽鋼噴嘴",
       "KOHLER"
     ],
-    "description": "KOHLER C3-150 是免治馬桶類的補充比較型號，依 2026-07-08 通路頁面整理售價、圖片與核心規格。",
+    "description": "KOHLER C3-150 是免治馬桶類的補充比較型號，依 2026-07-09 通路頁面整理售價、圖片與核心規格。",
     "pros": [
       "舒適度升級明顯",
       "高階款除菌、除臭與遙控功能完整"
@@ -694,7 +694,7 @@
       "currency": "TWD",
       "amount": 7088,
       "converted": 7088,
-      "confidence": "可信通路查核價，擷取 2026-07-08"
+      "confidence": "可信通路查核價，擷取 2026-07-09"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBM0MA900G29JM/000001_1676948545.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBM0M-A900G29JM",
@@ -739,7 +739,7 @@
       "currency": "TWD",
       "amount": 9903,
       "converted": 9903,
-      "confidence": "可信通路查核價，擷取 2026-07-08"
+      "confidence": "可信通路查核價，擷取 2026-07-09"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAL6WA900IZ8TM/000001_1750927262.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAL6W-A900IZ8TM",
@@ -784,7 +784,7 @@
       "currency": "TWD",
       "amount": 10375,
       "converted": 10375,
-      "confidence": "可信通路查核價，擷取 2026-07-08"
+      "confidence": "可信通路查核價，擷取 2026-07-09"
     },
     "image": "https://cs-a.ecimg.tw/items/DMALCCA900J0YBZ/000001_1752215704.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMALCC-A900J0YBZ",
@@ -829,7 +829,7 @@
       "currency": "TWD",
       "amount": 15991,
       "converted": 15991,
-      "confidence": "可信通路查核價，擷取 2026-07-08"
+      "confidence": "可信通路查核價，擷取 2026-07-09"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAL6WA900IZ94O/000001_1750930491.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAL6W-A900IZ94O",
@@ -874,7 +874,7 @@
       "currency": "TWD",
       "amount": 17490,
       "converted": 17490,
-      "confidence": "可信通路查核價，擷取 2026-07-08"
+      "confidence": "可信通路查核價，擷取 2026-07-09"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAL6WA900IZ8YL/000001_1750929762.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAL6W-A900IZ8YL",

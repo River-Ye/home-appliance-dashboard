@@ -16,8 +16,8 @@
     "name": "全能機械手臂旗艦掃拖王者",
     "price": {
       "currency": "TWD",
-      "amount": 35500,
-      "converted": 35500,
+      "amount": 36980,
+      "converted": 36980,
       "confidence": "可信通路查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL1CA900IGHHM/000001_1782870336.jpg",
@@ -29,7 +29,7 @@
       "7.98cm 超薄",
       "80 度熱洗"
     ],
-    "description": "Roborock Saros Z70 是旗艦級掃拖機器人，這筆以 2026-07-08 台灣通路可查售價與規格整理。",
+    "description": "Roborock Saros Z70 是旗艦級掃拖機器人，這筆以 2026-07-09 台灣通路可查售價與規格整理。",
     "pros": [
       "規格完整、清潔自動化程度高",
       "避障、拖地或基站通常是品牌當代主力"
@@ -61,8 +61,8 @@
     "name": "跨越奇兵旗艦掃拖王者水立方版",
     "price": {
       "currency": "TWD",
-      "amount": 33580,
-      "converted": 33580,
+      "amount": 34980,
+      "converted": 34980,
       "confidence": "可信通路查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL1CA900JNELR/000001_1769062030.jpg",
@@ -74,7 +74,7 @@
       "雙門檻越障",
       "旗艦水立方基站"
     ],
-    "description": "Roborock Saros 20 水立方 是旗艦級掃拖機器人，這筆以 2026-07-08 台灣通路可查售價與規格整理。",
+    "description": "Roborock Saros 20 水立方 是旗艦級掃拖機器人，這筆以 2026-07-09 台灣通路可查售價與規格整理。",
     "pros": [
       "規格完整、清潔自動化程度高",
       "避障、拖地或基站通常是品牌當代主力"
@@ -106,8 +106,8 @@
     "name": "跨越奇兵旗艦越障掃拖王者",
     "price": {
       "currency": "TWD",
-      "amount": 31660,
-      "converted": 31660,
+      "amount": 32980,
+      "converted": 32980,
       "confidence": "可信通路查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL1CA900JMMCO/000001_1769061975.jpg",
@@ -119,7 +119,7 @@
       "300+ 障礙物識別",
       "雙重防纏繞"
     ],
-    "description": "Roborock Saros 20 是旗艦級掃拖機器人，這筆以 2026-07-08 台灣通路可查售價與規格整理。",
+    "description": "Roborock Saros 20 是旗艦級掃拖機器人，這筆以 2026-07-09 台灣通路可查售價與規格整理。",
     "pros": [
       "規格完整、清潔自動化程度高",
       "避障、拖地或基站通常是品牌當代主力"
@@ -151,8 +151,8 @@
     "name": "雙越野高智商旗艦級掃拖機器人",
     "price": {
       "currency": "TWD",
-      "amount": 25900,
-      "converted": 25900,
+      "amount": 26980,
+      "converted": 26980,
       "confidence": "可信通路查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL1CA900JPHOP/000001_1782870240.jpg",
@@ -164,7 +164,7 @@
       "100 度熱水洗",
       "雙門檻越障"
     ],
-    "description": "Roborock Qrevo Edge 2 Pro 是次旗艦級掃拖機器人，這筆以 2026-07-08 台灣通路可查售價與規格整理。",
+    "description": "Roborock Qrevo Edge 2 Pro 是次旗艦級掃拖機器人，這筆以 2026-07-09 台灣通路可查售價與規格整理。",
     "pros": [
       "保留多數高階功能",
       "價格通常比旗艦更容易入手"
@@ -210,7 +210,7 @@
       "自動洗烘",
       "全能基站"
     ],
-    "description": "Roborock Qrevo Curv 2 Flow 是次旗艦級掃拖機器人，這筆以 2026-07-08 台灣通路可查售價與規格整理。",
+    "description": "Roborock Qrevo Curv 2 Flow 是次旗艦級掃拖機器人，這筆以 2026-07-09 台灣通路可查售價與規格整理。",
     "pros": [
       "保留多數高階功能",
       "價格通常比旗艦更容易入手"
@@ -242,8 +242,8 @@
     "name": "無限續航滾筒洗地機器人上下水款",
     "price": {
       "currency": "TWD",
-      "amount": 23399,
-      "converted": 23399,
+      "amount": 25999,
+      "converted": 25999,
       "confidence": "可信通路查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL0LA900JRDAS/000001_1771917633.jpg",
@@ -255,7 +255,7 @@
       "氮化鎵瞬時閃充",
       "全能基站"
     ],
-    "description": "Ecovacs DEEBOT X11 PRO 上下水款 是旗艦級掃拖機器人，這筆以 2026-07-08 台灣通路可查售價與規格整理。",
+    "description": "Ecovacs DEEBOT X11 PRO 上下水款 是旗艦級掃拖機器人，這筆以 2026-07-09 台灣通路可查售價與規格整理。",
     "pros": [
       "規格完整、清潔自動化程度高",
       "避障、拖地或基站通常是品牌當代主力"
@@ -287,8 +287,8 @@
     "name": "無限續航滾筒洗地機器人",
     "price": {
       "currency": "TWD",
-      "amount": 20699,
-      "converted": 20699,
+      "amount": 22999,
+      "converted": 22999,
       "confidence": "可信通路查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL0LA900J5HJ0/000001_1766715791.jpg",
@@ -300,7 +300,7 @@
       "GPT 級語音",
       "全能基站"
     ],
-    "description": "Ecovacs DEEBOT X11 PRO 是旗艦級掃拖機器人，這筆以 2026-07-08 台灣通路可查售價與規格整理。",
+    "description": "Ecovacs DEEBOT X11 PRO 是旗艦級掃拖機器人，這筆以 2026-07-09 台灣通路可查售價與規格整理。",
     "pros": [
       "規格完整、清潔自動化程度高",
       "避障、拖地或基站通常是品牌當代主力"
@@ -332,8 +332,8 @@
     "name": "滾筒活水洗地掃拖機器人",
     "price": {
       "currency": "TWD",
-      "amount": 15299,
-      "converted": 15299,
+      "amount": 16999,
+      "converted": 16999,
       "confidence": "可信通路查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL0LA900IT3IU/000001_1763087795.jpg",
@@ -345,7 +345,7 @@
       "無縫貼邊",
       "全能基站"
     ],
-    "description": "Ecovacs DEEBOT T80 OMNI 是次旗艦級掃拖機器人，這筆以 2026-07-08 台灣通路可查售價與規格整理。",
+    "description": "Ecovacs DEEBOT T80 OMNI 是次旗艦級掃拖機器人，這筆以 2026-07-09 台灣通路可查售價與規格整理。",
     "pros": [
       "保留多數高階功能",
       "價格通常比旗艦更容易入手"
@@ -377,8 +377,8 @@
     "name": "超薄全覆蓋全能旗艦掃拖機器人",
     "price": {
       "currency": "TWD",
-      "amount": 13499,
-      "converted": 13499,
+      "amount": 14999,
+      "converted": 14999,
       "confidence": "可信通路查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL0LA900IDIPA/000001_1763087835.jpg",
@@ -390,7 +390,7 @@
       "萬物沿邊",
       "OMNI 基站"
     ],
-    "description": "Ecovacs DEEBOT T50 PRO OMNI 是次旗艦級掃拖機器人，這筆以 2026-07-08 台灣通路可查售價與規格整理。",
+    "description": "Ecovacs DEEBOT T50 PRO OMNI 是次旗艦級掃拖機器人，這筆以 2026-07-09 台灣通路可查售價與規格整理。",
     "pros": [
       "保留多數高階功能",
       "價格通常比旗艦更容易入手"
@@ -422,8 +422,8 @@
     "name": "強清潔全能掃拖機器人",
     "price": {
       "currency": "TWD",
-      "amount": 11699,
-      "converted": 11699,
+      "amount": 12999,
+      "converted": 12999,
       "confidence": "可信通路查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL0LA900J0KF3/000001_1765762606.jpg",
@@ -435,7 +435,7 @@
       "全能基站",
       "強清潔定位"
     ],
-    "description": "Ecovacs DEEBOT N50 是次旗艦級掃拖機器人，這筆以 2026-07-08 台灣通路可查售價與規格整理。",
+    "description": "Ecovacs DEEBOT N50 是次旗艦級掃拖機器人，這筆以 2026-07-09 台灣通路可查售價與規格整理。",
     "pros": [
       "保留多數高階功能",
       "價格通常比旗艦更容易入手"
@@ -467,8 +467,8 @@
     "name": "AI 藍光辨識超薄掃拖旗艦機低矮版",
     "price": {
       "currency": "TWD",
-      "amount": 28782,
-      "converted": 28782,
+      "amount": 31980,
+      "converted": 31980,
       "confidence": "可信通路查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL3EA900JZ3SP/000001_1780033309.jpg",
@@ -480,7 +480,7 @@
       "AI 藍光辨識",
       "低矮版旗艦"
     ],
-    "description": "Dreame X60 Master 是旗艦級掃拖機器人，這筆以 2026-07-08 台灣通路可查售價與規格整理。",
+    "description": "Dreame X60 Master 是旗艦級掃拖機器人，這筆以 2026-07-09 台灣通路可查售價與規格整理。",
     "pros": [
       "規格完整、清潔自動化程度高",
       "避障、拖地或基站通常是品牌當代主力"
@@ -512,8 +512,8 @@
     "name": "全能掃拖機器人",
     "price": {
       "currency": "TWD",
-      "amount": 8999,
-      "converted": 8999,
+      "amount": 9999,
+      "converted": 9999,
       "confidence": "可信通路查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL3EA900JY4G0/000001_1780033612.jpg",
@@ -525,7 +525,7 @@
       "自動清潔",
       "入門旗艦功能"
     ],
-    "description": "Dreame D30 Ultra CE 是次旗艦級掃拖機器人，這筆以 2026-07-08 台灣通路可查售價與規格整理。",
+    "description": "Dreame D30 Ultra CE 是次旗艦級掃拖機器人，這筆以 2026-07-09 台灣通路可查售價與規格整理。",
     "pros": [
       "保留多數高階功能",
       "價格通常比旗艦更容易入手"
@@ -570,7 +570,7 @@
       "零纏繞 2.0",
       "自動集塵"
     ],
-    "description": "Narwal Freo Z Ultra 是旗艦級掃拖機器人，這筆以 2026-07-08 台灣通路可查售價與規格整理。",
+    "description": "Narwal Freo Z Ultra 是旗艦級掃拖機器人，這筆以 2026-07-09 台灣通路可查售價與規格整理。",
     "pros": [
       "規格完整、清潔自動化程度高",
       "避障、拖地或基站通常是品牌當代主力"
@@ -692,8 +692,8 @@
     "name": "全能滾筒旗艦機皇掃拖機器人",
     "price": {
       "currency": "TWD",
-      "amount": 29380,
-      "converted": 29380,
+      "amount": 31880,
+      "converted": 31880,
       "confidence": "可信通路查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL0JA900JCCJT/000001_1782802020.jpg",
@@ -705,7 +705,7 @@
       "自動基站",
       "Combo 系列"
     ],
-    "description": "iRobot Roomba Max 705 Combo 是旗艦級掃拖機器人，這筆以 2026-07-08 台灣通路可查售價與規格整理。",
+    "description": "iRobot Roomba Max 705 Combo 是旗艦級掃拖機器人，這筆以 2026-07-09 台灣通路可查售價與規格整理。",
     "pros": [
       "規格完整、清潔自動化程度高",
       "避障、拖地或基站通常是品牌當代主力"
@@ -737,8 +737,8 @@
     "name": "熱旋風延邊避障全能掃拖機器人",
     "price": {
       "currency": "TWD",
-      "amount": 19677,
-      "converted": 19677,
+      "amount": 21880,
+      "converted": 21880,
       "confidence": "可信通路查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL0JA900ITF7U/000001_1782802931.jpg",
@@ -750,7 +750,7 @@
       "全能掃拖",
       "自動基站"
     ],
-    "description": "iRobot Roomba Plus 505 Combo 是次旗艦級掃拖機器人，這筆以 2026-07-08 台灣通路可查售價與規格整理。",
+    "description": "iRobot Roomba Plus 505 Combo 是次旗艦級掃拖機器人，這筆以 2026-07-09 台灣通路可查售價與規格整理。",
     "pros": [
       "保留多數高階功能",
       "價格通常比旗艦更容易入手"
@@ -795,7 +795,7 @@
       "自動基站",
       "Combo 系列"
     ],
-    "description": "iRobot Roomba Plus 405 Combo 是次旗艦級掃拖機器人，這筆以 2026-07-08 台灣通路可查售價與規格整理。",
+    "description": "iRobot Roomba Plus 405 Combo 是次旗艦級掃拖機器人，這筆以 2026-07-09 台灣通路可查售價與規格整理。",
     "pros": [
       "保留多數高階功能",
       "價格通常比旗艦更容易入手"
@@ -827,8 +827,8 @@
     "name": "自動壓縮集塵掃拖機器人",
     "price": {
       "currency": "TWD",
-      "amount": 13380,
-      "converted": 13380,
+      "amount": 14880,
+      "converted": 14880,
       "confidence": "可信通路查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL0JA900J02LR/000001_1782803287.jpg",
@@ -840,7 +840,7 @@
       "Combo 系列",
       "極夜黑"
     ],
-    "description": "iRobot Roomba 205 Combo 是次旗艦級掃拖機器人，這筆以 2026-07-08 台灣通路可查售價與規格整理。",
+    "description": "iRobot Roomba 205 Combo 是次旗艦級掃拖機器人，這筆以 2026-07-09 台灣通路可查售價與規格整理。",
     "pros": [
       "保留多數高階功能",
       "價格通常比旗艦更容易入手"
@@ -885,7 +885,7 @@
       "自清潔",
       "全能機器人"
     ],
-    "description": "eufy Omni S2 是旗艦級掃拖機器人，這筆以 2026-07-08 台灣通路可查售價與規格整理。",
+    "description": "eufy Omni S2 是旗艦級掃拖機器人，這筆以 2026-07-09 台灣通路可查售價與規格整理。",
     "pros": [
       "規格完整、清潔自動化程度高",
       "避障、拖地或基站通常是品牌當代主力"
@@ -930,7 +930,7 @@
       "零纏繞伸縮滾刷",
       "自清潔基站"
     ],
-    "description": "eufy Omni E25 是次旗艦級掃拖機器人，這筆以 2026-07-08 台灣通路可查售價與規格整理。",
+    "description": "eufy Omni E25 是次旗艦級掃拖機器人，這筆以 2026-07-09 台灣通路可查售價與規格整理。",
     "pros": [
       "保留多數高階功能",
       "價格通常比旗艦更容易入手"
@@ -975,7 +975,7 @@
       "白色機身",
       "全能入門定位"
     ],
-    "description": "eufy Omni C28 是次旗艦級掃拖機器人，這筆以 2026-07-08 台灣通路可查售價與規格整理。",
+    "description": "eufy Omni C28 是次旗艦級掃拖機器人，這筆以 2026-07-09 台灣通路可查售價與規格整理。",
     "pros": [
       "保留多數高階功能",
       "價格通常比旗艦更容易入手"
@@ -1020,7 +1020,7 @@
       "旗艦版",
       "全能基站"
     ],
-    "description": "MOVA S70 Ultra Roller 是旗艦級掃拖機器人，這筆以 2026-07-08 台灣通路可查售價與規格整理。",
+    "description": "MOVA S70 Ultra Roller 是旗艦級掃拖機器人，這筆以 2026-07-09 台灣通路可查售價與規格整理。",
     "pros": [
       "規格完整、清潔自動化程度高",
       "避障、拖地或基站通常是品牌當代主力"
@@ -1052,8 +1052,8 @@
     "name": "極薄滾筒掃拖機器人",
     "price": {
       "currency": "TWD",
-      "amount": 16990,
-      "converted": 16990,
+      "amount": 15990,
+      "converted": 15990,
       "confidence": "可信通路查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL5WA900K13VT/000001_1779264098.jpg",
@@ -1065,7 +1065,7 @@
       "全能基站",
       "貼邊清潔"
     ],
-    "description": "MOVA S70 Roller 是次旗艦級掃拖機器人，這筆以 2026-07-08 台灣通路可查售價與規格整理。",
+    "description": "MOVA S70 Roller 是次旗艦級掃拖機器人，這筆以 2026-07-09 台灣通路可查售價與規格整理。",
     "pros": [
       "保留多數高階功能",
       "價格通常比旗艦更容易入手"
@@ -1110,7 +1110,7 @@
       "LG ThinQ 生態",
       "R5T 系列"
     ],
-    "description": "LG R5-ULTIMATE1 是次旗艦級掃拖機器人，這筆以 2026-07-08 台灣通路可查售價與規格整理。",
+    "description": "LG R5-ULTIMATE1 是次旗艦級掃拖機器人，這筆以 2026-07-09 台灣通路可查售價與規格整理。",
     "pros": [
       "保留多數高階功能",
       "價格通常比旗艦更容易入手"
@@ -1155,7 +1155,7 @@
       "入門 R5 系列",
       "台灣通路"
     ],
-    "description": "LG R5-PROPLUS1 是次旗艦級掃拖機器人，這筆以 2026-07-08 台灣通路可查售價與規格整理。",
+    "description": "LG R5-PROPLUS1 是次旗艦級掃拖機器人，這筆以 2026-07-09 台灣通路可查售價與規格整理。",
     "pros": [
       "保留多數高階功能",
       "價格通常比旗艦更容易入手"

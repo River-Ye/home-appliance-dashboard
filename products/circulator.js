@@ -255,7 +255,7 @@
       "黑色",
       "小坪數"
     ],
-    "description": "Vornado 52-TW 是循環扇類的補充比較型號，依 2026-07-08 通路頁面整理售價、圖片與核心規格。",
+    "description": "Vornado 52-TW 是循環扇類的補充比較型號，依 2026-07-09 通路頁面整理售價、圖片與核心規格。",
     "pros": [
       "體積小、移動容易",
       "搭配冷氣可改善溫度分布"
@@ -287,8 +287,8 @@
     "name": "62-TW 黑色渦流空氣循環扇",
     "price": {
       "currency": "TWD",
-      "amount": 3492,
-      "converted": 3492,
+      "amount": 3880,
+      "converted": 3880,
       "confidence": "可信通路查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAB3XA900IIGO1/000001_1765272569.jpg",
@@ -300,7 +300,7 @@
       "黑色",
       "強風量"
     ],
-    "description": "Vornado 62-TW 是循環扇類的補充比較型號，依 2026-07-08 通路頁面整理售價、圖片與核心規格。",
+    "description": "Vornado 62-TW 是循環扇類的補充比較型號，依 2026-07-09 通路頁面整理售價、圖片與核心規格。",
     "pros": [
       "體積小、移動容易",
       "搭配冷氣可改善溫度分布"
@@ -345,7 +345,7 @@
       "金屬風格",
       "循環扇"
     ],
-    "description": "Vornado V-FAN 是循環扇類的補充比較型號，依 2026-07-08 通路頁面整理售價、圖片與核心規格。",
+    "description": "Vornado V-FAN 是循環扇類的補充比較型號，依 2026-07-09 通路頁面整理售價、圖片與核心規格。",
     "pros": [
       "體積小、移動容易",
       "搭配冷氣可改善溫度分布"
@@ -390,7 +390,7 @@
       "循環機",
       "客廳用"
     ],
-    "description": "Vornado RTRHD-TW 是循環扇類的補充比較型號，依 2026-07-08 通路頁面整理售價、圖片與核心規格。",
+    "description": "Vornado RTRHD-TW 是循環扇類的補充比較型號，依 2026-07-09 通路頁面整理售價、圖片與核心規格。",
     "pros": [
       "體積小、移動容易",
       "搭配冷氣可改善溫度分布"
@@ -435,7 +435,7 @@
       "循環扇",
       "美國品牌"
     ],
-    "description": "Vornado FLYMAX-TW 是循環扇類的補充比較型號，依 2026-07-08 通路頁面整理售價、圖片與核心規格。",
+    "description": "Vornado FLYMAX-TW 是循環扇類的補充比較型號，依 2026-07-09 通路頁面整理售價、圖片與核心規格。",
     "pros": [
       "體積小、移動容易",
       "搭配冷氣可改善溫度分布"
@@ -480,7 +480,7 @@
       "黑色",
       "空氣循環機"
     ],
-    "description": "Vornado 735B 是循環扇類的補充比較型號，依 2026-07-08 通路頁面整理售價、圖片與核心規格。",
+    "description": "Vornado 735B 是循環扇類的補充比較型號，依 2026-07-09 通路頁面整理售價、圖片與核心規格。",
     "pros": [
       "體積小、移動容易",
       "搭配冷氣可改善溫度分布"
@@ -512,8 +512,8 @@
     "name": "6303DC 白色渦流空氣循環機",
     "price": {
       "currency": "TWD",
-      "amount": 6282,
-      "converted": 6282,
+      "amount": 6980,
+      "converted": 6980,
       "confidence": "可信通路查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/QBAF31A9008YBED/000001_1765269212.jpg",
@@ -525,7 +525,7 @@
       "渦流循環",
       "中大坪數"
     ],
-    "description": "Vornado 6303DC 是循環扇類的補充比較型號，依 2026-07-08 通路頁面整理售價、圖片與核心規格。",
+    "description": "Vornado 6303DC 是循環扇類的補充比較型號，依 2026-07-09 通路頁面整理售價、圖片與核心規格。",
     "pros": [
       "體積小、移動容易",
       "搭配冷氣可改善溫度分布"
@@ -570,7 +570,7 @@
       "循環機",
       "耐用取向"
     ],
-    "description": "Vornado EXO61HD-TW 是循環扇類的補充比較型號，依 2026-07-08 通路頁面整理售價、圖片與核心規格。",
+    "description": "Vornado EXO61HD-TW 是循環扇類的補充比較型號，依 2026-07-09 通路頁面整理售價、圖片與核心規格。",
     "pros": [
       "體積小、移動容易",
       "搭配冷氣可改善溫度分布"
@@ -615,7 +615,7 @@
       "極靜音",
       "小坪數"
     ],
-    "description": "IRIS OHYAMA TAF-MKM10 是循環扇類的補充比較型號，依 2026-07-08 通路頁面整理售價、圖片與核心規格。",
+    "description": "IRIS OHYAMA TAF-MKM10 是循環扇類的補充比較型號，依 2026-07-09 通路頁面整理售價、圖片與核心規格。",
     "pros": [
       "體積小、移動容易",
       "搭配冷氣可改善溫度分布"
@@ -660,7 +660,7 @@
       "循環扇",
       "家用"
     ],
-    "description": "IRIS OHYAMA PCF-HM23W 是循環扇類的補充比較型號，依 2026-07-08 通路頁面整理售價、圖片與核心規格。",
+    "description": "IRIS OHYAMA PCF-HM23W 是循環扇類的補充比較型號，依 2026-07-09 通路頁面整理售價、圖片與核心規格。",
     "pros": [
       "體積小、移動容易",
       "搭配冷氣可改善溫度分布"
@@ -694,7 +694,7 @@
       "currency": "TWD",
       "amount": 2111,
       "converted": 2111,
-      "confidence": "可信通路查核價，擷取 2026-07-08"
+      "confidence": "可信通路查核價，擷取 2026-07-09"
     },
     "image": "https://cs-a.ecimg.tw/items/DSBE18A900K5EJK/000001_1782367256.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DSBE18-A900K5EJK",
@@ -739,7 +739,7 @@
       "currency": "TWD",
       "amount": 2888,
       "converted": 2888,
-      "confidence": "可信通路查核價，擷取 2026-07-08"
+      "confidence": "可信通路查核價，擷取 2026-07-09"
     },
     "image": "https://cs-a.ecimg.tw/items/DMABLXA900GDS4D/000001_1685677114.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMABLX-A900GDS4D",
@@ -784,7 +784,7 @@
       "currency": "TWD",
       "amount": 3680,
       "converted": 3680,
-      "confidence": "可信通路查核價，擷取 2026-07-08"
+      "confidence": "可信通路查核價，擷取 2026-07-09"
     },
     "image": "https://cs-a.ecimg.tw/items/DMABLXA900HI682/000001_1716457070.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMABLX-A900HI682",
@@ -829,7 +829,7 @@
       "currency": "TWD",
       "amount": 2980,
       "converted": 2980,
-      "confidence": "可信通路查核價，擷取 2026-07-08"
+      "confidence": "可信通路查核價，擷取 2026-07-09"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBM3GA900IUV09/000001_1777977008.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBM3G-A900IUV09",
@@ -874,7 +874,7 @@
       "currency": "TWD",
       "amount": 6400,
       "converted": 6400,
-      "confidence": "可信通路查核價，擷取 2026-07-08"
+      "confidence": "可信通路查核價，擷取 2026-07-09"
     },
     "image": "https://cs-a.ecimg.tw/items/DMABLYA900H2H5C/000001_1782200669.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMABLY-A900H2H5C",

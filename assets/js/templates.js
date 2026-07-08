@@ -69,7 +69,7 @@
       : `${product.price.confidence}，匯率 ${product.price.currency} 轉 TWD；未含國際運費/進口稅`;
     const sourceDate = /costco|好市多/i.test(`${product.buyLabel} ${product.buyUrl}`)
       ? "2026-07-09"
-      : "2026-07-08";
+      : "2026-07-09";
 
     return `
       <article class="product-card" data-product-id="${utils.escapeHtml(product.id)}">

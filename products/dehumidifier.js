@@ -17,8 +17,8 @@
     "name": "16 公升高效型變頻除濕機",
     "price": {
       "currency": "TWD",
-      "amount": 14872,
-      "converted": 14872,
+      "amount": 16900,
+      "converted": 16900,
       "confidence": "可信通路查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ3PA900J0L88/000001_1776323540.jpg",
@@ -255,7 +255,7 @@
       "一級能效",
       "磁石黑"
     ],
-    "description": "Panasonic F-YV32NXK 是除濕機類的補充比較型號，依 2026-07-08 通路頁面整理售價、圖片與核心規格。",
+    "description": "Panasonic F-YV32NXK 是除濕機類的補充比較型號，依 2026-07-09 通路頁面整理售價、圖片與核心規格。",
     "pros": [
       "容量選擇更完整",
       "多數台灣通路售後明確"
@@ -300,7 +300,7 @@
       "清淨除濕",
       "高效型"
     ],
-    "description": "Panasonic F-YV32MH 是除濕機類的補充比較型號，依 2026-07-08 通路頁面整理售價、圖片與核心規格。",
+    "description": "Panasonic F-YV32MH 是除濕機類的補充比較型號，依 2026-07-09 通路頁面整理售價、圖片與核心規格。",
     "pros": [
       "容量選擇更完整",
       "多數台灣通路售後明確"
@@ -345,7 +345,7 @@
       "小坪數",
       "省空間"
     ],
-    "description": "Panasonic F-Y16FH 是除濕機類的補充比較型號，依 2026-07-08 通路頁面整理售價、圖片與核心規格。",
+    "description": "Panasonic F-Y16FH 是除濕機類的補充比較型號，依 2026-07-09 通路頁面整理售價、圖片與核心規格。",
     "pros": [
       "容量選擇更完整",
       "多數台灣通路售後明確"
@@ -377,8 +377,8 @@
     "name": "9 公升除濕機",
     "price": {
       "currency": "TWD",
-      "amount": 8263,
-      "converted": 8263,
+      "amount": 9390,
+      "converted": 9390,
       "confidence": "可信通路查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ00A900JB38A/000001_1776329911.jpg",
@@ -390,7 +390,7 @@
       "一級能效",
       "多項安全保護"
     ],
-    "description": "Panasonic F-Y18PN 是除濕機類的補充比較型號，依 2026-07-08 通路頁面整理售價、圖片與核心規格。",
+    "description": "Panasonic F-Y18PN 是除濕機類的補充比較型號，依 2026-07-09 通路頁面整理售價、圖片與核心規格。",
     "pros": [
       "容量選擇更完整",
       "多數台灣通路售後明確"
@@ -435,7 +435,7 @@
       "變頻",
       "PuriCare"
     ],
-    "description": "LG MD161QPK3 是除濕機類的補充比較型號，依 2026-07-08 通路頁面整理售價、圖片與核心規格。",
+    "description": "LG MD161QPK3 是除濕機類的補充比較型號，依 2026-07-09 通路頁面整理售價、圖片與核心規格。",
     "pros": [
       "容量選擇更完整",
       "多數台灣通路售後明確"
@@ -480,7 +480,7 @@
       "PuriCare",
       "ThinQ 遠端控制"
     ],
-    "description": "LG DD121QWE0 是除濕機類的補充比較型號，依 2026-07-08 通路頁面整理售價、圖片與核心規格。",
+    "description": "LG DD121QWE0 是除濕機類的補充比較型號，依 2026-07-09 通路頁面整理售價、圖片與核心規格。",
     "pros": [
       "容量選擇更完整",
       "多數台灣通路售後明確"
@@ -525,7 +525,7 @@
       "經典白",
       "PuriCare"
     ],
-    "description": "LG DD141QWE0 是除濕機類的補充比較型號，依 2026-07-08 通路頁面整理售價、圖片與核心規格。",
+    "description": "LG DD141QWE0 是除濕機類的補充比較型號，依 2026-07-09 通路頁面整理售價、圖片與核心規格。",
     "pros": [
       "容量選擇更完整",
       "多數台灣通路售後明確"
@@ -570,7 +570,7 @@
       "曜黑",
       "大坪數"
     ],
-    "description": "LG WD261VKF0 是除濕機類的補充比較型號，依 2026-07-08 通路頁面整理售價、圖片與核心規格。",
+    "description": "LG WD261VKF0 是除濕機類的補充比較型號，依 2026-07-09 通路頁面整理售價、圖片與核心規格。",
     "pros": [
       "容量選擇更完整",
       "多數台灣通路售後明確"
@@ -615,7 +615,7 @@
       "一級能效",
       "PuriCare"
     ],
-    "description": "LG DD181MWE0 是除濕機類的補充比較型號，依 2026-07-08 通路頁面整理售價、圖片與核心規格。",
+    "description": "LG DD181MWE0 是除濕機類的補充比較型號，依 2026-07-09 通路頁面整理售價、圖片與核心規格。",
     "pros": [
       "容量選擇更完整",
       "多數台灣通路售後明確"
@@ -647,8 +647,8 @@
     "name": "20L 第六感智能除濕機",
     "price": {
       "currency": "TWD",
-      "amount": 9999,
-      "converted": 9999,
+      "amount": 11900,
+      "converted": 11900,
       "confidence": "可信通路查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ3SA900K13ZR/000001_1779265654.jpg",
@@ -660,7 +660,7 @@
       "30-80% 濕度設定",
       "廣口上吹"
     ],
-    "description": "Whirlpool WDEE20TW 是除濕機類的補充比較型號，依 2026-07-08 通路頁面整理售價、圖片與核心規格。",
+    "description": "Whirlpool WDEE20TW 是除濕機類的補充比較型號，依 2026-07-09 通路頁面整理售價、圖片與核心規格。",
     "pros": [
       "容量選擇更完整",
       "多數台灣通路售後明確"
@@ -694,7 +694,7 @@
       "currency": "TWD",
       "amount": 4480,
       "converted": 4480,
-      "confidence": "可信通路查核價，擷取 2026-07-08"
+      "confidence": "可信通路查核價，擷取 2026-07-09"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ3SA900I7NSN/000001_1767929673.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBQ3S-A900I7NSN",
@@ -739,7 +739,7 @@
       "currency": "TWD",
       "amount": 5490,
       "converted": 5490,
-      "confidence": "可信通路查核價，擷取 2026-07-08"
+      "confidence": "可信通路查核價，擷取 2026-07-09"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ08A900IXL3K/000001_1753349026.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBQ08-A900IXL3K",
@@ -782,9 +782,9 @@
     "name": "6L 除濕機",
     "price": {
       "currency": "TWD",
-      "amount": 5095,
-      "converted": 5095,
-      "confidence": "可信通路查核價，擷取 2026-07-08"
+      "amount": 5790,
+      "converted": 5790,
+      "confidence": "可信通路查核價，擷取 2026-07-09"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ3PA900J9FH9/000001_1776325410.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBQ3P-A900J9FH9",
@@ -829,7 +829,7 @@
       "currency": "TWD",
       "amount": 8990,
       "converted": 8990,
-      "confidence": "可信通路查核價，擷取 2026-07-08"
+      "confidence": "可信通路查核價，擷取 2026-07-09"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ08A900JPCL1/000001_1770962000.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBQ08-A900JPCL1",
@@ -874,7 +874,7 @@
       "currency": "TWD",
       "amount": 9671,
       "converted": 9671,
-      "confidence": "可信通路查核價，擷取 2026-07-08"
+      "confidence": "可信通路查核價，擷取 2026-07-09"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ01A900GSFGX/000001_1767322095.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBQ01-A900GSFGX",

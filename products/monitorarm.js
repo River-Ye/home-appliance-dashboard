@@ -593,8 +593,8 @@
     "name": "17-32 吋 8KG 氣壓式舒適螢幕懸臂支架",
     "price": {
       "currency": "TWD",
-      "amount": 1930,
-      "converted": 1930,
+      "amount": 1990,
+      "converted": 1990,
       "confidence": "可信通路查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DCAX3NA900HNTHZ/000001_1724123200.jpg",
@@ -641,8 +641,8 @@
     "name": "17-32 吋 8KG/臂 雙螢幕氣壓式懸臂支架",
     "price": {
       "currency": "TWD",
-      "amount": 2750,
-      "converted": 2750,
+      "amount": 2990,
+      "converted": 2990,
       "confidence": "可信通路查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DCAX3NA900HNTEF/000001_1724123227.jpg",
@@ -689,8 +689,8 @@
     "name": "17-32 吋 2-9KG 人體工學螢幕支架",
     "price": {
       "currency": "TWD",
-      "amount": 939,
-      "converted": 939,
+      "amount": 999,
+      "converted": 999,
       "confidence": "可信通路查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DCAGQ5A900JUC1W/000001_1774344481.jpg",
@@ -739,7 +739,7 @@
       "currency": "TWD",
       "amount": 3490,
       "converted": 3490,
-      "confidence": "可信通路查核價，擷取 2026-07-08"
+      "confidence": "可信通路查核價，擷取 2026-07-09"
     },
     "image": "https://cs-a.ecimg.tw/items/DCAGU1A900I6WCY/000001_1754374453.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DCAGU1-A900I6WCY",
@@ -782,9 +782,9 @@
     "name": "35吋 20KG 雙臂氣壓式螢幕支架",
     "price": {
       "currency": "TWD",
-      "amount": 5390,
-      "converted": 5390,
-      "confidence": "可信通路查核價，擷取 2026-07-08"
+      "amount": 5990,
+      "converted": 5990,
+      "confidence": "可信通路查核價，擷取 2026-07-09"
     },
     "image": "https://cs-a.ecimg.tw/items/DCAGU1A900IX2MD/000001_1749518938.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DCAGU1-A900IX2MD",
@@ -827,9 +827,9 @@
     "name": "台灣製氣壓式螢幕支架加長桿組",
     "price": {
       "currency": "TWD",
-      "amount": 4540,
-      "converted": 4540,
-      "confidence": "可信通路查核價，擷取 2026-07-08"
+      "amount": 4780,
+      "converted": 4780,
+      "confidence": "可信通路查核價，擷取 2026-07-09"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABN2A900GINEE/000001_1690179981.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DSABN2-A900GINEE",
@@ -874,7 +874,7 @@
       "currency": "TWD",
       "amount": 4288,
       "converted": 4288,
-      "confidence": "可信通路查核價，擷取 2026-07-08"
+      "confidence": "可信通路查核價，擷取 2026-07-09"
     },
     "image": "https://cs-a.ecimg.tw/items/DPADYKA900B0UWS/000001_1722844563.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DPADYK-A900B0UWS",
@@ -917,9 +917,9 @@
     "name": "17-35吋 10KG 氣壓懸臂式螢幕支架",
     "price": {
       "currency": "TWD",
-      "amount": 1130,
-      "converted": 1130,
-      "confidence": "可信通路查核價，擷取 2026-07-08"
+      "amount": 1190,
+      "converted": 1190,
+      "confidence": "可信通路查核價，擷取 2026-07-09"
     },
     "image": "https://cs-a.ecimg.tw/items/DCBAKFA900HAFJO/000001_1709791102.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DCBAKF-A900HAFJO",

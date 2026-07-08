@@ -808,8 +808,8 @@
       "image": "https://img.yec.tw/zp/MerchandiseImages/5C6B4B8DDF-SP-18495887.jpg",
       "price": {
         "currency": "TWD",
-        "amount": 7990,
-        "converted": 7990,
+        "amount": 7191,
+        "converted": 7191,
         "confidence": "Yahoo 購物中心低價查核"
       },
       "channel": "tw",
@@ -1007,8 +1007,8 @@
     "name": "16公斤 蒸本事瓦斯型乾衣機",
     "price": {
       "currency": "TWD",
-      "amount": 33999,
-      "converted": 33999,
+      "amount": 28899,
+      "converted": 28899,
       "confidence": "Costco 好市多 2026-07-09 查核價"
     },
     "image": "https://www.costco.com.tw/medias/sys_master/images/heb/h9e/208447532072990.webp",

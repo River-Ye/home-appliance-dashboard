@@ -293,8 +293,8 @@
     "name": "Fujin 風靈網狀人體工學電競椅",
     "price": {
       "currency": "TWD",
-      "amount": 11091,
-      "converted": 11091,
+      "amount": 12990,
+      "converted": 12990,
       "confidence": "可信通路查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DCBT0KA900GSDTK/000001_1762771347.jpg",
@@ -339,8 +339,8 @@
     "name": "Iskur V2 電競椅",
     "price": {
       "currency": "TWD",
-      "amount": 17390,
-      "converted": 17390,
+      "amount": 17990,
+      "converted": 17990,
       "confidence": "可信通路查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DCBE2LA900HBXCK/000001_1782957550.jpg",
@@ -385,8 +385,8 @@
     "name": "Enki 電競椅",
     "price": {
       "currency": "TWD",
-      "amount": 9900,
-      "converted": 9900,
+      "amount": 14900,
+      "converted": 14900,
       "confidence": "可信通路查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DCAKFOA900BWWGS/000001_1755481797.jpg",
@@ -709,7 +709,7 @@
       "currency": "TWD",
       "amount": 5890,
       "converted": 5890,
-      "confidence": "可信通路查核價，擷取 2026-07-08"
+      "confidence": "可信通路查核價，擷取 2026-07-09"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBJ0AA900JSBYX/000001_1780972580.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBJ0A-A900JSBYX",
@@ -754,7 +754,7 @@
       "currency": "TWD",
       "amount": 5688,
       "converted": 5688,
-      "confidence": "可信通路查核價，擷取 2026-07-08"
+      "confidence": "可信通路查核價，擷取 2026-07-09"
     },
     "image": "https://cs-a.ecimg.tw/items/DCAKI5A900HAAZA/000001_1734059628.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DCAKI5-A900HAAZA",
@@ -799,7 +799,7 @@
       "currency": "TWD",
       "amount": 3280,
       "converted": 3280,
-      "confidence": "可信通路查核價，擷取 2026-07-08"
+      "confidence": "可信通路查核價，擷取 2026-07-09"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBJ6ZA900HNDMY/000001_1720591564.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBJ6Z-A900HNDMY",
@@ -844,7 +844,7 @@
       "currency": "TWD",
       "amount": 3880,
       "converted": 3880,
-      "confidence": "可信通路查核價，擷取 2026-07-08"
+      "confidence": "可信通路查核價，擷取 2026-07-09"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBJ2XA900K3I6A/000001_1781062288.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBJ2X-A900K3I6A",
@@ -889,7 +889,7 @@
       "currency": "TWD",
       "amount": 17888,
       "converted": 17888,
-      "confidence": "可信通路查核價，擷取 2026-07-08"
+      "confidence": "可信通路查核價，擷取 2026-07-09"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBJ0RA900JA4SV/000001_1758791091.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBJ0R-A900JA4SV",

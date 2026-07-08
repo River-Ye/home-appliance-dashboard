@@ -223,8 +223,8 @@
     "image": "https://cs-a.ecimg.tw/items/DMCI0PA900HEQ1J/000001_1756977419.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 11352,
-      "converted": 11352,
+      "amount": 12900,
+      "converted": 12900,
       "confidence": "PChome 24h 低價查核"
     },
     "channel": "tw",
@@ -578,8 +578,8 @@
     "image": "https://cs-a.ecimg.tw/items/DMAWEMA900GDIXH/000001_1774485785.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 18810,
-      "converted": 18810,
+      "amount": 20900,
+      "converted": 20900,
       "confidence": "PChome 24h 低價查核"
     },
     "channel": "tw",
@@ -784,7 +784,7 @@
       "currency": "TWD",
       "amount": 34000,
       "converted": 34000,
-      "confidence": "可信通路查核價，擷取 2026-07-08"
+      "confidence": "可信通路查核價，擷取 2026-07-09"
     },
     "image": "https://cs-a.ecimg.tw/items/DSBE1FA900GSOLN/000001_1698896380.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DSBE1F-A900GSOLN",
@@ -829,7 +829,7 @@
       "currency": "TWD",
       "amount": 45800,
       "converted": 45800,
-      "confidence": "可信通路查核價，擷取 2026-07-08"
+      "confidence": "可信通路查核價，擷取 2026-07-09"
     },
     "image": "https://cs-a.ecimg.tw/items/DMCI2FA900JBNK6/000001_1782095017.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMCI2F-A900JBNK6",
@@ -874,7 +874,7 @@
       "currency": "TWD",
       "amount": 36810,
       "converted": 36810,
-      "confidence": "可信通路查核價，擷取 2026-07-08"
+      "confidence": "可信通路查核價，擷取 2026-07-09"
     },
     "image": "https://cs-a.ecimg.tw/items/DMCI0OA900JT66N/000001_1773306819.png",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMCI0O-A900JT66N",
@@ -919,7 +919,7 @@
       "currency": "TWD",
       "amount": 51450,
       "converted": 51450,
-      "confidence": "可信通路查核價，擷取 2026-07-08"
+      "confidence": "可信通路查核價，擷取 2026-07-09"
     },
     "image": "https://cs-a.ecimg.tw/items/DMCI19A900IW2PM/000001_1756711258.png",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMCI19-A900IW2PM",
@@ -964,7 +964,7 @@
       "currency": "TWD",
       "amount": 23600,
       "converted": 23600,
-      "confidence": "可信通路查核價，擷取 2026-07-08"
+      "confidence": "可信通路查核價，擷取 2026-07-09"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAWB8A900BVEOG/000001_1760685693.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAWB8-A900BVEOG",

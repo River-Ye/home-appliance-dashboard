@@ -166,8 +166,8 @@
     "image": "https://cs-a.ecimg.tw/items/DEAGRWA900JUUQL/000001_1774596210.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 799,
-      "converted": 799,
+      "amount": 888,
+      "converted": 888,
       "confidence": "PChome 24h 低價查核"
     },
     "channel": "tw",
@@ -217,8 +217,8 @@
     "image": "https://cs-a.ecimg.tw/items/DEAGY1A900JBVOD/000001_1759990405.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 2166,
-      "converted": 2166,
+      "amount": 2280,
+      "converted": 2280,
       "confidence": "PChome 24h 低價查核"
     },
     "channel": "tw",
@@ -465,8 +465,8 @@
     "image": "https://cs-a.ecimg.tw/items/DEAGRWA900GMT17/000001_1714111453.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 1546,
-      "converted": 1546,
+      "amount": 1718,
+      "converted": 1718,
       "confidence": "PChome 24h 低價查核"
     },
     "channel": "tw",
@@ -516,8 +516,8 @@
     "image": "https://cs-a.ecimg.tw/items/DEAGL1A900K0YA8/000001_1779182108.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 1899,
-      "converted": 1899,
+      "amount": 1999,
+      "converted": 1999,
       "confidence": "PChome 24h 低價查核"
     },
     "channel": "tw",
@@ -771,7 +771,7 @@
       "currency": "TWD",
       "amount": 3360,
       "converted": 3360,
-      "confidence": "可信通路查核價，擷取 2026-07-08"
+      "confidence": "可信通路查核價，擷取 2026-07-09"
     },
     "image": "https://cs-a.ecimg.tw/items/DSBE0MA900JD4AD/000001_1761016741.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DSBE0M-A900JD4AD",
@@ -816,7 +816,7 @@
       "currency": "TWD",
       "amount": 15120,
       "converted": 15120,
-      "confidence": "可信通路查核價，擷取 2026-07-08"
+      "confidence": "可信通路查核價，擷取 2026-07-09"
     },
     "image": "https://cs-a.ecimg.tw/items/DEBM2CA900J9CYP/000001_1758097012.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DEBM2C-A900J9CYP",
@@ -861,7 +861,7 @@
       "currency": "TWD",
       "amount": 609,
       "converted": 609,
-      "confidence": "可信通路查核價，擷取 2026-07-08"
+      "confidence": "可信通路查核價，擷取 2026-07-09"
     },
     "image": "https://cs-a.ecimg.tw/items/DEAG16A900IJI66/000001_1744270563.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DEAG16-A900IJI66",
@@ -906,7 +906,7 @@
       "currency": "TWD",
       "amount": 1185,
       "converted": 1185,
-      "confidence": "可信通路查核價，擷取 2026-07-08"
+      "confidence": "可信通路查核價，擷取 2026-07-09"
     },
     "image": "https://cs-a.ecimg.tw/items/DEAGYEA900BCET2/000001_1656480680.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DEAGYE-A900BCET2",
@@ -951,7 +951,7 @@
       "currency": "TWD",
       "amount": 697,
       "converted": 697,
-      "confidence": "可信通路查核價，擷取 2026-07-08"
+      "confidence": "可信通路查核價，擷取 2026-07-09"
     },
     "image": "https://cs-a.ecimg.tw/items/DEAWRUA900HDKXQ/000001_1712727942.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DEAWRU-A900HDKXQ",

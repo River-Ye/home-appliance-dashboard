@@ -17,8 +17,8 @@
     "name": "11.1.4 聲道旗艦 Soundbar",
     "price": {
       "currency": "TWD",
-      "amount": 38614,
-      "converted": 38614,
+      "amount": 44900,
+      "converted": 44900,
       "confidence": "可信通路查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAAODA900JMDR5/000001_1773978957.jpg",
@@ -255,7 +255,7 @@
       "後環繞喇叭",
       "Q 系列"
     ],
-    "description": "Samsung HW-Q930H/ZW 是Soundbar類的補充比較型號，依 2026-07-08 通路頁面整理售價、圖片與核心規格。",
+    "description": "Samsung HW-Q930H/ZW 是Soundbar類的補充比較型號，依 2026-07-09 通路頁面整理售價、圖片與核心規格。",
     "pros": [
       "安裝門檻低",
       "可快速補強電視音場"
@@ -300,7 +300,7 @@
       "Q 系列",
       "中階聲霸"
     ],
-    "description": "Samsung HW-QS700F 是Soundbar類的補充比較型號，依 2026-07-08 通路頁面整理售價、圖片與核心規格。",
+    "description": "Samsung HW-QS700F 是Soundbar類的補充比較型號，依 2026-07-09 通路頁面整理售價、圖片與核心規格。",
     "pros": [
       "安裝門檻低",
       "可快速補強電視音場"
@@ -345,7 +345,7 @@
       "立體環繞",
       "LG Soundbar"
     ],
-    "description": "LG S80TR 是Soundbar類的補充比較型號，依 2026-07-08 通路頁面整理售價、圖片與核心規格。",
+    "description": "LG S80TR 是Soundbar類的補充比較型號，依 2026-07-09 通路頁面整理售價、圖片與核心規格。",
     "pros": [
       "安裝門檻低",
       "可快速補強電視音場"
@@ -390,7 +390,7 @@
       "後環繞",
       "Dolby Atmos"
     ],
-    "description": "Samsung HW-Q990H/ZW 是Soundbar類的補充比較型號，依 2026-07-08 通路頁面整理售價、圖片與核心規格。",
+    "description": "Samsung HW-Q990H/ZW 是Soundbar類的補充比較型號，依 2026-07-09 通路頁面整理售價、圖片與核心規格。",
     "pros": [
       "安裝門檻低",
       "可快速補強電視音場"
@@ -435,7 +435,7 @@
       "Dolby Atmos",
       "重低音"
     ],
-    "description": "Samsung HW-QS90H/ZW 是Soundbar類的補充比較型號，依 2026-07-08 通路頁面整理售價、圖片與核心規格。",
+    "description": "Samsung HW-QS90H/ZW 是Soundbar類的補充比較型號，依 2026-07-09 通路頁面整理售價、圖片與核心規格。",
     "pros": [
       "安裝門檻低",
       "可快速補強電視音場"
@@ -480,7 +480,7 @@
       "重低音",
       "藍牙"
     ],
-    "description": "Sony HT-S40R 是Soundbar類的補充比較型號，依 2026-07-08 通路頁面整理售價、圖片與核心規格。",
+    "description": "Sony HT-S40R 是Soundbar類的補充比較型號，依 2026-07-09 通路頁面整理售價、圖片與核心規格。",
     "pros": [
       "安裝門檻低",
       "可快速補強電視音場"
@@ -525,7 +525,7 @@
       "藍牙",
       "小空間"
     ],
-    "description": "Sony HT-S100F 是Soundbar類的補充比較型號，依 2026-07-08 通路頁面整理售價、圖片與核心規格。",
+    "description": "Sony HT-S100F 是Soundbar類的補充比較型號，依 2026-07-09 通路頁面整理售價、圖片與核心規格。",
     "pros": [
       "安裝門檻低",
       "可快速補強電視音場"
@@ -570,7 +570,7 @@
       "單件式",
       "黑/白色"
     ],
-    "description": "JBL BAR 300 MK2 是Soundbar類的補充比較型號，依 2026-07-08 通路頁面整理售價、圖片與核心規格。",
+    "description": "JBL BAR 300 MK2 是Soundbar類的補充比較型號，依 2026-07-09 通路頁面整理售價、圖片與核心規格。",
     "pros": [
       "安裝門檻低",
       "可快速補強電視音場"
@@ -602,8 +602,8 @@
     "name": "7.1 聲道家庭劇院喇叭",
     "price": {
       "currency": "TWD",
-      "amount": 31160,
-      "converted": 31160,
+      "amount": 32800,
+      "converted": 32800,
       "confidence": "可信通路查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAAHGA900J56OK/000001_1755250707.jpg",
@@ -615,7 +615,7 @@
       "重低音",
       "家庭劇院"
     ],
-    "description": "JBL BAR 800 MK2 是Soundbar類的補充比較型號，依 2026-07-08 通路頁面整理售價、圖片與核心規格。",
+    "description": "JBL BAR 800 MK2 是Soundbar類的補充比較型號，依 2026-07-09 通路頁面整理售價、圖片與核心規格。",
     "pros": [
       "安裝門檻低",
       "可快速補強電視音場"
@@ -660,7 +660,7 @@
       "Bose 調音",
       "家庭娛樂"
     ],
-    "description": "Bose Smart Soundbar 600 Ultra 是Soundbar類的補充比較型號，依 2026-07-08 通路頁面整理售價、圖片與核心規格。",
+    "description": "Bose Smart Soundbar 600 Ultra 是Soundbar類的補充比較型號，依 2026-07-09 通路頁面整理售價、圖片與核心規格。",
     "pros": [
       "安裝門檻低",
       "可快速補強電視音場"
@@ -694,7 +694,7 @@
       "currency": "TWD",
       "amount": 4990,
       "converted": 4990,
-      "confidence": "可信通路查核價，擷取 2026-07-08"
+      "confidence": "可信通路查核價，擷取 2026-07-09"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAALNA900HP6MR/000001_1722414518.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAALN-A900HP6MR",
@@ -739,7 +739,7 @@
       "currency": "TWD",
       "amount": 22950,
       "converted": 22950,
-      "confidence": "可信通路查核價，擷取 2026-07-08"
+      "confidence": "可信通路查核價，擷取 2026-07-09"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBM1DA900HTC64/000001_1781747501.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBM1D-A900HTC64",
@@ -784,7 +784,7 @@
       "currency": "TWD",
       "amount": 38855,
       "converted": 38855,
-      "confidence": "可信通路查核價，擷取 2026-07-08"
+      "confidence": "可信通路查核價，擷取 2026-07-09"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBM1DA900IUZUJ/000001_1781790756.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBM1D-A900IUZUJ",
@@ -827,9 +827,9 @@
     "name": "7.1.4 聲道家庭劇院聲霸",
     "price": {
       "currency": "TWD",
-      "amount": 40755,
-      "converted": 40755,
-      "confidence": "可信通路查核價，擷取 2026-07-08"
+      "amount": 42900,
+      "converted": 42900,
+      "confidence": "可信通路查核價，擷取 2026-07-09"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAAHGA900J5777/000001_1755253698.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAAHG-A900J5777",
@@ -872,9 +872,9 @@
     "name": "Fidelio 7.1.2 Dolby Atmos 旗艦聲霸",
     "price": {
       "currency": "TWD",
-      "amount": 35399,
-      "converted": 35399,
-      "confidence": "可信通路查核價，擷取 2026-07-08"
+      "amount": 38900,
+      "converted": 38900,
+      "confidence": "可信通路查核價，擷取 2026-07-09"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAF02A900H2G5R/000001_1704612188.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAF02-A900H2G5R",

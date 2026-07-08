@@ -724,7 +724,7 @@
       "currency": "TWD",
       "amount": 8999,
       "converted": 8999,
-      "confidence": "可信通路查核價，擷取 2026-07-08"
+      "confidence": "可信通路查核價，擷取 2026-07-09"
     },
     "image": "https://cs-a.ecimg.tw/items/DSBC8RA900HUOTA/000001_1728700090.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DSBC8R-A900HUOTA",
@@ -770,7 +770,7 @@
       "currency": "TWD",
       "amount": 6890,
       "converted": 6890,
-      "confidence": "可信通路查核價，擷取 2026-07-08"
+      "confidence": "可信通路查核價，擷取 2026-07-09"
     },
     "image": "https://cs-a.ecimg.tw/items/DEBHCTA900BW2X6/000001_1634603420.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DEBHCT-A900BW2X6",
@@ -816,7 +816,7 @@
       "currency": "TWD",
       "amount": 9999,
       "converted": 9999,
-      "confidence": "可信通路查核價，擷取 2026-07-08"
+      "confidence": "可信通路查核價，擷取 2026-07-09"
     },
     "image": "https://cs-a.ecimg.tw/items/DSBC1TA900HT0DU/000001_1738574875.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DSBC1T-A900HT0DU",
@@ -862,7 +862,7 @@
       "currency": "TWD",
       "amount": 13990,
       "converted": 13990,
-      "confidence": "可信通路查核價，擷取 2026-07-08"
+      "confidence": "可信通路查核價，擷取 2026-07-09"
     },
     "image": "https://cs-a.ecimg.tw/items/DCBB6OA900HSVT2/000001_1782822944.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DCBB6O-A900HSVT2",
@@ -908,7 +908,7 @@
       "currency": "TWD",
       "amount": 8980,
       "converted": 8980,
-      "confidence": "可信通路查核價，擷取 2026-07-08"
+      "confidence": "可信通路查核價，擷取 2026-07-09"
     },
     "image": "https://cs-a.ecimg.tw/items/DCBB6OA900FRSK6/000001_1669107568.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DCBB6O-A900FRSK6",

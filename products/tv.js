@@ -261,7 +261,7 @@
       "高階 OLED",
       "手機投影：AirPlay / Chromecast"
     ],
-    "description": "Sony Y-65XR80 是電視類的補充比較型號，依 2026-07-08 通路頁面整理售價、圖片與核心規格。",
+    "description": "Sony Y-65XR80 是電視類的補充比較型號，依 2026-07-09 通路頁面整理售價、圖片與核心規格。",
     "pros": [
       "同尺寸規格可直接比價",
       "台灣通路資訊與圖片完整"
@@ -307,7 +307,7 @@
       "AI 物聯網智慧顯示器",
       "手機投影：AirPlay / Chromecast"
     ],
-    "description": "LG OLED65G5PTA 是電視類的補充比較型號，依 2026-07-08 通路頁面整理售價、圖片與核心規格。",
+    "description": "LG OLED65G5PTA 是電視類的補充比較型號，依 2026-07-09 通路頁面整理售價、圖片與核心規格。",
     "pros": [
       "同尺寸規格可直接比價",
       "台灣通路資訊與圖片完整"
@@ -339,8 +339,8 @@
     "name": "65 型 OLED 智慧聯網顯示器",
     "price": {
       "currency": "TWD",
-      "amount": 69615,
-      "converted": 69615,
+      "amount": 72072,
+      "converted": 72072,
       "confidence": "可信通路查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DPAD09A900J9FAZ/000001_1761888394.jpg",
@@ -353,7 +353,7 @@
       "日本品牌調校",
       "手機投影：AirPlay / Chromecast"
     ],
-    "description": "Panasonic TV-65Z90BGT 是電視類的補充比較型號，依 2026-07-08 通路頁面整理售價、圖片與核心規格。",
+    "description": "Panasonic TV-65Z90BGT 是電視類的補充比較型號，依 2026-07-09 通路頁面整理售價、圖片與核心規格。",
     "pros": [
       "同尺寸規格可直接比價",
       "台灣通路資訊與圖片完整"
@@ -399,7 +399,7 @@
       "Google TV",
       "手機投影：AirPlay / Chromecast"
     ],
-    "description": "Philips 65OLED809 是電視類的補充比較型號，依 2026-07-08 通路頁面整理售價、圖片與核心規格。",
+    "description": "Philips 65OLED809 是電視類的補充比較型號，依 2026-07-09 通路頁面整理售價、圖片與核心規格。",
     "pros": [
       "同尺寸規格可直接比價",
       "台灣通路資訊與圖片完整"
@@ -445,7 +445,7 @@
       "高階 S95F 系列",
       "手機投影：AirPlay / SmartThings/Tap View"
     ],
-    "description": "Samsung QA65S95FAXXZW 是電視類的補充比較型號，依 2026-07-08 通路頁面整理售價、圖片與核心規格。",
+    "description": "Samsung QA65S95FAXXZW 是電視類的補充比較型號，依 2026-07-09 通路頁面整理售價、圖片與核心規格。",
     "pros": [
       "同尺寸規格可直接比價",
       "台灣通路資訊與圖片完整"
@@ -491,7 +491,7 @@
       "量子點背光",
       "手機投影：AirPlay / Chromecast"
     ],
-    "description": "TCL 65C8L 是電視類的補充比較型號，依 2026-07-08 通路頁面整理售價、圖片與核心規格。",
+    "description": "TCL 65C8L 是電視類的補充比較型號，依 2026-07-09 通路頁面整理售價、圖片與核心規格。",
     "pros": [
       "同尺寸規格可直接比價",
       "台灣通路資訊與圖片完整"
@@ -537,7 +537,7 @@
       "中階價格帶",
       "手機投影：AirPlay / Chromecast"
     ],
-    "description": "TCL 65A400M 是電視類的補充比較型號，依 2026-07-08 通路頁面整理售價、圖片與核心規格。",
+    "description": "TCL 65A400M 是電視類的補充比較型號，依 2026-07-09 通路頁面整理售價、圖片與核心規格。",
     "pros": [
       "同尺寸規格可直接比價",
       "台灣通路資訊與圖片完整"
@@ -583,7 +583,7 @@
       "智慧聯網",
       "手機投影：AirPlay / Chromecast / Miracast"
     ],
-    "description": "Xiaomi S Pro Mini 65 2026 是電視類的補充比較型號，依 2026-07-08 通路頁面整理售價、圖片與核心規格。",
+    "description": "Xiaomi S Pro Mini 65 2026 是電視類的補充比較型號，依 2026-07-09 通路頁面整理售價、圖片與核心規格。",
     "pros": [
       "同尺寸規格可直接比價",
       "台灣通路資訊與圖片完整"
@@ -629,7 +629,7 @@
       "AI 智慧顯示器",
       "手機投影：AirPlay / SmartThings/Tap View"
     ],
-    "description": "Samsung QA65QN900FXXZW 是電視類的補充比較型號，依 2026-07-08 通路頁面整理售價、圖片與核心規格。",
+    "description": "Samsung QA65QN900FXXZW 是電視類的補充比較型號，依 2026-07-09 通路頁面整理售價、圖片與核心規格。",
     "pros": [
       "同尺寸規格可直接比價",
       "台灣通路資訊與圖片完整"
@@ -675,7 +675,7 @@
       "內建重低音",
       "手機投影：AirPlay / Chromecast / Miracast"
     ],
-    "description": "BenQ J65-770 是電視類的補充比較型號，依 2026-07-08 通路頁面整理售價、圖片與核心規格。",
+    "description": "BenQ J65-770 是電視類的補充比較型號，依 2026-07-09 通路頁面整理售價、圖片與核心規格。",
     "pros": [
       "同尺寸規格可直接比價",
       "台灣通路資訊與圖片完整"
@@ -709,7 +709,7 @@
       "currency": "TWD",
       "amount": 13999,
       "converted": 13999,
-      "confidence": "可信通路查核價，擷取 2026-07-08"
+      "confidence": "可信通路查核價，擷取 2026-07-09"
     },
     "image": "https://cs-a.ecimg.tw/items/DPADB2A900JGKQB/000001_1764820202.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DPADB2-A900JGKQB",
@@ -755,7 +755,7 @@
       "currency": "TWD",
       "amount": 17999,
       "converted": 17999,
-      "confidence": "可信通路查核價，擷取 2026-07-08"
+      "confidence": "可信通路查核價，擷取 2026-07-09"
     },
     "image": "https://cs-a.ecimg.tw/items/DPADBHA900HWJZ7/000001_1780076528.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DPADBH-A900HWJZ7",
@@ -799,9 +799,9 @@
     "name": "65型 4K QLED 120Hz Google TV",
     "price": {
       "currency": "TWD",
-      "amount": 12591,
-      "converted": 12591,
-      "confidence": "可信通路查核價，擷取 2026-07-08"
+      "amount": 13990,
+      "converted": 13990,
+      "confidence": "可信通路查核價，擷取 2026-07-09"
     },
     "image": "https://cs-a.ecimg.tw/items/DPADTOA900JNE73/000001_1768523868.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DPADTO-A900JNE73",
@@ -847,7 +847,7 @@
       "currency": "TWD",
       "amount": 21411,
       "converted": 21411,
-      "confidence": "可信通路查核價，擷取 2026-07-08"
+      "confidence": "可信通路查核價，擷取 2026-07-09"
     },
     "image": "https://cs-a.ecimg.tw/items/DPAD0WA900I9LNS/000001_1769648262.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DPAD0W-A900I9LNS",
@@ -893,7 +893,7 @@
       "currency": "TWD",
       "amount": 19710,
       "converted": 19710,
-      "confidence": "可信通路查核價，擷取 2026-07-08"
+      "confidence": "可信通路查核價，擷取 2026-07-09"
     },
     "image": "https://cs-a.ecimg.tw/items/DPADW5A900K1QA7/000001_1782888863.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DPADW5-A900K1QA7",
@@ -937,8 +937,8 @@
     "name": "Regza 75型 4K QLED 144Hz 全陣列背光智慧顯示器",
     "price": {
       "currency": "TWD",
-      "amount": 39999,
-      "converted": 39999,
+      "amount": 31999,
+      "converted": 31999,
       "confidence": "Costco 好市多 2026-07-09 查核價"
     },
     "image": "https://www.costco.com.tw/medias/sys_master/images/h1c/h62/438072163139614.webp",

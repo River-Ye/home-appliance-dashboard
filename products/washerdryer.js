@@ -171,8 +171,8 @@
       "image": "https://img.yec.tw/zp/MerchandiseImages/92D6674E4A-SP-17622644.jpg",
       "price": {
         "currency": "TWD",
-        "amount": 11900,
-        "converted": 11900,
+        "amount": 11543,
+        "converted": 11543,
         "confidence": "Yahoo 購物中心低價查核"
       },
       "channel": "tw",
@@ -379,8 +379,8 @@
       "image": "https://img.yec.tw/zp/MerchandiseImages/f96dfe1f84-Gd-10053955.jpg",
       "price": {
         "currency": "TWD",
-        "amount": 44910,
-        "converted": 44910,
+        "amount": 43563,
+        "converted": 43563,
         "confidence": "Yahoo 購物中心低價查核"
       },
       "channel": "tw",
@@ -483,8 +483,8 @@
       "image": "https://img.yec.tw/zp/MerchandiseImages/44CC3AD0EF-SP-17994282.jpg",
       "price": {
         "currency": "TWD",
-        "amount": 47900,
-        "converted": 47900,
+        "amount": 46463,
+        "converted": 46463,
         "confidence": "Yahoo 購物中心低價查核"
       },
       "channel": "tw",
@@ -847,8 +847,8 @@
       "image": "https://img.yec.tw/zp/MerchandiseImages/E932219640-SP-12334280.jpg",
       "price": {
         "currency": "TWD",
-        "amount": 36708,
-        "converted": 36708,
+        "amount": 34873,
+        "converted": 34873,
         "confidence": "Yahoo 購物中心低價查核"
       },
       "channel": "tw",

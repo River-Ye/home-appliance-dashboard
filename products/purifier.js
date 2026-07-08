@@ -17,8 +17,8 @@
     "name": "5-10 坪綠淨力玩美雙禦空氣清淨機",
     "price": {
       "currency": "TWD",
-      "amount": 5428,
-      "converted": 5428,
+      "amount": 5900,
+      "converted": 5900,
       "confidence": "可信通路查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAU3EA900AU9PA/000001_1782107657.jpg",
@@ -62,8 +62,8 @@
     "name": "14-29 坪智能 Wi-Fi 空氣清淨機",
     "price": {
       "currency": "TWD",
-      "amount": 11950,
-      "converted": 11950,
+      "amount": 12990,
+      "converted": 12990,
       "confidence": "可信通路查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAUE4A900I5SSZ/000001_1780654673.jpg",
@@ -152,8 +152,8 @@
     "name": "17 坪 360 度高效過濾空氣清淨機",
     "price": {
       "currency": "TWD",
-      "amount": 7359,
-      "converted": 7359,
+      "amount": 7999,
+      "converted": 7999,
       "confidence": "可信通路查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAC2OA900GH5RL/000001_1781800112.jpg",
@@ -242,8 +242,8 @@
     "name": "ClassicPro CP9i 空氣清淨機",
     "price": {
       "currency": "TWD",
-      "amount": 24830,
-      "converted": 24830,
+      "amount": 26990,
+      "converted": 26990,
       "confidence": "可信通路查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAUE4A900IJCAP/000001_1780654528.jpg",
@@ -255,7 +255,7 @@
       "智慧清淨",
       "大坪數"
     ],
-    "description": "Blueair ClassicPro CP9i 是空氣清淨機類的補充比較型號，依 2026-07-08 通路頁面整理售價、圖片與核心規格。",
+    "description": "Blueair ClassicPro CP9i 是空氣清淨機類的補充比較型號，依 2026-07-09 通路頁面整理售價、圖片與核心規格。",
     "pros": [
       "坪數帶涵蓋更完整",
       "HEPA/活性碳濾網資訊易比較"
@@ -287,8 +287,8 @@
     "name": "Blue Signature SP4i 極夜藍空氣清淨機",
     "price": {
       "currency": "TWD",
-      "amount": 18390,
-      "converted": 18390,
+      "amount": 19990,
+      "converted": 19990,
       "confidence": "可信通路查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAUE4A900J9KNK/000001_1780654611.jpg",
@@ -300,7 +300,7 @@
       "大坪數",
       "極夜藍"
     ],
-    "description": "Blueair Blue Signature SP4i 是空氣清淨機類的補充比較型號，依 2026-07-08 通路頁面整理售價、圖片與核心規格。",
+    "description": "Blueair Blue Signature SP4i 是空氣清淨機類的補充比較型號，依 2026-07-09 通路頁面整理售價、圖片與核心規格。",
     "pros": [
       "坪數帶涵蓋更完整",
       "HEPA/活性碳濾網資訊易比較"
@@ -332,8 +332,8 @@
     "name": "BlueMax 智能 WiFi 空氣清淨機 3250i",
     "price": {
       "currency": "TWD",
-      "amount": 4590,
-      "converted": 4590,
+      "amount": 4990,
+      "converted": 4990,
       "confidence": "可信通路查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAUE4A900I7DJ1/000001_1780654701.jpg",
@@ -345,7 +345,7 @@
       "輕巧",
       "除異味"
     ],
-    "description": "Blueair BlueMax 3250i 是空氣清淨機類的補充比較型號，依 2026-07-08 通路頁面整理售價、圖片與核心規格。",
+    "description": "Blueair BlueMax 3250i 是空氣清淨機類的補充比較型號，依 2026-07-09 通路頁面整理售價、圖片與核心規格。",
     "pros": [
       "坪數帶涵蓋更完整",
       "HEPA/活性碳濾網資訊易比較"
@@ -377,8 +377,8 @@
     "name": "BlueMax 智能 WiFi 空氣清淨機 3350i",
     "price": {
       "currency": "TWD",
-      "amount": 7350,
-      "converted": 7350,
+      "amount": 7990,
+      "converted": 7990,
       "confidence": "可信通路查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAUE4A900I7DN1/000001_1780654653.jpg",
@@ -390,7 +390,7 @@
       "輕巧",
       "除異味"
     ],
-    "description": "Blueair BlueMax 3350i 是空氣清淨機類的補充比較型號，依 2026-07-08 通路頁面整理售價、圖片與核心規格。",
+    "description": "Blueair BlueMax 3350i 是空氣清淨機類的補充比較型號，依 2026-07-09 通路頁面整理售價、圖片與核心規格。",
     "pros": [
       "坪數帶涵蓋更完整",
       "HEPA/活性碳濾網資訊易比較"
@@ -422,8 +422,8 @@
     "name": "ComfortPure 智能三合一涼暖空氣清淨機",
     "price": {
       "currency": "TWD",
-      "amount": 16550,
-      "converted": 16550,
+      "amount": 17990,
+      "converted": 17990,
       "confidence": "可信通路查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAUE4A900J40NE/000001_1780654570.jpg",
@@ -435,7 +435,7 @@
       "智慧控制",
       "空氣清淨"
     ],
-    "description": "Blueair ComfortPure T20i 是空氣清淨機類的補充比較型號，依 2026-07-08 通路頁面整理售價、圖片與核心規格。",
+    "description": "Blueair ComfortPure T20i 是空氣清淨機類的補充比較型號，依 2026-07-09 通路頁面整理售價、圖片與核心規格。",
     "pros": [
       "坪數帶涵蓋更完整",
       "HEPA/活性碳濾網資訊易比較"
@@ -480,7 +480,7 @@
       "中大坪數",
       "智慧清淨"
     ],
-    "description": "Blueair ClassicPro CP7i 是空氣清淨機類的補充比較型號，依 2026-07-08 通路頁面整理售價、圖片與核心規格。",
+    "description": "Blueair ClassicPro CP7i 是空氣清淨機類的補充比較型號，依 2026-07-09 通路頁面整理售價、圖片與核心規格。",
     "pros": [
       "坪數帶涵蓋更完整",
       "HEPA/活性碳濾網資訊易比較"
@@ -525,7 +525,7 @@
       "空氣清淨",
       "Dyson app"
     ],
-    "description": "Dyson HP12 是空氣清淨機類的補充比較型號，依 2026-07-08 通路頁面整理售價、圖片與核心規格。",
+    "description": "Dyson HP12 是空氣清淨機類的補充比較型號，依 2026-07-09 通路頁面整理售價、圖片與核心規格。",
     "pros": [
       "坪數帶涵蓋更完整",
       "HEPA/活性碳濾網資訊易比較"
@@ -570,7 +570,7 @@
       "智能偵測",
       "白色"
     ],
-    "description": "Dyson HP11 是空氣清淨機類的補充比較型號，依 2026-07-08 通路頁面整理售價、圖片與核心規格。",
+    "description": "Dyson HP11 是空氣清淨機類的補充比較型號，依 2026-07-09 通路頁面整理售價、圖片與核心規格。",
     "pros": [
       "坪數帶涵蓋更完整",
       "HEPA/活性碳濾網資訊易比較"
@@ -615,7 +615,7 @@
       "塔扇型",
       "白金色"
     ],
-    "description": "Dyson TP12 是空氣清淨機類的補充比較型號，依 2026-07-08 通路頁面整理售價、圖片與核心規格。",
+    "description": "Dyson TP12 是空氣清淨機類的補充比較型號，依 2026-07-09 通路頁面整理售價、圖片與核心規格。",
     "pros": [
       "坪數帶涵蓋更完整",
       "HEPA/活性碳濾網資訊易比較"
@@ -647,8 +647,8 @@
     "name": "奈米級空氣清淨機 MUJI AC0650",
     "price": {
       "currency": "TWD",
-      "amount": 4590,
-      "converted": 4590,
+      "amount": 4990,
+      "converted": 4990,
       "confidence": "可信通路查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAC2OA900GD1ZV/000001_1781800174.jpg",
@@ -660,7 +660,7 @@
       "小坪數",
       "入門價位"
     ],
-    "description": "Philips MUJI AC0650 是空氣清淨機類的補充比較型號，依 2026-07-08 通路頁面整理售價、圖片與核心規格。",
+    "description": "Philips MUJI AC0650 是空氣清淨機類的補充比較型號，依 2026-07-09 通路頁面整理售價、圖片與核心規格。",
     "pros": [
       "坪數帶涵蓋更完整",
       "HEPA/活性碳濾網資訊易比較"
@@ -694,7 +694,7 @@
       "currency": "TWD",
       "amount": 15990,
       "converted": 15990,
-      "confidence": "可信通路查核價，擷取 2026-07-08"
+      "confidence": "可信通路查核價，擷取 2026-07-09"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAU5EA900JYG1W/000001_1782872854.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAU5E-A900JYG1W",
@@ -739,7 +739,7 @@
       "currency": "TWD",
       "amount": 13990,
       "converted": 13990,
-      "confidence": "可信通路查核價，擷取 2026-07-08"
+      "confidence": "可信通路查核價，擷取 2026-07-09"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAU5EA900JYG87/000001_1782872232.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAU5E-A900JYG87",
@@ -784,7 +784,7 @@
       "currency": "TWD",
       "amount": 5990,
       "converted": 5990,
-      "confidence": "可信通路查核價，擷取 2026-07-08"
+      "confidence": "可信通路查核價，擷取 2026-07-09"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAU25A900IK1F2/000001_1744651718.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAU25-A900IK1F2",
@@ -827,9 +827,9 @@
     "name": "寵物抗敏空氣清淨機輕量版",
     "price": {
       "currency": "TWD",
-      "amount": 10110,
-      "converted": 10110,
-      "confidence": "可信通路查核價，擷取 2026-07-08"
+      "amount": 10990,
+      "converted": 10990,
+      "confidence": "可信通路查核價，擷取 2026-07-09"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAC2OA900J7SBO/000001_1781799851.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAC2O-A900J7SBO",
@@ -874,7 +874,7 @@
       "currency": "TWD",
       "amount": 12900,
       "converted": 12900,
-      "confidence": "可信通路查核價，擷取 2026-07-08"
+      "confidence": "可信通路查核價，擷取 2026-07-09"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAU0BA900GI0Q1/000001_1763349087.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAU0B-A900GI0Q1",
