@@ -4,6 +4,12 @@
 
 > 本專案由 AI 協助研究、整理資料並製作網頁；內容僅供採購比較參考，購買前請再以通路與品牌官方資訊為準。
 
+## 線上瀏覽
+
+不熟悉 GitHub 的人可以直接點這個公開網頁：
+
+[家電推薦比較工作台](https://river-ye.github.io/home-appliance-dashboard/)
+
 ## 內容
 
 - 12 類家電，除掃拖機器人外每類 15 個型號，共 193 筆。
@@ -16,4 +22,4 @@
 
 ## 使用
 
-直接開啟 `index.html`，或透過 GitHub Pages 瀏覽。
+直接開啟 `index.html`，或透過 [GitHub Pages](https://river-ye.github.io/home-appliance-dashboard/) 瀏覽。
