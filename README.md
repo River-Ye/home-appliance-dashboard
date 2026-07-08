@@ -12,8 +12,9 @@
 
 ## 內容
 
-- 13 類家電，除掃拖機器人與電子鎖外每類 15 個型號，共 239 筆。
+- 13 類家電，除掃拖機器人、無線路由器與電子鎖外每類 15 個型號，共 260 筆。
 - 掃拖機器人已擴充到 28 筆，涵蓋 Roborock、ECOVACS、Dreame、Narwal、iRobot、eufy、MOVA、LG、Shark、Dyson 的旗艦 / 次旗艦或代表機種。
+- 無線路由器已擴充到 36 筆，只保留 Wi-Fi 6 以上機種，涵蓋 ASUS、TP-Link、D-Link、NETGEAR、Linksys、Synology、Zyxel、Mercusys、MSI、Acer、Xiaomi、TOTOLINK、QNAP、Cudy 等品牌，並逐筆標示 Mesh 支援狀態。
 - 電子鎖已加入 46 筆，涵蓋 Yale、Philips、Kaadas、Aqara、Lockin、Zigbang/SHP、dormakaba、Milre、FIBRE、HITACHI、Lockly、WAFERLOCK、SHARP、Panasonic、HYUNDAI、3E、moorgen 等通路可買品牌。
 - 每類「綜合推薦」以 CP 值、評價口碑、價格、可信通路、台灣售後/保固風險綜合判斷，並附簡短推薦原因。
 - 支援分類、品牌、預算、通路、搜尋、排序與比較清單。
