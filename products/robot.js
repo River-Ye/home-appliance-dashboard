@@ -319,7 +319,7 @@
       "滾筒洗地",
       "快速回充"
     ],
-    "releaseDate": "找不到"
+    "releaseDate": "2025-09"
   },
   {
     "id": "robot-ecovacs-t80-omni",
@@ -859,7 +859,7 @@
       "自動集塵",
       "Roomba"
     ],
-    "releaseDate": "找不到"
+    "releaseDate": "2025-03-23"
   },
   {
     "id": "robot-eufy-omni-s2",
@@ -1039,7 +1039,7 @@
       "極薄",
       "滾筒洗地"
     ],
-    "releaseDate": "找不到"
+    "releaseDate": "2026-04-08"
   },
   {
     "id": "robot-mova-s70-roller",

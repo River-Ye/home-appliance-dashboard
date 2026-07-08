@@ -274,7 +274,7 @@
       "輕量",
       "無線"
     ],
-    "releaseDate": "找不到"
+    "releaseDate": "2021-05"
   },
   {
     "id": "vacuum-extra-7-dmax00-1900jra9w",
@@ -319,7 +319,7 @@
       "Dyson",
       "寵物"
     ],
-    "releaseDate": "找不到"
+    "releaseDate": "2025-11"
   },
   {
     "id": "vacuum-extra-8-dmax00-a900hc7b6",
@@ -364,7 +364,7 @@
       "Dyson",
       "高吸力"
     ],
-    "releaseDate": "找不到"
+    "releaseDate": "2021"
   },
   {
     "id": "vacuum-extra-9-dmax00-a900hc5bz",

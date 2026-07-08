@@ -139,7 +139,7 @@
       "設計",
       "安全"
     ],
-    "releaseDate": "找不到"
+    "releaseDate": "2025-05-28"
   },
   {
     "id": "fan-heran-hdf16",

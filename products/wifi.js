@@ -280,7 +280,7 @@
       "NETGEAR",
       "Orbi"
     ],
-    "releaseDate": "找不到"
+    "releaseDate": "2025-07-29"
   },
   {
     "id": "wifi-linksys-velop-pro-axe5400",
@@ -326,7 +326,7 @@
       "Linksys",
       "三頻"
     ],
-    "releaseDate": "找不到"
+    "releaseDate": "2023-07-16"
   },
   {
     "id": "wifi-synology-wrx560",
@@ -372,7 +372,7 @@
       "Synology",
       "2.5G"
     ],
-    "releaseDate": "找不到"
+    "releaseDate": "2022-11-02"
   },
   {
     "id": "wifi-unifi-u7-pro",
@@ -979,7 +979,7 @@
       "Acer",
       "三頻"
     ],
-    "releaseDate": "找不到"
+    "releaseDate": "2024-01-08"
   },
   {
     "id": "wifi-mercusys-halo-h80x-3pack",
@@ -1393,7 +1393,7 @@
       "管理",
       "Wi-Fi 6"
     ],
-    "releaseDate": "找不到"
+    "releaseDate": "2022-05-11"
   },
   {
     "id": "wifi-asus-rt-be88u",
@@ -1853,7 +1853,7 @@
       "SD-WAN",
       "進階"
     ],
-    "releaseDate": "找不到"
+    "releaseDate": "2020-11-06"
   },
   {
     "id": "wifi-cudy-ax3000-mesh",

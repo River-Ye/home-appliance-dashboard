@@ -48,7 +48,7 @@
       "耐用",
       "全食物"
     ],
-    "releaseDate": "找不到"
+    "releaseDate": "2017-01-04"
   },
   {
     "id": "blender-vitamix-a2500i",
@@ -94,7 +94,7 @@
       "均衡",
       "全食物"
     ],
-    "releaseDate": "找不到"
+    "releaseDate": "2017-01-04"
   },
   {
     "id": "blender-joyoung-k8s",
@@ -409,7 +409,7 @@
       "智能",
       "家用"
     ],
-    "releaseDate": "找不到"
+    "releaseDate": "2017-01-04"
   },
   {
     "id": "blender-extra-10-dmay0h-a9009qnf5",

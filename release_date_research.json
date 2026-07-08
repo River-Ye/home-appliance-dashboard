@@ -1,13 +1,13 @@
 {
   "summary": {
-    "checkedAt": "2026-07-08T07:55:59.558Z",
+    "checkedAt": "2026-07-08T10:10:20.244Z",
     "total": 590,
-    "found": 85,
-    "missing": 505,
+    "found": 113,
+    "missing": 477,
     "byConfidence": {
-      "official": 40,
-      "credible_article": 45,
-      "not_found": 505
+      "official": 51,
+      "credible_article": 62,
+      "not_found": 477
     }
   },
   "results": [
@@ -359,12 +359,14 @@
       "brand": "Samsung",
       "model": "HW-Q930H/ZW",
       "name": "Q 系列 9.1.4 聲道 Soundbar 家庭劇院",
-      "releaseDate": "找不到",
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "confidence": "not_found",
-      "query": "Samsung Q930H release date launch announced"
+      "releaseDate": "2026-04",
+      "sourceUrl": "https://www.huffingtonpost.es/tecnologia/sonido-inteligente-transformar-nuestro-hogar-samsung-lanza-espana-nueva-gama-sonido-f202604.html",
+      "sourceTitle": "Sonido inteligente para transformar nuestro hogar: Samsung lanza en España su potente nueva gama de sonido",
+      "evidenceSnippet": "Samsung lanza en España su nueva gama de audio; el texto enumera HW-Q930H dentro de la Serie Q.",
+      "confidence": "credible_article",
+      "query": "Samsung HW-Q930H launch Spain 2026",
+      "sourceKind": "agent_web_research",
+      "reason": "文章明確描述 Samsung 在西班牙 launch 新音響系列且列出 HW-Q930H；來源只支援到月份，故填 2026-04。"
     },
     {
       "id": "soundbar-extra-7-dmaaod-a900jmdr4",
@@ -523,12 +525,14 @@
       "brand": "Sony",
       "model": "HT-A9000",
       "name": "BRAVIA Theatre Bar 9 旗艦聲霸",
-      "releaseDate": "找不到",
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "confidence": "not_found",
-      "query": "Sony A9000 release date launch announced"
+      "releaseDate": "2024-04-17",
+      "sourceUrl": "https://www.sony.co.uk/presscentre/cinema-is-coming-home-sony-introduces-brand-new-range-of-bravia-theatre-audio-products",
+      "sourceTitle": "Cinema is coming home: Sony introduces brand-new range of BRAVIA Theatre audio products",
+      "evidenceSnippet": "Sony press centre dated 17 April 2024 says it is excited to launch BRAVIA Theatre products and lists Bar 9.",
+      "confidence": "official",
+      "query": "Sony HT-A9000 BRAVIA Theatre Bar 9 launch date",
+      "sourceKind": "agent_web_research",
+      "reason": "Sony 官方新聞稿明確是 BRAVIA Theatre 新產品發表/launch，且列出 BRAVIA Theatre Bar 9。"
     },
     {
       "id": "soundbar-extra-19-dmaahga900j5777",
@@ -589,12 +593,14 @@
       "brand": "Dyson",
       "model": "AM12",
       "name": "Cool CF1 智能涼風扇",
-      "releaseDate": "找不到",
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "confidence": "not_found",
-      "query": "Dyson AM12 release date launch announced"
+      "releaseDate": "2025-05-28",
+      "sourceUrl": "https://www.techradar.com/home/air-quality/the-original-dyson-bladeless-fan-just-got-a-long-awaited-revamp-and-it-looks-better-than-ever",
+      "sourceTitle": "The original Dyson bladeless fan just got a long-awaited revamp, and it looks better than ever",
+      "evidenceSnippet": "The Dyson Cool CF1 goes on sale in the UK on May 28.",
+      "confidence": "credible_article",
+      "query": "Dyson Cool CF1 AM12 goes on sale May 28 2025",
+      "sourceKind": "agent_web_research",
+      "reason": "TechRadar 文字明確寫 goes on sale 日期，且商品名稱對應清單的 Cool CF1。"
     },
     {
       "id": "fan-heran-hdf16",
@@ -1714,12 +1720,14 @@
       "brand": "Ecovacs",
       "model": "DEEBOT X11 PRO",
       "name": "無限續航滾筒洗地機器人",
-      "releaseDate": "找不到",
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "confidence": "not_found",
-      "query": "Ecovacs X11 release date launch announced"
+      "releaseDate": "2025-09",
+      "sourceUrl": "https://www.theverge.com/tech/853777/ecovacs-deebot-x12-omnicyclone-robot-vacuum-mop-cover",
+      "sourceTitle": "Ecovacs adds a mop cover to its flagship robot vacuum",
+      "evidenceSnippet": "The Verge identifies Deebot X12 as follow-up to the X11 and states X11 launched at IFA in September 2025.",
+      "confidence": "credible_article",
+      "query": "Ecovacs DEEBOT X11 launched IFA September 2025",
+      "sourceKind": "agent_web_research",
+      "reason": "來源文字明確寫 X11 launched at IFA in September 2025；只支持月份，故填 2025-09。"
     },
     {
       "id": "robot-ecovacs-t80-omni",
@@ -1880,12 +1888,14 @@
       "brand": "iRobot",
       "model": "Roomba 205 Combo",
       "name": "自動壓縮集塵掃拖機器人",
-      "releaseDate": "找不到",
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "confidence": "not_found",
-      "query": "iRobot Roomba 205 Combo release date launch announced"
+      "releaseDate": "2025-03-23",
+      "sourceUrl": "https://media.irobot.com/2025-03-11-iRobot-Introduces-Suite-of-Innovative-ROOMBA-R-Floor-Cleaning-Robots",
+      "sourceTitle": "iRobot Introduces Suite of Innovative ROOMBA® Floor Cleaning Robots - Mar 11, 2025",
+      "evidenceSnippet": "iRobot says the 2025 lineup includes Roomba 205 DustCompactor Combo Robot; pre-orders begin March 18 and retail introductions begin March 23, 2025.",
+      "confidence": "official",
+      "query": "iRobot Roomba 205 Combo retail introductions March 23 2025",
+      "sourceKind": "agent_web_research",
+      "reason": "iRobot 官方新聞稿明確列出 205 DustCompactor Combo，並提供零售上市時間。"
     },
     {
       "id": "robot-eufy-omni-s2",
@@ -1935,12 +1945,14 @@
       "brand": "MOVA",
       "model": "S70 Ultra Roller",
       "name": "極薄滾筒掃拖機器人旗艦版",
-      "releaseDate": "找不到",
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "confidence": "not_found",
-      "query": "MOVA S70 release date launch announced"
+      "releaseDate": "2026-04-08",
+      "sourceUrl": "https://www.huffingtonpost.es/tecnologia/mova-lanza-espana-s70-roller-robot-aspirador-rodillos-mas-delgado-fecha-real-f202604.html",
+      "sourceTitle": "Mova lanza en España el S70 Roller: el robot aspirador con rodillos más delgado hasta la fecha ya es real",
+      "evidenceSnippet": "HuffPost Spain says MOVA announced the launch of S70 Roller in Spain this same Wednesday; page timestamp resolves that Wednesday to April 8, 2026.",
+      "confidence": "credible_article",
+      "query": "MOVA S70 Roller launch Spain April 2026",
+      "sourceKind": "agent_web_research",
+      "reason": "文章明確是 announced the launch/llega a España；此筆對應核心 S70 Roller 機型。"
     },
     {
       "id": "robot-mova-s70-roller",
@@ -2087,12 +2099,14 @@
       "brand": "Dyson",
       "model": "V12 Fluffy SV46",
       "name": "V12 Fluffy 智慧輕量吸塵器",
-      "releaseDate": "找不到",
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "confidence": "not_found",
-      "query": "Dyson V12 release date launch announced"
+      "releaseDate": "2021-05",
+      "sourceUrl": "https://www.techradar.com/reviews/dyson-v12-detect-slim",
+      "sourceTitle": "Dyson V12 Detect Slim vacuum cleaner review",
+      "evidenceSnippet": "TechRadar states the Dyson V12 Detect Slim was unveiled alongside V15 Detect and Omni-Glide in May 2021.",
+      "confidence": "credible_article",
+      "query": "Dyson V12 Detect Slim unveiled May 2021",
+      "sourceKind": "agent_web_research",
+      "reason": "來源明確寫 unveiled in May 2021；PChome V12 Fluffy SV46 視為 V12 Slim 系列對應。"
     },
     {
       "id": "vacuum-extra-7-dmax00-1900jra9w",
@@ -2100,12 +2114,14 @@
       "brand": "Dyson",
       "model": "V12s Origin Submarine SV49",
       "name": "V12s Origin Submarine 乾濕全能洗地吸塵器",
-      "releaseDate": "找不到",
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "confidence": "not_found",
-      "query": "Dyson SV49 release date launch announced"
+      "releaseDate": "2025-11",
+      "sourceUrl": "https://www.techradar.com/home/vacuums/dyson-just-released-mopping-versions-of-its-best-vacuums-and-theyre-already-discounted-in-the-black-friday-sales",
+      "sourceTitle": "Dyson just released mopping versions of its best vacuums - and they're already discounted in the Black Friday sales",
+      "evidenceSnippet": "TechRadar says V12s Detect Slim Submarine had joined the Dyson UK lineup as a new Submarine addition in November 2025.",
+      "confidence": "credible_article",
+      "query": "Dyson V12s Submarine released November 2025",
+      "sourceKind": "agent_web_research",
+      "reason": "來源描述新加入 lineup 的 Submarine 機型；無精確日，故填 2025-11。"
     },
     {
       "id": "vacuum-extra-8-dmax00-a900hc7b6",
@@ -2113,12 +2129,14 @@
       "brand": "Dyson",
       "model": "V15 Detect Fluffy SV47",
       "name": "V15 Detect Fluffy 智慧無線吸塵器",
-      "releaseDate": "找不到",
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "confidence": "not_found",
-      "query": "Dyson V15 release date launch announced"
+      "releaseDate": "2021",
+      "sourceUrl": "https://www.techradar.com/home/vacuums/dyson-v8-vs-v15-detect-whats-the-difference",
+      "sourceTitle": "Dyson V8 vs V15 Detect cordless vacuum: what's the difference and which should I buy?",
+      "evidenceSnippet": "TechRadar states the Dyson V15 Detect hit the market in 2021.",
+      "confidence": "credible_article",
+      "query": "Dyson V15 Detect hit the market 2021",
+      "sourceKind": "agent_web_research",
+      "reason": "來源文字明確是 hit the market；只給年份，因此使用 YYYY。"
     },
     {
       "id": "vacuum-extra-9-dmax00-a900hc5bz",
@@ -2290,8 +2308,7 @@
       "sourceTitle": "",
       "evidenceSnippet": "",
       "confidence": "not_found",
-      "query": "LG WT-VDN12HM 上市日期 發售日期 release date",
-      "sourceKind": "not_found_after_search"
+      "query": "LG WT-VDN12HM release date launch announced"
     },
     {
       "id": "washer-lg-wt-td16hw",
@@ -2304,8 +2321,7 @@
       "sourceTitle": "",
       "evidenceSnippet": "",
       "confidence": "not_found",
-      "query": "LG WT-TD16HW 上市日期 發售日期 release date",
-      "sourceKind": "not_found_after_search"
+      "query": "LG WT-TD16HW release date launch announced"
     },
     {
       "id": "washer-lg-wt-td18ob",
@@ -2318,8 +2334,7 @@
       "sourceTitle": "",
       "evidenceSnippet": "",
       "confidence": "not_found",
-      "query": "LG WT-TD18OB 上市日期 發售日期 release date",
-      "sourceKind": "not_found_after_search"
+      "query": "LG WT-TD18OB release date launch announced"
     },
     {
       "id": "washer-panasonic-na-v190mt-pn",
@@ -2374,8 +2389,7 @@
       "sourceTitle": "",
       "evidenceSnippet": "",
       "confidence": "not_found",
-      "query": "LG WD-S13VBW 上市日期 發售日期 release date",
-      "sourceKind": "not_found_after_search"
+      "query": "LG WD-S13VBW release date launch announced"
     },
     {
       "id": "washer-sampo-wm-md10",
@@ -2850,8 +2864,7 @@
       "sourceTitle": "",
       "evidenceSnippet": "",
       "confidence": "not_found",
-      "query": "LG WD-S90VDW 上市日期 發售日期 release date",
-      "sourceKind": "not_found_after_search"
+      "query": "LG WD-S90VDW release date launch announced"
     },
     {
       "id": "washerdryer-whirlpool-wweb10701bs",
@@ -2934,8 +2947,7 @@
       "sourceTitle": "",
       "evidenceSnippet": "",
       "confidence": "not_found",
-      "query": "LG WD-S13VDW 上市日期 發售日期 release date",
-      "sourceKind": "not_found_after_search"
+      "query": "LG WD-S13VDW release date launch announced"
     },
     {
       "id": "washerdryer-whirlpool-8twfc6820lw",
@@ -2976,8 +2988,7 @@
       "sourceTitle": "",
       "evidenceSnippet": "",
       "confidence": "not_found",
-      "query": "LG WD-S18NDB 上市日期 發售日期 release date",
-      "sourceKind": "not_found_after_search"
+      "query": "LG WD-S18NDB release date launch announced"
     },
     {
       "id": "washerdryer-samsung-wd12db9b84gntw",
@@ -3158,8 +3169,7 @@
       "sourceTitle": "",
       "evidenceSnippet": "",
       "confidence": "not_found",
-      "query": "LG GN-L217SVN 上市日期 發售日期 release date",
-      "sourceKind": "not_found_after_search"
+      "query": "LG GN-L217SVN release date launch announced"
     },
     {
       "id": "refrigerator-lg-gn-l266svn",
@@ -3172,8 +3182,7 @@
       "sourceTitle": "",
       "evidenceSnippet": "",
       "confidence": "not_found",
-      "query": "LG GN-L266SVN 上市日期 發售日期 release date",
-      "sourceKind": "not_found_after_search"
+      "query": "LG GN-L266SVN release date launch announced"
     },
     {
       "id": "refrigerator-panasonic-nr-c505xv-w",
@@ -3962,13 +3971,15 @@
       "brand": "Vitamix",
       "model": "A3500i",
       "name": "Ascent 領航者全食物調理機",
-      "releaseDate": "找不到",
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "confidence": "not_found",
-      "query": "Vitamix A3500i release date launch announced",
-      "error": "Browser Use cannot open https://www.bing.com/search in tab 1139074745. Browser reported: net::ERR_CONNECTION_CLOSED"
+      "releaseDate": "2017-01-04",
+      "sourceUrl": "https://www.vitamix.com/us/en_us/corporate-information/media-center/press-releases/2016/vitamix-ascent-series-blenders-powerful-smart-and-chic/",
+      "sourceTitle": "Vitamix® Ascent™ Series Blenders: Powerful, Smart and Chic | Vitamix",
+      "evidenceSnippet": "Vitamix official press release lists Model A3500 and states Ascent Series blenders are available.",
+      "confidence": "official",
+      "query": "Vitamix Ascent A3500 available January 4 2017",
+      "error": "Browser Use cannot open https://www.bing.com/search in tab 1139074745. Browser reported: net::ERR_CONNECTION_CLOSED",
+      "sourceKind": "agent_web_research",
+      "reason": "官方新品新聞稿列明 A3500 且文字為 available；A3500i 視為國際版後綴。"
     },
     {
       "id": "blender-vitamix-a2500i",
@@ -3976,13 +3987,15 @@
       "brand": "Vitamix",
       "model": "A2500i",
       "name": "Ascent 領航者全食物調理機",
-      "releaseDate": "找不到",
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "confidence": "not_found",
-      "query": "Vitamix A2500i release date launch announced",
-      "error": "Browser Use cannot open https://www.bing.com/search in tab 1139074745. Browser reported: net::ERR_CONNECTION_CLOSED"
+      "releaseDate": "2017-01-04",
+      "sourceUrl": "https://www.vitamix.com/us/en_us/corporate-information/media-center/press-releases/2016/vitamix-ascent-series-blenders-powerful-smart-and-chic/",
+      "sourceTitle": "Vitamix® Ascent™ Series Blenders: Powerful, Smart and Chic | Vitamix",
+      "evidenceSnippet": "Vitamix official press release presents the Ascent Series, lists Model A2500, and says the series is available.",
+      "confidence": "official",
+      "query": "Vitamix Ascent A2500 available January 4 2017",
+      "error": "Browser Use cannot open https://www.bing.com/search in tab 1139074745. Browser reported: net::ERR_CONNECTION_CLOSED",
+      "sourceKind": "agent_web_research",
+      "reason": "Vitamix 官方新聞稿為新品系列發表/上市語境且列明 A2500；A2500i 視為國際版後綴。"
     },
     {
       "id": "blender-joyoung-k8s",
@@ -4074,13 +4087,15 @@
       "brand": "Vitamix",
       "model": "A2500i White",
       "name": "Ascent A2500i 全食物調理機白色",
-      "releaseDate": "找不到",
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "confidence": "not_found",
-      "query": "Vitamix A2500i White release date launch announced",
-      "error": "Browser Use cannot open https://www.bing.com/search in tab 1139074745. Browser reported: net::ERR_CONNECTION_CLOSED"
+      "releaseDate": "2017-01-04",
+      "sourceUrl": "https://www.vitamix.com/us/en_us/corporate-information/media-center/press-releases/2016/vitamix-ascent-series-blenders-powerful-smart-and-chic/",
+      "sourceTitle": "Vitamix® Ascent™ Series Blenders: Powerful, Smart and Chic | Vitamix",
+      "evidenceSnippet": "Vitamix official press release lists Model A2500 and states Ascent Series blenders are available.",
+      "confidence": "official",
+      "query": "Vitamix Ascent A2500 white available January 4 2017",
+      "error": "Browser Use cannot open https://www.bing.com/search in tab 1139074745. Browser reported: net::ERR_CONNECTION_CLOSED",
+      "sourceKind": "agent_web_research",
+      "reason": "官方發布頁列 A2500 且明確 available；White 為 A2500i 色款，來源未單列白色 SKU。"
     },
     {
       "id": "blender-extra-10-dmay0h-a9009qnf5",
@@ -6076,13 +6091,14 @@
       "brand": "NETGEAR",
       "model": "Orbi RBE373",
       "name": "BE5000 Wi-Fi 7 Mesh 延伸系統路由器+2衛星",
-      "releaseDate": "找不到",
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "confidence": "not_found",
-      "query": "NETGEAR Orbi RBE373 release date launch announced 上市 發售",
-      "sourceKind": "not_found_after_available_search"
+      "releaseDate": "2025-07-29",
+      "sourceUrl": "https://www.tomshardware.com/networking/netgears-orbi-370-offers-affordable-dual-band-wi-fi-7-mesh-starting-at-usd249-99-company-brings-next-gen-router-pricing-more-in-line-with-competition-from-tp-link-and-amazon",
+      "sourceTitle": "Netgear's Orbi 370 offers affordable dual-band Wi-Fi 7 mesh starting at $249.99",
+      "evidenceSnippet": "Tom's Hardware says NETGEAR launched the Orbi 370 series, it is available now, and lists $349.99 for a three-pack.",
+      "confidence": "credible_article",
+      "query": "NETGEAR Orbi 370 RBE373 launch available July 29 2025",
+      "sourceKind": "agent_web_research",
+      "reason": "可信媒體內文直接寫 Orbi 370 系列 launch 且 available now；三入組對應 RBE373。"
     },
     {
       "id": "wifi-linksys-velop-pro-axe5400",
@@ -6090,13 +6106,14 @@
       "brand": "Linksys",
       "model": "Velop Pro AXE5400",
       "name": "Wi-Fi 6E 三頻無線網狀路由器一入",
-      "releaseDate": "找不到",
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "confidence": "not_found",
-      "query": "Linksys Velop Pro AXE5400 release date launch announced 上市 發售",
-      "sourceKind": "not_found_after_available_search"
+      "releaseDate": "2023-07-16",
+      "sourceUrl": "https://www.linksys.com/blogs/press/linksys-announces-velop-pro-6e-mesh-system-with-high-performance-connectivity-at-a-competitive-price",
+      "sourceTitle": "Linksys Announces Velop Pro 6E Mesh System with High-Performance Connectivity at a Competitive Price",
+      "evidenceSnippet": "Linksys official press release announces Velop Pro 6E and says it will be available July 16th.",
+      "confidence": "official",
+      "query": "Linksys Velop Pro 6E available July 16 2023",
+      "sourceKind": "agent_web_research",
+      "reason": "官方新聞稿直接宣布 Velop Pro 6E，並明確寫 will be available July 16th。"
     },
     {
       "id": "wifi-synology-wrx560",
@@ -6104,13 +6121,14 @@
       "brand": "Synology",
       "model": "WRX560",
       "name": "AX3000 雙頻 Wi-Fi 6 Mesh 路由器",
-      "releaseDate": "找不到",
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "confidence": "not_found",
-      "query": "Synology WRX560 release date launch announced 上市 發售",
-      "sourceKind": "not_found_after_available_search"
+      "releaseDate": "2022-11-02",
+      "sourceUrl": "https://www.synology.com/en-global/company/news/article/WRX560",
+      "sourceTitle": "Synology® launches WRX560 — Wi-Fi 6 router for the modern smart home",
+      "evidenceSnippet": "Synology announced the launch of WRX560 and says it is available for purchase starting from 2 November 2022.",
+      "confidence": "official",
+      "query": "Synology WRX560 launch available November 2 2022",
+      "sourceKind": "agent_web_research",
+      "reason": "官方新聞稿標題與內文明確 launch/availability，日期不是支援文件或評論日期。"
     },
     {
       "id": "wifi-unifi-u7-pro",
@@ -6286,13 +6304,14 @@
       "brand": "Acer",
       "model": "Predator Connect T7",
       "name": "BE11000 Mesh Wi-Fi 7 電競路由器",
-      "releaseDate": "找不到",
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "confidence": "not_found",
-      "query": "Acer Predator Connect T7 release date launch announced 上市 發售",
-      "sourceKind": "not_found_after_available_search"
+      "releaseDate": "2024-01-08",
+      "sourceUrl": "https://www.lifewire.com/acer-gaming-routers-monitors-new-laptops-8423549",
+      "sourceTitle": "Acer Drops New Gaming Routers, Monitors, and 2 New Laptops",
+      "evidenceSnippet": "Lifewire reports Acer launched new products ahead of CES 2024 and unveiled the Predator Connect T7 Wi-Fi 7 mesh router.",
+      "confidence": "credible_article",
+      "query": "Acer Predator Connect T7 launched CES 2024",
+      "sourceKind": "agent_web_research",
+      "reason": "可信媒體明確寫 launched/unveiled 並點名 Predator Connect T7。"
     },
     {
       "id": "wifi-mercusys-halo-h80x-3pack",
@@ -6412,13 +6431,14 @@
       "brand": "Synology",
       "model": "RT6600ax",
       "name": "三頻 Wi-Fi 6 Router 無線路由器",
-      "releaseDate": "找不到",
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "confidence": "not_found",
-      "query": "Synology RT6600ax release date launch announced 上市 發售",
-      "sourceKind": "not_found_after_available_search"
+      "releaseDate": "2022-05-11",
+      "sourceUrl": "https://www.synology.com/en-global/company/news/article/RT6600ax",
+      "sourceTitle": "Synology® launches RT6600ax Wi-Fi 6 router and releases major update for SRM operating system",
+      "evidenceSnippet": "Synology announced the launch of RT6600ax and says it is available for purchase starting from May 11.",
+      "confidence": "official",
+      "query": "Synology RT6600ax launch May 11 2022",
+      "sourceKind": "agent_web_research",
+      "reason": "官方新聞稿明確為 launch 且有 available for purchase starting 日期。"
     },
     {
       "id": "wifi-asus-rt-be88u",
@@ -6552,13 +6572,14 @@
       "brand": "QNAP",
       "model": "QHora-301W",
       "name": "Wi-Fi 6 雙 10GbE SD-WAN 路由器",
-      "releaseDate": "找不到",
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "confidence": "not_found",
-      "query": "QNAP QHora-301W release date launch announced 上市 發售",
-      "sourceKind": "not_found_after_available_search"
+      "releaseDate": "2020-11-06",
+      "sourceUrl": "https://www.qnap.com/en/news/2020/qnap-launches-the-qhora-301w-next-generation-wi-fi-6-and-10gbe-dual-port-sd-wan-router-with-a-qualcomm-ipq8072a-processor",
+      "sourceTitle": "QNAP Launches the QHora-301W - Next-Generation Wi-Fi 6 and 10GbE Dual-port SD-WAN Router with a Qualcomm IPQ8072A Processor",
+      "evidenceSnippet": "QNAP official press release dated November 6, 2020 says QNAP launches the QHora-301W and it is now available.",
+      "confidence": "official",
+      "query": "QNAP QHora-301W launch available November 6 2020",
+      "sourceKind": "agent_web_research",
+      "reason": "官方新聞稿標題與內文直接點名 QHora-301W，dateline 與 now available 支持日期。"
     },
     {
       "id": "wifi-cudy-ax3000-mesh",
@@ -7350,13 +7371,14 @@
       "brand": "EIZO",
       "model": "FlexScan EV2460",
       "name": "23.8 吋 IPS 超薄邊框商務螢幕",
-      "releaseDate": "找不到",
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "confidence": "not_found",
-      "query": "EIZO FlexScan EV2460 release date launch announced 上市 發售",
-      "sourceKind": "not_found_after_available_search"
+      "releaseDate": "2019-12-05",
+      "sourceUrl": "https://www.eizoglobal.com/press/releases/2019/NR19_020.html",
+      "sourceTitle": "EIZO Releases Frameless 23.8-inch and 22.5-inch LCD Monitors with Features for Contributing to Sustainable Development",
+      "evidenceSnippet": "EIZO announced the release of the 23.8-inch FlexScan EV2460 on December 5, 2019.",
+      "confidence": "official",
+      "query": "EIZO EV2460 announced release December 5 2019",
+      "sourceKind": "agent_web_research",
+      "reason": "EIZO 官方新聞稿標題與內文明確寫 releases / announced the release，且點名 FlexScan EV2460。"
     },
     {
       "id": "monitor-xiaomi-a27qi-2026",
@@ -7476,13 +7498,14 @@
       "brand": "BenQ",
       "model": "MA270U",
       "name": "27 型 4K Mac 外接護眼螢幕",
-      "releaseDate": "找不到",
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "confidence": "not_found",
-      "query": "BenQ MA270U release date launch announced 上市 發售",
-      "sourceKind": "not_found_after_available_search"
+      "releaseDate": "2026-02-15",
+      "sourceUrl": "https://www.techradar.com/pro/benq-says-its-new-monitors-will-transform-work-for-mac-users-but-will-it-be-enough-to-tempt-them-away-from-apples-own-devices",
+      "sourceTitle": "BenQ says its new monitors will transform work for Mac users - but will it be enough to tempt them away from Apple's own devices?",
+      "evidenceSnippet": "TechRadar reports BenQ launched its latest MA Series business monitors and lists MA270U.",
+      "confidence": "credible_article",
+      "query": "BenQ MA270U launched MA Series February 2026",
+      "sourceKind": "agent_web_research",
+      "reason": "來源是 launch 新聞且點名 MA270U 屬於該系列。"
     },
     {
       "id": "monitor-benq-ew3290u",
@@ -7518,13 +7541,14 @@
       "brand": "Dell",
       "model": "U2725QE-4Y",
       "name": "27 型 4K Thunderbolt USB-C UltraSharp 螢幕",
-      "releaseDate": "找不到",
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "confidence": "not_found",
-      "query": "Dell U2725QE-4Y release date launch announced 上市 發售",
-      "sourceKind": "not_found_after_available_search"
+      "releaseDate": "2025-02-25",
+      "sourceUrl": "https://www.theverge.com/2025/1/6/24336649/dell-ultrasharp-4k-office-monitors-120hz-price-availability",
+      "sourceTitle": "Everyone’s favorite office monitor is getting even better",
+      "evidenceSnippet": "The Verge says Dell's new 27/32-inch 4K UltraSharp Thunderbolt monitors will be available globally starting February 25th.",
+      "confidence": "credible_article",
+      "query": "Dell U2725QE available globally February 25 2025",
+      "sourceKind": "agent_web_research",
+      "reason": "日期來自 available to buy globally starting 文字，而非文章發布日。"
     },
     {
       "id": "monitor-lg-27gx790a",
@@ -7532,13 +7556,14 @@
       "brand": "LG",
       "model": "UltraGear 27GX790A-B",
       "name": "27 型 QHD 480Hz OLED 電競螢幕",
-      "releaseDate": "找不到",
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "confidence": "not_found",
-      "query": "LG UltraGear 27GX790A-B release date launch announced 上市 發售",
-      "sourceKind": "not_found_after_available_search"
+      "releaseDate": "2024-11-18",
+      "sourceUrl": "https://www.theverge.com/2024/11/18/24299376/lg-ultragear-gx7-480hz-oled-gaming-monitor-price-availability",
+      "sourceTitle": "LG’s first 480Hz OLED gaming monitor is $1,000",
+      "evidenceSnippet": "The Verge identifies UltraGear 27GX790A/GX7 and says it was available for preorder on LG's US website.",
+      "confidence": "credible_article",
+      "query": "LG UltraGear 27GX790A GX7 preorder availability November 18 2024",
+      "sourceKind": "agent_web_research",
+      "reason": "來源內文明確點名 27GX790A/GX7 並寫 available for preorder；採預購開放日期。"
     },
     {
       "id": "monitor-asus-xg32ucwg",
@@ -7658,13 +7683,14 @@
       "brand": "Samsung",
       "model": "S27FG602SC Odyssey OLED G6",
       "name": "27 型 2K 500Hz OLED Odyssey G6",
-      "releaseDate": "找不到",
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "confidence": "not_found",
-      "query": "Samsung S27FG602SC Odyssey OLED G6 release date launch announced 上市 發售",
-      "sourceKind": "not_found_after_available_search"
+      "releaseDate": "2025-08-13",
+      "sourceUrl": "https://www.tomshardware.com/monitors/gaming-monitors/samsungs-500hz-qhd-oled-monitor-the-first-of-its-kind-is-now-available-in-the-u-s-for-usd999-two-new-curved-monitors-under-the-odyssey-g7-lineup-also-go-on-sale",
+      "sourceTitle": "Samsung’s 500Hz QHD OLED monitor, the first of its kind, is now available in the U.S. for $999",
+      "evidenceSnippet": "Tom's Hardware identifies Odyssey OLED G6 (G60SF) as the 27-inch QHD 500Hz OLED model and says it is available in the U.S.",
+      "confidence": "credible_article",
+      "query": "Samsung Odyssey OLED G6 G60SF available August 13 2025",
+      "sourceKind": "agent_web_research",
+      "reason": "來源標題與內文明確寫 now available 並對應 Odyssey OLED G6 500Hz。"
     },
     {
       "id": "monitor-dell-aw3225qf",
@@ -7672,13 +7698,14 @@
       "brand": "Dell",
       "model": "Alienware AW3225QF",
       "name": "32 型 4K 240Hz OLED Alienware 電競螢幕",
-      "releaseDate": "找不到",
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "confidence": "not_found",
-      "query": "Dell Alienware AW3225QF release date launch announced 上市 發售",
-      "sourceKind": "not_found_after_available_search"
+      "releaseDate": "2024-02",
+      "sourceUrl": "https://as.com/meristation/mexico/ces-2024-alienware-presenta-monitores-qd-oled-para-gamers-n/",
+      "sourceTitle": "CES 2024: Alienware presenta monitores QD-OLED para gamers",
+      "evidenceSnippet": "Meristation says AW3225QF and AW2725DF will be available in Latin America from February 2024.",
+      "confidence": "credible_article",
+      "query": "Alienware AW3225QF available February 2024 Latin America",
+      "sourceKind": "agent_web_research",
+      "reason": "來源明確寫型號與 availability 月份，只支援到月份所以填 2024-02。"
     },
     {
       "id": "monitor-eizo-cs2740",
@@ -7686,13 +7713,14 @@
       "brand": "EIZO",
       "model": "ColorEdge CS2740",
       "name": "27 型 4K AdobeRGB 99% 專業攝影螢幕",
-      "releaseDate": "找不到",
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "confidence": "not_found",
-      "query": "EIZO ColorEdge CS2740 release date launch announced 上市 發售",
-      "sourceKind": "not_found_after_available_search"
+      "releaseDate": "2020-03-12",
+      "sourceUrl": "https://www.eizoglobal.com/press/releases/2020/NR19_016.html",
+      "sourceTitle": "EIZO Releases 27-Inch Hardware Calibration Monitor with 4K UHD Resolution and USB Type-C Connectivity",
+      "evidenceSnippet": "EIZO announced the release of the ColorEdge CS2740 on March 12, 2020 and said it was now shipping.",
+      "confidence": "official",
+      "query": "EIZO CS2740 announced release March 12 2020",
+      "sourceKind": "agent_web_research",
+      "reason": "EIZO 官方新聞稿明確寫 announced the release / now shipping，且點名 ColorEdge CS2740。"
     },
     {
       "id": "monitor-acer-ed343cur-j0",
@@ -7784,13 +7812,14 @@
       "brand": "Samsung",
       "model": "S34DG852SC",
       "name": "34 型 OLED G8 21:9 175Hz 曲面智慧顯示器",
-      "releaseDate": "找不到",
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "confidence": "not_found",
-      "query": "Samsung S34DG852SC release date launch announced 上市 發售",
-      "sourceKind": "not_found_after_available_search"
+      "releaseDate": "2024",
+      "sourceUrl": "https://www.lifewire.com/samsung-odyssey-gaming-monitors-3d-8699228",
+      "sourceTitle": "Samsung Unveils New Odyssey Gaming Monitors at Gamescom 2024",
+      "evidenceSnippet": "Lifewire names the G85SD Odyssey OLED G8, describes the 34-inch ultrawide QHD 21:9 model, and says it would be available globally within the year.",
+      "confidence": "credible_article",
+      "query": "Samsung Odyssey OLED G8 G85SD available globally 2024",
+      "sourceKind": "agent_web_research",
+      "reason": "來源點名 G85SD/G8 並只支持 2024 年內全球 availability，所以填 YYYY。"
     },
     {
       "id": "monitor-aoc-pd34",
@@ -7826,13 +7855,14 @@
       "brand": "Samsung",
       "model": "S49DG932SCXZW",
       "name": "49 型 Odyssey OLED G9 Dual QHD 240Hz 曲面螢幕",
-      "releaseDate": "找不到",
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "confidence": "not_found",
-      "query": "Samsung S49DG932SCXZW release date launch announced 上市 發售",
-      "sourceKind": "not_found_after_available_search"
+      "releaseDate": "2024",
+      "sourceUrl": "https://www.lifewire.com/samsung-odyssey-gaming-monitors-3d-8699228",
+      "sourceTitle": "Samsung Unveils New Odyssey Gaming Monitors at Gamescom 2024",
+      "evidenceSnippet": "Lifewire names the G93SD Odyssey OLED G9, describes the 49-inch dual-QHD 32:9 OLED model, and says it would be available globally within the year.",
+      "confidence": "credible_article",
+      "query": "Samsung Odyssey OLED G9 G93SD available globally 2024",
+      "sourceKind": "agent_web_research",
+      "reason": "來源點名 G93SD/G9 並只支持 2024 年內全球 availability，所以填 YYYY。"
     },
     {
       "id": "monitor-aoc-ag456uczd",
@@ -7882,13 +7912,14 @@
       "brand": "Dell",
       "model": "U3425WE-5Y",
       "name": "34 型 21:9 IPS Black 120Hz USB-C 商務曲面螢幕",
-      "releaseDate": "找不到",
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "confidence": "not_found",
-      "query": "Dell U3425WE-5Y release date launch announced 上市 發售",
-      "sourceKind": "not_found_after_available_search"
+      "releaseDate": "2024",
+      "sourceUrl": "https://www.lifewire.com/dell-ultrasharp-thunderbolt-hub-monitors-8421836",
+      "sourceTitle": "These New Dell Monitors Are Designed for 'Eye Comfort'",
+      "evidenceSnippet": "Lifewire names Dell UltraSharp 34 Curved Thunderbolt Hub U3425WE and says the new Dell monitors would be available in Q1 2024.",
+      "confidence": "credible_article",
+      "query": "Dell U3425WE available Q1 2024",
+      "sourceKind": "agent_web_research",
+      "reason": "來源點名 U3425WE 且只支持 Q1 2024；公開格式不支援季度，保守填 2024。"
     },
     {
       "id": "monitor-msi-mpg-491cqp",

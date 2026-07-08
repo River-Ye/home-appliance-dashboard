@@ -274,7 +274,7 @@
       "環繞",
       "旗艦"
     ],
-    "releaseDate": "找不到"
+    "releaseDate": "2026-04"
   },
   {
     "id": "soundbar-extra-7-dmaaod-a900jmdr4",
@@ -814,7 +814,7 @@
       "Atmos",
       "Sony"
     ],
-    "releaseDate": "找不到"
+    "releaseDate": "2024-04-17"
   },
   {
     "id": "soundbar-extra-19-dmaahga900j5777",

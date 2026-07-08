@@ -581,7 +581,7 @@
       "EIZO",
       "舒適"
     ],
-    "releaseDate": "找不到"
+    "releaseDate": "2019-12-05"
   },
   {
     "id": "monitor-xiaomi-a27qi-2026",
@@ -1013,7 +1013,7 @@
       "4K",
       "USB-C"
     ],
-    "releaseDate": "找不到"
+    "releaseDate": "2026-02-15"
   },
   {
     "id": "monitor-benq-ew3290u",
@@ -1157,7 +1157,7 @@
       "Thunderbolt",
       "商務"
     ],
-    "releaseDate": "找不到"
+    "releaseDate": "2025-02-25"
   },
   {
     "id": "monitor-lg-27gx790a",
@@ -1205,7 +1205,7 @@
       "480Hz",
       "FPS"
     ],
-    "releaseDate": "找不到"
+    "releaseDate": "2024-11-18"
   },
   {
     "id": "monitor-asus-xg32ucwg",
@@ -1637,7 +1637,7 @@
       "500Hz",
       "旗艦"
     ],
-    "releaseDate": "找不到"
+    "releaseDate": "2025-08-13"
   },
   {
     "id": "monitor-dell-aw3225qf",
@@ -1685,7 +1685,7 @@
       "OLED",
       "Alienware"
     ],
-    "releaseDate": "找不到"
+    "releaseDate": "2024-02"
   },
   {
     "id": "monitor-eizo-cs2740",
@@ -1733,7 +1733,7 @@
       "4K",
       "色彩管理"
     ],
-    "releaseDate": "找不到"
+    "releaseDate": "2020-03-12"
   },
   {
     "id": "monitor-acer-ed343cur-j0",
@@ -2076,7 +2076,7 @@
       "智慧聯網",
       "21:9"
     ],
-    "releaseDate": "找不到"
+    "releaseDate": "2024"
   },
   {
     "id": "monitor-aoc-pd34",
@@ -2223,7 +2223,7 @@
       "OLED",
       "32:9"
     ],
-    "releaseDate": "找不到"
+    "releaseDate": "2024"
   },
   {
     "id": "monitor-aoc-ag456uczd",
@@ -2419,7 +2419,7 @@
       "USB-C",
       "商務"
     ],
-    "releaseDate": "找不到"
+    "releaseDate": "2024"
   },
   {
     "id": "monitor-msi-mpg-491cqp",
