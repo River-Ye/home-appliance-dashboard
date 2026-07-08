@@ -50,7 +50,7 @@
       "遊戲",
       "電影"
     ],
-    "releaseDate": "找不到"
+    "releaseDate": "2025-03-11"
   },
   {
     "id": "tv-samsung-s90f-65",
@@ -96,7 +96,7 @@
       "CP 值",
       "遊戲"
     ],
-    "releaseDate": "找不到"
+    "releaseDate": "2025"
   },
   {
     "id": "tv-sony-bravia7-65",
@@ -142,7 +142,7 @@
       "電影",
       "組合價"
     ],
-    "releaseDate": "找不到"
+    "releaseDate": "2024"
   },
   {
     "id": "tv-hisense-u7n-65",
@@ -188,7 +188,7 @@
       "CP 值",
       "144Hz"
     ],
-    "releaseDate": "找不到"
+    "releaseDate": "2024"
   },
   {
     "id": "tv-benq-e65-760",
@@ -280,7 +280,7 @@
       "電影",
       "旗艦"
     ],
-    "releaseDate": "找不到"
+    "releaseDate": "2024"
   },
   {
     "id": "tv-extra-7-dpadye-1900jgoya",
@@ -326,7 +326,7 @@
       "藝廊",
       "旗艦"
     ],
-    "releaseDate": "找不到"
+    "releaseDate": "2025-01"
   },
   {
     "id": "tv-extra-8-dpad09-a900j9faz",
@@ -372,7 +372,7 @@
       "電影",
       "均衡"
     ],
-    "releaseDate": "找不到"
+    "releaseDate": "2025"
   },
   {
     "id": "tv-extra-9-dpadik-a900hjgf2",
@@ -418,7 +418,7 @@
       "遊戲",
       "Google TV"
     ],
-    "releaseDate": "找不到"
+    "releaseDate": "2024"
   },
   {
     "id": "tv-extra-10-dmbm10-a900ixjzg",
@@ -464,7 +464,7 @@
       "高亮度",
       "旗艦"
     ],
-    "releaseDate": "找不到"
+    "releaseDate": "2025-04-10"
   },
   {
     "id": "tv-extra-11-dpadzm-a900k3904",
@@ -510,7 +510,7 @@
       "Google TV",
       "客廳"
     ],
-    "releaseDate": "找不到"
+    "releaseDate": "2026-05-05"
   },
   {
     "id": "tv-extra-12-dpadzm-a900k2rgj",
@@ -648,7 +648,7 @@
       "Mini LED",
       "旗艦"
     ],
-    "releaseDate": "找不到"
+    "releaseDate": "2025"
   },
   {
     "id": "tv-extra-15-dpad0o-1900jl0z8",
@@ -786,7 +786,7 @@
       "QLED",
       "REGZA"
     ],
-    "releaseDate": "找不到"
+    "releaseDate": "2026-06-02"
   },
   {
     "id": "tv-extra-18-dpadtoa900jne73",

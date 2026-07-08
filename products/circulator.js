@@ -49,7 +49,7 @@
       "冷氣搭配",
       "經典"
     ],
-    "releaseDate": "找不到"
+    "releaseDate": "2010-04-13"
   },
   {
     "id": "circ-iris-sc15t",
@@ -139,7 +139,7 @@
       "靜音",
       "遙控"
     ],
-    "releaseDate": "找不到"
+    "releaseDate": "2026-05-12"
   },
   {
     "id": "circ-balmuda-cirq",
@@ -184,7 +184,7 @@
       "低噪",
       "高質感"
     ],
-    "releaseDate": "找不到"
+    "releaseDate": "2017"
   },
   {
     "id": "circ-iris-hd15",

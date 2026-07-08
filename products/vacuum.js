@@ -49,7 +49,7 @@
       "顯塵",
       "乾吸"
     ],
-    "releaseDate": "找不到"
+    "releaseDate": "2022-06-22"
   },
   {
     "id": "vac-lg-a9x",
@@ -139,7 +139,7 @@
       "寵物",
       "濕拖"
     ],
-    "releaseDate": "找不到"
+    "releaseDate": "2020-11-27"
   },
   {
     "id": "vac-tineco-s7",
@@ -184,7 +184,7 @@
       "熱水洗",
       "寵物"
     ],
-    "releaseDate": "找不到"
+    "releaseDate": "2024"
   },
   {
     "id": "vac-dyson-submarine",
@@ -229,7 +229,7 @@
       "顯塵",
       "旗艦"
     ],
-    "releaseDate": "找不到"
+    "releaseDate": "2023-06-28"
   },
   {
     "id": "vacuum-extra-6-dmax00-1900i2dsh",
@@ -544,7 +544,7 @@
       "輕量",
       "均衡"
     ],
-    "releaseDate": "找不到"
+    "releaseDate": "2018-12-18"
   },
   {
     "id": "vacuum-extra-13-dsbe1a-a900jj4lu",
@@ -769,7 +769,7 @@
       "輕量",
       "筆型"
     ],
-    "releaseDate": "找不到"
+    "releaseDate": "2025"
   },
   {
     "id": "vacuum-extra-18-dmaxb5a900jcn6g",
@@ -814,7 +814,7 @@
       "AI",
       "平躺"
     ],
-    "releaseDate": "找不到"
+    "releaseDate": "2025"
   },
   {
     "id": "vacuum-extra-19-dmax0za900higmz",

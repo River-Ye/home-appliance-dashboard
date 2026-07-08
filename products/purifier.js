@@ -94,7 +94,7 @@
       "低噪",
       "Wi-Fi"
     ],
-    "releaseDate": "找不到"
+    "releaseDate": "2023-09-25"
   },
   {
     "id": "ap-dyson-tp11",
@@ -139,7 +139,7 @@
       "無葉片",
       "設計"
     ],
-    "releaseDate": "找不到"
+    "releaseDate": "2025-03-12"
   },
   {
     "id": "ap-philips-ac2936",
@@ -184,7 +184,7 @@
       "360 度",
       "安全牌"
     ],
-    "releaseDate": "找不到"
+    "releaseDate": "2021-12-16"
   },
   {
     "id": "ap-coway-noble",
@@ -319,7 +319,7 @@
       "Blueair",
       "設計"
     ],
-    "releaseDate": "找不到"
+    "releaseDate": "2025-06-26"
   },
   {
     "id": "purifier-extra-8-dmaue4-a900i7dj1",
@@ -364,7 +364,7 @@
       "WiFi",
       "CP 值"
     ],
-    "releaseDate": "找不到"
+    "releaseDate": "2023-09-25"
   },
   {
     "id": "purifier-extra-9-dmaue4-a900i7dn1",
@@ -409,7 +409,7 @@
       "WiFi",
       "均衡"
     ],
-    "releaseDate": "找不到"
+    "releaseDate": "2023-09-25"
   },
   {
     "id": "purifier-extra-10-dmaue4-a900j40ne",
@@ -679,7 +679,7 @@
       "低價",
       "簡約"
     ],
-    "releaseDate": "找不到"
+    "releaseDate": "2023-04-20"
   },
   {
     "id": "purifier-extra-16-dmau5ea900jyg1w",
@@ -904,7 +904,7 @@
       "PuriCare",
       "中坪數"
     ],
-    "releaseDate": "找不到"
+    "releaseDate": "2026"
   }
   ]);
 })();

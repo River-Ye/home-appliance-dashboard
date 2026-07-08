@@ -274,7 +274,7 @@
       "16 吋",
       "CP 值"
     ],
-    "releaseDate": "找不到"
+    "releaseDate": "2025-05-13"
   },
   {
     "id": "fan-extra-7-dmablm-a900eoq12",
@@ -769,7 +769,7 @@
       "DC",
       "循環"
     ],
-    "releaseDate": "找不到"
+    "releaseDate": "2026-03-17"
   },
   {
     "id": "fan-extra-18-dmacbua900iudv9",
@@ -814,7 +814,7 @@
       "DC",
       "冷氣搭配"
     ],
-    "releaseDate": "找不到"
+    "releaseDate": "2026-03-17"
   },
   {
     "id": "fan-extra-19-dmacaka900g0bb4",
@@ -859,7 +859,7 @@
       "塔扇",
       "省空間"
     ],
-    "releaseDate": "找不到"
+    "releaseDate": "2026-03-17"
   },
   {
     "id": "fan-extra-20-dmab6za900flc55",

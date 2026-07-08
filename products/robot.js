@@ -48,7 +48,7 @@
       "機械手臂",
       "零纏繞"
     ],
-    "releaseDate": "找不到"
+    "releaseDate": "2025"
   },
   {
     "id": "robot-roborock-saros-20-aqua",
@@ -93,7 +93,7 @@
       "熱水洗拖",
       "越障"
     ],
-    "releaseDate": "找不到"
+    "releaseDate": "2026-04-06"
   },
   {
     "id": "robot-roborock-saros-20",
@@ -138,7 +138,7 @@
       "越障",
       "寵物毛"
     ],
-    "releaseDate": "找不到"
+    "releaseDate": "2026-01-06"
   },
   {
     "id": "robot-roborock-qrevo-edge-2-pro",
@@ -229,7 +229,7 @@
       "滾筒拖地",
       "自動洗烘"
     ],
-    "releaseDate": "找不到"
+    "releaseDate": "2026-01-06"
   },
   {
     "id": "robot-ecovacs-x11-pro-plumbed",
@@ -364,7 +364,7 @@
       "滾筒洗地",
       "貼邊清潔"
     ],
-    "releaseDate": "找不到"
+    "releaseDate": "2026-06-19"
   },
   {
     "id": "robot-ecovacs-t50-pro",
@@ -409,7 +409,7 @@
       "超薄",
       "沿邊清潔"
     ],
-    "releaseDate": "找不到"
+    "releaseDate": "2025-03-19"
   },
   {
     "id": "robot-ecovacs-n50",
@@ -454,7 +454,7 @@
       "CP 值",
       "全能基站"
     ],
-    "releaseDate": "找不到"
+    "releaseDate": "2026-03-05"
   },
   {
     "id": "robot-dreame-x60-master",
@@ -499,7 +499,7 @@
       "超薄",
       "AI 辨識"
     ],
-    "releaseDate": "找不到"
+    "releaseDate": "2026"
   },
   {
     "id": "robot-dreame-d30-ultra-ce",
@@ -589,7 +589,7 @@
       "AI 避障",
       "熱水熱烘"
     ],
-    "releaseDate": "找不到"
+    "releaseDate": "2024-09-06"
   },
   {
     "id": "robot-narwal-flow-2",
@@ -634,7 +634,7 @@
       "海外參考",
       "滾筒洗地"
     ],
-    "releaseDate": "找不到"
+    "releaseDate": "2026"
   },
   {
     "id": "robot-narwal-freo-z10-ultra",
@@ -679,7 +679,7 @@
       "海外參考",
       "熱水洗拖"
     ],
-    "releaseDate": "找不到"
+    "releaseDate": "2026-05-12"
   },
   {
     "id": "robot-irobot-max-705",
@@ -724,7 +724,7 @@
       "滾筒",
       "Roomba"
     ],
-    "releaseDate": "找不到"
+    "releaseDate": "2025-07-22"
   },
   {
     "id": "robot-irobot-plus-505",
@@ -769,7 +769,7 @@
       "延邊清潔",
       "Roomba"
     ],
-    "releaseDate": "找不到"
+    "releaseDate": "2025-03-23"
   },
   {
     "id": "robot-irobot-plus-405",
@@ -814,7 +814,7 @@
       "Roomba",
       "均衡"
     ],
-    "releaseDate": "找不到"
+    "releaseDate": "2025-03"
   },
   {
     "id": "robot-irobot-205-combo",
@@ -904,7 +904,7 @@
       "AI 掃拖",
       "自清潔"
     ],
-    "releaseDate": "找不到"
+    "releaseDate": "2025"
   },
   {
     "id": "robot-eufy-omni-e25",
@@ -949,7 +949,7 @@
       "活水洗地",
       "零纏繞"
     ],
-    "releaseDate": "找不到"
+    "releaseDate": "2025-11-13"
   },
   {
     "id": "robot-eufy-omni-c28",
@@ -994,7 +994,7 @@
       "CP 值",
       "自清潔"
     ],
-    "releaseDate": "找不到"
+    "releaseDate": "2026-02-06"
   },
   {
     "id": "robot-mova-s70-ultra-roller",
@@ -1084,7 +1084,7 @@
       "極薄",
       "滾筒洗地"
     ],
-    "releaseDate": "找不到"
+    "releaseDate": "2026-03-10"
   },
   {
     "id": "robot-lg-r5t-ultimate",
@@ -1129,7 +1129,7 @@
       "LG 生態",
       "濕拖"
     ],
-    "releaseDate": "找不到"
+    "releaseDate": "2025"
   },
   {
     "id": "robot-lg-r5-proplus",
@@ -1174,7 +1174,7 @@
       "CP 值",
       "濕拖"
     ],
-    "releaseDate": "找不到"
+    "releaseDate": "2025-03-11"
   },
   {
     "id": "robot-shark-powerdetect-nevertouch-pro",
@@ -1219,7 +1219,7 @@
       "海外參考",
       "自動洗烘"
     ],
-    "releaseDate": "找不到"
+    "releaseDate": "2024-10-05"
   },
   {
     "id": "robot-dyson-spot-scrub-ai",
@@ -1264,7 +1264,7 @@
       "海外參考",
       "供貨待確認"
     ],
-    "releaseDate": "找不到"
+    "releaseDate": "2026-03-12"
   }
   ]);
 })();

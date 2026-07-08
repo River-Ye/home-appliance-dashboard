@@ -94,7 +94,7 @@
       "變頻",
       "智慧"
     ],
-    "releaseDate": "找不到"
+    "releaseDate": "2025-12-18"
   },
   {
     "id": "dh-mitsubishi-ehv220",
@@ -139,7 +139,7 @@
       "清淨",
       "旗艦"
     ],
-    "releaseDate": "找不到"
+    "releaseDate": "2026"
   },
   {
     "id": "dh-lg-dd201",
@@ -229,7 +229,7 @@
       "低價",
       "CP 值"
     ],
-    "releaseDate": "找不到"
+    "releaseDate": "2026-06-02"
   },
   {
     "id": "dehumidifier-extra-6-dmbq4y-a900ikocc",
@@ -274,7 +274,7 @@
       "變頻",
       "節能"
     ],
-    "releaseDate": "找不到"
+    "releaseDate": "2026-04-10"
   },
   {
     "id": "dehumidifier-extra-7-dmbq3p-a900gtphc",
@@ -364,7 +364,7 @@
       "小坪數",
       "清淨"
     ],
-    "releaseDate": "找不到"
+    "releaseDate": "2025-01-08"
   },
   {
     "id": "dehumidifier-extra-9-dmbq00-a900jb38a",
@@ -454,7 +454,7 @@
       "WiFi",
       "16L"
     ],
-    "releaseDate": "找不到"
+    "releaseDate": "2026"
   },
   {
     "id": "dehumidifier-extra-11-dmbq4n-a900jf9hp",
@@ -499,7 +499,7 @@
       "12L",
       "變頻"
     ],
-    "releaseDate": "找不到"
+    "releaseDate": "2026-04-03"
   },
   {
     "id": "dehumidifier-extra-12-dmbq4y-a900jbqp2",
@@ -544,7 +544,7 @@
       "變頻",
       "均衡"
     ],
-    "releaseDate": "找不到"
+    "releaseDate": "2026-03-04"
   },
   {
     "id": "dehumidifier-extra-13-dmbq07-a900gfbvp",
@@ -589,7 +589,7 @@
       "大容量",
       "高階"
     ],
-    "releaseDate": "找不到"
+    "releaseDate": "2026-03-05"
   },
   {
     "id": "dehumidifier-extra-14-dmbq4n-a900jchfz",
@@ -634,7 +634,7 @@
       "18L",
       "節能"
     ],
-    "releaseDate": "找不到"
+    "releaseDate": "2026-05-27"
   },
   {
     "id": "dehumidifier-extra-15-dmbq3s-a900k13zr",
@@ -679,7 +679,7 @@
       "20L",
       "高 CP"
     ],
-    "releaseDate": "找不到"
+    "releaseDate": "2026-02-09"
   },
   {
     "id": "dehumidifier-extra-16-dmbq3sa900i7nsn",
@@ -724,7 +724,7 @@
       "節能",
       "預算"
     ],
-    "releaseDate": "找不到"
+    "releaseDate": "2026-02-09"
   },
   {
     "id": "dehumidifier-extra-17-dmbq08a900ixl3k",
@@ -769,7 +769,7 @@
       "衣物乾燥",
       "SHARP"
     ],
-    "releaseDate": "找不到"
+    "releaseDate": "2026-02-10"
   },
   {
     "id": "dehumidifier-extra-18-dmbq3pa900j9fh9",
@@ -859,7 +859,7 @@
       "PCI",
       "中坪數"
     ],
-    "releaseDate": "找不到"
+    "releaseDate": "2026"
   },
   {
     "id": "dehumidifier-extra-20-dmbq01a900gsfgx",

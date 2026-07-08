@@ -156,7 +156,7 @@
       "台灣通路"
     ],
     "category": "cookware",
-    "releaseDate": "找不到"
+    "releaseDate": "2023"
   },
   {
     "id": "cookware-wmf-durado-24cm",

@@ -49,7 +49,7 @@
       "後環繞",
       "旗艦"
     ],
-    "releaseDate": "找不到"
+    "releaseDate": "2025"
   },
   {
     "id": "soundbar-samsung-q800h",
@@ -94,7 +94,7 @@
       "均衡",
       "後環繞"
     ],
-    "releaseDate": "找不到"
+    "releaseDate": "2026"
   },
   {
     "id": "soundbar-sony-b600",
@@ -139,7 +139,7 @@
       "重低音",
       "對白"
     ],
-    "releaseDate": "找不到"
+    "releaseDate": "2025"
   },
   {
     "id": "soundbar-sonos-arc-ultra",
@@ -184,7 +184,7 @@
       "音樂",
       "Wi-Fi"
     ],
-    "releaseDate": "找不到"
+    "releaseDate": "2024-10-15"
   },
   {
     "id": "soundbar-jbl-500mk2",
@@ -229,7 +229,7 @@
       "電影",
       "中價位"
     ],
-    "releaseDate": "找不到"
+    "releaseDate": "2023"
   },
   {
     "id": "soundbar-extra-6-dmaaod-a900k3qsm",
@@ -319,7 +319,7 @@
       "中階",
       "電視搭配"
     ],
-    "releaseDate": "找不到"
+    "releaseDate": "2025-01-15"
   },
   {
     "id": "soundbar-extra-8-dmbm1d-a900j5jaz",
@@ -409,7 +409,7 @@
       "旗艦",
       "劇院"
     ],
-    "releaseDate": "找不到"
+    "releaseDate": "2026"
   },
   {
     "id": "soundbar-extra-10-dmaaod-a900k5489",
@@ -454,7 +454,7 @@
       "客廳",
       "均衡"
     ],
-    "releaseDate": "找不到"
+    "releaseDate": "2026-04-02"
   },
   {
     "id": "soundbar-extra-11-dmbm1d-a900ghtfe",
@@ -499,7 +499,7 @@
       "入門劇院",
       "Sony"
     ],
-    "releaseDate": "找不到"
+    "releaseDate": "2025"
   },
   {
     "id": "soundbar-extra-12-dmaamt-a900i5hho",
@@ -589,7 +589,7 @@
       "小客廳",
       "均衡"
     ],
-    "releaseDate": "找不到"
+    "releaseDate": "2026"
   },
   {
     "id": "soundbar-extra-14-dmaahg-a900j56ok",
@@ -634,7 +634,7 @@
       "後環繞",
       "客廳"
     ],
-    "releaseDate": "找不到"
+    "releaseDate": "2022"
   },
   {
     "id": "soundbar-extra-15-dmaanj-a900hzbzv",
@@ -679,7 +679,7 @@
       "音樂",
       "簡潔"
     ],
-    "releaseDate": "找不到"
+    "releaseDate": "2022-10-10"
   },
   {
     "id": "soundbar-extra-16-dmaalna900hp6mr",
@@ -769,7 +769,7 @@
       "Sony",
       "高階"
     ],
-    "releaseDate": "找不到"
+    "releaseDate": "2026"
   },
   {
     "id": "soundbar-extra-18-dmbm1da900iuzuj",
@@ -859,7 +859,7 @@
       "可拆環繞",
       "重低音"
     ],
-    "releaseDate": "找不到"
+    "releaseDate": "2025-06-12"
   },
   {
     "id": "soundbar-extra-20-dmaf02a900h2g5r",
