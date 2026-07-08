@@ -50,7 +50,7 @@
       "二入組",
       "ASUS"
     ],
-    "releaseDate": "找不到"
+    "releaseDate": "2025-01"
   },
   {
     "id": "wifi-tplink-deco-be25-2pack",
@@ -96,7 +96,7 @@
       "CP 值",
       "TP-Link"
     ],
-    "releaseDate": "找不到"
+    "releaseDate": "2024-08-30"
   },
   {
     "id": "wifi-dlink-m36-3pack",
@@ -142,7 +142,7 @@
       "D-Link",
       "全屋"
     ],
-    "releaseDate": "找不到"
+    "releaseDate": "2025-09-26"
   },
   {
     "id": "wifi-asus-rt-be58u-v2",
@@ -1255,7 +1255,7 @@
       "2.5G",
       "入門"
     ],
-    "releaseDate": "找不到"
+    "releaseDate": "2025-09-26"
   },
   {
     "id": "wifi-netgear-rs100",
@@ -1347,7 +1347,7 @@
       "Linksys",
       "Wi-Fi 6"
     ],
-    "releaseDate": "找不到"
+    "releaseDate": "2021-12"
   },
   {
     "id": "wifi-synology-rt6600ax",
@@ -1439,7 +1439,7 @@
       "ASUS",
       "多埠"
     ],
-    "releaseDate": "找不到"
+    "releaseDate": "2024-03-27"
   },
   {
     "id": "wifi-tplink-archer-be805",
@@ -1485,7 +1485,7 @@
       "TP-Link",
       "旗艦"
     ],
-    "releaseDate": "找不到"
+    "releaseDate": "2024-08-30"
   },
   {
     "id": "wifi-tplink-archer-be900",
@@ -1577,7 +1577,7 @@
       "單台",
       "高階"
     ],
-    "releaseDate": "找不到"
+    "releaseDate": "2024-06-19"
   },
   {
     "id": "wifi-zyxel-usg-lite-60ax",
@@ -1715,7 +1715,7 @@
       "低價",
       "Wi-Fi 7"
     ],
-    "releaseDate": "找不到"
+    "releaseDate": "2026-03"
   },
   {
     "id": "wifi-xiaomi-ax3000-1pack",
