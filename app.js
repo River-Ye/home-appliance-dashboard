@@ -775,7 +775,7 @@ const products = [
     pros: ["功能完整", "價格甜點"],
     cons: ["避障與旗艦仍有差距", "基站占空間"],
     bestFor: "硬地板、寵物毛與日常維護清潔。",
-    recommendation: "本類 Top Pick：萬元出頭就有完整基站，CP 值很強。",
+    recommendation: "高 CP 值推薦：萬元出頭就有完整基站，預算有限時很有競爭力。",
     score: 92,
     voltage: "110V 台灣通路",
     warranty: "依通路",
@@ -1487,7 +1487,7 @@ const products = [
 const extraCategoryCopy = {
   tv: {
     label: "電視",
-    bestFor: "想把 Top Pick 之外的同尺寸或同級顯示器一起列入比價的人。",
+    bestFor: "想把綜合推薦之外的同尺寸或同級顯示器一起列入比價的人。",
     reason: "可用來橫向比較面板技術、刷新率、系統與套組價格。",
     pros: ["同尺寸規格可直接比價", "台灣通路資訊與圖片完整"],
     cons: ["套組贈品與活動價波動大", "內建音響仍建議另搭 Soundbar"],
@@ -2276,7 +2276,7 @@ const flagshipRobotProducts = [
     pros: ["Dyson 官方頁可查規格與評論", "濕拖、汙漬偵測與無集塵袋基站有特色"],
     cons: ["官方頁目前顯示 Notify me，供貨需確認", "海外版需確認電壓、插頭與台灣保固"],
     bestFor: "想追 Dyson 最新掃拖機器人，且能等待供貨、接受海外版風險的人。",
-    recommendation: "Dyson 海外旗艦參考：品牌辨識度高，但供貨與價格不穩，不列為台灣 Top Pick。",
+    recommendation: "Dyson 海外旗艦參考：品牌辨識度高，但供貨與價格不穩，不列為台灣綜合推薦。",
     score: 84,
     tags: ["旗艦", "海外參考", "供貨待確認"],
   }),
