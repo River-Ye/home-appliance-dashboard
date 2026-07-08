@@ -245,7 +245,7 @@
       "USB-C",
       "四年保"
     ],
-    "releaseDate": "找不到"
+    "releaseDate": "2024-03-19"
   },
   {
     "id": "monitor-samsung-g5-s27fg532",
@@ -1929,7 +1929,7 @@
       "180Hz",
       "CP 值"
     ],
-    "releaseDate": "找不到"
+    "releaseDate": "2025-01-20"
   },
   {
     "id": "monitor-acer-ed340cur-x0",
@@ -2027,7 +2027,7 @@
       "280Hz",
       "USB-C"
     ],
-    "releaseDate": "找不到"
+    "releaseDate": "2026-05-07"
   },
   {
     "id": "monitor-samsung-s34dg852sc",

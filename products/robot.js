@@ -183,7 +183,7 @@
       "超薄",
       "熱水洗拖"
     ],
-    "releaseDate": "找不到"
+    "releaseDate": "2026-02-17"
   },
   {
     "id": "robot-roborock-qrevo-curv-2-flow",
