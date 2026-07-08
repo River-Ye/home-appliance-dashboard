@@ -985,6 +985,51 @@
       "德系"
     ],
     "releaseDate": "找不到"
+  },
+  {
+    "id": "cookware-costco-tetsu-30cm",
+    "category": "cookware",
+    "rank": 21,
+    "budget": "value",
+    "channel": "tw",
+    "brand": "TETSU",
+    "model": "Nitriding Iron Wok 30 cm",
+    "name": "窒化鐵製炒鍋 30公分",
+    "price": {
+      "currency": "TWD",
+      "amount": 2289,
+      "converted": 2289,
+      "confidence": "Costco 好市多 2026-07-09 查核價"
+    },
+    "image": "https://www.costco.com.tw/medias/sys_master/images/hdf/h5a/114625984757790.webp",
+    "buyUrl": "https://www.costco.com.tw/Furniture-Kitchen/Kitchen-Dining/Cookware-Cutlery-Cutting-Boards/TETSU-Nitriding-Iron-Wok-30-cm/p/136446",
+    "buyLabel": "Costco 好市多",
+    "specs": [
+      "30 公分炒鍋",
+      "窒化鐵",
+      "非配件/非鍋蓋",
+      "Costco 評價 4.3 / 369 則"
+    ],
+    "description": "TETSU 窒化鐵炒鍋在 Costco 評論數高，適合想從不沾鍋轉向鐵鍋的人。",
+    "pros": [
+      "369 則評論，評價基礎厚",
+      "鐵鍋耐用度與火力適應性佳"
+    ],
+    "cons": [
+      "需要開鍋、養鍋與清潔習慣",
+      "重量與保養門檻高於不沾鍋"
+    ],
+    "bestFor": "常開火、願意養鍋並想買 Costco 評價款炒鍋的人。",
+    "recommendation": "好市多補充推薦：TETSU 30cm 是 Costco 鍋具中評論數高的實用炒鍋候選。",
+    "score": 84,
+    "voltage": "鍋具無電壓需求",
+    "warranty": "依 Costco 好市多商品頁、品牌保固與退貨政策",
+    "tags": [
+      "Costco",
+      "炒鍋",
+      "鐵鍋"
+    ],
+    "releaseDate": "找不到"
   }
 ]);
 })();

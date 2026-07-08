@@ -67,6 +67,9 @@
     const priceNote = product.price.currency === "TWD"
       ? "台灣通路售價"
       : `${product.price.confidence}，匯率 ${product.price.currency} 轉 TWD；未含國際運費/進口稅`;
+    const sourceDate = /costco|好市多/i.test(`${product.buyLabel} ${product.buyUrl}`)
+      ? "2026-07-09"
+      : "2026-07-08";
 
     return `
       <article class="product-card" data-product-id="${utils.escapeHtml(product.id)}">
@@ -114,7 +117,7 @@
           ${specItemMarkup("電壓 / 保固", `${product.voltage}；${product.warranty}`)}
           ${specItemMarkup("上市 / 發售日期", releaseDateText(product))}
           <div class="tag-row">${product.tags.map((tag) => `<span class="tag">${utils.escapeHtml(tag)}</span>`).join("")}</div>
-          <p class="fineprint">資料來源：${utils.escapeHtml(product.buyLabel)}，擷取日 2026-07-08。</p>
+          <p class="fineprint">資料來源：${utils.escapeHtml(product.buyLabel)}，擷取日 ${sourceDate}。</p>
         </div>
         <div class="card-actions">
           <a class="buy-link" href="${utils.escapeHtml(product.buyUrl)}" target="_blank" rel="noreferrer">購買連結</a>

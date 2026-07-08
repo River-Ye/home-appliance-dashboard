@@ -920,6 +920,51 @@
       "支撐"
     ],
     "releaseDate": "找不到"
+  },
+  {
+    "id": "chair-costco-ergoking-171-s-plus",
+    "category": "chair",
+    "rank": 21,
+    "budget": "mid",
+    "channel": "tw",
+    "brand": "Ergoking",
+    "model": "171 S Plus",
+    "name": "網布人體工學椅 171 S Plus系列",
+    "price": {
+      "currency": "TWD",
+      "amount": 8899,
+      "converted": 8899,
+      "confidence": "Costco 好市多 2026-07-09 查核價"
+    },
+    "image": "https://www.costco.com.tw/medias/sys_master/images/h39/h63/70294927376414.webp",
+    "buyUrl": "https://www.costco.com.tw/p/132324",
+    "buyLabel": "Costco 好市多",
+    "specs": [
+      "網布人體工學椅",
+      "頭枕/腰靠取向",
+      "辦公椅",
+      "Costco 評價 4.7 / 425 則"
+    ],
+    "description": "Ergoking 171 S Plus 是 Costco 評論數很高的人體工學椅，適合想要台灣通路售後與退貨保障的人。",
+    "pros": [
+      "Costco 425 則評論、4.7 分",
+      "網布椅背適合長時間辦公"
+    ],
+    "cons": [
+      "人體工學椅仍建議試坐",
+      "扶手、坐深與腰靠適配因人而異"
+    ],
+    "bestFor": "在家工作、想從基本辦公椅升級的人。",
+    "recommendation": "好市多補充推薦：171 S Plus 評論量高，是 Costco 電腦椅分類裡很值得列入比較的款式。",
+    "score": 87,
+    "voltage": "椅子無電壓需求",
+    "warranty": "依 Costco 好市多商品頁、品牌保固與退貨政策",
+    "tags": [
+      "Costco",
+      "人體工學",
+      "網布"
+    ],
+    "releaseDate": "找不到"
   }
   ]);
 })();

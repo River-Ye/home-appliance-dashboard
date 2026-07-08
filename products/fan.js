@@ -905,6 +905,51 @@
       "冷暖"
     ],
     "releaseDate": "找不到"
+  },
+  {
+    "id": "fan-costco-airmate-ft89r",
+    "category": "fan",
+    "rank": 21,
+    "budget": "value",
+    "channel": "tw",
+    "brand": "Airmate",
+    "model": "FT89R",
+    "name": "DC 遙控大廈扇",
+    "price": {
+      "currency": "TWD",
+      "amount": 2999,
+      "converted": 2999,
+      "confidence": "Costco 好市多 2026-07-09 查核價"
+    },
+    "image": "https://www.costco.com.tw/medias/sys_master/images/h56/h94/361109995192350.webp",
+    "buyUrl": "https://www.costco.com.tw/Televisions-Appliances/Cooling-Heating-Air-Treatment/Heating-Cooling/Airmate-DC-Remote-Control-Tower-Fan-FT89R/p/150625",
+    "buyLabel": "Costco 好市多",
+    "specs": [
+      "DC 直流馬達",
+      "遙控塔扇",
+      "直立窄身",
+      "Costco 評價 4.6 / 93 則"
+    ],
+    "description": "窄身塔扇不佔地，Costco 評價與評論數都比一般新品頁可靠，適合補進風扇類比較池。",
+    "pros": [
+      "塔扇形式省空間",
+      "Costco 93 則評論、4.6 分"
+    ],
+    "cons": [
+      "送風距離通常不如大扇葉循環扇",
+      "需定期清理進風口灰塵"
+    ],
+    "bestFor": "臥室、書房或走道旁需要窄身直立風扇的人。",
+    "recommendation": "好市多補充推薦：FT89R 評價穩且價格中等，是 Costco 可買的塔扇型代表。",
+    "score": 85,
+    "voltage": "110V 台灣通路",
+    "warranty": "依 Costco 好市多商品頁、品牌保固與退貨政策",
+    "tags": [
+      "Costco",
+      "塔扇",
+      "DC"
+    ],
+    "releaseDate": "找不到"
   }
   ]);
 })();

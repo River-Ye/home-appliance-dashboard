@@ -905,6 +905,50 @@
       "Panasonic"
     ],
     "releaseDate": "找不到"
+  },
+  {
+    "id": "vacuum-costco-electrolux-wq71-2bswf",
+    "category": "vacuum",
+    "rank": 21,
+    "budget": "mid",
+    "channel": "tw",
+    "brand": "Electrolux",
+    "model": "WQ71-2BSWF",
+    "name": "無線吸塵器",
+    "price": {
+      "currency": "TWD",
+      "amount": 6999,
+      "converted": 6999,
+      "confidence": "Costco 好市多 2026-07-09 查核價"
+    },
+    "image": "https://www.costco.com.tw/medias/sys_master/images/hee/h2f/351316139409438.webp",
+    "buyUrl": "https://www.costco.com.tw/p/153289",
+    "buyLabel": "Costco 好市多",
+    "specs": [
+      "無線吸塵器",
+      "直立/手持使用",
+      "Costco 評價 4.4 / 83 則"
+    ],
+    "description": "Electrolux WQ71-2BSWF 是 Costco 評論數足夠的無線吸塵器，價格落在中階。",
+    "pros": [
+      "Costco 83 則評論、4.4 分",
+      "無線機型收納與日常清潔便利"
+    ],
+    "cons": [
+      "續航與吸力需依實際模式取捨",
+      "不一定適合大量濕污或粗重清潔"
+    ],
+    "bestFor": "一般家庭日常地板、毛髮與局部清潔。",
+    "recommendation": "好市多補充推薦：WQ71-2BSWF 可作為 Costco 通路中階無線吸塵器代表。",
+    "score": 84,
+    "voltage": "110V 台灣通路",
+    "warranty": "依 Costco 好市多商品頁、品牌保固與退貨政策",
+    "tags": [
+      "Costco",
+      "無線",
+      "中階"
+    ],
+    "releaseDate": "找不到"
   }
   ]);
 })();

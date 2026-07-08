@@ -995,6 +995,52 @@
       "BWT"
     ],
     "releaseDate": "找不到"
+  },
+  {
+    "id": "waterdispenser-costco-us-brondell-circle",
+    "category": "waterdispenser",
+    "rank": 21,
+    "budget": "mid",
+    "channel": "global",
+    "brand": "Brondell",
+    "model": "Circle Reverse Osmosis",
+    "name": "Circle Reverse Osmosis Water Filtration System",
+    "price": {
+      "currency": "USD",
+      "amount": 369.99,
+      "converted": 11887,
+      "confidence": "Costco US 2026-07-09 參考價，TWD 依現有儀表板匯率換算"
+    },
+    "image": "https://bfasset.costco-static.com/U447IH35/as/4xjr3phfqx7p9vvxzfhp3jp/100457228-847_chrome_1?auto=webp&format=jpg",
+    "buyUrl": "https://www.costco.com/brondell-circle-reverse-osmosis-water-filtration-system.product.100457228.html",
+    "buyLabel": "Costco US",
+    "specs": [
+      "廚下/櫥下 RO 淨水系統",
+      "Reverse Osmosis",
+      "含濾水龍頭",
+      "Costco US 2,606 則評論",
+      "海外購買需確認耗材、尺寸與安裝規格"
+    ],
+    "description": "台灣 Costco 目前未找到符合櫥下 RO 條件的新品頁，故補入 Costco US 上評論量高的 Brondell Circle 作海外比較。",
+    "pros": [
+      "Costco US 評論量高",
+      "符合櫥下 RO 淨水分類，不是桌上型或濾心耗材"
+    ],
+    "cons": [
+      "未含國際運費、進口稅與台灣保固",
+      "美規耗材、龍頭孔徑與安裝尺寸需自行確認"
+    ],
+    "bestFor": "願意承擔海外採購與安裝確認，想比較 Costco RO 系統價格的人。",
+    "recommendation": "好市多海外補充：Brondell Circle 是 Costco US 高評論 RO 淨水系統，可作為台灣櫥下飲水機候選的海外參考。",
+    "score": 84,
+    "voltage": "RO 淨水系統通常無主要電壓需求；仍需確認美規安裝與耗材",
+    "warranty": "Costco US / 海外通路，可能無台灣保固",
+    "tags": [
+      "Costco US",
+      "RO",
+      "櫥下"
+    ],
+    "releaseDate": "找不到"
   }
   ]);
 })();

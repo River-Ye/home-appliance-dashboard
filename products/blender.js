@@ -905,6 +905,51 @@
       "家用"
     ],
     "releaseDate": "找不到"
+  },
+  {
+    "id": "blender-costco-teco-xyfys007w",
+    "category": "blender",
+    "rank": 21,
+    "budget": "value",
+    "channel": "tw",
+    "brand": "TECO",
+    "model": "XYFYS007W",
+    "name": "多功能蔬果破壁冷熱調理豆漿機",
+    "price": {
+      "currency": "TWD",
+      "amount": 1999,
+      "converted": 1999,
+      "confidence": "Costco 好市多 2026-07-09 查核價"
+    },
+    "image": "https://www.costco.com.tw/medias/sys_master/images/hf8/h2d/292858306396190.webp",
+    "buyUrl": "https://www.costco.com.tw/p/149225",
+    "buyLabel": "Costco 好市多",
+    "specs": [
+      "破壁調理",
+      "冷熱調理/豆漿",
+      "蔬果飲",
+      "Costco 評價 4.1 / 120 則"
+    ],
+    "description": "東元 XYFYS007W 是 Costco 評論數足夠的低價冷熱破壁調理豆漿機，適合入門比較。",
+    "pros": [
+      "價格低",
+      "Costco 120 則評論具參考性"
+    ],
+    "cons": [
+      "評分 4.1，需查看噪音與清潔評價",
+      "不適合和高階 Vitamix/Blendtec 直接比馬力"
+    ],
+    "bestFor": "想低價嘗試豆漿、濃湯與蔬果調理的人。",
+    "recommendation": "好市多補充推薦：XYFYS007W 評論數足，適合作為 Costco 入門破壁機候選。",
+    "score": 82,
+    "voltage": "110V 台灣通路",
+    "warranty": "依 Costco 好市多商品頁、品牌保固與退貨政策",
+    "tags": [
+      "Costco",
+      "破壁",
+      "冷熱"
+    ],
+    "releaseDate": "找不到"
   }
 ]);
 })();

@@ -905,6 +905,51 @@
       "大空間"
     ],
     "releaseDate": "找不到"
+  },
+  {
+    "id": "circulator-costco-airmate-fb2393dr",
+    "category": "circulator",
+    "rank": 21,
+    "budget": "mid",
+    "channel": "tw",
+    "brand": "Airmate",
+    "model": "FB2393DR",
+    "name": "9吋 DC 直流馬達空氣循環扇",
+    "price": {
+      "currency": "TWD",
+      "amount": 3799,
+      "converted": 3799,
+      "confidence": "Costco 好市多 2026-07-09 查核價"
+    },
+    "image": "https://www.costco.com.tw/medias/sys_master/images/h2a/h39/333377588363294.webp",
+    "buyUrl": "https://www.costco.com.tw/Cooling-Heating-Air-Treatment/Heating-Cooling/p/149328",
+    "buyLabel": "Costco 好市多",
+    "specs": [
+      "9 吋循環扇",
+      "DC 直流馬達",
+      "遙控操作",
+      "Costco 評價 4.4 / 118 則"
+    ],
+    "description": "FB2393DR 是 Costco 評論數較多的循環扇，適合搭配冷氣讓室內氣流更平均。",
+    "pros": [
+      "評論數 118 則，評價基礎較厚",
+      "DC 馬達適合長時間使用"
+    ],
+    "cons": [
+      "售價高於入門循環扇",
+      "規格細節仍以好市多頁面為準"
+    ],
+    "bestFor": "想在 Costco 買一台搭冷氣、除濕機使用的循環扇。",
+    "recommendation": "好市多補充推薦：比小型入門款更完整，評價資料也比無評分新品可靠。",
+    "score": 84,
+    "voltage": "110V 台灣通路",
+    "warranty": "依 Costco 好市多商品頁、品牌保固與退貨政策",
+    "tags": [
+      "Costco",
+      "循環扇",
+      "DC"
+    ],
+    "releaseDate": "找不到"
   }
 ]);
 })();

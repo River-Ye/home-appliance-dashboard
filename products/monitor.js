@@ -2469,6 +2469,53 @@
       "Type-C"
     ],
     "releaseDate": "2024-03-21"
+  },
+  {
+    "id": "monitor-costco-philips-27e1n1100d",
+    "category": "monitor",
+    "rank": 52,
+    "budget": "value",
+    "channel": "tw",
+    "brand": "Philips",
+    "model": "27E1N1100D",
+    "name": "27吋 FHD IPS 100Hz 電腦螢幕",
+    "price": {
+      "currency": "TWD",
+      "amount": 3449,
+      "converted": 3449,
+      "confidence": "Costco 好市多 2026-07-09 查核價"
+    },
+    "image": "https://www.costco.com.tw/medias/sys_master/images/h93/h69/277970974834718.webp",
+    "buyUrl": "https://www.costco.com.tw/Digital-Mobile/Laptops-Computers/p/147916",
+    "buyLabel": "Costco 好市多",
+    "specs": [
+      "27 吋 IPS",
+      "1920 x 1080",
+      "100Hz",
+      "HDMI 1.4 / DVI / VGA",
+      "重量：6.6kg",
+      "Costco 評價 4.5 / 79 則"
+    ],
+    "description": "Philips 27E1N1100D 是 Costco 低價 27 吋 IPS 螢幕，適合文書、雙螢幕與基本居家辦公。",
+    "pros": [
+      "價格低",
+      "Costco 79 則評論、4.5 分"
+    ],
+    "cons": [
+      "FHD 解析度在 27 吋較粗",
+      "非高階色彩或電競定位"
+    ],
+    "bestFor": "文書、視訊、雙螢幕與預算優先的人。",
+    "recommendation": "好市多補充推薦：27E1N1100D 是 Costco 低價文書螢幕代表，重量資訊也清楚。",
+    "score": 83,
+    "voltage": "100-240VAC 50-60Hz；台灣通路",
+    "warranty": "依 Costco 好市多商品頁、品牌 3 年保固與退貨政策",
+    "tags": [
+      "Costco",
+      "27吋",
+      "文書"
+    ],
+    "releaseDate": "找不到"
   }
   ]);
 })();

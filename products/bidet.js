@@ -905,6 +905,52 @@
       "中價位"
     ],
     "releaseDate": "找不到"
+  },
+  {
+    "id": "bidet-costco-us-brondell-cl1700",
+    "category": "bidet",
+    "rank": 21,
+    "budget": "mid",
+    "channel": "global",
+    "brand": "Brondell",
+    "model": "Swash CL1700",
+    "name": "Bidet Toilet Seat",
+    "price": {
+      "currency": "USD",
+      "amount": 249.99,
+      "converted": 8032,
+      "confidence": "Costco US 2026-07-09 參考價，TWD 依現有儀表板匯率換算"
+    },
+    "image": "https://bfasset.costco-static.com/U447IH35/as/k83n76pfjhvqcf9gfrz74sx/1432187-847__1?auto=webp&format=jpg",
+    "buyUrl": "https://www.costco.com/brondell-swash-cl1700-bidet-toilet-seat.product.100648788.html",
+    "buyLabel": "Costco US",
+    "specs": [
+      "溫水洗淨便座",
+      "遙控/電動式",
+      "美規 elongated 座型",
+      "Costco US 3,989 則評論",
+      "需確認 120V、馬桶尺寸與安裝"
+    ],
+    "description": "台灣 Costco 未找到明確免治馬桶新品頁，故補入 Costco US 高評論的 Brondell Swash CL1700 作海外參考。",
+    "pros": [
+      "Costco US 評論量非常高",
+      "價格相對 TOTO 高階款低"
+    ],
+    "cons": [
+      "美規 120V 與 elongated 尺寸不一定適合台灣馬桶",
+      "未含國際運費、進口稅與台灣保固"
+    ],
+    "bestFor": "可自行確認尺寸、電壓與保固風險的海外採購使用者。",
+    "recommendation": "好市多海外補充：CL1700 評論量高，可作為 Costco US 免治便座價格參考，不建議未確認尺寸就直接下單。",
+    "score": 84,
+    "voltage": "美規 120V；需確認台灣插座、接地與馬桶尺寸",
+    "warranty": "Costco US / 海外通路，可能無台灣保固",
+    "tags": [
+      "Costco US",
+      "免治",
+      "海外參考"
+    ],
+    "releaseDate": "找不到"
   }
   ]);
 })();

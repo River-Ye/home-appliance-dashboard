@@ -950,6 +950,52 @@
       "預算"
     ],
     "releaseDate": "找不到"
+  },
+  {
+    "id": "monitorarm-costco-iris-da4550",
+    "category": "monitorarm",
+    "rank": 21,
+    "budget": "value",
+    "channel": "tw",
+    "brand": "IRIS OHYAMA",
+    "model": "DA-4550",
+    "name": "獨臂螢幕支架夾式",
+    "price": {
+      "currency": "TWD",
+      "amount": 825,
+      "converted": 825,
+      "confidence": "Costco 好市多 2026-07-09 查核價"
+    },
+    "image": "https://www.costco.com.tw/medias/sys_master/images/hde/h28/102012466561054.jpg",
+    "buyUrl": "https://www.costco.com.tw/Digital-Mobile/Laptops-Computers/Keyboards-Mice-Computer-Accessories/IRIS-OHYAMA-Monitor-Arm-Clamp-Type-DA-4550/p/135869",
+    "buyLabel": "Costco 好市多",
+    "specs": [
+      "支援 17-32 吋",
+      "承重範圍 8kg",
+      "符合 VESA 規格",
+      "夾桌式，桌面厚度 10-85mm",
+      "Costco 評價 4.8 / 35 則"
+    ],
+    "description": "IRIS DA-4550 是 Costco 上真正的夾桌式單螢幕支架，適合一般 17-32 吋、8kg 內螢幕。",
+    "pros": [
+      "Costco 評價 4.8 分",
+      "支援尺寸、承重與桌板厚度標示清楚"
+    ],
+    "cons": [
+      "8kg 承重不適合 34 吋以上寬螢幕",
+      "不建議用於 49/57 吋超寬大螢幕"
+    ],
+    "bestFor": "一般 24-32 吋螢幕、想用 Costco 低價支架整理桌面的人。",
+    "recommendation": "好市多補充推薦：DA-4550 規格符合支架分類需求，但大型螢幕請改看高承重款並兩人安裝。",
+    "score": 84,
+    "voltage": "支架無電壓需求；需確認 VESA、桌板厚度與螢幕不含腳架重量",
+    "warranty": "依 Costco 好市多商品頁、品牌保固與退貨政策",
+    "tags": [
+      "Costco",
+      "夾桌",
+      "8kg"
+    ],
+    "releaseDate": "找不到"
   }
   ]);
 })();

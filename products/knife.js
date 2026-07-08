@@ -982,6 +982,51 @@
       "入門"
     ],
     "releaseDate": "找不到"
+  },
+  {
+    "id": "knife-costco-tefal-titanium-3pc",
+    "category": "knife",
+    "rank": 21,
+    "budget": "value",
+    "channel": "tw",
+    "brand": "Tefal",
+    "model": "Titanium Non-Stick Knives 3-Piece Set",
+    "name": "鈦金系列不沾刀具 3件組",
+    "price": {
+      "currency": "TWD",
+      "amount": 749,
+      "converted": 749,
+      "confidence": "Costco 好市多 2026-07-09 查核價"
+    },
+    "image": "https://www.costco.com.tw/medias/sys_master/images/hbd/h7c/368495612559390.webp",
+    "buyUrl": "https://www.costco.com.tw/p/665347",
+    "buyLabel": "Costco 好市多",
+    "specs": [
+      "廚房刀具 3 件組",
+      "鈦金不沾塗層",
+      "非刀架/非磨刀配件",
+      "Costco 評價 5.0 / 9 則"
+    ],
+    "description": "Tefal 鈦金系列刀具是 Costco 上明確屬於廚房刀具的低價三件組，避免把砧板或剪刀誤列為刀具。",
+    "pros": [
+      "價格低、入門友善",
+      "Costco 目前評價 5.0"
+    ],
+    "cons": [
+      "評論數仍少",
+      "塗層刀需避免硬物與不當磨刀"
+    ],
+    "bestFor": "租屋、小家庭或需要低價補齊基本廚刀的人。",
+    "recommendation": "好市多補充推薦：這筆是 Costco 分類中少數明確的廚房刀具新品，不是砧板、剪刀或磨刀器。",
+    "score": 82,
+    "voltage": "刀具無電壓需求",
+    "warranty": "依 Costco 好市多商品頁、品牌保固與退貨政策",
+    "tags": [
+      "Costco",
+      "刀具",
+      "入門"
+    ],
+    "releaseDate": "找不到"
   }
   ]);
 })();

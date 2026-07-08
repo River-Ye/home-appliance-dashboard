@@ -905,6 +905,51 @@
       "中坪數"
     ],
     "releaseDate": "2026"
+  },
+  {
+    "id": "purifier-costco-lg-as651dwh0",
+    "category": "purifier",
+    "rank": 21,
+    "budget": "premium",
+    "channel": "tw",
+    "brand": "LG",
+    "model": "AS651DWH0",
+    "name": "PuriCare 360° 空氣清淨機",
+    "price": {
+      "currency": "TWD",
+      "amount": 17999,
+      "converted": 17999,
+      "confidence": "Costco 好市多 2026-07-09 查核價"
+    },
+    "image": "https://www.costco.com.tw/medias/sys_master/images/h92/h40/115203622731806.webp",
+    "buyUrl": "https://www.costco.com.tw/Cooling-Heating-Air-Treatment/Air-Purifiers-Filters-Accessories/p/136662",
+    "buyLabel": "Costco 好市多",
+    "specs": [
+      "360° 進風",
+      "PuriCare 系列",
+      "大坪數取向",
+      "Costco 評價 4.6 / 37 則"
+    ],
+    "description": "LG PuriCare 360° 是 Costco 上評價穩定的高階空氣清淨機，適合客廳與開放空間。",
+    "pros": [
+      "360° 進風設計",
+      "Costco 評論數與評分都具參考性"
+    ],
+    "cons": [
+      "機身較大",
+      "耗材成本需另估"
+    ],
+    "bestFor": "客廳、開放式餐廚或想集中處理空氣品質的家庭。",
+    "recommendation": "好市多補充推薦：AS651DWH0 可和 Philips、POIEMA 與 Dyson 候選比較大坪數清淨效率。",
+    "score": 86,
+    "voltage": "110V 台灣通路",
+    "warranty": "依 Costco 好市多商品頁、品牌保固與退貨政策",
+    "tags": [
+      "Costco",
+      "大坪數",
+      "360進風"
+    ],
+    "releaseDate": "找不到"
   }
   ]);
 })();

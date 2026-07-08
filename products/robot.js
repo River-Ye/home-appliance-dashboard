@@ -1265,6 +1265,51 @@
       "供貨待確認"
     ],
     "releaseDate": "2026-03-12"
+  },
+  {
+    "id": "robot-costco-us-roborock-qx-revo",
+    "category": "robot",
+    "rank": 29,
+    "budget": "mid",
+    "channel": "global",
+    "brand": "Roborock",
+    "model": "QX Revo",
+    "name": "Robot Vacuum and Mop with Multifunctional Dock",
+    "price": {
+      "currency": "USD",
+      "amount": 399.99,
+      "converted": 12851,
+      "confidence": "Costco US 2026-07-09 參考價，TWD 依現有儀表板匯率換算"
+    },
+    "image": "https://bfasset.costco-static.com/U447IH35/as/tkj772p4357mmh3bwz8kcq/1791272-847__1?auto=webp&format=jpg",
+    "buyUrl": "https://www.costco.com/roborock-qx-revo-robot-vacuum-and-mop-with-multifunctional-dock.product.4000233271.html",
+    "buyLabel": "Costco US",
+    "specs": [
+      "掃拖機器人",
+      "多功能基站",
+      "Costco US 2,885 則評論",
+      "海外購買需確認電壓、耗材與保固"
+    ],
+    "description": "Costco US 上評論量很高的 Roborock 掃拖機器人，適合作為海外價格與同級台灣機種的比較參考。",
+    "pros": [
+      "Costco US 評論數高，市場口碑基礎厚",
+      "掃拖與基站自動化完整"
+    ],
+    "cons": [
+      "未含國際運費、進口稅與台灣保固",
+      "需自行確認電壓、插頭、耗材與 App 區域支援"
+    ],
+    "bestFor": "可接受海外採購風險，想比較 Roborock Costco 特規價格的人。",
+    "recommendation": "好市多海外補充：QX Revo 在 Costco US 評論量高，適合對照台灣 Roborock、Dreame、Narwal 機種。",
+    "score": 86,
+    "voltage": "海外版本，需確認 100-240V、插頭與變壓器需求",
+    "warranty": "Costco US / 海外通路，可能無台灣保固",
+    "tags": [
+      "Costco US",
+      "Roborock",
+      "海外參考"
+    ],
+    "releaseDate": "找不到"
   }
 ]);
 })();

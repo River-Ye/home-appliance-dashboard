@@ -925,6 +925,52 @@
       "台灣通路"
     ],
     "releaseDate": "找不到"
+  },
+  {
+    "id": "tv-costco-toshiba-75z670nt",
+    "category": "tv",
+    "rank": 21,
+    "budget": "mid",
+    "channel": "tw",
+    "brand": "Toshiba",
+    "model": "75Z670NT",
+    "name": "Regza 75型 4K QLED 144Hz 全陣列背光智慧顯示器",
+    "price": {
+      "currency": "TWD",
+      "amount": 39999,
+      "converted": 39999,
+      "confidence": "Costco 好市多 2026-07-09 查核價"
+    },
+    "image": "https://www.costco.com.tw/medias/sys_master/images/h1c/h62/438072163139614.webp",
+    "buyUrl": "https://www.costco.com.tw/Televisions-Appliances/TV-Home-Entertainment/Televisions-TV-Accessories/70-79-TVs/Toshiba-Regza-75-inch-Full-Array-4K-QLED-144Hz-Smart-Monitor-75Z670NT/p/152535",
+    "buyLabel": "Costco 好市多",
+    "specs": [
+      "75 吋 4K QLED",
+      "全陣列背光",
+      "144Hz",
+      "手機投影：通路頁未標示",
+      "Costco 評價 4.8 / 50 則"
+    ],
+    "description": "Costco 75 吋大尺寸 QLED 高評價候選，適合想用較低預算取得大畫面、144Hz 與全陣列背光的人。",
+    "pros": [
+      "Costco 評價與評論數都漂亮",
+      "75 吋大尺寸價格有競爭力"
+    ],
+    "cons": [
+      "通路頁未標示手機投影能力",
+      "大尺寸需先確認電梯、門寬與安裝動線"
+    ],
+    "bestFor": "客廳距離較長、想在 Costco 買大尺寸 4K QLED 的家庭。",
+    "recommendation": "好市多補充推薦：75Z670NT 在 Costco 有 4.8 分與 50 則評論，適合和既有 65/75 吋候選比大尺寸 CP 值。",
+    "score": 86,
+    "voltage": "110V 台灣通路；大型家電需確認配送、安裝與舊機處理",
+    "warranty": "依 Costco 好市多商品頁、品牌保固與退貨政策",
+    "tags": [
+      "Costco",
+      "75吋",
+      "QLED"
+    ],
+    "releaseDate": "找不到"
   }
   ]);
 })();

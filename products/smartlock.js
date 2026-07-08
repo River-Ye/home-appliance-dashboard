@@ -1004,40 +1004,41 @@
     "channel": "tw",
     "brand": "dormakaba",
     "model": "ML770",
-    "name": "ML770 四合一智能電子鎖",
+    "name": "ML770 Wi-Fi 六合一智慧電子鎖",
     "price": {
       "currency": "TWD",
-      "amount": 23750,
-      "converted": 23750,
-      "confidence": "可信通路查核價"
+      "amount": 20999,
+      "converted": 20999,
+      "confidence": "Costco 好市多 2026-07-09 查核價"
     },
-    "image": "https://cs-a.ecimg.tw/items/DQBS4NA900J0U5A/000001_1752128145.jpg",
-    "buyUrl": "https://24h.pchome.com.tw/prod/DQBS4N-A900J0U5A",
-    "buyLabel": "PChome",
+    "image": "https://www.costco.com.tw/medias/sys_master/images/haa/hba/448868338237470.jpg",
+    "buyUrl": "https://www.costco.com.tw/Furniture-Kitchen/Hardware-DIY/Home-Safety/dormakaba-ML770-Wi-Fi-6-in-1-Digital-Door-Lock/p/156131",
+    "buyLabel": "Costco 好市多",
     "specs": [
+      "Wi-Fi APP",
       "指紋/卡片/密碼/鑰匙",
-      "含基本安裝",
-      "主鎖",
-      "四合一"
+      "支援100枚指紋、100張卡片、4組密碼",
+      "商品重量約3.5kg",
+      "門厚、門向、鎖體與天地栓需安裝前確認"
     ],
-    "description": "電子鎖購買前要先確認門厚、門向、鎖體、天地栓與安裝條件；本清單僅列可信通路正常新品。",
+    "description": "Costco 上架的 dormakaba ML770 Wi-Fi 六合一智慧電子鎖，提供 APP、遠端密碼分享、指紋、卡片、密碼與鑰匙等開門方式。",
     "pros": [
-      "dormakaba 通路能見度高",
-      "PChome 正常新品頁，價格與圖片可查核"
+      "dormakaba 鎖具品牌專業度高",
+      "Costco 商品頁明確標示 Wi-Fi、開門方式與 2 年保固"
     ],
     "cons": [
-      "安裝前需確認門型與加價項目",
-      "實際保固與基本安裝範圍以購買頁為準"
+      "安裝前仍需確認門厚、門向、鎖體、天地栓與加價項目",
+      "電子鎖售後與安裝範圍需以購買頁和原廠說明為準"
     ],
-    "bestFor": "想在 dormakaba 主鎖款中比較外觀與型號差異的人。",
-    "recommendation": "dormakaba 主鎖備選：價格與 ML660 接近，可依門型與外觀挑選。",
-    "score": 85,
+    "bestFor": "想在 Costco 買 dormakaba 主鎖，並需要 Wi-Fi APP 與多種開門方式的人。",
+    "recommendation": "好市多補充推薦：ML770 是 Costco 明確販售的 dormakaba 智慧鎖，規格與價格比原 PChome 頁更適合目前清單。",
+    "score": 86,
     "voltage": "多為電池供電；需確認門厚、門向、鎖體與是否有天地栓",
-    "warranty": "依 PChome 商品頁、原廠或台灣代理保固與安裝條款",
+    "warranty": "Costco 好市多退貨政策；商品頁標示 2 年保固，安裝售後以原廠與頁面為準",
     "tags": [
+      "Costco",
       "dormakaba",
-      "四合一",
-      "含安裝"
+      "Wi-Fi"
     ],
     "releaseDate": "找不到"
   },

@@ -905,6 +905,52 @@
       "11L"
     ],
     "releaseDate": "找不到"
+  },
+  {
+    "id": "dehumidifier-costco-hitachi-rd380vc",
+    "category": "dehumidifier",
+    "rank": 21,
+    "budget": "premium",
+    "channel": "tw",
+    "brand": "Hitachi",
+    "model": "RD-380VC",
+    "name": "19公升 超變頻清淨除濕機",
+    "price": {
+      "currency": "TWD",
+      "amount": 20799,
+      "converted": 20799,
+      "confidence": "Costco 好市多 2026-07-09 查核價"
+    },
+    "image": "https://www.costco.com.tw/medias/sys_master/images/h59/h0f/421140865679390.webp",
+    "buyUrl": "https://www.costco.com.tw/Cooling-Heating-Air-Treatment/Dehumidifiers-Dry-Cabinets/p/152925",
+    "buyLabel": "Costco 好市多",
+    "specs": [
+      "19 公升級",
+      "超變頻",
+      "清淨除濕",
+      "政府減稅補助標示",
+      "Costco 評價 4.7 / 46 則"
+    ],
+    "description": "日立 RD-380VC 在 Costco 評價高，適合想買清淨除濕二合一且重視品牌售後的人。",
+    "pros": [
+      "清淨除濕二合一",
+      "Costco 評價 4.7 分"
+    ],
+    "cons": [
+      "價格高於純除濕入門款",
+      "大型機身需預留擺放與排水空間"
+    ],
+    "bestFor": "潮濕住家、衣物乾燥與客廳除濕需求較高的家庭。",
+    "recommendation": "好市多補充推薦：RD-380VC 是 Costco 上評價漂亮的高階清淨除濕候選。",
+    "score": 87,
+    "voltage": "110V 台灣通路",
+    "warranty": "依 Costco 好市多商品頁、品牌保固與退貨政策",
+    "tags": [
+      "Costco",
+      "變頻",
+      "清淨除濕"
+    ],
+    "releaseDate": "找不到"
   }
   ]);
 })();

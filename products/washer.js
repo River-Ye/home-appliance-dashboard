@@ -1043,6 +1043,52 @@
       ],
       "category": "washer",
       "releaseDate": "找不到"
-    }
+    },
+  {
+    "id": "washer-costco-sharp-es-asf10t",
+    "category": "washer",
+    "rank": 21,
+    "budget": "value",
+    "channel": "tw",
+    "brand": "SHARP",
+    "model": "ES-ASF10T",
+    "name": "10公斤 無孔槽變頻洗衣機",
+    "price": {
+      "currency": "TWD",
+      "amount": 12199,
+      "converted": 12199,
+      "confidence": "Costco 好市多 2026-07-09 查核價"
+    },
+    "image": "https://www.costco.com.tw/medias/sys_master/images/hca/hbf/70210285142046.webp",
+    "buyUrl": "https://www.costco.com.tw/Televisions-Appliances/Large-Appliances/Washers-Dryers/SHARP-10-kg-Top-Load-Washer-ES-ASF10T/p/122954",
+    "buyLabel": "Costco 好市多",
+    "specs": [
+      "10 公斤洗衣容量",
+      "直立式",
+      "無孔槽",
+      "變頻",
+      "Costco 評價 4.7 / 223 則"
+    ],
+    "description": "10 公斤直立式無孔槽機型，Costco 評論量高，適合小家庭或租屋族升級單洗洗衣機。",
+    "pros": [
+      "Costco 223 則評論、4.7 分",
+      "直立式安裝門檻較低"
+    ],
+    "cons": [
+      "不是洗脫烘",
+      "仍需確認進排水、插座與地面水平"
+    ],
+    "bestFor": "需要單洗洗衣機、預算有限且想走 Costco 通路的人。",
+    "recommendation": "好市多補充推薦：ES-ASF10T 評價量足，適合作為 Costco 單洗洗衣機的 CP 值候選。",
+    "score": 86,
+    "voltage": "110V 台灣通路；需確認進排水、插座與地面水平",
+    "warranty": "依 Costco 好市多商品頁、品牌保固與退貨政策",
+    "tags": [
+      "Costco",
+      "10公斤",
+      "直立式"
+    ],
+    "releaseDate": "找不到"
+  }
   ]);
 })();
