@@ -35,6 +35,8 @@ const categories = [
 const products = [];
 const dashboardRoot = typeof window === "undefined" ? globalThis : window;
 const dashboardData = dashboardRoot.applianceDashboard || {};
+const INITIAL_PRODUCT_LIMIT = 12;
+const LOAD_MORE_PRODUCT_COUNT = 40;
 
 dashboardData.exchange = exchange;
 dashboardData.categories = categories;
@@ -58,6 +60,7 @@ const state = {
   search: "",
   compare: new Set(),
   mobileFiltersOpen: false,
+  renderLimit: INITIAL_PRODUCT_LIMIT,
 };
 
 const currencyFormatter = new Intl.NumberFormat("zh-TW", {
@@ -123,6 +126,31 @@ function filteredProducts() {
     if (query && !productText(product).includes(query)) return false;
     return true;
   }));
+}
+
+function resetRenderedProductLimit() {
+  state.renderLimit = INITIAL_PRODUCT_LIMIT;
+}
+
+function renderedProducts(matchedProducts) {
+  return matchedProducts.slice(0, Math.min(state.renderLimit, matchedProducts.length));
+}
+
+function hasMoreProducts(matchedProducts) {
+  return state.renderLimit < matchedProducts.length;
+}
+
+function loadMoreProducts() {
+  const matchedProducts = filteredProducts();
+  if (!hasMoreProducts(matchedProducts)) return;
+  state.renderLimit = Math.min(matchedProducts.length, state.renderLimit + LOAD_MORE_PRODUCT_COUNT);
+  render();
+}
+
+function loadAllProducts() {
+  const matchedProducts = filteredProducts();
+  state.renderLimit = matchedProducts.length;
+  render();
 }
 
 const filterControlNames = ["category", "brand", "budget", "channel", "sort"];
@@ -361,7 +389,7 @@ function selectFilterValue(name, value) {
     syncComboInput(name, true);
   }
   setComboOpen(name, false);
-  render();
+  render({ resetProducts: true });
 }
 
 function clearFilterValue(name) {
@@ -369,7 +397,7 @@ function clearFilterValue(name) {
   comboState[name].activeIndex = 0;
   syncControls(true);
   setComboOpen(name, false);
-  render();
+  render({ resetProducts: true });
 }
 
 function moveComboActiveOption(name, direction) {
@@ -485,6 +513,38 @@ function renderStats(visible) {
   document.getElementById("mobileVisibleCount").textContent = visible.length;
   document.getElementById("mobileCompareCount").textContent = state.compare.size;
   document.getElementById("mobileCompareLink").classList.toggle("active", state.compare.size > 0);
+}
+
+function renderResultToolbar(matchedProducts, cards) {
+  const hasMore = hasMoreProducts(matchedProducts);
+  const renderedCount = document.getElementById("renderedCount");
+  const lazyHint = document.getElementById("lazyHint");
+  const loadMoreButton = document.getElementById("loadMoreProducts");
+  const loadAllButton = document.getElementById("loadAllProducts");
+
+  if (renderedCount) {
+    renderedCount.textContent = `已載入 ${cards.length} / ${matchedProducts.length}`;
+  }
+
+  if (lazyHint) {
+    if (!matchedProducts.length) {
+      lazyHint.textContent = "目前沒有符合條件的商品，請調整搜尋或篩選。";
+    } else if (hasMore) {
+      lazyHint.textContent = "往下滑會自動再載入 40 筆，也可一次載入全部。搜尋仍會查完整資料。";
+    } else {
+      lazyHint.textContent = "已載入所有符合目前條件的商品。";
+    }
+  }
+
+  if (loadMoreButton) {
+    loadMoreButton.hidden = !hasMore;
+    loadMoreButton.disabled = !hasMore;
+  }
+
+  if (loadAllButton) {
+    loadAllButton.hidden = !hasMore;
+    loadAllButton.disabled = !hasMore;
+  }
 }
 
 function renderTopPicks(visible) {
@@ -642,13 +702,18 @@ function renderCompare() {
   `;
 }
 
-function render() {
+function render(options = {}) {
+  if (options.resetProducts) {
+    resetRenderedProductLimit();
+  }
   ensureSelectedBrandIsAvailable();
   const visible = filteredProducts();
+  const cards = renderedProducts(visible);
   renderTabs();
   renderStats(visible);
   renderTopPicks(visible);
-  renderProducts(visible);
+  renderResultToolbar(visible, cards);
+  renderProducts(cards);
   renderCompare();
   updateFilterDisclosure();
   syncComboClears();
@@ -658,7 +723,7 @@ function setCategory(category) {
   state.category = category;
   ensureSelectedBrandIsAvailable();
   syncControls(true);
-  render();
+  render({ resetProducts: true });
 }
 
 function resetFilters() {
@@ -670,7 +735,7 @@ function resetFilters() {
   state.search = "";
   syncControls(true);
   closeAllCombos();
-  render();
+  render({ resetProducts: true });
 }
 
 function activeAdvancedFilterCount() {
@@ -714,17 +779,49 @@ function updateMobileDock() {
   document.body.classList.toggle("show-mobile-dock", window.scrollY > 360);
 }
 
+function initializeLazyLoading() {
+  const sentinel = document.getElementById("lazySentinel");
+  if (!sentinel || !("IntersectionObserver" in window)) return;
+
+  const observer = new IntersectionObserver((entries) => {
+    if (!entries.some((entry) => entry.isIntersecting)) return;
+    loadMoreProducts();
+  }, {
+    rootMargin: "260px 0px",
+    threshold: 0.01,
+  });
+
+  observer.observe(sentinel);
+}
+
+function scrollToPageTop() {
+  window.scrollTo({ top: 0, behavior: "smooth" });
+}
+
+function scrollToPageBottom() {
+  const target = Math.max(
+    document.body.scrollHeight,
+    document.documentElement.scrollHeight,
+  );
+  window.scrollTo({ top: target, behavior: "smooth" });
+}
+
 document.addEventListener("DOMContentLoaded", () => {
   initializeFilterCombos();
+  initializeLazyLoading();
   syncControls(true);
   render();
   updateMobileDock();
 
   document.getElementById("searchInput").addEventListener("input", (event) => {
     state.search = event.target.value;
-    render();
+    render({ resetProducts: true });
   });
   document.getElementById("resetFilters").addEventListener("click", resetFilters);
+  document.getElementById("loadMoreProducts").addEventListener("click", loadMoreProducts);
+  document.getElementById("loadAllProducts").addEventListener("click", loadAllProducts);
+  document.getElementById("scrollTopButton").addEventListener("click", scrollToPageTop);
+  document.getElementById("scrollBottomButton").addEventListener("click", scrollToPageBottom);
   document.getElementById("filterToggle").addEventListener("click", () => {
     setMobileFiltersOpen(!state.mobileFiltersOpen);
   });
