@@ -2370,7 +2370,7 @@
       "32:9",
       "Mini LED"
     ],
-    "releaseDate": "找不到"
+    "releaseDate": "2023-10"
   },
   {
     "id": "monitor-dell-u3425we",

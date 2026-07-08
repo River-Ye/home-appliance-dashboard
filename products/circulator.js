@@ -94,7 +94,7 @@
       "遙控",
       "CP 值"
     ],
-    "releaseDate": "找不到"
+    "releaseDate": "2018-03-01"
   },
   {
     "id": "circ-panasonic-fe10",
@@ -544,7 +544,7 @@
       "渦流",
       "高階"
     ],
-    "releaseDate": "找不到"
+    "releaseDate": "2017-05-26"
   },
   {
     "id": "circulator-extra-13-dmab3x-a900hn9w0",

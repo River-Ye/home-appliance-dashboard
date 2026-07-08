@@ -1,13 +1,14 @@
 {
   "summary": {
-    "checkedAt": "2026-07-08T10:32:46.360Z",
+    "checkedAt": "2026-07-08T11:02:08.482Z",
     "total": 590,
-    "found": 121,
-    "missing": 469,
+    "found": 128,
+    "missing": 462,
     "byConfidence": {
-      "official": 55,
-      "credible_article": 66,
-      "not_found": 469
+      "official": 57,
+      "credible_article": 70,
+      "not_found": 462,
+      "retailer_explicit": 1
     }
   },
   "results": [
@@ -847,12 +848,14 @@
       "brand": "IRIS OHYAMA",
       "model": "PCF-SC15T",
       "name": "遙控空氣循環扇",
-      "releaseDate": "找不到",
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "confidence": "not_found",
-      "query": "IRIS OHYAMA SC15T release date launch announced"
+      "releaseDate": "2018-03-01",
+      "sourceUrl": "https://kakaku.com/item/K0001040259/",
+      "sourceTitle": "アイリスオーヤマ PCF-SC15T 価格比較 - 価格.com",
+      "evidenceSnippet": "Kakaku lists Iris Ohyama PCF-SC15T and shows 2018年3月1日 発売.",
+      "confidence": "retailer_explicit",
+      "query": "IRIS OHYAMA SC15T release date launch announced",
+      "sourceKind": "manual_research",
+      "reason": ""
     },
     {
       "id": "circ-panasonic-fe10",
@@ -979,12 +982,14 @@
       "brand": "Vornado",
       "model": "6303DC",
       "name": "6303DC 白色渦流空氣循環機",
-      "releaseDate": "找不到",
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "confidence": "not_found",
-      "query": "Vornado 6303DC release date launch announced"
+      "releaseDate": "2017-05-26",
+      "sourceUrl": "https://www.atpress.ne.jp/news/127906",
+      "sourceTitle": "VORNADOより、最大80％の消費電力を削減した DCモーター サーキュレーター『6303DC-JP』を販売開始 | 株式会社エヌエフ貿易",
+      "evidenceSnippet": "Vornado Japan distributor press release says the 6303DC-JP DC circulator would go on sale from 2017年5月26日.",
+      "confidence": "official",
+      "query": "Vornado 6303DC release date launch announced",
+      "sourceKind": "manual_research",
+      "reason": ""
     },
     {
       "id": "circulator-extra-13-dmab3x-a900hn9w0",
@@ -1707,12 +1712,14 @@
       "brand": "Ecovacs",
       "model": "DEEBOT X11 PRO 上下水款",
       "name": "無限續航滾筒洗地機器人上下水款",
-      "releaseDate": "找不到",
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "confidence": "not_found",
-      "query": "Ecovacs X11 release date launch announced"
+      "releaseDate": "2025-09",
+      "sourceUrl": "https://www.theverge.com/tech/853777/ecovacs-deebot-x12-omnicyclone-robot-vacuum-mop-cover",
+      "sourceTitle": "Ecovacs adds a mop cover to its flagship robot vacuum",
+      "evidenceSnippet": "The Verge says the Ecovacs X11 launched at IFA in September 2025; the listed product is an X11 Pro plumbed configuration.",
+      "confidence": "credible_article",
+      "query": "Ecovacs X11 release date launch announced",
+      "sourceKind": "manual_research",
+      "reason": ""
     },
     {
       "id": "robot-ecovacs-x11-pro",
@@ -4317,13 +4324,14 @@
       "brand": "Breville",
       "model": "Joule Oven Air Fryer Pro",
       "name": "智慧氣炸烤箱",
-      "releaseDate": "找不到",
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "confidence": "not_found",
+      "releaseDate": "2022-03-29",
+      "sourceUrl": "https://www.prnewswire.com/news-releases/breville-launches-the-joule-oven-air-fryer-pro-its-first-smart-connected-oven-giving-the-consumer-the-tools-to-nail-it-the-first-time-and-every-time-301512657.html",
+      "sourceTitle": "Breville Launches the Joule Oven Air Fryer Pro, its First Smart Connected Oven Giving the Consumer the Tools to Nail it the First Time and Every Time",
+      "evidenceSnippet": "Breville USA press release dated March 29, 2022 announces the launch of the Joule Oven Air Fryer Pro and says it is available now.",
+      "confidence": "official",
       "query": "Breville Joule Oven Air Fryer Pro release date launch announced 上市 發售",
-      "sourceKind": "not_found_after_available_search"
+      "sourceKind": "not_found_after_available_search",
+      "reason": ""
     },
     {
       "id": "oven-extra-6-dmbj02-a900i9lq2",
@@ -5591,13 +5599,14 @@
       "brand": "Aqara",
       "model": "A100",
       "name": "A100 智能門鎖",
-      "releaseDate": "找不到",
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "confidence": "not_found",
+      "releaseDate": "2022-03",
+      "sourceUrl": "https://homekitnews.com/2022/03/20/aqara-a100-zigbee-smart-lock-with-apple-homekey-review/",
+      "sourceTitle": "Aqara A100 Zigbee Smart Lock with Apple HomeKey",
+      "evidenceSnippet": "HomeKit News says the Aqara A100 Zigbee was currently available in parts of Asia and Russia in March 2022.",
+      "confidence": "credible_article",
       "query": "Aqara A100 release date launch announced 上市 發售",
-      "sourceKind": "not_found_after_available_search"
+      "sourceKind": "not_found_after_available_search",
+      "reason": ""
     },
     {
       "id": "smartlock-aqara-d200i",
@@ -6407,13 +6416,14 @@
       "brand": "NETGEAR",
       "model": "Nighthawk RS100",
       "name": "BE3600 雙頻 Wi-Fi 7 路由器",
-      "releaseDate": "找不到",
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "confidence": "not_found",
+      "releaseDate": "2025",
+      "sourceUrl": "https://www.techradar.com/computing/wi-fi-broadband/netgear-nighthawk-rs100-review",
+      "sourceTitle": "Netgear Nighthawk RS100 review: Netgear sees the light and releases an affordable Wi-Fi 7 router",
+      "evidenceSnippet": "TechRadar describes the RS100 as a new Nighthawk router recently brought out, lists availability as now, and references pricing at the time of launch in its 2025 review.",
+      "confidence": "credible_article",
       "query": "NETGEAR Nighthawk RS100 release date launch announced 上市 發售",
-      "sourceKind": "not_found_after_available_search"
+      "sourceKind": "not_found_after_available_search",
+      "reason": ""
     },
     {
       "id": "wifi-linksys-mx5502-3pack",
@@ -7906,13 +7916,14 @@
       "brand": "Samsung",
       "model": "S57CG952NC",
       "name": "57 型 Odyssey Neo G9 Dual UHD 240Hz Mini LED 曲面螢幕",
-      "releaseDate": "找不到",
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "confidence": "not_found",
+      "releaseDate": "2023-10",
+      "sourceUrl": "https://www.lifewire.com/samsung-odyssey-neo-g9-dual-uhd-gaming-monitor-7814171",
+      "sourceTitle": "Samsung Just Revealed a Huge New Dual UHD Gaming Monitor",
+      "evidenceSnippet": "Lifewire reports the 57-inch Odyssey Neo G9 Dual UHD monitor was revealed at Gamescom and would be available in October 2023.",
+      "confidence": "credible_article",
       "query": "Samsung S57CG952NC release date launch announced 上市 發售",
-      "sourceKind": "not_found_after_available_search"
+      "sourceKind": "not_found_after_available_search",
+      "reason": ""
     },
     {
       "id": "monitor-dell-u3425we",

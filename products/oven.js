@@ -229,7 +229,7 @@
       "氣炸",
       "智慧"
     ],
-    "releaseDate": "找不到"
+    "releaseDate": "2022-03-29"
   },
   {
     "id": "oven-extra-6-dmbj02-a900i9lq2",

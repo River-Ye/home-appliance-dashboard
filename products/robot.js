@@ -274,7 +274,7 @@
       "上下水",
       "滾筒洗地"
     ],
-    "releaseDate": "找不到"
+    "releaseDate": "2025-09"
   },
   {
     "id": "robot-ecovacs-x11-pro",

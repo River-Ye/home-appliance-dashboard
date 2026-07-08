@@ -1301,7 +1301,7 @@
       "Wi-Fi 7",
       "Nighthawk"
     ],
-    "releaseDate": "找不到"
+    "releaseDate": "2025"
   },
   {
     "id": "wifi-linksys-mx5502-3pack",

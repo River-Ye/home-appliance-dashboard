@@ -724,7 +724,7 @@
       "Aqara",
       "指紋"
     ],
-    "releaseDate": "找不到"
+    "releaseDate": "2022-03"
   },
   {
     "id": "smartlock-aqara-d200i",
