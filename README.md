@@ -24,4 +24,14 @@
 
 直接開啟 `index.html`，或透過 [GitHub Pages](https://river-ye.github.io/home-appliance-dashboard/) 瀏覽。
 
-商品資料已依分類拆到 `products/*.js`；`app.js` 僅保留分類設定、資料註冊器、篩選、排序、比較與畫面渲染邏輯。
+商品資料已依分類拆到 `products/*.js`；前端邏輯拆在 `assets/js/*.js`，樣式拆在 `assets/css/*.css`。此專案沒有 build step，GitHub Pages 直接服務靜態檔案。
+
+## 維護檢查
+
+```bash
+npm run check
+```
+
+- `npm run check:syntax`：檢查公開 JS 與維護工具語法。
+- `npm run check:data`：檢查 25 類、590 筆、必要欄位、日期格式、每類至少 20 筆、重複型號與重複購買 URL。
+- `npm run check:ui`：用 Playwright 驗證桌機/手機搜尋、篩選、排序、lazy loading、比較清單與推薦卡高亮。

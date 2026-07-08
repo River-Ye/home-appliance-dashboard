@@ -13,18 +13,29 @@
 ## 檔案架構
 
 - `index.html`：頁面骨架與 script 載入順序。
-- `styles.css`：桌機與手機版樣式。
-- `app.js`：分類設定、資料註冊器、篩選、排序、比較與畫面渲染邏輯。
+- `assets/css/tokens.css`：色彩、陰影、全域 reset 與基本文字規則。
+- `assets/css/layout.css`：header、main、footer 等主要版面。
+- `assets/css/components.css`：篩選器、ComboBox、tabs、商品卡、比較表、快速跳轉等元件樣式。
+- `assets/css/responsive.css`：reduced-motion、平板與手機版 RWD。
+- `assets/js/config.js`：分類、匯率、常數、全域 registry 與 state 初始化。
+- `assets/js/utils.js`：格式化、HTML escape、搜尋文字整理與標籤轉換。
+- `assets/js/filters.js`：搜尋、篩選、排序、品牌選項與 lazy loading 計算。
+- `assets/js/combobox.js`：分類/品牌/預算/通路/排序 ComboBox 行為。
+- `assets/js/templates.js`：商品卡、推薦卡、比較表與圖片 fallback markup。
+- `assets/js/ui.js`：render 流程、手機篩選、scroll/highlight、compare 操作。
+- `assets/js/main.js`：DOMContentLoaded、事件綁定與初始 render。
 - `products/*.js`：每個商品分類一個檔案，只放該分類商品資料，透過 `globalThis.applianceDashboard.registerProducts(categoryId, items)` 註冊。
-- 不要再把大量商品資料塞回 `app.js`。
+- `tools/*.js`：repo 內維護檢查工具，可用 `npm run check` 執行。
+- 不要再把大量商品資料塞回任一核心 JS；商品資料只能維持在 `products/*.js`。
 
 新增或修改分類時通常要同步：
 
-- `app.js` 的 `categories`
+- `assets/js/config.js` 的 `categories`
 - `products/<category>.js`
 - `index.html` 的 script 載入清單與版本 query string
 - `README.md` 的分類、數量、品牌涵蓋說明
 - `AGENTS.md` 若規則有新增
+- `tools/verify-data.js` 若總分類數或總商品數改變
 
 ## 目前資料規模
 
@@ -129,7 +140,7 @@
 - 日期查核需保留 `release_date_research.json` 證據檔；非「找不到」項目必須有 `sourceUrl`、`sourceTitle`、`evidenceSnippet` 與 `confidence`，且 `releaseDate` 只能使用 `YYYY-MM-DD`、`YYYY-MM`、`YYYY`。
 - 補查上市/發售日時，優先官方新聞稿、官方產品發表頁、官方上市/發售公告；其次才使用可信媒體/評測明確寫出的 release/launch/上市/發售文字。不可把 Google/Bing 生成式摘要、支援頁的說明書/韌體/驅動 release date、文章發布日、促銷期間、上架日、保固文件日期、購買頁庫存日期或型號年份當作上市日。
 - 若搜尋結果只找到「released in 2024」這類明確年份，可填 `YYYY`；只寫月份則填 `YYYY-MM`。不要自行補月份或日期。
-- 大量更新商品檔時仍需維持 `outputs/products/*.js` 逐分類獨立，不要把商品資料塞回 `app.js`。
+- 大量更新商品檔時仍需維持 `outputs/products/*.js` 逐分類獨立，不要把商品資料塞回 `assets/js/*.js`。
 
 ## 特別分類規則
 
@@ -229,16 +240,18 @@
 
 修改後至少檢查：
 
-- 所有公開 JS 檔可被 Node 編譯。
+- `npm run check:syntax`：所有公開 JS 檔與維護工具可被 Node 編譯。
+- `npm run check:data`：商品總數、分類數、必要欄位、日期格式、重複 URL 與重複型號檢查通過。
+- `npm run check:ui`：桌機與手機版主要互動流程通過。
 - 商品總數仍符合 README 與分類 tab 顯示。
 - 每筆商品必要欄位齊全。
 - 購買連結不重複。
 - 不含福利品、瑕疵品、展示機、拆封品、二手品、整新品、配件頁或耗材頁。
 - 桌機與手機版能正常搜尋、篩選、分類切換、品牌依分類限制、排序、加入比較、清除比較。
 - 手機版篩選可展開與收合。
-- 公開 GitHub Pages 部署後可抓到新版 `index.html`、`app.js` 與至少一個 `products/*.js`。
+- 公開 GitHub Pages 部署後可抓到新版 `index.html`、`assets/js/config.js` 與至少一個 `products/*.js`。
 
-若在 Codex 原工作區中，可優先使用既有 `work/verify_dashboard.js`、`work/audit_product_sources.js`、`work/audit_pchome_prices.js` 等輔助腳本；若這些腳本不存在，請用等價方式重新驗證。
+若需重新查價或外部連結稽核，可使用 Codex 原工作區的 `work/audit_product_sources.js`、`work/audit_pchome_prices.js`、`work/audit_links_prices_duplicates.js` 等輔助腳本；公開 repo 內的 `tools/*.js` 負責不需外網的日常維護檢查。
 
 ## 發布規則
 

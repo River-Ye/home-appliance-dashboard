@@ -1,0 +1,410 @@
+const path = require("path");
+const os = require("os");
+
+function loadPlaywright() {
+  try {
+    return require("playwright");
+  } catch (error) {
+    const bundledModules = path.join(
+      os.homedir(),
+      ".cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules",
+    );
+    return require(path.join(bundledModules, "playwright"));
+  }
+}
+
+const { chromium } = loadPlaywright();
+const fileUrl = `file://${path.resolve(__dirname, "../index.html")}`;
+const screenshotDir = process.env.DASHBOARD_SCREENSHOT_DIR || os.tmpdir();
+
+async function waitForImages(page) {
+  await page.waitForFunction(() => {
+    const images = Array.from(document.images).slice(0, 24);
+    return images.length > 0 && images.every((image) => image.complete);
+  }, { timeout: 15000 });
+}
+
+async function visibleText(page, selector) {
+  return page.locator(selector).innerText();
+}
+
+async function productCardCount(page) {
+  return page.locator(".product-card").count();
+}
+
+async function waitForProductCards(page, count) {
+  await page.waitForFunction((expected) => {
+    return document.querySelectorAll(".product-card").length === expected;
+  }, count);
+}
+
+async function loadAllVisibleProducts(page) {
+  const loadAllButton = page.locator("#loadAllProducts");
+  if (await loadAllButton.isVisible()) {
+    await loadAllButton.click();
+  }
+  await page.waitForFunction(() => {
+    const matched = Number(document.querySelector("#visibleCount")?.textContent || 0);
+    const rendered = document.querySelectorAll(".product-card").length;
+    return matched === 0 ? rendered === 0 : rendered === matched;
+  });
+}
+
+async function runViewport(browser, name, viewport) {
+  const page = await browser.newPage({ viewport });
+  await page.goto(fileUrl, { waitUntil: "domcontentloaded" });
+  await page.waitForSelector(".product-card");
+  await waitForImages(page).catch(() => undefined);
+
+  const total = await visibleText(page, "#productCount");
+  if (total.trim() !== "590") throw new Error(`${name}: expected 590 products, got ${total}`);
+  const categoryTotal = await visibleText(page, "#categoryCount");
+  if (categoryTotal.trim() !== "25") throw new Error(`${name}: expected 25 categories, got ${categoryTotal}`);
+  const firstReleaseLabel = await page.locator(".product-card .spec-item", { hasText: "上市 / 發售日期" }).first().count();
+  if (!firstReleaseLabel) throw new Error(`${name}: product cards missing release date field`);
+
+  await waitForProductCards(page, 12);
+  const initialRenderedText = await visibleText(page, "#renderedCount");
+  if (!initialRenderedText.includes("12 / 590")) {
+    throw new Error(`${name}: expected initial lazy render 12 / 590, got ${initialRenderedText}`);
+  }
+
+  await page.fill("#searchInput", "POIEMA");
+  await page.waitForFunction(() => document.querySelector("#visibleCount")?.textContent?.trim() === "2");
+  await waitForProductCards(page, 2);
+  await page.fill("#searchInput", "");
+  await page.waitForFunction(() => document.querySelector("#visibleCount")?.textContent?.trim() === "590");
+  await waitForProductCards(page, 12);
+
+  await page.getByRole("button", { name: "再載入 40 筆" }).click();
+  await waitForProductCards(page, 52);
+  await page.getByRole("button", { name: "載入全部" }).click();
+  await waitForProductCards(page, 590);
+  if (await page.locator("#loadAllProducts").isVisible()) {
+    throw new Error(`${name}: load all button should hide after all products render`);
+  }
+  await page.fill("#searchInput", "不存在的商品關鍵字");
+  await page.waitForFunction(() => document.querySelector("#visibleCount")?.textContent?.trim() === "0");
+  await page.fill("#searchInput", "");
+  await page.waitForFunction(() => document.querySelector("#visibleCount")?.textContent?.trim() === "590");
+  await waitForProductCards(page, 12);
+
+  if (viewport.width >= 700) {
+    const headerOffset = await page.evaluate(() => {
+      const header = document.querySelector(".topbar-inner")?.getBoundingClientRect();
+      const main = document.querySelector("main")?.getBoundingClientRect();
+      return Math.abs((header?.left || 0) - (main?.left || 0));
+    });
+    if (headerOffset > 1) throw new Error(`${name}: header is misaligned by ${headerOffset}px`);
+  }
+
+  if (viewport.width < 700) {
+    await page.getByRole("button", { name: /^篩選/ }).click();
+    await page.waitForFunction(() => document.querySelector("#advancedFilters") && !document.querySelector("#advancedFilters").hidden);
+  }
+
+  await page.fill("#categoryInput", "電子");
+  await page.locator('#categoryOptions [data-value="smartlock"]').click();
+  await page.waitForFunction(() => document.querySelector("#visibleCount")?.textContent?.trim() === "46");
+  await page.locator("#brandInput").click();
+  const smartLockBrandOptions = await page.$$eval("#brandOptions [data-value]", (options) => options.map((option) => option.dataset.value));
+  if (!smartLockBrandOptions.includes("Yale")) throw new Error(`${name}: smart lock brands missing Yale`);
+  if (smartLockBrandOptions.includes("ASUS")) throw new Error(`${name}: smart lock brands should not include ASUS`);
+  await page.fill("#brandInput", "Yale");
+  await page.locator('#brandOptions [data-value="Yale"]').click();
+  await page.waitForFunction(() => Number(document.querySelector("#visibleCount")?.textContent || 0) > 0);
+  await page.fill("#budgetInput", "均衡");
+  await page.locator('#budgetOptions [data-value="mid"]').click();
+  await page.waitForFunction(() => Number(document.querySelector("#visibleCount")?.textContent || 0) > 0);
+  await page.fill("#channelInput", "台灣");
+  await page.locator('#channelOptions [data-value="tw"]').click();
+  await page.waitForFunction(() => Number(document.querySelector("#visibleCount")?.textContent || 0) > 0);
+  await page.fill("#sortInput", "價格低");
+  await page.locator('#sortOptions [data-value="priceAsc"]').click();
+  const sortValue = await page.locator("#sortInput").inputValue();
+  if (sortValue !== "價格低到高") throw new Error(`${name}: searchable sort did not select priceAsc`);
+  if (viewport.width < 700 && await page.locator("#advancedFilters").evaluate((panel) => panel.hidden)) {
+    await page.getByRole("button", { name: /^篩選/ }).click();
+    await page.waitForFunction(() => document.querySelector("#advancedFilters") && !document.querySelector("#advancedFilters").hidden);
+  }
+  await page.getByRole("button", { name: "重設篩選" }).click();
+  await page.waitForFunction(() => document.querySelector("#visibleCount")?.textContent?.trim() === "590");
+
+  await page.fill("#categoryInput", "無線");
+  await page.locator('#categoryOptions [data-value="wifi"]').click();
+  await page.waitForFunction(() => document.querySelector("#visibleCount")?.textContent?.trim() === "45");
+  await page.locator("#brandInput").click();
+  const routerBrandOptions = await page.$$eval("#brandOptions [data-value]", (options) => options.map((option) => option.dataset.value));
+  for (const expected of ["ASUS", "TP-Link", "Aruba", "UniFi"]) {
+    if (!routerBrandOptions.includes(expected)) throw new Error(`${name}: router brands missing ${expected}`);
+  }
+  if (routerBrandOptions.includes("Yale")) throw new Error(`${name}: router brands should not include Yale`);
+  await page.locator("#searchInput").click();
+  await page.waitForFunction(() => document.querySelector("#brandOptions")?.hidden);
+  await page.getByRole("button", { name: "重設篩選" }).click();
+  await page.waitForFunction(() => document.querySelector("#visibleCount")?.textContent?.trim() === "590");
+
+  if (viewport.width < 700) {
+    await page.getByRole("button", { name: /^篩選/ }).click();
+    await page.waitForFunction(() => document.querySelector("#advancedFilters")?.hidden);
+  }
+
+  const fanTab = page.getByRole("button", { name: "電風扇 20" });
+  await fanTab.click();
+  await page.waitForFunction(() => document.querySelector("#visibleCount")?.textContent?.trim() === "20");
+  await loadAllVisibleProducts(page);
+  const philipsFanCount = await page.locator(".product-card", { hasText: "Philips" }).count();
+  if (philipsFanCount < 5) throw new Error(`${name}: expected at least 5 Philips fan products, got ${philipsFanCount}`);
+
+  const purifierTab = page.getByRole("button", { name: "空氣清淨機 20" });
+  await purifierTab.click();
+  await page.waitForFunction(() => document.querySelector("#visibleCount")?.textContent?.trim() === "20");
+  await loadAllVisibleProducts(page);
+  const poiemaCount = await page.locator(".product-card", { hasText: "POIEMA" }).count();
+  if (poiemaCount < 2) throw new Error(`${name}: expected POIEMA purifier products, got ${poiemaCount}`);
+
+  const robotTab = page.getByRole("button", { name: /掃拖機器人 28/ });
+  await robotTab.click();
+  await page.waitForFunction(() => document.querySelector("#visibleCount")?.textContent?.trim() === "28");
+  await loadAllVisibleProducts(page);
+
+  const robotBrands = await page.$$eval(".product-card", (cards) => {
+    return [...new Set(cards.map((card) => card.querySelector("h3")?.textContent?.trim()).filter(Boolean))];
+  });
+  for (const expected of ["Roborock", "Ecovacs", "Dreame", "Narwal", "iRobot", "eufy", "MOVA", "LG", "Shark", "Dyson"]) {
+    const found = await page.locator(".product-card", { hasText: expected }).count();
+    if (!found) throw new Error(`${name}: missing robot brand ${expected}`);
+  }
+
+  const smartLockTab = page.getByRole("button", { name: "電子鎖 46" });
+  await smartLockTab.click();
+  await page.waitForFunction(() => document.querySelector("#visibleCount")?.textContent?.trim() === "46");
+  await loadAllVisibleProducts(page);
+  for (const expected of ["Yale", "Philips", "Kaadas", "Aqara", "Lockin", "dormakaba", "HITACHI", "WAFERLOCK"]) {
+    const found = await page.locator(".product-card", { hasText: expected }).count();
+    if (!found) throw new Error(`${name}: missing smart lock brand ${expected}`);
+  }
+
+  const routerTab = page.getByRole("button", { name: "無線路由器 45" });
+  await routerTab.click();
+  await page.waitForFunction(() => document.querySelector("#visibleCount")?.textContent?.trim() === "45");
+  await loadAllVisibleProducts(page);
+  for (const expected of ["ASUS", "TP-Link", "D-Link", "NETGEAR", "Linksys", "Synology", "Aruba", "UniFi", "Zyxel", "Mercusys", "Acer", "QNAP"]) {
+    const found = await page.locator(".product-card", { hasText: expected }).count();
+    if (!found) throw new Error(`${name}: missing router brand ${expected}`);
+  }
+  const nonWifi6Plus = await page.$$eval(".product-card", (cards) => cards.filter((card) => !/Wi-Fi (6|6E|7)/.test(card.textContent || "")).length);
+  if (nonWifi6Plus) throw new Error(`${name}: ${nonWifi6Plus} router cards missing Wi-Fi 6+ standard`);
+  await page.fill("#searchInput", "Mesh");
+  await page.waitForFunction(() => Number(document.querySelector("#visibleCount")?.textContent || 0) >= 20);
+  const meshVisible = Number((await visibleText(page, "#visibleCount")).trim());
+  if (meshVisible < 20) throw new Error(`${name}: Mesh search returned ${meshVisible}`);
+
+  if (viewport.width < 700) {
+    await page.getByRole("button", { name: /^篩選/ }).click();
+    await page.waitForFunction(() => document.querySelector("#advancedFilters") && !document.querySelector("#advancedFilters").hidden);
+  }
+  await page.fill("#searchInput", "");
+  await page.fill("#categoryInput", "螢幕");
+  await page.locator('#categoryOptions [data-value="monitor"]').click();
+  await page.waitForFunction(() => document.querySelector("#visibleCount")?.textContent?.trim() === "51");
+  await page.locator("#brandInput").click();
+  const monitorBrandOptions = await page.$$eval("#brandOptions [data-value]", (options) => options.map((option) => option.dataset.value));
+  for (const expected of ["ASUS", "BenQ", "Dell", "LG", "Samsung", "EIZO"]) {
+    if (!monitorBrandOptions.includes(expected)) throw new Error(`${name}: monitor brands missing ${expected}`);
+  }
+  if (monitorBrandOptions.includes("Yale")) throw new Error(`${name}: monitor brands should not include Yale`);
+  await page.fill("#brandInput", "ASUS");
+  await page.locator('#brandOptions [data-value="ASUS"]').click();
+  await page.waitForFunction(() => Number(document.querySelector("#visibleCount")?.textContent || 0) >= 4);
+  await page.getByRole("button", { name: "重設篩選" }).click();
+  await page.waitForFunction(() => document.querySelector("#visibleCount")?.textContent?.trim() === "590");
+
+  const cookwareTab = page.getByRole("button", { name: "鍋具 20" });
+  await cookwareTab.click();
+  await page.waitForFunction(() => document.querySelector("#visibleCount")?.textContent?.trim() === "20");
+  await loadAllVisibleProducts(page);
+  for (const expected of ["Tefal", "Buffalo", "WMF", "Fissler", "Le Creuset", "Staub"]) {
+    const found = await page.locator(".product-card", { hasText: expected }).count();
+    if (!found) throw new Error(`${name}: missing cookware brand ${expected}`);
+  }
+
+  const knifeTab = page.getByRole("button", { name: "刀具 20" });
+  await knifeTab.click();
+  await page.waitForFunction(() => document.querySelector("#visibleCount")?.textContent?.trim() === "20");
+  await loadAllVisibleProducts(page);
+  for (const expected of ["TOJIRO", "GLOBAL", "Victorinox", "Kai", "Kyocera", "Wusthof"]) {
+    const found = await page.locator(".product-card", { hasText: expected }).count();
+    if (!found) throw new Error(`${name}: missing knife brand ${expected}`);
+  }
+
+  const waterDispenserTab = page.getByRole("button", { name: "櫥下飲水機 20" });
+  await waterDispenserTab.click();
+  await page.waitForFunction(() => document.querySelector("#visibleCount")?.textContent?.trim() === "20");
+  await loadAllVisibleProducts(page);
+  for (const expected of ["3M", "EVERPURE", "Coway", "Panasonic", "BWT", "BRITA", "賀眾牌"]) {
+    const found = await page.locator(".product-card", { hasText: expected }).count();
+    if (!found) throw new Error(`${name}: missing water dispenser brand ${expected}`);
+  }
+
+  const dishwasherTab = page.getByRole("button", { name: "洗碗機 20" });
+  await dishwasherTab.click();
+  await page.waitForFunction(() => document.querySelector("#visibleCount")?.textContent?.trim() === "20");
+  await loadAllVisibleProducts(page);
+  for (const expected of ["Panasonic", "TECO", "Toshiba", "Bosch", "Electrolux", "LG", "Miele"]) {
+    const found = await page.locator(".product-card", { hasText: expected }).count();
+    if (!found) throw new Error(`${name}: missing dishwasher brand ${expected}`);
+  }
+
+  const standingDeskTab = page.getByRole("button", { name: "升降桌 20" });
+  await standingDeskTab.click();
+  await page.waitForFunction(() => document.querySelector("#visibleCount")?.textContent?.trim() === "20");
+  await loadAllVisibleProducts(page);
+  for (const expected of ["Loctek", "iRocks", "NITORI", "COUGAR"]) {
+    const found = await page.locator(".product-card", { hasText: expected }).count();
+    if (!found) throw new Error(`${name}: missing standing desk brand ${expected}`);
+  }
+
+  const chairTab = page.getByRole("button", { name: "電腦椅 20" });
+  await chairTab.click();
+  await page.waitForFunction(() => document.querySelector("#visibleCount")?.textContent?.trim() === "20");
+  await loadAllVisibleProducts(page);
+  for (const expected of ["iRocks", "Ergohuman", "Razer", "Herman Miller", "Steelcase"]) {
+    const found = await page.locator(".product-card", { hasText: expected }).count();
+    if (!found) throw new Error(`${name}: missing chair brand ${expected}`);
+  }
+
+  const monitorTab = page.getByRole("button", { name: "電腦螢幕 51" });
+  await monitorTab.click();
+  await page.waitForFunction(() => document.querySelector("#visibleCount")?.textContent?.trim() === "51");
+  await loadAllVisibleProducts(page);
+  for (const expected of ["ASUS", "Acer", "BenQ", "LG", "Dell", "Samsung", "MSI", "GIGABYTE", "ViewSonic", "AOC", "Philips", "EIZO", "Xiaomi"]) {
+    const found = await page.locator(".product-card", { hasText: expected }).count();
+    if (!found) throw new Error(`${name}: missing monitor brand ${expected}`);
+  }
+  await page.fill("#searchInput", "OLED");
+  await page.waitForFunction(() => Number(document.querySelector("#visibleCount")?.textContent || 0) >= 8);
+  const oledVisible = Number((await visibleText(page, "#visibleCount")).trim());
+  if (oledVisible < 8) throw new Error(`${name}: OLED search returned ${oledVisible}`);
+
+  await page.fill("#searchInput", "寬螢幕");
+  await page.waitForFunction(() => Number(document.querySelector("#visibleCount")?.textContent || 0) >= 15);
+  const ultrawideVisible = Number((await visibleText(page, "#visibleCount")).trim());
+  if (ultrawideVisible < 15) throw new Error(`${name}: ultrawide search returned ${ultrawideVisible}`);
+
+  await page.fill("#searchInput", "");
+  const monitorArmTab = page.getByRole("button", { name: "懸臂支架 20" });
+  await monitorArmTab.click();
+  await page.waitForFunction(() => document.querySelector("#visibleCount")?.textContent?.trim() === "20");
+  await loadAllVisibleProducts(page);
+  for (const expected of ["Raymii", "Happy Tech", "Loctek", "Ergotron", "j5create"]) {
+    const found = await page.locator(".product-card", { hasText: expected }).count();
+    if (!found) throw new Error(`${name}: missing monitor arm brand ${expected}`);
+  }
+  await page.fill("#searchInput", "57吋");
+  await page.waitForFunction(() => Number(document.querySelector("#visibleCount")?.textContent || 0) >= 5);
+  const arm57Visible = Number((await visibleText(page, "#visibleCount")).trim());
+  if (arm57Visible < 5) throw new Error(`${name}: 57 inch arm search returned ${arm57Visible}`);
+  await page.fill("#searchInput", "30kg");
+  await page.waitForFunction(() => Number(document.querySelector("#visibleCount")?.textContent || 0) >= 1);
+  const arm30kgVisible = Number((await visibleText(page, "#visibleCount")).trim());
+  if (arm30kgVisible < 1) throw new Error(`${name}: 30kg arm search returned ${arm30kgVisible}`);
+
+  await page.fill("#searchInput", "");
+  await page.getByRole("button", { name: "電視 20" }).click();
+  await page.waitForFunction(() => document.querySelector("#visibleCount")?.textContent?.trim() === "20");
+  await loadAllVisibleProducts(page);
+  const tvCastingMissing = await page.$$eval(".product-card", (cards) => cards.filter((card) => !card.textContent.includes("手機投影：")).length);
+  if (tvCastingMissing) throw new Error(`${name}: ${tvCastingMissing} TV cards missing mobile casting spec`);
+  await page.fill("#searchInput", "Chromecast");
+  await page.waitForFunction(() => Number(document.querySelector("#visibleCount")?.textContent || 0) >= 10);
+
+  await page.fill("#searchInput", "");
+  await monitorTab.click();
+  await page.waitForFunction(() => document.querySelector("#visibleCount")?.textContent?.trim() === "51");
+  await loadAllVisibleProducts(page);
+  const monitorWeightMissing = await page.$$eval(".product-card", (cards) => cards.filter((card) => !card.textContent.includes("重量：")).length);
+  if (monitorWeightMissing) throw new Error(`${name}: ${monitorWeightMissing} monitor cards missing weight spec`);
+  await page.fill("#searchInput", "3.93 kg");
+  await page.waitForFunction(() => Number(document.querySelector("#visibleCount")?.textContent || 0) >= 1);
+
+  await page.fill("#searchInput", "");
+  await standingDeskTab.click();
+  await page.waitForFunction(() => document.querySelector("#visibleCount")?.textContent?.trim() === "20");
+  await loadAllVisibleProducts(page);
+  const deskThicknessMissing = await page.$$eval(".product-card", (cards) => cards.filter((card) => !card.textContent.includes("桌板厚度：")).length);
+  if (deskThicknessMissing) throw new Error(`${name}: ${deskThicknessMissing} standing desk cards missing desktop thickness spec`);
+  await page.fill("#searchInput", "2.5cm");
+  await page.waitForFunction(() => Number(document.querySelector("#visibleCount")?.textContent || 0) >= 3);
+
+  await page.fill("#searchInput", "");
+  await robotTab.click();
+  await page.waitForFunction(() => document.querySelector("#visibleCount")?.textContent?.trim() === "28");
+  await loadAllVisibleProducts(page);
+  await page.fill("#searchInput", "Saros");
+  await page.waitForFunction(() => Number(document.querySelector("#visibleCount")?.textContent || 0) >= 3);
+  const sarosVisible = Number((await visibleText(page, "#visibleCount")).trim());
+  if (sarosVisible < 3) throw new Error(`${name}: Saros search returned ${sarosVisible}`);
+
+  await page.locator(".compare-button").first().click();
+  await page.waitForFunction(() => document.querySelector("#compareCount")?.textContent?.trim() === "1");
+  const compareRows = await page.locator("#compareTable table tr").count();
+  if (compareRows < 3) throw new Error(`${name}: compare table did not render`);
+  const releaseCompareRows = await page.locator("#compareTable tr", { hasText: "上市/發售" }).count();
+  if (releaseCompareRows !== 1) throw new Error(`${name}: compare table missing release date row`);
+
+  await page.getByRole("button", { name: "重設篩選" }).click();
+  await page.waitForFunction(() => document.querySelector("#visibleCount")?.textContent?.trim() === "590");
+  await waitForProductCards(page, 12);
+  await page.locator("#topPicks [data-focus-product]").nth(14).click();
+  await page.waitForFunction(() => document.querySelectorAll(".product-card").length >= 15);
+  await page.waitForFunction(() => document.querySelector(".product-card.is-targeted"));
+  const targetedCardVisible = await page.locator(".product-card.is-targeted").isVisible();
+  if (!targetedCardVisible) throw new Error(`${name}: top pick target card is not visible`);
+
+  const overflow = await page.evaluate(() => {
+    const root = document.documentElement;
+    return root.scrollWidth - window.innerWidth;
+  });
+  if (overflow > 2) throw new Error(`${name}: horizontal overflow ${overflow}px`);
+
+  if (viewport.width < 700) {
+    await page.evaluate(() => window.scrollTo(0, 520));
+    await page.waitForFunction(() => document.body.classList.contains("show-mobile-dock"));
+  }
+  await page.getByLabel("滑動到最下面").click();
+  await page.waitForFunction(() => window.scrollY > 200);
+  await page.getByLabel("滑動到最上面").click();
+  await page.waitForFunction(() => window.scrollY < 20);
+
+  if (viewport.width < 700) {
+    await page.fill("#searchInput", "");
+    const filterToggle = page.getByRole("button", { name: /^篩選/ });
+    if (await filterToggle.getAttribute("aria-expanded") === "true") {
+      await filterToggle.click();
+      await page.waitForFunction(() => document.querySelector("#advancedFilters")?.hidden);
+    }
+    await filterToggle.click();
+    const expanded = await filterToggle.getAttribute("aria-expanded");
+    if (expanded !== "true") throw new Error(`${name}: mobile filter did not expand`);
+    const panelVisible = await page.locator("#advancedFilters").isVisible();
+    if (!panelVisible) throw new Error(`${name}: mobile filter panel hidden after expand`);
+    await filterToggle.click();
+    const collapsed = await filterToggle.getAttribute("aria-expanded");
+    if (collapsed !== "false") throw new Error(`${name}: mobile filter did not collapse`);
+  }
+
+  await page.screenshot({ path: path.resolve(screenshotDir, `${name}.png`), fullPage: false });
+  await page.close();
+}
+
+(async () => {
+  const browser = await chromium.launch({ headless: true });
+  try {
+    await runViewport(browser, "dashboard-desktop", { width: 1440, height: 1100 });
+    await runViewport(browser, "dashboard-mobile", { width: 390, height: 844 });
+  } finally {
+    await browser.close();
+  }
+  console.log("dashboard verification passed");
+})();

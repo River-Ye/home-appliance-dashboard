@@ -1,0 +1,15 @@
+{
+  "name": "home-appliance-dashboard",
+  "version": "1.0.0",
+  "private": true,
+  "description": "純前端 GitHub Pages 家電推薦比較工作台",
+  "scripts": {
+    "check": "npm run check:syntax && npm run check:data && npm run check:ui",
+    "check:syntax": "node tools/check-syntax.js",
+    "check:data": "node tools/verify-data.js",
+    "check:ui": "node tools/verify-dashboard.js"
+  },
+  "devDependencies": {
+    "playwright": "^1.61.1"
+  }
+}
