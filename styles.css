@@ -466,6 +466,15 @@ a:focus-visible {
   padding: 12px;
   min-height: 128px;
   scroll-snap-align: start;
+  cursor: pointer;
+  transition: border-color 160ms ease, box-shadow 160ms ease, transform 160ms ease;
+}
+
+.pick-card:hover,
+.pick-card:focus-visible {
+  border-color: rgba(37, 95, 133, 0.55);
+  box-shadow: 0 18px 45px rgba(18, 59, 90, 0.16);
+  transform: translateY(-1px);
 }
 
 .pick-card img {
@@ -538,6 +547,13 @@ a:focus-visible {
   flex-direction: column;
   min-height: 100%;
   overflow: hidden;
+  scroll-margin-top: 96px;
+}
+
+.product-card.is-targeted {
+  animation: target-shake 720ms ease both;
+  border-color: var(--teal);
+  box-shadow: 0 0 0 3px rgba(15, 118, 110, 0.2), var(--shadow);
 }
 
 .image-wrap {
@@ -843,6 +859,24 @@ footer {
   display: none;
 }
 
+@keyframes target-shake {
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+
+  15%,
+  45%,
+  75% {
+    transform: translateX(-7px);
+  }
+
+  30%,
+  60% {
+    transform: translateX(7px);
+  }
+}
+
 .page-jump {
   position: fixed;
   right: max(14px, calc((100vw - 1480px) / 2 + 14px));
@@ -896,6 +930,7 @@ footer {
   }
 
   .tab-button,
+  .pick-card,
   .ghost-button,
   .buy-link,
   .compare-button,
@@ -904,6 +939,10 @@ footer {
   .page-jump,
   .page-jump-button {
     transition: none;
+  }
+
+  .product-card.is-targeted {
+    animation: none;
   }
 }
 

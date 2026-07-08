@@ -556,7 +556,13 @@ function renderTopPicks(visible) {
     return;
   }
   container.innerHTML = picks.map((product) => `
-    <article class="pick-card">
+    <article
+      class="pick-card"
+      role="button"
+      tabindex="0"
+      data-focus-product="${product.id}"
+      aria-label="查看 ${escapeHtml(product.brand)} ${escapeHtml(product.model)} 商品卡"
+    >
       ${imageMarkup(product)}
       <div>
         <p class="eyebrow">${categoryById.get(product.category).label} 綜合推薦</p>
@@ -593,7 +599,7 @@ function cardMarkup(product) {
     ? "台灣通路售價"
     : `${product.price.confidence}，匯率 ${product.price.currency} 轉 TWD；未含國際運費/進口稅`;
   return `
-    <article class="product-card">
+    <article class="product-card" data-product-id="${product.id}">
       <div class="image-wrap">
         <div class="badge-row">
           <span class="badge ${product.budget}">${budgetLabel(product.budget)}</span>
@@ -806,6 +812,30 @@ function scrollToPageBottom() {
   window.scrollTo({ top: target, behavior: "smooth" });
 }
 
+function highlightProductCard(productId) {
+  const card = document.querySelector(`[data-product-id="${productId}"]`);
+  if (!card) return;
+  card.classList.remove("is-targeted");
+  card.scrollIntoView({ behavior: "smooth", block: "center" });
+  window.setTimeout(() => {
+    card.classList.add("is-targeted");
+  }, 220);
+  window.setTimeout(() => {
+    card.classList.remove("is-targeted");
+  }, 1500);
+}
+
+function focusProductFromTopPick(productId) {
+  const visible = filteredProducts();
+  const index = visible.findIndex((product) => product.id === productId);
+  if (index < 0) return;
+  if (index >= state.renderLimit) {
+    state.renderLimit = index + 1;
+    render();
+  }
+  window.requestAnimationFrame(() => highlightProductCard(productId));
+}
+
 document.addEventListener("DOMContentLoaded", () => {
   initializeFilterCombos();
   initializeLazyLoading();
@@ -831,6 +861,18 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   });
   window.addEventListener("resize", updateFilterDisclosure);
+  document.getElementById("topPicks").addEventListener("click", (event) => {
+    const pick = event.target.closest("[data-focus-product]");
+    if (!pick) return;
+    focusProductFromTopPick(pick.dataset.focusProduct);
+  });
+  document.getElementById("topPicks").addEventListener("keydown", (event) => {
+    if (event.key !== "Enter" && event.key !== " ") return;
+    const pick = event.target.closest("[data-focus-product]");
+    if (!pick) return;
+    event.preventDefault();
+    focusProductFromTopPick(pick.dataset.focusProduct);
+  });
   document.getElementById("categoryTabs").addEventListener("click", (event) => {
     const button = event.target.closest("[data-category]");
     if (!button) return;

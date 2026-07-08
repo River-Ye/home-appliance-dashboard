@@ -28,7 +28,8 @@
       "65 吋 OLED evo",
       "4K 120Hz",
       "webOS",
-      "HDMI 2.1 / VRR"
+      "HDMI 2.1 / VRR",
+      "手機投影：AirPlay / Chromecast"
     ],
     "description": "OLED 黑位、遊戲規格與串流支援都完整，是客廳主電視的穩健高階選擇。",
     "pros": [
@@ -72,7 +73,8 @@
       "65 吋 OLED",
       "4K 144Hz",
       "Tizen",
-      "四組 HDMI 2.1"
+      "四組 HDMI 2.1",
+      "手機投影：AirPlay / SmartThings/Tap View"
     ],
     "description": "以同級 OLED 來看售價很有攻擊性，遊戲與亮度表現強，但不支援 Dolby Vision。",
     "pros": [
@@ -116,7 +118,8 @@
       "65 吋 Mini LED",
       "XR 處理器",
       "Google TV",
-      "含 2.1 聲霸組合"
+      "含 2.1 聲霸組合",
+      "手機投影：AirPlay / Chromecast"
     ],
     "description": "Sony 影像處理與動態補償穩定，這筆採 PChome 同型號搭 2.1 聲霸的組合低價。",
     "pros": [
@@ -160,7 +163,8 @@
       "65 吋 Mini LED",
       "4K 144Hz",
       "Google TV",
-      "雙杜比"
+      "雙杜比",
+      "手機投影：AirPlay"
     ],
     "description": "Mini LED、144Hz 與 Google TV 以三萬出頭入手，CP 值很突出。",
     "pros": [
@@ -204,7 +208,8 @@
       "65 吋 QLED",
       "4K 120Hz DLG",
       "Google TV",
-      "護眼模式"
+      "護眼模式",
+      "手機投影：AirPlay / Chromecast"
     ],
     "description": "台灣品牌、價格好入手，適合非發燒級的家庭客廳或主臥。",
     "pros": [
@@ -248,7 +253,8 @@
       "65 吋 OLED",
       "4K HDR Google TV",
       "XR 影像處理",
-      "高階 OLED"
+      "高階 OLED",
+      "手機投影：AirPlay / Chromecast"
     ],
     "description": "Sony Y-65XR80 是電視類的補充比較型號，依 2026-07-08 通路頁面整理售價、圖片與核心規格。",
     "pros": [
@@ -292,7 +298,8 @@
       "65 吋 OLED evo",
       "4K 120Hz",
       "零間隙藝廊設計",
-      "AI 物聯網智慧顯示器"
+      "AI 物聯網智慧顯示器",
+      "手機投影：AirPlay / Chromecast"
     ],
     "description": "LG OLED65G5PTA 是電視類的補充比較型號，依 2026-07-08 通路頁面整理售價、圖片與核心規格。",
     "pros": [
@@ -336,7 +343,8 @@
       "65 吋 OLED",
       "智慧聯網",
       "4K",
-      "日本品牌調校"
+      "日本品牌調校",
+      "手機投影：AirPlay / Chromecast"
     ],
     "description": "Panasonic TV-65Z90BGT 是電視類的補充比較型號，依 2026-07-08 通路頁面整理售價、圖片與核心規格。",
     "pros": [
@@ -380,7 +388,8 @@
       "65 吋 OLED",
       "4K 144Hz",
       "VRR",
-      "Google TV"
+      "Google TV",
+      "手機投影：AirPlay / Chromecast"
     ],
     "description": "Philips 65OLED809 是電視類的補充比較型號，依 2026-07-08 通路頁面整理售價、圖片與核心規格。",
     "pros": [
@@ -424,7 +433,8 @@
       "65 吋 OLED",
       "Vision AI",
       "4K",
-      "高階 S95F 系列"
+      "高階 S95F 系列",
+      "手機投影：AirPlay / SmartThings/Tap View"
     ],
     "description": "Samsung QA65S95FAXXZW 是電視類的補充比較型號，依 2026-07-08 通路頁面整理售價、圖片與核心規格。",
     "pros": [
@@ -468,7 +478,8 @@
       "65 吋 Mini LED",
       "4K",
       "Google TV",
-      "量子點背光"
+      "量子點背光",
+      "手機投影：AirPlay / Chromecast"
     ],
     "description": "TCL 65C8L 是電視類的補充比較型號，依 2026-07-08 通路頁面整理售價、圖片與核心規格。",
     "pros": [
@@ -512,7 +523,8 @@
       "65 吋 QD-Mini LED",
       "4K",
       "Google TV",
-      "中階價格帶"
+      "中階價格帶",
+      "手機投影：AirPlay / Chromecast"
     ],
     "description": "TCL 65A400M 是電視類的補充比較型號，依 2026-07-08 通路頁面整理售價、圖片與核心規格。",
     "pros": [
@@ -556,7 +568,8 @@
       "65 吋 Mini LED",
       "4K 144Hz",
       "Google TV",
-      "智慧聯網"
+      "智慧聯網",
+      "手機投影：AirPlay / Chromecast / Miracast"
     ],
     "description": "Xiaomi S Pro Mini 65 2026 是電視類的補充比較型號，依 2026-07-08 通路頁面整理售價、圖片與核心規格。",
     "pros": [
@@ -600,7 +613,8 @@
       "65 吋 8K Neo QLED",
       "Mini LED",
       "165Hz",
-      "AI 智慧顯示器"
+      "AI 智慧顯示器",
+      "手機投影：AirPlay / SmartThings/Tap View"
     ],
     "description": "Samsung QA65QN900FXXZW 是電視類的補充比較型號，依 2026-07-08 通路頁面整理售價、圖片與核心規格。",
     "pros": [
@@ -644,7 +658,8 @@
       "65 吋 Mini LED",
       "4K 144Hz",
       "Google TV",
-      "內建重低音"
+      "內建重低音",
+      "手機投影：AirPlay / Chromecast / Miracast"
     ],
     "description": "BenQ J65-770 是電視類的補充比較型號，依 2026-07-08 通路頁面整理售價、圖片與核心規格。",
     "pros": [
@@ -688,7 +703,8 @@
       "65 吋",
       "4K",
       "QLED",
-      "Google TV"
+      "Google TV",
+      "手機投影：AirPlay / Chromecast"
     ],
     "description": "AOC 65U8040 補進本分類比較池，重點是65 吋、4K、QLED，適合和同類 Top Pick 依預算、售後與規格一起比較。",
     "pros": [
@@ -732,7 +748,8 @@
       "65 吋",
       "4K",
       "QLED",
-      "Google TV"
+      "Google TV",
+      "手機投影：AirPlay / Chromecast"
     ],
     "description": "Toshiba 65M450NT 補進本分類比較池，重點是65 吋、4K、QLED，適合和同類 Top Pick 依預算、售後與規格一起比較。",
     "pros": [
@@ -776,7 +793,8 @@
       "65 吋",
       "4K",
       "QLED",
-      "120Hz"
+      "120Hz",
+      "手機投影：AirPlay / Chromecast"
     ],
     "description": "CHiQ CQ-65QX250 補進本分類比較池，重點是65 吋、4K、QLED，適合和同類 Top Pick 依預算、售後與規格一起比較。",
     "pros": [
@@ -820,7 +838,8 @@
       "65 吋",
       "4K",
       "QLED",
-      "Google TV"
+      "Google TV",
+      "手機投影：AirPlay / Chromecast"
     ],
     "description": "TECO TL65QU1TRE 補進本分類比較池，重點是65 吋、4K、QLED，適合和同類 Top Pick 依預算、售後與規格一起比較。",
     "pros": [
@@ -864,7 +883,8 @@
       "65 吋",
       "QLED",
       "Google TV",
-      "量子點"
+      "量子點",
+      "手機投影：AirPlay / Chromecast"
     ],
     "description": "SAMPO QM-65SF620 補進本分類比較池，重點是65 吋、QLED、Google TV，適合和同類 Top Pick 依預算、售後與規格一起比較。",
     "pros": [
@@ -886,5 +906,5 @@
       "台灣通路"
     ]
   }
-]);
+  ]);
 })();
