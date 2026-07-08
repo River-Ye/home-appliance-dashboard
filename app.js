@@ -109,13 +109,42 @@ function productText(product) {
   ].join(" ").toLowerCase();
 }
 
+function defaultSortCompare(a, b) {
+  const catDiff = categories.findIndex((c) => c.id === a.category) - categories.findIndex((c) => c.id === b.category);
+  return catDiff || a.rank - b.rank;
+}
+
+function releaseDateSortValue(product) {
+  const value = String(product.releaseDate || "").trim();
+  if (!value || value === "找不到") return null;
+
+  const match = value.match(/^(20\d{2})(?:[-/.](\d{1,2})(?:[-/.](\d{1,2}))?)?/);
+  if (!match) return null;
+
+  const [, year, month = "1", day = "1"] = match;
+  return Number(`${year}${month.padStart(2, "0")}${day.padStart(2, "0")}`);
+}
+
+function compareReleaseDate(a, b, direction) {
+  const aDate = releaseDateSortValue(a);
+  const bDate = releaseDateSortValue(b);
+
+  if (aDate === null && bDate === null) return defaultSortCompare(a, b);
+  if (aDate === null) return 1;
+  if (bDate === null) return -1;
+  const diff = direction === "asc" ? aDate - bDate : bDate - aDate;
+  return diff || defaultSortCompare(a, b);
+}
+
 function sortedProducts(list) {
   return [...list].sort((a, b) => {
-    if (state.sort === "priceAsc") return a.price.converted - b.price.converted;
-    if (state.sort === "priceDesc") return b.price.converted - a.price.converted;
-    if (state.sort === "scoreDesc") return b.score - a.score;
-    const catDiff = categories.findIndex((c) => c.id === a.category) - categories.findIndex((c) => c.id === b.category);
-    return catDiff || a.rank - b.rank;
+    if (state.sort === "priceAsc") return (a.price.converted - b.price.converted) || defaultSortCompare(a, b);
+    if (state.sort === "priceDesc") return (b.price.converted - a.price.converted) || defaultSortCompare(a, b);
+    if (state.sort === "scoreAsc") return (a.score - b.score) || defaultSortCompare(a, b);
+    if (state.sort === "scoreDesc") return (b.score - a.score) || defaultSortCompare(a, b);
+    if (state.sort === "releaseDateAsc") return compareReleaseDate(a, b, "asc");
+    if (state.sort === "releaseDateDesc") return compareReleaseDate(a, b, "desc");
+    return defaultSortCompare(a, b);
   });
 }
 
@@ -241,7 +270,10 @@ function filterOptions(name) {
     { value: "rank", label: "推薦排序", keywords: "rank 推薦 綜合" },
     { value: "priceAsc", label: "價格低到高", keywords: "price asc 低價 便宜" },
     { value: "priceDesc", label: "價格高到低", keywords: "price desc 高價" },
-    { value: "scoreDesc", label: "評估分數", keywords: "score 分數 評估" },
+    { value: "scoreDesc", label: "分數高到低", keywords: "score desc 分數 評估 高分" },
+    { value: "scoreAsc", label: "分數低到高", keywords: "score asc 分數 評估 低分" },
+    { value: "releaseDateDesc", label: "上市 / 發售日期新到舊", keywords: "release date desc 上市 發售 日期 新" },
+    { value: "releaseDateAsc", label: "上市 / 發售日期舊到新", keywords: "release date asc 上市 發售 日期 舊" },
   ];
 }
 
