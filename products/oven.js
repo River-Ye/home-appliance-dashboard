@@ -905,6 +905,51 @@
       "家電櫃"
     ],
     "releaseDate": "找不到"
+  },
+  {
+    "id": "oven-costco-bruno-bxm301",
+    "category": "oven",
+    "rank": 21,
+    "budget": "value",
+    "channel": "tw",
+    "brand": "BRUNO",
+    "model": "BXM301-IV-KE",
+    "name": "多功能氣炸烤箱",
+    "price": {
+      "currency": "TWD",
+      "amount": 2999,
+      "converted": 2999,
+      "confidence": "Costco 好市多 2026-07-09 查核價"
+    },
+    "image": "https://www.costco.com.tw/medias/sys_master/images/h2e/h1d/382254138261534.webp",
+    "buyUrl": "https://www.costco.com.tw/p/153079",
+    "buyLabel": "Costco 好市多",
+    "specs": [
+      "多功能氣炸烤箱",
+      "烘烤/氣炸",
+      "家電櫃友善小型機",
+      "Costco 評價 4.7 / 21 則"
+    ],
+    "description": "BRUNO BXM301 是 Costco 可買的多功能氣炸烤箱，適合家電櫃空間有限、想取代單一氣炸鍋的人。",
+    "pros": [
+      "價格低、體積較好安排",
+      "Costco 評價 4.7"
+    ],
+    "cons": [
+      "容量與火力不如大型蒸烤爐",
+      "不含微波功能"
+    ],
+    "bestFor": "小家庭、租屋族或想用一台小烤箱兼顧氣炸與烘烤的人。",
+    "recommendation": "好市多補充推薦：BXM301 可作為 Costco 多功能小烤箱代表，補足大型水波爐之外的低價選項。",
+    "score": 84,
+    "voltage": "110V 台灣通路",
+    "warranty": "依 Costco 好市多商品頁、品牌保固與退貨政策",
+    "tags": [
+      "Costco",
+      "氣炸烤箱",
+      "小型"
+    ],
+    "releaseDate": "找不到"
   }
 ]);
 })();

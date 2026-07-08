@@ -1024,6 +1024,52 @@
       ],
       "category": "refrigerator",
       "releaseDate": "找不到"
-    }
+    },
+  {
+    "id": "refrigerator-costco-sharp-sj-h25y-wh",
+    "category": "refrigerator",
+    "rank": 21,
+    "budget": "value",
+    "channel": "tw",
+    "brand": "SHARP",
+    "model": "SJ-H25Y-WH",
+    "name": "253公升 變頻雙門冰箱",
+    "price": {
+      "currency": "TWD",
+      "amount": 13999,
+      "converted": 13999,
+      "confidence": "Costco 好市多 2026-07-09 查核價"
+    },
+    "image": "https://www.costco.com.tw/medias/sys_master/images/h98/h78/115073137999902.webp",
+    "buyUrl": "https://www.costco.com.tw/Televisions-Appliances/Large-Appliances/Fridges-Freezers/SHARP-253-L-Top-Mount-Inverter-Fridge-SJ-H25Y-WH/p/137098",
+    "buyLabel": "Costco 好市多",
+    "specs": [
+      "253 公升",
+      "雙門上冷凍",
+      "變頻",
+      "節能補助/減稅標示",
+      "Costco 評價 4.7 / 411 則"
+    ],
+    "description": "Sharp 253L 變頻雙門冰箱在 Costco 評價量非常高，適合小家庭或第二台冰箱。",
+    "pros": [
+      "411 則評論、4.7 分，評價基礎厚",
+      "容量與價格適合小家庭"
+    ],
+    "cons": [
+      "容量不適合大量囤貨家庭",
+      "大型家電仍需確認門寬、搬運與舊機回收"
+    ],
+    "bestFor": "小家庭、租屋族或需要中小容量雙門冰箱的人。",
+    "recommendation": "好市多補充推薦：SJ-H25Y-WH 評論數非常高，是 Costco 冰箱清單中的低門檻代表。",
+    "score": 87,
+    "voltage": "110V 台灣通路；需確認搬運動線、門寬與舊機回收",
+    "warranty": "依 Costco 好市多商品頁、品牌保固與退貨政策",
+    "tags": [
+      "Costco",
+      "253L",
+      "變頻"
+    ],
+    "releaseDate": "找不到"
+  }
   ]);
 })();

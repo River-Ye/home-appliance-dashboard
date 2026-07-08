@@ -1044,6 +1044,51 @@
       ],
       "category": "washerdryer",
       "releaseDate": "找不到"
-    }
+    },
+  {
+    "id": "washerdryer-costco-electrolux-eww1243r7wc",
+    "category": "washerdryer",
+    "rank": 21,
+    "budget": "mid",
+    "channel": "tw",
+    "brand": "Electrolux",
+    "model": "EWW1243R7WC",
+    "name": "12公斤/9公斤 UltimateCare 700 洗脫烘衣機",
+    "price": {
+      "currency": "TWD",
+      "amount": 31999,
+      "converted": 31999,
+      "confidence": "Costco 好市多 2026-07-09 查核價"
+    },
+    "image": "https://www.costco.com.tw/medias/sys_master/images/h97/h12/346620871114782.webp",
+    "buyUrl": "https://www.costco.com.tw/Large-Appliances/p/152411",
+    "buyLabel": "Costco 好市多",
+    "specs": [
+      "洗衣 12 公斤 / 乾衣 9 公斤",
+      "滾筒洗脫烘",
+      "UltimateCare 700",
+      "Costco 評價 4.4 / 47 則"
+    ],
+    "description": "EWW1243R7WC 以 12/9 公斤容量提供洗脫烘整合，適合空間有限但需要乾衣功能的家庭。",
+    "pros": [
+      "洗/乾容量標示清楚",
+      "Costco 評論數具參考性"
+    ],
+    "cons": [
+      "乾衣容量小於洗衣容量",
+      "全程洗烘時間較長、維修成本需考量"
+    ],
+    "bestFor": "陽台空間有限、想用一台機器完成洗烘的家庭。",
+    "recommendation": "好市多補充推薦：EWW1243R7WC 是 Costco 上評價穩定的洗脫烘候選，可對照 LG、Samsung、Panasonic 同級機。",
+    "score": 85,
+    "voltage": "110V 台灣通路；需確認進排水、插座、門向與地面水平",
+    "warranty": "依 Costco 好市多商品頁、品牌保固與退貨政策",
+    "tags": [
+      "Costco",
+      "洗脫烘",
+      "12/9公斤"
+    ],
+    "releaseDate": "找不到"
+  }
   ]);
 })();

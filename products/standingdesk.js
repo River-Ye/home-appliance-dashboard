@@ -940,6 +940,52 @@
       "記憶高度"
     ],
     "releaseDate": "找不到"
+  },
+  {
+    "id": "standingdesk-costco-loctek-et200",
+    "category": "standingdesk",
+    "rank": 21,
+    "budget": "mid",
+    "channel": "tw",
+    "brand": "Loctek",
+    "model": "ET200",
+    "name": "電動升降桌 白色",
+    "price": {
+      "currency": "TWD",
+      "amount": 8999,
+      "converted": 8999,
+      "confidence": "Costco 好市多 2026-07-09 查核價"
+    },
+    "image": "https://www.costco.com.tw/medias/sys_master/images/hb6/h84/261465665994782.webp",
+    "buyUrl": "https://www.costco.com.tw/p/141578",
+    "buyLabel": "Costco 好市多",
+    "specs": [
+      "桌面 120 x 60 公分",
+      "升降範圍 71-121 公分",
+      "承重 50 公斤",
+      "桌板厚度：6mm 加厚鋼化玻璃",
+      "Costco 評價 4.8 / 58 則"
+    ],
+    "description": "Loctek ET200 是 Costco 評價高的玻璃桌面電動升降桌，帶 USB/Type-C 與抽屜設計。",
+    "pros": [
+      "Costco 58 則評論、4.8 分",
+      "桌板厚度與承重資訊清楚"
+    ],
+    "cons": [
+      "玻璃桌面較重，搬運與組裝要留意",
+      "大型物件不含安裝/組裝服務"
+    ],
+    "bestFor": "想在 Costco 買一張完整桌面、不是單買桌腳的升降桌。",
+    "recommendation": "好市多補充推薦：ET200 規格資訊完整，6mm 玻璃桌板與 50kg 承重都適合納入比較。",
+    "score": 87,
+    "voltage": "110V 台灣通路；需確認擺放空間與插座位置",
+    "warranty": "依 Costco 好市多商品頁、品牌保固與退貨政策",
+    "tags": [
+      "Costco",
+      "電動升降",
+      "玻璃桌面"
+    ],
+    "releaseDate": "找不到"
   }
 ]);
 })();

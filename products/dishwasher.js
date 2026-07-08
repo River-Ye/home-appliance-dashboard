@@ -984,6 +984,51 @@
       "預算"
     ],
     "releaseDate": "找不到"
+  },
+  {
+    "id": "dishwasher-costco-bosch-sps2ikw00x",
+    "category": "dishwasher",
+    "rank": 21,
+    "budget": "mid",
+    "channel": "tw",
+    "brand": "BOSCH",
+    "model": "SPS2IKW00X",
+    "name": "45公分 獨立式洗碗機",
+    "price": {
+      "currency": "TWD",
+      "amount": 25599,
+      "converted": 25599,
+      "confidence": "Costco 好市多 2026-07-09 查核價"
+    },
+    "image": "https://www.costco.com.tw/medias/sys_master/images/h26/h97/70293698248734.webp",
+    "buyUrl": "https://www.costco.com.tw/p/131781",
+    "buyLabel": "Costco 好市多",
+    "specs": [
+      "45 公分獨立式",
+      "窄版洗碗機",
+      "需進排水與插座",
+      "Costco 評價 4.7 / 154 則"
+    ],
+    "description": "Bosch SPS2IKW00X 是 Costco 評論數多的 45 公分獨立式洗碗機，適合廚房寬度有限但想上歐系洗碗機的人。",
+    "pros": [
+      "45 公分窄版較好塞進小廚房",
+      "Costco 154 則評論、4.7 分"
+    ],
+    "cons": [
+      "容量小於 60 公分機",
+      "需確認進排水、插座與檯面/門片動線"
+    ],
+    "bestFor": "小家庭、廚房寬度有限且想買 Bosch 獨立式洗碗機的人。",
+    "recommendation": "好市多補充推薦：SPS2IKW00X 是 Costco 評價穩定的窄版洗碗機，安裝門檻低於嵌入式。",
+    "score": 87,
+    "voltage": "台灣通路；需確認插座、進排水與安裝位置",
+    "warranty": "依 Costco 好市多商品頁、品牌保固與退貨政策",
+    "tags": [
+      "Costco",
+      "45公分",
+      "獨立式"
+    ],
+    "releaseDate": "找不到"
   }
   ]);
 })();

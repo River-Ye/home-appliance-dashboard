@@ -995,6 +995,51 @@
       ],
       "category": "dryer",
       "releaseDate": "找不到"
-    }
+    },
+  {
+    "id": "dryer-costco-samsung-dvg16cg8600wtw",
+    "category": "dryer",
+    "rank": 21,
+    "budget": "premium",
+    "channel": "tw",
+    "brand": "Samsung",
+    "model": "DVG16CG8600WTW",
+    "name": "16公斤 蒸本事瓦斯型乾衣機",
+    "price": {
+      "currency": "TWD",
+      "amount": 33999,
+      "converted": 33999,
+      "confidence": "Costco 好市多 2026-07-09 查核價"
+    },
+    "image": "https://www.costco.com.tw/medias/sys_master/images/heb/h9e/208447532072990.webp",
+    "buyUrl": "https://www.costco.com.tw/Large-Appliances/p/144425",
+    "buyLabel": "Costco 好市多",
+    "specs": [
+      "16 公斤乾衣容量",
+      "瓦斯型",
+      "蒸氣功能",
+      "Costco 評價 4.4 / 14 則"
+    ],
+    "description": "Samsung 16 公斤瓦斯乾衣機適合大量衣物與重視乾衣速度的家庭，但安裝條件需先確認。",
+    "pros": [
+      "16 公斤大容量",
+      "瓦斯型乾衣速度通常較快"
+    ],
+    "cons": [
+      "需瓦斯管線與排風條件",
+      "安裝與疊放條件需先確認"
+    ],
+    "bestFor": "有瓦斯與排風條件、衣物量大的家庭。",
+    "recommendation": "好市多補充推薦：DVG16CG8600WTW 是 Costco 可買的大容量瓦斯乾衣候選，評價 4.4 分。",
+    "score": 84,
+    "voltage": "台灣通路；瓦斯型需確認瓦斯、排風、插座與安裝空間",
+    "warranty": "依 Costco 好市多商品頁、品牌保固與退貨政策",
+    "tags": [
+      "Costco",
+      "瓦斯",
+      "16公斤"
+    ],
+    "releaseDate": "找不到"
+  }
   ]);
 })();

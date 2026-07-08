@@ -905,6 +905,51 @@
       "旗艦"
     ],
     "releaseDate": "2022"
+  },
+  {
+    "id": "soundbar-costco-denon-dht-s517",
+    "category": "soundbar",
+    "rank": 21,
+    "budget": "mid",
+    "channel": "tw",
+    "brand": "Denon",
+    "model": "DHT-S517",
+    "name": "3.1.2 聲道 Dolby Atmos Soundbar 重低音組合",
+    "price": {
+      "currency": "TWD",
+      "amount": 14999,
+      "converted": 14999,
+      "confidence": "Costco 好市多 2026-07-09 查核價"
+    },
+    "image": "https://www.costco.com.tw/medias/sys_master/images/h6e/ha2/204392565112862.webp",
+    "buyUrl": "https://www.costco.com.tw/p/144030",
+    "buyLabel": "Costco 好市多",
+    "specs": [
+      "3.1.2 聲道",
+      "Dolby Atmos",
+      "無線重低音",
+      "Costco 評價 4.6 / 52 則"
+    ],
+    "description": "Denon DHT-S517 是 Costco 評價穩定的 Atmos 聲霸，保留獨立重低音又不需要後環繞喇叭。",
+    "pros": [
+      "Atmos 與重低音配置完整",
+      "Costco 評價 4.6 且評論數足夠"
+    ],
+    "cons": [
+      "不是完整後環繞系統",
+      "低頻與擺位仍需依客廳調整"
+    ],
+    "bestFor": "想用 Costco 通路升級電視音效、但不想擺後喇叭的人。",
+    "recommendation": "好市多補充推薦：DHT-S517 比入門聲霸更有沉浸感，價格也比旗艦套組低很多。",
+    "score": 86,
+    "voltage": "110V 台灣通路",
+    "warranty": "依 Costco 好市多商品頁、品牌保固與退貨政策",
+    "tags": [
+      "Costco",
+      "Atmos",
+      "重低音"
+    ],
+    "releaseDate": "找不到"
   }
 ]);
 })();

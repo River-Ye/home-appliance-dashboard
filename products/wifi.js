@@ -2084,6 +2084,52 @@
       "Mercusys"
     ],
     "releaseDate": "找不到"
+  },
+  {
+    "id": "wifi-costco-tplink-deco-x55",
+    "category": "wifi",
+    "rank": 46,
+    "budget": "value",
+    "channel": "tw",
+    "brand": "TP-Link",
+    "model": "Deco X55",
+    "name": "AX3000 Wi-Fi 6 雙頻 Mesh 路由器",
+    "price": {
+      "currency": "TWD",
+      "amount": 1999,
+      "converted": 1999,
+      "confidence": "Costco 好市多 2026-07-09 查核價"
+    },
+    "image": "https://www.costco.com.tw/medias/sys_master/images/h3e/h7d/98612380598302.webp",
+    "buyUrl": "https://www.costco.com.tw/Digital-Mobile/Laptops-Computers/Keyboards-Mice-Computer-Accessories/TP-Link-AX3000-Mesh-Wi-Fi-6-System-Deco-X55/p/134457",
+    "buyLabel": "Costco 好市多",
+    "specs": [
+      "Wi-Fi 6 / AX3000",
+      "Deco Mesh",
+      "雙頻",
+      "可做 Mesh 擴充節點",
+      "Costco 評價 4.7 / 107 則"
+    ],
+    "description": "Deco X55 是 Costco 評價穩定的 Wi-Fi 6 Mesh 路由器，適合買 2-3 台延伸全屋覆蓋。",
+    "pros": [
+      "Costco 107 則評論、4.7 分",
+      "Deco Mesh 生態成熟"
+    ],
+    "cons": [
+      "不是 Wi-Fi 7",
+      "實際速度受回程、牆面與擺位影響"
+    ],
+    "bestFor": "需要 2-3 台 Mesh 串接、重視設定簡單與價格的人。",
+    "recommendation": "好市多補充推薦：Deco X55 是 Costco Wi-Fi 類中評論量足的 Mesh 入門候選。",
+    "score": 85,
+    "voltage": "台灣通路；需確認電源變壓器與網路拓樸",
+    "warranty": "依 Costco 好市多商品頁、品牌保固與退貨政策",
+    "tags": [
+      "Costco",
+      "Wi-Fi 6",
+      "Mesh"
+    ],
+    "releaseDate": "找不到"
   }
   ]);
 })();

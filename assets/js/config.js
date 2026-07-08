@@ -57,7 +57,7 @@
     initialProductLimit: 12,
     loadMoreProductCount: 40,
     filterControlNames: ["category", "brand", "budget", "channel", "sort"],
-    cacheVersion: "20260708-refactor1",
+    cacheVersion: "20260709-costco1",
   };
 
   function registerProducts(categoryId, items) {
