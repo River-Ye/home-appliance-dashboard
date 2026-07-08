@@ -4,12 +4,12 @@
 
   const exchange = {
     source: "ExchangeRate-API",
-    date: "2026-07-07 00:02 UTC",
-    USD_TWD: 32.078972,
-    GBP_TWD: 42.888,
-    EUR_TWD: 36.678,
+    date: "2026-07-08 00:02 UTC",
+    USD_TWD: 32.127508,
+    GBP_TWD: 42.935,
+    EUR_TWD: 36.683,
     JPY_TWD: 0.198,
-    CNY_TWD: 4.716,
+    CNY_TWD: 4.723,
   };
 
   const categories = [

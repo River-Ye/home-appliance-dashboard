@@ -339,8 +339,8 @@
     "name": "AX3000 雙頻 Wi-Fi 6 Mesh 路由器",
     "price": {
       "currency": "TWD",
-      "amount": 6899,
-      "converted": 6899,
+      "amount": 6699,
+      "converted": 6699,
       "confidence": "可信通路查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAGCMA900FQ3JZ/000001_1681110575.png",
@@ -385,7 +385,7 @@
     "price": {
       "currency": "USD",
       "amount": 189,
-      "converted": 6063,
+      "converted": 6072,
       "confidence": "Ubiquiti 官方美國售價"
     },
     "image": "https://cdn.ecomm.ui.com/products/fa8dd4e4-36c8-4c79-a928-22c7bff2ce29/ab5bc8a4-6135-402e-a695-e3ea5e16d3e6.png",
@@ -432,7 +432,7 @@
     "price": {
       "currency": "USD",
       "amount": 159,
-      "converted": 5101,
+      "converted": 5108,
       "confidence": "Ubiquiti 官方美國售價"
     },
     "image": "https://cdn.ecomm.ui.com/products/8e88b222-7a55-4cf0-8677-ae9b6347fe84/e16aa122-b5e5-4ffb-9f1a-27ee14d9ab3d.png",
@@ -479,7 +479,7 @@
     "price": {
       "currency": "USD",
       "amount": 99,
-      "converted": 3176,
+      "converted": 3181,
       "confidence": "Ubiquiti 官方美國售價"
     },
     "image": "https://cdn.ecomm.ui.com/products/253cc208-4b09-4b2e-9d1a-7aa1e8f93507/49241c96-878f-4e40-8541-c2e89c1c5e6e.png",
@@ -714,7 +714,7 @@
     "price": {
       "currency": "USD",
       "amount": 129,
-      "converted": 4138,
+      "converted": 4144,
       "confidence": "Ubiquiti 官方美國售價"
     },
     "image": "https://cdn.ecomm.ui.com/products/6d5c6141-e2e9-416a-b789-53e59416bb1a/853bc73b-f65b-4e59-a171-75c9a4a4615e.png",
@@ -761,7 +761,7 @@
     "price": {
       "currency": "USD",
       "amount": 279,
-      "converted": 8950,
+      "converted": 8964,
       "confidence": "Ubiquiti 官方美國售價"
     },
     "image": "https://cdn.ecomm.ui.com/products/350070a0-ae43-431b-b052-8e849c3b0a75/bad94693-bc54-4ab4-b060-9b972401941c.png",
@@ -946,8 +946,8 @@
     "name": "BE11000 Mesh Wi-Fi 7 電競路由器",
     "price": {
       "currency": "TWD",
-      "amount": 5490,
-      "converted": 5490,
+      "amount": 5290,
+      "converted": 5290,
       "confidence": "可信通路查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAF02A900I473A/000001_1732699929.jpg",
@@ -1636,8 +1636,8 @@
     "name": "Wi-Fi 6E 三頻電競路由器",
     "price": {
       "currency": "TWD",
-      "amount": 7990,
-      "converted": 7990,
+      "amount": 7790,
+      "converted": 7790,
       "confidence": "可信通路查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAFKSA900HEQVN/000001_1713512948.jpg",
@@ -1820,8 +1820,8 @@
     "name": "Wi-Fi 6 雙 10GbE SD-WAN 路由器",
     "price": {
       "currency": "TWD",
-      "amount": 7990,
-      "converted": 7990,
+      "amount": 7790,
+      "converted": 7790,
       "confidence": "可信通路查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAG6JA900AUW3D/000001_1626400932.jpg",

@@ -111,7 +111,7 @@
       "brand": "Whirlpool",
       "model": "8TWGD5010PW",
       "name": "Whirlpool 8TWGD5010PW",
-      "image": "https://img.yec.tw/zp/MerchandiseImages/p0214264894319-item-d588xf4x1000x1000-m.jpg",
+      "image": "https://img.yec.tw/cl/api/res/1.2/iFm9i1b_52efUsXGHSir.Q--/YXBwaWQ9eXR3bWFsbDtoPTYwMDtxPTEwMDt3PTYwMA--/https://img.yec.tw/fy/dcbb/item/p0214264894319-item-d588xf4x1000x1000-m.jpg",
       "price": {
         "currency": "TWD",
         "amount": 23590,
@@ -161,7 +161,7 @@
       "brand": "Whirlpool",
       "model": "8TWGD5050PW",
       "name": "Whirlpool 8TWGD5050PW",
-      "image": "https://img.yec.tw/zp/MerchandiseImages/p0214264894336-item-8fcdxf4x1000x1000-m.jpg",
+      "image": "https://img.yec.tw/cl/api/res/1.2/dTQkRZMaDozHzQpNUgXVHg--/YXBwaWQ9eXR3bWFsbDtoPTYwMDtxPTEwMDt3PTYwMA--/https://img.yec.tw/fy/e17f/item/p0214264894336-item-8fcdxf4x1000x1000-m.jpg",
       "price": {
         "currency": "TWD",
         "amount": 24590,
@@ -211,7 +211,7 @@
       "brand": "Whirlpool",
       "model": "8TWGD8620HW",
       "name": "Whirlpool 8TWGD8620HW",
-      "image": "https://img.yec.tw/zp/MerchandiseImages/p0214264895249-item-61b0xf4x1000x1000-m.jpg",
+      "image": "https://img.yec.tw/cl/api/res/1.2/PzojK6OzaumcZWkHDQO.hg--/YXBwaWQ9eXR3bWFsbDtoPTYwMDtxPTEwMDt3PTYwMA--/https://img.yec.tw/fy/5c46/item/p0214264895249-item-61b0xf4x1000x1000-m.jpg",
       "price": {
         "currency": "TWD",
         "amount": 39900,
@@ -507,7 +507,7 @@
       "brand": "Whirlpool",
       "model": "8TWGD6622HW",
       "name": "Whirlpool 8TWGD6622HW",
-      "image": "https://img.yec.tw/zp/MerchandiseImages/p0214264895227-item-7edaxf4x1000x1000-m.jpg",
+      "image": "https://img.yec.tw/cl/api/res/1.2/X7GJL4yRaZyv2b4Q.mOxyQ--/YXBwaWQ9eXR3bWFsbDtoPTYwMDtxPTEwMDt3PTYwMA--/https://img.yec.tw/fy/5f70/item/p0214264895227-item-7edaxf4x1000x1000-m.jpg",
       "price": {
         "currency": "TWD",
         "amount": 41490,

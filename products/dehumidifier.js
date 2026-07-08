@@ -332,8 +332,8 @@
     "name": "8 公升清淨除濕機",
     "price": {
       "currency": "TWD",
-      "amount": 11030,
-      "converted": 11030,
+      "amount": 13290,
+      "converted": 13290,
       "confidence": "可信通路查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAU0FA900B1HPU/000001_1782813379.jpg",
@@ -692,8 +692,8 @@
     "name": "6公升節能除濕機",
     "price": {
       "currency": "TWD",
-      "amount": 3790,
-      "converted": 3790,
+      "amount": 4480,
+      "converted": 4480,
       "confidence": "可信通路查核價，擷取 2026-07-08"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ3SA900I7NSN/000001_1767929673.jpg",
@@ -737,8 +737,8 @@
     "name": "6公升高效除濕機",
     "price": {
       "currency": "TWD",
-      "amount": 4390,
-      "converted": 4390,
+      "amount": 5490,
+      "converted": 5490,
       "confidence": "可信通路查核價，擷取 2026-07-08"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ08A900IXL3K/000001_1753349026.jpg",

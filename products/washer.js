@@ -792,7 +792,7 @@
       "brand": "Whirlpool",
       "model": "WM10GN",
       "name": "Whirlpool WM10GN",
-      "image": "https://img.yec.tw/zp/MerchandiseImages/p0214264897808-item-b3bexf4x1000x1000-m.jpg",
+      "image": "https://img.yec.tw/cl/api/res/1.2/sE0R9nksglQbmhAnvyPpjA--/YXBwaWQ9eXR3bWFsbDtoPTYwMDtxPTEwMDt3PTYwMA--/https://img.yec.tw/fy/28ee/item/p0214264897808-item-b3bexf4x1000x1000-m.jpg",
       "price": {
         "currency": "TWD",
         "amount": 7290,

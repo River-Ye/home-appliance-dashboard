@@ -293,8 +293,8 @@
     "name": "Fujin 風靈網狀人體工學電競椅",
     "price": {
       "currency": "TWD",
-      "amount": 11691,
-      "converted": 11691,
+      "amount": 11091,
+      "converted": 11091,
       "confidence": "可信通路查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DCBT0KA900GSDTK/000001_1762771347.jpg",
@@ -569,8 +569,8 @@
     "name": "3D 透氣網布可調節人體工學電腦椅",
     "price": {
       "currency": "TWD",
-      "amount": 1880,
-      "converted": 1880,
+      "amount": 1699,
+      "converted": 1699,
       "confidence": "可信通路查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBJ4TA900HIGB4/000001_1777429228.jpg",

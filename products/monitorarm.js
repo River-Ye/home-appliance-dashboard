@@ -737,8 +737,8 @@
     "name": "45吋 20KG 氣壓式螢幕支架",
     "price": {
       "currency": "TWD",
-      "amount": 2999,
-      "converted": 2999,
+      "amount": 3490,
+      "converted": 3490,
       "confidence": "可信通路查核價，擷取 2026-07-08"
     },
     "image": "https://cs-a.ecimg.tw/items/DCAGU1A900I6WCY/000001_1754374453.jpg",

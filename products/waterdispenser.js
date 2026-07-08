@@ -578,8 +578,8 @@
     "image": "https://cs-a.ecimg.tw/items/DMAWEMA900GDIXH/000001_1774485785.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 20900,
-      "converted": 20900,
+      "amount": 18810,
+      "converted": 18810,
       "confidence": "PChome 24h 低價查核"
     },
     "channel": "tw",
