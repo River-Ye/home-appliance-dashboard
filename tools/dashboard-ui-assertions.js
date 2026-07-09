@@ -185,6 +185,42 @@ async function assertHistoricalLowCompareLayout(page, name) {
   }
 }
 
+async function assertSingleCompareFitsViewport(page, name) {
+  const failures = await page.$$eval("#compareTable .compare-table", (tables) => {
+    const tolerance = 2;
+    return tables.flatMap((table) => {
+      const wrap = table.closest(".compare-table-wrap");
+      const firstRow = table.querySelector("tr");
+      const comparedItems = firstRow ? Math.max(0, firstRow.children.length - 1) : 0;
+      if (window.innerWidth >= 700 || comparedItems !== 1) return [];
+
+      const issues = [];
+      if (wrap && table.scrollWidth > wrap.clientWidth + tolerance) {
+        issues.push("single compare table requires horizontal scroll");
+      }
+
+      const overflowingCells = [...table.querySelectorAll("th, td")]
+        .filter((cell) => cell.scrollWidth > cell.clientWidth + tolerance)
+        .slice(0, 5)
+        .map((cell) => ({
+          text: cell.textContent.trim().slice(0, 80),
+          clientWidth: cell.clientWidth,
+          scrollWidth: cell.scrollWidth,
+        }));
+
+      if (overflowingCells.length) {
+        issues.push({ overflowingCells });
+      }
+
+      return issues.length ? [{ issues }] : [];
+    });
+  });
+
+  if (failures.length) {
+    throw new Error(`${name}: mobile single compare layout failures ${JSON.stringify(failures.slice(0, 3))}`);
+  }
+}
+
 
 async function assertNoHorizontalOverflow(page, name) {
   const overflow = await page.evaluate(() => {
@@ -216,6 +252,7 @@ module.exports = {
   assertProductImagesStayInsideWrap,
   assertHistoricalLowLayout,
   assertHistoricalLowCompareLayout,
+  assertSingleCompareFitsViewport,
   assertNoHorizontalOverflow,
   resetFilters,
   selectComboboxOption,

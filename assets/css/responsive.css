@@ -255,4 +255,19 @@
   .compare-panel {
     scroll-margin-top: 64px;
   }
+
+  .compare-table {
+    min-width: 0;
+    table-layout: fixed;
+  }
+
+  .compare-table th {
+    width: 112px;
+  }
+
+  .compare-table th,
+  .compare-table td {
+    overflow-wrap: anywhere;
+    word-break: break-word;
+  }
 }

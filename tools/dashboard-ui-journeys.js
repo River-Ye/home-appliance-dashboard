@@ -12,6 +12,7 @@ const {
   assertProductImagesStayInsideWrap,
   assertHistoricalLowLayout,
   assertHistoricalLowCompareLayout,
+  assertSingleCompareFitsViewport,
   assertNoHorizontalOverflow,
   resetFilters,
   selectComboboxOption,
@@ -363,6 +364,7 @@ async function runExhaustiveViewport(browser, name, viewport) {
   const historicalCompareRows = await page.locator("#compareTable tr", { hasText: "歷史最低價 / 入手時機" }).count();
   if (historicalCompareRows !== 1) throw new Error(`${name}: compare table missing historical low row`);
   await assertHistoricalLowCompareLayout(page, name);
+  await assertSingleCompareFitsViewport(page, name);
 
   await page.getByRole("button", { name: "重設篩選" }).click();
   await waitForVisibleCount(page, EXPECTED_PRODUCT_COUNT);
@@ -574,6 +576,7 @@ async function runDesktopJourney(browser) {
     const historicalCompareRows = await page.locator("#compareTable tr", { hasText: "歷史最低價 / 入手時機" }).count();
     if (historicalCompareRows !== 1) throw new Error(`${name}: compare table missing historical low row`);
     await assertHistoricalLowCompareLayout(page, name);
+    await assertSingleCompareFitsViewport(page, name);
     await page.locator("#clearCompare").click();
     await page.waitForFunction(() => document.querySelector("#compareCount")?.textContent?.trim() === "0");
     await resetFilters(page);
@@ -618,6 +621,7 @@ async function runMobileJourney(browser) {
     await compareButton.click();
     await page.waitForFunction(() => document.querySelector("#compareCount")?.textContent?.trim() === "1");
     await assertHistoricalLowCompareLayout(page, name);
+    await assertSingleCompareFitsViewport(page, name);
     await page.locator("#clearCompare").click();
     await page.waitForFunction(() => document.querySelector("#compareCount")?.textContent?.trim() === "0");
     await resetFilters(page);
