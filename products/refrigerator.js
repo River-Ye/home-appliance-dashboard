@@ -12,7 +12,7 @@
     "brand": "Panasonic",
     "model": "NR-B271TV-S1",
     "name": "Panasonic NR-B271TV-S1",
-    "image": "https://img.yec.tw/zp/MerchandiseImages/811a3c7684-Gd-11252956.jpg",
+    "image": "https://img.yec.tw/zp/MerchandiseImages/cf983ee730-Gd-11252956.jpg",
     "price": {
       "currency": "TWD",
       "amount": 15304,
@@ -77,7 +77,7 @@
     "brand": "Panasonic",
     "model": "NR-B171TV-S1",
     "name": "Panasonic NR-B171TV-S1",
-    "image": "https://img.yec.tw/zp/MerchandiseImages/a0a4573eae-Gd-11252958.jpg",
+    "image": "https://img.yec.tw/zp/MerchandiseImages/4a931fa29c-Gd-11252958.jpg",
     "price": {
       "currency": "TWD",
       "amount": 11784,
@@ -142,7 +142,7 @@
     "brand": "LG",
     "model": "GN-L217SVN",
     "name": "LG GN-L217SVN",
-    "image": "https://img.yec.tw/zp/MerchandiseImages/0052C7EC2B-SP-22040968.jpg",
+    "image": "https://img.yec.tw/zp/MerchandiseImages/5D663CB1FD-SP-22040968.jpg",
     "price": {
       "currency": "TWD",
       "amount": 11900,
@@ -207,7 +207,7 @@
     "brand": "LG",
     "model": "GN-L266SVN",
     "name": "LG GN-L266SVN",
-    "image": "https://img.yec.tw/zp/MerchandiseImages/64894DBD89-SP-22083802.jpg",
+    "image": "https://img.yec.tw/zp/MerchandiseImages/4455399AAF-SP-22083802.jpg",
     "price": {
       "currency": "TWD",
       "amount": 13775,
@@ -272,7 +272,7 @@
     "brand": "Panasonic",
     "model": "NR-C505XV-W",
     "name": "Panasonic NR-C505XV-W",
-    "image": "https://img.yec.tw/zp/MerchandiseImages/D29DCC042E-SP-18069150.jpg",
+    "image": "https://img.yec.tw/zp/MerchandiseImages/554C25E292-SP-18069150.jpg",
     "price": {
       "currency": "TWD",
       "amount": 38285,
@@ -337,7 +337,7 @@
     "brand": "Panasonic",
     "model": "NR-D505XV-W",
     "name": "Panasonic NR-D505XV-W",
-    "image": "https://img.yec.tw/zp/MerchandiseImages/C6ED3E3838-SP-18068745.jpg",
+    "image": "https://img.yec.tw/zp/MerchandiseImages/D2C078706D-SP-18068745.jpg",
     "price": {
       "currency": "TWD",
       "amount": 40185,
@@ -402,7 +402,7 @@
     "brand": "HITACHI",
     "model": "HRBN5366DF",
     "name": "HITACHI HRBN5366DF",
-    "image": "https://img.yec.tw/zp/MerchandiseImages/FFA21F3481-SP-22130807.jpg",
+    "image": "https://img.yec.tw/zp/MerchandiseImages/5FE01FB87C-SP-22130807.jpg",
     "price": {
       "currency": "TWD",
       "amount": 23100,
@@ -467,7 +467,7 @@
     "brand": "HITACHI",
     "model": "RV41C",
     "name": "HITACHI RV41C",
-    "image": "https://img.yec.tw/zp/MerchandiseImages/D8C71AAA3A-SP-22132101.jpg",
+    "image": "https://img.yec.tw/zp/MerchandiseImages/E1024B61CD-SP-22132101.jpg",
     "price": {
       "currency": "TWD",
       "amount": 31648,
@@ -532,7 +532,7 @@
     "brand": "HITACHI",
     "model": "HRBN5303MF",
     "name": "HITACHI HRBN5303MF",
-    "image": "https://img.yec.tw/zp/MerchandiseImages/1C6CCCCFB7-SP-22128108.jpg",
+    "image": "https://img.yec.tw/zp/MerchandiseImages/3F8C495537-SP-22128108.jpg",
     "price": {
       "currency": "TWD",
       "amount": 20148,
@@ -597,7 +597,7 @@
     "brand": "Samsung",
     "model": "RT22M4015S8TW",
     "name": "Samsung RT22M4015S8TW",
-    "image": "https://img.yec.tw/zp/MerchandiseImages/cc850eb6a2-Gd-11647216.jpg",
+    "image": "https://img.yec.tw/zp/MerchandiseImages/246e037063-Gd-11647216.jpg",
     "price": {
       "currency": "TWD",
       "amount": 12900,
@@ -662,7 +662,7 @@
     "brand": "SAMPO",
     "model": "SR-F12GD",
     "name": "SAMPO SR-F12GD",
-    "image": "https://img.yec.tw/zp/MerchandiseImages/3d2d041a0e-Gd-12028482.jpg",
+    "image": "https://img.yec.tw/zp/MerchandiseImages/122acf4468-Gd-12028482.jpg",
     "price": {
       "currency": "TWD",
       "amount": 11900,
@@ -727,7 +727,7 @@
     "brand": "SANLUX",
     "model": "SR-V430B",
     "name": "SANLUX SR-V430B",
-    "image": "https://img.yec.tw/zp/MerchandiseImages/709f16b4fd-Gd-10961354.jpg",
+    "image": "https://img.yec.tw/zp/MerchandiseImages/2D7A5B7B73-SP-16189270.jpg",
     "price": {
       "currency": "TWD",
       "amount": 15778,
@@ -792,7 +792,7 @@
     "brand": "SANLUX",
     "model": "SR-C238BV",
     "name": "SANLUX SR-C238BV",
-    "image": "https://img.yec.tw/zp/MerchandiseImages/D165D5E3B6-SP-11664526.jpg",
+    "image": "https://img.yec.tw/zp/MerchandiseImages/58E65612D5-SP-11664526.jpg",
     "price": {
       "currency": "TWD",
       "amount": 11726,
@@ -857,7 +857,7 @@
     "brand": "SANLUX",
     "model": "SR-V150BF",
     "name": "SANLUX SR-V150BF",
-    "image": "https://img.yec.tw/zp/MerchandiseImages/30D0D6C9B5-SP-20979949.jpg",
+    "image": "https://img.yec.tw/zp/MerchandiseImages/ECE5BD3366-SP-20979949.jpg",
     "price": {
       "currency": "TWD",
       "amount": 12511,
@@ -922,7 +922,7 @@
     "brand": "SANLUX",
     "model": "SR-C192BV1",
     "name": "SANLUX SR-C192BV1",
-    "image": "https://img.yec.tw/zp/MerchandiseImages/9405869E8F-SP-11773532.jpg",
+    "image": "https://img.yec.tw/zp/MerchandiseImages/F86F570399-SP-11773532.jpg",
     "price": {
       "currency": "TWD",
       "amount": 9397,
@@ -987,7 +987,7 @@
     "brand": "HITACHI",
     "model": "RV469",
     "name": "HITACHI RV469",
-    "image": "https://img.yec.tw/zp/MerchandiseImages/65D8315F22-SP-22130389.jpg",
+    "image": "https://img.yec.tw/zp/MerchandiseImages/A818CEFD00-SP-22130389.jpg",
     "price": {
       "currency": "TWD",
       "amount": 23490,
@@ -1052,7 +1052,7 @@
     "brand": "Samsung",
     "model": "RT47CG662AS9",
     "name": "Samsung RT47CG662AS9",
-    "image": "https://img.yec.tw/zp/MerchandiseImages/0d0f9c1372-Gd-11751994.jpg",
+    "image": "https://img.yec.tw/zp/MerchandiseImages/6bf08c2eea-Gd-11751994.jpg",
     "price": {
       "currency": "TWD",
       "amount": 22900,
@@ -1117,7 +1117,7 @@
     "brand": "SAMPO",
     "model": "SR-C35GD",
     "name": "SAMPO SR-C35GD",
-    "image": "https://img.yec.tw/zp/MerchandiseImages/9d7040ad13-Gd-11166110.jpg",
+    "image": "https://img.yec.tw/zp/MerchandiseImages/68d8ed0b36-Gd-11166110.jpg",
     "price": {
       "currency": "TWD",
       "amount": 23310,
@@ -1182,7 +1182,7 @@
     "brand": "SAMPO",
     "model": "SR-C37D",
     "name": "SAMPO SR-C37D",
-    "image": "https://img.yec.tw/zp/MerchandiseImages/f37b1badad-Gd-10265782.jpg",
+    "image": "https://img.yec.tw/zp/MerchandiseImages/3ea16b8617-Gd-10265782.jpg",
     "price": {
       "currency": "TWD",
       "amount": 19900,
@@ -1247,7 +1247,7 @@
     "brand": "SAMPO",
     "model": "SR-C25D",
     "name": "SAMPO SR-C25D",
-    "image": "https://img.yec.tw/zp/MerchandiseImages/9241b58fbf-Gd-10265781.jpg",
+    "image": "https://img.yec.tw/zp/MerchandiseImages/743e3eaeaf-Gd-10265781.jpg",
     "price": {
       "currency": "TWD",
       "amount": 17900,
@@ -1320,7 +1320,7 @@
       "converted": 13999,
       "confidence": "Costco 好市多 2026-07-09 查核價"
     },
-    "image": "https://www.costco.com.tw/medias/sys_master/images/h98/h78/115073137999902.webp",
+    "image": "https://www.costco.com.tw/medias/sys_master/images/h3f/h56/115073136033822.jpg",
     "buyUrl": "https://www.costco.com.tw/Televisions-Appliances/Large-Appliances/Fridges-Freezers/SHARP-253-L-Top-Mount-Inverter-Fridge-SJ-H25Y-WH/p/137098",
     "buyLabel": "Costco 好市多",
     "specs": [

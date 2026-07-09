@@ -1258,7 +1258,7 @@
       "converted": 749,
       "confidence": "Costco 好市多 2026-07-09 查核價"
     },
-    "image": "https://www.costco.com.tw/medias/sys_master/images/hbd/h7c/368495612559390.webp",
+    "image": "https://www.costco.com.tw/medias/sys_master/images/h71/h7a/368495609872414.jpg",
     "buyUrl": "https://www.costco.com.tw/p/665347",
     "buyLabel": "Costco 好市多",
     "specs": [

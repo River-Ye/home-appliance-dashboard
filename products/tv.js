@@ -55,14 +55,14 @@
       "status": "found",
       "amount": 1096,
       "currency": "USD",
-      "converted": 35212,
+      "converted": 35181,
       "sourceUrl": "https://www.tomsguide.com/tvs/oled-tvs/not-a-typo-the-65-inch-lg-c5-oled-tv-just-crashed-to-usd1-099-on-the-last-day-of-prime-day",
       "sourceTitle": "Not a typo! The 65-inch LG C5 OLED TV just crashed to $1,099 on the last day of Prime Day | Tom's Guide",
       "evidenceSnippet": "Tom's Guide reported the 65-inch LG C5 at Amazon for $1,099 and its deal card showed now US$1,096, calling it the cheapest the 65-inch C5 had ever been.",
       "sourceKind": "retailer_promo",
       "confidence": "medium",
       "checkedAt": "2026-07-09",
-      "note": "Overseas Amazon US 65-inch LG C5 equivalent. Converted using USD_TWD 32.127508; excludes shipping, import tax, plug/voltage differences, and Taiwan warranty risk."
+      "note": "Overseas Amazon US 65-inch LG C5 equivalent. Converted using USD_TWD 32.099057; excludes shipping, import tax, plug/voltage differences, and Taiwan warranty risk."
     }
   },
   {
@@ -114,14 +114,14 @@
       "status": "found",
       "amount": 1197.99,
       "currency": "USD",
-      "converted": 38488,
+      "converted": 38454,
       "sourceUrl": "https://www.androidcentral.com/streaming-tv/samsung-s90f-oled-tv-deal-prime-day-2026-gta6-preorders",
       "sourceTitle": "This 'best gaming TV' has crashed to a record low price during Prime Day - just in time for your GTA 6 preorder | Android Central",
       "evidenceSnippet": "Android Central reported the 65-inch Samsung Class OLED S90F at $1,197.99 during Prime Day and described it as a record-low price.",
       "sourceKind": "retailer_promo",
       "confidence": "medium",
       "checkedAt": "2026-07-09",
-      "note": "Overseas US equivalent 65-inch S90F; regional SKU may differ from Taiwan QA65S90FAEXZW. Converted using USD_TWD 32.127508; excludes shipping, import tax, and Taiwan warranty risk."
+      "note": "Overseas US equivalent 65-inch S90F; regional SKU may differ from Taiwan QA65S90FAEXZW. Converted using USD_TWD 32.099057; excludes shipping, import tax, and Taiwan warranty risk."
     }
   },
   {
@@ -1201,7 +1201,7 @@
       "converted": 31999,
       "confidence": "Costco 好市多 2026-07-09 查核價"
     },
-    "image": "https://www.costco.com.tw/medias/sys_master/images/h1c/h62/438072163139614.webp",
+    "image": "https://www.costco.com.tw/medias/sys_master/images/hfe/ha8/438072160518174.jpg",
     "buyUrl": "https://www.costco.com.tw/Televisions-Appliances/TV-Home-Entertainment/Televisions-TV-Accessories/70-79-TVs/Toshiba-Regza-75-inch-Full-Array-4K-QLED-144Hz-Smart-Monitor-75Z670NT/p/152535",
     "buyLabel": "Costco 好市多",
     "specs": [

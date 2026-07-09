@@ -250,7 +250,7 @@
     "price": {
       "currency": "USD",
       "amount": 499.95,
-      "converted": 16062,
+      "converted": 16048,
       "confidence": "海外可信通路參考價"
     },
     "image": "https://cdn11.bigcommerce.com/s-ihwnd7z21q/images/stencil/640w/products/1251/4666/212814_JouleOvenAirFryer1__10534.1724079466.jpg?c=1",
@@ -1181,7 +1181,7 @@
       "converted": 2999,
       "confidence": "Costco 好市多 2026-07-09 查核價"
     },
-    "image": "https://www.costco.com.tw/medias/sys_master/images/h2e/h1d/382254138261534.webp",
+    "image": "https://www.costco.com.tw/medias/sys_master/images/h5f/h94/382254135640094.jpg",
     "buyUrl": "https://www.costco.com.tw/p/153079",
     "buyLabel": "Costco 好市多",
     "specs": [

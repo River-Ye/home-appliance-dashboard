@@ -17,8 +17,8 @@
     "name": "11.1.4 聲道旗艦 Soundbar",
     "price": {
       "currency": "TWD",
-      "amount": 44900,
-      "converted": 44900,
+      "amount": 49900,
+      "converted": 49900,
       "confidence": "可信通路查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAAODA900JMDR5/000001_1773978957.jpg",
@@ -133,8 +133,8 @@
     "name": "BRAVIA Theatre Bar 6 3.1.2 聲道",
     "price": {
       "currency": "TWD",
-      "amount": 10700,
-      "converted": 10700,
+      "amount": 11900,
+      "converted": 11900,
       "confidence": "可信通路查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAAODA900JMC1Q/000001_1781726516.jpg",
@@ -1178,8 +1178,8 @@
     "price": {
       "currency": "USD",
       "amount": 1000,
-      "converted": 32128,
-      "confidence": "WIRED 2025 發表價約 USD 1,000，依 2026-07-08 匯率換算"
+      "converted": 32099,
+      "confidence": "WIRED 2025 發表價約 USD 1,000，依 2026-07-09 匯率換算"
     },
     "image": "https://images.ctfassets.net/javen7msabdh/2C2sn9CKoKFdIyd94Gm9z5/f3019d4e721511167ebe5c229bf490dd/heston-120_plp.jpg",
     "buyUrl": "https://www.marshall.com/us/en/product/heston-120",
@@ -1238,8 +1238,8 @@
     "price": {
       "currency": "USD",
       "amount": 699.99,
-      "converted": 22489,
-      "confidence": "Marshall US 2026-07-09 查核價；官方頁顯示 Out of stock，依 2026-07-08 匯率換算"
+      "converted": 22469,
+      "confidence": "Marshall US 2026-07-09 查核價；官方頁顯示 Out of stock，依 2026-07-09 匯率換算"
     },
     "image": "https://images.ctfassets.net/javen7msabdh/3yitHqjPBTgQk5qRE72PSn/2788206646aa153f71f2c0ebefaff580/Heston-60-black_plp_800x800-v3.jpeg",
     "buyUrl": "https://www.marshall.com/us/en/product/heston-60",
@@ -1302,7 +1302,7 @@
       "converted": 14999,
       "confidence": "Costco 好市多 2026-07-09 查核價"
     },
-    "image": "https://www.costco.com.tw/medias/sys_master/images/h6e/ha2/204392565112862.webp",
+    "image": "https://www.costco.com.tw/medias/sys_master/images/h40/hc8/204392561901598.jpg",
     "buyUrl": "https://www.costco.com.tw/p/144030",
     "buyLabel": "Costco 好市多",
     "specs": [

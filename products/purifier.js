@@ -1181,7 +1181,7 @@
       "converted": 17999,
       "confidence": "Costco 好市多 2026-07-09 查核價"
     },
-    "image": "https://www.costco.com.tw/medias/sys_master/images/h92/h40/115203622731806.webp",
+    "image": "https://www.costco.com.tw/medias/sys_master/images/hfb/h8d/115203619782686.jpg",
     "buyUrl": "https://www.costco.com.tw/Cooling-Heating-Air-Treatment/Air-Purifiers-Filters-Accessories/p/136662",
     "buyLabel": "Costco 好市多",
     "specs": [

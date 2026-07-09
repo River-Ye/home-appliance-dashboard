@@ -1260,7 +1260,7 @@
       "converted": 25599,
       "confidence": "Costco 好市多 2026-07-09 查核價"
     },
-    "image": "https://www.costco.com.tw/medias/sys_master/images/h26/h97/70293698248734.webp",
+    "image": "https://www.costco.com.tw/medias/sys_master/images/h3d/h7a/66317147242526.jpg",
     "buyUrl": "https://www.costco.com.tw/p/131781",
     "buyLabel": "Costco 好市多",
     "specs": [
@@ -1379,7 +1379,7 @@
       "converted": 26999,
       "confidence": "Costco 好市多 2026-07-09 查核價"
     },
-    "image": "https://www.costco.com.tw/medias/sys_master/images/hd4/h5a/379632225222686.jpg",
+    "image": "https://www.costco.com.tw/medias/sys_master/videos/h8c/hae/379631890038814.mp4",
     "buyUrl": "https://www.costco.com.tw/Televisions-Appliances/Kitchen-Appliances/Dishwashers-Dish-Dryers/Electrolux-60cm-UltimateCare-300-AirDry-Freestanding-Dishwasher/p/155128",
     "buyLabel": "Costco 好市多",
     "specs": [

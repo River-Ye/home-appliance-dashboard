@@ -249,11 +249,11 @@
     "name": "滾筒全自動洗拖烘掃地機器人",
     "price": {
       "currency": "TWD",
-      "amount": 18999,
-      "converted": 18999,
+      "amount": 19999,
+      "converted": 19999,
       "confidence": "可信通路查核價"
     },
-    "image": "https://cs-a.ecimg.tw/items/DMBL1CA900JA04J/000001_1783491598.jpg",
+    "image": "https://cs-a.ecimg.tw/items/DMBL1CA900JA04J/000001_1783562731.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBL1C-A900JA04J",
     "buyLabel": "PChome",
     "specs": [
@@ -772,7 +772,7 @@
     "price": {
       "currency": "EUR",
       "amount": 999,
-      "converted": 36647,
+      "converted": 36600,
       "confidence": "海外可信通路參考價"
     },
     "image": "https://boulanger.scene7.com/is/image/Boulanger/6972075738536_h_f_l_0?fmt=png-alpha&wid=640&hei=640",
@@ -830,7 +830,7 @@
     "price": {
       "currency": "USD",
       "amount": 553.09,
-      "converted": 17769,
+      "converted": 17754,
       "confidence": "海外可信通路參考價"
     },
     "image": "https://img.gkbcdn.com/p/2025-04-11/Narwal-Freo-Z10-Ultra-Robot-Vacuum-with-Base-Station-Gray-528438-0._w315_.jpg",
@@ -1526,7 +1526,7 @@
     "price": {
       "currency": "USD",
       "amount": 499.99,
-      "converted": 16063,
+      "converted": 16049,
       "confidence": "海外可信通路參考價"
     },
     "image": "https://assets.sharkninja.com/image/upload/f_auto/q_auto/SharkNinja-NA/RV2820ZE_01.jpg",
@@ -1584,7 +1584,7 @@
     "price": {
       "currency": "USD",
       "amount": 1199,
-      "converted": 38521,
+      "converted": 38487,
       "confidence": "海外可信通路參考價"
     },
     "image": "https://dyson-h.assetsadobe2.com/is/image/content/dam/dyson/products/home/floorcare/robot/spot-scrub-ai/rcc/Web-804A-Category-Page-Module1.jpg?$responsive$&fmt=pjpeg&wid=640",
@@ -1642,7 +1642,7 @@
     "price": {
       "currency": "USD",
       "amount": 399.99,
-      "converted": 12851,
+      "converted": 12839,
       "confidence": "Costco US 2026-07-09 參考價，TWD 依現有儀表板匯率換算"
     },
     "image": "https://bfasset.costco-static.com/U447IH35/as/tkj772p4357mmh3bwz8kcq/1791272-847__1?auto=webp&format=jpg",

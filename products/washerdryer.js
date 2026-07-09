@@ -12,7 +12,7 @@
     "brand": "LG",
     "model": "WD-S90VDW",
     "name": "LG WD-S90VDW",
-    "image": "https://img.yec.tw/zp/MerchandiseImages/d5b2990379-Gd-10216764.jpg",
+    "image": "https://img.yec.tw/zp/MerchandiseImages/3a594d8137-Gd-10216764.jpg",
     "price": {
       "currency": "TWD",
       "amount": 18029,
@@ -78,7 +78,7 @@
     "brand": "Whirlpool",
     "model": "WWEB10701BS",
     "name": "Whirlpool WWEB10701BS",
-    "image": "https://img.yec.tw/zp/MerchandiseImages/88510AB8A1-SP-20734610.jpg",
+    "image": "https://img.yec.tw/zp/MerchandiseImages/A884B88BBA-SP-20734610.jpg",
     "price": {
       "currency": "TWD",
       "amount": 18680,
@@ -144,7 +144,7 @@
     "brand": "HITACHI",
     "model": "BDD1054HVO",
     "name": "HITACHI BDD1054HVO",
-    "image": "https://img.yec.tw/zp/MerchandiseImages/F7951928D2-SP-22824186.jpg",
+    "image": "https://img.yec.tw/zp/MerchandiseImages/4C7BE4C3A5-SP-22824186.jpg",
     "price": {
       "currency": "TWD",
       "amount": 17388,
@@ -210,7 +210,7 @@
     "brand": "Whirlpool",
     "model": "WEHC10BBS",
     "name": "Whirlpool WEHC10BBS",
-    "image": "https://img.yec.tw/zp/MerchandiseImages/92D6674E4A-SP-17622644.jpg",
+    "image": "https://img.yec.tw/zp/MerchandiseImages/16E678AC30-SP-17622644.jpg",
     "price": {
       "currency": "TWD",
       "amount": 11543,
@@ -276,7 +276,7 @@
     "brand": "Samsung",
     "model": "WD12T504DBN/TW",
     "name": "Samsung WD12T504DBN/TW",
-    "image": "https://img.yec.tw/zp/MerchandiseImages/8EA3E8E9A3-SP-22420772.jpg",
+    "image": "https://img.yec.tw/zp/MerchandiseImages/DF4F3C1217-SP-22420772.jpg",
     "price": {
       "currency": "TWD",
       "amount": 24900,
@@ -342,11 +342,11 @@
     "brand": "Panasonic",
     "model": "NA-V170MDH-W",
     "name": "Panasonic NA-V170MDH-W",
-    "image": "https://img.yec.tw/zp/MerchandiseImages/02AE2D6368-SP-12443254.jpg",
+    "image": "https://img.yec.tw/zp/MerchandiseImages/50A8962C97-SP-12443254.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 43032,
-      "converted": 43032,
+      "amount": 42054,
+      "converted": 42054,
       "confidence": "Yahoo 購物中心低價查核"
     },
     "channel": "tw",
@@ -389,16 +389,16 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 43032,
+      "amount": 42054,
       "currency": "TWD",
-      "converted": 43032,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1270923180&cgp=43032",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【Panasonic 國際牌】17KG 智能聯網系列 變頻溫水洗脫烘滾筒洗衣機(NA-V170MDH-W)",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【Panasonic 國際牌】17KG 智能聯網系列 變頻溫水洗脫烘滾筒洗衣機(NA-V170MDH-W)」最低價為 NT$43,032，最低點日期 2026-07-09。",
-      "sourceKind": "price_history",
-      "confidence": "high",
+      "converted": 42054,
+      "sourceUrl": "https://tw.buy.yahoo.com/gdsale/Panasonic國際牌-17公斤-變頻溫水洗脫烘滾筒洗衣機-晶鑽白-NA-V170MDH-W-10287718.html",
+      "sourceTitle": "Yahoo購物中心：Panasonic國際牌  17公斤 變頻溫水洗脫烘滾筒洗衣機 晶鑽白 NA-V170MDH-W | 變頻16KG以上 | Yahoo購物中心",
+      "evidenceSnippet": "Yahoo購物中心商品頁 JSON-LD 在 2026-07-09 查核 NA-V170MDH-W 價格為 NT$42,054，低於先前記錄的 NT$43,032。",
+      "sourceKind": "retailer_page",
+      "confidence": "medium",
       "checkedAt": "2026-07-09",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+      "note": "採用 Yahoo購物中心公開商品頁本輪查核價；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -408,7 +408,7 @@
     "brand": "LG",
     "model": "WD-S13VDW",
     "name": "LG WD-S13VDW",
-    "image": "https://img.yec.tw/zp/MerchandiseImages/67C35B98AF-SP-11096810.jpg",
+    "image": "https://img.yec.tw/zp/MerchandiseImages/88F364AB6B-SP-11096810.jpg",
     "price": {
       "currency": "TWD",
       "amount": 31810,
@@ -474,7 +474,7 @@
     "brand": "Whirlpool",
     "model": "8TWFC6820LW",
     "name": "Whirlpool 8TWFC6820LW",
-    "image": "https://img.yec.tw/zp/MerchandiseImages/f96dfe1f84-Gd-10053955.jpg",
+    "image": "https://img.yec.tw/zp/MerchandiseImages/1f2a33ce70-Gd-10053955.jpg",
     "price": {
       "currency": "TWD",
       "amount": 43563,
@@ -540,7 +540,7 @@
     "brand": "HITACHI",
     "model": "BWDV100EJ",
     "name": "HITACHI BWDV100EJ",
-    "image": "https://img.yec.tw/zp/MerchandiseImages/3C295196DD-SP-22137065.jpg",
+    "image": "https://img.yec.tw/zp/MerchandiseImages/826F52E782-SP-22137065.jpg",
     "price": {
       "currency": "TWD",
       "amount": 34022,
@@ -606,7 +606,7 @@
     "brand": "LG",
     "model": "WD-S18NDB",
     "name": "LG WD-S18NDB",
-    "image": "https://img.yec.tw/zp/MerchandiseImages/44CC3AD0EF-SP-17994282.jpg",
+    "image": "https://img.yec.tw/zp/MerchandiseImages/953C366DCA-SP-17994282.jpg",
     "price": {
       "currency": "TWD",
       "amount": 46463,
@@ -672,7 +672,7 @@
     "brand": "Samsung",
     "model": "WD12DB9B84GNTW",
     "name": "Samsung WD12DB9B84GNTW",
-    "image": "https://img.yec.tw/zp/MerchandiseImages/B9F8284A17-SP-18861499.jpg",
+    "image": "https://img.yec.tw/zp/MerchandiseImages/0150C6484E-SP-18861499.jpg",
     "price": {
       "currency": "TWD",
       "amount": 38900,
@@ -738,7 +738,7 @@
     "brand": "Samsung",
     "model": "WD12DB9B84GDTW",
     "name": "Samsung WD12DB9B84GDTW",
-    "image": "https://img.yec.tw/zp/MerchandiseImages/9767494B71-SP-21060003.jpg",
+    "image": "https://img.yec.tw/zp/MerchandiseImages/32FF0A7411-SP-21060003.jpg",
     "price": {
       "currency": "TWD",
       "amount": 38900,
@@ -804,11 +804,11 @@
     "brand": "Panasonic",
     "model": "NA-V120HDH",
     "name": "Panasonic NA-V120HDH",
-    "image": "https://img.yec.tw/zp/MerchandiseImages/CB21F1A619-SP-8787478.jpg",
+    "image": "https://img.yec.tw/zp/MerchandiseImages/BB4EF5E7DD-SP-8787478.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 21912,
-      "converted": 21912,
+      "amount": 21414,
+      "converted": 21414,
       "confidence": "Yahoo 購物中心低價查核"
     },
     "channel": "tw",
@@ -870,7 +870,7 @@
     "brand": "LG",
     "model": "WD-S18DNB",
     "name": "LG WD-S18DNB",
-    "image": "https://img.yec.tw/zp/MerchandiseImages/91d254e9b7-Gd-11689315.jpg",
+    "image": "https://img.yec.tw/zp/MerchandiseImages/2beb4f5cfc-Gd-11689315.jpg",
     "price": {
       "currency": "TWD",
       "amount": 46111,
@@ -936,7 +936,7 @@
     "brand": "Whirlpool",
     "model": "8TWFC6810LW",
     "name": "Whirlpool 8TWFC6810LW",
-    "image": "https://img.yec.tw/zp/MerchandiseImages/6E8C53D640-SP-20730912.jpg",
+    "image": "https://img.yec.tw/zp/MerchandiseImages/76C761CD55-SP-20730912.jpg",
     "price": {
       "currency": "TWD",
       "amount": 35910,
@@ -1002,7 +1002,7 @@
     "brand": "Toshiba",
     "model": "TWD-BJ130M4G",
     "name": "Toshiba TWD-BJ130M4G",
-    "image": "https://img.yec.tw/zp/MerchandiseImages/4FE80FFB16-SP-20100014.jpg",
+    "image": "https://img.yec.tw/zp/MerchandiseImages/BBB6EC9A68-SP-20100014.jpg",
     "price": {
       "currency": "TWD",
       "amount": 19465,
@@ -1068,7 +1068,7 @@
     "brand": "Panasonic",
     "model": "NA-V150MDH",
     "name": "Panasonic NA-V150MDH",
-    "image": "https://img.yec.tw/zp/MerchandiseImages/E932219640-SP-12334280.jpg",
+    "image": "https://img.yec.tw/zp/MerchandiseImages/41046DB844-SP-12334280.jpg",
     "price": {
       "currency": "TWD",
       "amount": 34873,
@@ -1134,7 +1134,7 @@
     "brand": "SANLUX",
     "model": "AWD-1260KA",
     "name": "SANLUX AWD-1260KA",
-    "image": "https://img.yec.tw/zp/MerchandiseImages/AAC9860DF6-SP-20999855.jpg",
+    "image": "https://img.yec.tw/zp/MerchandiseImages/AEFBFC8FF7-SP-20999855.jpg",
     "price": {
       "currency": "TWD",
       "amount": 19149,
@@ -1200,7 +1200,7 @@
     "brand": "SANLUX",
     "model": "AWD-1390HA",
     "name": "SANLUX AWD-1390HA",
-    "image": "https://img.yec.tw/zp/MerchandiseImages/0130945593-SP-22731145.jpg",
+    "image": "https://img.yec.tw/zp/MerchandiseImages/B93D360F93-SP-22731145.jpg",
     "price": {
       "currency": "TWD",
       "amount": 20745,
@@ -1266,7 +1266,7 @@
     "brand": "SAMPO",
     "model": "ES-ND10DH",
     "name": "SAMPO ES-ND10DH",
-    "image": "https://img.yec.tw/zp/MerchandiseImages/f417ef6fca-Gd-10375207.jpg",
+    "image": "https://img.yec.tw/zp/MerchandiseImages/c6118894bf-Gd-10375207.jpg",
     "price": {
       "currency": "TWD",
       "amount": 15888,
@@ -1340,7 +1340,7 @@
       "converted": 31999,
       "confidence": "Costco 好市多 2026-07-09 查核價"
     },
-    "image": "https://www.costco.com.tw/medias/sys_master/images/h97/h12/346620871114782.webp",
+    "image": "https://www.costco.com.tw/medias/sys_master/images/h7b/h3c/346620867051550.jpg",
     "buyUrl": "https://www.costco.com.tw/Large-Appliances/p/152411",
     "buyLabel": "Costco 好市多",
     "specs": [

@@ -1181,7 +1181,7 @@
       "converted": 2999,
       "confidence": "Costco 好市多 2026-07-09 查核價"
     },
-    "image": "https://www.costco.com.tw/medias/sys_master/images/h56/h94/361109995192350.webp",
+    "image": "https://www.costco.com.tw/medias/sys_master/images/ha1/h9a/361109992439838.jpg",
     "buyUrl": "https://www.costco.com.tw/Televisions-Appliances/Cooling-Heating-Air-Treatment/Heating-Cooling/Airmate-DC-Remote-Control-Tower-Fan-FT89R/p/150625",
     "buyLabel": "Costco 好市多",
     "specs": [
@@ -1239,7 +1239,7 @@
       "converted": 2999,
       "confidence": "Costco 好市多 2026-07-09 查核價"
     },
-    "image": "https://www.costco.com.tw/medias/sys_master/images/haf/h40/348867518791710.jpg",
+    "image": "https://www.costco.com.tw/medias/sys_master/videos/h14/ha1/349174565470238.mp4",
     "buyUrl": "https://www.costco.com.tw/Televisions-Appliances/Cooling-Heating-Air-Treatment/Heating-Cooling/DeWALT-40-cm-Drum-Fan/p/9631000",
     "buyLabel": "Costco 好市多",
     "specs": [

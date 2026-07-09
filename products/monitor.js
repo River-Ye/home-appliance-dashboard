@@ -937,7 +937,7 @@
       "converted": 7980,
       "confidence": "可信通路查核價"
     },
-    "image": "https://cs-a.ecimg.tw/items/DSABW6A900K6A95/000001_1783072253.jpg",
+    "image": "https://cs-a.ecimg.tw/items/DSABW6A900K6A95/000001_1783555579.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DSABW6-A900K6A95",
     "buyLabel": "PChome",
     "specs": [
@@ -1730,7 +1730,7 @@
       "converted": 14666,
       "confidence": "可信通路查核價"
     },
-    "image": "https://cs-a.ecimg.tw/items/DSABW6A900JKTWS/000001_1782951412.jpg",
+    "image": "https://cs-a.ecimg.tw/items/DSABW6A900JKTWS/000001_1783559760.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DSABW6-A900JKTWS",
     "buyLabel": "PChome",
     "specs": [
@@ -2999,14 +2999,14 @@
       "status": "found",
       "amount": 1499,
       "currency": "USD",
-      "converted": 48159,
+      "converted": 48116,
       "sourceUrl": "https://www.tomsguide.com/gaming/gaming-peripherals/act-fast-this-57-inch-samsung-gaming-monitor-is-now-usd800-off-at-amazon",
       "sourceTitle": "Act fast! This 57-inch Samsung gaming monitor is now $800 off at Amazon | Tom's Guide",
       "evidenceSnippet": "Tom's Guide reported Amazon selling the 57-inch Samsung Odyssey Neo G9 for $1,499, $800 off $2,299.",
       "sourceKind": "retailer_promo",
       "confidence": "medium",
       "checkedAt": "2026-07-09",
-      "note": "Overseas historical promo for the same 57-inch Odyssey Neo G9/G95NC class. Converted using USD_TWD 32.127508; excludes shipping, import tax, and Taiwan warranty risk. Source does not explicitly call it all-time low."
+      "note": "Overseas historical promo for the same 57-inch Odyssey Neo G9/G95NC class. Converted using USD_TWD 32.099057; excludes shipping, import tax, and Taiwan warranty risk. Source does not explicitly call it all-time low."
     }
   },
   {

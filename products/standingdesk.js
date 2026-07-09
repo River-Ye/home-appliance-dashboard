@@ -1275,7 +1275,7 @@
       "converted": 6699,
       "confidence": "Costco 好市多 2026-07-09 查核價"
     },
-    "image": "https://www.costco.com.tw/medias/sys_master/images/h73/h6d/345529950470174.jpg",
+    "image": "https://www.costco.com.tw/medias/sys_master/videos/hec/h4d/345756113928222.mp4",
     "buyUrl": "https://www.costco.com.tw/Furniture-Kitchen/Furniture/Computer-Desk-Chair-Sets/Backbone-Dyback-Lite-Adjustable-Desk-100-cm-X-60-cm/p/149174",
     "buyLabel": "Costco 好市多",
     "specs": [

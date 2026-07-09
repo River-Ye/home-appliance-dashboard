@@ -195,7 +195,7 @@
       "converted": 21300,
       "confidence": "可信通路查核價"
     },
-    "image": "https://cs-a.ecimg.tw/items/DMBQ4OA900JX7GH/000001_1782957608.jpg",
+    "image": "https://cs-a.ecimg.tw/items/DMBQ4OA900JX7GH/000001_1783563034.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBQ4O-A900JX7GH",
     "buyLabel": "PChome",
     "specs": [
@@ -597,8 +597,8 @@
     "name": "PuriCare 12 公升雙變頻除濕機",
     "price": {
       "currency": "TWD",
-      "amount": 12600,
-      "converted": 12600,
+      "amount": 12490,
+      "converted": 12490,
       "confidence": "可信通路查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ4NA900JF9HP/000001_1778165423.jpg",
@@ -1181,7 +1181,7 @@
       "converted": 20799,
       "confidence": "Costco 好市多 2026-07-09 查核價"
     },
-    "image": "https://www.costco.com.tw/medias/sys_master/images/h59/h0f/421140865679390.webp",
+    "image": "https://www.costco.com.tw/medias/sys_master/images/h5d/ha9/421140861976606.jpg",
     "buyUrl": "https://www.costco.com.tw/Cooling-Heating-Air-Treatment/Dehumidifiers-Dry-Cabinets/p/152925",
     "buyLabel": "Costco 好市多",
     "specs": [

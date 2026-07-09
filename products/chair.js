@@ -21,7 +21,7 @@
       "converted": 12500,
       "confidence": "可信通路查核價"
     },
-    "image": "https://cs-a.ecimg.tw/items/DQBJ4CA900JM0HG/000001_1782957179.jpg",
+    "image": "https://cs-a.ecimg.tw/items/DQBJ4CA900JM0HG/000001_1783562693.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBJ4C-A900JM0HG",
     "buyLabel": "PChome",
     "specs": [
@@ -316,7 +316,7 @@
       "converted": 14500,
       "confidence": "可信通路查核價"
     },
-    "image": "https://cs-a.ecimg.tw/items/DCBE2LA900HA2WP/000001_1782958650.jpg",
+    "image": "https://cs-a.ecimg.tw/items/DCBE2LA900HA2WP/000001_1783563647.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DCBE2L-A900HA2WP",
     "buyLabel": "PChome",
     "specs": [
@@ -434,7 +434,7 @@
       "converted": 17990,
       "confidence": "可信通路查核價"
     },
-    "image": "https://cs-a.ecimg.tw/items/DCBE2LA900HBXCK/000001_1782957550.jpg",
+    "image": "https://cs-a.ecimg.tw/items/DCBE2LA900HBXCK/000001_1783562976.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DCBE2L-A900HBXCK",
     "buyLabel": "PChome",
     "specs": [
@@ -1196,7 +1196,7 @@
       "converted": 8899,
       "confidence": "Costco 好市多 2026-07-09 查核價"
     },
-    "image": "https://www.costco.com.tw/medias/sys_master/images/h39/h63/70294927376414.webp",
+    "image": "https://www.costco.com.tw/medias/sys_master/videos/hd7/h7e/244159461621790.mp4",
     "buyUrl": "https://www.costco.com.tw/p/132324",
     "buyLabel": "Costco 好市多",
     "specs": [

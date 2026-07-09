@@ -1268,7 +1268,7 @@
     "price": {
       "currency": "USD",
       "amount": 369.99,
-      "converted": 11887,
+      "converted": 11876,
       "confidence": "Costco US 2026-07-09 參考價，TWD 依現有儀表板匯率換算"
     },
     "image": "https://bfasset.costco-static.com/U447IH35/as/4xjr3phfqx7p9vvxzfhp3jp/100457228-847_chrome_1?auto=webp&format=jpg",

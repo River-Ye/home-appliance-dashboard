@@ -1181,7 +1181,7 @@
       "converted": 3799,
       "confidence": "Costco 好市多 2026-07-09 查核價"
     },
-    "image": "https://www.costco.com.tw/medias/sys_master/images/h2a/h39/333377588363294.webp",
+    "image": "https://www.costco.com.tw/medias/sys_master/images/h4c/h76/333377583546398.jpg",
     "buyUrl": "https://www.costco.com.tw/Cooling-Heating-Air-Treatment/Heating-Cooling/p/149328",
     "buyLabel": "Costco 好市多",
     "specs": [

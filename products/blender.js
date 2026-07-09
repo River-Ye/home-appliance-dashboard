@@ -16,8 +16,8 @@
     "name": "Ascent 領航者全食物調理機",
     "price": {
       "currency": "TWD",
-      "amount": 35820,
-      "converted": 35820,
+      "amount": 39800,
+      "converted": 39800,
       "confidence": "可信通路查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAYE8A900BKOKK/000001_1782889462.jpg",
@@ -75,8 +75,8 @@
     "name": "Ascent 領航者全食物調理機",
     "price": {
       "currency": "TWD",
-      "amount": 26640,
-      "converted": 26640,
+      "amount": 29600,
+      "converted": 29600,
       "confidence": "可信通路查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/QBAO0FA900AS2G7/000001_1782460590.jpg",
@@ -250,7 +250,7 @@
     "price": {
       "currency": "USD",
       "amount": 99.99,
-      "converted": 3212,
+      "converted": 3210,
       "confidence": "海外可信通路參考價"
     },
     "image": "https://ak1.ostkcdn.com/images/products/is/images/direct/d1c25153baa2aa99eae7831be826d2a51d87c485/Ninja-BN701-Professional-Plus-Blender-with-Auto-iQ.jpg",
@@ -423,8 +423,8 @@
     "name": "E320 Explorian 探索者調理機雙杯組黑色",
     "price": {
       "currency": "TWD",
-      "amount": 22230,
-      "converted": 22230,
+      "amount": 24700,
+      "converted": 24700,
       "confidence": "可信通路查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAY0GA900AGMD8/000001_1782460348.jpg",
@@ -481,8 +481,8 @@
     "name": "Ascent A2500i 全食物調理機白色",
     "price": {
       "currency": "TWD",
-      "amount": 26640,
-      "converted": 26640,
+      "amount": 29600,
+      "converted": 29600,
       "confidence": "可信通路查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/QBAO0FA900AS2DJ/000001_1782460671.jpg",
@@ -1241,7 +1241,7 @@
       "converted": 1999,
       "confidence": "Costco 好市多 2026-07-09 查核價"
     },
-    "image": "https://www.costco.com.tw/medias/sys_master/images/hf8/h2d/292858306396190.webp",
+    "image": "https://www.costco.com.tw/medias/sys_master/images/hcd/he8/292858303643678.jpg",
     "buyUrl": "https://www.costco.com.tw/p/149225",
     "buyLabel": "Costco 好市多",
     "specs": [

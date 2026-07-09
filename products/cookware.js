@@ -76,7 +76,7 @@
     "brand": "Buffalo",
     "model": "小牛石英陶瓷 26cm",
     "name": "Buffalo 小牛石英陶瓷 26cm",
-    "image": "https://cs-a.ecimg.tw/items/DEAWN3A900JOVE3/000001_1770623146.jpg",
+    "image": "https://cs-a.ecimg.tw/items/DEAWN3A900JOVE3/000001_1783576740.jpg",
     "price": {
       "currency": "TWD",
       "amount": 799,
@@ -1261,7 +1261,7 @@
       "converted": 2289,
       "confidence": "Costco 好市多 2026-07-09 查核價"
     },
-    "image": "https://www.costco.com.tw/medias/sys_master/images/hdf/h5a/114625984757790.webp",
+    "image": "https://www.costco.com.tw/medias/sys_master/images/h44/hef/114625982267422.jpg",
     "buyUrl": "https://www.costco.com.tw/Furniture-Kitchen/Kitchen-Dining/Cookware-Cutlery-Cutting-Boards/TETSU-Nitriding-Iron-Wok-30-cm/p/136446",
     "buyLabel": "Costco 好市多",
     "specs": [

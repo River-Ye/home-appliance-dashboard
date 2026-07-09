@@ -12,7 +12,7 @@
     "brand": "Panasonic",
     "model": "NH-80RZ-W",
     "name": "Panasonic NH-80RZ-W",
-    "image": "https://img.yec.tw/zp/MerchandiseImages/D5FBA0861F-SP-22704432.jpg",
+    "image": "https://img.yec.tw/zp/MerchandiseImages/AC7DC27581-SP-22704432.jpg",
     "price": {
       "currency": "TWD",
       "amount": 10000,
@@ -75,11 +75,11 @@
     "brand": "Panasonic",
     "model": "NH-70G-L",
     "name": "Panasonic NH-70G-L",
-    "image": "https://img.yec.tw/zp/MerchandiseImages/78E50A47B2-Gd-9194341.jpg",
+    "image": "https://img.yec.tw/zp/MerchandiseImages/4249C08B3A-SP-8970385.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 7560,
-      "converted": 7560,
+      "amount": 7388,
+      "converted": 7388,
       "confidence": "Yahoo 購物中心低價查核"
     },
     "channel": "tw",
@@ -331,7 +331,7 @@
     "brand": "Whirlpool",
     "model": "8TWGD5620HW",
     "name": "Whirlpool 8TWGD5620HW",
-    "image": "https://img.yec.tw/zp/MerchandiseImages/7F9FE7215B-SP-21903027.jpg",
+    "image": "https://img.yec.tw/zp/MerchandiseImages/1178FF80D6-SP-21903027.jpg",
     "price": {
       "currency": "TWD",
       "amount": 32850,
@@ -395,7 +395,7 @@
     "brand": "SANLUX",
     "model": "SD-66U8A",
     "name": "SANLUX SD-66U8A",
-    "image": "https://img.yec.tw/zp/MerchandiseImages/3520BAB421-Product-24570513.jpg",
+    "image": "https://img.yec.tw/zp/MerchandiseImages/2618755F67-Product-24570513.jpg",
     "price": {
       "currency": "TWD",
       "amount": 7120,
@@ -458,7 +458,7 @@
     "brand": "SANLUX",
     "model": "SD-85UA",
     "name": "SANLUX SD-85UA",
-    "image": "https://img.yec.tw/zp/MerchandiseImages/28C5B9A18A-Product-24570512.jpg",
+    "image": "https://img.yec.tw/zp/MerchandiseImages/669B0285B7-Product-24570512.jpg",
     "price": {
       "currency": "TWD",
       "amount": 8800,
@@ -521,7 +521,7 @@
     "brand": "SANLUX",
     "model": "SD-88U",
     "name": "SANLUX SD-88U",
-    "image": "https://img.yec.tw/zp/MerchandiseImages/0c64f4b677-Gd-7010187.jpg",
+    "image": "https://img.yec.tw/zp/MerchandiseImages/ddde675d26-Gd-7010187.jpg",
     "price": {
       "currency": "TWD",
       "amount": 9270,
@@ -584,7 +584,7 @@
     "brand": "Panasonic",
     "model": "NH-VS100HP",
     "name": "Panasonic NH-VS100HP",
-    "image": "https://img.yec.tw/zp/MerchandiseImages/C3051A6C25-SP-21442967.jpg",
+    "image": "https://img.yec.tw/zp/MerchandiseImages/D9F56C9991-SP-21442967.jpg",
     "price": {
       "currency": "TWD",
       "amount": 32310,
@@ -711,7 +711,7 @@
     "brand": "SAMPO",
     "model": "SD-7C",
     "name": "SAMPO SD-7C",
-    "image": "https://img.yec.tw/zp/MerchandiseImages/afa2c287e6-Gd-9971420.jpg",
+    "image": "https://img.yec.tw/zp/MerchandiseImages/9c77970c6d-Gd-9971420.jpg",
     "price": {
       "currency": "TWD",
       "amount": 7690,
@@ -774,7 +774,7 @@
     "brand": "HITACHI",
     "model": "TD120XFVEM",
     "name": "HITACHI TD120XFVEM",
-    "image": "https://img.yec.tw/zp/MerchandiseImages/848381293C-SP-22144611.jpg",
+    "image": "https://img.yec.tw/zp/MerchandiseImages/CD1017EA73-SP-22144611.jpg",
     "price": {
       "currency": "TWD",
       "amount": 35788,
@@ -838,7 +838,7 @@
     "brand": "Panasonic",
     "model": "NH-L70G-L",
     "name": "Panasonic NH-L70G-L",
-    "image": "https://img.yec.tw/zp/MerchandiseImages/c60aea63b8-Gd-10746995.jpg",
+    "image": "https://img.yec.tw/zp/MerchandiseImages/3db887ef39-Gd-10746995.jpg",
     "price": {
       "currency": "TWD",
       "amount": 8823,
@@ -902,7 +902,7 @@
     "brand": "SAMPO",
     "model": "SD-7B",
     "name": "SAMPO SD-7B",
-    "image": "https://img.yec.tw/zp/MerchandiseImages/16ed8fac6f-Gd-9237299.jpg",
+    "image": "https://img.yec.tw/zp/MerchandiseImages/bb1d22c62a-Gd-9237299.jpg",
     "price": {
       "currency": "TWD",
       "amount": 8490,
@@ -965,7 +965,7 @@
     "brand": "TATUNG",
     "model": "TAW-D60T",
     "name": "TATUNG TAW-D60T",
-    "image": "https://img.yec.tw/zp/MerchandiseImages/ACBE93D02C-SP-16513735.jpg",
+    "image": "https://img.yec.tw/zp/MerchandiseImages/7F32C23042-SP-16513735.jpg",
     "price": {
       "currency": "TWD",
       "amount": 6460,
@@ -1029,7 +1029,7 @@
     "brand": "HERAN",
     "model": "HDM-0841",
     "name": "HERAN HDM-0841",
-    "image": "https://img.yec.tw/zp/MerchandiseImages/5C6B4B8DDF-SP-18495887.jpg",
+    "image": "https://img.yec.tw/zp/MerchandiseImages/C0FA586EC4-SP-18495887.jpg",
     "price": {
       "currency": "TWD",
       "amount": 7191,
@@ -1092,7 +1092,7 @@
     "brand": "SANLUX",
     "model": "ASD-80UA",
     "name": "SANLUX ASD-80UA",
-    "image": "https://img.yec.tw/zp/MerchandiseImages/283C461BC5-SP-22670878.jpg",
+    "image": "https://img.yec.tw/zp/MerchandiseImages/14DC623476-SP-22670878.jpg",
     "price": {
       "currency": "TWD",
       "amount": 9982,
@@ -1155,7 +1155,7 @@
     "brand": "Samsung",
     "model": "DV10DB7440GB/DV10DB7440GW",
     "name": "Samsung DV10DB7440GB/DV10DB7440GW",
-    "image": "https://img.yec.tw/zp/MerchandiseImages/558A255AD3-SP-21351939.jpg",
+    "image": "https://img.yec.tw/zp/MerchandiseImages/04F73DE2ED-SP-21351939.jpg",
     "price": {
       "currency": "TWD",
       "amount": 40900,
@@ -1219,7 +1219,7 @@
     "brand": "Bosch",
     "model": "WQB245A0TC",
     "name": "Bosch WQB245A0TC",
-    "image": "https://img.yec.tw/zp/MerchandiseImages/D0291F4A28-SP-20893325.jpg",
+    "image": "https://img.yec.tw/zp/MerchandiseImages/254DF81A1E-SP-20893325.jpg",
     "price": {
       "currency": "TWD",
       "amount": 45908,
@@ -1291,7 +1291,7 @@
       "converted": 28899,
       "confidence": "Costco 好市多 2026-07-09 查核價"
     },
-    "image": "https://www.costco.com.tw/medias/sys_master/images/heb/h9e/208447532072990.webp",
+    "image": "https://www.costco.com.tw/medias/sys_master/images/h6d/h02/208447528140830.jpg",
     "buyUrl": "https://www.costco.com.tw/Large-Appliances/p/144425",
     "buyLabel": "Costco 好市多",
     "specs": [

@@ -198,7 +198,7 @@
       "converted": 3499,
       "confidence": "可信通路查核價"
     },
-    "image": "https://cs-a.ecimg.tw/items/DRAFLPA900JKWXK/000001_1782952070.jpg",
+    "image": "https://cs-a.ecimg.tw/items/DRAFLPA900JKWXK/000001_1783555436.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DRAFLP-A900JKWXK",
     "buyLabel": "PChome",
     "specs": [
@@ -489,7 +489,7 @@
     "price": {
       "currency": "USD",
       "amount": 189,
-      "converted": 6072,
+      "converted": 6067,
       "confidence": "Ubiquiti 官方美國售價"
     },
     "image": "https://cdn.ecomm.ui.com/products/fa8dd4e4-36c8-4c79-a928-22c7bff2ce29/ab5bc8a4-6135-402e-a695-e3ea5e16d3e6.png",
@@ -549,7 +549,7 @@
     "price": {
       "currency": "USD",
       "amount": 159,
-      "converted": 5108,
+      "converted": 5104,
       "confidence": "Ubiquiti 官方美國售價"
     },
     "image": "https://cdn.ecomm.ui.com/products/8e88b222-7a55-4cf0-8677-ae9b6347fe84/e16aa122-b5e5-4ffb-9f1a-27ee14d9ab3d.png",
@@ -609,7 +609,7 @@
     "price": {
       "currency": "USD",
       "amount": 99,
-      "converted": 3181,
+      "converted": 3178,
       "confidence": "Ubiquiti 官方美國售價"
     },
     "image": "https://cdn.ecomm.ui.com/products/253cc208-4b09-4b2e-9d1a-7aa1e8f93507/49241c96-878f-4e40-8541-c2e89c1c5e6e.png",
@@ -909,7 +909,7 @@
     "price": {
       "currency": "USD",
       "amount": 129,
-      "converted": 4144,
+      "converted": 4141,
       "confidence": "Ubiquiti 官方美國售價"
     },
     "image": "https://cdn.ecomm.ui.com/products/6d5c6141-e2e9-416a-b789-53e59416bb1a/853bc73b-f65b-4e59-a171-75c9a4a4615e.png",
@@ -969,7 +969,7 @@
     "price": {
       "currency": "USD",
       "amount": 279,
-      "converted": 8964,
+      "converted": 8956,
       "confidence": "Ubiquiti 官方美國售價"
     },
     "image": "https://cdn.ecomm.ui.com/products/350070a0-ae43-431b-b052-8e849c3b0a75/bad94693-bc54-4ab4-b060-9b972401941c.png",
@@ -1033,7 +1033,7 @@
       "converted": 4999,
       "confidence": "可信通路查核價"
     },
-    "image": "https://cs-a.ecimg.tw/items/DRAFLPA900IV4B6/000001_1782965267.jpg",
+    "image": "https://cs-a.ecimg.tw/items/DRAFLPA900IV4B6/000001_1783556530.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DRAFLP-A900IV4B6",
     "buyLabel": "PChome",
     "specs": [
