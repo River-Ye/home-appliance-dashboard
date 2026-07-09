@@ -20,6 +20,33 @@ const DIMENSION_CONFIDENCE_VALUES = new Set(["high", "medium", "low", "not_found
 const HISTORICAL_LOW_STATUSES = new Set(["found", "not_found"]);
 const HISTORICAL_LOW_SOURCE_KINDS = new Set(["price_history", "retailer_promo", "retailer_page", "official_sale", "not_found"]);
 const HISTORICAL_LOW_CONFIDENCE_VALUES = new Set(["high", "medium", "low", "not_found"]);
+const REQUIRED_CATEGORY_TERMS = new Map([
+  ["robot", ["Roborock", "Ecovacs", "Dreame", "Narwal", "iRobot", "eufy", "MOVA", "LG", "Shark", "Dyson"]],
+  ["smartlock", ["Yale", "Philips", "Kaadas", "Aqara", "Lockin", "dormakaba", "HITACHI", "WAFERLOCK"]],
+  ["wifi", ["ASUS", "TP-Link", "D-Link", "NETGEAR", "Linksys", "Synology", "Aruba", "UniFi", "Zyxel", "Mercusys", "Acer", "QNAP"]],
+  ["monitor", ["ASUS", "Acer", "BenQ", "LG", "Dell", "Samsung", "MSI", "GIGABYTE", "ViewSonic", "AOC", "Philips", "EIZO", "Xiaomi"]],
+  ["cookware", ["Tefal", "Buffalo", "WMF", "Fissler", "Le Creuset", "Staub"]],
+  ["knife", ["TOJIRO", "GLOBAL", "Victorinox", "Kai", "Kyocera", "Wusthof"]],
+  ["waterdispenser", ["3M", "EVERPURE", "Coway", "Panasonic", "BWT", "BRITA", "賀眾牌"]],
+  ["dishwasher", ["Panasonic", "TECO", "Toshiba", "Bosch", "Electrolux", "LG", "Miele"]],
+  ["standingdesk", ["Loctek", "iRocks", "NITORI", "COUGAR"]],
+  ["chair", ["iRocks", "Ergohuman", "Razer", "Herman Miller", "Steelcase"]],
+  ["monitorarm", ["Raymii", "Happy Tech", "Loctek", "Ergotron", "j5create"]],
+]);
+const CATEGORY_TEXT_MATCH_COUNTS = [
+  { category: "soundbar", term: "Marshall", exact: 2 },
+  { category: "fan", term: "Philips", min: 5 },
+  { category: "purifier", term: "POIEMA", min: 2 },
+  { category: "wifi", term: "Mesh", min: 20 },
+  { category: "monitor", term: "OLED", min: 8 },
+  { category: "monitor", term: "寬螢幕", min: 15 },
+  { category: "monitorarm", term: "57吋", min: 5 },
+  { category: "monitorarm", term: "30kg", min: 1 },
+  { category: "tv", term: "Chromecast", min: 10 },
+  { category: "monitor", term: "3.93 kg", min: 1 },
+  { category: "standingdesk", term: "2.5cm", min: 3 },
+  { category: "robot", term: "Saros", min: 3 },
+];
 
 const requiredFields = [
   "id",
@@ -53,6 +80,31 @@ function normalize(value) {
     .trim()
     .toLowerCase()
     .replace(/\s+/g, " ");
+}
+
+function productText(product) {
+  return [
+    product.brand,
+    product.model,
+    product.name,
+    product.description,
+    product.bestFor,
+    product.recommendation,
+    product.releaseDate,
+    product.historicalLow?.status,
+    product.historicalLow?.sourceTitle,
+    product.historicalLow?.note,
+    (product.specs || []).join(" "),
+    (product.tags || []).join(" "),
+  ].join(" ").toLowerCase();
+}
+
+function categoryProducts(products, categoryId) {
+  return products.filter((product) => product.category === categoryId);
+}
+
+function textMatches(product, term) {
+  return productText(product).includes(normalize(term));
 }
 
 function assert(condition, message, failures) {
@@ -215,6 +267,43 @@ function validateDimensionResearch(root, products, failures) {
   }
 }
 
+function validateCategoryContent(products, failures) {
+  for (const [categoryId, requiredTerms] of REQUIRED_CATEGORY_TERMS) {
+    const productsInCategory = categoryProducts(products, categoryId);
+    for (const term of requiredTerms) {
+      const found = productsInCategory.some((product) => textMatches(product, term));
+      assert(found, `${categoryId} missing required term ${term}`, failures);
+    }
+  }
+
+  for (const rule of CATEGORY_TEXT_MATCH_COUNTS) {
+    const count = categoryProducts(products, rule.category)
+      .filter((product) => textMatches(product, rule.term))
+      .length;
+    if (rule.exact !== undefined) {
+      assert(count === rule.exact, `${rule.category} expected exactly ${rule.exact} matches for ${rule.term}, got ${count}`, failures);
+    } else {
+      assert(count >= rule.min, `${rule.category} expected at least ${rule.min} matches for ${rule.term}, got ${count}`, failures);
+    }
+  }
+
+  for (const product of categoryProducts(products, "wifi")) {
+    assert(/wi-fi (6|6e|7)/.test(productText(product)), `${product.id} router missing Wi-Fi 6+ standard`, failures);
+  }
+
+  for (const product of categoryProducts(products, "tv")) {
+    assert(productText(product).includes("手機投影："), `${product.id} TV missing mobile casting spec`, failures);
+  }
+
+  for (const product of categoryProducts(products, "monitor")) {
+    assert(productText(product).includes("重量："), `${product.id} monitor missing weight spec`, failures);
+  }
+
+  for (const product of categoryProducts(products, "standingdesk")) {
+    assert(productText(product).includes("桌板厚度："), `${product.id} standing desk missing desktop thickness spec`, failures);
+  }
+}
+
 function main() {
   const root = path.resolve(__dirname, "..");
   const failures = [];
@@ -260,6 +349,7 @@ function main() {
   validateReleaseResearch(root, products, failures);
   validateDimensionResearch(root, products, failures);
   validateHistoricalPriceResearch(root, products, failures);
+  validateCategoryContent(products, failures);
 
   if (failures.length) {
     console.error(failures.map((failure) => `- ${failure}`).join("\n"));

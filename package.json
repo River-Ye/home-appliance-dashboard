@@ -7,7 +7,8 @@
     "check": "npm run check:syntax && npm run check:data && npm run check:ui",
     "check:syntax": "node tools/check-syntax.js",
     "check:data": "node tools/verify-data.js",
-    "check:ui": "node tools/verify-dashboard.js"
+    "check:ui": "node tools/verify-dashboard.js",
+    "check:ui:full": "node tools/verify-dashboard.js --full"
   },
   "devDependencies": {
     "playwright": "^1.61.1"

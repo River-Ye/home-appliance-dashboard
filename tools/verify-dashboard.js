@@ -19,9 +19,15 @@ const screenshotDir = process.env.DASHBOARD_SCREENSHOT_DIR || os.tmpdir();
 
 async function waitForImages(page) {
   await page.waitForFunction(() => {
-    const images = Array.from(document.images).slice(0, 24);
+    const images = Array.from(document.images).filter((image) => {
+      const rect = image.getBoundingClientRect();
+      return rect.bottom >= 0
+        && rect.right >= 0
+        && rect.top <= window.innerHeight
+        && rect.left <= window.innerWidth;
+    });
     return images.length > 0 && images.every((image) => image.complete);
-  }, { timeout: 15000 });
+  }, { timeout: 3000 });
 }
 
 async function visibleText(page, selector) {
@@ -196,7 +202,7 @@ async function assertHistoricalLowCompareLayout(page, name) {
   }
 }
 
-async function runViewport(browser, name, viewport) {
+async function runExhaustiveViewport(browser, name, viewport) {
   const page = await browser.newPage({ viewport });
   await page.goto(fileUrl, { waitUntil: "domcontentloaded" });
   await page.waitForSelector(".product-card");
@@ -607,16 +613,273 @@ async function runViewport(browser, name, viewport) {
   await page.close();
 }
 
+async function openDashboardPage(browser, name, viewport) {
+  const page = await browser.newPage({ viewport });
+  await page.goto(fileUrl, { waitUntil: "domcontentloaded" });
+  await page.waitForSelector(".product-card");
+  await waitForImages(page).catch(() => undefined);
+  await assertBaselineState(page, name, viewport);
+  return page;
+}
+
+async function assertBaselineState(page, name, viewport) {
+  const total = await visibleText(page, "#productCount");
+  if (total.trim() !== "656") throw new Error(`${name}: expected 656 products, got ${total}`);
+  const categoryTotal = await visibleText(page, "#categoryCount");
+  if (categoryTotal.trim() !== "25") throw new Error(`${name}: expected 25 categories, got ${categoryTotal}`);
+  const firstReleaseLabel = await page.locator(".product-card .spec-item", { hasText: "上市 / 發售日期" }).first().count();
+  if (!firstReleaseLabel) throw new Error(`${name}: product cards missing release date field`);
+  const firstHistoricalLow = await page.locator(".product-card .price-insight", { hasText: "歷史最低價 / 入手時機" }).first().count();
+  if (!firstHistoricalLow) throw new Error(`${name}: product cards missing historical low insight`);
+  const historicalLowSourceLink = await page.locator(".product-card").first().locator(".price-insight a", { hasText: "史低出處" }).count();
+  if (!historicalLowSourceLink) throw new Error(`${name}: found historical low card missing source link`);
+  await waitForProductCards(page, 12);
+  await assertHistoricalLowLayout(page, name);
+  const initialRenderedText = await visibleText(page, "#renderedCount");
+  if (!initialRenderedText.includes("12 / 656")) {
+    throw new Error(`${name}: expected initial lazy render 12 / 656, got ${initialRenderedText}`);
+  }
+
+  if (viewport.width >= 700) {
+    const headerOffset = await page.evaluate(() => {
+      const header = document.querySelector(".topbar-inner")?.getBoundingClientRect();
+      const main = document.querySelector("main")?.getBoundingClientRect();
+      return Math.abs((header?.left || 0) - (main?.left || 0));
+    });
+    if (headerOffset > 1) throw new Error(`${name}: header is misaligned by ${headerOffset}px`);
+  }
+
+  await assertNoHorizontalOverflow(page, name);
+  await assertProductImagesStayInsideWrap(page, name);
+}
+
+async function assertNoHorizontalOverflow(page, name) {
+  const overflow = await page.evaluate(() => {
+    const root = document.documentElement;
+    return root.scrollWidth - window.innerWidth;
+  });
+  if (overflow > 2) throw new Error(`${name}: horizontal overflow ${overflow}px`);
+}
+
+async function resetFilters(page) {
+  await page.getByRole("button", { name: "重設篩選" }).click();
+  await page.waitForFunction(() => document.querySelector("#visibleCount")?.textContent?.trim() === "656");
+  await waitForProductCards(page, 12);
+}
+
+async function selectComboboxOption(page, inputSelector, optionSelector, query) {
+  await page.fill(inputSelector, query);
+  await page.locator(optionSelector).click();
+}
+
+async function runSmokeViewport(browser, name, viewport) {
+  const page = await openDashboardPage(browser, name, viewport);
+  try {
+    await page.fill("#searchInput", "POIEMA");
+    await page.waitForFunction(() => document.querySelector("#visibleCount")?.textContent?.trim() === "3");
+    await waitForProductCards(page, 3);
+    await page.fill("#searchInput", "");
+    await page.waitForFunction(() => document.querySelector("#visibleCount")?.textContent?.trim() === "656");
+    await waitForProductCards(page, 12);
+    await assertNoHorizontalOverflow(page, name);
+    await page.screenshot({ path: path.resolve(screenshotDir, `${name}.png`), fullPage: false });
+  } finally {
+    await page.close();
+  }
+}
+
+async function runDesktopJourney(browser) {
+  const name = "dashboard-desktop";
+  const page = await openDashboardPage(browser, name, { width: 1440, height: 1100 });
+  try {
+    await page.fill("#searchInput", "POIEMA");
+    await page.waitForFunction(() => document.querySelector("#visibleCount")?.textContent?.trim() === "3");
+    await waitForProductCards(page, 3);
+    await page.fill("#searchInput", "");
+    await page.waitForFunction(() => document.querySelector("#visibleCount")?.textContent?.trim() === "656");
+    await waitForProductCards(page, 12);
+
+    await page.getByRole("button", { name: "再載入 40 筆" }).click();
+    await waitForProductCards(page, 52);
+    await page.getByRole("button", { name: "載入全部" }).click();
+    await waitForProductCards(page, 656);
+    if (await page.locator("#loadAllProducts").isVisible()) {
+      throw new Error(`${name}: load all button should hide after all products render`);
+    }
+    const unknownHistoricalLow = await page.locator(".product-card .price-insight", { hasText: "無法判定" }).first().count();
+    if (!unknownHistoricalLow) throw new Error(`${name}: missing not-found historical low state`);
+    await assertHistoricalLowLayout(page, name);
+
+    await page.fill("#searchInput", "不存在的商品關鍵字");
+    await page.waitForFunction(() => document.querySelector("#visibleCount")?.textContent?.trim() === "0");
+    await page.fill("#searchInput", "");
+    await page.waitForFunction(() => document.querySelector("#visibleCount")?.textContent?.trim() === "656");
+    await waitForProductCards(page, 12);
+
+    await selectComboboxOption(page, "#categoryInput", '#categoryOptions [data-value="smartlock"]', "電子");
+    await page.waitForFunction(() => document.querySelector("#visibleCount")?.textContent?.trim() === "48");
+    await page.locator("#brandInput").click();
+    const smartLockBrandOptions = await page.$$eval("#brandOptions [data-value]", (options) => options.map((option) => option.dataset.value));
+    if (!smartLockBrandOptions.includes("Yale")) throw new Error(`${name}: smart lock brands missing Yale`);
+    if (smartLockBrandOptions.includes("ASUS")) throw new Error(`${name}: smart lock brands should not include ASUS`);
+    await selectComboboxOption(page, "#brandInput", '#brandOptions [data-value="Yale"]', "Yale");
+    await page.waitForFunction(() => Number(document.querySelector("#visibleCount")?.textContent || 0) > 0);
+    await selectComboboxOption(page, "#budgetInput", '#budgetOptions [data-value="mid"]', "均衡");
+    await page.waitForFunction(() => Number(document.querySelector("#visibleCount")?.textContent || 0) > 0);
+    await selectComboboxOption(page, "#channelInput", '#channelOptions [data-value="tw"]', "台灣");
+    await page.waitForFunction(() => Number(document.querySelector("#visibleCount")?.textContent || 0) > 0);
+    await selectComboboxOption(page, "#sortInput", '#sortOptions [data-value="priceAsc"]', "價格低");
+    const sortValue = await page.locator("#sortInput").inputValue();
+    if (sortValue !== "價格低到高") throw new Error(`${name}: searchable sort did not select priceAsc`);
+    await resetFilters(page);
+
+    await selectComboboxOption(page, "#categoryInput", '#categoryOptions [data-value="wifi"]', "無線");
+    await page.waitForFunction(() => document.querySelector("#visibleCount")?.textContent?.trim() === "48");
+    await page.locator("#brandInput").click();
+    const routerBrandOptions = await page.$$eval("#brandOptions [data-value]", (options) => options.map((option) => option.dataset.value));
+    for (const expected of ["ASUS", "TP-Link", "Aruba", "UniFi"]) {
+      if (!routerBrandOptions.includes(expected)) throw new Error(`${name}: router brands missing ${expected}`);
+    }
+    if (routerBrandOptions.includes("Yale")) throw new Error(`${name}: router brands should not include Yale`);
+    await page.locator("#searchInput").click();
+    await page.waitForFunction(() => document.querySelector("#brandOptions")?.hidden);
+    await resetFilters(page);
+
+    await page.getByRole("button", { name: "Soundbar 25" }).click();
+    await page.waitForFunction(() => document.querySelector("#visibleCount")?.textContent?.trim() === "25");
+    await page.locator("#brandInput").click();
+    const soundbarBrandOptions = await page.$$eval("#brandOptions [data-value]", (options) => options.map((option) => option.dataset.value));
+    if (!soundbarBrandOptions.includes("Marshall")) throw new Error(`${name}: soundbar brands missing Marshall`);
+    await selectComboboxOption(page, "#brandInput", '#brandOptions [data-value="Marshall"]', "Marshall");
+    await page.waitForFunction(() => document.querySelector("#visibleCount")?.textContent?.trim() === "2");
+    await waitForProductCards(page, 2);
+    const marshallSoundbarCount = await page.locator(".product-card", { hasText: "Marshall" }).count();
+    if (marshallSoundbarCount !== 2) throw new Error(`${name}: expected 2 Marshall soundbars, got ${marshallSoundbarCount}`);
+    const marshallCompareButton = page.locator(".compare-button").first();
+    await marshallCompareButton.scrollIntoViewIfNeeded();
+    await marshallCompareButton.click();
+    await page.waitForFunction(() => document.querySelector("#compareCount")?.textContent?.trim() === "1");
+    const compareRows = await page.locator("#compareTable table tr").count();
+    if (compareRows < 3) throw new Error(`${name}: compare table did not render`);
+    const releaseCompareRows = await page.locator("#compareTable tr", { hasText: "上市/發售" }).count();
+    if (releaseCompareRows !== 1) throw new Error(`${name}: compare table missing release date row`);
+    const historicalCompareRows = await page.locator("#compareTable tr", { hasText: "歷史最低價 / 入手時機" }).count();
+    if (historicalCompareRows !== 1) throw new Error(`${name}: compare table missing historical low row`);
+    await assertHistoricalLowCompareLayout(page, name);
+    await page.locator("#clearCompare").click();
+    await page.waitForFunction(() => document.querySelector("#compareCount")?.textContent?.trim() === "0");
+    await resetFilters(page);
+
+    await page.locator("#topPicks [data-focus-product]").nth(14).click();
+    await page.waitForFunction(() => document.querySelectorAll(".product-card").length >= 15);
+    await page.waitForFunction(() => document.querySelector(".product-card.is-targeted"));
+    const targetedCardVisible = await page.locator(".product-card.is-targeted").isVisible();
+    if (!targetedCardVisible) throw new Error(`${name}: top pick target card is not visible`);
+
+    await page.getByLabel("滑動到最下面").click();
+    await page.waitForFunction(() => window.scrollY > 200);
+    await page.getByLabel("滑動到最上面").click();
+    await page.waitForFunction(() => window.scrollY < 20);
+    await assertNoHorizontalOverflow(page, name);
+    await assertProductImagesStayInsideWrap(page, name);
+    await page.screenshot({ path: path.resolve(screenshotDir, `${name}.png`), fullPage: false });
+  } finally {
+    await page.close();
+  }
+}
+
+async function runMobileJourney(browser) {
+  const name = "dashboard-mobile";
+  const page = await openDashboardPage(browser, name, { width: 390, height: 844 });
+  try {
+    const filterToggle = page.getByRole("button", { name: /^篩選/ });
+    await filterToggle.click();
+    let expanded = await filterToggle.getAttribute("aria-expanded");
+    if (expanded !== "true") throw new Error(`${name}: mobile filter did not expand`);
+    if (!await page.locator("#advancedFilters").isVisible()) {
+      throw new Error(`${name}: mobile filter panel hidden after expand`);
+    }
+
+    await selectComboboxOption(page, "#categoryInput", '#categoryOptions [data-value="soundbar"]', "Soundbar");
+    await page.waitForFunction(() => document.querySelector("#visibleCount")?.textContent?.trim() === "25");
+    await selectComboboxOption(page, "#brandInput", '#brandOptions [data-value="Marshall"]', "Marshall");
+    await page.waitForFunction(() => document.querySelector("#visibleCount")?.textContent?.trim() === "2");
+    await waitForProductCards(page, 2);
+    const compareButton = page.locator(".compare-button").first();
+    await compareButton.scrollIntoViewIfNeeded();
+    await compareButton.click();
+    await page.waitForFunction(() => document.querySelector("#compareCount")?.textContent?.trim() === "1");
+    await assertHistoricalLowCompareLayout(page, name);
+    await page.locator("#clearCompare").click();
+    await page.waitForFunction(() => document.querySelector("#compareCount")?.textContent?.trim() === "0");
+    await resetFilters(page);
+
+    await page.evaluate(() => window.scrollTo({ top: 0, behavior: "auto" }));
+    await page.fill("#searchInput", "WWEB10701BS");
+    await page.waitForFunction(() => document.querySelector("#visibleCount")?.textContent?.trim() === "1");
+    await waitForProductCards(page, 1);
+    await page.locator(".product-card").first().evaluate((card) => {
+      const rect = card.getBoundingClientRect();
+      window.scrollTo({ top: Math.max(0, window.scrollY + rect.top - 64), behavior: "auto" });
+    });
+    await page.waitForFunction(() => {
+      const card = document.querySelector(".product-card");
+      if (!card) return false;
+      const top = card.getBoundingClientRect().top;
+      return top >= 48 && top <= 96;
+    });
+    await waitForImages(page).catch(() => undefined);
+    await assertProductImagesStayInsideWrap(page, `${name} WWEB10701BS`);
+    await page.screenshot({ path: path.resolve(screenshotDir, `${name}-wweb10701bs.png`), fullPage: false });
+    await page.fill("#searchInput", "");
+    await page.waitForFunction(() => document.querySelector("#visibleCount")?.textContent?.trim() === "656");
+    await waitForProductCards(page, 12);
+
+    await page.evaluate(() => window.scrollTo(0, 520));
+    await page.waitForFunction(() => document.body.classList.contains("show-mobile-dock"));
+    await page.getByLabel("滑動到最下面").click();
+    await page.waitForFunction(() => window.scrollY > 200);
+    await page.getByLabel("滑動到最上面").click();
+    await page.waitForFunction(() => window.scrollY < 20);
+
+    if (await filterToggle.getAttribute("aria-expanded") === "true") {
+      await filterToggle.click();
+      await page.waitForFunction(() => document.querySelector("#advancedFilters")?.hidden);
+    }
+    await filterToggle.click();
+    expanded = await filterToggle.getAttribute("aria-expanded");
+    if (expanded !== "true") throw new Error(`${name}: mobile filter did not expand after reset`);
+    await filterToggle.click();
+    const collapsed = await filterToggle.getAttribute("aria-expanded");
+    if (collapsed !== "false") throw new Error(`${name}: mobile filter did not collapse`);
+
+    await assertNoHorizontalOverflow(page, name);
+    await assertHistoricalLowLayout(page, name);
+    await page.screenshot({ path: path.resolve(screenshotDir, `${name}.png`), fullPage: false });
+  } finally {
+    await page.close();
+  }
+}
+
 (async () => {
+  const fullMode = process.argv.includes("--full");
   const browser = await chromium.launch({ headless: true });
   try {
-    await runViewport(browser, "dashboard-wide-desktop", { width: 2048, height: 1152 });
-    await runViewport(browser, "dashboard-desktop", { width: 1440, height: 1100 });
-    await runViewport(browser, "dashboard-narrow-desktop", { width: 1120, height: 1000 });
-    await runViewport(browser, "dashboard-tablet", { width: 1180, height: 1000 });
-    await runViewport(browser, "dashboard-mobile", { width: 390, height: 844 });
+    if (fullMode) {
+      await runExhaustiveViewport(browser, "dashboard-wide-desktop", { width: 2048, height: 1152 });
+      await runExhaustiveViewport(browser, "dashboard-desktop", { width: 1440, height: 1100 });
+      await runExhaustiveViewport(browser, "dashboard-narrow-desktop", { width: 1120, height: 1000 });
+      await runExhaustiveViewport(browser, "dashboard-tablet", { width: 1180, height: 1000 });
+      await runExhaustiveViewport(browser, "dashboard-mobile", { width: 390, height: 844 });
+    } else {
+      await runSmokeViewport(browser, "dashboard-wide-desktop", { width: 2048, height: 1152 });
+      await runDesktopJourney(browser);
+      await runSmokeViewport(browser, "dashboard-narrow-desktop", { width: 1120, height: 1000 });
+      await runSmokeViewport(browser, "dashboard-tablet", { width: 1180, height: 1000 });
+      await runMobileJourney(browser);
+    }
   } finally {
     await browser.close();
   }
-  console.log("dashboard verification passed");
+  console.log(fullMode ? "dashboard full verification passed" : "dashboard verification passed");
 })();
