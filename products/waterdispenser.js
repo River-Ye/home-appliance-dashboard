@@ -56,7 +56,20 @@
       "RO"
     ],
     "category": "waterdispenser",
-    "releaseDate": "找不到"
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-07-09",
+      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+    }
   },
   {
     "id": "waterdispenser-3m-hfro-800g",
@@ -107,7 +120,20 @@
       "淨水"
     ],
     "category": "waterdispenser",
-    "releaseDate": "找不到"
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-07-09",
+      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+    }
   },
   {
     "id": "waterdispenser-everpure-purvive-h300nxt",
@@ -159,7 +185,20 @@
       "RO"
     ],
     "category": "waterdispenser",
-    "releaseDate": "找不到"
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-07-09",
+      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+    }
   },
   {
     "id": "waterdispenser-coway-p-150n",
@@ -211,7 +250,20 @@
       "RO"
     ],
     "category": "waterdispenser",
-    "releaseDate": "找不到"
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-07-09",
+      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+    }
   },
   {
     "id": "waterdispenser-panasonic-tk-cb30",
@@ -263,7 +315,20 @@
       "RO"
     ],
     "category": "waterdispenser",
-    "releaseDate": "找不到"
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-07-09",
+      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+    }
   },
   {
     "id": "waterdispenser-bwt-slim-3",
@@ -314,7 +379,20 @@
       "RO"
     ],
     "category": "waterdispenser",
-    "releaseDate": "找不到"
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-07-09",
+      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+    }
   },
   {
     "id": "waterdispenser-sakura-p0261-600g",
@@ -364,7 +442,20 @@
       "淨水"
     ],
     "category": "waterdispenser",
-    "releaseDate": "找不到"
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-07-09",
+      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+    }
   },
   {
     "id": "waterdispenser-philips-aut7005",
@@ -414,7 +505,20 @@
       "淨水"
     ],
     "category": "waterdispenser",
-    "releaseDate": "找不到"
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-07-09",
+      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+    }
   },
   {
     "id": "waterdispenser-brita-mypure-gr1000",
@@ -465,7 +569,20 @@
       "淨水"
     ],
     "category": "waterdispenser",
-    "releaseDate": "找不到"
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-07-09",
+      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+    }
   },
   {
     "id": "waterdispenser-bwt-slim-ro-df",
@@ -515,7 +632,20 @@
       "淨水"
     ],
     "category": "waterdispenser",
-    "releaseDate": "找不到"
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-07-09",
+      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+    }
   },
   {
     "id": "waterdispenser-everpure-hs188-4h2",
@@ -566,7 +696,20 @@
       "RO"
     ],
     "category": "waterdispenser",
-    "releaseDate": "找不到"
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-07-09",
+      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+    }
   },
   {
     "id": "waterdispenser--uw-2262hw-1",
@@ -617,7 +760,20 @@
       "RO"
     ],
     "category": "waterdispenser",
-    "releaseDate": "找不到"
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-07-09",
+      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+    }
   },
   {
     "id": "waterdispenser--hs-400g",
@@ -667,7 +823,20 @@
       "淨水"
     ],
     "category": "waterdispenser",
-    "releaseDate": "找不到"
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-07-09",
+      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+    }
   },
   {
     "id": "waterdispenser-sakura-p0563",
@@ -717,7 +886,20 @@
       "RO"
     ],
     "category": "waterdispenser",
-    "releaseDate": "找不到"
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-07-09",
+      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+    }
   },
   {
     "id": "waterdispenser-coway-noble-chp-3140n",
@@ -769,7 +951,20 @@
       "RO"
     ],
     "category": "waterdispenser",
-    "releaseDate": "找不到"
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-07-09",
+      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+    }
   },
   {
     "id": "waterdispenser-extra-16-dsbe1fa900gsoln",
@@ -814,7 +1009,20 @@
       "UV",
       "雙溫"
     ],
-    "releaseDate": "找不到"
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-07-09",
+      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+    }
   },
   {
     "id": "waterdispenser-extra-17-dmci2fa900jbnk6",
@@ -859,7 +1067,20 @@
       "瞬熱",
       "聲控"
     ],
-    "releaseDate": "找不到"
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-07-09",
+      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+    }
   },
   {
     "id": "waterdispenser-extra-18-dmci0oa900jt66n",
@@ -904,7 +1125,20 @@
       "RO",
       "雙溫"
     ],
-    "releaseDate": "找不到"
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-07-09",
+      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+    }
   },
   {
     "id": "waterdispenser-extra-19-dmci19a900iw2pm",
@@ -949,7 +1183,20 @@
       "冷熱",
       "Honeywell"
     ],
-    "releaseDate": "找不到"
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-07-09",
+      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+    }
   },
   {
     "id": "waterdispenser-extra-20-dmawb8a900bveog",
@@ -994,7 +1241,20 @@
       "加熱",
       "BWT"
     ],
-    "releaseDate": "找不到"
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-07-09",
+      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+    }
   },
   {
     "id": "waterdispenser-costco-us-brondell-circle",
@@ -1040,7 +1300,20 @@
       "RO",
       "櫥下"
     ],
-    "releaseDate": "找不到"
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "USD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-07-09",
+      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+    }
   }
-  ]);
+]);
 })();

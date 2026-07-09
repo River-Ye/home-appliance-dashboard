@@ -49,7 +49,20 @@
       "顯塵",
       "乾吸"
     ],
-    "releaseDate": "2022-06-22"
+    "releaseDate": "2022-06-22",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-07-09",
+      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+    }
   },
   {
     "id": "vac-lg-a9x",
@@ -94,7 +107,20 @@
       "除蟎",
       "乾吸"
     ],
-    "releaseDate": "找不到"
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-07-09",
+      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+    }
   },
   {
     "id": "vac-lg-a9k",
@@ -139,7 +165,20 @@
       "寵物",
       "濕拖"
     ],
-    "releaseDate": "2020-11-27"
+    "releaseDate": "2020-11-27",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-07-09",
+      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+    }
   },
   {
     "id": "vac-tineco-s7",
@@ -184,7 +223,20 @@
       "熱水洗",
       "寵物"
     ],
-    "releaseDate": "2024"
+    "releaseDate": "2024",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-07-09",
+      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+    }
   },
   {
     "id": "vac-dyson-submarine",
@@ -229,7 +281,20 @@
       "顯塵",
       "旗艦"
     ],
-    "releaseDate": "2023-06-28"
+    "releaseDate": "2023-06-28",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-07-09",
+      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+    }
   },
   {
     "id": "vacuum-extra-6-dmax00-1900i2dsh",
@@ -274,7 +339,20 @@
       "輕量",
       "無線"
     ],
-    "releaseDate": "2021-05"
+    "releaseDate": "2021-05",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-07-09",
+      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+    }
   },
   {
     "id": "vacuum-extra-7-dmax00-1900jra9w",
@@ -319,7 +397,20 @@
       "Dyson",
       "寵物"
     ],
-    "releaseDate": "2025-11"
+    "releaseDate": "2025-11",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-07-09",
+      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+    }
   },
   {
     "id": "vacuum-extra-8-dmax00-a900hc7b6",
@@ -364,7 +455,20 @@
       "Dyson",
       "高吸力"
     ],
-    "releaseDate": "2021"
+    "releaseDate": "2021",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-07-09",
+      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+    }
   },
   {
     "id": "vacuum-extra-9-dmax00-a900hc5bz",
@@ -409,7 +513,20 @@
       "手持",
       "CP 值"
     ],
-    "releaseDate": "找不到"
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-07-09",
+      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+    }
   },
   {
     "id": "vacuum-extra-10-dmax8k-a900hlxaq",
@@ -454,7 +571,20 @@
       "蒸氣",
       "LG"
     ],
-    "releaseDate": "找不到"
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-07-09",
+      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+    }
   },
   {
     "id": "vacuum-extra-11-dmbm2z-a900iukmi",
@@ -499,7 +629,20 @@
       "輕量",
       "低價"
     ],
-    "releaseDate": "找不到"
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-07-09",
+      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+    }
   },
   {
     "id": "vacuum-extra-12-dmax6f-a900k2nsv",
@@ -544,7 +687,20 @@
       "輕量",
       "均衡"
     ],
-    "releaseDate": "2018-12-18"
+    "releaseDate": "2018-12-18",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-07-09",
+      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+    }
   },
   {
     "id": "vacuum-extra-13-dsbe1a-a900jj4lu",
@@ -589,7 +745,20 @@
       "低價",
       "小宅"
     ],
-    "releaseDate": "找不到"
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-07-09",
+      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+    }
   },
   {
     "id": "vacuum-extra-14-dsbe1a-a900j8h81",
@@ -634,7 +803,20 @@
       "手持",
       "設計"
     ],
-    "releaseDate": "找不到"
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-07-09",
+      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+    }
   },
   {
     "id": "vacuum-extra-15-dsbe1a-a900ha30v",
@@ -679,7 +861,20 @@
       "低價",
       "家用"
     ],
-    "releaseDate": "找不到"
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-07-09",
+      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+    }
   },
   {
     "id": "vacuum-extra-16-dmaxb5a900jp6tz",
@@ -724,7 +919,20 @@
       "蒸氣",
       "旗艦"
     ],
-    "releaseDate": "找不到"
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-07-09",
+      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+    }
   },
   {
     "id": "vacuum-extra-17-dmax00a900jpj7h",
@@ -769,7 +977,20 @@
       "輕量",
       "筆型"
     ],
-    "releaseDate": "2025"
+    "releaseDate": "2025",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-07-09",
+      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+    }
   },
   {
     "id": "vacuum-extra-18-dmaxb5a900jcn6g",
@@ -814,7 +1035,20 @@
       "AI",
       "平躺"
     ],
-    "releaseDate": "2025"
+    "releaseDate": "2025",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-07-09",
+      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+    }
   },
   {
     "id": "vacuum-extra-19-dmax0za900higmz",
@@ -859,7 +1093,20 @@
       "Panasonic",
       "無線"
     ],
-    "releaseDate": "找不到"
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-07-09",
+      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+    }
   },
   {
     "id": "vacuum-extra-20-dmax0za900k4iqz",
@@ -904,7 +1151,20 @@
       "無線",
       "Panasonic"
     ],
-    "releaseDate": "找不到"
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-07-09",
+      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+    }
   },
   {
     "id": "vacuum-costco-electrolux-wq71-2bswf",
@@ -948,7 +1208,20 @@
       "無線",
       "中階"
     ],
-    "releaseDate": "找不到"
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-07-09",
+      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+    }
   },
   {
     "id": "vacuum-costco-iris-ic-h50",
@@ -996,7 +1269,20 @@
       "輕量",
       "小空間"
     ],
-    "releaseDate": "找不到"
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-07-09",
+      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+    }
   },
   {
     "id": "vacuum-costco-iris-hcd-22mw",
@@ -1044,7 +1330,20 @@
       "延長管",
       "輕量"
     ],
-    "releaseDate": "找不到"
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-07-09",
+      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+    }
   }
-  ]);
+]);
 })();

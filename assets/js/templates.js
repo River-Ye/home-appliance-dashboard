@@ -10,6 +10,54 @@
     return product.releaseDate || "找不到";
   }
 
+  function historicalLowInfo(product) {
+    const low = product.historicalLow || {};
+    if (low.status !== "found" || typeof low.converted !== "number" || low.converted <= 0) {
+      return {
+        className: "unknown",
+        label: "無法判定",
+        lowText: "歷史最低價：找不到",
+        detail: "尚無可公開驗證的同型號新品史低來源",
+        sourceUrl: "",
+      };
+    }
+
+    const diffRatio = (product.price.converted - low.converted) / low.converted;
+    const diffPercent = Math.abs(diffRatio * 100).toFixed(diffRatio < 0.01 ? 1 : 0);
+    let className = "high";
+    let label = "偏高";
+    if (diffRatio <= 0) {
+      className = "buy";
+      label = "史低可入手";
+    } else if (diffRatio <= 0.05) {
+      className = "near";
+      label = "接近史低";
+    } else if (diffRatio <= 0.10) {
+      className = "watch";
+      label = "可觀望";
+    }
+
+    const originalLow = low.currency === "TWD"
+      ? ""
+      : `（${utils.formatCurrencyAmount(low.currency, low.amount)}）`;
+    const detail = diffRatio <= 0
+      ? "現價等於或低於可驗證史低"
+      : `現價高出史低約 ${diffPercent}%`;
+
+    return {
+      className,
+      label,
+      lowText: `歷史最低價：${utils.formatTwd(low.converted)}${originalLow}`,
+      detail,
+      sourceUrl: low.sourceUrl || "",
+    };
+  }
+
+  function historicalLowText(product) {
+    const info = historicalLowInfo(product);
+    return `${info.label}；${info.lowText}；${info.detail}`;
+  }
+
   function imageMarkup(product) {
     const brand = utils.escapeHtml(product.brand);
     const model = utils.escapeHtml(product.model);
@@ -37,6 +85,18 @@
       <div class="spec-item">
         <b>${utils.escapeHtml(label)}</b>
         <span>${utils.escapeHtml(value)}</span>
+      </div>
+    `;
+  }
+
+  function historicalLowMarkup(product) {
+    const info = historicalLowInfo(product);
+    return `
+      <div class="price-insight price-insight--${utils.escapeHtml(info.className)}">
+        <span class="field-label">歷史最低價 / 入手時機</span>
+        <strong>${utils.escapeHtml(info.label)}</strong>
+        <small>${utils.escapeHtml(info.lowText)} · ${utils.escapeHtml(info.detail)}</small>
+        ${info.sourceUrl ? `<a href="${utils.escapeHtml(info.sourceUrl)}" target="_blank" rel="noreferrer">史低出處</a>` : ""}
       </div>
     `;
   }
@@ -96,6 +156,7 @@
               <strong>${utils.escapeHtml(utils.formatTwd(product.price.converted))}</strong>
               <small>${utils.escapeHtml(utils.formatOriginal(product.price))} · ${utils.escapeHtml(priceNote)}</small>
             </div>
+            ${historicalLowMarkup(product)}
             <div class="score" title="綜合評估分數">${utils.escapeHtml(product.score)}</div>
           </div>
           <div class="spec-list">
@@ -135,6 +196,7 @@
       ["品牌/型號", (product) => `${product.brand} ${product.model}`],
       ["TWD 價格", (product) => utils.formatTwd(product.price.converted)],
       ["原幣價格", (product) => utils.formatOriginal(product.price)],
+      ["歷史最低價 / 入手時機", historicalLowText],
       ["上市/發售", releaseDateText],
       ["規格", (product) => product.specs.join(" / ")],
       ["優勢", (product) => product.pros.join(" / ")],
@@ -159,6 +221,8 @@
 
   dashboard.templates = {
     releaseDateText,
+    historicalLowInfo,
+    historicalLowText,
     imageMarkup,
     specItemMarkup,
     topPickMarkup,

@@ -17,6 +17,9 @@ const DIMENSION_CATEGORIES = new Set(DIMENSION_CATEGORY_COUNTS.keys());
 const EXPECTED_DIMENSION_PRODUCT_COUNT = [...DIMENSION_CATEGORY_COUNTS.values()].reduce((sum, count) => sum + count, 0);
 const DIMENSION_PATTERN = /^尺寸：(未標示|寬 \d+(?:\.\d+)? x 深 \d+(?:\.\d+)? x 高 \d+(?:\.\d+)? cm)$/;
 const DIMENSION_CONFIDENCE_VALUES = new Set(["high", "medium", "low", "not_found"]);
+const HISTORICAL_LOW_STATUSES = new Set(["found", "not_found"]);
+const HISTORICAL_LOW_SOURCE_KINDS = new Set(["price_history", "retailer_promo", "retailer_page", "official_sale", "not_found"]);
+const HISTORICAL_LOW_CONFIDENCE_VALUES = new Set(["high", "medium", "low", "not_found"]);
 
 const requiredFields = [
   "id",
@@ -38,6 +41,7 @@ const requiredFields = [
   "bestFor",
   "recommendation",
   "releaseDate",
+  "historicalLow",
   "score",
   "voltage",
   "warranty",
@@ -55,6 +59,37 @@ function assert(condition, message, failures) {
   if (!condition) failures.push(message);
 }
 
+function validateHistoricalLow(product, failures) {
+  const low = product.historicalLow;
+  assert(low && typeof low === "object" && !Array.isArray(low), `${product.id} historicalLow must be an object`, failures);
+  if (!low || typeof low !== "object" || Array.isArray(low)) return;
+
+  assert(HISTORICAL_LOW_STATUSES.has(low.status), `${product.id} historicalLow has invalid status: ${low.status}`, failures);
+  assert(HISTORICAL_LOW_SOURCE_KINDS.has(low.sourceKind), `${product.id} historicalLow has invalid sourceKind: ${low.sourceKind}`, failures);
+  assert(HISTORICAL_LOW_CONFIDENCE_VALUES.has(low.confidence), `${product.id} historicalLow has invalid confidence: ${low.confidence}`, failures);
+  assert(low.checkedAt, `${product.id} historicalLow requires checkedAt`, failures);
+  assert(low.currency, `${product.id} historicalLow requires currency`, failures);
+  assert(typeof low.note === "string" && low.note.trim(), `${product.id} historicalLow requires note`, failures);
+
+  if (low.status === "found") {
+    assert(typeof low.amount === "number" && low.amount > 0, `${product.id} found historicalLow requires positive amount`, failures);
+    assert(typeof low.converted === "number" && low.converted > 0, `${product.id} found historicalLow requires positive converted`, failures);
+    assert(low.sourceUrl && /^https?:\/\//.test(low.sourceUrl), `${product.id} found historicalLow requires sourceUrl`, failures);
+    assert(low.sourceTitle, `${product.id} found historicalLow requires sourceTitle`, failures);
+    assert(low.evidenceSnippet, `${product.id} found historicalLow requires evidenceSnippet`, failures);
+    assert(low.sourceKind !== "not_found", `${product.id} found historicalLow cannot use not_found sourceKind`, failures);
+    assert(low.confidence !== "not_found", `${product.id} found historicalLow cannot use not_found confidence`, failures);
+  } else if (low.status === "not_found") {
+    assert(low.amount === null, `${product.id} not_found historicalLow amount must be null`, failures);
+    assert(low.converted === null, `${product.id} not_found historicalLow converted must be null`, failures);
+    assert(low.sourceUrl === "", `${product.id} not_found historicalLow sourceUrl must be empty`, failures);
+    assert(low.sourceTitle === "", `${product.id} not_found historicalLow sourceTitle must be empty`, failures);
+    assert(low.evidenceSnippet === "", `${product.id} not_found historicalLow evidenceSnippet must be empty`, failures);
+    assert(low.sourceKind === "not_found", `${product.id} not_found historicalLow sourceKind must be not_found`, failures);
+    assert(low.confidence === "not_found", `${product.id} not_found historicalLow confidence must be not_found`, failures);
+  }
+}
+
 function validateProduct(product, categoryIds, failures) {
   for (const field of requiredFields) {
     assert(product[field] !== undefined && product[field] !== null && product[field] !== "", `${product.id || "(missing id)"} missing ${field}`, failures);
@@ -68,6 +103,7 @@ function validateProduct(product, categoryIds, failures) {
   assert(product.price && typeof product.price.converted === "number" && product.price.converted > 0, `${product.id} must have positive TWD price`, failures);
   assert(product.buyUrl && /^https?:\/\//.test(product.buyUrl), `${product.id} buyUrl must be http(s)`, failures);
   assert(DATE_PATTERN.test(String(product.releaseDate || "")), `${product.id} releaseDate has invalid format: ${product.releaseDate}`, failures);
+  validateHistoricalLow(product, failures);
 
   if (product.category === "washerdryer") {
     const capacitySpecs = product.specs.filter((spec) => WASHER_DRYER_CAPACITY_PATTERN.test(String(spec).trim()));
@@ -84,6 +120,40 @@ function validateProduct(product, categoryIds, failures) {
     if (dimensionSpecs.length === 1) {
       assert(DIMENSION_PATTERN.test(String(dimensionSpecs[0]).trim()), `${product.id} has invalid dimension spec: ${dimensionSpecs[0]}`, failures);
     }
+  }
+}
+
+function validateHistoricalPriceResearch(root, products, failures) {
+  const researchFile = path.join(root, "historical_price_research.json");
+  assert(fs.existsSync(researchFile), "historical_price_research.json is missing", failures);
+  if (!fs.existsSync(researchFile)) return;
+
+  const research = JSON.parse(fs.readFileSync(researchFile, "utf8"));
+  const researchRows = Array.isArray(research.results) ? research.results : [];
+  const researchById = new Map(researchRows.map((row) => [row.id, row]));
+  const foundRows = researchRows.filter((row) => row.historicalLow?.status === "found");
+  const missingRows = researchRows.filter((row) => row.historicalLow?.status === "not_found");
+
+  assert(researchRows.length === products.length, `historical price research rows ${researchRows.length} does not match products ${products.length}`, failures);
+  assert(researchById.size === products.length, `historical price research count ${researchById.size} does not match products ${products.length}`, failures);
+  assert(research.summary && research.summary.total === products.length, "historical price research summary total mismatch", failures);
+  assert(research.summary && research.summary.found === foundRows.length, "historical price research summary found mismatch", failures);
+  assert(research.summary && research.summary.missing === missingRows.length, "historical price research summary missing mismatch", failures);
+
+  for (const product of products) {
+    const row = researchById.get(product.id);
+    assert(row, `${product.id} missing historical price research row`, failures);
+    if (!row) continue;
+
+    assert(row.category === product.category, `${product.id} historical price research category mismatch`, failures);
+    assert(row.brand === product.brand, `${product.id} historical price research brand mismatch`, failures);
+    assert(row.model === product.model, `${product.id} historical price research model mismatch`, failures);
+    assert(row.name === product.name, `${product.id} historical price research name mismatch`, failures);
+    assert(row.currentPrice === product.price.converted, `${product.id} historical price research current price mismatch`, failures);
+    assert(row.currentCurrency === product.price.currency, `${product.id} historical price research current currency mismatch`, failures);
+    assert(row.currentBuyUrl === product.buyUrl, `${product.id} historical price research buyUrl mismatch`, failures);
+    assert(row.currentBuyLabel === product.buyLabel, `${product.id} historical price research buyLabel mismatch`, failures);
+    assert(JSON.stringify(row.historicalLow) === JSON.stringify(product.historicalLow), `${product.id} historicalLow research mismatch`, failures);
   }
 }
 
@@ -189,6 +259,7 @@ function main() {
 
   validateReleaseResearch(root, products, failures);
   validateDimensionResearch(root, products, failures);
+  validateHistoricalPriceResearch(root, products, failures);
 
   if (failures.length) {
     console.error(failures.map((failure) => `- ${failure}`).join("\n"));

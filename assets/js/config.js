@@ -57,7 +57,7 @@
     initialProductLimit: 12,
     loadMoreProductCount: 40,
     filterControlNames: ["category", "brand", "budget", "channel", "sort"],
-    cacheVersion: "20260709-large-appliance-dimensions",
+    cacheVersion: "20260709-historical-low",
   };
 
   function registerProducts(categoryId, items) {

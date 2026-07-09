@@ -123,6 +123,7 @@
 - `bestFor`
 - `recommendation`
 - `releaseDate`
+- `historicalLow`
 - `score`
 - `voltage`
 - `warranty`
@@ -140,6 +141,9 @@
 - 日期查核需保留 `release_date_research.json` 證據檔；非「找不到」項目必須有 `sourceUrl`、`sourceTitle`、`evidenceSnippet` 與 `confidence`，且 `releaseDate` 只能使用 `YYYY-MM-DD`、`YYYY-MM`、`YYYY`。
 - 補查上市/發售日時，優先官方新聞稿、官方產品發表頁、官方上市/發售公告；其次才使用可信媒體/評測明確寫出的 release/launch/上市/發售文字。不可把 Google/Bing 生成式摘要、支援頁的說明書/韌體/驅動 release date、文章發布日、促銷期間、上架日、保固文件日期、購買頁庫存日期或型號年份當作上市日。
 - 若搜尋結果只找到「released in 2024」這類明確年份，可填 `YYYY`；只寫月份則填 `YYYY-MM`。不要自行補月份或日期。
+- 每筆商品都必須標示 `historicalLow`，代表同型號、同尺寸/容量/規格在可信新品通路可驗證的歷史最低價與入手時機判斷；若找不到可靠來源，需填 `status: "not_found"`，不要以現價推定史低。
+- 歷史最低價查核需保留 `historical_price_research.json` 證據檔；`found` 項目必須有 `sourceUrl`、`sourceTitle`、`evidenceSnippet`、`amount`、`currency`、`converted`、`sourceKind`、`confidence` 與 `checkedAt`，`not_found` 項目必須寫明查核說明。
+- 歷史最低價來源排除會員個人化折扣、信用卡回饋、點數、二手、福利品、展示機、拆封品、整新品、配件頁或耗材頁；海外史低需在 `note` 標示未含國際運費、進口稅、電壓/插頭與台灣保固風險。
 - 大量更新商品檔時仍需維持 `outputs/products/*.js` 逐分類獨立，不要把商品資料塞回 `assets/js/*.js`。
 
 ## 特別分類規則

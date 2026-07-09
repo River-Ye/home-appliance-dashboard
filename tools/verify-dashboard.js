@@ -103,36 +103,42 @@ async function runViewport(browser, name, viewport) {
   await waitForImages(page).catch(() => undefined);
 
   const total = await visibleText(page, "#productCount");
-  if (total.trim() !== "655") throw new Error(`${name}: expected 655 products, got ${total}`);
+  if (total.trim() !== "656") throw new Error(`${name}: expected 656 products, got ${total}`);
   const categoryTotal = await visibleText(page, "#categoryCount");
   if (categoryTotal.trim() !== "25") throw new Error(`${name}: expected 25 categories, got ${categoryTotal}`);
   const firstReleaseLabel = await page.locator(".product-card .spec-item", { hasText: "上市 / 發售日期" }).first().count();
   if (!firstReleaseLabel) throw new Error(`${name}: product cards missing release date field`);
+  const firstHistoricalLow = await page.locator(".product-card .price-insight", { hasText: "歷史最低價 / 入手時機" }).first().count();
+  if (!firstHistoricalLow) throw new Error(`${name}: product cards missing historical low insight`);
+  const historicalLowSourceLink = await page.locator(".product-card").first().locator(".price-insight a", { hasText: "史低出處" }).count();
+  if (!historicalLowSourceLink) throw new Error(`${name}: found historical low card missing source link`);
+  const unknownHistoricalLow = await page.locator(".product-card .price-insight", { hasText: "無法判定" }).first().count();
+  if (!unknownHistoricalLow) throw new Error(`${name}: missing not-found historical low state`);
 
   await waitForProductCards(page, 12);
   const initialRenderedText = await visibleText(page, "#renderedCount");
-  if (!initialRenderedText.includes("12 / 655")) {
-    throw new Error(`${name}: expected initial lazy render 12 / 655, got ${initialRenderedText}`);
+  if (!initialRenderedText.includes("12 / 656")) {
+    throw new Error(`${name}: expected initial lazy render 12 / 656, got ${initialRenderedText}`);
   }
 
   await page.fill("#searchInput", "POIEMA");
   await page.waitForFunction(() => document.querySelector("#visibleCount")?.textContent?.trim() === "3");
   await waitForProductCards(page, 3);
   await page.fill("#searchInput", "");
-  await page.waitForFunction(() => document.querySelector("#visibleCount")?.textContent?.trim() === "655");
+  await page.waitForFunction(() => document.querySelector("#visibleCount")?.textContent?.trim() === "656");
   await waitForProductCards(page, 12);
 
   await page.getByRole("button", { name: "再載入 40 筆" }).click();
   await waitForProductCards(page, 52);
   await page.getByRole("button", { name: "載入全部" }).click();
-  await waitForProductCards(page, 655);
+  await waitForProductCards(page, 656);
   if (await page.locator("#loadAllProducts").isVisible()) {
     throw new Error(`${name}: load all button should hide after all products render`);
   }
   await page.fill("#searchInput", "不存在的商品關鍵字");
   await page.waitForFunction(() => document.querySelector("#visibleCount")?.textContent?.trim() === "0");
   await page.fill("#searchInput", "");
-  await page.waitForFunction(() => document.querySelector("#visibleCount")?.textContent?.trim() === "655");
+  await page.waitForFunction(() => document.querySelector("#visibleCount")?.textContent?.trim() === "656");
   await waitForProductCards(page, 12);
 
   if (viewport.width >= 700) {
@@ -174,7 +180,7 @@ async function runViewport(browser, name, viewport) {
     await page.waitForFunction(() => document.querySelector("#advancedFilters") && !document.querySelector("#advancedFilters").hidden);
   }
   await page.getByRole("button", { name: "重設篩選" }).click();
-  await page.waitForFunction(() => document.querySelector("#visibleCount")?.textContent?.trim() === "655");
+  await page.waitForFunction(() => document.querySelector("#visibleCount")?.textContent?.trim() === "656");
 
   await page.fill("#categoryInput", "無線");
   await page.locator('#categoryOptions [data-value="wifi"]').click();
@@ -188,7 +194,7 @@ async function runViewport(browser, name, viewport) {
   await page.locator("#searchInput").click();
   await page.waitForFunction(() => document.querySelector("#brandOptions")?.hidden);
   await page.getByRole("button", { name: "重設篩選" }).click();
-  await page.waitForFunction(() => document.querySelector("#visibleCount")?.textContent?.trim() === "655");
+  await page.waitForFunction(() => document.querySelector("#visibleCount")?.textContent?.trim() === "656");
 
   const soundbarTab = page.getByRole("button", { name: "Soundbar 25" });
   await soundbarTab.click();
@@ -209,7 +215,7 @@ async function runViewport(browser, name, viewport) {
   await page.locator("#clearCompare").click();
   await page.waitForFunction(() => document.querySelector("#compareCount")?.textContent?.trim() === "0");
   await page.getByRole("button", { name: "重設篩選" }).click();
-  await page.waitForFunction(() => document.querySelector("#visibleCount")?.textContent?.trim() === "655");
+  await page.waitForFunction(() => document.querySelector("#visibleCount")?.textContent?.trim() === "656");
 
   if (viewport.width < 700) {
     await page.getByRole("button", { name: /^篩選/ }).click();
@@ -285,7 +291,7 @@ async function runViewport(browser, name, viewport) {
   await page.locator('#brandOptions [data-value="ASUS"]').click();
   await page.waitForFunction(() => Number(document.querySelector("#visibleCount")?.textContent || 0) >= 4);
   await page.getByRole("button", { name: "重設篩選" }).click();
-  await page.waitForFunction(() => document.querySelector("#visibleCount")?.textContent?.trim() === "655");
+  await page.waitForFunction(() => document.querySelector("#visibleCount")?.textContent?.trim() === "656");
 
   const cookwareTab = page.getByRole("button", { name: "鍋具 23" });
   await cookwareTab.click();
@@ -422,9 +428,11 @@ async function runViewport(browser, name, viewport) {
   if (compareRows < 3) throw new Error(`${name}: compare table did not render`);
   const releaseCompareRows = await page.locator("#compareTable tr", { hasText: "上市/發售" }).count();
   if (releaseCompareRows !== 1) throw new Error(`${name}: compare table missing release date row`);
+  const historicalCompareRows = await page.locator("#compareTable tr", { hasText: "歷史最低價 / 入手時機" }).count();
+  if (historicalCompareRows !== 1) throw new Error(`${name}: compare table missing historical low row`);
 
   await page.getByRole("button", { name: "重設篩選" }).click();
-  await page.waitForFunction(() => document.querySelector("#visibleCount")?.textContent?.trim() === "655");
+  await page.waitForFunction(() => document.querySelector("#visibleCount")?.textContent?.trim() === "656");
   await waitForProductCards(page, 12);
   await page.locator("#topPicks [data-focus-product]").nth(14).click();
   await page.waitForFunction(() => document.querySelectorAll(".product-card").length >= 15);
@@ -463,7 +471,7 @@ async function runViewport(browser, name, viewport) {
     await assertProductImagesStayInsideWrap(page, `${name} WWEB10701BS`);
     await page.screenshot({ path: path.resolve(screenshotDir, `${name}-wweb10701bs.png`), fullPage: false });
     await page.fill("#searchInput", "");
-    await page.waitForFunction(() => document.querySelector("#visibleCount")?.textContent?.trim() === "655");
+    await page.waitForFunction(() => document.querySelector("#visibleCount")?.textContent?.trim() === "656");
     await waitForProductCards(page, 12);
   }
 

@@ -8,14 +8,21 @@
     return `NT$${currencyFormatter.format(value)}`;
   }
 
-  function formatOriginal(price) {
-    if (price.currency === "TWD") {
-      return `TWD ${currencyFormatter.format(price.amount)}`;
+  function formatCurrencyAmount(currency, amount) {
+    if (amount === null || amount === undefined || amount === "") {
+      return "找不到";
     }
-    return `${price.currency} ${price.amount.toLocaleString(undefined, {
-      minimumFractionDigits: price.amount % 1 ? 2 : 0,
+    if (currency === "TWD") {
+      return `TWD ${currencyFormatter.format(amount)}`;
+    }
+    return `${currency} ${amount.toLocaleString(undefined, {
+      minimumFractionDigits: amount % 1 ? 2 : 0,
       maximumFractionDigits: 2,
     })}`;
+  }
+
+  function formatOriginal(price) {
+    return formatCurrencyAmount(price.currency, price.amount);
   }
 
   function budgetLabel(value) {
@@ -52,6 +59,9 @@
       product.bestFor,
       product.recommendation,
       product.releaseDate,
+      product.historicalLow?.status,
+      product.historicalLow?.sourceTitle,
+      product.historicalLow?.note,
       (product.specs || []).join(" "),
       (product.tags || []).join(" "),
     ].join(" ").toLowerCase();
@@ -59,6 +69,7 @@
 
   dashboard.utils = {
     formatTwd,
+    formatCurrencyAmount,
     formatOriginal,
     budgetLabel,
     channelLabel,
