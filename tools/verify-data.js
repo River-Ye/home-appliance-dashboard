@@ -6,6 +6,7 @@ const EXPECTED_CATEGORY_COUNT = 25;
 const EXPECTED_PRODUCT_COUNT = 653;
 const MIN_PRODUCTS_PER_CATEGORY = 20;
 const DATE_PATTERN = /^(找不到|\d{4}(?:[-/.]\d{1,2}(?:[-/.]\d{1,2})?)?)$/;
+const WASHER_DRYER_CAPACITY_PATTERN = /^洗\/乾容量：\d+(?:\.\d+)?kg \/ \d+(?:\.\d+)?kg$/;
 
 const requiredFields = [
   "id",
@@ -57,6 +58,15 @@ function validateProduct(product, categoryIds, failures) {
   assert(product.price && typeof product.price.converted === "number" && product.price.converted > 0, `${product.id} must have positive TWD price`, failures);
   assert(product.buyUrl && /^https?:\/\//.test(product.buyUrl), `${product.id} buyUrl must be http(s)`, failures);
   assert(DATE_PATTERN.test(String(product.releaseDate || "")), `${product.id} releaseDate has invalid format: ${product.releaseDate}`, failures);
+
+  if (product.category === "washerdryer") {
+    const capacitySpecs = product.specs.filter((spec) => WASHER_DRYER_CAPACITY_PATTERN.test(String(spec).trim()));
+    assert(
+      capacitySpecs.length === 1,
+      `${product.id} must include exactly one washer/dryer capacity like 洗/乾容量：17kg / 10kg`,
+      failures,
+    );
+  }
 }
 
 function validateReleaseResearch(root, products, failures) {
