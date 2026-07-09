@@ -135,9 +135,9 @@
     "name": "BRAVIA 7 65 型 Mini LED 4K Google TV + 2.1 聲霸組合",
     "price": {
       "currency": "TWD",
-      "amount": 56900,
-      "converted": 56900,
-      "confidence": "可信通路查核價"
+      "amount": 53910,
+      "converted": 53910,
+      "confidence": "PChome 2026-07-10 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DPAD061900IUE3W/000001_1779815988.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DPAD06-1900IUE3W",
@@ -312,9 +312,9 @@
     "name": "BRAVIA 8 65 型 XR OLED 4K HDR Google TV 顯示器",
     "price": {
       "currency": "TWD",
-      "amount": 93900,
-      "converted": 93900,
-      "confidence": "可信通路查核價"
+      "amount": 84510,
+      "converted": 84510,
+      "confidence": "PChome 2026-07-10 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DPAD06A900HLBJO/000001_1776334113.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DPAD06-A900HLBJO",
@@ -1233,16 +1233,16 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 42750,
+      "amount": 31999,
       "currency": "TWD",
-      "converted": 42750,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1264581642&cgp=44999",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：TOSHIBA東芝 REGZA 75型 4K QLED 144Hz Full Array LED AirPlay2 智慧顯示器 75Z670NT",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Yahoo購物中心 / TOSHIBA東芝 REGZA 75型 4K QLED 144Hz Full Array LED AirPlay2 智慧顯示器 75Z670NT」最低價為 NT$42,750，最低點日期 2026-06-24。",
-      "sourceKind": "price_history",
-      "confidence": "high",
-      "checkedAt": "2026-07-09",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+      "converted": 31999,
+      "sourceUrl": "https://www.costco.com.tw/Televisions-Appliances/TV-Home-Entertainment/Televisions-TV-Accessories/70-79-TVs/Toshiba-Regza-75-inch-Full-Array-4K-QLED-144Hz-Smart-Monitor-75Z670NT/p/152535",
+      "sourceTitle": "Costco 商品頁：東芝 Regza 75型 4K QLED 144Hz 全陣列背光智慧顯示器 75Z670NT | Costco 好市多",
+      "evidenceSnippet": "Costco 商品頁 於 2026-07-10 回傳同一商品頁「東芝 Regza 75型 4K QLED 144Hz 全陣列背光智慧顯示器 75Z670NT | Costco 好市多」查核價 NT$31,999，低於原先記錄史低。",
+      "sourceKind": "retailer_page",
+      "confidence": "medium",
+      "checkedAt": "2026-07-10",
+      "note": "採用可信通路同一商品頁可公開查核現價作為本次觀測到的最低價；同型號/規格並排除會員個人化折扣、信用卡回饋、點數、二手、福利品、展示機、箱損、拆封與整新品。"
     }
   },
   {

@@ -407,16 +407,16 @@
     "releaseDate": "2023-07-16",
     "historicalLow": {
       "status": "found",
-      "amount": 3102,
+      "amount": 2990,
       "currency": "TWD",
-      "converted": 3102,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1231164963&cgp=3447",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：Linksys Velop Pro AXE5400 WiFi 6E 三頻 無線網狀路由器MX6201-AH(一入)",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Yahoo購物中心 / Linksys Velop Pro AXE5400 WiFi 6E 三頻 無線網狀路由器MX6201-AH(一入)」最低價為 NT$3,102，最低點日期 2026-04-13。",
-      "sourceKind": "price_history",
-      "confidence": "high",
-      "checkedAt": "2026-07-09",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+      "converted": 2990,
+      "sourceUrl": "https://24h.pchome.com.tw/prod/DRAFL7-A900IJMF6",
+      "sourceTitle": "PChome 商品 API：Linksys Velop Pro AXE5400 WiFi 6E 三頻 無線網狀路由器(一入) / 原廠貨，品質有保障 _ Linksys 知名美國品牌 網路安保的最佳選擇 MX6201-AH",
+      "evidenceSnippet": "PChome 商品 API 於 2026-07-10 回傳同一商品頁「Linksys Velop Pro AXE5400 WiFi 6E 三頻 無線網狀路由器(一入) / 原廠貨，品質有保障 _ Linksys 知名美國品牌 網路安保的最佳選擇 MX6201-AH」查核價 NT$2,990，低於原先記錄史低。",
+      "sourceKind": "retailer_page",
+      "confidence": "medium",
+      "checkedAt": "2026-07-10",
+      "note": "採用可信通路同一商品頁可公開查核現價作為本次觀測到的最低價；同型號/規格並排除會員個人化折扣、信用卡回饋、點數、二手、福利品、展示機、箱損、拆封與整新品。"
     }
   },
   {
@@ -430,9 +430,9 @@
     "name": "AX3000 雙頻 Wi-Fi 6 Mesh 路由器",
     "price": {
       "currency": "TWD",
-      "amount": 6899,
-      "converted": 6899,
-      "confidence": "可信通路查核價"
+      "amount": 6699,
+      "converted": 6699,
+      "confidence": "PChome 2026-07-10 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAGCMA900FQ3JZ/000001_1681110575.png",
     "buyUrl": "https://24h.pchome.com.tw/prod/DRAGCM-A900FQ3JZ",
@@ -668,9 +668,9 @@
     "name": "HPE Aruba Instant On Wi-Fi 6 室內 AP",
     "price": {
       "currency": "TWD",
-      "amount": 15000,
-      "converted": 15000,
-      "confidence": "PChome 可信通路低價查核"
+      "amount": 14112,
+      "converted": 14112,
+      "confidence": "PChome 2026-07-10 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAFJRA900JB5WP/000001_1759461654.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DRAFJR-A900JB5WP",
@@ -728,9 +728,9 @@
     "name": "HPE Aruba Instant On 4x4 Wi-Fi 6 室內 AP",
     "price": {
       "currency": "TWD",
-      "amount": 22000,
-      "converted": 22000,
-      "confidence": "PChome 可信通路低價查核"
+      "amount": 21112,
+      "converted": 21112,
+      "confidence": "PChome 2026-07-10 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAFJRA900JB5QX/000001_1759459286.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DRAFJR-A900JB5QX",
@@ -766,16 +766,16 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 22000,
+      "amount": 21112,
       "currency": "TWD",
-      "converted": 22000,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1237930454&cgp=22000",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【Aruba】HPE Networking Instant On 無線基地台 AP25 室內型 4x4 Wi-Fi 6 AP 含變壓器(R9B28A)",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【Aruba】HPE Networking Instant On 無線基地台 AP25 室內型 4x4 Wi-Fi 6 AP 含變壓器(R9B28A)」最低價為 NT$22,000，最低點日期 2026-07-09。",
-      "sourceKind": "price_history",
+      "converted": 21112,
+      "sourceUrl": "https://24h.pchome.com.tw/prod/DRAFJR-A900JB5QX",
+      "sourceTitle": "PChome 商品頁：Aruba HPE IOn 無線基地台AP25 室內型4x4 Wi-Fi 6 AP (R9B28A) / Aruba HPE IOn 無線基地台AP25 室內型4x4 Wi-Fi 6 AP (R9B28A)",
+      "evidenceSnippet": "PChome 商品 API 於 2026-07-10 回傳同一商品頁「Aruba HPE IOn 無線基地台AP25 室內型4x4 Wi-Fi 6 AP (R9B28A) / Aruba HPE IOn 無線基地台AP25 室內型4x4 Wi-Fi 6 AP (R9B28A)」查核價 NT$21,112，低於原先記錄史低。",
+      "sourceKind": "retailer_page",
       "confidence": "medium",
-      "checkedAt": "2026-07-09",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+      "checkedAt": "2026-07-10",
+      "note": "採用 PChome 24h 同一商品頁可公開查核現價作為本次觀測到的最低價；同型號/規格並排除會員個人化折扣、信用卡回饋、點數、二手、福利品、展示機、箱損、拆封與整新品。"
     }
   },
   {
@@ -788,9 +788,9 @@
     "name": "HPE Aruba Instant On Wi-Fi 6E 三頻 AP",
     "price": {
       "currency": "TWD",
-      "amount": 19999,
-      "converted": 19999,
-      "confidence": "PChome 可信通路低價查核"
+      "amount": 19111,
+      "converted": 19111,
+      "confidence": "PChome 2026-07-10 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAFJRA900JB5RW/000001_1759459789.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DRAFJR-A900JB5RW",
@@ -848,9 +848,9 @@
     "name": "HPE Aruba Instant On Wi-Fi 6 室內 AP",
     "price": {
       "currency": "TWD",
-      "amount": 10800,
-      "converted": 10800,
-      "confidence": "PChome 可信通路低價查核"
+      "amount": 9912,
+      "converted": 9912,
+      "confidence": "PChome 2026-07-10 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAFJRA900JB6BU/000001_1759470005.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DRAFJR-A900JB6BU",
@@ -1206,9 +1206,9 @@
     "name": "BE11000 Mesh Wi-Fi 7 電競路由器",
     "price": {
       "currency": "TWD",
-      "amount": 5490,
-      "converted": 5490,
-      "confidence": "可信通路查核價"
+      "amount": 5290,
+      "converted": 5290,
+      "confidence": "PChome 2026-07-10 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAF02A900I473A/000001_1732699929.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DRAF02-A900I473A",
@@ -1242,16 +1242,16 @@
     "releaseDate": "2024-01-08",
     "historicalLow": {
       "status": "found",
-      "amount": 5490,
+      "amount": 5290,
       "currency": "TWD",
-      "converted": 5490,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1235755756&cgp=5760",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：Acer 宏碁 Predator Connect T7 BE11000 Mesh Wi-Fi 7 電競路由器",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Yahoo購物中心 / Acer 宏碁 Predator Connect T7 BE11000 Mesh Wi-Fi 7 電競路由器」最低價為 NT$5,490，最低點日期 2025-08-20。",
-      "sourceKind": "price_history",
-      "confidence": "high",
-      "checkedAt": "2026-07-09",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+      "converted": 5290,
+      "sourceUrl": "https://24h.pchome.com.tw/prod/DRAF02-A900I473A",
+      "sourceTitle": "PChome 商品頁：Acer 宏碁 Predator Connect T7 BE11000 Mesh Wi-Fi 7 電競路由器 / Acer 宏碁 Predator Connect T7 BE11000 Mesh Wi-Fi 7 電競路由器",
+      "evidenceSnippet": "PChome 商品 API 於 2026-07-10 回傳同一商品頁「Acer 宏碁 Predator Connect T7 BE11000 Mesh Wi-Fi 7 電競路由器 / Acer 宏碁 Predator Connect T7 BE11000 Mesh Wi-Fi 7 電競路由器」查核價 NT$5,290，低於原先記錄史低。",
+      "sourceKind": "retailer_page",
+      "confidence": "medium",
+      "checkedAt": "2026-07-10",
+      "note": "採用 PChome 24h 同一商品頁可公開查核現價作為本次觀測到的最低價；同型號/規格並排除會員個人化折扣、信用卡回饋、點數、二手、福利品、展示機、箱損、拆封與整新品。"
     }
   },
   {
@@ -1678,9 +1678,9 @@
     "name": "AX5400 Velop Mesh Wi-Fi 6 三入組",
     "price": {
       "currency": "TWD",
-      "amount": 12349,
-      "converted": 12349,
-      "confidence": "可信通路查核價"
+      "amount": 10990,
+      "converted": 10990,
+      "confidence": "PChome 2026-07-10 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAFE5A900JUA8C/000001_1774227439.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DRAFE5-A900JUA8C",
@@ -1737,9 +1737,9 @@
     "name": "三頻 Wi-Fi 6 Router 無線路由器",
     "price": {
       "currency": "TWD",
-      "amount": 11235,
-      "converted": 11235,
-      "confidence": "可信通路查核價"
+      "amount": 9999,
+      "converted": 9999,
+      "confidence": "PChome 2026-07-10 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBS4VA900JIQU0/000001_1764896894.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBS4V-A900JIQU0",
@@ -2091,9 +2091,9 @@
     "name": "Wi-Fi 6E 三頻電競路由器",
     "price": {
       "currency": "TWD",
-      "amount": 7990,
-      "converted": 7990,
-      "confidence": "可信通路查核價"
+      "amount": 7790,
+      "converted": 7790,
+      "confidence": "PChome 2026-07-10 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAFKSA900HEQVN/000001_1713512948.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DRAFKS-A900HEQVN",
@@ -2327,9 +2327,9 @@
     "name": "Wi-Fi 6 雙 10GbE SD-WAN 路由器",
     "price": {
       "currency": "TWD",
-      "amount": 7990,
-      "converted": 7990,
-      "confidence": "可信通路查核價"
+      "amount": 7790,
+      "converted": 7790,
+      "confidence": "PChome 2026-07-10 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAG6JA900AUW3D/000001_1626400932.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DRAG6J-A900AUW3D",
@@ -2363,16 +2363,16 @@
     "releaseDate": "2020-11-06",
     "historicalLow": {
       "status": "found",
-      "amount": 7999,
+      "amount": 7790,
       "currency": "TWD",
-      "converted": 7999,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1260450713&cgp=9999",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【QNAP 威聯通】昌運監視器 QHora-301W 新世代 Wi-Fi 6 雙 10GbE SD-WAN 路由器",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【QNAP 威聯通】昌運監視器 QHora-301W 新世代 Wi-Fi 6 雙 10GbE SD-WAN 路由器」最低價為 NT$7,999，最低點日期 2025-09-19。",
-      "sourceKind": "price_history",
-      "confidence": "high",
-      "checkedAt": "2026-07-09",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+      "converted": 7790,
+      "sourceUrl": "https://24h.pchome.com.tw/prod/DRAG6J-A900AUW3D",
+      "sourceTitle": "PChome 商品頁：QNAP 威聯通 QHora-301W 新世代 Wi-Fi 6 雙 10GbE SD-WAN 路由器 / QNAP 威聯通 QHora-301W 新世代 Wi-Fi 6 雙 10GbE SD-WAN 路由器",
+      "evidenceSnippet": "PChome 商品 API 於 2026-07-10 回傳同一商品頁「QNAP 威聯通 QHora-301W 新世代 Wi-Fi 6 雙 10GbE SD-WAN 路由器 / QNAP 威聯通 QHora-301W 新世代 Wi-Fi 6 雙 10GbE SD-WAN 路由器」查核價 NT$7,790，低於原先記錄史低。",
+      "sourceKind": "retailer_page",
+      "confidence": "medium",
+      "checkedAt": "2026-07-10",
+      "note": "採用 PChome 24h 同一商品頁可公開查核現價作為本次觀測到的最低價；同型號/規格並排除會員個人化折扣、信用卡回饋、點數、二手、福利品、展示機、箱損、拆封與整新品。"
     }
   },
   {
@@ -2778,16 +2778,16 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 2199,
+      "amount": 2049,
       "currency": "TWD",
-      "converted": 2199,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1284161522&cgp=2199",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：(店+)Archer BE220 Wi-Fi 7 BE3600 雙頻 Gigabit 無線網路路由器",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / (店+)Archer BE220 Wi-Fi 7 BE3600 雙頻 Gigabit 無線網路路由器」最低價為 NT$2,199，最低點日期 2026-07-09。",
-      "sourceKind": "price_history",
+      "converted": 2049,
+      "sourceUrl": "https://www.costco.com.tw/Digital-Mobile/Laptops-Computers/Keyboards-Mice-Computer-Accessories/TP-Link-BE3600-Dual-Band-Wi-Fi-7-Router-Archer-BE3600/p/154268",
+      "sourceTitle": "Costco 商品頁：TP-Link BE3600 雙頻 Wi-Fi 7 路由器 Archer BE3600 | Costco 好市多",
+      "evidenceSnippet": "Costco 商品頁 於 2026-07-10 回傳同一商品頁「TP-Link BE3600 雙頻 Wi-Fi 7 路由器 Archer BE3600 | Costco 好市多」查核價 NT$2,049，低於原先記錄史低。",
+      "sourceKind": "retailer_page",
       "confidence": "medium",
-      "checkedAt": "2026-07-09",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+      "checkedAt": "2026-07-10",
+      "note": "採用可信通路同一商品頁可公開查核現價作為本次觀測到的最低價；同型號/規格並排除會員個人化折扣、信用卡回饋、點數、二手、福利品、展示機、箱損、拆封與整新品。"
     }
   },
   {

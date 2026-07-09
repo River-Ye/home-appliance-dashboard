@@ -17,9 +17,9 @@
     "name": "16 公升高效型變頻除濕機",
     "price": {
       "currency": "TWD",
-      "amount": 16900,
-      "converted": 16900,
-      "confidence": "可信通路查核價"
+      "amount": 14872,
+      "converted": 14872,
+      "confidence": "PChome 2026-07-10 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ3PA900J0L88/000001_1776323540.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBQ3P-A900J0L88",
@@ -110,16 +110,16 @@
     "releaseDate": "2025-12-18",
     "historicalLow": {
       "status": "found",
-      "amount": 21068,
+      "amount": 20900,
       "currency": "TWD",
-      "converted": 21068,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1269477456&cgp=22500",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：LG樂金 DE221MWE0 22L UV抑菌雙變頻除濕機 白 贈好禮",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Yahoo購物中心 / LG樂金 DE221MWE0 22L UV抑菌雙變頻除濕機 白 贈好禮」最低價為 NT$21,068，最低點日期 2026-06-18。",
-      "sourceKind": "price_history",
-      "confidence": "high",
-      "checkedAt": "2026-07-09",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+      "converted": 20900,
+      "sourceUrl": "https://24h.pchome.com.tw/prod/DMBQ4N-A900JMY77",
+      "sourceTitle": "PChome 商品 API：LG 樂金 22公升 一級能效 PuriCare™ 雙變頻除濕機 DE221MWE0 / LG 樂金 22公升 一級能效 PuriCare™ 雙變頻除濕機 DE221MWE0",
+      "evidenceSnippet": "PChome 商品 API 於 2026-07-10 回傳同一商品頁「LG 樂金 22公升 一級能效 PuriCare™ 雙變頻除濕機 DE221MWE0 / LG 樂金 22公升 一級能效 PuriCare™ 雙變頻除濕機 DE221MWE0」查核價 NT$20,900，低於原先記錄史低。",
+      "sourceKind": "retailer_page",
+      "confidence": "medium",
+      "checkedAt": "2026-07-10",
+      "note": "採用可信通路同一商品頁可公開查核現價作為本次觀測到的最低價；同型號/規格並排除會員個人化折扣、信用卡回饋、點數、二手、福利品、展示機、箱損、拆封與整新品。"
     }
   },
   {
@@ -423,9 +423,9 @@
     "name": "8 公升清淨除濕機",
     "price": {
       "currency": "TWD",
-      "amount": 13290,
-      "converted": 13290,
-      "confidence": "可信通路查核價"
+      "amount": 11030,
+      "converted": 11030,
+      "confidence": "PChome 2026-07-10 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAU0FA900B1HPU/000001_1782813379.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAU0F-A900B1HPU",
@@ -481,9 +481,9 @@
     "name": "9 公升除濕機",
     "price": {
       "currency": "TWD",
-      "amount": 9390,
-      "converted": 9390,
-      "confidence": "可信通路查核價"
+      "amount": 8263,
+      "converted": 8263,
+      "confidence": "PChome 2026-07-10 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ00A900JB38A/000001_1776329911.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBQ00-A900JB38A",
@@ -539,9 +539,9 @@
     "name": "PuriCare WiFi 變頻除濕機粉紅 16 公升",
     "price": {
       "currency": "TWD",
-      "amount": 14900,
-      "converted": 14900,
-      "confidence": "可信通路查核價"
+      "amount": 14111,
+      "converted": 14111,
+      "confidence": "PChome 2026-07-10 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ07A900HQ3L5/000001_1761827365.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBQ07-A900HQ3L5",
@@ -887,9 +887,9 @@
     "name": "6公升節能除濕機",
     "price": {
       "currency": "TWD",
-      "amount": 4480,
-      "converted": 4480,
-      "confidence": "可信通路查核價，擷取 2026-07-09"
+      "amount": 3790,
+      "converted": 3790,
+      "confidence": "PChome 2026-07-10 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ3SA900I7NSN/000001_1767929673.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBQ3S-A900I7NSN",
@@ -945,9 +945,9 @@
     "name": "6公升高效除濕機",
     "price": {
       "currency": "TWD",
-      "amount": 5490,
-      "converted": 5490,
-      "confidence": "可信通路查核價，擷取 2026-07-09"
+      "amount": 4390,
+      "converted": 4390,
+      "confidence": "PChome 2026-07-10 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ08A900IXL3K/000001_1753349026.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBQ08-A900IXL3K",
@@ -1003,9 +1003,9 @@
     "name": "6L 除濕機",
     "price": {
       "currency": "TWD",
-      "amount": 5790,
-      "converted": 5790,
-      "confidence": "可信通路查核價，擷取 2026-07-09"
+      "amount": 5095,
+      "converted": 5095,
+      "confidence": "PChome 2026-07-10 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ3PA900J9FH9/000001_1776325410.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBQ3P-A900J9FH9",

@@ -55,16 +55,16 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 3099,
+      "amount": 2549,
       "currency": "TWD",
-      "converted": 3099,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1269155475&cgp=3099",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：Raymii 瑞米 SAKER系列 30KG 57吋 LS-116-M1 高承重電競氣壓式螢幕支架 USB3.0 TYPE-C 螢幕架 螢幕增高支架",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「PCHome購物 / Raymii 瑞米 SAKER系列 30KG 57吋 LS-116-M1 高承重電競氣壓式螢幕支架 USB3.0 TYPE-C 螢幕架 螢幕增高支架」最低價為 NT$3,099，最低點日期 2026-07-09。",
-      "sourceKind": "price_history",
+      "converted": 2549,
+      "sourceUrl": "https://24h.pchome.com.tw/prod/DCBBC5-A900JM6ZN",
+      "sourceTitle": "PChome 商品 API：Raymii LS-116-M1 SAKER超承重電競螢幕支架 / 瑞米 Raymii LS-116-M1 SAKER 高承重電競氣壓式螢幕支架 USB3.0 TYPE-C 螢幕架 螢幕增高支架",
+      "evidenceSnippet": "PChome 商品 API 於 2026-07-10 回傳同一商品頁「Raymii LS-116-M1 SAKER超承重電競螢幕支架 / 瑞米 Raymii LS-116-M1 SAKER 高承重電競氣壓式螢幕支架 USB3.0 TYPE-C 螢幕架 螢幕增高支架」查核價 NT$2,549，低於原先記錄史低。",
+      "sourceKind": "retailer_page",
       "confidence": "medium",
-      "checkedAt": "2026-07-09",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+      "checkedAt": "2026-07-10",
+      "note": "採用可信通路同一商品頁可公開查核現價作為本次觀測到的最低價；同型號/規格並排除會員個人化折扣、信用卡回饋、點數、二手、福利品、展示機、箱損、拆封與整新品。"
     }
   },
   {
@@ -116,16 +116,16 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 2999,
+      "amount": 2899,
       "currency": "TWD",
-      "converted": 2999,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1237826323&cgp=2999",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：Raymii 瑞米 TAYLOR系列 27KG 57吋 LS-104-M1 鋁合金 氣壓式螢幕支架 USB3.0 TYPE-C 螢幕架 螢幕增高支架",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「PCHome購物 / Raymii 瑞米 TAYLOR系列 27KG 57吋 LS-104-M1 鋁合金 氣壓式螢幕支架 USB3.0 TYPE-C 螢幕架 螢幕增高支架」最低價為 NT$2,999，最低點日期 2026-07-09。",
-      "sourceKind": "price_history",
+      "converted": 2899,
+      "sourceUrl": "https://24h.pchome.com.tw/prod/DCAGRJ-A900I6VLQ",
+      "sourceTitle": "PChome 商品 API：Raymii LS-104-M1 高承重螢幕支架 / 瑞米 Raymii LS-104-M1 鋁合金 氣壓式螢幕支架 USB3.0 TYPE-C 螢幕架 螢幕增高支架",
+      "evidenceSnippet": "PChome 商品 API 於 2026-07-10 回傳同一商品頁「Raymii LS-104-M1 高承重螢幕支架 / 瑞米 Raymii LS-104-M1 鋁合金 氣壓式螢幕支架 USB3.0 TYPE-C 螢幕架 螢幕增高支架」查核價 NT$2,899，低於原先記錄史低。",
+      "sourceKind": "retailer_page",
       "confidence": "medium",
-      "checkedAt": "2026-07-09",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+      "checkedAt": "2026-07-10",
+      "note": "採用可信通路同一商品頁可公開查核現價作為本次觀測到的最低價；同型號/規格並排除會員個人化折扣、信用卡回饋、點數、二手、福利品、展示機、箱損、拆封與整新品。"
     }
   },
   {
@@ -139,9 +139,9 @@
     "name": "HALO MAX 27KG 57 吋鋁合金氣壓式螢幕支架",
     "price": {
       "currency": "TWD",
-      "amount": 2519,
-      "converted": 2519,
-      "confidence": "可信通路查核價"
+      "amount": 2279,
+      "converted": 2279,
+      "confidence": "PChome 2026-07-10 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DCAGRJA900JVFLM/000001_1775109563.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DCAGRJ-A900JVFLM",
@@ -177,16 +177,16 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 2799,
+      "amount": 2279,
       "currency": "TWD",
-      "converted": 2799,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1279033875&cgp=2799",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：Raymii 瑞米 HALO MAX系列 27KG 57吋 HALO-MAX2-1M 鋁合金 氣壓式螢幕支架 USB3.0 螢幕架 螢幕增高支架",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「PCHome購物 / Raymii 瑞米 HALO MAX系列 27KG 57吋 HALO-MAX2-1M 鋁合金 氣壓式螢幕支架 USB3.0 螢幕架 螢幕增高支架」最低價為 NT$2,799，最低點日期 2026-07-09。",
-      "sourceKind": "price_history",
+      "converted": 2279,
+      "sourceUrl": "https://24h.pchome.com.tw/prod/DCAGRJ-A900JVFLM",
+      "sourceTitle": "PChome 商品頁：Raymii HALO-MAX2-1M 高承重螢幕支架 / 瑞米 Raymii HALO-MAX2-1M 鋁合金 氣壓式螢幕支架 USB3.0 螢幕架 螢幕增高支架",
+      "evidenceSnippet": "PChome 商品 API 於 2026-07-10 回傳同一商品頁「Raymii HALO-MAX2-1M 高承重螢幕支架 / 瑞米 Raymii HALO-MAX2-1M 鋁合金 氣壓式螢幕支架 USB3.0 螢幕架 螢幕增高支架」查核價 NT$2,279，低於原先記錄史低。",
+      "sourceKind": "retailer_page",
       "confidence": "medium",
-      "checkedAt": "2026-07-09",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+      "checkedAt": "2026-07-10",
+      "note": "採用 PChome 24h 同一商品頁可公開查核現價作為本次觀測到的最低價；同型號/規格並排除會員個人化折扣、信用卡回饋、點數、二手、福利品、展示機、箱損、拆封與整新品。"
     }
   },
   {
@@ -299,16 +299,16 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 2699,
+      "amount": 2459,
       "currency": "TWD",
-      "converted": 2699,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1283833742&cgp=2699",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：Raymii 瑞米 NEON系列 27KG 57吋 LS-129-M1 高承重電競氣壓式螢幕支架",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「PCHome購物 / Raymii 瑞米 NEON系列 27KG 57吋 LS-129-M1 高承重電競氣壓式螢幕支架」最低價為 NT$2,699，最低點日期 2026-07-09。",
-      "sourceKind": "price_history",
+      "converted": 2459,
+      "sourceUrl": "https://24h.pchome.com.tw/prod/DCAGRJ-A900JZFGW",
+      "sourceTitle": "PChome 商品 API：Raymii LS-129-M1 NEON高承重螢幕支架 / 瑞米 Raymii LS-129-M1 高承重電競氣壓式螢幕支架 NEON系列 27KG 57吋",
+      "evidenceSnippet": "PChome 商品 API 於 2026-07-10 回傳同一商品頁「Raymii LS-129-M1 NEON高承重螢幕支架 / 瑞米 Raymii LS-129-M1 高承重電競氣壓式螢幕支架 NEON系列 27KG 57吋」查核價 NT$2,459，低於原先記錄史低。",
+      "sourceKind": "retailer_page",
       "confidence": "medium",
-      "checkedAt": "2026-07-09",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+      "checkedAt": "2026-07-10",
+      "note": "採用可信通路同一商品頁可公開查核現價作為本次觀測到的最低價；同型號/規格並排除會員個人化折扣、信用卡回饋、點數、二手、福利品、展示機、箱損、拆封與整新品。"
     }
   },
   {
@@ -322,9 +322,9 @@
     "name": "DELTA-S 20KG 49 吋高承重氣壓式螢幕支架",
     "price": {
       "currency": "TWD",
-      "amount": 2024,
-      "converted": 2024,
-      "confidence": "可信通路查核價"
+      "amount": 1784,
+      "converted": 1784,
+      "confidence": "PChome 2026-07-10 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DCAGRJA900JS174/000001_1772508775.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DCAGRJ-A900JS174",
@@ -360,16 +360,16 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 2249,
+      "amount": 1784,
       "currency": "TWD",
-      "converted": 2249,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1261710792&cgp=2249",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：(店+)【Raymii 瑞米】LS-118-M1 高承重氣壓式螢幕支架-黑",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / (店+)【Raymii 瑞米】LS-118-M1 高承重氣壓式螢幕支架-黑」最低價為 NT$2,249，最低點日期 2026-07-09。",
-      "sourceKind": "price_history",
+      "converted": 1784,
+      "sourceUrl": "https://24h.pchome.com.tw/prod/DCAGRJ-A900JS174",
+      "sourceTitle": "PChome 商品頁：Raymii LS-118-M1 高承重螢幕支架 / 瑞米 Raymii LS-118-M1 高承重氣壓式螢幕支架",
+      "evidenceSnippet": "PChome 商品 API 於 2026-07-10 回傳同一商品頁「Raymii LS-118-M1 高承重螢幕支架 / 瑞米 Raymii LS-118-M1 高承重氣壓式螢幕支架」查核價 NT$1,784，低於原先記錄史低。",
+      "sourceKind": "retailer_page",
       "confidence": "medium",
-      "checkedAt": "2026-07-09",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+      "checkedAt": "2026-07-10",
+      "note": "採用 PChome 24h 同一商品頁可公開查核現價作為本次觀測到的最低價；同型號/規格並排除會員個人化折扣、信用卡回饋、點數、二手、福利品、展示機、箱損、拆封與整新品。"
     }
   },
   {
@@ -383,9 +383,9 @@
     "name": "MOJO 20KG 49 吋超高承重螢幕支架",
     "price": {
       "currency": "TWD",
-      "amount": 1079,
-      "converted": 1079,
-      "confidence": "可信通路查核價"
+      "amount": 959,
+      "converted": 959,
+      "confidence": "PChome 2026-07-10 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DCAGRJA900IWS5L/000001_1749202897.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DCAGRJ-A900IWS5L",
@@ -421,16 +421,16 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 1199,
+      "amount": 959,
       "currency": "TWD",
-      "converted": 1199,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1253937094&cgp=1199",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：Raymii 瑞米 LS-114-S1 MOJO系列 20KG 49吋 超高承重螢幕支架",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「PCHome購物 / Raymii 瑞米 LS-114-S1 MOJO系列 20KG 49吋 超高承重螢幕支架」最低價為 NT$1,199，最低點日期 2026-07-09。",
-      "sourceKind": "price_history",
+      "converted": 959,
+      "sourceUrl": "https://24h.pchome.com.tw/prod/DCAGRJ-A900IWS5L",
+      "sourceTitle": "PChome 商品頁：Raymii LS-114-S1 高承重螢幕支架 / 瑞米 Raymii LS-114-S1 MOJO系列 20KG 49吋 超高承重螢幕支架",
+      "evidenceSnippet": "PChome 商品 API 於 2026-07-10 回傳同一商品頁「Raymii LS-114-S1 高承重螢幕支架 / 瑞米 Raymii LS-114-S1 MOJO系列 20KG 49吋 超高承重螢幕支架」查核價 NT$959，低於原先記錄史低。",
+      "sourceKind": "retailer_page",
       "confidence": "medium",
-      "checkedAt": "2026-07-09",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+      "checkedAt": "2026-07-10",
+      "note": "採用 PChome 24h 同一商品頁可公開查核現價作為本次觀測到的最低價；同型號/規格並排除會員個人化折扣、信用卡回饋、點數、二手、福利品、展示機、箱損、拆封與整新品。"
     }
   },
   {
@@ -444,9 +444,9 @@
     "name": "MOJO 20KG 49 吋加高型超高承重螢幕支架",
     "price": {
       "currency": "TWD",
-      "amount": 1439,
-      "converted": 1439,
-      "confidence": "可信通路查核價"
+      "amount": 1319,
+      "converted": 1319,
+      "confidence": "PChome 2026-07-10 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DCAGRJA900JVFY0/000001_1775114085.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DCAGRJ-A900JVFY0",
@@ -482,16 +482,16 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 1599,
+      "amount": 1319,
       "currency": "TWD",
-      "converted": 1599,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1279033876&cgp=1599",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：Raymii 瑞米 LS-114-EX-M1 MOJO系列 20KG 49吋 加高型超高承重螢幕支架",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「PCHome購物 / Raymii 瑞米 LS-114-EX-M1 MOJO系列 20KG 49吋 加高型超高承重螢幕支架」最低價為 NT$1,599，最低點日期 2026-07-09。",
-      "sourceKind": "price_history",
+      "converted": 1319,
+      "sourceUrl": "https://24h.pchome.com.tw/prod/DCAGRJ-A900JVFY0",
+      "sourceTitle": "PChome 商品頁：Raymii LS-114-EX-M1 加高型高承重螢幕支架 / 瑞米 Raymii LS-114-EX-M1 MOJO系列 20KG 49吋 加高型超高承重螢幕支架",
+      "evidenceSnippet": "PChome 商品 API 於 2026-07-10 回傳同一商品頁「Raymii LS-114-EX-M1 加高型高承重螢幕支架 / 瑞米 Raymii LS-114-EX-M1 MOJO系列 20KG 49吋 加高型超高承重螢幕支架」查核價 NT$1,319，低於原先記錄史低。",
+      "sourceKind": "retailer_page",
       "confidence": "medium",
-      "checkedAt": "2026-07-09",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+      "checkedAt": "2026-07-10",
+      "note": "採用 PChome 24h 同一商品頁可公開查核現價作為本次觀測到的最低價；同型號/規格並排除會員個人化折扣、信用卡回饋、點數、二手、福利品、展示機、箱損、拆封與整新品。"
     }
   },
   {
@@ -604,16 +604,16 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 2290,
+      "amount": 2050,
       "currency": "TWD",
-      "converted": 2290,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1266226457&cgp=2290",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：TDGB 17-49吋 高承重 20KG 無重力 電競氣壓式螢幕桌上支架 T95-GAMW",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「PCHome購物 / TDGB 17-49吋 高承重 20KG 無重力 電競氣壓式螢幕桌上支架 T95-GAMW」最低價為 NT$2,290，最低點日期 2026-07-09。",
-      "sourceKind": "price_history",
+      "converted": 2050,
+      "sourceUrl": "https://24h.pchome.com.tw/prod/DCAGQ5-A900JJ59E",
+      "sourceTitle": "PChome 商品 API：TDGB 17-49吋 電競氣壓式螢幕桌上支架 20KG高承重 T95-GAMW / TDGB 17-49吋 電競氣壓式螢幕桌上支架 20KG高承重 T95-GAMW",
+      "evidenceSnippet": "PChome 商品 API 於 2026-07-10 回傳同一商品頁「TDGB 17-49吋 電競氣壓式螢幕桌上支架 20KG高承重 T95-GAMW / TDGB 17-49吋 電競氣壓式螢幕桌上支架 20KG高承重 T95-GAMW」查核價 NT$2,050，低於原先記錄史低。",
+      "sourceKind": "retailer_page",
       "confidence": "medium",
-      "checkedAt": "2026-07-09",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+      "checkedAt": "2026-07-10",
+      "note": "採用可信通路同一商品頁可公開查核現價作為本次觀測到的最低價；同型號/規格並排除會員個人化折扣、信用卡回饋、點數、二手、福利品、展示機、箱損、拆封與整新品。"
     }
   },
   {
@@ -749,9 +749,9 @@
     "name": "17-32 吋 8KG 氣壓式舒適螢幕懸臂支架",
     "price": {
       "currency": "TWD",
-      "amount": 1990,
-      "converted": 1990,
-      "confidence": "可信通路查核價"
+      "amount": 1870,
+      "converted": 1870,
+      "confidence": "PChome 2026-07-10 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DCAX3NA900HNTHZ/000001_1724123200.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DCAX3N-A900HNTHZ",
@@ -810,9 +810,9 @@
     "name": "17-32 吋 8KG/臂 雙螢幕氣壓式懸臂支架",
     "price": {
       "currency": "TWD",
-      "amount": 2990,
-      "converted": 2990,
-      "confidence": "可信通路查核價"
+      "amount": 2750,
+      "converted": 2750,
+      "confidence": "PChome 2026-07-10 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DCAX3NA900HNTEF/000001_1724123227.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DCAX3N-A900HNTEF",
@@ -871,9 +871,9 @@
     "name": "17-32 吋 2-9KG 人體工學螢幕支架",
     "price": {
       "currency": "TWD",
-      "amount": 999,
-      "converted": 999,
-      "confidence": "可信通路查核價"
+      "amount": 939,
+      "converted": 939,
+      "confidence": "PChome 2026-07-10 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DCAGQ5A900JUC1W/000001_1774344481.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DCAGQ5-A900JUC1W",
@@ -932,9 +932,9 @@
     "name": "45吋 20KG 氣壓式螢幕支架",
     "price": {
       "currency": "TWD",
-      "amount": 3490,
-      "converted": 3490,
-      "confidence": "可信通路查核價，擷取 2026-07-09"
+      "amount": 3250,
+      "converted": 3250,
+      "confidence": "PChome 2026-07-10 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DCAGU1A900I6WCY/000001_1754374453.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DCAGU1-A900I6WCY",
@@ -990,9 +990,9 @@
     "name": "35吋 20KG 雙臂氣壓式螢幕支架",
     "price": {
       "currency": "TWD",
-      "amount": 5990,
-      "converted": 5990,
-      "confidence": "可信通路查核價，擷取 2026-07-09"
+      "amount": 5750,
+      "converted": 5750,
+      "confidence": "PChome 2026-07-10 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DCAGU1A900IX2MD/000001_1749518938.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DCAGU1-A900IX2MD",
@@ -1025,16 +1025,16 @@
     "releaseDate": "2025-12-24",
     "historicalLow": {
       "status": "found",
-      "amount": 5839,
+      "amount": 5750,
       "currency": "TWD",
-      "converted": 5839,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1254095372&cgp=5990",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【BenQ】氣壓式螢幕支架雙臂款-黑色(17-35吋適用/承重2-20公斤/BDH01)",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【BenQ】氣壓式螢幕支架雙臂款-黑色(17-35吋適用/承重2-20公斤/BDH01)」最低價為 NT$5,839，最低點日期 2025-08-20。",
-      "sourceKind": "price_history",
-      "confidence": "high",
-      "checkedAt": "2026-07-09",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+      "converted": 5750,
+      "sourceUrl": "https://24h.pchome.com.tw/prod/DCAGU1-A900IX2MD",
+      "sourceTitle": "PChome 商品頁：BENQ 氣壓式 35吋 20KG BDH01螢幕支架雙臂款 螢幕架 螢幕伸縮支架 / BENQ 氣壓式 35吋 20KG BDH01螢幕支架雙臂款 螢幕架 螢幕伸縮支架",
+      "evidenceSnippet": "PChome 商品 API 於 2026-07-10 回傳同一商品頁「BENQ 氣壓式 35吋 20KG BDH01螢幕支架雙臂款 螢幕架 螢幕伸縮支架 / BENQ 氣壓式 35吋 20KG BDH01螢幕支架雙臂款 螢幕架 螢幕伸縮支架」查核價 NT$5,750，低於原先記錄史低。",
+      "sourceKind": "retailer_page",
+      "confidence": "medium",
+      "checkedAt": "2026-07-10",
+      "note": "採用 PChome 24h 同一商品頁可公開查核現價作為本次觀測到的最低價；同型號/規格並排除會員個人化折扣、信用卡回饋、點數、二手、福利品、展示機、箱損、拆封與整新品。"
     }
   },
   {
@@ -1048,9 +1048,9 @@
     "name": "台灣製氣壓式螢幕支架加長桿組",
     "price": {
       "currency": "TWD",
-      "amount": 4780,
-      "converted": 4780,
-      "confidence": "可信通路查核價，擷取 2026-07-09"
+      "amount": 4540,
+      "converted": 4540,
+      "confidence": "PChome 2026-07-10 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABN2A900GINEE/000001_1690179981.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DSABN2-A900GINEE",
@@ -1164,9 +1164,9 @@
     "name": "17-35吋 10KG 氣壓懸臂式螢幕支架",
     "price": {
       "currency": "TWD",
-      "amount": 1190,
-      "converted": 1190,
-      "confidence": "可信通路查核價，擷取 2026-07-09"
+      "amount": 1070,
+      "converted": 1070,
+      "confidence": "PChome 2026-07-10 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DCBAKFA900HAFJO/000001_1709791102.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DCBAKF-A900HAFJO",
@@ -1199,16 +1199,16 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 1190,
+      "amount": 1070,
       "currency": "TWD",
-      "converted": 1190,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1213511264&cgp=1190",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【易控王】ZENO M10 氣壓懸臂式桌上螢幕支架 17-35吋 承重10KG 曲面螢幕可用(10-347-02)",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「PCHome購物 / 【易控王】ZENO M10 氣壓懸臂式桌上螢幕支架 17-35吋 承重10KG 曲面螢幕可用(10-347-02)」最低價為 NT$1,190，最低點日期 2026-07-09。",
-      "sourceKind": "price_history",
-      "confidence": "high",
-      "checkedAt": "2026-07-09",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+      "converted": 1070,
+      "sourceUrl": "https://24h.pchome.com.tw/prod/DCBAKF-A900HAFJO",
+      "sourceTitle": "PChome 商品頁：【易控王】ZENO M10 氣壓懸臂式桌上螢幕支架 17-35吋 承重10KG 曲面螢幕可用(10-347-02) / 【易控王】ZENO M10 氣壓懸臂式桌上螢幕支架 17-35吋 承重10KG 曲面螢幕可用(10-347-02)",
+      "evidenceSnippet": "PChome 商品 API 於 2026-07-10 回傳同一商品頁「【易控王】ZENO M10 氣壓懸臂式桌上螢幕支架 17-35吋 承重10KG 曲面螢幕可用(10-347-02) / 【易控王】ZENO M10 氣壓懸臂式桌上螢幕支架 17-35吋 承重10KG 曲面螢幕可用(10-347-02)」查核價 NT$1,070，低於原先記錄史低。",
+      "sourceKind": "retailer_page",
+      "confidence": "medium",
+      "checkedAt": "2026-07-10",
+      "note": "採用 PChome 24h 同一商品頁可公開查核現價作為本次觀測到的最低價；同型號/規格並排除會員個人化折扣、信用卡回饋、點數、二手、福利品、展示機、箱損、拆封與整新品。"
     }
   },
   {

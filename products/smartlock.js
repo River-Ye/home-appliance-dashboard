@@ -1003,9 +1003,9 @@
     "name": "X9 指紋把手電子鎖",
     "price": {
       "currency": "TWD",
-      "amount": 12000,
-      "converted": 12000,
-      "confidence": "可信通路查核價"
+      "amount": 11400,
+      "converted": 11400,
+      "confidence": "PChome 2026-07-10 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBS4NA900JJ8LG/000001_1765347346.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBS4N-A900JJ8LG",
@@ -1119,9 +1119,9 @@
     "name": "SHP-P52 推拉式電子鎖",
     "price": {
       "currency": "TWD",
-      "amount": 24500,
-      "converted": 24500,
-      "confidence": "可信通路查核價"
+      "amount": 23275,
+      "converted": 23275,
+      "confidence": "PChome 2026-07-10 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBS4NA900JXYBS/000001_1776909348.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBS4N-A900JXYBS",
@@ -1154,16 +1154,16 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 24500,
+      "amount": 23275,
       "currency": "TWD",
-      "converted": 24500,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1267797308&cgp=24500",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：含安裝 ZIGBANG SHP-P52 推拉式電子鎖 APP/指紋/卡片/密碼/鑰匙",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Yahoo購物中心 / 含安裝 ZIGBANG SHP-P52 推拉式電子鎖 APP/指紋/卡片/密碼/鑰匙」最低價為 NT$24,500，最低點日期 2026-07-09。",
-      "sourceKind": "price_history",
+      "converted": 23275,
+      "sourceUrl": "https://24h.pchome.com.tw/prod/DQBS4N-A900JXYBS",
+      "sourceTitle": "PChome 商品頁：ZIGBANG SHP-P52 推拉式電子鎖 APP/指紋/卡片/密碼/鑰匙 / ZIGBANG SHP-P52 推拉式電子鎖 APP/指紋/卡片/密碼/鑰匙",
+      "evidenceSnippet": "PChome 商品 API 於 2026-07-10 回傳同一商品頁「ZIGBANG SHP-P52 推拉式電子鎖 APP/指紋/卡片/密碼/鑰匙 / ZIGBANG SHP-P52 推拉式電子鎖 APP/指紋/卡片/密碼/鑰匙」查核價 NT$23,275，低於原先記錄史低。",
+      "sourceKind": "retailer_page",
       "confidence": "medium",
-      "checkedAt": "2026-07-09",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+      "checkedAt": "2026-07-10",
+      "note": "採用 PChome 24h 同一商品頁可公開查核現價作為本次觀測到的最低價；同型號/規格並排除會員個人化折扣、信用卡回饋、點數、二手、福利品、展示機、箱損、拆封與整新品。"
     }
   },
   {
@@ -1235,9 +1235,9 @@
     "name": "ML660 四合一智能電子鎖",
     "price": {
       "currency": "TWD",
-      "amount": 25000,
-      "converted": 25000,
-      "confidence": "可信通路查核價"
+      "amount": 23750,
+      "converted": 23750,
+      "confidence": "PChome 2026-07-10 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DECE4EA900DXNUC/000001_1643338134.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DECE4E-A900DXNUC",
@@ -1584,9 +1584,9 @@
     "name": "FB63M 精簡電子智慧門鎖",
     "price": {
       "currency": "TWD",
-      "amount": 14500,
-      "converted": 14500,
-      "confidence": "可信通路查核價"
+      "amount": 13775,
+      "converted": 13775,
+      "confidence": "PChome 2026-07-10 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBS4NA900I8ITU/000001_1753416985.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBS4N-A900I8ITU",
@@ -1619,16 +1619,16 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 14500,
+      "amount": 13775,
       "currency": "TWD",
-      "converted": 14500,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1256371699&cgp=14500",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：FIBRE 琺博 FB63M 精簡 37mm最修身細窄 電子智慧門鎖",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「PCHome購物 / FIBRE 琺博 FB63M 精簡 37mm最修身細窄 電子智慧門鎖」最低價為 NT$14,500，最低點日期 2026-07-09。",
-      "sourceKind": "price_history",
+      "converted": 13775,
+      "sourceUrl": "https://24h.pchome.com.tw/prod/DQBS4N-A900I8ITU",
+      "sourceTitle": "PChome 商品頁：FIBRE 琺博 電子智慧門鎖 精簡FB63M / FIBRE琺博 3.7公分寬最修身細窄 電子智慧門鎖",
+      "evidenceSnippet": "PChome 商品 API 於 2026-07-10 回傳同一商品頁「FIBRE 琺博 電子智慧門鎖 精簡FB63M / FIBRE琺博 3.7公分寬最修身細窄 電子智慧門鎖」查核價 NT$13,775，低於原先記錄史低。",
+      "sourceKind": "retailer_page",
       "confidence": "medium",
-      "checkedAt": "2026-07-09",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+      "checkedAt": "2026-07-10",
+      "note": "採用 PChome 24h 同一商品頁可公開查核現價作為本次觀測到的最低價；同型號/規格並排除會員個人化折扣、信用卡回饋、點數、二手、福利品、展示機、箱損、拆封與整新品。"
     }
   },
   {
@@ -1642,9 +1642,9 @@
     "name": "FB70X 樸實電子智慧門鎖",
     "price": {
       "currency": "TWD",
-      "amount": 22000,
-      "converted": 22000,
-      "confidence": "可信通路查核價"
+      "amount": 20900,
+      "converted": 20900,
+      "confidence": "PChome 2026-07-10 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DQAT0IA900GXIHM/000001_1764834253.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQAT0I-A900GXIHM",
@@ -1758,9 +1758,9 @@
     "name": "七合一人臉/貓眼掌靜脈電子鎖",
     "price": {
       "currency": "TWD",
-      "amount": 29800,
-      "converted": 29800,
-      "confidence": "可信通路查核價"
+      "amount": 28310,
+      "converted": 28310,
+      "confidence": "PChome 2026-07-10 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBS4NA900IT8YL/000001_1782961750.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBS4N-A900IT8YL",
@@ -1816,9 +1816,9 @@
     "name": "和系列全自動七合一智慧鎖",
     "price": {
       "currency": "TWD",
-      "amount": 22900,
-      "converted": 22900,
-      "confidence": "可信通路查核價"
+      "amount": 21755,
+      "converted": 21755,
+      "confidence": "PChome 2026-07-10 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBS4NA900JLLZ3/000001_1782963047.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBS4N-A900JLLZ3",
@@ -1874,9 +1874,9 @@
     "name": "逸系列微光夜視貓眼電子鎖",
     "price": {
       "currency": "TWD",
-      "amount": 38800,
-      "converted": 38800,
-      "confidence": "可信通路查核價"
+      "amount": 36860,
+      "converted": 36860,
+      "confidence": "PChome 2026-07-10 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBS4NA900K2QWO/000001_1782963114.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBS4N-A900K2QWO",
@@ -2048,9 +2048,9 @@
     "name": "Tiko One 指紋卡片密碼電子鎖",
     "price": {
       "currency": "TWD",
-      "amount": 17800,
-      "converted": 17800,
-      "confidence": "可信通路查核價"
+      "amount": 16910,
+      "converted": 16910,
+      "confidence": "PChome 2026-07-10 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBS4NA900K0KZV/000001_1779265986.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBS4N-A900K0KZV",
@@ -2106,9 +2106,9 @@
     "name": "G-11 指紋密碼電子鎖",
     "price": {
       "currency": "TWD",
-      "amount": 9800,
-      "converted": 9800,
-      "confidence": "可信通路查核價"
+      "amount": 9310,
+      "converted": 9310,
+      "confidence": "PChome 2026-07-10 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBS4NA900K1WBU/000001_1779862478.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBS4N-A900K1WBU",
@@ -2141,16 +2141,16 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 9800,
+      "amount": 9310,
       "currency": "TWD",
-      "converted": 9800,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1282559191&cgp=9800",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：Panasonic 國際牌 G-11指紋密碼電子鎖",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「PCHome購物 / Panasonic 國際牌 G-11指紋密碼電子鎖」最低價為 NT$9,800，最低點日期 2026-07-09。",
-      "sourceKind": "price_history",
+      "converted": 9310,
+      "sourceUrl": "https://24h.pchome.com.tw/prod/DQBS4N-A900K1WBU",
+      "sourceTitle": "PChome 商品頁：G11黑 / G11黑",
+      "evidenceSnippet": "PChome 商品 API 於 2026-07-10 回傳同一商品頁「G11黑 / G11黑」查核價 NT$9,310，低於原先記錄史低。",
+      "sourceKind": "retailer_page",
       "confidence": "medium",
-      "checkedAt": "2026-07-09",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+      "checkedAt": "2026-07-10",
+      "note": "採用 PChome 24h 同一商品頁可公開查核現價作為本次觀測到的最低價；同型號/規格並排除會員個人化折扣、信用卡回饋、點數、二手、福利品、展示機、箱損、拆封與整新品。"
     }
   },
   {
@@ -2454,9 +2454,9 @@
     "name": "DJS-SK07 全自動智慧電子鎖",
     "price": {
       "currency": "TWD",
-      "amount": 23400,
-      "converted": 23400,
-      "confidence": "可信通路查核價"
+      "amount": 22230,
+      "converted": 22230,
+      "confidence": "PChome 2026-07-10 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBS4NA900J5GYW/000001_1755762130.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBS4N-A900J5GYW",
@@ -2489,16 +2489,16 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 23400,
+      "amount": 22230,
       "currency": "TWD",
-      "converted": 23400,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1259738892&cgp=23400",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【帝網KingNet】DJS-SK07全自動智慧電子鎖",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Yahoo購物中心 / 【帝網KingNet】DJS-SK07全自動智慧電子鎖」最低價為 NT$23,400，最低點日期 2026-07-09。",
-      "sourceKind": "price_history",
+      "converted": 22230,
+      "sourceUrl": "https://24h.pchome.com.tw/prod/DQBS4N-A900J5GYW",
+      "sourceTitle": "PChome 商品頁：【帝網KingNet】DJS-SK07全自動智慧電子鎖 / 【帝網KingNet】DJS智慧電子門鎖【台灣NCC合格認證】",
+      "evidenceSnippet": "PChome 商品 API 於 2026-07-10 回傳同一商品頁「【帝網KingNet】DJS-SK07全自動智慧電子鎖 / 【帝網KingNet】DJS智慧電子門鎖【台灣NCC合格認證】」查核價 NT$22,230，低於原先記錄史低。",
+      "sourceKind": "retailer_page",
       "confidence": "medium",
-      "checkedAt": "2026-07-09",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+      "checkedAt": "2026-07-10",
+      "note": "採用 PChome 24h 同一商品頁可公開查核現價作為本次觀測到的最低價；同型號/規格並排除會員個人化折扣、信用卡回饋、點數、二手、福利品、展示機、箱損、拆封與整新品。"
     }
   },
   {
@@ -2724,16 +2724,16 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 19237,
+      "amount": 19095,
       "currency": "TWD",
-      "converted": 19237,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1163778454&cgp=23750",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【Dormakaba】AS701一鍵推拉式密碼/指紋/卡片/鑰匙智慧電子門鎖 金色(附基本安裝)",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【Dormakaba】AS701一鍵推拉式密碼/指紋/卡片/鑰匙智慧電子門鎖 金色(附基本安裝)」最低價為 NT$19,237，最低點日期 2024-05-24。",
-      "sourceKind": "price_history",
-      "confidence": "high",
-      "checkedAt": "2026-07-09",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+      "converted": 19095,
+      "sourceUrl": "https://www.costco.com.tw/Furniture-Kitchen/Hardware-DIY/Home-Safety/dormakaba-4-in-1-Digital-Door-Lock-AS701/p/128973",
+      "sourceTitle": "Costco 商品頁：dormakaba 四合一智慧推拉式電子鎖 AS701 | Costco 好市多",
+      "evidenceSnippet": "Costco 商品頁 於 2026-07-10 回傳同一商品頁「dormakaba 四合一智慧推拉式電子鎖 AS701 | Costco 好市多」查核價 NT$19,095，低於原先記錄史低。",
+      "sourceKind": "retailer_page",
+      "confidence": "medium",
+      "checkedAt": "2026-07-10",
+      "note": "採用可信通路同一商品頁可公開查核現價作為本次觀測到的最低價；同型號/規格並排除會員個人化折扣、信用卡回饋、點數、二手、福利品、展示機、箱損、拆封與整新品。"
     }
   },
   {

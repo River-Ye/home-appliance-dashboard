@@ -205,9 +205,9 @@
     "image": "https://cs-a.ecimg.tw/items/DEAGRWA900JUUQL/000001_1774596210.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 888,
-      "converted": 888,
-      "confidence": "PChome 24h 低價查核"
+      "amount": 799,
+      "converted": 799,
+      "confidence": "PChome 2026-07-10 API 查核價"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -269,9 +269,9 @@
     "image": "https://cs-a.ecimg.tw/items/DEAGY1A900JBVOD/000001_1759990405.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 2280,
-      "converted": 2280,
-      "confidence": "PChome 24h 低價查核"
+      "amount": 2166,
+      "converted": 2166,
+      "confidence": "PChome 2026-07-10 API 查核價"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -582,9 +582,9 @@
     "image": "https://cs-a.ecimg.tw/items/DEAGRWA900GMT17/000001_1714111453.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 1718,
-      "converted": 1718,
-      "confidence": "PChome 24h 低價查核"
+      "amount": 1546,
+      "converted": 1546,
+      "confidence": "PChome 2026-07-10 API 查核價"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -646,9 +646,9 @@
     "image": "https://cs-a.ecimg.tw/items/DEAGL1A900K0YA8/000001_1779182108.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 1999,
-      "converted": 1999,
-      "confidence": "PChome 24h 低價查核"
+      "amount": 1899,
+      "converted": 1899,
+      "confidence": "PChome 2026-07-10 API 查核價"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -1115,16 +1115,16 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 680,
+      "amount": 609,
       "currency": "TWD",
-      "converted": 680,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1249940736&cgp=680",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：(店+)【KAI 貝印】關孫六萌黃系列 水果刀 12cm(刀具／水果刀／關孫六刀具／小刀)",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / (店+)【KAI 貝印】關孫六萌黃系列 水果刀 12cm(刀具／水果刀／關孫六刀具／小刀)」最低價為 NT$680，最低點日期 2026-07-09。",
-      "sourceKind": "price_history",
+      "converted": 609,
+      "sourceUrl": "https://24h.pchome.com.tw/prod/DEAG16-A900IJI66",
+      "sourceTitle": "PChome 商品 API：【貝印】日本製關孫六水果刀附刀套-12cm / 日本製關孫六水果刀附刀套-12cm",
+      "evidenceSnippet": "PChome 商品 API 於 2026-07-10 回傳同一商品頁「【貝印】日本製關孫六水果刀附刀套-12cm / 日本製關孫六水果刀附刀套-12cm」查核價 NT$609，低於原先記錄史低。",
+      "sourceKind": "retailer_page",
       "confidence": "medium",
-      "checkedAt": "2026-07-09",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+      "checkedAt": "2026-07-10",
+      "note": "採用可信通路同一商品頁可公開查核現價作為本次觀測到的最低價；同型號/規格並排除會員個人化折扣、信用卡回饋、點數、二手、福利品、展示機、箱損、拆封與整新品。"
     }
   },
   {

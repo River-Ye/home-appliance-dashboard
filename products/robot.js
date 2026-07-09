@@ -167,16 +167,16 @@
     "releaseDate": "2026-01-06",
     "historicalLow": {
       "status": "found",
-      "amount": 33480,
+      "amount": 32980,
       "currency": "TWD",
-      "converted": 33480,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1273295471&cgp=34980",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【Roborock 石頭科技】MOMO獨家旗艦新機!Saros 20 Sonic聲波騎士掃拖機(100度熱水/熱烘/8.8CM越障/颶風級)",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【Roborock 石頭科技】MOMO獨家旗艦新機!Saros 20 Sonic聲波騎士掃拖機(100度熱水/熱烘/8.8CM越障/颶風級)」最低價為 NT$33,480，最低點日期 2026-04-22。",
-      "sourceKind": "price_history",
-      "confidence": "high",
-      "checkedAt": "2026-07-09",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+      "converted": 32980,
+      "sourceUrl": "https://24h.pchome.com.tw/prod/DMBL1C-A900JMMCO",
+      "sourceTitle": "PChome 商品 API：Roborock 石頭科技掃地機器人Saros 20 / Roborock 石頭科技 Saros 20 跨越奇兵旗艦越障掃拖王者(雙門檻越障8.8cm/36000Pa/障礙物識別300+)",
+      "evidenceSnippet": "PChome 商品 API 於 2026-07-10 回傳同一商品頁「Roborock 石頭科技掃地機器人Saros 20 / Roborock 石頭科技 Saros 20 跨越奇兵旗艦越障掃拖王者(雙門檻越障8.8cm/36000Pa/障礙物識別300+)」查核價 NT$32,980，低於原先記錄史低。",
+      "sourceKind": "retailer_page",
+      "confidence": "medium",
+      "checkedAt": "2026-07-10",
+      "note": "採用可信通路同一商品頁可公開查核現價作為本次觀測到的最低價；同型號/規格並排除會員個人化折扣、信用卡回饋、點數、二手、福利品、展示機、箱損、拆封與整新品。"
     }
   },
   {
@@ -307,9 +307,9 @@
     "name": "無限續航滾筒洗地機器人上下水款",
     "price": {
       "currency": "TWD",
-      "amount": 25999,
-      "converted": 25999,
-      "confidence": "可信通路查核價"
+      "amount": 23399,
+      "converted": 23399,
+      "confidence": "PChome 2026-07-10 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL0LA900JRDAS/000001_1771917633.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBL0L-A900JRDAS",
@@ -365,9 +365,9 @@
     "name": "無限續航滾筒洗地機器人",
     "price": {
       "currency": "TWD",
-      "amount": 22999,
-      "converted": 22999,
-      "confidence": "可信通路查核價"
+      "amount": 20699,
+      "converted": 20699,
+      "confidence": "PChome 2026-07-10 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL0LA900J5HJ0/000001_1766715791.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBL0L-A900J5HJ0",
@@ -423,9 +423,9 @@
     "name": "滾筒活水洗地掃拖機器人",
     "price": {
       "currency": "TWD",
-      "amount": 16999,
-      "converted": 16999,
-      "confidence": "可信通路查核價"
+      "amount": 15299,
+      "converted": 15299,
+      "confidence": "PChome 2026-07-10 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL0LA900IT3IU/000001_1763087795.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBL0L-A900IT3IU",
@@ -481,9 +481,9 @@
     "name": "超薄全覆蓋全能旗艦掃拖機器人",
     "price": {
       "currency": "TWD",
-      "amount": 14999,
-      "converted": 14999,
-      "confidence": "可信通路查核價"
+      "amount": 13499,
+      "converted": 13499,
+      "confidence": "PChome 2026-07-10 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL0LA900IDIPA/000001_1763087835.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBL0L-A900IDIPA",
@@ -539,9 +539,9 @@
     "name": "強清潔全能掃拖機器人",
     "price": {
       "currency": "TWD",
-      "amount": 12999,
-      "converted": 12999,
-      "confidence": "可信通路查核價"
+      "amount": 11699,
+      "converted": 11699,
+      "confidence": "PChome 2026-07-10 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL0LA900J0KF3/000001_1765762606.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBL0L-A900J0KF3",
@@ -597,9 +597,9 @@
     "name": "AI 藍光辨識超薄掃拖旗艦機低矮版",
     "price": {
       "currency": "TWD",
-      "amount": 31980,
-      "converted": 31980,
-      "confidence": "可信通路查核價"
+      "amount": 28782,
+      "converted": 28782,
+      "confidence": "PChome 2026-07-10 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL3EA900JZ3SP/000001_1780033309.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBL3E-A900JZ3SP",
@@ -655,9 +655,9 @@
     "name": "全能掃拖機器人",
     "price": {
       "currency": "TWD",
-      "amount": 9999,
-      "converted": 9999,
-      "confidence": "可信通路查核價"
+      "amount": 8999,
+      "converted": 8999,
+      "confidence": "PChome 2026-07-10 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL3EA900JY4G0/000001_1780033612.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBL3E-A900JY4G0",
@@ -690,16 +690,16 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 9999,
+      "amount": 8999,
       "currency": "TWD",
-      "converted": 9999,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=546987454&cgp=9999",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【Dreame追覓】D30 Ultra CE 全能掃拖機器人｜台灣公司貨",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「蝦皮商城 - Dreame 追覓台灣 / 【Dreame追覓】D30 Ultra CE 全能掃拖機器人｜台灣公司貨」最低價為 NT$9,999，最低點日期 2026-07-09。",
-      "sourceKind": "price_history",
+      "converted": 8999,
+      "sourceUrl": "https://24h.pchome.com.tw/prod/DMBL3E-A900JY4G0",
+      "sourceTitle": "PChome 商品頁：【Dreame 追覓科技】D30 Ultra CE 全能掃拖機器人 / 【Dreame 追覓科技】D30 Ultra CE 全能掃拖機器人",
+      "evidenceSnippet": "PChome 商品 API 於 2026-07-10 回傳同一商品頁「【Dreame 追覓科技】D30 Ultra CE 全能掃拖機器人 / 【Dreame 追覓科技】D30 Ultra CE 全能掃拖機器人」查核價 NT$8,999，低於原先記錄史低。",
+      "sourceKind": "retailer_page",
       "confidence": "medium",
-      "checkedAt": "2026-07-09",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+      "checkedAt": "2026-07-10",
+      "note": "採用 PChome 24h 同一商品頁可公開查核現價作為本次觀測到的最低價；同型號/規格並排除會員個人化折扣、信用卡回饋、點數、二手、福利品、展示機、箱損、拆封與整新品。"
     }
   },
   {
@@ -887,9 +887,9 @@
     "name": "全能滾筒旗艦機皇掃拖機器人",
     "price": {
       "currency": "TWD",
-      "amount": 31880,
-      "converted": 31880,
-      "confidence": "可信通路查核價"
+      "amount": 29380,
+      "converted": 29380,
+      "confidence": "PChome 2026-07-10 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL0JA900JCCJT/000001_1782802020.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBL0J-A900JCCJT",
@@ -945,9 +945,9 @@
     "name": "熱旋風延邊避障全能掃拖機器人",
     "price": {
       "currency": "TWD",
-      "amount": 21880,
-      "converted": 21880,
-      "confidence": "可信通路查核價"
+      "amount": 19880,
+      "converted": 19880,
+      "confidence": "PChome 2026-07-10 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL0JA900ITF7U/000001_1782802931.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBL0J-A900ITF7U",
@@ -1061,9 +1061,9 @@
     "name": "自動壓縮集塵掃拖機器人",
     "price": {
       "currency": "TWD",
-      "amount": 14880,
-      "converted": 14880,
-      "confidence": "可信通路查核價"
+      "amount": 13380,
+      "converted": 13380,
+      "confidence": "PChome 2026-07-10 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL0JA900J02LR/000001_1782803287.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBL0J-A900J02LR",

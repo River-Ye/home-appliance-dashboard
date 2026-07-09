@@ -52,16 +52,16 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 13300,
+      "amount": 12490,
       "currency": "TWD",
-      "converted": 13300,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1182026868&cgp=14060",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：Panasonic授權彰化鹿港通用電器 【Panasonic】27L蒸烘烤微波爐(NN-BS607)",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「樂天市場 - Panasonic授權彰化鹿港通用電器 / Panasonic授權彰化鹿港通用電器 【Panasonic】27L蒸烘烤微波爐(NN-BS607)」最低價為 NT$13,300，最低點日期 2024-02-23。",
-      "sourceKind": "price_history",
-      "confidence": "high",
-      "checkedAt": "2026-07-09",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+      "converted": 12490,
+      "sourceUrl": "https://24h.pchome.com.tw/prod/DMBJ02-1900HFATV",
+      "sourceTitle": "PChome 商品 API：Panasonic 國際牌 27L蒸烘烤微波爐 NN-BS607 / Panasonic 國際牌 27L蒸烘烤微波爐 NN-BS607",
+      "evidenceSnippet": "PChome 商品 API 於 2026-07-10 回傳同一商品頁「Panasonic 國際牌 27L蒸烘烤微波爐 NN-BS607 / Panasonic 國際牌 27L蒸烘烤微波爐 NN-BS607」查核價 NT$12,490，低於原先記錄史低。",
+      "sourceKind": "retailer_page",
+      "confidence": "medium",
+      "checkedAt": "2026-07-10",
+      "note": "採用可信通路同一商品頁可公開查核現價作為本次觀測到的最低價；同型號/規格並排除會員個人化折扣、信用卡回饋、點數、二手、福利品、展示機、箱損、拆封與整新品。"
     }
   },
   {
@@ -75,9 +75,9 @@
     "name": "26L 8 合 1 變頻氣炸蒸烤微波爐",
     "price": {
       "currency": "TWD",
-      "amount": 19900,
-      "converted": 19900,
-      "confidence": "可信通路查核價"
+      "amount": 19502,
+      "converted": 19502,
+      "confidence": "PChome 2026-07-10 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBJ02A900J1WEX/000001_1753093870.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBJ02-A900J1WEX",
@@ -133,9 +133,9 @@
     "name": "30L 蒸氣烘烤微波爐",
     "price": {
       "currency": "TWD",
-      "amount": 24900,
-      "converted": 24900,
-      "confidence": "可信通路查核價"
+      "amount": 19399,
+      "converted": 19399,
+      "confidence": "PChome 2026-07-10 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBJ02A900IXED0/000001_1749708993.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBJ02-A900IXED0",
@@ -481,9 +481,9 @@
     "name": "Coloris 系列 32L 8 合 1 變頻氣炸蒸烤微波爐",
     "price": {
       "currency": "TWD",
-      "amount": 26900,
-      "converted": 26900,
-      "confidence": "可信通路查核價"
+      "amount": 26362,
+      "converted": 26362,
+      "confidence": "PChome 2026-07-10 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBJ03A900IYX0L/000001_1750758530.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBJ03-A900IYX0L",
@@ -539,9 +539,9 @@
     "name": "20L 多功能蒸氣氣炸烤箱",
     "price": {
       "currency": "TWD",
-      "amount": 10800,
-      "converted": 10800,
-      "confidence": "可信通路查核價"
+      "amount": 10260,
+      "converted": 10260,
+      "confidence": "PChome 2026-07-10 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBM0GA900HF91A/000001_1768545220.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBM0G-A900HF91A",
@@ -655,9 +655,9 @@
     "name": "AIoT 智慧連網 30L 水波爐蒸氣烘烤微波爐",
     "price": {
       "currency": "TWD",
-      "amount": 38800,
-      "converted": 38800,
-      "confidence": "可信通路查核價"
+      "amount": 36860,
+      "converted": 36860,
+      "confidence": "PChome 2026-07-10 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBM0GA900G41CW/000001_1780306175.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBM0G-A900G41CW",
@@ -829,9 +829,9 @@
     "name": "32 公升獨立式萬用蒸烤爐",
     "price": {
       "currency": "TWD",
-      "amount": 15800,
-      "converted": 15800,
-      "confidence": "可信通路查核價"
+      "amount": 15484,
+      "converted": 15484,
+      "confidence": "PChome 2026-07-10 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBJ6QA900EO9M8/000001_1716271473.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBJ6Q-A900EO9M8",
@@ -1119,9 +1119,9 @@
     "name": "蒸烘烤變頻微波爐",
     "price": {
       "currency": "TWD",
-      "amount": 43920,
-      "converted": 43920,
-      "confidence": "可信通路查核價，擷取 2026-07-09"
+      "amount": 41724,
+      "converted": 41724,
+      "confidence": "PChome 2026-07-10 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBM0GA900H5125/000001_1783054719.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBM0G-A900H5125",

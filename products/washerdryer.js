@@ -1247,16 +1247,16 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 20900,
+      "amount": 20745,
       "currency": "TWD",
-      "converted": 20900,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1282948884&cgp=20900",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【SANLUX 台灣三洋】13KG 變頻洗脫烘滾筒洗衣機 AWD-1390HA",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Yahoo購物中心 / 【SANLUX 台灣三洋】13KG 變頻洗脫烘滾筒洗衣機 AWD-1390HA」最低價為 NT$20,900，最低點日期 2026-07-09。",
-      "sourceKind": "price_history",
+      "converted": 20745,
+      "sourceUrl": "https://tw.buy.yahoo.com/gdsale/SANLUX台灣三洋13公斤洗脫烘滾筒洗衣機AWD-1390MD-12111191.html",
+      "sourceTitle": "Yahoo購物中心 JSON-LD：SANLUX台灣三洋13公斤洗脫烘滾筒洗衣機AWD-1390HA | 變頻11-13KG | Yahoo購物中心",
+      "evidenceSnippet": "Yahoo購物中心 JSON-LD 於 2026-07-10 回傳同一商品頁「SANLUX台灣三洋13公斤洗脫烘滾筒洗衣機AWD-1390HA | 變頻11-13KG | Yahoo購物中心」查核價 NT$20,745，低於原先記錄史低。",
+      "sourceKind": "retailer_page",
       "confidence": "medium",
-      "checkedAt": "2026-07-09",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+      "checkedAt": "2026-07-10",
+      "note": "採用可信通路同一商品頁可公開查核現價作為本次觀測到的最低價；同型號/規格並排除會員個人化折扣、信用卡回饋、點數、二手、福利品、展示機、箱損、拆封與整新品。"
     }
   },
   {

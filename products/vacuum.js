@@ -249,9 +249,9 @@
     "name": "乾濕全能洗地吸塵器",
     "price": {
       "currency": "TWD",
-      "amount": 24900,
-      "converted": 24900,
-      "confidence": "可信通路查核價"
+      "amount": 22900,
+      "converted": 22900,
+      "confidence": "PChome 2026-07-10 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBF05A900GCL8W/000001_1780460543.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBF05-A900GCL8W",
@@ -481,9 +481,9 @@
     "name": "V8 Focus Mattress origin 強勁無線除塵螨機",
     "price": {
       "currency": "TWD",
-      "amount": 7990,
-      "converted": 7990,
-      "confidence": "可信通路查核價"
+      "amount": 6999,
+      "converted": 6999,
+      "confidence": "PChome 2026-07-10 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAX00A900HC5BZ/000001_1780458569.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAX00-A900HC5BZ",
@@ -539,9 +539,9 @@
     "name": "CordZero A9X 蒸氣濕拖自動集塵無線吸塵器",
     "price": {
       "currency": "TWD",
-      "amount": 26900,
-      "converted": 26900,
-      "confidence": "可信通路查核價"
+      "amount": 25900,
+      "converted": 25900,
+      "confidence": "PChome 2026-07-10 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAX8KA900HLXAQ/000001_1744871444.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAX8K-A900HLXAQ",
@@ -1061,9 +1061,9 @@
     "name": "One Box 自動集塵吸塵器",
     "price": {
       "currency": "TWD",
-      "amount": 9310,
-      "converted": 9310,
-      "confidence": "可信通路查核價，擷取 2026-07-09"
+      "amount": 9290,
+      "converted": 9290,
+      "confidence": "PChome 2026-07-10 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAX0ZA900HIGMZ/000001_1716798929.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAX0Z-A900HIGMZ",
@@ -1096,16 +1096,16 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 9292,
+      "amount": 9290,
       "currency": "TWD",
-      "converted": 9292,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1222509812&cgp=9595",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：Panasonic國際牌 自動集塵吸塵器MC-KC1W",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Yahoo購物中心 / Panasonic國際牌 自動集塵吸塵器MC-KC1W」最低價為 NT$9,292，最低點日期 2026-06-28。",
-      "sourceKind": "price_history",
-      "confidence": "high",
-      "checkedAt": "2026-07-09",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+      "converted": 9290,
+      "sourceUrl": "https://24h.pchome.com.tw/prod/DMAX0Z-A900HIGMZ",
+      "sourceTitle": "PChome 商品頁：Panasonic 國際牌 One box 自動集塵吸塵器MC-KC1W - / Panasonic 國際牌 One box 自動集塵吸塵器MC-KC1W -",
+      "evidenceSnippet": "PChome 商品 API 於 2026-07-10 回傳同一商品頁「Panasonic 國際牌 One box 自動集塵吸塵器MC-KC1W - / Panasonic 國際牌 One box 自動集塵吸塵器MC-KC1W -」查核價 NT$9,290，低於原先記錄史低。",
+      "sourceKind": "retailer_page",
+      "confidence": "medium",
+      "checkedAt": "2026-07-10",
+      "note": "採用 PChome 24h 同一商品頁可公開查核現價作為本次觀測到的最低價；同型號/規格並排除會員個人化折扣、信用卡回饋、點數、二手、福利品、展示機、箱損、拆封與整新品。"
     }
   },
   {
@@ -1211,16 +1211,16 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 7777,
+      "amount": 6999,
       "currency": "TWD",
-      "converted": 7777,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1236881880&cgp=8888",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【Electrolux 伊萊克斯】Well Q7無線吸塵器(WQ71-2BSWF 冰雪白)",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【Electrolux 伊萊克斯】Well Q7無線吸塵器(WQ71-2BSWF 冰雪白)」最低價為 NT$7,777，最低點日期 2025-07-24。",
-      "sourceKind": "price_history",
-      "confidence": "high",
-      "checkedAt": "2026-07-09",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+      "converted": 6999,
+      "sourceUrl": "https://www.costco.com.tw/p/153289",
+      "sourceTitle": "Costco 商品頁：伊萊克斯 無線吸塵器 WQ71-2BSWF | Costco 好市多",
+      "evidenceSnippet": "Costco 商品頁 於 2026-07-10 回傳同一商品頁「伊萊克斯 無線吸塵器 WQ71-2BSWF | Costco 好市多」查核價 NT$6,999，低於原先記錄史低。",
+      "sourceKind": "retailer_page",
+      "confidence": "medium",
+      "checkedAt": "2026-07-10",
+      "note": "採用可信通路同一商品頁可公開查核現價作為本次觀測到的最低價；同型號/規格並排除會員個人化折扣、信用卡回饋、點數、二手、福利品、展示機、箱損、拆封與整新品。"
     }
   },
   {

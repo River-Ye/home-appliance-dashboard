@@ -79,9 +79,9 @@
     "image": "https://cs-a.ecimg.tw/items/DEAWN3A900JOVE3/000001_1783576740.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 799,
-      "converted": 799,
-      "confidence": "PChome 24h 低價查核"
+      "amount": 759,
+      "converted": 759,
+      "confidence": "PChome 2026-07-10 API 查核價"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -397,9 +397,9 @@
     "image": "https://cs-a.ecimg.tw/items/DEAWTGA900FCFJC/000001_1692859840.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 8980,
-      "converted": 8980,
-      "confidence": "PChome 24h 低價查核"
+      "amount": 4490,
+      "converted": 4490,
+      "confidence": "PChome 2026-07-10 API 查核價"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -523,9 +523,9 @@
     "image": "https://cs-a.ecimg.tw/items/DEAWMJA900JN626/000001_1768377713.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 1980,
-      "converted": 1980,
-      "confidence": "PChome 24h 低價查核"
+      "amount": 1584,
+      "converted": 1584,
+      "confidence": "PChome 2026-07-10 API 查核價"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -840,9 +840,9 @@
     "image": "https://cs-a.ecimg.tw/items/DEAWGAA900B4V1I/000001_1670815636.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 1490,
-      "converted": 1490,
-      "confidence": "PChome 24h 低價查核"
+      "amount": 1415,
+      "converted": 1415,
+      "confidence": "PChome 2026-07-10 API 查核價"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -881,16 +881,16 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 1490,
+      "amount": 1415,
       "currency": "TWD",
-      "converted": 1490,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1265623332&cgp=1490",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：CookPower 鍋寶 微晶透明湯鍋(黑底) OG-42BK",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「PCHome購物 / CookPower 鍋寶 微晶透明湯鍋(黑底) OG-42BK」最低價為 NT$1,490，最低點日期 2026-07-09。",
-      "sourceKind": "price_history",
+      "converted": 1415,
+      "sourceUrl": "https://24h.pchome.com.tw/prod/DEAWGA-A900B4V1I",
+      "sourceTitle": "PChome 商品頁：【CookPower鍋寶】微晶透明湯鍋(黑底) OG-42BK / 【CookPower鍋寶】微晶透明湯鍋(黑底) OG-42BK",
+      "evidenceSnippet": "PChome 商品 API 於 2026-07-10 回傳同一商品頁「【CookPower鍋寶】微晶透明湯鍋(黑底) OG-42BK / 【CookPower鍋寶】微晶透明湯鍋(黑底) OG-42BK」查核價 NT$1,415，低於原先記錄史低。",
+      "sourceKind": "retailer_page",
       "confidence": "medium",
-      "checkedAt": "2026-07-09",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+      "checkedAt": "2026-07-10",
+      "note": "採用 PChome 24h 同一商品頁可公開查核現價作為本次觀測到的最低價；同型號/規格並排除會員個人化折扣、信用卡回饋、點數、二手、福利品、展示機、箱損、拆封與整新品。"
     }
   },
   {
@@ -903,9 +903,9 @@
     "image": "https://cs-a.ecimg.tw/items/DEER19A900GPL2R/000001_1696456300.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 10250,
-      "converted": 10250,
-      "confidence": "PChome 24h 低價查核"
+      "amount": 5125,
+      "converted": 5125,
+      "confidence": "PChome 2026-07-10 API 查核價"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -944,16 +944,16 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 6706,
+      "amount": 5125,
       "currency": "TWD",
-      "converted": 6706,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1130296768&cgp=10250",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【Le Creuset】典藏琺瑯鑄鐵鍋圓鍋 16cm(貝殼粉-鋼頭)",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【Le Creuset】典藏琺瑯鑄鐵鍋圓鍋 16cm(貝殼粉-鋼頭)」最低價為 NT$6,706，最低點日期 2025-03-17。",
-      "sourceKind": "price_history",
-      "confidence": "high",
-      "checkedAt": "2026-07-09",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+      "converted": 5125,
+      "sourceUrl": "https://24h.pchome.com.tw/prod/DEER19-A900GPL2R",
+      "sourceTitle": "PChome 商品頁：LE CREUSET-典藏琺瑯鑄鐵鍋圓鍋16cm(醇酒紅-金頭-內鍋白) / LE CREUSET-典藏琺瑯鑄鐵鍋圓鍋16cm(醇酒紅-金頭-內鍋白)",
+      "evidenceSnippet": "PChome 商品 API 於 2026-07-10 回傳同一商品頁「LE CREUSET-典藏琺瑯鑄鐵鍋圓鍋16cm(醇酒紅-金頭-內鍋白) / LE CREUSET-典藏琺瑯鑄鐵鍋圓鍋16cm(醇酒紅-金頭-內鍋白)」查核價 NT$5,125，低於原先記錄史低。",
+      "sourceKind": "retailer_page",
+      "confidence": "medium",
+      "checkedAt": "2026-07-10",
+      "note": "採用 PChome 24h 同一商品頁可公開查核現價作為本次觀測到的最低價；同型號/規格並排除會員個人化折扣、信用卡回饋、點數、二手、福利品、展示機、箱損、拆封與整新品。"
     }
   },
   {
@@ -967,9 +967,9 @@
     "name": "低身湯鍋 2.5L",
     "price": {
       "currency": "TWD",
-      "amount": 1968,
-      "converted": 1968,
-      "confidence": "可信通路查核價，擷取 2026-07-09"
+      "amount": 1869,
+      "converted": 1869,
+      "confidence": "PChome 2026-07-10 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DEAWMJA900J9BIR/000001_1758078020.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DEAWMJ-A900J9BIR",
@@ -1025,9 +1025,9 @@
     "name": "陶晶壺型鍋 1.7L",
     "price": {
       "currency": "TWD",
-      "amount": 7800,
-      "converted": 7800,
-      "confidence": "可信通路查核價，擷取 2026-07-09"
+      "amount": 6240,
+      "converted": 6240,
+      "confidence": "PChome 2026-07-10 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DEAWMJA900JMZA5/000001_1768290148.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DEAWMJ-A900JMZA5",
@@ -1060,16 +1060,16 @@
     "releaseDate": "2021-10-30",
     "historicalLow": {
       "status": "found",
-      "amount": 6318,
+      "amount": 6240,
       "currency": "TWD",
-      "converted": 6318,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1266921476&cgp=7020",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【WMF】Fusiontec Mineral 壺型鍋 12.5cm 1.7L 鉑金色(陶晶鍋 單人鍋 泡麵鍋)",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【WMF】Fusiontec Mineral 壺型鍋 12.5cm 1.7L 鉑金色(陶晶鍋 單人鍋 泡麵鍋)」最低價為 NT$6,318，最低點日期 2026-05-23。",
-      "sourceKind": "price_history",
-      "confidence": "high",
-      "checkedAt": "2026-07-09",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+      "converted": 6240,
+      "sourceUrl": "https://24h.pchome.com.tw/prod/DEAWMJ-A900JMZA5",
+      "sourceTitle": "PChome 商品頁：WMF 德國製Fusiontec Mineral 壺型鍋 12.5cm 1.7L (鉑金色)陶晶鍋 單人鍋 泡麵鍋 / WMF 德國製Fusiontec Mineral 壺型鍋 12.5cm 1.7L (銅金色) 陶晶鍋 單人鍋 泡麵鍋",
+      "evidenceSnippet": "PChome 商品 API 於 2026-07-10 回傳同一商品頁「WMF 德國製Fusiontec Mineral 壺型鍋 12.5cm 1.7L (鉑金色)陶晶鍋 單人鍋 泡麵鍋 / WMF 德國製Fusiontec Mineral 壺型鍋 12.5cm 1.7L (銅金色) 陶晶鍋 單人鍋 泡麵鍋」查核價 NT$6,240，低於原先記錄史低。",
+      "sourceKind": "retailer_page",
+      "confidence": "medium",
+      "checkedAt": "2026-07-10",
+      "note": "採用 PChome 24h 同一商品頁可公開查核現價作為本次觀測到的最低價；同型號/規格並排除會員個人化折扣、信用卡回饋、點數、二手、福利品、展示機、箱損、拆封與整新品。"
     }
   },
   {
@@ -1083,9 +1083,9 @@
     "name": "TNS 雙耳醬汁鍋 28cm",
     "price": {
       "currency": "TWD",
-      "amount": 13700,
-      "converted": 13700,
-      "confidence": "可信通路查核價，擷取 2026-07-09"
+      "amount": 6850,
+      "converted": 6850,
+      "confidence": "PChome 2026-07-10 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DEAWTGA900FCHLZ/000001_1745980849.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DEAWTG-A900FCHLZ",

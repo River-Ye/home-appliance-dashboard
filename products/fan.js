@@ -17,9 +17,9 @@
     "name": "16 吋 DC 微電腦定時電風扇",
     "price": {
       "currency": "TWD",
-      "amount": 4090,
-      "converted": 4090,
-      "confidence": "可信通路查核價"
+      "amount": 3272,
+      "converted": 3272,
+      "confidence": "PChome 2026-07-10 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAB30A900EOQ24/000001_1753338098.png",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAB30-A900EOQ24",
@@ -52,16 +52,16 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 3800,
+      "amount": 3272,
       "currency": "TWD",
-      "converted": 3800,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1103118861&cgp=3800",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：Panasonic授權彰化鹿港通用電器 Panasonic 電風扇 F-H16GND (16吋)",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「樂天市場 - Panasonic授權彰化鹿港通用電器 / Panasonic授權彰化鹿港通用電器 Panasonic 電風扇 F-H16GND (16吋)」最低價為 NT$3,800，最低點日期 2026-07-09。",
-      "sourceKind": "price_history",
-      "confidence": "high",
-      "checkedAt": "2026-07-09",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+      "converted": 3272,
+      "sourceUrl": "https://24h.pchome.com.tw/prod/DMAB30-A900EOQ24",
+      "sourceTitle": "PChome 商品頁：Panasonic國際牌16吋DC變頻旗艦型負離子溫感立扇F-H16GND / Panasonic國際牌16吋DC微電腦定時立扇(負離子/ECO溫控)F-H16GND",
+      "evidenceSnippet": "PChome 商品 API 於 2026-07-10 回傳同一商品頁「Panasonic國際牌16吋DC變頻旗艦型負離子溫感立扇F-H16GND / Panasonic國際牌16吋DC微電腦定時立扇(負離子/ECO溫控)F-H16GND」查核價 NT$3,272，低於原先記錄史低。",
+      "sourceKind": "retailer_page",
+      "confidence": "medium",
+      "checkedAt": "2026-07-10",
+      "note": "採用 PChome 24h 同一商品頁可公開查核現價作為本次觀測到的最低價；同型號/規格並排除會員個人化折扣、信用卡回饋、點數、二手、福利品、展示機、箱損、拆封與整新品。"
     }
   },
   {
@@ -307,9 +307,9 @@
     "name": "16 吋 DC 變頻電風扇",
     "price": {
       "currency": "TWD",
-      "amount": 3090,
-      "converted": 3090,
-      "confidence": "可信通路查核價"
+      "amount": 2472,
+      "converted": 2472,
+      "confidence": "PChome 2026-07-10 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMABLMA900EOROV/000001_1757038312.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMABLM-A900EOROV",
@@ -365,9 +365,9 @@
     "name": "14 吋 DC 微電腦定時電風扇",
     "price": {
       "currency": "TWD",
-      "amount": 4090,
-      "converted": 4090,
-      "confidence": "可信通路查核價"
+      "amount": 3112,
+      "converted": 3112,
+      "confidence": "PChome 2026-07-10 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMABLMA900EOQ12/000001_1695005225.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMABLM-A900EOQ12",
@@ -400,16 +400,16 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 4100,
+      "amount": 3112,
       "currency": "TWD",
-      "converted": 4100,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1274856092&cgp=4100",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：(店+)【Panasonic 國際牌】Panasonic 國際 F-H14GND-K 14吋DC直流馬達電風扇",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / (店+)【Panasonic 國際牌】Panasonic 國際 F-H14GND-K 14吋DC直流馬達電風扇」最低價為 NT$4,100，最低點日期 2026-07-09。",
-      "sourceKind": "price_history",
+      "converted": 3112,
+      "sourceUrl": "https://24h.pchome.com.tw/prod/DMABLM-A900EOQ12",
+      "sourceTitle": "PChome 商品頁：Panasonic國際牌14吋DC微電腦定時立扇(負離子/ECO溫控)F-H14GND-K / ◤ 原價$4,490，限時下殺 ◢Panasonic國際牌14吋DC微電腦定時立扇(負離子/ECO溫控)F-H14GND-K",
+      "evidenceSnippet": "PChome 商品 API 於 2026-07-10 回傳同一商品頁「Panasonic國際牌14吋DC微電腦定時立扇(負離子/ECO溫控)F-H14GND-K / ◤ 原價$4,490，限時下殺 ◢Panasonic國際牌14吋DC微電腦定時立扇(負離子/ECO溫控)F-H14GND-K」查核價 NT$3,112，低於原先記錄史低。",
+      "sourceKind": "retailer_page",
       "confidence": "medium",
-      "checkedAt": "2026-07-09",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+      "checkedAt": "2026-07-10",
+      "note": "採用 PChome 24h 同一商品頁可公開查核現價作為本次觀測到的最低價；同型號/規格並排除會員個人化折扣、信用卡回饋、點數、二手、福利品、展示機、箱損、拆封與整新品。"
     }
   },
   {
@@ -423,9 +423,9 @@
     "name": "14 吋 DC 微電腦定時電風扇",
     "price": {
       "currency": "TWD",
-      "amount": 4900,
-      "converted": 4900,
-      "confidence": "可信通路查核價"
+      "amount": 3920,
+      "converted": 3920,
+      "confidence": "PChome 2026-07-10 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMABLMA900EORP0/000001_1697161466.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMABLM-A900EORP0",
@@ -458,16 +458,16 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 4230,
+      "amount": 3920,
       "currency": "TWD",
-      "converted": 4230,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=530781806&cgp=4340",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：Panasonic nanoeX極靜型DC直流風扇 全新 F-H16LXD-K F-H14LXD-K",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「蝦皮商城 - 台北布里吉 / Panasonic nanoeX極靜型DC直流風扇 全新 F-H16LXD-K F-H14LXD-K」最低價為 NT$4,230，最低點日期 2025-07-09。",
-      "sourceKind": "price_history",
-      "confidence": "high",
-      "checkedAt": "2026-07-09",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+      "converted": 3920,
+      "sourceUrl": "https://24h.pchome.com.tw/prod/DMABLM-A900EORP0",
+      "sourceTitle": "PChome 商品頁：Panasonic國際牌14吋DC微電腦定時立扇F-H14LXD-K / Panasonic國際牌14吋DC微電腦定時立扇F-H14LXD-K",
+      "evidenceSnippet": "PChome 商品 API 於 2026-07-10 回傳同一商品頁「Panasonic國際牌14吋DC微電腦定時立扇F-H14LXD-K / Panasonic國際牌14吋DC微電腦定時立扇F-H14LXD-K」查核價 NT$3,920，低於原先記錄史低。",
+      "sourceKind": "retailer_page",
+      "confidence": "medium",
+      "checkedAt": "2026-07-10",
+      "note": "採用 PChome 24h 同一商品頁可公開查核現價作為本次觀測到的最低價；同型號/規格並排除會員個人化折扣、信用卡回饋、點數、二手、福利品、展示機、箱損、拆封與整新品。"
     }
   },
   {
@@ -539,9 +539,9 @@
     "name": "16 吋 DC 變頻高級型溫感遙控電風扇",
     "price": {
       "currency": "TWD",
-      "amount": 3590,
-      "converted": 3590,
-      "confidence": "可信通路查核價"
+      "amount": 3231,
+      "converted": 3231,
+      "confidence": "PChome 2026-07-10 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAB30A900EOQ5X/000001_1693793932.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAB30-A900EOQ5X",
@@ -574,16 +574,16 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 3320,
+      "amount": 3231,
       "currency": "TWD",
-      "converted": 3320,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1257462231&cgp=3591",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：(店+)【Panasonic 國際牌】Panasonic國際牌16吋金屬鋼柱電風扇F-L16GMD",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / (店+)【Panasonic 國際牌】Panasonic國際牌16吋金屬鋼柱電風扇F-L16GMD」最低價為 NT$3,320，最低點日期 2026-01-09。",
-      "sourceKind": "price_history",
-      "confidence": "high",
-      "checkedAt": "2026-07-09",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+      "converted": 3231,
+      "sourceUrl": "https://24h.pchome.com.tw/prod/DMAB30-A900EOQ5X",
+      "sourceTitle": "PChome 商品頁：Panasonic國際牌 16吋DC變頻高級型溫感遙控立扇F-L16GMD / Panasonic國際牌 16吋DC變頻高級型溫感遙控立扇F-L16GMD",
+      "evidenceSnippet": "PChome 商品 API 於 2026-07-10 回傳同一商品頁「Panasonic國際牌 16吋DC變頻高級型溫感遙控立扇F-L16GMD / Panasonic國際牌 16吋DC變頻高級型溫感遙控立扇F-L16GMD」查核價 NT$3,231，低於原先記錄史低。",
+      "sourceKind": "retailer_page",
+      "confidence": "medium",
+      "checkedAt": "2026-07-10",
+      "note": "採用 PChome 24h 同一商品頁可公開查核現價作為本次觀測到的最低價；同型號/規格並排除會員個人化折扣、信用卡回饋、點數、二手、福利品、展示機、箱損、拆封與整新品。"
     }
   },
   {
@@ -887,9 +887,9 @@
     "name": "窄邊框時尚美型風扇",
     "price": {
       "currency": "TWD",
-      "amount": 1490,
-      "converted": 1490,
-      "confidence": "可信通路查核價，擷取 2026-07-09"
+      "amount": 1266,
+      "converted": 1266,
+      "confidence": "PChome 2026-07-10 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMACAKA900G4VTV/000001_1779763282.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMACAK-A900G4VTV",
@@ -945,9 +945,9 @@
     "name": "DC 立式循環扇",
     "price": {
       "currency": "TWD",
-      "amount": 2990,
-      "converted": 2990,
-      "confidence": "可信通路查核價，擷取 2026-07-09"
+      "amount": 2541,
+      "converted": 2541,
+      "confidence": "PChome 2026-07-10 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMACAKA900G0BE8/000001_1779955873.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMACAK-A900G0BE8",
@@ -1003,9 +1003,9 @@
     "name": "全方位渦輪 DC 循環扇",
     "price": {
       "currency": "TWD",
-      "amount": 3290,
-      "converted": 3290,
-      "confidence": "可信通路查核價，擷取 2026-07-09"
+      "amount": 2796,
+      "converted": 2796,
+      "confidence": "PChome 2026-07-10 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMABOWA900IUZ7V/000001_1780022324.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMABOW-A900IUZ7V",
@@ -1038,16 +1038,16 @@
     "releaseDate": "2026-03-17",
     "historicalLow": {
       "status": "found",
-      "amount": 2829,
+      "amount": 2796,
       "currency": "TWD",
-      "converted": 2829,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1254528733&cgp=2990",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：(店+)【Philips 飛利浦】全方位渦輪循環扇DC風扇電風扇ACR3342CFD",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / (店+)【Philips 飛利浦】全方位渦輪循環扇DC風扇電風扇ACR3342CFD」最低價為 NT$2,829，最低點日期 2025-07-09。",
-      "sourceKind": "price_history",
-      "confidence": "high",
-      "checkedAt": "2026-07-09",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+      "converted": 2796,
+      "sourceUrl": "https://24h.pchome.com.tw/prod/DMABOW-A900IUZ7V",
+      "sourceTitle": "PChome 商品頁：PHILIPS 飛利浦 全方位渦輪DC循環扇 ACR3342CFD / PHILIPS 飛利浦 全方位渦輪DC循環扇 ACR3342CFD",
+      "evidenceSnippet": "PChome 商品 API 於 2026-07-10 回傳同一商品頁「PHILIPS 飛利浦 全方位渦輪DC循環扇 ACR3342CFD / PHILIPS 飛利浦 全方位渦輪DC循環扇 ACR3342CFD」查核價 NT$2,796，低於原先記錄史低。",
+      "sourceKind": "retailer_page",
+      "confidence": "medium",
+      "checkedAt": "2026-07-10",
+      "note": "採用 PChome 24h 同一商品頁可公開查核現價作為本次觀測到的最低價；同型號/規格並排除會員個人化折扣、信用卡回饋、點數、二手、福利品、展示機、箱損、拆封與整新品。"
     }
   },
   {
@@ -1061,9 +1061,9 @@
     "name": "DC 塔式風扇",
     "price": {
       "currency": "TWD",
-      "amount": 4090,
-      "converted": 4090,
-      "confidence": "可信通路查核價，擷取 2026-07-09"
+      "amount": 3476,
+      "converted": 3476,
+      "confidence": "PChome 2026-07-10 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMACAKA900G0BB4/000001_1778646103.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMACAK-A900G0BB4",

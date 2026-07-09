@@ -15,9 +15,9 @@
     "image": "https://cs-a.ecimg.tw/items/DMBR1PA900I386D/000001_1738721735.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 22900,
-      "converted": 22900,
-      "confidence": "PChome 24h 低價查核"
+      "amount": 21400,
+      "converted": 21400,
+      "confidence": "PChome 2026-07-10 API 查核價"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -78,9 +78,9 @@
     "image": "https://cs-a.ecimg.tw/items/DMBR0PA900IX8N8/000001_1770277214.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 7990,
-      "converted": 7990,
-      "confidence": "PChome 24h 低價查核"
+      "amount": 7290,
+      "converted": 7290,
+      "confidence": "PChome 2026-07-10 API 查核價"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -119,16 +119,16 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 7990,
+      "amount": 7290,
       "currency": "TWD",
-      "converted": 7990,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1258214294&cgp=7990",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【TECO東元】3D全方位洗烘一體全自動洗碗機(XYFYW-5001CBW)",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Yahoo購物中心 / 【TECO東元】3D全方位洗烘一體全自動洗碗機(XYFYW-5001CBW)」最低價為 NT$7,990，最低點日期 2026-07-09。",
-      "sourceKind": "price_history",
-      "confidence": "high",
-      "checkedAt": "2026-07-09",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+      "converted": 7290,
+      "sourceUrl": "https://24h.pchome.com.tw/prod/DMBR0P-A900IX8N8",
+      "sourceTitle": "PChome 商品頁：【TECO東元】3D全方位洗烘一體全自動洗碗機(XYFYW-5001CBW) / 【TECO東元】3D全方位洗烘一體全自動洗碗機(XYFYW-5001CBW)",
+      "evidenceSnippet": "PChome 商品 API 於 2026-07-10 回傳同一商品頁「【TECO東元】3D全方位洗烘一體全自動洗碗機(XYFYW-5001CBW) / 【TECO東元】3D全方位洗烘一體全自動洗碗機(XYFYW-5001CBW)」查核價 NT$7,290，低於原先記錄史低。",
+      "sourceKind": "retailer_page",
+      "confidence": "medium",
+      "checkedAt": "2026-07-10",
+      "note": "採用 PChome 24h 同一商品頁可公開查核現價作為本次觀測到的最低價；同型號/規格並排除會員個人化折扣、信用卡回饋、點數、二手、福利品、展示機、箱損、拆封與整新品。"
     }
   },
   {
@@ -710,9 +710,9 @@
     "image": "https://cs-a.ecimg.tw/items/DPAL7PA900G5M47/000001_1783049805.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 39500,
-      "converted": 39500,
-      "confidence": "PChome 24h 低價查核"
+      "amount": 37525,
+      "converted": 37525,
+      "confidence": "PChome 2026-07-10 API 查核價"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -838,9 +838,9 @@
     "image": "https://cs-a.ecimg.tw/items/DMBR16A900HZZEG/000001_1763949344.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 81999,
-      "converted": 81999,
-      "confidence": "PChome 24h 低價查核"
+      "amount": 74619,
+      "converted": 74619,
+      "confidence": "PChome 2026-07-10 API 查核價"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -901,9 +901,9 @@
     "image": "https://cs-a.ecimg.tw/items/DMBR1WA900K4MYS/000001_1781748945.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 79000,
-      "converted": 79000,
-      "confidence": "PChome 24h 低價查核"
+      "amount": 75050,
+      "converted": 75050,
+      "confidence": "PChome 2026-07-10 API 查核價"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -966,9 +966,9 @@
     "name": "桌上型洗碗機",
     "price": {
       "currency": "TWD",
-      "amount": 11000,
-      "converted": 11000,
-      "confidence": "可信通路查核價，擷取 2026-07-09"
+      "amount": 10900,
+      "converted": 10900,
+      "confidence": "PChome 2026-07-10 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBR0PA900JBV02/000001_1762938951.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBR0P-A900JBV02",
@@ -1024,9 +1024,9 @@
     "name": "免安裝自動 6 人份洗碗機",
     "price": {
       "currency": "TWD",
-      "amount": 16999,
-      "converted": 16999,
-      "confidence": "可信通路查核價，擷取 2026-07-09"
+      "amount": 15809,
+      "converted": 15809,
+      "confidence": "PChome 2026-07-10 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBR17A900IHTZ3/000001_1777540146.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBR17-A900IHTZ3",
@@ -1059,16 +1059,16 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 15839,
+      "amount": 15809,
       "currency": "TWD",
-      "converted": 15839,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1232329813&cgp=16999",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【Celinda 賽寧】免安裝自動6人份洗碗機DGF-601(110V/桌上型洗碗機/烘碗機)",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【Celinda 賽寧】免安裝自動6人份洗碗機DGF-601(110V/桌上型洗碗機/烘碗機)」最低價為 NT$15,839，最低點日期 2026-06-16。",
-      "sourceKind": "price_history",
-      "confidence": "high",
-      "checkedAt": "2026-07-09",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+      "converted": 15809,
+      "sourceUrl": "https://24h.pchome.com.tw/prod/DMBR17-A900IHTZ3",
+      "sourceTitle": "PChome 商品頁：【Celinda 賽寧家電】免安裝自動6人份洗碗機DGF-601(110V/桌上型洗碗機) / 【Celinda 賽寧家電】免安裝自動6人份洗碗機DGF-601(110V/桌上型洗碗機)",
+      "evidenceSnippet": "PChome 商品 API 於 2026-07-10 回傳同一商品頁「【Celinda 賽寧家電】免安裝自動6人份洗碗機DGF-601(110V/桌上型洗碗機) / 【Celinda 賽寧家電】免安裝自動6人份洗碗機DGF-601(110V/桌上型洗碗機)」查核價 NT$15,809，低於原先記錄史低。",
+      "sourceKind": "retailer_page",
+      "confidence": "medium",
+      "checkedAt": "2026-07-10",
+      "note": "採用 PChome 24h 同一商品頁可公開查核現價作為本次觀測到的最低價；同型號/規格並排除會員個人化折扣、信用卡回饋、點數、二手、福利品、展示機、箱損、拆封與整新品。"
     }
   },
   {
@@ -1413,16 +1413,16 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 45810,
+      "amount": 26999,
       "currency": "TWD",
-      "converted": 45810,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1284124582&cgp=45810",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：(店+)【Electrolux 伊萊克斯】EFF3560VXB 獨立式洗碗機（僅配送）｜60cm｜300系列｜15人份｜110V｜自動開門",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / (店+)【Electrolux 伊萊克斯】EFF3560VXB 獨立式洗碗機（僅配送）｜60cm｜300系列｜15人份｜110V｜自動開門」最低價為 NT$45,810，最低點日期 2026-07-09。",
-      "sourceKind": "price_history",
+      "converted": 26999,
+      "sourceUrl": "https://www.costco.com.tw/Televisions-Appliances/Kitchen-Appliances/Dishwashers-Dish-Dryers/Electrolux-60cm-UltimateCare-300-AirDry-Freestanding-Dishwasher/p/155128",
+      "sourceTitle": "Costco 商品頁：伊萊克斯 60公分 極淨呵護300 安心乾系列 15人份 自動開門 獨立式洗碗機 | Costco 好市多",
+      "evidenceSnippet": "Costco 商品頁 於 2026-07-10 回傳同一商品頁「伊萊克斯 60公分 極淨呵護300 安心乾系列 15人份 自動開門 獨立式洗碗機 | Costco 好市多」查核價 NT$26,999，低於原先記錄史低。",
+      "sourceKind": "retailer_page",
       "confidence": "medium",
-      "checkedAt": "2026-07-09",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+      "checkedAt": "2026-07-10",
+      "note": "採用可信通路同一商品頁可公開查核現價作為本次觀測到的最低價；同型號/規格並排除會員個人化折扣、信用卡回饋、點數、二手、福利品、展示機、箱損、拆封與整新品。"
     }
   }
 ]);

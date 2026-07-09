@@ -15,9 +15,9 @@
     "image": "https://cs-a.ecimg.tw/items/DAANBRA900ASZRJ/000001_1758695631.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 9190,
-      "converted": 9190,
-      "confidence": "PChome 24h 低價查核"
+      "amount": 8534,
+      "converted": 8534,
+      "confidence": "PChome 2026-07-10 API 查核價"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -275,9 +275,9 @@
     "image": "https://cs-a.ecimg.tw/items/DMCI0PA900HEQ1J/000001_1756977419.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 12900,
-      "converted": 12900,
-      "confidence": "PChome 24h 低價查核"
+      "amount": 11352,
+      "converted": 11352,
+      "confidence": "PChome 2026-07-10 API 查核價"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -318,16 +318,16 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 12255,
+      "amount": 11352,
       "currency": "TWD",
-      "converted": 12255,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1264920924&cgp=12255",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：Panasonic授權台東市富源電器 【Panasonic】 櫥下型淨水器 (TK-CB30)",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「樂天市場 - Panasonic授權台東市富源電器 / Panasonic授權台東市富源電器 【Panasonic】 櫥下型淨水器 (TK-CB30)」最低價為 NT$12,255，最低點日期 2026-07-09。",
-      "sourceKind": "price_history",
+      "converted": 11352,
+      "sourceUrl": "https://24h.pchome.com.tw/prod/DMCI0P-A900HEQ1J",
+      "sourceTitle": "PChome 商品頁：【Panasonic 國際牌】櫥下型淨水器 TK-CB30 / ☆贈統一超商禮券500元【Panasonic 國際牌】櫥下型淨水器 TK-CB30",
+      "evidenceSnippet": "PChome 商品 API 於 2026-07-10 回傳同一商品頁「【Panasonic 國際牌】櫥下型淨水器 TK-CB30 / ☆贈統一超商禮券500元【Panasonic 國際牌】櫥下型淨水器 TK-CB30」查核價 NT$11,352，低於原先記錄史低。",
+      "sourceKind": "retailer_page",
       "confidence": "medium",
-      "checkedAt": "2026-07-09",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+      "checkedAt": "2026-07-10",
+      "note": "採用 PChome 24h 同一商品頁可公開查核現價作為本次觀測到的最低價；同型號/規格並排除會員個人化折扣、信用卡回饋、點數、二手、福利品、展示機、箱損、拆封與整新品。"
     }
   },
   {
@@ -889,16 +889,16 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 25110,
+      "amount": 25020,
       "currency": "TWD",
-      "converted": 25110,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1249487500&cgp=25110",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：(店+)【SAKURA 櫻花】【免費申請補助】P0563 P-0563 廚下觸控式熱飲機【省錢王淨水科技】",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / (店+)【SAKURA 櫻花】【免費申請補助】P0563 P-0563 廚下觸控式熱飲機【省錢王淨水科技】」最低價為 NT$25,110，最低點日期 2026-07-09。",
-      "sourceKind": "price_history",
+      "converted": 25020,
+      "sourceUrl": "https://24h.pchome.com.tw/prod/DMBM2H-A900GH7MW",
+      "sourceTitle": "PChome 商品 API：SAKURA櫻花 廚下觸控式熱飲機 P0563 / 【南紡購物中心】 ★送5%P幣★SAKURA櫻花 廚下觸控式熱飲機 P0563",
+      "evidenceSnippet": "PChome 商品 API 於 2026-07-10 回傳同一商品頁「SAKURA櫻花 廚下觸控式熱飲機 P0563 / 【南紡購物中心】 ★送5%P幣★SAKURA櫻花 廚下觸控式熱飲機 P0563」查核價 NT$25,020，低於原先記錄史低。",
+      "sourceKind": "retailer_page",
       "confidence": "medium",
-      "checkedAt": "2026-07-09",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+      "checkedAt": "2026-07-10",
+      "note": "採用可信通路同一商品頁可公開查核現價作為本次觀測到的最低價；同型號/規格並排除會員個人化折扣、信用卡回饋、點數、二手、福利品、展示機、箱損、拆封與整新品。"
     }
   },
   {

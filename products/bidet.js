@@ -655,9 +655,9 @@
     "name": "儲熱式溫水洗淨便座含原廠基本安裝",
     "price": {
       "currency": "TWD",
-      "amount": 6990,
-      "converted": 6990,
-      "confidence": "可信通路查核價"
+      "amount": 6190,
+      "converted": 6190,
+      "confidence": "PChome 2026-07-10 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAL8LA900GH6F4/000001_1724400418.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAL8L-A900GH6F4",
@@ -713,9 +713,9 @@
     "name": "纖薄美型瞬熱式溫水洗淨便座",
     "price": {
       "currency": "TWD",
-      "amount": 17900,
-      "converted": 17900,
-      "confidence": "可信通路查核價"
+      "amount": 15752,
+      "converted": 15752,
+      "confidence": "PChome 2026-07-10 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAL6WA900I0L73/000001_1729761324.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAL6W-A900I0L73",
@@ -771,9 +771,9 @@
     "name": "瞬熱式溫水洗淨便座",
     "price": {
       "currency": "TWD",
-      "amount": 13900,
-      "converted": 13900,
-      "confidence": "可信通路查核價"
+      "amount": 11954,
+      "converted": 11954,
+      "confidence": "PChome 2026-07-10 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAL6WA900JEEZE/000001_1776140283.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAL6W-A900JEEZE",
@@ -806,16 +806,16 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 13205,
+      "amount": 11954,
       "currency": "TWD",
-      "converted": 13205,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1265195956&cgp=13205",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：Panasonic授權新北蘆洲翊誠電器 【Panasonic】 瞬熱式溫水洗淨便座 (DL-PU30TWWS)",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「樂天市場 - Panasonic授權新北蘆洲翊誠電器 / Panasonic授權新北蘆洲翊誠電器 【Panasonic】 瞬熱式溫水洗淨便座 (DL-PU30TWWS)」最低價為 NT$13,205，最低點日期 2026-07-09。",
-      "sourceKind": "price_history",
-      "confidence": "high",
-      "checkedAt": "2026-07-09",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+      "converted": 11954,
+      "sourceUrl": "https://24h.pchome.com.tw/prod/DMAL6W-A900JEEZE",
+      "sourceTitle": "PChome 商品頁：Panasonic 國際牌 瞬熱式免治馬桶 洗淨便座 DL-PU30TWWS / Panasonic 國際牌 瞬熱式免治馬桶 洗淨便座 DL-PU30TWWS",
+      "evidenceSnippet": "PChome 商品 API 於 2026-07-10 回傳同一商品頁「Panasonic 國際牌 瞬熱式免治馬桶 洗淨便座 DL-PU30TWWS / Panasonic 國際牌 瞬熱式免治馬桶 洗淨便座 DL-PU30TWWS」查核價 NT$11,954，低於原先記錄史低。",
+      "sourceKind": "retailer_page",
+      "confidence": "medium",
+      "checkedAt": "2026-07-10",
+      "note": "採用 PChome 24h 同一商品頁可公開查核現價作為本次觀測到的最低價；同型號/規格並排除會員個人化折扣、信用卡回饋、點數、二手、福利品、展示機、箱損、拆封與整新品。"
     }
   },
   {

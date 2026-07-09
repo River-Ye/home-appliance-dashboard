@@ -17,9 +17,9 @@
     "name": "11.1.4 聲道旗艦 Soundbar",
     "price": {
       "currency": "TWD",
-      "amount": 49900,
-      "converted": 49900,
-      "confidence": "可信通路查核價"
+      "amount": 42914,
+      "converted": 42914,
+      "confidence": "PChome 2026-07-10 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAAODA900JMDR5/000001_1773978957.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAAOD-A900JMDR5",
@@ -52,16 +52,16 @@
     "releaseDate": "2025",
     "historicalLow": {
       "status": "found",
-      "amount": 44618,
+      "amount": 42914,
       "currency": "TWD",
-      "converted": 44618,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=556299131&cgp=44618",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：SAMSUNG 三星 HW-Q990F/ZW Q系列 11.1.4聲道 重低音與後環繞喇叭 聲霸 廠商直送",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「蝦皮商城 - 蝦皮直營 - 3C家電館 / SAMSUNG 三星 HW-Q990F/ZW Q系列 11.1.4聲道 重低音與後環繞喇叭 聲霸 廠商直送」最低價為 NT$44,618，最低點日期 2026-07-09。",
-      "sourceKind": "price_history",
+      "converted": 42914,
+      "sourceUrl": "https://24h.pchome.com.tw/prod/DMAAOD-A900JMDR5",
+      "sourceTitle": "PChome 商品頁：SAMSUNG 三星 HW-Q990F 11.1.4聲道 Q系列 Soundbar 聲霸 Q990D升級 / SAMSUNG 三星 HW-Q990F 11.1.4聲道 Q系列 Soundbar 聲霸 Q990D升級",
+      "evidenceSnippet": "PChome 商品 API 於 2026-07-10 回傳同一商品頁「SAMSUNG 三星 HW-Q990F 11.1.4聲道 Q系列 Soundbar 聲霸 Q990D升級 / SAMSUNG 三星 HW-Q990F 11.1.4聲道 Q系列 Soundbar 聲霸 Q990D升級」查核價 NT$42,914，低於原先記錄史低。",
+      "sourceKind": "retailer_page",
       "confidence": "medium",
-      "checkedAt": "2026-07-09",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+      "checkedAt": "2026-07-10",
+      "note": "採用 PChome 24h 同一商品頁可公開查核現價作為本次觀測到的最低價；同型號/規格並排除會員個人化折扣、信用卡回饋、點數、二手、福利品、展示機、箱損、拆封與整新品。"
     }
   },
   {
@@ -458,16 +458,16 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 20100,
+      "amount": 19900,
       "currency": "TWD",
-      "converted": 20100,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1262367060&cgp=21891",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：(店+)【LG 樂金】下殺促銷!! Soundbar家庭劇院5.1.3聲道環繞音響 S80TR",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / (店+)【LG 樂金】下殺促銷!! Soundbar家庭劇院5.1.3聲道環繞音響 S80TR」最低價為 NT$20,100，最低點日期 2026-03-21。",
-      "sourceKind": "price_history",
-      "confidence": "high",
-      "checkedAt": "2026-07-09",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+      "converted": 19900,
+      "sourceUrl": "https://24h.pchome.com.tw/prod/DMBM1D-A900J5JAZ",
+      "sourceTitle": "PChome 商品 API：LG 樂金 5.1.3聲道立體環繞音效 Soundbar 家庭劇院 S80TR / LG 樂金 5.1.3聲道立體環繞音效 Soundbar 家庭劇院 S80TR",
+      "evidenceSnippet": "PChome 商品 API 於 2026-07-10 回傳同一商品頁「LG 樂金 5.1.3聲道立體環繞音效 Soundbar 家庭劇院 S80TR / LG 樂金 5.1.3聲道立體環繞音效 Soundbar 家庭劇院 S80TR」查核價 NT$19,900，低於原先記錄史低。",
+      "sourceKind": "retailer_page",
+      "confidence": "medium",
+      "checkedAt": "2026-07-10",
+      "note": "採用可信通路同一商品頁可公開查核現價作為本次觀測到的最低價；同型號/規格並排除會員個人化折扣、信用卡回饋、點數、二手、福利品、展示機、箱損、拆封與整新品。"
     }
   },
   {
@@ -713,9 +713,9 @@
     "name": "BAR 300MK2 5.0 聲道 Soundbar",
     "price": {
       "currency": "TWD",
-      "amount": 15010,
-      "converted": 15010,
-      "confidence": "可信通路查核價"
+      "amount": 14062,
+      "converted": 14062,
+      "confidence": "PChome 2026-07-10 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAAHGA900JCY2V/000001_1760766812.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAAHG-A900JCY2V",
@@ -771,9 +771,9 @@
     "name": "7.1 聲道家庭劇院喇叭",
     "price": {
       "currency": "TWD",
-      "amount": 32800,
-      "converted": 32800,
-      "confidence": "可信通路查核價"
+      "amount": 31160,
+      "converted": 31160,
+      "confidence": "PChome 2026-07-10 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAAHGA900J56OK/000001_1755250707.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAAHG-A900J56OK",
@@ -1061,9 +1061,9 @@
     "name": "7.1.4 聲道家庭劇院聲霸",
     "price": {
       "currency": "TWD",
-      "amount": 42900,
-      "converted": 42900,
-      "confidence": "可信通路查核價，擷取 2026-07-09"
+      "amount": 40755,
+      "converted": 40755,
+      "confidence": "PChome 2026-07-10 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAAHGA900J5777/000001_1755253698.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAAHG-A900J5777",
@@ -1096,16 +1096,16 @@
     "releaseDate": "2025-06-12",
     "historicalLow": {
       "status": "found",
-      "amount": 42900,
+      "amount": 40755,
       "currency": "TWD",
-      "converted": 42900,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1259893393&cgp=42900",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：JBL BAR 1000 MK2 聲霸 7.1.4聲道家庭劇院",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「PCHome購物 / JBL BAR 1000 MK2 聲霸 7.1.4聲道家庭劇院」最低價為 NT$42,900，最低點日期 2026-07-09。",
-      "sourceKind": "price_history",
-      "confidence": "high",
-      "checkedAt": "2026-07-09",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+      "converted": 40755,
+      "sourceUrl": "https://24h.pchome.com.tw/prod/DMAAHG-A900J5777",
+      "sourceTitle": "PChome 商品頁：JBL BAR 1000 MK2 聲霸 7.1.4聲道家庭劇院 / JBL BAR 1000 MK2 聲霸 7.1.4聲道家庭劇院",
+      "evidenceSnippet": "PChome 商品 API 於 2026-07-10 回傳同一商品頁「JBL BAR 1000 MK2 聲霸 7.1.4聲道家庭劇院 / JBL BAR 1000 MK2 聲霸 7.1.4聲道家庭劇院」查核價 NT$40,755，低於原先記錄史低。",
+      "sourceKind": "retailer_page",
+      "confidence": "medium",
+      "checkedAt": "2026-07-10",
+      "note": "採用 PChome 24h 同一商品頁可公開查核現價作為本次觀測到的最低價；同型號/規格並排除會員個人化折扣、信用卡回饋、點數、二手、福利品、展示機、箱損、拆封與整新品。"
     }
   },
   {
@@ -1119,9 +1119,9 @@
     "name": "Fidelio 7.1.2 Dolby Atmos 旗艦聲霸",
     "price": {
       "currency": "TWD",
-      "amount": 38900,
-      "converted": 38900,
-      "confidence": "可信通路查核價，擷取 2026-07-09"
+      "amount": 35399,
+      "converted": 35399,
+      "confidence": "PChome 2026-07-10 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAF02A900H2G5R/000001_1704612188.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAF02-A900H2G5R",
@@ -1177,9 +1177,9 @@
     "name": "5.1.2 聲道 Dolby Atmos Soundbar",
     "price": {
       "currency": "USD",
-      "amount": 1000,
-      "converted": 32099,
-      "confidence": "WIRED 2025 發表價約 USD 1,000，依 2026-07-09 匯率換算"
+      "amount": 1299.99,
+      "converted": 41728,
+      "confidence": "Marshall US 2026-07-10 官方頁查核價；依 2026-07-09 匯率換算"
     },
     "image": "https://images.ctfassets.net/javen7msabdh/2C2sn9CKoKFdIyd94Gm9z5/f3019d4e721511167ebe5c229bf490dd/heston-120_plp.jpg",
     "buyUrl": "https://www.marshall.com/us/en/product/heston-120",

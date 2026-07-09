@@ -365,9 +365,9 @@
     "name": "62-TW 黑色渦流空氣循環扇",
     "price": {
       "currency": "TWD",
-      "amount": 3880,
-      "converted": 3880,
-      "confidence": "可信通路查核價"
+      "amount": 3492,
+      "converted": 3492,
+      "confidence": "PChome 2026-07-10 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAB3XA900IIGO1/000001_1765272569.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAB3X-A900IIGO1",
@@ -655,9 +655,9 @@
     "name": "6303DC 白色渦流空氣循環機",
     "price": {
       "currency": "TWD",
-      "amount": 6980,
-      "converted": 6980,
-      "confidence": "可信通路查核價"
+      "amount": 6282,
+      "converted": 6282,
+      "confidence": "PChome 2026-07-10 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/QBAF31A9008YBED/000001_1765269212.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/QBAF31-A9008YBED",

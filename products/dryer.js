@@ -883,16 +883,16 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 9110,
+      "amount": 8823,
       "currency": "TWD",
-      "converted": 9110,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1158921499&cgp=9110",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：Panasonic授權彰化田中鈜大電器 【Panasonic】搭配架式乾衣機 (NH-L70G-L)",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「樂天市場 - Panasonic授權彰化田中鈜大電器 / Panasonic授權彰化田中鈜大電器 【Panasonic】搭配架式乾衣機 (NH-L70G-L)」最低價為 NT$9,110，最低點日期 2026-07-09。",
-      "sourceKind": "price_history",
-      "confidence": "high",
-      "checkedAt": "2026-07-09",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+      "converted": 8823,
+      "sourceUrl": "https://tw.buy.yahoo.com/gdsale/Panasonic-國際牌-NH-L70G-L-架上型7kg乾衣機-10746995.html",
+      "sourceTitle": "Yahoo購物中心 JSON-LD：Panasonic 國際牌 NH-L70G-L 架上型7kg乾衣機 | 脫水/乾衣機 | Yahoo購物中心",
+      "evidenceSnippet": "Yahoo購物中心 JSON-LD 於 2026-07-10 回傳同一商品頁「Panasonic 國際牌 NH-L70G-L 架上型7kg乾衣機 | 脫水/乾衣機 | Yahoo購物中心」查核價 NT$8,823，低於原先記錄史低。",
+      "sourceKind": "retailer_page",
+      "confidence": "medium",
+      "checkedAt": "2026-07-10",
+      "note": "採用可信通路同一商品頁可公開查核現價作為本次觀測到的最低價；同型號/規格並排除會員個人化折扣、信用卡回饋、點數、二手、福利品、展示機、箱損、拆封與整新品。"
     }
   },
   {
@@ -1264,16 +1264,16 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 49900,
+      "amount": 45908,
       "currency": "TWD",
-      "converted": 49900,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1271625974&cgp=49900",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：(店+)【BOSCH 博世】WQB245A0TC Heat Pump 速效乾衣機(除皺清新) 9 kg AutoDry智慧烘乾",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / (店+)【BOSCH 博世】WQB245A0TC Heat Pump 速效乾衣機(除皺清新) 9 kg AutoDry智慧烘乾」最低價為 NT$49,900，最低點日期 2026-07-09。",
-      "sourceKind": "price_history",
+      "converted": 45908,
+      "sourceUrl": "https://tw.buy.yahoo.com/gdsale/BOSCH博世-9公斤除皺清新熱泵式乾衣機-含基本安裝-220V拉電-WQB245A0TC-11757116.html",
+      "sourceTitle": "Yahoo購物中心 JSON-LD：BOSCH博世 9公斤除皺清新熱泵式乾衣機 含基本安裝+220V拉電 (WQB245A0TC) | 脫水/乾衣機 | Yahoo購物中心",
+      "evidenceSnippet": "Yahoo購物中心 JSON-LD 於 2026-07-10 回傳同一商品頁「BOSCH博世 9公斤除皺清新熱泵式乾衣機 含基本安裝+220V拉電 (WQB245A0TC) | 脫水/乾衣機 | Yahoo購物中心」查核價 NT$45,908，低於原先記錄史低。",
+      "sourceKind": "retailer_page",
       "confidence": "medium",
-      "checkedAt": "2026-07-09",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+      "checkedAt": "2026-07-10",
+      "note": "採用可信通路同一商品頁可公開查核現價作為本次觀測到的最低價；同型號/規格並排除會員個人化折扣、信用卡回饋、點數、二手、福利品、展示機、箱損、拆封與整新品。"
     }
   },
   {
