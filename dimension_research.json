@@ -1,0 +1,906 @@
+{
+  "generatedAt": "2026-07-09",
+  "sourcePolicy": "機身尺寸優先官方產品頁或官方規格 PDF，其次可信通路；排除包裝與外箱尺寸。",
+  "results": [
+    {
+      "id": "washer-lg-wt-vdn12hm",
+      "dimension": "尺寸：寬 54 x 深 56 x 高 94.5 cm",
+      "sourceUrl": "https://tw.buy.yahoo.com/gdsale/LG樂金-WT-VDN12HM-12KG-直驅變頻直立洗衣機-曜石黑-贈基本安裝-獨家贈好禮-11679958.html",
+      "sourceTitle": "LG樂金 WT-VDN12HM 12KG 直驅變頻直立洗衣機 曜石黑 贈基本安裝 (獨家贈好禮)",
+      "evidenceSnippet": "Yahoo購物中心規格表列出「型號 WT-VDN12HM」與「尺寸 寬540*深560*高945 mm」。",
+      "confidence": "medium",
+      "isOfficialSource": false,
+      "checkedAt": "2026-07-09"
+    },
+    {
+      "id": "washer-lg-wt-td16hw",
+      "dimension": "尺寸：寬 65.1 x 深 68 x 高 106 cm",
+      "sourceUrl": "https://tw.buy.yahoo.com/gdsale/LG-樂金-16公斤-AI-DD-蒸氣直驅變頻洗衣機-雲朵白-WT-TD16HW-11981704.html",
+      "sourceTitle": "LG 樂金 16公斤 AI DD 蒸氣直驅變頻洗衣機-雲朵白(WT-TD16HW)",
+      "evidenceSnippet": "Yahoo購物中心規格表列出「型號 WT-TD16HW」與「尺寸 651x680x1060 mm」。",
+      "confidence": "medium",
+      "isOfficialSource": false,
+      "checkedAt": "2026-07-09"
+    },
+    {
+      "id": "washer-lg-wt-td18ob",
+      "dimension": "尺寸：寬 65.1 x 深 68 x 高 106 cm",
+      "sourceUrl": "https://tw.buy.yahoo.com/gdsale/LG-樂金-18公斤-AI-DD-直驅變頻洗衣機-瑪瑙黑-WT-TD18OB-11981706.html",
+      "sourceTitle": "LG 樂金 18公斤 AI DD 直驅變頻洗衣機-瑪瑙黑(WT-TD18OB)",
+      "evidenceSnippet": "Yahoo購物中心規格表列出「型號 WT-TD18OB」與「尺寸 651x680x1060 mm」。",
+      "confidence": "medium",
+      "isOfficialSource": false,
+      "checkedAt": "2026-07-09"
+    },
+    {
+      "id": "washer-panasonic-na-v190mt-pn",
+      "dimension": "尺寸：寬 64 x 深 71 x 高 107.5 cm",
+      "sourceUrl": "https://www.panasonic.com/tw/consumer/washing-machine/vertical-washing-machine/inverter/na-v190mt-na-v190mts.html",
+      "sourceTitle": "變頻洗衣機 強效抑菌變頻直立式洗衣機 NA-V190MT / NA-V190MTS - Panasonic 台灣",
+      "evidenceSnippet": "Panasonic 官方規格列出「外觀尺寸 (寬x深x高) mm(不含給、排水管) 640x710x1075」，另頁面摘要寫「寬640 X 深710 X 高1075 mm」。",
+      "confidence": "high",
+      "isOfficialSource": true,
+      "checkedAt": "2026-07-09"
+    },
+    {
+      "id": "washer-panasonic-na-v150nm-pn",
+      "dimension": "尺寸：寬 64 x 深 71 x 高 107.5 cm",
+      "sourceUrl": "https://www.panasonic.com/tw/consumer/washing-machine/vertical-washing-machine/inverter/na-v150nm-nms.html",
+      "sourceTitle": "變頻洗衣機 智能聯網變頻直立溫水洗衣機 NA-V150NM / NA-V150NMS - Panasonic 台灣",
+      "evidenceSnippet": "Panasonic 官方規格列出「外觀尺寸 (寬x深x高) mm(不含給、排水管) 640x710x1075」，另頁面摘要寫「寬640 X 深710 X 高1075 mm」。",
+      "confidence": "high",
+      "isOfficialSource": true,
+      "checkedAt": "2026-07-09"
+    },
+    {
+      "id": "washer-panasonic-na-v130lb-l",
+      "dimension": "尺寸：寬 55.4 x 深 64 x 高 101.5 cm",
+      "sourceUrl": "https://tw.buy.yahoo.com/gdsale/Panasonic-國際牌-13公斤變頻直立式洗衣機-NA-V130LB-L-炫銀灰-9722518.html",
+      "sourceTitle": "Panasonic國際牌 13公斤 變頻直立式洗衣機 NA-V130LB-L 炫銀灰",
+      "evidenceSnippet": "Yahoo購物中心規格表列出「型號 NA-V130LB-L」與「尺寸 554x640x1015mm」；Panasonic 官方站內搜尋 NA-V130LB 未找到相符項目。",
+      "confidence": "medium",
+      "isOfficialSource": false,
+      "checkedAt": "2026-07-09"
+    },
+    {
+      "id": "washer-lg-wd-s13vbw",
+      "dimension": "尺寸：寬 60 x 深 61.5 x 高 85 cm",
+      "sourceUrl": "https://tw.buy.yahoo.com/gdsale/LG-樂金-WD-S13VBW-13公斤蒸洗脫WiFi滾筒洗衣機-冰磁白-客約賣場-獨家送雙好禮--11368468.html",
+      "sourceTitle": "LG 樂金 WD-S13VBW 13公斤蒸洗脫WiFi滾筒洗衣機 冰磁白 客約賣場 (獨家送好禮)",
+      "evidenceSnippet": "Yahoo購物中心規格表列出「型號 WD-S13VBW」與「尺寸 600 x 850 x 615 mm」；依滾筒機常見寬高深標示換算為寬60、深61.5、高85cm。",
+      "confidence": "medium",
+      "isOfficialSource": false,
+      "checkedAt": "2026-07-09"
+    },
+    {
+      "id": "washer-sampo-wm-md10",
+      "dimension": "尺寸：寬 59.5 x 深 60.7 x 高 103.5 cm",
+      "sourceUrl": "https://tw.buy.yahoo.com/gdsale/SAMPO-聲寶10公斤窄身變頻單槽直立式洗衣機-香檳金-含基本安裝-舊機回收-10764299.html",
+      "sourceTitle": "SAMPO 聲寶10公斤窄身變頻單槽直立式洗衣機WM-MD10 香檳金含基本安裝+舊機回收",
+      "evidenceSnippet": "Yahoo購物中心規格表列出「型號 WM-MD10」與「尺寸 595*1035*607(mm)」；依直立機高度判讀為寬高深並換算成寬深高。",
+      "confidence": "medium",
+      "isOfficialSource": false,
+      "checkedAt": "2026-07-09"
+    },
+    {
+      "id": "washer-panasonic-na-90eb-w",
+      "dimension": "尺寸：寬 55.4 x 深 64 x 高 101.5 cm",
+      "sourceUrl": "https://www.panasonic.com/tw/consumer/washing-machine/vertical-washing-machine/fixed-frequency/na-90eb.html",
+      "sourceTitle": "定頻洗衣機 超強淨直立式洗衣機 NA-90EB - Panasonic 台灣",
+      "evidenceSnippet": "Panasonic 官方規格列出「外觀尺寸(mm) (不含給、排水管)」為「寬：554、深：640、高：1015」，並另列「寬554 x 深640 x 高1015mm」。",
+      "confidence": "high",
+      "isOfficialSource": true,
+      "checkedAt": "2026-07-09"
+    },
+    {
+      "id": "washer-whirlpool-wm10kw",
+      "dimension": "尺寸：寬 54 x 深 56.2 x 高 93 cm",
+      "sourceUrl": "https://tw.buy.yahoo.com/gdsale/Whirlpool惠而浦-10公斤-直立洗衣機-WM10KW-10609233.html",
+      "sourceTitle": "Whirlpool惠而浦 10公斤 直立洗衣機 WM10KW | 定頻10KG以下 | Yahoo購物中心",
+      "evidenceSnippet": "Yahoo 規格表列「尺寸：540*930*562 mm」；依洗衣機常見 W*H*D 順序換算並重排為寬/深/高。",
+      "confidence": "medium",
+      "isOfficialSource": false,
+      "checkedAt": "2026-07-09"
+    },
+    {
+      "id": "washer-whirlpool-wm07pw",
+      "dimension": "尺寸：寬 50 x 深 53.5 x 高 89.5 cm",
+      "sourceUrl": "https://tw.buy.yahoo.com/gdsale/Whirlpool-惠而浦-7公斤-直立洗衣機-WM07PW-9291102.html",
+      "sourceTitle": "Whirlpool惠而浦 7公斤 直立洗衣機 WM07PW | 定頻10KG以下 | Yahoo購物中心",
+      "evidenceSnippet": "Yahoo 規格表列「尺寸：500 x 895 x 535 mm」；依洗衣機常見 W*H*D 順序換算並重排為寬/深/高。",
+      "confidence": "medium",
+      "isOfficialSource": false,
+      "checkedAt": "2026-07-09"
+    },
+    {
+      "id": "washer-heran-hwm-1061v",
+      "dimension": "尺寸：寬 55 x 深 58.2 x 高 94 cm",
+      "sourceUrl": "https://www.heran.com.tw/product/hwm-1061v/",
+      "sourceTitle": "HWM-1061V - 禾聯家電",
+      "evidenceSnippet": "HERAN 官方商品規格列「機體尺寸」與「寬550*高940*深582(㎜)」。",
+      "confidence": "high",
+      "isOfficialSource": true,
+      "checkedAt": "2026-07-09"
+    },
+    {
+      "id": "washer-sampo-es-k10df",
+      "dimension": "尺寸：寬 59.5 x 深 60.7 x 高 103.5 cm",
+      "sourceUrl": "https://tw.buy.yahoo.com/gdsale/SAMPO-聲寶10公斤窄身變頻單槽直立式洗衣機-ES-K10DF-香檳金-9713719.html",
+      "sourceTitle": "SAMPO聲寶 10公斤窄身變頻單槽直立式洗衣機ES- K10DF香檳金 含基本安裝+舊機回收 | 變頻10KG以下 | Yahoo購物中心",
+      "evidenceSnippet": "Yahoo 規格表列「尺寸：595*1035*607(mm)」；依洗衣機常見 W*H*D 順序換算並重排為寬/深/高。",
+      "confidence": "medium",
+      "isOfficialSource": false,
+      "checkedAt": "2026-07-09"
+    },
+    {
+      "id": "washer-sampo-wm-md13",
+      "dimension": "尺寸：寬 60.6 x 深 62 x 高 101.5 cm",
+      "sourceUrl": "https://tw.buy.yahoo.com/gdsale/SAMPO聲寶-13KG-台灣製變頻直立式洗衣機-WM-MD13-10764300.html",
+      "sourceTitle": "SAMPO聲寶 13KG 台灣製變頻直立式洗衣機 WM-MD13 含基本安裝+舊機回收 | 變頻11-13KG | Yahoo購物中心",
+      "evidenceSnippet": "Yahoo 規格表列「機體尺寸：(寬)606* (高)1015 * (深)620mm」。",
+      "confidence": "high",
+      "isOfficialSource": false,
+      "checkedAt": "2026-07-09"
+    },
+    {
+      "id": "washer-sampo-es-b13f",
+      "dimension": "尺寸：寬 60.1 x 深 61.1 x 高 99 cm",
+      "sourceUrl": "https://tw.buy.yahoo.com/gdsale/SAMPO聲寶-12-5KG-定頻直立式洗衣機-E-9577871.html",
+      "sourceTitle": "SAMPO聲寶 12.5公斤定頻直立式洗衣機ES-B13F珍珠白 含基本安裝+舊機回收 | 定頻11-13KG | Yahoo購物中心",
+      "evidenceSnippet": "Yahoo 規格表列「尺寸：601*990*611mm(寬*高*深)」。",
+      "confidence": "high",
+      "isOfficialSource": false,
+      "checkedAt": "2026-07-09"
+    },
+    {
+      "id": "washer-whirlpool-wm10gn",
+      "dimension": "尺寸：寬 57 x 深 59.2 x 高 95 cm",
+      "sourceUrl": "https://tw.buy.yahoo.com/gdsale/gdsale.asp?gdid=p0214264897808",
+      "sourceTitle": "Whirlpool惠而浦 10公斤 直立洗衣機 WM10GN | 定頻10KG以下 | Yahoo購物中心",
+      "evidenceSnippet": "Yahoo 規格表列「尺寸：570 x 950 x 592 mm」；依洗衣機常見 W*H*D 順序換算並重排為寬/深/高。",
+      "confidence": "medium",
+      "isOfficialSource": false,
+      "checkedAt": "2026-07-09"
+    },
+    {
+      "id": "washer-sanlux-sw-13dvgs",
+      "dimension": "尺寸：寬 55 x 深 61.5 x 高 103 cm",
+      "sourceUrl": "https://tw.buy.yahoo.com/gdsale/SANLUX台灣三洋-13KG-變頻直立式洗衣機--7966505.html",
+      "sourceTitle": "13KG 變頻直立式超音波洗衣機 SW-13DVGS (內外不鏽鋼) | 變頻11-13KG | Yahoo購物中心",
+      "evidenceSnippet": "Yahoo 規格表列「尺寸：寬550x深615x高1030mm」。",
+      "confidence": "high",
+      "isOfficialSource": false,
+      "checkedAt": "2026-07-09"
+    },
+    {
+      "id": "washer-heran-hwm-0691",
+      "dimension": "尺寸：寬 51 x 深 51 x 高 86 cm",
+      "sourceUrl": "https://www.heran.com.tw/product/hwm-0691/",
+      "sourceTitle": "HWM-0691 - 禾聯家電",
+      "evidenceSnippet": "HERAN 官方商品規格列「機體尺寸」與「寬510*高860*深510(㎜)」。",
+      "confidence": "high",
+      "isOfficialSource": true,
+      "checkedAt": "2026-07-09"
+    },
+    {
+      "id": "washer-samsung-ww12bb744dgbtw",
+      "dimension": "尺寸：寬 60 x 深 69.5 x 高 85 cm",
+      "sourceUrl": "https://www.samsung.com/tw/washers-and-dryers/washing-machines/ww7400b-front-loading-ecobubble-ai-wash-bespoke-design-with-spacemax-12kg-black-ww12bb744dgbtw/",
+      "sourceTitle": "Bespoke AI™ 智慧控制系列滾筒洗衣機 蒸洗脫 12KG | WW12BB744DGBTW | 幻夜黑 | 台灣三星電子",
+      "evidenceSnippet": "實體規格標示為「淨寬 X 淨高 X 淨深」600 x 850 x 695 mm，已換算為 cm。",
+      "confidence": "high",
+      "isOfficialSource": true,
+      "checkedAt": "2026-07-09"
+    },
+    {
+      "id": "washer-sanlux-sw-v15n",
+      "dimension": "尺寸：寬 59.8 x 深 65.8 x 高 103 cm",
+      "sourceUrl": "https://www.sanyo.com.tw/product-detail/921",
+      "sourceTitle": "SANLUX台灣三洋 SW-V15N",
+      "evidenceSnippet": "詳細規格列「外型尺寸(mm)：寬598x深658x高1030」；包裝箱尺寸另列，未採用。",
+      "confidence": "high",
+      "isOfficialSource": true,
+      "checkedAt": "2026-07-09"
+    },
+    {
+      "id": "washer-costco-sharp-es-asf10t",
+      "dimension": "尺寸：寬 55.5 x 深 59.5 x 高 89.5 cm",
+      "sourceUrl": "https://tw.sharp/products/es-asf10t?v=1384",
+      "sourceTitle": "無孔槽變頻洗衣機 ES-ASF10T | SHARP Taiwan",
+      "evidenceSnippet": "規格參數列「本體尺寸 (cm)--(不含軟管)：55.5x59.5x89.5」；外箱尺寸另列，未採用。",
+      "confidence": "high",
+      "isOfficialSource": true,
+      "checkedAt": "2026-07-09"
+    },
+    {
+      "id": "washer-costco-samsung-wa80f13s5ltw",
+      "dimension": "尺寸：寬 61 x 深 67.5 x 高 108.9 cm",
+      "sourceUrl": "https://www.samsung.com/tw/washers-and-dryers/washing-machines/wa80f-24-top-load-washer-ai-wash-ecobubble-ai-energy-mode-13kg-light-gray-wa80f13s5ltw/",
+      "sourceTitle": "Bespoke AI™ 智慧控制系列直立洗衣機 AI Wash 13kg | WA80F13S5LTW | 銀霧灰 | 台灣三星電子",
+      "evidenceSnippet": "實體規格標示為「淨寬 X 淨高 X 淨深」610 x 1089 x 675 mm，已換算並重排為寬深高。",
+      "confidence": "high",
+      "isOfficialSource": true,
+      "checkedAt": "2026-07-09"
+    },
+    {
+      "id": "washer-costco-panasonic-na-v120hw",
+      "dimension": "尺寸：寬 59.5 x 深 59.5 x 高 85 cm",
+      "sourceUrl": "https://www.costco.com.tw/Televisions-Appliances/Large-Appliances/Washers-Dryers/Panasonic-12-kg-Inverter-Front-Load-Washer-NA-V120HW/p/136412",
+      "sourceTitle": "國際牌 12公斤洗脫變頻滾筒洗衣機 NA-V120HW | Costco 好市多",
+      "evidenceSnippet": "商品規格列「商品尺寸 寬 59.5公分 X 深 59.5公分 X 高 85公分」；外箱尺寸另列，未採用。",
+      "confidence": "high",
+      "isOfficialSource": false,
+      "checkedAt": "2026-07-09"
+    },
+    {
+      "id": "dryer-panasonic-nh-80rz-w",
+      "dimension": "尺寸：寬 59.5 x 深 60 x 高 74 cm",
+      "sourceUrl": "https://tw.buy.yahoo.com/gdsale/Panasonic國際牌8公斤乾衣機NH-80RZ-W-12105618.html",
+      "sourceTitle": "Panasonic國際牌8公斤乾衣機NH-80RZ-W | 脫水/乾衣機 | Yahoo購物中心",
+      "evidenceSnippet": "規格表列「尺寸：長600x寬595x高740mm」，已將長視為深度並換算為 cm。",
+      "confidence": "high",
+      "isOfficialSource": false,
+      "checkedAt": "2026-07-09"
+    },
+    {
+      "id": "dryer-panasonic-nh-70g-l",
+      "dimension": "尺寸：寬 60 x 深 54.5 x 高 80 cm",
+      "sourceUrl": "https://tw.buy.yahoo.com/gdsale/Panasonic國際牌-7公斤-落地型乾衣機-NH-70G-9194341.html",
+      "sourceTitle": "Panasonic國際牌 7公斤 落地型乾衣機 NH-70G-L | 脫水/乾衣機 | Yahoo購物中心",
+      "evidenceSnippet": "規格表列「尺寸：600mm X 545mm X 800mm」；來源未標寬深高，依乾衣機本體規格慣例解讀為寬x深x高。",
+      "confidence": "medium",
+      "isOfficialSource": false,
+      "checkedAt": "2026-07-09"
+    },
+    {
+      "id": "dryer-whirlpool-8twgd5010pw",
+      "dimension": "尺寸：寬 73.7 x 深 72.1 x 高 102.9 cm",
+      "sourceUrl": "https://tw.buy.yahoo.com/gdsale/gdsale.asp?gdid=p0214264894319",
+      "sourceTitle": "Whirlpool惠而浦 12公斤 快烘瓦斯型乾衣機 8TWGD5010PW 含基本安裝 | 脫水/乾衣機 | Yahoo購物中心",
+      "evidenceSnippet": "規格表列「尺寸：737 x 1029x 721 mm」；來源未標欄位，依乾衣機規格解讀為寬x高x深。",
+      "confidence": "medium",
+      "isOfficialSource": false,
+      "checkedAt": "2026-07-09"
+    },
+    {
+      "id": "dryer-whirlpool-8twgd5050pw",
+      "dimension": "尺寸：寬 73.7 x 深 72.1 x 高 102.9 cm",
+      "sourceUrl": "https://tw.buy.yahoo.com/gdsale/gdsale.asp?gdid=p0214264894336",
+      "sourceTitle": "Whirlpool惠而浦 12公斤 快烘瓦斯型乾衣機 8TWGD5050PW 含基本安裝 | 脫水/乾衣機 | Yahoo購物中心",
+      "evidenceSnippet": "規格表列「尺寸：737 x 1029x 721 mm」；來源未標欄位，依乾衣機規格解讀為寬x高x深。",
+      "confidence": "medium",
+      "isOfficialSource": false,
+      "checkedAt": "2026-07-09"
+    },
+    {
+      "id": "dryer-whirlpool-8twgd8620hw",
+      "dimension": "尺寸：寬 68.6 x 深 78.7 x 高 96.8 cm",
+      "sourceUrl": "https://www.whirlpool.com.tw/product/dryers/front-load-dryers?id=8TWGD8620HW",
+      "sourceTitle": "台灣惠而浦 Whirlpool｜W Collection 16公斤 快烘瓦斯型滾筒乾衣機 8TWGD8620HW",
+      "evidenceSnippet": "官方產品規格列：尺寸 (寬x高x深) 686 x 968 x 787mm；已換算並調整為寬x深x高，未使用包裝尺寸。",
+      "confidence": "high",
+      "isOfficialSource": true,
+      "checkedAt": "2026-07-09"
+    },
+    {
+      "id": "dryer-whirlpool-8twgd5620hw",
+      "dimension": "尺寸：寬 68.6 x 深 78.7 x 高 96.8 cm",
+      "sourceUrl": "https://www.whirlpool.com.tw/product/dryers/front-load-dryers?id=8TWGD5620HW",
+      "sourceTitle": "台灣惠而浦 Whirlpool｜W Collection 16公斤 快烘瓦斯型滾筒乾衣機 8TWGD5620HW",
+      "evidenceSnippet": "官方產品規格列：尺寸 (寬x高x深) 686 x 968 x 787mm；已換算並調整為寬x深x高，未使用包裝尺寸。",
+      "confidence": "high",
+      "isOfficialSource": true,
+      "checkedAt": "2026-07-09"
+    },
+    {
+      "id": "dryer-sanlux-sd-66u8a",
+      "dimension": "尺寸：寬 60 x 深 47.3 x 高 83.4 cm",
+      "sourceUrl": "https://www.sanyo.com.tw/product-detail/143",
+      "sourceTitle": "SANLUX台灣三洋｜乾衣機 SD-66U8A",
+      "evidenceSnippet": "官方詳細規格列：外型尺寸(mm) 寬600x深473x高834；另有包裝箱尺寸但未採用。",
+      "confidence": "high",
+      "isOfficialSource": true,
+      "checkedAt": "2026-07-09"
+    },
+    {
+      "id": "dryer-sanlux-sd-85ua",
+      "dimension": "尺寸：寬 66 x 深 59 x 高 74 cm",
+      "sourceUrl": "https://www.sanyo.com.tw/product-detail/142",
+      "sourceTitle": "SANLUX台灣三洋｜乾衣機 SD-85UA",
+      "evidenceSnippet": "官方詳細規格列：外型尺寸(mm) 寬660x深590x高740；另有包裝箱尺寸但未採用。",
+      "confidence": "high",
+      "isOfficialSource": true,
+      "checkedAt": "2026-07-09"
+    },
+    {
+      "id": "dryer-sanlux-sd-88u",
+      "dimension": "尺寸：寬 66 x 深 59 x 高 74 cm",
+      "sourceUrl": "https://sanlux.com.tw/storage/app/uploads/public/622/a9c/114/622a9c11466bf943184393.pdf",
+      "sourceTitle": "SANLUX台灣三洋｜SD-86U8 / SD-88U 乾衣機說明書 PDF",
+      "evidenceSnippet": "官方說明書規格表列 SD-88U，660(寬)X590(深)X740(高)mm；未使用外箱尺寸。",
+      "confidence": "high",
+      "isOfficialSource": true,
+      "checkedAt": "2026-07-09"
+    },
+    {
+      "id": "dryer-panasonic-nh-vs100hp",
+      "dimension": "尺寸：寬 59.6 x 深 66.7 x 高 84.5 cm",
+      "sourceUrl": "https://tw.buy.yahoo.com/gdsale/Panasonic-國際牌-10kg淨護完美乾衣機NH-VS100HP-含基本安裝-11874057.html",
+      "sourceTitle": "Panasonic 國際牌 10kg淨護完美乾衣機NH-VS100HP 含基本安裝｜Yahoo購物中心",
+      "evidenceSnippet": "Yahoo 商品詳細規格列：本體尺寸：寬596×深667×高845(mm)；同段另列外箱尺寸，未採用。Panasonic 官方頁查詢受 403 阻擋。",
+      "confidence": "medium",
+      "isOfficialSource": false,
+      "checkedAt": "2026-07-09"
+    },
+    {
+      "id": "dryer-whirlpool-8twgd6622hw",
+      "dimension": "尺寸：寬 68.6 x 深 78.7 x 高 96.8 cm",
+      "sourceUrl": "https://www.whirlpool.com.tw/product/dryers/front-load-dryers?id=8TWGD6622HW",
+      "sourceTitle": "台灣惠而浦 Whirlpool｜W Collection 16公斤 快烘瓦斯型滾筒乾衣機 8TWGD6622HW",
+      "evidenceSnippet": "官方產品規格列：尺寸 (寬x高x深) 686 x 968 x 787mm；已換算並調整為寬x深x高，未使用包裝尺寸。",
+      "confidence": "high",
+      "isOfficialSource": true,
+      "checkedAt": "2026-07-09"
+    },
+    {
+      "id": "dryer-sampo-sd-7c",
+      "dimension": "尺寸：寬 59.5 x 深 51 x 高 68.5 cm",
+      "sourceUrl": "https://www.sampo.com.tw/spec.aspx?pd=1274",
+      "sourceTitle": "SAMPO聲寶｜SD-7C 產品規格",
+      "evidenceSnippet": "官方規格列：外觀尺寸(寬*高*深)mm 595 * 685 * 510；已調整為寬x深x高。",
+      "confidence": "high",
+      "isOfficialSource": true,
+      "checkedAt": "2026-07-09"
+    },
+    {
+      "id": "dryer-hitachi-td120xfvem",
+      "dimension": "尺寸：寬 59.8 x 深 67.4 x 高 86.6 cm",
+      "sourceUrl": "https://www.hitachi-homeappliances.com.tw/products/products_compare.php?prod=TD120XFVEM&gid=A05",
+      "sourceTitle": "日立家電官網｜產品比較 TD120XFVEM",
+      "evidenceSnippet": "官方比較頁列：尺寸寬X深X高(mm) 598x674x866。",
+      "confidence": "high",
+      "isOfficialSource": true,
+      "checkedAt": "2026-07-09"
+    },
+    {
+      "id": "dryer-panasonic-nh-l70g-l",
+      "dimension": "尺寸：寬 60 x 深 54.5 x 高 68 cm",
+      "sourceUrl": "https://24h.pchome.com.tw/prod/DPAI1H-A900ALN6H",
+      "sourceTitle": "Panasonic 國際牌 7公斤架上型乾衣機 NH-L70G-L - PChome 24h購物",
+      "evidenceSnippet": "規格說明標示：型號 NH-L70G-L，外觀尺寸寬600mm X 深545mm X 高680mm；換算為 60 x 54.5 x 68 cm。",
+      "confidence": "high",
+      "isOfficialSource": false,
+      "checkedAt": "2026-07-09"
+    },
+    {
+      "id": "dryer-sampo-sd-7b",
+      "dimension": "尺寸：寬 60 x 深 54.5 x 高 82 cm",
+      "sourceUrl": "https://tw.buy.yahoo.com/gdsale/SAMPO%E8%81%B2%E5%AF%B6-7%E5%85%AC%E6%96%A4-%E4%B9%BE%E8%A1%A3%E6%A9%9F-SD-7B-9237299.html",
+      "sourceTitle": "SAMPO聲寶 7公斤乾衣機SD-7B 含基本安裝+運送到府 | Yahoo購物中心",
+      "evidenceSnippet": "商品圖規格表標示：機體尺寸 600(寬)x820(高)x545(深)mm；另列外包裝尺寸但未採用。",
+      "confidence": "high",
+      "isOfficialSource": false,
+      "checkedAt": "2026-07-09"
+    },
+    {
+      "id": "dryer-tatung-taw-d60t",
+      "dimension": "尺寸：寬 60 x 深 48 x 高 69 cm",
+      "sourceUrl": "https://www.rakuten.com.tw/shop/amart/product/895420/",
+      "sourceTitle": "TATUNG大同6KG滾筒乾衣機TAW-D60T_含配送+安裝 | 愛買線上購物直營店",
+      "evidenceSnippet": "商品規格圖標示 TAW-D60T 機身寬 600mm、高 690mm、深 480mm；換算為寬60、深48、高69 cm。",
+      "confidence": "high",
+      "isOfficialSource": false,
+      "checkedAt": "2026-07-09"
+    },
+    {
+      "id": "dryer-heran-hdm-0841",
+      "dimension": "尺寸：寬 59.8 x 深 55.5 x 高 84.9 cm",
+      "sourceUrl": "https://www.momoshop.com.tw/TP/TP0005657/goodsDetail/TP00056570000891",
+      "sourceTitle": "HERAN 禾聯 8KG熱風式乾衣機HDM-0841 - momo購物網",
+      "evidenceSnippet": "商品圖標示 HDM-0841 乾衣機 8KG，尺寸 598x849x555(mm)，依大型家電常用 WxHxD 轉為寬59.8、深55.5、高84.9 cm。",
+      "confidence": "medium",
+      "isOfficialSource": false,
+      "checkedAt": "2026-07-09"
+    },
+    {
+      "id": "dryer-sanlux-asd-80ua",
+      "dimension": "尺寸：未標示",
+      "sourceUrl": "https://tw.buy.yahoo.com/gdsale/SANLUX%E5%8F%B0%E7%81%A3%E4%B8%89%E6%B4%8B8%E5%85%AC%E6%96%A4%E4%B9%BE%E8%A1%A3%E6%A9%9FASD-80UA-12097903.html",
+      "sourceTitle": "SANLUX台灣三洋8公斤乾衣機ASD-80UA | Yahoo購物中心",
+      "evidenceSnippet": "已查 Yahoo 商品頁、SANLUX/台灣三洋相關搜尋與可信通路搜尋；可查結果多導向 SD-85UA 或 ASD-100UA，未找到 ASD-80UA 可核對的機身尺寸，故不採錯型號尺寸。",
+      "confidence": "not_found",
+      "isOfficialSource": false,
+      "checkedAt": "2026-07-09"
+    },
+    {
+      "id": "dryer-samsung-dv10db7440gb-dv10db7440gw",
+      "dimension": "尺寸：寬 60 x 深 60 x 高 85 cm",
+      "sourceUrl": "https://www.myfone.com.tw/mfo/buy/prod/P0000203710306",
+      "sourceTitle": "三星10公斤免曬衣機黑色乾衣機DV10DB7440GBTW(含標準安裝) - myfone 網路門市",
+      "evidenceSnippet": "商品資訊標示 DV10DB7440GBTW 尺寸 600×850×600 mm、重量 50 kg；同 DV10DB7440 系列黑白色機身，轉為寬60、深60、高85 cm。",
+      "confidence": "medium",
+      "isOfficialSource": false,
+      "checkedAt": "2026-07-09"
+    },
+    {
+      "id": "dryer-bosch-wqb245a0tc",
+      "dimension": "尺寸：寬 59.8 x 深 61.3 x 高 84.2 cm",
+      "sourceUrl": "https://www.fuchia.tw/fuchia/uploads/WQB245A0TC.pdf",
+      "sourceTitle": "使用手冊與安裝說明 WQB245A0TC | Bosch",
+      "evidenceSnippet": "Bosch 使用手冊技術資料列出：電器高度 84.2 cm、電器寬度 59.8 cm、電器深度 61.3 cm。",
+      "confidence": "high",
+      "isOfficialSource": true,
+      "checkedAt": "2026-07-09"
+    },
+    {
+      "id": "dryer-costco-samsung-dvg16cg8600wtw",
+      "dimension": "尺寸：寬 68.6 x 深 79.4 x 高 98.4 cm",
+      "sourceUrl": "https://24h.pchome.com.tw/prod/DPAI1N-A900HJC0S",
+      "sourceTitle": "Samsung 三星 16公斤蒸本事瓦斯型乾衣機DVG16CG8600WTW - PChome 24h購物",
+      "evidenceSnippet": "同型號 DVG16CG8600WTW 商品圖/規格標示機身 686×984×794 mm，另列外箱 746×1080×880 mm；未採外箱尺寸。",
+      "confidence": "high",
+      "isOfficialSource": false,
+      "checkedAt": "2026-07-09"
+    },
+    {
+      "id": "washerdryer-lg-wd-s90vdw",
+      "dimension": "尺寸：寬 60 x 深 61.5 x 高 85 cm",
+      "sourceUrl": "https://www.lg.com/tw/washer-dryers/front-loading-washing-machines/wd-s90vdw/",
+      "sourceTitle": "9公斤滾筒洗衣機｜冰瓷白｜蒸洗脫烘 (洗9+烘6公斤) WD-S90VDW | LG 台灣",
+      "evidenceSnippet": "LG 官方規格列出產品尺寸 (WxHxD mm) 600 x 850 x 615；換算並重排為寬60、深61.5、高85 cm。",
+      "confidence": "high",
+      "isOfficialSource": true,
+      "checkedAt": "2026-07-09"
+    },
+    {
+      "id": "washerdryer-whirlpool-wweb10701bs",
+      "dimension": "尺寸：寬 60 x 深 63.5 x 高 85 cm",
+      "sourceUrl": "https://24h.pchome.com.tw/prod/DPAI1P-A900E4O8Q",
+      "sourceTitle": "Whirlpool 惠而浦 10.5公斤洗脫烘滾筒洗衣機 WWEB10701BS - PChome 24h購物",
+      "evidenceSnippet": "規格說明標示型號 WWEB10701BS；機體尺寸：寬600 x 深635 x 高850 mm。",
+      "confidence": "high",
+      "isOfficialSource": false,
+      "checkedAt": "2026-07-09"
+    },
+    {
+      "id": "washerdryer-hitachi-bdd1054hvo",
+      "dimension": "尺寸：寬 60 x 深 63.5 x 高 85 cm",
+      "sourceUrl": "https://www.rakuten.com.tw/shop/dianqilife/product/mrlezf2uf/",
+      "sourceTitle": "BDD1054HVO10.5公斤潔淨白蒸氣洗脫烘變頻滾筒洗衣機(含基本安裝) | 樂天市場Rakuten",
+      "evidenceSnippet": "商品詳情列出 BD-D1054HVO 商品規格：外觀尺寸：寬600 x 深635 x 高850 mm；另列安裝尺寸與包裝尺寸，因此取外觀尺寸。",
+      "confidence": "medium",
+      "isOfficialSource": false,
+      "checkedAt": "2026-07-09"
+    },
+    {
+      "id": "washerdryer-whirlpool-wehc10bbs",
+      "dimension": "尺寸：寬 60 x 深 63.5 x 高 85 cm",
+      "sourceUrl": "https://tw.buy.yahoo.com/gdsale/Whirlpool惠而浦-10公斤洗脫烘滾筒洗衣機-WEHC10BBS-11192285.html",
+      "sourceTitle": "Whirlpool惠而浦 10公斤洗脫烘滾筒洗衣機 WEHC10BBS | Yahoo購物中心",
+      "evidenceSnippet": "Yahoo 結構化規格表標示型號 WEHC10BBS、尺寸 600 x 850 x 635mm；同型號通路規格標示產品尺寸為寬x高x深，故轉為寬600 x 深635 x 高850 mm。",
+      "confidence": "medium",
+      "isOfficialSource": false,
+      "checkedAt": "2026-07-09"
+    },
+    {
+      "id": "washerdryer-samsung-wd12t504dbn-tw",
+      "dimension": "尺寸：寬 60 x 深 65 x 高 85 cm",
+      "sourceUrl": "https://www.samsung.com/tw/washers-and-dryers/washer-dryer-combo/wd5100t-front-loading-ai-control-air-wash-drum-clean-12kg-plus-8kg-gray-wd12t504dbn-tw/",
+      "sourceTitle": "AI 衣管家滾筒洗衣機 蒸洗脫烘 12+8 KG | WD12T504DBN/TW | 台灣三星電子",
+      "evidenceSnippet": "官方規格「實體規格」標示：實體規格（淨寬 X 淨高 X 淨深）600 x 850 x 650 mm；包裝箱尺寸另列，未採用包裝尺寸。",
+      "confidence": "high",
+      "isOfficialSource": true,
+      "checkedAt": "2026-07-09"
+    },
+    {
+      "id": "washerdryer-panasonic-na-v170mdh-w",
+      "dimension": "尺寸：寬 64 x 深 77.3 x 高 103.5 cm",
+      "sourceUrl": "https://www.panasonic.com/tw/consumer/washing-machine/roller/na-v170mdh.html",
+      "sourceTitle": "滾筒洗衣機 NA-V170MDH - Panasonic 台灣",
+      "evidenceSnippet": "官方規格「尺寸和重量」標示：高 1035mm、寬 640mm、深 773mm，並列出寬640 X 深773 X 高1035mm。",
+      "confidence": "high",
+      "isOfficialSource": true,
+      "checkedAt": "2026-07-09"
+    },
+    {
+      "id": "washerdryer-lg-wd-s13vdw",
+      "dimension": "尺寸：寬 60 x 深 61.5 x 高 85 cm",
+      "sourceUrl": "https://www.lg.com/tw/washer-dryers/front-loading-washing-machines/wd-s13vdw/",
+      "sourceTitle": "13公斤滾筒洗衣機｜冰瓷白｜蒸洗脫烘 WD-S13VDW | LG 台灣",
+      "evidenceSnippet": "官方主要規格與所有規格標示：產品尺寸 (WxHxD mm) 600 x 850 x 615。",
+      "confidence": "high",
+      "isOfficialSource": true,
+      "checkedAt": "2026-07-09"
+    },
+    {
+      "id": "washerdryer-whirlpool-8twfc6820lw",
+      "dimension": "尺寸：寬 68.6 x 深 80.2 x 高 98.2 cm",
+      "sourceUrl": "https://24h.pchome.com.tw/prod/DPAI1P-A900F1KY7",
+      "sourceTitle": "Whirlpool 惠而浦 17公斤蒸氣洗脫烘滾筒洗衣機 8TWFC6820LW - PChome 24h購物",
+      "evidenceSnippet": "規格說明標示型號 8TWFC6820LW；機體尺寸：寬686 x 深802 x 高982 mm。",
+      "confidence": "high",
+      "isOfficialSource": false,
+      "checkedAt": "2026-07-09"
+    },
+    {
+      "id": "washerdryer-hitachi-bwdv100ej",
+      "dimension": "尺寸：寬 61 x 深 63.5 x 高 106 cm",
+      "sourceUrl": "https://www.hitachi-homeappliances.com.tw/image/hsct/service/download/manual/BWDV100EJ_manual.pdf",
+      "sourceTitle": "BWDV100EJ_manual.pdf - 日立家電官網",
+      "evidenceSnippet": "官方說明書規格頁標示：寬610mm×深635mm×高1060mm。",
+      "confidence": "high",
+      "isOfficialSource": true,
+      "checkedAt": "2026-07-09"
+    },
+    {
+      "id": "washerdryer-lg-wd-s18ndb",
+      "dimension": "尺寸：寬 65 x 深 78 x 高 95 cm",
+      "sourceUrl": "https://www.lg.com/tw/washer-dryers/front-loading-washing-machines/wd-s18ndb/",
+      "sourceTitle": "18公斤滾筒洗衣機｜夜墨灰｜AI DD™ 蒸洗脫烘 - WD-S18NDB | LG 台灣",
+      "evidenceSnippet": "官方主要規格與所有規格標示：產品尺寸 (WxHxD mm) 650x950x780，故轉為寬650 x 深780 x 高950 mm。",
+      "confidence": "high",
+      "isOfficialSource": true,
+      "checkedAt": "2026-07-09"
+    },
+    {
+      "id": "washerdryer-samsung-wd12db9b84gntw",
+      "dimension": "尺寸：寬 60 x 深 55 x 高 85 cm",
+      "sourceUrl": "https://www.samsung.com/tw/washers-and-dryers/washer-dryer-combo/wd9400d-combo-space-max-ai-wash-ai-home-12kg-plus-7kg-white-wd12db9b84gntw/",
+      "sourceTitle": "Bespoke AI™ 智慧滾筒洗衣機 蒸洗脫烘 12+7KG WD12DB9B84GNTW 松石白 | Samsung 台灣",
+      "evidenceSnippet": "官方規格列「實體規格 (淨寬 X 淨高 X 淨深) 600 x 850 x 550 mm」，已轉為寬/深/高。",
+      "confidence": "high",
+      "isOfficialSource": true,
+      "checkedAt": "2026-07-09"
+    },
+    {
+      "id": "washerdryer-samsung-wd12db9b84gdtw",
+      "dimension": "尺寸：寬 60 x 深 55 x 高 85 cm",
+      "sourceUrl": "https://www.samsung.com/tw/washers-and-dryers/washer-dryer-combo/wd9400d-combo-space-max-ai-wash-ai-home-12kg-plus-7kg-silver-wd12db9b84gdtw/",
+      "sourceTitle": "Bespoke AI™ 智慧滾筒洗衣機 蒸洗脫烘 12+7KG WD12DB9B84GDTW 深林灰 | Samsung 台灣",
+      "evidenceSnippet": "官方規格列「實體規格 (淨寬 X 淨高 X 淨深) 600 x 850 x 550 mm」，已轉為寬/深/高。",
+      "confidence": "high",
+      "isOfficialSource": true,
+      "checkedAt": "2026-07-09"
+    },
+    {
+      "id": "washerdryer-panasonic-na-v120hdh",
+      "dimension": "尺寸：寬 59.5 x 深 59.5 x 高 85 cm",
+      "sourceUrl": "https://tw.buy.yahoo.com/gdsale/Panasonic國際牌-12KG-變頻洗脫烘滾筒洗衣機-NA-V120HDH-G-9125106.html",
+      "sourceTitle": "Panasonic國際牌 12KG 變頻洗脫烘滾筒洗衣機 NA-V120HDH-G | Yahoo購物中心",
+      "evidenceSnippet": "通路頁規格列「機體尺寸：595x595x850mm」；同頁另列外箱尺寸 675x720x860mm，已排除外箱。",
+      "confidence": "medium",
+      "isOfficialSource": false,
+      "checkedAt": "2026-07-09"
+    },
+    {
+      "id": "washerdryer-lg-wd-s18dnb",
+      "dimension": "尺寸：寬 65 x 深 78 x 高 95 cm",
+      "sourceUrl": "https://www.lg.com/tw/washer-dryers/front-loading-washing-machines/wd-s18ndb/",
+      "sourceTitle": "LG WD-S18NDB 18公斤滾筒洗衣機｜夜墨灰｜AI DD™ 蒸洗脫烘 | LG 台灣",
+      "evidenceSnippet": "官方頁規格列「產品尺寸 (WxHxD mm) 650x950x780」；題目 Yahoo 連結標題亦為 WD-S18NDB。",
+      "confidence": "high",
+      "isOfficialSource": true,
+      "checkedAt": "2026-07-09"
+    },
+    {
+      "id": "washerdryer-whirlpool-8twfc6810lw",
+      "dimension": "尺寸：寬 68.6 x 深 80.2 x 高 98.2 cm",
+      "sourceUrl": "https://tw.buy.yahoo.com/gdsale/Whirlpool-惠而浦-15-KG-變頻洗脫烘滾筒式洗衣機-8TWFC6810LW-11724574.html",
+      "sourceTitle": "Whirlpool 惠而浦 15KG 變頻洗脫烘滾筒式洗衣機 8TWFC6810LW | Yahoo購物中心",
+      "evidenceSnippet": "通路頁規格表列「尺寸 686 x 982 x 802mm」；依滾筒洗衣機常見規格順序判讀為寬 x 高 x 深，已轉為寬/深/高。",
+      "confidence": "medium",
+      "isOfficialSource": false,
+      "checkedAt": "2026-07-09"
+    },
+    {
+      "id": "washerdryer-toshiba-twd-bj130m4g",
+      "dimension": "尺寸：寬 59.5 x 深 64.5 x 高 85 cm",
+      "sourceUrl": "https://www.toshiba-lifestyle.com/tw/laundries/washer-dryer/twd-bj130m4g",
+      "sourceTitle": "TWD-BJ130M4G | Toshiba Lifestyle 台灣",
+      "evidenceSnippet": "官方規格列「尺寸 寬x深x高(mm) 595 x 645 x 850」；另有 680 x 725 x 875 為含箱尺寸，已排除。",
+      "confidence": "high",
+      "isOfficialSource": true,
+      "checkedAt": "2026-07-09"
+    },
+    {
+      "id": "washerdryer-panasonic-na-v150mdh",
+      "dimension": "尺寸：寬 64 x 深 77.3 x 高 103.5 cm",
+      "sourceUrl": "https://tw.buy.yahoo.com/gdsale/Panasonic-國際牌-15-10kg滾筒式溫水洗脫烘變頻洗衣機-NA-V150MDH含基本安裝-10266758.html",
+      "sourceTitle": "Panasonic 國際牌 15/10kg滾筒式溫水洗脫烘ECONAVI變頻洗衣機 NA-V150MDH | Yahoo購物中心",
+      "evidenceSnippet": "通路頁列「商品尺寸(寬*深*高)：640*773*1035mm」；同頁外箱尺寸 775*880*1160mm 已排除。",
+      "confidence": "medium",
+      "isOfficialSource": false,
+      "checkedAt": "2026-07-09"
+    },
+    {
+      "id": "washerdryer-sanlux-awd-1260ka",
+      "dimension": "尺寸：寬 60 x 深 61 x 高 85 cm",
+      "sourceUrl": "https://www.sanyo.com.tw/product-detail/874",
+      "sourceTitle": "AWD-1260KA | 台灣三洋",
+      "evidenceSnippet": "官方規格列「尺寸(mm) 寬600x深610(含門深度630)x高850」；另有寬700x深720x高890為外箱尺寸，已排除。",
+      "confidence": "high",
+      "isOfficialSource": true,
+      "checkedAt": "2026-07-09"
+    },
+    {
+      "id": "washerdryer-sanlux-awd-1390ha",
+      "dimension": "尺寸：寬 60 x 深 63.1 x 高 85 cm",
+      "sourceUrl": "https://www.sanyo.com.tw/product-detail/932",
+      "sourceTitle": "AWD-1390HA | 台灣三洋",
+      "evidenceSnippet": "官方規格列「尺寸(mm) 寬600x深631x高850」；另有寬690x深730x高890為外箱尺寸，已排除。",
+      "confidence": "high",
+      "isOfficialSource": true,
+      "checkedAt": "2026-07-09"
+    },
+    {
+      "id": "washerdryer-sampo-es-nd10dh",
+      "dimension": "尺寸：寬 59.5 x 深 61 x 高 84.5 cm",
+      "sourceUrl": "https://tw.buy.yahoo.com/gdsale/SAMPO聲寶-10KG-抑菌蒸能洗-洗脫烘變頻滾筒洗衣機-ES-ND10DH-含基本安裝-舊機回收-10375207.html",
+      "sourceTitle": "SAMPO聲寶 10公斤抑菌蒸能洗脫烘變頻滾筒洗衣機ES-ND10DH含基本安裝+舊機回收 | Yahoo購物中心",
+      "evidenceSnippet": "Yahoo 商品規格表列品牌 SAMPO聲寶、型號 ES-ND10DH、尺寸 595*845*610mm、重量 75kg；已查 SAMPO 官網常見 product/search/sitemap URL 未找到官方頁，依滾筒洗衣機常見寬x高x深順序轉為寬/深/高。",
+      "confidence": "medium",
+      "isOfficialSource": false,
+      "checkedAt": "2026-07-09"
+    },
+    {
+      "id": "washerdryer-costco-electrolux-eww1243r7wc",
+      "dimension": "尺寸：寬 60 x 深 65.9 x 高 85 cm",
+      "sourceUrl": "https://www.electrolux.com.tw/appliances/washing-machines/eww1243r7wc/",
+      "sourceTitle": "伊萊克斯 12公斤/9公斤 洗脫烘衣機 - EWW1243R7WC | 伊萊克斯",
+      "evidenceSnippet": "官方規格列：機體寬度 600 mm、機體深度 659 mm、機體高度 850 mm。",
+      "confidence": "high",
+      "isOfficialSource": true,
+      "checkedAt": "2026-07-09"
+    },
+    {
+      "id": "washerdryer-costco-sharp-es-fd13bt",
+      "dimension": "尺寸：寬 60 x 深 66.4 x 高 85.7 cm",
+      "sourceUrl": "https://tw.sharp/products/es-fd13bt",
+      "sourceTitle": "滾筒洗衣機-洗脫13kg/烘8kg ES-FD13BT | SHARP Taiwan",
+      "evidenceSnippet": "SHARP 官方頁列本體尺寸(不含軟管) 600x664x857；同型號 Costco 規格表列商品尺寸長 66.4公分 X 寬 60公分 X 高 85.7公分，據此轉為寬/深/高。",
+      "confidence": "high",
+      "isOfficialSource": true,
+      "checkedAt": "2026-07-09"
+    },
+    {
+      "id": "washerdryer-costco-electrolux-eww1123p5wc",
+      "dimension": "尺寸：寬 60 x 深 65.9 x 高 85 cm",
+      "sourceUrl": "https://www.electrolux.com.tw/appliances/washing-machines/eww1123p5wc/",
+      "sourceTitle": "伊萊克斯 11公斤/7公斤 洗脫烘衣機 - EWW1123P5WC | 伊萊克斯",
+      "evidenceSnippet": "官方規格列：機體寬度 600 mm、機體深度 659 mm、機體高度 850 mm。",
+      "confidence": "high",
+      "isOfficialSource": true,
+      "checkedAt": "2026-07-09"
+    },
+    {
+      "id": "refrigerator-panasonic-nr-b271tv-s1",
+      "dimension": "尺寸：寬 60.1 x 深 65.6 x 高 150.5 cm",
+      "sourceUrl": "https://www.panasonic.com/tw/consumer/refrigerator/double-door/nr-b271tv.html",
+      "sourceTitle": "雙門電冰箱 經典變頻系列 無邊框鋼板 NR-B271TV - Panasonic 台灣",
+      "evidenceSnippet": "Panasonic 官方尺寸和重量列：高 1505mm、寬 601mm、深 656mm。",
+      "confidence": "high",
+      "isOfficialSource": true,
+      "checkedAt": "2026-07-09"
+    },
+    {
+      "id": "refrigerator-panasonic-nr-b171tv-s1",
+      "dimension": "尺寸：寬 52.6 x 深 58.4 x 高 127.8 cm",
+      "sourceUrl": "https://www.panasonic.com/tw/consumer/refrigerator/double-door/nr-b171tv.html",
+      "sourceTitle": "雙門電冰箱 經典變頻系列 無邊框鋼板 NR-B171TV - Panasonic 台灣",
+      "evidenceSnippet": "Panasonic 官方尺寸和重量列：高 1278mm、寬 526mm、深 584mm。",
+      "confidence": "high",
+      "isOfficialSource": true,
+      "checkedAt": "2026-07-09"
+    },
+    {
+      "id": "refrigerator-lg-gn-l217svn",
+      "dimension": "尺寸：寬 55.5 x 深 63.7 x 高 144.5 cm",
+      "sourceUrl": "https://www.lg.com/tw/refrigerators/top-freezer/gn-l217svn/",
+      "sourceTitle": "217公升 智慧變頻雙門冰箱｜星辰銀 | LG 台灣",
+      "evidenceSnippet": "LG 官方 structured data 列：尺寸和重量 - 產品尺寸（寬x高x深，mm）= 555 x 1445 x 637。",
+      "confidence": "high",
+      "isOfficialSource": true,
+      "checkedAt": "2026-07-09"
+    },
+    {
+      "id": "refrigerator-lg-gn-l266svn",
+      "dimension": "尺寸：寬 55.5 x 深 63.7 x 高 168 cm",
+      "sourceUrl": "https://www.lg.com/tw/refrigerators/top-freezer/gn-l266svn/",
+      "sourceTitle": "266公升 智慧變頻雙門冰箱｜星辰銀 - GN-L266SVN | LG 台灣",
+      "evidenceSnippet": "LG 官方 structured data 列：尺寸和重量 - 產品尺寸（寬x高x深，mm）= 555 x 1680 x 637。",
+      "confidence": "high",
+      "isOfficialSource": true,
+      "checkedAt": "2026-07-09"
+    },
+    {
+      "id": "refrigerator-panasonic-nr-c505xv-w",
+      "dimension": "尺寸：寬 72.5 x 深 69.5 x 高 183.4 cm",
+      "sourceUrl": "https://www.panasonic.com/tw/consumer/refrigerator/three-door/nr-c505xv.html",
+      "sourceTitle": "三門電冰箱 日系上質系列 無邊框絲絨/霧面鋼板 NR-C505XV - Panasonic 台灣",
+      "evidenceSnippet": "Panasonic 官方尺寸和重量列：高 1834mm、寬 725mm、深 695mm。",
+      "confidence": "high",
+      "isOfficialSource": true,
+      "checkedAt": "2026-07-09"
+    },
+    {
+      "id": "refrigerator-panasonic-nr-d505xv-w",
+      "dimension": "尺寸：寬 72.5 x 深 69.5 x 高 183.4 cm",
+      "sourceUrl": "https://tw.buy.yahoo.com/gdsale/Panasonic國際牌-500公升一級能效無邊框鋼板系列四門變頻電冰箱NR-D505XV-W-含拆-11310319.html",
+      "sourceTitle": "Panasonic國際牌 500公升一級能效無邊框鋼板系列四門變頻電冰箱NR-D505XV-W | Yahoo購物中心",
+      "evidenceSnippet": "Yahoo 規格表列「外觀尺寸 高x寬x深(mm) 1834x725x695」，換算並重排為寬72.5、深69.5、高183.4cm。",
+      "confidence": "medium",
+      "isOfficialSource": false,
+      "checkedAt": "2026-07-09"
+    },
+    {
+      "id": "refrigerator-hitachi-hrbn5366df",
+      "dimension": "尺寸：寬 59.5 x 深 65 x 高 190 cm",
+      "sourceUrl": "https://hitachi-homeappliances.com.tw/upload/products/pgroup24302510021233.jpg",
+      "sourceTitle": "HITACHI HRBN5366DF 官方規格圖",
+      "evidenceSnippet": "官方規格圖「外形尺寸/mm」標示 W595 x D650 x H1900。",
+      "confidence": "high",
+      "isOfficialSource": true,
+      "checkedAt": "2026-07-09"
+    },
+    {
+      "id": "refrigerator-hitachi-rv41c",
+      "dimension": "尺寸：寬 60 x 深 65.5 x 高 181 cm",
+      "sourceUrl": "https://hitachi-homeappliances.com.tw/upload/products/pgroup2422510092323.jpg",
+      "sourceTitle": "HITACHI R-V41C 官方規格圖",
+      "evidenceSnippet": "官方規格圖「本體尺寸/mm」標示 600 x 655 x H1810。",
+      "confidence": "high",
+      "isOfficialSource": true,
+      "checkedAt": "2026-07-09"
+    },
+    {
+      "id": "refrigerator-hitachi-hrbn5303mf",
+      "dimension": "尺寸：寬 56 x 深 65.5 x 高 160 cm",
+      "sourceUrl": "https://hitachi-homeappliances.com.tw/upload/products/pgroup24192510022329.jpg",
+      "sourceTitle": "HITACHI HRBN5303MF 官方規格圖",
+      "evidenceSnippet": "官方規格圖「本體寬×深×高(mm)」標示 560、655、1600。",
+      "confidence": "high",
+      "isOfficialSource": true,
+      "checkedAt": "2026-07-09"
+    },
+    {
+      "id": "refrigerator-samsung-rt22m4015s8tw",
+      "dimension": "尺寸：寬 55.5 x 深 63.7 x 高 154.5 cm",
+      "sourceUrl": "https://www.samsung.com/tw/support/home-appliances/-minimalist-series-double-door-refrigerator-rt22m4015s8tw-product-specifications/",
+      "sourceTitle": "極簡系列雙門冰箱 RT22M4015S8/TW 的產品規格 | Samsung 台灣",
+      "evidenceSnippet": "官方規格列「淨寬 555 mm」、「淨高(含門軸) 1545 mm」、「淨深(含把手) 637 mm」；未採包裝箱尺寸。",
+      "confidence": "high",
+      "isOfficialSource": true,
+      "checkedAt": "2026-07-09"
+    },
+    {
+      "id": "refrigerator-sampo-sr-f12gd",
+      "dimension": "尺寸：寬 47 x 深 49.7 x 高 114 cm",
+      "sourceUrl": "https://www.sampo.com.tw/spec.aspx?pd=1766",
+      "sourceTitle": "SR-F12GD 產品規格 | SAMPO聲寶",
+      "evidenceSnippet": "官方規格頁列「外觀尺寸(寬*高*深)mm」為「470(寬)*1140(高)*497(深)」，換算並重排為寬47、深49.7、高114cm。",
+      "confidence": "high",
+      "isOfficialSource": true,
+      "checkedAt": "2026-07-09"
+    },
+    {
+      "id": "refrigerator-sanlux-sr-v430b",
+      "dimension": "尺寸：寬 70 x 深 70 x 高 168.5 cm",
+      "sourceUrl": "https://img.yec.tw/zp/MerchandiseImages/2D7A5B7B73-SP-16189270.jpg",
+      "sourceTitle": "〖SANLUX 台灣三洋〗430L 一級變頻大蔬果室雙門冰箱 SR-V430B 商品圖 | Yahoo購物中心",
+      "evidenceSnippet": "Yahoo 商品圖標示「寬700X深700X高1685mm」，換算為寬70、深70、高168.5cm。",
+      "confidence": "medium",
+      "isOfficialSource": false,
+      "checkedAt": "2026-07-09"
+    },
+    {
+      "id": "refrigerator-sanlux-sr-c238bv",
+      "dimension": "尺寸：寬 54.5 x 深 59 x 高 170 cm",
+      "sourceUrl": "https://www.sanyo.com.tw/product-detail/515",
+      "sourceTitle": "SR-C238BV | SANLUX台灣三洋",
+      "evidenceSnippet": "官方產品頁列「外型尺寸 : 寬 545X 深 590 X 高1700mm」，規格表亦列寬545、深590、高1700。",
+      "confidence": "high",
+      "isOfficialSource": true,
+      "checkedAt": "2026-07-09"
+    },
+    {
+      "id": "refrigerator-sanlux-sr-v150bf",
+      "dimension": "尺寸：寬 48 x 深 58 x 高 129.2 cm",
+      "sourceUrl": "https://www.sanyo.com.tw/product-detail/714",
+      "sourceTitle": "SR-V150BF | SANLUX台灣三洋",
+      "evidenceSnippet": "官方產品頁列「外型尺寸 : 寬 480X 深 580 X 高1292mm」，規格表亦列寬480、深580、高1292。",
+      "confidence": "high",
+      "isOfficialSource": true,
+      "checkedAt": "2026-07-09"
+    },
+    {
+      "id": "refrigerator-sanlux-sr-c192bv1",
+      "dimension": "尺寸：寬 54.5 x 深 62.3 x 高 134.5 cm",
+      "sourceUrl": "https://tw.buy.yahoo.com/gdsale/SANLUX台灣三洋-192L-1級變頻雙門電冰箱SR-C192BV1-10126857.html",
+      "sourceTitle": "SANLUX台灣三洋 192L 1級變頻雙門電冰箱 SR-C192BV1 | Yahoo購物中心",
+      "evidenceSnippet": "Yahoo 商品圖標示「寬545X深623X高1345mm」；三洋官方現行分類頁未列 SR-C192BV1。",
+      "confidence": "medium",
+      "isOfficialSource": false,
+      "checkedAt": "2026-07-09"
+    },
+    {
+      "id": "refrigerator-hitachi-rv469",
+      "dimension": "尺寸：寬 71.5 x 深 74 x 高 183.5 cm",
+      "sourceUrl": "https://www.hsct.com.tw/products/products_03.php?pid=RV469",
+      "sourceTitle": "兩門 R-V469 | 日立家電官網",
+      "evidenceSnippet": "官方規格圖「本體尺寸 / mm」標示：寬715 x 深740 x 高1835。",
+      "confidence": "high",
+      "isOfficialSource": true,
+      "checkedAt": "2026-07-09"
+    },
+    {
+      "id": "refrigerator-samsung-rt47cg662as9",
+      "dimension": "尺寸：寬 70 x 深 71.7 x 高 182.5 cm",
+      "sourceUrl": "https://www.samsung.com/tw/refrigerators/top-mount-freezer/rt6300c-top-mount-freezer-optimal-fresh-and-space-max-466l-silver-rt47cg662as9tw/",
+      "sourceTitle": "極簡雙門冰箱 SpaceMax™ 466L | RT47CG662AS9TW | 台灣三星電子",
+      "evidenceSnippet": "官方尺寸區標示：寬度 700 mm、高度 1825 mm、深度 717 mm。",
+      "confidence": "high",
+      "isOfficialSource": true,
+      "checkedAt": "2026-07-09"
+    },
+    {
+      "id": "refrigerator-sampo-sr-c35gd",
+      "dimension": "尺寸：寬 59.5 x 深 66 x 高 185 cm",
+      "sourceUrl": "https://www.sampo.com.tw/spec.aspx?pd=1602",
+      "sourceTitle": "SR-C35GD | SAMPO聲寶產品規格",
+      "evidenceSnippet": "官方規格表標示「外觀尺寸(寬*高*深)mm：595(寬)*1850(高)*660(深)」。",
+      "confidence": "high",
+      "isOfficialSource": true,
+      "checkedAt": "2026-07-09"
+    },
+    {
+      "id": "refrigerator-sampo-sr-c37d",
+      "dimension": "尺寸：寬 67.4 x 深 69.3 x 高 170.5 cm",
+      "sourceUrl": "https://www.e-payless.com.tw/product/detail/33339",
+      "sourceTitle": "SAMPO聲寶 370公升一級能效星美滿二門變頻冰箱 SR-C37D(K5) | E-PAYLESS 百利市購物中心",
+      "evidenceSnippet": "通路規格標示「型號 SR-C37D(K5)；尺寸 674*1705*693mm」；依聲寶同系列規格表的寬*高*深順序轉為寬*深*高。",
+      "confidence": "medium",
+      "isOfficialSource": false,
+      "checkedAt": "2026-07-09"
+    },
+    {
+      "id": "refrigerator-sampo-sr-c25d",
+      "dimension": "尺寸：寬 59.4 x 深 59.7 x 高 166 cm",
+      "sourceUrl": "https://www.e-payless.com.tw/product/detail/47649",
+      "sourceTitle": "SAMPO聲寶 250公升一級能效星美滿二門變頻冰箱 SR-C25D(G6) | E-PAYLESS 百利市購物中心",
+      "evidenceSnippet": "通路規格標示「型號 SR-C25D(G6)；尺寸 594*1660*597」；依聲寶同系列規格表的寬*高*深順序轉為寬*深*高。",
+      "confidence": "medium",
+      "isOfficialSource": false,
+      "checkedAt": "2026-07-09"
+    },
+    {
+      "id": "refrigerator-costco-sharp-sj-h25y-wh",
+      "dimension": "尺寸：寬 54.5 x 深 62.5 x 高 170 cm",
+      "sourceUrl": "https://tw.sharp/products/sj-h25y-wh",
+      "sourceTitle": "一級能效變頻雙門電冰箱 SJ-H25Y-WH | SHARP Taiwan",
+      "evidenceSnippet": "夏普官方規格參數列出「本體尺寸(cm)：54.5 x 62.5 x 170」。",
+      "confidence": "high",
+      "isOfficialSource": true,
+      "checkedAt": "2026-07-09"
+    },
+    {
+      "id": "refrigerator-costco-samsung-rt35cg562cb1tw",
+      "dimension": "尺寸：寬 60 x 深 70.9 x 高 171.5 cm",
+      "sourceUrl": "https://www.samsung.com/tw/refrigerators/top-mount-freezer/rt5300c-top-mount-freezer-spacemax-350l-black-rt35cg562cb1tw/",
+      "sourceTitle": "極簡雙門冰箱 SpaceMax™ 351L | RT35CG562CB1TW | 台灣三星電子",
+      "evidenceSnippet": "官方尺寸區標示：寬度 600 mm、高度 1715 mm、深度 709 mm。",
+      "confidence": "high",
+      "isOfficialSource": true,
+      "checkedAt": "2026-07-09"
+    },
+    {
+      "id": "refrigerator-costco-panasonic-nr-b65cv-s",
+      "dimension": "尺寸：寬 80.5 x 深 78 x 高 183 cm",
+      "sourceUrl": "https://www.costco.com.tw/mediapermalink/138021_pdf_1-221012",
+      "sourceTitle": "NR-B65CV 使用說明書",
+      "evidenceSnippet": "使用說明書規格頁標示「外型尺寸（寬×深×高）W805×D780×H1830（mm）」；Costco 商品頁另將外箱尺寸與商品尺寸分開列示。",
+      "confidence": "high",
+      "isOfficialSource": false,
+      "checkedAt": "2026-07-09"
+    }
+  ]
+}

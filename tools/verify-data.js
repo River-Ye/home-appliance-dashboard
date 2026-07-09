@@ -7,6 +7,16 @@ const EXPECTED_PRODUCT_COUNT = 653;
 const MIN_PRODUCTS_PER_CATEGORY = 20;
 const DATE_PATTERN = /^(找不到|\d{4}(?:[-/.]\d{1,2}(?:[-/.]\d{1,2})?)?)$/;
 const WASHER_DRYER_CAPACITY_PATTERN = /^洗\/乾容量：\d+(?:\.\d+)?kg \/ \d+(?:\.\d+)?kg$/;
+const DIMENSION_CATEGORY_COUNTS = new Map([
+  ["washer", 23],
+  ["dryer", 21],
+  ["washerdryer", 23],
+  ["refrigerator", 23],
+]);
+const DIMENSION_CATEGORIES = new Set(DIMENSION_CATEGORY_COUNTS.keys());
+const EXPECTED_DIMENSION_PRODUCT_COUNT = [...DIMENSION_CATEGORY_COUNTS.values()].reduce((sum, count) => sum + count, 0);
+const DIMENSION_PATTERN = /^尺寸：(未標示|寬 \d+(?:\.\d+)? x 深 \d+(?:\.\d+)? x 高 \d+(?:\.\d+)? cm)$/;
+const DIMENSION_CONFIDENCE_VALUES = new Set(["high", "medium", "low", "not_found"]);
 
 const requiredFields = [
   "id",
@@ -67,6 +77,14 @@ function validateProduct(product, categoryIds, failures) {
       failures,
     );
   }
+
+  if (DIMENSION_CATEGORIES.has(product.category)) {
+    const dimensionSpecs = product.specs.filter((spec) => String(spec).trim().startsWith("尺寸："));
+    assert(dimensionSpecs.length === 1, `${product.id} must include exactly one dimension spec`, failures);
+    if (dimensionSpecs.length === 1) {
+      assert(DIMENSION_PATTERN.test(String(dimensionSpecs[0]).trim()), `${product.id} has invalid dimension spec: ${dimensionSpecs[0]}`, failures);
+    }
+  }
 }
 
 function validateReleaseResearch(root, products, failures) {
@@ -88,6 +106,42 @@ function validateReleaseResearch(root, products, failures) {
       assert(row.sourceTitle, `${product.id} non-empty releaseDate requires sourceTitle`, failures);
       assert(row.evidenceSnippet, `${product.id} non-empty releaseDate requires evidenceSnippet`, failures);
     }
+  }
+}
+
+function validateDimensionResearch(root, products, failures) {
+  const dimensionProducts = products.filter((product) => DIMENSION_CATEGORIES.has(product.category));
+  assert(dimensionProducts.length === EXPECTED_DIMENSION_PRODUCT_COUNT, `expected ${EXPECTED_DIMENSION_PRODUCT_COUNT} dimension products, got ${dimensionProducts.length}`, failures);
+  for (const [categoryId, expectedCount] of DIMENSION_CATEGORY_COUNTS) {
+    const count = dimensionProducts.filter((product) => product.category === categoryId).length;
+    assert(count === expectedCount, `${categoryId} must have ${expectedCount} dimension products, got ${count}`, failures);
+  }
+
+  const researchFile = path.join(root, "dimension_research.json");
+  assert(fs.existsSync(researchFile), "dimension_research.json is missing", failures);
+  if (!fs.existsSync(researchFile)) return;
+
+  const research = JSON.parse(fs.readFileSync(researchFile, "utf8"));
+  const researchRows = Array.isArray(research.results) ? research.results : [];
+  const researchById = new Map(researchRows.map((row) => [row.id, row]));
+  assert(researchRows.length === dimensionProducts.length, `dimension research rows ${researchRows.length} does not match dimension products ${dimensionProducts.length}`, failures);
+  assert(researchById.size === dimensionProducts.length, `dimension research count ${researchById.size} does not match dimension products ${dimensionProducts.length}`, failures);
+
+  for (const product of dimensionProducts) {
+    const row = researchById.get(product.id);
+    assert(row, `${product.id} missing dimension research row`, failures);
+    if (!row) continue;
+
+    const dimensionSpecs = product.specs.filter((spec) => String(spec).trim().startsWith("尺寸："));
+    const dimensionSpec = dimensionSpecs[0];
+    assert(row.dimension === dimensionSpec, `${product.id} dimension research mismatch`, failures);
+    assert(DIMENSION_PATTERN.test(String(row.dimension || "").trim()), `${product.id} dimension research has invalid dimension: ${row.dimension}`, failures);
+    assert(row.sourceUrl && /^https?:\/\//.test(row.sourceUrl), `${product.id} dimension research requires sourceUrl`, failures);
+    assert(row.sourceTitle, `${product.id} dimension research requires sourceTitle`, failures);
+    assert(row.evidenceSnippet, `${product.id} dimension research requires evidenceSnippet`, failures);
+    assert(DIMENSION_CONFIDENCE_VALUES.has(row.confidence), `${product.id} dimension research has invalid confidence: ${row.confidence}`, failures);
+    assert(typeof row.isOfficialSource === "boolean", `${product.id} dimension research requires boolean isOfficialSource`, failures);
+    assert(row.checkedAt, `${product.id} dimension research requires checkedAt`, failures);
   }
 }
 
@@ -134,6 +188,7 @@ function main() {
   }
 
   validateReleaseResearch(root, products, failures);
+  validateDimensionResearch(root, products, failures);
 
   if (failures.length) {
     console.error(failures.map((failure) => `- ${failure}`).join("\n"));
