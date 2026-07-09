@@ -134,6 +134,9 @@ async function assertHistoricalLowLayout(page, name) {
       if (priceRow.scrollWidth > priceRow.clientWidth + tolerance) {
         issues.push("price-row horizontal overflow");
       }
+      if (currentPrice.scrollWidth > currentPrice.clientWidth + tolerance) {
+        issues.push("current price text overflow");
+      }
       if (insight.scrollWidth > insight.clientWidth + tolerance) {
         issues.push("historical-low text overflow");
       }
@@ -608,6 +611,7 @@ async function runViewport(browser, name, viewport) {
 (async () => {
   const browser = await chromium.launch({ headless: true });
   try {
+    await runViewport(browser, "dashboard-wide-desktop", { width: 2048, height: 1152 });
     await runViewport(browser, "dashboard-desktop", { width: 1440, height: 1100 });
     await runViewport(browser, "dashboard-tablet", { width: 1180, height: 1000 });
     await runViewport(browser, "dashboard-mobile", { width: 390, height: 844 });
