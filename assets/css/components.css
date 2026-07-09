@@ -426,18 +426,22 @@ a:focus-visible {
 }
 
 .image-wrap {
+  --product-image-max-height: 180px;
+
   position: relative;
   display: grid;
   place-items: center;
   height: 212px;
+  overflow: hidden;
   padding: 16px;
   background: linear-gradient(135deg, #f2f6f9, #ffffff);
   border-bottom: 1px solid var(--line);
 }
 
 .image-wrap img {
+  display: block;
   max-width: 100%;
-  max-height: 180px;
+  max-height: var(--product-image-max-height);
   object-fit: contain;
 }
 
@@ -786,4 +790,3 @@ a:focus-visible {
   background: var(--primary-dark);
   transform: translateY(-1px);
 }
-

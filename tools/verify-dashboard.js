@@ -50,6 +50,52 @@ async function loadAllVisibleProducts(page) {
   });
 }
 
+async function assertProductImagesStayInsideWrap(page, name) {
+  const failures = await page.$$eval(".product-card", (cards) => {
+    const tolerance = 1;
+    const rectFor = (element) => {
+      const rect = element.getBoundingClientRect();
+      return {
+        top: Math.round(rect.top),
+        right: Math.round(rect.right),
+        bottom: Math.round(rect.bottom),
+        left: Math.round(rect.left),
+        width: Math.round(rect.width),
+        height: Math.round(rect.height),
+      };
+    };
+
+    return cards.flatMap((card, index) => {
+      const wrap = card.querySelector(".image-wrap");
+      const image = wrap?.querySelector("img");
+      if (!wrap || !image || getComputedStyle(image).display === "none") return [];
+
+      const wrapRect = wrap.getBoundingClientRect();
+      const imageRect = image.getBoundingClientRect();
+      const outside = {
+        top: imageRect.top < wrapRect.top - tolerance,
+        right: imageRect.right > wrapRect.right + tolerance,
+        bottom: imageRect.bottom > wrapRect.bottom + tolerance,
+        left: imageRect.left < wrapRect.left - tolerance,
+      };
+
+      if (!Object.values(outside).some(Boolean)) return [];
+
+      return [{
+        index,
+        title: card.querySelector("h3")?.textContent?.trim() || "unknown product",
+        wrap: rectFor(wrap),
+        image: rectFor(image),
+        outside,
+      }];
+    });
+  });
+
+  if (failures.length) {
+    throw new Error(`${name}: product image overflow ${JSON.stringify(failures.slice(0, 3))}`);
+  }
+}
+
 async function runViewport(browser, name, viewport) {
   const page = await browser.newPage({ viewport });
   await page.goto(fileUrl, { waitUntil: "domcontentloaded" });
@@ -370,6 +416,35 @@ async function runViewport(browser, name, viewport) {
     return root.scrollWidth - window.innerWidth;
   });
   if (overflow > 2) throw new Error(`${name}: horizontal overflow ${overflow}px`);
+  await assertProductImagesStayInsideWrap(page, name);
+
+  if (viewport.width < 700) {
+    const clearCompareButton = page.locator("#clearCompare");
+    if (await clearCompareButton.isEnabled()) {
+      await clearCompareButton.click();
+      await page.waitForFunction(() => document.querySelector("#compareCount")?.textContent?.trim() === "0");
+    }
+    await page.evaluate(() => window.scrollTo({ top: 0, behavior: "auto" }));
+    await page.fill("#searchInput", "WWEB10701BS");
+    await page.waitForFunction(() => document.querySelector("#visibleCount")?.textContent?.trim() === "1");
+    await waitForProductCards(page, 1);
+    await page.locator(".product-card").first().evaluate((card) => {
+      const rect = card.getBoundingClientRect();
+      window.scrollTo({ top: Math.max(0, window.scrollY + rect.top - 64), behavior: "auto" });
+    });
+    await page.waitForFunction(() => {
+      const card = document.querySelector(".product-card");
+      if (!card) return false;
+      const top = card.getBoundingClientRect().top;
+      return top >= 48 && top <= 96;
+    });
+    await waitForImages(page).catch(() => undefined);
+    await assertProductImagesStayInsideWrap(page, `${name} WWEB10701BS`);
+    await page.screenshot({ path: path.resolve(screenshotDir, `${name}-wweb10701bs.png`), fullPage: false });
+    await page.fill("#searchInput", "");
+    await page.waitForFunction(() => document.querySelector("#visibleCount")?.textContent?.trim() === "653");
+    await waitForProductCards(page, 12);
+  }
 
   if (viewport.width < 700) {
     await page.evaluate(() => window.scrollTo(0, 520));

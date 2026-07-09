@@ -166,6 +166,8 @@
   }
 
   .image-wrap {
+    --product-image-max-height: 148px;
+
     height: 180px;
   }
 
@@ -246,4 +248,3 @@
     scroll-margin-top: 64px;
   }
 }
-
