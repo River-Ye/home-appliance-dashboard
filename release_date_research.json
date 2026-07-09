@@ -1,12 +1,12 @@
 {
   "summary": {
     "checkedAt": "2026-07-09T04:00:00.000Z",
-    "total": 653,
-    "found": 163,
+    "total": 655,
+    "found": 165,
     "missing": 490,
     "byConfidence": {
       "official": 67,
-      "credible_article": 85,
+      "credible_article": 87,
       "not_found": 490,
       "retailer_explicit": 11
     }
@@ -565,6 +565,34 @@
       "query": "TP Vision Fidelio FB1 available 2022",
       "sourceKind": "manual_research",
       "reason": "TP Vision 官方新聞稿明確寫 Fidelio FB1 soundbar 預計於 2022 下半年 available；來源只明確到年份，因此填 2022。"
+    },
+    {
+      "id": "soundbar-marshall-heston-120",
+      "category": "soundbar",
+      "brand": "Marshall",
+      "model": "Heston 120",
+      "name": "5.1.2 聲道 Dolby Atmos Soundbar",
+      "releaseDate": "2025-06-03",
+      "sourceUrl": "https://www.wired.com/story/marshall-takes-on-sonos-with-its-first-soundbar",
+      "sourceTitle": "Marshall Takes On Sonos With Its First Soundbar",
+      "evidenceSnippet": "Pre-orders for the Heston 120 are available now, with shipping starting June 3, 2025.",
+      "confidence": "credible_article",
+      "query": "Marshall Heston 120 release date shipping June 3 2025",
+      "sourceKind": "manual_research"
+    },
+    {
+      "id": "soundbar-marshall-heston-60",
+      "category": "soundbar",
+      "brand": "Marshall",
+      "model": "Heston 60",
+      "name": "5.1 聲道 Dolby Atmos 緊湊型 Soundbar",
+      "releaseDate": "2025-09-23",
+      "sourceUrl": "https://www.techradar.com/televisions/soundbars/marshall-heston-60-and-heston-sub-200-reveal",
+      "sourceTitle": "Marshall just announced a new Dolby Atmos soundbar and 'foundation-shaking' sub",
+      "evidenceSnippet": "The Marshall Heston 60 will launch on September 23, 2025 at Marshall's online store.",
+      "confidence": "credible_article",
+      "query": "Marshall Heston 60 release date September 23 2025",
+      "sourceKind": "manual_research"
     },
     {
       "id": "fan-panasonic-fh16",

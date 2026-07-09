@@ -103,7 +103,7 @@ async function runViewport(browser, name, viewport) {
   await waitForImages(page).catch(() => undefined);
 
   const total = await visibleText(page, "#productCount");
-  if (total.trim() !== "653") throw new Error(`${name}: expected 653 products, got ${total}`);
+  if (total.trim() !== "655") throw new Error(`${name}: expected 655 products, got ${total}`);
   const categoryTotal = await visibleText(page, "#categoryCount");
   if (categoryTotal.trim() !== "25") throw new Error(`${name}: expected 25 categories, got ${categoryTotal}`);
   const firstReleaseLabel = await page.locator(".product-card .spec-item", { hasText: "上市 / 發售日期" }).first().count();
@@ -111,28 +111,28 @@ async function runViewport(browser, name, viewport) {
 
   await waitForProductCards(page, 12);
   const initialRenderedText = await visibleText(page, "#renderedCount");
-  if (!initialRenderedText.includes("12 / 653")) {
-    throw new Error(`${name}: expected initial lazy render 12 / 653, got ${initialRenderedText}`);
+  if (!initialRenderedText.includes("12 / 655")) {
+    throw new Error(`${name}: expected initial lazy render 12 / 655, got ${initialRenderedText}`);
   }
 
   await page.fill("#searchInput", "POIEMA");
   await page.waitForFunction(() => document.querySelector("#visibleCount")?.textContent?.trim() === "3");
   await waitForProductCards(page, 3);
   await page.fill("#searchInput", "");
-  await page.waitForFunction(() => document.querySelector("#visibleCount")?.textContent?.trim() === "653");
+  await page.waitForFunction(() => document.querySelector("#visibleCount")?.textContent?.trim() === "655");
   await waitForProductCards(page, 12);
 
   await page.getByRole("button", { name: "再載入 40 筆" }).click();
   await waitForProductCards(page, 52);
   await page.getByRole("button", { name: "載入全部" }).click();
-  await waitForProductCards(page, 653);
+  await waitForProductCards(page, 655);
   if (await page.locator("#loadAllProducts").isVisible()) {
     throw new Error(`${name}: load all button should hide after all products render`);
   }
   await page.fill("#searchInput", "不存在的商品關鍵字");
   await page.waitForFunction(() => document.querySelector("#visibleCount")?.textContent?.trim() === "0");
   await page.fill("#searchInput", "");
-  await page.waitForFunction(() => document.querySelector("#visibleCount")?.textContent?.trim() === "653");
+  await page.waitForFunction(() => document.querySelector("#visibleCount")?.textContent?.trim() === "655");
   await waitForProductCards(page, 12);
 
   if (viewport.width >= 700) {
@@ -174,7 +174,7 @@ async function runViewport(browser, name, viewport) {
     await page.waitForFunction(() => document.querySelector("#advancedFilters") && !document.querySelector("#advancedFilters").hidden);
   }
   await page.getByRole("button", { name: "重設篩選" }).click();
-  await page.waitForFunction(() => document.querySelector("#visibleCount")?.textContent?.trim() === "653");
+  await page.waitForFunction(() => document.querySelector("#visibleCount")?.textContent?.trim() === "655");
 
   await page.fill("#categoryInput", "無線");
   await page.locator('#categoryOptions [data-value="wifi"]').click();
@@ -188,7 +188,28 @@ async function runViewport(browser, name, viewport) {
   await page.locator("#searchInput").click();
   await page.waitForFunction(() => document.querySelector("#brandOptions")?.hidden);
   await page.getByRole("button", { name: "重設篩選" }).click();
-  await page.waitForFunction(() => document.querySelector("#visibleCount")?.textContent?.trim() === "653");
+  await page.waitForFunction(() => document.querySelector("#visibleCount")?.textContent?.trim() === "655");
+
+  const soundbarTab = page.getByRole("button", { name: "Soundbar 25" });
+  await soundbarTab.click();
+  await page.waitForFunction(() => document.querySelector("#visibleCount")?.textContent?.trim() === "25");
+  await page.locator("#brandInput").click();
+  const soundbarBrandOptions = await page.$$eval("#brandOptions [data-value]", (options) => options.map((option) => option.dataset.value));
+  if (!soundbarBrandOptions.includes("Marshall")) throw new Error(`${name}: soundbar brands missing Marshall`);
+  await page.fill("#brandInput", "Marshall");
+  await page.locator('#brandOptions [data-value="Marshall"]').click();
+  await page.waitForFunction(() => document.querySelector("#visibleCount")?.textContent?.trim() === "2");
+  await waitForProductCards(page, 2);
+  const marshallSoundbarCount = await page.locator(".product-card", { hasText: "Marshall" }).count();
+  if (marshallSoundbarCount !== 2) throw new Error(`${name}: expected 2 Marshall soundbars, got ${marshallSoundbarCount}`);
+  const marshallCompareButton = page.locator(".compare-button").first();
+  await marshallCompareButton.scrollIntoViewIfNeeded();
+  await marshallCompareButton.click();
+  await page.waitForFunction(() => document.querySelector("#compareCount")?.textContent?.trim() === "1");
+  await page.locator("#clearCompare").click();
+  await page.waitForFunction(() => document.querySelector("#compareCount")?.textContent?.trim() === "0");
+  await page.getByRole("button", { name: "重設篩選" }).click();
+  await page.waitForFunction(() => document.querySelector("#visibleCount")?.textContent?.trim() === "655");
 
   if (viewport.width < 700) {
     await page.getByRole("button", { name: /^篩選/ }).click();
@@ -264,7 +285,7 @@ async function runViewport(browser, name, viewport) {
   await page.locator('#brandOptions [data-value="ASUS"]').click();
   await page.waitForFunction(() => Number(document.querySelector("#visibleCount")?.textContent || 0) >= 4);
   await page.getByRole("button", { name: "重設篩選" }).click();
-  await page.waitForFunction(() => document.querySelector("#visibleCount")?.textContent?.trim() === "653");
+  await page.waitForFunction(() => document.querySelector("#visibleCount")?.textContent?.trim() === "655");
 
   const cookwareTab = page.getByRole("button", { name: "鍋具 23" });
   await cookwareTab.click();
@@ -403,7 +424,7 @@ async function runViewport(browser, name, viewport) {
   if (releaseCompareRows !== 1) throw new Error(`${name}: compare table missing release date row`);
 
   await page.getByRole("button", { name: "重設篩選" }).click();
-  await page.waitForFunction(() => document.querySelector("#visibleCount")?.textContent?.trim() === "653");
+  await page.waitForFunction(() => document.querySelector("#visibleCount")?.textContent?.trim() === "655");
   await waitForProductCards(page, 12);
   await page.locator("#topPicks [data-focus-product]").nth(14).click();
   await page.waitForFunction(() => document.querySelectorAll(".product-card").length >= 15);
@@ -442,7 +463,7 @@ async function runViewport(browser, name, viewport) {
     await assertProductImagesStayInsideWrap(page, `${name} WWEB10701BS`);
     await page.screenshot({ path: path.resolve(screenshotDir, `${name}-wweb10701bs.png`), fullPage: false });
     await page.fill("#searchInput", "");
-    await page.waitForFunction(() => document.querySelector("#visibleCount")?.textContent?.trim() === "653");
+    await page.waitForFunction(() => document.querySelector("#visibleCount")?.textContent?.trim() === "655");
     await waitForProductCards(page, 12);
   }
 

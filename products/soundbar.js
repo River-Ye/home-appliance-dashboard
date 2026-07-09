@@ -907,9 +907,104 @@
     "releaseDate": "2022"
   },
   {
-    "id": "soundbar-costco-denon-dht-s517",
+    "id": "soundbar-marshall-heston-120",
     "category": "soundbar",
     "rank": 21,
+    "budget": "premium",
+    "channel": "global",
+    "brand": "Marshall",
+    "model": "Heston 120",
+    "name": "5.1.2 聲道 Dolby Atmos Soundbar",
+    "price": {
+      "currency": "USD",
+      "amount": 1000,
+      "converted": 32128,
+      "confidence": "WIRED 2025 發表價約 USD 1,000，依 2026-07-08 匯率換算"
+    },
+    "image": "https://images.ctfassets.net/javen7msabdh/2C2sn9CKoKFdIyd94Gm9z5/f3019d4e721511167ebe5c229bf490dd/heston-120_plp.jpg",
+    "buyUrl": "https://www.marshall.com/us/en/product/heston-120",
+    "buyLabel": "Marshall US",
+    "specs": [
+      "5.1.2 聲道",
+      "Dolby Atmos / DTS:X",
+      "HDMI eARC / HDMI IN 4K 120Hz passthrough",
+      "Wi-Fi 6 / Bluetooth 5.3 / AirPlay 2 / Google Cast",
+      "可搭配主動式重低音或 Heston Sub 200"
+    ],
+    "description": "Marshall 首款旗艦 Soundbar，走單件式高質感設計，適合作為 Sonos、Bose 與高階 Samsung 聲霸的海外參考。",
+    "pros": [
+      "5.1.2 聲道與雙後置低音單體規格完整",
+      "外觀辨識度高，音樂串流支援完整"
+    ],
+    "cons": [
+      "海外參考價未含國際運費與進口稅",
+      "台灣保固、庫存與售後需購買前另行確認"
+    ],
+    "bestFor": "重視外觀、音樂播放與單件式 Atmos 聲霸，且願意自行評估海外採購風險的人。",
+    "recommendation": "海外參考：Heston 120 適合拿來和 Sonos Arc Ultra、Bose、Samsung 旗艦聲霸比較；規格漂亮但需把運費、稅金與台灣保固風險算進總成本。",
+    "score": 84,
+    "voltage": "海外版本，購買前確認 110V/插頭與變壓器需求",
+    "warranty": "Marshall US / 海外通路，可能無台灣保固",
+    "tags": [
+      "Marshall",
+      "Atmos",
+      "DTS:X",
+      "海外參考"
+    ],
+    "releaseDate": "2025-06-03"
+  },
+  {
+    "id": "soundbar-marshall-heston-60",
+    "category": "soundbar",
+    "rank": 22,
+    "budget": "mid",
+    "channel": "global",
+    "brand": "Marshall",
+    "model": "Heston 60",
+    "name": "5.1 聲道 Dolby Atmos 緊湊型 Soundbar",
+    "price": {
+      "currency": "USD",
+      "amount": 699.99,
+      "converted": 22489,
+      "confidence": "Marshall US 2026-07-09 查核價；官方頁顯示 Out of stock，依 2026-07-08 匯率換算"
+    },
+    "image": "https://images.ctfassets.net/javen7msabdh/3yitHqjPBTgQk5qRE72PSn/2788206646aa153f71f2c0ebefaff580/Heston-60-black_plp_800x800-v3.jpeg",
+    "buyUrl": "https://www.marshall.com/us/en/product/heston-60",
+    "buyLabel": "Marshall US",
+    "specs": [
+      "5.1 聲道",
+      "Dolby Atmos / DTS:X",
+      "HDMI eARC / AUX 3.5mm / RCA Mono Sub Out / USB-C",
+      "Wi-Fi 6 / Bluetooth 5.3 / AirPlay 2 / Google Cast",
+      "可加購 Heston Sub 200 補強低頻"
+    ],
+    "description": "Marshall Heston 60 是較小空間取向的 Atmos 聲霸，適合和 Sonos Beam、Bose Smart Soundbar 等單件式機型比較。",
+    "pros": [
+      "尺寸較短，桌面與壁掛彈性高",
+      "支援 DTS:X 與主流 Wi-Fi 串流"
+    ],
+    "cons": [
+      "官方頁查核時顯示缺貨",
+      "若要更強低頻需另購 Heston Sub 200"
+    ],
+    "bestFor": "想在小客廳、臥室或書房比較有設計感的 Atmos 聲霸，但可接受海外庫存與保固不確定性的人。",
+    "recommendation": "海外參考：Heston 60 是 Marshall 較好入手的緊湊型聲霸，聲道與串流規格完整；但缺貨、運費稅金與台灣保固需先確認。",
+    "score": 83,
+    "voltage": "海外版本，購買前確認 110V/插頭與變壓器需求",
+    "warranty": "Marshall US / 海外通路，官方頁查核時顯示缺貨且可能無台灣保固",
+    "tags": [
+      "Marshall",
+      "Atmos",
+      "DTS:X",
+      "小空間",
+      "海外參考"
+    ],
+    "releaseDate": "2025-09-23"
+  },
+  {
+    "id": "soundbar-costco-denon-dht-s517",
+    "category": "soundbar",
+    "rank": 23,
     "budget": "mid",
     "channel": "tw",
     "brand": "Denon",
@@ -954,7 +1049,7 @@
   {
     "id": "soundbar-costco-philips-tab6309",
     "category": "soundbar",
-    "rank": 22,
+    "rank": 24,
     "budget": "value",
     "channel": "tw",
     "brand": "Philips",
@@ -1002,7 +1097,7 @@
   {
     "id": "soundbar-costco-soodatek-ss0220",
     "category": "soundbar",
-    "rank": 23,
+    "rank": 25,
     "budget": "value",
     "channel": "tw",
     "brand": "Soodatek",
