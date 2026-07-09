@@ -154,7 +154,7 @@
       syncComboInput(name, true);
     }
     setComboOpen(name, false);
-    dashboard.ui.render({ resetProducts: true });
+    dashboard.ui.render({ resetProducts: true, syncUrl: true });
   }
 
   function clearFilterValue(name) {
@@ -162,7 +162,7 @@
     comboState[name].activeIndex = 0;
     syncControls(true);
     setComboOpen(name, false);
-    dashboard.ui.render({ resetProducts: true });
+    dashboard.ui.render({ resetProducts: true, syncUrl: true });
   }
 
   function moveComboActiveOption(name, direction) {

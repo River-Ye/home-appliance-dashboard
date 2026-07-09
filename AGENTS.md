@@ -26,6 +26,7 @@
 - `assets/js/filters.js`：搜尋、篩選、排序、品牌選項與 lazy loading 計算。
 - `assets/js/combobox.js`：分類/品牌/預算/通路/排序 ComboBox 行為。
 - `assets/js/templates.js`：商品卡、推薦卡、比較表與圖片 fallback markup。
+- `assets/js/url-state.js`：搜尋/篩選/排序與 URL query 的初始化、同步與分享狀態。
 - `assets/js/ui.js`：render 流程、手機篩選、scroll/highlight、compare 操作。
 - `assets/js/product-loader.js`：依 `categories` 自動載入 `products/<category>.js?v=<cacheVersion>`。
 - `assets/js/main.js`：DOMContentLoaded、商品載入、事件綁定與初始 render。

@@ -18,6 +18,7 @@
 
 html {
   scroll-behavior: smooth;
+  scroll-padding-top: 96px;
 }
 
 body {
@@ -37,4 +38,19 @@ select {
 
 a {
   color: inherit;
+}
+
+button,
+a {
+  touch-action: manipulation;
+}
+
+.summary-card strong,
+.price-row strong,
+.price-row small,
+.score,
+.compare-table th,
+.compare-table td,
+.mobile-dock strong {
+  font-variant-numeric: tabular-nums;
 }

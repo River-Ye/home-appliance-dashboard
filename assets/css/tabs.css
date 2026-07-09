@@ -78,8 +78,12 @@
   gap: 12px;
   padding: 12px;
   min-height: 128px;
+  color: inherit;
+  text-align: left;
+  appearance: none;
   scroll-snap-align: start;
   cursor: pointer;
+  font: inherit;
   transition: border-color 160ms ease, box-shadow 160ms ease, transform 160ms ease;
 }
 
@@ -95,6 +99,13 @@
   height: 74px;
   object-fit: contain;
   align-self: center;
+}
+
+.pick-card .fallback-art {
+  align-self: center;
+  width: 74px;
+  height: 74px;
+  min-width: 0;
 }
 
 .pick-card p {

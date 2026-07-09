@@ -9,6 +9,10 @@
   .buy-link,
   .compare-button,
   .reset-button,
+  .filter-chip,
+  .compare-remove-button,
+  .card-details summary,
+  .skip-link,
   .mobile-dock,
   .page-jump,
   .page-jump-button {
@@ -51,8 +55,12 @@
 }
 
 @media (max-width: 620px) {
+  html {
+    scroll-padding-top: 72px;
+  }
+
   body {
-    padding-bottom: 72px;
+    padding-bottom: calc(108px + env(safe-area-inset-bottom));
   }
 
   main,
@@ -182,7 +190,7 @@
   .mobile-dock {
     position: fixed;
     right: 10px;
-    bottom: 10px;
+    bottom: calc(10px + env(safe-area-inset-bottom));
     left: 10px;
     z-index: 8;
     display: grid;
@@ -232,7 +240,7 @@
 
   .page-jump {
     right: 14px;
-    bottom: 86px;
+    bottom: calc(92px + env(safe-area-inset-bottom));
     grid-template-columns: repeat(2, 42px);
     opacity: 0;
     pointer-events: none;
@@ -254,6 +262,11 @@
   .product-grid,
   .compare-panel {
     scroll-margin-top: 64px;
+    scroll-margin-bottom: 120px;
+  }
+
+  .product-card {
+    scroll-margin-bottom: 120px;
   }
 
   .compare-table {

@@ -37,6 +37,24 @@
   font-size: 12px;
 }
 
+.compare-remove-button {
+  min-height: 34px;
+  padding: 6px 10px;
+  color: var(--rose);
+  background: #fff7f8;
+  border: 1px solid rgba(178, 58, 72, 0.3);
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 850;
+}
+
+.compare-remove-button:hover,
+.compare-remove-button:focus-visible {
+  color: #fff;
+  background: var(--rose);
+  border-color: var(--rose);
+}
+
 .empty-state {
   padding: 22px;
   color: var(--muted);

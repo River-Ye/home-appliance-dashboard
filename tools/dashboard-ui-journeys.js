@@ -13,6 +13,8 @@ const {
   assertHistoricalLowLayout,
   assertHistoricalLowCompareLayout,
   assertSingleCompareFitsViewport,
+  assertProductDetailsDisclosure,
+  assertMobileDockClearance,
   assertNoHorizontalOverflow,
   resetFilters,
   selectComboboxOption,
@@ -47,6 +49,7 @@ async function runExhaustiveViewport(browser, name, viewport) {
   if (!historicalLowSourceLink) throw new Error(`${name}: found historical low card missing source link`);
   await waitForProductCards(page, 12);
   await assertHistoricalLowLayout(page, name);
+  await assertProductDetailsDisclosure(page, name);
   const initialRenderedText = await visibleText(page, "#renderedCount");
   if (!initialRenderedText.includes(`12 / ${EXPECTED_PRODUCT_COUNT_TEXT}`)) {
     throw new Error(`${name}: expected initial lazy render 12 / ${EXPECTED_PRODUCT_COUNT_TEXT}, got ${initialRenderedText}`);
@@ -55,7 +58,7 @@ async function runExhaustiveViewport(browser, name, viewport) {
   await page.fill("#searchInput", "POIEMA");
   await page.waitForFunction(() => document.querySelector("#visibleCount")?.textContent?.trim() === "3");
   await waitForProductCards(page, 3);
-  await page.fill("#searchInput", "");
+  await page.locator('#activeFilterChips [data-clear-filter="search"]').click();
   await waitForVisibleCount(page, EXPECTED_PRODUCT_COUNT);
   await waitForProductCards(page, 12);
 
@@ -365,11 +368,14 @@ async function runExhaustiveViewport(browser, name, viewport) {
   if (historicalCompareRows !== 1) throw new Error(`${name}: compare table missing historical low row`);
   await assertHistoricalLowCompareLayout(page, name);
   await assertSingleCompareFitsViewport(page, name);
+  await page.locator("[data-compare-remove]").first().click();
+  await page.waitForFunction(() => document.querySelector("#compareCount")?.textContent?.trim() === "0");
 
   await page.getByRole("button", { name: "重設篩選" }).click();
   await waitForVisibleCount(page, EXPECTED_PRODUCT_COUNT);
   await waitForProductCards(page, 12);
-  await page.locator("#topPicks [data-focus-product]").nth(14).click();
+  await page.locator("#topPicks [data-focus-product]").nth(14).focus();
+  await page.keyboard.press("Enter");
   await page.waitForFunction(() => document.querySelectorAll(".product-card").length >= 15);
   await page.waitForFunction(() => document.querySelector(".product-card.is-targeted"));
   const targetedCardVisible = await page.locator(".product-card.is-targeted").isVisible();
@@ -414,6 +420,7 @@ async function runExhaustiveViewport(browser, name, viewport) {
   if (viewport.width < 700) {
     await page.evaluate(() => window.scrollTo(0, 520));
     await page.waitForFunction(() => document.body.classList.contains("show-mobile-dock"));
+    await assertMobileDockClearance(page, name);
   }
   await page.getByLabel("滑動到最下面").click();
   await page.waitForFunction(() => window.scrollY > 200);
@@ -464,6 +471,7 @@ async function assertBaselineState(page, name, viewport) {
   if (!historicalLowSourceLink) throw new Error(`${name}: found historical low card missing source link`);
   await waitForProductCards(page, 12);
   await assertHistoricalLowLayout(page, name);
+  await assertProductDetailsDisclosure(page, name);
   const initialRenderedText = await visibleText(page, "#renderedCount");
   if (!initialRenderedText.includes(`12 / ${EXPECTED_PRODUCT_COUNT_TEXT}`)) {
     throw new Error(`${name}: expected initial lazy render 12 / ${EXPECTED_PRODUCT_COUNT_TEXT}, got ${initialRenderedText}`);
@@ -482,13 +490,40 @@ async function assertBaselineState(page, name, viewport) {
   await assertProductImagesStayInsideWrap(page, name);
 }
 
+async function assertUrlQueryRestore(page, name) {
+  await page.goto(`${fileUrl}?q=OLED&category=monitor&sort=priceAsc`, { waitUntil: "domcontentloaded" });
+  await page.waitForSelector(".product-card");
+  await page.waitForFunction(() => document.querySelector("#searchInput")?.value === "OLED");
+  const categoryValue = await page.locator("#categoryInput").inputValue();
+  if (categoryValue !== "電腦螢幕") throw new Error(`${name}: query did not restore monitor category`);
+  const sortValue = await page.locator("#sortInput").inputValue();
+  if (sortValue !== "價格低到高") throw new Error(`${name}: query did not restore priceAsc sort`);
+  await page.waitForFunction(() => Number(document.querySelector("#visibleCount")?.textContent || 0) >= 8);
+
+  const activeChips = await page.locator("#activeFilterChips [data-clear-filter]").count();
+  if (activeChips !== 3) throw new Error(`${name}: expected 3 active chips from query, got ${activeChips}`);
+
+  await page.locator('#activeFilterChips [data-clear-filter="sort"]').click();
+  const resetSortValue = await page.locator("#sortInput").inputValue();
+  if (resetSortValue !== "推薦排序") throw new Error(`${name}: sort chip did not clear sort`);
+  if (page.url().includes("sort=")) throw new Error(`${name}: cleared sort remained in URL`);
+
+  await page.locator('#activeFilterChips [data-clear-filter="search"]').click();
+  await page.waitForFunction(() => document.querySelector("#visibleCount")?.textContent?.trim() === "54");
+  if (page.url().includes("q=")) throw new Error(`${name}: cleared search remained in URL`);
+
+  await resetFilters(page);
+}
+
 async function runSmokeViewport(browser, name, viewport) {
   const page = await openDashboardPage(browser, name, viewport);
   try {
     await page.fill("#searchInput", "POIEMA");
     await page.waitForFunction(() => document.querySelector("#visibleCount")?.textContent?.trim() === "3");
     await waitForProductCards(page, 3);
-    await page.fill("#searchInput", "");
+    const searchChip = page.locator('#activeFilterChips [data-clear-filter="search"]', { hasText: "POIEMA" });
+    if (!await searchChip.count()) throw new Error(`${name}: missing search active filter chip`);
+    await searchChip.click();
     await waitForVisibleCount(page, EXPECTED_PRODUCT_COUNT);
     await waitForProductCards(page, 12);
     await assertNoHorizontalOverflow(page, name);
@@ -502,6 +537,8 @@ async function runDesktopJourney(browser) {
   const name = "dashboard-desktop";
   const page = await openDashboardPage(browser, name, { width: 1440, height: 1100 });
   try {
+    await assertUrlQueryRestore(page, name);
+
     await page.fill("#searchInput", "POIEMA");
     await page.waitForFunction(() => document.querySelector("#visibleCount")?.textContent?.trim() === "3");
     await waitForProductCards(page, 3);
@@ -566,9 +603,15 @@ async function runDesktopJourney(browser) {
     const marshallSoundbarCount = await page.locator(".product-card", { hasText: "Marshall" }).count();
     if (marshallSoundbarCount !== 2) throw new Error(`${name}: expected 2 Marshall soundbars, got ${marshallSoundbarCount}`);
     const marshallCompareButton = page.locator(".compare-button").first();
+    const marshallDetails = page.locator(".product-card details.card-details").first();
+    await marshallDetails.locator("summary").click();
+    if (!await marshallDetails.evaluate((node) => node.open)) throw new Error(`${name}: compare target details did not open`);
     await marshallCompareButton.scrollIntoViewIfNeeded();
     await marshallCompareButton.click();
     await page.waitForFunction(() => document.querySelector("#compareCount")?.textContent?.trim() === "1");
+    if (!await page.locator(".product-card details.card-details").first().evaluate((node) => node.open)) {
+      throw new Error(`${name}: product details closed after compare render`);
+    }
     const compareRows = await page.locator("#compareTable table tr").count();
     if (compareRows < 3) throw new Error(`${name}: compare table did not render`);
     const releaseCompareRows = await page.locator("#compareTable tr", { hasText: "上市/發售" }).count();
@@ -577,11 +620,12 @@ async function runDesktopJourney(browser) {
     if (historicalCompareRows !== 1) throw new Error(`${name}: compare table missing historical low row`);
     await assertHistoricalLowCompareLayout(page, name);
     await assertSingleCompareFitsViewport(page, name);
-    await page.locator("#clearCompare").click();
+    await page.locator("[data-compare-remove]").first().click();
     await page.waitForFunction(() => document.querySelector("#compareCount")?.textContent?.trim() === "0");
     await resetFilters(page);
 
-    await page.locator("#topPicks [data-focus-product]").nth(14).click();
+    await page.locator("#topPicks [data-focus-product]").nth(14).focus();
+    await page.keyboard.press("Space");
     await page.waitForFunction(() => document.querySelectorAll(".product-card").length >= 15);
     await page.waitForFunction(() => document.querySelector(".product-card.is-targeted"));
     const targetedCardVisible = await page.locator(".product-card.is-targeted").isVisible();
@@ -616,13 +660,21 @@ async function runMobileJourney(browser) {
     await selectComboboxOption(page, "#brandInput", '#brandOptions [data-value="Marshall"]', "Marshall");
     await page.waitForFunction(() => document.querySelector("#visibleCount")?.textContent?.trim() === "2");
     await waitForProductCards(page, 2);
+    const activeChipCount = await page.locator("#activeFilterChips [data-clear-filter]").count();
+    if (activeChipCount < 2) throw new Error(`${name}: mobile active filter chips missing selected filters`);
+    await filterToggle.click();
+    await page.waitForFunction(() => document.querySelector("#advancedFilters")?.hidden);
+    const collapsedFilterCount = Number(await page.locator("#activeFilterCount").innerText());
+    if (collapsedFilterCount < 2) throw new Error(`${name}: collapsed filter count did not reflect active chips`);
+    await filterToggle.click();
+    await page.waitForFunction(() => document.querySelector("#advancedFilters") && !document.querySelector("#advancedFilters").hidden);
     const compareButton = page.locator(".compare-button").first();
     await compareButton.scrollIntoViewIfNeeded();
     await compareButton.click();
     await page.waitForFunction(() => document.querySelector("#compareCount")?.textContent?.trim() === "1");
     await assertHistoricalLowCompareLayout(page, name);
     await assertSingleCompareFitsViewport(page, name);
-    await page.locator("#clearCompare").click();
+    await page.locator("[data-compare-remove]").first().click();
     await page.waitForFunction(() => document.querySelector("#compareCount")?.textContent?.trim() === "0");
     await resetFilters(page);
 
@@ -649,6 +701,7 @@ async function runMobileJourney(browser) {
 
     await page.evaluate(() => window.scrollTo(0, 520));
     await page.waitForFunction(() => document.body.classList.contains("show-mobile-dock"));
+    await assertMobileDockClearance(page, name);
     await page.getByLabel("滑動到最下面").click();
     await page.waitForFunction(() => window.scrollY > 200);
     await page.getByLabel("滑動到最上面").click();

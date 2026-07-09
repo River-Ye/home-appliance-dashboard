@@ -126,6 +126,10 @@
   overflow: hidden;
 }
 
+.decision-strip {
+  align-items: stretch;
+}
+
 .price-row > div:first-child {
   min-width: 0;
   overflow-wrap: anywhere;
@@ -154,6 +158,35 @@
   border-radius: 8px;
   contain: layout;
   overflow-wrap: anywhere;
+}
+
+.channel-risk {
+  grid-column: 1 / -1;
+  min-width: 0;
+  padding: 10px;
+  color: var(--ink);
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  overflow-wrap: anywhere;
+}
+
+.channel-risk strong {
+  display: block;
+  color: var(--primary-dark);
+  font-size: 16px;
+}
+
+.channel-risk small {
+  display: block;
+  margin-top: 3px;
+  color: var(--muted);
+  font-size: 12px;
+}
+
+.channel-risk--global {
+  border-color: rgba(178, 58, 72, 0.32);
+  background: #fff7f8;
 }
 
 .price-insight strong {
@@ -219,6 +252,10 @@
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
+.spec-list--key {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
 .spec-item {
   padding: 8px;
   background: #fbfcfe;
@@ -244,6 +281,54 @@
 .fineprint {
   color: var(--muted);
   font-size: 14px;
+}
+
+.card-details {
+  min-width: 0;
+}
+
+.card-details summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 40px;
+  padding: 8px 10px;
+  color: var(--primary-dark);
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 850;
+  list-style: none;
+}
+
+.card-details summary::-webkit-details-marker {
+  display: none;
+}
+
+.card-details summary:focus-visible {
+  outline: 3px solid rgba(37, 95, 133, 0.25);
+  outline-offset: 2px;
+}
+
+.card-details summary::after {
+  width: 8px;
+  height: 8px;
+  border-right: 2px solid currentColor;
+  border-bottom: 2px solid currentColor;
+  content: "";
+  transform: rotate(45deg) translateY(-2px);
+  transition: transform 160ms ease;
+}
+
+.card-details[open] summary::after {
+  transform: rotate(225deg) translate(-2px, -1px);
+}
+
+.card-details-body {
+  display: grid;
+  gap: 12px;
+  padding-top: 12px;
 }
 
 .recommendation {

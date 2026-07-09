@@ -221,6 +221,43 @@ async function assertSingleCompareFitsViewport(page, name) {
   }
 }
 
+async function assertProductDetailsDisclosure(page, name) {
+  const details = page.locator(".product-card details.card-details").first();
+  if (!await details.count()) throw new Error(`${name}: product cards missing details disclosure`);
+  const initiallyOpen = await details.evaluate((node) => node.open);
+  if (initiallyOpen) throw new Error(`${name}: product details should be collapsed by default`);
+
+  await details.locator("summary").click();
+  const opened = await details.evaluate((node) => node.open);
+  if (!opened) throw new Error(`${name}: product details did not open`);
+  await assertNoHorizontalOverflow(page, `${name} details open`);
+
+  await details.locator("summary").click();
+  const closed = await details.evaluate((node) => !node.open);
+  if (!closed) throw new Error(`${name}: product details did not close`);
+}
+
+async function assertMobileDockClearance(page, name) {
+  const result = await page.evaluate(() => {
+    if (window.innerWidth >= 700) return null;
+    const dock = document.querySelector(".mobile-dock");
+    if (!dock) return { issue: "missing mobile dock" };
+    document.body.classList.add("show-mobile-dock");
+    const dockRect = dock.getBoundingClientRect();
+    const bodyPaddingBottom = Number.parseFloat(getComputedStyle(document.body).paddingBottom || "0");
+    return {
+      dockHeight: Math.round(dockRect.height),
+      bodyPaddingBottom: Math.round(bodyPaddingBottom),
+    };
+  });
+
+  if (!result) return;
+  if (result.issue) throw new Error(`${name}: ${result.issue}`);
+  if (result.bodyPaddingBottom < result.dockHeight + 16) {
+    throw new Error(`${name}: mobile dock clearance too small ${JSON.stringify(result)}`);
+  }
+}
+
 
 async function assertNoHorizontalOverflow(page, name) {
   const overflow = await page.evaluate(() => {
@@ -253,6 +290,8 @@ module.exports = {
   assertHistoricalLowLayout,
   assertHistoricalLowCompareLayout,
   assertSingleCompareFitsViewport,
+  assertProductDetailsDisclosure,
+  assertMobileDockClearance,
   assertNoHorizontalOverflow,
   resetFilters,
   selectComboboxOption,

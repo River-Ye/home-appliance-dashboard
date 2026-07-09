@@ -30,6 +30,60 @@
   display: none;
 }
 
+.filter-chips {
+  grid-column: 1 / -1;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: center;
+  min-width: 0;
+  padding-top: 2px;
+}
+
+.filter-chips[hidden] {
+  display: none;
+}
+
+.filter-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  max-width: 100%;
+  min-height: 32px;
+  padding: 5px 10px;
+  color: var(--primary-dark);
+  background: #eaf2f7;
+  border: 1px solid #c8dce9;
+  border-radius: 999px;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 800;
+}
+
+.filter-chip span {
+  color: inherit;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.filter-chip::after {
+  width: 14px;
+  height: 14px;
+  content: "";
+  flex: 0 0 auto;
+  background:
+    linear-gradient(#fff, #fff) center / 8px 2px no-repeat,
+    linear-gradient(#fff, #fff) center / 2px 8px no-repeat,
+    var(--primary-dark);
+  border-radius: 999px;
+  transform: rotate(45deg);
+}
+
+.filter-chip:hover {
+  background: #dbeef8;
+}
+
 .toolbar label,
 .combo-field {
   display: grid;
@@ -59,6 +113,7 @@
 .toolbar input:focus,
 .filter-toggle:focus-visible,
 .reset-button:focus-visible,
+.filter-chip:focus-visible,
 button:focus-visible,
 a:focus-visible {
   outline: 3px solid rgba(37, 95, 133, 0.25);

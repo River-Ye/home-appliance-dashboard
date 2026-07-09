@@ -7,6 +7,7 @@
     state,
     ui,
     utils,
+    urlState,
   } = dashboard;
 
   function renderLoadFailure(error) {
@@ -22,6 +23,7 @@
 
   function initializeApp() {
     combobox.initializeFilterCombos();
+    urlState.applyFromQuery();
     ui.initializeLazyLoading();
     combobox.syncControls(true);
     ui.render();
@@ -29,7 +31,7 @@
 
     document.getElementById("searchInput").addEventListener("input", (event) => {
       state.search = event.target.value;
-      ui.render({ resetProducts: true });
+      ui.render({ resetProducts: true, syncUrl: true });
     });
 
     document.getElementById("resetFilters").addEventListener("click", ui.resetFilters);
@@ -55,18 +57,16 @@
       ui.focusProductFromTopPick(pick.dataset.focusProduct);
     });
 
-    document.getElementById("topPicks").addEventListener("keydown", (event) => {
-      if (event.key !== "Enter" && event.key !== " ") return;
-      const pick = event.target.closest("[data-focus-product]");
-      if (!pick) return;
-      event.preventDefault();
-      ui.focusProductFromTopPick(pick.dataset.focusProduct);
-    });
-
     document.getElementById("categoryTabs").addEventListener("click", (event) => {
       const button = event.target.closest("[data-category]");
       if (!button) return;
       ui.setCategory(button.dataset.category);
+    });
+
+    document.getElementById("activeFilterChips").addEventListener("click", (event) => {
+      const button = event.target.closest("[data-clear-filter]");
+      if (!button) return;
+      ui.clearFilter(button.dataset.clearFilter);
     });
 
     document.getElementById("productGrid").addEventListener("click", (event) => {
@@ -78,6 +78,12 @@
     document.getElementById("clearCompare").addEventListener("click", () => {
       state.compare.clear();
       ui.render();
+    });
+
+    document.getElementById("compareTable").addEventListener("click", (event) => {
+      const button = event.target.closest("[data-compare-remove]");
+      if (!button) return;
+      ui.removeCompare(button.dataset.compareRemove);
     });
 
     window.addEventListener("scroll", ui.updateMobileDock, { passive: true });

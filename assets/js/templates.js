@@ -59,9 +59,11 @@
     return `${info.label}；${info.lowText}；${info.detail}`;
   }
 
-  function imageMarkup(product) {
+  function imageMarkup(product, options = {}) {
     const brand = utils.escapeHtml(product.brand);
     const model = utils.escapeHtml(product.model);
+    const width = options.width || 320;
+    const height = options.height || 180;
     const fallback = `
       <div class="fallback-art">
         <div>
@@ -78,7 +80,7 @@
           </div>
         </div>`;
     }
-    return `<img src="${utils.escapeHtml(product.image)}" alt="${brand} ${model}" loading="lazy" onerror="this.style.display='none'; this.nextElementSibling.style.display='grid';">${fallback}`;
+    return `<img src="${utils.escapeHtml(product.image)}" alt="${brand} ${model}" width="${width}" height="${height}" loading="lazy" decoding="async" onerror="this.style.display='none'; this.nextElementSibling.style.display='grid';">${fallback}`;
   }
 
   function specItemMarkup(label, value) {
@@ -105,20 +107,19 @@
   function topPickMarkup(product) {
     const category = categoryById.get(product.category);
     return `
-      <article
+      <button
         class="pick-card"
-        role="button"
-        tabindex="0"
+        type="button"
         data-focus-product="${utils.escapeHtml(product.id)}"
         aria-label="查看 ${utils.escapeHtml(product.brand)} ${utils.escapeHtml(product.model)} 商品卡"
       >
-        ${imageMarkup(product)}
+        ${imageMarkup(product, { width: 74, height: 74 })}
         <div>
           <p class="eyebrow">${utils.escapeHtml(category.label)} 綜合推薦</p>
           <h3>${utils.escapeHtml(product.brand)} ${utils.escapeHtml(product.model)}</h3>
           <p>${utils.escapeHtml(product.recommendation)}</p>
         </div>
-      </article>
+      </button>
     `;
   }
 
@@ -131,6 +132,8 @@
     const sourceDate = /costco|好市多/i.test(`${product.buyLabel} ${product.buyUrl}`)
       ? meta.costcoDate
       : meta.dataDate;
+    const keySpecs = product.specs.slice(0, 3);
+    const detailSpecs = product.specs.slice(3);
 
     return `
       <article class="product-card" data-product-id="${utils.escapeHtml(product.id)}">
@@ -151,7 +154,7 @@
             </div>
             <h3>${utils.escapeHtml(product.name)}</h3>
           </div>
-          <div class="price-row">
+          <div class="price-row decision-strip">
             <div>
               <span class="field-label">建議/常見售價</span>
               <strong>${utils.escapeHtml(utils.formatTwd(product.price.converted))}</strong>
@@ -159,27 +162,42 @@
             </div>
             ${historicalLowMarkup(product)}
             <div class="score" title="綜合評估分數">${utils.escapeHtml(product.score)}</div>
-          </div>
-          <div class="spec-list">
-            ${product.specs.map((spec, index) => specItemMarkup(`規格 ${index + 1}`, spec)).join("")}
-          </div>
-          <p class="description">${utils.escapeHtml(product.description)}</p>
-          <p class="recommendation">${utils.escapeHtml(product.recommendation)}</p>
-          <div class="pros-cons">
-            <div>
-              <span class="field-label">優勢</span>
-              <ul>${product.pros.map((item) => `<li>${utils.escapeHtml(item)}</li>`).join("")}</ul>
-            </div>
-            <div>
-              <span class="field-label">留意</span>
-              <ul>${product.cons.map((item) => `<li>${utils.escapeHtml(item)}</li>`).join("")}</ul>
+            <div class="channel-risk ${product.channel === "global" ? "channel-risk--global" : ""}">
+              <span class="field-label">通路風險</span>
+              <strong>${utils.escapeHtml(utils.channelLabel(product.channel))}</strong>
+              <small>${utils.escapeHtml(product.channel === "global" ? "需自行確認運費、關稅、電壓與保固" : "台灣可信新品通路")}</small>
             </div>
           </div>
-          ${specItemMarkup("適合對象", product.bestFor)}
-          ${specItemMarkup("電壓 / 保固", `${product.voltage}；${product.warranty}`)}
-          ${specItemMarkup("上市 / 發售日期", releaseDateText(product))}
-          <div class="tag-row">${product.tags.map((tag) => `<span class="tag">${utils.escapeHtml(tag)}</span>`).join("")}</div>
-          <p class="fineprint">資料來源：${utils.escapeHtml(product.buyLabel)}，擷取日 ${sourceDate}。</p>
+          <div class="spec-list spec-list--key">
+            ${keySpecs.map((spec, index) => specItemMarkup(`重點 ${index + 1}`, spec)).join("")}
+          </div>
+          <details class="card-details">
+            <summary>完整規格與評估</summary>
+            <div class="card-details-body">
+              ${detailSpecs.length ? `
+                <div class="spec-list">
+                  ${detailSpecs.map((spec, index) => specItemMarkup(`規格 ${index + 4}`, spec)).join("")}
+                </div>
+              ` : ""}
+              <p class="description">${utils.escapeHtml(product.description)}</p>
+              <p class="recommendation">${utils.escapeHtml(product.recommendation)}</p>
+              <div class="pros-cons">
+                <div>
+                  <span class="field-label">優勢</span>
+                  <ul>${product.pros.map((item) => `<li>${utils.escapeHtml(item)}</li>`).join("")}</ul>
+                </div>
+                <div>
+                  <span class="field-label">留意</span>
+                  <ul>${product.cons.map((item) => `<li>${utils.escapeHtml(item)}</li>`).join("")}</ul>
+                </div>
+              </div>
+              ${specItemMarkup("適合對象", product.bestFor)}
+              ${specItemMarkup("電壓 / 保固", `${product.voltage}；${product.warranty}`)}
+              ${specItemMarkup("上市 / 發售日期", releaseDateText(product))}
+              <div class="tag-row">${product.tags.map((tag) => `<span class="tag">${utils.escapeHtml(tag)}</span>`).join("")}</div>
+              <p class="fineprint">資料來源：${utils.escapeHtml(product.buyLabel)}，擷取日 ${sourceDate}。</p>
+            </div>
+          </details>
         </div>
         <div class="card-actions">
           <a class="buy-link" href="${utils.escapeHtml(product.buyUrl)}" target="_blank" rel="noreferrer">購買連結</a>
@@ -193,26 +211,38 @@
 
   function compareTableMarkup(selected) {
     const rows = [
-      ["分類", (product) => categoryById.get(product.category).label],
-      ["品牌/型號", (product) => `${product.brand} ${product.model}`],
-      ["TWD 價格", (product) => utils.formatTwd(product.price.converted)],
-      ["原幣價格", (product) => utils.formatOriginal(product.price)],
-      ["歷史最低價 / 入手時機", historicalLowText],
-      ["上市/發售", releaseDateText],
-      ["規格", (product) => product.specs.join(" / ")],
-      ["優勢", (product) => product.pros.join(" / ")],
-      ["留意", (product) => product.cons.join(" / ")],
-      ["適合", (product) => product.bestFor],
-      ["電壓保固", (product) => `${product.voltage}；${product.warranty}`],
+      {
+        label: "操作",
+        html: true,
+        get: (product) => `
+          <button
+            class="compare-remove-button"
+            type="button"
+            data-compare-remove="${utils.escapeHtml(product.id)}"
+            aria-label="從比較清單移除 ${utils.escapeHtml(product.brand)} ${utils.escapeHtml(product.model)}"
+          >移除</button>
+        `,
+      },
+      { label: "分類", get: (product) => categoryById.get(product.category).label },
+      { label: "品牌/型號", get: (product) => `${product.brand} ${product.model}` },
+      { label: "TWD 價格", get: (product) => utils.formatTwd(product.price.converted) },
+      { label: "原幣價格", get: (product) => utils.formatOriginal(product.price) },
+      { label: "歷史最低價 / 入手時機", get: historicalLowText },
+      { label: "上市/發售", get: releaseDateText },
+      { label: "規格", get: (product) => product.specs.join(" / ") },
+      { label: "優勢", get: (product) => product.pros.join(" / ") },
+      { label: "留意", get: (product) => product.cons.join(" / ") },
+      { label: "適合", get: (product) => product.bestFor },
+      { label: "電壓保固", get: (product) => `${product.voltage}；${product.warranty}` },
     ];
 
     return `
       <table class="compare-table">
         <tbody>
-          ${rows.map(([label, getter]) => `
+          ${rows.map((row) => `
             <tr>
-              <th>${utils.escapeHtml(label)}</th>
-              ${selected.map((product) => `<td>${utils.escapeHtml(getter(product))}</td>`).join("")}
+              <th>${utils.escapeHtml(row.label)}</th>
+              ${selected.map((product) => `<td>${row.html ? row.get(product) : utils.escapeHtml(row.get(product))}</td>`).join("")}
             </tr>
           `).join("")}
         </tbody>

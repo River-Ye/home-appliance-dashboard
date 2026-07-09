@@ -19,6 +19,8 @@ function createRuntime() {
     Map,
     Promise,
     Set,
+    URL,
+    URLSearchParams,
     setTimeout,
     clearTimeout,
     globalThis: null,
@@ -33,6 +35,7 @@ function createRuntime() {
     "assets/js/utils.js",
     "assets/js/filters.js",
     "assets/js/templates.js",
+    "assets/js/url-state.js",
     "assets/js/product-loader.js",
   ]) {
     vm.runInContext(fs.readFileSync(path.join(root, file), "utf8"), context, { filename: file });
@@ -113,6 +116,22 @@ async function main() {
   assert(missingLowProduct, "fixture should contain a missing historical low product");
   assert(templates.historicalLowInfo(foundLowProduct).sourceUrl, "found historical low should expose a source URL");
   assert(templates.historicalLowInfo(missingLowProduct).label === "無法判定", "missing historical low should show unknown label");
+
+  context.location = new URL("https://example.test/index.html?q=OLED&category=monitor&sort=priceAsc");
+  context.history = {
+    lastUrl: "",
+    replaceState(_state, _title, url) {
+      this.lastUrl = url;
+      context.location = new URL(url);
+    },
+  };
+  dashboard.urlState.applyFromQuery();
+  assert(dashboard.state.search === "OLED", "query should restore search text");
+  assert(dashboard.state.category === "monitor", "query should restore category");
+  assert(dashboard.state.sort === "priceAsc", "query should restore sort");
+  dashboard.state.brand = "ASUS";
+  dashboard.urlState.syncToQuery();
+  assert(context.history.lastUrl.endsWith("?q=OLED&category=monitor&brand=ASUS&sort=priceAsc"), "query sync should persist active filters only");
 
   await assertLoaderFailureIsClear(context, dashboard);
 

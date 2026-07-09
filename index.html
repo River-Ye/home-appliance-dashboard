@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="./assets/css/responsive.css?v=20260709-historical-low-v2">
   </head>
   <body>
+    <a class="skip-link" href="#mainContent">跳到主要內容</a>
     <header class="topbar">
       <div class="topbar-inner">
         <div>
@@ -30,11 +31,11 @@
       </div>
     </header>
 
-    <main>
+    <main id="mainContent" tabindex="-1">
       <section id="filters" class="toolbar" aria-label="篩選器">
         <label class="search-field">
           <span>搜尋</span>
-          <input id="searchInput" type="search" placeholder="品牌、型號、功能、適合對象">
+          <input id="searchInput" name="q" type="search" autocomplete="off" placeholder="品牌、型號、功能、適合對象">
         </label>
         <button id="filterToggle" class="filter-toggle" type="button" aria-expanded="false" aria-controls="advancedFilters">
           <span>篩選</span>
@@ -44,7 +45,7 @@
           <div class="combo-field">
             <label id="categoryInputLabel" for="categoryInput">分類</label>
             <div class="combo-control" data-combo="category">
-              <input id="categoryInput" type="search" autocomplete="off" role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="categoryOptions" aria-labelledby="categoryInputLabel" placeholder="搜尋分類">
+              <input id="categoryInput" name="category" type="search" autocomplete="off" role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="categoryOptions" aria-labelledby="categoryInputLabel" placeholder="搜尋分類">
               <button class="combo-clear" type="button" aria-label="清除分類" tabindex="-1" hidden></button>
               <button class="combo-button" type="button" aria-label="展開分類選項" tabindex="-1"></button>
               <div id="categoryOptions" class="combo-list" role="listbox" hidden></div>
@@ -53,7 +54,7 @@
           <div class="combo-field">
             <label id="brandInputLabel" for="brandInput">品牌</label>
             <div class="combo-control" data-combo="brand">
-              <input id="brandInput" type="search" autocomplete="off" role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="brandOptions" aria-labelledby="brandInputLabel" placeholder="搜尋品牌">
+              <input id="brandInput" name="brand" type="search" autocomplete="off" role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="brandOptions" aria-labelledby="brandInputLabel" placeholder="搜尋品牌">
               <button class="combo-clear" type="button" aria-label="清除品牌" tabindex="-1" hidden></button>
               <button class="combo-button" type="button" aria-label="展開品牌選項" tabindex="-1"></button>
               <div id="brandOptions" class="combo-list" role="listbox" hidden></div>
@@ -62,7 +63,7 @@
           <div class="combo-field">
             <label id="budgetInputLabel" for="budgetInput">預算</label>
             <div class="combo-control" data-combo="budget">
-              <input id="budgetInput" type="search" autocomplete="off" role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="budgetOptions" aria-labelledby="budgetInputLabel" placeholder="搜尋預算">
+              <input id="budgetInput" name="budget" type="search" autocomplete="off" role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="budgetOptions" aria-labelledby="budgetInputLabel" placeholder="搜尋預算">
               <button class="combo-clear" type="button" aria-label="清除預算" tabindex="-1" hidden></button>
               <button class="combo-button" type="button" aria-label="展開預算選項" tabindex="-1"></button>
               <div id="budgetOptions" class="combo-list" role="listbox" hidden></div>
@@ -71,7 +72,7 @@
           <div class="combo-field">
             <label id="channelInputLabel" for="channelInput">通路</label>
             <div class="combo-control" data-combo="channel">
-              <input id="channelInput" type="search" autocomplete="off" role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="channelOptions" aria-labelledby="channelInputLabel" placeholder="搜尋通路">
+              <input id="channelInput" name="channel" type="search" autocomplete="off" role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="channelOptions" aria-labelledby="channelInputLabel" placeholder="搜尋通路">
               <button class="combo-clear" type="button" aria-label="清除通路" tabindex="-1" hidden></button>
               <button class="combo-button" type="button" aria-label="展開通路選項" tabindex="-1"></button>
               <div id="channelOptions" class="combo-list" role="listbox" hidden></div>
@@ -80,7 +81,7 @@
           <div class="combo-field">
             <label id="sortInputLabel" for="sortInput">排序</label>
             <div class="combo-control" data-combo="sort">
-              <input id="sortInput" type="search" autocomplete="off" role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="sortOptions" aria-labelledby="sortInputLabel" placeholder="搜尋排序">
+              <input id="sortInput" name="sort" type="search" autocomplete="off" role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="sortOptions" aria-labelledby="sortInputLabel" placeholder="搜尋排序">
               <button class="combo-clear" type="button" aria-label="清除排序" tabindex="-1" hidden></button>
               <button class="combo-button" type="button" aria-label="展開排序選項" tabindex="-1"></button>
               <div id="sortOptions" class="combo-list" role="listbox" hidden></div>
@@ -88,6 +89,7 @@
           </div>
           <button id="resetFilters" type="button" class="reset-button">重設篩選</button>
         </div>
+        <div id="activeFilterChips" class="filter-chips" aria-label="目前篩選條件" hidden></div>
       </section>
 
       <nav id="categoryTabs" class="tabs" aria-label="產品分類"></nav>
@@ -103,11 +105,11 @@
         </article>
         <article class="summary-card">
           <span>符合條件</span>
-          <strong id="visibleCount">0</strong>
+          <strong id="visibleCount" aria-live="polite">0</strong>
         </article>
         <article class="summary-card">
           <span>比較清單</span>
-          <strong id="compareCount">0</strong>
+          <strong id="compareCount" aria-live="polite">0</strong>
         </article>
       </section>
 
@@ -116,8 +118,8 @@
       <section class="result-toolbar" aria-label="商品列表控制">
         <div class="result-status">
           <span class="field-label">商品列表</span>
-          <strong id="renderedCount">已載入 0 / 0</strong>
-          <small id="lazyHint">預設載入前 12 筆，往下滑會自動追加。</small>
+          <strong id="renderedCount" aria-live="polite">已載入 0 / 0</strong>
+          <small id="lazyHint" aria-live="polite">預設載入前 12 筆，往下滑會自動追加。</small>
         </div>
         <div class="result-actions">
           <button id="loadMoreProducts" type="button" class="ghost-button">再載入 40 筆</button>
@@ -151,8 +153,8 @@
 
     <nav class="mobile-dock" aria-label="手機快速操作">
       <a href="#filters">篩選</a>
-      <a href="#productGrid">商品 <strong id="mobileVisibleCount">0</strong></a>
-      <a id="mobileCompareLink" href="#comparePanel">比較 <strong id="mobileCompareCount">0</strong></a>
+      <a href="#productGrid">商品 <strong id="mobileVisibleCount" aria-live="polite">0</strong></a>
+      <a id="mobileCompareLink" href="#comparePanel">比較 <strong id="mobileCompareCount" aria-live="polite">0</strong></a>
     </nav>
 
     <script src="./assets/js/config.js?v=20260709-historical-low-v2"></script>
@@ -160,6 +162,7 @@
     <script src="./assets/js/filters.js?v=20260709-historical-low-v2"></script>
     <script src="./assets/js/combobox.js?v=20260709-historical-low-v2"></script>
     <script src="./assets/js/templates.js?v=20260709-historical-low-v2"></script>
+    <script src="./assets/js/url-state.js?v=20260709-historical-low-v2"></script>
     <script src="./assets/js/ui.js?v=20260709-historical-low-v2"></script>
     <script src="./assets/js/product-loader.js?v=20260709-historical-low-v2"></script>
     <script src="./assets/js/main.js?v=20260709-historical-low-v2"></script>

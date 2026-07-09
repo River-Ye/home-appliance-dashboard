@@ -44,6 +44,54 @@
     document.getElementById("mobileCompareLink").classList.toggle("active", state.compare.size > 0);
   }
 
+  function activeFilterItems() {
+    const items = [];
+    const search = state.search.trim();
+    if (search) {
+      items.push({
+        key: "search",
+        label: `搜尋：${search}`,
+        ariaLabel: `清除搜尋 ${search}`,
+      });
+    }
+
+    for (const name of constants.filterControlNames) {
+      if (state[name] === filters.defaultFilterValue(name)) continue;
+      const selected = filters.selectedFilterOption(name);
+      const labelPrefix = {
+        category: "分類",
+        brand: "品牌",
+        budget: "預算",
+        channel: "通路",
+        sort: "排序",
+      }[name];
+      items.push({
+        key: name,
+        label: `${labelPrefix}：${selected.label}`,
+        ariaLabel: `清除${labelPrefix} ${selected.label}`,
+      });
+    }
+
+    return items;
+  }
+
+  function renderActiveFilterChips() {
+    const container = document.getElementById("activeFilterChips");
+    if (!container) return;
+    const items = activeFilterItems();
+    container.hidden = items.length === 0;
+    container.innerHTML = items.map((item) => `
+      <button
+        class="filter-chip"
+        type="button"
+        data-clear-filter="${utils.escapeHtml(item.key)}"
+        aria-label="${utils.escapeHtml(item.ariaLabel)}"
+      >
+        <span>${utils.escapeHtml(item.label)}</span>
+      </button>
+    `).join("");
+  }
+
   function renderResultToolbar(matchedProducts, cards) {
     const hasMore = filters.hasMoreProducts(matchedProducts);
     const renderedCount = document.getElementById("renderedCount");
@@ -93,7 +141,16 @@
       grid.innerHTML = `<div class="empty-state">沒有符合目前篩選條件的產品。</div>`;
       return;
     }
+    const expandedProductIds = new Set([...grid.querySelectorAll("details.card-details[open]")]
+      .map((details) => details.closest(".product-card")?.dataset.productId)
+      .filter(Boolean));
     grid.innerHTML = visible.map(templates.cardMarkup).join("");
+    expandedProductIds.forEach((productId) => {
+      const card = [...grid.querySelectorAll(".product-card")]
+        .find((candidate) => candidate.dataset.productId === productId);
+      const details = card?.querySelector("details.card-details");
+      if (details) details.open = true;
+    });
   }
 
   function renderCompare() {
@@ -120,7 +177,7 @@
 
     const mobile = isMobileFilterLayout();
     const open = !mobile || state.mobileFiltersOpen;
-    const activeCount = filters.activeAdvancedFilterCount();
+    const activeCount = activeFilterItems().length;
     toolbar.classList.toggle("filters-open", mobile && open);
     panel.hidden = !open;
     toggle.hidden = !mobile;
@@ -139,19 +196,23 @@
     renderMeta();
     renderTabs();
     renderStats(visible);
+    renderActiveFilterChips();
     renderTopPicks(visible);
     renderResultToolbar(visible, cards);
     renderProducts(cards);
     renderCompare();
     updateFilterDisclosure();
     dashboard.combobox.syncComboClears();
+    if (options.syncUrl && dashboard.urlState) {
+      dashboard.urlState.syncToQuery();
+    }
   }
 
   function setCategory(category) {
     state.category = category;
     filters.ensureSelectedBrandIsAvailable();
     dashboard.combobox.syncControls(true);
-    render({ resetProducts: true });
+    render({ resetProducts: true, syncUrl: true });
   }
 
   function resetFilters() {
@@ -163,7 +224,21 @@
     state.search = "";
     dashboard.combobox.syncControls(true);
     dashboard.combobox.closeAllCombos();
-    render({ resetProducts: true });
+    render({ resetProducts: true, syncUrl: true });
+  }
+
+  function clearFilter(name) {
+    if (name === "search") {
+      state.search = "";
+    } else if (constants.filterControlNames.includes(name)) {
+      filters.applyFilterValue(name, filters.defaultFilterValue(name));
+    } else {
+      return;
+    }
+    filters.ensureSelectedBrandIsAvailable();
+    dashboard.combobox.syncControls(true);
+    dashboard.combobox.closeAllCombos();
+    render({ resetProducts: true, syncUrl: true });
   }
 
   function setMobileFiltersOpen(open) {
@@ -268,11 +343,19 @@
     render();
   }
 
+  function removeCompare(productId) {
+    if (!state.compare.has(productId)) return;
+    state.compare.delete(productId);
+    render();
+  }
+
   dashboard.ui = {
     renderMeta,
     render,
+    activeFilterItems,
     setCategory,
     resetFilters,
+    clearFilter,
     setMobileFiltersOpen,
     updateFilterDisclosure,
     updateMobileDock,
@@ -281,5 +364,6 @@
     scrollToPageBottom,
     focusProductFromTopPick,
     toggleCompare,
+    removeCompare,
   };
 })();
