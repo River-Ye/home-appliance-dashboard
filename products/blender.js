@@ -907,9 +907,56 @@
     "releaseDate": "找不到"
   },
   {
-    "id": "blender-costco-teco-xyfys007w",
+    "id": "blender-xiaomi-mjpbj01demtw",
     "category": "blender",
     "rank": 21,
+    "budget": "value",
+    "channel": "tw",
+    "brand": "Xiaomi",
+    "model": "MJPBJ01DEMTW",
+    "name": "破壁調理機 冷熱調理機",
+    "price": {
+      "currency": "TWD",
+      "amount": 2149,
+      "converted": 2149,
+      "confidence": "PChome 小米官方旗艦館 2026-07-09 查核價"
+    },
+    "image": "https://cs-a.ecimg.tw/items/DMAYFGA900IXDP8/000001_1749698286.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DMAYFG-A900IXDP8",
+    "buyLabel": "PChome 小米官方旗艦館",
+    "specs": [
+      "1.75L 冷飲 / 1.4L 熱飲",
+      "混拌 500W / 加熱 800W",
+      "110V / 60Hz",
+      "6 種冷熱飲品選項",
+      "2 種自清潔模式"
+    ],
+    "description": "小米官方旗艦館新品頁的冷熱破壁調理機，價格低、容量完整，適合補進入門冷熱調理比較。",
+    "pros": [
+      "價格低且為小米官方旗艦館新品頁",
+      "冷熱飲、豆漿與自清潔功能完整"
+    ],
+    "cons": [
+      "馬達與耐用口碑不如高階 Vitamix/Blendtec",
+      "PChome 詳情標示米家 App 不支援此產品"
+    ],
+    "bestFor": "想低價嘗試豆漿、米糊、冰沙與日常冷熱飲的小家庭。",
+    "recommendation": "小米補充推薦：價格接近入門款但具冷熱調理、自清潔與 110V 台灣規格，適合作為低預算小家庭候選。",
+    "score": 84,
+    "voltage": "110V / 60Hz",
+    "warranty": "PChome 小米官方旗艦館標示原廠 1 年保固",
+    "tags": [
+      "小米",
+      "冷熱",
+      "豆漿",
+      "入門"
+    ],
+    "releaseDate": "找不到"
+  },
+  {
+    "id": "blender-costco-teco-xyfys007w",
+    "category": "blender",
+    "rank": 22,
     "budget": "value",
     "channel": "tw",
     "brand": "TECO",
@@ -954,7 +1001,7 @@
   {
     "id": "blender-costco-ninja-tb401tw",
     "category": "blender",
-    "rank": 22,
+    "rank": 23,
     "budget": "value",
     "channel": "tw",
     "brand": "Ninja",
@@ -1002,7 +1049,7 @@
   {
     "id": "blender-costco-vitamix-e310",
     "category": "blender",
-    "rank": 23,
+    "rank": 24,
     "budget": "premium",
     "channel": "tw",
     "brand": "Vitamix",

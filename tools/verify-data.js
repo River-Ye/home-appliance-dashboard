@@ -3,7 +3,7 @@ const path = require("path");
 const { readDashboardProducts } = require("./read-dashboard-products");
 
 const EXPECTED_CATEGORY_COUNT = 25;
-const EXPECTED_PRODUCT_COUNT = 655;
+const EXPECTED_PRODUCT_COUNT = 656;
 const MIN_PRODUCTS_PER_CATEGORY = 20;
 const DATE_PATTERN = /^(找不到|\d{4}(?:[-/.]\d{1,2}(?:[-/.]\d{1,2})?)?)$/;
 const WASHER_DRYER_CAPACITY_PATTERN = /^洗\/乾容量：\d+(?:\.\d+)?kg \/ \d+(?:\.\d+)?kg$/;

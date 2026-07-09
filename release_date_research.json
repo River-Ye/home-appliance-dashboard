@@ -1,13 +1,13 @@
 {
   "summary": {
     "checkedAt": "2026-07-09T04:00:00.000Z",
-    "total": 655,
+    "total": 656,
     "found": 165,
-    "missing": 490,
+    "missing": 491,
     "byConfidence": {
       "official": 67,
       "credible_article": 87,
-      "not_found": 490,
+      "not_found": 491,
       "retailer_explicit": 11
     }
   },
@@ -4295,6 +4295,20 @@
       "evidenceSnippet": "",
       "confidence": "not_found",
       "query": "Joyoung SMM55 release date launch announced 上市 發售",
+      "sourceKind": "not_found_after_available_search"
+    },
+    {
+      "id": "blender-xiaomi-mjpbj01demtw",
+      "category": "blender",
+      "brand": "Xiaomi",
+      "model": "MJPBJ01DEMTW",
+      "name": "破壁調理機 冷熱調理機",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "query": "Xiaomi MJPBJ01DEMTW release date launch announced 上市 發售",
       "sourceKind": "not_found_after_available_search"
     },
     {
