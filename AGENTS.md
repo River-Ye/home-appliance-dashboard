@@ -15,27 +15,41 @@
 - `index.html`：頁面骨架與 script 載入順序。
 - `assets/css/tokens.css`：色彩、陰影、全域 reset 與基本文字規則。
 - `assets/css/layout.css`：header、main、footer 等主要版面。
-- `assets/css/components.css`：篩選器、ComboBox、tabs、商品卡、比較表、快速跳轉等元件樣式。
+- `assets/css/filters.css`：搜尋、篩選器與 ComboBox 樣式。
+- `assets/css/tabs.css`：分類 tabs、總覽統計、推薦卡與列表工具列樣式。
+- `assets/css/cards.css`：商品列表、商品卡、價格/史低、規格、標籤與卡片操作樣式。
+- `assets/css/comparison.css`：比較清單、比較表與空狀態樣式。
+- `assets/css/navigation.css`：手機 dock、快速跳轉與目標高亮動畫樣式。
 - `assets/css/responsive.css`：reduced-motion、平板與手機版 RWD。
-- `assets/js/config.js`：分類、匯率、常數、全域 registry 與 state 初始化。
+- `assets/js/config.js`：分類、匯率、meta、常數、全域 registry 與 state 初始化。
 - `assets/js/utils.js`：格式化、HTML escape、搜尋文字整理與標籤轉換。
 - `assets/js/filters.js`：搜尋、篩選、排序、品牌選項與 lazy loading 計算。
 - `assets/js/combobox.js`：分類/品牌/預算/通路/排序 ComboBox 行為。
 - `assets/js/templates.js`：商品卡、推薦卡、比較表與圖片 fallback markup。
 - `assets/js/ui.js`：render 流程、手機篩選、scroll/highlight、compare 操作。
-- `assets/js/main.js`：DOMContentLoaded、事件綁定與初始 render。
+- `assets/js/product-loader.js`：依 `categories` 自動載入 `products/<category>.js?v=<cacheVersion>`。
+- `assets/js/main.js`：DOMContentLoaded、商品載入、事件綁定與初始 render。
 - `products/*.js`：每個商品分類一個檔案，只放該分類商品資料，透過 `globalThis.applianceDashboard.registerProducts(categoryId, items)` 註冊。
+- `tools/dashboard-contract.js`：商品數、分類數、必要欄位與資料品質規則常數。
 - `tools/*.js`：repo 內維護檢查工具，可用 `npm run check` 執行。
+- `.agents/skills/home-appliance-dashboard/`：repo-local skill，供 AI 維護商品資料、靜態前端與 Pages 發布流程時使用。
 - 不要再把大量商品資料塞回任一核心 JS；商品資料只能維持在 `products/*.js`。
 
 新增或修改分類時通常要同步：
 
 - `assets/js/config.js` 的 `categories`
 - `products/<category>.js`
-- `index.html` 的 script 載入清單與版本 query string
 - `README.md` 的分類、數量、品牌涵蓋說明
 - `AGENTS.md` 若規則有新增
-- `tools/verify-data.js` 若總分類數或總商品數改變
+- `tools/dashboard-contract.js` 與 `assets/js/config.js` 的 `meta`，若總分類數或總商品數改變
+
+分類商品 script 由 `assets/js/product-loader.js` 依 `categories` 自動載入；新增分類時不要再手動把 `products/<category>.js` 加進 `index.html`。
+
+## Repo-local Skill
+
+- 本 repo 有 `.agents/skills/home-appliance-dashboard/`，AI 後續處理商品維護、價格/匯率/連結查核、靜態前端重構、驗證工具或 GitHub Pages 發布時，應優先使用這個 skill。
+- 商品維護細節看 `references/product-maintenance.md`；靜態前端重構與發布流程看 `references/static-refactor-release.md`。
+- 若更新 AGENTS 裡的長期規則，也要評估是否同步更新 repo-local skill，避免後續 AI 只讀 skill 時漏掉流程。
 
 ## 目前資料規模
 
@@ -144,7 +158,7 @@
 - 每筆商品都必須標示 `historicalLow`，代表同型號、同尺寸/容量/規格在可信新品通路可驗證的歷史最低價與入手時機判斷；若找不到可靠來源，需填 `status: "not_found"`，不要以現價推定史低。
 - 歷史最低價查核需保留 `historical_price_research.json` 證據檔；`found` 項目必須有 `sourceUrl`、`sourceTitle`、`evidenceSnippet`、`amount`、`currency`、`converted`、`sourceKind`、`confidence` 與 `checkedAt`，`not_found` 項目必須寫明查核說明。
 - 歷史最低價來源排除會員個人化折扣、信用卡回饋、點數、二手、福利品、展示機、拆封品、整新品、配件頁或耗材頁；海外史低需在 `note` 標示未含國際運費、進口稅、電壓/插頭與台灣保固風險。
-- 大量更新商品檔時仍需維持 `outputs/products/*.js` 逐分類獨立，不要把商品資料塞回 `assets/js/*.js`。
+- 大量更新商品檔時仍需維持 `products/*.js` 逐分類獨立，不要把商品資料塞回 `assets/js/*.js`。
 
 ## 特別分類規則
 
@@ -247,7 +261,9 @@
 修改後至少檢查：
 
 - `npm run check:syntax`：所有公開 JS 檔與維護工具可被 Node 編譯。
+- `npm run check:logic`：純邏輯回歸，涵蓋排序、品牌依分類限制、史低文案、HTML escape 與 product-loader URL/錯誤。
 - `npm run check:data`：商品總數、分類數、必要欄位、日期格式、重複 URL 與重複型號檢查通過。
+- `npm run check:docs`：README、AGENTS、index/config 的商品數、分類數、日期與 cache version 不漂移。
 - `npm run check:ui`：桌機與手機版主要互動流程通過。
 - 商品總數仍符合 README 與分類 tab 顯示。
 - 每筆商品必要欄位齊全。

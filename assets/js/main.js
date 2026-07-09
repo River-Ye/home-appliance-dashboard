@@ -1,8 +1,26 @@
 (() => {
   const dashboard = globalThis.applianceDashboard;
-  const { combobox, filters, state, ui } = dashboard;
+  const {
+    combobox,
+    filters,
+    productLoader,
+    state,
+    ui,
+    utils,
+  } = dashboard;
 
-  document.addEventListener("DOMContentLoaded", () => {
+  function renderLoadFailure(error) {
+    console.error(error);
+    const grid = document.getElementById("productGrid");
+    if (!grid) return;
+    grid.innerHTML = `
+      <div class="empty-state">
+        商品資料載入失敗，請重新整理頁面或稍後再試。${utils.escapeHtml(error.message || "")}
+      </div>
+    `;
+  }
+
+  function initializeApp() {
     combobox.initializeFilterCombos();
     ui.initializeLazyLoading();
     combobox.syncControls(true);
@@ -63,5 +81,11 @@
     });
 
     window.addEventListener("scroll", ui.updateMobileDock, { passive: true });
+  }
+
+  document.addEventListener("DOMContentLoaded", () => {
+    productLoader.loadAll()
+      .then(initializeApp)
+      .catch(renderLoadFailure);
   });
 })();

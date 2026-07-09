@@ -5,11 +5,19 @@
     products,
     categoryById,
     constants,
+    meta,
     state,
     filters,
     templates,
     utils,
   } = dashboard;
+
+  function renderMeta() {
+    const dataDate = document.getElementById("dataDate");
+    const exchangeSummary = document.getElementById("exchangeSummary");
+    if (dataDate) dataDate.textContent = meta.dataDate;
+    if (exchangeSummary) exchangeSummary.textContent = meta.exchangeSummary;
+  }
 
   function renderTabs() {
     const tabs = document.getElementById("categoryTabs");
@@ -128,6 +136,7 @@
     filters.ensureSelectedBrandIsAvailable();
     const visible = filters.filteredProducts();
     const cards = filters.renderedProducts(visible);
+    renderMeta();
     renderTabs();
     renderStats(visible);
     renderTopPicks(visible);
@@ -260,6 +269,7 @@
   }
 
   dashboard.ui = {
+    renderMeta,
     render,
     setCategory,
     resetFilters,

@@ -4,9 +4,11 @@
   "private": true,
   "description": "純前端 GitHub Pages 家電推薦比較工作台",
   "scripts": {
-    "check": "npm run check:syntax && npm run check:data && npm run check:ui",
+    "check": "npm run check:syntax && npm run check:logic && npm run check:data && npm run check:docs && npm run check:ui",
     "check:syntax": "node tools/check-syntax.js",
+    "check:logic": "node tools/check-logic.js",
     "check:data": "node tools/verify-data.js",
+    "check:docs": "node tools/check-docs.js",
     "check:ui": "node tools/verify-dashboard.js",
     "check:ui:full": "node tools/verify-dashboard.js --full"
   },

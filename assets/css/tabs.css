@@ -1,0 +1,144 @@
+.tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  overflow-x: visible;
+  padding: 16px 2px 12px;
+  scrollbar-width: thin;
+}
+
+.tab-group-label {
+  align-self: center;
+  flex: 0 0 auto;
+  margin-left: 8px;
+  color: var(--muted);
+  font-size: 0.78rem;
+  font-weight: 850;
+  letter-spacing: 0;
+}
+
+.tab-button,
+.ghost-button,
+.buy-link,
+.compare-button,
+.reset-button {
+  min-height: 38px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 160ms ease, color 160ms ease, border-color 160ms ease, transform 160ms ease;
+}
+
+.tab-button {
+  flex: 0 0 auto;
+  padding: 8px 12px;
+  color: var(--primary-dark);
+  background: #fff;
+  font-weight: 750;
+}
+
+.tab-button.active {
+  color: #fff;
+  background: var(--primary-dark);
+  border-color: var(--primary-dark);
+}
+
+.summary-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+  margin: 4px 0 18px;
+}
+
+.summary-card {
+  padding: 16px;
+}
+
+.summary-card strong {
+  display: block;
+  margin-top: 4px;
+  font-size: 28px;
+}
+
+.top-picks {
+  display: flex;
+  gap: 12px;
+  overflow-x: auto;
+  overscroll-behavior-inline: contain;
+  scroll-snap-type: x proximity;
+  scrollbar-width: thin;
+  padding-bottom: 4px;
+  margin-bottom: 20px;
+}
+
+.pick-card {
+  flex: 0 0 clamp(280px, 24vw, 360px);
+  display: grid;
+  grid-template-columns: 74px 1fr;
+  gap: 12px;
+  padding: 12px;
+  min-height: 128px;
+  scroll-snap-align: start;
+  cursor: pointer;
+  transition: border-color 160ms ease, box-shadow 160ms ease, transform 160ms ease;
+}
+
+.pick-card:hover,
+.pick-card:focus-visible {
+  border-color: rgba(37, 95, 133, 0.55);
+  box-shadow: 0 18px 45px rgba(18, 59, 90, 0.16);
+  transform: translateY(-1px);
+}
+
+.pick-card img {
+  width: 74px;
+  height: 74px;
+  object-fit: contain;
+  align-self: center;
+}
+
+.pick-card p {
+  margin: 6px 0 0;
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.result-toolbar {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  align-items: center;
+  margin: 0 0 14px;
+  padding: 12px;
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  box-shadow: 0 12px 28px rgba(23, 32, 51, 0.07);
+}
+
+.result-status {
+  min-width: 0;
+}
+
+.result-status strong {
+  display: block;
+  margin-top: 2px;
+  font-size: 18px;
+}
+
+.result-status small {
+  display: block;
+  margin-top: 3px;
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.result-actions {
+  display: flex;
+  flex: 0 0 auto;
+  gap: 8px;
+}
+
+.result-actions [hidden] {
+  display: none;
+}

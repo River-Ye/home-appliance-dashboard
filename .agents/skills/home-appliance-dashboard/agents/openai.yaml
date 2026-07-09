@@ -1,0 +1,4 @@
+interface:
+  display_name: "Home Appliance Dashboard"
+  short_description: "維護家電比較工作台的商品資料、靜態前端與 Pages 發布流程"
+  default_prompt: "Use $home-appliance-dashboard to maintain product data, static UI behavior, and GitHub Pages release checks."

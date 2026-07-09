@@ -2,6 +2,15 @@
   const root = typeof window === "undefined" ? globalThis : window;
   const dashboard = root.applianceDashboard || {};
 
+  const meta = {
+    dataDate: "2026-07-09",
+    costcoDate: "2026-07-09",
+    expectedCategoryCount: 25,
+    expectedProductCount: 656,
+    cacheVersion: "20260709-historical-low-v2",
+    exchangeSummary: "USD 1 = TWD 32.128",
+  };
+
   const exchange = {
     source: "ExchangeRate-API",
     date: "2026-07-08 00:02 UTC",
@@ -57,7 +66,7 @@
     initialProductLimit: 12,
     loadMoreProductCount: 40,
     filterControlNames: ["category", "brand", "budget", "channel", "sort"],
-    cacheVersion: "20260709-historical-low-v2",
+    cacheVersion: meta.cacheVersion,
   };
 
   function registerProducts(categoryId, items) {
@@ -68,6 +77,7 @@
   }
 
   Object.assign(dashboard, {
+    meta,
     exchange,
     categories,
     products,

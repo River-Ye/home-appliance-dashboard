@@ -53,8 +53,14 @@ jobs:
       - name: Check syntax
         run: npm run check:syntax
 
+      - name: Check logic
+        run: npm run check:logic
+
       - name: Check data
         run: npm run check:data
+
+      - name: Check docs
+        run: npm run check:docs
 
       - name: Check UI
         run: npm run check:ui
