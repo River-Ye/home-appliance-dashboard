@@ -950,6 +950,102 @@
       "冷熱"
     ],
     "releaseDate": "找不到"
+  },
+  {
+    "id": "blender-costco-ninja-tb401tw",
+    "category": "blender",
+    "rank": 22,
+    "budget": "value",
+    "channel": "tw",
+    "brand": "Ninja",
+    "model": "TB401TW",
+    "name": "Detect 多功能調理機",
+    "price": {
+      "currency": "TWD",
+      "amount": 9999,
+      "converted": 9999,
+      "confidence": "Costco 好市多 2026-07-09 查核價"
+    },
+    "image": "https://www.costco.com.tw/medias/sys_master/images/he0/hb8/400499548815390.jpg",
+    "buyUrl": "https://www.costco.com.tw/Televisions-Appliances/Kitchen-Appliances/Coffee-Machines-Blenders-Juicers/Ninja-Detect-Food-Processor-TB401TW/p/156889",
+    "buyLabel": "Costco 好市多",
+    "specs": [
+      "2.1L 調理壺 / 1.9L 調理碗 / 700ml 隨行杯",
+      "1200W",
+      "110V / 60Hz",
+      "重量：約6.5公斤",
+      "Costco 評價 4.8 / 6 則"
+    ],
+    "description": "Costco 評價不錯的多功能調理機候選，兼具大容量調理壺、調理碗與隨行杯，補進高馬力食物處理比較。",
+    "pros": [
+      "1200W 與多容器配置用途彈性高",
+      "好市多正常新品頁且評分高"
+    ],
+    "cons": [
+      "評論數未達標準門檻，屬稀少候選",
+      "體積與配件收納需預留空間"
+    ],
+    "bestFor": "想同時處理冰沙、醬料、切碎與隨行杯飲品的人。",
+    "recommendation": "好市多補充推薦：Detect 多功能調理機 評價不錯，補進破壁機分類作為 Costco 候選比較。",
+    "score": 87,
+    "voltage": "110V / 60Hz",
+    "warranty": "依 Costco 好市多商品頁與品牌 1 年保固標示",
+    "tags": [
+      "Costco",
+      "好市多",
+      "Ninja",
+      "多功能調理",
+      "1200W"
+    ],
+    "releaseDate": "找不到"
+  },
+  {
+    "id": "blender-costco-vitamix-e310",
+    "category": "blender",
+    "rank": 23,
+    "budget": "premium",
+    "channel": "tw",
+    "brand": "Vitamix",
+    "model": "E310",
+    "name": "全營養調理機",
+    "price": {
+      "currency": "TWD",
+      "amount": 15999,
+      "converted": 15999,
+      "confidence": "Costco 好市多 2026-07-09 查核價"
+    },
+    "image": "https://www.costco.com.tw/medias/sys_master/images/h7b/ha9/363704945115166.jpg",
+    "buyUrl": "https://www.costco.com.tw/Televisions-Appliances/Kitchen-Appliances/Coffee-Machines-Blenders-Juicers/Vitamix-Blender-E310/p/153290",
+    "buyLabel": "Costco 好市多",
+    "specs": [
+      "1.4L 容杯",
+      "1200W",
+      "110V / 50-60Hz",
+      "美國製",
+      "Costco 評價 4.7 / 18 則"
+    ],
+    "description": "Costco 評價不錯的調理機候選，依容量、馬力與用途補進比較。",
+    "pros": [
+      "品牌與用途明確",
+      "通路與價格清楚"
+    ],
+    "cons": [
+      "容量與功能取向差異大",
+      "耗材與保固需確認"
+    ],
+    "bestFor": "想做豆漿、冰沙、濃湯或高馬力調理的人",
+    "recommendation": "好市多補充推薦：全營養調理機 評價不錯，補進破壁機分類作為 Costco 候選比較。",
+    "score": 88,
+    "voltage": "110V / 50-60Hz",
+    "warranty": "依 Costco 好市多商品頁與品牌 5 年保固標示",
+    "tags": [
+      "Costco",
+      "好市多",
+      "Vitamix",
+      "破壁機",
+      "高馬力"
+    ],
+    "releaseDate": "找不到"
   }
 ]);
 })();

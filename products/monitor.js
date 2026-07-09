@@ -2516,6 +2516,102 @@
       "文書"
     ],
     "releaseDate": "找不到"
+  },
+  {
+    "id": "monitor-costco-acer-ed270-p0",
+    "category": "monitor",
+    "rank": 53,
+    "budget": "value",
+    "channel": "tw",
+    "brand": "Acer",
+    "model": "ED270 P0",
+    "name": "Nitro 27 吋 FHD 曲面電競螢幕",
+    "price": {
+      "currency": "TWD",
+      "amount": 3499,
+      "converted": 3499,
+      "confidence": "Costco 好市多 2026-07-09 查核價"
+    },
+    "image": "https://www.costco.com.tw/medias/sys_master/images/h51/h54/386020452630558.jpg",
+    "buyUrl": "https://www.costco.com.tw/Digital-Mobile/Laptops-Computers/Monitors/Acer-Nitro-27-inch-Gaming-Curved-Monitor-ED270-P0/p/156545",
+    "buyLabel": "Costco 好市多",
+    "specs": [
+      "27 吋 VA 曲面",
+      "1920 x 1080",
+      "重量：5.5公斤",
+      "3 年保固",
+      "Costco 評價 4.8 / 74 則"
+    ],
+    "description": "Costco 評價不錯的螢幕候選，依尺寸、解析度、重量與支架承重補進比較。",
+    "pros": [
+      "價格與評價具參考性",
+      "重量資訊清楚"
+    ],
+    "cons": [
+      "裝懸臂支架前需確認 VESA 與重量",
+      "低價款面板與解析度有取捨"
+    ],
+    "bestFor": "想在好市多買文書、遊戲或 4K 螢幕的人",
+    "recommendation": "好市多補充推薦：Nitro 27 吋 FHD 曲面電競螢幕 評價不錯，補進電腦螢幕分類作為 Costco 候選比較。",
+    "score": 84,
+    "voltage": "依 Costco 商品頁與電源供應器標示；螢幕需確認 VESA 與支架承重",
+    "warranty": "依 Costco 好市多商品頁與品牌 3 年保固標示",
+    "tags": [
+      "Costco",
+      "好市多",
+      "27吋",
+      "曲面",
+      "FHD"
+    ],
+    "releaseDate": "找不到"
+  },
+  {
+    "id": "monitor-costco-samsung-s32d706eac",
+    "category": "monitor",
+    "rank": 54,
+    "budget": "mid",
+    "channel": "tw",
+    "brand": "Samsung",
+    "model": "S32D706EAC",
+    "name": "ViewFinity S7 32 吋 UHD 平面顯示器",
+    "price": {
+      "currency": "TWD",
+      "amount": 8199,
+      "converted": 8199,
+      "confidence": "Costco 好市多 2026-07-09 查核價"
+    },
+    "image": "https://www.costco.com.tw/medias/sys_master/images/hac/h33/274515179241502.jpg",
+    "buyUrl": "https://www.costco.com.tw/Digital-Mobile/Laptops-Computers/Monitors/Samsung-ViewFinity-S7-32-inch-UHD-Monitor-S32D706EAC/p/147917",
+    "buyLabel": "Costco 好市多",
+    "specs": [
+      "32 吋 VA",
+      "4K (3840 x 2160)",
+      "重量：8公斤",
+      "AC 100-240V",
+      "Costco 評價 4.5 / 31 則"
+    ],
+    "description": "Costco 評價不錯的螢幕候選，依尺寸、解析度、重量與支架承重補進比較。",
+    "pros": [
+      "價格與評價具參考性",
+      "重量資訊清楚"
+    ],
+    "cons": [
+      "裝懸臂支架前需確認 VESA 與重量",
+      "低價款面板與解析度有取捨"
+    ],
+    "bestFor": "想在好市多買文書、遊戲或 4K 螢幕的人",
+    "recommendation": "好市多補充推薦：ViewFinity S7 32 吋 UHD 平面顯示器 評價不錯，補進電腦螢幕分類作為 Costco 候選比較。",
+    "score": 87,
+    "voltage": "AC 100-240V；螢幕需確認 VESA 與支架承重",
+    "warranty": "依 Costco 好市多商品頁與品牌 3 年保固標示",
+    "tags": [
+      "Costco",
+      "好市多",
+      "32吋",
+      "4K",
+      "生產力"
+    ],
+    "releaseDate": "找不到"
   }
   ]);
 })();

@@ -971,6 +971,104 @@
       "QLED"
     ],
     "releaseDate": "找不到"
+  },
+  {
+    "id": "tv-costco-tcl-65c8k",
+    "category": "tv",
+    "rank": 22,
+    "budget": "premium",
+    "channel": "tw",
+    "brand": "TCL",
+    "model": "65C8K",
+    "name": "65 吋 C8K QD-Mini LED Google TV 顯示器",
+    "price": {
+      "currency": "TWD",
+      "amount": 45999,
+      "converted": 45999,
+      "confidence": "Costco 好市多 2026-07-09 查核價"
+    },
+    "image": "https://www.costco.com.tw/medias/sys_master/images/h2d/ha5/438072223236126.jpg",
+    "buyUrl": "https://www.costco.com.tw/Televisions-Appliances/TV-Home-Entertainment/Televisions-TV-Accessories/60-69-TVs/TCL-65-inch-premium-QD-Mini-LED-Google-TV-Smart-Monitor-without-STB-65C8K/p/154789",
+    "buyLabel": "Costco 好市多",
+    "specs": [
+      "65 吋 QD-Mini LED",
+      "4K / Google TV",
+      "Dolby Atmos",
+      "重量：30.6公斤",
+      "手機投影：通路頁未標示",
+      "Costco 評價 4.8 / 32 則"
+    ],
+    "description": "Costco 評價不錯的大尺寸顯示器候選，補進既有電視比較池但不取代 Top Pick。",
+    "pros": [
+      "Costco 評分與評論數具參考性",
+      "好市多正常新品頁"
+    ],
+    "cons": [
+      "大尺寸需確認擺放、壁掛與搬運",
+      "手機投影能力若未標示則不猜測"
+    ],
+    "bestFor": "想從好市多挑大尺寸電視並和既有高階款比較的人",
+    "recommendation": "好市多補充推薦：65 吋 C8K QD-Mini LED Google TV 顯示器 評價不錯，補進電視分類作為 Costco 候選比較。",
+    "score": 89,
+    "voltage": "100-240V；台灣好市多通路",
+    "warranty": "依 Costco 好市多商品頁與品牌 3 年保固標示",
+    "tags": [
+      "Costco",
+      "好市多",
+      "Mini LED",
+      "Google TV",
+      "65吋"
+    ],
+    "releaseDate": "找不到"
+  },
+  {
+    "id": "tv-costco-hisense-75q7n",
+    "category": "tv",
+    "rank": 23,
+    "budget": "premium",
+    "channel": "tw",
+    "brand": "Hisense",
+    "model": "75Q7N",
+    "name": "75 吋 Q7N 4K 144Hz QLED 智慧顯示器",
+    "price": {
+      "currency": "TWD",
+      "amount": 37799,
+      "converted": 37799,
+      "confidence": "Costco 好市多 2026-07-09 查核價"
+    },
+    "image": "https://www.costco.com.tw/medias/sys_master/images/h4e/h03/438072156979230.jpg",
+    "buyUrl": "https://www.costco.com.tw/Televisions-Appliances/TV-Home-Entertainment/Televisions-TV-Accessories/70-79-TVs/Hisense-75-inch-4K-144Hz-HSR240-Full-Array-QLED-with-Dolby-VisionDolby-Atmos-VIDDA-Smart-Monitor-75Q7N/p/151005",
+    "buyLabel": "Costco 好市多",
+    "specs": [
+      "75 吋 QLED",
+      "4K 144Hz / VIDDA",
+      "Dolby Vision / Dolby Atmos",
+      "重量：28.9公斤（不含底座）",
+      "手機投影：通路頁未標示",
+      "Costco 評價 5 / 10 則"
+    ],
+    "description": "Costco 評價不錯的大尺寸顯示器候選，補進既有電視比較池但不取代 Top Pick。",
+    "pros": [
+      "Costco 評分與評論數具參考性",
+      "好市多正常新品頁"
+    ],
+    "cons": [
+      "大尺寸需確認擺放、壁掛與搬運",
+      "手機投影能力若未標示則不猜測"
+    ],
+    "bestFor": "想從好市多挑大尺寸電視並和既有高階款比較的人",
+    "recommendation": "好市多補充推薦：75 吋 Q7N 4K 144Hz QLED 智慧顯示器 評價不錯，補進電視分類作為 Costco 候選比較。",
+    "score": 86,
+    "voltage": "110V / 50-60Hz；台灣好市多通路",
+    "warranty": "依 Costco 好市多商品頁與品牌 2 年保固標示",
+    "tags": [
+      "Costco",
+      "好市多",
+      "75吋",
+      "QLED",
+      "大尺寸"
+    ],
+    "releaseDate": "找不到"
   }
   ]);
 })();

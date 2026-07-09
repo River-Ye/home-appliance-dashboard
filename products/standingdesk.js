@@ -986,6 +986,102 @@
       "玻璃桌面"
     ],
     "releaseDate": "找不到"
+  },
+  {
+    "id": "standingdesk-costco-backbone-dyback-lite",
+    "category": "standingdesk",
+    "rank": 22,
+    "budget": "mid",
+    "channel": "tw",
+    "brand": "Backbone",
+    "model": "Dyback Lite 100x60",
+    "name": "Dyback Lite 電動升降桌 100 x 60 公分",
+    "price": {
+      "currency": "TWD",
+      "amount": 6699,
+      "converted": 6699,
+      "confidence": "Costco 好市多 2026-07-09 查核價"
+    },
+    "image": "https://www.costco.com.tw/medias/sys_master/images/h73/h6d/345529950470174.jpg",
+    "buyUrl": "https://www.costco.com.tw/Furniture-Kitchen/Furniture/Computer-Desk-Chair-Sets/Backbone-Dyback-Lite-Adjustable-Desk-100-cm-X-60-cm/p/149174",
+    "buyLabel": "Costco 好市多",
+    "specs": [
+      "100 x 60 公分",
+      "升降 72-118 公分",
+      "桌板厚度：未標示",
+      "重量：約16.8公斤",
+      "Costco 評價 5 / 14 則"
+    ],
+    "description": "Costco 評價不錯的升降桌候選，補進桌面尺寸、承重與桌板厚度比較。",
+    "pros": [
+      "完整桌面方案",
+      "好市多正常新品頁"
+    ],
+    "cons": [
+      "桌板厚度未標示需確認",
+      "夾螢幕支架前要看承重與厚度"
+    ],
+    "bestFor": "想從好市多買完整電動升降桌的人",
+    "recommendation": "好市多補充推薦：Dyback Lite 電動升降桌 100 x 60 公分 評價不錯，補進升降桌分類作為 Costco 候選比較。",
+    "score": 84,
+    "voltage": "通路頁未標示；升降桌需確認電源線、承重與插座位置",
+    "warranty": "依 Costco 好市多商品頁與品牌保固標示",
+    "tags": [
+      "Costco",
+      "好市多",
+      "100x60",
+      "小空間",
+      "桌板厚度未標示"
+    ],
+    "releaseDate": "找不到"
+  },
+  {
+    "id": "standingdesk-costco-flexispot-get156e",
+    "category": "standingdesk",
+    "rank": 23,
+    "budget": "mid",
+    "channel": "tw",
+    "brand": "FlexiSpot",
+    "model": "GET156E-14070",
+    "name": "GET156E 140 x 70 公分電動升降桌",
+    "price": {
+      "currency": "TWD",
+      "amount": 5489,
+      "converted": 5489,
+      "confidence": "Costco 好市多 2026-07-09 查核價"
+    },
+    "image": "https://www.costco.com.tw/medias/sys_master/images/h8a/h61/386020263100446.jpg",
+    "buyUrl": "https://www.costco.com.tw/Furniture-Kitchen/Furniture/Computer-Desk-Chair-Sets/FlexiSpot-Adjustable-Desk-GET156E-14070/p/156015",
+    "buyLabel": "Costco 好市多",
+    "specs": [
+      "140 x 70 公分",
+      "升降 73.5-117 公分",
+      "承重 50 公斤",
+      "桌板厚度：未標示",
+      "Costco 評價 4.9 / 16 則"
+    ],
+    "description": "Costco 評價不錯的升降桌候選，補進桌面尺寸、承重與桌板厚度比較。",
+    "pros": [
+      "完整桌面方案",
+      "好市多正常新品頁"
+    ],
+    "cons": [
+      "桌板厚度未標示需確認",
+      "夾螢幕支架前要看承重與厚度"
+    ],
+    "bestFor": "想從好市多買完整電動升降桌的人",
+    "recommendation": "好市多補充推薦：GET156E 140 x 70 公分電動升降桌 評價不錯，補進升降桌分類作為 Costco 候選比較。",
+    "score": 85,
+    "voltage": "100-240V / 50-60Hz",
+    "warranty": "依 Costco 好市多商品頁與品牌保固標示",
+    "tags": [
+      "Costco",
+      "好市多",
+      "140x70",
+      "50kg承重",
+      "桌板厚度未標示"
+    ],
+    "releaseDate": "找不到"
   }
 ]);
 })();

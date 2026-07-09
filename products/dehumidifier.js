@@ -951,6 +951,102 @@
       "清淨除濕"
     ],
     "releaseDate": "找不到"
+  },
+  {
+    "id": "dehumidifier-costco-3m-fd-y200l",
+    "category": "dehumidifier",
+    "rank": 22,
+    "budget": "mid",
+    "channel": "tw",
+    "brand": "3M",
+    "model": "FD-Y200L",
+    "name": "20 公升雙效空氣清淨除濕機",
+    "price": {
+      "currency": "TWD",
+      "amount": 16989,
+      "converted": 16989,
+      "confidence": "Costco 好市多 2026-07-09 查核價"
+    },
+    "image": "https://www.costco.com.tw/medias/sys_master/images/hf8/hd0/64882598379550.jpg",
+    "buyUrl": "https://www.costco.com.tw/Televisions-Appliances/Cooling-Heating-Air-Treatment/Dehumidifiers-Dry-Cabinets/3M-Filtrete-20-L-Air-Purifier-Dehumidifier-FD-Y200L/p/133200",
+    "buyLabel": "Costco 好市多",
+    "specs": [
+      "20 公升/日",
+      "水箱 6.2 公升",
+      "110V / 60Hz",
+      "能源因數 2.67 L/kWh",
+      "Costco 評價 4.6 / 284 則"
+    ],
+    "description": "Costco 評價不錯的除濕機候選，依除濕量、坪數、能效與水箱容量補進比較。",
+    "pros": [
+      "除濕量與電壓資訊清楚",
+      "Costco 評論數具參考性"
+    ],
+    "cons": [
+      "機身重量與排水要確認",
+      "清淨複合款需注意濾材成本"
+    ],
+    "bestFor": "潮濕住家、衣物乾燥或大坪數除濕需求的人",
+    "recommendation": "好市多補充推薦：20 公升雙效空氣清淨除濕機 評價不錯，補進除濕機分類作為 Costco 候選比較。",
+    "score": 89,
+    "voltage": "110V / 60Hz",
+    "warranty": "依 Costco 好市多商品頁與品牌 1 年保固標示",
+    "tags": [
+      "Costco",
+      "好市多",
+      "20L",
+      "空氣清淨",
+      "高評論數"
+    ],
+    "releaseDate": "找不到"
+  },
+  {
+    "id": "dehumidifier-costco-hitachi-rd460vc",
+    "category": "dehumidifier",
+    "rank": 23,
+    "budget": "premium",
+    "channel": "tw",
+    "brand": "HITACHI",
+    "model": "RD-460VC",
+    "name": "23 公升超變頻清淨除濕機",
+    "price": {
+      "currency": "TWD",
+      "amount": 23199,
+      "converted": 23199,
+      "confidence": "Costco 好市多 2026-07-09 查核價"
+    },
+    "image": "https://www.costco.com.tw/medias/sys_master/images/h2d/h02/421140862271518.jpg",
+    "buyUrl": "https://www.costco.com.tw/Televisions-Appliances/Cooling-Heating-Air-Treatment/Dehumidifiers-Dry-Cabinets/Hitachi-23-L-Air-Purifying-Dehumidifier-RD-460VC/p/152926",
+    "buyLabel": "Costco 好市多",
+    "specs": [
+      "23 公升/日",
+      "約 19-21 坪",
+      "110V / 60Hz",
+      "一級能效",
+      "Costco 評價 4.5 / 33 則"
+    ],
+    "description": "Costco 評價不錯的除濕機候選，依除濕量、坪數、能效與水箱容量補進比較。",
+    "pros": [
+      "除濕量與電壓資訊清楚",
+      "Costco 評論數具參考性"
+    ],
+    "cons": [
+      "機身重量與排水要確認",
+      "清淨複合款需注意濾材成本"
+    ],
+    "bestFor": "潮濕住家、衣物乾燥或大坪數除濕需求的人",
+    "recommendation": "好市多補充推薦：23 公升超變頻清淨除濕機 評價不錯，補進除濕機分類作為 Costco 候選比較。",
+    "score": 88,
+    "voltage": "110V / 60Hz",
+    "warranty": "依 Costco 好市多商品頁與品牌 3 年保固標示",
+    "tags": [
+      "Costco",
+      "好市多",
+      "23L",
+      "變頻",
+      "一級能效"
+    ],
+    "releaseDate": "找不到"
   }
   ]);
 })();

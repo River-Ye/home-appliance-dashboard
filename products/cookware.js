@@ -1030,6 +1030,102 @@
       "鐵鍋"
     ],
     "releaseDate": "找不到"
+  },
+  {
+    "id": "cookware-costco-circulon-a1-26cm",
+    "category": "cookware",
+    "rank": 22,
+    "budget": "value",
+    "channel": "tw",
+    "brand": "Circulon",
+    "model": "A1 Saute Pan 26cm",
+    "name": "A1 極致抗刮不沾單柄深煎鍋 26 公分",
+    "price": {
+      "currency": "TWD",
+      "amount": 2699,
+      "converted": 2699,
+      "confidence": "Costco 好市多 2026-07-09 查核價"
+    },
+    "image": "https://www.costco.com.tw/medias/sys_master/images/h82/h10/325943411802142.jpg",
+    "buyUrl": "https://www.costco.com.tw/Furniture-Kitchen/Kitchen-Dining/Cookware-Cutlery-Cutting-Boards/Circulon-A1-Non-Stick-Saute-Pan-With-Glass-Lid-26-cm/p/151585",
+    "buyLabel": "Costco 好市多",
+    "specs": [
+      "26 公分深煎鍋",
+      "約 4.35 公升",
+      "含玻璃上蓋",
+      "適用多種爐具",
+      "Costco 評價 5 / 32 則"
+    ],
+    "description": "Costco 評價不錯的鍋具候選，排除配件與耗材，只補正常新品鍋具。",
+    "pros": [
+      "用途明確",
+      "價格與評價具參考性"
+    ],
+    "cons": [
+      "不沾塗層需按說明保養",
+      "爐具相容性需確認"
+    ],
+    "bestFor": "想從好市多補鍋具並重視實用性的人",
+    "recommendation": "好市多補充推薦：A1 極致抗刮不沾單柄深煎鍋 26 公分 評價不錯，補進鍋具分類作為 Costco 候選比較。",
+    "score": 87,
+    "voltage": "不適用；需確認瓦斯爐、電陶爐、IH 等爐具相容性",
+    "warranty": "依 Costco 好市多商品頁與品牌保固標示",
+    "tags": [
+      "Costco",
+      "好市多",
+      "不沾鍋",
+      "26cm",
+      "深煎鍋"
+    ],
+    "releaseDate": "找不到"
+  },
+  {
+    "id": "cookware-costco-tefal-ingenio-6pc",
+    "category": "cookware",
+    "rank": 23,
+    "budget": "mid",
+    "channel": "tw",
+    "brand": "Tefal",
+    "model": "Ingenio 6-Piece Set",
+    "name": "巧變精靈系列鍋具含蓋 6 件組",
+    "price": {
+      "currency": "TWD",
+      "amount": 3999,
+      "converted": 3999,
+      "confidence": "Costco 好市多 2026-07-09 查核價"
+    },
+    "image": "https://www.costco.com.tw/medias/sys_master/images/h61/h4b/367883333861406.jpg",
+    "buyUrl": "https://www.costco.com.tw/Furniture-Kitchen/Kitchen-Dining/Cookware-Cutlery-Cutting-Boards/Tefal-Ingenio-Non-Stick-Cookware-with-Lid-6-Piece-Set-Milk-Tea-Pink/p/141472",
+    "buyLabel": "Costco 好市多",
+    "specs": [
+      "28cm 平底鍋",
+      "26cm 炒鍋",
+      "18cm 湯鍋",
+      "可拆式把手",
+      "Costco 評價 5 / 6 則"
+    ],
+    "description": "Costco 評價不錯的鍋具候選，排除配件與耗材，只補正常新品鍋具。",
+    "pros": [
+      "用途明確",
+      "價格與評價具參考性"
+    ],
+    "cons": [
+      "不沾塗層需按說明保養",
+      "爐具相容性需確認"
+    ],
+    "bestFor": "想從好市多補鍋具並重視實用性的人",
+    "recommendation": "好市多補充推薦：巧變精靈系列鍋具含蓋 6 件組 評價不錯，補進鍋具分類作為 Costco 候選比較。",
+    "score": 84,
+    "voltage": "不適用；適用爐具需依 Costco 商品頁標示確認",
+    "warranty": "依 Costco 好市多商品頁與品牌保固標示",
+    "tags": [
+      "Costco",
+      "好市多",
+      "鍋具組",
+      "可拆把手",
+      "不沾"
+    ],
+    "releaseDate": "找不到"
   }
 ]);
 })();

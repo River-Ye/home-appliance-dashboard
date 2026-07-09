@@ -1310,6 +1310,54 @@
       "海外參考"
     ],
     "releaseDate": "找不到"
+  },
+  {
+    "id": "robot-costco-eufy-e20",
+    "category": "robot",
+    "rank": 30,
+    "budget": "mid",
+    "channel": "tw",
+    "brand": "eufy",
+    "model": "E20",
+    "name": "三合一掃地機器人",
+    "price": {
+      "currency": "TWD",
+      "amount": 9889,
+      "converted": 9889,
+      "confidence": "Costco 好市多 2026-07-09 查核價"
+    },
+    "image": "https://www.costco.com.tw/medias/sys_master/images/h21/heb/400747429363742.jpg",
+    "buyUrl": "https://www.costco.com.tw/Televisions-Appliances/Small-Appliances/Vacuums-Floor-Care/Eufy-3-in-1-Robot-Vacuum-E20/p/157135",
+    "buyLabel": "Costco 好市多",
+    "specs": [
+      "三合一掃地機器人",
+      "100-120V / 50-60Hz",
+      "集塵基站",
+      "Costco 稀少分類例外候選",
+      "Costco 評價 4.1 / 14 則"
+    ],
+    "description": "Costco Taiwan 少數可買的掃地機器人候選，補進海外 Costco 與台灣通路比較。",
+    "pros": [
+      "台灣好市多正常新品頁",
+      "價格低於多數旗艦掃拖機"
+    ],
+    "cons": [
+      "評分不如高階旗艦",
+      "功能與避障需和主流旗艦比較"
+    ],
+    "bestFor": "想在好市多買掃地機器人、並可接受中階定位的人",
+    "recommendation": "好市多補充推薦：三合一掃地機器人 評價不錯，補進掃拖機器人分類作為 Costco 候選比較。",
+    "score": 82,
+    "voltage": "100-120V / 50-60Hz",
+    "warranty": "依 Costco 好市多商品頁與品牌 1 年保固標示",
+    "tags": [
+      "Costco",
+      "好市多",
+      "eufy",
+      "集塵",
+      "中階"
+    ],
+    "releaseDate": "找不到"
   }
 ]);
 })();

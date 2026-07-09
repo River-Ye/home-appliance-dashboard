@@ -950,6 +950,102 @@
       "小型"
     ],
     "releaseDate": "找不到"
+  },
+  {
+    "id": "oven-costco-gourmia-gaf858",
+    "category": "oven",
+    "rank": 22,
+    "budget": "value",
+    "channel": "tw",
+    "brand": "Gourmia",
+    "model": "GAF858",
+    "name": "數位氣炸鍋",
+    "price": {
+      "currency": "TWD",
+      "amount": 1749,
+      "converted": 1749,
+      "confidence": "Costco 好市多 2026-07-09 查核價"
+    },
+    "image": "https://www.costco.com.tw/medias/sys_master/images/hd8/h30/308063201099806.jpg",
+    "buyUrl": "https://www.costco.com.tw/Televisions-Appliances/Kitchen-Appliances/Cookers-Oven-Microwaves-Food-Waste-Machine/Gourmia-Digital-Air-Fryer-GAF858/p/6232432",
+    "buyLabel": "Costco 好市多",
+    "specs": [
+      "8qt / 7.5L",
+      "110V / 60Hz",
+      "1650W",
+      "含蒸烤架與酥脆烤盤",
+      "Costco 評價 4.7 / 160 則"
+    ],
+    "description": "Costco 評價不錯的多功能烹調家電候選，依容量、功能與檯面空間補進比較。",
+    "pros": [
+      "評價與評論數達標",
+      "功能定位清楚"
+    ],
+    "cons": [
+      "需要預留散熱與清潔空間",
+      "多功能機學習成本較高"
+    ],
+    "bestFor": "家電櫃有限、想整合氣炸、烘烤或蒸烤的人",
+    "recommendation": "好市多補充推薦：數位氣炸鍋 評價不錯，補進多功能氣炸烤箱/微波爐分類作為 Costco 候選比較。",
+    "score": 87,
+    "voltage": "110V / 60Hz",
+    "warranty": "依 Costco 好市多商品頁與品牌保固標示",
+    "tags": [
+      "Costco",
+      "好市多",
+      "氣炸鍋",
+      "7.5L",
+      "平價"
+    ],
+    "releaseDate": "找不到"
+  },
+  {
+    "id": "oven-costco-sharp-ax-as10t",
+    "category": "oven",
+    "rank": 23,
+    "budget": "premium",
+    "channel": "tw",
+    "brand": "SHARP",
+    "model": "AX-AS10T(W)",
+    "name": "26 公升水波爐",
+    "price": {
+      "currency": "TWD",
+      "amount": 19999,
+      "converted": 19999,
+      "confidence": "Costco 好市多 2026-07-09 查核價"
+    },
+    "image": "https://www.costco.com.tw/medias/sys_master/images/h0f/hf9/206736935813150.jpg",
+    "buyUrl": "https://www.costco.com.tw/Televisions-Appliances/Kitchen-Appliances/Cookers-Oven-Microwaves-Food-Waste-Machine/SHARP-26-L-Healsio-Water-Oven-AX-AS10TW/p/143973",
+    "buyLabel": "Costco 好市多",
+    "specs": [
+      "26L",
+      "水波爐 / 蒸烤",
+      "110V / 60Hz",
+      "800-1430W",
+      "Costco 評價 4.7 / 45 則"
+    ],
+    "description": "Costco 評價不錯的多功能烹調家電候選，依容量、功能與檯面空間補進比較。",
+    "pros": [
+      "評價與評論數達標",
+      "功能定位清楚"
+    ],
+    "cons": [
+      "需要預留散熱與清潔空間",
+      "多功能機學習成本較高"
+    ],
+    "bestFor": "家電櫃有限、想整合氣炸、烘烤或蒸烤的人",
+    "recommendation": "好市多補充推薦：26 公升水波爐 評價不錯，補進多功能氣炸烤箱/微波爐分類作為 Costco 候選比較。",
+    "score": 88,
+    "voltage": "110V / 60Hz",
+    "warranty": "依 Costco 好市多商品頁與品牌全機 1 年保固標示",
+    "tags": [
+      "Costco",
+      "好市多",
+      "水波爐",
+      "蒸烤",
+      "26L"
+    ],
+    "releaseDate": "找不到"
   }
 ]);
 })();

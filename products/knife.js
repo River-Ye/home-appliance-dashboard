@@ -1027,6 +1027,54 @@
       "入門"
     ],
     "releaseDate": "找不到"
+  },
+  {
+    "id": "knife-costco-3m-scotch-kitchen-scissors-2pc",
+    "category": "knife",
+    "rank": 22,
+    "budget": "value",
+    "channel": "tw",
+    "brand": "3M Scotch",
+    "model": "Titanium Kitchen Scissors 2-Piece",
+    "name": "鈦金屬舒適寬柄可拆式料理剪刀 2 入組",
+    "price": {
+      "currency": "TWD",
+      "amount": 559,
+      "converted": 559,
+      "confidence": "Costco 好市多 2026-07-09 查核價"
+    },
+    "image": "https://www.costco.com.tw/medias/sys_master/images/hc6/had/255946337517598.jpg",
+    "buyUrl": "https://www.costco.com.tw/Furniture-Kitchen/Kitchen-Dining/Cookware-Cutlery-Cutting-Boards/3M-Scotch-Titanium-Wide-Handle-Kitchen-Scissors-2-Piece-Set/p/144921",
+    "buyLabel": "Costco 好市多",
+    "specs": [
+      "料理剪刀 2 入",
+      "鈦金屬刀刃",
+      "可拆式清潔",
+      "單把約 292 公克",
+      "Costco 評價 4.9 / 39 則"
+    ],
+    "description": "Costco 評價不錯的廚房刀剪候選，排除辦公刀具與配件。",
+    "pros": [
+      "評論數達標",
+      "廚房用途明確"
+    ],
+    "cons": [
+      "料理剪刀不能取代主廚刀",
+      "需注意清潔與收納安全"
+    ],
+    "bestFor": "想補廚房剪刀、分用生熟食處理的人",
+    "recommendation": "好市多補充推薦：鈦金屬舒適寬柄可拆式料理剪刀 2 入組 評價不錯，補進刀具分類作為 Costco 候選比較。",
+    "score": 85,
+    "voltage": "不適用；廚房刀剪需注意清潔、防鏽與收納安全",
+    "warranty": "依 Costco 好市多商品頁與品牌保固標示",
+    "tags": [
+      "Costco",
+      "好市多",
+      "料理剪刀",
+      "鈦金屬",
+      "兩入"
+    ],
+    "releaseDate": "找不到"
   }
   ]);
 })();

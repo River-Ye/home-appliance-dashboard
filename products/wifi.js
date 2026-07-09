@@ -2130,6 +2130,102 @@
       "Mesh"
     ],
     "releaseDate": "找不到"
+  },
+  {
+    "id": "wifi-costco-tplink-archer-be3600",
+    "category": "wifi",
+    "rank": 47,
+    "budget": "value",
+    "channel": "tw",
+    "brand": "TP-Link",
+    "model": "Archer BE3600",
+    "name": "BE3600 雙頻 Wi-Fi 7 路由器",
+    "price": {
+      "currency": "TWD",
+      "amount": 2049,
+      "converted": 2049,
+      "confidence": "Costco 好市多 2026-07-09 查核價"
+    },
+    "image": "https://www.costco.com.tw/medias/sys_master/images/h75/h55/366793139191838.jpg",
+    "buyUrl": "https://www.costco.com.tw/Digital-Mobile/Laptops-Computers/Keyboards-Mice-Computer-Accessories/TP-Link-BE3600-Dual-Band-Wi-Fi-7-Router-Archer-BE3600/p/154268",
+    "buyLabel": "Costco 好市多",
+    "specs": [
+      "Wi-Fi 7 / BE3600",
+      "雙頻",
+      "110V",
+      "單台路由器；非 Mesh 套組",
+      "Costco 評價 4.9 / 22 則"
+    ],
+    "description": "Costco 評價不錯的 Wi-Fi 7 路由器候選，補進單台主路由比較。",
+    "pros": [
+      "Wi-Fi 7 規格新",
+      "價格與評價具參考性"
+    ],
+    "cons": [
+      "非完整 Mesh 套組",
+      "多 AP 或商用管理需另規劃"
+    ],
+    "bestFor": "想升級 Wi-Fi 7 並從好市多購買的人",
+    "recommendation": "好市多補充推薦：BE3600 雙頻 Wi-Fi 7 路由器 評價不錯，補進無線路由器分類作為 Costco 候選比較。",
+    "score": 87,
+    "voltage": "110V；需確認家中數據機、NAT 與擺位",
+    "warranty": "依 Costco 好市多商品頁與品牌 3 年保固標示",
+    "tags": [
+      "Costco",
+      "好市多",
+      "Wi-Fi 7",
+      "BE3600",
+      "單台路由器"
+    ],
+    "releaseDate": "找不到"
+  },
+  {
+    "id": "wifi-costco-tplink-archer-be550",
+    "category": "wifi",
+    "rank": 48,
+    "budget": "mid",
+    "channel": "tw",
+    "brand": "TP-Link",
+    "model": "Archer BE550",
+    "name": "BE9300 三頻 Wi-Fi 7 路由器",
+    "price": {
+      "currency": "TWD",
+      "amount": 4699,
+      "converted": 4699,
+      "confidence": "Costco 好市多 2026-07-09 查核價"
+    },
+    "image": "https://www.costco.com.tw/medias/sys_master/images/h31/h45/366793143058462.jpg",
+    "buyUrl": "https://www.costco.com.tw/Digital-Mobile/Laptops-Computers/Keyboards-Mice-Computer-Accessories/TP-Link-BE9300-Tri-Band-Wi-Fi-7-Router-Archer-BE550/p/154270",
+    "buyLabel": "Costco 好市多",
+    "specs": [
+      "Wi-Fi 7 / BE9300",
+      "三頻",
+      "110V",
+      "單台路由器；可搭配相容 Mesh 規劃",
+      "Costco 評價 4.8 / 35 則"
+    ],
+    "description": "Costco 評價不錯的 Wi-Fi 7 路由器候選，補進單台主路由比較。",
+    "pros": [
+      "Wi-Fi 7 規格新",
+      "價格與評價具參考性"
+    ],
+    "cons": [
+      "非完整 Mesh 套組",
+      "多 AP 或商用管理需另規劃"
+    ],
+    "bestFor": "想升級 Wi-Fi 7 並從好市多購買的人",
+    "recommendation": "好市多補充推薦：BE9300 三頻 Wi-Fi 7 路由器 評價不錯，補進無線路由器分類作為 Costco 候選比較。",
+    "score": 89,
+    "voltage": "110V；需確認家中數據機、NAT 與擺位",
+    "warranty": "依 Costco 好市多商品頁與品牌 3 年保固標示",
+    "tags": [
+      "Costco",
+      "好市多",
+      "Wi-Fi 7",
+      "BE9300",
+      "三頻"
+    ],
+    "releaseDate": "找不到"
   }
   ]);
 })();

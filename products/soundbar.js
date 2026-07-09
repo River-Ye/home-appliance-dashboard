@@ -950,6 +950,102 @@
       "重低音"
     ],
     "releaseDate": "找不到"
+  },
+  {
+    "id": "soundbar-costco-philips-tab6309",
+    "category": "soundbar",
+    "rank": 22,
+    "budget": "value",
+    "channel": "tw",
+    "brand": "Philips",
+    "model": "TAB6309",
+    "name": "2.1 聲道無線重低音 Dolby Atmos 聲霸",
+    "price": {
+      "currency": "TWD",
+      "amount": 7599,
+      "converted": 7599,
+      "confidence": "Costco 好市多 2026-07-09 查核價"
+    },
+    "image": "https://www.costco.com.tw/medias/sys_master/images/h84/h32/278946106834974.jpg",
+    "buyUrl": "https://www.costco.com.tw/Televisions-Appliances/TV-Home-Entertainment/Soundbars-Home-Theater/Philips-21-CH-Soundbar-TAB6309/p/147918",
+    "buyLabel": "Costco 好市多",
+    "specs": [
+      "2.1 聲道",
+      "無線重低音",
+      "Dolby Atmos",
+      "主機 30W / 重低音 40W",
+      "Costco 評價 4.6 / 48 則"
+    ],
+    "description": "Costco 評價不錯的聲霸候選，補進聲音升級比較池。",
+    "pros": [
+      "評價穩定且通路清楚",
+      "可補強電視內建喇叭"
+    ],
+    "cons": [
+      "聲道與低頻能力仍需依空間比較",
+      "不一定能取代完整家庭劇院"
+    ],
+    "bestFor": "想在好市多購買聲霸或小型劇院升級的人",
+    "recommendation": "好市多補充推薦：2.1 聲道無線重低音 Dolby Atmos 聲霸 評價不錯，補進Soundbar分類作為 Costco 候選比較。",
+    "score": 87,
+    "voltage": "100-240V AC 50/60Hz",
+    "warranty": "依 Costco 好市多商品頁與品牌 1 年保固標示",
+    "tags": [
+      "Costco",
+      "好市多",
+      "Soundbar",
+      "Atmos",
+      "重低音"
+    ],
+    "releaseDate": "找不到"
+  },
+  {
+    "id": "soundbar-costco-soodatek-ss0220",
+    "category": "soundbar",
+    "rank": 23,
+    "budget": "value",
+    "channel": "tw",
+    "brand": "Soodatek",
+    "model": "SS0220-CS2000PBK",
+    "name": "2.0 聲道二合一分離式聲霸",
+    "price": {
+      "currency": "TWD",
+      "amount": 599,
+      "converted": 599,
+      "confidence": "Costco 好市多 2026-07-09 查核價"
+    },
+    "image": "https://www.costco.com.tw/medias/sys_master/images/h21/hac/367883491278878.jpg",
+    "buyUrl": "https://www.costco.com.tw/Televisions-Appliances/TV-Home-Entertainment/Soundbars-Home-Theater/Soodatek-20Ch-2-in-1-Detachable-Soundbar/p/154302",
+    "buyLabel": "Costco 好市多",
+    "specs": [
+      "2.0 聲道",
+      "二合一分離式設計",
+      "重量：680公克",
+      "Costco 稀少分類例外候選",
+      "Costco 評價 4.6 / 14 則"
+    ],
+    "description": "Costco 評價不錯的聲霸候選，補進聲音升級比較池。",
+    "pros": [
+      "評價穩定且通路清楚",
+      "可補強電視內建喇叭"
+    ],
+    "cons": [
+      "聲道與低頻能力仍需依空間比較",
+      "不一定能取代完整家庭劇院"
+    ],
+    "bestFor": "想在好市多購買聲霸或小型劇院升級的人",
+    "recommendation": "好市多補充推薦：2.0 聲道二合一分離式聲霸 評價不錯，補進Soundbar分類作為 Costco 候選比較。",
+    "score": 81,
+    "voltage": "通路頁未標示；購買前確認電源規格",
+    "warranty": "依 Costco 好市多商品頁與品牌 1 年保固標示",
+    "tags": [
+      "Costco",
+      "好市多",
+      "平價",
+      "2.0聲道",
+      "小空間"
+    ],
+    "releaseDate": "找不到"
   }
 ]);
 })();

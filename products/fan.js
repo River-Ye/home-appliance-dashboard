@@ -950,6 +950,102 @@
       "DC"
     ],
     "releaseDate": "找不到"
+  },
+  {
+    "id": "fan-costco-dewalt-dxf1645a",
+    "category": "fan",
+    "rank": 22,
+    "budget": "value",
+    "channel": "tw",
+    "brand": "DeWALT",
+    "model": "DXF1645A",
+    "name": "40 公分鼓風扇",
+    "price": {
+      "currency": "TWD",
+      "amount": 2999,
+      "converted": 2999,
+      "confidence": "Costco 好市多 2026-07-09 查核價"
+    },
+    "image": "https://www.costco.com.tw/medias/sys_master/images/haf/h40/348867518791710.jpg",
+    "buyUrl": "https://www.costco.com.tw/Televisions-Appliances/Cooling-Heating-Air-Treatment/Heating-Cooling/DeWALT-40-cm-Drum-Fan/p/9631000",
+    "buyLabel": "Costco 好市多",
+    "specs": [
+      "40 公分鼓風扇",
+      "重量：約7.05公斤",
+      "工業風格金屬/PP 結構",
+      "適合車庫、工作間或大空間循環",
+      "Costco 評價 4.8 / 71 則"
+    ],
+    "description": "Costco 評價不錯的電風扇候選，依風量、噪音、收納與空間需求補進比較。",
+    "pros": [
+      "好市多正常新品頁",
+      "價格與評價具參考性"
+    ],
+    "cons": [
+      "需依擺放空間選尺寸",
+      "低價款功能較單純"
+    ],
+    "bestFor": "想在好市多買風扇並重視退貨保障的人",
+    "recommendation": "好市多補充推薦：40 公分鼓風扇 評價不錯，補進電風扇分類作為 Costco 候選比較。",
+    "score": 88,
+    "voltage": "通路頁未標示；購買前確認台灣 110V/60Hz 適用性",
+    "warranty": "依 Costco 好市多商品頁與品牌保固標示",
+    "tags": [
+      "Costco",
+      "好市多",
+      "鼓風扇",
+      "強風量",
+      "工作間"
+    ],
+    "releaseDate": "找不到"
+  },
+  {
+    "id": "fan-costco-airmate-fs35150r",
+    "category": "fan",
+    "rank": 23,
+    "budget": "value",
+    "channel": "tw",
+    "brand": "Airmate",
+    "model": "FS35150R",
+    "name": "14 吋 DC 直流遙控立扇",
+    "price": {
+      "currency": "TWD",
+      "amount": 2099,
+      "converted": 2099,
+      "confidence": "Costco 好市多 2026-07-09 查核價"
+    },
+    "image": "https://www.costco.com.tw/medias/sys_master/images/h33/h32/333377590099998.jpg",
+    "buyUrl": "https://www.costco.com.tw/Televisions-Appliances/Cooling-Heating-Air-Treatment/Heating-Cooling/Airmate-14-inch-DC-Inverter-Stand-Fan-FS35150R/p/149335",
+    "buyLabel": "Costco 好市多",
+    "specs": [
+      "14 吋 DC 立扇",
+      "110V / 60Hz",
+      "32W",
+      "重量：約5.32公斤",
+      "Costco 評價 4.6 / 43 則"
+    ],
+    "description": "Costco 評價不錯的電風扇候選，依風量、噪音、收納與空間需求補進比較。",
+    "pros": [
+      "好市多正常新品頁",
+      "價格與評價具參考性"
+    ],
+    "cons": [
+      "需依擺放空間選尺寸",
+      "低價款功能較單純"
+    ],
+    "bestFor": "想在好市多買風扇並重視退貨保障的人",
+    "recommendation": "好市多補充推薦：14 吋 DC 直流遙控立扇 評價不錯，補進電風扇分類作為 Costco 候選比較。",
+    "score": 87,
+    "voltage": "110V / 60Hz",
+    "warranty": "依 Costco 好市多商品頁與品牌 1 年保固標示",
+    "tags": [
+      "Costco",
+      "好市多",
+      "DC",
+      "立扇",
+      "遙控"
+    ],
+    "releaseDate": "找不到"
   }
   ]);
 })();

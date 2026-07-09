@@ -1089,6 +1089,102 @@
       "12/9公斤"
     ],
     "releaseDate": "找不到"
+  },
+  {
+    "id": "washerdryer-costco-sharp-es-fd13bt",
+    "category": "washerdryer",
+    "rank": 22,
+    "budget": "mid",
+    "channel": "tw",
+    "brand": "SHARP",
+    "model": "ES-FD13BT",
+    "name": "13 公斤 / 8 公斤滾筒洗脫烘衣機",
+    "price": {
+      "currency": "TWD",
+      "amount": 25599,
+      "converted": 25599,
+      "confidence": "Costco 好市多 2026-07-09 查核價"
+    },
+    "image": "https://www.costco.com.tw/medias/sys_master/images/hfb/h3d/420197074894878.jpg",
+    "buyUrl": "https://www.costco.com.tw/Televisions-Appliances/Large-Appliances/Washers-Dryers/Washer-Size-10-15-kg/SHARP-13-kg8-kg-Front-Load-Washer-and-Dryer-Combo-ES-FD13BT/p/155140",
+    "buyLabel": "Costco 好市多",
+    "specs": [
+      "洗衣 13 公斤 / 烘衣 8 公斤",
+      "滾筒式洗脫烘",
+      "110V",
+      "機身重量 86 公斤",
+      "Costco 評價 4.6 / 18 則"
+    ],
+    "description": "Costco 評價不錯的洗脫烘候選，提醒乾衣容量與時間取捨。",
+    "pros": [
+      "一台整合洗衣與烘衣",
+      "容量資訊清楚"
+    ],
+    "cons": [
+      "乾衣容量小於洗衣容量",
+      "全程洗烘時間長、維修成本較高"
+    ],
+    "bestFor": "空間有限但需要洗烘整合的人",
+    "recommendation": "好市多補充推薦：13 公斤 / 8 公斤滾筒洗脫烘衣機 評價不錯，補進洗烘衣機分類作為 Costco 候選比較。",
+    "score": 85,
+    "voltage": "110V；需確認專用插座、進排水、門向與地面水平",
+    "warranty": "依 Costco 好市多商品頁與品牌保固標示",
+    "tags": [
+      "Costco",
+      "好市多",
+      "洗脫烘",
+      "13kg",
+      "8kg烘衣"
+    ],
+    "releaseDate": "找不到"
+  },
+  {
+    "id": "washerdryer-costco-electrolux-eww1123p5wc",
+    "category": "washerdryer",
+    "rank": 23,
+    "budget": "mid",
+    "channel": "tw",
+    "brand": "Electrolux",
+    "model": "EWW1123P5WC",
+    "name": "11 公斤 / 7 公斤 Ultimate Care 500 洗脫烘衣機",
+    "price": {
+      "currency": "TWD",
+      "amount": 24999,
+      "converted": 24999,
+      "confidence": "Costco 好市多 2026-07-09 查核價"
+    },
+    "image": "https://www.costco.com.tw/medias/sys_master/images/h62/h7f/332442479263774.jpg",
+    "buyUrl": "https://www.costco.com.tw/Televisions-Appliances/Large-Appliances/Washers-Dryers/Washer-Size-10-15-kg/Electrolux-11-kg-7-kg-Ultimate-Care-500-Washer-Dryer-EWW1123P5WC/p/151339",
+    "buyLabel": "Costco 好市多",
+    "specs": [
+      "洗衣 11 公斤 / 烘衣 7 公斤",
+      "110V / 60Hz",
+      "金級省水標章",
+      "全機 2 年 / 馬達 10 年",
+      "Costco 評價 4.1 / 15 則"
+    ],
+    "description": "Costco 評價不錯的洗脫烘候選，提醒乾衣容量與時間取捨。",
+    "pros": [
+      "一台整合洗衣與烘衣",
+      "容量資訊清楚"
+    ],
+    "cons": [
+      "乾衣容量小於洗衣容量",
+      "全程洗烘時間長、維修成本較高"
+    ],
+    "bestFor": "空間有限但需要洗烘整合的人",
+    "recommendation": "好市多補充推薦：11 公斤 / 7 公斤 Ultimate Care 500 洗脫烘衣機 評價不錯，補進洗烘衣機分類作為 Costco 候選比較。",
+    "score": 82,
+    "voltage": "110V / 60Hz；需確認專用插座、進排水、門向與地面水平",
+    "warranty": "依 Costco 好市多商品頁，全機 2 年、馬達 10 年標示",
+    "tags": [
+      "Costco",
+      "好市多",
+      "洗脫烘",
+      "11kg",
+      "7kg烘衣"
+    ],
+    "releaseDate": "找不到"
   }
   ]);
 })();

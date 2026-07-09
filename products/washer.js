@@ -1089,6 +1089,102 @@
       "直立式"
     ],
     "releaseDate": "找不到"
+  },
+  {
+    "id": "washer-costco-samsung-wa80f13s5ltw",
+    "category": "washer",
+    "rank": 22,
+    "budget": "mid",
+    "channel": "tw",
+    "brand": "Samsung",
+    "model": "WA80F13S5LTW",
+    "name": "13 公斤 AI 智慧控制直立洗衣機",
+    "price": {
+      "currency": "TWD",
+      "amount": 15999,
+      "converted": 15999,
+      "confidence": "Costco 好市多 2026-07-09 查核價"
+    },
+    "image": "https://www.costco.com.tw/medias/sys_master/images/h82/h09/384281302630430.jpg",
+    "buyUrl": "https://www.costco.com.tw/Televisions-Appliances/Large-Appliances/Washers-Dryers/Washer-Size-10-15-kg/Samsung-13-kg-AI-Top-Load-Washer-WA80F13S5LTW/p/155133",
+    "buyLabel": "Costco 好市多",
+    "specs": [
+      "13 公斤",
+      "直立式",
+      "AI 智慧控制",
+      "馬達 10 年保固",
+      "Costco 評價 4.6 / 28 則"
+    ],
+    "description": "Costco 評價不錯的洗衣機候選，依容量、形式、保固與安裝條件補進比較。",
+    "pros": [
+      "容量與品牌售後清楚",
+      "好市多大型家電通路可比較"
+    ],
+    "cons": [
+      "搬運、門向與進排水需確認",
+      "不含烘衣功能"
+    ],
+    "bestFor": "需要單洗洗衣機並重視安裝保固的人",
+    "recommendation": "好市多補充推薦：13 公斤 AI 智慧控制直立洗衣機 評價不錯，補進洗衣機分類作為 Costco 候選比較。",
+    "score": 87,
+    "voltage": "依 Costco 商品頁與安裝條件確認；大型家電需確認插座、進排水與搬運",
+    "warranty": "依 Costco 好市多商品頁，全機 1 年、馬達 10 年標示",
+    "tags": [
+      "Costco",
+      "好市多",
+      "13kg",
+      "直立式",
+      "AI"
+    ],
+    "releaseDate": "找不到"
+  },
+  {
+    "id": "washer-costco-panasonic-na-v120hw",
+    "category": "washer",
+    "rank": 23,
+    "budget": "mid",
+    "channel": "tw",
+    "brand": "Panasonic",
+    "model": "NA-V120HW",
+    "name": "12 公斤洗脫變頻滾筒洗衣機",
+    "price": {
+      "currency": "TWD",
+      "amount": 20119,
+      "converted": 20119,
+      "confidence": "Costco 好市多 2026-07-09 查核價"
+    },
+    "image": "https://www.costco.com.tw/medias/sys_master/images/he0/h00/103644752314398.jpg",
+    "buyUrl": "https://www.costco.com.tw/Televisions-Appliances/Large-Appliances/Washers-Dryers/Panasonic-12-kg-Inverter-Front-Load-Washer-NA-V120HW/p/136412",
+    "buyLabel": "Costco 好市多",
+    "specs": [
+      "12 公斤",
+      "滾筒式",
+      "110V / 60Hz",
+      "金級省水標章",
+      "Costco 評價 4.5 / 31 則"
+    ],
+    "description": "Costco 評價不錯的洗衣機候選，依容量、形式、保固與安裝條件補進比較。",
+    "pros": [
+      "容量與品牌售後清楚",
+      "好市多大型家電通路可比較"
+    ],
+    "cons": [
+      "搬運、門向與進排水需確認",
+      "不含烘衣功能"
+    ],
+    "bestFor": "需要單洗洗衣機並重視安裝保固的人",
+    "recommendation": "好市多補充推薦：12 公斤洗脫變頻滾筒洗衣機 評價不錯，補進洗衣機分類作為 Costco 候選比較。",
+    "score": 86,
+    "voltage": "110V / 60Hz",
+    "warranty": "依 Costco 好市多商品頁，全機 1 年、馬達 5 年標示",
+    "tags": [
+      "Costco",
+      "好市多",
+      "12kg",
+      "滾筒式",
+      "省水"
+    ],
+    "releaseDate": "找不到"
   }
   ]);
 })();

@@ -2076,6 +2076,102 @@
       "旗艦"
     ],
     "releaseDate": "找不到"
+  },
+  {
+    "id": "smartlock-costco-dormakaba-as701",
+    "category": "smartlock",
+    "rank": 47,
+    "budget": "premium",
+    "channel": "tw",
+    "brand": "dormakaba",
+    "model": "AS701",
+    "name": "四合一智慧推拉式電子鎖",
+    "price": {
+      "currency": "TWD",
+      "amount": 19095,
+      "converted": 19095,
+      "confidence": "Costco 好市多 2026-07-09 查核價"
+    },
+    "image": "https://www.costco.com.tw/medias/sys_master/images/hba/he5/63028705919006.jpg",
+    "buyUrl": "https://www.costco.com.tw/Furniture-Kitchen/Hardware-DIY/Home-Safety/dormakaba-4-in-1-Digital-Door-Lock-AS701/p/128973",
+    "buyLabel": "Costco 好市多",
+    "specs": [
+      "四合一推拉式",
+      "重量：約5.3公斤",
+      "兩年原廠保固",
+      "需確認門厚、門向、鎖體與天地栓",
+      "Costco 評價 4.7 / 14 則"
+    ],
+    "description": "Costco 評價不錯的電子鎖候選，補進門型與安裝條件比較。",
+    "pros": [
+      "品牌鎖具背景明確",
+      "功能比輔助鎖完整"
+    ],
+    "cons": [
+      "評論數屬稀少候選",
+      "門厚、門向、天地栓與安裝費需確認"
+    ],
+    "bestFor": "想在好市多買電子鎖並重視安裝條件的人",
+    "recommendation": "好市多補充推薦：四合一智慧推拉式電子鎖 評價不錯，補進電子鎖分類作為 Costco 候選比較。",
+    "score": 85,
+    "voltage": "多為電池供電；需確認門厚、門向、鎖體、天地栓與安裝條件",
+    "warranty": "依 Costco 好市多商品頁與兩年原廠保固標示",
+    "tags": [
+      "Costco",
+      "好市多",
+      "推拉式",
+      "四合一",
+      "安裝確認"
+    ],
+    "releaseDate": "找不到"
+  },
+  {
+    "id": "smartlock-costco-dormakaba-as901",
+    "category": "smartlock",
+    "rank": 48,
+    "budget": "premium",
+    "channel": "tw",
+    "brand": "dormakaba",
+    "model": "AS901",
+    "name": "AS901 四合一推拉智慧電子鎖",
+    "price": {
+      "currency": "TWD",
+      "amount": 21399,
+      "converted": 21399,
+      "confidence": "Costco 好市多 2026-07-09 查核價"
+    },
+    "image": "https://www.costco.com.tw/medias/sys_master/images/h4d/h33/118693275828254.jpg",
+    "buyUrl": "https://www.costco.com.tw/Furniture-Kitchen/Hardware-DIY/Home-Safety/dormakaba-AS901-4-in-1-Digital-Door-Lock/p/137465",
+    "buyLabel": "Costco 好市多",
+    "specs": [
+      "四合一推拉式",
+      "重量：3.5公斤",
+      "稀少分類例外候選",
+      "需確認門厚、門向、鎖體與天地栓",
+      "Costco 評價 4.2 / 5 則"
+    ],
+    "description": "Costco 評價不錯的電子鎖候選，補進門型與安裝條件比較。",
+    "pros": [
+      "品牌鎖具背景明確",
+      "功能比輔助鎖完整"
+    ],
+    "cons": [
+      "評論數屬稀少候選",
+      "門厚、門向、天地栓與安裝費需確認"
+    ],
+    "bestFor": "想在好市多買電子鎖並重視安裝條件的人",
+    "recommendation": "好市多補充推薦：AS901 四合一推拉智慧電子鎖 評價不錯，補進電子鎖分類作為 Costco 候選比較。",
+    "score": 82,
+    "voltage": "多為電池供電；需確認門厚、門向、鎖體、天地栓與安裝條件",
+    "warranty": "依 Costco 好市多商品頁、品牌保固與安裝條款標示",
+    "tags": [
+      "Costco",
+      "好市多",
+      "推拉式",
+      "四合一",
+      "稀少候選"
+    ],
+    "releaseDate": "找不到"
   }
 ]);
 })();

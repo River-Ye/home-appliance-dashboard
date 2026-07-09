@@ -965,6 +965,102 @@
       "網布"
     ],
     "releaseDate": "找不到"
+  },
+  {
+    "id": "chair-costco-dps-insight",
+    "category": "chair",
+    "rank": 22,
+    "budget": "value",
+    "channel": "tw",
+    "brand": "DPS",
+    "model": "Insight #52851-BLKRED",
+    "name": "Insight 電競椅 黑紅",
+    "price": {
+      "currency": "TWD",
+      "amount": 4389,
+      "converted": 4389,
+      "confidence": "Costco 好市多 2026-07-09 查核價"
+    },
+    "image": "https://www.costco.com.tw/medias/sys_master/images/h6a/hd8/384789238284318.jpg",
+    "buyUrl": "https://www.costco.com.tw/Furniture-Kitchen/Furniture/Computer-Desk-Chair-Sets/True-Innovations-Insight-Gaming-Chair-Black-Red/p/1861987",
+    "buyLabel": "Costco 好市多",
+    "specs": [
+      "電競椅",
+      "高度 116-126 公分",
+      "重量：26.34公斤",
+      "PU / 聚酯 / 金屬結構",
+      "Costco 評價 4.8 / 13 則"
+    ],
+    "description": "Costco 評價不錯的電腦椅候選，補進電競椅價位帶比較。",
+    "pros": [
+      "價格比高階人體工學椅低",
+      "好市多正常新品頁"
+    ],
+    "cons": [
+      "電競椅坐感不一定適合長工時",
+      "尺寸與身形相容性需確認"
+    ],
+    "bestFor": "偏好電競椅包覆感、預算有限的人",
+    "recommendation": "好市多補充推薦：Insight 電競椅 黑紅 評價不錯，補進電腦椅分類作為 Costco 候選比較。",
+    "score": 83,
+    "voltage": "不適用；需確認身高、坐深、扶手與腰靠是否合身",
+    "warranty": "依 Costco 好市多商品頁與品牌保固標示",
+    "tags": [
+      "Costco",
+      "好市多",
+      "電競椅",
+      "平價",
+      "包覆"
+    ],
+    "releaseDate": "找不到"
+  },
+  {
+    "id": "chair-costco-andaseat-phantom3-gray",
+    "category": "chair",
+    "rank": 23,
+    "budget": "mid",
+    "channel": "tw",
+    "brand": "Anda Seat",
+    "model": "PHANTOM 3 PRO Gray",
+    "name": "PHANTOM 3 PRO 布面電競椅 灰",
+    "price": {
+      "currency": "TWD",
+      "amount": 5199,
+      "converted": 5199,
+      "confidence": "Costco 好市多 2026-07-09 查核價"
+    },
+    "image": "https://www.costco.com.tw/medias/sys_master/images/hd2/h2a/344500471693342.jpg",
+    "buyUrl": "https://www.costco.com.tw/Furniture-Kitchen/Furniture/Computer-Desk-Chair-Sets/Anda-Seat-Fabric-Gaming-Chair-Gray/p/151433",
+    "buyLabel": "Costco 好市多",
+    "specs": [
+      "布面電競椅",
+      "高約 140 公分",
+      "重量：約31公斤",
+      "鋼 / PVC / PU 結構",
+      "Costco 評價 4.8 / 5 則"
+    ],
+    "description": "Costco 評價不錯的電腦椅候選，補進電競椅價位帶比較。",
+    "pros": [
+      "價格比高階人體工學椅低",
+      "好市多正常新品頁"
+    ],
+    "cons": [
+      "電競椅坐感不一定適合長工時",
+      "尺寸與身形相容性需確認"
+    ],
+    "bestFor": "偏好電競椅包覆感、預算有限的人",
+    "recommendation": "好市多補充推薦：PHANTOM 3 PRO 布面電競椅 灰 評價不錯，補進電腦椅分類作為 Costco 候選比較。",
+    "score": 84,
+    "voltage": "不適用；需確認身高、坐深、扶手與腰靠是否合身",
+    "warranty": "依 Costco 好市多商品頁與品牌保固標示",
+    "tags": [
+      "Costco",
+      "好市多",
+      "電競椅",
+      "布面",
+      "中價"
+    ],
+    "releaseDate": "找不到"
   }
   ]);
 })();

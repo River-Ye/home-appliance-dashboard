@@ -1029,6 +1029,102 @@
       "獨立式"
     ],
     "releaseDate": "找不到"
+  },
+  {
+    "id": "dishwasher-costco-bosch-sms4itw00x",
+    "category": "dishwasher",
+    "rank": 22,
+    "budget": "premium",
+    "channel": "tw",
+    "brand": "Bosch",
+    "model": "SMS4ITW00X",
+    "name": "60 公分 4 系列獨立式洗碗機",
+    "price": {
+      "currency": "TWD",
+      "amount": 33999,
+      "converted": 33999,
+      "confidence": "Costco 好市多 2026-07-09 查核價"
+    },
+    "image": "https://www.costco.com.tw/medias/sys_master/images/h60/hd2/205293596377118.jpg",
+    "buyUrl": "https://www.costco.com.tw/Televisions-Appliances/Kitchen-Appliances/Dishwashers-Dish-Dryers/BOSCH-60-cm-Series-4-Freestanding-Dishwasher-SMS4ITW00X/p/143549",
+    "buyLabel": "Costco 好市多",
+    "specs": [
+      "60cm 獨立式",
+      "110V / 60Hz",
+      "1100W",
+      "2 年保固",
+      "Costco 評價 4.6 / 123 則"
+    ],
+    "description": "Costco 評價不錯的洗碗機候選，依容量、安裝形式、電壓與進排水條件補進比較。",
+    "pros": [
+      "容量與安裝形式清楚",
+      "Costco 評價具參考性"
+    ],
+    "cons": [
+      "需確認進排水與櫥櫃空間",
+      "安裝與搬運費可能另計"
+    ],
+    "bestFor": "想買標準容量洗碗機並重視售後的人",
+    "recommendation": "好市多補充推薦：60 公分 4 系列獨立式洗碗機 評價不錯，補進洗碗機分類作為 Costco 候選比較。",
+    "score": 89,
+    "voltage": "110V / 60Hz；需確認進排水、接地與安裝空間",
+    "warranty": "依 Costco 好市多商品頁與品牌 2 年保固標示",
+    "tags": [
+      "Costco",
+      "好市多",
+      "60cm",
+      "獨立式",
+      "Bosch"
+    ],
+    "releaseDate": "找不到"
+  },
+  {
+    "id": "dishwasher-costco-electrolux-eff3560vxb",
+    "category": "dishwasher",
+    "rank": 23,
+    "budget": "premium",
+    "channel": "tw",
+    "brand": "Electrolux",
+    "model": "EFF3560VXB",
+    "name": "60 公分 15 人份 AirDry 獨立式洗碗機",
+    "price": {
+      "currency": "TWD",
+      "amount": 26999,
+      "converted": 26999,
+      "confidence": "Costco 好市多 2026-07-09 查核價"
+    },
+    "image": "https://www.costco.com.tw/medias/sys_master/images/hd4/h5a/379632225222686.jpg",
+    "buyUrl": "https://www.costco.com.tw/Televisions-Appliances/Kitchen-Appliances/Dishwashers-Dish-Dryers/Electrolux-60cm-UltimateCare-300-AirDry-Freestanding-Dishwasher/p/155128",
+    "buyLabel": "Costco 好市多",
+    "specs": [
+      "60cm 獨立式",
+      "15 人份",
+      "110V / 60Hz",
+      "自動開門 AirDry",
+      "Costco 評價 4.3 / 32 則"
+    ],
+    "description": "Costco 評價不錯的洗碗機候選，依容量、安裝形式、電壓與進排水條件補進比較。",
+    "pros": [
+      "容量與安裝形式清楚",
+      "Costco 評價具參考性"
+    ],
+    "cons": [
+      "需確認進排水與櫥櫃空間",
+      "安裝與搬運費可能另計"
+    ],
+    "bestFor": "想買標準容量洗碗機並重視售後的人",
+    "recommendation": "好市多補充推薦：60 公分 15 人份 AirDry 獨立式洗碗機 評價不錯，補進洗碗機分類作為 Costco 候選比較。",
+    "score": 87,
+    "voltage": "110V / 60Hz；需確認進排水、接地與安裝空間",
+    "warranty": "依 Costco 好市多商品頁與品牌 2 年保固標示",
+    "tags": [
+      "Costco",
+      "好市多",
+      "60cm",
+      "15人份",
+      "AirDry"
+    ],
+    "releaseDate": "找不到"
   }
   ]);
 })();

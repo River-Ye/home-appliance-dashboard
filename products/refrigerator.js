@@ -1070,6 +1070,102 @@
       "變頻"
     ],
     "releaseDate": "找不到"
+  },
+  {
+    "id": "refrigerator-costco-samsung-rt35cg562cb1tw",
+    "category": "refrigerator",
+    "rank": 22,
+    "budget": "mid",
+    "channel": "tw",
+    "brand": "Samsung",
+    "model": "RT35CG562CB1TW",
+    "name": "351 公升極簡雙門冰箱",
+    "price": {
+      "currency": "TWD",
+      "amount": 19999,
+      "converted": 19999,
+      "confidence": "Costco 好市多 2026-07-09 查核價"
+    },
+    "image": "https://www.costco.com.tw/medias/sys_master/images/h97/h26/257772363972638.jpg",
+    "buyUrl": "https://www.costco.com.tw/Televisions-Appliances/Large-Appliances/Fridges-Freezers/Samsung-Top-Mount-Freezer-Fridge-351-L-RT35CG562CB1TW/p/146868",
+    "buyLabel": "Costco 好市多",
+    "specs": [
+      "351L（冷藏269L / 冷凍82L）",
+      "上冷凍雙門",
+      "110V / 60Hz",
+      "一級能效",
+      "Costco 評價 4.7 / 161 則"
+    ],
+    "description": "Costco 評價不錯的冰箱候選，依容量、能效、門型與搬運條件補進比較。",
+    "pros": [
+      "評論數與評分具參考性",
+      "容量與電壓資訊清楚"
+    ],
+    "cons": [
+      "大型家電需先量門寬與動線",
+      "舊機回收與樓層費需確認"
+    ],
+    "bestFor": "想在好市多買正常新品冰箱並比較容量的人",
+    "recommendation": "好市多補充推薦：351 公升極簡雙門冰箱 評價不錯，補進冰箱分類作為 Costco 候選比較。",
+    "score": 88,
+    "voltage": "110V / 60Hz；大型家電需確認搬運、門寬與舊機回收",
+    "warranty": "依 Costco 好市多商品頁，全機 1 年、壓縮機 10 年標示",
+    "tags": [
+      "Costco",
+      "好市多",
+      "351L",
+      "雙門",
+      "一級能效"
+    ],
+    "releaseDate": "找不到"
+  },
+  {
+    "id": "refrigerator-costco-panasonic-nr-b65cv-s",
+    "category": "refrigerator",
+    "rank": 23,
+    "budget": "premium",
+    "channel": "tw",
+    "brand": "Panasonic",
+    "model": "NR-B65CV-S",
+    "name": "650 公升雙門變頻冰箱",
+    "price": {
+      "currency": "TWD",
+      "amount": 27899,
+      "converted": 27899,
+      "confidence": "Costco 好市多 2026-07-09 查核價"
+    },
+    "image": "https://www.costco.com.tw/medias/sys_master/images/h27/h0a/121680122413086.jpg",
+    "buyUrl": "https://www.costco.com.tw/Televisions-Appliances/Large-Appliances/Fridges-Freezers/Panasonic-650-L-Double-Door-Inverter-Fridge-NR-B65CV-S/p/138021",
+    "buyLabel": "Costco 好市多",
+    "specs": [
+      "650L 級雙門變頻",
+      "110V",
+      "一級能效",
+      "重量：90公斤",
+      "Costco 評價 4.8 / 334 則"
+    ],
+    "description": "Costco 評價不錯的冰箱候選，依容量、能效、門型與搬運條件補進比較。",
+    "pros": [
+      "評論數與評分具參考性",
+      "容量與電壓資訊清楚"
+    ],
+    "cons": [
+      "大型家電需先量門寬與動線",
+      "舊機回收與樓層費需確認"
+    ],
+    "bestFor": "想在好市多買正常新品冰箱並比較容量的人",
+    "recommendation": "好市多補充推薦：650 公升雙門變頻冰箱 評價不錯，補進冰箱分類作為 Costco 候選比較。",
+    "score": 90,
+    "voltage": "110V；大型家電需確認搬運、門寬與舊機回收",
+    "warranty": "依 Costco 好市多商品頁，全機 1 年、壓縮機 5 年標示",
+    "tags": [
+      "Costco",
+      "好市多",
+      "650L",
+      "雙門",
+      "大容量"
+    ],
+    "releaseDate": "找不到"
   }
   ]);
 })();

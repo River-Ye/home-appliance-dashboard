@@ -950,6 +950,54 @@
       "360進風"
     ],
     "releaseDate": "找不到"
+  },
+  {
+    "id": "purifier-costco-dyson-bp02",
+    "category": "purifier",
+    "rank": 22,
+    "budget": "premium",
+    "channel": "tw",
+    "brand": "Dyson",
+    "model": "BP02",
+    "name": "Big+Quiet 強效極靜抗敏空氣清淨機濾網組",
+    "price": {
+      "currency": "TWD",
+      "amount": 21999,
+      "converted": 21999,
+      "confidence": "Costco 好市多 2026-07-09 查核價"
+    },
+    "image": "https://www.costco.com.tw/medias/sys_master/images/h88/h75/382511683305502.jpg",
+    "buyUrl": "https://www.costco.com.tw/Televisions-Appliances/Cooling-Heating-Air-Treatment/Air-Purifiers-Filters-Accessories/Dyson-Purifier-BigQuiet-BP02-Filter-X-3-Pack/p/156487",
+    "buyLabel": "Costco 好市多",
+    "specs": [
+      "適用約 30 坪",
+      "110V",
+      "一級能效",
+      "含 HEPA 與活性碳濾網組",
+      "Costco 評價 5 / 11 則"
+    ],
+    "description": "Costco 評價不錯的空氣清淨機候選，補進高階大坪數比較池。",
+    "pros": [
+      "品牌與規格辨識度高",
+      "含濾網組可降低初期耗材壓力"
+    ],
+    "cons": [
+      "價格高",
+      "評論數屬稀少候選，需搭配其他評價"
+    ],
+    "bestFor": "重視大坪數、低噪音與品牌售後的人",
+    "recommendation": "好市多補充推薦：Big+Quiet 強效極靜抗敏空氣清淨機濾網組 評價不錯，補進空氣清淨機分類作為 Costco 候選比較。",
+    "score": 86,
+    "voltage": "110V",
+    "warranty": "依 Costco 好市多商品頁與品牌 2 年保固標示",
+    "tags": [
+      "Costco",
+      "好市多",
+      "Dyson",
+      "大坪數",
+      "濾網組"
+    ],
+    "releaseDate": "找不到"
   }
   ]);
 })();

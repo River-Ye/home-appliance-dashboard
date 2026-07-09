@@ -949,6 +949,102 @@
       "中階"
     ],
     "releaseDate": "找不到"
+  },
+  {
+    "id": "vacuum-costco-iris-ic-h50",
+    "category": "vacuum",
+    "rank": 22,
+    "budget": "value",
+    "channel": "tw",
+    "brand": "IRIS OHYAMA",
+    "model": "IC-H50",
+    "name": "手持式充電吸塵器",
+    "price": {
+      "currency": "TWD",
+      "amount": 1959,
+      "converted": 1959,
+      "confidence": "Costco 好市多 2026-07-09 查核價"
+    },
+    "image": "https://www.costco.com.tw/medias/sys_master/images/ha8/h23/220050296078366.jpg",
+    "buyUrl": "https://www.costco.com.tw/Televisions-Appliances/Small-Appliances/Vacuums-Floor-Care/IRIS-OHYAMA-Handy-Rechargeable-Cleaner-IC-H50/p/144463",
+    "buyLabel": "Costco 好市多",
+    "specs": [
+      "手持充電式",
+      "重量：約500公克",
+      "110V 充電",
+      "含充電座與縫隙吸頭",
+      "Costco 評價 4.8 / 94 則"
+    ],
+    "description": "Costco 評價不錯的吸塵器候選，補進手持與輕量清潔比較池。",
+    "pros": [
+      "價格親民",
+      "小空間與局部清潔方便"
+    ],
+    "cons": [
+      "不適合作為大坪數主力機",
+      "續航與吸力需依小型機期待"
+    ],
+    "bestFor": "租屋、車內、桌面或局部快速清潔的人",
+    "recommendation": "好市多補充推薦：手持式充電吸塵器 評價不錯，補進吸塵器分類作為 Costco 候選比較。",
+    "score": 87,
+    "voltage": "110V 充電",
+    "warranty": "依 Costco 好市多商品頁與品牌 1 年保固標示",
+    "tags": [
+      "Costco",
+      "好市多",
+      "手持",
+      "輕量",
+      "小空間"
+    ],
+    "releaseDate": "找不到"
+  },
+  {
+    "id": "vacuum-costco-iris-hcd-22mw",
+    "category": "vacuum",
+    "rank": 23,
+    "budget": "value",
+    "channel": "tw",
+    "brand": "IRIS OHYAMA",
+    "model": "HCD-22MW",
+    "name": "手持式充電吸塵器",
+    "price": {
+      "currency": "TWD",
+      "amount": 2359,
+      "converted": 2359,
+      "confidence": "Costco 好市多 2026-07-09 查核價"
+    },
+    "image": "https://www.costco.com.tw/medias/sys_master/images/hdb/h8a/363834870693918.jpg",
+    "buyUrl": "https://www.costco.com.tw/Televisions-Appliances/Small-Appliances/Vacuums-Floor-Care/IRIS-OHYAMA-Handy-Rechargeable-Cleaner-HCD-22MW/p/151572",
+    "buyLabel": "Costco 好市多",
+    "specs": [
+      "手持充電式",
+      "可接延長管",
+      "110V / 60Hz",
+      "重量：約800公克",
+      "Costco 評價 4.4 / 28 則"
+    ],
+    "description": "Costco 評價不錯的吸塵器候選，補進手持與輕量清潔比較池。",
+    "pros": [
+      "價格親民",
+      "小空間與局部清潔方便"
+    ],
+    "cons": [
+      "不適合作為大坪數主力機",
+      "續航與吸力需依小型機期待"
+    ],
+    "bestFor": "租屋、車內、桌面或局部快速清潔的人",
+    "recommendation": "好市多補充推薦：手持式充電吸塵器 評價不錯，補進吸塵器分類作為 Costco 候選比較。",
+    "score": 84,
+    "voltage": "110V / 60Hz",
+    "warranty": "依 Costco 好市多商品頁與品牌 1 年保固標示",
+    "tags": [
+      "Costco",
+      "好市多",
+      "手持",
+      "延長管",
+      "輕量"
+    ],
+    "releaseDate": "找不到"
   }
   ]);
 })();

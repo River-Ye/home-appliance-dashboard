@@ -950,6 +950,102 @@
       "DC"
     ],
     "releaseDate": "找不到"
+  },
+  {
+    "id": "circulator-costco-airmate-fb2391dr",
+    "category": "circulator",
+    "rank": 22,
+    "budget": "mid",
+    "channel": "tw",
+    "brand": "Airmate",
+    "model": "FB2391DR",
+    "name": "9 吋 DC 直流循環扇",
+    "price": {
+      "currency": "TWD",
+      "amount": 3799,
+      "converted": 3799,
+      "confidence": "Costco 好市多 2026-07-09 查核價"
+    },
+    "image": "https://www.costco.com.tw/medias/sys_master/images/hda/ha7/14720657883166.jpg",
+    "buyUrl": "https://www.costco.com.tw/Televisions-Appliances/Cooling-Heating-Air-Treatment/Heating-Cooling/Airmate-9-inch-DC-Inverter-Air-Circulator-FB2391DR/p/124247",
+    "buyLabel": "Costco 好市多",
+    "specs": [
+      "9 吋 DC 循環扇",
+      "110V / 60Hz",
+      "32W",
+      "重量：6.64公斤",
+      "Costco 評價 4.8 / 212 則"
+    ],
+    "description": "Costco 評價不錯的循環扇候選，適合搭配冷氣或提升室內空氣流動。",
+    "pros": [
+      "評論數與評分具參考性",
+      "循環用途明確"
+    ],
+    "cons": [
+      "大空間仍需看風量與擺位",
+      "部分機型高度或收納需確認"
+    ],
+    "bestFor": "想用循環扇搭配冷氣、除濕或空氣清淨機的人",
+    "recommendation": "好市多補充推薦：9 吋 DC 直流循環扇 評價不錯，補進循環扇分類作為 Costco 候選比較。",
+    "score": 90,
+    "voltage": "110V / 60Hz",
+    "warranty": "依 Costco 好市多商品頁與品牌全機 1 年保固標示",
+    "tags": [
+      "Costco",
+      "好市多",
+      "DC",
+      "循環扇",
+      "高評論數"
+    ],
+    "releaseDate": "找不到"
+  },
+  {
+    "id": "circulator-costco-iris-pcf-sc15t-ct",
+    "category": "circulator",
+    "rank": 23,
+    "budget": "value",
+    "channel": "tw",
+    "brand": "IRIS OHYAMA",
+    "model": "PCF-SC15T-CT",
+    "name": "Woozoo 空氣循環扇",
+    "price": {
+      "currency": "TWD",
+      "amount": 1269,
+      "converted": 1269,
+      "confidence": "Costco 好市多 2026-07-09 查核價"
+    },
+    "image": "https://www.costco.com.tw/medias/sys_master/images/hc9/hb1/329850798964766.jpg",
+    "buyUrl": "https://www.costco.com.tw/Televisions-Appliances/Cooling-Heating-Air-Treatment/Heating-Cooling/IRIS-Woozoo-Circulator-Fan-PCF-SC15T-CT/p/2354207",
+    "buyLabel": "Costco 好市多",
+    "specs": [
+      "小型循環扇",
+      "110V / 60Hz",
+      "38W",
+      "重量：約2.1公斤",
+      "Costco 評價 4.6 / 281 則"
+    ],
+    "description": "Costco 評價不錯的循環扇候選，適合搭配冷氣或提升室內空氣流動。",
+    "pros": [
+      "評論數與評分具參考性",
+      "循環用途明確"
+    ],
+    "cons": [
+      "大空間仍需看風量與擺位",
+      "部分機型高度或收納需確認"
+    ],
+    "bestFor": "想用循環扇搭配冷氣、除濕或空氣清淨機的人",
+    "recommendation": "好市多補充推薦：Woozoo 空氣循環扇 評價不錯，補進循環扇分類作為 Costco 候選比較。",
+    "score": 88,
+    "voltage": "110V / 60Hz",
+    "warranty": "依 Costco 好市多商品頁與品牌保固標示",
+    "tags": [
+      "Costco",
+      "好市多",
+      "Woozoo",
+      "小空間",
+      "循環扇"
+    ],
+    "releaseDate": "找不到"
   }
 ]);
 })();
