@@ -527,11 +527,19 @@ a:focus-visible {
 
 .price-row > div:first-child {
   min-width: 0;
+  overflow-wrap: anywhere;
 }
 
 .price-row strong {
   display: block;
   font-size: 22px;
+  line-height: 1.2;
+  overflow-wrap: anywhere;
+}
+
+.price-row small {
+  display: block;
+  overflow-wrap: anywhere;
 }
 
 .price-insight {
