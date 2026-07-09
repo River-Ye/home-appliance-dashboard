@@ -96,6 +96,103 @@ async function assertProductImagesStayInsideWrap(page, name) {
   }
 }
 
+async function assertHistoricalLowLayout(page, name) {
+  const failures = await page.$$eval(".product-card", (cards) => {
+    const tolerance = 1;
+    const rectFor = (element) => {
+      const rect = element.getBoundingClientRect();
+      return {
+        top: Math.round(rect.top),
+        right: Math.round(rect.right),
+        bottom: Math.round(rect.bottom),
+        left: Math.round(rect.left),
+        width: Math.round(rect.width),
+        height: Math.round(rect.height),
+      };
+    };
+    const overlaps = (a, b) => (
+      a.left < b.right - tolerance
+      && a.right > b.left + tolerance
+      && a.top < b.bottom - tolerance
+      && a.bottom > b.top + tolerance
+    );
+
+    return cards.flatMap((card, index) => {
+      const priceRow = card.querySelector(".price-row");
+      const currentPrice = priceRow?.firstElementChild;
+      const insight = priceRow?.querySelector(".price-insight");
+      const score = priceRow?.querySelector(".score");
+      if (!priceRow || !currentPrice || !insight || !score) return [];
+
+      const cardRect = card.getBoundingClientRect();
+      const priceRect = priceRow.getBoundingClientRect();
+      const currentRect = currentPrice.getBoundingClientRect();
+      const insightRect = insight.getBoundingClientRect();
+      const scoreRect = score.getBoundingClientRect();
+      const issues = [];
+
+      if (priceRow.scrollWidth > priceRow.clientWidth + tolerance) {
+        issues.push("price-row horizontal overflow");
+      }
+      if (insight.scrollWidth > insight.clientWidth + tolerance) {
+        issues.push("historical-low text overflow");
+      }
+      if (priceRect.right > cardRect.right + tolerance || priceRect.left < cardRect.left - tolerance) {
+        issues.push("price-row outside card");
+      }
+      if (overlaps(currentRect, insightRect)) {
+        issues.push("current price overlaps historical low");
+      }
+      if (overlaps(scoreRect, insightRect)) {
+        issues.push("score overlaps historical low");
+      }
+      if (overlaps(currentRect, scoreRect)) {
+        issues.push("current price overlaps score");
+      }
+
+      if (!issues.length) return [];
+      return [{
+        index,
+        title: card.querySelector("h3")?.textContent?.trim() || "unknown product",
+        issues,
+        currentPrice: rectFor(currentPrice),
+        historicalLow: rectFor(insight),
+        score: rectFor(score),
+        priceRow: rectFor(priceRow),
+        card: rectFor(card),
+      }];
+    });
+  });
+
+  if (failures.length) {
+    throw new Error(`${name}: historical low layout failures ${JSON.stringify(failures.slice(0, 3))}`);
+  }
+}
+
+async function assertHistoricalLowCompareLayout(page, name) {
+  const failures = await page.$$eval("#compareTable tr", (rows) => {
+    const tolerance = 1;
+    const historicalRow = rows.find((row) => row.textContent.includes("歷史最低價 / 入手時機"));
+    if (!historicalRow) return [{ issue: "missing historical low compare row" }];
+
+    return Array.from(historicalRow.children).flatMap((cell, index) => {
+      if (cell.scrollWidth <= cell.clientWidth + tolerance) return [];
+      const rect = cell.getBoundingClientRect();
+      return [{
+        index,
+        issue: "historical low compare cell overflow",
+        text: cell.textContent.trim().slice(0, 80),
+        width: Math.round(rect.width),
+        scrollWidth: cell.scrollWidth,
+      }];
+    });
+  });
+
+  if (failures.length) {
+    throw new Error(`${name}: compare table historical low layout failures ${JSON.stringify(failures.slice(0, 3))}`);
+  }
+}
+
 async function runViewport(browser, name, viewport) {
   const page = await browser.newPage({ viewport });
   await page.goto(fileUrl, { waitUntil: "domcontentloaded" });
@@ -116,6 +213,7 @@ async function runViewport(browser, name, viewport) {
   if (!unknownHistoricalLow) throw new Error(`${name}: missing not-found historical low state`);
 
   await waitForProductCards(page, 12);
+  await assertHistoricalLowLayout(page, name);
   const initialRenderedText = await visibleText(page, "#renderedCount");
   if (!initialRenderedText.includes("12 / 656")) {
     throw new Error(`${name}: expected initial lazy render 12 / 656, got ${initialRenderedText}`);
@@ -430,6 +528,7 @@ async function runViewport(browser, name, viewport) {
   if (releaseCompareRows !== 1) throw new Error(`${name}: compare table missing release date row`);
   const historicalCompareRows = await page.locator("#compareTable tr", { hasText: "歷史最低價 / 入手時機" }).count();
   if (historicalCompareRows !== 1) throw new Error(`${name}: compare table missing historical low row`);
+  await assertHistoricalLowCompareLayout(page, name);
 
   await page.getByRole("button", { name: "重設篩選" }).click();
   await page.waitForFunction(() => document.querySelector("#visibleCount")?.textContent?.trim() === "656");
@@ -446,6 +545,7 @@ async function runViewport(browser, name, viewport) {
   });
   if (overflow > 2) throw new Error(`${name}: horizontal overflow ${overflow}px`);
   await assertProductImagesStayInsideWrap(page, name);
+  await assertHistoricalLowLayout(page, name);
 
   if (viewport.width < 700) {
     const clearCompareButton = page.locator("#clearCompare");
@@ -509,6 +609,7 @@ async function runViewport(browser, name, viewport) {
   const browser = await chromium.launch({ headless: true });
   try {
     await runViewport(browser, "dashboard-desktop", { width: 1440, height: 1100 });
+    await runViewport(browser, "dashboard-tablet", { width: 1180, height: 1000 });
     await runViewport(browser, "dashboard-mobile", { width: 390, height: 844 });
   } finally {
     await browser.close();

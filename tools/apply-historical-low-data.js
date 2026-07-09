@@ -60,6 +60,15 @@ const verifiedHistoricalLows = new Map([
   }],
 ]);
 
+const reviewedNotFoundHistoricalLows = new Map([
+  ["tv-extra-13-dpadbu-1900jc97w", "已查 PChome 商品頁、商品編號 DPADBU-1900JC97W、商品全名、S Pro Mini 65 2026 / S Pro Mini LED 65 2026、小米智慧顯示器 65 型 2026，以及 BigGo、飛比等比價/價格歷史方向；只能公開驗證 PChome 現價 26,999 元，未找到同型號同尺寸新品可信通路或價格歷史頁明確標示歷史最低價/史低，因此不可把現價當史低。"],
+  ["blender-xiaomi-mjpbj01demtw", "已查 PChome 商品頁、商品編號 DMAYFG-A900IXDP8、型號 MJPBJ01DEMTW、商品名「Xiaomi 小米 破壁調理機 冷熱調理機」，以及 BigGo、飛比、FindPrice、EZprice 等比價/價格歷史方向；只能公開驗證目前 PChome 現價 2,149 元，頁面未明確標示歷史低價/最低價，因此依規則不能當史低。"],
+  ["dishwasher-extra-20-dmbr24a900jfsr7", "已查 PChome 商品頁、商品編號 DMBR24-A900JFSR7、小米官方產品頁、飛比價格比較頁，以及 BigGo、EZprice、FindPrice、momo、Yahoo、Shopee 等方向；可公開頁面只找到目前通路或比價現價，例如 PChome 12,999 元與部分比價現價，未明確標示歷史最低價、史低或可驗證價格歷史，因此不能作為史低。"],
+  ["wifi-xiaomi-ax3000-2pack", "已查 PChome 商品頁、商品編號 DYANAI-A900HNEUP、台灣比價/價格歷史方向（BigGo、飛比、EZprice、FindPrice）及海外價格歷史方向；只能公開驗證目前 PChome 現價 2,159 元，頁面未明確標示歷史最低價/最低價。商品詳情圖片中出現 NT$1,995 字樣，但不是可驗證的歷史最低價頁或明確史低標示，因此未採用。"],
+  ["wifi-xiaomi-ax3000-1pack", "已查 PChome 商品頁、商品編號 DYANAI-A900HNETW、BigGo、飛比、FindPrice 價格比較方向、台灣關鍵字「小米 AX3000 Mesh 路由器 一件裝/歷史低價/價格走勢/最低價」，以及英文關鍵字 Xiaomi AX3000 Mesh Router price history / lowest price / Keepa / Amazon；只能公開驗證到 PChome 目前現價 1,199 元，未找到明確標示同型號一件裝新品可信通路或價格歷史頁的歷史最低價，因此不採用現價作為史低。"],
+  ["monitor-xiaomi-a27qi-2026", "已查 PChome 商品頁、商品編號 DSABVO-A900JMD8B、A27Qi / A27Qi 2026 / Xiaomi A27Qi 英中關鍵字、BigGo、飛比、FindPrice、Price.com.hk 站內索引與一般比價/歷史價格關鍵字；PChome 現價 3,699 元，但頁面未明確標示歷史低價/最低價，且另有一日限定 95 折、P 幣/信用卡/登記送等不可列入的折扣或回饋，因此未採用。"],
+]);
+
 function defaultHistoricalLow(product) {
   return {
     status: "not_found",
@@ -77,7 +86,18 @@ function defaultHistoricalLow(product) {
 }
 
 function historicalLowFor(product) {
-  return verifiedHistoricalLows.get(product.id) || defaultHistoricalLow(product);
+  const verified = verifiedHistoricalLows.get(product.id);
+  if (verified) return verified;
+
+  const reviewedNote = reviewedNotFoundHistoricalLows.get(product.id);
+  if (reviewedNote) {
+    return {
+      ...defaultHistoricalLow(product),
+      note: reviewedNote,
+    };
+  }
+
+  return defaultHistoricalLow(product);
 }
 
 function productWithHistoricalLow(product) {

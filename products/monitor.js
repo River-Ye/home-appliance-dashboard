@@ -797,7 +797,7 @@
       "sourceKind": "not_found",
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "已查 PChome 商品頁、商品編號 DSABVO-A900JMD8B、A27Qi / A27Qi 2026 / Xiaomi A27Qi 英中關鍵字、BigGo、飛比、FindPrice、Price.com.hk 站內索引與一般比價/歷史價格關鍵字；PChome 現價 3,699 元，但頁面未明確標示歷史低價/最低價，且另有一日限定 95 折、P 幣/信用卡/登記送等不可列入的折扣或回饋，因此未採用。"
     }
   },
   {

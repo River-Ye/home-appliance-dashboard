@@ -1242,7 +1242,7 @@
       "sourceKind": "not_found",
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "已查 PChome 商品頁、商品編號 DMBR24-A900JFSR7、小米官方產品頁、飛比價格比較頁，以及 BigGo、EZprice、FindPrice、momo、Yahoo、Shopee 等方向；可公開頁面只找到目前通路或比價現價，例如 PChome 12,999 元與部分比價現價，未明確標示歷史最低價、史低或可驗證價格歷史，因此不能作為史低。"
     }
   },
   {

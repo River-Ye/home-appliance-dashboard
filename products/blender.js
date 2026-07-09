@@ -1223,7 +1223,7 @@
       "sourceKind": "not_found",
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "已查 PChome 商品頁、商品編號 DMAYFG-A900IXDP8、型號 MJPBJ01DEMTW、商品名「Xiaomi 小米 破壁調理機 冷熱調理機」，以及 BigGo、飛比、FindPrice、EZprice 等比價/價格歷史方向；只能公開驗證目前 PChome 現價 2,149 元，頁面未明確標示歷史低價/最低價，因此依規則不能當史低。"
     }
   },
   {

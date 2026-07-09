@@ -516,7 +516,7 @@ a:focus-visible {
 
 .price-row {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(190px, 0.88fr) auto;
+  grid-template-columns: minmax(0, 1fr) auto;
   gap: 10px;
   align-items: start;
   padding: 12px;
@@ -525,17 +525,23 @@ a:focus-visible {
   border-radius: 8px;
 }
 
+.price-row > div:first-child {
+  min-width: 0;
+}
+
 .price-row strong {
   display: block;
   font-size: 22px;
 }
 
 .price-insight {
-  min-height: 100%;
+  grid-column: 1 / -1;
+  min-width: 0;
   padding: 10px;
   background: #fff;
   border: 1px solid var(--line);
   border-radius: 8px;
+  overflow-wrap: anywhere;
 }
 
 .price-insight strong {
@@ -548,6 +554,7 @@ a:focus-visible {
   display: block;
   margin-top: 3px;
   font-size: 12px;
+  overflow-wrap: anywhere;
 }
 
 .price-insight a {
@@ -578,6 +585,9 @@ a:focus-visible {
 
 .score {
   display: grid;
+  grid-column: 2;
+  grid-row: 1;
+  justify-self: end;
   place-items: center;
   width: 48px;
   height: 48px;
