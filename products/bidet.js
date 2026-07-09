@@ -61,7 +61,7 @@
       "sourceKind": "not_found",
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ TOTO TCF8342TW S2: 樂天市場 - 洗樂適衛浴 洗樂適衛浴 【TOTO東陶】S2瞬熱型溫水洗淨便座 /電壓110V/噴嘴自潔/溫熱便座/新上市 TCF8342TW 型號/規格不相符；LBJ TOTO TCF8342TW S2: Momo富邦購物 【TOTO】S2 基本款 溫水洗淨便座 TCF8342TW(智慧洗淨/溫熱無縫便座/WASHLET/免治馬桶座) 型號/規格不相符；LBJ TOTO TCF8342TW S2: PCHome購物 TOTO TCF8342TW S2 WASHLET 溫水洗淨便座(智慧洗淨/溫熱無縫便座/免治馬桶座/S2) 型號/規格不相符。"
     }
   },
   {
@@ -109,17 +109,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 7980,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 7980,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1132502153&cgp=8990",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【TOTO】C2 基本款 溫水洗淨便座 TCF23710ATW(噴嘴自潔/智慧洗淨/溫熱便座/WASHLET/免治馬桶座)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【TOTO】C2 基本款 溫水洗淨便座 TCF23710ATW(噴嘴自潔/智慧洗淨/溫熱便座/WASHLET/免治馬桶座)」最低價為 NT$7,980，最低點日期 2025-11-14。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -167,17 +167,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 7990,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 7990,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=589539302&cgp=7990",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：Panasonic 國際牌 微電腦瞬熱便座 DL-PSTK09TWW-TW 含標準安裝 大型配送",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「蝦皮商城 - 蝦皮直營 - 3C家電館 / Panasonic 國際牌 微電腦瞬熱便座 DL-PSTK09TWW-TW 含標準安裝 大型配送」最低價為 NT$7,990，最低點日期 2026-07-09。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -235,7 +235,7 @@
       "sourceKind": "not_found",
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ KOHLER C3-430: Yahoo購物中心 【 麗室衛浴】美國KOHLER C3-430 電腦馬桶蓋 K-22445TW-0 型號/規格不相符；LBJ KOHLER C3-430: Momo富邦購物 (店+)【KOHLER】美國品牌 電腦馬桶便座 免治馬桶 馬桶蓋 電腦便座 C3-430 C3-520 C3-150 型號/規格不相符；LBJ KOHLER C3-430: Yahoo拍賣 - 光伸廚衛居家生活館 (439個評價) KOHLER K-22445TW-0 電腦馬桶蓋-C3™-430 型號/規格不相符。"
     }
   },
   {
@@ -283,17 +283,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 8537,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 8537,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1254326497&cgp=8537",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：HCG 和成 免治沖洗馬桶座44/47CM(AF890AW/AF890SAW不含安裝)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「PCHome購物 / HCG 和成 免治沖洗馬桶座44/47CM(AF890AW/AF890SAW不含安裝)」最低價為 NT$8,537，最低點日期 2026-07-09。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -351,7 +351,7 @@
       "sourceKind": "not_found",
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ TOTO TCF47160GTW S7: Momo富邦購物 【TOTO】S7 輕奢款 除菌溫水洗淨便座 TCF47160GTW(電解除菌水/智慧洗淨/溫熱無縫便座/WASHLET/免治馬桶座) 型號/規格不相符；LBJ TOTO TCF47160GTW S7: PCHome購物 TOTO TCF47160GTW S7輕奢款 WASHLET 溫水洗淨便座(噴嘴自潔/智慧洗淨/溫熱便座/S7) 型號/規格不相符；LBJ TOTO TCF47160GTW S7: 蝦皮購物 - 簡單賣生活館 〈原廠保固〉TOTO TCF47160GTW S7系列 輕奢款 附發票 除菌溫水洗淨便座 免治馬桶 溫熱便座 無線遙控 型號/規格不相符。"
     }
   },
   {
@@ -409,7 +409,7 @@
       "sourceKind": "not_found",
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ TOTO TCF24460ATW C5: PCHome購物 TOTO TCF24460ATW C5-藏線式 WASHLET 溫水洗淨便座(噴嘴自潔/智慧洗淨/溫熱便座/C5) 型號/規格不相符；LBJ TOTO TCF24460ATW C5: Yahoo拍賣 - DIY居家生活館 (1901個評價) 【超值精選】TOTO 馬桶蓋 TCF24460ATW C5 WASHLET 電腦免治馬桶座|抗菌|溫水|溫座|遙控款 型號/規格不相符；LBJ TOTO TCF24460ATW C5: Yahoo拍賣 - 鑫欣廚房衛浴精品專賣店 (48個評價) 鑫欣◎廚具衛浴第一選擇◎TOTO原廠衛洗麗免治馬桶座C5系列-TCF24410ATW/TCF24460ATW 型號/規格不相符。"
     }
   },
   {
@@ -467,7 +467,7 @@
       "sourceKind": "not_found",
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ TOTO TCF34461GTW S5: Momo富邦購物 【TOTO】S5 除菌溫水洗淨便座 TCF34461GTW(電解除菌水/強力除臭/無線遙控/WASHLET/免治馬桶座) 型號/規格不相符；LBJ TOTO TCF34461GTW S5: PCHome購物 TOTO S5 除菌溫水洗淨便座 TCF34461GTW(電解除菌水/強力除臭/無線遙控/WASHLET/免治馬桶座) 型號/規格不相符；LBJ TOTO TCF34461GTW S5: Homebox好博家 【Homebox 好博家】TOTO瞬熱式遙控型免治馬桶座S5 電解除菌水/TCF34461GTW 桃竹苗提供安裝服務 型號/規格不相符。"
     }
   },
   {
@@ -525,7 +525,7 @@
       "sourceKind": "not_found",
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ TOTO TCF33161GTW S2: Momo富邦購物 【TOTO】S2 標準款 除菌溫水洗淨便座 TCF33161GTW(電解除菌水/智慧洗淨/溫熱便座/WASHLET/免治馬桶座) 型號/規格不相符；LBJ TOTO TCF33161GTW S2: 蝦皮購物 - 張媽媽衛浴 原廠保固有開發票 TOTO S2 瞬熱式 除菌水 TCF33161GTW 溫水洗淨便座 免治馬桶蓋 實體店面 馬桶蓋 型號/規格不相符；LBJ TOTO TCF33161GTW S2: 蝦皮購物 - 簡單賣生活館 〈原廠保固〉TOTO TCF33161GTW S2 標準款 附發票 除菌溫水洗淨便座 免治馬桶 溫熱便座 型號/規格不相符。"
     }
   },
   {
@@ -583,7 +583,7 @@
       "sourceKind": "not_found",
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ TOTO TCF47360GTW S7: Momo富邦購物 【TOTO】S7 旗艦款 除菌溫水洗淨便座 TCF47360GTW(電解除菌水/智慧洗淨/自動掀蓋/WASHLET/免治馬桶座) 型號/規格不相符；LBJ TOTO TCF47360GTW S7: PCHome購物 TOTO TCF47360GTW S7旗艦款 WASHLET 溫水洗淨便座(噴嘴自潔/智慧洗淨/溫熱便座/S7) 型號/規格不相符；LBJ TOTO TCF47360GTW S7: 蝦皮購物 - 簡單賣生活館 〈原廠保固〉TOTO TCF47360GTW S7系列 旗艦款 附發票 除菌溫水洗淨便座 免治馬桶 溫熱便座 無線遙控 型號/規格不相符。"
     }
   },
   {
@@ -641,7 +641,7 @@
       "sourceKind": "not_found",
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ TOTO TCF33461GTW S2: Momo富邦購物 【TOTO】S2 進階款 除菌溫水洗淨便座 TCF33461GTW(電解除菌水/強力除臭/暖風烘乾/WASHLET/免治馬桶座) 型號/規格不相符；LBJ TOTO TCF33461GTW S2: Homebox好博家 【Homebox 好博家】TOTO瞬熱式免治馬桶座 暖風烘乾 電解除菌水 S2/TCF33461GTW 桃竹苗提供安裝服務 型號/規格不相符；LBJ TOTO TCF33461GTW S2: PCHome購物 TOTO S2 進階款 除菌溫水洗淨便座 TCF33461GTW(電解除菌水/強力除臭/暖風烘乾/WASHLET/免治馬桶座) 型號/規格不相符。"
     }
   },
   {
@@ -689,17 +689,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 5911,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 5911,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1239831169&cgp=6190",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【Panasonic 國際牌】儲熱式免治馬桶座．含基本安裝(DL-F610RTWS-TW)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【Panasonic 國際牌】儲熱式免治馬桶座．含基本安裝(DL-F610RTWS-TW)」最低價為 NT$5,911，最低點日期 2025-12-21。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -747,17 +747,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 15111,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 15111,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=600661263&cgp=15752",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：Panasonic 國際牌 微電腦瞬熱洗淨便座DL-RT30TWWS-TW 含標準安裝 大型配送",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「蝦皮商城 - 蝦皮直營 - 3C家電館 / Panasonic 國際牌 微電腦瞬熱洗淨便座DL-RT30TWWS-TW 含標準安裝 大型配送」最低價為 NT$15,111，最低點日期 2025-11-10。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -805,17 +805,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 13205,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 13205,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1265195956&cgp=13205",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：Panasonic授權新北蘆洲翊誠電器 【Panasonic】 瞬熱式溫水洗淨便座 (DL-PU30TWWS)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「樂天市場 - Panasonic授權新北蘆洲翊誠電器 / Panasonic授權新北蘆洲翊誠電器 【Panasonic】 瞬熱式溫水洗淨便座 (DL-PU30TWWS)」最低價為 NT$13,205，最低點日期 2026-07-09。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -873,7 +873,7 @@
       "sourceKind": "not_found",
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ KOHLER C3-150: Yahoo購物中心 【麗室衛浴】美國 KOHLER K8297 C3-150 電腦馬桶蓋專用零件固定板1240758-SP 型號/規格不相符；LBJ KOHLER C3-150: Momo富邦購物 (店+)【KOHLER】✦築昂✦美國KOHLER C3-150電腦馬桶蓋 K-8297TW-0 型號/規格不相符；LBJ KOHLER C3-150: Yahoo購物中心 【 麗室衛浴】美國 KOHLER K-8297 電腦馬桶蓋 C3-150 (110V/60HZ) 型號/規格不相符。"
     }
   },
   {
@@ -921,17 +921,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 5670,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 5670,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1112735689&cgp=5670",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【JTAccord 台灣吉田】儲熱式省電溫水洗淨免治馬桶便座JT-261C(標準版型/未含安裝)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【JTAccord 台灣吉田】儲熱式省電溫水洗淨免治馬桶便座JT-261C(標準版型/未含安裝)」最低價為 NT$5,670，最低點日期 2026-07-09。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -989,7 +989,7 @@
       "sourceKind": "not_found",
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ HEGLL HE-0535: Momo富邦購物 【HEGLL 恒潔】遙控型微電腦免治馬桶蓋(HE-0535 不含安裝) 型號/規格不相符；LBJ HEGLL HE-0535: PCHome購物 【HEGLL 恒潔】遙控型微電腦免治馬桶蓋(HE-0535 不含安裝) 型號/規格不相符；BigGo DMAL6W-A900IZ8TM: 查詢失敗 429 https://biggo.com.tw/api/v1/spa/search/DMAL6W-A900IZ8TM/product?p=1。"
     }
   },
   {
@@ -1037,17 +1037,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 8145,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 8145,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1267545185&cgp=8145",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：(店+)【HCG 和成】AF830 儲熱式 免治沖洗馬桶座 47cm AW白色 110V 不含安裝",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / (店+)【HCG 和成】AF830 儲熱式 免治沖洗馬桶座 47cm AW白色 110V 不含安裝」最低價為 NT$8,145，最低點日期 2026-07-09。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -1105,7 +1105,7 @@
       "sourceKind": "not_found",
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ HEGLL HE-0625: Momo富邦購物 【HEGLL 恒潔】按鍵型微電腦免治馬桶蓋(HE-0625 不含安裝) 型號/規格不相符；LBJ HEGLL HE-0625: PCHome購物 【HEGLL 恒潔】按鍵型微電腦免治馬桶蓋(HE-0625 不含安裝) 型號/規格不相符；BigGo DMAL6W-A900IZ94O: 查詢失敗 429 https://biggo.com.tw/api/v1/spa/search/DMAL6W-A900IZ94O/product?p=1。"
     }
   },
   {
@@ -1163,7 +1163,7 @@
       "sourceKind": "not_found",
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ HEGLL HE-0635: Momo富邦購物 【HEGLL 恒潔】遙控型微電腦免治馬桶蓋(HE-0635 不含安裝) 型號/規格不相符；LBJ HEGLL HE-0635: PCHome購物 【HEGLL 恒潔】遙控型微電腦免治馬桶蓋(HE-0635 不含安裝) 型號/規格不相符；BigGo DMAL6W-A900IZ8YL: 查詢失敗 429 https://biggo.com.tw/api/v1/spa/search/DMAL6W-A900IZ8YL/product?p=1。"
     }
   },
   {
@@ -1222,7 +1222,7 @@
       "sourceKind": "not_found",
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：BigGo Brondell Swash CL1700: 查詢失敗 429 https://biggo.com.tw/api/v1/spa/search/Brondell%20Swash%20CL1700/product?p=1；BigGo Swash CL1700: 查詢失敗 429 https://biggo.com.tw/api/v1/spa/search/Swash%20CL1700/product?p=1。"
     }
   }
 ]);

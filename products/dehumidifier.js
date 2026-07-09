@@ -51,17 +51,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 13520,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 13520,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1252306013&cgp=13858",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：Panasonic國際牌 16L nanoe清淨二合一雙變頻微電腦除濕機 F-YV32NN",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Yahoo購物中心 / Panasonic國際牌 16L nanoe清淨二合一雙變頻微電腦除濕機 F-YV32NN」最低價為 NT$13,520，最低點日期 2026-02-13。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -109,17 +109,17 @@
     ],
     "releaseDate": "2025-12-18",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 21068,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 21068,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1269477456&cgp=22500",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：LG樂金 DE221MWE0 22L UV抑菌雙變頻除濕機 白 贈好禮",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Yahoo購物中心 / LG樂金 DE221MWE0 22L UV抑菌雙變頻除濕機 白 贈好禮」最低價為 NT$21,068，最低點日期 2026-06-18。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -167,17 +167,17 @@
     ],
     "releaseDate": "2026",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 26265,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 26265,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1271828596&cgp=26265",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：MITSUBISHI三菱 日製22.5L 旗艦款HEAP空氣清淨變頻除濕機 MJ-EHV220KX-TW",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Yahoo購物中心 / MITSUBISHI三菱 日製22.5L 旗艦款HEAP空氣清淨變頻除濕機 MJ-EHV220KX-TW」最低價為 NT$26,265，最低點日期 2026-07-09。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -225,17 +225,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 19900,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 19900,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1271874265&cgp=19900",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：(店+)【LG 樂金】19.6公升 PuriCare 雙變頻除濕機 DD201MEE0",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / (店+)【LG 樂金】19.6公升 PuriCare 雙變頻除濕機 DD201MEE0」最低價為 NT$19,900，最低點日期 2026-07-09。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -283,17 +283,17 @@
     ],
     "releaseDate": "2026-06-02",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 5690,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 5690,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1254037624&cgp=5690",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：Whirlpool惠而浦 10L 高效除濕機 WDEE10TW",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Yahoo購物中心 / Whirlpool惠而浦 10L 高效除濕機 WDEE10TW」最低價為 NT$5,690，最低點日期 2026-07-01。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -341,17 +341,17 @@
     ],
     "releaseDate": "2026-04-10",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 15680,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 15680,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=589445778&cgp=15809",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：Panasonic 國際牌 16L nanoe變頻微電腦除濕機F-YV32NX /F-YV32NXK 廠商直送",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「蝦皮商城 - 蝦皮直營 - 3C家電館 / Panasonic 國際牌 16L nanoe變頻微電腦除濕機F-YV32NX /F-YV32NXK 廠商直送」最低價為 NT$15,680，最低點日期 2025-12-09。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -399,17 +399,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 18618,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 18618,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1222730122&cgp=20495",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【Panasonic 國際牌】16公升全彩液晶觸控螢幕變頻除濕機(F-YV32MH)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【Panasonic 國際牌】16公升全彩液晶觸控螢幕變頻除濕機(F-YV32MH)」最低價為 NT$18,618，最低點日期 2025-07-09。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -467,7 +467,7 @@
       "sourceKind": "not_found",
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ Panasonic F-Y16FH: 蝦皮商城 - 愛濾屋-清淨專家 濾網領航 台灣製造 品質出眾 HEPA抗菌濾網 適用國際牌除濕機F-Y20DHW F-Y26DHW F-Y20FH Y16FH Y20EH Y26EH 型號/規格不相符；LBJ Panasonic F-Y16FH: 蝦皮商城 - 淨博-外銷歐美日專業空氣清淨濾網 適用國際牌除濕機F-Y20DHW，F-Y26DHW ，F-Y20FH，Y16FH，Y20EH，Y26EH脫臭HEPA濾網 型號/規格不相符；LBJ Panasonic F-Y16FH: 蝦皮商城 - 蟎著媽專業濾網 適 國際牌 F-Y16EH Y16FH Y20EH Y20FH Y20DHW Y26EH Y26FH 除濕機 濾網 型號/規格不相符。"
     }
   },
   {
@@ -515,17 +515,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 8263,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 8263,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=612341877&cgp=8263",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：Panasonic 國際 F-Y18PN 9公升除濕機 神腦生活",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「蝦皮商城 - 神腦生活 Senaonline / Panasonic 國際 F-Y18PN 9公升除濕機 神腦生活」最低價為 NT$8,263，最低點日期 2026-07-09。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -583,7 +583,7 @@
       "sourceKind": "not_found",
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ LG MD161QPK3: Momo富邦購物 【Have Green Days 綠綠好日】6片組_適用 LG 除濕機 MD161QBK3 MD161QPK3 MD171QPK3 HEPA抗菌濾網*6(濾芯) 最低價 NT$443 低於現價合理比例，疑似月付/配件/錯類；LBJ LG MD161QPK3: Momo富邦購物 【綠綠好日】6片組_適用 LG 除濕機 MD161QBK3 MD161QPK3 MD171QPK3 HEPA抗菌濾網(濾芯) 最低價 NT$502 低於現價合理比例，疑似月付/配件/錯類；LBJ LG MD161QPK3: Momo富邦購物 (店+)【Mitewithmom 著媽】適用 LG 樂金 除濕機 MD161QBK3 MD161QPK3 MD181QWE0 外掛框 濾網 空氣清淨 蟎著媽 最低價 NT$580 低於現價合理比例，疑似月付/配件/錯類。"
     }
   },
   {
@@ -631,17 +631,17 @@
     ],
     "releaseDate": "2026-04-03",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 11780,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 11780,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1264264135&cgp=12400",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：LG樂金 12公升/日UV殺菌雙變頻除濕機DD121QWE0",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Yahoo購物中心 / LG樂金 12公升/日UV殺菌雙變頻除濕機DD121QWE0」最低價為 NT$11,780，最低點日期 2026-07-09。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -689,17 +689,17 @@
     ],
     "releaseDate": "2026-03-04",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 14220,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 14220,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1263692968&cgp=15800",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：LG樂金 DD141QWE0 14公升 PuriCare 雙變頻除濕機",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Yahoo購物中心 / LG樂金 DD141QWE0 14公升 PuriCare 雙變頻除濕機」最低價為 NT$14,220，最低點日期 2026-06-20。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -747,17 +747,17 @@
     ],
     "releaseDate": "2026-03-05",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 17955,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 17955,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1269683437&cgp=18900",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：LG 樂金 PuriCare 雙變頻除濕機 25.6公升 曜黑 WD261VKF0",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Yahoo購物中心 / LG 樂金 PuriCare 雙變頻除濕機 25.6公升 曜黑 WD261VKF0」最低價為 NT$17,955，最低點日期 2026-06-13。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -805,17 +805,17 @@
     ],
     "releaseDate": "2026-05-27",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 17400,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 17400,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1268871099&cgp=17800",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：(店+)【LG 樂金】一級能效｜18公升雙變頻除濕機｜WiFi遠控｜DD181MWE0",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / (店+)【LG 樂金】一級能效｜18公升雙變頻除濕機｜WiFi遠控｜DD181MWE0」最低價為 NT$17,400，最低點日期 2026-05-07。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -873,7 +873,7 @@
       "sourceKind": "not_found",
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ Whirlpool WDEE20TW: Yahoo購物中心 (福利品)Whirlpool惠而浦 20L 第六感智能除濕機 WDEE20TW 高效除濕型 能效3級 非採用通路或含排除條件；LBJ Whirlpool WDEE20TW: Yahoo購物中心 Whirlpool惠而浦 福利品 20公升/日 WDEE20TW 除濕機 WDEE20TW-D 非採用通路或含排除條件；LBJ Whirlpool WDEE20TW: 樂天市場 - 北霸天 北霸天 (福利品)Whirlpool惠而浦 20L 第六感智能除濕機 WDEE20TW 高效除濕型 能效3級 非採用通路或含排除條件。"
     }
   },
   {
@@ -921,17 +921,17 @@
     ],
     "releaseDate": "2026-02-09",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 3511,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 3511,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1237488911&cgp=4480",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：Whirlpool 惠而浦 6公升高效除濕機WDEE06TW",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「PCHome購物 / Whirlpool 惠而浦 6公升高效除濕機WDEE06TW」最低價為 NT$3,511，最低點日期 2025-11-04。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -979,17 +979,17 @@
     ],
     "releaseDate": "2026-02-10",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 3990,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 3990,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1262940037&cgp=4390",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【SHARP 夏普】6公升 高效除濕機(DW-WL6NT-W)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【SHARP 夏普】6公升 高效除濕機(DW-WL6NT-W)」最低價為 NT$3,990，最低點日期 2026-06-26。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -1037,17 +1037,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 4888,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 4888,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=612343329&cgp=5211",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：Panasonic 國際牌 6L除濕機 F-Y12PS【可申請貨物稅補助】【愛買】",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「蝦皮商城 - 愛買線上購物 / Panasonic 國際牌 6L除濕機 F-Y12PS【可申請貨物稅補助】【愛買】」最低價為 NT$4,888，最低點日期 2026-06-21。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -1095,17 +1095,17 @@
     ],
     "releaseDate": "2026",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 8990,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 8990,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1269792162&cgp=8990",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：SHARP 夏普 12公升PCI自動除菌離子除濕機(DW-PT12HT-W)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「PCHome購物 / SHARP 夏普 12公升PCI自動除菌離子除濕機(DW-PT12HT-W)」最低價為 NT$8,990，最低點日期 2026-07-09。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -1163,7 +1163,7 @@
       "sourceKind": "not_found",
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ HITACHI RD-22FC: Momo富邦購物 (店+)適用Hitachi日立RD-18FC RD-22FC空氣清淨除濕機替換用HEPA濾網濾芯 型號/規格不相符；LBJ HITACHI RD-22FC: 蝦皮商城 - 怡悅健康生活館 怡悅 HEPA濾網 適用 日立除濕機 RD-18FC RD-22FC RD-14FJ RD-18FJ RD-22FJ 型號/規格不相符；LBJ HITACHI RD-22FC: 蝦皮商城 - 淨博-外銷歐美日專業空氣清淨濾網 適用Hitachi日立RD-18FC RD-22FC空氣清淨除濕機替換用HEPA濾網濾芯 型號/規格不相符。"
     }
   },
   {
@@ -1212,17 +1212,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 18920,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 18920,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1237887197&cgp=20357",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【HITACHI 日立】一級能效19公升變頻清淨除濕機(RD-380VC)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【HITACHI 日立】一級能效19公升變頻清淨除濕機(RD-380VC)」最低價為 NT$18,920，最低點日期 2026-02-06。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -1283,7 +1283,7 @@
       "sourceKind": "not_found",
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ 3M FD-Y200L: 蝦皮商城 - 怡悅健康生活館 怡悅 HEPA濾網 適用 適用 3M FD-Y160L FD-Y180L FD-Y200L 深呼吸 空氣清淨除濕機 非採用通路或含排除條件；LBJ 3M FD-Y200L: Momo富邦購物 【RENZA】適用3M FD-Y160L FD-Y180L FD-Y200L 深呼吸空氣清淨除濕機(HEPA濾網 濾芯) 最低價 NT$417 低於現價合理比例，疑似月付/配件/錯類；LBJ 3M FD-Y200L: 蝦皮商城 - 蟎著媽專業濾網 蟎著媽 濾網 適用 3M FD-Y160L FD-Y180L FD-Y200L 空氣清淨機 Y200-F 非採用通路或含排除條件。"
     }
   },
   {
@@ -1334,17 +1334,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 22039,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 22039,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=512329242&cgp=22618",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：HITACHI日立 RD-460VC 23公升超變頻清淨型除濕機 極光鈦 神腦生活",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「蝦皮商城 - 神腦生活 Senaonline / HITACHI日立 RD-460VC 23公升超變頻清淨型除濕機 極光鈦 神腦生活」最低價為 NT$22,039，最低點日期 2026-04-09。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   }
 ]);

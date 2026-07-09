@@ -57,7 +57,7 @@
     initialProductLimit: 12,
     loadMoreProductCount: 40,
     filterControlNames: ["category", "brand", "budget", "channel", "sort"],
-    cacheVersion: "20260709-historical-low",
+    cacheVersion: "20260709-historical-low-v2",
   };
 
   function registerProducts(categoryId, items) {

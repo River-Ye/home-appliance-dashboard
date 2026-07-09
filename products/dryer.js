@@ -65,7 +65,7 @@
       "sourceKind": "not_found",
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ Panasonic NH-80RZ-W: Momo富邦購物 【Panasonic 國際牌】8公斤電子式乾衣機-釉光白(NH-80RZ-W) 型號/規格不相符；LBJ Panasonic NH-80RZ-W: Momo富邦購物 【Panasonic 國際牌】8公斤電子式乾衣機 (NH-80RZ-W) 型號/規格不相符；LBJ Panasonic NH-80RZ-W: Momo富邦購物 【Panasonic 國際牌】家電快配★8公斤乾衣機-釉光白(NH-80RZ-W) 型號/規格不相符。"
     }
   },
   {
@@ -119,17 +119,17 @@
     "category": "dryer",
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 7114,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 7114,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1270890541&cgp=7560",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：Panasonic國際牌 7公斤 落地型乾衣機 NH-70G-L",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Yahoo購物中心 / Panasonic國際牌 7公斤 落地型乾衣機 NH-70G-L」最低價為 NT$7,114，最低點日期 2026-06-11。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -193,7 +193,7 @@
       "sourceKind": "not_found",
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ Whirlpool 8TWGD5010PW: 誠品線上 【Whirlpool 惠而浦】12公斤 快烘瓦斯型乾衣機_典雅白 8TWGD5010PW 型號/規格不相符；LBJ Whirlpool 8TWGD5010PW: 生活市集 【生活市集】【Whirlpool 惠而浦】8TWGD5010PW 12公斤瓦斯型下拉門烘衣機 型號/規格不相符；LBJ Whirlpool 8TWGD5010PW: 樂天市場 - 簡單生活館 簡單生活館 【Whirlpool 惠而浦】12公斤快烘瓦斯型乾衣機 8TWGD5010PW (含標準安裝/舊機回收) 型號/規格不相符。"
     }
   },
   {
@@ -257,7 +257,7 @@
       "sourceKind": "not_found",
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ Whirlpool 8TWGD5050PW: 誠品線上 惠而浦【8TWGD5050PW】12公斤快烘瓦斯型乾衣機(含標準安裝) 型號/規格不相符；LBJ Whirlpool 8TWGD5050PW: HOTAI購 【HOTAI購】【Whirlpool惠而浦】Essential Dry 12公斤 快烘瓦斯型乾衣機 8TWGD5050PW 型號/規格不相符；LBJ Whirlpool 8TWGD5050PW: Yahoo購物中心 Whirlpool惠而浦 12公斤 美國原裝瓦斯型滾筒乾衣機 8TWGD5050PW-天然瓦斯 型號/規格不相符。"
     }
   },
   {
@@ -321,7 +321,7 @@
       "sourceKind": "not_found",
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ Whirlpool 8TWGD8620HW: 蝦皮商城 - Whirlpool 惠而浦旗艦館 Whirlpool惠而浦 8TWGD8620HW 天然氣滾筒乾衣機 16公斤【福利品】 型號/規格不相符；LBJ Whirlpool 8TWGD8620HW: 蝦皮商城 - Whirlpool 惠而浦旗艦館 Whirlpool惠而浦 8TWGD8620HW 桶裝瓦斯滾筒乾衣機 16公斤【福利品】 型號/規格不相符；LBJ Whirlpool 8TWGD8620HW: 樂天市場 - 得意專業家電音響 得意專業家電音響 【瓦斯乾衣機】Whirlpool 惠而浦 8TWGD8620HW W Collection 快烘 瓦斯型 滾筒乾衣機(16kg) ~ 非採用通路或含排除條件。"
     }
   },
   {
@@ -385,7 +385,7 @@
       "sourceKind": "not_found",
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ Whirlpool 8TWGD5620HW: 蝦皮商城 - Whirlpool 惠而浦旗艦館 Whirlpool惠而浦 8TWGD5620HW 天然氣 瓦斯滾筒乾衣機 16公斤【福利品】 型號/規格不相符；LBJ Whirlpool 8TWGD5620HW: 生活市集 【生活市集】【Whirlpool 惠而浦】8TWGD5620HW 16公斤快烘瓦斯型滾筒乾衣 型號/規格不相符；LBJ Whirlpool 8TWGD5620HW: 博客來 Whirlpool 惠而浦 16公斤 8TWGD5620HW 快烘瓦斯型滾筒乾衣機 含標準安裝 型號/規格不相符。"
     }
   },
   {
@@ -438,17 +438,17 @@
     "category": "dryer",
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 6250,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 6250,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1259567367&cgp=7120",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【SANLUX 台灣三洋】台灣製◆5KG乾衣機(SD-66U8A)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【SANLUX 台灣三洋】台灣製◆5KG乾衣機(SD-66U8A)」最低價為 NT$6,250，最低點日期 2025-10-01。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -501,17 +501,17 @@
     "category": "dryer",
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 8536,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 8536,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1262246646&cgp=8536",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：(店+)【SANLUX 台灣三洋】7.5KG 乾衣機 (SD-85UA)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / (店+)【SANLUX 台灣三洋】7.5KG 乾衣機 (SD-85UA)」最低價為 NT$8,536，最低點日期 2026-07-09。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -564,17 +564,17 @@
     "category": "dryer",
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 7990,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 7990,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1275478746&cgp=7990",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【SANLUX 台灣三洋】家電快配◆台灣製7.5KG電子式乾衣機(SD-88U)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【SANLUX 台灣三洋】家電快配◆台灣製7.5KG電子式乾衣機(SD-88U)」最低價為 NT$7,990，最低點日期 2026-07-09。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -627,17 +627,17 @@
     "category": "dryer",
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 31920,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 31920,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1281361673&cgp=32310",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：Panasonic NH-VS100HP-B淨護熱泵乾衣機10kg(銀河藍)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「家樂福線上購物網 / Panasonic NH-VS100HP-B淨護熱泵乾衣機10kg(銀河藍)」最低價為 NT$31,920，最低點日期 2026-05-24。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -701,7 +701,7 @@
       "sourceKind": "not_found",
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ Whirlpool 8TWGD6622HW: 誠品線上 惠而浦【8TWGD6622HW】16公斤 快烘瓦斯型滾筒乾衣機-典雅白(含標準安裝)(含標準安裝) 型號/規格不相符；LBJ Whirlpool 8TWGD6622HW: 樂天市場 - 秀翔電器SS3C 秀翔電器SS3C Whirlpool 惠而浦 16公斤 8TWGD6622HW 快烘瓦斯型滾筒乾衣機 含標準安裝 型號/規格不相符；LBJ Whirlpool 8TWGD6622HW: 樂天市場 - 秀翔電器SS3C 秀翔電器SS3C 領券現折 Whirlpool 惠而浦 16公斤 8TWGD6622HW 快烘瓦斯型滾筒乾衣機 限期送標準安裝 型號/規格不相符。"
     }
   },
   {
@@ -754,17 +754,17 @@
     "category": "dryer",
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 7690,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 7690,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1257379067&cgp=7690",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：(店+)【SAMPO 聲寶】( SD-7C ) 7KG 智慧觸控式乾衣機",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / (店+)【SAMPO 聲寶】( SD-7C ) 7KG 智慧觸控式乾衣機」最低價為 NT$7,690，最低點日期 2026-07-09。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -818,17 +818,17 @@
     "category": "dryer",
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 35788,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 35788,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1268900195&cgp=35788",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：(店+)【HITACHI 日立】TD120XFVEM 熱泵滾筒乾衣機 12kg 變頻馬達 220V HITACHI 日立",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / (店+)【HITACHI 日立】TD120XFVEM 熱泵滾筒乾衣機 12kg 變頻馬達 220V HITACHI 日立」最低價為 NT$35,788，最低點日期 2026-07-09。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -882,17 +882,17 @@
     "category": "dryer",
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 9110,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 9110,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1158921499&cgp=9110",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：Panasonic授權彰化田中鈜大電器 【Panasonic】搭配架式乾衣機 (NH-L70G-L)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「樂天市場 - Panasonic授權彰化田中鈜大電器 / Panasonic授權彰化田中鈜大電器 【Panasonic】搭配架式乾衣機 (NH-L70G-L)」最低價為 NT$9,110，最低點日期 2026-07-09。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -945,17 +945,17 @@
     "category": "dryer",
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 8411,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 8411,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1257379066&cgp=8490",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：(店+)【SAMPO 聲寶】( SD-7B ) 7KG 乾衣機",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / (店+)【SAMPO 聲寶】( SD-7B ) 7KG 乾衣機」最低價為 NT$8,411，最低點日期 2025-11-01。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -1009,17 +1009,17 @@
     "category": "dryer",
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 6256,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 6256,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1262965919&cgp=6460",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：TATUNG大同 6KG乾衣機(TAW-D60T)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Yahoo購物中心 / TATUNG大同 6KG乾衣機(TAW-D60T)」最低價為 NT$6,256，最低點日期 2026-06-28。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -1072,17 +1072,17 @@
     "category": "dryer",
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 7191,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 7191,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1271416181&cgp=7191",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：HERAN禾聯 8KG 乾衣機 HDM-0841",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Yahoo購物中心 / HERAN禾聯 8KG 乾衣機 HDM-0841」最低價為 NT$7,191，最低點日期 2026-07-09。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -1135,17 +1135,17 @@
     "category": "dryer",
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 9080,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 9080,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1282722193&cgp=9080",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：(店+)【SANLUX 台灣三洋】ASD-80UA 8KG 電子式乾衣機 (含基本安裝)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / (店+)【SANLUX 台灣三洋】ASD-80UA 8KG 電子式乾衣機 (含基本安裝)」最低價為 NT$9,080，最低點日期 2026-07-09。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -1199,17 +1199,17 @@
     "category": "dryer",
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 36810,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 36810,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1263635920&cgp=40900",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：SAMSUNG 三星 10KG 智慧熱泵乾衣機 DV10DB7440GB/DV10DB7440GW 黑白",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Yahoo購物中心 / SAMSUNG 三星 10KG 智慧熱泵乾衣機 DV10DB7440GB/DV10DB7440GW 黑白」最低價為 NT$36,810，最低點日期 2026-03-11。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -1263,17 +1263,17 @@
     "category": "dryer",
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 49900,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 49900,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1271625974&cgp=49900",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：(店+)【BOSCH 博世】WQB245A0TC Heat Pump 速效乾衣機(除皺清新) 9 kg AutoDry智慧烘乾",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / (店+)【BOSCH 博世】WQB245A0TC Heat Pump 速效乾衣機(除皺清新) 9 kg AutoDry智慧烘乾」最低價為 NT$49,900，最低點日期 2026-07-09。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -1332,7 +1332,7 @@
       "sourceKind": "not_found",
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ Samsung DVG16CG8600WTW: 樂天市場 - 秀翔電器SS3C 秀翔電器SS3C SAMSUNG三星 BESPOKE 設計品味系列 蒸本事瓦斯型乾衣機 冰原白 DVG16CG8600WTW DVG16CG8600W 型號/規格不相符；LBJ Samsung DVG16CG8600WTW: 樂天市場 - 集雅社影音家電旗艦館 集雅社影音家電旗艦館 【滿萬折千+全館領券再折】SAMSUNG三星 DVG16CG8600WTW 16KG 蒸本事瓦斯型乾衣機 原廠公司貨 型號/規格不相符；LBJ Samsung DVG16CG8600WTW: Momo富邦購物 【Samsung 三星】16KG AI智慧控制蒸本事瓦斯型乾衣機(DVG16CG8600WTW) 型號/規格不相符。"
     }
   }
 ]);

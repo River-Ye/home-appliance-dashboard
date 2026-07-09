@@ -51,17 +51,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 3800,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 3800,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1103118861&cgp=3800",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：Panasonic授權彰化鹿港通用電器 Panasonic 電風扇 F-H16GND (16吋)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「樂天市場 - Panasonic授權彰化鹿港通用電器 / Panasonic授權彰化鹿港通用電器 Panasonic 電風扇 F-H16GND (16吋)」最低價為 NT$3,800，最低點日期 2026-07-09。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -109,17 +109,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 3125,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 3125,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1281898456&cgp=3125",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【SHARP 夏普】16吋 自動除菌離子變頻DC電風扇(PJ-PV16AT-W)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【SHARP 夏普】16吋 自動除菌離子變頻DC電風扇(PJ-PV16AT-W)」最低價為 NT$3,125，最低點日期 2026-07-09。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -167,17 +167,17 @@
     ],
     "releaseDate": "2025-05-28",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 8900,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 8900,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1283250660&cgp=8900",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：Dyson Cool™ CF1 智能涼風扇 AM12 (銀白色)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「7-ELEVEN線上購物 / Dyson Cool™ CF1 智能涼風扇 AM12 (銀白色)」最低價為 NT$8,900，最低點日期 2026-07-09。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -225,17 +225,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 1280,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 1280,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1243853975&cgp=1480",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：HERAN 禾聯 16吋ECO溫控智能變頻DC風扇 (HDF-16S6(S)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「PCHome購物 / HERAN 禾聯 16吋ECO溫控智能變頻DC風扇 (HDF-16S6(S)」最低價為 NT$1,280，最低點日期 2025-09-18。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -283,17 +283,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 1288,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 1288,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1218910755&cgp=1290",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：NWT 威技 NWT 16吋DC變頻直流電風扇WPF-16S7",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「PCHome購物 / NWT 威技 NWT 16吋DC變頻直流電風扇WPF-16S7」最低價為 NT$1,288，最低點日期 2026-05-14。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -341,17 +341,17 @@
     ],
     "releaseDate": "2025-05-13",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 2111,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 2111,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=531595480&cgp=2911",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：Panasonic 國際 F-S16LMD 16吋 DC 直流 經典型 電風扇 神腦生活",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「蝦皮商城 - 神腦生活 Senaonline / Panasonic 國際 F-S16LMD 16吋 DC 直流 經典型 電風扇 神腦生活」最低價為 NT$2,111，最低點日期 2026-02-25。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -399,17 +399,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 4100,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 4100,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1274856092&cgp=4100",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：(店+)【Panasonic 國際牌】Panasonic 國際 F-H14GND-K 14吋DC直流馬達電風扇",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / (店+)【Panasonic 國際牌】Panasonic 國際 F-H14GND-K 14吋DC直流馬達電風扇」最低價為 NT$4,100，最低點日期 2026-07-09。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -457,17 +457,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 4230,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 4230,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=530781806&cgp=4340",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：Panasonic nanoeX極靜型DC直流風扇 全新 F-H16LXD-K F-H14LXD-K",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「蝦皮商城 - 台北布里吉 / Panasonic nanoeX極靜型DC直流風扇 全新 F-H16LXD-K F-H14LXD-K」最低價為 NT$4,230，最低點日期 2025-07-09。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -515,17 +515,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 1329,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 1329,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1108699542&cgp=1349",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：Panasonic授權高雄三民菁泰電器 領卷$1349，領完為止 高雄門市免運 Panasonic國際牌 14吋微電腦DC直流電風扇 F-S14KM FS14KM DC扇",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「樂天市場 - Panasonic授權高雄三民菁泰電器 / Panasonic授權高雄三民菁泰電器 領卷$1349，領完為止 高雄門市免運 Panasonic國際牌 14吋微電腦DC直流電風扇 F-S14KM FS14KM DC扇」最低價為 NT$1,329，最低點日期 2026-04-09。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -573,17 +573,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 3320,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 3320,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1257462231&cgp=3591",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：(店+)【Panasonic 國際牌】Panasonic國際牌16吋金屬鋼柱電風扇F-L16GMD",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / (店+)【Panasonic 國際牌】Panasonic國際牌16吋金屬鋼柱電風扇F-L16GMD」最低價為 NT$3,320，最低點日期 2026-01-09。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -631,17 +631,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 2098,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 2098,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1274404819&cgp=2152",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【Panasonic 國際牌】14吋DC立扇 (F-S14QT)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【Panasonic 國際牌】14吋DC立扇 (F-S14QT)」最低價為 NT$2,098，最低點日期 2026-07-04。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -689,17 +689,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 1864,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 1864,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1274404820&cgp=1912",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【Panasonic 國際牌】12吋DC立扇 (F-S12QT)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【Panasonic 國際牌】12吋DC立扇 (F-S12QT)」最低價為 NT$1,864，最低點日期 2026-07-04。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -747,17 +747,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 2961,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 2961,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1274027962&cgp=2961",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：(店+)【SHARP 夏普】16吋 高級型變頻 DC 立扇 電風扇 PJ-DC16VT-W",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / (店+)【SHARP 夏普】16吋 高級型變頻 DC 立扇 電風扇 PJ-DC16VT-W」最低價為 NT$2,961，最低點日期 2026-07-09。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -805,17 +805,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 1861,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 1861,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1282083446&cgp=1861",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【SHARP 夏普】14吋 DC直流馬達伸縮立扇(PJ-V14A-W)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【SHARP 夏普】14吋 DC直流馬達伸縮立扇(PJ-V14A-W)」最低價為 NT$1,861，最低點日期 2026-07-09。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -863,17 +863,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 1320,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 1320,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1248767794&cgp=1510",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【SHARP 夏普】14吋 DC直流馬達遙控立扇(PJ-E14GE)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【SHARP 夏普】14吋 DC直流馬達遙控立扇(PJ-E14GE)」最低價為 NT$1,320，最低點日期 2026-04-17。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -931,7 +931,7 @@
       "sourceKind": "not_found",
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ Philips ACR2142SF: Momo富邦購物 (店+)【Philips 飛利浦】PHILIPS 12吋 窄邊框時尚風扇 【百年匠心系列】 電風扇 涼風扇 遙控風扇 循環扇 循環風扇 ACR2142SF 型號/規格不相符；LBJ Philips ACR2142SF: 蝦皮商城 - 萬家福線上購物 PHILIPS 12吋時尚美型風扇ACR2142SF 1台【萬家福】 型號/規格不相符；LBJ Philips ACR2142SF: 家樂福線上購物網 【Philips 飛利浦】12吋時尚美型風扇 ACR2142SF 型號/規格不相符。"
     }
   },
   {
@@ -989,7 +989,7 @@
       "sourceKind": "not_found",
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ Philips ACR3142CF: Momo富邦購物 (店+)【Philips 飛利浦】【PHILIPS飛利浦】ACR3142CF-DC立式循環扇 型號/規格不相符；LBJ Philips ACR3142CF: Momo富邦購物 (店+)【Philips 飛利浦】【PHILIPS 飛利浦】ACR3142CF PHILIPS 飛利浦 DC 立式循環扇 型號/規格不相符；LBJ Philips ACR3142CF: HOTAI購 【HOTAI購】【PHILIPS飛利浦】ACR3142CF-DC立式循環扇 型號/規格不相符。"
     }
   },
   {
@@ -1037,17 +1037,17 @@
     ],
     "releaseDate": "2026-03-17",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 2829,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 2829,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1254528733&cgp=2990",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：(店+)【Philips 飛利浦】全方位渦輪循環扇DC風扇電風扇ACR3342CFD",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / (店+)【Philips 飛利浦】全方位渦輪循環扇DC風扇電風扇ACR3342CFD」最低價為 NT$2,829，最低點日期 2025-07-09。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -1105,7 +1105,7 @@
       "sourceKind": "not_found",
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ Philips ACR3144WTF: Momo富邦購物 【Philips 飛利浦】負離子淨化DC直流塔式風扇 定時大廈扇 液晶觸控顯示-可遙控(ACR3144WTF) 型號/規格不相符；LBJ Philips ACR3144WTF: 蝦皮商城 - 綠風潮網路商城 飛利浦ACR3144WTF DC塔式風扇- 綠風潮 型號/規格不相符；LBJ Philips ACR3144WTF: Yahoo購物中心 【PHILIPS 飛利浦】DC塔式風扇 LED顯示 24H 定時調節 低噪音 遠距離遙控-ACR3144WTF 型號/規格不相符。"
     }
   },
   {
@@ -1163,7 +1163,7 @@
       "sourceKind": "not_found",
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ Philips AHR5164FD: 百利市購物中心 【百利市購物中心】飛利浦 DC冷暖兩用無扇葉風扇冷暖風扇無葉風扇電暖器【AHR5164FD】 型號/規格不相符；LBJ Philips AHR5164FD: HOTAI購 【HOTAI購】飛利浦【AHR5164FD】DC冷暖兩用無扇葉風扇冷暖風扇無葉風扇電暖器 型號/規格不相符；LBJ Philips AHR5164FD: 樂天市場 - 兆眾 兆眾 【APP 4%點數】【Philips 飛利浦】 DC冷暖兩用無扇葉風扇AHR5164FD 全新未拆封 台灣公司貨 此商品沒有7天鑑賞期 沒有辦法退貨 都是走維修保固 您可以在下單 型號/規格不相符。"
     }
   },
   {
@@ -1211,17 +1211,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 2389,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 2389,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1253336034&cgp=2999",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【Costco好市多】艾美特 DC 遙控大廈扇 FT89R Airmate DC Remote Control Tower Fan FT89R",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Costco好市多 / 【Costco好市多】艾美特 DC 遙控大廈扇 FT89R Airmate DC Remote Control Tower Fan FT89R」最低價為 NT$2,389，最低點日期 2026-04-13。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -1282,7 +1282,7 @@
       "sourceKind": "not_found",
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ DeWALT DXF1645A: 蝦皮購物 - vk110501 DeWALT得偉 40公分 Drum Fan風扇 DXF1645A渦流扇循環扇 工業電扇可直立掛勾、壁掛#9631000 非採用通路或含排除條件；LBJ DXF1645A: 蝦皮購物 - vk110501 DeWALT得偉 40公分 Drum Fan風扇 DXF1645A渦流扇循環扇 工業電扇可直立掛勾、壁掛#9631000 非採用通路或含排除條件；BigGo DeWALT DXF1645A: 查詢失敗 429 https://biggo.com.tw/api/v1/spa/search/DeWALT%20DXF1645A/product?p=1。"
     }
   },
   {
@@ -1333,17 +1333,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 1679,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 1679,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1250880568&cgp=2099",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【Costco好市多】艾美特 14吋DC 直流遙控立扇 FS35150R Airmate 14 inch DC Inverter Stand Fan FS35150R",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Costco好市多 / 【Costco好市多】艾美特 14吋DC 直流遙控立扇 FS35150R Airmate 14 inch DC Inverter Stand Fan FS35150R」最低價為 NT$1,679，最低點日期 2025-07-21。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   }
 ]);

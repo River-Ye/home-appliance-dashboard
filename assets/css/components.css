@@ -519,10 +519,12 @@ a:focus-visible {
   grid-template-columns: minmax(0, 1fr) auto;
   gap: 10px;
   align-items: start;
+  min-width: 0;
   padding: 12px;
   background: #f8fafc;
   border: 1px solid var(--line);
   border-radius: 8px;
+  overflow: hidden;
 }
 
 .price-row > div:first-child {
@@ -544,11 +546,14 @@ a:focus-visible {
 
 .price-insight {
   grid-column: 1 / -1;
+  width: 100%;
+  max-width: 100%;
   min-width: 0;
   padding: 10px;
   background: #fff;
   border: 1px solid var(--line);
   border-radius: 8px;
+  contain: layout;
   overflow-wrap: anywhere;
 }
 

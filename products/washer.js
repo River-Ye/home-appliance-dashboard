@@ -58,17 +58,17 @@
     "category": "washer",
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 15116,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 15116,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1254399827&cgp=15899",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：LG樂金 WT-VDN12HM 12KG 直驅變頻直立洗衣機 曜石黑 贈基本安裝 (獨家贈好禮)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Yahoo購物中心 / LG樂金 WT-VDN12HM 12KG 直驅變頻直立洗衣機 曜石黑 贈基本安裝 (獨家贈好禮)」最低價為 NT$15,116，最低點日期 2025-11-04。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -134,7 +134,7 @@
       "sourceKind": "not_found",
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ LG WT-TD16HW: Yahoo購物中心 LG 樂金 16公斤 AI DD 蒸氣直驅變頻洗衣機-雲朵白(WT-TD16HW) 型號/規格不相符；LBJ LG WT-TD16HW: Momo富邦購物 (店+)【LG 樂金】WT-TD16HW 16公斤直立式洗衣機 EZ 系列｜雲朵白｜AI DD™ 蒸氣直驅變頻 (含基本安裝) 型號/規格不相符；LBJ LG WT-TD16HW: Yahoo購物中心 LG樂金 16公斤 AI DD 蒸氣直驅變頻洗衣機 雲朵白 WT-TD16HW 型號/規格不相符。"
     }
   },
   {
@@ -200,7 +200,7 @@
       "sourceKind": "not_found",
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ LG WT-TD18OB: Yahoo購物中心 LG 樂金 18公斤 AI DD 直驅變頻洗衣機-瑪瑙黑(WT-TD18OB) 型號/規格不相符；LBJ LG WT-TD18OB: Momo富邦購物 (店+)【LG 樂金】18公斤 AI DD 直驅變頻洗衣機 瑪瑙黑 WT-TD18OB 型號/規格不相符；LBJ LG WT-TD18OB: Momo富邦購物 (店+)【LG 樂金】WT-TD18OB 18公斤直立式洗衣機 EZ 系列｜瑪瑙黑｜AI DD™ 直驅變頻 (含基本安裝) 型號/規格不相符。"
     }
   },
   {
@@ -256,17 +256,17 @@
     "category": "washer",
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 20554,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 20554,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1259200332&cgp=21510",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【Panasonic 國際牌】19Kg雙科技直立式不銹鋼變頻洗衣機(NA-V190MT-PN)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【Panasonic 國際牌】19Kg雙科技直立式不銹鋼變頻洗衣機(NA-V190MT-PN)」最低價為 NT$20,554，最低點日期 2025-11-11。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -322,17 +322,17 @@
     "category": "washer",
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 20610,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 20610,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=531606082&cgp=20610",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：Panasonic 國際 NA-V150NM-PN 15KG 直立式變頻洗衣機 玫瑰金 神腦生活",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「蝦皮商城 - 神腦生活 Senaonline / Panasonic 國際 NA-V150NM-PN 15KG 直立式變頻洗衣機 玫瑰金 神腦生活」最低價為 NT$20,610，最低點日期 2026-07-09。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -388,17 +388,17 @@
     "category": "washer",
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 15490,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 15490,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1129954923&cgp=17010",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【Panasonic 國際牌】13kg 雙科技變頻直立式洗衣機(NA-V130LB-L)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【Panasonic 國際牌】13kg 雙科技變頻直立式洗衣機(NA-V130LB-L)」最低價為 NT$15,490，最低點日期 2025-12-26。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -464,7 +464,7 @@
       "sourceKind": "not_found",
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ LG WD-S13VBW: Yahoo購物中心 LG 樂金 WD-S13VBW 13公斤蒸洗脫WiFi滾筒洗衣機 冰磁白 客約賣場 (獨家送好禮) 型號/規格不相符；LBJ LG WD-S13VBW: Yahoo購物中心 LG樂金 13公斤 蒸氣滾筒洗衣機 蒸洗脫 冰磁白 WD-S13VBW 型號/規格不相符；LBJ LG WD-S13VBW: Yahoo購物中心 LG 樂金 13公斤 Wi-Fi 蒸氣滾筒洗衣機(蒸洗脫)-冰瓷白(WD-S13VBW)(送基本安裝) 型號/規格不相符。"
     }
   },
   {
@@ -520,17 +520,17 @@
     "category": "washer",
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 7590,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 7590,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1205228394&cgp=7990",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：SAMPO 聲寶10公斤窄身變頻單槽直立式洗衣機WM-MD10 香檳金含基本安裝+舊機回收",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Yahoo購物中心 / SAMPO 聲寶10公斤窄身變頻單槽直立式洗衣機WM-MD10 香檳金含基本安裝+舊機回收」最低價為 NT$7,590，最低點日期 2025-09-15。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -586,17 +586,17 @@
     "category": "washer",
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 8450,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 8450,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=531629797&cgp=8900",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：Panasonic 國際 NA-90EB-W 9KG 直立式 洗衣機 神腦生活",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「蝦皮商城 - 神腦生活 Senaonline / Panasonic 國際 NA-90EB-W 9KG 直立式 洗衣機 神腦生活」最低價為 NT$8,450，最低點日期 2025-12-14。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -652,17 +652,17 @@
     "category": "washer",
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 5090,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 5090,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1230887946&cgp=6390",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：Whirlpool惠而浦 10公斤 直立洗衣機 WM10KW",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Yahoo購物中心 / Whirlpool惠而浦 10公斤 直立洗衣機 WM10KW」最低價為 NT$5,090，最低點日期 2025-04-16。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -728,7 +728,7 @@
       "sourceKind": "not_found",
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ Whirlpool WM07PW: Momo富邦購物 【Whirlpool 惠而浦】家電快配7公斤 直立洗衣機(WM07PW) 型號/規格不相符；LBJ Whirlpool WM07PW: 蝦皮商城 - Whirlpool 惠而浦旗艦館 Whirlpool惠而浦 WM07PW 直立洗衣機 7公斤 (租屋族首選小容量洗衣機) 型號/規格不相符；LBJ Whirlpool WM07PW: Yahoo購物中心 Whirlpool惠而浦 7公斤 直立洗衣機 WM07PW 型號/規格不相符。"
     }
   },
   {
@@ -784,17 +784,17 @@
     "category": "washer",
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 7800,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 7800,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1247899074&cgp=8233",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：HERAN禾聯 10KG變頻洗衣機 HWM-1061V",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Yahoo購物中心 / HERAN禾聯 10KG變頻洗衣機 HWM-1061V」最低價為 NT$7,800，最低點日期 2026-06-09。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -850,17 +850,17 @@
     "category": "washer",
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 8490,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 8490,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1273123033&cgp=8490",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：(店+)【SAMPO 聲寶】❞原廠控價,私訊有優惠❞ ES-K10DF 10公斤 窄身變頻單槽直立式洗衣機",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / (店+)【SAMPO 聲寶】❞原廠控價,私訊有優惠❞ ES-K10DF 10公斤 窄身變頻單槽直立式洗衣機」最低價為 NT$8,490，最低點日期 2026-07-09。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -916,17 +916,17 @@
     "category": "washer",
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 11111,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 11111,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1205228330&cgp=11900",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：SAMPO聲寶 13KG 台灣製變頻直立式洗衣機 WM-MD13 含基本安裝+舊機回收",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Yahoo購物中心 / SAMPO聲寶 13KG 台灣製變頻直立式洗衣機 WM-MD13 含基本安裝+舊機回收」最低價為 NT$11,111，最低點日期 2023-10-23。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -982,17 +982,17 @@
     "category": "washer",
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 8690,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 8690,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1251240925&cgp=8690",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【SAMPO 聲寶】《家電快配》12.5KG 定頻直立式洗衣機(ES-B13F)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【SAMPO 聲寶】《家電快配》12.5KG 定頻直立式洗衣機(ES-B13F)」最低價為 NT$8,690，最低點日期 2026-07-09。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -1058,7 +1058,7 @@
       "sourceKind": "not_found",
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ Whirlpool WM10GN: 樂天市場 - JT3C JT3C Whirlpool 惠而浦 Duo Wash 10公斤 直立洗衣機 WM10GN 洗衣機 型號/規格不相符；LBJ Whirlpool WM10GN: 誠品線上 惠而浦【WM10GN 】10公斤強化玻璃上蓋定頻直立式洗衣機/節能省水雙認證-摩卡黑 (含標準安裝) 型號/規格不相符；LBJ Whirlpool WM10GN: 蝦皮商城 - 元元生活家電館 (輸碼93折 HEJULML93SP)Whirlpool 惠而浦 10公斤直立洗衣機 WM10GN 限區含配送安裝 型號/規格不相符。"
     }
   },
   {
@@ -1114,17 +1114,17 @@
     "category": "washer",
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 16544,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 16544,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1205228328&cgp=17460",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【SANLUX 台灣三洋】13KG 變頻直立式超音波洗衣機 SW-13DVGS (內外不鏽鋼)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Yahoo購物中心 / 【SANLUX 台灣三洋】13KG 變頻直立式超音波洗衣機 SW-13DVGS (內外不鏽鋼)」最低價為 NT$16,544，最低點日期 2025-10-18。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -1179,17 +1179,17 @@
     "category": "washer",
     "releaseDate": "2023",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 5272,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 5272,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1191194503&cgp=5391",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：HERAN禾聯 6.5KG全自動洗衣機 HWM-0691",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Yahoo購物中心 / HERAN禾聯 6.5KG全自動洗衣機 HWM-0691」最低價為 NT$5,272，最低點日期 2025-11-07。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -1245,17 +1245,17 @@
     "category": "washer",
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 17900,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 17900,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1261206562&cgp=17900",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：(店+)【Samsung 三星】WW12BB744DGBTW 12KG 蒸洗脫智慧滾筒洗衣機 (含基本安裝)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / (店+)【Samsung 三星】WW12BB744DGBTW 12KG 蒸洗脫智慧滾筒洗衣機 (含基本安裝)」最低價為 NT$17,900，最低點日期 2026-07-09。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -1311,17 +1311,17 @@
     "category": "washer",
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 17363,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 17363,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1274371527&cgp=17900",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【SANLUX台灣三洋】15KG 變頻直立式洗衣機 SW-V15N",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Yahoo購物中心 / 【SANLUX台灣三洋】15KG 變頻直立式洗衣機 SW-V15N」最低價為 NT$17,363，最低點日期 2026-06-11。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -1381,7 +1381,7 @@
       "sourceKind": "not_found",
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ SHARP ES-ASF10T: Yahoo購物中心 SHARP夏普10公斤變頻無孔槽洗衣機ES-ASF10T 型號/規格不相符；LBJ SHARP ES-ASF10T: 百利市購物中心 【百利市購物中心】SHARP夏普 10公斤變頻無孔槽洗衣機(含標準安裝).【ES-ASF10T】 型號/規格不相符；LBJ SHARP ES-ASF10T: HOTAI購 【HOTAI購】SHARP夏普【ES-ASF10T】10公斤變頻無孔槽洗衣機(含標準安裝). 型號/規格不相符。"
     }
   },
   {
@@ -1433,17 +1433,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 12799,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 12799,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1262080533&cgp=15999",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【Costco好市多】Samsung 13公斤 AI 智慧控制直立洗衣機 WA80F13S5LTW Samsung 13 kg AI Top Load Washer WA80F13S5LTW",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Costco好市多 / 【Costco好市多】Samsung 13公斤 AI 智慧控制直立洗衣機 WA80F13S5LTW Samsung 13 kg AI Top Load Washer WA80F13S5LTW」最低價為 NT$12,799，最低點日期 2026-06-09。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -1505,7 +1505,7 @@
       "sourceKind": "not_found",
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ Panasonic NA-V120HW: 樂天市場 - Panasonic授權台南東區東隆電器 Panasonic授權台南東區東隆電器 Panasonic 滾筒洗衣機 NA-V120HW 型號/規格不相符；LBJ Panasonic NA-V120HW: 樂天市場 - Panasonic授權澎湖上眾電器 Panasonic授權澎湖上眾電器 領券獨家最高9折 Panasonic 滾筒洗衣機 NA-V120HW 型號/規格不相符；LBJ Panasonic NA-V120HW: 樂天市場 - Panasonic授權宜蘭頭城群大電器 Panasonic授權宜蘭頭城群大電器 Panasonic 滾筒洗衣機 NA-V120HW 型號/規格不相符。"
     }
   }
 ]);

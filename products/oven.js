@@ -51,17 +51,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 13300,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 13300,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1182026868&cgp=14060",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：Panasonic授權彰化鹿港通用電器 【Panasonic】27L蒸烘烤微波爐(NN-BS607)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「樂天市場 - Panasonic授權彰化鹿港通用電器 / Panasonic授權彰化鹿港通用電器 【Panasonic】27L蒸烘烤微波爐(NN-BS607)」最低價為 NT$13,300，最低點日期 2024-02-23。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -109,17 +109,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 16900,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 16900,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1256872026&cgp=16900",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：Whirlpool惠而浦 26L 8合1變頻氣炸蒸烤微波爐 MWP269TMT(雲霧白)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Yahoo購物中心 / Whirlpool惠而浦 26L 8合1變頻氣炸蒸烤微波爐 MWP269TMT(雲霧白)」最低價為 NT$16,900，最低點日期 2026-07-03。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -167,17 +167,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 19399,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 19399,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1237928674&cgp=19399",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【Panasonic 國際牌】30L蒸烘烤微波爐(NN-BS807)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【Panasonic 國際牌】30L蒸烘烤微波爐(NN-BS807)」最低價為 NT$19,399，最低點日期 2026-07-09。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -225,17 +225,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 26618,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 26618,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1113850119&cgp=27600",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【SHARP 夏普】30L Healsio炙燒水波爐-番茄紅(AX-XP10T-R)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【SHARP 夏普】30L Healsio炙燒水波爐-番茄紅(AX-XP10T-R)」最低價為 NT$26,618，最低點日期 2026-06-22。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -293,7 +293,7 @@
       "sourceKind": "not_found",
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：BigGo Breville Joule Oven Air Fryer Pro: 查詢失敗 429 https://biggo.com.tw/api/v1/spa/search/Breville%20Joule%20Oven%20Air%20Fryer%20Pro/product?p=1；BigGo Joule Oven Air Fryer Pro: 查詢失敗 429 https://biggo.com.tw/api/v1/spa/search/Joule%20Oven%20Air%20Fryer%20Pro/product?p=1。"
     }
   },
   {
@@ -341,17 +341,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 6810,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 6810,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1237709323&cgp=8990",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【only這夏不煩了~省電又優惠！】only微波大師27L氣炸烤箱微波爐OM27-M54質感黑(節能標章27公升/乾果/舒肥/優格/氣炸鍋)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「東森購物 / 【only這夏不煩了~省電又優惠！】only微波大師27L氣炸烤箱微波爐OM27-M54質感黑(節能標章27公升/乾果/舒肥/優格/氣炸鍋)」最低價為 NT$6,810，最低點日期 2026-01-09。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -399,17 +399,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 7618,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 7618,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1198493665&cgp=8699",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【Cuisinart 美膳雅】25.5L三合一微波氣炸烤箱/微波爐(AMW-90TW)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【Cuisinart 美膳雅】25.5L三合一微波氣炸烤箱/微波爐(AMW-90TW)」最低價為 NT$7,618，最低點日期 2026-06-17。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -457,17 +457,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 26200,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 26200,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1248393152&cgp=27900",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【Panasonic 國際牌】30L蒸烘烤微波爐(NN-BS1700)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【Panasonic 國際牌】30L蒸烘烤微波爐(NN-BS1700)」最低價為 NT$26,200，最低點日期 2025-11-11。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -515,17 +515,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 22900,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 22900,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1256717462&cgp=22900",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：Whirlpool惠而浦 32L 8合1變頻氣炸蒸烤微波爐 MWP329TST (大地棕)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Yahoo購物中心 / Whirlpool惠而浦 32L 8合1變頻氣炸蒸烤微波爐 MWP329TST (大地棕)」最低價為 NT$22,900，最低點日期 2026-07-03。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -573,17 +573,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 9999,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 9999,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1214254926&cgp=9999",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【Cuisinart 美膳雅】20L多功能蒸氣氣炸烤箱(CSO-500TW)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【Cuisinart 美膳雅】20L多功能蒸氣氣炸烤箱(CSO-500TW)」最低價為 NT$9,999，最低點日期 2026-07-09。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -631,17 +631,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 8699,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 8699,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1115702197&cgp=9999",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【Whirlpool 惠而浦】☆25公升獨立萬用式蒸烤爐WSO2500B(蒸氣.烘烤.旋風.發酵.烘培.附食譜)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【Whirlpool 惠而浦】☆25公升獨立萬用式蒸烤爐WSO2500B(蒸氣.烘烤.旋風.發酵.烘培.附食譜)」最低價為 NT$8,699，最低點日期 2023-12-10。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -689,17 +689,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 35550,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 35550,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1258356320&cgp=38800",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【SHARP 夏普】30L Healsio AIoT智慧連網水波爐-星燦銀(AX-XW10T-S)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【SHARP 夏普】30L Healsio AIoT智慧連網水波爐-星燦銀(AX-XW10T-S)」最低價為 NT$35,550，最低點日期 2026-06-27。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -757,7 +757,7 @@
       "sourceKind": "not_found",
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ Panasonic NU-SC180B: 樂天市場 - Panasonic授權新北新莊淯麒電器 Panasonic授權新北新莊淯麒電器 現貨領券獨家最高9折 Panasonic 蒸氣烘烤爐NU-SC180B 型號/規格不相符；LBJ Panasonic NU-SC180B: Momo富邦購物 (店+)【Panasonic 國際牌】Panasonic國際牌20公升蒸氣烘烤爐NU-SC180B 型號/規格不相符；LBJ Panasonic NU-SC180B: 樂天市場 - Panasonic授權新竹東區誼鴻電器 Panasonic授權新竹東區誼鴻電器 Panasonic 蒸氣烘烤爐NU-SC180B 型號/規格不相符。"
     }
   },
   {
@@ -805,17 +805,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 22900,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 22900,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=543539465&cgp=23900",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【77限時優惠】SHARP夏普 AX-XS10T 31L 極智烘烤系列 水波爐 全新公司貨",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「蝦皮商城 - 集盛電器旗艦館 / 【77限時優惠】SHARP夏普 AX-XS10T 31L 極智烘烤系列 水波爐 全新公司貨」最低價為 NT$22,900，最低點日期 2026-06-26。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -863,17 +863,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 13800,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 13800,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1220958919&cgp=14800",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【Whirlpool 惠而浦】32公升獨立式萬用蒸烤爐WSO322EB(蒸氣.烘烤.旋風.發酵.烘培.附食譜)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【Whirlpool 惠而浦】32公升獨立式萬用蒸烤爐WSO322EB(蒸氣.烘烤.旋風.發酵.烘培.附食譜)」最低價為 NT$13,800，最低點日期 2026-06-09。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -921,17 +921,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 14900,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 14900,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1237158192&cgp=14900",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【LG 樂金】39L智慧變頻蒸烘烤微波爐(MJ3965BCP)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【LG 樂金】39L智慧變頻蒸烘烤微波爐(MJ3965BCP)」最低價為 NT$14,900，最低點日期 2026-07-03。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -979,17 +979,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 14900,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 14900,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1257411117&cgp=14900",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：(店+)【HITACHI 日立】22L過熱水蒸氣烘烤微波爐MRO-VS700T-R(預購)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / (店+)【HITACHI 日立】22L過熱水蒸氣烘烤微波爐MRO-VS700T-R(預購)」最低價為 NT$14,900，最低點日期 2026-07-09。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -1037,17 +1037,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 21900,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 21900,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1257517653&cgp=21900",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：(店+)【HITACHI 日立】HITACHI 日立 31L 過熱水蒸氣烘烤微波爐 泰國製 MROS800AT / MRO-S800AT",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / (店+)【HITACHI 日立】HITACHI 日立 31L 過熱水蒸氣烘烤微波爐 泰國製 MROS800AT / MRO-S800AT」最低價為 NT$21,900，最低點日期 2026-07-09。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -1095,17 +1095,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 45748,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 45748,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1270572353&cgp=46722",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：HITACHI 日立 過熱水蒸氣烘烤微波爐 MROBK5000AT",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Yahoo購物中心 / HITACHI 日立 過熱水蒸氣烘烤微波爐 MROBK5000AT」最低價為 NT$45,748，最低點日期 2026-06-10。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -1153,17 +1153,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 36453,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 36453,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1158734616&cgp=43920",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【SVAGO】全省安裝 蒸烘烤變頻微波爐(VE8966)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【SVAGO】全省安裝 蒸烘烤變頻微波爐(VE8966)」最低價為 NT$36,453，最低點日期 2025-10-25。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -1211,17 +1211,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 2999,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 2999,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1260489680&cgp=2999",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【Costco好市多】BRUNO 多功能氣炸烤箱 BXM301-IV-KE BRUNO Air Fryer Oven BXM301-IV-KE",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Costco好市多 / 【Costco好市多】BRUNO 多功能氣炸烤箱 BXM301-IV-KE BRUNO Air Fryer Oven BXM301-IV-KE」最低價為 NT$2,999，最低點日期 2026-07-09。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -1282,7 +1282,7 @@
       "sourceKind": "not_found",
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ Gourmia GAF858: 樂天市場 - 玉山最低比價網 玉山最低比價網 [COSCO代購6] C6232432 Gourmia 數位氣炸鍋 GAF858 型號/規格不相符；LBJ Gourmia GAF858: 樂天市場 - 及時雨 高壓恢復選品 及時雨 高壓恢復選品 Gourmia 數位氣炸鍋 GAF858 型號/規格不相符；LBJ Gourmia GAF858: 樂天市場 - 玉山最低比價網 玉山最低比價網 [COSCO代購6] D6232432 Gourmia 數位氣炸鍋 GAF858 型號/規格不相符。"
     }
   },
   {
@@ -1333,17 +1333,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 15899,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 15899,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1212821458&cgp=19999",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【Costco好市多】夏普 26公升水波爐 AX-AS10T(W) SHARP 26 L Healsio Water Oven AX-AS10T(W)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Costco好市多 / 【Costco好市多】夏普 26公升水波爐 AX-AS10T(W) SHARP 26 L Healsio Water Oven AX-AS10T(W)」最低價為 NT$15,899，最低點日期 2026-04-13。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   }
 ]);

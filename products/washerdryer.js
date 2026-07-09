@@ -68,7 +68,7 @@
       "sourceKind": "not_found",
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ LG WD-S90VDW: Yahoo購物中心 LG樂金 9公斤WiFi蒸洗脫烘滾筒洗衣機 WD-S90VDW 贈基本安裝 (獨家送好禮) 型號/規格不相符；LBJ LG WD-S90VDW: 三井3C購物網 【三井3C購物網】【LG 樂金】WD-S90VDW 9KG 蒸洗脫烘滾筒洗衣機 典雅白｜含基本安裝 非採用通路或含排除條件；LBJ LG WD-S90VDW: 蝦皮商城 - LG旗艦館 LG樂金 WD-S90VDW 滾筒洗衣機(蒸洗脫烘)/ 9公斤 送HAPADO單柄歐洲鍋 型號/規格不相符。"
     }
   },
   {
@@ -134,7 +134,7 @@
       "sourceKind": "not_found",
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ Whirlpool WWEB10701BS: 誠品線上 惠而浦【WWEB10701BS】10.5公斤洗脫烘滾筒洗衣機(含含標準安裝) 型號/規格不相符；LBJ Whirlpool WWEB10701BS: Yahoo購物中心 Whirlpool惠而浦 10.5公斤洗脫烘滾筒洗衣機 WWEB10701BS 型號/規格不相符；LBJ Whirlpool WWEB10701BS: 順發線上購物 【順發線上購物】Whirlpool WWEB10701BS 10.5KG 滾筒洗脫烘洗衣機 非採用通路或含排除條件。"
     }
   },
   {
@@ -190,17 +190,17 @@
     "category": "washerdryer",
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 15850,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 15850,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1273304453&cgp=17388",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：(店+)【HITACHI 日立】原廠控價 私訊我更便宜 BDD1054HVO 滾筒洗脫烘10.5kg 左開洗衣機(含基本安裝)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / (店+)【HITACHI 日立】原廠控價 私訊我更便宜 BDD1054HVO 滾筒洗脫烘10.5kg 左開洗衣機(含基本安裝)」最低價為 NT$15,850，最低點日期 2026-04-10。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -266,7 +266,7 @@
       "sourceKind": "not_found",
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ Whirlpool WEHC10BBS: Momo富邦購物 【Whirlpool 惠而浦】家電快配10公斤Essential Clean溫水洗脫烘變頻滾筒洗衣機(WEHC10BBS) 型號/規格不相符；LBJ Whirlpool WEHC10BBS: Yahoo購物中心 Whirlpool惠而浦 10公斤洗脫烘滾筒洗衣機 WEHC10BBS 型號/規格不相符；LBJ Whirlpool WEHC10BBS: 順發線上購物 【順發線上購物】Whirlpool WEHC10BBS 10KG 滾筒洗脫烘洗衣機 非採用通路或含排除條件。"
     }
   },
   {
@@ -322,17 +322,17 @@
     "category": "washerdryer",
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 19900,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 19900,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1273421832&cgp=19900",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【Samsung 三星】12KG AI衣管家蒸洗脫烘滾筒洗衣機 (WD12T504DBN/TW)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【Samsung 三星】12KG AI衣管家蒸洗脫烘滾筒洗衣機 (WD12T504DBN/TW)」最低價為 NT$19,900，最低點日期 2026-07-09。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -388,17 +388,17 @@
     "category": "washerdryer",
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 43032,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 43032,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1270923180&cgp=43032",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【Panasonic 國際牌】17KG 智能聯網系列 變頻溫水洗脫烘滾筒洗衣機(NA-V170MDH-W)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【Panasonic 國際牌】17KG 智能聯網系列 變頻溫水洗脫烘滾筒洗衣機(NA-V170MDH-W)」最低價為 NT$43,032，最低點日期 2026-07-09。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -464,7 +464,7 @@
       "sourceKind": "not_found",
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ LG WD-S13VDW: 博客來 LG樂金13公斤滾筒洗衣機 (蒸洗脫烘)WD-S13VDW(冰瓷白) 型號/規格不相符；LBJ LG WD-S13VDW: Yahoo購物中心 LG樂金 WD-S13VDW 13公斤 蒸洗脫烘 蒸氣滾筒洗衣機 型號/規格不相符；LBJ LG WD-S13VDW: 博客來 【限時優惠】LG 樂金 WD-S13VDW 13公斤 蒸洗脫烘 蒸氣滾筒洗衣機 型號/規格不相符。"
     }
   },
   {
@@ -520,17 +520,17 @@
     "category": "washerdryer",
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 39533,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 39533,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1223488154&cgp=43563",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：Whirlpool惠而浦 17/10kg 洗脫烘滾筒洗衣機 8TWFC6820LW",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Yahoo購物中心 / Whirlpool惠而浦 17/10kg 洗脫烘滾筒洗衣機 8TWFC6820LW」最低價為 NT$39,533，最低點日期 2024-07-09。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -586,17 +586,17 @@
     "category": "washerdryer",
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 32172,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 32172,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1130764808&cgp=34021",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【HITACHI 日立】10KG 日製變頻直立洗脫烘洗衣機(BWDV100EJ-N)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【HITACHI 日立】10KG 日製變頻直立洗脫烘洗衣機(BWDV100EJ-N)」最低價為 NT$32,172，最低點日期 2025-05-10。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -652,17 +652,17 @@
     "category": "washerdryer",
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 44896,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 44896,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1255027399&cgp=46111",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：LG樂金 WD-S18NDB 18KG 洗脫烘 AIDD直驅變頻蒸氣滾筒洗衣機 殺菌除螨 夜墨灰",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Yahoo購物中心 / LG樂金 WD-S18NDB 18KG 洗脫烘 AIDD直驅變頻蒸氣滾筒洗衣機 殺菌除螨 夜墨灰」最低價為 NT$44,896，最低點日期 2025-10-21。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -718,17 +718,17 @@
     "category": "washerdryer",
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 31960,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 31960,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1261206564&cgp=38900",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：(店+)【Samsung 三星】原廠控價 私訊我更便宜 WD12DB9B84GNTW 12KG 蒸洗脫烘智慧變頻滾筒洗衣機(含基本安裝)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / (店+)【Samsung 三星】原廠控價 私訊我更便宜 WD12DB9B84GNTW 12KG 蒸洗脫烘智慧變頻滾筒洗衣機(含基本安裝)」最低價為 NT$31,960，最低點日期 2025-11-11。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -784,17 +784,17 @@
     "category": "washerdryer",
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 34900,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 34900,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1258788832&cgp=38900",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：(店+)【Samsung 三星】WD12DB9B84GDTW 12+7KG BESPOKE設計品味系列 蒸洗脫烘智慧變頻滾筒洗衣機",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / (店+)【Samsung 三星】WD12DB9B84GDTW 12+7KG BESPOKE設計品味系列 蒸洗脫烘智慧變頻滾筒洗衣機」最低價為 NT$34,900，最低點日期 2025-11-08。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -850,17 +850,17 @@
     "category": "washerdryer",
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 21390,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 21390,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=632883320&cgp=22410",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：Panasonic 12KG 變頻 滾筒 洗脫烘 洗衣機 晶漾銀 國際 NA-V120HDH-G 贈餐盤組",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「蝦皮商城 - 國際牌旗艦館 / Panasonic 12KG 變頻 滾筒 洗脫烘 洗衣機 晶漾銀 國際 NA-V120HDH-G 贈餐盤組」最低價為 NT$21,390，最低點日期 2025-10-25。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -926,7 +926,7 @@
       "sourceKind": "not_found",
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：BigGo LG WD-S18DNB: 查詢失敗 429 https://biggo.com.tw/api/v1/spa/search/LG%20WD-S18DNB/product?p=1；BigGo WD-S18DNB: 查詢失敗 429 https://biggo.com.tw/api/v1/spa/search/WD-S18DNB/product?p=1。"
     }
   },
   {
@@ -982,17 +982,17 @@
     "category": "washerdryer",
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 28720,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 28720,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1198475172&cgp=32900",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【Whirlpool 惠而浦】58H快配15公斤 Load & Go蒸氣洗脫烘變頻滾筒洗衣機(8TWFC6810LW)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【Whirlpool 惠而浦】58H快配15公斤 Load & Go蒸氣洗脫烘變頻滾筒洗衣機(8TWFC6810LW)」最低價為 NT$28,720，最低點日期 2024-07-24。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -1058,7 +1058,7 @@
       "sourceKind": "not_found",
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ Toshiba TWD-BJ130M4G: Yahoo購物中心 TOSHIBA東芝 TWD-BJ130M4G 12公斤 變頻溫水洗脫烘滾筒洗衣機 白色 型號/規格不相符；LBJ Toshiba TWD-BJ130M4G: 樂天市場 - 愛買線上購物 愛買線上購物 TOSHIBA東芝12KG洗脫烘變頻滾筒洗衣機TWD-BJ130M4G含配送+安裝【愛買】 非採用通路或含排除條件；LBJ Toshiba TWD-BJ130M4G: 蝦皮商城 - 愛買線上購物 TOSHIBA東芝12KG洗脫烘變頻滾筒洗衣機TWD-BJ130M4G含配送+安裝【愛買】 非採用通路或含排除條件。"
     }
   },
   {
@@ -1114,17 +1114,17 @@
     "category": "washerdryer",
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 34506,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 34506,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1270194144&cgp=34873",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：Panasonic 國際牌 15/10kg滾筒式溫水洗脫烘ECONAVI變頻洗衣機 NA-V150MDH -含基本安裝+舊機回收",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Yahoo購物中心 / Panasonic 國際牌 15/10kg滾筒式溫水洗脫烘ECONAVI變頻洗衣機 NA-V150MDH -含基本安裝+舊機回收」最低價為 NT$34,506，最低點日期 2026-06-18。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -1180,17 +1180,17 @@
     "category": "washerdryer",
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 16443,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 16443,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1271029263&cgp=17800",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：(店+)【SANLUX 台灣三洋】AWD-1260KA 12公斤變頻洗脫烘滾筒洗衣機(含基本安裝)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / (店+)【SANLUX 台灣三洋】AWD-1260KA 12公斤變頻洗脫烘滾筒洗衣機(含基本安裝)」最低價為 NT$16,443，最低點日期 2026-05-13。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -1246,17 +1246,17 @@
     "category": "washerdryer",
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 20900,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 20900,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1282948884&cgp=20900",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【SANLUX 台灣三洋】13KG 變頻洗脫烘滾筒洗衣機 AWD-1390HA",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Yahoo購物中心 / 【SANLUX 台灣三洋】13KG 變頻洗脫烘滾筒洗衣機 AWD-1390HA」最低價為 NT$20,900，最低點日期 2026-07-09。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -1312,17 +1312,17 @@
     "category": "washerdryer",
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 15888,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 15888,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1249491901&cgp=15888",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：(店+)【SAMPO 聲寶】贈7-11商品卡 3000元 10/6kg變頻滾筒洗脫烘洗衣機ES-ND10DH 含基本安裝+舊機回收",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / (店+)【SAMPO 聲寶】贈7-11商品卡 3000元 10/6kg變頻滾筒洗脫烘洗衣機ES-ND10DH 含基本安裝+舊機回收」最低價為 NT$15,888，最低點日期 2026-07-09。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -1371,17 +1371,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 28099,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 28099,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1248513180&cgp=31999",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【Costco好市多】伊萊克斯 12公斤/9公斤 極淨呵護系列 UltimateCare 700 洗脫烘衣機 EWW1243R7WC Electrolux 12 kg / 9 kg UltimateCare 700 Washer Dryer EWW1243R7WC",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Costco好市多 / 【Costco好市多】伊萊克斯 12公斤/9公斤 極淨呵護系列 UltimateCare 700 洗脫烘衣機 EWW1243R7WC Electrolux 12 kg / 9 kg UltimateCare 700 Washer Dryer EWW1243R7WC」最低價為 NT$28,099，最低點日期 2025-11-28。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -1432,17 +1432,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 20479,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 20479,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1269937705&cgp=25599",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【Costco好市多】夏普 13公斤/8公斤滾筒洗脫烘衣機 ES-FD13BT SHARP 13 kg/8 kg Front Load Washer and Dryer Combo ES-FD13BT",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Costco好市多 / 【Costco好市多】夏普 13公斤/8公斤滾筒洗脫烘衣機 ES-FD13BT SHARP 13 kg/8 kg Front Load Washer and Dryer Combo ES-FD13BT」最低價為 NT$20,479，最低點日期 2026-05-11。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -1493,17 +1493,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 19999,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 19999,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1246144685&cgp=24999",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【Costco好市多】伊萊克斯 11公斤/7公斤 極淨呵護系列 Ultimate Care 500 洗脫烘衣機 EWW1123P5WC Electrolux 11 kg / 7 kg Ultimate Care 500 Washer Dryer EWW1123P5WC",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Costco好市多 / 【Costco好市多】伊萊克斯 11公斤/7公斤 極淨呵護系列 Ultimate Care 500 洗脫烘衣機 EWW1123P5WC Electrolux 11 kg / 7 kg Ultimate Care 500 Washer Dryer EWW1123P5WC」最低價為 NT$19,999，最低點日期 2026-05-11。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   }
 ]);

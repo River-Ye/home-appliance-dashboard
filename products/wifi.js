@@ -52,17 +52,17 @@
     ],
     "releaseDate": "2025-01",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 4111,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 4111,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1256976430&cgp=5999",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：(店+)【ASUS 華碩】ZenWiFi BD5 BE5000 網狀路由器 (白 -2入) 四核心 WIFI7 AiMesh 隱藏天線x4",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / (店+)【ASUS 華碩】ZenWiFi BD5 BE5000 網狀路由器 (白 -2入) 四核心 WIFI7 AiMesh 隱藏天線x4」最低價為 NT$4,111，最低點日期 2025-11-07。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -121,7 +121,7 @@
       "sourceKind": "not_found",
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ TP-Link Deco BE25 2入: 樂天市場 - 米特3C數位 米特3C數位–TP-Link Deco BE25 BE5000 wifi7 雙頻 wifi分享器/2入 非採用通路或含排除條件；LBJ TP-Link Deco BE25 2入: 樂天市場 - 良興EcLife購物網 良興EcLife購物網 TP-LINK Deco BE25 (2入) BE5000 完整家庭 Mesh WiFi 7 系統 非採用通路或含排除條件；LBJ TP-Link Deco BE25 2入: 蝦皮商城 - 順發3C SUNFAR TP-LINK Deco BE25 2入組 雙頻 無線網路 wifi-7 MESH 路由器 分享器 非採用通路或含排除條件。"
     }
   },
   {
@@ -180,7 +180,7 @@
       "sourceKind": "not_found",
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ D-Link M36 3入: Yahoo拍賣 - 風和網通 (4492個評價) D-Link M36 BE3600 Wi-Fi 7 無線Mesh路由器(3入)【風和網通】 非採用通路或含排除條件；BigGo DRAFJ6-A900JL8Q9: 查詢失敗 429 https://biggo.com.tw/api/v1/spa/search/DRAFJ6-A900JL8Q9/product?p=1；BigGo D-Link M36 3入: 查詢失敗 429 https://biggo.com.tw/api/v1/spa/search/D-Link%20M36%203%E5%85%A5/product?p=1。"
     }
   },
   {
@@ -239,7 +239,7 @@
       "sourceKind": "not_found",
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ ASUS RT-BE58U V2: Momo富邦購物 (店+)【ASUS 華碩】RT-BE58U V2 BE3600 雙頻 Wi-Fi 7 可擴充式路由器 型號/規格不相符；LBJ ASUS RT-BE58U V2: 蝦皮商城 - 三井3C購物網 【ASUS 華碩】RT-BE58U V2 BE3600 雙頻 Wi-Fi 7 可擴充式路由器 型號/規格不相符；LBJ ASUS RT-BE58U V2: 百利市購物中心 【百利市購物中心】【ASUS 華碩】RT-BE58U V2 BE3600 雙頻 Wi-Fi 7 可擴充式路由器 型號/規格不相符。"
     }
   },
   {
@@ -298,7 +298,7 @@
       "sourceKind": "not_found",
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ TP-Link Deco BE65 2入: 蝦皮商城 - 順發3C SUNFAR TP-LINK Deco BE65 BE11000 無線網路 WIFI MESH 三頻 路由器 分享器 2入組 非採用通路或含排除條件；LBJ TP-Link Deco BE65 2入: 樂天市場 - JT3C JT3C TP-LINK Deco BE65 Wi-Fi 7 BE11000 三頻 2.5G 真Mesh無線網路網狀路由器(Wi-Fi7 分享器/支援VPN) - 2入組 非採用通路或含排除條件；LBJ TP-Link Deco BE65 2入: 樂天市場 - 良興EcLife購物網 良興EcLife購物網 TP-LINK Deco BE65 (2入) BE11000 完整家庭 Mesh WiFi 7系統原價 12600 (省 601) 非採用通路或含排除條件。"
     }
   },
   {
@@ -357,7 +357,7 @@
       "sourceKind": "not_found",
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ NETGEAR Orbi RBE373: PCHome購物 Netgear 網件 Orbi RBE370 BE5000 雙頻WiFi 7Mesh延伸衛星 此設備無法單獨使用 需先購買RBE373(Orbi RBE370) 型號/規格不相符；LBJ NETGEAR Orbi RBE373: 蝦皮購物 - NETGEAR 官方旗艦店 / Arlo官方旗艦店 【NETGEAR】Orbi RBE373 BE5000 雙頻WiFi 7Mesh延伸系統 路由器+2衛星1.5GHz四核 型號/規格不相符；LBJ NETGEAR Orbi RBE373: PCHome購物 Netgear 網件 【NETGEAR】Orbi RBE373 BE5000 雙頻WiFi 7Mesh延伸系統 路由器+2衛星1.5GHz四核+1GB RAM(Orbi RBE373) 型號/規格不相符。"
     }
   },
   {
@@ -406,17 +406,17 @@
     ],
     "releaseDate": "2023-07-16",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 3102,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 3102,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1231164963&cgp=3447",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：Linksys Velop Pro AXE5400 WiFi 6E 三頻 無線網狀路由器MX6201-AH(一入)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Yahoo購物中心 / Linksys Velop Pro AXE5400 WiFi 6E 三頻 無線網狀路由器MX6201-AH(一入)」最低價為 NT$3,102，最低點日期 2026-04-13。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -475,7 +475,7 @@
       "sourceKind": "not_found",
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ Synology WRX560: Momo富邦購物 【Synology 群暉科技】WRX560 雙頻 WiFi 6 Mesh 路由器/分享器 型號/規格不相符；LBJ Synology WRX560: 樂天市場 - 昌運監視器官方旗艦店 昌運監視器 Synology群暉 WRX560路由器 5.9GHz 雙頻 Wi-Fi 6 2.5GbE高速傳輸 型號/規格不相符；LBJ Synology WRX560: 家樂福線上購物網 昌運監視器 Synology群暉 WRX560路由器 5.9GHz 雙頻 Wi-Fi 6 2.5GbE高速傳輸 型號/規格不相符。"
     }
   },
   {
@@ -535,7 +535,7 @@
       "sourceKind": "not_found",
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ UniFi U7 Pro: 蝦皮購物 - NE Technologies UniFi U6 Lite/PLUS/Pro/LR/U7 PRO XGS倒置AP托架桌面支架收納架 非採用通路或含排除條件；LBJ UniFi U7 Pro: iOPEN Mall - MikroTik 台灣代理 (284人次購買) UniFi U6+ U6-Pro U7-Pro 專用造型檯燈座 非採用通路或含排除條件；LBJ UniFi U7 Pro: 蝦皮購物 - MikroTik 台灣代理 UniFi U6+ U6-Pro U7-Pro 專用造型檯燈座 非採用通路或含排除條件。"
     }
   },
   {
@@ -595,7 +595,7 @@
       "sourceKind": "not_found",
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ UniFi U6 Pro: iOPEN Mall - MikroTik 台灣代理 (284人次購買) UniFi U6+ U6-Pro U7-Pro 專用造型檯燈座 非採用通路或含排除條件；LBJ UniFi U6 Pro: 蝦皮購物 - MikroTik 台灣代理 UniFi U6+ U6-Pro U7-Pro 專用造型檯燈座 非採用通路或含排除條件；LBJ UniFi U6 Pro: 露天拍賣 - 慧敏小鋪【滿300發貨】 (998個評價) 【VLK】UBNT UniFi U6-PRO企業家用5G千兆雙頻AP吸頂式全屋覆蓋[1110529] 非採用通路或含排除條件。"
     }
   },
   {
@@ -655,7 +655,7 @@
       "sourceKind": "not_found",
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ UniFi U7 Lite: 蝦皮購物 - RackIdea RACKIDEA - UniFi AP 桌面／壁掛支架（適用 UniFi U7-Lite ） 非採用通路或含排除條件；LBJ UniFi U7 Lite: 蝦皮購物 - NE Technologies UniFi U6 Lite/PLUS/Pro/LR/U7 PRO XGS倒置AP托架桌面支架收納架 型號/規格不相符；LBJ UniFi U7 Lite: 露天拍賣 - 聚豐企業+瀨:@ys8869/可急件/统编發票/可刷卡 (43個評價) 【量大可優惠】回收 ubnt Unifi U6-LR U6-Pro U6-Lite U7-Pro U7-LR ProU 型號/規格不相符。"
     }
   },
   {
@@ -715,7 +715,7 @@
       "sourceKind": "not_found",
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ Aruba Instant On AP22: 露天拍賣 - ONGOOD的賣場 (2210個評價) Aruba Aruba Instant On AP22 Aruba Instant [全新免運][編號 W59221] 非採用通路或含排除條件；LBJ Aruba Instant On AP22: Yahoo拍賣 - 藍鯨網通--下標前務必先問庫存 (4001個評價) Aruba AP22 Instant On AP22 WiFi6室內型AP( R4W02A ) 非採用通路或含排除條件；LBJ Aruba Instant On AP22: 蝦皮購物 - 網通設備銷售-光華實體門市 【全新，含稅可開統編】Aruba Instant On AP22 (R4W02A) WiFi6室內型AP 無線基地台 非採用通路或含排除條件。"
     }
   },
   {
@@ -765,17 +765,17 @@
     "rank": 13,
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 22000,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 22000,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1237930454&cgp=22000",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【Aruba】HPE Networking Instant On 無線基地台 AP25 室內型 4x4 Wi-Fi 6 AP 含變壓器(R9B28A)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【Aruba】HPE Networking Instant On 無線基地台 AP25 室內型 4x4 Wi-Fi 6 AP 含變壓器(R9B28A)」最低價為 NT$22,000，最低點日期 2026-07-09。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -835,7 +835,7 @@
       "sourceKind": "not_found",
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ Aruba Instant On AP32: 露天拍賣 - ONGOOD的賣場 (2210個評價) Aruba HPE Networking Instant On AP32 (RW) [全新免運][編號 W90132] 非採用通路或含排除條件；LBJ Aruba Instant On AP32: 露天拍賣 - 恩尚名閣 (212個評價) 【新品】Aruba HPE Networking instant On AP32(S1T23A)WiFi6E 三頻企業級 非採用通路或含排除條件；LBJ Aruba Instant On AP32: 露天拍賣 - 風和資訊 (3631個評價) HPE Aruba Instant On AP32 2x2 11ax WiFi 6E企業型三頻無線基地台(S1T23A) 非採用通路或含排除條件。"
     }
   },
   {
@@ -885,17 +885,17 @@
     "rank": 15,
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 9504,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 9504,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1251189728&cgp=10800",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：Aruba HPE Networking Instant On 無線基地台AP21 室內型 Wi‑Fi 6 AP (S1T09A) 含變壓器",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「PCHome購物 / Aruba HPE Networking Instant On 無線基地台AP21 室內型 Wi‑Fi 6 AP (S1T09A) 含變壓器」最低價為 NT$9,504，最低點日期 2026-03-16。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -955,7 +955,7 @@
       "sourceKind": "not_found",
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ UniFi U6+: iOPEN Mall - MikroTik 台灣代理 (284人次購買) UniFi U6+ U6-Pro U7-Pro 專用造型檯燈座 型號/規格不相符；LBJ UniFi U6+: 蝦皮購物 - MikroTik 台灣代理 UniFi U6+ U6-Pro U7-Pro 專用造型檯燈座 型號/規格不相符；LBJ UniFi U6+: 露天拍賣 - MikroTik台灣代理 (5001個評價) UniFi U6+ U6-Pro U7-Pro 專用造型檯燈座 型號/規格不相符。"
     }
   },
   {
@@ -1015,7 +1015,7 @@
       "sourceKind": "not_found",
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ UniFi U7 Pro Max: 露天拍賣 - 小新優選 (1373個評價) 【小新嚴選】優倍快ubnt U7-Pro-Max 2.5G WiFi7無線UniFi吸頂AP，原裝拆機下來的，支持6G無 非採用通路或含排除條件；LBJ UniFi U7 Pro Max: 露天拍賣 - gadgetpapa的賣場 (63個評價) 代購全新未拆 新品 Ubiquiti UNIFI U7 Pro Max Wi-Fi 7 旗艦基地台 非採用通路或含排除條件；LBJ UniFi U7 Pro Max: 露天拍賣 - 風行嚴選 (2933個評價) 【風行嚴選】UBNT優倍快U7-PRO-MAX wifi7大戶型企業級吸頂無線AP 2.5G UniFi【公司貨】 非採用通路或含排除條件。"
     }
   },
   {
@@ -1074,7 +1074,7 @@
       "sourceKind": "not_found",
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ ASUS RT-BE82U: Momo富邦購物 (店+)【ASUS 華碩】RT-BE82U BE6500 雙頻 WiFi 7 AiMesh 路由器 分享器 型號/規格不相符；LBJ ASUS RT-BE82U: 蝦皮商城 - 蝦皮直營 - 3C家電館 ASUS 華碩 RT-BE82U 路由器 WiFi 7 Ai Mesh 6500Mbps 分享器 廠商直送 型號/規格不相符；LBJ ASUS RT-BE82U: 蝦皮商城 - ROG 華碩授權店 | 電競周邊館 ASUS 華碩 RT-BE82U 路由器 WiFi 7 雙頻 AiMesh 分享器 Wifi分享器 網路交換器 型號/規格不相符。"
     }
   },
   {
@@ -1123,17 +1123,17 @@
     ],
     "releaseDate": "2025-01-20",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 5618,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 5618,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1239005452&cgp=7999",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【TP-Link】Wi-Fi 7 BE15000三頻8串流10G無線網路路由器 分享器(支援AI筆電/EasyMesh/VPN/Archer BE700)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【TP-Link】Wi-Fi 7 BE15000三頻8串流10G無線網路路由器 分享器(支援AI筆電/EasyMesh/VPN/Archer BE700)」最低價為 NT$5,618，最低點日期 2026-06-25。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -1182,17 +1182,17 @@
     ],
     "releaseDate": "2026-04-16",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 4599,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 4599,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1271123704&cgp=45995299",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：(店+)【D-Link】R95 BE9500 Wi-Fi 7 無線網路 路由器 分享器 台灣製造",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / (店+)【D-Link】R95 BE9500 Wi-Fi 7 無線網路 路由器 分享器 台灣製造」最低價為 NT$4,599，最低點日期 2026-06-09。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -1241,17 +1241,17 @@
     ],
     "releaseDate": "2024-01-08",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 5490,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 5490,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1235755756&cgp=5760",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：Acer 宏碁 Predator Connect T7 BE11000 Mesh Wi-Fi 7 電競路由器",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Yahoo購物中心 / Acer 宏碁 Predator Connect T7 BE11000 Mesh Wi-Fi 7 電競路由器」最低價為 NT$5,490，最低點日期 2025-08-20。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -1300,17 +1300,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 2799,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 2799,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1229757201&cgp=4199",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：Mercusys 水星 (3入組) Halo H80X Wi-Fi 6 AX3000 雙頻 全Gigabit 真Mesh路由器 wifi分享器 全屋網狀",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「PCHome購物 / Mercusys 水星 (3入組) Halo H80X Wi-Fi 6 AX3000 雙頻 全Gigabit 真Mesh路由器 wifi分享器 全屋網狀」最低價為 NT$2,799，最低點日期 2024-08-21。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -1359,17 +1359,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 1839,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 1839,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1250667476&cgp=2159",
+      "sourceTitle": "LBJ 比價撿便宜歷史價格：Xiaomi AX3000 Mesh 路由器兩件裝",
+      "evidenceSnippet": "LBJ history for the Xiaomi Taiwan official two-pack contains 2026-06-19 at NT$1,839.",
+      "sourceKind": "price_history",
+      "confidence": "medium",
       "checkedAt": "2026-07-09",
-      "note": "已查 PChome 商品頁、商品編號 DYANAI-A900HNEUP、台灣比價/價格歷史方向（BigGo、飛比、EZprice、FindPrice）及海外價格歷史方向；只能公開驗證目前 PChome 現價 2,159 元，頁面未明確標示歷史最低價/最低價。商品詳情圖片中出現 NT$1,995 字樣，但不是可驗證的歷史最低價頁或明確史低標示，因此未採用。"
+      "note": "已由 worker 查核 BigGo、FindPrice、LBJ 與 PChome/小米官方；採 LBJ 小米台灣官方同款兩件裝 2026-06-19 NT$1,839。低於此價的不同型號、單件裝、福利品、二手或個人賣場候選均排除。"
     }
   },
   {
@@ -1428,7 +1428,7 @@
       "sourceKind": "not_found",
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ TP-Link Archer BE220: HOTAI購 【HOTAI購】【TP-Link】Archer BE220 Wi-Fi 7 BE3600 雙頻 Gigabit 無線網路路由器 型號/規格不相符；LBJ TP-Link Archer BE220: 蝦皮商城 - 愛買線上購物 TP-Link Archer BE220 BE3600雙頻 Wi-Fi 7路由器【愛買】 型號/規格不相符；LBJ TP-Link Archer BE220: 蝦皮商城 - 綠風潮網路商城 TP-LINK Archer BE220 BE3600 雙頻Wi-Fi 7路由器 綠風潮 型號/規格不相符。"
     }
   },
   {
@@ -1477,17 +1477,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 1399,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 1399,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1233322413&cgp=2208",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：Mercusys 水星 MR27BE WiFi 7 BE3600 雙頻 2.5 Gigabit 無線網路路由器(Wi-Fi 7 分享器/MOD/VPN)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Yahoo購物中心 / Mercusys 水星 MR27BE WiFi 7 BE3600 雙頻 2.5 Gigabit 無線網路路由器(Wi-Fi 7 分享器/MOD/VPN)」最低價為 NT$1,399，最低點日期 2025-11-07。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -1536,17 +1536,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 1791,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 1791,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1259422159&cgp=17995307",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：(店+)【TOTOLINK】BE5 BE5100 Wi-Fi7 Mesh 網狀路由器",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / (店+)【TOTOLINK】BE5 BE5100 Wi-Fi7 Mesh 網狀路由器」最低價為 NT$1,791，最低點日期 2026-02-18。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -1595,17 +1595,17 @@
     ],
     "releaseDate": "2025-09-26",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 2304,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 2304,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1273967154&cgp=2496",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：D-Link友訊 M36 BE3600 Wi-Fi 7無線路由器",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Yahoo購物中心 / D-Link友訊 M36 BE3600 Wi-Fi 7無線路由器」最低價為 NT$2,304，最低點日期 2026-06-21。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -1654,17 +1654,17 @@
     ],
     "releaseDate": "2025",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 3599,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 3599,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1273531591&cgp=4095",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：Netgear 網件 夜鷹 NIGHTHAWK RS100 BE3600 雙頻 WiFi 7 分享器/路由器",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「PCHome購物 / Netgear 網件 夜鷹 NIGHTHAWK RS100 BE3600 雙頻 WiFi 7 分享器/路由器」最低價為 NT$3,599，最低點日期 2026-07-02。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -1713,17 +1713,17 @@
     ],
     "releaseDate": "2021-12",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 9680,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 9680,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1272070343&cgp=10010",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：昌運監視器Linksys MX5502-AH AX5400 Velop Mesh WiFi 6雙頻網狀路由器三入(3入)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「東森購物 / 昌運監視器Linksys MX5502-AH AX5400 Velop Mesh WiFi 6雙頻網狀路由器三入(3入)」最低價為 NT$9,680，最低點日期 2026-04-10。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -1772,17 +1772,17 @@
     ],
     "releaseDate": "2022-05-11",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 9499,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 9499,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1138069196&cgp=9999",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【Synology 群暉科技】RT6600ax 三頻 WiFi 6 路由器/分享器",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【Synology 群暉科技】RT6600ax 三頻 WiFi 6 路由器/分享器」最低價為 NT$9,499，最低點日期 2024-12-04。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -1831,17 +1831,17 @@
     ],
     "releaseDate": "2024-03-27",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 8111,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 8111,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1237717540&cgp=8488",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：ASUS 華碩 ROG Rapture RT-BE88U BE7200 WiFi 7 雙頻電競路由器",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Yahoo購物中心 / ASUS 華碩 ROG Rapture RT-BE88U BE7200 WiFi 7 雙頻電競路由器」最低價為 NT$8,111，最低點日期 2025-11-01。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -1890,17 +1890,17 @@
     ],
     "releaseDate": "2024-08-30",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 8388,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 8388,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1232197980&cgp=12999",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【TP-Link】Wi-Fi 7 BE19000三頻12串流10G無線網路路由器 分享器(支援AI筆電/EasyMesh/VPN/Archer BE805)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【TP-Link】Wi-Fi 7 BE19000三頻12串流10G無線網路路由器 分享器(支援AI筆電/EasyMesh/VPN/Archer BE805)」最低價為 NT$8,388，最低點日期 2025-08-18。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -1959,7 +1959,7 @@
       "sourceKind": "not_found",
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ TP-Link Archer BE900: 蝦皮商城 - 順發3C SUNFAR TP-LINK Archer BE900 BE24000四頻Wi-Fi 7 路由器 型號/規格不相符；LBJ TP-Link Archer BE900: 蝦皮商城 - TP-Link官方旗艦店 TP-Link Archer BE900 BE24000 wifi分享器 wifi7 四頻10G 路由器 型號/規格不相符；LBJ TP-Link Archer BE900: Momo富邦購物 【TP-Link】Wi-Fi 7 BE24000四頻16串流10G無線網路路由器 分享器(支援AI筆電/EasyMesh/VPN/Archer BE900) 型號/規格不相符。"
     }
   },
   {
@@ -2008,17 +2008,17 @@
     ],
     "releaseDate": "2024-06-19",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 6818,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 6818,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1244553087&cgp=8700",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：Netgear 網件 夜鷹 Nighthawk RS300 BE9300 6串流 三頻 WiFi 7 旗艦級分享器/路由器",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「PCHome購物 / Netgear 網件 夜鷹 Nighthawk RS300 BE9300 6串流 三頻 WiFi 7 旗艦級分享器/路由器」最低價為 NT$6,818，最低點日期 2026-06-29。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -2067,17 +2067,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 5661,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 5661,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1235454560&cgp=6480",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：Zyxel 合勤 USG LITE 60AX AX6000 WiFi6 免費資安防護雲端安全路由器",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Yahoo購物中心 / Zyxel 合勤 USG LITE 60AX AX6000 WiFi6 免費資安防護雲端安全路由器」最低價為 NT$5,661，最低點日期 2025-06-16。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -2136,7 +2136,7 @@
       "sourceKind": "not_found",
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ MSI RadiX AXE6600: 欣亞購物網 [欣亞購物網] MSI 微星 RadiX AXE6600 WiFi 6E Tri-Band Gaming Router 三頻電競路由器 型號/規格不相符；LBJ MSI RadiX AXE6600: Autobuy購物中心 【Autobuy購物中心】MSI 微星 RadiX AXE6600 WiFi 6E Tri-Band Gaming Router 三頻電競路由器 型號/規格不相符；LBJ MSI RadiX AXE6600: PCHome購物 MSI 微星 RadiX AXE6600 WiFi 6E Tri-Band Gaming Router 三頻電競路由器 型號/規格不相符。"
     }
   },
   {
@@ -2185,17 +2185,17 @@
     ],
     "releaseDate": "2026-03",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 2590,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 2590,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1270863201&cgp=2590",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【燦坤線上購物】Acer Connect Ovia T360 Wi-Fi 7雙頻路由器",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「燦坤線上購物 / 【燦坤線上購物】Acer Connect Ovia T360 Wi-Fi 7雙頻路由器」最低價為 NT$2,590，最低點日期 2026-07-09。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -2244,17 +2244,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 1095,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 1095,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1228402219&cgp=1199",
+      "sourceTitle": "LBJ 比價撿便宜歷史價格：PChome Xiaomi AX3000 Mesh 路由器一件裝",
+      "evidenceSnippet": "LBJ PChome history shows NT$1,095 on 2025-07-09, 2024-08-05, and 2024-07-09 for the one-pack.",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "已查 PChome 商品頁、商品編號 DYANAI-A900HNETW、BigGo、飛比、FindPrice 價格比較方向、台灣關鍵字「小米 AX3000 Mesh 路由器 一件裝/歷史低價/價格走勢/最低價」，以及英文關鍵字 Xiaomi AX3000 Mesh Router price history / lowest price / Keepa / Amazon；只能公開驗證到 PChome 目前現價 1,199 元，未找到明確標示同型號一件裝新品可信通路或價格歷史頁的歷史最低價，因此不採用現價作為史低。"
+      "note": "已由 worker 查核 PChome、LBJ、BigGo 與 FindPrice；採 LBJ PChome 同品一件裝歷史低點 NT$1,095。低於此價的福利品、二手、已下架、非 AX3000 Mesh 一件裝或拍賣非官方來源均排除。"
     }
   },
   {
@@ -2303,17 +2303,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 849,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 849,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=535695770&cgp=8492501",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：TOTOLINK X30 SE AX3000 WiFi-6 雙頻無線路由器 WIFI 路由器 Wifi分享器 MESH",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「蝦皮商城 - 阿義電腦｜義展科技 / TOTOLINK X30 SE AX3000 WiFi-6 雙頻無線路由器 WIFI 路由器 Wifi分享器 MESH」最低價為 NT$849，最低點日期 2026-06-09。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -2362,17 +2362,17 @@
     ],
     "releaseDate": "2020-11-06",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 7999,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 7999,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1260450713&cgp=9999",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【QNAP 威聯通】昌運監視器 QHora-301W 新世代 Wi-Fi 6 雙 10GbE SD-WAN 路由器",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【QNAP 威聯通】昌運監視器 QHora-301W 新世代 Wi-Fi 6 雙 10GbE SD-WAN 路由器」最低價為 NT$7,999，最低點日期 2025-09-19。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -2421,17 +2421,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 1690,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 1690,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1274278799&cgp=16903290",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：(店+)cudy M3000 AX3000 MESH WIFI6 無線網狀路由器 2.5Gbps 大坪數及電競玩家適用",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / (店+)cudy M3000 AX3000 MESH WIFI6 無線網狀路由器 2.5Gbps 大坪數及電競玩家適用」最低價為 NT$1,690，最低點日期 2026-06-09。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -2490,7 +2490,7 @@
       "sourceKind": "not_found",
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ Cudy WR3600 BE3600: 蝦皮商城 - 蝦皮直營 - 3C家電館 【蝦皮直營】cudy WR3600 WiFi7 雙頻無線路由器 Gigabit BE3600 支援Mesh 型號/規格不相符；LBJ Cudy WR3600 BE3600: Yahoo購物中心 cudy BE3600 Wi-Fi 7 雙頻無線網狀路由器 (WR3600) 型號/規格不相符；LBJ Cudy WR3600 BE3600: Yahoo購物中心 cudy BE3600 Wi-Fi 7 雙頻無線網狀路由器 (WR3600) 型號/規格不相符。"
     }
   },
   {
@@ -2549,7 +2549,7 @@
       "sourceKind": "not_found",
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ ASUS RT-BE3600HP: PCHome購物 ASUS 華碩 RT-BE3600HP WiFi 7 AiMesh 雙頻可擴充路由器 型號/規格不相符；LBJ ASUS RT-BE3600HP: iOPEN Mall - 光華商場 德寶資訊有限公司 (可刷卡) (813人次購買) ASUS 華碩 RT-BE3600HP－Wi-Fi 7 無線路由器 高功率天線 分享器 路由器 公司貨 光華 型號/規格不相符；LBJ ASUS RT-BE3600HP: iOPEN Mall - 光華商場 3C專賣店 (1219人次購買) ASUS 華碩 RT-BE3600HP－Wi-Fi 7 無線路由器 高功率天線 分享器 路由器 公司貨 光華 型號/規格不相符。"
     }
   },
   {
@@ -2608,7 +2608,7 @@
       "sourceKind": "not_found",
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ TP-Link Deco BE22: 蝦皮商城 - 綠風潮網路商城 TP-LINK Deco BE22(2-pack)BE3600 Mesh 網狀路由器 綠風潮 型號/規格不相符；LBJ TP-Link Deco BE22: 蝦皮商城 - TP-Link官方旗艦店 (Wi-Fi7)TP-Link Deco BE22 BE3600 Wi-Fi7 雙頻 wifi分享器 MLO 1G 型號/規格不相符；LBJ TP-Link Deco BE22: 蝦皮商城 - QD 酷弟3C TP-LINK Deco BE22(2-pack)BE3600 Mesh 網狀路由器 酷弟3C 型號/規格不相符。"
     }
   },
   {
@@ -2657,17 +2657,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 2999,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 2999,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1257969359&cgp=46996699",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：(店+)【Mercusys 水星】Halo H25BE BE3600 Mesh網狀路由器 2入/3入",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / (店+)【Mercusys 水星】Halo H25BE BE3600 Mesh網狀路由器 2入/3入」最低價為 NT$2,999，最低點日期 2026-01-09。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -2716,17 +2716,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 1999,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 1999,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1141226908&cgp=1999",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【Costco好市多】TP-Link AX3000 Wi-Fi 6 雙頻Mesh路由器 Deco X55 TP-Link AX3000 Mesh Wi-Fi 6 System Deco X55",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Costco好市多 / 【Costco好市多】TP-Link AX3000 Wi-Fi 6 雙頻Mesh路由器 Deco X55 TP-Link AX3000 Mesh Wi-Fi 6 System Deco X55」最低價為 NT$1,999，最低點日期 2026-07-09。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -2777,17 +2777,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 2199,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 2199,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1284161522&cgp=2199",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：(店+)Archer BE220 Wi-Fi 7 BE3600 雙頻 Gigabit 無線網路路由器",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / (店+)Archer BE220 Wi-Fi 7 BE3600 雙頻 Gigabit 無線網路路由器」最低價為 NT$2,199，最低點日期 2026-07-09。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -2838,17 +2838,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 3999,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 3999,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1212202092&cgp=5999",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【TP-Link】Wi-Fi 7 BE9300三頻6串流2.5G無線網路路由器 分享器(支援AI筆電/EasyMesh/VPN/Archer BE550)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【TP-Link】Wi-Fi 7 BE9300三頻6串流2.5G無線網路路由器 分享器(支援AI筆電/EasyMesh/VPN/Archer BE550)」最低價為 NT$3,999，最低點日期 2025-06-16。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   }
 ]);

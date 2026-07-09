@@ -52,17 +52,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 10350,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 10350,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1136687394&cgp=12500",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：irocks T07 Plus 人體工學椅",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Yahoo購物中心 / irocks T07 Plus 人體工學椅」最低價為 NT$10,350，最低點日期 2026-06-21。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -111,17 +111,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 8999,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 8999,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1222202345&cgp=11900",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：Ergohuman 特仕版 2.0 (3D扶手) 人體工學椅(辦公椅/電腦椅)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「PCHome購物 / Ergohuman 特仕版 2.0 (3D扶手) 人體工學椅(辦公椅/電腦椅)」最低價為 NT$8,999，最低點日期 2025-04-14。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -170,17 +170,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 6291,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 6291,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1237508984&cgp=6990",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：irocks T08 Plus 高階電腦椅",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Yahoo購物中心 / irocks T08 Plus 高階電腦椅」最低價為 NT$6,291，最低點日期 2026-06-21。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -239,7 +239,7 @@
       "sourceKind": "not_found",
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ iRocks T03 NEO: 蝦皮商城 - irocks 艾芮克官方授權網路旗艦店 irocks T03 NEO 人體工學椅 專用保潔墊 C03N 深灰色 非採用通路或含排除條件；LBJ iRocks T03 NEO: 樂天市場 - 良興EcLife購物網 良興EcLife購物網 iRocks 艾芮克 C03N 專用保潔椅墊布套 岩墨灰 (T03 Neo專用) 非採用通路或含排除條件；LBJ iRocks T03 NEO: 蝦皮商城 - irocks 艾芮克官方授權網路旗艦店 irocks T03 NEO 人體工學椅 專用保潔墊 C03N 淺灰色 非採用通路或含排除條件。"
     }
   },
   {
@@ -288,17 +288,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 12510,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 12510,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1105168968&cgp=15800",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：irocks T05 Plus 人體工學 辦公椅",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Yahoo購物中心 / irocks T05 Plus 人體工學 辦公椅」最低價為 NT$12,510，最低點日期 2026-04-29。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -357,7 +357,7 @@
       "sourceKind": "not_found",
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ iRocks T27: 樂天市場 - 良興EcLife購物網 良興EcLife購物網 iRocks 艾芮克 T27 雲岩網人體工學椅 隕石灰 型號/規格不相符；LBJ iRocks T27: 蝦皮商城 - irocks 艾芮克官方授權網路旗艦店 irocks T27 雲岩網 體工學椅 電腦椅 灰白色 型號/規格不相符；LBJ iRocks T27: 蝦皮商城 - irocks 艾芮克官方授權網路旗艦店 irocks T27 雲岩網 人體工學椅 電腦椅 椅子 型號/規格不相符。"
     }
   },
   {
@@ -416,7 +416,7 @@
       "sourceKind": "not_found",
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ Razer Fujin: Momo富邦購物 (店+)【Razer 雷蛇】Razer 雷蛇 Fujin/Fujin Pro 風靈 人體工學電競椅 透氣網布 3D軟墊扶手 電競椅 電腦椅 辦公椅 型號/規格不相符；LBJ Razer Fujin: Momo富邦購物 (店+)【Razer 雷蛇】Razer 雷蛇 Fujin/Fujin Pro 風靈 人體工學電競椅 3D軟墊扶手 透氣網布 辦公椅 電腦椅 電競椅 型號/規格不相符；LBJ Razer Fujin: 蝦皮商城 - PCHOT 線上電競 | 3C旗艦店 Razer 雷蛇 Fujin Headrest 風靈頭枕 透氣立體支撐 人體工學 頭枕 透氣網布 3D曲線設計 型號/規格不相符。"
     }
   },
   {
@@ -475,7 +475,7 @@
       "sourceKind": "not_found",
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ Razer Iskur V2: Momo富邦購物 【Razer 雷蛇】ISKUR V2 X 人體工學 電競椅/電腦椅/椅子(黑綠/需自行組裝) 最低價 NT$6,990 低於現價合理比例，疑似月付/配件/錯類；LBJ Razer Iskur V2: 蝦皮商城 - Razer雷蛇｜官方旗艦店 Razer 雷蛇 Iskur V2 X 電競椅 加寬座墊 2D扶手 高密度泡棉 電腦椅 雷蛇電競椅 辦公椅 賽車椅 非採用通路或含排除條件；LBJ Razer Iskur V2: 順發線上購物 【順發線上購物】RaZER Iskur V2 X 黑綠/電競椅(宅配不組) 非採用通路或含排除條件。"
     }
   },
   {
@@ -534,7 +534,7 @@
       "sourceKind": "not_found",
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ Razer Enki: Momo富邦購物 【Razer 雷蛇】Enki X人體工學設計電競椅/電腦椅/(黑/綠/RZ38-R3U1) 最低價 NT$6,430 低於現價合理比例，疑似月付/配件/錯類；LBJ Razer Enki: 蝦皮商城 - 雷蛇 PRO-X 電競專門店｜授權經銷 雷蛇Razer Enki X 電競椅【需自行組裝、超大型商品僅提供本島配送】 非採用通路或含排除條件；LBJ Razer Enki: 順發線上購物 【順發線上購物】Razer Enki 電競椅4D扶手(粉色)(免費宅配不含組裝) 非採用通路或含排除條件。"
     }
   },
   {
@@ -593,7 +593,7 @@
       "sourceKind": "not_found",
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ Herman Miller Aeron C Size: Momo富邦購物 【Herman Miller】Aeron 2.0 人體工學椅 全功能 一般腳座 石墨黑 DW扶手 C size(平行輸入) 型號/規格不相符；LBJ Herman Miller Aeron C Size: Momo富邦購物 【Herman Miller】Aeron 2.0 人體工學椅 全功能 金屬腳座 鋁合金材質 碳灰色 DW扶手 C size(平行輸入) 型號/規格不相符；LBJ Herman Miller Aeron C Size: Momo富邦購物 【Herman Miller】Aeron 全功能 - 石墨黑｜C SIZE｜世代家具｜原廠授權代理商(人體工學椅/電腦椅/辦公椅) 型號/規格不相符。"
     }
   },
   {
@@ -642,17 +642,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 65900,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 65900,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1260348877&cgp=65900",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：Steelcase Karman Chair 人體工學辦公椅｜深夜黑黑五爪全透網",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「PCHome購物 / Steelcase Karman Chair 人體工學辦公椅｜深夜黑黑五爪全透網」最低價為 NT$65,900，最低點日期 2026-07-09。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -711,7 +711,7 @@
       "sourceKind": "not_found",
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ Backbone Kangaroo Pro: 蝦皮商城 - 臺灣高空旗艦館 Backbone Kangaroo Pro™ & Punch｜人體工學椅 型號/規格不相符；LBJ Backbone Kangaroo Pro: Momo富邦購物 【Backbone】Kangaroo Pro™人體工學椅 升級款(袋鼠椅/電腦椅/辦公椅/透氣網椅) 型號/規格不相符；LBJ Backbone Kangaroo Pro: PCHome購物 Backbone Kangaroo Pro人體工學椅｜升級款｜袋鼠椅/電腦椅/辦公椅/透氣網椅 型號/規格不相符。"
     }
   },
   {
@@ -760,17 +760,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 1599,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 1599,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1234249813&cgp=1699",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【AOTTO】3D透氣網布可調節人體工學電腦椅(電腦椅 辦公椅 老闆椅 工學椅)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【AOTTO】3D透氣網布可調節人體工學電腦椅(電腦椅 辦公椅 老闆椅 工學椅)」最低價為 NT$1,599，最低點日期 2025-09-16。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -819,17 +819,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 2719,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 2719,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1269865113&cgp=3499",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【DEPE 德邁國際】OC2 SEAT SET 坐/躺兩用(辦公椅/電腦椅/電競椅 IONRAX.co.ltd)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【DEPE 德邁國際】OC2 SEAT SET 坐/躺兩用(辦公椅/電腦椅/電競椅 IONRAX.co.ltd)」最低價為 NT$2,719，最低點日期 2026-06-09。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -888,7 +888,7 @@
       "sourceKind": "not_found",
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ COUGAR TITAN PRO V2: 蝦皮商城 - COUGAR 美洲獅官方授權旗艦店 Cougar 美洲獅 TITAN PRO V2 電競椅 進階腰靠支撐 磁吸記憶頭枕 4D可調扶手 電腦椅 主管椅 辦公椅 型號/規格不相符；LBJ COUGAR TITAN PRO V2: Momo富邦購物 【COUGAR 美洲獅】TITAN PRO V2電競椅(大尺寸/自行組裝) 型號/規格不相符；LBJ COUGAR TITAN PRO V2: Momo富邦購物 (店+)【COUGAR 美洲獅】Cougar 美洲獅 TITAN PRO V2 電競椅 進階腰靠支撐 磁吸記憶頭枕 4D可調扶手 電腦椅 主管椅 辦公椅 型號/規格不相符。"
     }
   },
   {
@@ -946,7 +946,7 @@
       "sourceKind": "not_found",
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ MARSRHINO CORSA: Momo富邦購物 (店+)【MARSRHINO 火星犀牛】CORSA 極速 人體工學椅 網椅 高彈力椅背 透氣紓壓椅座 3D扶手 2D頭枕 需組裝 型號/規格不相符；LBJ MARSRHINO CORSA: 蝦皮商城 - 易飛電腦 3Cplay MARSRHINO火星犀牛 CORSA 極速 超跑人體工學椅 電競椅 五年保固 承重150kg 易飛電腦 型號/規格不相符；LBJ MARSRHINO CORSA: Momo富邦購物 【MARSRHINO 火星犀牛】CORSA 極速超跑人體工學椅(CORSA) 型號/規格不相符。"
     }
   },
   {
@@ -1004,7 +1004,7 @@
       "sourceKind": "not_found",
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ Artso ARC Chair: 蝦皮商城 - 亞梭傢俬官方旗艦館 Artso 亞梭 ARC Chair(電腦椅/人體工學椅/辦公椅/椅子/免運) 型號/規格不相符；LBJ Artso ARC Chair: Momo富邦購物 【Artso 亞梭】ARC Chair(電腦椅/人體工學椅/辦公椅/椅子) 型號/規格不相符；LBJ Artso ARC Chair: 誠品線上 Artso 亞梭 ARC Chair(電腦椅/人體工學椅/辦公椅/椅子) 型號/規格不相符。"
     }
   },
   {
@@ -1052,17 +1052,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 2955,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 2955,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1226281206&cgp=3280",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【AOTTO】訂製款-透氣皮革工學賽車電競椅(電腦椅 辦公椅 老闆椅 工學椅 賽車椅)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【AOTTO】訂製款-透氣皮革工學賽車電競椅(電腦椅 辦公椅 老闆椅 工學椅 賽車椅)」最低價為 NT$2,955，最低點日期 2025-10-25。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -1120,7 +1120,7 @@
       "sourceKind": "not_found",
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ IDEA 享愜: PCHome購物 IDEA 享愜護腰人體工學多調整透氣辦公椅 型號/規格不相符；LBJ IDEA 享愜: 露天拍賣 - 宅配滿$490免運｜ PC24h購物 露天旗艦店 (71076個評價) 【PChome 24h購物】IDEA-享愜護腰人體工學多調整透氣辦公椅 R99N 型號/規格不相符；BigGo DQBJ2X-A900K3I6A: 查詢失敗 429 https://biggo.com.tw/api/v1/spa/search/DQBJ2X-A900K3I6A/product?p=1。"
     }
   },
   {
@@ -1178,7 +1178,7 @@
       "sourceKind": "not_found",
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ Artso 巴哈椅: Momo富邦購物 【Artso 亞梭】巴哈椅(電腦椅/人體工學椅/辦公椅/椅子) 型號/規格不相符；LBJ Artso 巴哈椅: 蝦皮商城 - 亞梭傢俬官方旗艦館 Artso 亞梭 巴哈椅(電腦椅/人體工學椅/辦公椅/椅子) 型號/規格不相符；LBJ Artso 巴哈椅: Artso亞梭傢俬 【Artso 亞梭傢俬】巴哈椅 型號/規格不相符。"
     }
   },
   {
@@ -1226,17 +1226,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 7099,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 7099,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1141217481&cgp=8899",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【Costco好市多】Ergoking 網布人體工學椅 171 S Plus系列 Ergoking Mesh Chair 171 S Plus",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Costco好市多 / 【Costco好市多】Ergoking 網布人體工學椅 171 S Plus系列 Ergoking Mesh Chair 171 S Plus」最低價為 NT$7,099，最低點日期 2025-10-27。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -1297,7 +1297,7 @@
       "sourceKind": "not_found",
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：BigGo DPS Insight #52851-BLKRED: 查詢失敗 429 https://biggo.com.tw/api/v1/spa/search/DPS%20Insight%20%2352851-BLKRED/product?p=1；BigGo Insight #52851-BLKRED: 查詢失敗 429 https://biggo.com.tw/api/v1/spa/search/Insight%20%2352851-BLKRED/product?p=1。"
     }
   },
   {
@@ -1358,7 +1358,7 @@
       "sourceKind": "not_found",
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：BigGo Anda Seat PHANTOM 3 PRO Gray: 查詢失敗 429 https://biggo.com.tw/api/v1/spa/search/Anda%20Seat%20PHANTOM%203%20PRO%20Gray/product?p=1；BigGo PHANTOM 3 PRO Gray: 查詢失敗 429 https://biggo.com.tw/api/v1/spa/search/PHANTOM%203%20PRO%20Gray/product?p=1。"
     }
   }
 ]);

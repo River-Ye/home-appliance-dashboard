@@ -55,17 +55,17 @@
     ],
     "releaseDate": "2024-04-17",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 5218,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 5218,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1214271881&cgp=5218",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【ASUS 華碩】ROG Strix XG27ACS 27型2K 180Hz HDR電競螢幕",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【ASUS 華碩】ROG Strix XG27ACS 27型2K 180Hz HDR電競螢幕」最低價為 NT$5,218，最低點日期 2026-07-09。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -116,17 +116,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 3688,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 3688,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1275471764&cgp=3999",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【Acer 宏碁】VG270U P6 27型 IPS 2K 16:9 144Hz 電競螢幕(可旋轉/內建喇叭/HDR10/FreeSync/1ms/護眼)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【Acer 宏碁】VG270U P6 27型 IPS 2K 16:9 144Hz 電競螢幕(可旋轉/內建喇叭/HDR10/FreeSync/1ms/護眼)」最低價為 NT$3,688，最低點日期 2026-06-09。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -177,17 +177,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 5770,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 5770,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=589448790&cgp=5787",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：BENQ 明基 27吋 MOBIUZ EX271Q AI螢幕 電競螢幕 電腦 顯示器 2K/IPS/180Hz 廠商直送",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「蝦皮商城 - 順發3C SUNFAR / BENQ 明基 27吋 MOBIUZ EX271Q AI螢幕 電競螢幕 電腦 顯示器 2K/IPS/180Hz 廠商直送」最低價為 NT$5,770，最低點日期 2026-06-06。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -238,17 +238,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 3781,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 3781,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1271031807&cgp=3980",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【LG 樂金】27U631A-B 27型 2K 護眼螢幕 (IPS/100Hz/USB-C/傾斜可調支架)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【LG 樂金】27U631A-B 27型 2K 護眼螢幕 (IPS/100Hz/USB-C/傾斜可調支架)」最低價為 NT$3,781，最低點日期 2026-07-09。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -299,17 +299,17 @@
     ],
     "releaseDate": "2024-03-19",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 4988,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 4988,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1282547388&cgp=4988",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：DELL 戴爾 P2425H-4Y 窄邊美型螢幕(24型/FHD/HDMI/DP/IPS/Type-C)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「PCHome購物 / DELL 戴爾 P2425H-4Y 窄邊美型螢幕(24型/FHD/HDMI/DP/IPS/Type-C)」最低價為 NT$4,988，最低點日期 2026-07-09。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -360,17 +360,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 4690,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 4690,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1263665019&cgp=4990",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【Samsung 三星】S27FG532EC Odyssey G5 27型 IPS QHD 200Hz電競螢幕(FreeSync/HDR/1ms)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【Samsung 三星】S27FG532EC Odyssey G5 27型 IPS QHD 200Hz電競螢幕(FreeSync/HDR/1ms)」最低價為 NT$4,690，最低點日期 2026-05-26。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -421,17 +421,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 2840,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 2840,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1258644888&cgp=2990",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【MSI 微星】G275L E14 27型 Rapid IPS FHD 144Hz 電競螢幕(HDR Ready)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【MSI 微星】G275L E14 27型 Rapid IPS FHD 144Hz 電競螢幕(HDR Ready)」最低價為 NT$2,840，最低點日期 2026-05-13。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -482,17 +482,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 4488,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 4488,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1283040459&cgp=4488",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：(店+)【GIGABYTE 技嘉】G27Q20T 27型 LED 電競螢幕",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / (店+)【GIGABYTE 技嘉】G27Q20T 27型 LED 電競螢幕」最低價為 NT$4,488，最低點日期 2026-07-09。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -543,17 +543,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 2988,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 2988,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1272513543&cgp=2988",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：(店+)【ViewSonic 優派】ViewSonic優派 24型 VX2479A-HD-PRO 電競顯示器",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / (店+)【ViewSonic 優派】ViewSonic優派 24型 VX2479A-HD-PRO 電競顯示器」最低價為 NT$2,988，最低點日期 2026-07-09。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -604,17 +604,17 @@
     ],
     "releaseDate": "2025-07",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 3988,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 3988,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1266453715&cgp=4288",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【AOC】Q27G42ZE 27型IPS 2K 21:9 240Hz 電競螢幕(0.3ms/Adaptive Sync/HDR10/HDMI/DP)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【AOC】Q27G42ZE 27型IPS 2K 21:9 240Hz 電競螢幕(0.3ms/Adaptive Sync/HDR10/HDMI/DP)」最低價為 NT$3,988，最低點日期 2026-06-09。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -665,17 +665,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 3888,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 3888,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1283960446&cgp=3888",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【Philips 飛利浦】27M2N2500NF 27型IPS 2K 144Hz電競螢幕(HDR/Adaptive-Sync/0.5ms)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【Philips 飛利浦】27M2N2500NF 27型IPS 2K 144Hz電競螢幕(HDR/Adaptive-Sync/0.5ms)」最低價為 NT$3,888，最低點日期 2026-07-09。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -726,17 +726,17 @@
     ],
     "releaseDate": "2019-12-05",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 10355,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 10355,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1235989105&cgp=10900",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：EIZO FlexScan EV2460 黑色 24型/低藍光低閃頻護眼/薄邊框",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Yahoo購物中心 / EIZO FlexScan EV2460 黑色 24型/低藍光低閃頻護眼/薄邊框」最低價為 NT$10,355，最低點日期 2026-06-30。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -787,17 +787,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 3499,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 3499,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1268930064&cgp=3699",
+      "sourceTitle": "LBJ 比價撿便宜歷史價格：PChome Xiaomi A27Qi 2026",
+      "evidenceSnippet": "LBJ PChome history shows NT$3,499 on 2026-01-09 and 2026-01-17 for Xiaomi A27Qi 2026.",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "已查 PChome 商品頁、商品編號 DSABVO-A900JMD8B、A27Qi / A27Qi 2026 / Xiaomi A27Qi 英中關鍵字、BigGo、飛比、FindPrice、Price.com.hk 站內索引與一般比價/歷史價格關鍵字；PChome 現價 3,699 元，但頁面未明確標示歷史低價/最低價，且另有一日限定 95 折、P 幣/信用卡/登記送等不可列入的折扣或回饋，因此未採用。"
+      "note": "已由 worker 查核 LBJ、BigGo 與 FindPrice；採 LBJ PChome 同型號歷史低點 NT$3,499。低於此價的福利品、拍賣混列或非可信新品通路候選均排除。"
     }
   },
   {
@@ -858,7 +858,7 @@
       "sourceKind": "not_found",
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ LG UltraFine 27UP850K-W: 蝦皮商城 - LG旗艦館 LG樂金27吋27UP850K-W UltraFine 4K UHD IPS高畫質編輯螢幕 非採用通路或含排除條件；LBJ LG UltraFine 27UP850K-W: 原價屋 【原價屋】LG UltraFine 27UP850K-W〈2H1P1C/IPS/含喇叭/HDR400〉可升降旋轉 非採用通路或含排除條件；LBJ LG UltraFine 27UP850K-W: Wellife品生活 【Wellife 品生活】LG 27吋 UltraFine™ 4K UHD IPS 高畫質編輯螢幕 27UP850K-W 非採用通路或含排除條件。"
     }
   },
   {
@@ -909,17 +909,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 5978,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 5978,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=571744711&cgp=5978",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：ASUS 華碩 ProArt PA278QEV 專業螢幕 27吋 75Hz IPS 2K 5ms 可調式支架",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「蝦皮商城 - ROG 華碩授權店 | 電競周邊館 / ASUS 華碩 ProArt PA278QEV 專業螢幕 27吋 75Hz IPS 2K 5ms 可調式支架」最低價為 NT$5,978，最低點日期 2026-07-09。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -970,17 +970,17 @@
     ],
     "releaseDate": "2024-11",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 7980,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 7980,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1283958095&cgp=7980",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：(店+)【ASUS 華碩】ROG Strix XG27UCG 27型 4K 160Hz 電競螢幕",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / (店+)【ASUS 華碩】ROG Strix XG27UCG 27型 4K 160Hz 電競螢幕」最低價為 NT$7,980，最低點日期 2026-07-09。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -1031,17 +1031,17 @@
     ],
     "releaseDate": "2025-07-23",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 10999,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 10999,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1251611819&cgp=10999",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：ACER 宏碁 Predator X27U X2 電競螢幕(27型/2K/240Hz/0.03ms/HDMI/DP/OLED)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「PCHome購物 / ACER 宏碁 Predator X27U X2 電競螢幕(27型/2K/240Hz/0.03ms/HDMI/DP/OLED)」最低價為 NT$10,999，最低點日期 2026-07-09。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -1092,17 +1092,17 @@
     ],
     "releaseDate": "2025-06-27",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 8158,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 8158,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1272943474&cgp=8588",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【AOC】Q27G4ZMN 2K MINI LED 電競顯示器(27型/QHD/240Hz/1ms/Adaptive Sync)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【AOC】Q27G4ZMN 2K MINI LED 電競顯示器(27型/QHD/240Hz/1ms/Adaptive Sync)」最低價為 NT$8,158，最低點日期 2026-07-09。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -1153,17 +1153,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 10490,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 10490,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=539716640&cgp=10490",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：Samsung 27吋 Odyssey OLED G5 平面電競顯示器 S27FG502SC 廠商直送",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「蝦皮商城 - 蝦皮直營 - 3C家電館 / Samsung 27吋 Odyssey OLED G5 平面電競顯示器 S27FG502SC 廠商直送」最低價為 NT$10,490，最低點日期 2026-07-09。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -1214,17 +1214,17 @@
     ],
     "releaseDate": "2025-10-24",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 8540,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 8540,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1272303868&cgp=8990",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【GIGABYTE 技嘉】27型 M27UP 雙模4K 電競螢幕(IPS/3840x2160/G-SYNC/1ms/HDMI/DP/內建喇叭)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【GIGABYTE 技嘉】27型 M27UP 雙模4K 電競螢幕(IPS/3840x2160/G-SYNC/1ms/HDMI/DP/內建喇叭)」最低價為 NT$8,540，最低點日期 2026-07-09。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -1275,17 +1275,17 @@
     ],
     "releaseDate": "2026-02-15",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 14144,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 14144,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1245308262&cgp=14144",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：BenQ MA270U 27型 4K 最適合MAC外接護眼螢幕(IPS/HDMI/USB-C/HDR400)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Yahoo購物中心 / BenQ MA270U 27型 4K 最適合MAC外接護眼螢幕(IPS/HDMI/USB-C/HDR400)」最低價為 NT$14,144，最低點日期 2026-07-09。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -1336,17 +1336,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 14144,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 14144,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1237705567&cgp=14144",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：BenQ EW3290U 32型 IPS 4K 16:9 60Hz影音護眼螢幕 (HDMI/DP/Type-C)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Yahoo購物中心 / BenQ EW3290U 32型 IPS 4K 16:9 60Hz影音護眼螢幕 (HDMI/DP/Type-C)」最低價為 NT$14,144，最低點日期 2026-07-09。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -1397,17 +1397,17 @@
     ],
     "releaseDate": "2023-11-09",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 12243,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 12243,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1207733401&cgp=12888",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【DELL 戴爾】U2724D-4Y 27型 IPS 2K 窄邊美型螢幕(Type-C/樞紐旋轉/TUV護眼)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【DELL 戴爾】U2724D-4Y 27型 IPS 2K 窄邊美型螢幕(Type-C/樞紐旋轉/TUV護眼)」最低價為 NT$12,243，最低點日期 2026-05-08。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -1458,17 +1458,17 @@
     ],
     "releaseDate": "2025-02-25",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 24888,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 24888,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1247096815&cgp=27888",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【DELL 戴爾】U2725QE-4Y 27吋顯示器(IPS Black/4K UHD/3840x2160/HDMI/DisplayPort/Thunderbolt 4/USB-C)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【DELL 戴爾】U2725QE-4Y 27吋顯示器(IPS Black/4K UHD/3840x2160/HDMI/DisplayPort/Thunderbolt 4/USB-C)」最低價為 NT$24,888，最低點日期 2025-09-17。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -1519,17 +1519,17 @@
     ],
     "releaseDate": "2024-11-18",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 19900,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 19900,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1251403137&cgp=22900",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【LG 樂金】27GX790A-B 27型 UltraGear QHD 480Hz OLED電競螢幕",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Yahoo購物中心 / 【LG 樂金】27GX790A-B 27型 UltraGear QHD 480Hz OLED電競螢幕」最低價為 NT$19,900，最低點日期 2026-02-02。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -1580,17 +1580,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 20888,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 20888,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=638526256&cgp=20888",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：ASUS華碩 32型 ROG Strix OLED XG32UCWG 電競螢幕",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「蝦皮商城 - eclife良興購物網 / ASUS華碩 32型 ROG Strix OLED XG32UCWG 電競螢幕」最低價為 NT$20,888，最低點日期 2026-07-09。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -1641,17 +1641,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 10888,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 10888,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1268707725&cgp=10888",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【ASUS 華碩】ROG Strix OLED XG27AQDMES 27型 1440p 240Hz 電競螢幕(0.03ms/QD-OLED)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【ASUS 華碩】ROG Strix OLED XG27AQDMES 27型 1440p 240Hz 電競螢幕(0.03ms/QD-OLED)」最低價為 NT$10,888，最低點日期 2026-07-09。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -1702,17 +1702,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 17955,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 17955,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1256819502&cgp=17955",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：MSI微星 MPG 271QRX QD-OLED 27型 2K 360Hz HDR電競螢幕",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Yahoo購物中心 / MSI微星 MPG 271QRX QD-OLED 27型 2K 360Hz HDR電競螢幕」最低價為 NT$17,955，最低點日期 2026-07-09。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -1763,17 +1763,17 @@
     ],
     "releaseDate": "2025-06-18",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 14111,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 14111,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1261618529&cgp=14666",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：(店+)【GIGABYTE 技嘉】MO27Q2A 27型 280Hz QD-OLED 電競螢幕",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / (店+)【GIGABYTE 技嘉】MO27Q2A 27型 280Hz QD-OLED 電競螢幕」最低價為 NT$14,111，最低點日期 2026-06-01。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -1824,17 +1824,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 6925,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 6925,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1282168335&cgp=7290",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【ViewSonic 優派】VG2719U-4K 27型 IPS 4K人體工學商用螢幕(HDMI/DP/內建喇叭/96W USB-C 供電)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【ViewSonic 優派】VG2719U-4K 27型 IPS 4K人體工學商用螢幕(HDMI/DP/內建喇叭/96W USB-C 供電)」最低價為 NT$6,925，最低點日期 2026-06-19。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -1885,17 +1885,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 7588,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 7588,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1273971362&cgp=7988",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【ViewSonic 優派】VX2740D-4K 27型4K 160Hz/FHD 320Hz雙模電競螢幕(G-Sync/1ms/相容PS5與Xbox)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【ViewSonic 優派】VX2740D-4K 27型4K 160Hz/FHD 320Hz雙模電競螢幕(G-Sync/1ms/相容PS5與Xbox)」最低價為 NT$7,588，最低點日期 2026-07-09。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -1946,17 +1946,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 4833,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 4833,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1269024144&cgp=5088",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【Philips 飛利浦】27M2N3500PF 27型 IPS QHD 16:9 260Hz電競螢幕(0.3ms/G-SYNC/HDMI)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【Philips 飛利浦】27M2N3500PF 27型 IPS QHD 16:9 260Hz電競螢幕(0.3ms/G-SYNC/HDMI)」最低價為 NT$4,833，最低點日期 2026-05-13。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -2007,17 +2007,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 7493,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 7493,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1282039495&cgp=7788",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【AOC】Q27G40XMN 27型 VA QHD-MiniLED 16:9 180Hz電競螢幕(1ms/Adaptive Sync/HDMI/DP)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【AOC】Q27G40XMN 27型 VA QHD-MiniLED 16:9 180Hz電競螢幕(1ms/Adaptive Sync/HDMI/DP)」最低價為 NT$7,493，最低點日期 2026-06-11。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -2068,17 +2068,17 @@
     ],
     "releaseDate": "2025-08-13",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 25555,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 25555,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1274423239&cgp=26900",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【Samsung 三星】S27FG602SC 27型QHD 500Hz Odyssey OLED G6電競螢幕(HDR/FreeSync/G-Sync相容/0.03ms)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【Samsung 三星】S27FG602SC 27型QHD 500Hz Odyssey OLED G6電競螢幕(HDR/FreeSync/G-Sync相容/0.03ms)」最低價為 NT$25,555，最低點日期 2026-06-18。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -2139,7 +2139,7 @@
       "sourceKind": "not_found",
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ Dell Alienware AW3225QF: 樂天市場 - 良興EcLife購物網 良興EcLife購物網 DELL 32型 Alienware QD-OLED 4K 曲面遊戲專用顯示器 AW3225QF 非採用通路或含排除條件；LBJ Dell Alienware AW3225QF: 良興購物網 【良興購物網】DELL 32型 Alienware QD-OLED 4K 曲面遊戲專用顯示器 AW3225QF 非採用通路或含排除條件；LBJ Dell Alienware AW3225QF: 全聯線上購 【全聯線上購】【DELL 戴爾】DELL 32型 Alienware QD-OLED 4K 曲面遊戲專用顯示器 AW3225QF(DELL 32型 Alienware QD-OLED 4K 曲面遊戲專用顯示器 AW3225QF) 非採用通路或含排除條件。"
     }
   },
   {
@@ -2190,17 +2190,17 @@
     ],
     "releaseDate": "2020-03-12",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 56905,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 56905,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1226974989&cgp=59900",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：EIZO ColorEdge CS2740 UHD4K 27吋螢幕/低藍光低閃頻護眼/薄邊框",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Yahoo購物中心 / EIZO ColorEdge CS2740 UHD4K 27吋螢幕/低藍光低閃頻護眼/薄邊框」最低價為 NT$56,905，最低點日期 2026-06-30。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -2252,17 +2252,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 5224,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 5224,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1273683689&cgp=5499",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【Acer 宏碁】ED343CUR J0 34型 VA 2K 21:9 120Hz曲面電競螢幕(傾斜/喇叭/1ms)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【Acer 宏碁】ED343CUR J0 34型 VA 2K 21:9 120Hz曲面電競螢幕(傾斜/喇叭/1ms)」最低價為 NT$5,224，最低點日期 2026-06-19。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -2314,17 +2314,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 5990,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 5990,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1282347662&cgp=5990",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【GIGABYTE 技嘉】GS34WQCA 34型WQHD VA 16:9 120Hz電競螢幕(1ms/FreeSync/HDMI/DP)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【GIGABYTE 技嘉】GS34WQCA 34型WQHD VA 16:9 120Hz電競螢幕(1ms/FreeSync/HDMI/DP)」最低價為 NT$5,990，最低點日期 2026-07-09。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -2376,17 +2376,17 @@
     ],
     "releaseDate": "2026-04-09",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 5988,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 5988,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1271534656&cgp=6288",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：(店+)【MSI 微星】MSI 微星 PRO MP341CQW E12 曲面電腦螢幕 34吋 120Hz 1ms 2k 內建喇叭 電腦螢幕 白色",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / (店+)【MSI 微星】MSI 微星 PRO MP341CQW E12 曲面電腦螢幕 34吋 120Hz 1ms 2k 內建喇叭 電腦螢幕 白色」最低價為 NT$5,988，最低點日期 2026-06-09。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -2438,17 +2438,17 @@
     ],
     "releaseDate": "2025-01-20",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 6888,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 6888,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1268861301&cgp=6888",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：(店+)【AOC】AOC CU34G4 曲面電競螢幕 34吋 180Hz 2K 0.5ms HDR 電競螢幕 電腦螢幕 遊戲螢幕 液晶螢幕",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / (店+)【AOC】AOC CU34G4 曲面電競螢幕 34吋 180Hz 2K 0.5ms HDR 電競螢幕 電腦螢幕 遊戲螢幕 液晶螢幕」最低價為 NT$6,888，最低點日期 2026-07-09。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -2500,17 +2500,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 5499,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 5499,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1275471429&cgp=6999",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【Acer 宏碁】ED340CUR X0 34型 VA 2K 21:9 200Hz曲面電競螢幕(1500R/傾斜/喇叭/HDR10/1ms)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【Acer 宏碁】ED340CUR X0 34型 VA 2K 21:9 200Hz曲面電競螢幕(1500R/傾斜/喇叭/HDR10/1ms)」最低價為 NT$5,499，最低點日期 2026-05-21。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -2562,17 +2562,17 @@
     ],
     "releaseDate": "2026-05-07",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 26888,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 26888,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1281721897&cgp=26888",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：ASUS 華碩 ROG Strix XG34WCDMS 電競螢幕(34型/3440x1440/280Hz/0.03ms/QD-OLED/HDMI2.1/Type-C)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「PCHome購物 / ASUS 華碩 ROG Strix XG34WCDMS 電競螢幕(34型/3440x1440/280Hz/0.03ms/QD-OLED/HDMI2.1/Type-C)」最低價為 NT$26,888，最低點日期 2026-07-09。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -2624,17 +2624,17 @@
     ],
     "releaseDate": "2024",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 24153,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 24153,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=566204153&cgp=24153",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：Samsung 34吋 Odyssey OLED G8 曲面電競顯示器 S34DG852SC 廠商直送",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「蝦皮商城 - 蝦皮直營 - 3C家電館 / Samsung 34吋 Odyssey OLED G8 曲面電競顯示器 S34DG852SC 廠商直送」最低價為 NT$24,153，最低點日期 2026-07-09。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -2686,17 +2686,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 29988,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 29988,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1283912346&cgp=29988",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：AOC PD34 PORSCHE DESIGN 曲面電競螢幕(34型/WQHD/HDR/240Hz/0.03ms/QD-OLED)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「PCHome購物 / AOC PD34 PORSCHE DESIGN 曲面電競螢幕(34型/WQHD/HDR/240Hz/0.03ms/QD-OLED)」最低價為 NT$29,988，最低點日期 2026-07-09。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -2748,17 +2748,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 22900,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 22900,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1282285706&cgp=22900",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：Samsung 三星 三星 49吋 S49FG916E Odyssey G9 曲面電競顯示器",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「PCHome購物 / Samsung 三星 三星 49吋 S49FG916E Odyssey G9 曲面電競顯示器」最低價為 NT$22,900，最低點日期 2026-07-09。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -2810,17 +2810,17 @@
     ],
     "releaseDate": "2024",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 34999,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 34999,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1282898133&cgp=36900",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：Samsung 三星 49吋 Odyssey OLED G9 S49DG932SCXZW 曲面電競螢幕 G93SD",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「PCHome購物 / Samsung 三星 49吋 Odyssey OLED G9 S49DG932SCXZW 曲面電競螢幕 G93SD」最低價為 NT$34,999，最低點日期 2026-07-09。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -2872,17 +2872,17 @@
     ],
     "releaseDate": "2024-03-26",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 37777,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 37777,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1264935872&cgp=38888",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：(店+)【AOC】AOC AG456UCZD 45型 OLED 2K 240Hz 21:9 曲面電競螢幕(0.01ms/HDMI/HDR)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / (店+)【AOC】AOC AG456UCZD 45型 OLED 2K 240Hz 21:9 曲面電競螢幕(0.01ms/HDMI/HDR)」最低價為 NT$37,777，最低點日期 2026-05-16。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -2934,17 +2934,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 37900,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 37900,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=638516659&cgp=38990",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：LG 樂金 45吋 45GX90SA-B WQHD 240Hz OLED曲面智慧電競螢幕 公司貨 廠商直送",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「蝦皮商城 - 蝦皮直營 - 3C家電館 / LG 樂金 45吋 45GX90SA-B WQHD 240Hz OLED曲面智慧電競螢幕 公司貨 廠商直送」最低價為 NT$37,900，最低點日期 2026-02-02。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -3058,17 +3058,17 @@
     ],
     "releaseDate": "2024",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 39400,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 39400,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1269194151&cgp=39900",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【DELL 戴爾】U3425WE-5Y 34吋顯示器(IPS/WQHD/3440 x 1440/曲面螢幕/HDMI/Thunderbolt™ 4)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【DELL 戴爾】U3425WE-5Y 34吋顯示器(IPS/WQHD/3440 x 1440/曲面螢幕/HDMI/Thunderbolt™ 4)」最低價為 NT$39,400，最低點日期 2026-01-26。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -3120,17 +3120,17 @@
     ],
     "releaseDate": "2024-03-21",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 31255,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 31255,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1216821164&cgp=32900",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【MSI 微星】MPG 491CQP QD-OLED 49型 DQHD 144Hz 電競曲面顯示器(0.03ms/ClearMR 8000/HDR400/1800R)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【MSI 微星】MPG 491CQP QD-OLED 49型 DQHD 144Hz 電競曲面顯示器(0.03ms/ClearMR 8000/HDR400/1800R)」最低價為 NT$31,255，最低點日期 2026-05-13。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -3180,17 +3180,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 2749,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 2749,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1233588111&cgp=3449",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【Costco好市多】飛利浦 27吋 電腦螢幕 27E1N1100D Philips 27 inch Monitor 27E1N1100D",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Costco好市多 / 【Costco好市多】飛利浦 27吋 電腦螢幕 27E1N1100D Philips 27 inch Monitor 27E1N1100D」最低價為 NT$2,749，最低點日期 2026-01-19。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -3241,17 +3241,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 2799,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 2799,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1262943902&cgp=3499",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【Costco好市多】Acer Nitro 27吋 電競曲面螢幕 ED270 P0 Acer Nitro 27 inch Gaming Curved Monitor ED270 P0",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Costco好市多 / 【Costco好市多】Acer Nitro 27吋 電競曲面螢幕 ED270 P0 Acer Nitro 27 inch Gaming Curved Monitor ED270 P0」最低價為 NT$2,799，最低點日期 2026-04-13。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -3302,17 +3302,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 8199,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 8199,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1232574103&cgp=8199",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【Costco好市多】Samsung ViewFinity S7 32吋 UHD 高解析度平面顯示器 S32D706EAC Samsung ViewFinity S7 32 inch UHD Monitor S32D706EAC",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Costco好市多 / 【Costco好市多】Samsung ViewFinity S7 32吋 UHD 高解析度平面顯示器 S32D706EAC Samsung ViewFinity S7 32 inch UHD Monitor S32D706EAC」最低價為 NT$8,199，最低點日期 2026-07-09。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   }
 ]);

@@ -212,9 +212,6 @@ async function runViewport(browser, name, viewport) {
   if (!firstHistoricalLow) throw new Error(`${name}: product cards missing historical low insight`);
   const historicalLowSourceLink = await page.locator(".product-card").first().locator(".price-insight a", { hasText: "史低出處" }).count();
   if (!historicalLowSourceLink) throw new Error(`${name}: found historical low card missing source link`);
-  const unknownHistoricalLow = await page.locator(".product-card .price-insight", { hasText: "無法判定" }).first().count();
-  if (!unknownHistoricalLow) throw new Error(`${name}: missing not-found historical low state`);
-
   await waitForProductCards(page, 12);
   await assertHistoricalLowLayout(page, name);
   const initialRenderedText = await visibleText(page, "#renderedCount");
@@ -236,6 +233,8 @@ async function runViewport(browser, name, viewport) {
   if (await page.locator("#loadAllProducts").isVisible()) {
     throw new Error(`${name}: load all button should hide after all products render`);
   }
+  const unknownHistoricalLow = await page.locator(".product-card .price-insight", { hasText: "無法判定" }).first().count();
+  if (!unknownHistoricalLow) throw new Error(`${name}: missing not-found historical low state`);
   await page.fill("#searchInput", "不存在的商品關鍵字");
   await page.waitForFunction(() => document.querySelector("#visibleCount")?.textContent?.trim() === "0");
   await page.fill("#searchInput", "");
@@ -613,6 +612,7 @@ async function runViewport(browser, name, viewport) {
   try {
     await runViewport(browser, "dashboard-wide-desktop", { width: 2048, height: 1152 });
     await runViewport(browser, "dashboard-desktop", { width: 1440, height: 1100 });
+    await runViewport(browser, "dashboard-narrow-desktop", { width: 1120, height: 1000 });
     await runViewport(browser, "dashboard-tablet", { width: 1180, height: 1000 });
     await runViewport(browser, "dashboard-mobile", { width: 390, height: 844 });
   } finally {

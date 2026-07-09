@@ -60,7 +60,7 @@
       "sourceKind": "not_found",
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ Vitamix A3500i: 蝦皮商城 - 點點蜜│點亮你的健康新生活 美國Vitamix Ascent 調理杯/磨粉杯1.4L-A2500i/A3500i專用-台灣官方公司貨 型號/規格不相符；LBJ Vitamix A3500i: Momo富邦購物 美國Vitamix Ascent 調理杯/磨粉杯1.4L-A2500i/A3500i專用(台灣官方公司貨) 型號/規格不相符；LBJ Vitamix A3500i: 蝦皮商城 - 美國Vitamix 台灣館 美國Vitamix Ascent 調理杯/磨粉杯1.4L-A2500i/A3500i專用-台灣官方公司貨 型號/規格不相符。"
     }
   },
   {
@@ -119,7 +119,7 @@
       "sourceKind": "not_found",
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ Vitamix A2500i: 蝦皮商城 - 點點蜜│點亮你的健康新生活 美國Vitamix Ascent 調理杯/磨粉杯1.4L-A2500i/A3500i專用-台灣官方公司貨 型號/規格不相符；LBJ Vitamix A2500i: Momo富邦購物 美國Vitamix Ascent 調理杯/磨粉杯1.4L-A2500i/A3500i專用(台灣官方公司貨) 型號/規格不相符；LBJ Vitamix A2500i: 蝦皮商城 - 美國Vitamix 台灣館 美國Vitamix Ascent 調理杯/磨粉杯1.4L-A2500i/A3500i專用-台灣官方公司貨 型號/規格不相符。"
     }
   },
   {
@@ -167,17 +167,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 10115,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 10115,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1236955180&cgp=10115",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【JOYOUNG 九陽】免清洗多功能破壁調理機(DJ12M-K8S)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【JOYOUNG 九陽】免清洗多功能破壁調理機(DJ12M-K8S)」最低價為 NT$10,115，最低點日期 2026-07-09。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -225,17 +225,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 2240,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 2240,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1242227025&cgp=2473",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【Philips 飛利浦】破壁營養冷熱豆漿調理機_HR2038/30",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Yahoo購物中心 / 【Philips 飛利浦】破壁營養冷熱豆漿調理機_HR2038/30」最低價為 NT$2,240，最低點日期 2025-11-11。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -293,7 +293,7 @@
       "sourceKind": "not_found",
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ Ninja BN701: 露天拍賣 - 代世電子~~無低消！可開發票！可刷卡！ (12860個評價) Ninja BL610 BN701 Blender XL Ninja BL710WM 72oz Pitcher 的 的 非採用通路或含排除條件；LBJ Ninja BN701: 露天拍賣 - 世代電子商行~~可開發票/報價單/可刷卡 (42094個評價) Ninja BL610 BN701 Blender XL Ninja BL710WM 72oz Pitcher 的 的 非採用通路或含排除條件；LBJ BN701: 蝦皮商城 - B.V.D. D&G 襪子專賣 【BVD】超低襪口男隱形襪-BN701 男襪 低口襪 非採用通路或含排除條件。"
     }
   },
   {
@@ -351,7 +351,7 @@
       "sourceKind": "not_found",
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ Vitamix VITA PREP: 露天拍賣 - chen_rumi的賣場 (2355個評價) 便宜賣全新 Vitamix Vita Prep 3 紅 型號/規格不相符；LBJ Vitamix VITA PREP: PCHome購物 Vitamix 維他美仕 美國製維他美仕最新款獨立電源開關生機調理機果汁機冰沙機 VITA PREP(2.3匹馬力)美國原廠貨 型號/規格不相符；LBJ Vitamix VITA PREP: Yahoo拍賣 - 鑫和小舖 (262個評價) 維他美仕VITAMIX全新VITA-PREP 3超強三匹馬力vitamix vita prep 3 全營養調理機專業商用 型號/規格不相符。"
     }
   },
   {
@@ -409,7 +409,7 @@
       "sourceKind": "not_found",
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ Vitamix VITA PREP 3: PCHome購物 Vitamix 維他美仕 美國製維他美仕最新款獨立電源開關生機調理機果汁機冰沙機 VITA PREP(2.3匹馬力)美國原廠貨 型號/規格不相符；LBJ Vitamix VITA PREP 3: Yahoo拍賣 - 鑫和小舖 (262個評價) 維他美仕VITAMIX全新VITA-PREP 3超強三匹馬力vitamix vita prep 3 全營養調理機專業商用 非採用通路或含排除條件；LBJ Vitamix VITA PREP 3: 露天拍賣 - chen_rumi的賣場 (2355個評價) 便宜賣全新 Vitamix Vita Prep 3 紅 非採用通路或含排除條件。"
     }
   },
   {
@@ -457,17 +457,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 21736,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 21736,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1213128054&cgp=22230",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【美國Vitamix】全食物調理機E320 Explorian探索者-白-台灣官方公司貨-陳月卿推薦(送工具組)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【美國Vitamix】全食物調理機E320 Explorian探索者-白-台灣官方公司貨-陳月卿推薦(送工具組)」最低價為 NT$21,736，最低點日期 2026-06-26。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -525,7 +525,7 @@
       "sourceKind": "not_found",
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：BigGo QBAO0F-A900AS2DJ: 查詢失敗 429 https://biggo.com.tw/api/v1/spa/search/QBAO0F-A900AS2DJ/product?p=1；BigGo Vitamix A2500i White: 查詢失敗 429 https://biggo.com.tw/api/v1/spa/search/Vitamix%20A2500i%20White/product?p=1。"
     }
   },
   {
@@ -573,17 +573,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 42075,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 42075,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1255651585&cgp=49500",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【Blendtec】高效能食物調理機 專業800-尊爵黑(Professional 800公司貨)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【Blendtec】高效能食物調理機 專業800-尊爵黑(Professional 800公司貨)」最低價為 NT$42,075，最低點日期 2025-11-13。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -641,7 +641,7 @@
       "sourceKind": "not_found",
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ Blendtec Connoisseur 825: Momo富邦購物 【Blendtec】美國製3.8匹數位調理機果汁機冰沙機(CONNOISSEUR 825 SPACESAVER) 型號/規格不相符；LBJ Blendtec Connoisseur 825: Momo富邦購物 【Blendtec】高效能食物調理機 鑑賞家825-尊爵黑(CONNOISSEUR825公司貨附5角容杯x1) 型號/規格不相符；LBJ Blendtec Connoisseur 825: Yahoo購物中心 【Blendtec】 高效能食物調理機 鑑賞家825-尊爵黑(CONNOISSEUR825公司貨附5角容杯x1) 型號/規格不相符。"
     }
   },
   {
@@ -699,7 +699,7 @@
       "sourceKind": "not_found",
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ Blendtec Designer 650: 露天拍賣 - Wowlook 玩路客美國專業代買代購 (6897個評價) 【Wowlook】 Blendtec Designer 650 調理機 整新 2104 型號/規格不相符；LBJ Blendtec Designer 650: Yahoo拍賣 - 蔣克史塔夫 JUNKSTUFF (349個評價) Blendtec Designer 650 故障 維修 服務 零件 配件 代購 全新盒裝 果汁機 型號/規格不相符；LBJ Blendtec Designer 650: citiesocial找好東西 【citiesocial找好東西】【Blendtec】高效能食物調理機 Designer650 型號/規格不相符。"
     }
   },
   {
@@ -747,17 +747,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 21800,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 21800,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1282602325&cgp=21800",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：(店+)【Blendtec】數位三匹馬力生機調理機 Total Blender-台灣公司貨(送TONTON 吸管隨行杯)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / (店+)【Blendtec】數位三匹馬力生機調理機 Total Blender-台灣公司貨(送TONTON 吸管隨行杯)」最低價為 NT$21,800，最低點日期 2026-07-09。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -805,17 +805,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 1090,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 1090,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1270272762&cgp=1290",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【JOYOUNG 九陽】高速調理果汁機(L19N-Y1W)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【JOYOUNG 九陽】高速調理果汁機(L19N-Y1W)」最低價為 NT$1,090，最低點日期 2026-06-09。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -873,7 +873,7 @@
       "sourceKind": "not_found",
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ XD XD-A08: 露天拍賣 - 宅配滿$490免運｜ PC24h購物 露天旗艦店 (71076個評價) 【PChome 24h購物】豆漿機XD-A08 R99N 非採用通路或含排除條件；LBJ XD XD-A08: 露天拍賣 - 宅配滿$490免運｜ PC24h購物 露天旗艦店 (71076個評價) 【PChome 24h購物】豆漿機XD-A08 R99N 非採用通路或含排除條件；LBJ XD XD-A08: 露天拍賣 - 宅配滿$490免運｜ PC24h購物 露天旗艦店 (71076個評價) 【PChome 24h購物】豆漿機XD-A08 高級黑普通款防糊底+磨粉杯110V R99N 非採用通路或含排除條件。"
     }
   },
   {
@@ -921,17 +921,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 8722,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 8722,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1273838610&cgp=8912",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：Joyoung九陽免清洗多功能破壁豆漿機DJ10M-K96G(遠航灰)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Yahoo購物中心 / Joyoung九陽免清洗多功能破壁豆漿機DJ10M-K96G(遠航灰)」最低價為 NT$8,722，最低點日期 2026-06-10。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -979,17 +979,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 2750,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 2750,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1240547130&cgp=3290",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【Tefal 特福】高速熱能營養調理機/寶寶副食品/豆漿機/養身料理SP21(BL961570)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【Tefal 特福】高速熱能營養調理機/寶寶副食品/豆漿機/養身料理SP21(BL961570)」最低價為 NT$2,750，最低點日期 2026-04-20。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -1037,17 +1037,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 11692,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 11692,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1248803523&cgp=12900",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【BOSCH 博世】超高速全營養調理機(MMBH6P6BTW)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【BOSCH 博世】超高速全營養調理機(MMBH6P6BTW)」最低價為 NT$11,692，最低點日期 2025-10-09。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -1095,17 +1095,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 10699,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 10699,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1283774544&cgp=10699",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：(店+)【JOYOUNG 九陽】(宅配免運) 多功能變頻輕音冷熱調理機L18M-Y6G 豆漿機 果汁機 破壁機 副食品 調理機",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / (店+)【JOYOUNG 九陽】(宅配免運) 多功能變頻輕音冷熱調理機L18M-Y6G 豆漿機 果汁機 破壁機 副食品 調理機」最低價為 NT$10,699，最低點日期 2026-07-09。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -1153,17 +1153,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 2349,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 2349,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1244678411&cgp=2959",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【Costco好市多】九陽 多功能豆漿機 SMM55 Joyoung Multifunctional Soymilk Machine SMM55",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Costco好市多 / 【Costco好市多】九陽 多功能豆漿機 SMM55 Joyoung Multifunctional Soymilk Machine SMM55」最低價為 NT$2,349，最低點日期 2026-04-09。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -1213,17 +1213,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 1860,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 1860,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1260248195&cgp=2149",
+      "sourceTitle": "LBJ 比價撿便宜歷史價格：Yahoo購物中心 Xiaomi 小米破壁調理機官方旗艦館",
+      "evidenceSnippet": "LBJ pid=1260248195 price_data shows NT$1,860 on 2025-07-09, 2025-09-17, and 2025-09-24.",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "已查 PChome 商品頁、商品編號 DMAYFG-A900IXDP8、型號 MJPBJ01DEMTW、商品名「Xiaomi 小米 破壁調理機 冷熱調理機」，以及 BigGo、飛比、FindPrice、EZprice 等比價/價格歷史方向；只能公開驗證目前 PChome 現價 2,149 元，頁面未明確標示歷史低價/最低價，因此依規則不能當史低。"
+      "note": "已由 worker 查核 BigGo、FindPrice、LBJ 與 Xiaomi 官方規格；採 LBJ Yahoo 官方旗艦館歷史最低 NT$1,860。低於此價的福利品、二手、再生工場或非 MJPBJ01DEMTW 候選均排除。"
     }
   },
   {
@@ -1271,17 +1271,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 1599,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 1599,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1236296146&cgp=1999",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【Costco好市多】東元 多功能蔬果破壁冷熱調理豆漿機 XYFYS007W TECO Blender With Variable Speeds XYFYS007W",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Costco好市多 / 【Costco好市多】東元 多功能蔬果破壁冷熱調理豆漿機 XYFYS007W TECO Blender With Variable Speeds XYFYS007W」最低價為 NT$1,599，最低點日期 2025-11-12。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -1342,7 +1342,7 @@
       "sourceKind": "not_found",
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ Ninja TB401TW: Momo富邦購物 【NINJA】TB401TW Detect 忍者三層快刀調理機(調理機/果汁機/攪拌機/烘焙) 型號/規格不相符；LBJ Ninja TB401TW: 樂天市場 - 及時雨 高壓恢復選品 及時雨 高壓恢復選品 Ninja Detect 多功能調理機 TB401TW 型號/規格不相符；LBJ Ninja TB401TW: Yahoo購物中心 【NINJA】Detect TB401TW忍者三層快刀智能調理機(調理機、果汁機、攪拌機、烘焙) 型號/規格不相符。"
     }
   },
   {
@@ -1403,7 +1403,7 @@
       "sourceKind": "not_found",
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ Vitamix E310: 樂天市場 - 貓與鼠百貨店 貓與鼠百貨店 48oz兼容Vitamix750 5300 5200 500 7500 6300 Vm0102 E310攪拌杯 型號/規格不相符；LBJ Vitamix E310: 樂天市場 - 玉山最低比價網 玉山最低比價網 [3美國直購] Vitamix 65421 48oz 食物調理機量杯 Aer Disc Container 適 E320 E310_B07CY3SDC9 型號/規格不相符；LBJ Vitamix E310: 樂天市場 - 及時雨 高壓恢復選品 及時雨 高壓恢復選品 Vitamix 全營養調理機 E310 型號/規格不相符。"
     }
   }
 ]);

@@ -170,17 +170,17 @@
     ],
     "releaseDate": "2024",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 51970,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 51970,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1271767502&cgp=51970",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：(店+)【SONY 索尼】Y-65XR70 65吋 Mini LED Google TV 液晶顯示器(含基本安裝)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / (店+)【SONY 索尼】Y-65XR70 65吋 Mini LED Google TV 液晶顯示器(含基本安裝)」最低價為 NT$51,970，最低點日期 2026-07-09。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -229,17 +229,17 @@
     ],
     "releaseDate": "2024",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 28159,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 28159,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1261089769&cgp=31999",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【Hisense】65型 4K 原生144Hz QD MiniLED AirPlay2 雙杜比連網液晶電視(65U7N)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【Hisense】65型 4K 原生144Hz QD MiniLED AirPlay2 雙杜比連網液晶電視(65U7N)」最低價為 NT$28,159，最低點日期 2026-04-11。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -288,17 +288,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 21900,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 21900,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1242121677&cgp=22900",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：BenQ明基65吋QLED 4K連網智慧顯示器E65-760 無安裝",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Yahoo購物中心 / BenQ明基65吋QLED 4K連網智慧顯示器E65-760 無安裝」最低價為 NT$21,900，最低點日期 2026-06-09。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -347,17 +347,17 @@
     ],
     "releaseDate": "2024",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 80500,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 80500,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1260955857&cgp=83710",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：(店+)【SONY 索尼】Y-65XR80 65吋 BRAVIA 8 4K HDR OLED 智慧液晶顯示器 (含基本安裝)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / (店+)【SONY 索尼】Y-65XR80 65吋 BRAVIA 8 4K HDR OLED 智慧液晶顯示器 (含基本安裝)」最低價為 NT$80,500，最低點日期 2026-01-30。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -406,17 +406,17 @@
     ],
     "releaseDate": "2025-01",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 62521,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 62521,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1250629133&cgp=69618",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：LG樂金 OLED65G5PTA 65 吋 OLED evo AI 4K 智慧顯示器",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Yahoo購物中心 / LG樂金 OLED65G5PTA 65 吋 OLED evo AI 4K 智慧顯示器」最低價為 NT$62,521，最低點日期 2026-04-15。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -465,17 +465,17 @@
     ],
     "releaseDate": "2025",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 65032,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 65032,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1274320953&cgp=71010",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【Panasonic 國際牌】65型OLED 4K連網智慧顯示器不含視訊盒(TV-65Z90BGT)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【Panasonic 國際牌】65型OLED 4K連網智慧顯示器不含視訊盒(TV-65Z90BGT)」最低價為 NT$65,032，最低點日期 2026-05-24。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -524,17 +524,17 @@
     ],
     "releaseDate": "2024",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 74900,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 74900,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1250838362&cgp=74900",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：(店+)飛利浦65吋OLED連網智慧顯示器65OLED809 無安裝",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / (店+)飛利浦65吋OLED連網智慧顯示器65OLED809 無安裝」最低價為 NT$74,900，最低點日期 2026-07-09。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -583,17 +583,17 @@
     ],
     "releaseDate": "2025-04-10",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 79360,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 79360,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1272035063&cgp=94900",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：(店+)【Samsung 三星】QA65S95FAXXZW 65 吋 OLED 4K AI 智慧顯示器 (含基本桌上安裝)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / (店+)【Samsung 三星】QA65S95FAXXZW 65 吋 OLED 4K AI 智慧顯示器 (含基本桌上安裝)」最低價為 NT$79,360，最低點日期 2026-03-24。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -642,17 +642,17 @@
     ],
     "releaseDate": "2026-05-05",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 52000,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 52000,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1282918688&cgp=52000",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：(店+)【TCL】65C8L 65吋miniLED 4K連網智慧顯示器 (含基本安裝)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / (店+)【TCL】65C8L 65吋miniLED 4K連網智慧顯示器 (含基本安裝)」最低價為 NT$52,000，最低點日期 2026-07-09。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -701,17 +701,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 28600,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 28600,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1282835720&cgp=28600",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：(店+)【TCL】65A400M 65吋miniLED 4K超薄連網智慧顯示器 (含基本安裝)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / (店+)【TCL】65A400M 65吋miniLED 4K超薄連網智慧顯示器 (含基本安裝)」最低價為 NT$28,600，最低點日期 2026-07-09。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -760,17 +760,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 20999,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 20999,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1262452291&cgp=25999",
+      "sourceTitle": "LBJ 比價撿便宜歷史價格：Xiaomi 小米 S Pro Mini LED 2026 65 型智慧顯示器",
+      "evidenceSnippet": "LBJ price_data contains 2026-03-03 at NT$20,999 for the exact-match Yahoo購物中心 product.",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "已查 PChome 商品頁、商品編號 DPADBU-1900JC97W、商品全名、S Pro Mini 65 2026 / S Pro Mini LED 65 2026、小米智慧顯示器 65 型 2026，以及 BigGo、飛比等比價/價格歷史方向；只能公開驗證 PChome 現價 26,999 元，未找到同型號同尺寸新品可信通路或價格歷史頁明確標示歷史最低價/史低，因此不可把現價當史低。"
+      "note": "已由 worker 查核 BigGo、FindPrice、LBJ、Yahoo 與 PChome；採 LBJ Yahoo購物中心 exact-match 商品歷史低點 2026-03-03 NT$20,999。排除會員券、信用卡回饋、點數、二手、福利品、展示機、箱損、拆封與整新品。"
     }
   },
   {
@@ -819,17 +819,17 @@
     ],
     "releaseDate": "2025",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 59800,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 59800,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1260955760&cgp=89910",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：(店+)【Samsung 三星】原廠控價 私訊我更便宜 QA65QN900FXXZW 65型Neo QLED 8K AI智慧顯示器(含基本安裝)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / (店+)【Samsung 三星】原廠控價 私訊我更便宜 QA65QN900FXXZW 65型Neo QLED 8K AI智慧顯示器(含基本安裝)」最低價為 NT$59,800，最低點日期 2026-03-24。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -878,17 +878,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 29900,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 29900,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1265781651&cgp=29900",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：BenQ明基65吋miniLED 4K連網智慧顯示器J65-770 無安裝",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Yahoo購物中心 / BenQ明基65吋miniLED 4K連網智慧顯示器J65-770 無安裝」最低價為 NT$29,900，最低點日期 2026-07-09。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -937,17 +937,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 13511,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 13511,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1283740096&cgp=13511",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【AOC】特價B品 65型 4K QLED Google TV 智慧顯示器(65U8040)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【AOC】特價B品 65型 4K QLED Google TV 智慧顯示器(65U8040)」最低價為 NT$13,511，最低點日期 2026-07-09。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -996,17 +996,17 @@
     ],
     "releaseDate": "2026-06-02",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 17900,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 17900,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1247818286&cgp=17900",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：TOSHIBA東芝 65吋4K QLED連網智慧顯示器65M450NT 無安裝",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Yahoo購物中心 / TOSHIBA東芝 65吋4K QLED連網智慧顯示器65M450NT 無安裝」最低價為 NT$17,900，最低點日期 2026-07-09。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -1055,17 +1055,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 12591,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 12591,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1269040312&cgp=13990",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：CHiQ啟客 65型4K QLED google TV智慧聯網液晶顯示器 不含視訊盒 CQ-65QX250 含基本安裝+舊機回收",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Yahoo購物中心 / CHiQ啟客 65型4K QLED google TV智慧聯網液晶顯示器 不含視訊盒 CQ-65QX250 含基本安裝+舊機回收」最低價為 NT$12,591，最低點日期 2026-06-20。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -1114,17 +1114,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 16489,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 16489,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1237729736&cgp=20000",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：TECO東元 65吋4K連網智慧顯示器TL65QU1TRE 無安裝",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Yahoo購物中心 / TECO東元 65吋4K連網智慧顯示器TL65QU1TRE 無安裝」最低價為 NT$16,489，最低點日期 2026-01-09。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -1173,17 +1173,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 16930,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 16930,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1273302585&cgp=19710",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：(店+)【SAMPO 聲寶】原廠控價 私訊我更便宜 QM-65SF620 65吋QLED 4K聯網液晶顯示器(含基本安裝)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / (店+)【SAMPO 聲寶】原廠控價 私訊我更便宜 QM-65SF620 65吋QLED 4K聯網液晶顯示器(含基本安裝)」最低價為 NT$16,930，最低點日期 2026-05-13。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -1232,17 +1232,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 42750,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 42750,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1264581642&cgp=44999",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：TOSHIBA東芝 REGZA 75型 4K QLED 144Hz Full Array LED AirPlay2 智慧顯示器 75Z670NT",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Yahoo購物中心 / TOSHIBA東芝 REGZA 75型 4K QLED 144Hz Full Array LED AirPlay2 智慧顯示器 75Z670NT」最低價為 NT$42,750，最低點日期 2026-06-24。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -1294,17 +1294,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 39900,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 39900,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1269573974&cgp=49990",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【TCL】家電快配★65型 頂級QD-Mini LED Google TV 144HZ 量子智能連網液晶顯示器 -基本安裝(65C8K)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【TCL】家電快配★65型 頂級QD-Mini LED Google TV 144HZ 量子智能連網液晶顯示器 -基本安裝(65C8K)」最低價為 NT$39,900，最低點日期 2026-06-26。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -1356,17 +1356,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 34704,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 34704,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1260718332&cgp=38560",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：Hisense海信 75型 4K QLED 144HZ雙杜比連網液晶顯示器 75Q7N 送桌上安裝",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Yahoo購物中心 / Hisense海信 75型 4K QLED 144HZ雙杜比連網液晶顯示器 75Q7N 送桌上安裝」最低價為 NT$34,704，最低點日期 2026-06-24。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   }
 ]);

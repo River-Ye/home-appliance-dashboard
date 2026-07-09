@@ -55,17 +55,17 @@
     "category": "dishwasher",
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 17874,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 17874,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1223048250&cgp=18085",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：(全省安裝)Panasonic國際牌6人份桌上型洗碗機NP-TH4WHR1TW（與NP-K1YWHR2TW相近）",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Yahoo購物中心 / (全省安裝)Panasonic國際牌6人份桌上型洗碗機NP-TH4WHR1TW（與NP-K1YWHR2TW相近）」最低價為 NT$17,874，最低點日期 2025-06-08。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -118,17 +118,17 @@
     "category": "dishwasher",
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 7990,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 7990,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1258214294&cgp=7990",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【TECO東元】3D全方位洗烘一體全自動洗碗機(XYFYW-5001CBW)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Yahoo購物中心 / 【TECO東元】3D全方位洗烘一體全自動洗碗機(XYFYW-5001CBW)」最低價為 NT$7,990，最低點日期 2026-07-09。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -181,17 +181,17 @@
     "category": "dishwasher",
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 5999,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 5999,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1234248327&cgp=10900",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：TOSHIBA 東芝 日本 4人份智慧WiFi洗烘存洗碗機 DWS-34BTW 免安裝｜租屋族必備",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「PCHome購物 / TOSHIBA 東芝 日本 4人份智慧WiFi洗烘存洗碗機 DWS-34BTW 免安裝｜租屋族必備」最低價為 NT$5,999，最低點日期 2026-06-26。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -244,17 +244,17 @@
     "category": "dishwasher",
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 14900,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 14900,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1273754196&cgp=15900",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：(店+)【TOSHIBA 東芝】6人份免安裝全自動洗碗機 都洗霸XL DW-05T1-TW",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / (店+)【TOSHIBA 東芝】6人份免安裝全自動洗碗機 都洗霸XL DW-05T1-TW」最低價為 NT$14,900，最低點日期 2026-04-30。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -317,7 +317,7 @@
       "sourceKind": "not_found",
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ Bosch SMS2ITI06X: 蝦皮商城 - Leico 麗歌購物商城│博世家電經銷商 【限時下殺】〈含標準安裝〉 BOSCH 2系列 60公分 12人份獨立式洗碗機 SMS2ITI06X 型號/規格不相符；LBJ Bosch SMS2ITI06X: 樂天市場 - KW廚房世界 KW廚房世界 BOSCH 博世 SMS2ITI06X 2系列 獨立式洗碗機 60 cm 不鏽鋼色110v 型號/規格不相符；LBJ Bosch SMS2ITI06X: Momo富邦購物 【BOSCH 博世】12人份 獨立式洗碗機(SMS2ITI06X) 型號/規格不相符。"
     }
   },
   {
@@ -370,17 +370,17 @@
     "category": "dishwasher",
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 27777,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 27777,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1269270387&cgp=27777",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【Electrolux 伊萊克斯】60cm 13人份 300系列自動開門獨立式洗碗機(EFF3360VWB)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【Electrolux 伊萊克斯】60cm 13人份 300系列自動開門獨立式洗碗機(EFF3360VWB)」最低價為 NT$27,777，最低點日期 2026-07-09。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -434,17 +434,17 @@
     "category": "dishwasher",
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 29900,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 29900,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1266236037&cgp=29900",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【LG 樂金】14人份 獨立式WiFi蒸氣洗碗機 含免費場勘 | 雲朵白 (DFB533FW)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【LG 樂金】14人份 獨立式WiFi蒸氣洗碗機 含免費場勘 | 雲朵白 (DFB533FW)」最低價為 NT$29,900，最低點日期 2026-07-09。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -497,17 +497,17 @@
     "category": "dishwasher",
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 27618,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 27618,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1250839114&cgp=27900",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【Whirlpool 惠而浦】14人份 自動開門獨立式洗碗機(WDFS2R4PWETW)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【Whirlpool 惠而浦】14人份 自動開門獨立式洗碗機(WDFS2R4PWETW)」最低價為 NT$27,618，最低點日期 2026-06-16。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -560,17 +560,17 @@
     "category": "dishwasher",
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 21667,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 21667,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1246131979&cgp=23040",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【Haier 海爾】16人份 自動開門 AI變頻獨嵌兩用洗碗機H500(HDWE16-48SC5SA 不含安裝)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【Haier 海爾】16人份 自動開門 AI變頻獨嵌兩用洗碗機H500(HDWE16-48SC5SA 不含安裝)」最低價為 NT$21,667，最低點日期 2026-03-20。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -624,17 +624,17 @@
     "category": "dishwasher",
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 20574,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 20574,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1140501907&cgp=23310",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【SAKURA 櫻花】半嵌式洗碗機不含門板及踢腳板E7682(E-7682)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【SAKURA 櫻花】半嵌式洗碗機不含門板及踢腳板E7682(E-7682)」最低價為 NT$20,574，最低點日期 2023-12-13。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -687,17 +687,17 @@
     "category": "dishwasher",
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 34900,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 34900,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1261748013&cgp=34900",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：(店+)【BOSCH 博世】SJU4EKW00W 220V 自動開門嵌櫃式洗碗機",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / (店+)【BOSCH 博世】SJU4EKW00W 220V 自動開門嵌櫃式洗碗機」最低價為 NT$34,900，最低點日期 2026-07-09。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -761,7 +761,7 @@
       "sourceKind": "not_found",
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ Fisher & Paykel DD60SHI9: 樂天市場 - 得意專業家電音響 得意專業家電音響 【領券折200】【得意】Fisher & Paykel 菲雪品克 DD60SHI9 單層 設計師款 嵌門板 抽屜式 洗碗機(7人份) 型號/規格不相符；LBJ Fisher & Paykel DD60SHI9: 樂天市場 - 新竹簡單生活館 新竹簡單生活館 【Fisher&Paykel 菲雪品克】單抽屜不含門板洗碗機 DD60SHI9 電洽0968-894194 型號/規格不相符；LBJ Fisher & Paykel DD60SHI9: 蝦皮商城 - 新竹簡單生活館 【菲雪品克】單層設計師款抽屜式洗碗機 DD60SHI9 (無門片/110V) Fisher&Paykel 型號/規格不相符。"
     }
   },
   {
@@ -815,17 +815,17 @@
     "category": "dishwasher",
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 46906,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 46906,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1269683447&cgp=47904",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：LG 樂金 14人份 QuadWash Steam 四方洗蒸氣洗碗機-消光銀(DFB335HS)(可預約場刊)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Yahoo購物中心 / LG 樂金 14人份 QuadWash Steam 四方洗蒸氣洗碗機-消光銀(DFB335HS)(可預約場刊)」最低價為 NT$46,906，最低點日期 2026-06-10。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -888,7 +888,7 @@
       "sourceKind": "not_found",
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ ASKO DBI544ID.W.TW: Momo富邦購物 【ASKO 雅士高】14人份洗碗機 DBI544ID.W.TW(嵌入型/典雅白/110V/含安裝) 型號/規格不相符；LBJ ASKO DBI544ID.W.TW: 蝦皮商城 - Celinda賽寧家電旗艦館 【瑞典雅士高ASKO】14人份洗碗機DBI544ID.W.TW(白色/110V/嵌入型/含安裝) 型號/規格不相符；LBJ ASKO DBI544ID.W.TW: Momo富邦購物 (店+)【ASKO 雅士高】14人份洗碗機DBI544ID.W.TW(典雅白/110V) 型號/規格不相符。"
     }
   },
   {
@@ -952,7 +952,7 @@
       "sourceKind": "not_found",
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ Miele G5314 C SCI: PCHome購物 Miele 【德國Miele】Miele G5314 C SCI 不鏽鋼洗碗機-半嵌式(自動開門/220V電壓) 型號/規格不相符；LBJ Miele G5314 C SCI: 露天拍賣 - 宅配滿$490免運｜ PC24h購物 露天旗艦店 (71076個評價) 【PChome 24h購物】【德國Miele】Miele G5314 C SCI 不鏽鋼洗碗機-半嵌式(自動開門/220V電壓) R99N 型號/規格不相符；BigGo DMBR1W-A900K4MYS: 查詢失敗 429 https://biggo.com.tw/api/v1/spa/search/DMBR1W-A900K4MYS/product?p=1。"
     }
   },
   {
@@ -1000,17 +1000,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 8910,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 8910,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1261685738&cgp=10900",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【嘉儀】KE嘉儀 桌上型洗碗機 KDW-156W(自動開門/關門、6人份免安裝洗碗機、奶瓶清洗、最高溫80度C)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【嘉儀】KE嘉儀 桌上型洗碗機 KDW-156W(自動開門/關門、6人份免安裝洗碗機、奶瓶清洗、最高溫80度C)」最低價為 NT$8,910，最低點日期 2026-04-17。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -1058,17 +1058,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 15839,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 15839,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1232329813&cgp=16999",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【Celinda 賽寧】免安裝自動6人份洗碗機DGF-601(110V/桌上型洗碗機/烘碗機)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【Celinda 賽寧】免安裝自動6人份洗碗機DGF-601(110V/桌上型洗碗機/烘碗機)」最低價為 NT$15,839，最低點日期 2026-06-16。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -1116,17 +1116,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 15971,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 15971,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1262048980&cgp=16311",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：Acerpure VORTEX KW1 桌上型全自動洗碗機(KW534-60W)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Yahoo購物中心 / Acerpure VORTEX KW1 桌上型全自動洗碗機(KW534-60W)」最低價為 NT$15,971，最低點日期 2026-06-10。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -1174,17 +1174,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 12870,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 12870,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1237988162&cgp=14990",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【only】即將缺貨↘高CP款6-8人份桌上型智慧洗碗機OKD06-M22美型白(獨立式/可嵌入)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【only】即將缺貨↘高CP款6-8人份桌上型智慧洗碗機OKD06-M22美型白(獨立式/可嵌入)」最低價為 NT$12,870，最低點日期 2025-06-03。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -1232,17 +1232,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 11874,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 11874,
+      "sourceUrl": "https://biggo.com.tw/s/%E5%B0%8F%E7%B1%B3%20%E6%A1%8C%E4%B8%8A%E5%9E%8B%20%E6%B4%97%E7%A2%97%E6%A9%9F",
+      "sourceTitle": "BigGo 搜尋：小米 桌上型 洗碗機",
+      "evidenceSnippet": "BigGo displayed the same PChome item at NT$12,999 with a NT$1,125 increase, and the same search snapshot showed NT$11,874.",
+      "sourceKind": "price_history",
+      "confidence": "medium",
       "checkedAt": "2026-07-09",
-      "note": "已查 PChome 商品頁、商品編號 DMBR24-A900JFSR7、小米官方產品頁、飛比價格比較頁，以及 BigGo、EZprice、FindPrice、momo、Yahoo、Shopee 等方向；可公開頁面只找到目前通路或比價現價，例如 PChome 12,999 元與部分比價現價，未明確標示歷史最低價、史低或可驗證價格歷史，因此不能作為史低。"
+      "note": "已由 worker 查核 BigGo、FindPrice、LBJ 與 PChome；採 BigGo 對同一 PChome 商品追蹤到的前低 NT$11,874。低價訂金、詢價、不同型號或無法確認新品官方保固候選均排除。"
     }
   },
   {
@@ -1290,17 +1290,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 20679,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 20679,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1141226730&cgp=25599",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【Costco好市多】BOSCH 45公分 獨立式洗碗機 SPS2IKW00X BOSCH 45 cm Freestanding Dishwasher SPS2IKW00X",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Costco好市多 / 【Costco好市多】BOSCH 45公分 獨立式洗碗機 SPS2IKW00X BOSCH 45 cm Freestanding Dishwasher SPS2IKW00X」最低價為 NT$20,679，最低點日期 2024-12-02。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -1351,17 +1351,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 27199,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 27199,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1212192259&cgp=33999",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【Costco好市多】BOSCH 60公分 4系列獨立式洗碗機 SMS4ITW00X BOSCH 60 cm Series 4 Freestanding Dishwasher SMS4ITW00X",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Costco好市多 / 【Costco好市多】BOSCH 60公分 4系列獨立式洗碗機 SMS4ITW00X BOSCH 60 cm Series 4 Freestanding Dishwasher SMS4ITW00X」最低價為 NT$27,199，最低點日期 2026-04-09。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -1412,17 +1412,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 45810,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 45810,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1284124582&cgp=45810",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：(店+)【Electrolux 伊萊克斯】EFF3560VXB 獨立式洗碗機（僅配送）｜60cm｜300系列｜15人份｜110V｜自動開門",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / (店+)【Electrolux 伊萊克斯】EFF3560VXB 獨立式洗碗機（僅配送）｜60cm｜300系列｜15人份｜110V｜自動開門」最低價為 NT$45,810，最低點日期 2026-07-09。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   }
 ]);

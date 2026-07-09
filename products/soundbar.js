@@ -51,17 +51,17 @@
     ],
     "releaseDate": "2025",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 44618,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 44618,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=556299131&cgp=44618",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：SAMSUNG 三星 HW-Q990F/ZW Q系列 11.1.4聲道 重低音與後環繞喇叭 聲霸 廠商直送",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「蝦皮商城 - 蝦皮直營 - 3C家電館 / SAMSUNG 三星 HW-Q990F/ZW Q系列 11.1.4聲道 重低音與後環繞喇叭 聲霸 廠商直送」最低價為 NT$44,618，最低點日期 2026-07-09。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -109,17 +109,17 @@
     ],
     "releaseDate": "2026",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 31255,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 31255,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1282582787&cgp=31255",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：Samsung三星 5.1.2聲道 藍牙聲霸(HW-Q800H/ZW)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Yahoo購物中心 / Samsung三星 5.1.2聲道 藍牙聲霸(HW-Q800H/ZW)」最低價為 NT$31,255，最低點日期 2026-07-09。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -167,17 +167,17 @@
     ],
     "releaseDate": "2025",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 11300,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 11300,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1268395779&cgp=11305",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【SONY 索尼】BRAVIA Theatre Bar 6 兩件式環繞家庭劇院HT-B600(公司貨 保固12個月)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【SONY 索尼】BRAVIA Theatre Bar 6 兩件式環繞家庭劇院HT-B600(公司貨 保固12個月)」最低價為 NT$11,300，最低點日期 2026-04-23。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -225,17 +225,17 @@
     ],
     "releaseDate": "2024-10-15",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 41900,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 41900,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1269726290&cgp=41900",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：SONOS Arc Ultra 旗艦級無線智能聲霸",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「PCHome購物 / SONOS Arc Ultra 旗艦級無線智能聲霸」最低價為 NT$41,900，最低點日期 2026-07-09。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -283,17 +283,17 @@
     ],
     "releaseDate": "2023",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 20899,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 20899,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1263183134&cgp=21296",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：JBL BAR 500 MK2 5.1聲道家庭劇院喇叭(英大公司貨)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / JBL BAR 500 MK2 5.1聲道家庭劇院喇叭(英大公司貨)」最低價為 NT$20,899，最低點日期 2026-03-05。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -341,17 +341,17 @@
     ],
     "releaseDate": "2026-04",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 49900,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 49900,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1282724157&cgp=49900",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：(店+)【Samsung 三星】HW-Q930H/ZW 藍牙聲霸 9.1.4ch 家庭劇院 Q系列 Soundbar 台灣公司貨",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / (店+)【Samsung 三星】HW-Q930H/ZW 藍牙聲霸 9.1.4ch 家庭劇院 Q系列 Soundbar 台灣公司貨」最低價為 NT$49,900，最低點日期 2026-07-09。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -399,17 +399,17 @@
     ],
     "releaseDate": "2025-01-15",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 17900,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 17900,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1263825588&cgp=17900",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：(店+)【Samsung 三星】(無安裝)3.1.2聲道全景聲微型劇院SoundBar音響HW-QS700F-ZW",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / (店+)【Samsung 三星】(無安裝)3.1.2聲道全景聲微型劇院SoundBar音響HW-QS700F-ZW」最低價為 NT$17,900，最低點日期 2026-07-09。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -457,17 +457,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 20100,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 20100,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1262367060&cgp=21891",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：(店+)【LG 樂金】下殺促銷!! Soundbar家庭劇院5.1.3聲道環繞音響 S80TR",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / (店+)【LG 樂金】下殺促銷!! Soundbar家庭劇院5.1.3聲道環繞音響 S80TR」最低價為 NT$20,100，最低點日期 2026-03-21。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -515,17 +515,17 @@
     ],
     "releaseDate": "2026",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 56905,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 56905,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1282582786&cgp=56905",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：Samsung三星 11.1.4聲道 藍牙聲霸(HW-Q990H/ZW)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Yahoo購物中心 / Samsung三星 11.1.4聲道 藍牙聲霸(HW-Q990H/ZW)」最低價為 NT$56,905，最低點日期 2026-07-09。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -573,17 +573,17 @@
     ],
     "releaseDate": "2026-04-02",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 35055,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 35055,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1282582784&cgp=35055",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：Samsung三星 7.1.2聲道 藍牙聲霸(HW-QS90H/ZW)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Yahoo購物中心 / Samsung三星 7.1.2聲道 藍牙聲霸(HW-QS90H/ZW)」最低價為 NT$35,055，最低點日期 2026-07-09。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -631,17 +631,17 @@
     ],
     "releaseDate": "2025",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 5880,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 5880,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=585835361&cgp=6990",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：SONY HT-S100F 家庭劇院 單件式聲霸 HT-S40R 藍牙 soundbar 2.0雙聲道 HT-A9000",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「蝦皮商城 - 樂邁3C / SONY HT-S100F 家庭劇院 單件式聲霸 HT-S40R 藍牙 soundbar 2.0雙聲道 HT-A9000」最低價為 NT$5,880，最低點日期 2026-06-09。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -689,17 +689,17 @@
     ],
     "releaseDate": "2018-02-17",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 5880,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 5880,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=585835361&cgp=6990",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：SONY HT-S100F 家庭劇院 單件式聲霸 HT-S40R 藍牙 soundbar 2.0雙聲道 HT-A9000",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「蝦皮商城 - 樂邁3C / SONY HT-S100F 家庭劇院 單件式聲霸 HT-S40R 藍牙 soundbar 2.0雙聲道 HT-A9000」最低價為 NT$5,880，最低點日期 2026-06-09。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -747,17 +747,17 @@
     ],
     "releaseDate": "2026",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 13261,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 13261,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1263061890&cgp=13261",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【JBL】BAR 300 MK2 5.0聲道多功能條型音響(英大公司貨)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【JBL】BAR 300 MK2 5.0聲道多功能條型音響(英大公司貨)」最低價為 NT$13,261，最低點日期 2026-07-09。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -805,17 +805,17 @@
     ],
     "releaseDate": "2022",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 27161,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 27161,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1283907970&cgp=27161",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：JBL BAR800 MK2 7.1聲道家庭劇院喇叭 英大公司貨一年保固",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Yahoo購物中心 / JBL BAR800 MK2 7.1聲道家庭劇院喇叭 英大公司貨一年保固」最低價為 NT$27,161，最低點日期 2026-07-09。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -873,7 +873,7 @@
       "sourceKind": "not_found",
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：BigGo DMAANJ-A900HZBZV: 查詢失敗 429 https://biggo.com.tw/api/v1/spa/search/DMAANJ-A900HZBZV/product?p=1；BigGo Bose Smart Soundbar 600 Ultra: 查詢失敗 429 https://biggo.com.tw/api/v1/spa/search/Bose%20Smart%20Soundbar%20600%20Ultra/product?p=1。"
     }
   },
   {
@@ -931,7 +931,7 @@
       "sourceKind": "not_found",
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ Philips TAB4288: Yahoo購物中心 Philips 飛利浦 2.0 聲道藍牙聲霸 TAB4288 型號/規格不相符；LBJ Philips TAB4288: Momo富邦購物 【Philips 飛利浦】2.0 聲道藍牙聲霸(TAB4288) 型號/規格不相符；LBJ Philips TAB4288: 蝦皮商城 - 飛利浦家庭娛樂影音旗艦館 Philips 飛利浦 2.0 聲道藍牙聲霸 TAB4288 型號/規格不相符。"
     }
   },
   {
@@ -979,17 +979,17 @@
     ],
     "releaseDate": "2026",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 20900,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 20900,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=530237176&cgp=24577",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【現貨】SONY HT-A8000 家庭劇院 5.0.2 聲道 聲霸 SW7 RS8 SW3 SW5 RS9 HT-A8",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「蝦皮商城 - 集雅社旗艦生活館 / 【現貨】SONY HT-A8000 家庭劇院 5.0.2 聲道 聲霸 SW7 RS8 SW3 SW5 RS9 HT-A8」最低價為 NT$20,900，最低點日期 2025-09-12。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -1037,17 +1037,17 @@
     ],
     "releaseDate": "2024-04-17",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 27900,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 27900,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=530211208&cgp=35618",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：SONY HT-A9000 家庭劇院 7.0.2聲道 聲霸 A9000 SW7 RS8 SW3 RS5 SW9 SW8",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「蝦皮商城 - 集雅社旗艦生活館 / SONY HT-A9000 家庭劇院 7.0.2聲道 聲霸 A9000 SW7 RS8 SW3 RS5 SW9 SW8」最低價為 NT$27,900，最低點日期 2025-08-27。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -1095,17 +1095,17 @@
     ],
     "releaseDate": "2025-06-12",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 42900,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 42900,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1259893393&cgp=42900",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：JBL BAR 1000 MK2 聲霸 7.1.4聲道家庭劇院",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「PCHome購物 / JBL BAR 1000 MK2 聲霸 7.1.4聲道家庭劇院」最低價為 NT$42,900，最低點日期 2026-07-09。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -1153,17 +1153,17 @@
     ],
     "releaseDate": "2022",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 35010,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 35010,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1277745007&cgp=35010",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：PHILIPS飛利浦 7.1.2聲道 重低音聲霸喇叭 TAFB1/96 天空聲道",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Yahoo購物中心 / PHILIPS飛利浦 7.1.2聲道 重低音聲霸喇叭 TAFB1/96 天空聲道」最低價為 NT$35,010，最低點日期 2026-07-09。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -1223,7 +1223,7 @@
       "sourceKind": "not_found",
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ Marshall Heston 120: Yahoo購物中心 Marshall Heston 120 家庭劇院聲霸 型號/規格不相符；LBJ Marshall Heston 120: Yahoo購物中心 【Marshall】Heston 120 家庭劇院聲霸【台灣公司貨】 型號/規格不相符；LBJ Marshall Heston 120: Yahoo購物中心 【百滋原廠公司貨】 Marshall Heston 120 家庭劇院聲霸 型號/規格不相符。"
     }
   },
   {
@@ -1284,7 +1284,7 @@
       "sourceKind": "not_found",
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ Marshall Heston 60: 蝦皮商城 - 新竹竹北 名展音響 Minjan Audio 【百滋原廠公司貨登錄延長半年保固】Marshall Heston 60 家庭劇院聲霸 型號/規格不相符；LBJ Marshall Heston 60: Momo富邦購物 【Marshall】家庭劇院聲霸 soundbar (Heston 60) 型號/規格不相符；LBJ Marshall Heston 60: Momo富邦購物 (店+)Marshall 馬歇爾音響 Heston 60 家庭劇院聲霸 公司貨 型號/規格不相符。"
     }
   },
   {
@@ -1332,17 +1332,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 11599,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 11599,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1212344126&cgp=14999",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【Costco好市多】Denon 3.1.2 聲道 Dolby Atmos Soundbar 重低音組合 DHT-S517 Denon 3.1.2 CH Soundbar with Dolby Atmos and Wireless Subwoofer DHT-S517",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Costco好市多 / 【Costco好市多】Denon 3.1.2 聲道 Dolby Atmos Soundbar 重低音組合 DHT-S517 Denon 3.1.2 CH Soundbar with Dolby Atmos and Wireless Subwoofer DHT-S517」最低價為 NT$11,599，最低點日期 2026-06-15。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -1393,17 +1393,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 6388,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 6388,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1254912816&cgp=6388",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：(店+)【Philips 飛利浦】2.1聲道 Soundbar 聲霸｜TAB6309/96【特價B品】",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / (店+)【Philips 飛利浦】2.1聲道 Soundbar 聲霸｜TAB6309/96【特價B品】」最低價為 NT$6,388，最低點日期 2026-07-09。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -1454,17 +1454,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 589,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 589,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1250661497&cgp=602",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【Soodatek】2.0聲道二合一Soundbar/SS0220-CS2000PBK",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Yahoo購物中心 / 【Soodatek】2.0聲道二合一Soundbar/SS0220-CS2000PBK」最低價為 NT$589，最低點日期 2026-06-09。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   }
 ]);

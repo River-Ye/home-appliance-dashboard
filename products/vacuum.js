@@ -51,17 +51,17 @@
     ],
     "releaseDate": "2022-06-22",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 15900,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 15900,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1272732921&cgp=17900",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【dyson 戴森】V12 Detect Slim Fluffy SV46 強勁輕量智慧無線吸塵器 光學偵測(升級HEPA過濾)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【dyson 戴森】V12 Detect Slim Fluffy SV46 強勁輕量智慧無線吸塵器 光學偵測(升級HEPA過濾)」最低價為 NT$15,900，最低點日期 2026-03-28。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -119,7 +119,7 @@
       "sourceKind": "not_found",
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ LG CordZero A9X-AUTO: 博客來 【限時優惠】LG 樂金 A9X系列 A9X-AUTO CordZero A9 X系列 All-in-One 快清式無線吸塵器-永夜灰 (自動集塵) 馬達保固10年 型號/規格不相符；LBJ LG CordZero A9X-AUTO: Yahoo購物中心 LG 樂金 CordZero A9 X系列 All-in-One 快清式無線吸塵器 永夜灰 A9X-AUTO 型號/規格不相符；LBJ LG CordZero A9X-AUTO: Momo富邦購物 【LG 樂金】CordZero A9X自動集塵無線吸塵器/吸頭收納x除蟎x輕量化(A9X-AUTO 永夜灰) 型號/規格不相符。"
     }
   },
   {
@@ -167,17 +167,17 @@
     ],
     "releaseDate": "2020-11-27",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 10790,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 10790,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1272634381&cgp=12740",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：(店+)【LG 樂金】CordZero A9K+ 濕拖無線吸塵器 | 永夜灰｜A9K-MOP3",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / (店+)【LG 樂金】CordZero A9K+ 濕拖無線吸塵器 | 永夜灰｜A9K-MOP3」最低價為 NT$10,790，最低點日期 2026-04-15。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -225,17 +225,17 @@
     ],
     "releaseDate": "2024",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 17559,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 17559,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1269933553&cgp=17936",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【Tineco 添可】Switch S7 Stretch多工平躺洗地吸塵器 (22000Pa/5分鐘速乾/85度熱水洗/電解水除菌)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Yahoo購物中心 / 【Tineco 添可】Switch S7 Stretch多工平躺洗地吸塵器 (22000Pa/5分鐘速乾/85度熱水洗/電解水除菌)」最低價為 NT$17,559，最低點日期 2026-06-18。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -283,17 +283,17 @@
     ],
     "releaseDate": "2023-06-28",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 19437,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 19437,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1272397485&cgp=20900",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【dyson 戴森】V12s Detect Slim Submarine SV46 乾溼全能洗地吸塵器(雙主吸頭 全新升級版 洗地機)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【dyson 戴森】V12s Detect Slim Submarine SV46 乾溼全能洗地吸塵器(雙主吸頭 全新升級版 洗地機)」最低價為 NT$19,437，最低點日期 2026-07-02。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -341,17 +341,17 @@
     ],
     "releaseDate": "2021-05",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 16044,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 16044,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1274420256&cgp=16382",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：Dyson V12 Fluffy SV46 輕量智慧無線吸塵器 贈副廠架+自動摺疊傘",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Yahoo購物中心 / Dyson V12 Fluffy SV46 輕量智慧無線吸塵器 贈副廠架+自動摺疊傘」最低價為 NT$16,044，最低點日期 2026-06-18。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -399,17 +399,17 @@
     ],
     "releaseDate": "2025-11",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 15888,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 15888,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=530872976&cgp=16900",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：Dyson SV49 V12s Origin Submarine 乾濕洗地吸塵器/洗地/除蟎機 三機一體 公司貨 2年保",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「蝦皮商城 - dyson戴森｜恆隆行官方旗艦館 / Dyson SV49 V12s Origin Submarine 乾濕洗地吸塵器/洗地/除蟎機 三機一體 公司貨 2年保」最低價為 NT$15,888，最低點日期 2026-04-29。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -457,17 +457,17 @@
     ],
     "releaseDate": "2021",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 17900,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 17900,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1274300369&cgp=17900",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【dyson 戴森】V15 Detect Fluffy SV47 智慧無線吸塵器 光學偵測/除螨機(升級HEPA過濾旗艦款)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【dyson 戴森】V15 Detect Fluffy SV47 智慧無線吸塵器 光學偵測/除螨機(升級HEPA過濾旗艦款)」最低價為 NT$17,900，最低點日期 2026-07-09。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -515,17 +515,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 4618,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 4618,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=554664694&cgp=4618",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：Dyson V8 Focus Mattress HH15 除塵蟎手持吸塵器 神腦生活",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「蝦皮商城 - 神腦生活 Senaonline / Dyson V8 Focus Mattress HH15 除塵蟎手持吸塵器 神腦生活」最低價為 NT$4,618，最低點日期 2026-07-09。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -583,7 +583,7 @@
       "sourceKind": "not_found",
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ LG CordZero A9X-STEAM: Momo富邦購物 (店+)【LG 樂金】A9X-STEAM 拆封新品 CordZero A9 X 蒸氣濕拖無線吸塵器 雪霧白 (吸拖洗地機/自動集塵) 型號/規格不相符；LBJ LG CordZero A9X-STEAM: Momo富邦購物 【LG 樂金】CordZero A9X蒸氣濕拖自動集塵無線吸塵器/吸頭收納x除蟎(A9X-STEAM 雪霧白) 型號/規格不相符；LBJ LG CordZero A9X-STEAM: 博客來 【限時優惠】LG 樂金 A9X系列 A9X-STEAM CordZero A9 X系列 All-in-One 蒸氣濕拖無線吸塵器-雪霧白 (自動集塵) 馬達保固10年 型號/規格不相符。"
     }
   },
   {
@@ -641,7 +641,7 @@
       "sourceKind": "not_found",
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ LG CordZero A9 Air A7-LITE: Momo富邦購物 【LG 樂金】CordZero A9 Air濕拖無線吸塵器/乾吸濕拖x超輕盈x超美型xmomo獨家(A7-LITEMOP 雲朵白) 型號/規格不相符；LBJ LG CordZero A9 Air A7-LITE: Momo富邦購物 (店+)【LG 樂金】下殺促銷!! CordZero™ A9 Air快清式無線吸塵器 A7-LITE 型號/規格不相符；LBJ LG CordZero A9 Air A7-LITE: Yahoo購物中心 【LG樂金】CordZero A9 Air快清式無線吸塵器 A7-LITE 型號/規格不相符。"
     }
   },
   {
@@ -689,17 +689,17 @@
     ],
     "releaseDate": "2018-12-18",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 7071,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 7071,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1250878390&cgp=7111",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：(店+)【LG 樂金】下殺促銷!! CordZero™ A9 Air快清式無線吸塵器 A7-LITE",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / (店+)【LG 樂金】下殺促銷!! CordZero™ A9 Air快清式無線吸塵器 A7-LITE」最低價為 NT$7,071，最低點日期 2025-08-09。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -757,7 +757,7 @@
       "sourceKind": "not_found",
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ Siroca SV-SP3710: 博客來 日本 Siroca 超輕量無線吸塵器 SV-SP3710 白 型號/規格不相符；LBJ Siroca SV-SP3710: Momo富邦購物 【Siroca】官方直營 SV-SP3710超輕量無線吸塵器(無線吸塵器) 型號/規格不相符；LBJ Siroca SV-SP3710: Momo富邦購物 (店+)【Siroca】超輕量無線吸塵器 SV-SP3710 型號/規格不相符。"
     }
   },
   {
@@ -815,7 +815,7 @@
       "sourceKind": "not_found",
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：BigGo DSBE1A-A900J8H81: 查詢失敗 429 https://biggo.com.tw/api/v1/spa/search/DSBE1A-A900J8H81/product?p=1；BigGo Plus Minus Zero XJC-Y011: 查詢失敗 429 https://biggo.com.tw/api/v1/spa/search/Plus%20Minus%20Zero%20XJC-Y011/product?p=1。"
     }
   },
   {
@@ -863,17 +863,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 3686,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 3686,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1262115056&cgp=3791",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：禾聯HERAN 無線手持吸塵器 HVC-35SC050",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Yahoo購物中心 / 禾聯HERAN 無線手持吸塵器 HVC-35SC050」最低價為 NT$3,686，最低點日期 2026-02-07。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -921,17 +921,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 13880,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 13880,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=542839592&cgp=13880",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【Tineco 添可】S7 Stretch Steam 蒸氣旗艦洗地機 160°C蒸氣除菌 80分鐘長續航 5分鐘速烘乾",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「蝦皮商城 - 尋覓3C影音 / 【Tineco 添可】S7 Stretch Steam 蒸氣旗艦洗地機 160°C蒸氣除菌 80分鐘長續航 5分鐘速烘乾」最低價為 NT$13,880，最低點日期 2026-07-09。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -989,7 +989,7 @@
       "sourceKind": "not_found",
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ Dyson SV50: 蝦皮商城 - 瘋旅遊 Crazy Travel 適用Dyson吸塵器 Pencilvac Fluffycones SV50 濾網 鉛筆濾網 濾網 過濾芯 戴森濾網 最低價 NT$285 低於現價合理比例，疑似月付/配件/錯類；LBJ Dyson SV50: 蝦皮商城 - 愛濾屋-清淨專家 濾網領航 台灣製造 品質出眾 適用Dyson戴森Pencilvac Fluffycones SV50 SV50FF筆型/鉛筆吸塵器HEPA集塵濾網芯 最低價 NT$325 低於現價合理比例，疑似月付/配件/錯類；LBJ Dyson SV50: Momo富邦購物 (店+)適用Dyson戴森Pencilvac Fluffycones SV50 SV50FF筆型吸塵器HEPA集塵濾網芯 最低價 NT$350 低於現價合理比例，疑似月付/配件/錯類。"
     }
   },
   {
@@ -1037,17 +1037,17 @@
     ],
     "releaseDate": "2025",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 13618,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 13618,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1261476801&cgp=14777",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【Tineco 添可】MOMO獨家限定-S9 Artist Pro平躺速烘吸塵洗地機(AI助航/5分鐘速乾/85度熱水洗/電解水除菌)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【Tineco 添可】MOMO獨家限定-S9 Artist Pro平躺速烘吸塵洗地機(AI助航/5分鐘速乾/85度熱水洗/電解水除菌)」最低價為 NT$13,618，最低點日期 2026-06-15。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -1095,17 +1095,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 9292,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 9292,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1222509812&cgp=9595",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：Panasonic國際牌 自動集塵吸塵器MC-KC1W",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Yahoo購物中心 / Panasonic國際牌 自動集塵吸塵器MC-KC1W」最低價為 NT$9,292，最低點日期 2026-06-28。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -1163,7 +1163,7 @@
       "sourceKind": "not_found",
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ Panasonic MC-SBR70: 樂天市場 - Panasonic授權台北中山佳麗寶電器 Panasonic授權台北中山佳麗寶電器 【Panasonic】極淨光吸塵器 (MC-SBR70) 型號/規格不相符；LBJ Panasonic MC-SBR70: 樂天市場 - Panasonic授權新店達澄電器行 Panasonic授權新店達澄電器行 【Panasonic】極淨光吸塵器 (MC-SBR70) 型號/規格不相符；LBJ Panasonic MC-SBR70: 樂天市場 - Panasonic授權高雄梓官協福電器 Panasonic授權高雄梓官協福電器 【Panasonic】極淨光吸塵器 (MC-SBR70) 型號/規格不相符。"
     }
   },
   {
@@ -1210,17 +1210,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 7777,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 7777,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1236881880&cgp=8888",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【Electrolux 伊萊克斯】Well Q7無線吸塵器(WQ71-2BSWF 冰雪白)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【Electrolux 伊萊克斯】Well Q7無線吸塵器(WQ71-2BSWF 冰雪白)」最低價為 NT$7,777，最低點日期 2025-07-24。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -1281,7 +1281,7 @@
       "sourceKind": "not_found",
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ IRIS OHYAMA IC-H50: Momo富邦購物 (店+)【D+ 滴家】IRIS Ohyama IC-H50 無線車用手持式 吸塵器 HEPA 濾網 濾心 IC-HH50 ICH50 (副廠) 非採用通路或含排除條件；LBJ IRIS OHYAMA IC-H50: 蝦皮商城 - Renza Filtration 濾網專家 適用 IRIS OHYAMA 愛麗思歐雅瑪 IC-H50 攜帶式充電吸塵器 HEPA濾網 濾芯 濾心 非採用通路或含排除條件；LBJ IRIS OHYAMA IC-H50: 蝦皮商城 - 淨博-外銷歐美日專業空氣清淨濾網 適用Iris Ohyama 無線車用手持式吸塵器IC-H50 (costco款)替換用HEPA微塵濾網濾心IC-HH50 非採用通路或含排除條件。"
     }
   },
   {
@@ -1342,7 +1342,7 @@
       "sourceKind": "not_found",
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ IRIS OHYAMA HCD-22MW: 鈴木太太 【鈴木太太】IRIS OHYAMA 超輕量多合一手持無線吸塵器 HCD-22MW 型號/規格不相符；LBJ IRIS OHYAMA HCD-22MW: 樂天市場 - 及時雨 高壓恢復選品 及時雨 高壓恢復選品 IRIS OHYAMA 手持式充電吸塵器 HCD-22MW 型號/規格不相符；LBJ IRIS OHYAMA HCD-22MW: 樂天市場 - 玉山最低比價網 玉山最低比價網 [COSCO代購6] D151572 IRIS OHYAMA 手持式充電吸塵器 HCD-22MW 型號/規格不相符。"
     }
   }
 ]);

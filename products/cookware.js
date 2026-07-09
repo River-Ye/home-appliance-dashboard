@@ -56,17 +56,17 @@
     "category": "cookware",
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 899,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 899,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1246188884&cgp=899",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【Tefal 特福】Daisy系列28CM不沾鍋平底鍋(IH爐可用鍋/電磁爐適用)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【Tefal 特福】Daisy系列28CM不沾鍋平底鍋(IH爐可用鍋/電磁爐適用)」最低價為 NT$899，最低點日期 2026-07-09。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -130,7 +130,7 @@
       "sourceKind": "not_found",
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：BigGo DEAWN3-A900JOVE3: 查詢失敗 429 https://biggo.com.tw/api/v1/spa/search/DEAWN3-A900JOVE3/product?p=1；BigGo Buffalo 小牛石英陶瓷 26cm: 查詢失敗 429 https://biggo.com.tw/api/v1/spa/search/Buffalo%20%E5%B0%8F%E7%89%9B%E7%9F%B3%E8%8B%B1%E9%99%B6%E7%93%B7%2026cm/product?p=1。"
     }
   },
   {
@@ -184,17 +184,17 @@
     "category": "cookware",
     "releaseDate": "2023",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 1299,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 1299,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1268723556&cgp=1299",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：(店+)【THERMOS 膳魔師】新一代厚鑄耐摩不沾鍋單柄深煎鍋30cm(KFM-030D R)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / (店+)【THERMOS 膳魔師】新一代厚鑄耐摩不沾鍋單柄深煎鍋30cm(KFM-030D R)」最低價為 NT$1,299，最低點日期 2026-07-09。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -247,17 +247,17 @@
     "category": "cookware",
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 1199,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 1199,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1258306016&cgp=1399",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：WMF Durado 陶瓷不沾平底鍋 24cm",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Yahoo購物中心 / WMF Durado 陶瓷不沾平底鍋 24cm」最低價為 NT$1,199，最低點日期 2025-12-18。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -320,7 +320,7 @@
       "sourceKind": "not_found",
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ Fissler Cianmic 28cm: 露天拍賣 - 宅配滿$490免運｜ PC24h購物 露天旗艦店 (71076個評價) 【PChome 24h購物】Fissler 瓷安系列 Cianmic 28cm不沾單柄炒鍋(含蓋)-柔桃色 非採用通路或含排除條件；BigGo DEAWN3-A900JSN52: 查詢失敗 429 https://biggo.com.tw/api/v1/spa/search/DEAWN3-A900JSN52/product?p=1；BigGo Fissler Cianmic 28cm: 查詢失敗 429 https://biggo.com.tw/api/v1/spa/search/Fissler%20Cianmic%2028cm/product?p=1。"
     }
   },
   {
@@ -374,17 +374,17 @@
     "category": "cookware",
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 2499,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 2499,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1282991043&cgp=2499",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：ZWILLING 雙人牌 Joy Plus 不鏽鋼深鍋 24cm 不鏽鋼鍋 平底鍋 炒鍋",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「PCHome購物 / ZWILLING 雙人牌 Joy Plus 不鏽鋼深鍋 24cm 不鏽鋼鍋 平底鍋 炒鍋」最低價為 NT$2,499，最低點日期 2026-07-09。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -437,17 +437,17 @@
     "category": "cookware",
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 3188,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 3188,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1267921541&cgp=5450",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【Le Creuset】TNS 雙耳深煎鍋-附蓋28cm",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【Le Creuset】TNS 雙耳深煎鍋-附蓋28cm」最低價為 NT$3,188，最低點日期 2026-04-09。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -500,17 +500,17 @@
     "category": "cookware",
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 5582,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 5582,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1256591263&cgp=8120",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【STAUB】圓形琺瑯鑄鐵鍋淺鍋26cm-亞麻色/3.8L(德國雙人牌集團官方直營)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【STAUB】圓形琺瑯鑄鐵鍋淺鍋26cm-亞麻色/3.8L(德國雙人牌集團官方直營)」最低價為 NT$5,582，最低點日期 2026-06-18。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -563,17 +563,17 @@
     "category": "cookware",
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 1349,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 1349,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1282465160&cgp=1349",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【Costco好市多】WMF Astoria 不鏽鋼低身湯鍋 含玻璃上蓋 20公分 2.5公升 WMF Astoria Stainless Steel Stock Pot with Glass Lid 20 cm 2.5 L",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Costco好市多 / 【Costco好市多】WMF Astoria 不鏽鋼低身湯鍋 含玻璃上蓋 20公分 2.5公升 WMF Astoria Stainless Steel Stock Pot with Glass Lid 20 cm 2.5 L」最低價為 NT$1,349，最低點日期 2026-07-09。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -626,17 +626,17 @@
     "category": "cookware",
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 2231,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 2231,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1233826604&cgp=2775",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：Fissler Levital 經典不沾平底鍋 28cm 不沾鍋 煎鍋 (電磁爐 IH爐可用)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Yahoo購物中心 / Fissler Levital 經典不沾平底鍋 28cm 不沾鍋 煎鍋 (電磁爐 IH爐可用)」最低價為 NT$2,231，最低點日期 2026-04-30。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -690,17 +690,17 @@
     "category": "cookware",
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 890,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 890,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1150621104&cgp=990",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：Tefal法國特福 饗樂系列不沾鍋具4件組(28cm炒鍋+16cm湯鍋+16cm鍋蓋+鍋鏟)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Yahoo購物中心 / Tefal法國特福 饗樂系列不沾鍋具4件組(28cm炒鍋+16cm湯鍋+16cm鍋蓋+鍋鏟)」最低價為 NT$890，最低點日期 2025-11-08。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -754,17 +754,17 @@
     "category": "cookware",
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 1283,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 1283,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1262216455&cgp=1799",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【Buffalo牛頭牌】雅登不鏽鋼湯鍋組18cm_單柄湯鍋調理鍋+複合蓋(304不銹鋼/IH爐/電磁爐適用/雙鍋組/露營鍋/泡麵鍋)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Yahoo購物中心 / 【Buffalo牛頭牌】雅登不鏽鋼湯鍋組18cm_單柄湯鍋調理鍋+複合蓋(304不銹鋼/IH爐/電磁爐適用/雙鍋組/露營鍋/泡麵鍋)」最低價為 NT$1,283，最低點日期 2025-11-11。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -817,17 +817,17 @@
     "category": "cookware",
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 3996,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 3996,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1272987935&cgp=4440",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【Sambonet】IUSE研選 義大利製 Titan 陶瓷不沾鍋 單柄平底鍋 28cm / Pro Green (IH爐可用鍋)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【Sambonet】IUSE研選 義大利製 Titan 陶瓷不沾鍋 單柄平底鍋 28cm / Pro Green (IH爐可用鍋)」最低價為 NT$3,996，最低點日期 2026-07-07。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -880,17 +880,17 @@
     "category": "cookware",
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 1490,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 1490,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1265623332&cgp=1490",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：CookPower 鍋寶 微晶透明湯鍋(黑底) OG-42BK",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「PCHome購物 / CookPower 鍋寶 微晶透明湯鍋(黑底) OG-42BK」最低價為 NT$1,490，最低點日期 2026-07-09。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -943,17 +943,17 @@
     "category": "cookware",
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 6706,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 6706,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1130296768&cgp=10250",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【Le Creuset】典藏琺瑯鑄鐵鍋圓鍋 16cm(貝殼粉-鋼頭)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【Le Creuset】典藏琺瑯鑄鐵鍋圓鍋 16cm(貝殼粉-鋼頭)」最低價為 NT$6,706，最低點日期 2025-03-17。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -1001,17 +1001,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 856,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 856,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1258305985&cgp=1640",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：WMF Belmonte 高身湯鍋 20cm 3.3L",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Yahoo購物中心 / WMF Belmonte 高身湯鍋 20cm 3.3L」最低價為 NT$856，最低點日期 2025-11-25。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -1059,17 +1059,17 @@
     ],
     "releaseDate": "2021-10-30",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 6318,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 6318,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1266921476&cgp=7020",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【WMF】Fusiontec Mineral 壺型鍋 12.5cm 1.7L 鉑金色(陶晶鍋 單人鍋 泡麵鍋)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【WMF】Fusiontec Mineral 壺型鍋 12.5cm 1.7L 鉑金色(陶晶鍋 單人鍋 泡麵鍋)」最低價為 NT$6,318，最低點日期 2026-05-23。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -1127,7 +1127,7 @@
       "sourceKind": "not_found",
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ Le Creuset TNS 雙耳醬汁鍋 28cm: PCHome購物 LE CREUSET -TNS 雙耳湯鍋/醬汁鍋 28cm (附蓋) 最低價 NT$3,840 低於現價合理比例，疑似月付/配件/錯類；LBJ Le Creuset TNS 雙耳醬汁鍋 28cm: 露天拍賣 - 宅配滿$490免運｜ PC24h購物 露天旗艦店 (71076個評價) 【PChome 24h購物】LE CREUSET-不沾鍋系列-TNS 雙耳醬汁鍋 (附蓋) 28cm R99N 非採用通路或含排除條件；BigGo DEAWTG-A900FCHLZ: 查詢失敗 429 https://biggo.com.tw/api/v1/spa/search/DEAWTG-A900FCHLZ/product?p=1。"
     }
   },
   {
@@ -1175,17 +1175,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 1260,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 1260,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1249077776&cgp=1399",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：Tefal法國特福 Espresso醇火系列34CM不沾炒鍋(加蓋)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Yahoo購物中心 / Tefal法國特福 Espresso醇火系列34CM不沾炒鍋(加蓋)」最低價為 NT$1,260，最低點日期 2025-08-13。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -1243,7 +1243,7 @@
       "sourceKind": "not_found",
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ Fissler Cianmic: 露天拍賣 - 宅配滿$490免運｜ PC24h購物 露天旗艦店 (71076個評價) 【PChome 24h購物】Fissler 瓷安系列 Cianmic 不沾單柄牛奶鍋-柔桃色 型號/規格不相符；LBJ Fissler Cianmic: 露天拍賣 - 宅配滿$490免運｜ PC24h購物 露天旗艦店 (71076個評價) 【PChome 24h購物】Fissler 瓷安系列 Cianmic 28cm不沾單柄炒鍋(含蓋)-柔桃色 型號/規格不相符；BigGo DEAWML-A900JSTI6: 查詢失敗 429 https://biggo.com.tw/api/v1/spa/search/DEAWML-A900JSTI6/product?p=1。"
     }
   },
   {
@@ -1291,17 +1291,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 1699,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 1699,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1182094537&cgp=2289",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【Costco好市多】TETSU 窒化鐵製炒鍋 30公分 TETSU Nitriding Iron Wok 30 cm",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Costco好市多 / 【Costco好市多】TETSU 窒化鐵製炒鍋 30公分 TETSU Nitriding Iron Wok 30 cm」最低價為 NT$1,699，最低點日期 2023-10-23。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -1352,17 +1352,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 2159,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 2159,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1242269443&cgp=2699",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【Costco好市多】Circulon A1 極致抗刮不沾單柄深煎鍋 含玻璃上蓋 26公分 Circulon A1 Non-Stick Saute Pan With Glass Lid 26 cm",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Costco好市多 / 【Costco好市多】Circulon A1 極致抗刮不沾單柄深煎鍋 含玻璃上蓋 26公分 Circulon A1 Non-Stick Saute Pan With Glass Lid 26 cm」最低價為 NT$2,159，最低點日期 2025-11-05。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -1423,7 +1423,7 @@
       "sourceKind": "not_found",
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ Tefal Ingenio 6-Piece Set: Costco好市多 【Costco好市多】Tefal 法國特福 巧變精靈系列鍋具 含蓋6件組 奶茶粉 Tefal Ingenio Non-Stick Cookware with Lid 6-Piece Set Milk Tea Pink 型號/規格不相符；LBJ Tefal Ingenio 6-Piece Set: Costco好市多 【Costco好市多】Tefal 法國特福 巧變精靈系列鍋具 6件組 Tefal Ingenio Non-Stick Cookware 6-Piece Set 型號/規格不相符；LBJ Ingenio 6-Piece Set: Costco好市多 【Costco好市多】Tefal 法國特福 巧變精靈系列鍋具 6件組 Tefal Ingenio Non-Stick Cookware 6-Piece Set 型號/規格不相符。"
     }
   }
 ]);

@@ -51,17 +51,17 @@
     ],
     "releaseDate": "2010-04-13",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 3718,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 3718,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1153310350&cgp=3808",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【VORNADO 沃拿多】渦流空氣循環機 660 白/黑(適用坪數8-15坪)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【VORNADO 沃拿多】渦流空氣循環機 660 白/黑(適用坪數8-15坪)」最低價為 NT$3,718，最低點日期 2026-06-18。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -109,17 +109,17 @@
     ],
     "releaseDate": "2018-03-01",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 1511,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 1511,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1260201212&cgp=1590",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：(店+)【IRIS OHYAMA 愛麗思歐雅瑪】6吋空氣循環扇/附遙控器 PCF-SC15T",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / (店+)【IRIS OHYAMA 愛麗思歐雅瑪】6吋空氣循環扇/附遙控器 PCF-SC15T」最低價為 NT$1,511，最低點日期 2026-01-09。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -167,17 +167,17 @@
     ],
     "releaseDate": "2026-05-12",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 3950,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 3950,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1257448606&cgp=4500",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：(店+)【Panasonic 國際牌】Panasonic國際牌10吋循環扇電風扇F-E10HMD",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / (店+)【Panasonic 國際牌】Panasonic國際牌10吋循環扇電風扇F-E10HMD」最低價為 NT$3,950，最低點日期 2025-08-08。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -225,17 +225,17 @@
     ],
     "releaseDate": "2017",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 5990,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 5990,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=571924655&cgp=6990",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【BALMUDA 百慕達】GreenFan Cirq EGF-3300 循環扇｜靜音 節能 DC直流馬達｜ 公司貨",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「蝦皮商城 - HOW LIVING｜質感家電選品 / 【BALMUDA 百慕達】GreenFan Cirq EGF-3300 循環扇｜靜音 節能 DC直流馬達｜ 公司貨」最低價為 NT$5,990，最低點日期 2026-04-09。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -293,7 +293,7 @@
       "sourceKind": "not_found",
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ IRIS OHYAMA PCF-HD15: 蝦皮商城 - 樂坊生活旗艦館 Love Fun IRIS OHYAMA PCF-HD15【現貨+直接下單+蝦幣10%回饋】空氣循環扇 6吋 電風扇 循環扇 風扇 公司貨 型號/規格不相符；LBJ IRIS OHYAMA PCF-HD15: 蝦皮商城 - 集雅社旗艦生活館 IRIS OHYAMA 現貨 PCF-HD15 空氣循環扇 循環扇 HD15 6吋 小空間 4坪 電風扇 節能 一年保固 型號/規格不相符；LBJ IRIS OHYAMA PCF-HD15: Momo富邦購物 (店+)【IRIS OHYAMA 愛麗思歐雅瑪】IRIS PCF-HD15 6吋空氣循環扇-空氣對流靜音循環風扇 公司貨 PCF-HD15W 型號/規格不相符。"
     }
   },
   {
@@ -351,7 +351,7 @@
       "sourceKind": "not_found",
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ Vornado 52-TW: 蝦皮商城 - 雯麗國際百貨家電官方旗艦店 【VORNADO】三段風速 3-5坪｜52-TW｜渦流空氣循環扇 非採用通路或含排除條件；LBJ Vornado 52-TW: 百利市購物中心 【百利市購物中心】【美國 VORNADO 沃拿多】三段風速 渦流空氣循環扇 52-TW 黑/白 非採用通路或含排除條件；LBJ Vornado 52-TW: 博客來 VORNADO 沃拿多 52-TW 渦流空氣循環扇 非採用通路或含排除條件。"
     }
   },
   {
@@ -399,17 +399,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 3034,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 3034,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=562858987&cgp=3090",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【VORNADO沃拿多】 5-7坪用 空氣渦流循環扇 62-TW 黑色/白色 官方原廠保固",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「蝦皮商城 - 歐洲精品家電 / 【VORNADO沃拿多】 5-7坪用 空氣渦流循環扇 62-TW 黑色/白色 官方原廠保固」最低價為 NT$3,034，最低點日期 2026-06-26。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -467,7 +467,7 @@
       "sourceKind": "not_found",
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ Vornado V-FAN: Momo富邦購物 【VORNADO 沃拿多】渦流空氣循環機復古款 V-FAN(綠色/白色/紅色) 型號/規格不相符；LBJ Vornado V-FAN: Yahoo購物中心 【VORNADO 沃拿多】復古款 V-FAN(綠色/白色/紅色) 型號/規格不相符；LBJ Vornado V-FAN: 露天拍賣 - 宅配滿$490免運｜ PC24h購物 露天旗艦店 (71076個評價) 【PChome 24h購物】【美國 VORNADO 沃拿多】7.5吋經典復古循環扇- V-FAN 綠色 R99N 型號/規格不相符。"
     }
   },
   {
@@ -515,17 +515,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 4134,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 4134,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1231335436&cgp=4418",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【VORNADO 沃拿多】RTRHD-TW渦流空氣循環機",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Yahoo購物中心 / 【VORNADO 沃拿多】RTRHD-TW渦流空氣循環機」最低價為 NT$4,134，最低點日期 2025-06-15。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -573,17 +573,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 5329,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 5329,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1274404632&cgp=5625",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【VORNADO 沃拿多】VORNADO沃拿多美國 FLYMAX-TW 破風渦流空氣循環扇",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【VORNADO 沃拿多】VORNADO沃拿多美國 FLYMAX-TW 破風渦流空氣循環扇」最低價為 NT$5,329，最低點日期 2026-06-18。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -631,17 +631,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 5200,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 5200,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1245402957&cgp=5448",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：美國VORNADO沃拿多 渦流空氣循環機735B",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Yahoo購物中心 / 美國VORNADO沃拿多 渦流空氣循環機735B」最低價為 NT$5,200，最低點日期 2025-06-15。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -689,17 +689,17 @@
     ],
     "releaseDate": "2017-05-26",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 5950,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 5950,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1250399419&cgp=6457",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【VORNADO 沃拿多】DC直流渦流空氣循環機6303DC/白(適用坪數8-12坪)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【VORNADO 沃拿多】DC直流渦流空氣循環機6303DC/白(適用坪數8-12坪)」最低價為 NT$5,950，最低點日期 2025-06-08。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -747,17 +747,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 3984,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 3984,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1227901421&cgp=4133",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【VORNADO 沃拿多】EXO61HD-TW 渦流空氣循環機",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【VORNADO 沃拿多】EXO61HD-TW 渦流空氣循環機」最低價為 NT$3,984，最低點日期 2026-05-07。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -805,17 +805,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 699,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 699,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1246471775&cgp=799",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：IRIS OHYAMA 愛麗思歐雅瑪 極靜音自動擺動空氣循環扇 TAF-MKM10(桌上扇/電風扇)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「PCHome購物 / IRIS OHYAMA 愛麗思歐雅瑪 極靜音自動擺動空氣循環扇 TAF-MKM10(桌上扇/電風扇)」最低價為 NT$699，最低點日期 2026-05-20。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -873,7 +873,7 @@
       "sourceKind": "not_found",
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ IRIS OHYAMA PCF-HM23W: 樂天市場 - 采躍科技 采躍科技 IRIS OHYAMA PCF-HM23W 擺動式循環扇 電風扇 靜音 節能 省電 原廠公司貨 型號/規格不相符；LBJ IRIS OHYAMA PCF-HM23W: 家樂福線上購物網 IRIS OHYAMA PCF-HM23W 擺動式循環扇 電風扇 靜音 節能 省電 10坪 公司貨 型號/規格不相符；LBJ IRIS OHYAMA PCF-HM23W: HOTAI購 【HOTAI購】【IRIS】桃苗選品— OHYAMA PCF-HM23W 擺動式循環扇 型號/規格不相符。"
     }
   },
   {
@@ -921,17 +921,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 1934,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 1934,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1272634502&cgp=1984",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【TECO 東元】11吋智能聲控DC馬達3D循環扇XYFXA1101CB",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【TECO 東元】11吋智能聲控DC馬達3D循環扇XYFXA1101CB」最低價為 NT$1,934，最低點日期 2026-07-09。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -979,17 +979,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 2166,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 2166,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1237056421&cgp=2310",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【I-COOL】台灣製造 18吋微電腦360度DC節能循環扇(MYDC-8877)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【I-COOL】台灣製造 18吋微電腦360度DC節能循環扇(MYDC-8877)」最低價為 NT$2,166，最低點日期 2025-06-22。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -1047,7 +1047,7 @@
       "sourceKind": "not_found",
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ 日虎 AI語音循環扇: Momo富邦購物 【日虎】9吋語音循環扇-PA鈦赫茲 / AI語音循環扇 型號/規格不相符；LBJ 日虎 AI語音循環扇: 家樂福線上購物網 日虎 9吋語音循環扇-PA鈦赫茲 / AI語音循環扇 / 3檔風速超強大 / 3D立體擺頭 型號/規格不相符；LBJ 日虎 AI語音循環扇: Yahoo購物中心 日虎 9吋語音循環扇-PA鈦赫茲 / AI語音循環扇 型號/規格不相符。"
     }
   },
   {
@@ -1095,17 +1095,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 2400,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 2400,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1281928445&cgp=2400",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【聲寶】 18吋 DC直流馬達遙控吸頂循環扇 SK-S24181WL",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Yahoo購物中心 / 【聲寶】 18吋 DC直流馬達遙控吸頂循環扇 SK-S24181WL」最低價為 NT$2,400，最低點日期 2026-07-09。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -1163,7 +1163,7 @@
       "sourceKind": "not_found",
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ DELTA 雙渦輪多向循環扇: Momo富邦購物 (店+)【台達電子】DELTA台達電子 吹地機 DC直流雙渦輪多向循環扇 大風量 雙葉輪 獨特專利雙輪葉 弧形工學把手輕鬆移動 三年保固 型號/規格不相符；LBJ DELTA 雙渦輪多向循環扇: 蝦皮商城 - 好室HOUSING 【DELTA台達電子】吹地機 DC直流雙渦輪多向循環扇(安靜．節能．大風量) 型號/規格不相符；LBJ DELTA 雙渦輪多向循環扇: Yahoo購物中心 【DELTA台達電子】 吹地機 DC直流雙渦輪多向循環扇(安靜．節能．大風量) 型號/規格不相符。"
     }
   },
   {
@@ -1211,17 +1211,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 3029,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 3029,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1248839069&cgp=3799",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【Costco好市多】艾美特 9吋DC直流馬達空氣循環扇 FB2393DR Airmate 9 inch DC Inverter Air Circulator FB2393DR",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Costco好市多 / 【Costco好市多】艾美特 9吋DC直流馬達空氣循環扇 FB2393DR Airmate 9 inch DC Inverter Air Circulator FB2393DR」最低價為 NT$3,029，最低點日期 2026-05-11。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -1272,17 +1272,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 3059,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 3059,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1141208674&cgp=3799",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【Costco好市多】艾美特 9吋DC直流循環扇 FB2391DR Airmate 9 inch DC Inverter Air Circulator FB2391DR",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Costco好市多 / 【Costco好市多】艾美特 9吋DC直流循環扇 FB2391DR Airmate 9 inch DC Inverter Air Circulator FB2391DR」最低價為 NT$3,059，最低點日期 2024-05-20。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -1343,7 +1343,7 @@
       "sourceKind": "not_found",
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ PCF-SC15T-CT: 樂天市場 - 及時雨 高壓恢復選品 及時雨 高壓恢復選品 IRIS Woozoo 空氣循環扇 PCF-SC15T-CT 型號/規格不相符；LBJ PCF-SC15T-CT: 樂天市場 - 玉山最低比價網 玉山最低比價網 [COSCO代購6] 促銷到7月30號 D2354207 IRIS Woozoo 空氣循環扇 PCF-SC15T-CT 型號/規格不相符；LBJ PCF-SC15T-CT: 樂天市場 - 玉山最低比價網 玉山最低比價網 [COSCO代購6] 促銷到7月30號 C2354207 IRIS Woozoo 空氣循環扇 PCF-SC15T-CT 型號/規格不相符。"
     }
   }
 ]);

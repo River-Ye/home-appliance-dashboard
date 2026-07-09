@@ -54,17 +54,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 3099,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 3099,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1269155475&cgp=3099",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：Raymii 瑞米 SAKER系列 30KG 57吋 LS-116-M1 高承重電競氣壓式螢幕支架 USB3.0 TYPE-C 螢幕架 螢幕增高支架",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「PCHome購物 / Raymii 瑞米 SAKER系列 30KG 57吋 LS-116-M1 高承重電競氣壓式螢幕支架 USB3.0 TYPE-C 螢幕架 螢幕增高支架」最低價為 NT$3,099，最低點日期 2026-07-09。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -115,17 +115,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 2999,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 2999,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1237826323&cgp=2999",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：Raymii 瑞米 TAYLOR系列 27KG 57吋 LS-104-M1 鋁合金 氣壓式螢幕支架 USB3.0 TYPE-C 螢幕架 螢幕增高支架",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「PCHome購物 / Raymii 瑞米 TAYLOR系列 27KG 57吋 LS-104-M1 鋁合金 氣壓式螢幕支架 USB3.0 TYPE-C 螢幕架 螢幕增高支架」最低價為 NT$2,999，最低點日期 2026-07-09。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -176,17 +176,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 2799,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 2799,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1279033875&cgp=2799",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：Raymii 瑞米 HALO MAX系列 27KG 57吋 HALO-MAX2-1M 鋁合金 氣壓式螢幕支架 USB3.0 螢幕架 螢幕增高支架",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「PCHome購物 / Raymii 瑞米 HALO MAX系列 27KG 57吋 HALO-MAX2-1M 鋁合金 氣壓式螢幕支架 USB3.0 螢幕架 螢幕增高支架」最低價為 NT$2,799，最低點日期 2026-07-09。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -237,17 +237,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 3099,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 3099,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1250469732&cgp=3099",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：Happy Tech 快樂科技 T101-12U 27KG 57吋鋁合金氣壓式螢幕支架 USB3.0+Type C液晶電腦螢幕架",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「PCHome購物 / Happy Tech 快樂科技 T101-12U 27KG 57吋鋁合金氣壓式螢幕支架 USB3.0+Type C液晶電腦螢幕架」最低價為 NT$3,099，最低點日期 2026-07-09。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -298,17 +298,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 2699,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 2699,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1283833742&cgp=2699",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：Raymii 瑞米 NEON系列 27KG 57吋 LS-129-M1 高承重電競氣壓式螢幕支架",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「PCHome購物 / Raymii 瑞米 NEON系列 27KG 57吋 LS-129-M1 高承重電競氣壓式螢幕支架」最低價為 NT$2,699，最低點日期 2026-07-09。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -359,17 +359,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 2249,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 2249,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1261710792&cgp=2249",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：(店+)【Raymii 瑞米】LS-118-M1 高承重氣壓式螢幕支架-黑",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / (店+)【Raymii 瑞米】LS-118-M1 高承重氣壓式螢幕支架-黑」最低價為 NT$2,249，最低點日期 2026-07-09。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -420,17 +420,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 1199,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 1199,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1253937094&cgp=1199",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：Raymii 瑞米 LS-114-S1 MOJO系列 20KG 49吋 超高承重螢幕支架",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「PCHome購物 / Raymii 瑞米 LS-114-S1 MOJO系列 20KG 49吋 超高承重螢幕支架」最低價為 NT$1,199，最低點日期 2026-07-09。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -481,17 +481,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 1599,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 1599,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1279033876&cgp=1599",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：Raymii 瑞米 LS-114-EX-M1 MOJO系列 20KG 49吋 加高型超高承重螢幕支架",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「PCHome購物 / Raymii 瑞米 LS-114-EX-M1 MOJO系列 20KG 49吋 加高型超高承重螢幕支架」最低價為 NT$1,599，最低點日期 2026-07-09。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -542,17 +542,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 1499,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 1499,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1247524795&cgp=1499",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：Happy Tech 快樂科技 TC92-10 桌上型17- 49吋 螢幕 G9 中柱款 20KG液晶 電腦螢幕架 螢幕支架 夾鎖桌2用",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「PCHome購物 / Happy Tech 快樂科技 TC92-10 桌上型17- 49吋 螢幕 G9 中柱款 20KG液晶 電腦螢幕架 螢幕支架 夾鎖桌2用」最低價為 NT$1,499，最低點日期 2026-07-09。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -603,17 +603,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 2290,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 2290,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1266226457&cgp=2290",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：TDGB 17-49吋 高承重 20KG 無重力 電競氣壓式螢幕桌上支架 T95-GAMW",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「PCHome購物 / TDGB 17-49吋 高承重 20KG 無重力 電競氣壓式螢幕桌上支架 T95-GAMW」最低價為 NT$2,290，最低點日期 2026-07-09。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -664,17 +664,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 2599,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 2599,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1272494814&cgp=2599",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【Costco好市多】樂歌 人體工學 電腦螢幕支架 D7H/DLB511L Loctek Monitor Arm Stand D7H/DLB511L",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Costco好市多 / 【Costco好市多】樂歌 人體工學 電腦螢幕支架 D7H/DLB511L Loctek Monitor Arm Stand D7H/DLB511L」最低價為 NT$2,599，最低點日期 2026-07-09。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -735,7 +735,7 @@
       "sourceKind": "not_found",
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ Ergotron LX Pro: 蝦皮商城 - GAME休閒館 愛格升 Ergotron LX PRO 桌上型單螢幕支架【GAME休閒館】 型號/規格不相符；LBJ Ergotron LX Pro: 蝦皮商城 - 皮克星電丸 愛格升 Ergotron LX pro 單螢幕支架 愛格升Ergotron 霧面白 水泥灰 消光黑【皮克星】全新現貨 型號/規格不相符；LBJ Ergotron LX Pro: 蝦皮商城 - GAME休閒館 愛格升 Ergotron LX PRO 桌上型單螢幕支架 加高款【GAME休閒館】 型號/規格不相符。"
     }
   },
   {
@@ -786,17 +786,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 1751,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 1751,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1227651069&cgp=1990",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：j5create 氣壓式舒適螢幕懸臂支架 氣壓式彈簧設計/適用17-32吋VESA螢幕/符合人體工學 JTSA101",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「PCHome購物 / j5create 氣壓式舒適螢幕懸臂支架 氣壓式彈簧設計/適用17-32吋VESA螢幕/符合人體工學 JTSA101」最低價為 NT$1,751，最低點日期 2024-08-01。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -847,17 +847,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 2631,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 2631,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1227376641&cgp=2990",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：j5create 氣壓式舒適雙螢幕懸臂支架 氣壓式彈簧設計/適用17-32吋VESA螢幕/符合人體工學 JTSA102",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「PCHome購物 / j5create 氣壓式舒適雙螢幕懸臂支架 氣壓式彈簧設計/適用17-32吋VESA螢幕/符合人體工學 JTSA102」最低價為 NT$2,631，最低點日期 2024-08-01。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -918,7 +918,7 @@
       "sourceKind": "not_found",
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ Loctek D5S: Yahoo購物中心 樂歌Loctek 人體工學 螢幕支架D5S 型號/規格不相符；LBJ Loctek D5S: Momo富邦購物 【Loctek 樂歌】人體工學 螢幕支架D5S 型號/規格不相符；LBJ Loctek D5S: Yahoo購物中心 樂歌Loctek 人體工學 螢幕支架D5S USB升級版 型號/規格不相符。"
     }
   },
   {
@@ -966,17 +966,17 @@
     ],
     "releaseDate": "2025-12-24",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 3141,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 3141,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1273430804&cgp=3141",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【BenQ】ERGO ARM 氣壓式螢幕支架(17-45吋適用/承重2-20公斤/BSH01)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【BenQ】ERGO ARM 氣壓式螢幕支架(17-45吋適用/承重2-20公斤/BSH01)」最低價為 NT$3,141，最低點日期 2026-07-09。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -1024,17 +1024,17 @@
     ],
     "releaseDate": "2025-12-24",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 5839,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 5839,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1254095372&cgp=5990",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【BenQ】氣壓式螢幕支架雙臂款-黑色(17-35吋適用/承重2-20公斤/BDH01)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【BenQ】氣壓式螢幕支架雙臂款-黑色(17-35吋適用/承重2-20公斤/BDH01)」最低價為 NT$5,839，最低點日期 2025-08-20。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -1082,17 +1082,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 4063,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 4063,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1236715942&cgp=4780",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【LINDY 林帝】LINDY 林帝 台灣製 氣壓式 螢幕支架 +70cmC型夾鉗式支桿 組合 40693+40940",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【LINDY 林帝】LINDY 林帝 台灣製 氣壓式 螢幕支架 +70cmC型夾鉗式支桿 組合 40693+40940」最低價為 NT$4,063，最低點日期 2026-05-03。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -1150,7 +1150,7 @@
       "sourceKind": "not_found",
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：BigGo DPADYK-A900B0UWS: 查詢失敗 429 https://biggo.com.tw/api/v1/spa/search/DPADYK-A900B0UWS/product?p=1；BigGo EGTC EGTC743Q: 查詢失敗 429 https://biggo.com.tw/api/v1/spa/search/EGTC%20EGTC743Q/product?p=1。"
     }
   },
   {
@@ -1198,17 +1198,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 1190,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 1190,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1213511264&cgp=1190",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【易控王】ZENO M10 氣壓懸臂式桌上螢幕支架 17-35吋 承重10KG 曲面螢幕可用(10-347-02)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「PCHome購物 / 【易控王】ZENO M10 氣壓懸臂式桌上螢幕支架 17-35吋 承重10KG 曲面螢幕可用(10-347-02)」最低價為 NT$1,190，最低點日期 2026-07-09。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -1267,7 +1267,7 @@
       "sourceKind": "not_found",
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ IRIS OHYAMA DA-4550: 蝦皮商城 - IRIS OHYAMA 台灣愛麗思歐雅瑪 IRIS OHYAMA 桌上型17-32吋可旋轉獨臂夾式螢幕支架 DA-4550 (8公斤承重) 非採用通路或含排除條件；LBJ IRIS OHYAMA DA-4550: 樂天市場 - 玉山最低比價網 玉山最低比價網 [COSCO代購6] D135869 IRIS OHYAMA 獨臂螢幕支架夾式 DA-4550 型號/規格不相符；LBJ IRIS OHYAMA DA-4550: Costco好市多 【Costco好市多】IRIS OHYAMA 獨臂螢幕支架夾式 DA-4550 IRIS OHYAMA Monitor Arm Clamp-Type DA-4550 型號/規格不相符。"
     }
   }
 ]);

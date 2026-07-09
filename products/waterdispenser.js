@@ -68,7 +68,7 @@
       "sourceKind": "not_found",
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ 3M S301: 樂天市場 - 天溢淨水設計館 天溢淨水設計館 【3M】S004/S301主體替換濾心3US-F004-5一支｜前置PP濾心3RS-F001-5一支【3M授權經銷】 非採用通路或含排除條件；LBJ 3M S301: 樂天市場 - 天溢淨水設計館 天溢淨水設計館 【3M】S004/S301 主體替換濾心 + 3M AP110前置PP濾心3入【除鉛】【保留礦物質】 非採用通路或含排除條件；LBJ 3M S301: 蝦皮商城 - 天溢淨水館TENFULL｜3M｜BRITA｜宮黛｜櫻花Sakura｜海爾 【3M】S004/S301主體濾心3US-F004-5一入｜3M前置PP濾心3RS-F001-5兩入【3M授權經銷】 非採用通路或含排除條件。"
     }
   },
   {
@@ -132,7 +132,7 @@
       "sourceKind": "not_found",
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ 3M HFRO 800G: 樂天市場 - 大大淨水 3M HFRO 直出式逆滲透純水機 800G 搭不鏽鋼鵝頸龍頭 大大淨水 型號/規格不相符；LBJ 3M HFRO 800G: 蝦皮商城 - 大大淨水生活館 3M HFRO 直出式逆滲透純水機 800G 搭不鏽鋼鵝頸龍頭 型號/規格不相符；LBJ 3M HFRO 800G: Momo富邦購物 【3M】HFRO 櫥下型無桶直出式RO逆滲透純水機/淨水器 800G(到府安裝+鵝頸龍頭) 型號/規格不相符。"
     }
   },
   {
@@ -187,17 +187,17 @@
     "category": "waterdispenser",
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 8160,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 8160,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1263331951&cgp=8590",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【EVERPURE 愛惠浦】櫥下型 PURVIVE-H300NXT生飲淨水器(升級不鏽鋼龍頭)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【EVERPURE 愛惠浦】櫥下型 PURVIVE-H300NXT生飲淨水器(升級不鏽鋼龍頭)」最低價為 NT$8,160，最低點日期 2026-07-03。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -252,17 +252,17 @@
     "category": "waterdispenser",
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 3984,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 3984,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1269684152&cgp=4560",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【Coway】奈米高效專用濾芯組一年份(適用P-150N淨水器)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【Coway】奈米高效專用濾芯組一年份(適用P-150N淨水器)」最低價為 NT$3,984，最低點日期 2026-03-18。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -317,17 +317,17 @@
     "category": "waterdispenser",
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 12255,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 12255,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1264920924&cgp=12255",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：Panasonic授權台東市富源電器 【Panasonic】 櫥下型淨水器 (TK-CB30)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「樂天市場 - Panasonic授權台東市富源電器 / Panasonic授權台東市富源電器 【Panasonic】 櫥下型淨水器 (TK-CB30)」最低價為 NT$12,255，最低點日期 2026-07-09。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -381,17 +381,17 @@
     "category": "waterdispenser",
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 16554,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 16554,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1262724683&cgp=19500",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【BWT 德國倍世】SLIM 3 三道式羽纖生飲水淨水器(免插電不排廢水)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【BWT 德國倍世】SLIM 3 三道式羽纖生飲水淨水器(免插電不排廢水)」最低價為 NT$16,554，最低點日期 2026-02-13。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -454,7 +454,7 @@
       "sourceKind": "not_found",
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ SAKURA P0261 600G: 家樂福線上購物網 【麗水生活】櫻花 Sakura RO膜濾心(600G) F0162 F0186 兩年份/五年份濾芯 (適用P0235 P0261 P0531 專用濾芯) 型號/規格不相符；LBJ SAKURA P0261 600G: 蝦皮商城 - 天溢淨水館TENFULL｜3M｜BRITA｜宮黛｜櫻花Sakura｜海爾 【SAKURA櫻花】淨水器RO膜濾心(600G)F0186【原F0182｜適用P0235｜P0531｜P0261】 型號/規格不相符；LBJ SAKURA P0261 600G: Momo富邦購物 【SAKURA 櫻花】F0186 RO膜濾心600G★適用P0531/P0261/P0265/P0235A 型號/規格不相符。"
     }
   },
   {
@@ -507,17 +507,17 @@
     "category": "waterdispenser",
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 17193,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 17193,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1281366826&cgp=17193",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【麗水生活】PHILIPS 飛利浦 AUT821/AUT822/ AUT823 RO濾芯 (適用於 AUT7005) 三年份濾芯",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「家樂福線上購物網 / 【麗水生活】PHILIPS 飛利浦 AUT821/AUT822/ AUT823 RO濾芯 (適用於 AUT7005) 三年份濾芯」最低價為 NT$17,193，最低點日期 2026-07-09。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -581,7 +581,7 @@
       "sourceKind": "not_found",
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ BRITA mypure GR1000: 蝦皮商城 - 源泉淨水【3M、BRITA、愛惠浦、SAKURA、EVERPOLL 授權經銷商】 【BRITA】mypure GR 4in1濾芯一支【下單領10%蝦幣回饋】【適用GR600/GR1000第一道】 非採用通路或含排除條件；LBJ BRITA mypure GR1000: 蝦皮商城 - winner water淨水生活館 【BRITA】mypure GR 4in1四重過濾濾芯PCF4in1【適用GR600/GR1000】 非採用通路或含排除條件；LBJ BRITA mypure GR1000: Momo富邦購物 (店+)【BRITA】【適用GR600 / GR1000 UVC】德國BRITA mypure GR PCF4in1 四重過濾濾心 非採用通路或含排除條件。"
     }
   },
   {
@@ -634,17 +634,17 @@
     "category": "waterdispenser",
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 23584,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 23584,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1108982792&cgp=26800",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【BWT 德國倍世】SLIM RO DF 直流式羽纖生飲水淨水器",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【BWT 德國倍世】SLIM RO DF 直流式羽纖生飲水淨水器」最低價為 NT$23,584，最低點日期 2026-02-03。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -698,17 +698,17 @@
     "category": "waterdispenser",
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 18471,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 18471,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1172935135&cgp=20990",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【EVERPURE 愛惠浦】雙溫櫥下型 HS188熱飲機+4H2生飲淨水器",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【EVERPURE 愛惠浦】雙溫櫥下型 HS188熱飲機+4H2生飲淨水器」最低價為 NT$18,471，最低點日期 2025-06-19。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -762,17 +762,17 @@
     "category": "waterdispenser",
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 17765,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 17765,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1198973562&cgp=20900",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：賀眾牌 UW-2262HW-1廚下型冷熱飲水機(廚下型/賀眾)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Yahoo購物中心 / 賀眾牌 UW-2262HW-1廚下型冷熱飲水機(廚下型/賀眾)」最低價為 NT$17,765，最低點日期 2025-04-16。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -835,7 +835,7 @@
       "sourceKind": "not_found",
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ 豪星 HS-400G: Momo富邦購物 (店+)思維康SWEETCOM 豪星 HAOHSING 適HS-400G機型 PPC複合濾芯/RO逆滲透膜/後置活性碳濾芯 最低價 NT$931 低於現價合理比例，疑似月付/配件/錯類；LBJ 豪星 HS-400G: 樂天市場 - 天溢淨水設計館 天溢淨水設計館 【豪星HaoHsing】後置活性碳濾芯 C10HF-400G-03【HS-400G第三道濾心】【HS-400G-C1】 非採用通路或含排除條件；LBJ 豪星 HS-400G: 樂天市場 - 天溢淨水設計館 天溢淨水設計館 【豪星HaoHsing】PPC複合濾芯 C10HF-400G-01【HS-400G第一道濾心】【HS-400G-C1】 非採用通路或含排除條件。"
     }
   },
   {
@@ -888,17 +888,17 @@
     "category": "waterdispenser",
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 25110,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 25110,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1249487500&cgp=25110",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：(店+)【SAKURA 櫻花】【免費申請補助】P0563 P-0563 廚下觸控式熱飲機【省錢王淨水科技】",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / (店+)【SAKURA 櫻花】【免費申請補助】P0563 P-0563 廚下觸控式熱飲機【省錢王淨水科技】」最低價為 NT$25,110，最低點日期 2026-07-09。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -953,17 +953,17 @@
     "category": "waterdispenser",
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 50830,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 50830,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1260180295&cgp=59800",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【Coway】櫥下型冰溫熱智慧淨濾水器(瞬冰瞬熱/五道濾芯/基本安裝/NOBLE CHP-3140N)+美膳雅蒸鮮鍋",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【Coway】櫥下型冰溫熱智慧淨濾水器(瞬冰瞬熱/五道濾芯/基本安裝/NOBLE CHP-3140N)+美膳雅蒸鮮鍋」最低價為 NT$50,830，最低點日期 2026-06-18。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -1021,7 +1021,7 @@
       "sourceKind": "not_found",
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ EVERPOLL EVB-298-E: 蝦皮商城 - 天溢淨水館TENFULL｜3M｜BRITA｜宮黛｜櫻花Sakura｜海爾 【EVERPOLL】櫥下型雙溫UV觸控飲水機EVB-298-E 【專利UV滅菌模組｜贈全台安裝】 型號/規格不相符；LBJ EVERPOLL EVB-298-E: 蝦皮商城 - SWEETCOM思維康淨水設備旗艦店 【思維康SWEETCOM】EVERPOLL愛科濾淨 櫥下型雙溫UV觸控飲水機EVB-298-E 熱水 加熱 調溫 型號/規格不相符；LBJ EVERPOLL EVB-298-E: 樂天市場 - 天溢淨水設計館 天溢淨水設計館 【EVERPOLL】櫥下型雙溫UV觸控飲水機EVB-298-E 【單機版｜專利UV滅菌模組｜贈全台安裝】 型號/規格不相符。"
     }
   },
   {
@@ -1079,7 +1079,7 @@
       "sourceKind": "not_found",
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ Culligan US-201C-TW: 蝦皮商城 - OASIS | Culligan 官方旗艦館 【美國Culligan康麗根】聲控櫥下RO瞬熱飲水機 US-201C-TW 免費原廠基本安裝 220V 型號/規格不相符；LBJ Culligan US-201C-TW: Momo富邦購物 【Culligan 康麗根】聲控櫥下RO瞬熱飲水機 US-201C-TW(大水量/多溫/瞬熱/免費基本安裝/RO) 型號/規格不相符；LBJ Culligan US-201C-TW: Yahoo購物中心 【美國culligan 康麗根】 聲控櫥下RO瞬熱飲水機 US-201C-TW(含原廠免費基本安裝) 型號/規格不相符。"
     }
   },
   {
@@ -1137,7 +1137,7 @@
       "sourceKind": "not_found",
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ SAKURA P0531: Momo富邦購物 【SAKURA 櫻花】雙效RO淨水器專用濾心2支入一年份 適用機型P0531/P0235/P0233(F2192) 非採用通路或含排除條件；LBJ SAKURA P0531: Momo富邦購物 (店+)【SAKURA 櫻花】(無安裝)一年份2入組(不含RO膜)適用P0233/P0235/P0531濾心F2192 非採用通路或含排除條件；LBJ SAKURA P0531: Momo富邦購物 (店+)【SAKURA 櫻花】F2192 雙效RO淨水器專用濾心(一年份2支入) 適用P0531、P0532、P0266、P0265 非採用通路或含排除條件。"
     }
   },
   {
@@ -1185,17 +1185,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 46305,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 46305,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1241295086&cgp=49800",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【Honeywell】廚下觸控型RO冷熱飲水機",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【Honeywell】廚下觸控型RO冷熱飲水機」最低價為 NT$46,305，最低點日期 2025-11-13。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -1243,17 +1243,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 19975,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 19975,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1173553834&cgp=23600",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【BWT 德國倍世】智慧型櫥下加熱器(DWH30A)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【BWT 德國倍世】智慧型櫥下加熱器(DWH30A)」最低價為 NT$19,975，最低點日期 2026-06-09。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -1312,7 +1312,7 @@
       "sourceKind": "not_found",
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：BigGo Brondell Circle Reverse Osmosis: 查詢失敗 429 https://biggo.com.tw/api/v1/spa/search/Brondell%20Circle%20Reverse%20Osmosis/product?p=1；BigGo Circle Reverse Osmosis: 查詢失敗 429 https://biggo.com.tw/api/v1/spa/search/Circle%20Reverse%20Osmosis/product?p=1。"
     }
   }
 ]);

@@ -56,17 +56,17 @@
     "category": "knife",
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 2400,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 2400,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1257556301&cgp=3100",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：(店+)藤次郎 TOJIRO(藤次郎 F-808 日本製 牛刀 210mm DP 本職用 牛刀 主廚刀 料理刀 水果刀)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / (店+)藤次郎 TOJIRO(藤次郎 F-808 日本製 牛刀 210mm DP 本職用 牛刀 主廚刀 料理刀 水果刀)」最低價為 NT$2,400，最低點日期 2026-01-09。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -119,17 +119,17 @@
     "category": "knife",
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 2580,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 2580,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1263105682&cgp=2580",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：Global 具良治 G-4 劍型 三德刀 180mm 文化型",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「PCHome購物 / Global 具良治 G-4 劍型 三德刀 180mm 文化型」最低價為 NT$2,580，最低點日期 2026-07-09。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -182,17 +182,17 @@
     "category": "knife",
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 1294,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 1294,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1268259556&cgp=1344",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：VICTORINOX 瑞士維氏 Swiss Classic 三德刀 黑/綠/桃/黃/橘",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Yahoo購物中心 / VICTORINOX 瑞士維氏 Swiss Classic 三德刀 黑/綠/桃/黃/橘」最低價為 NT$1,294，最低點日期 2026-02-10。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -246,17 +246,17 @@
     "category": "knife",
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 779,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 779,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1271094734&cgp=779",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【KAI 貝印】關孫六 日本製若竹系列不鏽鋼三德刀16.5cm",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【KAI 貝印】關孫六 日本製若竹系列不鏽鋼三德刀16.5cm」最低價為 NT$779，最低點日期 2026-07-09。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -309,17 +309,17 @@
     "category": "knife",
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 1911,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 1911,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1262708561&cgp=2280",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：KYOCERA 京瓷 陶瓷刀具廚房三件組",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「PCHome購物 / KYOCERA 京瓷 陶瓷刀具廚房三件組」最低價為 NT$1,911，最低點日期 2026-04-09。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -372,17 +372,17 @@
     "category": "knife",
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 2627,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 2627,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1269540057&cgp=3328",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：WMF 卓越系列 三德刀 18cm",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Yahoo購物中心 / WMF 卓越系列 三德刀 18cm」最低價為 NT$2,627，最低點日期 2026-01-30。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -435,17 +435,17 @@
     "category": "knife",
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 2549,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 2549,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1058160095&cgp=3275",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【WUSTHOF 三叉】德國三叉牌GOURMET 17CM三德刀3件組(三德刀+鋸齒刀+削皮刀)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【WUSTHOF 三叉】德國三叉牌GOURMET 17CM三德刀3件組(三德刀+鋸齒刀+削皮刀)」最低價為 NT$2,549，最低點日期 2024-06-12。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -507,7 +507,7 @@
       "sourceKind": "not_found",
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ Tefal Ice Force 15cm: 露天拍賣 - obt168的賣場 (1150個評價) 全新 Tefal ICE FORCE 主廚刀 15cm 原價799 非採用通路或含排除條件；BigGo DEES09-A900HK440: 查詢失敗 429 https://biggo.com.tw/api/v1/spa/search/DEES09-A900HK440/product?p=1；BigGo Tefal Ice Force 15cm: 查詢失敗 429 https://biggo.com.tw/api/v1/spa/search/Tefal%20Ice%20Force%2015cm/product?p=1。"
     }
   },
   {
@@ -559,17 +559,17 @@
     "category": "knife",
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 2480,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 2480,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1262950129&cgp=2480",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：Global 具良治 G-1 萬用 蔬果刀 主廚刀 210mm",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「PCHome購物 / Global 具良治 G-1 萬用 蔬果刀 主廚刀 210mm」最低價為 NT$2,480，最低點日期 2026-07-09。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -623,17 +623,17 @@
     "category": "knife",
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 1318,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 1318,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1202444199&cgp=1718",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【日本貝印KAI】日本製-匠創名刀關孫六 職人精工槌目紋 不鏽鋼牛刀-18cm(牛刀)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Yahoo購物中心 / 【日本貝印KAI】日本製-匠創名刀關孫六 職人精工槌目紋 不鏽鋼牛刀-18cm(牛刀)」最低價為 NT$1,318，最低點日期 2023-11-10。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -687,17 +687,17 @@
     "category": "knife",
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 1560,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 1560,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1281991832&cgp=1640",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【KYOCERA 京瓷】日本製黑陶瓷中華料理刀-16cm",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Yahoo購物中心 / 【KYOCERA 京瓷】日本製黑陶瓷中華料理刀-16cm」最低價為 NT$1,560，最低點日期 2026-06-18。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -750,17 +750,17 @@
     "category": "knife",
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 1163,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 1163,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1282821392&cgp=1163",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【VICTORINOX 瑞士維氏】主廚刀/切肉刀/楓木 5.2000.15",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【VICTORINOX 瑞士維氏】主廚刀/切肉刀/楓木 5.2000.15」最低價為 NT$1,163，最低點日期 2026-07-09。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -823,7 +823,7 @@
       "sourceKind": "not_found",
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：BigGo DSBE0M-A900JDNTU: 查詢失敗 429 https://biggo.com.tw/api/v1/spa/search/DSBE0M-A900JDNTU/product?p=1；BigGo TOJIRO Black Zen F-187BK 165mm: 查詢失敗 429 https://biggo.com.tw/api/v1/spa/search/TOJIRO%20Black%20Zen%20F-187BK%20165mm/product?p=1。"
     }
   },
   {
@@ -886,7 +886,7 @@
       "sourceKind": "not_found",
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：BigGo DEES09-A900IWZUQ: 查詢失敗 429 https://biggo.com.tw/api/v1/spa/search/DEES09-A900IWZUQ/product?p=1；BigGo Tefal Ice Force 三件組: 查詢失敗 429 https://biggo.com.tw/api/v1/spa/search/Tefal%20Ice%20Force%20%E4%B8%89%E4%BB%B6%E7%B5%84/product?p=1。"
     }
   },
   {
@@ -950,7 +950,7 @@
       "sourceKind": "not_found",
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ Wusthof Gourmet 三件組: Yahoo拍賣 - Formosa巧匠工坊 台南刀 (2955個評價) G德國 三叉牌 Wusthof Gourmet 主廚刀 萬用刀 蔬果刀 三件組 德國製 台南市 非採用通路或含排除條件；BigGo DEAGY2-A900G9EBC: 查詢失敗 429 https://biggo.com.tw/api/v1/spa/search/DEAGY2-A900G9EBC/product?p=1；BigGo Wusthof Gourmet 三件組: 查詢失敗 429 https://biggo.com.tw/api/v1/spa/search/Wusthof%20Gourmet%20%E4%B8%89%E4%BB%B6%E7%B5%84/product?p=1。"
     }
   },
   {
@@ -998,17 +998,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 3000,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 3000,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1257555617&cgp=3660",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：(店+)藤次郎 TOJIRO(藤次郎 F-809 日本製 牛刀 240mm DP 本職用 牛刀 主廚刀 料理刀 水果刀)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / (店+)藤次郎 TOJIRO(藤次郎 F-809 日本製 牛刀 240mm DP 本職用 牛刀 主廚刀 料理刀 水果刀)」最低價為 NT$3,000，最低點日期 2026-01-09。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -1056,17 +1056,17 @@
     ],
     "releaseDate": "2022",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 13272,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 13272,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1249105134&cgp=13440",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【WMF官方直營】WMF Ultimate 萬用刀(12cm)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【WMF官方直營】WMF Ultimate 萬用刀(12cm)」最低價為 NT$13,272，最低點日期 2025-07-29。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -1114,17 +1114,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 680,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 680,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1249940736&cgp=680",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：(店+)【KAI 貝印】關孫六萌黃系列 水果刀 12cm(刀具／水果刀／關孫六刀具／小刀)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / (店+)【KAI 貝印】關孫六萌黃系列 水果刀 12cm(刀具／水果刀／關孫六刀具／小刀)」最低價為 NT$680，最低點日期 2026-07-09。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -1182,7 +1182,7 @@
       "sourceKind": "not_found",
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ Victorinox 6.8003.19B: Yahoo購物中心 VICTORINOX 瑞士維氏 Swiss Classic 主廚刀/切肉刀 黑 6.8003.19B 型號/規格不相符；LBJ Victorinox 6.8003.19B: 蝦皮商城 - 保華名品有限公司 VICTORINOX 瑞士維氏 切肉刀 黑 6.8003.19B 型號/規格不相符；LBJ Victorinox 6.8003.19B: Momo富邦購物 【VICTORINOX 瑞士維氏】切肉刀 黑(6.8003.19B) 型號/規格不相符。"
     }
   },
   {
@@ -1240,7 +1240,7 @@
       "sourceKind": "not_found",
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ WMF 輕巧萬用小刀: Yahoo購物中心 WMF 輕巧萬用小刀 紅色 型號/規格不相符；LBJ WMF 輕巧萬用小刀: Momo富邦購物 (店+)WMF 輕巧萬用小刀紅色入厝禮 平輸品 型號/規格不相符；LBJ WMF 輕巧萬用小刀: Momo富邦購物 WMF 輕巧萬用小刀 紅色(平輸品) 型號/規格不相符。"
     }
   },
   {
@@ -1288,17 +1288,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 749,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 749,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1259394942&cgp=749",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【Costco好市多】Tefal 法國特福 鈦金系列不沾刀具 3件組 Tefal Titanium Non-Stick Knives 3-Piece Set",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Costco好市多 / 【Costco好市多】Tefal 法國特福 鈦金系列不沾刀具 3件組 Tefal Titanium Non-Stick Knives 3-Piece Set」最低價為 NT$749，最低點日期 2026-07-09。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -1349,17 +1349,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 439,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 439,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1234238416&cgp=559",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【Costco好市多】3M Scotch 鈦金屬舒適寬柄可拆式料理剪刀 2入組 3M Scotch Titanium Wide Handle Kitchen Scissors 2-Piece Set",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Costco好市多 / 【Costco好市多】3M Scotch 鈦金屬舒適寬柄可拆式料理剪刀 2入組 3M Scotch Titanium Wide Handle Kitchen Scissors 2-Piece Set」最低價為 NT$439，最低點日期 2025-08-13。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   }
 ]);

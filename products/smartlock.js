@@ -51,17 +51,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 16999,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 16999,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1247981261&cgp=17999",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【Yale 耶魯】YMF-40A 密碼/鑰匙/電容式指紋 三合一智能電子鎖/門鎖(附基本安裝)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【Yale 耶魯】YMF-40A 密碼/鑰匙/電容式指紋 三合一智能電子鎖/門鎖(附基本安裝)」最低價為 NT$16,999，最低點日期 2025-10-19。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -109,17 +109,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 14449,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 14449,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1233374022&cgp=16999",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【Yale 耶魯】YMF-30A 手把式智能/電子鎖(密碼│卡片│藍芽│Wifi│鑰匙/送安裝)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【Yale 耶魯】YMF-30A 手把式智能/電子鎖(密碼│卡片│藍芽│Wifi│鑰匙/送安裝)」最低價為 NT$14,449，最低點日期 2025-07-12。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -167,17 +167,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 21589,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 21589,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1245176730&cgp=25399",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【Yale 耶魯】ByYou Pro Apple 認證解鎖智能/電子鎖(指紋│卡片│密碼│藍芽│Wifi│鑰匙/送安裝)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【Yale 耶魯】ByYou Pro Apple 認證解鎖智能/電子鎖(指紋│卡片│密碼│藍芽│Wifi│鑰匙/送安裝)」最低價為 NT$21,589，最低點日期 2025-07-12。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -225,17 +225,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 25000,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 25000,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1283490400&cgp=25000",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【Yale 耶魯】Luna Pro+ 六合一電子鎖 人臉辨識/指紋/卡片/密碼/機械鑰匙/藍芽 (香檳金)(含基本安裝)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【Yale 耶魯】Luna Pro+ 六合一電子鎖 人臉辨識/指紋/卡片/密碼/機械鑰匙/藍芽 (香檳金)(含基本安裝)」最低價為 NT$25,000，最低點日期 2026-07-09。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -283,17 +283,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 16149,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 16149,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1233374020&cgp=18999",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【Yale 耶魯】YDM-7216A 手把式智能/電子鎖(指紋│密碼│卡片│藍芽│Wifi│鑰匙/送安裝)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【Yale 耶魯】YDM-7216A 手把式智能/電子鎖(指紋│密碼│卡片│藍芽│Wifi│鑰匙/送安裝)」最低價為 NT$16,149，最低點日期 2025-07-12。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -341,17 +341,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 6799,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 6799,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1217185139&cgp=7999",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【Yale 耶魯】YDR-343A 卡片/密碼 熱感觸控輔助型電子鎖/門鎖(附基本安裝)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【Yale 耶魯】YDR-343A 卡片/密碼 熱感觸控輔助型電子鎖/門鎖(附基本安裝)」最低價為 NT$6,799，最低點日期 2025-04-22。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -409,7 +409,7 @@
       "sourceKind": "not_found",
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ Philips 7300: 蝦皮商城 - 揚宏系統YHS購物網 PHILIPS飛利浦 VTR7300 智能翻譯筆 離線翻譯 自動辨識中英文 離線翻譯 整句翻譯 直式掃描 全新升級 型號/規格不相符；LBJ Philips 7300: Momo富邦購物 【Philips 飛利浦】VTR7300 智能翻譯筆(自動辨識中英文/離線/整句翻譯/日韓直式掃描/全新升級) 型號/規格不相符；LBJ Philips 7300: 蝦皮商城 - Wonder旺德官方旗艦館 【PHILIPS飛利浦】 VTR7300 智能翻譯筆 離線翻譯 自動辨識中英文 離線翻譯 整句翻譯 直式掃描 全新升級 型號/規格不相符。"
     }
   },
   {
@@ -457,17 +457,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 18700,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 18700,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1270047951&cgp=18700",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【Philips 飛利浦】DDL610 防潑水五合一把手式智能門鎖/電子鎖(指紋│卡片│密碼│鑰匙│WIFI 含安裝)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【Philips 飛利浦】DDL610 防潑水五合一把手式智能門鎖/電子鎖(指紋│卡片│密碼│鑰匙│WIFI 含安裝)」最低價為 NT$18,700，最低點日期 2026-07-09。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -525,7 +525,7 @@
       "sourceKind": "not_found",
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ Philips ALPHA VP: Momo富邦購物 【Philips 飛利浦】ALPHA VP 貓眼 推拉式智能門鎖/電子鎖(指紋│卡片│密碼│鑰匙│WiFi/含安裝) 型號/規格不相符；LBJ Philips ALPHA VP: Momo富邦購物 (店+)【Philips 飛利浦】智能鎖 ALPHA VP 貓眼 推拉電子鎖(貓眼│指紋│卡片│密碼│鑰匙│WiFi/含安裝) 型號/規格不相符；LBJ Philips ALPHA VP: Yahoo購物中心 Philips 飛利浦 ALPHA VP 貓眼 推拉式智能門鎖/電子鎖 曜石黑(指紋│卡片│密碼│鑰匙│WiFi/含安裝) 型號/規格不相符。"
     }
   },
   {
@@ -573,17 +573,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 25000,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 25000,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1274056831&cgp=25000",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：(店+)【Philips 飛利浦】702 FVP 人臉辨識/貓眼/聯網 智能門鎖 電子鎖(人臉│指紋│卡片│密碼│WiFi/含安裝)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / (店+)【Philips 飛利浦】702 FVP 人臉辨識/貓眼/聯網 智能門鎖 電子鎖(人臉│指紋│卡片│密碼│WiFi/含安裝)」最低價為 NT$25,000，最低點日期 2026-07-09。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -631,17 +631,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 32000,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 32000,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1237696738&cgp=32500",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：Philips 飛利浦 709-FVP 人臉貓眼七合一電子鎖(貓眼│人臉│指紋│卡片│密碼│鑰匙│WiFi/含安裝)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Yahoo購物中心 / Philips 飛利浦 709-FVP 人臉貓眼七合一電子鎖(貓眼│人臉│指紋│卡片│密碼│鑰匙│WiFi/含安裝)」最低價為 NT$32,000，最低點日期 2026-01-10。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -689,17 +689,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 22900,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 22900,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1263405649&cgp=22900",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：(店+)【Philips 飛利浦】 EasyKey DDL801智能電子門鎖 門鈴 指紋 卡片 密碼 鑰匙 Wifi遠端 (含基本安裝)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / (店+)【Philips 飛利浦】 EasyKey DDL801智能電子門鎖 門鈴 指紋 卡片 密碼 鑰匙 Wifi遠端 (含基本安裝)」最低價為 NT$22,900，最低點日期 2026-07-09。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -747,17 +747,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 8712,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 8712,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1260927004&cgp=9405",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：Kaadas 凱迪仕 Q3 指紋感應推拉式智能電子鎖(指紋│密碼│卡片│鑰匙/送安裝)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「東森購物 / Kaadas 凱迪仕 Q3 指紋感應推拉式智能電子鎖(指紋│密碼│卡片│鑰匙/送安裝)」最低價為 NT$8,712，最低點日期 2026-06-09。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -805,17 +805,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 14872,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 14872,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1260927005&cgp=16055",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：Kaadas 凱迪仕 Q9-FVP 人臉辨識推拉式智能電子鎖(人臉辨識│指紋│指靜脈│密碼│卡片│鑰匙/送安裝)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「東森購物 / Kaadas 凱迪仕 Q9-FVP 人臉辨識推拉式智能電子鎖(人臉辨識│指紋│指靜脈│密碼│卡片│鑰匙/送安裝)」最低價為 NT$14,872，最低點日期 2026-06-09。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -863,17 +863,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 7832,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 7832,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1260927003&cgp=8455",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：Kaadas 凱迪仕 M7-W 指紋款把手式智能電子鎖 (指紋│密碼│卡片│Wifi│鑰匙/送安裝)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「東森購物 / Kaadas 凱迪仕 M7-W 指紋款把手式智能電子鎖 (指紋│密碼│卡片│Wifi│鑰匙/送安裝)」最低價為 NT$7,832，最低點日期 2026-06-09。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -921,17 +921,17 @@
     ],
     "releaseDate": "2022-03",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 11699,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 11699,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1233217155&cgp=13599",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【Sioh 惜】Aqara A100智能門鎖/電子鎖(含安裝/指紋/密碼/鑰匙/手機/HomeKit)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【Sioh 惜】Aqara A100智能門鎖/電子鎖(含安裝/指紋/密碼/鑰匙/手機/HomeKit)」最低價為 NT$11,699，最低點日期 2025-10-31。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -979,17 +979,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 22900,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 22900,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1257174873&cgp=22900",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：(店+)Aqara【國際版】含基本安裝 推拉式智能門鎖 電子鎖 D200i 適用iPhone/Apple Watch 開門",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / (店+)Aqara【國際版】含基本安裝 推拉式智能門鎖 電子鎖 D200i 適用iPhone/Apple Watch 開門」最低價為 NT$22,900，最低點日期 2026-07-09。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -1047,7 +1047,7 @@
       "sourceKind": "not_found",
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ Lockin X9: Momo富邦購物 (店+)【Lockin 鹿客】Lockin鹿客 指紋把手電子鎖 X9 型號/規格不相符；LBJ Lockin X9: 電子鎖大師 【電子鎖大師】Lockin鹿客 X9 ai指紋藍芽 含基本安裝（公司貨） 型號/規格不相符；LBJ Lockin X9: PCHome購物 Lockin 鹿客 指紋把手電子鎖 X9 型號/規格不相符。"
     }
   },
   {
@@ -1095,17 +1095,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 26500,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 26500,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1272510457&cgp=26500",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【Lockin 鹿客】Halo 指靜脈人臉辨識電子鎖",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【Lockin 鹿客】Halo 指靜脈人臉辨識電子鎖」最低價為 NT$26,500，最低點日期 2026-07-09。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -1153,17 +1153,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 24500,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 24500,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1267797308&cgp=24500",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：含安裝 ZIGBANG SHP-P52 推拉式電子鎖 APP/指紋/卡片/密碼/鑰匙",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Yahoo購物中心 / 含安裝 ZIGBANG SHP-P52 推拉式電子鎖 APP/指紋/卡片/密碼/鑰匙」最低價為 NT$24,500，最低點日期 2026-07-09。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -1211,17 +1211,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 8360,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 8360,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1215112288&cgp=10450",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：dormakaba 三合一密碼/指紋/卡片智慧輔助門鎖RL360(附基本安裝)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Yahoo購物中心 / dormakaba 三合一密碼/指紋/卡片智慧輔助門鎖RL360(附基本安裝)」最低價為 NT$8,360，最低點日期 2024-10-31。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -1269,17 +1269,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 18762,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 18762,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1231156963&cgp=23750",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【Dormakaba】ML660 指紋/卡片/密碼/鑰匙 四合一智能電子鎖/門鎖(附基本安裝)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【Dormakaba】ML660 指紋/卡片/密碼/鑰匙 四合一智能電子鎖/門鎖(附基本安裝)」最低價為 NT$18,762，最低點日期 2024-11-20。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -1328,17 +1328,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 19750,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 19750,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1254806401&cgp=25000",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【Dormakaba】ML770 四合一 指紋/卡片/密碼/鑰匙_智能電子鎖(附基本安裝)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【Dormakaba】ML770 四合一 指紋/卡片/密碼/鑰匙_智能電子鎖(附基本安裝)」最低價為 NT$19,750，最低點日期 2025-12-01。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -1386,17 +1386,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 23800,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 23800,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1240656353&cgp=28990",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【Dormakaba】多瑪卡拔 FA9000 電子鎖 人臉辨識 推拉式 電子門鎖(原廠公司貨 含基本安裝)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【Dormakaba】多瑪卡拔 FA9000 電子鎖 人臉辨識 推拉式 電子門鎖(原廠公司貨 含基本安裝)」最低價為 NT$23,800，最低點日期 2025-11-02。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -1454,7 +1454,7 @@
       "sourceKind": "not_found",
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ Milre MI-510F: Momo富邦購物 【Milre 美樂】MI-510F 三合一 密碼/指紋/卡片智能電子門鎖(密碼/指紋/卡片) 型號/規格不相符；LBJ Milre MI-510F: 樂天市場 - 愛購智能 愛購智能 【促銷】Milre 美樂 三合一密碼/指紋/卡片智能電子門鎖(MI-510F)(附基本安裝) 型號/規格不相符；LBJ Milre MI-510F: 蝦皮購物 - 門禁專賣家 免運 含稅 美樂 Milre MI-480S 感應/密碼電子鎖 MI-510S卡片 指紋 MI-510F 三星可參考 型號/規格不相符。"
     }
   },
   {
@@ -1512,7 +1512,7 @@
       "sourceKind": "not_found",
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ Milre MI-6450: 樂天市場 - 愛購智能 愛購智能 Milre 美樂 三合一密碼/卡片/鑰匙智能電子門鎖(MI-6450)(附基本安裝) 型號/規格不相符；LBJ Milre MI-6450: Momo富邦購物 【Milre 美樂】MI-6450 三合一電子鎖 卡片/密碼/鑰匙(附基本安裝) 型號/規格不相符；LBJ Milre MI-6450: 樂天市場 - 昌運監視器官方旗艦店 昌運監視器 Milre 美樂 MI-6450 三合一密碼/卡片/鑰匙智能電子門鎖 輔助鎖(請來電洽詢) 型號/規格不相符。"
     }
   },
   {
@@ -1560,17 +1560,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 15291,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 15291,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1261523682&cgp=15291",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【Milre 美樂】四合一密碼/卡片/鑰匙/指紋智能電子門鎖(MI-7150+)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【Milre 美樂】四合一密碼/卡片/鑰匙/指紋智能電子門鎖(MI-7150+)」最低價為 NT$15,291，最低點日期 2026-07-09。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -1618,17 +1618,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 14500,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 14500,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1256371699&cgp=14500",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：FIBRE 琺博 FB63M 精簡 37mm最修身細窄 電子智慧門鎖",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「PCHome購物 / FIBRE 琺博 FB63M 精簡 37mm最修身細窄 電子智慧門鎖」最低價為 NT$14,500，最低點日期 2026-07-09。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -1686,7 +1686,7 @@
       "sourceKind": "not_found",
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ FIBRE FB70X: 露天拍賣 - 宅配滿$490免運｜ PC24h購物 露天旗艦店 (71076個評價) 【PChome 24h購物】FIBRE 琺博 電子智慧門鎖 樸實FB70X R99N 非採用通路或含排除條件；BigGo DQAT0I-A900GXIHM: 查詢失敗 429 https://biggo.com.tw/api/v1/spa/search/DQAT0I-A900GXIHM/product?p=1；BigGo FIBRE FB70X: 查詢失敗 429 https://biggo.com.tw/api/v1/spa/search/FIBRE%20FB70X/product?p=1。"
     }
   },
   {
@@ -1734,17 +1734,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 30875,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 30875,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1263351690&cgp=34210",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【FIBRE】琺博FB90築韻 掌靜脈貓眼電子鎖(掌靜脈｜人臉｜指紋｜APP｜遠距解鎖｜密碼｜鑰匙 含基本安裝)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【FIBRE】琺博FB90築韻 掌靜脈貓眼電子鎖(掌靜脈｜人臉｜指紋｜APP｜遠距解鎖｜密碼｜鑰匙 含基本安裝)」最低價為 NT$30,875，最低點日期 2026-03-11。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -1802,7 +1802,7 @@
       "sourceKind": "not_found",
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ HITACHI HIT-FH10-T: 博客來 HITACHI 日立 HIT-FH10-T 古銅色 七合一人臉掌靜脈電子鎖 三年保固 古銅色 型號/規格不相符；LBJ HITACHI HIT-FH10-T: Momo富邦購物 (店+)【HITACHI 日立】【HITACHI】HIT-FH10-T日立全功能智慧鎖 型號/規格不相符；LBJ HITACHI HIT-FH10-T: Momo富邦購物 (店+)【HITACHI 日立】日立HITACHI 含安裝 HIT-FH10-T悅 人臉辨識/掌靜脈/電子貓眼/指紋/卡片/密碼/鑰匙/遠端 型號/規格不相符。"
     }
   },
   {
@@ -1860,7 +1860,7 @@
       "sourceKind": "not_found",
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ HITACHI HIT-FV70-T: Momo富邦購物 (店+)【HITACHI 日立】【HITACHI】HIT-FV70-T 日立和系列人臉全自動電子鎖 型號/規格不相符；LBJ HITACHI HIT-FV70-T: 環球Online [環球Online] 限期贈智慧快充延長線【HITACHI 日立】和系列人臉全自動電子鎖HIT-FV70-T 指紋/卡片/密碼/鑰匙/WiF/含基本安裝 型號/規格不相符；LBJ HITACHI HIT-FV70-T: 甫佳電器 【甫佳電器】HITACHI日立 HITACHI HIT-FV70-T 人臉全自動電子鎖 和系列 型號/規格不相符。"
     }
   },
   {
@@ -1918,7 +1918,7 @@
       "sourceKind": "not_found",
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ HITACHI HIT-FY10-T: Momo富邦購物 【HITACHI 日立】逸系列 微光夜視全彩300萬畫素貓眼推拉式電子鎖/智能門鎖(含基本安裝) HIT-FY10-T 型號/規格不相符；LBJ HITACHI HIT-FY10-T: 電子鎖大師 【電子鎖大師】日立Hitachi HITACHI日立逸系列微光夜視全彩300萬畫素貓眼電子鎖 HIT-FY10-T（公司貨) 型號/規格不相符；LBJ HITACHI HIT-FY10-T: 東森購物 HITACHI 日立 逸系列 微光夜視全彩300萬畫素貓眼電子門鎖(含基本安裝) HIT-FY10-T 型號/規格不相符。"
     }
   },
   {
@@ -1976,7 +1976,7 @@
       "sourceKind": "not_found",
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ Lockly Latch Plus: PCHome購物 Lockly 美國 把手款智慧電子門鎖 Latch Plus(指紋款) 型號/規格不相符；LBJ Lockly Latch Plus: PCHome購物 Lockly 美國 把手款智慧電子門鎖 Latch Plus(指紋款) 型號/規格不相符；LBJ Lockly Latch Plus: 露天拍賣 - 宅配滿$490免運｜ PC24h購物 露天旗艦店 (71076個評價) 【PChome 24h購物】美國Lockly 把手款智慧電子門鎖 Latch Plus(指紋款) R99N 型號/規格不相符。"
     }
   },
   {
@@ -2024,17 +2024,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 8588,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 8588,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1131895327&cgp=8788",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【WAFERLOCK 維夫拉克】D310 三合一電子鎖-指紋辨識輔助鎖(指紋+卡片+密碼-含原廠標準安裝)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【WAFERLOCK 維夫拉克】D310 三合一電子鎖-指紋辨識輔助鎖(指紋+卡片+密碼-含原廠標準安裝)」最低價為 NT$8,588，最低點日期 2023-07-31。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -2092,7 +2092,7 @@
       "sourceKind": "not_found",
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ SHARP Tiko One: 博客來 【限時優惠】SHARP 夏普 把手式電子鎖 Tiko One 指紋/卡片/密碼/鑰匙 原廠公司貨 型號/規格不相符；LBJ SHARP Tiko One: 樂天市場 - 秀翔電器SS3C 秀翔電器SS3C SHARP 夏普 Tiko One 指紋/卡片/密碼/鑰匙 含基本安裝 型號/規格不相符；LBJ SHARP Tiko One: Momo富邦購物 【SHARP 夏普】Tiko One 指紋/卡片/密碼/鑰匙(免費基本安裝/總代理公司貨) 型號/規格不相符。"
     }
   },
   {
@@ -2140,17 +2140,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 9800,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 9800,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1282559191&cgp=9800",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：Panasonic 國際牌 G-11指紋密碼電子鎖",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「PCHome購物 / Panasonic 國際牌 G-11指紋密碼電子鎖」最低價為 NT$9,800，最低點日期 2026-07-09。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -2198,17 +2198,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 4990,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 4990,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1192434252&cgp=6999",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【HYUNDAI 現代】HDL-1100S 密碼感應卡輔助鎖(含安裝/",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「特力屋 / 【HYUNDAI 現代】HDL-1100S 密碼感應卡輔助鎖(含安裝/」最低價為 NT$4,990，最低點日期 2025-10-05。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -2256,17 +2256,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 5192,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 5192,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1227736240&cgp=6490",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：3E小島快鎖Z電子鎖(附基本安裝)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Yahoo購物中心 / 3E小島快鎖Z電子鎖(附基本安裝)」最低價為 NT$5,192，最低點日期 2024-10-31。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -2314,17 +2314,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 24500,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 24500,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1274631428&cgp=24500",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：3E小島快鎖 WIFI版掌靜脈辨識九合一電子鎖 T9 Plus+ 金色(含基本安裝)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 3E小島快鎖 WIFI版掌靜脈辨識九合一電子鎖 T9 Plus+ 金色(含基本安裝)」最低價為 NT$24,500，最低點日期 2026-07-09。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -2372,17 +2372,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 28656,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 28656,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1264523718&cgp=28656",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：3E小島快鎖 TK 九合一電子鎖 人臉辨識/掌靜脈/指紋/密碼/鑰匙 WIFI版(附基本安裝)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 3E小島快鎖 TK 九合一電子鎖 人臉辨識/掌靜脈/指紋/密碼/鑰匙 WIFI版(附基本安裝)」最低價為 NT$28,656，最低點日期 2026-07-09。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -2440,7 +2440,7 @@
       "sourceKind": "not_found",
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ moorgen T12: Momo富邦購物 (店+)【moorgen】德國摩根moorgen美型電子鎖T12雲母黑七合一 指紋/卡片/密碼/鑰匙/遠端/門鈴(含基本安裝) 型號/規格不相符；LBJ moorgen T12: Momo富邦購物 【德國摩根moorgen】T12 智能電子鎖(七合一把手式一握開 美型電子鎖 指紋 卡片 密碼 遠端 APP 含基本安裝) 型號/規格不相符；LBJ moorgen T12: PCHome購物 moorgen 德國摩根 T12 七合一把手式 美型電子鎖 指紋 卡片 密碼 鑰匙 遠端APP 電子鎖 電子門鎖(原廠保固含基本安裝) 型號/規格不相符。"
     }
   },
   {
@@ -2488,17 +2488,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 23400,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 23400,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1259738892&cgp=23400",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【帝網KingNet】DJS-SK07全自動智慧電子鎖",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Yahoo購物中心 / 【帝網KingNet】DJS-SK07全自動智慧電子鎖」最低價為 NT$23,400，最低點日期 2026-07-09。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -2556,7 +2556,7 @@
       "sourceKind": "not_found",
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ arpha Z2: 蝦皮商城 - SWEETCOM思維康淨水設備旗艦店 【思維康SWEETCOM】Arpha阿爾法 Z2 紅外線指靜脈 電子鎖 門鎖 防盜 密碼解鎖 貓眼 型號/規格不相符；LBJ arpha Z2: 家樂福線上購物網 arpha Z2 貓眼智慧靜音電子鎖 型號/規格不相符；LBJ arpha Z2: Momo富邦購物 【arpha】Z2 金融級 指靜脈辨識 貓眼智慧靜音電子鎖 型號/規格不相符。"
     }
   },
   {
@@ -2604,17 +2604,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 28800,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 28800,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1282228550&cgp=32800",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【chatlock】日本製頂級電子門鎖 AI 智慧 A50 - 摩卡棕",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【chatlock】日本製頂級電子門鎖 AI 智慧 A50 - 摩卡棕」最低價為 NT$28,800，最低點日期 2026-06-12。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -2662,17 +2662,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 30210,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 30210,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1269760549&cgp=31800",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【chatlock】日本製頂級電子門鎖 AI 智慧 A90 - 木紋款",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【chatlock】日本製頂級電子門鎖 AI 智慧 A90 - 木紋款」最低價為 NT$30,210，最低點日期 2026-06-27。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -2723,17 +2723,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 19237,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 19237,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1163778454&cgp=23750",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【Dormakaba】AS701一鍵推拉式密碼/指紋/卡片/鑰匙智慧電子門鎖 金色(附基本安裝)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【Dormakaba】AS701一鍵推拉式密碼/指紋/卡片/鑰匙智慧電子門鎖 金色(附基本安裝)」最低價為 NT$19,237，最低點日期 2024-05-24。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -2784,17 +2784,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 19000,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 19000,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1212277100&cgp=23750",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：dormakaba 四合一指紋/卡片/密碼/鑰匙智能推拉式電子鎖AS901金色(附基本安裝)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Yahoo購物中心 / dormakaba 四合一指紋/卡片/密碼/鑰匙智能推拉式電子鎖AS901金色(附基本安裝)」最低價為 NT$19,000，最低點日期 2024-10-31。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   }
 ]);

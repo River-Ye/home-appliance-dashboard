@@ -60,7 +60,7 @@
       "sourceKind": "not_found",
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ Roborock Saros Z70: 蝦皮商城 - Renza Filtration 濾網專家 適用 Roborock 石頭科技 Saros Z70 掃拖機器人 耗材 配件 HEPA濾網 主刷 邊刷 拖布 集塵 型號/規格不相符；LBJ Roborock Saros Z70: Momo富邦購物 (店+)石頭掃地機 配件耗材 roborock Saros Z70 型號/規格不相符；LBJ Roborock Saros Z70: 蝦皮商城 - Roborock 石頭科技官方旗艦店 Roborock石頭科技 G20S Ultra 、 Saros Z70 旋轉拖布 2入 型號/規格不相符。"
     }
   },
   {
@@ -118,7 +118,7 @@
       "sourceKind": "not_found",
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ Roborock Saros 20 水立方: Momo富邦購物 【Roborock 石頭科技】旗艦新品上市! Saros 20跨越奇兵掃拖機-水立方(100度熱水/8.8公分越障/3.6萬大吸力) 型號/規格不相符；LBJ Roborock Saros 20 水立方: 蝦皮商城 - GSIR家電生活館 Roborock 石頭科技 Saros 20 水立方【10%蝦幣回饋】 跨越奇兵 旗艦越障掃拖王者 掃地機器人 公司貨 型號/規格不相符；LBJ Roborock Saros 20 水立方: 蝦皮商城 - Roborock 石頭科技官方旗艦店 Roborock 石頭科技 Saros 20 跨越奇兵 水立方 (100度熱水洗/雙門檻越障/36000pa) 預購 型號/規格不相符。"
     }
   },
   {
@@ -166,17 +166,17 @@
     ],
     "releaseDate": "2026-01-06",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 33480,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 33480,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1273295471&cgp=34980",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【Roborock 石頭科技】MOMO獨家旗艦新機!Saros 20 Sonic聲波騎士掃拖機(100度熱水/熱烘/8.8CM越障/颶風級)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【Roborock 石頭科技】MOMO獨家旗艦新機!Saros 20 Sonic聲波騎士掃拖機(100度熱水/熱烘/8.8CM越障/颶風級)」最低價為 NT$33,480，最低點日期 2026-04-22。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -234,7 +234,7 @@
       "sourceKind": "not_found",
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ Roborock Qrevo Edge 2 Pro: 蝦皮商城 - Roborock 石頭科技官方旗艦店 Roborock石頭科技Saros 20、G20S Ultra、Qrevo Edge 2 Pro 水洗濾網 型號/規格不相符；LBJ Roborock Qrevo Edge 2 Pro: Momo富邦購物 【Roborock 石頭科技】Qrevo Edge 2 Pro白馬王子 (100度熱水洗/3+1cm越障/25000Pa/7.98超薄機身/零纏繞) 型號/規格不相符；LBJ Roborock Qrevo Edge 2 Pro: Momo富邦購物 【Roborock 石頭科技】Qrevo Edge 2 Pro白馬王子-清潔組(100度熱水洗/3+1cm越障/2.5萬Pa/零纏繞) 型號/規格不相符。"
     }
   },
   {
@@ -284,16 +284,16 @@
     "releaseDate": "2026-01-06",
     "historicalLow": {
       "status": "found",
-      "amount": 715,
-      "currency": "USD",
-      "converted": 22971,
-      "sourceUrl": "https://www.wired.com/story/amazon-prime-day-roborock-deals-2026/",
-      "sourceTitle": "This Is the Roborock Vacuum to Buy During Prime Day | WIRED",
-      "evidenceSnippet": "WIRED listed Roborock Qrevo Curv 2 Flow at $1,000 reduced to $715 (28% off) during Prime Day.",
-      "sourceKind": "retailer_promo",
-      "confidence": "medium",
+      "amount": 18398,
+      "currency": "TWD",
+      "converted": 18398,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1261753972&cgp=19999",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【Roborock 石頭科技】限量熱燒新品! Qrevo Curv 2 Flow搖滾巨星滾筒掃拖機器人(滾筒拖地/熱水洗烘/零纏繞)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【Roborock 石頭科技】限量熱燒新品! Qrevo Curv 2 Flow搖滾巨星滾筒掃拖機器人(滾筒拖地/熱水洗烘/零纏繞)」最低價為 NT$18,398，最低點日期 2025-11-11。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "Converted using USD_TWD 32.127508. Repo current PChome price is lower, but the current retailer page is not used as historical-low evidence because it does not explicitly claim a historical low."
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -351,7 +351,7 @@
       "sourceKind": "not_found",
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ Ecovacs DEEBOT X11 PRO 上下水款: Yahoo購物中心 【ECOVACS 科沃斯】DEEBOT X11 PRO 上下水款 無限續航滾筒洗地機器人(滾筒恆壓洗地/超能基站/掃地機器人/自動上下水) 型號/規格不相符；LBJ Ecovacs DEEBOT X11 PRO 上下水款: 蝦皮商城 - 蝦皮直營 - 3C家電館 ECOVACS 科沃斯 DEEBOT X11 PRO 上下水款 無限續航滾筒洗地機器人 廠商直送 型號/規格不相符；LBJ Ecovacs DEEBOT X11 PRO 上下水款: 蝦皮商城 - Beutii質感家電選品 ECOVACS 科沃斯 DEEBOT X11 PRO 上下水款 無限續航滾筒洗地機器人 超能基站 Beutii 型號/規格不相符。"
     }
   },
   {
@@ -409,7 +409,7 @@
       "sourceKind": "not_found",
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ Ecovacs DEEBOT X11 PRO: Momo富邦購物 (店+)【ECOVACS 科沃斯】[福利品] DEEBOT X11 PRO 無限續航滾筒洗地機器人(PowerBoost瞬充/四驅越障) 型號/規格不相符；LBJ Ecovacs DEEBOT X11 PRO: Momo富邦購物 【ECOVACS 科沃斯】DEEBOT X11 PRO 無限續航滾筒洗地機器人_福利品(TruEdge 3.0/PowerBoost瞬充/四驅越障) 型號/規格不相符；LBJ Ecovacs DEEBOT X11 PRO: 蝦皮商城 - 尋覓3C影音 【Ecovacs 科沃斯 福利品】DEEBOT X11 PRO 無限續航滾筒洗地機器人 智慧清潔 AI避障 充電快充 型號/規格不相符。"
     }
   },
   {
@@ -467,7 +467,7 @@
       "sourceKind": "not_found",
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ Ecovacs DEEBOT T80 OMNI: Momo富邦購物 (店+)[可藍] 9件耗材套裝 適用 ECOVACS 科沃斯 DEEBOT T80 OMNI 集塵袋 滾刷 濾芯 滾筒布 邊刷 型號/規格不相符；LBJ Ecovacs DEEBOT T80 OMNI: Momo富邦購物 【CHAK】ECOVACS科沃斯 DEEBOT X8 PRO OMNI / T80 OMNI 副廠掃拖機配件超值組(集塵袋6入組) 型號/規格不相符；LBJ Ecovacs DEEBOT T80 OMNI: Yahoo購物中心 【CHAK】ECOVACS科沃斯 DEEBOT X8 PRO OMNI / T80 OMNI 副廠掃拖機配件超值組(集塵袋6入組) 型號/規格不相符。"
     }
   },
   {
@@ -525,7 +525,7 @@
       "sourceKind": "not_found",
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ Ecovacs DEEBOT T50 PRO OMNI: Momo富邦購物 【ECOVACS 科沃斯】DEEBOT T50 PRO OMNI豪華耗材禮盒 型號/規格不相符；LBJ Ecovacs DEEBOT T50 PRO OMNI: Momo富邦購物 (店+)【ECOVACS 科沃斯】DEEBOT T50 PRO OMNI 超薄全覆蓋全能旗艦掃拖機器人 型號/規格不相符；LBJ Ecovacs DEEBOT T50 PRO OMNI: 蝦皮購物 - zhi cheng 科沃斯Ecovacs Deebot T30S T30 N30 N30 Pro Omni T50 Pro 拖把架備用2件 型號/規格不相符。"
     }
   },
   {
@@ -583,7 +583,7 @@
       "sourceKind": "not_found",
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ Ecovacs DEEBOT N50: Momo富邦購物 【ECOVACS 科沃斯】掃地機器人專用_原廠豪華耗材配件禮盒(DEEBOT T50/N50系列 專用) 型號/規格不相符；LBJ Ecovacs DEEBOT N50: 蝦皮商城 - ECOVACS 科沃斯 官方旗艦店 ECOVACS 科沃斯 DEEBOT T50/N50系列 豪華耗材禮盒 型號/規格不相符；LBJ Ecovacs DEEBOT N50: HOTAI購 【HOTAI購】【ECOVACS 科沃斯】DEEBOT T50/N50系列 豪華耗材禮盒 型號/規格不相符。"
     }
   },
   {
@@ -641,7 +641,7 @@
       "sourceKind": "not_found",
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ Dreame X60 Master: Momo富邦購物 【Dreame 追覓科技】X60 Master AI藍光辨識超薄掃拖旗艦機（低矮版）AI藍光髒污檢測/7.95公分超薄機身 型號/規格不相符；LBJ Dreame X60 Master: 蝦皮商城 - Dreame 追覓台灣 【Dreame追覓】X60 Master AI藍光辨識超薄掃拖旗艦機（低矮版）｜台灣公司貨 型號/規格不相符；LBJ Dreame X60 Master: 蝦皮商城 - Dreame 追覓台灣 【Dreame追覓】X60 Master AI藍光辨識超薄掃拖旗艦機（低矮版） Complete｜一年份耗材 台灣公司貨 型號/規格不相符。"
     }
   },
   {
@@ -689,17 +689,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 9999,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 9999,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=546987454&cgp=9999",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【Dreame追覓】D30 Ultra CE 全能掃拖機器人｜台灣公司貨",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「蝦皮商城 - Dreame 追覓台灣 / 【Dreame追覓】D30 Ultra CE 全能掃拖機器人｜台灣公司貨」最低價為 NT$9,999，最低點日期 2026-07-09。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -757,7 +757,7 @@
       "sourceKind": "not_found",
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ Narwal Freo Z Ultra: 蝦皮商城 - Narwal 雲鯨台灣 Narwal 雲鯨掃地機機器人專用邊刷一對（Freo X Ultra/Freo X Plus/Freo Z Ultra） 型號/規格不相符；LBJ Narwal Freo Z Ultra: 蝦皮商城 - Narwal 雲鯨台灣 Narwal 雲鯨掃地機專用銀離子抗菌拖布2入(Freo X Ultra/Freo Z Ultra/ Freo Z10) 型號/規格不相符；LBJ Narwal Freo Z Ultra: 蝦皮商城 - Narwal 雲鯨台灣 Narwal 雲鯨 Freo Z Ultra專用一次性塵袋二入 型號/規格不相符。"
     }
   },
   {
@@ -815,7 +815,7 @@
       "sourceKind": "not_found",
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ Flow 2: iHerb 【iHerb】WishGarden Herbs, Flow Stopper Lingering Cycle，2 液量盎司（59 毫升） 型號/規格不相符；LBJ Flow 2: iHerb 【iHerb】WishGarden Herbs, Happy Ducts Free The Flow，2 液量盎司（59 毫升） 非採用通路或含排除條件；LBJ Flow 2: Momo富邦購物 【Insta360】Flow 2 Pro / Flow 2 收納包(原廠公司貨) 非採用通路或含排除條件。"
     }
   },
   {
@@ -873,7 +873,7 @@
       "sourceKind": "not_found",
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ Narwal Freo Z10 Ultra: 蝦皮商城 - Narwal 雲鯨台灣 Narwal 雲鯨掃地機專用銀離子抗菌拖布2入(Freo X Ultra/Freo Z Ultra/ Freo Z10) 型號/規格不相符；LBJ Narwal Freo Z10 Ultra: 蝦皮商城 - Narwal 雲鯨台灣 Narwal 雲鯨一次性集塵袋1組3入 (適用於Freo X Ultra/Freo X Plus/Freo Z10) 型號/規格不相符；LBJ Narwal Freo Z10 Ultra: 蝦皮商城 - Narwal 雲鯨台灣 Narwal 雲鯨專用集塵盒1入（Freo X Ultra/Freo X Plus/Freo Z10) 型號/規格不相符。"
     }
   },
   {
@@ -931,7 +931,7 @@
       "sourceKind": "not_found",
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ iRobot Roomba Max 705 Combo: Yahoo購物中心 美國iRobot Roomba Max 705 Combo 掃拖機器人原廠濾網3片 型號/規格不相符；LBJ iRobot Roomba Max 705 Combo: Momo富邦購物 【iRobot】Roomba Max 705 Vac 掃地機器人專用原廠濾網3片(原廠公司貨 Max 705 Combo不能使用) 型號/規格不相符；LBJ iRobot Roomba Max 705 Combo: 蝦皮商城 - 美國iRobot & 加拿大Spärkel官方旗艦店(來思比科技集團) 領券9折-美國iRobot Roomba Max 705 Vac掃地機器人原廠濾網3片(705 Combo 不能用) 型號/規格不相符。"
     }
   },
   {
@@ -989,7 +989,7 @@
       "sourceKind": "not_found",
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ iRobot Roomba Plus 505 Combo: 樂天市場 - 玉山最低比價網 玉山最低比價網 [4美國直購] iRobot Roomba Plus 505 405 205 105 Combo Essential 原廠 掃拖機器人 邊刷 3入 #4837322 _TD44 型號/規格不相符；LBJ iRobot Roomba Plus 505 Combo: 樂天市場 - 玉山最低比價網 玉山最低比價網 [5美國直購] iRobot Roomba 原廠 集塵袋 3入 Plus 705 505 405 105 Combo 掃拖機器人 (TG1)#4849916 型號/規格不相符；LBJ iRobot Roomba Plus 505 Combo: 蝦皮商城 - 玉山最低比價網 iRobot Roomba 原廠 集塵袋 3入 適 Plus 705 505 405 105 Combo 掃拖機器人 型號/規格不相符。"
     }
   },
   {
@@ -1047,7 +1047,7 @@
       "sourceKind": "not_found",
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ iRobot Roomba Plus 405 Combo: Momo富邦購物 (店+)寵愛淨 副廠 IROBOT Roomba Plus 405 505 Combo 主刷 邊刷 濾網 塵袋 拖布 配件 耗材 型號/規格不相符；LBJ iRobot Roomba Plus 405 Combo: 樂天市場 - 全球優品匯 【全球優品匯】適配irobot Roomba Plus 405 505 Combo 主刷 邊刷 濾網 塵袋 拖布 抺布 耗材 配件 型號/規格不相符；LBJ iRobot Roomba Plus 405 Combo: 蝦皮商城 - 玉山最低比價網 iRobot Roomba 原廠 集塵袋 3入 適 Plus 705 505 405 105 Combo 掃拖機器人 型號/規格不相符。"
     }
   },
   {
@@ -1105,7 +1105,7 @@
       "sourceKind": "not_found",
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ iRobot Roomba 205 Combo: Momo富邦購物 (店+)寵愛淨 副廠 IROBOT Roomba 105 / 205 Combo 集塵 主刷 邊刷 濾網 塵袋 拖布 配件 耗材 型號/規格不相符；LBJ iRobot Roomba 205 Combo: Momo富邦購物 (店+)3入邊刷 適用iRobot Roomba Combo Essential 105 205 405 505 705 Vac 型號/規格不相符；LBJ iRobot Roomba 205 Combo: Momo富邦購物 【iRobot】Roomba Combo Essential 105 205 405 505 705 Vac 原廠專用三腳邊刷3支(原廠公司貨) 型號/規格不相符。"
     }
   },
   {
@@ -1163,7 +1163,7 @@
       "sourceKind": "not_found",
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ eufy Omni S2: Momo富邦購物 (店+)[可藍] 集塵袋6入 eufy Omni S2 12合1自清潔AI滾筒掃拖機器人 Eufy 自清潔掃拖一體全能機器人S1 型號/規格不相符；LBJ eufy Omni S2: 博客來 【限時優惠】eufy Omni S2 自清潔掃拖一體全能機器人(活水洗地/防纏繞設計/30000PA大吸力) 台灣公司貨保固 型號/規格不相符；LBJ eufy Omni S2: 蝦皮商城 - GSIR家電生活館 eufy S2【聊聊再折】 Omni 自清潔掃拖一體 全能機器⼈ 活水洗地 掃地機器人 拖地機 Omni S2 型號/規格不相符。"
     }
   },
   {
@@ -1221,7 +1221,7 @@
       "sourceKind": "not_found",
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ eufy Omni E25: 蝦皮商城 - eufy 台灣官方旗艦店 eufy Omni E25 自清潔掃拖一體全能機器人-黑 型號/規格不相符；LBJ eufy Omni E25: Momo富邦購物 【eufy】Omni E25 自清潔掃拖一體全能機器人(活水洗地/零纏繞伸縮滾刷/20000PA大吸力) 型號/規格不相符；LBJ eufy Omni E25: Momo富邦購物 【eufy】Omni E25 自清潔掃拖一體全能機器人(活水洗地/零纏繞伸縮滾刷/20000PA大吸力) 型號/規格不相符。"
     }
   },
   {
@@ -1279,7 +1279,7 @@
       "sourceKind": "not_found",
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ eufy Omni C28: 蝦皮商城 - Renza Filtration 濾網專家 適用 eufy 悠飛 Omni C28 自清潔掃拖一體全能機器人 掃拖機器人 耗材 配件 主刷 邊刷 集塵 型號/規格不相符；LBJ eufy Omni C28: Yahoo購物中心 eufy Omni C28全能機器人配件包 型號/規格不相符；LBJ eufy Omni C28: Momo富邦購物 【eufy】Omni C28全能機器人配件包 型號/規格不相符。"
     }
   },
   {
@@ -1327,17 +1327,17 @@
     ],
     "releaseDate": "2026-04-08",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 26980,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 26980,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=545105490&cgp=26980",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【MOVA】S70 Ultra Roller 極薄滾筒掃拖機器人-旗艦版",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「蝦皮商城 - MOVA | 恆隆行官方旗艦館 / 【MOVA】S70 Ultra Roller 極薄滾筒掃拖機器人-旗艦版」最低價為 NT$26,980，最低點日期 2026-07-09。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -1385,17 +1385,17 @@
     ],
     "releaseDate": "2026-03-10",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 15990,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 15990,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1273664303&cgp=15990",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【MOVA TW】S70 Roller 極薄滾筒掃拖機器人(滾筒超薄機身/28000PA/AI外擴貼邊/活水洗地/熱洗熱烘)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【MOVA TW】S70 Roller 極薄滾筒掃拖機器人(滾筒超薄機身/28000PA/AI外擴貼邊/活水洗地/熱洗熱烘)」最低價為 NT$15,990，最低點日期 2026-07-08。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -1443,17 +1443,17 @@
     ],
     "releaseDate": "2025",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 12816,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 12816,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1267908675&cgp=13086",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【LG樂金】R5T變頻濕拖掃地機器人 R5-ULTIMATE1",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Yahoo購物中心 / 【LG樂金】R5T變頻濕拖掃地機器人 R5-ULTIMATE1」最低價為 NT$12,816，最低點日期 2026-06-18。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -1501,17 +1501,17 @@
     ],
     "releaseDate": "2025-03-11",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 7999,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 7999,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1272992626&cgp=7999",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：LG樂金 CordZero™ R5 濕拖掃地機器人 R5-PROPLUS1",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Yahoo購物中心 / LG樂金 CordZero™ R5 濕拖掃地機器人 R5-PROPLUS1」最低價為 NT$7,999，最低點日期 2026-07-09。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -1569,7 +1569,7 @@
       "sourceKind": "not_found",
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：BigGo Shark PowerDetect NeverTouch Pro RV2820ZE: 查詢失敗 429 https://biggo.com.tw/api/v1/spa/search/Shark%20PowerDetect%20NeverTouch%20Pro%20RV2820ZE/product?p=1；BigGo PowerDetect NeverTouch Pro RV2820ZE: 查詢失敗 429 https://biggo.com.tw/api/v1/spa/search/PowerDetect%20NeverTouch%20Pro%20RV2820ZE/product?p=1。"
     }
   },
   {
@@ -1627,7 +1627,7 @@
       "sourceKind": "not_found",
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ Dyson Spot+Scrub Ai: Yahoo購物中心 (預購)Dyson戴森 Spot+Scrub Ai 掃拖機器人 贈專用配件組+SODASTREAM氣泡水機 型號/規格不相符；LBJ Dyson Spot+Scrub Ai: Momo富邦購物 【dyson 戴森】RB05 Spot+Scrub Ai 掃拖機器人 (滾筒掃地機/智能偵測/熱活水洗地/自清潔) 型號/規格不相符；LBJ Dyson Spot+Scrub Ai: 蝦皮商城 - dyson戴森｜恆隆行官方旗艦館 Dyson Spot+Scrub Ai掃拖機器人RB05 全新上市 嚴格保護隱私 【領雙券享優惠-再送氣泡水機】2年保固 型號/規格不相符。"
     }
   },
   {
@@ -1685,7 +1685,7 @@
       "sourceKind": "not_found",
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ Roborock QX Revo: 蝦皮購物 - 恒潔智能家電配件『服務之上の售後無憂の品質保證』 🏆超人氣🏆配石頭Roborock QX Revo Ultra掃地機器人配件主邊刷濾網拖布塵袋 型號/規格不相符；LBJ Roborock QX Revo: 蝦皮購物 - 恒潔智能家電配件『服務之上の售後無憂の品質保證』 🏆超人氣🏆配石頭Roborock QX Revo Arc掃地機器人配件主邊刷濾網拖布集塵袋 型號/規格不相符；LBJ Roborock QX Revo: 蝦皮購物 - 恒潔智能家電配件『服務之上の售後無憂の品質保證』 🌺臺南出貨🌺適用Roborock QX Revo Plus石頭掃地機配件主邊刷濾網塵袋拖抹布💕💕💕💕 型號/規格不相符。"
     }
   },
   {
@@ -1746,7 +1746,7 @@
       "sourceKind": "not_found",
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ eufy E20: Momo富邦購物 【eufy】E20 三合一掃地機器人-高性能濾網+過濾海綿(吸塵器/掃地機器人) 型號/規格不相符；LBJ eufy E20: Momo富邦購物 (店+)3入濾網 適用 eufy E20 三合一掃地機器人 吸塵器 塵筒濾網 型號/規格不相符；LBJ eufy E20: Momo富邦購物 【eufy】E20 三合一掃地機器人-集塵袋(吸塵器/掃地機器人) 型號/規格不相符。"
     }
   }
 ]);

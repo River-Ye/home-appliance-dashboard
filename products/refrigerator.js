@@ -57,17 +57,17 @@
     "category": "refrigerator",
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 14345,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 14345,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1233381015&cgp=15304",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：Panasonic國際牌 NR-B271TV-S1 268L 雙門冰箱 晶鈦銀",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Yahoo購物中心 / Panasonic國際牌 NR-B271TV-S1 268L 雙門冰箱 晶鈦銀」最低價為 NT$14,345，最低點日期 2026-02-04。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -122,17 +122,17 @@
     "category": "refrigerator",
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 11020,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 11020,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1233381017&cgp=11784",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：Panasonic國際牌 NR-B171TV-S1 167L 雙門冰箱 晶鈦銀",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Yahoo購物中心 / Panasonic國際牌 NR-B171TV-S1 167L 雙門冰箱 晶鈦銀」最低價為 NT$11,020，最低點日期 2026-03-05。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -187,17 +187,17 @@
     "category": "refrigerator",
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 9999,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 9999,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1267609790&cgp=11900",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【LG 樂金】家電快配217公升智慧變頻雙門冰箱 星辰銀(GN-L217SVN)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【LG 樂金】家電快配217公升智慧變頻雙門冰箱 星辰銀(GN-L217SVN)」最低價為 NT$9,999，最低點日期 2026-06-15。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -252,17 +252,17 @@
     "category": "refrigerator",
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 13630,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 13630,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1270194171&cgp=13775",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：LG 樂金 266公升 一級能效 智慧變頻雙門冰箱-星辰銀(GN-L266SVN)(送基本安裝)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Yahoo購物中心 / LG 樂金 266公升 一級能效 智慧變頻雙門冰箱-星辰銀(GN-L266SVN)(送基本安裝)」最低價為 NT$13,630，最低點日期 2026-06-18。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -317,17 +317,17 @@
     "category": "refrigerator",
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 34658,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 34658,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1233351614&cgp=35464",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【Panasonic 國際牌】500公升一級能效無邊框鋼板系列三門變頻冰箱(NR-C505XV-W)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【Panasonic 國際牌】500公升一級能效無邊框鋼板系列三門變頻冰箱(NR-C505XV-W)」最低價為 NT$34,658，最低點日期 2025-11-11。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -382,17 +382,17 @@
     "category": "refrigerator",
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 37224,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 37224,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1269367300&cgp=37224",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【Panasonic 國際牌】家電快配★500公升一級能源效率四門變頻冰箱-白(NR-D505XV-W)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【Panasonic 國際牌】家電快配★500公升一級能源效率四門變頻冰箱-白(NR-D505XV-W)」最低價為 NT$37,224，最低點日期 2026-07-08。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -447,17 +447,17 @@
     "category": "refrigerator",
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 21900,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 21900,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1219213662&cgp=23100",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【HITACHI 日立】313L 一級能效變頻右開雙門冰箱(HRBN5366DF-XGRTW)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【HITACHI 日立】313L 一級能效變頻右開雙門冰箱(HRBN5366DF-XGRTW)」最低價為 NT$21,900，最低點日期 2025-11-18。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -512,17 +512,17 @@
     "category": "refrigerator",
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 30160,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 30160,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1258814984&cgp=31648",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：(店+)【HITACHI 日立】原廠控價 私訊我更便宜 RV41C-BBK 394公升 變頻三門冰箱-星燦灰 (含基本安裝)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / (店+)【HITACHI 日立】原廠控價 私訊我更便宜 RV41C-BBK 394公升 變頻三門冰箱-星燦灰 (含基本安裝)」最低價為 NT$30,160，最低點日期 2025-08-23。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -577,17 +577,17 @@
     "category": "refrigerator",
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 19053,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 19053,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1231989084&cgp=20148",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【HITACHI 日立】275L一級能效變頻雙門右開冰箱(HRBN5303MF-CNXTW)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【HITACHI 日立】275L一級能效變頻雙門右開冰箱(HRBN5303MF-CNXTW)」最低價為 NT$19,053，最低點日期 2025-05-10。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -642,17 +642,17 @@
     "category": "refrigerator",
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 12999,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 12999,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1250838522&cgp=12999",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：(店+)【Samsung 三星】237公升一級能效變頻右開雙門冰箱RT22M4015S8TW",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / (店+)【Samsung 三星】237公升一級能效變頻右開雙門冰箱RT22M4015S8TW」最低價為 NT$12,999，最低點日期 2026-07-09。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -707,17 +707,17 @@
     "category": "refrigerator",
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 11900,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 11900,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1273546860&cgp=11900",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：(店+)【SAMPO 聲寶】贈 7-11商品卡1000元 117L 雙門玻璃變頻冰箱 SR-F12GD - 含基本安裝+舊機回收",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / (店+)【SAMPO 聲寶】贈 7-11商品卡1000元 117L 雙門玻璃變頻冰箱 SR-F12GD - 含基本安裝+舊機回收」最低價為 NT$11,900，最低點日期 2026-07-09。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -772,17 +772,17 @@
     "category": "refrigerator",
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 14280,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 14280,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1216032490&cgp=15999",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【SANLUX 台灣三洋】430L 一級變頻大蔬果室雙門冰箱 (SR-V430B)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「東森購物 / 【SANLUX 台灣三洋】430L 一級變頻大蔬果室雙門冰箱 (SR-V430B)」最低價為 NT$14,280，最低點日期 2025-06-02。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -837,17 +837,17 @@
     "category": "refrigerator",
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 11662,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 11662,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1279005815&cgp=11900",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【SANLUX 台灣三洋】250L 變頻雙門冰箱 (SR-C238BV)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「東森購物 / 【SANLUX 台灣三洋】250L 變頻雙門冰箱 (SR-C238BV)」最低價為 NT$11,662，最低點日期 2026-06-19。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -902,17 +902,17 @@
     "category": "refrigerator",
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 10900,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 10900,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=531838746&cgp=10900",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：台灣三洋156L雙門下冷凍變頻電冰箱 SR-V150BF 【全國電子】",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「蝦皮商城 - 全國電子旗艦店 / 台灣三洋156L雙門下冷凍變頻電冰箱 SR-V150BF 【全國電子】」最低價為 NT$10,900，最低點日期 2026-07-09。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -967,17 +967,17 @@
     "category": "refrigerator",
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 9025,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 9025,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1237687721&cgp=9397",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【SANLUX 台灣三洋】192L 一級變頻雙門電冰箱 SR-C192BV1",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Yahoo購物中心 / 【SANLUX 台灣三洋】192L 一級變頻雙門電冰箱 SR-C192BV1」最低價為 NT$9,025，最低點日期 2026-05-06。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -1032,17 +1032,17 @@
     "category": "refrigerator",
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 23490,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 23490,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1111721947&cgp=23490",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【HITACHI 日立】460L一級能效變頻雙門冰箱(RV469-PWH)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【HITACHI 日立】460L一級能效變頻雙門冰箱(RV469-PWH)」最低價為 NT$23,490，最低點日期 2026-07-09。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -1097,17 +1097,17 @@
     "category": "refrigerator",
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 20148,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 20148,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1258922304&cgp=22900",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【SAMSUNG 三星】 466公升 一級能效智慧節能變頻極簡雙門冰箱 RT47CG662AS9",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Yahoo購物中心 / 【SAMSUNG 三星】 466公升 一級能效智慧節能變頻極簡雙門冰箱 RT47CG662AS9」最低價為 NT$20,148，最低點日期 2026-04-11。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -1162,17 +1162,17 @@
     "category": "refrigerator",
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 23310,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 23310,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1250330415&cgp=23310",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：(店+)【SAMPO 聲寶】贈 7-11商品卡 2000元 350L雙門變頻冰箱 SR-C35GD -含基本安裝+舊機回收",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / (店+)【SAMPO 聲寶】贈 7-11商品卡 2000元 350L雙門變頻冰箱 SR-C35GD -含基本安裝+舊機回收」最低價為 NT$23,310，最低點日期 2026-07-09。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -1227,17 +1227,17 @@
     "category": "refrigerator",
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 18905,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 18905,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1152024623&cgp=19900",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【SAMPO 聲寶】370公升一級星美滿極光鈦變頻系列雙門冰箱(SR-C37D-K5)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【SAMPO 聲寶】370公升一級星美滿極光鈦變頻系列雙門冰箱(SR-C37D-K5)」最低價為 NT$18,905，最低點日期 2023-11-08。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -1292,17 +1292,17 @@
     "category": "refrigerator",
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 17005,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 17005,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1153665274&cgp=17900",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【SAMPO 聲寶】250公升一級星美滿極光鈦變頻系列雙門冰箱(SR-C25D-G6)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【SAMPO 聲寶】250公升一級星美滿極光鈦變頻系列雙門冰箱(SR-C25D-G6)」最低價為 NT$17,005，最低點日期 2023-11-08。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -1352,17 +1352,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 11199,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 11199,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1141213684&cgp=13999",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【Costco好市多】夏普 253公升變頻雙門冰箱 SJ-H25Y-WH SHARP 253 L Top Mount Inverter Fridge SJ-H25Y-WH",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Costco好市多 / 【Costco好市多】夏普 253公升變頻雙門冰箱 SJ-H25Y-WH SHARP 253 L Top Mount Inverter Fridge SJ-H25Y-WH」最低價為 NT$11,199，最低點日期 2026-05-11。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -1414,17 +1414,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 15998,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 15998,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1228284340&cgp=19999",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【Costco好市多】Samsung 極簡雙門冰箱 351公升 RT35CG562CB1TW Samsung Top Mount Freezer Fridge 351 L RT35CG562CB1TW",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Costco好市多 / 【Costco好市多】Samsung 極簡雙門冰箱 351公升 RT35CG562CB1TW Samsung Top Mount Freezer Fridge 351 L RT35CG562CB1TW」最低價為 NT$15,998，最低點日期 2025-10-27。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -1476,17 +1476,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 27899,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
+      "converted": 27899,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1154722838&cgp=27899",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【Costco好市多】國際牌 650公升雙門變頻冰箱 NR-B65CV-S Panasonic 650 L Double Door Inverter Fridge NR-B65CV-S",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Costco好市多 / 【Costco好市多】國際牌 650公升雙門變頻冰箱 NR-B65CV-S Panasonic 650 L Double Door Inverter Fridge NR-B65CV-S」最低價為 NT$27,899，最低點日期 2026-07-09。",
+      "sourceKind": "price_history",
+      "confidence": "high",
       "checkedAt": "2026-07-09",
-      "note": "找不到可公開驗證、且明確對應同型號/同尺寸/同規格新品的歷史最低價來源；目前售價只作為現價參考，不推定為史低。"
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   }
 ]);
