@@ -586,9 +586,9 @@
     "name": "LG Soundbar S80TR 5.1.3 聲道立體環繞聲霸",
     "price": {
       "currency": "TWD",
-      "amount": 19900,
-      "converted": 19900,
-      "confidence": "可信通路查核價"
+      "amount": 18905,
+      "converted": 18905,
+      "confidence": "PChome 2026-07-11 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBM1DA900J5JAZ/000001_1779262704.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBM1D-A900J5JAZ",
@@ -621,15 +621,15 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 19900,
+      "amount": 18905,
       "currency": "TWD",
-      "converted": 19900,
+      "converted": 18905,
       "sourceUrl": "https://24h.pchome.com.tw/prod/DMBM1D-A900J5JAZ",
       "sourceTitle": "PChome 商品 API：LG 樂金 5.1.3聲道立體環繞音效 Soundbar 家庭劇院 S80TR / LG 樂金 5.1.3聲道立體環繞音效 Soundbar 家庭劇院 S80TR",
-      "evidenceSnippet": "PChome 商品 API 於 2026-07-10 回傳同一商品頁「LG 樂金 5.1.3聲道立體環繞音效 Soundbar 家庭劇院 S80TR / LG 樂金 5.1.3聲道立體環繞音效 Soundbar 家庭劇院 S80TR」查核價 NT$19,900，低於原先記錄史低。",
+      "evidenceSnippet": "PChome 商品 API 於 2026-07-11 回傳同一商品頁「LG 樂金 5.1.3聲道立體環繞音效 Soundbar 家庭劇院 S80TR / LG 樂金 5.1.3聲道立體環繞音效 Soundbar 家庭劇院 S80TR」查核價 NT$18,905，低於原先記錄史低。",
       "sourceKind": "retailer_page",
       "confidence": "medium",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "note": "採用可信通路同一商品頁可公開查核現價作為本次觀測到的最低價；同型號/規格並排除會員個人化折扣、信用卡回饋、點數、二手、福利品、展示機、箱損、拆封與整新品。"
     },
     "issueResearch": {
@@ -1132,9 +1132,9 @@
     "name": "家庭娛樂揚聲器 600 Ultra",
     "price": {
       "currency": "TWD",
-      "amount": 19900,
-      "converted": 19900,
-      "confidence": "可信通路查核價"
+      "amount": 18507,
+      "converted": 18507,
+      "confidence": "PChome 2026-07-11 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAANJA900HZBZV/000001_1729154632.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAANJ-A900HZBZV",
@@ -1366,11 +1366,11 @@
     "name": "BRAVIA Theatre Bar 9 旗艦聲霸",
     "price": {
       "currency": "TWD",
-      "amount": 38855,
-      "converted": 38855,
-      "confidence": "可信通路查核價，擷取 2026-07-09"
+      "amount": 36912,
+      "converted": 36912,
+      "confidence": "PChome 2026-07-11 API 查核價"
     },
-    "image": "https://cs-a.ecimg.tw/items/DMBM1DA900IUZUJ/000001_1781790756.jpg",
+    "image": "https://cs-a.ecimg.tw/items/DMBM1DA900IUZUJ/000001_1783698580.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBM1D-A900IUZUJ",
     "buyLabel": "PChome",
     "specs": [
@@ -1601,8 +1601,8 @@
     "price": {
       "currency": "USD",
       "amount": 1299.99,
-      "converted": 41728,
-      "confidence": "Marshall US 2026-07-10 官方頁查核價；依 2026-07-09 匯率換算"
+      "converted": 41759,
+      "confidence": "Marshall US 2026-07-10 官方頁查核價；依 2026-07-10 匯率換算"
     },
     "image": "https://images.ctfassets.net/javen7msabdh/2C2sn9CKoKFdIyd94Gm9z5/f3019d4e721511167ebe5c229bf490dd/heston-120_plp.jpg",
     "buyUrl": "https://www.marshall.com/us/en/product/heston-120",
@@ -1681,8 +1681,8 @@
     "price": {
       "currency": "USD",
       "amount": 699.99,
-      "converted": 22469,
-      "confidence": "Marshall US 2026-07-09 查核價；官方頁顯示 Out of stock，依 2026-07-09 匯率換算"
+      "converted": 22485,
+      "confidence": "Marshall US 2026-07-09 查核價；官方頁顯示 Out of stock，依 2026-07-10 匯率換算"
     },
     "image": "https://images.ctfassets.net/javen7msabdh/3yitHqjPBTgQk5qRE72PSn/2788206646aa153f71f2c0ebefaff580/Heston-60-black_plp_800x800-v3.jpeg",
     "buyUrl": "https://www.marshall.com/us/en/product/heston-60",

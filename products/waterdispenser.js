@@ -15,9 +15,9 @@
     "image": "https://cs-a.ecimg.tw/items/DAANBRA900ASZRJ/000001_1758695631.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 8534,
-      "converted": 8534,
-      "confidence": "PChome 2026-07-10 API 查核價"
+      "amount": 8087,
+      "converted": 8087,
+      "confidence": "PChome 2026-07-11 API 查核價"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -355,9 +355,9 @@
     "image": "https://cs-a.ecimg.tw/items/DMCI0PA900HEQ1J/000001_1756977419.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 11352,
-      "converted": 11352,
-      "confidence": "PChome 2026-07-10 API 查核價"
+      "amount": 11610,
+      "converted": 11610,
+      "confidence": "PChome 2026-07-11 API 查核價"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -440,9 +440,9 @@
     "image": "https://cs-a.ecimg.tw/items/QFAX6BA9009Y2C3/000001_1760596937.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 19500,
-      "converted": 19500,
-      "confidence": "PChome 24h 低價查核"
+      "amount": 17550,
+      "converted": 17550,
+      "confidence": "PChome 2026-07-11 API 查核價"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -607,9 +607,9 @@
     "image": "https://cs-a.ecimg.tw/items/DMAC6RA900IUC3J/000001_1761017834.png",
     "price": {
       "currency": "TWD",
-      "amount": 28000,
-      "converted": 28000,
-      "confidence": "PChome 24h 低價查核"
+      "amount": 25200,
+      "converted": 25200,
+      "confidence": "PChome 2026-07-11 API 查核價"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -774,9 +774,9 @@
     "image": "https://cs-a.ecimg.tw/items/QFAX6BA9009Y2E9/000001_1760596811.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 26800,
-      "converted": 26800,
-      "confidence": "PChome 24h 低價查核"
+      "amount": 24120,
+      "converted": 24120,
+      "confidence": "PChome 2026-07-11 API 查核價"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -1668,8 +1668,8 @@
     "price": {
       "currency": "USD",
       "amount": 369.99,
-      "converted": 11876,
-      "confidence": "Costco US 2026-07-09 參考價，TWD 依現有儀表板匯率換算"
+      "converted": 11885,
+      "confidence": "Costco US 2026-07-09 參考價，TWD 依 2026-07-10 匯率換算"
     },
     "image": "https://bfasset.costco-static.com/U447IH35/as/4xjr3phfqx7p9vvxzfhp3jp/100457228-847_chrome_1?auto=webp&format=jpg",
     "buyUrl": "https://www.costco.com/brondell-circle-reverse-osmosis-water-filtration-system.product.100457228.html",

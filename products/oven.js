@@ -330,8 +330,8 @@
     "price": {
       "currency": "USD",
       "amount": 499.95,
-      "converted": 16048,
-      "confidence": "海外可信通路參考價"
+      "converted": 16060,
+      "confidence": "海外可信通路參考價；依 2026-07-10 匯率換算"
     },
     "image": "https://cdn11.bigcommerce.com/s-ihwnd7z21q/images/stencil/640w/products/1251/4666/212814_JouleOvenAirFryer1__10534.1724079466.jpg?c=1",
     "buyUrl": "https://www.breville.com/us/en/products/ovens/bov950.html",

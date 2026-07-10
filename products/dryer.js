@@ -1518,9 +1518,9 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/04F73DE2ED-SP-21351939.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 40900,
-      "converted": 40900,
-      "confidence": "Yahoo 購物中心低價查核"
+      "amount": 37628,
+      "converted": 37628,
+      "confidence": "Yahoo 購物中心 2026-07-11 schema 查核價"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物",

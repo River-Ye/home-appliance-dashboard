@@ -173,9 +173,9 @@
     "name": "瞬熱式溫水洗淨便座",
     "price": {
       "currency": "TWD",
-      "amount": 8990,
-      "converted": 8990,
-      "confidence": "可信通路查核價"
+      "amount": 8090,
+      "converted": 8090,
+      "confidence": "PChome 2026-07-11 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAL8LA900H03A0/000001_1760407099.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAL8L-A900H03A0",
@@ -1578,8 +1578,8 @@
     "price": {
       "currency": "USD",
       "amount": 249.99,
-      "converted": 8024,
-      "confidence": "Costco US 2026-07-09 參考價，TWD 依現有儀表板匯率換算"
+      "converted": 8030,
+      "confidence": "Costco US 2026-07-09 參考價，TWD 依 2026-07-10 匯率換算"
     },
     "image": "https://bfasset.costco-static.com/U447IH35/as/k83n76pfjhvqcf9gfrz74sx/1432187-847__1?auto=webp&format=jpg",
     "buyUrl": "https://www.costco.com/brondell-swash-cl1700-bidet-toilet-seat.product.100648788.html",
