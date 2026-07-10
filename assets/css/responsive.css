@@ -142,6 +142,12 @@
     grid-template-columns: 1fr;
   }
 
+  .issue-research-meta,
+  .issue-source-links {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
   .summary-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 10px;

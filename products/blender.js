@@ -61,6 +61,40 @@
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
       "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ Vitamix A3500i: 蝦皮商城 - 點點蜜│點亮你的健康新生活 美國Vitamix Ascent 調理杯/磨粉杯1.4L-A2500i/A3500i專用-台灣官方公司貨 型號/規格不相符；LBJ Vitamix A3500i: Momo富邦購物 美國Vitamix Ascent 調理杯/磨粉杯1.4L-A2500i/A3500i專用(台灣官方公司貨) 型號/規格不相符；LBJ Vitamix A3500i: 蝦皮商城 - 美國Vitamix 台灣館 美國Vitamix Ascent 調理杯/磨粉杯1.4L-A2500i/A3500i專用-台灣官方公司貨 型號/規格不相符。"
+    },
+    "issueResearch": {
+      "status": "common_issue",
+      "checkedAt": "2026-07-10",
+      "summary": "多位 A3500i 使用者回報 SELF-DETECT 無法辨識原廠杯壺，會顯示三點或禁止符號、途中停止，部分更換杯壺後仍反覆發生。",
+      "issues": [
+        {
+          "title": "SELF-DETECT 杯壺偵測失效，顯示三點或禁止運轉",
+          "detail": "問題可能在少量使用後出現，重新校正或更換原廠杯壺也可能只短暫改善；購買後應以所有預計使用的原廠杯壺反覆測試辨識與完整程式運轉。",
+          "reportCount": 6,
+          "sources": [
+            {
+              "platform": "ProductReview.com.au",
+              "title": "Vitamix A3500i Ascent reviews",
+              "url": "https://www.productreview.com.au/listings/vitamix-a3500i"
+            },
+            {
+              "platform": "Reddit",
+              "title": "Multiple container replacements for Ascent",
+              "url": "https://www.reddit.com/r/Vitamix/comments/1rkhs0c/multiple_container_replacements_for_ascent/"
+            },
+            {
+              "platform": "Reddit",
+              "title": "Is there anyone who regrets buying their Vitamix?",
+              "url": "https://www.reddit.com/r/Vitamix/comments/1r274z/is_there_anyone_and_i_mean_anyone_who_regrets/"
+            },
+            {
+              "platform": "Manuals",
+              "title": "Vitamix Ascent A3500i manual Q&A",
+              "url": "https://www.manua.ls/vitamix/ascent-a3500i/manual"
+            }
+          ]
+        }
+      ]
     }
   },
   {
@@ -120,6 +154,26 @@
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
       "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ Vitamix A2500i: 蝦皮商城 - 點點蜜│點亮你的健康新生活 美國Vitamix Ascent 調理杯/磨粉杯1.4L-A2500i/A3500i專用-台灣官方公司貨 型號/規格不相符；LBJ Vitamix A2500i: Momo富邦購物 美國Vitamix Ascent 調理杯/磨粉杯1.4L-A2500i/A3500i專用(台灣官方公司貨) 型號/規格不相符；LBJ Vitamix A2500i: 蝦皮商城 - 美國Vitamix 台灣館 美國Vitamix Ascent 調理杯/磨粉杯1.4L-A2500i/A3500i專用-台灣官方公司貨 型號/規格不相符。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-07-10",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Vitamix A2500i\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Vitamix%20A2500i%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "Reddit",
+          "query": "\"Vitamix A2500i\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.reddit.com/search/?q=%22Vitamix%20A2500i%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "targetHost": "reddit.com"
+        }
+      ]
     }
   },
   {
@@ -178,6 +232,26 @@
       "confidence": "high",
       "checkedAt": "2026-07-09",
       "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-07-10",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Joyoung DJ12M-K8S\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Joyoung%20DJ12M-K8S%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "Reddit",
+          "query": "\"Joyoung DJ12M-K8S\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.reddit.com/search/?q=%22Joyoung%20DJ12M-K8S%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "targetHost": "reddit.com"
+        }
+      ]
     }
   },
   {
@@ -236,6 +310,26 @@
       "confidence": "high",
       "checkedAt": "2026-07-09",
       "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-07-10",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Philips HR2038/30\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Philips%20HR2038%2F30%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "Reddit",
+          "query": "\"Philips HR2038/30\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.reddit.com/search/?q=%22Philips%20HR2038%2F30%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "targetHost": "reddit.com"
+        }
+      ]
     }
   },
   {
@@ -294,6 +388,35 @@
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
       "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ Ninja BN701: 露天拍賣 - 代世電子~~無低消！可開發票！可刷卡！ (12860個評價) Ninja BL610 BN701 Blender XL Ninja BL710WM 72oz Pitcher 的 的 非採用通路或含排除條件；LBJ Ninja BN701: 露天拍賣 - 世代電子商行~~可開發票/報價單/可刷卡 (42094個評價) Ninja BL610 BN701 Blender XL Ninja BL710WM 72oz Pitcher 的 的 非採用通路或含排除條件；LBJ BN701: 蝦皮商城 - B.V.D. D&G 襪子專賣 【BVD】超低襪口男隱形襪-BN701 男襪 低口襪 非採用通路或含排除條件。"
+    },
+    "issueResearch": {
+      "status": "common_issue",
+      "checkedAt": "2026-07-10",
+      "summary": "多位 BN701 使用者回報塑膠調理壺在一次至數月使用後，底部或刀座周圍產生裂紋，部分進一步漏液；替換壺也可能在相同位置再裂。",
+      "issues": [
+        {
+          "title": "塑膠調理壺底部或刀座周圍龜裂並漏液",
+          "detail": "案例包含到貨即有微裂、第一次使用後裂開，以及正常製作 smoothie 數月後壺底裂漏；到貨後應立即檢查壺體與刀座周圍，並在退換貨期內反覆測試。",
+          "reportCount": 6,
+          "sources": [
+            {
+              "platform": "Best Buy",
+              "title": "Ninja Professional Plus Blender with Auto-IQ Gray, Model BN701",
+              "url": "https://www.bestbuy.com/product/ninja-professional-plus-blender-with-auto-iq-gray/JXJVXGKV7Y/sku/12371988/reviews?ratings=1"
+            },
+            {
+              "platform": "Best Buy",
+              "title": "Ninja Professional Plus Blender with Auto-IQ reviews",
+              "url": "https://www.bestbuy.com/site/reviews/ninja-professional-plus-blender-with-auto-iq-gray/6395885?page=3"
+            },
+            {
+              "platform": "BITcom Electronics",
+              "title": "Ninja BN701 Professional Plus Blender customer review",
+              "url": "https://bitcomelectronics.com/product/ninja-bn701-professional-plus-blender-1400-peak-watts-3-functions-for-smoothies-frozen-drinks-ice-cream-with-auto-iq-72-oz-total-crushing-pitcher-lid-dark-grey/"
+            }
+          ]
+        }
+      ]
     }
   },
   {
@@ -352,6 +475,26 @@
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
       "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ Vitamix VITA PREP: 露天拍賣 - chen_rumi的賣場 (2355個評價) 便宜賣全新 Vitamix Vita Prep 3 紅 型號/規格不相符；LBJ Vitamix VITA PREP: PCHome購物 Vitamix 維他美仕 美國製維他美仕最新款獨立電源開關生機調理機果汁機冰沙機 VITA PREP(2.3匹馬力)美國原廠貨 型號/規格不相符；LBJ Vitamix VITA PREP: Yahoo拍賣 - 鑫和小舖 (262個評價) 維他美仕VITAMIX全新VITA-PREP 3超強三匹馬力vitamix vita prep 3 全營養調理機專業商用 型號/規格不相符。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-07-10",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Vitamix VITA PREP\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Vitamix%20VITA%20PREP%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "Reddit",
+          "query": "\"Vitamix VITA PREP\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.reddit.com/search/?q=%22Vitamix%20VITA%20PREP%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "targetHost": "reddit.com"
+        }
+      ]
     }
   },
   {
@@ -410,6 +553,26 @@
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
       "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ Vitamix VITA PREP 3: PCHome購物 Vitamix 維他美仕 美國製維他美仕最新款獨立電源開關生機調理機果汁機冰沙機 VITA PREP(2.3匹馬力)美國原廠貨 型號/規格不相符；LBJ Vitamix VITA PREP 3: Yahoo拍賣 - 鑫和小舖 (262個評價) 維他美仕VITAMIX全新VITA-PREP 3超強三匹馬力vitamix vita prep 3 全營養調理機專業商用 非採用通路或含排除條件；LBJ Vitamix VITA PREP 3: 露天拍賣 - chen_rumi的賣場 (2355個評價) 便宜賣全新 Vitamix Vita Prep 3 紅 非採用通路或含排除條件。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-07-10",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Vitamix VITA PREP 3\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Vitamix%20VITA%20PREP%203%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "Reddit",
+          "query": "\"Vitamix VITA PREP 3\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.reddit.com/search/?q=%22Vitamix%20VITA%20PREP%203%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "targetHost": "reddit.com"
+        }
+      ]
     }
   },
   {
@@ -468,6 +631,50 @@
       "confidence": "high",
       "checkedAt": "2026-07-09",
       "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+    },
+    "issueResearch": {
+      "status": "common_issue",
+      "checkedAt": "2026-07-10",
+      "summary": "多位 E320 使用者形容高轉速噪音刺耳或震耳，量測約 90 dB、手錶發出高分貝警告，部分因此使用聽力防護或退貨。",
+      "issues": [
+        {
+          "title": "運轉噪音刺耳，部分使用者需聽力防護",
+          "detail": "回報集中在中高轉速，包含耳朵疼痛、穿戴降噪耳機及因噪音退貨；若對噪音敏感，建議在退換貨期內以實際食材測試常用轉速。",
+          "reportCount": 6,
+          "sources": [
+            {
+              "platform": "Reddit",
+              "title": "5200 significantly quieter than E320?",
+              "url": "https://www.reddit.com/r/Vitamix/comments/w1orgt/5200_significantly_quieter_than_e320/"
+            },
+            {
+              "platform": "Reddit",
+              "title": "Sound dampening suggestions",
+              "url": "https://www.reddit.com/r/Vitamix/comments/qedauh/sound_dampening_suggestions/"
+            },
+            {
+              "platform": "Reddit",
+              "title": "New Vitamix Question",
+              "url": "https://www.reddit.com/r/Vitamix/comments/1j1efxl/new_vitamix_question/"
+            },
+            {
+              "platform": "Reddit",
+              "title": "Can an E320 blend fibrous food just as smoothly as an A3500i?",
+              "url": "https://www.reddit.com/r/Vitamix/comments/17l89l1/can_an_e320_blend_fibrous_food_just_as_smoothly/"
+            },
+            {
+              "platform": "Reddit",
+              "title": "E320 ($300) vs E5200 ($370)",
+              "url": "https://www.reddit.com/r/Vitamix/comments/r8y68l/e320_300_vs_e5200_370/"
+            },
+            {
+              "platform": "Konesso",
+              "title": "Blender Vitamix Explorian E320 opinions",
+              "url": "https://www.konesso.pl/product-opinions-pol-22517-Blender-Vitamix-Explorian-E320.html"
+            }
+          ]
+        }
+      ]
     }
   },
   {
@@ -526,6 +733,26 @@
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
       "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：BigGo QBAO0F-A900AS2DJ: 查詢失敗 429 https://biggo.com.tw/api/v1/spa/search/QBAO0F-A900AS2DJ/product?p=1；BigGo Vitamix A2500i White: 查詢失敗 429 https://biggo.com.tw/api/v1/spa/search/Vitamix%20A2500i%20White/product?p=1。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-07-10",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Vitamix A2500i White\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Vitamix%20A2500i%20White%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "Reddit",
+          "query": "\"Vitamix A2500i White\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.reddit.com/search/?q=%22Vitamix%20A2500i%20White%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "targetHost": "reddit.com"
+        }
+      ]
     }
   },
   {
@@ -584,6 +811,26 @@
       "confidence": "high",
       "checkedAt": "2026-07-09",
       "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-07-10",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Blendtec Professional 800\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Blendtec%20Professional%20800%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "Reddit",
+          "query": "\"Blendtec Professional 800\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.reddit.com/search/?q=%22Blendtec%20Professional%20800%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "targetHost": "reddit.com"
+        }
+      ]
     }
   },
   {
@@ -642,6 +889,26 @@
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
       "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ Blendtec Connoisseur 825: Momo富邦購物 【Blendtec】美國製3.8匹數位調理機果汁機冰沙機(CONNOISSEUR 825 SPACESAVER) 型號/規格不相符；LBJ Blendtec Connoisseur 825: Momo富邦購物 【Blendtec】高效能食物調理機 鑑賞家825-尊爵黑(CONNOISSEUR825公司貨附5角容杯x1) 型號/規格不相符；LBJ Blendtec Connoisseur 825: Yahoo購物中心 【Blendtec】 高效能食物調理機 鑑賞家825-尊爵黑(CONNOISSEUR825公司貨附5角容杯x1) 型號/規格不相符。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-07-10",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Blendtec Connoisseur 825\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Blendtec%20Connoisseur%20825%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "Reddit",
+          "query": "\"Blendtec Connoisseur 825\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.reddit.com/search/?q=%22Blendtec%20Connoisseur%20825%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "targetHost": "reddit.com"
+        }
+      ]
     }
   },
   {
@@ -700,6 +967,26 @@
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
       "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ Blendtec Designer 650: 露天拍賣 - Wowlook 玩路客美國專業代買代購 (6897個評價) 【Wowlook】 Blendtec Designer 650 調理機 整新 2104 型號/規格不相符；LBJ Blendtec Designer 650: Yahoo拍賣 - 蔣克史塔夫 JUNKSTUFF (349個評價) Blendtec Designer 650 故障 維修 服務 零件 配件 代購 全新盒裝 果汁機 型號/規格不相符；LBJ Blendtec Designer 650: citiesocial找好東西 【citiesocial找好東西】【Blendtec】高效能食物調理機 Designer650 型號/規格不相符。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-07-10",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Blendtec Designer 650\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Blendtec%20Designer%20650%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "Reddit",
+          "query": "\"Blendtec Designer 650\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.reddit.com/search/?q=%22Blendtec%20Designer%20650%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "targetHost": "reddit.com"
+        }
+      ]
     }
   },
   {
@@ -758,6 +1045,45 @@
       "confidence": "medium",
       "checkedAt": "2026-07-09",
       "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+    },
+    "issueResearch": {
+      "status": "common_issue",
+      "checkedAt": "2026-07-10",
+      "summary": "多位 Blendtec Total Blender 使用者回報調理壺漏液；多數案例指向壺底刀軸、墊圈、密封或軸承劣化。",
+      "issues": [
+        {
+          "title": "調理壺漏液",
+          "detail": "漏點回報多集中在壺底刀座、墊圈或壺體接合處，但也有使用者只確認壺體漏液；問題可能在長期使用後出現，發現滲液、異常噪音或墊圈碎裂時應立即停用並洽詢原廠。",
+          "reportCount": 6,
+          "sources": [
+            {
+              "platform": "Reddit",
+              "title": "Blender recommendations?",
+              "url": "https://www.reddit.com/r/BuyItForLife/comments/rrav71/blender_recommendations/"
+            },
+            {
+              "platform": "iFixit",
+              "title": "How is a leaky blender jar fixed?",
+              "url": "https://www.ifixit.com/Answers/View/703754/How+is+a+leaky+blender+jar+fixed"
+            },
+            {
+              "platform": "iFixit",
+              "title": "Can a leak at the bottom of Wideside jar (blade seal) be repaired?",
+              "url": "https://www.ifixit.com/Answers/View/757556/Can+a+leak+at+the+bottom+of+Wideside+jar+(blade+seal)+be+repaired"
+            },
+            {
+              "platform": "iFixit",
+              "title": "How do I fix a leak at the bottom of the plastic container (blade)",
+              "url": "https://www.ifixit.com/Answers/View/413038/How+do+I+fix+a+leak+at+the+bottom+of+the+plastic+container+(blade)"
+            },
+            {
+              "platform": "Best Buy",
+              "title": "Blendtec Total Blender 10-Speed Blender reviews",
+              "url": "https://www.bestbuy.com/site/reviews/blendtec-total-blender-10-speed-blender-black/6405679?page=2"
+            }
+          ]
+        }
+      ]
     }
   },
   {
@@ -816,6 +1142,26 @@
       "confidence": "high",
       "checkedAt": "2026-07-09",
       "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-07-10",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Joyoung L19N-Y1W\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Joyoung%20L19N-Y1W%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "Reddit",
+          "query": "\"Joyoung L19N-Y1W\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.reddit.com/search/?q=%22Joyoung%20L19N-Y1W%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "targetHost": "reddit.com"
+        }
+      ]
     }
   },
   {
@@ -874,6 +1220,26 @@
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
       "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ XD XD-A08: 露天拍賣 - 宅配滿$490免運｜ PC24h購物 露天旗艦店 (71076個評價) 【PChome 24h購物】豆漿機XD-A08 R99N 非採用通路或含排除條件；LBJ XD XD-A08: 露天拍賣 - 宅配滿$490免運｜ PC24h購物 露天旗艦店 (71076個評價) 【PChome 24h購物】豆漿機XD-A08 R99N 非採用通路或含排除條件；LBJ XD XD-A08: 露天拍賣 - 宅配滿$490免運｜ PC24h購物 露天旗艦店 (71076個評價) 【PChome 24h購物】豆漿機XD-A08 高級黑普通款防糊底+磨粉杯110V R99N 非採用通路或含排除條件。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-07-10",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"XD XD-A08\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22XD%20XD-A08%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "Reddit",
+          "query": "\"XD XD-A08\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.reddit.com/search/?q=%22XD%20XD-A08%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "targetHost": "reddit.com"
+        }
+      ]
     }
   },
   {
@@ -932,6 +1298,26 @@
       "confidence": "high",
       "checkedAt": "2026-07-09",
       "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-07-10",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Joyoung DJ10M-K96G\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Joyoung%20DJ10M-K96G%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "Reddit",
+          "query": "\"Joyoung DJ10M-K96G\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.reddit.com/search/?q=%22Joyoung%20DJ10M-K96G%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "targetHost": "reddit.com"
+        }
+      ]
     }
   },
   {
@@ -990,6 +1376,26 @@
       "confidence": "high",
       "checkedAt": "2026-07-09",
       "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-07-10",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Tefal SP21\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Tefal%20SP21%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "Reddit",
+          "query": "\"Tefal SP21\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.reddit.com/search/?q=%22Tefal%20SP21%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "targetHost": "reddit.com"
+        }
+      ]
     }
   },
   {
@@ -1048,6 +1454,26 @@
       "confidence": "high",
       "checkedAt": "2026-07-09",
       "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-07-10",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Bosch MMBH6P6BTW\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Bosch%20MMBH6P6BTW%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "Reddit",
+          "query": "\"Bosch MMBH6P6BTW\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.reddit.com/search/?q=%22Bosch%20MMBH6P6BTW%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "targetHost": "reddit.com"
+        }
+      ]
     }
   },
   {
@@ -1106,6 +1532,26 @@
       "confidence": "medium",
       "checkedAt": "2026-07-09",
       "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-07-10",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Joyoung L18M-Y6G\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Joyoung%20L18M-Y6G%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "Reddit",
+          "query": "\"Joyoung L18M-Y6G\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.reddit.com/search/?q=%22Joyoung%20L18M-Y6G%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "targetHost": "reddit.com"
+        }
+      ]
     }
   },
   {
@@ -1164,6 +1610,26 @@
       "confidence": "high",
       "checkedAt": "2026-07-09",
       "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-07-10",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Joyoung SMM55\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Joyoung%20SMM55%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "Reddit",
+          "query": "\"Joyoung SMM55\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.reddit.com/search/?q=%22Joyoung%20SMM55%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "targetHost": "reddit.com"
+        }
+      ]
     }
   },
   {
@@ -1224,6 +1690,26 @@
       "confidence": "high",
       "checkedAt": "2026-07-09",
       "note": "已由 worker 查核 BigGo、FindPrice、LBJ 與 Xiaomi 官方規格；採 LBJ Yahoo 官方旗艦館歷史最低 NT$1,860。低於此價的福利品、二手、再生工場或非 MJPBJ01DEMTW 候選均排除。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-07-10",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Xiaomi MJPBJ01DEMTW\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Xiaomi%20MJPBJ01DEMTW%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "Reddit",
+          "query": "\"Xiaomi MJPBJ01DEMTW\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.reddit.com/search/?q=%22Xiaomi%20MJPBJ01DEMTW%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "targetHost": "reddit.com"
+        }
+      ]
     }
   },
   {
@@ -1282,6 +1768,26 @@
       "confidence": "high",
       "checkedAt": "2026-07-09",
       "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-07-10",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"TECO XYFYS007W\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22TECO%20XYFYS007W%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "Reddit",
+          "query": "\"TECO XYFYS007W\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.reddit.com/search/?q=%22TECO%20XYFYS007W%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "targetHost": "reddit.com"
+        }
+      ]
     }
   },
   {
@@ -1343,6 +1849,26 @@
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
       "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ Ninja TB401TW: Momo富邦購物 【NINJA】TB401TW Detect 忍者三層快刀調理機(調理機/果汁機/攪拌機/烘焙) 型號/規格不相符；LBJ Ninja TB401TW: 樂天市場 - 及時雨 高壓恢復選品 及時雨 高壓恢復選品 Ninja Detect 多功能調理機 TB401TW 型號/規格不相符；LBJ Ninja TB401TW: Yahoo購物中心 【NINJA】Detect TB401TW忍者三層快刀智能調理機(調理機、果汁機、攪拌機、烘焙) 型號/規格不相符。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-07-10",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Ninja TB401TW\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Ninja%20TB401TW%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "Reddit",
+          "query": "\"Ninja TB401TW\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.reddit.com/search/?q=%22Ninja%20TB401TW%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "targetHost": "reddit.com"
+        }
+      ]
     }
   },
   {
@@ -1404,6 +1930,26 @@
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
       "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ Vitamix E310: 樂天市場 - 貓與鼠百貨店 貓與鼠百貨店 48oz兼容Vitamix750 5300 5200 500 7500 6300 Vm0102 E310攪拌杯 型號/規格不相符；LBJ Vitamix E310: 樂天市場 - 玉山最低比價網 玉山最低比價網 [3美國直購] Vitamix 65421 48oz 食物調理機量杯 Aer Disc Container 適 E320 E310_B07CY3SDC9 型號/規格不相符；LBJ Vitamix E310: 樂天市場 - 及時雨 高壓恢復選品 及時雨 高壓恢復選品 Vitamix 全營養調理機 E310 型號/規格不相符。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-07-10",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Vitamix E310\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Vitamix%20E310%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "Reddit",
+          "query": "\"Vitamix E310\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.reddit.com/search/?q=%22Vitamix%20E310%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "targetHost": "reddit.com"
+        }
+      ]
     }
   }
 ]);

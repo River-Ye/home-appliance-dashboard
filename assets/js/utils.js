@@ -50,6 +50,32 @@
       .replaceAll("'", "&#039;");
   }
 
+  function safeHttpUrl(value) {
+    try {
+      const parsed = new URL(String(value || ""));
+      return parsed.protocol === "http:" || parsed.protocol === "https:"
+        ? parsed.href
+        : "";
+    } catch (_error) {
+      return "";
+    }
+  }
+
+  function issueResearchText(product) {
+    const research = product.issueResearch || {};
+    const issueText = Array.isArray(research.issues)
+      ? research.issues.flatMap((issue) => [
+        issue.title,
+        issue.detail,
+        `${issue.reportCount || 0} 位獨立使用者`,
+        ...(issue.sources || []).flatMap((source) => [source.platform, source.title]),
+      ])
+      : [];
+    return [research.status, research.summary, research.checkedAt, ...issueText]
+      .filter(Boolean)
+      .join(" ");
+  }
+
   function productText(product) {
     return [
       product.brand,
@@ -62,6 +88,7 @@
       product.historicalLow?.status,
       product.historicalLow?.sourceTitle,
       product.historicalLow?.note,
+      issueResearchText(product),
       (product.specs || []).join(" "),
       (product.tags || []).join(" "),
     ].join(" ").toLowerCase();
@@ -75,6 +102,8 @@
     channelLabel,
     normalizeText,
     escapeHtml,
+    safeHttpUrl,
+    issueResearchText,
     productText,
   };
 })();

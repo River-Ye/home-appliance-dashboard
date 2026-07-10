@@ -185,6 +185,67 @@ async function assertHistoricalLowCompareLayout(page, name) {
   }
 }
 
+async function assertIssueResearchCards(page, name) {
+  const failures = await page.$$eval(".product-card", (cards) => {
+    const tolerance = 1;
+    const safeProtocols = new Set(["http:", "https:"]);
+
+    return cards.flatMap((card, index) => {
+      const section = card.querySelector(".issue-research");
+      if (!section) return [{ index, issue: "missing issue research block" }];
+
+      const issues = [];
+      const status = section.getAttribute("data-issue-status");
+      const text = section.textContent || "";
+      const links = [...section.querySelectorAll("a[href]")];
+      if (!text.includes("負評／災情查核")) issues.push("missing visible issue research label");
+      if (!/\d{4}-\d{2}-\d{2}/.test(text)) issues.push("missing checked date");
+      if (!new Set(["common_issue", "no_common_issue"]).has(status)) issues.push(`invalid semantic status ${status}`);
+      if (section.scrollWidth > section.clientWidth + tolerance) issues.push("issue block horizontal overflow");
+
+      for (const link of links) {
+        if (!safeProtocols.has(link.protocol)) issues.push(`unsafe source protocol ${link.protocol}`);
+        if (link.scrollWidth > link.clientWidth + tolerance) issues.push("source link does not wrap");
+      }
+
+      if (status === "common_issue") {
+        if (!/(?:⚠|注意|多人反映)/.test(text)) issues.push("warning status relies on color alone");
+        if (!/6\s*(?:位|人)|[7-9]\s*(?:位|人)|\d{2,}\s*(?:位|人)/.test(text)) issues.push("missing report count of at least 6");
+        if (links.length < 2) issues.push("common issue has fewer than two source links");
+        const style = getComputedStyle(section);
+        if (style.backgroundColor === "rgba(0, 0, 0, 0)" || style.backgroundColor === "transparent") {
+          issues.push("warning block lacks visible background color");
+        }
+      }
+
+      if (status === "no_common_issue") {
+        if (!text.includes("截至查核日，查無達門檻的集中負評／災情")) issues.push("missing agreed no-common-issue wording");
+        if (!text.includes("查核紀錄")) issues.push("missing checked-source label");
+        if (links.length < 2) issues.push("no-common-issue state has fewer than two checked-source links");
+      }
+
+      return issues.length ? [{
+        index,
+        title: card.querySelector("h3")?.textContent?.trim() || "unknown product",
+        issues,
+      }] : [];
+    });
+  });
+
+  if (failures.length) {
+    throw new Error(`${name}: issue research card failures ${JSON.stringify(failures.slice(0, 5))}`);
+  }
+}
+
+async function assertIssueResearchCompareRow(page, name) {
+  const rows = page.locator("#compareTable tr", { hasText: "負評／災情" });
+  if (await rows.count() !== 1) throw new Error(`${name}: compare table missing issue research row`);
+  const row = rows.first();
+  if (!/\d{4}-\d{2}-\d{2}/.test(await row.innerText())) {
+    throw new Error(`${name}: compare issue research row missing checked date`);
+  }
+}
+
 async function assertSingleCompareFitsViewport(page, name) {
   const failures = await page.$$eval("#compareTable .compare-table", (tables) => {
     const tolerance = 2;
@@ -289,6 +350,8 @@ module.exports = {
   assertProductImagesStayInsideWrap,
   assertHistoricalLowLayout,
   assertHistoricalLowCompareLayout,
+  assertIssueResearchCards,
+  assertIssueResearchCompareRow,
   assertSingleCompareFitsViewport,
   assertProductDetailsDisclosure,
   assertMobileDockClearance,

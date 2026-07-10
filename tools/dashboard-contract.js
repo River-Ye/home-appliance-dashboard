@@ -23,6 +23,10 @@ const HISTORICAL_LOW_SOURCE_KINDS = new Set([
   "not_found",
 ]);
 const HISTORICAL_LOW_CONFIDENCE_VALUES = new Set(["high", "medium", "low", "not_found"]);
+const ISSUE_RESEARCH_STATUSES = new Set(["common_issue", "no_common_issue"]);
+const ISSUE_RESEARCH_MIN_REPORTERS = 6;
+const ISSUE_RESEARCH_MIN_PLATFORMS = 2;
+const NO_COMMON_ISSUE_SUMMARY = "截至查核日，查無達門檻的集中負評／災情";
 const REQUIRED_CATEGORY_TERMS = new Map([
   ["robot", ["Roborock", "Ecovacs", "Dreame", "Narwal", "iRobot", "eufy", "MOVA", "LG", "Shark", "Dyson"]],
   ["smartlock", ["Yale", "Philips", "Kaadas", "Aqara", "Lockin", "dormakaba", "HITACHI", "WAFERLOCK"]],
@@ -72,6 +76,7 @@ const REQUIRED_FIELDS = [
   "recommendation",
   "releaseDate",
   "historicalLow",
+  "issueResearch",
   "score",
   "voltage",
   "warranty",
@@ -92,6 +97,10 @@ module.exports = {
   HISTORICAL_LOW_STATUSES,
   HISTORICAL_LOW_SOURCE_KINDS,
   HISTORICAL_LOW_CONFIDENCE_VALUES,
+  ISSUE_RESEARCH_STATUSES,
+  ISSUE_RESEARCH_MIN_REPORTERS,
+  ISSUE_RESEARCH_MIN_PLATFORMS,
+  NO_COMMON_ISSUE_SUMMARY,
   REQUIRED_CATEGORY_TERMS,
   CATEGORY_TEXT_MATCH_COUNTS,
   REQUIRED_FIELDS,

@@ -12,6 +12,8 @@ const {
   assertProductImagesStayInsideWrap,
   assertHistoricalLowLayout,
   assertHistoricalLowCompareLayout,
+  assertIssueResearchCards,
+  assertIssueResearchCompareRow,
   assertSingleCompareFitsViewport,
   assertProductDetailsDisclosure,
   assertMobileDockClearance,
@@ -29,6 +31,21 @@ async function waitForVisibleCount(page, expectedCount) {
   await page.waitForFunction((expectedText) => {
     return document.querySelector("#visibleCount")?.textContent?.trim() === expectedText;
   }, String(expectedCount));
+}
+
+async function assertCommonIssueJourney(page, name) {
+  await page.fill("#searchInput", "隨機爆音");
+  await waitForVisibleCount(page, 1);
+  await waitForProductCards(page, 1);
+  const warning = page.locator('.product-card [data-issue-status="common_issue"]');
+  if (await warning.count() !== 1) throw new Error(`${name}: exact-model warning card did not render`);
+  const warningText = await warning.innerText();
+  if (!warningText.includes("12 位獨立使用者反映")) throw new Error(`${name}: warning card missing verified report count`);
+  if (await warning.locator("a[href]").count() < 2) throw new Error(`${name}: warning card missing original source links`);
+  await assertIssueResearchCards(page, `${name} common issue`);
+  await page.fill("#searchInput", "");
+  await waitForVisibleCount(page, EXPECTED_PRODUCT_COUNT);
+  await waitForProductCards(page, 12);
 }
 
 async function runExhaustiveViewport(browser, name, viewport) {
@@ -49,11 +66,14 @@ async function runExhaustiveViewport(browser, name, viewport) {
   if (!historicalLowSourceLink) throw new Error(`${name}: found historical low card missing source link`);
   await waitForProductCards(page, 12);
   await assertHistoricalLowLayout(page, name);
+  await assertIssueResearchCards(page, name);
   await assertProductDetailsDisclosure(page, name);
   const initialRenderedText = await visibleText(page, "#renderedCount");
   if (!initialRenderedText.includes(`12 / ${EXPECTED_PRODUCT_COUNT_TEXT}`)) {
     throw new Error(`${name}: expected initial lazy render 12 / ${EXPECTED_PRODUCT_COUNT_TEXT}, got ${initialRenderedText}`);
   }
+
+  await assertCommonIssueJourney(page, name);
 
   await page.fill("#searchInput", "POIEMA");
   await page.waitForFunction(() => document.querySelector("#visibleCount")?.textContent?.trim() === "3");
@@ -366,6 +386,7 @@ async function runExhaustiveViewport(browser, name, viewport) {
   if (releaseCompareRows !== 1) throw new Error(`${name}: compare table missing release date row`);
   const historicalCompareRows = await page.locator("#compareTable tr", { hasText: "歷史最低價 / 入手時機" }).count();
   if (historicalCompareRows !== 1) throw new Error(`${name}: compare table missing historical low row`);
+  await assertIssueResearchCompareRow(page, name);
   await assertHistoricalLowCompareLayout(page, name);
   await assertSingleCompareFitsViewport(page, name);
   await page.locator("[data-compare-remove]").first().click();
@@ -471,6 +492,7 @@ async function assertBaselineState(page, name, viewport) {
   if (!historicalLowSourceLink) throw new Error(`${name}: found historical low card missing source link`);
   await waitForProductCards(page, 12);
   await assertHistoricalLowLayout(page, name);
+  await assertIssueResearchCards(page, name);
   await assertProductDetailsDisclosure(page, name);
   const initialRenderedText = await visibleText(page, "#renderedCount");
   if (!initialRenderedText.includes(`12 / ${EXPECTED_PRODUCT_COUNT_TEXT}`)) {
@@ -618,6 +640,7 @@ async function runDesktopJourney(browser) {
     if (releaseCompareRows !== 1) throw new Error(`${name}: compare table missing release date row`);
     const historicalCompareRows = await page.locator("#compareTable tr", { hasText: "歷史最低價 / 入手時機" }).count();
     if (historicalCompareRows !== 1) throw new Error(`${name}: compare table missing historical low row`);
+    await assertIssueResearchCompareRow(page, name);
     await assertHistoricalLowCompareLayout(page, name);
     await assertSingleCompareFitsViewport(page, name);
     await page.locator("[data-compare-remove]").first().click();
@@ -672,11 +695,14 @@ async function runMobileJourney(browser) {
     await compareButton.scrollIntoViewIfNeeded();
     await compareButton.click();
     await page.waitForFunction(() => document.querySelector("#compareCount")?.textContent?.trim() === "1");
+    await assertIssueResearchCompareRow(page, name);
     await assertHistoricalLowCompareLayout(page, name);
     await assertSingleCompareFitsViewport(page, name);
     await page.locator("[data-compare-remove]").first().click();
     await page.waitForFunction(() => document.querySelector("#compareCount")?.textContent?.trim() === "0");
     await resetFilters(page);
+
+    await assertCommonIssueJourney(page, name);
 
     await page.evaluate(() => window.scrollTo({ top: 0, behavior: "auto" }));
     await page.fill("#searchInput", "WWEB10701BS");

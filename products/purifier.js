@@ -62,6 +62,40 @@
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
       "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ Coway AP-1019C: 蝦皮商城 - Coway 台灣官方商店 Coway 濾網 原廠耗材 蜂巢式活性碳濾網 適用 AP 1019 C 空氣清淨機 AP-1019C 免運 非採用通路或含排除條件；LBJ Coway AP-1019C: Momo富邦購物 【RENZA】適用Coway AP-1019C 積木機 白/粉/綠/海軍藍/龜背葉 完美雙禦空氣清淨機(抗菌HEPA性碳濾網 濾芯) 最低價 NT$924 低於現價合理比例，疑似月付/配件/錯類；LBJ Coway AP-1019C: Momo富邦購物 【蟎著媽】濾網(適用 Coway 格威 AP-1019c 白色 粉色 綠色 積木機 完美雙禦 空氣清淨機 AP 1019) 最低價 NT$936 低於現價合理比例，疑似月付/配件/錯類。"
+    },
+    "issueResearch": {
+      "status": "common_issue",
+      "checkedAt": "2026-07-10",
+      "summary": "多位同型號使用者反映，AP-1019C 在靜音／夜間或最低風量運轉時仍會出現規律低頻共鳴、嗡嗡聲或馬達振動，可能影響睡眠。",
+      "issues": [
+        {
+          "title": "靜音／低速模式下的低頻共鳴與馬達振動",
+          "detail": "問題集中在靜音、夜間或最低風量：有使用者形容規律共振、嗡嗡低頻與機身／馬達振動，甚至無法放在臥室；防震墊或凝膠可減輕但不一定完全消除。對聲音敏感者建議保留退換貨期，並在夜間實測。",
+          "reportCount": 6,
+          "sources": [
+            {
+              "platform": "Mobile01",
+              "title": "Coway AP-1019C 使用問題",
+              "url": "https://www.mobile01.com/topicdetail.php?f=731&t=6754163"
+            },
+            {
+              "platform": "Kakaku.com",
+              "title": "AIRMEGA 150 AP-1019C レビュー・評価",
+              "url": "https://review.kakaku.com/review/J0000033647/"
+            },
+            {
+              "platform": "Kakaku.com",
+              "title": "フィルターが臭い",
+              "url": "https://bbs.kakaku.com/bbs/J0000033647/SortID=26493796/"
+            },
+            {
+              "platform": "Yahoo!ショッピング",
+              "title": "COWAY AP-1019C 商品レビュー",
+              "url": "https://shopping.yahoo.co.jp/products/p/156b159ec6#tab"
+            }
+          ]
+        }
+      ]
     }
   },
   {
@@ -120,6 +154,26 @@
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
       "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ Blueair BlueMax 3450i: Momo富邦購物 (店+)【Blueair】(A級福利品僅盒微損 商品全新)BlueMax 智能wifi 空氣清淨機 3450i (最大適用29坪) 型號/規格不相符；LBJ Blueair BlueMax 3450i: 蝦皮商城 - Blueair | 恆隆行官方旗艦館 Blueair BlueMax空氣清淨機3450i(最大適用29坪)福利品 型號/規格不相符；LBJ Blueair BlueMax 3450i: Yahoo購物中心 Blueair BlueMax空氣清淨機 3450i 型號/規格不相符。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-07-10",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Blueair BlueMax 3450i\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Blueair%20BlueMax%203450i%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "Reddit",
+          "query": "\"Blueair BlueMax 3450i\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.reddit.com/search/?q=%22Blueair%20BlueMax%203450i%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "targetHost": "reddit.com"
+        }
+      ]
     }
   },
   {
@@ -178,6 +232,26 @@
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
       "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ Dyson TP11: Momo富邦購物 【dyson 戴森】限量福利品 TP11 Purifier Cool 二合一涼風智能空氣清淨機(新機上市) 型號/規格不相符；LBJ Dyson TP11: 誠品線上 【超值福利品】dyson Purifier Cool 二合一涼風智能空氣清淨機TP11 型號/規格不相符；LBJ Dyson TP11: Momo富邦購物 【dyson 戴森】TP11 Purifier Cool 二合一涼風智能空氣清淨機(黑色) 型號/規格不相符。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-07-10",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Dyson TP11\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Dyson%20TP11%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "Reddit",
+          "query": "\"Dyson TP11\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.reddit.com/search/?q=%22Dyson%20TP11%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "targetHost": "reddit.com"
+        }
+      ]
     }
   },
   {
@@ -236,6 +310,26 @@
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
       "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ Philips AC2936: Momo富邦購物 【RENZA】適用PHILIPS 飛利浦 AC2936 AC2936/83 空氣清淨機(2合1HEPA+活性碳濾網 濾芯) 型號/規格不相符；LBJ Philips AC2936: Momo富邦購物 (店+)【MIKOCA】適用 Philips 飛利浦 AC2936/83 空氣清淨機 HEPA 活性碳濾網 FY2180/30 奈米級 濾芯 型號/規格不相符；LBJ Philips AC2936: 蝦皮商城 - 怡悅健康生活館 怡悅 HEPA 濾心 濾網 適用 PHILIPS 飛利浦 AC2936 AC2936/86 空氣清淨機 FY2180 型號/規格不相符。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-07-10",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Philips AC2936\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Philips%20AC2936%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "Reddit",
+          "query": "\"Philips AC2936\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.reddit.com/search/?q=%22Philips%20AC2936%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "targetHost": "reddit.com"
+        }
+      ]
     }
   },
   {
@@ -294,6 +388,26 @@
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
       "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ Coway AP-2023K: Momo富邦購物 【Coway】專用客製化強化濾網(適用AP-2023K) 最低價 NT$900 低於現價合理比例，疑似月付/配件/錯類；LBJ Coway AP-2023K: 蝦皮商城 - Coway 台灣官方商店 Coway 濾網 原廠耗材 客製強化濾網 適用 AP 2023 K AP-2023K 免運 非採用通路或含排除條件；LBJ Coway AP-2023K: Momo富邦購物 【PUREBURG】適用Coway格威AP-2023K Noble 4D 清淨機除臭活性碳HEPA濾網濾芯(贈:除臭濾棉X2+全效濾棉X2) 最低價 NT$2,926 低於現價合理比例，疑似月付/配件/錯類。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-07-10",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Coway AP-2023K\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Coway%20AP-2023K%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "Reddit",
+          "query": "\"Coway AP-2023K\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.reddit.com/search/?q=%22Coway%20AP-2023K%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "targetHost": "reddit.com"
+        }
+      ]
     }
   },
   {
@@ -352,6 +466,26 @@
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
       "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ Blueair ClassicPro CP9i: 蝦皮商城 - 淨博-外銷歐美日專業空氣清淨濾網 適用Blueair ClassicPro CP7i 6700i CP9i 6900i空氣清淨機替換用高效HEPA濾網濾芯 型號/規格不相符；LBJ Blueair ClassicPro CP9i: Momo富邦購物 (店+)【Blueair】ClassicPro 空氣清淨機 CP9i(最大適用44坪) 型號/規格不相符；LBJ Blueair ClassicPro CP9i: 樂天市場 - 歐洲精品家電團購生活館 歐洲精品家電團購生活館 Blueair ClassicPro空氣清淨機 CP9i 型號/規格不相符。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-07-10",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Blueair ClassicPro CP9i\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Blueair%20ClassicPro%20CP9i%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "Reddit",
+          "query": "\"Blueair ClassicPro CP9i\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.reddit.com/search/?q=%22Blueair%20ClassicPro%20CP9i%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "targetHost": "reddit.com"
+        }
+      ]
     }
   },
   {
@@ -410,6 +544,26 @@
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
       "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ Blueair Blue Signature SP4i: 蝦皮商城 - Blueair | 恆隆行官方旗艦館 【Blueair】Blue Signature空氣清淨機SP4i前置濾網-六色可選(不含主機) 型號/規格不相符；LBJ Blueair Blue Signature SP4i: Momo富邦購物 【Blueair】Blue Signature空氣清淨機SP4i前置濾網(六色可選) 型號/規格不相符；LBJ Blueair Blue Signature SP4i: 蝦皮商城 - Blueair | 恆隆行官方旗艦館 【Blueair】Blue Signature空氣清淨機SP4i配件-蠟樹實木腳座(不含主機) 型號/規格不相符。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-07-10",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Blueair Blue Signature SP4i\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Blueair%20Blue%20Signature%20SP4i%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "Reddit",
+          "query": "\"Blueair Blue Signature SP4i\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.reddit.com/search/?q=%22Blueair%20Blue%20Signature%20SP4i%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "targetHost": "reddit.com"
+        }
+      ]
     }
   },
   {
@@ -468,6 +622,26 @@
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
       "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ Blueair BlueMax 3250i: 蝦皮商城 - Blueair | 恆隆行官方旗艦館 Blueair BlueMax空氣清淨機3250i(最大適用10坪)福利品 型號/規格不相符；LBJ Blueair BlueMax 3250i: Momo富邦購物 (店+)【Blueair】(A級福利品僅盒微損 商品全新)BlueMax 智能 wifi 空氣清淨機 3250i (最大適用12坪) 型號/規格不相符；LBJ Blueair BlueMax 3250i: Momo富邦購物 【Blueair】BlueMax智能wifi空氣清淨機3250i(輕巧/安靜/除異味/適用8-12坪) 型號/規格不相符。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-07-10",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Blueair BlueMax 3250i\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Blueair%20BlueMax%203250i%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "Reddit",
+          "query": "\"Blueair BlueMax 3250i\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.reddit.com/search/?q=%22Blueair%20BlueMax%203250i%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "targetHost": "reddit.com"
+        }
+      ]
     }
   },
   {
@@ -526,6 +700,26 @@
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
       "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ Blueair BlueMax 3350i: 蝦皮商城 - All Sale電器共和國 【Blueair】BlueMax空氣清淨機3350i【最大適用18坪】 型號/規格不相符；LBJ Blueair BlueMax 3350i: Momo富邦購物 (店+)【Blueair】(免運)BlueMax 智能wifi 空氣清淨機 3350i(最大適用24坪) 型號/規格不相符；LBJ Blueair BlueMax 3350i: Yahoo購物中心 Blueair BlueMax空氣清淨機 3350i 型號/規格不相符。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-07-10",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Blueair BlueMax 3350i\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Blueair%20BlueMax%203350i%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "Reddit",
+          "query": "\"Blueair BlueMax 3350i\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.reddit.com/search/?q=%22Blueair%20BlueMax%203350i%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "targetHost": "reddit.com"
+        }
+      ]
     }
   },
   {
@@ -584,6 +778,26 @@
       "confidence": "high",
       "checkedAt": "2026-07-09",
       "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-07-10",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Blueair ComfortPure T20i\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Blueair%20ComfortPure%20T20i%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "Reddit",
+          "query": "\"Blueair ComfortPure T20i\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.reddit.com/search/?q=%22Blueair%20ComfortPure%20T20i%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "targetHost": "reddit.com"
+        }
+      ]
     }
   },
   {
@@ -642,6 +856,26 @@
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
       "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ Blueair ClassicPro CP7i: 蝦皮商城 - 淨博-外銷歐美日專業空氣清淨濾網 適用Blueair ClassicPro CP7i 6700i CP9i 6900i空氣清淨機替換用高效HEPA濾網濾芯 非採用通路或含排除條件；LBJ Blueair ClassicPro CP7i: 誠品線上 Blueair ClassicPro空氣清淨機CP7i(16-33坪) 型號/規格不相符；LBJ Blueair ClassicPro CP7i: Momo富邦購物 (店+)【Blueair】ClassicPro 高效抑菌空氣清淨機CP7i (適用坪數16-33坪) 型號/規格不相符。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-07-10",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Blueair ClassicPro CP7i\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Blueair%20ClassicPro%20CP7i%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "Reddit",
+          "query": "\"Blueair ClassicPro CP7i\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.reddit.com/search/?q=%22Blueair%20ClassicPro%20CP7i%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "targetHost": "reddit.com"
+        }
+      ]
     }
   },
   {
@@ -700,6 +934,26 @@
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
       "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ Dyson HP12: Momo富邦購物 【dyson 戴森】限量福利品 HP12 Purifier Hot+Cool De-NOx三合一甲醛NOx偵測涼暖空氣清淨機(白金色) 型號/規格不相符；LBJ Dyson HP12: 蝦皮商城 - dyson戴森｜恆隆行官方旗艦館 Dyson Purifier Hot+Cool HP12 De-NOx 甲醛NOx偵測涼暖清淨機【限量福利品】1年保固 型號/規格不相符；LBJ Dyson HP12: 誠品線上 【超值福利品】dyson Purifier Hot+Cool De-NOx​甲醛NOx偵測涼暖空氣清淨機HP12​ 白金色 型號/規格不相符。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-07-10",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Dyson HP12\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Dyson%20HP12%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "Reddit",
+          "query": "\"Dyson HP12\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.reddit.com/search/?q=%22Dyson%20HP12%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "targetHost": "reddit.com"
+        }
+      ]
     }
   },
   {
@@ -758,6 +1012,26 @@
       "confidence": "medium",
       "checkedAt": "2026-07-09",
       "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-07-10",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Dyson HP11\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Dyson%20HP11%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "Reddit",
+          "query": "\"Dyson HP11\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.reddit.com/search/?q=%22Dyson%20HP11%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "targetHost": "reddit.com"
+        }
+      ]
     }
   },
   {
@@ -816,6 +1090,26 @@
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
       "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ Dyson TP12: 蝦皮商城 - dyson戴森｜恆隆行官方旗艦館 Dyson Purifier Cool TP12 De-NOx 甲醛NOx偵測涼風空氣清淨機 原廠公司2年保固 型號/規格不相符；LBJ Dyson TP12: Momo富邦購物 【dyson 戴森】TP12 Purifier Cool De-NOx 二合一甲醛NOx偵測涼風空氣清淨機(鎳金色) 型號/規格不相符；LBJ Dyson TP12: Momo富邦購物 【dyson 戴森】TP12 Purifier Cool De-NOx 二合一甲醛NOx偵測涼風空氣清淨機(白金色) 型號/規格不相符。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-07-10",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Dyson TP12\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Dyson%20TP12%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "Reddit",
+          "query": "\"Dyson TP12\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.reddit.com/search/?q=%22Dyson%20TP12%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "targetHost": "reddit.com"
+        }
+      ]
     }
   },
   {
@@ -874,6 +1168,26 @@
       "confidence": "high",
       "checkedAt": "2026-07-09",
       "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-07-10",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Philips MUJI AC0650\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Philips%20MUJI%20AC0650%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "Reddit",
+          "query": "\"Philips MUJI AC0650\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.reddit.com/search/?q=%22Philips%20MUJI%20AC0650%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "targetHost": "reddit.com"
+        }
+      ]
     }
   },
   {
@@ -932,6 +1246,26 @@
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
       "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ POIEMA P50: Momo富邦購物 【POIEMA】新氣几 空氣清淨機 (UV抑菌/無耗材/CADR 300水洗濾網/寵物家庭推薦/P50) 型號/規格不相符；LBJ POIEMA P50: Momo富邦購物 【POIEMA】新氣几 空氣清淨機(P50) + Fan智能電扇(SGT-F12W) 超值組 型號/規格不相符；LBJ POIEMA P50: Momo富邦購物 【POIEMA】新氣几 空氣清淨機(P50)＋AirDry 柔衣烘乾機(DRX01)超值組 型號/規格不相符。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-07-10",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"POIEMA P50\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22POIEMA%20P50%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "Reddit",
+          "query": "\"POIEMA P50\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.reddit.com/search/?q=%22POIEMA%20P50%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "targetHost": "reddit.com"
+        }
+      ]
     }
   },
   {
@@ -990,6 +1324,26 @@
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
       "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ POIEMA P50B: Momo富邦購物 【POIEMA】新氣几 Lite 空氣清淨機 (抑菌除臭/無耗材/CADR 300/水洗濾網/抗敏首選/P50B) 非採用通路或含排除條件；LBJ POIEMA P50B: Momo富邦購物 【POIEMA】新氣几 空氣清淨機 Lite版 二入組 (抑菌除臭/無耗材/CADR 300/水洗濾網/抗敏首選/P50B) 非採用通路或含排除條件；LBJ POIEMA P50B: PCHome購物 POIEMA 新氣几 Lite 空氣清淨機 (抑菌除臭/無耗材/CADR 300/水洗濾網/抗敏首選/P50B) 非採用通路或含排除條件。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-07-10",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"POIEMA P50B\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22POIEMA%20P50B%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "Reddit",
+          "query": "\"POIEMA P50B\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.reddit.com/search/?q=%22POIEMA%20P50B%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "targetHost": "reddit.com"
+        }
+      ]
     }
   },
   {
@@ -1048,6 +1402,26 @@
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
       "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ SHARP FU-J41T-W: Momo富邦購物 (店+)【SHARP 夏普】FU-J41T-W 圓嘟嘟空氣清淨機 雞蛋白 型號/規格不相符；LBJ SHARP FU-J41T-W: 百利市購物中心 【百利市購物中心】【SHARP 夏普】FU-J41T-W 圓嘟嘟空氣清淨機 雞蛋白 型號/規格不相符；LBJ SHARP FU-J41T-W: 三井3C購物網 【三井3C購物網】【SHARP 夏普】FU-J41T-W 圓嘟嘟空氣清淨機 雞蛋白 型號/規格不相符。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-07-10",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"SHARP FU-J41T-W\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22SHARP%20FU-J41T-W%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "Reddit",
+          "query": "\"SHARP FU-J41T-W\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.reddit.com/search/?q=%22SHARP%20FU-J41T-W%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "targetHost": "reddit.com"
+        }
+      ]
     }
   },
   {
@@ -1106,6 +1480,26 @@
       "confidence": "high",
       "checkedAt": "2026-07-09",
       "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-07-10",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Philips AC3360/80\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Philips%20AC3360%2F80%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "Reddit",
+          "query": "\"Philips AC3360/80\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.reddit.com/search/?q=%22Philips%20AC3360%2F80%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "targetHost": "reddit.com"
+        }
+      ]
     }
   },
   {
@@ -1164,6 +1558,26 @@
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
       "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ LG AS601HWG0: 蝦皮商城 - 愛濾屋-清淨專家 濾網領航 台灣製造 品質出眾 HEPA 抗病毒 除臭濾網 適用 LG 超級大白 AS601HWG0/101DWH0/651DWH0/651DSS0 非採用通路或含排除條件；LBJ LG AS601HWG0: Momo富邦購物 (店+)LG 抗病毒HEPA除臭濾網濾芯濾心 適用LG超級大白AS601HWG0/101DWH0/651DWH0/651DSS0 非採用通路或含排除條件；LBJ LG AS601HWG0: Yahoo購物中心 LG樂金 超級大白 PuriCare 360空氣清淨機 複合一體過濾網/濾芯(副廠) AS651DSS0 AS651DWH0 AS601HWG0 AS651DBY0 最低價 NT$748 低於現價合理比例，疑似月付/配件/錯類。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-07-10",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"LG AS601HWG0\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22LG%20AS601HWG0%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "Reddit",
+          "query": "\"LG AS601HWG0\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.reddit.com/search/?q=%22LG%20AS601HWG0%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "targetHost": "reddit.com"
+        }
+      ]
     }
   },
   {
@@ -1222,6 +1636,26 @@
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
       "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ LG AS651DWH0: Yahoo購物中心 LG樂金 超級大白 PuriCare 360空氣清淨機 複合一體過濾網/濾芯(副廠) AS651DSS0 AS651DWH0 AS601HWG0 AS651DBY0 最低價 NT$748 低於現價合理比例，疑似月付/配件/錯類；LBJ LG AS651DWH0: 蝦皮商城 - Renza Filtration 濾網專家 適用LG樂金 超級大白 AS651DBY0 AS651DWH0 AS601HWG0 空氣清淨機 抗菌HEPA活性碳 濾網 非採用通路或含排除條件；LBJ LG AS651DWH0: Momo富邦購物 【PUREBURG】適用 LG樂金 超級大白空氣清淨機AS601DPT0 AS951DPT0 AS651DWH0 副廠濾網組 最低價 NT$760 低於現價合理比例，疑似月付/配件/錯類。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-07-10",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"LG AS651DWH0\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22LG%20AS651DWH0%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "Reddit",
+          "query": "\"LG AS651DWH0\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.reddit.com/search/?q=%22LG%20AS651DWH0%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "targetHost": "reddit.com"
+        }
+      ]
     }
   },
   {
@@ -1283,6 +1717,26 @@
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
       "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ Dyson BP02: 蝦皮商城 - 怡悅健康生活館 怡悅 適用 Dyson 戴森 BP02 BP03 BP04 BP06 甲醛 空氣清淨機 抗病毒 HEPA 活性碳 濾網 最低價 NT$1,850 低於現價合理比例，疑似月付/配件/錯類；LBJ Dyson BP02: 蝦皮商城 - 淨博-外銷歐美日專業空氣清淨濾網 適用Dyson戴森Big+Quiet BP03 BP04 BP06 BP02甲醛偵測空氣清淨機HEPA&活性碳濾網濾芯 最低價 NT$2,080 低於現價合理比例，疑似月付/配件/錯類；LBJ Dyson BP02: 蝦皮商城 - Renza Filtration 濾網專家 適用 Dyson 戴森 BP02 BP03 BP04 BP06 強效極靜甲醛偵測空氣清淨機 HEPA+活性碳 濾網 濾芯 最低價 NT$1,980 低於現價合理比例，疑似月付/配件/錯類。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-07-10",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Dyson BP02\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Dyson%20BP02%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "Reddit",
+          "query": "\"Dyson BP02\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.reddit.com/search/?q=%22Dyson%20BP02%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "targetHost": "reddit.com"
+        }
+      ]
     }
   }
 ]);

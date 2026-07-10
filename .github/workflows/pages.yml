@@ -71,7 +71,7 @@ jobs:
           set -euo pipefail
           rm -rf _site
           mkdir -p _site
-          cp index.html favicon.svg .nojekyll _site/
+          cp index.html favicon.svg .nojekyll product_issue_research.json _site/
           cp -R assets products _site/
           find _site -name '.DS_Store' -delete
 

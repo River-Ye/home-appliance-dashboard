@@ -63,6 +63,26 @@
       "confidence": "high",
       "checkedAt": "2026-07-09",
       "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-07-10",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"ASUS ZenWiFi BD5 2入\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22ASUS%20ZenWiFi%20BD5%202%E5%85%A5%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "Reddit",
+          "query": "\"ASUS ZenWiFi BD5 2入\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.reddit.com/search/?q=%22ASUS%20ZenWiFi%20BD5%202%E5%85%A5%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "targetHost": "reddit.com"
+        }
+      ]
     }
   },
   {
@@ -122,6 +142,26 @@
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
       "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ TP-Link Deco BE25 2入: 樂天市場 - 米特3C數位 米特3C數位–TP-Link Deco BE25 BE5000 wifi7 雙頻 wifi分享器/2入 非採用通路或含排除條件；LBJ TP-Link Deco BE25 2入: 樂天市場 - 良興EcLife購物網 良興EcLife購物網 TP-LINK Deco BE25 (2入) BE5000 完整家庭 Mesh WiFi 7 系統 非採用通路或含排除條件；LBJ TP-Link Deco BE25 2入: 蝦皮商城 - 順發3C SUNFAR TP-LINK Deco BE25 2入組 雙頻 無線網路 wifi-7 MESH 路由器 分享器 非採用通路或含排除條件。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-07-10",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"TP-Link Deco BE25 2入\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22TP-Link%20Deco%20BE25%202%E5%85%A5%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "Reddit",
+          "query": "\"TP-Link Deco BE25 2入\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.reddit.com/search/?q=%22TP-Link%20Deco%20BE25%202%E5%85%A5%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "targetHost": "reddit.com"
+        }
+      ]
     }
   },
   {
@@ -181,6 +221,26 @@
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
       "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ D-Link M36 3入: Yahoo拍賣 - 風和網通 (4492個評價) D-Link M36 BE3600 Wi-Fi 7 無線Mesh路由器(3入)【風和網通】 非採用通路或含排除條件；BigGo DRAFJ6-A900JL8Q9: 查詢失敗 429 https://biggo.com.tw/api/v1/spa/search/DRAFJ6-A900JL8Q9/product?p=1；BigGo D-Link M36 3入: 查詢失敗 429 https://biggo.com.tw/api/v1/spa/search/D-Link%20M36%203%E5%85%A5/product?p=1。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-07-10",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"D-Link M36 3入\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22D-Link%20M36%203%E5%85%A5%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "Reddit",
+          "query": "\"D-Link M36 3入\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.reddit.com/search/?q=%22D-Link%20M36%203%E5%85%A5%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "targetHost": "reddit.com"
+        }
+      ]
     }
   },
   {
@@ -240,6 +300,26 @@
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
       "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ ASUS RT-BE58U V2: Momo富邦購物 (店+)【ASUS 華碩】RT-BE58U V2 BE3600 雙頻 Wi-Fi 7 可擴充式路由器 型號/規格不相符；LBJ ASUS RT-BE58U V2: 蝦皮商城 - 三井3C購物網 【ASUS 華碩】RT-BE58U V2 BE3600 雙頻 Wi-Fi 7 可擴充式路由器 型號/規格不相符；LBJ ASUS RT-BE58U V2: 百利市購物中心 【百利市購物中心】【ASUS 華碩】RT-BE58U V2 BE3600 雙頻 Wi-Fi 7 可擴充式路由器 型號/規格不相符。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-07-10",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"ASUS RT-BE58U V2\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22ASUS%20RT-BE58U%20V2%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "Reddit",
+          "query": "\"ASUS RT-BE58U V2\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.reddit.com/search/?q=%22ASUS%20RT-BE58U%20V2%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "targetHost": "reddit.com"
+        }
+      ]
     }
   },
   {
@@ -299,6 +379,26 @@
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
       "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ TP-Link Deco BE65 2入: 蝦皮商城 - 順發3C SUNFAR TP-LINK Deco BE65 BE11000 無線網路 WIFI MESH 三頻 路由器 分享器 2入組 非採用通路或含排除條件；LBJ TP-Link Deco BE65 2入: 樂天市場 - JT3C JT3C TP-LINK Deco BE65 Wi-Fi 7 BE11000 三頻 2.5G 真Mesh無線網路網狀路由器(Wi-Fi7 分享器/支援VPN) - 2入組 非採用通路或含排除條件；LBJ TP-Link Deco BE65 2入: 樂天市場 - 良興EcLife購物網 良興EcLife購物網 TP-LINK Deco BE65 (2入) BE11000 完整家庭 Mesh WiFi 7系統原價 12600 (省 601) 非採用通路或含排除條件。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-07-10",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"TP-Link Deco BE65 2入\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22TP-Link%20Deco%20BE65%202%E5%85%A5%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "Reddit",
+          "query": "\"TP-Link Deco BE65 2入\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.reddit.com/search/?q=%22TP-Link%20Deco%20BE65%202%E5%85%A5%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "targetHost": "reddit.com"
+        }
+      ]
     }
   },
   {
@@ -358,6 +458,26 @@
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
       "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ NETGEAR Orbi RBE373: PCHome購物 Netgear 網件 Orbi RBE370 BE5000 雙頻WiFi 7Mesh延伸衛星 此設備無法單獨使用 需先購買RBE373(Orbi RBE370) 型號/規格不相符；LBJ NETGEAR Orbi RBE373: 蝦皮購物 - NETGEAR 官方旗艦店 / Arlo官方旗艦店 【NETGEAR】Orbi RBE373 BE5000 雙頻WiFi 7Mesh延伸系統 路由器+2衛星1.5GHz四核 型號/規格不相符；LBJ NETGEAR Orbi RBE373: PCHome購物 Netgear 網件 【NETGEAR】Orbi RBE373 BE5000 雙頻WiFi 7Mesh延伸系統 路由器+2衛星1.5GHz四核+1GB RAM(Orbi RBE373) 型號/規格不相符。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-07-10",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"NETGEAR Orbi RBE373\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22NETGEAR%20Orbi%20RBE373%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "Reddit",
+          "query": "\"NETGEAR Orbi RBE373\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.reddit.com/search/?q=%22NETGEAR%20Orbi%20RBE373%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "targetHost": "reddit.com"
+        }
+      ]
     }
   },
   {
@@ -417,6 +537,26 @@
       "confidence": "medium",
       "checkedAt": "2026-07-10",
       "note": "採用可信通路同一商品頁可公開查核現價作為本次觀測到的最低價；同型號/規格並排除會員個人化折扣、信用卡回饋、點數、二手、福利品、展示機、箱損、拆封與整新品。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-07-10",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Linksys Velop Pro AXE5400\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Linksys%20Velop%20Pro%20AXE5400%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "Reddit",
+          "query": "\"Linksys Velop Pro AXE5400\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.reddit.com/search/?q=%22Linksys%20Velop%20Pro%20AXE5400%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "targetHost": "reddit.com"
+        }
+      ]
     }
   },
   {
@@ -476,6 +616,40 @@
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
       "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ Synology WRX560: Momo富邦購物 【Synology 群暉科技】WRX560 雙頻 WiFi 6 Mesh 路由器/分享器 型號/規格不相符；LBJ Synology WRX560: 樂天市場 - 昌運監視器官方旗艦店 昌運監視器 Synology群暉 WRX560路由器 5.9GHz 雙頻 Wi-Fi 6 2.5GbE高速傳輸 型號/規格不相符；LBJ Synology WRX560: 家樂福線上購物網 昌運監視器 Synology群暉 WRX560路由器 5.9GHz 雙頻 Wi-Fi 6 2.5GbE高速傳輸 型號/規格不相符。"
+    },
+    "issueResearch": {
+      "status": "common_issue",
+      "checkedAt": "2026-07-10",
+      "summary": "多位 WRX560 使用者回報單機或 Mesh 節點會讓用戶端掉線、拒絕重連或誤報密碼錯誤；切換 Wi-Fi radio 或重啟只能暫時恢復。",
+      "issues": [
+        {
+          "title": "Wi-Fi 用戶端反覆斷線或拒絕重新連接",
+          "detail": "回報包含換機後仍發生、成批裝置離線，以及有線 Mesh 的規律斷線；建議更新穩定韌體、保留事件紀錄，並在退換貨期內長時間測試。",
+          "reportCount": 7,
+          "sources": [
+            {
+              "platform": "Reddit",
+              "title": "Disconnect wireless troubles with brand new WRX560",
+              "url": "https://www.reddit.com/r/synology/comments/165qepa/disconnect_wireless_troubles_with_brand_new/"
+            },
+            {
+              "platform": "Reddit",
+              "title": "WRX560 randomly dropping devices",
+              "url": "https://www.reddit.com/r/synology/comments/1jhuf7r/wrx560_randomly_dropping_devices/"
+            },
+            {
+              "platform": "Reddit",
+              "title": "Connectivity issues with WRX560 router",
+              "url": "https://www.reddit.com/r/synology/comments/1e7xl5k/connectivity_issues_with_router/"
+            },
+            {
+              "platform": "Synology Community",
+              "title": "WRX560 disconnecting devices and reporting wrong password",
+              "url": "https://community.synology.com/enu/forum/2/post/163298"
+            }
+          ]
+        }
+      ]
     }
   },
   {
@@ -536,6 +710,35 @@
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
       "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ UniFi U7 Pro: 蝦皮購物 - NE Technologies UniFi U6 Lite/PLUS/Pro/LR/U7 PRO XGS倒置AP托架桌面支架收納架 非採用通路或含排除條件；LBJ UniFi U7 Pro: iOPEN Mall - MikroTik 台灣代理 (284人次購買) UniFi U6+ U6-Pro U7-Pro 專用造型檯燈座 非採用通路或含排除條件；LBJ UniFi U7 Pro: 蝦皮購物 - MikroTik 台灣代理 UniFi U6+ U6-Pro U7-Pro 專用造型檯燈座 非採用通路或含排除條件。"
+    },
+    "issueResearch": {
+      "status": "common_issue",
+      "checkedAt": "2026-07-10",
+      "summary": "多位同型號使用者回報 2.4GHz IoT 裝置會頻繁斷線、無法連網或反覆重連。",
+      "issues": [
+        {
+          "title": "2.4GHz IoT 裝置斷線與相容性不穩",
+          "detail": "問題常集中在 2.4GHz 智慧家電，且可能受韌體版本影響；部署前應先更新穩定韌體，並用實際 IoT 裝置測試連線與漫遊。",
+          "reportCount": 9,
+          "sources": [
+            {
+              "platform": "Ubiquiti Community",
+              "title": "U7-Pro 2.4ghz issues",
+              "url": "https://community.ui.com/questions/U7-Pro-2-4ghz-issues/4dff7816-5c14-4686-9f9a-ab99f9b93700"
+            },
+            {
+              "platform": "Reddit",
+              "title": "U7 pro iot issue explained",
+              "url": "https://www.reddit.com/r/Ubiquiti/comments/1g1funp/u7_pro_iot_issue_explained/"
+            },
+            {
+              "platform": "Reddit",
+              "title": "2.4GHz IoT device constant disconnect",
+              "url": "https://www.reddit.com/r/Ubiquiti/comments/1h600kz/24ghz_iot_device_constant_disconnect_5_6ghz_wifi/"
+            }
+          ]
+        }
+      ]
     }
   },
   {
@@ -596,6 +799,26 @@
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
       "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ UniFi U6 Pro: iOPEN Mall - MikroTik 台灣代理 (284人次購買) UniFi U6+ U6-Pro U7-Pro 專用造型檯燈座 非採用通路或含排除條件；LBJ UniFi U6 Pro: 蝦皮購物 - MikroTik 台灣代理 UniFi U6+ U6-Pro U7-Pro 專用造型檯燈座 非採用通路或含排除條件；LBJ UniFi U6 Pro: 露天拍賣 - 慧敏小鋪【滿300發貨】 (998個評價) 【VLK】UBNT UniFi U6-PRO企業家用5G千兆雙頻AP吸頂式全屋覆蓋[1110529] 非採用通路或含排除條件。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-07-10",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"UniFi U6 Pro\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22UniFi%20U6%20Pro%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "Reddit",
+          "query": "\"UniFi U6 Pro\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.reddit.com/search/?q=%22UniFi%20U6%20Pro%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "targetHost": "reddit.com"
+        }
+      ]
     }
   },
   {
@@ -656,6 +879,26 @@
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
       "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ UniFi U7 Lite: 蝦皮購物 - RackIdea RACKIDEA - UniFi AP 桌面／壁掛支架（適用 UniFi U7-Lite ） 非採用通路或含排除條件；LBJ UniFi U7 Lite: 蝦皮購物 - NE Technologies UniFi U6 Lite/PLUS/Pro/LR/U7 PRO XGS倒置AP托架桌面支架收納架 型號/規格不相符；LBJ UniFi U7 Lite: 露天拍賣 - 聚豐企業+瀨:@ys8869/可急件/统编發票/可刷卡 (43個評價) 【量大可優惠】回收 ubnt Unifi U6-LR U6-Pro U6-Lite U7-Pro U7-LR ProU 型號/規格不相符。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-07-10",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"UniFi U7 Lite\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22UniFi%20U7%20Lite%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "Reddit",
+          "query": "\"UniFi U7 Lite\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.reddit.com/search/?q=%22UniFi%20U7%20Lite%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "targetHost": "reddit.com"
+        }
+      ]
     }
   },
   {
@@ -716,6 +959,30 @@
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
       "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ Aruba Instant On AP22: 露天拍賣 - ONGOOD的賣場 (2210個評價) Aruba Aruba Instant On AP22 Aruba Instant [全新免運][編號 W59221] 非採用通路或含排除條件；LBJ Aruba Instant On AP22: Yahoo拍賣 - 藍鯨網通--下標前務必先問庫存 (4001個評價) Aruba AP22 Instant On AP22 WiFi6室內型AP( R4W02A ) 非採用通路或含排除條件；LBJ Aruba Instant On AP22: 蝦皮購物 - 網通設備銷售-光華實體門市 【全新，含稅可開統編】Aruba Instant On AP22 (R4W02A) WiFi6室內型AP 無線基地台 非採用通路或含排除條件。"
+    },
+    "issueResearch": {
+      "status": "common_issue",
+      "checkedAt": "2026-07-10",
+      "summary": "多位 AP22 使用者回報舊版 3.0.0 韌體會使 iPhone 或 Android 掉線、拒絕重連或顯示密碼錯誤；後續 hotfix 已針對此問題修正。",
+      "issues": [
+        {
+          "title": "舊版 3.0.0 韌體造成行動裝置斷線與錯誤密碼",
+          "detail": "這是 2024 年 3.0.0 版本的歷史韌體災情；HPE 已於 2024-08-23 發布 3.0.0.1 hotfix。購買或部署後應先確認已升級修正版，不代表目前最新版仍必然發生。",
+          "reportCount": 6,
+          "sources": [
+            {
+              "platform": "HPE Instant On Community",
+              "title": "After update to 3.0.0 firmware: connection problems with iPhones to AP22",
+              "url": "https://community.instant-on.hpe.com/discussion/after-update-to-300-firmware-connection-problems-with-iphones-to-ap22"
+            },
+            {
+              "platform": "Reddit",
+              "title": "Issues since firmware 3.0.0",
+              "url": "https://www.reddit.com/r/ArubaInstantOn/comments/1eiarrp/issues_since_firmware_300/"
+            }
+          ]
+        }
+      ]
     }
   },
   {
@@ -776,6 +1043,26 @@
       "confidence": "medium",
       "checkedAt": "2026-07-10",
       "note": "採用 PChome 24h 同一商品頁可公開查核現價作為本次觀測到的最低價；同型號/規格並排除會員個人化折扣、信用卡回饋、點數、二手、福利品、展示機、箱損、拆封與整新品。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-07-10",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Aruba Instant On AP25\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Aruba%20Instant%20On%20AP25%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "Reddit",
+          "query": "\"Aruba Instant On AP25\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.reddit.com/search/?q=%22Aruba%20Instant%20On%20AP25%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "targetHost": "reddit.com"
+        }
+      ]
     }
   },
   {
@@ -836,6 +1123,26 @@
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
       "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ Aruba Instant On AP32: 露天拍賣 - ONGOOD的賣場 (2210個評價) Aruba HPE Networking Instant On AP32 (RW) [全新免運][編號 W90132] 非採用通路或含排除條件；LBJ Aruba Instant On AP32: 露天拍賣 - 恩尚名閣 (212個評價) 【新品】Aruba HPE Networking instant On AP32(S1T23A)WiFi6E 三頻企業級 非採用通路或含排除條件；LBJ Aruba Instant On AP32: 露天拍賣 - 風和資訊 (3631個評價) HPE Aruba Instant On AP32 2x2 11ax WiFi 6E企業型三頻無線基地台(S1T23A) 非採用通路或含排除條件。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-07-10",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Aruba Instant On AP32\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Aruba%20Instant%20On%20AP32%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "Reddit",
+          "query": "\"Aruba Instant On AP32\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.reddit.com/search/?q=%22Aruba%20Instant%20On%20AP32%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "targetHost": "reddit.com"
+        }
+      ]
     }
   },
   {
@@ -896,6 +1203,26 @@
       "confidence": "high",
       "checkedAt": "2026-07-09",
       "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-07-10",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Aruba Instant On AP21\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Aruba%20Instant%20On%20AP21%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "Reddit",
+          "query": "\"Aruba Instant On AP21\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.reddit.com/search/?q=%22Aruba%20Instant%20On%20AP21%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "targetHost": "reddit.com"
+        }
+      ]
     }
   },
   {
@@ -956,6 +1283,50 @@
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
       "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ UniFi U6+: iOPEN Mall - MikroTik 台灣代理 (284人次購買) UniFi U6+ U6-Pro U7-Pro 專用造型檯燈座 型號/規格不相符；LBJ UniFi U6+: 蝦皮購物 - MikroTik 台灣代理 UniFi U6+ U6-Pro U7-Pro 專用造型檯燈座 型號/規格不相符；LBJ UniFi U6+: 露天拍賣 - MikroTik台灣代理 (5001個評價) UniFi U6+ U6-Pro U7-Pro 專用造型檯燈座 型號/規格不相符。"
+    },
+    "issueResearch": {
+      "status": "common_issue",
+      "checkedAt": "2026-07-10",
+      "summary": "多位 U6+ 使用者回報 Wi-Fi 用戶端整批斷線、拒絕重新連接，或 SSID 停止廣播；重啟通常只能暫時恢復。",
+      "issues": [
+        {
+          "title": "用戶端整批斷線或 SSID 停止服務",
+          "detail": "回報涵蓋不同 PoE 來源與交換器，部分每天多次發生；部署後應以目前穩定韌體長時間測試，並保留控制器事件與 AP 重啟紀錄。",
+          "reportCount": 6,
+          "sources": [
+            {
+              "platform": "Reddit",
+              "title": "U6+ dropping all clients",
+              "url": "https://www.reddit.com/r/Ubiquiti/comments/1s37bw2/u6_dropping_all_clients/"
+            },
+            {
+              "platform": "Reddit",
+              "title": "Fix to U6+ forcing disconnect of some or all clients",
+              "url": "https://www.reddit.com/r/Ubiquiti/comments/1fdk2bu/fix_to_u6_and_pro_forcing_disconnect_of_some_or/"
+            },
+            {
+              "platform": "Reddit",
+              "title": "AP U6+ keeps on disconnecting",
+              "url": "https://www.reddit.com/r/Ubiquiti/comments/1csgcd5/ap_u6_plus_keeps_on_disconnecting/"
+            },
+            {
+              "platform": "Reddit",
+              "title": "U6+ connection issues",
+              "url": "https://www.reddit.com/r/Ubiquiti/comments/191w281/u6_has_anyone_had_issues_with_this/"
+            },
+            {
+              "platform": "Ubiquiti Community",
+              "title": "All Wi-Fi devices disconnect after five minutes",
+              "url": "https://community.ui.com/questions/All-wifi-devices-disconnects-after-5min/a70cf799-6c87-4724-8906-41bb4e83cafc"
+            },
+            {
+              "platform": "Ubiquiti Community",
+              "title": "U6+ keeps disconnecting",
+              "url": "https://community.ui.com/questions/U6-keeps-disconnecting/3619ee47-3fac-4efb-b149-36c9d01b2f94"
+            }
+          ]
+        }
+      ]
     }
   },
   {
@@ -1016,6 +1387,40 @@
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
       "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ UniFi U7 Pro Max: 露天拍賣 - 小新優選 (1373個評價) 【小新嚴選】優倍快ubnt U7-Pro-Max 2.5G WiFi7無線UniFi吸頂AP，原裝拆機下來的，支持6G無 非採用通路或含排除條件；LBJ UniFi U7 Pro Max: 露天拍賣 - gadgetpapa的賣場 (63個評價) 代購全新未拆 新品 Ubiquiti UNIFI U7 Pro Max Wi-Fi 7 旗艦基地台 非採用通路或含排除條件；LBJ UniFi U7 Pro Max: 露天拍賣 - 風行嚴選 (2933個評價) 【風行嚴選】UBNT優倍快U7-PRO-MAX wifi7大戶型企業級吸頂無線AP 2.5G UniFi【公司貨】 非採用通路或含排除條件。"
+    },
+    "issueResearch": {
+      "status": "common_issue",
+      "checkedAt": "2026-07-10",
+      "summary": "多位同型號使用者回報 2.4GHz IoT 裝置會出現 DHCP／DNS timeout、高封包遺失或斷線重連。",
+      "issues": [
+        {
+          "title": "2.4GHz IoT 連線、DHCP／DNS 與封包遺失問題",
+          "detail": "智慧家電可能在連上後很快掉線，或出現嚴重封包遺失；建議先以目前穩定韌體及獨立 IoT SSID 實測，再決定大量部署。",
+          "reportCount": 8,
+          "sources": [
+            {
+              "platform": "Ubiquiti Community",
+              "title": "U7 Pro Max connection issues with IoT devices",
+              "url": "https://community.ui.com/questions/U7-Pro-Max-connection-issues-with-IoT-devices/79f46435-0180-4216-b19a-524ddf92ba11"
+            },
+            {
+              "platform": "Reddit",
+              "title": "IoT 2GHz issues on new U7 Pro Max",
+              "url": "https://www.reddit.com/r/Ubiquiti/comments/1d9peae/iot_2ghz_issues_on_new_u7_pro_max/"
+            },
+            {
+              "platform": "Reddit",
+              "title": "IoT devices won't connect to WiFi",
+              "url": "https://www.reddit.com/r/Ubiquiti/comments/1fnsctj/new_and_some_old_iot_devices_wont_connect_to_wifi/"
+            },
+            {
+              "platform": "Reddit",
+              "title": "All devices disconnecting from 2.4GHz band",
+              "url": "https://www.reddit.com/r/Ubiquiti/comments/1gra06l/all_devices_disconnecting_from_24ghz_band/"
+            }
+          ]
+        }
+      ]
     }
   },
   {
@@ -1075,6 +1480,26 @@
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
       "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ ASUS RT-BE82U: Momo富邦購物 (店+)【ASUS 華碩】RT-BE82U BE6500 雙頻 WiFi 7 AiMesh 路由器 分享器 型號/規格不相符；LBJ ASUS RT-BE82U: 蝦皮商城 - 蝦皮直營 - 3C家電館 ASUS 華碩 RT-BE82U 路由器 WiFi 7 Ai Mesh 6500Mbps 分享器 廠商直送 型號/規格不相符；LBJ ASUS RT-BE82U: 蝦皮商城 - ROG 華碩授權店 | 電競周邊館 ASUS 華碩 RT-BE82U 路由器 WiFi 7 雙頻 AiMesh 分享器 Wifi分享器 網路交換器 型號/規格不相符。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-07-10",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"ASUS RT-BE82U\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22ASUS%20RT-BE82U%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "Reddit",
+          "query": "\"ASUS RT-BE82U\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.reddit.com/search/?q=%22ASUS%20RT-BE82U%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "targetHost": "reddit.com"
+        }
+      ]
     }
   },
   {
@@ -1134,6 +1559,26 @@
       "confidence": "high",
       "checkedAt": "2026-07-09",
       "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-07-10",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"TP-Link Archer BE700\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22TP-Link%20Archer%20BE700%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "Reddit",
+          "query": "\"TP-Link Archer BE700\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.reddit.com/search/?q=%22TP-Link%20Archer%20BE700%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "targetHost": "reddit.com"
+        }
+      ]
     }
   },
   {
@@ -1193,6 +1638,26 @@
       "confidence": "medium",
       "checkedAt": "2026-07-09",
       "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-07-10",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"D-Link R95\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22D-Link%20R95%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "Reddit",
+          "query": "\"D-Link R95\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.reddit.com/search/?q=%22D-Link%20R95%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "targetHost": "reddit.com"
+        }
+      ]
     }
   },
   {
@@ -1252,6 +1717,26 @@
       "confidence": "medium",
       "checkedAt": "2026-07-10",
       "note": "採用 PChome 24h 同一商品頁可公開查核現價作為本次觀測到的最低價；同型號/規格並排除會員個人化折扣、信用卡回饋、點數、二手、福利品、展示機、箱損、拆封與整新品。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-07-10",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Acer Predator Connect T7\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Acer%20Predator%20Connect%20T7%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "Reddit",
+          "query": "\"Acer Predator Connect T7\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.reddit.com/search/?q=%22Acer%20Predator%20Connect%20T7%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "targetHost": "reddit.com"
+        }
+      ]
     }
   },
   {
@@ -1311,6 +1796,26 @@
       "confidence": "high",
       "checkedAt": "2026-07-09",
       "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-07-10",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Mercusys Halo H80X 3入\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Mercusys%20Halo%20H80X%203%E5%85%A5%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "Reddit",
+          "query": "\"Mercusys Halo H80X 3入\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.reddit.com/search/?q=%22Mercusys%20Halo%20H80X%203%E5%85%A5%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "targetHost": "reddit.com"
+        }
+      ]
     }
   },
   {
@@ -1370,6 +1875,30 @@
       "confidence": "medium",
       "checkedAt": "2026-07-09",
       "note": "已由 worker 查核 BigGo、FindPrice、LBJ 與 PChome/小米官方；採 LBJ 小米台灣官方同款兩件裝 2026-06-19 NT$1,839。低於此價的不同型號、單件裝、福利品、二手或個人賣場候選均排除。"
+    },
+    "issueResearch": {
+      "status": "common_issue",
+      "checkedAt": "2026-07-10",
+      "summary": "多位 Xiaomi AX3000 使用者回報多層 Mesh 節點常只連主路由器，不能穩定串接較近的 AX3000，造成遠端節點訊號或速度不佳。",
+      "issues": [
+        {
+          "title": "無線 Mesh 節點偏向星狀連回主機，無法指定較近上游",
+          "detail": "問題只影響多節點無線 Mesh 情境；兩入組與單入硬體皆為相同 AX3000。若需要跨樓層多跳串接，建議優先規劃有線回程，並在退換貨期內確認節點實際拓樸。",
+          "reportCount": 8,
+          "sources": [
+            {
+              "platform": "Reddit",
+              "title": "Problem with Mesh on AX3000 — all nodes connecting to main router",
+              "url": "https://www.reddit.com/r/Xiaomi/comments/13ijs0u/problem_with_mesh_on_ax3000_all_nodes_connecting/"
+            },
+            {
+              "platform": "Lowyat Forum",
+              "title": "Xiaomi AX3000 Mesh satellite ignores nearer node",
+              "url": "https://forum.lowyat.net/topic/5441492"
+            }
+          ]
+        }
+      ]
     }
   },
   {
@@ -1429,6 +1958,26 @@
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
       "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ TP-Link Archer BE220: HOTAI購 【HOTAI購】【TP-Link】Archer BE220 Wi-Fi 7 BE3600 雙頻 Gigabit 無線網路路由器 型號/規格不相符；LBJ TP-Link Archer BE220: 蝦皮商城 - 愛買線上購物 TP-Link Archer BE220 BE3600雙頻 Wi-Fi 7路由器【愛買】 型號/規格不相符；LBJ TP-Link Archer BE220: 蝦皮商城 - 綠風潮網路商城 TP-LINK Archer BE220 BE3600 雙頻Wi-Fi 7路由器 綠風潮 型號/規格不相符。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-07-10",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"TP-Link Archer BE220\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22TP-Link%20Archer%20BE220%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "Reddit",
+          "query": "\"TP-Link Archer BE220\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.reddit.com/search/?q=%22TP-Link%20Archer%20BE220%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "targetHost": "reddit.com"
+        }
+      ]
     }
   },
   {
@@ -1488,6 +2037,26 @@
       "confidence": "high",
       "checkedAt": "2026-07-09",
       "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-07-10",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Mercusys MR27BE\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Mercusys%20MR27BE%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "Reddit",
+          "query": "\"Mercusys MR27BE\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.reddit.com/search/?q=%22Mercusys%20MR27BE%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "targetHost": "reddit.com"
+        }
+      ]
     }
   },
   {
@@ -1547,6 +2116,26 @@
       "confidence": "high",
       "checkedAt": "2026-07-09",
       "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-07-10",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"TOTOLINK BE5\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22TOTOLINK%20BE5%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "Reddit",
+          "query": "\"TOTOLINK BE5\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.reddit.com/search/?q=%22TOTOLINK%20BE5%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "targetHost": "reddit.com"
+        }
+      ]
     }
   },
   {
@@ -1606,6 +2195,26 @@
       "confidence": "high",
       "checkedAt": "2026-07-09",
       "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-07-10",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"D-Link M36\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22D-Link%20M36%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "Reddit",
+          "query": "\"D-Link M36\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.reddit.com/search/?q=%22D-Link%20M36%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "targetHost": "reddit.com"
+        }
+      ]
     }
   },
   {
@@ -1665,6 +2274,26 @@
       "confidence": "medium",
       "checkedAt": "2026-07-09",
       "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-07-10",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"NETGEAR Nighthawk RS100\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22NETGEAR%20Nighthawk%20RS100%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "Reddit",
+          "query": "\"NETGEAR Nighthawk RS100\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.reddit.com/search/?q=%22NETGEAR%20Nighthawk%20RS100%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "targetHost": "reddit.com"
+        }
+      ]
     }
   },
   {
@@ -1724,6 +2353,26 @@
       "confidence": "high",
       "checkedAt": "2026-07-09",
       "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-07-10",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Linksys MX5502-AH 3入\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Linksys%20MX5502-AH%203%E5%85%A5%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "Reddit",
+          "query": "\"Linksys MX5502-AH 3入\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.reddit.com/search/?q=%22Linksys%20MX5502-AH%203%E5%85%A5%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "targetHost": "reddit.com"
+        }
+      ]
     }
   },
   {
@@ -1783,6 +2432,26 @@
       "confidence": "high",
       "checkedAt": "2026-07-09",
       "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-07-10",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Synology RT6600ax\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Synology%20RT6600ax%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "Reddit",
+          "query": "\"Synology RT6600ax\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.reddit.com/search/?q=%22Synology%20RT6600ax%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "targetHost": "reddit.com"
+        }
+      ]
     }
   },
   {
@@ -1842,6 +2511,26 @@
       "confidence": "high",
       "checkedAt": "2026-07-09",
       "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-07-10",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"ASUS RT-BE88U\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22ASUS%20RT-BE88U%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "Reddit",
+          "query": "\"ASUS RT-BE88U\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.reddit.com/search/?q=%22ASUS%20RT-BE88U%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "targetHost": "reddit.com"
+        }
+      ]
     }
   },
   {
@@ -1901,6 +2590,35 @@
       "confidence": "high",
       "checkedAt": "2026-07-09",
       "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+    },
+    "issueResearch": {
+      "status": "common_issue",
+      "checkedAt": "2026-07-10",
+      "summary": "多位 Archer BE805 使用者回報 2.4／5GHz SSID 或全部 Wi-Fi 用戶端會隨機消失或斷線，通常需重新啟動。",
+      "issues": [
+        {
+          "title": "Wi-Fi SSID 消失或全部用戶端斷線",
+          "detail": "回報可能受韌體版本影響，但後續版本仍有人遇到；建議確認硬體版本與穩定韌體，並在多頻段、多用戶端負載下測試。",
+          "reportCount": 7,
+          "sources": [
+            {
+              "platform": "TP-Link Community",
+              "title": "Archer BE805 keep dropping",
+              "url": "https://community.tp-link.com/en/home/forum/topic/703524"
+            },
+            {
+              "platform": "TP-Link Community",
+              "title": "2.4G/5GHz Wi-Fi function stops after a while",
+              "url": "https://community.tp-link.com/en/home/forum/topic/741120?moduleId=40"
+            },
+            {
+              "platform": "Reddit",
+              "title": "How is the BE11000 as far as wireless speed and range?",
+              "url": "https://www.reddit.com/r/TpLink/comments/1gqs7z8/how_is_the_be11000_as_far_as_wireless_speed_and/"
+            }
+          ]
+        }
+      ]
     }
   },
   {
@@ -1960,6 +2678,50 @@
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
       "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ TP-Link Archer BE900: 蝦皮商城 - 順發3C SUNFAR TP-LINK Archer BE900 BE24000四頻Wi-Fi 7 路由器 型號/規格不相符；LBJ TP-Link Archer BE900: 蝦皮商城 - TP-Link官方旗艦店 TP-Link Archer BE900 BE24000 wifi分享器 wifi7 四頻10G 路由器 型號/規格不相符；LBJ TP-Link Archer BE900: Momo富邦購物 【TP-Link】Wi-Fi 7 BE24000四頻16串流10G無線網路路由器 分享器(支援AI筆電/EasyMesh/VPN/Archer BE900) 型號/規格不相符。"
+    },
+    "issueResearch": {
+      "status": "common_issue",
+      "checkedAt": "2026-07-10",
+      "summary": "多位 Archer BE900 使用者回報路由器會不定時自行重新啟動或完全凍結，造成所有裝置斷線。",
+      "issues": [
+        {
+          "title": "自行重啟或完全凍結",
+          "detail": "部分回報可能與特定韌體版本有關，官方後續版本曾修正重啟問題；仍建議先更新、重設後測試，並避免在確認穩定前承擔關鍵網路。",
+          "reportCount": 6,
+          "sources": [
+            {
+              "platform": "TP-Link Community",
+              "title": "Archer BE900 v2.6 restarts by itself",
+              "url": "https://community.tp-link.com/en/home/forum/topic/745810"
+            },
+            {
+              "platform": "TP-Link Community",
+              "title": "BE900 restarts suddenly",
+              "url": "https://community.tp-link.com/en/home/forum/topic/744458"
+            },
+            {
+              "platform": "TP-Link Community",
+              "title": "Router completely Freezes",
+              "url": "https://community.tp-link.com/us/home/forum/topic/732228?replyId=1483126"
+            },
+            {
+              "platform": "TP-Link Community",
+              "title": "Keeps rebooting and factory reset does not work",
+              "url": "https://community.tp-link.com/en/home/forum/topic/731430"
+            },
+            {
+              "platform": "Reddit",
+              "title": "Finally got my hands on Archer BE900",
+              "url": "https://www.reddit.com/r/TpLink/comments/12mkbeb/finally_got_my_hands_on_this_one_archer_be900/"
+            },
+            {
+              "platform": "Reddit",
+              "title": "BE900 latest firmware looking brighter",
+              "url": "https://www.reddit.com/r/TpLink/comments/193iy1g/be900_latest_firmware_looking_brighter/"
+            }
+          ]
+        }
+      ]
     }
   },
   {
@@ -2019,6 +2781,45 @@
       "confidence": "high",
       "checkedAt": "2026-07-09",
       "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+    },
+    "issueResearch": {
+      "status": "common_issue",
+      "checkedAt": "2026-07-10",
+      "summary": "多位 RS300 使用者回報路由器會隨機讓有線或無線裝置失去 Internet，部分情況必須斷電重啟。",
+      "issues": [
+        {
+          "title": "有線與無線裝置隨機失去網路",
+          "detail": "案例包含升級韌體後 Wi-Fi 隨機斷線、新機每數分鐘失網，以及重啟後很快復發；建議保留退換貨期並同時測試有線與無線長時間負載。",
+          "reportCount": 6,
+          "sources": [
+            {
+              "platform": "Reddit",
+              "title": "Nighthawk RS300 driving me insane",
+              "url": "https://www.reddit.com/r/NETGEAR/comments/1h2ynvi/nighthawk_rs300_driving_me_insane/"
+            },
+            {
+              "platform": "NETGEAR Community",
+              "title": "Nighthawk RS300 randomly fails, requires power reset",
+              "url": "https://community.netgear.com/discussions/nighthawk-wifi-7-be/nighthawk-rs300-wireless-router-randomly-fails-requires-power-reset/2449770"
+            },
+            {
+              "platform": "NETGEAR Community",
+              "title": "NETGEAR Nighthawk RS300 disconnects after firmware update",
+              "url": "https://community.netgear.com/discussions/nighthawk-wifi-7-be/re-netgear-nighthawk-rs300/2416061"
+            },
+            {
+              "platform": "NETGEAR Community",
+              "title": "RS300 random disconnect from the Internet",
+              "url": "https://community.netgear.com/discussions/nighthawk-wifi-7-be/re-rs300-random-disconnect-from-the-internet/2450511"
+            },
+            {
+              "platform": "NETGEAR Community",
+              "title": "RS300 reply in Nighthawk Wi-Fi discussion",
+              "url": "https://community.netgear.com/discussions/nighthawk-wifi-7-be/rif--nighthawk-rs200---no-wifi-after-reboot---internet-via-lan-ok/2437053/replies/2437074"
+            }
+          ]
+        }
+      ]
     }
   },
   {
@@ -2078,6 +2879,26 @@
       "confidence": "high",
       "checkedAt": "2026-07-09",
       "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-07-10",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Zyxel USG LITE 60AX\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Zyxel%20USG%20LITE%2060AX%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "Reddit",
+          "query": "\"Zyxel USG LITE 60AX\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.reddit.com/search/?q=%22Zyxel%20USG%20LITE%2060AX%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "targetHost": "reddit.com"
+        }
+      ]
     }
   },
   {
@@ -2137,6 +2958,26 @@
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
       "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ MSI RadiX AXE6600: 欣亞購物網 [欣亞購物網] MSI 微星 RadiX AXE6600 WiFi 6E Tri-Band Gaming Router 三頻電競路由器 型號/規格不相符；LBJ MSI RadiX AXE6600: Autobuy購物中心 【Autobuy購物中心】MSI 微星 RadiX AXE6600 WiFi 6E Tri-Band Gaming Router 三頻電競路由器 型號/規格不相符；LBJ MSI RadiX AXE6600: PCHome購物 MSI 微星 RadiX AXE6600 WiFi 6E Tri-Band Gaming Router 三頻電競路由器 型號/規格不相符。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-07-10",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"MSI RadiX AXE6600\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22MSI%20RadiX%20AXE6600%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "Reddit",
+          "query": "\"MSI RadiX AXE6600\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.reddit.com/search/?q=%22MSI%20RadiX%20AXE6600%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "targetHost": "reddit.com"
+        }
+      ]
     }
   },
   {
@@ -2196,6 +3037,26 @@
       "confidence": "medium",
       "checkedAt": "2026-07-09",
       "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-07-10",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Acer Connect Ovia T360\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Acer%20Connect%20Ovia%20T360%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "Reddit",
+          "query": "\"Acer Connect Ovia T360\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.reddit.com/search/?q=%22Acer%20Connect%20Ovia%20T360%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "targetHost": "reddit.com"
+        }
+      ]
     }
   },
   {
@@ -2255,6 +3116,30 @@
       "confidence": "high",
       "checkedAt": "2026-07-09",
       "note": "已由 worker 查核 PChome、LBJ、BigGo 與 FindPrice；採 LBJ PChome 同品一件裝歷史低點 NT$1,095。低於此價的福利品、二手、已下架、非 AX3000 Mesh 一件裝或拍賣非官方來源均排除。"
+    },
+    "issueResearch": {
+      "status": "common_issue",
+      "checkedAt": "2026-07-10",
+      "summary": "多位 Xiaomi AX3000 使用者回報多層 Mesh 節點常只連主路由器，不能穩定串接較近的 AX3000，造成遠端節點訊號或速度不佳。",
+      "issues": [
+        {
+          "title": "無線 Mesh 節點偏向星狀連回主機，無法指定較近上游",
+          "detail": "問題只影響多節點無線 Mesh 情境；單入與兩入組硬體皆為相同 AX3000。若需要跨樓層多跳串接，建議優先規劃有線回程，並在退換貨期內確認節點實際拓樸。",
+          "reportCount": 8,
+          "sources": [
+            {
+              "platform": "Reddit",
+              "title": "Problem with Mesh on AX3000 — all nodes connecting to main router",
+              "url": "https://www.reddit.com/r/Xiaomi/comments/13ijs0u/problem_with_mesh_on_ax3000_all_nodes_connecting/"
+            },
+            {
+              "platform": "Lowyat Forum",
+              "title": "Xiaomi AX3000 Mesh satellite ignores nearer node",
+              "url": "https://forum.lowyat.net/topic/5441492"
+            }
+          ]
+        }
+      ]
     }
   },
   {
@@ -2314,6 +3199,26 @@
       "confidence": "high",
       "checkedAt": "2026-07-09",
       "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-07-10",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"TOTOLINK X30 SE\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22TOTOLINK%20X30%20SE%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "Reddit",
+          "query": "\"TOTOLINK X30 SE\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.reddit.com/search/?q=%22TOTOLINK%20X30%20SE%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "targetHost": "reddit.com"
+        }
+      ]
     }
   },
   {
@@ -2373,6 +3278,26 @@
       "confidence": "medium",
       "checkedAt": "2026-07-10",
       "note": "採用 PChome 24h 同一商品頁可公開查核現價作為本次觀測到的最低價；同型號/規格並排除會員個人化折扣、信用卡回饋、點數、二手、福利品、展示機、箱損、拆封與整新品。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-07-10",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"QNAP QHora-301W\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22QNAP%20QHora-301W%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "Reddit",
+          "query": "\"QNAP QHora-301W\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.reddit.com/search/?q=%22QNAP%20QHora-301W%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "targetHost": "reddit.com"
+        }
+      ]
     }
   },
   {
@@ -2432,6 +3357,26 @@
       "confidence": "medium",
       "checkedAt": "2026-07-09",
       "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-07-10",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Cudy AX3000 2.5G Mesh\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Cudy%20AX3000%202.5G%20Mesh%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "Reddit",
+          "query": "\"Cudy AX3000 2.5G Mesh\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.reddit.com/search/?q=%22Cudy%20AX3000%202.5G%20Mesh%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "targetHost": "reddit.com"
+        }
+      ]
     }
   },
   {
@@ -2491,6 +3436,26 @@
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
       "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ Cudy WR3600 BE3600: 蝦皮商城 - 蝦皮直營 - 3C家電館 【蝦皮直營】cudy WR3600 WiFi7 雙頻無線路由器 Gigabit BE3600 支援Mesh 型號/規格不相符；LBJ Cudy WR3600 BE3600: Yahoo購物中心 cudy BE3600 Wi-Fi 7 雙頻無線網狀路由器 (WR3600) 型號/規格不相符；LBJ Cudy WR3600 BE3600: Yahoo購物中心 cudy BE3600 Wi-Fi 7 雙頻無線網狀路由器 (WR3600) 型號/規格不相符。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-07-10",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Cudy WR3600 BE3600\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Cudy%20WR3600%20BE3600%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "Reddit",
+          "query": "\"Cudy WR3600 BE3600\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.reddit.com/search/?q=%22Cudy%20WR3600%20BE3600%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "targetHost": "reddit.com"
+        }
+      ]
     }
   },
   {
@@ -2550,6 +3515,26 @@
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
       "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ ASUS RT-BE3600HP: PCHome購物 ASUS 華碩 RT-BE3600HP WiFi 7 AiMesh 雙頻可擴充路由器 型號/規格不相符；LBJ ASUS RT-BE3600HP: iOPEN Mall - 光華商場 德寶資訊有限公司 (可刷卡) (813人次購買) ASUS 華碩 RT-BE3600HP－Wi-Fi 7 無線路由器 高功率天線 分享器 路由器 公司貨 光華 型號/規格不相符；LBJ ASUS RT-BE3600HP: iOPEN Mall - 光華商場 3C專賣店 (1219人次購買) ASUS 華碩 RT-BE3600HP－Wi-Fi 7 無線路由器 高功率天線 分享器 路由器 公司貨 光華 型號/規格不相符。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-07-10",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"ASUS RT-BE3600HP\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22ASUS%20RT-BE3600HP%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "Reddit",
+          "query": "\"ASUS RT-BE3600HP\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.reddit.com/search/?q=%22ASUS%20RT-BE3600HP%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "targetHost": "reddit.com"
+        }
+      ]
     }
   },
   {
@@ -2609,6 +3594,26 @@
       "confidence": "not_found",
       "checkedAt": "2026-07-09",
       "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ TP-Link Deco BE22: 蝦皮商城 - 綠風潮網路商城 TP-LINK Deco BE22(2-pack)BE3600 Mesh 網狀路由器 綠風潮 型號/規格不相符；LBJ TP-Link Deco BE22: 蝦皮商城 - TP-Link官方旗艦店 (Wi-Fi7)TP-Link Deco BE22 BE3600 Wi-Fi7 雙頻 wifi分享器 MLO 1G 型號/規格不相符；LBJ TP-Link Deco BE22: 蝦皮商城 - QD 酷弟3C TP-LINK Deco BE22(2-pack)BE3600 Mesh 網狀路由器 酷弟3C 型號/規格不相符。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-07-10",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"TP-Link Deco BE22\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22TP-Link%20Deco%20BE22%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "Reddit",
+          "query": "\"TP-Link Deco BE22\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.reddit.com/search/?q=%22TP-Link%20Deco%20BE22%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "targetHost": "reddit.com"
+        }
+      ]
     }
   },
   {
@@ -2668,6 +3673,26 @@
       "confidence": "high",
       "checkedAt": "2026-07-09",
       "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-07-10",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Mercusys Halo H25BE 2入\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Mercusys%20Halo%20H25BE%202%E5%85%A5%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "Reddit",
+          "query": "\"Mercusys Halo H25BE 2入\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.reddit.com/search/?q=%22Mercusys%20Halo%20H25BE%202%E5%85%A5%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "targetHost": "reddit.com"
+        }
+      ]
     }
   },
   {
@@ -2727,6 +3752,45 @@
       "confidence": "medium",
       "checkedAt": "2026-07-09",
       "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+    },
+    "issueResearch": {
+      "status": "common_issue",
+      "checkedAt": "2026-07-10",
+      "summary": "多位 Deco X55 使用者回報網路會隨機凍結、節點紅燈或自行重啟，常需手動重開才能恢復。",
+      "issues": [
+        {
+          "title": "隨機斷線、凍結或自行重啟",
+          "detail": "回報包含整體網路鎖死、主節點失聯與每日多次重啟；建議保留退換貨期、先更新韌體並觀察多節點環境至少數日。",
+          "reportCount": 7,
+          "sources": [
+            {
+              "platform": "TP-Link Community",
+              "title": "Deco X55 Internet randomly freezes or drops",
+              "url": "https://community.tp-link.com/en/home/forum/topic/584302"
+            },
+            {
+              "platform": "TP-Link Community",
+              "title": "X55 main Deco disconnects after reboot",
+              "url": "https://community.tp-link.com/us/home/forum/topic/651792?moduleId=2424"
+            },
+            {
+              "platform": "TP-Link Community",
+              "title": "TP-Link Deco X55 Keeps Rebooting",
+              "url": "https://community.tp-link.com/en/home/threads/topic/821828"
+            },
+            {
+              "platform": "TP-Link Community",
+              "title": "Deco X55 Reboots 2-3 times a day",
+              "url": "https://community.tp-link.com/us/home/forum/topic/591250"
+            },
+            {
+              "platform": "Reddit",
+              "title": "Avoid TP-Link Deco X55",
+              "url": "https://www.reddit.com/r/TpLink/comments/1eietd4/avoid_tplink_deco_x55_like_the_plague_it_is/"
+            }
+          ]
+        }
+      ]
     }
   },
   {
@@ -2788,6 +3852,26 @@
       "confidence": "medium",
       "checkedAt": "2026-07-10",
       "note": "採用可信通路同一商品頁可公開查核現價作為本次觀測到的最低價；同型號/規格並排除會員個人化折扣、信用卡回饋、點數、二手、福利品、展示機、箱損、拆封與整新品。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-07-10",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"TP-Link Archer BE3600\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22TP-Link%20Archer%20BE3600%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "Reddit",
+          "query": "\"TP-Link Archer BE3600\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.reddit.com/search/?q=%22TP-Link%20Archer%20BE3600%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "targetHost": "reddit.com"
+        }
+      ]
     }
   },
   {
@@ -2849,6 +3933,30 @@
       "confidence": "high",
       "checkedAt": "2026-07-09",
       "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+    },
+    "issueResearch": {
+      "status": "common_issue",
+      "checkedAt": "2026-07-10",
+      "summary": "多位 Archer BE550 使用者回報路由器或 Wi-Fi 用戶端會隨機短暫斷線，數秒後才重新連上。",
+      "issues": [
+        {
+          "title": "隨機短暫斷線與延遲不穩",
+          "detail": "回報包含多個裝置一起斷線、替換機仍發生或遊戲延遲突增；購買後應更新韌體並持續壓力測試有線與無線連線。",
+          "reportCount": 7,
+          "sources": [
+            {
+              "platform": "TP-Link Community",
+              "title": "New Archer BE550 constant disconnects",
+              "url": "https://community.tp-link.com/us/home/forum/topic/623566?moduleId=2414"
+            },
+            {
+              "platform": "Reddit",
+              "title": "Tossing Archer BE550 — too many lagging issues",
+              "url": "https://www.reddit.com/r/TpLink/comments/1gkcbca/top_routers_tossing_archer_be550_too_many_lagging/"
+            }
+          ]
+        }
+      ]
     }
   }
 ]);

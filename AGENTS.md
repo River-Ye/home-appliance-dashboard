@@ -139,6 +139,7 @@
 - `recommendation`
 - `releaseDate`
 - `historicalLow`
+- `issueResearch`
 - `score`
 - `voltage`
 - `warranty`
@@ -159,6 +160,10 @@
 - 每筆商品都必須標示 `historicalLow`，代表同型號、同尺寸/容量/規格在可信新品通路可驗證的歷史最低價與入手時機判斷；若找不到可靠來源，需填 `status: "not_found"`，不要以現價推定史低。
 - 歷史最低價查核需保留 `historical_price_research.json` 證據檔；`found` 項目必須有 `sourceUrl`、`sourceTitle`、`evidenceSnippet`、`amount`、`currency`、`converted`、`sourceKind`、`confidence` 與 `checkedAt`，`not_found` 項目必須寫明查核說明。
 - 歷史最低價來源排除會員個人化折扣、信用卡回饋、點數、二手、福利品、展示機、拆封品、整新品、配件頁或耗材頁；海外史低需在 `note` 標示未含國際運費、進口稅、電壓/插頭與台灣保固風險。
+- 每筆商品都必須有 `issueResearch`。同一問題只有在完全相同型號、至少 6 位可辨識的獨立使用者、且跨至少 2 個原始網站時，才能標為 `common_issue`；同帳號重複留言、跨站轉貼、按讚、搜尋摘要、媒體轉述與系列相近型號均不得計入人數。
+- 未達門檻使用 `no_common_issue`，文案固定為「截至查核日，查無達門檻的集中負評／災情」，不可寫成完全沒有負評。每次查核需保留至少兩個平台的查詢入口，完整查詢、候選、排除原因、作者與摘錄保存在 `product_issue_research.json`。
+- 搜尋引擎只能用於發現候選；成立的災情必須回到原始論壇、品牌社群或可信零售評價頁核對 exact model、第一人稱回報、作者與 permalink。來源層保留證據摘錄；每位計入者需在 `product_issue_report_evidence.json` 與 research evidence `reports[]` 顯式留下作者、原文連結、可重現頁面定位、非模板化的逐人 `evidenceExcerpt`、人工覆核註記、exact-model 與第一人稱確認；不可由作者陣列自動預設布林值，也不可用來源層彙總摘要代替逐人判讀。跨站轉貼用相同 `crossPostKey` 去重。
+- `no_common_issue` 不得由批次搜尋自動推定。逐型號完成跨站人工覆核後，需用顯式 audit batch 加入 `product_issue_review_manifest.json`，每筆保存 decision、至少兩組包含 canonical model 的 exact-model query、可由 query URL 還原的查詢字串、實際 `targetHost`、候選處置與 reviewer note；獨立網站數以 target/source 的 canonical website 計算，`old.reddit.com` 與 `reddit.com` 只能算同一站。有原頁候選時使用 `manual_original_pages_reviewed` attestation，跨站查詢確實沒有 exact-model 候選時則誠實使用 `manual_cross_site_search_reviewed_no_candidate`。每個經型號邊界過濾後的搜尋候選還需在 `candidateReviews[]` 保存 URL、原頁摘要、獨立作者數與具體排除理由。marker 不得依分類或 ID 自動填決策，research 工具也不得自行產生候選拒絕理由。`tools/research-product-issues.js --apply` 遇到任何不完整或尚未覆核商品必須拒絕寫回商品檔。
 - 大量更新商品檔時仍需維持 `products/*.js` 逐分類獨立，不要把商品資料塞回 `assets/js/*.js`。
 
 ## 特別分類規則
@@ -262,12 +267,13 @@
 修改後至少檢查：
 
 - `npm run check:syntax`：所有公開 JS 檔與維護工具可被 Node 編譯。
-- `npm run check:logic`：純邏輯回歸，涵蓋排序、品牌依分類限制、史低文案、HTML escape 與 product-loader URL/錯誤。
-- `npm run check:data`：商品總數、分類數、必要欄位、日期格式、重複 URL 與重複型號檢查通過。
+- `npm run check:logic`：純邏輯回歸，涵蓋排序、品牌依分類限制、史低／負評文案、問題摘要搜尋、來源 URL 安全、HTML escape 與 product-loader URL/錯誤。
+- `npm run check:data`：商品總數、分類數、必要欄位、日期格式、負評逐型號人工覆核、逐位反映者與研究檔對齊、重複 URL 與重複型號檢查通過。
 - `npm run check:docs`：README、AGENTS、index/config 的商品數、分類數、日期與 cache version 不漂移。
 - `npm run check:ui`：桌機與手機版主要互動流程通過。
 - 商品總數仍符合 README 與分類 tab 顯示。
 - 每筆商品必要欄位齊全。
+- 每筆商品皆有負評／災情查核；`product_issue_review_manifest.json` 覆蓋完整商品清單，成立警示符合 6 位獨立使用者與 2 個原始平台，且 `product_issue_research.json` 的逐人證據與商品資料逐筆對齊。
 - 購買連結不重複。
 - 不含福利品、瑕疵品、展示機、拆封品、二手品、整新品、配件頁或耗材頁。
 - 桌機與手機版能正常搜尋、篩選、分類切換、品牌依分類限制、排序、加入比較、清除比較。

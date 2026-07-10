@@ -104,6 +104,63 @@
     `;
   }
 
+  function issueSourceLink(source, urlField = "url") {
+    const safeUrl = utils.safeHttpUrl(source?.[urlField]);
+    if (!safeUrl) return "";
+    const label = source.title
+      ? `${source.platform}：${source.title}`
+      : source.platform;
+    return `<a href="${utils.escapeHtml(safeUrl)}" target="_blank" rel="noreferrer">${utils.escapeHtml(label)}</a>`;
+  }
+
+  function issueResearchText(product) {
+    const research = product.issueResearch || {};
+    if (research.status !== "common_issue") {
+      return `${research.summary || "截至查核日，查無達門檻的集中負評／災情"}（查核日：${research.checkedAt || "未標示"}）`;
+    }
+    const issues = (research.issues || []).map((issue) => (
+      `${issue.title}：${issue.detail}（${issue.reportCount} 位獨立使用者）`
+    ));
+    return `${research.summary}；${issues.join("；")}（查核日：${research.checkedAt || "未標示"}）`;
+  }
+
+  function issueResearchMarkup(product) {
+    const research = product.issueResearch || {};
+    const isWarning = research.status === "common_issue";
+    const status = isWarning ? "common_issue" : "no_common_issue";
+    const sources = isWarning
+      ? (research.issues || []).flatMap((issue) => issue.sources || [])
+      : research.checkedSources || [];
+    const sourceLinks = sources
+      .map((source) => issueSourceLink(source, isWarning ? "url" : "queryUrl"))
+      .filter(Boolean)
+      .join("");
+
+    return `
+      <section class="issue-research issue-research--${isWarning ? "warning" : "clear"}" data-issue-status="${status}" aria-label="負評／災情查核">
+        <div class="issue-research-heading">
+          <span class="issue-research-icon" aria-hidden="true">${isWarning ? "!" : "✓"}</span>
+          <div>
+            <span class="field-label">負評／災情查核</span>
+            <strong>${utils.escapeHtml(isWarning ? "多人反映，購買前請注意" : "查無達門檻的集中反映")}</strong>
+          </div>
+        </div>
+        <p>${utils.escapeHtml(research.summary || "截至查核日，查無達門檻的集中負評／災情")}</p>
+        ${isWarning ? (research.issues || []).map((issue) => `
+          <div class="issue-research-item">
+            <strong>${utils.escapeHtml(issue.title)}</strong>
+            <span class="issue-report-count">${utils.escapeHtml(issue.reportCount)} 位獨立使用者反映</span>
+            <p>${utils.escapeHtml(issue.detail)}</p>
+          </div>
+        `).join("") : ""}
+        <div class="issue-research-meta">
+          <span>查核日 ${utils.escapeHtml(research.checkedAt || "未標示")}</span>
+          ${sourceLinks ? `<span class="issue-source-links"><b>${isWarning ? "原文出處" : "查核紀錄"}</b>${sourceLinks}</span>` : ""}
+        </div>
+      </section>
+    `;
+  }
+
   function topPickMarkup(product) {
     const category = categoryById.get(product.category);
     return `
@@ -168,6 +225,7 @@
               <small>${utils.escapeHtml(product.channel === "global" ? "需自行確認運費、關稅、電壓與保固" : "台灣可信新品通路")}</small>
             </div>
           </div>
+          ${issueResearchMarkup(product)}
           <div class="spec-list spec-list--key">
             ${keySpecs.map((spec, index) => specItemMarkup(`重點 ${index + 1}`, spec)).join("")}
           </div>
@@ -228,6 +286,7 @@
       { label: "TWD 價格", get: (product) => utils.formatTwd(product.price.converted) },
       { label: "原幣價格", get: (product) => utils.formatOriginal(product.price) },
       { label: "歷史最低價 / 入手時機", get: historicalLowText },
+      { label: "負評／災情", get: issueResearchText },
       { label: "上市/發售", get: releaseDateText },
       { label: "規格", get: (product) => product.specs.join(" / ") },
       { label: "優勢", get: (product) => product.pros.join(" / ") },
@@ -254,6 +313,8 @@
     releaseDateText,
     historicalLowInfo,
     historicalLowText,
+    issueResearchText,
+    issueResearchMarkup,
     imageMarkup,
     specItemMarkup,
     topPickMarkup,
