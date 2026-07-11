@@ -520,12 +520,13 @@
       "category": "tv",
       "brand": "Toshiba",
       "model": "65M450NT",
-      "reviewedAt": "2026-07-10",
+      "reviewedAt": "2026-07-11",
       "reviewBatch": "tv",
       "decision": "no_common_issue",
       "checkedPlatforms": [
         "Mobile01",
-        "Reddit"
+        "Reddit",
+        "PTT"
       ],
       "queries": [
         {
@@ -541,11 +542,58 @@
           "targetHost": "reddit.com"
         }
       ],
-      "candidateDisposition": "65M450NT：已完成跨站 exact-model 查詢，未留下需逐頁處置的候選；此結果不代表完全沒有負評。",
-      "representativeSources": [],
-      "reviewerNote": "65M450NT 已依 tv 批次人工覆核 Mobile01、Reddit；決策為 no_common_issue，未以搜尋摘要或空結果代替原頁判讀。",
-      "attestation": "manual_cross_site_search_reviewed_no_candidate",
-      "candidateReviews": []
+      "candidateDisposition": "65M450NT：已逐頁人工排除 3 個 exact-model 候選；皆為購前選購討論，沒有同型號第一人稱負評。",
+      "representativeSources": [
+        {
+          "platform": "Mobile01",
+          "title": "65M450NT：[問題] 推薦65吋電視 主要看串流/YT (1080P為主)，[ 已購買 TCL 65Q8MP/C755]",
+          "url": "https://www.mobile01.com/topicdetail.php?f=347&t=7176248"
+        },
+        {
+          "platform": "Mobile01",
+          "title": "65M450NT：電視選擇??",
+          "url": "https://www.mobile01.com/topicdetail.php?f=347&t=7131872"
+        },
+        {
+          "platform": "PTT",
+          "title": "65M450NT：[問題] 65吋電視選擇請益（內有選手）",
+          "url": "https://www.ptt.cc/bbs/Digitalhome/M.1755679457.A.C9E.html"
+        }
+      ],
+      "reviewerNote": "65M450NT 已人工檢視 Mobile01 與 PTT 原始頁並完成 Reddit exact-model 查詢；候選皆為購前比較，沒有可計數的同型號持有者負評。",
+      "attestation": "manual_original_pages_reviewed",
+      "candidateReviews": [
+        {
+          "url": "https://www.mobile01.com/topicdetail.php?f=347&t=7176248",
+          "title": "65M450NT：[問題] 推薦65吋電視 主要看串流/YT (1080P為主)，[ 已購買 TCL 65Q8MP/C755]",
+          "outcome": "excluded",
+          "reviewedAt": "2026-07-11",
+          "exactModel": true,
+          "sourceExcerpt": "樓主把 Toshiba 65M450NT 列為購前候選，最後購買 TCL；串內沒有 65M450NT 持有者回報同型號故障或負面使用問題。",
+          "independentAuthors": 0,
+          "specificReason": "屬購買前選購清單，樓主最後購買其他型號；沒有 exact-model 第一人稱負評，不能計入相同問題作者數。"
+        },
+        {
+          "url": "https://www.mobile01.com/topicdetail.php?f=347&t=7131872",
+          "title": "65M450NT：電視選擇??",
+          "outcome": "excluded",
+          "reviewedAt": "2026-07-11",
+          "exactModel": true,
+          "sourceExcerpt": "討論串把 65M450NT 列入電視選手比較，但內容是規格、價格與購前詢問，沒有同型號持有者描述實際故障。",
+          "independentAuthors": 0,
+          "specificReason": "只有購前比較與推薦，沒有 exact-model 第一人稱負評，因此不構成可計數的問題回報。"
+        },
+        {
+          "url": "https://www.ptt.cc/bbs/Digitalhome/M.1755679457.A.C9E.html",
+          "title": "65M450NT：[問題] 65吋電視選擇請益（內有選手）",
+          "outcome": "excluded",
+          "reviewedAt": "2026-07-11",
+          "exactModel": true,
+          "sourceExcerpt": "原發文者把 65M450NT 列為購前候選並詢問選擇，推文沒有可辨識的同型號持有者回報實際負面問題。",
+          "independentAuthors": 0,
+          "specificReason": "屬購買前選擇請益，沒有 exact-model 第一人稱負評，不能作為集中災情證據。"
+        }
+      ]
     },
     {
       "id": "tv-extra-18-dpadtoa900jne73",
@@ -2449,10 +2497,11 @@
       "category": "circulator",
       "brand": "Panasonic",
       "model": "F-E10HMD",
-      "reviewedAt": "2026-07-10",
+      "reviewedAt": "2026-07-11",
       "reviewBatch": "circulator",
       "decision": "no_common_issue",
       "checkedPlatforms": [
+        "PTT",
         "Mobile01",
         "Reddit"
       ],
@@ -2470,11 +2519,43 @@
           "targetHost": "reddit.com"
         }
       ],
-      "candidateDisposition": "F-E10HMD：已完成跨站 exact-model 查詢，未留下需逐頁處置的候選；此結果不代表完全沒有負評。",
-      "representativeSources": [],
-      "reviewerNote": "F-E10HMD 已依 circulator 批次人工覆核 Mobile01、Reddit；決策為 no_common_issue，未以搜尋摘要或空結果代替原頁判讀。",
-      "attestation": "manual_cross_site_search_reviewed_no_candidate",
-      "candidateReviews": []
+      "candidateDisposition": "F-E10HMD：已逐頁人工排除 2 個 exact-model 候選；都是購買前比較，沒有同型號持有者故障回報。",
+      "representativeSources": [
+        {
+          "platform": "PTT",
+          "title": "F-E10HMD：[挑選] 房間循環扇選擇(內有選手)",
+          "url": "https://www.ptt.cc/bbs/E-appliance/M.1720932039.A.3F2.html"
+        },
+        {
+          "platform": "Mobile01",
+          "title": "F-E10HMD：循環扇- Vornado vs Panasonic",
+          "url": "https://www.mobile01.com/topicdetail.php?f=731&t=6618357"
+        }
+      ],
+      "reviewerNote": "F-E10HMD 已人工檢視 PTT 與 Mobile01 原始頁並完成 Reddit exact-model 查詢；候選都是購前比較，沒有可計數的同型號第一人稱負評。",
+      "attestation": "manual_original_pages_reviewed",
+      "candidateReviews": [
+        {
+          "url": "https://www.ptt.cc/bbs/E-appliance/M.1720932039.A.3F2.html",
+          "title": "F-E10HMD：[挑選] 房間循環扇選擇(內有選手)",
+          "outcome": "excluded",
+          "reviewedAt": "2026-07-11",
+          "exactModel": true,
+          "sourceExcerpt": "原發文者在購買前比較 F-E10HMD；提到擺頭慢、無法調整高低與風量較小，但不是持有後的故障或負評回報。",
+          "independentAuthors": 0,
+          "specificReason": "屬購買前規格取捨，不是 exact-model 持有者第一人稱使用問題，不能計入作者數。"
+        },
+        {
+          "url": "https://www.mobile01.com/topicdetail.php?f=731&t=6618357",
+          "title": "F-E10HMD：循環扇- Vornado vs Panasonic",
+          "outcome": "excluded",
+          "reviewedAt": "2026-07-11",
+          "exactModel": true,
+          "sourceExcerpt": "樓主在購買前比較 F-E10HMD 與 Vornado；回覆多談泛 Panasonic、HD15 或其他品牌，沒有 F-E10HMD 持有者負評。",
+          "independentAuthors": 0,
+          "specificReason": "屬購前詢問，沒有 exact-model 第一人稱負評，不能作為集中災情證據。"
+        }
+      ]
     },
     {
       "id": "circ-balmuda-cirq",
@@ -3261,12 +3342,13 @@
       "category": "dehumidifier",
       "brand": "Whirlpool",
       "model": "WDEE10TW",
-      "reviewedAt": "2026-07-10",
+      "reviewedAt": "2026-07-11",
       "reviewBatch": "dehumidifier",
       "decision": "no_common_issue",
       "checkedPlatforms": [
         "Mobile01",
-        "Reddit"
+        "Reddit",
+        "Dcard"
       ],
       "queries": [
         {
@@ -3282,11 +3364,58 @@
           "targetHost": "reddit.com"
         }
       ],
-      "candidateDisposition": "WDEE10TW：已完成跨站 exact-model 查詢，未留下需逐頁處置的候選；此結果不代表完全沒有負評。",
-      "representativeSources": [],
-      "reviewerNote": "WDEE10TW 已依 dehumidifier 批次人工覆核 Mobile01、Reddit；決策為 no_common_issue，未以搜尋摘要或空結果代替原頁判讀。",
-      "attestation": "manual_cross_site_search_reviewed_no_candidate",
-      "candidateReviews": []
+      "candidateDisposition": "WDEE10TW：已逐頁人工排除 3 個 exact-model 候選；兩位同型號作者反映不同的運轉特性，另一頁為購前詢問，沒有同一問題達 6 人。",
+      "representativeSources": [
+        {
+          "platform": "Mobile01",
+          "title": "惠而浦除濕機 WDEE10TW功能詢問",
+          "url": "https://www.mobile01.com/topicdetail.php?f=731&t=7100499"
+        },
+        {
+          "platform": "Mobile01",
+          "title": "WDEE10TW：空間五坪左右的除濕機選擇選不出來（sharp、Whirlpool、HITACHI）",
+          "url": "https://www.mobile01.com/topicdetail.php?f=731&t=7212470"
+        },
+        {
+          "platform": "Dcard",
+          "title": "WDEE10TW：#求助 小坪數除濕機 (日立 vs 惠而浦)",
+          "url": "https://www.dcard.tw/f/house/p/258316602"
+        }
+      ],
+      "reviewerNote": "WDEE10TW 已人工檢視 Mobile01 與 Dcard 原始頁並完成 Reddit exact-model 查詢；候選問題不同且人數遠低於 6 人，維持 no_common_issue。",
+      "attestation": "manual_original_pages_reviewed",
+      "candidateReviews": [
+        {
+          "url": "https://www.mobile01.com/topicdetail.php?f=731&t=7100499",
+          "title": "惠而浦除濕機 WDEE10TW功能詢問",
+          "outcome": "excluded",
+          "reviewedAt": "2026-07-11",
+          "exactModel": true,
+          "sourceExcerpt": "一位 WDEE10TW 使用者詢問壓縮機頻繁啟停；討論判斷與濕度控制邏輯相關，沒有其他同型號作者回報相同故障。",
+          "independentAuthors": 1,
+          "specificReason": "只有一位同型號作者，且候選屬濕度控制與啟停行為討論；未達 6 人與跨 2 站門檻。"
+        },
+        {
+          "url": "https://www.mobile01.com/topicdetail.php?f=731&t=7212470",
+          "title": "WDEE10TW：空間五坪左右的除濕機選擇選不出來（sharp、Whirlpool、HITACHI）",
+          "outcome": "excluded",
+          "reviewedAt": "2026-07-11",
+          "exactModel": true,
+          "sourceExcerpt": "一位 WDEE10TW 使用者認為運轉聲較明顯；其他回覆為選購建議或不同型號，沒有第二位同型號作者回報同一問題。",
+          "independentAuthors": 1,
+          "specificReason": "同型號噪音回報只有一位且僅 Mobile01 一站，未達相同問題 6 人與跨 2 站門檻。"
+        },
+        {
+          "url": "https://www.dcard.tw/f/house/p/258316602",
+          "title": "WDEE10TW：#求助 小坪數除濕機 (日立 vs 惠而浦)",
+          "outcome": "excluded",
+          "reviewedAt": "2026-07-11",
+          "exactModel": true,
+          "sourceExcerpt": "發文者在購買前比較 WDEE10TW 與其他除濕機，沒有實際持有後的故障或負面使用內容。",
+          "independentAuthors": 0,
+          "specificReason": "屬購買前選購詢問，沒有 exact-model 第一人稱負評，不能計入問題作者數。"
+        }
+      ]
     },
     {
       "id": "dehumidifier-extra-6-dmbq4y-a900ikocc",
@@ -3549,12 +3678,15 @@
       "category": "dehumidifier",
       "brand": "LG",
       "model": "DD181MWE0",
-      "reviewedAt": "2026-07-10",
+      "reviewedAt": "2026-07-11",
       "reviewBatch": "dehumidifier",
       "decision": "no_common_issue",
       "checkedPlatforms": [
         "Mobile01",
-        "Reddit"
+        "Reddit",
+        "Bahamut",
+        "PChome",
+        "Dcard"
       ],
       "queries": [
         {
@@ -3570,11 +3702,73 @@
           "targetHost": "reddit.com"
         }
       ],
-      "candidateDisposition": "DD181MWE0：已完成跨站 exact-model 查詢，未留下需逐頁處置的候選；此結果不代表完全沒有負評。",
-      "representativeSources": [],
-      "reviewerNote": "DD181MWE0 已依 dehumidifier 批次人工覆核 Mobile01、Reddit；決策為 no_common_issue，未以搜尋摘要或空結果代替原頁判讀。",
-      "attestation": "manual_cross_site_search_reviewed_no_candidate",
-      "candidateReviews": []
+      "candidateDisposition": "DD181MWE0：已逐頁人工排除 4 個 exact-model 候選；相同聲音問題最多 2 位、跨 2 站，其他問題各 1 位，未達 6 人門檻。",
+      "representativeSources": [
+        {
+          "platform": "Mobile01",
+          "title": "LG除濕機DD181MWE0體驗心得",
+          "url": "https://www.mobile01.com/topicdetail.php?f=731&t=7260813"
+        },
+        {
+          "platform": "Bahamut",
+          "title": "LG 18公升除濕機 微開箱 型號DD181MWE0 2026年款 5月製造",
+          "url": "https://home.gamer.com.tw/artwork.php?sn=6345150"
+        },
+        {
+          "platform": "PChome",
+          "title": "LG 樂金 18公升WiFi變頻除濕機 (DD181MWE0)",
+          "url": "https://24h.pchome.com.tw/prod/DMBQ07-A900JDITJ"
+        },
+        {
+          "platform": "Dcard",
+          "title": "DD181MWE0：#發問 準備搬進新家的家電清單請益",
+          "url": "https://www.dcard.tw/f/house/p/261465957"
+        }
+      ],
+      "reviewerNote": "DD181MWE0 已人工檢視 Mobile01、Bahamut、PChome 與 Dcard 原始頁並完成 Reddit exact-model 查詢；各候選逐位去重後，相同問題最多 2 人。",
+      "attestation": "manual_original_pages_reviewed",
+      "candidateReviews": [
+        {
+          "url": "https://www.mobile01.com/topicdetail.php?f=731&t=7260813",
+          "title": "LG除濕機DD181MWE0體驗心得",
+          "outcome": "excluded",
+          "reviewedAt": "2026-07-11",
+          "exactModel": true,
+          "sourceExcerpt": "兩位 DD181MWE0 使用者分別反映智慧模式低於設定濕度仍運轉，以及抽出水箱時管路仍會流水；問題不同。",
+          "independentAuthors": 2,
+          "specificReason": "兩位同型號作者描述不同問題，任一相同問題只有 1 人，未達集中負評門檻。"
+        },
+        {
+          "url": "https://home.gamer.com.tw/artwork.php?sn=6345150",
+          "title": "LG 18公升除濕機 微開箱 型號DD181MWE0 2026年款 5月製造",
+          "outcome": "excluded",
+          "reviewedAt": "2026-07-11",
+          "exactModel": true,
+          "sourceExcerpt": "作者實測提到高濕全速時有高頻聲、抽水箱後壓縮機延遲停止與缺少整機搬運把手。",
+          "independentAuthors": 1,
+          "specificReason": "只有一位同型號作者；聲音問題與 PChome 合計最多 2 人，仍未達 6 人門檻。"
+        },
+        {
+          "url": "https://24h.pchome.com.tw/prod/DMBQ07-A900JDITJ",
+          "title": "LG 樂金 18公升WiFi變頻除濕機 (DD181MWE0)",
+          "outcome": "excluded",
+          "reviewedAt": "2026-07-11",
+          "exactModel": true,
+          "sourceExcerpt": "一位購買者認為功能整體不錯，但運轉聲音沒有預期低；其餘可見新近評價未提供負面文字。",
+          "independentAuthors": 1,
+          "specificReason": "同型號聲音回報一位，與 Bahamut 合計最多 2 人、2 站，未達 6 人門檻。"
+        },
+        {
+          "url": "https://www.dcard.tw/f/house/p/261465957",
+          "title": "DD181MWE0：#發問 準備搬進新家的家電清單請益",
+          "outcome": "excluded",
+          "reviewedAt": "2026-07-11",
+          "exactModel": true,
+          "sourceExcerpt": "發文者只把 DD181MWE0 列在準備購買的家電清單，沒有持有後的故障或負面使用內容。",
+          "independentAuthors": 0,
+          "specificReason": "屬購買前清單與請益，沒有 exact-model 第一人稱負評，不能計入作者數。"
+        }
+      ]
     },
     {
       "id": "dehumidifier-extra-15-dmbq3s-a900k13zr",
@@ -4837,9 +5031,9 @@
       "category": "robot",
       "brand": "Ecovacs",
       "model": "DEEBOT T80 OMNI",
-      "reviewedAt": "2026-07-10",
+      "reviewedAt": "2026-07-11",
       "reviewBatch": "robot",
-      "decision": "no_common_issue",
+      "decision": "common_issue",
       "checkedPlatforms": [
         "Mobile01",
         "Reddit"
@@ -4858,11 +5052,58 @@
           "targetHost": "reddit.com"
         }
       ],
-      "candidateDisposition": "DEEBOT T80 OMNI：已完成跨站 exact-model 查詢，未留下需逐頁處置的候選；此結果不代表完全沒有負評。",
-      "representativeSources": [],
-      "reviewerNote": "DEEBOT T80 OMNI 已依 robot 批次人工覆核 Mobile01、Reddit；決策為 no_common_issue，未以搜尋摘要或空結果代替原頁判讀。",
-      "attestation": "manual_cross_site_search_reviewed_no_candidate",
-      "candidateReviews": []
+      "candidateDisposition": "DEEBOT T80 OMNI：已逐頁人工核對 5 個成立異味證據原頁，另保留 2 個不同問題的單站集中候選；異味有 6 位獨立使用者橫跨 Reddit 與 Mobile01，達到 common_issue 門檻，異音與條紋則未達 2 個原始網站。",
+      "representativeSources": [
+        {
+          "platform": "Reddit",
+          "title": "T80 dirt water Tank Always full",
+          "url": "https://www.reddit.com/r/ecovacs/comments/1pgc172/t80_dirt_water_tank_always_full/"
+        },
+        {
+          "platform": "Reddit",
+          "title": "Is the T80S Omni worth it?",
+          "url": "https://www.reddit.com/r/ecovacs/comments/1ue7oax/is_the_t80s_omni_worth_it/"
+        },
+        {
+          "platform": "Reddit",
+          "title": "I will always avoid Ecovacs like the plague.",
+          "url": "https://www.reddit.com/r/RobotVacuums/comments/1un38ek/i_will_always_avoid_ecovacs_like_the_plague/"
+        },
+        {
+          "platform": "Reddit",
+          "title": "Which robot vacuum needs the least amount of maintenance?",
+          "url": "https://www.reddit.com/r/RobotVacuums/comments/1rugldo/which_robot_vacuum_needs_the_least_amount_of/"
+        },
+        {
+          "platform": "Mobile01",
+          "title": "第一次買掃拖機器人，科沃斯T80 OMNI推薦嗎~",
+          "url": "https://www.mobile01.com/topicdetail.php?f=728&t=7248442"
+        }
+      ],
+      "reviewerNote": "DEEBOT T80 OMNI 已人工覆核 Reddit 與 Mobile01 原始頁並逐位核對作者；異味限定為拖地後滾筒、機內污水箱或水路異味，滾筒異音與拖地條紋各自保留為單站排除候選，不混入異味門檻。",
+      "attestation": "manual_original_pages_reviewed",
+      "candidateReviews": [
+        {
+          "url": "https://www.reddit.com/r/ecovacs/comments/1rmc1t8/t80_omni_strange_noise_during_roller_brush/",
+          "title": "Reddit：DEEBOT T80 OMNI 滾筒自清洗異音討論",
+          "outcome": "excluded",
+          "reviewedAt": "2026-07-11",
+          "exactModel": true,
+          "sourceExcerpt": "friimaind、jimbabwae、Just_Detail9775、Dju27510、EVfanboy95、Sea_Personality5661 六位 DEEBOT T80 OMNI 使用者回報滾筒自清洗時出現研磨或尖叫聲，部分以潤滑處理後改善。",
+          "independentAuthors": 6,
+          "specificReason": "六位作者皆來自同一個 Reddit 原始網站，沒有第二個獨立原始網站的相同問題；此為異音，亦不與已成立的拖地後異味合併計數。"
+        },
+        {
+          "url": "https://www.reddit.com/r/ecovacs/comments/1lv0rqm/deebot_t80_omni_mop_streaks/",
+          "title": "Reddit：DEEBOT T80 OMNI 拖地條紋討論",
+          "outcome": "excluded",
+          "reviewedAt": "2026-07-11",
+          "exactModel": true,
+          "sourceExcerpt": "LeagueOnly2015、Yvan_L、un_script3d、Gramduckle、TMusicz、JoeStarton、Heatproof-Snowman、Comfortable-Bear5321 八位 DEEBOT T80 OMNI 使用者回報拖地條紋，部分可透過水量、清掃方向、蒸餾水或深度清潔改善。",
+          "independentAuthors": 8,
+          "specificReason": "八位作者皆來自同一個 Reddit 原始網站，沒有第二個獨立原始網站；Heatproof-Snowman 與異味證據重疊但未在條紋決策重複增計，且條紋不與異味合併為同一問題。"
+        }
+      ]
     },
     {
       "id": "robot-ecovacs-t50-pro",
@@ -22284,6 +22525,512 @@
           "sourceExcerpt": "原頁只比較 Xiaomi Robot Vacuum 6、6 Pro、6 Max 的滾刷接頭與尺寸差異，作者未回報 6 Max 故障或負面使用問題，頁面也沒有其他使用者留言。",
           "independentAuthors": 0,
           "specificReason": "這是配件相容性說明，不是第一人稱負面問題；沒有可計數的同型號負評作者，也沒有第二個原始網站的相同問題回報。"
+        }
+      ]
+    },
+    {
+      "id": "robot-ecovacs-t90-pro",
+      "category": "robot",
+      "brand": "Ecovacs",
+      "model": "DEEBOT T90 PRO OMNI",
+      "reviewedAt": "2026-07-11",
+      "reviewBatch": "robot",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "Mobile01",
+        "Reddit"
+      ],
+      "queries": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Ecovacs DEEBOT T90 PRO OMNI\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Ecovacs%20DEEBOT%20T90%20PRO%20OMNI%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "Reddit",
+          "query": "\"Ecovacs DEEBOT T90 PRO OMNI\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.reddit.com/search/?q=%22Ecovacs%20DEEBOT%20T90%20PRO%20OMNI%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "targetHost": "reddit.com"
+        }
+      ],
+      "candidateDisposition": "DEEBOT T90 PRO OMNI：已逐頁人工覆核 17 個 exact-model 候選。Reddit 同站可見多位 App／地圖／導航、跳區與少量邊刷、水箱、基站回報；跨頁同作者已去重，問題型態也分開計數。導航／App 類即使在 Reddit 達多人，仍沒有第二個獨立原始網站，因此維持 no_common_issue。",
+      "representativeSources": [
+        {
+          "platform": "Mobile01",
+          "title": "Mobile01：ECOVACS DEEBOT T90 PRO OMNI 倒車入庫定位討論",
+          "url": "https://www.mobile01.com/topicdetail.php?f=728&p=2&t=7251985"
+        },
+        {
+          "platform": "Reddit",
+          "title": "Reddit：ECOVACS DEEBOT T90 PRO OMNI 邊刷斷裂回報",
+          "url": "https://www.reddit.com/r/ecovacs/comments/1uez8ee/"
+        },
+        {
+          "platform": "Reddit",
+          "title": "Reddit：ECOVACS DEEBOT T90 PRO OMNI 建圖與定位回報",
+          "url": "https://www.reddit.com/r/ecovacs/comments/1ujq8j8/"
+        },
+        {
+          "platform": "Reddit",
+          "title": "Reddit：ECOVACS DEEBOT T90 PRO OMNI 隨機繞圈與漏掃回報",
+          "url": "https://www.reddit.com/r/ecovacs/comments/1uio4qj/"
+        },
+        {
+          "platform": "Reddit",
+          "title": "Reddit：ECOVACS DEEBOT T90 PRO OMNI 拖地去污力不足回報",
+          "url": "https://www.reddit.com/r/RobotVacuums/comments/1uq0hv7/"
+        },
+        {
+          "platform": "Reddit",
+          "title": "Reddit：ECOVACS DEEBOT T90 PRO OMNI 清水箱誤報回報",
+          "url": "https://www.reddit.com/r/ecovacs/comments/1u2c2kf/"
+        },
+        {
+          "platform": "Reddit",
+          "title": "Reddit：ECOVACS DEEBOT T90 PRO OMNI App、導航與邊刷綜合回報",
+          "url": "https://www.reddit.com/r/ecovacs/comments/1ureiz8/"
+        },
+        {
+          "platform": "Reddit",
+          "title": "Reddit：ECOVACS DEEBOT T90 PRO OMNI 導航故障與退貨回報",
+          "url": "https://www.reddit.com/r/RobotVacuums/comments/1t9o84f/"
+        },
+        {
+          "platform": "Reddit",
+          "title": "Reddit：ECOVACS DEEBOT T90 PRO OMNI Prime Day 使用討論",
+          "url": "https://www.reddit.com/r/ecovacs/comments/1uskv2z/"
+        },
+        {
+          "platform": "Reddit",
+          "title": "Reddit：ECOVACS DEEBOT T90 PRO OMNI 一週導航與地圖使用回報",
+          "url": "https://www.reddit.com/r/RobotVacuums/comments/1ugb2w4/"
+        },
+        {
+          "platform": "Reddit",
+          "title": "Reddit：ECOVACS DEEBOT T90 PRO OMNI 跳區與導航漏掃回報",
+          "url": "https://www.reddit.com/r/ecovacs/comments/1uo11zp/"
+        },
+        {
+          "platform": "Reddit",
+          "title": "Reddit：ECOVACS DEEBOT T90 PRO OMNI 基站排水、App 與停機回報",
+          "url": "https://www.reddit.com/r/RobotVacuums/comments/1ugsecq/"
+        },
+        {
+          "platform": "Reddit",
+          "title": "Reddit：ECOVACS DEEBOT T90 PRO OMNI 瑕疵換機與水箱錯誤回報",
+          "url": "https://www.reddit.com/r/ecovacs/comments/1uonp8j/"
+        },
+        {
+          "platform": "Reddit",
+          "title": "Reddit：ECOVACS DEEBOT T90 PRO OMNI 藍牙配對故障回報",
+          "url": "https://www.reddit.com/r/ecovacs/comments/1u0vpsw/"
+        },
+        {
+          "platform": "Reddit",
+          "title": "Reddit：ECOVACS DEEBOT T90 PRO OMNI 特定區域拒絕靠近回報",
+          "url": "https://www.reddit.com/r/RobotVacuums/comments/1us8voq/"
+        },
+        {
+          "platform": "Reddit",
+          "title": "Reddit：ECOVACS DEEBOT T90 PRO OMNI 路徑與漏掃初期回報",
+          "url": "https://www.reddit.com/r/RobotVacuums/comments/1udvtrz/"
+        },
+        {
+          "platform": "Reddit",
+          "title": "Reddit：ECOVACS DEEBOT T90 PRO OMNI 韌體更新失敗回報",
+          "url": "https://www.reddit.com/r/ecovacs/comments/1tg3y5h/"
+        }
+      ],
+      "reviewerNote": "DEEBOT T90 PRO OMNI 已人工覆核 Mobile01 與 Reddit 原始頁；Mobile01 候選在撕除保護膜、重建地圖後恢復，Reddit 則有集中但單站的 App／建圖／導航回報。所有不同問題分開計數，跨頁作者不重複，尚未達 2 個原始網站門檻。",
+      "attestation": "manual_original_pages_reviewed",
+      "candidateReviews": [
+        {
+          "url": "https://www.mobile01.com/topicdetail.php?f=728&p=2&t=7251985",
+          "title": "Mobile01：ECOVACS DEEBOT T90 PRO OMNI 倒車入庫定位討論",
+          "outcome": "excluded",
+          "reviewedAt": "2026-07-11",
+          "exactModel": true,
+          "sourceExcerpt": "星野虹回報 DEEBOT T90 PRO OMNI 倒車回基站定位異常；後續確認保護膜未撕並在撕膜、重建地圖後恢復正常。",
+          "independentAuthors": 1,
+          "specificReason": "單一作者且問題在移除保護膜與重建地圖後解決，未形成可重現的機器故障，也沒有第二個原始網站的相同回報。"
+        },
+        {
+          "url": "https://www.reddit.com/r/ecovacs/comments/1uez8ee/",
+          "title": "Reddit：ECOVACS DEEBOT T90 PRO OMNI 邊刷斷裂回報",
+          "outcome": "excluded",
+          "reviewedAt": "2026-07-11",
+          "exactModel": true,
+          "sourceExcerpt": "Mysterious-King4692、FluffyDroid、haanjamiis 三位 DEEBOT T90 PRO OMNI 使用者回報約 2–5 週後邊刷斷裂；另有一位只回報邊刷脫落，問題型態不同。",
+          "independentAuthors": 3,
+          "specificReason": "同一問題僅 3 位可辨識作者且全部來自 Reddit；未達 6 人，也沒有第二個獨立原始網站。"
+        },
+        {
+          "url": "https://www.reddit.com/r/ecovacs/comments/1ujq8j8/",
+          "title": "Reddit：ECOVACS DEEBOT T90 PRO OMNI 建圖與定位回報",
+          "outcome": "excluded",
+          "reviewedAt": "2026-07-11",
+          "exactModel": true,
+          "sourceExcerpt": "DollUnit、Homeskillet2086、Conscious_Progress68 三位 DEEBOT T90 PRO OMNI 使用者在原串回報建圖或定位表現不穩。",
+          "independentAuthors": 3,
+          "specificReason": "同一問題最多 3 位作者且只出現在 Reddit；未達 6 人／2 原始網站門檻。"
+        },
+        {
+          "url": "https://www.reddit.com/r/ecovacs/comments/1uio4qj/",
+          "title": "Reddit：ECOVACS DEEBOT T90 PRO OMNI 隨機繞圈與漏掃回報",
+          "outcome": "excluded",
+          "reviewedAt": "2026-07-11",
+          "exactModel": true,
+          "sourceExcerpt": "scarzxxx 回報剛開始使用的 DEEBOT T90 PRO OMNI 會在無障礙空間隨機繞圈、路徑零碎並漏掃，討論中建議關閉部分智慧避障設定再測試。",
+          "independentAuthors": 1,
+          "specificReason": "只有 1 位同型號第一人稱作者，且特殊磨石子地面與 AIVI 設定可能影響結果；僅 Reddit 一站，未達 6 人與 2 個原始網站。"
+        },
+        {
+          "url": "https://www.reddit.com/r/RobotVacuums/comments/1uq0hv7/",
+          "title": "Reddit：ECOVACS DEEBOT T90 PRO OMNI 拖地去污力不足回報",
+          "outcome": "excluded",
+          "reviewedAt": "2026-07-11",
+          "exactModel": true,
+          "sourceExcerpt": "Dull_Caterpillar_642 回報新 DEEBOT T90 PRO OMNI 深度清潔六次仍無法移除乾掉的牛奶小污漬；其他同型號使用者回覆自己的機器可正常清除舊咖啡漬，並建議檢查是否為單機故障。",
+          "independentAuthors": 1,
+          "specificReason": "只有原貼 1 位同型號作者回報異常，且同頁另有相反的正常使用經驗；僅 Reddit 一站，較像單機故障，未達集中門檻。"
+        },
+        {
+          "url": "https://www.reddit.com/r/ecovacs/comments/1u2c2kf/",
+          "title": "Reddit：ECOVACS DEEBOT T90 PRO OMNI 清水箱誤報回報",
+          "outcome": "excluded",
+          "reviewedAt": "2026-07-11",
+          "exactModel": true,
+          "sourceExcerpt": "Obvious_Pressure3831 回報新 DEEBOT T90 PRO OMNI 已裝妥並加水，仍持續提示水箱未安裝或水位過低；原串只有排查建議，未出現第二位同型號回報者。",
+          "independentAuthors": 1,
+          "specificReason": "只有 1 位同型號第一人稱作者、1 個 Reddit 原始頁，且查核時尚無可重現的共同故障群；未達 6 人與 2 個原始網站。"
+        },
+        {
+          "url": "https://www.reddit.com/r/ecovacs/comments/1ureiz8/",
+          "title": "Reddit：ECOVACS DEEBOT T90 PRO OMNI App、導航與邊刷綜合回報",
+          "outcome": "excluded",
+          "reviewedAt": "2026-07-11",
+          "exactModel": true,
+          "sourceExcerpt": "Minituff、DollUnit、Soulandsorrow、Cobrachicken_iya、Sp4ceTruck3r、lannistersstark、soapie_38、SkiKid22、BigBadJon8976 九位同型號使用者分別回報 App／地圖、導航漏區、卡住、清潔液誤報、邊刷反覆斷裂或連續保固問題。",
+          "independentAuthors": 9,
+          "specificReason": "九位作者的問題型態分散；其中 App／地圖／導航雖在同頁達多位回報，但全部來自 Reddit 單一網站。DollUnit 也出現在另一地圖討論，跨頁去重後仍不得當成第二個網站，故未達跨站門檻。"
+        },
+        {
+          "url": "https://www.reddit.com/r/RobotVacuums/comments/1t9o84f/",
+          "title": "Reddit：ECOVACS DEEBOT T90 PRO OMNI 導航故障與退貨回報",
+          "outcome": "excluded",
+          "reviewedAt": "2026-07-11",
+          "exactModel": true,
+          "sourceExcerpt": "DeadMansOhms 回報使用一週後導航模組故障並依客服指示退貨；Due_Penalty_5883 回報地圖、AI 與小集塵盒不符需求而準備退回 T90 PRO OMNI。",
+          "independentAuthors": 2,
+          "specificReason": "只有 2 位同型號負評作者，且兩人問題並不完全相同；全部來自 Reddit，同頁其他泛稱 Deebot 或品牌回報未計入。"
+        },
+        {
+          "url": "https://www.reddit.com/r/ecovacs/comments/1uskv2z/",
+          "title": "Reddit：ECOVACS DEEBOT T90 PRO OMNI Prime Day 使用討論",
+          "outcome": "excluded",
+          "reviewedAt": "2026-07-11",
+          "exactModel": true,
+          "sourceExcerpt": "原貼作者整體滿意；一位同型號留言者回報拖地無法移除日常污漬。此串與 r/RobotVacuums 的 1uskur1 為相同內容跨貼，只保留一份候選。",
+          "independentAuthors": 1,
+          "specificReason": "負面第一人稱回報只有 1 位，且跨貼頁已去重；其餘多為正面經驗或一般建議，未達集中門檻。"
+        },
+        {
+          "url": "https://www.reddit.com/r/RobotVacuums/comments/1ugb2w4/",
+          "title": "Reddit：ECOVACS DEEBOT T90 PRO OMNI 一週導航與地圖使用回報",
+          "outcome": "excluded",
+          "reviewedAt": "2026-07-11",
+          "exactModel": true,
+          "sourceExcerpt": "原貼作者及三位同型號留言者分別回報導航繞路、地墊卡住、水痕、房間分割錯誤或 App／地圖異常後退貨；另有使用者表示調整設定後可接受。",
+          "independentAuthors": 4,
+          "specificReason": "同頁保守計入 4 位同型號負面作者，仍未達 6 位且只存在於 Reddit；設定可改善的案例也不等同硬體集中故障。"
+        },
+        {
+          "url": "https://www.reddit.com/r/ecovacs/comments/1uo11zp/",
+          "title": "Reddit：ECOVACS DEEBOT T90 PRO OMNI 跳區與導航漏掃回報",
+          "outcome": "excluded",
+          "reviewedAt": "2026-07-11",
+          "exactModel": true,
+          "sourceExcerpt": "原貼作者與四位同型號留言者回報跳過牆邊、地毯或房間區塊、定位到錯誤房間，以及相較舊 Roborock 導航退步；原貼後續以 AIVI 標準模式改善。",
+          "independentAuthors": 5,
+          "specificReason": "同一導航／漏掃問題保守有 5 位作者，尚未達 6 人且全部來自 Reddit；其中至少一例可由設定改善，也沒有第二個原始網站。"
+        },
+        {
+          "url": "https://www.reddit.com/r/RobotVacuums/comments/1ugsecq/",
+          "title": "Reddit：ECOVACS DEEBOT T90 PRO OMNI 基站排水、App 與停機回報",
+          "outcome": "excluded",
+          "reviewedAt": "2026-07-11",
+          "exactModel": true,
+          "sourceExcerpt": "三位同型號使用者分別回報基站遭寵物毛堵塞排水、App／地圖與自動集塵體驗不佳後退貨，以及使用八週後整機停機而退貨。",
+          "independentAuthors": 3,
+          "specificReason": "三人的問題分屬排水堵塞、軟體／基站體驗與整機停機，不能合併成同一缺陷；且全部來自 Reddit 單站。"
+        },
+        {
+          "url": "https://www.reddit.com/r/ecovacs/comments/1uonp8j/",
+          "title": "Reddit：ECOVACS DEEBOT T90 PRO OMNI 瑕疵換機與水箱錯誤回報",
+          "outcome": "excluded",
+          "reviewedAt": "2026-07-11",
+          "exactModel": true,
+          "sourceExcerpt": "原貼作者與兩位同型號留言者回報首台機器需換機或退貨，其中一人先遇清水箱錯誤，換機約兩週後又遇污水箱錯誤。",
+          "independentAuthors": 3,
+          "specificReason": "只有 3 位同型號作者且均來自 Reddit；個別問題包含整機瑕疵與不同水箱錯誤，未達 6 人／2 原始網站。"
+        },
+        {
+          "url": "https://www.reddit.com/r/ecovacs/comments/1u0vpsw/",
+          "title": "Reddit：ECOVACS DEEBOT T90 PRO OMNI 藍牙配對故障回報",
+          "outcome": "excluded",
+          "reviewedAt": "2026-07-11",
+          "exactModel": true,
+          "sourceExcerpt": "原貼作者回報 DEEBOT T90 PRO OMNI 無法再進入藍牙配對模式，完成客服排查後由原廠依保固更換。",
+          "independentAuthors": 1,
+          "specificReason": "只有 1 位同型號第一人稱作者與 1 個 Reddit 原始頁；已依保固換機，沒有第二個獨立網站的相同回報。"
+        },
+        {
+          "url": "https://www.reddit.com/r/RobotVacuums/comments/1us8voq/",
+          "title": "Reddit：ECOVACS DEEBOT T90 PRO OMNI 特定區域拒絕靠近回報",
+          "outcome": "excluded",
+          "reviewedAt": "2026-07-11",
+          "exactModel": true,
+          "sourceExcerpt": "原貼作者回報新 DEEBOT T90 PRO OMNI 即使機身可通過，仍拒絕靠近健身器材的斜角底座清掃；同串未出現第二位相同問題作者。",
+          "independentAuthors": 1,
+          "specificReason": "只有 1 位作者，且屬特殊健身器材幾何環境；僅 Reddit 單站，不能推廣為集中同型號缺陷。"
+        },
+        {
+          "url": "https://www.reddit.com/r/RobotVacuums/comments/1udvtrz/",
+          "title": "Reddit：ECOVACS DEEBOT T90 PRO OMNI 路徑與漏掃初期回報",
+          "outcome": "excluded",
+          "reviewedAt": "2026-07-11",
+          "exactModel": true,
+          "sourceExcerpt": "一位剛使用 DEEBOT T90 PRO OMNI 的作者回報路徑不合理、跳過區域、回基站路線怪異並留下部分毛髮，當時僅使用一天。",
+          "independentAuthors": 1,
+          "specificReason": "只有 1 位作者且使用時間僅一天，尚可能受初始建圖與設定影響；只有 Reddit 一個網站。"
+        },
+        {
+          "url": "https://www.reddit.com/r/ecovacs/comments/1tg3y5h/",
+          "title": "Reddit：ECOVACS DEEBOT T90 PRO OMNI 韌體更新失敗回報",
+          "outcome": "excluded",
+          "reviewedAt": "2026-07-11",
+          "exactModel": true,
+          "sourceExcerpt": "一位同型號使用者回報韌體安裝持續卡在 1%，完成客服處理後由原廠換機並升級；同串其他留言有型號或韌體版本不一致情形，未計入。",
+          "independentAuthors": 1,
+          "specificReason": "只有 1 位可確認的同型號第一人稱作者，且原廠已換機處理；僅 Reddit 單站，未形成集中回報。"
+        }
+      ]
+    },
+    {
+      "id": "robot-ecovacs-x12-pro",
+      "category": "robot",
+      "brand": "Ecovacs",
+      "model": "DEEBOT X12 PRO OMNI",
+      "reviewedAt": "2026-07-11",
+      "reviewBatch": "robot",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "Mobile01",
+        "Reddit"
+      ],
+      "queries": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Ecovacs DEEBOT X12 PRO OMNI\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Ecovacs%20DEEBOT%20X12%20PRO%20OMNI%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "Reddit",
+          "query": "\"Ecovacs DEEBOT X12 PRO OMNI\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.reddit.com/search/?q=%22Ecovacs%20DEEBOT%20X12%20PRO%20OMNI%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "targetHost": "reddit.com"
+        }
+      ],
+      "candidateDisposition": "DEEBOT X12 PRO OMNI：搜尋結果只明示 X12／X12 OMNI，無法確認為完整同型號 DEEBOT X12 PRO OMNI；型號邊界過濾後未留下 exact-model 候選。",
+      "representativeSources": [],
+      "reviewerNote": "DEEBOT X12 PRO OMNI 已人工覆核 Mobile01 與 Reddit 跨站查詢；可見頁面未完整明示 PRO OMNI 型號，故依嚴格型號邊界排除，不把相鄰 X12 變體當成同型號證據。",
+      "attestation": "manual_cross_site_search_reviewed_no_candidate",
+      "candidateReviews": []
+    },
+    {
+      "id": "robot-xiaomi-h50-pro",
+      "category": "robot",
+      "brand": "Xiaomi",
+      "model": "H50 Pro",
+      "reviewedAt": "2026-07-11",
+      "reviewBatch": "robot",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "Mobile01",
+        "Reddit",
+        "PChome",
+        "Yahoo購物"
+      ],
+      "queries": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Xiaomi H50 Pro\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Xiaomi%20H50%20Pro%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "Reddit",
+          "query": "\"Xiaomi H50 Pro\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.reddit.com/search/?q=%22Xiaomi%20H50%20Pro%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "targetHost": "reddit.com"
+        }
+      ],
+      "candidateDisposition": "H50 Pro：已逐頁人工覆核 5 個 exact-model 候選；所有同類問題均未同時達到 6 位獨立作者與 2 個原始網站。",
+      "representativeSources": [
+        {
+          "platform": "Mobile01",
+          "title": "Mobile01：Xiaomi H50 Pro 污水箱偵測異常",
+          "url": "https://www.mobile01.com/topicdetail.php?f=728&t=7264391"
+        },
+        {
+          "platform": "Reddit",
+          "title": "Reddit：Xiaomi H50 Pro 抗纏繞主刷效果回報",
+          "url": "https://www.reddit.com/r/vacuumcleanerparts/comments/1uk0ny5/which_tricut_brush_is_compatible_with_the_xiaomi/"
+        },
+        {
+          "platform": "Reddit",
+          "title": "Reddit：Xiaomi H50 Pro TriCut 相容性跨貼",
+          "url": "https://www.reddit.com/r/RobotVacuums/comments/1uk0pwh/which_tricut_brush_is_compatible_with_the_xiaomi/"
+        },
+        {
+          "platform": "PChome",
+          "title": "PChome：Xiaomi H50 Pro 商品評價",
+          "url": "https://24h.pchome.com.tw/prod/DMBL53-A900JQLI9"
+        },
+        {
+          "platform": "Yahoo購物",
+          "title": "Yahoo購物：Xiaomi H50 Pro 商品評價",
+          "url": "https://tw.buy.yahoo.com/gdsale/gdsale.asp?act=ACT250408007&gdid=12003487&hpp=ACT250408007&sw=cf5769af395e3a33"
+        }
+      ],
+      "reviewerNote": "H50 Pro 已人工覆核 Mobile01、Reddit 與可見零售原始頁；決策為 no_common_issue，少量早期回報保留供後續追蹤。",
+      "attestation": "manual_original_pages_reviewed",
+      "candidateReviews": [
+        {
+          "url": "https://www.mobile01.com/topicdetail.php?f=728&t=7264391",
+          "title": "Mobile01：Xiaomi H50 Pro 污水箱偵測異常",
+          "outcome": "excluded",
+          "reviewedAt": "2026-07-11",
+          "exactModel": true,
+          "sourceExcerpt": "twdreamjimmy 回報台灣首波 H50 Pro 新機尚未開始掃拖便持續顯示污水箱已滿或未安裝，確認空箱並重新插電後仍未恢復。",
+          "independentAuthors": 1,
+          "specificReason": "只有 1 位作者、1 個原始網站，未達 6 人／2 站門檻；保留作基站感測追蹤候選。"
+        },
+        {
+          "url": "https://www.reddit.com/r/vacuumcleanerparts/comments/1uk0ny5/which_tricut_brush_is_compatible_with_the_xiaomi/",
+          "title": "Reddit：Xiaomi H50 Pro 抗纏繞主刷效果回報",
+          "outcome": "excluded",
+          "reviewedAt": "2026-07-11",
+          "exactModel": true,
+          "sourceExcerpt": "AdamH21 表示自用 H50 Pro 宣稱的抗纏繞主刷效果令他失望，遠不及 5 Pro TriCut。",
+          "independentAuthors": 1,
+          "specificReason": "只有 1 位作者且與另一個 subreddit 連結為同作者跨貼；去重後仍是 Reddit 單站 1 人。",
+          "crossPostKey": "h50-pro-adamh21-tricut"
+        },
+        {
+          "url": "https://www.reddit.com/r/RobotVacuums/comments/1uk0pwh/which_tricut_brush_is_compatible_with_the_xiaomi/",
+          "title": "Reddit：Xiaomi H50 Pro TriCut 相容性跨貼",
+          "outcome": "excluded",
+          "reviewedAt": "2026-07-11",
+          "exactModel": true,
+          "sourceExcerpt": "AdamH21 將同一則 H50 Pro 抗纏繞主刷問題跨貼到另一個 subreddit。",
+          "independentAuthors": 1,
+          "specificReason": "與 vacuumcleanerparts 原頁為同一作者、同一問題的跨站內轉貼；reddit.com 只能算同一網站且作者需去重。",
+          "crossPostKey": "h50-pro-adamh21-tricut"
+        },
+        {
+          "url": "https://24h.pchome.com.tw/prod/DMBL53-A900JQLI9",
+          "title": "PChome：Xiaomi H50 Pro 商品評價",
+          "outcome": "excluded",
+          "reviewedAt": "2026-07-11",
+          "exactModel": true,
+          "sourceExcerpt": "邱**回報床下深入區域會被排除；劉**回報邊邊角角較難清潔到位，兩人反映的問題並不相同。",
+          "independentAuthors": 2,
+          "specificReason": "同頁只有 2 位作者且問題不相同，無法形成同一問題的 6 人門檻，也未跨第二原始網站。"
+        },
+        {
+          "url": "https://tw.buy.yahoo.com/gdsale/gdsale.asp?act=ACT250408007&gdid=12003487&hpp=ACT250408007&sw=cf5769af395e3a33",
+          "title": "Yahoo購物：Xiaomi H50 Pro 商品評價",
+          "outcome": "excluded",
+          "reviewedAt": "2026-07-11",
+          "exactModel": true,
+          "sourceExcerpt": "Karen Chiu 詢問水箱內管線變化是否正常但文字不足以判斷；攝**認為水箱提把易失力且掀蓋費力，但明說機器本身沒問題。",
+          "independentAuthors": 0,
+          "specificReason": "兩則文字都不足以成立可計數的同型號故障：一則需照片才能判讀，另一則明確表示機器本身沒有問題。"
+        }
+      ]
+    },
+    {
+      "id": "dehumidifier-whirlpool-wdee1200tw",
+      "category": "dehumidifier",
+      "brand": "Whirlpool",
+      "model": "WDEE1200TW",
+      "reviewedAt": "2026-07-11",
+      "reviewBatch": "dehumidifier",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "Mobile01",
+        "Reddit",
+        "Dcard",
+        "momo購物"
+      ],
+      "queries": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Whirlpool WDEE1200TW\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Whirlpool%20WDEE1200TW%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "Reddit",
+          "query": "\"Whirlpool WDEE1200TW\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.reddit.com/search/?q=%22Whirlpool%20WDEE1200TW%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "targetHost": "reddit.com"
+        },
+        {
+          "platform": "Dcard",
+          "query": "site:dcard.tw \"Whirlpool WDEE1200TW\"",
+          "queryUrl": "https://www.google.com/search?q=site%3Adcard.tw%20%22Whirlpool%20WDEE1200TW%22",
+          "targetHost": "dcard.tw"
+        }
+      ],
+      "candidateDisposition": "WDEE1200TW：已逐頁人工覆核 2 個 exact-model 候選；momo 有單站集中噪音回報，但沒有第二個獨立原始網站支持相同問題。",
+      "representativeSources": [
+        {
+          "platform": "momo購物",
+          "title": "momo：Whirlpool WDEE1200TW 商品評論",
+          "url": "https://www.momoshop.com.tw/product/15034893"
+        },
+        {
+          "platform": "Mobile01",
+          "title": "Mobile01：Whirlpool WDEE1200TW 清淨除濕機建議",
+          "url": "https://www.mobile01.com/topicdetail.php?f=731&t=7249083"
+        }
+      ],
+      "reviewerNote": "WDEE1200TW 已人工檢視 Mobile01 與 momo 原始頁，並完成 Reddit、Dcard exact-model 查詢；momo 評論依遮罩顯示名稱保守去重，決策維持 no_common_issue。",
+      "attestation": "manual_original_pages_reviewed",
+      "candidateReviews": [
+        {
+          "url": "https://www.momoshop.com.tw/product/15034893",
+          "title": "momo：Whirlpool WDEE1200TW 商品評論",
+          "outcome": "excluded",
+          "reviewedAt": "2026-07-11",
+          "exactModel": true,
+          "sourceExcerpt": "134 則評價中有 70 則文字評論；排除正向聲音評價、同遮罩姓名重複與間接敘述後，至少 16 個不同遮罩顯示名稱明確回報運轉或馬達聲偏大、機身共振，或睡眠模式仍吵。",
+          "independentAuthors": 16,
+          "specificReason": "相同噪音／共振問題雖在 momo 單站超過 6 個不同遮罩作者，但獨立原始網站數只有 1；Mobile01、Reddit、Dcard 未找到第二站同型號第一人稱相同問題，未達跨至少 2 站門檻。"
+        },
+        {
+          "url": "https://www.mobile01.com/topicdetail.php?f=731&t=7249083",
+          "title": "Mobile01：Whirlpool WDEE1200TW 清淨除濕機建議",
+          "outcome": "excluded",
+          "reviewedAt": "2026-07-11",
+          "exactModel": true,
+          "sourceExcerpt": "樓主在購買前比較 WDEE1200TW 與 WDEE123HTW；回覆主要討論 HEPA、其他品牌與促銷，沒有 WDEE1200TW 擁有者回報實際故障或負面使用問題。",
+          "independentAuthors": 0,
+          "specificReason": "屬購前選購與功能取捨討論，沒有 exact-model 第一人稱負評，不能計入相同問題作者數。"
         }
       ]
     }

@@ -16,9 +16,9 @@
     "name": "全能機械手臂旗艦掃拖王者",
     "price": {
       "currency": "TWD",
-      "amount": 36980,
-      "converted": 36980,
-      "confidence": "可信通路查核價"
+      "amount": 39980,
+      "converted": 39980,
+      "confidence": "PChome 2026-07-11 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL1CA900IGHHM/000001_1782870336.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBL1C-A900IGHHM",
@@ -29,7 +29,7 @@
       "7.98cm 超薄",
       "80 度熱洗"
     ],
-    "description": "Roborock Saros Z70 是旗艦級掃拖機器人，這筆以 2026-07-09 台灣通路可查售價與規格整理。",
+    "description": "Roborock Saros Z70 是旗艦級掃拖機器人，這筆以 2026-07-11 台灣通路可查售價與規格整理。",
     "pros": [
       "規格完整、清潔自動化程度高",
       "避障、拖地或基站通常是品牌當代主力"
@@ -94,9 +94,9 @@
     "name": "跨越奇兵旗艦掃拖王者水立方版",
     "price": {
       "currency": "TWD",
-      "amount": 34980,
-      "converted": 34980,
-      "confidence": "可信通路查核價"
+      "amount": 36980,
+      "converted": 36980,
+      "confidence": "PChome 2026-07-11 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL1CA900JNELR/000001_1769062030.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBL1C-A900JNELR",
@@ -107,7 +107,7 @@
       "雙門檻越障",
       "旗艦水立方基站"
     ],
-    "description": "Roborock Saros 20 水立方 是旗艦級掃拖機器人，這筆以 2026-07-09 台灣通路可查售價與規格整理。",
+    "description": "Roborock Saros 20 水立方 是旗艦級掃拖機器人，這筆以 2026-07-11 台灣通路可查售價與規格整理。",
     "pros": [
       "規格完整、清潔自動化程度高",
       "避障、拖地或基站通常是品牌當代主力"
@@ -329,9 +329,9 @@
     "name": "滾筒全自動洗拖烘掃地機器人",
     "price": {
       "currency": "TWD",
-      "amount": 19999,
-      "converted": 19999,
-      "confidence": "可信通路查核價"
+      "amount": 22888,
+      "converted": 22888,
+      "confidence": "PChome 2026-07-11 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL1CA900JA04J/000001_1783562731.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBL1C-A900JA04J",
@@ -342,7 +342,7 @@
       "自動洗烘",
       "全能基站"
     ],
-    "description": "Roborock Qrevo Curv 2 Flow 是次旗艦級掃拖機器人，這筆以 2026-07-09 台灣通路可查售價與規格整理。",
+    "description": "Roborock Qrevo Curv 2 Flow 是次旗艦級掃拖機器人，這筆以 2026-07-11 台灣通路可查售價與規格整理。",
     "pros": [
       "保留多數高階功能",
       "價格通常比旗艦更容易入手"
@@ -555,7 +555,7 @@
   {
     "id": "robot-ecovacs-t80-omni",
     "category": "robot",
-    "rank": 8,
+    "rank": 10,
     "budget": "mid",
     "channel": "tw",
     "brand": "Ecovacs",
@@ -595,37 +595,56 @@
       "滾筒洗地",
       "貼邊清潔"
     ],
-    "releaseDate": "2026-06-19",
+    "releaseDate": "2025-05",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 15299,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
-      "checkedAt": "2026-07-09",
-      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ Ecovacs DEEBOT T80 OMNI: Momo富邦購物 (店+)[可藍] 9件耗材套裝 適用 ECOVACS 科沃斯 DEEBOT T80 OMNI 集塵袋 滾刷 濾芯 滾筒布 邊刷 型號/規格不相符；LBJ Ecovacs DEEBOT T80 OMNI: Momo富邦購物 【CHAK】ECOVACS科沃斯 DEEBOT X8 PRO OMNI / T80 OMNI 副廠掃拖機配件超值組(集塵袋6入組) 型號/規格不相符；LBJ Ecovacs DEEBOT T80 OMNI: Yahoo購物中心 【CHAK】ECOVACS科沃斯 DEEBOT X8 PRO OMNI / T80 OMNI 副廠掃拖機配件超值組(集塵袋6入組) 型號/規格不相符。"
+      "converted": 15299,
+      "sourceUrl": "https://24h.pchome.com.tw/prod/DMBL0L-A900IT3IU",
+      "sourceTitle": "PChome 24h：ECOVACS DEEBOT T80 OMNI 限時 9 折",
+      "evidenceSnippet": "同一新品商品頁公開活動顯示「限時下殺 07/09–07/10 任選1件享9折」、「折扣價 $15,299」與「網路價 $16,999」。",
+      "sourceKind": "retailer_promo",
+      "confidence": "high",
+      "checkedAt": "2026-07-11",
+      "note": "同型號新品通路的公開任選一件 9 折活動，非會員個人化折扣、信用卡回饋或點數；2026-07-11 PChome API 已回到 NT$16,999，故保留 NT$15,299 為已結束、可驗證的入手價。"
     },
     "issueResearch": {
-      "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
-      "summary": "截至查核日，查無達門檻的集中負評／災情",
-      "issues": [],
-      "checkedSources": [
+      "status": "common_issue",
+      "checkedAt": "2026-07-11",
+      "summary": "多位 DEEBOT T80 OMNI 使用者跨站回報，拖地後滾筒、機內污水箱或水路容易產生明顯異味，需要頻繁清洗與晾乾。",
+      "issues": [
         {
-          "platform": "Mobile01",
-          "query": "site:mobile01.com \"Ecovacs DEEBOT T80 OMNI\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Ecovacs%20DEEBOT%20T80%20OMNI%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
-          "targetHost": "mobile01.com"
-        },
-        {
-          "platform": "Reddit",
-          "query": "\"Ecovacs DEEBOT T80 OMNI\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22Ecovacs%20DEEBOT%20T80%20OMNI%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
-          "targetHost": "reddit.com"
+          "title": "拖地後滾筒／污水路徑異味",
+          "detail": "回報涵蓋滾筒拖布、機內污水箱與清潔縫隙；部分可藉由清洗、晾乾或清潔錠暫時改善，也有污水未正常排空而送修仍未解決的案例。若對異味敏感，應在退換貨期內連續測試拖地、基站排水與烘乾，並依原廠方式清潔水路。",
+          "reportCount": 6,
+          "sources": [
+            {
+              "platform": "Reddit",
+              "title": "T80 dirt water Tank Always full",
+              "url": "https://www.reddit.com/r/ecovacs/comments/1pgc172/t80_dirt_water_tank_always_full/"
+            },
+            {
+              "platform": "Reddit",
+              "title": "Is the T80S Omni worth it?",
+              "url": "https://www.reddit.com/r/ecovacs/comments/1ue7oax/is_the_t80s_omni_worth_it/"
+            },
+            {
+              "platform": "Reddit",
+              "title": "I will always avoid Ecovacs like the plague.",
+              "url": "https://www.reddit.com/r/RobotVacuums/comments/1un38ek/i_will_always_avoid_ecovacs_like_the_plague/"
+            },
+            {
+              "platform": "Reddit",
+              "title": "Which robot vacuum needs the least amount of maintenance?",
+              "url": "https://www.reddit.com/r/RobotVacuums/comments/1rugldo/which_robot_vacuum_needs_the_least_amount_of/"
+            },
+            {
+              "platform": "Mobile01",
+              "title": "第一次買掃拖機器人，科沃斯T80 OMNI推薦嗎~",
+              "url": "https://www.mobile01.com/topicdetail.php?f=728&t=7248442"
+            }
+          ]
         }
       ]
     }
@@ -633,7 +652,7 @@
   {
     "id": "robot-ecovacs-t50-pro",
     "category": "robot",
-    "rank": 9,
+    "rank": 11,
     "budget": "mid",
     "channel": "tw",
     "brand": "Ecovacs",
@@ -711,7 +730,7 @@
   {
     "id": "robot-ecovacs-n50",
     "category": "robot",
-    "rank": 10,
+    "rank": 12,
     "budget": "mid",
     "channel": "tw",
     "brand": "Ecovacs",
@@ -789,7 +808,7 @@
   {
     "id": "robot-dreame-x60-master",
     "category": "robot",
-    "rank": 11,
+    "rank": 13,
     "budget": "premium",
     "channel": "tw",
     "brand": "Dreame",
@@ -867,7 +886,7 @@
   {
     "id": "robot-dreame-d30-ultra-ce",
     "category": "robot",
-    "rank": 12,
+    "rank": 14,
     "budget": "mid",
     "channel": "tw",
     "brand": "Dreame",
@@ -945,7 +964,7 @@
   {
     "id": "robot-narwal-freo-z-ultra",
     "category": "robot",
-    "rank": 13,
+    "rank": 15,
     "budget": "premium",
     "channel": "tw",
     "brand": "Narwal",
@@ -1023,7 +1042,7 @@
   {
     "id": "robot-narwal-flow-2",
     "category": "robot",
-    "rank": 14,
+    "rank": 16,
     "budget": "premium",
     "channel": "global",
     "brand": "Narwal",
@@ -1101,7 +1120,7 @@
   {
     "id": "robot-narwal-freo-z10-ultra",
     "category": "robot",
-    "rank": 15,
+    "rank": 17,
     "budget": "mid",
     "channel": "global",
     "brand": "Narwal",
@@ -1179,7 +1198,7 @@
   {
     "id": "robot-irobot-max-705",
     "category": "robot",
-    "rank": 16,
+    "rank": 18,
     "budget": "premium",
     "channel": "tw",
     "brand": "iRobot",
@@ -1187,9 +1206,9 @@
     "name": "全能滾筒旗艦機皇掃拖機器人",
     "price": {
       "currency": "TWD",
-      "amount": 29380,
-      "converted": 29380,
-      "confidence": "PChome 2026-07-10 API 查核價"
+      "amount": 31880,
+      "converted": 31880,
+      "confidence": "PChome 2026-07-11 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL0JA900JCCJT/000001_1782802020.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBL0J-A900JCCJT",
@@ -1200,7 +1219,7 @@
       "自動基站",
       "Combo 系列"
     ],
-    "description": "iRobot Roomba Max 705 Combo 是旗艦級掃拖機器人，這筆以 2026-07-09 台灣通路可查售價與規格整理。",
+    "description": "iRobot Roomba Max 705 Combo 是旗艦級掃拖機器人，這筆以 2026-07-11 台灣通路可查售價與規格整理。",
     "pros": [
       "規格完整、清潔自動化程度高",
       "避障、拖地或基站通常是品牌當代主力"
@@ -1276,7 +1295,7 @@
   {
     "id": "robot-irobot-plus-505",
     "category": "robot",
-    "rank": 17,
+    "rank": 19,
     "budget": "mid",
     "channel": "tw",
     "brand": "iRobot",
@@ -1284,9 +1303,9 @@
     "name": "熱旋風延邊避障全能掃拖機器人",
     "price": {
       "currency": "TWD",
-      "amount": 19880,
-      "converted": 19880,
-      "confidence": "PChome 2026-07-10 API 查核價"
+      "amount": 21880,
+      "converted": 21880,
+      "confidence": "PChome 2026-07-11 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL0JA900ITF7U/000001_1782802931.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBL0J-A900ITF7U",
@@ -1297,7 +1316,7 @@
       "全能掃拖",
       "自動基站"
     ],
-    "description": "iRobot Roomba Plus 505 Combo 是次旗艦級掃拖機器人，這筆以 2026-07-09 台灣通路可查售價與規格整理。",
+    "description": "iRobot Roomba Plus 505 Combo 是次旗艦級掃拖機器人，這筆以 2026-07-11 台灣通路可查售價與規格整理。",
     "pros": [
       "保留多數高階功能",
       "價格通常比旗艦更容易入手"
@@ -1363,7 +1382,7 @@
   {
     "id": "robot-irobot-plus-405",
     "category": "robot",
-    "rank": 18,
+    "rank": 20,
     "budget": "mid",
     "channel": "tw",
     "brand": "iRobot",
@@ -1441,7 +1460,7 @@
   {
     "id": "robot-irobot-205-combo",
     "category": "robot",
-    "rank": 19,
+    "rank": 21,
     "budget": "mid",
     "channel": "tw",
     "brand": "iRobot",
@@ -1449,9 +1468,9 @@
     "name": "自動壓縮集塵掃拖機器人",
     "price": {
       "currency": "TWD",
-      "amount": 13380,
-      "converted": 13380,
-      "confidence": "PChome 2026-07-10 API 查核價"
+      "amount": 14880,
+      "converted": 14880,
+      "confidence": "PChome 2026-07-11 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL0JA900J02LR/000001_1782803287.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBL0J-A900J02LR",
@@ -1462,7 +1481,7 @@
       "Combo 系列",
       "極夜黑"
     ],
-    "description": "iRobot Roomba 205 Combo 是次旗艦級掃拖機器人，這筆以 2026-07-09 台灣通路可查售價與規格整理。",
+    "description": "iRobot Roomba 205 Combo 是次旗艦級掃拖機器人，這筆以 2026-07-11 台灣通路可查售價與規格整理。",
     "pros": [
       "保留多數高階功能",
       "價格通常比旗艦更容易入手"
@@ -1519,7 +1538,7 @@
   {
     "id": "robot-eufy-omni-s2",
     "category": "robot",
-    "rank": 20,
+    "rank": 22,
     "budget": "premium",
     "channel": "tw",
     "brand": "eufy",
@@ -1597,7 +1616,7 @@
   {
     "id": "robot-eufy-omni-e25",
     "category": "robot",
-    "rank": 21,
+    "rank": 23,
     "budget": "mid",
     "channel": "tw",
     "brand": "eufy",
@@ -1675,7 +1694,7 @@
   {
     "id": "robot-eufy-omni-c28",
     "category": "robot",
-    "rank": 22,
+    "rank": 24,
     "budget": "mid",
     "channel": "tw",
     "brand": "eufy",
@@ -1753,7 +1772,7 @@
   {
     "id": "robot-mova-s70-ultra-roller",
     "category": "robot",
-    "rank": 23,
+    "rank": 25,
     "budget": "premium",
     "channel": "tw",
     "brand": "MOVA",
@@ -1831,7 +1850,7 @@
   {
     "id": "robot-mova-s70-roller",
     "category": "robot",
-    "rank": 24,
+    "rank": 26,
     "budget": "mid",
     "channel": "tw",
     "brand": "MOVA",
@@ -1909,7 +1928,7 @@
   {
     "id": "robot-lg-r5t-ultimate",
     "category": "robot",
-    "rank": 25,
+    "rank": 27,
     "budget": "mid",
     "channel": "tw",
     "brand": "LG",
@@ -1987,7 +2006,7 @@
   {
     "id": "robot-lg-r5-proplus",
     "category": "robot",
-    "rank": 26,
+    "rank": 28,
     "budget": "mid",
     "channel": "tw",
     "brand": "LG",
@@ -2065,7 +2084,7 @@
   {
     "id": "robot-shark-powerdetect-nevertouch-pro",
     "category": "robot",
-    "rank": 27,
+    "rank": 29,
     "budget": "premium",
     "channel": "global",
     "brand": "Shark",
@@ -2143,7 +2162,7 @@
   {
     "id": "robot-dyson-spot-scrub-ai",
     "category": "robot",
-    "rank": 28,
+    "rank": 30,
     "budget": "premium",
     "channel": "global",
     "brand": "Dyson",
@@ -2221,7 +2240,7 @@
   {
     "id": "robot-costco-us-roborock-qx-revo",
     "category": "robot",
-    "rank": 29,
+    "rank": 31,
     "budget": "mid",
     "channel": "global",
     "brand": "Roborock",
@@ -2303,7 +2322,7 @@
   {
     "id": "robot-costco-eufy-e20",
     "category": "robot",
-    "rank": 30,
+    "rank": 32,
     "budget": "mid",
     "channel": "tw",
     "brand": "eufy",
@@ -2384,7 +2403,7 @@
   {
     "id": "robot-xiaomi-vacuum-6-max",
     "category": "robot",
-    "rank": 31,
+    "rank": 33,
     "budget": "premium",
     "channel": "tw",
     "brand": "Xiaomi",
@@ -2392,13 +2411,13 @@
     "name": "Xiaomi 掃拖機器人 6 Max",
     "price": {
       "currency": "TWD",
-      "amount": 23999,
-      "converted": 23999,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 22800,
+      "converted": 22800,
+      "confidence": "Yahoo 購物中心 2026-07-11 頁面低價查核"
     },
-    "image": "https://cs-a.ecimg.tw/items/DMBL53A900K37A4/000001_1781505277.jpg",
-    "buyUrl": "https://24h.pchome.com.tw/prod/DMBL53-A900K37A4",
-    "buyLabel": "PChome",
+    "image": "https://img.yec.tw/zp/MerchandiseImages/5A801ABE6A-SP-22823743.jpg",
+    "buyUrl": "https://tw.buy.yahoo.com/gdsale/小米-Xiaomi-掃拖機器人-6-Max-官方旗艦館-12134974.html",
+    "buyLabel": "Yahoo購物",
     "specs": [
       "35,000Pa 吸力",
       "滾刷活水洗地、貼邊拖布與外擴邊刷",
@@ -2460,6 +2479,258 @@
           "platform": "Reddit",
           "query": "\"Xiaomi Robot Vacuum 6 Max\" (problem OR issue OR defect OR negative review)",
           "queryUrl": "https://www.reddit.com/search/?q=%22Xiaomi%20Robot%20Vacuum%206%20Max%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "targetHost": "reddit.com"
+        }
+      ]
+    }
+  },
+  {
+    "id": "robot-ecovacs-t90-pro",
+    "category": "robot",
+    "rank": 9,
+    "budget": "premium",
+    "channel": "tw",
+    "brand": "Ecovacs",
+    "model": "DEEBOT T90 PRO OMNI",
+    "name": "ECOVACS DEEBOT T90 PRO OMNI",
+    "price": {
+      "currency": "TWD",
+      "amount": 20999,
+      "converted": 20999,
+      "confidence": "PChome 2026-07-11 API 查核價"
+    },
+    "image": "https://cs-a.ecimg.tw/items/DMBL0LA900JWVON/000001_1776138874.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DMBL0L-A900JWVON",
+    "buyLabel": "PChome",
+    "specs": [
+      "27cm OZMO Roller 3.0；32 孔活水、200rpm",
+      "30,000Pa 吸力；16L/s 風量",
+      "TruEdge 3.0 貼邊、ZeroTangle 4.0 防纏繞",
+      "AIVI 3D 4.0 避障；機身高度 95mm",
+      "單階 2.4cm／連續門檻 4cm",
+      "75°C 熱水洗滾筒；PowerBoost 快充"
+    ],
+    "description": "ECOVACS 2026 年高階滾筒掃拖款，補入 T80 OMNI 之上的 30,000Pa、AIVI 3D 4.0 與 75°C 洗滾筒比較位置。",
+    "pros": [
+      "台灣官方規格與可信通路新品頁完整",
+      "滾筒、貼邊、防纏繞與避障規格全面",
+      "20K 級價格可和其他品牌旗艦比較"
+    ],
+    "cons": [
+      "新品長期可靠度與耗材成本仍需追蹤",
+      "Reddit 同站已有多位使用者反映 App／建圖、跳區與導航不穩；尚未跨第二原始網站達災情門檻",
+      "全能基站需預留散熱與維護空間"
+    ],
+    "bestFor": "想升級高吸力滾筒掃拖、重視貼邊與避障，但預算不想突破三萬元的人。",
+    "recommendation": "新品補充：T90 PRO OMNI 是 T80 之上的直接升級比較款；目前規格與台灣售價有競爭力，但單站 App／導航回報較集中，建議保留退換貨期完整測試。",
+    "score": 92,
+    "voltage": "110V 台灣官方通路；基站請使用穩定插座",
+    "warranty": "依 ECOVACS 台灣與 PChome/供應商頁面",
+    "tags": [
+      "ECOVACS",
+      "滾筒洗地",
+      "30,000Pa",
+      "AIVI 3D 4.0",
+      "75°C 洗滾筒"
+    ],
+    "releaseDate": "2026-02-20",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-07-11",
+      "note": "已查 BigGo、FindPrice 與 LBJ 的完整型號 ECOVACS DEEBOT T90 PRO OMNI；可信新品頁只足以驗證目前售價，未找到同型號可公開驗證的歷史價格序列，因此不以現價推定史低。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-07-11",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"ECOVACS DEEBOT T90 PRO OMNI\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22ECOVACS%20DEEBOT%20T90%20PRO%20OMNI%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "Reddit",
+          "query": "\"ECOVACS DEEBOT T90 PRO OMNI\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.reddit.com/search/?q=%22ECOVACS%20DEEBOT%20T90%20PRO%20OMNI%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "targetHost": "reddit.com"
+        }
+      ]
+    }
+  },
+  {
+    "id": "robot-ecovacs-x12-pro",
+    "category": "robot",
+    "rank": 8,
+    "budget": "premium",
+    "channel": "tw",
+    "brand": "Ecovacs",
+    "model": "DEEBOT X12 PRO OMNI",
+    "name": "ECOVACS DEEBOT X12 PRO OMNI",
+    "price": {
+      "currency": "TWD",
+      "amount": 29999,
+      "converted": 29999,
+      "confidence": "PChome 2026-07-11 API 查核價"
+    },
+    "image": "https://cs-a.ecimg.tw/items/DMBL0LA900JS61Y/000001_1772592930.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DMBL0L-A900JS61Y",
+    "buyLabel": "PChome",
+    "specs": [
+      "FocusJet 定點增壓洗地",
+      "27cm OZMO Roller 3.0；32 路活水",
+      "22,000Pa 吸力；22L/s 風量",
+      "滾筒遮罩、15mm 抬升與 TruEdge 2.58cm 外擴",
+      "ZeroTangle 4.0；AIVI 3D 4.0 避障",
+      "單階 2.4cm／連續門檻 4cm；PowerBoost"
+    ],
+    "description": "ECOVACS 2026 年台灣旗艦滾筒掃拖機，主打 FocusJet 定點增壓、滾筒遮罩與抬升、AIVI 3D 4.0 與高風量。",
+    "pros": [
+      "台灣官方旗艦規格與可信新品通路齊全",
+      "滾筒遮罩、抬升與定點增壓適合混合地面",
+      "基站與避障規格完整"
+    ],
+    "cons": [
+      "接近三萬元，需和 T90 PRO 及他牌旗艦衡量價差",
+      "搜尋到的 X12 相近型號頁未完整明示 PRO OMNI，不能直接當成同型號負評",
+      "新機長期可靠度仍需觀察"
+    ],
+    "bestFor": "重視滾筒洗地、地毯隔離、污漬定點增壓與完整旗艦基站的人。",
+    "recommendation": "新品補充：X12 PRO OMNI 是 X11 系列之後的台灣旗艦比較款；功能完整，但價差與新品長期可靠度仍值得保留觀察期。",
+    "score": 93,
+    "voltage": "110V 台灣官方通路；基站請使用穩定插座",
+    "warranty": "依 ECOVACS 台灣與 PChome/供應商頁面",
+    "tags": [
+      "ECOVACS",
+      "FocusJet",
+      "滾筒洗地",
+      "AIVI 3D 4.0",
+      "旗艦"
+    ],
+    "releaseDate": "2026-04-02",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-07-11",
+      "note": "已查 BigGo、FindPrice 與 LBJ 的完整型號 ECOVACS DEEBOT X12 PRO OMNI；可信新品頁只足以驗證目前售價，未找到同型號可公開驗證的歷史價格序列，因此不以現價推定史低。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-07-11",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"ECOVACS DEEBOT X12 PRO OMNI\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22ECOVACS%20DEEBOT%20X12%20PRO%20OMNI%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "Reddit",
+          "query": "\"ECOVACS DEEBOT X12 PRO OMNI\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.reddit.com/search/?q=%22ECOVACS%20DEEBOT%20X12%20PRO%20OMNI%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "targetHost": "reddit.com"
+        }
+      ]
+    }
+  },
+  {
+    "id": "robot-xiaomi-h50-pro",
+    "category": "robot",
+    "rank": 34,
+    "budget": "mid",
+    "channel": "tw",
+    "brand": "Xiaomi",
+    "model": "H50 Pro",
+    "name": "Xiaomi 掃拖機器人 H50 Pro",
+    "price": {
+      "currency": "TWD",
+      "amount": 10450,
+      "converted": 10450,
+      "confidence": "Yahoo 購物中心 2026-07-11 頁面低價查核"
+    },
+    "image": "https://img.yec.tw/zp/MerchandiseImages/DBA14833A1-SP-22450109.jpg",
+    "buyUrl": "https://tw.buy.yahoo.com/gdsale/小米-Xiaomi-掃拖機器人-H50-Pro-12052496.html",
+    "buyLabel": "Yahoo購物",
+    "specs": [
+      "15,000Pa 吸力",
+      "掃／拖雙機械臂；主刷與邊刷雙抗纏繞",
+      "129° 結構光避障",
+      "雙旋轉拖布；地毯拖布抬升",
+      "5200mAh 電池",
+      "全能基站：洗烘、集塵與底盤清潔"
+    ],
+    "description": "Xiaomi 2026 年台灣中階全能基站款，以約萬元價格提供 15,000Pa、結構光避障、雙機械臂與自動洗烘集塵。",
+    "pros": [
+      "台灣官方型號與可信自營通路可買",
+      "萬元級具全能基站、結構光與雙機械臂",
+      "官方規格標示 100–120V，台灣適用"
+    ],
+    "cons": [
+      "已有少量污水箱偵測、抗纏繞與邊角清潔回報，未達集中災情門檻",
+      "避障與貼邊表現仍不等同兩萬元以上旗艦",
+      "水箱與底盤仍需定期人工清潔"
+    ],
+    "bestFor": "預算約一萬元、想要台灣公司貨全能基站與基本避障的人。",
+    "recommendation": "新品補充：H50 Pro 不是 6 Max 後繼，而是更平價的中階全能基站選擇；CP 值突出，但建議保留退換貨期實測基站感測與邊角清潔。",
+    "score": 89,
+    "voltage": "工作站 100–120V、50/60Hz；台灣官方規格",
+    "warranty": "依 Xiaomi 台灣與 Yahoo 購物中心頁面",
+    "tags": [
+      "Xiaomi",
+      "15,000Pa",
+      "全能基站",
+      "結構光避障",
+      "中階 CP 值"
+    ],
+    "releaseDate": "2026-03-06",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-07-11",
+      "note": "已查 BigGo、FindPrice 與 LBJ 的完整型號 Xiaomi H50 Pro；可信新品頁只足以驗證目前售價，未找到同型號可公開驗證的歷史價格序列，因此不以現價推定史低。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-07-11",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Xiaomi H50 Pro\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Xiaomi%20H50%20Pro%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "Reddit",
+          "query": "\"Xiaomi H50 Pro\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.reddit.com/search/?q=%22Xiaomi%20H50%20Pro%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
           "targetHost": "reddit.com"
         }
       ]

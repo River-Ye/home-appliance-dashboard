@@ -25,6 +25,13 @@ const ALLOWED_COMMUNITY_HOSTS = [
   "snbforums.com",
 ];
 const NO_COMMON_ISSUE_SUMMARY = "截至查核日，查無達門檻的集中負評／災情";
+const REVIEW_DATE_PATTERN = /^\d{4}-\d{2}-\d{2}$/;
+
+function isValidReviewDate(value) {
+  if (!REVIEW_DATE_PATTERN.test(String(value || ""))) return false;
+  const date = new Date(`${value}T00:00:00Z`);
+  return !Number.isNaN(date.getTime()) && date.toISOString().slice(0, 10) === value;
+}
 
 function parseArgs() {
   const args = process.argv.slice(2);
@@ -213,7 +220,7 @@ function sanitizeSearchCheck(product, searchCheck) {
 function noCommonIssueResearch(review) {
   return {
     status: "no_common_issue",
-    checkedAt: CHECKED_AT,
+    checkedAt: review.reviewedAt,
     summary: NO_COMMON_ISSUE_SUMMARY,
     issues: [],
     checkedSources: review.queries.map(({ platform, query, queryUrl, targetHost }) => ({ platform, query, queryUrl, targetHost })),
@@ -278,7 +285,7 @@ function candidateReviewsMatchSearch(review, searchCheck) {
   if (JSON.stringify(expectedKeys) !== JSON.stringify(reviewKeys)) return false;
   return review.candidateReviews.every((candidate) => (
     candidate.outcome === "excluded"
-    && candidate.reviewedAt === CHECKED_AT
+    && candidate.reviewedAt === review.reviewedAt
     && candidate.exactModel === true
     && typeof candidate.sourceExcerpt === "string"
     && candidate.sourceExcerpt.trim().length >= 12
@@ -346,7 +353,8 @@ function reviewedDecision(product, reviewById, searchCheck = { candidates: [] })
   if (
     !identityMatches
     || review.reviewBatch !== product.category
-    || review.reviewedAt !== CHECKED_AT
+    || !isValidReviewDate(review.reviewedAt)
+    || review.reviewedAt > CHECKED_AT
     || platforms.size < 2
     || queryPlatforms.size < 2
     || queryWebsites.size < 2
@@ -512,6 +520,7 @@ async function main() {
 }
 
 module.exports = {
+  canonicalModel,
   candidateMatchesExactModel,
   researchRow,
   reviewedDecision,

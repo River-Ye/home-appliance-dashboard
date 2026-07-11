@@ -4194,7 +4194,7 @@
       "converted": 3449,
       "confidence": "Costco 好市多 2026-07-09 查核價"
     },
-    "image": "https://www.costco.com.tw/medias/sys_master/images/h93/h69/277970974834718.webp",
+    "image": "https://www.costco.com.tw/medias/sys_master/images/h19/hcf/277970938331166.jpg",
     "buyUrl": "https://www.costco.com.tw/Digital-Mobile/Laptops-Computers/p/147916",
     "buyLabel": "Costco 好市多",
     "specs": [

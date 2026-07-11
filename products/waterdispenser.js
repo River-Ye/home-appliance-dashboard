@@ -15,8 +15,8 @@
     "image": "https://cs-a.ecimg.tw/items/DAANBRA900ASZRJ/000001_1758695631.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 8087,
-      "converted": 8087,
+      "amount": 9190,
+      "converted": 9190,
       "confidence": "PChome 2026-07-11 API 查核價"
     },
     "channel": "tw",
@@ -355,8 +355,8 @@
     "image": "https://cs-a.ecimg.tw/items/DMCI0PA900HEQ1J/000001_1756977419.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 11610,
-      "converted": 11610,
+      "amount": 12900,
+      "converted": 12900,
       "confidence": "PChome 2026-07-11 API 查核價"
     },
     "channel": "tw",
@@ -440,8 +440,8 @@
     "image": "https://cs-a.ecimg.tw/items/QFAX6BA9009Y2C3/000001_1760596937.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 17550,
-      "converted": 17550,
+      "amount": 19500,
+      "converted": 19500,
       "confidence": "PChome 2026-07-11 API 查核價"
     },
     "channel": "tw",
@@ -607,8 +607,8 @@
     "image": "https://cs-a.ecimg.tw/items/DMAC6RA900IUC3J/000001_1761017834.png",
     "price": {
       "currency": "TWD",
-      "amount": 25200,
-      "converted": 25200,
+      "amount": 28000,
+      "converted": 28000,
       "confidence": "PChome 2026-07-11 API 查核價"
     },
     "channel": "tw",
@@ -774,8 +774,8 @@
     "image": "https://cs-a.ecimg.tw/items/QFAX6BA9009Y2E9/000001_1760596811.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 24120,
-      "converted": 24120,
+      "amount": 26800,
+      "converted": 26800,
       "confidence": "PChome 2026-07-11 API 查核價"
     },
     "channel": "tw",

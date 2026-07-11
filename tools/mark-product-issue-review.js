@@ -9,6 +9,14 @@ const {
   queryUrlMatchesRecord,
 } = require("./product-issue-validation");
 
+const REVIEW_DATE_PATTERN = /^\d{4}-\d{2}-\d{2}$/;
+
+function isValidReviewDate(value) {
+  if (!REVIEW_DATE_PATTERN.test(String(value || ""))) return false;
+  const date = new Date(`${value}T00:00:00Z`);
+  return !Number.isNaN(date.getTime()) && date.toISOString().slice(0, 10) === value;
+}
+
 function parseArgs() {
   const args = process.argv.slice(2);
   const inputArg = args.find((arg) => arg.startsWith("--input="));
@@ -31,14 +39,14 @@ function normalizedSet(values) {
   return new Set((values || []).map((value) => String(value).trim().toLowerCase()).filter(Boolean));
 }
 
-function validateCandidateReview(candidate, productId) {
+function validateCandidateReview(candidate, productId, reviewedAt) {
   if (!candidate || typeof candidate !== "object" || Array.isArray(candidate)) {
     throw new Error(`Invalid candidate review: ${productId}`);
   }
   if (!isHttpUrl(candidate.url) || typeof candidate.title !== "string" || !candidate.title.trim()) {
     throw new Error(`Candidate review requires URL and title: ${productId}`);
   }
-  if (candidate.outcome !== "excluded" || candidate.exactModel !== true || candidate.reviewedAt !== CHECKED_AT) {
+  if (candidate.outcome !== "excluded" || candidate.exactModel !== true || candidate.reviewedAt !== reviewedAt) {
     throw new Error(`Candidate review requires explicit exclusion, exact model, and review date: ${productId}`);
   }
   if (typeof candidate.sourceExcerpt !== "string" || candidate.sourceExcerpt.trim().length < 12) {
@@ -58,7 +66,9 @@ function validateExplicitReview(review, product) {
     throw new Error(`Product identity mismatch in audit batch: ${review.id}`);
   }
   if (review.reviewBatch !== product.category) throw new Error(`Review batch mismatch: ${review.id}`);
-  if (review.reviewedAt !== CHECKED_AT) throw new Error(`Review date mismatch: ${review.id}`);
+  if (!isValidReviewDate(review.reviewedAt) || review.reviewedAt > CHECKED_AT) {
+    throw new Error(`Review date mismatch: ${review.id}`);
+  }
   if (!new Set(["common_issue", "no_common_issue"]).has(review.decision)) {
     throw new Error(`Invalid explicit decision: ${review.id}`);
   }
@@ -74,7 +84,7 @@ function validateExplicitReview(review, product) {
   if (!Array.isArray(review.candidateReviews)) {
     throw new Error(`candidateReviews must be an array: ${review.id}`);
   }
-  review.candidateReviews.forEach((candidate) => validateCandidateReview(candidate, review.id));
+  review.candidateReviews.forEach((candidate) => validateCandidateReview(candidate, review.id, review.reviewedAt));
   const candidateUrls = new Set(review.candidateReviews.map((candidate) => candidate.url));
   if (candidateUrls.size !== review.candidateReviews.length) {
     throw new Error(`Duplicate candidate review URL: ${review.id}`);

@@ -228,7 +228,7 @@
       "靜音",
       "遙控"
     ],
-    "releaseDate": "2026-05-12",
+    "releaseDate": "2021",
     "historicalLow": {
       "status": "found",
       "amount": 3950,
@@ -244,7 +244,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -508,9 +508,9 @@
     "name": "62-TW 黑色渦流空氣循環扇",
     "price": {
       "currency": "TWD",
-      "amount": 3492,
-      "converted": 3492,
-      "confidence": "PChome 2026-07-10 API 查核價"
+      "amount": 3880,
+      "converted": 3880,
+      "confidence": "PChome 2026-07-11 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAB3XA900IIGO1/000001_1765272569.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAB3X-A900IIGO1",
@@ -521,7 +521,7 @@
       "黑色",
       "強風量"
     ],
-    "description": "Vornado 62-TW 是循環扇類的補充比較型號，依 2026-07-09 通路頁面整理售價、圖片與核心規格。",
+    "description": "Vornado 62-TW 是循環扇類的補充比較型號，依 2026-07-11 通路頁面整理售價、圖片與核心規格。",
     "pros": [
       "體積小、移動容易",
       "搭配冷氣可改善溫度分布"
@@ -898,9 +898,9 @@
     "name": "6303DC 白色渦流空氣循環機",
     "price": {
       "currency": "TWD",
-      "amount": 6282,
-      "converted": 6282,
-      "confidence": "PChome 2026-07-10 API 查核價"
+      "amount": 6980,
+      "converted": 6980,
+      "confidence": "PChome 2026-07-11 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/QBAF31A9008YBED/000001_1765269212.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/QBAF31-A9008YBED",
@@ -911,7 +911,7 @@
       "渦流循環",
       "中大坪數"
     ],
-    "description": "Vornado 6303DC 是循環扇類的補充比較型號，依 2026-07-09 通路頁面整理售價、圖片與核心規格。",
+    "description": "Vornado 6303DC 是循環扇類的補充比較型號，依 2026-07-11 通路頁面整理售價、圖片與核心規格。",
     "pros": [
       "體積小、移動容易",
       "搭配冷氣可改善溫度分布"

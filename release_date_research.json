@@ -1,13 +1,13 @@
 {
   "summary": {
-    "checkedAt": "2026-07-11T01:09:47.791Z",
-    "total": 657,
-    "found": 166,
-    "missing": 491,
+    "checkedAt": "2026-07-11T03:49:58.000Z",
+    "total": 661,
+    "found": 167,
+    "missing": 494,
     "byConfidence": {
       "official": 68,
-      "credible_article": 87,
-      "not_found": 491,
+      "credible_article": 88,
+      "not_found": 494,
       "retailer_explicit": 11
     }
   },
@@ -237,13 +237,12 @@
       "brand": "Toshiba",
       "model": "65M450NT",
       "name": "REGZA 65型 4K QLED Google TV",
-      "releaseDate": "2026-06-02",
-      "sourceUrl": "https://news.toshiba.com",
-      "sourceTitle": "Press Releases - Toshiba",
-      "evidenceSnippet": "Toshiba America Newsroom https://news.toshiba.com › press-releases Press Releases - Toshiba Jun 2, 2026 · Toshiba Launches Quad-Channel High-Speed Standard Digital Isolators with Maximum Operating Temperature of 125°C for Industrial Equipment 05/27/2026 DisplaySpecifications https://www.displayspecifications.com › en Toshiba - TVs - DisplaySpecifications",
-      "confidence": "official",
-      "query": "Toshiba 65M450NT release date launch announced",
-      "sourceKind": "bing_result_block"
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "query": "Toshiba 65M450NT release date launch announced 上市 發售"
     },
     {
       "id": "tv-extra-18-dpadtoa900jne73",
@@ -895,13 +894,13 @@
       "brand": "Panasonic",
       "model": "F-E10HMD",
       "name": "10 吋 DC 直流遙控空氣循環扇",
-      "releaseDate": "2026-05-12",
-      "sourceUrl": "https://na.panasonic.com",
-      "sourceTitle": "Panasonic Announces New LUMIX L10 Fixed Lens Camera",
-      "evidenceSnippet": "Panasonic North America https://na.panasonic.com Panasonic Announces New LUMIX L10 Fixed Lens Camera May 12, 2026 · Panasonic announces the LUMIX L10 fixed lens camera, celebrating 25 years of LUMIX with premium design, Leica optics, and advanced imaging performance. Android Experto https://androidexperto.com Sony ZV-E10 Release Date - androidexperto.com",
-      "confidence": "official",
+      "releaseDate": "2021",
+      "sourceUrl": "https://www.cool3c.com/article/161628",
+      "sourceTitle": "Panasonic 推出全新循環扇 F-E10HMD",
+      "evidenceSnippet": "Cool3C 2021-05-20 文章明確稱 F-E10HMD 為 Panasonic 2021 年度最新款循環扇；只採可確認的年份，不把文章發布日當作上市日。",
+      "confidence": "credible_article",
       "query": "Panasonic E10HMD release date launch announced",
-      "sourceKind": "bing_result_block"
+      "sourceKind": "credible_article"
     },
     {
       "id": "circ-balmuda-cirq",
@@ -1187,13 +1186,12 @@
       "brand": "Whirlpool",
       "model": "WDEE10TW",
       "name": "10L 第六感智能除濕機",
-      "releaseDate": "2026-06-02",
-      "sourceUrl": "https://whirlpool.mediaroom.com",
-      "sourceTitle": "Whirlpool Announces Upsize and Pricing of Offering of Secured Notes",
-      "evidenceSnippet": "Whirlpool Corporation Press Release Archive https://whirlpool.mediaroom.com Whirlpool Announces Upsize and Pricing of Offering of Secured Notes Jun 2, 2026 · The closing of the offering of the Notes is expected to occur on June 16, 2026, subject to the closing of the Company's proposed asset-based revolving credit facility (the \"ABL Credit Facility\") … Parts Dr https://partsdr.com › blog Whirlpool Appliance Age - Serial Number Decoder | Parts Dr",
-      "confidence": "official",
-      "query": "Whirlpool WDEE10 release date launch announced",
-      "sourceKind": "bing_result_block"
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "query": "Whirlpool WDEE10TW release date launch announced 上市 發售"
     },
     {
       "id": "dehumidifier-extra-6-dmbq4y-a900ikocc",
@@ -1311,13 +1309,13 @@
       "brand": "LG",
       "model": "DD181MWE0",
       "name": "18 公升一級能效 PuriCare 雙變頻除濕機",
-      "releaseDate": "2026-05-27",
-      "sourceUrl": "https://www.rtings.com",
-      "sourceTitle": "2026 TV Lineup: The Year Of RGB Mini LED - RTINGS.com",
-      "evidenceSnippet": "RTINGS.com https://www.rtings.com › tv 2026 TV Lineup: The Year Of RGB Mini LED - RTINGS.com May 27, 2026 · At CES 2026, LG announced one of the largest lineups in the company's history, with a large focus on both RGB Mini LED and OLED technology. The star of LG's show was undoubtedly … CEPRO https://www.cepro.com LG Joins the RGB Club Just in Time for CES - CEPRO",
-      "confidence": "credible_article",
+      "releaseDate": "2025-10-29",
+      "sourceUrl": "https://www.lg.com/tw/about-lg/press-and-media/lg-aerocattower-new-launch-20251029/",
+      "sourceTitle": "LG 蟬聯空氣清淨機、變頻除濕機銷售雙冠王",
+      "evidenceSnippet": "LG 台灣 2025-10-29 官方新聞稿正式發表全新 PuriCare 空氣照護系列，註腳直接列出 18L 雙變頻除濕機 DD181MWE0。",
+      "confidence": "official",
       "query": "LG DD181MWE0 release date launch announced",
-      "sourceKind": "bing_result_block"
+      "sourceKind": "official_press_release"
     },
     {
       "id": "dehumidifier-extra-15-dmbq3s-a900k13zr",
@@ -1776,13 +1774,13 @@
       "brand": "Ecovacs",
       "model": "DEEBOT T80 OMNI",
       "name": "滾筒活水洗地掃拖機器人",
-      "releaseDate": "2026-06-19",
-      "sourceUrl": "https://vacuumwars.com",
-      "sourceTitle": "Ecovacs OMNI T80S Robot Vacuum and Mop Combo Released",
-      "evidenceSnippet": "vacuumwars.com https://vacuumwars.com Ecovacs OMNI T80S Robot Vacuum and Mop Combo Released Jun 19, 2026 · Ecovacs has officially released the new Ecovacs Deebot OMNI T80S, a robot vacuum and mop combo that expands on the company’s roller-mop lineup with stronger suction, upgraded … meilleur-robot-aspirateur-laveur.fr https://meilleur-robot-aspirateur-laveur.fr Translate this result",
-      "confidence": "credible_article",
-      "query": "Ecovacs T80 release date launch announced",
-      "sourceKind": "bing_result_block"
+      "releaseDate": "2025-05",
+      "sourceUrl": "https://storetw.ecovacs.com/zh-tw",
+      "sourceTitle": "ECOVACS 台灣官方商城品牌里程碑",
+      "evidenceSnippet": "官方商城品牌里程碑明載「2025.05 ECOVACS 恆壓活水洗地機器人 T80 OMNI 全新上市」。",
+      "confidence": "official",
+      "query": "site:storetw.ecovacs.com T80 OMNI 全新上市",
+      "sourceKind": "official_brand_page"
     },
     {
       "id": "robot-ecovacs-t50-pro",
@@ -9172,6 +9170,61 @@
       "confidence": "official",
       "query": "site:mi.com/tw \"Xiaomi 掃拖機器人 6 Max\" \"6/16開始訂金預售\"",
       "sourceKind": "official_product_launch"
+    },
+    {
+      "id": "robot-ecovacs-t90-pro",
+      "category": "robot",
+      "brand": "Ecovacs",
+      "model": "DEEBOT T90 PRO OMNI",
+      "name": "ECOVACS DEEBOT T90 PRO OMNI",
+      "releaseDate": "2026-02-20",
+      "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000154.000017926.html",
+      "sourceTitle": "ECOVACS「DEEBOT T90 ファミリー」発売",
+      "evidenceSnippet": "ECOVACS Japan 官方新聞稿列出 DEEBOT T90 PRO OMNI，並明載一般販售開始日為 2026-02-20。",
+      "confidence": "official",
+      "query": "site:prtimes.jp ECOVACS \"DEEBOT T90 PRO OMNI\" \"2026年2月20日\"",
+      "sourceKind": "official_product_launch"
+    },
+    {
+      "id": "robot-ecovacs-x12-pro",
+      "category": "robot",
+      "brand": "Ecovacs",
+      "model": "DEEBOT X12 PRO OMNI",
+      "name": "ECOVACS DEEBOT X12 PRO OMNI",
+      "releaseDate": "2026-04-02",
+      "sourceUrl": "https://www.newspie.com.tw/ecovacs-deebot-x12-pro-20260407/",
+      "sourceTitle": "ECOVACS DEEBOT X12 PRO 正式在台開賣",
+      "evidenceSnippet": "報導明載 ECOVACS DEEBOT X12 PRO 於 2026-04-02 正式在台開賣，並列出官方商城與主要電商通路。",
+      "confidence": "credible_article",
+      "query": "ECOVACS DEEBOT X12 PRO 2026年4月2日 正式在台開賣",
+      "sourceKind": "credible_launch_article"
+    },
+    {
+      "id": "robot-xiaomi-h50-pro",
+      "category": "robot",
+      "brand": "Xiaomi",
+      "model": "H50 Pro",
+      "name": "Xiaomi 掃拖機器人 H50 Pro",
+      "releaseDate": "2026-03-06",
+      "sourceUrl": "https://news.m.pchome.com.tw/expense/leho/20260307/index-77283618816596356013.html",
+      "sourceTitle": "小米推出多款 AIoT 新品，掃拖機器人全面擴展智慧生活版圖",
+      "evidenceSnippet": "PChome Online 消費新聞明確寫出 Xiaomi 掃拖機器人 H50 Pro 於 2026-03-06 13:30 起在小米商城、小米之家與各大電商平台同步開賣。",
+      "confidence": "credible_article",
+      "query": "Xiaomi 掃拖機器人 H50 Pro 2026年3月6日 13:30 開賣",
+      "sourceKind": "credible_launch_article"
+    },
+    {
+      "id": "dehumidifier-whirlpool-wdee1200tw",
+      "category": "dehumidifier",
+      "brand": "Whirlpool",
+      "model": "WDEE1200TW",
+      "name": "12L 一級能效極致薄型清新淨味除濕機",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "query": "Whirlpool WDEE1200TW release date launch announced 上市 發售"
     }
   ]
 }

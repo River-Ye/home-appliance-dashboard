@@ -265,9 +265,9 @@
     "image": "https://cs-a.ecimg.tw/items/DEAGRWA900JUUQL/000001_1774596210.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 799,
-      "converted": 799,
-      "confidence": "PChome 2026-07-10 API 查核價"
+      "amount": 888,
+      "converted": 888,
+      "confidence": "PChome 2026-07-11 API 查核價"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -349,9 +349,9 @@
     "image": "https://cs-a.ecimg.tw/items/DEAGY1A900JBVOD/000001_1759990405.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 2166,
-      "converted": 2166,
-      "confidence": "PChome 2026-07-10 API 查核價"
+      "amount": 2280,
+      "converted": 2280,
+      "confidence": "PChome 2026-07-11 API 查核價"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -762,9 +762,9 @@
     "image": "https://cs-a.ecimg.tw/items/DEAGRWA900GMT17/000001_1714111453.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 1546,
-      "converted": 1546,
-      "confidence": "PChome 2026-07-10 API 查核價"
+      "amount": 1718,
+      "converted": 1718,
+      "confidence": "PChome 2026-07-11 API 查核價"
     },
     "channel": "tw",
     "buyLabel": "PChome",

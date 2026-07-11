@@ -17,9 +17,9 @@
     "name": "16 公升高效型變頻除濕機",
     "price": {
       "currency": "TWD",
-      "amount": 14872,
-      "converted": 14872,
-      "confidence": "PChome 2026-07-10 API 查核價"
+      "amount": 16900,
+      "converted": 16900,
+      "confidence": "PChome 2026-07-11 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ3PA900J0L88/000001_1776323540.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBQ3P-A900J0L88",
@@ -361,7 +361,7 @@
       "低價",
       "CP 值"
     ],
-    "releaseDate": "2026-06-02",
+    "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
       "amount": 5690,
@@ -377,7 +377,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -563,9 +563,9 @@
     "name": "8 公升清淨除濕機",
     "price": {
       "currency": "TWD",
-      "amount": 11030,
-      "converted": 11030,
-      "confidence": "PChome 2026-07-10 API 查核價"
+      "amount": 13290,
+      "converted": 13290,
+      "confidence": "PChome 2026-07-11 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAU0FA900B1HPU/000001_1782813379.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAU0F-A900B1HPU",
@@ -576,7 +576,7 @@
       "小坪數",
       "省空間"
     ],
-    "description": "Panasonic F-Y16FH 是除濕機類的補充比較型號，依 2026-07-09 通路頁面整理售價、圖片與核心規格。",
+    "description": "Panasonic F-Y16FH 是除濕機類的補充比較型號，依 2026-07-11 通路頁面整理售價、圖片與核心規格。",
     "pros": [
       "容量選擇更完整",
       "多數台灣通路售後明確"
@@ -641,9 +641,9 @@
     "name": "9 公升除濕機",
     "price": {
       "currency": "TWD",
-      "amount": 8263,
-      "converted": 8263,
-      "confidence": "PChome 2026-07-10 API 查核價"
+      "amount": 9390,
+      "converted": 9390,
+      "confidence": "PChome 2026-07-11 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ00A900JB38A/000001_1776329911.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBQ00-A900JB38A",
@@ -654,7 +654,7 @@
       "一級能效",
       "多項安全保護"
     ],
-    "description": "Panasonic F-Y18PN 是除濕機類的補充比較型號，依 2026-07-09 通路頁面整理售價、圖片與核心規格。",
+    "description": "Panasonic F-Y18PN 是除濕機類的補充比較型號，依 2026-07-11 通路頁面整理售價、圖片與核心規格。",
     "pros": [
       "容量選擇更完整",
       "多數台灣通路售後明確"
@@ -719,9 +719,9 @@
     "name": "PuriCare WiFi 變頻除濕機粉紅 16 公升",
     "price": {
       "currency": "TWD",
-      "amount": 14111,
-      "converted": 14111,
-      "confidence": "PChome 2026-07-10 API 查核價"
+      "amount": 14900,
+      "converted": 14900,
+      "confidence": "PChome 2026-07-11 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ07A900HQ3L5/000001_1761827365.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBQ07-A900HQ3L5",
@@ -732,7 +732,7 @@
       "變頻",
       "PuriCare"
     ],
-    "description": "LG MD161QPK3 是除濕機類的補充比較型號，依 2026-07-09 通路頁面整理售價、圖片與核心規格。",
+    "description": "LG MD161QPK3 是除濕機類的補充比較型號，依 2026-07-11 通路頁面整理售價、圖片與核心規格。",
     "pros": [
       "容量選擇更完整",
       "多數台灣通路售後明確"
@@ -1031,55 +1031,55 @@
     "name": "18 公升一級能效 PuriCare 雙變頻除濕機",
     "price": {
       "currency": "TWD",
-      "amount": 17900,
-      "converted": 17900,
-      "confidence": "可信通路查核價"
+      "amount": 17005,
+      "converted": 17005,
+      "confidence": "Yahoo 購物中心 2026-07-11 公開 95 折活動價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ4NA900JCHFZ/000001_1783342859.jpg",
-    "buyUrl": "https://24h.pchome.com.tw/prod/DMBQ4N-A900JCHFZ",
-    "buyLabel": "PChome",
+    "buyUrl": "https://tw.buy.yahoo.com/gdsale/LG樂金-PuriCare-18公升雙變頻除濕機-白色-DD181MWE0-11971018.html",
+    "buyLabel": "Yahoo購物中心",
     "specs": [
       "18 公升",
       "雙變頻",
       "一級能效",
       "PuriCare"
     ],
-    "description": "LG DD181MWE0 是除濕機類的補充比較型號，依 2026-07-09 通路頁面整理售價、圖片與核心規格。",
+    "description": "LG DD181MWE0 是 18 公升雙變頻除濕機，依 2026-07-11 Yahoo 公開活動價、官方發表資料與台灣通路規格整理。",
     "pros": [
       "容量選擇更完整",
       "多數台灣通路售後明確"
     ],
     "cons": [
       "實際除濕量受室溫影響",
-      "水箱容量與噪音需現場確認"
+      "少數同型號使用者反映高濕全速時聲音較明顯"
     ],
     "bestFor": "台灣潮濕環境、衣物乾燥與長時間居家除濕需求。",
     "recommendation": "同類推薦：補入不同公升數與清淨除濕款，方便依坪數和耗能取捨。",
     "score": 79,
     "voltage": "110V 台灣通路",
-    "warranty": "依 PChome/供應商頁面",
+    "warranty": "依 Yahoo 購物中心與 LG 台灣原廠保固",
     "tags": [
       "LG",
       "18L",
       "節能"
     ],
-    "releaseDate": "2026-05-27",
+    "releaseDate": "2025-10-29",
     "historicalLow": {
       "status": "found",
-      "amount": 17400,
+      "amount": 17005,
       "currency": "TWD",
-      "converted": 17400,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1268871099&cgp=17800",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：(店+)【LG 樂金】一級能效｜18公升雙變頻除濕機｜WiFi遠控｜DD181MWE0",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / (店+)【LG 樂金】一級能效｜18公升雙變頻除濕機｜WiFi遠控｜DD181MWE0」最低價為 NT$17,400，最低點日期 2026-05-07。",
-      "sourceKind": "price_history",
+      "converted": 17005,
+      "sourceUrl": "https://tw.buy.yahoo.com/gdsale/LG樂金-PuriCare-18公升雙變頻除濕機-白色-DD181MWE0-11971018.html",
+      "sourceTitle": "Yahoo 購物中心：LG PuriCare 18公升雙變頻除濕機 DD181MWE0",
+      "evidenceSnippet": "Yahoo 購物中心同型號新品頁於 2026-07-11 顯示滿 1 件 95 折，結構資料實付 NT$17,005、庫存正常；活動至 2026-07-13 09:59。",
+      "sourceKind": "retailer_promo",
       "confidence": "high",
-      "checkedAt": "2026-07-09",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+      "checkedAt": "2026-07-11",
+      "note": "採用同型號 Yahoo 新品頁公開、無會員資格前提的 95 折活動價；排除信用卡回饋、點數、二手、福利品、展示、箱損、拆封與整新品。"
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1101,7 +1101,7 @@
   {
     "id": "dehumidifier-extra-15-dmbq3s-a900k13zr",
     "category": "dehumidifier",
-    "rank": 15,
+    "rank": 17,
     "budget": "value",
     "channel": "tw",
     "brand": "Whirlpool",
@@ -1187,9 +1187,9 @@
     "name": "6公升節能除濕機",
     "price": {
       "currency": "TWD",
-      "amount": 3790,
-      "converted": 3790,
-      "confidence": "PChome 2026-07-10 API 查核價"
+      "amount": 4480,
+      "converted": 4480,
+      "confidence": "PChome 2026-07-11 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ3SA900I7NSN/000001_1767929673.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBQ3S-A900I7NSN",
@@ -1257,7 +1257,7 @@
   {
     "id": "dehumidifier-extra-17-dmbq08a900ixl3k",
     "category": "dehumidifier",
-    "rank": 17,
+    "rank": 18,
     "budget": "value",
     "channel": "tw",
     "brand": "SHARP",
@@ -1265,9 +1265,9 @@
     "name": "6公升高效除濕機",
     "price": {
       "currency": "TWD",
-      "amount": 4390,
-      "converted": 4390,
-      "confidence": "PChome 2026-07-10 API 查核價"
+      "amount": 5490,
+      "converted": 5490,
+      "confidence": "PChome 2026-07-11 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ08A900IXL3K/000001_1753349026.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBQ08-A900IXL3K",
@@ -1335,7 +1335,7 @@
   {
     "id": "dehumidifier-extra-18-dmbq3pa900j9fh9",
     "category": "dehumidifier",
-    "rank": 18,
+    "rank": 19,
     "budget": "value",
     "channel": "tw",
     "brand": "Panasonic",
@@ -1343,9 +1343,9 @@
     "name": "6L 除濕機",
     "price": {
       "currency": "TWD",
-      "amount": 5095,
-      "converted": 5095,
-      "confidence": "PChome 2026-07-10 API 查核價"
+      "amount": 5790,
+      "converted": 5790,
+      "confidence": "PChome 2026-07-11 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ3PA900J9FH9/000001_1776325410.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBQ3P-A900J9FH9",
@@ -1413,7 +1413,7 @@
   {
     "id": "dehumidifier-extra-19-dmbq08a900jpcl1",
     "category": "dehumidifier",
-    "rank": 19,
+    "rank": 20,
     "budget": "mid",
     "channel": "tw",
     "brand": "SHARP",
@@ -1491,7 +1491,7 @@
   {
     "id": "dehumidifier-extra-20-dmbq01a900gsfgx",
     "category": "dehumidifier",
-    "rank": 20,
+    "rank": 21,
     "budget": "mid",
     "channel": "tw",
     "brand": "HITACHI",
@@ -1569,7 +1569,7 @@
   {
     "id": "dehumidifier-costco-hitachi-rd380vc",
     "category": "dehumidifier",
-    "rank": 21,
+    "rank": 22,
     "budget": "premium",
     "channel": "tw",
     "brand": "Hitachi",
@@ -1648,7 +1648,7 @@
   {
     "id": "dehumidifier-costco-3m-fd-y200l",
     "category": "dehumidifier",
-    "rank": 22,
+    "rank": 23,
     "budget": "mid",
     "channel": "tw",
     "brand": "3M",
@@ -1729,7 +1729,7 @@
   {
     "id": "dehumidifier-costco-hitachi-rd460vc",
     "category": "dehumidifier",
-    "rank": 23,
+    "rank": 24,
     "budget": "premium",
     "channel": "tw",
     "brand": "HITACHI",
@@ -1802,6 +1802,92 @@
           "platform": "Reddit",
           "query": "\"HITACHI RD-460VC\" (problem OR issue OR defect OR negative review)",
           "queryUrl": "https://www.reddit.com/search/?q=%22HITACHI%20RD-460VC%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "targetHost": "reddit.com"
+        }
+      ]
+    }
+  },
+  {
+    "id": "dehumidifier-whirlpool-wdee1200tw",
+    "category": "dehumidifier",
+    "rank": 15,
+    "budget": "value",
+    "channel": "tw",
+    "brand": "Whirlpool",
+    "model": "WDEE1200TW",
+    "name": "12L 一級能效極致薄型清新淨味除濕機",
+    "price": {
+      "currency": "TWD",
+      "amount": 7990,
+      "converted": 7990,
+      "confidence": "momo 2026-07-11 公開限時價"
+    },
+    "image": "https://i2.momoshop.com.tw/1781626760/goodsimg/0015/034/893/15034893_R_m.webp",
+    "buyUrl": "https://www.momoshop.com.tw/product/15034893",
+    "buyLabel": "momo購物",
+    "specs": [
+      "除濕能力：12L／日",
+      "適用坪數：15 坪",
+      "一級能效；能源因數標示 2.77L/kWh、實測 2.92L/kWh",
+      "消耗功率 180W；年耗電量 97kWh",
+      "尺寸：寬 37 x 深 21 x 高 60 cm；重量 12.5kg",
+      "濕度設定 30–80%；負離子與第六感智能",
+      "6L 大容量封閉式水箱；無 HEPA",
+      "節能標章證書 1150094"
+    ],
+    "description": "Whirlpool 12L 薄型一級能效除濕機，主打 6L 封閉式水箱與淨味功能，補入小至中坪數的節能比較位置。",
+    "pros": [
+      "能源署一級能效與 12L 能力資料可查",
+      "薄型機身搭配 6L 大水箱",
+      "可信台灣新品通路可立即購買"
+    ],
+    "cons": [
+      "momo 同一評論站已有多位使用者反映運轉、馬達或共振聲偏大，雖未跨第二原始網站達災情門檻仍應優先留意",
+      "目前未找到合規的 exact-model 上市日",
+      "無 HEPA；購買前應確認擺放空間與夜間噪音接受度"
+    ],
+    "bestFor": "想找 12L、一級能效、薄型機身與大水箱，且能接受先實測運轉聲的人。",
+    "recommendation": "新品補充：WDEE1200TW 的能效、水箱與價格有吸引力；但單一零售站的噪音回報集中，建議保留退換貨期並在夜間環境實測。",
+    "score": 88,
+    "voltage": "110V、60Hz；台灣官方規格",
+    "warranty": "momo 頁面標示 1 年保固；實際依 Whirlpool 台灣與供應商",
+    "tags": [
+      "Whirlpool",
+      "12L",
+      "一級能效",
+      "薄型",
+      "6L 水箱"
+    ],
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "found",
+      "amount": 7990,
+      "currency": "TWD",
+      "converted": 7990,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1272555718&cgp=7990",
+      "sourceTitle": "LBJ 比價撿便宜歷史價格：Whirlpool WDEE1200TW（momo 品號 15034893）",
+      "evidenceSnippet": "LBJ exact-item 價格序列顯示 2026-06-09、2026-06-13 為 NT$7,990；BigGo exact history_id 亦顯示 365 天最低 NT$7,990，並非以目前售價倒推史低。",
+      "sourceKind": "price_history",
+      "confidence": "high",
+      "checkedAt": "2026-07-11",
+      "note": "採用同型號、同規格 momo 新品的公開價格歷史；排除搜尋結果中的濾網配件、會員券、點數、信用卡回饋、二手、福利品與展示品。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-07-11",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Whirlpool WDEE1200TW\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Whirlpool%20WDEE1200TW%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "Reddit",
+          "query": "\"Whirlpool WDEE1200TW\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.reddit.com/search/?q=%22Whirlpool%20WDEE1200TW%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
           "targetHost": "reddit.com"
         }
       ]

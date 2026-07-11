@@ -329,9 +329,9 @@
     "name": "乾濕全能洗地吸塵器",
     "price": {
       "currency": "TWD",
-      "amount": 22900,
-      "converted": 22900,
-      "confidence": "PChome 2026-07-10 API 查核價"
+      "amount": 24900,
+      "converted": 24900,
+      "confidence": "PChome 2026-07-11 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBF05A900GCL8W/000001_1780460543.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBF05-A900GCL8W",
@@ -641,9 +641,9 @@
     "name": "V8 Focus Mattress origin 強勁無線除塵螨機",
     "price": {
       "currency": "TWD",
-      "amount": 6999,
-      "converted": 6999,
-      "confidence": "PChome 2026-07-10 API 查核價"
+      "amount": 7990,
+      "converted": 7990,
+      "confidence": "PChome 2026-07-11 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAX00A900HC5BZ/000001_1780458569.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAX00-A900HC5BZ",
@@ -654,7 +654,7 @@
       "床墊清潔",
       "HH15"
     ],
-    "description": "Dyson V8 Focus Mattress HH15 是吸塵器類的補充比較型號，依 2026-07-09 通路頁面整理售價、圖片與核心規格。",
+    "description": "Dyson V8 Focus Mattress HH15 是吸塵器類的補充比較型號，依 2026-07-11 通路頁面整理售價、圖片與核心規格。",
     "pros": [
       "從手持到洗地機價差清楚",
       "可依重量與吸頭配置挑選"
@@ -719,9 +719,9 @@
     "name": "CordZero A9X 蒸氣濕拖自動集塵無線吸塵器",
     "price": {
       "currency": "TWD",
-      "amount": 25900,
-      "converted": 25900,
-      "confidence": "PChome 2026-07-10 API 查核價"
+      "amount": 26900,
+      "converted": 26900,
+      "confidence": "PChome 2026-07-11 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAX8KA900HLXAQ/000001_1744871444.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAX8K-A900HLXAQ",
@@ -732,7 +732,7 @@
       "自動集塵",
       "LCD 螢幕"
     ],
-    "description": "LG CordZero A9X-STEAM 是吸塵器類的補充比較型號，依 2026-07-09 通路頁面整理售價、圖片與核心規格。",
+    "description": "LG CordZero A9X-STEAM 是吸塵器類的補充比較型號，依 2026-07-11 通路頁面整理售價、圖片與核心規格。",
     "pros": [
       "從手持到洗地機價差清楚",
       "可依重量與吸頭配置挑選"
@@ -1421,9 +1421,9 @@
     "name": "One Box 自動集塵吸塵器",
     "price": {
       "currency": "TWD",
-      "amount": 9290,
-      "converted": 9290,
-      "confidence": "PChome 2026-07-10 API 查核價"
+      "amount": 9310,
+      "converted": 9310,
+      "confidence": "PChome 2026-07-11 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAX0ZA900HIGMZ/000001_1716798929.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAX0Z-A900HIGMZ",

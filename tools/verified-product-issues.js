@@ -1,7 +1,15 @@
 const reportLedger = require("../product_issue_report_evidence.json");
 const { canonicalWebsite, normalize } = require("./product-issue-validation");
 
-const CHECKED_AT = "2026-07-10";
+const CHECKED_AT = "2026-07-11";
+const DEFAULT_EVIDENCE_CHECKED_AT = "2026-07-10";
+const REVIEW_DATE_PATTERN = /^\d{4}-\d{2}-\d{2}$/;
+
+function isValidReviewDate(value) {
+  if (!REVIEW_DATE_PATTERN.test(String(value || ""))) return false;
+  const date = new Date(`${value}T00:00:00Z`);
+  return !Number.isNaN(date.getTime()) && date.toISOString().slice(0, 10) === value;
+}
 
 const verifiedRows = [
   {
@@ -1210,15 +1218,68 @@ const verifiedRows = [
       },
     ],
   },
+  {
+    id: "robot-ecovacs-t80-omni",
+    checkedAt: CHECKED_AT,
+    summary: "多位 DEEBOT T80 OMNI 使用者跨站回報，拖地後滾筒、機內污水箱或水路容易產生明顯異味，需要頻繁清洗與晾乾。",
+    title: "拖地後滾筒／污水路徑異味",
+    detail: "回報涵蓋滾筒拖布、機內污水箱與清潔縫隙；部分可藉由清洗、晾乾或清潔錠暫時改善，也有污水未正常排空而送修仍未解決的案例。若對異味敏感，應在退換貨期內連續測試拖地、基站排水與烘乾，並依原廠方式清潔水路。",
+    reportCount: 6,
+    sources: [
+      {
+        platform: "Reddit",
+        title: "T80 dirt water Tank Always full",
+        url: "https://www.reddit.com/r/ecovacs/comments/1pgc172/t80_dirt_water_tank_always_full/",
+        authors: ["qwazogen", "Beni_Gabor"],
+        evidenceSnippet: "兩位 T80 OMNI 使用者回報機內或基站污水箱持續產生明顯異味，其中一例污水未正常排空。",
+      },
+      {
+        platform: "Reddit",
+        title: "Is the T80S Omni worth it?",
+        url: "https://www.reddit.com/r/ecovacs/comments/1ue7oax/is_the_t80s_omni_worth_it/",
+        authors: ["NCael"],
+        evidenceSnippet: "留言者明確表示曾持有並退掉 T80，滾筒很快發臭且不易徹底清洗。",
+      },
+      {
+        platform: "Reddit",
+        title: "I will always avoid Ecovacs like the plague.",
+        url: "https://www.reddit.com/r/RobotVacuums/comments/1un38ek/i_will_always_avoid_ecovacs_like_the_plague/",
+        authors: ["Heatproof-Snowman"],
+        evidenceSnippet: "使用約一年的 T80 OMNI 會在拖地期間與拖地後產生異味，清洗並晾乾滾筒後才改善。",
+      },
+      {
+        platform: "Reddit",
+        title: "Which robot vacuum needs the least amount of maintenance?",
+        url: "https://www.reddit.com/r/RobotVacuums/comments/1rugldo/which_robot_vacuum_needs_the_least_amount_of/",
+        authors: ["Guy_Fieri__2024"],
+        evidenceSnippet: "T80 OMNI 飼主回報每次使用洗地滾筒後機器就會發臭，必須清理多處縫隙。",
+      },
+      {
+        platform: "Mobile01",
+        title: "第一次買掃拖機器人，科沃斯T80 OMNI推薦嗎~",
+        url: "https://www.mobile01.com/topicdetail.php?f=728&t=7248442",
+        authors: ["chou Ernest"],
+        evidenceSnippet: "同型號使用者回報使用半年後，即使有滾筒烘乾，異味仍持續造成困擾。",
+      },
+    ],
+  },
 ];
 
 if (new Set(verifiedRows.map((row) => row.id)).size !== verifiedRows.length) {
   throw new Error("Duplicate product IDs in verified product issue evidence");
 }
 
+function verifiedRowCheckedAt(row) {
+  const checkedAt = row.checkedAt || DEFAULT_EVIDENCE_CHECKED_AT;
+  if (!isValidReviewDate(checkedAt) || checkedAt > CHECKED_AT) {
+    throw new Error(`Verified issue has an invalid review date: ${row.id}`);
+  }
+  return checkedAt;
+}
+
 const verifiedIssueById = new Map(verifiedRows.map((row) => [row.id, {
   status: "common_issue",
-  checkedAt: CHECKED_AT,
+  checkedAt: verifiedRowCheckedAt(row),
   summary: row.summary,
   issues: [
     {
@@ -1278,8 +1339,12 @@ function validateExplicitReport(report) {
   if (report.crossPostKey !== null && (typeof report.crossPostKey !== "string" || !report.crossPostKey.trim())) {
     throw new Error("Explicit report has an invalid crossPostKey");
   }
-  if (report.reviewBasis !== "manual_original_page" || report.reviewedAt !== CHECKED_AT) {
-    throw new Error("Explicit report must record a current manual original-page review");
+  if (
+    report.reviewBasis !== "manual_original_page"
+    || !isValidReviewDate(report.reviewedAt)
+    || report.reviewedAt > reportLedger.checkedAt
+  ) {
+    throw new Error("Explicit report must record a valid manual original-page review date");
   }
   return report;
 }
@@ -1308,11 +1373,15 @@ for (const report of reportLedger.reports) {
 function sourceReports(row, source) {
   const key = [row.id, row.title, source.platform, source.url].join("\n");
   const reports = reportsBySource.get(key) || [];
+  const checkedAt = verifiedRowCheckedAt(row);
   const compactAuthors = source.authors || (source.reports || []).map((report) => report.author);
   const expectedAuthors = [...new Set(compactAuthors.map((author) => author.trim().toLowerCase()))].sort();
   const reportAuthors = [...new Set(reports.map((report) => report.author.trim().toLowerCase()))].sort();
   if (!reports.length || JSON.stringify(expectedAuthors) !== JSON.stringify(reportAuthors)) {
     throw new Error(`Explicit report ledger mismatch for ${row.id}: ${source.url}`);
+  }
+  if (reports.some((report) => report.reviewedAt !== checkedAt)) {
+    throw new Error(`Explicit report review date mismatch for ${row.id}: ${source.url}`);
   }
   validateUniqueReportExcerpts(reports, `${row.id}: ${source.url}`);
   return reports.map((report) => ({
@@ -1339,7 +1408,7 @@ const evidenceById = new Map(verifiedRows.map((row) => [row.id, row.sources.map(
     evidenceSnippet: source.evidenceSnippet,
     authors: reports.map((report) => report.author),
     distinctReportCount: new Set(reports.map((report) => report.author.trim().toLowerCase())).size,
-    checkedAt: CHECKED_AT,
+    checkedAt: verifiedRowCheckedAt(row),
     reports,
   };
 })]));

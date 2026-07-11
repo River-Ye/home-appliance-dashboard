@@ -19,12 +19,15 @@ const {
   REQUIRED_FIELDS,
 } = require("./dashboard-contract");
 const { readDashboardProducts } = require("./read-dashboard-products");
+const { validateExplicitReview } = require("./mark-product-issue-review");
 const {
   canonicalWebsite,
   queryTargetsProduct,
   queryTargetsWebsite,
   queryUrlMatchesRecord,
 } = require("./product-issue-validation");
+const { canonicalModel } = require("./research-product-issues");
+const { CHECKED_AT } = require("./verified-product-issues");
 
 const ISSUE_RESEARCH_STATUSES = new Set(["common_issue", "no_common_issue"]);
 const ISSUE_RESEARCH_DATE_PATTERN = /^\d{4}-\d{2}-\d{2}$/;
@@ -325,7 +328,10 @@ function validateIssueResearchFile(root, products, failures) {
   const reportLedger = JSON.parse(fs.readFileSync(reportLedgerFile, "utf8"));
   const ledgerReports = Array.isArray(reportLedger.reports) ? reportLedger.reports : [];
   const researchReports = [];
+  const aggregateCheckedAt = research.summary?.checkedAt?.slice(0, 10);
+  assert(aggregateCheckedAt === CHECKED_AT, "product issue research aggregate date mismatch", failures);
   assert(reportLedger.checkedAt === research.summary?.checkedAt?.slice(0, 10), "product issue report ledger date mismatch", failures);
+  assert(reportLedger.checkedAt === CHECKED_AT, "product issue report ledger aggregate date mismatch", failures);
   assert(typeof reportLedger.policy === "string" && reportLedger.policy.trim(), "product issue report ledger requires policy", failures);
   assert(ledgerReports.length > 0, "product issue report ledger requires explicit reports", failures);
   const ledgerReportKeys = new Set(ledgerReports.map((report) => [
@@ -337,6 +343,10 @@ function validateIssueResearchFile(root, products, failures) {
     report.permalink,
   ].join("\n")));
   assert(ledgerReportKeys.size === ledgerReports.length, "product issue report ledger contains duplicate rows", failures);
+  for (const report of ledgerReports) {
+    assert(ISSUE_RESEARCH_DATE_PATTERN.test(String(report.reviewedAt || "")), `${report.productId || "unknown"} report ledger reviewedAt must use YYYY-MM-DD`, failures);
+    assert(report.reviewedAt <= reportLedger.checkedAt, `${report.productId || "unknown"} report ledger reviewedAt exceeds aggregate date`, failures);
+  }
   const researchRows = Array.isArray(research.results) ? research.results : [];
   const researchById = new Map(researchRows.map((row) => [row.id, row]));
   assert(researchRows.length === products.length, `issue research rows ${researchRows.length} does not match products ${products.length}`, failures);
@@ -355,12 +365,14 @@ function validateIssueResearchFile(root, products, failures) {
     assert(row.name === product.name, `${product.id} issue research name mismatch`, failures);
     assert(row.identity && typeof row.identity === "object" && !Array.isArray(row.identity), `${product.id} issue research requires identity`, failures);
     assert(typeof row.identity?.canonicalModel === "string" && row.identity.canonicalModel.trim(), `${product.id} issue research requires canonicalModel`, failures);
+    assert(row.identity?.canonicalModel === canonicalModel(product), `${product.id} issue research canonicalModel must match the complete product model`, failures);
     assert(Array.isArray(row.identity?.aliases) && row.identity.aliases.length > 0, `${product.id} issue research requires identity aliases`, failures);
     assert(isHttpUrl(row.identity?.evidenceUrl), `${product.id} issue research identity evidenceUrl must be http(s)`, failures);
     assert(row.workflowStatus === "completed", `${product.id} issue research workflow must be completed`, failures);
     assert(row.manualReview?.status === "completed", `${product.id} issue research requires completed manualReview`, failures);
     assert(row.manualReview?.decision === product.issueResearch?.status, `${product.id} manual review decision mismatch`, failures);
     assert(row.manualReview?.reviewedAt === product.issueResearch?.checkedAt, `${product.id} manual review date mismatch`, failures);
+    assert(product.issueResearch?.checkedAt <= aggregateCheckedAt, `${product.id} issue research date exceeds aggregate date`, failures);
     const checkedPlatformSet = uniqueNormalized(row.manualReview?.checkedPlatforms || []);
     assert(checkedPlatformSet.size >= 2, `${product.id} manual review requires two checked platforms`, failures);
     const expectedManualAttestation = row.manualReview?.decision === "common_issue" || row.manualReview?.candidateReviews?.length
@@ -607,6 +619,8 @@ function validateIssueReviewManifest(root, products, failures) {
   const rows = Array.isArray(manifest.results) ? manifest.results : [];
   const byId = new Map(rows.map((row) => [row.id, row]));
   assert(ISSUE_RESEARCH_DATE_PATTERN.test(String(manifest.checkedAt || "")), "issue review manifest requires checkedAt", failures);
+  assert(manifest.checkedAt === CHECKED_AT, "issue review manifest aggregate date mismatch", failures);
+  assert(manifest.checkedAt === research.summary?.checkedAt?.slice(0, 10), "issue review manifest and research aggregate dates must match", failures);
   assert(manifest.methodVersion === 3, "issue review manifest must use explicit methodVersion 3", failures);
   assert(typeof manifest.policy === "string" && manifest.policy.trim(), "issue review manifest requires policy", failures);
   assert(rows.length === products.length, `issue review manifest rows ${rows.length} does not match products ${products.length}`, failures);
@@ -620,6 +634,8 @@ function validateIssueReviewManifest(root, products, failures) {
     assert(row.brand === product.brand, `${product.id} issue review manifest brand mismatch`, failures);
     assert(row.model === product.model, `${product.id} issue review manifest model mismatch`, failures);
     assert(row.reviewBatch === product.category, `${product.id} issue review manifest reviewBatch mismatch`, failures);
+    assert(ISSUE_RESEARCH_DATE_PATTERN.test(String(row.reviewedAt || "")), `${product.id} issue review manifest reviewedAt must use YYYY-MM-DD`, failures);
+    assert(row.reviewedAt <= manifest.checkedAt, `${product.id} issue review manifest reviewedAt exceeds aggregate date`, failures);
     assert(row.reviewedAt === product.issueResearch?.checkedAt, `${product.id} issue review manifest date mismatch`, failures);
     assert(row.decision === product.issueResearch?.status, `${product.id} issue review manifest decision mismatch`, failures);
     const checkedPlatforms = uniqueNormalized(row.checkedPlatforms || []);
@@ -633,6 +649,11 @@ function validateIssueReviewManifest(root, products, failures) {
     assert(Array.isArray(row.representativeSources), `${product.id} issue review manifest representativeSources must be an array`, failures);
     assert(Array.isArray(row.candidateReviews), `${product.id} issue review manifest candidateReviews must be an array`, failures);
     assert(Array.isArray(row.queries) && row.queries.length >= 2, `${product.id} issue review manifest requires explicit queries`, failures);
+    try {
+      validateExplicitReview(row, product);
+    } catch (error) {
+      failures.push(`${product.id} issue review manifest explicit validation failed: ${error.message}`);
+    }
     const queryPlatforms = uniqueNormalized((row.queries || []).map((query) => query?.platform));
     assert(queryPlatforms.size >= 2, `${product.id} issue review manifest queries must span two platforms`, failures);
     const manifestTargetWebsites = new Set();

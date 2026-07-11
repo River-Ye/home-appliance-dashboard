@@ -173,8 +173,8 @@
     "name": "瞬熱式溫水洗淨便座",
     "price": {
       "currency": "TWD",
-      "amount": 8090,
-      "converted": 8090,
+      "amount": 8990,
+      "converted": 8990,
       "confidence": "PChome 2026-07-11 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAL8LA900H03A0/000001_1760407099.jpg",
@@ -875,9 +875,9 @@
     "name": "儲熱式溫水洗淨便座含原廠基本安裝",
     "price": {
       "currency": "TWD",
-      "amount": 6190,
-      "converted": 6190,
-      "confidence": "PChome 2026-07-10 API 查核價"
+      "amount": 6990,
+      "converted": 6990,
+      "confidence": "PChome 2026-07-11 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAL8LA900GH6F4/000001_1724400418.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAL8L-A900GH6F4",
@@ -888,7 +888,7 @@
       "含基本安裝",
       "入門價位"
     ],
-    "description": "Panasonic DL-F610RTWS 是免治馬桶類的補充比較型號，依 2026-07-09 通路頁面整理售價、圖片與核心規格。",
+    "description": "Panasonic DL-F610RTWS 是免治馬桶類的補充比較型號，依 2026-07-11 通路頁面整理售價、圖片與核心規格。",
     "pros": [
       "舒適度升級明顯",
       "高階款除菌、除臭與遙控功能完整"
@@ -953,9 +953,9 @@
     "name": "纖薄美型瞬熱式溫水洗淨便座",
     "price": {
       "currency": "TWD",
-      "amount": 15752,
-      "converted": 15752,
-      "confidence": "PChome 2026-07-10 API 查核價"
+      "amount": 17900,
+      "converted": 17900,
+      "confidence": "PChome 2026-07-11 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAL6WA900I0L73/000001_1729761324.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAL6W-A900I0L73",
@@ -966,7 +966,7 @@
       "溫水洗淨",
       "美型"
     ],
-    "description": "Panasonic DL-RT30TWWS 是免治馬桶類的補充比較型號，依 2026-07-09 通路頁面整理售價、圖片與核心規格。",
+    "description": "Panasonic DL-RT30TWWS 是免治馬桶類的補充比較型號，依 2026-07-11 通路頁面整理售價、圖片與核心規格。",
     "pros": [
       "舒適度升級明顯",
       "高階款除菌、除臭與遙控功能完整"
@@ -1031,9 +1031,9 @@
     "name": "瞬熱式溫水洗淨便座",
     "price": {
       "currency": "TWD",
-      "amount": 11954,
-      "converted": 11954,
-      "confidence": "PChome 2026-07-10 API 查核價"
+      "amount": 13900,
+      "converted": 13900,
+      "confidence": "PChome 2026-07-11 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAL6WA900JEEZE/000001_1776140283.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAL6W-A900JEEZE",
@@ -1044,7 +1044,7 @@
       "溫控",
       "家用"
     ],
-    "description": "Panasonic DL-PU30TWWS 是免治馬桶類的補充比較型號，依 2026-07-09 通路頁面整理售價、圖片與核心規格。",
+    "description": "Panasonic DL-PU30TWWS 是免治馬桶類的補充比較型號，依 2026-07-11 通路頁面整理售價、圖片與核心規格。",
     "pros": [
       "舒適度升級明顯",
       "高階款除菌、除臭與遙控功能完整"

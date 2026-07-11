@@ -97,9 +97,9 @@
     "name": "D01-SL-DX 電動升降桌 120x80",
     "price": {
       "currency": "TWD",
-      "amount": 14346,
-      "converted": 14346,
-      "confidence": "PChome 2026-07-10 API 查核價"
+      "amount": 14790,
+      "converted": 14790,
+      "confidence": "PChome 2026-07-11 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBJ4CA900I9XVY/000001_1773043590.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBJ4C-A900I9XVY",
@@ -177,9 +177,9 @@
     "name": "D01-SL-DX 電動升降桌 150x80",
     "price": {
       "currency": "TWD",
-      "amount": 15025,
-      "converted": 15025,
-      "confidence": "PChome 2026-07-10 API 查核價"
+      "amount": 15490,
+      "converted": 15490,
+      "confidence": "PChome 2026-07-11 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBJ4CA900HUG3C/000001_1773043903.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBJ4C-A900HUG3C",
@@ -257,9 +257,9 @@
     "name": "D01-SL-DX 電動升降桌 160x80",
     "price": {
       "currency": "TWD",
-      "amount": 15510,
-      "converted": 15510,
-      "confidence": "PChome 2026-07-10 API 查核價"
+      "amount": 15990,
+      "converted": 15990,
+      "confidence": "PChome 2026-07-11 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBJ4CA900ITV12/000001_1773043461.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBJ4C-A900ITV12",
@@ -337,9 +337,9 @@
     "name": "D01-SL-DX 電動升降桌 180x80",
     "price": {
       "currency": "TWD",
-      "amount": 15995,
-      "converted": 15995,
-      "confidence": "PChome 2026-07-10 API 查核價"
+      "amount": 16490,
+      "converted": 16490,
+      "confidence": "PChome 2026-07-11 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBJ4CA900HUGSO/000001_1773043706.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBJ4C-A900HUGSO",
@@ -1616,7 +1616,7 @@
       "converted": 8999,
       "confidence": "Costco 好市多 2026-07-09 查核價"
     },
-    "image": "https://www.costco.com.tw/medias/sys_master/images/hb6/h84/261465665994782.webp",
+    "image": "https://www.costco.com.tw/medias/sys_master/images/hc9/hb9/261465662193694.jpg",
     "buyUrl": "https://www.costco.com.tw/p/141578",
     "buyLabel": "Costco 好市多",
     "specs": [
@@ -1695,7 +1695,7 @@
       "converted": 6699,
       "confidence": "Costco 好市多 2026-07-09 查核價"
     },
-    "image": "https://www.costco.com.tw/medias/sys_master/videos/hec/h4d/345756113928222.mp4",
+    "image": "https://www.costco.com.tw/medias/sys_master/images/h73/h6d/345529950470174.jpg",
     "buyUrl": "https://www.costco.com.tw/Furniture-Kitchen/Furniture/Computer-Desk-Chair-Sets/Backbone-Dyback-Lite-Adjustable-Desk-100-cm-X-60-cm/p/149174",
     "buyLabel": "Costco 好市多",
     "specs": [

@@ -412,9 +412,9 @@
     "name": "BRAVIA 8 65 型 XR OLED 4K HDR Google TV 顯示器",
     "price": {
       "currency": "TWD",
-      "amount": 84510,
-      "converted": 84510,
-      "confidence": "PChome 2026-07-10 API 查核價"
+      "amount": 93900,
+      "converted": 93900,
+      "confidence": "PChome 2026-07-11 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DPAD06A900HLBJO/000001_1776334113.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DPAD06-A900HLBJO",
@@ -426,7 +426,7 @@
       "高階 OLED",
       "手機投影：AirPlay / Chromecast"
     ],
-    "description": "Sony Y-65XR80 是電視類的補充比較型號，依 2026-07-09 通路頁面整理售價、圖片與核心規格。",
+    "description": "Sony Y-65XR80 是電視類的補充比較型號，依 2026-07-11 通路頁面整理售價、圖片與核心規格。",
     "pros": [
       "同尺寸規格可直接比價",
       "台灣通路資訊與圖片完整"
@@ -1314,7 +1314,7 @@
       "QLED",
       "REGZA"
     ],
-    "releaseDate": "2026-06-02",
+    "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
       "amount": 17900,
@@ -1330,7 +1330,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [

@@ -95,9 +95,9 @@
     "name": "26L 8 合 1 變頻氣炸蒸烤微波爐",
     "price": {
       "currency": "TWD",
-      "amount": 19502,
-      "converted": 19502,
-      "confidence": "PChome 2026-07-10 API 查核價"
+      "amount": 19900,
+      "converted": 19900,
+      "confidence": "PChome 2026-07-11 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBJ02A900J1WEX/000001_1753093870.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBJ02-A900J1WEX",
@@ -173,9 +173,9 @@
     "name": "30L 蒸氣烘烤微波爐",
     "price": {
       "currency": "TWD",
-      "amount": 19399,
-      "converted": 19399,
-      "confidence": "PChome 2026-07-10 API 查核價"
+      "amount": 24900,
+      "converted": 24900,
+      "confidence": "PChome 2026-07-11 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBJ02A900IXED0/000001_1749708993.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBJ02-A900IXED0",
@@ -641,9 +641,9 @@
     "name": "Coloris 系列 32L 8 合 1 變頻氣炸蒸烤微波爐",
     "price": {
       "currency": "TWD",
-      "amount": 26362,
-      "converted": 26362,
-      "confidence": "PChome 2026-07-10 API 查核價"
+      "amount": 26900,
+      "converted": 26900,
+      "confidence": "PChome 2026-07-11 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBJ03A900IYX0L/000001_1750758530.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBJ03-A900IYX0L",
@@ -654,7 +654,7 @@
       "變頻",
       "氣炸蒸烤微波"
     ],
-    "description": "Whirlpool MWP329TST 是多功能氣炸烤箱/微波爐類的補充比較型號，依 2026-07-09 通路頁面整理售價、圖片與核心規格。",
+    "description": "Whirlpool MWP329TST 是多功能氣炸烤箱/微波爐類的補充比較型號，依 2026-07-11 通路頁面整理售價、圖片與核心規格。",
     "pros": [
       "一機多用節省檯面",
       "高階款蒸烤與微波整合度高"
@@ -719,9 +719,9 @@
     "name": "20L 多功能蒸氣氣炸烤箱",
     "price": {
       "currency": "TWD",
-      "amount": 10260,
-      "converted": 10260,
-      "confidence": "PChome 2026-07-10 API 查核價"
+      "amount": 10800,
+      "converted": 10800,
+      "confidence": "PChome 2026-07-11 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBM0GA900HF91A/000001_1768545220.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBM0G-A900HF91A",
@@ -732,7 +732,7 @@
       "氣炸",
       "烘焙"
     ],
-    "description": "Cuisinart CSO-500TW 是多功能氣炸烤箱/微波爐類的補充比較型號，依 2026-07-09 通路頁面整理售價、圖片與核心規格。",
+    "description": "Cuisinart CSO-500TW 是多功能氣炸烤箱/微波爐類的補充比較型號，依 2026-07-11 通路頁面整理售價、圖片與核心規格。",
     "pros": [
       "一機多用節省檯面",
       "高階款蒸烤與微波整合度高"
@@ -1109,9 +1109,9 @@
     "name": "32 公升獨立式萬用蒸烤爐",
     "price": {
       "currency": "TWD",
-      "amount": 15484,
-      "converted": 15484,
-      "confidence": "PChome 2026-07-10 API 查核價"
+      "amount": 15800,
+      "converted": 15800,
+      "confidence": "PChome 2026-07-11 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBJ6QA900EO9M8/000001_1716271473.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBJ6Q-A900EO9M8",
@@ -1122,7 +1122,7 @@
       "烘烤",
       "旋風"
     ],
-    "description": "Whirlpool WSO322EB 是多功能氣炸烤箱/微波爐類的補充比較型號，依 2026-07-09 通路頁面整理售價、圖片與核心規格。",
+    "description": "Whirlpool WSO322EB 是多功能氣炸烤箱/微波爐類的補充比較型號，依 2026-07-11 通路頁面整理售價、圖片與核心規格。",
     "pros": [
       "一機多用節省檯面",
       "高階款蒸烤與微波整合度高"
@@ -1499,9 +1499,9 @@
     "name": "蒸烘烤變頻微波爐",
     "price": {
       "currency": "TWD",
-      "amount": 41724,
-      "converted": 41724,
-      "confidence": "PChome 2026-07-10 API 查核價"
+      "amount": 43920,
+      "converted": 43920,
+      "confidence": "PChome 2026-07-11 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBM0GA900H5125/000001_1783054719.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBM0G-A900H5125",

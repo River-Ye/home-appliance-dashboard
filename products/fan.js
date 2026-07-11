@@ -17,9 +17,9 @@
     "name": "16 吋 DC 微電腦定時電風扇",
     "price": {
       "currency": "TWD",
-      "amount": 3272,
-      "converted": 3272,
-      "confidence": "PChome 2026-07-10 API 查核價"
+      "amount": 4090,
+      "converted": 4090,
+      "confidence": "PChome 2026-07-11 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAB30A900EOQ24/000001_1753338098.png",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAB30-A900EOQ24",
@@ -407,9 +407,9 @@
     "name": "16 吋 DC 變頻電風扇",
     "price": {
       "currency": "TWD",
-      "amount": 2472,
-      "converted": 2472,
-      "confidence": "PChome 2026-07-10 API 查核價"
+      "amount": 3090,
+      "converted": 3090,
+      "confidence": "PChome 2026-07-11 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMABLMA900EOROV/000001_1757038312.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMABLM-A900EOROV",
@@ -420,7 +420,7 @@
       "立扇",
       "節能"
     ],
-    "description": "Panasonic F-S16LMD 是電風扇類的補充比較型號，依 2026-07-09 通路頁面整理售價、圖片與核心規格。",
+    "description": "Panasonic F-S16LMD 是電風扇類的補充比較型號，依 2026-07-11 通路頁面整理售價、圖片與核心規格。",
     "pros": [
       "DC 機種普遍省電",
       "台灣夏季替代冷氣循環很實用"
@@ -485,9 +485,9 @@
     "name": "14 吋 DC 微電腦定時電風扇",
     "price": {
       "currency": "TWD",
-      "amount": 3112,
-      "converted": 3112,
-      "confidence": "PChome 2026-07-10 API 查核價"
+      "amount": 4090,
+      "converted": 4090,
+      "confidence": "PChome 2026-07-11 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMABLMA900EOQ12/000001_1695005225.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMABLM-A900EOQ12",
@@ -498,7 +498,7 @@
       "負離子",
       "ECO 溫控"
     ],
-    "description": "Panasonic F-H14GND-K 是電風扇類的補充比較型號，依 2026-07-09 通路頁面整理售價、圖片與核心規格。",
+    "description": "Panasonic F-H14GND-K 是電風扇類的補充比較型號，依 2026-07-11 通路頁面整理售價、圖片與核心規格。",
     "pros": [
       "DC 機種普遍省電",
       "台灣夏季替代冷氣循環很實用"
@@ -563,9 +563,9 @@
     "name": "14 吋 DC 微電腦定時電風扇",
     "price": {
       "currency": "TWD",
-      "amount": 3920,
-      "converted": 3920,
-      "confidence": "PChome 2026-07-10 API 查核價"
+      "amount": 4900,
+      "converted": 4900,
+      "confidence": "PChome 2026-07-11 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMABLMA900EORP0/000001_1697161466.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMABLM-A900EORP0",
@@ -576,7 +576,7 @@
       "定時",
       "遙控"
     ],
-    "description": "Panasonic F-H14LXD-K 是電風扇類的補充比較型號，依 2026-07-09 通路頁面整理售價、圖片與核心規格。",
+    "description": "Panasonic F-H14LXD-K 是電風扇類的補充比較型號，依 2026-07-11 通路頁面整理售價、圖片與核心規格。",
     "pros": [
       "DC 機種普遍省電",
       "台灣夏季替代冷氣循環很實用"
@@ -719,9 +719,9 @@
     "name": "16 吋 DC 變頻高級型溫感遙控電風扇",
     "price": {
       "currency": "TWD",
-      "amount": 3231,
-      "converted": 3231,
-      "confidence": "PChome 2026-07-10 API 查核價"
+      "amount": 3590,
+      "converted": 3590,
+      "confidence": "PChome 2026-07-11 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAB30A900EOQ5X/000001_1693793932.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAB30-A900EOQ5X",
@@ -732,7 +732,7 @@
       "溫感",
       "遙控"
     ],
-    "description": "Panasonic F-L16GMD 是電風扇類的補充比較型號，依 2026-07-09 通路頁面整理售價、圖片與核心規格。",
+    "description": "Panasonic F-L16GMD 是電風扇類的補充比較型號，依 2026-07-11 通路頁面整理售價、圖片與核心規格。",
     "pros": [
       "DC 機種普遍省電",
       "台灣夏季替代冷氣循環很實用"
@@ -1187,9 +1187,9 @@
     "name": "窄邊框時尚美型風扇",
     "price": {
       "currency": "TWD",
-      "amount": 1266,
-      "converted": 1266,
-      "confidence": "PChome 2026-07-10 API 查核價"
+      "amount": 1490,
+      "converted": 1490,
+      "confidence": "PChome 2026-07-11 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMACAKA900G4VTV/000001_1779763282.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMACAK-A900G4VTV",
@@ -1265,9 +1265,9 @@
     "name": "DC 立式循環扇",
     "price": {
       "currency": "TWD",
-      "amount": 2541,
-      "converted": 2541,
-      "confidence": "PChome 2026-07-10 API 查核價"
+      "amount": 2990,
+      "converted": 2990,
+      "confidence": "PChome 2026-07-11 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMACAKA900G0BE8/000001_1779955873.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMACAK-A900G0BE8",
@@ -1343,9 +1343,9 @@
     "name": "全方位渦輪 DC 循環扇",
     "price": {
       "currency": "TWD",
-      "amount": 2796,
-      "converted": 2796,
-      "confidence": "PChome 2026-07-10 API 查核價"
+      "amount": 3290,
+      "converted": 3290,
+      "confidence": "PChome 2026-07-11 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMABOWA900IUZ7V/000001_1780022324.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMABOW-A900IUZ7V",
@@ -1421,9 +1421,9 @@
     "name": "DC 塔式風扇",
     "price": {
       "currency": "TWD",
-      "amount": 3476,
-      "converted": 3476,
-      "confidence": "PChome 2026-07-10 API 查核價"
+      "amount": 4090,
+      "converted": 4090,
+      "confidence": "PChome 2026-07-11 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMACAKA900G0BB4/000001_1778646103.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMACAK-A900G0BB4",

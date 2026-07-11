@@ -586,8 +586,8 @@
     "name": "LG Soundbar S80TR 5.1.3 聲道立體環繞聲霸",
     "price": {
       "currency": "TWD",
-      "amount": 18905,
-      "converted": 18905,
+      "amount": 19900,
+      "converted": 19900,
       "confidence": "PChome 2026-07-11 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBM1DA900J5JAZ/000001_1779262704.jpg",
@@ -599,7 +599,7 @@
       "立體環繞",
       "LG Soundbar"
     ],
-    "description": "LG S80TR 是Soundbar類的補充比較型號，依 2026-07-09 通路頁面整理售價、圖片與核心規格。",
+    "description": "LG S80TR 是Soundbar類的補充比較型號，依 2026-07-11 通路頁面整理售價、圖片與核心規格。",
     "pros": [
       "安裝門檻低",
       "可快速補強電視音場"
@@ -1054,9 +1054,9 @@
     "name": "7.1 聲道家庭劇院喇叭",
     "price": {
       "currency": "TWD",
-      "amount": 31160,
-      "converted": 31160,
-      "confidence": "PChome 2026-07-10 API 查核價"
+      "amount": 32800,
+      "converted": 32800,
+      "confidence": "PChome 2026-07-11 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAAHGA900J56OK/000001_1755250707.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAAHG-A900J56OK",
@@ -1067,7 +1067,7 @@
       "重低音",
       "家庭劇院"
     ],
-    "description": "JBL BAR 800 MK2 是Soundbar類的補充比較型號，依 2026-07-09 通路頁面整理售價、圖片與核心規格。",
+    "description": "JBL BAR 800 MK2 是Soundbar類的補充比較型號，依 2026-07-11 通路頁面整理售價、圖片與核心規格。",
     "pros": [
       "安裝門檻低",
       "可快速補強電視音場"
@@ -1366,8 +1366,8 @@
     "name": "BRAVIA Theatre Bar 9 旗艦聲霸",
     "price": {
       "currency": "TWD",
-      "amount": 36912,
-      "converted": 36912,
+      "amount": 38855,
+      "converted": 38855,
       "confidence": "PChome 2026-07-11 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBM1DA900IUZUJ/000001_1783698580.jpg",
@@ -1444,9 +1444,9 @@
     "name": "7.1.4 聲道家庭劇院聲霸",
     "price": {
       "currency": "TWD",
-      "amount": 40755,
-      "converted": 40755,
-      "confidence": "PChome 2026-07-10 API 查核價"
+      "amount": 42900,
+      "converted": 42900,
+      "confidence": "PChome 2026-07-11 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAAHGA900J5777/000001_1755253698.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAAHG-A900J5777",
@@ -1522,8 +1522,8 @@
     "name": "Fidelio 7.1.2 Dolby Atmos 旗艦聲霸",
     "price": {
       "currency": "TWD",
-      "amount": 35010,
-      "converted": 35010,
+      "amount": 38900,
+      "converted": 38900,
       "confidence": "PChome 2026-07-11 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAF02A900H2G5R/000001_1704612188.jpg",
