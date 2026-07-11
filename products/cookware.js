@@ -1183,9 +1183,9 @@
     "image": "https://cs-a.ecimg.tw/items/DEER19A900GPL2R/000001_1696456300.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 10250,
-      "converted": 10250,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 5125,
+      "converted": 5125,
+      "confidence": "PChome 2026-07-12 API 查核價"
     },
     "channel": "tw",
     "buyLabel": "PChome",

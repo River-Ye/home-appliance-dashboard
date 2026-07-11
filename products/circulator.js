@@ -508,9 +508,9 @@
     "name": "62-TW 黑色渦流空氣循環扇",
     "price": {
       "currency": "TWD",
-      "amount": 3880,
-      "converted": 3880,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 3492,
+      "converted": 3492,
+      "confidence": "PChome 2026-07-12 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAB3XA900IIGO1/000001_1765272569.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAB3X-A900IIGO1",
@@ -1448,13 +1448,13 @@
     "name": "18吋 DC 直流馬達循環吸頂扇",
     "price": {
       "currency": "TWD",
-      "amount": 2400,
-      "converted": 2400,
-      "confidence": "Yahoo購物中心 2026-07-11 頁面查核價"
+      "amount": 2980,
+      "converted": 2980,
+      "confidence": "PChome 2026-07-12 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBM3GA900IUV09/000001_1777977008.jpg",
-    "buyUrl": "https://tw.buy.yahoo.com/gdsale/gdsale.asp?gdid=p1014265510958",
-    "buyLabel": "Yahoo購物中心",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DMBM3G-A900IUV09",
+    "buyLabel": "PChome",
     "specs": [
       "18 吋",
       "DC 馬達",

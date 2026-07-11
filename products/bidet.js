@@ -875,9 +875,9 @@
     "name": "儲熱式溫水洗淨便座含原廠基本安裝",
     "price": {
       "currency": "TWD",
-      "amount": 6990,
-      "converted": 6990,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 6190,
+      "converted": 6190,
+      "confidence": "PChome 2026-07-12 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAL8LA900GH6F4/000001_1724400418.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAL8L-A900GH6F4",
@@ -953,9 +953,9 @@
     "name": "纖薄美型瞬熱式溫水洗淨便座",
     "price": {
       "currency": "TWD",
-      "amount": 17900,
-      "converted": 17900,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 15752,
+      "converted": 15752,
+      "confidence": "PChome 2026-07-12 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAL6WA900I0L73/000001_1729761324.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAL6W-A900I0L73",
@@ -1031,9 +1031,9 @@
     "name": "瞬熱式溫水洗淨便座",
     "price": {
       "currency": "TWD",
-      "amount": 13900,
-      "converted": 13900,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 11954,
+      "converted": 11954,
+      "confidence": "PChome 2026-07-12 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAL6WA900JEEZE/000001_1776140283.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAL6W-A900JEEZE",

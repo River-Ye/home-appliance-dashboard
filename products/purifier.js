@@ -17,9 +17,9 @@
     "name": "5-10 坪綠淨力玩美雙禦空氣清淨機",
     "price": {
       "currency": "TWD",
-      "amount": 5900,
-      "converted": 5900,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 5428,
+      "converted": 5428,
+      "confidence": "PChome 2026-07-12 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAU3EA900AU9PA/000001_1782107657.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAU3E-A900AU9PA",
@@ -109,9 +109,9 @@
     "name": "14-29 坪智能 Wi-Fi 空氣清淨機",
     "price": {
       "currency": "TWD",
-      "amount": 12990,
-      "converted": 12990,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 11950,
+      "converted": 11950,
+      "confidence": "PChome 2026-07-12 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAUE4A900I5SSZ/000001_1780654673.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAUE4-A900I5SSZ",
@@ -265,9 +265,9 @@
     "name": "17 坪 360 度高效過濾空氣清淨機",
     "price": {
       "currency": "TWD",
-      "amount": 7999,
-      "converted": 7999,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 7359,
+      "converted": 7359,
+      "confidence": "PChome 2026-07-12 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAC2OA900GH5RL/000001_1781800112.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAC2O-A900GH5RL",
@@ -421,9 +421,9 @@
     "name": "ClassicPro CP9i 空氣清淨機",
     "price": {
       "currency": "TWD",
-      "amount": 26990,
-      "converted": 26990,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 24830,
+      "converted": 24830,
+      "confidence": "PChome 2026-07-12 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAUE4A900IJCAP/000001_1780654528.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAUE4-A900IJCAP",
@@ -499,9 +499,9 @@
     "name": "Blue Signature SP4i 極夜藍空氣清淨機",
     "price": {
       "currency": "TWD",
-      "amount": 19990,
-      "converted": 19990,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 18390,
+      "converted": 18390,
+      "confidence": "PChome 2026-07-12 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAUE4A900J9KNK/000001_1780654611.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAUE4-A900J9KNK",
@@ -577,9 +577,9 @@
     "name": "BlueMax 智能 WiFi 空氣清淨機 3250i",
     "price": {
       "currency": "TWD",
-      "amount": 4990,
-      "converted": 4990,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 4590,
+      "converted": 4590,
+      "confidence": "PChome 2026-07-12 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAUE4A900I7DJ1/000001_1780654701.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAUE4-A900I7DJ1",
@@ -655,9 +655,9 @@
     "name": "BlueMax 智能 WiFi 空氣清淨機 3350i",
     "price": {
       "currency": "TWD",
-      "amount": 7990,
-      "converted": 7990,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 7350,
+      "converted": 7350,
+      "confidence": "PChome 2026-07-12 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAUE4A900I7DN1/000001_1780654653.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAUE4-A900I7DN1",
@@ -733,9 +733,9 @@
     "name": "ComfortPure 智能三合一涼暖空氣清淨機",
     "price": {
       "currency": "TWD",
-      "amount": 17990,
-      "converted": 17990,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 16550,
+      "converted": 16550,
+      "confidence": "PChome 2026-07-12 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAUE4A900J40NE/000001_1780654570.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAUE4-A900J40NE",
@@ -1123,9 +1123,9 @@
     "name": "奈米級空氣清淨機 MUJI AC0650",
     "price": {
       "currency": "TWD",
-      "amount": 4990,
-      "converted": 4990,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 4590,
+      "converted": 4590,
+      "confidence": "PChome 2026-07-12 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAC2OA900GD1ZV/000001_1781800174.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAC2O-A900GD1ZV",
@@ -1435,9 +1435,9 @@
     "name": "寵物抗敏空氣清淨機輕量版",
     "price": {
       "currency": "TWD",
-      "amount": 10990,
-      "converted": 10990,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 10110,
+      "converted": 10110,
+      "confidence": "PChome 2026-07-12 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAC2OA900J7SBO/000001_1781799851.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAC2O-A900J7SBO",
@@ -1513,9 +1513,9 @@
     "name": "PuriCare 超淨化大白空氣清淨機",
     "price": {
       "currency": "TWD",
-      "amount": 12900,
-      "converted": 12900,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 6810,
+      "converted": 6810,
+      "confidence": "PChome 2026-07-12 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAU0BA900GI0Q1/000001_1763349087.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAU0B-A900GI0Q1",

@@ -586,9 +586,9 @@
     "name": "LG Soundbar S80TR 5.1.3 聲道立體環繞聲霸",
     "price": {
       "currency": "TWD",
-      "amount": 19900,
-      "converted": 19900,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 18905,
+      "converted": 18905,
+      "confidence": "PChome 2026-07-12 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBM1DA900J5JAZ/000001_1779262704.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBM1D-A900J5JAZ",
@@ -1132,9 +1132,9 @@
     "name": "家庭娛樂揚聲器 600 Ultra",
     "price": {
       "currency": "TWD",
-      "amount": 19900,
-      "converted": 19900,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 18507,
+      "converted": 18507,
+      "confidence": "PChome 2026-07-12 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAANJA900HZBZV/000001_1729154632.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAANJ-A900HZBZV",
@@ -1366,9 +1366,9 @@
     "name": "BRAVIA Theatre Bar 9 旗艦聲霸",
     "price": {
       "currency": "TWD",
-      "amount": 38855,
-      "converted": 38855,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 36912,
+      "converted": 36912,
+      "confidence": "PChome 2026-07-12 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBM1DA900IUZUJ/000001_1783698580.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBM1D-A900IUZUJ",
@@ -1444,9 +1444,9 @@
     "name": "7.1.4 聲道家庭劇院聲霸",
     "price": {
       "currency": "TWD",
-      "amount": 42900,
-      "converted": 42900,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 40755,
+      "converted": 40755,
+      "confidence": "PChome 2026-07-12 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAAHGA900J5777/000001_1755253698.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAAHG-A900J5777",
@@ -1522,9 +1522,9 @@
     "name": "Fidelio 7.1.2 Dolby Atmos 旗艦聲霸",
     "price": {
       "currency": "TWD",
-      "amount": 38900,
-      "converted": 38900,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 35399,
+      "converted": 35399,
+      "confidence": "PChome 2026-07-12 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAF02A900H2G5R/000001_1704612188.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAF02-A900H2G5R",

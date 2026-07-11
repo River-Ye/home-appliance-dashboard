@@ -17,13 +17,13 @@
     "name": "27L 蒸烘烤微波爐",
     "price": {
       "currency": "TWD",
-      "amount": 14310,
-      "converted": 14310,
-      "confidence": "Yahoo購物中心 2026-07-11 頁面查核價"
+      "amount": 12490,
+      "converted": 12490,
+      "confidence": "PChome 2026-07-12 API 查核價"
     },
-    "image": "https://cs-a.ecimg.tw/items/DMBJ021900HFATV/000001_1779702402.jpg",
-    "buyUrl": "https://tw.buy.yahoo.com/gdsale/gdsale.asp?gdid=p0830264435843",
-    "buyLabel": "Yahoo購物中心",
+    "image": "https://cs-a.ecimg.tw/items/DMBJ02A900G62BM/000001_1756899692.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DMBJ02-A900G62BM",
+    "buyLabel": "PChome",
     "specs": [
       "27L",
       "微波 + 蒸氣 + 烘烤",
@@ -719,9 +719,9 @@
     "name": "20L 多功能蒸氣氣炸烤箱",
     "price": {
       "currency": "TWD",
-      "amount": 10800,
-      "converted": 10800,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 10260,
+      "converted": 10260,
+      "confidence": "PChome 2026-07-12 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBM0GA900HF91A/000001_1768545220.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBM0G-A900HF91A",
@@ -1499,9 +1499,9 @@
     "name": "蒸烘烤變頻微波爐",
     "price": {
       "currency": "TWD",
-      "amount": 43920,
-      "converted": 43920,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 41724,
+      "converted": 41724,
+      "confidence": "PChome 2026-07-12 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBM0GA900H5125/000001_1783054719.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBM0G-A900H5125",

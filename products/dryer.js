@@ -850,20 +850,20 @@
     "image": "https://img.yec.tw/cl/api/res/1.2/X7GJL4yRaZyv2b4Q.mOxyQ--/YXBwaWQ9eXR3bWFsbDtoPTYwMDtxPTEwMDt3PTYwMA--/https://img.yec.tw/fy/5f70/item/p0214264895227-item-7edaxf4x1000x1000-m.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 41490,
-      "converted": 41490,
-      "confidence": "Yahoo購物中心 2026-07-11 頁面查核價"
+      "amount": 38999,
+      "converted": 38999,
+      "confidence": "Costco 好市多 2026-07-12 頁面查核價"
     },
     "channel": "tw",
-    "buyLabel": "Yahoo購物中心",
-    "buyUrl": "https://tw.buy.yahoo.com/gdsale/gdsale.asp?gdid=p0214264895227",
+    "buyLabel": "Costco 好市多",
+    "buyUrl": "https://www.costco.com.tw/Televisions-Appliances/Large-Appliances/Washers-Dryers/Whirlpool-16-kg-Gas-Dryer-8TWGD6622HW/p/125469",
     "specs": [
       "烘衣機：Whirlpool惠而浦 16公斤 快烘瓦斯型滾筒乾衣機 8TWGD6622HW 含基本安裝",
       "容量：16kg",
       "尺寸：寬 68.6 x 深 78.7 x 高 96.8 cm",
       "乾衣方式：瓦斯",
       "需確認排風/排水、瓦斯或專用迴路；疊放需另查同品牌疊架",
-      "Yahoo購物 可信通路低價；排除洗脫烘、福利品、展示機、底座與配件頁"
+      "Costco 好市多可信通路低價；排除洗脫烘、福利品、展示機、底座與配件頁"
     ],
     "description": "聚焦獨立烘衣/乾衣機，依熱泵節能、瓦斯效率、容量、安裝條件、品牌售後與耗材維護排序。",
     "pros": [

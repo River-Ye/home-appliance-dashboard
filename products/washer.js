@@ -1302,16 +1302,16 @@
     "brand": "Whirlpool",
     "model": "WM10GN",
     "name": "Whirlpool WM10GN",
-    "image": "https://img.yec.tw/cl/api/res/1.2/sE0R9nksglQbmhAnvyPpjA--/YXBwaWQ9eXR3bWFsbDtoPTYwMDtxPTEwMDt3PTYwMA--/https://img.yec.tw/fy/28ee/item/p0214264897808-item-b3bexf4x1000x1000-m.jpg",
+    "image": "https://i5.momoshop.com.tw/1774540606/goodsimg/TP000/7894/0002/025/TP00078940002025_L_m.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 7290,
-      "converted": 7290,
-      "confidence": "Yahoo購物中心 2026-07-11 頁面查核價"
+      "amount": 7590,
+      "converted": 7590,
+      "confidence": "momo購物 2026-07-12 頁面查核價"
     },
     "channel": "tw",
-    "buyLabel": "Yahoo購物中心",
-    "buyUrl": "https://tw.buy.yahoo.com/gdsale/gdsale.asp?gdid=p0214264897808",
+    "buyLabel": "momo購物",
+    "buyUrl": "https://www.momoshop.com.tw/TP/TP0007894/goodsDetail/TP00078940002025",
     "specs": [
       "洗衣機：Whirlpool惠而浦 10公斤 直立洗衣機 WM10GN",
       "容量：10kg",
@@ -1320,7 +1320,7 @@
       "變頻：通路頁未標示",
       "溫水洗：依商品頁標示",
       "需確認進排水、插座、門向與安裝空間",
-      "Yahoo購物 可信通路低價；排除洗脫烘、福利品、展示機與配件頁"
+      "momo購物 可信通路低價；排除洗脫烘、福利品、展示機與配件頁"
     ],
     "description": "涵蓋直立式與滾筒式洗衣機，依容量、變頻、省水、省電、品牌售後與安裝門檻排序。",
     "pros": [

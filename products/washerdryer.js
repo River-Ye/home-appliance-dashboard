@@ -1133,9 +1133,9 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/BCB950DBF0-SP-13742246.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 48900,
-      "converted": 48900,
-      "confidence": "Yahoo購物中心 2026-07-11 公開售價查核"
+      "amount": 47433,
+      "converted": 47433,
+      "confidence": "Yahoo購物中心 2026-07-12 頁面查核價"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心",
@@ -1216,16 +1216,16 @@
     "brand": "Whirlpool",
     "model": "8TWFC6810LW",
     "name": "Whirlpool 8TWFC6810LW",
-    "image": "https://img.yec.tw/zp/MerchandiseImages/76C761CD55-SP-20730912.jpg",
+    "image": "https://cs-a.ecimg.tw/items/DPAI1PA900F1KXB/000001_1762877683.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 33000,
-      "converted": 33000,
-      "confidence": "Yahoo購物中心 2026-07-11 頁面查核價"
+      "amount": 35910,
+      "converted": 35910,
+      "confidence": "PChome 2026-07-12 API 查核價"
     },
     "channel": "tw",
-    "buyLabel": "Yahoo購物中心",
-    "buyUrl": "https://tw.buy.yahoo.com/gdsale/gdsale.asp?gdid=p0214264897550",
+    "buyLabel": "PChome",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DPAI1P-A900F1KXB",
     "specs": [
       "洗烘衣機：Whirlpool 惠而浦 15(KG) 變頻洗脫烘滾筒式洗衣機 8TWFC6810LW",
       "洗/乾容量：15kg / 10kg",
@@ -1234,7 +1234,7 @@
       "蒸氣/除菌：有標示",
       "自動投入：依商品頁標示",
       "乾衣容量通常低於洗衣容量；需確認散熱、排水與門向",
-      "Yahoo購物 可信通路低價；排除福利品、展示機、底座與配件頁"
+      "PChome 可信通路低價；排除福利品、展示機、底座與配件頁"
     ],
     "description": "聚焦洗衣與烘乾整合機，依洗/乾容量、熱泵或冷凝方式、洗程時間、空間節省、價格與售後排序。",
     "pros": [
