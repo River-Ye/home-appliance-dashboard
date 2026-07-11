@@ -33,6 +33,73 @@ async function waitForVisibleCount(page, expectedCount) {
   }, String(expectedCount));
 }
 
+async function runProductLoadSchedulingJourney(browser) {
+  const name = "dashboard-product-loader";
+  const page = await browser.newPage({ viewport: { width: 1440, height: 1100 } });
+  try {
+    await page.addInitScript(() => {
+      window.__productLoadProbe = [];
+      const originalAppend = HTMLHeadElement.prototype.append;
+      HTMLHeadElement.prototype.append = function appendWithProductLoadProbe(...nodes) {
+        nodes.forEach((node) => {
+          if (!(node instanceof HTMLScriptElement) || !node.src.includes("/products/")) return;
+
+          const record = {
+            src: node.src,
+            appendedAt: performance.now(),
+            loadedAt: null,
+            errorAt: null,
+          };
+          window.__productLoadProbe.push(record);
+          node.addEventListener("load", () => {
+            record.loadedAt = performance.now();
+          }, { once: true });
+          node.addEventListener("error", () => {
+            record.errorAt = performance.now();
+          }, { once: true });
+        });
+        return originalAppend.apply(this, nodes);
+      };
+    });
+
+    await page.goto(fileUrl, { waitUntil: "domcontentloaded" });
+    await page.waitForSelector(".product-card");
+    await waitForProductCards(page, 12);
+
+    const records = await page.evaluate(() => window.__productLoadProbe.map((record) => ({ ...record })));
+    if (records.length !== EXPECTED_CATEGORY_COUNT) {
+      throw new Error(`${name}: expected ${EXPECTED_CATEGORY_COUNT} product scripts, got ${records.length}`);
+    }
+    if (records.some((record) => record.errorAt !== null)) {
+      throw new Error(`${name}: one or more product scripts failed to load`);
+    }
+    if (records.some((record) => record.loadedAt === null)) {
+      throw new Error(`${name}: app initialized before every product script finished`);
+    }
+
+    const lastAppend = Math.max(...records.map((record) => record.appendedAt));
+    const firstLoad = Math.min(...records.map((record) => record.loadedAt));
+    if (lastAppend > firstLoad) {
+      throw new Error(`${name}: product scripts were still being appended after the first script loaded`);
+    }
+
+    const total = await visibleText(page, "#productCount");
+    if (total.trim() !== EXPECTED_PRODUCT_COUNT_TEXT) {
+      throw new Error(`${name}: expected ${EXPECTED_PRODUCT_COUNT_TEXT} products, got ${total}`);
+    }
+    const categoryTotal = await visibleText(page, "#categoryCount");
+    if (categoryTotal.trim() !== EXPECTED_CATEGORY_COUNT_TEXT) {
+      throw new Error(`${name}: expected ${EXPECTED_CATEGORY_COUNT_TEXT} categories, got ${categoryTotal}`);
+    }
+    const topPickCount = await page.locator("#topPicks .pick-card").count();
+    if (topPickCount !== EXPECTED_CATEGORY_COUNT) {
+      throw new Error(`${name}: expected ${EXPECTED_CATEGORY_COUNT} top picks, got ${topPickCount}`);
+    }
+  } finally {
+    await page.close();
+  }
+}
+
 async function assertCommonIssueJourney(page, name) {
   await page.fill("#searchInput", "隨機爆音");
   await waitForVisibleCount(page, 1);
@@ -754,6 +821,7 @@ async function runMobileJourney(browser) {
 
 
 module.exports = {
+  runProductLoadSchedulingJourney,
   runExhaustiveViewport,
   runSmokeViewport,
   runDesktopJourney,

@@ -70,6 +70,117 @@ function createRuntime() {
   };
 }
 
+function createLoaderRuntime(categoryIds = ["alpha", "beta", "gamma"]) {
+  const appendedScripts = [];
+  const products = [];
+  const categories = categoryIds.map((id) => ({ id }));
+  const dashboard = {
+    categories,
+    meta: { cacheVersion: "unit-loader" },
+    products,
+    registerProducts(categoryId, items) {
+      products.push(...items.map((product) => ({
+        ...product,
+        category: product.category || categoryId,
+      })));
+    },
+  };
+  const context = {
+    console,
+    Promise,
+    Set,
+    applianceDashboard: dashboard,
+    document: {
+      createElement() {
+        return {};
+      },
+      head: {
+        append(script) {
+          appendedScripts.push(script);
+        },
+      },
+    },
+    globalThis: null,
+  };
+  context.globalThis = context;
+  vm.createContext(context);
+  vm.runInContext(
+    fs.readFileSync(path.join(root, "assets/js/product-loader.js"), "utf8"),
+    context,
+    { filename: "assets/js/product-loader.js" },
+  );
+
+  return {
+    appendedScripts,
+    dashboard,
+  };
+}
+
+async function assertLoaderSchedulesAllCategoriesTogether() {
+  const {
+    appendedScripts,
+    dashboard,
+  } = createLoaderRuntime();
+  let settled = false;
+  const loadPromise = dashboard.productLoader.loadAll().then((value) => {
+    settled = true;
+    return value;
+  });
+
+  assert(
+    appendedScripts.length === dashboard.categories.length,
+    "loader should append every category before any category finishes loading",
+  );
+  assert(
+    appendedScripts.every((script) => script.async === false),
+    "parallel product scripts should preserve category execution order",
+  );
+  assert(
+    appendedScripts.map((script) => script.src).join(",")
+      === dashboard.categories.map((category) => `./products/${category.id}.js?v=unit-loader`).join(","),
+    "loader should schedule category URLs in configured order",
+  );
+
+  await Promise.resolve();
+  assert(!settled, "loader should wait for every scheduled category");
+
+  dashboard.categories.forEach((category, index) => {
+    dashboard.registerProducts(category.id, [{ id: `${category.id}-product` }]);
+    appendedScripts[index].onload();
+  });
+
+  const result = await loadPromise;
+  assert(result === undefined, "loadAll should keep its Promise<void> contract");
+  assert(
+    dashboard.products.map((product) => product.category).join(",")
+      === dashboard.categories.map((category) => category.id).join(","),
+    "parallel loading should preserve configured category order",
+  );
+
+  await dashboard.productLoader.loadAll();
+  assert(
+    appendedScripts.length === dashboard.categories.length,
+    "loadAll should not append categories that already loaded successfully",
+  );
+}
+
+async function assertLoaderRequiresNewItemsForCategory() {
+  const {
+    appendedScripts,
+    dashboard,
+  } = createLoaderRuntime(["alpha"]);
+  dashboard.registerProducts("alpha", [{ id: "alpha-existing" }]);
+
+  const loadPromise = dashboard.productLoader.loadCategory(dashboard.categories[0]);
+  dashboard.registerProducts("beta", [{ id: "beta-unrelated" }]);
+  appendedScripts[0].onload();
+
+  await assertRejects(
+    loadPromise,
+    /Product category did not register items: alpha/,
+  );
+}
+
 async function assertLoaderFailureIsClear(context, dashboard) {
   let appendedScript = null;
   context.document = {
@@ -419,6 +530,8 @@ async function main() {
   dashboard.urlState.syncToQuery();
   assert(context.history.lastUrl.endsWith("?q=OLED&category=monitor&brand=ASUS&sort=priceAsc"), "query sync should persist active filters only");
 
+  await assertLoaderSchedulesAllCategoriesTogether();
+  await assertLoaderRequiresNewItemsForCategory();
   await assertLoaderFailureIsClear(context, dashboard);
 
   console.log("logic check passed");

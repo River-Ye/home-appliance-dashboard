@@ -7,6 +7,10 @@
     return `./products/${encodeURIComponent(category.id)}.js?v=${version}`;
   }
 
+  function productCountForCategory(categoryId) {
+    return dashboard.products.filter((product) => product.category === categoryId).length;
+  }
+
   function loadCategory(category) {
     if (loadedCategoryIds.has(category.id)) return Promise.resolve();
 
@@ -16,13 +20,12 @@
         return;
       }
 
-      const existingCount = dashboard.products.length;
+      const existingCategoryCount = productCountForCategory(category.id);
       const script = document.createElement("script");
       script.src = productScriptUrl(category);
       script.async = false;
       script.onload = () => {
-        const categoryLoaded = dashboard.products.some((product) => product.category === category.id);
-        if (!categoryLoaded || dashboard.products.length === existingCount) {
+        if (productCountForCategory(category.id) <= existingCategoryCount) {
           reject(new Error(`Product category did not register items: ${category.id}`));
           return;
         }
@@ -35,10 +38,8 @@
   }
 
   function loadAll() {
-    return dashboard.categories.reduce(
-      (promise, category) => promise.then(() => loadCategory(category)),
-      Promise.resolve(),
-    );
+    return Promise.all(dashboard.categories.map((category) => loadCategory(category)))
+      .then(() => undefined);
   }
 
   dashboard.productLoader = {
