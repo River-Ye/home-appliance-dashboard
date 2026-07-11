@@ -2,20 +2,20 @@ const fs = require("fs");
 const path = require("path");
 const { readDashboardProducts } = require("./read-dashboard-products");
 
-const CHECKED_AT = "2026-07-09";
+const CHECKED_AT = "2026-07-11";
 const CONCURRENCY = Number(process.env.HISTORICAL_LOW_CONCURRENCY || 6);
 const QUERY_LIMIT = Number(process.env.HISTORICAL_LOW_QUERY_LIMIT || 2);
 const HISTORY_LIMIT_PER_SOURCE = Number(process.env.HISTORICAL_LOW_HISTORY_LIMIT || 3);
 const FETCH_TIMEOUT_MS = Number(process.env.HISTORICAL_LOW_FETCH_TIMEOUT_MS || 12000);
 const BIGGO_SEARCH_ORIGIN = "https://biggo.com.tw";
 const BIGGO_API_ORIGIN = "https://biggo.com.tw/api/v1/spa";
-const USD_TWD = 32.127508;
+const USD_TWD = 32.084957;
 
 const trustedStoreNamePattern = /PChome|PCHome|momo|Momo|Yahoo購物中心|東森|fri?day|myfone|神腦|小米|Xiaomi|環球|Costco|好市多|燦坤|全國電子|家樂福|特力|7-ELEVEN|i預購|信源|小蔡電器|LG官方|Samsung|Sony|BenQ|Dyson|Philips|Panasonic|TOTO|Yale|ASUS|Acer|Dell|Apple/i;
 const trustedNindexPattern = /^(tw_(pec|ec)_|tw_mall_shopeemall$)/;
 const auctionStorePattern = /拍賣|露天|蝦皮購物|iOPEN Mall|旋轉拍賣/i;
 const officialShopPattern = /官方|旗艦|原廠|品牌館|品牌旗艦|官方旗艦|公司貨/i;
-const excludedTitlePattern = /二手|中古|福利品|展示品|展示機|拆封|整新|箱損|瑕疵|零件|配件|耗材|濾心|保護貼|保護鏡|外殼|外套|收納|維修|租賃|空機|聊聊|詢價|議價|來電|訂金|預購訂金|贈品|清倉出清|分期|月繳|每期|月付|專案價|申辦|續約|搭門號/i;
+const excludedTitlePattern = /二手|中古|B品|福利品|展品|展示品|展示機|拆封|整新|箱損|瑕疵|零件|配件|耗材|濾心|保護貼|保護鏡|外殼|外套|收納|維修|租賃|空機|聊聊|詢價|議價|來電|訂金|預購訂金|贈品|清倉出清|分期|月繳|每期|月付|專案價|申辦|續約|搭門號/i;
 const weakModelPattern = /^(桌上型洗碗機|空氣清淨機|循環扇|電風扇|免治馬桶|電子鎖|破壁調理機|全營養調理機)$/i;
 
 const agentVerifiedHistoricalLows = new Map([
@@ -180,60 +180,7 @@ const agentVerifiedHistoricalLows = new Map([
   }],
 ]);
 
-const verifiedHistoricalLows = new Map([
-  ["tv-lg-c5-65", {
-    status: "found",
-    amount: 1096,
-    currency: "USD",
-    converted: 35212,
-    sourceUrl: "https://www.tomsguide.com/tvs/oled-tvs/not-a-typo-the-65-inch-lg-c5-oled-tv-just-crashed-to-usd1-099-on-the-last-day-of-prime-day",
-    sourceTitle: "Not a typo! The 65-inch LG C5 OLED TV just crashed to $1,099 on the last day of Prime Day | Tom's Guide",
-    evidenceSnippet: "Tom's Guide reported the 65-inch LG C5 at Amazon for $1,099 and its deal card showed now US$1,096, calling it the cheapest the 65-inch C5 had ever been.",
-    sourceKind: "retailer_promo",
-    confidence: "medium",
-    checkedAt: CHECKED_AT,
-    note: "Overseas Amazon US 65-inch LG C5 equivalent. Converted using USD_TWD 32.127508; excludes shipping, import tax, plug/voltage differences, and Taiwan warranty risk.",
-  }],
-  ["tv-samsung-s90f-65", {
-    status: "found",
-    amount: 1197.99,
-    currency: "USD",
-    converted: 38488,
-    sourceUrl: "https://www.androidcentral.com/streaming-tv/samsung-s90f-oled-tv-deal-prime-day-2026-gta6-preorders",
-    sourceTitle: "This 'best gaming TV' has crashed to a record low price during Prime Day - just in time for your GTA 6 preorder | Android Central",
-    evidenceSnippet: "Android Central reported the 65-inch Samsung Class OLED S90F at $1,197.99 during Prime Day and described it as a record-low price.",
-    sourceKind: "retailer_promo",
-    confidence: "medium",
-    checkedAt: CHECKED_AT,
-    note: "Overseas US equivalent 65-inch S90F; regional SKU may differ from Taiwan QA65S90FAEXZW. Converted using USD_TWD 32.127508; excludes shipping, import tax, and Taiwan warranty risk.",
-  }],
-  ["robot-roborock-qrevo-curv-2-flow", {
-    status: "found",
-    amount: 715,
-    currency: "USD",
-    converted: 22971,
-    sourceUrl: "https://www.wired.com/story/amazon-prime-day-roborock-deals-2026/",
-    sourceTitle: "This Is the Roborock Vacuum to Buy During Prime Day | WIRED",
-    evidenceSnippet: "WIRED listed Roborock Qrevo Curv 2 Flow at $1,000 reduced to $715 (28% off) during Prime Day.",
-    sourceKind: "retailer_promo",
-    confidence: "medium",
-    checkedAt: CHECKED_AT,
-    note: "Converted using USD_TWD 32.127508. Repo current PChome price is lower, but the current retailer page is not used as historical-low evidence because it does not explicitly claim a historical low.",
-  }],
-  ["monitor-samsung-s57cg952nc", {
-    status: "found",
-    amount: 1499,
-    currency: "USD",
-    converted: 48159,
-    sourceUrl: "https://www.tomsguide.com/gaming/gaming-peripherals/act-fast-this-57-inch-samsung-gaming-monitor-is-now-usd800-off-at-amazon",
-    sourceTitle: "Act fast! This 57-inch Samsung gaming monitor is now $800 off at Amazon | Tom's Guide",
-    evidenceSnippet: "Tom's Guide reported Amazon selling the 57-inch Samsung Odyssey Neo G9 for $1,499, $800 off $2,299.",
-    sourceKind: "retailer_promo",
-    confidence: "medium",
-    checkedAt: CHECKED_AT,
-    note: "Overseas historical promo for the same 57-inch Odyssey Neo G9/G95NC class. Converted using USD_TWD 32.127508; excludes shipping, import tax, and Taiwan warranty risk. Source does not explicitly call it all-time low.",
-  }],
-]);
+const verifiedHistoricalLows = new Map([]);
 
 function normalize(value) {
   return String(value || "")

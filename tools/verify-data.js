@@ -105,8 +105,18 @@ function validateCandidateReview(candidate, prefix, checkedAt, failures) {
   assert(Number.isInteger(candidate.independentAuthors) && candidate.independentAuthors >= 0, `${prefix} requires an independent author count`, failures);
   assert(typeof candidate.specificReason === "string" && candidate.specificReason.trim().length >= 20, `${prefix} requires a specific exclusion reason`, failures);
   assert(
+    !candidate.sourceExcerpt.includes("討論群組 小惡魔市集"),
+    `${prefix} sourceExcerpt must be a reviewer-written trace, not a copied page header/navigation block`,
+    failures,
+  );
+  assert(
     candidate.specificReason !== "候選標題或 URL 含完全相同型號，但人工回看原始頁後未形成 6 位獨立使用者且跨 2 個網站的同一問題；搜尋結果本身不計人數。",
     `${prefix} must not use the former generated rejection reason`,
+    failures,
+  );
+  assert(
+    !/^Original page review for .* did not establish six deduplicated first-person reporters for one same problem across two independent original websites\.$/.test(candidate.specificReason),
+    `${prefix} must not use the generic English threshold template`,
     failures,
   );
 }
@@ -183,6 +193,8 @@ function validateIssueResearch(product, failures) {
 
 function validateHistoricalLow(product, failures) {
   const low = product.historicalLow;
+  const excludedConditionPattern = /B品|福利品|展示品|展示機|展品出清|拆封|整新|箱損|瑕疵|二手/i;
+  const uncertainIdentityPattern = /\bequivalent\b|regional SKU may differ|\bclass\b|does not explicitly call it (?:an? )?all-time low/i;
   assert(low && typeof low === "object" && !Array.isArray(low), `${product.id} historicalLow must be an object`, failures);
   if (!low || typeof low !== "object" || Array.isArray(low)) return;
 
@@ -194,6 +206,7 @@ function validateHistoricalLow(product, failures) {
   assert(typeof low.note === "string" && low.note.trim(), `${product.id} historicalLow requires note`, failures);
 
   if (low.status === "found") {
+    const productVariantText = [product.name, ...(product.specs || [])].join(" ");
     assert(typeof low.amount === "number" && low.amount > 0, `${product.id} found historicalLow requires positive amount`, failures);
     assert(typeof low.converted === "number" && low.converted > 0, `${product.id} found historicalLow requires positive converted`, failures);
     assert(low.sourceUrl && /^https?:\/\//.test(low.sourceUrl), `${product.id} found historicalLow requires sourceUrl`, failures);
@@ -201,6 +214,42 @@ function validateHistoricalLow(product, failures) {
     assert(low.evidenceSnippet, `${product.id} found historicalLow requires evidenceSnippet`, failures);
     assert(low.sourceKind !== "not_found", `${product.id} found historicalLow cannot use not_found sourceKind`, failures);
     assert(low.confidence !== "not_found", `${product.id} found historicalLow cannot use not_found confidence`, failures);
+    assert(
+      !excludedConditionPattern.test(low.sourceTitle),
+      `${product.id} found historicalLow sourceTitle contains an excluded product condition`,
+      failures,
+    );
+    assert(
+      !uncertainIdentityPattern.test(low.note),
+      `${product.id} found historicalLow note admits an inexact identity or unverified historical-low claim`,
+      failures,
+    );
+    if (product.category === "tv" && [product.name, ...(product.specs || [])].join(" ").includes("聲霸")) {
+      assert(
+        low.sourceTitle.includes("聲霸") || low.evidenceSnippet.includes("聲霸"),
+        `${product.id} found historicalLow does not match the catalog soundbar bundle`,
+        failures,
+      );
+    }
+    for (const marker of ["單柄單耳", "雙耳", "低身"]) {
+      if (productVariantText.includes(marker)) {
+        assert(
+          low.sourceTitle.includes(marker) || low.evidenceSnippet.includes(marker),
+          `${product.id} found historicalLow does not preserve the ${marker} variant`,
+          failures,
+        );
+      }
+    }
+    if (low.sourceTitle.includes("蒸鮮鍋") && !productVariantText.includes("蒸鮮鍋")) {
+      failures.push(`${product.id} found historicalLow adds a cookware bundle absent from the catalog product`);
+    }
+    if (product.brand === "Panasonic") {
+      assert(
+        /Panasonic|國際牌/i.test(`${low.sourceTitle} ${low.evidenceSnippet}`),
+        `${product.id} found historicalLow does not prove the Panasonic brand identity`,
+        failures,
+      );
+    }
   } else if (low.status === "not_found") {
     assert(low.amount === null, `${product.id} not_found historicalLow amount must be null`, failures);
     assert(low.converted === null, `${product.id} not_found historicalLow converted must be null`, failures);

@@ -467,7 +467,7 @@ async function main() {
     resultCount: 2,
     candidateUrls: [pollutedCandidate.url, exactCandidate.url],
     candidates: [pollutedCandidate, exactCandidate],
-    inspectedAt: "2026-07-10T00:00:00+08:00",
+    inspectedAt: `${c5Review.reviewedAt}T00:00:00+08:00`,
   });
   assert(sanitizedSearch.resultCount === 1, "search candidates should be filtered to the exact model");
   assert(sanitizedSearch.candidates[0].url === exactCandidate.url, "sanitized search should keep only the exact-model URL");
@@ -481,7 +481,7 @@ async function main() {
     url: exactCandidate.url,
     title: exactCandidate.title,
     outcome: "excluded",
-    reviewedAt: "2026-07-10",
+    reviewedAt: c5Review.reviewedAt,
     exactModel: true,
     sourceExcerpt: "原頁只出現單一使用者詢問 OLED65C5PTA，沒有同一問題的多人第一人稱回報。",
     independentAuthors: 1,

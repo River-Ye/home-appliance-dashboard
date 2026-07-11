@@ -15,13 +15,13 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/AC7DC27581-SP-22704432.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 10000,
-      "converted": 10000,
-      "confidence": "Yahoo 購物中心低價查核"
+      "amount": 9143,
+      "converted": 9143,
+      "confidence": "PChome 2026-07-11 API 查核價"
     },
     "channel": "tw",
-    "buyLabel": "Yahoo購物",
-    "buyUrl": "https://tw.buy.yahoo.com/gdsale/Panasonic國際牌8公斤乾衣機NH-80RZ-W-12105618.html",
+    "buyLabel": "PChome",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DPAI1H-A900I7ZB7",
     "specs": [
       "烘衣機：Panasonic國際牌8公斤乾衣機NH-80RZ-W",
       "容量：8kg",
@@ -69,20 +69,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Panasonic NH-80RZ-W\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Panasonic%20NH-80RZ-W%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Panasonic%20NH-80RZ-W%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"Panasonic NH-80RZ-W\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22Panasonic%20NH-80RZ-W%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"Panasonic NH-80RZ-W\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Panasonic%20NH-80RZ-W%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
           "targetHost": "reddit.com"
         }
       ]
@@ -100,11 +100,11 @@
       "currency": "TWD",
       "amount": 7388,
       "converted": 7388,
-      "confidence": "Yahoo 購物中心低價查核"
+      "confidence": "Yahoo購物中心 2026-07-11 頁面查核價"
     },
     "channel": "tw",
-    "buyLabel": "Yahoo購物",
-    "buyUrl": "https://tw.buy.yahoo.com/gdsale/Panasonic國際牌-7公斤-落地型乾衣機-NH-70G-9194341.html",
+    "buyLabel": "Yahoo購物中心",
+    "buyUrl": "https://tw.buy.yahoo.com/gdsale/Panasonic%E5%9C%8B%E9%9A%9B%E7%89%8C-7%E5%85%AC%E6%96%A4-%E8%90%BD%E5%9C%B0%E5%9E%8B%E4%B9%BE%E8%A1%A3%E6%A9%9F-NH-70G-9194341.html",
     "specs": [
       "烘衣機：Panasonic國際牌 7公斤 落地型乾衣機 NH-70G-L",
       "容量：7kg",
@@ -153,20 +153,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Panasonic NH-70G-L\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Panasonic%20NH-70G-L%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Panasonic%20NH-70G-L%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"Panasonic NH-70G-L\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22Panasonic%20NH-70G-L%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"Panasonic NH-70G-L\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Panasonic%20NH-70G-L%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
           "targetHost": "reddit.com"
         }
       ]
@@ -182,13 +182,13 @@
     "image": "https://img.yec.tw/cl/api/res/1.2/iFm9i1b_52efUsXGHSir.Q--/YXBwaWQ9eXR3bWFsbDtoPTYwMDtxPTEwMDt3PTYwMA--/https://img.yec.tw/fy/dcbb/item/p0214264894319-item-d588xf4x1000x1000-m.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 23590,
-      "converted": 23590,
-      "confidence": "Yahoo 購物中心低價查核"
+      "amount": 22500,
+      "converted": 22500,
+      "confidence": "momo購物 2026-07-11 頁面查核價"
     },
     "channel": "tw",
-    "buyLabel": "Yahoo購物",
-    "buyUrl": "https://tw.buy.yahoo.com/gdsale/gdsale.asp?gdid=p0214264894319",
+    "buyLabel": "momo購物",
+    "buyUrl": "https://www.momoshop.com.tw/TP/TP0003952/goodsDetail/TP00039520000382",
     "specs": [
       "烘衣機：Whirlpool惠而浦 12公斤 快烘瓦斯型乾衣機 8TWGD5010PW 含基本安裝",
       "容量：12kg",
@@ -237,20 +237,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Whirlpool 8TWGD5010PW\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Whirlpool%208TWGD5010PW%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Whirlpool%208TWGD5010PW%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"Whirlpool 8TWGD5010PW\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22Whirlpool%208TWGD5010PW%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"Whirlpool 8TWGD5010PW\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Whirlpool%208TWGD5010PW%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
           "targetHost": "reddit.com"
         }
       ]
@@ -266,13 +266,13 @@
     "image": "https://img.yec.tw/cl/api/res/1.2/dTQkRZMaDozHzQpNUgXVHg--/YXBwaWQ9eXR3bWFsbDtoPTYwMDtxPTEwMDt3PTYwMA--/https://img.yec.tw/fy/e17f/item/p0214264894336-item-8fcdxf4x1000x1000-m.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 24590,
-      "converted": 24590,
-      "confidence": "Yahoo 購物中心低價查核"
+      "amount": 20599,
+      "converted": 20599,
+      "confidence": "Costco 好市多 2026-07-11 頁面查核價"
     },
     "channel": "tw",
-    "buyLabel": "Yahoo購物",
-    "buyUrl": "https://tw.buy.yahoo.com/gdsale/gdsale.asp?gdid=p0214264894336",
+    "buyLabel": "Costco 好市多",
+    "buyUrl": "https://www.costco.com.tw/Televisions-Appliances/Large-Appliances/Washers-Dryers/Dryer-Size-11-13-kg/Whirlpool-12-kg-Gas-Dryer-8TWGD5050PW/p/159758",
     "specs": [
       "烘衣機：Whirlpool惠而浦 12公斤 快烘瓦斯型乾衣機 8TWGD5050PW 含基本安裝",
       "容量：12kg",
@@ -321,20 +321,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Whirlpool 8TWGD5050PW\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Whirlpool%208TWGD5050PW%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Whirlpool%208TWGD5050PW%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"Whirlpool 8TWGD5050PW\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22Whirlpool%208TWGD5050PW%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"Whirlpool 8TWGD5050PW\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Whirlpool%208TWGD5050PW%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
           "targetHost": "reddit.com"
         }
       ]
@@ -350,13 +350,13 @@
     "image": "https://img.yec.tw/cl/api/res/1.2/PzojK6OzaumcZWkHDQO.hg--/YXBwaWQ9eXR3bWFsbDtoPTYwMDtxPTEwMDt3PTYwMA--/https://img.yec.tw/fy/5c46/item/p0214264895249-item-61b0xf4x1000x1000-m.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 39900,
-      "converted": 39900,
-      "confidence": "Yahoo 購物中心低價查核"
+      "amount": 37636,
+      "converted": 37636,
+      "confidence": "momo購物 2026-07-11 頁面查核價"
     },
     "channel": "tw",
-    "buyLabel": "Yahoo購物",
-    "buyUrl": "https://tw.buy.yahoo.com/gdsale/gdsale.asp?gdid=p0214264895249",
+    "buyLabel": "momo購物",
+    "buyUrl": "https://www.momoshop.com.tw/TP/TP0001568/goodsDetail/TP00015680001715",
     "specs": [
       "烘衣機：Whirlpool惠而浦 16公斤 快烘瓦斯型滾筒乾衣機 8TWGD8620HW 含基本安裝",
       "容量：16kg",
@@ -405,20 +405,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Whirlpool 8TWGD8620HW\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Whirlpool%208TWGD8620HW%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Whirlpool%208TWGD8620HW%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"Whirlpool 8TWGD8620HW\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22Whirlpool%208TWGD8620HW%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"Whirlpool 8TWGD8620HW\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Whirlpool%208TWGD8620HW%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
           "targetHost": "reddit.com"
         }
       ]
@@ -434,13 +434,13 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/1178FF80D6-SP-21903027.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 32850,
-      "converted": 32850,
-      "confidence": "Yahoo 購物中心低價查核"
+      "amount": 31865,
+      "converted": 31865,
+      "confidence": "Yahoo購物中心 2026-07-11 頁面查核價"
     },
     "channel": "tw",
-    "buyLabel": "Yahoo購物",
-    "buyUrl": "https://tw.buy.yahoo.com/gdsale/Whirlpool-惠而浦16公斤快烘瓦斯型滾筒乾衣機8TWGD5620HW-桶裝瓦斯-11953164.html",
+    "buyLabel": "Yahoo購物中心",
+    "buyUrl": "https://tw.buy.yahoo.com/gdsale/Whirlpool%E6%83%A0%E8%80%8C%E6%B5%A6-16%E5%85%AC%E6%96%A4-%E5%BF%AB%E7%83%98%E7%93%A6%E6%96%AF%E5%9E%8B%E6%BB%BE%E7%AD%92%E4%B9%BE%E8%A1%A3%E6%A9%9F-8TWGD5620HW-%E6%A1%B6%E8%A3%9D%E7%93%A6%E6%96%AF-10509173.html",
     "specs": [
       "烘衣機：Whirlpool 惠而浦16公斤快烘瓦斯型滾筒乾衣機8TWGD5620HW(桶裝瓦斯)",
       "容量：16kg",
@@ -489,20 +489,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Whirlpool 8TWGD5620HW\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Whirlpool%208TWGD5620HW%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Whirlpool%208TWGD5620HW%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"Whirlpool 8TWGD5620HW\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22Whirlpool%208TWGD5620HW%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"Whirlpool 8TWGD5620HW\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Whirlpool%208TWGD5620HW%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
           "targetHost": "reddit.com"
         }
       ]
@@ -518,13 +518,13 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/2618755F67-Product-24570513.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 7120,
-      "converted": 7120,
-      "confidence": "Yahoo 購物中心低價查核"
+      "amount": 6621,
+      "converted": 6621,
+      "confidence": "PChome 2026-07-11 API 查核價"
     },
     "channel": "tw",
-    "buyLabel": "Yahoo購物",
-    "buyUrl": "https://tw.buy.yahoo.com/gdsale/SANLUX台灣三洋-5KG-乾衣機-SD-66U-8734078.html",
+    "buyLabel": "PChome",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DPAI1J-A900BZ07A",
     "specs": [
       "烘衣機：【SANLUX 台灣三洋】5KG PTC加熱式乾衣機 SD-66U8A",
       "容量：5kg",
@@ -572,20 +572,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"SANLUX SD-66U8A\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22SANLUX%20SD-66U8A%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22SANLUX%20SD-66U8A%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"SANLUX SD-66U8A\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22SANLUX%20SD-66U8A%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"SANLUX SD-66U8A\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22SANLUX%20SD-66U8A%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
           "targetHost": "reddit.com"
         }
       ]
@@ -601,13 +601,13 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/669B0285B7-Product-24570512.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 8800,
-      "converted": 8800,
-      "confidence": "Yahoo 購物中心低價查核"
+      "amount": 8170,
+      "converted": 8170,
+      "confidence": "momo購物 2026-07-11 頁面查核價"
     },
     "channel": "tw",
-    "buyLabel": "Yahoo購物",
-    "buyUrl": "https://tw.buy.yahoo.com/gdsale/SANLUX台灣三洋-7-5KG-乾衣機-SD-8-8734077.html",
+    "buyLabel": "momo購物",
+    "buyUrl": "https://www.momoshop.com.tw/TP/TP0007894/goodsDetail/TP00078940000990",
     "specs": [
       "烘衣機：【SANLUX 台灣三洋】7.5KG PTC加熱式乾衣機 SD-85UA",
       "容量：7.5kg",
@@ -642,33 +642,33 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 8536,
+      "amount": 8170,
       "currency": "TWD",
-      "converted": 8536,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1262246646&cgp=8536",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：(店+)【SANLUX 台灣三洋】7.5KG 乾衣機 (SD-85UA)",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / (店+)【SANLUX 台灣三洋】7.5KG 乾衣機 (SD-85UA)」最低價為 NT$8,536，最低點日期 2026-07-09。",
-      "sourceKind": "price_history",
-      "confidence": "medium",
-      "checkedAt": "2026-07-09",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+      "converted": 8170,
+      "sourceUrl": "https://www.momoshop.com.tw/TP/TP0007894/goodsDetail/TP00078940000990",
+      "sourceTitle": "momo購物 商品頁：【SANLUX 台灣三洋】SD-85UA 7.5公斤 乾衣機 (含基本安裝)",
+      "evidenceSnippet": "momo購物 原始商品頁／API 於 2026-07-11 顯示同型號新品公開價 8170 TWD，低於既有可驗證史低。",
+      "sourceKind": "retailer_page",
+      "confidence": "high",
+      "checkedAt": "2026-07-11",
+      "note": "採用同型號、同尺寸／容量／規格的可信新品公開價；排除會員個人化折扣、信用卡回饋、點數、二手、福利品、展示、拆封與整新品。"
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"SANLUX SD-85UA\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22SANLUX%20SD-85UA%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22SANLUX%20SD-85UA%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"SANLUX SD-85UA\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22SANLUX%20SD-85UA%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"SANLUX SD-85UA\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22SANLUX%20SD-85UA%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
           "targetHost": "reddit.com"
         }
       ]
@@ -684,13 +684,13 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/ddde675d26-Gd-7010187.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 9270,
-      "converted": 9270,
-      "confidence": "Yahoo 購物中心低價查核"
+      "amount": 7990,
+      "converted": 7990,
+      "confidence": "PChome 2026-07-11 API 查核價"
     },
     "channel": "tw",
-    "buyLabel": "Yahoo購物",
-    "buyUrl": "https://tw.buy.yahoo.com/gdsale/SANLUX-台灣三洋-7-5公斤電子式乾衣機-S-7010187.html",
+    "buyLabel": "PChome",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DPAI1J-A900AI7JB",
     "specs": [
       "烘衣機：【SANLUX 台灣三洋】7.5KG 電子式乾衣機 SD-88U",
       "容量：7.5kg",
@@ -738,20 +738,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"SANLUX SD-88U\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22SANLUX%20SD-88U%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22SANLUX%20SD-88U%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"SANLUX SD-88U\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22SANLUX%20SD-88U%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"SANLUX SD-88U\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22SANLUX%20SD-88U%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
           "targetHost": "reddit.com"
         }
       ]
@@ -769,11 +769,11 @@
       "currency": "TWD",
       "amount": 32310,
       "converted": 32310,
-      "confidence": "Yahoo 購物中心低價查核"
+      "confidence": "Yahoo購物中心 2026-07-11 頁面查核價"
     },
     "channel": "tw",
-    "buyLabel": "Yahoo購物",
-    "buyUrl": "https://tw.buy.yahoo.com/gdsale/Panasonic-國際牌-10kg淨護完美乾衣機NH-VS100HP-含基本安裝-11874057.html",
+    "buyLabel": "Yahoo購物中心",
+    "buyUrl": "https://tw.buy.yahoo.com/gdsale/Panasonic-%E5%9C%8B%E9%9A%9B%E7%89%8C-10kg%E6%B7%A8%E8%AD%B7%E5%AE%8C%E7%BE%8E%E4%B9%BE%E8%A1%A3%E6%A9%9FNH-VS100HP-%E5%90%AB%E5%9F%BA%E6%9C%AC%E5%AE%89%E8%A3%9D-11874057.html",
     "specs": [
       "烘衣機：Panasonic 國際牌 10kg淨護完美乾衣機NH-VS100HP 含基本安裝",
       "容量：10kg",
@@ -821,20 +821,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Panasonic NH-VS100HP\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Panasonic%20NH-VS100HP%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Panasonic%20NH-VS100HP%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"Panasonic NH-VS100HP\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22Panasonic%20NH-VS100HP%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"Panasonic NH-VS100HP\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Panasonic%20NH-VS100HP%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
           "targetHost": "reddit.com"
         }
       ]
@@ -852,10 +852,10 @@
       "currency": "TWD",
       "amount": 41490,
       "converted": 41490,
-      "confidence": "Yahoo 購物中心低價查核"
+      "confidence": "Yahoo購物中心 2026-07-11 頁面查核價"
     },
     "channel": "tw",
-    "buyLabel": "Yahoo購物",
+    "buyLabel": "Yahoo購物中心",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/gdsale.asp?gdid=p0214264895227",
     "specs": [
       "烘衣機：Whirlpool惠而浦 16公斤 快烘瓦斯型滾筒乾衣機 8TWGD6622HW 含基本安裝",
@@ -905,20 +905,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Whirlpool 8TWGD6622HW\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Whirlpool%208TWGD6622HW%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Whirlpool%208TWGD6622HW%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"Whirlpool 8TWGD6622HW\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22Whirlpool%208TWGD6622HW%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"Whirlpool 8TWGD6622HW\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Whirlpool%208TWGD6622HW%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
           "targetHost": "reddit.com"
         }
       ]
@@ -936,11 +936,11 @@
       "currency": "TWD",
       "amount": 7690,
       "converted": 7690,
-      "confidence": "Yahoo 購物中心低價查核"
+      "confidence": "Yahoo購物中心 2026-07-11 頁面查核價"
     },
     "channel": "tw",
-    "buyLabel": "Yahoo購物",
-    "buyUrl": "https://tw.buy.yahoo.com/gdsale/SAMPO聲寶-7公斤乾衣機-SD-7C-含基本安裝-運送到府-9971420.html",
+    "buyLabel": "Yahoo購物中心",
+    "buyUrl": "https://tw.buy.yahoo.com/gdsale/SAMPO%E8%81%B2%E5%AF%B6-7%E5%85%AC%E6%96%A4%E4%B9%BE%E8%A1%A3%E6%A9%9F-SD-7C-%E5%90%AB%E5%9F%BA%E6%9C%AC%E5%AE%89%E8%A3%9D-%E9%81%8B%E9%80%81%E5%88%B0%E5%BA%9C-9971420.html",
     "specs": [
       "烘衣機：SAMPO聲寶 7公斤乾衣機SD-7C 含基本安裝+運送到府",
       "容量：7kg",
@@ -988,20 +988,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"SAMPO SD-7C\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22SAMPO%20SD-7C%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22SAMPO%20SD-7C%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"SAMPO SD-7C\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22SAMPO%20SD-7C%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"SAMPO SD-7C\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22SAMPO%20SD-7C%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
           "targetHost": "reddit.com"
         }
       ]
@@ -1019,11 +1019,11 @@
       "currency": "TWD",
       "amount": 35788,
       "converted": 35788,
-      "confidence": "Yahoo 購物中心低價查核"
+      "confidence": "Yahoo購物中心 2026-07-11 頁面查核價"
     },
     "channel": "tw",
-    "buyLabel": "Yahoo購物",
-    "buyUrl": "https://tw.buy.yahoo.com/gdsale/HITACHI日立12公斤熱泵滾筒乾衣機TD120XFVEM-11999506.html",
+    "buyLabel": "Yahoo購物中心",
+    "buyUrl": "https://tw.buy.yahoo.com/gdsale/HITACHI%E6%97%A5%E7%AB%8B12%E5%85%AC%E6%96%A4%E7%86%B1%E6%B3%B5%E6%BB%BE%E7%AD%92%E4%B9%BE%E8%A1%A3%E6%A9%9FTD120XFVEM-11999506.html",
     "specs": [
       "烘衣機：HITACHI日立12公斤熱泵滾筒乾衣機TD120XFVEM",
       "容量：12kg",
@@ -1072,20 +1072,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"HITACHI TD120XFVEM\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22HITACHI%20TD120XFVEM%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22HITACHI%20TD120XFVEM%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"HITACHI TD120XFVEM\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22HITACHI%20TD120XFVEM%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"HITACHI TD120XFVEM\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22HITACHI%20TD120XFVEM%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
           "targetHost": "reddit.com"
         }
       ]
@@ -1101,13 +1101,13 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/3db887ef39-Gd-10746995.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 8823,
-      "converted": 8823,
-      "confidence": "Yahoo 購物中心低價查核"
+      "amount": 8248,
+      "converted": 8248,
+      "confidence": "Yahoo購物中心 2026-07-11 頁面查核價"
     },
     "channel": "tw",
-    "buyLabel": "Yahoo購物",
-    "buyUrl": "https://tw.buy.yahoo.com/gdsale/Panasonic-國際牌-NH-L70G-L-架上型7kg乾衣機-10746995.html",
+    "buyLabel": "Yahoo購物中心",
+    "buyUrl": "https://tw.buy.yahoo.com/gdsale/Panasonic%E5%9C%8B%E9%9A%9B%E7%89%8C-7%E5%85%AC%E6%96%A4-%E6%9E%B6%E4%B8%8A%E5%9E%8B%E4%B9%BE%E8%A1%A3%E6%A9%9F-NH-L70G-L-%E5%85%89%E6%9B%9C%E7%81%B0-9325579.html",
     "specs": [
       "烘衣機：Panasonic 國際牌 NH-L70G-L 架上型7kg乾衣機",
       "容量：7kg",
@@ -1143,33 +1143,33 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 8823,
+      "amount": 8248,
       "currency": "TWD",
-      "converted": 8823,
-      "sourceUrl": "https://tw.buy.yahoo.com/gdsale/Panasonic-國際牌-NH-L70G-L-架上型7kg乾衣機-10746995.html",
-      "sourceTitle": "Yahoo購物中心 JSON-LD：Panasonic 國際牌 NH-L70G-L 架上型7kg乾衣機 | 脫水/乾衣機 | Yahoo購物中心",
-      "evidenceSnippet": "Yahoo購物中心 JSON-LD 於 2026-07-10 回傳同一商品頁「Panasonic 國際牌 NH-L70G-L 架上型7kg乾衣機 | 脫水/乾衣機 | Yahoo購物中心」查核價 NT$8,823，低於原先記錄史低。",
+      "converted": 8248,
+      "sourceUrl": "https://tw.buy.yahoo.com/gdsale/Panasonic%E5%9C%8B%E9%9A%9B%E7%89%8C-7%E5%85%AC%E6%96%A4-%E6%9E%B6%E4%B8%8A%E5%9E%8B%E4%B9%BE%E8%A1%A3%E6%A9%9F-NH-L70G-L-%E5%85%89%E6%9B%9C%E7%81%B0-9325579.html",
+      "sourceTitle": "Yahoo購物中心 商品頁：Panasonic國際牌 7公斤 架上型乾衣機 NH-L70G-L 光曜灰 | 脫水/乾衣機 | Yahoo購物中心",
+      "evidenceSnippet": "Yahoo購物中心 原始商品頁／API 於 2026-07-11 顯示同型號新品公開價 8248 TWD，低於既有可驗證史低。",
       "sourceKind": "retailer_page",
-      "confidence": "medium",
-      "checkedAt": "2026-07-10",
-      "note": "採用可信通路同一商品頁可公開查核現價作為本次觀測到的最低價；同型號/規格並排除會員個人化折扣、信用卡回饋、點數、二手、福利品、展示機、箱損、拆封與整新品。"
+      "confidence": "high",
+      "checkedAt": "2026-07-11",
+      "note": "採用同型號、同尺寸／容量／規格的可信新品公開價；排除會員個人化折扣、信用卡回饋、點數、二手、福利品、展示、拆封與整新品。"
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Panasonic NH-L70G-L\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Panasonic%20NH-L70G-L%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Panasonic%20NH-L70G-L%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"Panasonic NH-L70G-L\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22Panasonic%20NH-L70G-L%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"Panasonic NH-L70G-L\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Panasonic%20NH-L70G-L%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
           "targetHost": "reddit.com"
         }
       ]
@@ -1187,11 +1187,11 @@
       "currency": "TWD",
       "amount": 8490,
       "converted": 8490,
-      "confidence": "Yahoo 購物中心低價查核"
+      "confidence": "Yahoo購物中心 2026-07-11 頁面查核價"
     },
     "channel": "tw",
-    "buyLabel": "Yahoo購物",
-    "buyUrl": "https://tw.buy.yahoo.com/gdsale/SAMPO聲寶-7公斤-乾衣機-SD-7B-9237299.html",
+    "buyLabel": "Yahoo購物中心",
+    "buyUrl": "https://tw.buy.yahoo.com/gdsale/SAMPO%E8%81%B2%E5%AF%B6-7%E5%85%AC%E6%96%A4-%E4%B9%BE%E8%A1%A3%E6%A9%9F-SD-7B-9237299.html",
     "specs": [
       "烘衣機：SAMPO聲寶 7公斤乾衣機SD-7B 含基本安裝+運送到府",
       "容量：7kg",
@@ -1239,20 +1239,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"SAMPO SD-7B\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22SAMPO%20SD-7B%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22SAMPO%20SD-7B%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"SAMPO SD-7B\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22SAMPO%20SD-7B%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"SAMPO SD-7B\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22SAMPO%20SD-7B%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
           "targetHost": "reddit.com"
         }
       ]
@@ -1270,11 +1270,11 @@
       "currency": "TWD",
       "amount": 6460,
       "converted": 6460,
-      "confidence": "Yahoo 購物中心低價查核"
+      "confidence": "Yahoo購物中心 2026-07-11 頁面查核價"
     },
     "channel": "tw",
-    "buyLabel": "Yahoo購物",
-    "buyUrl": "https://tw.buy.yahoo.com/gdsale/TATUNG大同-6KG乾衣機-TAW-D60T-11014360.html",
+    "buyLabel": "Yahoo購物中心",
+    "buyUrl": "https://tw.buy.yahoo.com/gdsale/TATUNG%E5%A4%A7%E5%90%8C-6KG%E4%B9%BE%E8%A1%A3%E6%A9%9F-TAW-D60T-11014360.html",
     "specs": [
       "烘衣機：TATUNG大同 6KG乾衣機(TAW-D60T)",
       "容量：6kg",
@@ -1323,20 +1323,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"TATUNG TAW-D60T\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22TATUNG%20TAW-D60T%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22TATUNG%20TAW-D60T%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"TATUNG TAW-D60T\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22TATUNG%20TAW-D60T%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"TATUNG TAW-D60T\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22TATUNG%20TAW-D60T%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
           "targetHost": "reddit.com"
         }
       ]
@@ -1354,11 +1354,11 @@
       "currency": "TWD",
       "amount": 7191,
       "converted": 7191,
-      "confidence": "Yahoo 購物中心低價查核"
+      "confidence": "Yahoo購物中心 2026-07-11 頁面查核價"
     },
     "channel": "tw",
-    "buyLabel": "Yahoo購物",
-    "buyUrl": "https://tw.buy.yahoo.com/gdsale/HERAN禾聯-8KG-乾衣機-HDM-0841-11396347.html",
+    "buyLabel": "Yahoo購物中心",
+    "buyUrl": "https://tw.buy.yahoo.com/gdsale/HERAN%E7%A6%BE%E8%81%AF-8KG-%E4%B9%BE%E8%A1%A3%E6%A9%9F-HDM-0841-11396347.html",
     "specs": [
       "烘衣機：HERAN禾聯 8KG 乾衣機 HDM-0841",
       "容量：8kg",
@@ -1406,20 +1406,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"HERAN HDM-0841\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22HERAN%20HDM-0841%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22HERAN%20HDM-0841%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"HERAN HDM-0841\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22HERAN%20HDM-0841%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"HERAN HDM-0841\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22HERAN%20HDM-0841%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
           "targetHost": "reddit.com"
         }
       ]
@@ -1435,13 +1435,13 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/14DC623476-SP-22670878.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 9982,
-      "converted": 9982,
-      "confidence": "Yahoo 購物中心低價查核"
+      "amount": 9150,
+      "converted": 9150,
+      "confidence": "momo購物 2026-07-11 頁面查核價"
     },
     "channel": "tw",
-    "buyLabel": "Yahoo購物",
-    "buyUrl": "https://tw.buy.yahoo.com/gdsale/SANLUX台灣三洋8公斤乾衣機ASD-80UA-12097903.html",
+    "buyLabel": "momo購物",
+    "buyUrl": "https://www.momoshop.com.tw/TP/TP0007894/goodsDetail/TP00078940002822",
     "specs": [
       "烘衣機：SANLUX台灣三洋8公斤乾衣機ASD-80UA",
       "容量：8kg",
@@ -1489,20 +1489,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"SANLUX ASD-80UA\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22SANLUX%20ASD-80UA%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22SANLUX%20ASD-80UA%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"SANLUX ASD-80UA\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22SANLUX%20ASD-80UA%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"SANLUX ASD-80UA\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22SANLUX%20ASD-80UA%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
           "targetHost": "reddit.com"
         }
       ]
@@ -1520,11 +1520,11 @@
       "currency": "TWD",
       "amount": 37628,
       "converted": 37628,
-      "confidence": "Yahoo 購物中心 2026-07-11 schema 查核價"
+      "confidence": "Yahoo購物中心 2026-07-11 頁面查核價"
     },
     "channel": "tw",
-    "buyLabel": "Yahoo購物",
-    "buyUrl": "https://tw.buy.yahoo.com/gdsale/SAMSUNG-三星-10KG-智慧熱泵乾衣機-DV10DB7440GB-DV10DB7440GW-11854932.html",
+    "buyLabel": "Yahoo購物中心",
+    "buyUrl": "https://tw.buy.yahoo.com/gdsale/SAMSUNG-%E4%B8%89%E6%98%9F-10KG-%E6%99%BA%E6%85%A7%E7%86%B1%E6%B3%B5%E4%B9%BE%E8%A1%A3%E6%A9%9F-DV10DB7440GB-DV10DB7440GW-11854932.html",
     "specs": [
       "烘衣機：SAMSUNG 三星 10KG 智慧熱泵乾衣機 DV10DB7440GB/DV10DB7440GW 黑白",
       "容量：10kg",
@@ -1573,20 +1573,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Samsung DV10DB7440GB/DV10DB7440GW\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Samsung%20DV10DB7440GB%2FDV10DB7440GW%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Samsung%20DV10DB7440GB%2FDV10DB7440GW%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"Samsung DV10DB7440GB/DV10DB7440GW\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22Samsung%20DV10DB7440GB%2FDV10DB7440GW%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"Samsung DV10DB7440GB/DV10DB7440GW\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Samsung%20DV10DB7440GB%2FDV10DB7440GW%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
           "targetHost": "reddit.com"
         }
       ]
@@ -1604,11 +1604,11 @@
       "currency": "TWD",
       "amount": 45908,
       "converted": 45908,
-      "confidence": "Yahoo 購物中心低價查核"
+      "confidence": "Yahoo購物中心 2026-07-11 頁面查核價"
     },
     "channel": "tw",
-    "buyLabel": "Yahoo購物",
-    "buyUrl": "https://tw.buy.yahoo.com/gdsale/BOSCH博世-9公斤除皺清新熱泵式乾衣機-含基本安裝-220V拉電-WQB245A0TC-11757116.html",
+    "buyLabel": "Yahoo購物中心",
+    "buyUrl": "https://tw.buy.yahoo.com/gdsale/BOSCH%E5%8D%9A%E4%B8%96-9%E5%85%AC%E6%96%A4%E9%99%A4%E7%9A%BA%E6%B8%85%E6%96%B0%E7%86%B1%E6%B3%B5%E5%BC%8F%E4%B9%BE%E8%A1%A3%E6%A9%9F-%E5%90%AB%E5%9F%BA%E6%9C%AC%E5%AE%89%E8%A3%9D-220V%E6%8B%89%E9%9B%BB-WQB245A0TC-11757116.html",
     "specs": [
       "烘衣機：BOSCH博世 9公斤除皺清新熱泵式乾衣機 含基本安裝+220V拉電 (WQB245A0TC)",
       "容量：9kg",
@@ -1657,20 +1657,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Bosch WQB245A0TC\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Bosch%20WQB245A0TC%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Bosch%20WQB245A0TC%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"Bosch WQB245A0TC\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22Bosch%20WQB245A0TC%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"Bosch WQB245A0TC\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Bosch%20WQB245A0TC%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
           "targetHost": "reddit.com"
         }
       ]
@@ -1689,10 +1689,10 @@
       "currency": "TWD",
       "amount": 28899,
       "converted": 28899,
-      "confidence": "Costco 好市多 2026-07-09 查核價"
+      "confidence": "Costco 好市多 2026-07-11 頁面查核價"
     },
     "image": "https://www.costco.com.tw/medias/sys_master/images/h6d/h02/208447528140830.jpg",
-    "buyUrl": "https://www.costco.com.tw/Large-Appliances/p/144425",
+    "buyUrl": "https://www.costco.com.tw/Televisions-Appliances/Large-Appliances/Washers-Dryers/Samsung-16-kg-Smart-Dial-Gas-Dryer-DVG16CG8600WTW/p/144425",
     "buyLabel": "Costco 好市多",
     "specs": [
       "16 公斤乾衣容量",
@@ -1736,20 +1736,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Samsung DVG16CG8600WTW\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Samsung%20DVG16CG8600WTW%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Samsung%20DVG16CG8600WTW%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"Samsung DVG16CG8600WTW\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22Samsung%20DVG16CG8600WTW%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"Samsung DVG16CG8600WTW\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Samsung%20DVG16CG8600WTW%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
           "targetHost": "reddit.com"
         }
       ]

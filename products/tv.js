@@ -19,10 +19,10 @@
       "currency": "TWD",
       "amount": 49618,
       "converted": 49618,
-      "confidence": "可信通路查核價"
+      "confidence": "PChome 2026-07-11 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DPADYE1900JG394/000001_1762971547.jpg",
-    "buyUrl": "https://24h.pchome.com.tw/prod/DPADYE-1900JG394",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DPADYE-A900JC4MY",
     "buyLabel": "PChome",
     "specs": [
       "65 吋 OLED evo",
@@ -52,34 +52,34 @@
     ],
     "releaseDate": "2025-03-11",
     "historicalLow": {
-      "status": "found",
-      "amount": 1096,
-      "currency": "USD",
-      "converted": 35165,
-      "sourceUrl": "https://www.tomsguide.com/tvs/oled-tvs/not-a-typo-the-65-inch-lg-c5-oled-tv-just-crashed-to-usd1-099-on-the-last-day-of-prime-day",
-      "sourceTitle": "Not a typo! The 65-inch LG C5 OLED TV just crashed to $1,099 on the last day of Prime Day | Tom's Guide",
-      "evidenceSnippet": "Tom's Guide reported the 65-inch LG C5 at Amazon for $1,099 and its deal card showed now US$1,096, calling it the cheapest the 65-inch C5 had ever been.",
-      "sourceKind": "retailer_promo",
-      "confidence": "medium",
-      "checkedAt": "2026-07-09",
-      "note": "Overseas Amazon US 65-inch LG C5 equivalent. Converted using USD_TWD 32.084957; excludes shipping, import tax, plug/voltage differences, and Taiwan warranty risk."
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-07-11",
+      "note": "未找到台灣型號 OLED65C5PTA 可公開驗證的可信新品史低；已排除 Amazon 美國版 65 吋 C5，因區域 SKU 並非完全相同型號。"
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"LG OLED65C5PTA\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22LG%20OLED65C5PTA%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Amobile01.com%20%22LG%20OLED65C5PTA%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"LG OLED65C5PTA\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22LG%20OLED65C5PTA%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"LG OLED65C5PTA\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22LG%20OLED65C5PTA%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
           "targetHost": "reddit.com"
         }
       ]
@@ -98,10 +98,10 @@
       "currency": "TWD",
       "amount": 51900,
       "converted": 51900,
-      "confidence": "可信通路查核價"
+      "confidence": "PChome 2026-07-11 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DPADEW1900K4WRT/000001_1782056882.jpg",
-    "buyUrl": "https://24h.pchome.com.tw/prod/DPADEW-1900K4WRT",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DPADEW-A900IUE7F",
     "buyLabel": "PChome",
     "specs": [
       "65 吋 OLED",
@@ -131,34 +131,34 @@
     ],
     "releaseDate": "2025",
     "historicalLow": {
-      "status": "found",
-      "amount": 1197.99,
-      "currency": "USD",
-      "converted": 38437,
-      "sourceUrl": "https://www.androidcentral.com/streaming-tv/samsung-s90f-oled-tv-deal-prime-day-2026-gta6-preorders",
-      "sourceTitle": "This 'best gaming TV' has crashed to a record low price during Prime Day - just in time for your GTA 6 preorder | Android Central",
-      "evidenceSnippet": "Android Central reported the 65-inch Samsung Class OLED S90F at $1,197.99 during Prime Day and described it as a record-low price.",
-      "sourceKind": "retailer_promo",
-      "confidence": "medium",
-      "checkedAt": "2026-07-09",
-      "note": "Overseas US equivalent 65-inch S90F; regional SKU may differ from Taiwan QA65S90FAEXZW. Converted using USD_TWD 32.084957; excludes shipping, import tax, and Taiwan warranty risk."
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-07-11",
+      "note": "未找到台灣型號 QA65S90FAEXZW 可公開驗證的可信新品史低；已排除 Amazon 美國版 S90F，因來源只證明同系列 65 吋而非完全相同區域 SKU。"
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Samsung QA65S90FAEXZW\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Samsung%20QA65S90FAEXZW%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Amobile01.com%20%22Samsung%20QA65S90FAEXZW%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"Samsung QA65S90FAEXZW\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22Samsung%20QA65S90FAEXZW%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"Samsung QA65S90FAEXZW\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22Samsung%20QA65S90FAEXZW%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
           "targetHost": "reddit.com"
         }
       ]
@@ -210,34 +210,34 @@
     ],
     "releaseDate": "2024",
     "historicalLow": {
-      "status": "found",
-      "amount": 51970,
+      "status": "not_found",
+      "amount": null,
       "currency": "TWD",
-      "converted": 51970,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1271767502&cgp=51970",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：(店+)【SONY 索尼】Y-65XR70 65吋 Mini LED Google TV 液晶顯示器(含基本安裝)",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / (店+)【SONY 索尼】Y-65XR70 65吋 Mini LED Google TV 液晶顯示器(含基本安裝)」最低價為 NT$51,970，最低點日期 2026-07-09。",
-      "sourceKind": "price_history",
-      "confidence": "medium",
-      "checkedAt": "2026-07-09",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-07-11",
+      "note": "未找到 Y-65XR70 電視加 2.1 聲霸同套裝可公開驗證的可信新品史低；已排除僅含裸機與基本安裝的歷史價格。"
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Sony Y-65XR70\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Sony%20Y-65XR70%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Amobile01.com%20%22Sony%20Y-65XR70%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"Sony Y-65XR70\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22Sony%20Y-65XR70%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"Sony Y-65XR70\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22Sony%20Y-65XR70%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
           "targetHost": "reddit.com"
         }
       ]
@@ -254,12 +254,12 @@
     "name": "65 型 U7 Mini LED ULED 4K Google TV",
     "price": {
       "currency": "TWD",
-      "amount": 31999,
-      "converted": 31999,
-      "confidence": "可信通路查核價"
+      "amount": 28799,
+      "converted": 28799,
+      "confidence": "PChome 2026-07-11 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DPAD98A900I5166/000001_1733391621.jpg",
-    "buyUrl": "https://24h.pchome.com.tw/prod/DPAD98-A900I5166",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DPAD98-A900JV2CC",
     "buyLabel": "PChome",
     "specs": [
       "65 吋 Mini LED",
@@ -303,20 +303,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Hisense 65U7N\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Hisense%2065U7N%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Amobile01.com%20%22Hisense%2065U7N%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"Hisense 65U7N\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22Hisense%2065U7N%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"Hisense 65U7N\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22Hisense%2065U7N%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
           "targetHost": "reddit.com"
         }
       ]
@@ -335,7 +335,7 @@
       "currency": "TWD",
       "amount": 24900,
       "converted": 24900,
-      "confidence": "可信通路查核價"
+      "confidence": "PChome 2026-07-11 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DPAD0O1900IEK5W/000001_1761401167.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DPAD0O-1900IEK5W",
@@ -382,20 +382,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"BenQ E65-760\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22BenQ%20E65-760%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Amobile01.com%20%22BenQ%20E65-760%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"BenQ E65-760\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22BenQ%20E65-760%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"BenQ E65-760\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22BenQ%20E65-760%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
           "targetHost": "reddit.com"
         }
       ]
@@ -412,8 +412,8 @@
     "name": "BRAVIA 8 65 型 XR OLED 4K HDR Google TV 顯示器",
     "price": {
       "currency": "TWD",
-      "amount": 93900,
-      "converted": 93900,
+      "amount": 84510,
+      "converted": 84510,
       "confidence": "PChome 2026-07-11 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DPAD06A900HLBJO/000001_1776334113.jpg",
@@ -461,20 +461,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Sony Y-65XR80\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Sony%20Y-65XR80%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Amobile01.com%20%22Sony%20Y-65XR80%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"Sony Y-65XR80\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22Sony%20Y-65XR80%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"Sony Y-65XR80\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22Sony%20Y-65XR80%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
           "targetHost": "reddit.com"
         }
       ]
@@ -493,10 +493,10 @@
       "currency": "TWD",
       "amount": 71910,
       "converted": 71910,
-      "confidence": "可信通路查核價"
+      "confidence": "PChome 2026-07-11 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DPADYE1900JGOYA/000001_1778348657.jpg",
-    "buyUrl": "https://24h.pchome.com.tw/prod/DPADYE-1900JGOYA",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DPADYE-A900JFBEC",
     "buyLabel": "PChome",
     "specs": [
       "65 吋 OLED evo",
@@ -540,20 +540,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"LG OLED65G5PTA\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22LG%20OLED65G5PTA%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Amobile01.com%20%22LG%20OLED65G5PTA%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"LG OLED65G5PTA\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22LG%20OLED65G5PTA%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"LG OLED65G5PTA\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22LG%20OLED65G5PTA%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
           "targetHost": "reddit.com"
         }
       ]
@@ -572,7 +572,7 @@
       "currency": "TWD",
       "amount": 72072,
       "converted": 72072,
-      "confidence": "可信通路查核價"
+      "confidence": "PChome 2026-07-11 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DPAD09A900J9FAZ/000001_1761888394.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DPAD09-A900J9FAZ",
@@ -619,20 +619,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Panasonic TV-65Z90BGT\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Panasonic%20TV-65Z90BGT%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Amobile01.com%20%22Panasonic%20TV-65Z90BGT%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"Panasonic TV-65Z90BGT\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22Panasonic%20TV-65Z90BGT%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"Panasonic TV-65Z90BGT\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22Panasonic%20TV-65Z90BGT%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
           "targetHost": "reddit.com"
         }
       ]
@@ -651,7 +651,7 @@
       "currency": "TWD",
       "amount": 79900,
       "converted": 79900,
-      "confidence": "可信通路查核價"
+      "confidence": "PChome 2026-07-11 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DPADIKA900HJGF2/000001_1782900149.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DPADIK-A900HJGF2",
@@ -698,20 +698,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Philips 65OLED809\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Philips%2065OLED809%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Amobile01.com%20%22Philips%2065OLED809%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"Philips 65OLED809\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22Philips%2065OLED809%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"Philips 65OLED809\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22Philips%2065OLED809%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
           "targetHost": "reddit.com"
         }
       ]
@@ -730,7 +730,7 @@
       "currency": "TWD",
       "amount": 94900,
       "converted": 94900,
-      "confidence": "可信通路查核價"
+      "confidence": "PChome 2026-07-11 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBM10A900IXJZG/000001_1772871053.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBM10-A900IXJZG",
@@ -777,20 +777,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Samsung QA65S95FAXXZW\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Samsung%20QA65S95FAXXZW%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Amobile01.com%20%22Samsung%20QA65S95FAXXZW%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"Samsung QA65S95FAXXZW\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22Samsung%20QA65S95FAXXZW%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"Samsung QA65S95FAXXZW\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22Samsung%20QA65S95FAXXZW%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
           "targetHost": "reddit.com"
         }
       ]
@@ -809,7 +809,7 @@
       "currency": "TWD",
       "amount": 56990,
       "converted": 56990,
-      "confidence": "可信通路查核價"
+      "confidence": "PChome 2026-07-11 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DPADZMA900K3904/000001_1780907613.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DPADZM-A900K3904",
@@ -856,20 +856,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"TCL 65C8L\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22TCL%2065C8L%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Amobile01.com%20%22TCL%2065C8L%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"TCL 65C8L\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22TCL%2065C8L%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"TCL 65C8L\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22TCL%2065C8L%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
           "targetHost": "reddit.com"
         }
       ]
@@ -888,7 +888,7 @@
       "currency": "TWD",
       "amount": 30990,
       "converted": 30990,
-      "confidence": "可信通路查核價"
+      "confidence": "PChome 2026-07-11 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DPADZMA900K2RGJ/000001_1780552782.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DPADZM-A900K2RGJ",
@@ -935,20 +935,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"TCL 65A400M\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22TCL%2065A400M%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Amobile01.com%20%22TCL%2065A400M%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"TCL 65A400M\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22TCL%2065A400M%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"TCL 65A400M\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22TCL%2065A400M%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
           "targetHost": "reddit.com"
         }
       ]
@@ -1014,20 +1014,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Xiaomi S Pro Mini 65 2026\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Xiaomi%20S%20Pro%20Mini%2065%202026%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Amobile01.com%20%22Xiaomi%20S%20Pro%20Mini%2065%202026%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"Xiaomi S Pro Mini 65 2026\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22Xiaomi%20S%20Pro%20Mini%2065%202026%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"Xiaomi S Pro Mini 65 2026\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22Xiaomi%20S%20Pro%20Mini%2065%202026%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
           "targetHost": "reddit.com"
         }
       ]
@@ -1046,10 +1046,10 @@
       "currency": "TWD",
       "amount": 89910,
       "converted": 89910,
-      "confidence": "可信通路查核價"
+      "confidence": "PChome 2026-07-11 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DPADEW1900JPY1S/000001_1770558909.jpg",
-    "buyUrl": "https://24h.pchome.com.tw/prod/DPADEW-1900JPY1S",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DPADEW-A900IZ244",
     "buyLabel": "PChome",
     "specs": [
       "65 吋 8K Neo QLED",
@@ -1093,20 +1093,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Samsung QA65QN900FXXZW\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Samsung%20QA65QN900FXXZW%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Amobile01.com%20%22Samsung%20QA65QN900FXXZW%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"Samsung QA65QN900FXXZW\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22Samsung%20QA65QN900FXXZW%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"Samsung QA65QN900FXXZW\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22Samsung%20QA65QN900FXXZW%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
           "targetHost": "reddit.com"
         }
       ]
@@ -1123,12 +1123,12 @@
     "name": "65 型 4K 144Hz Mini LED 量子點遊戲 Google TV 顯示器",
     "price": {
       "currency": "TWD",
-      "amount": 32899,
-      "converted": 32899,
-      "confidence": "可信通路查核價"
+      "amount": 32900,
+      "converted": 32900,
+      "confidence": "PChome 2026-07-11 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DPAD0O1900JL0Z8/000001_1766513999.jpg",
-    "buyUrl": "https://24h.pchome.com.tw/prod/DPAD0O-1900JL0Z8",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DPADY8-A900JI9B7",
     "buyLabel": "PChome",
     "specs": [
       "65 吋 Mini LED",
@@ -1172,20 +1172,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"BenQ J65-770\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22BenQ%20J65-770%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Amobile01.com%20%22BenQ%20J65-770%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"BenQ J65-770\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22BenQ%20J65-770%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"BenQ J65-770\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22BenQ%20J65-770%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
           "targetHost": "reddit.com"
         }
       ]
@@ -1204,7 +1204,7 @@
       "currency": "TWD",
       "amount": 13999,
       "converted": 13999,
-      "confidence": "可信通路查核價，擷取 2026-07-09"
+      "confidence": "PChome 2026-07-11 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DPADB2A900JGKQB/000001_1764820202.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DPADB2-A900JGKQB",
@@ -1237,34 +1237,34 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "found",
-      "amount": 13511,
+      "status": "not_found",
+      "amount": null,
       "currency": "TWD",
-      "converted": 13511,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1283740096&cgp=13511",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【AOC】特價B品 65型 4K QLED Google TV 智慧顯示器(65U8040)",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【AOC】特價B品 65型 4K QLED Google TV 智慧顯示器(65U8040)」最低價為 NT$13,511，最低點日期 2026-07-09。",
-      "sourceKind": "price_history",
-      "confidence": "medium",
-      "checkedAt": "2026-07-09",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-07-11",
+      "note": "未找到 65U8040 可公開驗證的可信新品史低；原 NT$13,511 候選明確標示特價 B 品，依資料契約排除。"
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"AOC 65U8040\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22AOC%2065U8040%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Amobile01.com%20%22AOC%2065U8040%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"AOC 65U8040\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22AOC%2065U8040%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"AOC 65U8040\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22AOC%2065U8040%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
           "targetHost": "reddit.com"
         }
       ]
@@ -1283,7 +1283,7 @@
       "currency": "TWD",
       "amount": 17999,
       "converted": 17999,
-      "confidence": "可信通路查核價，擷取 2026-07-09"
+      "confidence": "PChome 2026-07-11 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DPADBHA900HWJZ7/000001_1780076528.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DPADBH-A900HWJZ7",
@@ -1337,13 +1337,13 @@
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Toshiba 65M450NT\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Toshiba%2065M450NT%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Amobile01.com%20%22Toshiba%2065M450NT%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"Toshiba 65M450NT\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22Toshiba%2065M450NT%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"Toshiba 65M450NT\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22Toshiba%2065M450NT%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
           "targetHost": "reddit.com"
         }
       ]
@@ -1362,7 +1362,7 @@
       "currency": "TWD",
       "amount": 13990,
       "converted": 13990,
-      "confidence": "可信通路查核價，擷取 2026-07-09"
+      "confidence": "PChome 2026-07-11 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DPADTOA900JNE73/000001_1768523868.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DPADTO-A900JNE73",
@@ -1409,20 +1409,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"CHiQ CQ-65QX250\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22CHiQ%20CQ-65QX250%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Amobile01.com%20%22CHiQ%20CQ-65QX250%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"CHiQ CQ-65QX250\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22CHiQ%20CQ-65QX250%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"CHiQ CQ-65QX250\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22CHiQ%20CQ-65QX250%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
           "targetHost": "reddit.com"
         }
       ]
@@ -1439,12 +1439,12 @@
     "name": "65型 4K QLED Google TV 顯示器",
     "price": {
       "currency": "TWD",
-      "amount": 21411,
-      "converted": 21411,
-      "confidence": "可信通路查核價，擷取 2026-07-09"
+      "amount": 21500,
+      "converted": 21500,
+      "confidence": "PChome 2026-07-11 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DPAD0WA900I9LNS/000001_1769648262.jpg",
-    "buyUrl": "https://24h.pchome.com.tw/prod/DPAD0W-A900I9LNS",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DMBM10-A900IFXK7",
     "buyLabel": "PChome",
     "specs": [
       "65 吋",
@@ -1488,20 +1488,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"TECO TL65QU1TRE\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22TECO%20TL65QU1TRE%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Amobile01.com%20%22TECO%20TL65QU1TRE%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"TECO TL65QU1TRE\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22TECO%20TL65QU1TRE%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"TECO TL65QU1TRE\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22TECO%20TL65QU1TRE%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
           "targetHost": "reddit.com"
         }
       ]
@@ -1520,10 +1520,10 @@
       "currency": "TWD",
       "amount": 19710,
       "converted": 19710,
-      "confidence": "可信通路查核價，擷取 2026-07-09"
+      "confidence": "PChome 2026-07-11 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DPADW5A900K1QA7/000001_1782888863.jpg",
-    "buyUrl": "https://24h.pchome.com.tw/prod/DPADW5-A900K1QA7",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DPADW5-A900K2DOT",
     "buyLabel": "PChome",
     "specs": [
       "65 吋",
@@ -1567,20 +1567,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"SAMPO QM-65SF620\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22SAMPO%20QM-65SF620%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Amobile01.com%20%22SAMPO%20QM-65SF620%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"SAMPO QM-65SF620\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22SAMPO%20QM-65SF620%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"SAMPO QM-65SF620\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22SAMPO%20QM-65SF620%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
           "targetHost": "reddit.com"
         }
       ]
@@ -1599,7 +1599,7 @@
       "currency": "TWD",
       "amount": 31999,
       "converted": 31999,
-      "confidence": "Costco 好市多 2026-07-09 查核價"
+      "confidence": "Costco 好市多 2026-07-11 頁面查核價"
     },
     "image": "https://www.costco.com.tw/medias/sys_master/images/hfe/ha8/438072160518174.jpg",
     "buyUrl": "https://www.costco.com.tw/Televisions-Appliances/TV-Home-Entertainment/Televisions-TV-Accessories/70-79-TVs/Toshiba-Regza-75-inch-Full-Array-4K-QLED-144Hz-Smart-Monitor-75Z670NT/p/152535",
@@ -1646,20 +1646,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Toshiba 75Z670NT\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Toshiba%2075Z670NT%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Amobile01.com%20%22Toshiba%2075Z670NT%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"Toshiba 75Z670NT\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22Toshiba%2075Z670NT%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"Toshiba 75Z670NT\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22Toshiba%2075Z670NT%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
           "targetHost": "reddit.com"
         }
       ]
@@ -1678,7 +1678,7 @@
       "currency": "TWD",
       "amount": 45999,
       "converted": 45999,
-      "confidence": "Costco 好市多 2026-07-09 查核價"
+      "confidence": "Costco 好市多 2026-07-11 頁面查核價"
     },
     "image": "https://www.costco.com.tw/medias/sys_master/images/h2d/ha5/438072223236126.jpg",
     "buyUrl": "https://www.costco.com.tw/Televisions-Appliances/TV-Home-Entertainment/Televisions-TV-Accessories/60-69-TVs/TCL-65-inch-premium-QD-Mini-LED-Google-TV-Smart-Monitor-without-STB-65C8K/p/154789",
@@ -1728,20 +1728,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"TCL 65C8K\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22TCL%2065C8K%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Amobile01.com%20%22TCL%2065C8K%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"TCL 65C8K\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22TCL%2065C8K%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"TCL 65C8K\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22TCL%2065C8K%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
           "targetHost": "reddit.com"
         }
       ]
@@ -1758,13 +1758,13 @@
     "name": "75 吋 Q7N 4K 144Hz QLED 智慧顯示器",
     "price": {
       "currency": "TWD",
-      "amount": 37799,
-      "converted": 37799,
-      "confidence": "Costco 好市多 2026-07-09 查核價"
+      "amount": 35999,
+      "converted": 35999,
+      "confidence": "PChome 2026-07-11 API 查核價"
     },
     "image": "https://www.costco.com.tw/medias/sys_master/images/h4e/h03/438072156979230.jpg",
-    "buyUrl": "https://www.costco.com.tw/Televisions-Appliances/TV-Home-Entertainment/Televisions-TV-Accessories/70-79-TVs/Hisense-75-inch-4K-144Hz-HSR240-Full-Array-QLED-with-Dolby-VisionDolby-Atmos-VIDDA-Smart-Monitor-75Q7N/p/151005",
-    "buyLabel": "Costco 好市多",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DPAD98-A900JV2AT",
+    "buyLabel": "PChome",
     "specs": [
       "75 吋 QLED",
       "4K 144Hz / VIDDA",
@@ -1810,20 +1810,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Hisense 75Q7N\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Hisense%2075Q7N%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Amobile01.com%20%22Hisense%2075Q7N%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"Hisense 75Q7N\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22Hisense%2075Q7N%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"Hisense 75Q7N\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22Hisense%2075Q7N%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
           "targetHost": "reddit.com"
         }
       ]
