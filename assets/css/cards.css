@@ -1,6 +1,7 @@
 .product-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
+  align-items: start;
   gap: 14px;
   scroll-margin-top: 78px;
 }
@@ -13,7 +14,7 @@
 .product-card {
   display: flex;
   flex-direction: column;
-  min-height: 100%;
+  min-height: 0;
   overflow: hidden;
   scroll-margin-top: 96px;
 }

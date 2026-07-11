@@ -17,11 +17,11 @@
       "currency": "TWD",
       "amount": 15304,
       "converted": 15304,
-      "confidence": "Yahoo 購物中心低價查核"
+      "confidence": "Yahoo購物中心 2026-07-11 頁面查核價"
     },
     "channel": "tw",
-    "buyLabel": "Yahoo購物",
-    "buyUrl": "https://tw.buy.yahoo.com/gdsale/Panasonic國際牌-NR-B271TV-S1-268L-雙門冰箱-晶鈦銀-11252956.html",
+    "buyLabel": "Yahoo購物中心",
+    "buyUrl": "https://tw.buy.yahoo.com/gdsale/Panasonic%E5%9C%8B%E9%9A%9B%E7%89%8C-NR-B271TV-S1-268L-%E9%9B%99%E9%96%80%E5%86%B0%E7%AE%B1-%E6%99%B6%E9%88%A6%E9%8A%80-11252956.html",
     "specs": [
       "冰箱：Panasonic國際牌 NR-B271TV-S1 268L 雙門冰箱 晶鈦銀",
       "容量：268L",
@@ -71,20 +71,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Panasonic NR-B271TV-S1\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Panasonic%20NR-B271TV-S1%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Panasonic%20NR-B271TV-S1%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"Panasonic NR-B271TV-S1\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22Panasonic%20NR-B271TV-S1%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"Panasonic NR-B271TV-S1\" (problem OR issue OR defect OR \"negative review\")",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Panasonic%20NR-B271TV-S1%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
           "targetHost": "reddit.com"
         }
       ]
@@ -102,11 +102,11 @@
       "currency": "TWD",
       "amount": 11784,
       "converted": 11784,
-      "confidence": "Yahoo 購物中心低價查核"
+      "confidence": "Yahoo購物中心 2026-07-11 頁面查核價"
     },
     "channel": "tw",
-    "buyLabel": "Yahoo購物",
-    "buyUrl": "https://tw.buy.yahoo.com/gdsale/Panasonic國際牌-NR-B171TV-S1-167L-雙門冰箱-晶鈦銀-11252958.html",
+    "buyLabel": "Yahoo購物中心",
+    "buyUrl": "https://tw.buy.yahoo.com/gdsale/Panasonic%E5%9C%8B%E9%9A%9B%E7%89%8C-NR-B171TV-S1-167L-%E9%9B%99%E9%96%80%E5%86%B0%E7%AE%B1-%E6%99%B6%E9%88%A6%E9%8A%80-11252958.html",
     "specs": [
       "冰箱：Panasonic國際牌 NR-B171TV-S1 167L 雙門冰箱 晶鈦銀",
       "容量：167L",
@@ -156,20 +156,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Panasonic NR-B171TV-S1\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Panasonic%20NR-B171TV-S1%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Panasonic%20NR-B171TV-S1%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"Panasonic NR-B171TV-S1\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22Panasonic%20NR-B171TV-S1%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"Panasonic NR-B171TV-S1\" (problem OR issue OR defect OR \"negative review\")",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Panasonic%20NR-B171TV-S1%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
           "targetHost": "reddit.com"
         }
       ]
@@ -187,11 +187,11 @@
       "currency": "TWD",
       "amount": 11900,
       "converted": 11900,
-      "confidence": "Yahoo 購物中心低價查核"
+      "confidence": "Yahoo購物中心 2026-07-11 頁面查核價"
     },
     "channel": "tw",
-    "buyLabel": "Yahoo購物",
-    "buyUrl": "https://tw.buy.yahoo.com/gdsale/LG樂金-217公升-智慧變頻雙門冰箱-星辰銀-GN-L217SVN-11979117.html",
+    "buyLabel": "Yahoo購物中心",
+    "buyUrl": "https://tw.buy.yahoo.com/gdsale/LG%E6%A8%82%E9%87%91-217%E5%85%AC%E5%8D%87-%E6%99%BA%E6%85%A7%E8%AE%8A%E9%A0%BB%E9%9B%99%E9%96%80%E5%86%B0%E7%AE%B1-%E6%98%9F%E8%BE%B0%E9%8A%80-GN-L217SVN-11979117.html",
     "specs": [
       "冰箱：LG樂金 217公升 智慧變頻雙門冰箱 星辰銀 GN-L217SVN",
       "容量：217L",
@@ -241,20 +241,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"LG GN-L217SVN\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22LG%20GN-L217SVN%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22LG%20GN-L217SVN%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"LG GN-L217SVN\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22LG%20GN-L217SVN%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"LG GN-L217SVN\" (problem OR issue OR defect OR \"negative review\")",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22LG%20GN-L217SVN%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
           "targetHost": "reddit.com"
         }
       ]
@@ -272,11 +272,11 @@
       "currency": "TWD",
       "amount": 13775,
       "converted": 13775,
-      "confidence": "Yahoo 購物中心低價查核"
+      "confidence": "Yahoo購物中心 2026-07-11 頁面查核價"
     },
     "channel": "tw",
-    "buyLabel": "Yahoo購物",
-    "buyUrl": "https://tw.buy.yahoo.com/gdsale/LG-樂金-266公升-一級能效-智慧變頻雙門冰箱-星辰銀-GN-L266SVN-送基本安裝-11988613.html",
+    "buyLabel": "Yahoo購物中心",
+    "buyUrl": "https://tw.buy.yahoo.com/gdsale/LG-%E6%A8%82%E9%87%91-266%E5%85%AC%E5%8D%87-%E4%B8%80%E7%B4%9A%E8%83%BD%E6%95%88-%E6%99%BA%E6%85%A7%E8%AE%8A%E9%A0%BB%E9%9B%99%E9%96%80%E5%86%B0%E7%AE%B1-%E6%98%9F%E8%BE%B0%E9%8A%80-GN-L266SVN-%E9%80%81%E5%9F%BA%E6%9C%AC%E5%AE%89%E8%A3%9D-11988613.html",
     "specs": [
       "冰箱：LG 樂金 266公升 一級能效 智慧變頻雙門冰箱-星辰銀(GN-L266SVN)(送基本安裝)",
       "容量：266L",
@@ -326,20 +326,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"LG GN-L266SVN\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22LG%20GN-L266SVN%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22LG%20GN-L266SVN%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"LG GN-L266SVN\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22LG%20GN-L266SVN%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"LG GN-L266SVN\" (problem OR issue OR defect OR \"negative review\")",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22LG%20GN-L266SVN%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
           "targetHost": "reddit.com"
         }
       ]
@@ -355,13 +355,13 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/554C25E292-SP-18069150.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 38285,
-      "converted": 38285,
-      "confidence": "Yahoo 購物中心低價查核"
+      "amount": 34658,
+      "converted": 34658,
+      "confidence": "Yahoo購物中心 2026-07-11 頁面查核價"
     },
     "channel": "tw",
-    "buyLabel": "Yahoo購物",
-    "buyUrl": "https://tw.buy.yahoo.com/gdsale/Panasonic國際牌-500公升一級能效無邊框鋼板系列三門變頻電冰箱NR-C505XV-W-含拆-11310321.html",
+    "buyLabel": "Yahoo購物中心",
+    "buyUrl": "https://tw.buy.yahoo.com/gdsale/Panasonic%E5%9C%8B%E9%9A%9B%E7%89%8C-500%E5%85%AC%E5%8D%87%E4%B8%80%E7%B4%9A%E8%83%BD%E6%95%88%E4%B8%89%E9%96%80%E8%AE%8A%E9%A0%BB%E5%86%B0%E7%AE%B1%E9%9B%AA%E9%9C%A7%E7%99%BDNR-C505XV-W-11322787.html",
     "specs": [
       "冰箱：Panasonic國際牌 500公升一級能效無邊框鋼板系列三門變頻電冰箱NR-C505XV-W~含拆箱定位",
       "容量：500L",
@@ -411,20 +411,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Panasonic NR-C505XV-W\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Panasonic%20NR-C505XV-W%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Panasonic%20NR-C505XV-W%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"Panasonic NR-C505XV-W\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22Panasonic%20NR-C505XV-W%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"Panasonic NR-C505XV-W\" (problem OR issue OR defect OR \"negative review\")",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Panasonic%20NR-C505XV-W%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
           "targetHost": "reddit.com"
         }
       ]
@@ -442,11 +442,11 @@
       "currency": "TWD",
       "amount": 40185,
       "converted": 40185,
-      "confidence": "Yahoo 購物中心低價查核"
+      "confidence": "Yahoo購物中心 2026-07-11 頁面查核價"
     },
     "channel": "tw",
-    "buyLabel": "Yahoo購物",
-    "buyUrl": "https://tw.buy.yahoo.com/gdsale/Panasonic國際牌-500公升一級能效無邊框鋼板系列四門變頻電冰箱NR-D505XV-W-含拆-11310319.html",
+    "buyLabel": "Yahoo購物中心",
+    "buyUrl": "https://tw.buy.yahoo.com/gdsale/Panasonic%E5%9C%8B%E9%9A%9B%E7%89%8C-500%E5%85%AC%E5%8D%87%E4%B8%80%E7%B4%9A%E8%83%BD%E6%95%88%E7%84%A1%E9%82%8A%E6%A1%86%E9%8B%BC%E6%9D%BF%E7%B3%BB%E5%88%97%E5%9B%9B%E9%96%80%E8%AE%8A%E9%A0%BB%E9%9B%BB%E5%86%B0%E7%AE%B1NR-D505XV-W-%E5%90%AB%E6%8B%86-11310319.html",
     "specs": [
       "冰箱：Panasonic國際牌 500公升一級能效無邊框鋼板系列四門變頻電冰箱NR-D505XV-W~含拆箱定位",
       "容量：500L",
@@ -496,20 +496,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Panasonic NR-D505XV-W\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Panasonic%20NR-D505XV-W%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Panasonic%20NR-D505XV-W%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"Panasonic NR-D505XV-W\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22Panasonic%20NR-D505XV-W%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"Panasonic NR-D505XV-W\" (problem OR issue OR defect OR \"negative review\")",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Panasonic%20NR-D505XV-W%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
           "targetHost": "reddit.com"
         }
       ]
@@ -527,11 +527,11 @@
       "currency": "TWD",
       "amount": 23100,
       "converted": 23100,
-      "confidence": "Yahoo 購物中心低價查核"
+      "confidence": "Yahoo購物中心 2026-07-11 頁面查核價"
     },
     "channel": "tw",
-    "buyLabel": "Yahoo購物",
-    "buyUrl": "https://tw.buy.yahoo.com/gdsale/HITACHI日立313公升變頻兩門冰箱HRBN5366DF-GPWTW琉璃白-11996787.html",
+    "buyLabel": "Yahoo購物中心",
+    "buyUrl": "https://tw.buy.yahoo.com/gdsale/HITACHI%E6%97%A5%E7%AB%8B313%E5%85%AC%E5%8D%87%E8%AE%8A%E9%A0%BB%E5%85%A9%E9%96%80%E5%86%B0%E7%AE%B1HRBN5366DF-GPWTW%E7%90%89%E7%92%83%E7%99%BD-11996787.html",
     "specs": [
       "冰箱：HITACHI日立313公升變頻兩門冰箱HRBN5366DF_GPWTW琉璃白",
       "容量：313L",
@@ -581,20 +581,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"HITACHI HRBN5366DF\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22HITACHI%20HRBN5366DF%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22HITACHI%20HRBN5366DF%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"HITACHI HRBN5366DF\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22HITACHI%20HRBN5366DF%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"HITACHI HRBN5366DF\" (problem OR issue OR defect OR \"negative review\")",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22HITACHI%20HRBN5366DF%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
           "targetHost": "reddit.com"
         }
       ]
@@ -610,13 +610,13 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/E1024B61CD-SP-22132101.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 31648,
-      "converted": 31648,
-      "confidence": "Yahoo 購物中心低價查核"
+      "amount": 29990,
+      "converted": 29990,
+      "confidence": "momo購物 2026-07-11 頁面查核價"
     },
     "channel": "tw",
-    "buyLabel": "Yahoo購物",
-    "buyUrl": "https://tw.buy.yahoo.com/gdsale/HITACHI日立394公升變頻三門冰箱RV41C-BBK星燦灰-11996796.html",
+    "buyLabel": "momo購物",
+    "buyUrl": "https://www.momoshop.com.tw/TP/TP0006837/goodsDetail/TP00068370000362",
     "specs": [
       "冰箱：HITACHI日立394公升變頻三門冰箱RV41C_BBK星燦灰",
       "容量：394L",
@@ -653,33 +653,33 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 30160,
+      "amount": 29990,
       "currency": "TWD",
-      "converted": 30160,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1258814984&cgp=31648",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：(店+)【HITACHI 日立】原廠控價 私訊我更便宜 RV41C-BBK 394公升 變頻三門冰箱-星燦灰 (含基本安裝)",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / (店+)【HITACHI 日立】原廠控價 私訊我更便宜 RV41C-BBK 394公升 變頻三門冰箱-星燦灰 (含基本安裝)」最低價為 NT$30,160，最低點日期 2025-08-23。",
-      "sourceKind": "price_history",
-      "confidence": "medium",
-      "checkedAt": "2026-07-09",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+      "converted": 29990,
+      "sourceUrl": "https://www.momoshop.com.tw/TP/TP0006837/goodsDetail/TP00068370000362",
+      "sourceTitle": "momo購物 商品頁：【HITACHI 日立】三門394L變頻髮絲紋鋼板冰箱 RV41C - 含基本安裝+舊機回收",
+      "evidenceSnippet": "momo購物 原始商品頁／API 於 2026-07-11 顯示同型號新品公開價 29990 TWD，低於既有可驗證史低。",
+      "sourceKind": "retailer_page",
+      "confidence": "high",
+      "checkedAt": "2026-07-11",
+      "note": "採用同型號、同尺寸／容量／規格的可信新品公開價；排除會員個人化折扣、信用卡回饋、點數、二手、福利品、展示、拆封與整新品。"
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"HITACHI RV41C\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22HITACHI%20RV41C%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22HITACHI%20RV41C%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"HITACHI RV41C\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22HITACHI%20RV41C%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"HITACHI RV41C\" (problem OR issue OR defect OR \"negative review\")",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22HITACHI%20RV41C%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
           "targetHost": "reddit.com"
         }
       ]
@@ -695,13 +695,13 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/3F8C495537-SP-22128108.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 20148,
-      "converted": 20148,
-      "confidence": "Yahoo 購物中心低價查核"
+      "amount": 19900,
+      "converted": 19900,
+      "confidence": "momo購物 2026-07-11 頁面查核價"
     },
     "channel": "tw",
-    "buyLabel": "Yahoo購物",
-    "buyUrl": "https://tw.buy.yahoo.com/gdsale/HITACHI日立275公升變頻兩門冰箱HRBN5303MF-BBKTW星燦灰-11996834.html",
+    "buyLabel": "momo購物",
+    "buyUrl": "https://www.momoshop.com.tw/TP/TP0006837/goodsDetail/TP00068370000381",
     "specs": [
       "冰箱：HITACHI日立275公升變頻兩門冰箱HRBN5303MF_BBKTW星燦灰",
       "容量：275L",
@@ -751,20 +751,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"HITACHI HRBN5303MF\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22HITACHI%20HRBN5303MF%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22HITACHI%20HRBN5303MF%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"HITACHI HRBN5303MF\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22HITACHI%20HRBN5303MF%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"HITACHI HRBN5303MF\" (problem OR issue OR defect OR \"negative review\")",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22HITACHI%20HRBN5303MF%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
           "targetHost": "reddit.com"
         }
       ]
@@ -780,13 +780,13 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/246e037063-Gd-11647216.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 12900,
-      "converted": 12900,
-      "confidence": "Yahoo 購物中心低價查核"
+      "amount": 12999,
+      "converted": 12999,
+      "confidence": "momo購物 2026-07-11 頁面查核價"
     },
     "channel": "tw",
-    "buyLabel": "Yahoo購物",
-    "buyUrl": "https://tw.buy.yahoo.com/gdsale/SAMSUNG三星-237公升-1級變頻雙門電冰箱-RT22M4015S8-TW-11647216.html",
+    "buyLabel": "momo購物",
+    "buyUrl": "https://www.momoshop.com.tw/TP/TP0005657/goodsDetail/TP00056570000486",
     "specs": [
       "冰箱：SAMSUNG三星 237公升 1級變頻雙門電冰箱 RT22M4015S8/TW",
       "容量：237L",
@@ -836,20 +836,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Samsung RT22M4015S8TW\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Samsung%20RT22M4015S8TW%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Samsung%20RT22M4015S8TW%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"Samsung RT22M4015S8TW\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22Samsung%20RT22M4015S8TW%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"Samsung RT22M4015S8TW\" (problem OR issue OR defect OR \"negative review\")",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Samsung%20RT22M4015S8TW%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
           "targetHost": "reddit.com"
         }
       ]
@@ -867,11 +867,11 @@
       "currency": "TWD",
       "amount": 11900,
       "converted": 11900,
-      "confidence": "Yahoo 購物中心低價查核"
+      "confidence": "Yahoo購物中心 2026-07-11 頁面查核價"
     },
     "channel": "tw",
-    "buyLabel": "Yahoo購物",
-    "buyUrl": "https://tw.buy.yahoo.com/gdsale/SAMPO聲寶-星漾美滿上冷藏下冷凍變頻玻璃直冷式雙門冰箱-SR-F12GD-含基本安裝-舊機回收-12028482.html",
+    "buyLabel": "Yahoo購物中心",
+    "buyUrl": "https://tw.buy.yahoo.com/gdsale/SAMPO%E8%81%B2%E5%AF%B6-%E6%98%9F%E6%BC%BE%E7%BE%8E%E6%BB%BF%E4%B8%8A%E5%86%B7%E8%97%8F%E4%B8%8B%E5%86%B7%E5%87%8D%E8%AE%8A%E9%A0%BB%E7%8E%BB%E7%92%83%E7%9B%B4%E5%86%B7%E5%BC%8F%E9%9B%99%E9%96%80%E5%86%B0%E7%AE%B1-SR-F12GD-%E5%90%AB%E5%9F%BA%E6%9C%AC%E5%AE%89%E8%A3%9D-%E8%88%8A%E6%A9%9F%E5%9B%9E%E6%94%B6-12028482.html",
     "specs": [
       "冰箱：SAMPO聲寶 117L星漾美滿上冷藏下冷凍變頻玻璃直冷式雙門冰箱 SR-F12GD 含基本安裝+舊機回收",
       "容量：117L",
@@ -921,20 +921,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"SAMPO SR-F12GD\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22SAMPO%20SR-F12GD%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22SAMPO%20SR-F12GD%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"SAMPO SR-F12GD\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22SAMPO%20SR-F12GD%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"SAMPO SR-F12GD\" (problem OR issue OR defect OR \"negative review\")",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22SAMPO%20SR-F12GD%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
           "targetHost": "reddit.com"
         }
       ]
@@ -952,11 +952,11 @@
       "currency": "TWD",
       "amount": 15999,
       "converted": 15999,
-      "confidence": "Yahoo 購物中心 2026-07-11 頁面低價查核"
+      "confidence": "Yahoo購物中心 2026-07-11 頁面查核價"
     },
     "channel": "tw",
-    "buyLabel": "Yahoo購物",
-    "buyUrl": "https://tw.buy.yahoo.com/gdsale/預購商品-預計4-1後依序發貨-SANLUX台灣三洋-430公升一級能效變頻雙門冰箱-SR-V430-10961354.html",
+    "buyLabel": "Yahoo購物中心",
+    "buyUrl": "https://tw.buy.yahoo.com/gdsale/%E9%A0%90%E8%B3%BC%E5%95%86%E5%93%81-%E9%A0%90%E8%A8%884-1%E5%BE%8C%E4%BE%9D%E5%BA%8F%E7%99%BC%E8%B2%A8-SANLUX%E5%8F%B0%E7%81%A3%E4%B8%89%E6%B4%8B-430%E5%85%AC%E5%8D%87%E4%B8%80%E7%B4%9A%E8%83%BD%E6%95%88%E8%AE%8A%E9%A0%BB%E9%9B%99%E9%96%80%E5%86%B0%E7%AE%B1-SR-V430-10961354.html",
     "specs": [
       "冰箱：【SANLUX 台灣三洋】430L 一級變頻大蔬果室雙門冰箱 SR-V430B",
       "容量：430L",
@@ -1006,20 +1006,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"SANLUX SR-V430B\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22SANLUX%20SR-V430B%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22SANLUX%20SR-V430B%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"SANLUX SR-V430B\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22SANLUX%20SR-V430B%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"SANLUX SR-V430B\" (problem OR issue OR defect OR \"negative review\")",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22SANLUX%20SR-V430B%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
           "targetHost": "reddit.com"
         }
       ]
@@ -1037,11 +1037,11 @@
       "currency": "TWD",
       "amount": 11900,
       "converted": 11900,
-      "confidence": "Yahoo 購物中心 2026-07-11 頁面低價查核"
+      "confidence": "Yahoo購物中心 2026-07-11 頁面查核價"
     },
     "channel": "tw",
-    "buyLabel": "Yahoo購物",
-    "buyUrl": "https://tw.buy.yahoo.com/gdsale/SANLUX台灣三洋-250L-1級變頻雙門電冰箱SR-C238BV-10096667.html",
+    "buyLabel": "Yahoo購物中心",
+    "buyUrl": "https://tw.buy.yahoo.com/gdsale/SANLUX%E5%8F%B0%E7%81%A3%E4%B8%89%E6%B4%8B-250L-1%E7%B4%9A%E8%AE%8A%E9%A0%BB%E9%9B%99%E9%96%80%E9%9B%BB%E5%86%B0%E7%AE%B1SR-C238BV-10096667.html",
     "specs": [
       "冰箱：【SANLUX 台灣三洋】250L 一級變頻雙門電冰箱 SR-C238BV",
       "容量：250L",
@@ -1091,20 +1091,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"SANLUX SR-C238BV\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22SANLUX%20SR-C238BV%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22SANLUX%20SR-C238BV%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"SANLUX SR-C238BV\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22SANLUX%20SR-C238BV%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"SANLUX SR-C238BV\" (problem OR issue OR defect OR \"negative review\")",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22SANLUX%20SR-C238BV%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
           "targetHost": "reddit.com"
         }
       ]
@@ -1122,11 +1122,11 @@
       "currency": "TWD",
       "amount": 12511,
       "converted": 12511,
-      "confidence": "Yahoo 購物中心低價查核"
+      "confidence": "Yahoo購物中心 2026-07-11 頁面查核價"
     },
     "channel": "tw",
-    "buyLabel": "Yahoo購物",
-    "buyUrl": "https://tw.buy.yahoo.com/gdsale/SANLUX-台灣三洋-156公升都會小宅電冰箱-SR-V150BF-11777652.html",
+    "buyLabel": "Yahoo購物中心",
+    "buyUrl": "https://tw.buy.yahoo.com/gdsale/SANLUX-%E5%8F%B0%E7%81%A3%E4%B8%89%E6%B4%8B-156%E5%85%AC%E5%8D%87%E9%83%BD%E6%9C%83%E5%B0%8F%E5%AE%85%E9%9B%BB%E5%86%B0%E7%AE%B1-SR-V150BF-11777652.html",
     "specs": [
       "冰箱：【SANLUX 台灣三洋】 156公升都會小宅電冰箱(SR-V150BF)",
       "容量：156L",
@@ -1176,20 +1176,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"SANLUX SR-V150BF\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22SANLUX%20SR-V150BF%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22SANLUX%20SR-V150BF%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"SANLUX SR-V150BF\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22SANLUX%20SR-V150BF%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"SANLUX SR-V150BF\" (problem OR issue OR defect OR \"negative review\")",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22SANLUX%20SR-V150BF%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
           "targetHost": "reddit.com"
         }
       ]
@@ -1207,11 +1207,11 @@
       "currency": "TWD",
       "amount": 9499,
       "converted": 9499,
-      "confidence": "Yahoo 購物中心 2026-07-11 schema 查核價"
+      "confidence": "Yahoo購物中心 2026-07-11 頁面查核價"
     },
     "channel": "tw",
-    "buyLabel": "Yahoo購物",
-    "buyUrl": "https://tw.buy.yahoo.com/gdsale/SANLUX台灣三洋-192L-1級變頻雙門電冰箱SR-C192BV1-10126857.html",
+    "buyLabel": "Yahoo購物中心",
+    "buyUrl": "https://tw.buy.yahoo.com/gdsale/SANLUX%E5%8F%B0%E7%81%A3%E4%B8%89%E6%B4%8B-192L-1%E7%B4%9A%E8%AE%8A%E9%A0%BB%E9%9B%99%E9%96%80%E9%9B%BB%E5%86%B0%E7%AE%B1SR-C192BV1-10126857.html",
     "specs": [
       "冰箱：【SANLUX 台灣三洋】192L 一級變頻雙門電冰箱 SR-C192BV1",
       "容量：192L",
@@ -1261,20 +1261,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"SANLUX SR-C192BV1\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22SANLUX%20SR-C192BV1%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22SANLUX%20SR-C192BV1%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"SANLUX SR-C192BV1\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22SANLUX%20SR-C192BV1%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"SANLUX SR-C192BV1\" (problem OR issue OR defect OR \"negative review\")",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22SANLUX%20SR-C192BV1%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
           "targetHost": "reddit.com"
         }
       ]
@@ -1292,11 +1292,11 @@
       "currency": "TWD",
       "amount": 23490,
       "converted": 23490,
-      "confidence": "Yahoo 購物中心低價查核"
+      "confidence": "Yahoo購物中心 2026-07-11 頁面查核價"
     },
     "channel": "tw",
-    "buyLabel": "Yahoo購物",
-    "buyUrl": "https://tw.buy.yahoo.com/gdsale/HITACHI日立460公升變頻兩門冰箱RV469-BSL星燦銀-11996786.html",
+    "buyLabel": "Yahoo購物中心",
+    "buyUrl": "https://tw.buy.yahoo.com/gdsale/HITACHI%E6%97%A5%E7%AB%8B460%E5%85%AC%E5%8D%87%E8%AE%8A%E9%A0%BB%E5%85%A9%E9%96%80%E5%86%B0%E7%AE%B1RV469-BSL%E6%98%9F%E7%87%A6%E9%8A%80-11996786.html",
     "specs": [
       "冰箱：HITACHI日立460公升變頻兩門冰箱RV469_BSL星燦銀",
       "容量：460L",
@@ -1346,20 +1346,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"HITACHI RV469\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22HITACHI%20RV469%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22HITACHI%20RV469%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"HITACHI RV469\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22HITACHI%20RV469%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"HITACHI RV469\" (problem OR issue OR defect OR \"negative review\")",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22HITACHI%20RV469%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
           "targetHost": "reddit.com"
         }
       ]
@@ -1377,11 +1377,11 @@
       "currency": "TWD",
       "amount": 22900,
       "converted": 22900,
-      "confidence": "Yahoo 購物中心低價查核"
+      "confidence": "Yahoo購物中心 2026-07-11 頁面查核價"
     },
     "channel": "tw",
-    "buyLabel": "Yahoo購物",
-    "buyUrl": "https://tw.buy.yahoo.com/gdsale/SAMSUNG-三星-466公升-一級能效智慧節能變頻極簡雙門冰箱-RT47CG662AS9-11751994.html",
+    "buyLabel": "Yahoo購物中心",
+    "buyUrl": "https://tw.buy.yahoo.com/gdsale/SAMSUNG-%E4%B8%89%E6%98%9F-466%E5%85%AC%E5%8D%87-%E4%B8%80%E7%B4%9A%E8%83%BD%E6%95%88%E6%99%BA%E6%85%A7%E7%AF%80%E8%83%BD%E8%AE%8A%E9%A0%BB%E6%A5%B5%E7%B0%A1%E9%9B%99%E9%96%80%E5%86%B0%E7%AE%B1-RT47CG662AS9-11751994.html",
     "specs": [
       "冰箱：【SAMSUNG 三星】 466公升 一級能效智慧節能變頻極簡雙門冰箱 RT47CG662AS9",
       "容量：466L",
@@ -1431,20 +1431,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Samsung RT47CG662AS9\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Samsung%20RT47CG662AS9%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Samsung%20RT47CG662AS9%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"Samsung RT47CG662AS9\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22Samsung%20RT47CG662AS9%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"Samsung RT47CG662AS9\" (problem OR issue OR defect OR \"negative review\")",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Samsung%20RT47CG662AS9%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
           "targetHost": "reddit.com"
         }
       ]
@@ -1462,11 +1462,11 @@
       "currency": "TWD",
       "amount": 23310,
       "converted": 23310,
-      "confidence": "Yahoo 購物中心低價查核"
+      "confidence": "Yahoo購物中心 2026-07-11 頁面查核價"
     },
     "channel": "tw",
-    "buyLabel": "Yahoo購物",
-    "buyUrl": "https://tw.buy.yahoo.com/gdsale/SAMPO聲寶-一級變頻350L玻璃兩門觸控面板上冷藏下冷凍冰箱-SR-C35GD-琉璃白含基本安裝-11166110.html",
+    "buyLabel": "Yahoo購物中心",
+    "buyUrl": "https://tw.buy.yahoo.com/gdsale/SAMPO%E8%81%B2%E5%AF%B6-%E4%B8%80%E7%B4%9A%E8%AE%8A%E9%A0%BB350L%E7%8E%BB%E7%92%83%E5%85%A9%E9%96%80%E8%A7%B8%E6%8E%A7%E9%9D%A2%E6%9D%BF%E4%B8%8A%E5%86%B7%E8%97%8F%E4%B8%8B%E5%86%B7%E5%87%8D%E5%86%B0%E7%AE%B1-SR-C35GD-%E7%90%89%E7%92%83%E7%99%BD%E5%90%AB%E5%9F%BA%E6%9C%AC%E5%AE%89%E8%A3%9D-11166110.html",
     "specs": [
       "冰箱：SAMPO聲寶 一級變頻350L玻璃兩門觸控面板上冷藏下冷凍冰箱 SR-C35GD 琉璃白含基本安裝+舊機回收",
       "容量：350L",
@@ -1516,20 +1516,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"SAMPO SR-C35GD\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22SAMPO%20SR-C35GD%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22SAMPO%20SR-C35GD%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"SAMPO SR-C35GD\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22SAMPO%20SR-C35GD%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"SAMPO SR-C35GD\" (problem OR issue OR defect OR \"negative review\")",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22SAMPO%20SR-C35GD%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
           "targetHost": "reddit.com"
         }
       ]
@@ -1547,11 +1547,11 @@
       "currency": "TWD",
       "amount": 19900,
       "converted": 19900,
-      "confidence": "Yahoo 購物中心低價查核"
+      "confidence": "Yahoo購物中心 2026-07-11 頁面查核價"
     },
     "channel": "tw",
-    "buyLabel": "Yahoo購物",
-    "buyUrl": "https://tw.buy.yahoo.com/gdsale/SAMPO聲寶-370L-一級變頻-星美滿兩門電冰箱-SR-C37D-K5-鈦金黑-含基本安裝-舊機-10265782.html",
+    "buyLabel": "Yahoo購物中心",
+    "buyUrl": "https://tw.buy.yahoo.com/gdsale/SAMPO%E8%81%B2%E5%AF%B6-370L-%E4%B8%80%E7%B4%9A%E8%AE%8A%E9%A0%BB-%E6%98%9F%E7%BE%8E%E6%BB%BF%E5%85%A9%E9%96%80%E9%9B%BB%E5%86%B0%E7%AE%B1-SR-C37D-K5-%E9%88%A6%E9%87%91%E9%BB%91-%E5%90%AB%E5%9F%BA%E6%9C%AC%E5%AE%89%E8%A3%9D-%E8%88%8A%E6%A9%9F-10265782.html",
     "specs": [
       "冰箱：SAMPO聲寶 370公升1級變頻星美滿二門電冰箱SR-C37D(K5)鈦金黑 含基本安裝+舊機回收",
       "容量：370L",
@@ -1601,20 +1601,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"SAMPO SR-C37D\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22SAMPO%20SR-C37D%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22SAMPO%20SR-C37D%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"SAMPO SR-C37D\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22SAMPO%20SR-C37D%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"SAMPO SR-C37D\" (problem OR issue OR defect OR \"negative review\")",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22SAMPO%20SR-C37D%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
           "targetHost": "reddit.com"
         }
       ]
@@ -1632,11 +1632,11 @@
       "currency": "TWD",
       "amount": 17900,
       "converted": 17900,
-      "confidence": "Yahoo 購物中心低價查核"
+      "confidence": "Yahoo購物中心 2026-07-11 頁面查核價"
     },
     "channel": "tw",
-    "buyLabel": "Yahoo購物",
-    "buyUrl": "https://tw.buy.yahoo.com/gdsale/預購-SAMPO聲寶-250L-一級變頻-星美滿兩門電冰箱-SR-C25D-G6-星辰灰-含基本安裝-10265781.html",
+    "buyLabel": "Yahoo購物中心",
+    "buyUrl": "https://tw.buy.yahoo.com/gdsale/%E9%A0%90%E8%B3%BC-SAMPO%E8%81%B2%E5%AF%B6-250L-%E4%B8%80%E7%B4%9A%E8%AE%8A%E9%A0%BB-%E6%98%9F%E7%BE%8E%E6%BB%BF%E5%85%A9%E9%96%80%E9%9B%BB%E5%86%B0%E7%AE%B1-SR-C25D-G6-%E6%98%9F%E8%BE%B0%E7%81%B0-%E5%90%AB%E5%9F%BA%E6%9C%AC%E5%AE%89%E8%A3%9D-10265781.html",
     "specs": [
       "冰箱：SAMPO聲寶 250公升1級變頻星美滿二門電冰箱SR-C25D(G6)星辰灰 含基本安裝+舊機回收",
       "容量：250L",
@@ -1686,20 +1686,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"SAMPO SR-C25D\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22SAMPO%20SR-C25D%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22SAMPO%20SR-C25D%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"SAMPO SR-C25D\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22SAMPO%20SR-C25D%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"SAMPO SR-C25D\" (problem OR issue OR defect OR \"negative review\")",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22SAMPO%20SR-C25D%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
           "targetHost": "reddit.com"
         }
       ]
@@ -1718,7 +1718,7 @@
       "currency": "TWD",
       "amount": 13999,
       "converted": 13999,
-      "confidence": "Costco 好市多 2026-07-09 查核價"
+      "confidence": "Costco 好市多 2026-07-11 頁面查核價"
     },
     "image": "https://www.costco.com.tw/medias/sys_master/images/h3f/h56/115073136033822.jpg",
     "buyUrl": "https://www.costco.com.tw/Televisions-Appliances/Large-Appliances/Fridges-Freezers/SHARP-253-L-Top-Mount-Inverter-Fridge-SJ-H25Y-WH/p/137098",
@@ -1766,20 +1766,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"SHARP SJ-H25Y-WH\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22SHARP%20SJ-H25Y-WH%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22SHARP%20SJ-H25Y-WH%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"SHARP SJ-H25Y-WH\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22SHARP%20SJ-H25Y-WH%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"SHARP SJ-H25Y-WH\" (problem OR issue OR defect OR \"negative review\")",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22SHARP%20SJ-H25Y-WH%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
           "targetHost": "reddit.com"
         }
       ]
@@ -1798,7 +1798,7 @@
       "currency": "TWD",
       "amount": 19999,
       "converted": 19999,
-      "confidence": "Costco 好市多 2026-07-09 查核價"
+      "confidence": "Costco 好市多 2026-07-11 頁面查核價"
     },
     "image": "https://www.costco.com.tw/medias/sys_master/images/h97/h26/257772363972638.jpg",
     "buyUrl": "https://www.costco.com.tw/Televisions-Appliances/Large-Appliances/Fridges-Freezers/Samsung-Top-Mount-Freezer-Fridge-351-L-RT35CG562CB1TW/p/146868",
@@ -1848,20 +1848,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Samsung RT35CG562CB1TW\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Samsung%20RT35CG562CB1TW%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Samsung%20RT35CG562CB1TW%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"Samsung RT35CG562CB1TW\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22Samsung%20RT35CG562CB1TW%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"Samsung RT35CG562CB1TW\" (problem OR issue OR defect OR \"negative review\")",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Samsung%20RT35CG562CB1TW%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
           "targetHost": "reddit.com"
         }
       ]
@@ -1930,20 +1930,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Panasonic NR-B65CV-S\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Panasonic%20NR-B65CV-S%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Panasonic%20NR-B65CV-S%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"Panasonic NR-B65CV-S\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22Panasonic%20NR-B65CV-S%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"Panasonic NR-B65CV-S\" (problem OR issue OR defect OR \"negative review\")",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Panasonic%20NR-B65CV-S%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
           "targetHost": "reddit.com"
         }
       ]

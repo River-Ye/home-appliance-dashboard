@@ -17,8 +17,8 @@
     "name": "16 吋 DC 微電腦定時電風扇",
     "price": {
       "currency": "TWD",
-      "amount": 4090,
-      "converted": 4090,
+      "amount": 3272,
+      "converted": 3272,
       "confidence": "PChome 2026-07-11 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAB30A900EOQ24/000001_1753338098.png",
@@ -65,20 +65,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Panasonic F-H16GND\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Panasonic%20F-H16GND%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Panasonic%20F-H16GND%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"Panasonic F-H16GND\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22Panasonic%20F-H16GND%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"Panasonic F-H16GND\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Panasonic%20F-H16GND%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
           "targetHost": "reddit.com"
         }
       ]
@@ -95,12 +95,12 @@
     "name": "16 吋自動除菌離子 DC 電風扇",
     "price": {
       "currency": "TWD",
-      "amount": 3890,
-      "converted": 3890,
-      "confidence": "可信通路查核價"
+      "amount": 3125,
+      "converted": 3125,
+      "confidence": "PChome 2026-07-11 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMABPEA900JYOWP/000001_1779868844.jpg",
-    "buyUrl": "https://24h.pchome.com.tw/prod/DMABPE-A900JYOWP",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DMABPM-A900K2ITT",
     "buyLabel": "PChome",
     "specs": [
       "16 吋",
@@ -143,20 +143,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"SHARP PJ-PV16AT-W\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22SHARP%20PJ-PV16AT-W%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22SHARP%20PJ-PV16AT-W%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"SHARP PJ-PV16AT-W\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22SHARP%20PJ-PV16AT-W%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"SHARP PJ-PV16AT-W\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22SHARP%20PJ-PV16AT-W%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
           "targetHost": "reddit.com"
         }
       ]
@@ -175,7 +175,7 @@
       "currency": "TWD",
       "amount": 9990,
       "converted": 9990,
-      "confidence": "可信通路查核價"
+      "confidence": "PChome 2026-07-11 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAU3CA900J971J/000001_1767758265.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAU3C-A900J971J",
@@ -221,20 +221,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Dyson AM12\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Dyson%20AM12%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Dyson%20AM12%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"Dyson AM12\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22Dyson%20AM12%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"Dyson AM12\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Dyson%20AM12%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
           "targetHost": "reddit.com"
         }
       ]
@@ -299,20 +299,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"HERAN HDF-16S6\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22HERAN%20HDF-16S6%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22HERAN%20HDF-16S6%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"HERAN HDF-16S6\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22HERAN%20HDF-16S6%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"HERAN HDF-16S6\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22HERAN%20HDF-16S6%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
           "targetHost": "reddit.com"
         }
       ]
@@ -329,13 +329,13 @@
     "name": "16 吋 DC 變頻直流電風扇",
     "price": {
       "currency": "TWD",
-      "amount": 1290,
-      "converted": 1290,
-      "confidence": "可信通路查核價"
+      "amount": 1299,
+      "converted": 1299,
+      "confidence": "momo購物 2026-07-11 頁面查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMABP5A900HDZSK/000001_1760322125.jpg",
-    "buyUrl": "https://24h.pchome.com.tw/prod/DMABP5-A900HDZSK",
-    "buyLabel": "PChome",
+    "buyUrl": "https://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=12781787",
+    "buyLabel": "momo購物",
     "specs": [
       "16 吋",
       "DC 馬達",
@@ -377,20 +377,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"NWT WPF-16S7\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22NWT%20WPF-16S7%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22NWT%20WPF-16S7%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"NWT WPF-16S7\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22NWT%20WPF-16S7%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"NWT WPF-16S7\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22NWT%20WPF-16S7%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
           "targetHost": "reddit.com"
         }
       ]
@@ -407,8 +407,8 @@
     "name": "16 吋 DC 變頻電風扇",
     "price": {
       "currency": "TWD",
-      "amount": 3090,
-      "converted": 3090,
+      "amount": 2472,
+      "converted": 2472,
       "confidence": "PChome 2026-07-11 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMABLMA900EOROV/000001_1757038312.jpg",
@@ -455,20 +455,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Panasonic F-S16LMD\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Panasonic%20F-S16LMD%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Panasonic%20F-S16LMD%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"Panasonic F-S16LMD\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22Panasonic%20F-S16LMD%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"Panasonic F-S16LMD\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Panasonic%20F-S16LMD%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
           "targetHost": "reddit.com"
         }
       ]
@@ -485,13 +485,13 @@
     "name": "14 吋 DC 微電腦定時電風扇",
     "price": {
       "currency": "TWD",
-      "amount": 4090,
-      "converted": 4090,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 2995,
+      "converted": 2995,
+      "confidence": "momo購物 2026-07-11 頁面查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMABLMA900EOQ12/000001_1695005225.jpg",
-    "buyUrl": "https://24h.pchome.com.tw/prod/DMABLM-A900EOQ12",
-    "buyLabel": "PChome",
+    "buyUrl": "https://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=15207072",
+    "buyLabel": "momo購物",
     "specs": [
       "14 吋",
       "DC 馬達",
@@ -520,33 +520,33 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 3112,
+      "amount": 2995,
       "currency": "TWD",
-      "converted": 3112,
-      "sourceUrl": "https://24h.pchome.com.tw/prod/DMABLM-A900EOQ12",
-      "sourceTitle": "PChome 商品頁：Panasonic國際牌14吋DC微電腦定時立扇(負離子/ECO溫控)F-H14GND-K / ◤ 原價$4,490，限時下殺 ◢Panasonic國際牌14吋DC微電腦定時立扇(負離子/ECO溫控)F-H14GND-K",
-      "evidenceSnippet": "PChome 商品 API 於 2026-07-10 回傳同一商品頁「Panasonic國際牌14吋DC微電腦定時立扇(負離子/ECO溫控)F-H14GND-K / ◤ 原價$4,490，限時下殺 ◢Panasonic國際牌14吋DC微電腦定時立扇(負離子/ECO溫控)F-H14GND-K」查核價 NT$3,112，低於原先記錄史低。",
+      "converted": 2995,
+      "sourceUrl": "https://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=15207072",
+      "sourceTitle": "momo購物 商品頁：【Panasonic 國際牌】14吋負離子DC直流遙控立扇-晶鑽棕(F-H14GND-K)",
+      "evidenceSnippet": "momo購物 原始商品頁／API 於 2026-07-11 顯示同型號新品公開價 2995 TWD，低於既有可驗證史低。",
       "sourceKind": "retailer_page",
-      "confidence": "medium",
-      "checkedAt": "2026-07-10",
-      "note": "採用 PChome 24h 同一商品頁可公開查核現價作為本次觀測到的最低價；同型號/規格並排除會員個人化折扣、信用卡回饋、點數、二手、福利品、展示機、箱損、拆封與整新品。"
+      "confidence": "high",
+      "checkedAt": "2026-07-11",
+      "note": "採用同型號、同尺寸／容量／規格的可信新品公開價；排除會員個人化折扣、信用卡回饋、點數、二手、福利品、展示、拆封與整新品。"
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Panasonic F-H14GND-K\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Panasonic%20F-H14GND-K%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Panasonic%20F-H14GND-K%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"Panasonic F-H14GND-K\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22Panasonic%20F-H14GND-K%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"Panasonic F-H14GND-K\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Panasonic%20F-H14GND-K%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
           "targetHost": "reddit.com"
         }
       ]
@@ -563,8 +563,8 @@
     "name": "14 吋 DC 微電腦定時電風扇",
     "price": {
       "currency": "TWD",
-      "amount": 4900,
-      "converted": 4900,
+      "amount": 3920,
+      "converted": 3920,
       "confidence": "PChome 2026-07-11 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMABLMA900EORP0/000001_1697161466.jpg",
@@ -611,20 +611,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Panasonic F-H14LXD-K\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Panasonic%20F-H14LXD-K%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Panasonic%20F-H14LXD-K%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"Panasonic F-H14LXD-K\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22Panasonic%20F-H14LXD-K%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"Panasonic F-H14LXD-K\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Panasonic%20F-H14LXD-K%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
           "targetHost": "reddit.com"
         }
       ]
@@ -641,13 +641,13 @@
     "name": "14 吋微電腦 DC 直流電風扇",
     "price": {
       "currency": "TWD",
-      "amount": 1444,
-      "converted": 1444,
-      "confidence": "可信通路查核價"
+      "amount": 1319,
+      "converted": 1319,
+      "confidence": "momo購物 2026-07-11 頁面查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAB1FA900B4SP0/000001_1612233290.jpg",
-    "buyUrl": "https://24h.pchome.com.tw/prod/DMAB1F-A900B4SP0",
-    "buyLabel": "PChome",
+    "buyUrl": "https://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=15103067",
+    "buyLabel": "momo購物",
     "specs": [
       "14 吋",
       "DC 直流",
@@ -676,33 +676,33 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 1329,
+      "amount": 1319,
       "currency": "TWD",
-      "converted": 1329,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1108699542&cgp=1349",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：Panasonic授權高雄三民菁泰電器 領卷$1349，領完為止 高雄門市免運 Panasonic國際牌 14吋微電腦DC直流電風扇 F-S14KM FS14KM DC扇",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「樂天市場 - Panasonic授權高雄三民菁泰電器 / Panasonic授權高雄三民菁泰電器 領卷$1349，領完為止 高雄門市免運 Panasonic國際牌 14吋微電腦DC直流電風扇 F-S14KM FS14KM DC扇」最低價為 NT$1,329，最低點日期 2026-04-09。",
-      "sourceKind": "price_history",
+      "converted": 1319,
+      "sourceUrl": "https://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=15103067",
+      "sourceTitle": "momo購物 商品頁：【Panasonic 國際牌】14吋微電腦DC直流電風扇 F-S14KM (4小時定時/自然風功能/台灣製造/DC節能扇)",
+      "evidenceSnippet": "momo購物 原始商品頁／API 於 2026-07-11 顯示同型號新品公開價 1319 TWD，低於既有可驗證史低。",
+      "sourceKind": "retailer_page",
       "confidence": "high",
-      "checkedAt": "2026-07-09",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+      "checkedAt": "2026-07-11",
+      "note": "採用同型號、同尺寸／容量／規格的可信新品公開價；排除會員個人化折扣、信用卡回饋、點數、二手、福利品、展示、拆封與整新品。"
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Panasonic F-S14KM\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Panasonic%20F-S14KM%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Panasonic%20F-S14KM%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"Panasonic F-S14KM\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22Panasonic%20F-S14KM%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"Panasonic F-S14KM\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Panasonic%20F-S14KM%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
           "targetHost": "reddit.com"
         }
       ]
@@ -719,8 +719,8 @@
     "name": "16 吋 DC 變頻高級型溫感遙控電風扇",
     "price": {
       "currency": "TWD",
-      "amount": 3590,
-      "converted": 3590,
+      "amount": 3231,
+      "converted": 3231,
       "confidence": "PChome 2026-07-11 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAB30A900EOQ5X/000001_1693793932.jpg",
@@ -767,20 +767,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Panasonic F-L16GMD\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Panasonic%20F-L16GMD%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Panasonic%20F-L16GMD%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"Panasonic F-L16GMD\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22Panasonic%20F-L16GMD%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"Panasonic F-L16GMD\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Panasonic%20F-L16GMD%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
           "targetHost": "reddit.com"
         }
       ]
@@ -797,13 +797,13 @@
     "name": "14 吋五片扇葉 ECO 溫度感知 DC 馬達電風扇",
     "price": {
       "currency": "TWD",
-      "amount": 2380,
-      "converted": 2380,
-      "confidence": "可信通路查核價"
+      "amount": 2071,
+      "converted": 2071,
+      "confidence": "momo購物 2026-07-11 頁面查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAB1FA900JXKNN/000001_1776674767.jpg",
-    "buyUrl": "https://24h.pchome.com.tw/prod/DMAB1F-A900JXKNN",
-    "buyLabel": "PChome",
+    "buyUrl": "https://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=15180635",
+    "buyLabel": "momo購物",
     "specs": [
       "14 吋",
       "五片扇葉",
@@ -832,33 +832,33 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 2098,
+      "amount": 2071,
       "currency": "TWD",
-      "converted": 2098,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1274404819&cgp=2152",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【Panasonic 國際牌】14吋DC立扇 (F-S14QT)",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【Panasonic 國際牌】14吋DC立扇 (F-S14QT)」最低價為 NT$2,098，最低點日期 2026-07-04。",
-      "sourceKind": "price_history",
+      "converted": 2071,
+      "sourceUrl": "https://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=15180635",
+      "sourceTitle": "momo購物 商品頁：【Panasonic 國際牌】14吋DC立扇 (F-S14QT)",
+      "evidenceSnippet": "momo購物 原始商品頁／API 於 2026-07-11 顯示同型號新品公開價 2071 TWD，低於既有可驗證史低。",
+      "sourceKind": "retailer_page",
       "confidence": "high",
-      "checkedAt": "2026-07-09",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+      "checkedAt": "2026-07-11",
+      "note": "採用同型號、同尺寸／容量／規格的可信新品公開價；排除會員個人化折扣、信用卡回饋、點數、二手、福利品、展示、拆封與整新品。"
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Panasonic F-S14QT\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Panasonic%20F-S14QT%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Panasonic%20F-S14QT%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"Panasonic F-S14QT\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22Panasonic%20F-S14QT%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"Panasonic F-S14QT\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Panasonic%20F-S14QT%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
           "targetHost": "reddit.com"
         }
       ]
@@ -875,13 +875,13 @@
     "name": "12 吋五片扇葉 ECO 溫度感知 DC 馬達電風扇",
     "price": {
       "currency": "TWD",
-      "amount": 2079,
-      "converted": 2079,
-      "confidence": "可信通路查核價"
+      "amount": 1840,
+      "converted": 1840,
+      "confidence": "momo購物 2026-07-11 頁面查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAB1FA900JX6MJ/000001_1776674604.jpg",
-    "buyUrl": "https://24h.pchome.com.tw/prod/DMAB1F-A900JX6MJ",
-    "buyLabel": "PChome",
+    "buyUrl": "https://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=15180637",
+    "buyLabel": "momo購物",
     "specs": [
       "12 吋",
       "五片扇葉",
@@ -910,33 +910,33 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 1864,
+      "amount": 1840,
       "currency": "TWD",
-      "converted": 1864,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1274404820&cgp=1912",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【Panasonic 國際牌】12吋DC立扇 (F-S12QT)",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【Panasonic 國際牌】12吋DC立扇 (F-S12QT)」最低價為 NT$1,864，最低點日期 2026-07-04。",
-      "sourceKind": "price_history",
+      "converted": 1840,
+      "sourceUrl": "https://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=15180637",
+      "sourceTitle": "momo購物 商品頁：【Panasonic 國際牌】12吋DC立扇 (F-S12QT)",
+      "evidenceSnippet": "momo購物 原始商品頁／API 於 2026-07-11 顯示同型號新品公開價 1840 TWD，低於既有可驗證史低。",
+      "sourceKind": "retailer_page",
       "confidence": "high",
-      "checkedAt": "2026-07-09",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+      "checkedAt": "2026-07-11",
+      "note": "採用同型號、同尺寸／容量／規格的可信新品公開價；排除會員個人化折扣、信用卡回饋、點數、二手、福利品、展示、拆封與整新品。"
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Panasonic F-S12QT\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Panasonic%20F-S12QT%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Panasonic%20F-S12QT%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"Panasonic F-S12QT\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22Panasonic%20F-S12QT%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"Panasonic F-S12QT\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Panasonic%20F-S12QT%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
           "targetHost": "reddit.com"
         }
       ]
@@ -953,13 +953,13 @@
     "name": "16 吋 DC 節能直流馬達立扇",
     "price": {
       "currency": "TWD",
-      "amount": 3290,
-      "converted": 3290,
-      "confidence": "可信通路查核價"
+      "amount": 2961,
+      "converted": 2961,
+      "confidence": "momo購物 2026-07-11 頁面查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMABPEA900JZZ0Q/000001_1778477239.jpg",
-    "buyUrl": "https://24h.pchome.com.tw/prod/DMABPE-A900JZZ0Q",
-    "buyLabel": "PChome",
+    "buyUrl": "https://www.momoshop.com.tw/TP/TP0001524/goodsDetail/TP00015240000436",
+    "buyLabel": "momo購物",
     "specs": [
       "16 吋",
       "DC 馬達",
@@ -1001,20 +1001,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"SHARP PJ-DC16VT-W\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22SHARP%20PJ-DC16VT-W%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22SHARP%20PJ-DC16VT-W%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"SHARP PJ-DC16VT-W\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22SHARP%20PJ-DC16VT-W%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"SHARP PJ-DC16VT-W\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22SHARP%20PJ-DC16VT-W%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
           "targetHost": "reddit.com"
         }
       ]
@@ -1033,7 +1033,7 @@
       "currency": "TWD",
       "amount": 1861,
       "converted": 1861,
-      "confidence": "可信通路查核價"
+      "confidence": "PChome 2026-07-11 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMABPMA900K2J9E/000001_1780381094.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMABPM-A900K2J9E",
@@ -1079,20 +1079,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"SHARP PJ-V14A-W\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22SHARP%20PJ-V14A-W%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22SHARP%20PJ-V14A-W%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"SHARP PJ-V14A-W\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22SHARP%20PJ-V14A-W%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"SHARP PJ-V14A-W\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22SHARP%20PJ-V14A-W%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
           "targetHost": "reddit.com"
         }
       ]
@@ -1109,13 +1109,13 @@
     "name": "14 吋 DC 直流馬達遙控立扇",
     "price": {
       "currency": "TWD",
-      "amount": 1706,
-      "converted": 1706,
-      "confidence": "可信通路查核價"
+      "amount": 1407,
+      "converted": 1407,
+      "confidence": "momo購物 2026-07-11 頁面查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMABPMA900J334P/000001_1753932662.jpg",
-    "buyUrl": "https://24h.pchome.com.tw/prod/DMABPM-A900J334P",
-    "buyLabel": "PChome",
+    "buyUrl": "https://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=14266032",
+    "buyLabel": "momo購物",
     "specs": [
       "14 吋",
       "DC 馬達",
@@ -1157,20 +1157,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"SHARP PJ-E14GE\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22SHARP%20PJ-E14GE%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22SHARP%20PJ-E14GE%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"SHARP PJ-E14GE\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22SHARP%20PJ-E14GE%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"SHARP PJ-E14GE\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22SHARP%20PJ-E14GE%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
           "targetHost": "reddit.com"
         }
       ]
@@ -1187,13 +1187,13 @@
     "name": "窄邊框時尚美型風扇",
     "price": {
       "currency": "TWD",
-      "amount": 1490,
-      "converted": 1490,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 968,
+      "converted": 968,
+      "confidence": "momo購物 2026-07-11 頁面查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMACAKA900G4VTV/000001_1779763282.jpg",
-    "buyUrl": "https://24h.pchome.com.tw/prod/DMACAK-A900G4VTV",
-    "buyLabel": "PChome",
+    "buyUrl": "https://www.momoshop.com.tw/TP/TP0006456/goodsDetail/TP00064560000408",
+    "buyLabel": "momo購物",
     "specs": [
       "時尚外型",
       "窄邊框",
@@ -1235,20 +1235,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Philips ACR2142SF\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Philips%20ACR2142SF%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Philips%20ACR2142SF%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"Philips ACR2142SF\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22Philips%20ACR2142SF%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"Philips ACR2142SF\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Philips%20ACR2142SF%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
           "targetHost": "reddit.com"
         }
       ]
@@ -1265,13 +1265,13 @@
     "name": "DC 立式循環扇",
     "price": {
       "currency": "TWD",
-      "amount": 2990,
-      "converted": 2990,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 1943,
+      "converted": 1943,
+      "confidence": "momo購物 2026-07-11 頁面查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMACAKA900G0BE8/000001_1779955873.jpg",
-    "buyUrl": "https://24h.pchome.com.tw/prod/DMACAK-A900G0BE8",
-    "buyLabel": "PChome",
+    "buyUrl": "https://www.momoshop.com.tw/TP/TP0006456/goodsDetail/TP00064560000754",
+    "buyLabel": "momo購物",
     "specs": [
       "DC",
       "立式",
@@ -1313,20 +1313,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Philips ACR3142CF\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Philips%20ACR3142CF%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Philips%20ACR3142CF%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"Philips ACR3142CF\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22Philips%20ACR3142CF%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"Philips ACR3142CF\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Philips%20ACR3142CF%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
           "targetHost": "reddit.com"
         }
       ]
@@ -1343,13 +1343,13 @@
     "name": "全方位渦輪 DC 循環扇",
     "price": {
       "currency": "TWD",
-      "amount": 3290,
-      "converted": 3290,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 2138,
+      "converted": 2138,
+      "confidence": "momo購物 2026-07-11 頁面查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMABOWA900IUZ7V/000001_1780022324.jpg",
-    "buyUrl": "https://24h.pchome.com.tw/prod/DMABOW-A900IUZ7V",
-    "buyLabel": "PChome",
+    "buyUrl": "https://www.momoshop.com.tw/TP/TP0006456/goodsDetail/TP00064560000573",
+    "buyLabel": "momo購物",
     "specs": [
       "DC",
       "渦輪循環",
@@ -1378,33 +1378,33 @@
     "releaseDate": "2026-03-17",
     "historicalLow": {
       "status": "found",
-      "amount": 2796,
+      "amount": 2138,
       "currency": "TWD",
-      "converted": 2796,
-      "sourceUrl": "https://24h.pchome.com.tw/prod/DMABOW-A900IUZ7V",
-      "sourceTitle": "PChome 商品頁：PHILIPS 飛利浦 全方位渦輪DC循環扇 ACR3342CFD / PHILIPS 飛利浦 全方位渦輪DC循環扇 ACR3342CFD",
-      "evidenceSnippet": "PChome 商品 API 於 2026-07-10 回傳同一商品頁「PHILIPS 飛利浦 全方位渦輪DC循環扇 ACR3342CFD / PHILIPS 飛利浦 全方位渦輪DC循環扇 ACR3342CFD」查核價 NT$2,796，低於原先記錄史低。",
+      "converted": 2138,
+      "sourceUrl": "https://www.momoshop.com.tw/TP/TP0006456/goodsDetail/TP00064560000573",
+      "sourceTitle": "momo購物 商品頁：【Philips 飛利浦】PHILIPS 飛利浦 全方位渦輪循環扇 【百年匠心系列】 循環扇 電風扇 風扇 電扇 ACR3342CFD",
+      "evidenceSnippet": "momo購物 原始商品頁／API 於 2026-07-11 顯示同型號新品公開價 2138 TWD，低於既有可驗證史低。",
       "sourceKind": "retailer_page",
-      "confidence": "medium",
-      "checkedAt": "2026-07-10",
-      "note": "採用 PChome 24h 同一商品頁可公開查核現價作為本次觀測到的最低價；同型號/規格並排除會員個人化折扣、信用卡回饋、點數、二手、福利品、展示機、箱損、拆封與整新品。"
+      "confidence": "high",
+      "checkedAt": "2026-07-11",
+      "note": "採用同型號、同尺寸／容量／規格的可信新品公開價；排除會員個人化折扣、信用卡回饋、點數、二手、福利品、展示、拆封與整新品。"
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Philips ACR3342CFD\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Philips%20ACR3342CFD%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Philips%20ACR3342CFD%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"Philips ACR3342CFD\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22Philips%20ACR3342CFD%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"Philips ACR3342CFD\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Philips%20ACR3342CFD%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
           "targetHost": "reddit.com"
         }
       ]
@@ -1421,13 +1421,13 @@
     "name": "DC 塔式風扇",
     "price": {
       "currency": "TWD",
-      "amount": 4090,
-      "converted": 4090,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 2657,
+      "converted": 2657,
+      "confidence": "momo購物 2026-07-11 頁面查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMACAKA900G0BB4/000001_1778646103.jpg",
-    "buyUrl": "https://24h.pchome.com.tw/prod/DMACAK-A900G0BB4",
-    "buyLabel": "PChome",
+    "buyUrl": "https://www.momoshop.com.tw/TP/TP0006456/goodsDetail/TP00064560000457",
+    "buyLabel": "momo購物",
     "specs": [
       "塔扇",
       "DC",
@@ -1469,20 +1469,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Philips ACR3144WTF\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Philips%20ACR3144WTF%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Philips%20ACR3144WTF%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"Philips ACR3144WTF\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22Philips%20ACR3144WTF%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"Philips ACR3144WTF\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Philips%20ACR3144WTF%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
           "targetHost": "reddit.com"
         }
       ]
@@ -1499,13 +1499,13 @@
     "name": "DC 冷暖兩用無扇葉風扇",
     "price": {
       "currency": "TWD",
-      "amount": 9900,
-      "converted": 9900,
-      "confidence": "可信通路查核價，擷取 2026-07-09"
+      "amount": 8910,
+      "converted": 8910,
+      "confidence": "momo購物 2026-07-11 頁面查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAB6ZA900FLC55/000001_1780151316.jpg",
-    "buyUrl": "https://24h.pchome.com.tw/prod/DMAB6Z-A900FLC55",
-    "buyLabel": "PChome",
+    "buyUrl": "https://www.momoshop.com.tw/TP/TP0003952/goodsDetail/TP00039520004981",
+    "buyLabel": "momo購物",
     "specs": [
       "無扇葉",
       "冷暖兩用",
@@ -1547,20 +1547,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Philips AHR5164FD\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Philips%20AHR5164FD%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Philips%20AHR5164FD%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"Philips AHR5164FD\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22Philips%20AHR5164FD%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"Philips AHR5164FD\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Philips%20AHR5164FD%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
           "targetHost": "reddit.com"
         }
       ]
@@ -1579,7 +1579,7 @@
       "currency": "TWD",
       "amount": 2999,
       "converted": 2999,
-      "confidence": "Costco 好市多 2026-07-09 查核價"
+      "confidence": "Costco 好市多 2026-07-11 頁面查核價"
     },
     "image": "https://www.costco.com.tw/medias/sys_master/images/ha1/h9a/361109992439838.jpg",
     "buyUrl": "https://www.costco.com.tw/Televisions-Appliances/Cooling-Heating-Air-Treatment/Heating-Cooling/Airmate-DC-Remote-Control-Tower-Fan-FT89R/p/150625",
@@ -1625,20 +1625,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Airmate FT89R\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Airmate%20FT89R%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Airmate%20FT89R%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"Airmate FT89R\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22Airmate%20FT89R%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"Airmate FT89R\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Airmate%20FT89R%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
           "targetHost": "reddit.com"
         }
       ]
@@ -1706,20 +1706,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"DeWALT DXF1645A\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22DeWALT%20DXF1645A%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22DeWALT%20DXF1645A%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"DeWALT DXF1645A\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22DeWALT%20DXF1645A%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"DeWALT DXF1645A\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22DeWALT%20DXF1645A%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
           "targetHost": "reddit.com"
         }
       ]
@@ -1738,7 +1738,7 @@
       "currency": "TWD",
       "amount": 2099,
       "converted": 2099,
-      "confidence": "Costco 好市多 2026-07-09 查核價"
+      "confidence": "Costco 好市多 2026-07-11 頁面查核價"
     },
     "image": "https://www.costco.com.tw/medias/sys_master/images/h33/h32/333377590099998.jpg",
     "buyUrl": "https://www.costco.com.tw/Televisions-Appliances/Cooling-Heating-Air-Treatment/Heating-Cooling/Airmate-14-inch-DC-Inverter-Stand-Fan-FS35150R/p/149335",
@@ -1787,20 +1787,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Airmate FS35150R\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Airmate%20FS35150R%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Airmate%20FS35150R%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"Airmate FS35150R\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22Airmate%20FS35150R%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"Airmate FS35150R\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Airmate%20FS35150R%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
           "targetHost": "reddit.com"
         }
       ]

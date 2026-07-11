@@ -64,20 +64,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Roborock Saros Z70\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Roborock%20Saros%20Z70%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Roborock%20Saros%20Z70%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"Roborock Saros Z70\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22Roborock%20Saros%20Z70%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"Roborock Saros Z70\" (problem OR issue OR defect OR \"negative review\")",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Roborock%20Saros%20Z70%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
           "targetHost": "reddit.com"
         }
       ]
@@ -142,20 +142,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Roborock Saros 20 水立方\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Roborock%20Saros%2020%20%E6%B0%B4%E7%AB%8B%E6%96%B9%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Roborock%20Saros%2020%20%E6%B0%B4%E7%AB%8B%E6%96%B9%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"Roborock Saros 20 水立方\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22Roborock%20Saros%2020%20%E6%B0%B4%E7%AB%8B%E6%96%B9%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"Roborock Saros 20 水立方\" (problem OR issue OR defect OR \"negative review\")",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Roborock%20Saros%2020%20%E6%B0%B4%E7%AB%8B%E6%96%B9%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
           "targetHost": "reddit.com"
         }
       ]
@@ -174,7 +174,7 @@
       "currency": "TWD",
       "amount": 32980,
       "converted": 32980,
-      "confidence": "可信通路查核價"
+      "confidence": "PChome 2026-07-11 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL1CA900JMMCO/000001_1769061975.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBL1C-A900JMMCO",
@@ -220,20 +220,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Roborock Saros 20\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Roborock%20Saros%2020%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Roborock%20Saros%2020%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"Roborock Saros 20\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22Roborock%20Saros%2020%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"Roborock Saros 20\" (problem OR issue OR defect OR \"negative review\")",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Roborock%20Saros%2020%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
           "targetHost": "reddit.com"
         }
       ]
@@ -252,7 +252,7 @@
       "currency": "TWD",
       "amount": 26980,
       "converted": 26980,
-      "confidence": "可信通路查核價"
+      "confidence": "PChome 2026-07-11 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL1CA900JPHOP/000001_1782870240.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBL1C-A900JPHOP",
@@ -298,20 +298,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Roborock Qrevo Edge 2 Pro\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Roborock%20Qrevo%20Edge%202%20Pro%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Roborock%20Qrevo%20Edge%202%20Pro%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"Roborock Qrevo Edge 2 Pro\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22Roborock%20Qrevo%20Edge%202%20Pro%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"Roborock Qrevo Edge 2 Pro\" (problem OR issue OR defect OR \"negative review\")",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Roborock%20Qrevo%20Edge%202%20Pro%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
           "targetHost": "reddit.com"
         }
       ]
@@ -407,13 +407,13 @@
     "name": "無限續航滾筒洗地機器人上下水款",
     "price": {
       "currency": "TWD",
-      "amount": 25999,
-      "converted": 25999,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 24700,
+      "converted": 24700,
+      "confidence": "Yahoo購物中心 2026-07-11 頁面查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL0LA900JRDAS/000001_1771917633.jpg",
-    "buyUrl": "https://24h.pchome.com.tw/prod/DMBL0L-A900JRDAS",
-    "buyLabel": "PChome",
+    "buyUrl": "https://tw.buy.yahoo.com/gdsale/ECOVACS-%E7%A7%91%E6%B2%83%E6%96%AF-DEEBOT-X11-PRO%E7%84%A1%E9%99%90%E7%BA%8C%E8%88%AA%E6%BB%BE%E7%AD%92%E6%B4%97%E5%9C%B0%E6%A9%9F%E5%99%A8%E4%BA%BA-%E6%8E%83%E5%9C%B0%E6%A9%9F%E5%99%A8%E4%BA%BA-11797803.html",
+    "buyLabel": "Yahoo購物中心",
     "specs": [
       "滾筒洗地",
       "自動上下水",
@@ -455,20 +455,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Ecovacs DEEBOT X11 PRO 上下水款\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Ecovacs%20DEEBOT%20X11%20PRO%20%E4%B8%8A%E4%B8%8B%E6%B0%B4%E6%AC%BE%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Ecovacs%20DEEBOT%20X11%20PRO%20%E4%B8%8A%E4%B8%8B%E6%B0%B4%E6%AC%BE%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"Ecovacs DEEBOT X11 PRO 上下水款\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22Ecovacs%20DEEBOT%20X11%20PRO%20%E4%B8%8A%E4%B8%8B%E6%B0%B4%E6%AC%BE%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"Ecovacs DEEBOT X11 PRO 上下水款\" (problem OR issue OR defect OR \"negative review\")",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Ecovacs%20DEEBOT%20X11%20PRO%20%E4%B8%8A%E4%B8%8B%E6%B0%B4%E6%AC%BE%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
           "targetHost": "reddit.com"
         }
       ]
@@ -533,20 +533,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Ecovacs DEEBOT X11 PRO\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Ecovacs%20DEEBOT%20X11%20PRO%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Ecovacs%20DEEBOT%20X11%20PRO%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"Ecovacs DEEBOT X11 PRO\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22Ecovacs%20DEEBOT%20X11%20PRO%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"Ecovacs DEEBOT X11 PRO\" (problem OR issue OR defect OR \"negative review\")",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Ecovacs%20DEEBOT%20X11%20PRO%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
           "targetHost": "reddit.com"
         }
       ]
@@ -708,20 +708,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Ecovacs DEEBOT T50 PRO OMNI\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Ecovacs%20DEEBOT%20T50%20PRO%20OMNI%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Ecovacs%20DEEBOT%20T50%20PRO%20OMNI%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"Ecovacs DEEBOT T50 PRO OMNI\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22Ecovacs%20DEEBOT%20T50%20PRO%20OMNI%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"Ecovacs DEEBOT T50 PRO OMNI\" (problem OR issue OR defect OR \"negative review\")",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Ecovacs%20DEEBOT%20T50%20PRO%20OMNI%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
           "targetHost": "reddit.com"
         }
       ]
@@ -786,20 +786,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Ecovacs DEEBOT N50\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Ecovacs%20DEEBOT%20N50%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Ecovacs%20DEEBOT%20N50%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"Ecovacs DEEBOT N50\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22Ecovacs%20DEEBOT%20N50%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"Ecovacs DEEBOT N50\" (problem OR issue OR defect OR \"negative review\")",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Ecovacs%20DEEBOT%20N50%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
           "targetHost": "reddit.com"
         }
       ]
@@ -864,20 +864,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Dreame X60 Master\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Dreame%20X60%20Master%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Dreame%20X60%20Master%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"Dreame X60 Master\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22Dreame%20X60%20Master%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"Dreame X60 Master\" (problem OR issue OR defect OR \"negative review\")",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Dreame%20X60%20Master%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
           "targetHost": "reddit.com"
         }
       ]
@@ -942,20 +942,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Dreame D30 Ultra CE\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Dreame%20D30%20Ultra%20CE%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Dreame%20D30%20Ultra%20CE%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"Dreame D30 Ultra CE\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22Dreame%20D30%20Ultra%20CE%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"Dreame D30 Ultra CE\" (problem OR issue OR defect OR \"negative review\")",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Dreame%20D30%20Ultra%20CE%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
           "targetHost": "reddit.com"
         }
       ]
@@ -974,7 +974,7 @@
       "currency": "TWD",
       "amount": 23888,
       "converted": 23888,
-      "confidence": "可信通路查核價"
+      "confidence": "PChome 2026-07-11 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL4UA900JA072/000001_1766479545.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBL4U-A900JA072",
@@ -1020,20 +1020,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Narwal Freo Z Ultra\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Narwal%20Freo%20Z%20Ultra%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Narwal%20Freo%20Z%20Ultra%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"Narwal Freo Z Ultra\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22Narwal%20Freo%20Z%20Ultra%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"Narwal Freo Z Ultra\" (problem OR issue OR defect OR \"negative review\")",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Narwal%20Freo%20Z%20Ultra%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
           "targetHost": "reddit.com"
         }
       ]
@@ -1098,20 +1098,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Narwal Flow 2\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Narwal%20Flow%202%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Narwal%20Flow%202%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"Narwal Flow 2\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22Narwal%20Flow%202%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"Narwal Flow 2\" (problem OR issue OR defect OR \"negative review\")",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Narwal%20Flow%202%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
           "targetHost": "reddit.com"
         }
       ]
@@ -1130,7 +1130,7 @@
       "currency": "USD",
       "amount": 553.09,
       "converted": 17746,
-      "confidence": "海外可信通路參考價；依 2026-07-11 匯率換算"
+      "confidence": "Geekbuying 2026-07-11 查核價；依 2026-07-11 匯率換算"
     },
     "image": "https://img.gkbcdn.com/p/2025-04-11/Narwal-Freo-Z10-Ultra-Robot-Vacuum-with-Base-Station-Gray-528438-0._w315_.jpg",
     "buyUrl": "https://www.geekbuying.com/item/Narwal-Freo-Z10-Ultra-Robot-Vacuum-with-Base-Station-Gray-528438.html",
@@ -1176,20 +1176,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Narwal Freo Z10 Ultra\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Narwal%20Freo%20Z10%20Ultra%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Narwal%20Freo%20Z10%20Ultra%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"Narwal Freo Z10 Ultra\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22Narwal%20Freo%20Z10%20Ultra%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"Narwal Freo Z10 Ultra\" (problem OR issue OR defect OR \"negative review\")",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Narwal%20Freo%20Z10%20Ultra%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
           "targetHost": "reddit.com"
         }
       ]
@@ -1392,7 +1392,7 @@
       "currency": "TWD",
       "amount": 16880,
       "converted": 16880,
-      "confidence": "可信通路查核價"
+      "confidence": "PChome 2026-07-11 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL0JA900ITF88/000001_1782803241.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBL0J-A900ITF88",
@@ -1438,20 +1438,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"iRobot Roomba Plus 405 Combo\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22iRobot%20Roomba%20Plus%20405%20Combo%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22iRobot%20Roomba%20Plus%20405%20Combo%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"iRobot Roomba Plus 405 Combo\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22iRobot%20Roomba%20Plus%20405%20Combo%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"iRobot Roomba Plus 405 Combo\" (problem OR issue OR defect OR \"negative review\")",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22iRobot%20Roomba%20Plus%20405%20Combo%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
           "targetHost": "reddit.com"
         }
       ]
@@ -1516,20 +1516,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"iRobot Roomba 205 Combo\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22iRobot%20Roomba%20205%20Combo%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22iRobot%20Roomba%20205%20Combo%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"iRobot Roomba 205 Combo\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22iRobot%20Roomba%20205%20Combo%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"iRobot Roomba 205 Combo\" (problem OR issue OR defect OR \"negative review\")",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22iRobot%20Roomba%20205%20Combo%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
           "targetHost": "reddit.com"
         }
       ]
@@ -1548,7 +1548,7 @@
       "currency": "TWD",
       "amount": 31990,
       "converted": 31990,
-      "confidence": "可信通路查核價"
+      "confidence": "PChome 2026-07-11 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL2DA900JOEN3/000001_1782120334.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBL2D-A900JOEN3",
@@ -1594,20 +1594,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"eufy Omni S2\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22eufy%20Omni%20S2%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22eufy%20Omni%20S2%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"eufy Omni S2\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22eufy%20Omni%20S2%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"eufy Omni S2\" (problem OR issue OR defect OR \"negative review\")",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22eufy%20Omni%20S2%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
           "targetHost": "reddit.com"
         }
       ]
@@ -1672,20 +1672,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"eufy Omni E25\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22eufy%20Omni%20E25%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22eufy%20Omni%20E25%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"eufy Omni E25\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22eufy%20Omni%20E25%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"eufy Omni E25\" (problem OR issue OR defect OR \"negative review\")",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22eufy%20Omni%20E25%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
           "targetHost": "reddit.com"
         }
       ]
@@ -1702,13 +1702,13 @@
     "name": "自清潔掃拖一體全能機器人",
     "price": {
       "currency": "TWD",
-      "amount": 13990,
-      "converted": 13990,
-      "confidence": "可信通路查核價"
+      "amount": 13291,
+      "converted": 13291,
+      "confidence": "Yahoo購物中心 2026-07-11 頁面查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL2DA900K13C9/000001_1782120164.jpg",
-    "buyUrl": "https://24h.pchome.com.tw/prod/DMBL2D-A900K13C9",
-    "buyLabel": "PChome",
+    "buyUrl": "https://tw.buy.yahoo.com/gdsale/eufy-Omni-C28-%E8%87%AA%E6%B8%85%E6%BD%94%E6%8E%83%E6%8B%96%E4%B8%80%E9%AB%94%E5%85%A8%E8%83%BD%E6%A9%9F%E5%99%A8%E4%BA%BA-%E9%BB%91-11990604.html",
+    "buyLabel": "Yahoo購物中心",
     "specs": [
       "自清潔基站",
       "掃拖一體",
@@ -1750,20 +1750,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"eufy Omni C28\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22eufy%20Omni%20C28%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22eufy%20Omni%20C28%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"eufy Omni C28\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22eufy%20Omni%20C28%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"eufy Omni C28\" (problem OR issue OR defect OR \"negative review\")",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22eufy%20Omni%20C28%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
           "targetHost": "reddit.com"
         }
       ]
@@ -1782,7 +1782,7 @@
       "currency": "TWD",
       "amount": 26980,
       "converted": 26980,
-      "confidence": "可信通路查核價"
+      "confidence": "PChome 2026-07-11 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL5WA900JXBY3/000001_1776393356.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBL5W-A900JXBY3",
@@ -1828,20 +1828,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"MOVA S70 Ultra Roller\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22MOVA%20S70%20Ultra%20Roller%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22MOVA%20S70%20Ultra%20Roller%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"MOVA S70 Ultra Roller\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22MOVA%20S70%20Ultra%20Roller%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"MOVA S70 Ultra Roller\" (problem OR issue OR defect OR \"negative review\")",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22MOVA%20S70%20Ultra%20Roller%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
           "targetHost": "reddit.com"
         }
       ]
@@ -1860,7 +1860,7 @@
       "currency": "TWD",
       "amount": 15990,
       "converted": 15990,
-      "confidence": "可信通路查核價"
+      "confidence": "PChome 2026-07-11 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL5WA900K13VT/000001_1779264098.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBL5W-A900K13VT",
@@ -1906,20 +1906,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"MOVA S70 Roller\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22MOVA%20S70%20Roller%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22MOVA%20S70%20Roller%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"MOVA S70 Roller\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22MOVA%20S70%20Roller%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"MOVA S70 Roller\" (problem OR issue OR defect OR \"negative review\")",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22MOVA%20S70%20Roller%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
           "targetHost": "reddit.com"
         }
       ]
@@ -1938,7 +1938,7 @@
       "currency": "TWD",
       "amount": 13490,
       "converted": 13490,
-      "confidence": "可信通路查核價"
+      "confidence": "PChome 2026-07-11 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBM2ZA900IUC17/000001_1778123320.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBM2Z-A900IUC17",
@@ -1984,20 +1984,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"LG R5-ULTIMATE1\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22LG%20R5-ULTIMATE1%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22LG%20R5-ULTIMATE1%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"LG R5-ULTIMATE1\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22LG%20R5-ULTIMATE1%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"LG R5-ULTIMATE1\" (problem OR issue OR defect OR \"negative review\")",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22LG%20R5-ULTIMATE1%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
           "targetHost": "reddit.com"
         }
       ]
@@ -2014,13 +2014,13 @@
     "name": "R5 變頻濕拖掃地機器人",
     "price": {
       "currency": "TWD",
-      "amount": 9490,
-      "converted": 9490,
-      "confidence": "可信通路查核價"
+      "amount": 7999,
+      "converted": 7999,
+      "confidence": "Yahoo購物中心 2026-07-11 頁面查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBM2ZA900IUC1E/000001_1768835646.jpg",
-    "buyUrl": "https://24h.pchome.com.tw/prod/DMBM2Z-A900IUC1E",
-    "buyLabel": "PChome",
+    "buyUrl": "https://tw.buy.yahoo.com/gdsale/gdsale.asp?gdid=p0214265457626",
+    "buyLabel": "Yahoo購物中心",
     "specs": [
       "變頻濕拖",
       "掃地機器人",
@@ -2062,20 +2062,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"LG R5-PROPLUS1\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22LG%20R5-PROPLUS1%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22LG%20R5-PROPLUS1%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"LG R5-PROPLUS1\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22LG%20R5-PROPLUS1%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"LG R5-PROPLUS1\" (problem OR issue OR defect OR \"negative review\")",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22LG%20R5-PROPLUS1%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
           "targetHost": "reddit.com"
         }
       ]
@@ -2140,20 +2140,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Shark PowerDetect NeverTouch Pro RV2820ZE\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Shark%20PowerDetect%20NeverTouch%20Pro%20RV2820ZE%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Shark%20PowerDetect%20NeverTouch%20Pro%20RV2820ZE%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"Shark PowerDetect NeverTouch Pro RV2820ZE\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22Shark%20PowerDetect%20NeverTouch%20Pro%20RV2820ZE%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"Shark PowerDetect NeverTouch Pro RV2820ZE\" (problem OR issue OR defect OR \"negative review\")",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Shark%20PowerDetect%20NeverTouch%20Pro%20RV2820ZE%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
           "targetHost": "reddit.com"
         }
       ]
@@ -2170,12 +2170,12 @@
     "name": "AI 汙漬偵測濕乾掃拖機器人",
     "price": {
       "currency": "USD",
-      "amount": 1199,
-      "converted": 38470,
-      "confidence": "海外可信通路參考價；依 2026-07-11 匯率換算"
+      "amount": 849.99,
+      "converted": 27272,
+      "confidence": "Dyson US 2026-07-11 查核價；依 2026-07-11 匯率換算"
     },
     "image": "https://dyson-h.assetsadobe2.com/is/image/content/dam/dyson/products/home/floorcare/robot/spot-scrub-ai/rcc/Web-804A-Category-Page-Module1.jpg?$responsive$&fmt=pjpeg&wid=640",
-    "buyUrl": "https://www.dyson.com/vacuum-cleaners/robot/spot-scrub-ai",
+    "buyUrl": "https://www.dyson.com/vacuum-cleaners/robot/spot-scrub-ai/black",
     "buyLabel": "Dyson US",
     "specs": [
       "18000Pa",
@@ -2218,20 +2218,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Dyson Spot+Scrub Ai\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Dyson%20Spot%2BScrub%20Ai%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Dyson%20Spot%2BScrub%20Ai%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"Dyson Spot+Scrub Ai\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22Dyson%20Spot%2BScrub%20Ai%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"Dyson Spot+Scrub Ai\" (problem OR issue OR defect OR \"negative review\")",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Dyson%20Spot%2BScrub%20Ai%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
           "targetHost": "reddit.com"
         }
       ]
@@ -2250,7 +2250,7 @@
       "currency": "USD",
       "amount": 399.99,
       "converted": 12834,
-      "confidence": "Costco US 2026-07-09 參考價，TWD 依 2026-07-11 匯率換算"
+      "confidence": "Costco US 2026-07-11 查核價；依 2026-07-11 匯率換算"
     },
     "image": "https://bfasset.costco-static.com/U447IH35/as/tkj772p4357mmh3bwz8kcq/1791272-847__1?auto=webp&format=jpg",
     "buyUrl": "https://www.costco.com/roborock-qx-revo-robot-vacuum-and-mop-with-multifunctional-dock.product.4000233271.html",
@@ -2332,7 +2332,7 @@
       "currency": "TWD",
       "amount": 9889,
       "converted": 9889,
-      "confidence": "Costco 好市多 2026-07-09 查核價"
+      "confidence": "Costco 好市多 2026-07-11 頁面查核價"
     },
     "image": "https://www.costco.com.tw/medias/sys_master/images/h21/heb/400747429363742.jpg",
     "buyUrl": "https://www.costco.com.tw/Televisions-Appliances/Small-Appliances/Vacuums-Floor-Care/Eufy-3-in-1-Robot-Vacuum-E20/p/157135",
@@ -2381,20 +2381,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"eufy E20\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22eufy%20E20%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22eufy%20E20%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"eufy E20\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22eufy%20E20%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"eufy E20\" (problem OR issue OR defect OR \"negative review\")",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22eufy%20E20%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
           "targetHost": "reddit.com"
         }
       ]
@@ -2413,11 +2413,11 @@
       "currency": "TWD",
       "amount": 22800,
       "converted": 22800,
-      "confidence": "Yahoo 購物中心 2026-07-11 頁面低價查核"
+      "confidence": "Yahoo購物中心 2026-07-11 頁面查核價"
     },
     "image": "https://img.yec.tw/zp/MerchandiseImages/5A801ABE6A-SP-22823743.jpg",
-    "buyUrl": "https://tw.buy.yahoo.com/gdsale/小米-Xiaomi-掃拖機器人-6-Max-官方旗艦館-12134974.html",
-    "buyLabel": "Yahoo購物",
+    "buyUrl": "https://tw.buy.yahoo.com/gdsale/%E5%B0%8F%E7%B1%B3-Xiaomi-%E6%8E%83%E6%8B%96%E6%A9%9F%E5%99%A8%E4%BA%BA-6-Max-%E5%AE%98%E6%96%B9%E6%97%97%E8%89%A6%E9%A4%A8-12134974.html",
+    "buyLabel": "Yahoo購物中心",
     "specs": [
       "35,000Pa 吸力",
       "滾刷活水洗地、貼邊拖布與外擴邊刷",
@@ -2471,14 +2471,14 @@
       "checkedSources": [
         {
           "platform": "Mobile01",
-          "query": "site:mobile01.com \"Xiaomi Robot Vacuum 6 Max\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Xiaomi%20Robot%20Vacuum%206%20Max%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "query": "site:mobile01.com \"Xiaomi 6 Max\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Xiaomi%206%20Max%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"Xiaomi Robot Vacuum 6 Max\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22Xiaomi%20Robot%20Vacuum%206%20Max%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"Xiaomi 6 Max\" (problem OR issue OR defect OR \"negative review\")",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Xiaomi%206%20Max%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
           "targetHost": "reddit.com"
         }
       ]
@@ -2639,14 +2639,14 @@
       "checkedSources": [
         {
           "platform": "Mobile01",
-          "query": "site:mobile01.com \"ECOVACS DEEBOT X12 PRO OMNI\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22ECOVACS%20DEEBOT%20X12%20PRO%20OMNI%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "query": "site:mobile01.com \"Ecovacs DEEBOT X12 PRO OMNI\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Ecovacs%20DEEBOT%20X12%20PRO%20OMNI%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"ECOVACS DEEBOT X12 PRO OMNI\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22ECOVACS%20DEEBOT%20X12%20PRO%20OMNI%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"Ecovacs DEEBOT X12 PRO OMNI\" (problem OR issue OR defect OR \"negative review\")",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Ecovacs%20DEEBOT%20X12%20PRO%20OMNI%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
           "targetHost": "reddit.com"
         }
       ]
@@ -2665,11 +2665,11 @@
       "currency": "TWD",
       "amount": 10450,
       "converted": 10450,
-      "confidence": "Yahoo 購物中心 2026-07-11 頁面低價查核"
+      "confidence": "Yahoo購物中心 2026-07-11 頁面查核價"
     },
     "image": "https://img.yec.tw/zp/MerchandiseImages/DBA14833A1-SP-22450109.jpg",
-    "buyUrl": "https://tw.buy.yahoo.com/gdsale/小米-Xiaomi-掃拖機器人-H50-Pro-12052496.html",
-    "buyLabel": "Yahoo購物",
+    "buyUrl": "https://tw.buy.yahoo.com/gdsale/%E5%B0%8F%E7%B1%B3-Xiaomi-%E6%8E%83%E6%8B%96%E6%A9%9F%E5%99%A8%E4%BA%BA-H50-Pro-12052496.html",
+    "buyLabel": "Yahoo購物中心",
     "specs": [
       "15,000Pa 吸力",
       "掃／拖雙機械臂；主刷與邊刷雙抗纏繞",

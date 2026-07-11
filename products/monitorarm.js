@@ -68,20 +68,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Raymii LS-116-M1\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Raymii%20LS-116-M1%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Raymii%20LS-116-M1%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"Raymii LS-116-M1\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22Raymii%20LS-116-M1%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"Raymii LS-116-M1\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Raymii%20LS-116-M1%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
           "targetHost": "reddit.com"
         }
       ]
@@ -149,20 +149,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Raymii LS-104-M1\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Raymii%20LS-104-M1%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Raymii%20LS-104-M1%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"Raymii LS-104-M1\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22Raymii%20LS-104-M1%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"Raymii LS-104-M1\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Raymii%20LS-104-M1%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
           "targetHost": "reddit.com"
         }
       ]
@@ -230,20 +230,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Raymii HALO-MAX2-1M\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Raymii%20HALO-MAX2-1M%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Raymii%20HALO-MAX2-1M%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"Raymii HALO-MAX2-1M\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22Raymii%20HALO-MAX2-1M%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"Raymii HALO-MAX2-1M\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Raymii%20HALO-MAX2-1M%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
           "targetHost": "reddit.com"
         }
       ]
@@ -260,13 +260,13 @@
     "name": "27KG 57 吋鋁合金氣壓式螢幕支架",
     "price": {
       "currency": "TWD",
-      "amount": 3099,
-      "converted": 3099,
-      "confidence": "可信通路查核價"
+      "amount": 2634,
+      "converted": 2634,
+      "confidence": "momo購物 2026-07-11 頁面查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DCBB69A900INQG2/000001_1745485048.jpg",
-    "buyUrl": "https://24h.pchome.com.tw/prod/DCBB69-A900INQG2",
-    "buyLabel": "PChome",
+    "buyUrl": "https://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=13989541",
+    "buyLabel": "momo購物",
     "specs": [
       "支援 24-57 吋",
       "承重 2-27kg",
@@ -298,33 +298,33 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 3099,
+      "amount": 2634,
       "currency": "TWD",
-      "converted": 3099,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1250469732&cgp=3099",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：Happy Tech 快樂科技 T101-12U 27KG 57吋鋁合金氣壓式螢幕支架 USB3.0+Type C液晶電腦螢幕架",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「PCHome購物 / Happy Tech 快樂科技 T101-12U 27KG 57吋鋁合金氣壓式螢幕支架 USB3.0+Type C液晶電腦螢幕架」最低價為 NT$3,099，最低點日期 2026-07-09。",
-      "sourceKind": "price_history",
-      "confidence": "medium",
-      "checkedAt": "2026-07-09",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+      "converted": 2634,
+      "sourceUrl": "https://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=13989541",
+      "sourceTitle": "momo購物 商品頁：【Happytech】T101-12U 27KG 57吋鋁合金氣壓式螢幕支架 USB3.0+Type C液晶電腦螢幕架(單向軸承)",
+      "evidenceSnippet": "momo購物 原始商品頁／API 於 2026-07-11 顯示同型號新品公開價 2634 TWD，低於既有可驗證史低。",
+      "sourceKind": "retailer_page",
+      "confidence": "high",
+      "checkedAt": "2026-07-11",
+      "note": "採用同型號、同尺寸／容量／規格的可信新品公開價；排除會員個人化折扣、信用卡回饋、點數、二手、福利品、展示、拆封與整新品。"
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Happy Tech T101-12U\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Happy%20Tech%20T101-12U%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Happy%20Tech%20T101-12U%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"Happy Tech T101-12U\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22Happy%20Tech%20T101-12U%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"Happy Tech T101-12U\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Happy%20Tech%20T101-12U%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
           "targetHost": "reddit.com"
         }
       ]
@@ -392,20 +392,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Raymii LS-129-M1\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Raymii%20LS-129-M1%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Raymii%20LS-129-M1%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"Raymii LS-129-M1\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22Raymii%20LS-129-M1%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"Raymii LS-129-M1\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Raymii%20LS-129-M1%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
           "targetHost": "reddit.com"
         }
       ]
@@ -422,12 +422,12 @@
     "name": "DELTA-S 20KG 49 吋高承重氣壓式螢幕支架",
     "price": {
       "currency": "TWD",
-      "amount": 1784,
-      "converted": 1784,
-      "confidence": "PChome 2026-07-10 API 查核價"
+      "amount": 2249,
+      "converted": 2249,
+      "confidence": "PChome 2026-07-11 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DCAGRJA900JS174/000001_1772508775.jpg",
-    "buyUrl": "https://24h.pchome.com.tw/prod/DCAGRJ-A900JS174",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DCAGTU-A900JXNXN",
     "buyLabel": "PChome",
     "specs": [
       "支援 49 吋級距",
@@ -473,20 +473,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Raymii LS-118-M1\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Raymii%20LS-118-M1%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Raymii%20LS-118-M1%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"Raymii LS-118-M1\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22Raymii%20LS-118-M1%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"Raymii LS-118-M1\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Raymii%20LS-118-M1%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
           "targetHost": "reddit.com"
         }
       ]
@@ -554,20 +554,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Raymii LS-114-S1\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Raymii%20LS-114-S1%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Raymii%20LS-114-S1%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"Raymii LS-114-S1\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22Raymii%20LS-114-S1%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"Raymii LS-114-S1\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Raymii%20LS-114-S1%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
           "targetHost": "reddit.com"
         }
       ]
@@ -635,20 +635,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Raymii LS-114-EX-M1\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Raymii%20LS-114-EX-M1%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Raymii%20LS-114-EX-M1%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"Raymii LS-114-EX-M1\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22Raymii%20LS-114-EX-M1%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"Raymii LS-114-EX-M1\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Raymii%20LS-114-EX-M1%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
           "targetHost": "reddit.com"
         }
       ]
@@ -667,7 +667,7 @@
       "currency": "TWD",
       "amount": 1499,
       "converted": 1499,
-      "confidence": "可信通路查核價"
+      "confidence": "PChome 2026-07-11 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DCBB69A900IHPC0/000001_1742812418.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DCBB69-A900IHPC0",
@@ -716,20 +716,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Happy Tech TC92-10\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Happy%20Tech%20TC92-10%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Happy%20Tech%20TC92-10%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"Happy Tech TC92-10\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22Happy%20Tech%20TC92-10%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"Happy Tech TC92-10\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Happy%20Tech%20TC92-10%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
           "targetHost": "reddit.com"
         }
       ]
@@ -797,20 +797,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"TDGB T95-GAMW\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22TDGB%20T95-GAMW%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22TDGB%20T95-GAMW%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"TDGB T95-GAMW\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22TDGB%20T95-GAMW%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"TDGB T95-GAMW\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22TDGB%20T95-GAMW%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
           "targetHost": "reddit.com"
         }
       ]
@@ -829,7 +829,7 @@
       "currency": "TWD",
       "amount": 3499,
       "converted": 3499,
-      "confidence": "可信通路查核價"
+      "confidence": "PChome 2026-07-11 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DSBC1TA900HSZYL/000001_1727240766.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DSBC1T-A900HSZYL",
@@ -878,20 +878,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Loctek D7H / DLB511L\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Loctek%20D7H%20%2F%20DLB511L%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Loctek%20D7H%20%2F%20DLB511L%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"Loctek D7H / DLB511L\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22Loctek%20D7H%20%2F%20DLB511L%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"Loctek D7H / DLB511L\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Loctek%20D7H%20%2F%20DLB511L%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
           "targetHost": "reddit.com"
         }
       ]
@@ -908,13 +908,13 @@
     "name": "LX Pro 桌上型單螢幕支架",
     "price": {
       "currency": "TWD",
-      "amount": 6500,
-      "converted": 6500,
-      "confidence": "可信通路查核價"
+      "amount": 6800,
+      "converted": 6800,
+      "confidence": "momo購物 2026-07-11 頁面查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DGBJPWA900IO3XY/000001_1745568644.jpg",
-    "buyUrl": "https://24h.pchome.com.tw/prod/DGBJPW-A900IO3XY",
-    "buyLabel": "PChome",
+    "buyUrl": "https://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=15317771",
+    "buyLabel": "momo購物",
     "specs": [
       "單螢幕支架",
       "LX 系列升級款",
@@ -959,20 +959,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Ergotron LX Pro\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Ergotron%20LX%20Pro%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Ergotron%20LX%20Pro%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"Ergotron LX Pro\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22Ergotron%20LX%20Pro%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"Ergotron LX Pro\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Ergotron%20LX%20Pro%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
           "targetHost": "reddit.com"
         }
       ]
@@ -989,13 +989,13 @@
     "name": "17-32 吋 8KG 氣壓式舒適螢幕懸臂支架",
     "price": {
       "currency": "TWD",
-      "amount": 1990,
-      "converted": 1990,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 1472,
+      "converted": 1472,
+      "confidence": "momo購物 2026-07-11 頁面查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DCAX3NA900HNTHZ/000001_1724123200.jpg",
-    "buyUrl": "https://24h.pchome.com.tw/prod/DCAX3N-A900HNTHZ",
-    "buyLabel": "PChome",
+    "buyUrl": "https://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=13335412",
+    "buyLabel": "momo購物",
     "specs": [
       "支援 17-32 吋",
       "承重 8kg",
@@ -1027,33 +1027,33 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 1751,
+      "amount": 1472,
       "currency": "TWD",
-      "converted": 1751,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1227651069&cgp=1990",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：j5create 氣壓式舒適螢幕懸臂支架 氣壓式彈簧設計/適用17-32吋VESA螢幕/符合人體工學 JTSA101",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「PCHome購物 / j5create 氣壓式舒適螢幕懸臂支架 氣壓式彈簧設計/適用17-32吋VESA螢幕/符合人體工學 JTSA101」最低價為 NT$1,751，最低點日期 2024-08-01。",
-      "sourceKind": "price_history",
+      "converted": 1472,
+      "sourceUrl": "https://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=13335412",
+      "sourceTitle": "momo購物 商品頁：【j5create 凱捷】氣壓式舒適螢幕懸臂支架-JTSA101",
+      "evidenceSnippet": "momo購物 原始商品頁／API 於 2026-07-11 顯示同型號新品公開價 1472 TWD，低於既有可驗證史低。",
+      "sourceKind": "retailer_page",
       "confidence": "high",
-      "checkedAt": "2026-07-09",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+      "checkedAt": "2026-07-11",
+      "note": "採用同型號、同尺寸／容量／規格的可信新品公開價；排除會員個人化折扣、信用卡回饋、點數、二手、福利品、展示、拆封與整新品。"
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"j5create JTSA101\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22j5create%20JTSA101%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22j5create%20JTSA101%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"j5create JTSA101\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22j5create%20JTSA101%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"j5create JTSA101\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22j5create%20JTSA101%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
           "targetHost": "reddit.com"
         }
       ]
@@ -1070,13 +1070,13 @@
     "name": "17-32 吋 8KG/臂 雙螢幕氣壓式懸臂支架",
     "price": {
       "currency": "TWD",
-      "amount": 2990,
-      "converted": 2990,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 2062,
+      "converted": 2062,
+      "confidence": "momo購物 2026-07-11 頁面查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DCAX3NA900HNTEF/000001_1724123227.jpg",
-    "buyUrl": "https://24h.pchome.com.tw/prod/DCAX3N-A900HNTEF",
-    "buyLabel": "PChome",
+    "buyUrl": "https://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=13335413",
+    "buyLabel": "momo購物",
     "specs": [
       "雙螢幕",
       "每臂承重 8kg",
@@ -1108,33 +1108,33 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 2631,
+      "amount": 2062,
       "currency": "TWD",
-      "converted": 2631,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1227376641&cgp=2990",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：j5create 氣壓式舒適雙螢幕懸臂支架 氣壓式彈簧設計/適用17-32吋VESA螢幕/符合人體工學 JTSA102",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「PCHome購物 / j5create 氣壓式舒適雙螢幕懸臂支架 氣壓式彈簧設計/適用17-32吋VESA螢幕/符合人體工學 JTSA102」最低價為 NT$2,631，最低點日期 2024-08-01。",
-      "sourceKind": "price_history",
+      "converted": 2062,
+      "sourceUrl": "https://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=13335413",
+      "sourceTitle": "momo購物 商品頁：【j5create 凱捷】氣壓式舒適雙螢幕懸臂支架-JTSA102",
+      "evidenceSnippet": "momo購物 原始商品頁／API 於 2026-07-11 顯示同型號新品公開價 2062 TWD，低於既有可驗證史低。",
+      "sourceKind": "retailer_page",
       "confidence": "high",
-      "checkedAt": "2026-07-09",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+      "checkedAt": "2026-07-11",
+      "note": "採用同型號、同尺寸／容量／規格的可信新品公開價；排除會員個人化折扣、信用卡回饋、點數、二手、福利品、展示、拆封與整新品。"
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"j5create JTSA102\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22j5create%20JTSA102%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22j5create%20JTSA102%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"j5create JTSA102\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22j5create%20JTSA102%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"j5create JTSA102\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22j5create%20JTSA102%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
           "targetHost": "reddit.com"
         }
       ]
@@ -1151,13 +1151,13 @@
     "name": "17-32 吋 2-9KG 人體工學螢幕支架",
     "price": {
       "currency": "TWD",
-      "amount": 999,
-      "converted": 999,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 790,
+      "converted": 790,
+      "confidence": "Yahoo購物中心 2026-07-11 頁面查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DCAGQ5A900JUC1W/000001_1774344481.jpg",
-    "buyUrl": "https://24h.pchome.com.tw/prod/DCAGQ5-A900JUC1W",
-    "buyLabel": "PChome",
+    "buyUrl": "https://tw.buy.yahoo.com/gdsale/%E6%A8%82%E6%AD%8CLoctek-%E4%BA%BA%E9%AB%94%E5%B7%A5%E5%AD%B8-%E8%9E%A2%E5%B9%95%E6%94%AF%E6%9E%B6D5S-12033991.html",
+    "buyLabel": "Yahoo購物中心",
     "specs": [
       "支援 17-32 吋",
       "承重 2-9kg",
@@ -1202,20 +1202,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Loctek D5S\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Loctek%20D5S%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Loctek%20D5S%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"Loctek D5S\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22Loctek%20D5S%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"Loctek D5S\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Loctek%20D5S%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
           "targetHost": "reddit.com"
         }
       ]
@@ -1232,8 +1232,8 @@
     "name": "45吋 20KG 氣壓式螢幕支架",
     "price": {
       "currency": "TWD",
-      "amount": 3490,
-      "converted": 3490,
+      "amount": 3250,
+      "converted": 3250,
       "confidence": "PChome 2026-07-11 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DCAGU1A900I6WCY/000001_1754374453.jpg",
@@ -1280,20 +1280,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"BenQ BSH01\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22BenQ%20BSH01%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22BenQ%20BSH01%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"BenQ BSH01\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22BenQ%20BSH01%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"BenQ BSH01\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22BenQ%20BSH01%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
           "targetHost": "reddit.com"
         }
       ]
@@ -1310,8 +1310,8 @@
     "name": "35吋 20KG 雙臂氣壓式螢幕支架",
     "price": {
       "currency": "TWD",
-      "amount": 5990,
-      "converted": 5990,
+      "amount": 5750,
+      "converted": 5750,
       "confidence": "PChome 2026-07-11 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DCAGU1A900IX2MD/000001_1749518938.jpg",
@@ -1358,20 +1358,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"BenQ BDH01\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22BenQ%20BDH01%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22BenQ%20BDH01%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"BenQ BDH01\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22BenQ%20BDH01%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"BenQ BDH01\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22BenQ%20BDH01%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
           "targetHost": "reddit.com"
         }
       ]
@@ -1388,8 +1388,8 @@
     "name": "台灣製氣壓式螢幕支架加長桿組",
     "price": {
       "currency": "TWD",
-      "amount": 4780,
-      "converted": 4780,
+      "amount": 4540,
+      "converted": 4540,
       "confidence": "PChome 2026-07-11 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABN2A900GINEE/000001_1690179981.jpg",
@@ -1436,20 +1436,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"LINDY 40693+40940\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22LINDY%2040693%2B40940%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22LINDY%2040693%2B40940%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"LINDY 40693+40940\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22LINDY%2040693%2B40940%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"LINDY 40693+40940\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22LINDY%2040693%2B40940%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
           "targetHost": "reddit.com"
         }
       ]
@@ -1468,7 +1468,7 @@
       "currency": "TWD",
       "amount": 4288,
       "converted": 4288,
-      "confidence": "可信通路查核價，擷取 2026-07-09"
+      "confidence": "PChome 2026-07-11 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DPADYKA900B0UWS/000001_1722844563.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DPADYK-A900B0UWS",
@@ -1514,20 +1514,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"EGTC EGTC743Q\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22EGTC%20EGTC743Q%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22EGTC%20EGTC743Q%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"EGTC EGTC743Q\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22EGTC%20EGTC743Q%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"EGTC EGTC743Q\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22EGTC%20EGTC743Q%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
           "targetHost": "reddit.com"
         }
       ]
@@ -1544,13 +1544,13 @@
     "name": "17-35吋 10KG 氣壓懸臂式螢幕支架",
     "price": {
       "currency": "TWD",
-      "amount": 1190,
-      "converted": 1190,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 850,
+      "converted": 850,
+      "confidence": "momo購物 2026-07-11 頁面查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DCBAKFA900HAFJO/000001_1709791102.jpg",
-    "buyUrl": "https://24h.pchome.com.tw/prod/DCBAKF-A900HAFJO",
-    "buyLabel": "PChome",
+    "buyUrl": "https://www.momoshop.com.tw/TP/TP0005046/goodsDetail/TP00050460002358",
+    "buyLabel": "momo購物",
     "specs": [
       "17-35吋",
       "承重 10kg",
@@ -1579,33 +1579,33 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 1070,
+      "amount": 850,
       "currency": "TWD",
-      "converted": 1070,
-      "sourceUrl": "https://24h.pchome.com.tw/prod/DCBAKF-A900HAFJO",
-      "sourceTitle": "PChome 商品頁：【易控王】ZENO M10 氣壓懸臂式桌上螢幕支架 17-35吋 承重10KG 曲面螢幕可用(10-347-02) / 【易控王】ZENO M10 氣壓懸臂式桌上螢幕支架 17-35吋 承重10KG 曲面螢幕可用(10-347-02)",
-      "evidenceSnippet": "PChome 商品 API 於 2026-07-10 回傳同一商品頁「【易控王】ZENO M10 氣壓懸臂式桌上螢幕支架 17-35吋 承重10KG 曲面螢幕可用(10-347-02) / 【易控王】ZENO M10 氣壓懸臂式桌上螢幕支架 17-35吋 承重10KG 曲面螢幕可用(10-347-02)」查核價 NT$1,070，低於原先記錄史低。",
+      "converted": 850,
+      "sourceUrl": "https://www.momoshop.com.tw/TP/TP0005046/goodsDetail/TP00050460002358",
+      "sourceTitle": "momo購物 商品頁：ZENO M10 氣壓懸臂式桌上螢幕支架 17-35吋 承重10KG 曲面螢幕可用(10-347-02)",
+      "evidenceSnippet": "momo購物 原始商品頁／API 於 2026-07-11 顯示同型號新品公開價 850 TWD，低於既有可驗證史低。",
       "sourceKind": "retailer_page",
-      "confidence": "medium",
-      "checkedAt": "2026-07-10",
-      "note": "採用 PChome 24h 同一商品頁可公開查核現價作為本次觀測到的最低價；同型號/規格並排除會員個人化折扣、信用卡回饋、點數、二手、福利品、展示機、箱損、拆封與整新品。"
+      "confidence": "high",
+      "checkedAt": "2026-07-11",
+      "note": "採用同型號、同尺寸／容量／規格的可信新品公開價；排除會員個人化折扣、信用卡回饋、點數、二手、福利品、展示、拆封與整新品。"
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"易控王 ZENO M10\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22%E6%98%93%E6%8E%A7%E7%8E%8B%20ZENO%20M10%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22%E6%98%93%E6%8E%A7%E7%8E%8B%20ZENO%20M10%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"易控王 ZENO M10\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22%E6%98%93%E6%8E%A7%E7%8E%8B%20ZENO%20M10%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"易控王 ZENO M10\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22%E6%98%93%E6%8E%A7%E7%8E%8B%20ZENO%20M10%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
           "targetHost": "reddit.com"
         }
       ]
@@ -1624,7 +1624,7 @@
       "currency": "TWD",
       "amount": 825,
       "converted": 825,
-      "confidence": "Costco 好市多 2026-07-09 查核價"
+      "confidence": "Costco 好市多 2026-07-11 頁面查核價"
     },
     "image": "https://www.costco.com.tw/medias/sys_master/images/hde/h28/102012466561054.jpg",
     "buyUrl": "https://www.costco.com.tw/Digital-Mobile/Laptops-Computers/Keyboards-Mice-Computer-Accessories/IRIS-OHYAMA-Monitor-Arm-Clamp-Type-DA-4550/p/135869",
@@ -1671,20 +1671,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"IRIS OHYAMA DA-4550\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22IRIS%20OHYAMA%20DA-4550%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22IRIS%20OHYAMA%20DA-4550%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"IRIS OHYAMA DA-4550\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22IRIS%20OHYAMA%20DA-4550%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"IRIS OHYAMA DA-4550\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22IRIS%20OHYAMA%20DA-4550%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
           "targetHost": "reddit.com"
         }
       ]

@@ -29,14 +29,20 @@ function loadPlaywright() {
     if (fullMode) {
       await runExhaustiveViewport(browser, "dashboard-wide-desktop", { width: 2048, height: 1152 });
       await runExhaustiveViewport(browser, "dashboard-desktop", { width: 1440, height: 1100 });
-      await runExhaustiveViewport(browser, "dashboard-narrow-desktop", { width: 1120, height: 1000 });
-      await runExhaustiveViewport(browser, "dashboard-tablet", { width: 1180, height: 1000 });
       await runExhaustiveViewport(browser, "dashboard-mobile", { width: 390, height: 844 });
+      await runSmokeViewport(browser, "dashboard-minimum-mobile", { width: 320, height: 568 });
+      await runSmokeViewport(browser, "dashboard-mobile-breakpoint", { width: 620, height: 900 });
+      await runSmokeViewport(browser, "dashboard-post-mobile-breakpoint", { width: 621, height: 900 });
+      await runSmokeViewport(browser, "dashboard-tablet", { width: 768, height: 1024 });
+      await runSmokeViewport(browser, "dashboard-compact-toolbar", { width: 1080, height: 900 });
+      await runSmokeViewport(browser, "dashboard-full-toolbar", { width: 1081, height: 900 });
     } else {
       await runSmokeViewport(browser, "dashboard-wide-desktop", { width: 2048, height: 1152 });
       await runDesktopJourney(browser);
-      await runSmokeViewport(browser, "dashboard-narrow-desktop", { width: 1120, height: 1000 });
-      await runSmokeViewport(browser, "dashboard-tablet", { width: 1180, height: 1000 });
+      await runSmokeViewport(browser, "dashboard-mobile-breakpoint", { width: 620, height: 900 });
+      await runSmokeViewport(browser, "dashboard-post-mobile-breakpoint", { width: 621, height: 900 });
+      await runSmokeViewport(browser, "dashboard-compact-toolbar", { width: 1080, height: 900 });
+      await runSmokeViewport(browser, "dashboard-full-toolbar", { width: 1081, height: 900 });
       await runMobileJourney(browser);
     }
   } finally {

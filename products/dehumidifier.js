@@ -17,13 +17,13 @@
     "name": "16 公升高效型變頻除濕機",
     "price": {
       "currency": "TWD",
-      "amount": 16900,
-      "converted": 16900,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 13858,
+      "converted": 13858,
+      "confidence": "Yahoo購物中心 2026-07-11 頁面查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ3PA900J0L88/000001_1776323540.jpg",
-    "buyUrl": "https://24h.pchome.com.tw/prod/DMBQ3P-A900J0L88",
-    "buyLabel": "PChome",
+    "buyUrl": "https://tw.buy.yahoo.com/gdsale/Panasonic-%E5%9C%8B%E9%9A%9B%E7%89%8C-16L-nanoe%E6%B8%85%E6%B7%A8%E4%BA%8C%E5%90%88%E4%B8%80%E9%9B%99%E8%AE%8A%E9%A0%BB%E5%BE%AE%E9%9B%BB%E8%85%A6%E9%99%A4%E6%BF%95%E6%A9%9F-F-YV32NN-11666451.html",
+    "buyLabel": "Yahoo購物中心",
     "specs": [
       "16L 級",
       "變頻",
@@ -65,20 +65,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Panasonic F-YV32NN\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Panasonic%20F-YV32NN%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Panasonic%20F-YV32NN%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"Panasonic F-YV32NN\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22Panasonic%20F-YV32NN%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"Panasonic F-YV32NN\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Panasonic%20F-YV32NN%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
           "targetHost": "reddit.com"
         }
       ]
@@ -97,7 +97,7 @@
       "currency": "TWD",
       "amount": 20900,
       "converted": 20900,
-      "confidence": "可信通路查核價"
+      "confidence": "PChome 2026-07-11 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ4NA900JMY77/000001_1783337653.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBQ4N-A900JMY77",
@@ -143,20 +143,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"LG DE221MWE0\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22LG%20DE221MWE0%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22LG%20DE221MWE0%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"LG DE221MWE0\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22LG%20DE221MWE0%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"LG DE221MWE0\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22LG%20DE221MWE0%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
           "targetHost": "reddit.com"
         }
       ]
@@ -173,13 +173,13 @@
     "name": "22.5L 日製變頻空氣清淨除濕機",
     "price": {
       "currency": "TWD",
-      "amount": 27810,
-      "converted": 27810,
-      "confidence": "可信通路查核價"
+      "amount": 26116,
+      "converted": 26116,
+      "confidence": "Yahoo購物中心 2026-07-11 頁面查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ02A900JO0NA/000001_1769056503.jpg",
-    "buyUrl": "https://24h.pchome.com.tw/prod/DMBQ02-A900JO0NA",
-    "buyLabel": "PChome",
+    "buyUrl": "https://tw.buy.yahoo.com/gdsale/MITSUBISHI%E4%B8%89%E8%8F%B1-22L%E8%AE%8A%E9%A0%BB%E7%A9%BA%E6%B0%A3%E6%B8%85%E6%B7%A8%E9%99%A4%E6%BF%95%E6%A9%9F-MJ-EHV220KX-TW-11926713.html",
+    "buyLabel": "Yahoo購物中心",
     "specs": [
       "22.5L 級",
       "日製",
@@ -208,33 +208,33 @@
     "releaseDate": "2026",
     "historicalLow": {
       "status": "found",
-      "amount": 26265,
+      "amount": 26116,
       "currency": "TWD",
-      "converted": 26265,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1271828596&cgp=26265",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：MITSUBISHI三菱 日製22.5L 旗艦款HEAP空氣清淨變頻除濕機 MJ-EHV220KX-TW",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Yahoo購物中心 / MITSUBISHI三菱 日製22.5L 旗艦款HEAP空氣清淨變頻除濕機 MJ-EHV220KX-TW」最低價為 NT$26,265，最低點日期 2026-07-09。",
-      "sourceKind": "price_history",
+      "converted": 26116,
+      "sourceUrl": "https://tw.buy.yahoo.com/gdsale/MITSUBISHI%E4%B8%89%E8%8F%B1-22L%E8%AE%8A%E9%A0%BB%E7%A9%BA%E6%B0%A3%E6%B8%85%E6%B7%A8%E9%99%A4%E6%BF%95%E6%A9%9F-MJ-EHV220KX-TW-11926713.html",
+      "sourceTitle": "Yahoo購物中心 商品頁：MITSUBISHI三菱 22L變頻空氣清淨除濕機 MJ-EHV220KX-TW | 14.1L以上 | Yahoo購物中心",
+      "evidenceSnippet": "Yahoo購物中心 原始商品頁／API 於 2026-07-11 顯示同型號新品公開價 26116 TWD，低於既有可驗證史低。",
+      "sourceKind": "retailer_page",
       "confidence": "high",
-      "checkedAt": "2026-07-09",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+      "checkedAt": "2026-07-11",
+      "note": "採用同型號、同尺寸／容量／規格的可信新品公開價；排除會員個人化折扣、信用卡回饋、點數、二手、福利品、展示、拆封與整新品。"
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Mitsubishi MJ-EHV220KX-TW\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Mitsubishi%20MJ-EHV220KX-TW%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Mitsubishi%20MJ-EHV220KX-TW%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"Mitsubishi MJ-EHV220KX-TW\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22Mitsubishi%20MJ-EHV220KX-TW%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"Mitsubishi MJ-EHV220KX-TW\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Mitsubishi%20MJ-EHV220KX-TW%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
           "targetHost": "reddit.com"
         }
       ]
@@ -251,13 +251,13 @@
     "name": "19.6 公升 PuriCare 雙變頻除濕機",
     "price": {
       "currency": "TWD",
-      "amount": 21300,
-      "converted": 21300,
-      "confidence": "可信通路查核價"
+      "amount": 19765,
+      "converted": 19765,
+      "confidence": "Yahoo購物中心 2026-07-11 頁面查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ4OA900JX7GH/000001_1783563034.jpg",
-    "buyUrl": "https://24h.pchome.com.tw/prod/DMBQ4O-A900JX7GH",
-    "buyLabel": "PChome",
+    "buyUrl": "https://tw.buy.yahoo.com/gdsale/LG%E6%A8%82%E9%87%91-DD201MEE0-19-6%E5%85%AC%E5%8D%87-PuriCare-%E9%9B%99%E8%AE%8A%E9%A0%BB%E9%99%A4%E6%BF%95%E6%A9%9F-11884613.html",
+    "buyLabel": "Yahoo購物中心",
     "specs": [
       "19.6L 級",
       "雙變頻",
@@ -286,33 +286,33 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 19900,
+      "amount": 19765,
       "currency": "TWD",
-      "converted": 19900,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1271874265&cgp=19900",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：(店+)【LG 樂金】19.6公升 PuriCare 雙變頻除濕機 DD201MEE0",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / (店+)【LG 樂金】19.6公升 PuriCare 雙變頻除濕機 DD201MEE0」最低價為 NT$19,900，最低點日期 2026-07-09。",
-      "sourceKind": "price_history",
-      "confidence": "medium",
-      "checkedAt": "2026-07-09",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+      "converted": 19765,
+      "sourceUrl": "https://tw.buy.yahoo.com/gdsale/LG%E6%A8%82%E9%87%91-DD201MEE0-19-6%E5%85%AC%E5%8D%87-PuriCare-%E9%9B%99%E8%AE%8A%E9%A0%BB%E9%99%A4%E6%BF%95%E6%A9%9F-11884613.html",
+      "sourceTitle": "Yahoo購物中心 商品頁：LG樂金 DD201MEE0 19.6公升 PuriCare 雙變頻除濕機 | 14.1L以上 | Yahoo購物中心",
+      "evidenceSnippet": "Yahoo購物中心 原始商品頁／API 於 2026-07-11 顯示同型號新品公開價 19765 TWD，低於既有可驗證史低。",
+      "sourceKind": "retailer_page",
+      "confidence": "high",
+      "checkedAt": "2026-07-11",
+      "note": "採用同型號、同尺寸／容量／規格的可信新品公開價；排除會員個人化折扣、信用卡回饋、點數、二手、福利品、展示、拆封與整新品。"
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"LG DD201MEE0\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22LG%20DD201MEE0%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22LG%20DD201MEE0%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"LG DD201MEE0\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22LG%20DD201MEE0%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"LG DD201MEE0\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22LG%20DD201MEE0%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
           "targetHost": "reddit.com"
         }
       ]
@@ -331,7 +331,7 @@
       "currency": "TWD",
       "amount": 5690,
       "converted": 5690,
-      "confidence": "可信通路查核價"
+      "confidence": "PChome 2026-07-11 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ34A900HD2SP/000001_1767074559.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBQ34-A900HD2SP",
@@ -407,13 +407,13 @@
     "name": "16 公升變頻高效型除濕機磁石黑",
     "price": {
       "currency": "TWD",
-      "amount": 16800,
-      "converted": 16800,
-      "confidence": "可信通路查核價"
+      "amount": 16427,
+      "converted": 16427,
+      "confidence": "Yahoo購物中心 2026-07-11 頁面查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ4YA900IKOCC/000001_1744795213.jpg",
-    "buyUrl": "https://24h.pchome.com.tw/prod/DMBQ4Y-A900IKOCC",
-    "buyLabel": "PChome",
+    "buyUrl": "https://tw.buy.yahoo.com/gdsale/Panasonic-%E5%9C%8B%E9%9A%9B%E7%89%8C-16L-nanoe%E8%AE%8A%E9%A0%BB%E5%BE%AE%E9%9B%BB%E8%85%A6%E9%99%A4%E6%BF%95%E6%A9%9F-F-YV32NX-11427351.html",
+    "buyLabel": "Yahoo購物中心",
     "specs": [
       "16 公升",
       "變頻",
@@ -455,20 +455,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Panasonic F-YV32NXK\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Panasonic%20F-YV32NXK%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Panasonic%20F-YV32NXK%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"Panasonic F-YV32NXK\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22Panasonic%20F-YV32NXK%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"Panasonic F-YV32NXK\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Panasonic%20F-YV32NXK%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
           "targetHost": "reddit.com"
         }
       ]
@@ -485,13 +485,13 @@
     "name": "16 公升變頻高效型清淨除濕機",
     "price": {
       "currency": "TWD",
-      "amount": 20961,
-      "converted": 20961,
-      "confidence": "可信通路查核價"
+      "amount": 19330,
+      "converted": 19330,
+      "confidence": "Yahoo購物中心 2026-07-11 頁面查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ3PA900GTPHC/000001_1699597155.jpg",
-    "buyUrl": "https://24h.pchome.com.tw/prod/DMBQ3P-A900GTPHC",
-    "buyLabel": "PChome",
+    "buyUrl": "https://tw.buy.yahoo.com/gdsale/Panasonic-%E5%9C%8B%E9%9A%9B%E7%89%8C-16L-W-HEXS%E9%AB%98%E6%95%88%E5%BE%AE%E9%9B%BB%E8%85%A6%E9%99%A4%E6%BF%95%E6%A9%9F-F-YV32MH-10762034.html",
+    "buyLabel": "Yahoo購物中心",
     "specs": [
       "16 公升",
       "變頻",
@@ -533,20 +533,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Panasonic F-YV32MH\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Panasonic%20F-YV32MH%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Panasonic%20F-YV32MH%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"Panasonic F-YV32MH\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22Panasonic%20F-YV32MH%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"Panasonic F-YV32MH\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Panasonic%20F-YV32MH%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
           "targetHost": "reddit.com"
         }
       ]
@@ -563,13 +563,13 @@
     "name": "8 公升清淨除濕機",
     "price": {
       "currency": "TWD",
-      "amount": 13290,
-      "converted": 13290,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 10898,
+      "converted": 10898,
+      "confidence": "Yahoo購物中心 2026-07-11 頁面查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAU0FA900B1HPU/000001_1782813379.jpg",
-    "buyUrl": "https://24h.pchome.com.tw/prod/DMAU0F-A900B1HPU",
-    "buyLabel": "PChome",
+    "buyUrl": "https://tw.buy.yahoo.com/gdsale/Panasonic-%E5%9C%8B%E9%9A%9B%E7%89%8C-8L-HEPA%E6%B8%85%E6%B7%A8%E9%99%A4%E6%BF%95-7996517.html",
+    "buyLabel": "Yahoo購物中心",
     "specs": [
       "8 公升",
       "清淨除濕",
@@ -611,20 +611,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Panasonic F-Y16FH\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Panasonic%20F-Y16FH%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Panasonic%20F-Y16FH%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"Panasonic F-Y16FH\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22Panasonic%20F-Y16FH%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"Panasonic F-Y16FH\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Panasonic%20F-Y16FH%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
           "targetHost": "reddit.com"
         }
       ]
@@ -641,13 +641,13 @@
     "name": "9 公升除濕機",
     "price": {
       "currency": "TWD",
-      "amount": 9390,
-      "converted": 9390,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 7269,
+      "converted": 7269,
+      "confidence": "Yahoo購物中心 2026-07-11 頁面查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ00A900JB38A/000001_1776329911.jpg",
-    "buyUrl": "https://24h.pchome.com.tw/prod/DMBQ00-A900JB38A",
-    "buyLabel": "PChome",
+    "buyUrl": "https://tw.buy.yahoo.com/gdsale/Panasonic-%E5%9C%8B%E9%9A%9B%E7%89%8C-9L-nanoeX-%E9%99%A4%E6%BF%95%E6%A9%9F-F-Y18PN-11819123.html",
+    "buyLabel": "Yahoo購物中心",
     "specs": [
       "9 公升",
       "DC 低噪音馬達",
@@ -676,33 +676,33 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 8263,
+      "amount": 7269,
       "currency": "TWD",
-      "converted": 8263,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=612341877&cgp=8263",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：Panasonic 國際 F-Y18PN 9公升除濕機 神腦生活",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「蝦皮商城 - 神腦生活 Senaonline / Panasonic 國際 F-Y18PN 9公升除濕機 神腦生活」最低價為 NT$8,263，最低點日期 2026-07-09。",
-      "sourceKind": "price_history",
+      "converted": 7269,
+      "sourceUrl": "https://tw.buy.yahoo.com/gdsale/Panasonic-%E5%9C%8B%E9%9A%9B%E7%89%8C-9L-nanoeX-%E9%99%A4%E6%BF%95%E6%A9%9F-F-Y18PN-11819123.html",
+      "sourceTitle": "Yahoo購物中心 商品頁：Panasonic國際牌 9L nanoeX 除濕機 F-Y18PN | 6.1-10L | Yahoo購物中心",
+      "evidenceSnippet": "Yahoo購物中心 原始商品頁／API 於 2026-07-11 顯示同型號新品公開價 7269 TWD，低於既有可驗證史低。",
+      "sourceKind": "retailer_page",
       "confidence": "high",
-      "checkedAt": "2026-07-09",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+      "checkedAt": "2026-07-11",
+      "note": "採用同型號、同尺寸／容量／規格的可信新品公開價；排除會員個人化折扣、信用卡回饋、點數、二手、福利品、展示、拆封與整新品。"
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Panasonic F-Y18PN\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Panasonic%20F-Y18PN%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Panasonic%20F-Y18PN%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"Panasonic F-Y18PN\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22Panasonic%20F-Y18PN%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"Panasonic F-Y18PN\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Panasonic%20F-Y18PN%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
           "targetHost": "reddit.com"
         }
       ]
@@ -719,13 +719,13 @@
     "name": "PuriCare WiFi 變頻除濕機粉紅 16 公升",
     "price": {
       "currency": "TWD",
-      "amount": 14900,
-      "converted": 14900,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 13410,
+      "converted": 13410,
+      "confidence": "Yahoo購物中心 2026-07-11 頁面查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ07A900HQ3L5/000001_1761827365.jpg",
-    "buyUrl": "https://24h.pchome.com.tw/prod/DMBQ07-A900HQ3L5",
-    "buyLabel": "PChome",
+    "buyUrl": "https://tw.buy.yahoo.com/gdsale/LG%E6%A8%82%E9%87%91-PuriCare-WiFi-%E9%9B%99%E8%AE%8A%E9%A0%BB%E9%99%A4%E6%BF%95%E6%A9%9F-16%E5%85%AC%E5%8D%87-%E7%B2%89%E7%B4%85-MD161QPK3-11003586.html",
+    "buyLabel": "Yahoo購物中心",
     "specs": [
       "16 公升",
       "WiFi",
@@ -767,20 +767,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"LG MD161QPK3\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22LG%20MD161QPK3%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22LG%20MD161QPK3%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"LG MD161QPK3\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22LG%20MD161QPK3%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"LG MD161QPK3\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22LG%20MD161QPK3%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
           "targetHost": "reddit.com"
         }
       ]
@@ -797,13 +797,13 @@
     "name": "PuriCare 12 公升雙變頻除濕機",
     "price": {
       "currency": "TWD",
-      "amount": 12490,
-      "converted": 12490,
-      "confidence": "可信通路查核價"
+      "amount": 11780,
+      "converted": 11780,
+      "confidence": "Yahoo購物中心 2026-07-11 頁面查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ4NA900JF9HP/000001_1778165423.jpg",
-    "buyUrl": "https://24h.pchome.com.tw/prod/DMBQ4N-A900JF9HP",
-    "buyLabel": "PChome",
+    "buyUrl": "https://tw.buy.yahoo.com/gdsale/LG%E6%A8%82%E9%87%91-12%E5%85%AC%E5%8D%87-%E6%97%A5UV%E6%AE%BA%E8%8F%8C%E9%9B%99%E8%AE%8A%E9%A0%BB%E9%99%A4%E6%BF%95%E6%A9%9FDD121QWE0-11864251.html",
+    "buyLabel": "Yahoo購物中心",
     "specs": [
       "12 公升",
       "雙變頻",
@@ -845,20 +845,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"LG DD121QWE0\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22LG%20DD121QWE0%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22LG%20DD121QWE0%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"LG DD121QWE0\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22LG%20DD121QWE0%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"LG DD121QWE0\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22LG%20DD121QWE0%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
           "targetHost": "reddit.com"
         }
       ]
@@ -877,7 +877,7 @@
       "currency": "TWD",
       "amount": 15800,
       "converted": 15800,
-      "confidence": "可信通路查核價"
+      "confidence": "PChome 2026-07-11 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ4YA900JBQP2/000001_1759892926.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBQ4Y-A900JBQP2",
@@ -923,20 +923,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"LG DD141QWE0\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22LG%20DD141QWE0%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22LG%20DD141QWE0%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"LG DD141QWE0\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22LG%20DD141QWE0%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"LG DD141QWE0\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22LG%20DD141QWE0%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
           "targetHost": "reddit.com"
         }
       ]
@@ -953,13 +953,13 @@
     "name": "PuriCare 雙變頻除濕機 25.6 公升曜黑",
     "price": {
       "currency": "TWD",
-      "amount": 20900,
-      "converted": 20900,
-      "confidence": "可信通路查核價"
+      "amount": 17955,
+      "converted": 17955,
+      "confidence": "Yahoo購物中心 2026-07-11 頁面查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ07A900GFBVP/000001_1767340170.jpg",
-    "buyUrl": "https://24h.pchome.com.tw/prod/DMBQ07-A900GFBVP",
-    "buyLabel": "PChome",
+    "buyUrl": "https://tw.buy.yahoo.com/gdsale/LG%E6%A8%82%E9%87%91-PuriCare-%E9%9B%99%E8%AE%8A%E9%A0%BB%E9%99%A4%E6%BF%95%E6%A9%9F-25-6%E5%85%AC%E5%8D%87-%E6%9B%9C%E9%BB%91-WD261VKF0-11970685.html",
+    "buyLabel": "Yahoo購物中心",
     "specs": [
       "25.6 公升",
       "雙變頻",
@@ -1001,20 +1001,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"LG WD261VKF0\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22LG%20WD261VKF0%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22LG%20WD261VKF0%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"LG WD261VKF0\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22LG%20WD261VKF0%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"LG WD261VKF0\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22LG%20WD261VKF0%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
           "targetHost": "reddit.com"
         }
       ]
@@ -1033,10 +1033,10 @@
       "currency": "TWD",
       "amount": 17005,
       "converted": 17005,
-      "confidence": "Yahoo 購物中心 2026-07-11 公開 95 折活動價"
+      "confidence": "Yahoo購物中心 2026-07-11 頁面查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ4NA900JCHFZ/000001_1783342859.jpg",
-    "buyUrl": "https://tw.buy.yahoo.com/gdsale/LG樂金-PuriCare-18公升雙變頻除濕機-白色-DD181MWE0-11971018.html",
+    "buyUrl": "https://tw.buy.yahoo.com/gdsale/LG%E6%A8%82%E9%87%91-PuriCare-18%E5%85%AC%E5%8D%87%E9%9B%99%E8%AE%8A%E9%A0%BB%E9%99%A4%E6%BF%95%E6%A9%9F-%E7%99%BD%E8%89%B2-DD181MWE0-11971018.html",
     "buyLabel": "Yahoo購物中心",
     "specs": [
       "18 公升",
@@ -1109,13 +1109,13 @@
     "name": "20L 第六感智能除濕機",
     "price": {
       "currency": "TWD",
-      "amount": 11900,
-      "converted": 11900,
-      "confidence": "可信通路查核價"
+      "amount": 8991,
+      "converted": 8991,
+      "confidence": "Yahoo購物中心 2026-07-11 頁面查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ3SA900K13ZR/000001_1779265654.jpg",
-    "buyUrl": "https://24h.pchome.com.tw/prod/DMBQ3S-A900K13ZR",
-    "buyLabel": "PChome",
+    "buyUrl": "https://tw.buy.yahoo.com/gdsale/Whirlpool%E6%83%A0%E8%80%8C%E6%B5%A6-WDEE20TW-20L-%E7%AC%AC%E5%85%AD%E6%84%9F%E6%99%BA%E8%83%BD%E9%99%A4%E6%BF%95%E6%A9%9F-12132430.html",
+    "buyLabel": "Yahoo購物中心",
     "specs": [
       "20 公升",
       "第六感智能",
@@ -1157,20 +1157,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Whirlpool WDEE20TW\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Whirlpool%20WDEE20TW%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Whirlpool%20WDEE20TW%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"Whirlpool WDEE20TW\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22Whirlpool%20WDEE20TW%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"Whirlpool WDEE20TW\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Whirlpool%20WDEE20TW%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
           "targetHost": "reddit.com"
         }
       ]
@@ -1187,8 +1187,8 @@
     "name": "6公升節能除濕機",
     "price": {
       "currency": "TWD",
-      "amount": 4480,
-      "converted": 4480,
+      "amount": 3790,
+      "converted": 3790,
       "confidence": "PChome 2026-07-11 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ3SA900I7NSN/000001_1767929673.jpg",
@@ -1235,20 +1235,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Whirlpool WDEE06TW\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Whirlpool%20WDEE06TW%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Whirlpool%20WDEE06TW%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"Whirlpool WDEE06TW\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22Whirlpool%20WDEE06TW%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"Whirlpool WDEE06TW\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Whirlpool%20WDEE06TW%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
           "targetHost": "reddit.com"
         }
       ]
@@ -1265,8 +1265,8 @@
     "name": "6公升高效除濕機",
     "price": {
       "currency": "TWD",
-      "amount": 5490,
-      "converted": 5490,
+      "amount": 4390,
+      "converted": 4390,
       "confidence": "PChome 2026-07-11 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ08A900IXL3K/000001_1753349026.jpg",
@@ -1313,20 +1313,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"SHARP DW-WL6NT-W\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22SHARP%20DW-WL6NT-W%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22SHARP%20DW-WL6NT-W%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"SHARP DW-WL6NT-W\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22SHARP%20DW-WL6NT-W%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"SHARP DW-WL6NT-W\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22SHARP%20DW-WL6NT-W%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
           "targetHost": "reddit.com"
         }
       ]
@@ -1343,8 +1343,8 @@
     "name": "6L 除濕機",
     "price": {
       "currency": "TWD",
-      "amount": 5790,
-      "converted": 5790,
+      "amount": 5095,
+      "converted": 5095,
       "confidence": "PChome 2026-07-11 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ3PA900J9FH9/000001_1776325410.jpg",
@@ -1391,20 +1391,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Panasonic F-Y12PS\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Panasonic%20F-Y12PS%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Panasonic%20F-Y12PS%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"Panasonic F-Y12PS\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22Panasonic%20F-Y12PS%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"Panasonic F-Y12PS\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Panasonic%20F-Y12PS%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
           "targetHost": "reddit.com"
         }
       ]
@@ -1423,7 +1423,7 @@
       "currency": "TWD",
       "amount": 8990,
       "converted": 8990,
-      "confidence": "可信通路查核價，擷取 2026-07-09"
+      "confidence": "PChome 2026-07-11 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ08A900JPCL1/000001_1770962000.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBQ08-A900JPCL1",
@@ -1469,20 +1469,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"SHARP DW-PT12HT-W\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22SHARP%20DW-PT12HT-W%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22SHARP%20DW-PT12HT-W%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"SHARP DW-PT12HT-W\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22SHARP%20DW-PT12HT-W%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"SHARP DW-PT12HT-W\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22SHARP%20DW-PT12HT-W%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
           "targetHost": "reddit.com"
         }
       ]
@@ -1499,13 +1499,13 @@
     "name": "11公升清淨型除濕機",
     "price": {
       "currency": "TWD",
-      "amount": 9671,
-      "converted": 9671,
-      "confidence": "可信通路查核價，擷取 2026-07-09"
+      "amount": 9500,
+      "converted": 9500,
+      "confidence": "momo購物 2026-07-11 頁面查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ01A900GSFGX/000001_1767322095.jpg",
-    "buyUrl": "https://24h.pchome.com.tw/prod/DMBQ01-A900GSFGX",
-    "buyLabel": "PChome",
+    "buyUrl": "https://www.momoshop.com.tw/TP/TP0003952/goodsDetail/TP00039520005942",
+    "buyLabel": "momo購物",
     "specs": [
       "11L",
       "清淨型",
@@ -1547,20 +1547,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"HITACHI RD-22FC\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22HITACHI%20RD-22FC%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22HITACHI%20RD-22FC%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"HITACHI RD-22FC\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22HITACHI%20RD-22FC%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"HITACHI RD-22FC\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22HITACHI%20RD-22FC%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
           "targetHost": "reddit.com"
         }
       ]
@@ -1577,13 +1577,13 @@
     "name": "19公升 超變頻清淨除濕機",
     "price": {
       "currency": "TWD",
-      "amount": 20799,
-      "converted": 20799,
-      "confidence": "Costco 好市多 2026-07-09 查核價"
+      "amount": 20357,
+      "converted": 20357,
+      "confidence": "momo購物 2026-07-11 頁面查核價"
     },
     "image": "https://www.costco.com.tw/medias/sys_master/images/h5d/ha9/421140861976606.jpg",
-    "buyUrl": "https://www.costco.com.tw/Cooling-Heating-Air-Treatment/Dehumidifiers-Dry-Cabinets/p/152925",
-    "buyLabel": "Costco 好市多",
+    "buyUrl": "https://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=13553689",
+    "buyLabel": "momo購物",
     "specs": [
       "19 公升級",
       "超變頻",
@@ -1626,20 +1626,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Hitachi RD-380VC\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Hitachi%20RD-380VC%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Hitachi%20RD-380VC%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"Hitachi RD-380VC\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22Hitachi%20RD-380VC%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"Hitachi RD-380VC\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Hitachi%20RD-380VC%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
           "targetHost": "reddit.com"
         }
       ]
@@ -1658,7 +1658,7 @@
       "currency": "TWD",
       "amount": 16989,
       "converted": 16989,
-      "confidence": "Costco 好市多 2026-07-09 查核價"
+      "confidence": "Costco 好市多 2026-07-11 頁面查核價"
     },
     "image": "https://www.costco.com.tw/medias/sys_master/images/hf8/hd0/64882598379550.jpg",
     "buyUrl": "https://www.costco.com.tw/Televisions-Appliances/Cooling-Heating-Air-Treatment/Dehumidifiers-Dry-Cabinets/3M-Filtrete-20-L-Air-Purifier-Dehumidifier-FD-Y200L/p/133200",
@@ -1707,20 +1707,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"3M FD-Y200L\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%223M%20FD-Y200L%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%223M%20FD-Y200L%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"3M FD-Y200L\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%223M%20FD-Y200L%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"3M FD-Y200L\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%223M%20FD-Y200L%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
           "targetHost": "reddit.com"
         }
       ]
@@ -1737,13 +1737,13 @@
     "name": "23 公升超變頻清淨除濕機",
     "price": {
       "currency": "TWD",
-      "amount": 23199,
-      "converted": 23199,
-      "confidence": "Costco 好市多 2026-07-09 查核價"
+      "amount": 23039,
+      "converted": 23039,
+      "confidence": "PChome 2026-07-11 API 查核價"
     },
     "image": "https://www.costco.com.tw/medias/sys_master/images/h2d/h02/421140862271518.jpg",
-    "buyUrl": "https://www.costco.com.tw/Televisions-Appliances/Cooling-Heating-Air-Treatment/Dehumidifiers-Dry-Cabinets/Hitachi-23-L-Air-Purifying-Dehumidifier-RD-460VC/p/152926",
-    "buyLabel": "Costco 好市多",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DMBQ4K-A900I752Z",
+    "buyLabel": "PChome",
     "specs": [
       "23 公升/日",
       "約 19-21 坪",
@@ -1788,20 +1788,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"HITACHI RD-460VC\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22HITACHI%20RD-460VC%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22HITACHI%20RD-460VC%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"HITACHI RD-460VC\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22HITACHI%20RD-460VC%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"HITACHI RD-460VC\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22HITACHI%20RD-460VC%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
           "targetHost": "reddit.com"
         }
       ]
@@ -1820,10 +1820,10 @@
       "currency": "TWD",
       "amount": 7990,
       "converted": 7990,
-      "confidence": "momo 2026-07-11 公開限時價"
+      "confidence": "momo購物 2026-07-11 頁面查核價"
     },
     "image": "https://i2.momoshop.com.tw/1781626760/goodsimg/0015/034/893/15034893_R_m.webp",
-    "buyUrl": "https://www.momoshop.com.tw/product/15034893",
+    "buyUrl": "https://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=15034893",
     "buyLabel": "momo購物",
     "specs": [
       "除濕能力：12L／日",

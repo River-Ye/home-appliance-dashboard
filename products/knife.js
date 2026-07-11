@@ -17,7 +17,7 @@
       "currency": "TWD",
       "amount": 2890,
       "converted": 2890,
-      "confidence": "PChome 24h 低價查核"
+      "confidence": "PChome 2026-07-11 API 查核價"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -70,20 +70,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"TOJIRO DP F-808 210mm\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22TOJIRO%20DP%20F-808%20210mm%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22TOJIRO%20DP%20F-808%20210mm%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"TOJIRO DP F-808 210mm\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22TOJIRO%20DP%20F-808%20210mm%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"TOJIRO DP F-808 210mm\" (problem OR issue OR defect OR \"negative review\")",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22TOJIRO%20DP%20F-808%20210mm%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
           "targetHost": "reddit.com"
         }
       ]
@@ -101,7 +101,7 @@
       "currency": "TWD",
       "amount": 2580,
       "converted": 2580,
-      "confidence": "PChome 24h 低價查核"
+      "confidence": "PChome 2026-07-11 API 查核價"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -153,20 +153,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"GLOBAL G-4 180mm\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22GLOBAL%20G-4%20180mm%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22GLOBAL%20G-4%20180mm%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"GLOBAL G-4 180mm\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22GLOBAL%20G-4%20180mm%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"GLOBAL G-4 180mm\" (problem OR issue OR defect OR \"negative review\")",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22GLOBAL%20G-4%20180mm%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
           "targetHost": "reddit.com"
         }
       ]
@@ -184,7 +184,7 @@
       "currency": "TWD",
       "amount": 1590,
       "converted": 1590,
-      "confidence": "PChome 24h 低價查核"
+      "confidence": "PChome 2026-07-11 API 查核價"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -236,20 +236,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Victorinox Swiss Classic 三德刀\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Victorinox%20Swiss%20Classic%20%E4%B8%89%E5%BE%B7%E5%88%80%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Victorinox%20Swiss%20Classic%20%E4%B8%89%E5%BE%B7%E5%88%80%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"Victorinox Swiss Classic 三德刀\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22Victorinox%20Swiss%20Classic%20%E4%B8%89%E5%BE%B7%E5%88%80%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"Victorinox Swiss Classic 三德刀\" (problem OR issue OR defect OR \"negative review\")",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Victorinox%20Swiss%20Classic%20%E4%B8%89%E5%BE%B7%E5%88%80%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
           "targetHost": "reddit.com"
         }
       ]
@@ -320,20 +320,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Kai 關孫六若竹 16.5cm\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Kai%20%E9%97%9C%E5%AD%AB%E5%85%AD%E8%8B%A5%E7%AB%B9%2016.5cm%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Kai%20%E9%97%9C%E5%AD%AB%E5%85%AD%E8%8B%A5%E7%AB%B9%2016.5cm%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"Kai 關孫六若竹 16.5cm\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22Kai%20%E9%97%9C%E5%AD%AB%E5%85%AD%E8%8B%A5%E7%AB%B9%2016.5cm%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"Kai 關孫六若竹 16.5cm\" (problem OR issue OR defect OR \"negative review\")",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Kai%20%E9%97%9C%E5%AD%AB%E5%85%AD%E8%8B%A5%E7%AB%B9%2016.5cm%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
           "targetHost": "reddit.com"
         }
       ]
@@ -403,20 +403,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Kyocera 陶瓷刀具廚房三件組\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Kyocera%20%E9%99%B6%E7%93%B7%E5%88%80%E5%85%B7%E5%BB%9A%E6%88%BF%E4%B8%89%E4%BB%B6%E7%B5%84%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Kyocera%20%E9%99%B6%E7%93%B7%E5%88%80%E5%85%B7%E5%BB%9A%E6%88%BF%E4%B8%89%E4%BB%B6%E7%B5%84%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"Kyocera 陶瓷刀具廚房三件組\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22Kyocera%20%E9%99%B6%E7%93%B7%E5%88%80%E5%85%B7%E5%BB%9A%E6%88%BF%E4%B8%89%E4%BB%B6%E7%B5%84%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"Kyocera 陶瓷刀具廚房三件組\" (problem OR issue OR defect OR \"negative review\")",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Kyocera%20%E9%99%B6%E7%93%B7%E5%88%80%E5%85%B7%E5%BB%9A%E6%88%BF%E4%B8%89%E4%BB%B6%E7%B5%84%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
           "targetHost": "reddit.com"
         }
       ]
@@ -486,20 +486,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"WMF 卓越三德刀 18cm\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22WMF%20%E5%8D%93%E8%B6%8A%E4%B8%89%E5%BE%B7%E5%88%80%2018cm%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22WMF%20%E5%8D%93%E8%B6%8A%E4%B8%89%E5%BE%B7%E5%88%80%2018cm%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"WMF 卓越三德刀 18cm\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22WMF%20%E5%8D%93%E8%B6%8A%E4%B8%89%E5%BE%B7%E5%88%80%2018cm%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"WMF 卓越三德刀 18cm\" (problem OR issue OR defect OR \"negative review\")",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22WMF%20%E5%8D%93%E8%B6%8A%E4%B8%89%E5%BE%B7%E5%88%80%2018cm%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
           "targetHost": "reddit.com"
         }
       ]
@@ -515,13 +515,13 @@
     "image": "https://cs-a.ecimg.tw/items/DEAGY2A900G9G4W/000001_1682409496.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 4690,
-      "converted": 4690,
-      "confidence": "PChome 24h 低價查核"
+      "amount": 3234,
+      "converted": 3234,
+      "confidence": "momo購物 2026-07-11 頁面查核價"
     },
     "channel": "tw",
-    "buyLabel": "PChome",
-    "buyUrl": "https://24h.pchome.com.tw/prod/DEAGY2-A900G9G4W",
+    "buyLabel": "momo購物",
+    "buyUrl": "https://www.momoshop.com.tw/TP/TP0002057/goodsDetail/TP00020570002377",
     "specs": [
       "刀具：《WUSTHOF》德國三叉牌GOURMET 17cm三德刀",
       "刀型/刃長依商品頁標示",
@@ -555,34 +555,34 @@
     "category": "knife",
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "found",
-      "amount": 2549,
+      "status": "not_found",
+      "amount": null,
       "currency": "TWD",
-      "converted": 2549,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1058160095&cgp=3275",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【WUSTHOF 三叉】德國三叉牌GOURMET 17CM三德刀3件組(三德刀+鋸齒刀+削皮刀)",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【WUSTHOF 三叉】德國三叉牌GOURMET 17CM三德刀3件組(三德刀+鋸齒刀+削皮刀)」最低價為 NT$2,549，最低點日期 2024-06-12。",
-      "sourceKind": "price_history",
-      "confidence": "high",
-      "checkedAt": "2026-07-09",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-07-11",
+      "note": "既有史低證據是 3 件組，目標商品是單品，套裝條件不一致。 已撤銷錯誤史低；本輪重新查核仍找不到同型號、同尺寸／容量／規格且可公開驗證的可信新品整機史低。"
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Wusthof Gourmet 17cm\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Wusthof%20Gourmet%2017cm%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Wusthof%20Gourmet%2017cm%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"Wusthof Gourmet 17cm\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22Wusthof%20Gourmet%2017cm%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"Wusthof Gourmet 17cm\" (problem OR issue OR defect OR \"negative review\")",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Wusthof%20Gourmet%2017cm%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
           "targetHost": "reddit.com"
         }
       ]
@@ -651,20 +651,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Tefal Ice Force 15cm\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Tefal%20Ice%20Force%2015cm%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Tefal%20Ice%20Force%2015cm%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"Tefal Ice Force 15cm\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22Tefal%20Ice%20Force%2015cm%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"Tefal Ice Force 15cm\" (problem OR issue OR defect OR \"negative review\")",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Tefal%20Ice%20Force%2015cm%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
           "targetHost": "reddit.com"
         }
       ]
@@ -682,7 +682,7 @@
       "currency": "TWD",
       "amount": 2480,
       "converted": 2480,
-      "confidence": "PChome 24h 低價查核"
+      "confidence": "PChome 2026-07-11 API 查核價"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -733,20 +733,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"GLOBAL G-1 210mm\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22GLOBAL%20G-1%20210mm%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22GLOBAL%20G-1%20210mm%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"GLOBAL G-1 210mm\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22GLOBAL%20G-1%20210mm%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"GLOBAL G-1 210mm\" (problem OR issue OR defect OR \"negative review\")",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22GLOBAL%20G-1%20210mm%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
           "targetHost": "reddit.com"
         }
       ]
@@ -817,20 +817,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Kai 關孫六槌目紋 18cm\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Kai%20%E9%97%9C%E5%AD%AB%E5%85%AD%E6%A7%8C%E7%9B%AE%E7%B4%8B%2018cm%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Kai%20%E9%97%9C%E5%AD%AB%E5%85%AD%E6%A7%8C%E7%9B%AE%E7%B4%8B%2018cm%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"Kai 關孫六槌目紋 18cm\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22Kai%20%E9%97%9C%E5%AD%AB%E5%85%AD%E6%A7%8C%E7%9B%AE%E7%B4%8B%2018cm%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"Kai 關孫六槌目紋 18cm\" (problem OR issue OR defect OR \"negative review\")",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Kai%20%E9%97%9C%E5%AD%AB%E5%85%AD%E6%A7%8C%E7%9B%AE%E7%B4%8B%2018cm%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
           "targetHost": "reddit.com"
         }
       ]
@@ -901,20 +901,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Kyocera 黑陶瓷中華刀 16cm\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Kyocera%20%E9%BB%91%E9%99%B6%E7%93%B7%E4%B8%AD%E8%8F%AF%E5%88%80%2016cm%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Kyocera%20%E9%BB%91%E9%99%B6%E7%93%B7%E4%B8%AD%E8%8F%AF%E5%88%80%2016cm%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"Kyocera 黑陶瓷中華刀 16cm\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22Kyocera%20%E9%BB%91%E9%99%B6%E7%93%B7%E4%B8%AD%E8%8F%AF%E5%88%80%2016cm%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"Kyocera 黑陶瓷中華刀 16cm\" (problem OR issue OR defect OR \"negative review\")",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Kyocera%20%E9%BB%91%E9%99%B6%E7%93%B7%E4%B8%AD%E8%8F%AF%E5%88%80%2016cm%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
           "targetHost": "reddit.com"
         }
       ]
@@ -932,7 +932,7 @@
       "currency": "TWD",
       "amount": 1163,
       "converted": 1163,
-      "confidence": "PChome 24h 低價查核"
+      "confidence": "PChome 2026-07-11 API 查核價"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -984,20 +984,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Victorinox 5.2000.15\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Victorinox%205.2000.15%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Victorinox%205.2000.15%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"Victorinox 5.2000.15\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22Victorinox%205.2000.15%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"Victorinox 5.2000.15\" (problem OR issue OR defect OR \"negative review\")",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Victorinox%205.2000.15%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
           "targetHost": "reddit.com"
         }
       ]
@@ -1067,20 +1067,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"TOJIRO Black Zen F-187BK 165mm\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22TOJIRO%20Black%20Zen%20F-187BK%20165mm%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22TOJIRO%20Black%20Zen%20F-187BK%20165mm%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"TOJIRO Black Zen F-187BK 165mm\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22TOJIRO%20Black%20Zen%20F-187BK%20165mm%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"TOJIRO Black Zen F-187BK 165mm\" (problem OR issue OR defect OR \"negative review\")",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22TOJIRO%20Black%20Zen%20F-187BK%20165mm%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
           "targetHost": "reddit.com"
         }
       ]
@@ -1150,20 +1150,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Tefal Ice Force 三件組\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Tefal%20Ice%20Force%20%E4%B8%89%E4%BB%B6%E7%B5%84%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Tefal%20Ice%20Force%20%E4%B8%89%E4%BB%B6%E7%B5%84%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"Tefal Ice Force 三件組\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22Tefal%20Ice%20Force%20%E4%B8%89%E4%BB%B6%E7%B5%84%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"Tefal Ice Force 三件組\" (problem OR issue OR defect OR \"negative review\")",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Tefal%20Ice%20Force%20%E4%B8%89%E4%BB%B6%E7%B5%84%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
           "targetHost": "reddit.com"
         }
       ]
@@ -1234,20 +1234,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Wusthof Gourmet 三件組\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Wusthof%20Gourmet%20%E4%B8%89%E4%BB%B6%E7%B5%84%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Wusthof%20Gourmet%20%E4%B8%89%E4%BB%B6%E7%B5%84%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"Wusthof Gourmet 三件組\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22Wusthof%20Gourmet%20%E4%B8%89%E4%BB%B6%E7%B5%84%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"Wusthof Gourmet 三件組\" (problem OR issue OR defect OR \"negative review\")",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Wusthof%20Gourmet%20%E4%B8%89%E4%BB%B6%E7%B5%84%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
           "targetHost": "reddit.com"
         }
       ]
@@ -1266,7 +1266,7 @@
       "currency": "TWD",
       "amount": 3360,
       "converted": 3360,
-      "confidence": "可信通路查核價，擷取 2026-07-09"
+      "confidence": "PChome 2026-07-11 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DSBE0MA900JD4AD/000001_1761016741.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DSBE0M-A900JD4AD",
@@ -1312,20 +1312,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"TOJIRO F-809\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22TOJIRO%20F-809%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22TOJIRO%20F-809%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"TOJIRO F-809\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22TOJIRO%20F-809%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"TOJIRO F-809\" (problem OR issue OR defect OR \"negative review\")",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22TOJIRO%20F-809%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
           "targetHost": "reddit.com"
         }
       ]
@@ -1344,7 +1344,7 @@
       "currency": "TWD",
       "amount": 15120,
       "converted": 15120,
-      "confidence": "可信通路查核價，擷取 2026-07-09"
+      "confidence": "PChome 2026-07-11 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DEBM2CA900J9CYP/000001_1758097012.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DEBM2C-A900J9CYP",
@@ -1390,20 +1390,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"WMF Ultimate 12cm\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22WMF%20Ultimate%2012cm%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22WMF%20Ultimate%2012cm%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"WMF Ultimate 12cm\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22WMF%20Ultimate%2012cm%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"WMF Ultimate 12cm\" (problem OR issue OR defect OR \"negative review\")",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22WMF%20Ultimate%2012cm%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
           "targetHost": "reddit.com"
         }
       ]
@@ -1420,13 +1420,13 @@
     "name": "日本製水果刀附刀套",
     "price": {
       "currency": "TWD",
-      "amount": 609,
-      "converted": 609,
-      "confidence": "可信通路查核價，擷取 2026-07-09"
+      "amount": 599,
+      "converted": 599,
+      "confidence": "momo購物 2026-07-11 頁面查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DEAG16A900IJI66/000001_1744270563.jpg",
-    "buyUrl": "https://24h.pchome.com.tw/prod/DEAG16-A900IJI66",
-    "buyLabel": "PChome",
+    "buyUrl": "https://www.momoshop.com.tw/TP/TP0000709/goodsDetail/TP00007090001024",
+    "buyLabel": "momo購物",
     "specs": [
       "12cm",
       "水果刀",
@@ -1455,33 +1455,33 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 609,
+      "amount": 599,
       "currency": "TWD",
-      "converted": 609,
-      "sourceUrl": "https://24h.pchome.com.tw/prod/DEAG16-A900IJI66",
-      "sourceTitle": "PChome 商品 API：【貝印】日本製關孫六水果刀附刀套-12cm / 日本製關孫六水果刀附刀套-12cm",
-      "evidenceSnippet": "PChome 商品 API 於 2026-07-10 回傳同一商品頁「【貝印】日本製關孫六水果刀附刀套-12cm / 日本製關孫六水果刀附刀套-12cm」查核價 NT$609，低於原先記錄史低。",
+      "converted": 599,
+      "sourceUrl": "https://www.momoshop.com.tw/TP/TP0000709/goodsDetail/TP00007090001024",
+      "sourceTitle": "momo購物 商品頁：【KAI 貝印】關孫六 攜帶式不鏽鋼刀｜隨身刀具/12cm（附刀殼）｜收納便利/旅行",
+      "evidenceSnippet": "momo購物 原始商品頁／API 於 2026-07-11 顯示同型號新品公開價 599 TWD，低於既有可驗證史低。",
       "sourceKind": "retailer_page",
-      "confidence": "medium",
-      "checkedAt": "2026-07-10",
-      "note": "採用可信通路同一商品頁可公開查核現價作為本次觀測到的最低價；同型號/規格並排除會員個人化折扣、信用卡回饋、點數、二手、福利品、展示機、箱損、拆封與整新品。"
+      "confidence": "high",
+      "checkedAt": "2026-07-11",
+      "note": "採用同型號、同尺寸／容量／規格的可信新品公開價；排除會員個人化折扣、信用卡回饋、點數、二手、福利品、展示、拆封與整新品。"
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Kai 關孫六 12cm\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Kai%20%E9%97%9C%E5%AD%AB%E5%85%AD%2012cm%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Kai%20%E9%97%9C%E5%AD%AB%E5%85%AD%2012cm%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"Kai 關孫六 12cm\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22Kai%20%E9%97%9C%E5%AD%AB%E5%85%AD%2012cm%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"Kai 關孫六 12cm\" (problem OR issue OR defect OR \"negative review\")",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Kai%20%E9%97%9C%E5%AD%AB%E5%85%AD%2012cm%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
           "targetHost": "reddit.com"
         }
       ]
@@ -1500,7 +1500,7 @@
       "currency": "TWD",
       "amount": 1185,
       "converted": 1185,
-      "confidence": "可信通路查核價，擷取 2026-07-09"
+      "confidence": "PChome 2026-07-11 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DEAGYEA900BCET2/000001_1656480680.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DEAGYE-A900BCET2",
@@ -1546,20 +1546,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Victorinox 6.8003.19B\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Victorinox%206.8003.19B%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Victorinox%206.8003.19B%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"Victorinox 6.8003.19B\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22Victorinox%206.8003.19B%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"Victorinox 6.8003.19B\" (problem OR issue OR defect OR \"negative review\")",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Victorinox%206.8003.19B%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
           "targetHost": "reddit.com"
         }
       ]
@@ -1578,7 +1578,7 @@
       "currency": "TWD",
       "amount": 697,
       "converted": 697,
-      "confidence": "可信通路查核價，擷取 2026-07-09"
+      "confidence": "PChome 2026-07-11 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DEAWRUA900HDKXQ/000001_1712727942.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DEAWRU-A900HDKXQ",
@@ -1624,20 +1624,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"WMF 輕巧萬用小刀\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22WMF%20%E8%BC%95%E5%B7%A7%E8%90%AC%E7%94%A8%E5%B0%8F%E5%88%80%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22WMF%20%E8%BC%95%E5%B7%A7%E8%90%AC%E7%94%A8%E5%B0%8F%E5%88%80%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"WMF 輕巧萬用小刀\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22WMF%20%E8%BC%95%E5%B7%A7%E8%90%AC%E7%94%A8%E5%B0%8F%E5%88%80%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"WMF 輕巧萬用小刀\" (problem OR issue OR defect OR \"negative review\")",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22WMF%20%E8%BC%95%E5%B7%A7%E8%90%AC%E7%94%A8%E5%B0%8F%E5%88%80%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
           "targetHost": "reddit.com"
         }
       ]
@@ -1702,20 +1702,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Tefal Titanium Non-Stick Knives 3-Piece Set\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Tefal%20Titanium%20Non-Stick%20Knives%203-Piece%20Set%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Tefal%20Titanium%20Non-Stick%20Knives%203-Piece%20Set%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"Tefal Titanium Non-Stick Knives 3-Piece Set\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22Tefal%20Titanium%20Non-Stick%20Knives%203-Piece%20Set%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"Tefal Titanium Non-Stick Knives 3-Piece Set\" (problem OR issue OR defect OR \"negative review\")",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Tefal%20Titanium%20Non-Stick%20Knives%203-Piece%20Set%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
           "targetHost": "reddit.com"
         }
       ]
@@ -1783,20 +1783,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"3M Scotch Titanium Kitchen Scissors 2-Piece\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%223M%20Scotch%20Titanium%20Kitchen%20Scissors%202-Piece%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%223M%20Scotch%20Titanium%20Kitchen%20Scissors%202-Piece%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"3M Scotch Titanium Kitchen Scissors 2-Piece\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%223M%20Scotch%20Titanium%20Kitchen%20Scissors%202-Piece%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"3M Scotch Titanium Kitchen Scissors 2-Piece\" (problem OR issue OR defect OR \"negative review\")",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%223M%20Scotch%20Titanium%20Kitchen%20Scissors%202-Piece%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
           "targetHost": "reddit.com"
         }
       ]

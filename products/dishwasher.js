@@ -15,8 +15,8 @@
     "image": "https://cs-a.ecimg.tw/items/DMBR1PA900I386D/000001_1738721735.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 22900,
-      "converted": 22900,
+      "amount": 21400,
+      "converted": 21400,
       "confidence": "PChome 2026-07-11 API 查核價"
     },
     "channel": "tw",
@@ -69,20 +69,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Panasonic NP-K1YWHR2TW\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Panasonic%20NP-K1YWHR2TW%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Amobile01.com%20%22Panasonic%20NP-K1YWHR2TW%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"Panasonic NP-K1YWHR2TW\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22Panasonic%20NP-K1YWHR2TW%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"Panasonic NP-K1YWHR2TW\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22Panasonic%20NP-K1YWHR2TW%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
           "targetHost": "reddit.com"
         }
       ]
@@ -98,8 +98,8 @@
     "image": "https://cs-a.ecimg.tw/items/DMBR0PA900IX8N8/000001_1770277214.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 7990,
-      "converted": 7990,
+      "amount": 7290,
+      "converted": 7290,
       "confidence": "PChome 2026-07-11 API 查核價"
     },
     "channel": "tw",
@@ -152,20 +152,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"TECO XYFYW-5001CBW\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22TECO%20XYFYW-5001CBW%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Amobile01.com%20%22TECO%20XYFYW-5001CBW%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"TECO XYFYW-5001CBW\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22TECO%20XYFYW-5001CBW%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"TECO XYFYW-5001CBW\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22TECO%20XYFYW-5001CBW%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
           "targetHost": "reddit.com"
         }
       ]
@@ -181,13 +181,13 @@
     "image": "https://cs-a.ecimg.tw/items/DMBR241900I024G/000001_1737106327.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 6999,
-      "converted": 6999,
-      "confidence": "PChome 24h 低價查核"
+      "amount": 6799,
+      "converted": 6799,
+      "confidence": "PChome 2026-07-11 API 查核價"
     },
     "channel": "tw",
     "buyLabel": "PChome",
-    "buyUrl": "https://24h.pchome.com.tw/prod/DMBR24-1900I024G",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DMBR0P-A900I01YW",
     "specs": [
       "洗碗機：日本東芝TOSHIBA 4人份智慧WiFi洗烘存洗碗機 DWS-34BTW",
       "容量/安裝型式依商品頁標示",
@@ -235,20 +235,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Toshiba DWS-34BTW\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Toshiba%20DWS-34BTW%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Amobile01.com%20%22Toshiba%20DWS-34BTW%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"Toshiba DWS-34BTW\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22Toshiba%20DWS-34BTW%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"Toshiba DWS-34BTW\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22Toshiba%20DWS-34BTW%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
           "targetHost": "reddit.com"
         }
       ]
@@ -266,7 +266,7 @@
       "currency": "TWD",
       "amount": 15900,
       "converted": 15900,
-      "confidence": "PChome 24h 低價查核"
+      "confidence": "PChome 2026-07-11 API 查核價"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -318,20 +318,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Toshiba DW-05T1-TW\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Toshiba%20DW-05T1-TW%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Amobile01.com%20%22Toshiba%20DW-05T1-TW%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"Toshiba DW-05T1-TW\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22Toshiba%20DW-05T1-TW%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"Toshiba DW-05T1-TW\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22Toshiba%20DW-05T1-TW%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
           "targetHost": "reddit.com"
         }
       ]
@@ -349,7 +349,7 @@
       "currency": "TWD",
       "amount": 30900,
       "converted": 30900,
-      "confidence": "PChome 24h 低價查核"
+      "confidence": "PChome 2026-07-11 API 查核價"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -401,20 +401,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Bosch SMS2ITI06X\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Bosch%20SMS2ITI06X%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Amobile01.com%20%22Bosch%20SMS2ITI06X%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"Bosch SMS2ITI06X\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22Bosch%20SMS2ITI06X%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"Bosch SMS2ITI06X\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22Bosch%20SMS2ITI06X%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
           "targetHost": "reddit.com"
         }
       ]
@@ -432,7 +432,7 @@
       "currency": "TWD",
       "amount": 29900,
       "converted": 29900,
-      "confidence": "PChome 24h 低價查核"
+      "confidence": "PChome 2026-07-11 API 查核價"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -484,20 +484,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Electrolux EFF3360VWB\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Electrolux%20EFF3360VWB%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Amobile01.com%20%22Electrolux%20EFF3360VWB%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"Electrolux EFF3360VWB\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22Electrolux%20EFF3360VWB%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"Electrolux EFF3360VWB\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22Electrolux%20EFF3360VWB%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
           "targetHost": "reddit.com"
         }
       ]
@@ -515,7 +515,7 @@
       "currency": "TWD",
       "amount": 29900,
       "converted": 29900,
-      "confidence": "PChome 24h 低價查核"
+      "confidence": "PChome 2026-07-11 API 查核價"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -568,20 +568,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"LG DFB533FW\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22LG%20DFB533FW%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Amobile01.com%20%22LG%20DFB533FW%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"LG DFB533FW\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22LG%20DFB533FW%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"LG DFB533FW\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22LG%20DFB533FW%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
           "targetHost": "reddit.com"
         }
       ]
@@ -597,13 +597,13 @@
     "image": "https://cs-a.ecimg.tw/items/DMBR0NA900IIOZ6/000001_1776157892.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 29900,
-      "converted": 29900,
-      "confidence": "PChome 24h 低價查核"
+      "amount": 27900,
+      "converted": 27900,
+      "confidence": "PChome 2026-07-11 API 查核價"
     },
     "channel": "tw",
     "buyLabel": "PChome",
-    "buyUrl": "https://24h.pchome.com.tw/prod/DMBR0N-A900IIOZ6",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DMBR24-A900JQ4N2",
     "specs": [
       "洗碗機：Whirlpool 惠而浦 14人份自動開門獨立式洗碗機 WDFS2R4PWETW",
       "容量/安裝型式依商品頁標示",
@@ -651,20 +651,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Whirlpool WDFS2R4PWETW\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Whirlpool%20WDFS2R4PWETW%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Amobile01.com%20%22Whirlpool%20WDFS2R4PWETW%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"Whirlpool WDFS2R4PWETW\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22Whirlpool%20WDFS2R4PWETW%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"Whirlpool WDFS2R4PWETW\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22Whirlpool%20WDFS2R4PWETW%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
           "targetHost": "reddit.com"
         }
       ]
@@ -682,7 +682,7 @@
       "currency": "TWD",
       "amount": 25600,
       "converted": 25600,
-      "confidence": "PChome 24h 低價查核"
+      "confidence": "PChome 2026-07-11 API 查核價"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -734,20 +734,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Haier H500\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Haier%20H500%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Amobile01.com%20%22Haier%20H500%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"Haier H500\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22Haier%20H500%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"Haier H500\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22Haier%20H500%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
           "targetHost": "reddit.com"
         }
       ]
@@ -765,7 +765,7 @@
       "currency": "TWD",
       "amount": 23310,
       "converted": 23310,
-      "confidence": "PChome 24h 低價查核"
+      "confidence": "PChome 2026-07-11 API 查核價"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -818,20 +818,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"SAKURA E-7682\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22SAKURA%20E-7682%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Amobile01.com%20%22SAKURA%20E-7682%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"SAKURA E-7682\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22SAKURA%20E-7682%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"SAKURA E-7682\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22SAKURA%20E-7682%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
           "targetHost": "reddit.com"
         }
       ]
@@ -849,7 +849,7 @@
       "currency": "TWD",
       "amount": 34999,
       "converted": 34999,
-      "confidence": "PChome 24h 低價查核"
+      "confidence": "PChome 2026-07-11 API 查核價"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -901,20 +901,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Bosch SJU4EKW00W\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Bosch%20SJU4EKW00W%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Amobile01.com%20%22Bosch%20SJU4EKW00W%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"Bosch SJU4EKW00W\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22Bosch%20SJU4EKW00W%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"Bosch SJU4EKW00W\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22Bosch%20SJU4EKW00W%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
           "targetHost": "reddit.com"
         }
       ]
@@ -930,8 +930,8 @@
     "image": "https://cs-a.ecimg.tw/items/DPAL7PA900G5M47/000001_1783049805.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 39500,
-      "converted": 39500,
+      "amount": 36340,
+      "converted": 36340,
       "confidence": "PChome 2026-07-11 API 查核價"
     },
     "channel": "tw",
@@ -985,20 +985,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Fisher & Paykel DD60SHI9\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Fisher%20%26%20Paykel%20DD60SHI9%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Amobile01.com%20%22Fisher%20%26%20Paykel%20DD60SHI9%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"Fisher & Paykel DD60SHI9\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22Fisher%20%26%20Paykel%20DD60SHI9%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"Fisher & Paykel DD60SHI9\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22Fisher%20%26%20Paykel%20DD60SHI9%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
           "targetHost": "reddit.com"
         }
       ]
@@ -1016,7 +1016,7 @@
       "currency": "TWD",
       "amount": 49900,
       "converted": 49900,
-      "confidence": "PChome 24h 低價查核"
+      "confidence": "PChome 2026-07-11 API 查核價"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -1069,20 +1069,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"LG DFB335HS\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22LG%20DFB335HS%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Amobile01.com%20%22LG%20DFB335HS%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"LG DFB335HS\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22LG%20DFB335HS%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"LG DFB335HS\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22LG%20DFB335HS%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
           "targetHost": "reddit.com"
         }
       ]
@@ -1098,8 +1098,8 @@
     "image": "https://cs-a.ecimg.tw/items/DMBR16A900HZZEG/000001_1763949344.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 81999,
-      "converted": 81999,
+      "amount": 74619,
+      "converted": 74619,
       "confidence": "PChome 2026-07-11 API 查核價"
     },
     "channel": "tw",
@@ -1152,20 +1152,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"ASKO DBI544ID.W.TW\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22ASKO%20DBI544ID.W.TW%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Amobile01.com%20%22ASKO%20DBI544ID.W.TW%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"ASKO DBI544ID.W.TW\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22ASKO%20DBI544ID.W.TW%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"ASKO DBI544ID.W.TW\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22ASKO%20DBI544ID.W.TW%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
           "targetHost": "reddit.com"
         }
       ]
@@ -1181,8 +1181,8 @@
     "image": "https://cs-a.ecimg.tw/items/DMBR1WA900K4MYS/000001_1781748945.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 79000,
-      "converted": 79000,
+      "amount": 75050,
+      "converted": 75050,
       "confidence": "PChome 2026-07-11 API 查核價"
     },
     "channel": "tw",
@@ -1236,20 +1236,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Miele G5314 C SCI\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Miele%20G5314%20C%20SCI%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Amobile01.com%20%22Miele%20G5314%20C%20SCI%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"Miele G5314 C SCI\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22Miele%20G5314%20C%20SCI%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"Miele G5314 C SCI\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22Miele%20G5314%20C%20SCI%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
           "targetHost": "reddit.com"
         }
       ]
@@ -1266,8 +1266,8 @@
     "name": "桌上型洗碗機",
     "price": {
       "currency": "TWD",
-      "amount": 11000,
-      "converted": 11000,
+      "amount": 10900,
+      "converted": 10900,
       "confidence": "PChome 2026-07-11 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBR0PA900JBV02/000001_1762938951.jpg",
@@ -1314,20 +1314,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"KE KDW-156W\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22KE%20KDW-156W%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Amobile01.com%20%22KE%20KDW-156W%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"KE KDW-156W\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22KE%20KDW-156W%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"KE KDW-156W\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22KE%20KDW-156W%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
           "targetHost": "reddit.com"
         }
       ]
@@ -1344,8 +1344,8 @@
     "name": "免安裝自動 6 人份洗碗機",
     "price": {
       "currency": "TWD",
-      "amount": 16999,
-      "converted": 16999,
+      "amount": 15809,
+      "converted": 15809,
       "confidence": "PChome 2026-07-11 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBR17A900IHTZ3/000001_1777540146.jpg",
@@ -1392,20 +1392,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Celinda DGF-601\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Celinda%20DGF-601%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Amobile01.com%20%22Celinda%20DGF-601%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"Celinda DGF-601\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22Celinda%20DGF-601%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"Celinda DGF-601\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22Celinda%20DGF-601%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
           "targetHost": "reddit.com"
         }
       ]
@@ -1424,7 +1424,7 @@
       "currency": "TWD",
       "amount": 15990,
       "converted": 15990,
-      "confidence": "可信通路查核價，擷取 2026-07-09"
+      "confidence": "PChome 2026-07-11 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBR25A900J5BGP/000001_1782112645.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBR25-A900J5BGP",
@@ -1470,20 +1470,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Acerpure KW534-60W\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Acerpure%20KW534-60W%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Amobile01.com%20%22Acerpure%20KW534-60W%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"Acerpure KW534-60W\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22Acerpure%20KW534-60W%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"Acerpure KW534-60W\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22Acerpure%20KW534-60W%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
           "targetHost": "reddit.com"
         }
       ]
@@ -1502,7 +1502,7 @@
       "currency": "TWD",
       "amount": 14990,
       "converted": 14990,
-      "confidence": "可信通路查核價，擷取 2026-07-09"
+      "confidence": "PChome 2026-07-11 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBR0PA900IAMAC/000001_1770171922.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBR0P-A900IAMAC",
@@ -1548,20 +1548,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"only OKD06-M22\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22only%20OKD06-M22%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Amobile01.com%20%22only%20OKD06-M22%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"only OKD06-M22\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22only%20OKD06-M22%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"only OKD06-M22\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22only%20OKD06-M22%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
           "targetHost": "reddit.com"
         }
       ]
@@ -1580,7 +1580,7 @@
       "currency": "TWD",
       "amount": 12999,
       "converted": 12999,
-      "confidence": "可信通路查核價，擷取 2026-07-09"
+      "confidence": "PChome 2026-07-11 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBR24A900JFSR7/000001_1762761618.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBR24-A900JFSR7",
@@ -1626,20 +1626,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Xiaomi 桌上型洗碗機\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Xiaomi%20%E6%A1%8C%E4%B8%8A%E5%9E%8B%E6%B4%97%E7%A2%97%E6%A9%9F%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Amobile01.com%20%22Xiaomi%20%E6%A1%8C%E4%B8%8A%E5%9E%8B%E6%B4%97%E7%A2%97%E6%A9%9F%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"Xiaomi 桌上型洗碗機\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22Xiaomi%20%E6%A1%8C%E4%B8%8A%E5%9E%8B%E6%B4%97%E7%A2%97%E6%A9%9F%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"Xiaomi 桌上型洗碗機\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22Xiaomi%20%E6%A1%8C%E4%B8%8A%E5%9E%8B%E6%B4%97%E7%A2%97%E6%A9%9F%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
           "targetHost": "reddit.com"
         }
       ]
@@ -1658,10 +1658,10 @@
       "currency": "TWD",
       "amount": 25599,
       "converted": 25599,
-      "confidence": "Costco 好市多 2026-07-09 查核價"
+      "confidence": "Costco 好市多 2026-07-11 頁面查核價"
     },
     "image": "https://www.costco.com.tw/medias/sys_master/images/h3d/h7a/66317147242526.jpg",
-    "buyUrl": "https://www.costco.com.tw/p/131781",
+    "buyUrl": "https://www.costco.com.tw/Televisions-Appliances/Kitchen-Appliances/Dishwashers-Dish-Dryers/BOSCH-45-cm-Freestanding-Dishwasher-SPS2IKW00X/p/131781",
     "buyLabel": "Costco 好市多",
     "specs": [
       "45 公分獨立式",
@@ -1704,20 +1704,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"BOSCH SPS2IKW00X\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22BOSCH%20SPS2IKW00X%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Amobile01.com%20%22BOSCH%20SPS2IKW00X%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"BOSCH SPS2IKW00X\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22BOSCH%20SPS2IKW00X%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"BOSCH SPS2IKW00X\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22BOSCH%20SPS2IKW00X%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
           "targetHost": "reddit.com"
         }
       ]
@@ -1736,7 +1736,7 @@
       "currency": "TWD",
       "amount": 33999,
       "converted": 33999,
-      "confidence": "Costco 好市多 2026-07-09 查核價"
+      "confidence": "Costco 好市多 2026-07-11 頁面查核價"
     },
     "image": "https://www.costco.com.tw/medias/sys_master/images/h60/hd2/205293596377118.jpg",
     "buyUrl": "https://www.costco.com.tw/Televisions-Appliances/Kitchen-Appliances/Dishwashers-Dish-Dryers/BOSCH-60-cm-Series-4-Freestanding-Dishwasher-SMS4ITW00X/p/143549",
@@ -1785,20 +1785,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Bosch SMS4ITW00X\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Bosch%20SMS4ITW00X%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Amobile01.com%20%22Bosch%20SMS4ITW00X%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"Bosch SMS4ITW00X\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22Bosch%20SMS4ITW00X%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"Bosch SMS4ITW00X\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22Bosch%20SMS4ITW00X%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
           "targetHost": "reddit.com"
         }
       ]
@@ -1866,20 +1866,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Electrolux EFF3560VXB\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Electrolux%20EFF3560VXB%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Amobile01.com%20%22Electrolux%20EFF3560VXB%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"Electrolux EFF3560VXB\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22Electrolux%20EFF3560VXB%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"Electrolux EFF3560VXB\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22Electrolux%20EFF3560VXB%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
           "targetHost": "reddit.com"
         }
       ]

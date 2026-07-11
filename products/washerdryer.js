@@ -17,11 +17,11 @@
       "currency": "TWD",
       "amount": 18029,
       "converted": 18029,
-      "confidence": "Yahoo 購物中心低價查核"
+      "confidence": "Yahoo購物中心 2026-07-11 頁面查核價"
     },
     "channel": "tw",
-    "buyLabel": "Yahoo購物",
-    "buyUrl": "https://tw.buy.yahoo.com/gdsale/LG樂金-9公斤WiFi蒸洗脫烘滾筒洗衣機-WD-S90VDW-贈基本安裝-10216764.html",
+    "buyLabel": "Yahoo購物中心",
+    "buyUrl": "https://tw.buy.yahoo.com/gdsale/LG%E6%A8%82%E9%87%91-9%E5%85%AC%E6%96%A4WiFi%E8%92%B8%E6%B4%97%E8%84%AB%E7%83%98%E6%BB%BE%E7%AD%92%E6%B4%97%E8%A1%A3%E6%A9%9F-WD-S90VDW-%E8%B4%88%E5%9F%BA%E6%9C%AC%E5%AE%89%E8%A3%9D-10216764.html",
     "specs": [
       "洗烘衣機：LG樂金 9公斤WiFi蒸洗脫烘滾筒洗衣機 WD-S90VDW 贈基本安裝 (獨家送好禮)",
       "洗/乾容量：9kg / 6kg",
@@ -72,20 +72,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"LG WD-S90VDW\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22LG%20WD-S90VDW%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Amobile01.com%20%22LG%20WD-S90VDW%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"LG WD-S90VDW\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22LG%20WD-S90VDW%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"LG WD-S90VDW\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22LG%20WD-S90VDW%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
           "targetHost": "reddit.com"
         }
       ]
@@ -101,13 +101,13 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/A884B88BBA-SP-20734610.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 18680,
-      "converted": 18680,
-      "confidence": "Yahoo 購物中心低價查核"
+      "amount": 16900,
+      "converted": 16900,
+      "confidence": "PChome 2026-07-11 API 查核價"
     },
     "channel": "tw",
-    "buyLabel": "Yahoo購物",
-    "buyUrl": "https://tw.buy.yahoo.com/gdsale/Whirlpool-惠而浦-10-5-KG-變頻洗脫烘滾筒式洗衣機-WWEB10701BS-11724575.html",
+    "buyLabel": "PChome",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DPAI1P-A900E4O8Q",
     "specs": [
       "洗烘衣機：Whirlpool 惠而浦 10.5(KG) 變頻洗脫烘滾筒式洗衣機 WWEB10701BS",
       "洗/乾容量：10.5kg / 7kg",
@@ -158,20 +158,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Whirlpool WWEB10701BS\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Whirlpool%20WWEB10701BS%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Amobile01.com%20%22Whirlpool%20WWEB10701BS%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"Whirlpool WWEB10701BS\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22Whirlpool%20WWEB10701BS%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"Whirlpool WWEB10701BS\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22Whirlpool%20WWEB10701BS%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
           "targetHost": "reddit.com"
         }
       ]
@@ -189,11 +189,11 @@
       "currency": "TWD",
       "amount": 17388,
       "converted": 17388,
-      "confidence": "Yahoo 購物中心低價查核"
+      "confidence": "Yahoo購物中心 2026-07-11 頁面查核價"
     },
     "channel": "tw",
-    "buyLabel": "Yahoo購物",
-    "buyUrl": "https://tw.buy.yahoo.com/gdsale/HITACHI日立10-5公斤變頻蒸氣洗脫烘滾筒洗衣機BDD1054HVO-12123864.html",
+    "buyLabel": "Yahoo購物中心",
+    "buyUrl": "https://tw.buy.yahoo.com/gdsale/HITACHI%E6%97%A5%E7%AB%8B10-5%E5%85%AC%E6%96%A4%E8%AE%8A%E9%A0%BB%E8%92%B8%E6%B0%A3%E6%B4%97%E8%84%AB%E7%83%98%E6%BB%BE%E7%AD%92%E6%B4%97%E8%A1%A3%E6%A9%9FBDD1054HVO-12123864.html",
     "specs": [
       "洗烘衣機：HITACHI日立10.5公斤變頻蒸氣洗脫烘滾筒洗衣機BDD1054HVO",
       "洗/乾容量：10.5kg / 7kg",
@@ -244,20 +244,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"HITACHI BDD1054HVO\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22HITACHI%20BDD1054HVO%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Amobile01.com%20%22HITACHI%20BDD1054HVO%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"HITACHI BDD1054HVO\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22HITACHI%20BDD1054HVO%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"HITACHI BDD1054HVO\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22HITACHI%20BDD1054HVO%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
           "targetHost": "reddit.com"
         }
       ]
@@ -273,13 +273,13 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/16E678AC30-SP-17622644.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 11543,
-      "converted": 11543,
-      "confidence": "Yahoo 購物中心低價查核"
+      "amount": 9900,
+      "converted": 9900,
+      "confidence": "PChome 2026-07-11 API 查核價"
     },
     "channel": "tw",
-    "buyLabel": "Yahoo購物",
-    "buyUrl": "https://tw.buy.yahoo.com/gdsale/Whirlpool惠而浦-10公斤洗脫烘滾筒洗衣機-WEHC10BBS-11192285.html",
+    "buyLabel": "PChome",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DPAI1P-A900BAABZ",
     "specs": [
       "洗烘衣機：Whirlpool惠而浦 10公斤洗脫烘滾筒洗衣機 WEHC10BBS",
       "洗/乾容量：10kg / 6kg",
@@ -330,20 +330,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Whirlpool WEHC10BBS\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Whirlpool%20WEHC10BBS%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Amobile01.com%20%22Whirlpool%20WEHC10BBS%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"Whirlpool WEHC10BBS\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22Whirlpool%20WEHC10BBS%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"Whirlpool WEHC10BBS\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22Whirlpool%20WEHC10BBS%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
           "targetHost": "reddit.com"
         }
       ]
@@ -361,11 +361,11 @@
       "currency": "TWD",
       "amount": 24900,
       "converted": 24900,
-      "confidence": "Yahoo 購物中心低價查核"
+      "confidence": "Yahoo購物中心 2026-07-11 頁面查核價"
     },
     "channel": "tw",
-    "buyLabel": "Yahoo購物",
-    "buyUrl": "https://tw.buy.yahoo.com/gdsale/SAMSUNG三星-12公斤蒸洗脫烘滾筒灰色洗衣機-WD12T504DBN-12045641.html",
+    "buyLabel": "Yahoo購物中心",
+    "buyUrl": "https://tw.buy.yahoo.com/gdsale/SAMSUNG%E4%B8%89%E6%98%9F-12%E5%85%AC%E6%96%A4%E8%92%B8%E6%B4%97%E8%84%AB%E7%83%98%E6%BB%BE%E7%AD%92%E7%81%B0%E8%89%B2%E6%B4%97%E8%A1%A3%E6%A9%9F-WD12T504DBN-12045641.html",
     "specs": [
       "洗烘衣機：SAMSUNG三星 12公斤蒸洗脫烘滾筒灰色洗衣機(WD12T504DBN)",
       "洗/乾容量：12kg / 8kg",
@@ -416,20 +416,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Samsung WD12T504DBN/TW\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Samsung%20WD12T504DBN%2FTW%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Amobile01.com%20%22Samsung%20WD12T504DBN%2FTW%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"Samsung WD12T504DBN/TW\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22Samsung%20WD12T504DBN%2FTW%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"Samsung WD12T504DBN/TW\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22Samsung%20WD12T504DBN%2FTW%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
           "targetHost": "reddit.com"
         }
       ]
@@ -447,11 +447,11 @@
       "currency": "TWD",
       "amount": 42054,
       "converted": 42054,
-      "confidence": "Yahoo 購物中心低價查核"
+      "confidence": "Yahoo購物中心 2026-07-11 頁面查核價"
     },
     "channel": "tw",
-    "buyLabel": "Yahoo購物",
-    "buyUrl": "https://tw.buy.yahoo.com/gdsale/Panasonic國際牌-17公斤-變頻溫水洗脫烘滾筒洗衣機-晶鑽白-NA-V170MDH-W-10287718.html",
+    "buyLabel": "Yahoo購物中心",
+    "buyUrl": "https://tw.buy.yahoo.com/gdsale/Panasonic%E5%9C%8B%E9%9A%9B%E7%89%8C-17%E5%85%AC%E6%96%A4-%E8%AE%8A%E9%A0%BB%E6%BA%AB%E6%B0%B4%E6%B4%97%E8%84%AB%E7%83%98%E6%BB%BE%E7%AD%92%E6%B4%97%E8%A1%A3%E6%A9%9F-%E6%99%B6%E9%91%BD%E7%99%BD-NA-V170MDH-W-10287718.html",
     "specs": [
       "洗烘衣機：Panasonic國際牌 17公斤 變頻溫水洗脫烘滾筒洗衣機 晶鑽白 NA-V170MDH-W",
       "洗/乾容量：17kg / 10kg",
@@ -502,20 +502,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Panasonic NA-V170MDH-W\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Panasonic%20NA-V170MDH-W%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Amobile01.com%20%22Panasonic%20NA-V170MDH-W%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"Panasonic NA-V170MDH-W\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22Panasonic%20NA-V170MDH-W%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"Panasonic NA-V170MDH-W\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22Panasonic%20NA-V170MDH-W%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
           "targetHost": "reddit.com"
         }
       ]
@@ -531,13 +531,13 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/88F364AB6B-SP-11096810.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 31810,
-      "converted": 31810,
-      "confidence": "Yahoo 購物中心低價查核"
+      "amount": 29900,
+      "converted": 29900,
+      "confidence": "PChome 2026-07-11 API 查核價"
     },
     "channel": "tw",
-    "buyLabel": "Yahoo購物",
-    "buyUrl": "https://tw.buy.yahoo.com/gdsale/送王品集團餐券2張-LG樂金13公斤蒸氣洗脫烘洗衣機WD-S13VDW-9922820.html",
+    "buyLabel": "PChome",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DPAI1L-A900EP6CY",
     "specs": [
       "洗烘衣機：LG樂金13公斤蒸氣洗脫烘AI自動洗劑洗衣機WD-S13VDW",
       "洗/乾容量：13kg / 8kg",
@@ -619,11 +619,11 @@
       "currency": "TWD",
       "amount": 43563,
       "converted": 43563,
-      "confidence": "Yahoo 購物中心低價查核"
+      "confidence": "Yahoo購物中心 2026-07-11 頁面查核價"
     },
     "channel": "tw",
-    "buyLabel": "Yahoo購物",
-    "buyUrl": "https://tw.buy.yahoo.com/gdsale/惠而浦Whirlpool-8TWFC6820LW-17-10kg-滾筒洗衣機-洗脫烘-10053955.html",
+    "buyLabel": "Yahoo購物中心",
+    "buyUrl": "https://tw.buy.yahoo.com/gdsale/%E6%83%A0%E8%80%8C%E6%B5%A6Whirlpool-8TWFC6820LW-17-10kg-%E6%BB%BE%E7%AD%92%E6%B4%97%E8%A1%A3%E6%A9%9F-%E6%B4%97%E8%84%AB%E7%83%98-10053955.html",
     "specs": [
       "洗烘衣機：Whirlpool惠而浦 17/10kg 洗脫烘滾筒洗衣機 8TWFC6820LW",
       "洗/乾容量：17kg / 10kg",
@@ -674,20 +674,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Whirlpool 8TWFC6820LW\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Whirlpool%208TWFC6820LW%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Amobile01.com%20%22Whirlpool%208TWFC6820LW%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"Whirlpool 8TWFC6820LW\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22Whirlpool%208TWFC6820LW%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"Whirlpool 8TWFC6820LW\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22Whirlpool%208TWFC6820LW%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
           "targetHost": "reddit.com"
         }
       ]
@@ -703,13 +703,13 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/826F52E782-SP-22137065.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 34022,
-      "converted": 34022,
-      "confidence": "Yahoo 購物中心低價查核"
+      "amount": 32390,
+      "converted": 32390,
+      "confidence": "momo購物 2026-07-11 頁面查核價"
     },
     "channel": "tw",
-    "buyLabel": "Yahoo購物",
-    "buyUrl": "https://tw.buy.yahoo.com/gdsale/HITACHI日立10公斤日本原裝AI智慧直立式洗脫烘洗衣機BWDV100EJ-11998155.html",
+    "buyLabel": "momo購物",
+    "buyUrl": "https://www.momoshop.com.tw/TP/TP0006837/goodsDetail/TP00068370000303",
     "specs": [
       "洗烘衣機：HITACHI日立10公斤日本原裝AI智慧直立式洗脫烘洗衣機BWDV100EJ",
       "洗/乾容量：10kg / 5.5kg",
@@ -760,20 +760,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"HITACHI BWDV100EJ\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22HITACHI%20BWDV100EJ%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Amobile01.com%20%22HITACHI%20BWDV100EJ%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"HITACHI BWDV100EJ\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22HITACHI%20BWDV100EJ%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"HITACHI BWDV100EJ\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22HITACHI%20BWDV100EJ%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
           "targetHost": "reddit.com"
         }
       ]
@@ -791,11 +791,11 @@
       "currency": "TWD",
       "amount": 45493,
       "converted": 45493,
-      "confidence": "Yahoo 購物中心 2026-07-11 schema 查核價"
+      "confidence": "Yahoo購物中心 2026-07-11 頁面查核價"
     },
     "channel": "tw",
-    "buyLabel": "Yahoo購物",
-    "buyUrl": "https://tw.buy.yahoo.com/gdsale/LG樂金-18公斤-蒸洗脫烘-AI-DD蒸氣滾筒洗衣機-夜墨灰-WD-S18NDB-11390798.html",
+    "buyLabel": "Yahoo購物中心",
+    "buyUrl": "https://tw.buy.yahoo.com/gdsale/LG%E6%A8%82%E9%87%91-18%E5%85%AC%E6%96%A4-%E8%92%B8%E6%B4%97%E8%84%AB%E7%83%98-AI-DD%E8%92%B8%E6%B0%A3%E6%BB%BE%E7%AD%92%E6%B4%97%E8%A1%A3%E6%A9%9F-%E5%A4%9C%E5%A2%A8%E7%81%B0-WD-S18NDB-11390798.html",
     "specs": [
       "洗烘衣機：LG樂金 18公斤 蒸洗脫烘 AI DD蒸氣滾筒洗衣機 夜墨灰 WD-S18NDB",
       "洗/乾容量：18kg / 10kg",
@@ -846,20 +846,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"LG WD-S18NDB\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22LG%20WD-S18NDB%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Amobile01.com%20%22LG%20WD-S18NDB%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"LG WD-S18NDB\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22LG%20WD-S18NDB%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"LG WD-S18NDB\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22LG%20WD-S18NDB%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
           "targetHost": "reddit.com"
         }
       ]
@@ -875,13 +875,13 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/0150C6484E-SP-18861499.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 38900,
-      "converted": 38900,
-      "confidence": "Yahoo 購物中心低價查核"
+      "amount": 33900,
+      "converted": 33900,
+      "confidence": "momo購物 2026-07-11 頁面查核價"
     },
     "channel": "tw",
-    "buyLabel": "Yahoo購物",
-    "buyUrl": "https://tw.buy.yahoo.com/gdsale/SAMSUNG三星-送禮卷-1000-WD12DB9B84GNTW-蒸洗脫烘-12-7KG-Besp-11467508.html",
+    "buyLabel": "momo購物",
+    "buyUrl": "https://www.momoshop.com.tw/TP/TP0003952/goodsDetail/TP00039520005819",
     "specs": [
       "洗烘衣機：SAMSUNG三星 WD12DB9B84GNTW 蒸洗脫烘 12+7KG Bespoke AI智慧滾筒洗衣機",
       "洗/乾容量：12kg / 7kg",
@@ -932,20 +932,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Samsung WD12DB9B84GNTW\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Samsung%20WD12DB9B84GNTW%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Amobile01.com%20%22Samsung%20WD12DB9B84GNTW%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"Samsung WD12DB9B84GNTW\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22Samsung%20WD12DB9B84GNTW%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"Samsung WD12DB9B84GNTW\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22Samsung%20WD12DB9B84GNTW%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
           "targetHost": "reddit.com"
         }
       ]
@@ -963,11 +963,11 @@
       "currency": "TWD",
       "amount": 38900,
       "converted": 38900,
-      "confidence": "Yahoo 購物中心低價查核"
+      "confidence": "PChome 2026-07-11 API 查核價"
     },
     "channel": "tw",
-    "buyLabel": "Yahoo購物",
-    "buyUrl": "https://tw.buy.yahoo.com/gdsale/SAMSUNG三星-WD12DB9B84GDTW-蒸洗脫烘-12-7KG-Bespoke-AI智慧滾-11792799.html",
+    "buyLabel": "PChome",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DPAI1N-A900I8IJ8",
     "specs": [
       "洗烘衣機：SAMSUNG三星 WD12DB9B84GDTW 蒸洗脫烘 12+7KG Bespoke AI智慧滾筒洗衣機",
       "洗/乾容量：12kg / 7kg",
@@ -1018,20 +1018,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Samsung WD12DB9B84GDTW\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Samsung%20WD12DB9B84GDTW%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Amobile01.com%20%22Samsung%20WD12DB9B84GDTW%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"Samsung WD12DB9B84GDTW\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22Samsung%20WD12DB9B84GDTW%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"Samsung WD12DB9B84GDTW\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22Samsung%20WD12DB9B84GDTW%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
           "targetHost": "reddit.com"
         }
       ]
@@ -1049,11 +1049,11 @@
       "currency": "TWD",
       "amount": 21414,
       "converted": 21414,
-      "confidence": "Yahoo 購物中心低價查核"
+      "confidence": "Yahoo購物中心 2026-07-11 頁面查核價"
     },
     "channel": "tw",
-    "buyLabel": "Yahoo購物",
-    "buyUrl": "https://tw.buy.yahoo.com/gdsale/Panasonic國際牌-12KG-變頻洗脫烘滾筒洗衣機-NA-V120HDH-G-9125106.html",
+    "buyLabel": "Yahoo購物中心",
+    "buyUrl": "https://tw.buy.yahoo.com/gdsale/Panasonic%E5%9C%8B%E9%9A%9B%E7%89%8C-12KG-%E8%AE%8A%E9%A0%BB%E6%B4%97%E8%84%AB%E7%83%98%E6%BB%BE%E7%AD%92%E6%B4%97%E8%A1%A3%E6%A9%9F-NA-V120HDH-G-9125106.html",
     "specs": [
       "洗烘衣機：Panasonic國際牌 12KG 變頻洗脫烘滾筒洗衣機 NA-V120HDH-G",
       "洗/乾容量：12kg / 8kg",
@@ -1104,51 +1104,51 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Panasonic NA-V120HDH\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Panasonic%20NA-V120HDH%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Amobile01.com%20%22Panasonic%20NA-V120HDH%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"Panasonic NA-V120HDH\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22Panasonic%20NA-V120HDH%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"Panasonic NA-V120HDH\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22Panasonic%20NA-V120HDH%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
           "targetHost": "reddit.com"
         }
       ]
     }
   },
   {
-    "id": "washerdryer-lg-wd-s18dnb",
+    "id": "washerdryer-lg-wd-s18vdw",
     "rank": 14,
     "topPick": false,
     "brand": "LG",
-    "model": "WD-S18DNB",
-    "name": "LG WD-S18DNB",
-    "image": "https://img.yec.tw/zp/MerchandiseImages/2beb4f5cfc-Gd-11689315.jpg",
+    "model": "WD-S18VDW",
+    "name": "LG WD-S18VDW",
+    "image": "https://img.yec.tw/zp/MerchandiseImages/BCB950DBF0-SP-13742246.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 46111,
-      "converted": 46111,
-      "confidence": "Yahoo 購物中心低價查核"
+      "amount": 48900,
+      "converted": 48900,
+      "confidence": "Yahoo購物中心 2026-07-11 公開售價查核"
     },
     "channel": "tw",
-    "buyLabel": "Yahoo購物",
-    "buyUrl": "https://tw.buy.yahoo.com/gdsale/LG樂金-WD-S18NDB-18KG-洗脫烘-AIDD直驅變頻蒸氣滾筒洗衣機-殺菌除螨-夜墨灰-11689315.html",
+    "buyLabel": "Yahoo購物中心",
+    "buyUrl": "https://tw.buy.yahoo.com/gdsale/LG%E6%A8%82%E9%87%91-18%E5%85%AC%E6%96%A4-%E8%92%B8%E6%B4%97%E8%84%AB%E7%83%98-%E6%BB%BE%E7%AD%92%E6%B4%97%E8%A1%A3%E6%A9%9F-%E5%86%B0%E7%93%B7%E7%99%BD-WD-S18VDW-10547430.html",
     "specs": [
-      "洗烘衣機：LG樂金 WD-S18NDB 18KG 洗脫烘 AIDD直驅變頻蒸氣滾筒洗衣機 殺菌除螨 夜墨灰",
+      "洗烘衣機：LG 18公斤滾筒洗衣機 冰瓷白 AI DD 蒸洗脫烘 WD-S18VDW",
       "洗/乾容量：18kg / 10kg",
-      "尺寸：寬 65 x 深 78 x 高 95 cm",
-      "烘乾方式：依商品頁標示",
-      "蒸氣/除菌：有標示",
-      "自動投入：依商品頁標示",
+      "尺寸：寬 70 x 深 77 x 高 99 cm",
+      "烘乾方式：品牌頁未明確標示",
+      "蒸氣/除菌：Steam 蒸氣洗",
+      "自動投入：無",
       "乾衣容量通常低於洗衣容量；需確認散熱、排水與門向",
-      "Yahoo購物 可信通路低價；排除福利品、展示機、底座與配件頁"
+      "Yahoo購物中心公開售價；排除福利品、展示機、底座、配件頁與不同套裝"
     ],
     "description": "聚焦洗衣與烘乾整合機，依洗/乾容量、熱泵或冷凝方式、洗程時間、空間節省、價格與售後排序。",
     "pros": [
@@ -1162,7 +1162,7 @@
       "高階多功能機維修成本與機身重量較高"
     ],
     "bestFor": "家中空間有限、希望少搬衣服並接受較長洗烘時間的人。",
-    "recommendation": "洗烘衣機第 14 推薦：LG WD-S18DNB 以洗乾容量、價格、功能與售後風險綜合評估，適合小空間家庭比較。",
+    "recommendation": "洗烘衣機第 14 推薦：LG WD-S18VDW 以 18/10kg 洗乾容量、蒸氣洗、價格與台灣售後綜合評估，適合需要大容量一機洗烘的家庭比較。",
     "voltage": "多數為 110V 台灣通路；需確認進排水、烘乾容量、門向、散熱與安裝空間",
     "warranty": "依可信通路與品牌/供應商頁面標示；大型家電安裝與搬運費依通路方案",
     "score": 83,
@@ -1185,25 +1185,25 @@
       "evidenceSnippet": "",
       "sourceKind": "not_found",
       "confidence": "not_found",
-      "checkedAt": "2026-07-09",
-      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：BigGo LG WD-S18DNB: 查詢失敗 429 https://biggo.com.tw/api/v1/spa/search/LG%20WD-S18DNB/product?p=1；BigGo WD-S18DNB: 查詢失敗 429 https://biggo.com.tw/api/v1/spa/search/WD-S18DNB/product?p=1。"
+      "checkedAt": "2026-07-11",
+      "note": "已查 LG 官方、Yahoo購物中心、FindPrice、BigGo 與 Costco 可發現候選；未找到 WD-S18VDW 單機同套裝可公開驗證的可信新品史低。排除展品出清、需來電或私訊取得的非公開價，以及另含 MiniWash 的不同套裝。"
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
-          "query": "site:mobile01.com \"LG WD-S18DNB\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22LG%20WD-S18DNB%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "query": "site:mobile01.com \"LG WD-S18VDW\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?q=site%3Amobile01.com%20%22LG%20WD-S18VDW%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"LG WD-S18DNB\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22LG%20WD-S18DNB%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"LG WD-S18VDW\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.bing.com/search?q=site%3Areddit.com%20%22LG%20WD-S18VDW%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
           "targetHost": "reddit.com"
         }
       ]
@@ -1219,13 +1219,13 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/76C761CD55-SP-20730912.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 35910,
-      "converted": 35910,
-      "confidence": "Yahoo 購物中心低價查核"
+      "amount": 33000,
+      "converted": 33000,
+      "confidence": "Yahoo購物中心 2026-07-11 頁面查核價"
     },
     "channel": "tw",
-    "buyLabel": "Yahoo購物",
-    "buyUrl": "https://tw.buy.yahoo.com/gdsale/Whirlpool-惠而浦-15-KG-變頻洗脫烘滾筒式洗衣機-8TWFC6810LW-11724574.html",
+    "buyLabel": "Yahoo購物中心",
+    "buyUrl": "https://tw.buy.yahoo.com/gdsale/gdsale.asp?gdid=p0214264897550",
     "specs": [
       "洗烘衣機：Whirlpool 惠而浦 15(KG) 變頻洗脫烘滾筒式洗衣機 8TWFC6810LW",
       "洗/乾容量：15kg / 10kg",
@@ -1276,20 +1276,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Whirlpool 8TWFC6810LW\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Whirlpool%208TWFC6810LW%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Amobile01.com%20%22Whirlpool%208TWFC6810LW%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"Whirlpool 8TWFC6810LW\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22Whirlpool%208TWFC6810LW%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"Whirlpool 8TWFC6810LW\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22Whirlpool%208TWFC6810LW%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
           "targetHost": "reddit.com"
         }
       ]
@@ -1307,11 +1307,11 @@
       "currency": "TWD",
       "amount": 19465,
       "converted": 19465,
-      "confidence": "Yahoo 購物中心低價查核"
+      "confidence": "Yahoo購物中心 2026-07-11 頁面查核價"
     },
     "channel": "tw",
-    "buyLabel": "Yahoo購物",
-    "buyUrl": "https://tw.buy.yahoo.com/gdsale/TOSHIBA東芝-TWD-BJ130M4G-12公斤-變頻溫水洗脫烘滾筒洗衣機-白色-11624484.html",
+    "buyLabel": "Yahoo購物中心",
+    "buyUrl": "https://tw.buy.yahoo.com/gdsale/TOSHIBA%E6%9D%B1%E8%8A%9D-TWD-BJ130M4G-12%E5%85%AC%E6%96%A4-%E8%AE%8A%E9%A0%BB%E6%BA%AB%E6%B0%B4%E6%B4%97%E8%84%AB%E7%83%98%E6%BB%BE%E7%AD%92%E6%B4%97%E8%A1%A3%E6%A9%9F-%E7%99%BD%E8%89%B2-11624484.html",
     "specs": [
       "洗烘衣機：TOSHIBA東芝 TWD-BJ130M4G 12公斤 變頻溫水洗脫烘滾筒洗衣機 白色",
       "洗/乾容量：12kg / 8kg",
@@ -1393,11 +1393,11 @@
       "currency": "TWD",
       "amount": 34873,
       "converted": 34873,
-      "confidence": "Yahoo 購物中心低價查核"
+      "confidence": "Yahoo購物中心 2026-07-11 頁面查核價"
     },
     "channel": "tw",
-    "buyLabel": "Yahoo購物",
-    "buyUrl": "https://tw.buy.yahoo.com/gdsale/Panasonic-國際牌-15-10kg滾筒式溫水洗脫烘變頻洗衣機-NA-V150MDH含基本安裝-10266758.html",
+    "buyLabel": "Yahoo購物中心",
+    "buyUrl": "https://tw.buy.yahoo.com/gdsale/Panasonic-%E5%9C%8B%E9%9A%9B%E7%89%8C-15-10kg%E6%BB%BE%E7%AD%92%E5%BC%8F%E6%BA%AB%E6%B0%B4%E6%B4%97%E8%84%AB%E7%83%98%E8%AE%8A%E9%A0%BB%E6%B4%97%E8%A1%A3%E6%A9%9F-NA-V150MDH%E5%90%AB%E5%9F%BA%E6%9C%AC%E5%AE%89%E8%A3%9D-10266758.html",
     "specs": [
       "洗烘衣機：Panasonic 國際牌 15/10kg滾筒式溫水洗脫烘ECONAVI變頻洗衣機 NA-V150MDH -含基本安裝+舊機回收",
       "洗/乾容量：15kg / 10kg",
@@ -1448,20 +1448,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Panasonic NA-V150MDH\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Panasonic%20NA-V150MDH%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Amobile01.com%20%22Panasonic%20NA-V150MDH%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"Panasonic NA-V150MDH\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22Panasonic%20NA-V150MDH%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"Panasonic NA-V150MDH\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22Panasonic%20NA-V150MDH%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
           "targetHost": "reddit.com"
         }
       ]
@@ -1477,13 +1477,13 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/AEFBFC8FF7-SP-20999855.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 19149,
-      "converted": 19149,
-      "confidence": "Yahoo 購物中心低價查核"
+      "amount": 17900,
+      "converted": 17900,
+      "confidence": "momo購物 2026-07-11 頁面查核價"
     },
     "channel": "tw",
-    "buyLabel": "Yahoo購物",
-    "buyUrl": "https://tw.buy.yahoo.com/gdsale/SANLUX台灣三洋12公斤滾筒洗脫烘變頻洗衣機AWD-1260KA-11777618.html",
+    "buyLabel": "momo購物",
+    "buyUrl": "https://www.momoshop.com.tw/TP/TP0007894/goodsDetail/TP00078940002480",
     "specs": [
       "洗烘衣機：SANLUX台灣三洋12公斤滾筒洗脫烘變頻洗衣機AWD-1260KA",
       "洗/乾容量：12kg / 6kg",
@@ -1534,20 +1534,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"SANLUX AWD-1260KA\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22SANLUX%20AWD-1260KA%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Amobile01.com%20%22SANLUX%20AWD-1260KA%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"SANLUX AWD-1260KA\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22SANLUX%20AWD-1260KA%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"SANLUX AWD-1260KA\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22SANLUX%20AWD-1260KA%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
           "targetHost": "reddit.com"
         }
       ]
@@ -1563,13 +1563,13 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/B93D360F93-SP-22731145.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 20745,
-      "converted": 20745,
-      "confidence": "Yahoo 購物中心低價查核"
+      "amount": 19500,
+      "converted": 19500,
+      "confidence": "momo購物 2026-07-11 頁面查核價"
     },
     "channel": "tw",
-    "buyLabel": "Yahoo購物",
-    "buyUrl": "https://tw.buy.yahoo.com/gdsale/SANLUX台灣三洋13公斤洗脫烘滾筒洗衣機AWD-1390MD-12111191.html",
+    "buyLabel": "momo購物",
+    "buyUrl": "https://www.momoshop.com.tw/TP/TP0007894/goodsDetail/TP00078940002821",
     "specs": [
       "洗烘衣機：SANLUX台灣三洋13公斤洗脫烘滾筒洗衣機AWD-1390HA",
       "洗/乾容量：13kg / 9kg",
@@ -1607,33 +1607,33 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 20745,
+      "amount": 19500,
       "currency": "TWD",
-      "converted": 20745,
-      "sourceUrl": "https://tw.buy.yahoo.com/gdsale/SANLUX台灣三洋13公斤洗脫烘滾筒洗衣機AWD-1390MD-12111191.html",
-      "sourceTitle": "Yahoo購物中心 JSON-LD：SANLUX台灣三洋13公斤洗脫烘滾筒洗衣機AWD-1390HA | 變頻11-13KG | Yahoo購物中心",
-      "evidenceSnippet": "Yahoo購物中心 JSON-LD 於 2026-07-10 回傳同一商品頁「SANLUX台灣三洋13公斤洗脫烘滾筒洗衣機AWD-1390HA | 變頻11-13KG | Yahoo購物中心」查核價 NT$20,745，低於原先記錄史低。",
+      "converted": 19500,
+      "sourceUrl": "https://www.momoshop.com.tw/TP/TP0007894/goodsDetail/TP00078940002821",
+      "sourceTitle": "momo購物 商品頁：【SANLUX 台灣三洋】AWD-1390HA 13公斤 變頻洗脫烘滾筒洗衣機 (含基本安裝)",
+      "evidenceSnippet": "momo購物 原始商品頁／API 於 2026-07-11 顯示同型號新品公開價 19500 TWD，低於既有可驗證史低。",
       "sourceKind": "retailer_page",
-      "confidence": "medium",
-      "checkedAt": "2026-07-10",
-      "note": "採用可信通路同一商品頁可公開查核現價作為本次觀測到的最低價；同型號/規格並排除會員個人化折扣、信用卡回饋、點數、二手、福利品、展示機、箱損、拆封與整新品。"
+      "confidence": "high",
+      "checkedAt": "2026-07-11",
+      "note": "採用同型號、同尺寸／容量／規格的可信新品公開價；排除會員個人化折扣、信用卡回饋、點數、二手、福利品、展示、拆封與整新品。"
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"SANLUX AWD-1390HA\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22SANLUX%20AWD-1390HA%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Amobile01.com%20%22SANLUX%20AWD-1390HA%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"SANLUX AWD-1390HA\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22SANLUX%20AWD-1390HA%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"SANLUX AWD-1390HA\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22SANLUX%20AWD-1390HA%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
           "targetHost": "reddit.com"
         }
       ]
@@ -1649,13 +1649,13 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/c6118894bf-Gd-10375207.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 15888,
-      "converted": 15888,
-      "confidence": "Yahoo 購物中心低價查核"
+      "amount": 15093,
+      "converted": 15093,
+      "confidence": "momo購物 2026-07-11 頁面查核價"
     },
     "channel": "tw",
-    "buyLabel": "Yahoo購物",
-    "buyUrl": "https://tw.buy.yahoo.com/gdsale/SAMPO聲寶-10KG-抑菌蒸能洗-洗脫烘變頻滾筒洗衣機-ES-ND10DH-含基本安裝-舊機回收-10375207.html",
+    "buyLabel": "momo購物",
+    "buyUrl": "https://www.momoshop.com.tw/TP/TP0001568/goodsDetail/TP00015680000982",
     "specs": [
       "洗烘衣機：SAMPO聲寶 10公斤抑菌蒸能洗脫烘變頻滾筒洗衣機ES-ND10DH含基本安裝+舊機回收",
       "洗/乾容量：10kg / 6kg",
@@ -1693,33 +1693,33 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 15888,
+      "amount": 15093,
       "currency": "TWD",
-      "converted": 15888,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1249491901&cgp=15888",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：(店+)【SAMPO 聲寶】贈7-11商品卡 3000元 10/6kg變頻滾筒洗脫烘洗衣機ES-ND10DH 含基本安裝+舊機回收",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / (店+)【SAMPO 聲寶】贈7-11商品卡 3000元 10/6kg變頻滾筒洗脫烘洗衣機ES-ND10DH 含基本安裝+舊機回收」最低價為 NT$15,888，最低點日期 2026-07-09。",
-      "sourceKind": "price_history",
-      "confidence": "medium",
-      "checkedAt": "2026-07-09",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+      "converted": 15093,
+      "sourceUrl": "https://www.momoshop.com.tw/TP/TP0001568/goodsDetail/TP00015680000982",
+      "sourceTitle": "momo購物 商品頁：【SAMPO 聲寶】10公斤抑菌蒸能洗變頻滾筒洗衣機  ES-ND10DH（跨區費另計）",
+      "evidenceSnippet": "momo購物 原始商品頁／API 於 2026-07-11 顯示同型號新品公開價 15093 TWD，低於既有可驗證史低。",
+      "sourceKind": "retailer_page",
+      "confidence": "high",
+      "checkedAt": "2026-07-11",
+      "note": "採用同型號、同尺寸／容量／規格的可信新品公開價；排除會員個人化折扣、信用卡回饋、點數、二手、福利品、展示、拆封與整新品。"
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"SAMPO ES-ND10DH\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22SAMPO%20ES-ND10DH%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Amobile01.com%20%22SAMPO%20ES-ND10DH%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"SAMPO ES-ND10DH\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22SAMPO%20ES-ND10DH%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"SAMPO ES-ND10DH\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22SAMPO%20ES-ND10DH%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
           "targetHost": "reddit.com"
         }
       ]
@@ -1738,10 +1738,10 @@
       "currency": "TWD",
       "amount": 31999,
       "converted": 31999,
-      "confidence": "Costco 好市多 2026-07-09 查核價"
+      "confidence": "Costco 好市多 2026-07-11 頁面查核價"
     },
     "image": "https://www.costco.com.tw/medias/sys_master/images/h7b/h3c/346620867051550.jpg",
-    "buyUrl": "https://www.costco.com.tw/Large-Appliances/p/152411",
+    "buyUrl": "https://www.costco.com.tw/Televisions-Appliances/Large-Appliances/Washers-Dryers/Washer-Size-10-15-kg/Electrolux-12-kg-9-kg-UltimateCare-700-Washer-Dryer-EWW1243R7WC/p/152411",
     "buyLabel": "Costco 好市多",
     "specs": [
       "洗/乾容量：12kg / 9kg",
@@ -1785,20 +1785,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Electrolux EWW1243R7WC\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Electrolux%20EWW1243R7WC%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Amobile01.com%20%22Electrolux%20EWW1243R7WC%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"Electrolux EWW1243R7WC\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22Electrolux%20EWW1243R7WC%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"Electrolux EWW1243R7WC\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22Electrolux%20EWW1243R7WC%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
           "targetHost": "reddit.com"
         }
       ]
@@ -1817,7 +1817,7 @@
       "currency": "TWD",
       "amount": 25599,
       "converted": 25599,
-      "confidence": "Costco 好市多 2026-07-09 查核價"
+      "confidence": "Costco 好市多 2026-07-11 頁面查核價"
     },
     "image": "https://www.costco.com.tw/medias/sys_master/images/hfb/h3d/420197074894878.jpg",
     "buyUrl": "https://www.costco.com.tw/Televisions-Appliances/Large-Appliances/Washers-Dryers/Washer-Size-10-15-kg/SHARP-13-kg8-kg-Front-Load-Washer-and-Dryer-Combo-ES-FD13BT/p/155140",
@@ -1866,20 +1866,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"SHARP ES-FD13BT\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22SHARP%20ES-FD13BT%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Amobile01.com%20%22SHARP%20ES-FD13BT%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"SHARP ES-FD13BT\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22SHARP%20ES-FD13BT%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"SHARP ES-FD13BT\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22SHARP%20ES-FD13BT%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
           "targetHost": "reddit.com"
         }
       ]
@@ -1898,7 +1898,7 @@
       "currency": "TWD",
       "amount": 24999,
       "converted": 24999,
-      "confidence": "Costco 好市多 2026-07-09 查核價"
+      "confidence": "Costco 好市多 2026-07-11 頁面查核價"
     },
     "image": "https://www.costco.com.tw/medias/sys_master/images/h62/h7f/332442479263774.jpg",
     "buyUrl": "https://www.costco.com.tw/Televisions-Appliances/Large-Appliances/Washers-Dryers/Washer-Size-10-15-kg/Electrolux-11-kg-7-kg-Ultimate-Care-500-Washer-Dryer-EWW1123P5WC/p/151339",
@@ -1947,20 +1947,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Electrolux EWW1123P5WC\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Electrolux%20EWW1123P5WC%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Amobile01.com%20%22Electrolux%20EWW1123P5WC%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"Electrolux EWW1123P5WC\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22Electrolux%20EWW1123P5WC%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"Electrolux EWW1123P5WC\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22Electrolux%20EWW1123P5WC%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
           "targetHost": "reddit.com"
         }
       ]

@@ -131,6 +131,10 @@
   min-width: 0;
 }
 
+.result-status .field-label {
+  margin: 0;
+}
+
 .result-status strong {
   display: block;
   margin-top: 2px;

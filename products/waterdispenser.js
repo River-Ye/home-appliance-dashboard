@@ -15,8 +15,8 @@
     "image": "https://cs-a.ecimg.tw/items/DAANBRA900ASZRJ/000001_1758695631.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 9190,
-      "converted": 9190,
+      "amount": 8087,
+      "converted": 8087,
       "confidence": "PChome 2026-07-11 API 查核價"
     },
     "channel": "tw",
@@ -72,20 +72,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"3M S301\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%223M%20S301%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%223M%20S301%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"3M S301\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%223M%20S301%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"3M S301\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%223M%20S301%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
           "targetHost": "reddit.com"
         }
       ]
@@ -103,7 +103,7 @@
       "currency": "TWD",
       "amount": 19800,
       "converted": 19800,
-      "confidence": "PChome 24h 低價查核"
+      "confidence": "PChome 2026-07-11 API 查核價"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -156,20 +156,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"3M HFRO 800G\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%223M%20HFRO%20800G%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%223M%20HFRO%20800G%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"3M HFRO 800G\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%223M%20HFRO%20800G%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"3M HFRO 800G\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%223M%20HFRO%20800G%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
           "targetHost": "reddit.com"
         }
       ]
@@ -185,13 +185,13 @@
     "image": "https://cs-a.ecimg.tw/items/DMAW25A900G453U/000001_1781668075.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 8590,
-      "converted": 8590,
-      "confidence": "PChome 24h 低價查核"
+      "amount": 8333,
+      "converted": 8333,
+      "confidence": "Yahoo購物中心 2026-07-11 頁面查核價"
     },
     "channel": "tw",
-    "buyLabel": "PChome",
-    "buyUrl": "https://24h.pchome.com.tw/prod/DMAW25-A900G453U",
+    "buyLabel": "Yahoo購物中心",
+    "buyUrl": "https://tw.buy.yahoo.com/gdsale/EVERPURE-%E6%84%9B%E6%83%A0%E6%B5%A6-%E6%AB%A5%E4%B8%8B%E5%9E%8B-H300NXT-%E7%94%9F%E9%A3%B2%E6%B7%A8%E6%B0%B4%E5%99%A8-%E5%8D%87%E7%B4%9A%E4%B8%8D%E9%8F%BD%E9%8B%BC%E9%BE%8D%E9%A0%AD-12063907.html",
     "specs": [
       "櫥下飲水機：愛惠浦 EVERPURE PURVIVE-H300NXT單道式廚下型淨水器(升級不鏽鋼龍頭)",
       "EVERPURE愛惠浦 櫥下型 PURVIVE-H300NXT生飲淨水器(升級不鏽鋼龍頭)",
@@ -241,20 +241,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"EVERPURE PURVIVE-H300NXT\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22EVERPURE%20PURVIVE-H300NXT%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22EVERPURE%20PURVIVE-H300NXT%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"EVERPURE PURVIVE-H300NXT\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22EVERPURE%20PURVIVE-H300NXT%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"EVERPURE PURVIVE-H300NXT\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22EVERPURE%20PURVIVE-H300NXT%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
           "targetHost": "reddit.com"
         }
       ]
@@ -270,13 +270,13 @@
     "image": "https://cs-a.ecimg.tw/items/DMCI1NA900HIJUW/000001_1782095197.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 9900,
-      "converted": 9900,
-      "confidence": "PChome 24h 低價查核"
+      "amount": 9108,
+      "converted": 9108,
+      "confidence": "Yahoo購物中心 2026-07-11 頁面查核價"
     },
     "channel": "tw",
-    "buyLabel": "PChome",
-    "buyUrl": "https://24h.pchome.com.tw/prod/DMCI1N-A900HIJUW",
+    "buyLabel": "Yahoo購物中心",
+    "buyUrl": "https://tw.buy.yahoo.com/gdsale/Coway-%E6%BF%BE%E6%B7%A8%E6%99%BA%E6%8E%A7%E9%A3%B2%E6%B0%B4%E6%A9%9F-%E5%86%B0%E6%BA%AB%E7%9E%AC%E7%86%B1%E6%A1%8C%E4%B8%8A%E5%9E%8B-CHP-7965918.html",
     "specs": [
       "櫥下飲水機：Coway奈米超淨化櫥下型淨水器 5道極致過濾 P-150N(含原廠到府安裝)",
       "【Coway】奈米超淨化櫥下型淨水器P-150N(含原廠到府安裝)",
@@ -312,34 +312,34 @@
     "category": "waterdispenser",
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "found",
-      "amount": 3984,
+      "status": "not_found",
+      "amount": null,
       "currency": "TWD",
-      "converted": 3984,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1269684152&cgp=4560",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【Coway】奈米高效專用濾芯組一年份(適用P-150N淨水器)",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【Coway】奈米高效專用濾芯組一年份(適用P-150N淨水器)」最低價為 NT$3,984，最低點日期 2026-03-18。",
-      "sourceKind": "price_history",
-      "confidence": "high",
-      "checkedAt": "2026-07-09",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-07-11",
+      "note": "既有史低證據是相容濾芯／耗材，而不是目標整機；應撤銷 found 並重新查核整機史低。 已撤銷錯誤史低；本輪重新查核仍找不到同型號、同尺寸／容量／規格且可公開驗證的可信新品整機史低。"
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Coway P-150N\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Coway%20P-150N%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Coway%20P-150N%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"Coway P-150N\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22Coway%20P-150N%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"Coway P-150N\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Coway%20P-150N%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
           "targetHost": "reddit.com"
         }
       ]
@@ -355,8 +355,8 @@
     "image": "https://cs-a.ecimg.tw/items/DMCI0PA900HEQ1J/000001_1756977419.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 12900,
-      "converted": 12900,
+      "amount": 11610,
+      "converted": 11610,
       "confidence": "PChome 2026-07-11 API 查核價"
     },
     "channel": "tw",
@@ -411,20 +411,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Panasonic TK-CB30\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Panasonic%20TK-CB30%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Panasonic%20TK-CB30%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"Panasonic TK-CB30\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22Panasonic%20TK-CB30%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"Panasonic TK-CB30\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Panasonic%20TK-CB30%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
           "targetHost": "reddit.com"
         }
       ]
@@ -440,8 +440,8 @@
     "image": "https://cs-a.ecimg.tw/items/QFAX6BA9009Y2C3/000001_1760596937.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 19500,
-      "converted": 19500,
+      "amount": 17550,
+      "converted": 17550,
       "confidence": "PChome 2026-07-11 API 查核價"
     },
     "channel": "tw",
@@ -495,20 +495,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"BWT Slim 3\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22BWT%20Slim%203%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22BWT%20Slim%203%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"BWT Slim 3\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22BWT%20Slim%203%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"BWT Slim 3\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22BWT%20Slim%203%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
           "targetHost": "reddit.com"
         }
       ]
@@ -526,7 +526,7 @@
       "currency": "TWD",
       "amount": 16110,
       "converted": 16110,
-      "confidence": "PChome 24h 低價查核"
+      "confidence": "PChome 2026-07-11 API 查核價"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -578,20 +578,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"SAKURA P0261 600G\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22SAKURA%20P0261%20600G%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22SAKURA%20P0261%20600G%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"SAKURA P0261 600G\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22SAKURA%20P0261%20600G%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"SAKURA P0261 600G\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22SAKURA%20P0261%20600G%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
           "targetHost": "reddit.com"
         }
       ]
@@ -607,8 +607,8 @@
     "image": "https://cs-a.ecimg.tw/items/DMAC6RA900IUC3J/000001_1761017834.png",
     "price": {
       "currency": "TWD",
-      "amount": 28000,
-      "converted": 28000,
+      "amount": 25200,
+      "converted": 25200,
       "confidence": "PChome 2026-07-11 API 查核價"
     },
     "channel": "tw",
@@ -647,34 +647,34 @@
     "category": "waterdispenser",
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "found",
-      "amount": 17193,
+      "status": "not_found",
+      "amount": null,
       "currency": "TWD",
-      "converted": 17193,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1281366826&cgp=17193",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【麗水生活】PHILIPS 飛利浦 AUT821/AUT822/ AUT823 RO濾芯 (適用於 AUT7005) 三年份濾芯",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「家樂福線上購物網 / 【麗水生活】PHILIPS 飛利浦 AUT821/AUT822/ AUT823 RO濾芯 (適用於 AUT7005) 三年份濾芯」最低價為 NT$17,193，最低點日期 2026-07-09。",
-      "sourceKind": "price_history",
-      "confidence": "medium",
-      "checkedAt": "2026-07-09",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-07-11",
+      "note": "既有史低證據是相容濾芯／耗材，而不是目標整機；應撤銷 found 並重新查核整機史低。 已撤銷錯誤史低；本輪重新查核仍找不到同型號、同尺寸／容量／規格且可公開驗證的可信新品整機史低。"
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Philips AUT7005\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Philips%20AUT7005%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Philips%20AUT7005%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"Philips AUT7005\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22Philips%20AUT7005%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"Philips AUT7005\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Philips%20AUT7005%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
           "targetHost": "reddit.com"
         }
       ]
@@ -690,13 +690,13 @@
     "image": "https://cs-a.ecimg.tw/items/DMCI01A900JV0NP/000001_1774843160.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 17800,
-      "converted": 17800,
-      "confidence": "PChome 24h 低價查核"
+      "amount": 16020,
+      "converted": 16020,
+      "confidence": "PChome 2026-07-11 API 查核價"
     },
     "channel": "tw",
     "buyLabel": "PChome",
-    "buyUrl": "https://24h.pchome.com.tw/prod/DMCI01-A900JV0NP",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DMCI24-A900K16I2",
     "specs": [
       "櫥下飲水機：Brita mypure RO直輸淨水系統 GR1000",
       "mypure RO直輸淨水系統GR1000",
@@ -745,20 +745,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"BRITA mypure GR1000\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22BRITA%20mypure%20GR1000%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22BRITA%20mypure%20GR1000%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"BRITA mypure GR1000\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22BRITA%20mypure%20GR1000%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"BRITA mypure GR1000\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22BRITA%20mypure%20GR1000%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
           "targetHost": "reddit.com"
         }
       ]
@@ -774,8 +774,8 @@
     "image": "https://cs-a.ecimg.tw/items/QFAX6BA9009Y2E9/000001_1760596811.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 26800,
-      "converted": 26800,
+      "amount": 24120,
+      "converted": 24120,
       "confidence": "PChome 2026-07-11 API 查核價"
     },
     "channel": "tw",
@@ -828,20 +828,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"BWT Slim RO DF\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22BWT%20Slim%20RO%20DF%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22BWT%20Slim%20RO%20DF%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"BWT Slim RO DF\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22BWT%20Slim%20RO%20DF%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"BWT Slim RO DF\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22BWT%20Slim%20RO%20DF%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
           "targetHost": "reddit.com"
         }
       ]
@@ -859,7 +859,7 @@
       "currency": "TWD",
       "amount": 20990,
       "converted": 20990,
-      "confidence": "PChome 24h 低價查核"
+      "confidence": "PChome 2026-07-11 API 查核價"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -912,20 +912,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"EVERPURE HS188 + 4H2\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22EVERPURE%20HS188%20%2B%204H2%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22EVERPURE%20HS188%20%2B%204H2%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"EVERPURE HS188 + 4H2\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22EVERPURE%20HS188%20%2B%204H2%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"EVERPURE HS188 + 4H2\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22EVERPURE%20HS188%20%2B%204H2%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
           "targetHost": "reddit.com"
         }
       ]
@@ -943,7 +943,7 @@
       "currency": "TWD",
       "amount": 20900,
       "converted": 20900,
-      "confidence": "PChome 24h 低價查核"
+      "confidence": "PChome 2026-07-11 API 查核價"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -996,20 +996,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"賀眾牌 UW-2262HW-1\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22%E8%B3%80%E7%9C%BE%E7%89%8C%20UW-2262HW-1%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22%E8%B3%80%E7%9C%BE%E7%89%8C%20UW-2262HW-1%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"賀眾牌 UW-2262HW-1\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22%E8%B3%80%E7%9C%BE%E7%89%8C%20UW-2262HW-1%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"賀眾牌 UW-2262HW-1\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22%E8%B3%80%E7%9C%BE%E7%89%8C%20UW-2262HW-1%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
           "targetHost": "reddit.com"
         }
       ]
@@ -1027,7 +1027,7 @@
       "currency": "TWD",
       "amount": 16800,
       "converted": 16800,
-      "confidence": "PChome 24h 低價查核"
+      "confidence": "PChome 2026-07-11 API 查核價"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -1079,20 +1079,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"豪星 HS-400G\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22%E8%B1%AA%E6%98%9F%20HS-400G%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22%E8%B1%AA%E6%98%9F%20HS-400G%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"豪星 HS-400G\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22%E8%B1%AA%E6%98%9F%20HS-400G%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"豪星 HS-400G\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22%E8%B1%AA%E6%98%9F%20HS-400G%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
           "targetHost": "reddit.com"
         }
       ]
@@ -1110,11 +1110,11 @@
       "currency": "TWD",
       "amount": 25020,
       "converted": 25020,
-      "confidence": "PChome 24h 低價查核"
+      "confidence": "PChome 2026-07-11 API 查核價"
     },
     "channel": "tw",
     "buyLabel": "PChome",
-    "buyUrl": "https://24h.pchome.com.tw/prod/DMBM2H-A900GH7MW",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DMAWFM-A900H55UK",
     "specs": [
       "櫥下飲水機：SAKURA櫻花 廚下觸控式熱飲機 P0563",
       "櫥下/廚下安裝型",
@@ -1162,20 +1162,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"SAKURA P0563\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22SAKURA%20P0563%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22SAKURA%20P0563%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"SAKURA P0563\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22SAKURA%20P0563%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"SAKURA P0563\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22SAKURA%20P0563%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
           "targetHost": "reddit.com"
         }
       ]
@@ -1193,7 +1193,7 @@
       "currency": "TWD",
       "amount": 59800,
       "converted": 59800,
-      "confidence": "PChome 24h 低價查核"
+      "confidence": "PChome 2026-07-11 API 查核價"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -1233,34 +1233,34 @@
     "category": "waterdispenser",
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "found",
-      "amount": 50830,
+      "status": "not_found",
+      "amount": null,
       "currency": "TWD",
-      "converted": 50830,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1260180295&cgp=59800",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【Coway】櫥下型冰溫熱智慧淨濾水器(瞬冰瞬熱/五道濾芯/基本安裝/NOBLE CHP-3140N)+美膳雅蒸鮮鍋",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【Coway】櫥下型冰溫熱智慧淨濾水器(瞬冰瞬熱/五道濾芯/基本安裝/NOBLE CHP-3140N)+美膳雅蒸鮮鍋」最低價為 NT$50,830，最低點日期 2026-06-18。",
-      "sourceKind": "price_history",
-      "confidence": "high",
-      "checkedAt": "2026-07-09",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-07-11",
+      "note": "未找到 NOBLE CHP-3140N 單機加原廠安裝可公開驗證的可信新品史低；已排除另含美膳雅蒸鮮鍋的不同套裝。"
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Coway NOBLE CHP-3140N\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Coway%20NOBLE%20CHP-3140N%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Coway%20NOBLE%20CHP-3140N%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"Coway NOBLE CHP-3140N\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22Coway%20NOBLE%20CHP-3140N%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"Coway NOBLE CHP-3140N\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Coway%20NOBLE%20CHP-3140N%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
           "targetHost": "reddit.com"
         }
       ]
@@ -1277,12 +1277,12 @@
     "name": "櫥下型雙溫 UV 觸控飲水機",
     "price": {
       "currency": "TWD",
-      "amount": 34000,
-      "converted": 34000,
-      "confidence": "可信通路查核價，擷取 2026-07-09"
+      "amount": 30600,
+      "converted": 30600,
+      "confidence": "PChome 2026-07-11 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DSBE1FA900GSOLN/000001_1698896380.jpg",
-    "buyUrl": "https://24h.pchome.com.tw/prod/DSBE1F-A900GSOLN",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DMCI17-A900I6OFW",
     "buyLabel": "PChome",
     "specs": [
       "櫥下型",
@@ -1325,20 +1325,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"EVERPOLL EVB-298-E\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22EVERPOLL%20EVB-298-E%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22EVERPOLL%20EVB-298-E%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"EVERPOLL EVB-298-E\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22EVERPOLL%20EVB-298-E%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"EVERPOLL EVB-298-E\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22EVERPOLL%20EVB-298-E%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
           "targetHost": "reddit.com"
         }
       ]
@@ -1357,7 +1357,7 @@
       "currency": "TWD",
       "amount": 45800,
       "converted": 45800,
-      "confidence": "可信通路查核價，擷取 2026-07-09"
+      "confidence": "PChome 2026-07-11 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMCI2FA900JBNK6/000001_1782095017.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMCI2F-A900JBNK6",
@@ -1403,20 +1403,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Culligan US-201C-TW\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Culligan%20US-201C-TW%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Culligan%20US-201C-TW%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"Culligan US-201C-TW\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22Culligan%20US-201C-TW%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"Culligan US-201C-TW\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Culligan%20US-201C-TW%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
           "targetHost": "reddit.com"
         }
       ]
@@ -1433,12 +1433,12 @@
     "name": "廚下 RO 雙溫觸控飲水機",
     "price": {
       "currency": "TWD",
-      "amount": 36810,
-      "converted": 36810,
-      "confidence": "可信通路查核價，擷取 2026-07-09"
+      "amount": 33129,
+      "converted": 33129,
+      "confidence": "PChome 2026-07-11 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMCI0OA900JT66N/000001_1773306819.png",
-    "buyUrl": "https://24h.pchome.com.tw/prod/DMCI0O-A900JT66N",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DMCI0O-A900JI1JA",
     "buyLabel": "PChome",
     "specs": [
       "廚下 RO",
@@ -1481,20 +1481,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"SAKURA P0531\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22SAKURA%20P0531%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22SAKURA%20P0531%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"SAKURA P0531\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22SAKURA%20P0531%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"SAKURA P0531\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22SAKURA%20P0531%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
           "targetHost": "reddit.com"
         }
       ]
@@ -1511,13 +1511,13 @@
     "name": "廚下觸控型 RO 冷熱飲水機",
     "price": {
       "currency": "TWD",
-      "amount": 51450,
-      "converted": 51450,
-      "confidence": "可信通路查核價，擷取 2026-07-09"
+      "amount": 49800,
+      "converted": 49800,
+      "confidence": "momo購物 2026-07-11 頁面查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMCI19A900IW2PM/000001_1756711258.png",
-    "buyUrl": "https://24h.pchome.com.tw/prod/DMCI19-A900IW2PM",
-    "buyLabel": "PChome",
+    "buyUrl": "https://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=13743602",
+    "buyLabel": "momo購物",
     "specs": [
       "廚下 RO",
       "冷熱飲",
@@ -1559,20 +1559,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Honeywell 廚下觸控型RO冷熱飲水機\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Honeywell%20%E5%BB%9A%E4%B8%8B%E8%A7%B8%E6%8E%A7%E5%9E%8BRO%E5%86%B7%E7%86%B1%E9%A3%B2%E6%B0%B4%E6%A9%9F%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Honeywell%20%E5%BB%9A%E4%B8%8B%E8%A7%B8%E6%8E%A7%E5%9E%8BRO%E5%86%B7%E7%86%B1%E9%A3%B2%E6%B0%B4%E6%A9%9F%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"Honeywell 廚下觸控型RO冷熱飲水機\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22Honeywell%20%E5%BB%9A%E4%B8%8B%E8%A7%B8%E6%8E%A7%E5%9E%8BRO%E5%86%B7%E7%86%B1%E9%A3%B2%E6%B0%B4%E6%A9%9F%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"Honeywell 廚下觸控型RO冷熱飲水機\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Honeywell%20%E5%BB%9A%E4%B8%8B%E8%A7%B8%E6%8E%A7%E5%9E%8BRO%E5%86%B7%E7%86%B1%E9%A3%B2%E6%B0%B4%E6%A9%9F%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
           "targetHost": "reddit.com"
         }
       ]
@@ -1589,13 +1589,13 @@
     "name": "廚下型飲用水加熱器",
     "price": {
       "currency": "TWD",
-      "amount": 23600,
-      "converted": 23600,
-      "confidence": "可信通路查核價，擷取 2026-07-09"
+      "amount": 21150,
+      "converted": 21150,
+      "confidence": "Yahoo購物中心 2026-07-11 頁面查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAWB8A900BVEOG/000001_1760685693.jpg",
-    "buyUrl": "https://24h.pchome.com.tw/prod/DMAWB8-A900BVEOG",
-    "buyLabel": "PChome",
+    "buyUrl": "https://tw.buy.yahoo.com/gdsale/BWT%E5%BE%B7%E5%9C%8B%E5%80%8D%E4%B8%96-%E6%99%BA%E6%85%A7%E5%9E%8B%E6%AB%A5%E4%B8%8B%E5%8A%A0%E7%86%B1%E5%99%A8-DWH30A-9802406.html",
+    "buyLabel": "Yahoo購物中心",
     "specs": [
       "廚下型",
       "加熱器",
@@ -1637,20 +1637,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-07-11",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"BWT DWH30A\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22BWT%20DWH30A%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22BWT%20DWH30A%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "\"BWT DWH30A\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22BWT%20DWH30A%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"BWT DWH30A\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22BWT%20DWH30A%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
           "targetHost": "reddit.com"
         }
       ]

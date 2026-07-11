@@ -49,7 +49,10 @@
       }
     });
 
-    window.addEventListener("resize", ui.updateFilterDisclosure);
+    window.addEventListener("resize", () => {
+      ui.updateFilterDisclosure();
+      ui.updateMobileDock();
+    });
 
     document.getElementById("topPicks").addEventListener("click", (event) => {
       const pick = event.target.closest("[data-focus-product]");
