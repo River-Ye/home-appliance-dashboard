@@ -300,7 +300,7 @@
         <tbody>
           ${rows.map((row) => `
             <tr>
-              <th>${utils.escapeHtml(row.label)}</th>
+              <th scope="row">${utils.escapeHtml(row.label)}</th>
               ${selected.map((product) => `<td>${row.html ? row.get(product) : utils.escapeHtml(row.get(product))}</td>`).join("")}
             </tr>
           `).join("")}

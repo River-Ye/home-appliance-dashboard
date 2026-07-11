@@ -292,6 +292,28 @@ async function assertProductDetailsDisclosure(page, name) {
   const opened = await details.evaluate((node) => node.open);
   if (!opened) throw new Error(`${name}: product details did not open`);
   await assertNoHorizontalOverflow(page, `${name} details open`);
+  const stretchedPeers = await page.evaluate(() => {
+    if (window.innerWidth < 700) return [];
+    const cards = [...document.querySelectorAll(".product-card")];
+    const openedCard = cards.find((card) => card.querySelector("details.card-details[open]"));
+    if (!openedCard) return ["missing opened card"];
+    const openedRect = openedCard.getBoundingClientRect();
+    const peers = cards.filter((card) => {
+      if (card === openedCard) return false;
+      return Math.abs(card.getBoundingClientRect().top - openedRect.top) <= 2;
+    });
+    if (!peers.length) return [];
+    return peers
+      .filter((card) => card.getBoundingClientRect().height >= openedRect.height - 40)
+      .map((card) => ({
+        openedHeight: Math.round(openedRect.height),
+        peerHeight: Math.round(card.getBoundingClientRect().height),
+        peerId: card.dataset.productId,
+      }));
+  });
+  if (stretchedPeers.length) {
+    throw new Error(`${name}: collapsed cards stretched to opened-card height ${JSON.stringify(stretchedPeers.slice(0, 3))}`);
+  }
 
   await details.locator("summary").click();
   const closed = await details.evaluate((node) => !node.open);
@@ -300,10 +322,9 @@ async function assertProductDetailsDisclosure(page, name) {
 
 async function assertMobileDockClearance(page, name) {
   const result = await page.evaluate(() => {
-    if (window.innerWidth >= 700) return null;
+    if (window.innerWidth > 620) return null;
     const dock = document.querySelector(".mobile-dock");
     if (!dock) return { issue: "missing mobile dock" };
-    document.body.classList.add("show-mobile-dock");
     const dockRect = dock.getBoundingClientRect();
     const bodyPaddingBottom = Number.parseFloat(getComputedStyle(document.body).paddingBottom || "0");
     return {
@@ -317,6 +338,148 @@ async function assertMobileDockClearance(page, name) {
   if (result.bodyPaddingBottom < result.dockHeight + 16) {
     throw new Error(`${name}: mobile dock clearance too small ${JSON.stringify(result)}`);
   }
+}
+
+async function assertMobileFloatingControlsDoNotOverlap(page, name) {
+  if (await page.evaluate(() => window.innerWidth > 620)) return;
+
+  await page.locator(".pick-card").first().evaluate((card) => {
+    const rect = card.getBoundingClientRect();
+    const html = document.documentElement;
+    const previousScrollBehavior = html.style.scrollBehavior;
+    html.style.scrollBehavior = "auto";
+    window.scrollTo(0, Math.max(0, window.scrollY + rect.top - 48));
+    html.style.scrollBehavior = previousScrollBehavior;
+  });
+  await page.waitForFunction(() => {
+    const visiblePick = [...document.querySelectorAll(".pick-card")].some((card) => {
+      const rect = card.getBoundingClientRect();
+      return rect.top < window.innerHeight && rect.bottom > 0;
+    });
+    return visiblePick && !document.body.classList.contains("show-mobile-dock");
+  });
+  const earlyRecommendationState = await page.evaluate(() => ({
+    dockVisible: document.body.classList.contains("show-mobile-dock"),
+    visiblePick: [...document.querySelectorAll(".pick-card")].some((card) => {
+      const rect = card.getBoundingClientRect();
+      return rect.top < window.innerHeight && rect.bottom > 0;
+    }),
+  }));
+  if (earlyRecommendationState.dockVisible || !earlyRecommendationState.visiblePick) {
+    throw new Error(`${name}: mobile utility band should stay hidden over recommendation cards ${JSON.stringify(earlyRecommendationState)}`);
+  }
+
+  await page.locator(".result-toolbar").evaluate((toolbar) => {
+    const rect = toolbar.getBoundingClientRect();
+    const html = document.documentElement;
+    const previousScrollBehavior = html.style.scrollBehavior;
+    html.style.scrollBehavior = "auto";
+    window.scrollTo(0, Math.max(0, window.scrollY + rect.top - 72));
+    html.style.scrollBehavior = previousScrollBehavior;
+  });
+  await page.waitForFunction(() => document.body.classList.contains("show-mobile-dock"));
+  await page.waitForTimeout(220);
+
+  const collisions = await page.evaluate(() => {
+    const rectFor = (element) => {
+      const rect = element.getBoundingClientRect();
+      return {
+        top: Math.round(rect.top),
+        right: Math.round(rect.right),
+        bottom: Math.round(rect.bottom),
+        left: Math.round(rect.left),
+      };
+    };
+    const overlaps = (a, b) => (
+      a.left < b.right
+      && a.right > b.left
+      && a.top < b.bottom
+      && a.bottom > b.top
+    );
+    const jumpButtons = [...document.querySelectorAll(".page-jump-button")]
+      .filter((element) => getComputedStyle(element).visibility !== "hidden")
+      .map((element) => ({ label: element.getAttribute("aria-label"), rect: rectFor(element) }));
+    const dockRect = rectFor(document.querySelector(".mobile-dock"));
+    const protectedControls = [
+      ...document.querySelectorAll(".result-actions button:not([hidden]), .mobile-dock a"),
+    ].filter((element) => getComputedStyle(element).visibility !== "hidden")
+      .map((element) => ({ label: element.textContent.trim(), rect: rectFor(element) }));
+
+    const controlCollisions = jumpButtons.flatMap((jump) => protectedControls
+      .filter((control) => overlaps(jump.rect, control.rect))
+      .map((control) => ({ jump, control })));
+    const bandViolations = jumpButtons
+      .filter((jump) => jump.rect.top < dockRect.top || jump.rect.bottom > dockRect.bottom)
+      .map((jump) => ({ jump, control: { label: "mobile utility band", rect: dockRect } }));
+
+    return [...controlCollisions, ...bandViolations];
+  });
+
+  if (collisions.length) {
+    throw new Error(`${name}: mobile floating controls overlap ${JSON.stringify(collisions)}`);
+  }
+}
+
+async function assertAccessibleStructure(page, name) {
+  const result = await page.evaluate(() => {
+    const headings = [...document.querySelectorAll("h1, h2, h3, h4, h5, h6")].map((heading) => ({
+      level: Number(heading.tagName.slice(1)),
+      text: heading.textContent.trim(),
+    }));
+    const jumps = headings.flatMap((heading, index) => {
+      if (!index) return heading.level === 1 ? [] : [{ index, from: 0, to: heading.level, text: heading.text }];
+      const previous = headings[index - 1];
+      return heading.level > previous.level + 1
+        ? [{ index, from: previous.level, to: heading.level, text: heading.text }]
+        : [];
+    });
+    return {
+      h1Count: headings.filter((heading) => heading.level === 1).length,
+      h2Texts: headings.filter((heading) => heading.level === 2).map((heading) => heading.text),
+      jumps,
+      placeholdersWithoutEllipsis: [...document.querySelectorAll("input[placeholder]")]
+        .map((input) => input.getAttribute("placeholder"))
+        .filter((placeholder) => placeholder && !placeholder.endsWith("…")),
+    };
+  });
+
+  if (result.h1Count !== 1) throw new Error(`${name}: expected one h1, got ${result.h1Count}`);
+  for (const expected of ["每類推薦", "商品列表", "比較清單"]) {
+    if (!result.h2Texts.includes(expected)) throw new Error(`${name}: missing h2 ${expected}`);
+  }
+  if (result.jumps.length) throw new Error(`${name}: heading hierarchy jumps ${JSON.stringify(result.jumps.slice(0, 5))}`);
+  if (result.placeholdersWithoutEllipsis.length) {
+    throw new Error(`${name}: placeholders missing ellipsis ${JSON.stringify(result.placeholdersWithoutEllipsis)}`);
+  }
+}
+
+async function assertPremiumBadgeContrast(page, name) {
+  const result = await page.evaluate(() => {
+    const badge = document.querySelector(".badge.premium");
+    if (!badge) return { issue: "missing premium badge" };
+    const parse = (value) => {
+      const channels = value.match(/[\d.]+/g)?.slice(0, 3).map(Number) || [];
+      return channels.map((channel) => channel / 255);
+    };
+    const luminance = (channels) => channels
+      .map((channel) => channel <= 0.04045
+        ? channel / 12.92
+        : ((channel + 0.055) / 1.055) ** 2.4)
+      .reduce((sum, channel, index) => sum + channel * [0.2126, 0.7152, 0.0722][index], 0);
+    const style = getComputedStyle(badge);
+    const foreground = luminance(parse(style.color));
+    const background = luminance(parse(style.backgroundColor));
+    const ratio = (Math.max(foreground, background) + 0.05) / (Math.min(foreground, background) + 0.05);
+    return { ratio, color: style.color, backgroundColor: style.backgroundColor };
+  });
+
+  if (result.issue) throw new Error(`${name}: ${result.issue}`);
+  if (result.ratio < 4.5) throw new Error(`${name}: premium badge contrast below 4.5 ${JSON.stringify(result)}`);
+}
+
+async function assertCompareRowHeaders(page, name) {
+  const invalidHeaders = await page.locator('#compareTable th:not([scope="row"])').count();
+  if (invalidHeaders) throw new Error(`${name}: ${invalidHeaders} compare row headers missing scope=row`);
 }
 
 
@@ -355,6 +518,10 @@ module.exports = {
   assertSingleCompareFitsViewport,
   assertProductDetailsDisclosure,
   assertMobileDockClearance,
+  assertMobileFloatingControlsDoNotOverlap,
+  assertAccessibleStructure,
+  assertPremiumBadgeContrast,
+  assertCompareRowHeaders,
   assertNoHorizontalOverflow,
   resetFilters,
   selectComboboxOption,

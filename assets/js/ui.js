@@ -202,6 +202,7 @@
     renderProducts(cards);
     renderCompare();
     updateFilterDisclosure();
+    updateMobileDock();
     dashboard.combobox.syncComboClears();
     if (options.syncUrl && dashboard.urlState) {
       dashboard.urlState.syncToQuery();
@@ -244,10 +245,14 @@
   function setMobileFiltersOpen(open) {
     state.mobileFiltersOpen = open;
     updateFilterDisclosure();
+    updateMobileDock();
   }
 
   function updateMobileDock() {
-    document.body.classList.toggle("show-mobile-dock", window.scrollY > 360);
+    const resultToolbar = document.querySelector(".result-toolbar");
+    const isCompactViewport = window.matchMedia("(max-width: 620px)").matches;
+    const toolbarReachedSafeTop = resultToolbar?.getBoundingClientRect().top <= 96;
+    document.body.classList.toggle("show-mobile-dock", Boolean(isCompactViewport && toolbarReachedSafeTop));
   }
 
   function initializeLazyLoading() {

@@ -4,15 +4,15 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>家電採購比較表</title>
-    <link rel="icon" type="image/svg+xml" href="./favicon.svg?v=20260711-performance-1">
-    <link rel="stylesheet" href="./assets/css/tokens.css?v=20260711-performance-1">
-    <link rel="stylesheet" href="./assets/css/layout.css?v=20260711-performance-1">
-    <link rel="stylesheet" href="./assets/css/filters.css?v=20260711-performance-1">
-    <link rel="stylesheet" href="./assets/css/tabs.css?v=20260711-performance-1">
-    <link rel="stylesheet" href="./assets/css/cards.css?v=20260711-performance-1">
-    <link rel="stylesheet" href="./assets/css/comparison.css?v=20260711-performance-1">
-    <link rel="stylesheet" href="./assets/css/navigation.css?v=20260711-performance-1">
-    <link rel="stylesheet" href="./assets/css/responsive.css?v=20260711-performance-1">
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg?v=20260711-catalog-ui-1">
+    <link rel="stylesheet" href="./assets/css/tokens.css?v=20260711-catalog-ui-1">
+    <link rel="stylesheet" href="./assets/css/layout.css?v=20260711-catalog-ui-1">
+    <link rel="stylesheet" href="./assets/css/filters.css?v=20260711-catalog-ui-1">
+    <link rel="stylesheet" href="./assets/css/tabs.css?v=20260711-catalog-ui-1">
+    <link rel="stylesheet" href="./assets/css/cards.css?v=20260711-catalog-ui-1">
+    <link rel="stylesheet" href="./assets/css/comparison.css?v=20260711-catalog-ui-1">
+    <link rel="stylesheet" href="./assets/css/navigation.css?v=20260711-catalog-ui-1">
+    <link rel="stylesheet" href="./assets/css/responsive.css?v=20260711-catalog-ui-1">
   </head>
   <body>
     <a class="skip-link" href="#mainContent">跳到主要內容</a>
@@ -35,7 +35,7 @@
       <section id="filters" class="toolbar" aria-label="篩選器">
         <label class="search-field">
           <span>搜尋</span>
-          <input id="searchInput" name="q" type="search" autocomplete="off" placeholder="品牌、型號、功能、適合對象">
+          <input id="searchInput" name="q" type="search" autocomplete="off" placeholder="品牌、型號、功能、適合對象…">
         </label>
         <button id="filterToggle" class="filter-toggle" type="button" aria-expanded="false" aria-controls="advancedFilters">
           <span>篩選</span>
@@ -45,7 +45,7 @@
           <div class="combo-field">
             <label id="categoryInputLabel" for="categoryInput">分類</label>
             <div class="combo-control" data-combo="category">
-              <input id="categoryInput" name="category" type="search" autocomplete="off" role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="categoryOptions" aria-labelledby="categoryInputLabel" placeholder="搜尋分類">
+              <input id="categoryInput" name="category" type="search" autocomplete="off" role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="categoryOptions" aria-labelledby="categoryInputLabel" placeholder="搜尋分類…">
               <button class="combo-clear" type="button" aria-label="清除分類" tabindex="-1" hidden></button>
               <button class="combo-button" type="button" aria-label="展開分類選項" tabindex="-1"></button>
               <div id="categoryOptions" class="combo-list" role="listbox" hidden></div>
@@ -54,7 +54,7 @@
           <div class="combo-field">
             <label id="brandInputLabel" for="brandInput">品牌</label>
             <div class="combo-control" data-combo="brand">
-              <input id="brandInput" name="brand" type="search" autocomplete="off" role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="brandOptions" aria-labelledby="brandInputLabel" placeholder="搜尋品牌">
+              <input id="brandInput" name="brand" type="search" autocomplete="off" role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="brandOptions" aria-labelledby="brandInputLabel" placeholder="搜尋品牌…">
               <button class="combo-clear" type="button" aria-label="清除品牌" tabindex="-1" hidden></button>
               <button class="combo-button" type="button" aria-label="展開品牌選項" tabindex="-1"></button>
               <div id="brandOptions" class="combo-list" role="listbox" hidden></div>
@@ -63,7 +63,7 @@
           <div class="combo-field">
             <label id="budgetInputLabel" for="budgetInput">預算</label>
             <div class="combo-control" data-combo="budget">
-              <input id="budgetInput" name="budget" type="search" autocomplete="off" role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="budgetOptions" aria-labelledby="budgetInputLabel" placeholder="搜尋預算">
+              <input id="budgetInput" name="budget" type="search" autocomplete="off" role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="budgetOptions" aria-labelledby="budgetInputLabel" placeholder="搜尋預算…">
               <button class="combo-clear" type="button" aria-label="清除預算" tabindex="-1" hidden></button>
               <button class="combo-button" type="button" aria-label="展開預算選項" tabindex="-1"></button>
               <div id="budgetOptions" class="combo-list" role="listbox" hidden></div>
@@ -72,7 +72,7 @@
           <div class="combo-field">
             <label id="channelInputLabel" for="channelInput">通路</label>
             <div class="combo-control" data-combo="channel">
-              <input id="channelInput" name="channel" type="search" autocomplete="off" role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="channelOptions" aria-labelledby="channelInputLabel" placeholder="搜尋通路">
+              <input id="channelInput" name="channel" type="search" autocomplete="off" role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="channelOptions" aria-labelledby="channelInputLabel" placeholder="搜尋通路…">
               <button class="combo-clear" type="button" aria-label="清除通路" tabindex="-1" hidden></button>
               <button class="combo-button" type="button" aria-label="展開通路選項" tabindex="-1"></button>
               <div id="channelOptions" class="combo-list" role="listbox" hidden></div>
@@ -81,7 +81,7 @@
           <div class="combo-field">
             <label id="sortInputLabel" for="sortInput">排序</label>
             <div class="combo-control" data-combo="sort">
-              <input id="sortInput" name="sort" type="search" autocomplete="off" role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="sortOptions" aria-labelledby="sortInputLabel" placeholder="搜尋排序">
+              <input id="sortInput" name="sort" type="search" autocomplete="off" role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="sortOptions" aria-labelledby="sortInputLabel" placeholder="搜尋排序…">
               <button class="combo-clear" type="button" aria-label="清除排序" tabindex="-1" hidden></button>
               <button class="combo-button" type="button" aria-label="展開排序選項" tabindex="-1"></button>
               <div id="sortOptions" class="combo-list" role="listbox" hidden></div>
@@ -113,11 +113,12 @@
         </article>
       </section>
 
-      <section id="topPicks" class="top-picks" aria-label="每類推薦"></section>
+      <h2 id="topPicksHeading" class="visually-hidden">每類推薦</h2>
+      <section id="topPicks" class="top-picks" aria-labelledby="topPicksHeading"></section>
 
-      <section class="result-toolbar" aria-label="商品列表控制">
+      <section class="result-toolbar" aria-labelledby="productListHeading">
         <div class="result-status">
-          <span class="field-label">商品列表</span>
+          <h2 id="productListHeading" class="field-label">商品列表</h2>
           <strong id="renderedCount" aria-live="polite">已載入 0 / 0</strong>
           <small id="lazyHint" aria-live="polite">預設載入前 12 筆，往下滑會自動追加。</small>
         </div>
@@ -127,7 +128,7 @@
         </div>
       </section>
 
-      <section id="productGrid" class="product-grid" aria-label="產品卡片"></section>
+      <section id="productGrid" class="product-grid" aria-labelledby="productListHeading"></section>
       <div id="lazySentinel" class="lazy-sentinel" aria-hidden="true"></div>
 
       <section id="comparePanel" class="compare-panel" aria-label="比較清單">
@@ -143,7 +144,7 @@
     </main>
 
     <footer>
-      <p>價格與歷史最低價為 2026-07-11 查核；史低僅採同型號、同尺寸/容量/規格且可公開驗證的可信新品通路來源，並以 BigGo、FindPrice、LBJ 比價撿便宜與通路公開頁交叉查核。排除不明網站、個人拍賣、會員個人化折扣、信用卡回饋、點數、福利品、展示機、拆封品、二手品、整新品與配件誤判。負評／災情警示只採完全相同型號、至少 6 位可辨識獨立使用者且跨 2 個原始網站的第一人稱回報；搜尋摘要、按讚、轉述與系列型號不計。未達門檻不代表完全沒有負評，請開啟卡片內的查核紀錄自行複核。<a href="./product_issue_research.json">查看完整負評查核紀錄（JSON）</a>。實際到手價以購買頁為準，海外商品需自行確認電壓、插頭、保固、運費、關稅與進口成本。</p>
+      <p>661 筆價格、購買連結與歷史最低價已於 2026-07-11 全量查核；低價僅採同型號、同尺寸／容量／套裝且可公開驗證的可信新品通路，並以 BigGo、FindPrice、LBJ 比價撿便宜發現候選後回原始通路頁交叉核對。排除不明網站、個人拍賣、會員個人化折扣、信用卡回饋、點數、福利品、展示機、拆封品、二手品、整新品與配件誤判。本輪另重查 612 筆原先完全沒有負面候選的商品；負評／災情警示只採完全相同型號、至少 6 位可辨識獨立使用者且跨 2 個原始網站的第一人稱回報，搜尋摘要、按讚、轉述與系列型號不計。未達門檻不代表完全沒有負評，請開啟卡片內的查核紀錄自行複核。<a href="./product_issue_research.json">查看完整負評查核紀錄（JSON）</a>。實際到手價以購買頁為準，海外商品需自行確認電壓、插頭、保固、運費、關稅與進口成本。</p>
     </footer>
 
     <div class="page-jump" aria-label="頁面快速移動">
@@ -157,14 +158,14 @@
       <a id="mobileCompareLink" href="#comparePanel">比較 <strong id="mobileCompareCount" aria-live="polite">0</strong></a>
     </nav>
 
-    <script src="./assets/js/config.js?v=20260711-performance-1"></script>
-    <script src="./assets/js/utils.js?v=20260711-performance-1"></script>
-    <script src="./assets/js/filters.js?v=20260711-performance-1"></script>
-    <script src="./assets/js/combobox.js?v=20260711-performance-1"></script>
-    <script src="./assets/js/templates.js?v=20260711-performance-1"></script>
-    <script src="./assets/js/url-state.js?v=20260711-performance-1"></script>
-    <script src="./assets/js/ui.js?v=20260711-performance-1"></script>
-    <script src="./assets/js/product-loader.js?v=20260711-performance-1"></script>
-    <script src="./assets/js/main.js?v=20260711-performance-1"></script>
+    <script src="./assets/js/config.js?v=20260711-catalog-ui-1"></script>
+    <script src="./assets/js/utils.js?v=20260711-catalog-ui-1"></script>
+    <script src="./assets/js/filters.js?v=20260711-catalog-ui-1"></script>
+    <script src="./assets/js/combobox.js?v=20260711-catalog-ui-1"></script>
+    <script src="./assets/js/templates.js?v=20260711-catalog-ui-1"></script>
+    <script src="./assets/js/url-state.js?v=20260711-catalog-ui-1"></script>
+    <script src="./assets/js/ui.js?v=20260711-catalog-ui-1"></script>
+    <script src="./assets/js/product-loader.js?v=20260711-catalog-ui-1"></script>
+    <script src="./assets/js/main.js?v=20260711-catalog-ui-1"></script>
   </body>
 </html>

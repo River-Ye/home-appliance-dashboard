@@ -7,13 +7,25 @@
   --primary: #255f85;
   --primary-dark: #123b5a;
   --teal: #0f766e;
-  --amber: #b7791f;
+  --amber: #8a5a0a;
   --rose: #b23a48;
   --shadow: 0 18px 45px rgba(23, 32, 51, 0.10);
 }
 
 * {
   box-sizing: border-box;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  padding: 0;
+  margin: -1px;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+  border: 0;
 }
 
 html {

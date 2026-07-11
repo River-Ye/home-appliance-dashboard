@@ -17,6 +17,10 @@ const {
   assertSingleCompareFitsViewport,
   assertProductDetailsDisclosure,
   assertMobileDockClearance,
+  assertMobileFloatingControlsDoNotOverlap,
+  assertAccessibleStructure,
+  assertPremiumBadgeContrast,
+  assertCompareRowHeaders,
   assertNoHorizontalOverflow,
   resetFilters,
   selectComboboxOption,
@@ -25,7 +29,32 @@ const {
 const EXPECTED_CATEGORY_COUNT_TEXT = String(EXPECTED_CATEGORY_COUNT);
 const EXPECTED_PRODUCT_COUNT_TEXT = String(EXPECTED_PRODUCT_COUNT);
 const fileUrl = `file://${path.resolve(__dirname, "../index.html")}`;
+const firstPartyPrefix = fileUrl.replace(/index\.html$/, "");
 const screenshotDir = process.env.DASHBOARD_SCREENSHOT_DIR || os.tmpdir();
+
+function attachRuntimeIssueCollector(page) {
+  const issues = [];
+  page.__dashboardRuntimeIssues = issues;
+  page.on("console", (message) => {
+    if (message.type() === "error") issues.push(`console: ${message.text()}`);
+  });
+  page.on("pageerror", (error) => issues.push(`pageerror: ${error.message}`));
+  page.on("requestfailed", (request) => {
+    if (request.url().startsWith(firstPartyPrefix)) {
+      issues.push(`requestfailed: ${request.url()} ${request.failure()?.errorText || "unknown"}`);
+    }
+  });
+  page.on("response", (response) => {
+    if (response.url().startsWith(firstPartyPrefix) && response.status() >= 400) {
+      issues.push(`response: ${response.status()} ${response.url()}`);
+    }
+  });
+}
+
+function assertNoRuntimeIssues(page, name) {
+  const issues = page.__dashboardRuntimeIssues || [];
+  if (issues.length) throw new Error(`${name}: first-party runtime errors ${JSON.stringify(issues.slice(0, 10))}`);
+}
 
 async function waitForVisibleCount(page, expectedCount) {
   await page.waitForFunction((expectedText) => {
@@ -36,6 +65,7 @@ async function waitForVisibleCount(page, expectedCount) {
 async function runProductLoadSchedulingJourney(browser) {
   const name = "dashboard-product-loader";
   const page = await browser.newPage({ viewport: { width: 1440, height: 1100 } });
+  attachRuntimeIssueCollector(page);
   try {
     await page.addInitScript(() => {
       window.__productLoadProbe = [];
@@ -95,6 +125,7 @@ async function runProductLoadSchedulingJourney(browser) {
     if (topPickCount !== EXPECTED_CATEGORY_COUNT) {
       throw new Error(`${name}: expected ${EXPECTED_CATEGORY_COUNT} top picks, got ${topPickCount}`);
     }
+    assertNoRuntimeIssues(page, name);
   } finally {
     await page.close();
   }
@@ -117,6 +148,7 @@ async function assertCommonIssueJourney(page, name) {
 
 async function runExhaustiveViewport(browser, name, viewport) {
   const page = await browser.newPage({ viewport });
+  attachRuntimeIssueCollector(page);
   await page.goto(fileUrl, { waitUntil: "domcontentloaded" });
   await page.waitForSelector(".product-card");
   await waitForImages(page).catch(() => undefined);
@@ -129,12 +161,14 @@ async function runExhaustiveViewport(browser, name, viewport) {
   if (!firstReleaseLabel) throw new Error(`${name}: product cards missing release date field`);
   const firstHistoricalLow = await page.locator(".product-card .price-insight", { hasText: "歷史最低價 / 入手時機" }).first().count();
   if (!firstHistoricalLow) throw new Error(`${name}: product cards missing historical low insight`);
-  const historicalLowSourceLink = await page.locator(".product-card").first().locator(".price-insight a", { hasText: "史低出處" }).count();
-  if (!historicalLowSourceLink) throw new Error(`${name}: found historical low card missing source link`);
+  const historicalLowSourceLink = await page.locator(".product-card .price-insight a", { hasText: "史低出處" }).first().count();
+  if (!historicalLowSourceLink) throw new Error(`${name}: rendered found historical low cards are missing source links`);
   await waitForProductCards(page, 12);
   await assertHistoricalLowLayout(page, name);
   await assertIssueResearchCards(page, name);
   await assertProductDetailsDisclosure(page, name);
+  await assertAccessibleStructure(page, name);
+  await assertPremiumBadgeContrast(page, name);
   const initialRenderedText = await visibleText(page, "#renderedCount");
   if (!initialRenderedText.includes(`12 / ${EXPECTED_PRODUCT_COUNT_TEXT}`)) {
     throw new Error(`${name}: expected initial lazy render 12 / ${EXPECTED_PRODUCT_COUNT_TEXT}, got ${initialRenderedText}`);
@@ -456,6 +490,7 @@ async function runExhaustiveViewport(browser, name, viewport) {
   await assertIssueResearchCompareRow(page, name);
   await assertHistoricalLowCompareLayout(page, name);
   await assertSingleCompareFitsViewport(page, name);
+  await assertCompareRowHeaders(page, name);
   await page.locator("[data-compare-remove]").first().click();
   await page.waitForFunction(() => document.querySelector("#compareCount")?.textContent?.trim() === "0");
 
@@ -506,8 +541,7 @@ async function runExhaustiveViewport(browser, name, viewport) {
   }
 
   if (viewport.width < 700) {
-    await page.evaluate(() => window.scrollTo(0, 520));
-    await page.waitForFunction(() => document.body.classList.contains("show-mobile-dock"));
+    await assertMobileFloatingControlsDoNotOverlap(page, name);
     await assertMobileDockClearance(page, name);
   }
   await page.getByLabel("滑動到最下面").click();
@@ -532,6 +566,7 @@ async function runExhaustiveViewport(browser, name, viewport) {
     if (collapsed !== "false") throw new Error(`${name}: mobile filter did not collapse`);
   }
 
+  assertNoRuntimeIssues(page, name);
   await page.screenshot({ path: path.resolve(screenshotDir, `${name}.png`), fullPage: false });
   await page.close();
 }
@@ -539,6 +574,7 @@ async function runExhaustiveViewport(browser, name, viewport) {
 
 async function openDashboardPage(browser, name, viewport) {
   const page = await browser.newPage({ viewport });
+  attachRuntimeIssueCollector(page);
   await page.goto(fileUrl, { waitUntil: "domcontentloaded" });
   await page.waitForSelector(".product-card");
   await waitForImages(page).catch(() => undefined);
@@ -555,12 +591,14 @@ async function assertBaselineState(page, name, viewport) {
   if (!firstReleaseLabel) throw new Error(`${name}: product cards missing release date field`);
   const firstHistoricalLow = await page.locator(".product-card .price-insight", { hasText: "歷史最低價 / 入手時機" }).first().count();
   if (!firstHistoricalLow) throw new Error(`${name}: product cards missing historical low insight`);
-  const historicalLowSourceLink = await page.locator(".product-card").first().locator(".price-insight a", { hasText: "史低出處" }).count();
-  if (!historicalLowSourceLink) throw new Error(`${name}: found historical low card missing source link`);
+  const historicalLowSourceLink = await page.locator(".product-card .price-insight a", { hasText: "史低出處" }).first().count();
+  if (!historicalLowSourceLink) throw new Error(`${name}: rendered found historical low cards are missing source links`);
   await waitForProductCards(page, 12);
   await assertHistoricalLowLayout(page, name);
   await assertIssueResearchCards(page, name);
   await assertProductDetailsDisclosure(page, name);
+  await assertAccessibleStructure(page, name);
+  await assertPremiumBadgeContrast(page, name);
   const initialRenderedText = await visibleText(page, "#renderedCount");
   if (!initialRenderedText.includes(`12 / ${EXPECTED_PRODUCT_COUNT_TEXT}`)) {
     throw new Error(`${name}: expected initial lazy render 12 / ${EXPECTED_PRODUCT_COUNT_TEXT}, got ${initialRenderedText}`);
@@ -616,6 +654,7 @@ async function runSmokeViewport(browser, name, viewport) {
     await waitForVisibleCount(page, EXPECTED_PRODUCT_COUNT);
     await waitForProductCards(page, 12);
     await assertNoHorizontalOverflow(page, name);
+    assertNoRuntimeIssues(page, name);
     await page.screenshot({ path: path.resolve(screenshotDir, `${name}.png`), fullPage: false });
   } finally {
     await page.close();
@@ -710,6 +749,7 @@ async function runDesktopJourney(browser) {
     await assertIssueResearchCompareRow(page, name);
     await assertHistoricalLowCompareLayout(page, name);
     await assertSingleCompareFitsViewport(page, name);
+    await assertCompareRowHeaders(page, name);
     await page.locator("[data-compare-remove]").first().click();
     await page.waitForFunction(() => document.querySelector("#compareCount")?.textContent?.trim() === "0");
     await resetFilters(page);
@@ -727,6 +767,7 @@ async function runDesktopJourney(browser) {
     await page.waitForFunction(() => window.scrollY < 20);
     await assertNoHorizontalOverflow(page, name);
     await assertProductImagesStayInsideWrap(page, name);
+    assertNoRuntimeIssues(page, name);
     await page.screenshot({ path: path.resolve(screenshotDir, `${name}.png`), fullPage: false });
   } finally {
     await page.close();
@@ -765,6 +806,7 @@ async function runMobileJourney(browser) {
     await assertIssueResearchCompareRow(page, name);
     await assertHistoricalLowCompareLayout(page, name);
     await assertSingleCompareFitsViewport(page, name);
+    await assertCompareRowHeaders(page, name);
     await page.locator("[data-compare-remove]").first().click();
     await page.waitForFunction(() => document.querySelector("#compareCount")?.textContent?.trim() === "0");
     await resetFilters(page);
@@ -792,8 +834,7 @@ async function runMobileJourney(browser) {
     await waitForVisibleCount(page, EXPECTED_PRODUCT_COUNT);
     await waitForProductCards(page, 12);
 
-    await page.evaluate(() => window.scrollTo(0, 520));
-    await page.waitForFunction(() => document.body.classList.contains("show-mobile-dock"));
+    await assertMobileFloatingControlsDoNotOverlap(page, name);
     await assertMobileDockClearance(page, name);
     await page.getByLabel("滑動到最下面").click();
     await page.waitForFunction(() => window.scrollY > 200);
@@ -813,6 +854,7 @@ async function runMobileJourney(browser) {
 
     await assertNoHorizontalOverflow(page, name);
     await assertHistoricalLowLayout(page, name);
+    assertNoRuntimeIssues(page, name);
     await page.screenshot({ path: path.resolve(screenshotDir, `${name}.png`), fullPage: false });
   } finally {
     await page.close();
