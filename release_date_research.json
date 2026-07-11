@@ -1,11 +1,11 @@
 {
   "summary": {
-    "checkedAt": "2026-07-09T04:00:00.000Z",
-    "total": 656,
-    "found": 165,
+    "checkedAt": "2026-07-11T01:09:47.791Z",
+    "total": 657,
+    "found": 166,
     "missing": 491,
     "byConfidence": {
-      "official": 67,
+      "official": 68,
       "credible_article": 87,
       "not_found": 491,
       "retailer_explicit": 11
@@ -9158,6 +9158,20 @@
       "evidenceSnippet": "",
       "confidence": "not_found",
       "query": "Samsung S32D706EAC release date launch announced 上市 發售"
+    },
+    {
+      "id": "robot-xiaomi-vacuum-6-max",
+      "category": "robot",
+      "brand": "Xiaomi",
+      "model": "6 Max",
+      "name": "Xiaomi 掃拖機器人 6 Max",
+      "releaseDate": "2026-06-16",
+      "sourceUrl": "https://www.mi.com/tw/event/2026-summer-sale/",
+      "sourceTitle": "小米夏日應援祭 2026｜滿額贈 $4000 好禮｜Xiaomi 台灣",
+      "evidenceSnippet": "官方「新品臻選」區將 Xiaomi 掃拖機器人 6 Max 標為新品，並明載「6/16開始訂金預售」。",
+      "confidence": "official",
+      "query": "site:mi.com/tw \"Xiaomi 掃拖機器人 6 Max\" \"6/16開始訂金預售\"",
+      "sourceKind": "official_product_launch"
     }
   ]
 }

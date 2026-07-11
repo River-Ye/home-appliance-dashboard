@@ -3985,14 +3985,14 @@
       "status": "found",
       "amount": 1499,
       "currency": "USD",
-      "converted": 48116,
+      "converted": 48095,
       "sourceUrl": "https://www.tomsguide.com/gaming/gaming-peripherals/act-fast-this-57-inch-samsung-gaming-monitor-is-now-usd800-off-at-amazon",
       "sourceTitle": "Act fast! This 57-inch Samsung gaming monitor is now $800 off at Amazon | Tom's Guide",
       "evidenceSnippet": "Tom's Guide reported Amazon selling the 57-inch Samsung Odyssey Neo G9 for $1,499, $800 off $2,299.",
       "sourceKind": "retailer_promo",
       "confidence": "medium",
       "checkedAt": "2026-07-09",
-      "note": "Overseas historical promo for the same 57-inch Odyssey Neo G9/G95NC class. Converted using USD_TWD 32.099057; excludes shipping, import tax, and Taiwan warranty risk. Source does not explicitly call it all-time low."
+      "note": "Overseas historical promo for the same 57-inch Odyssey Neo G9/G95NC class. Converted using USD_TWD 32.084957; excludes shipping, import tax, and Taiwan warranty risk. Source does not explicitly call it all-time low."
     },
     "issueResearch": {
       "status": "no_common_issue",

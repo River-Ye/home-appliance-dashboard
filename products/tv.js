@@ -55,14 +55,14 @@
       "status": "found",
       "amount": 1096,
       "currency": "USD",
-      "converted": 35181,
+      "converted": 35165,
       "sourceUrl": "https://www.tomsguide.com/tvs/oled-tvs/not-a-typo-the-65-inch-lg-c5-oled-tv-just-crashed-to-usd1-099-on-the-last-day-of-prime-day",
       "sourceTitle": "Not a typo! The 65-inch LG C5 OLED TV just crashed to $1,099 on the last day of Prime Day | Tom's Guide",
       "evidenceSnippet": "Tom's Guide reported the 65-inch LG C5 at Amazon for $1,099 and its deal card showed now US$1,096, calling it the cheapest the 65-inch C5 had ever been.",
       "sourceKind": "retailer_promo",
       "confidence": "medium",
       "checkedAt": "2026-07-09",
-      "note": "Overseas Amazon US 65-inch LG C5 equivalent. Converted using USD_TWD 32.099057; excludes shipping, import tax, plug/voltage differences, and Taiwan warranty risk."
+      "note": "Overseas Amazon US 65-inch LG C5 equivalent. Converted using USD_TWD 32.084957; excludes shipping, import tax, plug/voltage differences, and Taiwan warranty risk."
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -134,14 +134,14 @@
       "status": "found",
       "amount": 1197.99,
       "currency": "USD",
-      "converted": 38454,
+      "converted": 38437,
       "sourceUrl": "https://www.androidcentral.com/streaming-tv/samsung-s90f-oled-tv-deal-prime-day-2026-gta6-preorders",
       "sourceTitle": "This 'best gaming TV' has crashed to a record low price during Prime Day - just in time for your GTA 6 preorder | Android Central",
       "evidenceSnippet": "Android Central reported the 65-inch Samsung Class OLED S90F at $1,197.99 during Prime Day and described it as a record-low price.",
       "sourceKind": "retailer_promo",
       "confidence": "medium",
       "checkedAt": "2026-07-09",
-      "note": "Overseas US equivalent 65-inch S90F; regional SKU may differ from Taiwan QA65S90FAEXZW. Converted using USD_TWD 32.099057; excludes shipping, import tax, and Taiwan warranty risk."
+      "note": "Overseas US equivalent 65-inch S90F; regional SKU may differ from Taiwan QA65S90FAEXZW. Converted using USD_TWD 32.084957; excludes shipping, import tax, and Taiwan warranty risk."
     },
     "issueResearch": {
       "status": "no_common_issue",

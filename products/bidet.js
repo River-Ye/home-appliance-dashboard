@@ -1578,8 +1578,8 @@
     "price": {
       "currency": "USD",
       "amount": 249.99,
-      "converted": 8030,
-      "confidence": "Costco US 2026-07-09 參考價，TWD 依 2026-07-10 匯率換算"
+      "converted": 8021,
+      "confidence": "Costco US 2026-07-09 參考價，TWD 依 2026-07-11 匯率換算"
     },
     "image": "https://bfasset.costco-static.com/U447IH35/as/k83n76pfjhvqcf9gfrz74sx/1432187-847__1?auto=webp&format=jpg",
     "buyUrl": "https://www.costco.com/brondell-swash-cl1700-bidet-toilet-seat.product.100648788.html",

@@ -952,7 +952,7 @@
       "currency": "TWD",
       "amount": 15778,
       "converted": 15778,
-      "confidence": "Yahoo 購物中心低價查核"
+      "confidence": "Yahoo 購物中心 2026-07-11 頁面低價查核"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物",
@@ -1037,7 +1037,7 @@
       "currency": "TWD",
       "amount": 11726,
       "converted": 11726,
-      "confidence": "Yahoo 購物中心低價查核"
+      "confidence": "Yahoo 購物中心 2026-07-11 頁面低價查核"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物",

@@ -192,9 +192,9 @@ async function runExhaustiveViewport(browser, name, viewport) {
   const poiemaCount = await page.locator(".product-card", { hasText: "POIEMA" }).count();
   if (poiemaCount < 2) throw new Error(`${name}: expected POIEMA purifier products, got ${poiemaCount}`);
 
-  const robotTab = page.getByRole("button", { name: /掃拖機器人 30/ });
+  const robotTab = page.getByRole("button", { name: /掃拖機器人 31/ });
   await robotTab.click();
-  await page.waitForFunction(() => document.querySelector("#visibleCount")?.textContent?.trim() === "30");
+  await page.waitForFunction(() => document.querySelector("#visibleCount")?.textContent?.trim() === "31");
   await loadAllVisibleProducts(page);
 
   const robotBrands = await page.$$eval(".product-card", (cards) => {
@@ -368,7 +368,7 @@ async function runExhaustiveViewport(browser, name, viewport) {
 
   await page.fill("#searchInput", "");
   await robotTab.click();
-  await page.waitForFunction(() => document.querySelector("#visibleCount")?.textContent?.trim() === "30");
+  await page.waitForFunction(() => document.querySelector("#visibleCount")?.textContent?.trim() === "31");
   await loadAllVisibleProducts(page);
   await page.fill("#searchInput", "Saros");
   await page.waitForFunction(() => Number(document.querySelector("#visibleCount")?.textContent || 0) >= 3);

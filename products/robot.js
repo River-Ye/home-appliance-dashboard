@@ -1032,8 +1032,8 @@
     "price": {
       "currency": "EUR",
       "amount": 999,
-      "converted": 36682,
-      "confidence": "海外可信通路參考價；依 2026-07-10 匯率換算"
+      "converted": 36608,
+      "confidence": "海外可信通路參考價；依 2026-07-11 匯率換算"
     },
     "image": "https://boulanger.scene7.com/is/image/Boulanger/6972075738536_h_f_l_0?fmt=png-alpha&wid=640&hei=640",
     "buyUrl": "https://www.boulanger.com/ref/1238998",
@@ -1110,8 +1110,8 @@
     "price": {
       "currency": "USD",
       "amount": 553.09,
-      "converted": 17767,
-      "confidence": "海外可信通路參考價；依 2026-07-10 匯率換算"
+      "converted": 17746,
+      "confidence": "海外可信通路參考價；依 2026-07-11 匯率換算"
     },
     "image": "https://img.gkbcdn.com/p/2025-04-11/Narwal-Freo-Z10-Ultra-Robot-Vacuum-with-Base-Station-Gray-528438-0._w315_.jpg",
     "buyUrl": "https://www.geekbuying.com/item/Narwal-Freo-Z10-Ultra-Robot-Vacuum-with-Base-Station-Gray-528438.html",
@@ -2074,8 +2074,8 @@
     "price": {
       "currency": "USD",
       "amount": 499.99,
-      "converted": 16061,
-      "confidence": "海外可信通路參考價；依 2026-07-10 匯率換算"
+      "converted": 16042,
+      "confidence": "海外可信通路參考價；依 2026-07-11 匯率換算"
     },
     "image": "https://assets.sharkninja.com/image/upload/f_auto/q_auto/SharkNinja-NA/RV2820ZE_01.jpg",
     "buyUrl": "https://www.sharkninja.com/shark-powerdetect-2-in-1-robot-vacuum-and-mop-with-nevertouch-pro-base/RV2820ZE.html",
@@ -2152,8 +2152,8 @@
     "price": {
       "currency": "USD",
       "amount": 1199,
-      "converted": 38515,
-      "confidence": "海外可信通路參考價；依 2026-07-10 匯率換算"
+      "converted": 38470,
+      "confidence": "海外可信通路參考價；依 2026-07-11 匯率換算"
     },
     "image": "https://dyson-h.assetsadobe2.com/is/image/content/dam/dyson/products/home/floorcare/robot/spot-scrub-ai/rcc/Web-804A-Category-Page-Module1.jpg?$responsive$&fmt=pjpeg&wid=640",
     "buyUrl": "https://www.dyson.com/vacuum-cleaners/robot/spot-scrub-ai",
@@ -2230,8 +2230,8 @@
     "price": {
       "currency": "USD",
       "amount": 399.99,
-      "converted": 12849,
-      "confidence": "Costco US 2026-07-09 參考價，TWD 依 2026-07-10 匯率換算"
+      "converted": 12834,
+      "confidence": "Costco US 2026-07-09 參考價，TWD 依 2026-07-11 匯率換算"
     },
     "image": "https://bfasset.costco-static.com/U447IH35/as/tkj772p4357mmh3bwz8kcq/1791272-847__1?auto=webp&format=jpg",
     "buyUrl": "https://www.costco.com/roborock-qx-revo-robot-vacuum-and-mop-with-multifunctional-dock.product.4000233271.html",
@@ -2376,6 +2376,90 @@
           "platform": "Reddit",
           "query": "\"eufy E20\" (problem OR issue OR defect OR negative review)",
           "queryUrl": "https://www.reddit.com/search/?q=%22eufy%20E20%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "targetHost": "reddit.com"
+        }
+      ]
+    }
+  },
+  {
+    "id": "robot-xiaomi-vacuum-6-max",
+    "category": "robot",
+    "rank": 31,
+    "budget": "premium",
+    "channel": "tw",
+    "brand": "Xiaomi",
+    "model": "6 Max",
+    "name": "Xiaomi 掃拖機器人 6 Max",
+    "price": {
+      "currency": "TWD",
+      "amount": 23999,
+      "converted": 23999,
+      "confidence": "PChome 2026-07-11 API 查核價"
+    },
+    "image": "https://cs-a.ecimg.tw/items/DMBL53A900K37A4/000001_1781505277.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DMBL53-A900K37A4",
+    "buyLabel": "PChome",
+    "specs": [
+      "35,000Pa 吸力",
+      "滾刷活水洗地、貼邊拖布與外擴邊刷",
+      "三攝 AI 避障，可辨識 320+ 種物品與污漬",
+      "6cm 單台階越障；最低可進入 9.3cm 空間",
+      "85°C 洗拖布、50°C 烘乾與自動集塵",
+      "6400mAh 電池；全方位工作站"
+    ],
+    "description": "Xiaomi 2026 年新款台灣旗艦掃拖機器人，主打三重外擴清掃、滾刷活水洗地、35,000Pa 吸力、三攝 AI 避障與 6cm 越障。",
+    "pros": [
+      "台灣官方規格與可信通路新品頁完整",
+      "吸力、貼邊覆蓋、越障與低矮空間清潔規格突出",
+      "基站具熱水洗拖布、熱風烘乾與自動集塵"
+    ],
+    "cons": [
+      "新機上市，長期可靠度與耗材成本仍需觀察",
+      "AI 攝影功能涉及居家隱私，預設雖關閉仍應確認設定",
+      "工作站體積大，購買前需確認進排水箱操作與擺放空間"
+    ],
+    "bestFor": "想比較台灣可購買新一代滾刷掃拖旗艦，重視越障、貼邊與基站自清潔的人。",
+    "recommendation": "新品補充：6 Max 規格完整且台灣通路已可購買，但上市時間短，先列入旗艦比較池並持續追蹤實際口碑與價格。",
+    "score": 92,
+    "voltage": "工作站 100-120V、50/60Hz；台灣規格頁標示",
+    "warranty": "依小米台灣與 PChome/供應商頁面",
+    "tags": [
+      "Xiaomi",
+      "滾刷洗地",
+      "AI 避障",
+      "35,000Pa",
+      "6cm 越障"
+    ],
+    "releaseDate": "2026-06-16",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-07-11",
+      "note": "已查 BigGo、FindPrice 與 LBJ 的完整型號；新品公開頁僅能驗證目前售價，未找到同型號可信新品通路可公開驗證的歷史價格序列，因此不以現價推定史低。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-07-11",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Xiaomi Robot Vacuum 6 Max\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Xiaomi%20Robot%20Vacuum%206%20Max%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "Reddit",
+          "query": "\"Xiaomi Robot Vacuum 6 Max\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.reddit.com/search/?q=%22Xiaomi%20Robot%20Vacuum%206%20Max%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
           "targetHost": "reddit.com"
         }
       ]

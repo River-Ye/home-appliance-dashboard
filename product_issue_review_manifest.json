@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-07-10",
+  "checkedAt": "2026-07-11",
   "methodVersion": 3,
   "policy": "每筆決策須保存 exact-model 跨站查詢與人工 attestation；每個搜尋候選須逐頁保存摘要、獨立作者數與具體排除理由，研究工具不得自行生成拒絕結論。",
   "results": [
@@ -22237,6 +22237,55 @@
       "reviewerNote": "DA-4550 已依 monitorarm 批次人工覆核 Mobile01、Reddit；決策為 no_common_issue，未以搜尋摘要或空結果代替原頁判讀。",
       "attestation": "manual_cross_site_search_reviewed_no_candidate",
       "candidateReviews": []
+    },
+    {
+      "id": "robot-xiaomi-vacuum-6-max",
+      "category": "robot",
+      "brand": "Xiaomi",
+      "model": "6 Max",
+      "reviewedAt": "2026-07-11",
+      "reviewBatch": "robot",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "Mobile01",
+        "Reddit"
+      ],
+      "queries": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Xiaomi Robot Vacuum 6 Max\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Xiaomi%20Robot%20Vacuum%206%20Max%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "Reddit",
+          "query": "\"Xiaomi Robot Vacuum 6 Max\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.reddit.com/search/?q=%22Xiaomi%20Robot%20Vacuum%206%20Max%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "targetHost": "reddit.com"
+        }
+      ],
+      "candidateDisposition": "6 Max：已逐頁人工排除 1 個 exact-model 候選；原頁只談滾刷配件差異，未形成負面使用問題。",
+      "representativeSources": [
+        {
+          "platform": "Reddit",
+          "title": "Differences in roller mops for Xiaomi Robot Vacuum 6, 6 Pro, 6 Max",
+          "url": "https://www.reddit.com/r/vacuumcleanerparts/comments/1uqn3g7/differences_in_roller_mops_for_xiaomi_robot/"
+        }
+      ],
+      "reviewerNote": "6 Max 已人工覆核 Mobile01 與 Reddit 的 exact-model 查詢；新品討論仍少，決策為 no_common_issue，後續維護需持續追蹤。",
+      "attestation": "manual_original_pages_reviewed",
+      "candidateReviews": [
+        {
+          "url": "https://www.reddit.com/r/vacuumcleanerparts/comments/1uqn3g7/differences_in_roller_mops_for_xiaomi_robot/",
+          "title": "Differences in roller mops for Xiaomi Robot Vacuum 6, 6 Pro, 6 Max",
+          "outcome": "excluded",
+          "reviewedAt": "2026-07-11",
+          "exactModel": true,
+          "sourceExcerpt": "原頁只比較 Xiaomi Robot Vacuum 6、6 Pro、6 Max 的滾刷接頭與尺寸差異，作者未回報 6 Max 故障或負面使用問題，頁面也沒有其他使用者留言。",
+          "independentAuthors": 0,
+          "specificReason": "這是配件相容性說明，不是第一人稱負面問題；沒有可計數的同型號負評作者，也沒有第二個原始網站的相同問題回報。"
+        }
+      ]
     }
   ]
 }
