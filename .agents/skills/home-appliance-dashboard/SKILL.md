@@ -16,6 +16,15 @@ Use a dedicated git worktree and short-lived `codex/` branch for repo changes un
 - For product data, prices, links, images, exchange rates, discontinued decisions, release dates, historical lows, or source evidence, read `references/product-maintenance.md`.
 - For static frontend refactors, product loading, validation tools, docs drift checks, or Pages release verification, read `references/static-refactor-release.md`.
 
+## GEO And AI Search Workflow
+
+- The site has exactly 25 generated static category guides at `/categories/<id>/`; do not create one thin page per product or add tracking for GEO work.
+- Maintain category-level intros, three buying criteria, and three FAQs in `tools/category-guides.js`. Product facts continue to come from `assets/js/config.js` and `products/*.js`.
+- After any product, category, or guide change, run `npm run generate:categories`, then `npm run check:geo`. Do not hand-edit `categories/<id>/index.html`, `sitemap.xml`, `llms.txt`, or the generated GEO blocks in `index.html`.
+- Treat `llms.txt` as supplemental discovery context only; it does not guarantee indexing, ranking, or AI citation.
+- Keep all six evidence files in the Pages artifact: `release_date_research.json`, `historical_price_research.json`, `dimension_research.json`, `product_issue_research.json`, `product_issue_report_evidence.json`, and `product_issue_review_manifest.json`.
+- IndexNow runs only after a successful Pages deployment and is non-blocking. Always inspect its workflow log and report failures accurately.
+
 ## Guardrails
 
 - Preserve `products/*.js` as the product data boundary and keep `registerProducts(categoryId, items)` compatible.

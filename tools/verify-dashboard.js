@@ -7,6 +7,7 @@ const {
   runDesktopJourney,
   runMobileJourney,
 } = require("./dashboard-ui-journeys");
+const { runCategoryPageJourneys } = require("./category-page-ui-journeys");
 
 function loadPlaywright() {
   try {
@@ -26,6 +27,7 @@ function loadPlaywright() {
   const browser = await chromium.launch({ headless: true });
   try {
     await runProductLoadSchedulingJourney(browser);
+    await runCategoryPageJourneys(browser);
     if (fullMode) {
       await runExhaustiveViewport(browser, "dashboard-wide-desktop", { width: 2048, height: 1152 });
       await runExhaustiveViewport(browser, "dashboard-desktop", { width: 1440, height: 1100 });

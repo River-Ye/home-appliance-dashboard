@@ -1,0 +1,63 @@
+# 家電推薦比較工作台
+
+> 以台灣採購與居住情境為主的家電研究、篩選與比較靜態站，由 家電推薦比較工作台專案編輯團隊 維護並由 AI 協助研究與整理。
+
+- Canonical site: https://appliance.riverye.com/
+- Data updated: 2026-07-12
+- Catalog: 25 categories, 661 products
+- Source code: https://github.com/River-Ye/home-appliance-dashboard
+
+## 查核方法
+
+- 價格、圖片與購買連結只採品牌官方或可信新品通路，排除二手、福利品、展示機、拆封品、整新品、配件與耗材誤判。
+- 上市／發售日期與歷史最低價需有逐型號證據；找不到時明確標示「找不到」，不以型號年份或現價猜測。
+- 集中負評／災情需完全相同型號、至少 6 位可辨識獨立使用者、跨至少 2 個原始網站；未達門檻不代表完全沒有負評。
+
+## 資料限制
+
+- 價格、庫存、規格與保固可能在查核後變動，實際資訊以品牌與原通路為準。
+- 海外價格未含國際運費、進口稅，並有電壓、插頭與台灣保固風險。
+- 本站的推薦排序與比較分數是專案內部評估，不是消費者星等、專業認證或效果保證。
+- 本檔只是供機器理解網站結構的補充說明，不是正式排名標準，也不保證任何搜尋引擎或 AI 系統收錄、排名或引用。
+
+## 分類選購指南
+
+- [電視](https://appliance.riverye.com/categories/tv/): 23 筆候選。電視選購應從觀看距離、可用牆面與內容來源出發，再比較尺寸、解析度、面板特性、連接埠與智慧系統。手機投影能力只採品牌或通路明確標示，不以系列名稱推測；壁掛、搬運、電壓與台灣保固也要在購買前確認。
+- [Soundbar](https://appliance.riverye.com/categories/soundbar/): 25 筆候選。Soundbar 適合在有限空間改善電視聲音，但聲道標示、低音炮、後環繞與虛擬環繞的體驗不同。選購時應核對電視的 HDMI eARC／ARC 或光纖輸出、擺放寬度、音訊格式，以及各元件的供電與台灣保固。
+- [電風扇](https://appliance.riverye.com/categories/fan/): 23 筆候選。電風扇以人體送風與日常降溫感受為主，應區分立扇、桌扇、塔扇與無葉片等型態，再比較風量、送風範圍、噪音與清潔方式。台灣使用還要確認電壓、線材安全、兒童或寵物防護，以及保固維修管道。
+- [循環扇](https://appliance.riverye.com/categories/circulator/): 23 筆候選。循環扇的重點是把空氣送得集中且有距離，用來配合冷氣、除濕或換氣，不等同於直接降低室溫。比較時應看房間格局、風向調整、各檔噪音、清潔便利性，以及電壓和台灣維修保固。
+- [除濕機](https://appliance.riverye.com/categories/dehumidifier/): 24 筆候選。除濕機應依空間、潮濕程度與是否室內曬衣選擇除濕能力，而不是只看水箱大小。台灣環境使用時還要比較能源效率、噪音、連續排水與滿水保護，並保留進出風空間、使用合適電源及確認本地保固。
+- [空氣清淨機](https://appliance.riverye.com/categories/purifier/): 22 筆候選。空氣清淨機應以空間大小、主要污染來源和可持續更換的濾網為核心，搭配 CADR 或品牌標示的適用面積判讀。噪音、感測與耗材成本會影響長期使用；它不能取代必要通風，海外款還要確認電壓、濾網供應與台灣保固。
+- [掃拖機器人](https://appliance.riverye.com/categories/robot/): 34 筆候選。掃拖機器人要把清潔能力、避障導航、拖地方式與基站維護一起比較，並依門檻、地毯、毛髮和家具底部高度判斷適用性。旗艦或次旗艦不代表每個家庭都合適；海外款還需評估耗材、App、電壓與台灣售後風險。
+- [吸塵器](https://appliance.riverye.com/categories/vacuum/): 23 筆候選。吸塵器應依地板材質、毛髮、樓層與收納空間選擇無線、桶式或其他型態，再比較重量、吸頭、續航與集塵清潔。電池和濾網屬長期成本，海外機種還要確認充電器電壓、耗材供應與台灣保固。
+- [洗衣機](https://appliance.riverye.com/categories/washer/): 23 筆候選。洗衣機分類只比較單洗機種，避免把洗脫烘誤當成相同產品。選購要核對洗衣容量、直立或滾筒形式、溫水與變頻等明確功能，同時量機身、門向、搬運路徑，並確認進排水、插座、地面水平與到府保固。
+- [烘衣機](https://appliance.riverye.com/categories/dryer/): 21 筆候選。烘衣機應先分辨熱泵、瓦斯、電熱與冷凝等方式，再比較乾衣容量、時間、衣物照護和安裝條件。機身尺寸之外，還需確認電壓或瓦斯、排風或排水、疊放配件與承重，並排除洗脫烘、底座或曬衣設備的錯類。
+- [洗烘衣機(多功能型)](https://appliance.riverye.com/categories/washerdryer/): 23 筆候選。洗烘衣機應同時核對洗衣與乾衣容量，不能只看一個總容量；乾衣容量通常需另外標示。比較時還要納入完整洗烘時間、熱泵或冷凝方式、蒸氣與自動投入等功能，以及進排水、電力、維修成本和安裝空間。
+- [冰箱](https://appliance.riverye.com/categories/refrigerator/): 23 筆候選。冰箱要從家庭容量、門型與廚房動線選擇，並以機身寬深高核對預留位置、開門空間與搬運路徑。變頻、節能標示、電壓、散熱條件、舊機回收與到府保固都應納入，避免誤收酒櫃、冰櫃、配件或組合包。
+- [鍋具](https://appliance.riverye.com/categories/cookware/): 23 筆候選。鍋具比較應回到烹調方式、爐具、尺寸與材質，而不是把配件或套組件數當成主要價值。需確認鍋底是否適用 IH／電磁爐、容量和重量是否順手，以及把手、鍋蓋、塗層或養鍋的維護要求；配件、耗材與食譜不列為鍋具本體。
+- [刀具](https://appliance.riverye.com/categories/knife/): 22 筆候選。刀具分類只納入廚房用刀，應依食材、刀型、刃材與握持感選擇，不能把刀架、磨刀器或其他非廚房刀具混在一起。鋒利度之外還要考量重量、平衡、清潔、磨刀方式與安全收納；保固通常也不等同於涵蓋日常磨耗。
+- [破壁機](https://appliance.riverye.com/categories/blender/): 24 筆候選。破壁機應依冰沙、堅果、濃湯或日常果汁等用途，比較容杯容量、刀組、可處理食材與是否具加熱功能。高轉速運轉可能帶來噪音與清潔負擔；海外機種的電壓、插頭、容杯零件與台灣保固也必須先查清楚。
+- [多功能氣炸烤箱/微波爐](https://appliance.riverye.com/categories/oven/): 23 筆候選。多功能氣炸烤箱／微波爐以有限家電櫃空間整合功能為主，可比較水波爐、蒸烤、氣炸微波與氣炸烤箱等不同取捨。選購要核對實際容量、外部尺寸、開門與散熱空間、額定功率和電壓，並確認安裝條件及台灣保固。
+- [櫥下飲水機](https://appliance.riverye.com/categories/waterdispenser/): 21 筆候選。櫥下飲水機分類以廚下淨水、RO 與瞬熱或冷熱系統為主，不納入桌上型、直立型、全戶式設備或單純濾心。比較時要把水質需求、濾芯週期、櫃內尺寸、進排水、鑽孔與電源一起規劃，並確認安裝責任、防漏與台灣保固。
+- [洗碗機](https://appliance.riverye.com/categories/dishwasher/): 23 筆候選。洗碗機要依家庭餐具量與廚房條件，分辨免安裝、桌上型、獨立式、嵌入式或抽屜式，再比較容量與洗程。機身和門片空間之外，必須確認進排水、110V 或 220V 電力、櫃體施工與售後；220V 或嵌入式機種不能視為低門檻即插即用。
+- [免治馬桶](https://appliance.riverye.com/categories/bidet/): 21 筆候選。免治馬桶選購要先確認是馬桶座或整座馬桶，並量原有馬桶形狀、固定孔距與水電位置。比較清洗、加熱、除臭等功能時，也要考量浴室防濺、接地、進水與清潔維護；安裝費、耗材和台灣保固需在下單前確認。
+- [電子鎖](https://appliance.riverye.com/categories/smartlock/): 48 筆候選。電子鎖不能只比較指紋、密碼或手機解鎖，必須先確認門厚、門向、鎖體、天地栓與現場施工條件。安裝可能有基本費之外的改孔或配件費用；也要核對電池、緊急開鎖、管理權限，以及台灣技師與保固服務。
+- [無線路由器](https://appliance.riverye.com/categories/wifi/): 48 筆候選。無線路由器分類只收 Wi-Fi 6、Wi-Fi 6E、Wi-Fi 7 或以上，並區分家用一體式路由器、Mesh 節點與商用／Prosumer AP。選購要依格局、裝置數、網路速率與回程方式規劃；Aruba Instant On、UniFi 等 AP 通常還需 Gateway、PoE 和管理平台。
+- [升降桌](https://appliance.riverye.com/categories/standingdesk/): 23 筆候選。升降桌應依使用者身高、工作姿勢、桌板尺寸與設備重量選擇，不只比較升降速度。桌板厚度會影響螢幕支架與夾具相容性；穩定度、線材管理、馬達供電、組裝方式、零件供應與保固也應一起確認。
+- [電腦椅](https://appliance.riverye.com/categories/chair/): 23 筆候選。電腦椅的適配取決於身形、坐姿與每日使用時間，不能只靠外觀或單一尺寸判斷。應比較座高、座深、腰靠、扶手與後仰調整，並考量台灣氣候下的材質、組裝、試坐或退換條件，以及零件供應和保固。
+- [電腦螢幕](https://appliance.riverye.com/categories/monitor/): 54 筆候選。電腦螢幕要依文書、遊戲、影像或專業色彩用途，選擇尺寸、解析度、更新率與面板；34、45、49、57 吋寬螢幕還要考量桌深、顯卡輸出和觀看距離。支架安裝應以不含底座的螢幕重量、VESA 與承重為準，並確認連接埠及台灣保固。
+- [懸臂支架](https://appliance.riverye.com/categories/monitorarm/): 21 筆候選。懸臂支架必須以螢幕實際尺寸、不含底座重量與 VESA 規格配對，不能只看宣稱最大吋數。49／57 吋超寬或大型曲面螢幕需要更高承重與力矩餘量；也要核對桌板厚度、夾桌或穿桌條件，重型螢幕建議兩人安裝。
+
+## 研究證據
+
+- [release_date_research.json](https://appliance.riverye.com/release_date_research.json)
+- [historical_price_research.json](https://appliance.riverye.com/historical_price_research.json)
+- [dimension_research.json](https://appliance.riverye.com/dimension_research.json)
+- [product_issue_research.json](https://appliance.riverye.com/product_issue_research.json)
+- [product_issue_report_evidence.json](https://appliance.riverye.com/product_issue_report_evidence.json)
+- [product_issue_review_manifest.json](https://appliance.riverye.com/product_issue_review_manifest.json)
+
+## 主要入口
+
+- [完整互動比較工作台](https://appliance.riverye.com/)
+- [專案維護與資料來源說明](https://github.com/River-Ye/home-appliance-dashboard)
