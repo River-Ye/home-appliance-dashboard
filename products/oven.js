@@ -251,9 +251,9 @@
     "name": "30L Healsio 炙燒水波爐",
     "price": {
       "currency": "TWD",
-      "amount": 27072,
-      "converted": 27072,
-      "confidence": "Yahoo購物中心 2026-07-11 頁面查核價"
+      "amount": 28800,
+      "converted": 28800,
+      "confidence": "Yahoo購物中心 2026-07-13 頁面查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBJ021900I5KFC/000001_1779346148.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/SHARP%E5%A4%8F%E6%99%AE-HEALSIO-%E6%97%97%E8%89%A6%E6%B0%B4%E6%B3%A2%E7%88%90-AX-XP10T-12039766.html",
@@ -330,8 +330,8 @@
     "price": {
       "currency": "USD",
       "amount": 499.95,
-      "converted": 16041,
-      "confidence": "Breville 官方 2026-07-11 查核價；依 2026-07-11 匯率換算"
+      "converted": 16021,
+      "confidence": "Breville 官方 2026-07-11 查核價；依 2026-07-12 匯率換算"
     },
     "image": "https://cdn11.bigcommerce.com/s-ihwnd7z21q/images/stencil/640w/products/1251/4666/212814_JouleOvenAirFryer1__10534.1724079466.jpg?c=1",
     "buyUrl": "https://www.breville.com/en-us/product/bov950",
@@ -875,9 +875,9 @@
     "name": "AIoT 智慧連網 30L 水波爐蒸氣烘烤微波爐",
     "price": {
       "currency": "TWD",
-      "amount": 36472,
-      "converted": 36472,
-      "confidence": "Yahoo購物中心 2026-07-11 頁面查核價"
+      "amount": 38800,
+      "converted": 38800,
+      "confidence": "Yahoo購物中心 2026-07-13 頁面查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBM0GA900G41CW/000001_1780306175.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/SHARP-%E5%A4%8F%E6%99%AE-30L-Healsio-AIoT%E6%99%BA%E6%85%A7%E9%80%A3%E7%B6%B2%E6%B0%B4%E6%B3%A2%E7%88%90-AX-XW10T-11978312.html",
@@ -1031,9 +1031,9 @@
     "name": "31L 極智烘烤系列水波爐",
     "price": {
       "currency": "TWD",
-      "amount": 23406,
-      "converted": 23406,
-      "confidence": "Yahoo購物中心 2026-07-11 頁面查核價"
+      "amount": 24900,
+      "converted": 24900,
+      "confidence": "Yahoo購物中心 2026-07-13 頁面查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBJ0RA900JT4ZV/000001_1781238451.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/SHARP-%E5%A4%8F%E6%99%AE-31L-%E6%A5%B5%E6%99%BA%E7%83%98%E7%83%A4%E7%B3%BB%E5%88%97%E6%B0%B4%E6%B3%A2%E7%88%90-AX-XS10T-B-AX-XS10T-W-12030496.html",
@@ -1655,9 +1655,9 @@
     "name": "數位氣炸鍋",
     "price": {
       "currency": "TWD",
-      "amount": 1749,
-      "converted": 1749,
-      "confidence": "Costco 好市多 2026-07-11 頁面查核價"
+      "amount": 1399,
+      "converted": 1399,
+      "confidence": "Costco 好市多 2026-07-13 頁面查核價"
     },
     "image": "https://www.costco.com.tw/medias/sys_master/images/hd8/h30/308063201099806.jpg",
     "buyUrl": "https://www.costco.com.tw/Televisions-Appliances/Kitchen-Appliances/Cookers-Oven-Microwaves-Food-Waste-Machine/Gourmia-Digital-Air-Fryer-GAF858/p/6232432",
@@ -1692,17 +1692,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 1399,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
-      "checkedAt": "2026-07-09",
-      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ Gourmia GAF858: 樂天市場 - 玉山最低比價網 玉山最低比價網 [COSCO代購6] C6232432 Gourmia 數位氣炸鍋 GAF858 型號/規格不相符；LBJ Gourmia GAF858: 樂天市場 - 及時雨 高壓恢復選品 及時雨 高壓恢復選品 Gourmia 數位氣炸鍋 GAF858 型號/規格不相符；LBJ Gourmia GAF858: 樂天市場 - 玉山最低比價網 玉山最低比價網 [COSCO代購6] D6232432 Gourmia 數位氣炸鍋 GAF858 型號/規格不相符。"
+      "converted": 1399,
+      "sourceUrl": "https://www.costco.com.tw/Televisions-Appliances/Kitchen-Appliances/Cookers-Oven-Microwaves-Food-Waste-Machine/Gourmia-Digital-Air-Fryer-GAF858/p/6232432",
+      "sourceTitle": "Costco 好市多：Gourmia 數位氣炸鍋 GAF858",
+      "evidenceSnippet": "Costco 好市多商品頁於 2026-07-13 顯示同型號新品公開價 NT$1,399，低於既有可驗證史低。",
+      "sourceKind": "retailer_page",
+      "confidence": "high",
+      "checkedAt": "2026-07-13",
+      "note": "採用同型號、同尺寸／容量／規格的可信新品公開價；排除會員個人化折扣、信用卡回饋、點數、二手、福利品、展示、拆封與整新品。"
     },
     "issueResearch": {
       "status": "no_common_issue",

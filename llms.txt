@@ -3,7 +3,7 @@
 > 以台灣採購與居住情境為主的家電研究、篩選與比較靜態站，由 家電推薦比較工作台專案編輯團隊 維護並由 AI 協助研究與整理。
 
 - Canonical site: https://appliance.riverye.com/
-- Data updated: 2026-07-12
+- Data updated: 2026-07-13
 - Catalog: 25 categories, 661 products
 - Source code: https://github.com/River-Ye/home-appliance-dashboard
 

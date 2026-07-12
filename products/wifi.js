@@ -412,9 +412,9 @@
     "name": "BE5000 Wi-Fi 7 Mesh 延伸系統路由器+2衛星",
     "price": {
       "currency": "TWD",
-      "amount": 12863,
-      "converted": 12863,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 8400,
+      "converted": 8400,
+      "confidence": "PChome 2026-07-13 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAFJAA900JG5AK/000001_1763014538.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DRAFJA-A900JG5AK",
@@ -447,17 +447,17 @@
     ],
     "releaseDate": "2025-07-29",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 8400,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
-      "checkedAt": "2026-07-09",
-      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ NETGEAR Orbi RBE373: PCHome購物 Netgear 網件 Orbi RBE370 BE5000 雙頻WiFi 7Mesh延伸衛星 此設備無法單獨使用 需先購買RBE373(Orbi RBE370) 型號/規格不相符；LBJ NETGEAR Orbi RBE373: 蝦皮購物 - NETGEAR 官方旗艦店 / Arlo官方旗艦店 【NETGEAR】Orbi RBE373 BE5000 雙頻WiFi 7Mesh延伸系統 路由器+2衛星1.5GHz四核 型號/規格不相符；LBJ NETGEAR Orbi RBE373: PCHome購物 Netgear 網件 【NETGEAR】Orbi RBE373 BE5000 雙頻WiFi 7Mesh延伸系統 路由器+2衛星1.5GHz四核+1GB RAM(Orbi RBE373) 型號/規格不相符。"
+      "converted": 8400,
+      "sourceUrl": "https://24h.pchome.com.tw/prod/DRAFJA-A900JG5AK",
+      "sourceTitle": "PChome 商品 API：【NETGEAR】Orbi RBE373 BE5000 雙頻WiFi 7Mesh延伸系統 路由器+2衛星1.5GHz四核+1GB RAM(Orbi RBE373)",
+      "evidenceSnippet": "PChome 商品 API 於 2026-07-13 顯示同型號新品公開價 NT$8,400，低於既有可驗證史低。",
+      "sourceKind": "retailer_page",
+      "confidence": "high",
+      "checkedAt": "2026-07-13",
+      "note": "採用同型號、同尺寸／容量／規格的可信新品公開價；排除會員個人化折扣、信用卡回饋、點數、二手、福利品、展示、拆封與整新品。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -663,8 +663,8 @@
     "price": {
       "currency": "USD",
       "amount": 189,
-      "converted": 6064,
-      "confidence": "Ubiquiti Store 2026-07-11 查核價；依 2026-07-11 匯率換算"
+      "converted": 6056,
+      "confidence": "Ubiquiti Store 2026-07-11 查核價；依 2026-07-12 匯率換算"
     },
     "image": "https://cdn.ecomm.ui.com/products/fa8dd4e4-36c8-4c79-a928-22c7bff2ce29/ab5bc8a4-6135-402e-a695-e3ea5e16d3e6.png",
     "buyUrl": "https://store.ui.com/us/en/category/all-wifi/products/u7-pro",
@@ -752,8 +752,8 @@
     "price": {
       "currency": "USD",
       "amount": 159,
-      "converted": 5102,
-      "confidence": "Ubiquiti Store 2026-07-11 查核價；依 2026-07-11 匯率換算"
+      "converted": 5095,
+      "confidence": "Ubiquiti Store 2026-07-11 查核價；依 2026-07-12 匯率換算"
     },
     "image": "https://cdn.ecomm.ui.com/products/8e88b222-7a55-4cf0-8677-ae9b6347fe84/e16aa122-b5e5-4ffb-9f1a-27ee14d9ab3d.png",
     "buyUrl": "https://store.ui.com/us/en/category/all-wifi/products/u6-pro",
@@ -832,8 +832,8 @@
     "price": {
       "currency": "USD",
       "amount": 99,
-      "converted": 3176,
-      "confidence": "Ubiquiti Store 2026-07-11 查核價；依 2026-07-11 匯率換算"
+      "converted": 3172,
+      "confidence": "Ubiquiti Store 2026-07-11 查核價；依 2026-07-12 匯率換算"
     },
     "image": "https://cdn.ecomm.ui.com/products/253cc208-4b09-4b2e-9d1a-7aa1e8f93507/49241c96-878f-4e40-8541-c2e89c1c5e6e.png",
     "buyUrl": "https://store.ui.com/us/en/category/all-wifi/products/u7-lite",
@@ -1236,8 +1236,8 @@
     "price": {
       "currency": "USD",
       "amount": 129,
-      "converted": 4139,
-      "confidence": "Ubiquiti Store 2026-07-11 查核價；依 2026-07-11 匯率換算"
+      "converted": 4134,
+      "confidence": "Ubiquiti Store 2026-07-11 查核價；依 2026-07-12 匯率換算"
     },
     "image": "https://cdn.ecomm.ui.com/products/6d5c6141-e2e9-416a-b789-53e59416bb1a/853bc73b-f65b-4e59-a171-75c9a4a4615e.png",
     "buyUrl": "https://store.ui.com/us/en/category/all-wifi/products/u6-plus",
@@ -1340,8 +1340,8 @@
     "price": {
       "currency": "USD",
       "amount": 279,
-      "converted": 8952,
-      "confidence": "Ubiquiti Store 2026-07-11 查核價；依 2026-07-11 匯率換算"
+      "converted": 8940,
+      "confidence": "Ubiquiti Store 2026-07-11 查核價；依 2026-07-12 匯率換算"
     },
     "image": "https://cdn.ecomm.ui.com/products/350070a0-ae43-431b-b052-8e849c3b0a75/bad94693-bc54-4ab4-b060-9b972401941c.png",
     "buyUrl": "https://store.ui.com/us/en/category/all-wifi/products/u7-pro-max",
@@ -1671,9 +1671,9 @@
     "name": "BE11000 Mesh Wi-Fi 7 電競路由器",
     "price": {
       "currency": "TWD",
-      "amount": 5290,
-      "converted": 5290,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 5490,
+      "converted": 5490,
+      "confidence": "PChome 2026-07-13 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAF02A900I473A/000001_1732699929.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DRAF02-A900I473A",
@@ -2228,9 +2228,9 @@
     "name": "BE3600 雙頻 Wi-Fi 7 路由器",
     "price": {
       "currency": "TWD",
-      "amount": 4095,
-      "converted": 4095,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 3595,
+      "converted": 3595,
+      "confidence": "PChome 2026-07-13 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAFJAA900JUQYP/000001_1774520642.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DRAFJA-A900JUQYP",
@@ -2264,16 +2264,16 @@
     "releaseDate": "2025",
     "historicalLow": {
       "status": "found",
-      "amount": 3599,
+      "amount": 3595,
       "currency": "TWD",
-      "converted": 3599,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1273531591&cgp=4095",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：Netgear 網件 夜鷹 NIGHTHAWK RS100 BE3600 雙頻 WiFi 7 分享器/路由器",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「PCHome購物 / Netgear 網件 夜鷹 NIGHTHAWK RS100 BE3600 雙頻 WiFi 7 分享器/路由器」最低價為 NT$3,599，最低點日期 2026-07-02。",
-      "sourceKind": "price_history",
-      "confidence": "medium",
-      "checkedAt": "2026-07-09",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+      "converted": 3595,
+      "sourceUrl": "https://24h.pchome.com.tw/prod/DRAFJA-A900JUQYP",
+      "sourceTitle": "PChome 商品 API：NETGEAR 夜鷹NIGHTHAWK RS100 BE3600 雙頻 WiFi 7 分享器/路由器",
+      "evidenceSnippet": "PChome 商品 API 於 2026-07-13 顯示同型號新品公開價 NT$3,595，低於既有可驗證史低。",
+      "sourceKind": "retailer_page",
+      "confidence": "high",
+      "checkedAt": "2026-07-13",
+      "note": "採用同型號、同尺寸／容量／規格的可信新品公開價；排除會員個人化折扣、信用卡回饋、點數、二手、福利品、展示、拆封與整新品。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -2735,9 +2735,9 @@
     "name": "BE9300 三頻 Wi-Fi 7 旗艦路由器",
     "price": {
       "currency": "TWD",
-      "amount": 8700,
-      "converted": 8700,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 5999,
+      "converted": 5999,
+      "confidence": "PChome 2026-07-13 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAFJAA900IFBVA/000001_1780997121.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DRAFJA-A900IFBVA",
@@ -2771,16 +2771,16 @@
     "releaseDate": "2024-06-19",
     "historicalLow": {
       "status": "found",
-      "amount": 6818,
+      "amount": 5999,
       "currency": "TWD",
-      "converted": 6818,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1244553087&cgp=8700",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：Netgear 網件 夜鷹 Nighthawk RS300 BE9300 6串流 三頻 WiFi 7 旗艦級分享器/路由器",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「PCHome購物 / Netgear 網件 夜鷹 Nighthawk RS300 BE9300 6串流 三頻 WiFi 7 旗艦級分享器/路由器」最低價為 NT$6,818，最低點日期 2026-06-29。",
-      "sourceKind": "price_history",
+      "converted": 5999,
+      "sourceUrl": "https://24h.pchome.com.tw/prod/DRAFJA-A900IFBVA",
+      "sourceTitle": "PChome 商品 API：NETGEAR 夜鷹 Nighthawk RS300  BE9300 6串流 三頻 WiFi 7 旗艦級分享器/路由器",
+      "evidenceSnippet": "PChome 商品 API 於 2026-07-13 顯示同型號新品公開價 NT$5,999，低於既有可驗證史低。",
+      "sourceKind": "retailer_page",
       "confidence": "high",
-      "checkedAt": "2026-07-09",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+      "checkedAt": "2026-07-13",
+      "note": "採用同型號、同尺寸／容量／規格的可信新品公開價；排除會員個人化折扣、信用卡回饋、點數、二手、福利品、展示、拆封與整新品。"
     },
     "issueResearch": {
       "status": "common_issue",
@@ -3232,9 +3232,9 @@
     "name": "Wi-Fi 6 雙 10GbE SD-WAN 路由器",
     "price": {
       "currency": "TWD",
-      "amount": 7790,
-      "converted": 7790,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 7990,
+      "converted": 7990,
+      "confidence": "PChome 2026-07-13 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAG6JA900AUW3D/000001_1626400932.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DRAG6J-A900AUW3D",

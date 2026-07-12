@@ -1668,8 +1668,8 @@
     "price": {
       "currency": "USD",
       "amount": 369.99,
-      "converted": 11871,
-      "confidence": "Costco US 2026-07-09 參考價，TWD 依 2026-07-11 匯率換算"
+      "converted": 11856,
+      "confidence": "Costco US 2026-07-09 參考價，TWD 依 2026-07-12 匯率換算"
     },
     "image": "https://bfasset.costco-static.com/U447IH35/as/4xjr3phfqx7p9vvxzfhp3jp/100457228-847_chrome_1?auto=webp&format=jpg",
     "buyUrl": "https://www.costco.com/brondell-circle-reverse-osmosis-water-filtration-system.product.100457228.html",

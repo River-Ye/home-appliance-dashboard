@@ -1658,7 +1658,7 @@
       "converted": 1959,
       "confidence": "Costco 好市多 2026-07-11 頁面查核價"
     },
-    "image": "https://www.costco.com.tw/medias/sys_master/videos/h7d/h27/242857399779358.mp4",
+    "image": "https://www.costco.com.tw/medias/sys_master/images/h13/he5/220050298077214.jpg",
     "buyUrl": "https://www.costco.com.tw/Televisions-Appliances/Small-Appliances/Vacuums-Floor-Care/IRIS-OHYAMA-Handy-Rechargeable-Cleaner-IC-H50/p/144463",
     "buyLabel": "Costco 好市多",
     "specs": [

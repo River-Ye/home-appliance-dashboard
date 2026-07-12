@@ -15,9 +15,9 @@
     "image": "https://cs-a.ecimg.tw/items/DMBR1PA900I386D/000001_1738721735.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 21400,
-      "converted": 21400,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 18000,
+      "converted": 18000,
+      "confidence": "PChome 2026-07-13 API 查核價"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -181,9 +181,9 @@
     "image": "https://cs-a.ecimg.tw/items/DMBR241900I024G/000001_1737106327.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 6799,
-      "converted": 6799,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 10900,
+      "converted": 10900,
+      "confidence": "PChome 2026-07-13 API 查核價"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -930,9 +930,9 @@
     "image": "https://cs-a.ecimg.tw/items/DPAL7PA900G5M47/000001_1783049805.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 36340,
-      "converted": 36340,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 37525,
+      "converted": 37525,
+      "confidence": "PChome 2026-07-13 API 查核價"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -1819,7 +1819,7 @@
       "converted": 26999,
       "confidence": "Costco 好市多 2026-07-09 查核價"
     },
-    "image": "https://www.costco.com.tw/medias/sys_master/videos/h8c/hae/379631890038814.mp4",
+    "image": "https://www.costco.com.tw/medias/sys_master/images/heb/hf0/379632229416990.webp",
     "buyUrl": "https://www.costco.com.tw/Televisions-Appliances/Kitchen-Appliances/Dishwashers-Dish-Dryers/Electrolux-60cm-UltimateCare-300-AirDry-Freestanding-Dishwasher/p/155128",
     "buyLabel": "Costco 好市多",
     "specs": [

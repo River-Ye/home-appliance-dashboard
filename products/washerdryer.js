@@ -703,9 +703,9 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/826F52E782-SP-22137065.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 32390,
-      "converted": 32390,
-      "confidence": "momo購物 2026-07-11 頁面查核價"
+      "amount": 34022,
+      "converted": 34022,
+      "confidence": "momo購物 2026-07-13 頁面查核價"
     },
     "channel": "tw",
     "buyLabel": "momo購物",
@@ -789,9 +789,9 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/953C366DCA-SP-17994282.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 45493,
-      "converted": 45493,
-      "confidence": "Yahoo購物中心 2026-07-11 頁面查核價"
+      "amount": 46463,
+      "converted": 46463,
+      "confidence": "Yahoo購物中心 2026-07-13 頁面查核價"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心",

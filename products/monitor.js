@@ -3780,9 +3780,9 @@
     "name": "45 型 21:9 OLED 240Hz 800R 曲面電競螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 37888,
-      "converted": 37888,
-      "confidence": "momo購物 2026-07-11 頁面查核價"
+      "amount": 38888,
+      "converted": 38888,
+      "confidence": "momo購物 2026-07-13 頁面查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABW9A900K5BHI/000001_1782298284.jpg",
     "buyUrl": "https://www.momoshop.com.tw/TP/TP0001232/goodsDetail/TP00012320000398",

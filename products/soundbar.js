@@ -1132,9 +1132,9 @@
     "name": "家庭娛樂揚聲器 600 Ultra",
     "price": {
       "currency": "TWD",
-      "amount": 18507,
-      "converted": 18507,
-      "confidence": "PChome 2026-07-12 API 查核價"
+      "amount": 19900,
+      "converted": 19900,
+      "confidence": "PChome 2026-07-13 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAANJA900HZBZV/000001_1729154632.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAANJ-A900HZBZV",
@@ -1601,8 +1601,8 @@
     "price": {
       "currency": "USD",
       "amount": 1299.99,
-      "converted": 41710,
-      "confidence": "Marshall US 2026-07-11 查核價；依 2026-07-11 匯率換算"
+      "converted": 41657,
+      "confidence": "Marshall US 2026-07-11 查核價；依 2026-07-12 匯率換算"
     },
     "image": "https://images.ctfassets.net/javen7msabdh/2C2sn9CKoKFdIyd94Gm9z5/f3019d4e721511167ebe5c229bf490dd/heston-120_plp.jpg",
     "buyUrl": "https://www.marshall.com/us/en/product/heston-120",
@@ -1681,8 +1681,8 @@
     "price": {
       "currency": "USD",
       "amount": 699.99,
-      "converted": 22459,
-      "confidence": "Marshall US 2026-07-09 查核價；官方頁顯示 Out of stock，依 2026-07-11 匯率換算"
+      "converted": 22431,
+      "confidence": "Marshall US 2026-07-09 查核價；官方頁顯示 Out of stock，依 2026-07-12 匯率換算"
     },
     "image": "https://images.ctfassets.net/javen7msabdh/3yitHqjPBTgQk5qRE72PSn/2788206646aa153f71f2c0ebefaff580/Heston-60-black_plp_800x800-v3.jpeg",
     "buyUrl": "https://www.marshall.com/us/en/product/heston-60",
