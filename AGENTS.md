@@ -21,6 +21,7 @@
 - `assets/css/comparison.css`：比較清單、比較表與空狀態樣式。
 - `assets/css/navigation.css`：手機 dock、快速跳轉與目標高亮動畫樣式。
 - `assets/css/responsive.css`：reduced-motion、平板與手機版 RWD。
+- `assets/css/editorial.css`：分類選購指南頁與首頁查核／分類入口區塊樣式。
 - `assets/js/config.js`：分類、匯率、meta、常數、全域 registry 與 state 初始化。
 - `assets/js/utils.js`：格式化、HTML escape、搜尋文字整理與標籤轉換。
 - `assets/js/filters.js`：搜尋、篩選、排序、品牌選項與 lazy loading 計算。
@@ -31,6 +32,9 @@
 - `assets/js/product-loader.js`：依 `categories` 自動載入 `products/<category>.js?v=<cacheVersion>`。
 - `assets/js/main.js`：DOMContentLoaded、商品載入、事件綁定與初始 render。
 - `products/*.js`：每個商品分類一個檔案，只放該分類商品資料，透過 `globalThis.applianceDashboard.registerProducts(categoryId, items)` 註冊。
+- `tools/category-guides.js`：25 類導讀、選購條件與 FAQ 的人工維護來源，不放即時商品事實。
+- `tools/generate-category-pages.js`：依分類、商品與指南產生 `categories/<id>/index.html`、`sitemap.xml`、`llms.txt` 與首頁 GEO 區塊。
+- `categories/<id>/index.html`：25 個可直接閱讀與索引的靜態分類指南頁，屬產生結果。
 - `tools/dashboard-contract.js`：商品數、分類數、必要欄位與資料品質規則常數。
 - `tools/*.js`：repo 內維護檢查工具，可用 `npm run check` 執行。
 - `.agents/skills/home-appliance-dashboard/`：repo-local skill，供 AI 維護商品資料、靜態前端與 Pages 發布流程時使用。
@@ -42,15 +46,29 @@
 - `products/<category>.js`
 - `README.md` 的分類、數量、品牌涵蓋說明
 - `AGENTS.md` 若規則有新增
+- `tools/category-guides.js`，若分類名稱、定位、選購條件或 FAQ 需要調整
 - `tools/dashboard-contract.js` 與 `assets/js/config.js` 的 `meta`，若總分類數或總商品數改變
+- 執行 `npm run generate:categories`，同步分類頁與 GEO 產物
 
 分類商品 script 由 `assets/js/product-loader.js` 依 `categories` 自動載入；新增分類時不要再手動把 `products/<category>.js` 加進 `index.html`。
+
+`categories/<id>/index.html`、`sitemap.xml`、`llms.txt`，以及 `index.html` 內 `geo-structured-data`／`geo-category-links` marker 之間的內容皆由產生器維護，不可手動修改；`npm run check:geo` 會拒絕缺漏、額外分類目錄或產物漂移。
 
 ## Repo-local Skill
 
 - 本 repo 有 `.agents/skills/home-appliance-dashboard/`，AI 後續處理商品維護、價格/匯率/連結查核、靜態前端重構、驗證工具或 GitHub Pages 發布時，應優先使用這個 skill。
 - 商品維護細節看 `references/product-maintenance.md`；靜態前端重構與發布流程看 `references/static-refactor-release.md`。
 - 若更新 AGENTS 裡的長期規則，也要評估是否同步更新 repo-local skill，避免後續 AI 只讀 skill 時漏掉流程。
+
+## GEO / AI 搜尋規則
+
+- 網站由現有 25 類資料產生 25 個 `/categories/<id>/` 靜態分類指南頁；不建立 661 個重複商品事實的薄內容頁。
+- `tools/category-guides.js` 只維護分類層級的繁中導讀、3 項選購條件與 3 組 FAQ；商品名稱、價格、排名、規格、史低與負評仍從既有商品資料產生，避免第二套事實來源。
+- 修改 `assets/js/config.js` 的分類、`products/*.js` 商品或 `tools/category-guides.js` 後，必須執行 `npm run generate:categories`，再以 `npm run check:geo` 驗證產物與 contract。
+- `llms.txt` 是提供網站用途、查核方法、資料限制與分類入口的補充說明，不是正式排名標準，也不保證搜尋引擎或 AI 服務收錄、排名或引用。
+- Pages 必須公開六份證據 JSON：`release_date_research.json`、`historical_price_research.json`、`dimension_research.json`、`product_issue_research.json`、`product_issue_report_evidence.json`、`product_issue_review_manifest.json`。
+- Pages 成功部署後才執行 IndexNow；通知為 non-blocking，失敗不得讓已完成的 Pages 部署失敗，但維護者仍需檢查 workflow log 並釐清原因。
+- GEO / AI 搜尋優化不得新增 Google Analytics、Google Ads 轉換或其他追蹤，也不得衍生逐商品薄內容頁。
 
 ## 目前資料規模
 
@@ -275,6 +293,7 @@
 - `npm run check:logic`：純邏輯回歸，涵蓋排序、品牌依分類限制、史低／負評文案、問題摘要搜尋、來源 URL 安全、HTML escape 與 product-loader URL/錯誤。
 - `npm run check:data`：商品總數、分類數、必要欄位、日期格式、負評逐型號人工覆核、逐位反映者與研究檔對齊、重複 URL 與重複型號檢查通過。
 - `npm run check:docs`：README、AGENTS、index/config 的商品數、分類數、日期與 cache version 不漂移。
+- `npm run check:geo`：25 個分類頁、metadata、結構化資料、首頁分類入口、sitemap、llms、六份公開證據檔、Pages artifact、IndexNow contract 與產生結果均無漂移。
 - `npm run check:ui`：桌機與手機版主要互動流程通過。
 - 商品總數仍符合 README 與分類 tab 顯示。
 - 每筆商品必要欄位齊全。
@@ -283,7 +302,7 @@
 - 不含福利品、瑕疵品、展示機、拆封品、二手品、整新品、配件頁或耗材頁。
 - 桌機與手機版能正常搜尋、篩選、分類切換、品牌依分類限制、排序、加入比較、清除比較。
 - 手機版篩選可展開與收合。
-- 公開 GitHub Pages 部署後可抓到新版 `index.html`、`assets/js/config.js` 與至少一個 `products/*.js`。
+- 公開 GitHub Pages 部署後可抓到新版 `index.html`、`assets/js/config.js`、至少一個 `products/*.js`、代表性 `categories/<id>/`、`sitemap.xml`、`llms.txt` 與六份證據 JSON。
 
 若需重新查價或外部連結稽核，可使用 Codex 原工作區的 `work/audit_product_sources.js`、`work/audit_pchome_prices.js`、`work/audit_links_prices_duplicates.js` 等輔助腳本；公開 repo 內的 `tools/*.js` 負責不需外網的日常維護檢查。
 
@@ -302,4 +321,5 @@
 - 這是公開 GitHub Pages repo；一般需求依照上方 git worktree 流程完成後 merge 到 `main` 並 push。
 - Commit message 使用繁體中文且簡短描述實際行為；包含 merge commit message，不要只寫分支名稱。
 - Push 後檢查 GitHub Pages build 狀態。
+- Pages 成功後檢查 IndexNow 步驟 log；它可 non-blocking 失敗，但不可忽略或把失敗誤報為成功。
 - 最後回報公開頁面連結、commit hash、做了哪些驗證。

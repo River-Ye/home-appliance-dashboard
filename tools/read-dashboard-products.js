@@ -43,6 +43,7 @@ function readDashboardProducts(root = path.resolve(__dirname, "..")) {
     categories: dashboard.categories,
     products: dashboard.products,
     exchange: dashboard.exchange,
+    meta: dashboard.meta,
   };
 }
 

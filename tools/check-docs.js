@@ -134,12 +134,24 @@ function main() {
   assert(structuredDataMatch, "index WebSite structured data is missing");
   const structuredData = JSON.parse(structuredDataMatch[1]);
   assert(structuredData["@context"] === "https://schema.org", "structured data context mismatch");
-  assert(structuredData["@type"] === "WebSite", "structured data type mismatch");
-  assert(structuredData.name === "家電推薦比較工作台", "structured data name mismatch");
-  assert(structuredData.url === siteUrl, "structured data URL mismatch");
-  assert(structuredData.description === seoDescription, "structured data description mismatch");
-  assert(structuredData.inLanguage === "zh-Hant-TW", "structured data language mismatch");
-  assert(Array.isArray(structuredData.sameAs) && structuredData.sameAs.includes(repoUrl), "structured data GitHub sameAs is missing");
+  assert(Array.isArray(structuredData["@graph"]), "structured data should use an @graph");
+  const graph = structuredData["@graph"];
+  const typeNode = (type) => graph.find((node) => {
+    const types = Array.isArray(node["@type"]) ? node["@type"] : [node["@type"]];
+    return types.includes(type);
+  });
+  const website = typeNode("WebSite");
+  const webpage = typeNode("WebPage");
+  const organization = typeNode("Organization");
+  const categoryList = typeNode("ItemList");
+  assert(website?.name === "家電推薦比較工作台", "structured data WebSite name mismatch");
+  assert(website?.url === siteUrl, "structured data WebSite URL mismatch");
+  assert(website?.description === seoDescription, "structured data WebSite description mismatch");
+  assert(website?.inLanguage === "zh-Hant-TW", "structured data WebSite language mismatch");
+  assert(webpage?.url === siteUrl && webpage?.dateModified === meta.dataDate, "structured data WebPage freshness mismatch");
+  assert(organization?.name === "家電推薦比較工作台專案編輯團隊", "structured data editorial team mismatch");
+  assert(Array.isArray(organization?.sameAs) && organization.sameAs.includes(repoUrl), "structured data GitHub sameAs is missing");
+  assert(categoryList?.itemListElement?.length === categories.length, "structured data category ItemList mismatch");
 
   assert(robots.includes("User-agent: *"), "robots.txt should address all crawlers");
   assert(robots.includes("Allow: /"), "robots.txt should allow crawling");
@@ -147,14 +159,32 @@ function main() {
   assert(robots.includes(`Sitemap: ${siteUrl}sitemap.xml`), "robots.txt sitemap URL mismatch");
   assert(sitemap.includes('xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"'), "sitemap namespace mismatch");
   const sitemapLocations = [...sitemap.matchAll(/<loc>([^<]+)<\/loc>/g)].map((match) => match[1]);
-  assert(sitemapLocations.length === 1 && sitemapLocations[0] === siteUrl, "sitemap should contain only the canonical homepage URL");
-  assert(!sitemap.includes("<lastmod>"), "sitemap should omit lastmod unless the page modification date is tracked independently");
+  const expectedSitemapLocations = [
+    siteUrl,
+    ...categories.map((category) => `${siteUrl}categories/${category.id}/`),
+  ];
+  assert(JSON.stringify(sitemapLocations) === JSON.stringify(expectedSitemapLocations), "sitemap canonical URL set mismatch");
+  const sitemapLastmods = [...sitemap.matchAll(/<lastmod>([^<]+)<\/lastmod>/g)].map((match) => match[1]);
+  assert(sitemapLastmods.length === expectedSitemapLocations.length, "sitemap should include one lastmod per canonical URL");
+  assert(sitemapLastmods.every((value) => value === meta.dataDate), "sitemap lastmod should use the catalog data date");
   const artifactStepMatch = pagesWorkflow.match(/- name: Prepare Pages artifact([\s\S]*?)(?=\n\s+- name:)/);
   assert(artifactStepMatch, "Pages artifact preparation step is missing");
   assert(artifactStepMatch[1].includes("robots.txt"), "Pages artifact should include robots.txt");
   assert(artifactStepMatch[1].includes("sitemap.xml"), "Pages artifact should include sitemap.xml");
   assert(artifactStepMatch[1].includes("social-preview.png"), "Pages artifact should include the social preview image");
   assert(artifactStepMatch[1].includes("CNAME"), "Pages artifact should include CNAME");
+  assert(artifactStepMatch[1].includes("categories"), "Pages artifact should include generated category pages");
+  assert(artifactStepMatch[1].includes("llms.txt"), "Pages artifact should include llms.txt");
+  for (const evidenceFile of [
+    "release_date_research.json",
+    "historical_price_research.json",
+    "dimension_research.json",
+    "product_issue_research.json",
+    "product_issue_report_evidence.json",
+    "product_issue_review_manifest.json",
+  ]) {
+    assert(artifactStepMatch[1].includes(evidenceFile), `Pages artifact should include ${evidenceFile}`);
+  }
 
   const cacheVersions = [...index.matchAll(/\?v=([^"']+)/g)].map((match) => match[1]);
   assert(cacheVersions.length > 0, "index should include cache-busting query strings");

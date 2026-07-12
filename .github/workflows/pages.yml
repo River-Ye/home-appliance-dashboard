@@ -62,6 +62,9 @@ jobs:
       - name: Check docs
         run: npm run check:docs
 
+      - name: Check GEO
+        run: npm run check:geo
+
       - name: Check UI
         run: npm run check:ui
 
@@ -71,9 +74,10 @@ jobs:
           set -euo pipefail
           rm -rf _site
           mkdir -p _site
-          cp index.html favicon.svg social-preview.png CNAME .nojekyll product_issue_research.json _site/
-          cp robots.txt sitemap.xml _site/
-          cp -R assets products _site/
+          cp index.html favicon.svg social-preview.png CNAME .nojekyll robots.txt sitemap.xml llms.txt 949a77c30a2a9346e8a7475117ff39b6.txt _site/
+          cp release_date_research.json historical_price_research.json dimension_research.json _site/
+          cp product_issue_research.json product_issue_report_evidence.json product_issue_review_manifest.json _site/
+          cp -R assets products categories _site/
           find _site -name '.DS_Store' -delete
 
       - name: Setup Pages
@@ -87,3 +91,9 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
+      - name: Notify IndexNow
+        if: steps.deployment.outcome == 'success'
+        continue-on-error: true
+        timeout-minutes: 1
+        run: node tools/submit-indexnow.js

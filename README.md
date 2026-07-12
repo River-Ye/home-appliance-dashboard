@@ -13,6 +13,7 @@
 ## 內容
 
 - 共 25 類商品，每種商品至少 20 個，共 661 筆。
+- 另由現有分類與商品資料產生 25 個可獨立索引的 `/categories/<id>/` 選購指南頁；不為 661 筆商品建立重複、薄內容的獨立頁面。
 - 聚焦可信通路新品，排除配件、耗材、福利品、展示機與誤判品。
 - 每類「綜合推薦」以 CP 值、評價口碑、價格、可信通路、台灣售後/保固風險綜合判斷，並附簡短推薦原因。
 - 支援分類、品牌、預算、通路、搜尋、排序、active filter chips、可分享 URL 篩選狀態與比較清單。
@@ -33,6 +34,14 @@
 
 商品資料已依分類拆到 `products/*.js`，由 `assets/js/product-loader.js` 依分類設定自動載入；前端邏輯拆在 `assets/js/*.js`，樣式拆在 `assets/css/*.css`。搜尋與篩選會同步到 URL query，方便分享目前條件。此專案沒有 build step，GitHub Pages 直接服務靜態檔案。
 
+## GEO / AI 搜尋維護
+
+- `tools/category-guides.js` 是 25 類導讀、選購重點與 FAQ 的人工維護來源；商品事實仍以 `assets/js/config.js` 與 `products/*.js` 為準。
+- 修改商品、分類或分類指南後，先執行 `npm run generate:categories`。`categories/<id>/index.html`、`sitemap.xml`、`llms.txt`，以及 `index.html` 內 `geo-structured-data`／`geo-category-links` marker 之間的區塊都是產生結果，不可手動修改。
+- `llms.txt` 只是提供網站用途、查核方式與分類入口的補充說明，不保證任何搜尋排名、AI 引用或收錄結果。
+- Pages 同時公開 `release_date_research.json`、`historical_price_research.json`、`dimension_research.json`、`product_issue_research.json`、`product_issue_report_evidence.json`、`product_issue_review_manifest.json` 六份證據檔。
+- Pages 部署成功後才通知 IndexNow；此步驟失敗不會阻擋部署，但仍需檢查 workflow log。GEO 功能不新增追蹤碼，並維持既有禁止未授權追蹤的規則。
+
 ## 維護檢查
 
 ```bash
@@ -43,4 +52,5 @@ npm run check
 - `npm run check:logic`：檢查排序、篩選、URL 狀態、史低／負評文案、問題摘要搜尋、來源 URL 安全、HTML escape 與商品 loader 純邏輯。
 - `npm run check:data`：檢查 25 類、661 筆、必要欄位、日期格式、四類大型家電尺寸、歷史最低價與負評 research 對齊、人工覆核完成清單、逐位反映者、6 人／2 平台門檻、每類至少 20 筆、重複型號與重複購買 URL。
 - `npm run check:docs`：檢查 README、AGENTS、index/config 的商品數、分類數、日期與 cache version 沒有漂移。
+- `npm run check:geo`：檢查 25 個分類頁、metadata、結構化資料、內部連結、sitemap、llms、證據檔、Pages artifact、IndexNow contract 與所有產生結果沒有漂移。
 - `npm run check:ui`：用 Playwright 驗證桌機/手機搜尋、篩選、排序、lazy loading、比較清單、負評警示與推薦卡高亮。
