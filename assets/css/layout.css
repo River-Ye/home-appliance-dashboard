@@ -88,9 +88,71 @@ main {
   margin: 24px auto 48px;
 }
 
+.ad-placement {
+  position: relative;
+  min-width: 0;
+  min-height: 160px;
+  overflow: hidden;
+  margin: 24px 0;
+  padding: 34px 16px 16px;
+  background: linear-gradient(135deg, rgba(37, 95, 133, 0.07), rgba(100, 112, 132, 0.03));
+  border: 1px dashed var(--line);
+  border-radius: 8px;
+}
+
+.ad-placement.is-unfilled {
+  display: none;
+  min-height: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.ad-label {
+  position: absolute;
+  top: 10px;
+  left: 14px;
+  color: var(--muted);
+  font-size: 11px;
+  font-weight: 750;
+  letter-spacing: 0.08em;
+}
+
+.adsbygoogle {
+  width: 100%;
+  min-width: 0;
+}
+
 footer {
   width: min(1480px, calc(100% - 32px));
   margin: 0 auto 36px;
   color: var(--muted);
   font-size: 13px;
+}
+
+.project-source {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  align-items: center;
+  margin: 16px 0 0;
+  color: var(--ink);
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.project-source a {
+  color: var(--primary-dark);
+  font-weight: 800;
+  text-underline-offset: 3px;
+}
+
+.project-policy {
+  margin: 8px 0 0;
+}
+
+.project-policy a {
+  color: var(--primary-dark);
+  font-weight: 700;
+  text-underline-offset: 3px;
 }

@@ -19,6 +19,8 @@ const {
   assertMobileDockClearance,
   assertMobileFloatingControlsDoNotOverlap,
   assertAccessibleStructure,
+  assertProjectSourceLink,
+  assertManualAdPlacements,
   assertPremiumBadgeContrast,
   assertCompareRowHeaders,
   assertNoHorizontalOverflow,
@@ -35,6 +37,12 @@ const screenshotDir = process.env.DASHBOARD_SCREENSHOT_DIR || os.tmpdir();
 function attachRuntimeIssueCollector(page) {
   const issues = [];
   page.__dashboardRuntimeIssues = issues;
+  page.__dashboardAdRequests = [];
+  page.on("request", (request) => {
+    if (/(googlesyndication|doubleclick|googleadservices)/i.test(request.url())) {
+      page.__dashboardAdRequests.push(request.url());
+    }
+  });
   page.on("console", (message) => {
     if (message.type() === "error") issues.push(`console: ${message.text()}`);
   });
@@ -54,6 +62,8 @@ function attachRuntimeIssueCollector(page) {
 function assertNoRuntimeIssues(page, name) {
   const issues = page.__dashboardRuntimeIssues || [];
   if (issues.length) throw new Error(`${name}: first-party runtime errors ${JSON.stringify(issues.slice(0, 10))}`);
+  const adRequests = page.__dashboardAdRequests || [];
+  if (adRequests.length) throw new Error(`${name}: local UI unexpectedly requested ad services ${JSON.stringify(adRequests.slice(0, 5))}`);
 }
 
 async function waitForVisibleCount(page, expectedCount) {
@@ -168,6 +178,8 @@ async function runExhaustiveViewport(browser, name, viewport) {
   await assertIssueResearchCards(page, name);
   await assertProductDetailsDisclosure(page, name);
   await assertAccessibleStructure(page, name);
+  await assertProjectSourceLink(page, name);
+  await assertManualAdPlacements(page, name);
   await assertPremiumBadgeContrast(page, name);
   const initialRenderedText = await visibleText(page, "#renderedCount");
   if (!initialRenderedText.includes(`12 / ${EXPECTED_PRODUCT_COUNT_TEXT}`)) {
@@ -598,6 +610,8 @@ async function assertBaselineState(page, name, viewport) {
   await assertIssueResearchCards(page, name);
   await assertProductDetailsDisclosure(page, name);
   await assertAccessibleStructure(page, name);
+  await assertProjectSourceLink(page, name);
+  await assertManualAdPlacements(page, name);
   await assertPremiumBadgeContrast(page, name);
   const initialRenderedText = await visibleText(page, "#renderedCount");
   if (!initialRenderedText.includes(`12 / ${EXPECTED_PRODUCT_COUNT_TEXT}`)) {

@@ -8,7 +8,7 @@
 
 不熟悉 GitHub 的人可以直接點這個公開網頁：
 
-[家電推薦比較工作台](https://river-ye.github.io/home-appliance-dashboard/)
+[家電推薦比較工作台](https://appliance.riverye.com/)
 
 ## 內容
 
@@ -29,7 +29,7 @@
 
 ## 使用
 
-直接開啟 `index.html`，或透過 [GitHub Pages](https://river-ye.github.io/home-appliance-dashboard/) 瀏覽。
+直接開啟 `index.html`，或透過 [正式網站](https://appliance.riverye.com/) 瀏覽。
 
 商品資料已依分類拆到 `products/*.js`，由 `assets/js/product-loader.js` 依分類設定自動載入；前端邏輯拆在 `assets/js/*.js`，樣式拆在 `assets/css/*.css`。搜尋與篩選會同步到 URL query，方便分享目前條件。此專案沒有 build step，GitHub Pages 直接服務靜態檔案。
 

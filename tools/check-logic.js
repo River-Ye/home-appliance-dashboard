@@ -15,6 +15,14 @@ const {
   reviewedDecision,
   sanitizeSearchCheck,
 } = require("./research-product-issues");
+const {
+  ADS_LOADER_ID,
+  ADS_LOADER_URL,
+  PUBLISHER_ID,
+  initializeManualAds,
+  isProductionLocation,
+  syncUnfilledState,
+} = require("../assets/js/ads");
 
 const root = path.resolve(__dirname, "..");
 
@@ -32,6 +40,152 @@ function assertThrows(callback, message) {
     threw = true;
   }
   assert(threw, message);
+}
+
+function createClassList() {
+  const values = new Set();
+  return {
+    contains(value) {
+      return values.has(value);
+    },
+    toggle(value, force) {
+      if (force) values.add(value);
+      else values.delete(value);
+    },
+  };
+}
+
+function createAdTestDom(slotCount = 2) {
+  const appendedScripts = [];
+  const observers = [];
+  const slots = Array.from({ length: slotCount }, () => {
+    const container = { classList: createClassList() };
+    const attributes = new Map();
+    return {
+      container,
+      getAttribute(name) {
+        return attributes.get(name) || null;
+      },
+      setAttribute(name, value) {
+        attributes.set(name, value);
+      },
+      closest(selector) {
+        return selector === ".ad-placement" ? container : null;
+      },
+    };
+  });
+  const document = {
+    head: {
+      append(script) {
+        appendedScripts.push(script);
+      },
+    },
+    createElement(tagName) {
+      return { tagName: tagName.toUpperCase() };
+    },
+    getElementById(id) {
+      return appendedScripts.find((script) => script.id === id) || null;
+    },
+    querySelectorAll(selector) {
+      return selector === ".adsbygoogle" ? slots : [];
+    },
+  };
+  class FakeMutationObserver {
+    constructor(callback) {
+      this.callback = callback;
+      this.records = [];
+      observers.push(this);
+    }
+
+    observe(target, options) {
+      this.records.push({ target, options });
+    }
+  }
+
+  return {
+    appendedScripts,
+    document,
+    FakeMutationObserver,
+    observers,
+    slots,
+  };
+}
+
+function assertManualAdsLogic() {
+  const productionLocation = { protocol: "https:", hostname: "appliance.riverye.com" };
+  for (const [location, expected] of [
+    [productionLocation, true],
+    [{ protocol: "http:", hostname: "appliance.riverye.com" }, false],
+    [{ protocol: "file:", hostname: "" }, false],
+    [{ protocol: "https:", hostname: "localhost" }, false],
+    [{ protocol: "https:", hostname: "river-ye.github.io" }, false],
+    [{ protocol: "https:", hostname: "appliance.riverye.com.evil.example" }, false],
+    [null, false],
+  ]) {
+    assert(isProductionLocation(location) === expected, `unexpected production-location decision for ${JSON.stringify(location)}`);
+  }
+
+  const productionDom = createAdTestDom();
+  const adsQueue = [];
+  initializeManualAds({
+    location: productionLocation,
+    document: productionDom.document,
+    adsQueue,
+    MutationObserver: productionDom.FakeMutationObserver,
+  });
+  assert(adsQueue.length === 2, "production should enqueue each manual ad slot exactly once");
+  assert(productionDom.appendedScripts.length === 1, "production should append the AdSense loader exactly once");
+  assert(productionDom.observers.length === 2, "production should observe each slot status");
+  const [loader] = productionDom.appendedScripts;
+  assert(loader.id === ADS_LOADER_ID, "AdSense loader should use the stable loader id");
+  assert(loader.src === ADS_LOADER_URL, "AdSense loader URL mismatch");
+  assert(loader.src.endsWith(PUBLISHER_ID), "AdSense loader should identify the approved publisher");
+  assert(loader.async === true, "AdSense loader should be async");
+  assert(loader.crossOrigin === "anonymous", "AdSense loader should use anonymous CORS");
+
+  initializeManualAds({
+    location: productionLocation,
+    document: productionDom.document,
+    adsQueue,
+    MutationObserver: productionDom.FakeMutationObserver,
+  });
+  assert(adsQueue.length === 2, "repeated initialization should not enqueue slots twice");
+  assert(productionDom.appendedScripts.length === 1, "repeated initialization should not append a second loader");
+  assert(productionDom.observers.length === 2, "repeated initialization should not attach duplicate observers");
+
+  const [slot] = productionDom.slots;
+  syncUnfilledState(slot);
+  assert(!slot.container.classList.contains("is-unfilled"), "slot should keep its reserved space before AdSense reports a status");
+  slot.setAttribute("data-ad-status", "filled");
+  syncUnfilledState(slot);
+  assert(!slot.container.classList.contains("is-unfilled"), "filled slot should remain visible");
+  slot.setAttribute("data-ad-status", "unfilled");
+  syncUnfilledState(slot);
+  assert(slot.container.classList.contains("is-unfilled"), "only an explicitly unfilled slot should collapse");
+  slot.setAttribute("data-ad-status", "filled");
+  syncUnfilledState(slot);
+  assert(!slot.container.classList.contains("is-unfilled"), "slot should expand again if AdSense later reports filled");
+
+  const localDom = createAdTestDom();
+  const localQueue = [];
+  initializeManualAds({
+    location: { protocol: "file:", hostname: "" },
+    document: localDom.document,
+    adsQueue: localQueue,
+    MutationObserver: localDom.FakeMutationObserver,
+  });
+  assert(localQueue.length === 0, "file pages must not enqueue ads");
+  assert(localDom.appendedScripts.length === 0, "file pages must not load AdSense");
+  assert(localDom.observers.length === 0, "file pages must not attach ad observers");
+
+  const emptyDom = createAdTestDom(0);
+  initializeManualAds({
+    location: productionLocation,
+    document: emptyDom.document,
+    adsQueue: [],
+    MutationObserver: emptyDom.FakeMutationObserver,
+  });
+  assert(emptyDom.appendedScripts.length === 0, "pages without manual slots should not load AdSense");
 }
 
 function createRuntime() {
@@ -217,6 +371,7 @@ async function assertRejects(promise, pattern) {
 }
 
 async function main() {
+  assertManualAdsLogic();
   const { context, dashboard } = createRuntime();
   const { categories, filters, meta, products, productLoader, templates, utils } = dashboard;
 

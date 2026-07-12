@@ -4,7 +4,7 @@
 
 ## 專案定位
 
-- 公開頁面：https://river-ye.github.io/home-appliance-dashboard/
+- 公開頁面：https://appliance.riverye.com/
 - GitHub repo：https://github.com/River-Ye/home-appliance-dashboard
 - 本專案由 AI 協助研究、整理資料並製作網頁；README 必須保留 AI 製作說明與 GitHub Pages 連結。
 - 這不是購物車或結帳系統，只是商品研究、篩選、比較與外部購買連結的靜態展示頁。
@@ -252,7 +252,11 @@
 - 點擊每類「綜合推薦」卡片時，需滑動到對應商品卡；若商品卡尚未 lazy loaded，需先載入到該卡可見，並用短暫高亮/抖動提示目標卡片。注意：推薦卡若指向很後面的商品，需避免 `IntersectionObserver` 在捲動後立刻追加商品並重新 render，否則高亮/抖動會被吃掉；高亮/抖動也要等目標卡片進入 viewport 後才開始，避免使用者還沒看到提示就結束。
 - 商品卡片需有圖片、品牌名稱、規格型號、價格、說明、優缺點、適合對象、推薦理由、購買連結。
 - 比較清單要可用，手機與桌機都不能有不合理橫向溢出。
-- 不要新增登入、購物車、結帳或追蹤功能。
+- 不要新增登入、購物車或結帳功能。
+- 只允許本次核准的 Google AdSense 手動廣告與 Google CMP：廣告只能使用 `home-appliance-after-picks` 與 `home-appliance-before-footer` 兩個 responsive display ad units，且 `assets/js/ads.js` 只能在 `https://appliance.riverye.com/` 初始化。
+- `riverye.com` 的 Auto ads 維持原設定，但 `https://appliance.riverye.com/` 必須維持 AdSense 全站 Auto ads page exclusion，工作台不得出現 Auto ads，也不得把外部排除狀態偽裝成 HTML attribute。
+- 隱私權政策固定為 `https://riverye.com/privacy.html`，CMP 的隱私權政策網址需保持同步；`ads.txt` 由根網域 `https://riverye.com/ads.txt` 管理。
+- 禁止加入 Google Analytics、Google Ads 轉換追蹤或其他未授權追蹤；驗收時不得點擊自己的廣告，也不得用反覆刷新製造廣告活動。
 - 公開頁用 Chrome/DevTools 檢查時不應留下可避免的 console/network error，例如 favicon 404；若改版後看到這類錯誤，需補齊靜態資源或明確說明原因。
 
 ## 價格與匯率

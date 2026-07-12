@@ -453,6 +453,113 @@ async function assertAccessibleStructure(page, name) {
   }
 }
 
+async function assertProjectSourceLink(page, name) {
+  const link = page.locator('footer .project-source a[href="https://github.com/River-Ye/home-appliance-dashboard"]');
+  const count = await link.count();
+  if (count !== 1) throw new Error(`${name}: expected one GitHub project source link, got ${count}`);
+  if (await link.innerText() !== "GitHub Repo") throw new Error(`${name}: GitHub project source link label mismatch`);
+  const sourceText = await link.locator("xpath=..").innerText();
+  if (sourceText.replace(/\s+/g, "") !== "專案原始碼：GitHubRepo") {
+    throw new Error(`${name}: GitHub project source text mismatch ${JSON.stringify(sourceText)}`);
+  }
+  if (await link.getAttribute("target") !== "_blank") throw new Error(`${name}: GitHub project source link should open in a new tab`);
+  const rel = new Set((await link.getAttribute("rel") || "").split(/\s+/).filter(Boolean));
+  if (!rel.has("noopener") || !rel.has("noreferrer")) {
+    throw new Error(`${name}: GitHub project source link is missing safe rel attributes`);
+  }
+
+  const layout = await link.evaluate((element) => {
+    const footer = element.closest("footer");
+    const footerRect = footer.getBoundingClientRect();
+    const linkRect = element.getBoundingClientRect();
+    return {
+      footerOverflow: footer.scrollWidth - footer.clientWidth,
+      linkOutsideFooter: linkRect.left < footerRect.left - 1 || linkRect.right > footerRect.right + 1,
+    };
+  });
+  if (layout.footerOverflow > 2 || layout.linkOutsideFooter) {
+    throw new Error(`${name}: GitHub project source link overflows the footer ${JSON.stringify(layout)}`);
+  }
+}
+
+async function assertManualAdPlacements(page, name) {
+  const result = await page.evaluate(() => {
+    const placements = [...document.querySelectorAll("main > .ad-placement")];
+    const slots = placements.map((placement) => placement.querySelector(".adsbygoogle"));
+    const main = document.querySelector("main");
+    const mainRect = main.getBoundingClientRect();
+    const placementDetails = placements.map((placement) => {
+      const rect = placement.getBoundingClientRect();
+      const style = getComputedStyle(placement);
+      return {
+        id: placement.id,
+        label: placement.querySelector(".ad-label")?.textContent?.trim() || "",
+        ariaLabel: placement.getAttribute("aria-label"),
+        height: rect.height,
+        outsideMain: rect.left < mainRect.left - 1 || rect.right > mainRect.right + 1,
+        overflow: placement.scrollWidth - placement.clientWidth,
+        position: style.position,
+      };
+    });
+    const slotDetails = slots.map((slot) => ({
+      client: slot?.getAttribute("data-ad-client") || "",
+      slot: slot?.getAttribute("data-ad-slot") || "",
+      format: slot?.getAttribute("data-ad-format") || "",
+      responsive: slot?.getAttribute("data-full-width-responsive") || "",
+      status: slot?.getAttribute("data-ad-status"),
+    }));
+    const topPicks = document.querySelector("#topPicks");
+    const resultToolbar = document.querySelector(".result-toolbar");
+    const comparePanel = document.querySelector("#comparePanel");
+    const afterPicks = document.querySelector("#ad-after-picks");
+    const beforeFooter = document.querySelector("#ad-before-footer");
+    const follows = (first, second) => Boolean(first && second && (first.compareDocumentPosition(second) & Node.DOCUMENT_POSITION_FOLLOWING));
+    return {
+      placementDetails,
+      slotDetails,
+      invalidNesting: document.querySelectorAll(".top-picks .ad-placement, .pick-card .ad-placement, #productGrid .ad-placement, .product-card .ad-placement, #comparePanel .ad-placement").length,
+      validOrder: follows(topPicks, afterPicks)
+        && follows(afterPicks, resultToolbar)
+        && follows(comparePanel, beforeFooter),
+    };
+  });
+
+  if (result.placementDetails.length !== 2) throw new Error(`${name}: expected two manual ad placements`);
+  if (result.slotDetails.length !== 2) throw new Error(`${name}: expected two manual AdSense slots`);
+  if (result.invalidNesting) throw new Error(`${name}: manual ad placement is nested inside product or recommendation content`);
+  if (!result.validOrder) throw new Error(`${name}: manual ad placement order is incorrect`);
+
+  const slotIds = new Set();
+  result.placementDetails.forEach((placement) => {
+    if (placement.label !== "廣告" || placement.ariaLabel !== "廣告") {
+      throw new Error(`${name}: ${placement.id} is not clearly labelled as an ad`);
+    }
+    if (placement.height < 80) throw new Error(`${name}: ${placement.id} does not reserve stable height`);
+    if (placement.outsideMain || placement.overflow > 2) {
+      throw new Error(`${name}: ${placement.id} overflows main ${JSON.stringify(placement)}`);
+    }
+    if (["fixed", "sticky"].includes(placement.position)) {
+      throw new Error(`${name}: ${placement.id} must not cover page controls`);
+    }
+  });
+  result.slotDetails.forEach((slot, index) => {
+    if (slot.client !== "ca-pub-4799252410303973") throw new Error(`${name}: ad slot ${index + 1} publisher mismatch`);
+    if (!/^\d+$/.test(slot.slot)) throw new Error(`${name}: ad slot ${index + 1} ID should be numeric`);
+    if (slotIds.has(slot.slot)) throw new Error(`${name}: manual ad slot IDs should be unique`);
+    slotIds.add(slot.slot);
+    if (slot.format !== "auto" || slot.responsive !== "true") throw new Error(`${name}: ad slot ${index + 1} is not responsive`);
+    if (slot.status !== null) throw new Error(`${name}: local UI should not initialize AdSense status`);
+  });
+
+  const privacyLink = page.locator('footer a[href="https://riverye.com/privacy.html"]');
+  if (await privacyLink.count() !== 1) throw new Error(`${name}: expected one privacy policy link`);
+  if (await privacyLink.innerText() !== "隱私權政策") throw new Error(`${name}: privacy policy link label mismatch`);
+  await privacyLink.focus();
+  if (!await privacyLink.evaluate((element) => document.activeElement === element)) {
+    throw new Error(`${name}: privacy policy link should be keyboard focusable`);
+  }
+}
+
 async function assertPremiumBadgeContrast(page, name) {
   const result = await page.evaluate(() => {
     const badge = document.querySelector(".badge.premium");
@@ -520,6 +627,8 @@ module.exports = {
   assertMobileDockClearance,
   assertMobileFloatingControlsDoNotOverlap,
   assertAccessibleStructure,
+  assertProjectSourceLink,
+  assertManualAdPlacements,
   assertPremiumBadgeContrast,
   assertCompareRowHeaders,
   assertNoHorizontalOverflow,
