@@ -177,11 +177,11 @@
       "currency": "TWD",
       "amount": 7499,
       "converted": 7499,
-      "confidence": "可信通路查核價"
+      "confidence": "momo購物 2026-07-13 公開促銷價"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAFJ6A900JL8Q9/000001_1766717579.jpg",
-    "buyUrl": "https://24h.pchome.com.tw/prod/DRAFJ6-A900JL8Q9",
-    "buyLabel": "PChome",
+    "buyUrl": "https://www.momoshop.com.tw/product/14883783",
+    "buyLabel": "momo購物",
     "specs": [
       "Wi-Fi 7",
       "BE3600 雙頻",
@@ -224,20 +224,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-11",
+      "checkedAt": "2026-07-13",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"D-Link M36\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22D-Link%20M36%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22D-Link%20M36%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "site:reddit.com \"D-Link M36\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22D-Link%20M36%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"D-Link M36\" (problem OR issue OR defect OR \"negative review\")",
+          "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22D-Link%20M36%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
           "targetHost": "reddit.com"
         }
       ]

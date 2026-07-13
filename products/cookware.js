@@ -17,7 +17,7 @@
       "currency": "TWD",
       "amount": 999,
       "converted": 999,
-      "confidence": "PChome 24h 低價查核"
+      "confidence": "PChome 2026-07-13 頁面與 API 查核價"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -70,20 +70,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-11",
+      "checkedAt": "2026-07-13",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Tefal Daisy 28cm IH\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Tefal%20Daisy%2028cm%20IH%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com+%22Tefal+Daisy+28cm+IH%22+%28%E7%81%BD%E6%83%85+OR+%E5%95%8F%E9%A1%8C+OR+%E6%95%85%E9%9A%9C+OR+%E8%B2%A0%E8%A9%95%29",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "site:reddit.com \"Tefal Daisy 28cm IH\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Tefal%20Daisy%2028cm%20IH%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "query": "site:reddit.com \"Tefal Daisy 28cm IH\" (problem OR issue OR defect OR \"negative review\")",
+          "queryUrl": "https://www.google.com/search?q=site%3Areddit.com+%22Tefal+Daisy+28cm+IH%22+%28problem+OR+issue+OR+defect+OR+%22negative+review%22%29",
           "targetHost": "reddit.com"
         }
       ]

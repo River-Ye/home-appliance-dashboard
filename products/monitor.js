@@ -184,13 +184,13 @@
     "name": "27 吋 2K 180Hz HDR400 電競螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 5988,
-      "converted": 5988,
-      "confidence": "可信通路查核價"
+      "amount": 5688,
+      "converted": 5688,
+      "confidence": "順發線上購物 2026-07-13 公開折扣價"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABF3A900JA047/000001_1758694183.jpg",
-    "buyUrl": "https://24h.pchome.com.tw/prod/DSABF3-A900JA047",
-    "buyLabel": "PChome",
+    "buyUrl": "https://www.isunfar.com.tw/product/?prodseq=271909",
+    "buyLabel": "順發線上購物",
     "specs": [
       "27 吋",
       "2K/QHD",
@@ -222,34 +222,34 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 5770,
+      "amount": 5688,
       "currency": "TWD",
-      "converted": 5770,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=589448790&cgp=5787",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：BENQ 明基 27吋 MOBIUZ EX271Q AI螢幕 電競螢幕 電腦 顯示器 2K/IPS/180Hz 廠商直送",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「蝦皮商城 - 順發3C SUNFAR / BENQ 明基 27吋 MOBIUZ EX271Q AI螢幕 電競螢幕 電腦 顯示器 2K/IPS/180Hz 廠商直送」最低價為 NT$5,770，最低點日期 2026-06-06。",
-      "sourceKind": "price_history",
+      "converted": 5688,
+      "sourceUrl": "https://www.isunfar.com.tw/product/?prodseq=271909",
+      "sourceTitle": "順發線上購物：BENQ 明基電通 27 吋 MOBIUZ EX271Q 2K 180Hz 電競螢幕",
+      "evidenceSnippet": "順發線上購物同型號新品頁於 2026-07-13 顯示售價 NT$5,988 與公開折扣 NT$300，頁面 metadata／結構化資料標示成交價 NT$5,688、NewCondition、InStock。",
+      "sourceKind": "retailer_promo",
       "confidence": "high",
-      "checkedAt": "2026-07-09",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+      "checkedAt": "2026-07-13",
+      "note": "採用可信通路同一商品頁可公開重現的公開折扣價；未使用會員個人化優惠、信用卡回饋、點數、二手、福利品、展示機、拆封品或整新品。"
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-11",
+      "checkedAt": "2026-07-13",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
-          "platform": "Mobile01",
-          "query": "site:mobile01.com \"BenQ MOBIUZ EX271Q\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22BenQ%20MOBIUZ%20EX271Q%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
-          "targetHost": "mobile01.com"
-        },
-        {
           "platform": "Reddit",
           "query": "site:reddit.com \"BenQ MOBIUZ EX271Q\" (problem OR issue OR defect OR \"negative review\")",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22BenQ%20MOBIUZ%20EX271Q%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
+          "queryUrl": "https://www.google.com/search?q=site%3Areddit.com+%22BenQ+MOBIUZ+EX271Q%22+%28problem+OR+issue+OR+defect+OR+%22negative+review%22%29",
           "targetHost": "reddit.com"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"BenQ MOBIUZ EX271Q\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com+%22BenQ+MOBIUZ+EX271Q%22+%28%E7%81%BD%E6%83%85+OR+%E5%95%8F%E9%A1%8C+OR+%E6%95%85%E9%9A%9C+OR+%E8%B2%A0%E8%A9%95%29",
+          "targetHost": "mobile01.com"
         }
       ]
     }

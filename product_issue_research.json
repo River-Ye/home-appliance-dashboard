@@ -1,6 +1,6 @@
 {
   "summary": {
-    "checkedAt": "2026-07-11T00:00:00+08:00",
+    "checkedAt": "2026-07-13T00:00:00+08:00",
     "total": 661,
     "commonIssueProducts": 36,
     "noCommonIssueProducts": 625,
@@ -14,8 +14,13 @@
     },
     "sourcePolicy": "搜尋引擎只用於發現候選；只有原始論壇、社群或零售評價頁中可辨識的第一人稱同型號回報才計入人數。同帳號、跨站轉貼、按讚、媒體轉述與搜尋摘要不重複計算。",
     "noIssueWording": "截至查核日，查無達門檻的集中負評／災情",
-    "refreshedThisRun": 612,
-    "preservedExistingNegativeEvidence": 49
+    "refreshedThisRun": 5,
+    "preservedExistingNegativeEvidence": 1,
+    "priorFullRefresh": {
+      "checkedAt": "2026-07-11",
+      "refreshed": 612,
+      "preservedExistingNegativeEvidence": 49
+    }
   },
   "results": [
     {
@@ -5120,75 +5125,133 @@
       "manualReview": {
         "status": "completed",
         "decision": "no_common_issue",
-        "reviewedAt": "2026-07-11",
+        "reviewedAt": "2026-07-13",
         "checkedPlatforms": [
           "Mobile01",
-          "Reddit"
+          "Reddit",
+          "Pigoo"
         ],
         "queries": [
           {
             "platform": "Mobile01",
-            "query": "site:mobile01.com \"HERAN HDF-16S6\" (災情 OR 問題 OR 故障 OR 負評)",
-            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22HERAN%20HDF-16S6%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "query": "site:mobile01.com \"HDF-16S6\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com+%22HDF-16S6%22+%28%E7%81%BD%E6%83%85+OR+%E5%95%8F%E9%A1%8C+OR+%E6%95%85%E9%9A%9C+OR+%E8%B2%A0%E8%A9%95%29",
             "targetHost": "mobile01.com"
           },
           {
             "platform": "Reddit",
-            "query": "site:reddit.com \"HERAN HDF-16S6\" (problem OR issue OR defect OR negative review)",
-            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22HERAN%20HDF-16S6%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+            "query": "site:reddit.com \"HDF-16S6\" (problem OR issue OR defect OR \"negative review\")",
+            "queryUrl": "https://www.google.com/search?q=site%3Areddit.com+%22HDF-16S6%22+%28problem+OR+issue+OR+defect+OR+%22negative+review%22%29",
             "targetHost": "reddit.com"
           }
         ],
-        "candidateDisposition": "HDF-16S6：已重新執行 Mobile01、Reddit 兩個獨立網站的 exact-model 查詢，未留下需逐頁處置的同型號候選；此結果不代表完全沒有負評。",
-        "representativeSources": [],
-        "candidateReviews": [],
-        "reviewerNote": "HDF-16S6 已於 2026-07-11 實際重跑 Mobile01、Reddit 跨站 exact-model 搜尋；兩站搜尋回應均完成且未找到同型號候選，未以搜尋摘要合成負評證據。",
-        "attestation": "manual_cross_site_search_reviewed_no_candidate"
+        "candidateDisposition": "HDF-16S6：已重跑 Pigoo、Mobile01、Reddit exact-model 查詢並逐頁開啟 2 個候選；Pigoo 僅 1 位直接案例，Mobile01 負面內容未綁定此型號，未達同一問題 6 位獨立使用者與跨 2 個原始網站門檻。",
+        "representativeSources": [
+          {
+            "platform": "Pigoo",
+            "title": "禾聯HERAN 16吋智能變頻DC風扇 HDF-16S6(S) 不開機 - Pigoo",
+            "url": "https://bbs.pigoo.com/thread-88994-1-1.html"
+          },
+          {
+            "platform": "Mobile01",
+            "title": "DC電風扇選擇請益 - Mobile01（文內含 HDF-16S6）",
+            "url": "https://www.mobile01.com/topicdetail.php?f=731&t=6072736"
+          }
+        ],
+        "candidateReviews": [
+          {
+            "url": "https://bbs.pigoo.com/thread-88994-1-1.html",
+            "title": "禾聯HERAN 16吋智能變頻DC風扇 HDF-16S6(S) 不開機 - Pigoo",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-07-13",
+            "sourceExcerpt": "absmen3000 檢修 HDF-16S6(S)：按電源只嗶一聲且不啟動，拆檢發現主機板兩個電阻燒毀；作者認為 2022 年出廠機耐用度不佳。",
+            "independentAuthors": 1,
+            "specificReason": "只有 absmen3000 一位 exact-model 原始案例，且僅 Pigoo 單一網站；其他回覆為維修討論或泛品牌經驗，未達六位與兩站門檻。"
+          },
+          {
+            "url": "https://www.mobile01.com/topicdetail.php?f=731&t=6072736",
+            "title": "DC電風扇選擇請益 - Mobile01（文內含 HDF-16S6）",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-07-13",
+            "sourceExcerpt": "頁面第 9 樓只將 HDF-16S6 列為購買候選；第 7 樓的底座面板失效與風速亂跳僅稱禾聯 DC 扇，沒有提供可綁定的型號。",
+            "independentAuthors": 0,
+            "specificReason": "型號字串出現在選購清單，負面持有經驗未標示 HDF-16S6；無法通過負評的 exact-model 邊界，因此可計數作者為 0。"
+          }
+        ],
+        "reviewerNote": "HDF-16S6 已於 2026-07-13 透過 Chrome 直接開啟 Google 搜尋結果與兩個候選原頁；搜尋頁僅作候選發現，逐頁判讀後維持 no_common_issue。",
+        "attestation": "manual_original_pages_reviewed"
       },
       "issueResearch": {
         "status": "no_common_issue",
-        "checkedAt": "2026-07-11",
+        "checkedAt": "2026-07-13",
         "summary": "截至查核日，查無達門檻的集中負評／災情",
         "issues": [],
         "checkedSources": [
           {
             "platform": "Mobile01",
-            "query": "site:mobile01.com \"HERAN HDF-16S6\" (災情 OR 問題 OR 故障 OR 負評)",
-            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22HERAN%20HDF-16S6%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "query": "site:mobile01.com \"HDF-16S6\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com+%22HDF-16S6%22+%28%E7%81%BD%E6%83%85+OR+%E5%95%8F%E9%A1%8C+OR+%E6%95%85%E9%9A%9C+OR+%E8%B2%A0%E8%A9%95%29",
             "targetHost": "mobile01.com"
           },
           {
             "platform": "Reddit",
-            "query": "site:reddit.com \"HERAN HDF-16S6\" (problem OR issue OR defect OR negative review)",
-            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22HERAN%20HDF-16S6%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+            "query": "site:reddit.com \"HDF-16S6\" (problem OR issue OR defect OR \"negative review\")",
+            "queryUrl": "https://www.google.com/search?q=site%3Areddit.com+%22HDF-16S6%22+%28problem+OR+issue+OR+defect+OR+%22negative+review%22%29",
             "targetHost": "reddit.com"
           }
         ]
       },
       "searchChecks": [
         {
-          "platform": "Mobile01",
-          "query": "site:mobile01.com \"HERAN HDF-16S6\" (災情 OR 問題 OR 故障 OR 負評)",
-          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22HERAN%20HDF-16S6%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
-          "result": "no_exact_model_result",
-          "resultCount": 0,
-          "candidateUrls": [],
-          "candidates": [],
-          "inspectedAt": "2026-07-11T00:00:00+08:00"
-        },
-        {
-          "platform": "Reddit",
-          "query": "site:reddit.com \"HERAN HDF-16S6\" (problem OR issue OR defect OR negative review)",
-          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22HERAN%20HDF-16S6%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
-          "result": "no_exact_model_result",
-          "resultCount": 0,
-          "candidateUrls": [],
-          "candidates": [],
-          "inspectedAt": "2026-07-11T00:00:00+08:00"
+          "platform": "Chrome exact-model searches",
+          "query": "HDF-16S6 original-page candidates from Pigoo and Mobile01",
+          "searchUrl": "https://www.google.com/search?q=%22HDF-16S6%22+%28%E6%95%85%E9%9A%9C+OR+%E7%81%BD%E6%83%85+OR+%E5%95%8F%E9%A1%8C%29",
+          "result": "candidates_unverified_by_search_only",
+          "resultCount": 2,
+          "candidateUrls": [
+            "https://bbs.pigoo.com/thread-88994-1-1.html",
+            "https://www.mobile01.com/topicdetail.php?f=731&t=6072736"
+          ],
+          "candidates": [
+            {
+              "url": "https://bbs.pigoo.com/thread-88994-1-1.html",
+              "title": "禾聯HERAN 16吋智能變頻DC風扇 HDF-16S6(S) 不開機 - Pigoo"
+            },
+            {
+              "url": "https://www.mobile01.com/topicdetail.php?f=731&t=6072736",
+              "title": "DC電風扇選擇請益 - Mobile01（文內含 HDF-16S6）"
+            }
+          ],
+          "inspectedAt": "2026-07-13T12:36:00+08:00"
         }
       ],
       "evidence": [],
-      "rejectedCandidates": []
+      "rejectedCandidates": [
+        {
+          "url": "https://bbs.pigoo.com/thread-88994-1-1.html",
+          "title": "禾聯HERAN 16吋智能變頻DC風扇 HDF-16S6(S) 不開機 - Pigoo",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-07-13",
+          "sourceExcerpt": "absmen3000 檢修 HDF-16S6(S)：按電源只嗶一聲且不啟動，拆檢發現主機板兩個電阻燒毀；作者認為 2022 年出廠機耐用度不佳。",
+          "independentAuthors": 1,
+          "specificReason": "只有 absmen3000 一位 exact-model 原始案例，且僅 Pigoo 單一網站；其他回覆為維修討論或泛品牌經驗，未達六位與兩站門檻。",
+          "reason": "只有 absmen3000 一位 exact-model 原始案例，且僅 Pigoo 單一網站；其他回覆為維修討論或泛品牌經驗，未達六位與兩站門檻。"
+        },
+        {
+          "url": "https://www.mobile01.com/topicdetail.php?f=731&t=6072736",
+          "title": "DC電風扇選擇請益 - Mobile01（文內含 HDF-16S6）",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-07-13",
+          "sourceExcerpt": "頁面第 9 樓只將 HDF-16S6 列為購買候選；第 7 樓的底座面板失效與風速亂跳僅稱禾聯 DC 扇，沒有提供可綁定的型號。",
+          "independentAuthors": 0,
+          "specificReason": "型號字串出現在選購清單，負面持有經驗未標示 HDF-16S6；無法通過負評的 exact-model 邊界，因此可計數作者為 0。",
+          "reason": "型號字串出現在選購清單，負面持有經驗未標示 HDF-16S6；無法通過負評的 exact-model 邊界，因此可計數作者為 0。"
+        }
+      ]
     },
     {
       "id": "fan-nwt-wpf16",
@@ -7201,7 +7264,7 @@
         "aliases": [
           "IRIS OHYAMA PCF-SC15T"
         ],
-        "evidenceUrl": "https://24h.pchome.com.tw/prod/DSBE18-A900J27XM"
+        "evidenceUrl": "https://www.momoshop.com.tw/product/8033074"
       },
       "workflowStatus": "completed",
       "manualReview": {
@@ -28855,7 +28918,7 @@
       "manualReview": {
         "status": "completed",
         "decision": "no_common_issue",
-        "reviewedAt": "2026-07-11",
+        "reviewedAt": "2026-07-13",
         "checkedPlatforms": [
           "Mobile01",
           "Reddit"
@@ -28864,62 +28927,52 @@
           {
             "platform": "Mobile01",
             "query": "site:mobile01.com \"Tefal Daisy 28cm IH\" (災情 OR 問題 OR 故障 OR 負評)",
-            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Tefal%20Daisy%2028cm%20IH%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com+%22Tefal+Daisy+28cm+IH%22+%28%E7%81%BD%E6%83%85+OR+%E5%95%8F%E9%A1%8C+OR+%E6%95%85%E9%9A%9C+OR+%E8%B2%A0%E8%A9%95%29",
             "targetHost": "mobile01.com"
           },
           {
             "platform": "Reddit",
-            "query": "site:reddit.com \"Tefal Daisy 28cm IH\" (problem OR issue OR defect OR negative review)",
-            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Tefal%20Daisy%2028cm%20IH%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+            "query": "site:reddit.com \"Tefal Daisy 28cm IH\" (problem OR issue OR defect OR \"negative review\")",
+            "queryUrl": "https://www.google.com/search?q=site%3Areddit.com+%22Tefal+Daisy+28cm+IH%22+%28problem+OR+issue+OR+defect+OR+%22negative+review%22%29",
             "targetHost": "reddit.com"
           }
         ],
-        "candidateDisposition": "Daisy 28cm IH：已重新執行 Mobile01、Reddit 兩個獨立網站的 exact-model 查詢，未留下需逐頁處置的同型號候選；此結果不代表完全沒有負評。",
+        "candidateDisposition": "Daisy 28cm IH：2026-07-13 重新執行 Mobile01、Reddit 兩個獨立網站 exact-model 查詢，未留下需逐頁處置的同型號候選；此結果不代表完全沒有負評。",
         "representativeSources": [],
         "candidateReviews": [],
-        "reviewerNote": "Daisy 28cm IH 已於 2026-07-11 實際重跑 Mobile01、Reddit 跨站 exact-model 搜尋；兩站搜尋回應均完成且未找到同型號候選，未以搜尋摘要合成負評證據。",
+        "reviewerNote": "Daisy 28cm IH 已於 2026-07-13 透過 Chrome 實際重跑 Google 的 Mobile01、Reddit exact-model 搜尋；兩站均無同型號原頁候選，未以搜尋摘要合成負評證據。",
         "attestation": "manual_cross_site_search_reviewed_no_candidate"
       },
       "issueResearch": {
         "status": "no_common_issue",
-        "checkedAt": "2026-07-11",
+        "checkedAt": "2026-07-13",
         "summary": "截至查核日，查無達門檻的集中負評／災情",
         "issues": [],
         "checkedSources": [
           {
             "platform": "Mobile01",
             "query": "site:mobile01.com \"Tefal Daisy 28cm IH\" (災情 OR 問題 OR 故障 OR 負評)",
-            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Tefal%20Daisy%2028cm%20IH%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com+%22Tefal+Daisy+28cm+IH%22+%28%E7%81%BD%E6%83%85+OR+%E5%95%8F%E9%A1%8C+OR+%E6%95%85%E9%9A%9C+OR+%E8%B2%A0%E8%A9%95%29",
             "targetHost": "mobile01.com"
           },
           {
             "platform": "Reddit",
-            "query": "site:reddit.com \"Tefal Daisy 28cm IH\" (problem OR issue OR defect OR negative review)",
-            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Tefal%20Daisy%2028cm%20IH%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+            "query": "site:reddit.com \"Tefal Daisy 28cm IH\" (problem OR issue OR defect OR \"negative review\")",
+            "queryUrl": "https://www.google.com/search?q=site%3Areddit.com+%22Tefal+Daisy+28cm+IH%22+%28problem+OR+issue+OR+defect+OR+%22negative+review%22%29",
             "targetHost": "reddit.com"
           }
         ]
       },
       "searchChecks": [
         {
-          "platform": "Mobile01",
-          "query": "site:mobile01.com \"Tefal Daisy 28cm IH\" (災情 OR 問題 OR 故障 OR 負評)",
-          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Tefal%20Daisy%2028cm%20IH%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "platform": "Yahoo Search",
+          "query": "(\"Tefal Daisy 28cm IH\") (problem OR issue OR defect OR failure OR 災情 OR 故障 OR 負評) (site:mobile01.com OR site:dcard.tw OR site:ptt.cc OR site:reddit.com OR site:snbforums.com OR site:52asus.com)",
+          "searchUrl": "https://search.yahoo.com/search?p=(%22Tefal%20Daisy%2028cm%20IH%22)%20(problem%20OR%20issue%20OR%20defect%20OR%20failure%20OR%20%E7%81%BD%E6%83%85%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)%20(site%3Amobile01.com%20OR%20site%3Adcard.tw%20OR%20site%3Aptt.cc%20OR%20site%3Areddit.com%20OR%20site%3Asnbforums.com%20OR%20site%3A52asus.com)",
           "result": "no_exact_model_result",
           "resultCount": 0,
           "candidateUrls": [],
           "candidates": [],
-          "inspectedAt": "2026-07-11T00:00:00+08:00"
-        },
-        {
-          "platform": "Reddit",
-          "query": "site:reddit.com \"Tefal Daisy 28cm IH\" (problem OR issue OR defect OR negative review)",
-          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Tefal%20Daisy%2028cm%20IH%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
-          "result": "no_exact_model_result",
-          "resultCount": 0,
-          "candidateUrls": [],
-          "candidates": [],
-          "inspectedAt": "2026-07-11T00:00:00+08:00"
+          "inspectedAt": "2026-07-13T00:00:00+08:00"
         }
       ],
       "evidence": [],
@@ -48368,13 +48421,13 @@
           "D-Link M36 3入",
           "D-Link M36"
         ],
-        "evidenceUrl": "https://24h.pchome.com.tw/prod/DRAFJ6-A900JL8Q9"
+        "evidenceUrl": "https://www.momoshop.com.tw/product/14883783"
       },
       "workflowStatus": "completed",
       "manualReview": {
         "status": "completed",
         "decision": "no_common_issue",
-        "reviewedAt": "2026-07-11",
+        "reviewedAt": "2026-07-13",
         "checkedPlatforms": [
           "Mobile01",
           "Reddit"
@@ -48383,66 +48436,154 @@
           {
             "platform": "Mobile01",
             "query": "site:mobile01.com \"D-Link M36\" (災情 OR 問題 OR 故障 OR 負評)",
-            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22D-Link%20M36%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22D-Link%20M36%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
             "targetHost": "mobile01.com"
           },
           {
             "platform": "Reddit",
-            "query": "site:reddit.com \"D-Link M36\" (problem OR issue OR defect OR negative review)",
-            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22D-Link%20M36%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+            "query": "site:reddit.com \"D-Link M36\" (problem OR issue OR defect OR \"negative review\")",
+            "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22D-Link%20M36%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
             "targetHost": "reddit.com"
           }
         ],
-        "candidateDisposition": "M36 3入：已重新執行 Mobile01、Reddit 兩個獨立網站的 exact-model 查詢，未留下需逐頁處置的同型號候選；此結果不代表完全沒有負評。",
-        "representativeSources": [],
-        "candidateReviews": [],
-        "reviewerNote": "M36 3入 已於 2026-07-11 實際重跑 Mobile01、Reddit 跨站 exact-model 搜尋；兩站搜尋回應均完成且未找到同型號候選，未以搜尋摘要合成負評證據。",
-        "attestation": "manual_cross_site_search_reviewed_no_candidate"
+        "candidateDisposition": "M36 3入：Mobile01 三個 exact-model 候選均逐頁檢閱，具體負面回報屬 M60／M30 或 R95，M36 實測僅單一作者提出分散改善建議；Reddit 查無 exact-model 候選，未達六位跨兩站門檻。",
+        "representativeSources": [
+          {
+            "platform": "Mobile01",
+            "title": "D-Link M36 BE3600 Wi-Fi 7無線路由器：MIT的資安等級、AI MESH的全屋網路",
+            "url": "https://www.mobile01.com/topicdetail.php?f=110&t=7219454"
+          },
+          {
+            "platform": "Mobile01",
+            "title": "【家庭使用者開箱實測】D-Link M36 BE3600 Wi-Fi 7 無線 MESH 路由器",
+            "url": "https://www.mobile01.com/topicdetail.php?f=110&t=7220580"
+          },
+          {
+            "platform": "Mobile01",
+            "title": "【分享】D-Link Wi-Fi 7 AQUILA PRO AI玩家體驗會（文內含 D-Link M36 展示清單）",
+            "url": "https://www.mobile01.com/topicdetail.php?f=110&t=7153636"
+          }
+        ],
+        "candidateReviews": [
+          {
+            "url": "https://www.mobile01.com/topicdetail.php?f=110&t=7219454",
+            "title": "D-Link M36 BE3600 Wi-Fi 7無線路由器：MIT的資安等級、AI MESH的全屋網路",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-07-13",
+            "sourceExcerpt": "rockon30226 表示自己買的是 M60、M30，遇到 QR code 模糊、App 無法配對而需反覆重置；後續 D-Link 回覆也只是安裝重置說明。",
+            "independentAuthors": 13,
+            "specificReason": "原始討論串雖以 M36 為題，但唯一具體負面第一人稱回報明確指向 M60、M30，不是 M36；其餘作者未回報 M36 同一問題。"
+          },
+          {
+            "url": "https://www.mobile01.com/topicdetail.php?f=110&t=7220580",
+            "title": "【家庭使用者開箱實測】D-Link M36 BE3600 Wi-Fi 7 無線 MESH 路由器",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-07-13",
+            "sourceExcerpt": "alexis.cc 提出手冊、密碼規則、LAN 埠、變壓器與扁網路線等改善建議，並明確表示半個月測試未遇到熱當機。",
+            "independentAuthors": 2,
+            "specificReason": "只有一位 M36 實測作者提出分散的設計改善建議；對發熱則明確未遇到故障，且沒有可辨識的轉述原作者，未形成同一問題六位跨站回報。"
+          },
+          {
+            "url": "https://www.mobile01.com/topicdetail.php?f=110&t=7153636",
+            "title": "【分享】D-Link Wi-Fi 7 AQUILA PRO AI玩家體驗會（文內含 D-Link M36 展示清單）",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-07-13",
+            "sourceExcerpt": "文章主角是 M95／R95，M36 只出現在現場展示產品清單；文末所稱場地網路問題與體驗打折也指現場運作的 R95。",
+            "independentAuthors": 1,
+            "specificReason": "原頁僅列到 M36 展示機，沒有 M36 使用後第一人稱負面回報；網路環境問題明確屬 R95 體驗場地，不能跨型號計入。"
+          }
+        ],
+        "reviewerNote": "M36 3入 已於 2026-07-13 透過 Chrome 逐頁核對 Mobile01 原始討論並執行 Reddit exact-model 搜尋；未把跨型號、轉述或搜尋摘要算入，維持 no_common_issue。",
+        "attestation": "manual_original_pages_reviewed"
       },
       "issueResearch": {
         "status": "no_common_issue",
-        "checkedAt": "2026-07-11",
+        "checkedAt": "2026-07-13",
         "summary": "截至查核日，查無達門檻的集中負評／災情",
         "issues": [],
         "checkedSources": [
           {
             "platform": "Mobile01",
             "query": "site:mobile01.com \"D-Link M36\" (災情 OR 問題 OR 故障 OR 負評)",
-            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22D-Link%20M36%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22D-Link%20M36%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
             "targetHost": "mobile01.com"
           },
           {
             "platform": "Reddit",
-            "query": "site:reddit.com \"D-Link M36\" (problem OR issue OR defect OR negative review)",
-            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22D-Link%20M36%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+            "query": "site:reddit.com \"D-Link M36\" (problem OR issue OR defect OR \"negative review\")",
+            "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22D-Link%20M36%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
             "targetHost": "reddit.com"
           }
         ]
       },
       "searchChecks": [
         {
-          "platform": "Mobile01",
-          "query": "site:mobile01.com \"D-Link M36\" (災情 OR 問題 OR 故障 OR 負評)",
-          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22D-Link%20M36%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
-          "result": "no_exact_model_result",
-          "resultCount": 0,
-          "candidateUrls": [],
-          "candidates": [],
-          "inspectedAt": "2026-07-11T00:00:00+08:00"
-        },
-        {
-          "platform": "Reddit",
-          "query": "site:reddit.com \"D-Link M36\" (problem OR issue OR defect OR negative review)",
-          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22D-Link%20M36%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
-          "result": "no_exact_model_result",
-          "resultCount": 0,
-          "candidateUrls": [],
-          "candidates": [],
-          "inspectedAt": "2026-07-11T00:00:00+08:00"
+          "platform": "Chrome exact-model searches",
+          "query": "D-Link M36 original-page candidates from Mobile01 and Reddit",
+          "searchUrl": "https://www.google.com/search?q=%22D-Link+M36%22+%28%E7%81%BD%E6%83%85+OR+%E5%95%8F%E9%A1%8C+OR+%E6%95%85%E9%9A%9C+OR+%E8%B2%A0%E8%A9%95%29",
+          "result": "candidates_unverified_by_search_only",
+          "resultCount": 3,
+          "candidateUrls": [
+            "https://www.mobile01.com/topicdetail.php?f=110&t=7219454",
+            "https://www.mobile01.com/topicdetail.php?f=110&t=7220580",
+            "https://www.mobile01.com/topicdetail.php?f=110&t=7153636"
+          ],
+          "candidates": [
+            {
+              "url": "https://www.mobile01.com/topicdetail.php?f=110&t=7219454",
+              "title": "D-Link M36 BE3600 Wi-Fi 7無線路由器：MIT的資安等級、AI MESH的全屋網路"
+            },
+            {
+              "url": "https://www.mobile01.com/topicdetail.php?f=110&t=7220580",
+              "title": "【家庭使用者開箱實測】D-Link M36 BE3600 Wi-Fi 7 無線 MESH 路由器"
+            },
+            {
+              "url": "https://www.mobile01.com/topicdetail.php?f=110&t=7153636",
+              "title": "【分享】D-Link Wi-Fi 7 AQUILA PRO AI玩家體驗會（文內含 D-Link M36 展示清單）"
+            }
+          ],
+          "inspectedAt": "2026-07-13T12:38:44+08:00"
         }
       ],
       "evidence": [],
-      "rejectedCandidates": []
+      "rejectedCandidates": [
+        {
+          "url": "https://www.mobile01.com/topicdetail.php?f=110&t=7219454",
+          "title": "D-Link M36 BE3600 Wi-Fi 7無線路由器：MIT的資安等級、AI MESH的全屋網路",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-07-13",
+          "sourceExcerpt": "rockon30226 表示自己買的是 M60、M30，遇到 QR code 模糊、App 無法配對而需反覆重置；後續 D-Link 回覆也只是安裝重置說明。",
+          "independentAuthors": 13,
+          "specificReason": "原始討論串雖以 M36 為題，但唯一具體負面第一人稱回報明確指向 M60、M30，不是 M36；其餘作者未回報 M36 同一問題。",
+          "reason": "原始討論串雖以 M36 為題，但唯一具體負面第一人稱回報明確指向 M60、M30，不是 M36；其餘作者未回報 M36 同一問題。"
+        },
+        {
+          "url": "https://www.mobile01.com/topicdetail.php?f=110&t=7220580",
+          "title": "【家庭使用者開箱實測】D-Link M36 BE3600 Wi-Fi 7 無線 MESH 路由器",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-07-13",
+          "sourceExcerpt": "alexis.cc 提出手冊、密碼規則、LAN 埠、變壓器與扁網路線等改善建議，並明確表示半個月測試未遇到熱當機。",
+          "independentAuthors": 2,
+          "specificReason": "只有一位 M36 實測作者提出分散的設計改善建議；對發熱則明確未遇到故障，且沒有可辨識的轉述原作者，未形成同一問題六位跨站回報。",
+          "reason": "只有一位 M36 實測作者提出分散的設計改善建議；對發熱則明確未遇到故障，且沒有可辨識的轉述原作者，未形成同一問題六位跨站回報。"
+        },
+        {
+          "url": "https://www.mobile01.com/topicdetail.php?f=110&t=7153636",
+          "title": "【分享】D-Link Wi-Fi 7 AQUILA PRO AI玩家體驗會（文內含 D-Link M36 展示清單）",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-07-13",
+          "sourceExcerpt": "文章主角是 M95／R95，M36 只出現在現場展示產品清單；文末所稱場地網路問題與體驗打折也指現場運作的 R95。",
+          "independentAuthors": 1,
+          "specificReason": "原頁僅列到 M36 展示機，沒有 M36 使用後第一人稱負面回報；網路環境問題明確屬 R95 體驗場地，不能跨型號計入。",
+          "reason": "原頁僅列到 M36 展示機，沒有 M36 使用後第一人稱負面回報；網路環境問題明確屬 R95 體驗場地，不能跨型號計入。"
+        }
+      ]
     },
     {
       "id": "wifi-asus-rt-be58u-v2",
@@ -59849,81 +59990,262 @@
           "BenQ MOBIUZ EX271Q",
           "BenQ EX271Q"
         ],
-        "evidenceUrl": "https://24h.pchome.com.tw/prod/DSABF3-A900JA047"
+        "evidenceUrl": "https://www.isunfar.com.tw/product/?prodseq=271909"
       },
       "workflowStatus": "completed",
       "manualReview": {
         "status": "completed",
         "decision": "no_common_issue",
-        "reviewedAt": "2026-07-11",
+        "reviewedAt": "2026-07-13",
         "checkedPlatforms": [
-          "Mobile01",
-          "Reddit"
+          "Reddit",
+          "Mobile01"
         ],
         "queries": [
           {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"BenQ MOBIUZ EX271Q\" (problem OR issue OR defect OR \"negative review\")",
+            "queryUrl": "https://www.google.com/search?q=site%3Areddit.com+%22BenQ+MOBIUZ+EX271Q%22+%28problem+OR+issue+OR+defect+OR+%22negative+review%22%29",
+            "targetHost": "reddit.com"
+          },
+          {
             "platform": "Mobile01",
             "query": "site:mobile01.com \"BenQ MOBIUZ EX271Q\" (災情 OR 問題 OR 故障 OR 負評)",
-            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22BenQ%20MOBIUZ%20EX271Q%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com+%22BenQ+MOBIUZ+EX271Q%22+%28%E7%81%BD%E6%83%85+OR+%E5%95%8F%E9%A1%8C+OR+%E6%95%85%E9%9A%9C+OR+%E8%B2%A0%E8%A9%95%29",
             "targetHost": "mobile01.com"
+          }
+        ],
+        "candidateDisposition": "MOBIUZ EX271Q：已執行 Reddit、Mobile01 exact-model 查詢並開啟 6 個原始候選；Reddit 僅見零星且不同類型的 IPS glow、Mac 文字像素化、黑位偏灰紫與無內建喇叭規格誤解，Mobile01 候選只是在全白主機討論中推薦此型號，未達同一問題 6 位且未跨 2 個原始網站。",
+        "representativeSources": [
+          {
+            "platform": "Reddit",
+            "title": "BenQ Mobiuz EX271Q: A Common Person's Review：Monitors",
+            "url": "https://old.reddit.com/r/Monitors/comments/1k7cjzr/benq_mobiuz_ex271q_a_common_persons_review/"
           },
           {
             "platform": "Reddit",
-            "query": "site:reddit.com \"BenQ MOBIUZ EX271Q\" (problem OR issue OR defect OR \"negative review\")",
-            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22BenQ%20MOBIUZ%20EX271Q%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
-            "targetHost": "reddit.com"
+            "title": "Honest review of BenQ MOBIUZ EX271Q 27inch：Monitors",
+            "url": "https://old.reddit.com/r/Monitors/comments/1q2axg4/honest_review_of_benq_mobiuz_ex271q_27inch/"
+          },
+          {
+            "platform": "Reddit",
+            "title": "BenQ Mobiuz EX271Q – Share your settings & experiences (Productivity + Gaming)：Monitors",
+            "url": "https://old.reddit.com/r/Monitors/comments/1nn17wr/benq_mobiuz_ex271q_share_your_settings/"
+          },
+          {
+            "platform": "Reddit",
+            "title": "Does Benq Mobiuz EX271Q has builtin speakers?：Monitors",
+            "url": "https://old.reddit.com/r/Monitors/comments/1p3plmv/does_benq_mobiuz_ex271q_has_builtin_speakers/"
+          },
+          {
+            "platform": "Reddit",
+            "title": "BenQ Mobiuz EX271Q vs EX271U：Monitors",
+            "url": "https://old.reddit.com/r/Monitors/comments/1m8vyh4/benq_mobiuz_ex271q_vs_ex271u/"
+          },
+          {
+            "platform": "Mobile01",
+            "title": "準備組全白機前確認 - Mobile01（文內含 BenQ MOBIUZ EX271Q）",
+            "url": "https://www.mobile01.com/topicdetail.php?f=174&t=7136370"
           }
         ],
-        "candidateDisposition": "MOBIUZ EX271Q：重新執行 Mobile01、Reddit exact-model 查詢，搜尋結果沒有 exact-model 原頁候選；此結果不代表完全沒有負評。",
-        "representativeSources": [],
-        "candidateReviews": [],
-        "reviewerNote": "MOBIUZ EX271Q 已於 2026-07-11 實際請求兩個 Bing RSS exact-model 跨站查詢；兩站均無 exact-model 原頁候選，維持 no_common_issue，未以搜尋摘要當作負評證據。",
-        "attestation": "manual_cross_site_search_reviewed_no_candidate"
+        "candidateReviews": [
+          {
+            "url": "https://old.reddit.com/r/Monitors/comments/1k7cjzr/benq_mobiuz_ex271q_a_common_persons_review/",
+            "title": "BenQ Mobiuz EX271Q: A Common Person's Review：Monitors",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-07-13",
+            "sourceExcerpt": "OP 回報無 dead/stuck pixel；留言只有零星不同問題：bit_bytez 的 Mac 文字像素化、CommissionParking251 的 IPS glow、laixinbahe 對無喇叭的誤解，另有使用者因尺寸偏好退貨。",
+            "independentAuthors": 36,
+            "specificReason": "問題類型分散，未形成同一問題六位第一人稱回報；所有內容也只在 Reddit 一個 canonical website。"
+          },
+          {
+            "url": "https://old.reddit.com/r/Monitors/comments/1q2axg4/honest_review_of_benq_mobiuz_ex271q_27inch/",
+            "title": "Honest review of BenQ MOBIUZ EX271Q 27inch：Monitors",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-07-13",
+            "sourceExcerpt": "OP 整體肯定面板，僅列支架、理線、無喇叭／無原生 G-Sync 等取捨；dondiablo-puma 一人回報黑位偏灰紫。OP 提到的他人 dead-pixel 影片是轉述，非原頁第一人稱。",
+            "independentAuthors": 20,
+            "specificReason": "僅單一作者回報偏色，其他為產品設計取捨或轉述；未達六人且只有 Reddit。"
+          },
+          {
+            "url": "https://old.reddit.com/r/Monitors/comments/1nn17wr/benq_mobiuz_ex271q_share_your_settings/",
+            "title": "BenQ Mobiuz EX271Q – Share your settings & experiences (Productivity + Gaming)：Monitors",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-07-13",
+            "sourceExcerpt": "原頁是 EX271Q 設定交流，OP 表示使用兩天仍很滿意；唯一 dead-pixel 留言明確是 EX271U，不是 EX271Q。",
+            "independentAuthors": 12,
+            "specificReason": "沒有 EX271Q 第一人稱負面回報；EX271U 候選依 exact-model boundary 排除。"
+          },
+          {
+            "url": "https://old.reddit.com/r/Monitors/comments/1p3plmv/does_benq_mobiuz_ex271q_has_builtin_speakers/",
+            "title": "Does Benq Mobiuz EX271Q has builtin speakers?：Monitors",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-07-13",
+            "sourceExcerpt": "兩位購買者因遙控器音量鍵誤以為有內建喇叭；回覆說明音量控制是供 3.5mm 輸出，EX271Q 官方規格即無內建喇叭。",
+            "independentAuthors": 3,
+            "specificReason": "屬已揭露規格或使用理解，不是故障；相關第一人稱作者不到六位且只有 Reddit。"
+          },
+          {
+            "url": "https://old.reddit.com/r/Monitors/comments/1m8vyh4/benq_mobiuz_ex271q_vs_ex271u/",
+            "title": "BenQ Mobiuz EX271Q vs EX271U：Monitors",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-07-13",
+            "sourceExcerpt": "原頁是在 EX271Q 與 EX271U 間做購買選擇，討論 HDMI、VRR、解析度與 IPS／OLED 取捨，沒有 EX271Q 使用後故障回報。",
+            "independentAuthors": 3,
+            "specificReason": "購買建議而非第一人稱問題原頁；沒有可計入的同型號負面作者。"
+          },
+          {
+            "url": "https://www.mobile01.com/topicdetail.php?f=174&t=7136370",
+            "title": "準備組全白機前確認 - Mobile01（文內含 BenQ MOBIUZ EX271Q）",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-07-13",
+            "sourceExcerpt": "全白主機組裝討論中，6 樓只推薦『白色27吋 2K IPS螢幕180HZ BenQ MOBIUZ EX271Q』；第二頁也沒有 EX271Q 問題內容。",
+            "independentAuthors": 16,
+            "specificReason": "產品推薦而非購入後問題回報；完整兩頁沒有同型號負面作者。"
+          }
+        ],
+        "reviewerNote": "MOBIUZ EX271Q 已於 2026-07-13 透過 Chrome 實際執行 Google exact-model 跨站查詢並逐頁開啟所有候選；錯型號 EX2710Q、EX271U、EW270Q 與泛品牌討論均依 model boundary 排除，維持 no_common_issue。",
+        "attestation": "manual_original_pages_reviewed"
       },
       "issueResearch": {
         "status": "no_common_issue",
-        "checkedAt": "2026-07-11",
+        "checkedAt": "2026-07-13",
         "summary": "截至查核日，查無達門檻的集中負評／災情",
         "issues": [],
         "checkedSources": [
           {
-            "platform": "Mobile01",
-            "query": "site:mobile01.com \"BenQ MOBIUZ EX271Q\" (災情 OR 問題 OR 故障 OR 負評)",
-            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22BenQ%20MOBIUZ%20EX271Q%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
-            "targetHost": "mobile01.com"
-          },
-          {
             "platform": "Reddit",
             "query": "site:reddit.com \"BenQ MOBIUZ EX271Q\" (problem OR issue OR defect OR \"negative review\")",
-            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22BenQ%20MOBIUZ%20EX271Q%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
+            "queryUrl": "https://www.google.com/search?q=site%3Areddit.com+%22BenQ+MOBIUZ+EX271Q%22+%28problem+OR+issue+OR+defect+OR+%22negative+review%22%29",
             "targetHost": "reddit.com"
+          },
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"BenQ MOBIUZ EX271Q\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com+%22BenQ+MOBIUZ+EX271Q%22+%28%E7%81%BD%E6%83%85+OR+%E5%95%8F%E9%A1%8C+OR+%E6%95%85%E9%9A%9C+OR+%E8%B2%A0%E8%A9%95%29",
+            "targetHost": "mobile01.com"
           }
         ]
       },
       "searchChecks": [
         {
-          "platform": "Mobile01",
-          "query": "site:mobile01.com \"BenQ MOBIUZ EX271Q\" (災情 OR 問題 OR 故障 OR 負評)",
-          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22BenQ%20MOBIUZ%20EX271Q%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
-          "result": "no_exact_model_result",
-          "resultCount": 0,
-          "candidateUrls": [],
-          "candidates": [],
-          "inspectedAt": "2026-07-11T00:00:00+08:00"
-        },
-        {
-          "platform": "Reddit",
-          "query": "site:reddit.com \"BenQ MOBIUZ EX271Q\" (problem OR issue OR defect OR \"negative review\")",
-          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22BenQ%20MOBIUZ%20EX271Q%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
-          "result": "no_exact_model_result",
-          "resultCount": 0,
-          "candidateUrls": [],
-          "candidates": [],
-          "inspectedAt": "2026-07-11T00:00:00+08:00"
+          "platform": "Chrome exact-model searches",
+          "query": "BenQ MOBIUZ EX271Q original-page candidates from Reddit and Mobile01",
+          "searchUrl": "https://www.google.com/search?q=%22BenQ+MOBIUZ+EX271Q%22+%28problem+OR+issue+OR+defect+OR+%E7%81%BD%E6%83%85+OR+%E6%95%85%E9%9A%9C%29",
+          "result": "candidates_unverified_by_search_only",
+          "resultCount": 6,
+          "candidateUrls": [
+            "https://old.reddit.com/r/Monitors/comments/1k7cjzr/benq_mobiuz_ex271q_a_common_persons_review/",
+            "https://old.reddit.com/r/Monitors/comments/1q2axg4/honest_review_of_benq_mobiuz_ex271q_27inch/",
+            "https://old.reddit.com/r/Monitors/comments/1nn17wr/benq_mobiuz_ex271q_share_your_settings/",
+            "https://old.reddit.com/r/Monitors/comments/1p3plmv/does_benq_mobiuz_ex271q_has_builtin_speakers/",
+            "https://old.reddit.com/r/Monitors/comments/1m8vyh4/benq_mobiuz_ex271q_vs_ex271u/",
+            "https://www.mobile01.com/topicdetail.php?f=174&t=7136370"
+          ],
+          "candidates": [
+            {
+              "url": "https://old.reddit.com/r/Monitors/comments/1k7cjzr/benq_mobiuz_ex271q_a_common_persons_review/",
+              "title": "BenQ Mobiuz EX271Q: A Common Person's Review：Monitors"
+            },
+            {
+              "url": "https://old.reddit.com/r/Monitors/comments/1q2axg4/honest_review_of_benq_mobiuz_ex271q_27inch/",
+              "title": "Honest review of BenQ MOBIUZ EX271Q 27inch：Monitors"
+            },
+            {
+              "url": "https://old.reddit.com/r/Monitors/comments/1nn17wr/benq_mobiuz_ex271q_share_your_settings/",
+              "title": "BenQ Mobiuz EX271Q – Share your settings & experiences (Productivity + Gaming)：Monitors"
+            },
+            {
+              "url": "https://old.reddit.com/r/Monitors/comments/1p3plmv/does_benq_mobiuz_ex271q_has_builtin_speakers/",
+              "title": "Does Benq Mobiuz EX271Q has builtin speakers?：Monitors"
+            },
+            {
+              "url": "https://old.reddit.com/r/Monitors/comments/1m8vyh4/benq_mobiuz_ex271q_vs_ex271u/",
+              "title": "BenQ Mobiuz EX271Q vs EX271U：Monitors"
+            },
+            {
+              "url": "https://www.mobile01.com/topicdetail.php?f=174&t=7136370",
+              "title": "準備組全白機前確認 - Mobile01（文內含 BenQ MOBIUZ EX271Q）"
+            }
+          ],
+          "inspectedAt": "2026-07-13T00:00:00+08:00"
         }
       ],
       "evidence": [],
-      "rejectedCandidates": []
+      "rejectedCandidates": [
+        {
+          "url": "https://old.reddit.com/r/Monitors/comments/1k7cjzr/benq_mobiuz_ex271q_a_common_persons_review/",
+          "title": "BenQ Mobiuz EX271Q: A Common Person's Review：Monitors",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-07-13",
+          "sourceExcerpt": "OP 回報無 dead/stuck pixel；留言只有零星不同問題：bit_bytez 的 Mac 文字像素化、CommissionParking251 的 IPS glow、laixinbahe 對無喇叭的誤解，另有使用者因尺寸偏好退貨。",
+          "independentAuthors": 36,
+          "specificReason": "問題類型分散，未形成同一問題六位第一人稱回報；所有內容也只在 Reddit 一個 canonical website。",
+          "reason": "問題類型分散，未形成同一問題六位第一人稱回報；所有內容也只在 Reddit 一個 canonical website。"
+        },
+        {
+          "url": "https://old.reddit.com/r/Monitors/comments/1q2axg4/honest_review_of_benq_mobiuz_ex271q_27inch/",
+          "title": "Honest review of BenQ MOBIUZ EX271Q 27inch：Monitors",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-07-13",
+          "sourceExcerpt": "OP 整體肯定面板，僅列支架、理線、無喇叭／無原生 G-Sync 等取捨；dondiablo-puma 一人回報黑位偏灰紫。OP 提到的他人 dead-pixel 影片是轉述，非原頁第一人稱。",
+          "independentAuthors": 20,
+          "specificReason": "僅單一作者回報偏色，其他為產品設計取捨或轉述；未達六人且只有 Reddit。",
+          "reason": "僅單一作者回報偏色，其他為產品設計取捨或轉述；未達六人且只有 Reddit。"
+        },
+        {
+          "url": "https://old.reddit.com/r/Monitors/comments/1nn17wr/benq_mobiuz_ex271q_share_your_settings/",
+          "title": "BenQ Mobiuz EX271Q – Share your settings & experiences (Productivity + Gaming)：Monitors",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-07-13",
+          "sourceExcerpt": "原頁是 EX271Q 設定交流，OP 表示使用兩天仍很滿意；唯一 dead-pixel 留言明確是 EX271U，不是 EX271Q。",
+          "independentAuthors": 12,
+          "specificReason": "沒有 EX271Q 第一人稱負面回報；EX271U 候選依 exact-model boundary 排除。",
+          "reason": "沒有 EX271Q 第一人稱負面回報；EX271U 候選依 exact-model boundary 排除。"
+        },
+        {
+          "url": "https://old.reddit.com/r/Monitors/comments/1p3plmv/does_benq_mobiuz_ex271q_has_builtin_speakers/",
+          "title": "Does Benq Mobiuz EX271Q has builtin speakers?：Monitors",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-07-13",
+          "sourceExcerpt": "兩位購買者因遙控器音量鍵誤以為有內建喇叭；回覆說明音量控制是供 3.5mm 輸出，EX271Q 官方規格即無內建喇叭。",
+          "independentAuthors": 3,
+          "specificReason": "屬已揭露規格或使用理解，不是故障；相關第一人稱作者不到六位且只有 Reddit。",
+          "reason": "屬已揭露規格或使用理解，不是故障；相關第一人稱作者不到六位且只有 Reddit。"
+        },
+        {
+          "url": "https://old.reddit.com/r/Monitors/comments/1m8vyh4/benq_mobiuz_ex271q_vs_ex271u/",
+          "title": "BenQ Mobiuz EX271Q vs EX271U：Monitors",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-07-13",
+          "sourceExcerpt": "原頁是在 EX271Q 與 EX271U 間做購買選擇，討論 HDMI、VRR、解析度與 IPS／OLED 取捨，沒有 EX271Q 使用後故障回報。",
+          "independentAuthors": 3,
+          "specificReason": "購買建議而非第一人稱問題原頁；沒有可計入的同型號負面作者。",
+          "reason": "購買建議而非第一人稱問題原頁；沒有可計入的同型號負面作者。"
+        },
+        {
+          "url": "https://www.mobile01.com/topicdetail.php?f=174&t=7136370",
+          "title": "準備組全白機前確認 - Mobile01（文內含 BenQ MOBIUZ EX271Q）",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-07-13",
+          "sourceExcerpt": "全白主機組裝討論中，6 樓只推薦『白色27吋 2K IPS螢幕180HZ BenQ MOBIUZ EX271Q』；第二頁也沒有 EX271Q 問題內容。",
+          "independentAuthors": 16,
+          "specificReason": "產品推薦而非購入後問題回報；完整兩頁沒有同型號負面作者。",
+          "reason": "產品推薦而非購入後問題回報；完整兩頁沒有同型號負面作者。"
+        }
+      ]
     },
     {
       "id": "monitor-lg-27u631a",
@@ -65076,7 +65398,7 @@
       "manualReview": {
         "status": "completed",
         "decision": "no_common_issue",
-        "reviewedAt": "2026-07-11",
+        "reviewedAt": "2026-07-13",
         "checkedPlatforms": [
           "Mobile01",
           "Reddit"
@@ -65085,62 +65407,52 @@
           {
             "platform": "Mobile01",
             "query": "site:mobile01.com \"Raymii LS-116-M1\" (災情 OR 問題 OR 故障 OR 負評)",
-            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Raymii%20LS-116-M1%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com+%22Raymii+LS-116-M1%22+%28%E7%81%BD%E6%83%85+OR+%E5%95%8F%E9%A1%8C+OR+%E6%95%85%E9%9A%9C+OR+%E8%B2%A0%E8%A9%95%29",
             "targetHost": "mobile01.com"
           },
           {
             "platform": "Reddit",
-            "query": "site:reddit.com \"Raymii LS-116-M1\" (problem OR issue OR defect OR negative review)",
-            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Raymii%20LS-116-M1%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+            "query": "site:reddit.com \"Raymii LS-116-M1\" (problem OR issue OR defect OR \"negative review\")",
+            "queryUrl": "https://www.google.com/search?q=site%3Areddit.com+%22Raymii+LS-116-M1%22+%28problem+OR+issue+OR+defect+OR+%22negative+review%22%29",
             "targetHost": "reddit.com"
           }
         ],
-        "candidateDisposition": "LS-116-M1：已重新執行 Mobile01、Reddit 兩個獨立網站的 exact-model 查詢，未留下需逐頁處置的同型號候選；此結果不代表完全沒有負評。",
+        "candidateDisposition": "LS-116-M1：2026-07-13 重新執行 Mobile01、Reddit 兩個獨立網站 exact-model 查詢，未留下需逐頁處置的同型號候選；此結果不代表完全沒有負評。",
         "representativeSources": [],
         "candidateReviews": [],
-        "reviewerNote": "LS-116-M1 已於 2026-07-11 實際重跑 Mobile01、Reddit 跨站 exact-model 搜尋；兩站搜尋回應均完成且未找到同型號候選，未以搜尋摘要合成負評證據。",
+        "reviewerNote": "LS-116-M1 已於 2026-07-13 透過 Chrome 實際重跑 Google 的 Mobile01、Reddit exact-model 搜尋；兩站均無同型號原頁候選，未以搜尋摘要合成負評證據。",
         "attestation": "manual_cross_site_search_reviewed_no_candidate"
       },
       "issueResearch": {
         "status": "no_common_issue",
-        "checkedAt": "2026-07-11",
+        "checkedAt": "2026-07-13",
         "summary": "截至查核日，查無達門檻的集中負評／災情",
         "issues": [],
         "checkedSources": [
           {
             "platform": "Mobile01",
             "query": "site:mobile01.com \"Raymii LS-116-M1\" (災情 OR 問題 OR 故障 OR 負評)",
-            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Raymii%20LS-116-M1%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com+%22Raymii+LS-116-M1%22+%28%E7%81%BD%E6%83%85+OR+%E5%95%8F%E9%A1%8C+OR+%E6%95%85%E9%9A%9C+OR+%E8%B2%A0%E8%A9%95%29",
             "targetHost": "mobile01.com"
           },
           {
             "platform": "Reddit",
-            "query": "site:reddit.com \"Raymii LS-116-M1\" (problem OR issue OR defect OR negative review)",
-            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Raymii%20LS-116-M1%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+            "query": "site:reddit.com \"Raymii LS-116-M1\" (problem OR issue OR defect OR \"negative review\")",
+            "queryUrl": "https://www.google.com/search?q=site%3Areddit.com+%22Raymii+LS-116-M1%22+%28problem+OR+issue+OR+defect+OR+%22negative+review%22%29",
             "targetHost": "reddit.com"
           }
         ]
       },
       "searchChecks": [
         {
-          "platform": "Mobile01",
-          "query": "site:mobile01.com \"Raymii LS-116-M1\" (災情 OR 問題 OR 故障 OR 負評)",
-          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Raymii%20LS-116-M1%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "platform": "Yahoo Search",
+          "query": "(\"Raymii LS-116-M1\") (problem OR issue OR defect OR failure OR 災情 OR 故障 OR 負評) (site:mobile01.com OR site:dcard.tw OR site:ptt.cc OR site:reddit.com OR site:snbforums.com OR site:52asus.com)",
+          "searchUrl": "https://search.yahoo.com/search?p=(%22Raymii%20LS-116-M1%22)%20(problem%20OR%20issue%20OR%20defect%20OR%20failure%20OR%20%E7%81%BD%E6%83%85%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)%20(site%3Amobile01.com%20OR%20site%3Adcard.tw%20OR%20site%3Aptt.cc%20OR%20site%3Areddit.com%20OR%20site%3Asnbforums.com%20OR%20site%3A52asus.com)",
           "result": "no_exact_model_result",
           "resultCount": 0,
           "candidateUrls": [],
           "candidates": [],
-          "inspectedAt": "2026-07-11T00:00:00+08:00"
-        },
-        {
-          "platform": "Reddit",
-          "query": "site:reddit.com \"Raymii LS-116-M1\" (problem OR issue OR defect OR negative review)",
-          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Raymii%20LS-116-M1%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
-          "result": "no_exact_model_result",
-          "resultCount": 0,
-          "candidateUrls": [],
-          "candidates": [],
-          "inspectedAt": "2026-07-11T00:00:00+08:00"
+          "inspectedAt": "2026-07-13T00:00:00+08:00"
         }
       ],
       "evidence": [],

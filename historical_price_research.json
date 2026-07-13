@@ -1,9 +1,9 @@
 {
   "summary": {
-    "checkedAt": "2026-07-12T23:04:54.090Z",
-    "sourcePolicy": "661 筆全量以品牌＋完整型號查核同尺寸／容量／套裝的可信新品通路；台灣商品優先 PChome、Yahoo、momo、Costco、品牌官方並以 BigGo、FindPrice、LBJ 發現候選，海外商品才比較可信海外通路；最後均回原始商品頁／API，排除個人化折扣、回饋、點數、二手、福利、展示、拆封、整新、配件與耗材。",
+    "checkedAt": "2026-07-13T04:51:04.000Z",
+    "sourcePolicy": "既有 661 筆全量查核契約不變；本輪以品牌＋完整型號重查 6 筆同尺寸／容量／套裝的可信新品通路，回到原始商品頁／API 核對，排除個人化折扣、回饋、點數、二手、福利、展示、拆封、整新、配件與耗材。",
     "total": 661,
-    "researchedThisRun": 661,
+    "researchedThisRun": 6,
     "found": 437,
     "missing": 224,
     "byConfidence": {
@@ -15,17 +15,17 @@
       "USD_TWD": 32.044345,
       "currentUSD_TWD": 32.044345
     },
-    "lastMaintenanceCheckAt": "2026-07-12T23:04:54.090Z",
-    "currentPriceChanged": 42,
-    "currentBuyLinkChanged": 0,
-    "currentPriceDrops": 5,
-    "currentPriceRises": 37,
-    "currentPriceFallbacks": 0,
-    "historicalLowUpdated": 4,
+    "lastMaintenanceCheckAt": "2026-07-13T04:51:04.000Z",
+    "currentPriceChanged": 3,
+    "currentBuyLinkChanged": 3,
+    "currentPriceDrops": 2,
+    "currentPriceRises": 1,
+    "currentPriceFallbacks": 1,
+    "historicalLowUpdated": 1,
     "historicalLowInvalidated": 0,
     "catalogEntriesReplaced": 0,
     "catalogReplacementNotes": [],
-    "currentImageChanged": 3,
+    "currentImageChanged": 0,
     "discontinuedRemoved": 0,
     "newProductsAdded": 0
   },
@@ -2336,7 +2336,7 @@
       "currentPrice": 1480,
       "currentCurrency": "TWD",
       "currentBuyUrl": "https://24h.pchome.com.tw/prod/DMABKU-A900F4MB2",
-      "currentBuyLabel": "PChome",
+      "currentBuyLabel": "PChome（售罄追蹤）",
       "historicalLow": {
         "status": "found",
         "amount": 1280,
@@ -2355,13 +2355,17 @@
         "https://www.lbj.tw/BJ/Query.aspx?k=HERAN%20HDF-16S6",
         "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1243853975&cgp=1480",
         "https://www.findprice.com.tw/g/HERAN%20HDF-16S6",
-        "https://24h.pchome.com.tw/prod/DMABKU-A900F4MB2"
+        "https://24h.pchome.com.tw/prod/DMABKU-A900F4MB2",
+        "https://24h.pchome.com.tw/prod/DMABKU-A9009TNM6",
+        "https://www.heran.com.tw/product-category/%E5%A4%8F%E5%AD%A3%E5%AE%B6%E9%9B%BB/dc%E9%A2%A8%E6%89%87/16-inches/"
       ],
       "rejectedCandidates": [
         "LBJ HERAN HDF-16S6: 誠品線上 【限量B級福利品】HERAN 禾聯 16吋智能變頻DC風扇HDF-16S6(S) (有使用痕跡) 非採用通路或含排除條件",
         "BigGo DMABKU-A900F4MB2: 查詢失敗 429 https://biggo.com.tw/api/v1/spa/search/DMABKU-A900F4MB2/product?p=1",
         "BigGo HERAN HDF-16S6: 查詢失敗 429 https://biggo.com.tw/api/v1/spa/search/HERAN%20HDF-16S6/product?p=1",
-        "[2026-07-11] 整合品質閘門：原頁顯示缺貨：https://24h.pchome.com.tw/prod/DMABKU-A900F4MB2"
+        "[2026-07-11] 整合品質閘門：原頁顯示缺貨：https://24h.pchome.com.tw/prod/DMABKU-A900F4MB2",
+        "[2026-07-13] PChome 既有頁與替代商品頁均顯示已熱銷一空；HERAN 官方只提供型號資訊，沒有售價或購買功能，因此保留 NT$1,480 為明示售罄的追蹤價。",
+        "[2026-07-13] 排除 BigGo/搜尋候選中的 B 級有使用痕跡、福利品、零件與個人賣場；查無可替換的可信新品現貨頁。"
       ]
     },
     {
@@ -3271,10 +3275,10 @@
       "brand": "IRIS OHYAMA",
       "model": "PCF-SC15T",
       "name": "遙控空氣循環扇",
-      "currentPrice": 1990,
+      "currentPrice": 1771,
       "currentCurrency": "TWD",
-      "currentBuyUrl": "https://24h.pchome.com.tw/prod/DSBE18-A900J27XM",
-      "currentBuyLabel": "PChome",
+      "currentBuyUrl": "https://www.momoshop.com.tw/product/8033074",
+      "currentBuyLabel": "momo購物",
       "historicalLow": {
         "status": "found",
         "amount": 1511,
@@ -3299,7 +3303,11 @@
         "https://biggo.com.tw/s/IRIS%20OHYAMA%20PCF-SC15T/",
         "https://shopee.tw/product/1208362621/47659249255",
         "https://shopee.tw/product/5714203/15571985060",
-        "https://24h.pchome.com.tw/prod/DSBE18-A900J27X0"
+        "https://24h.pchome.com.tw/prod/DSBE18-A900J27X0",
+        "https://www.momoshop.com.tw/product/8033074",
+        "https://www.momoshop.com.tw/product/8788713",
+        "https://tw.buy.yahoo.com/gdsale/IRIS-6%E5%90%8B%E7%A9%BA%E6%B0%A3%E5%BE%AA%E7%92%B0%E6%89%87-PCF-SC15T-11532167.html",
+        "https://www.costco.com.tw/search?text=PCF-SC15T"
       ],
       "rejectedCandidates": [
         "LBJ IRIS OHYAMA PCF-SC15T: 蝦皮商城 - 樂坊生活旗艦館 Love Fun IRIS OHYAMA【聊聊再折+蝦幣10%回饋】PCF-SC15T 空氣循環扇 循環扇 適用9坪 電風扇 SC15T 非採用通路或含排除條件",
@@ -3320,7 +3328,9 @@
         "[2026-07-11] 樂天市場：exact-model candidate is an auction, marketplace, or non-trusted seller；IRIS OHYAMA PCF-SC15T SC15T 空氣循環扇 循環扇 靜音 風扇 電風扇 上下左右自動擺動 https://www.rakuten.com.tw/shop/gj-life/product/cdgplodwe/",
         "[2026-07-11] 蝦皮商城：exact-model candidate is an auction, marketplace, or non-trusted seller；【IRIS OHYAMA】PCF-SC15T 日本6吋空氣循環扇 適用9坪 電風扇 上下左右擺頭 靜音節電 遙控∣公司貨 https://shopee.tw/product/65830979/2187228879",
         "[2026-07-11] 松果購物：exact-model candidate is an auction, marketplace, or non-trusted seller；IRIS OHYAMA PCF-SC15T SC15T 空氣循環扇 遙控上下左右自動 9坪 https://pcone.com.tw/product/info/251227275631",
-        "[2026-07-11] 松果購物：exact-model candidate is an auction, marketplace, or non-trusted seller；IRIS OHYAMA PCF-SC15T SC15T 空氣循環扇 上下左右自動擺動 遙控 9坪 https://pcone.com.tw/product/info/251227627668"
+        "[2026-07-11] 松果購物：exact-model candidate is an auction, marketplace, or non-trusted seller；IRIS OHYAMA PCF-SC15T SC15T 空氣循環扇 上下左右自動擺動 遙控 9坪 https://pcone.com.tw/product/info/251227627668",
+        "[2026-07-13] Costco NT$1,269 候選型號為 PCF-SC15T-CT，並非本筆 canonical PCF-SC15T；酷澎 NT$1,780 不在 repo 可信通路 allowlist。",
+        "[2026-07-13] momo 品號 8033074 公開價 NT$1,771，低於同站另一頁 NT$1,786、Yahoo NT$1,831 與 PChome NT$1,990，採為本輪最低可信新品價。"
       ]
     },
     {
@@ -13361,13 +13371,17 @@
         "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1247924875&cgp=999",
         "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1247311408&cgp=1499",
         "https://www.findprice.com.tw/g/Tefal%20Daisy%2028cm%20IH",
-        "https://24h.pchome.com.tw/prod/DEES01-A900ILXUX"
+        "https://24h.pchome.com.tw/prod/DEES01-A900ILXUX",
+        "https://www.momoshop.com.tw/product/13841705",
+        "https://tw.buy.yahoo.com/gdsale/Tefal%E6%B3%95%E5%9C%8B%E7%89%B9%E7%A6%8F-Daisy%E7%B3%BB%E5%88%9728CM%E4%B8%8D%E6%B2%BE%E5%B0%8F%E7%82%92%E9%8D%8B-%E9%81%A9%E7%94%A8%E9%9B%BB%E7%A3%81%E7%88%90-11557068.html"
       ],
       "rejectedCandidates": [
         "BigGo DEES01-A900ILXUX: 查詢失敗 429 https://biggo.com.tw/api/v1/spa/search/DEES01-A900ILXUX/product?p=1",
         "BigGo Tefal Daisy 28cm IH: 查詢失敗 429 https://biggo.com.tw/api/v1/spa/search/Tefal%20Daisy%2028cm%20IH/product?p=1",
         "[2026-07-11] 整合品質閘門：查核結果明確保留原值 fallback",
-        "[2026-07-11] 現價查核例外：Current PChome product API: API title did not confirm exact model (Tefal法國特福 Daisy系列28CM不沾小炒鍋(適用電磁爐) / Tefal法國特福 Daisy系列28CM不沾小炒鍋(適用電磁爐))"
+        "[2026-07-11] 現價查核例外：Current PChome product API: API title did not confirm exact model (Tefal法國特福 Daisy系列28CM不沾小炒鍋(適用電磁爐) / Tefal法國特福 Daisy系列28CM不沾小炒鍋(適用電磁爐))",
+        "[2026-07-13] momo 同型號 NT$1,199、Yahoo 同型號 NT$1,299，均高於 PChome 公開價 NT$999；Yahoo NT$150 券屬條件式優惠，不納入可比現價。",
+        "[2026-07-13] 搜尋到的 NT$899 Facebook 促銷已於 5 月到期，不是目前可購價格；仍只作既有史低參考。"
       ]
     },
     {
@@ -22278,8 +22292,8 @@
       "name": "BE3600 Wi-Fi 7 無線 Mesh 路由器三入組",
       "currentPrice": 7499,
       "currentCurrency": "TWD",
-      "currentBuyUrl": "https://24h.pchome.com.tw/prod/DRAFJ6-A900JL8Q9",
-      "currentBuyLabel": "PChome",
+      "currentBuyUrl": "https://www.momoshop.com.tw/product/14883783",
+      "currentBuyLabel": "momo購物",
       "historicalLow": {
         "status": "not_found",
         "amount": null,
@@ -22306,7 +22320,8 @@
         "https://tw.buy.yahoo.com/gdsale/%E6%98%8C%E9%81%8B%E7%9B%A3%E8%A6%96%E5%99%A8-D-Link-%E5%8F%8B%E8%A8%8A-M36-BE3600-Wi-Fi-7%E7%84%A1%E7%B7%9AMESH%E8%B7%AF%E7%94%B1%E5%99%A8-11847551.html",
         "https://www.momoshop.com.tw/TP/TP0002903/goodsDetail/TP00029030000113",
         "https://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=14674237&Area=search&mdiv=403&oid=1_1&cid=index&kw=D-Link+M36&ecTagNos=",
-        "https://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=14674237&Area=search&mdiv=403&oid=1_2&cid=index&kw=D-Link+M36&ecTagNos="
+        "https://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=14674237&Area=search&mdiv=403&oid=1_2&cid=index&kw=D-Link+M36&ecTagNos=",
+        "https://www.momoshop.com.tw/product/14883783"
       ],
       "rejectedCandidates": [
         "LBJ D-Link M36 3入: Yahoo拍賣 - 風和網通 (4492個評價) D-Link M36 BE3600 Wi-Fi 7 無線Mesh路由器(3入)【風和網通】 非採用通路或含排除條件",
@@ -22323,7 +22338,9 @@
         "[2026-07-11] momo official search ItemList：套裝數量未確認：目標為 3 入，候選原頁未明示相同入數；【D-Link】M36 BE3600 Wi-Fi 7無線Mesh路由器 https://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=14674237&Area=search&mdiv=403&oid=1_1&cid=index&kw=D-Link+M36&ecTagNos=",
         "[2026-07-11] momo official search ItemList：套裝數量未確認：目標為 3 入，候選原頁未明示相同入數；【D-Link】M36 BE3600 Wi-Fi 7無線Mesh路由器 https://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=14674237&Area=search&mdiv=403&oid=1_2&cid=index&kw=D-Link+M36&ecTagNos=",
         "[2026-07-11] 整合品質閘門：查核結果明確保留原值 fallback",
-        "[2026-07-11] 現價查核例外：Current purchase page bundle mismatch: 套裝數量不同：目標為 3 入，候選明示為 2 入"
+        "[2026-07-11] 現價查核例外：Current purchase page bundle mismatch: 套裝數量不同：目標為 3 入，候選明示為 2 入",
+        "[2026-07-13] PChome API 的 Name 寫三入、Nick 寫兩入，套裝資訊互相矛盾；同價時改採 momo 品號 14883783 原頁明示三入的 NT$7,499 新品。",
+        "[2026-07-13] 赫米資訊搜尋摘要 NT$6,920 為未稅且原頁拒絕連線，BigGo NT$7,200 也僅為摘要；均無法回原始頁驗證可購狀態，排除。"
       ]
     },
     {
@@ -26320,22 +26337,22 @@
       "brand": "BenQ",
       "model": "MOBIUZ EX271Q",
       "name": "27 吋 2K 180Hz HDR400 電競螢幕",
-      "currentPrice": 5988,
+      "currentPrice": 5688,
       "currentCurrency": "TWD",
-      "currentBuyUrl": "https://24h.pchome.com.tw/prod/DSABF3-A900JA047",
-      "currentBuyLabel": "PChome",
+      "currentBuyUrl": "https://www.isunfar.com.tw/product/?prodseq=271909",
+      "currentBuyLabel": "順發線上購物",
       "historicalLow": {
         "status": "found",
-        "amount": 5770,
+        "amount": 5688,
         "currency": "TWD",
-        "converted": 5770,
-        "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=589448790&cgp=5787",
-        "sourceTitle": "LBJ 比價撿便宜 歷史價格：BENQ 明基 27吋 MOBIUZ EX271Q AI螢幕 電競螢幕 電腦 顯示器 2K/IPS/180Hz 廠商直送",
-        "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「蝦皮商城 - 順發3C SUNFAR / BENQ 明基 27吋 MOBIUZ EX271Q AI螢幕 電競螢幕 電腦 顯示器 2K/IPS/180Hz 廠商直送」最低價為 NT$5,770，最低點日期 2026-06-06。",
-        "sourceKind": "price_history",
+        "converted": 5688,
+        "sourceUrl": "https://www.isunfar.com.tw/product/?prodseq=271909",
+        "sourceTitle": "順發線上購物：BENQ 明基電通 27 吋 MOBIUZ EX271Q 2K 180Hz 電競螢幕",
+        "evidenceSnippet": "順發線上購物同型號新品頁於 2026-07-13 顯示售價 NT$5,988 與公開折扣 NT$300，頁面 metadata／結構化資料標示成交價 NT$5,688、NewCondition、InStock。",
+        "sourceKind": "retailer_promo",
         "confidence": "high",
-        "checkedAt": "2026-07-09",
-        "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+        "checkedAt": "2026-07-13",
+        "note": "採用可信通路同一商品頁可公開重現的公開折扣價；未使用會員個人化優惠、信用卡回饋、點數、二手、福利品、展示機、拆封品或整新品。"
       },
       "checkedSources": [
         "https://www.lbj.tw/BJ/Query.aspx?k=DSABF3-A900JA047",
@@ -26345,7 +26362,12 @@
         "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=537464054&cgp=5962",
         "https://www.findprice.com.tw/g/BenQ%20MOBIUZ%20EX271Q",
         "https://24h.pchome.com.tw/prod/DSABF3-A900JA047",
-        "https://biggo.com.tw/api/v1/spa/search/BenQ%20MOBIUZ%20EX271Q/product?p=1"
+        "https://biggo.com.tw/api/v1/spa/search/BenQ%20MOBIUZ%20EX271Q/product?p=1",
+        "https://www.isunfar.com.tw/product/?prodseq=271909",
+        "https://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=13823588",
+        "https://tw.buy.yahoo.com/gdsale/BENQ-EX271Q-27%E5%9E%8B-IPS-2K-16-9-180Hz%E9%81%8A%E6%88%B2%E8%AD%B7%E7%9C%BC%E8%9E%A2%E5%B9%95-HDMI-DP-Ty-11361548.html",
+        "https://www.benq.com/zh-tw/monitor/gaming/ex271q.html",
+        "https://www.costco.com.tw/search?text=EX271Q"
       ],
       "rejectedCandidates": [
         "LBJ BenQ MOBIUZ EX271Q: HOTAI購 【HOTAI購】【BenQ】27型 MOBIUZ EX271Q 電競螢幕 (DP/HDMI/Type-C(65W)/Type-A/IPS/2K/1ms/180Hz/HDR400/AI暗影追焦/不閃屏/低藍光/可升降/可旋轉/三年保固) 非採用通路或含排除條件",
@@ -26362,7 +26384,9 @@
         "[2026-07-11] 整合品質閘門：查核結果明確保留原值 fallback",
         "[2026-07-11] 現價查核例外：current page title did not prove exact model: BENQ EX271Q HDR400電競螢幕 (27吋/2K/180hz/1ms/IPS)",
         "[2026-07-11] 現價查核例外：BigGo: HTTP 429",
-        "[2026-07-11] 現價查核例外：No in-stock exact-model authoritative offer was verified; preserved the existing catalog offer."
+        "[2026-07-11] 現價查核例外：No in-stock exact-model authoritative offer was verified; preserved the existing catalog offer.",
+        "[2026-07-13] 順發原頁／metadata／JSON-LD 均確認 EX271Q 新品現貨與公開自動折扣後 NT$5,688，低於 momo 自動折後 NT$5,788、PChome/Yahoo NT$5,988 與 BenQ 官方 NT$8,988。",
+        "[2026-07-13] Yahoo『最高折300』與登記活動條件不明，未納入可比現價；Costco 搜尋無 exact-model 商品。"
       ]
     },
     {
@@ -28739,7 +28763,7 @@
       "brand": "Raymii",
       "model": "LS-116-M1",
       "name": "SAKER 30KG 57 吋高承重氣壓式螢幕支架",
-      "currentPrice": 2549,
+      "currentPrice": 2789,
       "currentCurrency": "TWD",
       "currentBuyUrl": "https://24h.pchome.com.tw/prod/DCBBC5-A900JM6ZN",
       "currentBuyLabel": "PChome",
@@ -28772,7 +28796,9 @@
         "LBJ Raymii LS-116-M1: 原價屋 【原價屋】Raymii LS-116-M1 黑灰色 (單螢幕/穿夾兩用/氣壓式/承載30KG/24-57吋 高承重電競款) 非採用通路或含排除條件",
         "LBJ Raymii LS-116-M1: 紐頓e世界 【紐頓e世界】RAYMII瑞米 LS-116-M1 高承重電競氣壓式螢幕支架【適用24~57吋/承重2~30KG(平面),2~24KG(曲面)/USB-A,TYPE-C埠】 非採用通路或含排除條件",
         "BigGo DCBBC5-A900JM6ZN: 查詢失敗 429 https://biggo.com.tw/api/v1/spa/search/DCBBC5-A900JM6ZN/product?p=1",
-        "[2026-07-11] 整合品質閘門：原頁顯示缺貨：https://24h.pchome.com.tw/prod/DCBBC5-A900JM6ZN"
+        "[2026-07-11] 整合品質閘門：原頁顯示缺貨：https://24h.pchome.com.tw/prod/DCBBC5-A900JM6ZN",
+        "[2026-07-13] PChome 原頁顯示 LS-116-M1 公開折後價 NT$2,789 且仍有購買按鈕；商品 API Qty=0，依間歇性庫存規則保留追蹤，不以此單一欄位刪除商品。",
+        "[2026-07-13] Raymii 官方、Acer 官方與原價屋同型號均為 NT$3,099；FindPrice 更低候選只落在排除的 marketplace，未採用。"
       ]
     },
     {

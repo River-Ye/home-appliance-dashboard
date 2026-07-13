@@ -1,7 +1,7 @@
 const reportLedger = require("../product_issue_report_evidence.json");
 const { canonicalWebsite, normalize } = require("./product-issue-validation");
 
-const CHECKED_AT = "2026-07-11";
+const CHECKED_AT = "2026-07-13";
 const DEFAULT_EVIDENCE_CHECKED_AT = "2026-07-10";
 const REVIEW_DATE_PATTERN = /^\d{4}-\d{2}-\d{2}$/;
 
@@ -1220,7 +1220,7 @@ const verifiedRows = [
   },
   {
     id: "robot-ecovacs-t80-omni",
-    checkedAt: CHECKED_AT,
+    checkedAt: "2026-07-11",
     summary: "多位 DEEBOT T80 OMNI 使用者跨站回報，拖地後滾筒、機內污水箱或水路容易產生明顯異味，需要頻繁清洗與晾乾。",
     title: "拖地後滾筒／污水路徑異味",
     detail: "回報涵蓋滾筒拖布、機內污水箱與清潔縫隙；部分可藉由清洗、晾乾或清潔錠暫時改善，也有污水未正常排空而送修仍未解決的案例。若對異味敏感，應在退換貨期內連續測試拖地、基站排水與烘乾，並依原廠方式清潔水路。",

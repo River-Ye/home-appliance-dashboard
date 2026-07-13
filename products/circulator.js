@@ -104,13 +104,13 @@
     "name": "遙控空氣循環扇",
     "price": {
       "currency": "TWD",
-      "amount": 1990,
-      "converted": 1990,
-      "confidence": "可信通路查核價"
+      "amount": 1771,
+      "converted": 1771,
+      "confidence": "momo購物 2026-07-13 公開折後價"
     },
     "image": "https://cs-a.ecimg.tw/items/DSBE18A900J27XM/000001_1754619793.jpg",
-    "buyUrl": "https://24h.pchome.com.tw/prod/DSBE18-A900J27XM",
-    "buyLabel": "PChome",
+    "buyUrl": "https://www.momoshop.com.tw/product/8033074",
+    "buyLabel": "momo購物",
     "specs": [
       "桌上型",
       "遙控",
