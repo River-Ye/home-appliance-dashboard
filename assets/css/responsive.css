@@ -52,6 +52,21 @@
   .summary-grid {
     grid-template-columns: repeat(2, 1fr);
   }
+
+  .rate-card {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 2px 14px;
+    align-items: center;
+  }
+
+  .rate-card strong {
+    grid-row: span 2;
+  }
+
+  .rate-card a {
+    margin-top: 4px;
+  }
 }
 
 @media (max-width: 620px) {
@@ -77,7 +92,37 @@
   }
 
   h1 {
-    font-size: 34px;
+    font-size: 31px;
+  }
+
+  .subhead {
+    margin-top: 8px;
+    font-size: 15px;
+  }
+
+  .ai-disclosure {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 7px 10px;
+    margin-top: 12px;
+    font-size: 12px;
+  }
+
+  .ai-disclosure a {
+    grid-column: auto;
+  }
+
+  .rate-card {
+    gap: 2px 12px;
+    padding: 13px 14px;
+  }
+
+  .rate-card strong {
+    font-size: 18px;
+  }
+
+  .rate-card small {
+    font-size: 12px;
   }
 
   .toolbar {
@@ -101,6 +146,10 @@
   .filter-panel {
     grid-column: 1 / -1;
     grid-template-columns: 1fr;
+  }
+
+  .toolbar:not(.filters-open) .filter-panel {
+    display: none;
   }
 
   .filter-panel .reset-button {
@@ -129,6 +178,11 @@
     border-bottom: 1px solid var(--line);
     backdrop-filter: blur(14px);
     scroll-snap-type: x proximity;
+    min-height: 65px;
+  }
+
+  .tabs-loading {
+    height: 44px;
   }
 
   .tab-button {
@@ -148,17 +202,57 @@
     grid-template-columns: 1fr;
   }
 
+  .issue-source-links a {
+    min-height: 44px;
+    padding: 10px 0;
+  }
+
+  .price-insight a,
+  .homepage-evidence a,
+  .editorial-evidence a {
+    display: inline-flex;
+    align-items: center;
+    min-height: 44px;
+    padding: 8px 0;
+  }
+
+  .issue-research--clear summary {
+    grid-template-columns: 28px minmax(0, 1fr);
+  }
+
+  .issue-research--clear summary small {
+    grid-column: 2;
+  }
+
   .summary-grid {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 10px;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 1px;
+    overflow: hidden;
+    margin: 8px 0 14px;
+    background: var(--line);
+    border: 1px solid var(--line);
+    border-radius: 8px;
   }
 
   .summary-card {
-    padding: 14px;
+    min-width: 0;
+    padding: 9px 6px;
+    text-align: center;
+    border: 0;
+    border-radius: 0;
+    box-shadow: none;
   }
 
   .summary-card strong {
-    font-size: 24px;
+    margin-top: 1px;
+    font-size: 18px;
+  }
+
+  .summary-card span {
+    overflow: hidden;
+    font-size: 10px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
   }
 
   .product-grid {
@@ -185,6 +279,16 @@
     margin-right: -10px;
     margin-left: -10px;
     padding: 0 10px 6px;
+  }
+
+  .section-intro {
+    display: grid;
+    gap: 4px;
+    margin-top: 2px;
+  }
+
+  .section-intro > p {
+    font-size: 12px;
   }
 
   .ad-placement {
@@ -224,6 +328,11 @@
     backdrop-filter: blur(14px);
     transform: translateY(18px);
     transition: opacity 160ms ease, transform 160ms ease;
+  }
+
+  .mobile-dock[hidden],
+  .page-jump[hidden] {
+    display: none;
   }
 
   body.show-mobile-dock .mobile-dock {
@@ -302,5 +411,9 @@
   .compare-table td {
     overflow-wrap: anywhere;
     word-break: break-word;
+  }
+
+  .compare-tray {
+    display: none;
   }
 }

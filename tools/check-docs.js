@@ -1,6 +1,16 @@
 const fs = require("fs");
 const path = require("path");
 const { readDashboardProducts } = require("./read-dashboard-products");
+const {
+  SITE_URL,
+  SITE_NAME,
+  REPO_URL,
+  EDITORIAL_TEAM,
+  HOME_PAGE_TITLE,
+  HOME_H1,
+  AI_DISCLOSURE,
+  homePageDescription,
+} = require("./geo-config");
 
 const root = path.resolve(__dirname, "..");
 
@@ -23,25 +33,27 @@ function attributeValue(markup, name) {
 }
 
 function main() {
-  const siteUrl = "https://appliance.riverye.com/";
+  const siteUrl = SITE_URL;
   const oldSiteUrl = "https://river-ye.github.io/home-appliance-dashboard/";
-  const repoUrl = "https://github.com/River-Ye/home-appliance-dashboard";
+  const repoUrl = REPO_URL;
   const privacyUrl = "https://riverye.com/privacy.html";
   const publisherId = "ca-pub-4799252410303973";
   const adsLoaderBaseUrl = "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=";
-  const seoTitle = "家電推薦比較工作台｜台灣家電價格、規格與購買建議";
-  const seoDescription = "家電推薦比較工作台整理電視、冰箱、洗衣機、掃拖機器人、螢幕等家電的價格、規格、優缺點、歷史低價、負評查核與可信通路購買建議。";
   const { categories, exchange, products } = readDashboardProducts(root);
+  const seoTitle = HOME_PAGE_TITLE;
+  const seoDescription = homePageDescription(categories.length, products.length);
   const config = read("assets/js/config.js");
   const index = read("index.html");
   const readme = read("README.md");
   const agents = read("AGENTS.md");
   const repoSkill = read(".agents/skills/home-appliance-dashboard/SKILL.md");
+  const packageJson = JSON.parse(read("package.json"));
   assertFileExists("CNAME");
   assertFileExists("robots.txt");
   assertFileExists("sitemap.xml");
   assertFileExists("social-preview.png");
   assertFileExists("assets/js/ads.js");
+  assertFileExists("assets/css/app.css");
   const cname = read("CNAME");
   const robots = read("robots.txt");
   const sitemap = read("sitemap.xml");
@@ -70,6 +82,10 @@ function main() {
   assert(index.includes(`id="exchangeSummary">${meta.exchangeSummary}</span>`), "index exchange fallback is stale");
   assert(!index.includes("<script src=\"./products/"), "index should not list product scripts manually");
   assert(index.includes("assets/js/product-loader.js"), "index should load product-loader.js");
+  const homepageStylesheets = [...index.matchAll(/<link rel="stylesheet" href="\.\/assets\/css\/([^?\"]+)\?v=[^\"]+">/g)]
+    .map((match) => match[1]);
+  assert(JSON.stringify(homepageStylesheets) === JSON.stringify(["app.css"]), "index should load only the generated app.css homepage bundle");
+  assert(packageJson.scripts?.["check:quality"] === "node tools/check-quality.js", "package scripts should expose the Lighthouse quality gate");
   assert(readme.includes(siteUrl), "README should link to the canonical custom domain");
   assert(!readme.includes(oldSiteUrl), "README should not retain the old public Pages URL");
   assert(cname.trim() === "appliance.riverye.com", "CNAME should contain only the custom hostname");
@@ -81,7 +97,7 @@ function main() {
     `<link rel="canonical" href="${siteUrl}">`,
     '<meta property="og:type" content="website">',
     '<meta property="og:locale" content="zh_TW">',
-    '<meta property="og:site_name" content="家電推薦比較工作台">',
+    `<meta property="og:site_name" content="${SITE_NAME}">`,
     `<meta property="og:title" content="${seoTitle}">`,
     `<meta property="og:description" content="${seoDescription}">`,
     `<meta property="og:url" content="${siteUrl}">`,
@@ -89,12 +105,14 @@ function main() {
     '<meta property="og:image:type" content="image/png">',
     '<meta property="og:image:width" content="1730">',
     '<meta property="og:image:height" content="909">',
-    '<meta property="og:image:alt" content="家電推薦比較工作台：家電與比較表插圖">',
+    `<meta property="og:image:alt" content="${SITE_NAME}：家電與比較表插圖">`,
     '<meta name="twitter:card" content="summary_large_image">',
     `<meta name="twitter:title" content="${seoTitle}">`,
     `<meta name="twitter:description" content="${seoDescription}">`,
     `<meta name="twitter:image" content="${siteUrl}social-preview.png">`,
-    '<meta name="twitter:image:alt" content="家電推薦比較工作台：家電與比較表插圖">',
+    `<meta name="twitter:image:alt" content="${SITE_NAME}：家電與比較表插圖">`,
+    `<h1>${HOME_H1}</h1>`,
+    AI_DISCLOSURE,
     `<meta name="google-adsense-account" content="${publisherId}">`,
     '<p class="project-source">專案原始碼：',
     `<a href="${repoUrl}" target="_blank" rel="noopener noreferrer">GitHub Repo</a>`,
@@ -144,12 +162,15 @@ function main() {
   const webpage = typeNode("WebPage");
   const organization = typeNode("Organization");
   const categoryList = typeNode("ItemList");
-  assert(website?.name === "家電推薦比較工作台", "structured data WebSite name mismatch");
+  assert(website?.name === SITE_NAME, "structured data WebSite name mismatch");
   assert(website?.url === siteUrl, "structured data WebSite URL mismatch");
   assert(website?.description === seoDescription, "structured data WebSite description mismatch");
   assert(website?.inLanguage === "zh-Hant-TW", "structured data WebSite language mismatch");
   assert(webpage?.url === siteUrl && webpage?.dateModified === meta.dataDate, "structured data WebPage freshness mismatch");
-  assert(organization?.name === "家電推薦比較工作台專案編輯團隊", "structured data editorial team mismatch");
+  assert(webpage?.name === HOME_PAGE_TITLE, "structured data WebPage title mismatch");
+  assert(webpage?.description === seoDescription, "structured data WebPage description mismatch");
+  assert(organization?.name === EDITORIAL_TEAM, "structured data editorial team mismatch");
+  assert(organization?.description === AI_DISCLOSURE, "structured data should use the visible AI disclosure copy");
   assert(Array.isArray(organization?.sameAs) && organization.sameAs.includes(repoUrl), "structured data GitHub sameAs is missing");
   assert(categoryList?.itemListElement?.length === categories.length, "structured data category ItemList mismatch");
 
@@ -169,6 +190,7 @@ function main() {
   assert(sitemapLastmods.every((value) => value === meta.dataDate), "sitemap lastmod should use the catalog data date");
   const artifactStepMatch = pagesWorkflow.match(/- name: Prepare Pages artifact([\s\S]*?)(?=\n\s+- name:)/);
   assert(artifactStepMatch, "Pages artifact preparation step is missing");
+  assert(pagesWorkflow.includes("npm run check:quality"), "Pages workflow should run the Lighthouse quality gate");
   assert(artifactStepMatch[1].includes("robots.txt"), "Pages artifact should include robots.txt");
   assert(artifactStepMatch[1].includes("sitemap.xml"), "Pages artifact should include sitemap.xml");
   assert(artifactStepMatch[1].includes("social-preview.png"), "Pages artifact should include the social preview image");

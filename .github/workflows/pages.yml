@@ -68,6 +68,9 @@ jobs:
       - name: Check UI
         run: npm run check:ui
 
+      - name: Check Lighthouse quality budgets
+        run: npm run check:quality
+
       - name: Prepare Pages artifact
         shell: bash
         run: |

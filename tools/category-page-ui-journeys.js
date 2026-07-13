@@ -109,6 +109,17 @@ async function assertNoJavaScriptCategoryPage(browser, category, name, viewport)
     }
     await assertLocalStaticTargetsExist(page, name);
     await assertNoHorizontalOverflow(page, name);
+    if (viewport.width <= 520) {
+      const evidence = page.locator(".editorial-evidence");
+      await evidence.locator("summary").click();
+      const undersizedEvidenceLinks = await evidence.locator("a").evaluateAll((links) => links
+        .filter((link) => link.getClientRects().length > 0)
+        .map((link) => ({ text: link.textContent.trim(), height: link.getBoundingClientRect().height }))
+        .filter((link) => link.height < 43));
+      if (undersizedEvidenceLinks.length) {
+        throw new Error(`${name}: evidence links have undersized touch targets ${JSON.stringify(undersizedEvidenceLinks.slice(0, 5))}`);
+      }
+    }
     assertNoRuntimeIssues(runtime, name);
   } finally {
     await context.close();

@@ -80,7 +80,7 @@
           </div>
         </div>`;
     }
-    return `<img src="${utils.escapeHtml(product.image)}" alt="${brand} ${model}" width="${width}" height="${height}" loading="lazy" decoding="async" onerror="this.style.display='none'; this.nextElementSibling.style.display='grid';">${fallback}`;
+    return `<img class="product-image" data-src="${utils.escapeHtml(product.image)}" alt="${brand} ${model}" width="${width}" height="${height}" loading="lazy" decoding="async" onerror="this.style.display='none'; this.nextElementSibling.style.display='grid';">${fallback}`;
   }
 
   function specItemMarkup(label, value) {
@@ -136,26 +136,41 @@
       .filter(Boolean)
       .join("");
 
+    if (!isWarning) {
+      return `
+      <details class="issue-research issue-research--clear" data-issue-status="${status}">
+        <summary>
+          <span class="issue-research-icon" aria-hidden="true">✓</span>
+          <span><b>負評／災情查核</b><strong>查無達門檻的集中反映</strong></span>
+          <small>查核日 ${utils.escapeHtml(research.checkedAt || "未標示")}</small>
+        </summary>
+        <div class="issue-research-details">
+          <p>${utils.escapeHtml(research.summary || "截至查核日，查無達門檻的集中負評／災情")}</p>
+          ${sourceLinks ? `<span class="issue-source-links"><b>查核紀錄</b>${sourceLinks}</span>` : ""}
+        </div>
+      </details>`;
+    }
+
     return `
-      <section class="issue-research issue-research--${isWarning ? "warning" : "clear"}" data-issue-status="${status}" aria-label="負評／災情查核">
+      <section class="issue-research issue-research--warning" data-issue-status="${status}" aria-label="負評／災情查核">
         <div class="issue-research-heading">
-          <span class="issue-research-icon" aria-hidden="true">${isWarning ? "!" : "✓"}</span>
+          <span class="issue-research-icon" aria-hidden="true">!</span>
           <div>
             <span class="field-label">負評／災情查核</span>
-            <strong>${utils.escapeHtml(isWarning ? "多人反映，購買前請注意" : "查無達門檻的集中反映")}</strong>
+            <strong>多人反映，購買前請注意</strong>
           </div>
         </div>
         <p>${utils.escapeHtml(research.summary || "截至查核日，查無達門檻的集中負評／災情")}</p>
-        ${isWarning ? (research.issues || []).map((issue) => `
+        ${(research.issues || []).map((issue) => `
           <div class="issue-research-item">
             <strong>${utils.escapeHtml(issue.title)}</strong>
             <span class="issue-report-count">${utils.escapeHtml(issue.reportCount)} 位獨立使用者反映</span>
             <p>${utils.escapeHtml(issue.detail)}</p>
           </div>
-        `).join("") : ""}
+        `).join("")}
         <div class="issue-research-meta">
           <span>查核日 ${utils.escapeHtml(research.checkedAt || "未標示")}</span>
-          ${sourceLinks ? `<span class="issue-source-links"><b>${isWarning ? "原文出處" : "查核紀錄"}</b>${sourceLinks}</span>` : ""}
+          ${sourceLinks ? `<span class="issue-source-links"><b>原文出處</b>${sourceLinks}</span>` : ""}
         </div>
       </section>
     `;
@@ -168,9 +183,11 @@
         class="pick-card"
         type="button"
         data-focus-product="${utils.escapeHtml(product.id)}"
-        aria-label="查看 ${utils.escapeHtml(product.brand)} ${utils.escapeHtml(product.model)} 商品卡"
       >
-        ${imageMarkup(product, { width: 74, height: 74 })}
+        <span class="pick-mark" aria-hidden="true">
+          <strong>${utils.escapeHtml(product.brand)}</strong>
+          <small>${utils.escapeHtml(category.label)}</small>
+        </span>
         <div>
           <p class="eyebrow">${utils.escapeHtml(category.label)} 綜合推薦</p>
           <h3>${utils.escapeHtml(product.brand)} ${utils.escapeHtml(product.model)}</h3>
@@ -209,7 +226,7 @@
               <span>${utils.escapeHtml(product.brand)}</span>
               <span class="model">${utils.escapeHtml(product.model)}</span>
             </div>
-            <h3>${utils.escapeHtml(product.name)}</h3>
+            <h3 tabindex="-1">${utils.escapeHtml(product.name)}</h3>
           </div>
           <div class="price-row decision-strip">
             <div>
@@ -258,7 +275,7 @@
           </details>
         </div>
         <div class="card-actions">
-          <a class="buy-link" href="${utils.escapeHtml(product.buyUrl)}" target="_blank" rel="noreferrer">購買連結</a>
+          <a class="buy-link" href="${utils.escapeHtml(product.buyUrl)}" target="_blank" rel="noreferrer" aria-label="前往 ${utils.escapeHtml(product.buyLabel)} 購買 ${utils.escapeHtml(product.brand)} ${utils.escapeHtml(product.model)}">前往 ${utils.escapeHtml(product.buyLabel)}</a>
           <button class="compare-button ${isCompared ? "active" : ""}" type="button" data-compare="${utils.escapeHtml(product.id)}" aria-pressed="${isCompared}">
             ${isCompared ? "已加入比較" : "加入比較"}
           </button>
@@ -297,6 +314,13 @@
 
     return `
       <table class="compare-table">
+        <caption class="visually-hidden">已選商品橫向比較表</caption>
+        <thead>
+          <tr>
+            <th scope="col">比較項目</th>
+            ${selected.map((product) => `<th scope="col">${utils.escapeHtml(`${product.brand} ${product.model}`)}</th>`).join("")}
+          </tr>
+        </thead>
         <tbody>
           ${rows.map((row) => `
             <tr>

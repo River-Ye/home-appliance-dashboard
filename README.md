@@ -16,7 +16,8 @@
 - 另由現有分類與商品資料產生 25 個可獨立索引的 `/categories/<id>/` 選購指南頁；不為 661 筆商品建立重複、薄內容的獨立頁面。
 - 聚焦可信通路新品，排除配件、耗材、福利品、展示機與誤判品。
 - 每類「綜合推薦」以 CP 值、評價口碑、價格、可信通路、台灣售後/保固風險綜合判斷，並附簡短推薦原因。
-- 支援分類、品牌、預算、通路、搜尋、排序、active filter chips、可分享 URL 篩選狀態與比較清單。
+- 支援分類、品牌、選購定位、通路、自然多詞搜尋、排序、active filter chips、可分享 URL 篩選狀態與比較清單；既有 `budget` query key 維持相容。
+- 首屏與 25 個分類指南皆清楚標示 AI 協作、資料日期、查核方法與 GitHub 原始碼；網站與內容仍可能有錯漏，不虛構專家或實機使用經驗。
 - 針對桌機與手機操作最佳化，包含群組化分類列、sticky 分類列、手機快速操作列、收合式商品細節與重設篩選。
 - 冰箱、洗衣機、烘衣機與洗烘衣機皆標示機身尺寸，方便先確認家中擺放空間；若可信來源查不到則明確標示未標示。
 - 661 筆商品價格與購買連結已於 2026-07-13 全量重查；台灣商品優先比較 PChome、Yahoo、momo、Costco 與品牌官方，海外商品才比較可信海外通路。「低價」指可公開驗證、同型號／尺寸／容量／套裝的可信新品價，不包含個人拍賣或個人化優惠；好市多補充候選同日查核，目前共 64 筆，每類最多 3 筆。
@@ -32,12 +33,13 @@
 
 直接開啟 `index.html`，或透過 [正式網站](https://appliance.riverye.com/) 瀏覽。
 
-商品資料已依分類拆到 `products/*.js`，由 `assets/js/product-loader.js` 依分類設定自動載入；前端邏輯拆在 `assets/js/*.js`，樣式拆在 `assets/css/*.css`。搜尋與篩選會同步到 URL query，方便分享目前條件。此專案沒有 build step，GitHub Pages 直接服務靜態檔案。
+商品資料已依分類拆到 `products/*.js`，由 `assets/js/product-loader.js` 依分類設定自動載入；前端邏輯拆在 `assets/js/*.js`，樣式來源拆在 `assets/css/*.css`。首頁載入的 `assets/css/app.css` 是產生器合併的首屏 bundle，不可手動修改；GitHub Pages 仍直接服務靜態檔案，不需要執行期建置。
 
 ## GEO / AI 搜尋維護
 
 - `tools/category-guides.js` 是 25 類導讀、選購重點與 FAQ 的人工維護來源；商品事實仍以 `assets/js/config.js` 與 `products/*.js` 為準。
-- 修改商品、分類或分類指南後，先執行 `npm run generate:categories`。`categories/<id>/index.html`、`sitemap.xml`、`llms.txt`，以及 `index.html` 內 `geo-structured-data`／`geo-category-links` marker 之間的區塊都是產生結果，不可手動修改。
+- 站名、首頁 title、description、H1 與 AI 揭露契約集中在 `tools/geo-config.js`，供首頁檢查、JSON-LD、分類產生器與 `llms.txt` 共用。
+- 修改商品、分類、分類指南或首頁 CSS 來源後，先執行 `npm run generate:categories`。`assets/css/app.css`、`categories/<id>/index.html`、`sitemap.xml`、`llms.txt`，以及 `index.html` 內 `geo-structured-data`／`geo-category-links` marker 之間的區塊都是產生結果，不可手動修改。
 - `llms.txt` 只是提供網站用途、查核方式與分類入口的補充說明，不保證任何搜尋排名、AI 引用或收錄結果。
 - Pages 同時公開 `release_date_research.json`、`historical_price_research.json`、`dimension_research.json`、`product_issue_research.json`、`product_issue_report_evidence.json`、`product_issue_review_manifest.json` 六份證據檔。
 - Pages 部署成功後才通知 IndexNow；此步驟失敗不會阻擋部署，但仍需檢查 workflow log。GEO 功能不新增追蹤碼，並維持既有禁止未授權追蹤的規則。
@@ -54,3 +56,4 @@ npm run check
 - `npm run check:docs`：檢查 README、AGENTS、index/config 的商品數、分類數、日期與 cache version 沒有漂移。
 - `npm run check:geo`：檢查 25 個分類頁、metadata、結構化資料、內部連結、sitemap、llms、證據檔、Pages artifact、IndexNow contract 與所有產生結果沒有漂移。
 - `npm run check:ui`：用 Playwright 驗證桌機/手機搜尋、篩選、排序、lazy loading、比較清單、負評警示與推薦卡高亮。
+- `npm run check:quality`：用 Lighthouse 的瀏覽器套用行動網路／CPU throttling，驗證首頁與代表分類頁的 Performance、LCP、CLS、TBT、Accessibility 與 SEO 預算。

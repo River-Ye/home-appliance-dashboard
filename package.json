@@ -12,9 +12,11 @@
     "check:geo": "node tools/check-geo.js",
     "check:ui": "node tools/verify-dashboard.js",
     "check:ui:full": "node tools/verify-dashboard.js --full",
+    "check:quality": "node tools/check-quality.js",
     "generate:categories": "node tools/generate-category-pages.js"
   },
   "devDependencies": {
+    "lighthouse": "13.4.0",
     "playwright": "^1.61.1"
   }
 }

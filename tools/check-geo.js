@@ -11,20 +11,26 @@ const {
   jsonLdStringify,
 } = require("./generate-category-pages");
 const { submitIndexNow } = require("./submit-indexnow");
+const {
+  SITE_URL,
+  SITE_NAME,
+  REPO_URL,
+  EDITORIAL_TEAM,
+  HOME_PAGE_TITLE,
+  HOME_H1,
+  AI_DISCLOSURE,
+  PUBLIC_EVIDENCE_FILES,
+  PUBLIC_EVIDENCE_RESOURCES,
+  homePageDescription,
+  categoryPageHeading,
+} = require("./geo-config");
 
 const root = path.resolve(__dirname, "..");
-const siteUrl = "https://appliance.riverye.com/";
-const editorialTeam = "家電推薦比較工作台專案編輯團隊";
+const siteUrl = SITE_URL;
+const editorialTeam = EDITORIAL_TEAM;
 const generatorFile = "tools/generate-category-pages.js";
 const indexNowTool = "tools/submit-indexnow.js";
-const expectedEvidenceFiles = [
-  "release_date_research.json",
-  "historical_price_research.json",
-  "dimension_research.json",
-  "product_issue_research.json",
-  "product_issue_report_evidence.json",
-  "product_issue_review_manifest.json",
-];
+const expectedEvidenceFiles = PUBLIC_EVIDENCE_FILES;
 const unauthorizedTrackingPatterns = [
   [/google-analytics\.com/i, "Google Analytics loader"],
   [/googletagmanager\.com/i, "Google Tag Manager loader"],
@@ -239,6 +245,26 @@ function assertGuideAndEscapingContracts(categories) {
   assert(JSON.parse(escapedJson).value === malicious, "JSON-LD escaping should preserve the source value after parsing");
 }
 
+function assertGeoConfigContract(categories, products) {
+  assert(SITE_NAME === "家電推薦比較工作台", "SITE_NAME must preserve the public brand name");
+  assert(HOME_PAGE_TITLE === "台灣家電推薦與價格比較｜規格、史低與負評查核", "HOME_PAGE_TITLE mismatch");
+  assert(HOME_H1 === "家電推薦與價格比較工作台", "HOME_H1 mismatch");
+  assert(AI_DISCLOSURE === "本站內容與網站由 AI 協助研究、整理與製作；依公開規則查核，仍可能有錯漏。", "AI disclosure copy mismatch");
+  assert(
+    homePageDescription(categories.length, products.length)
+      === "由 AI 協作整理 25 類、661 款可信新品，提供價格、規格、歷史最低價與負評查核，並公開查核方法與原始碼。",
+    "homepage description should derive the catalog counts from source data",
+  );
+  assert(PUBLIC_EVIDENCE_RESOURCES.length === 6, "GEO contract should expose exactly six evidence resources");
+  assert(
+    JSON.stringify(PUBLIC_EVIDENCE_RESOURCES.map((resource) => resource.file)) === JSON.stringify(PUBLIC_EVIDENCE_FILES),
+    "evidence resource filenames should match the public artifact contract",
+  );
+  for (const resource of PUBLIC_EVIDENCE_RESOURCES) {
+    assert(resource.label?.trim() && resource.label !== resource.file, `${resource.file} should have a human-readable label`);
+  }
+}
+
 function assertGeneratorDriftContract(categories) {
   assertFileExists(generatorFile);
   const packageJson = JSON.parse(read("package.json"));
@@ -304,23 +330,67 @@ function assertCategoryPageContracts(categories, products, meta) {
       .filter((product) => product.category === category.id)
       .sort((left, right) => left.rank - right.rank || left.id.localeCompare(right.id));
     const topFive = categoryProducts.slice(0, 5);
+    const expectedHeading = categoryPageHeading(meta.dataDate.slice(0, 4), category.label);
+    const h1 = visibleText(markup.match(/<h1\b[^>]*>[\s\S]*?<\/h1>/i)?.[0] || "");
+    const hrefs = elements(markup, "a").map((tag) => attributeValueOf(tag, "href")).filter(Boolean);
 
-    assert(title && title.includes(category.label), `${file} title should identify ${category.label}`);
+    assert(title === expectedHeading, `${file} title should be ${expectedHeading}`);
     assert(description && decodeEntities(description).includes(category.label), `${file} description should identify ${category.label}`);
     assert(canonical === `${siteUrl}categories/${category.id}/`, `${file} canonical mismatch`);
     assert(metaContent(markup, "property", "og:title") === title, `${file} og:title should match title`);
     assert(metaContent(markup, "property", "og:description") === description, `${file} og:description should match description`);
     assert(metaContent(markup, "property", "og:url") === canonical, `${file} og:url should match canonical`);
-    assert(/<h1\b[^>]*>[\s\S]*?<\/h1>/i.test(markup), `${file} visible H1 is missing`);
+    assert(h1 === expectedHeading, `${file} H1 should match its title and preserve label spacing`);
     assert(text.includes(category.label), `${file} visible H1/content should identify ${category.label}`);
     assert(text.includes(meta.dataDate), `${file} should show data date ${meta.dataDate}`);
     assert(text.includes(editorialTeam), `${file} editorial team byline is missing`);
+    assert(text.includes("AI 協作製作"), `${file} hero AI badge is missing`);
+    assert(text.includes(AI_DISCLOSURE), `${file} exact AI disclosure is missing`);
+    assert(text.includes(`比較全部 ${categoryProducts.length} 款 ${category.label}`), `${file} complete comparison CTA mismatch`);
     assert(text.includes("選購重點"), `${file} buying criteria are missing`);
     assert(text.includes("常見問題"), `${file} FAQ heading is missing`);
     assert(text.includes("資料限制"), `${file} data limitations are missing`);
     assert(/研究方法|查核方法/.test(text), `${file} research method is missing`);
     assert((text.match(/[？?]/g) || []).length >= 2, `${file} should contain at least two non-empty FAQ questions`);
     assert(new RegExp(`${categoryProducts.length}\\s*筆`).test(text), `${file} should show ${categoryProducts.length} products in the category`);
+    for (const anchor of ["#shortlistHeading", "#buyingGuideHeading", "#faqHeading", "#methodHeading"]) {
+      assert(hrefs.includes(anchor), `${file} page navigation is missing ${anchor}`);
+    }
+    assert(hrefs.includes(REPO_URL), `${file} hero/footer should link to the GitHub source`);
+
+    const relatedCategories = categories.filter((candidate) => (
+      candidate.group === category.group && candidate.id !== category.id
+    ));
+    const relatedGuideHrefs = hrefs.filter((href) => {
+      if (href.startsWith("#")) return false;
+      const relatedUrl = new URL(href, canonical);
+      return relatedUrl.origin === new URL(siteUrl).origin
+        && /^\/categories\/[a-z0-9-]+\/$/.test(relatedUrl.pathname);
+    });
+    assert(relatedGuideHrefs.length === relatedCategories.length, `${file} should link only to the other ${category.group} guides`);
+    for (const related of relatedCategories) {
+      const relatedUrl = `${siteUrl}categories/${related.id}/`;
+      assert(relatedGuideHrefs.some((href) => new URL(href, canonical).href === relatedUrl), `${file} is missing related guide ${related.label}`);
+    }
+
+    for (const resource of PUBLIC_EVIDENCE_RESOURCES) {
+      assert(text.includes(resource.label), `${file} evidence link should describe ${resource.file} in Chinese`);
+      assert(hrefs.includes(`../../${resource.file}`), `${file} is missing evidence link ${resource.file}`);
+    }
+    for (const [attributeName, attribute, expected] of [
+      ["property", "og:image", `${siteUrl}social-preview.png`],
+      ["property", "og:image:type", "image/png"],
+      ["property", "og:image:width", "1730"],
+      ["property", "og:image:height", "909"],
+      ["property", "og:image:alt", `${SITE_NAME}：家電與比較表插圖`],
+      ["name", "twitter:image", `${siteUrl}social-preview.png`],
+      ["name", "twitter:image:type", "image/png"],
+      ["name", "twitter:image:width", "1730"],
+      ["name", "twitter:image:height", "909"],
+      ["name", "twitter:image:alt", `${SITE_NAME}：家電與比較表插圖`],
+    ]) {
+      assert(metaContent(markup, attributeName, attribute) === expected, `${file} ${attribute} mismatch`);
+    }
     for (const label of ["適合對象", "優點", "缺點", "推薦理由", "歷史最低價", "負評／災情查核"]) {
       assert(text.includes(label), `${file} recommended product summaries are missing ${label}`);
     }
@@ -333,9 +403,7 @@ function assertCategoryPageContracts(categories, products, meta) {
       assert(normalizedText.includes(String(product.price.amount)), `${file} is missing the source price for ${product.id}`);
     }
 
-    const homeFilterLink = elements(markup, "a")
-      .map((tag) => attributeValueOf(tag, "href"))
-      .filter(Boolean)
+    const homeFilterLink = hrefs
       .find((href) => {
         const url = new URL(href, canonical);
         return ["/", "/index.html"].includes(url.pathname) && url.searchParams.get("category") === category.id;
@@ -360,6 +428,8 @@ function assertCategoryPageContracts(categories, products, meta) {
     for (const forbiddenType of ["Offer", "Review", "AggregateRating"]) {
       assert(!documents.some((document) => treeContainsType(document, forbiddenType)), `${file} must not add unverifiable ${forbiddenType} structured data`);
     }
+    const collectionPage = nodes.find((node) => typeIncludes(node, "CollectionPage"));
+    assert(collectionPage?.name === expectedHeading, `${file} CollectionPage name should match visible H1`);
     assertSafePublicMarkup(markup, file);
 
     assert(!titles.has(title), `${file} title duplicates another category page`);
@@ -377,6 +447,16 @@ function assertCategoryPageContracts(categories, products, meta) {
 
 function assertHomepageGeoContract(categories) {
   const markup = read("index.html");
+  for (const marker of [
+    "geo-home-metadata:start",
+    "geo-home-metadata:end",
+    "geo-home-h1:start",
+    "geo-home-h1:end",
+    "geo-home-ai-disclosure:start",
+    "geo-home-ai-disclosure:end",
+  ]) {
+    assert(markup.split(`<!-- ${marker} -->`).length === 2, `index should contain exactly one ${marker} generated marker`);
+  }
   const text = visibleText(markup);
   for (const label of ["如何選", "如何查核", "資料限制", editorialTeam]) {
     assert(text.includes(label), `index visible trust content is missing ${label}`);
@@ -435,11 +515,12 @@ function assertDiscoveryFiles(categories, meta) {
     assert(entry.lastmod === meta.dataDate, `sitemap lastmod for ${entry.location} should be ${meta.dataDate}`);
   }
 
-  for (const phrase of ["家電推薦比較工作台", "查核方法", "資料限制", "補充", "不保證"]) {
+  for (const phrase of [SITE_NAME, HOME_H1, AI_DISCLOSURE, "查核方法", "資料限制", "補充", "不保證"]) {
     assert(llms.includes(phrase), `llms.txt should explain ${phrase}`);
   }
-  for (const file of expectedEvidenceFiles) {
-    assert(llms.includes(file), `llms.txt should identify evidence file ${file}`);
+  for (const resource of PUBLIC_EVIDENCE_RESOURCES) {
+    assert(llms.includes(resource.file), `llms.txt should identify evidence file ${resource.file}`);
+    assert(llms.includes(resource.label), `llms.txt should describe ${resource.file} with a human-readable label`);
   }
   for (const category of categories) {
     const url = `${siteUrl}categories/${category.id}/`;
@@ -537,6 +618,7 @@ async function main() {
   const meta = parseMeta();
   assert(categories.length === 25, `GEO contract expects 25 categories, got ${categories.length}`);
 
+  check("central GEO copy and evidence resource contract is complete", () => assertGeoConfigContract(categories, products));
   check("category guides and serializer escaping are complete", () => assertGuideAndEscapingContracts(categories));
   check("category generator detects committed-output drift", () => assertGeneratorDriftContract(categories));
   check("generated output is exactly 25 category pages", () => assertGeneratedPageSet(categories));

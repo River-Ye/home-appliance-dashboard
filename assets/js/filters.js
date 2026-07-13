@@ -44,13 +44,16 @@
   }
 
   function filteredProducts() {
-    const query = state.search.trim().toLowerCase();
+    const queryTokens = utils.searchTokens(state.search);
     return sortedProducts(products.filter((product) => {
       if (state.category !== "all" && product.category !== state.category) return false;
       if (state.brand !== "all" && product.brand !== state.brand) return false;
       if (state.budget !== "all" && product.budget !== state.budget) return false;
       if (state.channel !== "all" && product.channel !== state.channel) return false;
-      if (query && !utils.productText(product).includes(query)) return false;
+      if (queryTokens.length) {
+        const searchText = utils.productText(product);
+        if (!queryTokens.every((token) => searchText.includes(token))) return false;
+      }
       return true;
     }));
   }
@@ -75,7 +78,7 @@
     return Date.now() < lazyLoadingPausedUntil;
   }
 
-  function loadMoreProducts() {
+  function loadMoreProducts(options = {}) {
     if (isLazyLoadingPaused()) return;
     const matchedProducts = filteredProducts();
     if (!hasMoreProducts(matchedProducts)) return;
@@ -83,13 +86,18 @@
       matchedProducts.length,
       state.renderLimit + constants.loadMoreProductCount,
     );
-    dashboard.ui.render();
+    const manualFocusTarget = hasMoreProducts(matchedProducts)
+      ? "#loadMoreProducts"
+      : "#productListHeading";
+    dashboard.ui.render({
+      focusTarget: options.restoreFocus ? manualFocusTarget : null,
+    });
   }
 
   function loadAllProducts() {
     const matchedProducts = filteredProducts();
     state.renderLimit = matchedProducts.length;
-    dashboard.ui.render();
+    dashboard.ui.render({ focusTarget: "#productListHeading" });
   }
 
   function brandOptionsForCurrentCategory() {

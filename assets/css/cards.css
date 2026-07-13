@@ -40,9 +40,15 @@
 
 .image-wrap img {
   display: block;
+  width: 100%;
+  height: auto;
   max-width: 100%;
   max-height: var(--product-image-max-height);
   object-fit: contain;
+}
+
+.image-wrap img:not([src]) {
+  visibility: hidden;
 }
 
 .fallback-art {
@@ -252,6 +258,49 @@
   border-color: #15803d;
 }
 
+.issue-research--clear summary {
+  display: grid;
+  grid-template-columns: 28px minmax(0, 1fr) auto;
+  gap: 9px;
+  align-items: center;
+  min-height: 48px;
+  cursor: pointer;
+  list-style: none;
+}
+
+.issue-research--clear summary::-webkit-details-marker {
+  display: none;
+}
+
+.issue-research--clear summary > span:nth-child(2) {
+  display: grid;
+}
+
+.issue-research--clear summary b {
+  font-size: 12px;
+}
+
+.issue-research--clear summary strong {
+  font-size: 14px;
+}
+
+.issue-research--clear summary small {
+  white-space: nowrap;
+  font-size: 11px;
+}
+
+.issue-research--clear summary:focus-visible {
+  outline: 3px solid rgba(21, 128, 61, 0.25);
+  outline-offset: 3px;
+}
+
+.issue-research-details {
+  display: grid;
+  gap: 8px;
+  padding-top: 9px;
+  border-top: 1px solid rgba(21, 128, 61, 0.25);
+}
+
 .issue-research-heading {
   display: flex;
   gap: 9px;
@@ -322,6 +371,10 @@
 }
 
 .issue-source-links a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 24px;
+  padding: 2px 0;
   color: currentColor;
   font-weight: 850;
   text-decoration: underline;
@@ -479,6 +532,29 @@
   gap: 8px;
   margin-top: auto;
   padding: 0 14px 14px;
+}
+
+.empty-state--search {
+  display: grid;
+  gap: 8px;
+  justify-items: center;
+}
+
+.empty-state--search strong {
+  color: var(--ink);
+  font-size: 18px;
+}
+
+.empty-state--search p {
+  margin: 0;
+}
+
+.empty-state-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: center;
+  margin-top: 4px;
 }
 
 .buy-link,

@@ -14,6 +14,9 @@
     console.error(error);
     const grid = document.getElementById("productGrid");
     if (!grid) return;
+    document.getElementById("mainContent")?.setAttribute("aria-busy", "false");
+    const status = document.getElementById("dashboardStatus");
+    if (status) status.textContent = "商品資料載入失敗，請重新整理頁面或稍後再試。";
     grid.innerHTML = `
       <div class="empty-state">
         商品資料載入失敗，請重新整理頁面或稍後再試。${utils.escapeHtml(error.message || "")}
@@ -35,7 +38,9 @@
     });
 
     document.getElementById("resetFilters").addEventListener("click", ui.resetFilters);
-    document.getElementById("loadMoreProducts").addEventListener("click", filters.loadMoreProducts);
+    document.getElementById("loadMoreProducts").addEventListener("click", () => {
+      filters.loadMoreProducts({ restoreFocus: true });
+    });
     document.getElementById("loadAllProducts").addEventListener("click", filters.loadAllProducts);
     document.getElementById("scrollTopButton").addEventListener("click", ui.scrollToPageTop);
     document.getElementById("scrollBottomButton").addEventListener("click", ui.scrollToPageBottom);
@@ -73,15 +78,21 @@
     });
 
     document.getElementById("productGrid").addEventListener("click", (event) => {
+      if (event.target.closest("[data-clear-search]")) {
+        ui.clearFilter("search");
+        return;
+      }
+      if (event.target.closest("[data-reset-all]")) {
+        ui.resetFilters();
+        return;
+      }
       const button = event.target.closest("[data-compare]");
       if (!button) return;
       ui.toggleCompare(button.dataset.compare);
     });
 
-    document.getElementById("clearCompare").addEventListener("click", () => {
-      state.compare.clear();
-      ui.render();
-    });
+    document.getElementById("clearCompare").addEventListener("click", ui.clearCompare);
+    document.getElementById("clearCompareTray").addEventListener("click", ui.clearCompare);
 
     document.getElementById("compareTable").addEventListener("click", (event) => {
       const button = event.target.closest("[data-compare-remove]");
@@ -92,9 +103,17 @@
     window.addEventListener("scroll", ui.updateMobileDock, { passive: true });
   }
 
-  document.addEventListener("DOMContentLoaded", () => {
+  function loadDashboard() {
     productLoader.loadAll()
       .then(initializeApp)
       .catch(renderLoadFailure);
+  }
+
+  document.addEventListener("DOMContentLoaded", () => {
+    if ("requestIdleCallback" in window) {
+      window.requestIdleCallback(loadDashboard, { timeout: 500 });
+    } else {
+      window.setTimeout(loadDashboard, 0);
+    }
   });
 })();

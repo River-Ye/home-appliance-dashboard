@@ -19,6 +19,7 @@ const {
   assertMobileDockClearance,
   assertMobileFloatingControlsDoNotOverlap,
   assertAccessibleStructure,
+  assertOptimizationContracts,
   assertProjectSourceLink,
   assertManualAdPlacements,
   assertPremiumBadgeContrast,
@@ -178,6 +179,7 @@ async function runExhaustiveViewport(browser, name, viewport) {
   await assertIssueResearchCards(page, name);
   await assertProductDetailsDisclosure(page, name);
   await assertAccessibleStructure(page, name);
+  await assertOptimizationContracts(page, name, viewport);
   await assertProjectSourceLink(page, name);
   await assertManualAdPlacements(page, name);
   await assertPremiumBadgeContrast(page, name);
@@ -688,8 +690,29 @@ async function runDesktopJourney(browser) {
     await waitForVisibleCount(page, EXPECTED_PRODUCT_COUNT);
     await waitForProductCards(page, 12);
 
+    await page.locator("#searchInput").focus();
+    await page.locator("#lazySentinel").scrollIntoViewIfNeeded();
+    await page.waitForFunction(() => document.querySelectorAll(".product-card").length > 12);
+    if (!await page.locator("#searchInput").evaluate((node) => document.activeElement === node)) {
+      throw new Error(`${name}: automatic lazy loading moved keyboard focus`);
+    }
+    await page.evaluate(() => new Promise((resolve) => {
+      const previousScrollBehavior = document.documentElement.style.scrollBehavior;
+      document.documentElement.style.scrollBehavior = "auto";
+      document.scrollingElement.scrollTop = 0;
+      requestAnimationFrame(() => {
+        document.documentElement.style.scrollBehavior = previousScrollBehavior;
+        resolve();
+      });
+    }));
+    await page.waitForFunction(() => window.scrollY < 2);
+    await resetFilters(page);
+
     await page.getByRole("button", { name: "再載入 40 筆" }).click();
     await waitForProductCards(page, 52);
+    if (!await page.locator("#loadMoreProducts").evaluate((node) => document.activeElement === node)) {
+      throw new Error(`${name}: manual lazy loading did not restore button focus`);
+    }
     await page.getByRole("button", { name: "載入全部" }).click();
     await waitForProductCards(page, EXPECTED_PRODUCT_COUNT);
     if (await page.locator("#loadAllProducts").isVisible()) {
@@ -701,9 +724,19 @@ async function runDesktopJourney(browser) {
 
     await page.fill("#searchInput", "不存在的商品關鍵字");
     await page.waitForFunction(() => document.querySelector("#visibleCount")?.textContent?.trim() === "0");
-    await page.fill("#searchInput", "");
+    const emptyState = page.locator("#productGrid .empty-state");
+    if (!await emptyState.getByText("不存在的商品關鍵字", { exact: false }).count()) {
+      throw new Error(`${name}: empty state does not echo the search query`);
+    }
+    if (!await emptyState.getByRole("button", { name: "清除搜尋" }).count()) {
+      throw new Error(`${name}: empty state is missing clear-search action`);
+    }
+    await emptyState.getByRole("button", { name: "重設全部條件" }).click();
     await waitForVisibleCount(page, EXPECTED_PRODUCT_COUNT);
     await waitForProductCards(page, 12);
+    if (!await page.locator("#resetFilters").evaluate((node) => document.activeElement === node)) {
+      throw new Error(`${name}: zero-result reset did not restore visible desktop focus`);
+    }
 
     await selectComboboxOption(page, "#categoryInput", '#categoryOptions [data-value="smartlock"]', "電子");
     await page.waitForFunction(() => document.querySelector("#visibleCount")?.textContent?.trim() === "48");
@@ -736,6 +769,12 @@ async function runDesktopJourney(browser) {
 
     await page.getByRole("button", { name: "Soundbar 25" }).click();
     await page.waitForFunction(() => document.querySelector("#visibleCount")?.textContent?.trim() === "25");
+    await page.getByRole("button", { name: "再載入 40 筆" }).click();
+    await waitForProductCards(page, 25);
+    if (await page.locator("#loadMoreProducts").isVisible()) {
+      throw new Error(`${name}: final manual batch should hide the load-more button`);
+    }
+    await page.waitForFunction(() => document.activeElement === document.querySelector("#productListHeading"));
     await page.locator("#brandInput").click();
     const soundbarBrandOptions = await page.$$eval("#brandOptions [data-value]", (options) => options.map((option) => option.dataset.value));
     if (!soundbarBrandOptions.includes("Marshall")) throw new Error(`${name}: soundbar brands missing Marshall`);
@@ -751,6 +790,10 @@ async function runDesktopJourney(browser) {
     await marshallCompareButton.scrollIntoViewIfNeeded();
     await marshallCompareButton.click();
     await page.waitForFunction(() => document.querySelector("#compareCount")?.textContent?.trim() === "1");
+    if (!await page.locator(".compare-button").first().evaluate((node) => document.activeElement === node)) {
+      throw new Error(`${name}: compare action lost keyboard focus after render`);
+    }
+    if (!await page.locator("#compareTray").isVisible()) throw new Error(`${name}: desktop compare tray is not visible`);
     if (!await page.locator(".product-card details.card-details").first().evaluate((node) => node.open)) {
       throw new Error(`${name}: product details closed after compare render`);
     }
@@ -764,8 +807,11 @@ async function runDesktopJourney(browser) {
     await assertHistoricalLowCompareLayout(page, name);
     await assertSingleCompareFitsViewport(page, name);
     await assertCompareRowHeaders(page, name);
+    await page.fill("#searchInput", "不存在的比較商品");
+    await page.waitForFunction(() => document.querySelector("#visibleCount")?.textContent?.trim() === "0");
     await page.locator("[data-compare-remove]").first().click();
     await page.waitForFunction(() => document.querySelector("#compareCount")?.textContent?.trim() === "0");
+    await page.waitForFunction(() => document.activeElement === document.querySelector("#comparePanel h2"));
     await resetFilters(page);
 
     await page.locator("#topPicks [data-focus-product]").nth(14).focus();
@@ -774,6 +820,8 @@ async function runDesktopJourney(browser) {
     await page.waitForFunction(() => document.querySelector(".product-card.is-targeted"));
     const targetedCardVisible = await page.locator(".product-card.is-targeted").isVisible();
     if (!targetedCardVisible) throw new Error(`${name}: top pick target card is not visible`);
+    const targetedHeadingFocused = await page.locator(".product-card.is-targeted h3").evaluate((node) => document.activeElement === node);
+    if (!targetedHeadingFocused) throw new Error(`${name}: top pick target heading did not receive focus`);
 
     await page.getByLabel("滑動到最下面").click();
     await page.waitForFunction(() => window.scrollY > 200);
@@ -793,6 +841,13 @@ async function runMobileJourney(browser) {
   const page = await openDashboardPage(browser, name, { width: 390, height: 844 });
   try {
     const filterToggle = page.getByRole("button", { name: /^篩選/ });
+    await page.fill("#searchInput", "不存在的行動版商品");
+    await page.waitForFunction(() => document.querySelector("#visibleCount")?.textContent?.trim() === "0");
+    await page.getByRole("button", { name: "重設全部條件" }).click();
+    await waitForVisibleCount(page, EXPECTED_PRODUCT_COUNT);
+    if (!await filterToggle.evaluate((node) => document.activeElement === node)) {
+      throw new Error(`${name}: zero-result reset did not restore visible mobile focus`);
+    }
     await filterToggle.click();
     let expanded = await filterToggle.getAttribute("aria-expanded");
     if (expanded !== "true") throw new Error(`${name}: mobile filter did not expand`);
@@ -811,8 +866,15 @@ async function runMobileJourney(browser) {
     await page.waitForFunction(() => document.querySelector("#advancedFilters")?.hidden);
     const collapsedFilterCount = Number(await page.locator("#activeFilterCount").innerText());
     if (collapsedFilterCount < 2) throw new Error(`${name}: collapsed filter count did not reflect active chips`);
+    await page.locator('#activeFilterChips [data-clear-filter="brand"]').click();
+    await page.waitForFunction(() => document.querySelector("#visibleCount")?.textContent?.trim() === "25");
+    if (!await filterToggle.evaluate((node) => document.activeElement === node)) {
+      throw new Error(`${name}: clearing a collapsed mobile filter focused a hidden control`);
+    }
     await filterToggle.click();
     await page.waitForFunction(() => document.querySelector("#advancedFilters") && !document.querySelector("#advancedFilters").hidden);
+    await selectComboboxOption(page, "#brandInput", '#brandOptions [data-value="Marshall"]', "Marshall");
+    await page.waitForFunction(() => document.querySelector("#visibleCount")?.textContent?.trim() === "2");
     const compareButton = page.locator(".compare-button").first();
     await compareButton.scrollIntoViewIfNeeded();
     await compareButton.click();

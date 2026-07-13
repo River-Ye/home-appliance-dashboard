@@ -20,7 +20,8 @@ Use a dedicated git worktree and short-lived `codex/` branch for repo changes un
 
 - The site has exactly 25 generated static category guides at `/categories/<id>/`; do not create one thin page per product or add tracking for GEO work.
 - Maintain category-level intros, three buying criteria, and three FAQs in `tools/category-guides.js`. Product facts continue to come from `assets/js/config.js` and `products/*.js`.
-- After any product, category, or guide change, run `npm run generate:categories`, then `npm run check:geo`. Do not hand-edit `categories/<id>/index.html`, `sitemap.xml`, `llms.txt`, or the generated GEO blocks in `index.html`.
+- Keep the shared site name, homepage title, description, H1, and visible AI disclosure in `tools/geo-config.js`; metadata, JSON-LD, generated guides, and `llms.txt` must use the same contract.
+- After any product, category, guide, or homepage CSS source change, run `npm run generate:categories`, then `npm run check:geo`. Do not hand-edit `assets/css/app.css`, `categories/<id>/index.html`, `sitemap.xml`, `llms.txt`, or the generated GEO blocks in `index.html`.
 - Treat `llms.txt` as supplemental discovery context only; it does not guarantee indexing, ranking, or AI citation.
 - Keep all six evidence files in the Pages artifact: `release_date_research.json`, `historical_price_research.json`, `dimension_research.json`, `product_issue_research.json`, `product_issue_report_evidence.json`, and `product_issue_review_manifest.json`.
 - IndexNow runs only after a successful Pages deployment and is non-blocking. Always inspect its workflow log and report failures accurately.
@@ -29,6 +30,7 @@ Use a dedicated git worktree and short-lived `codex/` branch for repo changes un
 
 - Preserve `products/*.js` as the product data boundary and keep `registerProducts(categoryId, items)` compatible.
 - Keep `assets/js/config.js` `meta`, `tools/dashboard-contract.js`, README, AGENTS, and visible page dates/counts in sync.
+- Keep the browser-throttled mobile Lighthouse budgets enforced by `npm run check:quality`: Performance ≥ 90, LCP ≤ 2.5s, CLS ≤ 0.1, TBT ≤ 200ms, Accessibility = 100, and SEO ≥ 95.
 - Do not delete products from weak signals such as one stale image URL, one transient page error, or PChome `Qty: 0`.
 - Do not rewrite the app into a framework or add a build pipeline unless the user explicitly asks for that architectural change.
 - 只允許本次核准的 Google AdSense 手動廣告與 Google CMP；保留兩個 responsive manual slots 與正式 hostname gate；`https://appliance.riverye.com/` 必須維持 AdSense 全站 Auto ads page exclusion，不得擴充為其他追蹤。

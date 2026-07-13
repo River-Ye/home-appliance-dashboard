@@ -37,6 +37,56 @@
   font-size: 12px;
 }
 
+.compare-table thead th {
+  color: var(--primary-dark);
+  background: #edf4f7;
+  font-size: 13px;
+}
+
+.compare-tray {
+  position: fixed;
+  right: 50%;
+  bottom: 18px;
+  z-index: 10;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  padding: 10px 12px 10px 16px;
+  color: #fff;
+  background: rgba(18, 59, 90, 0.97);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 999px;
+  box-shadow: 0 18px 45px rgba(18, 59, 90, 0.28);
+  transform: translateX(50%);
+  backdrop-filter: blur(14px);
+}
+
+.compare-tray[hidden] {
+  display: none;
+}
+
+.compare-tray a,
+.compare-tray button {
+  display: inline-flex;
+  align-items: center;
+  min-height: 36px;
+  padding: 7px 12px;
+  color: var(--primary-dark);
+  text-decoration: none;
+  background: #fff;
+  border: 0;
+  border-radius: 999px;
+  cursor: pointer;
+  font: inherit;
+  font-weight: 800;
+}
+
+.compare-tray button {
+  color: #fff;
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.42);
+}
+
 .compare-remove-button {
   min-height: 34px;
   padding: 6px 10px;

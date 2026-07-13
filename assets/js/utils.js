@@ -38,7 +38,21 @@
   }
 
   function normalizeText(value) {
-    return String(value || "").trim().toLowerCase();
+    return String(value || "")
+      .normalize("NFKC")
+      .toLowerCase()
+      .replace(/\bwi[\s\p{P}\p{S}]*fi\b/gu, "wifi")
+      .replace(/(\d+(?:\.\d+)?)\s+(cm|mm|kg|hz|mah|wh|tb|gb|w|v|l|g)\b/gu, "$1$2")
+      .replace(/(\d+(?:\.\d+)?)\s+(吋|公分|公斤|公升|克)/gu, "$1$2")
+      .replace(/(\d)\.(?=\d)/g, "$1\uE000")
+      .replace(/[\p{P}\p{S}]+/gu, " ")
+      .replaceAll("\uE000", ".")
+      .trim()
+      .replace(/\s+/g, " ");
+  }
+
+  function searchTokens(value) {
+    return normalizeText(value).split(" ").filter(Boolean);
   }
 
   function escapeHtml(value) {
@@ -77,7 +91,12 @@
   }
 
   function productText(product) {
-    return [
+    const category = dashboard.categoryById.get(product.category) || {};
+    return normalizeText([
+      category.label,
+      category.group,
+      budgetLabel(product.budget),
+      channelLabel(product.channel),
       product.brand,
       product.model,
       product.name,
@@ -88,10 +107,11 @@
       product.historicalLow?.status,
       product.historicalLow?.sourceTitle,
       product.historicalLow?.note,
+      product.buyLabel,
       issueResearchText(product),
       (product.specs || []).join(" "),
       (product.tags || []).join(" "),
-    ].join(" ").toLowerCase();
+    ].join(" "));
   }
 
   dashboard.utils = {
@@ -101,6 +121,7 @@
     budgetLabel,
     channelLabel,
     normalizeText,
+    searchTokens,
     escapeHtml,
     safeHttpUrl,
     issueResearchText,

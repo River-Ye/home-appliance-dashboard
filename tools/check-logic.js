@@ -397,6 +397,10 @@ async function main() {
   assert(!smartLockBrands.includes("ASUS"), "smart lock brands should not include router brands");
   dashboard.state.category = "all";
 
+  assert(
+    utils.normalizeText("  Ｗｉ－Ｆｉ， ６５ 吋 ／ 2.5 cm  ") === "wifi 65吋 2.5cm",
+    "search normalization should fold width and case, remove punctuation, collapse whitespace, and join common units",
+  );
   assert(utils.escapeHtml(`<a href="x">O'Reilly & Co</a>`) === "&lt;a href=&quot;x&quot;&gt;O&#039;Reilly &amp; Co&lt;/a&gt;", "escapeHtml should escape dangerous characters");
 
   const foundLowProduct = products.find((product) => product.historicalLow?.status === "found");
@@ -499,6 +503,66 @@ async function main() {
     assert(
       filters.filteredProducts().some((product) => product.id === commonIssueProduct.id),
       "search should include issue research summaries",
+    );
+  } finally {
+    products.pop();
+    dashboard.state.search = "";
+  }
+
+  const multiTokenSearchProduct = {
+    ...commonIssueProduct,
+    id: "test-multi-token-search-product",
+    brand: "SearchBrand",
+    model: "UnitModel",
+    name: "Wi-Fi 7 測試機",
+  };
+  products.push(multiTokenSearchProduct);
+  try {
+    dashboard.state.search = "WIFI unitmodel liquidcrystalissue2026";
+    assert(
+      filters.filteredProducts().some((product) => product.id === multiTokenSearchProduct.id),
+      "search should require every normalized token while allowing tokens to match across product fields and issue summaries",
+    );
+    dashboard.state.search = "wifi unitmodel missing-token";
+    assert(
+      !filters.filteredProducts().some((product) => product.id === multiTokenSearchProduct.id),
+      "search should reject a product when any query token is missing",
+    );
+  } finally {
+    products.pop();
+    dashboard.state.search = "";
+  }
+
+  const labeledSearchProduct = {
+    ...products[0],
+    id: "test-labeled-search-product",
+    category: "wifi",
+    budget: "value",
+    channel: "global",
+  };
+  products.push(labeledSearchProduct);
+  try {
+    dashboard.state.search = "工作網路 無線路由器 CP 值 海外通路";
+    assert(
+      filters.filteredProducts().some((product) => product.id === labeledSearchProduct.id),
+      "search corpus should include category labels and groups plus budget and channel labels",
+    );
+  } finally {
+    products.pop();
+    dashboard.state.search = "";
+  }
+
+  const retailerSearchProduct = {
+    ...products[0],
+    id: "test-retailer-search-product",
+    buyLabel: "PChome 24h 購物",
+  };
+  products.push(retailerSearchProduct);
+  try {
+    dashboard.state.search = "PChome 24h";
+    assert(
+      filters.filteredProducts().some((product) => product.id === retailerSearchProduct.id),
+      "search corpus should include the actual retailer name from buyLabel",
     );
   } finally {
     products.pop();

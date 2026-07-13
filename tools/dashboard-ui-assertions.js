@@ -13,7 +13,7 @@ async function waitForImages(page) {
         && rect.top <= window.innerHeight
         && rect.left <= window.innerWidth;
     });
-    return images.length > 0 && images.every((image) => image.complete);
+    return images.length === 0 || images.every((image) => image.complete);
   }, { timeout: 3000 });
 }
 
@@ -444,12 +444,99 @@ async function assertAccessibleStructure(page, name) {
   });
 
   if (result.h1Count !== 1) throw new Error(`${name}: expected one h1, got ${result.h1Count}`);
-  for (const expected of ["每類推薦", "商品列表", "比較清單"]) {
+  for (const expected of ["每類快速推薦", "商品列表", "比較清單"]) {
     if (!result.h2Texts.includes(expected)) throw new Error(`${name}: missing h2 ${expected}`);
   }
   if (result.jumps.length) throw new Error(`${name}: heading hierarchy jumps ${JSON.stringify(result.jumps.slice(0, 5))}`);
   if (result.placeholdersWithoutEllipsis.length) {
     throw new Error(`${name}: placeholders missing ellipsis ${JSON.stringify(result.placeholdersWithoutEllipsis)}`);
+  }
+}
+
+async function assertOptimizationContracts(page, name, viewport) {
+  const result = await page.evaluate(() => {
+    const badge = document.querySelector(".ai-disclosure-badge");
+    const badgeRect = badge?.getBoundingClientRect();
+    const badgeDocumentTop = badgeRect ? badgeRect.top + window.scrollY : null;
+    const badgeDocumentBottom = badgeRect ? badgeRect.bottom + window.scrollY : null;
+    const method = document.querySelector("#researchMethod");
+    const results = document.querySelector(".result-toolbar");
+    const clearIssue = document.querySelector('[data-issue-status="no_common_issue"]');
+    const status = document.querySelector("#dashboardStatus");
+    return {
+      h1: document.querySelector("h1")?.textContent?.trim() || "",
+      badgeText: badge?.textContent?.trim() || "",
+      badgeAboveFold: Boolean(
+        badgeRect
+        && badgeDocumentTop >= 0
+        && badgeDocumentBottom <= window.innerHeight
+      ),
+      disclosure: document.querySelector(".ai-disclosure")?.textContent?.replace(/\s+/g, " ").trim() || "",
+      methodBeforeResults: Boolean(method && results && (method.compareDocumentPosition(results) & Node.DOCUMENT_POSITION_FOLLOWING)),
+      methodLinkCount: document.querySelectorAll('a[href="#researchMethod"]').length,
+      githubHeroLinkCount: document.querySelectorAll('.topbar a[href="https://github.com/River-Ye/home-appliance-dashboard"]').length,
+      topPickImageCount: document.querySelectorAll("#topPicks img").length,
+      clearIssueTag: clearIssue?.tagName || "",
+      clearIssueOpen: clearIssue?.hasAttribute("open") || false,
+      mainBusy: document.querySelector("#mainContent")?.getAttribute("aria-busy"),
+      statusRole: status?.getAttribute("role") || "",
+      statusLive: status?.getAttribute("aria-live") || "",
+    };
+  });
+
+  if (result.h1 !== "家電推薦與價格比較工作台") throw new Error(`${name}: homepage H1 mismatch ${JSON.stringify(result.h1)}`);
+  if (!result.badgeText.includes("AI 協作製作") || !result.badgeAboveFold) {
+    throw new Error(`${name}: AI disclosure badge is not visible above the fold ${JSON.stringify(result)}`);
+  }
+  for (const phrase of ["AI 協助研究、整理與製作", "依公開規則查核", "仍可能有錯漏"]) {
+    if (!result.disclosure.includes(phrase)) throw new Error(`${name}: AI disclosure missing ${phrase}`);
+  }
+  if (!result.methodBeforeResults || result.methodLinkCount < 1 || result.githubHeroLinkCount !== 1) {
+    throw new Error(`${name}: trust links or stable method placement mismatch ${JSON.stringify(result)}`);
+  }
+  if (result.topPickImageCount !== 0) throw new Error(`${name}: top picks should not download product images`);
+  if (result.clearIssueTag !== "DETAILS" || result.clearIssueOpen) {
+    throw new Error(`${name}: no-common-issue summary should be collapsed details ${JSON.stringify(result)}`);
+  }
+  if (result.mainBusy !== "false" || result.statusRole !== "status" || result.statusLive !== "polite") {
+    throw new Error(`${name}: loading/live-status contract mismatch ${JSON.stringify(result)}`);
+  }
+
+  if (viewport.width <= 620) {
+    await page.evaluate(() => new Promise((resolve) => {
+      const previousScrollBehavior = document.documentElement.style.scrollBehavior;
+      document.documentElement.style.scrollBehavior = "auto";
+      document.scrollingElement.scrollTop = 0;
+      requestAnimationFrame(() => requestAnimationFrame(() => {
+        window.applianceDashboard?.ui?.updateMobileDock?.();
+        document.documentElement.style.scrollBehavior = previousScrollBehavior;
+        resolve();
+      }));
+    }));
+    const hiddenControls = await page.evaluate(() => ({
+      scrollY: Math.round(window.scrollY),
+      toolbarTop: Math.round(document.querySelector(".result-toolbar")?.getBoundingClientRect().top || 0),
+      dockHidden: document.querySelector(".mobile-dock")?.hidden,
+      dockInert: document.querySelector(".mobile-dock")?.inert,
+      jumpHidden: document.querySelector(".page-jump")?.hidden,
+      jumpInert: document.querySelector(".page-jump")?.inert,
+    }));
+    if (!hiddenControls.dockHidden || !hiddenControls.dockInert || !hiddenControls.jumpHidden || !hiddenControls.jumpInert) {
+      throw new Error(`${name}: hidden mobile controls remain exposed ${JSON.stringify(hiddenControls)}`);
+    }
+
+    const evidenceDetails = page.locator(".homepage-evidence");
+    await evidenceDetails.locator("summary").click();
+    const undersizedSourceLinks = await page.evaluate(() => [...document.querySelectorAll(
+      ".price-insight a, .homepage-evidence a",
+    )]
+      .filter((link) => link.getClientRects().length > 0)
+      .map((link) => ({ text: link.textContent.trim(), height: link.getBoundingClientRect().height }))
+      .filter((link) => link.height < 43));
+    if (undersizedSourceLinks.length) {
+      throw new Error(`${name}: source links have undersized touch targets ${JSON.stringify(undersizedSourceLinks.slice(0, 5))}`);
+    }
+    await evidenceDetails.locator("summary").click();
   }
 }
 
@@ -585,8 +672,13 @@ async function assertPremiumBadgeContrast(page, name) {
 }
 
 async function assertCompareRowHeaders(page, name) {
-  const invalidHeaders = await page.locator('#compareTable th:not([scope="row"])').count();
-  if (invalidHeaders) throw new Error(`${name}: ${invalidHeaders} compare row headers missing scope=row`);
+  const rowHeaders = await page.locator('#compareTable tbody th[scope="row"]').count();
+  const invalidRowHeaders = await page.locator('#compareTable tbody th:not([scope="row"])').count();
+  const columnHeaders = await page.locator('#compareTable thead th[scope="col"]').count();
+  if (!rowHeaders || invalidRowHeaders) {
+    throw new Error(`${name}: compare row headers are incomplete`);
+  }
+  if (columnHeaders < 2) throw new Error(`${name}: compare table is missing product column headers`);
 }
 
 
@@ -627,6 +719,7 @@ module.exports = {
   assertMobileDockClearance,
   assertMobileFloatingControlsDoNotOverlap,
   assertAccessibleStructure,
+  assertOptimizationContracts,
   assertProjectSourceLink,
   assertManualAdPlacements,
   assertPremiumBadgeContrast,

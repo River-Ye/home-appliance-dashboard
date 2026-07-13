@@ -2,6 +2,11 @@
   display: none;
 }
 
+.mobile-dock[hidden],
+.page-jump[hidden] {
+  display: none;
+}
+
 .skip-link {
   position: fixed;
   left: 12px;

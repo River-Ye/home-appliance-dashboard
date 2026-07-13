@@ -22,6 +22,7 @@
 - `assets/css/navigation.css`：手機 dock、快速跳轉與目標高亮動畫樣式。
 - `assets/css/responsive.css`：reduced-motion、平板與手機版 RWD。
 - `assets/css/editorial.css`：分類選購指南頁與首頁查核／分類入口區塊樣式。
+- `assets/css/app.css`：由上述首頁 CSS 來源合併產生的效能 bundle，屬產生結果，不可手動修改。
 - `assets/js/config.js`：分類、匯率、meta、常數、全域 registry 與 state 初始化。
 - `assets/js/utils.js`：格式化、HTML escape、搜尋文字整理與標籤轉換。
 - `assets/js/filters.js`：搜尋、篩選、排序、品牌選項與 lazy loading 計算。
@@ -33,7 +34,8 @@
 - `assets/js/main.js`：DOMContentLoaded、商品載入、事件綁定與初始 render。
 - `products/*.js`：每個商品分類一個檔案，只放該分類商品資料，透過 `globalThis.applianceDashboard.registerProducts(categoryId, items)` 註冊。
 - `tools/category-guides.js`：25 類導讀、選購條件與 FAQ 的人工維護來源，不放即時商品事實。
-- `tools/generate-category-pages.js`：依分類、商品與指南產生 `categories/<id>/index.html`、`sitemap.xml`、`llms.txt` 與首頁 GEO 區塊。
+- `tools/geo-config.js`：站名、首頁 title、description、H1、AI 揭露與 GEO 共用文案契約。
+- `tools/generate-category-pages.js`：依分類、商品、指南與 CSS 來源產生 `assets/css/app.css`、`categories/<id>/index.html`、`sitemap.xml`、`llms.txt` 與首頁 GEO 區塊。
 - `categories/<id>/index.html`：25 個可直接閱讀與索引的靜態分類指南頁，屬產生結果。
 - `tools/dashboard-contract.js`：商品數、分類數、必要欄位與資料品質規則常數。
 - `tools/*.js`：repo 內維護檢查工具，可用 `npm run check` 執行。
@@ -52,7 +54,7 @@
 
 分類商品 script 由 `assets/js/product-loader.js` 依 `categories` 自動載入；新增分類時不要再手動把 `products/<category>.js` 加進 `index.html`。
 
-`categories/<id>/index.html`、`sitemap.xml`、`llms.txt`，以及 `index.html` 內 `geo-structured-data`／`geo-category-links` marker 之間的內容皆由產生器維護，不可手動修改；`npm run check:geo` 會拒絕缺漏、額外分類目錄或產物漂移。
+`assets/css/app.css`、`categories/<id>/index.html`、`sitemap.xml`、`llms.txt`，以及 `index.html` 內 `geo-structured-data`／`geo-category-links` marker 之間的內容皆由產生器維護，不可手動修改；`npm run check:geo` 會拒絕缺漏、額外分類目錄或產物漂移。
 
 ## Repo-local Skill
 
@@ -64,6 +66,7 @@
 
 - 網站由現有 25 類資料產生 25 個 `/categories/<id>/` 靜態分類指南頁；不建立 661 個重複商品事實的薄內容頁。
 - `tools/category-guides.js` 只維護分類層級的繁中導讀、3 項選購條件與 3 組 FAQ；商品名稱、價格、排名、規格、史低與負評仍從既有商品資料產生，避免第二套事實來源。
+- 站名、首頁 title、description、H1 與 AI 揭露集中在 `tools/geo-config.js`；首頁 metadata、JSON-LD、分類頁與 `llms.txt` 必須共用此契約。首頁與分類頁首屏皆需可見 AI 協作、資料日期、查核方法與 GitHub 原始碼。
 - 修改 `assets/js/config.js` 的分類、`products/*.js` 商品或 `tools/category-guides.js` 後，必須執行 `npm run generate:categories`，再以 `npm run check:geo` 驗證產物與 contract。
 - `llms.txt` 是提供網站用途、查核方法、資料限制與分類入口的補充說明，不是正式排名標準，也不保證搜尋引擎或 AI 服務收錄、排名或引用。
 - Pages 必須公開六份證據 JSON：`release_date_research.json`、`historical_price_research.json`、`dimension_research.json`、`product_issue_research.json`、`product_issue_report_evidence.json`、`product_issue_review_manifest.json`。
@@ -295,6 +298,7 @@
 - `npm run check:docs`：README、AGENTS、index/config 的商品數、分類數、日期與 cache version 不漂移。
 - `npm run check:geo`：25 個分類頁、metadata、結構化資料、首頁分類入口、sitemap、llms、六份公開證據檔、Pages artifact、IndexNow contract 與產生結果均無漂移。
 - `npm run check:ui`：桌機與手機版主要互動流程通過。
+- `npm run check:quality`：以 Lighthouse 瀏覽器套用行動網路／CPU throttling；首頁 Performance ≥ 90、LCP ≤ 2.5s、CLS ≤ 0.1、TBT ≤ 200ms、Accessibility = 100、SEO ≥ 95；代表分類頁 Performance、Accessibility、SEO 均 ≥ 95。
 - 商品總數仍符合 README 與分類 tab 顯示。
 - 每筆商品必要欄位齊全。
 - 每筆商品皆有負評／災情查核；`product_issue_review_manifest.json` 覆蓋完整商品清單，成立警示符合 6 位獨立使用者與 2 個原始平台，且 `product_issue_research.json` 的逐人證據與商品資料逐筆對齊。

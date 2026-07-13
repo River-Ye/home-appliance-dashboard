@@ -11,6 +11,19 @@
     templates,
     utils,
   } = dashboard;
+  let productImageObserver = null;
+
+  function announce(message) {
+    const status = document.getElementById("dashboardStatus");
+    if (status) status.textContent = message;
+  }
+
+  function focusAfterRender(selector) {
+    if (!selector) return;
+    window.requestAnimationFrame(() => {
+      document.querySelector(selector)?.focus({ preventScroll: true });
+    });
+  }
 
   function renderMeta() {
     const dataDate = document.getElementById("dataDate");
@@ -32,6 +45,8 @@
       return `${groupLabel}<button class="tab-button ${state.category === category.id ? "active" : ""}" type="button" data-category="${category.id}" aria-pressed="${state.category === category.id}">${utils.escapeHtml(category.label)} ${count}</button>`;
     }).join("");
     tabs.innerHTML = allButton + groupedButtons;
+    tabs.classList.remove("is-loading");
+    tabs.setAttribute("aria-busy", "false");
   }
 
   function renderStats(visible) {
@@ -42,6 +57,7 @@
     document.getElementById("mobileVisibleCount").textContent = visible.length;
     document.getElementById("mobileCompareCount").textContent = state.compare.size;
     document.getElementById("mobileCompareLink").classList.toggle("active", state.compare.size > 0);
+    document.getElementById("compareTrayCount").textContent = state.compare.size;
   }
 
   function activeFilterItems() {
@@ -61,7 +77,7 @@
       const labelPrefix = {
         category: "分類",
         brand: "品牌",
-        budget: "預算",
+        budget: "選購定位",
         channel: "通路",
         sort: "排序",
       }[name];
@@ -130,15 +146,62 @@
     const container = document.getElementById("topPicks");
     if (!picks.length) {
       container.innerHTML = "";
+      container.classList.remove("is-loading");
+      container.setAttribute("aria-busy", "false");
       return;
     }
     container.innerHTML = picks.map(templates.topPickMarkup).join("");
+    container.classList.remove("is-loading");
+    container.setAttribute("aria-busy", "false");
+  }
+
+  function initializeProductImages() {
+    const images = [...document.querySelectorAll("img.product-image[data-src]")];
+    if (!images.length) return;
+
+    const loadImage = (image) => {
+      if (!image.dataset.src) return;
+      image.src = image.dataset.src;
+      image.removeAttribute("data-src");
+    };
+
+    if (!("IntersectionObserver" in window)) {
+      images.forEach(loadImage);
+      return;
+    }
+
+    if (!productImageObserver) {
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+          if (!entry.isIntersecting) return;
+          loadImage(entry.target);
+          observer.unobserve(entry.target);
+        });
+      }, { rootMargin: "80px 0px", threshold: 0.01 });
+      productImageObserver = observer;
+    }
+    images.forEach((image) => productImageObserver.observe(image));
+  }
+
+  function resetProductImageObserver() {
+    productImageObserver?.disconnect();
+    productImageObserver = null;
   }
 
   function renderProducts(visible) {
     const grid = document.getElementById("productGrid");
+    resetProductImageObserver();
     if (!visible.length) {
-      grid.innerHTML = `<div class="empty-state">沒有符合目前篩選條件的產品。</div>`;
+      const query = state.search.trim();
+      grid.innerHTML = `
+        <div class="empty-state empty-state--search">
+          <strong>${query ? `找不到「${utils.escapeHtml(query)}」` : "沒有符合目前條件的商品"}</strong>
+          <p>請減少關鍵字，或清除目前的搜尋與篩選條件。</p>
+          <div class="empty-state-actions">
+            ${query ? '<button type="button" class="ghost-button" data-clear-search>清除搜尋</button>' : ""}
+            <button type="button" class="ghost-button" data-reset-all>重設全部條件</button>
+          </div>
+        </div>`;
       return;
     }
     const expandedProductIds = new Set([...grid.querySelectorAll("details.card-details[open]")]
@@ -151,11 +214,15 @@
       const details = card?.querySelector("details.card-details");
       if (details) details.open = true;
     });
+    initializeProductImages();
   }
 
   function renderCompare() {
     const selected = products.filter((product) => state.compare.has(product.id));
     const wrap = document.getElementById("compareTable");
+    const tray = document.getElementById("compareTray");
+    const showDesktopTray = selected.length > 0 && !isMobileFilterLayout();
+    tray.hidden = !showDesktopTray;
     document.getElementById("clearCompare").disabled = selected.length === 0;
     if (!selected.length) {
       wrap.innerHTML = `<div class="empty-state">點選產品卡片的「加入比較」後，這裡會出現橫向比較表。</div>`;
@@ -204,16 +271,25 @@
     updateFilterDisclosure();
     updateMobileDock();
     dashboard.combobox.syncComboClears();
+    document.getElementById("mainContent").setAttribute("aria-busy", "false");
+    announce(visible.length
+      ? `找到 ${visible.length} 款商品，目前顯示 ${cards.length} 款。`
+      : "目前沒有符合條件的商品。");
     if (options.syncUrl && dashboard.urlState) {
       dashboard.urlState.syncToQuery();
     }
+    focusAfterRender(options.focusTarget);
   }
 
   function setCategory(category) {
     state.category = category;
     filters.ensureSelectedBrandIsAvailable();
     dashboard.combobox.syncControls(true);
-    render({ resetProducts: true, syncUrl: true });
+    render({
+      resetProducts: true,
+      syncUrl: true,
+      focusTarget: `[data-category="${CSS.escape(category)}"]`,
+    });
   }
 
   function resetFilters() {
@@ -225,7 +301,10 @@
     state.search = "";
     dashboard.combobox.syncControls(true);
     dashboard.combobox.closeAllCombos();
-    render({ resetProducts: true, syncUrl: true });
+    const focusTarget = isMobileFilterLayout() && !state.mobileFiltersOpen
+      ? "#filterToggle"
+      : "#resetFilters";
+    render({ resetProducts: true, syncUrl: true, focusTarget });
   }
 
   function clearFilter(name) {
@@ -239,7 +318,12 @@
     filters.ensureSelectedBrandIsAvailable();
     dashboard.combobox.syncControls(true);
     dashboard.combobox.closeAllCombos();
-    render({ resetProducts: true, syncUrl: true });
+    const focusTarget = name === "search"
+      ? "#searchInput"
+      : (isMobileFilterLayout() && !state.mobileFiltersOpen
+        ? "#filterToggle"
+        : `#${CSS.escape(name)}Input`);
+    render({ resetProducts: true, syncUrl: true, focusTarget });
   }
 
   function setMobileFiltersOpen(open) {
@@ -250,9 +334,23 @@
 
   function updateMobileDock() {
     const resultToolbar = document.querySelector(".result-toolbar");
+    const mobileDock = document.querySelector(".mobile-dock");
+    const pageJump = document.querySelector(".page-jump");
+    const compareTray = document.getElementById("compareTray");
     const isCompactViewport = window.matchMedia("(max-width: 620px)").matches;
     const toolbarReachedSafeTop = resultToolbar?.getBoundingClientRect().top <= 96;
-    document.body.classList.toggle("show-mobile-dock", Boolean(isCompactViewport && toolbarReachedSafeTop));
+    const mobileControlsVisible = Boolean(isCompactViewport && toolbarReachedSafeTop);
+    document.body.classList.toggle("show-mobile-dock", mobileControlsVisible);
+
+    mobileDock.hidden = !mobileControlsVisible;
+    mobileDock.inert = !mobileControlsVisible;
+    mobileDock.setAttribute("aria-hidden", String(!mobileControlsVisible));
+
+    const jumpControlsHidden = isCompactViewport && !mobileControlsVisible;
+    pageJump.hidden = jumpControlsHidden;
+    pageJump.inert = jumpControlsHidden;
+    pageJump.setAttribute("aria-hidden", String(jumpControlsHidden));
+    compareTray.hidden = state.compare.size === 0 || isCompactViewport;
   }
 
   function initializeLazyLoading() {
@@ -312,6 +410,7 @@
     }
 
     card.classList.add("is-targeted");
+    card.querySelector("h3")?.focus({ preventScroll: true });
     window.setTimeout(() => {
       card.classList.remove("is-targeted");
     }, 1500);
@@ -345,13 +444,18 @@
     } else {
       state.compare.add(productId);
     }
-    render();
+    render({ focusTarget: `[data-compare="${CSS.escape(productId)}"]` });
   }
 
   function removeCompare(productId) {
     if (!state.compare.has(productId)) return;
     state.compare.delete(productId);
-    render();
+    render({ focusTarget: "#compareTable [data-compare-remove], #comparePanel h2" });
+  }
+
+  function clearCompare() {
+    state.compare.clear();
+    render({ focusTarget: "#comparePanel h2" });
   }
 
   dashboard.ui = {
@@ -365,10 +469,12 @@
     updateFilterDisclosure,
     updateMobileDock,
     initializeLazyLoading,
+    initializeProductImages,
     scrollToPageTop,
     scrollToPageBottom,
     focusProductFromTopPick,
     toggleCompare,
     removeCompare,
+    clearCompare,
   };
 })();

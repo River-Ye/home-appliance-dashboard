@@ -6,13 +6,15 @@ Use this reference for frontend refactors, validation-tool changes, docs drift p
 
 - Keep the project dependency-light and buildless. `index.html` must remain directly openable and GitHub Pages must serve static files.
 - Preserve app script order: `config.js`, utility/logic modules, `product-loader.js`, then `main.js`. The independent `ads.js` loader must remain production-hostname gated and must not run on `file://` or localhost.
+- Maintain homepage styles in the modular CSS sources. `assets/css/app.css` is a generated, concatenated performance bundle; regenerate it and never hand-edit it.
 - Keep product data in `products/*.js`; do not move bulk product data into `assets/js/*.js`.
 - `product-loader.js` should load `products/<category>.js?v=<meta.cacheVersion>` from `categories`, so adding a category should not require editing `index.html` product script tags.
 
 ## Generated GEO Surfaces
 
 - Generate exactly 25 static category guides at `/categories/<id>/` from `assets/js/config.js`, `products/*.js`, and the manually maintained editorial source `tools/category-guides.js`.
-- After changing products, categories, or category guides, run `npm run generate:categories`. The generated outputs are `categories/<id>/index.html`, `sitemap.xml`, `llms.txt`, and the `geo-structured-data` / `geo-category-links` blocks in `index.html`; never hand-edit them.
+- After changing products, categories, category guides, or homepage CSS sources, run `npm run generate:categories`. The generated outputs are `assets/css/app.css`, `categories/<id>/index.html`, `sitemap.xml`, `llms.txt`, and the `geo-structured-data` / `geo-category-links` blocks in `index.html`; never hand-edit them.
+- Keep the shared site name, homepage title, description, H1, and AI disclosure contract in `tools/geo-config.js` so visible copy, metadata, JSON-LD, generated guides, and `llms.txt` remain aligned.
 - Run `npm run check:geo` to catch missing or extra category pages, output drift, metadata and structured-data errors, unsafe links, unauthorized tracking, Pages artifact omissions, and IndexNow contract failures.
 - `llms.txt` is supplemental context for crawlers and AI systems. It is not a ranking standard and does not guarantee indexing, ranking, or citation.
 - Publish all six evidence files with Pages: `release_date_research.json`, `historical_price_research.json`, `dimension_research.json`, `product_issue_research.json`, `product_issue_report_evidence.json`, and `product_issue_review_manifest.json`.
@@ -40,6 +42,7 @@ Run:
 ```bash
 npm run check
 npm run check:ui:full
+npm run check:quality
 git diff --check
 ```
 

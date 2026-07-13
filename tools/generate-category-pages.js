@@ -4,8 +4,15 @@ const { CATEGORY_GUIDES } = require("./category-guides");
 const {
   SITE_URL,
   REPO_URL,
+  SITE_NAME,
   EDITORIAL_TEAM,
-  PUBLIC_EVIDENCE_FILES,
+  HOME_PAGE_TITLE,
+  HOME_H1,
+  AI_DISCLOSURE,
+  SOCIAL_PREVIEW,
+  PUBLIC_EVIDENCE_RESOURCES,
+  homePageDescription,
+  categoryPageHeading,
   categoryUrl,
 } = require("./geo-config");
 const { readDashboardProducts } = require("./read-dashboard-products");
@@ -14,6 +21,17 @@ const root = path.resolve(__dirname, "..");
 const categoriesRoot = path.join(root, "categories");
 const checkOnly = process.argv.includes("--check");
 const generatedFiles = new Map();
+const HOMEPAGE_STYLESHEET_SOURCES = [
+  "tokens.css",
+  "layout.css",
+  "filters.css",
+  "tabs.css",
+  "cards.css",
+  "comparison.css",
+  "navigation.css",
+  "editorial.css",
+  "responsive.css",
+];
 
 function escapeHtml(value) {
   return String(value ?? "")
@@ -118,17 +136,18 @@ function validateGuides(categories) {
   }
 }
 
-function homepageStructuredData(categories, meta) {
+function homepageStructuredData(categories, products, meta) {
+  const description = homePageDescription(categories.length, products.length);
   return {
     "@context": "https://schema.org",
     "@graph": [
       {
         "@type": "WebSite",
         "@id": `${SITE_URL}#website`,
-        name: "家電推薦比較工作台",
+        name: SITE_NAME,
         alternateName: "Home Appliance Shortlist",
         url: SITE_URL,
-        description: "家電推薦比較工作台整理電視、冰箱、洗衣機、掃拖機器人、螢幕等家電的價格、規格、優缺點、歷史低價、負評查核與可信通路購買建議。",
+        description,
         inLanguage: "zh-Hant-TW",
         publisher: { "@id": `${SITE_URL}#editorial-team` },
       },
@@ -137,15 +156,15 @@ function homepageStructuredData(categories, meta) {
         "@id": `${SITE_URL}#editorial-team`,
         name: EDITORIAL_TEAM,
         url: SITE_URL,
-        description: "由 AI 協助研究與整理，公開查核規則、資料日期與原始碼的專案編輯團隊。",
+        description: AI_DISCLOSURE,
         sameAs: [REPO_URL],
       },
       {
         "@type": "WebPage",
         "@id": `${SITE_URL}#webpage`,
         url: SITE_URL,
-        name: "家電推薦比較工作台｜台灣家電價格、規格與購買建議",
-        description: "家電推薦比較工作台整理電視、冰箱、洗衣機、掃拖機器人、螢幕等家電的價格、規格、優缺點、歷史低價、負評查核與可信通路購買建議。",
+        name: HOME_PAGE_TITLE,
+        description,
         inLanguage: "zh-Hant-TW",
         dateModified: meta.dataDate,
         isPartOf: { "@id": `${SITE_URL}#website` },
@@ -164,7 +183,7 @@ function homepageStructuredData(categories, meta) {
             "@type": "CollectionPage",
             "@id": categoryUrl(category.id),
             url: categoryUrl(category.id),
-            name: `${category.label}推薦與選購指南`,
+            name: categoryPageHeading(meta.dataDate.slice(0, 4), category.label),
           },
         })),
       },
@@ -174,6 +193,7 @@ function homepageStructuredData(categories, meta) {
 
 function categoryStructuredData(category, topFive, meta, description) {
   const url = categoryUrl(category.id);
+  const heading = categoryPageHeading(meta.dataDate.slice(0, 4), category.label);
   return {
     "@context": "https://schema.org",
     "@graph": [
@@ -181,7 +201,7 @@ function categoryStructuredData(category, topFive, meta, description) {
         "@type": "CollectionPage",
         "@id": `${url}#webpage`,
         url,
-        name: `${meta.dataDate.slice(0, 4)} ${category.label}推薦與選購比較`,
+        name: heading,
         description,
         inLanguage: "zh-Hant-TW",
         dateModified: meta.dataDate,
@@ -194,8 +214,8 @@ function categoryStructuredData(category, topFive, meta, description) {
         "@type": "BreadcrumbList",
         "@id": `${url}#breadcrumb`,
         itemListElement: [
-          { "@type": "ListItem", position: 1, name: "家電推薦比較工作台", item: SITE_URL },
-          { "@type": "ListItem", position: 2, name: `${category.label}推薦與選購指南`, item: url },
+          { "@type": "ListItem", position: 1, name: SITE_NAME, item: SITE_URL },
+          { "@type": "ListItem", position: 2, name: heading, item: url },
         ],
       },
       {
@@ -266,14 +286,14 @@ function productMarkup(product, index) {
         </article>`;
 }
 
-function renderCategoryPage(category, categoryProducts, guide, meta) {
+function renderCategoryPage(category, categoryProducts, guide, meta, categories) {
   const topFive = [...categoryProducts]
     .sort((left, right) => left.rank - right.rank || left.id.localeCompare(right.id))
     .slice(0, 5);
   if (topFive.length !== 5) throw new Error(`${category.id} does not have five products for its shortlist`);
   const year = meta.dataDate.slice(0, 4);
   const url = categoryUrl(category.id);
-  const title = `${year} ${category.label}推薦｜價格、規格、優缺點與選購指南`;
+  const title = categoryPageHeading(year, category.label);
   const description = `${year} ${category.label}推薦比較，整理 ${categoryProducts.length} 筆可信新品的價格、規格、優缺點、歷史最低價與負評查核，並提供台灣選購重點與常見問題。`;
   const structuredData = categoryStructuredData(category, topFive, meta, description);
   const criteria = guide.criteria.map((item, index) => `
@@ -287,9 +307,15 @@ function renderCategoryPage(category, categoryProducts, guide, meta) {
             <summary>${escapeHtml(item.question)}</summary>
             <p>${escapeHtml(item.answer)}</p>
           </details>`).join("");
-  const evidenceLinks = PUBLIC_EVIDENCE_FILES.map((file) => (
-    `<li><a href="../../${escapeHtml(file)}">${escapeHtml(file)}</a></li>`
+  const evidenceLinks = PUBLIC_EVIDENCE_RESOURCES.map(({ file, label }) => (
+    `<li><a href="../../${escapeHtml(file)}">${escapeHtml(label)}</a></li>`
   )).join("");
+  const relatedGuides = categories
+    .filter((candidate) => candidate.group === category.group && candidate.id !== category.id)
+    .map((candidate) => (
+      `<li><a href="../${escapeHtml(candidate.id)}/">${escapeHtml(categoryPageHeading(year, candidate.label))}</a></li>`
+    ))
+    .join("");
 
   return `<!doctype html>
 <html lang="zh-Hant">
@@ -302,15 +328,23 @@ function renderCategoryPage(category, categoryProducts, guide, meta) {
     <link rel="canonical" href="${escapeHtml(url)}">
     <meta property="og:type" content="website">
     <meta property="og:locale" content="zh_TW">
-    <meta property="og:site_name" content="家電推薦比較工作台">
+    <meta property="og:site_name" content="${escapeHtml(SITE_NAME)}">
     <meta property="og:title" content="${escapeHtml(title)}">
     <meta property="og:description" content="${escapeHtml(description)}">
     <meta property="og:url" content="${escapeHtml(url)}">
-    <meta property="og:image" content="${SITE_URL}social-preview.png">
+    <meta property="og:image" content="${escapeHtml(SOCIAL_PREVIEW.url)}">
+    <meta property="og:image:type" content="${escapeHtml(SOCIAL_PREVIEW.type)}">
+    <meta property="og:image:width" content="${SOCIAL_PREVIEW.width}">
+    <meta property="og:image:height" content="${SOCIAL_PREVIEW.height}">
+    <meta property="og:image:alt" content="${escapeHtml(SOCIAL_PREVIEW.alt)}">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="${escapeHtml(title)}">
     <meta name="twitter:description" content="${escapeHtml(description)}">
-    <meta name="twitter:image" content="${SITE_URL}social-preview.png">
+    <meta name="twitter:image" content="${escapeHtml(SOCIAL_PREVIEW.url)}">
+    <meta name="twitter:image:type" content="${escapeHtml(SOCIAL_PREVIEW.type)}">
+    <meta name="twitter:image:width" content="${SOCIAL_PREVIEW.width}">
+    <meta name="twitter:image:height" content="${SOCIAL_PREVIEW.height}">
+    <meta name="twitter:image:alt" content="${escapeHtml(SOCIAL_PREVIEW.alt)}">
     <script type="application/ld+json">
 ${jsonLdStringify(structuredData).split("\n").map((line) => `      ${line}`).join("\n")}
     </script>
@@ -323,17 +357,25 @@ ${jsonLdStringify(structuredData).split("\n").map((line) => `      ${line}`).joi
     <header class="editorial-hero">
       <div class="editorial-shell">
         <nav class="editorial-breadcrumb" aria-label="麵包屑">
-          <a href="../../index.html">家電推薦比較工作台</a><span aria-hidden="true">/</span><span>${escapeHtml(category.label)}</span>
+          <a href="../../index.html">${escapeHtml(SITE_NAME)}</a><span aria-hidden="true">/</span><span>${escapeHtml(category.label)}</span>
         </nav>
         <p class="editorial-kicker">${escapeHtml(category.group)} · ${categoryProducts.length} 筆候選</p>
-        <h1>${escapeHtml(category.label)}推薦與選購比較</h1>
+        <span class="editorial-ai-badge">AI 協作製作</span>
+        <h1>${escapeHtml(title)}</h1>
         <p class="editorial-lead">${escapeHtml(guide.intro)}</p>
+        <p class="editorial-ai-disclosure">${escapeHtml(AI_DISCLOSURE)} <a href="#methodHeading">查看查核方法</a>，或前往 <a href="${escapeHtml(REPO_URL)}">GitHub 原始碼</a>。</p>
         <div class="editorial-meta">
           <span>資料更新 ${escapeHtml(meta.dataDate)}</span>
           <span>共比較 ${categoryProducts.length} 筆商品</span>
           <span>編輯：${EDITORIAL_TEAM}</span>
         </div>
-        <a class="editorial-primary-action" href="../../index.html?category=${escapeHtml(category.id)}">開啟完整 ${escapeHtml(category.label)}比較工作台</a>
+        <nav class="editorial-page-nav" aria-label="本頁導覽">
+          <a href="#shortlistHeading">推薦摘要</a>
+          <a href="#buyingGuideHeading">選購重點</a>
+          <a href="#faqHeading">常見問題</a>
+          <a href="#methodHeading">查核方法</a>
+        </nav>
+        <a class="editorial-primary-action" href="../../index.html?category=${escapeHtml(category.id)}">比較全部 ${categoryProducts.length} 款 ${escapeHtml(category.label)}</a>
       </div>
     </header>
     <main id="categoryContent" class="editorial-shell">
@@ -359,6 +401,13 @@ ${jsonLdStringify(structuredData).split("\n").map((line) => `      ${line}`).joi
         <div class="editorial-faq-list">${faqs}
         </div>
       </section>
+      <section class="editorial-section editorial-related" aria-labelledby="relatedGuidesHeading">
+        <div class="editorial-section-heading">
+          <div><p class="editorial-kicker">Explore more</p><h2 id="relatedGuidesHeading">相關選購指南</h2></div>
+          <p>同屬「${escapeHtml(category.group)}」的分類，可接續比較使用情境與選購條件。</p>
+        </div>
+        <ul class="editorial-related-guides">${relatedGuides}</ul>
+      </section>
       <section class="editorial-section editorial-method" aria-labelledby="methodHeading">
         <div class="editorial-section-heading">
           <div><p class="editorial-kicker">Method & limits</p><h2 id="methodHeading">查核方法與資料限制</h2></div>
@@ -366,7 +415,8 @@ ${jsonLdStringify(structuredData).split("\n").map((line) => `      ${line}`).joi
         <div class="editorial-method-copy">
           <p><strong>查核方法：</strong>價格與購買連結以品牌或可信新品通路為準；上市／發售日期、歷史最低價與負評／災情各自保留來源證據。Top 5 沿用完整工作台的推薦排序，本站比較分數不是消費者評分。</p>
           <p><strong>資料限制：</strong>價格、庫存、規格與保固可能變動；「查無達門檻的集中負評／災情」不代表完全沒有負評。海外商品另需自行確認國際運費、進口稅、電壓、插頭及台灣保固。</p>
-          <p><strong>編輯責任：</strong>${EDITORIAL_TEAM} 由 AI 協助研究與整理，公開規則、資料日期與原始碼，不宣稱未經證實的專家資格，也不保證搜尋排名或 AI 引用。</p>
+          <p><strong>AI 協作說明：</strong>${escapeHtml(AI_DISCLOSURE)}</p>
+          <p><strong>編輯責任：</strong>${escapeHtml(EDITORIAL_TEAM)} 公開規則、資料日期與原始碼，不宣稱未經證實的專家資格，也不保證搜尋排名或 AI 引用。</p>
         </div>
         <details class="editorial-evidence">
           <summary>查看結構化研究證據檔</summary>
@@ -376,8 +426,8 @@ ${jsonLdStringify(structuredData).split("\n").map((line) => `      ${line}`).joi
     </main>
     <footer class="editorial-footer">
       <div class="editorial-shell">
-        <a href="../../index.html">返回家電推薦比較工作台</a>
-        <a href="${REPO_URL}">GitHub 原始碼</a>
+        <a href="../../index.html">返回${escapeHtml(SITE_NAME)}</a>
+        <a href="${escapeHtml(REPO_URL)}">GitHub 原始碼</a>
         <a href="https://riverye.com/privacy.html">隱私權政策</a>
       </div>
     </footer>
@@ -400,10 +450,15 @@ function renderLlms(categories, products, meta) {
     category.id,
     products.filter((product) => product.category === category.id).length,
   ]));
-  return `# 家電推薦比較工作台
+  const description = homePageDescription(categories.length, products.length);
+  const year = meta.dataDate.slice(0, 4);
+  return `# ${HOME_H1}
 
-> 以台灣採購與居住情境為主的家電研究、篩選與比較靜態站，由 ${EDITORIAL_TEAM} 維護並由 AI 協助研究與整理。
+> ${AI_DISCLOSURE}
 
+${description}
+
+- Brand: ${SITE_NAME}
 - Canonical site: ${SITE_URL}
 - Data updated: ${meta.dataDate}
 - Catalog: ${categories.length} categories, ${products.length} products
@@ -424,11 +479,11 @@ function renderLlms(categories, products, meta) {
 
 ## 分類選購指南
 
-${categories.map((category) => `- [${category.label}](${categoryUrl(category.id)}): ${productCountByCategory.get(category.id)} 筆候選。${CATEGORY_GUIDES[category.id].intro}`).join("\n")}
+${categories.map((category) => `- [${categoryPageHeading(year, category.label)}](${categoryUrl(category.id)}): ${productCountByCategory.get(category.id)} 筆候選。${CATEGORY_GUIDES[category.id].intro}`).join("\n")}
 
 ## 研究證據
 
-${PUBLIC_EVIDENCE_FILES.map((file) => `- [${file}](${SITE_URL}${file})`).join("\n")}
+${PUBLIC_EVIDENCE_RESOURCES.map(({ file, label }) => `- [${label}](${SITE_URL}${file}): ${file}`).join("\n")}
 
 ## 主要入口
 
@@ -445,14 +500,60 @@ function renderHomepageCategoryLinks(categories, products) {
   }
   return `<div class="category-guide-groups">
 ${[...groups].map(([group, groupCategories]) => `  <section class="category-guide-group">
-    <h4>${escapeHtml(group)}</h4>
+    <h3>${escapeHtml(group)}</h3>
     <ul>
 ${groupCategories.map((category) => {
     const count = products.filter((product) => product.category === category.id).length;
-    return `      <li><a href="./categories/${escapeHtml(category.id)}/"><span>${escapeHtml(category.label)}推薦與選購指南</span><small>${count} 筆</small></a></li>`;
+    return `      <li><a href="./categories/${escapeHtml(category.id)}/"><span>${escapeHtml(category.label)} 推薦與選購指南</span><small>${count} 筆</small></a></li>`;
   }).join("\n")}
     </ul>
   </section>`).join("\n")}
+</div>`;
+}
+
+function renderHomepageStylesheet() {
+  const sections = HOMEPAGE_STYLESHEET_SOURCES.map((file) => {
+    const source = fs.readFileSync(path.join(root, "assets", "css", file), "utf8").trim();
+    return `/* ${file} */\n${source}`;
+  });
+  return `/* Generated by tools/generate-category-pages.js. Edit the source CSS modules, then regenerate. */\n\n${sections.join("\n\n")}\n`;
+}
+
+function renderHomepageMetadata(categoryCount, productCount) {
+  const description = homePageDescription(categoryCount, productCount);
+  return `<meta name="description" content="${escapeHtml(description)}">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<meta name="google-adsense-account" content="ca-pub-4799252410303973">
+<title>${escapeHtml(HOME_PAGE_TITLE)}</title>
+<link rel="canonical" href="${escapeHtml(SITE_URL)}">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="zh_TW">
+<meta property="og:site_name" content="${escapeHtml(SITE_NAME)}">
+<meta property="og:title" content="${escapeHtml(HOME_PAGE_TITLE)}">
+<meta property="og:description" content="${escapeHtml(description)}">
+<meta property="og:url" content="${escapeHtml(SITE_URL)}">
+<meta property="og:image" content="${escapeHtml(SOCIAL_PREVIEW.url)}">
+<meta property="og:image:type" content="${escapeHtml(SOCIAL_PREVIEW.type)}">
+<meta property="og:image:width" content="${SOCIAL_PREVIEW.width}">
+<meta property="og:image:height" content="${SOCIAL_PREVIEW.height}">
+<meta property="og:image:alt" content="${escapeHtml(SOCIAL_PREVIEW.alt)}">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="${escapeHtml(HOME_PAGE_TITLE)}">
+<meta name="twitter:description" content="${escapeHtml(description)}">
+<meta name="twitter:image" content="${escapeHtml(SOCIAL_PREVIEW.url)}">
+<meta name="twitter:image:alt" content="${escapeHtml(SOCIAL_PREVIEW.alt)}">`;
+}
+
+function renderHomepageH1() {
+  return `<h1>${escapeHtml(HOME_H1)}</h1>`;
+}
+
+function renderHomepageAiDisclosure() {
+  return `<div class="ai-disclosure">
+  <span class="ai-disclosure-badge">AI 協作製作</span>
+  <span>${escapeHtml(AI_DISCLOSURE)}</span>
+  <a href="#researchMethod">查核方法與資料限制</a>
+  <a href="${escapeHtml(REPO_URL)}" target="_blank" rel="noopener noreferrer">GitHub 原始碼</a>
 </div>`;
 }
 
@@ -476,15 +577,20 @@ function prepareOutputs() {
       categoryProducts,
       CATEGORY_GUIDES[category.id],
       meta,
+      categories,
     ));
   }
   generatedFiles.set(path.join(root, "sitemap.xml"), renderSitemap(categories, meta));
   generatedFiles.set(path.join(root, "llms.txt"), renderLlms(categories, products, meta));
+  generatedFiles.set(path.join(root, "assets", "css", "app.css"), renderHomepageStylesheet());
 
   const indexPath = path.join(root, "index.html");
   let index = fs.readFileSync(indexPath, "utf8");
-  const structuredDataScript = `<script type="application/ld+json">\n${jsonLdStringify(homepageStructuredData(categories, meta))}\n</script>`;
+  const structuredDataScript = `<script type="application/ld+json">\n${jsonLdStringify(homepageStructuredData(categories, products, meta))}\n</script>`;
+  index = replaceGeneratedBlock(index, "<!-- geo-home-metadata:start -->", "<!-- geo-home-metadata:end -->", renderHomepageMetadata(categories.length, products.length));
   index = replaceGeneratedBlock(index, "<!-- geo-structured-data:start -->", "<!-- geo-structured-data:end -->", structuredDataScript);
+  index = replaceGeneratedBlock(index, "<!-- geo-home-h1:start -->", "<!-- geo-home-h1:end -->", renderHomepageH1());
+  index = replaceGeneratedBlock(index, "<!-- geo-home-ai-disclosure:start -->", "<!-- geo-home-ai-disclosure:end -->", renderHomepageAiDisclosure());
   index = replaceGeneratedBlock(index, "<!-- geo-category-links:start -->", "<!-- geo-category-links:end -->", renderHomepageCategoryLinks(categories, products));
   generatedFiles.set(indexPath, index);
   return { categories };
@@ -547,7 +653,7 @@ function syncOutputs(categories) {
   }
   console.log(checkOnly
     ? `category page generation check passed (${categories.length} pages)`
-    : `generated ${categories.length} category pages, sitemap.xml, llms.txt, and homepage GEO blocks`);
+    : `generated ${categories.length} category pages, sitemap.xml, llms.txt, homepage CSS, and GEO blocks`);
 }
 
 function main() {
@@ -571,4 +677,10 @@ module.exports = {
   collectUnexpectedCategoryEntries,
   renderCategoryPage,
   renderHomepageCategoryLinks,
+  renderHomepageStylesheet,
+  renderHomepageMetadata,
+  renderHomepageH1,
+  renderHomepageAiDisclosure,
+  homepageStructuredData,
+  renderLlms,
 };
