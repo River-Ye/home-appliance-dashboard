@@ -1737,9 +1737,9 @@
     "name": "23 公升超變頻清淨除濕機",
     "price": {
       "currency": "TWD",
-      "amount": 23039,
-      "converted": 23039,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 23575,
+      "converted": 23575,
+      "confidence": "PChome 2026-07-13 API 查核價"
     },
     "image": "https://www.costco.com.tw/medias/sys_master/images/h2d/h02/421140862271518.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBQ4K-A900I752Z",
@@ -1818,9 +1818,9 @@
     "name": "12L 一級能效極致薄型清新淨味除濕機",
     "price": {
       "currency": "TWD",
-      "amount": 8590,
-      "converted": 8590,
-      "confidence": "momo購物 2026-07-12 頁面查核價"
+      "amount": 8677,
+      "converted": 8677,
+      "confidence": "momo購物 2026-07-13 頁面查核價"
     },
     "image": "https://i2.momoshop.com.tw/1781626760/goodsimg/0015/034/893/15034893_R_m.webp",
     "buyUrl": "https://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=15034893",

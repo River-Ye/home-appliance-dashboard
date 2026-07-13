@@ -1577,9 +1577,9 @@
     "name": "Bidet Toilet Seat",
     "price": {
       "currency": "USD",
-      "amount": 249.99,
-      "converted": 8011,
-      "confidence": "Costco US 2026-07-11 查核價；依 2026-07-12 匯率換算"
+      "amount": 399.99,
+      "converted": 12828,
+      "confidence": "Costco US 2026-07-13 瀏覽器查核價；依 2026-07-13 匯率換算"
     },
     "image": "https://bfasset.costco-static.com/U447IH35/as/k83n76pfjhvqcf9gfrz74sx/1432187-847__1?auto=webp&format=jpg",
     "buyUrl": "https://www.costco.com/brondell-swash-cl1700-bidet-toilet-seat.product.100648788.html",
@@ -1588,7 +1588,7 @@
       "溫水洗淨便座",
       "遙控/電動式",
       "美規 elongated 座型",
-      "Costco US 3,989 則評論",
+      "Costco US 3,994 則評論",
       "需確認 120V、馬桶尺寸與安裝"
     ],
     "description": "台灣 Costco 未找到明確免治馬桶新品頁，故補入 Costco US 高評論的 Brondell Swash CL1700 作海外參考。",

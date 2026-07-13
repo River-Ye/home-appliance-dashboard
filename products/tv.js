@@ -172,24 +172,24 @@
     "channel": "tw",
     "brand": "Sony",
     "model": "Y-65XR70",
-    "name": "BRAVIA 7 65 型 Mini LED 4K Google TV + 2.1 聲霸組合",
+    "name": "BRAVIA 7 65 型 Mini LED 4K Google TV",
     "price": {
       "currency": "TWD",
-      "amount": 53910,
-      "converted": 53910,
-      "confidence": "PChome 2026-07-10 API 查核價"
+      "amount": 56900,
+      "converted": 56900,
+      "confidence": "PChome 2026-07-13 API 查核價"
     },
-    "image": "https://cs-a.ecimg.tw/items/DPAD061900IUE3W/000001_1779815988.jpg",
-    "buyUrl": "https://24h.pchome.com.tw/prod/DPAD06-1900IUE3W",
+    "image": "https://img.pchome.com.tw/cs/items/DMBM10A900HKA39/000001_1781001954.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DMBM10-A900HKA39",
     "buyLabel": "PChome",
     "specs": [
       "65 吋 Mini LED",
       "XR 處理器",
+      "4K 120Hz",
       "Google TV",
-      "含 2.1 聲霸組合",
       "手機投影：AirPlay / Chromecast"
     ],
-    "description": "Sony 影像處理與動態補償穩定，這筆採 PChome 同型號搭 2.1 聲霸的組合低價。",
+    "description": "Sony 影像處理與動態補償穩定；原 2.1 聲霸組合頁失效後，改採同型號可購裸機，聲霸可依需求另行選購。",
     "pros": [
       "影像處理自然",
       "Mini LED 亮度適合明亮空間"
@@ -206,21 +206,21 @@
     "tags": [
       "Mini LED",
       "電影",
-      "組合價"
+      "台灣通路"
     ],
     "releaseDate": "2024",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 51970,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
-      "checkedAt": "2026-07-11",
-      "note": "未找到 Y-65XR70 電視加 2.1 聲霸同套裝可公開驗證的可信新品史低；已排除僅含裸機與基本安裝的歷史價格。"
+      "converted": 51970,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1271767502&cgp=51970",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：(店+)【SONY 索尼】Y-65XR70 65吋 Mini LED Google TV 液晶顯示器(含基本安裝)",
+      "evidenceSnippet": "LBJ 比價頁顯示 Momo 店+ 的 Y-65XR70 裸機含基本安裝為 NT$51,970，歷史頁 price_data 於 2026-07-13 仍記錄同額。",
+      "sourceKind": "price_history",
+      "confidence": "high",
+      "checkedAt": "2026-07-13",
+      "note": "原目錄是電視加聲霸套裝時因規格不同排除；2026-07-13 改為同型號裸機後，LBJ 的裸機含基本安裝歷史已符合目錄契約。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -412,9 +412,9 @@
     "name": "BRAVIA 8 65 型 XR OLED 4K HDR Google TV 顯示器",
     "price": {
       "currency": "TWD",
-      "amount": 84510,
-      "converted": 84510,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 93900,
+      "converted": 93900,
+      "confidence": "PChome 2026-07-13 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DPAD06A900HLBJO/000001_1776334113.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DPAD06-A900HLBJO",
@@ -1360,9 +1360,9 @@
     "name": "65型 4K QLED 120Hz Google TV",
     "price": {
       "currency": "TWD",
-      "amount": 13990,
-      "converted": 13990,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 12591,
+      "converted": 12591,
+      "confidence": "PChome 2026-07-13 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DPADTOA900JNE73/000001_1768523868.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DPADTO-A900JNE73",
@@ -1597,9 +1597,9 @@
     "name": "Regza 75型 4K QLED 144Hz 全陣列背光智慧顯示器",
     "price": {
       "currency": "TWD",
-      "amount": 31999,
-      "converted": 31999,
-      "confidence": "Costco 好市多 2026-07-11 頁面查核價"
+      "amount": 39999,
+      "converted": 39999,
+      "confidence": "Costco 好市多 2026-07-13 頁面查核價"
     },
     "image": "https://www.costco.com.tw/medias/sys_master/images/hfe/ha8/438072160518174.jpg",
     "buyUrl": "https://www.costco.com.tw/Televisions-Appliances/TV-Home-Entertainment/Televisions-TV-Accessories/70-79-TVs/Toshiba-Regza-75-inch-Full-Array-4K-QLED-144Hz-Smart-Monitor-75Z670NT/p/152535",

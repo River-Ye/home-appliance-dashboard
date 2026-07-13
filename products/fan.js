@@ -563,9 +563,9 @@
     "name": "14 吋 DC 微電腦定時電風扇",
     "price": {
       "currency": "TWD",
-      "amount": 3920,
-      "converted": 3920,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 4460,
+      "converted": 4460,
+      "confidence": "PChome 2026-07-13 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMABLMA900EORP0/000001_1697161466.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMABLM-A900EORP0",
@@ -641,20 +641,20 @@
     "name": "14 吋微電腦 DC 直流電風扇",
     "price": {
       "currency": "TWD",
-      "amount": 1319,
-      "converted": 1319,
-      "confidence": "momo購物 2026-07-11 頁面查核價"
+      "amount": 1444,
+      "converted": 1444,
+      "confidence": "PChome 2026-07-13 API 查核價"
     },
-    "image": "https://cs-a.ecimg.tw/items/DMAB1FA900B4SP0/000001_1612233290.jpg",
-    "buyUrl": "https://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=15103067",
-    "buyLabel": "momo購物",
+    "image": "https://cs-a.ecimg.tw/items/DMAB1FA900EZLVB/000001_1685607577.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DMAB1F-A900EZLVB",
+    "buyLabel": "PChome",
     "specs": [
       "14 吋",
       "DC 直流",
       "微電腦",
       "台灣製造"
     ],
-    "description": "Panasonic F-S14KM 是電風扇類的補充比較型號，依 2026-07-09 通路頁面整理售價、圖片與核心規格。",
+    "description": "Panasonic F-S14KM 是電風扇類的補充比較型號，依 2026-07-13 通路頁面整理售價、圖片與核心規格。",
     "pros": [
       "DC 機種普遍省電",
       "台灣夏季替代冷氣循環很實用"
@@ -1187,9 +1187,9 @@
     "name": "窄邊框時尚美型風扇",
     "price": {
       "currency": "TWD",
-      "amount": 968,
-      "converted": 968,
-      "confidence": "momo購物 2026-07-11 頁面查核價"
+      "amount": 1341,
+      "converted": 1341,
+      "confidence": "momo購物 2026-07-13 頁面查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMACAKA900G4VTV/000001_1779763282.jpg",
     "buyUrl": "https://www.momoshop.com.tw/TP/TP0006456/goodsDetail/TP00064560000408",
@@ -1265,9 +1265,9 @@
     "name": "DC 立式循環扇",
     "price": {
       "currency": "TWD",
-      "amount": 1943,
-      "converted": 1943,
-      "confidence": "momo購物 2026-07-11 頁面查核價"
+      "amount": 2691,
+      "converted": 2691,
+      "confidence": "momo購物 2026-07-13 頁面查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMACAKA900G0BE8/000001_1779955873.jpg",
     "buyUrl": "https://www.momoshop.com.tw/TP/TP0006456/goodsDetail/TP00064560000754",
@@ -1343,9 +1343,9 @@
     "name": "全方位渦輪 DC 循環扇",
     "price": {
       "currency": "TWD",
-      "amount": 2138,
-      "converted": 2138,
-      "confidence": "momo購物 2026-07-11 頁面查核價"
+      "amount": 2961,
+      "converted": 2961,
+      "confidence": "momo購物 2026-07-13 頁面查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMABOWA900IUZ7V/000001_1780022324.jpg",
     "buyUrl": "https://www.momoshop.com.tw/TP/TP0006456/goodsDetail/TP00064560000573",
@@ -1421,9 +1421,9 @@
     "name": "DC 塔式風扇",
     "price": {
       "currency": "TWD",
-      "amount": 2657,
-      "converted": 2657,
-      "confidence": "momo購物 2026-07-11 頁面查核價"
+      "amount": 3681,
+      "converted": 3681,
+      "confidence": "momo購物 2026-07-13 頁面查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMACAKA900G0BB4/000001_1778646103.jpg",
     "buyUrl": "https://www.momoshop.com.tw/TP/TP0006456/goodsDetail/TP00064560000457",

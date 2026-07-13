@@ -187,9 +187,9 @@
     "name": "BRAVIA Theatre Bar 6 3.1.2 聲道",
     "price": {
       "currency": "TWD",
-      "amount": 10700,
-      "converted": 10700,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 11900,
+      "converted": 11900,
+      "confidence": "PChome 2026-07-13 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAAODA900JMC1Q/000001_1781726516.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAAOD-A900JMC1Q",
@@ -586,9 +586,9 @@
     "name": "LG Soundbar S80TR 5.1.3 聲道立體環繞聲霸",
     "price": {
       "currency": "TWD",
-      "amount": 18905,
-      "converted": 18905,
-      "confidence": "PChome 2026-07-12 API 查核價"
+      "amount": 19900,
+      "converted": 19900,
+      "confidence": "PChome 2026-07-13 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBM1DA900J5JAZ/000001_1779262704.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBM1D-A900J5JAZ",
@@ -820,9 +820,9 @@
     "name": "5.1 聲道 Soundbar 家庭劇院組",
     "price": {
       "currency": "TWD",
-      "amount": 8249,
-      "converted": 8249,
-      "confidence": "Yahoo購物中心 2026-07-11 頁面查核價"
+      "amount": 9016,
+      "converted": 9016,
+      "confidence": "Yahoo購物中心 2026-07-13 頁面查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBM1DA900GHTFE/000001_1776774078.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/SONY-%E7%B4%A2%E5%B0%BC-5-1-%E8%81%B2%E9%81%93-SOUNDBAR-%E5%AE%B6%E5%BA%AD%E5%8A%87%E9%99%A2%E7%B5%84-HT-S40R-10067449.html",
@@ -1366,9 +1366,9 @@
     "name": "BRAVIA Theatre Bar 9 旗艦聲霸",
     "price": {
       "currency": "TWD",
-      "amount": 36912,
-      "converted": 36912,
-      "confidence": "PChome 2026-07-12 API 查核價"
+      "amount": 38855,
+      "converted": 38855,
+      "confidence": "PChome 2026-07-13 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBM1DA900IUZUJ/000001_1783698580.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBM1D-A900IUZUJ",
@@ -1522,9 +1522,9 @@
     "name": "Fidelio 7.1.2 Dolby Atmos 旗艦聲霸",
     "price": {
       "currency": "TWD",
-      "amount": 35399,
-      "converted": 35399,
-      "confidence": "PChome 2026-07-12 API 查核價"
+      "amount": 35010,
+      "converted": 35010,
+      "confidence": "PChome 2026-07-13 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAF02A900H2G5R/000001_1704612188.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAF02-A900H2G5R",
@@ -1601,8 +1601,8 @@
     "price": {
       "currency": "USD",
       "amount": 1299.99,
-      "converted": 41657,
-      "confidence": "Marshall US 2026-07-11 查核價；依 2026-07-12 匯率換算"
+      "converted": 41691,
+      "confidence": "Marshall US 2026-07-11 查核價；依 2026-07-13 匯率換算"
     },
     "image": "https://images.ctfassets.net/javen7msabdh/2C2sn9CKoKFdIyd94Gm9z5/f3019d4e721511167ebe5c229bf490dd/heston-120_plp.jpg",
     "buyUrl": "https://www.marshall.com/us/en/product/heston-120",
@@ -1681,8 +1681,8 @@
     "price": {
       "currency": "USD",
       "amount": 699.99,
-      "converted": 22431,
-      "confidence": "Marshall US 2026-07-09 查核價；官方頁顯示 Out of stock，依 2026-07-12 匯率換算"
+      "converted": 22449,
+      "confidence": "Marshall US 2026-07-09 查核價；官方頁顯示 Out of stock，依 2026-07-13 匯率換算"
     },
     "image": "https://images.ctfassets.net/javen7msabdh/3yitHqjPBTgQk5qRE72PSn/2788206646aa153f71f2c0ebefaff580/Heston-60-black_plp_800x800-v3.jpeg",
     "buyUrl": "https://www.marshall.com/us/en/product/heston-60",

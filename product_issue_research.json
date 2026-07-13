@@ -204,14 +204,14 @@
       "category": "tv",
       "brand": "Sony",
       "model": "Y-65XR70",
-      "name": "BRAVIA 7 65 型 Mini LED 4K Google TV + 2.1 聲霸組合",
+      "name": "BRAVIA 7 65 型 Mini LED 4K Google TV",
       "identity": {
         "canonicalModel": "Y-65XR70",
         "lookupLabel": "Sony Y-65XR70",
         "aliases": [
           "Sony Y-65XR70"
         ],
-        "evidenceUrl": "https://24h.pchome.com.tw/prod/DPAD06-1900IUE3W"
+        "evidenceUrl": "https://24h.pchome.com.tw/prod/DMBM10-A900HKA39"
       },
       "workflowStatus": "completed",
       "manualReview": {
@@ -5617,7 +5617,7 @@
         "aliases": [
           "Panasonic F-S14KM"
         ],
-        "evidenceUrl": "https://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=15103067"
+        "evidenceUrl": "https://24h.pchome.com.tw/prod/DMAB1F-A900EZLVB"
       },
       "workflowStatus": "completed",
       "manualReview": {

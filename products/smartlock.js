@@ -253,11 +253,11 @@
       "currency": "TWD",
       "amount": 25000,
       "converted": 25000,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "confidence": "momo 2026-07-13 商品頁查核價"
     },
-    "image": "https://cs-a.ecimg.tw/items/DQBS4NA900K6BSE/000001_1782972514.jpg",
-    "buyUrl": "https://24h.pchome.com.tw/prod/DQBS4N-A900K6BSE",
-    "buyLabel": "PChome",
+    "image": "https://i2.momoshop.com.tw/1783611612/goodsimg/0015/024/130/15024130_R_m.webp",
+    "buyUrl": "https://www.momoshop.com.tw/product/15024130",
+    "buyLabel": "momo",
     "specs": [
       "人臉/指紋/卡片/密碼",
       "機械鑰匙",
@@ -277,7 +277,7 @@
     "recommendation": "Yale 高階推薦：功能比 YMF 系列更完整，但 CP 值不如 YMF-40A。",
     "score": 89,
     "voltage": "多為電池供電；需確認門厚、門向、鎖體與是否有天地栓",
-    "warranty": "依 PChome 商品頁、原廠或台灣代理保固與安裝條款",
+    "warranty": "依 momo 商品頁、原廠或台灣代理保固與安裝條款",
     "tags": [
       "人臉",
       "高階",

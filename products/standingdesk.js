@@ -577,9 +577,9 @@
     "name": "電動升降桌 UP006 1260WH/WH",
     "price": {
       "currency": "TWD",
-      "amount": 8490,
-      "converted": 8490,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 8090,
+      "converted": 8090,
+      "confidence": "PChome 2026-07-13 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DQCI0AA900K15SP/000001_1779286467.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQCI0A-A900K15SP",
@@ -657,9 +657,9 @@
     "name": "電動升降桌 UP006 1460WH/WH",
     "price": {
       "currency": "TWD",
-      "amount": 9490,
-      "converted": 9490,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 9090,
+      "converted": 9090,
+      "confidence": "PChome 2026-07-13 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DQCI0AA900K15T1/000001_1779269416.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQCI0A-A900K15T1",

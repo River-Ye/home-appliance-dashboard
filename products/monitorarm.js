@@ -260,9 +260,9 @@
     "name": "27KG 57 吋鋁合金氣壓式螢幕支架",
     "price": {
       "currency": "TWD",
-      "amount": 2634,
-      "converted": 2634,
-      "confidence": "momo購物 2026-07-11 頁面查核價"
+      "amount": 3099,
+      "converted": 3099,
+      "confidence": "momo購物 2026-07-13 頁面查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DCBB69A900INQG2/000001_1745485048.jpg",
     "buyUrl": "https://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=13989541",
@@ -422,9 +422,9 @@
     "name": "DELTA-S 20KG 49 吋高承重氣壓式螢幕支架",
     "price": {
       "currency": "TWD",
-      "amount": 2249,
-      "converted": 2249,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 2009,
+      "converted": 2009,
+      "confidence": "PChome 2026-07-13 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DCAGRJA900JS174/000001_1772508775.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DCAGTU-A900JXNXN",
@@ -665,9 +665,9 @@
     "name": "17-49 吋 20KG 中柱款螢幕支架",
     "price": {
       "currency": "TWD",
-      "amount": 1499,
-      "converted": 1499,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 1424,
+      "converted": 1424,
+      "confidence": "PChome 2026-07-13 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DCBB69A900IHPC0/000001_1742812418.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DCBB69-A900IHPC0",
@@ -703,16 +703,16 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 1499,
+      "amount": 1424,
       "currency": "TWD",
-      "converted": 1499,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1247524795&cgp=1499",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：Happy Tech 快樂科技 TC92-10 桌上型17- 49吋 螢幕 G9 中柱款 20KG液晶 電腦螢幕架 螢幕支架 夾鎖桌2用",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「PCHome購物 / Happy Tech 快樂科技 TC92-10 桌上型17- 49吋 螢幕 G9 中柱款 20KG液晶 電腦螢幕架 螢幕支架 夾鎖桌2用」最低價為 NT$1,499，最低點日期 2026-07-09。",
-      "sourceKind": "price_history",
+      "converted": 1424,
+      "sourceUrl": "https://24h.pchome.com.tw/prod/DCBB69-A900IHPC0",
+      "sourceTitle": "PChome 24h 購物：17-49 吋 20KG 中柱款螢幕支架",
+      "evidenceSnippet": "PChome 商品 API 於 2026-07-13 回傳同型號可信新品查核價 NT$1,424，低於原先記錄史低。",
+      "sourceKind": "retailer_page",
       "confidence": "medium",
-      "checkedAt": "2026-07-09",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+      "checkedAt": "2026-07-13",
+      "note": "採用 PChome 當日可購商品 API 的同型號新品價格；不含會員券、點數、信用卡回饋、二手、福利、展示、拆封或整新品。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -1151,9 +1151,9 @@
     "name": "17-32 吋 2-9KG 人體工學螢幕支架",
     "price": {
       "currency": "TWD",
-      "amount": 790,
-      "converted": 790,
-      "confidence": "Yahoo購物中心 2026-07-11 頁面查核價"
+      "amount": 800,
+      "converted": 800,
+      "confidence": "Yahoo購物中心 2026-07-13 頁面查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DCAGQ5A900JUC1W/000001_1774344481.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/%E6%A8%82%E6%AD%8CLoctek-%E4%BA%BA%E9%AB%94%E5%B7%A5%E5%AD%B8-%E8%9E%A2%E5%B9%95%E6%94%AF%E6%9E%B6D5S-12033991.html",
@@ -1310,9 +1310,9 @@
     "name": "35吋 20KG 雙臂氣壓式螢幕支架",
     "price": {
       "currency": "TWD",
-      "amount": 5750,
-      "converted": 5750,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 5390,
+      "converted": 5390,
+      "confidence": "PChome 2026-07-13 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DCAGU1A900IX2MD/000001_1749518938.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DCAGU1-A900IX2MD",
@@ -1345,16 +1345,16 @@
     "releaseDate": "2025-12-24",
     "historicalLow": {
       "status": "found",
-      "amount": 5750,
+      "amount": 5390,
       "currency": "TWD",
-      "converted": 5750,
+      "converted": 5390,
       "sourceUrl": "https://24h.pchome.com.tw/prod/DCAGU1-A900IX2MD",
-      "sourceTitle": "PChome 商品頁：BENQ 氣壓式 35吋 20KG BDH01螢幕支架雙臂款 螢幕架 螢幕伸縮支架 / BENQ 氣壓式 35吋 20KG BDH01螢幕支架雙臂款 螢幕架 螢幕伸縮支架",
-      "evidenceSnippet": "PChome 商品 API 於 2026-07-10 回傳同一商品頁「BENQ 氣壓式 35吋 20KG BDH01螢幕支架雙臂款 螢幕架 螢幕伸縮支架 / BENQ 氣壓式 35吋 20KG BDH01螢幕支架雙臂款 螢幕架 螢幕伸縮支架」查核價 NT$5,750，低於原先記錄史低。",
+      "sourceTitle": "PChome 24h 購物：35吋 20KG 雙臂氣壓式螢幕支架",
+      "evidenceSnippet": "PChome 商品 API 於 2026-07-13 回傳同型號可信新品查核價 NT$5,390，低於原先記錄史低。",
       "sourceKind": "retailer_page",
       "confidence": "medium",
-      "checkedAt": "2026-07-10",
-      "note": "採用 PChome 24h 同一商品頁可公開查核現價作為本次觀測到的最低價；同型號/規格並排除會員個人化折扣、信用卡回饋、點數、二手、福利品、展示機、箱損、拆封與整新品。"
+      "checkedAt": "2026-07-13",
+      "note": "採用 PChome 當日可購商品 API 的同型號新品價格；不含會員券、點數、信用卡回饋、二手、福利、展示、拆封或整新品。"
     },
     "issueResearch": {
       "status": "no_common_issue",

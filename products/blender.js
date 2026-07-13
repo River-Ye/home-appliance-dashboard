@@ -343,9 +343,9 @@
     "name": "Professional Plus Blender",
     "price": {
       "currency": "USD",
-      "amount": 99.99,
-      "converted": 3204,
-      "confidence": "SharkNinja 官方 2026-07-11 查核價；依 2026-07-12 匯率換算"
+      "amount": 119.99,
+      "converted": 3848,
+      "confidence": "SharkNinja 官方 2026-07-13 查核價；依 2026-07-13 匯率換算"
     },
     "image": "https://ak1.ostkcdn.com/images/products/is/images/direct/d1c25153baa2aa99eae7831be826d2a51d87c485/Ninja-BN701-Professional-Plus-Blender-with-Auto-iQ.jpg",
     "buyUrl": "https://www.sharkninja.com/ninja-professional-plus-blender-with-auto-iq/BN701.html",
