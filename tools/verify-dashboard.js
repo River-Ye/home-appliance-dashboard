@@ -2,6 +2,7 @@ const path = require("path");
 const os = require("os");
 const {
   runProductLoadSchedulingJourney,
+  runInitializationFailureJourney,
   runExhaustiveViewport,
   runSmokeViewport,
   runDesktopJourney,
@@ -27,6 +28,7 @@ function loadPlaywright() {
   const browser = await chromium.launch({ headless: true });
   try {
     await runProductLoadSchedulingJourney(browser);
+    await runInitializationFailureJourney(browser);
     await runCategoryPageJourneys(browser);
     if (fullMode) {
       await runExhaustiveViewport(browser, "dashboard-wide-desktop", { width: 2048, height: 1152 });

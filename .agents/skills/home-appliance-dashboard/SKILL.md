@@ -30,7 +30,7 @@ Use a dedicated git worktree and short-lived `codex/` branch for repo changes un
 
 - Preserve `products/*.js` as the product data boundary and keep `registerProducts(categoryId, items)` compatible.
 - Keep `assets/js/config.js` `meta`, `tools/dashboard-contract.js`, README, AGENTS, and visible page dates/counts in sync.
-- Keep the browser-throttled mobile Lighthouse budgets enforced by `npm run check:quality`: Performance ≥ 90, LCP ≤ 2.5s, CLS ≤ 0.1, TBT ≤ 200ms, Accessibility = 100, and SEO ≥ 95.
+- Keep the Lighthouse budgets enforced by `npm run check:quality`: browser-throttled Performance ≥ 90, LCP ≤ 2.5s, CLS ≤ 0.1, Accessibility = 100, SEO ≥ 95, plus runner-independent Lantern TBT ≤ 200ms.
 - Do not delete products from weak signals such as one stale image URL, one transient page error, or PChome `Qty: 0`.
 - Do not rewrite the app into a framework or add a build pipeline unless the user explicitly asks for that architectural change.
 - 只允許本次核准的 Google AdSense 手動廣告與 Google CMP；保留兩個 responsive manual slots 與正式 hostname gate；`https://appliance.riverye.com/` 必須維持 AdSense 全站 Auto ads page exclusion，不得擴充為其他追蹤。

@@ -80,6 +80,30 @@ async function runProductLoadSchedulingJourney(browser) {
   try {
     await page.addInitScript(() => {
       window.__productLoadProbe = [];
+      window.__executingScheduledTask = false;
+      window.__productRenderAfterLoadTask = null;
+      const originalSetTimeout = window.setTimeout.bind(window);
+      window.setTimeout = (callback, delay, ...args) => originalSetTimeout(() => {
+        const previousScheduledTaskState = window.__executingScheduledTask;
+        window.__executingScheduledTask = true;
+        try {
+          callback(...args);
+        } finally {
+          window.__executingScheduledTask = previousScheduledTaskState;
+        }
+      }, delay);
+      const innerHtmlDescriptor = Object.getOwnPropertyDescriptor(Element.prototype, "innerHTML");
+      Object.defineProperty(Element.prototype, "innerHTML", {
+        configurable: innerHtmlDescriptor.configurable,
+        enumerable: innerHtmlDescriptor.enumerable,
+        get: innerHtmlDescriptor.get,
+        set(value) {
+          if (this.id === "productGrid" && typeof value === "string" && value.includes("product-card")) {
+            window.__productRenderAfterLoadTask = window.__executingScheduledTask;
+          }
+          innerHtmlDescriptor.set.call(this, value);
+        },
+      });
       const originalAppend = HTMLHeadElement.prototype.append;
       HTMLHeadElement.prototype.append = function appendWithProductLoadProbe(...nodes) {
         nodes.forEach((node) => {
@@ -117,6 +141,10 @@ async function runProductLoadSchedulingJourney(browser) {
     if (records.some((record) => record.loadedAt === null)) {
       throw new Error(`${name}: app initialized before every product script finished`);
     }
+    const renderedAfterLoadTask = await page.evaluate(() => window.__productRenderAfterLoadTask);
+    if (renderedAfterLoadTask !== true) {
+      throw new Error(`${name}: app initialization should start in a new task after product scripts load`);
+    }
 
     const lastAppend = Math.max(...records.map((record) => record.appendedAt));
     const firstLoad = Math.min(...records.map((record) => record.loadedAt));
@@ -137,6 +165,54 @@ async function runProductLoadSchedulingJourney(browser) {
       throw new Error(`${name}: expected ${EXPECTED_CATEGORY_COUNT} top picks, got ${topPickCount}`);
     }
     assertNoRuntimeIssues(page, name);
+  } finally {
+    await page.close();
+  }
+}
+
+async function runInitializationFailureJourney(browser) {
+  const name = "dashboard-initialization-failure";
+  const page = await browser.newPage({ viewport: { width: 1440, height: 1100 } });
+  attachRuntimeIssueCollector(page);
+  try {
+    await page.addInitScript(() => {
+      window.__forcedInitializationErrorObserved = false;
+      window.addEventListener("error", () => {
+        window.__forcedInitializationErrorObserved = true;
+      });
+      const innerHtmlDescriptor = Object.getOwnPropertyDescriptor(Element.prototype, "innerHTML");
+      Object.defineProperty(Element.prototype, "innerHTML", {
+        configurable: innerHtmlDescriptor.configurable,
+        enumerable: innerHtmlDescriptor.enumerable,
+        get: innerHtmlDescriptor.get,
+        set(value) {
+          if (this.id === "productGrid" && typeof value === "string" && value.includes("product-card")) {
+            throw new Error("forced initialization failure");
+          }
+          innerHtmlDescriptor.set.call(this, value);
+        },
+      });
+    });
+
+    await page.goto(fileUrl, { waitUntil: "domcontentloaded" });
+    await page.waitForFunction(() => (
+      document.querySelector("#productGrid")?.textContent?.includes("商品資料載入失敗")
+      || window.__forcedInitializationErrorObserved
+    ));
+    const result = await page.evaluate(() => ({
+      busy: document.querySelector("#mainContent")?.getAttribute("aria-busy"),
+      errorVisible: document.querySelector("#productGrid")?.textContent?.includes("商品資料載入失敗"),
+      status: document.querySelector("#dashboardStatus")?.textContent || "",
+    }));
+    if (!result.errorVisible || result.busy !== "false" || !result.status.includes("商品資料載入失敗")) {
+      throw new Error(`${name}: initialization error was not rendered safely ${JSON.stringify(result)}`);
+    }
+    const unexpectedIssues = (page.__dashboardRuntimeIssues || []).filter((issue) => (
+      !(issue.startsWith("console:") && issue.includes("forced initialization failure"))
+    ));
+    if (unexpectedIssues.length) {
+      throw new Error(`${name}: unexpected runtime errors ${JSON.stringify(unexpectedIssues.slice(0, 10))}`);
+    }
   } finally {
     await page.close();
   }
@@ -940,6 +1016,7 @@ async function runMobileJourney(browser) {
 
 module.exports = {
   runProductLoadSchedulingJourney,
+  runInitializationFailureJourney,
   runExhaustiveViewport,
   runSmokeViewport,
   runDesktopJourney,

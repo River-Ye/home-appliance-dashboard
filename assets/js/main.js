@@ -105,7 +105,15 @@
 
   function loadDashboard() {
     productLoader.loadAll()
-      .then(initializeApp)
+      .then(() => new Promise((resolve, reject) => {
+        window.setTimeout(() => {
+          try {
+            resolve(initializeApp());
+          } catch (error) {
+            reject(error);
+          }
+        }, 0);
+      }))
       .catch(renderLoadFailure);
   }
 

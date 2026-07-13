@@ -56,4 +56,4 @@ npm run check
 - `npm run check:docs`：檢查 README、AGENTS、index/config 的商品數、分類數、日期與 cache version 沒有漂移。
 - `npm run check:geo`：檢查 25 個分類頁、metadata、結構化資料、內部連結、sitemap、llms、證據檔、Pages artifact、IndexNow contract 與所有產生結果沒有漂移。
 - `npm run check:ui`：用 Playwright 驗證桌機/手機搜尋、篩選、排序、lazy loading、比較清單、負評警示與推薦卡高亮。
-- `npm run check:quality`：用 Lighthouse 的瀏覽器套用行動網路／CPU throttling，驗證首頁與代表分類頁的 Performance、LCP、CLS、TBT、Accessibility 與 SEO 預算。
+- `npm run check:quality`：用 Lighthouse 驗證首頁與代表分類頁；Performance、LCP、CLS、Accessibility 與 SEO 採瀏覽器行動 throttling，TBT 採 Lantern 標準化模擬以排除 CI runner 硬體差異，門檻仍為 200ms。

@@ -298,7 +298,7 @@
 - `npm run check:docs`：README、AGENTS、index/config 的商品數、分類數、日期與 cache version 不漂移。
 - `npm run check:geo`：25 個分類頁、metadata、結構化資料、首頁分類入口、sitemap、llms、六份公開證據檔、Pages artifact、IndexNow contract 與產生結果均無漂移。
 - `npm run check:ui`：桌機與手機版主要互動流程通過。
-- `npm run check:quality`：以 Lighthouse 瀏覽器套用行動網路／CPU throttling；首頁 Performance ≥ 90、LCP ≤ 2.5s、CLS ≤ 0.1、TBT ≤ 200ms、Accessibility = 100、SEO ≥ 95；代表分類頁 Performance、Accessibility、SEO 均 ≥ 95。
+- `npm run check:quality`：Lighthouse 的 Performance、LCP、CLS、Accessibility 與 SEO 採瀏覽器行動 throttling，TBT 採 Lantern 標準化模擬；首頁 Performance ≥ 90、LCP ≤ 2.5s、CLS ≤ 0.1、TBT ≤ 200ms、Accessibility = 100、SEO ≥ 95；代表分類頁 Performance、Accessibility、SEO 均 ≥ 95。
 - 商品總數仍符合 README 與分類 tab 顯示。
 - 每筆商品必要欄位齊全。
 - 每筆商品皆有負評／災情查核；`product_issue_review_manifest.json` 覆蓋完整商品清單，成立警示符合 6 位獨立使用者與 2 個原始平台，且 `product_issue_research.json` 的逐人證據與商品資料逐筆對齊。
