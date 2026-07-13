@@ -563,20 +563,20 @@
     "name": "V15 Detect Fluffy 智慧無線吸塵器",
     "price": {
       "currency": "TWD",
-      "amount": 17363,
-      "converted": 17363,
-      "confidence": "Yahoo購物中心 2026-07-11 頁面查核價"
+      "amount": 17900,
+      "converted": 17900,
+      "confidence": "PChome 2026-07-14 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAX00A900HC7B6/000001_1782183523.jpg",
-    "buyUrl": "https://tw.buy.yahoo.com/gdsale/Dyson-%E6%88%B4%E6%A3%AEV15-Detect-Fluffy-SV47-%E5%BC%B7%E5%8B%81%E6%99%BA%E6%85%A7%E7%84%A1%E7%B7%9A%E5%90%B8%E5%A1%B5%E5%99%A8-%E9%9B%99%E4%B8%BB%E5%90%B8%E9%A0%AD%E7%B5%84-11097062.html",
-    "buyLabel": "Yahoo購物中心",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DMAX00-A900HC7B6",
+    "buyLabel": "PChome",
     "specs": [
       "無線吸塵",
       "Detect 顯塵",
       "除螨",
       "SV47"
     ],
-    "description": "Dyson V15 Detect Fluffy SV47 是吸塵器類的補充比較型號，依 2026-07-09 通路頁面整理售價、圖片與核心規格。",
+    "description": "Dyson V15 Detect Fluffy SV47 是吸塵器類的補充比較型號，依 2026-07-14 通路頁面整理售價、圖片與核心規格。",
     "pros": [
       "從手持到洗地機價差清楚",
       "可依重量與吸頭配置挑選"

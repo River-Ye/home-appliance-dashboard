@@ -485,9 +485,9 @@
     "name": "無限續航滾筒洗地機器人",
     "price": {
       "currency": "TWD",
-      "amount": 22999,
-      "converted": 22999,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 20699,
+      "converted": 20699,
+      "confidence": "PChome 2026-07-14 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL0LA900J5HJ0/000001_1766715791.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBL0L-A900J5HJ0",
@@ -563,9 +563,9 @@
     "name": "滾筒活水洗地掃拖機器人",
     "price": {
       "currency": "TWD",
-      "amount": 16999,
-      "converted": 16999,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 15299,
+      "converted": 15299,
+      "confidence": "PChome 2026-07-14 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL0LA900IT3IU/000001_1763087795.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBL0L-A900IT3IU",
@@ -660,9 +660,9 @@
     "name": "超薄全覆蓋全能旗艦掃拖機器人",
     "price": {
       "currency": "TWD",
-      "amount": 14999,
-      "converted": 14999,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 13499,
+      "converted": 13499,
+      "confidence": "PChome 2026-07-14 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL0LA900IDIPA/000001_1763087835.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBL0L-A900IDIPA",
@@ -738,9 +738,9 @@
     "name": "強清潔全能掃拖機器人",
     "price": {
       "currency": "TWD",
-      "amount": 12999,
-      "converted": 12999,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 11699,
+      "converted": 11699,
+      "confidence": "PChome 2026-07-14 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL0LA900J0KF3/000001_1765762606.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBL0L-A900J0KF3",
@@ -816,9 +816,9 @@
     "name": "AI 藍光辨識超薄掃拖旗艦機低矮版",
     "price": {
       "currency": "TWD",
-      "amount": 31980,
-      "converted": 31980,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 28782,
+      "converted": 28782,
+      "confidence": "PChome 2026-07-14 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL3EA900JZ3SP/000001_1780033309.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBL3E-A900JZ3SP",
@@ -894,9 +894,9 @@
     "name": "全能掃拖機器人",
     "price": {
       "currency": "TWD",
-      "amount": 9999,
-      "converted": 9999,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 8999,
+      "converted": 8999,
+      "confidence": "PChome 2026-07-14 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL3EA900JY4G0/000001_1780033612.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBL3E-A900JY4G0",
@@ -2172,11 +2172,11 @@
       "currency": "USD",
       "amount": 1199.99,
       "converted": 38484,
-      "confidence": "Dyson US 2026-07-13 查核價；依 2026-07-13 匯率換算"
+      "confidence": "Best Buy US 2026-07-14 頁面查核價；依 2026-07-13 匯率換算"
     },
     "image": "https://dyson-h.assetsadobe2.com/is/image/content/dam/dyson/products/home/floorcare/robot/spot-scrub-ai/rcc/Web-804A-Category-Page-Module1.jpg?$responsive$&fmt=pjpeg&wid=640",
-    "buyUrl": "https://www.dyson.com/vacuum-cleaners/robot/spot-scrub-ai/black",
-    "buyLabel": "Dyson US",
+    "buyUrl": "https://www.bestbuy.com/product/dyson-spot-scrub-ai-wet-and-dry-robot-vacuum-matched-black-blue/J3ZCSY2QPG",
+    "buyLabel": "Best Buy US",
     "specs": [
       "18000Pa",
       "AI 汙漬辨識",
@@ -2189,18 +2189,18 @@
       "濕拖、汙漬偵測與無集塵袋基站有特色"
     ],
     "cons": [
-      "官方頁目前顯示 Notify me，供貨需確認",
+      "海外通路庫存與到貨時程可能變動",
       "海外版需確認電壓、插頭與台灣保固"
     ],
-    "bestFor": "想追 Dyson 最新掃拖機器人，且能等待供貨、接受海外版風險的人。",
+    "bestFor": "想追 Dyson 最新掃拖機器人，且能接受海外版運費、稅金、電壓與保固風險的人。",
     "recommendation": "Dyson 海外旗艦參考：品牌辨識度高，但供貨與價格不穩，不列為台灣綜合推薦。",
     "score": 84,
     "voltage": "海外版本，需確認 100-240V、插頭與變壓器需求",
-    "warranty": "可能無台灣保固，購買前需向通路確認",
+    "warranty": "Best Buy US / 海外通路，可能無台灣保固，購買前需確認",
     "tags": [
       "旗艦",
       "海外參考",
-      "供貨待確認"
+      "現貨查核"
     ],
     "releaseDate": "2026-03-12",
     "historicalLow": {
@@ -2495,9 +2495,9 @@
     "name": "ECOVACS DEEBOT T90 PRO OMNI",
     "price": {
       "currency": "TWD",
-      "amount": 20999,
-      "converted": 20999,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 18899,
+      "converted": 18899,
+      "confidence": "PChome 2026-07-14 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL0LA900JWVON/000001_1776138874.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBL0L-A900JWVON",
@@ -2579,9 +2579,9 @@
     "name": "ECOVACS DEEBOT X12 PRO OMNI",
     "price": {
       "currency": "TWD",
-      "amount": 29999,
-      "converted": 29999,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 26999,
+      "converted": 26999,
+      "confidence": "PChome 2026-07-14 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL0LA900JS61Y/000001_1772592930.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBL0L-A900JS61Y",

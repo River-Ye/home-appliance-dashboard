@@ -17,9 +17,9 @@
     "name": "SAKER 30KG 57 吋高承重氣壓式螢幕支架",
     "price": {
       "currency": "TWD",
-      "amount": 2789,
-      "converted": 2789,
-      "confidence": "PChome 2026-07-13 公開折後價"
+      "amount": 2549,
+      "converted": 2549,
+      "confidence": "PChome 2026-07-14 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DCBBC5A900JM6ZN/000001_1767687719.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DCBBC5-A900JM6ZN",
@@ -98,9 +98,9 @@
     "name": "TAYLOR 27KG 57 吋鋁合金氣壓式螢幕支架",
     "price": {
       "currency": "TWD",
-      "amount": 2899,
-      "converted": 2899,
-      "confidence": "可信通路查核價"
+      "amount": 2849,
+      "converted": 2849,
+      "confidence": "PChome 2026-07-14 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DCAGRJA900I6VLQ/000001_1734668162.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DCAGRJ-A900I6VLQ",
@@ -136,16 +136,16 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 2899,
+      "amount": 2849,
       "currency": "TWD",
-      "converted": 2899,
+      "converted": 2849,
       "sourceUrl": "https://24h.pchome.com.tw/prod/DCAGRJ-A900I6VLQ",
       "sourceTitle": "PChome 商品 API：Raymii LS-104-M1 高承重螢幕支架 / 瑞米 Raymii LS-104-M1 鋁合金 氣壓式螢幕支架 USB3.0 TYPE-C 螢幕架 螢幕增高支架",
-      "evidenceSnippet": "PChome 商品 API 於 2026-07-10 回傳同一商品頁「Raymii LS-104-M1 高承重螢幕支架 / 瑞米 Raymii LS-104-M1 鋁合金 氣壓式螢幕支架 USB3.0 TYPE-C 螢幕架 螢幕增高支架」查核價 NT$2,899，低於原先記錄史低。",
+      "evidenceSnippet": "PChome 商品 API 於 2026-07-14 回傳同一商品頁「Raymii LS-104-M1 高承重螢幕支架 / 瑞米 Raymii LS-104-M1 鋁合金 氣壓式螢幕支架 USB3.0 TYPE-C 螢幕架 螢幕增高支架」公開價 NT$2,849，低於原先記錄史低。",
       "sourceKind": "retailer_page",
       "confidence": "medium",
-      "checkedAt": "2026-07-10",
-      "note": "採用可信通路同一商品頁可公開查核現價作為本次觀測到的最低價；同型號/規格並排除會員個人化折扣、信用卡回饋、點數、二手、福利品、展示機、箱損、拆封與整新品。"
+      "checkedAt": "2026-07-14",
+      "note": "採用可信通路同一商品頁可公開查核價格作為本次觀測到的最低價；查核時頁面為缺貨追蹤，不代表現貨可立即購買。同型號/規格並排除會員個人化折扣、信用卡回饋、點數、二手、福利品、展示機、箱損、拆封與整新品。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -503,9 +503,9 @@
     "name": "MOJO 20KG 49 吋超高承重螢幕支架",
     "price": {
       "currency": "TWD",
-      "amount": 959,
-      "converted": 959,
-      "confidence": "PChome 2026-07-10 API 查核價"
+      "amount": 1019,
+      "converted": 1019,
+      "confidence": "PChome 2026-07-14 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DCAGRJA900IWS5L/000001_1749202897.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DCAGRJ-A900IWS5L",
@@ -584,9 +584,9 @@
     "name": "MOJO 20KG 49 吋加高型超高承重螢幕支架",
     "price": {
       "currency": "TWD",
-      "amount": 1319,
-      "converted": 1319,
-      "confidence": "PChome 2026-07-10 API 查核價"
+      "amount": 1379,
+      "converted": 1379,
+      "confidence": "PChome 2026-07-14 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DCAGRJA900JVFY0/000001_1775114085.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DCAGRJ-A900JVFY0",

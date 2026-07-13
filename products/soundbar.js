@@ -109,13 +109,13 @@
     "name": "5.1.2 聲道 Q 系列 Soundbar 家庭劇院",
     "price": {
       "currency": "TWD",
-      "amount": 31255,
-      "converted": 31255,
-      "confidence": "Yahoo購物中心 2026-07-11 頁面查核價"
+      "amount": 35900,
+      "converted": 35900,
+      "confidence": "PChome 2026-07-14 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAAODA900K53X0/000001_1782210112.jpg",
-    "buyUrl": "https://tw.buy.yahoo.com/gdsale/Samsung%E4%B8%89%E6%98%9F-5-1-2%E8%81%B2%E9%81%93-%E8%97%8D%E7%89%99%E8%81%B2%E9%9C%B8-HW-Q800H-ZW-12124622.html",
-    "buyLabel": "Yahoo購物中心",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DMAAOD-A900K53X0",
+    "buyLabel": "PChome",
     "specs": [
       "5.1.2 聲道",
       "無線重低音",
@@ -189,7 +189,7 @@
       "currency": "TWD",
       "amount": 11900,
       "converted": 11900,
-      "confidence": "PChome 2026-07-13 API 查核價"
+      "confidence": "PChome 2026-07-14 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAAODA900JMC1Q/000001_1781726516.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAAOD-A900JMC1Q",
@@ -1522,9 +1522,9 @@
     "name": "Fidelio 7.1.2 Dolby Atmos 旗艦聲霸",
     "price": {
       "currency": "TWD",
-      "amount": 35010,
-      "converted": 35010,
-      "confidence": "PChome 2026-07-13 API 查核價"
+      "amount": 35399,
+      "converted": 35399,
+      "confidence": "PChome 2026-07-14 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAF02A900H2G5R/000001_1704612188.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAF02-A900H2G5R",
@@ -1682,11 +1682,11 @@
       "currency": "USD",
       "amount": 699.99,
       "converted": 22449,
-      "confidence": "Marshall US 2026-07-09 查核價；官方頁顯示 Out of stock，依 2026-07-13 匯率換算"
+      "confidence": "Best Buy US 2026-07-14 頁面查核價；依 2026-07-13 匯率換算"
     },
     "image": "https://images.ctfassets.net/javen7msabdh/3yitHqjPBTgQk5qRE72PSn/2788206646aa153f71f2c0ebefaff580/Heston-60-black_plp_800x800-v3.jpeg",
-    "buyUrl": "https://www.marshall.com/us/en/product/heston-60",
-    "buyLabel": "Marshall US",
+    "buyUrl": "https://www.bestbuy.com/product/marshall-heston-60-soundbar-with-dolby-atmos-immersive-sound-for-tv-movies-music-black/CFCR4H4GSQ",
+    "buyLabel": "Best Buy US",
     "specs": [
       "5.1 聲道",
       "Dolby Atmos / DTS:X",
@@ -1700,14 +1700,14 @@
       "支援 DTS:X 與主流 Wi-Fi 串流"
     ],
     "cons": [
-      "官方頁查核時顯示缺貨",
+      "海外通路庫存與到貨時程可能變動",
       "若要更強低頻需另購 Heston Sub 200"
     ],
-    "bestFor": "想在小客廳、臥室或書房比較有設計感的 Atmos 聲霸，但可接受海外庫存與保固不確定性的人。",
-    "recommendation": "海外參考：Heston 60 是 Marshall 較好入手的緊湊型聲霸，聲道與串流規格完整；但缺貨、運費稅金與台灣保固需先確認。",
+    "bestFor": "想在小客廳、臥室或書房比較有設計感的 Atmos 聲霸，且能接受海外運費、稅金與保固風險的人。",
+    "recommendation": "海外參考：Heston 60 是 Marshall 較好入手的緊湊型聲霸，聲道與串流規格完整；運費稅金與台灣保固仍需先確認。",
     "score": 83,
     "voltage": "海外版本，購買前確認 110V/插頭與變壓器需求",
-    "warranty": "Marshall US / 海外通路，官方頁查核時顯示缺貨且可能無台灣保固",
+    "warranty": "Best Buy US / 海外通路，可能無台灣保固，購買前需確認",
     "tags": [
       "Marshall",
       "Atmos",

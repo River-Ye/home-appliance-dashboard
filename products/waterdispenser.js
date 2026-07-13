@@ -15,9 +15,9 @@
     "image": "https://cs-a.ecimg.tw/items/DAANBRA900ASZRJ/000001_1758695631.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 9190,
-      "converted": 9190,
-      "confidence": "PChome 2026-07-13 API 查核價"
+      "amount": 8087,
+      "converted": 8087,
+      "confidence": "PChome 2026-07-14 API 查核價"
     },
     "channel": "tw",
     "buyLabel": "PChome",

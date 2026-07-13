@@ -18934,69 +18934,6 @@
       }
     },
     {
-      "id": "knife-tojiro-black-zen-f-187bk-165mm",
-      "category": "knife",
-      "brand": "TOJIRO",
-      "model": "Black Zen F-187BK 165mm",
-      "reviewedAt": "2026-07-11",
-      "reviewBatch": "knife",
-      "decision": "no_common_issue",
-      "checkedPlatforms": [
-        "Mobile01",
-        "Reddit"
-      ],
-      "queries": [
-        {
-          "platform": "Mobile01",
-          "query": "site:mobile01.com \"TOJIRO Black Zen F-187BK 165mm\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22TOJIRO%20Black%20Zen%20F-187BK%20165mm%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
-          "targetHost": "mobile01.com"
-        },
-        {
-          "platform": "Reddit",
-          "query": "site:reddit.com \"TOJIRO Black Zen F-187BK 165mm\" (problem OR issue OR defect OR \"negative review\")",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22TOJIRO%20Black%20Zen%20F-187BK%20165mm%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
-          "targetHost": "reddit.com"
-        }
-      ],
-      "candidateDisposition": "Black Zen F-187BK 165mm：重新執行 Mobile01、Reddit exact-model 查詢，搜尋結果沒有 exact-model 原頁候選；此結果不代表完全沒有負評。",
-      "representativeSources": [],
-      "reviewerNote": "Black Zen F-187BK 165mm 已於 2026-07-11 實際請求兩個 Bing RSS exact-model 跨站查詢；兩站均無 exact-model 原頁候選，維持 no_common_issue，未以搜尋摘要當作負評證據。",
-      "attestation": "manual_cross_site_search_reviewed_no_candidate",
-      "candidateReviews": [],
-      "recheck": {
-        "checkedAt": "2026-07-11",
-        "queryChecks": [
-          {
-            "platform": "Mobile01",
-            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22TOJIRO%20Black%20Zen%20F-187BK%20165mm%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
-            "targetHost": "mobile01.com",
-            "httpStatus": 200,
-            "finalUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22TOJIRO%20Black%20Zen%20F-187BK%20165mm%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
-            "responseTitle": "Bing: site:mobile01.com \"TOJIRO Black Zen F-187BK 165mm\" (災情 OR 問題 OR 故障 OR 負評)",
-            "exactModelCandidates": 0,
-            "blocked": false,
-            "error": null
-          },
-          {
-            "platform": "Reddit",
-            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22TOJIRO%20Black%20Zen%20F-187BK%20165mm%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
-            "targetHost": "reddit.com",
-            "httpStatus": 200,
-            "finalUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22TOJIRO%20Black%20Zen%20F-187BK%20165mm%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
-            "responseTitle": "Bing: site:reddit.com \"TOJIRO Black Zen F-187BK 165mm\" (problem OR issue OR defect OR \"negative review\")",
-            "exactModelCandidates": 0,
-            "blocked": false,
-            "error": null
-          }
-        ],
-        "originalPageChecks": [],
-        "allQueryRequestsSucceeded": true,
-        "allCandidateOriginalPagesSucceeded": true,
-        "note": "跨兩個獨立 target website 的 exact-model 查詢沒有留下需逐頁判讀的候選。"
-      }
-    },
-    {
       "id": "knife-tefal-ice-force",
       "category": "knife",
       "brand": "Tefal",

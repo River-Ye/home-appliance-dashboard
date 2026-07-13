@@ -518,9 +518,9 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/2618755F67-Product-24570513.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 6621,
-      "converted": 6621,
-      "confidence": "PChome 2026-07-13 API 查核價"
+      "amount": 7120,
+      "converted": 7120,
+      "confidence": "PChome 2026-07-14 API 查核價"
     },
     "channel": "tw",
     "buyLabel": "PChome",

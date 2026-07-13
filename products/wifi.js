@@ -1671,9 +1671,9 @@
     "name": "BE11000 Mesh Wi-Fi 7 電競路由器",
     "price": {
       "currency": "TWD",
-      "amount": 5390,
-      "converted": 5390,
-      "confidence": "PChome 2026-07-13 API 查核價"
+      "amount": 5490,
+      "converted": 5490,
+      "confidence": "PChome 2026-07-14 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAF02A900I473A/000001_1732699929.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DRAF02-A900I473A",
@@ -1829,13 +1829,13 @@
     "name": "AX3000 Mesh 路由器兩件裝",
     "price": {
       "currency": "TWD",
-      "amount": 1999,
-      "converted": 1999,
-      "confidence": "Yahoo購物中心 2026-07-11 頁面查核價"
+      "amount": 2159,
+      "converted": 2159,
+      "confidence": "PChome 2026-07-14 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DYANAIA900HNEUP/000001_1730700224.jpg",
-    "buyUrl": "https://tw.buy.yahoo.com/gdsale/%E5%B0%8F%E7%B1%B3-Xiaomi-AX3000-Mesh-%E8%B7%AF%E7%94%B1%E5%99%A8-%E5%85%A9%E4%BB%B6%E8%A3%9D-%E5%AE%98%E6%96%B9%E6%97%97%E8%89%A6%E9%A4%A8-11787650.html",
-    "buyLabel": "Yahoo購物中心",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DYANAI-A900HNEUP",
+    "buyLabel": "PChome",
     "specs": [
       "Wi-Fi 6",
       "AX3000 雙頻",
@@ -2912,13 +2912,13 @@
     "name": "Wi-Fi 6E 三頻電競路由器",
     "price": {
       "currency": "TWD",
-      "amount": 7671,
-      "converted": 7671,
-      "confidence": "Yahoo購物中心 2026-07-11 頁面查核價"
+      "amount": 7990,
+      "converted": 7990,
+      "confidence": "PChome 2026-07-14 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAFKSA900HEQVN/000001_1713512948.jpg",
-    "buyUrl": "https://tw.buy.yahoo.com/gdsale/MSI-RadiX-AXE6600-WiFi-6E-Tri-Band-Gaming-Router-%E4%B8%89-11104213.html",
-    "buyLabel": "Yahoo購物中心",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DRAFKS-A900HEQVN",
+    "buyLabel": "PChome",
     "specs": [
       "Wi-Fi 6E",
       "AXE6600 三頻",
@@ -3232,9 +3232,9 @@
     "name": "Wi-Fi 6 雙 10GbE SD-WAN 路由器",
     "price": {
       "currency": "TWD",
-      "amount": 7740,
-      "converted": 7740,
-      "confidence": "PChome 2026-07-13 API 查核價"
+      "amount": 7990,
+      "converted": 7990,
+      "confidence": "PChome 2026-07-14 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAG6JA900AUW3D/000001_1626400932.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DRAG6J-A900AUW3D",

@@ -449,9 +449,9 @@ async function runExhaustiveViewport(browser, name, viewport) {
     if (!found) throw new Error(`${name}: missing cookware brand ${expected}`);
   }
 
-  const knifeTab = page.getByRole("button", { name: "刀具 22" });
+  const knifeTab = page.getByRole("button", { name: "刀具 21" });
   await knifeTab.click();
-  await page.waitForFunction(() => document.querySelector("#visibleCount")?.textContent?.trim() === "22");
+  await page.waitForFunction(() => document.querySelector("#visibleCount")?.textContent?.trim() === "21");
   await loadAllVisibleProducts(page);
   for (const expected of ["TOJIRO", "GLOBAL", "Victorinox", "Kai", "Kyocera", "Wusthof"]) {
     const found = await page.locator(".product-card", { hasText: expected }).count();

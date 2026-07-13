@@ -1,13 +1,13 @@
 {
   "summary": {
     "checkedAt": "2026-07-11T03:49:58.000Z",
-    "total": 661,
+    "total": 660,
     "found": 167,
-    "missing": 494,
+    "missing": 493,
     "byConfidence": {
       "official": 68,
       "credible_article": 88,
-      "not_found": 494,
+      "not_found": 493,
       "retailer_explicit": 11
     }
   },
@@ -3893,20 +3893,6 @@
       "evidenceSnippet": "",
       "confidence": "not_found",
       "query": "Victorinox 5.2000.15 release date launch announced",
-      "error": "Browser Use cannot open https://www.bing.com/search in tab 1139074745. Browser reported: net::ERR_CONNECTION_CLOSED"
-    },
-    {
-      "id": "knife-tojiro-black-zen-f-187bk-165mm",
-      "category": "knife",
-      "brand": "TOJIRO",
-      "model": "Black Zen F-187BK 165mm",
-      "name": "TOJIRO Black Zen F-187BK 165mm",
-      "releaseDate": "找不到",
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "confidence": "not_found",
-      "query": "TOJIRO F-187BK release date launch announced",
       "error": "Browser Use cannot open https://www.bing.com/search in tab 1139074745. Browser reported: net::ERR_CONNECTION_CLOSED"
     },
     {

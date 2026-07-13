@@ -1,9 +1,9 @@
 {
   "summary": {
     "checkedAt": "2026-07-13T00:00:00+08:00",
-    "total": 661,
+    "total": 660,
     "commonIssueProducts": 36,
-    "noCommonIssueProducts": 625,
+    "noCommonIssueProducts": 624,
     "pendingManualReview": 0,
     "commonIssues": 36,
     "searchUnavailable": 0,
@@ -31964,95 +31964,6 @@
           "platform": "Reddit",
           "query": "site:reddit.com \"Victorinox 5.2000.15\" (problem OR issue OR defect OR \"negative review\")",
           "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Victorinox%205.2000.15%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
-          "result": "no_exact_model_result",
-          "resultCount": 0,
-          "candidateUrls": [],
-          "candidates": [],
-          "inspectedAt": "2026-07-11T00:00:00+08:00"
-        }
-      ],
-      "evidence": [],
-      "rejectedCandidates": []
-    },
-    {
-      "id": "knife-tojiro-black-zen-f-187bk-165mm",
-      "category": "knife",
-      "brand": "TOJIRO",
-      "model": "Black Zen F-187BK 165mm",
-      "name": "TOJIRO Black Zen F-187BK 165mm",
-      "identity": {
-        "canonicalModel": "Black Zen F-187BK 165mm",
-        "lookupLabel": "TOJIRO Black Zen F-187BK 165mm",
-        "aliases": [
-          "TOJIRO Black Zen F-187BK 165mm",
-          "TOJIRO F-187BK"
-        ],
-        "evidenceUrl": "https://24h.pchome.com.tw/prod/DSBE0M-A900JDNTU"
-      },
-      "workflowStatus": "completed",
-      "manualReview": {
-        "status": "completed",
-        "decision": "no_common_issue",
-        "reviewedAt": "2026-07-11",
-        "checkedPlatforms": [
-          "Mobile01",
-          "Reddit"
-        ],
-        "queries": [
-          {
-            "platform": "Mobile01",
-            "query": "site:mobile01.com \"TOJIRO Black Zen F-187BK 165mm\" (災情 OR 問題 OR 故障 OR 負評)",
-            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22TOJIRO%20Black%20Zen%20F-187BK%20165mm%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
-            "targetHost": "mobile01.com"
-          },
-          {
-            "platform": "Reddit",
-            "query": "site:reddit.com \"TOJIRO Black Zen F-187BK 165mm\" (problem OR issue OR defect OR \"negative review\")",
-            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22TOJIRO%20Black%20Zen%20F-187BK%20165mm%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
-            "targetHost": "reddit.com"
-          }
-        ],
-        "candidateDisposition": "Black Zen F-187BK 165mm：重新執行 Mobile01、Reddit exact-model 查詢，搜尋結果沒有 exact-model 原頁候選；此結果不代表完全沒有負評。",
-        "representativeSources": [],
-        "candidateReviews": [],
-        "reviewerNote": "Black Zen F-187BK 165mm 已於 2026-07-11 實際請求兩個 Bing RSS exact-model 跨站查詢；兩站均無 exact-model 原頁候選，維持 no_common_issue，未以搜尋摘要當作負評證據。",
-        "attestation": "manual_cross_site_search_reviewed_no_candidate"
-      },
-      "issueResearch": {
-        "status": "no_common_issue",
-        "checkedAt": "2026-07-11",
-        "summary": "截至查核日，查無達門檻的集中負評／災情",
-        "issues": [],
-        "checkedSources": [
-          {
-            "platform": "Mobile01",
-            "query": "site:mobile01.com \"TOJIRO Black Zen F-187BK 165mm\" (災情 OR 問題 OR 故障 OR 負評)",
-            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22TOJIRO%20Black%20Zen%20F-187BK%20165mm%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
-            "targetHost": "mobile01.com"
-          },
-          {
-            "platform": "Reddit",
-            "query": "site:reddit.com \"TOJIRO Black Zen F-187BK 165mm\" (problem OR issue OR defect OR \"negative review\")",
-            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22TOJIRO%20Black%20Zen%20F-187BK%20165mm%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
-            "targetHost": "reddit.com"
-          }
-        ]
-      },
-      "searchChecks": [
-        {
-          "platform": "Mobile01",
-          "query": "site:mobile01.com \"TOJIRO Black Zen F-187BK 165mm\" (災情 OR 問題 OR 故障 OR 負評)",
-          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22TOJIRO%20Black%20Zen%20F-187BK%20165mm%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
-          "result": "no_exact_model_result",
-          "resultCount": 0,
-          "candidateUrls": [],
-          "candidates": [],
-          "inspectedAt": "2026-07-11T00:00:00+08:00"
-        },
-        {
-          "platform": "Reddit",
-          "query": "site:reddit.com \"TOJIRO Black Zen F-187BK 165mm\" (problem OR issue OR defect OR \"negative review\")",
-          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22TOJIRO%20Black%20Zen%20F-187BK%20165mm%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
           "result": "no_exact_model_result",
           "resultCount": 0,
           "candidateUrls": [],

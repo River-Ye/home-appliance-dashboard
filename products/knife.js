@@ -1004,91 +1004,8 @@
     }
   },
   {
-    "id": "knife-tojiro-black-zen-f-187bk-165mm",
-    "rank": 13,
-    "topPick": false,
-    "brand": "TOJIRO",
-    "model": "Black Zen F-187BK 165mm",
-    "name": "TOJIRO Black Zen F-187BK 165mm",
-    "image": "https://cs-a.ecimg.tw/items/DSBE0MA900JDNTU/000001_1761539652.jpg",
-    "price": {
-      "currency": "TWD",
-      "amount": 3690,
-      "converted": 3690,
-      "confidence": "PChome 24h 低價查核"
-    },
-    "channel": "tw",
-    "buyLabel": "PChome",
-    "buyUrl": "https://24h.pchome.com.tw/prod/DSBE0M-A900JDNTU",
-    "specs": [
-      "刀具：藤次郎 黑禪 BLACK 180mm 牛刀 FD-1563",
-      "刀型/刃長依商品頁標示",
-      "PChome 24h 可信通路低價",
-      "排除刮鬍刀/刀架/配件"
-    ],
-    "description": "以主廚刀、三德刀、牛刀與陶瓷刀為主，兼顧鋼材口碑、好磨好養、握持舒適與台灣通路可得性。",
-    "pros": [
-      "涵蓋日系、德系、瑞士與陶瓷刀品牌",
-      "多數為廚房主力刀型",
-      "同型號以可信通路低價查核"
-    ],
-    "cons": [
-      "鋼刀需定期磨刀與擦乾",
-      "陶瓷刀不適合砍骨與硬食材",
-      "握把手感仍建議實際確認"
-    ],
-    "bestFor": "想從一把主力刀或一組入門刀具開始升級備餐效率的人。",
-    "recommendation": "刀具第 13 推薦：TOJIRO Black Zen F-187BK 165mm 在價格、評價、品牌通路與售後取得性之間表現均衡，適合納入同類比較。",
-    "voltage": "無電壓需求；需注意刀刃材質、磨刀方式與收納安全",
-    "warranty": "依 PChome 24h 與品牌/供應商頁面標示",
-    "score": 82,
-    "budget": "premium",
-    "tags": [
-      "三德刀",
-      "日系",
-      "刀具",
-      "廚房",
-      "主廚刀"
-    ],
-    "category": "knife",
-    "releaseDate": "找不到",
-    "historicalLow": {
-      "status": "not_found",
-      "amount": null,
-      "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
-      "checkedAt": "2026-07-09",
-      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：BigGo DSBE0M-A900JDNTU: 查詢失敗 429 https://biggo.com.tw/api/v1/spa/search/DSBE0M-A900JDNTU/product?p=1；BigGo TOJIRO Black Zen F-187BK 165mm: 查詢失敗 429 https://biggo.com.tw/api/v1/spa/search/TOJIRO%20Black%20Zen%20F-187BK%20165mm/product?p=1。"
-    },
-    "issueResearch": {
-      "status": "no_common_issue",
-      "checkedAt": "2026-07-11",
-      "summary": "截至查核日，查無達門檻的集中負評／災情",
-      "issues": [],
-      "checkedSources": [
-        {
-          "platform": "Mobile01",
-          "query": "site:mobile01.com \"TOJIRO Black Zen F-187BK 165mm\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22TOJIRO%20Black%20Zen%20F-187BK%20165mm%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
-          "targetHost": "mobile01.com"
-        },
-        {
-          "platform": "Reddit",
-          "query": "site:reddit.com \"TOJIRO Black Zen F-187BK 165mm\" (problem OR issue OR defect OR \"negative review\")",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22TOJIRO%20Black%20Zen%20F-187BK%20165mm%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
-          "targetHost": "reddit.com"
-        }
-      ]
-    }
-  },
-  {
     "id": "knife-tefal-ice-force",
-    "rank": 14,
+    "rank": 13,
     "topPick": false,
     "brand": "Tefal",
     "model": "Ice Force 三件組",
@@ -1121,7 +1038,7 @@
       "握把手感仍建議實際確認"
     ],
     "bestFor": "想從一把主力刀或一組入門刀具開始升級備餐效率的人。",
-    "recommendation": "刀具第 14 推薦：Tefal Ice Force 三件組 在價格、評價、品牌通路與售後取得性之間表現均衡，適合納入同類比較。",
+    "recommendation": "刀具第 13 推薦：Tefal Ice Force 三件組 在價格、評價、品牌通路與售後取得性之間表現均衡，適合納入同類比較。",
     "voltage": "無電壓需求；需注意刀刃材質、磨刀方式與收納安全",
     "warranty": "依 PChome 24h 與品牌/供應商頁面標示",
     "score": 81,
@@ -1171,7 +1088,7 @@
   },
   {
     "id": "knife-wusthof-gourmet",
-    "rank": 15,
+    "rank": 14,
     "topPick": false,
     "brand": "Wusthof",
     "model": "Gourmet 三件組",
@@ -1205,7 +1122,7 @@
       "握把手感仍建議實際確認"
     ],
     "bestFor": "想從一把主力刀或一組入門刀具開始升級備餐效率的人。",
-    "recommendation": "刀具第 15 推薦：Wusthof Gourmet 三件組 在價格、評價、品牌通路與售後取得性之間表現均衡，適合納入同類比較。",
+    "recommendation": "刀具第 14 推薦：Wusthof Gourmet 三件組 在價格、評價、品牌通路與售後取得性之間表現均衡，適合納入同類比較。",
     "voltage": "無電壓需求；需注意刀刃材質、磨刀方式與收納安全",
     "warranty": "依 PChome 24h 與品牌/供應商頁面標示",
     "score": 80,
@@ -1256,7 +1173,7 @@
   {
     "id": "knife-extra-16-dsbe0ma900jd4ad",
     "category": "knife",
-    "rank": 16,
+    "rank": 15,
     "budget": "mid",
     "channel": "tw",
     "brand": "TOJIRO",
@@ -1334,7 +1251,7 @@
   {
     "id": "knife-extra-17-debm2ca900j9cyp",
     "category": "knife",
-    "rank": 17,
+    "rank": 16,
     "budget": "mid",
     "channel": "tw",
     "brand": "WMF",
@@ -1412,7 +1329,7 @@
   {
     "id": "knife-extra-18-deag16a900iji66",
     "category": "knife",
-    "rank": 18,
+    "rank": 17,
     "budget": "value",
     "channel": "tw",
     "brand": "Kai",
@@ -1490,7 +1407,7 @@
   {
     "id": "knife-extra-19-deagyea900bcet2",
     "category": "knife",
-    "rank": 19,
+    "rank": 18,
     "budget": "value",
     "channel": "tw",
     "brand": "Victorinox",
@@ -1568,7 +1485,7 @@
   {
     "id": "knife-extra-20-deawrua900hdkxq",
     "category": "knife",
-    "rank": 20,
+    "rank": 19,
     "budget": "value",
     "channel": "tw",
     "brand": "WMF",
@@ -1646,7 +1563,7 @@
   {
     "id": "knife-costco-tefal-titanium-3pc",
     "category": "knife",
-    "rank": 21,
+    "rank": 20,
     "budget": "value",
     "channel": "tw",
     "brand": "Tefal",
@@ -1724,7 +1641,7 @@
   {
     "id": "knife-costco-3m-scotch-kitchen-scissors-2pc",
     "category": "knife",
-    "rank": 22,
+    "rank": 21,
     "budget": "value",
     "channel": "tw",
     "brand": "3M Scotch",

@@ -17,13 +17,13 @@
     "name": "16 公升高效型變頻除濕機",
     "price": {
       "currency": "TWD",
-      "amount": 13858,
-      "converted": 13858,
-      "confidence": "Yahoo購物中心 2026-07-11 頁面查核價"
+      "amount": 14872,
+      "converted": 14872,
+      "confidence": "PChome 2026-07-14 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ3PA900J0L88/000001_1776323540.jpg",
-    "buyUrl": "https://tw.buy.yahoo.com/gdsale/Panasonic-%E5%9C%8B%E9%9A%9B%E7%89%8C-16L-nanoe%E6%B8%85%E6%B7%A8%E4%BA%8C%E5%90%88%E4%B8%80%E9%9B%99%E8%AE%8A%E9%A0%BB%E5%BE%AE%E9%9B%BB%E8%85%A6%E9%99%A4%E6%BF%95%E6%A9%9F-F-YV32NN-11666451.html",
-    "buyLabel": "Yahoo購物中心",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DMBQ3P-A900J0L88",
+    "buyLabel": "PChome",
     "specs": [
       "16L 級",
       "變頻",
@@ -173,13 +173,13 @@
     "name": "22.5L 日製變頻空氣清淨除濕機",
     "price": {
       "currency": "TWD",
-      "amount": 26116,
-      "converted": 26116,
-      "confidence": "Yahoo購物中心 2026-07-11 頁面查核價"
+      "amount": 27810,
+      "converted": 27810,
+      "confidence": "PChome 2026-07-14 API 查核價"
     },
-    "image": "https://cs-a.ecimg.tw/items/DMBQ02A900JO0NA/000001_1769056503.jpg",
-    "buyUrl": "https://tw.buy.yahoo.com/gdsale/MITSUBISHI%E4%B8%89%E8%8F%B1-22L%E8%AE%8A%E9%A0%BB%E7%A9%BA%E6%B0%A3%E6%B8%85%E6%B7%A8%E9%99%A4%E6%BF%95%E6%A9%9F-MJ-EHV220KX-TW-11926713.html",
-    "buyLabel": "Yahoo購物中心",
+    "image": "https://cs-a.ecimg.tw/items/DMBQ3FA900JUOT6/000001_1774490302.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DMBQ3F-A900JUOT6",
+    "buyLabel": "PChome",
     "specs": [
       "22.5L 級",
       "日製",
@@ -641,20 +641,20 @@
     "name": "9 公升除濕機",
     "price": {
       "currency": "TWD",
-      "amount": 7269,
-      "converted": 7269,
-      "confidence": "Yahoo購物中心 2026-07-11 頁面查核價"
+      "amount": 8263,
+      "converted": 8263,
+      "confidence": "PChome 2026-07-14 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ00A900JB38A/000001_1776329911.jpg",
-    "buyUrl": "https://tw.buy.yahoo.com/gdsale/Panasonic-%E5%9C%8B%E9%9A%9B%E7%89%8C-9L-nanoeX-%E9%99%A4%E6%BF%95%E6%A9%9F-F-Y18PN-11819123.html",
-    "buyLabel": "Yahoo購物中心",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DMBQ00-A900JB38A",
+    "buyLabel": "PChome",
     "specs": [
       "9 公升",
       "DC 低噪音馬達",
       "一級能效",
       "多項安全保護"
     ],
-    "description": "Panasonic F-Y18PN 是除濕機類的補充比較型號，依 2026-07-11 通路頁面整理售價、圖片與核心規格。",
+    "description": "Panasonic F-Y18PN 是除濕機類的補充比較型號，依 2026-07-14 通路頁面整理售價、圖片與核心規格。",
     "pros": [
       "容量選擇更完整",
       "多數台灣通路售後明確"
@@ -719,20 +719,20 @@
     "name": "PuriCare WiFi 變頻除濕機粉紅 16 公升",
     "price": {
       "currency": "TWD",
-      "amount": 13410,
-      "converted": 13410,
-      "confidence": "Yahoo購物中心 2026-07-11 頁面查核價"
+      "amount": 14900,
+      "converted": 14900,
+      "confidence": "PChome 2026-07-14 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ07A900HQ3L5/000001_1761827365.jpg",
-    "buyUrl": "https://tw.buy.yahoo.com/gdsale/LG%E6%A8%82%E9%87%91-PuriCare-WiFi-%E9%9B%99%E8%AE%8A%E9%A0%BB%E9%99%A4%E6%BF%95%E6%A9%9F-16%E5%85%AC%E5%8D%87-%E7%B2%89%E7%B4%85-MD161QPK3-11003586.html",
-    "buyLabel": "Yahoo購物中心",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DMBQ07-A900HQ3L5",
+    "buyLabel": "PChome",
     "specs": [
       "16 公升",
       "WiFi",
       "變頻",
       "PuriCare"
     ],
-    "description": "LG MD161QPK3 是除濕機類的補充比較型號，依 2026-07-11 通路頁面整理售價、圖片與核心規格。",
+    "description": "LG MD161QPK3 是除濕機類的補充比較型號，依 2026-07-14 通路頁面整理售價、圖片與核心規格。",
     "pros": [
       "容量選擇更完整",
       "多數台灣通路售後明確"
