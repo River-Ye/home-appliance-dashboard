@@ -422,10 +422,12 @@ function assertCategoryPageContracts(categories, products, meta) {
     const itemList = nodes.find((node) => typeIncludes(node, "ItemList"));
     assert(itemList.itemListElement?.length === 5, `${file} ItemList should contain exactly five recommendations`);
     itemList.itemListElement.forEach((item, index) => {
+      const product = topFive[index];
       assert(item.position === index + 1, `${file} ItemList positions should be 1 through 5`);
-      assert(JSON.stringify(item).includes(topFive[index].model), `${file} ItemList position ${index + 1} should identify ${topFive[index].model}`);
+      assert(JSON.stringify(item).includes(product.model), `${file} ItemList position ${index + 1} should identify ${product.model}`);
+      assert(item.item?.["@type"] === "Thing", `${file} ${product.id} should remain a generic list item on a multi-product guide`);
     });
-    for (const forbiddenType of ["Offer", "Review", "AggregateRating"]) {
+    for (const forbiddenType of ["Product", "Offer", "Review", "AggregateRating"]) {
       assert(!documents.some((document) => treeContainsType(document, forbiddenType)), `${file} must not add unverifiable ${forbiddenType} structured data`);
     }
     const collectionPage = nodes.find((node) => typeIncludes(node, "CollectionPage"));
