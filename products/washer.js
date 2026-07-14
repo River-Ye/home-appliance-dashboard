@@ -15,9 +15,9 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/480af7b355-Gd-11679958.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 15770,
-      "converted": 15770,
-      "confidence": "momo購物 2026-07-11 頁面查核價"
+      "amount": 16000,
+      "converted": 16000,
+      "confidence": "momo購物 2026-07-14 頁面查核價"
     },
     "channel": "tw",
     "buyLabel": "momo購物",
@@ -703,9 +703,9 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/8ae7f866d6-Gd-10743682.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 8712,
-      "converted": 8712,
-      "confidence": "PChome 2026-07-13 API 查核價"
+      "amount": 8900,
+      "converted": 8900,
+      "confidence": "PChome 2026-07-14 API 查核價"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -875,9 +875,9 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/ce2bc90225-Gd-9291102.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 4990,
-      "converted": 4990,
-      "confidence": "Yahoo購物中心 2026-07-13 頁面查核價"
+      "amount": 5490,
+      "converted": 5490,
+      "confidence": "Yahoo購物中心 2026-07-14 頁面查核價"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心",

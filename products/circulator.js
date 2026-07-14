@@ -264,87 +264,9 @@
     }
   },
   {
-    "id": "circ-balmuda-cirq",
-    "category": "circulator",
-    "rank": 4,
-    "budget": "premium",
-    "channel": "tw",
-    "brand": "BALMUDA",
-    "model": "EGF-3300",
-    "name": "GreenFan Cirq 空氣循環扇",
-    "price": {
-      "currency": "TWD",
-      "amount": 6990,
-      "converted": 6990,
-      "confidence": "可信通路查核價"
-    },
-    "image": "https://cs-a.ecimg.tw/items/DSBE18A900J154H/000001_1754540295.jpg",
-    "buyUrl": "https://24h.pchome.com.tw/prod/DSBE18-A900J154H",
-    "buyLabel": "PChome",
-    "specs": [
-      "渦輪循環",
-      "低噪設計",
-      "大角度俯仰",
-      "設計家電"
-    ],
-    "description": "價格高但設計感強，風感與擺放質感優於一般循環扇。",
-    "pros": [
-      "外型好看",
-      "風感細膩"
-    ],
-    "cons": [
-      "價格高",
-      "純推力 CP 值不如 Vornado"
-    ],
-    "bestFor": "開放空間、客廳與重視家電美感的人。",
-    "recommendation": "願意為設計感付費時可選，功能與外觀都不突兀。",
-    "score": 83,
-    "voltage": "110V 台灣通路",
-    "warranty": "依通路",
-    "tags": [
-      "設計",
-      "低噪",
-      "高質感"
-    ],
-    "releaseDate": "2017",
-    "historicalLow": {
-      "status": "found",
-      "amount": 5990,
-      "currency": "TWD",
-      "converted": 5990,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=571924655&cgp=6990",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【BALMUDA 百慕達】GreenFan Cirq EGF-3300 循環扇｜靜音 節能 DC直流馬達｜ 公司貨",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「蝦皮商城 - HOW LIVING｜質感家電選品 / 【BALMUDA 百慕達】GreenFan Cirq EGF-3300 循環扇｜靜音 節能 DC直流馬達｜ 公司貨」最低價為 NT$5,990，最低點日期 2026-04-09。",
-      "sourceKind": "price_history",
-      "confidence": "high",
-      "checkedAt": "2026-07-09",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
-    },
-    "issueResearch": {
-      "status": "no_common_issue",
-      "checkedAt": "2026-07-11",
-      "summary": "截至查核日，查無達門檻的集中負評／災情",
-      "issues": [],
-      "checkedSources": [
-        {
-          "platform": "Mobile01",
-          "query": "site:mobile01.com \"BALMUDA EGF-3300\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22BALMUDA%20EGF-3300%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
-          "targetHost": "mobile01.com"
-        },
-        {
-          "platform": "Reddit",
-          "query": "site:reddit.com \"BALMUDA EGF-3300\" (problem OR issue OR defect OR \"negative review\")",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22BALMUDA%20EGF-3300%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
-          "targetHost": "reddit.com"
-        }
-      ]
-    }
-  },
-  {
     "id": "circ-iris-hd15",
     "category": "circulator",
-    "rank": 5,
+    "rank": 4,
     "budget": "value",
     "channel": "tw",
     "brand": "IRIS OHYAMA",
@@ -422,28 +344,28 @@
   {
     "id": "circulator-extra-6-dmab3x-a900jwrup",
     "category": "circulator",
-    "rank": 6,
+    "rank": 5,
     "budget": "mid",
     "channel": "tw",
     "brand": "Vornado",
     "model": "52-TW",
-    "name": "52-TW 黑色渦流空氣循環扇",
+    "name": "52-TW 白色渦流空氣循環扇",
     "price": {
       "currency": "TWD",
-      "amount": 2730,
-      "converted": 2730,
-      "confidence": "可信通路查核價"
+      "amount": 2592,
+      "converted": 2592,
+      "confidence": "VORNADO 台灣總代理 2026-07-14 頁面查核價"
     },
-    "image": "https://cs-a.ecimg.tw/items/DMAB3XA900JWRUP/000001_1776066916.jpg",
-    "buyUrl": "https://24h.pchome.com.tw/prod/DMAB3X-A900JWRUP",
-    "buyLabel": "PChome",
+    "image": "https://img.shoplineapp.com/media/image_clips/69d73d96e21ab6be9d92208b/original.jpg?1775713686=&owner_id=68ef37dcf598bf008c555a25",
+    "buyUrl": "https://www.winrex.com.tw/en/products/52-tw",
+    "buyLabel": "VORNADO 台灣總代理",
     "specs": [
       "渦流循環",
       "桌上/地面",
-      "黑色",
+      "白色",
       "小坪數"
     ],
-    "description": "Vornado 52-TW 是循環扇類的補充比較型號，依 2026-07-09 通路頁面整理售價、圖片與核心規格。",
+    "description": "Vornado 52-TW 是循環扇類的補充比較型號，依 2026-07-14 台灣總代理頁面整理售價、圖片與核心規格。",
     "pros": [
       "體積小、移動容易",
       "搭配冷氣可改善溫度分布"
@@ -456,7 +378,7 @@
     "recommendation": "同類推薦：補入桌上、渦流、復古與直立型，方便依擺放位置篩選。",
     "score": 87,
     "voltage": "110V 台灣通路",
-    "warranty": "依 PChome/供應商頁面",
+    "warranty": "台灣總代理：2 年原廠馬達保固，加 1 年線上登錄延長保固",
     "tags": [
       "渦流",
       "小空間",
@@ -500,7 +422,7 @@
   {
     "id": "circulator-extra-7-dmab3x-a900iigo1",
     "category": "circulator",
-    "rank": 7,
+    "rank": 6,
     "budget": "mid",
     "channel": "tw",
     "brand": "Vornado",
@@ -578,7 +500,7 @@
   {
     "id": "circulator-extra-8-qbaf31-a900arwxh",
     "category": "circulator",
-    "rank": 8,
+    "rank": 7,
     "budget": "premium",
     "channel": "tw",
     "brand": "Vornado",
@@ -656,7 +578,7 @@
   {
     "id": "circulator-extra-9-dmab3x-a900hnewa",
     "category": "circulator",
-    "rank": 9,
+    "rank": 8,
     "budget": "mid",
     "channel": "tw",
     "brand": "Vornado",
@@ -734,7 +656,7 @@
   {
     "id": "circulator-extra-10-dmab3x-a900jy5i9",
     "category": "circulator",
-    "rank": 10,
+    "rank": 9,
     "budget": "premium",
     "channel": "tw",
     "brand": "Vornado",
@@ -812,7 +734,7 @@
   {
     "id": "circulator-extra-11-dmab1o-a900eq6z4",
     "category": "circulator",
-    "rank": 11,
+    "rank": 10,
     "budget": "premium",
     "channel": "tw",
     "brand": "Vornado",
@@ -890,7 +812,7 @@
   {
     "id": "circulator-extra-12-qbaf31-a9008ybed",
     "category": "circulator",
-    "rank": 12,
+    "rank": 11,
     "budget": "premium",
     "channel": "tw",
     "brand": "Vornado",
@@ -972,7 +894,7 @@
   {
     "id": "circulator-extra-13-dmab3x-a900hn9w0",
     "category": "circulator",
-    "rank": 13,
+    "rank": 12,
     "budget": "mid",
     "channel": "tw",
     "brand": "Vornado",
@@ -1048,87 +970,9 @@
     }
   },
   {
-    "id": "circulator-extra-14-dmabll-a900ij6jp",
-    "category": "circulator",
-    "rank": 14,
-    "budget": "value",
-    "channel": "tw",
-    "brand": "IRIS OHYAMA",
-    "model": "TAF-MKM10",
-    "name": "極靜音自動擺動空氣循環扇",
-    "price": {
-      "currency": "TWD",
-      "amount": 799,
-      "converted": 799,
-      "confidence": "可信通路查核價"
-    },
-    "image": "https://cs-a.ecimg.tw/items/DMABLLA900IJ6JP/000001_1744101771.jpg",
-    "buyUrl": "https://24h.pchome.com.tw/prod/DMABLL-A900IJ6JP",
-    "buyLabel": "PChome",
-    "specs": [
-      "桌上扇",
-      "自動擺動",
-      "極靜音",
-      "小坪數"
-    ],
-    "description": "IRIS OHYAMA TAF-MKM10 是循環扇類的補充比較型號，依 2026-07-09 通路頁面整理售價、圖片與核心規格。",
-    "pros": [
-      "體積小、移動容易",
-      "搭配冷氣可改善溫度分布"
-    ],
-    "cons": [
-      "直吹舒適度不如電風扇",
-      "高風量款噪音需留意"
-    ],
-    "bestFor": "需要冷氣輔助循環、跨房間送風或小坪數空氣流動的人。",
-    "recommendation": "同類推薦：補入桌上、渦流、復古與直立型，方便依擺放位置篩選。",
-    "score": 79,
-    "voltage": "110V 台灣通路",
-    "warranty": "依 PChome/供應商頁面",
-    "tags": [
-      "低價",
-      "桌上",
-      "臥室"
-    ],
-    "releaseDate": "找不到",
-    "historicalLow": {
-      "status": "found",
-      "amount": 699,
-      "currency": "TWD",
-      "converted": 699,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1246471775&cgp=799",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：IRIS OHYAMA 愛麗思歐雅瑪 極靜音自動擺動空氣循環扇 TAF-MKM10(桌上扇/電風扇)",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「PCHome購物 / IRIS OHYAMA 愛麗思歐雅瑪 極靜音自動擺動空氣循環扇 TAF-MKM10(桌上扇/電風扇)」最低價為 NT$699，最低點日期 2026-05-20。",
-      "sourceKind": "price_history",
-      "confidence": "high",
-      "checkedAt": "2026-07-09",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
-    },
-    "issueResearch": {
-      "status": "no_common_issue",
-      "checkedAt": "2026-07-11",
-      "summary": "截至查核日，查無達門檻的集中負評／災情",
-      "issues": [],
-      "checkedSources": [
-        {
-          "platform": "Mobile01",
-          "query": "site:mobile01.com \"IRIS OHYAMA TAF-MKM10\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22IRIS%20OHYAMA%20TAF-MKM10%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
-          "targetHost": "mobile01.com"
-        },
-        {
-          "platform": "Reddit",
-          "query": "site:reddit.com \"IRIS OHYAMA TAF-MKM10\" (problem OR issue OR defect OR \"negative review\")",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22IRIS%20OHYAMA%20TAF-MKM10%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
-          "targetHost": "reddit.com"
-        }
-      ]
-    }
-  },
-  {
     "id": "circulator-extra-15-dmbm3g-a900fhkj2",
     "category": "circulator",
-    "rank": 15,
+    "rank": 13,
     "budget": "value",
     "channel": "tw",
     "brand": "IRIS OHYAMA",
@@ -1206,7 +1050,7 @@
   {
     "id": "circulator-extra-16-dmablya900jx0yj",
     "category": "circulator",
-    "rank": 16,
+    "rank": 14,
     "budget": "value",
     "channel": "tw",
     "brand": "TECO",
@@ -1284,7 +1128,7 @@
   {
     "id": "circulator-extra-17-dmablxa900gds4d",
     "category": "circulator",
-    "rank": 17,
+    "rank": 15,
     "budget": "mid",
     "channel": "tw",
     "brand": "I-COOL",
@@ -1362,7 +1206,7 @@
   {
     "id": "circulator-extra-18-dmablxa900hi682",
     "category": "circulator",
-    "rank": 18,
+    "rank": 16,
     "budget": "mid",
     "channel": "tw",
     "brand": "日虎",
@@ -1440,7 +1284,7 @@
   {
     "id": "circulator-extra-19-dmablya900k3cs7",
     "category": "circulator",
-    "rank": 19,
+    "rank": 17,
     "budget": "mid",
     "channel": "tw",
     "brand": "SAMPO",
@@ -1518,7 +1362,7 @@
   {
     "id": "circulator-extra-20-dmablya900h2h5c",
     "category": "circulator",
-    "rank": 20,
+    "rank": 18,
     "budget": "mid",
     "channel": "tw",
     "brand": "DELTA",
@@ -1596,7 +1440,7 @@
   {
     "id": "circulator-costco-airmate-fb2393dr",
     "category": "circulator",
-    "rank": 21,
+    "rank": 19,
     "budget": "mid",
     "channel": "tw",
     "brand": "Airmate",
@@ -1674,7 +1518,7 @@
   {
     "id": "circulator-costco-airmate-fb2391dr",
     "category": "circulator",
-    "rank": 22,
+    "rank": 20,
     "budget": "mid",
     "channel": "tw",
     "brand": "Airmate",
@@ -1755,7 +1599,7 @@
   {
     "id": "circulator-costco-iris-pcf-sc15t-ct",
     "category": "circulator",
-    "rank": 23,
+    "rank": 21,
     "budget": "value",
     "channel": "tw",
     "brand": "IRIS OHYAMA",

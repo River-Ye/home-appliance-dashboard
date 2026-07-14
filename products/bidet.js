@@ -799,11 +799,11 @@
       "currency": "TWD",
       "amount": 14900,
       "converted": 14900,
-      "confidence": "可信通路查核價"
+      "confidence": "momo購物 2026-07-14 頁面查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAL6WA900JVWI8/000001_1775634174.jpg",
-    "buyUrl": "https://24h.pchome.com.tw/prod/DMAL6W-A900JVWI8",
-    "buyLabel": "PChome",
+    "buyUrl": "https://www.momoshop.com.tw/product/14834662",
+    "buyLabel": "momo購物",
     "specs": [
       "電解除菌水",
       "強力除臭",
@@ -1578,8 +1578,8 @@
     "price": {
       "currency": "USD",
       "amount": 399.99,
-      "converted": 12828,
-      "confidence": "Costco US 2026-07-13 瀏覽器查核價；依 2026-07-13 匯率換算"
+      "converted": 12871,
+      "confidence": "Costco US 2026-07-14 來源價；ExchangeRate-API 2026-07-14 匯率換算"
     },
     "image": "https://bfasset.costco-static.com/U447IH35/as/k83n76pfjhvqcf9gfrz74sx/1432187-847__1?auto=webp&format=jpg",
     "buyUrl": "https://www.costco.com/brondell-swash-cl1700-bidet-toilet-seat.product.100648788.html",

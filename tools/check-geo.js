@@ -252,7 +252,7 @@ function assertGeoConfigContract(categories, products) {
   assert(AI_DISCLOSURE === "本站內容與網站由 AI 協助研究、整理與製作；依公開規則查核，仍可能有錯漏。", "AI disclosure copy mismatch");
   assert(
     homePageDescription(categories.length, products.length)
-      === "由 AI 協作整理 25 類、660 款可信新品，提供價格、規格、歷史最低價與負評查核，並公開查核方法與原始碼。",
+      === "由 AI 協作整理 25 類、658 款可信新品，提供價格、規格、歷史最低價與負評查核，並公開查核方法與原始碼。",
     "homepage description should derive the catalog counts from source data",
   );
   assert(PUBLIC_EVIDENCE_RESOURCES.length === 6, "GEO contract should expose exactly six evidence resources");

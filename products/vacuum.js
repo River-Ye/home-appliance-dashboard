@@ -95,9 +95,9 @@
     "name": "自動集塵無線吸塵器",
     "price": {
       "currency": "TWD",
-      "amount": 17900,
-      "converted": 17900,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 16900,
+      "converted": 16900,
+      "confidence": "PChome 2026-07-14 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAX8KA900HLX9W/000001_1744871467.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAX8K-A900HLX9W",
@@ -1033,11 +1033,11 @@
       "currency": "TWD",
       "amount": 3990,
       "converted": 3990,
-      "confidence": "可信通路查核價"
+      "confidence": "正負零台灣官網 2026-07-14 頁面查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DSBE1AA900J8H81/000001_1757576197.jpg",
-    "buyUrl": "https://24h.pchome.com.tw/prod/DSBE1A-A900J8H81",
-    "buyLabel": "PChome",
+    "buyUrl": "https://plusminuszero.com.tw/shop-d.php?Key=1&W=Index",
+    "buyLabel": "正負零台灣官網",
     "specs": [
       "無線手持",
       "輕量",
@@ -1265,13 +1265,13 @@
     "name": "PencilVac Fluffycones 筆型吸塵器",
     "price": {
       "currency": "TWD",
-      "amount": 19900,
-      "converted": 19900,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 18888,
+      "converted": 18888,
+      "confidence": "Dyson 台灣官網 2026-07-14 頁面查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAX00A900JPJ7H/000001_1777291832.jpg",
-    "buyUrl": "https://24h.pchome.com.tw/prod/DMAX00-A900JPJ7H",
-    "buyLabel": "PChome",
+    "buyUrl": "https://shop.dyson.tw/vacuums/cordless-vacuums/dyson-pencilvac-fluffycones-black-sale-492694-01",
+    "buyLabel": "Dyson 台灣官網",
     "specs": [
       "筆型",
       "Fluffycones",

@@ -51,17 +51,17 @@
     ],
     "releaseDate": "2025",
     "historicalLow": {
-      "status": "found",
-      "amount": 42914,
+      "status": "not_found",
+      "amount": null,
       "currency": "TWD",
-      "converted": 42914,
-      "sourceUrl": "https://24h.pchome.com.tw/prod/DMAAOD-A900JMDR5",
-      "sourceTitle": "PChome 商品頁：SAMSUNG 三星 HW-Q990F 11.1.4聲道 Q系列 Soundbar 聲霸 Q990D升級 / SAMSUNG 三星 HW-Q990F 11.1.4聲道 Q系列 Soundbar 聲霸 Q990D升級",
-      "evidenceSnippet": "PChome 商品 API 於 2026-07-10 回傳同一商品頁「SAMSUNG 三星 HW-Q990F 11.1.4聲道 Q系列 Soundbar 聲霸 Q990D升級 / SAMSUNG 三星 HW-Q990F 11.1.4聲道 Q系列 Soundbar 聲霸 Q990D升級」查核價 NT$42,914，低於原先記錄史低。",
-      "sourceKind": "retailer_page",
-      "confidence": "medium",
-      "checkedAt": "2026-07-10",
-      "note": "採用 PChome 24h 同一商品頁可公開查核現價作為本次觀測到的最低價；同型號/規格並排除會員個人化折扣、信用卡回饋、點數、二手、福利品、展示機、箱損、拆封與整新品。"
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-07-14",
+      "note": "原記錄的 PChome HW-Q990F 商品 API 已不再回傳商品資料；本輪重新查核後找不到可公開重現 NT$42,914 的可信新品來源，因此不再保留無法驗證的 found 判定。"
     },
     "issueResearch": {
       "status": "common_issue",
@@ -352,13 +352,13 @@
     "name": "5.1 聲道 Soundbar",
     "price": {
       "currency": "TWD",
-      "amount": 23560,
-      "converted": 23560,
-      "confidence": "可信通路查核價"
+      "amount": 21296,
+      "converted": 21296,
+      "confidence": "momo購物 2026-07-14 頁面查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAAHGA900JCY9J/000001_1760777146.jpg",
-    "buyUrl": "https://24h.pchome.com.tw/prod/DMAAHG-A900JCY9J",
-    "buyLabel": "PChome",
+    "buyUrl": "https://www.momoshop.com.tw/product/14610686",
+    "buyLabel": "momo購物",
     "specs": [
       "5.1 聲道",
       "無線重低音",
@@ -898,13 +898,13 @@
     "name": "2.0 聲道單件式藍牙 Soundbar",
     "price": {
       "currency": "TWD",
-      "amount": 7590,
-      "converted": 7590,
-      "confidence": "可信通路查核價"
+      "amount": 7591,
+      "converted": 7591,
+      "confidence": "Yahoo購物中心 2026-07-14 頁面查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAAMTA900I5HHO/000001_1778661010.jpg",
-    "buyUrl": "https://24h.pchome.com.tw/prod/DMAAMT-A900I5HHO",
-    "buyLabel": "PChome",
+    "buyUrl": "https://tw.buy.yahoo.com/gdsale/gdsale.asp?gdid=11411387",
+    "buyLabel": "Yahoo購物中心",
     "specs": [
       "2.0 聲道",
       "單件式",
@@ -976,13 +976,13 @@
     "name": "BAR 300MK2 5.0 聲道 Soundbar",
     "price": {
       "currency": "TWD",
-      "amount": 14062,
-      "converted": 14062,
-      "confidence": "PChome 2026-07-10 API 查核價"
+      "amount": 13261,
+      "converted": 13261,
+      "confidence": "momo購物 2026-07-14 頁面查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAAHGA900JCY2V/000001_1760766812.jpg",
-    "buyUrl": "https://24h.pchome.com.tw/prod/DMAAHG-A900JCY2V",
-    "buyLabel": "PChome",
+    "buyUrl": "https://www.momoshop.com.tw/product/14610154",
+    "buyLabel": "momo購物",
     "specs": [
       "5.0 聲道",
       "Dolby Atmos",
@@ -1522,8 +1522,8 @@
     "name": "Fidelio 7.1.2 Dolby Atmos 旗艦聲霸",
     "price": {
       "currency": "TWD",
-      "amount": 35399,
-      "converted": 35399,
+      "amount": 35010,
+      "converted": 35010,
       "confidence": "PChome 2026-07-14 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAF02A900H2G5R/000001_1704612188.jpg",
@@ -1601,8 +1601,8 @@
     "price": {
       "currency": "USD",
       "amount": 1299.99,
-      "converted": 41691,
-      "confidence": "Marshall US 2026-07-11 查核價；依 2026-07-13 匯率換算"
+      "converted": 41833,
+      "confidence": "Marshall US 2026-07-14 來源價；ExchangeRate-API 2026-07-14 匯率換算"
     },
     "image": "https://images.ctfassets.net/javen7msabdh/2C2sn9CKoKFdIyd94Gm9z5/f3019d4e721511167ebe5c229bf490dd/heston-120_plp.jpg",
     "buyUrl": "https://www.marshall.com/us/en/product/heston-120",
@@ -1681,8 +1681,8 @@
     "price": {
       "currency": "USD",
       "amount": 699.99,
-      "converted": 22449,
-      "confidence": "Best Buy US 2026-07-14 頁面查核價；依 2026-07-13 匯率換算"
+      "converted": 22525,
+      "confidence": "Best Buy US 2026-07-14 來源價；ExchangeRate-API 2026-07-14 匯率換算"
     },
     "image": "https://images.ctfassets.net/javen7msabdh/3yitHqjPBTgQk5qRE72PSn/2788206646aa153f71f2c0ebefaff580/Heston-60-black_plp_800x800-v3.jpeg",
     "buyUrl": "https://www.bestbuy.com/product/marshall-heston-60-soundbar-with-dolby-atmos-immersive-sound-for-tv-movies-music-black/CFCR4H4GSQ",

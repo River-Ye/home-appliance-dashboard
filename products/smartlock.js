@@ -1361,9 +1361,9 @@
     "name": "X9 指紋把手電子鎖",
     "price": {
       "currency": "TWD",
-      "amount": 12000,
-      "converted": 12000,
-      "confidence": "PChome 2026-07-13 API 查核價"
+      "amount": 11400,
+      "converted": 11400,
+      "confidence": "PChome 2026-07-14 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBS4NA900JJ8LG/000001_1765347346.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBS4N-A900JJ8LG",
@@ -1517,9 +1517,9 @@
     "name": "SHP-P52 推拉式電子鎖",
     "price": {
       "currency": "TWD",
-      "amount": 24500,
-      "converted": 24500,
-      "confidence": "PChome 2026-07-13 API 查核價"
+      "amount": 23275,
+      "converted": 23275,
+      "confidence": "PChome 2026-07-14 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBS4NA900JXYBS/000001_1776909348.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBS4N-A900JXYBS",
@@ -1673,9 +1673,9 @@
     "name": "ML660 四合一智能電子鎖",
     "price": {
       "currency": "TWD",
-      "amount": 25000,
-      "converted": 25000,
-      "confidence": "PChome 2026-07-13 API 查核價"
+      "amount": 23750,
+      "converted": 23750,
+      "confidence": "PChome 2026-07-14 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DECE4EA900DXNUC/000001_1643338134.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DECE4E-A900DXNUC",
@@ -2142,9 +2142,9 @@
     "name": "FB63M 精簡電子智慧門鎖",
     "price": {
       "currency": "TWD",
-      "amount": 14500,
-      "converted": 14500,
-      "confidence": "PChome 2026-07-13 API 查核價"
+      "amount": 13775,
+      "converted": 13775,
+      "confidence": "PChome 2026-07-14 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBS4NA900I8ITU/000001_1753416985.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBS4N-A900I8ITU",
@@ -2220,9 +2220,9 @@
     "name": "FB70X 樸實電子智慧門鎖",
     "price": {
       "currency": "TWD",
-      "amount": 22000,
-      "converted": 22000,
-      "confidence": "PChome 2026-07-13 API 查核價"
+      "amount": 20900,
+      "converted": 20900,
+      "confidence": "PChome 2026-07-14 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DQAT0IA900GXIHM/000001_1764834253.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQAT0I-A900GXIHM",
@@ -2766,9 +2766,9 @@
     "name": "Tiko One 指紋卡片密碼電子鎖",
     "price": {
       "currency": "TWD",
-      "amount": 17800,
-      "converted": 17800,
-      "confidence": "PChome 2026-07-13 API 查核價"
+      "amount": 16910,
+      "converted": 16910,
+      "confidence": "PChome 2026-07-14 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBS4NA900K0KZV/000001_1779265986.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBS4N-A900K0KZV",
@@ -2844,9 +2844,9 @@
     "name": "G-11 指紋密碼電子鎖",
     "price": {
       "currency": "TWD",
-      "amount": 9800,
-      "converted": 9800,
-      "confidence": "PChome 2026-07-13 API 查核價"
+      "amount": 9310,
+      "converted": 9310,
+      "confidence": "PChome 2026-07-14 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBS4NA900K1WBU/000001_1779862478.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBS4N-A900K1WBU",
@@ -3312,9 +3312,9 @@
     "name": "DJS-SK07 全自動智慧電子鎖",
     "price": {
       "currency": "TWD",
-      "amount": 23400,
-      "converted": 23400,
-      "confidence": "PChome 2026-07-13 API 查核價"
+      "amount": 22230,
+      "converted": 22230,
+      "confidence": "PChome 2026-07-14 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBS4NA900J5GYW/000001_1755762130.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBS4N-A900J5GYW",

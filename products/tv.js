@@ -175,8 +175,8 @@
     "name": "BRAVIA 7 65 型 Mini LED 4K Google TV",
     "price": {
       "currency": "TWD",
-      "amount": 53910,
-      "converted": 53910,
+      "amount": 56900,
+      "converted": 56900,
       "confidence": "PChome 2026-07-14 API 查核價"
     },
     "image": "https://img.pchome.com.tw/cs/items/DMBM10A900HKA39/000001_1781001954.jpg",
@@ -412,8 +412,8 @@
     "name": "BRAVIA 8 65 型 XR OLED 4K HDR Google TV 顯示器",
     "price": {
       "currency": "TWD",
-      "amount": 84510,
-      "converted": 84510,
+      "amount": 93900,
+      "converted": 93900,
       "confidence": "PChome 2026-07-14 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DPAD06A900HLBJO/000001_1776334113.jpg",
@@ -967,10 +967,10 @@
       "currency": "TWD",
       "amount": 26999,
       "converted": 26999,
-      "confidence": "可信通路查核價"
+      "confidence": "PChome 2026-07-14 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DPADBU1900JC97W/000001_1761379704.jpg",
-    "buyUrl": "https://24h.pchome.com.tw/prod/DPADBU-1900JC97W",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DPADBU-A900JMIS1",
     "buyLabel": "PChome",
     "specs": [
       "65 吋 Mini LED",
@@ -1362,10 +1362,10 @@
       "currency": "TWD",
       "amount": 12591,
       "converted": 12591,
-      "confidence": "PChome 2026-07-13 API 查核價"
+      "confidence": "PChome 2026-07-14 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DPADTOA900JNE73/000001_1768523868.jpg",
-    "buyUrl": "https://24h.pchome.com.tw/prod/DPADTO-A900JNE73",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DPADTO-A900JNMOP",
     "buyLabel": "PChome",
     "specs": [
       "65 吋",

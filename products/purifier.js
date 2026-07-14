@@ -187,9 +187,9 @@
     "name": "Purifier Cool 二合一涼風智能空氣清淨機",
     "price": {
       "currency": "TWD",
-      "amount": 11305,
-      "converted": 11305,
-      "confidence": "Yahoo購物中心 2026-07-11 頁面查核價"
+      "amount": 11662,
+      "converted": 11662,
+      "confidence": "Yahoo購物中心 2026-07-14 頁面查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAU3CA900K0T3T/000001_1779087672.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/Dyson-%E6%88%B4%E6%A3%AE-Purifier-Cool-%E4%BA%8C%E5%90%88%E4%B8%80%E6%B6%BC%E9%A2%A8%E6%99%BA%E8%83%BD%E7%A9%BA%E6%B0%A3%E6%B8%85%E6%B7%A8%E6%A9%9FTP11-%E7%99%BD%E8%89%B2-12000846.html",
@@ -265,8 +265,8 @@
     "name": "17 坪 360 度高效過濾空氣清淨機",
     "price": {
       "currency": "TWD",
-      "amount": 8176,
-      "converted": 8176,
+      "amount": 8265,
+      "converted": 8265,
       "confidence": "PChome 2026-07-14 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAC2OA900GH5RL/000001_1781800112.jpg",
@@ -811,13 +811,13 @@
     "name": "ClassicPro CP7i 空氣清淨機",
     "price": {
       "currency": "TWD",
-      "amount": 22990,
-      "converted": 22990,
-      "confidence": "PChome 2026-07-13 API 查核價"
+      "amount": 22900,
+      "converted": 22900,
+      "confidence": "momo購物 2026-07-14 頁面查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAU1FA900IJCA6/000001_1780654549.jpg",
-    "buyUrl": "https://24h.pchome.com.tw/prod/DMAU1F-A900IJCA6",
-    "buyLabel": "PChome",
+    "buyUrl": "https://www.momoshop.com.tw/TP/TP0004905/goodsDetail/TP00049050000130",
+    "buyLabel": "momo購物",
     "specs": [
       "最大適用 31 坪",
       "高效濾淨",
@@ -889,9 +889,9 @@
     "name": "Purifier Hot+Cool De-NOx 甲醛 NOx 偵測涼暖空氣清淨機",
     "price": {
       "currency": "TWD",
-      "amount": 24605,
-      "converted": 24605,
-      "confidence": "Yahoo購物中心 2026-07-11 頁面查核價"
+      "amount": 25382,
+      "converted": 25382,
+      "confidence": "Yahoo購物中心 2026-07-14 頁面查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAU3CA900I7ORK/000001_1782810487.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/Dyson-Purifier-Hot-Cool-De-NOx-%E7%94%B2%E9%86%9BNOx-%E5%81%B5%E6%B8%AC%E6%B6%BC%E6%9A%96%E7%A9%BA%E6%B0%A3%E6%B8%85%E6%B7%A8%E6%A9%9F-HP1-12000848.html",
@@ -967,9 +967,9 @@
     "name": "Purifier Hot+Cool 三合一涼暖智能空氣清淨機",
     "price": {
       "currency": "TWD",
-      "amount": 14155,
-      "converted": 14155,
-      "confidence": "Yahoo購物中心 2026-07-11 頁面查核價"
+      "amount": 14602,
+      "converted": 14602,
+      "confidence": "Yahoo購物中心 2026-07-14 頁面查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAU3CA900J2MV6/000001_1767758338.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/Dyson%E6%88%B4%E6%A3%AE-Purifier-Hot-Cool-%E4%B8%89%E5%90%88%E4%B8%80%E6%B6%BC%E6%9A%96%E6%99%BA%E8%83%BD%E7%A9%BA%E6%B0%A3%E6%B8%85%E6%B7%A8%E6%A9%9F-HP11-%E7%99%BD%E8%89%B2-%E8%B4%88%E7%BE%8E%E9%AB%AE-11937837.html",
@@ -1045,9 +1045,9 @@
     "name": "Purifier Cool De-NOx 甲醛 NOx 偵測涼風空氣清淨機",
     "price": {
       "currency": "TWD",
-      "amount": 19855,
-      "converted": 19855,
-      "confidence": "Yahoo購物中心 2026-07-11 頁面查核價"
+      "amount": 20482,
+      "converted": 20482,
+      "confidence": "Yahoo購物中心 2026-07-14 頁面查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAU3CA900HTKRG/000001_1767758629.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/Dyson-%E6%88%B4%E6%A3%AE-Purifier-Cool-%E7%94%B2%E9%86%9BNOx-%E5%81%B5%E6%B8%AC%E6%B6%BC%E9%A2%A8%E7%A9%BA%E6%B0%A3%E6%B8%85%E6%B7%A8%E6%A9%9FTP12-%E4%BA%8C%E8%89%B2%E5%8F%AF%E9%81%B8-11903396.html",
@@ -1123,8 +1123,8 @@
     "name": "奈米級空氣清淨機 MUJI AC0650",
     "price": {
       "currency": "TWD",
-      "amount": 4590,
-      "converted": 4590,
+      "amount": 4640,
+      "converted": 4640,
       "confidence": "PChome 2026-07-14 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAC2OA900GD1ZV/000001_1781800174.jpg",
@@ -1435,8 +1435,8 @@
     "name": "寵物抗敏空氣清淨機輕量版",
     "price": {
       "currency": "TWD",
-      "amount": 10110,
-      "converted": 10110,
+      "amount": 10220,
+      "converted": 10220,
       "confidence": "PChome 2026-07-14 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAC2OA900J7SBO/000001_1781799851.jpg",
@@ -1513,8 +1513,8 @@
     "name": "PuriCare 超淨化大白空氣清淨機",
     "price": {
       "currency": "TWD",
-      "amount": 6810,
-      "converted": 6810,
+      "amount": 7399,
+      "converted": 7399,
       "confidence": "PChome 2026-07-14 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAU0BA900GI0Q1/000001_1763349087.jpg",

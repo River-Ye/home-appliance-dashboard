@@ -251,8 +251,8 @@
     "name": "30L Healsio 炙燒水波爐",
     "price": {
       "currency": "TWD",
-      "amount": 28800,
-      "converted": 28800,
+      "amount": 25392,
+      "converted": 25392,
       "confidence": "Yahoo購物中心 2026-07-14 頁面查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBJ021900I5KFC/000001_1779346148.jpg",
@@ -286,16 +286,16 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 26496,
+      "amount": 25392,
       "currency": "TWD",
-      "converted": 26496,
+      "converted": 25392,
       "sourceUrl": "https://tw.buy.yahoo.com/gdsale/SHARP%E5%A4%8F%E6%99%AE-HEALSIO-%E6%97%97%E8%89%A6%E6%B0%B4%E6%B3%A2%E7%88%90-AX-XP10T-12039766.html",
-      "sourceTitle": "Yahoo購物中心：30L Healsio 炙燒水波爐",
-      "evidenceSnippet": "Yahoo購物中心商品頁 JSON-LD 於 2026-07-13 顯示同型號可信新品售價 NT$26,496，低於原先記錄史低。",
+      "sourceTitle": "Yahoo購物中心 商品頁：30L Healsio 炙燒水波爐（AX-XP10T）",
+      "evidenceSnippet": "Yahoo購物中心 同型號新品頁於 2026-07-14 顯示公開售價 NT$25,392，低於原先記錄史低。",
       "sourceKind": "retailer_page",
       "confidence": "medium",
-      "checkedAt": "2026-07-13",
-      "note": "採用 Yahoo購物中心當日同型號新品頁的結構化價格；不含會員券、點數、信用卡回饋、二手、福利、展示、拆封或整新品。"
+      "checkedAt": "2026-07-14",
+      "note": "採用同型號新品頁可公開查核售價作為本次觀測到的最低價；排除會員個人化折扣、信用卡回饋、點數、二手、福利品、展示機、箱損、拆封與整新品。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -330,8 +330,8 @@
     "price": {
       "currency": "USD",
       "amount": 499.95,
-      "converted": 16034,
-      "confidence": "Breville 官方 2026-07-11 查核價；依 2026-07-13 匯率換算"
+      "converted": 16088,
+      "confidence": "Breville 官方 2026-07-14 來源價；ExchangeRate-API 2026-07-14 匯率換算"
     },
     "image": "https://cdn11.bigcommerce.com/s-ihwnd7z21q/images/stencil/640w/products/1251/4666/212814_JouleOvenAirFryer1__10534.1724079466.jpg?c=1",
     "buyUrl": "https://www.breville.com/en-us/product/bov950",
@@ -563,9 +563,9 @@
     "name": "30L 蒸氣烘烤微波爐",
     "price": {
       "currency": "TWD",
-      "amount": 32900,
-      "converted": 32900,
-      "confidence": "Yahoo購物中心 2026-07-13 頁面查核價"
+      "amount": 26900,
+      "converted": 26900,
+      "confidence": "Yahoo購物中心 2026-07-14 頁面查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBJ7P1900HCI3E/000001_1782972848.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/Panasonic-%E5%9C%8B%E9%9A%9B%E7%89%8C-30L%E5%B9%B3%E5%8F%B0%E5%BC%8F%E8%AE%8A%E9%A0%BB%E8%92%B8%E7%83%98%E7%83%A4%E5%BE%AE%E9%9B%BB%E8%85%A6%E5%BE%AE%E6%B3%A2%E7%88%90-NN-BS1700-9469543.html",
@@ -875,8 +875,8 @@
     "name": "AIoT 智慧連網 30L 水波爐蒸氣烘烤微波爐",
     "price": {
       "currency": "TWD",
-      "amount": 38800,
-      "converted": 38800,
+      "amount": 35696,
+      "converted": 35696,
       "confidence": "Yahoo購物中心 2026-07-14 頁面查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBM0GA900G41CW/000001_1780306175.jpg",
@@ -1031,8 +1031,8 @@
     "name": "31L 極智烘烤系列水波爐",
     "price": {
       "currency": "TWD",
-      "amount": 24900,
-      "converted": 24900,
+      "amount": 22908,
+      "converted": 22908,
       "confidence": "Yahoo購物中心 2026-07-14 頁面查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBJ0RA900JT4ZV/000001_1781238451.jpg",

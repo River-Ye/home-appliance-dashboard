@@ -1,13 +1,13 @@
 {
   "summary": {
     "checkedAt": "2026-07-11T03:49:58.000Z",
-    "total": 660,
-    "found": 167,
-    "missing": 493,
+    "total": 658,
+    "found": 166,
+    "missing": 492,
     "byConfidence": {
-      "official": 68,
+      "official": 67,
       "credible_article": 88,
-      "not_found": 493,
+      "not_found": 492,
       "retailer_explicit": 11
     }
   },
@@ -903,20 +903,6 @@
       "sourceKind": "credible_article"
     },
     {
-      "id": "circ-balmuda-cirq",
-      "category": "circulator",
-      "brand": "BALMUDA",
-      "model": "EGF-3300",
-      "name": "GreenFan Cirq 空氣循環扇",
-      "releaseDate": "2017",
-      "sourceUrl": "https://www.balmuda.com",
-      "sourceTitle": "Translate this result",
-      "evidenceSnippet": "バルミューダ https://www.balmuda.com › jp › support Translate this result EGF-3300 | GreenFan Cirq | バルミューダ サポート - BALMUDA Inc. EGF-3300（2017年発売モデル）のサポート情報。 よくあるご質問、スペック、取扱説明書など。 本体寸法: 幅 340mm × 奥行き 256mm × 高さ 360mm 電源: AC100V 50Hz/60Hz",
-      "confidence": "official",
-      "query": "BALMUDA EGF-3300 release date launch announced",
-      "sourceKind": "bing_result_block"
-    },
-    {
       "id": "circ-iris-hd15",
       "category": "circulator",
       "brand": "IRIS OHYAMA",
@@ -934,7 +920,7 @@
       "category": "circulator",
       "brand": "Vornado",
       "model": "52-TW",
-      "name": "52-TW 黑色渦流空氣循環扇",
+      "name": "52-TW 白色渦流空氣循環扇",
       "releaseDate": "找不到",
       "sourceUrl": "",
       "sourceTitle": "",
@@ -1034,19 +1020,6 @@
       "evidenceSnippet": "",
       "confidence": "not_found",
       "query": "Vornado EXO61HD release date launch announced"
-    },
-    {
-      "id": "circulator-extra-14-dmabll-a900ij6jp",
-      "category": "circulator",
-      "brand": "IRIS OHYAMA",
-      "model": "TAF-MKM10",
-      "name": "極靜音自動擺動空氣循環扇",
-      "releaseDate": "找不到",
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "confidence": "not_found",
-      "query": "IRIS OHYAMA MKM10 release date launch announced"
     },
     {
       "id": "circulator-extra-15-dmbm3g-a900fhkj2",
@@ -5730,7 +5703,7 @@
       "category": "smartlock",
       "brand": "dormakaba",
       "model": "ML770",
-      "name": "ML770 四合一智能電子鎖",
+      "name": "ML770 Wi-Fi 六合一智慧電子鎖",
       "releaseDate": "找不到",
       "sourceUrl": "",
       "sourceTitle": "",

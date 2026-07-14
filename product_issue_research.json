@@ -1,9 +1,9 @@
 {
   "summary": {
     "checkedAt": "2026-07-13T00:00:00+08:00",
-    "total": 660,
+    "total": 658,
     "commonIssueProducts": 36,
-    "noCommonIssueProducts": 624,
+    "noCommonIssueProducts": 622,
     "pendingManualReview": 0,
     "commonIssues": 36,
     "searchUnavailable": 0,
@@ -7678,94 +7678,6 @@
       ]
     },
     {
-      "id": "circ-balmuda-cirq",
-      "category": "circulator",
-      "brand": "BALMUDA",
-      "model": "EGF-3300",
-      "name": "GreenFan Cirq 空氣循環扇",
-      "identity": {
-        "canonicalModel": "EGF-3300",
-        "lookupLabel": "BALMUDA EGF-3300",
-        "aliases": [
-          "BALMUDA EGF-3300"
-        ],
-        "evidenceUrl": "https://24h.pchome.com.tw/prod/DSBE18-A900J154H"
-      },
-      "workflowStatus": "completed",
-      "manualReview": {
-        "status": "completed",
-        "decision": "no_common_issue",
-        "reviewedAt": "2026-07-11",
-        "checkedPlatforms": [
-          "Mobile01",
-          "Reddit"
-        ],
-        "queries": [
-          {
-            "platform": "Mobile01",
-            "query": "site:mobile01.com \"BALMUDA EGF-3300\" (災情 OR 問題 OR 故障 OR 負評)",
-            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22BALMUDA%20EGF-3300%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
-            "targetHost": "mobile01.com"
-          },
-          {
-            "platform": "Reddit",
-            "query": "site:reddit.com \"BALMUDA EGF-3300\" (problem OR issue OR defect OR \"negative review\")",
-            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22BALMUDA%20EGF-3300%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
-            "targetHost": "reddit.com"
-          }
-        ],
-        "candidateDisposition": "EGF-3300：重新執行 Mobile01、Reddit exact-model 查詢，搜尋結果沒有 exact-model 原頁候選；此結果不代表完全沒有負評。",
-        "representativeSources": [],
-        "candidateReviews": [],
-        "reviewerNote": "EGF-3300 已於 2026-07-11 實際請求兩個 Bing RSS exact-model 跨站查詢；兩站均無 exact-model 原頁候選，維持 no_common_issue，未以搜尋摘要當作負評證據。",
-        "attestation": "manual_cross_site_search_reviewed_no_candidate"
-      },
-      "issueResearch": {
-        "status": "no_common_issue",
-        "checkedAt": "2026-07-11",
-        "summary": "截至查核日，查無達門檻的集中負評／災情",
-        "issues": [],
-        "checkedSources": [
-          {
-            "platform": "Mobile01",
-            "query": "site:mobile01.com \"BALMUDA EGF-3300\" (災情 OR 問題 OR 故障 OR 負評)",
-            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22BALMUDA%20EGF-3300%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
-            "targetHost": "mobile01.com"
-          },
-          {
-            "platform": "Reddit",
-            "query": "site:reddit.com \"BALMUDA EGF-3300\" (problem OR issue OR defect OR \"negative review\")",
-            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22BALMUDA%20EGF-3300%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
-            "targetHost": "reddit.com"
-          }
-        ]
-      },
-      "searchChecks": [
-        {
-          "platform": "Mobile01",
-          "query": "site:mobile01.com \"BALMUDA EGF-3300\" (災情 OR 問題 OR 故障 OR 負評)",
-          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22BALMUDA%20EGF-3300%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
-          "result": "no_exact_model_result",
-          "resultCount": 0,
-          "candidateUrls": [],
-          "candidates": [],
-          "inspectedAt": "2026-07-11T00:00:00+08:00"
-        },
-        {
-          "platform": "Reddit",
-          "query": "site:reddit.com \"BALMUDA EGF-3300\" (problem OR issue OR defect OR \"negative review\")",
-          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22BALMUDA%20EGF-3300%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
-          "result": "no_exact_model_result",
-          "resultCount": 0,
-          "candidateUrls": [],
-          "candidates": [],
-          "inspectedAt": "2026-07-11T00:00:00+08:00"
-        }
-      ],
-      "evidence": [],
-      "rejectedCandidates": []
-    },
-    {
       "id": "circ-iris-hd15",
       "category": "circulator",
       "brand": "IRIS OHYAMA",
@@ -7858,7 +7770,7 @@
       "category": "circulator",
       "brand": "Vornado",
       "model": "52-TW",
-      "name": "52-TW 黑色渦流空氣循環扇",
+      "name": "52-TW 白色渦流空氣循環扇",
       "identity": {
         "canonicalModel": "52-TW",
         "lookupLabel": "Vornado 52-TW",
@@ -8697,94 +8609,6 @@
           "platform": "Reddit",
           "query": "site:reddit.com \"Vornado EXO61HD-TW\" (problem OR issue OR defect OR \"negative review\")",
           "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Vornado%20EXO61HD-TW%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
-          "result": "no_exact_model_result",
-          "resultCount": 0,
-          "candidateUrls": [],
-          "candidates": [],
-          "inspectedAt": "2026-07-11T00:00:00+08:00"
-        }
-      ],
-      "evidence": [],
-      "rejectedCandidates": []
-    },
-    {
-      "id": "circulator-extra-14-dmabll-a900ij6jp",
-      "category": "circulator",
-      "brand": "IRIS OHYAMA",
-      "model": "TAF-MKM10",
-      "name": "極靜音自動擺動空氣循環扇",
-      "identity": {
-        "canonicalModel": "TAF-MKM10",
-        "lookupLabel": "IRIS OHYAMA TAF-MKM10",
-        "aliases": [
-          "IRIS OHYAMA TAF-MKM10"
-        ],
-        "evidenceUrl": "https://24h.pchome.com.tw/prod/DMABLL-A900IJ6JP"
-      },
-      "workflowStatus": "completed",
-      "manualReview": {
-        "status": "completed",
-        "decision": "no_common_issue",
-        "reviewedAt": "2026-07-11",
-        "checkedPlatforms": [
-          "Mobile01",
-          "Reddit"
-        ],
-        "queries": [
-          {
-            "platform": "Mobile01",
-            "query": "site:mobile01.com \"IRIS OHYAMA TAF-MKM10\" (災情 OR 問題 OR 故障 OR 負評)",
-            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22IRIS%20OHYAMA%20TAF-MKM10%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
-            "targetHost": "mobile01.com"
-          },
-          {
-            "platform": "Reddit",
-            "query": "site:reddit.com \"IRIS OHYAMA TAF-MKM10\" (problem OR issue OR defect OR \"negative review\")",
-            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22IRIS%20OHYAMA%20TAF-MKM10%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
-            "targetHost": "reddit.com"
-          }
-        ],
-        "candidateDisposition": "TAF-MKM10：重新執行 Mobile01、Reddit exact-model 查詢，搜尋結果沒有 exact-model 原頁候選；此結果不代表完全沒有負評。",
-        "representativeSources": [],
-        "candidateReviews": [],
-        "reviewerNote": "TAF-MKM10 已於 2026-07-11 實際請求兩個 Bing RSS exact-model 跨站查詢；兩站均無 exact-model 原頁候選，維持 no_common_issue，未以搜尋摘要當作負評證據。",
-        "attestation": "manual_cross_site_search_reviewed_no_candidate"
-      },
-      "issueResearch": {
-        "status": "no_common_issue",
-        "checkedAt": "2026-07-11",
-        "summary": "截至查核日，查無達門檻的集中負評／災情",
-        "issues": [],
-        "checkedSources": [
-          {
-            "platform": "Mobile01",
-            "query": "site:mobile01.com \"IRIS OHYAMA TAF-MKM10\" (災情 OR 問題 OR 故障 OR 負評)",
-            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22IRIS%20OHYAMA%20TAF-MKM10%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
-            "targetHost": "mobile01.com"
-          },
-          {
-            "platform": "Reddit",
-            "query": "site:reddit.com \"IRIS OHYAMA TAF-MKM10\" (problem OR issue OR defect OR \"negative review\")",
-            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22IRIS%20OHYAMA%20TAF-MKM10%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
-            "targetHost": "reddit.com"
-          }
-        ]
-      },
-      "searchChecks": [
-        {
-          "platform": "Mobile01",
-          "query": "site:mobile01.com \"IRIS OHYAMA TAF-MKM10\" (災情 OR 問題 OR 故障 OR 負評)",
-          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22IRIS%20OHYAMA%20TAF-MKM10%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
-          "result": "no_exact_model_result",
-          "resultCount": 0,
-          "candidateUrls": [],
-          "candidates": [],
-          "inspectedAt": "2026-07-11T00:00:00+08:00"
-        },
-        {
-          "platform": "Reddit",
-          "query": "site:reddit.com \"IRIS OHYAMA TAF-MKM10\" (problem OR issue OR defect OR \"negative review\")",
-          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22IRIS%20OHYAMA%20TAF-MKM10%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
           "result": "no_exact_model_result",
           "resultCount": 0,
           "candidateUrls": [],

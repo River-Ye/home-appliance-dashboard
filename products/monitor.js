@@ -17,9 +17,9 @@
     "name": "27 型 2K 180Hz IPS USB-C 電競螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 5218,
-      "converted": 5218,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 4957,
+      "converted": 4957,
+      "confidence": "PChome 2026-07-14 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABKBA900JZ3CV/000001_1777866944.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DSABKB-A900JZ3CV",
@@ -56,16 +56,16 @@
     "releaseDate": "2024-04-17",
     "historicalLow": {
       "status": "found",
-      "amount": 5218,
+      "amount": 4957,
       "currency": "TWD",
-      "converted": 5218,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1214271881&cgp=5218",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【ASUS 華碩】ROG Strix XG27ACS 27型2K 180Hz HDR電競螢幕",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【ASUS 華碩】ROG Strix XG27ACS 27型2K 180Hz HDR電競螢幕」最低價為 NT$5,218，最低點日期 2026-07-09。",
-      "sourceKind": "price_history",
+      "converted": 4957,
+      "sourceUrl": "https://24h.pchome.com.tw/prod/DSABKB-A900JZ3CV",
+      "sourceTitle": "PChome 商品頁：27 型 2K 180Hz IPS USB-C 電競螢幕（ROG Strix XG27ACS）",
+      "evidenceSnippet": "PChome 同型號新品頁於 2026-07-14 顯示公開售價 NT$4,957，低於原先記錄史低。",
+      "sourceKind": "retailer_page",
       "confidence": "high",
-      "checkedAt": "2026-07-09",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+      "checkedAt": "2026-07-14",
+      "note": "採用同型號新品頁可公開查核售價作為本次觀測到的最低價；排除會員個人化折扣、信用卡回饋、點數、二手、福利品、展示機、箱損、拆封與整新品。"
     },
     "issueResearch": {
       "status": "common_issue",
@@ -265,9 +265,9 @@
     "name": "27 型 2K 100Hz USB-C IPS 護眼螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 3980,
-      "converted": 3980,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 3781,
+      "converted": 3781,
+      "confidence": "PChome 2026-07-14 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABRBA900JTLHW/000001_1773730777.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DSABRB-A900JTLHW",
@@ -346,9 +346,9 @@
     "name": "24 型 FHD IPS USB-C 商務螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 4988,
-      "converted": 4988,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 4738,
+      "converted": 4738,
+      "confidence": "PChome 2026-07-14 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABOLA900K1NAC/000001_1779696949.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DSABOL-A900K1NAC",
@@ -384,16 +384,16 @@
     "releaseDate": "2024-03-19",
     "historicalLow": {
       "status": "found",
-      "amount": 4988,
+      "amount": 4738,
       "currency": "TWD",
-      "converted": 4988,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1282547388&cgp=4988",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：DELL 戴爾 P2425H-4Y 窄邊美型螢幕(24型/FHD/HDMI/DP/IPS/Type-C)",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「PCHome購物 / DELL 戴爾 P2425H-4Y 窄邊美型螢幕(24型/FHD/HDMI/DP/IPS/Type-C)」最低價為 NT$4,988，最低點日期 2026-07-09。",
-      "sourceKind": "price_history",
+      "converted": 4738,
+      "sourceUrl": "https://24h.pchome.com.tw/prod/DSABOL-A900K1NAC",
+      "sourceTitle": "PChome 商品頁：24 型 FHD IPS USB-C 商務螢幕（P2425H-4Y）",
+      "evidenceSnippet": "PChome 同型號新品頁於 2026-07-14 顯示公開售價 NT$4,738，低於原先記錄史低。",
+      "sourceKind": "retailer_page",
       "confidence": "medium",
-      "checkedAt": "2026-07-09",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+      "checkedAt": "2026-07-14",
+      "note": "採用同型號新品頁可公開查核售價作為本次觀測到的最低價；排除會員個人化折扣、信用卡回饋、點數、二手、福利品、展示機、箱損、拆封與整新品。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -429,10 +429,10 @@
       "currency": "TWD",
       "amount": 4990,
       "converted": 4990,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "confidence": "PChome 2026-07-14 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABONA900JZ7RG/000001_1777952241.jpg",
-    "buyUrl": "https://24h.pchome.com.tw/prod/DSABON-A900JZ7RG",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DSABON-A900JCGXY",
     "buyLabel": "PChome",
     "specs": [
       "27 吋",
@@ -508,9 +508,9 @@
     "name": "27 型 FHD 144Hz IPS 電競螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 2990,
-      "converted": 2990,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 2840,
+      "converted": 2840,
+      "confidence": "PChome 2026-07-14 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABPDA900JTLEG/000001_1773715062.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DSABPD-A900JTLEG",
@@ -751,9 +751,9 @@
     "name": "27 型 QHD 260Hz IPS 電競螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 4288,
-      "converted": 4288,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 4073,
+      "converted": 4073,
+      "confidence": "PChome 2026-07-14 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABQRA900JJPCW/000001_1765505711.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DSABQR-A900JJPCW",
@@ -832,9 +832,9 @@
     "name": "27 型 2K 144Hz IPS 電競螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 3888,
-      "converted": 3888,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 3693,
+      "converted": 3693,
+      "confidence": "PChome 2026-07-14 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABQQA900K2OE1/000001_1780474188.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DSABQQ-A900K2OE1",
@@ -870,16 +870,16 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 3888,
+      "amount": 3693,
       "currency": "TWD",
-      "converted": 3888,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1283960446&cgp=3888",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【Philips 飛利浦】27M2N2500NF 27型IPS 2K 144Hz電競螢幕(HDR/Adaptive-Sync/0.5ms)",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【Philips 飛利浦】27M2N2500NF 27型IPS 2K 144Hz電競螢幕(HDR/Adaptive-Sync/0.5ms)」最低價為 NT$3,888，最低點日期 2026-07-09。",
-      "sourceKind": "price_history",
+      "converted": 3693,
+      "sourceUrl": "https://24h.pchome.com.tw/prod/DSABQQ-A900K2OE1",
+      "sourceTitle": "PChome 商品頁：27 型 2K 144Hz IPS 電競螢幕（27M2N2500NF）",
+      "evidenceSnippet": "PChome 同型號新品頁於 2026-07-14 顯示公開售價 NT$3,693，低於原先記錄史低。",
+      "sourceKind": "retailer_page",
       "confidence": "medium",
-      "checkedAt": "2026-07-09",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+      "checkedAt": "2026-07-14",
+      "note": "採用同型號新品頁可公開查核售價作為本次觀測到的最低價；排除會員個人化折扣、信用卡回饋、點數、二手、福利品、展示機、箱損、拆封與整新品。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -913,9 +913,9 @@
     "name": "23.8 吋 IPS 超薄邊框商務螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 10900,
-      "converted": 10900,
-      "confidence": "可信通路查核價"
+      "amount": 10355,
+      "converted": 10355,
+      "confidence": "PChome 2026-07-14 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABABA900AHPRB/000001_1641969597.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DSABAB-A900AHPRB",
@@ -994,9 +994,9 @@
     "name": "27 型 2K 120Hz 電腦螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 3699,
-      "converted": 3699,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 3514,
+      "converted": 3514,
+      "confidence": "PChome 2026-07-14 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABVOA900JMD8B/000001_1768285501.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DSABVO-A900JMD8B",
@@ -1156,9 +1156,9 @@
     "name": "27 型 2K IPS 專業螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 5988,
-      "converted": 5988,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 5688,
+      "converted": 5688,
+      "confidence": "PChome 2026-07-14 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABBIA900JTZCP/000001_1773910733.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DSABBI-A900JTZCP",
@@ -1194,16 +1194,16 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 5978,
+      "amount": 5688,
       "currency": "TWD",
-      "converted": 5978,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=571744711&cgp=5978",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：ASUS 華碩 ProArt PA278QEV 專業螢幕 27吋 75Hz IPS 2K 5ms 可調式支架",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「蝦皮商城 - ROG 華碩授權店 | 電競周邊館 / ASUS 華碩 ProArt PA278QEV 專業螢幕 27吋 75Hz IPS 2K 5ms 可調式支架」最低價為 NT$5,978，最低點日期 2026-07-09。",
-      "sourceKind": "price_history",
+      "converted": 5688,
+      "sourceUrl": "https://24h.pchome.com.tw/prod/DSABBI-A900JTZCP",
+      "sourceTitle": "PChome 商品頁：27 型 2K IPS 專業螢幕（ProArt PA278QEV）",
+      "evidenceSnippet": "PChome 同型號新品頁於 2026-07-14 顯示公開售價 NT$5,688，低於原先記錄史低。",
+      "sourceKind": "retailer_page",
       "confidence": "high",
-      "checkedAt": "2026-07-09",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+      "checkedAt": "2026-07-14",
+      "note": "採用同型號新品頁可公開查核售價作為本次觀測到的最低價；排除會員個人化折扣、信用卡回饋、點數、二手、福利品、展示機、箱損、拆封與整新品。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -1237,13 +1237,13 @@
     "name": "27 型 4K 160Hz IPS USB-C 電競螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 7980,
-      "converted": 7980,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 7988,
+      "converted": 7988,
+      "confidence": "momo購物 2026-07-14 頁面查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABW6A900K6A95/000001_1783555579.jpg",
-    "buyUrl": "https://24h.pchome.com.tw/prod/DSABW6-A900K6A95",
-    "buyLabel": "PChome",
+    "buyUrl": "https://www.momoshop.com.tw/product/13254194",
+    "buyLabel": "momo購物",
     "specs": [
       "27 吋",
       "4K/UHD",
@@ -1804,9 +1804,9 @@
     "name": "27 型 2K IPS USB-C UltraSharp 螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 13888,
-      "converted": 13888,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 13193,
+      "converted": 13193,
+      "confidence": "PChome 2026-07-14 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABOMA900GS1DN/000001_1699955230.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DSABOM-A900GS1DN",
@@ -1885,9 +1885,9 @@
     "name": "27 型 4K Thunderbolt USB-C UltraSharp 螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 27888,
-      "converted": 27888,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 26493,
+      "converted": 26493,
+      "confidence": "PChome 2026-07-14 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABOLA900IIFQG/000001_1744702043.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DSABOL-A900IIFQG",
@@ -2142,9 +2142,9 @@
     "name": "27 型 2K 240Hz QD-OLED 電競螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 10888,
-      "converted": 10888,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 10343,
+      "converted": 10343,
+      "confidence": "PChome 2026-07-14 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABKBA900K092J/000001_1778642752.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DSABKB-A900K092J",
@@ -2180,16 +2180,16 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 10888,
+      "amount": 10343,
       "currency": "TWD",
-      "converted": 10888,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1268707725&cgp=10888",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【ASUS 華碩】ROG Strix OLED XG27AQDMES 27型 1440p 240Hz 電競螢幕(0.03ms/QD-OLED)",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【ASUS 華碩】ROG Strix OLED XG27AQDMES 27型 1440p 240Hz 電競螢幕(0.03ms/QD-OLED)」最低價為 NT$10,888，最低點日期 2026-07-09。",
-      "sourceKind": "price_history",
+      "converted": 10343,
+      "sourceUrl": "https://24h.pchome.com.tw/prod/DSABKB-A900K092J",
+      "sourceTitle": "PChome 商品頁：27 型 2K 240Hz QD-OLED 電競螢幕（ROG Strix XG27AQDMES）",
+      "evidenceSnippet": "PChome 同型號新品頁於 2026-07-14 顯示公開售價 NT$10,343，低於原先記錄史低。",
+      "sourceKind": "retailer_page",
       "confidence": "medium",
-      "checkedAt": "2026-07-09",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+      "checkedAt": "2026-07-14",
+      "note": "採用同型號新品頁可公開查核售價作為本次觀測到的最低價；排除會員個人化折扣、信用卡回饋、點數、二手、福利品、展示機、箱損、拆封與整新品。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -2223,8 +2223,8 @@
     "name": "27 型 WQHD 360Hz QD-OLED 電競螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 18900,
-      "converted": 18900,
+      "amount": 17955,
+      "converted": 17955,
       "confidence": "Yahoo購物中心 2026-07-14 頁面查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DSBC1ZA900HE04M/000001_1757303897.jpg",
@@ -2385,9 +2385,9 @@
     "name": "27 型 4K IPS USB-C 人體工學螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 7290,
-      "converted": 7290,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 6925,
+      "converted": 6925,
+      "confidence": "PChome 2026-07-14 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABEZA900K1N6R/000001_1782816950.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DSABEZ-A900K1N6R",
@@ -2466,9 +2466,9 @@
     "name": "27 型 4K 160Hz IPS 雙模電競螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 7988,
-      "converted": 7988,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 7588,
+      "converted": 7588,
+      "confidence": "PChome 2026-07-14 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABOIA900K129O/000001_1779250013.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DSABOI-A900K129O",
@@ -2547,9 +2547,9 @@
     "name": "27 型 QHD 260Hz IPS 電競螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 5088,
-      "converted": 5088,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 4833,
+      "converted": 4833,
+      "confidence": "PChome 2026-07-14 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABQIA900J82S0/000001_1757486726.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DSABQI-A900J82S0",
@@ -2628,9 +2628,9 @@
     "name": "27 型 2K 180Hz Mini LED 電競螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 7788,
-      "converted": 7788,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 7398,
+      "converted": 7398,
+      "confidence": "PChome 2026-07-14 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABTAA900JBMD6/000001_1759809326.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DSABTA-A900JBMD6",
@@ -2666,16 +2666,16 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 7493,
+      "amount": 7398,
       "currency": "TWD",
-      "converted": 7493,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1282039495&cgp=7788",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【AOC】Q27G40XMN 27型 VA QHD-MiniLED 16:9 180Hz電競螢幕(1ms/Adaptive Sync/HDMI/DP)",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【AOC】Q27G40XMN 27型 VA QHD-MiniLED 16:9 180Hz電競螢幕(1ms/Adaptive Sync/HDMI/DP)」最低價為 NT$7,493，最低點日期 2026-06-11。",
-      "sourceKind": "price_history",
+      "converted": 7398,
+      "sourceUrl": "https://24h.pchome.com.tw/prod/DSABTA-A900JBMD6",
+      "sourceTitle": "PChome 商品頁：27 型 2K 180Hz Mini LED 電競螢幕（Q27G40XMN）",
+      "evidenceSnippet": "PChome 同型號新品頁於 2026-07-14 顯示公開售價 NT$7,398，低於原先記錄史低。",
+      "sourceKind": "retailer_page",
       "confidence": "medium",
-      "checkedAt": "2026-07-09",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+      "checkedAt": "2026-07-14",
+      "note": "採用同型號新品頁可公開查核售價作為本次觀測到的最低價；排除會員個人化折扣、信用卡回饋、點數、二手、福利品、展示機、箱損、拆封與整新品。"
     },
     "issueResearch": {
       "status": "common_issue",
@@ -2794,9 +2794,9 @@
     "name": "32 型 4K 240Hz OLED Alienware 電競螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 33888,
-      "converted": 33888,
-      "confidence": "可信通路查核價"
+      "amount": 32193,
+      "converted": 32193,
+      "confidence": "PChome 2026-07-14 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABOKA900HB1B5/000001_1710325731.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DSABOK-A900HB1B5",
@@ -2879,9 +2879,9 @@
     "name": "27 型 4K AdobeRGB 99% 專業攝影螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 59900,
-      "converted": 59900,
-      "confidence": "可信通路查核價"
+      "amount": 56905,
+      "converted": 56905,
+      "confidence": "PChome 2026-07-14 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABGWA900ANM62/000001_1741748518.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DSABGW-A900ANM62",
@@ -3124,8 +3124,8 @@
     "name": "34 型 UWQHD 120Hz 曲面美型螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 6588,
-      "converted": 6588,
+      "amount": 6259,
+      "converted": 6259,
       "confidence": "Yahoo購物中心 2026-07-14 頁面查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABPFA900K0AJK/000001_1778658221.jpg",
@@ -3206,9 +3206,9 @@
     "name": "34 型 WQHD 180Hz 1500R 曲面電競螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 6888,
-      "converted": 6888,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 6543,
+      "converted": 6543,
+      "confidence": "PChome 2026-07-14 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABQRA900JPRWC/000001_1770367990.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DSABQR-A900JPRWC",
@@ -3245,16 +3245,16 @@
     "releaseDate": "2025-01-20",
     "historicalLow": {
       "status": "found",
-      "amount": 6888,
+      "amount": 6543,
       "currency": "TWD",
-      "converted": 6888,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1268861301&cgp=6888",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：(店+)【AOC】AOC CU34G4 曲面電競螢幕 34吋 180Hz 2K 0.5ms HDR 電競螢幕 電腦螢幕 遊戲螢幕 液晶螢幕",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / (店+)【AOC】AOC CU34G4 曲面電競螢幕 34吋 180Hz 2K 0.5ms HDR 電競螢幕 電腦螢幕 遊戲螢幕 液晶螢幕」最低價為 NT$6,888，最低點日期 2026-07-09。",
-      "sourceKind": "price_history",
+      "converted": 6543,
+      "sourceUrl": "https://24h.pchome.com.tw/prod/DSABQR-A900JPRWC",
+      "sourceTitle": "PChome 商品頁：34 型 WQHD 180Hz 1500R 曲面電競螢幕（CU34G4）",
+      "evidenceSnippet": "PChome 同型號新品頁於 2026-07-14 顯示公開售價 NT$6,543，低於原先記錄史低。",
+      "sourceKind": "retailer_page",
       "confidence": "high",
-      "checkedAt": "2026-07-09",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+      "checkedAt": "2026-07-14",
+      "note": "採用同型號新品頁可公開查核售價作為本次觀測到的最低價；排除會員個人化折扣、信用卡回饋、點數、二手、福利品、展示機、箱損、拆封與整新品。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -3370,9 +3370,9 @@
     "name": "34 型 UWQHD 280Hz QD-OLED 曲面電競螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 26888,
-      "converted": 26888,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 25543,
+      "converted": 25543,
+      "confidence": "PChome 2026-07-14 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABKBA900K0YA0/000001_1779246107.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DSABKB-A900K0YA0",
@@ -3409,16 +3409,16 @@
     "releaseDate": "2026-05-07",
     "historicalLow": {
       "status": "found",
-      "amount": 26888,
+      "amount": 25543,
       "currency": "TWD",
-      "converted": 26888,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1281721897&cgp=26888",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：ASUS 華碩 ROG Strix XG34WCDMS 電競螢幕(34型/3440x1440/280Hz/0.03ms/QD-OLED/HDMI2.1/Type-C)",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「PCHome購物 / ASUS 華碩 ROG Strix XG34WCDMS 電競螢幕(34型/3440x1440/280Hz/0.03ms/QD-OLED/HDMI2.1/Type-C)」最低價為 NT$26,888，最低點日期 2026-07-09。",
-      "sourceKind": "price_history",
+      "converted": 25543,
+      "sourceUrl": "https://24h.pchome.com.tw/prod/DSABKB-A900K0YA0",
+      "sourceTitle": "PChome 商品頁：34 型 UWQHD 280Hz QD-OLED 曲面電競螢幕（ROG Strix XG34WCDMS）",
+      "evidenceSnippet": "PChome 同型號新品頁於 2026-07-14 顯示公開售價 NT$25,543，低於原先記錄史低。",
+      "sourceKind": "retailer_page",
       "confidence": "medium",
-      "checkedAt": "2026-07-09",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+      "checkedAt": "2026-07-14",
+      "note": "採用同型號新品頁可公開查核售價作為本次觀測到的最低價；排除會員個人化折扣、信用卡回饋、點數、二手、福利品、展示機、箱損、拆封與整新品。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -3452,9 +3452,9 @@
     "name": "34 型 OLED G8 21:9 175Hz 曲面智慧顯示器",
     "price": {
       "currency": "TWD",
-      "amount": 24153,
-      "converted": 24153,
-      "confidence": "Yahoo購物中心 2026-07-11 頁面查核價"
+      "amount": 24900,
+      "converted": 24900,
+      "confidence": "Yahoo購物中心 2026-07-14 頁面查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABUFA900K03Q2/000001_1778565462.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/SAMSUNG%E4%B8%89%E6%98%9F-34%E5%90%8B-Odyssey-OLED-G8-%E6%9B%B2%E9%9D%A2%E9%9B%BB%E7%AB%B6%E9%A1%AF%E7%A4%BA%E5%99%A8-G85SD-S34DG8-12090389.html",
@@ -3534,9 +3534,9 @@
     "name": "34 型 Porsche Design 240Hz QD-OLED 曲面螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 29988,
-      "converted": 29988,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 28488,
+      "converted": 28488,
+      "confidence": "PChome 2026-07-14 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABQRA900K5BI4/000001_1782298311.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DSABQR-A900K5BI4",
@@ -3573,16 +3573,16 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 29988,
+      "amount": 28488,
       "currency": "TWD",
-      "converted": 29988,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1283912346&cgp=29988",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：AOC PD34 PORSCHE DESIGN 曲面電競螢幕(34型/WQHD/HDR/240Hz/0.03ms/QD-OLED)",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「PCHome購物 / AOC PD34 PORSCHE DESIGN 曲面電競螢幕(34型/WQHD/HDR/240Hz/0.03ms/QD-OLED)」最低價為 NT$29,988，最低點日期 2026-07-09。",
-      "sourceKind": "price_history",
+      "converted": 28488,
+      "sourceUrl": "https://24h.pchome.com.tw/prod/DSABQR-A900K5BI4",
+      "sourceTitle": "PChome 商品頁：34 型 Porsche Design 240Hz QD-OLED 曲面螢幕（PD34）",
+      "evidenceSnippet": "PChome 同型號新品頁於 2026-07-14 顯示公開售價 NT$28,488，低於原先記錄史低。",
+      "sourceKind": "retailer_page",
       "confidence": "medium",
-      "checkedAt": "2026-07-09",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+      "checkedAt": "2026-07-14",
+      "note": "採用同型號新品頁可公開查核售價作為本次觀測到的最低價；排除會員個人化折扣、信用卡回饋、點數、二手、福利品、展示機、箱損、拆封與整新品。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -3698,8 +3698,8 @@
     "name": "49 型 Odyssey OLED G9 Dual QHD 240Hz 曲面螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 34999,
-      "converted": 34999,
+      "amount": 36900,
+      "converted": 36900,
       "confidence": "PChome 2026-07-14 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBM10A900HZCPE/000001_1781766568.jpg",
@@ -4026,9 +4026,9 @@
     "name": "34 型 21:9 IPS Black 120Hz USB-C 商務曲面螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 39888,
-      "converted": 39888,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 37893,
+      "converted": 37893,
+      "confidence": "PChome 2026-07-14 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABOMA900HIJN3/000001_1716881117.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DSABOM-A900HIJN3",
@@ -4065,16 +4065,16 @@
     "releaseDate": "2024",
     "historicalLow": {
       "status": "found",
-      "amount": 39400,
+      "amount": 37893,
       "currency": "TWD",
-      "converted": 39400,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1269194151&cgp=39900",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【DELL 戴爾】U3425WE-5Y 34吋顯示器(IPS/WQHD/3440 x 1440/曲面螢幕/HDMI/Thunderbolt™ 4)",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【DELL 戴爾】U3425WE-5Y 34吋顯示器(IPS/WQHD/3440 x 1440/曲面螢幕/HDMI/Thunderbolt™ 4)」最低價為 NT$39,400，最低點日期 2026-01-26。",
-      "sourceKind": "price_history",
+      "converted": 37893,
+      "sourceUrl": "https://24h.pchome.com.tw/prod/DSABOM-A900HIJN3",
+      "sourceTitle": "PChome 商品頁：34 型 21:9 IPS Black 120Hz USB-C 商務曲面螢幕（U3425WE-5Y）",
+      "evidenceSnippet": "PChome 同型號新品頁於 2026-07-14 顯示公開售價 NT$37,893，低於原先記錄史低。",
+      "sourceKind": "retailer_page",
       "confidence": "medium",
-      "checkedAt": "2026-07-09",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+      "checkedAt": "2026-07-14",
+      "note": "採用同型號新品頁可公開查核售價作為本次觀測到的最低價；排除會員個人化折扣、信用卡回饋、點數、二手、福利品、展示機、箱損、拆封與整新品。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -4108,9 +4108,9 @@
     "name": "49 型 DQHD QD-OLED 144Hz Type-C 曲面螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 32900,
-      "converted": 32900,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 31255,
+      "converted": 31255,
+      "confidence": "PChome 2026-07-14 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABPDA900H9PEB/000001_1709257135.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DSABPD-A900H9PEB",

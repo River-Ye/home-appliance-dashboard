@@ -846,13 +846,13 @@
     "image": "https://cs-a.ecimg.tw/items/DEAGL1A900K0YA8/000001_1779182108.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 1899,
-      "converted": 1899,
-      "confidence": "PChome 2026-07-10 API 查核價"
+      "amount": 1999,
+      "converted": 1999,
+      "confidence": "Yahoo購物中心 2026-07-14 頁面查核價"
     },
     "channel": "tw",
-    "buyLabel": "PChome",
-    "buyUrl": "https://24h.pchome.com.tw/prod/DEAGL1-A900K0YA8",
+    "buyLabel": "Yahoo購物中心",
+    "buyUrl": "https://tw.buy.yahoo.com/gdsale/KYOCERA-%E4%BA%AC%E7%93%B7-%E6%97%A5%E6%9C%AC%E8%A3%BD%E9%BB%91%E9%99%B6%E7%93%B7%E4%B8%AD%E8%8F%AF%E6%96%99%E7%90%86%E5%88%80-16cm-12105465.html",
     "specs": [
       "刀具：Kyocera 黑陶瓷中華料理刀",
       "KYOCERA_京瓷日本黑刃精密陶瓷料理刀 (16cm) 中式菜刀 陶瓷刀",
