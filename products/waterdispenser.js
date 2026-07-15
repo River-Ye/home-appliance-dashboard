@@ -185,9 +185,9 @@
     "image": "https://cs-a.ecimg.tw/items/DMAW25A900G453U/000001_1781668075.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 8333,
-      "converted": 8333,
-      "confidence": "Yahoo購物中心 2026-07-11 頁面查核價"
+      "amount": 8590,
+      "converted": 8590,
+      "confidence": "Yahoo購物中心 2026-07-15 頁面查核價"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心",
@@ -270,9 +270,9 @@
     "image": "https://cs-a.ecimg.tw/items/DMCI1NA900HIJUW/000001_1782095197.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 9108,
-      "converted": 9108,
-      "confidence": "Yahoo購物中心 2026-07-11 頁面查核價"
+      "amount": 9900,
+      "converted": 9900,
+      "confidence": "Yahoo購物中心 2026-07-15 頁面查核價"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心",
@@ -1589,9 +1589,9 @@
     "name": "廚下型飲用水加熱器",
     "price": {
       "currency": "TWD",
-      "amount": 21150,
-      "converted": 21150,
-      "confidence": "Yahoo購物中心 2026-07-11 頁面查核價"
+      "amount": 23500,
+      "converted": 23500,
+      "confidence": "Yahoo購物中心 2026-07-15 頁面查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAWB8A900BVEOG/000001_1760685693.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/BWT%E5%BE%B7%E5%9C%8B%E5%80%8D%E4%B8%96-%E6%99%BA%E6%85%A7%E5%9E%8B%E6%AB%A5%E4%B8%8B%E5%8A%A0%E7%86%B1%E5%99%A8-DWH30A-9802406.html",
@@ -1668,8 +1668,8 @@
     "price": {
       "currency": "USD",
       "amount": 369.99,
-      "converted": 11906,
-      "confidence": "Costco US 2026-07-14 來源價；ExchangeRate-API 2026-07-14 匯率換算"
+      "converted": 11894,
+      "confidence": "Costco US 2026-07-15 來源價；ExchangeRate-API 2026-07-15 匯率換算"
     },
     "image": "https://bfasset.costco-static.com/U447IH35/as/4xjr3phfqx7p9vvxzfhp3jp/100457228-847_chrome_1?auto=webp&format=jpg",
     "buyUrl": "https://www.costco.com/brondell-circle-reverse-osmosis-water-filtration-system.product.100457228.html",

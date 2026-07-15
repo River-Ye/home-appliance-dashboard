@@ -251,9 +251,9 @@
     "name": "30L Healsio 炙燒水波爐",
     "price": {
       "currency": "TWD",
-      "amount": 25392,
-      "converted": 25392,
-      "confidence": "Yahoo購物中心 2026-07-14 頁面查核價"
+      "amount": 28800,
+      "converted": 28800,
+      "confidence": "Yahoo購物中心 2026-07-15 頁面查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBJ021900I5KFC/000001_1779346148.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/SHARP%E5%A4%8F%E6%99%AE-HEALSIO-%E6%97%97%E8%89%A6%E6%B0%B4%E6%B3%A2%E7%88%90-AX-XP10T-12039766.html",
@@ -330,8 +330,8 @@
     "price": {
       "currency": "USD",
       "amount": 499.95,
-      "converted": 16088,
-      "confidence": "Breville 官方 2026-07-14 來源價；ExchangeRate-API 2026-07-14 匯率換算"
+      "converted": 16072,
+      "confidence": "Breville 官方 2026-07-15 來源價；ExchangeRate-API 2026-07-15 匯率換算"
     },
     "image": "https://cdn11.bigcommerce.com/s-ihwnd7z21q/images/stencil/640w/products/1251/4666/212814_JouleOvenAirFryer1__10534.1724079466.jpg?c=1",
     "buyUrl": "https://www.breville.com/en-us/product/bov950",
@@ -563,9 +563,9 @@
     "name": "30L 蒸氣烘烤微波爐",
     "price": {
       "currency": "TWD",
-      "amount": 26900,
-      "converted": 26900,
-      "confidence": "Yahoo購物中心 2026-07-14 頁面查核價"
+      "amount": 32900,
+      "converted": 32900,
+      "confidence": "Yahoo購物中心 2026-07-15 頁面查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBJ7P1900HCI3E/000001_1782972848.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/Panasonic-%E5%9C%8B%E9%9A%9B%E7%89%8C-30L%E5%B9%B3%E5%8F%B0%E5%BC%8F%E8%AE%8A%E9%A0%BB%E8%92%B8%E7%83%98%E7%83%A4%E5%BE%AE%E9%9B%BB%E8%85%A6%E5%BE%AE%E6%B3%A2%E7%88%90-NN-BS1700-9469543.html",
@@ -719,9 +719,9 @@
     "name": "20L 多功能蒸氣氣炸烤箱",
     "price": {
       "currency": "TWD",
-      "amount": 10260,
-      "converted": 10260,
-      "confidence": "PChome 2026-07-12 API 查核價"
+      "amount": 10800,
+      "converted": 10800,
+      "confidence": "PChome 2026-07-15 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBM0GA900HF91A/000001_1768545220.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBM0G-A900HF91A",
@@ -875,9 +875,9 @@
     "name": "AIoT 智慧連網 30L 水波爐蒸氣烘烤微波爐",
     "price": {
       "currency": "TWD",
-      "amount": 35696,
-      "converted": 35696,
-      "confidence": "Yahoo購物中心 2026-07-14 頁面查核價"
+      "amount": 38800,
+      "converted": 38800,
+      "confidence": "Yahoo購物中心 2026-07-15 頁面查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBM0GA900G41CW/000001_1780306175.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/SHARP-%E5%A4%8F%E6%99%AE-30L-Healsio-AIoT%E6%99%BA%E6%85%A7%E9%80%A3%E7%B6%B2%E6%B0%B4%E6%B3%A2%E7%88%90-AX-XW10T-11978312.html",
@@ -1031,9 +1031,9 @@
     "name": "31L 極智烘烤系列水波爐",
     "price": {
       "currency": "TWD",
-      "amount": 22908,
-      "converted": 22908,
-      "confidence": "Yahoo購物中心 2026-07-14 頁面查核價"
+      "amount": 24900,
+      "converted": 24900,
+      "confidence": "Yahoo購物中心 2026-07-15 頁面查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBJ0RA900JT4ZV/000001_1781238451.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/SHARP-%E5%A4%8F%E6%99%AE-31L-%E6%A5%B5%E6%99%BA%E7%83%98%E7%83%A4%E7%B3%BB%E5%88%97%E6%B0%B4%E6%B3%A2%E7%88%90-AX-XS10T-B-AX-XS10T-W-12030496.html",
@@ -1499,9 +1499,9 @@
     "name": "蒸烘烤變頻微波爐",
     "price": {
       "currency": "TWD",
-      "amount": 41724,
-      "converted": 41724,
-      "confidence": "PChome 2026-07-12 API 查核價"
+      "amount": 43920,
+      "converted": 43920,
+      "confidence": "PChome 2026-07-15 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBM0GA900H5125/000001_1783054719.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBM0G-A900H5125",

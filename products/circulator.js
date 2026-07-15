@@ -274,9 +274,9 @@
     "name": "強力氣流循環扇",
     "price": {
       "currency": "TWD",
-      "amount": 990,
-      "converted": 990,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 940,
+      "converted": 940,
+      "confidence": "PChome 2026-07-15 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DEEO01A900GCMTC/000001_1723452738.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DEEO01-A900GCMTC",

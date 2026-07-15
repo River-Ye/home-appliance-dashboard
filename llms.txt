@@ -6,7 +6,7 @@
 
 - Brand: 家電推薦比較工作台
 - Canonical site: https://appliance.riverye.com/
-- Data updated: 2026-07-14
+- Data updated: 2026-07-15
 - Catalog: 25 categories, 658 products
 - Source code: https://github.com/River-Ye/home-appliance-dashboard
 

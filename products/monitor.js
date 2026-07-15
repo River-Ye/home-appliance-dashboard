@@ -17,9 +17,9 @@
     "name": "27 型 2K 180Hz IPS USB-C 電競螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 4957,
-      "converted": 4957,
-      "confidence": "PChome 2026-07-14 API 查核價"
+      "amount": 5218,
+      "converted": 5218,
+      "confidence": "PChome 2026-07-15 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABKBA900JZ3CV/000001_1777866944.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DSABKB-A900JZ3CV",
@@ -265,9 +265,9 @@
     "name": "27 型 2K 100Hz USB-C IPS 護眼螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 3781,
-      "converted": 3781,
-      "confidence": "PChome 2026-07-14 API 查核價"
+      "amount": 3980,
+      "converted": 3980,
+      "confidence": "PChome 2026-07-15 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABRBA900JTLHW/000001_1773730777.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DSABRB-A900JTLHW",
@@ -346,9 +346,9 @@
     "name": "24 型 FHD IPS USB-C 商務螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 4738,
-      "converted": 4738,
-      "confidence": "PChome 2026-07-14 API 查核價"
+      "amount": 4988,
+      "converted": 4988,
+      "confidence": "PChome 2026-07-15 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABOLA900K1NAC/000001_1779696949.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DSABOL-A900K1NAC",
@@ -508,9 +508,9 @@
     "name": "27 型 FHD 144Hz IPS 電競螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 2840,
-      "converted": 2840,
-      "confidence": "PChome 2026-07-14 API 查核價"
+      "amount": 2990,
+      "converted": 2990,
+      "confidence": "PChome 2026-07-15 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABPDA900JTLEG/000001_1773715062.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DSABPD-A900JTLEG",
@@ -751,9 +751,9 @@
     "name": "27 型 QHD 260Hz IPS 電競螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 4073,
-      "converted": 4073,
-      "confidence": "PChome 2026-07-14 API 查核價"
+      "amount": 4288,
+      "converted": 4288,
+      "confidence": "PChome 2026-07-15 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABQRA900JJPCW/000001_1765505711.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DSABQR-A900JJPCW",
@@ -832,9 +832,9 @@
     "name": "27 型 2K 144Hz IPS 電競螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 3693,
-      "converted": 3693,
-      "confidence": "PChome 2026-07-14 API 查核價"
+      "amount": 3888,
+      "converted": 3888,
+      "confidence": "PChome 2026-07-15 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABQQA900K2OE1/000001_1780474188.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DSABQQ-A900K2OE1",
@@ -913,9 +913,9 @@
     "name": "23.8 吋 IPS 超薄邊框商務螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 10355,
-      "converted": 10355,
-      "confidence": "PChome 2026-07-14 API 查核價"
+      "amount": 10900,
+      "converted": 10900,
+      "confidence": "PChome 2026-07-15 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABABA900AHPRB/000001_1641969597.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DSABAB-A900AHPRB",
@@ -994,9 +994,9 @@
     "name": "27 型 2K 120Hz 電腦螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 3514,
-      "converted": 3514,
-      "confidence": "PChome 2026-07-14 API 查核價"
+      "amount": 3699,
+      "converted": 3699,
+      "confidence": "PChome 2026-07-15 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABVOA900JMD8B/000001_1768285501.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DSABVO-A900JMD8B",
@@ -1156,9 +1156,9 @@
     "name": "27 型 2K IPS 專業螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 5688,
-      "converted": 5688,
-      "confidence": "PChome 2026-07-14 API 查核價"
+      "amount": 5988,
+      "converted": 5988,
+      "confidence": "PChome 2026-07-15 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABBIA900JTZCP/000001_1773910733.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DSABBI-A900JTZCP",
@@ -1804,9 +1804,9 @@
     "name": "27 型 2K IPS USB-C UltraSharp 螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 13193,
-      "converted": 13193,
-      "confidence": "PChome 2026-07-14 API 查核價"
+      "amount": 13888,
+      "converted": 13888,
+      "confidence": "PChome 2026-07-15 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABOMA900GS1DN/000001_1699955230.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DSABOM-A900GS1DN",
@@ -1885,9 +1885,9 @@
     "name": "27 型 4K Thunderbolt USB-C UltraSharp 螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 26493,
-      "converted": 26493,
-      "confidence": "PChome 2026-07-14 API 查核價"
+      "amount": 27888,
+      "converted": 27888,
+      "confidence": "PChome 2026-07-15 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABOLA900IIFQG/000001_1744702043.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DSABOL-A900IIFQG",
@@ -2142,9 +2142,9 @@
     "name": "27 型 2K 240Hz QD-OLED 電競螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 10343,
-      "converted": 10343,
-      "confidence": "PChome 2026-07-14 API 查核價"
+      "amount": 10888,
+      "converted": 10888,
+      "confidence": "PChome 2026-07-15 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABKBA900K092J/000001_1778642752.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DSABKB-A900K092J",
@@ -2223,9 +2223,9 @@
     "name": "27 型 WQHD 360Hz QD-OLED 電競螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 17955,
-      "converted": 17955,
-      "confidence": "Yahoo購物中心 2026-07-14 頁面查核價"
+      "amount": 18900,
+      "converted": 18900,
+      "confidence": "Yahoo購物中心 2026-07-15 頁面查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DSBC1ZA900HE04M/000001_1757303897.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/MSI%E5%BE%AE%E6%98%9F-MPG-271QRX-QD-OLED-27%E5%9E%8B-2K-360Hz-HDR%E9%9B%BB%E7%AB%B6%E8%9E%A2%E5%B9%95-10958143.html",
@@ -2385,9 +2385,9 @@
     "name": "27 型 4K IPS USB-C 人體工學螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 6925,
-      "converted": 6925,
-      "confidence": "PChome 2026-07-14 API 查核價"
+      "amount": 7290,
+      "converted": 7290,
+      "confidence": "PChome 2026-07-15 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABEZA900K1N6R/000001_1782816950.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DSABEZ-A900K1N6R",
@@ -2466,9 +2466,9 @@
     "name": "27 型 4K 160Hz IPS 雙模電競螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 7588,
-      "converted": 7588,
-      "confidence": "PChome 2026-07-14 API 查核價"
+      "amount": 7988,
+      "converted": 7988,
+      "confidence": "PChome 2026-07-15 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABOIA900K129O/000001_1779250013.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DSABOI-A900K129O",
@@ -2547,9 +2547,9 @@
     "name": "27 型 QHD 260Hz IPS 電競螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 4833,
-      "converted": 4833,
-      "confidence": "PChome 2026-07-14 API 查核價"
+      "amount": 5088,
+      "converted": 5088,
+      "confidence": "PChome 2026-07-15 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABQIA900J82S0/000001_1757486726.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DSABQI-A900J82S0",
@@ -2628,9 +2628,9 @@
     "name": "27 型 2K 180Hz Mini LED 電競螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 7398,
-      "converted": 7398,
-      "confidence": "PChome 2026-07-14 API 查核價"
+      "amount": 7788,
+      "converted": 7788,
+      "confidence": "PChome 2026-07-15 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABTAA900JBMD6/000001_1759809326.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DSABTA-A900JBMD6",
@@ -2794,9 +2794,9 @@
     "name": "32 型 4K 240Hz OLED Alienware 電競螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 32193,
-      "converted": 32193,
-      "confidence": "PChome 2026-07-14 API 查核價"
+      "amount": 33888,
+      "converted": 33888,
+      "confidence": "PChome 2026-07-15 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABOKA900HB1B5/000001_1710325731.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DSABOK-A900HB1B5",
@@ -2879,9 +2879,9 @@
     "name": "27 型 4K AdobeRGB 99% 專業攝影螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 56905,
-      "converted": 56905,
-      "confidence": "PChome 2026-07-14 API 查核價"
+      "amount": 59900,
+      "converted": 59900,
+      "confidence": "PChome 2026-07-15 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABGWA900ANM62/000001_1741748518.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DSABGW-A900ANM62",
@@ -3124,9 +3124,9 @@
     "name": "34 型 UWQHD 120Hz 曲面美型螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 6259,
-      "converted": 6259,
-      "confidence": "Yahoo購物中心 2026-07-14 頁面查核價"
+      "amount": 6588,
+      "converted": 6588,
+      "confidence": "Yahoo購物中心 2026-07-15 頁面查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABPFA900K0AJK/000001_1778658221.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/MSI%E5%BE%AE%E6%98%9FPRO-MP341CQW-E12-34%E5%9E%8B-VA-UWQHD-120Hz-%E6%9B%B2%E9%9D%A2%E8%9E%A2%E5%B9%95-1ms-12002868.html",
@@ -3206,9 +3206,9 @@
     "name": "34 型 WQHD 180Hz 1500R 曲面電競螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 6543,
-      "converted": 6543,
-      "confidence": "PChome 2026-07-14 API 查核價"
+      "amount": 6888,
+      "converted": 6888,
+      "confidence": "PChome 2026-07-15 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABQRA900JPRWC/000001_1770367990.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DSABQR-A900JPRWC",
@@ -3370,9 +3370,9 @@
     "name": "34 型 UWQHD 280Hz QD-OLED 曲面電競螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 25543,
-      "converted": 25543,
-      "confidence": "PChome 2026-07-14 API 查核價"
+      "amount": 26888,
+      "converted": 26888,
+      "confidence": "PChome 2026-07-15 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABKBA900K0YA0/000001_1779246107.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DSABKB-A900K0YA0",
@@ -3534,9 +3534,9 @@
     "name": "34 型 Porsche Design 240Hz QD-OLED 曲面螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 28488,
-      "converted": 28488,
-      "confidence": "PChome 2026-07-14 API 查核價"
+      "amount": 29988,
+      "converted": 29988,
+      "confidence": "PChome 2026-07-15 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABQRA900K5BI4/000001_1782298311.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DSABQR-A900K5BI4",
@@ -4026,9 +4026,9 @@
     "name": "34 型 21:9 IPS Black 120Hz USB-C 商務曲面螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 37893,
-      "converted": 37893,
-      "confidence": "PChome 2026-07-14 API 查核價"
+      "amount": 39888,
+      "converted": 39888,
+      "confidence": "PChome 2026-07-15 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABOMA900HIJN3/000001_1716881117.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DSABOM-A900HIJN3",
@@ -4108,9 +4108,9 @@
     "name": "49 型 DQHD QD-OLED 144Hz Type-C 曲面螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 31255,
-      "converted": 31255,
-      "confidence": "PChome 2026-07-14 API 查核價"
+      "amount": 32900,
+      "converted": 32900,
+      "confidence": "PChome 2026-07-15 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABPDA900H9PEB/000001_1709257135.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DSABPD-A900H9PEB",

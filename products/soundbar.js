@@ -17,9 +17,9 @@
     "name": "11.1.4 聲道旗艦 Soundbar",
     "price": {
       "currency": "TWD",
-      "amount": 47405,
-      "converted": 47405,
-      "confidence": "Yahoo購物中心 2026-07-11 頁面查核價"
+      "amount": 49900,
+      "converted": 49900,
+      "confidence": "Yahoo購物中心 2026-07-15 頁面查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAAODA900JMDR5/000001_1773978957.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/Samsung-%E4%B8%89%E6%98%9F-11-1-4%E8%81%B2%E9%81%93-%E8%97%8D%E7%89%99%E8%81%B2%E9%9C%B8-HW-Q990F-ZW-11688500.html",
@@ -265,13 +265,13 @@
     "name": "旗艦級無線智能聲霸",
     "price": {
       "currency": "TWD",
-      "amount": 41900,
-      "converted": 41900,
-      "confidence": "可信通路查核價"
+      "amount": 37710,
+      "converted": 37710,
+      "confidence": "K.Wild 2026-07-15 頁面查核價"
     },
-    "image": "https://cs-a.ecimg.tw/items/DMAAO6A900IE4HM/000001_1740554860.jpg",
-    "buyUrl": "https://24h.pchome.com.tw/prod/DMAAO6-A900IE4HM",
-    "buyLabel": "PChome",
+    "image": "https://cdn1-next.cybassets.com/media/W1siZiIsIjI2MjU4L3Byb2R1Y3RzLzU4MjgzOTMzLzE3NTQ5OTA1MTVfODE4MTljZGJmN2RmMTY1MzE3NTUuanBlZyJdLFsicCIsInRodW1iIiwiNjAweDYwMCJdXQ.jpeg?sha=3ad41c6aa447363c",
+    "buyUrl": "https://www.kwildglamping.com/products/sonos-arc-ultra",
+    "buyLabel": "K.Wild",
     "specs": [
       "單件式 Soundbar",
       "Dolby Atmos",
@@ -300,16 +300,16 @@
     "releaseDate": "2024-10-15",
     "historicalLow": {
       "status": "found",
-      "amount": 41900,
+      "amount": 37710,
       "currency": "TWD",
-      "converted": 41900,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1269726290&cgp=41900",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：SONOS Arc Ultra 旗艦級無線智能聲霸",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「PCHome購物 / SONOS Arc Ultra 旗艦級無線智能聲霸」最低價為 NT$41,900，最低點日期 2026-07-09。",
-      "sourceKind": "price_history",
-      "confidence": "medium",
-      "checkedAt": "2026-07-09",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+      "converted": 37710,
+      "sourceUrl": "https://www.kwildglamping.com/products/sonos-arc-ultra",
+      "sourceTitle": "K.Wild：SONOS Arc Ultra 旗艦級無線智能聲霸（台灣公司貨、兩年保固）",
+      "evidenceSnippet": "K.Wild 同型號新品頁於 2026-07-15 顯示公開售價 NT$37,710、供貨狀況「尚有庫存」，並載明台灣公司貨、原廠兩年保固與約 1 至 2 個工作天出貨。",
+      "sourceKind": "retailer_page",
+      "confidence": "high",
+      "checkedAt": "2026-07-15",
+      "note": "採用 K.Wild 同型號公司貨新品現貨頁可公開查核售價；排除會員個人化折扣、信用卡回饋、點數、二手、福利品、展示、箱損、拆封與整新品。"
     },
     "issueResearch": {
       "status": "common_issue",
@@ -664,9 +664,9 @@
     "name": "Q 系列 11.1.4 聲道 Soundbar 家庭劇院",
     "price": {
       "currency": "TWD",
-      "amount": 56905,
-      "converted": 56905,
-      "confidence": "Yahoo購物中心 2026-07-11 頁面查核價"
+      "amount": 59900,
+      "converted": 59900,
+      "confidence": "Yahoo購物中心 2026-07-15 頁面查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DPADO2A900K5VUT/000001_1782993730.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/Samsung%E4%B8%89%E6%98%9F-11-1-4%E8%81%B2%E9%81%93-%E8%97%8D%E7%89%99%E8%81%B2%E9%9C%B8-HW-Q990H-ZW-12124621.html",
@@ -742,9 +742,9 @@
     "name": "Q 系列 7.1.2 聲道 Soundbar",
     "price": {
       "currency": "TWD",
-      "amount": 35055,
-      "converted": 35055,
-      "confidence": "Yahoo購物中心 2026-07-11 頁面查核價"
+      "amount": 36900,
+      "converted": 36900,
+      "confidence": "Yahoo購物中心 2026-07-15 頁面查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAAODA900K5489/000001_1782988490.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/Samsung%E4%B8%89%E6%98%9F-7-1-2%E8%81%B2%E9%81%93-%E8%97%8D%E7%89%99%E8%81%B2%E9%9C%B8-HW-QS90H-ZW-12124562.html",
@@ -898,9 +898,9 @@
     "name": "2.0 聲道單件式藍牙 Soundbar",
     "price": {
       "currency": "TWD",
-      "amount": 7591,
-      "converted": 7591,
-      "confidence": "Yahoo購物中心 2026-07-14 頁面查核價"
+      "amount": 7990,
+      "converted": 7990,
+      "confidence": "Yahoo購物中心 2026-07-15 頁面查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAAMTA900I5HHO/000001_1778661010.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/gdsale.asp?gdid=11411387",
@@ -1054,9 +1054,9 @@
     "name": "7.1 聲道家庭劇院喇叭",
     "price": {
       "currency": "TWD",
-      "amount": 27161,
-      "converted": 27161,
-      "confidence": "Yahoo購物中心 2026-07-11 頁面查核價"
+      "amount": 28590,
+      "converted": 28590,
+      "confidence": "Yahoo購物中心 2026-07-15 頁面查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAAHGA900J56OK/000001_1755250707.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/JBL-BAR800-MK2-7-1%E8%81%B2%E9%81%93%E5%AE%B6%E5%BA%AD%E5%8A%87%E9%99%A2%E5%96%87%E5%8F%AD-%E8%8B%B1%E5%A4%A7%E5%85%AC%E5%8F%B8%E8%B2%A8%E4%B8%80%E5%B9%B4%E4%BF%9D%E5%9B%BA-12156647.html",
@@ -1522,9 +1522,9 @@
     "name": "Fidelio 7.1.2 Dolby Atmos 旗艦聲霸",
     "price": {
       "currency": "TWD",
-      "amount": 35010,
-      "converted": 35010,
-      "confidence": "PChome 2026-07-14 API 查核價"
+      "amount": 36955,
+      "converted": 36955,
+      "confidence": "PChome 2026-07-15 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAF02A900H2G5R/000001_1704612188.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAF02-A900H2G5R",
@@ -1601,8 +1601,8 @@
     "price": {
       "currency": "USD",
       "amount": 1299.99,
-      "converted": 41833,
-      "confidence": "Marshall US 2026-07-14 來源價；ExchangeRate-API 2026-07-14 匯率換算"
+      "converted": 41792,
+      "confidence": "Marshall US 2026-07-15 來源價；ExchangeRate-API 2026-07-15 匯率換算"
     },
     "image": "https://images.ctfassets.net/javen7msabdh/2C2sn9CKoKFdIyd94Gm9z5/f3019d4e721511167ebe5c229bf490dd/heston-120_plp.jpg",
     "buyUrl": "https://www.marshall.com/us/en/product/heston-120",
@@ -1681,8 +1681,8 @@
     "price": {
       "currency": "USD",
       "amount": 699.99,
-      "converted": 22525,
-      "confidence": "Best Buy US 2026-07-14 來源價；ExchangeRate-API 2026-07-14 匯率換算"
+      "converted": 22503,
+      "confidence": "Best Buy US 2026-07-15 來源價；ExchangeRate-API 2026-07-15 匯率換算"
     },
     "image": "https://images.ctfassets.net/javen7msabdh/3yitHqjPBTgQk5qRE72PSn/2788206646aa153f71f2c0ebefaff580/Heston-60-black_plp_800x800-v3.jpeg",
     "buyUrl": "https://www.bestbuy.com/product/marshall-heston-60-soundbar-with-dolby-atmos-immersive-sound-for-tv-movies-music-black/CFCR4H4GSQ",
@@ -1934,9 +1934,9 @@
     "name": "2.0 聲道二合一分離式聲霸",
     "price": {
       "currency": "TWD",
-      "amount": 602,
-      "converted": 602,
-      "confidence": "Yahoo購物中心 2026-07-11 頁面查核價"
+      "amount": 633,
+      "converted": 633,
+      "confidence": "Yahoo購物中心 2026-07-15 頁面查核價"
     },
     "image": "https://www.costco.com.tw/medias/sys_master/images/h21/hac/367883491278878.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/Soodatek-2-0%E8%81%B2%E9%81%93%E4%BA%8C%E5%90%88%E4%B8%80Soundbar-SS0220-CS2000PBK-11633433.html",

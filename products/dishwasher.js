@@ -1422,9 +1422,9 @@
     "name": "VORTEX KW1 桌上型全自動洗碗機",
     "price": {
       "currency": "TWD",
-      "amount": 15990,
-      "converted": 15990,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 16990,
+      "converted": 16990,
+      "confidence": "PChome 2026-07-15 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBR25A900J5BGP/000001_1782112645.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBR25-A900J5BGP",
@@ -1457,16 +1457,16 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 15971,
+      "amount": 15031,
       "currency": "TWD",
-      "converted": 15971,
+      "converted": 15031,
       "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1262048980&cgp=16311",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：Acerpure VORTEX KW1 桌上型全自動洗碗機(KW534-60W)",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Yahoo購物中心 / Acerpure VORTEX KW1 桌上型全自動洗碗機(KW534-60W)」最低價為 NT$15,971，最低點日期 2026-06-10。",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：Acerpure VORTEX KW1 桌上型全自動洗碗機（KW534-60W）",
+      "evidenceSnippet": "LBJ 比價撿便宜歷史價格顯示 Yahoo購物中心同型號 KW534-60W 於 2026-07-10 最低為 NT$15,031。",
       "sourceKind": "price_history",
       "confidence": "high",
-      "checkedAt": "2026-07-09",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+      "checkedAt": "2026-07-15",
+      "note": "採用 LBJ 比價撿便宜可公開查核的價格歷史；同型號／規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     },
     "issueResearch": {
       "status": "no_common_issue",
