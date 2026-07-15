@@ -260,9 +260,9 @@
     "name": "27KG 57 吋鋁合金氣壓式螢幕支架",
     "price": {
       "currency": "TWD",
-      "amount": 3099,
-      "converted": 3099,
-      "confidence": "momo購物 2026-07-13 頁面查核價"
+      "amount": 2634,
+      "converted": 2634,
+      "confidence": "momo購物 2026-07-15 晚間頁面查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DCBB69A900INQG2/000001_1745485048.jpg",
     "buyUrl": "https://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=13989541",

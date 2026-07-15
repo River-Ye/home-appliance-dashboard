@@ -900,10 +900,10 @@
       "currency": "TWD",
       "amount": 7990,
       "converted": 7990,
-      "confidence": "Yahoo購物中心 2026-07-15 頁面查核價"
+      "confidence": "Yahoo購物中心 2026-07-15 晚間頁面查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAAMTA900I5HHO/000001_1778661010.jpg",
-    "buyUrl": "https://tw.buy.yahoo.com/gdsale/gdsale.asp?gdid=11411387",
+    "buyUrl": "https://tw.buy.yahoo.com/gdsale/Sony-HT-S100F-11411387.html",
     "buyLabel": "Yahoo購物中心",
     "specs": [
       "2.0 聲道",

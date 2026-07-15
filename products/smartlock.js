@@ -2376,9 +2376,9 @@
     "name": "七合一人臉/貓眼掌靜脈電子鎖",
     "price": {
       "currency": "TWD",
-      "amount": 29800,
-      "converted": 29800,
-      "confidence": "PChome 2026-07-13 API 查核價"
+      "amount": 28310,
+      "converted": 28310,
+      "confidence": "PChome 2026-07-15 晚間 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBS4NA900IT8YL/000001_1782961750.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBS4N-A900IT8YL",
@@ -2454,9 +2454,9 @@
     "name": "和系列全自動七合一智慧鎖",
     "price": {
       "currency": "TWD",
-      "amount": 22900,
-      "converted": 22900,
-      "confidence": "PChome 2026-07-13 API 查核價"
+      "amount": 21755,
+      "converted": 21755,
+      "confidence": "PChome 2026-07-15 晚間 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBS4NA900JLLZ3/000001_1782963047.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBS4N-A900JLLZ3",
@@ -2532,9 +2532,9 @@
     "name": "逸系列微光夜視貓眼電子鎖",
     "price": {
       "currency": "TWD",
-      "amount": 38800,
-      "converted": 38800,
-      "confidence": "PChome 2026-07-13 API 查核價"
+      "amount": 36860,
+      "converted": 36860,
+      "confidence": "PChome 2026-07-15 晚間 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBS4NA900K2QWO/000001_1782963114.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBS4N-A900K2QWO",

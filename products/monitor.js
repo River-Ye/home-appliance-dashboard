@@ -1804,9 +1804,9 @@
     "name": "27 型 2K IPS USB-C UltraSharp 螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 13888,
-      "converted": 13888,
-      "confidence": "PChome 2026-07-15 API 查核價"
+      "amount": 12888,
+      "converted": 12888,
+      "confidence": "PChome 2026-07-15 晚間 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABOMA900GS1DN/000001_1699955230.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DSABOM-A900GS1DN",
@@ -2144,11 +2144,11 @@
       "currency": "TWD",
       "amount": 10888,
       "converted": 10888,
-      "confidence": "PChome 2026-07-15 API 查核價"
+      "confidence": "momo購物 2026-07-15 晚間頁面查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABKBA900K092J/000001_1778642752.jpg",
-    "buyUrl": "https://24h.pchome.com.tw/prod/DSABKB-A900K092J",
-    "buyLabel": "PChome",
+    "buyUrl": "https://www.momoshop.com.tw/product/14831560",
+    "buyLabel": "momo購物",
     "specs": [
       "27 吋",
       "2K/QHD",

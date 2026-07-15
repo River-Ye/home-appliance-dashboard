@@ -101,9 +101,9 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/2E9A754FA4-SP-22052141.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 19900,
-      "converted": 19900,
-      "confidence": "Yahoo購物中心 2026-07-15 頁面查核價"
+      "amount": 18905,
+      "converted": 18905,
+      "confidence": "Yahoo購物中心 2026-07-15 晚間頁面查核價"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心",
@@ -187,9 +187,9 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/7A7EBA14D6-SP-22052251.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 20900,
-      "converted": 20900,
-      "confidence": "Yahoo購物中心 2026-07-15 頁面查核價"
+      "amount": 19855,
+      "converted": 19855,
+      "confidence": "Yahoo購物中心 2026-07-15 晚間頁面查核價"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心",
@@ -1391,9 +1391,9 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/96ae4ce455-Gd-7966505.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 17350,
-      "converted": 17350,
-      "confidence": "momo購物 2026-07-11 頁面查核價"
+      "amount": 17420,
+      "converted": 17420,
+      "confidence": "momo購物 2026-07-15 晚間頁面查核價"
     },
     "channel": "tw",
     "buyLabel": "momo購物",
@@ -1562,9 +1562,9 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/249a9779cb-Gd-11817109.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 17900,
-      "converted": 17900,
-      "confidence": "momo購物 2026-07-11 頁面查核價"
+      "amount": 15000,
+      "converted": 15000,
+      "confidence": "momo購物 2026-07-15 晚間頁面查核價"
     },
     "channel": "tw",
     "buyLabel": "momo購物",
@@ -1606,16 +1606,16 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 17900,
+      "amount": 15000,
       "currency": "TWD",
-      "converted": 17900,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1261206562&cgp=17900",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：(店+)【Samsung 三星】WW12BB744DGBTW 12KG 蒸洗脫智慧滾筒洗衣機 (含基本安裝)",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / (店+)【Samsung 三星】WW12BB744DGBTW 12KG 蒸洗脫智慧滾筒洗衣機 (含基本安裝)」最低價為 NT$17,900，最低點日期 2026-07-09。",
-      "sourceKind": "price_history",
-      "confidence": "high",
-      "checkedAt": "2026-07-09",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+      "converted": 15000,
+      "sourceUrl": "https://www.momoshop.com.tw/TP/TP0007894/goodsDetail/TP00078940001339",
+      "sourceTitle": "momo 商品頁：Samsung WW12BB744DGBTW 12KG 蒸洗脫智慧滾筒洗衣機",
+      "evidenceSnippet": "momo 同型號新品頁於 2026-07-15 晚間顯示公開促銷價 NT$15,000，頁面可選購數量，低於原記錄史低 NT$17,900。",
+      "sourceKind": "retailer_page",
+      "confidence": "medium",
+      "checkedAt": "2026-07-15",
+      "note": "採用同型號可信新品通路頁可公開查核售價作為本次觀測到的最低價；排除會員個人化折扣、信用卡回饋、點數、二手、福利品、展示機、箱損、拆封與整新品。"
     },
     "issueResearch": {
       "status": "no_common_issue",
