@@ -2413,9 +2413,9 @@
     "name": "Xiaomi 掃拖機器人 6 Max",
     "price": {
       "currency": "TWD",
-      "amount": 22800,
-      "converted": 22800,
-      "confidence": "Yahoo購物中心 2026-07-15 晚間頁面查核價"
+      "amount": 23999,
+      "converted": 23999,
+      "confidence": "Yahoo購物中心 2026-07-16 商品頁公開價"
     },
     "image": "https://img.yec.tw/zp/MerchandiseImages/5A801ABE6A-SP-22823743.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/%E5%B0%8F%E7%B1%B3-Xiaomi-%E6%8E%83%E6%8B%96%E6%A9%9F%E5%99%A8%E4%BA%BA-6-Max-%E5%AE%98%E6%96%B9%E6%97%97%E8%89%A6%E9%A4%A8-12134974.html",
@@ -2665,9 +2665,9 @@
     "name": "Xiaomi 掃拖機器人 H50 Pro",
     "price": {
       "currency": "TWD",
-      "amount": 10450,
-      "converted": 10450,
-      "confidence": "Yahoo購物中心 2026-07-15 晚間頁面查核價"
+      "amount": 10999,
+      "converted": 10999,
+      "confidence": "Yahoo購物中心 2026-07-16 商品頁公開價"
     },
     "image": "https://img.yec.tw/zp/MerchandiseImages/DBA14833A1-SP-22450109.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/%E5%B0%8F%E7%B1%B3-Xiaomi-%E6%8E%83%E6%8B%96%E6%A9%9F%E5%99%A8%E4%BA%BA-H50-Pro-12052496.html",

@@ -617,9 +617,9 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/1f2a33ce70-Gd-10053955.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 43563,
-      "converted": 43563,
-      "confidence": "Yahoo購物中心 2026-07-15 晚間頁面查核價"
+      "amount": 44910,
+      "converted": 44910,
+      "confidence": "Yahoo購物中心 2026-07-16 商品頁公開價"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心",
@@ -789,9 +789,9 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/953C366DCA-SP-17994282.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 46463,
-      "converted": 46463,
-      "confidence": "Yahoo購物中心 2026-07-15 晚間頁面查核價"
+      "amount": 47900,
+      "converted": 47900,
+      "confidence": "Yahoo購物中心 2026-07-16 商品頁公開價"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心",
@@ -1133,9 +1133,9 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/BCB950DBF0-SP-13742246.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 47433,
-      "converted": 47433,
-      "confidence": "Yahoo購物中心 2026-07-15 晚間頁面查核價"
+      "amount": 48900,
+      "converted": 48900,
+      "confidence": "Yahoo購物中心 2026-07-16 商品頁公開價"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心",
@@ -1391,9 +1391,9 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/41046DB844-SP-12334280.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 35084,
-      "converted": 35084,
-      "confidence": "Yahoo購物中心 2026-07-15 晚間頁面查核價"
+      "amount": 36930,
+      "converted": 36930,
+      "confidence": "Yahoo購物中心 2026-07-16 商品頁公開價"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心",
@@ -1649,9 +1649,9 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/c6118894bf-Gd-10375207.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 15093,
-      "converted": 15093,
-      "confidence": "momo購物 2026-07-11 頁面查核價"
+      "amount": 15888,
+      "converted": 15888,
+      "confidence": "momo購物 2026-07-16 商品頁公開價"
     },
     "channel": "tw",
     "buyLabel": "momo購物",

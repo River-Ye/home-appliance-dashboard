@@ -95,9 +95,9 @@
     "name": "自動集塵無線吸塵器",
     "price": {
       "currency": "TWD",
-      "amount": 16900,
-      "converted": 16900,
-      "confidence": "PChome 2026-07-14 API 查核價"
+      "amount": 17900,
+      "converted": 17900,
+      "confidence": "PChome 2026-07-16 API 公開價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAX8KA900HLX9W/000001_1744871467.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAX8K-A900HLX9W",
@@ -719,9 +719,9 @@
     "name": "CordZero A9X 蒸氣濕拖自動集塵無線吸塵器",
     "price": {
       "currency": "TWD",
-      "amount": 25900,
-      "converted": 25900,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 26900,
+      "converted": 26900,
+      "confidence": "PChome 2026-07-16 API 公開價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAX8KA900HLXAQ/000001_1744871444.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAX8K-A900HLXAQ",

@@ -251,8 +251,8 @@
     "name": "19.6 公升 PuriCare 雙變頻除濕機",
     "price": {
       "currency": "TWD",
-      "amount": 19765,
-      "converted": 19765,
+      "amount": 20805,
+      "converted": 20805,
       "confidence": "Yahoo購物中心 2026-07-16 商品頁公開價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ4OA900JX7GH/000001_1783563034.jpg",
@@ -797,8 +797,8 @@
     "name": "PuriCare 12 公升雙變頻除濕機",
     "price": {
       "currency": "TWD",
-      "amount": 11780,
-      "converted": 11780,
+      "amount": 12400,
+      "converted": 12400,
       "confidence": "Yahoo購物中心 2026-07-16 商品頁公開價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ4NA900JF9HP/000001_1778165423.jpg",
@@ -953,8 +953,8 @@
     "name": "PuriCare 雙變頻除濕機 25.6 公升曜黑",
     "price": {
       "currency": "TWD",
-      "amount": 18522,
-      "converted": 18522,
+      "amount": 18900,
+      "converted": 18900,
       "confidence": "Yahoo購物中心 2026-07-16 商品頁公開價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ07A900GFBVP/000001_1767340170.jpg",
@@ -1031,8 +1031,8 @@
     "name": "18 公升一級能效 PuriCare 雙變頻除濕機",
     "price": {
       "currency": "TWD",
-      "amount": 17542,
-      "converted": 17542,
+      "amount": 17900,
+      "converted": 17900,
       "confidence": "Yahoo購物中心 2026-07-16 商品頁公開價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ4NA900JCHFZ/000001_1783342859.jpg",
@@ -1109,8 +1109,8 @@
     "name": "20L 第六感智能除濕機",
     "price": {
       "currency": "TWD",
-      "amount": 8991,
-      "converted": 8991,
+      "amount": 9990,
+      "converted": 9990,
       "confidence": "Yahoo購物中心 2026-07-16 商品頁公開價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ3SA900K13ZR/000001_1779265654.jpg",

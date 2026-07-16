@@ -16,9 +16,9 @@
     "name": "Ascent 領航者全食物調理機",
     "price": {
       "currency": "TWD",
-      "amount": 35820,
-      "converted": 35820,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 39800,
+      "converted": 39800,
+      "confidence": "PChome 2026-07-16 API 公開價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAYE8A900BKOKK/000001_1782889462.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAYE8-A900BKOKK",
@@ -109,9 +109,9 @@
     "name": "Ascent 領航者全食物調理機",
     "price": {
       "currency": "TWD",
-      "amount": 26640,
-      "converted": 26640,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 29600,
+      "converted": 29600,
+      "confidence": "PChome 2026-07-16 API 公開價"
     },
     "image": "https://cs-a.ecimg.tw/items/QBAO0FA900AS2G7/000001_1782460590.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/QBAO0F-A900AS2G7",
@@ -586,9 +586,9 @@
     "name": "E320 Explorian 探索者調理機雙杯組黑色",
     "price": {
       "currency": "TWD",
-      "amount": 22230,
-      "converted": 22230,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 24700,
+      "converted": 24700,
+      "confidence": "PChome 2026-07-16 API 公開價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAY0GA900AGMD8/000001_1782460348.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAY0G-A900AGMD8",
@@ -688,9 +688,9 @@
     "name": "Ascent A2500i 全食物調理機白色",
     "price": {
       "currency": "TWD",
-      "amount": 26640,
-      "converted": 26640,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 29600,
+      "converted": 29600,
+      "confidence": "PChome 2026-07-16 API 公開價"
     },
     "image": "https://cs-a.ecimg.tw/items/QBAO0FA900AS2DJ/000001_1782460671.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/QBAO0F-A900AS2DJ",

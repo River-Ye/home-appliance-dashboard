@@ -17,8 +17,8 @@
     "name": "11.1.4 聲道旗艦 Soundbar",
     "price": {
       "currency": "TWD",
-      "amount": 47405,
-      "converted": 47405,
+      "amount": 49900,
+      "converted": 49900,
       "confidence": "Yahoo購物中心 2026-07-16 商品頁公開價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAAODA900JMDR5/000001_1773978957.jpg",
@@ -187,8 +187,8 @@
     "name": "BRAVIA Theatre Bar 6 3.1.2 聲道",
     "price": {
       "currency": "TWD",
-      "amount": 10710,
-      "converted": 10710,
+      "amount": 11900,
+      "converted": 11900,
       "confidence": "PChome 2026-07-16 API 公開價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAAODA900JMC1Q/000001_1781726516.jpg",
@@ -745,8 +745,8 @@
     "name": "Q 系列 11.1.4 聲道 Soundbar 家庭劇院",
     "price": {
       "currency": "TWD",
-      "amount": 56905,
-      "converted": 56905,
+      "amount": 59900,
+      "converted": 59900,
       "confidence": "Yahoo購物中心 2026-07-16 商品頁公開價"
     },
     "image": "https://cs-a.ecimg.tw/items/DPADO2A900K5VUT/000001_1782993730.jpg",
@@ -823,8 +823,8 @@
     "name": "Q 系列 7.1.2 聲道 Soundbar",
     "price": {
       "currency": "TWD",
-      "amount": 35055,
-      "converted": 35055,
+      "amount": 36900,
+      "converted": 36900,
       "confidence": "Yahoo購物中心 2026-07-16 商品頁公開價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAAODA900K5489/000001_1782988490.jpg",
@@ -979,8 +979,8 @@
     "name": "2.0 聲道單件式藍牙 Soundbar",
     "price": {
       "currency": "TWD",
-      "amount": 7591,
-      "converted": 7591,
+      "amount": 7990,
+      "converted": 7990,
       "confidence": "Yahoo購物中心 2026-07-16 商品頁公開價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAAMTA900I5HHO/000001_1778661010.jpg",
@@ -1135,8 +1135,8 @@
     "name": "7.1 聲道家庭劇院喇叭",
     "price": {
       "currency": "TWD",
-      "amount": 27161,
-      "converted": 27161,
+      "amount": 28590,
+      "converted": 28590,
       "confidence": "Yahoo購物中心 2026-07-16 商品頁公開價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAAHGA900J56OK/000001_1755250707.jpg",
@@ -1525,9 +1525,9 @@
     "name": "7.1.4 聲道家庭劇院聲霸",
     "price": {
       "currency": "TWD",
-      "amount": 40755,
-      "converted": 40755,
-      "confidence": "PChome 2026-07-12 API 查核價"
+      "amount": 42900,
+      "converted": 42900,
+      "confidence": "PChome 2026-07-16 API 公開價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAAHGA900J5777/000001_1755253698.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAAHG-A900J5777",
@@ -1603,8 +1603,8 @@
     "name": "Fidelio 7.1.2 Dolby Atmos 旗艦聲霸",
     "price": {
       "currency": "TWD",
-      "amount": 35399,
-      "converted": 35399,
+      "amount": 36955,
+      "converted": 36955,
       "confidence": "PChome 2026-07-16 API 公開價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAF02A900H2G5R/000001_1704612188.jpg",
@@ -2015,8 +2015,8 @@
     "name": "2.0 聲道二合一分離式聲霸",
     "price": {
       "currency": "TWD",
-      "amount": 602,
-      "converted": 602,
+      "amount": 633,
+      "converted": 633,
       "confidence": "Yahoo購物中心 2026-07-16 商品頁公開價"
     },
     "image": "https://www.costco.com.tw/medias/sys_master/images/h21/hac/367883491278878.jpg",

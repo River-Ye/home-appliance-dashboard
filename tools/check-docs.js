@@ -79,6 +79,7 @@ function main() {
   }
 
   assert(index.includes(`id="dataDate">${meta.dataDate}</strong>`), "index data date fallback is stale");
+  assert(index.includes(`資料更新日為 ${meta.dataDate}。`), "index footer data date is stale");
   assert(index.includes(`id="exchangeSummary">${meta.exchangeSummary}</span>`), "index exchange fallback is stale");
   assert(!index.includes("<script src=\"./products/"), "index should not list product scripts manually");
   assert(index.includes("assets/js/product-loader.js"), "index should load product-loader.js");

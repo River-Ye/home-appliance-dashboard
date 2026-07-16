@@ -555,15 +555,15 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 29900,
+      "amount": 28255,
       "currency": "TWD",
-      "converted": 29900,
+      "converted": 28255,
       "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1266236037&cgp=29900",
       "sourceTitle": "LBJ 比價撿便宜 歷史價格：【LG 樂金】14人份 獨立式WiFi蒸氣洗碗機 含免費場勘 | 雲朵白 (DFB533FW)",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【LG 樂金】14人份 獨立式WiFi蒸氣洗碗機 含免費場勘 | 雲朵白 (DFB533FW)」最低價為 NT$29,900，最低點日期 2026-07-09。",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【LG 樂金】14人份 獨立式WiFi蒸氣洗碗機 含免費場勘 | 雲朵白 (DFB533FW)」最低價為 NT$28,255，最低點日期 2026-07-16。",
       "sourceKind": "price_history",
       "confidence": "high",
-      "checkedAt": "2026-07-09",
+      "checkedAt": "2026-07-16",
       "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     },
     "issueResearch": {
