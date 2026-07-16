@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-07-13",
+  "checkedAt": "2026-07-16",
   "methodVersion": 3,
   "policy": "每筆決策須保存 exact-model 跨站查詢與人工 attestation；每個搜尋候選須逐頁保存摘要、獨立作者數與具體排除理由，研究工具不得自行生成拒絕結論。",
   "results": [
@@ -143,6 +143,165 @@
         "actualQueriesRun": 2,
         "originalPagesOpenedDirectly": 0,
         "searchProvider": "Yahoo Search",
+        "queryHttpStatuses": [
+          {
+            "platform": "Mobile01",
+            "status": 200
+          },
+          {
+            "platform": "Reddit",
+            "status": 200
+          }
+        ],
+        "successfulQueries": 2
+      }
+    },
+    {
+      "id": "tv-lg-c6-65",
+      "category": "tv",
+      "brand": "LG",
+      "model": "OLED65C6PTA",
+      "reviewedAt": "2026-07-16",
+      "reviewBatch": "tv",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "Mobile01",
+        "Reddit"
+      ],
+      "queries": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"LG OLED65C6PTA\" (災情 OR 問題 OR 故障 OR 負評)",
+          "targetHost": "mobile01.com",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22LG%20OLED65C6PTA%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)"
+        },
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"LG OLED65C6PTA\" (problem OR issue OR defect OR \"negative review\")",
+          "targetHost": "reddit.com",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22LG%20OLED65C6PTA%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)"
+        }
+      ],
+      "candidateDisposition": "OLED65C6PTA：已重跑 Mobile01 與 Reddit exact-model 跨站查詢，未發現通過 canonical-model 邊界的原頁候選；此結果不代表完全沒有負評。",
+      "representativeSources": [],
+      "reviewerNote": "OLED65C6PTA 於 2026-07-16 以 Bing RSS 完成 Mobile01、Reddit 查詢；搜尋頁僅作候選發現，決策維持 no_common_issue。",
+      "attestation": "manual_cross_site_search_reviewed_no_candidate",
+      "candidateReviews": [],
+      "recheckNotes": {
+        "searchErrors": [],
+        "nonExactCandidates": [],
+        "pendingOriginalPages": [],
+        "actualQueriesRun": 2,
+        "originalPagesOpenedDirectly": 0,
+        "searchProvider": "Bing RSS",
+        "queryHttpStatuses": [
+          {
+            "platform": "Mobile01",
+            "status": 200
+          },
+          {
+            "platform": "Reddit",
+            "status": 200
+          }
+        ],
+        "successfulQueries": 2
+      }
+    },
+    {
+      "id": "tv-sony-xr90m2-65",
+      "category": "tv",
+      "brand": "Sony",
+      "model": "Y-65XR90M2",
+      "reviewedAt": "2026-07-16",
+      "reviewBatch": "tv",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "Mobile01",
+        "Reddit"
+      ],
+      "queries": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Sony Y-65XR90M2\" (災情 OR 問題 OR 故障 OR 負評)",
+          "targetHost": "mobile01.com",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Sony%20Y-65XR90M2%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)"
+        },
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Sony Y-65XR90M2\" (problem OR issue OR defect OR \"negative review\")",
+          "targetHost": "reddit.com",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Sony%20Y-65XR90M2%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)"
+        }
+      ],
+      "candidateDisposition": "Y-65XR90M2：已重跑 Mobile01 與 Reddit exact-model 跨站查詢，未發現通過 canonical-model 邊界的原頁候選；此結果不代表完全沒有負評。",
+      "representativeSources": [],
+      "reviewerNote": "Y-65XR90M2 於 2026-07-16 以 Bing RSS 完成 Mobile01、Reddit 查詢；搜尋頁僅作候選發現，決策維持 no_common_issue。",
+      "attestation": "manual_cross_site_search_reviewed_no_candidate",
+      "candidateReviews": [],
+      "recheckNotes": {
+        "searchErrors": [],
+        "nonExactCandidates": [
+          {
+            "title": "上一代 BRAVIA 9 / XR90",
+            "url": "https://www.mobile01.com/topicdetail.php?f=347&t=7162929",
+            "reason": "未包含完整 Y-65XR90M2 型號"
+          }
+        ],
+        "pendingOriginalPages": [],
+        "actualQueriesRun": 2,
+        "originalPagesOpenedDirectly": 0,
+        "searchProvider": "Bing RSS",
+        "queryHttpStatuses": [
+          {
+            "platform": "Mobile01",
+            "status": 200
+          },
+          {
+            "platform": "Reddit",
+            "status": 200
+          }
+        ],
+        "successfulQueries": 2
+      }
+    },
+    {
+      "id": "tv-samsung-s95h-65",
+      "category": "tv",
+      "brand": "Samsung",
+      "model": "QA65S95HAXXZW",
+      "reviewedAt": "2026-07-16",
+      "reviewBatch": "tv",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "Mobile01",
+        "Reddit"
+      ],
+      "queries": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Samsung QA65S95HAXXZW\" (災情 OR 問題 OR 故障 OR 負評)",
+          "targetHost": "mobile01.com",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Samsung%20QA65S95HAXXZW%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)"
+        },
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Samsung QA65S95HAXXZW\" (problem OR issue OR defect OR \"negative review\")",
+          "targetHost": "reddit.com",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Samsung%20QA65S95HAXXZW%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)"
+        }
+      ],
+      "candidateDisposition": "QA65S95HAXXZW：已重跑 Mobile01 與 Reddit exact-model 跨站查詢，未發現通過 canonical-model 邊界的原頁候選；此結果不代表完全沒有負評。",
+      "representativeSources": [],
+      "reviewerNote": "QA65S95HAXXZW 於 2026-07-16 以 Bing RSS 完成 Mobile01、Reddit 查詢；搜尋頁僅作候選發現，決策維持 no_common_issue。",
+      "attestation": "manual_cross_site_search_reviewed_no_candidate",
+      "candidateReviews": [],
+      "recheckNotes": {
+        "searchErrors": [],
+        "nonExactCandidates": [],
+        "pendingOriginalPages": [],
+        "actualQueriesRun": 2,
+        "originalPagesOpenedDirectly": 0,
+        "searchProvider": "Bing RSS",
         "queryHttpStatuses": [
           {
             "platform": "Mobile01",
@@ -1372,6 +1531,63 @@
         "allQueryRequestsSucceeded": true,
         "allCandidateOriginalPagesSucceeded": true,
         "note": "跨兩個獨立 target website 的 exact-model 查詢沒有留下需逐頁判讀的候選。"
+      }
+    },
+    {
+      "id": "soundbar-sony-ht-a7100",
+      "category": "soundbar",
+      "brand": "Sony",
+      "model": "HT-A7100",
+      "reviewedAt": "2026-07-16",
+      "reviewBatch": "soundbar",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "Mobile01",
+        "Reddit"
+      ],
+      "queries": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Sony HT-A7100\" (災情 OR 問題 OR 故障 OR 負評)",
+          "targetHost": "mobile01.com",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Sony%20HT-A7100%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)"
+        },
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Sony HT-A7100\" (problem OR issue OR defect OR \"negative review\")",
+          "targetHost": "reddit.com",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Sony%20HT-A7100%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)"
+        }
+      ],
+      "candidateDisposition": "HT-A7100：已重跑 Mobile01 與 Reddit exact-model 跨站查詢，未發現通過 canonical-model 邊界的原頁候選；此結果不代表完全沒有負評。",
+      "representativeSources": [],
+      "reviewerNote": "HT-A7100 於 2026-07-16 以 Bing RSS 完成 Mobile01、Reddit 查詢；搜尋頁僅作候選發現，決策維持 no_common_issue。",
+      "attestation": "manual_cross_site_search_reviewed_no_candidate",
+      "candidateReviews": [],
+      "recheckNotes": {
+        "searchErrors": [],
+        "nonExactCandidates": [
+          {
+            "title": "Sony HT-A7000 討論",
+            "url": "https://www.mobile01.com/topicdetail.php?f=348&t=6906304",
+            "reason": "型號為 HT-A7000，不是 HT-A7100"
+          }
+        ],
+        "pendingOriginalPages": [],
+        "actualQueriesRun": 2,
+        "originalPagesOpenedDirectly": 0,
+        "searchProvider": "Bing RSS",
+        "queryHttpStatuses": [
+          {
+            "platform": "Mobile01",
+            "status": 200
+          },
+          {
+            "platform": "Reddit",
+            "status": 200
+          }
+        ],
+        "successfulQueries": 2
       }
     },
     {

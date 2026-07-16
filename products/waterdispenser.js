@@ -941,9 +941,9 @@
     "image": "https://cs-a.ecimg.tw/items/DMAWEMA900GDIXH/000001_1774485785.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 20900,
-      "converted": 20900,
-      "confidence": "PChome 2026-07-14 API 查核價"
+      "amount": 18810,
+      "converted": 18810,
+      "confidence": "PChome 2026-07-16 API 公開價"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -1668,8 +1668,8 @@
     "price": {
       "currency": "USD",
       "amount": 369.99,
-      "converted": 11894,
-      "confidence": "Costco US 2026-07-15 來源價；ExchangeRate-API 2026-07-15 匯率換算"
+      "converted": 11910,
+      "confidence": "Costco US 2026-07-16 來源價；ExchangeRate-API 2026-07-16 匯率換算"
     },
     "image": "https://bfasset.costco-static.com/U447IH35/as/4xjr3phfqx7p9vvxzfhp3jp/100457228-847_chrome_1?auto=webp&format=jpg",
     "buyUrl": "https://www.costco.com/brondell-circle-reverse-osmosis-water-filtration-system.product.100457228.html",

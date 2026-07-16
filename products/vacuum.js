@@ -875,9 +875,9 @@
     "name": "CordZero A9 Air 輕量美型無線吸塵器雪霧白",
     "price": {
       "currency": "TWD",
-      "amount": 7499,
-      "converted": 7499,
-      "confidence": "momo購物 2026-07-13 頁面查核價"
+      "amount": 6999,
+      "converted": 6999,
+      "confidence": "momo購物 2026-07-16 商品頁公開價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAX6FA900K2NSV/000001_1780464185.jpg",
     "buyUrl": "https://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=9861645",

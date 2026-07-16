@@ -1,9 +1,9 @@
 {
   "summary": {
-    "checkedAt": "2026-07-13T00:00:00+08:00",
-    "total": 658,
+    "checkedAt": "2026-07-16T08:05:00+08:00",
+    "total": 662,
     "commonIssueProducts": 36,
-    "noCommonIssueProducts": 622,
+    "noCommonIssueProducts": 626,
     "pendingManualReview": 0,
     "commonIssues": 36,
     "searchUnavailable": 0,
@@ -14,8 +14,8 @@
     },
     "sourcePolicy": "搜尋引擎只用於發現候選；只有原始論壇、社群或零售評價頁中可辨識的第一人稱同型號回報才計入人數。同帳號、跨站轉貼、按讚、媒體轉述與搜尋摘要不重複計算。",
     "noIssueWording": "截至查核日，查無達門檻的集中負評／災情",
-    "refreshedThisRun": 5,
-    "preservedExistingNegativeEvidence": 1,
+    "refreshedThisRun": 4,
+    "preservedExistingNegativeEvidence": 49,
     "priorFullRefresh": {
       "checkedAt": "2026-07-11",
       "refreshed": 612,
@@ -282,6 +282,270 @@
           "candidateUrls": [],
           "candidates": [],
           "inspectedAt": "2026-07-11T00:00:00+08:00"
+        }
+      ],
+      "evidence": [],
+      "rejectedCandidates": []
+    },
+    {
+      "id": "tv-lg-c6-65",
+      "category": "tv",
+      "brand": "LG",
+      "model": "OLED65C6PTA",
+      "name": "65 型 OLED evo C6 4K 智慧顯示器",
+      "identity": {
+        "canonicalModel": "OLED65C6PTA",
+        "lookupLabel": "LG OLED65C6PTA",
+        "aliases": [
+          "LG OLED65C6PTA"
+        ],
+        "evidenceUrl": "https://www.momoshop.com.tw/TP/TP0009148/goodsDetail/TP00091480000554"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "status": "completed",
+        "decision": "no_common_issue",
+        "reviewedAt": "2026-07-16",
+        "checkedPlatforms": [
+          "Mobile01",
+          "Reddit"
+        ],
+        "queries": [
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"LG OLED65C6PTA\" (災情 OR 問題 OR 故障 OR 負評)",
+            "targetHost": "mobile01.com",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22LG%20OLED65C6PTA%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)"
+          },
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"LG OLED65C6PTA\" (problem OR issue OR defect OR \"negative review\")",
+            "targetHost": "reddit.com",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22LG%20OLED65C6PTA%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)"
+          }
+        ],
+        "candidateDisposition": "OLED65C6PTA：已實際重跑 Mobile01 與 Reddit exact-model 跨站查詢，未發現通過 canonical-model 邊界的原頁候選；此結果不代表完全沒有負評。",
+        "representativeSources": [],
+        "candidateReviews": [],
+        "reviewerNote": "OLED65C6PTA 於 2026-07-16 實際請求兩個 Bing RSS exact-model 跨站查詢；兩站均無 exact-model 原頁候選，維持 no_common_issue，未以搜尋摘要或相近型號當作負評證據。",
+        "attestation": "manual_cross_site_search_reviewed_no_candidate"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-07-16",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"LG OLED65C6PTA\" (災情 OR 問題 OR 故障 OR 負評)",
+            "targetHost": "mobile01.com",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22LG%20OLED65C6PTA%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)"
+          },
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"LG OLED65C6PTA\" (problem OR issue OR defect OR \"negative review\")",
+            "targetHost": "reddit.com",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22LG%20OLED65C6PTA%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"LG OLED65C6PTA\" (災情 OR 問題 OR 故障 OR 負評)",
+          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22LG%20OLED65C6PTA%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-07-16T08:05:00+08:00"
+        },
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"LG OLED65C6PTA\" (problem OR issue OR defect OR \"negative review\")",
+          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22LG%20OLED65C6PTA%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-07-16T08:05:00+08:00"
+        }
+      ],
+      "evidence": [],
+      "rejectedCandidates": []
+    },
+    {
+      "id": "tv-sony-xr90m2-65",
+      "category": "tv",
+      "brand": "Sony",
+      "model": "Y-65XR90M2",
+      "name": "BRAVIA 9 II 65 型 RGB LED 4K Google TV",
+      "identity": {
+        "canonicalModel": "Y-65XR90M2",
+        "lookupLabel": "Sony Y-65XR90M2",
+        "aliases": [
+          "Sony Y-65XR90M2"
+        ],
+        "evidenceUrl": "https://tw.buy.yahoo.com/gdsale/%E5%90%AB%E6%A8%99%E6%BA%96%E5%AE%89%E8%A3%9D-SONY%E7%B4%A2%E5%B0%BC65%E5%90%8B%E5%90%8BRGB-4K%E9%80%A3%E7%B6%B2%E6%99%BA%E6%85%A7%E9%A1%AF%E7%A4%BA%E5%99%A8Y-65XR90M2-12159450.html"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "status": "completed",
+        "decision": "no_common_issue",
+        "reviewedAt": "2026-07-16",
+        "checkedPlatforms": [
+          "Mobile01",
+          "Reddit"
+        ],
+        "queries": [
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"Sony Y-65XR90M2\" (災情 OR 問題 OR 故障 OR 負評)",
+            "targetHost": "mobile01.com",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Sony%20Y-65XR90M2%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)"
+          },
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"Sony Y-65XR90M2\" (problem OR issue OR defect OR \"negative review\")",
+            "targetHost": "reddit.com",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Sony%20Y-65XR90M2%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)"
+          }
+        ],
+        "candidateDisposition": "Y-65XR90M2：已實際重跑 Mobile01 與 Reddit exact-model 跨站查詢，未發現通過 canonical-model 邊界的原頁候選；此結果不代表完全沒有負評。",
+        "representativeSources": [],
+        "candidateReviews": [],
+        "reviewerNote": "Y-65XR90M2 於 2026-07-16 實際請求兩個 Bing RSS exact-model 跨站查詢；兩站均無 exact-model 原頁候選，維持 no_common_issue，未以搜尋摘要或相近型號當作負評證據。",
+        "attestation": "manual_cross_site_search_reviewed_no_candidate"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-07-16",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"Sony Y-65XR90M2\" (災情 OR 問題 OR 故障 OR 負評)",
+            "targetHost": "mobile01.com",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Sony%20Y-65XR90M2%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)"
+          },
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"Sony Y-65XR90M2\" (problem OR issue OR defect OR \"negative review\")",
+            "targetHost": "reddit.com",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Sony%20Y-65XR90M2%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Sony Y-65XR90M2\" (災情 OR 問題 OR 故障 OR 負評)",
+          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Sony%20Y-65XR90M2%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-07-16T08:05:00+08:00"
+        },
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Sony Y-65XR90M2\" (problem OR issue OR defect OR \"negative review\")",
+          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Sony%20Y-65XR90M2%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-07-16T08:05:00+08:00"
+        }
+      ],
+      "evidence": [],
+    "rejectedCandidates": []
+    },
+    {
+      "id": "tv-samsung-s95h-65",
+      "category": "tv",
+      "brand": "Samsung",
+      "model": "QA65S95HAXXZW",
+      "name": "65 型 S95H OLED 4K Vision AI 智慧顯示器",
+      "identity": {
+        "canonicalModel": "QA65S95HAXXZW",
+        "lookupLabel": "Samsung QA65S95HAXXZW",
+        "aliases": [
+          "Samsung QA65S95HAXXZW"
+        ],
+        "evidenceUrl": "https://24h.pchome.com.tw/prod/DPADO2-A900K6OWZ"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "status": "completed",
+        "decision": "no_common_issue",
+        "reviewedAt": "2026-07-16",
+        "checkedPlatforms": [
+          "Mobile01",
+          "Reddit"
+        ],
+        "queries": [
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"Samsung QA65S95HAXXZW\" (災情 OR 問題 OR 故障 OR 負評)",
+            "targetHost": "mobile01.com",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Samsung%20QA65S95HAXXZW%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)"
+          },
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"Samsung QA65S95HAXXZW\" (problem OR issue OR defect OR \"negative review\")",
+            "targetHost": "reddit.com",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Samsung%20QA65S95HAXXZW%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)"
+          }
+        ],
+        "candidateDisposition": "QA65S95HAXXZW：已實際重跑 Mobile01 與 Reddit exact-model 跨站查詢，未發現通過 canonical-model 邊界的原頁候選；此結果不代表完全沒有負評。",
+        "representativeSources": [],
+        "candidateReviews": [],
+        "reviewerNote": "QA65S95HAXXZW 於 2026-07-16 實際請求兩個 Bing RSS exact-model 跨站查詢；兩站均無 exact-model 原頁候選，維持 no_common_issue，未以搜尋摘要或相近型號當作負評證據。",
+        "attestation": "manual_cross_site_search_reviewed_no_candidate"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-07-16",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"Samsung QA65S95HAXXZW\" (災情 OR 問題 OR 故障 OR 負評)",
+            "targetHost": "mobile01.com",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Samsung%20QA65S95HAXXZW%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)"
+          },
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"Samsung QA65S95HAXXZW\" (problem OR issue OR defect OR \"negative review\")",
+            "targetHost": "reddit.com",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Samsung%20QA65S95HAXXZW%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Samsung QA65S95HAXXZW\" (災情 OR 問題 OR 故障 OR 負評)",
+          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Samsung%20QA65S95HAXXZW%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-07-16T08:05:00+08:00"
+        },
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Samsung QA65S95HAXXZW\" (problem OR issue OR defect OR \"negative review\")",
+          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Samsung%20QA65S95HAXXZW%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-07-16T08:05:00+08:00"
         }
       ],
       "evidence": [],
@@ -2514,6 +2778,94 @@
       ],
       "evidence": [],
       "rejectedCandidates": []
+    },
+    {
+      "id": "soundbar-sony-ht-a7100",
+      "category": "soundbar",
+      "brand": "Sony",
+      "model": "HT-A7100",
+      "name": "BRAVIA Theatre Bar 7 5.0.2 聲道 Soundbar",
+      "identity": {
+        "canonicalModel": "HT-A7100",
+        "lookupLabel": "Sony HT-A7100",
+        "aliases": [
+          "Sony HT-A7100"
+        ],
+        "evidenceUrl": "https://24h.pchome.com.tw/prod/DMAAN8-A900K0Y8L"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "status": "completed",
+        "decision": "no_common_issue",
+        "reviewedAt": "2026-07-16",
+        "checkedPlatforms": [
+          "Mobile01",
+          "Reddit"
+        ],
+        "queries": [
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"Sony HT-A7100\" (災情 OR 問題 OR 故障 OR 負評)",
+            "targetHost": "mobile01.com",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Sony%20HT-A7100%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)"
+          },
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"Sony HT-A7100\" (problem OR issue OR defect OR \"negative review\")",
+            "targetHost": "reddit.com",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Sony%20HT-A7100%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)"
+          }
+        ],
+        "candidateDisposition": "HT-A7100：已實際重跑 Mobile01 與 Reddit exact-model 跨站查詢，未發現通過 canonical-model 邊界的原頁候選；此結果不代表完全沒有負評。",
+        "representativeSources": [],
+        "candidateReviews": [],
+        "reviewerNote": "HT-A7100 於 2026-07-16 實際請求兩個 Bing RSS exact-model 跨站查詢；兩站均無 exact-model 原頁候選，維持 no_common_issue，未以搜尋摘要或相近型號當作負評證據。",
+        "attestation": "manual_cross_site_search_reviewed_no_candidate"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-07-16",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"Sony HT-A7100\" (災情 OR 問題 OR 故障 OR 負評)",
+            "targetHost": "mobile01.com",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Sony%20HT-A7100%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)"
+          },
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"Sony HT-A7100\" (problem OR issue OR defect OR \"negative review\")",
+            "targetHost": "reddit.com",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Sony%20HT-A7100%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Sony HT-A7100\" (災情 OR 問題 OR 故障 OR 負評)",
+          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Sony%20HT-A7100%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-07-16T08:05:00+08:00"
+        },
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Sony HT-A7100\" (problem OR issue OR defect OR \"negative review\")",
+          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Sony%20HT-A7100%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-07-16T08:05:00+08:00"
+        }
+      ],
+      "evidence": [],
+    "rejectedCandidates": []
     },
     {
       "id": "soundbar-sonos-arc-ultra",

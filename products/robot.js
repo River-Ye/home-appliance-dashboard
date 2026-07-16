@@ -1051,8 +1051,8 @@
     "price": {
       "currency": "EUR",
       "amount": 995.99,
-      "converted": 36561,
-      "confidence": "Boulanger 2026-07-15 來源價；ExchangeRate-API 2026-07-15 匯率換算"
+      "converted": 36707,
+      "confidence": "Boulanger 2026-07-16 來源價；ExchangeRate-API 2026-07-16 匯率換算"
     },
     "image": "https://boulanger.scene7.com/is/image/Boulanger/6972075738536_h_f_l_0?fmt=png-alpha&wid=640&hei=640",
     "buyUrl": "https://www.boulanger.com/ref/1238998",
@@ -1129,8 +1129,8 @@
     "price": {
       "currency": "USD",
       "amount": 551.69,
-      "converted": 17736,
-      "confidence": "Geekbuying 2026-07-15 來源價；ExchangeRate-API 2026-07-15 匯率換算"
+      "converted": 17759,
+      "confidence": "Geekbuying 2026-07-16 來源價；ExchangeRate-API 2026-07-16 匯率換算"
     },
     "image": "https://img.gkbcdn.com/p/2025-04-11/Narwal-Freo-Z10-Ultra-Robot-Vacuum-with-Base-Station-Gray-528438-0._w315_.jpg",
     "buyUrl": "https://www.geekbuying.com/item/Narwal-Freo-Z10-Ultra-Robot-Vacuum-with-Base-Station-Gray-528438.html",
@@ -2093,8 +2093,8 @@
     "price": {
       "currency": "USD",
       "amount": 499.99,
-      "converted": 16074,
-      "confidence": "SharkNinja US 2026-07-15 來源價；ExchangeRate-API 2026-07-15 匯率換算"
+      "converted": 16095,
+      "confidence": "SharkNinja US 2026-07-16 來源價；ExchangeRate-API 2026-07-16 匯率換算"
     },
     "image": "https://assets.sharkninja.com/image/upload/f_auto/q_auto/SharkNinja-NA/RV2820ZE_01.jpg",
     "buyUrl": "https://www.sharkninja.com/shark-powerdetect-2-in-1-robot-vacuum-and-mop-with-nevertouch-pro-base/RV2820ZE.html",
@@ -2164,57 +2164,59 @@
     "category": "robot",
     "rank": 30,
     "budget": "premium",
-    "channel": "global",
+    "channel": "tw",
     "brand": "Dyson",
     "model": "Spot+Scrub Ai",
     "name": "AI 汙漬偵測濕乾掃拖機器人",
     "price": {
-      "currency": "USD",
-      "amount": 1199.99,
-      "converted": 38577,
-      "confidence": "Best Buy US 2026-07-15 來源價；ExchangeRate-API 2026-07-15 匯率換算"
+      "currency": "TWD",
+      "amount": 24900,
+      "converted": 24900,
+      "confidence": "Dyson 台灣官網 2026-07-16 公開價"
     },
-    "image": "https://dyson-h.assetsadobe2.com/is/image/content/dam/dyson/products/home/floorcare/robot/spot-scrub-ai/rcc/Web-804A-Category-Page-Module1.jpg?$responsive$&fmt=pjpeg&wid=640",
-    "buyUrl": "https://www.bestbuy.com/product/dyson-spot-scrub-ai-wet-and-dry-robot-vacuum-matched-black-blue/J3ZCSY2QPG",
-    "buyLabel": "Best Buy US",
+    "image": "https://dysonshop.blob.core.windows.net/products/dyson-spot-scrub-ai-black/hero-1780338742-480x480.jpg",
+    "buyUrl": "https://shop.dyson.tw/robot-vacuums/robot/dyson-spot-scrub-ai-black-217994-01",
+    "buyLabel": "Dyson 台灣官網",
     "specs": [
+      "RB05／DR30",
       "18000Pa",
       "AI 汙漬辨識",
       "自清潔滾筒",
       "Cyclonic dock"
     ],
-    "description": "Dyson Spot+Scrub Ai 是旗艦級海外參考機型，換算 TWD 僅供比較，未含國際運費、進口稅與台灣保固。",
+    "description": "Dyson Spot+Scrub Ai 已由台灣官網正式販售，主打 AI 汙漬偵測、濕乾掃拖、自清潔滾筒與無集塵袋基站。",
     "pros": [
-      "Dyson 官方頁可查規格與評論",
+      "台灣官方現貨與售後管道較明確",
       "濕拖、汙漬偵測與無集塵袋基站有特色"
     ],
     "cons": [
-      "海外通路庫存與到貨時程可能變動",
-      "海外版需確認電壓、插頭與台灣保固"
+      "新機上市時間較短，長期耐用度仍待觀察",
+      "高階耗材與維修成本需一併評估"
     ],
-    "bestFor": "想追 Dyson 最新掃拖機器人，且能接受海外版運費、稅金、電壓與保固風險的人。",
-    "recommendation": "Dyson 海外旗艦參考：品牌辨識度高，但供貨與價格不穩，不列為台灣綜合推薦。",
-    "score": 84,
-    "voltage": "海外版本，需確認 100-240V、插頭與變壓器需求",
-    "warranty": "Best Buy US / 海外通路，可能無台灣保固，購買前需確認",
+    "bestFor": "想買台灣公司貨、重視定點汙漬處理與無集塵袋基站的人。",
+    "recommendation": "Dyson 台灣旗艦候選：官方現貨價已低於原海外參考換算價，適合與同價位全能基站機種比較。",
+    "score": 88,
+    "voltage": "台灣官方販售版本；電壓與插座條件依原廠商品頁及安裝環境確認",
+    "warranty": "Dyson 台灣官方保固；年限與登錄條件依商品頁",
     "tags": [
       "旗艦",
-      "海外參考",
+      "台灣公司貨",
+      "AI 汙漬偵測",
       "現貨查核"
     ],
     "releaseDate": "2026-03-12",
     "historicalLow": {
       "status": "not_found",
       "amount": null,
-      "currency": "USD",
+      "currency": "TWD",
       "converted": null,
       "sourceUrl": "",
       "sourceTitle": "",
       "evidenceSnippet": "",
       "sourceKind": "not_found",
       "confidence": "not_found",
-      "checkedAt": "2026-07-09",
-      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ Dyson Spot+Scrub Ai: Yahoo購物中心 (預購)Dyson戴森 Spot+Scrub Ai 掃拖機器人 贈專用配件組+SODASTREAM氣泡水機 型號/規格不相符；LBJ Dyson Spot+Scrub Ai: Momo富邦購物 【dyson 戴森】RB05 Spot+Scrub Ai 掃拖機器人 (滾筒掃地機/智能偵測/熱活水洗地/自清潔) 型號/規格不相符；LBJ Dyson Spot+Scrub Ai: 蝦皮商城 - dyson戴森｜恆隆行官方旗艦館 Dyson Spot+Scrub Ai掃拖機器人RB05 全新上市 嚴格保護隱私 【領雙券享優惠-再送氣泡水機】2年保固 型號/規格不相符。"
+      "checkedAt": "2026-07-16",
+      "note": "已查 Dyson 台灣官網、LBJ、FindPrice 與可信新品通路；目前僅能確認台灣官方現價 NT$24,900，未找到同型號、同規格且排除會員／信用卡／點數優惠的可公開重現歷史價格曲線，因此不以現價推定史低。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -2249,8 +2251,8 @@
     "price": {
       "currency": "USD",
       "amount": 399.99,
-      "converted": 12859,
-      "confidence": "Costco US 2026-07-15 來源價；ExchangeRate-API 2026-07-15 匯率換算"
+      "converted": 12876,
+      "confidence": "Costco US 2026-07-16 來源價；ExchangeRate-API 2026-07-16 匯率換算"
     },
     "image": "https://bfasset.costco-static.com/U447IH35/as/tkj772p4357mmh3bwz8kcq/1791272-847__1?auto=webp&format=jpg",
     "buyUrl": "https://www.costco.com/roborock-qx-revo-robot-vacuum-and-mop-with-multifunctional-dock.product.4000233271.html",

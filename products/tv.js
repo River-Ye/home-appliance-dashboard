@@ -175,9 +175,9 @@
     "name": "BRAVIA 7 65 型 Mini LED 4K Google TV",
     "price": {
       "currency": "TWD",
-      "amount": 56900,
-      "converted": 56900,
-      "confidence": "PChome 2026-07-15 晚間 API 查核價"
+      "amount": 53910,
+      "converted": 53910,
+      "confidence": "PChome 2026-07-16 API 公開價"
     },
     "image": "https://img.pchome.com.tw/cs/items/DMBM10A900HKA39/000001_1781001954.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBM10-A900HKA39",
@@ -244,9 +244,253 @@
     }
   },
   {
-    "id": "tv-hisense-u7n-65",
+    "id": "tv-lg-c6-65",
     "category": "tv",
     "rank": 4,
+    "budget": "premium",
+    "channel": "tw",
+    "brand": "LG",
+    "model": "OLED65C6PTA",
+    "name": "65 型 OLED evo C6 4K 智慧顯示器",
+    "price": {
+      "currency": "TWD",
+      "amount": 79900,
+      "converted": 79900,
+      "confidence": "momo購物 2026-07-16 商品頁公開價"
+    },
+    "image": "https://i6.momoshop.com.tw/1781278602/goodsimg/TP000/9148/0000/554/TP00091480000554_L.webp",
+    "buyUrl": "https://www.momoshop.com.tw/TP/TP0009148/goodsDetail/TP00091480000554",
+    "buyLabel": "momo購物",
+    "specs": [
+      "65 吋 OLED evo",
+      "4K 120Hz / VRR 最高 165Hz",
+      "第三代 α11 AI 4K 處理器",
+      "webOS 26",
+      "重量：16.6kg（不含底座）",
+      "手機投影：Apple AirPlay / Google Cast"
+    ],
+    "description": "新一代 C 系列把 α11 處理器與最高 165Hz VRR 帶入主流 OLED，兼顧電影黑位、遊戲與智慧平台。",
+    "pros": [
+      "OLED 黑位與 Dolby Vision 電影表現完整",
+      "最高 165Hz VRR，遊戲規格比 C5 再提升"
+    ],
+    "cons": [
+      "上市初期價格明顯高於折扣中的 C5",
+      "內建 40W 2.2 聲道，劇院低頻仍建議外接音響"
+    ],
+    "bestFor": "希望購買最新一代 LG OLED，並同時重視電影、PC 高更新率遊戲與台灣售後的人。",
+    "recommendation": "C6 是 2026 年值得納入的新世代 OLED 代表；若預算優先仍可選 C5，追求最新處理器與高更新率則選 C6。",
+    "score": 93,
+    "voltage": "110V / 60Hz 台灣公司貨",
+    "warranty": "2 年台灣原廠保固",
+    "tags": [
+      "OLED",
+      "165Hz",
+      "Dolby Vision",
+      "遊戲"
+    ],
+    "releaseDate": "2026-07-08",
+    "historicalLow": {
+      "status": "found",
+      "amount": 74600,
+      "currency": "TWD",
+      "converted": 74600,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1283029655&cgp=74600",
+      "sourceTitle": "LBJ 歷史價格：(店+) LG OLED65C6PTA 65 吋 OLED 4K 智慧顯示器",
+      "evidenceSnippet": "LBJ 的 momo 店+ 同型號價格歷史於 2026-06-16、06-17 與 07-16 記錄 NT$74,600。",
+      "sourceKind": "price_history",
+      "confidence": "high",
+      "checkedAt": "2026-07-16",
+      "note": "同型號新品含基本安裝；未扣除會員券、信用卡、點數或其他個人化回饋。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-07-16",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"LG OLED65C6PTA\" (災情 OR 問題 OR 故障 OR 負評)",
+          "targetHost": "mobile01.com",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22LG%20OLED65C6PTA%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)"
+        },
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"LG OLED65C6PTA\" (problem OR issue OR defect OR \"negative review\")",
+          "targetHost": "reddit.com",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22LG%20OLED65C6PTA%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)"
+        }
+      ]
+    }
+  },
+  {
+    "id": "tv-sony-xr90m2-65",
+    "category": "tv",
+    "rank": 5,
+    "budget": "premium",
+    "channel": "tw",
+    "brand": "Sony",
+    "model": "Y-65XR90M2",
+    "name": "BRAVIA 9 II 65 型 RGB LED 4K Google TV",
+    "price": {
+      "currency": "TWD",
+      "amount": 108323,
+      "converted": 108323,
+      "confidence": "Yahoo購物中心 2026-07-16 商品頁公開價"
+    },
+    "image": "https://img.yec.tw/zp/MerchandiseImages/F326F9F0C5-SP-23019953.jpg",
+    "buyUrl": "https://tw.buy.yahoo.com/gdsale/%E5%90%AB%E6%A8%99%E6%BA%96%E5%AE%89%E8%A3%9D-SONY%E7%B4%A2%E5%B0%BC65%E5%90%8B%E5%90%8BRGB-4K%E9%80%A3%E7%B6%B2%E6%99%BA%E6%85%A7%E9%A1%AF%E7%A4%BA%E5%99%A8Y-65XR90M2-12159450.html",
+    "buyLabel": "Yahoo購物中心",
+    "specs": [
+      "65 吋 4K RGB LED / 區域控光",
+      "原生 120Hz",
+      "RGB TRILUMINOS Max / RGB Backlight Master Drive Pro",
+      "4K120 / VRR / ALLM / eARC",
+      "Google TV",
+      "重量：26.6kg（不含底座）",
+      "手機投影：Apple AirPlay 2 / Google Cast"
+    ],
+    "description": "Sony 2026 旗艦 RGB 背光機種，以獨立控制三原色提升亮度、色彩體積與高亮場景純度。",
+    "pros": [
+      "RGB LED 背光兼顧高亮度與廣色域",
+      "Sony 影像處理、動態與電影調校完整"
+    ],
+    "cons": [
+      "65 吋售價超過十萬元，入手門檻高",
+      "VRR 遊戲規格集中於 HDMI 3、4"
+    ],
+    "bestFor": "明亮大客廳、HDR 電影與希望避開 OLED 烙印疑慮的高階影音使用者。",
+    "recommendation": "BRAVIA 9 II 是 2026 年最具差異化的新電視之一，RGB 背光技術足以構成獨立候選，而非僅是例行小改款。",
+    "score": 92,
+    "voltage": "110V / 60Hz 台灣公司貨",
+    "warranty": "2 年台灣原廠保固",
+    "tags": [
+      "RGB LED",
+      "旗艦",
+      "高亮度",
+      "Google TV"
+    ],
+    "releaseDate": "2026-06-17",
+    "historicalLow": {
+      "status": "found",
+      "amount": 108323,
+      "currency": "TWD",
+      "converted": 108323,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1284150622&cgp=108323",
+      "sourceTitle": "LBJ 歷史價格：SONY Y-65XR90M2 65 吋 RGB 4K 智慧顯示器",
+      "evidenceSnippet": "LBJ 的 Yahoo 同型號含標準安裝價格由 NT$115,237 降至 2026-07-15、07-16 的 NT$108,323。",
+      "sourceKind": "price_history",
+      "confidence": "high",
+      "checkedAt": "2026-07-16",
+      "note": "採同型號新品含標準安裝公開價格；未扣除信用卡、點數或會員個人化回饋。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-07-16",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Sony Y-65XR90M2\" (災情 OR 問題 OR 故障 OR 負評)",
+          "targetHost": "mobile01.com",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Sony%20Y-65XR90M2%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)"
+        },
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Sony Y-65XR90M2\" (problem OR issue OR defect OR \"negative review\")",
+          "targetHost": "reddit.com",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Sony%20Y-65XR90M2%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)"
+        }
+      ]
+    }
+  },
+  {
+    "id": "tv-samsung-s95h-65",
+    "category": "tv",
+    "rank": 6,
+    "budget": "premium",
+    "channel": "tw",
+    "brand": "Samsung",
+    "model": "QA65S95HAXXZW",
+    "name": "65 型 S95H OLED 4K Vision AI 智慧顯示器",
+    "price": {
+      "currency": "TWD",
+      "amount": 109900,
+      "converted": 109900,
+      "confidence": "PChome 2026-07-16 API 公開價"
+    },
+    "image": "https://img.pchome.com.tw/cs/items/DPADO2A900K6OWZ/000001_1783614430.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DPADO2-A900K6OWZ",
+    "buyLabel": "PChome",
+    "specs": [
+      "65 吋 4K OLED / 最高 165Hz VRR",
+      "抗反光真星黑面板",
+      "NQ4 AI 第三代處理器 / OLED HDR Pro",
+      "4.2.2 聲道 70W / Dolby Atmos",
+      "重量：20.9kg（不含底座）",
+      "手機投影：Smart View / Apple AirPlay / Google Cast"
+    ],
+    "description": "Samsung 2026 旗艦 OLED，以 165Hz 遊戲、抗反光面板、AI 影像處理與 70W 音響拉開和 S90F 的定位。",
+    "pros": [
+      "OLED 對比搭配抗反光面板，明亮環境適應性較佳",
+      "165Hz VRR 與 70W 4.2.2 聲道規格完整"
+    ],
+    "cons": [
+      "旗艦上市價高，CP 值不如折扣中的 S90F",
+      "第三方訊源需確認 HDR10+ 與高更新率相容性"
+    ],
+    "bestFor": "偏好 Samsung 生態系、白天客廳觀看與高更新率 PC 遊戲的高階使用者。",
+    "recommendation": "S95H 是 Samsung 2026 OLED 旗艦，抗反光、165Hz 與高功率音響都有實質升級，值得和 C6、BRAVIA 9 II 同列新機比較。",
+    "score": 92,
+    "voltage": "AC 100-240V / 50-60Hz",
+    "warranty": "台灣公司貨；期限依 Samsung 台灣原廠條款",
+    "tags": [
+      "OLED",
+      "165Hz",
+      "抗反光",
+      "旗艦"
+    ],
+    "releaseDate": "2026-06-08",
+    "historicalLow": {
+      "status": "found",
+      "amount": 109900,
+      "currency": "TWD",
+      "converted": 109900,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1284236737&cgp=109900",
+      "sourceTitle": "LBJ 歷史價格：Samsung QA65S95HAXXZW OLED 4K Vision AI 智慧顯示器",
+      "evidenceSnippet": "LBJ 的 PChome 同型號價格歷史於 2026-06-16、07-07、07-16 均記錄 NT$109,900。",
+      "sourceKind": "price_history",
+      "confidence": "high",
+      "checkedAt": "2026-07-16",
+      "note": "採完全相同台灣型號新品公開價；未扣除信用卡、點數或會員回饋。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-07-16",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Samsung QA65S95HAXXZW\" (災情 OR 問題 OR 故障 OR 負評)",
+          "targetHost": "mobile01.com",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Samsung%20QA65S95HAXXZW%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)"
+        },
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Samsung QA65S95HAXXZW\" (problem OR issue OR defect OR \"negative review\")",
+          "targetHost": "reddit.com",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Samsung%20QA65S95HAXXZW%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)"
+        }
+      ]
+    }
+  },
+  {
+    "id": "tv-hisense-u7n-65",
+    "category": "tv",
+    "rank": 7,
     "budget": "mid",
     "channel": "tw",
     "brand": "Hisense",
@@ -325,7 +569,7 @@
   {
     "id": "tv-benq-e65-760",
     "category": "tv",
-    "rank": 5,
+    "rank": 8,
     "budget": "value",
     "channel": "tw",
     "brand": "BenQ",
@@ -404,7 +648,7 @@
   {
     "id": "tv-extra-6-dpad06-a900hlbjo",
     "category": "tv",
-    "rank": 6,
+    "rank": 9,
     "budget": "premium",
     "channel": "tw",
     "brand": "Sony",
@@ -412,9 +656,9 @@
     "name": "BRAVIA 8 65 型 XR OLED 4K HDR Google TV 顯示器",
     "price": {
       "currency": "TWD",
-      "amount": 93900,
-      "converted": 93900,
-      "confidence": "PChome 2026-07-15 晚間 API 查核價"
+      "amount": 84510,
+      "converted": 84510,
+      "confidence": "PChome 2026-07-16 API 公開價"
     },
     "image": "https://cs-a.ecimg.tw/items/DPAD06A900HLBJO/000001_1776334113.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DPAD06-A900HLBJO",
@@ -483,7 +727,7 @@
   {
     "id": "tv-extra-7-dpadye-1900jgoya",
     "category": "tv",
-    "rank": 7,
+    "rank": 10,
     "budget": "premium",
     "channel": "tw",
     "brand": "LG",
@@ -562,7 +806,7 @@
   {
     "id": "tv-extra-8-dpad09-a900j9faz",
     "category": "tv",
-    "rank": 8,
+    "rank": 11,
     "budget": "premium",
     "channel": "tw",
     "brand": "Panasonic",
@@ -641,7 +885,7 @@
   {
     "id": "tv-extra-9-dpadik-a900hjgf2",
     "category": "tv",
-    "rank": 9,
+    "rank": 12,
     "budget": "premium",
     "channel": "tw",
     "brand": "Philips",
@@ -720,7 +964,7 @@
   {
     "id": "tv-extra-10-dmbm10-a900ixjzg",
     "category": "tv",
-    "rank": 10,
+    "rank": 13,
     "budget": "premium",
     "channel": "tw",
     "brand": "Samsung",
@@ -799,7 +1043,7 @@
   {
     "id": "tv-extra-11-dpadzm-a900k3904",
     "category": "tv",
-    "rank": 11,
+    "rank": 14,
     "budget": "mid",
     "channel": "tw",
     "brand": "TCL",
@@ -878,7 +1122,7 @@
   {
     "id": "tv-extra-12-dpadzm-a900k2rgj",
     "category": "tv",
-    "rank": 12,
+    "rank": 15,
     "budget": "value",
     "channel": "tw",
     "brand": "TCL",
@@ -957,7 +1201,7 @@
   {
     "id": "tv-extra-13-dpadbu-1900jc97w",
     "category": "tv",
-    "rank": 13,
+    "rank": 16,
     "budget": "value",
     "channel": "tw",
     "brand": "Xiaomi",
@@ -1036,7 +1280,7 @@
   {
     "id": "tv-extra-14-dpadew-1900jpy1s",
     "category": "tv",
-    "rank": 14,
+    "rank": 17,
     "budget": "premium",
     "channel": "tw",
     "brand": "Samsung",
@@ -1115,7 +1359,7 @@
   {
     "id": "tv-extra-15-dpad0o-1900jl0z8",
     "category": "tv",
-    "rank": 15,
+    "rank": 18,
     "budget": "value",
     "channel": "tw",
     "brand": "BenQ",
@@ -1194,7 +1438,7 @@
   {
     "id": "tv-extra-16-dpadb2a900jgkqb",
     "category": "tv",
-    "rank": 16,
+    "rank": 19,
     "budget": "mid",
     "channel": "tw",
     "brand": "AOC",
@@ -1273,7 +1517,7 @@
   {
     "id": "tv-extra-17-dpado5a900ie3y5",
     "category": "tv",
-    "rank": 17,
+    "rank": 20,
     "budget": "mid",
     "channel": "tw",
     "brand": "Toshiba",
@@ -1352,7 +1596,7 @@
   {
     "id": "tv-extra-18-dpadtoa900jne73",
     "category": "tv",
-    "rank": 18,
+    "rank": 21,
     "budget": "mid",
     "channel": "tw",
     "brand": "CHiQ",
@@ -1360,9 +1604,9 @@
     "name": "65型 4K QLED 120Hz Google TV",
     "price": {
       "currency": "TWD",
-      "amount": 13990,
-      "converted": 13990,
-      "confidence": "PChome 2026-07-15 晚間 API 查核價"
+      "amount": 12591,
+      "converted": 12591,
+      "confidence": "PChome 2026-07-16 API 公開價"
     },
     "image": "https://cs-a.ecimg.tw/items/DPADTOA900JNE73/000001_1768523868.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DPADTO-A900JNMOP",
@@ -1431,7 +1675,7 @@
   {
     "id": "tv-extra-19-dmbm10a900ifxk7",
     "category": "tv",
-    "rank": 19,
+    "rank": 22,
     "budget": "mid",
     "channel": "tw",
     "brand": "TECO",
@@ -1510,7 +1754,7 @@
   {
     "id": "tv-extra-20-dpadw5a900k1qa7",
     "category": "tv",
-    "rank": 20,
+    "rank": 23,
     "budget": "mid",
     "channel": "tw",
     "brand": "SAMPO",
@@ -1589,7 +1833,7 @@
   {
     "id": "tv-costco-toshiba-75z670nt",
     "category": "tv",
-    "rank": 21,
+    "rank": 24,
     "budget": "mid",
     "channel": "tw",
     "brand": "Toshiba",
@@ -1668,7 +1912,7 @@
   {
     "id": "tv-costco-tcl-65c8k",
     "category": "tv",
-    "rank": 22,
+    "rank": 25,
     "budget": "premium",
     "channel": "tw",
     "brand": "TCL",
@@ -1750,7 +1994,7 @@
   {
     "id": "tv-costco-hisense-75q7n",
     "category": "tv",
-    "rank": 23,
+    "rank": 26,
     "budget": "premium",
     "channel": "tw",
     "brand": "Hisense",

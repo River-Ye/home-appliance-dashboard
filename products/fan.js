@@ -675,17 +675,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "found",
-      "amount": 1319,
+      "status": "not_found",
+      "amount": null,
       "currency": "TWD",
-      "converted": 1319,
-      "sourceUrl": "https://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=15103067",
-      "sourceTitle": "momo購物 商品頁：【Panasonic 國際牌】14吋微電腦DC直流電風扇 F-S14KM (4小時定時/自然風功能/台灣製造/DC節能扇)",
-      "evidenceSnippet": "momo購物 原始商品頁／API 於 2026-07-11 顯示同型號新品公開價 1319 TWD，低於既有可驗證史低。",
-      "sourceKind": "retailer_page",
-      "confidence": "high",
-      "checkedAt": "2026-07-11",
-      "note": "採用同型號、同尺寸／容量／規格的可信新品公開價；排除會員個人化折扣、信用卡回饋、點數、二手、福利品、展示、拆封與整新品。"
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-07-16",
+      "note": "原 momo 史低頁已不再呈現 F-S14KM 商品與價格，逐型號重查 LBJ、FindPrice、PChome、Yahoo 與 momo 後仍找不到可公開重現的同型號可信新品史低；因此撤銷原 NT$1,319 證據，不以現價推定史低。"
     },
     "issueResearch": {
       "status": "no_common_issue",

@@ -1642,9 +1642,9 @@
     "name": "27 型 4K Mac 外接護眼螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 14888,
-      "converted": 14888,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 16888,
+      "converted": 16888,
+      "confidence": "PChome 2026-07-16 API 公開價"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABF1A900HW6JB/000001_1754623836.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DSABF1-A900HW6JB",
@@ -3698,9 +3698,9 @@
     "name": "49 型 Odyssey OLED G9 Dual QHD 240Hz 曲面螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 36900,
-      "converted": 36900,
-      "confidence": "PChome 2026-07-14 API 查核價"
+      "amount": 34999,
+      "converted": 34999,
+      "confidence": "PChome 2026-07-16 API 公開價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBM10A900HZCPE/000001_1781766568.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBM10-A900HZCPE",

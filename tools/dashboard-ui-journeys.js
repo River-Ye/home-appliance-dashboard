@@ -343,9 +343,9 @@ async function runExhaustiveViewport(browser, name, viewport) {
   await page.getByRole("button", { name: "重設篩選" }).click();
   await waitForVisibleCount(page, EXPECTED_PRODUCT_COUNT);
 
-  const soundbarTab = page.getByRole("button", { name: "Soundbar 25" });
+  const soundbarTab = page.getByRole("button", { name: "Soundbar 26" });
   await soundbarTab.click();
-  await page.waitForFunction(() => document.querySelector("#visibleCount")?.textContent?.trim() === "25");
+  await page.waitForFunction(() => document.querySelector("#visibleCount")?.textContent?.trim() === "26");
   await page.locator("#brandInput").click();
   const soundbarBrandOptions = await page.$$eval("#brandOptions [data-value]", (options) => options.map((option) => option.dataset.value));
   if (!soundbarBrandOptions.includes("Marshall")) throw new Error(`${name}: soundbar brands missing Marshall`);
@@ -531,8 +531,8 @@ async function runExhaustiveViewport(browser, name, viewport) {
   if (arm30kgVisible < 1) throw new Error(`${name}: 30kg arm search returned ${arm30kgVisible}`);
 
   await page.fill("#searchInput", "");
-  await page.getByRole("button", { name: "電視 23" }).click();
-  await page.waitForFunction(() => document.querySelector("#visibleCount")?.textContent?.trim() === "23");
+  await page.getByRole("button", { name: "電視 26" }).click();
+  await page.waitForFunction(() => document.querySelector("#visibleCount")?.textContent?.trim() === "26");
   await loadAllVisibleProducts(page);
   const tvCastingMissing = await page.$$eval(".product-card", (cards) => cards.filter((card) => !card.textContent.includes("手機投影：")).length);
   if (tvCastingMissing) throw new Error(`${name}: ${tvCastingMissing} TV cards missing mobile casting spec`);
@@ -843,10 +843,10 @@ async function runDesktopJourney(browser) {
     await page.waitForFunction(() => document.querySelector("#brandOptions")?.hidden);
     await resetFilters(page);
 
-    await page.getByRole("button", { name: "Soundbar 25" }).click();
-    await page.waitForFunction(() => document.querySelector("#visibleCount")?.textContent?.trim() === "25");
+    await page.getByRole("button", { name: "Soundbar 26" }).click();
+    await page.waitForFunction(() => document.querySelector("#visibleCount")?.textContent?.trim() === "26");
     await page.getByRole("button", { name: "再載入 40 筆" }).click();
-    await waitForProductCards(page, 25);
+    await waitForProductCards(page, 26);
     if (await page.locator("#loadMoreProducts").isVisible()) {
       throw new Error(`${name}: final manual batch should hide the load-more button`);
     }
@@ -932,7 +932,7 @@ async function runMobileJourney(browser) {
     }
 
     await selectComboboxOption(page, "#categoryInput", '#categoryOptions [data-value="soundbar"]', "Soundbar");
-    await page.waitForFunction(() => document.querySelector("#visibleCount")?.textContent?.trim() === "25");
+    await page.waitForFunction(() => document.querySelector("#visibleCount")?.textContent?.trim() === "26");
     await selectComboboxOption(page, "#brandInput", '#brandOptions [data-value="Marshall"]', "Marshall");
     await page.waitForFunction(() => document.querySelector("#visibleCount")?.textContent?.trim() === "2");
     await waitForProductCards(page, 2);
@@ -943,7 +943,7 @@ async function runMobileJourney(browser) {
     const collapsedFilterCount = Number(await page.locator("#activeFilterCount").innerText());
     if (collapsedFilterCount < 2) throw new Error(`${name}: collapsed filter count did not reflect active chips`);
     await page.locator('#activeFilterChips [data-clear-filter="brand"]').click();
-    await page.waitForFunction(() => document.querySelector("#visibleCount")?.textContent?.trim() === "25");
+    await page.waitForFunction(() => document.querySelector("#visibleCount")?.textContent?.trim() === "26");
     if (!await filterToggle.evaluate((node) => document.activeElement === node)) {
       throw new Error(`${name}: clearing a collapsed mobile filter focused a hidden control`);
     }

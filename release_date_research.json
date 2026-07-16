@@ -1,11 +1,11 @@
 {
   "summary": {
-    "checkedAt": "2026-07-11T03:49:58.000Z",
-    "total": 658,
-    "found": 166,
+    "checkedAt": "2026-07-16T00:02:24.000Z",
+    "total": 662,
+    "found": 170,
     "missing": 492,
     "byConfidence": {
-      "official": 67,
+      "official": 71,
       "credible_article": 88,
       "not_found": 492,
       "retailer_explicit": 11
@@ -53,6 +53,51 @@
       "confidence": "credible_article",
       "query": "Sony XR70 release date launch announced",
       "sourceKind": "bing_result_block"
+    },
+    {
+      "id": "tv-lg-c6-65",
+      "category": "tv",
+      "brand": "LG",
+      "model": "OLED65C6PTA",
+      "name": "65 型 OLED evo C6 4K 智慧顯示器",
+      "releaseDate": "2026-07-08",
+      "sourceUrl": "https://www.lg.com/tw/about-lg/press-and-media/lg-tv-smart-monitor-new-launch-20260708/",
+      "sourceTitle": "LG 電視、智慧螢幕 2026 新品上市",
+      "evidenceSnippet": "LG 台灣於 2026-07-08 正式推出 OLED evo AI C6 系列，包含 OLED65C6PTA。",
+      "confidence": "official",
+      "query": "site:lg.com/tw OLED65C6PTA 2026 上市 C6",
+      "sourceKind": "manual_research",
+      "reason": "採品牌台灣官方新聞稿明確記載的在台發表或正式上市日期；未以通路上架日、促銷期間或型號年份推定。"
+    },
+    {
+      "id": "tv-sony-xr90m2-65",
+      "category": "tv",
+      "brand": "Sony",
+      "model": "Y-65XR90M2",
+      "name": "BRAVIA 9 II 65 型 RGB LED 4K Google TV",
+      "releaseDate": "2026-06-17",
+      "sourceUrl": "https://www.sony.com.tw/corporate/home/NewsCenter/Detail/BRAVIATrueRGB",
+      "sourceTitle": "Sony 首款 BRAVIA True RGB 系列出色亮相",
+      "evidenceSnippet": "Sony 台灣新聞稿明確寫 2026-06-16 正式在台發表 BRAVIA 9 II，並於翌日 2026-06-17 起陸續上市。",
+      "confidence": "official",
+      "query": "site:sony.com.tw Y-65XR90M2 BRAVIA 9 II 2026 發表",
+      "sourceKind": "manual_research",
+      "reason": "採品牌台灣官方新聞稿明確記載的在台發表或正式上市日期；未以通路上架日、促銷期間或型號年份推定。"
+    },
+    {
+      "id": "tv-samsung-s95h-65",
+      "category": "tv",
+      "brand": "Samsung",
+      "model": "QA65S95HAXXZW",
+      "name": "65 型 S95H OLED 4K Vision AI 智慧顯示器",
+      "releaseDate": "2026-06-08",
+      "sourceUrl": "https://news.samsung.com/tw/%E4%B8%89%E6%98%9F%E6%8F%AD%E6%9B%892026-ai%E6%99%BA%E6%85%A7%E9%A1%AF%E7%A4%BA%E5%99%A8%E5%85%A8%E9%99%A3%E5%AE%B9-%E6%89%93%E9%80%A0%E5%85%A8%E6%96%B9%E4%BD%8Dai%E6%97%A5%E5%B8%B8",
+      "sourceTitle": "三星揭曉 2026 AI 智慧顯示器全陣容",
+      "evidenceSnippet": "Samsung 台灣於 2026-06-08 揭曉 2026 AI 智慧顯示器陣容，列出 S95H OLED 系列。",
+      "confidence": "official",
+      "query": "site:news.samsung.com/tw QA65S95HAXXZW S95H 2026",
+      "sourceKind": "manual_research",
+      "reason": "採品牌台灣官方新聞稿明確記載的在台發表或正式上市日期；未以通路上架日、促銷期間或型號年份推定。"
     },
     {
       "id": "tv-hisense-u7n-65",
@@ -324,6 +369,21 @@
       "confidence": "official",
       "query": "Sony B600 release date launch announced",
       "sourceKind": "bing_result_block"
+    },
+    {
+      "id": "soundbar-sony-ht-a7100",
+      "category": "soundbar",
+      "brand": "Sony",
+      "model": "HT-A7100",
+      "name": "BRAVIA Theatre Bar 7 5.0.2 聲道 Soundbar",
+      "releaseDate": "2026-05-19",
+      "sourceUrl": "https://www.sony.com.tw/corporate/home/NewsCenter/Detail/BRAVIATheatreBar7",
+      "sourceTitle": "Sony 全新 BRAVIA Theatre Bar 7 單件式家庭劇院",
+      "evidenceSnippet": "Sony 台灣新聞稿明確寫 BRAVIA Theatre Bar 7 HT-A7100 於 2026-05-19 在台正式上市。",
+      "confidence": "official",
+      "query": "site:sony.com.tw HT-A7100 2026 正式上市",
+      "sourceKind": "manual_research",
+      "reason": "採品牌台灣官方新聞稿明確記載的在台發表或正式上市日期；未以通路上架日、促銷期間或型號年份推定。"
     },
     {
       "id": "soundbar-sonos-arc-ultra",

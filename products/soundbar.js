@@ -17,9 +17,9 @@
     "name": "11.1.4 聲道旗艦 Soundbar",
     "price": {
       "currency": "TWD",
-      "amount": 49900,
-      "converted": 49900,
-      "confidence": "Yahoo購物中心 2026-07-15 頁面查核價"
+      "amount": 47405,
+      "converted": 47405,
+      "confidence": "Yahoo購物中心 2026-07-16 商品頁公開價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAAODA900JMDR5/000001_1773978957.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/Samsung-%E4%B8%89%E6%98%9F-11-1-4%E8%81%B2%E9%81%93-%E8%97%8D%E7%89%99%E8%81%B2%E9%9C%B8-HW-Q990F-ZW-11688500.html",
@@ -187,9 +187,9 @@
     "name": "BRAVIA Theatre Bar 6 3.1.2 聲道",
     "price": {
       "currency": "TWD",
-      "amount": 11900,
-      "converted": 11900,
-      "confidence": "PChome 2026-07-14 API 查核價"
+      "amount": 10710,
+      "converted": 10710,
+      "confidence": "PChome 2026-07-16 API 公開價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAAODA900JMC1Q/000001_1781726516.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAAOD-A900JMC1Q",
@@ -255,9 +255,90 @@
     }
   },
   {
-    "id": "soundbar-sonos-arc-ultra",
+    "id": "soundbar-sony-ht-a7100",
     "category": "soundbar",
     "rank": 4,
+    "budget": "mid",
+    "channel": "tw",
+    "brand": "Sony",
+    "model": "HT-A7100",
+    "name": "BRAVIA Theatre Bar 7 5.0.2 聲道 Soundbar",
+    "price": {
+      "currency": "TWD",
+      "amount": 21755,
+      "converted": 21755,
+      "confidence": "PChome 2026-07-16 API 公開價"
+    },
+    "image": "https://img.pchome.com.tw/cs/items/DMAAN8A900K0Y8L/000001_1779181877.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DMAAN8-A900K0Y8L",
+    "buyLabel": "PChome",
+    "specs": [
+      "5.0.2 聲道 / 9 單體",
+      "360 Spatial Sound Mapping",
+      "Dolby Atmos / DTS:X",
+      "HDMI 2.1：8K HDR / 4K120 / VRR / ALLM",
+      "Apple AirPlay / Spotify Connect",
+      "BRAVIA Connect 空間校正"
+    ],
+    "description": "以九單體與 360 Spatial Sound Mapping 建立虛擬環繞，並保留 4K120、VRR 等新世代遊戲訊號直通。",
+    "pros": [
+      "單件式即可提供天空聲道與寬廣音場",
+      "HDMI 2.1 遊戲直通規格完整"
+    ],
+    "cons": [
+      "未內含獨立重低音與實體後環繞",
+      "加購 Sony 無線重低音、後環繞後總價會提高"
+    ],
+    "bestFor": "希望先以單件式改善電影與遊戲音效，未來再逐步擴充的客廳。",
+    "recommendation": "HT-A7100 是 2026 年 Sony 主力新聲霸，公開售價已進入中階帶，規格與擴充彈性都值得納入。",
+    "score": 91,
+    "voltage": "110V 台灣公司貨",
+    "warranty": "1 年台灣原廠保固",
+    "tags": [
+      "Atmos",
+      "360 Spatial Sound Mapping",
+      "4K120",
+      "可擴充"
+    ],
+    "releaseDate": "2026-05-19",
+    "historicalLow": {
+      "status": "found",
+      "amount": 20610,
+      "currency": "TWD",
+      "converted": 20610,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1281926634&cgp=20610",
+      "sourceTitle": "LBJ 歷史價格：Sony HT-A7100 BRAVIA Theatre Bar 7",
+      "evidenceSnippet": "LBJ 的 Yahoo 同型號歷史於 2026-07-15、07-16 記錄 NT$20,610，先前價格介於 NT$22,264 至 NT$24,200。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
+      "checkedAt": "2026-07-16",
+      "note": "來源標示贈品但未從價格扣除贈品價值；主商品為完全相同 HT-A7100 新品。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-07-16",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Sony HT-A7100\" (災情 OR 問題 OR 故障 OR 負評)",
+          "targetHost": "mobile01.com",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Sony%20HT-A7100%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)"
+        },
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Sony HT-A7100\" (problem OR issue OR defect OR \"negative review\")",
+          "targetHost": "reddit.com",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Sony%20HT-A7100%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)"
+        }
+      ]
+    }
+  },
+  {
+    "id": "soundbar-sonos-arc-ultra",
+    "category": "soundbar",
+    "rank": 5,
     "budget": "premium",
     "channel": "tw",
     "brand": "Sonos",
@@ -344,7 +425,7 @@
   {
     "id": "soundbar-jbl-500mk2",
     "category": "soundbar",
-    "rank": 5,
+    "rank": 6,
     "budget": "mid",
     "channel": "tw",
     "brand": "JBL",
@@ -422,7 +503,7 @@
   {
     "id": "soundbar-extra-6-dmaaod-a900k3qsm",
     "category": "soundbar",
-    "rank": 6,
+    "rank": 7,
     "budget": "premium",
     "channel": "tw",
     "brand": "Samsung",
@@ -500,7 +581,7 @@
   {
     "id": "soundbar-extra-7-dmaaod-a900jmdr4",
     "category": "soundbar",
-    "rank": 7,
+    "rank": 8,
     "budget": "mid",
     "channel": "tw",
     "brand": "Samsung",
@@ -578,7 +659,7 @@
   {
     "id": "soundbar-extra-8-dmbm1d-a900j5jaz",
     "category": "soundbar",
-    "rank": 8,
+    "rank": 9,
     "budget": "mid",
     "channel": "tw",
     "brand": "LG",
@@ -656,7 +737,7 @@
   {
     "id": "soundbar-extra-9-dpado2-a900k5vut",
     "category": "soundbar",
-    "rank": 9,
+    "rank": 10,
     "budget": "premium",
     "channel": "tw",
     "brand": "Samsung",
@@ -664,9 +745,9 @@
     "name": "Q 系列 11.1.4 聲道 Soundbar 家庭劇院",
     "price": {
       "currency": "TWD",
-      "amount": 59900,
-      "converted": 59900,
-      "confidence": "Yahoo購物中心 2026-07-15 頁面查核價"
+      "amount": 56905,
+      "converted": 56905,
+      "confidence": "Yahoo購物中心 2026-07-16 商品頁公開價"
     },
     "image": "https://cs-a.ecimg.tw/items/DPADO2A900K5VUT/000001_1782993730.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/Samsung%E4%B8%89%E6%98%9F-11-1-4%E8%81%B2%E9%81%93-%E8%97%8D%E7%89%99%E8%81%B2%E9%9C%B8-HW-Q990H-ZW-12124621.html",
@@ -734,7 +815,7 @@
   {
     "id": "soundbar-extra-10-dmaaod-a900k5489",
     "category": "soundbar",
-    "rank": 10,
+    "rank": 11,
     "budget": "premium",
     "channel": "tw",
     "brand": "Samsung",
@@ -742,9 +823,9 @@
     "name": "Q 系列 7.1.2 聲道 Soundbar",
     "price": {
       "currency": "TWD",
-      "amount": 36900,
-      "converted": 36900,
-      "confidence": "Yahoo購物中心 2026-07-15 頁面查核價"
+      "amount": 35055,
+      "converted": 35055,
+      "confidence": "Yahoo購物中心 2026-07-16 商品頁公開價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAAODA900K5489/000001_1782988490.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/Samsung%E4%B8%89%E6%98%9F-7-1-2%E8%81%B2%E9%81%93-%E8%97%8D%E7%89%99%E8%81%B2%E9%9C%B8-HW-QS90H-ZW-12124562.html",
@@ -812,7 +893,7 @@
   {
     "id": "soundbar-extra-11-dmbm1d-a900ghtfe",
     "category": "soundbar",
-    "rank": 11,
+    "rank": 12,
     "budget": "value",
     "channel": "tw",
     "brand": "Sony",
@@ -820,9 +901,9 @@
     "name": "5.1 聲道 Soundbar 家庭劇院組",
     "price": {
       "currency": "TWD",
-      "amount": 9016,
-      "converted": 9016,
-      "confidence": "Yahoo購物中心 2026-07-13 頁面查核價"
+      "amount": 8193,
+      "converted": 8193,
+      "confidence": "Yahoo購物中心 2026-07-16 商品頁公開價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBM1DA900GHTFE/000001_1776774078.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/SONY-%E7%B4%A2%E5%B0%BC-5-1-%E8%81%B2%E9%81%93-SOUNDBAR-%E5%AE%B6%E5%BA%AD%E5%8A%87%E9%99%A2%E7%B5%84-HT-S40R-10067449.html",
@@ -890,7 +971,7 @@
   {
     "id": "soundbar-extra-12-dmaamt-a900i5hho",
     "category": "soundbar",
-    "rank": 12,
+    "rank": 13,
     "budget": "value",
     "channel": "tw",
     "brand": "Sony",
@@ -898,9 +979,9 @@
     "name": "2.0 聲道單件式藍牙 Soundbar",
     "price": {
       "currency": "TWD",
-      "amount": 7990,
-      "converted": 7990,
-      "confidence": "Yahoo購物中心 2026-07-15 晚間頁面查核價"
+      "amount": 7591,
+      "converted": 7591,
+      "confidence": "Yahoo購物中心 2026-07-16 商品頁公開價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAAMTA900I5HHO/000001_1778661010.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/Sony-HT-S100F-11411387.html",
@@ -968,7 +1049,7 @@
   {
     "id": "soundbar-extra-13-dmaahg-a900jcy2v",
     "category": "soundbar",
-    "rank": 13,
+    "rank": 14,
     "budget": "mid",
     "channel": "tw",
     "brand": "JBL",
@@ -1046,7 +1127,7 @@
   {
     "id": "soundbar-extra-14-dmaahg-a900j56ok",
     "category": "soundbar",
-    "rank": 14,
+    "rank": 15,
     "budget": "mid",
     "channel": "tw",
     "brand": "JBL",
@@ -1054,9 +1135,9 @@
     "name": "7.1 聲道家庭劇院喇叭",
     "price": {
       "currency": "TWD",
-      "amount": 28590,
-      "converted": 28590,
-      "confidence": "Yahoo購物中心 2026-07-15 頁面查核價"
+      "amount": 27161,
+      "converted": 27161,
+      "confidence": "Yahoo購物中心 2026-07-16 商品頁公開價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAAHGA900J56OK/000001_1755250707.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/JBL-BAR800-MK2-7-1%E8%81%B2%E9%81%93%E5%AE%B6%E5%BA%AD%E5%8A%87%E9%99%A2%E5%96%87%E5%8F%AD-%E8%8B%B1%E5%A4%A7%E5%85%AC%E5%8F%B8%E8%B2%A8%E4%B8%80%E5%B9%B4%E4%BF%9D%E5%9B%BA-12156647.html",
@@ -1124,7 +1205,7 @@
   {
     "id": "soundbar-extra-15-dmaanj-a900hzbzv",
     "category": "soundbar",
-    "rank": 15,
+    "rank": 16,
     "budget": "mid",
     "channel": "tw",
     "brand": "Bose",
@@ -1202,7 +1283,7 @@
   {
     "id": "soundbar-extra-16-dmaalna900hp6mr",
     "category": "soundbar",
-    "rank": 16,
+    "rank": 17,
     "budget": "value",
     "channel": "tw",
     "brand": "Philips",
@@ -1280,7 +1361,7 @@
   {
     "id": "soundbar-extra-17-dmbm1da900hpuxn",
     "category": "soundbar",
-    "rank": 17,
+    "rank": 18,
     "budget": "mid",
     "channel": "tw",
     "brand": "Sony",
@@ -1358,7 +1439,7 @@
   {
     "id": "soundbar-extra-18-dmbm1da900iuzuj",
     "category": "soundbar",
-    "rank": 18,
+    "rank": 19,
     "budget": "premium",
     "channel": "tw",
     "brand": "Sony",
@@ -1436,7 +1517,7 @@
   {
     "id": "soundbar-extra-19-dmaahga900j5777",
     "category": "soundbar",
-    "rank": 19,
+    "rank": 20,
     "budget": "premium",
     "channel": "tw",
     "brand": "JBL",
@@ -1514,7 +1595,7 @@
   {
     "id": "soundbar-extra-20-dmaf02a900h2g5r",
     "category": "soundbar",
-    "rank": 20,
+    "rank": 21,
     "budget": "premium",
     "channel": "tw",
     "brand": "Philips",
@@ -1522,9 +1603,9 @@
     "name": "Fidelio 7.1.2 Dolby Atmos 旗艦聲霸",
     "price": {
       "currency": "TWD",
-      "amount": 36955,
-      "converted": 36955,
-      "confidence": "PChome 2026-07-15 API 查核價"
+      "amount": 35399,
+      "converted": 35399,
+      "confidence": "PChome 2026-07-16 API 公開價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAF02A900H2G5R/000001_1704612188.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAF02-A900H2G5R",
@@ -1592,7 +1673,7 @@
   {
     "id": "soundbar-marshall-heston-120",
     "category": "soundbar",
-    "rank": 21,
+    "rank": 22,
     "budget": "premium",
     "channel": "global",
     "brand": "Marshall",
@@ -1601,8 +1682,8 @@
     "price": {
       "currency": "USD",
       "amount": 1299.99,
-      "converted": 41792,
-      "confidence": "Marshall US 2026-07-15 來源價；ExchangeRate-API 2026-07-15 匯率換算"
+      "converted": 41847,
+      "confidence": "Marshall US 2026-07-16 來源價；ExchangeRate-API 2026-07-16 匯率換算"
     },
     "image": "https://images.ctfassets.net/javen7msabdh/2C2sn9CKoKFdIyd94Gm9z5/f3019d4e721511167ebe5c229bf490dd/heston-120_plp.jpg",
     "buyUrl": "https://www.marshall.com/us/en/product/heston-120",
@@ -1672,7 +1753,7 @@
   {
     "id": "soundbar-marshall-heston-60",
     "category": "soundbar",
-    "rank": 22,
+    "rank": 23,
     "budget": "mid",
     "channel": "global",
     "brand": "Marshall",
@@ -1681,8 +1762,8 @@
     "price": {
       "currency": "USD",
       "amount": 699.99,
-      "converted": 22503,
-      "confidence": "Best Buy US 2026-07-15 來源價；ExchangeRate-API 2026-07-15 匯率換算"
+      "converted": 22533,
+      "confidence": "Best Buy US 2026-07-16 來源價；ExchangeRate-API 2026-07-16 匯率換算"
     },
     "image": "https://images.ctfassets.net/javen7msabdh/3yitHqjPBTgQk5qRE72PSn/2788206646aa153f71f2c0ebefaff580/Heston-60-black_plp_800x800-v3.jpeg",
     "buyUrl": "https://www.bestbuy.com/product/marshall-heston-60-soundbar-with-dolby-atmos-immersive-sound-for-tv-movies-music-black/CFCR4H4GSQ",
@@ -1753,7 +1834,7 @@
   {
     "id": "soundbar-costco-denon-dht-s517",
     "category": "soundbar",
-    "rank": 23,
+    "rank": 24,
     "budget": "mid",
     "channel": "tw",
     "brand": "Denon",
@@ -1845,7 +1926,7 @@
   {
     "id": "soundbar-costco-philips-tab6309",
     "category": "soundbar",
-    "rank": 24,
+    "rank": 25,
     "budget": "value",
     "channel": "tw",
     "brand": "Philips",
@@ -1926,7 +2007,7 @@
   {
     "id": "soundbar-costco-soodatek-ss0220",
     "category": "soundbar",
-    "rank": 25,
+    "rank": 26,
     "budget": "value",
     "channel": "tw",
     "brand": "Soodatek",
@@ -1934,9 +2015,9 @@
     "name": "2.0 聲道二合一分離式聲霸",
     "price": {
       "currency": "TWD",
-      "amount": 633,
-      "converted": 633,
-      "confidence": "Yahoo購物中心 2026-07-15 頁面查核價"
+      "amount": 602,
+      "converted": 602,
+      "confidence": "Yahoo購物中心 2026-07-16 商品頁公開價"
     },
     "image": "https://www.costco.com.tw/medias/sys_master/images/h21/hac/367883491278878.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/Soodatek-2-0%E8%81%B2%E9%81%93%E4%BA%8C%E5%90%88%E4%B8%80Soundbar-SS0220-CS2000PBK-11633433.html",
