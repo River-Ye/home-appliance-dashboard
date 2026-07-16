@@ -1,13 +1,13 @@
 {
   "summary": {
-    "checkedAt": "2026-07-16T00:02:24.000Z",
+    "checkedAt": "2026-07-16T10:12:00.000Z",
     "total": 662,
-    "found": 170,
-    "missing": 492,
+    "found": 171,
+    "missing": 491,
     "byConfidence": {
-      "official": 71,
+      "official": 72,
       "credible_article": 88,
-      "not_found": 492,
+      "not_found": 491,
       "retailer_explicit": 11
     }
   },
@@ -5226,20 +5226,6 @@
       "sourceKind": "not_found_after_available_search"
     },
     {
-      "id": "bidet-hcg-af890",
-      "category": "bidet",
-      "brand": "HCG",
-      "model": "AF890AW",
-      "name": "免治沖洗馬桶座",
-      "releaseDate": "找不到",
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "confidence": "not_found",
-      "query": "HCG AF890AW release date launch announced 上市 發售",
-      "sourceKind": "not_found_after_available_search"
-    },
-    {
       "id": "bidet-extra-6-dmal6w-a900jnqf2",
       "category": "bidet",
       "brand": "TOTO",
@@ -8850,6 +8836,21 @@
       "evidenceSnippet": "",
       "confidence": "not_found",
       "query": "IRIS OHYAMA HCD-22MW release date launch announced 上市 發售"
+    },
+    {
+      "id": "vacuum-dreame-aero-ultra-steam",
+      "category": "vacuum",
+      "brand": "Dreame",
+      "model": "HHR32F",
+      "name": "Aero Ultra Steam 蒸氣濕乾洗地機",
+      "releaseDate": "2026-04-28",
+      "sourceUrl": "https://www.dreametech.com/blogs/news/more-than-20-smart-home-products-launch-at-dreame-next",
+      "sourceTitle": "Dreame Launches More Than 20 Smart Home Products at DREAME NEXT Living Next Showcase, Highlighting Bionic Robotic Arm Platform Expansion",
+      "evidenceSnippet": "Dreame 美國官方新聞稿於 2026-04-28 明確寫當日推出逾 20 款智慧家居產品，並在洗地機段落列出 Aero Ultra Steam。",
+      "confidence": "official",
+      "query": "site:dreametech.com \"Aero Ultra Steam\" launch",
+      "sourceKind": "manual_research",
+      "reason": "採品牌官方 launch 新聞稿日期；未把 Shopify published_at、商品上架日或型號年份當上市日。"
     },
     {
       "id": "washer-costco-samsung-wa80f13s5ltw",

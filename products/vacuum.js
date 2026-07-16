@@ -1804,6 +1804,88 @@
         }
       ]
     }
+  },
+  {
+    "id": "vacuum-dreame-aero-ultra-steam",
+    "category": "vacuum",
+    "rank": 24,
+    "budget": "premium",
+    "channel": "global",
+    "brand": "Dreame",
+    "model": "HHR32F",
+    "name": "Aero Ultra Steam 蒸氣濕乾洗地機",
+    "price": {
+      "currency": "USD",
+      "amount": 679.99,
+      "converted": 21889,
+      "confidence": "Dreame Vacuum Mop US 2026-07-16 原廠公開特價；ExchangeRate-API 2026-07-16 USD/TWD 32.190284 換算"
+    },
+    "image": "https://cdn.shopify.com/s/files/1/1006/5474/3895/files/0_-02_c3ee1e28-25e4-4458-921a-a6b34cecb723.png?v=1784095443",
+    "buyUrl": "https://vacuummop.dreametech.com/products/aero-ultra-steam-wet-dry-vacuum",
+    "buyLabel": "Dreame Vacuum Mop US",
+    "specs": [
+      "蒸氣／熱水／Smart／Eco／吸水／FoamWash 濕乾洗地模式",
+      "30,000Pa 吸力；主機額定功率 400W",
+      "392°F 蒸氣清潔／194°F 熱水除油／203°F 熱風烘乾",
+      "Eco 最長 100 分鐘；蒸氣／熱水模式最長 30 分鐘",
+      "180° 躺平、最低 3.88 吋；主機 6.5kg",
+      "尺寸：275 x 265 x 1,180 mm；充電約 4 小時",
+      "官方型號 HHR32F；充電座 HCBBT，120V / 60Hz、350W"
+    ],
+    "description": "Dreame 北美旗艦濕乾洗地機，結合蒸氣、熱水與 FoamWash；本筆僅作海外參考，換算價未含國際運費與進口稅。",
+    "pros": [
+      "蒸氣、熱水與泡沫三種深層清潔整合於單機",
+      "30,000Pa 吸力、180° 躺平與最長 100 分鐘 Eco 續航"
+    ],
+    "cons": [
+      "充電座為美規 120V / 60Hz，台灣使用仍須確認插頭、供電與原廠支援",
+      "海外直購未含國際運費、進口稅，且沒有台灣原廠保固"
+    ],
+    "bestFor": "願意承擔海外採購與售後風險，並需要硬地板蒸氣、熱水與寵物氣味清潔的人。",
+    "recommendation": "海外新品參考：功能差異明確，但 120V / 60Hz 與台灣保固風險使它不適合列為 Top Pick。",
+    "score": 86,
+    "voltage": "充電座 120V / 60Hz（美規）；主機 21.6V，台灣使用前仍需確認插頭與供電條件",
+    "warranty": "Dreame 美國原廠頁標示 2 年保固；海外購買通常不等同台灣保固",
+    "tags": [
+      "蒸氣洗地",
+      "濕乾兩用",
+      "30,000Pa",
+      "海外參考"
+    ],
+    "releaseDate": "2026-04-28",
+    "historicalLow": {
+      "status": "found",
+      "amount": 679.99,
+      "currency": "USD",
+      "converted": 21889,
+      "sourceUrl": "https://vacuummop.dreametech.com/products/aero-ultra-steam-wet-dry-vacuum",
+      "sourceTitle": "Dreame Aero Ultra Steam Wet Dry Vacuum – Dreame Vacuum Mop",
+      "evidenceSnippet": "Dreame 原廠美國商品頁於 2026-07-16 公開顯示特價 US$679.99、原價 US$799.99，且可 Add to Cart / Buy It Now。",
+      "sourceKind": "official_sale",
+      "confidence": "high",
+      "checkedAt": "2026-07-16",
+      "note": "新上市商品目前可公開驗證的最低售價；未套用會員碼、信用卡、點數或個人化折扣，且未含國際運費、進口稅、插頭／供電與台灣保固風險。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-07-16",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Dreame HHR32F\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Dreame%20HHR32F%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Dreame HHR32F\" (problem OR issue OR defect OR \"negative review\")",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Dreame%20HHR32F%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
+          "targetHost": "reddit.com"
+        }
+      ]
+    }
   }
 ]);
 })();

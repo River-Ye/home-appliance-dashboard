@@ -1,6 +1,6 @@
 {
   "summary": {
-    "checkedAt": "2026-07-16T08:05:00+08:00",
+    "checkedAt": "2026-07-16T18:12:00+08:00",
     "total": 662,
     "commonIssueProducts": 36,
     "noCommonIssueProducts": 626,
@@ -14,7 +14,7 @@
     },
     "sourcePolicy": "搜尋引擎只用於發現候選；只有原始論壇、社群或零售評價頁中可辨識的第一人稱同型號回報才計入人數。同帳號、跨站轉貼、按讚、媒體轉述與搜尋摘要不重複計算。",
     "noIssueWording": "截至查核日，查無達門檻的集中負評／災情",
-    "refreshedThisRun": 4,
+    "refreshedThisRun": 1,
     "preservedExistingNegativeEvidence": 49,
     "priorFullRefresh": {
       "checkedAt": "2026-07-11",
@@ -20748,6 +20748,96 @@
           "candidateUrls": [],
           "candidates": [],
           "inspectedAt": "2026-07-11T00:00:00+08:00"
+        }
+      ],
+      "evidence": [],
+      "rejectedCandidates": []
+    },
+    {
+      "id": "vacuum-dreame-aero-ultra-steam",
+      "category": "vacuum",
+      "brand": "Dreame",
+      "model": "HHR32F",
+      "name": "Aero Ultra Steam 蒸氣濕乾洗地機",
+      "identity": {
+        "canonicalModel": "HHR32F",
+        "lookupLabel": "Dreame HHR32F",
+        "aliases": [
+          "Dreame HHR32F",
+          "Dreame Aero Ultra Steam",
+          "Aero Ultra Steam"
+        ],
+        "evidenceUrl": "https://cdn.shopify.com/s/files/1/0302/5276/1220/files/W2619C-_-_-EN.pdf?v=1780564945"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "status": "completed",
+        "decision": "no_common_issue",
+        "reviewedAt": "2026-07-16",
+        "checkedPlatforms": [
+          "Mobile01",
+          "Reddit"
+        ],
+        "queries": [
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"Dreame HHR32F\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Dreame%20HHR32F%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "mobile01.com"
+          },
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"Dreame HHR32F\" (problem OR issue OR defect OR \"negative review\")",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Dreame%20HHR32F%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
+            "targetHost": "reddit.com"
+          }
+        ],
+        "candidateDisposition": "HHR32F：已實際執行 Mobile01、Reddit 兩個獨立網站的 canonical exact-model 查詢；搜尋回傳沒有通過 target host 與完整 HHR32F 型號邊界的原頁候選，此結果不代表完全沒有負評。",
+        "representativeSources": [],
+        "candidateReviews": [],
+        "reviewerNote": "2026-07-16 以 Bing RSS 完成兩站 HHR32F 查詢；兩個查詢均 HTTP 200，回傳項目皆為無關網站或未含完整型號，未用搜尋摘要合成負評證據。",
+        "attestation": "manual_cross_site_search_reviewed_no_candidate"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-07-16",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"Dreame HHR32F\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Dreame%20HHR32F%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "mobile01.com"
+          },
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"Dreame HHR32F\" (problem OR issue OR defect OR \"negative review\")",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Dreame%20HHR32F%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
+            "targetHost": "reddit.com"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Dreame HHR32F\" (災情 OR 問題 OR 故障 OR 負評)",
+          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Dreame%20HHR32F%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-07-16T18:00:00+08:00"
+        },
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Dreame HHR32F\" (problem OR issue OR defect OR \"negative review\")",
+          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Dreame%20HHR32F%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-07-16T18:00:00+08:00"
         }
       ],
       "evidence": [],
@@ -42198,94 +42288,6 @@
           "platform": "Reddit",
           "query": "site:reddit.com \"KOHLER C3-430\" (problem OR issue OR defect OR \"negative review\")",
           "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22KOHLER%20C3-430%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
-          "result": "no_exact_model_result",
-          "resultCount": 0,
-          "candidateUrls": [],
-          "candidates": [],
-          "inspectedAt": "2026-07-11T00:00:00+08:00"
-        }
-      ],
-      "evidence": [],
-      "rejectedCandidates": []
-    },
-    {
-      "id": "bidet-hcg-af890",
-      "category": "bidet",
-      "brand": "HCG",
-      "model": "AF890AW",
-      "name": "免治沖洗馬桶座",
-      "identity": {
-        "canonicalModel": "AF890AW",
-        "lookupLabel": "HCG AF890AW",
-        "aliases": [
-          "HCG AF890AW"
-        ],
-        "evidenceUrl": "https://24h.pchome.com.tw/prod/DMAL6W-A900IYWWR"
-      },
-      "workflowStatus": "completed",
-      "manualReview": {
-        "status": "completed",
-        "decision": "no_common_issue",
-        "reviewedAt": "2026-07-11",
-        "checkedPlatforms": [
-          "Mobile01",
-          "Reddit"
-        ],
-        "queries": [
-          {
-            "platform": "Mobile01",
-            "query": "site:mobile01.com \"HCG AF890AW\" (災情 OR 問題 OR 故障 OR 負評)",
-            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22HCG%20AF890AW%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
-            "targetHost": "mobile01.com"
-          },
-          {
-            "platform": "Reddit",
-            "query": "site:reddit.com \"HCG AF890AW\" (problem OR issue OR defect OR \"negative review\")",
-            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22HCG%20AF890AW%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
-            "targetHost": "reddit.com"
-          }
-        ],
-        "candidateDisposition": "AF890AW：重新執行 Mobile01、Reddit exact-model 查詢，搜尋結果沒有 exact-model 原頁候選；此結果不代表完全沒有負評。",
-        "representativeSources": [],
-        "candidateReviews": [],
-        "reviewerNote": "AF890AW 已於 2026-07-11 實際請求兩個 Bing RSS exact-model 跨站查詢；兩站均無 exact-model 原頁候選，維持 no_common_issue，未以搜尋摘要當作負評證據。",
-        "attestation": "manual_cross_site_search_reviewed_no_candidate"
-      },
-      "issueResearch": {
-        "status": "no_common_issue",
-        "checkedAt": "2026-07-11",
-        "summary": "截至查核日，查無達門檻的集中負評／災情",
-        "issues": [],
-        "checkedSources": [
-          {
-            "platform": "Mobile01",
-            "query": "site:mobile01.com \"HCG AF890AW\" (災情 OR 問題 OR 故障 OR 負評)",
-            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22HCG%20AF890AW%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
-            "targetHost": "mobile01.com"
-          },
-          {
-            "platform": "Reddit",
-            "query": "site:reddit.com \"HCG AF890AW\" (problem OR issue OR defect OR \"negative review\")",
-            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22HCG%20AF890AW%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
-            "targetHost": "reddit.com"
-          }
-        ]
-      },
-      "searchChecks": [
-        {
-          "platform": "Mobile01",
-          "query": "site:mobile01.com \"HCG AF890AW\" (災情 OR 問題 OR 故障 OR 負評)",
-          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22HCG%20AF890AW%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
-          "result": "no_exact_model_result",
-          "resultCount": 0,
-          "candidateUrls": [],
-          "candidates": [],
-          "inspectedAt": "2026-07-11T00:00:00+08:00"
-        },
-        {
-          "platform": "Reddit",
-          "query": "site:reddit.com \"HCG AF890AW\" (problem OR issue OR defect OR \"negative review\")",
-          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22HCG%20AF890AW%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
           "result": "no_exact_model_result",
           "resultCount": 0,
           "candidateUrls": [],

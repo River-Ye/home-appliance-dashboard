@@ -267,9 +267,9 @@
     "image": "https://cs-a.ecimg.tw/items/DEAWMWA900JCBKJ/000001_1760418137.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 1690,
-      "converted": 1690,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 2690,
+      "converted": 2690,
+      "confidence": "PChome 2026-07-16 API 公開價"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -1267,9 +1267,9 @@
     "name": "低身湯鍋 2.5L",
     "price": {
       "currency": "TWD",
-      "amount": 1869,
-      "converted": 1869,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 2288,
+      "converted": 2288,
+      "confidence": "PChome 2026-07-16 API 公開價"
     },
     "image": "https://cs-a.ecimg.tw/items/DEAWMJA900J9BIR/000001_1758078020.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DEAWMJ-A900J9BIR",

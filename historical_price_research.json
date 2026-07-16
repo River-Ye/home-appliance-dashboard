@@ -1,34 +1,36 @@
 {
   "summary": {
-    "checkedAt": "2026-07-16T06:16:17.000Z",
-    "sourcePolicy": "2026-07-16 晚間以 662 筆清單全量查核 PChome 商品 API、Yahoo、momo、Costco、品牌／可信通路頁、662 張商品圖片與 438 筆 found 史低來源；更新 62 筆現價與 1 筆史低，逐型號搜尋新品與原廠停產線索，排除缺貨、相近型號、錯誤 metadata、會員價與短暫反爬訊號。",
+    "checkedAt": "2026-07-16T10:12:00.000Z",
+    "sourcePolicy": "2026-07-16 夜間以 662 筆清單全量查核 PChome 商品 API、Yahoo、momo、Costco、品牌／可信通路頁、662 張商品圖片與 438 筆 found 史低來源；更新 3 筆現價，移除原廠明示停產的 HCG AF890AW，新增有原廠現貨、上市、型號與負評覆核證據的 Dreame HHR32F，並排除缺貨、相近型號、會員價與短暫反爬訊號。",
     "total": 662,
     "researchedThisRun": 662,
     "found": 438,
     "missing": 224,
     "byConfidence": {
       "not_found": 224,
-      "high": 312,
-      "medium": 126
+      "high": 313,
+      "medium": 125
     },
     "exchange": {
       "USD_TWD": 32.190284,
       "currentUSD_TWD": 32.190284
     },
-    "lastMaintenanceCheckAt": "2026-07-16T06:16:17.000Z",
-    "currentPriceChanged": 62,
+    "lastMaintenanceCheckAt": "2026-07-16T10:12:00.000Z",
+    "currentPriceChanged": 3,
     "currentBuyLinkChanged": 0,
-    "currentPriceDrops": 5,
-    "currentPriceRises": 57,
+    "currentPriceDrops": 0,
+    "currentPriceRises": 3,
     "currentPriceFallbacks": 0,
-    "historicalLowUpdated": 1,
+    "historicalLowUpdated": 0,
     "historicalLowInvalidated": 0,
     "catalogEntriesReplaced": 0,
     "catalogReplacementNotes": [],
     "currentImageChanged": 0,
-    "discontinuedRemoved": 0,
-    "newProductsAdded": 0,
-    "discontinuedRemovalNotes": []
+    "discontinuedRemoved": 1,
+    "newProductsAdded": 1,
+    "discontinuedRemovalNotes": [
+      "HCG AF890AW：HCG 官方 AF890(H) 商品頁明示已停產；移除後免治馬桶仍有 20 筆。https://www.hcg.com.tw/tw/product/detail/AF890%28H%29"
+    ]
   },
   "results": [
     {
@@ -1638,7 +1640,7 @@
       "brand": "Sony",
       "model": "HT-S40R",
       "name": "5.1 聲道 Soundbar 家庭劇院組",
-      "currentPrice": 8193,
+      "currentPrice": 8490,
       "currentCurrency": "TWD",
       "currentBuyUrl": "https://tw.buy.yahoo.com/gdsale/SONY-%E7%B4%A2%E5%B0%BC-5-1-%E8%81%B2%E9%81%93-SOUNDBAR-%E5%AE%B6%E5%BA%AD%E5%8A%87%E9%99%A2%E7%B5%84-HT-S40R-10067449.html",
       "currentBuyLabel": "Yahoo購物中心",
@@ -9257,6 +9259,36 @@
       ]
     },
     {
+      "id": "vacuum-dreame-aero-ultra-steam",
+      "category": "vacuum",
+      "brand": "Dreame",
+      "model": "HHR32F",
+      "name": "Aero Ultra Steam 蒸氣濕乾洗地機",
+      "currentPrice": 21889,
+      "currentCurrency": "USD",
+      "currentBuyUrl": "https://vacuummop.dreametech.com/products/aero-ultra-steam-wet-dry-vacuum",
+      "currentBuyLabel": "Dreame Vacuum Mop US",
+      "historicalLow": {
+        "status": "found",
+        "amount": 679.99,
+        "currency": "USD",
+        "converted": 21889,
+        "sourceUrl": "https://vacuummop.dreametech.com/products/aero-ultra-steam-wet-dry-vacuum",
+        "sourceTitle": "Dreame Aero Ultra Steam Wet Dry Vacuum – Dreame Vacuum Mop",
+        "evidenceSnippet": "Dreame 原廠美國商品頁於 2026-07-16 公開顯示特價 US$679.99、原價 US$799.99，且可 Add to Cart / Buy It Now。",
+        "sourceKind": "official_sale",
+        "confidence": "high",
+        "checkedAt": "2026-07-16",
+        "note": "新上市商品目前可公開驗證的最低售價；未套用會員碼、信用卡、點數或個人化折扣，且未含國際運費、進口稅、插頭／供電與台灣保固風險。"
+      },
+      "checkedSources": [
+        "https://vacuummop.dreametech.com/products/aero-ultra-steam-wet-dry-vacuum",
+        "https://www.dreametech.com/blogs/news/more-than-20-smart-home-products-launch-at-dreame-next",
+        "https://global.dreametech.com/pages/aero-ultra-steam-user-manual"
+      ],
+      "rejectedCandidates": []
+    },
+    {
       "id": "washer-lg-wt-vdn12hm",
       "category": "washer",
       "brand": "LG",
@@ -13484,7 +13516,7 @@
       "brand": "WMF",
       "model": "Durado 24cm",
       "name": "WMF Durado 24cm",
-      "currentPrice": 1690,
+      "currentPrice": 2690,
       "currentCurrency": "TWD",
       "currentBuyUrl": "https://24h.pchome.com.tw/prod/DEAWMW-A900JCBKJ",
       "currentBuyLabel": "PChome",
@@ -13946,7 +13978,7 @@
       "brand": "WMF",
       "model": "Belmonte 20cm",
       "name": "低身湯鍋 2.5L",
-      "currentPrice": 1869,
+      "currentPrice": 2288,
       "currentCurrency": "TWD",
       "currentBuyUrl": "https://24h.pchome.com.tw/prod/DEAWMJ-A900J9BIR",
       "currentBuyLabel": "PChome",
@@ -19401,47 +19433,6 @@
         "[2026-07-11] 露天拍賣 - 【麗室衛浴】專業進口衛浴設備，歡迎洽詢 (255個評價)：LBJ candidate is not a trusted PChome/Yahoo/momo/Costco/official source；【 麗室衛浴】美國衛浴領導品牌 KOHLER C3-430 電腦馬桶蓋/免治馬桶座 贈品4段式手持花灑 https://www.lbj.tw/BJ/rd.ashx?ck=DchBAgQxBATAL5GOwZEO%2F3%2FSbh2rVO42W8di525dfzH1GI7WzmXF8U6bgGnCOc3jIt8%2FVPI1ykcC1IJ8CHdmF3haN%2BcY7jWpqDQnHT8%3D",
         "[2026-07-11] Yahoo拍賣 - 【衛浴醫院】拯救浴室的醫生 (578個評價)：LBJ candidate is not a trusted PChome/Yahoo/momo/Costco/official source；【 衛浴醫院】美國衛浴領導品牌 KOHLER C3-430 電腦馬桶蓋/免治馬桶座 贈品4段式手持花灑 高雄市 https://www.lbj.tw/BJ/rd.ashx?ck=BcHJAQAwBATAloiN44nQf0mZSSZsdfFc38HyRLEq9ZtuPFYAZ61ajqY8Sstgpp2iDUB64ZOqBfM7HebuZ5zogo2kPg%3D%3D",
         "[2026-07-11] Yahoo購物中心：fetch failed；【 麗室衛浴】美國KOHLER C3-430 電腦馬桶蓋 K-22445TW-0 https://www.lbj.tw/BJ/rd.ashx?ck=Dcu5AcAwCASwlcAGDkrz7T9Sol6PSTYredR3ZE%2FsgdN6GfghFBK0VguD4gVhNjTkpupMNr2ROH4zw15fXWAUttwdglP0T7BSe5tSCpWc5p1MvxXFHw%3D%3D"
-      ]
-    },
-    {
-      "id": "bidet-hcg-af890",
-      "category": "bidet",
-      "brand": "HCG",
-      "model": "AF890AW",
-      "name": "免治沖洗馬桶座",
-      "currentPrice": 8537,
-      "currentCurrency": "TWD",
-      "currentBuyUrl": "https://24h.pchome.com.tw/prod/DMAL6W-A900IYWWR",
-      "currentBuyLabel": "PChome",
-      "historicalLow": {
-        "status": "found",
-        "amount": 8537,
-        "currency": "TWD",
-        "converted": 8537,
-        "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1254326497&cgp=8537",
-        "sourceTitle": "LBJ 比價撿便宜 歷史價格：HCG 和成 免治沖洗馬桶座44/47CM(AF890AW/AF890SAW不含安裝)",
-        "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「PCHome購物 / HCG 和成 免治沖洗馬桶座44/47CM(AF890AW/AF890SAW不含安裝)」最低價為 NT$8,537，最低點日期 2026-07-09。",
-        "sourceKind": "price_history",
-        "confidence": "medium",
-        "checkedAt": "2026-07-09",
-        "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
-      },
-      "checkedSources": [
-        "https://www.lbj.tw/BJ/Query.aspx?k=DMAL6W-A900IYWWR",
-        "https://www.lbj.tw/BJ/Query.aspx?k=HCG%20AF890AW",
-        "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1254326497&cgp=8537",
-        "https://www.findprice.com.tw/g/HCG%20AF890AW",
-        "https://24h.pchome.com.tw/prod/DMAL6W-A900IYWWR",
-        "https://biggo.com.tw/api/v1/spa/search/HCG%20AF890AW/product?p=1",
-        "https://www.lbj.tw/BJ/rd.ashx?ck=BcHHAQAgCASwlejoEzjZfySTYrLtaX5%2B9tkiO7REPcvIgq8Th9w5UuuQth0AdhnaHmGRPXmosA%2BO5pHFzBMt1YTrBw%3D%3D"
-      ],
-      "rejectedCandidates": [
-        "BigGo DMAL6W-A900IYWWR: 查詢失敗 429 https://biggo.com.tw/api/v1/spa/search/DMAL6W-A900IYWWR/product?p=1",
-        "BigGo HCG AF890AW: 查詢失敗 429 https://biggo.com.tw/api/v1/spa/search/HCG%20AF890AW/product?p=1",
-        "[2026-07-11] PCHome購物：HTTP 429；HCG 和成 免治沖洗馬桶座44/47CM(AF890AW/AF890SAW不含安裝) https://www.lbj.tw/BJ/rd.ashx?ck=BcHHAQAgCASwlejoEzjZfySTYrLtaX5%2B9tkiO7REPcvIgq8Th9w5UuuQth0AdhnaHmGRPXmosA%2BO5pHFzBMt1YTrBw%3D%3D",
-        "[2026-07-11] 整合品質閘門：查核結果明確保留原值 fallback",
-        "[2026-07-11] 現價查核例外：BigGo: HTTP 429",
-        "[2026-07-11] 現價查核例外：No in-stock exact-model authoritative offer was verified; preserved the existing catalog offer."
       ]
     },
     {

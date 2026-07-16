@@ -11960,6 +11960,57 @@
       }
     },
     {
+      "id": "vacuum-dreame-aero-ultra-steam",
+      "category": "vacuum",
+      "brand": "Dreame",
+      "model": "HHR32F",
+      "reviewedAt": "2026-07-16",
+      "reviewBatch": "vacuum",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "Mobile01",
+        "Reddit"
+      ],
+      "queries": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Dreame HHR32F\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Dreame%20HHR32F%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Dreame HHR32F\" (problem OR issue OR defect OR \"negative review\")",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Dreame%20HHR32F%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
+          "targetHost": "reddit.com"
+        }
+      ],
+      "candidateDisposition": "HHR32F：已實際執行 Mobile01、Reddit 兩個獨立網站的 canonical exact-model 查詢；搜尋回傳沒有通過 target host 與完整 HHR32F 型號邊界的原頁候選，此結果不代表完全沒有負評。",
+      "representativeSources": [],
+      "reviewerNote": "2026-07-16 以 Bing RSS 完成兩站 HHR32F 查詢；兩個查詢均 HTTP 200，回傳項目皆為無關網站或未含完整型號，未用搜尋摘要合成負評證據。",
+      "attestation": "manual_cross_site_search_reviewed_no_candidate",
+      "candidateReviews": [],
+      "recheckNotes": {
+        "searchErrors": [],
+        "nonExactCandidates": [],
+        "pendingOriginalPages": [],
+        "actualQueriesRun": 2,
+        "originalPagesOpenedDirectly": 0,
+        "searchProvider": "Bing RSS",
+        "queryHttpStatuses": [
+          {
+            "platform": "Mobile01",
+            "status": 200
+          },
+          {
+            "platform": "Reddit",
+            "status": 200
+          }
+        ],
+        "successfulQueries": 2
+      }
+    },
+    {
       "id": "washer-lg-wt-vdn12hm",
       "category": "washer",
       "brand": "LG",
@@ -24858,69 +24909,6 @@
             "httpStatus": 200,
             "finalUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22KOHLER%20C3-430%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
             "responseTitle": "Bing: site:reddit.com \"KOHLER C3-430\" (problem OR issue OR defect OR \"negative review\")",
-            "exactModelCandidates": 0,
-            "blocked": false,
-            "error": null
-          }
-        ],
-        "originalPageChecks": [],
-        "allQueryRequestsSucceeded": true,
-        "allCandidateOriginalPagesSucceeded": true,
-        "note": "跨兩個獨立 target website 的 exact-model 查詢沒有留下需逐頁判讀的候選。"
-      }
-    },
-    {
-      "id": "bidet-hcg-af890",
-      "category": "bidet",
-      "brand": "HCG",
-      "model": "AF890AW",
-      "reviewedAt": "2026-07-11",
-      "reviewBatch": "bidet",
-      "decision": "no_common_issue",
-      "checkedPlatforms": [
-        "Mobile01",
-        "Reddit"
-      ],
-      "queries": [
-        {
-          "platform": "Mobile01",
-          "query": "site:mobile01.com \"HCG AF890AW\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22HCG%20AF890AW%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
-          "targetHost": "mobile01.com"
-        },
-        {
-          "platform": "Reddit",
-          "query": "site:reddit.com \"HCG AF890AW\" (problem OR issue OR defect OR \"negative review\")",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22HCG%20AF890AW%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
-          "targetHost": "reddit.com"
-        }
-      ],
-      "candidateDisposition": "AF890AW：重新執行 Mobile01、Reddit exact-model 查詢，搜尋結果沒有 exact-model 原頁候選；此結果不代表完全沒有負評。",
-      "representativeSources": [],
-      "reviewerNote": "AF890AW 已於 2026-07-11 實際請求兩個 Bing RSS exact-model 跨站查詢；兩站均無 exact-model 原頁候選，維持 no_common_issue，未以搜尋摘要當作負評證據。",
-      "attestation": "manual_cross_site_search_reviewed_no_candidate",
-      "candidateReviews": [],
-      "recheck": {
-        "checkedAt": "2026-07-11",
-        "queryChecks": [
-          {
-            "platform": "Mobile01",
-            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22HCG%20AF890AW%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
-            "targetHost": "mobile01.com",
-            "httpStatus": 200,
-            "finalUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22HCG%20AF890AW%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
-            "responseTitle": "Bing: site:mobile01.com \"HCG AF890AW\" (災情 OR 問題 OR 故障 OR 負評)",
-            "exactModelCandidates": 0,
-            "blocked": false,
-            "error": null
-          },
-          {
-            "platform": "Reddit",
-            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22HCG%20AF890AW%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
-            "targetHost": "reddit.com",
-            "httpStatus": 200,
-            "finalUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22HCG%20AF890AW%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
-            "responseTitle": "Bing: site:reddit.com \"HCG AF890AW\" (problem OR issue OR defect OR \"negative review\")",
             "exactModelCandidates": 0,
             "blocked": false,
             "error": null

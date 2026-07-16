@@ -901,8 +901,8 @@
     "name": "5.1 聲道 Soundbar 家庭劇院組",
     "price": {
       "currency": "TWD",
-      "amount": 8193,
-      "converted": 8193,
+      "amount": 8490,
+      "converted": 8490,
       "confidence": "Yahoo購物中心 2026-07-16 商品頁公開價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBM1DA900GHTFE/000001_1776774078.jpg",
