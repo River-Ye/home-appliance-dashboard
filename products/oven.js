@@ -563,9 +563,9 @@
     "name": "30L 蒸氣烘烤微波爐",
     "price": {
       "currency": "TWD",
-      "amount": 26900,
-      "converted": 26900,
-      "confidence": "Yahoo購物中心 2026-07-16 UTC 商品頁公開價"
+      "amount": 32900,
+      "converted": 32900,
+      "confidence": "Yahoo購物中心 2026-07-17 商品頁公開價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBJ7P1900HCI3E/000001_1782972848.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/Panasonic-%E5%9C%8B%E9%9A%9B%E7%89%8C-30L%E5%B9%B3%E5%8F%B0%E5%BC%8F%E8%AE%8A%E9%A0%BB%E8%92%B8%E7%83%98%E7%83%A4%E5%BE%AE%E9%9B%BB%E8%85%A6%E5%BE%AE%E6%B3%A2%E7%88%90-NN-BS1700-9469543.html",
@@ -576,7 +576,7 @@
       "微波",
       "高階水波爐"
     ],
-    "description": "Panasonic NN-BS1700 是多功能氣炸烤箱/微波爐類的補充比較型號，依 2026-07-09 通路頁面整理售價、圖片與核心規格。",
+    "description": "Panasonic NN-BS1700 是多功能氣炸烤箱/微波爐類的補充比較型號，依 2026-07-17 通路頁面整理售價、圖片與核心規格。",
     "pros": [
       "一機多用節省檯面",
       "高階款蒸烤與微波整合度高"
@@ -719,9 +719,9 @@
     "name": "20L 多功能蒸氣氣炸烤箱",
     "price": {
       "currency": "TWD",
-      "amount": 10260,
-      "converted": 10260,
-      "confidence": "PChome 2026-07-16 UTC API 公開價"
+      "amount": 10800,
+      "converted": 10800,
+      "confidence": "PChome 2026-07-17 API 公開價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBM0GA900HF91A/000001_1768545220.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBM0G-A900HF91A",
@@ -732,7 +732,7 @@
       "氣炸",
       "烘焙"
     ],
-    "description": "Cuisinart CSO-500TW 是多功能氣炸烤箱/微波爐類的補充比較型號，依 2026-07-11 通路頁面整理售價、圖片與核心規格。",
+    "description": "Cuisinart CSO-500TW 是多功能氣炸烤箱/微波爐類的補充比較型號，依 2026-07-17 通路頁面整理售價、圖片與核心規格。",
     "pros": [
       "一機多用節省檯面",
       "高階款蒸烤與微波整合度高"
@@ -1499,9 +1499,9 @@
     "name": "蒸烘烤變頻微波爐",
     "price": {
       "currency": "TWD",
-      "amount": 41724,
-      "converted": 41724,
-      "confidence": "PChome 2026-07-16 UTC API 公開價"
+      "amount": 43920,
+      "converted": 43920,
+      "confidence": "PChome 2026-07-17 API 公開價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBM0GA900H5125/000001_1783054719.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBM0G-A900H5125",

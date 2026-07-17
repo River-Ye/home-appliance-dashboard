@@ -270,9 +270,9 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/4455399AAF-SP-22083802.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 13775,
-      "converted": 13775,
-      "confidence": "Yahoo購物中心 2026-07-16 UTC 商品頁公開價"
+      "amount": 14500,
+      "converted": 14500,
+      "confidence": "Yahoo購物中心 2026-07-17 商品頁公開價"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心",
@@ -780,13 +780,13 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/246e037063-Gd-11647216.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 12999,
-      "converted": 12999,
-      "confidence": "momo購物 2026-07-11 頁面查核價"
+      "amount": 11900,
+      "converted": 11900,
+      "confidence": "Yahoo購物中心 2026-07-17 商品頁公開價"
     },
     "channel": "tw",
-    "buyLabel": "momo購物",
-    "buyUrl": "https://www.momoshop.com.tw/TP/TP0005657/goodsDetail/TP00056570000486",
+    "buyLabel": "Yahoo購物中心",
+    "buyUrl": "https://tw.buy.yahoo.com/gdsale/SAMSUNG%E4%B8%89%E6%98%9F-237%E5%85%AC%E5%8D%87-1%E7%B4%9A%E8%AE%8A%E9%A0%BB%E9%9B%99%E9%96%80%E9%9B%BB%E5%86%B0%E7%AE%B1-RT22M4015S8-TW-11647216.html",
     "specs": [
       "冰箱：SAMSUNG三星 237公升 1級變頻雙門電冰箱 RT22M4015S8/TW",
       "容量：237L",
@@ -823,16 +823,16 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 12900,
+      "amount": 11900,
       "currency": "TWD",
-      "converted": 12900,
-      "sourceUrl": "https://tw.buy.yahoo.com/gdsale/SAMSUNG三星-237公升-1級變頻雙門電冰箱-RT22M4015S8-TW-11647216.html",
-      "sourceTitle": "Yahoo購物中心 JSON-LD：SAMSUNG三星 237公升 1級變頻雙門電冰箱 RT22M4015S8/TW | 變頻300L以下 | Yahoo購物中心",
-      "evidenceSnippet": "Yahoo購物中心 JSON-LD 於 2026-07-10 回傳同一商品頁「SAMSUNG三星 237公升 1級變頻雙門電冰箱 RT22M4015S8/TW | 變頻300L以下 | Yahoo購物中心」查核價 NT$12,900，低於原先記錄史低。",
+      "converted": 11900,
+      "sourceUrl": "https://tw.buy.yahoo.com/gdsale/SAMSUNG%E4%B8%89%E6%98%9F-237%E5%85%AC%E5%8D%87-1%E7%B4%9A%E8%AE%8A%E9%A0%BB%E9%9B%99%E9%96%80%E9%9B%BB%E5%86%B0%E7%AE%B1-RT22M4015S8-TW-11647216.html",
+      "sourceTitle": "Yahoo購物中心：Samsung RT22M4015S8/TW 237 公升一級變頻雙門電冰箱",
+      "evidenceSnippet": "Yahoo購物中心自營商品頁於 2026-07-17 顯示 exact model RT22M4015S8/TW 公開價 NT$11,900，並提供立即購買與加入購物車。",
       "sourceKind": "retailer_page",
       "confidence": "medium",
-      "checkedAt": "2026-07-10",
-      "note": "採用可信通路同一商品頁可公開查核現價作為本次觀測到的最低價；同型號/規格並排除會員個人化折扣、信用卡回饋、點數、二手、福利品、展示機、箱損、拆封與整新品。"
+      "checkedAt": "2026-07-17",
+      "note": "採用可信通路同型號、同容量與同規格的新品公開價；排除會員個人化折扣、信用卡回饋、點數、二手、福利品、展示機、箱損品、拆封品與整新品。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -1035,9 +1035,9 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/58E65612D5-SP-11664526.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 11726,
-      "converted": 11726,
-      "confidence": "Yahoo購物中心 2026-07-16 UTC 商品頁公開價"
+      "amount": 11900,
+      "converted": 11900,
+      "confidence": "Yahoo購物中心 2026-07-17 商品頁公開價"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心",
@@ -1205,9 +1205,9 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/F86F570399-SP-11773532.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 9399,
-      "converted": 9399,
-      "confidence": "Yahoo購物中心 2026-07-16 UTC 商品頁公開價"
+      "amount": 9499,
+      "converted": 9499,
+      "confidence": "Yahoo購物中心 2026-07-17 商品頁公開價"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心",

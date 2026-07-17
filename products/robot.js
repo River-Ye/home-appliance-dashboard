@@ -2665,9 +2665,9 @@
     "name": "Xiaomi 掃拖機器人 H50 Pro",
     "price": {
       "currency": "TWD",
-      "amount": 10450,
-      "converted": 10450,
-      "confidence": "Yahoo購物中心 2026-07-16 UTC 商品頁公開價"
+      "amount": 10999,
+      "converted": 10999,
+      "confidence": "Yahoo購物中心 2026-07-17 商品頁公開價"
     },
     "image": "https://img.yec.tw/zp/MerchandiseImages/DBA14833A1-SP-22450109.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/%E5%B0%8F%E7%B1%B3-Xiaomi-%E6%8E%83%E6%8B%96%E6%A9%9F%E5%99%A8%E4%BA%BA-H50-Pro-12052496.html",

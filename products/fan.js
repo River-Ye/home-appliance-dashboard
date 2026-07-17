@@ -485,20 +485,20 @@
     "name": "14 吋 DC 微電腦定時電風扇",
     "price": {
       "currency": "TWD",
-      "amount": 2995,
-      "converted": 2995,
-      "confidence": "momo購物 2026-07-11 頁面查核價"
+      "amount": 2990,
+      "converted": 2990,
+      "confidence": "PChome 2026-07-17 API 公開價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMABLMA900EOQ12/000001_1695005225.jpg",
-    "buyUrl": "https://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=15207072",
-    "buyLabel": "momo購物",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DMABLM-A900EOQ12",
+    "buyLabel": "PChome",
     "specs": [
       "14 吋",
       "DC 馬達",
       "負離子",
       "ECO 溫控"
     ],
-    "description": "Panasonic F-H14GND-K 是電風扇類的補充比較型號，依 2026-07-11 通路頁面整理售價、圖片與核心規格。",
+    "description": "Panasonic F-H14GND-K 是電風扇類的補充比較型號，依 2026-07-17 通路頁面整理售價、圖片與核心規格。",
     "pros": [
       "DC 機種普遍省電",
       "台灣夏季替代冷氣循環很實用"
@@ -520,16 +520,16 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 2995,
+      "amount": 2990,
       "currency": "TWD",
-      "converted": 2995,
-      "sourceUrl": "https://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=15207072",
-      "sourceTitle": "momo購物 商品頁：【Panasonic 國際牌】14吋負離子DC直流遙控立扇-晶鑽棕(F-H14GND-K)",
-      "evidenceSnippet": "momo購物 原始商品頁／API 於 2026-07-11 顯示同型號新品公開價 2995 TWD，低於既有可驗證史低。",
+      "converted": 2990,
+      "sourceUrl": "https://24h.pchome.com.tw/prod/DMABLM-A900EOQ12",
+      "sourceTitle": "PChome 24h：Panasonic F-H14GND-K 14 吋 DC 微電腦定時電風扇",
+      "evidenceSnippet": "PChome 商品頁與商品 API 於 2026-07-17 顯示同型號新品公開價 NT$2,990、Qty 20，並可加入購物車及立即購買。",
       "sourceKind": "retailer_page",
       "confidence": "high",
-      "checkedAt": "2026-07-11",
-      "note": "採用同型號、同尺寸／容量／規格的可信新品公開價；排除會員個人化折扣、信用卡回饋、點數、二手、福利品、展示、拆封與整新品。"
+      "checkedAt": "2026-07-17",
+      "note": "採用同型號、同尺寸與同規格的可信新品公開價；排除會員個人化折扣、信用卡回饋、點數、二手、福利品、展示機、拆封品與整新品。"
     },
     "issueResearch": {
       "status": "no_common_issue",

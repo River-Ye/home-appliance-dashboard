@@ -15,9 +15,9 @@
     "image": "https://cs-a.ecimg.tw/items/DAANBRA900ASZRJ/000001_1758695631.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 8087,
-      "converted": 8087,
-      "confidence": "PChome 2026-07-16 UTC API 公開價"
+      "amount": 9190,
+      "converted": 9190,
+      "confidence": "PChome 2026-07-17 API 公開價"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -440,9 +440,9 @@
     "image": "https://cs-a.ecimg.tw/items/QFAX6BA9009Y2C3/000001_1760596937.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 17550,
-      "converted": 17550,
-      "confidence": "PChome 2026-07-16 UTC API 公開價"
+      "amount": 19500,
+      "converted": 19500,
+      "confidence": "PChome 2026-07-17 API 公開價"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -607,9 +607,9 @@
     "image": "https://cs-a.ecimg.tw/items/DMAC6RA900IUC3J/000001_1761017834.png",
     "price": {
       "currency": "TWD",
-      "amount": 25200,
-      "converted": 25200,
-      "confidence": "PChome 2026-07-16 UTC API 公開價"
+      "amount": 28000,
+      "converted": 28000,
+      "confidence": "PChome 2026-07-17 API 公開價"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -690,9 +690,9 @@
     "image": "https://cs-a.ecimg.tw/items/DMCI01A900JV0NP/000001_1774843160.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 16020,
-      "converted": 16020,
-      "confidence": "PChome 2026-07-16 UTC API 公開價"
+      "amount": 17800,
+      "converted": 17800,
+      "confidence": "PChome 2026-07-17 API 公開價"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -774,9 +774,9 @@
     "image": "https://cs-a.ecimg.tw/items/QFAX6BA9009Y2E9/000001_1760596811.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 24120,
-      "converted": 24120,
-      "confidence": "PChome 2026-07-16 UTC API 公開價"
+      "amount": 26800,
+      "converted": 26800,
+      "confidence": "PChome 2026-07-17 API 公開價"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -1108,9 +1108,9 @@
     "image": "https://cs-a.ecimg.tw/items/DMBM2HA900GH7MW/000001_1770018742.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 25020,
-      "converted": 25020,
-      "confidence": "PChome 2026-07-16 UTC API 公開價"
+      "amount": 27800,
+      "converted": 27800,
+      "confidence": "PChome 2026-07-17 API 公開價"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -1277,9 +1277,9 @@
     "name": "櫥下型雙溫 UV 觸控飲水機",
     "price": {
       "currency": "TWD",
-      "amount": 30600,
-      "converted": 30600,
-      "confidence": "PChome 2026-07-16 UTC API 公開價"
+      "amount": 34000,
+      "converted": 34000,
+      "confidence": "PChome 2026-07-17 API 公開價"
     },
     "image": "https://cs-a.ecimg.tw/items/DSBE1FA900GSOLN/000001_1698896380.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMCI17-A900I6OFW",
@@ -1433,9 +1433,9 @@
     "name": "廚下 RO 雙溫觸控飲水機",
     "price": {
       "currency": "TWD",
-      "amount": 33129,
-      "converted": 33129,
-      "confidence": "PChome 2026-07-16 UTC API 公開價"
+      "amount": 36810,
+      "converted": 36810,
+      "confidence": "PChome 2026-07-17 API 公開價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMCI0OA900JT66N/000001_1773306819.png",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMCI0O-A900JI1JA",

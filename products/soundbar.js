@@ -17,9 +17,9 @@
     "name": "11.1.4 聲道旗艦 Soundbar",
     "price": {
       "currency": "TWD",
-      "amount": 47405,
-      "converted": 47405,
-      "confidence": "Yahoo購物中心 2026-07-16 UTC 商品頁公開價"
+      "amount": 49900,
+      "converted": 49900,
+      "confidence": "Yahoo購物中心 2026-07-17 商品頁公開價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAAODA900JMDR5/000001_1773978957.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/Samsung-%E4%B8%89%E6%98%9F-11-1-4%E8%81%B2%E9%81%93-%E8%97%8D%E7%89%99%E8%81%B2%E9%9C%B8-HW-Q990F-ZW-11688500.html",
@@ -187,9 +187,9 @@
     "name": "BRAVIA Theatre Bar 6 3.1.2 聲道",
     "price": {
       "currency": "TWD",
-      "amount": 10710,
-      "converted": 10710,
-      "confidence": "PChome 2026-07-16 UTC API 公開價"
+      "amount": 11900,
+      "converted": 11900,
+      "confidence": "PChome 2026-07-17 API 公開價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAAODA900JMC1Q/000001_1781726516.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAAOD-A900JMC1Q",
@@ -265,9 +265,9 @@
     "name": "BRAVIA Theatre Bar 7 5.0.2 聲道 Soundbar",
     "price": {
       "currency": "TWD",
-      "amount": 20610,
-      "converted": 20610,
-      "confidence": "PChome 2026-07-16 UTC API 公開價"
+      "amount": 21755,
+      "converted": 21755,
+      "confidence": "PChome 2026-07-17 API 公開價"
     },
     "image": "https://img.pchome.com.tw/cs/items/DMAAN8A900K0Y8L/000001_1779181877.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAAN8-A900K0Y8L",
@@ -511,9 +511,9 @@
     "name": "Q 系列 9.1.4 聲道 Soundbar 家庭劇院",
     "price": {
       "currency": "TWD",
-      "amount": 44910,
-      "converted": 44910,
-      "confidence": "PChome 2026-07-16 UTC API 公開價"
+      "amount": 49900,
+      "converted": 49900,
+      "confidence": "PChome 2026-07-17 API 公開價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAAODA900K3QSM/000001_1782969828.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAAOD-A900K3QSM",
@@ -524,7 +524,7 @@
       "後環繞喇叭",
       "Q 系列"
     ],
-    "description": "Samsung HW-Q930H/ZW 是Soundbar類的補充比較型號，依 2026-07-09 通路頁面整理售價、圖片與核心規格。",
+    "description": "Samsung HW-Q930H/ZW 是Soundbar類的補充比較型號，依 2026-07-17 通路頁面整理售價、圖片與核心規格。",
     "pros": [
       "安裝門檻低",
       "可快速補強電視音場"
@@ -745,9 +745,9 @@
     "name": "Q 系列 11.1.4 聲道 Soundbar 家庭劇院",
     "price": {
       "currency": "TWD",
-      "amount": 56905,
-      "converted": 56905,
-      "confidence": "Yahoo購物中心 2026-07-16 UTC 商品頁公開價"
+      "amount": 59900,
+      "converted": 59900,
+      "confidence": "Yahoo購物中心 2026-07-17 商品頁公開價"
     },
     "image": "https://cs-a.ecimg.tw/items/DPADO2A900K5VUT/000001_1782993730.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/Samsung%E4%B8%89%E6%98%9F-11-1-4%E8%81%B2%E9%81%93-%E8%97%8D%E7%89%99%E8%81%B2%E9%9C%B8-HW-Q990H-ZW-12124621.html",
@@ -758,7 +758,7 @@
       "後環繞",
       "Dolby Atmos"
     ],
-    "description": "Samsung HW-Q990H/ZW 是Soundbar類的補充比較型號，依 2026-07-09 通路頁面整理售價、圖片與核心規格。",
+    "description": "Samsung HW-Q990H/ZW 是Soundbar類的補充比較型號，依 2026-07-17 通路頁面整理售價、圖片與核心規格。",
     "pros": [
       "安裝門檻低",
       "可快速補強電視音場"
@@ -823,9 +823,9 @@
     "name": "Q 系列 7.1.2 聲道 Soundbar",
     "price": {
       "currency": "TWD",
-      "amount": 35055,
-      "converted": 35055,
-      "confidence": "Yahoo購物中心 2026-07-16 UTC 商品頁公開價"
+      "amount": 36900,
+      "converted": 36900,
+      "confidence": "Yahoo購物中心 2026-07-17 商品頁公開價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAAODA900K5489/000001_1782988490.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/Samsung%E4%B8%89%E6%98%9F-7-1-2%E8%81%B2%E9%81%93-%E8%97%8D%E7%89%99%E8%81%B2%E9%9C%B8-HW-QS90H-ZW-12124562.html",
@@ -836,7 +836,7 @@
       "Dolby Atmos",
       "重低音"
     ],
-    "description": "Samsung HW-QS90H/ZW 是Soundbar類的補充比較型號，依 2026-07-09 通路頁面整理售價、圖片與核心規格。",
+    "description": "Samsung HW-QS90H/ZW 是Soundbar類的補充比較型號，依 2026-07-17 通路頁面整理售價、圖片與核心規格。",
     "pros": [
       "安裝門檻低",
       "可快速補強電視音場"
@@ -901,9 +901,9 @@
     "name": "5.1 聲道 Soundbar 家庭劇院組",
     "price": {
       "currency": "TWD",
-      "amount": 8236,
-      "converted": 8236,
-      "confidence": "Yahoo購物中心 2026-07-16 UTC 商品頁公開價"
+      "amount": 8490,
+      "converted": 8490,
+      "confidence": "Yahoo購物中心 2026-07-17 商品頁公開價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBM1DA900GHTFE/000001_1776774078.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/SONY-%E7%B4%A2%E5%B0%BC-5-1-%E8%81%B2%E9%81%93-SOUNDBAR-%E5%AE%B6%E5%BA%AD%E5%8A%87%E9%99%A2%E7%B5%84-HT-S40R-10067449.html",
@@ -914,7 +914,7 @@
       "重低音",
       "藍牙"
     ],
-    "description": "Sony HT-S40R 是Soundbar類的補充比較型號，依 2026-07-09 通路頁面整理售價、圖片與核心規格。",
+    "description": "Sony HT-S40R 是Soundbar類的補充比較型號，依 2026-07-17 通路頁面整理售價、圖片與核心規格。",
     "pros": [
       "安裝門檻低",
       "可快速補強電視音場"
@@ -979,9 +979,9 @@
     "name": "2.0 聲道單件式藍牙 Soundbar",
     "price": {
       "currency": "TWD",
-      "amount": 7591,
-      "converted": 7591,
-      "confidence": "Yahoo購物中心 2026-07-16 UTC 商品頁公開價"
+      "amount": 7990,
+      "converted": 7990,
+      "confidence": "Yahoo購物中心 2026-07-17 商品頁公開價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAAMTA900I5HHO/000001_1778661010.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/Sony-HT-S100F-11411387.html",
@@ -992,7 +992,7 @@
       "藍牙",
       "小空間"
     ],
-    "description": "Sony HT-S100F 是Soundbar類的補充比較型號，依 2026-07-09 通路頁面整理售價、圖片與核心規格。",
+    "description": "Sony HT-S100F 是Soundbar類的補充比較型號，依 2026-07-17 通路頁面整理售價、圖片與核心規格。",
     "pros": [
       "安裝門檻低",
       "可快速補強電視音場"
@@ -1135,9 +1135,9 @@
     "name": "7.1 聲道家庭劇院喇叭",
     "price": {
       "currency": "TWD",
-      "amount": 27161,
-      "converted": 27161,
-      "confidence": "Yahoo購物中心 2026-07-16 UTC 商品頁公開價"
+      "amount": 28590,
+      "converted": 28590,
+      "confidence": "Yahoo購物中心 2026-07-17 商品頁公開價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAAHGA900J56OK/000001_1755250707.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/JBL-BAR800-MK2-7-1%E8%81%B2%E9%81%93%E5%AE%B6%E5%BA%AD%E5%8A%87%E9%99%A2%E5%96%87%E5%8F%AD-%E8%8B%B1%E5%A4%A7%E5%85%AC%E5%8F%B8%E8%B2%A8%E4%B8%80%E5%B9%B4%E4%BF%9D%E5%9B%BA-12156647.html",
@@ -1148,7 +1148,7 @@
       "重低音",
       "家庭劇院"
     ],
-    "description": "JBL BAR 800 MK2 是Soundbar類的補充比較型號，依 2026-07-11 通路頁面整理售價、圖片與核心規格。",
+    "description": "JBL BAR 800 MK2 是Soundbar類的補充比較型號，依 2026-07-17 通路頁面整理售價、圖片與核心規格。",
     "pros": [
       "安裝門檻低",
       "可快速補強電視音場"
@@ -1447,12 +1447,12 @@
     "name": "BRAVIA Theatre Bar 9 旗艦聲霸",
     "price": {
       "currency": "TWD",
-      "amount": 38855,
-      "converted": 38855,
-      "confidence": "PChome 2026-07-13 API 查核價"
+      "amount": 34765,
+      "converted": 34765,
+      "confidence": "PChome 2026-07-17 API 公開價"
     },
-    "image": "https://cs-a.ecimg.tw/items/DMBM1DA900IUZUJ/000001_1783698580.jpg",
-    "buyUrl": "https://24h.pchome.com.tw/prod/DMBM1D-A900IUZUJ",
+    "image": "https://cs-a.ecimg.tw/items/DMBM1DA900I0ZKD/000001_1783764143.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DMBM1D-A900I0ZKD",
     "buyLabel": "PChome",
     "specs": [
       "13 單體",
@@ -2015,9 +2015,9 @@
     "name": "2.0 聲道二合一分離式聲霸",
     "price": {
       "currency": "TWD",
-      "amount": 602,
-      "converted": 602,
-      "confidence": "Yahoo購物中心 2026-07-16 UTC 商品頁公開價"
+      "amount": 633,
+      "converted": 633,
+      "confidence": "Yahoo購物中心 2026-07-17 商品頁公開價"
     },
     "image": "https://www.costco.com.tw/medias/sys_master/images/h21/hac/367883491278878.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/Soodatek-2-0%E8%81%B2%E9%81%93%E4%BA%8C%E5%90%88%E4%B8%80Soundbar-SS0220-CS2000PBK-11633433.html",

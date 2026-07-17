@@ -1671,9 +1671,9 @@
     "name": "BE11000 Mesh Wi-Fi 7 電競路由器",
     "price": {
       "currency": "TWD",
-      "amount": 5290,
-      "converted": 5290,
-      "confidence": "PChome 2026-07-16 API 公開價"
+      "amount": 5490,
+      "converted": 5490,
+      "confidence": "PChome 2026-07-17 API 公開價"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAF02A900I473A/000001_1732699929.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DRAF02-A900I473A",
@@ -2735,9 +2735,9 @@
     "name": "BE9300 三頻 Wi-Fi 7 旗艦路由器",
     "price": {
       "currency": "TWD",
-      "amount": 8300,
-      "converted": 8300,
-      "confidence": "PChome 2026-07-16 API 公開價"
+      "amount": 8700,
+      "converted": 8700,
+      "confidence": "PChome 2026-07-17 API 公開價"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAFJAA900IFBVA/000001_1780997121.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DRAFJA-A900IFBVA",
@@ -2833,9 +2833,9 @@
     "name": "AX6000 Wi-Fi 6 雲端安全路由器",
     "price": {
       "currency": "TWD",
-      "amount": 6280,
-      "converted": 6280,
-      "confidence": "PChome 2026-07-16 API 公開價"
+      "amount": 6480,
+      "converted": 6480,
+      "confidence": "PChome 2026-07-17 API 公開價"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAF0IA900HO2DR/000001_1777023675.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DRAF0I-A900HO2DR",
@@ -2912,9 +2912,9 @@
     "name": "Wi-Fi 6E 三頻電競路由器",
     "price": {
       "currency": "TWD",
-      "amount": 7790,
-      "converted": 7790,
-      "confidence": "PChome 2026-07-16 API 公開價"
+      "amount": 7990,
+      "converted": 7990,
+      "confidence": "PChome 2026-07-17 API 公開價"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAFKSA900HEQVN/000001_1713512948.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DRAFKS-A900HEQVN",
@@ -3232,9 +3232,9 @@
     "name": "Wi-Fi 6 雙 10GbE SD-WAN 路由器",
     "price": {
       "currency": "TWD",
-      "amount": 7790,
-      "converted": 7790,
-      "confidence": "PChome 2026-07-16 API 公開價"
+      "amount": 7990,
+      "converted": 7990,
+      "confidence": "PChome 2026-07-17 API 公開價"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAG6JA900AUW3D/000001_1626400932.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DRAG6J-A900AUW3D",
