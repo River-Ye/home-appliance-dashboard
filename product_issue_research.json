@@ -1,9 +1,9 @@
 {
   "summary": {
-    "checkedAt": "2026-07-17T00:00:00+08:00",
-    "total": 664,
+    "checkedAt": "2026-07-18T00:00:00+08:00",
+    "total": 666,
     "commonIssueProducts": 36,
-    "noCommonIssueProducts": 628,
+    "noCommonIssueProducts": 630,
     "pendingManualReview": 0,
     "commonIssues": 36,
     "searchUnavailable": 0,
@@ -14,7 +14,7 @@
     },
     "sourcePolicy": "搜尋引擎只用於發現候選；只有原始論壇、社群或零售評價頁中可辨識的第一人稱同型號回報才計入人數。同帳號、跨站轉貼、按讚、媒體轉述與搜尋摘要不重複計算。",
     "noIssueWording": "截至查核日，查無達門檻的集中負評／災情",
-    "refreshedThisRun": 2,
+    "refreshedThisRun": 3,
     "preservedExistingNegativeEvidence": 49,
     "priorFullRefresh": {
       "checkedAt": "2026-07-11",
@@ -2351,6 +2351,94 @@
           "candidateUrls": [],
           "candidates": [],
           "inspectedAt": "2026-07-11T00:00:00+08:00"
+        }
+      ],
+      "evidence": [],
+      "rejectedCandidates": []
+    },
+    {
+      "id": "tv-samsung-r95h-65",
+      "category": "tv",
+      "brand": "Samsung",
+      "model": "MRA65R95HAXXZW",
+      "name": "65 型 R95H Micro RGB 4K Vision AI 智慧顯示器",
+      "identity": {
+        "canonicalModel": "MRA65R95HAXXZW",
+        "lookupLabel": "Samsung MRA65R95HAXXZW",
+        "aliases": [
+          "Samsung MRA65R95HAXXZW"
+        ],
+        "evidenceUrl": "https://24h.pchome.com.tw/prod/DPADO2-A900K3VO9"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "status": "completed",
+        "decision": "no_common_issue",
+        "reviewedAt": "2026-07-18",
+        "checkedPlatforms": [
+          "Mobile01",
+          "Reddit"
+        ],
+        "queries": [
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"Samsung MRA65R95HAXXZW\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Samsung%20MRA65R95HAXXZW%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "mobile01.com"
+          },
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"Samsung MRA65R95HAXXZW\" (problem OR issue OR defect OR negative review)",
+            "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22Samsung%20MRA65R95HAXXZW%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+            "targetHost": "reddit.com"
+          }
+        ],
+        "candidateDisposition": "MRA65R95HAXXZW：已人工執行 Mobile01 與 Reddit canonical exact-model 查詢，未發現通過完整 MRA65R95HAXXZW 型號邊界的原頁候選；此結果不代表完全沒有負評。",
+        "representativeSources": [],
+        "candidateReviews": [],
+        "reviewerNote": "MRA65R95HAXXZW 已逐站人工覆核 Mobile01 與 Reddit exact-model 查詢，未找到 exact-model 第一人稱問題候選。",
+        "attestation": "manual_cross_site_search_reviewed_no_candidate"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-07-18",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"Samsung MRA65R95HAXXZW\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Samsung%20MRA65R95HAXXZW%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "mobile01.com"
+          },
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"Samsung MRA65R95HAXXZW\" (problem OR issue OR defect OR negative review)",
+            "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22Samsung%20MRA65R95HAXXZW%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+            "targetHost": "reddit.com"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Samsung MRA65R95HAXXZW\" (災情 OR 問題 OR 故障 OR 負評)",
+          "searchUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Samsung%20MRA65R95HAXXZW%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-07-18T00:00:00+08:00"
+        },
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Samsung MRA65R95HAXXZW\" (problem OR issue OR defect OR negative review)",
+          "searchUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22Samsung%20MRA65R95HAXXZW%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-07-18T00:00:00+08:00"
         }
       ],
       "evidence": [],
@@ -5458,152 +5546,6 @@
       ],
       "evidence": [],
       "rejectedCandidates": []
-    },
-    {
-      "id": "fan-heran-hdf16",
-      "category": "fan",
-      "brand": "HERAN",
-      "model": "HDF-16S6",
-      "name": "16 吋 ECO 溫控智能變頻 DC 風扇",
-      "identity": {
-        "canonicalModel": "HDF-16S6",
-        "lookupLabel": "HERAN HDF-16S6",
-        "aliases": [
-          "HERAN HDF-16S6"
-        ],
-        "evidenceUrl": "https://24h.pchome.com.tw/prod/DMABKU-A900F4MB2"
-      },
-      "workflowStatus": "completed",
-      "manualReview": {
-        "status": "completed",
-        "decision": "no_common_issue",
-        "reviewedAt": "2026-07-13",
-        "checkedPlatforms": [
-          "Mobile01",
-          "Reddit",
-          "Pigoo"
-        ],
-        "queries": [
-          {
-            "platform": "Mobile01",
-            "query": "site:mobile01.com \"HDF-16S6\" (災情 OR 問題 OR 故障 OR 負評)",
-            "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com+%22HDF-16S6%22+%28%E7%81%BD%E6%83%85+OR+%E5%95%8F%E9%A1%8C+OR+%E6%95%85%E9%9A%9C+OR+%E8%B2%A0%E8%A9%95%29",
-            "targetHost": "mobile01.com"
-          },
-          {
-            "platform": "Reddit",
-            "query": "site:reddit.com \"HDF-16S6\" (problem OR issue OR defect OR \"negative review\")",
-            "queryUrl": "https://www.google.com/search?q=site%3Areddit.com+%22HDF-16S6%22+%28problem+OR+issue+OR+defect+OR+%22negative+review%22%29",
-            "targetHost": "reddit.com"
-          }
-        ],
-        "candidateDisposition": "HDF-16S6：已重跑 Pigoo、Mobile01、Reddit exact-model 查詢並逐頁開啟 2 個候選；Pigoo 僅 1 位直接案例，Mobile01 負面內容未綁定此型號，未達同一問題 6 位獨立使用者與跨 2 個原始網站門檻。",
-        "representativeSources": [
-          {
-            "platform": "Pigoo",
-            "title": "禾聯HERAN 16吋智能變頻DC風扇 HDF-16S6(S) 不開機 - Pigoo",
-            "url": "https://bbs.pigoo.com/thread-88994-1-1.html"
-          },
-          {
-            "platform": "Mobile01",
-            "title": "DC電風扇選擇請益 - Mobile01（文內含 HDF-16S6）",
-            "url": "https://www.mobile01.com/topicdetail.php?f=731&t=6072736"
-          }
-        ],
-        "candidateReviews": [
-          {
-            "url": "https://bbs.pigoo.com/thread-88994-1-1.html",
-            "title": "禾聯HERAN 16吋智能變頻DC風扇 HDF-16S6(S) 不開機 - Pigoo",
-            "outcome": "excluded",
-            "exactModel": true,
-            "reviewedAt": "2026-07-13",
-            "sourceExcerpt": "absmen3000 檢修 HDF-16S6(S)：按電源只嗶一聲且不啟動，拆檢發現主機板兩個電阻燒毀；作者認為 2022 年出廠機耐用度不佳。",
-            "independentAuthors": 1,
-            "specificReason": "只有 absmen3000 一位 exact-model 原始案例，且僅 Pigoo 單一網站；其他回覆為維修討論或泛品牌經驗，未達六位與兩站門檻。"
-          },
-          {
-            "url": "https://www.mobile01.com/topicdetail.php?f=731&t=6072736",
-            "title": "DC電風扇選擇請益 - Mobile01（文內含 HDF-16S6）",
-            "outcome": "excluded",
-            "exactModel": true,
-            "reviewedAt": "2026-07-13",
-            "sourceExcerpt": "頁面第 9 樓只將 HDF-16S6 列為購買候選；第 7 樓的底座面板失效與風速亂跳僅稱禾聯 DC 扇，沒有提供可綁定的型號。",
-            "independentAuthors": 0,
-            "specificReason": "型號字串出現在選購清單，負面持有經驗未標示 HDF-16S6；無法通過負評的 exact-model 邊界，因此可計數作者為 0。"
-          }
-        ],
-        "reviewerNote": "HDF-16S6 已於 2026-07-13 透過 Chrome 直接開啟 Google 搜尋結果與兩個候選原頁；搜尋頁僅作候選發現，逐頁判讀後維持 no_common_issue。",
-        "attestation": "manual_original_pages_reviewed"
-      },
-      "issueResearch": {
-        "status": "no_common_issue",
-        "checkedAt": "2026-07-13",
-        "summary": "截至查核日，查無達門檻的集中負評／災情",
-        "issues": [],
-        "checkedSources": [
-          {
-            "platform": "Mobile01",
-            "query": "site:mobile01.com \"HDF-16S6\" (災情 OR 問題 OR 故障 OR 負評)",
-            "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com+%22HDF-16S6%22+%28%E7%81%BD%E6%83%85+OR+%E5%95%8F%E9%A1%8C+OR+%E6%95%85%E9%9A%9C+OR+%E8%B2%A0%E8%A9%95%29",
-            "targetHost": "mobile01.com"
-          },
-          {
-            "platform": "Reddit",
-            "query": "site:reddit.com \"HDF-16S6\" (problem OR issue OR defect OR \"negative review\")",
-            "queryUrl": "https://www.google.com/search?q=site%3Areddit.com+%22HDF-16S6%22+%28problem+OR+issue+OR+defect+OR+%22negative+review%22%29",
-            "targetHost": "reddit.com"
-          }
-        ]
-      },
-      "searchChecks": [
-        {
-          "platform": "Chrome exact-model searches",
-          "query": "HDF-16S6 original-page candidates from Pigoo and Mobile01",
-          "searchUrl": "https://www.google.com/search?q=%22HDF-16S6%22+%28%E6%95%85%E9%9A%9C+OR+%E7%81%BD%E6%83%85+OR+%E5%95%8F%E9%A1%8C%29",
-          "result": "candidates_unverified_by_search_only",
-          "resultCount": 2,
-          "candidateUrls": [
-            "https://bbs.pigoo.com/thread-88994-1-1.html",
-            "https://www.mobile01.com/topicdetail.php?f=731&t=6072736"
-          ],
-          "candidates": [
-            {
-              "url": "https://bbs.pigoo.com/thread-88994-1-1.html",
-              "title": "禾聯HERAN 16吋智能變頻DC風扇 HDF-16S6(S) 不開機 - Pigoo"
-            },
-            {
-              "url": "https://www.mobile01.com/topicdetail.php?f=731&t=6072736",
-              "title": "DC電風扇選擇請益 - Mobile01（文內含 HDF-16S6）"
-            }
-          ],
-          "inspectedAt": "2026-07-13T12:36:00+08:00"
-        }
-      ],
-      "evidence": [],
-      "rejectedCandidates": [
-        {
-          "url": "https://bbs.pigoo.com/thread-88994-1-1.html",
-          "title": "禾聯HERAN 16吋智能變頻DC風扇 HDF-16S6(S) 不開機 - Pigoo",
-          "outcome": "excluded",
-          "exactModel": true,
-          "reviewedAt": "2026-07-13",
-          "sourceExcerpt": "absmen3000 檢修 HDF-16S6(S)：按電源只嗶一聲且不啟動，拆檢發現主機板兩個電阻燒毀；作者認為 2022 年出廠機耐用度不佳。",
-          "independentAuthors": 1,
-          "specificReason": "只有 absmen3000 一位 exact-model 原始案例，且僅 Pigoo 單一網站；其他回覆為維修討論或泛品牌經驗，未達六位與兩站門檻。",
-          "reason": "只有 absmen3000 一位 exact-model 原始案例，且僅 Pigoo 單一網站；其他回覆為維修討論或泛品牌經驗，未達六位與兩站門檻。"
-        },
-        {
-          "url": "https://www.mobile01.com/topicdetail.php?f=731&t=6072736",
-          "title": "DC電風扇選擇請益 - Mobile01（文內含 HDF-16S6）",
-          "outcome": "excluded",
-          "exactModel": true,
-          "reviewedAt": "2026-07-13",
-          "sourceExcerpt": "頁面第 9 樓只將 HDF-16S6 列為購買候選；第 7 樓的底座面板失效與風速亂跳僅稱禾聯 DC 扇，沒有提供可綁定的型號。",
-          "independentAuthors": 0,
-          "specificReason": "型號字串出現在選購清單，負面持有經驗未標示 HDF-16S6；無法通過負評的 exact-model 邊界，因此可計數作者為 0。",
-          "reason": "型號字串出現在選購清單，負面持有經驗未標示 HDF-16S6；無法通過負評的 exact-model 邊界，因此可計數作者為 0。"
-        }
-      ]
     },
     {
       "id": "fan-nwt-wpf16",
@@ -27137,6 +27079,94 @@
           "candidateUrls": [],
           "candidates": [],
           "inspectedAt": "2026-07-11T00:00:00+08:00"
+        }
+      ],
+      "evidence": [],
+      "rejectedCandidates": []
+    },
+    {
+      "id": "washerdryer-lg-wd-s1818pb",
+      "category": "washerdryer",
+      "brand": "LG",
+      "model": "WD-S1818PB",
+      "name": "LG WashTower WD-S1818PB",
+      "identity": {
+        "canonicalModel": "WD-S1818PB",
+        "lookupLabel": "LG WD-S1818PB",
+        "aliases": [
+          "LG WD-S1818PB"
+        ],
+        "evidenceUrl": "https://pxbox.es.pxmart.com.tw/product/772533"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "status": "completed",
+        "decision": "no_common_issue",
+        "reviewedAt": "2026-07-18",
+        "checkedPlatforms": [
+          "Mobile01",
+          "Reddit"
+        ],
+        "queries": [
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"LG WD-S1818PB\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22LG%20WD-S1818PB%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "mobile01.com"
+          },
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"LG WD-S1818PB\" (problem OR issue OR defect OR negative review)",
+            "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22LG%20WD-S1818PB%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+            "targetHost": "reddit.com"
+          }
+        ],
+        "candidateDisposition": "WD-S1818PB：已人工執行 Mobile01 與 Reddit canonical exact-model 查詢，未發現通過完整 WD-S1818PB 型號邊界的原頁候選；此結果不代表完全沒有負評。",
+        "representativeSources": [],
+        "candidateReviews": [],
+        "reviewerNote": "WD-S1818PB 已逐站人工覆核 Mobile01 與 Reddit exact-model 查詢，未找到 exact-model 第一人稱問題候選。",
+        "attestation": "manual_cross_site_search_reviewed_no_candidate"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-07-18",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"LG WD-S1818PB\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22LG%20WD-S1818PB%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "mobile01.com"
+          },
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"LG WD-S1818PB\" (problem OR issue OR defect OR negative review)",
+            "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22LG%20WD-S1818PB%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+            "targetHost": "reddit.com"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"LG WD-S1818PB\" (災情 OR 問題 OR 故障 OR 負評)",
+          "searchUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22LG%20WD-S1818PB%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-07-18T00:00:00+08:00"
+        },
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"LG WD-S1818PB\" (problem OR issue OR defect OR negative review)",
+          "searchUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22LG%20WD-S1818PB%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-07-18T00:00:00+08:00"
         }
       ],
       "evidence": [],
@@ -65620,6 +65650,94 @@
           "candidateUrls": [],
           "candidates": [],
           "inspectedAt": "2026-07-11T00:00:00+08:00"
+        }
+      ],
+      "evidence": [],
+      "rejectedCandidates": []
+    },
+    {
+      "id": "monitor-samsung-ls40h850tacxzw",
+      "category": "monitor",
+      "brand": "Samsung",
+      "model": "LS40H850TACXZW",
+      "name": "40 型 ViewFinity S8 S85TH 5K2K 144Hz Thunderbolt 5 曲面螢幕",
+      "identity": {
+        "canonicalModel": "LS40H850TACXZW",
+        "lookupLabel": "Samsung LS40H850TACXZW",
+        "aliases": [
+          "Samsung LS40H850TACXZW"
+        ],
+        "evidenceUrl": "https://24h.pchome.com.tw/prod/DSABW5-A900K0BMC"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "status": "completed",
+        "decision": "no_common_issue",
+        "reviewedAt": "2026-07-18",
+        "checkedPlatforms": [
+          "Mobile01",
+          "Reddit"
+        ],
+        "queries": [
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"Samsung LS40H850TACXZW\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Samsung%20LS40H850TACXZW%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "mobile01.com"
+          },
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"Samsung LS40H850TACXZW\" (problem OR issue OR defect OR \"negative review\")",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Samsung%20LS40H850TACXZW%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
+            "targetHost": "reddit.com"
+          }
+        ],
+        "candidateDisposition": "LS40H850TACXZW：兩筆 exact-model 查詢均沒有通過 targetHost 與 canonical model 邊界的原頁候選；較寬的 S85TH 搜尋只有 Reddit 早期零星討論，未達同一問題 6 位、跨 2 原始網站門檻。",
+        "representativeSources": [],
+        "candidateReviews": [],
+        "reviewerNote": "LS40H850TACXZW 於 2026-07-18 以 Bing RSS 重跑 Mobile01、Reddit exact-model 查詢；另人工開啟較寬 S85TH 原頁，只見一位北美使用者的 TB4/TB5 Mac 握手回報，不得合成台灣 exact-SKU common_issue。",
+        "attestation": "manual_cross_site_search_reviewed_no_candidate"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-07-18",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"Samsung LS40H850TACXZW\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Samsung%20LS40H850TACXZW%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "mobile01.com"
+          },
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"Samsung LS40H850TACXZW\" (problem OR issue OR defect OR \"negative review\")",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Samsung%20LS40H850TACXZW%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
+            "targetHost": "reddit.com"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Samsung LS40H850TACXZW\" (災情 OR 問題 OR 故障 OR 負評)",
+          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Samsung%20LS40H850TACXZW%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-07-18T00:00:00+08:00"
+        },
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Samsung LS40H850TACXZW\" (problem OR issue OR defect OR \"negative review\")",
+          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Samsung%20LS40H850TACXZW%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-07-18T00:00:00+08:00"
         }
       ],
       "evidence": [],

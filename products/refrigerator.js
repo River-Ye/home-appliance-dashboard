@@ -270,9 +270,9 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/4455399AAF-SP-22083802.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 14500,
-      "converted": 14500,
-      "confidence": "Yahoo購物中心 2026-07-17 商品頁公開價"
+      "amount": 13775,
+      "converted": 13775,
+      "confidence": "Yahoo購物中心 2026-07-18 商品頁公開價"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心",
@@ -483,16 +483,16 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 37224,
+      "amount": 36378,
       "currency": "TWD",
-      "converted": 37224,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1269367300&cgp=37224",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【Panasonic 國際牌】家電快配★500公升一級能源效率四門變頻冰箱-白(NR-D505XV-W)",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【Panasonic 國際牌】家電快配★500公升一級能源效率四門變頻冰箱-白(NR-D505XV-W)」最低價為 NT$37,224，最低點日期 2026-07-08。",
+      "converted": 36378,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1283168079&cgp=36378",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：Panasonic NR-D505XV-W 500L 四門變頻冰箱",
+      "evidenceSnippet": "LBJ 比價撿便宜歷史價格顯示 Yahoo購物中心同型號新品最低價為 NT$36,378，最低點日期 2026-07-10。",
       "sourceKind": "price_history",
-      "confidence": "high",
-      "checkedAt": "2026-07-09",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+      "confidence": "medium",
+      "checkedAt": "2026-07-18",
+      "note": "採用 LBJ 比價撿便宜可公開查核的價格歷史；同型號／規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -610,9 +610,9 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/E1024B61CD-SP-22132101.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 31648,
-      "converted": 31648,
-      "confidence": "momo購物 2026-07-13 頁面查核價"
+      "amount": 29990,
+      "converted": 29990,
+      "confidence": "momo 2026-07-18 商品頁公開價"
     },
     "channel": "tw",
     "buyLabel": "momo購物",
@@ -695,9 +695,9 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/3F8C495537-SP-22128108.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 20148,
-      "converted": 20148,
-      "confidence": "momo購物 2026-07-13 頁面查核價"
+      "amount": 19900,
+      "converted": 19900,
+      "confidence": "momo 2026-07-18 商品頁公開價"
     },
     "channel": "tw",
     "buyLabel": "momo購物",
@@ -1035,9 +1035,9 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/58E65612D5-SP-11664526.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 11900,
-      "converted": 11900,
-      "confidence": "Yahoo購物中心 2026-07-17 商品頁公開價"
+      "amount": 11726,
+      "converted": 11726,
+      "confidence": "Yahoo購物中心 2026-07-18 商品頁公開價"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心",
@@ -1205,9 +1205,9 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/F86F570399-SP-11773532.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 9499,
-      "converted": 9499,
-      "confidence": "Yahoo購物中心 2026-07-17 商品頁公開價"
+      "amount": 9399,
+      "converted": 9399,
+      "confidence": "Yahoo購物中心 2026-07-18 商品頁公開價"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心",

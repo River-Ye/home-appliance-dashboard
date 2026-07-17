@@ -15,9 +15,9 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/3a594d8137-Gd-10216764.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 18617,
-      "converted": 18617,
-      "confidence": "Yahoo購物中心 2026-07-13 頁面查核價"
+      "amount": 18900,
+      "converted": 18900,
+      "confidence": "Yahoo購物中心 2026-07-18 商品頁公開價"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心",
@@ -531,9 +531,9 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/88F364AB6B-SP-11096810.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 29900,
-      "converted": 29900,
-      "confidence": "PChome 2026-07-16 API 公開價"
+      "amount": 31900,
+      "converted": 31900,
+      "confidence": "PChome 2026-07-18 API 公開價"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -617,9 +617,9 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/1f2a33ce70-Gd-10053955.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 44910,
-      "converted": 44910,
-      "confidence": "Yahoo購物中心 2026-07-17 商品頁公開價"
+      "amount": 43563,
+      "converted": 43563,
+      "confidence": "Yahoo購物中心 2026-07-18 商品頁公開價"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心",
@@ -703,9 +703,9 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/826F52E782-SP-22137065.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 34022,
-      "converted": 34022,
-      "confidence": "momo購物 2026-07-13 頁面查核價"
+      "amount": 32390,
+      "converted": 32390,
+      "confidence": "momo 2026-07-18 商品頁公開價"
     },
     "channel": "tw",
     "buyLabel": "momo購物",
@@ -789,9 +789,9 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/953C366DCA-SP-17994282.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 47900,
-      "converted": 47900,
-      "confidence": "Yahoo購物中心 2026-07-17 商品頁公開價"
+      "amount": 45493,
+      "converted": 45493,
+      "confidence": "Yahoo購物中心 2026-07-18 商品頁公開價"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心",
@@ -1133,9 +1133,9 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/BCB950DBF0-SP-13742246.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 48900,
-      "converted": 48900,
-      "confidence": "Yahoo購物中心 2026-07-17 商品頁公開價"
+      "amount": 47433,
+      "converted": 47433,
+      "confidence": "Yahoo購物中心 2026-07-18 商品頁公開價"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心",
@@ -1391,9 +1391,9 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/41046DB844-SP-12334280.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 36930,
-      "converted": 36930,
-      "confidence": "Yahoo購物中心 2026-07-17 商品頁公開價"
+      "amount": 35084,
+      "converted": 35084,
+      "confidence": "Yahoo購物中心 2026-07-18 商品頁公開價"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心",
@@ -1649,9 +1649,9 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/c6118894bf-Gd-10375207.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 15888,
-      "converted": 15888,
-      "confidence": "momo購物網 2026-07-17 商品頁公開價"
+      "amount": 15093,
+      "converted": 15093,
+      "confidence": "momo 2026-07-18 商品頁公開價"
     },
     "channel": "tw",
     "buyLabel": "momo購物",
@@ -1961,6 +1961,94 @@
           "platform": "Reddit",
           "query": "site:reddit.com \"Electrolux EWW1123P5WC\" (problem OR issue OR defect OR negative review)",
           "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22Electrolux%20EWW1123P5WC%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "targetHost": "reddit.com"
+        }
+      ]
+    }
+  },
+  {
+    "id": "washerdryer-lg-wd-s1818pb",
+    "rank": 24,
+    "topPick": false,
+    "brand": "LG",
+    "model": "WD-S1818PB",
+    "name": "LG WashTower WD-S1818PB",
+    "image": "https://www.lg.com/content/dam/channel/wcms/tw/images/washer-dryers/washtower/wd-s1818pb/basic.jpg",
+    "price": {
+      "currency": "TWD",
+      "amount": 86900,
+      "converted": 86900,
+      "confidence": "全聯全電商 2026-07-18 exact-model 公開現貨價"
+    },
+    "channel": "tw",
+    "buyLabel": "全聯全電商",
+    "buyUrl": "https://pxbox.es.pxmart.com.tw/product/772533",
+    "specs": [
+      "WashTower 一體式上下雙筒，可同步洗衣與乾衣",
+      "洗/乾容量：18kg / 18kg",
+      "尺寸：寬 64.2 x 深 77.7 x 高 185 cm",
+      "乾衣方式：Heat Pump 雙變頻熱泵除濕式",
+      "AI Wash / AI Dry、TurboWash360°、6 Motion",
+      "6.8 吋 LCD 全彩中央觸控、智慧洗劑投入、ThinQ",
+      "兩個 110V 插頭；無排風管；門向不可更換",
+      "機重 144kg；訂購前確認搬運動線、進排水與插座"
+    ],
+    "description": "65 公分窄身 WashTower 將 18kg 洗衣與 18kg Heat Pump 乾衣上下整合，主打同步洗乾、中央操作與小宅空間效率。",
+    "pros": [
+      "18kg 洗衣與 18kg 乾衣同容量，不需分批烘",
+      "洗乾可同步運作，Heat Pump 低溫乾衣兼顧效率與護衣",
+      "65cm 窄身、中央面板、自動投劑與 ThinQ 操作完整"
+    ],
+    "cons": [
+      "售價高、144kg 且 185cm 高，搬運與安裝空間要求高",
+      "一體式上下雙筒仍需兩個 110V 插座與進排水規劃",
+      "門向不可更換；濾網與冷凝器仍有長期維護成本"
+    ],
+    "bestFor": "小宅或窄陽台、衣量大，希望洗乾同步且乾衣容量不縮水的家庭。",
+    "recommendation": "WD-S1818PB 是 2026-07-16 在台推出的 18/18kg Heat Pump WashTower；同容量洗乾與 65cm 窄身有明確差異，但高價與搬運條件需先確認。",
+    "voltage": "110V（洗衣機與乾衣機各一個插頭）",
+    "warranty": "全機 1 年；變頻馬達與變頻壓縮機 10 年（依 LG 原廠條款）",
+    "score": 91,
+    "budget": "premium",
+    "tags": [
+      "洗/乾容量：18kg / 18kg",
+      "Heat Pump熱泵",
+      "WashTower",
+      "AI洗乾",
+      "自動投入",
+      "110V"
+    ],
+    "category": "washerdryer",
+    "releaseDate": "2026-07-16",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-07-18",
+      "note": "WD-S1818PB 於 2026-07-16 新上市；查核 LG、全聯全電商、PChome、Feebee 與 FindPrice 僅見上市後現價或比價，未找到可公開驗證的可信新品歷史最低價。現價不得直接推定為史低。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-07-18",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"LG WD-S1818PB\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22LG%20WD-S1818PB%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"LG WD-S1818PB\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22LG%20WD-S1818PB%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
           "targetHost": "reddit.com"
         }
       ]

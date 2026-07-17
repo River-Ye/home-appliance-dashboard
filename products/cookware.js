@@ -99,9 +99,9 @@
     "image": "https://cs-a.ecimg.tw/items/DEAWN3A900JOVE3/000001_1783576740.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 799,
-      "converted": 799,
-      "confidence": "PChome 2026-07-16 UTC API 公開價"
+      "amount": 759,
+      "converted": 759,
+      "confidence": "PChome 2026-07-18 API 公開價"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -683,9 +683,9 @@
     "image": "https://cs-a.ecimg.tw/items/DEAWMJA900JN626/000001_1768377713.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 1980,
-      "converted": 1980,
-      "confidence": "PChome 2026-07-16 UTC API 公開價"
+      "amount": 1782,
+      "converted": 1782,
+      "confidence": "PChome 2026-07-18 API 公開價"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -849,9 +849,9 @@
     "image": "https://cs-a.ecimg.tw/items/DEDG3BA900GQDVZ/000001_1776769920.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 990,
-      "converted": 990,
-      "confidence": "Yahoo購物中心 2026-07-16 商品頁公開價"
+      "amount": 961,
+      "converted": 961,
+      "confidence": "Yahoo購物中心 2026-07-18 商品頁公開價"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心",
@@ -1017,9 +1017,9 @@
     "image": "https://cs-a.ecimg.tw/items/DEAW03A900BSUA7/000001_1632301011.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 6360,
-      "converted": 6360,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 6042,
+      "converted": 6042,
+      "confidence": "PChome 2026-07-18 API 公開價"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -1100,9 +1100,9 @@
     "image": "https://cs-a.ecimg.tw/items/DEAWGAA900B4V1I/000001_1670815636.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 1490,
-      "converted": 1490,
-      "confidence": "PChome 2026-07-16 UTC API 公開價"
+      "amount": 1415,
+      "converted": 1415,
+      "confidence": "PChome 2026-07-18 API 公開價"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -1345,9 +1345,9 @@
     "name": "陶晶壺型鍋 1.7L",
     "price": {
       "currency": "TWD",
-      "amount": 7800,
-      "converted": 7800,
-      "confidence": "PChome 2026-07-16 UTC API 公開價"
+      "amount": 7020,
+      "converted": 7020,
+      "confidence": "PChome 2026-07-18 API 公開價"
     },
     "image": "https://cs-a.ecimg.tw/items/DEAWMJA900JMZA5/000001_1768290148.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DEAWMJ-A900JMZA5",

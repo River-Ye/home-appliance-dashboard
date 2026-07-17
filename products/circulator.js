@@ -855,16 +855,16 @@
     "releaseDate": "2017-05-26",
     "historicalLow": {
       "status": "found",
-      "amount": 5950,
+      "amount": 5618,
       "currency": "TWD",
-      "converted": 5950,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1250399419&cgp=6457",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【VORNADO 沃拿多】DC直流渦流空氣循環機6303DC/白(適用坪數8-12坪)",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【VORNADO 沃拿多】DC直流渦流空氣循環機6303DC/白(適用坪數8-12坪)」最低價為 NT$5,950，最低點日期 2025-06-08。",
+      "converted": 5618,
+      "sourceUrl": "https://biggo.com.tw/s/Vornado%206303DC/",
+      "sourceTitle": "BigGo 歷史價格：VORNADO 6303DC-TW DC 渦流循環機",
+      "evidenceSnippet": "BigGo 歷史價格顯示環球 Online 同型號新品最低價為 NT$5,618。",
       "sourceKind": "price_history",
       "confidence": "high",
-      "checkedAt": "2026-07-09",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+      "checkedAt": "2026-07-18",
+      "note": "採用 BigGo 可公開查核的價格歷史；同型號／規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。原商品頁：https://gmonline.twglobalmall.com/product/2EC0320540000007"
     },
     "issueResearch": {
       "status": "common_issue",
@@ -937,16 +937,16 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 3984,
+      "amount": 3911,
       "currency": "TWD",
-      "converted": 3984,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1227901421&cgp=4133",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【VORNADO 沃拿多】EXO61HD-TW 渦流空氣循環機",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【VORNADO 沃拿多】EXO61HD-TW 渦流空氣循環機」最低價為 NT$3,984，最低點日期 2026-05-07。",
+      "converted": 3911,
+      "sourceUrl": "https://biggo.com.tw/s/Vornado%20EXO61HD-TW/",
+      "sourceTitle": "BigGo 歷史價格：VORNADO EXO61HD-TW 高速渦流循環機",
+      "evidenceSnippet": "BigGo 歷史價格顯示環球 Online 同型號新品最低價為 NT$3,911。",
       "sourceKind": "price_history",
       "confidence": "high",
-      "checkedAt": "2026-07-09",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+      "checkedAt": "2026-07-18",
+      "note": "採用 BigGo 可公開查核的價格歷史；同型號／規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。原商品頁：https://gmonline.twglobalmall.com/product/2EC0320540000051"
     },
     "issueResearch": {
       "status": "no_common_issue",

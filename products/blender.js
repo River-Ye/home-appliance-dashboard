@@ -16,9 +16,9 @@
     "name": "Ascent 領航者全食物調理機",
     "price": {
       "currency": "TWD",
-      "amount": 39800,
-      "converted": 39800,
-      "confidence": "PChome 2026-07-17 API 公開價"
+      "amount": 35820,
+      "converted": 35820,
+      "confidence": "PChome 2026-07-18 API 公開價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAYE8A900BKOKK/000001_1782889462.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAYE8-A900BKOKK",
@@ -109,9 +109,9 @@
     "name": "Ascent 領航者全食物調理機",
     "price": {
       "currency": "TWD",
-      "amount": 29600,
-      "converted": 29600,
-      "confidence": "PChome 2026-07-17 API 公開價"
+      "amount": 26640,
+      "converted": 26640,
+      "confidence": "PChome 2026-07-18 API 公開價"
     },
     "image": "https://cs-a.ecimg.tw/items/QBAO0FA900AS2G7/000001_1782460590.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/QBAO0F-A900AS2G7",
@@ -586,9 +586,9 @@
     "name": "E320 Explorian 探索者調理機雙杯組黑色",
     "price": {
       "currency": "TWD",
-      "amount": 24700,
-      "converted": 24700,
-      "confidence": "PChome 2026-07-17 API 公開價"
+      "amount": 22230,
+      "converted": 22230,
+      "confidence": "PChome 2026-07-18 API 公開價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAY0GA900AGMD8/000001_1782460348.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAY0G-A900AGMD8",
@@ -688,9 +688,9 @@
     "name": "Ascent A2500i 全食物調理機白色",
     "price": {
       "currency": "TWD",
-      "amount": 29600,
-      "converted": 29600,
-      "confidence": "PChome 2026-07-17 API 公開價"
+      "amount": 26640,
+      "converted": 26640,
+      "confidence": "PChome 2026-07-18 API 公開價"
     },
     "image": "https://cs-a.ecimg.tw/items/QBAO0FA900AS2DJ/000001_1782460671.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/QBAO0F-A900AS2DJ",
@@ -766,9 +766,9 @@
     "name": "Professional 800 高效能食物調理機尊爵黑",
     "price": {
       "currency": "TWD",
-      "amount": 49500,
-      "converted": 49500,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 47025,
+      "converted": 47025,
+      "confidence": "PChome 2026-07-18 API 公開價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAY0HA9009QNF5/000001_1782873831.png",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAY0H-A9009QNF5",
@@ -844,9 +844,9 @@
     "name": "CONNOISSEUR 825 SpaceSaver 數位全能調理機",
     "price": {
       "currency": "TWD",
-      "amount": 30800,
-      "converted": 30800,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 29260,
+      "converted": 29260,
+      "confidence": "PChome 2026-07-18 API 公開價"
     },
     "image": "https://cs-a.ecimg.tw/items/QBAO0GA900A6DWK/000001_1782719457.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/QBAO0G-A900A6DWK",
@@ -922,9 +922,9 @@
     "name": "Designer 650 高效能食物調理機寶石紅",
     "price": {
       "currency": "TWD",
-      "amount": 26800,
-      "converted": 26800,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 25460,
+      "converted": 25460,
+      "confidence": "PChome 2026-07-18 API 公開價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAYBBA900K6VSY/000001_1783390508.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAYBB-A900K6VSY",
@@ -1000,9 +1000,9 @@
     "name": "Total Blender 數位三匹馬力生機調理機",
     "price": {
       "currency": "TWD",
-      "amount": 28000,
-      "converted": 28000,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 26600,
+      "converted": 26600,
+      "confidence": "PChome 2026-07-18 API 公開價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAYBBA900K3CZM/000001_1780982111.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAYBB-A900K3CZM",
@@ -1097,9 +1097,9 @@
     "name": "1.2L 高速調理果汁機",
     "price": {
       "currency": "TWD",
-      "amount": 1290,
-      "converted": 1290,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 1225,
+      "converted": 1225,
+      "confidence": "PChome 2026-07-18 API 公開價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAY7KA900JXOTJ/000001_1779933584.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAY7K-A900JXOTJ",
@@ -1253,9 +1253,9 @@
     "name": "免清洗多功能破壁豆漿機",
     "price": {
       "currency": "TWD",
-      "amount": 9480,
-      "converted": 9480,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 9006,
+      "converted": 9006,
+      "confidence": "PChome 2026-07-18 API 公開價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAY01A900GFJCO/000001_1780310319.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAY01-A900GFJCO",
@@ -1565,9 +1565,9 @@
     "name": "多功能營養調理機",
     "price": {
       "currency": "TWD",
-      "amount": 3380,
-      "converted": 3380,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 3211,
+      "converted": 3211,
+      "confidence": "PChome 2026-07-18 API 公開價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAYGBA900IW311/000001_1767836506.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAYGB-A900IW311",
@@ -1643,9 +1643,9 @@
     "name": "破壁調理機 冷熱調理機",
     "price": {
       "currency": "TWD",
-      "amount": 2149,
-      "converted": 2149,
-      "confidence": "PChome 小米官方旗艦館 2026-07-09 查核價"
+      "amount": 2041,
+      "converted": 2041,
+      "confidence": "PChome 2026-07-18 API 公開價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAYFGA900IXDP8/000001_1749698286.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAYFG-A900IXDP8",

@@ -15,9 +15,9 @@
     "image": "https://cs-a.ecimg.tw/items/DMBR1PA900I386D/000001_1738721735.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 18000,
-      "converted": 18000,
-      "confidence": "PChome 2026-07-13 API 查核價"
+      "amount": 17800,
+      "converted": 17800,
+      "confidence": "PChome 2026-07-18 API 公開價"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -56,16 +56,16 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 17874,
+      "amount": 17800,
       "currency": "TWD",
-      "converted": 17874,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1223048250&cgp=18085",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：(全省安裝)Panasonic國際牌6人份桌上型洗碗機NP-TH4WHR1TW（與NP-K1YWHR2TW相近）",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Yahoo購物中心 / (全省安裝)Panasonic國際牌6人份桌上型洗碗機NP-TH4WHR1TW（與NP-K1YWHR2TW相近）」最低價為 NT$17,874，最低點日期 2025-06-08。",
-      "sourceKind": "price_history",
+      "converted": 17800,
+      "sourceUrl": "https://24h.pchome.com.tw/prod/DMBR1P-A900I386D",
+      "sourceTitle": "PChome：Panasonic NP-K1YWHR2TW 6 人份桌上型洗碗機",
+      "evidenceSnippet": "PChome 公開 API 於 2026-07-18 回傳 exact-model 售價 NT$17,800 且仍有庫存，低於既有可驗證史低 NT$17,874。",
+      "sourceKind": "retailer_promo",
       "confidence": "high",
-      "checkedAt": "2026-07-09",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+      "checkedAt": "2026-07-18",
+      "note": "採完全相同台灣型號新品公開價；未扣除信用卡、點數、會員個人化回饋，並排除福利品、展示、拆封與整新品。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -930,9 +930,9 @@
     "image": "https://cs-a.ecimg.tw/items/DPAL7PA900G5M47/000001_1783049805.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 37525,
-      "converted": 37525,
-      "confidence": "PChome 2026-07-13 API 查核價"
+      "amount": 36340,
+      "converted": 36340,
+      "confidence": "PChome 2026-07-18 API 公開價"
     },
     "channel": "tw",
     "buyLabel": "PChome",

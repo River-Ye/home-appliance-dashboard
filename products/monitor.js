@@ -1642,9 +1642,9 @@
     "name": "27 型 4K Mac 外接護眼螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 16888,
-      "converted": 16888,
-      "confidence": "PChome 2026-07-16 API 公開價"
+      "amount": 14888,
+      "converted": 14888,
+      "confidence": "PChome 2026-07-18 API 公開價"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABF1A900HW6JB/000001_1754623836.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DSABF1-A900HW6JB",
@@ -2225,7 +2225,7 @@
       "currency": "TWD",
       "amount": 18900,
       "converted": 18900,
-      "confidence": "Yahoo購物中心 2026-07-15 頁面查核價"
+      "confidence": "Yahoo購物中心 2026-07-18 商品頁公開價"
     },
     "image": "https://cs-a.ecimg.tw/items/DSBC1ZA900HE04M/000001_1757303897.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/MSI%E5%BE%AE%E6%98%9F-MPG-271QRX-QD-OLED-27%E5%9E%8B-2K-360Hz-HDR%E9%9B%BB%E7%AB%B6%E8%9E%A2%E5%B9%95-10958143.html",
@@ -3126,7 +3126,7 @@
       "currency": "TWD",
       "amount": 6588,
       "converted": 6588,
-      "confidence": "Yahoo購物中心 2026-07-15 頁面查核價"
+      "confidence": "Yahoo購物中心 2026-07-18 商品頁公開價"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABPFA900K0AJK/000001_1778658221.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/MSI%E5%BE%AE%E6%98%9FPRO-MP341CQW-E12-34%E5%9E%8B-VA-UWQHD-120Hz-%E6%9B%B2%E9%9D%A2%E8%9E%A2%E5%B9%95-1ms-12002868.html",
@@ -3698,9 +3698,9 @@
     "name": "49 型 Odyssey OLED G9 Dual QHD 240Hz 曲面螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 36900,
-      "converted": 36900,
-      "confidence": "PChome 2026-07-17 API 公開價"
+      "amount": 34999,
+      "converted": 34999,
+      "confidence": "PChome 2026-07-18 API 公開價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBM10A900HZCPE/000001_1781766568.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBM10-A900HZCPE",
@@ -3862,12 +3862,12 @@
     "name": "45 型 UltraGear 21:9 OLED 240Hz 智慧曲面螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 41310,
-      "converted": 41310,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 38580,
+      "converted": 38580,
+      "confidence": "PChome 2026-07-18 API 公開價"
     },
-    "image": "https://cs-a.ecimg.tw/items/DPADZMA900JPITR/000001_1770272421.jpg",
-    "buyUrl": "https://24h.pchome.com.tw/prod/DPADZM-A900JPITR",
+    "image": "https://cs-a.ecimg.tw/items/DSBC1ZA900J732D/000001_1780394558.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DSBC1Z-A900J732D",
     "buyLabel": "PChome",
     "specs": [
       "45 吋",
@@ -3944,12 +3944,12 @@
     "name": "57 型 Odyssey Neo G9 Dual UHD 240Hz Mini LED 曲面螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 69900,
-      "converted": 69900,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 66500,
+      "converted": 66500,
+      "confidence": "PChome 2026-07-18 API 公開價"
     },
-    "image": "https://cs-a.ecimg.tw/items/DSABT5A900J8G5R/000001_1775545592.jpg",
-    "buyUrl": "https://24h.pchome.com.tw/prod/DSABT5-A900J8G5R",
+    "image": "https://cs-a.ecimg.tw/items/DMBM10A900GQLSE/000001_1783054239.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DMBM10-A900GQLSE",
     "buyLabel": "PChome",
     "specs": [
       "57 吋",
@@ -4416,6 +4416,93 @@
           "platform": "Reddit",
           "query": "site:reddit.com \"Samsung S32D706EAC\" (problem OR issue OR defect OR \"negative review\")",
           "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Samsung%20S32D706EAC%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
+          "targetHost": "reddit.com"
+        }
+      ]
+    }
+  },
+  {
+    "id": "monitor-samsung-ls40h850tacxzw",
+    "category": "monitor",
+    "rank": 55,
+    "budget": "premium",
+    "channel": "tw",
+    "brand": "Samsung",
+    "model": "LS40H850TACXZW",
+    "name": "40 型 ViewFinity S8 S85TH 5K2K 144Hz Thunderbolt 5 曲面螢幕",
+    "price": {
+      "currency": "TWD",
+      "amount": 27900,
+      "converted": 27900,
+      "confidence": "PChome 2026-07-18 API 公開價"
+    },
+    "image": "https://images.samsung.com/is/image/samsung/p6pim/tw/ls40h850tacxzw/gallery/tw-viewfinity-s8-40s85th-ls40h850tacxzw-552039945?$624_468_PNG$",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DSABW5-A900K0BMC",
+    "buyLabel": "PChome",
+    "specs": [
+      "40 吋 VA / 1000R / 21:9",
+      "WUHD 5120 x 2160 / 144Hz / 4ms GtG",
+      "HDR10 / HDR10+ / sRGB 99% / 350 nits",
+      "Thunderbolt 5（140W）/ DP 1.4 / HDMI 2.1 / KVM / LAN / PIP / PBP",
+      "尺寸：含底座 92.86 x 59.99 x 36.21 cm；不含底座 92.86 x 42.28 x 19.89 cm",
+      "重量：9.0kg（不含底座；含底座 14.0kg）",
+      "VESA 100 x 100 mm"
+    ],
+    "description": "40 吋 5K2K 生產力超寬螢幕，補足現有清單沒有的 40 吋 5K2K 與 Thunderbolt 5 工作站定位。",
+    "pros": [
+      "5K2K 與 21:9 適合剪輯時間軸、程式開發與多視窗",
+      "Thunderbolt 5 140W、KVM、LAN 與菊鏈整合完整",
+      "144Hz 兼顧工作與遊戲，台灣原廠三年保固"
+    ],
+    "cons": [
+      "VA 面板與 350 nits，不是 Mini LED 或 OLED HDR 旗艦",
+      "40 吋機身寬 92.86cm、面板 9kg，支架與桌深需先確認",
+      "北美 S85TH 有單一使用者回報 Mac 的 TB4/TB5 握手問題，未達警示門檻但宜在退換貨期測試"
+    ],
+    "bestFor": "需要一線接筆電、5K2K 多工與 144Hz 的創作者、工程師與混合工作／遊戲使用者。",
+    "recommendation": "高階生產力推薦；相較同尺寸 5K2K 機型定價有競爭力，且 TB5、KVM 與 LAN 完整，但 Mac 使用者應在退換貨期測試連線握手。",
+    "score": 92,
+    "voltage": "AC 100-240V；內建電源，台灣公司貨",
+    "warranty": "台灣三星電腦螢幕 36 個月；面板亮暗點依官方保固標準",
+    "tags": [
+      "40吋",
+      "5K2K",
+      "寬螢幕",
+      "21:9",
+      "Thunderbolt 5",
+      "KVM",
+      "生產力"
+    ],
+    "releaseDate": "2026-05",
+    "historicalLow": {
+      "status": "found",
+      "amount": 26784,
+      "currency": "TWD",
+      "converted": 26784,
+      "sourceUrl": "https://tw.buy.yahoo.com/gdsale/Samsung-%E4%B8%89%E6%98%9F-S40H850TAC-40%E5%9E%8B-WUHD-VA-144Hz-1000R%E9%AB%98%E8%A7%A3%E6%9E%90%E5%BA%A6%E6%9B%B2-12124209.html",
+      "sourceTitle": "Yahoo購物中心：Samsung S40H850TAC 40 型 WUHD 144Hz 曲面螢幕",
+      "evidenceSnippet": "Yahoo 自營 exact-model 頁於 2026-07-18 顯示公開滿 1 件 96 折價 NT$26,784，原價 NT$27,900，活動於當日 06:59:59 結束。",
+      "sourceKind": "retailer_promo",
+      "confidence": "high",
+      "checkedAt": "2026-07-18",
+      "note": "採用 Yahoo 自營同型號新品公開自動折扣；不含點數、信用卡回饋、會員個人化券、二手、福利、展示或拆封品。活動到期後現價回到 NT$27,900。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-07-18",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Samsung LS40H850TACXZW\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Samsung%20LS40H850TACXZW%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Samsung LS40H850TACXZW\" (problem OR issue OR defect OR \"negative review\")",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Samsung%20LS40H850TACXZW%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
           "targetHost": "reddit.com"
         }
       ]

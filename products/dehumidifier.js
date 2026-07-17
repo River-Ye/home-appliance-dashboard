@@ -251,9 +251,9 @@
     "name": "19.6 公升 PuriCare 雙變頻除濕機",
     "price": {
       "currency": "TWD",
-      "amount": 20805,
-      "converted": 20805,
-      "confidence": "Yahoo購物中心 2026-07-17 商品頁公開價"
+      "amount": 19765,
+      "converted": 19765,
+      "confidence": "Yahoo購物中心 2026-07-18 商品頁公開價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ4OA900JX7GH/000001_1783563034.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/LG%E6%A8%82%E9%87%91-DD201MEE0-19-6%E5%85%AC%E5%8D%87-PuriCare-%E9%9B%99%E8%AE%8A%E9%A0%BB%E9%99%A4%E6%BF%95%E6%A9%9F-11884613.html",
@@ -286,16 +286,16 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 19765,
+      "amount": 19710,
       "currency": "TWD",
-      "converted": 19765,
-      "sourceUrl": "https://tw.buy.yahoo.com/gdsale/LG%E6%A8%82%E9%87%91-DD201MEE0-19-6%E5%85%AC%E5%8D%87-PuriCare-%E9%9B%99%E8%AE%8A%E9%A0%BB%E9%99%A4%E6%BF%95%E6%A9%9F-11884613.html",
-      "sourceTitle": "Yahoo購物中心 商品頁：LG樂金 DD201MEE0 19.6公升 PuriCare 雙變頻除濕機 | 14.1L以上 | Yahoo購物中心",
-      "evidenceSnippet": "Yahoo購物中心 原始商品頁／API 於 2026-07-11 顯示同型號新品公開價 19765 TWD，低於既有可驗證史低。",
-      "sourceKind": "retailer_page",
+      "converted": 19710,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1269132230&cgp=19765",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：LG樂金 DD201MEE0 19.6公升 PuriCare 雙變頻除濕機",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Yahoo購物中心 / LG樂金 DD201MEE0 19.6公升 PuriCare 雙變頻除濕機」最低價為 NT$19,710，最低點日期 2026-06-09。",
+      "sourceKind": "price_history",
       "confidence": "high",
-      "checkedAt": "2026-07-11",
-      "note": "採用同型號、同尺寸／容量／規格的可信新品公開價；排除會員個人化折扣、信用卡回饋、點數、二手、福利品、展示、拆封與整新品。"
+      "checkedAt": "2026-07-18",
+      "note": "採用 LBJ 比價撿便宜可公開查核的價格歷史；同型號／規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -442,16 +442,16 @@
     "releaseDate": "2026-04-10",
     "historicalLow": {
       "status": "found",
-      "amount": 15680,
+      "amount": 14747,
       "currency": "TWD",
-      "converted": 15680,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=589445778&cgp=15809",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：Panasonic 國際牌 16L nanoe變頻微電腦除濕機F-YV32NX /F-YV32NXK 廠商直送",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「蝦皮商城 - 蝦皮直營 - 3C家電館 / Panasonic 國際牌 16L nanoe變頻微電腦除濕機F-YV32NX /F-YV32NXK 廠商直送」最低價為 NT$15,680，最低點日期 2025-12-09。",
+      "converted": 14747,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1266214541&cgp=16427",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：Panasonic 16L nanoe 變頻除濕機 F-YV32NXK",
+      "evidenceSnippet": "LBJ 比價撿便宜歷史價格顯示 Yahoo購物中心同型號新品最低價為 NT$14,747，最低點日期 2026-03-31。",
       "sourceKind": "price_history",
       "confidence": "high",
-      "checkedAt": "2026-07-09",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+      "checkedAt": "2026-07-18",
+      "note": "採用 LBJ 比價撿便宜可公開查核的價格歷史；同型號／規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -797,9 +797,9 @@
     "name": "PuriCare 12 公升雙變頻除濕機",
     "price": {
       "currency": "TWD",
-      "amount": 12400,
-      "converted": 12400,
-      "confidence": "Yahoo購物中心 2026-07-17 商品頁公開價"
+      "amount": 11780,
+      "converted": 11780,
+      "confidence": "Yahoo購物中心 2026-07-18 商品頁公開價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ4NA900JF9HP/000001_1778165423.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/LG%E6%A8%82%E9%87%91-12%E5%85%AC%E5%8D%87-%E6%97%A5UV%E6%AE%BA%E8%8F%8C%E9%9B%99%E8%AE%8A%E9%A0%BB%E9%99%A4%E6%BF%95%E6%A9%9FDD121QWE0-11864251.html",
@@ -953,9 +953,9 @@
     "name": "PuriCare 雙變頻除濕機 25.6 公升曜黑",
     "price": {
       "currency": "TWD",
-      "amount": 18900,
-      "converted": 18900,
-      "confidence": "Yahoo購物中心 2026-07-17 商品頁公開價"
+      "amount": 18522,
+      "converted": 18522,
+      "confidence": "Yahoo購物中心 2026-07-18 商品頁公開價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ07A900GFBVP/000001_1767340170.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/LG%E6%A8%82%E9%87%91-PuriCare-%E9%9B%99%E8%AE%8A%E9%A0%BB%E9%99%A4%E6%BF%95%E6%A9%9F-25-6%E5%85%AC%E5%8D%87-%E6%9B%9C%E9%BB%91-WD261VKF0-11970685.html",
@@ -1031,9 +1031,9 @@
     "name": "18 公升一級能效 PuriCare 雙變頻除濕機",
     "price": {
       "currency": "TWD",
-      "amount": 17900,
-      "converted": 17900,
-      "confidence": "Yahoo購物中心 2026-07-17 商品頁公開價"
+      "amount": 17542,
+      "converted": 17542,
+      "confidence": "Yahoo購物中心 2026-07-18 商品頁公開價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ4NA900JCHFZ/000001_1783342859.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/LG%E6%A8%82%E9%87%91-PuriCare-18%E5%85%AC%E5%8D%87%E9%9B%99%E8%AE%8A%E9%A0%BB%E9%99%A4%E6%BF%95%E6%A9%9F-%E7%99%BD%E8%89%B2-DD181MWE0-11971018.html",
@@ -1109,9 +1109,9 @@
     "name": "20L 第六感智能除濕機",
     "price": {
       "currency": "TWD",
-      "amount": 9990,
-      "converted": 9990,
-      "confidence": "Yahoo購物中心 2026-07-17 商品頁公開價"
+      "amount": 8991,
+      "converted": 8991,
+      "confidence": "Yahoo購物中心 2026-07-18 商品頁公開價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ3SA900K13ZR/000001_1779265654.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/Whirlpool%E6%83%A0%E8%80%8C%E6%B5%A6-WDEE20TW-20L-%E7%AC%AC%E5%85%AD%E6%84%9F%E6%99%BA%E8%83%BD%E9%99%A4%E6%BF%95%E6%A9%9F-12132430.html",
@@ -1577,9 +1577,9 @@
     "name": "19公升 超變頻清淨除濕機",
     "price": {
       "currency": "TWD",
-      "amount": 20357,
-      "converted": 20357,
-      "confidence": "momo購物 2026-07-11 頁面查核價"
+      "amount": 20597,
+      "converted": 20597,
+      "confidence": "momo 2026-07-18 商品頁公開價"
     },
     "image": "https://www.costco.com.tw/medias/sys_master/images/h5d/ha9/421140861976606.jpg",
     "buyUrl": "https://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=13553689",
@@ -1737,9 +1737,9 @@
     "name": "23 公升超變頻清淨除濕機",
     "price": {
       "currency": "TWD",
-      "amount": 23575,
-      "converted": 23575,
-      "confidence": "PChome 2026-07-13 API 查核價"
+      "amount": 23039,
+      "converted": 23039,
+      "confidence": "PChome 2026-07-18 API 公開價"
     },
     "image": "https://www.costco.com.tw/medias/sys_master/images/h2d/h02/421140862271518.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBQ4K-A900I752Z",

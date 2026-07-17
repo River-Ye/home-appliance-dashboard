@@ -15,9 +15,9 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/AC7DC27581-SP-22704432.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 9351,
-      "converted": 9351,
-      "confidence": "PChome 2026-07-17 API 公開價"
+      "amount": 9143,
+      "converted": 9143,
+      "confidence": "PChome 2026-07-18 API 公開價"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -350,9 +350,9 @@
     "image": "https://img.yec.tw/cl/api/res/1.2/PzojK6OzaumcZWkHDQO.hg--/YXBwaWQ9eXR3bWFsbDtoPTYwMDtxPTEwMDt3PTYwMA--/https://img.yec.tw/fy/5c46/item/p0214264895249-item-61b0xf4x1000x1000-m.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 38800,
-      "converted": 38800,
-      "confidence": "momo購物網 2026-07-17 商品頁公開價"
+      "amount": 37636,
+      "converted": 37636,
+      "confidence": "momo 2026-07-18 商品頁公開價"
     },
     "channel": "tw",
     "buyLabel": "momo購物",
@@ -434,9 +434,9 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/1178FF80D6-SP-21903027.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 32850,
-      "converted": 32850,
-      "confidence": "Yahoo購物中心 2026-07-17 商品頁公開價"
+      "amount": 31865,
+      "converted": 31865,
+      "confidence": "Yahoo購物中心 2026-07-18 商品頁公開價"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心",
@@ -518,9 +518,9 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/2618755F67-Product-24570513.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 7120,
-      "converted": 7120,
-      "confidence": "PChome 2026-07-15 API 查核價"
+      "amount": 6621,
+      "converted": 6621,
+      "confidence": "PChome 2026-07-18 API 公開價"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -1393,16 +1393,16 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 7191,
+      "amount": 7031,
       "currency": "TWD",
-      "converted": 7191,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1271416181&cgp=7191",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：HERAN禾聯 8KG 乾衣機 HDM-0841",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Yahoo購物中心 / HERAN禾聯 8KG 乾衣機 HDM-0841」最低價為 NT$7,191，最低點日期 2026-07-09。",
+      "converted": 7031,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1246118298&cgp=7191",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：HERAN HDM-0841 8KG 抗菌除蟎乾衣機",
+      "evidenceSnippet": "LBJ 比價撿便宜歷史價格顯示 momo 同型號新品最低價為 NT$7,031，最低點日期 2026-07-08。",
       "sourceKind": "price_history",
       "confidence": "high",
-      "checkedAt": "2026-07-09",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+      "checkedAt": "2026-07-18",
+      "note": "採用 LBJ 比價撿便宜可公開查核的價格歷史；同型號／規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     },
     "issueResearch": {
       "status": "no_common_issue",

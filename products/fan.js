@@ -241,87 +241,9 @@
     }
   },
   {
-    "id": "fan-heran-hdf16",
-    "category": "fan",
-    "rank": 4,
-    "budget": "value",
-    "channel": "tw",
-    "brand": "HERAN",
-    "model": "HDF-16S6",
-    "name": "16 吋 ECO 溫控智能變頻 DC 風扇",
-    "price": {
-      "currency": "TWD",
-      "amount": 1480,
-      "converted": 1480,
-      "confidence": "PChome 2026-07-13 售罄追蹤價"
-    },
-    "image": "https://cs-a.ecimg.tw/items/DMABKUA900F4MB2/000001_1760585255.jpg",
-    "buyUrl": "https://24h.pchome.com.tw/prod/DMABKU-A900F4MB2",
-    "buyLabel": "PChome（售罄追蹤）",
-    "specs": [
-      "16 吋",
-      "DC 變頻",
-      "ECO 溫控",
-      "遙控"
-    ],
-    "description": "低價位就有 DC 變頻與溫控，適合租屋或多房間配置。",
-    "pros": [
-      "價格低",
-      "功能給得完整"
-    ],
-    "cons": [
-      "質感與耐用口碑不如日系",
-      "風切聲控制普通"
-    ],
-    "bestFor": "租屋、多房間補扇、預算優先。",
-    "recommendation": "CP 值入門款：花小錢補齊 DC 與遙控。",
-    "score": 82,
-    "voltage": "110V 台灣公司貨",
-    "warranty": "台灣保固",
-    "tags": [
-      "CP 值",
-      "DC",
-      "租屋"
-    ],
-    "releaseDate": "找不到",
-    "historicalLow": {
-      "status": "found",
-      "amount": 1280,
-      "currency": "TWD",
-      "converted": 1280,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1243853975&cgp=1480",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：HERAN 禾聯 16吋ECO溫控智能變頻DC風扇 (HDF-16S6(S)",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「PCHome購物 / HERAN 禾聯 16吋ECO溫控智能變頻DC風扇 (HDF-16S6(S)」最低價為 NT$1,280，最低點日期 2025-09-18。",
-      "sourceKind": "price_history",
-      "confidence": "high",
-      "checkedAt": "2026-07-09",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
-    },
-    "issueResearch": {
-      "status": "no_common_issue",
-      "checkedAt": "2026-07-13",
-      "summary": "截至查核日，查無達門檻的集中負評／災情",
-      "issues": [],
-      "checkedSources": [
-        {
-          "platform": "Mobile01",
-          "query": "site:mobile01.com \"HDF-16S6\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com+%22HDF-16S6%22+%28%E7%81%BD%E6%83%85+OR+%E5%95%8F%E9%A1%8C+OR+%E6%95%85%E9%9A%9C+OR+%E8%B2%A0%E8%A9%95%29",
-          "targetHost": "mobile01.com"
-        },
-        {
-          "platform": "Reddit",
-          "query": "site:reddit.com \"HDF-16S6\" (problem OR issue OR defect OR \"negative review\")",
-          "queryUrl": "https://www.google.com/search?q=site%3Areddit.com+%22HDF-16S6%22+%28problem+OR+issue+OR+defect+OR+%22negative+review%22%29",
-          "targetHost": "reddit.com"
-        }
-      ]
-    }
-  },
-  {
     "id": "fan-nwt-wpf16",
     "category": "fan",
-    "rank": 5,
+    "rank": 4,
     "budget": "value",
     "channel": "tw",
     "brand": "NWT",
@@ -399,7 +321,7 @@
   {
     "id": "fan-extra-6-dmablm-a900eorov",
     "category": "fan",
-    "rank": 6,
+    "rank": 5,
     "budget": "mid",
     "channel": "tw",
     "brand": "Panasonic",
@@ -477,7 +399,7 @@
   {
     "id": "fan-extra-7-dmablm-a900eoq12",
     "category": "fan",
-    "rank": 7,
+    "rank": 6,
     "budget": "mid",
     "channel": "tw",
     "brand": "Panasonic",
@@ -555,7 +477,7 @@
   {
     "id": "fan-extra-8-dmablm-a900eorp0",
     "category": "fan",
-    "rank": 8,
+    "rank": 7,
     "budget": "premium",
     "channel": "tw",
     "brand": "Panasonic",
@@ -633,7 +555,7 @@
   {
     "id": "fan-extra-9-dmab1f-a900b4sp0",
     "category": "fan",
-    "rank": 9,
+    "rank": 8,
     "budget": "value",
     "channel": "tw",
     "brand": "Panasonic",
@@ -711,7 +633,7 @@
   {
     "id": "fan-extra-10-dmab30-a900eoq5x",
     "category": "fan",
-    "rank": 10,
+    "rank": 9,
     "budget": "mid",
     "channel": "tw",
     "brand": "Panasonic",
@@ -789,7 +711,7 @@
   {
     "id": "fan-extra-11-dmab1f-a900jxknn",
     "category": "fan",
-    "rank": 11,
+    "rank": 10,
     "budget": "mid",
     "channel": "tw",
     "brand": "Panasonic",
@@ -832,16 +754,16 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 2071,
+      "amount": 2070,
       "currency": "TWD",
-      "converted": 2071,
-      "sourceUrl": "https://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=15180635",
-      "sourceTitle": "momo購物 商品頁：【Panasonic 國際牌】14吋DC立扇 (F-S14QT)",
-      "evidenceSnippet": "momo購物 原始商品頁／API 於 2026-07-11 顯示同型號新品公開價 2071 TWD，低於既有可驗證史低。",
-      "sourceKind": "retailer_page",
-      "confidence": "high",
-      "checkedAt": "2026-07-11",
-      "note": "採用同型號、同尺寸／容量／規格的可信新品公開價；排除會員個人化折扣、信用卡回饋、點數、二手、福利品、展示、拆封與整新品。"
+      "converted": 2070,
+      "sourceUrl": "https://biggo.com.tw/s/Panasonic%20F-S14QT/",
+      "sourceTitle": "BigGo 歷史價格：Panasonic F-S14QT 14 吋 DC 立扇",
+      "evidenceSnippet": "BigGo 歷史價格顯示 Yahoo購物中心同型號新品最低價為 NT$2,070。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
+      "checkedAt": "2026-07-18",
+      "note": "採用 BigGo 可公開查核的價格歷史；同型號／規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。原商品頁：https://tw.buy.yahoo.com/gdsale/Panasonic國際牌-14吋DC直流微電腦遙控立扇-F-S14QT-12059920.html"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -867,7 +789,7 @@
   {
     "id": "fan-extra-12-dmab1f-a900jx6mj",
     "category": "fan",
-    "rank": 12,
+    "rank": 11,
     "budget": "mid",
     "channel": "tw",
     "brand": "Panasonic",
@@ -910,16 +832,16 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 1840,
+      "amount": 1280,
       "currency": "TWD",
-      "converted": 1840,
-      "sourceUrl": "https://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=15180637",
-      "sourceTitle": "momo購物 商品頁：【Panasonic 國際牌】12吋DC立扇 (F-S12QT)",
-      "evidenceSnippet": "momo購物 原始商品頁／API 於 2026-07-11 顯示同型號新品公開價 1840 TWD，低於既有可驗證史低。",
-      "sourceKind": "retailer_page",
-      "confidence": "high",
-      "checkedAt": "2026-07-11",
-      "note": "採用同型號、同尺寸／容量／規格的可信新品公開價；排除會員個人化折扣、信用卡回饋、點數、二手、福利品、展示、拆封與整新品。"
+      "converted": 1280,
+      "sourceUrl": "https://biggo.com.tw/s/Panasonic%20F-S12QT/",
+      "sourceTitle": "BigGo 歷史價格：Panasonic F-S12QT 12 吋 DC 立扇",
+      "evidenceSnippet": "BigGo 歷史價格顯示 Yahoo購物中心同型號新品最低價為 NT$1,280。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
+      "checkedAt": "2026-07-18",
+      "note": "採用 BigGo 可公開查核的價格歷史；同型號／規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。原商品頁：https://tw.buy.yahoo.com/gdsale/Panasonic國際牌-12吋-DC變頻經典型立扇-F-S12QT-12163704.html"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -945,7 +867,7 @@
   {
     "id": "fan-extra-13-dmabpe-a900jzz0q",
     "category": "fan",
-    "rank": 13,
+    "rank": 12,
     "budget": "mid",
     "channel": "tw",
     "brand": "SHARP",
@@ -1023,7 +945,7 @@
   {
     "id": "fan-extra-14-dmabpm-a900k2j9e",
     "category": "fan",
-    "rank": 14,
+    "rank": 13,
     "budget": "value",
     "channel": "tw",
     "brand": "SHARP",
@@ -1101,7 +1023,7 @@
   {
     "id": "fan-extra-15-dmabpm-a900j334p",
     "category": "fan",
-    "rank": 15,
+    "rank": 14,
     "budget": "value",
     "channel": "tw",
     "brand": "SHARP",
@@ -1179,7 +1101,7 @@
   {
     "id": "fan-extra-16-dmacaka900g4vtv",
     "category": "fan",
-    "rank": 16,
+    "rank": 15,
     "budget": "value",
     "channel": "tw",
     "brand": "Philips",
@@ -1257,7 +1179,7 @@
   {
     "id": "fan-extra-17-dmab2za900exoh3",
     "category": "fan",
-    "rank": 17,
+    "rank": 16,
     "budget": "mid",
     "channel": "tw",
     "brand": "Philips",
@@ -1335,7 +1257,7 @@
   {
     "id": "fan-extra-18-dmacbua900iudv9",
     "category": "fan",
-    "rank": 18,
+    "rank": 17,
     "budget": "mid",
     "channel": "tw",
     "brand": "Philips",
@@ -1378,16 +1300,16 @@
     "releaseDate": "2026-03-17",
     "historicalLow": {
       "status": "found",
-      "amount": 2138,
+      "amount": 2106,
       "currency": "TWD",
-      "converted": 2138,
-      "sourceUrl": "https://www.momoshop.com.tw/TP/TP0006456/goodsDetail/TP00064560000573",
-      "sourceTitle": "momo購物 商品頁：【Philips 飛利浦】PHILIPS 飛利浦 全方位渦輪循環扇 【百年匠心系列】 循環扇 電風扇 風扇 電扇 ACR3342CFD",
-      "evidenceSnippet": "momo購物 原始商品頁／API 於 2026-07-11 顯示同型號新品公開價 2138 TWD，低於既有可驗證史低。",
-      "sourceKind": "retailer_page",
+      "converted": 2106,
+      "sourceUrl": "https://biggo.com.tw/s/Philips%20ACR3342CFD/",
+      "sourceTitle": "BigGo 歷史價格：Philips ACR3342CFD 全方位渦輪循環扇",
+      "evidenceSnippet": "BigGo 歷史價格顯示 Yahoo購物中心同型號新品最低價為 NT$2,106。",
+      "sourceKind": "price_history",
       "confidence": "high",
-      "checkedAt": "2026-07-11",
-      "note": "採用同型號、同尺寸／容量／規格的可信新品公開價；排除會員個人化折扣、信用卡回饋、點數、二手、福利品、展示、拆封與整新品。"
+      "checkedAt": "2026-07-18",
+      "note": "採用 BigGo 可公開查核的價格歷史；同型號／規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。原商品頁：https://tw.buy.yahoo.com/gdsale/PHILIPS-飛利浦-全方位渦輪循環扇ACR3342CFD-11627832.html"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -1413,7 +1335,7 @@
   {
     "id": "fan-extra-19-dmacaka900g0bb4",
     "category": "fan",
-    "rank": 19,
+    "rank": 18,
     "budget": "mid",
     "channel": "tw",
     "brand": "Philips",
@@ -1491,7 +1413,7 @@
   {
     "id": "fan-extra-20-dmab6za900flc55",
     "category": "fan",
-    "rank": 20,
+    "rank": 19,
     "budget": "mid",
     "channel": "tw",
     "brand": "Philips",
@@ -1569,7 +1491,7 @@
   {
     "id": "fan-costco-airmate-ft89r",
     "category": "fan",
-    "rank": 21,
+    "rank": 20,
     "budget": "value",
     "channel": "tw",
     "brand": "Airmate",
@@ -1647,7 +1569,7 @@
   {
     "id": "fan-costco-dewalt-dxf1645a",
     "category": "fan",
-    "rank": 22,
+    "rank": 21,
     "budget": "value",
     "channel": "tw",
     "brand": "DeWALT",
@@ -1728,7 +1650,7 @@
   {
     "id": "fan-costco-airmate-fs35150r",
     "category": "fan",
-    "rank": 23,
+    "rank": 22,
     "budget": "value",
     "channel": "tw",
     "brand": "Airmate",

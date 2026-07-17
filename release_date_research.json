@@ -1,13 +1,13 @@
 {
   "summary": {
-    "checkedAt": "2026-07-16T23:55:00.000Z",
-    "total": 664,
-    "found": 173,
-    "missing": 491,
+    "checkedAt": "2026-07-17T22:35:00.000Z",
+    "total": 666,
+    "found": 176,
+    "missing": 490,
     "byConfidence": {
-      "official": 74,
-      "credible_article": 88,
-      "not_found": 491,
+      "official": 76,
+      "credible_article": 89,
+      "not_found": 490,
       "retailer_explicit": 11
     }
   },
@@ -693,19 +693,6 @@
       "query": "Dyson Cool CF1 AM12 goes on sale May 28 2025",
       "sourceKind": "agent_web_research",
       "reason": "TechRadar 文字明確寫 goes on sale 日期，且商品名稱對應清單的 Cool CF1。"
-    },
-    {
-      "id": "fan-heran-hdf16",
-      "category": "fan",
-      "brand": "HERAN",
-      "model": "HDF-16S6",
-      "name": "16 吋 ECO 溫控智能變頻 DC 風扇",
-      "releaseDate": "找不到",
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "confidence": "not_found",
-      "query": "HERAN HDF-16S6 release date launch announced"
     },
     {
       "id": "fan-nwt-wpf16",
@@ -8682,6 +8669,20 @@
       "query": "Hisense 75Q7N release date launch announced 上市 發售"
     },
     {
+      "id": "tv-samsung-r95h-65",
+      "category": "tv",
+      "brand": "Samsung",
+      "model": "MRA65R95HAXXZW",
+      "name": "65 型 R95H Micro RGB 4K Vision AI 智慧顯示器",
+      "releaseDate": "2026-06-08",
+      "sourceUrl": "https://news.samsung.com/tw/%E4%B8%89%E6%98%9F%E6%8F%AD%E6%9B%892026-ai%E6%99%BA%E6%85%A7%E9%A1%AF%E7%A4%BA%E5%99%A8%E5%85%A8%E9%99%A3%E5%AE%B9-%E6%89%93%E9%80%A0%E5%85%A8%E6%96%B9%E4%BD%8Dai%E6%97%A5%E5%B8%B8",
+      "sourceTitle": "三星揭曉 2026 AI 智慧顯示器全陣容",
+      "evidenceSnippet": "Samsung 台灣官方於 2026-06-08 宣布在台推出 2026 智慧顯示器陣容，並明列 65 吋 R95H Micro RGB。",
+      "confidence": "official",
+      "query": "Samsung MRA65R95HAXXZW 上市 日期",
+      "sourceKind": "official_launch_announcement"
+    },
+    {
       "id": "soundbar-costco-philips-tab6309",
       "category": "soundbar",
       "brand": "Philips",
@@ -8903,6 +8904,20 @@
       "evidenceSnippet": "",
       "confidence": "not_found",
       "query": "Electrolux EWW1123P5WC release date launch announced 上市 發售"
+    },
+    {
+      "id": "washerdryer-lg-wd-s1818pb",
+      "category": "washerdryer",
+      "brand": "LG",
+      "model": "WD-S1818PB",
+      "name": "LG WashTower WD-S1818PB",
+      "releaseDate": "2026-07-16",
+      "sourceUrl": "https://news.nextapple.com/property/20260716/13C3A05BD893154F84EE3B713936D2B2",
+      "sourceTitle": "LG 65 公分窄版 WashTower 第二代在台推出",
+      "evidenceSnippet": "可信媒體於 2026-07-16 報導 LG 當日在台推出 WD-S1818PB，並列出台灣建議售價。",
+      "confidence": "credible_article",
+      "query": "LG WD-S1818PB 台灣 上市 2026-07-16",
+      "sourceKind": "credible_launch_article"
     },
     {
       "id": "refrigerator-costco-samsung-rt35cg562cb1tw",
@@ -9176,6 +9191,21 @@
       "evidenceSnippet": "",
       "confidence": "not_found",
       "query": "Samsung S32D706EAC release date launch announced 上市 發售"
+    },
+    {
+      "id": "monitor-samsung-ls40h850tacxzw",
+      "category": "monitor",
+      "brand": "Samsung",
+      "model": "LS40H850TACXZW",
+      "name": "40 型 ViewFinity S8 S85TH 5K2K 144Hz Thunderbolt 5 曲面螢幕",
+      "releaseDate": "2026-05",
+      "sourceUrl": "https://news.samsung.com/tw/%E4%B8%89%E6%98%9F%E5%86%8D%E5%89%B5%E9%A1%AF%E7%A4%BA%E6%96%B0%E6%A8%99%E6%BA%96odyssey%E8%88%87viewfinity%E5%85%A8%E6%96%B0%E7%99%BB%E5%A0%B4-%E4%BB%A55k%EF%BC%8F6k%E8%B6%85%E9%AB%98%E8%A7%A3",
+      "sourceTitle": "三星再創顯示新標準 Odyssey 與 ViewFinity 全新登場",
+      "evidenceSnippet": "Samsung 台灣 2026-05-18 官方新聞稿明列 S85TH，並說明該陣容自 2026 年 5 月下旬陸續在台上市。",
+      "confidence": "official",
+      "query": "site:news.samsung.com/tw ViewFinity S85TH 2026 5月下旬 在台上市",
+      "sourceKind": "official_press_release",
+      "reason": "官方只支援到 2026-05；05-18 是公告日，不應偽裝成實際發售日。"
     },
     {
       "id": "robot-xiaomi-vacuum-6-max",

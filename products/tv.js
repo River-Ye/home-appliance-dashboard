@@ -177,10 +177,10 @@
       "currency": "TWD",
       "amount": 56900,
       "converted": 56900,
-      "confidence": "PChome 2026-07-17 API 公開價"
+      "confidence": "PChome 2026-07-18 商品頁公開價"
     },
-    "image": "https://img.pchome.com.tw/cs/items/DMBM10A900HKA39/000001_1781001954.jpg",
-    "buyUrl": "https://24h.pchome.com.tw/prod/DMBM10-A900HKA39",
+    "image": "https://cs-a.ecimg.tw/items/DPADFNA900K7VQ8/000001_1784011502.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DPADFN-A900K7VQ8",
     "buyLabel": "PChome",
     "specs": [
       "65 吋 Mini LED",
@@ -292,16 +292,16 @@
     "releaseDate": "2026-07-08",
     "historicalLow": {
       "status": "found",
-      "amount": 74600,
+      "amount": 49618,
       "currency": "TWD",
-      "converted": 74600,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1283029655&cgp=74600",
-      "sourceTitle": "LBJ 歷史價格：(店+) LG OLED65C6PTA 65 吋 OLED 4K 智慧顯示器",
-      "evidenceSnippet": "LBJ 的 momo 店+ 同型號價格歷史於 2026-06-16、06-17 與 07-16 記錄 NT$74,600。",
+      "converted": 49618,
+      "sourceUrl": "https://biggo.com.tw/s/LG%20OLED65C6PTA/",
+      "sourceTitle": "BigGo 歷史價格：LG OLED65C6PTA 65 吋 OLED evo C6 智慧顯示器",
+      "evidenceSnippet": "BigGo 歷史價格顯示環球 Online 同型號新品最低價為 NT$49,618，2026-06-22 至 06-26 間共記錄 6 次。",
       "sourceKind": "price_history",
       "confidence": "high",
-      "checkedAt": "2026-07-16",
-      "note": "同型號新品含基本安裝；未扣除會員券、信用卡、點數或其他個人化回饋。"
+      "checkedAt": "2026-07-18",
+      "note": "採用 BigGo 可公開查核的價格歷史；同型號／規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。原商品頁：https://gmonline.twglobalmall.com/product/2EC0320420000799"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -335,9 +335,9 @@
     "name": "BRAVIA 9 II 65 型 RGB LED 4K Google TV",
     "price": {
       "currency": "TWD",
-      "amount": 110533,
-      "converted": 110533,
-      "confidence": "Yahoo購物中心 2026-07-17 商品頁公開價"
+      "amount": 108323,
+      "converted": 108323,
+      "confidence": "Yahoo購物中心 2026-07-18 商品頁公開價"
     },
     "image": "https://img.yec.tw/zp/MerchandiseImages/F326F9F0C5-SP-23019953.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/%E5%90%AB%E6%A8%99%E6%BA%96%E5%AE%89%E8%A3%9D-SONY%E7%B4%A2%E5%B0%BC65%E5%90%8B%E5%90%8BRGB-4K%E9%80%A3%E7%B6%B2%E6%99%BA%E6%85%A7%E9%A1%AF%E7%A4%BA%E5%99%A8Y-65XR90M2-12159450.html",
@@ -374,16 +374,16 @@
     "releaseDate": "2026-06-17",
     "historicalLow": {
       "status": "found",
-      "amount": 108323,
+      "amount": 103908,
       "currency": "TWD",
-      "converted": 108323,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1284150622&cgp=108323",
-      "sourceTitle": "LBJ 歷史價格：SONY Y-65XR90M2 65 吋 RGB 4K 智慧顯示器",
-      "evidenceSnippet": "LBJ 的 Yahoo 同型號含標準安裝價格由 NT$115,237 降至 2026-07-15、07-16 的 NT$108,323。",
+      "converted": 103908,
+      "sourceUrl": "https://biggo.com.tw/s/Sony%20Y-65XR90M2/",
+      "sourceTitle": "BigGo 歷史價格：SONY Y-65XR90M2 65 吋 RGB 4K 顯示器",
+      "evidenceSnippet": "BigGo 歷史價格顯示環球 Online 同型號含標準安裝新品最低價為 NT$103,908。",
       "sourceKind": "price_history",
-      "confidence": "high",
-      "checkedAt": "2026-07-16",
-      "note": "採同型號新品含標準安裝公開價格；未扣除信用卡、點數或會員個人化回饋。"
+      "confidence": "medium",
+      "checkedAt": "2026-07-18",
+      "note": "採用 BigGo 可公開查核的價格歷史；同型號／規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。原商品頁：https://gmonline.twglobalmall.com/product/2EC0320850014762"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -656,9 +656,9 @@
     "name": "BRAVIA 8 65 型 XR OLED 4K HDR Google TV 顯示器",
     "price": {
       "currency": "TWD",
-      "amount": 93900,
-      "converted": 93900,
-      "confidence": "PChome 2026-07-17 API 公開價"
+      "amount": 84510,
+      "converted": 84510,
+      "confidence": "PChome 2026-07-18 API 公開價"
     },
     "image": "https://cs-a.ecimg.tw/items/DPAD06A900HLBJO/000001_1776334113.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DPAD06-A900HLBJO",
@@ -814,9 +814,9 @@
     "name": "65 型 OLED 智慧聯網顯示器",
     "price": {
       "currency": "TWD",
-      "amount": 72072,
-      "converted": 72072,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 67977,
+      "converted": 67977,
+      "confidence": "PChome 2026-07-18 API 公開價"
     },
     "image": "https://cs-a.ecimg.tw/items/DPAD09A900J9FAZ/000001_1761888394.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DPAD09-A900J9FAZ",
@@ -1604,9 +1604,9 @@
     "name": "65型 4K QLED 120Hz Google TV",
     "price": {
       "currency": "TWD",
-      "amount": 13990,
-      "converted": 13990,
-      "confidence": "PChome 2026-07-17 API 公開價"
+      "amount": 12591,
+      "converted": 12591,
+      "confidence": "PChome 2026-07-18 API 公開價"
     },
     "image": "https://cs-a.ecimg.tw/items/DPADTOA900JNE73/000001_1768523868.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DPADTO-A900JNMOP",
@@ -2068,6 +2068,90 @@
           "platform": "Reddit",
           "query": "site:reddit.com \"Hisense 75Q7N\" (problem OR issue OR defect OR negative review)",
           "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22Hisense%2075Q7N%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "targetHost": "reddit.com"
+        }
+      ]
+    }
+  },
+  {
+    "id": "tv-samsung-r95h-65",
+    "category": "tv",
+    "rank": 27,
+    "budget": "premium",
+    "channel": "tw",
+    "brand": "Samsung",
+    "model": "MRA65R95HAXXZW",
+    "name": "65 型 R95H Micro RGB 4K Vision AI 智慧顯示器",
+    "price": {
+      "currency": "TWD",
+      "amount": 106900,
+      "converted": 106900,
+      "confidence": "PChome 2026-07-18 API 公開價"
+    },
+    "image": "https://cs-a.ecimg.tw/items/DPADO2A900K3VO9/000001_1783567837.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DPADO2-A900K3VO9",
+    "buyLabel": "PChome",
+    "specs": [
+      "65 吋 4K Micro RGB / 最高 165Hz VRR",
+      "Micro RGB Precision Color / 100% BT.2020 色域",
+      "抗反光真星黑面板 / Micro RGB AI Engine Pro",
+      "4 組 HDMI / 手機投影：支援 AirPlay、Google Cast 與鏡像分享",
+      "重量：22.4kg（不含底座）",
+      "機身尺寸：143.71 x 82.6 x 2.96 cm（不含底座）"
+    ],
+    "description": "Samsung 2026 旗艦 Micro RGB，以獨立微型紅綠藍背光、廣色域與 165Hz 補上現有清單沒有的顯示技術。",
+    "pros": [
+      "Micro RGB 與 100% BT.2020 提供更精細的色彩控制",
+      "抗反光面板、165Hz VRR 與四組 HDMI 兼顧明亮客廳及遊戲",
+      "AirPlay、Google Cast 與 Samsung 生態系投影支援完整"
+    ],
+    "cons": [
+      "上市價高，仍需和高階 OLED、Mini LED 的黑位與 CP 值比較",
+      "65 吋機身重 22.4kg，壁掛與搬運需確認承重及施工空間",
+      "新顯示技術的長期使用評價與後續折價幅度仍待觀察"
+    ],
+    "bestFor": "想優先比較 2026 新顯示技術、明亮客廳 HDR 與高更新率遊戲的高階使用者。",
+    "recommendation": "R95H 是目前清單唯一 Micro RGB，補足技術多樣性；價格高但色域、抗反光與 165Hz 規格完整，適合作為旗艦技術對照。",
+    "score": 93,
+    "voltage": "AC 100-240V / 50-60Hz",
+    "warranty": "台灣公司貨；期限依 Samsung 台灣原廠條款",
+    "tags": [
+      "Micro RGB",
+      "165Hz",
+      "BT.2020",
+      "抗反光",
+      "旗艦"
+    ],
+    "releaseDate": "2026-06-08",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-07-18",
+      "note": "MRA65R95HAXXZW 於 2026-06-08 在台新上市；查核 exact-model 價格歷史與比價來源僅見 PChome 等可信通路上市現價 NT$106,900，未找到可公開驗證的可信新品歷史最低價。上市現價不得直接推定為史低；FindPrice 的更低候選為一般賣家或附最低購買量等不合規條件，均未採用。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-07-18",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Samsung MRA65R95HAXXZW\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Samsung%20MRA65R95HAXXZW%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Samsung MRA65R95HAXXZW\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22Samsung%20MRA65R95HAXXZW%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
           "targetHost": "reddit.com"
         }
       ]

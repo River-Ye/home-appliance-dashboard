@@ -254,9 +254,9 @@
     "name": "BE3600 雙頻 Wi-Fi 7 AiMesh 可擴充路由器",
     "price": {
       "currency": "TWD",
-      "amount": 3699,
-      "converted": 3699,
-      "confidence": "Yahoo購物中心 2026-07-15 頁面查核價"
+      "amount": 3552,
+      "converted": 3552,
+      "confidence": "Yahoo購物中心 2026-07-18 商品頁公開價"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAFLPA900JKWXK/000001_1783555436.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/ASUS-%E8%8F%AF%E7%A2%A9-RT-BE58U-V2-BE3600-%E9%9B%99%E9%A0%BB-Wi-Fi-7-%E5%8F%AF%E6%93%B4%E5%85%85%E5%BC%8F%E8%B7%AF%E7%94%B1%E5%99%A8-12005854.html",
@@ -1434,9 +1434,9 @@
     "name": "BE6500 雙頻 Wi-Fi 7 路由器",
     "price": {
       "currency": "TWD",
-      "amount": 4299,
-      "converted": 4299,
-      "confidence": "Yahoo購物中心 2026-07-16 UTC 商品頁公開價"
+      "amount": 4128,
+      "converted": 4128,
+      "confidence": "Yahoo購物中心 2026-07-18 商品頁公開價"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAFLPA900IV4B6/000001_1783556530.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/ASUS-%E8%8F%AF%E7%A2%A9-RT-BE82U-WiFi-7-%E9%9B%99%E9%A0%BB-BE6500-%E8%B7%AF%E7%94%B1%E5%99%A8-%E5%88%86%E4%BA%AB%E5%99%A8-11798654.html",
@@ -1671,9 +1671,9 @@
     "name": "BE11000 Mesh Wi-Fi 7 電競路由器",
     "price": {
       "currency": "TWD",
-      "amount": 5490,
-      "converted": 5490,
-      "confidence": "PChome 2026-07-17 API 公開價"
+      "amount": 5290,
+      "converted": 5290,
+      "confidence": "PChome 2026-07-18 API 公開價"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAF02A900I473A/000001_1732699929.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DRAF02-A900I473A",
@@ -1991,37 +1991,37 @@
     "name": "BE3600 雙頻 2.5G Wi-Fi 7 路由器",
     "price": {
       "currency": "TWD",
-      "amount": 1890,
-      "converted": 1890,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 2299,
+      "converted": 2299,
+      "confidence": "PChome 2026-07-18 API 公開價"
     },
-    "image": "https://cs-a.ecimg.tw/items/DSBC1TA900IR9CO/000001_1746532107.jpg",
-    "buyUrl": "https://24h.pchome.com.tw/prod/DSBC1T-A900IR9CO",
+    "image": "https://cs-a.ecimg.tw/items/DRAFJ9A900HSRT9/000001_1755483449.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DRAFJ9-A900HSRT9",
     "buyLabel": "PChome",
     "specs": [
       "Wi-Fi 7",
       "BE3600 雙頻",
-      "Mesh：未特別標示 Mesh",
+      "Mesh：支援 EasyMesh，可用相容節點擴充",
       "2.5G + Gigabit"
     ],
     "description": "Mercusys MR27BE 是 Wi-Fi 6 以上無線路由器，已排除網卡、延伸器、交換器與福利/展示/拆封品。",
     "pros": [
-      "單機路由規格清楚、適合集中式擺放",
-      "台灣可信通路新品，價格與圖片可查核"
+      "雙 2.5G 埠與 Wi-Fi 7 規格完整，適合入門升級",
+      "支援 EasyMesh，可搭配相容節點擴充涵蓋範圍"
     ],
     "cons": [
-      "未特別標示 Mesh，不建議作為 2-3 台串接首選",
-      "多 Gigabit 或 Wi-Fi 7 效益需終端裝置與網路速率配合"
+      "EasyMesh 混用前仍需確認韌體版本與跨品牌相容性",
+      "Wi-Fi 7 效益需終端裝置與網路速率配合"
     ],
     "bestFor": "想最低成本進 Wi-Fi 7 與 2.5G 的小空間使用者。",
-    "recommendation": "入門價位很強，但若要全屋 Mesh 串接，請優先看 Halo/Deco/ZenWiFi。",
+    "recommendation": "以 NT$2,299 提供雙 2.5G、Wi-Fi 7 與 EasyMesh，適合低成本升級；多節點前仍要核對相容清單。",
     "score": 79,
     "voltage": "110V 台灣通路；多數使用外接變壓器",
-    "warranty": "依 PChome/供應商頁面",
+    "warranty": "台灣公司貨 3 年（依 PChome／供應商頁面）",
     "tags": [
       "低價",
       "2.5G",
-      "單台",
+      "EasyMesh",
       "Mercusys"
     ],
     "releaseDate": "找不到",
@@ -2307,9 +2307,9 @@
     "name": "AX5400 Velop Mesh Wi-Fi 6 三入組",
     "price": {
       "currency": "TWD",
-      "amount": 10990,
-      "converted": 10990,
-      "confidence": "Yahoo購物中心 2026-07-15 頁面查核價"
+      "amount": 10551,
+      "converted": 10551,
+      "confidence": "Yahoo購物中心 2026-07-18 商品頁公開價"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAFE5A900JUA8C/000001_1774227439.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/%E6%98%8C%E9%81%8B%E7%9B%A3%E8%A6%96%E5%99%A8Linksys-MX5502-AH-AX5400-Velop-Mesh-WiFi-6%E9%9B%99%E9%A0%BB%E7%B6%B2-12019533.html",
@@ -2386,9 +2386,9 @@
     "name": "三頻 Wi-Fi 6 Router 無線路由器",
     "price": {
       "currency": "TWD",
-      "amount": 9999,
-      "converted": 9999,
-      "confidence": "Yahoo購物中心 2026-07-15 頁面查核價"
+      "amount": 9600,
+      "converted": 9600,
+      "confidence": "Yahoo購物中心 2026-07-18 商品頁公開價"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBS4VA900JIQU0/000001_1764896894.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/%E6%98%8C%E9%81%8B%E7%9B%A3%E8%A6%96%E5%99%A8-Synology%E7%BE%A4%E6%9A%89-RT6600AX-%E4%B8%89%E9%A0%BB-Wi-Fi-6-Router-%E7%84%A1%E7%B7%9A%E8%B7%AF%E7%94%B1%E5%99%A8-11898475.html",
@@ -2735,9 +2735,9 @@
     "name": "BE9300 三頻 Wi-Fi 7 旗艦路由器",
     "price": {
       "currency": "TWD",
-      "amount": 8700,
-      "converted": 8700,
-      "confidence": "PChome 2026-07-17 API 公開價"
+      "amount": 8300,
+      "converted": 8300,
+      "confidence": "PChome 2026-07-18 API 公開價"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAFJAA900IFBVA/000001_1780997121.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DRAFJA-A900IFBVA",
@@ -2912,9 +2912,9 @@
     "name": "Wi-Fi 6E 三頻電競路由器",
     "price": {
       "currency": "TWD",
-      "amount": 7990,
-      "converted": 7990,
-      "confidence": "PChome 2026-07-17 API 公開價"
+      "amount": 7790,
+      "converted": 7790,
+      "confidence": "PChome 2026-07-18 API 公開價"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAFKSA900HEQVN/000001_1713512948.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DRAFKS-A900HEQVN",
@@ -3232,9 +3232,9 @@
     "name": "Wi-Fi 6 雙 10GbE SD-WAN 路由器",
     "price": {
       "currency": "TWD",
-      "amount": 7990,
-      "converted": 7990,
-      "confidence": "PChome 2026-07-17 API 公開價"
+      "amount": 7790,
+      "converted": 7790,
+      "confidence": "PChome 2026-07-18 API 公開價"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAG6JA900AUW3D/000001_1626400932.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DRAG6J-A900AUW3D",

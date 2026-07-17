@@ -910,16 +910,16 @@
     "releaseDate": "2018-12-18",
     "historicalLow": {
       "status": "found",
-      "amount": 6999,
+      "amount": 6966,
       "currency": "TWD",
-      "converted": 6999,
-      "sourceUrl": "https://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=9861645",
-      "sourceTitle": "momo購物 商品頁：【LG 樂金】CordZero A9 Air濕拖無線吸塵器/乾吸濕拖x超輕盈x超美型xmomo獨家(A7-LITEMOP 雲朵白)",
-      "evidenceSnippet": "momo購物 原始商品頁／API 於 2026-07-11 顯示同型號新品公開價 6999 TWD，低於既有可驗證史低。",
-      "sourceKind": "retailer_page",
+      "converted": 6966,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1269083531&cgp=7116",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：LG CordZero A9 Air A7-LITE",
+      "evidenceSnippet": "LBJ 比價撿便宜歷史價格顯示 Yahoo購物中心同型號新品最低價為 NT$6,966，最低點日期 2026-06-18。",
+      "sourceKind": "price_history",
       "confidence": "high",
-      "checkedAt": "2026-07-11",
-      "note": "採用同型號、同尺寸／容量／規格的可信新品公開價；排除會員個人化折扣、信用卡回饋、點數、二手、福利品、展示、拆封與整新品。"
+      "checkedAt": "2026-07-18",
+      "note": "採用 LBJ 比價撿便宜可公開查核的價格歷史；同型號／規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     },
     "issueResearch": {
       "status": "no_common_issue",
