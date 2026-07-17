@@ -2179,17 +2179,17 @@
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "found",
-      "amount": 10343,
+      "status": "not_found",
+      "amount": null,
       "currency": "TWD",
-      "converted": 10343,
-      "sourceUrl": "https://24h.pchome.com.tw/prod/DSABKB-A900K092J",
-      "sourceTitle": "PChome 商品頁：27 型 2K 240Hz QD-OLED 電競螢幕（ROG Strix XG27AQDMES）",
-      "evidenceSnippet": "PChome 同型號新品頁於 2026-07-14 顯示公開售價 NT$10,343，低於原先記錄史低。",
-      "sourceKind": "retailer_page",
-      "confidence": "medium",
-      "checkedAt": "2026-07-14",
-      "note": "採用同型號新品頁可公開查核售價作為本次觀測到的最低價；排除會員個人化折扣、信用卡回饋、點數、二手、福利品、展示機、箱損、拆封與整新品。"
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-07-17",
+      "note": "原 PChome XG27AQDMES 史低頁於 2026-07-17 雖回應 HTTP 200，但商品 API 已回傳空白商品，無法再重現同型號與 NT$10,343 證據；其他可信通路只確認目前新品價，未找到可替代的公開史低證據，因此誠實改為找不到。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -3698,9 +3698,9 @@
     "name": "49 型 Odyssey OLED G9 Dual QHD 240Hz 曲面螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 36900,
-      "converted": 36900,
-      "confidence": "PChome 2026-07-16 API 公開價"
+      "amount": 34999,
+      "converted": 34999,
+      "confidence": "PChome 2026-07-16 UTC API 公開價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBM10A900HZCPE/000001_1781766568.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBM10-A900HZCPE",

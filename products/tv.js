@@ -175,9 +175,9 @@
     "name": "BRAVIA 7 65 型 Mini LED 4K Google TV",
     "price": {
       "currency": "TWD",
-      "amount": 56900,
-      "converted": 56900,
-      "confidence": "PChome 2026-07-16 API 公開價"
+      "amount": 53910,
+      "converted": 53910,
+      "confidence": "PChome 2026-07-16 UTC API 公開價"
     },
     "image": "https://img.pchome.com.tw/cs/items/DMBM10A900HKA39/000001_1781001954.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBM10-A900HKA39",
@@ -335,9 +335,9 @@
     "name": "BRAVIA 9 II 65 型 RGB LED 4K Google TV",
     "price": {
       "currency": "TWD",
-      "amount": 110533,
-      "converted": 110533,
-      "confidence": "Yahoo購物中心 2026-07-16 商品頁公開價"
+      "amount": 108323,
+      "converted": 108323,
+      "confidence": "Yahoo購物中心 2026-07-16 UTC 商品頁公開價"
     },
     "image": "https://img.yec.tw/zp/MerchandiseImages/F326F9F0C5-SP-23019953.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/%E5%90%AB%E6%A8%99%E6%BA%96%E5%AE%89%E8%A3%9D-SONY%E7%B4%A2%E5%B0%BC65%E5%90%8B%E5%90%8BRGB-4K%E9%80%A3%E7%B6%B2%E6%99%BA%E6%85%A7%E9%A1%AF%E7%A4%BA%E5%99%A8Y-65XR90M2-12159450.html",
@@ -656,9 +656,9 @@
     "name": "BRAVIA 8 65 型 XR OLED 4K HDR Google TV 顯示器",
     "price": {
       "currency": "TWD",
-      "amount": 93900,
-      "converted": 93900,
-      "confidence": "PChome 2026-07-16 API 公開價"
+      "amount": 84510,
+      "converted": 84510,
+      "confidence": "PChome 2026-07-16 UTC API 公開價"
     },
     "image": "https://cs-a.ecimg.tw/items/DPAD06A900HLBJO/000001_1776334113.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DPAD06-A900HLBJO",
@@ -1604,9 +1604,9 @@
     "name": "65型 4K QLED 120Hz Google TV",
     "price": {
       "currency": "TWD",
-      "amount": 13990,
-      "converted": 13990,
-      "confidence": "PChome 2026-07-16 API 公開價"
+      "amount": 12591,
+      "converted": 12591,
+      "confidence": "PChome 2026-07-16 UTC API 公開價"
     },
     "image": "https://cs-a.ecimg.tw/items/DPADTOA900JNE73/000001_1768523868.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DPADTO-A900JNMOP",

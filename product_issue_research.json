@@ -1,9 +1,9 @@
 {
   "summary": {
-    "checkedAt": "2026-07-16T18:12:00+08:00",
-    "total": 662,
+    "checkedAt": "2026-07-17T00:00:00+08:00",
+    "total": 664,
     "commonIssueProducts": 36,
-    "noCommonIssueProducts": 626,
+    "noCommonIssueProducts": 628,
     "pendingManualReview": 0,
     "commonIssues": 36,
     "searchUnavailable": 0,
@@ -14,7 +14,7 @@
     },
     "sourcePolicy": "搜尋引擎只用於發現候選；只有原始論壇、社群或零售評價頁中可辨識的第一人稱同型號回報才計入人數。同帳號、跨站轉貼、按讚、媒體轉述與搜尋摘要不重複計算。",
     "noIssueWording": "截至查核日，查無達門檻的集中負評／災情",
-    "refreshedThisRun": 1,
+    "refreshedThisRun": 2,
     "preservedExistingNegativeEvidence": 49,
     "priorFullRefresh": {
       "checkedAt": "2026-07-11",
@@ -461,7 +461,7 @@
         }
       ],
       "evidence": [],
-    "rejectedCandidates": []
+      "rejectedCandidates": []
     },
     {
       "id": "tv-samsung-s95h-65",
@@ -2865,7 +2865,7 @@
         }
       ],
       "evidence": [],
-    "rejectedCandidates": []
+      "rejectedCandidates": []
     },
     {
       "id": "soundbar-sonos-arc-ultra",
@@ -31182,6 +31182,84 @@
       "rejectedCandidates": []
     },
     {
+      "id": "cookware-zwilling-unlock-1034435",
+      "category": "cookware",
+      "brand": "ZWILLING",
+      "model": "UNLOCK 1034435",
+      "name": "UNLOCK 可拆式不鏽鋼湯鍋 5 件組",
+      "identity": {
+        "canonicalModel": "UNLOCK 1034435",
+        "lookupLabel": "ZWILLING UNLOCK 1034435",
+        "aliases": [
+          "ZWILLING UNLOCK 1034435"
+        ],
+        "evidenceUrl": "https://www.zwilling.com.tw/products/1034435"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "status": "completed",
+        "decision": "no_common_issue",
+        "reviewedAt": "2026-07-17",
+        "checkedPlatforms": [
+          "Mobile01",
+          "Reddit"
+        ],
+        "queries": [
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"ZWILLING UNLOCK 1034435\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22ZWILLING%20UNLOCK%201034435%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "mobile01.com"
+          },
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"ZWILLING UNLOCK 1034435\" (problem OR issue OR defect OR negative review)",
+            "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22ZWILLING%20UNLOCK%201034435%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+            "targetHost": "reddit.com"
+          }
+        ],
+        "candidateDisposition": "UNLOCK 1034435：已人工執行 Mobile01 與 Reddit canonical exact-model 查詢，未發現通過完整型號邊界的原頁候選；一般 ZWILLING 鍋具討論不跨型號計入，此結果不代表完全沒有負評。",
+        "representativeSources": [],
+        "candidateReviews": [],
+        "reviewerNote": "UNLOCK 1034435 已逐站人工覆核 Mobile01 與 Reddit exact-model 查詢；兩站均無同型號原頁候選，未以搜尋摘要或相近鍋具討論推定 no_common_issue。",
+        "attestation": "manual_cross_site_search_reviewed_no_candidate"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-07-17",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"ZWILLING UNLOCK 1034435\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22ZWILLING%20UNLOCK%201034435%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "mobile01.com"
+          },
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"ZWILLING UNLOCK 1034435\" (problem OR issue OR defect OR negative review)",
+            "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22ZWILLING%20UNLOCK%201034435%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+            "targetHost": "reddit.com"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "Yahoo Search",
+          "query": "(\"ZWILLING UNLOCK 1034435\") (problem OR issue OR defect OR failure OR 災情 OR 故障 OR 負評) (site:mobile01.com OR site:dcard.tw OR site:ptt.cc OR site:reddit.com OR site:snbforums.com OR site:52asus.com)",
+          "searchUrl": "https://search.yahoo.com/search?p=(%22ZWILLING%20UNLOCK%201034435%22)%20(problem%20OR%20issue%20OR%20defect%20OR%20failure%20OR%20%E7%81%BD%E6%83%85%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)%20(site%3Amobile01.com%20OR%20site%3Adcard.tw%20OR%20site%3Aptt.cc%20OR%20site%3Areddit.com%20OR%20site%3Asnbforums.com%20OR%20site%3A52asus.com)",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-07-17T00:00:00+08:00"
+        }
+      ],
+      "evidence": [],
+      "rejectedCandidates": []
+    },
+    {
       "id": "knife-tojiro-dp-f-808-210mm",
       "category": "knife",
       "brand": "TOJIRO",
@@ -37844,6 +37922,84 @@
           "candidateUrls": [],
           "candidates": [],
           "inspectedAt": "2026-07-11T00:00:00+08:00"
+        }
+      ],
+      "evidence": [],
+      "rejectedCandidates": []
+    },
+    {
+      "id": "oven-ninja-crispi-mw101",
+      "category": "oven",
+      "brand": "Ninja",
+      "model": "MW101",
+      "name": "Crispi 5.5qt 氣炸微波爐",
+      "identity": {
+        "canonicalModel": "MW101",
+        "lookupLabel": "Ninja MW101",
+        "aliases": [
+          "Ninja MW101"
+        ],
+        "evidenceUrl": "https://www.sharkninja.com/ninja-crispi-microwave/MW101.html"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "status": "completed",
+        "decision": "no_common_issue",
+        "reviewedAt": "2026-07-17",
+        "checkedPlatforms": [
+          "Mobile01",
+          "Reddit"
+        ],
+        "queries": [
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"Ninja MW101\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Ninja%20MW101%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "mobile01.com"
+          },
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"Ninja MW101\" (problem OR issue OR defect OR negative review)",
+            "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22Ninja%20MW101%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+            "targetHost": "reddit.com"
+          }
+        ],
+        "candidateDisposition": "MW101：已人工執行 Mobile01 與 Reddit canonical exact-model 查詢，未發現通過完整 MW101 型號邊界的原頁候選；近似 Crispi 討論分別因未含型號與明示 FN101GY 排除，此結果不代表完全沒有負評。",
+        "representativeSources": [],
+        "candidateReviews": [],
+        "reviewerNote": "MW101 已逐站人工覆核 Mobile01 與 Reddit exact-model 查詢；預上市贈測討論未含型號，另一篇明示 FN101GY，均不跨型號計入。",
+        "attestation": "manual_cross_site_search_reviewed_no_candidate"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-07-17",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"Ninja MW101\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Ninja%20MW101%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "mobile01.com"
+          },
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"Ninja MW101\" (problem OR issue OR defect OR negative review)",
+            "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22Ninja%20MW101%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+            "targetHost": "reddit.com"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "Yahoo Search",
+          "query": "(\"Ninja MW101\") (problem OR issue OR defect OR failure OR 災情 OR 故障 OR 負評) (site:mobile01.com OR site:dcard.tw OR site:ptt.cc OR site:reddit.com OR site:snbforums.com OR site:52asus.com)",
+          "searchUrl": "https://search.yahoo.com/search?p=(%22Ninja%20MW101%22)%20(problem%20OR%20issue%20OR%20defect%20OR%20failure%20OR%20%E7%81%BD%E6%83%85%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)%20(site%3Amobile01.com%20OR%20site%3Adcard.tw%20OR%20site%3Aptt.cc%20OR%20site%3Areddit.com%20OR%20site%3Asnbforums.com%20OR%20site%3A52asus.com)",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-07-17T00:00:00+08:00"
         }
       ],
       "evidence": [],

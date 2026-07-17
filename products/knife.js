@@ -349,9 +349,9 @@
     "image": "https://cs-a.ecimg.tw/items/DEAGY1A900JBVOD/000001_1759990405.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 2166,
-      "converted": 2166,
-      "confidence": "PChome 2026-07-12 API 查核價"
+      "amount": 2280,
+      "converted": 2280,
+      "confidence": "PChome 2026-07-16 UTC API 公開價"
     },
     "channel": "tw",
     "buyLabel": "PChome",

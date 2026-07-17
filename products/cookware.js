@@ -99,9 +99,9 @@
     "image": "https://cs-a.ecimg.tw/items/DEAWN3A900JOVE3/000001_1783576740.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 759,
-      "converted": 759,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 799,
+      "converted": 799,
+      "confidence": "PChome 2026-07-16 UTC API 公開價"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -683,9 +683,9 @@
     "image": "https://cs-a.ecimg.tw/items/DEAWMJA900JN626/000001_1768377713.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 1584,
-      "converted": 1584,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 1980,
+      "converted": 1980,
+      "confidence": "PChome 2026-07-16 UTC API 公開價"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -1100,9 +1100,9 @@
     "image": "https://cs-a.ecimg.tw/items/DEAWGAA900B4V1I/000001_1670815636.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 1415,
-      "converted": 1415,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 1490,
+      "converted": 1490,
+      "confidence": "PChome 2026-07-16 UTC API 公開價"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -1345,9 +1345,9 @@
     "name": "陶晶壺型鍋 1.7L",
     "price": {
       "currency": "TWD",
-      "amount": 6240,
-      "converted": 6240,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 7800,
+      "converted": 7800,
+      "confidence": "PChome 2026-07-16 UTC API 公開價"
     },
     "image": "https://cs-a.ecimg.tw/items/DEAWMJA900JMZA5/000001_1768290148.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DEAWMJ-A900JMZA5",
@@ -1881,6 +1881,90 @@
           "platform": "Reddit",
           "query": "site:reddit.com \"Tefal Ingenio 6-Piece Set\" (problem OR issue OR defect OR negative review)",
           "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Tefal%20Ingenio%206-Piece%20Set%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "targetHost": "reddit.com"
+        }
+      ]
+    }
+  },
+  {
+    "id": "cookware-zwilling-unlock-1034435",
+    "category": "cookware",
+    "rank": 24,
+    "topPick": false,
+    "budget": "mid",
+    "channel": "tw",
+    "brand": "ZWILLING",
+    "model": "UNLOCK 1034435",
+    "name": "UNLOCK 可拆式不鏽鋼湯鍋 5 件組",
+    "price": {
+      "currency": "TWD",
+      "amount": 4399,
+      "converted": 4399,
+      "confidence": "ZWILLING 台灣官方 2026-07-17 商品頁公開現貨價"
+    },
+    "image": "https://cdn-general.cybassets.com/media/W1siZiIsIjI5NjAzL3Byb2R1Y3RzLzY2NzY4OTM5LzE3NzQyNDc2OTVfYzA5NWI2ZTE5OTlkMDRiOGI3ZTAuanBlZyJdLFsicCIsInRodW1iIiwiNjAweDYwMCJdXQ.jpeg?sha=9fa2e8a058d23cc1",
+    "buyUrl": "https://www.zwilling.com.tw/products/1034435",
+    "buyLabel": "ZWILLING 台灣官方",
+    "specs": [
+      "16cm / 1.5L 與 20cm / 3L 湯鍋",
+      "5 件組：兩只湯鍋、可拆手柄與玻璃鍋蓋",
+      "歐規 18/10 不鏽鋼；鋼鋁鋼三層結構",
+      "可堆疊收納；全爐具含電磁爐適用",
+      "整組重量 2.683kg；中國製"
+    ],
+    "description": "ZWILLING 7 月新品把 16cm、20cm 兩種湯鍋做成可堆疊、共用可拆手柄的 5 件組，適合小宅或露營收納；18/10 不鏽鋼三層鍋身可用於各式爐具。",
+    "pros": [
+      "可拆手柄與堆疊設計節省空間",
+      "兩種容量兼顧小份與家庭料理",
+      "全爐具含電磁爐適用"
+    ],
+    "cons": [
+      "兩只鍋共享手柄，連續料理需調度",
+      "使用前必須確認手柄完全鎖定",
+      "不鏽鋼鍋不是不沾鍋，需掌握預熱與油量"
+    ],
+    "bestFor": "小宅、露營或收納空間有限，想用兩種尺寸共用可拆手柄的人。",
+    "recommendation": "台灣新品推薦：官方現貨、尺寸與材質證據完整，可拆堆疊有明確差異化；但共享手柄與不鏽鋼烹調習慣要先評估。",
+    "score": 86,
+    "voltage": "不適用（非電器；全爐具含電磁爐適用）",
+    "warranty": "依 ZWILLING 台灣官方保固政策與商品頁標示",
+    "tags": [
+      "新品",
+      "可拆手柄",
+      "可堆疊",
+      "18/10不鏽鋼",
+      "電磁爐"
+    ],
+    "releaseDate": "2026-07-17",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-07-17",
+      "note": "UNLOCK 1034435 於 2026-07-17 新上市；只找到台灣官方上市現價 NT$4,399 與刪除牌價 NT$6,880，未找到可公開驗證的可信新品歷史最低價。上市促銷現價不得直接推定為史低。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-07-17",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"ZWILLING UNLOCK 1034435\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22ZWILLING%20UNLOCK%201034435%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"ZWILLING UNLOCK 1034435\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22ZWILLING%20UNLOCK%201034435%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
           "targetHost": "reddit.com"
         }
       ]

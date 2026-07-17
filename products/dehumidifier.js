@@ -251,9 +251,9 @@
     "name": "19.6 公升 PuriCare 雙變頻除濕機",
     "price": {
       "currency": "TWD",
-      "amount": 20805,
-      "converted": 20805,
-      "confidence": "Yahoo購物中心 2026-07-16 商品頁公開價"
+      "amount": 19765,
+      "converted": 19765,
+      "confidence": "Yahoo購物中心 2026-07-16 UTC 商品頁公開價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ4OA900JX7GH/000001_1783563034.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/LG%E6%A8%82%E9%87%91-DD201MEE0-19-6%E5%85%AC%E5%8D%87-PuriCare-%E9%9B%99%E8%AE%8A%E9%A0%BB%E9%99%A4%E6%BF%95%E6%A9%9F-11884613.html",
@@ -797,9 +797,9 @@
     "name": "PuriCare 12 公升雙變頻除濕機",
     "price": {
       "currency": "TWD",
-      "amount": 12400,
-      "converted": 12400,
-      "confidence": "Yahoo購物中心 2026-07-16 商品頁公開價"
+      "amount": 11780,
+      "converted": 11780,
+      "confidence": "Yahoo購物中心 2026-07-16 UTC 商品頁公開價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ4NA900JF9HP/000001_1778165423.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/LG%E6%A8%82%E9%87%91-12%E5%85%AC%E5%8D%87-%E6%97%A5UV%E6%AE%BA%E8%8F%8C%E9%9B%99%E8%AE%8A%E9%A0%BB%E9%99%A4%E6%BF%95%E6%A9%9FDD121QWE0-11864251.html",
@@ -953,9 +953,9 @@
     "name": "PuriCare 雙變頻除濕機 25.6 公升曜黑",
     "price": {
       "currency": "TWD",
-      "amount": 18900,
-      "converted": 18900,
-      "confidence": "Yahoo購物中心 2026-07-16 商品頁公開價"
+      "amount": 18522,
+      "converted": 18522,
+      "confidence": "Yahoo購物中心 2026-07-16 UTC 商品頁公開價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ07A900GFBVP/000001_1767340170.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/LG%E6%A8%82%E9%87%91-PuriCare-%E9%9B%99%E8%AE%8A%E9%A0%BB%E9%99%A4%E6%BF%95%E6%A9%9F-25-6%E5%85%AC%E5%8D%87-%E6%9B%9C%E9%BB%91-WD261VKF0-11970685.html",
@@ -1031,9 +1031,9 @@
     "name": "18 公升一級能效 PuriCare 雙變頻除濕機",
     "price": {
       "currency": "TWD",
-      "amount": 17900,
-      "converted": 17900,
-      "confidence": "Yahoo購物中心 2026-07-16 商品頁公開價"
+      "amount": 17542,
+      "converted": 17542,
+      "confidence": "Yahoo購物中心 2026-07-16 UTC 商品頁公開價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ4NA900JCHFZ/000001_1783342859.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/LG%E6%A8%82%E9%87%91-PuriCare-18%E5%85%AC%E5%8D%87%E9%9B%99%E8%AE%8A%E9%A0%BB%E9%99%A4%E6%BF%95%E6%A9%9F-%E7%99%BD%E8%89%B2-DD181MWE0-11971018.html",
@@ -1109,9 +1109,9 @@
     "name": "20L 第六感智能除濕機",
     "price": {
       "currency": "TWD",
-      "amount": 9990,
-      "converted": 9990,
-      "confidence": "Yahoo購物中心 2026-07-16 商品頁公開價"
+      "amount": 8991,
+      "converted": 8991,
+      "confidence": "Yahoo購物中心 2026-07-16 UTC 商品頁公開價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ3SA900K13ZR/000001_1779265654.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/Whirlpool%E6%83%A0%E8%80%8C%E6%B5%A6-WDEE20TW-20L-%E7%AC%AC%E5%85%AD%E6%84%9F%E6%99%BA%E8%83%BD%E9%99%A4%E6%BF%95%E6%A9%9F-12132430.html",
@@ -1818,9 +1818,9 @@
     "name": "12L 一級能效極致薄型清新淨味除濕機",
     "price": {
       "currency": "TWD",
-      "amount": 8290,
-      "converted": 8290,
-      "confidence": "momo購物 2026-07-15 晚間頁面查核價"
+      "amount": 7690,
+      "converted": 7690,
+      "confidence": "momo購物網 2026-07-16 UTC 商品頁公開價"
     },
     "image": "https://i2.momoshop.com.tw/1781626760/goodsimg/0015/034/893/15034893_R_m.webp",
     "buyUrl": "https://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=15034893",
@@ -1861,16 +1861,16 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 7990,
+      "amount": 7690,
       "currency": "TWD",
-      "converted": 7990,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1272555718&cgp=7990",
-      "sourceTitle": "LBJ 比價撿便宜歷史價格：Whirlpool WDEE1200TW（momo 品號 15034893）",
-      "evidenceSnippet": "LBJ exact-item 價格序列顯示 2026-06-09、2026-06-13 為 NT$7,990；BigGo exact history_id 亦顯示 365 天最低 NT$7,990，並非以目前售價倒推史低。",
-      "sourceKind": "price_history",
+      "converted": 7690,
+      "sourceUrl": "https://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=15034893",
+      "sourceTitle": "momo購物網：Whirlpool WDEE1200TW 12 公升極致薄型清新淨味除濕機",
+      "evidenceSnippet": "momo 同型號新品頁於 2026-07-16 UTC 顯示公開售價 NT$7,690、goodsStock 1、goodsNum 20，低於原記錄史低 NT$7,990。",
+      "sourceKind": "retailer_page",
       "confidence": "high",
-      "checkedAt": "2026-07-11",
-      "note": "採用同型號、同規格 momo 新品的公開價格歷史；排除搜尋結果中的濾網配件、會員券、點數、信用卡回饋、二手、福利品與展示品。"
+      "checkedAt": "2026-07-17",
+      "note": "採用可信通路同型號新品頁可公開查核售價；排除會員個人化折扣、信用卡回饋、點數、二手、福利品、展示機、拆封品與整新品。"
     },
     "issueResearch": {
       "status": "no_common_issue",

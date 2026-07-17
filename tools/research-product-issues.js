@@ -296,6 +296,25 @@ function candidateReviewsMatchSearch(review, searchCheck) {
   ));
 }
 
+function sanitizedSearchChecks(product, searchCheckOrChecks) {
+  const checks = Array.isArray(searchCheckOrChecks) ? searchCheckOrChecks : [searchCheckOrChecks];
+  return checks.filter(Boolean).map((searchCheck) => sanitizeSearchCheck(product, searchCheck));
+}
+
+function combinedCandidateSearchCheck(searchChecks) {
+  const candidatesByKey = new Map();
+  for (const searchCheck of searchChecks) {
+    for (const candidate of searchCheck.candidates || []) {
+      candidatesByKey.set(candidateReviewKey(candidate), candidate);
+    }
+  }
+  const candidates = [...candidatesByKey.values()];
+  return {
+    candidates,
+    resultCount: candidates.length,
+  };
+}
+
 function representativeSourcesMatchReview(review, product) {
   if (!Array.isArray(review.representativeSources)) return false;
   if (!review.representativeSources.every((source) => (
@@ -374,9 +393,9 @@ function reviewedDecision(product, reviewById, searchCheck = { candidates: [] })
   return review;
 }
 
-function researchRow(product, searchCheck, reviewById) {
-  const sanitizedSearchCheck = sanitizeSearchCheck(product, searchCheck);
-  const review = reviewedDecision(product, reviewById, sanitizedSearchCheck);
+function researchRow(product, searchCheckOrChecks, reviewById) {
+  const searchChecks = sanitizedSearchChecks(product, searchCheckOrChecks);
+  const review = reviewedDecision(product, reviewById, combinedCandidateSearchCheck(searchChecks));
   const verifiedIssue = review?.decision === "common_issue" ? verifiedIssueById.get(product.id) : null;
   const issueResearch = verifiedIssue
     || (review?.decision === "no_common_issue" ? noCommonIssueResearch(review) : null);
@@ -406,7 +425,7 @@ function researchRow(product, searchCheck, reviewById) {
       attestation: review.attestation,
     } : null,
     issueResearch,
-    searchChecks: [sanitizedSearchCheck],
+    searchChecks,
     evidence: evidenceById.get(product.id) || [],
     rejectedCandidates: (review?.candidateReviews || []).map((candidate) => ({
       ...candidate,
@@ -461,11 +480,12 @@ async function main() {
     console.error(JSON.stringify({ status: "research-start", selected: selected.length, total: products.length }));
   }
   await mapLimit(selected, SEARCH_CONCURRENCY, async (product, index, workerIndex) => {
-    const previousSearchCheck = rowById.get(product.id)?.searchChecks?.[0];
-    const searchCheck = args.rebuildDecisions && previousSearchCheck
-      ? previousSearchCheck
-      : await searchProduct(product);
-    rowById.set(product.id, researchRow(product, searchCheck, reviewById));
+    const previousSearchChecks = rowById.get(product.id)?.searchChecks;
+    const searchChecks = args.rebuildDecisions && previousSearchChecks?.length
+      ? previousSearchChecks
+      : [await searchProduct(product)];
+    const row = researchRow(product, searchChecks, reviewById);
+    rowById.set(product.id, row);
     if (args.write && !args.rebuildDecisions) {
       writeJsonAtomic(researchFile, buildResearchDocument(products, rowById));
     }
@@ -475,8 +495,8 @@ async function main() {
         index: index + 1,
         total: selected.length,
         id: product.id,
-        result: searchCheck.result,
-        candidates: searchCheck.resultCount,
+        results: row.searchChecks.map((searchCheck) => searchCheck.result),
+        candidates: row.searchChecks.reduce((sum, searchCheck) => sum + searchCheck.resultCount, 0),
       }));
     }
   });

@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-07-16",
+  "checkedAt": "2026-07-17",
   "methodVersion": 3,
   "policy": "每筆決策須保存 exact-model 跨站查詢與人工 attestation；每個搜尋候選須逐頁保存摘要、獨立作者數與具體排除理由，研究工具不得自行生成拒絕結論。",
   "results": [
@@ -18319,6 +18319,47 @@
       }
     },
     {
+      "id": "cookware-zwilling-unlock-1034435",
+      "category": "cookware",
+      "brand": "ZWILLING",
+      "model": "UNLOCK 1034435",
+      "reviewedAt": "2026-07-17",
+      "reviewBatch": "cookware",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "Mobile01",
+        "Reddit"
+      ],
+      "queries": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"ZWILLING UNLOCK 1034435\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22ZWILLING%20UNLOCK%201034435%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"ZWILLING UNLOCK 1034435\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22ZWILLING%20UNLOCK%201034435%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "targetHost": "reddit.com"
+        }
+      ],
+      "candidateDisposition": "UNLOCK 1034435：已人工執行 Mobile01 與 Reddit canonical exact-model 查詢，未發現通過完整型號邊界的原頁候選；一般 ZWILLING 鍋具討論不跨型號計入，此結果不代表完全沒有負評。",
+      "representativeSources": [],
+      "reviewerNote": "UNLOCK 1034435 已逐站人工覆核 Mobile01 與 Reddit exact-model 查詢；兩站均無同型號原頁候選，未以搜尋摘要或相近鍋具討論推定 no_common_issue。",
+      "attestation": "manual_cross_site_search_reviewed_no_candidate",
+      "candidateReviews": [],
+      "recheckNotes": {
+        "searchErrors": [],
+        "nonExactCandidates": [],
+        "pendingOriginalPages": [],
+        "actualQueriesRun": 2,
+        "originalPagesOpenedDirectly": 0,
+        "searchProvider": "Google Search",
+        "successfulQueries": 2
+      }
+    },
+    {
       "id": "knife-tojiro-dp-f-808-210mm",
       "category": "knife",
       "brand": "TOJIRO",
@@ -22337,6 +22378,56 @@
         "allQueryRequestsSucceeded": true,
         "allCandidateOriginalPagesSucceeded": true,
         "note": "跨兩個獨立 target website 的 exact-model 查詢沒有留下需逐頁判讀的候選。"
+      }
+    },
+    {
+      "id": "oven-ninja-crispi-mw101",
+      "category": "oven",
+      "brand": "Ninja",
+      "model": "MW101",
+      "reviewedAt": "2026-07-17",
+      "reviewBatch": "oven",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "Mobile01",
+        "Reddit"
+      ],
+      "queries": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Ninja MW101\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Ninja%20MW101%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Ninja MW101\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22Ninja%20MW101%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "targetHost": "reddit.com"
+        }
+      ],
+      "candidateDisposition": "MW101：已人工執行 Mobile01 與 Reddit canonical exact-model 查詢，未發現通過完整 MW101 型號邊界的原頁候選；近似 Crispi 討論分別因未含型號與明示 FN101GY 排除，此結果不代表完全沒有負評。",
+      "representativeSources": [],
+      "reviewerNote": "MW101 已逐站人工覆核 Mobile01 與 Reddit exact-model 查詢；預上市贈測討論未含型號，另一篇明示 FN101GY，均不跨型號計入。",
+      "attestation": "manual_cross_site_search_reviewed_no_candidate",
+      "candidateReviews": [],
+      "recheckNotes": {
+        "searchErrors": [],
+        "nonExactCandidates": [
+          {
+            "url": "https://www.reddit.com/r/Influenster/comments/1ul7y19/it_finally_happened_for_me_anyone_else_get_lucky/",
+            "reason": "預上市贈測／claim 討論未含 MW101，且沒有第一人稱故障回報。"
+          },
+          {
+            "url": "https://www.reddit.com/r/airfryer/comments/1r147za/does_anyone_have_experience_with_the_ninja_crispi/",
+            "reason": "原文明示 FN101GY，不是 MW101，不跨型號採計。"
+          }
+        ],
+        "pendingOriginalPages": [],
+        "actualQueriesRun": 2,
+        "originalPagesOpenedDirectly": 2,
+        "searchProvider": "Google Search",
+        "successfulQueries": 2
       }
     },
     {

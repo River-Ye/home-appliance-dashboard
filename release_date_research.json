@@ -1,11 +1,11 @@
 {
   "summary": {
-    "checkedAt": "2026-07-16T10:12:00.000Z",
-    "total": 662,
-    "found": 171,
+    "checkedAt": "2026-07-16T23:55:00.000Z",
+    "total": 664,
+    "found": 173,
     "missing": 491,
     "byConfidence": {
-      "official": 72,
+      "official": 74,
       "credible_article": 88,
       "not_found": 491,
       "retailer_explicit": 11
@@ -9245,6 +9245,32 @@
       "evidenceSnippet": "",
       "confidence": "not_found",
       "query": "Whirlpool WDEE1200TW release date launch announced 上市 發售"
+    },
+    {
+      "id": "cookware-zwilling-unlock-1034435",
+      "category": "cookware",
+      "brand": "ZWILLING",
+      "model": "UNLOCK 1034435",
+      "name": "UNLOCK 可拆式不鏽鋼湯鍋 5 件組",
+      "releaseDate": "2026-07-17",
+      "sourceUrl": "https://www.zwilling.com.tw/products/1034435",
+      "sourceTitle": "ZWILLING UNLOCK 可拆式不鏽鋼湯鍋 5 件組官方新品頁",
+      "evidenceSnippet": "ZWILLING 台灣官方頁將 UNLOCK 1034435 列於新品上市，並明示「7月新品登場，7/17立即選購！」。",
+      "confidence": "official",
+      "query": "ZWILLING UNLOCK 1034435 上市 發售 7/17"
+    },
+    {
+      "id": "oven-ninja-crispi-mw101",
+      "category": "oven",
+      "brand": "Ninja",
+      "model": "MW101",
+      "name": "Crispi 5.5qt 氣炸微波爐",
+      "releaseDate": "2026-07-16",
+      "sourceUrl": "https://newsroom.sharkninja.com/ninja-launches-its-first-ever-microwave-that-crisps-like-an-air-fryer/",
+      "sourceTitle": "Ninja Launches Its First-Ever Microwave, that Crisps Like an Air Fryer",
+      "evidenceSnippet": "SharkNinja 於 2026-07-16 介紹首款 Ninja Crispi Microwave，並明確列出 MW101 的 1700W 對比註腳與 available now。",
+      "confidence": "official",
+      "query": "site:newsroom.sharkninja.com Ninja MW101 release launch"
     }
   ]
 }

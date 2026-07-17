@@ -440,9 +440,9 @@ async function runExhaustiveViewport(browser, name, viewport) {
   await page.getByRole("button", { name: "重設篩選" }).click();
   await waitForVisibleCount(page, EXPECTED_PRODUCT_COUNT);
 
-  const cookwareTab = page.getByRole("button", { name: "鍋具 23" });
+  const cookwareTab = page.getByRole("button", { name: "鍋具 24" });
   await cookwareTab.click();
-  await page.waitForFunction(() => document.querySelector("#visibleCount")?.textContent?.trim() === "23");
+  await page.waitForFunction(() => document.querySelector("#visibleCount")?.textContent?.trim() === "24");
   await loadAllVisibleProducts(page);
   for (const expected of ["Tefal", "Buffalo", "WMF", "Fissler", "Le Creuset", "Staub"]) {
     const found = await page.locator(".product-card", { hasText: expected }).count();

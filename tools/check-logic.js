@@ -716,6 +716,40 @@ async function main() {
       url: exactCandidate.url,
     }],
   };
+  const noCandidateSearch = {
+    ...sanitizedSearch,
+    result: "no_exact_model_result",
+    resultCount: 0,
+    candidateUrls: [],
+    candidates: [],
+  };
+  const completedFromMultipleSearches = researchRow(
+    c5,
+    [noCandidateSearch, sanitizedSearch],
+    new Map([[c5.id, completedReview]]),
+  );
+  assert(
+    completedFromMultipleSearches.workflowStatus === "completed",
+    "decision rebuild should accept a review covering candidates across prior search checks",
+  );
+  assert(
+    completedFromMultipleSearches.searchChecks.length === 2,
+    "decision rebuild should preserve every prior search check as evidence",
+  );
+  const emptyCandidateReview = {
+    ...c5Review,
+    candidateReviews: [],
+    representativeSources: [],
+  };
+  const unreviewedLaterCandidateRow = researchRow(
+    c5,
+    [noCandidateSearch, sanitizedSearch],
+    new Map([[c5.id, emptyCandidateReview]]),
+  );
+  assert(
+    unreviewedLaterCandidateRow.workflowStatus === "pending_manual_review",
+    "decision rebuild must not ignore an exact-model candidate from a later search check",
+  );
   const missingRepresentativeSourceRow = researchRow(
     c5,
     sanitizedSearch,

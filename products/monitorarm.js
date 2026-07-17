@@ -665,9 +665,9 @@
     "name": "17-49 吋 20KG 中柱款螢幕支架",
     "price": {
       "currency": "TWD",
-      "amount": 1424,
-      "converted": 1424,
-      "confidence": "PChome 2026-07-13 API 查核價"
+      "amount": 1499,
+      "converted": 1499,
+      "confidence": "PChome 2026-07-16 UTC API 公開價"
     },
     "image": "https://cs-a.ecimg.tw/items/DCBB69A900IHPC0/000001_1742812418.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DCBB69-A900IHPC0",
@@ -1232,9 +1232,9 @@
     "name": "45吋 20KG 氣壓式螢幕支架",
     "price": {
       "currency": "TWD",
-      "amount": 3250,
-      "converted": 3250,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 2999,
+      "converted": 2999,
+      "confidence": "PChome 2026-07-16 UTC API 公開價"
     },
     "image": "https://cs-a.ecimg.tw/items/DCAGU1A900I6WCY/000001_1754374453.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DCAGU1-A900I6WCY",
@@ -1267,16 +1267,16 @@
     "releaseDate": "2025-12-24",
     "historicalLow": {
       "status": "found",
-      "amount": 3141,
+      "amount": 2999,
       "currency": "TWD",
-      "converted": 3141,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1273430804&cgp=3141",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【BenQ】ERGO ARM 氣壓式螢幕支架(17-45吋適用/承重2-20公斤/BSH01)",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【BenQ】ERGO ARM 氣壓式螢幕支架(17-45吋適用/承重2-20公斤/BSH01)」最低價為 NT$3,141，最低點日期 2026-07-09。",
-      "sourceKind": "price_history",
+      "converted": 2999,
+      "sourceUrl": "https://24h.pchome.com.tw/prod/DCAGU1-A900I6WCY",
+      "sourceTitle": "PChome 24h：BenQ BSH01 45 吋 20KG 氣壓式螢幕支架",
+      "evidenceSnippet": "PChome 商品 API 於 2026-07-16 UTC 回傳同型號 BSH01 公開 Low 價 NT$2,999、Qty 20，低於原記錄史低 NT$3,141。",
+      "sourceKind": "retailer_page",
       "confidence": "high",
-      "checkedAt": "2026-07-09",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+      "checkedAt": "2026-07-17",
+      "note": "採用可信通路同型號新品公開價；排除會員個人化折扣、信用卡回饋、點數、二手、福利品、展示機、拆封品與整新品。"
     },
     "issueResearch": {
       "status": "no_common_issue",

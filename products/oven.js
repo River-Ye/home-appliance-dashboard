@@ -330,8 +330,8 @@
     "price": {
       "currency": "USD",
       "amount": 499.95,
-      "converted": 16094,
-      "confidence": "Breville 官方 2026-07-16 來源價；ExchangeRate-API 2026-07-16 匯率換算"
+      "converted": 16122,
+      "confidence": "Breville 官方 2026-07-16 來源價；ExchangeRate-API 2026-07-17 匯率換算"
     },
     "image": "https://cdn11.bigcommerce.com/s-ihwnd7z21q/images/stencil/640w/products/1251/4666/212814_JouleOvenAirFryer1__10534.1724079466.jpg?c=1",
     "buyUrl": "https://www.breville.com/en-us/product/bov950",
@@ -563,9 +563,9 @@
     "name": "30L 蒸氣烘烤微波爐",
     "price": {
       "currency": "TWD",
-      "amount": 32900,
-      "converted": 32900,
-      "confidence": "Yahoo購物中心 2026-07-16 商品頁公開價"
+      "amount": 26900,
+      "converted": 26900,
+      "confidence": "Yahoo購物中心 2026-07-16 UTC 商品頁公開價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBJ7P1900HCI3E/000001_1782972848.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/Panasonic-%E5%9C%8B%E9%9A%9B%E7%89%8C-30L%E5%B9%B3%E5%8F%B0%E5%BC%8F%E8%AE%8A%E9%A0%BB%E8%92%B8%E7%83%98%E7%83%A4%E5%BE%AE%E9%9B%BB%E8%85%A6%E5%BE%AE%E6%B3%A2%E7%88%90-NN-BS1700-9469543.html",
@@ -719,9 +719,9 @@
     "name": "20L 多功能蒸氣氣炸烤箱",
     "price": {
       "currency": "TWD",
-      "amount": 10800,
-      "converted": 10800,
-      "confidence": "PChome 2026-07-16 API 公開價"
+      "amount": 10260,
+      "converted": 10260,
+      "confidence": "PChome 2026-07-16 UTC API 公開價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBM0GA900HF91A/000001_1768545220.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBM0G-A900HF91A",
@@ -1499,9 +1499,9 @@
     "name": "蒸烘烤變頻微波爐",
     "price": {
       "currency": "TWD",
-      "amount": 43920,
-      "converted": 43920,
-      "confidence": "PChome 2026-07-16 API 公開價"
+      "amount": 41724,
+      "converted": 41724,
+      "confidence": "PChome 2026-07-16 UTC API 公開價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBM0GA900H5125/000001_1783054719.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBM0G-A900H5125",
@@ -1801,6 +1801,92 @@
           "platform": "Reddit",
           "query": "site:reddit.com \"SHARP AX-AS10T(W)\" (problem OR issue OR defect OR \"negative review\")",
           "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22SHARP%20AX-AS10T(W)%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
+          "targetHost": "reddit.com"
+        }
+      ]
+    }
+  },
+  {
+    "id": "oven-ninja-crispi-mw101",
+    "category": "oven",
+    "rank": 24,
+    "topPick": false,
+    "budget": "premium",
+    "channel": "global",
+    "brand": "Ninja",
+    "model": "MW101",
+    "name": "Crispi 5.5qt 氣炸微波爐",
+    "price": {
+      "currency": "USD",
+      "amount": 449.99,
+      "converted": 14511,
+      "confidence": "SharkNinja 美國官方 2026-07-17 商品頁現貨價；ExchangeRate-API 2026-07-17 匯率換算"
+    },
+    "image": "https://assets.sharkninja.com/image/upload/f_auto/q_auto/SharkNinja-NA/MW101_01.jpg",
+    "buyUrl": "https://www.sharkninja.com/ninja-crispi-microwave/MW101.html",
+    "buyLabel": "SharkNinja 美國官方",
+    "specs": [
+      "5.5qt（約 5.2L）CleanCrisp 玻璃籃，約 8–10 人份",
+      "1000W 微波 + 1700W 氣炸／對流，最高 450°F",
+      "14 合 1：8 種微波預設、5 種氣炸預設與 FusionCrisp",
+      "平板式內腔；較 0.9 cu ft 轉盤式多 40% 可用空間",
+      "尺寸：40.64 x 49.91 x 35.76 cm；重量：約 22.70kg",
+      "120V 美規；PFAS／PTFE-free 玻璃烹調容器"
+    ],
+    "description": "Ninja 首款把 1000W 微波與 1700W 氣炸整合在同一台的 Crispi Microwave；FusionCrisp 可先微波再以最高 450°F 熱風上色，5.5qt 玻璃籃與平板式內腔適合想以一台取代檯面微波爐和氣炸鍋的人。",
+    "pros": [
+      "微波與氣炸真正整合，能快速加熱後再做酥脆表面",
+      "5.5qt PFAS／PTFE-free 玻璃籃可直接備料、烹調與上桌",
+      "平板式內腔沒有轉盤，容器配置較彈性"
+    ],
+    "cons": [
+      "美規 120V、1700W 約 14.2A，台灣 110V 常見 15A 迴路接近上限，需獨立迴路與專業確認",
+      "僅美國官方 1 年有限保固，未含國際運費、進口稅與台灣維修保固",
+      "機身約 22.7kg 且接近 50cm 寬，檯面與散熱空間需求高"
+    ],
+    "bestFor": "已確認 120V 專用迴路、能承擔進口與無台灣保固風險，並想把檯面微波爐與氣炸鍋整併的海外參考買家。",
+    "recommendation": "海外新品參考：FusionCrisp 與 5.5qt 玻璃籃很有差異化，但 120V／1700W、高重量及美國保固風險明顯，不列台灣 Top Pick；購買前應由電工確認迴路與插座負載。",
+    "score": 81,
+    "voltage": "美規 120V、1700W；台灣使用需獨立迴路與專業確認，不建議共用延長線",
+    "warranty": "美國官方 1 年有限保固；無台灣公司貨保固",
+    "tags": [
+      "海外",
+      "新品",
+      "氣炸微波",
+      "FusionCrisp",
+      "玻璃籃",
+      "120V"
+    ],
+    "releaseDate": "2026-07-16",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "USD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-07-17",
+      "note": "MW101 於 2026-07-16 新上市；查核 exact-model 價格歷史與優惠來源僅見官方上市現價 US$449.99，未找到可公開驗證的可信新品歷史最低價。上市 MSRP／現價不得直接推定為史低。海外價格未含國際運費、進口稅、電壓／插頭與台灣保固風險。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-07-17",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Ninja MW101\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Ninja%20MW101%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Ninja MW101\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22Ninja%20MW101%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
           "targetHost": "reddit.com"
         }
       ]

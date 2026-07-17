@@ -274,9 +274,9 @@
     "name": "強力氣流循環扇",
     "price": {
       "currency": "TWD",
-      "amount": 940,
-      "converted": 940,
-      "confidence": "PChome 2026-07-15 API 查核價"
+      "amount": 990,
+      "converted": 990,
+      "confidence": "PChome 2026-07-16 UTC API 公開價"
     },
     "image": "https://cs-a.ecimg.tw/items/DEEO01A900GCMTC/000001_1723452738.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DEEO01-A900GCMTC",
@@ -1526,40 +1526,39 @@
     "name": "9 吋 DC 直流循環扇",
     "price": {
       "currency": "TWD",
-      "amount": 3799,
-      "converted": 3799,
-      "confidence": "Costco 好市多 2026-07-11 頁面查核價"
+      "amount": 4580,
+      "converted": 4580,
+      "confidence": "Airmate 台灣官方 2026-07-16 UTC 商品頁公開現貨價"
     },
     "image": "https://www.costco.com.tw/medias/sys_master/images/hda/ha7/14720657883166.jpg",
-    "buyUrl": "https://www.costco.com.tw/Televisions-Appliances/Cooling-Heating-Air-Treatment/Heating-Cooling/Airmate-9-inch-DC-Inverter-Air-Circulator-FB2391DR/p/124247",
-    "buyLabel": "Costco 好市多",
+    "buyUrl": "https://www.airmate.com.tw/products/fb2391dr",
+    "buyLabel": "Airmate 台灣官方",
     "specs": [
       "9 吋 DC 循環扇",
-      "110V / 60Hz",
-      "32W",
-      "重量：6.64公斤",
-      "Costco 評價 4.8 / 212 則"
+      "110V / 60Hz；32W",
+      "32 段風速；上下 80°、左右 90° 自動擺頭",
+      "1–15 小時預約／定時；重量 6.64kg"
     ],
-    "description": "Costco 評價不錯的循環扇候選，適合搭配冷氣或提升室內空氣流動。",
+    "description": "Airmate 官方仍有庫存的 9 吋 DC 循環扇，32 段風速與上下左右自動擺頭適合搭配冷氣、除濕機或空氣清淨機。",
     "pros": [
-      "評論數與評分具參考性",
-      "循環用途明確"
+      "官方現貨與規格完整",
+      "32 段風速與 3D 自動擺頭"
     ],
     "cons": [
-      "大空間仍需看風量與擺位",
-      "部分機型高度或收納需確認"
+      "官方價高於先前 Costco 售價",
+      "6.64kg，不算輕巧桌面款"
     ],
-    "bestFor": "想用循環扇搭配冷氣、除濕或空氣清淨機的人",
-    "recommendation": "好市多補充推薦：9 吋 DC 直流循環扇 評價不錯，補進循環扇分類作為 Costco 候選比較。",
+    "bestFor": "想以循環扇搭配冷氣、除濕或空氣清淨機，並重視台灣官方通路的人。",
+    "recommendation": "官方通路補充：功能與售後資訊清楚，但現價較先前 Costco 高；先確認擺放高度與 6.64kg 重量。",
     "score": 90,
     "voltage": "110V / 60Hz",
-    "warranty": "依 Costco 好市多商品頁與品牌全機 1 年保固標示",
+    "warranty": "依 Airmate 台灣官方商品頁與保固政策",
     "tags": [
-      "Costco",
-      "好市多",
       "DC",
       "循環扇",
-      "高評論數"
+      "32段風速",
+      "3D擺頭",
+      "官方通路"
     ],
     "releaseDate": "找不到",
     "historicalLow": {
