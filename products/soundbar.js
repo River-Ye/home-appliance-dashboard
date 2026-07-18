@@ -187,9 +187,9 @@
     "name": "BRAVIA Theatre Bar 6 3.1.2 聲道",
     "price": {
       "currency": "TWD",
-      "amount": 10710,
-      "converted": 10710,
-      "confidence": "PChome 2026-07-18 API 公開價"
+      "amount": 11900,
+      "converted": 11900,
+      "confidence": "PChome 2026-07-18 UTC API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAAODA900JMC1Q/000001_1781726516.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAAOD-A900JMC1Q",
@@ -1213,9 +1213,9 @@
     "name": "家庭娛樂揚聲器 600 Ultra",
     "price": {
       "currency": "TWD",
-      "amount": 19900,
-      "converted": 19900,
-      "confidence": "PChome 2026-07-13 API 查核價"
+      "amount": 18507,
+      "converted": 18507,
+      "confidence": "PChome 2026-07-18 UTC API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAANJA900HZBZV/000001_1729154632.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAANJ-A900HZBZV",
@@ -1525,9 +1525,9 @@
     "name": "7.1.4 聲道家庭劇院聲霸",
     "price": {
       "currency": "TWD",
-      "amount": 42900,
-      "converted": 42900,
-      "confidence": "PChome 2026-07-16 API 公開價"
+      "amount": 40755,
+      "converted": 40755,
+      "confidence": "PChome 2026-07-18 UTC API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAAHGA900J5777/000001_1755253698.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAAHG-A900J5777",
@@ -1603,9 +1603,9 @@
     "name": "Fidelio 7.1.2 Dolby Atmos 旗艦聲霸",
     "price": {
       "currency": "TWD",
-      "amount": 36955,
-      "converted": 36955,
-      "confidence": "PChome 2026-07-16 API 公開價"
+      "amount": 35399,
+      "converted": 35399,
+      "confidence": "PChome 2026-07-18 UTC API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAF02A900H2G5R/000001_1704612188.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAF02-A900H2G5R",
@@ -1682,8 +1682,8 @@
     "price": {
       "currency": "USD",
       "amount": 1299.99,
-      "converted": 41922,
-      "confidence": "Marshall US 2026-07-16 來源價；ExchangeRate-API 2026-07-17 匯率換算"
+      "converted": 42072,
+      "confidence": "Marshall US 2026-07-16 來源價；ExchangeRate-API 2026-07-18 匯率換算"
     },
     "image": "https://images.ctfassets.net/javen7msabdh/2C2sn9CKoKFdIyd94Gm9z5/f3019d4e721511167ebe5c229bf490dd/heston-120_plp.jpg",
     "buyUrl": "https://www.marshall.com/us/en/product/heston-120",
@@ -1762,8 +1762,8 @@
     "price": {
       "currency": "USD",
       "amount": 699.99,
-      "converted": 22573,
-      "confidence": "Best Buy US 2026-07-16 來源價；ExchangeRate-API 2026-07-17 匯率換算"
+      "converted": 22654,
+      "confidence": "Best Buy US 2026-07-16 來源價；ExchangeRate-API 2026-07-18 匯率換算"
     },
     "image": "https://images.ctfassets.net/javen7msabdh/3yitHqjPBTgQk5qRE72PSn/2788206646aa153f71f2c0ebefaff580/Heston-60-black_plp_800x800-v3.jpeg",
     "buyUrl": "https://www.bestbuy.com/product/marshall-heston-60-soundbar-with-dolby-atmos-immersive-sound-for-tv-movies-music-black/CFCR4H4GSQ",

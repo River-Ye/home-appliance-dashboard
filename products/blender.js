@@ -344,8 +344,8 @@
     "price": {
       "currency": "USD",
       "amount": 119.99,
-      "converted": 3869,
-      "confidence": "SharkNinja 官方 2026-07-16 來源價；ExchangeRate-API 2026-07-17 匯率換算"
+      "converted": 3883,
+      "confidence": "SharkNinja 官方 2026-07-16 來源價；ExchangeRate-API 2026-07-18 匯率換算"
     },
     "image": "https://ak1.ostkcdn.com/images/products/is/images/direct/d1c25153baa2aa99eae7831be826d2a51d87c485/Ninja-BN701-Professional-Plus-Blender-with-Auto-iQ.jpg",
     "buyUrl": "https://www.sharkninja.com/ninja-professional-plus-blender-with-auto-iq/BN701.html",
@@ -1487,9 +1487,9 @@
     "name": "多功能變頻輕音冷熱調理機",
     "price": {
       "currency": "TWD",
-      "amount": 11490,
-      "converted": 11490,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 10915,
+      "converted": 10915,
+      "confidence": "PChome 2026-07-18 UTC API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAY4YA900I3ILD/000001_1783328441.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAY4Y-A900I3ILD",

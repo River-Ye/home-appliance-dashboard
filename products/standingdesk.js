@@ -497,9 +497,9 @@
     "name": "電動升降桌 UP002 WH",
     "price": {
       "currency": "TWD",
-      "amount": 7690,
-      "converted": 7690,
-      "confidence": "momo購物 2026-07-14 頁面查核價"
+      "amount": 7191,
+      "converted": 7191,
+      "confidence": "momo購物網 2026-07-18 UTC 商品頁公開現貨價"
     },
     "image": "https://cs-a.ecimg.tw/items/DQCI0AA900IW7RS/000001_1768543932.jpg",
     "buyUrl": "https://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=14070530",

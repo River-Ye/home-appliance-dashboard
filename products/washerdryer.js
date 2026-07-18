@@ -531,9 +531,9 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/88F364AB6B-SP-11096810.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 31900,
-      "converted": 31900,
-      "confidence": "PChome 2026-07-18 API 公開價"
+      "amount": 29900,
+      "converted": 29900,
+      "confidence": "PChome 2026-07-18 UTC API 查核價"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -703,9 +703,9 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/826F52E782-SP-22137065.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 32390,
-      "converted": 32390,
-      "confidence": "momo 2026-07-18 商品頁公開價"
+      "amount": 34022,
+      "converted": 34022,
+      "confidence": "momo購物網 2026-07-18 UTC 商品頁公開現貨價"
     },
     "channel": "tw",
     "buyLabel": "momo購物",

@@ -57,16 +57,16 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 899,
+      "amount": 699,
       "currency": "TWD",
-      "converted": 899,
+      "converted": 699,
       "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1246188884&cgp=899",
       "sourceTitle": "LBJ 比價撿便宜 歷史價格：【Tefal 特福】Daisy系列28CM不沾鍋平底鍋(IH爐可用鍋/電磁爐適用)",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【Tefal 特福】Daisy系列28CM不沾鍋平底鍋(IH爐可用鍋/電磁爐適用)」最低價為 NT$899，最低點日期 2026-07-09。",
+      "evidenceSnippet": "LBJ 比價撿便宜同一商品 pid=1246188884 的公開價格曲線明列「Tefal 特福 Daisy 系列 28CM IH 不沾平底鍋」於 2026-07-18 降至 NT$699，2026-07-19 已回到 NT$899。",
       "sourceKind": "price_history",
       "confidence": "high",
-      "checkedAt": "2026-07-09",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+      "checkedAt": "2026-07-19",
+      "note": "採用 LBJ 比價撿便宜可公開重現的同一商品價格曲線；同型號／尺寸／IH 規格，並排除會員個人化折扣、信用卡回饋、點數、二手、福利、展示、拆封與整新品。"
     },
     "issueResearch": {
       "status": "no_common_issue",

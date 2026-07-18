@@ -330,8 +330,8 @@
     "price": {
       "currency": "USD",
       "amount": 499.95,
-      "converted": 16122,
-      "confidence": "Breville 官方 2026-07-16 來源價；ExchangeRate-API 2026-07-17 匯率換算"
+      "converted": 16180,
+      "confidence": "Breville 官方 2026-07-16 來源價；ExchangeRate-API 2026-07-18 匯率換算"
     },
     "image": "https://cdn11.bigcommerce.com/s-ihwnd7z21q/images/stencil/640w/products/1251/4666/212814_JouleOvenAirFryer1__10534.1724079466.jpg?c=1",
     "buyUrl": "https://www.breville.com/en-us/product/bov950",
@@ -1819,8 +1819,8 @@
     "price": {
       "currency": "USD",
       "amount": 449.99,
-      "converted": 14511,
-      "confidence": "SharkNinja 美國官方 2026-07-17 商品頁現貨價；ExchangeRate-API 2026-07-17 匯率換算"
+      "converted": 14563,
+      "confidence": "SharkNinja 美國官方 2026-07-17 商品頁現貨價；ExchangeRate-API 2026-07-18 匯率換算"
     },
     "image": "https://assets.sharkninja.com/image/upload/f_auto/q_auto/SharkNinja-NA/MW101_01.jpg",
     "buyUrl": "https://www.sharkninja.com/ninja-crispi-microwave/MW101.html",

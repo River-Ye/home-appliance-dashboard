@@ -175,9 +175,9 @@
     "name": "BRAVIA 7 65 型 Mini LED 4K Google TV",
     "price": {
       "currency": "TWD",
-      "amount": 56900,
-      "converted": 56900,
-      "confidence": "PChome 2026-07-18 商品頁公開價"
+      "amount": 53910,
+      "converted": 53910,
+      "confidence": "PChome 2026-07-18 UTC API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DPADFNA900K7VQ8/000001_1784011502.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DPADFN-A900K7VQ8",

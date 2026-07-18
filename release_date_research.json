@@ -1,11 +1,11 @@
 {
   "summary": {
-    "checkedAt": "2026-07-17T22:35:00.000Z",
-    "total": 666,
-    "found": 176,
+    "checkedAt": "2026-07-18T22:27:31.000Z",
+    "total": 667,
+    "found": 177,
     "missing": 490,
     "byConfidence": {
-      "official": 76,
+      "official": 77,
       "credible_article": 89,
       "not_found": 490,
       "retailer_explicit": 11
@@ -9301,6 +9301,21 @@
       "evidenceSnippet": "SharkNinja 於 2026-07-16 介紹首款 Ninja Crispi Microwave，並明確列出 MW101 的 1700W 對比註腳與 available now。",
       "confidence": "official",
       "query": "site:newsroom.sharkninja.com Ninja MW101 release launch"
+    },
+    {
+      "id": "circulator-iris-pcf-cdp18tec",
+      "category": "circulator",
+      "brand": "IRIS OHYAMA",
+      "model": "PCF-CDP18TEC",
+      "name": "360 度美型空氣循環扇",
+      "releaseDate": "2026",
+      "sourceUrl": "https://www.irisplaza.com.tw/products/iris-pcf-cdp18tec",
+      "sourceTitle": "IRIS 360度美型空氣循環扇 PCF-CDP18TEC－2026年新品",
+      "evidenceSnippet": "IRIS OHYAMA 台灣官方商品頁標題明列 PCF-CDP18TEC 為「2026年新品」；頁面只能支持上市年份 2026，未提供明確月日。",
+      "confidence": "official",
+      "query": "site:irisplaza.com.tw \"PCF-CDP18TEC\" \"2026年新品\"",
+      "sourceKind": "official_brand_page",
+      "reason": "官方頁只支持年份 2026，不自行補推月份或日期。"
     }
   ]
 }

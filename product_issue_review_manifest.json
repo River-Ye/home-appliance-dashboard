@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-07-18",
+  "checkedAt": "2026-07-19",
   "methodVersion": 3,
   "policy": "每筆決策須保存 exact-model 跨站查詢與人工 attestation；每個搜尋候選須逐頁保存摘要、獨立作者數與具體排除理由，研究工具不得自行生成拒絕結論。",
   "results": [
@@ -39190,6 +39190,38 @@
         "errors": [],
         "threshold": "same exact-model issue, at least 6 distinct first-person reporters, across at least 2 original websites"
       }
+    },
+    {
+      "id": "circulator-iris-pcf-cdp18tec",
+      "category": "circulator",
+      "brand": "IRIS OHYAMA",
+      "model": "PCF-CDP18TEC",
+      "reviewedAt": "2026-07-19",
+      "reviewBatch": "circulator",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "Mobile01",
+        "Reddit"
+      ],
+      "queries": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"IRIS OHYAMA PCF-CDP18TEC\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22IRIS%20OHYAMA%20PCF-CDP18TEC%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"IRIS OHYAMA PCF-CDP18TEC\" (problem OR issue OR defect OR \"negative review\")",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22IRIS%20OHYAMA%20PCF-CDP18TEC%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
+          "targetHost": "reddit.com"
+        }
+      ],
+      "candidateDisposition": "PCF-CDP18TEC：兩筆 exact-model 跨站查詢均未留下通過 targetHost 與 canonical model 邊界的原頁候選；此結果不代表完全沒有負評。",
+      "representativeSources": [],
+      "reviewerNote": "PCF-CDP18TEC 已於 2026-07-19 實際執行 Mobile01、Reddit 的 Bing RSS exact-model 查詢；兩站未發現需逐頁判讀的同型號候選，未以搜尋摘要合成負評證據。",
+      "attestation": "manual_cross_site_search_reviewed_no_candidate",
+      "candidateReviews": []
     }
   ]
 }

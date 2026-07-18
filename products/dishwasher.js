@@ -680,9 +680,9 @@
     "image": "https://cs-a.ecimg.tw/items/DMBR25A900IUNDB/000001_1747970581.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 25600,
-      "converted": 25600,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 24320,
+      "converted": 24320,
+      "confidence": "PChome 2026-07-18 UTC API 查核價"
     },
     "channel": "tw",
     "buyLabel": "PChome",

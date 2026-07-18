@@ -1,9 +1,9 @@
 {
   "summary": {
-    "checkedAt": "2026-07-18T00:00:00+08:00",
-    "total": 666,
+    "checkedAt": "2026-07-19T00:00:00+08:00",
+    "total": 667,
     "commonIssueProducts": 36,
-    "noCommonIssueProducts": 630,
+    "noCommonIssueProducts": 631,
     "pendingManualReview": 0,
     "commonIssues": 36,
     "searchUnavailable": 0,
@@ -14,7 +14,7 @@
     },
     "sourcePolicy": "搜尋引擎只用於發現候選；只有原始論壇、社群或零售評價頁中可辨識的第一人稱同型號回報才計入人數。同帳號、跨站轉貼、按讚、媒體轉述與搜尋摘要不重複計算。",
     "noIssueWording": "截至查核日，查無達門檻的集中負評／災情",
-    "refreshedThisRun": 3,
+    "refreshedThisRun": 1,
     "preservedExistingNegativeEvidence": 49,
     "priorFullRefresh": {
       "checkedAt": "2026-07-11",
@@ -67579,6 +67579,103 @@
           "candidateUrls": [],
           "candidates": [],
           "inspectedAt": "2026-07-11T00:00:00+08:00"
+        }
+      ],
+      "evidence": [],
+      "rejectedCandidates": []
+    },
+    {
+      "id": "circulator-iris-pcf-cdp18tec",
+      "category": "circulator",
+      "brand": "IRIS OHYAMA",
+      "model": "PCF-CDP18TEC",
+      "name": "360 度美型空氣循環扇",
+      "identity": {
+        "canonicalModel": "PCF-CDP18TEC",
+        "lookupLabel": "IRIS OHYAMA PCF-CDP18TEC",
+        "aliases": [
+          "IRIS OHYAMA PCF-CDP18TEC"
+        ],
+        "evidenceUrl": "https://www.irisplaza.com.tw/products/iris-pcf-cdp18tec"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "status": "completed",
+        "decision": "no_common_issue",
+        "reviewedAt": "2026-07-19",
+        "checkedPlatforms": [
+          "Mobile01",
+          "Reddit"
+        ],
+        "queries": [
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"IRIS OHYAMA PCF-CDP18TEC\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22IRIS%20OHYAMA%20PCF-CDP18TEC%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "mobile01.com"
+          },
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"IRIS OHYAMA PCF-CDP18TEC\" (problem OR issue OR defect OR \"negative review\")",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22IRIS%20OHYAMA%20PCF-CDP18TEC%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
+            "targetHost": "reddit.com"
+          }
+        ],
+        "candidateDisposition": "PCF-CDP18TEC：兩筆 exact-model 跨站查詢均未留下通過 targetHost 與 canonical model 邊界的原頁候選；此結果不代表完全沒有負評。",
+        "representativeSources": [],
+        "candidateReviews": [],
+        "reviewerNote": "PCF-CDP18TEC 已於 2026-07-19 實際執行 Mobile01、Reddit 的 Bing RSS exact-model 查詢；兩站未發現需逐頁判讀的同型號候選，未以搜尋摘要合成負評證據。",
+        "attestation": "manual_cross_site_search_reviewed_no_candidate",
+        "recheckNotes": {
+          "searchErrors": [],
+          "nonExactCandidates": [],
+          "pendingOriginalPages": [],
+          "actualQueriesRun": 2,
+          "originalPagesOpenedDirectly": 0,
+          "searchProvider": "Bing RSS",
+          "successfulQueries": 2
+        }
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-07-19",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"IRIS OHYAMA PCF-CDP18TEC\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22IRIS%20OHYAMA%20PCF-CDP18TEC%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "mobile01.com"
+          },
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"IRIS OHYAMA PCF-CDP18TEC\" (problem OR issue OR defect OR \"negative review\")",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22IRIS%20OHYAMA%20PCF-CDP18TEC%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
+            "targetHost": "reddit.com"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"IRIS OHYAMA PCF-CDP18TEC\" (災情 OR 問題 OR 故障 OR 負評)",
+          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22IRIS%20OHYAMA%20PCF-CDP18TEC%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-07-19T06:27:00+08:00"
+        },
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"IRIS OHYAMA PCF-CDP18TEC\" (problem OR issue OR defect OR \"negative review\")",
+          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22IRIS%20OHYAMA%20PCF-CDP18TEC%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-07-19T06:27:00+08:00"
         }
       ],
       "evidence": [],

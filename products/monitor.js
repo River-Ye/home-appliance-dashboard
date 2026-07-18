@@ -2223,9 +2223,9 @@
     "name": "27 型 WQHD 360Hz QD-OLED 電競螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 18900,
-      "converted": 18900,
-      "confidence": "Yahoo購物中心 2026-07-18 商品頁公開價"
+      "amount": 17955,
+      "converted": 17955,
+      "confidence": "Yahoo購物中心 2026-07-18 UTC 商品頁公開現貨價"
     },
     "image": "https://cs-a.ecimg.tw/items/DSBC1ZA900HE04M/000001_1757303897.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/MSI%E5%BE%AE%E6%98%9F-MPG-271QRX-QD-OLED-27%E5%9E%8B-2K-360Hz-HDR%E9%9B%BB%E7%AB%B6%E8%9E%A2%E5%B9%95-10958143.html",
@@ -3124,9 +3124,9 @@
     "name": "34 型 UWQHD 120Hz 曲面美型螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 6588,
-      "converted": 6588,
-      "confidence": "Yahoo購物中心 2026-07-18 商品頁公開價"
+      "amount": 6259,
+      "converted": 6259,
+      "confidence": "Yahoo購物中心 2026-07-18 UTC 商品頁公開現貨價"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABPFA900K0AJK/000001_1778658221.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/MSI%E5%BE%AE%E6%98%9FPRO-MP341CQW-E12-34%E5%9E%8B-VA-UWQHD-120Hz-%E6%9B%B2%E9%9D%A2%E8%9E%A2%E5%B9%95-1ms-12002868.html",
@@ -3862,9 +3862,9 @@
     "name": "45 型 UltraGear 21:9 OLED 240Hz 智慧曲面螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 38580,
-      "converted": 38580,
-      "confidence": "PChome 2026-07-18 API 公開價"
+      "amount": 41310,
+      "converted": 41310,
+      "confidence": "PChome 2026-07-18 UTC API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DSBC1ZA900J732D/000001_1780394558.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DSBC1Z-A900J732D",

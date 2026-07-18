@@ -1675,6 +1675,89 @@
         }
       ]
     }
+  },
+  {
+    "id": "circulator-iris-pcf-cdp18tec",
+    "category": "circulator",
+    "rank": 22,
+    "budget": "mid",
+    "channel": "tw",
+    "brand": "IRIS OHYAMA",
+    "model": "PCF-CDP18TEC",
+    "name": "360 度美型空氣循環扇",
+    "price": {
+      "currency": "TWD",
+      "amount": 3990,
+      "converted": 3990,
+      "confidence": "IRIS OHYAMA 台灣官方 2026-07-19 商品頁公開現貨價"
+    },
+    "image": "https://img.shoplineapp.com/media/image_clips/69ccee7a1cf502b0b21ecdd0/original.jpg?1775038073=&owner_id=6976e3a5a39620001e911a08",
+    "buyUrl": "https://www.irisplaza.com.tw/products/iris-pcf-cdp18tec",
+    "buyLabel": "IRIS OHYAMA 台灣官方",
+    "specs": [
+      "適用空間：約 20 坪 / 65m²",
+      "左右 60° / 90° / 180° / 360°、上下 6 種自動擺頭模式",
+      "8 段風量 / 2、4、6、8 小時定時 / 遙控",
+      "消耗功率：34W",
+      "尺寸：22.5 x 22.5 x 34.2 cm",
+      "重量：2.3kg",
+      "BSMI：R31310"
+    ],
+    "description": "IRIS OHYAMA 台灣官方標示的 2026 新品，以 360 度擺頭與中大型空間循環為主，適合搭配冷暖氣、除濕機或空氣清淨機。",
+    "pros": [
+      "台灣官方現貨與新品身分清楚",
+      "360 度擺頭、8 段風量、定時與遙控功能完整"
+    ],
+    "cons": [
+      "官方價高於多數入門循環扇",
+      "新品長期耐用度與噪音口碑仍待累積"
+    ],
+    "bestFor": "需要中大型空間循環、360 度擺頭與台灣官方售後的人。",
+    "recommendation": "2026 新品補充比較；功能完整但不列低價首選，建議先確認擺放空間與對噪音的接受度。",
+    "score": 86,
+    "voltage": "110V / 60Hz",
+    "warranty": "原廠保固 1 年",
+    "tags": [
+      "2026新品",
+      "360度擺頭",
+      "循環扇",
+      "遙控",
+      "官方通路"
+    ],
+    "releaseDate": "2026",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-07-19",
+      "note": "PCF-CDP18TEC 為台灣官方標示的 2026 新品；已查官方商品頁、BigGo、FindPrice 與 LBJ，未找到同型號可公開重現且符合可信新品條件的歷史最低價，官方現價 NT$3,990 不直接視為歷史最低價。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-07-19",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"IRIS OHYAMA PCF-CDP18TEC\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22IRIS%20OHYAMA%20PCF-CDP18TEC%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"IRIS OHYAMA PCF-CDP18TEC\" (problem OR issue OR defect OR \"negative review\")",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22IRIS%20OHYAMA%20PCF-CDP18TEC%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
+          "targetHost": "reddit.com"
+        }
+      ]
+    }
   }
 ]);
 })();
