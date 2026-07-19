@@ -95,9 +95,9 @@
     "name": "26L 8 合 1 變頻氣炸蒸烤微波爐",
     "price": {
       "currency": "TWD",
-      "amount": 18706,
-      "converted": 18706,
-      "confidence": "Yahoo購物中心 2026-07-11 頁面查核價"
+      "amount": 19900,
+      "converted": 19900,
+      "confidence": "Yahoo購物中心 2026-07-20 頁面公開價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBJ02A900J1WEX/000001_1753093870.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/Whirlpool-%E6%83%A0%E8%80%8C%E6%B5%A6-26L-MWP269TMT-%E9%9B%B2%E9%9C%A7%E7%99%BD-%E8%AE%8A%E9%A0%BB%E6%B0%A3%E7%82%B8%E8%92%B8%E7%83%A4%E5%BE%AE%E6%B3%A2%E7%88%90-8%E5%90%881-Chef-12003584.html",
@@ -251,9 +251,9 @@
     "name": "30L Healsio 炙燒水波爐",
     "price": {
       "currency": "TWD",
-      "amount": 26496,
-      "converted": 26496,
-      "confidence": "Yahoo購物中心 2026-07-18 商品頁公開價"
+      "amount": 28800,
+      "converted": 28800,
+      "confidence": "Yahoo購物中心 2026-07-20 頁面公開價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBJ021900I5KFC/000001_1779346148.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/SHARP%E5%A4%8F%E6%99%AE-HEALSIO-%E6%97%97%E8%89%A6%E6%B0%B4%E6%B3%A2%E7%88%90-AX-XP10T-12039766.html",
@@ -330,8 +330,8 @@
     "price": {
       "currency": "USD",
       "amount": 499.95,
-      "converted": 16180,
-      "confidence": "Breville 官方 2026-07-16 來源價；ExchangeRate-API 2026-07-18 匯率換算"
+      "converted": 16169,
+      "confidence": "Breville 官方 2026-07-20 來源價；ExchangeRate-API 2026-07-19 匯率換算"
     },
     "image": "https://cdn11.bigcommerce.com/s-ihwnd7z21q/images/stencil/640w/products/1251/4666/212814_JouleOvenAirFryer1__10534.1724079466.jpg?c=1",
     "buyUrl": "https://www.breville.com/en-us/product/bov950",
@@ -797,9 +797,9 @@
     "name": "25 公升獨立式蒸烤爐",
     "price": {
       "currency": "TWD",
-      "amount": 9400,
-      "converted": 9400,
-      "confidence": "Yahoo購物中心 2026-07-11 頁面查核價"
+      "amount": 9999,
+      "converted": 9999,
+      "confidence": "Yahoo購物中心 2026-07-20 頁面公開價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBJ6QA900EO5DH/000001_1704094465.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/Whirlpool%E6%83%A0%E8%80%8C%E6%B5%A6-25%E5%85%AC%E5%8D%87%E7%8D%A8%E7%AB%8B%E5%BC%8F%E8%92%B8%E7%83%A4%E7%88%90-WSO2500B-9918063.html",
@@ -875,9 +875,9 @@
     "name": "AIoT 智慧連網 30L 水波爐蒸氣烘烤微波爐",
     "price": {
       "currency": "TWD",
-      "amount": 35696,
-      "converted": 35696,
-      "confidence": "Yahoo購物中心 2026-07-18 商品頁公開價"
+      "amount": 38800,
+      "converted": 38800,
+      "confidence": "Yahoo購物中心 2026-07-20 頁面公開價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBM0GA900G41CW/000001_1780306175.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/SHARP-%E5%A4%8F%E6%99%AE-30L-Healsio-AIoT%E6%99%BA%E6%85%A7%E9%80%A3%E7%B6%B2%E6%B0%B4%E6%B3%A2%E7%88%90-AX-XW10T-11978312.html",
@@ -1031,9 +1031,9 @@
     "name": "31L 極智烘烤系列水波爐",
     "price": {
       "currency": "TWD",
-      "amount": 22908,
-      "converted": 22908,
-      "confidence": "Yahoo購物中心 2026-07-18 商品頁公開價"
+      "amount": 24900,
+      "converted": 24900,
+      "confidence": "Yahoo購物中心 2026-07-20 頁面公開價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBJ0RA900JT4ZV/000001_1781238451.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/SHARP-%E5%A4%8F%E6%99%AE-31L-%E6%A5%B5%E6%99%BA%E7%83%98%E7%83%A4%E7%B3%BB%E5%88%97%E6%B0%B4%E6%B3%A2%E7%88%90-AX-XS10T-B-AX-XS10T-W-12030496.html",
@@ -1109,9 +1109,9 @@
     "name": "32 公升獨立式萬用蒸烤爐",
     "price": {
       "currency": "TWD",
-      "amount": 14852,
-      "converted": 14852,
-      "confidence": "Yahoo購物中心 2026-07-11 頁面查核價"
+      "amount": 15800,
+      "converted": 15800,
+      "confidence": "Yahoo購物中心 2026-07-20 頁面公開價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBJ6QA900EO9M8/000001_1716271473.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/Whirlpool%E6%83%A0%E8%80%8C%E6%B5%A6-32%E5%85%AC%E5%8D%87%E7%8D%A8%E7%AB%8B%E5%BC%8F%E8%92%B8%E7%83%A4%E7%88%90-WSO322EB-9918064.html",
@@ -1187,9 +1187,9 @@
     "name": "39L 智慧變頻蒸烘烤微波爐",
     "price": {
       "currency": "TWD",
-      "amount": 14006,
-      "converted": 14006,
-      "confidence": "Yahoo購物中心 2026-07-11 頁面查核價"
+      "amount": 14900,
+      "converted": 14900,
+      "confidence": "Yahoo購物中心 2026-07-20 頁面公開價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBJ8JA900H3U40/000001_1749176905.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/LG-%E6%A8%82%E9%87%91-NeoChef-%E6%99%BA%E6%85%A7%E8%AE%8A%E9%A0%BB%E8%92%B8%E7%83%98%E7%83%A4%E5%BE%AE%E6%B3%A2%E7%88%90-39%E5%85%AC%E5%8D%87-MJ3965BCP-11971476.html",
@@ -1343,9 +1343,9 @@
     "name": "過熱水蒸氣烘烤微波爐",
     "price": {
       "currency": "TWD",
-      "amount": 21534,
-      "converted": 21534,
-      "confidence": "Yahoo購物中心 2026-07-11 頁面查核價"
+      "amount": 22908,
+      "converted": 22908,
+      "confidence": "Yahoo購物中心 2026-07-20 頁面公開價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBJ031900I80DM/000001_1778655849.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/HITACHI-%E6%97%A5%E7%AB%8B-%E9%81%8E%E7%86%B1%E6%B0%B4%E8%92%B8%E6%B0%A3%E7%83%98%E7%83%A4%E5%BE%AE%E6%B3%A2%E7%88%90-%E7%88%B5%E8%89%B2%E9%BB%91-MROS800AT-11995105.html",
@@ -1421,9 +1421,9 @@
     "name": "過熱水蒸氣烘烤微波爐",
     "price": {
       "currency": "TWD",
-      "amount": 45748,
-      "converted": 45748,
-      "confidence": "Yahoo購物中心 2026-07-11 頁面查核價"
+      "amount": 48668,
+      "converted": 48668,
+      "confidence": "Yahoo購物中心 2026-07-20 頁面公開價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBJ5PA900GN8PM/000001_1750840663.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/HITACHI-%E6%97%A5%E7%AB%8B-%E9%81%8E%E7%86%B1%E6%B0%B4%E8%92%B8%E6%B0%A3%E7%83%98%E7%83%A4%E5%BE%AE%E6%B3%A2%E7%88%90-MROBK5000AT-11995474.html",
@@ -1819,8 +1819,8 @@
     "price": {
       "currency": "USD",
       "amount": 449.99,
-      "converted": 14563,
-      "confidence": "SharkNinja 美國官方 2026-07-17 商品頁現貨價；ExchangeRate-API 2026-07-18 匯率換算"
+      "converted": 14553,
+      "confidence": "SharkNinja 美國官方 2026-07-20 商品頁現貨價；ExchangeRate-API 2026-07-19 匯率換算"
     },
     "image": "https://assets.sharkninja.com/image/upload/f_auto/q_auto/SharkNinja-NA/MW101_01.jpg",
     "buyUrl": "https://www.sharkninja.com/ninja-crispi-microwave/MW101.html",

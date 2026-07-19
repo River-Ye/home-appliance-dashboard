@@ -1735,9 +1735,9 @@
     "name": "A1 極致抗刮不沾單柄深煎鍋 26 公分",
     "price": {
       "currency": "TWD",
-      "amount": 2699,
-      "converted": 2699,
-      "confidence": "Costco 好市多 2026-07-11 頁面查核價"
+      "amount": 2159,
+      "converted": 2159,
+      "confidence": "Costco 好市多 2026-07-20 頁面公開價"
     },
     "image": "https://www.costco.com.tw/medias/sys_master/images/h82/h10/325943411802142.jpg",
     "buyUrl": "https://www.costco.com.tw/Furniture-Kitchen/Kitchen-Dining/Cookware-Cutlery-Cutting-Boards/Circulon-A1-Non-Stick-Saute-Pan-With-Glass-Lid-26-cm/p/151585",

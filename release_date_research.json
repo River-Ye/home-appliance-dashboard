@@ -1,13 +1,13 @@
 {
   "summary": {
-    "checkedAt": "2026-07-18T22:27:31.000Z",
-    "total": 667,
+    "checkedAt": "2026-07-19T22:27:28.202Z",
+    "total": 666,
     "found": 177,
-    "missing": 490,
+    "missing": 489,
     "byConfidence": {
       "official": 77,
       "credible_article": 89,
-      "not_found": 490,
+      "not_found": 489,
       "retailer_explicit": 11
     }
   },
@@ -7312,20 +7312,6 @@
       "evidenceSnippet": "",
       "confidence": "not_found",
       "query": "Acer VG270U P6 release date launch announced 上市 發售",
-      "sourceKind": "not_found_after_available_search"
-    },
-    {
-      "id": "monitor-benq-ex271q",
-      "category": "monitor",
-      "brand": "BenQ",
-      "model": "MOBIUZ EX271Q",
-      "name": "27 吋 2K 180Hz HDR400 電競螢幕",
-      "releaseDate": "找不到",
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "confidence": "not_found",
-      "query": "BenQ MOBIUZ EX271Q release date launch announced 上市 發售",
       "sourceKind": "not_found_after_available_search"
     },
     {

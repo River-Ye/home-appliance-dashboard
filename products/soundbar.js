@@ -1682,8 +1682,8 @@
     "price": {
       "currency": "USD",
       "amount": 1299.99,
-      "converted": 42072,
-      "confidence": "Marshall US 2026-07-16 來源價；ExchangeRate-API 2026-07-18 匯率換算"
+      "converted": 42043,
+      "confidence": "Marshall US 2026-07-20 來源價；ExchangeRate-API 2026-07-19 匯率換算"
     },
     "image": "https://images.ctfassets.net/javen7msabdh/2C2sn9CKoKFdIyd94Gm9z5/f3019d4e721511167ebe5c229bf490dd/heston-120_plp.jpg",
     "buyUrl": "https://www.marshall.com/us/en/product/heston-120",
@@ -1762,8 +1762,8 @@
     "price": {
       "currency": "USD",
       "amount": 699.99,
-      "converted": 22654,
-      "confidence": "Best Buy US 2026-07-16 來源價；ExchangeRate-API 2026-07-18 匯率換算"
+      "converted": 22638,
+      "confidence": "Best Buy US 2026-07-20 來源價；ExchangeRate-API 2026-07-19 匯率換算"
     },
     "image": "https://images.ctfassets.net/javen7msabdh/3yitHqjPBTgQk5qRE72PSn/2788206646aa153f71f2c0ebefaff580/Heston-60-black_plp_800x800-v3.jpeg",
     "buyUrl": "https://www.bestbuy.com/product/marshall-heston-60-soundbar-with-dolby-atmos-immersive-sound-for-tv-movies-music-black/CFCR4H4GSQ",

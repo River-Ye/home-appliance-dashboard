@@ -174,90 +174,9 @@
     }
   },
   {
-    "id": "monitor-benq-ex271q",
-    "category": "monitor",
-    "rank": 3,
-    "budget": "value",
-    "channel": "tw",
-    "brand": "BenQ",
-    "model": "MOBIUZ EX271Q",
-    "name": "27 吋 2K 180Hz HDR400 電競螢幕",
-    "price": {
-      "currency": "TWD",
-      "amount": 5688,
-      "converted": 5688,
-      "confidence": "順發線上購物 2026-07-13 公開折扣價"
-    },
-    "image": "https://cs-a.ecimg.tw/items/DSABF3A900JA047/000001_1758694183.jpg",
-    "buyUrl": "https://www.isunfar.com.tw/product/?prodseq=271909",
-    "buyLabel": "順發線上購物",
-    "specs": [
-      "27 吋",
-      "2K/QHD",
-      "180Hz",
-      "IPS",
-      "HDR400",
-      "重量：未標示（通路頁未明確列出）"
-    ],
-    "description": "BenQ EX271Q 以護眼、HDR400 與遊戲規格取得平衡，台灣售後也容易理解。",
-    "pros": [
-      "BenQ 護眼口碑",
-      "2K 180Hz 規格完整",
-      "HDR400 加分"
-    ],
-    "cons": [
-      "價格高於 Acer 入門 2K",
-      "不是 USB-C 生產力款"
-    ],
-    "bestFor": "想要遊戲與護眼品牌兼顧的人。",
-    "recommendation": "護眼電競推薦：比低價 2K 多花一些，換來 BenQ 調校與品牌安心感。",
-    "score": 90,
-    "voltage": "110V 台灣通路",
-    "warranty": "依 PChome/供應商頁面",
-    "tags": [
-      "2K",
-      "180Hz",
-      "護眼"
-    ],
-    "releaseDate": "找不到",
-    "historicalLow": {
-      "status": "found",
-      "amount": 5688,
-      "currency": "TWD",
-      "converted": 5688,
-      "sourceUrl": "https://www.isunfar.com.tw/product/?prodseq=271909",
-      "sourceTitle": "順發線上購物：BENQ 明基電通 27 吋 MOBIUZ EX271Q 2K 180Hz 電競螢幕",
-      "evidenceSnippet": "順發線上購物同型號新品頁於 2026-07-13 顯示售價 NT$5,988 與公開折扣 NT$300，頁面 metadata／結構化資料標示成交價 NT$5,688、NewCondition、InStock。",
-      "sourceKind": "retailer_promo",
-      "confidence": "high",
-      "checkedAt": "2026-07-13",
-      "note": "採用可信通路同一商品頁可公開重現的公開折扣價；未使用會員個人化優惠、信用卡回饋、點數、二手、福利品、展示機、拆封品或整新品。"
-    },
-    "issueResearch": {
-      "status": "no_common_issue",
-      "checkedAt": "2026-07-13",
-      "summary": "截至查核日，查無達門檻的集中負評／災情",
-      "issues": [],
-      "checkedSources": [
-        {
-          "platform": "Reddit",
-          "query": "site:reddit.com \"BenQ MOBIUZ EX271Q\" (problem OR issue OR defect OR \"negative review\")",
-          "queryUrl": "https://www.google.com/search?q=site%3Areddit.com+%22BenQ+MOBIUZ+EX271Q%22+%28problem+OR+issue+OR+defect+OR+%22negative+review%22%29",
-          "targetHost": "reddit.com"
-        },
-        {
-          "platform": "Mobile01",
-          "query": "site:mobile01.com \"BenQ MOBIUZ EX271Q\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com+%22BenQ+MOBIUZ+EX271Q%22+%28%E7%81%BD%E6%83%85+OR+%E5%95%8F%E9%A1%8C+OR+%E6%95%85%E9%9A%9C+OR+%E8%B2%A0%E8%A9%95%29",
-          "targetHost": "mobile01.com"
-        }
-      ]
-    }
-  },
-  {
     "id": "monitor-lg-27u631a",
     "category": "monitor",
-    "rank": 4,
+    "rank": 3,
     "budget": "value",
     "channel": "tw",
     "brand": "LG",
@@ -338,7 +257,7 @@
   {
     "id": "monitor-dell-p2425h",
     "category": "monitor",
-    "rank": 5,
+    "rank": 4,
     "budget": "value",
     "channel": "tw",
     "brand": "Dell",
@@ -419,7 +338,7 @@
   {
     "id": "monitor-samsung-g5-s27fg532",
     "category": "monitor",
-    "rank": 6,
+    "rank": 5,
     "budget": "value",
     "channel": "tw",
     "brand": "Samsung",
@@ -500,7 +419,7 @@
   {
     "id": "monitor-msi-g275l-e14",
     "category": "monitor",
-    "rank": 7,
+    "rank": 6,
     "budget": "value",
     "channel": "tw",
     "brand": "MSI",
@@ -581,7 +500,7 @@
   {
     "id": "monitor-gigabyte-g27q20t",
     "category": "monitor",
-    "rank": 8,
+    "rank": 7,
     "budget": "value",
     "channel": "tw",
     "brand": "GIGABYTE",
@@ -662,7 +581,7 @@
   {
     "id": "monitor-viewsonic-vx2479",
     "category": "monitor",
-    "rank": 9,
+    "rank": 8,
     "budget": "value",
     "channel": "tw",
     "brand": "ViewSonic",
@@ -743,7 +662,7 @@
   {
     "id": "monitor-aoc-q27g42ze",
     "category": "monitor",
-    "rank": 10,
+    "rank": 9,
     "budget": "value",
     "channel": "tw",
     "brand": "AOC",
@@ -824,7 +743,7 @@
   {
     "id": "monitor-philips-27m2n2500nf",
     "category": "monitor",
-    "rank": 11,
+    "rank": 10,
     "budget": "value",
     "channel": "tw",
     "brand": "Philips",
@@ -905,7 +824,7 @@
   {
     "id": "monitor-eizo-ev2460",
     "category": "monitor",
-    "rank": 12,
+    "rank": 11,
     "budget": "mid",
     "channel": "tw",
     "brand": "EIZO",
@@ -986,7 +905,7 @@
   {
     "id": "monitor-xiaomi-a27qi-2026",
     "category": "monitor",
-    "rank": 13,
+    "rank": 12,
     "budget": "value",
     "channel": "tw",
     "brand": "Xiaomi",
@@ -1067,7 +986,7 @@
   {
     "id": "monitor-lg-27up850k",
     "category": "monitor",
-    "rank": 14,
+    "rank": 13,
     "budget": "mid",
     "channel": "tw",
     "brand": "LG",
@@ -1148,7 +1067,7 @@
   {
     "id": "monitor-asus-proart-pa278qev",
     "category": "monitor",
-    "rank": 15,
+    "rank": 14,
     "budget": "value",
     "channel": "tw",
     "brand": "ASUS",
@@ -1229,7 +1148,7 @@
   {
     "id": "monitor-asus-xg27ucg",
     "category": "monitor",
-    "rank": 16,
+    "rank": 15,
     "budget": "mid",
     "channel": "tw",
     "brand": "ASUS",
@@ -1310,7 +1229,7 @@
   {
     "id": "monitor-acer-predator-x27u-x2",
     "category": "monitor",
-    "rank": 17,
+    "rank": 16,
     "budget": "mid",
     "channel": "tw",
     "brand": "Acer",
@@ -1391,7 +1310,7 @@
   {
     "id": "monitor-aoc-q27g4zmn",
     "category": "monitor",
-    "rank": 18,
+    "rank": 17,
     "budget": "mid",
     "channel": "tw",
     "brand": "AOC",
@@ -1472,7 +1391,7 @@
   {
     "id": "monitor-samsung-oled-g5",
     "category": "monitor",
-    "rank": 19,
+    "rank": 18,
     "budget": "mid",
     "channel": "tw",
     "brand": "Samsung",
@@ -1553,7 +1472,7 @@
   {
     "id": "monitor-gigabyte-m27up",
     "category": "monitor",
-    "rank": 20,
+    "rank": 19,
     "budget": "mid",
     "channel": "tw",
     "brand": "GIGABYTE",
@@ -1634,7 +1553,7 @@
   {
     "id": "monitor-benq-ma270u",
     "category": "monitor",
-    "rank": 21,
+    "rank": 20,
     "budget": "mid",
     "channel": "tw",
     "brand": "BenQ",
@@ -1715,7 +1634,7 @@
   {
     "id": "monitor-benq-ew3290u",
     "category": "monitor",
-    "rank": 22,
+    "rank": 21,
     "budget": "mid",
     "channel": "tw",
     "brand": "BenQ",
@@ -1796,7 +1715,7 @@
   {
     "id": "monitor-dell-u2724d",
     "category": "monitor",
-    "rank": 23,
+    "rank": 22,
     "budget": "mid",
     "channel": "tw",
     "brand": "Dell",
@@ -1877,7 +1796,7 @@
   {
     "id": "monitor-dell-u2725qe",
     "category": "monitor",
-    "rank": 24,
+    "rank": 23,
     "budget": "premium",
     "channel": "tw",
     "brand": "Dell",
@@ -1972,7 +1891,7 @@
   {
     "id": "monitor-lg-27gx790a",
     "category": "monitor",
-    "rank": 25,
+    "rank": 24,
     "budget": "premium",
     "channel": "tw",
     "brand": "LG",
@@ -2053,7 +1972,7 @@
   {
     "id": "monitor-asus-xg32ucwg",
     "category": "monitor",
-    "rank": 26,
+    "rank": 25,
     "budget": "premium",
     "channel": "tw",
     "brand": "ASUS",
@@ -2134,7 +2053,7 @@
   {
     "id": "monitor-asus-xg27aqdmes",
     "category": "monitor",
-    "rank": 27,
+    "rank": 26,
     "budget": "mid",
     "channel": "tw",
     "brand": "ASUS",
@@ -2215,7 +2134,7 @@
   {
     "id": "monitor-msi-271qrx",
     "category": "monitor",
-    "rank": 28,
+    "rank": 27,
     "budget": "premium",
     "channel": "tw",
     "brand": "MSI",
@@ -2296,7 +2215,7 @@
   {
     "id": "monitor-gigabyte-mo27q2a",
     "category": "monitor",
-    "rank": 29,
+    "rank": 28,
     "budget": "mid",
     "channel": "tw",
     "brand": "GIGABYTE",
@@ -2377,7 +2296,7 @@
   {
     "id": "monitor-viewsonic-vg2719u",
     "category": "monitor",
-    "rank": 30,
+    "rank": 29,
     "budget": "value",
     "channel": "tw",
     "brand": "ViewSonic",
@@ -2458,7 +2377,7 @@
   {
     "id": "monitor-viewsonic-vx2740d",
     "category": "monitor",
-    "rank": 31,
+    "rank": 30,
     "budget": "mid",
     "channel": "tw",
     "brand": "ViewSonic",
@@ -2539,7 +2458,7 @@
   {
     "id": "monitor-philips-27m2n3500pf",
     "category": "monitor",
-    "rank": 32,
+    "rank": 31,
     "budget": "value",
     "channel": "tw",
     "brand": "Philips",
@@ -2620,7 +2539,7 @@
   {
     "id": "monitor-aoc-q27g40xmn",
     "category": "monitor",
-    "rank": 33,
+    "rank": 32,
     "budget": "mid",
     "channel": "tw",
     "brand": "AOC",
@@ -2705,7 +2624,7 @@
   {
     "id": "monitor-samsung-oled-g6-500",
     "category": "monitor",
-    "rank": 34,
+    "rank": 33,
     "budget": "premium",
     "channel": "tw",
     "brand": "Samsung",
@@ -2786,7 +2705,7 @@
   {
     "id": "monitor-dell-aw3225qf",
     "category": "monitor",
-    "rank": 35,
+    "rank": 34,
     "budget": "premium",
     "channel": "tw",
     "brand": "Dell",
@@ -2871,7 +2790,7 @@
   {
     "id": "monitor-eizo-cs2740",
     "category": "monitor",
-    "rank": 36,
+    "rank": 35,
     "budget": "premium",
     "channel": "tw",
     "brand": "EIZO",
@@ -2952,7 +2871,7 @@
   {
     "id": "monitor-acer-ed343cur-j0",
     "category": "monitor",
-    "rank": 37,
+    "rank": 36,
     "budget": "value",
     "channel": "tw",
     "brand": "Acer",
@@ -3034,7 +2953,7 @@
   {
     "id": "monitor-gigabyte-gs34wqca",
     "category": "monitor",
-    "rank": 38,
+    "rank": 37,
     "budget": "value",
     "channel": "tw",
     "brand": "GIGABYTE",
@@ -3116,7 +3035,7 @@
   {
     "id": "monitor-msi-pro-mp341cqw-e12",
     "category": "monitor",
-    "rank": 39,
+    "rank": 38,
     "budget": "value",
     "channel": "tw",
     "brand": "MSI",
@@ -3198,7 +3117,7 @@
   {
     "id": "monitor-aoc-cu34g4",
     "category": "monitor",
-    "rank": 40,
+    "rank": 39,
     "budget": "value",
     "channel": "tw",
     "brand": "AOC",
@@ -3280,7 +3199,7 @@
   {
     "id": "monitor-acer-ed340cur-x0",
     "category": "monitor",
-    "rank": 41,
+    "rank": 40,
     "budget": "value",
     "channel": "tw",
     "brand": "Acer",
@@ -3362,7 +3281,7 @@
   {
     "id": "monitor-asus-xg34wcdms",
     "category": "monitor",
-    "rank": 42,
+    "rank": 41,
     "budget": "premium",
     "channel": "tw",
     "brand": "ASUS",
@@ -3444,7 +3363,7 @@
   {
     "id": "monitor-samsung-s34dg852sc",
     "category": "monitor",
-    "rank": 43,
+    "rank": 42,
     "budget": "premium",
     "channel": "tw",
     "brand": "Samsung",
@@ -3526,7 +3445,7 @@
   {
     "id": "monitor-aoc-pd34",
     "category": "monitor",
-    "rank": 44,
+    "rank": 43,
     "budget": "premium",
     "channel": "tw",
     "brand": "AOC",
@@ -3608,7 +3527,7 @@
   {
     "id": "monitor-samsung-s49fg916e",
     "category": "monitor",
-    "rank": 45,
+    "rank": 44,
     "budget": "premium",
     "channel": "tw",
     "brand": "Samsung",
@@ -3690,7 +3609,7 @@
   {
     "id": "monitor-samsung-s49dg932scxzw",
     "category": "monitor",
-    "rank": 46,
+    "rank": 45,
     "budget": "premium",
     "channel": "tw",
     "brand": "Samsung",
@@ -3772,7 +3691,7 @@
   {
     "id": "monitor-aoc-ag456uczd",
     "category": "monitor",
-    "rank": 47,
+    "rank": 46,
     "budget": "premium",
     "channel": "tw",
     "brand": "AOC",
@@ -3854,7 +3773,7 @@
   {
     "id": "monitor-lg-45gx90sa",
     "category": "monitor",
-    "rank": 48,
+    "rank": 47,
     "budget": "premium",
     "channel": "tw",
     "brand": "LG",
@@ -3936,7 +3855,7 @@
   {
     "id": "monitor-samsung-s57cg952nc",
     "category": "monitor",
-    "rank": 49,
+    "rank": 48,
     "budget": "premium",
     "channel": "tw",
     "brand": "Samsung",
@@ -4018,7 +3937,7 @@
   {
     "id": "monitor-dell-u3425we",
     "category": "monitor",
-    "rank": 50,
+    "rank": 49,
     "budget": "premium",
     "channel": "tw",
     "brand": "Dell",
@@ -4100,7 +4019,7 @@
   {
     "id": "monitor-msi-mpg-491cqp",
     "category": "monitor",
-    "rank": 51,
+    "rank": 50,
     "budget": "premium",
     "channel": "tw",
     "brand": "MSI",
@@ -4182,7 +4101,7 @@
   {
     "id": "monitor-costco-philips-27e1n1100d",
     "category": "monitor",
-    "rank": 52,
+    "rank": 51,
     "budget": "value",
     "channel": "tw",
     "brand": "Philips",
@@ -4262,7 +4181,7 @@
   {
     "id": "monitor-costco-acer-ed270-p0",
     "category": "monitor",
-    "rank": 53,
+    "rank": 52,
     "budget": "value",
     "channel": "tw",
     "brand": "Acer",
@@ -4343,7 +4262,7 @@
   {
     "id": "monitor-costco-samsung-s32d706eac",
     "category": "monitor",
-    "rank": 54,
+    "rank": 53,
     "budget": "mid",
     "channel": "tw",
     "brand": "Samsung",
@@ -4424,7 +4343,7 @@
   {
     "id": "monitor-samsung-ls40h850tacxzw",
     "category": "monitor",
-    "rank": 55,
+    "rank": 54,
     "budget": "premium",
     "channel": "tw",
     "brand": "Samsung",

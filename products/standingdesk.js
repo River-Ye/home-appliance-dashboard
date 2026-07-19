@@ -97,9 +97,9 @@
     "name": "D01-SL-DX 電動升降桌 120x80",
     "price": {
       "currency": "TWD",
-      "amount": 14790,
-      "converted": 14790,
-      "confidence": "PChome 2026-07-16 UTC API 公開價"
+      "amount": 14346,
+      "converted": 14346,
+      "confidence": "PChome 2026-07-20 API 公開價"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBJ4CA900I9XVY/000001_1773043590.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBJ4C-A900I9XVY",
@@ -177,9 +177,9 @@
     "name": "D01-SL-DX 電動升降桌 150x80",
     "price": {
       "currency": "TWD",
-      "amount": 15490,
-      "converted": 15490,
-      "confidence": "PChome 2026-07-16 UTC API 公開價"
+      "amount": 15025,
+      "converted": 15025,
+      "confidence": "PChome 2026-07-20 API 公開價"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBJ4CA900HUG3C/000001_1773043903.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBJ4C-A900HUG3C",
@@ -257,9 +257,9 @@
     "name": "D01-SL-DX 電動升降桌 160x80",
     "price": {
       "currency": "TWD",
-      "amount": 15990,
-      "converted": 15990,
-      "confidence": "PChome 2026-07-16 UTC API 公開價"
+      "amount": 15510,
+      "converted": 15510,
+      "confidence": "PChome 2026-07-20 API 公開價"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBJ4CA900ITV12/000001_1773043461.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBJ4C-A900ITV12",
@@ -337,9 +337,9 @@
     "name": "D01-SL-DX 電動升降桌 180x80",
     "price": {
       "currency": "TWD",
-      "amount": 16490,
-      "converted": 16490,
-      "confidence": "PChome 2026-07-16 UTC API 公開價"
+      "amount": 15995,
+      "converted": 15995,
+      "confidence": "PChome 2026-07-20 API 公開價"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBJ4CA900HUGSO/000001_1773043706.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBJ4C-A900HUGSO",
@@ -577,9 +577,9 @@
     "name": "電動升降桌 UP006 1260WH/WH",
     "price": {
       "currency": "TWD",
-      "amount": 8490,
-      "converted": 8490,
-      "confidence": "PChome 2026-07-16 API 公開價"
+      "amount": 8090,
+      "converted": 8090,
+      "confidence": "PChome 2026-07-20 API 公開價"
     },
     "image": "https://cs-a.ecimg.tw/items/DQCI0AA900K15SP/000001_1779286467.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQCI0A-A900K15SP",
@@ -657,9 +657,9 @@
     "name": "電動升降桌 UP006 1460WH/WH",
     "price": {
       "currency": "TWD",
-      "amount": 9490,
-      "converted": 9490,
-      "confidence": "PChome 2026-07-16 API 公開價"
+      "amount": 9090,
+      "converted": 9090,
+      "confidence": "PChome 2026-07-20 API 公開價"
     },
     "image": "https://cs-a.ecimg.tw/items/DQCI0AA900K15T1/000001_1779269416.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQCI0A-A900K15T1",
