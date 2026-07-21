@@ -4,10 +4,14 @@ on:
   push:
     branches:
       - codex/2026-07-21-catalog-maintenance
+  pull_request:
+    branches:
+      - main
   workflow_dispatch:
 
 permissions:
   contents: write
+  pull-requests: read
 
 concurrency:
   group: catalog-maintenance-2026-07-21
@@ -23,6 +27,7 @@ jobs:
       - name: Checkout maintenance branch
         uses: actions/checkout@v6
         with:
+          ref: codex/2026-07-21-catalog-maintenance
           fetch-depth: 0
 
       - name: Setup Node.js
