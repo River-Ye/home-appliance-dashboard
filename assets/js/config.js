@@ -3,7 +3,7 @@
   const dashboard = root.applianceDashboard || {};
 
   const meta = {
-    dataDate: "2026-07-21",
+    dataDate: "2026-07-22",
     costcoDate: "2026-07-21",
     expectedCategoryCount: 25,
     expectedProductCount: 666,
