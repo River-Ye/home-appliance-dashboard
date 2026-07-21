@@ -46,16 +46,13 @@ jobs:
           tail = "".join(part.read_text() for part in parts[1:])
           expected_original = "db6d4a01cca4951f36ba3ecc12cff2ff6fd448fa3d1e56849d9faa5b2e8422e6"
           matches = []
-
           for index in range(len(first)):
               corrected = first[:index] + first[index + 1:]
-              encoded = corrected + tail
               try:
-                  decoded = gzip.decompress(base64.b64decode(encoded, validate=True))
+                  decoded = gzip.decompress(base64.b64decode(corrected + tail, validate=True))
               except Exception:
                   continue
-              digest = hashlib.sha256(decoded).hexdigest()
-              if digest == expected_original:
+              if hashlib.sha256(decoded).hexdigest() == expected_original:
                   matches.append((index, first[index], corrected, decoded))
 
           if len(matches) != 1:
@@ -66,7 +63,6 @@ jobs:
           script_path = Path("tools/.run-catalog-maintenance-2026-07-21.js")
           script_path.write_bytes(decoded)
           print(f"recovered part00 by removing index={index}, character={removed!r}")
-          print(f"original script bytes={len(decoded)}, sha256={hashlib.sha256(decoded).hexdigest()}")
 
           text = script_path.read_text()
           old = '    historicalLow: historicalNotFound("TWD", "已查 Dyson 台灣官方單機頁、PChome exact-model 單機頁與公開上市資料；NT$12,900 可驗證為本輪現行促銷價，但缺少可重現的長期價格曲線，且已排除兩入組、搭售組合與濾網組，因此不把現價直接宣稱為歷史最低價。"),'
@@ -115,9 +111,49 @@ jobs:
           new = '    historicalLow: historicalNotFound("TWD", "已查 LG 台灣官方頁、PChome exact-model 新品頁、雅光現貨頁與其他零售頁；NT$92,900 可驗證為本輪可信新品現價，但仍缺少完整期間的可重現價格曲線。更低頁面含需詢問貨源或庫存不明條件，因此不直接宣稱為歷史最低價。"),'
           if old not in text:
               raise SystemExit("WD-S2220B historical-low note patch target missing")
+          text = text.replace(old, new)
+
+          old = '''    {
+                id: "washerdryer-lg-wd-s2220b",
+                sourceKind: "manual_exact_model",
+                url: "https://www.yk01.com.tw/products/wds2220b",
+                httpStatus: 200,
+                status: "verified_available",
+                title: "LG 洗22公斤+乾20公斤 WashTower AI 智控熱泵除濕滾筒洗乾衣機 WD-S2220B",
+                exactModel: true,
+                excludedCondition: false,
+                quantity: null,
+                price: 101900,
+                currency: "TWD",
+                image: "https://www.lg.com/content/dam/channel/wcms/tw/images/washing-machines/wd-s2220b/2010-1.jpg/jcr%3Acontent/renditions/thum-1600x1062.jpeg?w=800",
+                evidence: [
+                  "雅光電器 exact-model 頁明示 NT$101,900 與尚有庫存。",
+                  "LG 台灣官方頁明示 22/20kg、700x1890x830mm、HeatPump、AI DD、AI Dry、智慧洗劑與 ThinQ。",
+                ],
+              },'''
+          new = '''    {
+                id: "washerdryer-lg-wd-s2220b",
+                sourceKind: "manual_exact_model",
+                url: "https://24h.pchome.com.tw/prod/DPAI1L-A900IXKBU",
+                httpStatus: 200,
+                status: "verified_available",
+                title: "LG 洗22公斤+乾20公斤 WashTower AI 智控熱泵除濕滾筒洗乾衣機 WD-S2220B",
+                exactModel: true,
+                excludedCondition: false,
+                quantity: null,
+                price: 92900,
+                currency: "TWD",
+                image: "https://img.pchome.com.tw/cs/items/DPAI1LA900IXKBU/000007_1752484626.jpg",
+                evidence: [
+                  "PChome exact-model 新品頁明示 NT$92,900、加入購物車與立即購買。",
+                  "LG 台灣官方頁明示 22/20kg、700x1890x830mm、HeatPump、AI DD、AI Dry、智慧洗劑與 ThinQ。",
+                ],
+              },'''
+          if old not in text:
+              raise SystemExit("WD-S2220B audit-row patch target missing")
           script_path.write_text(text.replace(old, new))
 
-          expected_patched = "e7dfdc3a4b5dadca9802983dce1730c09236c4fcf5386e4ef34943e9f424168a"
+          expected_patched = "c31c534a3ac412b7ab8770602c5f616d71901581be8fcbe939360dbb130adc49"
           patched = script_path.read_bytes()
           patched_digest = hashlib.sha256(patched).hexdigest()
           if patched_digest != expected_patched:
@@ -152,43 +188,41 @@ jobs:
       - name: Generate category pages
         run: npm run generate:categories
 
-      - name: Run repository checks
-        run: npm run check
-
-      - name: Run full UI journeys
-        run: npm run check:ui:full
-
-      - name: Check Lighthouse quality budgets
-        run: npm run check:quality
-
-      - name: Check whitespace errors
-        run: git diff --check
-
-      - name: Print maintenance summary
-        run: |
-          node - <<'NODE'
-          const report = require("./catalog_maintenance_2026-07-21.json");
-          console.log(JSON.stringify(report.summary, null, 2));
-          console.log(JSON.stringify({
-            priceChanges: report.priceChanges,
-            linkChanges: report.linkChanges,
-            imageChanges: report.imageChanges,
-            manualPriceCandidates: report.manualPriceCandidates,
-            officialDiscontinuedCandidates: report.officialDiscontinuedCandidates,
-            failures: report.failures,
-          }, null, 2));
-          NODE
-
-      - name: Commit validated maintenance changes
+      - name: Validate and preserve results
+        id: validation
         shell: bash
         run: |
-          set -euo pipefail
+          set +e
+          npm run check > catalog-maintenance-check.log 2>&1
+          check_code=$?
+          ui_code=99
+          quality_code=99
+          if [ "$check_code" -eq 0 ]; then
+            npm run check:ui:full > catalog-maintenance-ui-full.log 2>&1
+            ui_code=$?
+          fi
+          if [ "$check_code" -eq 0 ] && [ "$ui_code" -eq 0 ]; then
+            npm run check:quality > catalog-maintenance-quality.log 2>&1
+            quality_code=$?
+          fi
+          git diff --check > catalog-maintenance-diff-check.log 2>&1
+          diff_code=$?
+          {
+            echo "npm_run_check=$check_code"
+            echo "npm_run_check_ui_full=$ui_code"
+            echo "npm_run_check_quality=$quality_code"
+            echo "git_diff_check=$diff_code"
+          } > catalog-maintenance-validation.txt
+          cat catalog-maintenance-validation.txt
+          cat catalog-maintenance-check.log
+          [ ! -f catalog-maintenance-ui-full.log ] || cat catalog-maintenance-ui-full.log
+          [ ! -f catalog-maintenance-quality.log ] || cat catalog-maintenance-quality.log
+          cat catalog-maintenance-diff-check.log
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add -A
-          if git diff --cached --quiet; then
-            echo "No validated catalog changes to commit."
-            exit 0
-          fi
-          git commit -m "更新 7 月 21 日商品資料與匯率"
+          git commit -m "產生 7 月 21 日商品維護資料與驗證結果"
           git push origin HEAD:codex/2026-07-21-catalog-maintenance
+          if [ "$check_code" -ne 0 ] || [ "$ui_code" -ne 0 ] || [ "$quality_code" -ne 0 ] || [ "$diff_code" -ne 0 ]; then
+            exit 1
+          fi
