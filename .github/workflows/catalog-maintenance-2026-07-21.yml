@@ -47,8 +47,10 @@ jobs:
         run: |
           set -euo pipefail
           cat .github/maintenance/2026-07-21-script.part* > /tmp/catalog-maintenance.js.gz.b64
+          sha256sum /tmp/catalog-maintenance.js.gz.b64
           echo "19f6a259b0c7f0c0f167bdc5a50d4b24cecd03b388b5bea6dcd1e3bb257e88ff  /tmp/catalog-maintenance.js.gz.b64" | sha256sum -c -
           base64 -d /tmp/catalog-maintenance.js.gz.b64 | gzip -d > tools/.run-catalog-maintenance-2026-07-21.js
+          sha256sum tools/.run-catalog-maintenance-2026-07-21.js
           echo "db6d4a01cca4951f36ba3ecc12cff2ff6fd448fa3d1e56849d9faa5b2e8422e6  tools/.run-catalog-maintenance-2026-07-21.js" | sha256sum -c -
           node --check tools/.run-catalog-maintenance-2026-07-21.js
 
