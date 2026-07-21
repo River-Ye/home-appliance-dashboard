@@ -65,7 +65,7 @@ jobs:
           MAINTENANCE_FETCH_TIMEOUT_MS: "15000"
         run: node tools/run-daily-catalog-maintenance.js
 
-      - name: Normalize exchange-rate timestamp
+      - name: Normalize maintenance document contracts
         run: |
           node <<'NODE'
           const fs = require("fs");
@@ -81,10 +81,15 @@ jobs:
           };
           for (const file of files) {
             if (!fs.existsSync(file)) continue;
-            const source = fs.readFileSync(file, "utf8").replace(
-              /\b(\d{2}) (Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec) (\d{4}) (\d{2}:\d{2}) UTC\b/g,
-              (_match, day, month, year, time) => `${year}-${months[month]}-${day} ${time} UTC`,
-            );
+            const source = fs.readFileSync(file, "utf8")
+              .replace(
+                /\b(\d{2}) (Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec) (\d{4}) (\d{2}:\d{2}) UTC\b/g,
+                (_match, day, month, year, time) => `${year}-${months[month]}-${day} ${time} UTC`,
+              )
+              .replace(
+                /最終共 (\d+) 筆，25 類皆至少 20 筆/g,
+                "最終共 $1 筆、共 25 類，且各類皆至少 20 筆",
+              );
             fs.writeFileSync(file, source, "utf8");
           }
           NODE
