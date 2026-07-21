@@ -16,10 +16,10 @@ concurrency:
 
 jobs:
   maintain:
-    name: Diagnose maintenance payload
+    name: Audit, update, validate, and commit
     if: github.actor != 'github-actions[bot]'
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 60
     steps:
       - name: Checkout maintenance branch
         uses: actions/checkout@v6
@@ -28,30 +28,167 @@ jobs:
           fetch-depth: 0
           show-progress: false
 
-      - name: Record payload diagnostics
+      - name: Recover and verify maintenance script
         shell: bash
         run: |
-          set +e
-          {
-            echo "generated_at=$(date -u +%FT%TZ)"
-            for file in .github/maintenance/2026-07-21-script.part*; do
-              printf "%s bytes=" "$file"
-              wc -c < "$file" | tr -d ' '
-              sha256sum "$file"
-            done
-            cat .github/maintenance/2026-07-21-script.part* > /tmp/catalog-maintenance.js.gz.b64
-            echo "combined:"
-            wc -c /tmp/catalog-maintenance.js.gz.b64
-            sha256sum /tmp/catalog-maintenance.js.gz.b64
-            echo "decode:"
-            base64 -d /tmp/catalog-maintenance.js.gz.b64 | gzip -d > /tmp/catalog-maintenance.js
-            echo "decode_status=$?"
-            wc -c /tmp/catalog-maintenance.js
-            sha256sum /tmp/catalog-maintenance.js
-          } > catalog-maintenance-debug.txt 2>&1
-          cat catalog-maintenance-debug.txt
+          set -euo pipefail
+          python - <<'PY'
+          from pathlib import Path
+          import base64
+          import gzip
+          import hashlib
+
+          parts = sorted(Path(".github/maintenance").glob("2026-07-21-script.part*"))
+          if len(parts) != 7:
+              raise SystemExit(f"expected 7 script parts, found {len(parts)}")
+
+          first = parts[0].read_text()
+          tail = "".join(part.read_text() for part in parts[1:])
+          expected_original = "db6d4a01cca4951f36ba3ecc12cff2ff6fd448fa3d1e56849d9faa5b2e8422e6"
+          matches = []
+
+          for index in range(len(first)):
+              corrected = first[:index] + first[index + 1:]
+              encoded = corrected + tail
+              try:
+                  decoded = gzip.decompress(base64.b64decode(encoded, validate=True))
+              except Exception:
+                  continue
+              digest = hashlib.sha256(decoded).hexdigest()
+              if digest == expected_original:
+                  matches.append((index, first[index], corrected, decoded))
+
+          if len(matches) != 1:
+              raise SystemExit(f"expected exactly one recoverable extra character, found {len(matches)}")
+
+          index, removed, corrected, decoded = matches[0]
+          parts[0].write_text(corrected)
+          script_path = Path("tools/.run-catalog-maintenance-2026-07-21.js")
+          script_path.write_bytes(decoded)
+          print(f"recovered part00 by removing index={index}, character={removed!r}")
+          print(f"original script bytes={len(decoded)}, sha256={hashlib.sha256(decoded).hexdigest()}")
+
+          text = script_path.read_text()
+          old = '    historicalLow: historicalNotFound("TWD", "已查 Dyson 台灣官方單機頁、PChome exact-model 單機頁與公開上市資料；NT$12,900 可驗證為本輪現行促銷價，但缺少可重現的長期價格曲線，且已排除兩入組、搭售組合與濾網組，因此不把現價直接宣稱為歷史最低價。"),'
+          new = '''    historicalLow: {
+                status: "found",
+                amount: 10900,
+                currency: "TWD",
+                converted: 10900,
+                sourceUrl: "https://shop.dyson.tw/promotions/latest-offers/latest-offers",
+                sourceTitle: "Dyson 台灣官方最新優惠：HJ10 單機首降四千",
+                evidenceSnippet: "Dyson 台灣官方優惠頁明示 2026/6/17-6/23，HJ10 銀白色單機優惠不含贈品，原價 NT$14,900、特價 NT$10,900。",
+                sourceKind: "official_sale",
+                confidence: "high",
+                checkedAt: DATA_DATE,
+                note: "exact-model 官方單機限期優惠，可公開重現；已排除兩入組、搭售其他家電、贈品價值與濾網組。",
+              },'''
+          if old not in text:
+              raise SystemExit("HJ10 historical-low patch target missing")
+          text = text.replace(old, new)
+
+          old = '''    image: "https://www.lg.com/content/dam/channel/wcms/tw/images/washing-machines/wd-s2220b/2010-1.jpg/jcr%3Acontent/renditions/thum-1600x1062.jpeg?w=800",
+              price: {
+                currency: "TWD",
+                amount: 101900,
+                converted: 101900,
+                confidence: "雅光電器 2026-07-21 exact-model 尚有庫存公開價",
+              },
+              channel: "tw",
+              buyLabel: "雅光電器",
+              buyUrl: "https://www.yk01.com.tw/products/wds2220b",'''
+          new = '''    image: "https://img.pchome.com.tw/cs/items/DPAI1LA900IXKBU/000007_1752484626.jpg",
+              price: {
+                currency: "TWD",
+                amount: 92900,
+                converted: 92900,
+                confidence: "PChome 2026-07-21 exact-model 新品公開價",
+              },
+              channel: "tw",
+              buyLabel: "PChome",
+              buyUrl: "https://24h.pchome.com.tw/prod/DPAI1L-A900IXKBU",'''
+          if old not in text:
+              raise SystemExit("WD-S2220B price patch target missing")
+          text = text.replace(old, new)
+
+          old = '    historicalLow: historicalNotFound("TWD", "已查 LG 台灣官方頁、雅光現貨頁、燦坤預購頁與其他 exact-model 零售頁；較低價頁面含預購、活動已額滿或需另行詢問貨源，無法作為可重現的可信新品史低，因此維持找不到。"),'
+          new = '    historicalLow: historicalNotFound("TWD", "已查 LG 台灣官方頁、PChome exact-model 新品頁、雅光現貨頁與其他零售頁；NT$92,900 可驗證為本輪可信新品現價，但仍缺少完整期間的可重現價格曲線。更低頁面含需詢問貨源或庫存不明條件，因此不直接宣稱為歷史最低價。"),'
+          if old not in text:
+              raise SystemExit("WD-S2220B historical-low note patch target missing")
+          script_path.write_text(text.replace(old, new))
+
+          expected_patched = "e7dfdc3a4b5dadca9802983dce1730c09236c4fcf5386e4ef34943e9f424168a"
+          patched = script_path.read_bytes()
+          patched_digest = hashlib.sha256(patched).hexdigest()
+          if patched_digest != expected_patched:
+              raise SystemExit(f"patched script digest mismatch: {patched_digest}")
+          print(f"patched script bytes={len(patched)}, sha256={patched_digest}")
+          Path("catalog-maintenance-debug.txt").unlink(missing_ok=True)
+          PY
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v6
+        with:
+          node-version: 24
+          cache: npm
+
+      - name: Check maintenance script syntax
+        run: node --check tools/.run-catalog-maintenance-2026-07-21.js
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Install Playwright Chromium
+        run: npx playwright install --with-deps chromium
+
+      - name: Audit and update catalog
+        env:
+          TZ: Asia/Taipei
+        run: node tools/.run-catalog-maintenance-2026-07-21.js
+
+      - name: Remove temporary script
+        run: rm tools/.run-catalog-maintenance-2026-07-21.js
+
+      - name: Generate category pages
+        run: npm run generate:categories
+
+      - name: Run repository checks
+        run: npm run check
+
+      - name: Run full UI journeys
+        run: npm run check:ui:full
+
+      - name: Check Lighthouse quality budgets
+        run: npm run check:quality
+
+      - name: Check whitespace errors
+        run: git diff --check
+
+      - name: Print maintenance summary
+        run: |
+          node - <<'NODE'
+          const report = require("./catalog_maintenance_2026-07-21.json");
+          console.log(JSON.stringify(report.summary, null, 2));
+          console.log(JSON.stringify({
+            priceChanges: report.priceChanges,
+            linkChanges: report.linkChanges,
+            imageChanges: report.imageChanges,
+            manualPriceCandidates: report.manualPriceCandidates,
+            officialDiscontinuedCandidates: report.officialDiscontinuedCandidates,
+            failures: report.failures,
+          }, null, 2));
+          NODE
+
+      - name: Commit validated maintenance changes
+        shell: bash
+        run: |
+          set -euo pipefail
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add catalog-maintenance-debug.txt
-          git commit -m "記錄維護腳本診斷資訊"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "No validated catalog changes to commit."
+            exit 0
+          fi
+          git commit -m "更新 7 月 21 日商品資料與匯率"
           git push origin HEAD:codex/2026-07-21-catalog-maintenance
