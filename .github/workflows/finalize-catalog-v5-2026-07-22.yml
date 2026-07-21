@@ -1,0 +1,116 @@
+name: Finalize catalog v5
+
+on:
+  pull_request:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  finalize:
+    name: Align catalog, tests, and validate
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - name: Checkout maintenance branch
+        uses: actions/checkout@v6
+        with:
+          ref: codex/2026-07-22-catalog-maintenance
+          fetch-depth: 0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v6
+        with:
+          node-version: 24
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Install Playwright Chromium
+        run: npx playwright install --with-deps chromium
+
+      - name: Align generated files and dynamic UI expectation
+        shell: bash
+        run: |
+          set -euo pipefail
+          node <<'NODE'
+          const fs = require("fs");
+
+          function replaceRequired(text, before, after, label) {
+            if (!text.includes(before) && !text.includes(after)) {
+              throw new Error(`Missing ${label}: ${before}`);
+            }
+            return text.replace(before, after);
+          }
+
+          let index = fs.readFileSync("index.html", "utf8");
+          index = replaceRequired(index, 'id="dataDate">2026-07-21</strong>', 'id="dataDate">2026-07-22</strong>', "data date");
+          index = replaceRequired(index, "資料更新日為 2026-07-21。", "資料更新日為 2026-07-22。", "footer date");
+          index = replaceRequired(index, 'id="exchangeSummary">USD 1 = TWD 32.397</span>', 'id="exchangeSummary">USD 1 = TWD 32.328</span>', "exchange fallback");
+          index = replaceRequired(index, "由 AI 協作整理 25 類、666 款可信新品", "由 AI 協作整理 25 類、668 款可信新品", "visible product count");
+          index = index.replaceAll("?v=20260721-catalog-audit", "?v=20260721-catalog-maintenance-b");
+          fs.writeFileSync("index.html", index);
+
+          let readme = fs.readFileSync("README.md", "utf8");
+          readme = readme.replace(
+            "- 2026-07-22 08:48（台灣時間；2026-07-21 00:48 UTC）",
+            "- 2026-07-21 08:48（台灣時間；2026-07-21 00:48 UTC）",
+          );
+          fs.writeFileSync("README.md", readme);
+
+          let geoCheck = fs.readFileSync("tools/check-geo.js", "utf8");
+          geoCheck = replaceRequired(
+            geoCheck,
+            "由 AI 協作整理 25 類、666 款可信新品，提供價格、規格、歷史最低價與負評查核，並公開查核方法與原始碼。",
+            "由 AI 協作整理 25 類、668 款可信新品，提供價格、規格、歷史最低價與負評查核，並公開查核方法與原始碼。",
+            "GEO expected product count",
+          );
+          fs.writeFileSync("tools/check-geo.js", geoCheck);
+
+          let journeys = fs.readFileSync("tools/dashboard-ui-journeys.js", "utf8");
+          journeys = replaceRequired(
+            journeys,
+            '} = require("./dashboard-contract");',
+            '} = require("./dashboard-contract");\nconst { readDashboardProducts } = require("./read-dashboard-products");',
+            "dashboard reader import",
+          );
+          journeys = replaceRequired(
+            journeys,
+            "const screenshotDir = process.env.DASHBOARD_SCREENSHOT_DIR || os.tmpdir();",
+            'const screenshotDir = process.env.DASHBOARD_SCREENSHOT_DIR || os.tmpdir();\nconst EXPECTED_POIEMA_COUNT = readDashboardProducts(path.resolve(__dirname, "..")).products\n  .filter((product) => product.brand === "POIEMA").length;',
+            "dynamic POIEMA count",
+          );
+          journeys = journeys.replaceAll(
+            'await page.waitForFunction(() => document.querySelector("#visibleCount")?.textContent?.trim() === "3");',
+            "await waitForVisibleCount(page, EXPECTED_POIEMA_COUNT);",
+          );
+          journeys = journeys.replaceAll(
+            "await waitForProductCards(page, 3);",
+            "await waitForProductCards(page, EXPECTED_POIEMA_COUNT);",
+          );
+          fs.writeFileSync("tools/dashboard-ui-journeys.js", journeys);
+          NODE
+
+      - name: Run repository check
+        run: npm run check
+
+      - name: Run full UI and quality checks
+        run: |
+          npm run check:ui:full
+          npm run check:quality
+          git diff --check
+
+      - name: Commit final alignment
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add index.html README.md tools/check-geo.js tools/dashboard-ui-journeys.js
+          git commit -m "同步 7 月 22 日資料並修正動態 UI 驗證"
+          git push origin HEAD:codex/2026-07-22-catalog-maintenance
