@@ -1,0 +1,107 @@
+name: One-off catalog maintenance
+
+on:
+  push:
+    branches:
+      - codex/daily-maintenance-2026-07-22
+
+permissions:
+  contents: write
+
+concurrency:
+  group: catalog-maintenance-2026-07-22
+  cancel-in-progress: false
+
+jobs:
+  maintain:
+    name: Audit catalog and validate
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v6
+        with:
+          node-version: 24
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Install Playwright system dependencies
+        run: npx playwright install-deps chromium
+
+      - name: Install Chromium
+        run: npx playwright install chromium
+
+      - name: Run full catalog maintenance
+        env:
+          MAINTENANCE_DATE: "2026-07-22"
+          MAINTENANCE_CONCURRENCY: "16"
+          MAINTENANCE_FETCH_TIMEOUT_MS: "15000"
+        run: node tools/run-daily-catalog-maintenance.js
+
+      - name: Normalize exchange-rate timestamp
+        run: |
+          node <<'NODE'
+          const fs = require("fs");
+          const files = [
+            "assets/js/config.js",
+            "README.md",
+            "AGENTS.md",
+            ".maintenance-audit.json",
+          ];
+          const months = {
+            Jan: "01", Feb: "02", Mar: "03", Apr: "04", May: "05", Jun: "06",
+            Jul: "07", Aug: "08", Sep: "09", Oct: "10", Nov: "11", Dec: "12",
+          };
+          for (const file of files) {
+            if (!fs.existsSync(file)) continue;
+            const source = fs.readFileSync(file, "utf8").replace(
+              /\b(\d{2}) (Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec) (\d{4}) (\d{2}:\d{2}) UTC\b/g,
+              (_match, day, month, year, time) => `${year}-${months[month]}-${day} ${time} UTC`,
+            );
+            fs.writeFileSync(file, source, "utf8");
+          }
+          NODE
+
+      - name: Regenerate category and GEO output
+        run: npm run generate:categories
+
+      - name: Run repository checks
+        run: npm run check
+
+      - name: Run Lighthouse quality checks
+        run: npm run check:quality
+
+      - name: Upload audit report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: catalog-maintenance-audit-2026-07-22
+          path: .maintenance-audit.json
+          if-no-files-found: ignore
+          retention-days: 7
+
+      - name: Commit audited changes
+        if: success()
+        run: |
+          set -euo pipefail
+          rm -f tools/run-daily-catalog-maintenance.js
+          rm -f .github/workflows/catalog-maintenance-once.yml
+          rm -f .maintenance-audit.json
+          git diff --check
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "No repository changes to commit."
+            exit 0
+          fi
+          git commit -m "定期更新 7 月 22 日商品資訊 [skip ci]"
+          git push origin HEAD
