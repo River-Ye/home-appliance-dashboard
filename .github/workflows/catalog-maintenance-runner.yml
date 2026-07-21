@@ -4,18 +4,21 @@ on:
   push:
     branches:
       - "codex/daily-maintenance-*"
+  pull_request:
+    branches:
+      - main
 
 permissions:
   contents: write
 
 concurrency:
-  group: catalog-maintenance-${{ github.ref_name }}
+  group: catalog-maintenance-${{ github.head_ref || github.ref_name }}
   cancel-in-progress: false
 
 jobs:
   maintain:
     name: Audit catalog and validate
-    if: ${{ github.actor != 'github-actions[bot]' }}
+    if: ${{ github.actor != 'github-actions[bot]' && startsWith(github.head_ref || github.ref_name, 'codex/daily-maintenance-') }}
     runs-on: ubuntu-latest
     timeout-minutes: 90
 
@@ -24,14 +27,16 @@ jobs:
         uses: actions/checkout@v6
         with:
           fetch-depth: 0
+          ref: ${{ github.head_ref || github.ref_name }}
 
       - name: Resolve maintenance date
         shell: bash
         run: |
           set -euo pipefail
-          maintenance_date="${GITHUB_REF_NAME#codex/daily-maintenance-}"
+          maintenance_branch="${GITHUB_HEAD_REF:-${GITHUB_REF_NAME}}"
+          maintenance_date="${maintenance_branch#codex/daily-maintenance-}"
           if [[ ! "${maintenance_date}" =~ ^[0-9]{4}-[0-9]{2}-[0-9]{2}$ ]]; then
-            echo "Unexpected maintenance branch: ${GITHUB_REF_NAME}" >&2
+            echo "Unexpected maintenance branch: ${maintenance_branch}" >&2
             exit 1
           fi
           echo "MAINTENANCE_DATE=${maintenance_date}" >> "${GITHUB_ENV}"
