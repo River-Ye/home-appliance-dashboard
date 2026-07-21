@@ -265,9 +265,9 @@
     "name": "BRAVIA Theatre Bar 7 5.0.2 聲道 Soundbar",
     "price": {
       "currency": "TWD",
-      "amount": 21755,
-      "converted": 21755,
-      "confidence": "PChome 2026-07-21 API 公開價"
+      "amount": 22900,
+      "converted": 22900,
+      "confidence": "PChome 2026-07-22 API 查核價"
     },
     "image": "https://img.pchome.com.tw/cs/items/DMAAN8A900K0Y8L/000001_1779181877.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAAN8-A900K0Y8L",
@@ -1369,9 +1369,9 @@
     "name": "BRAVIA Theatre Bar 8 聲霸",
     "price": {
       "currency": "TWD",
-      "amount": 22950,
-      "converted": 22950,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 27900,
+      "converted": 27900,
+      "confidence": "PChome 2026-07-22 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBM1DA900HTC64/000001_1781747501.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBM1D-A900HTC64",
@@ -1603,9 +1603,9 @@
     "name": "Fidelio 7.1.2 Dolby Atmos 旗艦聲霸",
     "price": {
       "currency": "TWD",
-      "amount": 36955,
-      "converted": 36955,
-      "confidence": "PChome 2026-07-21 API 公開價"
+      "amount": 38900,
+      "converted": 38900,
+      "confidence": "PChome 2026-07-22 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAF02A900H2G5R/000001_1704612188.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAF02-A900H2G5R",
@@ -1682,7 +1682,7 @@
     "price": {
       "currency": "USD",
       "amount": 1299.99,
-      "converted": 42116,
+      "converted": 42026,
       "confidence": "Marshall US 2026-07-21 來源價；ExchangeRate-API 2026-07-20 匯率換算"
     },
     "image": "https://images.ctfassets.net/javen7msabdh/2C2sn9CKoKFdIyd94Gm9z5/f3019d4e721511167ebe5c229bf490dd/heston-120_plp.jpg",
@@ -1762,7 +1762,7 @@
     "price": {
       "currency": "USD",
       "amount": 699.99,
-      "converted": 22678,
+      "converted": 22629,
       "confidence": "Marshall US 官方 2026-07-21 現貨價；ExchangeRate-API 2026-07-20 匯率換算"
     },
     "image": "https://images.ctfassets.net/javen7msabdh/3yitHqjPBTgQk5qRE72PSn/2788206646aa153f71f2c0ebefaff580/Heston-60-black_plp_800x800-v3.jpeg",

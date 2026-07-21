@@ -17,9 +17,9 @@
     "name": "5-10 坪綠淨力玩美雙禦空氣清淨機",
     "price": {
       "currency": "TWD",
-      "amount": 5900,
-      "converted": 5900,
-      "confidence": "PChome 2026-07-14 API 查核價"
+      "amount": 5888,
+      "converted": 5888,
+      "confidence": "PChome 2026-07-22 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAU3EA900AU9PA/000001_1782107657.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAU3E-A900AU9PA",
@@ -1123,9 +1123,9 @@
     "name": "奈米級空氣清淨機 MUJI AC0650",
     "price": {
       "currency": "TWD",
-      "amount": 4640,
-      "converted": 4640,
-      "confidence": "PChome 2026-07-21 API 公開價"
+      "amount": 4990,
+      "converted": 4990,
+      "confidence": "PChome 2026-07-22 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAC2OA900GD1ZV/000001_1781800174.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAC2O-A900GD1ZV",
@@ -1357,9 +1357,9 @@
     "name": "10坪圓嘟嘟空氣清淨機",
     "price": {
       "currency": "TWD",
-      "amount": 5888,
-      "converted": 5888,
-      "confidence": "PChome 2026-07-17 API 公開價"
+      "amount": 7990,
+      "converted": 7990,
+      "confidence": "PChome 2026-07-22 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAU6TA900IVWE0/000001_1748922662.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAU6T-A900IVWE0",
@@ -1435,9 +1435,9 @@
     "name": "寵物抗敏空氣清淨機輕量版",
     "price": {
       "currency": "TWD",
-      "amount": 10220,
-      "converted": 10220,
-      "confidence": "PChome 2026-07-21 API 公開價"
+      "amount": 10990,
+      "converted": 10990,
+      "confidence": "PChome 2026-07-22 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAC2OA900J7SBO/000001_1781799851.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAC2O-A900J7SBO",
@@ -1513,9 +1513,9 @@
     "name": "PuriCare 超淨化大白空氣清淨機",
     "price": {
       "currency": "TWD",
-      "amount": 7399,
-      "converted": 7399,
-      "confidence": "PChome 2026-07-21 API 公開價"
+      "amount": 12900,
+      "converted": 12900,
+      "confidence": "PChome 2026-07-22 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAU0BA900GI0Q1/000001_1763349087.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAU0B-A900GI0Q1",

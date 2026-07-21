@@ -17,9 +17,9 @@
     "name": "16 公升高效型變頻除濕機",
     "price": {
       "currency": "TWD",
-      "amount": 14872,
-      "converted": 14872,
-      "confidence": "PChome 2026-07-14 API 查核價"
+      "amount": 16900,
+      "converted": 16900,
+      "confidence": "PChome 2026-07-22 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ3PA900J0L88/000001_1776323540.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBQ3P-A900J0L88",
@@ -641,9 +641,9 @@
     "name": "9 公升除濕機",
     "price": {
       "currency": "TWD",
-      "amount": 8263,
-      "converted": 8263,
-      "confidence": "PChome 2026-07-14 API 查核價"
+      "amount": 9390,
+      "converted": 9390,
+      "confidence": "PChome 2026-07-22 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ00A900JB38A/000001_1776329911.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBQ00-A900JB38A",
@@ -1187,9 +1187,9 @@
     "name": "6公升節能除濕機",
     "price": {
       "currency": "TWD",
-      "amount": 3790,
-      "converted": 3790,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 4480,
+      "converted": 4480,
+      "confidence": "PChome 2026-07-22 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ3SA900I7NSN/000001_1767929673.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBQ3S-A900I7NSN",
@@ -1265,9 +1265,9 @@
     "name": "6公升高效除濕機",
     "price": {
       "currency": "TWD",
-      "amount": 4390,
-      "converted": 4390,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 5490,
+      "converted": 5490,
+      "confidence": "PChome 2026-07-22 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ08A900IXL3K/000001_1753349026.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBQ08-A900IXL3K",
@@ -1343,9 +1343,9 @@
     "name": "6L 除濕機",
     "price": {
       "currency": "TWD",
-      "amount": 5095,
-      "converted": 5095,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 5790,
+      "converted": 5790,
+      "confidence": "PChome 2026-07-22 API 查核價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ3PA900J9FH9/000001_1776325410.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBQ3P-A900J9FH9",

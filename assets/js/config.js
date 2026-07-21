@@ -3,22 +3,22 @@
   const dashboard = root.applianceDashboard || {};
 
   const meta = {
-    dataDate: "2026-07-21",
-    costcoDate: "2026-07-21",
+    dataDate: "2026-07-22",
+    costcoDate: "2026-07-22",
     expectedCategoryCount: 25,
     expectedProductCount: 666,
-    cacheVersion: "20260721-catalog-audit",
-    exchangeSummary: "USD 1 = TWD 32.397",
+    cacheVersion: "20260722-catalog-audit",
+    exchangeSummary: "USD 1 = TWD 32.328",
   };
 
   const exchange = {
     source: "ExchangeRate-API",
-    date: "2026-07-20 00:02 UTC",
-    USD_TWD: 32.396939,
-    GBP_TWD: 43.55252675574269,
-    EUR_TWD: 37.02460769064618,
-    JPY_TWD: 0.19938022463239893,
-    CNY_TWD: 4.7776683365507,
+    date: "2026-07-21 00:02 UTC",
+    USD_TWD: 32.327985,
+    GBP_TWD: 43.42987780303396,
+    EUR_TWD: 36.91344724347951,
+    JPY_TWD: 0.19898050510862741,
+    CNY_TWD: 4.7694872179217604,
   };
 
   const categories = [

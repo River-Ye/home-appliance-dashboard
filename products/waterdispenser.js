@@ -355,9 +355,9 @@
     "image": "https://cs-a.ecimg.tw/items/DMCI0PA900HEQ1J/000001_1756977419.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 11352,
-      "converted": 11352,
-      "confidence": "PChome 2026-07-21 API 公開價"
+      "amount": 12900,
+      "converted": 12900,
+      "confidence": "PChome 2026-07-22 API 查核價"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -1668,7 +1668,7 @@
     "price": {
       "currency": "USD",
       "amount": 369.99,
-      "converted": 11987,
+      "converted": 11961,
       "confidence": "Costco US 2026-07-21 來源價；ExchangeRate-API 2026-07-20 匯率換算"
     },
     "image": "https://bfasset.costco-static.com/U447IH35/as/4xjr3phfqx7p9vvxzfhp3jp/100457228-847_chrome_1?auto=webp&format=jpg",
