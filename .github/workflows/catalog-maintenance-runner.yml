@@ -92,10 +92,28 @@ jobs:
       - name: Regenerate category and GEO output
         run: npm run generate:categories
 
-      - name: Run repository checks
-        run: npm run check
+      - name: Capture maintenance patch
+        run: git diff --binary > maintenance.patch
 
-      - name: Run Lighthouse quality checks
+      - name: Check syntax
+        run: npm run check:syntax
+
+      - name: Check logic
+        run: npm run check:logic
+
+      - name: Check data
+        run: npm run check:data
+
+      - name: Check docs
+        run: npm run check:docs
+
+      - name: Check GEO
+        run: npm run check:geo
+
+      - name: Check UI
+        run: npm run check:ui
+
+      - name: Check Lighthouse quality budgets
         run: npm run check:quality
 
       - name: Upload audit report
@@ -103,8 +121,11 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: catalog-maintenance-audit-${{ env.MAINTENANCE_DATE }}
-          path: .maintenance-audit.json
-          if-no-files-found: ignore
+          path: |
+            .maintenance-audit.json
+            maintenance.patch
+          include-hidden-files: true
+          if-no-files-found: error
           retention-days: 7
 
       - name: Commit audited changes
@@ -114,6 +135,8 @@ jobs:
           rm -f tools/run-daily-catalog-maintenance.js
           rm -f .github/workflows/catalog-maintenance-once.yml
           rm -f .maintenance-audit.json
+          rm -f .maintenance-trigger
+          rm -f maintenance.patch
           git diff --check
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
