@@ -1,0 +1,43 @@
+name: Prepare README maintenance marker
+
+on:
+  pull_request:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  prepare:
+    name: Prepare current-date README marker
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout maintenance branch
+        uses: actions/checkout@v6
+        with:
+          ref: codex/2026-07-22-catalog-maintenance
+          fetch-depth: 0
+
+      - name: Update marker and push
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          from pathlib import Path
+
+          readme = Path("README.md")
+          text = readme.read_text()
+          old = "- 2026-07-21 08:48（台灣時間；2026-07-21 00:48 UTC）"
+          new = "- 2026-07-22 08:48（台灣時間；2026-07-21 00:48 UTC）"
+          if old not in text:
+              raise SystemExit("README maintenance marker missing")
+          readme.write_text(text.replace(old, new, 1))
+          PY
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git commit -m "準備 7 月 22 日維護紀錄插入點"
+          git push origin HEAD:codex/2026-07-22-catalog-maintenance
