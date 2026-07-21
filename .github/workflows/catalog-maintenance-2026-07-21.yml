@@ -1,9 +1,6 @@
 name: Run catalog maintenance 2026-07-21
 
 on:
-  push:
-    branches:
-      - codex/2026-07-21-catalog-maintenance
   pull_request:
     branches:
       - main
@@ -15,7 +12,7 @@ permissions:
 
 concurrency:
   group: catalog-maintenance-2026-07-21
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   maintain:
