@@ -17,9 +17,9 @@
     "name": "16 吋 DC 微電腦定時電風扇",
     "price": {
       "currency": "TWD",
-      "amount": 3272,
-      "converted": 3272,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 4090,
+      "converted": 4090,
+      "confidence": "PChome 2026-07-21 API exact-model 現貨公開價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAB30A900EOQ24/000001_1753338098.png",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAB30-A900EOQ24",
@@ -329,9 +329,9 @@
     "name": "16 吋 DC 變頻電風扇",
     "price": {
       "currency": "TWD",
-      "amount": 2472,
-      "converted": 2472,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 3090,
+      "converted": 3090,
+      "confidence": "PChome 2026-07-21 API exact-model 現貨公開價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMABLMA900EOROV/000001_1757038312.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMABLM-A900EOROV",
@@ -407,9 +407,9 @@
     "name": "14 吋 DC 微電腦定時電風扇",
     "price": {
       "currency": "TWD",
-      "amount": 2990,
-      "converted": 2990,
-      "confidence": "PChome 2026-07-17 API 公開價"
+      "amount": 4090,
+      "converted": 4090,
+      "confidence": "PChome 2026-07-21 API exact-model 現貨公開價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMABLMA900EOQ12/000001_1695005225.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMABLM-A900EOQ12",
@@ -485,9 +485,9 @@
     "name": "14 吋 DC 微電腦定時電風扇",
     "price": {
       "currency": "TWD",
-      "amount": 4460,
-      "converted": 4460,
-      "confidence": "PChome 2026-07-13 API 查核價"
+      "amount": 4900,
+      "converted": 4900,
+      "confidence": "PChome 2026-07-21 API exact-model 現貨公開價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMABLMA900EORP0/000001_1697161466.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMABLM-A900EORP0",
@@ -641,9 +641,9 @@
     "name": "16 吋 DC 變頻高級型溫感遙控電風扇",
     "price": {
       "currency": "TWD",
-      "amount": 3231,
-      "converted": 3231,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 3590,
+      "converted": 3590,
+      "confidence": "PChome 2026-07-21 API exact-model 現貨公開價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAB30A900EOQ5X/000001_1693793932.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAB30-A900EOQ5X",

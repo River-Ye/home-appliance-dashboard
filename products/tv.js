@@ -17,9 +17,9 @@
     "name": "65 型 OLED evo C5 4K 智慧顯示器",
     "price": {
       "currency": "TWD",
-      "amount": 49618,
-      "converted": 49618,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 79900,
+      "converted": 79900,
+      "confidence": "PChome 2026-07-21 API exact-model 現貨公開價"
     },
     "image": "https://cs-a.ecimg.tw/items/DPADYE1900JG394/000001_1762971547.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DPADYE-A900JC4MY",
@@ -175,9 +175,9 @@
     "name": "BRAVIA 7 65 型 Mini LED 4K Google TV",
     "price": {
       "currency": "TWD",
-      "amount": 53910,
-      "converted": 53910,
-      "confidence": "PChome 2026-07-18 UTC API 查核價"
+      "amount": 56900,
+      "converted": 56900,
+      "confidence": "PChome 2026-07-21 API exact-model 現貨公開價"
     },
     "image": "https://cs-a.ecimg.tw/items/DPADFNA900K7VQ8/000001_1784011502.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DPADFN-A900K7VQ8",
@@ -498,9 +498,9 @@
     "name": "65 型 U7 Mini LED ULED 4K Google TV",
     "price": {
       "currency": "TWD",
-      "amount": 28799,
-      "converted": 28799,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 31999,
+      "converted": 31999,
+      "confidence": "PChome 2026-07-21 API exact-model 現貨公開價"
     },
     "image": "https://cs-a.ecimg.tw/items/DPAD98A900I5166/000001_1733391621.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DPAD98-A900JV2CC",
@@ -656,9 +656,9 @@
     "name": "BRAVIA 8 65 型 XR OLED 4K HDR Google TV 顯示器",
     "price": {
       "currency": "TWD",
-      "amount": 84510,
-      "converted": 84510,
-      "confidence": "PChome 2026-07-18 API 公開價"
+      "amount": 93900,
+      "converted": 93900,
+      "confidence": "PChome 2026-07-21 API exact-model 現貨公開價"
     },
     "image": "https://cs-a.ecimg.tw/items/DPAD06A900HLBJO/000001_1776334113.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DPAD06-A900HLBJO",
@@ -735,9 +735,9 @@
     "name": "65 型 OLED evo G5 零間隙藝廊系列 4K 顯示器",
     "price": {
       "currency": "TWD",
-      "amount": 71910,
-      "converted": 71910,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 109900,
+      "converted": 109900,
+      "confidence": "PChome 2026-07-21 API exact-model 現貨公開價"
     },
     "image": "https://cs-a.ecimg.tw/items/DPADYE1900JGOYA/000001_1778348657.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DPADYE-A900JFBEC",
@@ -1604,9 +1604,9 @@
     "name": "65型 4K QLED 120Hz Google TV",
     "price": {
       "currency": "TWD",
-      "amount": 12591,
-      "converted": 12591,
-      "confidence": "PChome 2026-07-18 API 公開價"
+      "amount": 13990,
+      "converted": 13990,
+      "confidence": "PChome 2026-07-21 API exact-model 現貨公開價"
     },
     "image": "https://cs-a.ecimg.tw/items/DPADTOA900JNE73/000001_1768523868.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DPADTO-A900JNMOP",
@@ -2002,9 +2002,9 @@
     "name": "75 吋 Q7N 4K 144Hz QLED 智慧顯示器",
     "price": {
       "currency": "TWD",
-      "amount": 35999,
-      "converted": 35999,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 39999,
+      "converted": 39999,
+      "confidence": "PChome 2026-07-21 API exact-model 現貨公開價"
     },
     "image": "https://www.costco.com.tw/medias/sys_master/images/h4e/h03/438072156979230.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DPAD98-A900JV2AT",

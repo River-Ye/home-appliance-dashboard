@@ -1,0 +1,4 @@
+npm_run_check=1
+npm_run_check_ui_full=99
+npm_run_check_quality=99
+git_diff_check=0

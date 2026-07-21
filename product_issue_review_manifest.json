@@ -5522,6 +5522,38 @@
       }
     },
     {
+      "id": "circulator-iris-pcf-cdp18tec",
+      "category": "circulator",
+      "brand": "IRIS OHYAMA",
+      "model": "PCF-CDP18TEC",
+      "reviewedAt": "2026-07-19",
+      "reviewBatch": "circulator",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "Mobile01",
+        "Reddit"
+      ],
+      "queries": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"IRIS OHYAMA PCF-CDP18TEC\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22IRIS%20OHYAMA%20PCF-CDP18TEC%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"IRIS OHYAMA PCF-CDP18TEC\" (problem OR issue OR defect OR \"negative review\")",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22IRIS%20OHYAMA%20PCF-CDP18TEC%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
+          "targetHost": "reddit.com"
+        }
+      ],
+      "candidateDisposition": "PCF-CDP18TEC：兩筆 exact-model 跨站查詢均未留下通過 targetHost 與 canonical model 邊界的原頁候選；此結果不代表完全沒有負評。",
+      "representativeSources": [],
+      "reviewerNote": "PCF-CDP18TEC 已於 2026-07-19 實際執行 Mobile01、Reddit 的 Bing RSS exact-model 查詢；兩站未發現需逐頁判讀的同型號候選，未以搜尋摘要合成負評證據。",
+      "attestation": "manual_cross_site_search_reviewed_no_candidate",
+      "candidateReviews": []
+    },
+    {
       "id": "dh-panasonic-yv32nn",
       "category": "dehumidifier",
       "brand": "Panasonic",
@@ -39063,12 +39095,12 @@
       }
     },
     {
-      "id": "circulator-iris-pcf-cdp18tec",
-      "category": "circulator",
-      "brand": "IRIS OHYAMA",
-      "model": "PCF-CDP18TEC",
-      "reviewedAt": "2026-07-19",
-      "reviewBatch": "circulator",
+      "id": "ap-dyson-hj10",
+      "category": "purifier",
+      "brand": "Dyson",
+      "model": "HJ10",
+      "reviewBatch": "purifier",
+      "reviewedAt": "2026-07-21",
       "decision": "no_common_issue",
       "checkedPlatforms": [
         "Mobile01",
@@ -39077,22 +39109,122 @@
       "queries": [
         {
           "platform": "Mobile01",
-          "query": "site:mobile01.com \"IRIS OHYAMA PCF-CDP18TEC\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22IRIS%20OHYAMA%20PCF-CDP18TEC%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "query": "site:mobile01.com \"Dyson HJ10\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?q=site%3Amobile01.com%20%22Dyson%20HJ10%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "site:reddit.com \"IRIS OHYAMA PCF-CDP18TEC\" (problem OR issue OR defect OR \"negative review\")",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22IRIS%20OHYAMA%20PCF-CDP18TEC%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
+          "query": "site:reddit.com \"Dyson HJ10\" (problem OR issue OR defect OR \"negative review\")",
+          "queryUrl": "https://www.bing.com/search?q=site%3Areddit.com%20%22Dyson%20HJ10%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
           "targetHost": "reddit.com"
         }
       ],
-      "candidateDisposition": "PCF-CDP18TEC：兩筆 exact-model 跨站查詢均未留下通過 targetHost 與 canonical model 邊界的原頁候選；此結果不代表完全沒有負評。",
-      "representativeSources": [],
-      "reviewerNote": "PCF-CDP18TEC 已於 2026-07-19 實際執行 Mobile01、Reddit 的 Bing RSS exact-model 查詢；兩站未發現需逐頁判讀的同型號候選，未以搜尋摘要合成負評證據。",
-      "attestation": "manual_cross_site_search_reviewed_no_candidate",
-      "candidateReviews": []
+      "candidateDisposition": "HJ10 的 exact-model 原始頁候選均已逐頁覆核，未形成跨兩個獨立網站、至少 6 位第一人稱使用者回報同一問題的門檻。",
+      "representativeSources": [
+        {
+          "platform": "Mobile01",
+          "title": "Dyson Hj10空氣清淨機評價如何？",
+          "url": "https://www.mobile01.com/topicdetail.php?f=731&t=7235978"
+        },
+        {
+          "platform": "Mobile01",
+          "title": "小空間中的高效空氣清淨首選！Dyson HushJet 噴射氣流空氣清淨機實測 feat. BP04",
+          "url": "https://www.mobile01.com/topicdetail.php?f=731&t=7226157"
+        }
+      ],
+      "candidateReviews": [
+        {
+          "platform": "Mobile01",
+          "title": "Dyson Hj10空氣清淨機評價如何？",
+          "url": "https://www.mobile01.com/topicdetail.php?f=731&t=7235978",
+          "sourceExcerpt": "自用者表示環境極安靜時，風速 3 以上仍聽得到運轉聲，且 HJ10 的聲音相較大金偏高頻。",
+          "independentAuthors": 1,
+          "specificReason": "原頁只有 1 位可辨識的 HJ10 第一人稱使用者描述噪音感受，且只來自 Mobile01 一個網站，未達 6 人與跨 2 網站門檻。",
+          "reviewedAt": "2026-07-21",
+          "exactModel": true,
+          "outcome": "excluded"
+        },
+        {
+          "platform": "Mobile01",
+          "title": "小空間中的高效空氣清淨首選！Dyson HushJet 噴射氣流空氣清淨機實測 feat. BP04",
+          "url": "https://www.mobile01.com/topicdetail.php?f=731&t=7226157",
+          "sourceExcerpt": "編輯實測指出，機器距離較遠時通常要到風速模式 6 以上才有機會聽到運轉聲。",
+          "independentAuthors": 0,
+          "specificReason": "此頁是編輯測試文章而非可計入門檻的多位第一人稱故障回報，內容也未形成同一問題的 6 位獨立使用者證據。",
+          "reviewedAt": "2026-07-21",
+          "exactModel": true,
+          "outcome": "excluded"
+        }
+      ],
+      "reviewerNote": "HJ10 已完成 Mobile01 與 Reddit exact-model 查詢；搜尋結果只作候選發現，決策以原始頁人工覆核為準。",
+      "attestation": "manual_original_pages_reviewed"
+    },
+    {
+      "id": "washerdryer-lg-wd-s2220b",
+      "category": "washerdryer",
+      "brand": "LG",
+      "model": "WD-S2220B",
+      "reviewBatch": "washerdryer",
+      "reviewedAt": "2026-07-21",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "Mobile01",
+        "Reddit"
+      ],
+      "queries": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"LG WD-S2220B\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?q=site%3Amobile01.com%20%22LG%20WD-S2220B%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"LG WD-S2220B\" (problem OR issue OR defect OR \"negative review\")",
+          "queryUrl": "https://www.bing.com/search?q=site%3Areddit.com%20%22LG%20WD-S2220B%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
+          "targetHost": "reddit.com"
+        }
+      ],
+      "candidateDisposition": "WD-S2220B 的 exact-model 原始頁候選均已逐頁覆核，未形成跨兩個獨立網站、至少 6 位第一人稱使用者回報同一問題的門檻。",
+      "representativeSources": [
+        {
+          "platform": "Mobile01",
+          "title": "LG Washtower WD-S2220B 洗衣機+烘乾機",
+          "url": "https://www.mobile01.com/topicdetail.php?f=730&t=7136558"
+        },
+        {
+          "platform": "Mobile01",
+          "title": "雙薪家庭洗衣機選擇 LG WD-S2220B、國際NA-V170RPH-K",
+          "url": "https://www.mobile01.com/topicdetail.php?f=730&t=7134807"
+        }
+      ],
+      "candidateReviews": [
+        {
+          "platform": "Mobile01",
+          "title": "LG Washtower WD-S2220B 洗衣機+烘乾機",
+          "url": "https://www.mobile01.com/topicdetail.php?f=730&t=7136558",
+          "sourceExcerpt": "樓主自用後表示衣服烘完目視仍有一定程度縮水，並記錄新機的洗烘與耗電體驗。",
+          "independentAuthors": 1,
+          "specificReason": "原頁只有 1 位 WD-S2220B 第一人稱使用者提到烘後縮水，其他回覆未形成相同問題的獨立回報，且只來自一個網站。",
+          "reviewedAt": "2026-07-21",
+          "exactModel": true,
+          "outcome": "excluded"
+        },
+        {
+          "platform": "Mobile01",
+          "title": "雙薪家庭洗衣機選擇 LG WD-S2220B、國際NA-V170RPH-K",
+          "url": "https://www.mobile01.com/topicdetail.php?f=730&t=7134807",
+          "sourceExcerpt": "討論以購買選擇為主，回覆者多談使用習慣或其他容量機種，沒有形成 WD-S2220B 同型號集中故障回報。",
+          "independentAuthors": 0,
+          "specificReason": "此頁主要是選購討論，未找到可計入的 WD-S2220B 第一人稱同型號故障回報，不能拿相關系列或其他容量機種推定災情。",
+          "reviewedAt": "2026-07-21",
+          "exactModel": true,
+          "outcome": "excluded"
+        }
+      ],
+      "reviewerNote": "WD-S2220B 已完成 Mobile01 與 Reddit exact-model 查詢；搜尋結果只作候選發現，決策以原始頁人工覆核為準。",
+      "attestation": "manual_original_pages_reviewed"
     }
   ]
 }

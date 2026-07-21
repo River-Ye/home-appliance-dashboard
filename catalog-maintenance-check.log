@@ -1,0 +1,19 @@
+
+> home-appliance-dashboard@1.0.0 check
+> npm run check:syntax && npm run check:logic && npm run check:data && npm run check:docs && npm run check:geo && npm run check:ui
+
+
+> home-appliance-dashboard@1.0.0 check:syntax
+> node tools/check-syntax.js
+
+syntax check passed (57 files)
+
+> home-appliance-dashboard@1.0.0 check:logic
+> node tools/check-logic.js
+
+logic check passed
+
+> home-appliance-dashboard@1.0.0 check:data
+> node tools/verify-data.js
+
+- ap-dyson-hj10 rejectedCandidates[1] does not contain the canonical model
