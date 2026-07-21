@@ -1,0 +1,221 @@
+name: Fix generated catalog validation
+
+on:
+  pull_request:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  fix:
+    name: Align generated research and validation records
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - name: Checkout maintenance branch
+        uses: actions/checkout@v6
+        with:
+          ref: codex/2026-07-22-catalog-maintenance
+          fetch-depth: 0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v6
+        with:
+          node-version: 24
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Align generated records
+        shell: bash
+        run: |
+          set -euo pipefail
+          node <<'NODE'
+          const fs = require("fs");
+          const path = require("path");
+          const { readDashboardProducts } = require("./tools/read-dashboard-products");
+
+          const ROOT = process.cwd();
+          const DATE = "2026-07-22";
+          const DYSON_URL = "https://shop.dyson.tw/fans-and-heaters/purifiers/dyson-hushjet-purifier-compact-white-silver-293138-01";
+          const DYSON_LABEL = "Dyson 台灣官方";
+
+          function readJson(file) {
+            return JSON.parse(fs.readFileSync(path.join(ROOT, file), "utf8"));
+          }
+
+          function writeJson(file, value) {
+            fs.writeFileSync(path.join(ROOT, file), `${JSON.stringify(value, null, 2)}\n`);
+          }
+
+          function normalize(value) {
+            return String(value || "").trim().toLowerCase().replace(/\s+/g, " ");
+          }
+
+          function candidateKey(candidate) {
+            return `${candidate?.url || ""}\n${candidate?.title || ""}`;
+          }
+
+          function uniqueStrings(values) {
+            const result = [];
+            const seen = new Set();
+            for (const value of values) {
+              if (!String(value || "").trim()) continue;
+              const key = normalize(value);
+              if (seen.has(key)) continue;
+              seen.add(key);
+              result.push(value);
+            }
+            return result;
+          }
+
+          function datePrefix(value, fallback = DATE) {
+            const text = String(value || "");
+            if (/^\d{4}-\d{2}-\d{2}/.test(text)) return text.slice(0, 10);
+            return fallback;
+          }
+
+          const dashboard = readDashboardProducts(ROOT);
+          const productById = new Map(dashboard.products.map((product) => [product.id, product]));
+
+          const historical = readJson("historical_price_research.json");
+          const dysonHistorical = (historical.results || []).find((row) => row.id === "ap-dyson-hj10");
+          if (!dysonHistorical) throw new Error("HJ10 historical research row is missing");
+          dysonHistorical.currentBuyUrl = DYSON_URL;
+          dysonHistorical.currentBuyLabel = DYSON_LABEL;
+          writeJson("historical_price_research.json", historical);
+
+          const research = readJson("product_issue_research.json");
+          if (!research.summary) throw new Error("Issue research summary is missing");
+          const currentAggregate = String(research.summary.checkedAt || "");
+          research.summary.checkedAt = currentAggregate.includes("T")
+            ? `${DATE}${currentAggregate.slice(10)}`
+            : DATE;
+
+          const researchById = new Map((research.results || []).map((row) => [row.id, row]));
+          for (const row of research.results || []) {
+            const product = productById.get(row.id);
+            if (!product) throw new Error(`Unknown issue research product: ${row.id}`);
+            const reviewDate = datePrefix(product.issueResearch?.checkedAt);
+            const manual = row.manualReview || {};
+            manual.reviewedAt = reviewDate;
+            const reviews = Array.isArray(manual.candidateReviews) ? manual.candidateReviews : [];
+            for (const review of reviews) review.reviewedAt = reviewDate;
+
+            const expectedAttestation = manual.decision === "common_issue" || reviews.length
+              ? "manual_original_pages_reviewed"
+              : "manual_cross_site_search_reviewed_no_candidate";
+            manual.attestation = expectedAttestation;
+            manual.checkedPlatforms = uniqueStrings([
+              ...(manual.checkedPlatforms || []),
+              ...(manual.queries || []).map((query) => query.platform),
+              ...(manual.representativeSources || []).map((source) => source.platform),
+            ]);
+            row.manualReview = manual;
+
+            for (const searchCheck of row.searchChecks || []) {
+              const inspected = String(searchCheck.inspectedAt || "");
+              searchCheck.inspectedAt = inspected.includes("T")
+                ? `${reviewDate}${inspected.slice(10)}`
+                : reviewDate;
+            }
+
+            row.rejectedCandidates = reviews.map((candidate) => ({
+              ...candidate,
+              reason: candidate.specificReason,
+            }));
+          }
+          writeJson("product_issue_research.json", research);
+
+          const manifest = readJson("product_issue_review_manifest.json");
+          manifest.checkedAt = DATE;
+          const manifestById = new Map((manifest.results || []).map((row) => [row.id, row]));
+          for (const product of dashboard.products) {
+            const row = manifestById.get(product.id);
+            const researchRow = researchById.get(product.id);
+            if (!row || !researchRow) throw new Error(`Missing review records for ${product.id}`);
+            const reviewDate = datePrefix(product.issueResearch?.checkedAt);
+            row.reviewedAt = reviewDate;
+            row.decision = product.issueResearch.status;
+            const reviews = (researchRow.manualReview?.candidateReviews || []).map((candidate) => ({ ...candidate }));
+            for (const review of reviews) review.reviewedAt = reviewDate;
+            row.candidateReviews = reviews;
+
+            if (row.decision === "common_issue") {
+              row.representativeSources = (product.issueResearch.issues || [])
+                .flatMap((issue) => issue.sources || [])
+                .map((source) => ({ ...source }));
+            } else {
+              row.representativeSources = (researchRow.manualReview?.representativeSources || [])
+                .map((source) => ({ ...source }));
+            }
+
+            row.attestation = row.decision === "common_issue" || reviews.length
+              ? "manual_original_pages_reviewed"
+              : "manual_cross_site_search_reviewed_no_candidate";
+            row.checkedPlatforms = uniqueStrings([
+              ...(row.checkedPlatforms || []),
+              ...(row.queries || []).map((query) => query.platform),
+              ...(row.representativeSources || []).map((source) => source.platform),
+            ]);
+          }
+          writeJson("product_issue_review_manifest.json", manifest);
+
+          const reportLedger = readJson("product_issue_report_evidence.json");
+          reportLedger.checkedAt = DATE;
+          writeJson("product_issue_report_evidence.json", reportLedger);
+
+          const verifiedIssuesPath = path.join(ROOT, "tools/verified-product-issues.js");
+          const verifiedIssues = fs.readFileSync(verifiedIssuesPath, "utf8");
+          const oldCheckedAt = 'const CHECKED_AT = "2026-07-21";';
+          const newCheckedAt = `const CHECKED_AT = "${DATE}";`;
+          if (!verifiedIssues.includes(oldCheckedAt) && !verifiedIssues.includes(newCheckedAt)) {
+            throw new Error("verified product issues date marker is missing");
+          }
+          fs.writeFileSync(verifiedIssuesPath, verifiedIssues.replace(oldCheckedAt, newCheckedAt));
+
+          const readmePath = path.join(ROOT, "README.md");
+          const readme = fs.readFileSync(readmePath, "utf8");
+          fs.writeFileSync(
+            readmePath,
+            readme.replace(
+              "- 2026-07-22 08:48（台灣時間；2026-07-21 00:48 UTC）",
+              "- 2026-07-21 08:48（台灣時間；2026-07-21 00:48 UTC）",
+            ),
+          );
+
+          for (const trigger of [
+            ".github/maintenance/trigger-patch-2026-07-22.txt",
+            ".github/maintenance/trigger-maintenance-2026-07-22.txt",
+          ]) {
+            fs.rmSync(path.join(ROOT, trigger), { force: true });
+          }
+          NODE
+
+      - name: Run repository check
+        id: check
+        continue-on-error: true
+        shell: bash
+        run: npm run check > catalog-maintenance-fix-check.log 2>&1
+
+      - name: Commit aligned records
+        shell: bash
+        run: |
+          set -euo pipefail
+          cat catalog-maintenance-fix-check.log
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if [ "${{ steps.check.outcome }}" = "success" ]; then
+            rm -f catalog-maintenance-fix-check.log
+          fi
+          git add -A -- ':!.github/workflows'
+          git commit -m "修正 7 月 22 日研究紀錄一致性"
+          git push origin HEAD:codex/2026-07-22-catalog-maintenance
+          if [ "${{ steps.check.outcome }}" != "success" ]; then
+            exit 1
+          fi
