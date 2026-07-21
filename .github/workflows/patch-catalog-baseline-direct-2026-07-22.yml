@@ -1,0 +1,50 @@
+name: Patch catalog baseline directly
+
+on:
+  pull_request:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  patch:
+    name: Patch baseline date without checkout action
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Patch and push
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          git clone --quiet --branch codex/2026-07-22-catalog-maintenance --single-branch "https://x-access-token:${GH_TOKEN}@github.com/River-Ye/home-appliance-dashboard.git" repo
+          cd repo
+          python - <<'PY'
+          from pathlib import Path
+
+          workflow = Path(".github/workflows/catalog-maintenance-2026-07-22.yml")
+          text = workflow.read_text()
+          needle = '          text = text.replace("2026-07-21", "2026-07-22")'
+          patch = '          text = text.replace("baseline.meta.dataDate !== DATA_DATE", \'baseline.meta.dataDate !== "2026-07-21"\')'
+          if needle not in text:
+              raise SystemExit("date replacement marker missing")
+          if patch not in text:
+              text = text.replace(needle, needle + "\n" + patch, 1)
+          workflow.write_text(text)
+          PY
+          rm -f .github/workflows/patch-catalog-baseline-direct-2026-07-22.yml
+          rm -f .github/workflows/patch-catalog-baseline-date-2026-07-22.yml
+          rm -f .github/workflows/patch-catalog-audit-log-2026-07-22.yml
+          rm -f .github/workflows/diagnose-catalog-audit-2026-07-22.yml
+          rm -f .github/workflows/diagnose-catalog-audit-tail-2026-07-22.yml
+          rm -f .github/workflows/inspect-catalog-script-2026-07-22.yml
+          rm -f .github/maintenance/trigger-patch-2026-07-22.txt
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "修正每日維護的基準資料日期"
+          git push origin HEAD:codex/2026-07-22-catalog-maintenance
