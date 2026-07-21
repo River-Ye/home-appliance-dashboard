@@ -1,0 +1,78 @@
+name: Fix catalog document date
+
+on:
+  pull_request:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  fix:
+    name: Align index fallback date
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - name: Checkout maintenance branch
+        uses: actions/checkout@v6
+        with:
+          ref: codex/2026-07-22-catalog-maintenance
+          fetch-depth: 0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v6
+        with:
+          node-version: 24
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Align index date
+        shell: bash
+        run: |
+          set -euo pipefail
+          node <<'NODE'
+          const fs = require("fs");
+          const file = "index.html";
+          const text = fs.readFileSync(file, "utf8");
+          const replacements = [
+            ['id="dataDate">2026-07-21</strong>', 'id="dataDate">2026-07-22</strong>'],
+            ["資料更新日為 2026-07-21。", "資料更新日為 2026-07-22。"],
+          ];
+          let updated = text;
+          for (const [before, after] of replacements) {
+            if (!updated.includes(before) && !updated.includes(after)) {
+              throw new Error(`Missing index date marker: ${before}`);
+            }
+            updated = updated.replace(before, after);
+          }
+          fs.writeFileSync(file, updated);
+          NODE
+
+      - name: Run repository check
+        id: check
+        continue-on-error: true
+        shell: bash
+        run: npm run check > catalog-maintenance-doc-fix-check.log 2>&1
+
+      - name: Commit document fix
+        shell: bash
+        run: |
+          set -euo pipefail
+          cat catalog-maintenance-doc-fix-check.log
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if [ "${{ steps.check.outcome }}" = "success" ]; then
+            rm -f catalog-maintenance-doc-fix-check.log
+            rm -f catalog-maintenance-fix-check.log
+          fi
+          git add -A -- ':!.github/workflows'
+          git commit -m "同步 7 月 22 日首頁資料日期"
+          git push origin HEAD:codex/2026-07-22-catalog-maintenance
+          if [ "${{ steps.check.outcome }}" != "success" ]; then
+            exit 1
+          fi
