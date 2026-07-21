@@ -1,0 +1,53 @@
+name: Diagnose final catalog UI v3
+
+on:
+  pull_request:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  diagnose:
+    name: Show dynamic-count UI failure
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - name: Run UI verification
+        shell: bash
+        run: |
+          set -euo pipefail
+          git clone --quiet --branch codex/2026-07-22-catalog-maintenance --single-branch https://github.com/River-Ye/home-appliance-dashboard.git repo
+          cd repo
+          node <<'NODE'
+          const fs = require("fs");
+          let index = fs.readFileSync("index.html", "utf8");
+          index = index
+            .replace('id="dataDate">2026-07-21</strong>', 'id="dataDate">2026-07-22</strong>')
+            .replace("資料更新日為 2026-07-21。", "資料更新日為 2026-07-22。")
+            .replace('id="exchangeSummary">USD 1 = TWD 32.397</span>', 'id="exchangeSummary">USD 1 = TWD 32.328</span>')
+            .replace("由 AI 協作整理 25 類、666 款可信新品", "由 AI 協作整理 25 類、668 款可信新品")
+            .replaceAll("?v=20260721-catalog-audit", "?v=20260721-catalog-maintenance-b");
+          fs.writeFileSync("index.html", index);
+          let readme = fs.readFileSync("README.md", "utf8");
+          readme = readme.replace("- 2026-07-22 08:48（台灣時間；2026-07-21 00:48 UTC）", "- 2026-07-21 08:48（台灣時間；2026-07-21 00:48 UTC）");
+          fs.writeFileSync("README.md", readme);
+          let geoCheck = fs.readFileSync("tools/check-geo.js", "utf8");
+          geoCheck = geoCheck.replace("由 AI 協作整理 25 類、666 款可信新品，提供價格、規格、歷史最低價與負評查核，並公開查核方法與原始碼。", "由 AI 協作整理 25 類、668 款可信新品，提供價格、規格、歷史最低價與負評查核，並公開查核方法與原始碼。");
+          fs.writeFileSync("tools/check-geo.js", geoCheck);
+          let journeys = fs.readFileSync("tools/dashboard-ui-journeys.js", "utf8");
+          journeys = journeys.replace('} = require("./dashboard-contract");', '} = require("./dashboard-contract");\nconst { readDashboardProducts } = require("./read-dashboard-products");');
+          journeys = journeys.replace('const screenshotDir = process.env.DASHBOARD_SCREENSHOT_DIR || os.tmpdir();', 'const screenshotDir = process.env.DASHBOARD_SCREENSHOT_DIR || os.tmpdir();\nconst EXPECTED_POIEMA_COUNT = readDashboardProducts(path.resolve(__dirname, "..")).products\n  .filter((product) => product.brand === "POIEMA").length;');
+          journeys = journeys.replaceAll('await page.waitForFunction(() => document.querySelector("#visibleCount")?.textContent?.trim() === "3");', 'await waitForVisibleCount(page, EXPECTED_POIEMA_COUNT);');
+          journeys = journeys.replaceAll('await waitForProductCards(page, 3);', 'await waitForProductCards(page, EXPECTED_POIEMA_COUNT);');
+          fs.writeFileSync("tools/dashboard-ui-journeys.js", journeys);
+          NODE
+          npm ci > /tmp/npm-ci.log 2>&1
+          npx playwright install --with-deps chromium > /tmp/playwright-install.log 2>&1
+          set +e
+          npm run check:ui > /tmp/ui-check.log 2>&1
+          status=$?
+          tail -n 140 /tmp/ui-check.log
+          exit "$status"
