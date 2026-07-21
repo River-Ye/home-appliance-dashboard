@@ -1,0 +1,100 @@
+name: Run catalog maintenance 2026-07-21
+
+on:
+  push:
+    branches:
+      - codex/2026-07-21-catalog-maintenance
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: catalog-maintenance-2026-07-21
+  cancel-in-progress: false
+
+jobs:
+  maintain:
+    name: Audit, update, validate, and commit
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - name: Checkout maintenance branch
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v6
+        with:
+          node-version: 24
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Install Playwright Chromium
+        run: npx playwright install --with-deps chromium
+
+      - name: Materialize verified maintenance script
+        shell: bash
+        run: |
+          set -euo pipefail
+          cat .github/maintenance/2026-07-21-script.part* > /tmp/catalog-maintenance.js.gz.b64
+          echo "19f6a259b0c7f0c0f167bdc5a50d4b24cecd03b388b5bea6dcd1e3bb257e88ff  /tmp/catalog-maintenance.js.gz.b64" | sha256sum -c -
+          base64 -d /tmp/catalog-maintenance.js.gz.b64 | gzip -d > tools/.run-catalog-maintenance-2026-07-21.js
+          echo "db6d4a01cca4951f36ba3ecc12cff2ff6fd448fa3d1e56849d9faa5b2e8422e6  tools/.run-catalog-maintenance-2026-07-21.js" | sha256sum -c -
+          node --check tools/.run-catalog-maintenance-2026-07-21.js
+
+      - name: Audit and update catalog
+        env:
+          TZ: Asia/Taipei
+        run: node tools/.run-catalog-maintenance-2026-07-21.js
+
+      - name: Remove temporary script
+        run: rm tools/.run-catalog-maintenance-2026-07-21.js
+
+      - name: Generate category pages
+        run: npm run generate:categories
+
+      - name: Run repository checks
+        run: npm run check
+
+      - name: Run full UI journeys
+        run: npm run check:ui:full
+
+      - name: Check Lighthouse quality budgets
+        run: npm run check:quality
+
+      - name: Check whitespace errors
+        run: git diff --check
+
+      - name: Print maintenance summary
+        run: |
+          node - <<'NODE'
+          const report = require("./catalog_maintenance_2026-07-21.json");
+          console.log(JSON.stringify(report.summary, null, 2));
+          console.log(JSON.stringify({
+            priceChanges: report.priceChanges,
+            linkChanges: report.linkChanges,
+            imageChanges: report.imageChanges,
+            manualPriceCandidates: report.manualPriceCandidates,
+            officialDiscontinuedCandidates: report.officialDiscontinuedCandidates,
+            failures: report.failures,
+          }, null, 2));
+          NODE
+
+      - name: Commit validated maintenance changes
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "No validated catalog changes to commit."
+            exit 0
+          fi
+          git commit -m "更新 7 月 21 日商品資料與匯率"
+          git push origin HEAD:codex/2026-07-21-catalog-maintenance
