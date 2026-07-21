@@ -1,0 +1,75 @@
+name: Finalize catalog documents
+
+on:
+  pull_request:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  finalize:
+    name: Align generated document dates
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - name: Checkout maintenance branch
+        uses: actions/checkout@v6
+        with:
+          ref: codex/2026-07-22-catalog-maintenance
+          fetch-depth: 0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v6
+        with:
+          node-version: 24
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Align document dates
+        shell: bash
+        run: |
+          set -euo pipefail
+          node <<'NODE'
+          const fs = require("fs");
+
+          const indexPath = "index.html";
+          let index = fs.readFileSync(indexPath, "utf8");
+          const indexReplacements = [
+            ['id="dataDate">2026-07-21</strong>', 'id="dataDate">2026-07-22</strong>'],
+            ["資料更新日為 2026-07-21。", "資料更新日為 2026-07-22。"],
+          ];
+          for (const [before, after] of indexReplacements) {
+            if (!index.includes(before) && !index.includes(after)) {
+              throw new Error(`Missing index marker: ${before}`);
+            }
+            index = index.replace(before, after);
+          }
+          fs.writeFileSync(indexPath, index);
+
+          const readmePath = "README.md";
+          let readme = fs.readFileSync(readmePath, "utf8");
+          readme = readme.replace(
+            "- 2026-07-22 08:48（台灣時間；2026-07-21 00:48 UTC）",
+            "- 2026-07-21 08:48（台灣時間；2026-07-21 00:48 UTC）",
+          );
+          fs.writeFileSync(readmePath, readme);
+          NODE
+
+      - name: Run repository check
+        run: npm run check
+
+      - name: Commit document alignment
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add index.html README.md
+          git commit -m "同步 7 月 22 日首頁與維護紀錄日期"
+          git push origin HEAD:codex/2026-07-22-catalog-maintenance
