@@ -1,0 +1,396 @@
+name: Run catalog maintenance 2026-07-22
+
+on:
+  pull_request:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: read
+
+concurrency:
+  group: catalog-maintenance-2026-07-22
+  cancel-in-progress: true
+
+jobs:
+  maintain:
+    name: Audit, update, validate, and commit
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - name: Checkout maintenance branch
+        uses: actions/checkout@v6
+        with:
+          ref: codex/2026-07-22-catalog-maintenance
+          fetch-depth: 0
+          show-progress: false
+
+      - name: Recover and update maintenance script
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          from pathlib import Path
+          import base64
+          import gzip
+          import hashlib
+
+          parts = sorted(Path(".github/maintenance").glob("2026-07-21-script.part*"))
+          if len(parts) != 7:
+              raise SystemExit(f"expected 7 script parts, found {len(parts)}")
+
+          first = parts[0].read_text()
+          tail = "".join(part.read_text() for part in parts[1:])
+          expected_original = "db6d4a01cca4951f36ba3ecc12cff2ff6fd448fa3d1e56849d9faa5b2e8422e6"
+          matches = []
+          for index in range(len(first)):
+              corrected = first[:index] + first[index + 1:]
+              try:
+                  decoded = gzip.decompress(base64.b64decode(corrected + tail, validate=True))
+              except Exception:
+                  continue
+              if hashlib.sha256(decoded).hexdigest() == expected_original:
+                  matches.append((index, first[index], corrected, decoded))
+
+          if len(matches) != 1:
+              raise SystemExit(f"expected exactly one recoverable extra character, found {len(matches)}")
+
+          index, removed, corrected, decoded = matches[0]
+          parts[0].write_text(corrected)
+          script_path = Path("tools/.run-catalog-maintenance-2026-07-22.js")
+          script_path.write_bytes(decoded)
+          print(f"recovered part00 by removing index={index}, character={removed!r}")
+
+          text = script_path.read_text()
+
+          def replace_required(old, new, label):
+              global text
+              if old not in text:
+                  raise SystemExit(f"{label} patch target missing")
+              text = text.replace(old, new, 1)
+
+          replace_required(
+              '    historicalLow: historicalNotFound("TWD", "已查 Dyson 台灣官方單機頁、PChome exact-model 單機頁與公開上市資料；NT$12,900 可驗證為本輪現行促銷價，但缺少可重現的長期價格曲線，且已排除兩入組、搭售組合與濾網組，因此不把現價直接宣稱為歷史最低價。"),',
+              '''    historicalLow: {
+                status: "found",
+                amount: 10900,
+                currency: "TWD",
+                converted: 10900,
+                sourceUrl: "https://shop.dyson.tw/promotions/latest-offers/latest-offers",
+                sourceTitle: "Dyson 台灣官方最新優惠：HJ10 單機首降四千",
+                evidenceSnippet: "Dyson 台灣官方優惠頁明示 2026/6/17-6/23，HJ10 銀白色單機優惠不含贈品，原價 NT$14,900、特價 NT$10,900。",
+                sourceKind: "official_sale",
+                confidence: "high",
+                checkedAt: DATA_DATE,
+                note: "exact-model 官方單機限期優惠，可公開重現；已排除兩入組、搭售其他家電、贈品價值與濾網組。",
+              },''',
+              "HJ10 historical-low",
+          )
+
+          replace_required(
+              '''    image: "https://www.lg.com/content/dam/channel/wcms/tw/images/washing-machines/wd-s2220b/2010-1.jpg/jcr%3Acontent/renditions/thum-1600x1062.jpeg?w=800",
+              price: {
+                currency: "TWD",
+                amount: 101900,
+                converted: 101900,
+                confidence: "雅光電器 2026-07-21 exact-model 尚有庫存公開價",
+              },
+              channel: "tw",
+              buyLabel: "雅光電器",
+              buyUrl: "https://www.yk01.com.tw/products/wds2220b",''',
+              '''    image: "https://img.pchome.com.tw/cs/items/DPAI1LA900IXKBU/000007_1752484626.jpg",
+              price: {
+                currency: "TWD",
+                amount: 92900,
+                converted: 92900,
+                confidence: "PChome 2026-07-21 exact-model 新品公開價",
+              },
+              channel: "tw",
+              buyLabel: "PChome",
+              buyUrl: "https://24h.pchome.com.tw/prod/DPAI1L-A900IXKBU",''',
+              "WD-S2220B price",
+          )
+
+          replace_required(
+              '    historicalLow: historicalNotFound("TWD", "已查 LG 台灣官方頁、雅光現貨頁、燦坤預購頁與其他 exact-model 零售頁；較低價頁面含預購、活動已額滿或需另行詢問貨源，無法作為可重現的可信新品史低，因此維持找不到。"),',
+              '    historicalLow: historicalNotFound("TWD", "已查 LG 台灣官方頁、PChome exact-model 新品頁、雅光現貨頁與其他零售頁；NT$92,900 可驗證為本輪可信新品現價，但仍缺少完整期間的可重現價格曲線。更低頁面含需詢問貨源或庫存不明條件，因此不直接宣稱為歷史最低價。"),',
+              "WD-S2220B historical-low note",
+          )
+
+          replace_required(
+              '''    {
+                id: "washerdryer-lg-wd-s2220b",
+                sourceKind: "manual_exact_model",
+                url: "https://www.yk01.com.tw/products/wds2220b",
+                httpStatus: 200,
+                status: "verified_available",
+                title: "LG 洗22公斤+乾20公斤 WashTower AI 智控熱泵除濕滾筒洗乾衣機 WD-S2220B",
+                exactModel: true,
+                excludedCondition: false,
+                quantity: null,
+                price: 101900,
+                currency: "TWD",
+                image: "https://www.lg.com/content/dam/channel/wcms/tw/images/washing-machines/wd-s2220b/2010-1.jpg/jcr%3Acontent/renditions/thum-1600x1062.jpeg?w=800",
+                evidence: [
+                  "雅光電器 exact-model 頁明示 NT$101,900 與尚有庫存。",
+                  "LG 台灣官方頁明示 22/20kg、700x1890x830mm、HeatPump、AI DD、AI Dry、智慧洗劑與 ThinQ。",
+                ],
+              },''',
+              '''    {
+                id: "washerdryer-lg-wd-s2220b",
+                sourceKind: "manual_exact_model",
+                url: "https://24h.pchome.com.tw/prod/DPAI1L-A900IXKBU",
+                httpStatus: 200,
+                status: "verified_available",
+                title: "LG 洗22公斤+乾20公斤 WashTower AI 智控熱泵除濕滾筒洗乾衣機 WD-S2220B",
+                exactModel: true,
+                excludedCondition: false,
+                quantity: null,
+                price: 92900,
+                currency: "TWD",
+                image: "https://img.pchome.com.tw/cs/items/DPAI1LA900IXKBU/000007_1752484626.jpg",
+                evidence: [
+                  "PChome exact-model 新品頁明示 NT$92,900、加入購物車與立即購買。",
+                  "LG 台灣官方頁明示 22/20kg、700x1890x830mm、HeatPump、AI DD、AI Dry、智慧洗劑與 ThinQ。",
+                ],
+              },''',
+              "WD-S2220B audit row",
+          )
+
+          text = text.replace("2026-07-21", "2026-07-22")
+          text = text.replace(
+              "catalog_maintenance_2026-07-21.json",
+              "catalog_maintenance_2026-07-22.json",
+          )
+          script_path.write_text(text)
+          patched = script_path.read_bytes()
+          print(f"patched script bytes={len(patched)}, sha256={hashlib.sha256(patched).hexdigest()}")
+          Path("catalog-maintenance-debug.txt").unlink(missing_ok=True)
+          PY
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v6
+        with:
+          node-version: 24
+          cache: npm
+
+      - name: Check maintenance script syntax
+        run: node --check tools/.run-catalog-maintenance-2026-07-22.js
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Install Playwright Chromium
+        run: npx playwright install --with-deps chromium
+
+      - name: Audit and update catalog
+        env:
+          TZ: Asia/Taipei
+        run: node tools/.run-catalog-maintenance-2026-07-22.js
+
+      - name: Apply exact-model consistency fixes
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          from pathlib import Path
+          from urllib.parse import urlparse
+          import json
+          import unicodedata
+
+          def compact(value):
+              return "".join(
+                  character.lower()
+                  for character in unicodedata.normalize("NFKC", str(value or ""))
+                  if character.isalnum()
+              )
+
+          def candidate_key(candidate):
+              return f"{candidate.get('url', '')}\n{candidate.get('title', '')}"
+
+          def platform_for(candidate):
+              platform = str(candidate.get("platform") or "").strip()
+              if platform:
+                  return platform
+              host = urlparse(str(candidate.get("url") or "")).netloc.lower()
+              if "mobile01" in host:
+                  return "Mobile01"
+              if "reddit" in host:
+                  return "Reddit"
+              return host or "Original page"
+
+          research_path = Path("product_issue_research.json")
+          research = json.loads(research_path.read_text())
+          removed_candidates = []
+
+          for row in research.get("results", []):
+              canonical = compact(row.get("identity", {}).get("canonicalModel"))
+              manual = row.get("manualReview") or {}
+              review_by_key = {
+                  candidate_key(candidate): candidate
+                  for candidate in manual.get("candidateReviews", [])
+              }
+              seen = set()
+              valid_keys = []
+
+              for search_check in row.get("searchChecks", []):
+                  candidates = []
+                  for candidate in search_check.get("candidates", []):
+                      identity = compact(f"{candidate.get('title', '')} {candidate.get('url', '')}")
+                      key = candidate_key(candidate)
+                      exact_model = len(canonical) < 4 or canonical in identity
+                      explicitly_reviewed = key in review_by_key
+                      if exact_model and explicitly_reviewed and key not in seen:
+                          seen.add(key)
+                          valid_keys.append(key)
+                          candidates.append(candidate)
+                      else:
+                          removed_candidates.append({
+                              "productId": row.get("id"),
+                              "canonicalModel": row.get("identity", {}).get("canonicalModel"),
+                              "title": candidate.get("title"),
+                              "url": candidate.get("url"),
+                              "reason": (
+                                  "candidate identity does not contain the canonical model"
+                                  if not exact_model
+                                  else "candidate has no matching explicit manual review"
+                              ),
+                          })
+                  search_check["candidates"] = candidates
+                  search_check["candidateUrls"] = [candidate.get("url") for candidate in candidates]
+                  search_check["resultCount"] = len(candidates)
+                  if not candidates and search_check.get("result") == "candidates_unverified_by_search_only":
+                      search_check["result"] = "no_exact_model_result"
+
+              reviews = [review_by_key[key] for key in valid_keys]
+              manual["candidateReviews"] = reviews
+              manual["representativeSources"] = [
+                  {
+                      "platform": platform_for(candidate),
+                      "title": candidate.get("title", ""),
+                      "url": candidate.get("url", ""),
+                  }
+                  for candidate in reviews
+              ]
+              manual["attestation"] = (
+                  "manual_original_pages_reviewed"
+                  if reviews
+                  else "manual_cross_site_search_reviewed_no_candidate"
+              )
+              row["manualReview"] = manual
+              row["rejectedCandidates"] = [
+                  {**candidate, "reason": candidate.get("specificReason")}
+                  for candidate in reviews
+              ]
+
+          research_path.write_text(
+              json.dumps(research, ensure_ascii=False, indent=2) + "\n"
+          )
+
+          purifier_path = Path("products/purifier.js")
+          purifier = purifier_path.read_text()
+          marker = '"id": "ap-dyson-hj10"'
+          start = purifier.find(marker)
+          if start < 0:
+              raise SystemExit("HJ10 generated product is missing")
+          next_product = purifier.find('\n  },\n  {', start)
+          end = next_product if next_product >= 0 else purifier.find('\n  }\n]);', start)
+          if end < 0:
+              raise SystemExit("HJ10 generated product boundary is missing")
+          segment = purifier[start:end]
+          old_url = '"buyUrl": "https://24h.pchome.com.tw/prod/DMAU3C-1900JXJZ8"'
+          official_url = '"buyUrl": "https://shop.dyson.tw/fans-and-heaters/purifiers/dyson-hushjet-purifier-compact-white-silver-293138-01"'
+          if old_url not in segment:
+              raise SystemExit("HJ10 generated purchase URL patch target is missing")
+          segment = segment.replace(old_url, official_url, 1)
+          segment = segment.replace('"buyLabel": "PChome"', '"buyLabel": "Dyson 台灣官方"', 1)
+          segment = segment.replace(
+              '"confidence": "Dyson 台灣官方與 PChome 2026-07-22 exact-model 現貨公開價"',
+              '"confidence": "Dyson 台灣官方 2026-07-22 exact-model 現貨公開價"',
+              1,
+          )
+          purifier_path.write_text(purifier[:start] + segment + purifier[end:])
+
+          report_path = Path("catalog_maintenance_2026-07-22.json")
+          if report_path.exists():
+              report = json.loads(report_path.read_text())
+              report["manualAdjustments"] = {
+                  "removedInexactIssueCandidates": removed_candidates,
+                  "hj10PurchaseSource": {
+                      "url": "https://shop.dyson.tw/fans-and-heaters/purifiers/dyson-hushjet-purifier-compact-white-silver-293138-01",
+                      "reason": "改用 Dyson 台灣官方 exact-model 現貨與售後頁",
+                  },
+              }
+              if report.get("summary"):
+                  report["summary"]["linkChanges"] = report["summary"].get("linkChanges", 0) + 1
+              report_path.write_text(
+                  json.dumps(report, ensure_ascii=False, indent=2) + "\n"
+              )
+
+          print(f"removed inexact issue candidates: {len(removed_candidates)}")
+          PY
+          rm tools/.run-catalog-maintenance-2026-07-22.js
+
+      - name: Generate category pages
+        run: npm run generate:categories
+
+      - name: Validate, record, and push results
+        shell: bash
+        run: |
+          set +e
+          npm run check > catalog-maintenance-check.log 2>&1
+          check_code=$?
+          ui_code=99
+          quality_code=99
+          if [ "$check_code" -eq 0 ]; then
+            npm run check:ui:full > catalog-maintenance-ui-full.log 2>&1
+            ui_code=$?
+          fi
+          if [ "$check_code" -eq 0 ] && [ "$ui_code" -eq 0 ]; then
+            npm run check:quality > catalog-maintenance-quality.log 2>&1
+            quality_code=$?
+          fi
+          git diff --check > catalog-maintenance-diff-check.log 2>&1
+          diff_code=$?
+          {
+            echo "npm_run_check=$check_code"
+            echo "npm_run_check_ui_full=$ui_code"
+            echo "npm_run_check_quality=$quality_code"
+            echo "git_diff_check=$diff_code"
+          } > catalog-maintenance-validation.txt
+
+          cat catalog-maintenance-validation.txt
+          cat catalog-maintenance-check.log
+          [ ! -f catalog-maintenance-ui-full.log ] || cat catalog-maintenance-ui-full.log
+          [ ! -f catalog-maintenance-quality.log ] || cat catalog-maintenance-quality.log
+          cat catalog-maintenance-diff-check.log
+          if [ -f catalog_maintenance_2026-07-22.json ]; then
+            echo "===== CATALOG MAINTENANCE REPORT ====="
+            cat catalog_maintenance_2026-07-22.json
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          if [ "$check_code" -eq 0 ] && [ "$ui_code" -eq 0 ] && [ "$quality_code" -eq 0 ] && [ "$diff_code" -eq 0 ]; then
+            rm -f .github/maintenance/2026-07-21-script.part*
+            rm -f .github/workflows/catalog-maintenance-2026-07-22.yml
+            rm -f catalog_maintenance_2026-07-22.json
+            rm -f catalog-maintenance-check.log
+            rm -f catalog-maintenance-ui-full.log
+            rm -f catalog-maintenance-quality.log
+            rm -f catalog-maintenance-diff-check.log
+            rm -f catalog-maintenance-validation.txt
+            git add -A
+            git commit -m "更新 7 月 22 日商品資料、匯率與新品"
+            git push origin HEAD:codex/2026-07-22-catalog-maintenance
+            exit 0
+          fi
+
+          git add -A
+          git commit -m "保存 7 月 22 日商品維護失敗結果" || true
+          git push origin HEAD:codex/2026-07-22-catalog-maintenance
+          exit 1
