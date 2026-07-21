@@ -27,24 +27,18 @@ jobs:
           ref: codex/2026-07-21-catalog-maintenance
           fetch-depth: 0
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v6
-        with:
-          node-version: 24
-          cache: npm
-
-      - name: Install dependencies
-        run: npm ci
-
-      - name: Install Playwright Chromium
-        run: npx playwright install --with-deps chromium
-
       - name: Materialize verified maintenance script
         shell: bash
         run: |
           set -euo pipefail
           cat .github/maintenance/2026-07-21-script.part* > /tmp/catalog-maintenance.js.gz.b64
+          echo "Encoded bytes and digest:"
+          wc -c /tmp/catalog-maintenance.js.gz.b64
+          sha256sum /tmp/catalog-maintenance.js.gz.b64
           base64 -d /tmp/catalog-maintenance.js.gz.b64 | gzip -d > tools/.run-catalog-maintenance-2026-07-21.js
+          echo "Decoded script bytes and digest:"
+          wc -c tools/.run-catalog-maintenance-2026-07-21.js
+          sha256sum tools/.run-catalog-maintenance-2026-07-21.js
           echo "db6d4a01cca4951f36ba3ecc12cff2ff6fd448fa3d1e56849d9faa5b2e8422e6  tools/.run-catalog-maintenance-2026-07-21.js" | sha256sum -c -
           python - <<'PY'
           from pathlib import Path
@@ -96,8 +90,23 @@ jobs:
               raise SystemExit("WD-S2220B historical-low note patch target missing")
           path.write_text(text.replace(old, new))
           PY
+          echo "Patched script bytes and digest:"
+          wc -c tools/.run-catalog-maintenance-2026-07-21.js
+          sha256sum tools/.run-catalog-maintenance-2026-07-21.js
           echo "e7dfdc3a4b5dadca9802983dce1730c09236c4fcf5386e4ef34943e9f424168a  tools/.run-catalog-maintenance-2026-07-21.js" | sha256sum -c -
           node --check tools/.run-catalog-maintenance-2026-07-21.js
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v6
+        with:
+          node-version: 24
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Install Playwright Chromium
+        run: npx playwright install --with-deps chromium
 
       - name: Audit and update catalog
         env:
