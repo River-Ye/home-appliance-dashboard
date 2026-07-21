@@ -1,0 +1,77 @@
+name: Finalize catalog documents v2
+
+on:
+  pull_request:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  finalize:
+    name: Align all generated document fallbacks
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - name: Checkout maintenance branch
+        uses: actions/checkout@v6
+        with:
+          ref: codex/2026-07-22-catalog-maintenance
+          fetch-depth: 0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v6
+        with:
+          node-version: 24
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Align document fallbacks
+        shell: bash
+        run: |
+          set -euo pipefail
+          node <<'NODE'
+          const fs = require("fs");
+
+          function replaceRequired(text, before, after, label) {
+            if (!text.includes(before) && !text.includes(after)) {
+              throw new Error(`Missing ${label}: ${before}`);
+            }
+            return text.replace(before, after);
+          }
+
+          const indexPath = "index.html";
+          let index = fs.readFileSync(indexPath, "utf8");
+          index = replaceRequired(index, 'id="dataDate">2026-07-21</strong>', 'id="dataDate">2026-07-22</strong>', "data date");
+          index = replaceRequired(index, "資料更新日為 2026-07-21。", "資料更新日為 2026-07-22。", "footer date");
+          index = replaceRequired(index, 'id="exchangeSummary">USD 1 = TWD 32.397</span>', 'id="exchangeSummary">USD 1 = TWD 32.328</span>', "exchange fallback");
+          index = replaceRequired(index, "由 AI 協作整理 25 類、666 款可信新品", "由 AI 協作整理 25 類、668 款可信新品", "visible product count");
+          index = index.replaceAll("?v=20260721-catalog-audit", "?v=20260721-catalog-maintenance-b");
+          fs.writeFileSync(indexPath, index);
+
+          const readmePath = "README.md";
+          let readme = fs.readFileSync(readmePath, "utf8");
+          readme = readme.replace(
+            "- 2026-07-22 08:48（台灣時間；2026-07-21 00:48 UTC）",
+            "- 2026-07-21 08:48（台灣時間；2026-07-21 00:48 UTC）",
+          );
+          fs.writeFileSync(readmePath, readme);
+          NODE
+
+      - name: Run repository check
+        run: npm run check
+
+      - name: Commit document alignment
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add index.html README.md
+          git commit -m "同步 7 月 22 日首頁資料與匯率資訊"
+          git push origin HEAD:codex/2026-07-22-catalog-maintenance
