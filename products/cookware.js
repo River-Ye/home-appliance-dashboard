@@ -849,9 +849,9 @@
     "image": "https://cs-a.ecimg.tw/items/DEDG3BA900GQDVZ/000001_1776769920.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 961,
-      "converted": 961,
-      "confidence": "Yahoo購物中心 2026-07-18 商品頁公開價"
+      "amount": 990,
+      "converted": 990,
+      "confidence": "Yahoo購物中心 2026-07-21 頁面公開價"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心",

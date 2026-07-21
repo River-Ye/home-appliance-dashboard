@@ -989,9 +989,9 @@
     "name": "17-32 吋 8KG 氣壓式舒適螢幕懸臂支架",
     "price": {
       "currency": "TWD",
-      "amount": 1472,
-      "converted": 1472,
-      "confidence": "momo購物 2026-07-11 頁面查核價"
+      "amount": 1532,
+      "converted": 1532,
+      "confidence": "momo 2026-07-21 頁面公開價"
     },
     "image": "https://cs-a.ecimg.tw/items/DCAX3NA900HNTHZ/000001_1724123200.jpg",
     "buyUrl": "https://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=13335412",
@@ -1070,9 +1070,9 @@
     "name": "17-32 吋 8KG/臂 雙螢幕氣壓式懸臂支架",
     "price": {
       "currency": "TWD",
-      "amount": 2062,
-      "converted": 2062,
-      "confidence": "momo購物 2026-07-11 頁面查核價"
+      "amount": 2302,
+      "converted": 2302,
+      "confidence": "momo 2026-07-21 頁面公開價"
     },
     "image": "https://cs-a.ecimg.tw/items/DCAX3NA900HNTEF/000001_1724123227.jpg",
     "buyUrl": "https://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=13335413",

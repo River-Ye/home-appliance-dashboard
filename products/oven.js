@@ -95,9 +95,9 @@
     "name": "26L 8 合 1 變頻氣炸蒸烤微波爐",
     "price": {
       "currency": "TWD",
-      "amount": 19900,
-      "converted": 19900,
-      "confidence": "Yahoo購物中心 2026-07-20 頁面公開價"
+      "amount": 18706,
+      "converted": 18706,
+      "confidence": "Yahoo購物中心 2026-07-21 頁面公開價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBJ02A900J1WEX/000001_1753093870.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/Whirlpool-%E6%83%A0%E8%80%8C%E6%B5%A6-26L-MWP269TMT-%E9%9B%B2%E9%9C%A7%E7%99%BD-%E8%AE%8A%E9%A0%BB%E6%B0%A3%E7%82%B8%E8%92%B8%E7%83%A4%E5%BE%AE%E6%B3%A2%E7%88%90-8%E5%90%881-Chef-12003584.html",
@@ -330,8 +330,8 @@
     "price": {
       "currency": "USD",
       "amount": 499.95,
-      "converted": 16169,
-      "confidence": "Breville 官方 2026-07-20 來源價；ExchangeRate-API 2026-07-19 匯率換算"
+      "converted": 16197,
+      "confidence": "Breville 官方 2026-07-21 來源價；ExchangeRate-API 2026-07-20 匯率換算"
     },
     "image": "https://cdn11.bigcommerce.com/s-ihwnd7z21q/images/stencil/640w/products/1251/4666/212814_JouleOvenAirFryer1__10534.1724079466.jpg?c=1",
     "buyUrl": "https://www.breville.com/en-us/product/bov950",
@@ -563,9 +563,9 @@
     "name": "30L 蒸氣烘烤微波爐",
     "price": {
       "currency": "TWD",
-      "amount": 26900,
-      "converted": 26900,
-      "confidence": "Yahoo購物中心 2026-07-18 商品頁公開價"
+      "amount": 32900,
+      "converted": 32900,
+      "confidence": "Yahoo購物中心 2026-07-21 頁面公開價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBJ7P1900HCI3E/000001_1782972848.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/Panasonic-%E5%9C%8B%E9%9A%9B%E7%89%8C-30L%E5%B9%B3%E5%8F%B0%E5%BC%8F%E8%AE%8A%E9%A0%BB%E8%92%B8%E7%83%98%E7%83%A4%E5%BE%AE%E9%9B%BB%E8%85%A6%E5%BE%AE%E6%B3%A2%E7%88%90-NN-BS1700-9469543.html",
@@ -719,9 +719,9 @@
     "name": "20L 多功能蒸氣氣炸烤箱",
     "price": {
       "currency": "TWD",
-      "amount": 10260,
-      "converted": 10260,
-      "confidence": "PChome 2026-07-18 API 公開價"
+      "amount": 10800,
+      "converted": 10800,
+      "confidence": "PChome 2026-07-21 API 公開價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBM0GA900HF91A/000001_1768545220.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBM0G-A900HF91A",
@@ -797,9 +797,9 @@
     "name": "25 公升獨立式蒸烤爐",
     "price": {
       "currency": "TWD",
-      "amount": 9999,
-      "converted": 9999,
-      "confidence": "Yahoo購物中心 2026-07-20 頁面公開價"
+      "amount": 9400,
+      "converted": 9400,
+      "confidence": "Yahoo購物中心 2026-07-21 頁面公開價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBJ6QA900EO5DH/000001_1704094465.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/Whirlpool%E6%83%A0%E8%80%8C%E6%B5%A6-25%E5%85%AC%E5%8D%87%E7%8D%A8%E7%AB%8B%E5%BC%8F%E8%92%B8%E7%83%A4%E7%88%90-WSO2500B-9918063.html",
@@ -1109,9 +1109,9 @@
     "name": "32 公升獨立式萬用蒸烤爐",
     "price": {
       "currency": "TWD",
-      "amount": 15800,
-      "converted": 15800,
-      "confidence": "Yahoo購物中心 2026-07-20 頁面公開價"
+      "amount": 14852,
+      "converted": 14852,
+      "confidence": "Yahoo購物中心 2026-07-21 頁面公開價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBJ6QA900EO9M8/000001_1716271473.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/Whirlpool%E6%83%A0%E8%80%8C%E6%B5%A6-32%E5%85%AC%E5%8D%87%E7%8D%A8%E7%AB%8B%E5%BC%8F%E8%92%B8%E7%83%A4%E7%88%90-WSO322EB-9918064.html",
@@ -1187,9 +1187,9 @@
     "name": "39L 智慧變頻蒸烘烤微波爐",
     "price": {
       "currency": "TWD",
-      "amount": 14900,
-      "converted": 14900,
-      "confidence": "Yahoo購物中心 2026-07-20 頁面公開價"
+      "amount": 14006,
+      "converted": 14006,
+      "confidence": "Yahoo購物中心 2026-07-21 頁面公開價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBJ8JA900H3U40/000001_1749176905.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/LG-%E6%A8%82%E9%87%91-NeoChef-%E6%99%BA%E6%85%A7%E8%AE%8A%E9%A0%BB%E8%92%B8%E7%83%98%E7%83%A4%E5%BE%AE%E6%B3%A2%E7%88%90-39%E5%85%AC%E5%8D%87-MJ3965BCP-11971476.html",
@@ -1343,9 +1343,9 @@
     "name": "過熱水蒸氣烘烤微波爐",
     "price": {
       "currency": "TWD",
-      "amount": 22908,
-      "converted": 22908,
-      "confidence": "Yahoo購物中心 2026-07-20 頁面公開價"
+      "amount": 21534,
+      "converted": 21534,
+      "confidence": "Yahoo購物中心 2026-07-21 頁面公開價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBJ031900I80DM/000001_1778655849.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/HITACHI-%E6%97%A5%E7%AB%8B-%E9%81%8E%E7%86%B1%E6%B0%B4%E8%92%B8%E6%B0%A3%E7%83%98%E7%83%A4%E5%BE%AE%E6%B3%A2%E7%88%90-%E7%88%B5%E8%89%B2%E9%BB%91-MROS800AT-11995105.html",
@@ -1421,9 +1421,9 @@
     "name": "過熱水蒸氣烘烤微波爐",
     "price": {
       "currency": "TWD",
-      "amount": 48668,
-      "converted": 48668,
-      "confidence": "Yahoo購物中心 2026-07-20 頁面公開價"
+      "amount": 45748,
+      "converted": 45748,
+      "confidence": "Yahoo購物中心 2026-07-21 頁面公開價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBJ5PA900GN8PM/000001_1750840663.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/HITACHI-%E6%97%A5%E7%AB%8B-%E9%81%8E%E7%86%B1%E6%B0%B4%E8%92%B8%E6%B0%A3%E7%83%98%E7%83%A4%E5%BE%AE%E6%B3%A2%E7%88%90-MROBK5000AT-11995474.html",
@@ -1499,9 +1499,9 @@
     "name": "蒸烘烤變頻微波爐",
     "price": {
       "currency": "TWD",
-      "amount": 41724,
-      "converted": 41724,
-      "confidence": "PChome 2026-07-18 API 公開價"
+      "amount": 43920,
+      "converted": 43920,
+      "confidence": "PChome 2026-07-21 API 公開價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBM0GA900H5125/000001_1783054719.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBM0G-A900H5125",
@@ -1819,8 +1819,8 @@
     "price": {
       "currency": "USD",
       "amount": 449.99,
-      "converted": 14553,
-      "confidence": "SharkNinja 美國官方 2026-07-20 商品頁現貨價；ExchangeRate-API 2026-07-19 匯率換算"
+      "converted": 14578,
+      "confidence": "SharkNinja 美國官方 2026-07-21 商品頁現貨價；ExchangeRate-API 2026-07-20 匯率換算"
     },
     "image": "https://assets.sharkninja.com/image/upload/f_auto/q_auto/SharkNinja-NA/MW101_01.jpg",
     "buyUrl": "https://www.sharkninja.com/ninja-crispi-microwave/MW101.html",

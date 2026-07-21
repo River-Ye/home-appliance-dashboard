@@ -6,7 +6,7 @@
 
 - Brand: 家電推薦比較工作台
 - Canonical site: https://appliance.riverye.com/
-- Data updated: 2026-07-20
+- Data updated: 2026-07-21
 - Catalog: 25 categories, 666 products
 - Source code: https://github.com/River-Ye/home-appliance-dashboard
 
@@ -46,9 +46,9 @@
 - [2026 免治馬桶 推薦與選購指南](https://appliance.riverye.com/categories/bidet/): 20 筆候選。免治馬桶選購要先確認是馬桶座或整座馬桶，並量原有馬桶形狀、固定孔距與水電位置。比較清洗、加熱、除臭等功能時，也要考量浴室防濺、接地、進水與清潔維護；安裝費、耗材和台灣保固需在下單前確認。
 - [2026 電子鎖 推薦與選購指南](https://appliance.riverye.com/categories/smartlock/): 48 筆候選。電子鎖不能只比較指紋、密碼或手機解鎖，必須先確認門厚、門向、鎖體、天地栓與現場施工條件。安裝可能有基本費之外的改孔或配件費用；也要核對電池、緊急開鎖、管理權限，以及台灣技師與保固服務。
 - [2026 無線路由器 推薦與選購指南](https://appliance.riverye.com/categories/wifi/): 48 筆候選。無線路由器分類只收 Wi-Fi 6、Wi-Fi 6E、Wi-Fi 7 或以上，並區分家用一體式路由器、Mesh 節點與商用／Prosumer AP。選購要依格局、裝置數、網路速率與回程方式規劃；Aruba Instant On、UniFi 等 AP 通常還需 Gateway、PoE 和管理平台。
-- [2026 升降桌 推薦與選購指南](https://appliance.riverye.com/categories/standingdesk/): 23 筆候選。升降桌應依使用者身高、工作姿勢、桌板尺寸與設備重量選擇，不只比較升降速度。桌板厚度會影響螢幕支架與夾具相容性；穩定度、線材管理、馬達供電、組裝方式、零件供應與保固也應一起確認。
+- [2026 升降桌 推薦與選購指南](https://appliance.riverye.com/categories/standingdesk/): 22 筆候選。升降桌應依使用者身高、工作姿勢、桌板尺寸與設備重量選擇，不只比較升降速度。桌板厚度會影響螢幕支架與夾具相容性；穩定度、線材管理、馬達供電、組裝方式、零件供應與保固也應一起確認。
 - [2026 電腦椅 推薦與選購指南](https://appliance.riverye.com/categories/chair/): 23 筆候選。電腦椅的適配取決於身形、坐姿與每日使用時間，不能只靠外觀或單一尺寸判斷。應比較座高、座深、腰靠、扶手與後仰調整，並考量台灣氣候下的材質、組裝、試坐或退換條件，以及零件供應和保固。
-- [2026 電腦螢幕 推薦與選購指南](https://appliance.riverye.com/categories/monitor/): 54 筆候選。電腦螢幕要依文書、遊戲、影像或專業色彩用途，選擇尺寸、解析度、更新率與面板；34、45、49、57 吋寬螢幕還要考量桌深、顯卡輸出和觀看距離。支架安裝應以不含底座的螢幕重量、VESA 與承重為準，並確認連接埠及台灣保固。
+- [2026 電腦螢幕 推薦與選購指南](https://appliance.riverye.com/categories/monitor/): 55 筆候選。電腦螢幕要依文書、遊戲、影像或專業色彩用途，選擇尺寸、解析度、更新率與面板；34、45、49、57 吋寬螢幕還要考量桌深、顯卡輸出和觀看距離。支架安裝應以不含底座的螢幕重量、VESA 與承重為準，並確認連接埠及台灣保固。
 - [2026 懸臂支架 推薦與選購指南](https://appliance.riverye.com/categories/monitorarm/): 21 筆候選。懸臂支架必須以螢幕實際尺寸、不含底座重量與 VESA 規格配對，不能只看宣稱最大吋數。49／57 吋超寬或大型曲面螢幕需要更高承重與力矩餘量；也要核對桌板厚度、夾桌或穿桌條件，重型螢幕建議兩人安裝。
 
 ## 研究證據

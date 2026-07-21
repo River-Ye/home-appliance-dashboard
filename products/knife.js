@@ -846,9 +846,9 @@
     "image": "https://cs-a.ecimg.tw/items/DEAGL1A900K0YA8/000001_1779182108.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 1640,
-      "converted": 1640,
-      "confidence": "Yahoo購物中心 2026-07-18 商品頁公開價"
+      "amount": 1999,
+      "converted": 1999,
+      "confidence": "Yahoo購物中心 2026-07-21 頁面公開價"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心",
@@ -1259,9 +1259,9 @@
     "name": "萬用刀 12cm",
     "price": {
       "currency": "TWD",
-      "amount": 15120,
-      "converted": 15120,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 13440,
+      "converted": 13440,
+      "confidence": "PChome 2026-07-21 API 公開價"
     },
     "image": "https://cs-a.ecimg.tw/items/DEBM2CA900J9CYP/000001_1758097012.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DEBM2C-A900J9CYP",

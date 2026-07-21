@@ -577,9 +577,9 @@
     "name": "電動升降桌 UP006 1260WH/WH",
     "price": {
       "currency": "TWD",
-      "amount": 8090,
-      "converted": 8090,
-      "confidence": "PChome 2026-07-20 API 公開價"
+      "amount": 8490,
+      "converted": 8490,
+      "confidence": "PChome 2026-07-21 API 公開價"
     },
     "image": "https://cs-a.ecimg.tw/items/DQCI0AA900K15SP/000001_1779286467.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQCI0A-A900K15SP",
@@ -657,9 +657,9 @@
     "name": "電動升降桌 UP006 1460WH/WH",
     "price": {
       "currency": "TWD",
-      "amount": 9090,
-      "converted": 9090,
-      "confidence": "PChome 2026-07-20 API 公開價"
+      "amount": 9490,
+      "converted": 9490,
+      "confidence": "PChome 2026-07-21 API 公開價"
     },
     "image": "https://cs-a.ecimg.tw/items/DQCI0AA900K15T1/000001_1779269416.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQCI0A-A900K15T1",
@@ -1365,88 +1365,9 @@
     }
   },
   {
-    "id": "standingdesk-extra-18-dsbc1ta900ht0du",
-    "category": "standingdesk",
-    "rank": 18,
-    "budget": "mid",
-    "channel": "tw",
-    "brand": "Loctek",
-    "model": "F2 智慧記憶電動升降桌",
-    "name": "120x60 黑色電動升降桌",
-    "price": {
-      "currency": "TWD",
-      "amount": 9999,
-      "converted": 9999,
-      "confidence": "PChome 2026-07-11 API 查核價"
-    },
-    "image": "https://cs-a.ecimg.tw/items/DSBC1TA900HT0DU/000001_1738574875.jpg",
-    "buyUrl": "https://24h.pchome.com.tw/prod/DSBC1T-A900HT0DU",
-    "buyLabel": "PChome",
-    "specs": [
-      "120x60cm",
-      "智慧記憶",
-      "黑色",
-      "電動升降",
-      "桌板厚度：未標示"
-    ],
-    "description": "Loctek F2 智慧記憶電動升降桌 補進本分類比較池，重點是120x60cm、智慧記憶、黑色，適合和同類 Top Pick 依預算、售後與規格一起比較。",
-    "pros": [
-      "Loctek 類型成熟",
-      "小桌面適合有限空間"
-    ],
-    "cons": [
-      "120x60 對多螢幕偏小",
-      "黑色較顯灰塵"
-    ],
-    "bestFor": "居家辦公、雙螢幕或想久坐久站切換的人。",
-    "recommendation": "補充推薦：120x60 黑色電動升降桌 的優勢在Loctek 類型成熟，但仍建議把120x60 對多螢幕偏小納入取捨。",
-    "score": 84,
-    "voltage": "110V 台灣通路",
-    "warranty": "依台灣通路/品牌保固",
-    "tags": [
-      "Loctek",
-      "120x60",
-      "記憶高度"
-    ],
-    "releaseDate": "找不到",
-    "historicalLow": {
-      "status": "found",
-      "amount": 6918,
-      "currency": "TWD",
-      "converted": 6918,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1216798602&cgp=9999",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：Loctek 樂歌 F2 120x60cm 智慧記憶電動升降桌/弧形桌面設計/可加裝抽屜/滾輪/螢幕支架",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「PCHome購物 / Loctek 樂歌 F2 120x60cm 智慧記憶電動升降桌/弧形桌面設計/可加裝抽屜/滾輪/螢幕支架」最低價為 NT$6,918，最低點日期 2026-06-21。",
-      "sourceKind": "price_history",
-      "confidence": "high",
-      "checkedAt": "2026-07-09",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
-    },
-    "issueResearch": {
-      "status": "no_common_issue",
-      "checkedAt": "2026-07-11",
-      "summary": "截至查核日，查無達門檻的集中負評／災情",
-      "issues": [],
-      "checkedSources": [
-        {
-          "platform": "Mobile01",
-          "query": "site:mobile01.com \"Loctek F2 智慧記憶電動升降桌\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Loctek%20F2%20%E6%99%BA%E6%85%A7%E8%A8%98%E6%86%B6%E9%9B%BB%E5%8B%95%E5%8D%87%E9%99%8D%E6%A1%8C%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
-          "targetHost": "mobile01.com"
-        },
-        {
-          "platform": "Reddit",
-          "query": "site:reddit.com \"Loctek F2 智慧記憶電動升降桌\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Loctek%20F2%20%E6%99%BA%E6%85%A7%E8%A8%98%E6%86%B6%E9%9B%BB%E5%8B%95%E5%8D%87%E9%99%8D%E6%A1%8C%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
-          "targetHost": "reddit.com"
-        }
-      ]
-    }
-  },
-  {
     "id": "standingdesk-extra-19-dcbb6oa900hsvt2",
     "category": "standingdesk",
-    "rank": 19,
+    "rank": 18,
     "budget": "mid",
     "channel": "tw",
     "brand": "COUGAR",
@@ -1525,7 +1446,7 @@
   {
     "id": "standingdesk-extra-20-dcbb6oa900frsk6",
     "category": "standingdesk",
-    "rank": 20,
+    "rank": 19,
     "budget": "mid",
     "channel": "tw",
     "brand": "E-home",
@@ -1604,7 +1525,7 @@
   {
     "id": "standingdesk-costco-loctek-et200",
     "category": "standingdesk",
-    "rank": 21,
+    "rank": 20,
     "budget": "mid",
     "channel": "tw",
     "brand": "Loctek",
@@ -1683,7 +1604,7 @@
   {
     "id": "standingdesk-costco-backbone-dyback-lite",
     "category": "standingdesk",
-    "rank": 22,
+    "rank": 21,
     "budget": "mid",
     "channel": "tw",
     "brand": "Backbone",
@@ -1764,7 +1685,7 @@
   {
     "id": "standingdesk-costco-flexispot-get156e",
     "category": "standingdesk",
-    "rank": 23,
+    "rank": 22,
     "budget": "mid",
     "channel": "tw",
     "brand": "FlexiSpot",

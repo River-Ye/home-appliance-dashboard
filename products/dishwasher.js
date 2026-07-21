@@ -15,9 +15,9 @@
     "image": "https://cs-a.ecimg.tw/items/DMBR1PA900I386D/000001_1738721735.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 17800,
-      "converted": 17800,
-      "confidence": "PChome 2026-07-18 API 公開價"
+      "amount": 18000,
+      "converted": 18000,
+      "confidence": "PChome 2026-07-21 API 公開價"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -930,9 +930,9 @@
     "image": "https://cs-a.ecimg.tw/items/DPAL7PA900G5M47/000001_1783049805.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 36340,
-      "converted": 36340,
-      "confidence": "PChome 2026-07-18 API 公開價"
+      "amount": 37525,
+      "converted": 37525,
+      "confidence": "PChome 2026-07-21 API 公開價"
     },
     "channel": "tw",
     "buyLabel": "PChome",

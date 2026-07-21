@@ -2142,9 +2142,9 @@
     "name": "27 型 WQHD 360Hz QD-OLED 電競螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 17955,
-      "converted": 17955,
-      "confidence": "Yahoo購物中心 2026-07-18 UTC 商品頁公開現貨價"
+      "amount": 18900,
+      "converted": 18900,
+      "confidence": "Yahoo購物中心 2026-07-21 頁面公開價"
     },
     "image": "https://cs-a.ecimg.tw/items/DSBC1ZA900HE04M/000001_1757303897.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/MSI%E5%BE%AE%E6%98%9F-MPG-271QRX-QD-OLED-27%E5%9E%8B-2K-360Hz-HDR%E9%9B%BB%E7%AB%B6%E8%9E%A2%E5%B9%95-10958143.html",
@@ -3043,9 +3043,9 @@
     "name": "34 型 UWQHD 120Hz 曲面美型螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 6259,
-      "converted": 6259,
-      "confidence": "Yahoo購物中心 2026-07-18 UTC 商品頁公開現貨價"
+      "amount": 6588,
+      "converted": 6588,
+      "confidence": "Yahoo購物中心 2026-07-21 頁面公開價"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABPFA900K0AJK/000001_1778658221.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/MSI%E5%BE%AE%E6%98%9FPRO-MP341CQW-E12-34%E5%9E%8B-VA-UWQHD-120Hz-%E6%9B%B2%E9%9D%A2%E8%9E%A2%E5%B9%95-1ms-12002868.html",
@@ -3617,9 +3617,9 @@
     "name": "49 型 Odyssey OLED G9 Dual QHD 240Hz 曲面螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 34999,
-      "converted": 34999,
-      "confidence": "PChome 2026-07-18 API 公開價"
+      "amount": 36900,
+      "converted": 36900,
+      "confidence": "PChome 2026-07-21 API 公開價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBM10A900HZCPE/000001_1781766568.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBM10-A900HZCPE",
@@ -3863,9 +3863,9 @@
     "name": "57 型 Odyssey Neo G9 Dual UHD 240Hz Mini LED 曲面螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 66500,
-      "converted": 66500,
-      "confidence": "PChome 2026-07-18 API 公開價"
+      "amount": 69900,
+      "converted": 69900,
+      "confidence": "PChome 2026-07-21 API 公開價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBM10A900GQLSE/000001_1783054239.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBM10-A900GQLSE",
@@ -4422,6 +4422,92 @@
           "platform": "Reddit",
           "query": "site:reddit.com \"Samsung LS40H850TACXZW\" (problem OR issue OR defect OR \"negative review\")",
           "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Samsung%20LS40H850TACXZW%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
+          "targetHost": "reddit.com"
+        }
+      ]
+    }
+  },
+  {
+    "id": "monitor-benq-pd2732u",
+    "category": "monitor",
+    "rank": 55,
+    "budget": "premium",
+    "channel": "tw",
+    "brand": "BenQ",
+    "model": "PD2732U",
+    "name": "27 型 4K Adobe RGB Thunderbolt 4 專業設計螢幕",
+    "price": {
+      "currency": "TWD",
+      "amount": 26888,
+      "converted": 26888,
+      "confidence": "BenQ 台灣官方 2026-07-21 API 公開在庫價"
+    },
+    "image": "https://image.benq.com/is/image/benqco/pd2732u-front-hotkey-1000?$ResponsivePreset$&fmt=png-alpha",
+    "buyUrl": "https://www.benq.com/zh-tw/monitor/creative-pro/pd2732u/buy.html",
+    "buyLabel": "BenQ 台灣官方",
+    "specs": [
+      "27 吋 IPS / 4K 3840 x 2160 / 60Hz / 400 nits",
+      "99% Adobe RGB / 99% P3 / 100% sRGB / DeltaE < 2",
+      "Thunderbolt 4（90W）/ DP / HDMI / USB-C / KVM / 菊鏈",
+      "HDR10 / HLG / Pantone、Pantone SkinTone 與 Calman 認證",
+      "重量：5.89kg（不含底座；含底座 8.56kg）",
+      "VESA 100 x 100 mm"
+    ],
+    "description": "PD2732U 是 2026 年新上市的 27 吋專業廣色域螢幕，補足清單中 Adobe RGB、P3 與 Thunderbolt 4 一線工作流兼具的中高階創作選項。",
+    "pros": [
+      "99% Adobe RGB 與 99% P3 適合攝影、印刷與影音工作流",
+      "Thunderbolt 4 90W、KVM 與菊鏈可整合 Mac／PC 桌面",
+      "台灣官方現貨、規格與價格證據完整"
+    ],
+    "cons": [
+      "60Hz 不適合追求高刷新遊戲",
+      "HDR 峰值與分區背光不是專業 HDR 調色定位",
+      "專業色彩功能需要定期校色與正確工作流程才能發揮"
+    ],
+    "bestFor": "需要 Adobe RGB 印刷色域、4K 細節與 Thunderbolt 4 一線連接的攝影師、設計師與內容創作者。",
+    "recommendation": "專業廣色域推薦：相較高價參考級螢幕，PD2732U 以較低門檻提供 Adobe RGB、P3、Thunderbolt 4 與完整台灣官方售後。",
+    "score": 92,
+    "voltage": "AC 100-240V；台灣官方新品",
+    "warranty": "依 BenQ 台灣官方商品頁與保固政策",
+    "tags": [
+      "27吋",
+      "4K",
+      "Adobe RGB",
+      "P3",
+      "Thunderbolt 4",
+      "KVM",
+      "專業色彩"
+    ],
+    "releaseDate": "2026-07",
+    "historicalLow": {
+      "status": "found",
+      "amount": 25544,
+      "currency": "TWD",
+      "converted": 25544,
+      "sourceUrl": "https://biggo.com.tw/s/PD2732U/",
+      "sourceTitle": "PD2732U 的價格推薦 - 2026年7月 | BigGo",
+      "evidenceSnippet": "BigGo 2026-07-21 exact-model 比價頁顯示 Yahoo購物中心「BenQ PD2732U-27型 4K 專業設計繪圖螢幕」曾有公開滿 1 件 95 折價 NT$25,544；Yahoo 原頁目前已回到 NT$26,888。",
+      "sourceKind": "retailer_promo",
+      "confidence": "medium",
+      "checkedAt": "2026-07-21",
+      "note": "採用可公開重現的 exact-model Yahoo 公開折扣快照；非會員個人券、信用卡回饋、點數、拍賣、二手、福利、展示或拆封品。折扣已結束，因此現價仍採 BenQ 台灣官方 NT$26,888。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-07-21",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"BenQ PD2732U\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22BenQ%20PD2732U%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"BenQ PD2732U\" (problem OR issue OR defect OR \"negative review\")",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22BenQ%20PD2732U%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
           "targetHost": "reddit.com"
         }
       ]

@@ -1,13 +1,13 @@
 {
   "summary": {
-    "checkedAt": "2026-07-19T22:27:28.202Z",
+    "checkedAt": "2026-07-21T00:48:33.000Z",
     "total": 666,
-    "found": 177,
-    "missing": 489,
+    "found": 178,
+    "missing": 488,
     "byConfidence": {
-      "official": 77,
+      "official": 78,
       "credible_article": 89,
-      "not_found": 489,
+      "not_found": 488,
       "retailer_explicit": 11
     }
   },
@@ -6960,20 +6960,6 @@
       "sourceKind": "not_found_after_available_search"
     },
     {
-      "id": "standingdesk-extra-18-dsbc1ta900ht0du",
-      "category": "standingdesk",
-      "brand": "Loctek",
-      "model": "F2 智慧記憶電動升降桌",
-      "name": "120x60 黑色電動升降桌",
-      "releaseDate": "找不到",
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "confidence": "not_found",
-      "query": "Loctek F2 智慧記憶電動升降桌 release date launch announced 上市 發售",
-      "sourceKind": "not_found_after_available_search"
-    },
-    {
       "id": "standingdesk-extra-19-dcbb6oa900hsvt2",
       "category": "standingdesk",
       "brand": "COUGAR",
@@ -9192,6 +9178,21 @@
       "query": "site:news.samsung.com/tw ViewFinity S85TH 2026 5月下旬 在台上市",
       "sourceKind": "official_press_release",
       "reason": "官方只支援到 2026-05；05-18 是公告日，不應偽裝成實際發售日。"
+    },
+    {
+      "id": "monitor-benq-pd2732u",
+      "category": "monitor",
+      "brand": "BenQ",
+      "model": "PD2732U",
+      "name": "27 型 4K Adobe RGB Thunderbolt 4 專業設計螢幕",
+      "releaseDate": "2026-07",
+      "sourceUrl": "https://www.benq.com/zh-tw/news/monitor/monitor-20260701-pd-sp.html",
+      "sourceTitle": "BenQ Creative Pro PD2770U & PD2732U｜雙機到位",
+      "evidenceSnippet": "BenQ 台灣官方活動頁明列 PD2732U 為新品，且 2026/7/1 至 2026/7/31 的購買發票可登錄贈品；官方證據只支持上市月份 2026-07。",
+      "confidence": "official",
+      "query": "site:benq.com/zh-tw \"PD2732U\" \"2026/7/1\" 新品",
+      "sourceKind": "official_brand_promotion",
+      "reason": "官方活動期可支持 2026-07 已在台販售，但不把活動起始日逕自寫成精確發售日。"
     },
     {
       "id": "robot-xiaomi-vacuum-6-max",

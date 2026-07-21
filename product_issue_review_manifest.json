@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-07-19",
+  "checkedAt": "2026-07-21",
   "methodVersion": 3,
   "policy": "每筆決策須保存 exact-model 跨站查詢與人工 attestation；每個搜尋候選須逐頁保存摘要、獨立作者數與具體排除理由，研究工具不得自行生成拒絕結論。",
   "results": [
@@ -32772,60 +32772,6 @@
       }
     },
     {
-      "id": "standingdesk-extra-18-dsbc1ta900ht0du",
-      "category": "standingdesk",
-      "brand": "Loctek",
-      "model": "F2 智慧記憶電動升降桌",
-      "reviewedAt": "2026-07-11",
-      "reviewBatch": "standingdesk",
-      "decision": "no_common_issue",
-      "checkedPlatforms": [
-        "Mobile01",
-        "Reddit"
-      ],
-      "queries": [
-        {
-          "platform": "Mobile01",
-          "query": "site:mobile01.com \"Loctek F2 智慧記憶電動升降桌\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Loctek%20F2%20%E6%99%BA%E6%85%A7%E8%A8%98%E6%86%B6%E9%9B%BB%E5%8B%95%E5%8D%87%E9%99%8D%E6%A1%8C%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
-          "targetHost": "mobile01.com"
-        },
-        {
-          "platform": "Reddit",
-          "query": "site:reddit.com \"Loctek F2 智慧記憶電動升降桌\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Loctek%20F2%20%E6%99%BA%E6%85%A7%E8%A8%98%E6%86%B6%E9%9B%BB%E5%8B%95%E5%8D%87%E9%99%8D%E6%A1%8C%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
-          "targetHost": "reddit.com"
-        }
-      ],
-      "candidateDisposition": "F2 智慧記憶電動升降桌：已重新執行 Mobile01、Reddit 兩個獨立網站的 exact-model 查詢，未留下需逐頁處置的同型號候選；此結果不代表完全沒有負評。",
-      "representativeSources": [],
-      "reviewerNote": "F2 智慧記憶電動升降桌 已於 2026-07-11 實際重跑 Mobile01、Reddit 跨站 exact-model 搜尋；兩站搜尋回應均完成且未找到同型號候選，未以搜尋摘要合成負評證據。",
-      "attestation": "manual_cross_site_search_reviewed_no_candidate",
-      "candidateReviews": [],
-      "recheckNotes": {
-        "checkedAt": "2026-07-11",
-        "queryChecks": [
-          {
-            "platform": "Mobile01",
-            "status": 200,
-            "ok": true,
-            "resultCount": 10,
-            "exactModelCandidates": 0
-          },
-          {
-            "platform": "Reddit",
-            "status": 200,
-            "ok": true,
-            "resultCount": 10,
-            "exactModelCandidates": 0
-          }
-        ],
-        "originalPageFetches": [],
-        "errors": [],
-        "threshold": "same exact-model issue, at least 6 distinct first-person reporters, across at least 2 original websites"
-      }
-    },
-    {
       "id": "standingdesk-extra-19-dcbb6oa900hsvt2",
       "category": "standingdesk",
       "brand": "COUGAR",
@@ -37954,6 +37900,55 @@
         ],
         "successfulQueries": 2
       }
+    },
+    {
+      "id": "monitor-benq-pd2732u",
+      "category": "monitor",
+      "brand": "BenQ",
+      "model": "PD2732U",
+      "reviewedAt": "2026-07-21",
+      "reviewBatch": "monitor",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "Mobile01",
+        "Reddit"
+      ],
+      "queries": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"BenQ PD2732U\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22BenQ%20PD2732U%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"BenQ PD2732U\" (problem OR issue OR defect OR \"negative review\")",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22BenQ%20PD2732U%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
+          "targetHost": "reddit.com"
+        }
+      ],
+      "candidateDisposition": "PD2732U：Mobile01 exact-model 查詢沒有原頁候選；Reddit 唯一 exact-model 原頁為品牌新品介紹，人工開啟後未見第一人稱問題回報，未達同一問題 6 位獨立使用者且跨 2 個原始網站門檻。",
+      "representativeSources": [
+        {
+          "platform": "Reddit",
+          "title": "Meet the New BenQ PD2732U: One Monitor for Every Creative Workflow - Reddit r/BenQ",
+          "url": "https://www.reddit.com/r/BenQ/comments/1upgzeb/meet_the_new_benq_pd2732u_one_monitor_for_every/"
+        }
+      ],
+      "reviewerNote": "2026-07-21 實際執行含完整 PD2732U canonical model 的 Mobile01、Reddit Bing RSS 查詢，並開啟 Reddit exact-model 原頁逐則閱讀；搜尋摘要只用於發現候選，沒有把品牌貼文或一般詢價計為負評。",
+      "attestation": "manual_original_pages_reviewed",
+      "candidateReviews": [
+        {
+          "url": "https://www.reddit.com/r/BenQ/comments/1upgzeb/meet_the_new_benq_pd2732u_one_monitor_for_every/",
+          "title": "Meet the New BenQ PD2732U: One Monitor for Every Creative Workflow - Reddit r/BenQ",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-07-21",
+          "sourceExcerpt": "BenQ_Guide 發布 PD2732U 新品功能介紹；唯一一般使用者留言只詢問售價與用途，沒有第一人稱故障或負評回報。",
+          "independentAuthors": 2,
+          "specificReason": "原頁是品牌新品介紹與一般售價詢問，沒有可計入的第一人稱同型號問題回報，且只有 Reddit 一個原始網站。"
+        }
+      ]
     },
     {
       "id": "monitorarm-raymii-ls116m1",

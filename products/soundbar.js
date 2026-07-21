@@ -17,9 +17,9 @@
     "name": "11.1.4 聲道旗艦 Soundbar",
     "price": {
       "currency": "TWD",
-      "amount": 47405,
-      "converted": 47405,
-      "confidence": "Yahoo購物中心 2026-07-18 商品頁公開價"
+      "amount": 49900,
+      "converted": 49900,
+      "confidence": "Yahoo購物中心 2026-07-21 頁面公開價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAAODA900JMDR5/000001_1773978957.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/Samsung-%E4%B8%89%E6%98%9F-11-1-4%E8%81%B2%E9%81%93-%E8%97%8D%E7%89%99%E8%81%B2%E9%9C%B8-HW-Q990F-ZW-11688500.html",
@@ -265,9 +265,9 @@
     "name": "BRAVIA Theatre Bar 7 5.0.2 聲道 Soundbar",
     "price": {
       "currency": "TWD",
-      "amount": 20610,
-      "converted": 20610,
-      "confidence": "PChome 2026-07-18 API 公開價"
+      "amount": 21755,
+      "converted": 21755,
+      "confidence": "PChome 2026-07-21 API 公開價"
     },
     "image": "https://img.pchome.com.tw/cs/items/DMAAN8A900K0Y8L/000001_1779181877.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAAN8-A900K0Y8L",
@@ -745,9 +745,9 @@
     "name": "Q 系列 11.1.4 聲道 Soundbar 家庭劇院",
     "price": {
       "currency": "TWD",
-      "amount": 56905,
-      "converted": 56905,
-      "confidence": "Yahoo購物中心 2026-07-18 商品頁公開價"
+      "amount": 59900,
+      "converted": 59900,
+      "confidence": "Yahoo購物中心 2026-07-21 頁面公開價"
     },
     "image": "https://cs-a.ecimg.tw/items/DPADO2A900K5VUT/000001_1782993730.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/Samsung%E4%B8%89%E6%98%9F-11-1-4%E8%81%B2%E9%81%93-%E8%97%8D%E7%89%99%E8%81%B2%E9%9C%B8-HW-Q990H-ZW-12124621.html",
@@ -823,9 +823,9 @@
     "name": "Q 系列 7.1.2 聲道 Soundbar",
     "price": {
       "currency": "TWD",
-      "amount": 35055,
-      "converted": 35055,
-      "confidence": "Yahoo購物中心 2026-07-18 商品頁公開價"
+      "amount": 36900,
+      "converted": 36900,
+      "confidence": "Yahoo購物中心 2026-07-21 頁面公開價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAAODA900K5489/000001_1782988490.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/Samsung%E4%B8%89%E6%98%9F-7-1-2%E8%81%B2%E9%81%93-%E8%97%8D%E7%89%99%E8%81%B2%E9%9C%B8-HW-QS90H-ZW-12124562.html",
@@ -901,9 +901,9 @@
     "name": "5.1 聲道 Soundbar 家庭劇院組",
     "price": {
       "currency": "TWD",
-      "amount": 8275,
-      "converted": 8275,
-      "confidence": "Yahoo購物中心 2026-07-18 商品頁公開價"
+      "amount": 8490,
+      "converted": 8490,
+      "confidence": "Yahoo購物中心 2026-07-21 頁面公開價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBM1DA900GHTFE/000001_1776774078.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/SONY-%E7%B4%A2%E5%B0%BC-5-1-%E8%81%B2%E9%81%93-SOUNDBAR-%E5%AE%B6%E5%BA%AD%E5%8A%87%E9%99%A2%E7%B5%84-HT-S40R-10067449.html",
@@ -936,16 +936,16 @@
     "releaseDate": "2025",
     "historicalLow": {
       "status": "found",
-      "amount": 5880,
+      "amount": 7751,
       "currency": "TWD",
-      "converted": 5880,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=585835361&cgp=6990",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：SONY HT-S100F 家庭劇院 單件式聲霸 HT-S40R 藍牙 soundbar 2.0雙聲道 HT-A9000",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「蝦皮商城 - 樂邁3C / SONY HT-S100F 家庭劇院 單件式聲霸 HT-S40R 藍牙 soundbar 2.0雙聲道 HT-A9000」最低價為 NT$5,880，最低點日期 2026-06-09。",
+      "converted": 7751,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1216107216&cgp=8490",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：SONY HT-S40R 5.1 聲道 Soundbar 家庭劇院組",
+      "evidenceSnippet": "LBJ exact-model HT-S40R 歷史曲線共 63 個價格點，最低為 2024-10-24 的 NT$7,751；目前 2026-07-21 曲線價為 NT$8,490。",
       "sourceKind": "price_history",
       "confidence": "high",
-      "checkedAt": "2026-07-09",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+      "checkedAt": "2026-07-21",
+      "note": "改採只包含 HT-S40R 的可公開查核 LBJ 歷史曲線；排除原先混合 HT-S100F／HT-S40R／HT-A9000 的不精確 listing。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -979,9 +979,9 @@
     "name": "2.0 聲道單件式藍牙 Soundbar",
     "price": {
       "currency": "TWD",
-      "amount": 7591,
-      "converted": 7591,
-      "confidence": "Yahoo購物中心 2026-07-18 商品頁公開價"
+      "amount": 7990,
+      "converted": 7990,
+      "confidence": "Yahoo購物中心 2026-07-21 頁面公開價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAAMTA900I5HHO/000001_1778661010.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/Sony-HT-S100F-11411387.html",
@@ -1014,16 +1014,16 @@
     "releaseDate": "2018-02-17",
     "historicalLow": {
       "status": "found",
-      "amount": 5880,
+      "amount": 5929,
       "currency": "TWD",
-      "converted": 5880,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=585835361&cgp=6990",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：SONY HT-S100F 家庭劇院 單件式聲霸 HT-S40R 藍牙 soundbar 2.0雙聲道 HT-A9000",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「蝦皮商城 - 樂邁3C / SONY HT-S100F 家庭劇院 單件式聲霸 HT-S40R 藍牙 soundbar 2.0雙聲道 HT-A9000」最低價為 NT$5,880，最低點日期 2026-06-09。",
+      "converted": 5929,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1236497652&cgp=7990",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：Sony HT-S100F 單件式藍牙聲霸",
+      "evidenceSnippet": "LBJ exact-model HT-S100F 歷史曲線共 58 個價格點，最低為 2025-06-21 的 NT$5,929；目前 2026-07-21 曲線價為 NT$7,990。",
       "sourceKind": "price_history",
       "confidence": "high",
-      "checkedAt": "2026-07-09",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+      "checkedAt": "2026-07-21",
+      "note": "改採只包含 HT-S100F 的可公開查核 LBJ 歷史曲線；排除原先混合 HT-S100F／HT-S40R／HT-A9000 的不精確 listing。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -1135,9 +1135,9 @@
     "name": "7.1 聲道家庭劇院喇叭",
     "price": {
       "currency": "TWD",
-      "amount": 27161,
-      "converted": 27161,
-      "confidence": "Yahoo購物中心 2026-07-18 商品頁公開價"
+      "amount": 28590,
+      "converted": 28590,
+      "confidence": "Yahoo購物中心 2026-07-21 頁面公開價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAAHGA900J56OK/000001_1755250707.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/JBL-BAR800-MK2-7-1%E8%81%B2%E9%81%93%E5%AE%B6%E5%BA%AD%E5%8A%87%E9%99%A2%E5%96%87%E5%8F%AD-%E8%8B%B1%E5%A4%A7%E5%85%AC%E5%8F%B8%E8%B2%A8%E4%B8%80%E5%B9%B4%E4%BF%9D%E5%9B%BA-12156647.html",
@@ -1213,9 +1213,9 @@
     "name": "家庭娛樂揚聲器 600 Ultra",
     "price": {
       "currency": "TWD",
-      "amount": 18507,
-      "converted": 18507,
-      "confidence": "PChome 2026-07-18 UTC API 查核價"
+      "amount": 19900,
+      "converted": 19900,
+      "confidence": "PChome 2026-07-21 API 公開價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAANJA900HZBZV/000001_1729154632.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAANJ-A900HZBZV",
@@ -1525,9 +1525,9 @@
     "name": "7.1.4 聲道家庭劇院聲霸",
     "price": {
       "currency": "TWD",
-      "amount": 40755,
-      "converted": 40755,
-      "confidence": "PChome 2026-07-18 UTC API 查核價"
+      "amount": 42900,
+      "converted": 42900,
+      "confidence": "PChome 2026-07-21 API 公開價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAAHGA900J5777/000001_1755253698.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAAHG-A900J5777",
@@ -1603,9 +1603,9 @@
     "name": "Fidelio 7.1.2 Dolby Atmos 旗艦聲霸",
     "price": {
       "currency": "TWD",
-      "amount": 35399,
-      "converted": 35399,
-      "confidence": "PChome 2026-07-18 UTC API 查核價"
+      "amount": 36955,
+      "converted": 36955,
+      "confidence": "PChome 2026-07-21 API 公開價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAF02A900H2G5R/000001_1704612188.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAF02-A900H2G5R",
@@ -1682,8 +1682,8 @@
     "price": {
       "currency": "USD",
       "amount": 1299.99,
-      "converted": 42043,
-      "confidence": "Marshall US 2026-07-20 來源價；ExchangeRate-API 2026-07-19 匯率換算"
+      "converted": 42116,
+      "confidence": "Marshall US 2026-07-21 來源價；ExchangeRate-API 2026-07-20 匯率換算"
     },
     "image": "https://images.ctfassets.net/javen7msabdh/2C2sn9CKoKFdIyd94Gm9z5/f3019d4e721511167ebe5c229bf490dd/heston-120_plp.jpg",
     "buyUrl": "https://www.marshall.com/us/en/product/heston-120",
@@ -1762,12 +1762,12 @@
     "price": {
       "currency": "USD",
       "amount": 699.99,
-      "converted": 22638,
-      "confidence": "Best Buy US 2026-07-20 來源價；ExchangeRate-API 2026-07-19 匯率換算"
+      "converted": 22678,
+      "confidence": "Marshall US 官方 2026-07-21 現貨價；ExchangeRate-API 2026-07-20 匯率換算"
     },
     "image": "https://images.ctfassets.net/javen7msabdh/3yitHqjPBTgQk5qRE72PSn/2788206646aa153f71f2c0ebefaff580/Heston-60-black_plp_800x800-v3.jpeg",
-    "buyUrl": "https://www.bestbuy.com/product/marshall-heston-60-soundbar-with-dolby-atmos-immersive-sound-for-tv-movies-music-black/CFCR4H4GSQ",
-    "buyLabel": "Best Buy US",
+    "buyUrl": "https://www.marshall.com/us/en/product/heston-60?pid=1008949",
+    "buyLabel": "Marshall US 官方",
     "specs": [
       "5.1 聲道",
       "Dolby Atmos / DTS:X",
@@ -1788,7 +1788,7 @@
     "recommendation": "海外參考：Heston 60 是 Marshall 較好入手的緊湊型聲霸，聲道與串流規格完整；運費稅金與台灣保固仍需先確認。",
     "score": 83,
     "voltage": "海外版本，購買前確認 110V/插頭與變壓器需求",
-    "warranty": "Best Buy US / 海外通路，可能無台灣保固，購買前需確認",
+    "warranty": "Marshall US 官方／海外購買，可能無台灣保固，購買前需確認",
     "tags": [
       "Marshall",
       "Atmos",
@@ -2015,9 +2015,9 @@
     "name": "2.0 聲道二合一分離式聲霸",
     "price": {
       "currency": "TWD",
-      "amount": 602,
-      "converted": 602,
-      "confidence": "Yahoo購物中心 2026-07-18 商品頁公開價"
+      "amount": 633,
+      "converted": 633,
+      "confidence": "Yahoo購物中心 2026-07-21 頁面公開價"
     },
     "image": "https://www.costco.com.tw/medias/sys_master/images/h21/hac/367883491278878.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/Soodatek-2-0%E8%81%B2%E9%81%93%E4%BA%8C%E5%90%88%E4%B8%80Soundbar-SS0220-CS2000PBK-11633433.html",

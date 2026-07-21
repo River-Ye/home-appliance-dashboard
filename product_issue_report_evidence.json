@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-07-19",
+  "checkedAt": "2026-07-21",
   "policy": "每列皆保存可辨識作者、可重現定位與逐人忠實摘要；exactModel／firstPerson 只能由人工回看原始頁後明確填入，跨站轉貼以 crossPostKey 去重。",
   "reports": [
     {

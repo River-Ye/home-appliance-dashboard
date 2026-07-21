@@ -427,7 +427,7 @@ async function runExhaustiveViewport(browser, name, viewport) {
   await page.fill("#searchInput", "");
   await page.fill("#categoryInput", "螢幕");
   await page.locator('#categoryOptions [data-value="monitor"]').click();
-  await page.waitForFunction(() => document.querySelector("#visibleCount")?.textContent?.trim() === "54");
+  await page.waitForFunction(() => document.querySelector("#visibleCount")?.textContent?.trim() === "55");
   await page.locator("#brandInput").click();
   const monitorBrandOptions = await page.$$eval("#brandOptions [data-value]", (options) => options.map((option) => option.dataset.value));
   for (const expected of ["ASUS", "BenQ", "Dell", "LG", "Samsung", "EIZO"]) {
@@ -476,9 +476,9 @@ async function runExhaustiveViewport(browser, name, viewport) {
     if (!found) throw new Error(`${name}: missing dishwasher brand ${expected}`);
   }
 
-  const standingDeskTab = page.getByRole("button", { name: "升降桌 23" });
+  const standingDeskTab = page.getByRole("button", { name: "升降桌 22" });
   await standingDeskTab.click();
-  await page.waitForFunction(() => document.querySelector("#visibleCount")?.textContent?.trim() === "23");
+  await page.waitForFunction(() => document.querySelector("#visibleCount")?.textContent?.trim() === "22");
   await loadAllVisibleProducts(page);
   for (const expected of ["Loctek", "iRocks", "NITORI", "COUGAR"]) {
     const found = await page.locator(".product-card", { hasText: expected }).count();
@@ -494,9 +494,9 @@ async function runExhaustiveViewport(browser, name, viewport) {
     if (!found) throw new Error(`${name}: missing chair brand ${expected}`);
   }
 
-  const monitorTab = page.getByRole("button", { name: "電腦螢幕 54" });
+  const monitorTab = page.getByRole("button", { name: "電腦螢幕 55" });
   await monitorTab.click();
-  await page.waitForFunction(() => document.querySelector("#visibleCount")?.textContent?.trim() === "54");
+  await page.waitForFunction(() => document.querySelector("#visibleCount")?.textContent?.trim() === "55");
   await loadAllVisibleProducts(page);
   for (const expected of ["ASUS", "Acer", "BenQ", "LG", "Dell", "Samsung", "MSI", "GIGABYTE", "ViewSonic", "AOC", "Philips", "EIZO", "Xiaomi"]) {
     const found = await page.locator(".product-card", { hasText: expected }).count();
@@ -541,7 +541,7 @@ async function runExhaustiveViewport(browser, name, viewport) {
 
   await page.fill("#searchInput", "");
   await monitorTab.click();
-  await page.waitForFunction(() => document.querySelector("#visibleCount")?.textContent?.trim() === "54");
+  await page.waitForFunction(() => document.querySelector("#visibleCount")?.textContent?.trim() === "55");
   await loadAllVisibleProducts(page);
   const monitorWeightMissing = await page.$$eval(".product-card", (cards) => cards.filter((card) => !card.textContent.includes("重量：")).length);
   if (monitorWeightMissing) throw new Error(`${name}: ${monitorWeightMissing} monitor cards missing weight spec`);
@@ -550,7 +550,7 @@ async function runExhaustiveViewport(browser, name, viewport) {
 
   await page.fill("#searchInput", "");
   await standingDeskTab.click();
-  await page.waitForFunction(() => document.querySelector("#visibleCount")?.textContent?.trim() === "23");
+  await page.waitForFunction(() => document.querySelector("#visibleCount")?.textContent?.trim() === "22");
   await loadAllVisibleProducts(page);
   const deskThicknessMissing = await page.$$eval(".product-card", (cards) => cards.filter((card) => !card.textContent.includes("桌板厚度：")).length);
   if (deskThicknessMissing) throw new Error(`${name}: ${deskThicknessMissing} standing desk cards missing desktop thickness spec`);
@@ -728,7 +728,7 @@ async function assertUrlQueryRestore(page, name) {
   if (page.url().includes("sort=")) throw new Error(`${name}: cleared sort remained in URL`);
 
   await page.locator('#activeFilterChips [data-clear-filter="search"]').click();
-  await page.waitForFunction(() => document.querySelector("#visibleCount")?.textContent?.trim() === "54");
+  await page.waitForFunction(() => document.querySelector("#visibleCount")?.textContent?.trim() === "55");
   if (page.url().includes("q=")) throw new Error(`${name}: cleared search remained in URL`);
 
   await resetFilters(page);

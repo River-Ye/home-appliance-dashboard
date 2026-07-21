@@ -254,9 +254,9 @@
     "name": "BE3600 雙頻 Wi-Fi 7 AiMesh 可擴充路由器",
     "price": {
       "currency": "TWD",
-      "amount": 3552,
-      "converted": 3552,
-      "confidence": "Yahoo購物中心 2026-07-18 商品頁公開價"
+      "amount": 3699,
+      "converted": 3699,
+      "confidence": "Yahoo購物中心 2026-07-21 頁面公開價"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAFLPA900JKWXK/000001_1783555436.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/ASUS-%E8%8F%AF%E7%A2%A9-RT-BE58U-V2-BE3600-%E9%9B%99%E9%A0%BB-Wi-Fi-7-%E5%8F%AF%E6%93%B4%E5%85%85%E5%BC%8F%E8%B7%AF%E7%94%B1%E5%99%A8-12005854.html",
@@ -663,8 +663,8 @@
     "price": {
       "currency": "USD",
       "amount": 189,
-      "converted": 6112,
-      "confidence": "Ubiquiti Store 2026-07-20 來源價；ExchangeRate-API 2026-07-19 匯率換算"
+      "converted": 6123,
+      "confidence": "Ubiquiti Store 2026-07-21 來源價；ExchangeRate-API 2026-07-20 匯率換算"
     },
     "image": "https://cdn.ecomm.ui.com/products/fa8dd4e4-36c8-4c79-a928-22c7bff2ce29/ab5bc8a4-6135-402e-a695-e3ea5e16d3e6.png",
     "buyUrl": "https://store.ui.com/us/en/category/all-wifi/products/u7-pro",
@@ -752,8 +752,8 @@
     "price": {
       "currency": "USD",
       "amount": 159,
-      "converted": 5142,
-      "confidence": "Ubiquiti Store 2026-07-20 來源價；ExchangeRate-API 2026-07-19 匯率換算"
+      "converted": 5151,
+      "confidence": "Ubiquiti Store 2026-07-21 來源價；ExchangeRate-API 2026-07-20 匯率換算"
     },
     "image": "https://cdn.ecomm.ui.com/products/8e88b222-7a55-4cf0-8677-ae9b6347fe84/e16aa122-b5e5-4ffb-9f1a-27ee14d9ab3d.png",
     "buyUrl": "https://store.ui.com/us/en/category/all-wifi/products/u6-pro",
@@ -832,8 +832,8 @@
     "price": {
       "currency": "USD",
       "amount": 99,
-      "converted": 3202,
-      "confidence": "Ubiquiti Store 2026-07-20 來源價；ExchangeRate-API 2026-07-19 匯率換算"
+      "converted": 3207,
+      "confidence": "Ubiquiti Store 2026-07-21 來源價；ExchangeRate-API 2026-07-20 匯率換算"
     },
     "image": "https://cdn.ecomm.ui.com/products/253cc208-4b09-4b2e-9d1a-7aa1e8f93507/49241c96-878f-4e40-8541-c2e89c1c5e6e.png",
     "buyUrl": "https://store.ui.com/us/en/category/all-wifi/products/u7-lite",
@@ -1236,8 +1236,8 @@
     "price": {
       "currency": "USD",
       "amount": 129,
-      "converted": 4172,
-      "confidence": "Ubiquiti Store 2026-07-20 來源價；ExchangeRate-API 2026-07-19 匯率換算"
+      "converted": 4179,
+      "confidence": "Ubiquiti Store 2026-07-21 來源價；ExchangeRate-API 2026-07-20 匯率換算"
     },
     "image": "https://cdn.ecomm.ui.com/products/6d5c6141-e2e9-416a-b789-53e59416bb1a/853bc73b-f65b-4e59-a171-75c9a4a4615e.png",
     "buyUrl": "https://store.ui.com/us/en/category/all-wifi/products/u6-plus",
@@ -1340,8 +1340,8 @@
     "price": {
       "currency": "USD",
       "amount": 279,
-      "converted": 9023,
-      "confidence": "Ubiquiti Store 2026-07-20 來源價；ExchangeRate-API 2026-07-19 匯率換算"
+      "converted": 9039,
+      "confidence": "Ubiquiti Store 2026-07-21 來源價；ExchangeRate-API 2026-07-20 匯率換算"
     },
     "image": "https://cdn.ecomm.ui.com/products/350070a0-ae43-431b-b052-8e849c3b0a75/bad94693-bc54-4ab4-b060-9b972401941c.png",
     "buyUrl": "https://store.ui.com/us/en/category/all-wifi/products/u7-pro-max",
@@ -1434,9 +1434,9 @@
     "name": "BE6500 雙頻 Wi-Fi 7 路由器",
     "price": {
       "currency": "TWD",
-      "amount": 4791,
-      "converted": 4791,
-      "confidence": "Yahoo購物中心 2026-07-20 頁面公開價"
+      "amount": 4990,
+      "converted": 4990,
+      "confidence": "Yahoo購物中心 2026-07-21 頁面公開價"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAFLPA900IV4B6/000001_1783556530.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/ASUS-%E8%8F%AF%E7%A2%A9-RT-BE82U-WiFi-7-%E9%9B%99%E9%A0%BB-BE6500-%E8%B7%AF%E7%94%B1%E5%99%A8-%E5%88%86%E4%BA%AB%E5%99%A8-11798654.html",
@@ -2307,9 +2307,9 @@
     "name": "AX5400 Velop Mesh Wi-Fi 6 三入組",
     "price": {
       "currency": "TWD",
-      "amount": 10551,
-      "converted": 10551,
-      "confidence": "Yahoo購物中心 2026-07-18 商品頁公開價"
+      "amount": 10990,
+      "converted": 10990,
+      "confidence": "Yahoo購物中心 2026-07-21 頁面公開價"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAFE5A900JUA8C/000001_1774227439.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/%E6%98%8C%E9%81%8B%E7%9B%A3%E8%A6%96%E5%99%A8Linksys-MX5502-AH-AX5400-Velop-Mesh-WiFi-6%E9%9B%99%E9%A0%BB%E7%B6%B2-12019533.html",
@@ -2386,9 +2386,9 @@
     "name": "三頻 Wi-Fi 6 Router 無線路由器",
     "price": {
       "currency": "TWD",
-      "amount": 9600,
-      "converted": 9600,
-      "confidence": "Yahoo購物中心 2026-07-18 商品頁公開價"
+      "amount": 9999,
+      "converted": 9999,
+      "confidence": "Yahoo購物中心 2026-07-21 頁面公開價"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBS4VA900JIQU0/000001_1764896894.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/%E6%98%8C%E9%81%8B%E7%9B%A3%E8%A6%96%E5%99%A8-Synology%E7%BE%A4%E6%9A%89-RT6600AX-%E4%B8%89%E9%A0%BB-Wi-Fi-6-Router-%E7%84%A1%E7%B7%9A%E8%B7%AF%E7%94%B1%E5%99%A8-11898475.html",

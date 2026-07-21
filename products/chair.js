@@ -96,9 +96,9 @@
     "name": "特仕版 2.0 人體工學椅",
     "price": {
       "currency": "TWD",
-      "amount": 11900,
-      "converted": 11900,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 9999,
+      "converted": 9999,
+      "confidence": "PChome 2026-07-21 API 公開價"
     },
     "image": "https://cs-a.ecimg.tw/items/DCAKHPA900HEQ4H/000001_1760581993.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DCAKHP-A900HEQ4H",

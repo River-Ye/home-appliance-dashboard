@@ -273,9 +273,9 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/16E678AC30-SP-17622644.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 11111,
-      "converted": 11111,
-      "confidence": "PChome 2026-07-20 API 公開價"
+      "amount": 11900,
+      "converted": 11900,
+      "confidence": "PChome 2026-07-21 API 公開價"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -445,9 +445,9 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/50A8962C97-SP-12443254.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 42054,
-      "converted": 42054,
-      "confidence": "Yahoo購物中心 2026-07-11 頁面查核價"
+      "amount": 43032,
+      "converted": 43032,
+      "confidence": "Yahoo購物中心 2026-07-21 頁面公開價"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心",
@@ -1047,9 +1047,9 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/BB4EF5E7DD-SP-8787478.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 21414,
-      "converted": 21414,
-      "confidence": "Yahoo購物中心 2026-07-11 頁面查核價"
+      "amount": 21912,
+      "converted": 21912,
+      "confidence": "Yahoo購物中心 2026-07-21 頁面公開價"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心",

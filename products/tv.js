@@ -814,9 +814,9 @@
     "name": "65 型 OLED 智慧聯網顯示器",
     "price": {
       "currency": "TWD",
-      "amount": 67977,
-      "converted": 67977,
-      "confidence": "PChome 2026-07-18 API 公開價"
+      "amount": 72072,
+      "converted": 72072,
+      "confidence": "PChome 2026-07-21 API 公開價"
     },
     "image": "https://cs-a.ecimg.tw/items/DPAD09A900J9FAZ/000001_1761888394.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DPAD09-A900J9FAZ",
