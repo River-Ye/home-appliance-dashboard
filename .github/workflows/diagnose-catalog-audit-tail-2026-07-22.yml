@@ -1,0 +1,39 @@
+name: Diagnose catalog audit tail
+
+on:
+  pull_request:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  diagnose:
+    name: Show final catalog audit lines
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Run audit and print only the tail
+        shell: bash
+        env:
+          TZ: Asia/Taipei
+        run: |
+          set -euo pipefail
+          git clone --quiet --branch codex/2026-07-22-catalog-maintenance --single-branch https://github.com/River-Ye/home-appliance-dashboard.git repo
+          cd repo
+          python - <<'PY'
+          from pathlib import Path
+          lines = Path(".github/workflows/catalog-maintenance-2026-07-22.yml").read_text().splitlines()
+          start = lines.index("          python - <<'PY'") + 1
+          end = lines.index("          PY", start)
+          code = "\n".join(line[10:] if line.startswith("          ") else line for line in lines[start:end])
+          exec(compile(code, "prepare-maintenance-script.py", "exec"))
+          PY
+          npm ci > /tmp/npm-ci.log 2>&1
+          set +e
+          node tools/.run-catalog-maintenance-2026-07-22.js > /tmp/catalog-audit.log 2>&1
+          status=$?
+          tail -n 50 /tmp/catalog-audit.log
+          exit "$status"
