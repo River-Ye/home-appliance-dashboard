@@ -1,0 +1,29 @@
+name: Diagnose whitespace errors
+
+on:
+  pull_request:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  diagnose:
+    name: Print git diff check errors
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout PR merge
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - name: Print whitespace errors
+        shell: bash
+        run: |
+          set +e
+          git diff --check origin/main...HEAD > /tmp/diff-check.log 2>&1
+          status=$?
+          cat /tmp/diff-check.log
+          exit "$status"
