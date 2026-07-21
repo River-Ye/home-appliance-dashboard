@@ -92,6 +92,23 @@ jobs:
               );
             fs.writeFileSync(file, source, "utf8");
           }
+
+          const config = fs.readFileSync("assets/js/config.js", "utf8");
+          const dataDate = config.match(/dataDate: "([^"]+)"/)?.[1];
+          const cacheVersion = config.match(/cacheVersion: "([^"]+)"/)?.[1];
+          const exchangeSummary = config.match(/exchangeSummary: "([^"]+)"/)?.[1];
+          if (!dataDate || !cacheVersion || !exchangeSummary) {
+            throw new Error("Unable to read homepage metadata from config.js");
+          }
+
+          const indexPath = "index.html";
+          const index = fs.readFileSync(indexPath, "utf8")
+            .replace(/"dateModified": "\d{4}-\d{2}-\d{2}"/, `"dateModified": "${dataDate}"`)
+            .replace(/id="dataDate">\d{4}-\d{2}-\d{2}<\/strong>/, `id="dataDate">${dataDate}</strong>`)
+            .replace(/資料更新日為 \d{4}-\d{2}-\d{2}。/, `資料更新日為 ${dataDate}。`)
+            .replace(/id="exchangeSummary">[^<]+<\/span>/, `id="exchangeSummary">${exchangeSummary}</span>`)
+            .replace(/\?v=[^"']+/g, `?v=${cacheVersion}`);
+          fs.writeFileSync(indexPath, index, "utf8");
           NODE
 
       - name: Regenerate category and GEO output
