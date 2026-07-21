@@ -3617,9 +3617,9 @@
     "name": "49 型 Odyssey OLED G9 Dual QHD 240Hz 曲面螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 36900,
-      "converted": 36900,
-      "confidence": "PChome 2026-07-21 API 公開價"
+      "amount": 34999,
+      "converted": 34999,
+      "confidence": "PChome 2026-07-22 API exact-model 現貨公開價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBM10A900HZCPE/000001_1781766568.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBM10-A900HZCPE",
@@ -3781,9 +3781,9 @@
     "name": "45 型 UltraGear 21:9 OLED 240Hz 智慧曲面螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 41310,
-      "converted": 41310,
-      "confidence": "PChome 2026-07-18 UTC API 查核價"
+      "amount": 38580,
+      "converted": 38580,
+      "confidence": "PChome 2026-07-22 API exact-model 現貨公開價"
     },
     "image": "https://cs-a.ecimg.tw/items/DSBC1ZA900J732D/000001_1780394558.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DSBC1Z-A900J732D",
@@ -3863,9 +3863,9 @@
     "name": "57 型 Odyssey Neo G9 Dual UHD 240Hz Mini LED 曲面螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 69900,
-      "converted": 69900,
-      "confidence": "PChome 2026-07-21 API 公開價"
+      "amount": 66500,
+      "converted": 66500,
+      "confidence": "PChome 2026-07-22 API exact-model 現貨公開價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBM10A900GQLSE/000001_1783054239.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBM10-A900GQLSE",

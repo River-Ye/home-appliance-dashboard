@@ -273,9 +273,9 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/16E678AC30-SP-17622644.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 11900,
-      "converted": 11900,
-      "confidence": "PChome 2026-07-21 API 公開價"
+      "amount": 13900,
+      "converted": 13900,
+      "confidence": "PChome 2026-07-22 API exact-model 現貨公開價"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -2049,6 +2049,91 @@
           "platform": "Reddit",
           "query": "site:reddit.com \"LG WD-S1818PB\" (problem OR issue OR defect OR negative review)",
           "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22LG%20WD-S1818PB%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "targetHost": "reddit.com"
+        }
+      ]
+    }
+  },
+  {
+    "id": "washerdryer-lg-wd-s2220b",
+    "rank": 25,
+    "topPick": false,
+    "brand": "LG",
+    "model": "WD-S2220B",
+    "name": "LG WashTower AI 智控洗乾衣機第二代",
+    "image": "https://img.pchome.com.tw/cs/items/DPAI1LA900IXKBU/000007_1752484626.jpg",
+    "price": {
+      "currency": "TWD",
+      "amount": 92900,
+      "converted": 92900,
+      "confidence": "PChome 2026-07-22 exact-model 新品公開價"
+    },
+    "channel": "tw",
+    "buyLabel": "PChome",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DPAI1L-A900IXKBU",
+    "specs": [
+      "洗烘衣機：LG WashTower AI 智控洗乾衣機第二代 WD-S2220B",
+      "洗/乾容量：22kg / 20kg",
+      "尺寸：寬 70 x 深 83 x 高 189 cm",
+      "HeatPump 雙變頻熱泵除濕式乾衣",
+      "AI DD 智慧洗滌／AI Dry 智慧乾衣",
+      "智慧洗劑投入／Smart Pairing／ThinQ",
+      "大型機身需先確認兩組 110V 專用迴路、進排水、搬運與門向空間"
+    ],
+    "description": "22/20kg 大容量 WashTower，將熱泵乾衣、洗乾雙 AI、自動洗劑與 ThinQ 整合在一體式機身，適合洗衣量大的家庭。",
+    "pros": [
+      "洗 22kg／乾 20kg，棉被與大量衣物處理能力強",
+      "熱泵低溫乾衣、自動洗劑與智慧行程配對完整",
+      "LG 台灣官方規格、圖片與保固證據完整"
+    ],
+    "cons": [
+      "價格高、機身重且安裝條件嚴格",
+      "熱泵乾衣仍可能造成部分布料縮水，需依洗標與衣量設定",
+      "全機與馬達／壓縮機保固年限不同，不能視為全機十年"
+    ],
+    "bestFor": "家庭洗衣量大、重視一體式空間利用與熱泵乾衣，且能先完成大型家電場勘的人。",
+    "recommendation": "大容量洗衣塔補強：WD-S2220B 的官方規格、現貨、價格、圖片與售後證據完整，適合和 LG 既有 WashTower 與 Samsung 大容量機種比較。",
+    "voltage": "110V 台灣公司貨；上下機需依官方與安裝商要求配置專用電源",
+    "warranty": "依 LG 台灣保固；全機、主機板、直驅馬達與熱泵壓縮機年限不同，10 年僅限官方指定核心零件",
+    "score": 91,
+    "budget": "premium",
+    "tags": [
+      "洗/乾容量：22kg / 20kg",
+      "熱泵",
+      "自動洗劑",
+      "WashTower"
+    ],
+    "category": "washerdryer",
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-07-22",
+      "note": "已查 LG 台灣官方頁、PChome exact-model 新品頁、雅光現貨頁與其他零售頁；NT$92,900 可驗證為本輪可信新品現價，但仍缺少完整期間的可重現價格曲線。更低頁面含需詢問貨源或庫存不明條件，因此不直接宣稱為歷史最低價。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-07-22",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"LG WD-S2220B\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?q=site%3Amobile01.com%20%22LG%20WD-S2220B%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"LG WD-S2220B\" (problem OR issue OR defect OR \"negative review\")",
+          "queryUrl": "https://www.bing.com/search?q=site%3Areddit.com%20%22LG%20WD-S2220B%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
           "targetHost": "reddit.com"
         }
       ]

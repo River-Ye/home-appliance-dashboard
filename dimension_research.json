@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-18",
+  "generatedAt": "2026-07-22",
   "sourcePolicy": "機身尺寸優先官方產品頁或官方規格 PDF，其次可信通路；排除包裝與外箱尺寸。",
   "results": [
     {
@@ -673,6 +673,16 @@
       "checkedAt": "2026-07-09"
     },
     {
+      "id": "washerdryer-lg-wd-s1818pb",
+      "dimension": "尺寸：寬 64.2 x 深 77.7 x 高 185 cm",
+      "sourceUrl": "https://www.lg.com/tw/washer-dryers/washtower/wd-s1818pb/",
+      "sourceTitle": "LG WashTower WD-S1818PB | LG 台灣",
+      "evidenceSnippet": "LG 台灣官方規格列產品尺寸（寬 x 高 x 深）642 x 1850 x 777 mm，已轉為寬／深／高公分。",
+      "confidence": "high",
+      "isOfficialSource": true,
+      "checkedAt": "2026-07-18"
+    },
+    {
       "id": "refrigerator-panasonic-nr-b271tv-s1",
       "dimension": "尺寸：寬 60.1 x 深 65.6 x 高 150.5 cm",
       "sourceUrl": "https://www.panasonic.com/tw/consumer/refrigerator/double-door/nr-b271tv.html",
@@ -903,14 +913,14 @@
       "checkedAt": "2026-07-09"
     },
     {
-      "id": "washerdryer-lg-wd-s1818pb",
-      "dimension": "尺寸：寬 64.2 x 深 77.7 x 高 185 cm",
-      "sourceUrl": "https://www.lg.com/tw/washer-dryers/washtower/wd-s1818pb/",
-      "sourceTitle": "LG WashTower WD-S1818PB | LG 台灣",
-      "evidenceSnippet": "LG 台灣官方規格列產品尺寸（寬 x 高 x 深）642 x 1850 x 777 mm，已轉為寬／深／高公分。",
+      "id": "washerdryer-lg-wd-s2220b",
+      "dimension": "尺寸：寬 70 x 深 83 x 高 189 cm",
+      "sourceUrl": "https://www.lg.com/tw/washer-dryers/washtower/wd-s2220b/",
+      "sourceTitle": "洗22公斤+乾20公斤 WashTower AI 智控洗乾衣機第二代 - WD-S2220B | LG 台灣",
+      "evidenceSnippet": "LG 台灣官方主要規格列出產品尺寸 (WxHxD mm) 為 700x1890x830；重排為寬、深、高並換算為 70 x 83 x 189 cm。",
       "confidence": "high",
       "isOfficialSource": true,
-      "checkedAt": "2026-07-18"
+      "checkedAt": "2026-07-22"
     }
   ]
 }

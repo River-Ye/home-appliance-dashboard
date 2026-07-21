@@ -15,9 +15,9 @@
     "image": "https://cs-a.ecimg.tw/items/DMBR1PA900I386D/000001_1738721735.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 18000,
-      "converted": 18000,
-      "confidence": "PChome 2026-07-21 API 公開價"
+      "amount": 22900,
+      "converted": 22900,
+      "confidence": "PChome 2026-07-22 API exact-model 現貨公開價"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -98,9 +98,9 @@
     "image": "https://cs-a.ecimg.tw/items/DMBR0PA900IX8N8/000001_1770277214.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 7290,
-      "converted": 7290,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 7990,
+      "converted": 7990,
+      "confidence": "PChome 2026-07-22 API exact-model 現貨公開價"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -430,9 +430,9 @@
     "image": "https://cs-a.ecimg.tw/items/DMBR35A900JVAOT/000001_1782872320.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 29900,
-      "converted": 29900,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 28888,
+      "converted": 28888,
+      "confidence": "PChome 2026-07-22 API exact-model 現貨公開價"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -930,9 +930,9 @@
     "image": "https://cs-a.ecimg.tw/items/DPAL7PA900G5M47/000001_1783049805.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 37525,
-      "converted": 37525,
-      "confidence": "PChome 2026-07-21 API 公開價"
+      "amount": 39500,
+      "converted": 39500,
+      "confidence": "PChome 2026-07-22 API exact-model 現貨公開價"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -1098,9 +1098,9 @@
     "image": "https://cs-a.ecimg.tw/items/DMBR16A900HZZEG/000001_1763949344.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 74619,
-      "converted": 74619,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 81999,
+      "converted": 81999,
+      "confidence": "PChome 2026-07-22 API exact-model 現貨公開價"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -1181,9 +1181,9 @@
     "image": "https://cs-a.ecimg.tw/items/DMBR1WA900K4MYS/000001_1781748945.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 75050,
-      "converted": 75050,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 79000,
+      "converted": 79000,
+      "confidence": "PChome 2026-07-22 API exact-model 現貨公開價"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -1266,9 +1266,9 @@
     "name": "桌上型洗碗機",
     "price": {
       "currency": "TWD",
-      "amount": 10900,
-      "converted": 10900,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 11000,
+      "converted": 11000,
+      "confidence": "PChome 2026-07-22 API exact-model 現貨公開價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBR0PA900JBV02/000001_1762938951.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBR0P-A900JBV02",

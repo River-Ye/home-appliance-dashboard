@@ -1,0 +1,72 @@
+
+> home-appliance-dashboard@1.0.0 check
+> npm run check:syntax && npm run check:logic && npm run check:data && npm run check:docs && npm run check:geo && npm run check:ui
+
+
+> home-appliance-dashboard@1.0.0 check:syntax
+> node tools/check-syntax.js
+
+syntax check passed (57 files)
+
+> home-appliance-dashboard@1.0.0 check:logic
+> node tools/check-logic.js
+
+logic check passed
+
+> home-appliance-dashboard@1.0.0 check:data
+> node tools/verify-data.js
+
+- ap-dyson-hj10 historical price research buyUrl mismatch
+- ap-dyson-hj10 historical price research buyLabel mismatch
+- issue review manifest aggregate date mismatch
+- ap-dyson-hj10 issue review manifest explicit validation failed: Review date mismatch: ap-dyson-hj10
+- ap-dyson-hj10 manifest must explicitly review every exact-model search candidate
+- washerdryer-lg-wd-s2220b issue review manifest explicit validation failed: Review date mismatch: washerdryer-lg-wd-s2220b
+- product issue research aggregate date mismatch
+- product issue report ledger date mismatch
+- soundbar-samsung-q990f manual review attestation must match the available original pages
+- soundbar-sonos-arc-ultra manual review attestation must match the available original pages
+- soundbar-costco-denon-dht-s517 manual review attestation must match the available original pages
+- circ-vornado-660 manual review attestation must match the available original pages
+- circ-iris-sc15t manual review attestation must match the available original pages
+- circ-panasonic-fe10 manualReview representativeSources[0] platform must be declared in checkedPlatforms
+- circulator-extra-12-qbaf31-a9008ybed manual review attestation must match the available original pages
+- dh-whirlpool-wdee10 manualReview representativeSources[2] platform must be declared in checkedPlatforms
+- dehumidifier-extra-14-dmbq4n-a900jchfz manualReview representativeSources[1] platform must be declared in checkedPlatforms
+- dehumidifier-extra-14-dmbq4n-a900jchfz manualReview representativeSources[2] platform must be declared in checkedPlatforms
+- dehumidifier-extra-14-dmbq4n-a900jchfz manualReview representativeSources[3] platform must be declared in checkedPlatforms
+- dehumidifier-whirlpool-wdee1200tw manualReview representativeSources[0] platform must be declared in checkedPlatforms
+- ap-coway-ap1019 manual review attestation must match the available original pages
+- robot-irobot-max-705 manual review attestation must match the available original pages
+- robot-irobot-plus-505 manual review attestation must match the available original pages
+- robot-costco-us-roborock-qx-revo manual review attestation must match the available original pages
+- robot-xiaomi-h50-pro manualReview representativeSources[3] platform must be declared in checkedPlatforms
+- robot-xiaomi-h50-pro manualReview representativeSources[4] platform must be declared in checkedPlatforms
+- washerdryer-lg-wd-s13vdw manualReview representativeSources[0] platform must be declared in checkedPlatforms
+- blender-vitamix-a3500i manual review attestation must match the available original pages
+- blender-ninja-bn701 manual review attestation must match the available original pages
+- blender-extra-8-dmay0g-a900agmd8 manual review attestation must match the available original pages
+- blender-extra-13-dmaybb-a900k3czm manual review attestation must match the available original pages
+- waterdispenser-costco-us-brondell-circle manual review attestation must match the available original pages
+- smartlock-aqara-a100 manual review attestation must match the available original pages
+- smartlock-aqara-d200i manual review attestation must match the available original pages
+- wifi-unifi-u7-pro manualReview representativeSources[1] platform must be declared in checkedPlatforms
+- wifi-aruba-ap22 manual review attestation must match the available original pages
+- wifi-unifi-u6-plus manual review attestation must match the available original pages
+- wifi-unifi-u7-pro-max manualReview representativeSources[0] platform must be declared in checkedPlatforms
+- wifi-xiaomi-ax3000-2pack manual review attestation must match the available original pages
+- wifi-asus-rt-be88u manualReview representativeSources[0] platform must be declared in checkedPlatforms
+- wifi-asus-rt-be88u manualReview representativeSources[1] platform must be declared in checkedPlatforms
+- wifi-asus-rt-be88u manualReview representativeSources[2] platform must be declared in checkedPlatforms
+- wifi-asus-rt-be88u manualReview representativeSources[3] platform must be declared in checkedPlatforms
+- wifi-asus-rt-be88u manualReview representativeSources[4] platform must be declared in checkedPlatforms
+- wifi-asus-rt-be88u manualReview representativeSources[5] platform must be declared in checkedPlatforms
+- wifi-tplink-archer-be805 manual review attestation must match the available original pages
+- wifi-tplink-archer-be900 manual review attestation must match the available original pages
+- wifi-netgear-rs300 manual review attestation must match the available original pages
+- wifi-xiaomi-ax3000-1pack manual review attestation must match the available original pages
+- wifi-costco-tplink-deco-x55 manualReview representativeSources[2] platform must be declared in checkedPlatforms
+- wifi-costco-tplink-archer-be550 manual review attestation must match the available original pages
+- chair-razer-iskur-v2 manual review attestation must match the available original pages
+- monitor-dell-u2725qe manual review attestation must match the available original pages
+- monitor-aoc-q27g40xmn manual review attestation must match the available original pages
