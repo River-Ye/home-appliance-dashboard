@@ -17,9 +17,9 @@
     "name": "5-10 坪綠淨力玩美雙禦空氣清淨機",
     "price": {
       "currency": "TWD",
-      "amount": 5900,
-      "converted": 5900,
-      "confidence": "PChome 2026-07-14 API 查核價"
+      "amount": 5888,
+      "converted": 5888,
+      "confidence": "PChome 2026-07-22 API exact-model 現貨公開價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAU3EA900AU9PA/000001_1782107657.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAU3E-A900AU9PA",
@@ -1123,9 +1123,9 @@
     "name": "奈米級空氣清淨機 MUJI AC0650",
     "price": {
       "currency": "TWD",
-      "amount": 4640,
-      "converted": 4640,
-      "confidence": "PChome 2026-07-21 API 公開價"
+      "amount": 4990,
+      "converted": 4990,
+      "confidence": "PChome 2026-07-22 API exact-model 現貨公開價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAC2OA900GD1ZV/000001_1781800174.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAC2O-A900GD1ZV",
@@ -1357,9 +1357,9 @@
     "name": "10坪圓嘟嘟空氣清淨機",
     "price": {
       "currency": "TWD",
-      "amount": 5888,
-      "converted": 5888,
-      "confidence": "PChome 2026-07-17 API 公開價"
+      "amount": 7990,
+      "converted": 7990,
+      "confidence": "PChome 2026-07-22 API exact-model 現貨公開價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAU6TA900IVWE0/000001_1748922662.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAU6T-A900IVWE0",
@@ -1435,9 +1435,9 @@
     "name": "寵物抗敏空氣清淨機輕量版",
     "price": {
       "currency": "TWD",
-      "amount": 10220,
-      "converted": 10220,
-      "confidence": "PChome 2026-07-21 API 公開價"
+      "amount": 10990,
+      "converted": 10990,
+      "confidence": "PChome 2026-07-22 API exact-model 現貨公開價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAC2OA900J7SBO/000001_1781799851.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAC2O-A900J7SBO",
@@ -1513,9 +1513,9 @@
     "name": "PuriCare 超淨化大白空氣清淨機",
     "price": {
       "currency": "TWD",
-      "amount": 7399,
-      "converted": 7399,
-      "confidence": "PChome 2026-07-21 API 公開價"
+      "amount": 12900,
+      "converted": 12900,
+      "confidence": "PChome 2026-07-22 API exact-model 現貨公開價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAU0BA900GI0Q1/000001_1763349087.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAU0B-A900GI0Q1",
@@ -1738,6 +1738,87 @@
         }
       ]
     }
+  },
+  {
+    "id": "ap-dyson-hj10",
+    "category": "purifier",
+    "rank": 23,
+    "budget": "premium",
+    "channel": "tw",
+    "brand": "Dyson",
+    "model": "HJ10",
+    "name": "HushJet Purifier Compact 噴射氣流空氣清淨機",
+    "price": {
+      "currency": "TWD",
+      "amount": 12900,
+      "converted": 12900,
+      "confidence": "Dyson 台灣官方 2026-07-22 exact-model 現貨公開價"
+    },
+    "image": "https://cs-a.ecimg.tw/items/DMAU3CA900JWXJP/000001_1776853244.jpg",
+    "buyUrl": "https://shop.dyson.tw/fans-and-heaters/purifiers/dyson-hushjet-purifier-compact-white-silver-293138-01",
+    "buyLabel": "Dyson 台灣官方",
+    "specs": [
+      "適用 9-12 坪",
+      "HushJet 星形噴嘴氣流技術",
+      "每秒 380 公升氣流",
+      "睡眠模式 24 dB",
+      "360° 靜電式＋甲醛濾網／活性碳濾網"
+    ],
+    "description": "HJ10 以小體積、強勁循環與低噪音切入中小坪數，台灣官方與 PChome 均有 exact-model 現貨與清楚售後資訊。",
+    "pros": [
+      "體積精巧，9-12 坪空間容易擺放",
+      "官方現貨、濾網與到府服務資訊完整",
+      "低速與睡眠模式噪音控制突出"
+    ],
+    "cons": [
+      "價格高於多數同坪數 HEPA 清淨機",
+      "對高頻運轉聲敏感者仍應在退換期內夜間實測"
+    ],
+    "bestFor": "重視小空間循環、低噪與台灣官方售後，且能接受較高預算的人。",
+    "recommendation": "Dyson 小空間新選擇：HJ10 的現貨、規格、圖片與售後證據完整，適合和 Coway、Blueair、POIEMA 的中小坪數機種比較。",
+    "releaseDate": "2026-01-14",
+    "historicalLow": {
+      "status": "found",
+      "amount": 10900,
+      "currency": "TWD",
+      "converted": 10900,
+      "sourceUrl": "https://shop.dyson.tw/promotions/latest-offers/latest-offers",
+      "sourceTitle": "Dyson 台灣官方最新優惠：HJ10 單機首降四千",
+      "evidenceSnippet": "Dyson 台灣官方優惠頁明示 2026/6/17-6/23，HJ10 銀白色單機優惠不含贈品，原價 NT$14,900、特價 NT$10,900。",
+      "sourceKind": "official_sale",
+      "confidence": "high",
+      "checkedAt": "2026-07-22",
+      "note": "exact-model 官方單機限期優惠，可公開重現；已排除兩入組、搭售其他家電、贈品價值與濾網組。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-07-22",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Dyson HJ10\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?q=site%3Amobile01.com%20%22Dyson%20HJ10%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Dyson HJ10\" (problem OR issue OR defect OR \"negative review\")",
+          "queryUrl": "https://www.bing.com/search?q=site%3Areddit.com%20%22Dyson%20HJ10%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
+          "targetHost": "reddit.com"
+        }
+      ]
+    },
+    "score": 88,
+    "voltage": "110V 台灣公司貨",
+    "warranty": "Dyson 台灣官方 2 年保固與到府服務；登錄、範圍與條件依官方頁",
+    "tags": [
+      "小空間",
+      "低噪",
+      "甲醛濾網",
+      "台灣現貨"
+    ]
   }
 ]);
 })();

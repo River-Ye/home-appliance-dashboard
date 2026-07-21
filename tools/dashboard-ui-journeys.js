@@ -4,6 +4,7 @@ const {
   EXPECTED_CATEGORY_COUNT,
   EXPECTED_PRODUCT_COUNT,
 } = require("./dashboard-contract");
+const { readDashboardProducts } = require("./read-dashboard-products");
 const {
   waitForImages,
   visibleText,
@@ -34,6 +35,11 @@ const EXPECTED_PRODUCT_COUNT_TEXT = String(EXPECTED_PRODUCT_COUNT);
 const fileUrl = `file://${path.resolve(__dirname, "../index.html")}`;
 const firstPartyPrefix = fileUrl.replace(/index\.html$/, "");
 const screenshotDir = process.env.DASHBOARD_SCREENSHOT_DIR || os.tmpdir();
+const DASHBOARD_PRODUCTS = readDashboardProducts(path.resolve(__dirname, "..")).products;
+const EXPECTED_POIEMA_COUNT = DASHBOARD_PRODUCTS
+  .filter((product) => JSON.stringify(product).toUpperCase().includes("POIEMA")).length;
+const EXPECTED_PURIFIER_COUNT = DASHBOARD_PRODUCTS
+  .filter((product) => product.category === "purifier").length;
 
 function attachRuntimeIssueCollector(page) {
   const issues = [];
@@ -267,8 +273,8 @@ async function runExhaustiveViewport(browser, name, viewport) {
   await assertCommonIssueJourney(page, name);
 
   await page.fill("#searchInput", "POIEMA");
-  await page.waitForFunction(() => document.querySelector("#visibleCount")?.textContent?.trim() === "3");
-  await waitForProductCards(page, 3);
+  await waitForVisibleCount(page, EXPECTED_POIEMA_COUNT);
+  await waitForProductCards(page, EXPECTED_POIEMA_COUNT);
   await page.locator('#activeFilterChips [data-clear-filter="search"]').click();
   await waitForVisibleCount(page, EXPECTED_PRODUCT_COUNT);
   await waitForProductCards(page, 12);
@@ -376,9 +382,9 @@ async function runExhaustiveViewport(browser, name, viewport) {
   const philipsFanCount = await page.locator(".product-card", { hasText: "Philips" }).count();
   if (philipsFanCount < 5) throw new Error(`${name}: expected at least 5 Philips fan products, got ${philipsFanCount}`);
 
-  const purifierTab = page.getByRole("button", { name: "空氣清淨機 22" });
+  const purifierTab = page.getByRole("button", { name: `空氣清淨機 ${EXPECTED_PURIFIER_COUNT}` });
   await purifierTab.click();
-  await page.waitForFunction(() => document.querySelector("#visibleCount")?.textContent?.trim() === "22");
+  await waitForVisibleCount(page, EXPECTED_PURIFIER_COUNT);
   await loadAllVisibleProducts(page);
   const poiemaCount = await page.locator(".product-card", { hasText: "POIEMA" }).count();
   if (poiemaCount < 2) throw new Error(`${name}: expected POIEMA purifier products, got ${poiemaCount}`);
@@ -738,8 +744,8 @@ async function runSmokeViewport(browser, name, viewport) {
   const page = await openDashboardPage(browser, name, viewport);
   try {
     await page.fill("#searchInput", "POIEMA");
-    await page.waitForFunction(() => document.querySelector("#visibleCount")?.textContent?.trim() === "3");
-    await waitForProductCards(page, 3);
+    await waitForVisibleCount(page, EXPECTED_POIEMA_COUNT);
+    await waitForProductCards(page, EXPECTED_POIEMA_COUNT);
     const searchChip = page.locator('#activeFilterChips [data-clear-filter="search"]', { hasText: "POIEMA" });
     if (!await searchChip.count()) throw new Error(`${name}: missing search active filter chip`);
     await searchChip.click();
@@ -760,8 +766,8 @@ async function runDesktopJourney(browser) {
     await assertUrlQueryRestore(page, name);
 
     await page.fill("#searchInput", "POIEMA");
-    await page.waitForFunction(() => document.querySelector("#visibleCount")?.textContent?.trim() === "3");
-    await waitForProductCards(page, 3);
+    await waitForVisibleCount(page, EXPECTED_POIEMA_COUNT);
+    await waitForProductCards(page, EXPECTED_POIEMA_COUNT);
     await page.fill("#searchInput", "");
     await waitForVisibleCount(page, EXPECTED_PRODUCT_COUNT);
     await waitForProductCards(page, 12);
