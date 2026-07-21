@@ -1,1 +1,0 @@
-Trigger the full 2026-07-22 catalog maintenance after preparing the data date and README marker.

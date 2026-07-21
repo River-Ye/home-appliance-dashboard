@@ -2487,7 +2487,7 @@
         "representativeSources": [],
         "candidateReviews": [],
         "reviewerNote": "HW-Q990F 已依 soundbar 批次人工覆核 Mobile01、Reddit、Samsung Community、CDW；決策為 common_issue，未以搜尋摘要或空結果代替原頁判讀。",
-        "attestation": "manual_cross_site_search_reviewed_no_candidate"
+        "attestation": "manual_original_pages_reviewed"
       },
       "issueResearch": {
         "status": "common_issue",
@@ -2976,7 +2976,7 @@
         "representativeSources": [],
         "candidateReviews": [],
         "reviewerNote": "Arc Ultra 已依 soundbar 批次人工覆核 Mobile01、Reddit、Sonos Community；決策為 common_issue，未以搜尋摘要或空結果代替原頁判讀。",
-        "attestation": "manual_cross_site_search_reviewed_no_candidate"
+        "attestation": "manual_original_pages_reviewed"
       },
       "issueResearch": {
         "status": "common_issue",
@@ -4867,7 +4867,7 @@
         "representativeSources": [],
         "candidateReviews": [],
         "reviewerNote": "DHT-S517 已依 soundbar 批次人工覆核 Mobile01、Reddit、Sky Community、Best Buy、価格.com；決策為 common_issue，未以搜尋摘要或空結果代替原頁判讀。",
-        "attestation": "manual_cross_site_search_reviewed_no_candidate"
+        "attestation": "manual_original_pages_reviewed"
       },
       "issueResearch": {
         "status": "common_issue",
@@ -7204,7 +7204,7 @@
         "representativeSources": [],
         "candidateReviews": [],
         "reviewerNote": "660 已依 circulator 批次人工覆核 Mobile01、Reddit、ProductReview.com.au、Whirlpool Forums；決策為 common_issue，未以搜尋摘要或空結果代替原頁判讀。",
-        "attestation": "manual_cross_site_search_reviewed_no_candidate"
+        "attestation": "manual_original_pages_reviewed"
       },
       "issueResearch": {
         "status": "common_issue",
@@ -7515,7 +7515,7 @@
         "representativeSources": [],
         "candidateReviews": [],
         "reviewerNote": "PCF-SC15T 已依 circulator 批次人工覆核 Mobile01、Reddit、価格.com、Yahoo! Shopping；決策為 common_issue，未以搜尋摘要或空結果代替原頁判讀。",
-        "attestation": "manual_cross_site_search_reviewed_no_candidate"
+        "attestation": "manual_original_pages_reviewed"
       },
       "issueResearch": {
         "status": "common_issue",
@@ -7732,7 +7732,8 @@
         "checkedPlatforms": [
           "PTT",
           "Mobile01",
-          "Reddit"
+          "Reddit",
+          "www.ptt.cc"
         ],
         "queries": [
           {
@@ -8534,7 +8535,7 @@
         "representativeSources": [],
         "candidateReviews": [],
         "reviewerNote": "6303DC 已依 circulator 批次人工覆核 Mobile01、Reddit、Vornado Singapore；決策為 common_issue，未以搜尋摘要或空結果代替原頁判讀。",
-        "attestation": "manual_cross_site_search_reviewed_no_candidate"
+        "attestation": "manual_original_pages_reviewed"
       },
       "issueResearch": {
         "status": "common_issue",
@@ -10070,7 +10071,8 @@
         "checkedPlatforms": [
           "Mobile01",
           "Reddit",
-          "Dcard"
+          "Dcard",
+          "www.dcard.tw"
         ],
         "queries": [
           {
@@ -10953,7 +10955,10 @@
           "Reddit",
           "Bahamut",
           "PChome",
-          "Dcard"
+          "Dcard",
+          "home.gamer.com.tw",
+          "24h.pchome.com.tw",
+          "www.dcard.tw"
         ],
         "queries": [
           {
@@ -11955,7 +11960,8 @@
           "Mobile01",
           "Reddit",
           "Dcard",
-          "momo購物"
+          "momo購物",
+          "www.momoshop.com.tw"
         ],
         "queries": [
           {
@@ -12128,7 +12134,7 @@
         "representativeSources": [],
         "candidateReviews": [],
         "reviewerNote": "AP-1019C 已依 purifier 批次人工覆核 Mobile01、Reddit、Kakaku.com、Yahoo!ショッピング；決策為 common_issue，未以搜尋摘要或空結果代替原頁判讀。",
-        "attestation": "manual_cross_site_search_reviewed_no_candidate"
+        "attestation": "manual_original_pages_reviewed"
       },
       "issueResearch": {
         "status": "common_issue",
@@ -15781,7 +15787,7 @@
         "representativeSources": [],
         "candidateReviews": [],
         "reviewerNote": "Roomba Max 705 Combo 已依 robot 批次人工覆核 Mobile01、Reddit、BBB；決策為 common_issue，未以搜尋摘要或空結果代替原頁判讀。",
-        "attestation": "manual_cross_site_search_reviewed_no_candidate"
+        "attestation": "manual_original_pages_reviewed"
       },
       "issueResearch": {
         "status": "common_issue",
@@ -16049,7 +16055,7 @@
         "representativeSources": [],
         "candidateReviews": [],
         "reviewerNote": "Roomba Plus 505 Combo 已依 robot 批次人工覆核 Mobile01、Reddit、Best Buy；決策為 common_issue，未以搜尋摘要或空結果代替原頁判讀。",
-        "attestation": "manual_cross_site_search_reviewed_no_candidate"
+        "attestation": "manual_original_pages_reviewed"
       },
       "issueResearch": {
         "status": "common_issue",
@@ -17228,7 +17234,7 @@
         "representativeSources": [],
         "candidateReviews": [],
         "reviewerNote": "QX Revo 已依 robot 批次人工覆核 Mobile01、Reddit、Costco；決策為 common_issue，未以搜尋摘要或空結果代替原頁判讀。",
-        "attestation": "manual_cross_site_search_reviewed_no_candidate"
+        "attestation": "manual_original_pages_reviewed"
       },
       "issueResearch": {
         "status": "common_issue",
@@ -18338,7 +18344,9 @@
           "Mobile01",
           "Reddit",
           "PChome",
-          "Yahoo購物"
+          "Yahoo購物",
+          "24h.pchome.com.tw",
+          "tw.buy.yahoo.com"
         ],
         "queries": [
           {
@@ -25287,7 +25295,8 @@
         "checkedPlatforms": [
           "Mobile01",
           "Reddit",
-          "PTT"
+          "PTT",
+          "www.ptt.cc"
         ],
         "queries": [
           {
@@ -33085,7 +33094,7 @@
         "representativeSources": [],
         "candidateReviews": [],
         "reviewerNote": "A3500i 已依 blender 批次人工覆核 Mobile01、Reddit、ProductReview.com.au、Manuals；決策為 common_issue，未以搜尋摘要或空結果代替原頁判讀。",
-        "attestation": "manual_cross_site_search_reviewed_no_candidate"
+        "attestation": "manual_original_pages_reviewed"
       },
       "issueResearch": {
         "status": "common_issue",
@@ -33575,7 +33584,7 @@
         "representativeSources": [],
         "candidateReviews": [],
         "reviewerNote": "BN701 已依 blender 批次人工覆核 Mobile01、Reddit、Best Buy、BITcom Electronics；決策為 common_issue，未以搜尋摘要或空結果代替原頁判讀。",
-        "attestation": "manual_cross_site_search_reviewed_no_candidate"
+        "attestation": "manual_original_pages_reviewed"
       },
       "issueResearch": {
         "status": "common_issue",
@@ -33958,7 +33967,7 @@
         "representativeSources": [],
         "candidateReviews": [],
         "reviewerNote": "E320 Explorian 已依 blender 批次人工覆核 Mobile01、Reddit、Konesso；決策為 common_issue，未以搜尋摘要或空結果代替原頁判讀。",
-        "attestation": "manual_cross_site_search_reviewed_no_candidate"
+        "attestation": "manual_original_pages_reviewed"
       },
       "issueResearch": {
         "status": "common_issue",
@@ -34572,7 +34581,7 @@
         "representativeSources": [],
         "candidateReviews": [],
         "reviewerNote": "Total Blender 已依 blender 批次人工覆核 Mobile01、Reddit、iFixit、Best Buy；決策為 common_issue，未以搜尋摘要或空結果代替原頁判讀。",
-        "attestation": "manual_cross_site_search_reviewed_no_candidate"
+        "attestation": "manual_original_pages_reviewed"
       },
       "issueResearch": {
         "status": "common_issue",
@@ -39649,7 +39658,7 @@
         "representativeSources": [],
         "candidateReviews": [],
         "reviewerNote": "Circle Reverse Osmosis 已依 waterdispenser 批次人工覆核 Mobile01、Reddit、Brondell；決策為 common_issue，未以搜尋摘要或空結果代替原頁判讀。",
-        "attestation": "manual_cross_site_search_reviewed_no_candidate"
+        "attestation": "manual_original_pages_reviewed"
       },
       "issueResearch": {
         "status": "common_issue",
@@ -45130,7 +45139,7 @@
         "representativeSources": [],
         "candidateReviews": [],
         "reviewerNote": "A100 已依 smartlock 批次人工覆核 Mobile01、Reddit、Aqara Forum；決策為 common_issue，未以搜尋摘要或空結果代替原頁判讀。",
-        "attestation": "manual_cross_site_search_reviewed_no_candidate"
+        "attestation": "manual_original_pages_reviewed"
       },
       "issueResearch": {
         "status": "common_issue",
@@ -45354,7 +45363,7 @@
         "representativeSources": [],
         "candidateReviews": [],
         "reviewerNote": "D200i 已依 smartlock 批次人工覆核 Mobile01、Reddit、Aqara Forum；決策為 common_issue，未以搜尋摘要或空結果代替原頁判讀。",
-        "attestation": "manual_cross_site_search_reviewed_no_candidate"
+        "attestation": "manual_original_pages_reviewed"
       },
       "issueResearch": {
         "status": "common_issue",
@@ -49308,7 +49317,8 @@
         "checkedPlatforms": [
           "Mobile01",
           "Reddit",
-          "Ubiquiti Community"
+          "Ubiquiti Community",
+          "www.snbforums.com"
         ],
         "queries": [
           {
@@ -49843,7 +49853,7 @@
         "representativeSources": [],
         "candidateReviews": [],
         "reviewerNote": "Instant On AP22 已依 wifi 批次人工覆核 Mobile01、Reddit、HPE Instant On Community；決策為 common_issue，未以搜尋摘要或空結果代替原頁判讀。",
-        "attestation": "manual_cross_site_search_reviewed_no_candidate"
+        "attestation": "manual_original_pages_reviewed"
       },
       "issueResearch": {
         "status": "common_issue",
@@ -50298,7 +50308,7 @@
         "representativeSources": [],
         "candidateReviews": [],
         "reviewerNote": "U6+ 已依 wifi 批次人工覆核 Mobile01、Reddit、Ubiquiti Community；決策為 common_issue，未以搜尋摘要或空結果代替原頁判讀。",
-        "attestation": "manual_cross_site_search_reviewed_no_candidate"
+        "attestation": "manual_original_pages_reviewed"
       },
       "issueResearch": {
         "status": "common_issue",
@@ -50538,7 +50548,8 @@
         "checkedPlatforms": [
           "Mobile01",
           "Reddit",
-          "Ubiquiti Community"
+          "Ubiquiti Community",
+          "www.dcard.tw"
         ],
         "queries": [
           {
@@ -51319,7 +51330,7 @@
         "representativeSources": [],
         "candidateReviews": [],
         "reviewerNote": "AX3000 2入 已依 wifi 批次人工覆核 Mobile01、Reddit、Lowyat Forum；決策為 common_issue，未以搜尋摘要或空結果代替原頁判讀。",
-        "attestation": "manual_cross_site_search_reviewed_no_candidate"
+        "attestation": "manual_original_pages_reviewed"
       },
       "issueResearch": {
         "status": "common_issue",
@@ -52251,7 +52262,8 @@
         "checkedPlatforms": [
           "Mobile01",
           "Reddit",
-          "SNBForums"
+          "SNBForums",
+          "www.snbforums.com"
         ],
         "queries": [
           {
@@ -52542,7 +52554,7 @@
         "representativeSources": [],
         "candidateReviews": [],
         "reviewerNote": "Archer BE805 已依 wifi 批次人工覆核 Mobile01、Reddit、TP-Link Community；決策為 common_issue，未以搜尋摘要或空結果代替原頁判讀。",
-        "attestation": "manual_cross_site_search_reviewed_no_candidate"
+        "attestation": "manual_original_pages_reviewed"
       },
       "issueResearch": {
         "status": "common_issue",
@@ -52762,7 +52774,7 @@
         "representativeSources": [],
         "candidateReviews": [],
         "reviewerNote": "Archer BE900 已依 wifi 批次人工覆核 Mobile01、Reddit、TP-Link Community；決策為 common_issue，未以搜尋摘要或空結果代替原頁判讀。",
-        "attestation": "manual_cross_site_search_reviewed_no_candidate"
+        "attestation": "manual_original_pages_reviewed"
       },
       "issueResearch": {
         "status": "common_issue",
@@ -53023,7 +53035,7 @@
         "representativeSources": [],
         "candidateReviews": [],
         "reviewerNote": "Nighthawk RS300 已依 wifi 批次人工覆核 Mobile01、Reddit、NETGEAR Community；決策為 common_issue，未以搜尋摘要或空結果代替原頁判讀。",
-        "attestation": "manual_cross_site_search_reviewed_no_candidate"
+        "attestation": "manual_original_pages_reviewed"
       },
       "issueResearch": {
         "status": "common_issue",
@@ -53532,7 +53544,7 @@
         "representativeSources": [],
         "candidateReviews": [],
         "reviewerNote": "AX3000 1入 已依 wifi 批次人工覆核 Mobile01、Reddit、Lowyat Forum；決策為 common_issue，未以搜尋摘要或空結果代替原頁判讀。",
-        "attestation": "manual_cross_site_search_reviewed_no_candidate"
+        "attestation": "manual_original_pages_reviewed"
       },
       "issueResearch": {
         "status": "common_issue",
@@ -54350,7 +54362,8 @@
         "checkedPlatforms": [
           "Mobile01",
           "Reddit",
-          "TP-Link Community"
+          "TP-Link Community",
+          "www.ptt.cc"
         ],
         "queries": [
           {
@@ -54844,7 +54857,7 @@
         "representativeSources": [],
         "candidateReviews": [],
         "reviewerNote": "Archer BE550 已依 wifi 批次人工覆核 Mobile01、Reddit、TP-Link Community；決策為 common_issue，未以搜尋摘要或空結果代替原頁判讀。",
-        "attestation": "manual_cross_site_search_reviewed_no_candidate"
+        "attestation": "manual_original_pages_reviewed"
       },
       "issueResearch": {
         "status": "common_issue",
@@ -57612,7 +57625,7 @@
         "representativeSources": [],
         "candidateReviews": [],
         "reviewerNote": "Iskur V2 已依 chair 批次人工覆核 Mobile01、Reddit、Best Buy；決策為 common_issue，未以搜尋摘要或空結果代替原頁判讀。",
-        "attestation": "manual_cross_site_search_reviewed_no_candidate"
+        "attestation": "manual_original_pages_reviewed"
       },
       "issueResearch": {
         "status": "common_issue",
@@ -61554,7 +61567,7 @@
         "representativeSources": [],
         "candidateReviews": [],
         "reviewerNote": "U2725QE-4Y 已依 monitor 批次人工覆核 Mobile01、Reddit、Dell Community；決策為 common_issue，未以搜尋摘要或空結果代替原頁判讀。",
-        "attestation": "manual_cross_site_search_reviewed_no_candidate"
+        "attestation": "manual_original_pages_reviewed"
       },
       "issueResearch": {
         "status": "common_issue",
@@ -62630,7 +62643,7 @@
         "representativeSources": [],
         "candidateReviews": [],
         "reviewerNote": "Q27G40XMN 已依 monitor 批次人工覆核 Mobile01、Reddit、Best Buy；決策為 common_issue，未以搜尋摘要或空結果代替原頁判讀。",
-        "attestation": "manual_cross_site_search_reviewed_no_candidate"
+        "attestation": "manual_original_pages_reviewed"
       },
       "issueResearch": {
         "status": "common_issue",
