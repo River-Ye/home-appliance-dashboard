@@ -34,8 +34,9 @@ jobs:
         run: |
           set -euo pipefail
           maintenance_branch="${GITHUB_HEAD_REF:-${GITHUB_REF_NAME}}"
-          maintenance_date="${maintenance_branch#codex/daily-maintenance-}"
-          if [[ ! "${maintenance_date}" =~ ^[0-9]{4}-[0-9]{2}-[0-9]{2}$ ]]; then
+          if [[ "${maintenance_branch}" =~ ^codex/daily-maintenance-([0-9]{4}-[0-9]{2}-[0-9]{2})(-[a-z0-9-]+)?$ ]]; then
+            maintenance_date="${BASH_REMATCH[1]}"
+          else
             echo "Unexpected maintenance branch: ${maintenance_branch}" >&2
             exit 1
           fi
