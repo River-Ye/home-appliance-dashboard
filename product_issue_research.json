@@ -2484,7 +2484,28 @@
           }
         ],
         "candidateDisposition": "HW-Q990F：已完成跨站 exact-model 查詢，未留下需逐頁處置的候選；此結果不代表完全沒有負評。",
-        "representativeSources": [],
+        "representativeSources": [
+          {
+            "platform": "Reddit",
+            "title": "q990f problems after update..",
+            "url": "https://www.reddit.com/r/Soundbars/comments/1u1wval/q990f_problems_after_update/"
+          },
+          {
+            "platform": "Samsung Community",
+            "title": "Q990D still having the audio shutoff bug on firmware 1051",
+            "url": "https://us.community.samsung.com/t5/Home-Theater/Q990D-still-having-the-audio-shutoff-bug-on-firmware-1051/td-p/3593283"
+          },
+          {
+            "platform": "Samsung Community",
+            "title": "Samsung HW-Q990F loses eARC",
+            "url": "https://us.community.samsung.com/t5/Home-Theater/Samsung-HW-Q990F-loses-eARC/td-p/3511021"
+          },
+          {
+            "platform": "CDW",
+            "title": "Samsung HW-Q990F customer reviews",
+            "url": "https://www.cdw.com/product/samsung-hw-q990f-sound-bar-system-for-home-theater-wireless/8382191"
+          }
+        ],
         "candidateReviews": [],
         "reviewerNote": "HW-Q990F 已依 soundbar 批次人工覆核 Mobile01、Reddit、Samsung Community、CDW；決策為 common_issue，未以搜尋摘要或空結果代替原頁判讀。",
         "attestation": "manual_original_pages_reviewed"
@@ -2973,7 +2994,23 @@
           }
         ],
         "candidateDisposition": "Arc Ultra：已完成跨站 exact-model 查詢，未留下需逐頁處置的候選；此結果不代表完全沒有負評。",
-        "representativeSources": [],
+        "representativeSources": [
+          {
+            "platform": "Reddit",
+            "title": "Sonos Arc Ultra Popping Sound",
+            "url": "https://www.reddit.com/r/sonos/comments/1gm5evm/sonos_arc_ultra_popping_sound/"
+          },
+          {
+            "platform": "Sonos Community",
+            "title": "Arc Ultra: Popping Sound Across All Content Types",
+            "url": "https://en.community.sonos.com/home-theater-229129/arc-ultra-popping-sound-across-all-content-types-6923719"
+          },
+          {
+            "platform": "Sonos Community",
+            "title": "Sonos Arc Ultra strange static clicking sound",
+            "url": "https://en.community.sonos.com/home-theater-229129/sonos-arc-ultra-strange-static-clicking-sound-6929181"
+          }
+        ],
         "candidateReviews": [],
         "reviewerNote": "Arc Ultra 已依 soundbar 批次人工覆核 Mobile01、Reddit、Sonos Community；決策為 common_issue，未以搜尋摘要或空結果代替原頁判讀。",
         "attestation": "manual_original_pages_reviewed"
@@ -4864,7 +4901,28 @@
           }
         ],
         "candidateDisposition": "DHT-S517：已完成跨站 exact-model 查詢，未留下需逐頁處置的候選；此結果不代表完全沒有負評。",
-        "representativeSources": [],
+        "representativeSources": [
+          {
+            "platform": "Reddit",
+            "title": "Audio Output cuts out randomly",
+            "url": "https://www.reddit.com/r/Soundbars/comments/1jsws5x/audio_output_cuts_out_randomly/"
+          },
+          {
+            "platform": "Sky Community",
+            "title": "Denon soundbar issues with SkyQ",
+            "url": "https://helpforum.sky.com/t5/Sky-Q/Denon-soundbar-issues-with-SkyQ/td-p/4909403"
+          },
+          {
+            "platform": "Best Buy",
+            "title": "Customer Reviews: Denon DHT-S517",
+            "url": "https://www.bestbuy.com/site/reviews/denon-dht-s517-3-1-2-ch-soundbar-with-wireless-subwoofer-and-dolby-atmos-bluetooth-black/6495578?feature=Price"
+          },
+          {
+            "platform": "価格.com",
+            "title": "『音が途切れる』 DENON DHT-S517 のクチコミ掲示板",
+            "url": "https://bbs.kakaku.com/bbs/K0001417614/SortID%3D24628631/"
+          }
+        ],
         "candidateReviews": [],
         "reviewerNote": "DHT-S517 已依 soundbar 批次人工覆核 Mobile01、Reddit、Sky Community、Best Buy、価格.com；決策為 common_issue，未以搜尋摘要或空結果代替原頁判讀。",
         "attestation": "manual_original_pages_reviewed"
@@ -7201,7 +7259,23 @@
           }
         ],
         "candidateDisposition": "660：已完成跨站 exact-model 查詢，未留下需逐頁處置的候選；此結果不代表完全沒有負評。",
-        "representativeSources": [],
+        "representativeSources": [
+          {
+            "platform": "ProductReview.com.au",
+            "title": "Vornado 660 reviews",
+            "url": "https://www.productreview.com.au/listings/vornado-660"
+          },
+          {
+            "platform": "Reddit",
+            "title": "Sydneysiders with no AC what are your plans?",
+            "url": "https://www.reddit.com/r/sydney/comments/pmqcsd/sydneysiders_with_no_ac_what_are_your_plans/"
+          },
+          {
+            "platform": "Whirlpool Forums",
+            "title": "Air Conditioner Installed Very Close – High Ceiling",
+            "url": "https://forums.whirlpool.net.au/archive/34k61m40"
+          }
+        ],
         "candidateReviews": [],
         "reviewerNote": "660 已依 circulator 批次人工覆核 Mobile01、Reddit、ProductReview.com.au、Whirlpool Forums；決策為 common_issue，未以搜尋摘要或空結果代替原頁判讀。",
         "attestation": "manual_original_pages_reviewed"
@@ -7512,7 +7586,28 @@
           }
         ],
         "candidateDisposition": "PCF-SC15T：已完成跨站 exact-model 查詢，未留下需逐頁處置的候選；此結果不代表完全沒有負評。",
-        "representativeSources": [],
+        "representativeSources": [
+          {
+            "platform": "価格.com",
+            "title": "カラカラと異音がする",
+            "url": "https://bbs.kakaku.com/bbs/K0001040259/SortID=21999955/"
+          },
+          {
+            "platform": "価格.com",
+            "title": "異音が激しい",
+            "url": "https://bbs.kakaku.com/bbs/K0001040259/SortID=22974691/"
+          },
+          {
+            "platform": "価格.com",
+            "title": "PCF-SC15T レビュー評価・評判",
+            "url": "https://review.kakaku.com/review/K0001040259/"
+          },
+          {
+            "platform": "Yahoo! Shopping",
+            "title": "PCF-SC15T 商品評價",
+            "url": "https://shopping.yahoo.co.jp/products/db27e58d1b/review/"
+          }
+        ],
         "candidateReviews": [],
         "reviewerNote": "PCF-SC15T 已依 circulator 批次人工覆核 Mobile01、Reddit、価格.com、Yahoo! Shopping；決策為 common_issue，未以搜尋摘要或空結果代替原頁判讀。",
         "attestation": "manual_original_pages_reviewed"
@@ -8532,7 +8627,18 @@
           }
         ],
         "candidateDisposition": "6303DC：已完成跨站 exact-model 查詢，未留下需逐頁處置的候選；此結果不代表完全沒有負評。",
-        "representativeSources": [],
+        "representativeSources": [
+          {
+            "platform": "Vornado Singapore",
+            "title": "Vornado 6303DC Medium Circulator",
+            "url": "https://vornadosg.com/products/vornado-6303dc-circulator"
+          },
+          {
+            "platform": "Reddit",
+            "title": "Are Vornado fans worth it?",
+            "url": "https://www.reddit.com/r/phmoneysaving/comments/gx1884/comment/nil0z8q/"
+          }
+        ],
         "candidateReviews": [],
         "reviewerNote": "6303DC 已依 circulator 批次人工覆核 Mobile01、Reddit、Vornado Singapore；決策為 common_issue，未以搜尋摘要或空結果代替原頁判讀。",
         "attestation": "manual_original_pages_reviewed"
@@ -12131,7 +12237,28 @@
           }
         ],
         "candidateDisposition": "AP-1019C：已完成跨站 exact-model 查詢，未留下需逐頁處置的候選；此結果不代表完全沒有負評。",
-        "representativeSources": [],
+        "representativeSources": [
+          {
+            "platform": "Mobile01",
+            "title": "Coway AP-1019C 使用問題",
+            "url": "https://www.mobile01.com/topicdetail.php?f=731&t=6754163"
+          },
+          {
+            "platform": "Kakaku.com",
+            "title": "AIRMEGA 150 AP-1019C レビュー・評価",
+            "url": "https://review.kakaku.com/review/J0000033647/"
+          },
+          {
+            "platform": "Kakaku.com",
+            "title": "フィルターが臭い",
+            "url": "https://bbs.kakaku.com/bbs/J0000033647/SortID=26493796/"
+          },
+          {
+            "platform": "Yahoo!ショッピング",
+            "title": "COWAY AP-1019C 商品レビュー",
+            "url": "https://shopping.yahoo.co.jp/products/p/156b159ec6#tab"
+          }
+        ],
         "candidateReviews": [],
         "reviewerNote": "AP-1019C 已依 purifier 批次人工覆核 Mobile01、Reddit、Kakaku.com、Yahoo!ショッピング；決策為 common_issue，未以搜尋摘要或空結果代替原頁判讀。",
         "attestation": "manual_original_pages_reviewed"
@@ -14857,13 +14984,28 @@
         "representativeSources": [
           {
             "platform": "Reddit",
-            "title": "Reddit：DEEBOT T80 OMNI 滾筒自清洗異音討論",
-            "url": "https://www.reddit.com/r/ecovacs/comments/1rmc1t8/t80_omni_strange_noise_during_roller_brush/"
+            "title": "T80 dirt water Tank Always full",
+            "url": "https://www.reddit.com/r/ecovacs/comments/1pgc172/t80_dirt_water_tank_always_full/"
           },
           {
             "platform": "Reddit",
-            "title": "Reddit：DEEBOT T80 OMNI 拖地條紋討論",
-            "url": "https://www.reddit.com/r/ecovacs/comments/1lv0rqm/deebot_t80_omni_mop_streaks/"
+            "title": "Is the T80S Omni worth it?",
+            "url": "https://www.reddit.com/r/ecovacs/comments/1ue7oax/is_the_t80s_omni_worth_it/"
+          },
+          {
+            "platform": "Reddit",
+            "title": "I will always avoid Ecovacs like the plague.",
+            "url": "https://www.reddit.com/r/RobotVacuums/comments/1un38ek/i_will_always_avoid_ecovacs_like_the_plague/"
+          },
+          {
+            "platform": "Reddit",
+            "title": "Which robot vacuum needs the least amount of maintenance?",
+            "url": "https://www.reddit.com/r/RobotVacuums/comments/1rugldo/which_robot_vacuum_needs_the_least_amount_of/"
+          },
+          {
+            "platform": "Mobile01",
+            "title": "第一次買掃拖機器人，科沃斯T80 OMNI推薦嗎~",
+            "url": "https://www.mobile01.com/topicdetail.php?f=728&t=7248442"
           }
         ],
         "candidateReviews": [
@@ -15784,7 +15926,33 @@
           }
         ],
         "candidateDisposition": "Roomba Max 705 Combo：已完成跨站 exact-model 查詢，未留下需逐頁處置的候選；此結果不代表完全沒有負評。",
-        "representativeSources": [],
+        "representativeSources": [
+          {
+            "platform": "Reddit",
+            "title": "Roomba max 705 combo dripping while mopping",
+            "url": "https://www.reddit.com/r/roomba/comments/1qed9m7/roomba_max_705_combo_dripping_while_mopping/"
+          },
+          {
+            "platform": "Reddit",
+            "title": "Received an email identifying an issue with some units",
+            "url": "https://www.reddit.com/r/roomba/comments/1syg74a/received_an_email_identifying_an_issue_with_some/"
+          },
+          {
+            "platform": "Reddit",
+            "title": "New Roomba Max 705 Combo + Base AutoWash Owner",
+            "url": "https://www.reddit.com/r/roomba/comments/1p4794b/new_roomba_max_705_combo_base_autowash_owner/"
+          },
+          {
+            "platform": "Reddit",
+            "title": "705 combo made a mass in the dock",
+            "url": "https://www.reddit.com/r/roomba/comments/1on7j42/705_combo_made_a_mass_in_the_dock/"
+          },
+          {
+            "platform": "BBB",
+            "title": "iRobot Corporation | BBB Complaints",
+            "url": "https://www.bbb.org/us/ma/bedford/profile/vacuum-cleaning-systems/irobot-corporation-0021-91391/complaints?page=5"
+          }
+        ],
         "candidateReviews": [],
         "reviewerNote": "Roomba Max 705 Combo 已依 robot 批次人工覆核 Mobile01、Reddit、BBB；決策為 common_issue，未以搜尋摘要或空結果代替原頁判讀。",
         "attestation": "manual_original_pages_reviewed"
@@ -16052,7 +16220,23 @@
           }
         ],
         "candidateDisposition": "Roomba Plus 505 Combo：已完成跨站 exact-model 查詢，未留下需逐頁處置的候選；此結果不代表完全沒有負評。",
-        "representativeSources": [],
+        "representativeSources": [
+          {
+            "platform": "Reddit",
+            "title": "Roomba 505 Plus not emptying dust bin",
+            "url": "https://www.reddit.com/r/roomba/comments/1srz7jm/roomba_505_plus_not_emptying_dust_bin/"
+          },
+          {
+            "platform": "Best Buy",
+            "title": "Decent navigation but plagued with issues",
+            "url": "https://www.bestbuy.com/site/reviews/irobot-roomba-505-combo-vacuum-mop-autowash-dock-extending-spinning-mop-pads-self-empties-pad-wash-heated-dry-lidar-black/10187359?page=5"
+          },
+          {
+            "platform": "Best Buy",
+            "title": "Questions and Answers: iRobot Roomba 505 Combo",
+            "url": "https://www.bestbuy.com/site/questions/irobot-roomba-505-combo-vacuum-mop-autowash-dock-extending-spinning-mop-pads-self-empties-pad-wash-heated-dry-lidar-black/10747590?includeAiContent=true&page=2&pageSize=20&sku=10747590"
+          }
+        ],
         "candidateReviews": [],
         "reviewerNote": "Roomba Plus 505 Combo 已依 robot 批次人工覆核 Mobile01、Reddit、Best Buy；決策為 common_issue，未以搜尋摘要或空結果代替原頁判讀。",
         "attestation": "manual_original_pages_reviewed"
@@ -17231,7 +17415,18 @@
           }
         ],
         "candidateDisposition": "QX Revo：已完成跨站 exact-model 查詢，未留下需逐頁處置的候選；此結果不代表完全沒有負評。",
-        "representativeSources": [],
+        "representativeSources": [
+          {
+            "platform": "Costco",
+            "title": "Roborock QX Revo Robot Vacuum and Mop with Multifunctional Dock",
+            "url": "https://www.costco.com/roborock-qx-revo-robot-vacuum-and-mop-with-multifunctional-dock.product.4000233271.html"
+          },
+          {
+            "platform": "Reddit",
+            "title": "QX Revo leaking onto lower tray after cycle",
+            "url": "https://old.reddit.com/r/Roborock/comments/1l61vlx/qx_revo_leaking_onto_lower_tray_after_cycle/"
+          }
+        ],
         "candidateReviews": [],
         "reviewerNote": "QX Revo 已依 robot 批次人工覆核 Mobile01、Reddit、Costco；決策為 common_issue，未以搜尋摘要或空結果代替原頁判讀。",
         "attestation": "manual_original_pages_reviewed"
@@ -33091,7 +33286,28 @@
           }
         ],
         "candidateDisposition": "A3500i：已完成跨站 exact-model 查詢，未留下需逐頁處置的候選；此結果不代表完全沒有負評。",
-        "representativeSources": [],
+        "representativeSources": [
+          {
+            "platform": "ProductReview.com.au",
+            "title": "Vitamix A3500i Ascent reviews",
+            "url": "https://www.productreview.com.au/listings/vitamix-a3500i"
+          },
+          {
+            "platform": "Reddit",
+            "title": "Multiple container replacements for Ascent",
+            "url": "https://www.reddit.com/r/Vitamix/comments/1rkhs0c/multiple_container_replacements_for_ascent/"
+          },
+          {
+            "platform": "Reddit",
+            "title": "Is there anyone who regrets buying their Vitamix?",
+            "url": "https://www.reddit.com/r/Vitamix/comments/1r274z/is_there_anyone_and_i_mean_anyone_who_regrets/"
+          },
+          {
+            "platform": "Manuals",
+            "title": "Vitamix Ascent A3500i manual Q&A",
+            "url": "https://www.manua.ls/vitamix/ascent-a3500i/manual"
+          }
+        ],
         "candidateReviews": [],
         "reviewerNote": "A3500i 已依 blender 批次人工覆核 Mobile01、Reddit、ProductReview.com.au、Manuals；決策為 common_issue，未以搜尋摘要或空結果代替原頁判讀。",
         "attestation": "manual_original_pages_reviewed"
@@ -33581,7 +33797,23 @@
           }
         ],
         "candidateDisposition": "BN701：已完成跨站 exact-model 查詢，未留下需逐頁處置的候選；此結果不代表完全沒有負評。",
-        "representativeSources": [],
+        "representativeSources": [
+          {
+            "platform": "Best Buy",
+            "title": "Ninja Professional Plus Blender with Auto-IQ Gray, Model BN701",
+            "url": "https://www.bestbuy.com/product/ninja-professional-plus-blender-with-auto-iq-gray/JXJVXGKV7Y/sku/12371988/reviews?ratings=1"
+          },
+          {
+            "platform": "Best Buy",
+            "title": "Ninja Professional Plus Blender with Auto-IQ reviews",
+            "url": "https://www.bestbuy.com/site/reviews/ninja-professional-plus-blender-with-auto-iq-gray/6395885?page=3"
+          },
+          {
+            "platform": "BITcom Electronics",
+            "title": "Ninja BN701 Professional Plus Blender customer review",
+            "url": "https://bitcomelectronics.com/product/ninja-bn701-professional-plus-blender-1400-peak-watts-3-functions-for-smoothies-frozen-drinks-ice-cream-with-auto-iq-72-oz-total-crushing-pitcher-lid-dark-grey/"
+          }
+        ],
         "candidateReviews": [],
         "reviewerNote": "BN701 已依 blender 批次人工覆核 Mobile01、Reddit、Best Buy、BITcom Electronics；決策為 common_issue，未以搜尋摘要或空結果代替原頁判讀。",
         "attestation": "manual_original_pages_reviewed"
@@ -33964,7 +34196,38 @@
           }
         ],
         "candidateDisposition": "E320 Explorian：已完成跨站 exact-model 查詢，未留下需逐頁處置的候選；此結果不代表完全沒有負評。",
-        "representativeSources": [],
+        "representativeSources": [
+          {
+            "platform": "Reddit",
+            "title": "5200 significantly quieter than E320?",
+            "url": "https://www.reddit.com/r/Vitamix/comments/w1orgt/5200_significantly_quieter_than_e320/"
+          },
+          {
+            "platform": "Reddit",
+            "title": "Sound dampening suggestions",
+            "url": "https://www.reddit.com/r/Vitamix/comments/qedauh/sound_dampening_suggestions/"
+          },
+          {
+            "platform": "Reddit",
+            "title": "New Vitamix Question",
+            "url": "https://www.reddit.com/r/Vitamix/comments/1j1efxl/new_vitamix_question/"
+          },
+          {
+            "platform": "Reddit",
+            "title": "Can an E320 blend fibrous food just as smoothly as an A3500i?",
+            "url": "https://www.reddit.com/r/Vitamix/comments/17l89l1/can_an_e320_blend_fibrous_food_just_as_smoothly/"
+          },
+          {
+            "platform": "Reddit",
+            "title": "E320 ($300) vs E5200 ($370)",
+            "url": "https://www.reddit.com/r/Vitamix/comments/r8y68l/e320_300_vs_e5200_370/"
+          },
+          {
+            "platform": "Konesso",
+            "title": "Blender Vitamix Explorian E320 opinions",
+            "url": "https://www.konesso.pl/product-opinions-pol-22517-Blender-Vitamix-Explorian-E320.html"
+          }
+        ],
         "candidateReviews": [],
         "reviewerNote": "E320 Explorian 已依 blender 批次人工覆核 Mobile01、Reddit、Konesso；決策為 common_issue，未以搜尋摘要或空結果代替原頁判讀。",
         "attestation": "manual_original_pages_reviewed"
@@ -34578,7 +34841,33 @@
           }
         ],
         "candidateDisposition": "Total Blender：已完成跨站 exact-model 查詢，未留下需逐頁處置的候選；此結果不代表完全沒有負評。",
-        "representativeSources": [],
+        "representativeSources": [
+          {
+            "platform": "Reddit",
+            "title": "Blender recommendations?",
+            "url": "https://www.reddit.com/r/BuyItForLife/comments/rrav71/blender_recommendations/"
+          },
+          {
+            "platform": "iFixit",
+            "title": "How is a leaky blender jar fixed?",
+            "url": "https://www.ifixit.com/Answers/View/703754/How+is+a+leaky+blender+jar+fixed"
+          },
+          {
+            "platform": "iFixit",
+            "title": "Can a leak at the bottom of Wideside jar (blade seal) be repaired?",
+            "url": "https://www.ifixit.com/Answers/View/757556/Can+a+leak+at+the+bottom+of+Wideside+jar+(blade+seal)+be+repaired"
+          },
+          {
+            "platform": "iFixit",
+            "title": "How do I fix a leak at the bottom of the plastic container (blade)",
+            "url": "https://www.ifixit.com/Answers/View/413038/How+do+I+fix+a+leak+at+the+bottom+of+the+plastic+container+(blade)"
+          },
+          {
+            "platform": "Best Buy",
+            "title": "Blendtec Total Blender 10-Speed Blender reviews",
+            "url": "https://www.bestbuy.com/site/reviews/blendtec-total-blender-10-speed-blender-black/6405679?page=2"
+          }
+        ],
         "candidateReviews": [],
         "reviewerNote": "Total Blender 已依 blender 批次人工覆核 Mobile01、Reddit、iFixit、Best Buy；決策為 common_issue，未以搜尋摘要或空結果代替原頁判讀。",
         "attestation": "manual_original_pages_reviewed"
@@ -39655,7 +39944,18 @@
           }
         ],
         "candidateDisposition": "Circle Reverse Osmosis：已完成跨站 exact-model 查詢，未留下需逐頁處置的候選；此結果不代表完全沒有負評。",
-        "representativeSources": [],
+        "representativeSources": [
+          {
+            "platform": "Reddit",
+            "title": "Brondell R.O. Water filter.. slows to a trickle",
+            "url": "https://www.reddit.com/r/water/comments/u6tgd6/brondell_ro_water_filter_slows_to_a_trickle/"
+          },
+          {
+            "platform": "Brondell",
+            "title": "Circle Reverse Osmosis Water Filter System — Low pressure",
+            "url": "https://www.brondell.com/circle-reverse-osmosis-water-filter-system/#reviews"
+          }
+        ],
         "candidateReviews": [],
         "reviewerNote": "Circle Reverse Osmosis 已依 waterdispenser 批次人工覆核 Mobile01、Reddit、Brondell；決策為 common_issue，未以搜尋摘要或空結果代替原頁判讀。",
         "attestation": "manual_original_pages_reviewed"
@@ -45136,7 +45436,28 @@
           }
         ],
         "candidateDisposition": "A100：已完成跨站 exact-model 查詢，未留下需逐頁處置的候選；此結果不代表完全沒有負評。",
-        "representativeSources": [],
+        "representativeSources": [
+          {
+            "platform": "Reddit",
+            "title": "Aqara Lock A100 Battery Life and inaccurate Battery Reading",
+            "url": "https://www.reddit.com/r/Aqara/comments/1fqjdb2/aqara_lock_a100_battery_life_and_inaccurate/"
+          },
+          {
+            "platform": "Reddit",
+            "title": "Using rechargeable batteries for Aqara locks (A100 etc)",
+            "url": "https://www.reddit.com/r/Aqara/comments/10rpi6m/using_rechargeable_batteries_for_aqara_locks_a100/"
+          },
+          {
+            "platform": "Reddit",
+            "title": "Aqara A100 suddenly stops working with single beep",
+            "url": "https://www.reddit.com/r/Aqara/comments/196iux9/aqara_a100_suddenly_stops_working_with_single_beep/"
+          },
+          {
+            "platform": "Aqara Forum",
+            "title": "Aqara A100 lock keep power level at 89% even at low level after 1 year usage",
+            "url": "https://forum.aqara.com/t/aqara-a100-lock-keep-power-level-at-89-even-at-low-level-after-1-year-usage/285534"
+          }
+        ],
         "candidateReviews": [],
         "reviewerNote": "A100 已依 smartlock 批次人工覆核 Mobile01、Reddit、Aqara Forum；決策為 common_issue，未以搜尋摘要或空結果代替原頁判讀。",
         "attestation": "manual_original_pages_reviewed"
@@ -45360,7 +45681,18 @@
           }
         ],
         "candidateDisposition": "D200i：已完成跨站 exact-model 查詢，未留下需逐頁處置的候選；此結果不代表完全沒有負評。",
-        "representativeSources": [],
+        "representativeSources": [
+          {
+            "platform": "Reddit",
+            "title": "Aqara D200i door lock massive battery drain",
+            "url": "https://www.reddit.com/r/Aqara/comments/1kamjd0/aqara_d200i_door_lock_massive_battery_drain/"
+          },
+          {
+            "platform": "Aqara Forum",
+            "title": "D200i Sudden Battery Drain / Degradation",
+            "url": "https://forum.aqara.com/t/d200i-sudden-battery-drain-degradation/298455"
+          }
+        ],
         "candidateReviews": [],
         "reviewerNote": "D200i 已依 smartlock 批次人工覆核 Mobile01、Reddit、Aqara Forum；決策為 common_issue，未以搜尋摘要或空結果代替原頁判讀。",
         "attestation": "manual_original_pages_reviewed"
@@ -49033,13 +49365,23 @@
         "representativeSources": [
           {
             "platform": "Reddit",
-            "title": "WRX560 drops streaming despite strong connection and great ...",
-            "url": "https://www.reddit.com/r/synology/comments/1c2ppdr/wrx560_drops_streaming_despite_strong_connection/"
+            "title": "Disconnect wireless troubles with brand new WRX560",
+            "url": "https://www.reddit.com/r/synology/comments/165qepa/disconnect_wireless_troubles_with_brand_new/"
           },
           {
-            "platform": "Mobile01",
-            "title": "Synology WRX560 &#28961;&#32218;&#36335;&#30001;&#22120;&#38283;&#31665;&#23526;&#28204; &#20197;&#21487;&#25844;&#20805;&#21151;&#33021;&#25552;&#20379;&#23478;&#24237;&#32178;&#36335;&#26356;&#21487;&#38752;...",
-            "url": "https://www.mobile01.com/topicdetail.php?f=110&t=6738653"
+            "platform": "Reddit",
+            "title": "WRX560 randomly dropping devices",
+            "url": "https://www.reddit.com/r/synology/comments/1jhuf7r/wrx560_randomly_dropping_devices/"
+          },
+          {
+            "platform": "Reddit",
+            "title": "Connectivity issues with WRX560 router",
+            "url": "https://www.reddit.com/r/synology/comments/1e7xl5k/connectivity_issues_with_router/"
+          },
+          {
+            "platform": "Synology Community",
+            "title": "WRX560 disconnecting devices and reporting wrong password",
+            "url": "https://community.synology.com/enu/forum/2/post/163298"
           }
         ],
         "candidateReviews": [
@@ -49337,14 +49679,19 @@
         "candidateDisposition": "U7 Pro：已逐頁人工排除 2 個 exact-model 候選；個別原頁摘要與理由見 candidateReviews。",
         "representativeSources": [
           {
-            "platform": "Reddit",
-            "title": "U7 Pro slow wifi connection : r/Ubiquiti - Reddit",
-            "url": "https://www.reddit.com/r/Ubiquiti/comments/1d6jlbp/u7_pro_slow_wifi_connection/"
+            "platform": "Ubiquiti Community",
+            "title": "U7-Pro 2.4ghz issues",
+            "url": "https://community.ui.com/questions/U7-Pro-2-4ghz-issues/4dff7816-5c14-4686-9f9a-ab99f9b93700"
           },
           {
-            "platform": "www.snbforums.com",
-            "title": "Wifi Coverage - Asus AX86U v UniFi U7 Pro | SNBForums",
-            "url": "https://www.snbforums.com/threads/wifi-coverage-asus-ax86u-v-unifi-u7-pro.89198/"
+            "platform": "Reddit",
+            "title": "U7 pro iot issue explained",
+            "url": "https://www.reddit.com/r/Ubiquiti/comments/1g1funp/u7_pro_iot_issue_explained/"
+          },
+          {
+            "platform": "Reddit",
+            "title": "2.4GHz IoT device constant disconnect",
+            "url": "https://www.reddit.com/r/Ubiquiti/comments/1h600kz/24ghz_iot_device_constant_disconnect_5_6ghz_wifi/"
           }
         ],
         "candidateReviews": [
@@ -49850,7 +50197,18 @@
           }
         ],
         "candidateDisposition": "Instant On AP22：已完成跨站 exact-model 查詢，未留下需逐頁處置的候選；此結果不代表完全沒有負評。",
-        "representativeSources": [],
+        "representativeSources": [
+          {
+            "platform": "HPE Instant On Community",
+            "title": "After update to 3.0.0 firmware: connection problems with iPhones to AP22",
+            "url": "https://community.instant-on.hpe.com/discussion/after-update-to-300-firmware-connection-problems-with-iphones-to-ap22"
+          },
+          {
+            "platform": "Reddit",
+            "title": "Issues since firmware 3.0.0",
+            "url": "https://www.reddit.com/r/ArubaInstantOn/comments/1eiarrp/issues_since_firmware_300/"
+          }
+        ],
         "candidateReviews": [],
         "reviewerNote": "Instant On AP22 已依 wifi 批次人工覆核 Mobile01、Reddit、HPE Instant On Community；決策為 common_issue，未以搜尋摘要或空結果代替原頁判讀。",
         "attestation": "manual_original_pages_reviewed"
@@ -50305,7 +50663,38 @@
           }
         ],
         "candidateDisposition": "U6+：已完成跨站 exact-model 查詢，未留下需逐頁處置的候選；此結果不代表完全沒有負評。",
-        "representativeSources": [],
+        "representativeSources": [
+          {
+            "platform": "Reddit",
+            "title": "U6+ dropping all clients",
+            "url": "https://www.reddit.com/r/Ubiquiti/comments/1s37bw2/u6_dropping_all_clients/"
+          },
+          {
+            "platform": "Reddit",
+            "title": "Fix to U6+ forcing disconnect of some or all clients",
+            "url": "https://www.reddit.com/r/Ubiquiti/comments/1fdk2bu/fix_to_u6_and_pro_forcing_disconnect_of_some_or/"
+          },
+          {
+            "platform": "Reddit",
+            "title": "AP U6+ keeps on disconnecting",
+            "url": "https://www.reddit.com/r/Ubiquiti/comments/1csgcd5/ap_u6_plus_keeps_on_disconnecting/"
+          },
+          {
+            "platform": "Reddit",
+            "title": "U6+ connection issues",
+            "url": "https://www.reddit.com/r/Ubiquiti/comments/191w281/u6_has_anyone_had_issues_with_this/"
+          },
+          {
+            "platform": "Ubiquiti Community",
+            "title": "All Wi-Fi devices disconnect after five minutes",
+            "url": "https://community.ui.com/questions/All-wifi-devices-disconnects-after-5min/a70cf799-6c87-4724-8906-41bb4e83cafc"
+          },
+          {
+            "platform": "Ubiquiti Community",
+            "title": "U6+ keeps disconnecting",
+            "url": "https://community.ui.com/questions/U6-keeps-disconnecting/3619ee47-3fac-4efb-b149-36c9d01b2f94"
+          }
+        ],
         "candidateReviews": [],
         "reviewerNote": "U6+ 已依 wifi 批次人工覆核 Mobile01、Reddit、Ubiquiti Community；決策為 common_issue，未以搜尋摘要或空結果代替原頁判讀。",
         "attestation": "manual_original_pages_reviewed"
@@ -50568,14 +50957,24 @@
         "candidateDisposition": "U7 Pro Max：已逐頁人工排除 2 個 exact-model 候選；個別原頁摘要與理由見 candidateReviews。",
         "representativeSources": [
           {
-            "platform": "www.dcard.tw",
-            "title": "UniFi &#32178;&#36335;&#35373;&#20633;&#21322;&#23478;&#26742;&#38283;&#31665;&#24515;&#24471;&#65288;UDM pro max+16pro poe+U7 pro max) -...",
-            "url": "https://www.dcard.tw/f/3c/p/258341293"
+            "platform": "Ubiquiti Community",
+            "title": "U7 Pro Max connection issues with IoT devices",
+            "url": "https://community.ui.com/questions/U7-Pro-Max-connection-issues-with-IoT-devices/79f46435-0180-4216-b19a-524ddf92ba11"
           },
           {
             "platform": "Reddit",
-            "title": "Shouldn't U7 Pro Max++ Wi-Fi 7 generation devices ... - Reddit",
-            "url": "https://www.reddit.com/r/Ubiquiti/comments/1d4clls/shouldnt_u7_pro_max_wifi_7_generation_devices/"
+            "title": "IoT 2GHz issues on new U7 Pro Max",
+            "url": "https://www.reddit.com/r/Ubiquiti/comments/1d9peae/iot_2ghz_issues_on_new_u7_pro_max/"
+          },
+          {
+            "platform": "Reddit",
+            "title": "IoT devices won't connect to WiFi",
+            "url": "https://www.reddit.com/r/Ubiquiti/comments/1fnsctj/new_and_some_old_iot_devices_wont_connect_to_wifi/"
+          },
+          {
+            "platform": "Reddit",
+            "title": "All devices disconnecting from 2.4GHz band",
+            "url": "https://www.reddit.com/r/Ubiquiti/comments/1gra06l/all_devices_disconnecting_from_24ghz_band/"
           }
         ],
         "candidateReviews": [
@@ -51327,7 +51726,18 @@
           }
         ],
         "candidateDisposition": "AX3000 2入：已完成跨站 exact-model 查詢，未留下需逐頁處置的候選；此結果不代表完全沒有負評。",
-        "representativeSources": [],
+        "representativeSources": [
+          {
+            "platform": "Reddit",
+            "title": "Problem with Mesh on AX3000 — all nodes connecting to main router",
+            "url": "https://www.reddit.com/r/Xiaomi/comments/13ijs0u/problem_with_mesh_on_ax3000_all_nodes_connecting/"
+          },
+          {
+            "platform": "Lowyat Forum",
+            "title": "Xiaomi AX3000 Mesh satellite ignores nearer node",
+            "url": "https://forum.lowyat.net/topic/5441492"
+          }
+        ],
         "candidateReviews": [],
         "reviewerNote": "AX3000 2入 已依 wifi 批次人工覆核 Mobile01、Reddit、Lowyat Forum；決策為 common_issue，未以搜尋摘要或空結果代替原頁判讀。",
         "attestation": "manual_original_pages_reviewed"
@@ -52551,7 +52961,23 @@
           }
         ],
         "candidateDisposition": "Archer BE805：已完成跨站 exact-model 查詢，未留下需逐頁處置的候選；此結果不代表完全沒有負評。",
-        "representativeSources": [],
+        "representativeSources": [
+          {
+            "platform": "TP-Link Community",
+            "title": "Archer BE805 keep dropping",
+            "url": "https://community.tp-link.com/en/home/forum/topic/703524"
+          },
+          {
+            "platform": "TP-Link Community",
+            "title": "2.4G/5GHz Wi-Fi function stops after a while",
+            "url": "https://community.tp-link.com/en/home/forum/topic/741120?moduleId=40"
+          },
+          {
+            "platform": "Reddit",
+            "title": "How is the BE11000 as far as wireless speed and range?",
+            "url": "https://www.reddit.com/r/TpLink/comments/1gqs7z8/how_is_the_be11000_as_far_as_wireless_speed_and/"
+          }
+        ],
         "candidateReviews": [],
         "reviewerNote": "Archer BE805 已依 wifi 批次人工覆核 Mobile01、Reddit、TP-Link Community；決策為 common_issue，未以搜尋摘要或空結果代替原頁判讀。",
         "attestation": "manual_original_pages_reviewed"
@@ -52771,7 +53197,38 @@
           }
         ],
         "candidateDisposition": "Archer BE900：已完成跨站 exact-model 查詢，未留下需逐頁處置的候選；此結果不代表完全沒有負評。",
-        "representativeSources": [],
+        "representativeSources": [
+          {
+            "platform": "TP-Link Community",
+            "title": "Archer BE900 v2.6 restarts by itself",
+            "url": "https://community.tp-link.com/en/home/forum/topic/745810"
+          },
+          {
+            "platform": "TP-Link Community",
+            "title": "BE900 restarts suddenly",
+            "url": "https://community.tp-link.com/en/home/forum/topic/744458"
+          },
+          {
+            "platform": "TP-Link Community",
+            "title": "Router completely Freezes",
+            "url": "https://community.tp-link.com/us/home/forum/topic/732228?replyId=1483126"
+          },
+          {
+            "platform": "TP-Link Community",
+            "title": "Keeps rebooting and factory reset does not work",
+            "url": "https://community.tp-link.com/en/home/forum/topic/731430"
+          },
+          {
+            "platform": "Reddit",
+            "title": "Finally got my hands on Archer BE900",
+            "url": "https://www.reddit.com/r/TpLink/comments/12mkbeb/finally_got_my_hands_on_this_one_archer_be900/"
+          },
+          {
+            "platform": "Reddit",
+            "title": "BE900 latest firmware looking brighter",
+            "url": "https://www.reddit.com/r/TpLink/comments/193iy1g/be900_latest_firmware_looking_brighter/"
+          }
+        ],
         "candidateReviews": [],
         "reviewerNote": "Archer BE900 已依 wifi 批次人工覆核 Mobile01、Reddit、TP-Link Community；決策為 common_issue，未以搜尋摘要或空結果代替原頁判讀。",
         "attestation": "manual_original_pages_reviewed"
@@ -53032,7 +53489,33 @@
           }
         ],
         "candidateDisposition": "Nighthawk RS300：已完成跨站 exact-model 查詢，未留下需逐頁處置的候選；此結果不代表完全沒有負評。",
-        "representativeSources": [],
+        "representativeSources": [
+          {
+            "platform": "Reddit",
+            "title": "Nighthawk RS300 driving me insane",
+            "url": "https://www.reddit.com/r/NETGEAR/comments/1h2ynvi/nighthawk_rs300_driving_me_insane/"
+          },
+          {
+            "platform": "NETGEAR Community",
+            "title": "Nighthawk RS300 randomly fails, requires power reset",
+            "url": "https://community.netgear.com/discussions/nighthawk-wifi-7-be/nighthawk-rs300-wireless-router-randomly-fails-requires-power-reset/2449770"
+          },
+          {
+            "platform": "NETGEAR Community",
+            "title": "NETGEAR Nighthawk RS300 disconnects after firmware update",
+            "url": "https://community.netgear.com/discussions/nighthawk-wifi-7-be/re-netgear-nighthawk-rs300/2416061"
+          },
+          {
+            "platform": "NETGEAR Community",
+            "title": "RS300 random disconnect from the Internet",
+            "url": "https://community.netgear.com/discussions/nighthawk-wifi-7-be/re-rs300-random-disconnect-from-the-internet/2450511"
+          },
+          {
+            "platform": "NETGEAR Community",
+            "title": "RS300 reply in Nighthawk Wi-Fi discussion",
+            "url": "https://community.netgear.com/discussions/nighthawk-wifi-7-be/rif--nighthawk-rs200---no-wifi-after-reboot---internet-via-lan-ok/2437053/replies/2437074"
+          }
+        ],
         "candidateReviews": [],
         "reviewerNote": "Nighthawk RS300 已依 wifi 批次人工覆核 Mobile01、Reddit、NETGEAR Community；決策為 common_issue，未以搜尋摘要或空結果代替原頁判讀。",
         "attestation": "manual_original_pages_reviewed"
@@ -53541,7 +54024,18 @@
           }
         ],
         "candidateDisposition": "AX3000 1入：已完成跨站 exact-model 查詢，未留下需逐頁處置的候選；此結果不代表完全沒有負評。",
-        "representativeSources": [],
+        "representativeSources": [
+          {
+            "platform": "Reddit",
+            "title": "Problem with Mesh on AX3000 — all nodes connecting to main router",
+            "url": "https://www.reddit.com/r/Xiaomi/comments/13ijs0u/problem_with_mesh_on_ax3000_all_nodes_connecting/"
+          },
+          {
+            "platform": "Lowyat Forum",
+            "title": "Xiaomi AX3000 Mesh satellite ignores nearer node",
+            "url": "https://forum.lowyat.net/topic/5441492"
+          }
+        ],
         "candidateReviews": [],
         "reviewerNote": "AX3000 1入 已依 wifi 批次人工覆核 Mobile01、Reddit、Lowyat Forum；決策為 common_issue，未以搜尋摘要或空結果代替原頁判讀。",
         "attestation": "manual_original_pages_reviewed"
@@ -54382,24 +54876,29 @@
         "candidateDisposition": "Deco X55：已逐頁人工排除 4 個 exact-model 候選；個別原頁摘要與理由見 candidateReviews。",
         "representativeSources": [
           {
-            "platform": "Reddit",
-            "title": "Deco X55 - No internet after firmware : r/TpLink - Reddit",
-            "url": "https://www.reddit.com/r/TpLink/comments/1dgxl3i/deco_x55_no_internet_after_firmware/"
+            "platform": "TP-Link Community",
+            "title": "Deco X55 Internet randomly freezes or drops",
+            "url": "https://community.tp-link.com/en/home/forum/topic/584302"
+          },
+          {
+            "platform": "TP-Link Community",
+            "title": "X55 main Deco disconnects after reboot",
+            "url": "https://community.tp-link.com/us/home/forum/topic/651792?moduleId=2424"
+          },
+          {
+            "platform": "TP-Link Community",
+            "title": "TP-Link Deco X55 Keeps Rebooting",
+            "url": "https://community.tp-link.com/en/home/threads/topic/821828"
+          },
+          {
+            "platform": "TP-Link Community",
+            "title": "Deco X55 Reboots 2-3 times a day",
+            "url": "https://community.tp-link.com/us/home/forum/topic/591250"
           },
           {
             "platform": "Reddit",
-            "title": "Deco X55 Slow web browsing despite good speedtest (solved)",
-            "url": "https://www.reddit.com/r/TpLink/comments/1533tzw/deco_x55_slow_web_browsing_despite_good_speedtest/"
-          },
-          {
-            "platform": "www.ptt.cc",
-            "title": "[&#24773;&#22577;] Costco&#22909;&#24066;&#22810;TP-Link Deco X55&#20841;&#20837;2839 - &#30475;&#26495; PC_Shopping - ...",
-            "url": "https://www.ptt.cc/bbs/PC_Shopping/M.1776428806.A.5C4.html"
-          },
-          {
-            "platform": "Reddit",
-            "title": "Verizon Fios Gateway to TP Link Deco X55 - Reddit",
-            "url": "https://www.reddit.com/r/HomeNetworking/comments/1dfxjoo/verizon_fios_gateway_to_tp_link_deco_x55/"
+            "title": "Avoid TP-Link Deco X55",
+            "url": "https://www.reddit.com/r/TpLink/comments/1eietd4/avoid_tplink_deco_x55_like_the_plague_it_is/"
           }
         ],
         "candidateReviews": [
@@ -54854,7 +55353,18 @@
           }
         ],
         "candidateDisposition": "Archer BE550：已完成跨站 exact-model 查詢，未留下需逐頁處置的候選；此結果不代表完全沒有負評。",
-        "representativeSources": [],
+        "representativeSources": [
+          {
+            "platform": "TP-Link Community",
+            "title": "New Archer BE550 constant disconnects",
+            "url": "https://community.tp-link.com/us/home/forum/topic/623566?moduleId=2414"
+          },
+          {
+            "platform": "Reddit",
+            "title": "Tossing Archer BE550 — too many lagging issues",
+            "url": "https://www.reddit.com/r/TpLink/comments/1gkcbca/top_routers_tossing_archer_be550_too_many_lagging/"
+          }
+        ],
         "candidateReviews": [],
         "reviewerNote": "Archer BE550 已依 wifi 批次人工覆核 Mobile01、Reddit、TP-Link Community；決策為 common_issue，未以搜尋摘要或空結果代替原頁判讀。",
         "attestation": "manual_original_pages_reviewed"
@@ -57622,7 +58132,23 @@
           }
         ],
         "candidateDisposition": "Iskur V2：已完成跨站 exact-model 查詢，未留下需逐頁處置的候選；此結果不代表完全沒有負評。",
-        "representativeSources": [],
+        "representativeSources": [
+          {
+            "platform": "Reddit",
+            "title": "Is the Iskur V2 supposed to be hard as a brick?",
+            "url": "https://www.reddit.com/r/razer/comments/1nnmw57/is_the_iskur_v2_supposed_to_be_hard_as_a_brick/"
+          },
+          {
+            "platform": "Reddit",
+            "title": "Iskur v2 arrived!",
+            "url": "https://www.reddit.com/r/razer/comments/1akcksp/iskur_v2_arrived/"
+          },
+          {
+            "platform": "Best Buy",
+            "title": "Customer Reviews: Razer Iskur V2 Gaming Chair Black",
+            "url": "https://www.bestbuy.com/site/reviews/razer-iskur-v2-gaming-chair-black/6605863?page=6"
+          }
+        ],
         "candidateReviews": [],
         "reviewerNote": "Iskur V2 已依 chair 批次人工覆核 Mobile01、Reddit、Best Buy；決策為 common_issue，未以搜尋摘要或空結果代替原頁判讀。",
         "attestation": "manual_original_pages_reviewed"
@@ -57844,23 +58370,18 @@
         "representativeSources": [
           {
             "platform": "Reddit",
-            "title": "Titan Evo 2022 vs Razer Enki? : r/secretlab - Reddit",
-            "url": "https://www.reddit.com/r/secretlab/comments/qr71qv/titan_evo_2022_vs_razer_enki/"
+            "title": "Razer Enki cylinder replacement",
+            "url": "https://www.reddit.com/r/razer/comments/1awxmid/razer_enki_cylinder_replacement/"
           },
           {
             "platform": "Reddit",
-            "title": "Enki or Iskur V2 : r/razer - Reddit",
-            "url": "https://www.reddit.com/r/razer/comments/1bmgqss/enki_or_iskur_v2/"
+            "title": "Enki Replacement Cylinder",
+            "url": "https://www.reddit.com/r/razer/comments/1koewb4/enki_replacement_cylinder/"
           },
           {
-            "platform": "Reddit",
-            "title": "Which Razer chair to get and why - Iskur X vs Enki - Reddit",
-            "url": "https://www.reddit.com/r/razer/comments/qsqiak/which_razer_chair_to_get_and_why_iskur_x_vs_enki/"
-          },
-          {
-            "platform": "Reddit",
-            "title": "Razer Enki vs Iskur & their respective lineups? Which to buy?",
-            "url": "https://www.reddit.com/r/razer/comments/188wcoq/razer_enki_vs_iskur_their_respective_lineups/"
+            "platform": "Best Buy",
+            "title": "Customer Reviews: Razer Enki Gaming Chair",
+            "url": "https://www.bestbuy.com/site/reviews/razer-enki-gaming-chair-with-synthetic-leather-for-all-day-comfort-black-green/6554668?page=9"
           }
         ],
         "candidateReviews": [
@@ -59424,14 +59945,14 @@
         "candidateDisposition": "ROG Strix XG27ACS：已逐頁人工排除 2 個 exact-model 候選；個別原頁摘要與理由見 candidateReviews。",
         "representativeSources": [
           {
-            "platform": "Mobile01",
-            "title": "ASUS &#33775;&#30889; 27\" ROG Strix XG27ACS USB Type-C &#38651;&#31478;&#39023;&#31034;&#22120;&#38283;&#31665;&#20998;&#20139; - M...",
-            "url": "https://www.mobile01.com/topicdetail.php?f=350&t=7194732"
+            "platform": "Reddit",
+            "title": "Issues with brand new ASUS ROG Strix XG27ACS monitor",
+            "url": "https://old.reddit.com/r/ASUSROG/comments/1gu36al/issues_with_brand_new_asus_rog_strix_xg27acs/"
           },
           {
-            "platform": "Reddit",
-            "title": "LG UltraGear 27GR75Q-B Or ASUS ROG Strix XG27ACS OR ... - Reddit",
-            "url": "https://www.reddit.com/r/buildapc/comments/1cclbpf/lg_ultragear_27gr75qb_or_asus_rog_strix_xg27acs/"
+            "platform": "ASUS ROG Forum",
+            "title": "New XG27ACS has Screen issues",
+            "url": "https://rog-forum.asus.com/t5/gaming-monitors/new-xg27acs-has-screen-issues/td-p/1033966"
           }
         ],
         "candidateReviews": [
@@ -61564,7 +62085,28 @@
           }
         ],
         "candidateDisposition": "U2725QE-4Y：已完成跨站 exact-model 查詢，未留下需逐頁處置的候選；此結果不代表完全沒有負評。",
-        "representativeSources": [],
+        "representativeSources": [
+          {
+            "platform": "Reddit",
+            "title": "Dell U2725QE owners - questions about coil whine",
+            "url": "https://www.reddit.com/r/Monitors/comments/1lo952w/dell_u2725qe_owners_questions_about_coil_whine/"
+          },
+          {
+            "platform": "Dell Community",
+            "title": "U2725QE, coil whine",
+            "url": "https://www.dell.com/community/en/conversations/monitors/u2725qe-coil-whine/685a37a316a3d04bdeebe2f9"
+          },
+          {
+            "platform": "Dell Community",
+            "title": "U2725QE, coil whine, #2",
+            "url": "https://www.dell.com/community/en/conversations/monitors/u2725qe-coil-whine-2/6978bb81c678d13f02c5ab24"
+          },
+          {
+            "platform": "Dell Community",
+            "title": "Spulenfiepen DELL U2725QE",
+            "url": "https://www.dell.com/community/de/conversations/displays/spulenfiepen-dell-u2725qe/67ce8da099b1bd4691924eb2"
+          }
+        ],
         "candidateReviews": [],
         "reviewerNote": "U2725QE-4Y 已依 monitor 批次人工覆核 Mobile01、Reddit、Dell Community；決策為 common_issue，未以搜尋摘要或空結果代替原頁判讀。",
         "attestation": "manual_original_pages_reviewed"
@@ -62640,7 +63182,18 @@
           }
         ],
         "candidateDisposition": "Q27G40XMN：已完成跨站 exact-model 查詢，未留下需逐頁處置的候選；此結果不代表完全沒有負評。",
-        "representativeSources": [],
+        "representativeSources": [
+          {
+            "platform": "Best Buy",
+            "title": "AOC Q27G40XMN customer reviews",
+            "url": "https://www.bestbuy.com/site/reviews/aoc-27-q27g40xmn-mini-led-qhd-180hz-gaming-monitor-black/6617199"
+          },
+          {
+            "platform": "Reddit",
+            "title": "Has anyone gotten the AOC Q27G40XMN yet and have any feedback?",
+            "url": "https://www.reddit.com/r/Monitors/comments/1k5y8zq/has_anyone_gotten_the_aoc_q27g40xmn_yet_and_have/"
+          }
+        ],
         "candidateReviews": [],
         "reviewerNote": "Q27G40XMN 已依 monitor 批次人工覆核 Mobile01、Reddit、Best Buy；決策為 common_issue，未以搜尋摘要或空結果代替原頁判讀。",
         "attestation": "manual_original_pages_reviewed"
@@ -62921,8 +63474,13 @@
         "representativeSources": [
           {
             "platform": "Reddit",
-            "title": "4K 240Hz QD-OLED, But Curved! - Dell Alienware AW3225QF ...",
-            "url": "https://www.reddit.com/r/Monitors/comments/1b35zya/4k_240hz_qdoled_but_curved_dell_alienware/"
+            "title": "Poll: Does Your New Alienware AW3225QF Have Micro scratches / Smudges due to Bubble Wrap Packaging?",
+            "url": "https://old.reddit.com/r/OLED_Gaming/comments/1au0vt8/poll_does_your_new_alienware_aw3225qf_have_micro/"
+          },
+          {
+            "platform": "Dell Community",
+            "title": "AW3225QF, screen scratches",
+            "url": "https://www.dell.com/community/en/conversations/alienware-desktops/aw3225qf-screen-scratches/65cfe5920217a51eb1a3fde2"
           }
         ],
         "candidateReviews": [

@@ -1206,9 +1206,9 @@
     "name": "全能滾筒旗艦機皇掃拖機器人",
     "price": {
       "currency": "TWD",
-      "amount": 31880,
-      "converted": 31880,
-      "confidence": "PChome 2026-07-22 API exact-model 現貨公開價"
+      "amount": 29380,
+      "converted": 29380,
+      "confidence": "PChome 2026-07-22 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL0JA900JCCJT/000001_1782802020.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBL0J-A900JCCJT",
@@ -1303,9 +1303,9 @@
     "name": "熱旋風延邊避障全能掃拖機器人",
     "price": {
       "currency": "TWD",
-      "amount": 21880,
-      "converted": 21880,
-      "confidence": "PChome 2026-07-22 API exact-model 現貨公開價"
+      "amount": 19880,
+      "converted": 19880,
+      "confidence": "PChome 2026-07-22 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL0JA900ITF7U/000001_1782802931.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBL0J-A900ITF7U",
@@ -1468,9 +1468,9 @@
     "name": "自動壓縮集塵掃拖機器人",
     "price": {
       "currency": "TWD",
-      "amount": 14880,
-      "converted": 14880,
-      "confidence": "PChome 2026-07-22 API exact-model 現貨公開價"
+      "amount": 13380,
+      "converted": 13380,
+      "confidence": "PChome 2026-07-22 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL0JA900J02LR/000001_1782803287.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBL0J-A900J02LR",

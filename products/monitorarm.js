@@ -422,9 +422,9 @@
     "name": "DELTA-S 20KG 49 吋高承重氣壓式螢幕支架",
     "price": {
       "currency": "TWD",
-      "amount": 2249,
-      "converted": 2249,
-      "confidence": "PChome 2026-07-22 API exact-model 現貨公開價"
+      "amount": 2009,
+      "converted": 2009,
+      "confidence": "PChome 2026-07-22 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DCAGRJA900JS174/000001_1772508775.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DCAGTU-A900JXNXN",
@@ -1232,9 +1232,9 @@
     "name": "45吋 20KG 氣壓式螢幕支架",
     "price": {
       "currency": "TWD",
-      "amount": 3490,
-      "converted": 3490,
-      "confidence": "PChome 2026-07-22 API exact-model 現貨公開價"
+      "amount": 2999,
+      "converted": 2999,
+      "confidence": "PChome 2026-07-22 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DCAGU1A900I6WCY/000001_1754374453.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DCAGU1-A900I6WCY",
@@ -1310,9 +1310,9 @@
     "name": "35吋 20KG 雙臂氣壓式螢幕支架",
     "price": {
       "currency": "TWD",
-      "amount": 5990,
-      "converted": 5990,
-      "confidence": "PChome 2026-07-22 API exact-model 現貨公開價"
+      "amount": 5390,
+      "converted": 5390,
+      "confidence": "PChome 2026-07-22 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DCAGU1A900IX2MD/000001_1749518938.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DCAGU1-A900IX2MD",
@@ -1388,9 +1388,9 @@
     "name": "台灣製氣壓式螢幕支架加長桿組",
     "price": {
       "currency": "TWD",
-      "amount": 4780,
-      "converted": 4780,
-      "confidence": "PChome 2026-07-22 API exact-model 現貨公開價"
+      "amount": 4540,
+      "converted": 4540,
+      "confidence": "PChome 2026-07-22 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABN2A900GINEE/000001_1690179981.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DSABN2-A900GINEE",

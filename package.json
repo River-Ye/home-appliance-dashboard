@@ -13,6 +13,7 @@
     "check:ui": "node tools/verify-dashboard.js",
     "check:ui:full": "node tools/verify-dashboard.js --full",
     "check:quality": "node tools/check-quality.js",
+    "audit:pchome-prices": "node tools/sync-pchome-prices.js",
     "generate:categories": "node tools/generate-category-pages.js"
   },
   "devDependencies": {

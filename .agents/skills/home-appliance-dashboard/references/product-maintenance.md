@@ -17,6 +17,7 @@ Use this reference for recurring catalog work: new products, price/link/image up
 https://ecapi-cdn.pchome.com.tw/ecshop/prodapi/v2/prod?id=<PID>&fields=Id,Name,Nick,Pic,Price,Qty
 ```
 
+- PChome `Price.Low` is the public discount price rendered as `折扣價` when it is a positive number; prefer it over `Price.P` (`網路價`). Use `Price.P` only when `Price.Low` is absent or non-positive. Run `node tools/sync-pchome-prices.js` to audit this rule, and pass `--write --date=YYYY-MM-DD` only after reviewing the output.
 - Treat PChome `Qty: 0` as no-stock tracking, not discontinuation by itself.
 - For Yahoo image failures on old `img.yec.tw/zp/MerchandiseImages/...` URLs, inspect the product page schema and prefer the current `cl/api/res/.../https://img.yec.tw/fy/...jpg` image when available.
 - Do not remove a product unless there is positive evidence such as the product page disappearing, official discontinuation, or repeated no-page/no-stock evidence across checks.

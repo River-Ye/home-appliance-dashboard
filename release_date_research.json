@@ -1,13 +1,13 @@
 {
   "summary": {
-    "checkedAt": "2026-07-21T23:09:35.438Z",
+    "checkedAt": "2026-07-22T00:42:25Z",
     "total": 668,
-    "found": 179,
-    "missing": 489,
+    "found": 180,
+    "missing": 488,
     "byConfidence": {
-      "official": 78,
-      "credible_article": 90,
-      "not_found": 489,
+      "official": 80,
+      "credible_article": 89,
+      "not_found": 488,
       "retailer_explicit": 11
     }
   },
@@ -9310,14 +9310,14 @@
       "brand": "Dyson",
       "model": "HJ10",
       "name": "HushJet Purifier Compact 噴射氣流空氣清淨機",
-      "releaseDate": "2026-01-14",
-      "sourceUrl": "https://3c.ltn.com.tw/news/64589",
-      "sourceTitle": "Dyson空氣清淨機安靜一夜好眠 星形噴嘴放大氣流加快循環 360度雙層過濾全室淨化",
-      "evidenceSnippet": "自由電子報 3C 科技於 2026-01-14 報導 Dyson 全新 HushJet HJ10，列出型號、售價、氣流、24 dB 與上市優惠。",
-      "confidence": "credible_article",
-      "query": "Dyson HJ10 release date 台灣 上市 2026",
+      "releaseDate": "2025-09-30",
+      "sourceUrl": "https://www.dyson.com/discover/innovation/new-machines/dyson-hushjet-purifier-compact",
+      "sourceTitle": "Introducing the Dyson HushJet Purifier Compact",
+      "evidenceSnippet": "Dyson 官方公告明示 HushJet Purifier Compact 自 2025-09-30 起於 Dyson.com、Dyson Demo Stores 與指定美國通路販售。",
+      "confidence": "official",
+      "query": "site:dyson.com HushJet Purifier Compact available September 30",
       "sourceKind": "manual_research",
-      "reason": "採可信媒體明確報導的台灣新品上市日；未以商品頁更新日、通路上架日或型號年份推定。"
+      "reason": "採品牌官方明確寫出的首次可購日期；未使用媒體文章發布日或台灣通路上架日推定。"
     },
     {
       "id": "washerdryer-lg-wd-s2220b",
@@ -9325,14 +9325,14 @@
       "brand": "LG",
       "model": "WD-S2220B",
       "name": "LG WashTower AI 智控洗乾衣機第二代",
-      "releaseDate": "找不到",
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "confidence": "not_found",
-      "query": "LG WD-S2220B release date 台灣 上市 發表",
+      "releaseDate": "2025-07-08",
+      "sourceUrl": "https://www.lg.com/tw/about-lg/press-and-media/lg-washtower-upgrade-new-launch-20250708/",
+      "sourceTitle": "LG 明星商品大升級！WashTower 第二代 洗乾全 AI，護衣、節能又省時！",
+      "evidenceSnippet": "LG 台灣 2025-07-08 官方新聞稿明示推出 WashTower 第二代，並直接列出尊爵黑 22kg/20kg 型號 WD-S2220B。",
+      "confidence": "official",
+      "query": "site:lg.com/tw WD-S2220B WashTower 第二代 2025年7月8日",
       "sourceKind": "manual_research",
-      "reason": "找到 LG 台灣產品頁與可信通路，但沒有品牌新聞稿或可信媒體以明確上市／發售措辭提供日期，因此不以產品頁年份或通路上架日推定。"
+      "reason": "採 LG 台灣官方新聞稿的明確推出日期與 exact-model 列示。"
     }
   ]
 }

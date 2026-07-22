@@ -727,6 +727,11 @@ function validateIssueReviewManifest(root, products, failures) {
       assert(checkedPlatforms.has(normalize(source.platform)), `${prefix} platform must be declared in checkedPlatforms`, failures);
     }
     const researchRow = researchById.get(product.id);
+    assert(
+      JSON.stringify(researchRow?.manualReview?.representativeSources || []) === JSON.stringify(row.representativeSources || []),
+      `${product.id} issue research representativeSources must match the review manifest`,
+      failures,
+    );
     const expectedCandidateKeys = (researchRow?.searchChecks || [])
       .flatMap((searchCheck) => searchCheck.candidates || [])
       .map(candidateReviewKey)
@@ -890,10 +895,63 @@ function validateCategoryContent(products, failures) {
   }
 }
 
+function validateMaintenanceReport(root, categories, products, dataDate, failures) {
+  const reportFile = path.join(root, `catalog_maintenance_${dataDate}.json`);
+  assert(fs.existsSync(reportFile), `missing maintenance report for ${dataDate}`, failures);
+  if (!fs.existsSync(reportFile)) return;
+
+  const report = JSON.parse(fs.readFileSync(reportFile, "utf8"));
+  const productById = new Map(products.map((product) => [product.id, product]));
+  const minimumCount = Math.min(...categories.map((category) => categoryProducts(products, category.id).length));
+  assert(report.summary?.finalProducts === products.length, "maintenance report final product count is stale", failures);
+  assert(report.summary?.categories === categories.length, "maintenance report category count is stale", failures);
+  assert(report.summary?.minimumProductsPerCategory === minimumCount, "maintenance report minimum category count is stale", failures);
+  assert(report.summary?.priceChanges === report.changes?.prices?.length, "maintenance report price change summary is inconsistent", failures);
+  assert(report.summary?.linkChanges === report.changes?.links?.length, "maintenance report link change summary is inconsistent", failures);
+  assert(report.summary?.imageChanges === report.changes?.images?.length, "maintenance report image change summary is inconsistent", failures);
+  assert(report.categoryScan?.length === categories.length, "maintenance report category scan is incomplete", failures);
+  assert(report.currentSourceAudit?.length === products.length, "maintenance report current source audit is incomplete", failures);
+  assert(report.imageAudit?.length === products.length, "maintenance report image audit is incomplete", failures);
+
+  const categoryScan = new Map((report.categoryScan || []).map((row) => [row.category, row]));
+  for (const category of categories) {
+    const row = categoryScan.get(category.id);
+    const count = categoryProducts(products, category.id).length;
+    assert(row?.finalProductCount === count, `${category.id} maintenance scan product count is stale`, failures);
+    assert(row?.minimumSatisfied === (count >= MIN_PRODUCTS_PER_CATEGORY), `${category.id} maintenance minimum flag is stale`, failures);
+  }
+
+  for (const row of report.currentSourceAudit || []) {
+    const product = productById.get(row.id);
+    assert(product, `maintenance source audit has unknown product ${row.id}`, failures);
+    if (!product) continue;
+    assert(row.url === product.buyUrl, `${row.id} maintenance source URL is stale`, failures);
+    assert(row.image === product.image, `${row.id} maintenance source image is stale`, failures);
+    assert(!String(row.image).includes("[object Object]"), `${row.id} maintenance source image is malformed`, failures);
+  }
+
+  for (const row of report.imageAudit || []) {
+    const product = productById.get(row.id);
+    assert(product, `maintenance image audit has unknown product ${row.id}`, failures);
+    if (!product) continue;
+    assert(row.url === product.image, `${row.id} maintenance image URL is stale`, failures);
+    assert(!String(row.url).includes("[object Object]"), `${row.id} maintenance image URL is malformed`, failures);
+  }
+
+  const historicalStatuses = new Map();
+  for (const row of report.historicalSourceAudit || []) {
+    historicalStatuses.set(row.status, (historicalStatuses.get(row.status) || 0) + 1);
+  }
+  assert((report.historicalSourceAudit || []).length === report.summary?.historicalFound, "maintenance historical source audit count is inconsistent", failures);
+  assert(historicalStatuses.get("verified") === report.summary?.historicalSourcesVerified, "maintenance verified historical source count is inconsistent", failures);
+  assert(historicalStatuses.get("blocked") === report.summary?.historicalSourcesBlocked, "maintenance blocked historical source count is inconsistent", failures);
+  assert(historicalStatuses.get("model_unverified") === report.summary?.historicalSourcesModelUnverified, "maintenance unverified historical source count is inconsistent", failures);
+}
+
 function main() {
   const root = path.resolve(__dirname, "..");
   const failures = [];
-  const { categories, products } = readDashboardProducts(root);
+  const { categories, products, meta } = readDashboardProducts(root);
   const categoryIds = new Set(categories.map((category) => category.id));
 
   assert(categories.length === EXPECTED_CATEGORY_COUNT, `expected ${EXPECTED_CATEGORY_COUNT} categories, got ${categories.length}`, failures);
@@ -946,6 +1004,7 @@ function main() {
   validateIssueReviewManifest(root, products, failures);
   validateIssueResearchFile(root, products, failures);
   validateCategoryContent(products, failures);
+  validateMaintenanceReport(root, categories, products, meta.dataDate, failures);
 
   if (failures.length) {
     console.error(failures.map((failure) => `- ${failure}`).join("\n"));

@@ -491,9 +491,9 @@
     "name": "Fujin 風靈網狀人體工學電競椅",
     "price": {
       "currency": "TWD",
-      "amount": 12990,
-      "converted": 12990,
-      "confidence": "PChome 2026-07-22 API exact-model 現貨公開價"
+      "amount": 11091,
+      "converted": 11091,
+      "confidence": "PChome 2026-07-22 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DCBT0KA900GSDTK/000001_1762771347.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DCBT0K-A900GSDTK",
@@ -570,9 +570,9 @@
     "name": "Iskur V2 電競椅",
     "price": {
       "currency": "TWD",
-      "amount": 17990,
-      "converted": 17990,
-      "confidence": "PChome 2026-07-22 API exact-model 現貨公開價"
+      "amount": 17390,
+      "converted": 17390,
+      "confidence": "PChome 2026-07-22 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DCBE2LA900HBXCK/000001_1783562976.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DCBE2L-A900HBXCK",
@@ -658,9 +658,9 @@
     "name": "Enki 電競椅",
     "price": {
       "currency": "TWD",
-      "amount": 14900,
-      "converted": 14900,
-      "confidence": "PChome 2026-07-22 API exact-model 現貨公開價"
+      "amount": 12810,
+      "converted": 12810,
+      "confidence": "PChome 2026-07-22 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DCAKFOA900BWWGS/000001_1755481797.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DCAKFO-A900BWWGS",

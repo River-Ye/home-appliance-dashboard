@@ -1100,9 +1100,9 @@
     "image": "https://cs-a.ecimg.tw/items/DEAWGAA900B4V1I/000001_1670815636.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 1490,
-      "converted": 1490,
-      "confidence": "PChome 2026-07-22 API exact-model 現貨公開價"
+      "amount": 1415,
+      "converted": 1415,
+      "confidence": "PChome 2026-07-22 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "channel": "tw",
     "buyLabel": "PChome",

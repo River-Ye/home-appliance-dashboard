@@ -273,9 +273,9 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/16E678AC30-SP-17622644.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 13900,
-      "converted": 13900,
-      "confidence": "PChome 2026-07-22 API exact-model 現貨公開價"
+      "amount": 11900,
+      "converted": 11900,
+      "confidence": "PChome 2026-07-22 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -2104,7 +2104,7 @@
       "WashTower"
     ],
     "category": "washerdryer",
-    "releaseDate": "找不到",
+    "releaseDate": "2025-07-08",
     "historicalLow": {
       "status": "not_found",
       "amount": null,

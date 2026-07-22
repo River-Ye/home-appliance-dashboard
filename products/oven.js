@@ -17,9 +17,9 @@
     "name": "27L 蒸烘烤微波爐",
     "price": {
       "currency": "TWD",
-      "amount": 15900,
-      "converted": 15900,
-      "confidence": "PChome 2026-07-22 API exact-model 現貨公開價"
+      "amount": 12490,
+      "converted": 12490,
+      "confidence": "PChome 2026-07-22 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBJ02A900G62BM/000001_1756899692.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBJ02-A900G62BM",

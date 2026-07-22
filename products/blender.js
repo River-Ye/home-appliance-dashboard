@@ -688,9 +688,9 @@
     "name": "Ascent A2500i 全食物調理機白色",
     "price": {
       "currency": "TWD",
-      "amount": 26640,
-      "converted": 26640,
-      "confidence": "PChome 2026-07-18 API 公開價"
+      "amount": 29600,
+      "converted": 29600,
+      "confidence": "PChome 2026-07-22 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/QBAO0FA900AS2DJ/000001_1782460671.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/QBAO0F-A900AS2DJ",

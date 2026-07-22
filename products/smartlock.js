@@ -1517,9 +1517,9 @@
     "name": "SHP-P52 推拉式電子鎖",
     "price": {
       "currency": "TWD",
-      "amount": 24500,
-      "converted": 24500,
-      "confidence": "PChome 2026-07-22 API exact-model 現貨公開價"
+      "amount": 23275,
+      "converted": 23275,
+      "confidence": "PChome 2026-07-22 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBS4NA900JXYBS/000001_1776909348.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBS4N-A900JXYBS",
@@ -1673,9 +1673,9 @@
     "name": "ML660 四合一智能電子鎖",
     "price": {
       "currency": "TWD",
-      "amount": 25000,
-      "converted": 25000,
-      "confidence": "PChome 2026-07-22 API exact-model 現貨公開價"
+      "amount": 23750,
+      "converted": 23750,
+      "confidence": "PChome 2026-07-22 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DECE4EA900DXNUC/000001_1643338134.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DECE4E-A900DXNUC",
@@ -2142,9 +2142,9 @@
     "name": "FB63M 精簡電子智慧門鎖",
     "price": {
       "currency": "TWD",
-      "amount": 14500,
-      "converted": 14500,
-      "confidence": "PChome 2026-07-22 API exact-model 現貨公開價"
+      "amount": 13775,
+      "converted": 13775,
+      "confidence": "PChome 2026-07-22 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBS4NA900I8ITU/000001_1753416985.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBS4N-A900I8ITU",
@@ -2220,9 +2220,9 @@
     "name": "FB70X 樸實電子智慧門鎖",
     "price": {
       "currency": "TWD",
-      "amount": 22000,
-      "converted": 22000,
-      "confidence": "PChome 2026-07-22 API exact-model 現貨公開價"
+      "amount": 20900,
+      "converted": 20900,
+      "confidence": "PChome 2026-07-22 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DQAT0IA900GXIHM/000001_1764834253.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQAT0I-A900GXIHM",
@@ -2376,9 +2376,9 @@
     "name": "七合一人臉/貓眼掌靜脈電子鎖",
     "price": {
       "currency": "TWD",
-      "amount": 29800,
-      "converted": 29800,
-      "confidence": "PChome 2026-07-22 API exact-model 現貨公開價"
+      "amount": 28310,
+      "converted": 28310,
+      "confidence": "PChome 2026-07-22 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBS4NA900IT8YL/000001_1782961750.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBS4N-A900IT8YL",
@@ -2454,9 +2454,9 @@
     "name": "和系列全自動七合一智慧鎖",
     "price": {
       "currency": "TWD",
-      "amount": 22900,
-      "converted": 22900,
-      "confidence": "PChome 2026-07-22 API exact-model 現貨公開價"
+      "amount": 21755,
+      "converted": 21755,
+      "confidence": "PChome 2026-07-22 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBS4NA900JLLZ3/000001_1782963047.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBS4N-A900JLLZ3",
@@ -2532,9 +2532,9 @@
     "name": "逸系列微光夜視貓眼電子鎖",
     "price": {
       "currency": "TWD",
-      "amount": 38800,
-      "converted": 38800,
-      "confidence": "PChome 2026-07-22 API exact-model 現貨公開價"
+      "amount": 36860,
+      "converted": 36860,
+      "confidence": "PChome 2026-07-22 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBS4NA900K2QWO/000001_1782963114.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBS4N-A900K2QWO",
@@ -2766,9 +2766,9 @@
     "name": "Tiko One 指紋卡片密碼電子鎖",
     "price": {
       "currency": "TWD",
-      "amount": 17800,
-      "converted": 17800,
-      "confidence": "PChome 2026-07-22 API exact-model 現貨公開價"
+      "amount": 16910,
+      "converted": 16910,
+      "confidence": "PChome 2026-07-22 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBS4NA900K0KZV/000001_1779265986.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBS4N-A900K0KZV",
@@ -3312,9 +3312,9 @@
     "name": "DJS-SK07 全自動智慧電子鎖",
     "price": {
       "currency": "TWD",
-      "amount": 23400,
-      "converted": 23400,
-      "confidence": "PChome 2026-07-22 API exact-model 現貨公開價"
+      "amount": 22230,
+      "converted": 22230,
+      "confidence": "PChome 2026-07-22 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBS4NA900J5GYW/000001_1755762130.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBS4N-A900J5GYW",

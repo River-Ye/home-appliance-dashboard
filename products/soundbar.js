@@ -187,9 +187,9 @@
     "name": "BRAVIA Theatre Bar 6 3.1.2 聲道",
     "price": {
       "currency": "TWD",
-      "amount": 10710,
-      "converted": 10710,
-      "confidence": "PChome 2026-07-22 API exact-model 現貨公開價"
+      "amount": 11900,
+      "converted": 11900,
+      "confidence": "PChome 2026-07-22 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAAODA900JMC1Q/000001_1781726516.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAAOD-A900JMC1Q",
@@ -265,9 +265,9 @@
     "name": "BRAVIA Theatre Bar 7 5.0.2 聲道 Soundbar",
     "price": {
       "currency": "TWD",
-      "amount": 22900,
-      "converted": 22900,
-      "confidence": "PChome 2026-07-22 API exact-model 現貨公開價"
+      "amount": 20610,
+      "converted": 20610,
+      "confidence": "PChome 2026-07-22 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://img.pchome.com.tw/cs/items/DMAAN8A900K0Y8L/000001_1779181877.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAAN8-A900K0Y8L",
@@ -1603,9 +1603,9 @@
     "name": "Fidelio 7.1.2 Dolby Atmos 旗艦聲霸",
     "price": {
       "currency": "TWD",
-      "amount": 38900,
-      "converted": 38900,
-      "confidence": "PChome 2026-07-22 API exact-model 現貨公開價"
+      "amount": 36955,
+      "converted": 36955,
+      "confidence": "PChome 2026-07-22 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAF02A900H2G5R/000001_1704612188.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAF02-A900H2G5R",

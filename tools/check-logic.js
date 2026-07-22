@@ -2,6 +2,7 @@ const fs = require("fs");
 const path = require("path");
 const vm = require("vm");
 const { readDashboardProducts } = require("./read-dashboard-products");
+const { matchesPchomeProductId, selectPchomeCurrentPrice } = require("./pchome-product-api");
 const { validateExplicitReview } = require("./mark-product-issue-review");
 const { validateExplicitReport, validateUniqueReportExcerpts } = require("./verified-product-issues");
 const {
@@ -371,6 +372,27 @@ async function assertRejects(promise, pattern) {
 }
 
 async function main() {
+  assert(
+    selectPchomeCurrentPrice({ P: 79900, Low: 49618 }) === 49618,
+    "PChome public discount price should take precedence over the network price",
+  );
+  assert(
+    selectPchomeCurrentPrice({ P: 41310, Low: null }) === 41310,
+    "PChome network price should be used when no public discount price exists",
+  );
+  assert(
+    selectPchomeCurrentPrice({ P: null, Low: 0 }) === null,
+    "PChome products without a positive public price must be rejected",
+  );
+  assert(
+    matchesPchomeProductId("DPADYE-A900JC4MY", { Id: "DPADYE-A900JC4MY-000" }),
+    "PChome API product IDs should match the requested SKU and item suffix",
+  );
+  assert(
+    !matchesPchomeProductId("DPADYE-A900JC4MY", { Id: "DPADYE-A900OTHER" }),
+    "PChome API product ID drift must be rejected",
+  );
+
   assertManualAdsLogic();
   const { context, dashboard } = createRuntime();
   const { categories, filters, meta, products, productLoader, templates, utils } = dashboard;
