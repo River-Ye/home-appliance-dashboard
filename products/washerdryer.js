@@ -961,9 +961,9 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/32FF0A7411-SP-21060003.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 38900,
-      "converted": 38900,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 32900,
+      "converted": 32900,
+      "confidence": "PChome 2026-07-22 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -1005,16 +1005,16 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 34900,
+      "amount": 32900,
       "currency": "TWD",
-      "converted": 34900,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1258788832&cgp=38900",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：(店+)【Samsung 三星】WD12DB9B84GDTW 12+7KG BESPOKE設計品味系列 蒸洗脫烘智慧變頻滾筒洗衣機",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / (店+)【Samsung 三星】WD12DB9B84GDTW 12+7KG BESPOKE設計品味系列 蒸洗脫烘智慧變頻滾筒洗衣機」最低價為 NT$34,900，最低點日期 2025-11-08。",
-      "sourceKind": "price_history",
-      "confidence": "high",
-      "checkedAt": "2026-07-09",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+      "converted": 32900,
+      "sourceUrl": "https://24h.pchome.com.tw/prod/DPAI1N-A900I8IJ8",
+      "sourceTitle": "PChome 24h 購物：SAMSUNG三星 12公斤變頻Bespoke蒸洗脫烘滾筒洗衣機 WD12DB9B84GDTW",
+      "evidenceSnippet": "PChome 商品 API 於 2026-07-22 回傳同型號可信新品公開價 NT$32,900，低於既有史低 NT$34,900。",
+      "sourceKind": "retailer_page",
+      "confidence": "medium",
+      "checkedAt": "2026-07-22",
+      "note": "採用 PChome 當日可購商品 API 的同型號新品公開價；不含會員券、點數、信用卡回饋、二手、福利、展示、拆封或整新品。"
     },
     "issueResearch": {
       "status": "no_common_issue",

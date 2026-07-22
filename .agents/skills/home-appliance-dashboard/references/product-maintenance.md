@@ -7,6 +7,7 @@ Use this reference for recurring catalog work: new products, price/link/image up
 - Read `AGENTS.md`, `README.md`, `assets/js/config.js`, `tools/dashboard-contract.js`, and `tools/read-dashboard-products.js`.
 - Treat `assets/js/config.js` `meta` and `tools/dashboard-contract.js` as the code-side source for product/category counts and dates.
 - Keep every category at 20+ products, preserve required brand/category coverage, and update research JSON files whenever evidence-backed fields change.
+- Start a new data date with `npm run maintain:catalog -- --draft --date=YYYY-MM-DD --baseline-ref=origin/main`. Review `.maintenance-draft.json`, record every category as `manually_reviewed`, then rerun with `--write`; the daily workflow uploads a draft instead of failing or mutating data when same-date decisions do not yet exist.
 
 ## Price, Link, And Image Audits
 
@@ -17,10 +18,11 @@ Use this reference for recurring catalog work: new products, price/link/image up
 https://ecapi-cdn.pchome.com.tw/ecshop/prodapi/v2/prod?id=<PID>&fields=Id,Name,Nick,Pic,Price,Qty
 ```
 
-- PChome `Price.Low` is the public discount price rendered as `折扣價` when it is a positive number; prefer it over `Price.P` (`網路價`). Use `Price.P` only when `Price.Low` is absent or non-positive. Run `node tools/sync-pchome-prices.js` to audit this rule, and pass `--write --date=YYYY-MM-DD` only after reviewing the output.
+- PChome `Price.Low` is the public discount price rendered as `折扣價` when it is a positive number; prefer it over `Price.P` (`網路價`). Use `Price.P` only when `Price.Low` is absent or non-positive. The full runner enforces the product-ID binding and tracks `Qty: 0` without writing it; use `npm run audit:pchome-prices` only for a focused read-only PChome audit.
+- Automatic non-PChome price writes are restricted to a single exact-model, same-currency structured price from the explicitly trusted Yahoo Taiwan or Costco Taiwan host. Ambiguous prices, blocked pages, and model-unverified pages stay as report exceptions.
 - Treat PChome `Qty: 0` as no-stock tracking, not discontinuation by itself.
 - For Yahoo image failures on old `img.yec.tw/zp/MerchandiseImages/...` URLs, inspect the product page schema and prefer the current `cl/api/res/.../https://img.yec.tw/fy/...jpg` image when available.
-- Do not remove a product unless there is positive evidence such as the product page disappearing, official discontinuation, or repeated no-page/no-stock evidence across checks.
+- Do not remove a product unless the brand's official page or announcement explicitly establishes discontinuation for the exact model. A missing page, retailer no-stock signal, fetch block, stale image, or repeated network failure is not sufficient.
 
 ## Exchange Rates And Foreign Prices
 
@@ -33,6 +35,13 @@ https://ecapi-cdn.pchome.com.tw/ecshop/prodapi/v2/prod?id=<PID>&fields=Id,Name,N
 - If no trustworthy release date exists, use `找不到` and keep `release_date_research.json` aligned.
 - Historical lows must be same model and same size/capacity/spec where relevant. Exclude member-only personal discounts, card rebates, points, used/refurbished/display/open-box/damaged-box items, accessories, and consumables.
 - Keep `historical_price_research.json` exactly aligned with product `historicalLow` objects.
+- The runner may lower an existing `found` historical low when the same trusted exact-model public price is lower. It must never manufacture a historical low for an existing `not_found` row or invalidate retained evidence from a blocked/model-unverified source automatically.
+
+## Audit Artifacts And Documentation
+
+- `catalog_maintenance_latest.json` is the committed compact contract: counts, category decisions, changes, exact checked ID sets, exceptions, exchange rates, and manually reviewed discontinuation candidates.
+- `.maintenance-audit.json` is the verbose per-request evidence and `.maintenance-draft.json` is the pending compact decision surface. Keep both out of git and upload them only as short-lived CI artifacts when useful.
+- After the report is final, run `npm run sync:maintenance-metadata`; do not hand-maintain dated log histories in README or AGENTS.
 
 ## Product Issue And Complaint Research
 

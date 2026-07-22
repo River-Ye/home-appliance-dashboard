@@ -2,7 +2,29 @@ const fs = require("fs");
 const path = require("path");
 const vm = require("vm");
 const { readDashboardProducts } = require("./read-dashboard-products");
+const {
+  exactModelMatch,
+  isExcludedListing,
+  isExplicitlyDiscontinued,
+  isReviewedPchomeBinding,
+  normalizeIdentity,
+  tokenizedIdentity,
+} = require("./catalog-maintenance-policy");
 const { matchesPchomeProductId, selectPchomeCurrentPrice } = require("./pchome-product-api");
+const {
+  normalizeExchangeDate,
+  replaceMarkerBlock,
+} = require("./update-maintenance-metadata");
+const {
+  buildCompactReport,
+  maintenanceReviewReady,
+  mergeDiscontinuationReviews,
+  pchomeProductId,
+  structuredPriceCandidates,
+  trustedStructuredPrice,
+  updateDashboardContractSource,
+  updateDimensionCategoryCounts,
+} = require("./run-daily-catalog-maintenance");
 const { validateExplicitReview } = require("./mark-product-issue-review");
 const { validateExplicitReport, validateUniqueReportExcerpts } = require("./verified-product-issues");
 const {
@@ -372,6 +394,226 @@ async function assertRejects(promise, pattern) {
 }
 
 async function main() {
+  const markerSource = [
+    "before",
+    "<!-- maintenance:start -->",
+    "old",
+    "<!-- maintenance:end -->",
+    "after",
+  ].join("\n");
+  assert(
+    replaceMarkerBlock(markerSource, "maintenance", "new\nsummary") === [
+      "before",
+      "<!-- maintenance:start -->",
+      "new",
+      "summary",
+      "<!-- maintenance:end -->",
+      "after",
+    ].join("\n"),
+    "maintenance metadata should replace only the generated marker body",
+  );
+  assertThrows(
+    () => replaceMarkerBlock("missing markers", "maintenance", "summary"),
+    "maintenance metadata should reject documents without its markers",
+  );
+  assert(
+    normalizeExchangeDate("Wed, 22 Jul 2026 00:02:31 +0000") === "2026-07-22 00:02 UTC",
+    "exchange metadata should normalize API timestamps",
+  );
+  assert(
+    pchomeProductId("https://24h.pchome.com.tw/prod/DPADYE-A900JC4MY") === "DPADYE-A900JC4MY",
+    "daily maintenance should extract only canonical PChome product IDs",
+  );
+  assert(
+    pchomeProductId("https://example.com/prod/DPADYE-A900JC4MY") === null,
+    "daily maintenance should reject non-PChome product URLs",
+  );
+  assert(
+    isReviewedPchomeBinding("robot-ecovacs-x11-pro", "DMBL0L-A900J5HJ0"),
+    "manually reviewed PChome source bindings should allow the exact approved product ID",
+  );
+  assert(
+    !isReviewedPchomeBinding("robot-ecovacs-x11-pro", "DMBL0L-A900IDIPA"),
+    "manually reviewed PChome source bindings must reject a different product ID",
+  );
+  const structuredPrices = structuredPriceCandidates(`
+    <script type="application/ld+json">
+      {"@type":"Product","offers":{"price":"7,490","priceCurrency":"TWD"}}
+    </script>
+  `);
+  assert(
+    structuredPrices.length === 1
+      && structuredPrices[0].amount === 7490
+      && structuredPrices[0].currency === "TWD",
+    "daily maintenance should extract a structured public price without writing it automatically",
+  );
+  assert(
+    trustedStructuredPrice(
+      "https://tw.buy.yahoo.com/gdsale/example-1.html",
+      structuredPrices,
+      "TWD",
+    ) === 7490,
+    "daily maintenance should accept one exact public Yahoo structured price",
+  );
+  assert(
+    trustedStructuredPrice(
+      "https://brand.example/products/model",
+      structuredPrices,
+      "TWD",
+    ) === null,
+    "daily maintenance should not auto-write structured prices from unapproved hosts",
+  );
+  const retainedDiscontinuationReview = mergeDiscontinuationReviews(
+    [{ id: "oven-breville-joule", url: "https://www.breville.com/en-us/product/bov950", disposition: "manual_official_evidence_required" }],
+    new Map([["oven-breville-joule", {
+      id: "oven-breville-joule",
+      url: "https://old.example.invalid/bov950",
+      disposition: "false_positive_retained",
+      reviewedAt: "2026-07-22T14:16:00.000Z",
+    }]]),
+  )[0];
+  assert(retainedDiscontinuationReview.disposition === "false_positive_retained", "a same-date manual discontinuation review must survive a rerun");
+  assert(retainedDiscontinuationReview.url === "https://www.breville.com/en-us/product/bov950", "a retained review must use the current candidate URL");
+  assert(
+    maintenanceReviewReady({ dataDate: "2026-07-22", categoryScan: [{ status: "manually_reviewed" }] }, "2026-07-22"),
+    "same-date explicit category reviews should allow finalization",
+  );
+  assert(
+    !maintenanceReviewReady({ dataDate: "2026-07-22", categoryScan: [{ status: "manually_reviewed" }] }, "2026-07-23"),
+    "a new data date should require a draft and fresh category reviews",
+  );
+  const baselineProduct = {
+    id: "fixture-product",
+    buyUrl: "https://old.example/product",
+    buyLabel: "Old retailer",
+    image: "https://old.example/image.jpg",
+    price: { amount: 1000, currency: "TWD" },
+    historicalLow: { status: "not_found" },
+  };
+  const currentProduct = {
+    ...baselineProduct,
+    buyUrl: "https://new.example/product",
+    buyLabel: "New retailer",
+    image: "https://new.example/image.jpg",
+    price: { amount: 900, currency: "TWD" },
+  };
+  const compactChangeFixture = buildCompactReport({
+    catalog: { products: [currentProduct], categories: [{ items: [currentProduct] }] },
+    baselineById: new Map([[baselineProduct.id, baselineProduct]]),
+    raw: {
+      sourceRows: [{
+        id: currentProduct.id,
+        sourceKind: "pchome_api",
+        status: "verified_available",
+        exactModel: true,
+        manualBindingApproved: true,
+      }],
+      imageRows: [{ id: currentProduct.id, status: "verified" }],
+      historicalRows: [],
+      foreignPriceChanges: [],
+      discontinuedCandidates: [],
+    },
+    exchange: {},
+    checkedAt: "2026-07-22T00:00:00.000Z",
+    categoryScan: [],
+  });
+  assert(compactChangeFixture.summary.linkChanges === 1, "compact maintenance report should detect a changed purchase link");
+  assert(compactChangeFixture.summary.imageChanges === 1, "compact maintenance report should detect a changed image link");
+  assert(compactChangeFixture.summary.pchomeExactModelVerified === 1, "an exact PChome match should be counted once");
+  assert(compactChangeFixture.summary.pchomeReviewedBindingVerified === 0, "a reviewed PChome binding must be counted only as an exact-model fallback");
+  assert(compactChangeFixture.changes.links[0].afterUrl === currentProduct.buyUrl, "compact maintenance report should retain the new purchase link");
+  assert(compactChangeFixture.changes.images[0].after === currentProduct.image, "compact maintenance report should retain the new image link");
+  assert(
+    updateDashboardContractSource("const EXPECTED_CATEGORY_COUNT = 25;\nconst EXPECTED_PRODUCT_COUNT = 668;", 669, 26)
+      === "const EXPECTED_CATEGORY_COUNT = 26;\nconst EXPECTED_PRODUCT_COUNT = 669;",
+    "catalog maintenance should keep dashboard contract counts synchronized",
+  );
+  assert(
+    updateDimensionCategoryCounts(
+      '[\n  ["washer", 23],\n  ["dryer", 21],\n  ["washerdryer", 25],\n  ["refrigerator", 23],\n]',
+      new Map([["washer", 24], ["dryer", 22], ["washerdryer", 26], ["refrigerator", 24]]),
+    ).includes('["washerdryer", 26]'),
+    "catalog maintenance should synchronize dimension-category contract counts",
+  );
+
+  assert(normalizeIdentity(null) === "", "catalog identity normalization should tolerate null input");
+  assert(
+    normalizeIdentity("  ＬＧ OLED65－C5PTA  ") === "lgoled65c5pta",
+    "catalog identity normalization should fold width, case, whitespace, and punctuation",
+  );
+  assert(
+    tokenizedIdentity("  ＡＳＵＳ RT－BE58U / V2  ").join(",") === "asus,rt,be58u,v2",
+    "catalog identity tokenization should preserve meaningful model parts",
+  );
+
+  assert(
+    exactModelMatch("LG OLED65C5PTA 65-inch television", "OLED65C5PTA"),
+    "exact-model policy should accept the canonical model",
+  );
+  assert(
+    exactModelMatch("Samsung RT22M4015S8 / TW refrigerator", "RT22M4015S8/TW"),
+    "exact-model policy should tolerate punctuation and spacing differences",
+  );
+  assert(
+    !exactModelMatch("Aqara A100 Pro smart lock", "A100"),
+    "exact-model policy should reject a separated related-model suffix",
+  );
+  assert(
+    !exactModelMatch("Aqara A100Pro smart lock", "A100"),
+    "exact-model policy should reject a concatenated related-model suffix",
+  );
+  assert(
+    !exactModelMatch("ASUS RT-BE58U V2 router", "RT-BE58U"),
+    "exact-model policy should reject a newer hardware revision",
+  );
+  assert(
+    !exactModelMatch("ASUS RT-BE58U router", "RT-BE58U V2"),
+    "exact-model policy should reject a base model for a revision-specific product",
+  );
+  assert(
+    !exactModelMatch("LG C55 owner discussion", "C5"),
+    "exact-model policy should reject a longer numeric model token",
+  );
+  assert(!exactModelMatch("anything", ""), "exact-model policy should reject an empty model");
+
+  for (const listing of [
+    "Samsung OLED TV 二手品",
+    "Dyson refurbished vacuum",
+    "LG display model refrigerator",
+    "Sony open-box television",
+    "Panasonic 配件專用底座",
+    "Coway 替換濾心耗材組",
+    { title: "ASUS router", condition: "Pre-owned" },
+  ]) {
+    assert(isExcludedListing(listing), `catalog policy should exclude ineligible listing: ${JSON.stringify(listing)}`);
+  }
+  assert(
+    !isExcludedListing("LG OLED65C5PTA 65-inch 4K OLED TV 全新品"),
+    "catalog policy should keep a normal new-product listing",
+  );
+  assert(
+    !isExcludedListing("POIEMA P50 空氣清淨機（無耗材、水洗濾網）"),
+    "catalog policy should not treat an explicit no-consumables benefit as a consumable listing",
+  );
+
+  for (const statement of [
+    "本產品已停產。",
+    "原廠已停止生產此型號。",
+    "This model has been discontinued by the manufacturer.",
+    "This product is no longer manufactured.",
+  ]) {
+    assert(isExplicitlyDiscontinued(statement), `explicit discontinuation wording should be accepted: ${statement}`);
+  }
+  for (const statement of [
+    "請問這款是否已停產？",
+    "網友猜測可能停產。",
+    "本商品目前售完，待原廠補貨。",
+    "This model is temporarily out of stock.",
+    "This model has not been discontinued.",
+  ]) {
+    assert(!isExplicitlyDiscontinued(statement), `weak or negated discontinuation wording should be rejected: ${statement}`);
+  }
+
   assert(
     selectPchomeCurrentPrice({ P: 79900, Low: 49618 }) === 49618,
     "PChome public discount price should take precedence over the network price",

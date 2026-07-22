@@ -26,6 +26,7 @@ Use this reference for frontend refactors, validation-tool changes, docs drift p
 - Prefer pure logic tests in `tools/check-logic.js` for sorting, filtering, formatting, and loader URL behavior.
 - Keep browser journeys in `tools/dashboard-ui-journeys.js` and shared layout/assertion helpers in `tools/dashboard-ui-assertions.js`.
 - Keep data-contract constants in `tools/dashboard-contract.js`; update `assets/js/config.js` `meta` and docs together.
+- Keep recurring audit policy in pure, tested helpers under `tools/catalog-maintenance-policy.js`; the network runner should assemble evidence and refuse unsafe writes rather than duplicating policy in workflow YAML.
 - For CSS changes, preserve selectors and visual behavior unless the user asks for a redesign.
 
 ## Release Verification

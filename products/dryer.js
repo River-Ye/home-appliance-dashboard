@@ -518,9 +518,9 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/2618755F67-Product-24570513.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 7120,
-      "converted": 7120,
-      "confidence": "PChome 2026-07-21 API 公開價"
+      "amount": 6621,
+      "converted": 6621,
+      "confidence": "PChome 2026-07-22 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -1352,9 +1352,9 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/C0FA586EC4-SP-18495887.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 7191,
-      "converted": 7191,
-      "confidence": "Yahoo購物中心 2026-07-11 頁面查核價"
+      "amount": 6876,
+      "converted": 6876,
+      "confidence": "Yahoo購物中心 2026-07-22 exact-model 公開結構化價格"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心",
@@ -1393,16 +1393,16 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 7031,
+      "amount": 6876,
       "currency": "TWD",
-      "converted": 7031,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1246118298&cgp=7191",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：HERAN HDM-0841 8KG 抗菌除蟎乾衣機",
-      "evidenceSnippet": "LBJ 比價撿便宜歷史價格顯示 momo 同型號新品最低價為 NT$7,031，最低點日期 2026-07-08。",
-      "sourceKind": "price_history",
-      "confidence": "high",
-      "checkedAt": "2026-07-18",
-      "note": "採用 LBJ 比價撿便宜可公開查核的價格歷史；同型號／規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+      "converted": 6876,
+      "sourceUrl": "https://tw.buy.yahoo.com/gdsale/HERAN%E7%A6%BE%E8%81%AF-8KG-%E4%B9%BE%E8%A1%A3%E6%A9%9F-HDM-0841-11396347.html",
+      "sourceTitle": "Yahoo購物中心：HERAN禾聯 8KG 乾衣機 HDM-0841 | 脫水/乾衣機 | Yahoo購物中心",
+      "evidenceSnippet": "Yahoo購物中心於 2026-07-22 顯示同型號可信新品公開價 NT$6,876，低於既有史低 NT$7,031。",
+      "sourceKind": "retailer_page",
+      "confidence": "medium",
+      "checkedAt": "2026-07-22",
+      "note": "採用 Yahoo購物中心當日可購商品的同型號新品公開價；不含會員券、點數、信用卡回饋、二手、福利、展示、拆封或整新品。"
     },
     "issueResearch": {
       "status": "no_common_issue",

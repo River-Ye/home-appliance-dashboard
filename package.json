@@ -14,6 +14,8 @@
     "check:ui:full": "node tools/verify-dashboard.js --full",
     "check:quality": "node tools/check-quality.js",
     "audit:pchome-prices": "node tools/sync-pchome-prices.js",
+    "maintain:catalog": "node tools/run-daily-catalog-maintenance.js",
+    "sync:maintenance-metadata": "node tools/update-maintenance-metadata.js",
     "generate:categories": "node tools/generate-category-pages.js"
   },
   "devDependencies": {

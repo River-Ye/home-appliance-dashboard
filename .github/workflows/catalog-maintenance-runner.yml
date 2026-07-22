@@ -4,21 +4,18 @@ on:
   push:
     branches:
       - "codex/daily-maintenance-*"
-  pull_request:
-    branches:
-      - main
 
 permissions:
   contents: write
 
 concurrency:
-  group: catalog-maintenance-${{ github.head_ref || github.ref_name }}
+  group: catalog-maintenance-${{ github.ref_name }}
   cancel-in-progress: false
 
 jobs:
   maintain:
     name: Audit catalog and validate
-    if: ${{ github.actor != 'github-actions[bot]' && startsWith(github.head_ref || github.ref_name, 'codex/daily-maintenance-') }}
+    if: ${{ github.actor != 'github-actions[bot]' }}
     runs-on: ubuntu-latest
     timeout-minutes: 90
 
@@ -27,29 +24,16 @@ jobs:
         uses: actions/checkout@v6
         with:
           fetch-depth: 0
-          ref: ${{ github.head_ref || github.ref_name }}
 
       - name: Resolve maintenance date
         shell: bash
         run: |
           set -euo pipefail
-          maintenance_branch="${GITHUB_HEAD_REF:-${GITHUB_REF_NAME}}"
-          if [[ "${maintenance_branch}" =~ ^codex/daily-maintenance-([0-9]{4}-[0-9]{2}-[0-9]{2})(-[a-z0-9-]+)?$ ]]; then
-            maintenance_date="${BASH_REMATCH[1]}"
+          if [[ "${GITHUB_REF_NAME}" =~ ^codex/daily-maintenance-([0-9]{4}-[0-9]{2}-[0-9]{2})(-[a-z0-9-]+)?$ ]]; then
+            echo "MAINTENANCE_DATE=${BASH_REMATCH[1]}" >> "${GITHUB_ENV}"
           else
-            echo "Unexpected maintenance branch: ${maintenance_branch}" >&2
+            echo "Unexpected maintenance branch: ${GITHUB_REF_NAME}" >&2
             exit 1
-          fi
-          echo "MAINTENANCE_DATE=${maintenance_date}" >> "${GITHUB_ENV}"
-
-      - name: Detect maintenance mode
-        id: maintenance
-        shell: bash
-        run: |
-          if [[ -f tools/run-daily-catalog-maintenance.js ]]; then
-            echo "enabled=true" >> "${GITHUB_OUTPUT}"
-          else
-            echo "enabled=false" >> "${GITHUB_OUTPUT}"
           fi
 
       - name: Setup Node.js
@@ -61,117 +45,78 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Install Playwright system dependencies
-        run: npx playwright install-deps chromium
-
       - name: Install Chromium
-        run: npx playwright install chromium
+        run: |
+          npx playwright install-deps chromium
+          npx playwright install chromium
 
-      - name: Run full catalog maintenance
-        if: steps.maintenance.outputs.enabled == 'true'
+      - name: Determine finalization readiness
+        id: readiness
+        shell: bash
+        run: |
+          node <<'NODE' >> "${GITHUB_OUTPUT}"
+          const fs = require("fs");
+          const report = fs.existsSync("catalog_maintenance_latest.json")
+            ? JSON.parse(fs.readFileSync("catalog_maintenance_latest.json", "utf8"))
+            : null;
+          const { maintenanceReviewReady } = require("./tools/run-daily-catalog-maintenance");
+          const categoryReady = maintenanceReviewReady(report, process.env.MAINTENANCE_DATE);
+          console.log(`ready=${categoryReady ? "true" : "false"}`);
+          NODE
+
+      - name: Create audit draft pending manual review
+        if: steps.readiness.outputs.ready != 'true'
         env:
           MAINTENANCE_CONCURRENCY: "16"
           MAINTENANCE_FETCH_TIMEOUT_MS: "15000"
-        run: node tools/run-daily-catalog-maintenance.js
+        run: npm run maintain:catalog -- --draft --date="${MAINTENANCE_DATE}" --baseline-ref=origin/main
 
-      - name: Normalize maintenance document contracts
-        if: steps.maintenance.outputs.enabled == 'true'
+      - name: Run finalized catalog maintenance
+        if: steps.readiness.outputs.ready == 'true'
+        env:
+          MAINTENANCE_CONCURRENCY: "16"
+          MAINTENANCE_FETCH_TIMEOUT_MS: "15000"
+        run: npm run maintain:catalog -- --write --date="${MAINTENANCE_DATE}" --baseline-ref=origin/main
+
+      - name: Synchronize metadata and generated output
+        if: steps.readiness.outputs.ready == 'true'
         run: |
-          node <<'NODE'
-          const fs = require("fs");
-          const files = [
-            "assets/js/config.js",
-            "README.md",
-            "AGENTS.md",
-            ".maintenance-audit.json",
-          ];
-          const months = {
-            Jan: "01", Feb: "02", Mar: "03", Apr: "04", May: "05", Jun: "06",
-            Jul: "07", Aug: "08", Sep: "09", Oct: "10", Nov: "11", Dec: "12",
-          };
-          for (const file of files) {
-            if (!fs.existsSync(file)) continue;
-            const source = fs.readFileSync(file, "utf8")
-              .replace(
-                /\b(\d{2}) (Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec) (\d{4}) (\d{2}:\d{2}) UTC\b/g,
-                (_match, day, month, year, time) => `${year}-${months[month]}-${day} ${time} UTC`,
-              )
-              .replace(
-                /最終共 (\d+) 筆，25 類皆至少 20 筆/g,
-                "最終共 $1 筆、共 25 類，且各類皆至少 20 筆",
-              );
-            fs.writeFileSync(file, source, "utf8");
-          }
-
-          const config = fs.readFileSync("assets/js/config.js", "utf8");
-          const dataDate = config.match(/dataDate: "([^"]+)"/)?.[1];
-          const cacheVersion = config.match(/cacheVersion: "([^"]+)"/)?.[1];
-          const exchangeSummary = config.match(/exchangeSummary: "([^"]+)"/)?.[1];
-          if (!dataDate || !cacheVersion || !exchangeSummary) {
-            throw new Error("Unable to read homepage metadata from config.js");
-          }
-
-          const indexPath = "index.html";
-          const index = fs.readFileSync(indexPath, "utf8")
-            .replace(/"dateModified": "\d{4}-\d{2}-\d{2}"/, `"dateModified": "${dataDate}"`)
-            .replace(/id="dataDate">\d{4}-\d{2}-\d{2}<\/strong>/, `id="dataDate">${dataDate}</strong>`)
-            .replace(/資料更新日為 \d{4}-\d{2}-\d{2}。/, `資料更新日為 ${dataDate}。`)
-            .replace(/id="exchangeSummary">[^<]+<\/span>/, `id="exchangeSummary">${exchangeSummary}</span>`)
-            .replace(/\?v=[^"']+/g, `?v=${cacheVersion}`);
-          fs.writeFileSync(indexPath, index, "utf8");
-          NODE
-
-      - name: Regenerate category and GEO output
-        if: steps.maintenance.outputs.enabled == 'true'
-        run: npm run generate:categories
+          npm run sync:maintenance-metadata
+          npm run generate:categories
 
       - name: Capture maintenance patch
-        if: steps.maintenance.outputs.enabled == 'true'
+        if: steps.readiness.outputs.ready == 'true'
         run: git diff --binary > maintenance.patch
 
-      - name: Check syntax
-        run: npm run check:syntax
+      - name: Run repository checks
+        run: |
+          npm run check
 
-      - name: Check logic
-        run: npm run check:logic
+      - name: Run full UI and quality checks
+        if: steps.readiness.outputs.ready == 'true'
+        run: |
+          npm run check:ui:full
+          npm run check:quality
+          git diff --check
 
-      - name: Check data
-        run: npm run check:data
-
-      - name: Check docs
-        run: npm run check:docs
-
-      - name: Check GEO
-        run: npm run check:geo
-
-      - name: Check UI
-        run: npm run check:ui
-
-      - name: Check Lighthouse quality budgets
-        run: npm run check:quality
-
-      - name: Upload audit report
-        if: always() && steps.maintenance.outputs.enabled == 'true'
+      - name: Upload raw audit evidence
+        if: always()
         uses: actions/upload-artifact@v4
         with:
           name: catalog-maintenance-audit-${{ env.MAINTENANCE_DATE }}
           path: |
             .maintenance-audit.json
+            .maintenance-draft.json
             maintenance.patch
           include-hidden-files: true
           if-no-files-found: error
           retention-days: 7
 
       - name: Commit audited changes
-        if: success() && steps.maintenance.outputs.enabled == 'true'
+        if: success() && steps.readiness.outputs.ready == 'true'
         run: |
           set -euo pipefail
-          rm -f tools/run-daily-catalog-maintenance.js
-          rm -f .github/workflows/catalog-maintenance-once.yml
-          rm -f .maintenance-audit.json
-          rm -f .maintenance-trigger
-          rm -f maintenance.patch
-          git diff --check
+          rm -f .maintenance-audit.json maintenance.patch
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add -A
