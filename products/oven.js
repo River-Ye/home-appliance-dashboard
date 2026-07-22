@@ -251,9 +251,9 @@
     "name": "30L Healsio 炙燒水波爐",
     "price": {
       "currency": "TWD",
-      "amount": 28800,
-      "converted": 28800,
-      "confidence": "Yahoo購物中心 2026-07-20 頁面公開價"
+      "amount": 27072,
+      "converted": 27072,
+      "confidence": "Yahoo購物中心 2026-07-22 exact-model 公開結構化價格"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBJ021900I5KFC/000001_1779346148.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/SHARP%E5%A4%8F%E6%99%AE-HEALSIO-%E6%97%97%E8%89%A6%E6%B0%B4%E6%B3%A2%E7%88%90-AX-XP10T-12039766.html",
@@ -330,7 +330,7 @@
     "price": {
       "currency": "USD",
       "amount": 499.95,
-      "converted": 16162,
+      "converted": 16170,
       "confidence": "Breville 官方 2026-07-21 來源價；ExchangeRate-API 2026-07-21 匯率換算"
     },
     "image": "https://cdn11.bigcommerce.com/s-ihwnd7z21q/images/stencil/640w/products/1251/4666/212814_JouleOvenAirFryer1__10534.1724079466.jpg?c=1",
@@ -563,9 +563,9 @@
     "name": "30L 蒸氣烘烤微波爐",
     "price": {
       "currency": "TWD",
-      "amount": 32900,
-      "converted": 32900,
-      "confidence": "Yahoo購物中心 2026-07-21 頁面公開價"
+      "amount": 26900,
+      "converted": 26900,
+      "confidence": "Yahoo購物中心 2026-07-22 exact-model 公開結構化價格"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBJ7P1900HCI3E/000001_1782972848.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/Panasonic-%E5%9C%8B%E9%9A%9B%E7%89%8C-30L%E5%B9%B3%E5%8F%B0%E5%BC%8F%E8%AE%8A%E9%A0%BB%E8%92%B8%E7%83%98%E7%83%A4%E5%BE%AE%E9%9B%BB%E8%85%A6%E5%BE%AE%E6%B3%A2%E7%88%90-NN-BS1700-9469543.html",
@@ -875,9 +875,9 @@
     "name": "AIoT 智慧連網 30L 水波爐蒸氣烘烤微波爐",
     "price": {
       "currency": "TWD",
-      "amount": 38800,
-      "converted": 38800,
-      "confidence": "Yahoo購物中心 2026-07-20 頁面公開價"
+      "amount": 36472,
+      "converted": 36472,
+      "confidence": "Yahoo購物中心 2026-07-22 exact-model 公開結構化價格"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBM0GA900G41CW/000001_1780306175.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/SHARP-%E5%A4%8F%E6%99%AE-30L-Healsio-AIoT%E6%99%BA%E6%85%A7%E9%80%A3%E7%B6%B2%E6%B0%B4%E6%B3%A2%E7%88%90-AX-XW10T-11978312.html",
@@ -1031,9 +1031,9 @@
     "name": "31L 極智烘烤系列水波爐",
     "price": {
       "currency": "TWD",
-      "amount": 24900,
-      "converted": 24900,
-      "confidence": "Yahoo購物中心 2026-07-20 頁面公開價"
+      "amount": 23406,
+      "converted": 23406,
+      "confidence": "Yahoo購物中心 2026-07-22 exact-model 公開結構化價格"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBJ0RA900JT4ZV/000001_1781238451.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/SHARP-%E5%A4%8F%E6%99%AE-31L-%E6%A5%B5%E6%99%BA%E7%83%98%E7%83%A4%E7%B3%BB%E5%88%97%E6%B0%B4%E6%B3%A2%E7%88%90-AX-XS10T-B-AX-XS10T-W-12030496.html",
@@ -1655,9 +1655,9 @@
     "name": "數位氣炸鍋",
     "price": {
       "currency": "TWD",
-      "amount": 1399,
-      "converted": 1399,
-      "confidence": "Costco 好市多 2026-07-13 頁面查核價"
+      "amount": 1749,
+      "converted": 1749,
+      "confidence": "Costco 好市多 2026-07-22 exact-model 公開結構化價格"
     },
     "image": "https://www.costco.com.tw/medias/sys_master/images/hd8/h30/308063201099806.jpg",
     "buyUrl": "https://www.costco.com.tw/Televisions-Appliances/Kitchen-Appliances/Cookers-Oven-Microwaves-Food-Waste-Machine/Gourmia-Digital-Air-Fryer-GAF858/p/6232432",
@@ -1819,7 +1819,7 @@
     "price": {
       "currency": "USD",
       "amount": 449.99,
-      "converted": 14547,
+      "converted": 14554,
       "confidence": "SharkNinja 美國官方 2026-07-21 商品頁現貨價；ExchangeRate-API 2026-07-21 匯率換算"
     },
     "image": "https://assets.sharkninja.com/image/upload/f_auto/q_auto/SharkNinja-NA/MW101_01.jpg",

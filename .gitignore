@@ -1,2 +1,5 @@
 node_modules/
 output/
+.maintenance-audit.json
+.maintenance-draft.json
+maintenance.patch

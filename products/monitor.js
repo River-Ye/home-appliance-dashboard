@@ -2142,9 +2142,9 @@
     "name": "27 型 WQHD 360Hz QD-OLED 電競螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 18900,
-      "converted": 18900,
-      "confidence": "Yahoo購物中心 2026-07-21 頁面公開價"
+      "amount": 17955,
+      "converted": 17955,
+      "confidence": "Yahoo購物中心 2026-07-22 exact-model 公開結構化價格"
     },
     "image": "https://cs-a.ecimg.tw/items/DSBC1ZA900HE04M/000001_1757303897.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/MSI%E5%BE%AE%E6%98%9F-MPG-271QRX-QD-OLED-27%E5%9E%8B-2K-360Hz-HDR%E9%9B%BB%E7%AB%B6%E8%9E%A2%E5%B9%95-10958143.html",
@@ -2547,9 +2547,9 @@
     "name": "27 型 2K 180Hz Mini LED 電競螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 7788,
-      "converted": 7788,
-      "confidence": "PChome 2026-07-15 API 查核價"
+      "amount": 7588,
+      "converted": 7588,
+      "confidence": "PChome 2026-07-22 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABTAA900JBMD6/000001_1759809326.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DSABTA-A900JBMD6",
@@ -2632,9 +2632,9 @@
     "name": "27 型 2K 500Hz OLED Odyssey G6",
     "price": {
       "currency": "TWD",
-      "amount": 26900,
-      "converted": 26900,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 25900,
+      "converted": 25900,
+      "confidence": "PChome 2026-07-22 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABSLA900JNWTU/000001_1768983299.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DSABSL-A900JNWTU",
@@ -3617,8 +3617,8 @@
     "name": "49 型 Odyssey OLED G9 Dual QHD 240Hz 曲面螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 36900,
-      "converted": 36900,
+      "amount": 34999,
+      "converted": 34999,
       "confidence": "PChome 2026-07-22 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBM10A900HZCPE/000001_1781766568.jpg",
@@ -3781,8 +3781,8 @@
     "name": "45 型 UltraGear 21:9 OLED 240Hz 智慧曲面螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 41310,
-      "converted": 41310,
+      "amount": 38580,
+      "converted": 38580,
       "confidence": "PChome 2026-07-22 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DSBC1ZA900J732D/000001_1780394558.jpg",
@@ -3863,8 +3863,8 @@
     "name": "57 型 Odyssey Neo G9 Dual UHD 240Hz Mini LED 曲面螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 69900,
-      "converted": 69900,
+      "amount": 66500,
+      "converted": 66500,
       "confidence": "PChome 2026-07-22 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBM10A900GQLSE/000001_1783054239.jpg",

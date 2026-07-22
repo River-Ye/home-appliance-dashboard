@@ -1817,7 +1817,7 @@
     "price": {
       "currency": "USD",
       "amount": 679.99,
-      "converted": 21983,
+      "converted": 21993,
       "confidence": "Dreame Vacuum Mop US 2026-07-21 原廠公開特價；ExchangeRate-API 2026-07-21 匯率換算"
     },
     "image": "https://cdn.shopify.com/s/files/1/1006/5474/3895/files/0_-02_c3ee1e28-25e4-4458-921a-a6b34cecb723.png?v=1784095443",
@@ -1857,7 +1857,7 @@
       "status": "found",
       "amount": 679.99,
       "currency": "USD",
-      "converted": 21983,
+      "converted": 21993,
       "sourceUrl": "https://vacuummop.dreametech.com/products/aero-ultra-steam-wet-dry-vacuum",
       "sourceTitle": "Dreame Aero Ultra Steam Wet Dry Vacuum – Dreame Vacuum Mop",
       "evidenceSnippet": "Dreame 原廠美國商品頁於 2026-07-16 公開顯示特價 US$679.99、原價 US$799.99，且可 Add to Cart / Buy It Now。",

@@ -30,6 +30,8 @@ Use a dedicated git worktree and short-lived `codex/` branch for repo changes un
 
 - Preserve `products/*.js` as the product data boundary and keep `registerProducts(categoryId, items)` compatible.
 - Keep `assets/js/config.js` `meta`, `tools/dashboard-contract.js`, README, AGENTS, and visible page dates/counts in sync.
+- Start a new data date with `npm run maintain:catalog -- --draft --date=YYYY-MM-DD --baseline-ref=origin/main`; finalize with `--write` only after the same-date category and discontinuation reviews are explicit. Keep reviewed summary/exception evidence in `catalog_maintenance_latest.json`; keep `.maintenance-audit.json` and `.maintenance-draft.json` untracked or as short-lived CI artifacts.
+- After maintenance, run `npm run sync:maintenance-metadata` and `npm run generate:categories` before the checks. Never bypass pending category or official-discontinuation review gates.
 - Keep the Lighthouse budgets enforced by `npm run check:quality`: browser-throttled Performance ≥ 90, LCP ≤ 2.5s, CLS ≤ 0.1, Accessibility = 100, SEO ≥ 95, plus runner-independent Lantern TBT ≤ 200ms.
 - Do not delete products from weak signals such as one stale image URL, one transient page error, or PChome `Qty: 0`.
 - Do not rewrite the app into a framework or add a build pipeline unless the user explicitly asks for that architectural change.

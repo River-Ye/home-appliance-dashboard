@@ -1500,7 +1500,7 @@
     "price": {
       "currency": "USD",
       "amount": 399.99,
-      "converted": 12931,
+      "converted": 12937,
       "confidence": "Costco US 2026-07-21 來源價；ExchangeRate-API 2026-07-21 匯率換算"
     },
     "image": "https://bfasset.costco-static.com/U447IH35/as/k83n76pfjhvqcf9gfrz74sx/1432187-847__1?auto=webp&format=jpg",

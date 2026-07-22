@@ -1477,9 +1477,9 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/df3ca3dcf3-Gd-10425979.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 5391,
-      "converted": 5391,
-      "confidence": "Yahoo購物中心 2026-07-11 頁面查核價"
+      "amount": 5166,
+      "converted": 5166,
+      "confidence": "Yahoo購物中心 2026-07-22 exact-model 公開結構化價格"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心",
@@ -1520,16 +1520,16 @@
     "releaseDate": "2023",
     "historicalLow": {
       "status": "found",
-      "amount": 5272,
+      "amount": 5166,
       "currency": "TWD",
-      "converted": 5272,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1191194503&cgp=5391",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：HERAN禾聯 6.5KG全自動洗衣機 HWM-0691",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Yahoo購物中心 / HERAN禾聯 6.5KG全自動洗衣機 HWM-0691」最低價為 NT$5,272，最低點日期 2025-11-07。",
-      "sourceKind": "price_history",
-      "confidence": "high",
-      "checkedAt": "2026-07-09",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+      "converted": 5166,
+      "sourceUrl": "https://tw.buy.yahoo.com/gdsale/HERAN%E7%A6%BE%E8%81%AF-6-5KG%E5%85%A8%E8%87%AA%E5%8B%95%E6%B4%97%E8%A1%A3%E6%A9%9F-HWM-0691-10425979.html",
+      "sourceTitle": "Yahoo購物中心：HERAN禾聯 6.5KG全自動洗衣機 HWM-0691 | 定頻10KG以下 | Yahoo購物中心",
+      "evidenceSnippet": "Yahoo購物中心於 2026-07-22 顯示同型號可信新品公開價 NT$5,166，低於既有史低 NT$5,272。",
+      "sourceKind": "retailer_page",
+      "confidence": "medium",
+      "checkedAt": "2026-07-22",
+      "note": "採用 Yahoo購物中心當日可購商品的同型號新品公開價；不含會員券、點數、信用卡回饋、二手、福利、展示、拆封或整新品。"
     },
     "issueResearch": {
       "status": "no_common_issue",
