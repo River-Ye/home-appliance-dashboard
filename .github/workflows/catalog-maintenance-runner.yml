@@ -41,8 +41,15 @@ jobs:
           fi
           echo "MAINTENANCE_DATE=${maintenance_date}" >> "${GITHUB_ENV}"
 
-      - name: Ensure one-off maintenance tool exists
-        run: test -f tools/run-daily-catalog-maintenance.js
+      - name: Detect maintenance mode
+        id: maintenance
+        shell: bash
+        run: |
+          if [[ -f tools/run-daily-catalog-maintenance.js ]]; then
+            echo "enabled=true" >> "${GITHUB_OUTPUT}"
+          else
+            echo "enabled=false" >> "${GITHUB_OUTPUT}"
+          fi
 
       - name: Setup Node.js
         uses: actions/setup-node@v6
@@ -60,12 +67,14 @@ jobs:
         run: npx playwright install chromium
 
       - name: Run full catalog maintenance
+        if: steps.maintenance.outputs.enabled == 'true'
         env:
           MAINTENANCE_CONCURRENCY: "16"
           MAINTENANCE_FETCH_TIMEOUT_MS: "15000"
         run: node tools/run-daily-catalog-maintenance.js
 
       - name: Normalize maintenance document contracts
+        if: steps.maintenance.outputs.enabled == 'true'
         run: |
           node <<'NODE'
           const fs = require("fs");
@@ -112,9 +121,11 @@ jobs:
           NODE
 
       - name: Regenerate category and GEO output
+        if: steps.maintenance.outputs.enabled == 'true'
         run: npm run generate:categories
 
       - name: Capture maintenance patch
+        if: steps.maintenance.outputs.enabled == 'true'
         run: git diff --binary > maintenance.patch
 
       - name: Check syntax
@@ -139,7 +150,7 @@ jobs:
         run: npm run check:quality
 
       - name: Upload audit report
-        if: always()
+        if: always() && steps.maintenance.outputs.enabled == 'true'
         uses: actions/upload-artifact@v4
         with:
           name: catalog-maintenance-audit-${{ env.MAINTENANCE_DATE }}
@@ -151,7 +162,7 @@ jobs:
           retention-days: 7
 
       - name: Commit audited changes
-        if: success()
+        if: success() && steps.maintenance.outputs.enabled == 'true'
         run: |
           set -euo pipefail
           rm -f tools/run-daily-catalog-maintenance.js
