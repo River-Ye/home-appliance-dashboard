@@ -473,9 +473,9 @@
     "name": "LG Styler 蒸氣電子衣櫥 奢華鏡面",
     "price": {
       "currency": "TWD",
-      "amount": 41900,
-      "converted": 41900,
-      "confidence": "PChome 24h 2026-07-23 exact-model 新品公開價"
+      "amount": 39900,
+      "converted": 39900,
+      "confidence": "PChome 2026-07-24 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DPAI1LA900AMBO4/000001_1762826021.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DPAI1L-A900AMBO4",

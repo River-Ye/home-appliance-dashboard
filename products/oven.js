@@ -251,9 +251,9 @@
     "name": "30L Healsio 炙燒水波爐",
     "price": {
       "currency": "TWD",
-      "amount": 27072,
-      "converted": 27072,
-      "confidence": "Yahoo購物中心 2026-07-23 exact-model 公開結構化價格"
+      "amount": 28800,
+      "converted": 28800,
+      "confidence": "Yahoo購物中心 2026-07-24 exact-model 公開結構化價格"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBJ021900I5KFC/000001_1779346148.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/SHARP%E5%A4%8F%E6%99%AE-HEALSIO-%E6%97%97%E8%89%A6%E6%B0%B4%E6%B3%A2%E7%88%90-AX-XP10T-12039766.html",
@@ -875,9 +875,9 @@
     "name": "AIoT 智慧連網 30L 水波爐蒸氣烘烤微波爐",
     "price": {
       "currency": "TWD",
-      "amount": 36472,
-      "converted": 36472,
-      "confidence": "Yahoo購物中心 2026-07-23 exact-model 公開結構化價格"
+      "amount": 38800,
+      "converted": 38800,
+      "confidence": "Yahoo購物中心 2026-07-24 exact-model 公開結構化價格"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBM0GA900G41CW/000001_1780306175.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/SHARP-%E5%A4%8F%E6%99%AE-30L-Healsio-AIoT%E6%99%BA%E6%85%A7%E9%80%A3%E7%B6%B2%E6%B0%B4%E6%B3%A2%E7%88%90-AX-XW10T-11978312.html",
@@ -1031,9 +1031,9 @@
     "name": "31L 極智烘烤系列水波爐",
     "price": {
       "currency": "TWD",
-      "amount": 23406,
-      "converted": 23406,
-      "confidence": "Yahoo購物中心 2026-07-23 exact-model 公開結構化價格"
+      "amount": 24900,
+      "converted": 24900,
+      "confidence": "Yahoo購物中心 2026-07-24 exact-model 公開結構化價格"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBJ0RA900JT4ZV/000001_1781238451.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/SHARP-%E5%A4%8F%E6%99%AE-31L-%E6%A5%B5%E6%99%BA%E7%83%98%E7%83%A4%E7%B3%BB%E5%88%97%E6%B0%B4%E6%B3%A2%E7%88%90-AX-XS10T-B-AX-XS10T-W-12030496.html",

@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
-  "dataDate": "2026-07-23",
-  "checkedAt": "2026-07-23T13:40:55.673Z",
+  "dataDate": "2026-07-24",
+  "checkedAt": "2026-07-23T22:29:49.651Z",
   "baselineRef": "origin/main",
   "policy": {
     "exactModelOrReviewedSourceBindingOnly": true,
@@ -23,38 +23,17 @@
     ]
   },
   "summary": {
-    "baselineProducts": 668,
+    "baselineProducts": 688,
     "finalProducts": 688,
     "categories": 26,
     "minimumProductsPerCategory": 20,
-    "newProductsAdded": [
-      "garmentcare-lg-e523ir",
-      "garmentcare-lg-e523mr",
-      "garmentcare-lg-e523mw",
-      "garmentcare-lg-r723mb",
-      "garmentcare-lg-r723mg",
-      "garmentcare-lg-r723sb",
-      "garmentcare-lg-r723wg",
-      "garmentcare-lg-s3mfbn",
-      "garmentcare-lg-s3rfbn",
-      "garmentcare-lg-s3wfbn",
-      "garmentcare-lg-sc5gmr80h",
-      "garmentcare-lg-sc5mar4g",
-      "garmentcare-panasonic-hcc-r600al-x",
-      "garmentcare-panasonic-hcc-r600ar-x",
-      "garmentcare-samsung-df80h24r1c",
-      "garmentcare-samsung-df80h24r1d",
-      "garmentcare-samsung-df90h24r4b",
-      "garmentcare-samsung-df90h24r4d",
-      "garmentcare-samsung-df90h24r4p",
-      "garmentcare-samsung-df90h24r5c"
-    ],
-    "priceChanges": 24,
-    "priceDrops": 17,
-    "priceRises": 7,
+    "newProductsAdded": [],
+    "priceChanges": 31,
+    "priceDrops": 16,
+    "priceRises": 15,
     "linkChanges": 0,
     "imageChanges": 0,
-    "historicalLowChanges": 1,
+    "historicalLowChanges": 0,
     "historicalLowPriceChanges": 0,
     "historicalFound": 438,
     "historicalMissing": 250,
@@ -97,23 +76,22 @@
   "categoryScan": [
     {
       "category": "bidet",
-      "cutoff": "2026-07-23",
+      "cutoff": "2026-07-24",
       "status": "manually_reviewed",
       "decision": "no_addition",
-      "note": "抽查 TOTO、Panasonic 等官方現行陣容，未見 2026-07-22 後新發布；現有 20 筆已達門檻。",
+      "note": "抽查 TOTO、Panasonic 官方現行陣容與 2026-07-23 後新品索引，未見具 exact model、台灣新品售價與安裝保固證據的新機；現有 20 筆已達門檻。",
       "acceptedCandidates": [],
       "trackedOrRejectedCandidates": [],
-      "reviewedAt": "2026-07-23T13:40:55.673Z",
+      "reviewedAt": "2026-07-23T22:29:49.651Z",
       "finalProductCount": 20,
-      "minimumSatisfied": true,
-      "label": "免治馬桶"
+      "minimumSatisfied": true
     },
     {
       "category": "blender",
-      "cutoff": "2026-07-23",
+      "cutoff": "2026-07-24",
       "status": "manually_reviewed",
       "decision": "no_addition",
-      "note": "未見截止日後新品；Vitamix VX1 仍僅有美國 120V 官方供貨，缺台灣可信通路與保固。",
+      "note": "官方新品索引未見 2026-07-23 後可直接納入者；Vitamix VX1 仍只有美國 120V 官方供貨，缺台灣可信通路與保固。",
       "acceptedCandidates": [],
       "trackedOrRejectedCandidates": [
         {
@@ -122,17 +100,16 @@
           "sourceUrl": "https://www.vitamix.com/us/en_us/shop/full-size-blenders/vx1"
         }
       ],
-      "reviewedAt": "2026-07-23T13:40:55.673Z",
+      "reviewedAt": "2026-07-23T22:29:49.651Z",
       "finalProductCount": 24,
-      "minimumSatisfied": true,
-      "label": "破壁機"
+      "minimumSatisfied": true
     },
     {
       "category": "chair",
-      "cutoff": "2026-07-23",
+      "cutoff": "2026-07-24",
       "status": "manually_reviewed",
       "decision": "no_addition",
-      "note": "未見截止日後新品；Backbone Orca 為 2026-07-06 舊候選，保留後續完整證據評估。",
+      "note": "台灣品牌官方新品索引未見 2026-07-23 後具完整規格與可信新品供貨的新椅；Backbone Orca 是 2026-07-06 舊候選，保留後續評估。",
       "acceptedCandidates": [],
       "trackedOrRejectedCandidates": [
         {
@@ -141,17 +118,16 @@
           "sourceUrl": "https://www.backbone.tw/blogs/news/orca"
         }
       ],
-      "reviewedAt": "2026-07-23T13:40:55.673Z",
+      "reviewedAt": "2026-07-23T22:29:49.651Z",
       "finalProductCount": 23,
-      "minimumSatisfied": true,
-      "label": "電腦椅"
+      "minimumSatisfied": true
     },
     {
       "category": "circulator",
-      "cutoff": "2026-07-23",
+      "cutoff": "2026-07-24",
       "status": "manually_reviewed",
       "decision": "no_addition",
-      "note": "未見截止日後新品；Sharp PK-18S03T 為 2026 舊漏網候選，官方頁仍在，但本輪 PChome SKU API 為 Qty 0，保留後續供貨評估。",
+      "note": "Panasonic、SHARP 官方新品索引未見 2026-07-23 後新機；Sharp PK-18S03T 為舊候選且本輪可信通路仍無穩定現貨，持續追蹤。",
       "acceptedCandidates": [],
       "trackedOrRejectedCandidates": [
         {
@@ -160,17 +136,16 @@
           "sourceUrl": "https://tw.sharp/pci/air-circulator/index.html"
         }
       ],
-      "reviewedAt": "2026-07-23T13:40:55.673Z",
+      "reviewedAt": "2026-07-23T22:29:49.651Z",
       "finalProductCount": 22,
-      "minimumSatisfied": true,
-      "label": "循環扇"
+      "minimumSatisfied": true
     },
     {
       "category": "cookware",
-      "cutoff": "2026-07-23",
+      "cutoff": "2026-07-24",
       "status": "manually_reviewed",
       "decision": "no_addition",
-      "note": "未見截止日後新品；BALLARINI LEDRO 1027801 為舊候選，現有 24 筆已具充分涵蓋。",
+      "note": "ZWILLING 等官方新品索引未見 2026-07-23 後需立即納入的合規新品；BALLARINI LEDRO 1027801 是較舊候選，現有 24 筆已具充分涵蓋。",
       "acceptedCandidates": [],
       "trackedOrRejectedCandidates": [
         {
@@ -179,208 +154,94 @@
           "sourceUrl": "https://www.zwilling.com.tw/products/1027801"
         }
       ],
-      "reviewedAt": "2026-07-23T13:40:55.673Z",
+      "reviewedAt": "2026-07-23T22:29:49.651Z",
       "finalProductCount": 24,
-      "minimumSatisfied": true,
-      "label": "鍋具"
+      "minimumSatisfied": true
     },
     {
       "category": "dehumidifier",
-      "cutoff": "2026-07-23",
+      "cutoff": "2026-07-24",
       "status": "manually_reviewed",
       "decision": "no_addition",
-      "note": "抽查 Panasonic、SHARP 等官方現行陣容，未見截止日後新發布或供貨異動。",
+      "note": "抽查 Panasonic、SHARP 等官方現行陣容與最新發布，未見 2026-07-23 後 exact-model 新機或台灣供貨異動；現有 24 筆高於門檻。",
       "acceptedCandidates": [],
       "trackedOrRejectedCandidates": [],
-      "reviewedAt": "2026-07-23T13:40:55.673Z",
+      "reviewedAt": "2026-07-23T22:29:49.651Z",
       "finalProductCount": 24,
-      "minimumSatisfied": true,
-      "label": "除濕機"
+      "minimumSatisfied": true
     },
     {
       "category": "dishwasher",
-      "cutoff": "2026-07-23",
+      "cutoff": "2026-07-24",
       "status": "manually_reviewed",
       "decision": "no_addition",
-      "note": "抽查 Panasonic、Bosch、Electrolux 等官方現行陣容，未見截止日後新品。",
+      "note": "抽查 Panasonic、Bosch、Electrolux 官方新品索引，未見 2026-07-23 後台灣新機；Panasonic A1／B1／C1 是 2026-04 日本嵌入式舊候選，無台灣售價與安裝供貨證據。",
       "acceptedCandidates": [],
-      "trackedOrRejectedCandidates": [],
-      "reviewedAt": "2026-07-23T13:40:55.673Z",
+      "trackedOrRejectedCandidates": [
+        {
+          "model": "Panasonic A1／B1／C1 series",
+          "disposition": "rejected_no_taiwan_supply",
+          "sourceUrl": "https://news.panasonic.com/jp/press/jn251127-4"
+        }
+      ],
+      "reviewedAt": "2026-07-23T22:29:49.651Z",
       "finalProductCount": 23,
-      "minimumSatisfied": true,
-      "label": "洗碗機"
+      "minimumSatisfied": true
     },
     {
       "category": "dryer",
-      "cutoff": "2026-07-23",
+      "cutoff": "2026-07-24",
       "status": "manually_reviewed",
       "decision": "no_addition",
-      "note": "未找到截止日後獨立烘衣機新發布或可信新品供貨異動；現有 21 筆高於門檻。",
+      "note": "Samsung 7 月新乾衣機發布只提供 DV90H***3*** 系列 wildcard，且未見台灣 exact retail SKU、售價與供貨；其他官方索引無 2026-07-23 後新品，現有 21 筆達標。",
       "acceptedCandidates": [],
-      "trackedOrRejectedCandidates": [],
-      "reviewedAt": "2026-07-23T13:40:55.673Z",
+      "trackedOrRejectedCandidates": [
+        {
+          "model": "Samsung DV90H***3*** series",
+          "disposition": "rejected_no_exact_retail_sku",
+          "sourceUrl": "https://news.samsung.com/global/samsung-launches-new-bespoke-ai-washer-and-dryer-lineup-with-ai-enhanced-fabric-care-and-seamless-connectivity"
+        }
+      ],
+      "reviewedAt": "2026-07-23T22:29:49.651Z",
       "finalProductCount": 21,
-      "minimumSatisfied": true,
-      "label": "烘衣機"
+      "minimumSatisfied": true
     },
     {
       "category": "fan",
-      "cutoff": "2026-07-23",
+      "cutoff": "2026-07-24",
       "status": "manually_reviewed",
       "decision": "no_addition",
-      "note": "官方現行主要機種已被清單涵蓋，未見截止日後新品；Sharp PK-18S03T 應歸循環扇。",
+      "note": "Philips、Panasonic、Dyson 官方新品索引未見 2026-07-23 後台灣家用風扇；Dyson HushJet Mini Cool 是 2026-04 海外隨身型舊候選，非本輪需納入的家用機種。",
       "acceptedCandidates": [],
-      "trackedOrRejectedCandidates": [],
-      "reviewedAt": "2026-07-23T13:40:55.673Z",
+      "trackedOrRejectedCandidates": [
+        {
+          "model": "Dyson HushJet Mini Cool",
+          "disposition": "rejected_category_boundary_and_no_taiwan_supply",
+          "sourceUrl": "https://www.fi.dyson.com/discover/news/latest/esittelee-hushjet-mini-cool-tuulettimen"
+        }
+      ],
+      "reviewedAt": "2026-07-23T22:29:49.651Z",
       "finalProductCount": 22,
-      "minimumSatisfied": true,
-      "label": "電風扇"
+      "minimumSatisfied": true
     },
     {
       "category": "garmentcare",
-      "cutoff": "2026-07-23",
+      "cutoff": "2026-07-24",
       "status": "manually_reviewed",
-      "decision": "added_20_exact_models",
-      "note": "已逐款回看 LG 台灣／美國、Samsung 韓國、Panasonic 日本官方頁與 PChome、Costco、Danawa、BicCamera 新品頁；僅收封閉式吊掛衣物護理櫃，20 款均有 exact-model 與可售新品證據。",
-      "acceptedCandidates": [
-        {
-          "brand": "LG",
-          "model": "R723MB",
-          "sourceUrl": "https://www.lg.com/tw/washer-dryers/styler/r723mb/"
-        },
-        {
-          "brand": "LG",
-          "model": "R723SB",
-          "sourceUrl": "https://www.lg.com/tw/washer-dryers/styler/r723sb/"
-        },
-        {
-          "brand": "LG",
-          "model": "R723MG",
-          "sourceUrl": "https://www.lg.com/tw/washer-dryers/styler/r723mg/"
-        },
-        {
-          "brand": "LG",
-          "model": "R723WG",
-          "sourceUrl": "https://www.lg.com/tw/washer-dryers/styler/r723wg/"
-        },
-        {
-          "brand": "LG",
-          "model": "E523MW",
-          "sourceUrl": "https://www.lg.com/tw/washer-dryers/styler/e523mw/"
-        },
-        {
-          "brand": "LG",
-          "model": "E523MR",
-          "sourceUrl": "https://www.lg.com/tw/washer-dryers/styler/e523mr/"
-        },
-        {
-          "brand": "LG",
-          "model": "E523IR",
-          "sourceUrl": "https://www.lg.com/tw/washer-dryers/styler/e523ir/"
-        },
-        {
-          "brand": "LG",
-          "model": "SC5GMR80H",
-          "sourceUrl": "https://www.lg.com/us/washers-dryers/lg-sc5gmr80h-styler-steam-closet"
-        },
-        {
-          "brand": "LG",
-          "model": "SC5MAR4G",
-          "sourceUrl": "https://www.lg.com/us/washers-dryers/lg-sc5mar4g-styler-steam-closet"
-        },
-        {
-          "brand": "LG",
-          "model": "S3WFBN",
-          "sourceUrl": "https://www.lg.com/us/washers-dryers/lg-s3wfbn-styler-steam-closet"
-        },
-        {
-          "brand": "LG",
-          "model": "S3MFBN",
-          "sourceUrl": "https://www.lg.com/us/washers-dryers/lg-s3mfbn-styler-steam-closet"
-        },
-        {
-          "brand": "LG",
-          "model": "S3RFBN",
-          "sourceUrl": "https://www.lg.com/us/washers-dryers/lg-s3rfbn-styler-steam-closet"
-        },
-        {
-          "brand": "Samsung",
-          "model": "DF90H24R5C",
-          "sourceUrl": "https://www.samsung.com/sec/airdresser/airdresser-df90h24r5c-d2c/DF90H24R5C/"
-        },
-        {
-          "brand": "Samsung",
-          "model": "DF90H24R4D",
-          "sourceUrl": "https://www.samsung.com/sec/airdresser/airdresser-df90h24r4d-d2c/DF90H24R4D/"
-        },
-        {
-          "brand": "Samsung",
-          "model": "DF90H24R4P",
-          "sourceUrl": "https://www.samsung.com/sec/airdresser/airdresser-df90h24r4p-d2c/DF90H24R4P/"
-        },
-        {
-          "brand": "Samsung",
-          "model": "DF90H24R4B",
-          "sourceUrl": "https://www.samsung.com/sec/airdresser/airdresser-df90h24r4b-d2c/DF90H24R4B/"
-        },
-        {
-          "brand": "Samsung",
-          "model": "DF80H24R1C",
-          "sourceUrl": "https://www.samsung.com/sec/airdresser/airdresser-df80h24r1c-d2c/DF80H24R1C/"
-        },
-        {
-          "brand": "Samsung",
-          "model": "DF80H24R1D",
-          "sourceUrl": "https://www.samsung.com/sec/airdresser/airdresser-df80h24r1d-d2c/DF80H24R1D/"
-        },
-        {
-          "brand": "Panasonic",
-          "model": "HCC-R600AL-X",
-          "sourceUrl": "https://www.biccamera.com/bc/item/11581815/"
-        },
-        {
-          "brand": "Panasonic",
-          "model": "HCC-R600AR-X",
-          "sourceUrl": "https://www.biccamera.com/bc/item/11581816/"
-        }
-      ],
-      "trackedOrRejectedCandidates": [
-        {
-          "candidate": "滾筒烘衣機與洗脫烘",
-          "disposition": "rejected_category_boundary"
-        },
-        {
-          "candidate": "除濕機與空間乾燥機",
-          "disposition": "rejected_category_boundary"
-        },
-        {
-          "candidate": "手持／直立掛燙機",
-          "disposition": "rejected_not_closed_cabinet"
-        },
-        {
-          "candidate": "布罩式烘衣櫃",
-          "disposition": "rejected_not_rigid_closed_cabinet"
-        },
-        {
-          "candidate": "衣架、水箱、濾網與其他配件",
-          "disposition": "rejected_accessory"
-        },
-        {
-          "candidate": "官方已停產或只有庫存尾貨型號",
-          "disposition": "rejected_discontinued"
-        }
-      ],
-      "reviewedAt": "2026-07-23T13:40:55.673Z",
+      "decision": "no_addition",
+      "note": "重查 LG 台灣／美國、Samsung 韓國與 Panasonic 日本現有封閉式吊掛衣物護理櫃，未見 2026-07-23 後新 exact model；現有 20 筆皆維持，BicCamera 兩筆逾時不構成下架或停產證據。",
+      "acceptedCandidates": [],
+      "trackedOrRejectedCandidates": [],
+      "reviewedAt": "2026-07-23T22:29:49.651Z",
       "finalProductCount": 20,
-      "minimumSatisfied": true,
-      "label": "電子衣櫥（衣物護理機）"
+      "minimumSatisfied": true
     },
     {
       "category": "knife",
-      "cutoff": "2026-07-23",
+      "cutoff": "2026-07-24",
       "status": "manually_reviewed",
       "decision": "no_addition",
-      "note": "未見截止日後新品；ZWILLING TWIN POLLUX WHITE 1025153 為舊候選，保留後續評估。",
+      "note": "ZWILLING 等官方新品索引未見 2026-07-23 後新廚刀；TWIN POLLUX WHITE 1025153 是較舊候選，現有 21 筆仍達門檻。",
       "acceptedCandidates": [],
       "trackedOrRejectedCandidates": [
         {
@@ -389,81 +250,92 @@
           "sourceUrl": "https://www.zwilling.com.tw/products/1025153"
         }
       ],
-      "reviewedAt": "2026-07-23T13:40:55.673Z",
+      "reviewedAt": "2026-07-23T22:29:49.651Z",
       "finalProductCount": 21,
-      "minimumSatisfied": true,
-      "label": "刀具"
+      "minimumSatisfied": true
     },
     {
       "category": "monitor",
-      "cutoff": "2026-07-23",
+      "cutoff": "2026-07-24",
       "status": "manually_reviewed",
       "decision": "no_addition",
-      "note": "未見截止日後新品；MSI MPG 322UR QD-OLED X24 為舊候選，現有 55 筆已具充分技術帶涵蓋。",
+      "note": "ASUS ROG PG27UCWM／PG32UCWM 雖於 2026-07-15 公布 availability，但仍缺台灣官方售價與可信供貨；其餘官方索引未見 2026-07-23 後可直接納入的新螢幕，現有 55 筆涵蓋充分。",
       "acceptedCandidates": [],
       "trackedOrRejectedCandidates": [
         {
-          "model": "MSI MPG 322UR QD-OLED X24",
-          "disposition": "older_optional_candidate",
-          "sourceUrl": "https://tw.msi.com/Monitor/MPG-322UR-QD-OLED-X24/Specification"
+          "model": "ASUS ROG PG27UCWM",
+          "disposition": "rejected_no_taiwan_price_or_supply",
+          "sourceUrl": "https://press.asus.com/news/press-releases/rog-swift-oled-pg27ucwm-pg32ucwm/"
+        },
+        {
+          "model": "ASUS ROG PG32UCWM",
+          "disposition": "rejected_no_taiwan_price_or_supply",
+          "sourceUrl": "https://press.asus.com/news/press-releases/rog-swift-oled-pg27ucwm-pg32ucwm/"
         }
       ],
-      "reviewedAt": "2026-07-23T13:40:55.673Z",
+      "reviewedAt": "2026-07-23T22:29:49.651Z",
       "finalProductCount": 55,
-      "minimumSatisfied": true,
-      "label": "電腦螢幕"
+      "minimumSatisfied": true
     },
     {
       "category": "monitorarm",
-      "cutoff": "2026-07-23",
+      "cutoff": "2026-07-24",
       "status": "manually_reviewed",
       "decision": "no_addition",
-      "note": "未見截止日後新品；BenQ BSL01 仍缺可信發售日期，不能宣稱為新上市。",
+      "note": "Dell HDA26 只有 2026-07-10 海外支援影片，非台灣新品發售證據；BenQ BSL01 仍缺可信發售日期，未見 2026-07-23 後可納入的新支架。",
       "acceptedCandidates": [],
       "trackedOrRejectedCandidates": [
+        {
+          "model": "Dell Pro Heavy Duty Single Monitor Arm HDA26",
+          "disposition": "rejected_support_page_not_release_evidence",
+          "sourceUrl": "https://www.dell.com/support/contents/de-de/videos/videoplayer/%C3%BCbersicht-und-einrichtung-des-dell-pro-heavy-duty-einzelmonitorarms-hda26/6393988046112"
+        },
         {
           "model": "BenQ BSL01",
           "disposition": "older_unverified_release_candidate",
           "sourceUrl": "https://www.benq.com/zh-tw/desk-tech/monitorarm/bsl01.html"
         }
       ],
-      "reviewedAt": "2026-07-23T13:40:55.673Z",
+      "reviewedAt": "2026-07-23T22:29:49.651Z",
       "finalProductCount": 21,
-      "minimumSatisfied": true,
-      "label": "懸臂支架"
+      "minimumSatisfied": true
     },
     {
       "category": "oven",
-      "cutoff": "2026-07-23",
+      "cutoff": "2026-07-24",
       "status": "manually_reviewed",
       "decision": "no_addition",
-      "note": "未見截止日後合規新品；SHARP HEALSIO mini 尚未正式供貨，BALMUDA The Range S 不符多功能分類。",
+      "note": "SHARP、Panasonic、Samsung 等官方新品索引未見 2026-07-23 後具台灣 exact SKU、公開售價與多功能定位的新機；Breville BOV950 官方原頁仍在售，停產字樣為誤判。",
       "acceptedCandidates": [],
       "trackedOrRejectedCandidates": [],
-      "reviewedAt": "2026-07-23T13:40:55.673Z",
+      "reviewedAt": "2026-07-23T22:29:49.651Z",
       "finalProductCount": 24,
-      "minimumSatisfied": true,
-      "label": "多功能氣炸烤箱/微波爐"
+      "minimumSatisfied": true
     },
     {
       "category": "purifier",
-      "cutoff": "2026-07-23",
+      "cutoff": "2026-07-24",
       "status": "manually_reviewed",
       "decision": "no_addition",
-      "note": "未見截止日後新品；現有清單已含本週納入的 Dyson HJ10，23 筆高於門檻。",
+      "note": "Dyson Find+Follow Purifier Cool 是 2026-05 已發布候選，非截止日後新品；其他官方索引未見 2026-07-23 後台灣新機，現有 23 筆已含近期 Dyson 機種。",
       "acceptedCandidates": [],
-      "trackedOrRejectedCandidates": [],
-      "reviewedAt": "2026-07-23T13:40:55.673Z",
+      "trackedOrRejectedCandidates": [
+        {
+          "model": "Dyson Find+Follow Purifier Cool",
+          "disposition": "older_backlog_candidate",
+          "sourceUrl": "https://www.dyson.com/discover/news/latest/introducing-find-follow-purifier-cool"
+        }
+      ],
+      "reviewedAt": "2026-07-23T22:29:49.651Z",
       "finalProductCount": 23,
-      "minimumSatisfied": true,
-      "label": "空氣清淨機"
+      "minimumSatisfied": true
     },
     {
       "category": "refrigerator",
-      "cutoff": "2026-07-23",
+      "cutoff": "2026-07-24",
       "status": "manually_reviewed",
       "decision": "no_addition",
-      "note": "未見截止日後新品；Sharp SJ-DF58G 為 2026-05 舊候選，需連同尺寸與能源證據再評估。",
+      "note": "LG、Samsung、Panasonic、SHARP 官方新品索引未見 2026-07-23 後台灣新機；Sharp SJ-DF58G 是 2026-05 舊候選，仍需尺寸與能源證據再評估。",
       "acceptedCandidates": [],
       "trackedOrRejectedCandidates": [
         {
@@ -472,36 +344,34 @@
           "sourceUrl": "https://tw.sharp/news/2026-05-20-3"
         }
       ],
-      "reviewedAt": "2026-07-23T13:40:55.673Z",
+      "reviewedAt": "2026-07-23T22:29:49.651Z",
       "finalProductCount": 23,
-      "minimumSatisfied": true,
-      "label": "冰箱"
+      "minimumSatisfied": true
     },
     {
       "category": "robot",
-      "cutoff": "2026-07-23",
+      "cutoff": "2026-07-24",
       "status": "manually_reviewed",
       "decision": "no_addition",
-      "note": "未見截止日後新品；Saros 20 Sonic 為 2026-04 舊候選，現有 34 筆及多款 Saros 已充分涵蓋。",
+      "note": "Roborock、ECOVACS、Dreame 等官方新品索引未見 2026-07-23 後台灣 exact-model 新機；Dreame L60 系列是 2026-04 美國候選，缺台灣供貨／電壓證據，且現有 34 筆旗艦與次旗艦涵蓋充分。",
       "acceptedCandidates": [],
       "trackedOrRejectedCandidates": [
         {
-          "model": "Roborock Saros 20 Sonic",
-          "disposition": "older_backlog_candidate",
-          "sourceUrl": "https://taiwan.roborock.com/blogs/roborock-taiwan/roborock-saros-20-sonic-%E8%81%B2%E6%B3%A2%E9%A8%8E%E5%A3%AB%E9%9C%87%E6%92%BC%E7%99%BB%E5%A0%B4-%E5%BC%B7%E9%9C%87%E8%81%B2%E6%B3%A2%E6%81%86%E6%BF%95%E6%8B%96%E5%9C%B0%E5%8A%A0%E6%8C%81-%E5%85%A8%E9%9D%A2%E7%AA%81%E7%A0%B4%E6%B8%85%E6%BD%94%E6%96%B0%E5%A2%83%E7%95%8C"
+          "model": "Dreame L60 series",
+          "disposition": "older_overseas_candidate_no_taiwan_supply",
+          "sourceUrl": "https://www.dreametech.com/blogs/news/dreame-launches-l60-robot-vacuum-series"
         }
       ],
-      "reviewedAt": "2026-07-23T13:40:55.673Z",
+      "reviewedAt": "2026-07-23T22:29:49.651Z",
       "finalProductCount": 34,
-      "minimumSatisfied": true,
-      "label": "掃拖機器人"
+      "minimumSatisfied": true
     },
     {
       "category": "smartlock",
-      "cutoff": "2026-07-23",
+      "cutoff": "2026-07-24",
       "status": "manually_reviewed",
       "decision": "no_addition",
-      "note": "未見截止日後台灣合規新品；Aqara U400 仍缺台灣官方售價、安裝與保固來源。",
+      "note": "Yale、Philips、Aqara 等官方新品索引未見 2026-07-23 後台灣可安裝新鎖；Aqara U400 仍只有美國來源，缺台灣售價、安裝與保固證據。",
       "acceptedCandidates": [],
       "trackedOrRejectedCandidates": [
         {
@@ -510,17 +380,16 @@
           "sourceUrl": "https://www.aqara.com/us/product/smart-lock-u400/"
         }
       ],
-      "reviewedAt": "2026-07-23T13:40:55.673Z",
+      "reviewedAt": "2026-07-23T22:29:49.651Z",
       "finalProductCount": 48,
-      "minimumSatisfied": true,
-      "label": "電子鎖"
+      "minimumSatisfied": true
     },
     {
       "category": "soundbar",
-      "cutoff": "2026-07-23",
+      "cutoff": "2026-07-24",
       "status": "manually_reviewed",
       "decision": "no_addition",
-      "note": "未見截止日後新品；JBL BAR 1300MK2 為 2025-10 舊漏網候選，保留後續完整證據評估。",
+      "note": "LG、Samsung、Sony、JBL 官方新品索引未見 2026-07-23 後具可信新品現價的新 soundbar；JBL BAR 1300MK2 是 2025-10 舊候選，保留後續完整證據評估。",
       "acceptedCandidates": [],
       "trackedOrRejectedCandidates": [
         {
@@ -529,55 +398,52 @@
           "sourceUrl": "https://news.harman.com/releases/jbl-introduces-next-gen-bar-series-for-truly-immersive-entertainment"
         }
       ],
-      "reviewedAt": "2026-07-23T13:40:55.673Z",
+      "reviewedAt": "2026-07-23T22:29:49.651Z",
       "finalProductCount": 26,
-      "minimumSatisfied": true,
-      "label": "Soundbar"
+      "minimumSatisfied": true
     },
     {
       "category": "standingdesk",
-      "cutoff": "2026-07-23",
+      "cutoff": "2026-07-24",
       "status": "manually_reviewed",
       "decision": "no_addition",
-      "note": "未見截止日後新品；Backbone Dyback Craft 為舊候選且桌板厚度未標示。",
+      "note": "台灣品牌與通路新品索引未見 2026-07-23 後具桌板厚度、承重與可信新品供貨的新桌；Backbone Dyback Craft 是舊候選且桌板厚度未標示。",
       "acceptedCandidates": [],
       "trackedOrRejectedCandidates": [
         {
           "model": "Backbone Dyback Craft",
-          "disposition": "older_optional_candidate",
+          "disposition": "older_optional_candidate_missing_desktop_thickness",
           "sourceUrl": "https://www.backbone.tw/products/dyback-craft"
         }
       ],
-      "reviewedAt": "2026-07-23T13:40:55.673Z",
+      "reviewedAt": "2026-07-23T22:29:49.651Z",
       "finalProductCount": 22,
-      "minimumSatisfied": true,
-      "label": "升降桌"
+      "minimumSatisfied": true
     },
     {
       "category": "tv",
-      "cutoff": "2026-07-23",
+      "cutoff": "2026-07-24",
       "status": "manually_reviewed",
       "decision": "no_addition",
-      "note": "抽查 LG、Samsung、Panasonic、SHARP 官方發布，未見 2026-07-22 後新上市；現有 27 筆已涵蓋同代技術。",
+      "note": "抽查 LG、Samsung、Panasonic、Sony、SHARP 官方發布，未見 2026-07-23 後台灣新上市；Panasonic W97C／W95C／W93C 為日本 6 月底至 7 月底上市且 open price，缺台灣售價與供貨。",
       "acceptedCandidates": [],
       "trackedOrRejectedCandidates": [
         {
-          "model": "LG OLED65G6PTA",
-          "disposition": "older_optional_candidate",
-          "sourceUrl": "https://www.lg.com/tw/about-lg/press-and-media/lg-tv-smart-monitor-new-launch-20260708/"
+          "model": "Panasonic W97C／W95C／W93C",
+          "disposition": "rejected_japan_only_open_price",
+          "sourceUrl": "https://news.panasonic.com/jp/press/jn260514-2"
         }
       ],
-      "reviewedAt": "2026-07-23T13:40:55.673Z",
+      "reviewedAt": "2026-07-23T22:29:49.651Z",
       "finalProductCount": 27,
-      "minimumSatisfied": true,
-      "label": "電視"
+      "minimumSatisfied": true
     },
     {
       "category": "vacuum",
-      "cutoff": "2026-07-23",
+      "cutoff": "2026-07-24",
       "status": "manually_reviewed",
       "decision": "no_addition",
-      "note": "未見截止日後新品；Dyson V16 已在台灣官方販售但屬舊候選，現有 Dyson 比重已高。",
+      "note": "Dyson、Dreame、LG、Samsung 等官方新品索引未見 2026-07-23 後台灣 exact-model 新機；Dyson V16 已在售但屬舊候選，現有 Dyson 比重已高。",
       "acceptedCandidates": [],
       "trackedOrRejectedCandidates": [
         {
@@ -586,49 +452,52 @@
           "sourceUrl": "https://www.dyson.com/discover/innovation/new-machines/v16-piston-animal-cordless-vacuum"
         }
       ],
-      "reviewedAt": "2026-07-23T13:40:55.673Z",
+      "reviewedAt": "2026-07-23T22:29:49.651Z",
       "finalProductCount": 24,
-      "minimumSatisfied": true,
-      "label": "吸塵器"
+      "minimumSatisfied": true
     },
     {
       "category": "washer",
-      "cutoff": "2026-07-23",
+      "cutoff": "2026-07-24",
       "status": "manually_reviewed",
       "decision": "no_addition",
-      "note": "抽查 LG、Samsung、Panasonic 官方現行陣容，未見截止日後新品；現有 23 筆高於門檻。",
-      "acceptedCandidates": [],
-      "trackedOrRejectedCandidates": [],
-      "reviewedAt": "2026-07-23T13:40:55.673Z",
-      "finalProductCount": 23,
-      "minimumSatisfied": true,
-      "label": "洗衣機"
-    },
-    {
-      "category": "washerdryer",
-      "cutoff": "2026-07-23",
-      "status": "manually_reviewed",
-      "decision": "no_addition",
-      "note": "未見截止日後新品；現有清單已含本週納入的 LG WD-S2220B，25 筆高於門檻。",
+      "note": "Samsung 7 月新洗衣機發布只提供 WF90H1*C4*** 系列 wildcard，未見台灣 exact retail SKU、售價與供貨；LG、Panasonic 等官方索引也無 2026-07-23 後新機。",
       "acceptedCandidates": [],
       "trackedOrRejectedCandidates": [
         {
-          "model": "Samsung WD90H22AHSTW",
-          "disposition": "older_backlog_candidate",
-          "sourceUrl": "https://news.samsung.com/tw/%E5%AE%B6%E9%9B%BB%E3%80%8C%E6%98%9F%E3%80%8D%E5%8D%87%E7%B4%9A-%E4%B8%89%E6%98%9Fbespoke-ai%E6%99%BA%E6%85%A7%E7%86%B1%E6%B3%B5%E6%BB%BE%E7%AD%92%E6%B4%97%E8%A1%A3%E6%A9%9F%E5%85%A8%E6%96%B0%E4%B8%8A"
+          "model": "Samsung WF90H1*C4*** series",
+          "disposition": "rejected_no_exact_retail_sku",
+          "sourceUrl": "https://news.samsung.com/global/samsung-launches-new-bespoke-ai-washer-and-dryer-lineup-with-ai-enhanced-fabric-care-and-seamless-connectivity"
         }
       ],
-      "reviewedAt": "2026-07-23T13:40:55.673Z",
+      "reviewedAt": "2026-07-23T22:29:49.651Z",
+      "finalProductCount": 23,
+      "minimumSatisfied": true
+    },
+    {
+      "category": "washerdryer",
+      "cutoff": "2026-07-24",
+      "status": "manually_reviewed",
+      "decision": "no_addition",
+      "note": "Samsung 7 月 Bespoke AI Washer Dryer 僅提供 WD**HG******** wildcard，無可驗證 exact retail SKU；其他官方索引未見 2026-07-23 後台灣新品，現有 25 筆高於門檻。",
+      "acceptedCandidates": [],
+      "trackedOrRejectedCandidates": [
+        {
+          "model": "Samsung WD**HG******** series",
+          "disposition": "rejected_no_exact_retail_sku",
+          "sourceUrl": "https://news.samsung.com/global/samsung-launches-new-bespoke-ai-washer-dryer-that-cuts-energy-use-while-delivering-smarter-fabric-care"
+        }
+      ],
+      "reviewedAt": "2026-07-23T22:29:49.651Z",
       "finalProductCount": 25,
-      "minimumSatisfied": true,
-      "label": "洗烘衣機(多功能型)"
+      "minimumSatisfied": true
     },
     {
       "category": "waterdispenser",
-      "cutoff": "2026-07-23",
+      "cutoff": "2026-07-24",
       "status": "manually_reviewed",
       "decision": "no_addition",
-      "note": "未見截止日後正式供貨新品；acerpure RP722-12W 官方仍標示預購中，持續追蹤但不納入。",
+      "note": "3M、Panasonic、acerpure 等官方新品索引未見 2026-07-23 後正式供貨新機；acerpure RP722-12W 仍是預購，持續追蹤但不納入。",
       "acceptedCandidates": [],
       "trackedOrRejectedCandidates": [
         {
@@ -637,17 +506,16 @@
           "sourceUrl": "https://store.acer.com/zh-tw/rp722-12w"
         }
       ],
-      "reviewedAt": "2026-07-23T13:40:55.673Z",
+      "reviewedAt": "2026-07-23T22:29:49.651Z",
       "finalProductCount": 21,
-      "minimumSatisfied": true,
-      "label": "櫥下飲水機"
+      "minimumSatisfied": true
     },
     {
       "category": "wifi",
-      "cutoff": "2026-07-23",
+      "cutoff": "2026-07-24",
       "status": "manually_reviewed",
       "decision": "no_addition",
-      "note": "未見截止日後正式上市新品；TP-Link Archer 8 仍是概念預覽，預計 2026-10 上市。",
+      "note": "ASUS、TP-Link、D-Link、NETGEAR 等官方新品索引未見 2026-07-23 後正式在售的新路由器；TP-Link Archer 8 仍是概念預覽，預計 2026-10 上市。",
       "acceptedCandidates": [],
       "trackedOrRejectedCandidates": [
         {
@@ -656,200 +524,240 @@
           "sourceUrl": "https://www.tp-link.com/tw/press/news/22354/"
         }
       ],
-      "reviewedAt": "2026-07-23T13:40:55.673Z",
+      "reviewedAt": "2026-07-23T22:29:49.651Z",
       "finalProductCount": 48,
-      "minimumSatisfied": true,
-      "label": "無線路由器"
+      "minimumSatisfied": true
     }
   ],
   "changes": {
     "prices": [
       {
-        "id": "bidet-extra-12-dmal8l-a900gh6f4",
-        "before": 6190,
-        "after": 6990,
+        "id": "garmentcare-lg-e523mr",
+        "before": 41900,
+        "after": 39900,
         "currency": "TWD",
-        "source": "https://24h.pchome.com.tw/prod/DMAL8L-A900GH6F4"
+        "source": "https://24h.pchome.com.tw/prod/DPAI1L-A900AMBO4"
       },
       {
-        "id": "blender-vitamix-a2500i",
-        "before": 29600,
-        "after": 26640,
+        "id": "monitor-aoc-cu34g4",
+        "before": 6488,
+        "after": 6888,
         "currency": "TWD",
-        "source": "https://24h.pchome.com.tw/prod/QBAO0F-A900AS2G7"
+        "source": "https://24h.pchome.com.tw/prod/DSABQR-A900JPRWC"
       },
       {
-        "id": "blender-vitamix-a3500i",
-        "before": 39800,
-        "after": 35820,
+        "id": "monitor-aoc-pd34",
+        "before": 28988,
+        "after": 29988,
         "currency": "TWD",
-        "source": "https://24h.pchome.com.tw/prod/DMAYE8-A900BKOKK"
+        "source": "https://24h.pchome.com.tw/prod/DSABQR-A900K5BI4"
       },
       {
-        "id": "circulator-extra-7-dmab3x-a900iigo1",
-        "before": 3492,
-        "after": 3880,
+        "id": "monitor-dell-aw3225qf",
+        "before": 32888,
+        "after": 33888,
         "currency": "TWD",
-        "source": "https://24h.pchome.com.tw/prod/DMAB3X-A900IIGO1"
+        "source": "https://24h.pchome.com.tw/prod/DSABOK-A900HB1B5"
       },
       {
-        "id": "dehumidifier-extra-6-dmbq4y-a900ikocc",
-        "before": 16427,
-        "after": 16367,
+        "id": "monitor-dell-p2425h",
+        "before": 4838,
+        "after": 4988,
         "currency": "TWD",
-        "source": "https://tw.buy.yahoo.com/gdsale/Panasonic-%E5%9C%8B%E9%9A%9B%E7%89%8C-16L-nanoe%E8%AE%8A%E9%A0%BB%E5%BE%AE%E9%9B%BB%E8%85%A6%E9%99%A4%E6%BF%95%E6%A9%9F-F-YV32NX-11427351.html"
+        "source": "https://24h.pchome.com.tw/prod/DSABOL-A900K1NAC"
       },
       {
-        "id": "dryer-sanlux-sd-66u8a",
-        "before": 7120,
-        "after": 6621,
+        "id": "monitor-dell-u2725qe",
+        "before": 26888,
+        "after": 27888,
         "currency": "TWD",
-        "source": "https://24h.pchome.com.tw/prod/DPAI1J-A900BZ07A"
+        "source": "https://24h.pchome.com.tw/prod/DSABOL-A900IIFQG"
       },
       {
-        "id": "knife-extra-20-deawrua900hdkxq",
-        "before": 697,
-        "after": 662,
+        "id": "monitor-dell-u3425we",
+        "before": 38888,
+        "after": 39888,
         "currency": "TWD",
-        "source": "https://24h.pchome.com.tw/prod/DEAWRU-A900HDKXQ"
+        "source": "https://24h.pchome.com.tw/prod/DSABOM-A900HIJN3"
       },
       {
-        "id": "monitor-asus-xg27acs",
-        "before": 5068,
-        "after": 5218,
+        "id": "monitor-eizo-cs2740",
+        "before": 58900,
+        "after": 59900,
         "currency": "TWD",
-        "source": "https://24h.pchome.com.tw/prod/DSABKB-A900JZ3CV"
+        "source": "https://24h.pchome.com.tw/prod/DSABGW-A900ANM62"
       },
       {
-        "id": "monitor-asus-xg34wcdms",
-        "before": 25888,
-        "after": 26888,
+        "id": "monitor-gigabyte-m27up",
+        "before": 8590,
+        "after": 8990,
         "currency": "TWD",
-        "source": "https://24h.pchome.com.tw/prod/DSABKB-A900K0YA0"
+        "source": "https://24h.pchome.com.tw/prod/DSABHU-A900J98GT"
       },
       {
-        "id": "monitor-msi-271qrx",
-        "before": 18900,
-        "after": 17955,
+        "id": "monitor-msi-g275l-e14",
+        "before": 2840,
+        "after": 2990,
         "currency": "TWD",
-        "source": "https://tw.buy.yahoo.com/gdsale/MSI%E5%BE%AE%E6%98%9F-MPG-271QRX-QD-OLED-27%E5%9E%8B-2K-360Hz-HDR%E9%9B%BB%E7%AB%B6%E8%9E%A2%E5%B9%95-10958143.html"
+        "source": "https://24h.pchome.com.tw/prod/DSABPD-A900JTLEG"
       },
       {
-        "id": "oven-extra-10-dmbm0g-a900hf91a",
-        "before": 10800,
-        "after": 10368,
+        "id": "monitor-msi-mpg-491cqp",
+        "before": 31900,
+        "after": 32900,
         "currency": "TWD",
-        "source": "https://24h.pchome.com.tw/prod/DMBM0G-A900HF91A"
+        "source": "https://24h.pchome.com.tw/prod/DSABPD-A900H9PEB"
+      },
+      {
+        "id": "monitor-samsung-oled-g6-500",
+        "before": 24900,
+        "after": 25900,
+        "currency": "TWD",
+        "source": "https://24h.pchome.com.tw/prod/DSABSL-A900JNWTU"
+      },
+      {
+        "id": "monitor-viewsonic-vg2719u",
+        "before": 6890,
+        "after": 7290,
+        "currency": "TWD",
+        "source": "https://24h.pchome.com.tw/prod/DSABEZ-A900K1N6R"
       },
       {
         "id": "oven-extra-12-dmbm0g-a900g41cw",
-        "before": 38800,
-        "after": 36472,
+        "before": 36472,
+        "after": 38800,
         "currency": "TWD",
         "source": "https://tw.buy.yahoo.com/gdsale/SHARP-%E5%A4%8F%E6%99%AE-30L-Healsio-AIoT%E6%99%BA%E6%85%A7%E9%80%A3%E7%B6%B2%E6%B0%B4%E6%B3%A2%E7%88%90-AX-XW10T-11978312.html"
       },
       {
         "id": "oven-extra-14-dmbj0r-a900jt4zv",
-        "before": 24900,
-        "after": 23406,
+        "before": 23406,
+        "after": 24900,
         "currency": "TWD",
         "source": "https://tw.buy.yahoo.com/gdsale/SHARP-%E5%A4%8F%E6%99%AE-31L-%E6%A5%B5%E6%99%BA%E7%83%98%E7%83%A4%E7%B3%BB%E5%88%97%E6%B0%B4%E6%B3%A2%E7%88%90-AX-XS10T-B-AX-XS10T-W-12030496.html"
       },
       {
-        "id": "oven-extra-20-dmbm0ga900h5125",
-        "before": 43920,
-        "after": 42163,
-        "currency": "TWD",
-        "source": "https://24h.pchome.com.tw/prod/DMBM0G-A900H5125"
-      },
-      {
-        "id": "oven-extra-8-dmbj7p-1900hci3e",
-        "before": 26900,
-        "after": 32900,
-        "currency": "TWD",
-        "source": "https://tw.buy.yahoo.com/gdsale/Panasonic-%E5%9C%8B%E9%9A%9B%E7%89%8C-30L%E5%B9%B3%E5%8F%B0%E5%BC%8F%E8%AE%8A%E9%A0%BB%E8%92%B8%E7%83%98%E7%83%A4%E5%BE%AE%E9%9B%BB%E8%85%A6%E5%BE%AE%E6%B3%A2%E7%88%90-NN-BS1700-9469543.html"
-      },
-      {
         "id": "oven-sharp-xp10",
-        "before": 28800,
-        "after": 27072,
+        "before": 27072,
+        "after": 28800,
         "currency": "TWD",
         "source": "https://tw.buy.yahoo.com/gdsale/SHARP%E5%A4%8F%E6%99%AE-HEALSIO-%E6%97%97%E8%89%A6%E6%B0%B4%E6%B3%A2%E7%88%90-AX-XP10T-12039766.html"
       },
       {
-        "id": "robot-lg-r5t-ultimate",
-        "before": 13490,
-        "after": 13290,
-        "currency": "TWD",
-        "source": "https://24h.pchome.com.tw/prod/DMBM2Z-A900IUC17"
-      },
-      {
-        "id": "soundbar-sony-ht-a7100",
-        "before": 20610,
-        "after": 21755,
-        "currency": "TWD",
-        "source": "https://24h.pchome.com.tw/prod/DMAAN8-A900K0Y8L"
-      },
-      {
-        "id": "tv-sony-bravia7-65",
-        "before": 56900,
-        "after": 53910,
-        "currency": "TWD",
-        "source": "https://24h.pchome.com.tw/prod/DPADFN-A900K7VQ8"
-      },
-      {
-        "id": "washer-whirlpool-wm07pw",
-        "before": 5490,
-        "after": 5190,
-        "currency": "TWD",
-        "source": "https://tw.buy.yahoo.com/gdsale/Whirlpool-%E6%83%A0%E8%80%8C%E6%B5%A6-7%E5%85%AC%E6%96%A4-%E7%9B%B4%E7%AB%8B%E6%B4%97%E8%A1%A3%E6%A9%9F-WM07PW-9291102.html"
-      },
-      {
-        "id": "waterdispenser--uw-2262hw-1",
-        "before": 18810,
-        "after": 20900,
-        "currency": "TWD",
-        "source": "https://24h.pchome.com.tw/prod/DMAWEM-A900GDIXH"
-      },
-      {
-        "id": "wifi-asus-rt-be58u-v2",
-        "before": 3699,
-        "after": 3552,
-        "currency": "TWD",
-        "source": "https://tw.buy.yahoo.com/gdsale/ASUS-%E8%8F%AF%E7%A2%A9-RT-BE58U-V2-BE3600-%E9%9B%99%E9%A0%BB-Wi-Fi-7-%E5%8F%AF%E6%93%B4%E5%85%85%E5%BC%8F%E8%B7%AF%E7%94%B1%E5%99%A8-12005854.html"
-      },
-      {
-        "id": "wifi-asus-rt-be82u",
-        "before": 4990,
-        "after": 4791,
-        "currency": "TWD",
-        "source": "https://tw.buy.yahoo.com/gdsale/ASUS-%E8%8F%AF%E7%A2%A9-RT-BE82U-WiFi-7-%E9%9B%99%E9%A0%BB-BE6500-%E8%B7%AF%E7%94%B1%E5%99%A8-%E5%88%86%E4%BA%AB%E5%99%A8-11798654.html"
-      },
-      {
-        "id": "wifi-synology-rt6600ax",
+        "id": "robot-dreame-d30-ultra-ce",
         "before": 9999,
-        "after": 9600,
+        "after": 8999,
         "currency": "TWD",
-        "source": "https://tw.buy.yahoo.com/gdsale/%E6%98%8C%E9%81%8B%E7%9B%A3%E8%A6%96%E5%99%A8-Synology%E7%BE%A4%E6%9A%89-RT6600AX-%E4%B8%89%E9%A0%BB-Wi-Fi-6-Router-%E7%84%A1%E7%B7%9A%E8%B7%AF%E7%94%B1%E5%99%A8-11898475.html"
+        "source": "https://24h.pchome.com.tw/prod/DMBL3E-A900JY4G0"
+      },
+      {
+        "id": "robot-dreame-x60-master",
+        "before": 32588,
+        "after": 29329,
+        "currency": "TWD",
+        "source": "https://24h.pchome.com.tw/prod/DMBL3E-A900JZ3SP"
+      },
+      {
+        "id": "robot-ecovacs-n50",
+        "before": 12999,
+        "after": 11699,
+        "currency": "TWD",
+        "source": "https://24h.pchome.com.tw/prod/DMBL0L-A900J0KF3"
+      },
+      {
+        "id": "robot-ecovacs-t50-pro",
+        "before": 14999,
+        "after": 13499,
+        "currency": "TWD",
+        "source": "https://24h.pchome.com.tw/prod/DMBL0L-A900IDIPA"
+      },
+      {
+        "id": "robot-ecovacs-t90-pro",
+        "before": 20999,
+        "after": 18899,
+        "currency": "TWD",
+        "source": "https://24h.pchome.com.tw/prod/DMBL0L-A900JWVON"
+      },
+      {
+        "id": "robot-ecovacs-x11-pro",
+        "before": 22999,
+        "after": 20699,
+        "currency": "TWD",
+        "source": "https://24h.pchome.com.tw/prod/DMBL0L-A900J5HJ0"
+      },
+      {
+        "id": "robot-ecovacs-x12-pro",
+        "before": 29999,
+        "after": 26999,
+        "currency": "TWD",
+        "source": "https://24h.pchome.com.tw/prod/DMBL0L-A900JS61Y"
+      },
+      {
+        "id": "robot-roborock-qrevo-curv-2-flow",
+        "before": 22888,
+        "after": 19999,
+        "currency": "TWD",
+        "source": "https://24h.pchome.com.tw/prod/DMBL1C-A900JA04J"
+      },
+      {
+        "id": "robot-roborock-qrevo-edge-2-pro",
+        "before": 28980,
+        "after": 26980,
+        "currency": "TWD",
+        "source": "https://24h.pchome.com.tw/prod/DMBL1C-A900JPHOP"
+      },
+      {
+        "id": "robot-roborock-saros-20",
+        "before": 34980,
+        "after": 32980,
+        "currency": "TWD",
+        "source": "https://24h.pchome.com.tw/prod/DMBL1C-A900JMMCO"
+      },
+      {
+        "id": "robot-roborock-saros-20-aqua",
+        "before": 36980,
+        "after": 34980,
+        "currency": "TWD",
+        "source": "https://24h.pchome.com.tw/prod/DMBL1C-A900JNELR"
+      },
+      {
+        "id": "robot-roborock-saros-z70",
+        "before": 39980,
+        "after": 36980,
+        "currency": "TWD",
+        "source": "https://24h.pchome.com.tw/prod/DMBL1C-A900IGHHM"
+      },
+      {
+        "id": "washer-whirlpool-wm10kw",
+        "before": 6890,
+        "after": 6390,
+        "currency": "TWD",
+        "source": "https://24h.pchome.com.tw/prod/DPAI1P-A900G9MWZ"
+      },
+      {
+        "id": "washerdryer-lg-wd-s13vdw",
+        "before": 31900,
+        "after": 29900,
+        "currency": "TWD",
+        "source": "https://24h.pchome.com.tw/prod/DPAI1L-A900EP6CY"
+      },
+      {
+        "id": "wifi-netgear-orbi-rbe373",
+        "before": 12863,
+        "after": 9900,
+        "currency": "TWD",
+        "source": "https://24h.pchome.com.tw/prod/DRAFJA-A900JG5AK"
       }
     ],
     "links": [],
     "images": [],
-    "historicalLows": [
-      {
-        "id": "vacuum-dreame-aero-ultra-steam",
-        "before": 679.99,
-        "after": 679.99,
-        "status": "found",
-        "source": "https://vacuummop.dreametech.com/products/aero-ultra-steam-wet-dry-vacuum"
-      }
-    ],
+    "historicalLows": [],
     "foreignConversions": [
       {
         "id": "bidet-costco-us-brondell-cl1700",
         "currency": "USD",
         "amount": 399.99,
-        "before": 12937,
+        "before": 12964,
         "after": 12964,
         "rate": 32.409765
       },
@@ -857,7 +765,7 @@
         "id": "blender-ninja-bn701",
         "currency": "USD",
         "amount": 119.99,
-        "before": 3881,
+        "before": 3889,
         "after": 3889,
         "rate": 32.409765
       },
@@ -881,7 +789,7 @@
         "id": "garmentcare-lg-s3mfbn",
         "currency": "USD",
         "amount": 1699,
-        "before": 55032,
+        "before": 55064,
         "after": 55064,
         "rate": 32.409765
       },
@@ -889,7 +797,7 @@
         "id": "garmentcare-lg-s3wfbn",
         "currency": "USD",
         "amount": 1499,
-        "before": 48549,
+        "before": 48582,
         "after": 48582,
         "rate": 32.409765
       },
@@ -897,7 +805,7 @@
         "id": "garmentcare-lg-s3rfbn",
         "currency": "USD",
         "amount": 1499,
-        "before": 48549,
+        "before": 48582,
         "after": 48582,
         "rate": 32.409765
       },
@@ -969,7 +877,7 @@
         "id": "oven-breville-joule",
         "currency": "USD",
         "amount": 499.95,
-        "before": 16170,
+        "before": 16203,
         "after": 16203,
         "rate": 32.409765
       },
@@ -977,7 +885,7 @@
         "id": "oven-ninja-crispi-mw101",
         "currency": "USD",
         "amount": 449.99,
-        "before": 14554,
+        "before": 14584,
         "after": 14584,
         "rate": 32.409765
       },
@@ -985,7 +893,7 @@
         "id": "robot-narwal-flow-2",
         "currency": "EUR",
         "amount": 999,
-        "before": 36856,
+        "before": 36945,
         "after": 36945,
         "rate": 36.98208164643915
       },
@@ -993,7 +901,7 @@
         "id": "robot-narwal-freo-z10-ultra",
         "currency": "USD",
         "amount": 551.69,
-        "before": 17843,
+        "before": 17880,
         "after": 17880,
         "rate": 32.409765
       },
@@ -1001,7 +909,7 @@
         "id": "robot-shark-powerdetect-nevertouch-pro",
         "currency": "USD",
         "amount": 999.99,
-        "before": 32343,
+        "before": 32409,
         "after": 32409,
         "rate": 32.409765
       },
@@ -1009,7 +917,7 @@
         "id": "robot-costco-us-roborock-qx-revo",
         "currency": "USD",
         "amount": 399.99,
-        "before": 12937,
+        "before": 12964,
         "after": 12964,
         "rate": 32.409765
       },
@@ -1017,7 +925,7 @@
         "id": "soundbar-marshall-heston-120",
         "currency": "USD",
         "amount": 1299.99,
-        "before": 42046,
+        "before": 42132,
         "after": 42132,
         "rate": 32.409765
       },
@@ -1025,7 +933,7 @@
         "id": "soundbar-marshall-heston-60",
         "currency": "USD",
         "amount": 699.99,
-        "before": 22640,
+        "before": 22687,
         "after": 22687,
         "rate": 32.409765
       },
@@ -1033,7 +941,7 @@
         "id": "vacuum-dreame-aero-ultra-steam",
         "currency": "USD",
         "amount": 679.99,
-        "before": 21993,
+        "before": 22038,
         "after": 22038,
         "rate": 32.409765
       },
@@ -1041,7 +949,7 @@
         "id": "waterdispenser-costco-us-brondell-circle",
         "currency": "USD",
         "amount": 369.99,
-        "before": 11967,
+        "before": 11991,
         "after": 11991,
         "rate": 32.409765
       },
@@ -1049,7 +957,7 @@
         "id": "wifi-unifi-u7-pro",
         "currency": "USD",
         "amount": 189,
-        "before": 6113,
+        "before": 6125,
         "after": 6125,
         "rate": 32.409765
       },
@@ -1057,7 +965,7 @@
         "id": "wifi-unifi-u6-pro",
         "currency": "USD",
         "amount": 159,
-        "before": 5143,
+        "before": 5153,
         "after": 5153,
         "rate": 32.409765
       },
@@ -1065,7 +973,7 @@
         "id": "wifi-unifi-u7-lite",
         "currency": "USD",
         "amount": 99,
-        "before": 3202,
+        "before": 3209,
         "after": 3209,
         "rate": 32.409765
       },
@@ -1073,7 +981,7 @@
         "id": "wifi-unifi-u6-plus",
         "currency": "USD",
         "amount": 129,
-        "before": 4172,
+        "before": 4181,
         "after": 4181,
         "rate": 32.409765
       },
@@ -1081,7 +989,7 @@
         "id": "wifi-unifi-u7-pro-max",
         "currency": "USD",
         "amount": 279,
-        "before": 9024,
+        "before": 9042,
         "after": 9042,
         "rate": 32.409765
       }
@@ -2298,21 +2206,6 @@
     ],
     "exceptions": [
       {
-        "id": "bidet-extra-6-dmal6w-a900jnqf2",
-        "sourceKind": "pchome_api",
-        "status": "model_unverified",
-        "httpStatus": 200,
-        "productId": "DMAL6W-A900JNQF2",
-        "productIdMatched": true,
-        "exactModel": false,
-        "manualBindingApproved": false,
-        "excluded": false,
-        "quantity": 10,
-        "catalogPrice": 23900,
-        "observedPrice": 23900,
-        "networkPrice": 23900
-      },
-      {
         "id": "bidet-extra-8-dmal6w-a900jvx5o",
         "sourceKind": "pchome_api",
         "status": "tracking_out_of_stock",
@@ -2326,6 +2219,36 @@
         "catalogPrice": 17900,
         "observedPrice": 17900,
         "networkPrice": 17900
+      },
+      {
+        "id": "bidet-extra-16-dmbm0ma900g29jm",
+        "sourceKind": "pchome_api",
+        "status": "model_unverified",
+        "httpStatus": 200,
+        "productId": "DMBM0M-A900G29JM",
+        "productIdMatched": true,
+        "exactModel": false,
+        "manualBindingApproved": false,
+        "excluded": false,
+        "quantity": 20,
+        "catalogPrice": 7088,
+        "observedPrice": 7088,
+        "networkPrice": 7088
+      },
+      {
+        "id": "bidet-extra-6-dmal6w-a900jnqf2",
+        "sourceKind": "pchome_api",
+        "status": "model_unverified",
+        "httpStatus": 200,
+        "productId": "DMAL6W-A900JNQF2",
+        "productIdMatched": true,
+        "exactModel": false,
+        "manualBindingApproved": false,
+        "excluded": false,
+        "quantity": 10,
+        "catalogPrice": 23900,
+        "observedPrice": 23900,
+        "networkPrice": 23900
       },
       {
         "id": "bidet-extra-9-dmal6w-a900jw0lw",
@@ -2358,19 +2281,19 @@
         "networkPrice": 34900
       },
       {
-        "id": "bidet-extra-16-dmbm0ma900g29jm",
+        "id": "blender-extra-8-dmay0g-a900agmd8",
         "sourceKind": "pchome_api",
         "status": "model_unverified",
         "httpStatus": 200,
-        "productId": "DMBM0M-A900G29JM",
+        "productId": "DMAY0G-A900AGMD8",
         "productIdMatched": true,
         "exactModel": false,
         "manualBindingApproved": false,
         "excluded": false,
-        "quantity": 20,
-        "catalogPrice": 7088,
-        "observedPrice": 7088,
-        "networkPrice": 7088
+        "quantity": 3,
+        "catalogPrice": 24700,
+        "observedPrice": 22230,
+        "networkPrice": 22230
       },
       {
         "id": "blender-extra-10-dmay0h-a9009qnf5",
@@ -2388,21 +2311,6 @@
         "networkPrice": 49500
       },
       {
-        "id": "blender-extra-12-dmaybb-a900k6vsy",
-        "sourceKind": "pchome_api",
-        "status": "model_unverified",
-        "httpStatus": 200,
-        "productId": "DMAYBB-A900K6VSY",
-        "productIdMatched": true,
-        "exactModel": false,
-        "manualBindingApproved": false,
-        "excluded": false,
-        "quantity": 3,
-        "catalogPrice": 26800,
-        "observedPrice": 26800,
-        "networkPrice": 26800
-      },
-      {
         "id": "blender-extra-11-qbao0g-a900a6dwk",
         "sourceKind": "pchome_api",
         "status": "model_unverified",
@@ -2418,87 +2326,12 @@
         "networkPrice": 30800
       },
       {
-        "id": "blender-extra-16-dmay01a900gfjco",
-        "sourceKind": "pchome_api",
-        "status": "model_unverified",
-        "httpStatus": 200,
-        "productId": "DMAY01-A900GFJCO",
-        "productIdMatched": true,
-        "exactModel": false,
-        "manualBindingApproved": false,
-        "excluded": false,
-        "quantity": 10,
-        "catalogPrice": 9480,
-        "observedPrice": 9480,
-        "networkPrice": 9480
-      },
-      {
-        "id": "blender-extra-17-dmaye4a900jtmqr",
-        "sourceKind": "pchome_api",
-        "status": "tracking_out_of_stock",
-        "httpStatus": 200,
-        "productId": "DMAYE4-A900JTMQR",
-        "productIdMatched": true,
-        "exactModel": false,
-        "manualBindingApproved": false,
-        "excluded": false,
-        "quantity": 0,
-        "catalogPrice": 3290,
-        "observedPrice": 3290,
-        "networkPrice": 3290
-      },
-      {
-        "id": "bidet-extra-15-dmale4-a900fw2kj",
+        "id": "bidet-costco-us-brondell-cl1700",
         "sourceKind": "web_page",
-        "status": "model_unverified",
-        "httpStatus": 206,
+        "status": "request_failed",
         "exactModel": false,
-        "excluded": false
-      },
-      {
-        "id": "blender-extra-13-dmaybb-a900k3czm",
-        "sourceKind": "pchome_api",
-        "status": "model_unverified",
-        "httpStatus": 200,
-        "productId": "DMAYBB-A900K3CZM",
-        "productIdMatched": true,
-        "exactModel": false,
-        "manualBindingApproved": false,
         "excluded": false,
-        "quantity": 5,
-        "catalogPrice": 28000,
-        "observedPrice": 28000,
-        "networkPrice": 28000
-      },
-      {
-        "id": "blender-xiaomi-mjpbj01demtw",
-        "sourceKind": "pchome_api",
-        "status": "model_unverified",
-        "httpStatus": 200,
-        "productId": "DMAYFG-A900IXDP8",
-        "productIdMatched": true,
-        "exactModel": false,
-        "manualBindingApproved": false,
-        "excluded": false,
-        "quantity": 20,
-        "catalogPrice": 2149,
-        "observedPrice": 2149,
-        "networkPrice": 2149
-      },
-      {
-        "id": "blender-extra-8-dmay0g-a900agmd8",
-        "sourceKind": "pchome_api",
-        "status": "model_unverified",
-        "httpStatus": 200,
-        "productId": "DMAY0G-A900AGMD8",
-        "productIdMatched": true,
-        "exactModel": false,
-        "manualBindingApproved": false,
-        "excluded": false,
-        "quantity": 3,
-        "catalogPrice": 24700,
-        "observedPrice": 22230,
-        "networkPrice": 22230
+        "error": "fetch failed"
       },
       {
         "id": "blender-extra-9-qbao0f-a900as2dj",
@@ -2516,6 +2349,51 @@
         "networkPrice": 26640
       },
       {
+        "id": "blender-extra-16-dmay01a900gfjco",
+        "sourceKind": "pchome_api",
+        "status": "model_unverified",
+        "httpStatus": 200,
+        "productId": "DMAY01-A900GFJCO",
+        "productIdMatched": true,
+        "exactModel": false,
+        "manualBindingApproved": false,
+        "excluded": false,
+        "quantity": 10,
+        "catalogPrice": 9480,
+        "observedPrice": 9480,
+        "networkPrice": 9480
+      },
+      {
+        "id": "blender-extra-13-dmaybb-a900k3czm",
+        "sourceKind": "pchome_api",
+        "status": "model_unverified",
+        "httpStatus": 200,
+        "productId": "DMAYBB-A900K3CZM",
+        "productIdMatched": true,
+        "exactModel": false,
+        "manualBindingApproved": false,
+        "excluded": false,
+        "quantity": 5,
+        "catalogPrice": 28000,
+        "observedPrice": 28000,
+        "networkPrice": 28000
+      },
+      {
+        "id": "blender-extra-12-dmaybb-a900k6vsy",
+        "sourceKind": "pchome_api",
+        "status": "model_unverified",
+        "httpStatus": 200,
+        "productId": "DMAYBB-A900K6VSY",
+        "productIdMatched": true,
+        "exactModel": false,
+        "manualBindingApproved": false,
+        "excluded": false,
+        "quantity": 3,
+        "catalogPrice": 26800,
+        "observedPrice": 26800,
+        "networkPrice": 26800
+      },
+      {
         "id": "blender-extra-15-dmay4y-a900j7nyf",
         "sourceKind": "pchome_api",
         "status": "tracking_out_of_stock",
@@ -2531,6 +2409,36 @@
         "networkPrice": 3793
       },
       {
+        "id": "blender-extra-17-dmaye4a900jtmqr",
+        "sourceKind": "pchome_api",
+        "status": "tracking_out_of_stock",
+        "httpStatus": 200,
+        "productId": "DMAYE4-A900JTMQR",
+        "productIdMatched": true,
+        "exactModel": false,
+        "manualBindingApproved": false,
+        "excluded": false,
+        "quantity": 0,
+        "catalogPrice": 3290,
+        "observedPrice": 3290,
+        "networkPrice": 3290
+      },
+      {
+        "id": "blender-xiaomi-mjpbj01demtw",
+        "sourceKind": "pchome_api",
+        "status": "model_unverified",
+        "httpStatus": 200,
+        "productId": "DMAYFG-A900IXDP8",
+        "productIdMatched": true,
+        "exactModel": false,
+        "manualBindingApproved": false,
+        "excluded": false,
+        "quantity": 20,
+        "catalogPrice": 2149,
+        "observedPrice": 2149,
+        "networkPrice": 2149
+      },
+      {
         "id": "chair-irocks-t05-plus",
         "sourceKind": "pchome_api",
         "status": "model_unverified",
@@ -2544,6 +2452,29 @@
         "catalogPrice": 15800,
         "observedPrice": 15800,
         "networkPrice": 15800
+      },
+      {
+        "id": "chair-herman-miller-aeron-c",
+        "sourceKind": "pchome_api",
+        "status": "model_unverified",
+        "httpStatus": 200,
+        "productId": "DCBV09-A900IUC3Q",
+        "productIdMatched": true,
+        "exactModel": false,
+        "manualBindingApproved": false,
+        "excluded": false,
+        "quantity": 1,
+        "catalogPrice": 38900,
+        "observedPrice": 38900,
+        "networkPrice": 38900
+      },
+      {
+        "id": "bidet-extra-15-dmale4-a900fw2kj",
+        "sourceKind": "web_page",
+        "status": "model_unverified",
+        "httpStatus": 206,
+        "exactModel": false,
+        "excluded": false
       },
       {
         "id": "chair-backbone-kangaroo-pro",
@@ -2614,21 +2545,6 @@
         "networkPrice": 4480
       },
       {
-        "id": "chair-herman-miller-aeron-c",
-        "sourceKind": "pchome_api",
-        "status": "model_unverified",
-        "httpStatus": 200,
-        "productId": "DCBV09-A900IUC3Q",
-        "productIdMatched": true,
-        "exactModel": false,
-        "manualBindingApproved": false,
-        "excluded": false,
-        "quantity": 1,
-        "catalogPrice": 38900,
-        "observedPrice": 38900,
-        "networkPrice": 38900
-      },
-      {
         "id": "circulator-extra-9-dmab3x-a900hnewa",
         "sourceKind": "web_page",
         "status": "model_unverified",
@@ -2667,6 +2583,22 @@
         "networkPrice": 999
       },
       {
+        "id": "cookware-buffalo-26cm",
+        "sourceKind": "pchome_api",
+        "status": "model_unverified",
+        "httpStatus": 200,
+        "productId": "DEAWN3-A900JOVE3",
+        "productIdMatched": true,
+        "exactModel": false,
+        "manualBindingApproved": false,
+        "excluded": false,
+        "quantity": 20,
+        "catalogPrice": 759,
+        "observedPrice": 759,
+        "networkPrice": 799,
+        "discountPrice": 759
+      },
+      {
         "id": "cookware-thermos-kfm-030d-r-30cm",
         "sourceKind": "pchome_api",
         "status": "model_unverified",
@@ -2698,21 +2630,6 @@
         "discountPrice": 2555
       },
       {
-        "id": "cookware-fissler-cianmic-28cm",
-        "sourceKind": "pchome_api",
-        "status": "model_unverified",
-        "httpStatus": 200,
-        "productId": "DEAWN3-A900JSN52",
-        "productIdMatched": true,
-        "exactModel": false,
-        "manualBindingApproved": false,
-        "excluded": false,
-        "quantity": 11,
-        "catalogPrice": 2490,
-        "observedPrice": 2490,
-        "networkPrice": 2490
-      },
-      {
         "id": "cookware-zwilling-joy-plus-24cm",
         "sourceKind": "pchome_api",
         "status": "model_unverified",
@@ -2729,20 +2646,19 @@
         "discountPrice": 2374
       },
       {
-        "id": "cookware-buffalo-26cm",
+        "id": "cookware-fissler-cianmic-28cm",
         "sourceKind": "pchome_api",
         "status": "model_unverified",
         "httpStatus": 200,
-        "productId": "DEAWN3-A900JOVE3",
+        "productId": "DEAWN3-A900JSN52",
         "productIdMatched": true,
         "exactModel": false,
         "manualBindingApproved": false,
         "excluded": false,
-        "quantity": 20,
-        "catalogPrice": 759,
-        "observedPrice": 759,
-        "networkPrice": 799,
-        "discountPrice": 759
+        "quantity": 11,
+        "catalogPrice": 2490,
+        "observedPrice": 2490,
+        "networkPrice": 2490
       },
       {
         "id": "cookware-le-creuset-tns-28cm",
@@ -2775,6 +2691,22 @@
         "observedPrice": 1584,
         "networkPrice": 1980,
         "discountPrice": 1584
+      },
+      {
+        "id": "cookware-fissler-levital-28cm",
+        "sourceKind": "pchome_api",
+        "status": "model_unverified",
+        "httpStatus": 200,
+        "productId": "DEAWED-A900HZZIP",
+        "productIdMatched": true,
+        "exactModel": false,
+        "manualBindingApproved": false,
+        "excluded": false,
+        "quantity": 1,
+        "catalogPrice": 2860,
+        "observedPrice": 2717,
+        "networkPrice": 2860,
+        "discountPrice": 2717
       },
       {
         "id": "cookware-sambonet-titan-28cm",
@@ -2824,22 +2756,6 @@
         "networkPrice": 2288
       },
       {
-        "id": "cookware-fissler-levital-28cm",
-        "sourceKind": "pchome_api",
-        "status": "model_unverified",
-        "httpStatus": 200,
-        "productId": "DEAWED-A900HZZIP",
-        "productIdMatched": true,
-        "exactModel": false,
-        "manualBindingApproved": false,
-        "excluded": false,
-        "quantity": 1,
-        "catalogPrice": 2860,
-        "observedPrice": 2717,
-        "networkPrice": 2860,
-        "discountPrice": 2717
-      },
-      {
         "id": "cookware-extra-17-deawmja900jmza5",
         "sourceKind": "pchome_api",
         "status": "model_unverified",
@@ -2881,7 +2797,7 @@
         "exactModel": false,
         "manualBindingApproved": false,
         "excluded": false,
-        "quantity": 11,
+        "quantity": 10,
         "catalogPrice": 1399,
         "observedPrice": 1259,
         "networkPrice": 1399,
@@ -2924,14 +2840,6 @@
         "sourceKind": "web_page",
         "status": "model_unverified",
         "httpStatus": 206,
-        "exactModel": false,
-        "excluded": false
-      },
-      {
-        "id": "cookware-zwilling-unlock-1034435",
-        "sourceKind": "web_page",
-        "status": "model_unverified",
-        "httpStatus": 200,
         "exactModel": false,
         "excluded": false
       },
@@ -2982,7 +2890,7 @@
         "networkPrice": 14990
       },
       {
-        "id": "chair-costco-andaseat-phantom3-gray",
+        "id": "cookware-zwilling-unlock-1034435",
         "sourceKind": "web_page",
         "status": "model_unverified",
         "httpStatus": 200,
@@ -3014,15 +2922,7 @@
         "excluded": false
       },
       {
-        "id": "cookware-costco-tefal-ingenio-6pc",
-        "sourceKind": "web_page",
-        "status": "model_unverified",
-        "httpStatus": 200,
-        "exactModel": false,
-        "excluded": false
-      },
-      {
-        "id": "cookware-costco-circulon-a1-26cm",
+        "id": "chair-costco-andaseat-phantom3-gray",
         "sourceKind": "web_page",
         "status": "model_unverified",
         "httpStatus": 200,
@@ -3031,6 +2931,14 @@
       },
       {
         "id": "chair-costco-dps-insight",
+        "sourceKind": "web_page",
+        "status": "model_unverified",
+        "httpStatus": 200,
+        "exactModel": false,
+        "excluded": false
+      },
+      {
+        "id": "cookware-costco-circulon-a1-26cm",
         "sourceKind": "web_page",
         "status": "model_unverified",
         "httpStatus": 200,
@@ -3084,6 +2992,30 @@
         "httpStatus": 206,
         "exactModel": false,
         "excluded": false
+      },
+      {
+        "id": "cookware-costco-tefal-ingenio-6pc",
+        "sourceKind": "web_page",
+        "status": "model_unverified",
+        "httpStatus": 200,
+        "exactModel": false,
+        "excluded": false
+      },
+      {
+        "id": "garmentcare-panasonic-hcc-r600ar-x",
+        "sourceKind": "web_page",
+        "status": "request_failed",
+        "exactModel": false,
+        "excluded": false,
+        "error": "fetch failed"
+      },
+      {
+        "id": "garmentcare-panasonic-hcc-r600al-x",
+        "sourceKind": "web_page",
+        "status": "request_failed",
+        "exactModel": false,
+        "excluded": false,
+        "error": "fetch failed"
       },
       {
         "id": "knife-tojiro-dp-f-808-210mm",
@@ -3148,21 +3080,6 @@
         "discountPrice": 3319
       },
       {
-        "id": "knife-tefal-ice-force-15cm",
-        "sourceKind": "pchome_api",
-        "status": "model_unverified",
-        "httpStatus": 200,
-        "productId": "DEES09-A900HK440",
-        "productIdMatched": true,
-        "exactModel": false,
-        "manualBindingApproved": false,
-        "excluded": false,
-        "quantity": 3,
-        "catalogPrice": 690,
-        "observedPrice": 690,
-        "networkPrice": 690
-      },
-      {
         "id": "knife-global-g-1-210mm",
         "sourceKind": "pchome_api",
         "status": "model_unverified",
@@ -3176,6 +3093,21 @@
         "catalogPrice": 2480,
         "observedPrice": 2480,
         "networkPrice": 2480
+      },
+      {
+        "id": "knife-tefal-ice-force-15cm",
+        "sourceKind": "pchome_api",
+        "status": "model_unverified",
+        "httpStatus": 200,
+        "productId": "DEES09-A900HK440",
+        "productIdMatched": true,
+        "exactModel": false,
+        "manualBindingApproved": false,
+        "excluded": false,
+        "quantity": 3,
+        "catalogPrice": 690,
+        "observedPrice": 690,
+        "networkPrice": 690
       },
       {
         "id": "knife-kai-18cm",
@@ -3263,22 +3195,6 @@
         "excluded": false
       },
       {
-        "id": "knife-kyocera-16cm",
-        "sourceKind": "web_page",
-        "status": "model_unverified",
-        "httpStatus": 200,
-        "exactModel": false,
-        "excluded": false
-      },
-      {
-        "id": "knife-extra-18-deag16a900iji66",
-        "sourceKind": "web_page",
-        "status": "model_unverified",
-        "httpStatus": 206,
-        "exactModel": false,
-        "excluded": false
-      },
-      {
         "id": "monitor-acer-vg270u-p6",
         "sourceKind": "pchome_api",
         "status": "tracking_out_of_stock",
@@ -3309,12 +3225,19 @@
         "networkPrice": 4990
       },
       {
-        "id": "bidet-costco-us-brondell-cl1700",
-        "sourceKind": "web_page",
-        "status": "request_failed",
-        "exactModel": false,
+        "id": "monitor-asus-proart-pa278qev",
+        "sourceKind": "pchome_api",
+        "status": "tracking_out_of_stock",
+        "httpStatus": 200,
+        "productId": "DSABBI-A900JTZCP",
+        "productIdMatched": true,
+        "exactModel": true,
+        "manualBindingApproved": false,
         "excluded": false,
-        "error": "timeout"
+        "quantity": 0,
+        "catalogPrice": 5988,
+        "observedPrice": 5988,
+        "networkPrice": 5988
       },
       {
         "id": "monitor-lg-27up850k",
@@ -3332,19 +3255,12 @@
         "networkPrice": 11900
       },
       {
-        "id": "monitor-asus-proart-pa278qev",
-        "sourceKind": "pchome_api",
-        "status": "tracking_out_of_stock",
-        "httpStatus": 200,
-        "productId": "DSABBI-A900JTZCP",
-        "productIdMatched": true,
-        "exactModel": true,
-        "manualBindingApproved": false,
-        "excluded": false,
-        "quantity": 0,
-        "catalogPrice": 5988,
-        "observedPrice": 5988,
-        "networkPrice": 5988
+        "id": "knife-extra-18-deag16a900iji66",
+        "sourceKind": "web_page",
+        "status": "model_unverified",
+        "httpStatus": 206,
+        "exactModel": false,
+        "excluded": false
       },
       {
         "id": "monitor-lg-27gx790a",
@@ -3362,15 +3278,23 @@
         "networkPrice": 22900
       },
       {
-        "id": "monitor-asus-xg27aqdmes",
+        "id": "knife-kyocera-16cm",
         "sourceKind": "web_page",
         "status": "model_unverified",
-        "httpStatus": 206,
+        "httpStatus": 200,
         "exactModel": false,
         "excluded": false
       },
       {
         "id": "monitor-msi-pro-mp341cqw-e12",
+        "sourceKind": "web_page",
+        "status": "model_unverified",
+        "httpStatus": 200,
+        "exactModel": false,
+        "excluded": false
+      },
+      {
+        "id": "monitor-asus-xg27aqdmes",
         "sourceKind": "web_page",
         "status": "model_unverified",
         "httpStatus": 200,
@@ -3409,22 +3333,6 @@
         "discountPrice": 2489
       },
       {
-        "id": "monitorarm-raymii-halo-max2-1m",
-        "sourceKind": "pchome_api",
-        "status": "tracking_out_of_stock",
-        "httpStatus": 200,
-        "productId": "DCAGRJ-A900JVFLM",
-        "productIdMatched": true,
-        "exactModel": true,
-        "manualBindingApproved": false,
-        "excluded": false,
-        "quantity": 0,
-        "catalogPrice": 2279,
-        "observedPrice": 2219,
-        "networkPrice": 2799,
-        "discountPrice": 2219
-      },
-      {
         "id": "monitorarm-raymii-ls104m1",
         "sourceKind": "pchome_api",
         "status": "tracking_out_of_stock",
@@ -3439,6 +3347,22 @@
         "observedPrice": 2699,
         "networkPrice": 2999,
         "discountPrice": 2699
+      },
+      {
+        "id": "monitorarm-raymii-halo-max2-1m",
+        "sourceKind": "pchome_api",
+        "status": "tracking_out_of_stock",
+        "httpStatus": 200,
+        "productId": "DCAGRJ-A900JVFLM",
+        "productIdMatched": true,
+        "exactModel": true,
+        "manualBindingApproved": false,
+        "excluded": false,
+        "quantity": 0,
+        "catalogPrice": 2279,
+        "observedPrice": 2219,
+        "networkPrice": 2799,
+        "discountPrice": 2219
       },
       {
         "id": "monitorarm-raymii-ls129m1",
@@ -3566,6 +3490,21 @@
         "networkPrice": 12990
       },
       {
+        "id": "ap-coway-noble",
+        "sourceKind": "pchome_api",
+        "status": "tracking_out_of_stock",
+        "httpStatus": 200,
+        "productId": "DMAU3E-A900I6ITM",
+        "productIdMatched": true,
+        "exactModel": true,
+        "manualBindingApproved": false,
+        "excluded": false,
+        "quantity": 0,
+        "catalogPrice": 29800,
+        "observedPrice": 29800,
+        "networkPrice": 29800
+      },
+      {
         "id": "purifier-extra-6-dmaue4-a900ijcap",
         "sourceKind": "pchome_api",
         "status": "model_unverified",
@@ -3580,21 +3519,6 @@
         "observedPrice": 26190,
         "networkPrice": 26990,
         "discountPrice": 26190
-      },
-      {
-        "id": "ap-coway-noble",
-        "sourceKind": "pchome_api",
-        "status": "tracking_out_of_stock",
-        "httpStatus": 200,
-        "productId": "DMAU3E-A900I6ITM",
-        "productIdMatched": true,
-        "exactModel": true,
-        "manualBindingApproved": false,
-        "excluded": false,
-        "quantity": 0,
-        "catalogPrice": 29800,
-        "observedPrice": 29800,
-        "networkPrice": 29800
       },
       {
         "id": "purifier-extra-7-dmaue4-a900j9knk",
@@ -3627,21 +3551,6 @@
         "networkPrice": 4990
       },
       {
-        "id": "purifier-extra-10-dmaue4-a900j40ne",
-        "sourceKind": "pchome_api",
-        "status": "model_unverified",
-        "httpStatus": 200,
-        "productId": "DMAUE4-A900J40NE",
-        "productIdMatched": true,
-        "exactModel": false,
-        "manualBindingApproved": false,
-        "excluded": false,
-        "quantity": 5,
-        "catalogPrice": 17990,
-        "observedPrice": 17990,
-        "networkPrice": 17990
-      },
-      {
         "id": "purifier-extra-9-dmaue4-a900i7dn1",
         "sourceKind": "pchome_api",
         "status": "model_unverified",
@@ -3658,18 +3567,25 @@
         "discountPrice": 6490
       },
       {
+        "id": "purifier-extra-10-dmaue4-a900j40ne",
+        "sourceKind": "pchome_api",
+        "status": "model_unverified",
+        "httpStatus": 200,
+        "productId": "DMAUE4-A900J40NE",
+        "productIdMatched": true,
+        "exactModel": false,
+        "manualBindingApproved": false,
+        "excluded": false,
+        "quantity": 5,
+        "catalogPrice": 17990,
+        "observedPrice": 17990,
+        "networkPrice": 17990
+      },
+      {
         "id": "purifier-extra-11-dmau1f-a900ijca6",
         "sourceKind": "web_page",
         "status": "model_unverified",
         "httpStatus": 206,
-        "exactModel": false,
-        "excluded": false
-      },
-      {
-        "id": "knife-costco-3m-scotch-kitchen-scissors-2pc",
-        "sourceKind": "web_page",
-        "status": "model_unverified",
-        "httpStatus": 200,
         "exactModel": false,
         "excluded": false
       },
@@ -3685,8 +3601,9 @@
         "excluded": false,
         "quantity": 0,
         "catalogPrice": 15299,
-        "observedPrice": 16999,
-        "networkPrice": 16999
+        "observedPrice": 15299,
+        "networkPrice": 16999,
+        "discountPrice": 15299
       },
       {
         "id": "robot-narwal-freo-z-ultra",
@@ -3704,12 +3621,28 @@
         "networkPrice": 23888
       },
       {
+        "id": "knife-costco-3m-scotch-kitchen-scissors-2pc",
+        "sourceKind": "web_page",
+        "status": "model_unverified",
+        "httpStatus": 200,
+        "exactModel": false,
+        "excluded": false
+      },
+      {
         "id": "robot-narwal-flow-2",
         "sourceKind": "web_page",
         "status": "request_failed",
         "httpStatus": 400,
         "exactModel": false,
         "excluded": false
+      },
+      {
+        "id": "robot-costco-us-roborock-qx-revo",
+        "sourceKind": "web_page",
+        "status": "request_failed",
+        "exactModel": false,
+        "excluded": false,
+        "error": "fetch failed"
       },
       {
         "id": "robot-shark-powerdetect-nevertouch-pro",
@@ -3743,22 +3676,6 @@
         "networkPrice": 13599
       },
       {
-        "id": "smartlock-fibre-fb70x",
-        "sourceKind": "pchome_api",
-        "status": "model_unverified",
-        "httpStatus": 200,
-        "productId": "DQAT0I-A900GXIHM",
-        "productIdMatched": true,
-        "exactModel": false,
-        "manualBindingApproved": false,
-        "excluded": false,
-        "quantity": 20,
-        "catalogPrice": 20900,
-        "observedPrice": 20900,
-        "networkPrice": 22000,
-        "discountPrice": 20900
-      },
-      {
         "id": "smartlock-fibre-fb63m",
         "sourceKind": "pchome_api",
         "status": "model_unverified",
@@ -3773,6 +3690,22 @@
         "observedPrice": 13775,
         "networkPrice": 14500,
         "discountPrice": 13775
+      },
+      {
+        "id": "smartlock-fibre-fb70x",
+        "sourceKind": "pchome_api",
+        "status": "model_unverified",
+        "httpStatus": 200,
+        "productId": "DQAT0I-A900GXIHM",
+        "productIdMatched": true,
+        "exactModel": false,
+        "manualBindingApproved": false,
+        "excluded": false,
+        "quantity": 20,
+        "catalogPrice": 20900,
+        "observedPrice": 20900,
+        "networkPrice": 22000,
+        "discountPrice": 20900
       },
       {
         "id": "smartlock-fibre-fb90",
@@ -3867,34 +3800,10 @@
         "discountPrice": 22230
       },
       {
-        "id": "garmentcare-panasonic-hcc-r600al-x",
-        "sourceKind": "web_page",
-        "status": "request_failed",
-        "exactModel": false,
-        "excluded": false,
-        "error": "timeout"
-      },
-      {
-        "id": "garmentcare-panasonic-hcc-r600ar-x",
-        "sourceKind": "web_page",
-        "status": "request_failed",
-        "exactModel": false,
-        "excluded": false,
-        "error": "timeout"
-      },
-      {
         "id": "soundbar-sony-b600",
         "sourceKind": "pchome_api",
         "status": "product_id_mismatch",
         "httpStatus": 200
-      },
-      {
-        "id": "knife-costco-tefal-titanium-3pc",
-        "sourceKind": "web_page",
-        "status": "request_failed",
-        "exactModel": false,
-        "excluded": false,
-        "error": "timeout"
       },
       {
         "id": "soundbar-extra-7-dmaaod-a900jmdr4",
@@ -3920,6 +3829,21 @@
         "networkPrice": 19900
       },
       {
+        "id": "soundbar-extra-18-dmbm1da900iuzuj",
+        "sourceKind": "pchome_api",
+        "status": "tracking_out_of_stock",
+        "httpStatus": 200,
+        "productId": "DMBM1D-A900I0ZKD",
+        "productIdMatched": true,
+        "exactModel": true,
+        "manualBindingApproved": false,
+        "excluded": false,
+        "quantity": 0,
+        "catalogPrice": 34765,
+        "observedPrice": 40900,
+        "networkPrice": 40900
+      },
+      {
         "id": "standingdesk-irocks-d01-120",
         "sourceKind": "pchome_api",
         "status": "model_unverified",
@@ -3934,21 +3858,6 @@
         "observedPrice": 14346,
         "networkPrice": 14790,
         "discountPrice": 14346
-      },
-      {
-        "id": "soundbar-extra-18-dmbm1da900iuzuj",
-        "sourceKind": "pchome_api",
-        "status": "tracking_out_of_stock",
-        "httpStatus": 200,
-        "productId": "DMBM1D-A900I0ZKD",
-        "productIdMatched": true,
-        "exactModel": true,
-        "manualBindingApproved": false,
-        "excluded": false,
-        "quantity": 0,
-        "catalogPrice": 34765,
-        "observedPrice": 40900,
-        "networkPrice": 40900
       },
       {
         "id": "standingdesk-irocks-d01-150",
@@ -3983,22 +3892,6 @@
         "discountPrice": 15510
       },
       {
-        "id": "standingdesk-nitori-up006-1260",
-        "sourceKind": "pchome_api",
-        "status": "model_unverified",
-        "httpStatus": 200,
-        "productId": "DQCI0A-A900K15SP",
-        "productIdMatched": true,
-        "exactModel": false,
-        "manualBindingApproved": false,
-        "excluded": false,
-        "quantity": 11,
-        "catalogPrice": 8490,
-        "observedPrice": 7641,
-        "networkPrice": 8490,
-        "discountPrice": 7641
-      },
-      {
         "id": "standingdesk-irocks-d01-180",
         "sourceKind": "pchome_api",
         "status": "model_unverified",
@@ -4013,6 +3906,22 @@
         "observedPrice": 15995,
         "networkPrice": 16490,
         "discountPrice": 15995
+      },
+      {
+        "id": "standingdesk-nitori-up006-1260",
+        "sourceKind": "pchome_api",
+        "status": "model_unverified",
+        "httpStatus": 200,
+        "productId": "DQCI0A-A900K15SP",
+        "productIdMatched": true,
+        "exactModel": false,
+        "manualBindingApproved": false,
+        "excluded": false,
+        "quantity": 11,
+        "catalogPrice": 8490,
+        "observedPrice": 7641,
+        "networkPrice": 8490,
+        "discountPrice": 7641
       },
       {
         "id": "standingdesk-nitori-up006-1460",
@@ -4074,6 +3983,14 @@
         "catalogPrice": 6890,
         "observedPrice": 6890,
         "networkPrice": 6890
+      },
+      {
+        "id": "knife-costco-tefal-titanium-3pc",
+        "sourceKind": "web_page",
+        "status": "request_failed",
+        "exactModel": false,
+        "excluded": false,
+        "error": "timeout"
       },
       {
         "id": "tv-lg-c6-65",
@@ -4188,10 +4105,10 @@
         "networkPrice": 11900
       },
       {
-        "id": "vac-tineco-s7",
+        "id": "vac-dyson-submarine",
         "sourceKind": "web_page",
         "status": "model_unverified",
-        "httpStatus": 200,
+        "httpStatus": 206,
         "exactModel": false,
         "excluded": false
       },
@@ -4211,10 +4128,10 @@
         "networkPrice": 18900
       },
       {
-        "id": "vac-dyson-submarine",
+        "id": "vac-tineco-s7",
         "sourceKind": "web_page",
         "status": "model_unverified",
-        "httpStatus": 206,
+        "httpStatus": 200,
         "exactModel": false,
         "excluded": false
       },
@@ -4282,14 +4199,6 @@
         "excluded": false
       },
       {
-        "id": "washer-sampo-wm-md10",
-        "sourceKind": "web_page",
-        "status": "model_unverified",
-        "httpStatus": 200,
-        "exactModel": false,
-        "excluded": false
-      },
-      {
         "id": "washer-panasonic-na-90eb-w",
         "sourceKind": "pchome_api",
         "status": "model_unverified",
@@ -4319,6 +4228,14 @@
         "catalogPrice": 8190,
         "observedPrice": 8190,
         "networkPrice": 8190
+      },
+      {
+        "id": "washer-sampo-wm-md10",
+        "sourceKind": "web_page",
+        "status": "model_unverified",
+        "httpStatus": 200,
+        "exactModel": false,
+        "excluded": false
       },
       {
         "id": "washerdryer-samsung-wd12db9b84gntw",
@@ -4404,12 +4321,12 @@
         "networkPrice": 59800
       },
       {
-        "id": "robot-costco-us-roborock-qx-revo",
+        "id": "waterdispenser-costco-us-brondell-circle",
         "sourceKind": "web_page",
         "status": "request_failed",
         "exactModel": false,
         "excluded": false,
-        "error": "timeout"
+        "error": "fetch failed"
       },
       {
         "id": "wifi-asus-zenwifi-bd5-2pack",
@@ -4423,8 +4340,8 @@
         "excluded": false,
         "quantity": 20,
         "catalogPrice": 5499,
-        "observedPrice": 5499,
-        "networkPrice": 5499
+        "observedPrice": 5999,
+        "networkPrice": 5999
       },
       {
         "id": "wifi-tplink-deco-be25-2pack",
@@ -4442,14 +4359,6 @@
         "networkPrice": 5699
       },
       {
-        "id": "standingdesk-costco-backbone-dyback-lite",
-        "sourceKind": "web_page",
-        "status": "model_unverified",
-        "httpStatus": 200,
-        "exactModel": false,
-        "excluded": false
-      },
-      {
         "id": "wifi-tplink-deco-be65-2pack",
         "sourceKind": "pchome_api",
         "status": "model_unverified",
@@ -4463,6 +4372,14 @@
         "catalogPrice": 11999,
         "observedPrice": 11999,
         "networkPrice": 11999
+      },
+      {
+        "id": "wifi-dlink-m36-3pack",
+        "sourceKind": "web_page",
+        "status": "model_unverified",
+        "httpStatus": 206,
+        "exactModel": false,
+        "excluded": false
       },
       {
         "id": "wifi-aruba-ap22",
@@ -4497,14 +4414,6 @@
         "discountPrice": 21112
       },
       {
-        "id": "wifi-dlink-m36-3pack",
-        "sourceKind": "web_page",
-        "status": "model_unverified",
-        "httpStatus": 206,
-        "exactModel": false,
-        "excluded": false
-      },
-      {
         "id": "wifi-aruba-ap32",
         "sourceKind": "pchome_api",
         "status": "model_unverified",
@@ -4537,6 +4446,14 @@
         "discountPrice": 9912
       },
       {
+        "id": "standingdesk-costco-backbone-dyback-lite",
+        "sourceKind": "web_page",
+        "status": "model_unverified",
+        "httpStatus": 200,
+        "exactModel": false,
+        "excluded": false
+      },
+      {
         "id": "wifi-mercusys-halo-h80x-3pack",
         "sourceKind": "pchome_api",
         "status": "model_unverified",
@@ -4567,12 +4484,19 @@
         "networkPrice": 2159
       },
       {
-        "id": "wifi-linksys-mx5502-3pack",
-        "sourceKind": "web_page",
+        "id": "wifi-xiaomi-ax3000-1pack",
+        "sourceKind": "pchome_api",
         "status": "model_unverified",
         "httpStatus": 200,
+        "productId": "DYANAI-A900HNETW",
+        "productIdMatched": true,
         "exactModel": false,
-        "excluded": false
+        "manualBindingApproved": false,
+        "excluded": false,
+        "quantity": 20,
+        "catalogPrice": 1199,
+        "observedPrice": 1199,
+        "networkPrice": 1199
       },
       {
         "id": "wifi-cudy-ax3000-mesh",
@@ -4590,21 +4514,6 @@
         "networkPrice": 1720
       },
       {
-        "id": "wifi-xiaomi-ax3000-1pack",
-        "sourceKind": "pchome_api",
-        "status": "model_unverified",
-        "httpStatus": 200,
-        "productId": "DYANAI-A900HNETW",
-        "productIdMatched": true,
-        "exactModel": false,
-        "manualBindingApproved": false,
-        "excluded": false,
-        "quantity": 20,
-        "catalogPrice": 1199,
-        "observedPrice": 1199,
-        "networkPrice": 1199
-      },
-      {
         "id": "wifi-mercusys-halo-h25be-2pack",
         "sourceKind": "pchome_api",
         "status": "model_unverified",
@@ -4620,12 +4529,12 @@
         "networkPrice": 3499
       },
       {
-        "id": "waterdispenser-costco-us-brondell-circle",
+        "id": "wifi-linksys-mx5502-3pack",
         "sourceKind": "web_page",
-        "status": "request_failed",
+        "status": "model_unverified",
+        "httpStatus": 200,
         "exactModel": false,
-        "excluded": false,
-        "error": "timeout"
+        "excluded": false
       }
     ]
   },
@@ -6508,49 +6417,7 @@
     ],
     "exceptions": [
       {
-        "id": "bidet-extra-16-dmbm0ma900g29jm",
-        "status": "model_unverified",
-        "httpStatus": 200,
-        "exactModel": false
-      },
-      {
-        "id": "bidet-extra-18-dmalcca900j0ybz",
-        "status": "model_unverified",
-        "httpStatus": 200,
-        "exactModel": false
-      },
-      {
-        "id": "blender-extra-13-dmaybb-a900k3czm",
-        "status": "model_unverified",
-        "httpStatus": 200,
-        "exactModel": false
-      },
-      {
-        "id": "bidet-panasonic-pstk09",
-        "status": "model_unverified",
-        "httpStatus": 200,
-        "exactModel": false
-      },
-      {
-        "id": "blender-extra-10-dmay0h-a9009qnf5",
-        "status": "model_unverified",
-        "httpStatus": 200,
-        "exactModel": false
-      },
-      {
-        "id": "blender-joyoung-k8s",
-        "status": "model_unverified",
-        "httpStatus": 200,
-        "exactModel": false
-      },
-      {
-        "id": "blender-extra-8-dmay0g-a900agmd8",
-        "status": "model_unverified",
-        "httpStatus": 200,
-        "exactModel": false
-      },
-      {
-        "id": "blender-philips-hr2038",
+        "id": "bidet-toto-c2",
         "status": "model_unverified",
         "httpStatus": 200,
         "exactModel": false
@@ -6562,43 +6429,31 @@
         "exactModel": false
       },
       {
-        "id": "bidet-extra-12-dmal8l-a900gh6f4",
+        "id": "bidet-panasonic-pstk09",
         "status": "model_unverified",
         "httpStatus": 200,
         "exactModel": false
       },
       {
-        "id": "blender-extra-20-dmaygba900iw311",
+        "id": "blender-philips-hr2038",
         "status": "model_unverified",
         "httpStatus": 200,
         "exactModel": false
       },
       {
-        "id": "blender-costco-teco-xyfys007w",
+        "id": "blender-extra-19-dmay4ya900i3ild",
         "status": "model_unverified",
         "httpStatus": 200,
         "exactModel": false
       },
       {
-        "id": "bidet-toto-c2",
+        "id": "blender-extra-10-dmay0h-a9009qnf5",
         "status": "model_unverified",
         "httpStatus": 200,
         "exactModel": false
       },
       {
-        "id": "blender-xiaomi-mjpbj01demtw",
-        "status": "model_unverified",
-        "httpStatus": 200,
-        "exactModel": false
-      },
-      {
-        "id": "chair-ergohuman-special-20",
-        "status": "model_unverified",
-        "httpStatus": 200,
-        "exactModel": false
-      },
-      {
-        "id": "chair-irocks-t08-plus",
+        "id": "blender-extra-13-dmaybb-a900k3czm",
         "status": "model_unverified",
         "httpStatus": 200,
         "exactModel": false
@@ -6610,37 +6465,85 @@
         "exactModel": false
       },
       {
+        "id": "blender-extra-8-dmay0g-a900agmd8",
+        "status": "model_unverified",
+        "httpStatus": 200,
+        "exactModel": false
+      },
+      {
+        "id": "bidet-extra-18-dmalcca900j0ybz",
+        "status": "model_unverified",
+        "httpStatus": 200,
+        "exactModel": false
+      },
+      {
+        "id": "blender-joyoung-k8s",
+        "status": "model_unverified",
+        "httpStatus": 200,
+        "exactModel": false
+      },
+      {
+        "id": "blender-extra-17-dmaye4a900jtmqr",
+        "status": "model_unverified",
+        "httpStatus": 200,
+        "exactModel": false
+      },
+      {
+        "id": "bidet-extra-16-dmbm0ma900g29jm",
+        "status": "model_unverified",
+        "httpStatus": 200,
+        "exactModel": false
+      },
+      {
+        "id": "blender-extra-20-dmaygba900iw311",
+        "status": "model_unverified",
+        "httpStatus": 200,
+        "exactModel": false
+      },
+      {
+        "id": "blender-xiaomi-mjpbj01demtw",
+        "status": "model_unverified",
+        "httpStatus": 200,
+        "exactModel": false
+      },
+      {
+        "id": "blender-extra-16-dmay01a900gfjco",
+        "status": "model_unverified",
+        "httpStatus": 200,
+        "exactModel": false
+      },
+      {
+        "id": "blender-costco-teco-xyfys007w",
+        "status": "model_unverified",
+        "httpStatus": 200,
+        "exactModel": false
+      },
+      {
+        "id": "chair-irocks-t07-plus",
+        "status": "model_unverified",
+        "httpStatus": 200,
+        "exactModel": false
+      },
+      {
+        "id": "chair-ergohuman-special-20",
+        "status": "model_unverified",
+        "httpStatus": 200,
+        "exactModel": false
+      },
+      {
+        "id": "bidet-extra-12-dmal8l-a900gh6f4",
+        "status": "model_unverified",
+        "httpStatus": 200,
+        "exactModel": false
+      },
+      {
+        "id": "chair-irocks-t08-plus",
+        "status": "model_unverified",
+        "httpStatus": 200,
+        "exactModel": false
+      },
+      {
         "id": "chair-irocks-t05-plus",
-        "status": "model_unverified",
-        "httpStatus": 200,
-        "exactModel": false
-      },
-      {
-        "id": "chair-steelcase-karman",
-        "status": "model_unverified",
-        "httpStatus": 200,
-        "exactModel": false
-      },
-      {
-        "id": "chair-extra-18-dqbj6za900hndmy",
-        "status": "model_unverified",
-        "httpStatus": 200,
-        "exactModel": false
-      },
-      {
-        "id": "blender-extra-18-dmaydla900ih6gz",
-        "status": "model_unverified",
-        "httpStatus": 200,
-        "exactModel": false
-      },
-      {
-        "id": "circ-iris-sc15t",
-        "status": "model_unverified",
-        "httpStatus": 200,
-        "exactModel": false
-      },
-      {
-        "id": "circulator-extra-9-dmab3x-a900hnewa",
         "status": "model_unverified",
         "httpStatus": 200,
         "exactModel": false
@@ -6652,7 +6555,55 @@
         "exactModel": false
       },
       {
+        "id": "chair-steelcase-karman",
+        "status": "model_unverified",
+        "httpStatus": 200,
+        "exactModel": false
+      },
+      {
         "id": "chair-ionrax-oc2",
+        "status": "model_unverified",
+        "httpStatus": 200,
+        "exactModel": false
+      },
+      {
+        "id": "chair-extra-18-dqbj6za900hndmy",
+        "status": "model_unverified",
+        "httpStatus": 200,
+        "exactModel": false
+      },
+      {
+        "id": "chair-costco-ergoking-171-s-plus",
+        "status": "model_unverified",
+        "httpStatus": 200,
+        "exactModel": false
+      },
+      {
+        "id": "circ-vornado-660",
+        "status": "model_unverified",
+        "httpStatus": 200,
+        "exactModel": false
+      },
+      {
+        "id": "circ-iris-sc15t",
+        "status": "model_unverified",
+        "httpStatus": 200,
+        "exactModel": false
+      },
+      {
+        "id": "circ-panasonic-fe10",
+        "status": "model_unverified",
+        "httpStatus": 200,
+        "exactModel": false
+      },
+      {
+        "id": "circulator-extra-7-dmab3x-a900iigo1",
+        "status": "model_unverified",
+        "httpStatus": 200,
+        "exactModel": false
+      },
+      {
+        "id": "circulator-extra-9-dmab3x-a900hnewa",
         "status": "model_unverified",
         "httpStatus": 200,
         "exactModel": false
@@ -6694,12 +6645,6 @@
         "exactModel": false
       },
       {
-        "id": "circ-vornado-660",
-        "status": "model_unverified",
-        "httpStatus": 200,
-        "exactModel": false
-      },
-      {
         "id": "circulator-costco-airmate-fb2391dr",
         "status": "model_unverified",
         "httpStatus": 200,
@@ -6724,25 +6669,7 @@
         "exactModel": false
       },
       {
-        "id": "circ-panasonic-fe10",
-        "status": "model_unverified",
-        "httpStatus": 200,
-        "exactModel": false
-      },
-      {
-        "id": "blender-extra-19-dmay4ya900i3ild",
-        "status": "model_unverified",
-        "httpStatus": 200,
-        "exactModel": false
-      },
-      {
         "id": "cookware-zwilling-joy-plus-24cm",
-        "status": "model_unverified",
-        "httpStatus": 200,
-        "exactModel": false
-      },
-      {
-        "id": "chair-irocks-t07-plus",
         "status": "model_unverified",
         "httpStatus": 200,
         "exactModel": false
@@ -6760,6 +6687,12 @@
         "exactModel": false
       },
       {
+        "id": "cookware-fissler-levital-28cm",
+        "status": "model_unverified",
+        "httpStatus": 200,
+        "exactModel": false
+      },
+      {
         "id": "cookware-tefal-4",
         "status": "model_unverified",
         "httpStatus": 200,
@@ -6767,12 +6700,6 @@
       },
       {
         "id": "cookware-buffalo-18cm",
-        "status": "model_unverified",
-        "httpStatus": 200,
-        "exactModel": false
-      },
-      {
-        "id": "chair-costco-ergoking-171-s-plus",
         "status": "model_unverified",
         "httpStatus": 200,
         "exactModel": false
@@ -6796,7 +6723,7 @@
         "exactModel": false
       },
       {
-        "id": "cookware-fissler-levital-28cm",
+        "id": "blender-extra-18-dmaydla900ih6gz",
         "status": "model_unverified",
         "httpStatus": 200,
         "exactModel": false
@@ -6832,6 +6759,12 @@
         "exactModel": false
       },
       {
+        "id": "dehumidifier-extra-11-dmbq4n-a900jf9hp",
+        "status": "model_unverified",
+        "httpStatus": 200,
+        "exactModel": false
+      },
+      {
         "id": "dehumidifier-extra-12-dmbq4y-a900jbqp2",
         "status": "model_unverified",
         "httpStatus": 200,
@@ -6844,25 +6777,7 @@
         "exactModel": false
       },
       {
-        "id": "dehumidifier-extra-11-dmbq4n-a900jf9hp",
-        "status": "model_unverified",
-        "httpStatus": 200,
-        "exactModel": false
-      },
-      {
-        "id": "blender-extra-16-dmay01a900gfjco",
-        "status": "model_unverified",
-        "httpStatus": 200,
-        "exactModel": false
-      },
-      {
         "id": "dehumidifier-extra-16-dmbq3sa900i7nsn",
-        "status": "model_unverified",
-        "httpStatus": 200,
-        "exactModel": false
-      },
-      {
-        "id": "blender-extra-17-dmaye4a900jtmqr",
         "status": "model_unverified",
         "httpStatus": 200,
         "exactModel": false
@@ -6880,25 +6795,19 @@
         "exactModel": false
       },
       {
-        "id": "circulator-extra-7-dmab3x-a900iigo1",
-        "status": "model_unverified",
-        "httpStatus": 200,
-        "exactModel": false
-      },
-      {
         "id": "dehumidifier-extra-19-dmbq08a900jpcl1",
         "status": "model_unverified",
         "httpStatus": 200,
         "exactModel": false
       },
       {
-        "id": "dehumidifier-costco-hitachi-rd460vc",
+        "id": "dehumidifier-costco-hitachi-rd380vc",
         "status": "model_unverified",
         "httpStatus": 200,
         "exactModel": false
       },
       {
-        "id": "dehumidifier-costco-hitachi-rd380vc",
+        "id": "dehumidifier-costco-hitachi-rd460vc",
         "status": "model_unverified",
         "httpStatus": 200,
         "exactModel": false
@@ -6928,6 +6837,18 @@
         "exactModel": false
       },
       {
+        "id": "cookware-le-creuset-16cm",
+        "status": "model_unverified",
+        "httpStatus": 200,
+        "exactModel": false
+      },
+      {
+        "id": "dishwasher-whirlpool-wdfs2r4pwetw",
+        "status": "model_unverified",
+        "httpStatus": 200,
+        "exactModel": false
+      },
+      {
         "id": "dishwasher-haier-h500",
         "status": "model_unverified",
         "httpStatus": 200,
@@ -6952,25 +6873,7 @@
         "exactModel": false
       },
       {
-        "id": "dishwasher-whirlpool-wdfs2r4pwetw",
-        "status": "model_unverified",
-        "httpStatus": 200,
-        "exactModel": false
-      },
-      {
         "id": "dishwasher-extra-16-dmbr0pa900jbv02",
-        "status": "model_unverified",
-        "httpStatus": 200,
-        "exactModel": false
-      },
-      {
-        "id": "cookware-le-creuset-16cm",
-        "status": "model_unverified",
-        "httpStatus": 200,
-        "exactModel": false
-      },
-      {
-        "id": "cookware-extra-17-deawmja900jmza5",
         "status": "model_unverified",
         "httpStatus": 200,
         "exactModel": false
@@ -7024,6 +6927,18 @@
         "exactModel": false
       },
       {
+        "id": "dryer-sampo-sd-7c",
+        "status": "model_unverified",
+        "httpStatus": 200,
+        "exactModel": false
+      },
+      {
+        "id": "dryer-hitachi-td120xfvem",
+        "status": "model_unverified",
+        "httpStatus": 200,
+        "exactModel": false
+      },
+      {
         "id": "dryer-sampo-sd-7b",
         "status": "model_unverified",
         "httpStatus": 200,
@@ -7036,13 +6951,13 @@
         "exactModel": false
       },
       {
-        "id": "dryer-sampo-sd-7c",
+        "id": "dryer-sanlux-asd-80ua",
         "status": "model_unverified",
         "httpStatus": 200,
         "exactModel": false
       },
       {
-        "id": "dryer-sanlux-asd-80ua",
+        "id": "cookware-extra-17-deawmja900jmza5",
         "status": "model_unverified",
         "httpStatus": 200,
         "exactModel": false
@@ -7054,13 +6969,13 @@
         "exactModel": false
       },
       {
-        "id": "dryer-hitachi-td120xfvem",
+        "id": "fan-sharp-pv16",
         "status": "model_unverified",
         "httpStatus": 200,
         "exactModel": false
       },
       {
-        "id": "fan-sharp-pv16",
+        "id": "fan-dyson-am12",
         "status": "model_unverified",
         "httpStatus": 200,
         "exactModel": false
@@ -7078,7 +6993,7 @@
         "exactModel": false
       },
       {
-        "id": "fan-dyson-am12",
+        "id": "dishwasher-extra-17-dmbr17a900ihtz3",
         "status": "model_unverified",
         "httpStatus": 200,
         "exactModel": false
@@ -7108,13 +7023,13 @@
         "exactModel": false
       },
       {
-        "id": "fan-costco-airmate-fs35150r",
+        "id": "knife-tojiro-dp-f-808-210mm",
         "status": "model_unverified",
         "httpStatus": 200,
         "exactModel": false
       },
       {
-        "id": "knife-tojiro-dp-f-808-210mm",
+        "id": "fan-costco-airmate-fs35150r",
         "status": "model_unverified",
         "httpStatus": 200,
         "exactModel": false
@@ -7126,19 +7041,7 @@
         "exactModel": false
       },
       {
-        "id": "dishwasher-extra-17-dmbr17a900ihtz3",
-        "status": "model_unverified",
-        "httpStatus": 200,
-        "exactModel": false
-      },
-      {
         "id": "knife-victorinox-swiss-classic",
-        "status": "model_unverified",
-        "httpStatus": 200,
-        "exactModel": false
-      },
-      {
-        "id": "knife-wmf-18cm",
         "status": "model_unverified",
         "httpStatus": 200,
         "exactModel": false
@@ -7156,13 +7059,19 @@
         "exactModel": false
       },
       {
+        "id": "knife-wmf-18cm",
+        "status": "model_unverified",
+        "httpStatus": 200,
+        "exactModel": false
+      },
+      {
         "id": "knife-global-g-1-210mm",
         "status": "model_unverified",
         "httpStatus": 200,
         "exactModel": false
       },
       {
-        "id": "knife-victorinox-5-2000-15",
+        "id": "knife-kai-18cm",
         "status": "model_unverified",
         "httpStatus": 200,
         "exactModel": false
@@ -7174,7 +7083,7 @@
         "exactModel": false
       },
       {
-        "id": "knife-kai-18cm",
+        "id": "knife-victorinox-5-2000-15",
         "status": "model_unverified",
         "httpStatus": 200,
         "exactModel": false
@@ -7216,13 +7125,13 @@
         "exactModel": false
       },
       {
-        "id": "monitor-msi-g275l-e14",
+        "id": "monitor-samsung-g5-s27fg532",
         "status": "model_unverified",
         "httpStatus": 200,
         "exactModel": false
       },
       {
-        "id": "monitor-samsung-g5-s27fg532",
+        "id": "monitor-msi-g275l-e14",
         "status": "model_unverified",
         "httpStatus": 200,
         "exactModel": false
@@ -7252,6 +7161,12 @@
         "exactModel": false
       },
       {
+        "id": "knife-extra-18-deag16a900iji66",
+        "status": "model_unverified",
+        "httpStatus": 206,
+        "exactModel": false
+      },
+      {
         "id": "monitor-xiaomi-a27qi-2026",
         "status": "model_unverified",
         "httpStatus": 200,
@@ -7270,12 +7185,6 @@
         "exactModel": false
       },
       {
-        "id": "knife-extra-18-deag16a900iji66",
-        "status": "model_unverified",
-        "httpStatus": 206,
-        "exactModel": false
-      },
-      {
         "id": "monitor-aoc-q27g4zmn",
         "status": "model_unverified",
         "httpStatus": 200,
@@ -7285,6 +7194,12 @@
         "id": "monitor-samsung-oled-g5",
         "status": "model_unverified",
         "httpStatus": 200,
+        "exactModel": false
+      },
+      {
+        "id": "monitor-asus-proart-pa278qev",
+        "status": "blocked",
+        "httpStatus": 429,
         "exactModel": false
       },
       {
@@ -7306,25 +7221,7 @@
         "exactModel": false
       },
       {
-        "id": "monitor-asus-proart-pa278qev",
-        "status": "blocked",
-        "httpStatus": 429,
-        "exactModel": false
-      },
-      {
         "id": "monitor-dell-u2724d",
-        "status": "model_unverified",
-        "httpStatus": 200,
-        "exactModel": false
-      },
-      {
-        "id": "monitor-dell-u2725qe",
-        "status": "model_unverified",
-        "httpStatus": 200,
-        "exactModel": false
-      },
-      {
-        "id": "monitor-msi-271qrx",
         "status": "model_unverified",
         "httpStatus": 200,
         "exactModel": false
@@ -7336,7 +7233,7 @@
         "exactModel": false
       },
       {
-        "id": "monitor-lg-27gx790a",
+        "id": "monitor-dell-u2725qe",
         "status": "model_unverified",
         "httpStatus": 200,
         "exactModel": false
@@ -7348,67 +7245,19 @@
         "exactModel": false
       },
       {
+        "id": "monitor-lg-27gx790a",
+        "status": "model_unverified",
+        "httpStatus": 200,
+        "exactModel": false
+      },
+      {
+        "id": "monitor-msi-271qrx",
+        "status": "model_unverified",
+        "httpStatus": 200,
+        "exactModel": false
+      },
+      {
         "id": "monitor-viewsonic-vx2740d",
-        "status": "model_unverified",
-        "httpStatus": 200,
-        "exactModel": false
-      },
-      {
-        "id": "monitor-acer-ed343cur-j0",
-        "status": "model_unverified",
-        "httpStatus": 200,
-        "exactModel": false
-      },
-      {
-        "id": "monitor-eizo-cs2740",
-        "status": "model_unverified",
-        "httpStatus": 200,
-        "exactModel": false
-      },
-      {
-        "id": "monitor-gigabyte-gs34wqca",
-        "status": "model_unverified",
-        "httpStatus": 200,
-        "exactModel": false
-      },
-      {
-        "id": "monitor-viewsonic-vg2719u",
-        "status": "blocked",
-        "httpStatus": 429,
-        "exactModel": false
-      },
-      {
-        "id": "monitor-acer-ed340cur-x0",
-        "status": "model_unverified",
-        "httpStatus": 200,
-        "exactModel": false
-      },
-      {
-        "id": "monitor-aoc-q27g40xmn",
-        "status": "blocked",
-        "httpStatus": 429,
-        "exactModel": false
-      },
-      {
-        "id": "monitor-msi-pro-mp341cqw-e12",
-        "status": "model_unverified",
-        "httpStatus": 200,
-        "exactModel": false
-      },
-      {
-        "id": "monitor-samsung-oled-g6-500",
-        "status": "blocked",
-        "httpStatus": 429,
-        "exactModel": false
-      },
-      {
-        "id": "monitor-samsung-s49dg932scxzw",
-        "status": "model_unverified",
-        "httpStatus": 200,
-        "exactModel": false
-      },
-      {
-        "id": "monitor-samsung-s34dg852sc",
         "status": "model_unverified",
         "httpStatus": 200,
         "exactModel": false
@@ -7420,7 +7269,85 @@
         "exactModel": false
       },
       {
+        "id": "monitor-viewsonic-vg2719u",
+        "status": "blocked",
+        "httpStatus": 429,
+        "exactModel": false
+      },
+      {
+        "id": "monitor-eizo-cs2740",
+        "status": "model_unverified",
+        "httpStatus": 200,
+        "exactModel": false
+      },
+      {
+        "id": "monitor-acer-ed343cur-j0",
+        "status": "model_unverified",
+        "httpStatus": 200,
+        "exactModel": false
+      },
+      {
+        "id": "monitor-gigabyte-gs34wqca",
+        "status": "model_unverified",
+        "httpStatus": 200,
+        "exactModel": false
+      },
+      {
+        "id": "monitor-aoc-q27g40xmn",
+        "status": "blocked",
+        "httpStatus": 429,
+        "exactModel": false
+      },
+      {
+        "id": "monitor-samsung-oled-g6-500",
+        "status": "blocked",
+        "httpStatus": 429,
+        "exactModel": false
+      },
+      {
+        "id": "monitor-msi-pro-mp341cqw-e12",
+        "status": "model_unverified",
+        "httpStatus": 200,
+        "exactModel": false
+      },
+      {
+        "id": "monitor-acer-ed340cur-x0",
+        "status": "model_unverified",
+        "httpStatus": 200,
+        "exactModel": false
+      },
+      {
+        "id": "monitor-samsung-s34dg852sc",
+        "status": "model_unverified",
+        "httpStatus": 200,
+        "exactModel": false
+      },
+      {
         "id": "monitor-samsung-s49fg916e",
+        "status": "model_unverified",
+        "httpStatus": 200,
+        "exactModel": false
+      },
+      {
+        "id": "monitor-samsung-s49dg932scxzw",
+        "status": "model_unverified",
+        "httpStatus": 200,
+        "exactModel": false
+      },
+      {
+        "id": "monitor-aoc-ag456uczd",
+        "status": "model_unverified",
+        "httpStatus": 200,
+        "exactModel": false
+      },
+      {
+        "id": "monitor-aoc-cu34g4",
+        "status": "blocked",
+        "httpStatus": 429,
+        "exactModel": false
+      },
+      {
+        "id": "monitor-lg-45gx90sa",
         "status": "model_unverified",
         "httpStatus": 200,
         "exactModel": false
@@ -7432,15 +7359,9 @@
         "exactModel": false
       },
       {
-        "id": "monitor-aoc-ag456uczd",
-        "status": "model_unverified",
-        "httpStatus": 200,
-        "exactModel": false
-      },
-      {
-        "id": "monitor-lg-45gx90sa",
-        "status": "model_unverified",
-        "httpStatus": 200,
+        "id": "monitor-aoc-pd34",
+        "status": "blocked",
+        "httpStatus": 429,
         "exactModel": false
       },
       {
@@ -7463,18 +7384,6 @@
       },
       {
         "id": "monitor-dell-u3425we",
-        "status": "blocked",
-        "httpStatus": 429,
-        "exactModel": false
-      },
-      {
-        "id": "monitor-aoc-cu34g4",
-        "status": "blocked",
-        "httpStatus": 429,
-        "exactModel": false
-      },
-      {
-        "id": "monitor-aoc-pd34",
         "status": "blocked",
         "httpStatus": 429,
         "exactModel": false
@@ -7510,15 +7419,27 @@
         "exactModel": false
       },
       {
-        "id": "monitorarm-extra-18-dsabn2a900ginee",
-        "status": "model_unverified",
-        "httpStatus": 200,
-        "exactModel": false
-      },
-      {
         "id": "monitorarm-raymii-ls118m1",
         "status": "blocked",
         "httpStatus": 429,
+        "exactModel": false
+      },
+      {
+        "id": "monitorarm-raymii-ls114s1",
+        "status": "blocked",
+        "httpStatus": 429,
+        "exactModel": false
+      },
+      {
+        "id": "monitorarm-raymii-ls114exm1",
+        "status": "blocked",
+        "httpStatus": 429,
+        "exactModel": false
+      },
+      {
+        "id": "monitorarm-extra-18-dsabn2a900ginee",
+        "status": "model_unverified",
+        "httpStatus": 200,
         "exactModel": false
       },
       {
@@ -7534,27 +7455,15 @@
         "exactModel": false
       },
       {
-        "id": "oven-panasonic-bs807",
-        "status": "model_unverified",
-        "httpStatus": 200,
-        "exactModel": false
-      },
-      {
         "id": "oven-whirlpool-mwp269",
         "status": "model_unverified",
         "httpStatus": 200,
         "exactModel": false
       },
       {
-        "id": "monitorarm-raymii-ls114exm1",
-        "status": "blocked",
-        "httpStatus": 429,
-        "exactModel": false
-      },
-      {
-        "id": "monitorarm-raymii-ls114s1",
-        "status": "blocked",
-        "httpStatus": 429,
+        "id": "oven-panasonic-bs807",
+        "status": "model_unverified",
+        "httpStatus": 200,
         "exactModel": false
       },
       {
@@ -7570,15 +7479,15 @@
         "exactModel": false
       },
       {
-        "id": "monitorarm-extra-17-dcagu1a900ix2md",
-        "status": "blocked",
-        "httpStatus": 429,
-        "exactModel": false
-      },
-      {
         "id": "oven-extra-7-dmbj6g-a900j947g",
         "status": "model_unverified",
         "httpStatus": 200,
+        "exactModel": false
+      },
+      {
+        "id": "monitorarm-extra-17-dcagu1a900ix2md",
+        "status": "blocked",
+        "httpStatus": 429,
         "exactModel": false
       },
       {
@@ -7588,7 +7497,7 @@
         "exactModel": false
       },
       {
-        "id": "oven-extra-10-dmbm0g-a900hf91a",
+        "id": "oven-extra-9-dmbj03-a900iyx0l",
         "status": "model_unverified",
         "httpStatus": 200,
         "exactModel": false
@@ -7600,7 +7509,7 @@
         "exactModel": false
       },
       {
-        "id": "oven-extra-9-dmbj03-a900iyx0l",
+        "id": "oven-extra-10-dmbm0g-a900hf91a",
         "status": "model_unverified",
         "httpStatus": 200,
         "exactModel": false
@@ -7612,13 +7521,19 @@
         "exactModel": false
       },
       {
-        "id": "oven-extra-14-dmbj0r-a900jt4zv",
+        "id": "monitor-samsung-ls40h850tacxzw",
         "status": "model_unverified",
         "httpStatus": 200,
         "exactModel": false
       },
       {
         "id": "oven-extra-12-dmbm0g-a900g41cw",
+        "status": "model_unverified",
+        "httpStatus": 200,
+        "exactModel": false
+      },
+      {
+        "id": "oven-extra-14-dmbj0r-a900jt4zv",
         "status": "model_unverified",
         "httpStatus": 200,
         "exactModel": false
@@ -7642,13 +7557,13 @@
         "exactModel": false
       },
       {
-        "id": "oven-extra-20-dmbm0ga900h5125",
+        "id": "oven-extra-19-dmbj5pa900gn8pm",
         "status": "model_unverified",
         "httpStatus": 200,
         "exactModel": false
       },
       {
-        "id": "oven-extra-19-dmbj5pa900gn8pm",
+        "id": "oven-extra-20-dmbm0ga900h5125",
         "status": "model_unverified",
         "httpStatus": 200,
         "exactModel": false
@@ -7661,12 +7576,6 @@
       },
       {
         "id": "oven-costco-sharp-ax-as10t",
-        "status": "model_unverified",
-        "httpStatus": 200,
-        "exactModel": false
-      },
-      {
-        "id": "monitor-samsung-ls40h850tacxzw",
         "status": "model_unverified",
         "httpStatus": 200,
         "exactModel": false
@@ -7714,15 +7623,15 @@
         "exactModel": false
       },
       {
-        "id": "refrigerator-lg-gn-l266svn",
-        "status": "model_unverified",
-        "httpStatus": 200,
-        "exactModel": false
-      },
-      {
         "id": "purifier-extra-18-dmau6ta900ivwe0",
         "status": "blocked",
         "httpStatus": 429,
+        "exactModel": false
+      },
+      {
+        "id": "refrigerator-lg-gn-l266svn",
+        "status": "model_unverified",
+        "httpStatus": 200,
         "exactModel": false
       },
       {
@@ -7774,13 +7683,13 @@
         "exactModel": false
       },
       {
-        "id": "refrigerator-hitachi-rv469",
+        "id": "refrigerator-sanlux-sr-c192bv1",
         "status": "model_unverified",
         "httpStatus": 200,
         "exactModel": false
       },
       {
-        "id": "refrigerator-sanlux-sr-c192bv1",
+        "id": "refrigerator-hitachi-rv469",
         "status": "model_unverified",
         "httpStatus": 200,
         "exactModel": false
@@ -7816,13 +7725,13 @@
         "exactModel": false
       },
       {
-        "id": "refrigerator-costco-samsung-rt35cg562cb1tw",
+        "id": "refrigerator-costco-panasonic-nr-b65cv-s",
         "status": "model_unverified",
         "httpStatus": 200,
         "exactModel": false
       },
       {
-        "id": "refrigerator-costco-panasonic-nr-b65cv-s",
+        "id": "refrigerator-costco-samsung-rt35cg562cb1tw",
         "status": "model_unverified",
         "httpStatus": 200,
         "exactModel": false
@@ -7831,6 +7740,12 @@
         "id": "robot-roborock-qrevo-curv-2-flow",
         "status": "model_unverified",
         "httpStatus": 200,
+        "exactModel": false
+      },
+      {
+        "id": "robot-roborock-saros-20",
+        "status": "blocked",
+        "httpStatus": 429,
         "exactModel": false
       },
       {
@@ -7846,13 +7761,7 @@
         "exactModel": false
       },
       {
-        "id": "robot-lg-r5-proplus",
-        "status": "model_unverified",
-        "httpStatus": 200,
-        "exactModel": false
-      },
-      {
-        "id": "robot-roborock-saros-20",
+        "id": "robot-ecovacs-t80-omni",
         "status": "blocked",
         "httpStatus": 429,
         "exactModel": false
@@ -7864,19 +7773,7 @@
         "exactModel": false
       },
       {
-        "id": "smartlock-yale-ymf40a",
-        "status": "model_unverified",
-        "httpStatus": 200,
-        "exactModel": false
-      },
-      {
-        "id": "robot-ecovacs-t80-omni",
-        "status": "blocked",
-        "httpStatus": 429,
-        "exactModel": false
-      },
-      {
-        "id": "smartlock-yale-ymf30a",
+        "id": "robot-lg-r5-proplus",
         "status": "model_unverified",
         "httpStatus": 200,
         "exactModel": false
@@ -7885,6 +7782,18 @@
         "id": "robot-dreame-d30-ultra-ce",
         "status": "blocked",
         "httpStatus": 429,
+        "exactModel": false
+      },
+      {
+        "id": "smartlock-yale-ymf40a",
+        "status": "model_unverified",
+        "httpStatus": 200,
+        "exactModel": false
+      },
+      {
+        "id": "smartlock-yale-ymf30a",
+        "status": "model_unverified",
+        "httpStatus": 200,
         "exactModel": false
       },
       {
@@ -7936,13 +7845,37 @@
         "exactModel": false
       },
       {
+        "id": "smartlock-kaadas-q3",
+        "status": "model_unverified",
+        "httpStatus": 200,
+        "exactModel": false
+      },
+      {
         "id": "smartlock-kaadas-q9-fvp",
         "status": "model_unverified",
         "httpStatus": 200,
         "exactModel": false
       },
       {
-        "id": "smartlock-dormakaba-ml660",
+        "id": "smartlock-kaadas-m7w",
+        "status": "model_unverified",
+        "httpStatus": 200,
+        "exactModel": false
+      },
+      {
+        "id": "smartlock-aqara-a100",
+        "status": "model_unverified",
+        "httpStatus": 200,
+        "exactModel": false
+      },
+      {
+        "id": "smartlock-lockin-halo",
+        "status": "blocked",
+        "httpStatus": 429,
+        "exactModel": false
+      },
+      {
+        "id": "smartlock-aqara-d200i",
         "status": "model_unverified",
         "httpStatus": 200,
         "exactModel": false
@@ -7954,7 +7887,13 @@
         "exactModel": false
       },
       {
-        "id": "smartlock-kaadas-q3",
+        "id": "smartlock-zigbang-shp-p52",
+        "status": "blocked",
+        "httpStatus": 429,
+        "exactModel": false
+      },
+      {
+        "id": "smartlock-dormakaba-ml660",
         "status": "model_unverified",
         "httpStatus": 200,
         "exactModel": false
@@ -7972,25 +7911,7 @@
         "exactModel": false
       },
       {
-        "id": "smartlock-lockin-halo",
-        "status": "blocked",
-        "httpStatus": 429,
-        "exactModel": false
-      },
-      {
-        "id": "smartlock-zigbang-shp-p52",
-        "status": "blocked",
-        "httpStatus": 429,
-        "exactModel": false
-      },
-      {
         "id": "smartlock-milre-mi7150",
-        "status": "model_unverified",
-        "httpStatus": 200,
-        "exactModel": false
-      },
-      {
-        "id": "smartlock-kaadas-m7w",
         "status": "model_unverified",
         "httpStatus": 200,
         "exactModel": false
@@ -8002,21 +7923,15 @@
         "exactModel": false
       },
       {
-        "id": "smartlock-aqara-d200i",
-        "status": "model_unverified",
-        "httpStatus": 200,
+        "id": "smartlock-fibre-fb63m",
+        "status": "blocked",
+        "httpStatus": 429,
         "exactModel": false
       },
       {
         "id": "smartlock-waferlock-d310",
         "status": "model_unverified",
         "httpStatus": 200,
-        "exactModel": false
-      },
-      {
-        "id": "smartlock-fibre-fb63m",
-        "status": "blocked",
-        "httpStatus": 429,
         "exactModel": false
       },
       {
@@ -8038,9 +7953,21 @@
         "exactModel": false
       },
       {
+        "id": "smartlock-3e-t9-plus",
+        "status": "blocked",
+        "httpStatus": 429,
+        "exactModel": false
+      },
+      {
         "id": "smartlock-chatlock-a50",
         "status": "model_unverified",
         "httpStatus": 200,
+        "exactModel": false
+      },
+      {
+        "id": "smartlock-kingnet-djs-sk07",
+        "status": "blocked",
+        "httpStatus": 429,
         "exactModel": false
       },
       {
@@ -8056,31 +7983,13 @@
         "exactModel": false
       },
       {
-        "id": "smartlock-3e-t9-plus",
-        "status": "blocked",
-        "httpStatus": 429,
-        "exactModel": false
-      },
-      {
         "id": "soundbar-samsung-q800h",
         "status": "model_unverified",
         "httpStatus": 200,
         "exactModel": false
       },
       {
-        "id": "smartlock-kingnet-djs-sk07",
-        "status": "blocked",
-        "httpStatus": 429,
-        "exactModel": false
-      },
-      {
         "id": "soundbar-sony-ht-a7100",
-        "status": "model_unverified",
-        "httpStatus": 200,
-        "exactModel": false
-      },
-      {
-        "id": "smartlock-aqara-a100",
         "status": "model_unverified",
         "httpStatus": 200,
         "exactModel": false
@@ -8098,6 +8007,12 @@
         "exactModel": false
       },
       {
+        "id": "soundbar-sony-b600",
+        "status": "blocked",
+        "httpStatus": 429,
+        "exactModel": false
+      },
+      {
         "id": "soundbar-extra-9-dpado2-a900k5vut",
         "status": "model_unverified",
         "httpStatus": 200,
@@ -8110,25 +8025,7 @@
         "exactModel": false
       },
       {
-        "id": "soundbar-sony-b600",
-        "status": "blocked",
-        "httpStatus": 429,
-        "exactModel": false
-      },
-      {
-        "id": "soundbar-extra-12-dmaamt-a900i5hho",
-        "status": "model_unverified",
-        "httpStatus": 200,
-        "exactModel": false
-      },
-      {
         "id": "soundbar-extra-11-dmbm1d-a900ghtfe",
-        "status": "model_unverified",
-        "httpStatus": 200,
-        "exactModel": false
-      },
-      {
-        "id": "soundbar-extra-14-dmaahg-a900j56ok",
         "status": "model_unverified",
         "httpStatus": 200,
         "exactModel": false
@@ -8140,13 +8037,13 @@
         "exactModel": false
       },
       {
-        "id": "soundbar-extra-13-dmaahg-a900jcy2v",
+        "id": "soundbar-extra-12-dmaamt-a900i5hho",
         "status": "model_unverified",
         "httpStatus": 200,
         "exactModel": false
       },
       {
-        "id": "soundbar-extra-17-dmbm1da900hpuxn",
+        "id": "soundbar-extra-13-dmaahg-a900jcy2v",
         "status": "model_unverified",
         "httpStatus": 200,
         "exactModel": false
@@ -8158,19 +8055,19 @@
         "exactModel": false
       },
       {
+        "id": "soundbar-extra-14-dmaahg-a900j56ok",
+        "status": "model_unverified",
+        "httpStatus": 200,
+        "exactModel": false
+      },
+      {
+        "id": "soundbar-extra-17-dmbm1da900hpuxn",
+        "status": "model_unverified",
+        "httpStatus": 200,
+        "exactModel": false
+      },
+      {
         "id": "soundbar-extra-18-dmbm1da900iuzuj",
-        "status": "model_unverified",
-        "httpStatus": 200,
-        "exactModel": false
-      },
-      {
-        "id": "soundbar-extra-20-dmaf02a900h2g5r",
-        "status": "model_unverified",
-        "httpStatus": 200,
-        "exactModel": false
-      },
-      {
-        "id": "soundbar-costco-denon-dht-s517",
         "status": "model_unverified",
         "httpStatus": 200,
         "exactModel": false
@@ -8182,7 +8079,7 @@
         "exactModel": false
       },
       {
-        "id": "standingdesk-loctek-f2-120",
+        "id": "soundbar-extra-20-dmaf02a900h2g5r",
         "status": "model_unverified",
         "httpStatus": 200,
         "exactModel": false
@@ -8194,13 +8091,31 @@
         "exactModel": false
       },
       {
+        "id": "standingdesk-irocks-d01-120",
+        "status": "model_unverified",
+        "httpStatus": 200,
+        "exactModel": false
+      },
+      {
+        "id": "standingdesk-loctek-f2-120",
+        "status": "model_unverified",
+        "httpStatus": 200,
+        "exactModel": false
+      },
+      {
         "id": "standingdesk-irocks-d01-150",
         "status": "model_unverified",
         "httpStatus": 200,
         "exactModel": false
       },
       {
-        "id": "standingdesk-irocks-d01-120",
+        "id": "soundbar-costco-denon-dht-s517",
+        "status": "model_unverified",
+        "httpStatus": 200,
+        "exactModel": false
+      },
+      {
+        "id": "standingdesk-irocks-d01-180",
         "status": "model_unverified",
         "httpStatus": 200,
         "exactModel": false
@@ -8212,7 +8127,19 @@
         "exactModel": false
       },
       {
+        "id": "standingdesk-nitori-up002",
+        "status": "model_unverified",
+        "httpStatus": 200,
+        "exactModel": false
+      },
+      {
         "id": "standingdesk-cougar-royal-mossa",
+        "status": "model_unverified",
+        "httpStatus": 200,
+        "exactModel": false
+      },
+      {
+        "id": "standingdesk-extra-20-dcbb6oa900frsk6",
         "status": "model_unverified",
         "httpStatus": 200,
         "exactModel": false
@@ -8398,19 +8325,7 @@
         "exactModel": false
       },
       {
-        "id": "standingdesk-irocks-d01-180",
-        "status": "model_unverified",
-        "httpStatus": 200,
-        "exactModel": false
-      },
-      {
         "id": "vacuum-extra-18-dmaxb5a900jcn6g",
-        "status": "model_unverified",
-        "httpStatus": 200,
-        "exactModel": false
-      },
-      {
-        "id": "standingdesk-extra-20-dcbb6oa900frsk6",
         "status": "model_unverified",
         "httpStatus": 200,
         "exactModel": false
@@ -8428,12 +8343,6 @@
         "exactModel": false
       },
       {
-        "id": "washer-sampo-wm-md10",
-        "status": "model_unverified",
-        "httpStatus": 200,
-        "exactModel": false
-      },
-      {
         "id": "vacuum-extra-15-dsbe1a-a900ha30v",
         "status": "blocked",
         "httpStatus": 429,
@@ -8441,6 +8350,12 @@
       },
       {
         "id": "washer-panasonic-na-v130lb-l",
+        "status": "model_unverified",
+        "httpStatus": 200,
+        "exactModel": false
+      },
+      {
+        "id": "washer-sampo-wm-md10",
         "status": "model_unverified",
         "httpStatus": 200,
         "exactModel": false
@@ -8483,12 +8398,6 @@
       },
       {
         "id": "washer-sampo-es-b13f",
-        "status": "model_unverified",
-        "httpStatus": 200,
-        "exactModel": false
-      },
-      {
-        "id": "standingdesk-nitori-up002",
         "status": "model_unverified",
         "httpStatus": 200,
         "exactModel": false
@@ -8560,19 +8469,13 @@
         "exactModel": false
       },
       {
-        "id": "washerdryer-sanlux-awd-1260ka",
-        "status": "model_unverified",
-        "httpStatus": 200,
-        "exactModel": false
-      },
-      {
         "id": "washerdryer-panasonic-na-v150mdh",
         "status": "model_unverified",
         "httpStatus": 200,
         "exactModel": false
       },
       {
-        "id": "washerdryer-costco-electrolux-eww1243r7wc",
+        "id": "washerdryer-sanlux-awd-1260ka",
         "status": "model_unverified",
         "httpStatus": 200,
         "exactModel": false
@@ -8584,7 +8487,7 @@
         "exactModel": false
       },
       {
-        "id": "vacuum-extra-8-dmax00-a900hc7b6",
+        "id": "washerdryer-costco-electrolux-eww1243r7wc",
         "status": "model_unverified",
         "httpStatus": 200,
         "exactModel": false
@@ -8609,6 +8512,12 @@
       },
       {
         "id": "waterdispenser-bwt-slim-3",
+        "status": "model_unverified",
+        "httpStatus": 200,
+        "exactModel": false
+      },
+      {
+        "id": "vacuum-extra-8-dmax00-a900hc7b6",
         "status": "model_unverified",
         "httpStatus": 200,
         "exactModel": false
@@ -8656,6 +8565,12 @@
         "exactModel": false
       },
       {
+        "id": "wifi-tplink-archer-be700",
+        "status": "model_unverified",
+        "httpStatus": 200,
+        "exactModel": false
+      },
+      {
         "id": "waterdispenser-sakura-p0563",
         "status": "blocked",
         "httpStatus": 429,
@@ -8663,12 +8578,6 @@
       },
       {
         "id": "wifi-aruba-ap21",
-        "status": "model_unverified",
-        "httpStatus": 200,
-        "exactModel": false
-      },
-      {
-        "id": "wifi-tplink-archer-be700",
         "status": "model_unverified",
         "httpStatus": 200,
         "exactModel": false
@@ -8692,15 +8601,21 @@
         "exactModel": false
       },
       {
-        "id": "wifi-netgear-orbi-rbe373",
-        "status": "blocked",
-        "httpStatus": 429,
-        "exactModel": false
-      },
-      {
         "id": "wifi-mercusys-mr27be",
         "status": "model_unverified",
         "httpStatus": 200,
+        "exactModel": false
+      },
+      {
+        "id": "wifi-totolink-be5",
+        "status": "model_unverified",
+        "httpStatus": 200,
+        "exactModel": false
+      },
+      {
+        "id": "wifi-netgear-orbi-rbe373",
+        "status": "blocked",
+        "httpStatus": 429,
         "exactModel": false
       },
       {
@@ -8713,12 +8628,6 @@
         "id": "wifi-aruba-ap25",
         "status": "blocked",
         "httpStatus": 429,
-        "exactModel": false
-      },
-      {
-        "id": "wifi-totolink-be5",
-        "status": "model_unverified",
-        "httpStatus": 200,
         "exactModel": false
       },
       {
@@ -8752,6 +8661,12 @@
         "exactModel": false
       },
       {
+        "id": "wifi-tplink-archer-be805",
+        "status": "model_unverified",
+        "httpStatus": 200,
+        "exactModel": false
+      },
+      {
         "id": "wifi-acer-ovia-t360",
         "status": "model_unverified",
         "httpStatus": 200,
@@ -8764,7 +8679,7 @@
         "exactModel": false
       },
       {
-        "id": "wifi-totolink-x30-se",
+        "id": "wifi-zyxel-usg-lite-60ax",
         "status": "model_unverified",
         "httpStatus": 200,
         "exactModel": false
@@ -8776,13 +8691,7 @@
         "exactModel": false
       },
       {
-        "id": "wifi-netgear-rs300",
-        "status": "blocked",
-        "httpStatus": 429,
-        "exactModel": false
-      },
-      {
-        "id": "wifi-tplink-archer-be805",
+        "id": "wifi-totolink-x30-se",
         "status": "model_unverified",
         "httpStatus": 200,
         "exactModel": false
@@ -8791,6 +8700,12 @@
         "id": "wifi-cudy-ax3000-mesh",
         "status": "model_unverified",
         "httpStatus": 200,
+        "exactModel": false
+      },
+      {
+        "id": "wifi-netgear-rs300",
+        "status": "blocked",
+        "httpStatus": 429,
         "exactModel": false
       },
       {
@@ -8809,12 +8724,6 @@
         "id": "wifi-qnap-qhora-301w",
         "status": "blocked",
         "httpStatus": 429,
-        "exactModel": false
-      },
-      {
-        "id": "wifi-zyxel-usg-lite-60ax",
-        "status": "model_unverified",
-        "httpStatus": 200,
         "exactModel": false
       },
       {
@@ -8838,8 +8747,8 @@
       "model": "Joule Oven Air Fryer Pro",
       "url": "https://www.breville.com/en-us/product/bov950",
       "disposition": "false_positive_retained",
-      "reviewedAt": "2026-07-22T23:29:39.000Z",
-      "reviewEvidence": "Breville 美國官方頁仍顯示 exact model BOV950BSS1BUS1、US$499.95 與可用的 Add to cart；Chrome 原頁覆核確認文字掃描命中不是停產證據。"
+      "reviewedAt": "2026-07-23T22:25:05.000Z",
+      "reviewEvidence": "2026-07-24 以 Chrome 重新開啟 Breville 美國官方 BOV950 原頁；頁面明示 exact model BOV950BSS1BUS1、US$499.95，且 Add to cart 可用。停產字樣命中來自非本型號內容，不能作為移除證據。"
     }
   ]
 }

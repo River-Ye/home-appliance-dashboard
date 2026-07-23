@@ -1,6 +1,6 @@
 # 家電推薦比較工作台
 
-純前端靜態頁面，整理 2026-07-23 查核的家電推薦清單，並保留好市多可購買候選，涵蓋價格、歷史最低價、負評／災情、入手時機、規格、優缺點、通路連結與海外價格 TWD 換算。
+純前端靜態頁面，整理 2026-07-24 查核的家電推薦清單，並保留好市多可購買候選，涵蓋價格、歷史最低價、負評／災情、入手時機、規格、優缺點、通路連結與海外價格 TWD 換算。
 
 > 本專案由 AI 協助研究、整理資料並製作網頁；內容僅供採購比較參考，購買前請再以通路與品牌官方資訊為準。
 
@@ -21,8 +21,8 @@
 - 針對桌機與手機操作最佳化，包含群組化分類列、sticky 分類列、手機快速操作列、收合式商品細節與重設篩選。
 - 冰箱、洗衣機、烘衣機、洗烘衣機與電子衣櫥皆標示機身尺寸，方便先確認家中擺放空間；若可信來源查不到則明確標示未標示。
 <!-- catalog-maintenance-summary:start -->
-- 2026-07-23 21:40（台灣時間）完成 688 筆商品、26 類全量查核；407 筆 PChome SKU API 已完成（264 筆 exact model、10 筆人工 SKU 綁定可寫入，110 筆型號未自動確認），更新 24 筆現價（17 筆降價、7 筆漲價），20 筆 Qty 0 只列追蹤。
-- 新增 garmentcare-lg-e523ir、garmentcare-lg-e523mr、garmentcare-lg-e523mw、garmentcare-lg-r723mb、garmentcare-lg-r723mg、garmentcare-lg-r723sb、garmentcare-lg-r723wg、garmentcare-lg-s3mfbn、garmentcare-lg-s3rfbn、garmentcare-lg-s3wfbn、garmentcare-lg-sc5gmr80h、garmentcare-lg-sc5mar4g、garmentcare-panasonic-hcc-r600al-x、garmentcare-panasonic-hcc-r600ar-x、garmentcare-samsung-df80h24r1c、garmentcare-samsung-df80h24r1d、garmentcare-samsung-df90h24r4b、garmentcare-samsung-df90h24r4d、garmentcare-samsung-df90h24r4p、garmentcare-samsung-df90h24r5c；沒有移除產品。逐類人工新品覆核已完成，所有分類至少 20 筆；停產只採品牌官方明確證據，缺貨、反爬或單次連線錯誤不作為刪除依據。
+- 2026-07-24 06:29（台灣時間）完成 688 筆商品、26 類全量查核；407 筆 PChome SKU API 已完成（264 筆 exact model、10 筆人工 SKU 綁定可寫入，110 筆型號未自動確認），更新 31 筆現價（16 筆降價、15 筆漲價），20 筆 Qty 0 只列追蹤。
+- 沒有納入新產品；沒有移除產品。逐類人工新品覆核已完成，所有分類至少 20 筆；停產只採品牌官方明確證據，缺貨、反爬或單次連線錯誤不作為刪除依據。
 - 圖片查核覆蓋 688 筆；516 筆來源可由 exact model 或人工 SKU 綁定確認，172 筆來源／圖片例外保留原資料。史低為 438 筆 `found`、250 筆 `not_found`，本輪下修 0 筆；51 筆來源可自動重現，其餘保留原逐筆證據且未臆測失效。
 - ExchangeRate-API 最新批次為 2026-07-23 00:02 UTC，USD/TWD 32.409765；30 筆外幣商品已重算。完整摘要與例外保存在 `catalog_maintenance_latest.json`。
 <!-- catalog-maintenance-summary:end -->
