@@ -1439,9 +1439,9 @@
     "name": "Halo 指靜脈人臉辨識電子鎖",
     "price": {
       "currency": "TWD",
-      "amount": 26500,
-      "converted": 26500,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 25175,
+      "converted": 25175,
+      "confidence": "PChome 2026-07-23 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBS4NA900JUBVW/000001_1774253039.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBS4N-A900JUBVW",
@@ -1474,16 +1474,16 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 26500,
+      "amount": 25175,
       "currency": "TWD",
-      "converted": 26500,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1272510457&cgp=26500",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【Lockin 鹿客】Halo 指靜脈人臉辨識電子鎖",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【Lockin 鹿客】Halo 指靜脈人臉辨識電子鎖」最低價為 NT$26,500，最低點日期 2026-07-09。",
-      "sourceKind": "price_history",
+      "converted": 25175,
+      "sourceUrl": "https://24h.pchome.com.tw/prod/DQBS4N-A900JUBVW",
+      "sourceTitle": "PChome 24h 購物：Lockin_鹿客 Halo 指靜脈人臉辨識電子鎖",
+      "evidenceSnippet": "PChome 24h 購物於 2026-07-23 顯示同型號可信新品公開價 NT$25,175，低於既有史低 NT$26,500。",
+      "sourceKind": "retailer_page",
       "confidence": "medium",
-      "checkedAt": "2026-07-09",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+      "checkedAt": "2026-07-23",
+      "note": "採用 PChome 24h 購物當日可購商品的同型號新品公開價；不含會員券、點數、信用卡回饋、二手、福利、展示、拆封或整新品。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -1830,9 +1830,9 @@
     "name": "FA9000 五合一人臉辨識電子鎖",
     "price": {
       "currency": "TWD",
-      "amount": 28990,
-      "converted": 28990,
-      "confidence": "可信通路查核價"
+      "amount": 27540,
+      "converted": 27540,
+      "confidence": "PChome 2026-07-23 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBS4NA900IAVXZ/000001_1740465068.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBS4N-A900IAVXZ",
@@ -1908,9 +1908,9 @@
     "name": "MI-510F 三合一輔助型電子鎖",
     "price": {
       "currency": "TWD",
-      "amount": 9500,
-      "converted": 9500,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 9025,
+      "converted": 9025,
+      "confidence": "PChome 2026-07-23 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBS4NA900ILR7A/000001_1767853677.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBS4N-A900ILR7A",
@@ -1986,9 +1986,9 @@
     "name": "MI-6450 三合一電子鎖",
     "price": {
       "currency": "TWD",
-      "amount": 15000,
-      "converted": 15000,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 14250,
+      "converted": 14250,
+      "confidence": "PChome 2026-07-23 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBS4NA900ILR3T/000001_1767087495.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBS4N-A900ILR3T",
@@ -2064,9 +2064,9 @@
     "name": "MI-7150+ 四合一電子鎖",
     "price": {
       "currency": "TWD",
-      "amount": 19000,
-      "converted": 19000,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 18050,
+      "converted": 18050,
+      "confidence": "PChome 2026-07-23 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBS4NA900IOJ43/000001_1766741547.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBS4N-A900IOJ43",
@@ -3078,9 +3078,9 @@
     "name": "T9 Plus+ 掌靜脈九合一電子鎖",
     "price": {
       "currency": "TWD",
-      "amount": 25000,
-      "converted": 25000,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 23750,
+      "converted": 23750,
+      "confidence": "PChome 2026-07-23 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBS4NA900K03FM/000001_1778558520.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBS4N-A900K03FM",
@@ -3113,16 +3113,16 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 24500,
+      "amount": 23750,
       "currency": "TWD",
-      "converted": 24500,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1274631428&cgp=24500",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：3E小島快鎖 WIFI版掌靜脈辨識九合一電子鎖 T9 Plus+ 金色(含基本安裝)",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 3E小島快鎖 WIFI版掌靜脈辨識九合一電子鎖 T9 Plus+ 金色(含基本安裝)」最低價為 NT$24,500，最低點日期 2026-07-09。",
-      "sourceKind": "price_history",
+      "converted": 23750,
+      "sourceUrl": "https://24h.pchome.com.tw/prod/DQBS4N-A900K03FM",
+      "sourceTitle": "PChome 24h 購物：3E小島快鎖 WIFI版掌靜脈辨識九合一電子鎖(T9 Plus+)(附基本安裝)",
+      "evidenceSnippet": "PChome 24h 購物於 2026-07-23 顯示同型號可信新品公開價 NT$23,750，低於既有史低 NT$24,500。",
+      "sourceKind": "retailer_page",
       "confidence": "medium",
-      "checkedAt": "2026-07-09",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+      "checkedAt": "2026-07-23",
+      "note": "採用 PChome 24h 購物當日可購商品的同型號新品公開價；不含會員券、點數、信用卡回饋、二手、福利、展示、拆封或整新品。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -3156,9 +3156,9 @@
     "name": "TK 九合一電子鎖",
     "price": {
       "currency": "TWD",
-      "amount": 31840,
-      "converted": 31840,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 30248,
+      "converted": 30248,
+      "confidence": "PChome 2026-07-23 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBS4NA900JG66I/000001_1771990337.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBS4N-A900JG66I",
@@ -3234,9 +3234,9 @@
     "name": "T12 五合一把手式電子鎖",
     "price": {
       "currency": "TWD",
-      "amount": 14900,
-      "converted": 14900,
-      "confidence": "可信通路查核價"
+      "amount": 14155,
+      "converted": 14155,
+      "confidence": "PChome 2026-07-23 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBS4NA900IDEPI/000001_1748323634.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBS4N-A900IDEPI",
@@ -3390,9 +3390,9 @@
     "name": "Z2 指靜脈貓眼智慧靜音電子鎖",
     "price": {
       "currency": "TWD",
-      "amount": 33830,
-      "converted": 33830,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 32138,
+      "converted": 32138,
+      "confidence": "PChome 2026-07-23 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBS4NA900JISCM/000001_1780306235.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBS4N-A900JISCM",
@@ -3468,9 +3468,9 @@
     "name": "AI 智慧 A50 頂級電子門鎖",
     "price": {
       "currency": "TWD",
-      "amount": 32800,
-      "converted": 32800,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 31160,
+      "converted": 31160,
+      "confidence": "PChome 2026-07-23 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBS4NA900K2WIC/000001_1783308785.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBS4N-A900K2WIC",
@@ -3546,9 +3546,9 @@
     "name": "AI 智慧 A90 頂級電子門鎖",
     "price": {
       "currency": "TWD",
-      "amount": 33800,
-      "converted": 33800,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 32110,
+      "converted": 32110,
+      "confidence": "PChome 2026-07-23 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBS4NA900K2STR/000001_1783309040.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBS4N-A900K2STR",

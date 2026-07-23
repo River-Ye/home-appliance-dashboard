@@ -14,6 +14,7 @@ const { matchesPchomeProductId, selectPchomeCurrentPrice } = require("./pchome-p
 const {
   normalizeExchangeDate,
   replaceMarkerBlock,
+  updateReadmeMetadata,
 } = require("./update-maintenance-metadata");
 const {
   buildCompactReport,
@@ -433,6 +434,14 @@ async function main() {
     "manually reviewed PChome source bindings should allow the exact approved product ID",
   );
   assert(
+    [
+      ["dishwasher-haier-h500", "DMBR25-A900IUNDB"],
+      ["monitor-dell-aw3225qf", "DSABOK-A900HB1B5"],
+      ["waterdispenser--uw-2262hw-1", "DMAWEM-A900GDIXH"],
+    ].every(([productId, pchomeProductId]) => isReviewedPchomeBinding(productId, pchomeProductId)),
+    "manually verified exact-model PChome pages should keep their approved product bindings",
+  );
+  assert(
     !isReviewedPchomeBinding("robot-ecovacs-x11-pro", "DMBL0L-A900IDIPA"),
     "manually reviewed PChome source bindings must reject a different product ID",
   );
@@ -540,6 +549,13 @@ async function main() {
   assert(
     normalizeIdentity("  ＬＧ OLED65－C5PTA  ") === "lgoled65c5pta",
     "catalog identity normalization should fold width, case, whitespace, and punctuation",
+  );
+  assert(
+    updateReadmeMetadata(
+      "純前端靜態頁面，整理 2026-07-22 查核的家電推薦清單。",
+      { dataDate: "2026-07-23" },
+    ) === "純前端靜態頁面，整理 2026-07-23 查核的家電推薦清單。",
+    "maintenance metadata sync should refresh the README overview date",
   );
   assert(
     tokenizedIdentity("  ＡＳＵＳ RT－BE58U / V2  ").join(",") === "asus,rt,be58u,v2",

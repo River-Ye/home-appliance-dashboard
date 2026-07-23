@@ -768,10 +768,14 @@ function validateIssueReviewManifest(root, products, failures) {
 
 function validateHistoricalPriceResearch(root, products, failures) {
   const researchFile = path.join(root, "historical_price_research.json");
+  const maintenanceReportFile = path.join(root, "catalog_maintenance_latest.json");
   assert(fs.existsSync(researchFile), "historical_price_research.json is missing", failures);
   if (!fs.existsSync(researchFile)) return;
 
   const research = JSON.parse(fs.readFileSync(researchFile, "utf8"));
+  const maintenanceReport = fs.existsSync(maintenanceReportFile)
+    ? JSON.parse(fs.readFileSync(maintenanceReportFile, "utf8"))
+    : null;
   const researchRows = Array.isArray(research.results) ? research.results : [];
   const researchById = new Map(researchRows.map((row) => [row.id, row]));
   const foundRows = researchRows.filter((row) => row.historicalLow?.status === "found");
@@ -782,6 +786,35 @@ function validateHistoricalPriceResearch(root, products, failures) {
   assert(research.summary && research.summary.total === products.length, "historical price research summary total mismatch", failures);
   assert(research.summary && research.summary.found === foundRows.length, "historical price research summary found mismatch", failures);
   assert(research.summary && research.summary.missing === missingRows.length, "historical price research summary missing mismatch", failures);
+
+  if (maintenanceReport) {
+    const summary = research.summary || {};
+    const maintenanceSummary = maintenanceReport.summary || {};
+    const invalidatedHistoricalLows = (maintenanceReport.changes?.historicalLows || [])
+      .filter((change) => change.before !== null && change.after === null).length;
+    const expectedRunSummary = {
+      lastMaintenanceCheckAt: maintenanceReport.checkedAt,
+      currentPriceChanged: maintenanceSummary.priceChanges,
+      currentBuyLinkChanged: maintenanceSummary.linkChanges,
+      currentPriceDrops: maintenanceSummary.priceDrops,
+      currentPriceRises: maintenanceSummary.priceRises,
+      historicalLowUpdated: maintenanceSummary.historicalLowPriceChanges,
+      historicalLowInvalidated: invalidatedHistoricalLows,
+      currentImageChanged: maintenanceSummary.imageChanges,
+      discontinuedRemoved: (maintenanceSummary.discontinuedRemoved || []).length,
+      newProductsAdded: (maintenanceSummary.newProductsAdded || []).length,
+      catalogEntriesRemoved: (maintenanceSummary.discontinuedRemoved || []).length,
+    };
+    for (const [key, expected] of Object.entries(expectedRunSummary)) {
+      assert(summary[key] === expected, `historical price research summary ${key} is stale`, failures);
+    }
+    assert(summary.checkedAt === `${maintenanceReport.dataDate}T00:00:00.000+08:00`, "historical price research summary checkedAt is stale", failures);
+    assert(summary.researchedThisRun === products.length, "historical price research researchedThisRun is stale", failures);
+    assert(summary.sourcePolicy?.includes(maintenanceReport.dataDate), "historical price research source policy date is stale", failures);
+    assert(summary.exchange?.USD_TWD === maintenanceReport.exchange?.USD_TWD, "historical price research USD exchange rate is stale", failures);
+    assert(summary.exchange?.currentUSD_TWD === maintenanceReport.exchange?.USD_TWD, "historical price research current USD exchange rate is stale", failures);
+    assert(!Object.hasOwn(summary, "sameRunCorrections"), "historical price research contains stale same-run corrections", failures);
+  }
 
   for (const product of products) {
     const row = researchById.get(product.id);

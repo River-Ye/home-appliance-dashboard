@@ -30,12 +30,15 @@ const EXPLICIT_DISCONTINUATION_PATTERNS = [
 ];
 
 const REVIEWED_PCHOME_BINDINGS = new Map([
+  ["dishwasher-haier-h500", "DMBR25-A900IUNDB"],
+  ["monitor-dell-aw3225qf", "DSABOK-A900HB1B5"],
   ["monitor-lg-45gx90sa", "DSBC1Z-A900J732D"],
   ["robot-ecovacs-t50-pro", "DMBL0L-A900IDIPA"],
   ["robot-ecovacs-t80-omni", "DMBL0L-A900IT3IU"],
   ["robot-ecovacs-t90-pro", "DMBL0L-A900JWVON"],
   ["robot-ecovacs-x11-pro", "DMBL0L-A900J5HJ0"],
   ["robot-ecovacs-x12-pro", "DMBL0L-A900JS61Y"],
+  ["waterdispenser--uw-2262hw-1", "DMAWEM-A900GDIXH"],
   ["waterdispenser-extra-16-dsbe1fa900gsoln", "DMCI17-A900I6OFW"],
 ]);
 

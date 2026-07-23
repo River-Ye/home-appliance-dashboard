@@ -430,9 +430,9 @@
     "image": "https://cs-a.ecimg.tw/items/DMBR35A900JVAOT/000001_1782872320.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 28888,
-      "converted": 28888,
-      "confidence": "PChome 2026-07-22 API exact-model 現貨公開價"
+      "amount": 29900,
+      "converted": 29900,
+      "confidence": "PChome 2026-07-23 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -680,16 +680,17 @@
     "image": "https://cs-a.ecimg.tw/items/DMBR25A900IUNDB/000001_1747970581.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 24320,
-      "converted": 24320,
-      "confidence": "PChome 2026-07-18 UTC API 查核價"
+      "amount": 25600,
+      "converted": 25600,
+      "confidence": "PChome 2026-07-23 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "channel": "tw",
     "buyLabel": "PChome",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBR25-A900IUNDB",
     "specs": [
       "洗碗機：Haier 海爾 16人份 自動開門 AI變頻獨嵌兩用洗碗機H500(HDWE16-48SC5SA 不含安裝)",
-      "容量/安裝型式依商品頁標示",
+      "容量：16 人份；獨立／嵌入兩用",
+      "電壓：230V；商品不含安裝",
       "PChome 24h 可信通路低價",
       "排除福利品與配件"
     ],
@@ -701,12 +702,12 @@
     ],
     "cons": [
       "需確認進排水、櫃體尺寸與門片開啟空間",
-      "嵌入式與 220V 機種安裝成本較高",
+      "230V 機種需由專業人員確認專用迴路，安裝成本較高",
       "容量標示需對照實際餐具習慣"
     ],
     "bestFor": "想依家庭人數、廚房形式與安裝條件挑選洗碗機的人。",
-    "recommendation": "洗碗機第 9 推薦：Haier H500 在價格、評價、品牌通路與售後取得性之間表現均衡，適合納入同類比較。",
-    "voltage": "多數為 110V 或依機型不同；需確認插座、專用迴路、進排水與櫃體尺寸",
+    "recommendation": "洗碗機第 9 推薦：Haier H500 在價格、評價、品牌通路與售後取得性之間表現均衡；但它是 230V 且商品不含安裝，應先確認專用迴路與安裝費。",
+    "voltage": "230V；需確認專用迴路、進排水與櫃體尺寸，商品不含安裝",
     "warranty": "依 PChome 24h 與品牌/供應商頁面標示；安裝費依通路方案",
     "score": 86,
     "budget": "mid",

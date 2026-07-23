@@ -78,6 +78,10 @@ function main() {
     assert(text.includes(exchange.date), `${file} exchange date is stale`);
   }
 
+  assert(
+    readme.includes(`整理 ${meta.dataDate} 查核的家電推薦清單`),
+    "README overview data date is stale",
+  );
   assert(index.includes(`id="dataDate">${meta.dataDate}</strong>`), "index data date fallback is stale");
   assert(index.includes(`資料更新日為 ${meta.dataDate}。`), "index footer data date is stale");
   assert(index.includes(`id="exchangeSummary">${meta.exchangeSummary}</span>`), "index exchange fallback is stale");

@@ -78,6 +78,13 @@ function updateIndexMetadata(source, meta) {
     .replace(/\?v=[^"']+/g, `?v=${meta.cacheVersion}`);
 }
 
+function updateReadmeMetadata(source, meta) {
+  return source.replace(
+    /整理 \d{4}-\d{2}-\d{2} 查核的家電推薦清單/,
+    `整理 ${meta.dataDate} 查核的家電推薦清單`,
+  );
+}
+
 function main() {
   const reportPath = path.join(ROOT, "catalog_maintenance_latest.json");
   const report = JSON.parse(fs.readFileSync(reportPath, "utf8"));
@@ -90,7 +97,11 @@ function main() {
   for (const file of ["README.md", "AGENTS.md"]) {
     const filePath = path.join(ROOT, file);
     const source = fs.readFileSync(filePath, "utf8");
-    fs.writeFileSync(filePath, replaceMarkerBlock(source, SUMMARY_MARKER, summary));
+    const withSummary = replaceMarkerBlock(source, SUMMARY_MARKER, summary);
+    fs.writeFileSync(
+      filePath,
+      file === "README.md" ? updateReadmeMetadata(withSummary, meta) : withSummary,
+    );
   }
 
   const indexPath = path.join(ROOT, "index.html");
@@ -111,4 +122,5 @@ module.exports = {
   replaceMarkerBlock,
   renderMaintenanceSummary,
   updateIndexMetadata,
+  updateReadmeMetadata,
 };

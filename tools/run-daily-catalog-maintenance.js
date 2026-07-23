@@ -541,7 +541,7 @@ function updateDashboardContract(productCount, categoryCount, categoryCounts) {
   fs.writeFileSync(filePath, source);
 }
 
-function syncHistoricalResearch(products, exchange) {
+function syncHistoricalResearch(products, exchange, compact) {
   const filePath = path.join(ROOT, "historical_price_research.json");
   const research = JSON.parse(fs.readFileSync(filePath, "utf8"));
   const productById = new Map(products.map((product) => [product.id, product]));
@@ -559,20 +559,47 @@ function syncHistoricalResearch(products, exchange) {
     row.historicalLow = product.historicalLow;
   }
   const found = products.filter((product) => product.historicalLow?.status === "found").length;
+  const byConfidence = products.reduce((counts, product) => {
+    const confidence = product.historicalLow?.confidence || product.historicalLow?.status || "not_found";
+    counts[confidence] = (counts[confidence] || 0) + 1;
+    return counts;
+  }, {});
+  const removedIds = compact.summary.discontinuedRemoved || [];
+  const addedIds = compact.summary.newProductsAdded || [];
+  const invalidatedHistoricalLows = (compact.changes?.historicalLows || [])
+    .filter((change) => change.before !== null && change.after === null).length;
   research.summary = {
-    ...(research.summary || {}),
     checkedAt: `${MAINTENANCE_DATE}T00:00:00.000+08:00`,
+    sourcePolicy: `${MAINTENANCE_DATE} 以 ${compact.summary.baselineProducts} 筆基準清單全量查核現價、購買連結與可信新品狀態，並複核最終 ${compact.summary.finalProducts} 筆商品圖片、全部 ${compact.summary.historicalFound} 筆 found 史低來源、原廠停產訊號與同批次匯率。PChome exact-model 現貨頁有正值 Price.Low 時採公開折扣價，否則採 Price.P；Qty 0、福利品、展示機與配件不寫回。其他頁面的結構化價格差異列入人工覆核候選，阻擋、暫時錯誤與單次頁面失效只列稽核，不臆測停產或史低失效。`,
     total: products.length,
+    researchedThisRun: products.length,
     found,
     missing: products.length - found,
+    byConfidence,
     exchange: {
-      ...(research.summary?.exchange || {}),
       USD_TWD: exchange.USD_TWD,
+      currentUSD_TWD: exchange.USD_TWD,
       GBP_TWD: exchange.GBP_TWD,
       EUR_TWD: exchange.EUR_TWD,
       JPY_TWD: exchange.JPY_TWD,
       CNY_TWD: exchange.CNY_TWD,
     },
+    lastMaintenanceCheckAt: compact.checkedAt,
+    currentPriceChanged: compact.summary.priceChanges,
+    currentBuyLinkChanged: compact.summary.linkChanges,
+    currentPriceDrops: compact.summary.priceDrops,
+    currentPriceRises: compact.summary.priceRises,
+    currentPriceFallbacks: 0,
+    historicalLowUpdated: compact.summary.historicalLowPriceChanges,
+    historicalLowInvalidated: invalidatedHistoricalLows,
+    catalogEntriesReplaced: 0,
+    catalogReplacementNotes: [],
+    currentImageChanged: compact.summary.imageChanges,
+    discontinuedRemoved: removedIds.length,
+    newProductsAdded: addedIds.length,
+    discontinuedRemovalNotes: removedIds,
+    catalogEntriesRemoved: removedIds.length,
+    catalogRemovalNotes: removedIds,
   };
   fs.writeFileSync(filePath, `${JSON.stringify(research, null, 2)}\n`);
 }
@@ -835,7 +862,7 @@ async function main() {
       catalog.categories.length,
       new Map(catalog.categories.map((category) => [category.categoryId, category.items.length])),
     );
-    syncHistoricalResearch(catalog.products, exchange);
+    syncHistoricalResearch(catalog.products, exchange, compact);
     fs.writeFileSync(COMPACT_REPORT_PATH, `${JSON.stringify(compact, null, 2)}\n`);
   }
   if (DRAFT) fs.writeFileSync(DRAFT_REPORT_PATH, `${JSON.stringify(compact, null, 2)}\n`);
