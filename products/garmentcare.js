@@ -21,7 +21,7 @@
       "converted": 44010,
       "confidence": "PChome 24h 2026-07-23 exact-model API 公開價，Qty 3"
     },
-    "image": "https://www.lg.com/content/dam/channel/wcms/tw/images/washer-dryers/styler/r723wg/R723WG-2010-01.jpg/jcr%3Acontent/renditions/thum-1600x1062.jpeg",
+    "image": "https://cs-a.ecimg.tw/items/DPAI1LA900HWRUQ/000001_1762826055.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DPAI1L-A900HWRUQ",
     "buyLabel": "PChome 24h",
     "specs": [
@@ -113,7 +113,7 @@
       "converted": 26900,
       "confidence": "PChome 24h 2026-07-23 exact-model API 公開價，Qty 20"
     },
-    "image": "https://www.lg.com/content/dam/channel/wcms/tw/images/styler/e523mw_almbtst_eatt_tw_c/gallery/large01.jpg",
+    "image": "https://cs-a.ecimg.tw/items/DPAI1LA900J8NAE/000001_1775034251.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DPAI1L-A900J8NAE",
     "buyLabel": "PChome 24h",
     "specs": [
@@ -205,7 +205,7 @@
       "converted": 53900,
       "confidence": "PChome 24h 2026-07-23 exact-model API 公開價，Qty 8"
     },
-    "image": "https://www.lg.com/content/dam/channel/wcms/tw/images/washer-dryers/styler/r723mb/gallery/styler-rx5-black-tint-mirror-gallery-01-2010.jpg/jcr%3Acontent/renditions/thum-1600x1062.jpeg",
+    "image": "https://cs-a.ecimg.tw/items/DPAI1LA900HWRR6/000001_1762826052.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DPAI1L-A900HWRR6",
     "buyLabel": "PChome 24h",
     "specs": [
@@ -297,7 +297,7 @@
       "converted": 53010,
       "confidence": "PChome 24h 2026-07-23 exact-model API 公開價"
     },
-    "image": "https://www.lg.com/content/dam/channel/wcms/tw/images/washer-dryers/styler/r723sb/r723sb-2010-01.jpg/jcr%3Acontent/renditions/thum-1600x1062.jpeg",
+    "image": "https://cs-a.ecimg.tw/items/DPAI1LA900HWRRX/000001_1762826053.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DPAI1L-A900HWRRX",
     "buyLabel": "PChome 24h",
     "specs": [
@@ -387,7 +387,7 @@
       "converted": 44900,
       "confidence": "PChome 24h 2026-07-23 exact-model API 公開價"
     },
-    "image": "https://www.lg.com/content/dam/channel/wcms/tw/images/washer-dryers/styler/r723mg/R723MG-2010-01.jpg/jcr%3Acontent/renditions/thum-1600x1062.jpeg",
+    "image": "https://cs-a.ecimg.tw/items/DPAI1LA900HWRSW/000001_1762826054.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DPAI1L-A900HWRSW",
     "buyLabel": "PChome 24h",
     "specs": [
@@ -477,7 +477,7 @@
       "converted": 41900,
       "confidence": "PChome 24h 2026-07-23 exact-model 新品公開價"
     },
-    "image": "https://www.lg.com/content/dam/channel/wcms/tw/images/styler/e523mr_albbtst_eatt_tw_c/gallery/large01.jpg",
+    "image": "https://cs-a.ecimg.tw/items/DPAI1LA900AMBO4/000001_1762826021.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DPAI1L-A900AMBO4",
     "buyLabel": "PChome 24h",
     "specs": [
@@ -567,7 +567,7 @@
       "converted": 37799,
       "confidence": "Costco 好市多 2026-07-23 exact-model 新品公開價"
     },
-    "image": "https://www.lg.com/content/dam/channel/wcms/tw/images/styler/e523ir_abwbtst_eatt_tw_c/gallery/E523IR-1600-1-11122020.jpg",
+    "image": "https://www.costco.com.tw/medias/sys_master/images/ha6/h6b/81437973610526.jpg",
     "buyUrl": "https://www.costco.com.tw/Televisions-Appliances/Large-Appliances/Washers-Dryers/LG-WiFi-Styler-Smart-Enabled-Steam-Closet-E523IR/p/133957",
     "buyLabel": "Costco 好市多",
     "specs": [
