@@ -226,6 +226,16 @@ async function launchChrome(chromeLauncher, chromeFlags) {
     chromeFlags,
     logLevel: "silent",
   };
+  const playwrightChromePath = chromium.executablePath();
+
+  // Keep CI on the Playwright-pinned browser. The current macOS Chromium build can return
+  // NO_FCP under Lighthouse even when the same page paints normally, so macOS prefers Chrome.
+  if (process.platform !== "darwin" && fs.existsSync(playwrightChromePath)) {
+    return chromeLauncher.launch({
+      ...launchOptions,
+      chromePath: playwrightChromePath,
+    });
+  }
 
   try {
     return await chromeLauncher.launch(launchOptions);
@@ -236,7 +246,6 @@ async function launchChrome(chromeLauncher, chromeFlags) {
     ]);
     if (!fallbackCodes.has(defaultLaunchError.code)) throw defaultLaunchError;
 
-    const playwrightChromePath = chromium.executablePath();
     if (!fs.existsSync(playwrightChromePath)) {
       throw new Error(
         `Chrome launch failed (${defaultLaunchError.message}); Playwright Chromium is missing at `
