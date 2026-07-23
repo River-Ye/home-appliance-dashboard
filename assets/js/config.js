@@ -5,20 +5,21 @@
   const meta = {
     dataDate: "2026-07-23",
     costcoDate: "2026-07-23",
-    expectedCategoryCount: 25,
-    expectedProductCount: 668,
-    cacheVersion: "20260723-maintenance-refactor",
-    exchangeSummary: "USD 1 = TWD 32.343",
+    expectedCategoryCount: 26,
+    expectedProductCount: 688,
+    cacheVersion: "20260723-garmentcare",
+    exchangeSummary: "USD 1 = TWD 32.410",
   };
 
   const exchange = {
     source: "ExchangeRate-API",
-    date: "2026-07-22 00:02 UTC",
-    USD_TWD: 32.34328,
-    GBP_TWD: 43.29391229387615,
-    EUR_TWD: 36.892451274166156,
-    JPY_TWD: 0.1984091981077314,
-    CNY_TWD: 4.772728144700817,
+    date: "2026-07-23 00:02 UTC",
+    USD_TWD: 32.409765,
+    GBP_TWD: 43.34478815599422,
+    EUR_TWD: 36.98208164643915,
+    JPY_TWD: 0.19872728385353947,
+    CNY_TWD: 4.779127785897062,
+    KRW_TWD: 0.021920810152159333,
   };
 
   const categories = [
@@ -33,6 +34,7 @@
     { id: "washer", label: "洗衣機", group: "洗衣家務" },
     { id: "dryer", label: "烘衣機", group: "洗衣家務" },
     { id: "washerdryer", label: "洗烘衣機(多功能型)", group: "洗衣家務" },
+    { id: "garmentcare", label: "電子衣櫥（衣物護理機）", group: "洗衣家務" },
     { id: "refrigerator", label: "冰箱", group: "廚房餐飲" },
     { id: "cookware", label: "鍋具", group: "廚房餐飲" },
     { id: "knife", label: "刀具", group: "廚房餐飲" },

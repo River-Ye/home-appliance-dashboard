@@ -17,7 +17,11 @@ const {
   updateReadmeMetadata,
 } = require("./update-maintenance-metadata");
 const {
+  applyExchangeRates,
   buildCompactReport,
+  exchangeRatesFromPayload,
+  loadCatalogFromGit,
+  maintenanceCacheVersion,
   maintenanceReviewReady,
   mergeDiscontinuationReviews,
   pchomeProductId,
@@ -436,6 +440,7 @@ async function main() {
   assert(
     [
       ["dishwasher-haier-h500", "DMBR25-A900IUNDB"],
+      ["garmentcare-lg-r723wg", "DPAI1L-A900HWRUQ"],
       ["monitor-dell-aw3225qf", "DSABOK-A900HB1B5"],
       ["waterdispenser--uw-2262hw-1", "DMAWEM-A900GDIXH"],
     ].every(([productId, pchomeProductId]) => isReviewedPchomeBinding(productId, pchomeProductId)),
@@ -539,10 +544,57 @@ async function main() {
   );
   assert(
     updateDimensionCategoryCounts(
-      '[\n  ["washer", 23],\n  ["dryer", 21],\n  ["washerdryer", 25],\n  ["refrigerator", 23],\n]',
-      new Map([["washer", 24], ["dryer", 22], ["washerdryer", 26], ["refrigerator", 24]]),
-    ).includes('["washerdryer", 26]'),
+      '[\n  ["washer", 23],\n  ["dryer", 21],\n  ["washerdryer", 25],\n  ["refrigerator", 23],\n  ["garmentcare", 0],\n]',
+      new Map([["washer", 24], ["dryer", 22], ["washerdryer", 26], ["refrigerator", 24], ["garmentcare", 20]]),
+    ).includes('["garmentcare", 20]'),
     "catalog maintenance should synchronize dimension-category contract counts",
+  );
+  const baselineCalls = [];
+  const baselineById = loadCatalogFromGit("origin/main", ["tv.js", "garmentcare.js"], {
+    root,
+    execGit(args) {
+      baselineCalls.push(args);
+      if (args[0] === "ls-tree") return "products/tv.js\n";
+      if (args[0] === "show" && args[1] === "origin/main:products/tv.js") {
+        return `globalThis.applianceDashboard.registerProducts("tv", [{ id: "baseline-tv" }]);`;
+      }
+      throw new Error(`unexpected git invocation: ${args.join(" ")}`);
+    },
+  });
+  assert(baselineById.has("baseline-tv"), "catalog baseline should load product files present in the reference");
+  assert(!baselineCalls.some((args) => args.includes("origin/main:products/garmentcare.js")), "catalog baseline should skip a new product file absent from the reference");
+  assertThrows(
+    () => loadCatalogFromGit("missing-ref", ["garmentcare.js"], {
+      root,
+      execGit() {
+        throw new Error("fatal: bad revision");
+      },
+    }),
+    "catalog baseline should not swallow unrelated git failures",
+  );
+  const krwExchange = exchangeRatesFromPayload({
+    result: "success",
+    time_last_update_utc: "Wed, 22 Jul 2026 00:02:31 +0000",
+    time_last_update_unix: 1784678551,
+    rates: { TWD: 32, USD: 1, GBP: 0.8, EUR: 0.9, JPY: 160, CNY: 7.2, KRW: 1280 },
+  });
+  assert(krwExchange.KRW_TWD === 0.025, "exchange-rate parser should derive KRW/TWD from the USD base");
+  const krwProduct = {
+    id: "garmentcare-samsung-fixture",
+    price: { currency: "KRW", amount: 2_399_000, converted: 0 },
+    historicalLow: { status: "found", currency: "KRW", amount: 2_000_000, converted: 0 },
+  };
+  const krwRaw = { foreignPriceChanges: [] };
+  applyExchangeRates([krwProduct], krwExchange, krwRaw);
+  assert(krwProduct.price.converted === 59_975, "KRW catalog prices should convert to rounded TWD");
+  assert(krwProduct.historicalLow.converted === 50_000, "KRW historical lows should convert to rounded TWD");
+  assert(
+    maintenanceCacheVersion('cacheVersion: "20260723-garmentcare"', "2026-07-23") === "20260723-garmentcare",
+    "catalog maintenance should preserve a same-day feature cache version",
+  );
+  assert(
+    maintenanceCacheVersion('cacheVersion: "20260722-previous"', "2026-07-23") === "20260723-maintenance-refactor",
+    "catalog maintenance should advance a stale cache version to the maintenance date",
   );
 
   assert(normalizeIdentity(null) === "", "catalog identity normalization should tolerate null input");

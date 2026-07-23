@@ -70,14 +70,26 @@ function loadCatalogFromDisk() {
   return { categories, products, productById: new Map(products.map((product) => [product.id, product])) };
 }
 
-function loadCatalogFromGit(reference, fileNames) {
+function loadCatalogFromGit(reference, fileNames, options = {}) {
+  const root = options.root || ROOT;
+  const execGit = options.execGit || ((args) => execFileSync("git", args, {
+    cwd: root,
+    encoding: "utf8",
+    maxBuffer: 10 * 1024 * 1024,
+  }));
+  const baselinePaths = new Set(execGit([
+    "ls-tree",
+    "-r",
+    "--name-only",
+    reference,
+    "--",
+    "products",
+  ]).split(/\r?\n/).filter(Boolean));
   const products = [];
   for (const fileName of fileNames) {
-    const source = execFileSync("git", ["show", `${reference}:products/${fileName}`], {
-      cwd: ROOT,
-      encoding: "utf8",
-      maxBuffer: 10 * 1024 * 1024,
-    });
+    const productPath = `products/${fileName}`;
+    if (!baselinePaths.has(productPath)) continue;
+    const source = execGit(["show", `${reference}:${productPath}`]);
     products.push(...readProductSource(source, `${reference}:products/${fileName}`).items);
   }
   return new Map(products.map((product) => [product.id, product]));
@@ -453,12 +465,14 @@ async function auditHistoricalSource(product, raw) {
   });
 }
 
-async function fetchExchangeRates() {
-  const response = await fetchWithTimeout("https://open.er-api.com/v6/latest/USD", { headers: { accept: "application/json" } });
-  if (!response.ok) throw new Error(`Exchange rate request failed: ${response.status}`);
-  const payload = await response.json();
-  if (payload.result !== "success" || !payload.rates?.TWD) throw new Error("Exchange rate payload is incomplete");
+function exchangeRatesFromPayload(payload) {
+  if (payload.result !== "success") throw new Error("Exchange rate payload is incomplete");
   const rates = payload.rates;
+  for (const currency of ["TWD", "GBP", "EUR", "JPY", "CNY", "KRW"]) {
+    if (!Number.isFinite(Number(rates?.[currency])) || Number(rates[currency]) <= 0) {
+      throw new Error(`Exchange rate payload is missing a positive ${currency} rate`);
+    }
+  }
   return {
     source: "ExchangeRate-API",
     date: normalizeExchangeDate(payload.time_last_update_utc),
@@ -468,7 +482,14 @@ async function fetchExchangeRates() {
     EUR_TWD: Number(rates.TWD) / Number(rates.EUR),
     JPY_TWD: Number(rates.TWD) / Number(rates.JPY),
     CNY_TWD: Number(rates.TWD) / Number(rates.CNY),
+    KRW_TWD: Number(rates.TWD) / Number(rates.KRW),
   };
+}
+
+async function fetchExchangeRates() {
+  const response = await fetchWithTimeout("https://open.er-api.com/v6/latest/USD", { headers: { accept: "application/json" } });
+  if (!response.ok) throw new Error(`Exchange rate request failed: ${response.status}`);
+  return exchangeRatesFromPayload(await response.json());
 }
 
 function applyExchangeRates(products, exchange, raw) {
@@ -478,6 +499,7 @@ function applyExchangeRates(products, exchange, raw) {
     EUR: exchange.EUR_TWD,
     JPY: exchange.JPY_TWD,
     CNY: exchange.CNY_TWD,
+    KRW: exchange.KRW_TWD,
   };
   for (const product of products) {
     const currency = product.price?.currency;
@@ -498,10 +520,19 @@ function applyExchangeRates(products, exchange, raw) {
   }
 }
 
+function maintenanceCacheVersion(source, maintenanceDate = MAINTENANCE_DATE) {
+  const datePrefix = `${maintenanceDate.replaceAll("-", "")}-`;
+  const currentVersion = source.match(/cacheVersion: "([^"]+)"/)?.[1];
+  return currentVersion?.startsWith(datePrefix)
+    ? currentVersion
+    : `${datePrefix}maintenance-refactor`;
+}
+
 function updateConfig(exchange, productCount, categoryCount) {
   const filePath = path.join(ROOT, "assets/js/config.js");
-  const cacheVersion = `${MAINTENANCE_DATE.replaceAll("-", "")}-maintenance-refactor`;
-  const source = fs.readFileSync(filePath, "utf8")
+  const originalSource = fs.readFileSync(filePath, "utf8");
+  const cacheVersion = maintenanceCacheVersion(originalSource);
+  const source = originalSource
     .replace(/dataDate: "\d{4}-\d{2}-\d{2}"/, `dataDate: "${MAINTENANCE_DATE}"`)
     .replace(/costcoDate: "\d{4}-\d{2}-\d{2}"/, `costcoDate: "${MAINTENANCE_DATE}"`)
     .replace(/expectedCategoryCount: \d+/, `expectedCategoryCount: ${categoryCount}`)
@@ -513,7 +544,8 @@ function updateConfig(exchange, productCount, categoryCount) {
     .replace(/GBP_TWD: [^,]+,/, `GBP_TWD: ${exchange.GBP_TWD},`)
     .replace(/EUR_TWD: [^,]+,/, `EUR_TWD: ${exchange.EUR_TWD},`)
     .replace(/JPY_TWD: [^,]+,/, `JPY_TWD: ${exchange.JPY_TWD},`)
-    .replace(/CNY_TWD: [^,]+,/, `CNY_TWD: ${exchange.CNY_TWD},`);
+    .replace(/CNY_TWD: [^,]+,/, `CNY_TWD: ${exchange.CNY_TWD},`)
+    .replace(/KRW_TWD: [^,]+,/, `KRW_TWD: ${exchange.KRW_TWD},`);
   fs.writeFileSync(filePath, source);
 }
 
@@ -525,8 +557,7 @@ function updateDashboardContractSource(source, productCount, categoryCount) {
 
 function updateDimensionCategoryCounts(source, categoryCounts) {
   let next = source;
-  for (const categoryId of ["washer", "dryer", "washerdryer", "refrigerator"]) {
-    const count = categoryCounts.get(categoryId);
+  for (const [categoryId, count] of categoryCounts) {
     if (Number.isInteger(count)) {
       next = next.replace(new RegExp(`(\\["${categoryId}",\\s*)\\d+(\\])`), `$1${count}$2`);
     }
@@ -583,6 +614,7 @@ function syncHistoricalResearch(products, exchange, compact) {
       EUR_TWD: exchange.EUR_TWD,
       JPY_TWD: exchange.JPY_TWD,
       CNY_TWD: exchange.CNY_TWD,
+      KRW_TWD: exchange.KRW_TWD,
     },
     lastMaintenanceCheckAt: compact.checkedAt,
     currentPriceChanged: compact.summary.priceChanges,
@@ -885,7 +917,11 @@ if (require.main === module) {
 }
 
 module.exports = {
+  applyExchangeRates,
   buildCompactReport,
+  exchangeRatesFromPayload,
+  loadCatalogFromGit,
+  maintenanceCacheVersion,
   maintenanceReviewReady,
   mergeDiscontinuationReviews,
   pchomeProductId,

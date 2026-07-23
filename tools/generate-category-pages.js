@@ -564,6 +564,17 @@ function replaceGeneratedBlock(source, startMarker, endMarker, body) {
   });
 }
 
+function updateHomepageCatalogCopy(source, categoryCount, productCount) {
+  return source
+    .replace(
+      /由 AI 協作整理 \d+ 類、\d+ 款可信新品，快速比較價格、規格、入手時機與同型號負評。/,
+      `由 AI 協作整理 ${categoryCount} 類、${productCount} 款可信新品，快速比較價格、規格、入手時機與同型號負評。`,
+    )
+    .replace(/正在載入 \d+ 類商品資料。/, `正在載入 ${categoryCount} 類商品資料。`)
+    .replace(/(<p class="eyebrow">)\d+ 類快速答案(<\/p>)/, `$1${categoryCount} 類快速答案$2`)
+    .replace(/(<p class="eyebrow">)\d+ 類可獨立閱讀指南(<\/p>)/, `$1${categoryCount} 類可獨立閱讀指南$2`);
+}
+
 function prepareOutputs() {
   const { categories, products, meta } = readDashboardProducts(root);
   validateGuides(categories);
@@ -583,6 +594,7 @@ function prepareOutputs() {
 
   const indexPath = path.join(root, "index.html");
   let index = fs.readFileSync(indexPath, "utf8");
+  index = updateHomepageCatalogCopy(index, categories.length, products.length);
   const structuredDataScript = `<script type="application/ld+json">\n${jsonLdStringify(homepageStructuredData(categories, products, meta))}\n</script>`;
   index = replaceGeneratedBlock(index, "<!-- geo-home-metadata:start -->", "<!-- geo-home-metadata:end -->", renderHomepageMetadata(categories.length, products.length));
   index = replaceGeneratedBlock(index, "<!-- geo-structured-data:start -->", "<!-- geo-structured-data:end -->", structuredDataScript);
@@ -680,4 +692,5 @@ module.exports = {
   renderHomepageAiDisclosure,
   homepageStructuredData,
   renderLlms,
+  updateHomepageCatalogCopy,
 };

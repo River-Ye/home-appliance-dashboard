@@ -407,9 +407,9 @@
     "name": "16 公升變頻高效型除濕機磁石黑",
     "price": {
       "currency": "TWD",
-      "amount": 16427,
-      "converted": 16427,
-      "confidence": "Yahoo購物中心 2026-07-11 頁面查核價"
+      "amount": 16367,
+      "converted": 16367,
+      "confidence": "Yahoo購物中心 2026-07-23 exact-model 公開結構化價格"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ4YA900IKOCC/000001_1744795213.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/Panasonic-%E5%9C%8B%E9%9A%9B%E7%89%8C-16L-nanoe%E8%AE%8A%E9%A0%BB%E5%BE%AE%E9%9B%BB%E8%85%A6%E9%99%A4%E6%BF%95%E6%A9%9F-F-YV32NX-11427351.html",

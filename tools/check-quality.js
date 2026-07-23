@@ -130,7 +130,11 @@ function closeServer(server) {
 }
 
 function categoryScore(lhr, categoryId) {
-  return (lhr.categories[categoryId]?.score || 0) * 100;
+  const score = lhr.categories[categoryId]?.score;
+  if (!Number.isFinite(score)) {
+    throw new Error(`Lighthouse category ${categoryId} did not return a numeric score`);
+  }
+  return score * 100;
 }
 
 function formatScore(score) {
@@ -141,14 +145,22 @@ function formatMilliseconds(milliseconds) {
   return `${milliseconds.toFixed(1)}ms`;
 }
 
+function auditNumericValue(lhr, auditId) {
+  const value = lhr.audits[auditId]?.numericValue;
+  if (!Number.isFinite(value)) {
+    throw new Error(`Lighthouse audit ${auditId} did not return a numeric value`);
+  }
+  return value;
+}
+
 function formatMetrics(lhr) {
   return {
     performance: categoryScore(lhr, "performance"),
     accessibility: categoryScore(lhr, "accessibility"),
     seo: categoryScore(lhr, "seo"),
-    lcp: lhr.audits["largest-contentful-paint"].numericValue,
-    cls: lhr.audits["cumulative-layout-shift"].numericValue,
-    tbt: lhr.audits["total-blocking-time"].numericValue,
+    lcp: auditNumericValue(lhr, "largest-contentful-paint"),
+    cls: auditNumericValue(lhr, "cumulative-layout-shift"),
+    tbt: auditNumericValue(lhr, "total-blocking-time"),
   };
 }
 
@@ -202,15 +214,51 @@ async function runAudit(lighthouse, url, chromePort, options = {}) {
   });
 
   if (!result?.lhr) throw new Error(`Lighthouse did not return a report for ${url}`);
+  if (result.lhr.runtimeError) {
+    const { code = "UNKNOWN", message = "unknown Lighthouse runtime error" } = result.lhr.runtimeError;
+    throw new Error(`Lighthouse runtime error ${code} for ${url}: ${message}`);
+  }
   return result.lhr;
 }
 
-async function main() {
-  const chromePath = chromium.executablePath();
-  if (!fs.existsSync(chromePath)) {
-    throw new Error(`Playwright Chromium is missing at ${chromePath}; run \"npx playwright install chromium\".`);
-  }
+async function launchChrome(chromeLauncher, chromeFlags) {
+  const launchOptions = {
+    chromeFlags,
+    logLevel: "silent",
+  };
 
+  try {
+    return await chromeLauncher.launch(launchOptions);
+  } catch (defaultLaunchError) {
+    const fallbackCodes = new Set([
+      "ERR_LAUNCHER_NOT_INSTALLED",
+      "ERR_LAUNCHER_PATH_NOT_SET",
+    ]);
+    if (!fallbackCodes.has(defaultLaunchError.code)) throw defaultLaunchError;
+
+    const playwrightChromePath = chromium.executablePath();
+    if (!fs.existsSync(playwrightChromePath)) {
+      throw new Error(
+        `Chrome launch failed (${defaultLaunchError.message}); Playwright Chromium is missing at `
+        + `${playwrightChromePath}. Run "npx playwright install chromium".`,
+      );
+    }
+
+    try {
+      return await chromeLauncher.launch({
+        ...launchOptions,
+        chromePath: playwrightChromePath,
+      });
+    } catch (playwrightLaunchError) {
+      throw new Error(
+        `Chrome launch failed (${defaultLaunchError.message}); Playwright Chromium fallback failed `
+        + `(${playwrightLaunchError.message}).`,
+      );
+    }
+  }
+}
+
+async function main() {
   const [{ default: lighthouse }, chromeLauncher] = await Promise.all([
     import("lighthouse"),
     import("chrome-launcher"),
@@ -220,25 +268,25 @@ async function main() {
 
   try {
     const serverPort = await listen(server);
-    chrome = await chromeLauncher.launch({
-      chromePath,
-      chromeFlags: [
-        "--headless=new",
-        "--no-sandbox",
-        "--disable-dev-shm-usage",
-        "--disable-background-networking",
-        "--disable-component-update",
-        "--disable-default-apps",
-        "--disable-domain-reliability",
-        "--disable-extensions",
-        "--disable-features=MediaRouter,OptimizationHints,Translate",
-        "--disable-sync",
-        "--metrics-recording-only",
-        "--no-first-run",
-        "--safebrowsing-disable-auto-update",
-      ],
-      logLevel: "silent",
-    });
+    chrome = await launchChrome(chromeLauncher, [
+      "--headless=new",
+      "--no-sandbox",
+      "--disable-background-timer-throttling",
+      "--disable-backgrounding-occluded-windows",
+      "--disable-dev-shm-usage",
+      "--disable-gpu",
+      "--disable-background-networking",
+      "--disable-component-update",
+      "--disable-default-apps",
+      "--disable-domain-reliability",
+      "--disable-extensions",
+      "--disable-features=MediaRouter,OptimizationHints,Translate",
+      "--disable-renderer-backgrounding",
+      "--disable-sync",
+      "--metrics-recording-only",
+      "--no-first-run",
+      "--safebrowsing-disable-auto-update",
+    ]);
 
     const baseUrl = `http://${HOST}:${serverPort}`;
     const pages = [
@@ -264,7 +312,7 @@ async function main() {
           chrome.port,
           { onlyCategories: ["performance"], throttlingMethod: "simulate" },
         );
-        metrics.tbt = simulatedLhr.audits["total-blocking-time"].numericValue;
+        metrics.tbt = auditNumericValue(simulatedLhr, "total-blocking-time");
         if (process.env.QUALITY_REPORT_DIR) {
           fs.writeFileSync(
             path.join(process.env.QUALITY_REPORT_DIR, "homepage-tbt-simulated.json"),

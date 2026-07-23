@@ -239,6 +239,69 @@ async function assertCommonIssueJourney(page, name) {
   await waitForProductCards(page, 12);
 }
 
+async function assertGarmentCareJourney(page, name) {
+  await selectComboboxOption(
+    page,
+    "#categoryInput",
+    '#categoryOptions [data-value="garmentcare"]',
+    "電子衣櫥",
+  );
+  await waitForVisibleCount(page, 20);
+  await page.locator("#brandInput").click();
+  const brands = await page.$$eval(
+    "#brandOptions [data-value]",
+    (options) => options.map((option) => option.dataset.value).filter((value) => value !== "all").sort(),
+  );
+  const expectedBrands = ["LG", "Panasonic", "Samsung"].sort();
+  if (JSON.stringify(brands) !== JSON.stringify(expectedBrands)) {
+    throw new Error(`${name}: garmentcare brand options mismatch ${JSON.stringify(brands)}`);
+  }
+
+  await selectComboboxOption(page, "#channelInput", '#channelOptions [data-value="tw"]', "台灣");
+  await waitForVisibleCount(page, 7);
+  await waitForProductCards(page, 7);
+  await selectComboboxOption(page, "#channelInput", '#channelOptions [data-value="global"]', "海外");
+  await waitForVisibleCount(page, 13);
+  await loadAllVisibleProducts(page);
+  const overseasCards = await page.$$eval(".product-card", (cards) => cards.map((card) => card.textContent || ""));
+  if (overseasCards.length !== 13) throw new Error(`${name}: garmentcare overseas count should be 13`);
+  for (const [index, text] of overseasCards.entries()) {
+    for (const warning of ["國際運費", "進口稅", "台灣保固"]) {
+      if (!text.includes(warning)) throw new Error(`${name}: garmentcare overseas card ${index + 1} missing ${warning}`);
+    }
+    if (!/插頭|電壓/.test(text)) throw new Error(`${name}: garmentcare overseas card ${index + 1} missing plug/voltage warning`);
+  }
+
+  await resetFilters(page);
+  await selectComboboxOption(
+    page,
+    "#categoryInput",
+    '#categoryOptions [data-value="garmentcare"]',
+    "電子衣櫥",
+  );
+  await waitForVisibleCount(page, 20);
+  await waitForProductCards(page, 12);
+  if (!await page.locator('.product-card[data-product-id="garmentcare-lg-e523mw"]', { hasText: "入門推薦" }).count()) {
+    throw new Error(`${name}: garmentcare E523MW entry recommendation is missing`);
+  }
+  if (!await page.locator('.product-card[data-product-id="garmentcare-lg-r723mb"]', { hasText: "高階／手持蒸氣掛燙整合推薦" }).count()) {
+    throw new Error(`${name}: garmentcare R723MB advanced recommendation is missing`);
+  }
+
+  const topPick = page.locator('#topPicks [data-focus-product="garmentcare-lg-r723wg"]');
+  if (await topPick.count() !== 1) throw new Error(`${name}: garmentcare R723WG Top Pick is missing`);
+  await topPick.click();
+  const targetedCard = page.locator('.product-card.is-targeted[data-product-id="garmentcare-lg-r723wg"]');
+  await targetedCard.waitFor({ state: "visible" });
+  await targetedCard.locator(".compare-button").click();
+  await page.waitForFunction(() => document.querySelector("#compareCount")?.textContent?.trim() === "1");
+  await assertIssueResearchCompareRow(page, `${name} garmentcare`);
+  await assertHistoricalLowCompareLayout(page, `${name} garmentcare`);
+  await page.locator("[data-compare-remove]").first().click();
+  await page.waitForFunction(() => document.querySelector("#compareCount")?.textContent?.trim() === "0");
+  await resetFilters(page);
+}
+
 async function runExhaustiveViewport(browser, name, viewport) {
   const page = await browser.newPage({ viewport });
   attachRuntimeIssueCollector(page);
@@ -759,6 +822,26 @@ async function runSmokeViewport(browser, name, viewport) {
   }
 }
 
+async function runGarmentCareJourney(browser, name, viewport) {
+  const page = await openDashboardPage(browser, name, viewport);
+  try {
+    if (viewport.width < 700) {
+      const filterToggle = page.getByRole("button", { name: /^篩選/ });
+      await filterToggle.click();
+      await page.waitForFunction(() => (
+        document.querySelector("#advancedFilters")
+        && !document.querySelector("#advancedFilters").hidden
+      ));
+    }
+
+    await assertGarmentCareJourney(page, name);
+    await assertNoHorizontalOverflow(page, name);
+    assertNoRuntimeIssues(page, name);
+  } finally {
+    await page.close();
+  }
+}
+
 async function runDesktopJourney(browser) {
   const name = "dashboard-desktop";
   const page = await openDashboardPage(browser, name, { width: 1440, height: 1100 });
@@ -1025,6 +1108,7 @@ module.exports = {
   runInitializationFailureJourney,
   runExhaustiveViewport,
   runSmokeViewport,
+  runGarmentCareJourney,
   runDesktopJourney,
   runMobileJourney,
 };

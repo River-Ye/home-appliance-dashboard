@@ -5,6 +5,7 @@ const {
   runInitializationFailureJourney,
   runExhaustiveViewport,
   runSmokeViewport,
+  runGarmentCareJourney,
   runDesktopJourney,
   runMobileJourney,
 } = require("./dashboard-ui-journeys");
@@ -30,6 +31,16 @@ function loadPlaywright() {
     await runProductLoadSchedulingJourney(browser);
     await runInitializationFailureJourney(browser);
     await runCategoryPageJourneys(browser);
+    await runGarmentCareJourney(
+      browser,
+      "dashboard-garmentcare-desktop",
+      { width: 1440, height: 1100 },
+    );
+    await runGarmentCareJourney(
+      browser,
+      "dashboard-garmentcare-mobile",
+      { width: 390, height: 844 },
+    );
     if (fullMode) {
       await runExhaustiveViewport(browser, "dashboard-wide-desktop", { width: 2048, height: 1152 });
       await runExhaustiveViewport(browser, "dashboard-desktop", { width: 1440, height: 1100 });

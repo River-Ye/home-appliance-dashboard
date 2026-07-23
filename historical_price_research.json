@@ -1,37 +1,38 @@
 {
   "summary": {
     "checkedAt": "2026-07-23T00:00:00.000+08:00",
-    "sourcePolicy": "2026-07-23 以 668 筆基準清單全量查核現價、購買連結與可信新品狀態，並複核最終 668 筆商品圖片、全部 438 筆 found 史低來源、原廠停產訊號與同批次匯率。PChome exact-model 現貨頁有正值 Price.Low 時採公開折扣價，否則採 Price.P；Qty 0、福利品、展示機與配件不寫回。其他頁面的結構化價格差異列入人工覆核候選，阻擋、暫時錯誤與單次頁面失效只列稽核，不臆測停產或史低失效。",
-    "total": 668,
-    "researchedThisRun": 668,
+    "sourcePolicy": "2026-07-23 以 668 筆基準清單全量查核現價、購買連結與可信新品狀態，並複核最終 688 筆商品圖片、全部 438 筆 found 史低來源、原廠停產訊號與同批次匯率。PChome exact-model 現貨頁有正值 Price.Low 時採公開折扣價，否則採 Price.P；Qty 0、福利品、展示機與配件不寫回。其他頁面的結構化價格差異列入人工覆核候選，阻擋、暫時錯誤與單次頁面失效只列稽核，不臆測停產或史低失效。",
+    "total": 688,
+    "researchedThisRun": 688,
     "found": 438,
-    "missing": 230,
+    "missing": 250,
     "byConfidence": {
-      "not_found": 230,
+      "not_found": 250,
       "high": 305,
       "medium": 133
     },
     "exchange": {
-      "USD_TWD": 32.34328,
-      "currentUSD_TWD": 32.34328,
-      "GBP_TWD": 43.29391229387615,
-      "EUR_TWD": 36.892451274166156,
-      "JPY_TWD": 0.1984091981077314,
-      "CNY_TWD": 4.772728144700817
+      "USD_TWD": 32.409765,
+      "currentUSD_TWD": 32.409765,
+      "GBP_TWD": 43.34478815599422,
+      "EUR_TWD": 36.98208164643915,
+      "JPY_TWD": 0.19872728385353947,
+      "CNY_TWD": 4.779127785897062,
+      "KRW_TWD": 0.021920810152159333
     },
-    "lastMaintenanceCheckAt": "2026-07-22T23:50:41.529Z",
-    "currentPriceChanged": 55,
+    "lastMaintenanceCheckAt": "2026-07-23T13:40:55.673Z",
+    "currentPriceChanged": 24,
     "currentBuyLinkChanged": 0,
-    "currentPriceDrops": 33,
-    "currentPriceRises": 22,
+    "currentPriceDrops": 17,
+    "currentPriceRises": 7,
     "currentPriceFallbacks": 0,
-    "historicalLowUpdated": 5,
+    "historicalLowUpdated": 0,
     "historicalLowInvalidated": 0,
     "catalogEntriesReplaced": 0,
     "catalogReplacementNotes": [],
     "currentImageChanged": 0,
     "discontinuedRemoved": 0,
-    "newProductsAdded": 0,
+    "newProductsAdded": 20,
     "discontinuedRemovalNotes": [],
     "catalogEntriesRemoved": 0,
     "catalogRemovalNotes": []
@@ -135,7 +136,7 @@
       "brand": "Sony",
       "model": "Y-65XR70",
       "name": "BRAVIA 7 65 型 Mini LED 4K Google TV",
-      "currentPrice": 56900,
+      "currentPrice": 53910,
       "currentCurrency": "TWD",
       "currentBuyUrl": "https://24h.pchome.com.tw/prod/DPADFN-A900K7VQ8",
       "currentBuyLabel": "PChome",
@@ -1313,7 +1314,7 @@
       "brand": "Sony",
       "model": "HT-A7100",
       "name": "BRAVIA Theatre Bar 7 5.0.2 聲道 Soundbar",
-      "currentPrice": 20610,
+      "currentPrice": 21755,
       "currentCurrency": "TWD",
       "currentBuyUrl": "https://24h.pchome.com.tw/prod/DMAAN8-A900K0Y8L",
       "currentBuyLabel": "PChome",
@@ -2153,7 +2154,7 @@
       "brand": "Marshall",
       "model": "Heston 120",
       "name": "5.1.2 聲道 Dolby Atmos Soundbar",
-      "currentPrice": 42046,
+      "currentPrice": 42132,
       "currentCurrency": "USD",
       "currentBuyUrl": "https://www.marshall.com/us/en/product/heston-120",
       "currentBuyLabel": "Marshall US",
@@ -2195,7 +2196,7 @@
       "brand": "Marshall",
       "model": "Heston 60",
       "name": "5.1 聲道 Dolby Atmos 緊湊型 Soundbar",
-      "currentPrice": 22640,
+      "currentPrice": 22687,
       "currentCurrency": "USD",
       "currentBuyUrl": "https://www.marshall.com/us/en/product/heston-60?pid=1008949",
       "currentBuyLabel": "Marshall US 官方",
@@ -3647,7 +3648,7 @@
       "brand": "Vornado",
       "model": "62-TW",
       "name": "62-TW 黑色渦流空氣循環扇",
-      "currentPrice": 3492,
+      "currentPrice": 3880,
       "currentCurrency": "TWD",
       "currentBuyUrl": "https://24h.pchome.com.tw/prod/DMAB3X-A900IIGO1",
       "currentBuyLabel": "PChome",
@@ -4770,7 +4771,7 @@
       "brand": "Panasonic",
       "model": "F-YV32NXK",
       "name": "16 公升變頻高效型除濕機磁石黑",
-      "currentPrice": 16427,
+      "currentPrice": 16367,
       "currentCurrency": "TWD",
       "currentBuyUrl": "https://tw.buy.yahoo.com/gdsale/Panasonic-%E5%9C%8B%E9%9A%9B%E7%89%8C-16L-nanoe%E8%AE%8A%E9%A0%BB%E5%BE%AE%E9%9B%BB%E8%85%A6%E9%99%A4%E6%BF%95%E6%A9%9F-F-YV32NX-11427351.html",
       "currentBuyLabel": "Yahoo購物中心",
@@ -7388,7 +7389,7 @@
       "brand": "Narwal",
       "model": "Flow 2",
       "name": "滾筒洗地旗艦掃拖機器人",
-      "currentPrice": 36856,
+      "currentPrice": 36945,
       "currentCurrency": "EUR",
       "currentBuyUrl": "https://www.boulanger.com/ref/1238998",
       "currentBuyLabel": "Boulanger",
@@ -7435,7 +7436,7 @@
       "brand": "Narwal",
       "model": "Freo Z10 Ultra",
       "name": "18,000Pa AI 視覺全能掃拖機器人",
-      "currentPrice": 17843,
+      "currentPrice": 17880,
       "currentCurrency": "USD",
       "currentBuyUrl": "https://www.geekbuying.com/item/Narwal-Freo-Z10-Ultra-Robot-Vacuum-with-Base-Station-Gray-528438.html",
       "currentBuyLabel": "Geekbuying",
@@ -7893,7 +7894,7 @@
       "brand": "LG",
       "model": "R5-ULTIMATE1",
       "name": "R5T 變頻濕拖掃地機器人",
-      "currentPrice": 13490,
+      "currentPrice": 13290,
       "currentCurrency": "TWD",
       "currentBuyUrl": "https://24h.pchome.com.tw/prod/DMBM2Z-A900IUC17",
       "currentBuyLabel": "PChome",
@@ -7989,7 +7990,7 @@
       "brand": "Shark",
       "model": "PowerDetect NeverTouch Pro RV2820ZE",
       "name": "自動補水洗烘拖布掃拖機器人",
-      "currentPrice": 32343,
+      "currentPrice": 32409,
       "currentCurrency": "USD",
       "currentBuyUrl": "https://www.sharkninja.com/shark-powerdetect-2-in-1-robot-vacuum-and-mop-with-nevertouch-pro-base/RV2820ZE.html",
       "currentBuyLabel": "SharkNinja US",
@@ -8064,7 +8065,7 @@
       "brand": "Roborock",
       "model": "QX Revo",
       "name": "Robot Vacuum and Mop with Multifunctional Dock",
-      "currentPrice": 12937,
+      "currentPrice": 12964,
       "currentCurrency": "USD",
       "currentBuyUrl": "https://www.costco.com/roborock-qx-revo-robot-vacuum-and-mop-with-multifunctional-dock.product.4000233271.html",
       "currentBuyLabel": "Costco US",
@@ -9303,7 +9304,7 @@
       "brand": "Dreame",
       "model": "HHR32F",
       "name": "Aero Ultra Steam 蒸氣濕乾洗地機",
-      "currentPrice": 21993,
+      "currentPrice": 22038,
       "currentCurrency": "USD",
       "currentBuyUrl": "https://vacuummop.dreametech.com/products/aero-ultra-steam-wet-dry-vacuum",
       "currentBuyLabel": "Dreame Vacuum Mop US",
@@ -9311,7 +9312,7 @@
         "status": "found",
         "amount": 679.99,
         "currency": "USD",
-        "converted": 21993,
+        "converted": 22038,
         "sourceUrl": "https://vacuummop.dreametech.com/products/aero-ultra-steam-wet-dry-vacuum",
         "sourceTitle": "Dreame Aero Ultra Steam Wet Dry Vacuum – Dreame Vacuum Mop",
         "evidenceSnippet": "Dreame 原廠美國商品頁於 2026-07-16 公開顯示特價 US$679.99、原價 US$799.99，且可 Add to Cart / Buy It Now。",
@@ -9781,7 +9782,7 @@
       "brand": "Whirlpool",
       "model": "WM07PW",
       "name": "Whirlpool WM07PW",
-      "currentPrice": 5490,
+      "currentPrice": 5190,
       "currentCurrency": "TWD",
       "currentBuyUrl": "https://tw.buy.yahoo.com/gdsale/Whirlpool-%E6%83%A0%E8%80%8C%E6%B5%A6-7%E5%85%AC%E6%96%A4-%E7%9B%B4%E7%AB%8B%E6%B4%97%E8%A1%A3%E6%A9%9F-WM07PW-9291102.html",
       "currentBuyLabel": "Yahoo購物中心",
@@ -10625,7 +10626,7 @@
       "brand": "SANLUX",
       "model": "SD-66U8A",
       "name": "SANLUX SD-66U8A",
-      "currentPrice": 7120,
+      "currentPrice": 6621,
       "currentCurrency": "TWD",
       "currentBuyUrl": "https://24h.pchome.com.tw/prod/DPAI1J-A900BZ07A",
       "currentBuyLabel": "PChome",
@@ -15142,7 +15143,7 @@
       "brand": "WMF",
       "model": "輕巧萬用小刀",
       "name": "料理刀水果刀含刀套",
-      "currentPrice": 697,
+      "currentPrice": 662,
       "currentCurrency": "TWD",
       "currentBuyUrl": "https://24h.pchome.com.tw/prod/DEAWRU-A900HDKXQ",
       "currentBuyLabel": "PChome",
@@ -15270,7 +15271,7 @@
       "brand": "Vitamix",
       "model": "A3500i",
       "name": "Ascent 領航者全食物調理機",
-      "currentPrice": 39800,
+      "currentPrice": 35820,
       "currentCurrency": "TWD",
       "currentBuyUrl": "https://24h.pchome.com.tw/prod/DMAYE8-A900BKOKK",
       "currentBuyLabel": "PChome",
@@ -15312,7 +15313,7 @@
       "brand": "Vitamix",
       "model": "A2500i",
       "name": "Ascent 領航者全食物調理機",
-      "currentPrice": 29600,
+      "currentPrice": 26640,
       "currentCurrency": "TWD",
       "currentBuyUrl": "https://24h.pchome.com.tw/prod/QBAO0F-A900AS2G7",
       "currentBuyLabel": "PChome",
@@ -15438,7 +15439,7 @@
       "brand": "Ninja",
       "model": "BN701",
       "name": "Professional Plus Blender",
-      "currentPrice": 3881,
+      "currentPrice": 3889,
       "currentCurrency": "USD",
       "currentBuyUrl": "https://www.sharkninja.com/ninja-professional-plus-blender-with-auto-iq/BN701.html",
       "currentBuyLabel": "SharkNinja 官方",
@@ -16424,7 +16425,7 @@
       "brand": "SHARP",
       "model": "AX-XP10T",
       "name": "30L Healsio 炙燒水波爐",
-      "currentPrice": 28800,
+      "currentPrice": 27072,
       "currentCurrency": "TWD",
       "currentBuyUrl": "https://tw.buy.yahoo.com/gdsale/SHARP%E5%A4%8F%E6%99%AE-HEALSIO-%E6%97%97%E8%89%A6%E6%B0%B4%E6%B3%A2%E7%88%90-AX-XP10T-12039766.html",
       "currentBuyLabel": "Yahoo購物中心",
@@ -16481,7 +16482,7 @@
       "brand": "Breville",
       "model": "Joule Oven Air Fryer Pro",
       "name": "智慧氣炸烤箱",
-      "currentPrice": 16170,
+      "currentPrice": 16203,
       "currentCurrency": "USD",
       "currentBuyUrl": "https://www.breville.com/en-us/product/bov950",
       "currentBuyLabel": "Breville 官方",
@@ -16615,7 +16616,7 @@
       "brand": "Panasonic",
       "model": "NN-BS1700",
       "name": "30L 蒸氣烘烤微波爐",
-      "currentPrice": 26900,
+      "currentPrice": 32900,
       "currentCurrency": "TWD",
       "currentBuyUrl": "https://tw.buy.yahoo.com/gdsale/Panasonic-%E5%9C%8B%E9%9A%9B%E7%89%8C-30L%E5%B9%B3%E5%8F%B0%E5%BC%8F%E8%AE%8A%E9%A0%BB%E8%92%B8%E7%83%98%E7%83%A4%E5%BE%AE%E9%9B%BB%E8%85%A6%E5%BE%AE%E6%B3%A2%E7%88%90-NN-BS1700-9469543.html",
       "currentBuyLabel": "Yahoo購物中心",
@@ -16728,7 +16729,7 @@
       "brand": "Cuisinart",
       "model": "CSO-500TW",
       "name": "20L 多功能蒸氣氣炸烤箱",
-      "currentPrice": 10800,
+      "currentPrice": 10368,
       "currentCurrency": "TWD",
       "currentBuyUrl": "https://24h.pchome.com.tw/prod/DMBM0G-A900HF91A",
       "currentBuyLabel": "PChome",
@@ -16836,7 +16837,7 @@
       "brand": "SHARP",
       "model": "AX-XW10T",
       "name": "AIoT 智慧連網 30L 水波爐蒸氣烘烤微波爐",
-      "currentPrice": 38800,
+      "currentPrice": 36472,
       "currentCurrency": "TWD",
       "currentBuyUrl": "https://tw.buy.yahoo.com/gdsale/SHARP-%E5%A4%8F%E6%99%AE-30L-Healsio-AIoT%E6%99%BA%E6%85%A7%E9%80%A3%E7%B6%B2%E6%B0%B4%E6%B3%A2%E7%88%90-AX-XW10T-11978312.html",
       "currentBuyLabel": "Yahoo購物中心",
@@ -16949,7 +16950,7 @@
       "brand": "SHARP",
       "model": "AX-XS10T",
       "name": "31L 極智烘烤系列水波爐",
-      "currentPrice": 24900,
+      "currentPrice": 23406,
       "currentCurrency": "TWD",
       "currentBuyUrl": "https://tw.buy.yahoo.com/gdsale/SHARP-%E5%A4%8F%E6%99%AE-31L-%E6%A5%B5%E6%99%BA%E7%83%98%E7%83%A4%E7%B3%BB%E5%88%97%E6%B0%B4%E6%B3%A2%E7%88%90-AX-XS10T-B-AX-XS10T-W-12030496.html",
       "currentBuyLabel": "Yahoo購物中心",
@@ -17286,7 +17287,7 @@
       "brand": "Svago",
       "model": "VE8966",
       "name": "蒸烘烤變頻微波爐",
-      "currentPrice": 43920,
+      "currentPrice": 42163,
       "currentCurrency": "TWD",
       "currentBuyUrl": "https://24h.pchome.com.tw/prod/DMBM0G-A900H5125",
       "currentBuyLabel": "PChome",
@@ -17489,7 +17490,7 @@
       "brand": "Ninja",
       "model": "MW101",
       "name": "Crispi 5.5qt 氣炸微波爐",
-      "currentPrice": 14554,
+      "currentPrice": 14584,
       "currentCurrency": "USD",
       "currentBuyUrl": "https://www.sharkninja.com/ninja-crispi-microwave/MW101.html",
       "currentBuyLabel": "SharkNinja 美國官方",
@@ -18006,7 +18007,7 @@
       "brand": "賀眾牌",
       "model": "UW-2262HW-1",
       "name": "賀眾牌 UW-2262HW-1",
-      "currentPrice": 18810,
+      "currentPrice": 20900,
       "currentCurrency": "TWD",
       "currentBuyUrl": "https://24h.pchome.com.tw/prod/DMAWEM-A900GDIXH",
       "currentBuyLabel": "PChome",
@@ -18429,7 +18430,7 @@
       "brand": "Brondell",
       "model": "Circle Reverse Osmosis",
       "name": "Circle Reverse Osmosis Water Filtration System",
-      "currentPrice": 11967,
+      "currentPrice": 11991,
       "currentCurrency": "USD",
       "currentBuyUrl": "https://www.costco.com/brondell-circle-reverse-osmosis-water-filtration-system.product.100457228.html",
       "currentBuyLabel": "Costco US",
@@ -19849,7 +19850,7 @@
       "brand": "Panasonic",
       "model": "DL-F610RTWS",
       "name": "儲熱式溫水洗淨便座含原廠基本安裝",
-      "currentPrice": 6190,
+      "currentPrice": 6990,
       "currentCurrency": "TWD",
       "currentBuyUrl": "https://24h.pchome.com.tw/prod/DMAL8L-A900GH6F4",
       "currentBuyLabel": "PChome",
@@ -20237,7 +20238,7 @@
       "brand": "Brondell",
       "model": "Swash CL1700",
       "name": "Bidet Toilet Seat",
-      "currentPrice": 12937,
+      "currentPrice": 12964,
       "currentCurrency": "USD",
       "currentBuyUrl": "https://www.costco.com/brondell-swash-cl1700-bidet-toilet-seat.product.100648788.html",
       "currentBuyLabel": "Costco US",
@@ -22465,7 +22466,7 @@
       "brand": "ASUS",
       "model": "RT-BE58U V2",
       "name": "BE3600 雙頻 Wi-Fi 7 AiMesh 可擴充路由器",
-      "currentPrice": 3699,
+      "currentPrice": 3552,
       "currentCurrency": "TWD",
       "currentBuyUrl": "https://tw.buy.yahoo.com/gdsale/ASUS-%E8%8F%AF%E7%A2%A9-RT-BE58U-V2-BE3600-%E9%9B%99%E9%A0%BB-Wi-Fi-7-%E5%8F%AF%E6%93%B4%E5%85%85%E5%BC%8F%E8%B7%AF%E7%94%B1%E5%99%A8-12005854.html",
       "currentBuyLabel": "Yahoo購物中心",
@@ -22689,7 +22690,7 @@
       "brand": "UniFi",
       "model": "U7 Pro",
       "name": "Wi-Fi 7 6GHz Ceiling AP",
-      "currentPrice": 6113,
+      "currentPrice": 6125,
       "currentCurrency": "USD",
       "currentBuyUrl": "https://store.ui.com/us/en/category/all-wifi/products/u7-pro",
       "currentBuyLabel": "Ubiquiti Store",
@@ -22727,7 +22728,7 @@
       "brand": "UniFi",
       "model": "U6 Pro",
       "name": "Wi-Fi 6 6-stream Ceiling AP",
-      "currentPrice": 5143,
+      "currentPrice": 5153,
       "currentCurrency": "USD",
       "currentBuyUrl": "https://store.ui.com/us/en/category/all-wifi/products/u6-pro",
       "currentBuyLabel": "Ubiquiti Store",
@@ -22765,7 +22766,7 @@
       "brand": "UniFi",
       "model": "U7 Lite",
       "name": "Compact Wi-Fi 7 AP",
-      "currentPrice": 3202,
+      "currentPrice": 3209,
       "currentCurrency": "USD",
       "currentBuyUrl": "https://store.ui.com/us/en/category/all-wifi/products/u7-lite",
       "currentBuyLabel": "Ubiquiti Store",
@@ -22965,7 +22966,7 @@
       "brand": "UniFi",
       "model": "U6+",
       "name": "Compact Wi-Fi 6 AP",
-      "currentPrice": 4172,
+      "currentPrice": 4181,
       "currentCurrency": "USD",
       "currentBuyUrl": "https://store.ui.com/us/en/category/all-wifi/products/u6-plus",
       "currentBuyLabel": "Ubiquiti Store",
@@ -23003,7 +23004,7 @@
       "brand": "UniFi",
       "model": "U7 Pro Max",
       "name": "Wi-Fi 7 8-stream Ceiling AP",
-      "currentPrice": 9024,
+      "currentPrice": 9042,
       "currentCurrency": "USD",
       "currentBuyUrl": "https://store.ui.com/us/en/category/all-wifi/products/u7-pro-max",
       "currentBuyLabel": "Ubiquiti Store",
@@ -23041,7 +23042,7 @@
       "brand": "ASUS",
       "model": "RT-BE82U",
       "name": "BE6500 雙頻 Wi-Fi 7 路由器",
-      "currentPrice": 4990,
+      "currentPrice": 4791,
       "currentCurrency": "TWD",
       "currentBuyUrl": "https://tw.buy.yahoo.com/gdsale/ASUS-%E8%8F%AF%E7%A2%A9-RT-BE82U-WiFi-7-%E9%9B%99%E9%A0%BB-BE6500-%E8%B7%AF%E7%94%B1%E5%99%A8-%E5%88%86%E4%BA%AB%E5%99%A8-11798654.html",
       "currentBuyLabel": "Yahoo購物中心",
@@ -23595,7 +23596,7 @@
       "brand": "Synology",
       "model": "RT6600ax",
       "name": "三頻 Wi-Fi 6 Router 無線路由器",
-      "currentPrice": 9999,
+      "currentPrice": 9600,
       "currentCurrency": "TWD",
       "currentBuyUrl": "https://tw.buy.yahoo.com/gdsale/%E6%98%8C%E9%81%8B%E7%9B%A3%E8%A6%96%E5%99%A8-Synology%E7%BE%A4%E6%9A%89-RT6600AX-%E4%B8%89%E9%A0%BB-Wi-Fi-6-Router-%E7%84%A1%E7%B7%9A%E8%B7%AF%E7%94%B1%E5%99%A8-11898475.html",
       "currentBuyLabel": "Yahoo購物中心",
@@ -26313,7 +26314,7 @@
       "brand": "ASUS",
       "model": "ROG Strix XG27ACS",
       "name": "27 型 2K 180Hz IPS USB-C 電競螢幕",
-      "currentPrice": 5068,
+      "currentPrice": 5218,
       "currentCurrency": "TWD",
       "currentBuyUrl": "https://24h.pchome.com.tw/prod/DSABKB-A900JZ3CV",
       "currentBuyLabel": "PChome",
@@ -27535,7 +27536,7 @@
       "brand": "MSI",
       "model": "MPG 271QRX",
       "name": "27 型 WQHD 360Hz QD-OLED 電競螢幕",
-      "currentPrice": 18900,
+      "currentPrice": 17955,
       "currentCurrency": "TWD",
       "currentBuyUrl": "https://tw.buy.yahoo.com/gdsale/MSI%E5%BE%AE%E6%98%9F-MPG-271QRX-QD-OLED-27%E5%9E%8B-2K-360Hz-HDR%E9%9B%BB%E7%AB%B6%E8%9E%A2%E5%B9%95-10958143.html",
       "currentBuyLabel": "Yahoo購物中心",
@@ -28172,7 +28173,7 @@
       "brand": "ASUS",
       "model": "ROG Strix XG34WCDMS",
       "name": "34 型 UWQHD 280Hz QD-OLED 曲面電競螢幕",
-      "currentPrice": 25888,
+      "currentPrice": 26888,
       "currentCurrency": "TWD",
       "currentBuyUrl": "https://24h.pchome.com.tw/prod/DSABKB-A900K0YA0",
       "currentBuyLabel": "PChome",
@@ -29757,6 +29758,626 @@
       "rejectedCandidates": [
         "燦坤 NT$92,900 頁面明示預購，未當作可購現價或史低寫回。",
         "錦達 NT$91,900 活動頁明示已額滿，無法確認當時可重現新品供貨，未採用。"
+      ]
+    },
+    {
+      "id": "garmentcare-lg-r723wg",
+      "category": "garmentcare",
+      "brand": "LG",
+      "model": "R723WG",
+      "name": "LG Styler 第二代蒸氣電子衣櫥 雲霧白",
+      "currentPrice": 44010,
+      "currentCurrency": "TWD",
+      "currentBuyUrl": "https://24h.pchome.com.tw/prod/DPAI1L-A900HWRUQ",
+      "currentBuyLabel": "PChome 24h",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "TWD",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-07-23",
+        "note": "已查核 R723WG 的官方產品頁、可信新品通路與公開比價入口；未找到可重現、符合 exact-model 且排除會員個人化折扣、信用卡回饋、點數、福利品、展示機、拆封品、二手及整新品的歷史最低價，因此不以本輪現價推定史低。"
+      },
+      "checkedSources": [
+        "https://24h.pchome.com.tw/prod/DPAI1L-A900HWRUQ",
+        "https://www.lg.com/tw/washer-dryers/styler/r723wg/"
+      ],
+      "rejectedCandidates": [
+        "R723WG：本輪公開現價不等於歷史最低價；未取得符合 exact-model、同地區規格與可信新品條件的可重現史低證據。"
+      ]
+    },
+    {
+      "id": "garmentcare-lg-e523mw",
+      "category": "garmentcare",
+      "brand": "LG",
+      "model": "E523MW",
+      "name": "LG Styler Z 蒸氣電子衣櫥 輕奢鏡面",
+      "currentPrice": 26900,
+      "currentCurrency": "TWD",
+      "currentBuyUrl": "https://24h.pchome.com.tw/prod/DPAI1L-A900J8NAE",
+      "currentBuyLabel": "PChome 24h",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "TWD",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-07-23",
+        "note": "已查核 E523MW 的官方產品頁、可信新品通路與公開比價入口；未找到可重現、符合 exact-model 且排除會員個人化折扣、信用卡回饋、點數、福利品、展示機、拆封品、二手及整新品的歷史最低價，因此不以本輪現價推定史低。"
+      },
+      "checkedSources": [
+        "https://24h.pchome.com.tw/prod/DPAI1L-A900J8NAE",
+        "https://www.lg.com/tw/washer-dryers/styler/e523mw/"
+      ],
+      "rejectedCandidates": [
+        "E523MW：本輪公開現價不等於歷史最低價；未取得符合 exact-model、同地區規格與可信新品條件的可重現史低證據。"
+      ]
+    },
+    {
+      "id": "garmentcare-lg-r723mb",
+      "category": "garmentcare",
+      "brand": "LG",
+      "model": "R723MB",
+      "name": "LG Styler 第二代蒸氣電子衣櫥 奢華鏡面",
+      "currentPrice": 53900,
+      "currentCurrency": "TWD",
+      "currentBuyUrl": "https://24h.pchome.com.tw/prod/DPAI1L-A900HWRR6",
+      "currentBuyLabel": "PChome 24h",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "TWD",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-07-23",
+        "note": "已查核 R723MB 的官方產品頁、可信新品通路與公開比價入口；未找到可重現、符合 exact-model 且排除會員個人化折扣、信用卡回饋、點數、福利品、展示機、拆封品、二手及整新品的歷史最低價，因此不以本輪現價推定史低。"
+      },
+      "checkedSources": [
+        "https://24h.pchome.com.tw/prod/DPAI1L-A900HWRR6",
+        "https://www.lg.com/tw/washer-dryers/styler/r723mb/"
+      ],
+      "rejectedCandidates": [
+        "R723MB：本輪公開現價不等於歷史最低價；未取得符合 exact-model、同地區規格與可信新品條件的可重現史低證據。"
+      ]
+    },
+    {
+      "id": "garmentcare-lg-r723sb",
+      "category": "garmentcare",
+      "brand": "LG",
+      "model": "R723SB",
+      "name": "LG Styler 第二代蒸氣電子衣櫥 雪霧白（HandySteamer）",
+      "currentPrice": 53010,
+      "currentCurrency": "TWD",
+      "currentBuyUrl": "https://24h.pchome.com.tw/prod/DPAI1L-A900HWRRX",
+      "currentBuyLabel": "PChome 24h",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "TWD",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-07-23",
+        "note": "已查核 R723SB 的官方產品頁、可信新品通路與公開比價入口；未找到可重現、符合 exact-model 且排除會員個人化折扣、信用卡回饋、點數、福利品、展示機、拆封品、二手及整新品的歷史最低價，因此不以本輪現價推定史低。"
+      },
+      "checkedSources": [
+        "https://24h.pchome.com.tw/prod/DPAI1L-A900HWRRX",
+        "https://www.lg.com/tw/washer-dryers/styler/r723sb/"
+      ],
+      "rejectedCandidates": [
+        "R723SB：本輪公開現價不等於歷史最低價；未取得符合 exact-model、同地區規格與可信新品條件的可重現史低證據。"
+      ]
+    },
+    {
+      "id": "garmentcare-lg-r723mg",
+      "category": "garmentcare",
+      "brand": "LG",
+      "model": "R723MG",
+      "name": "LG Styler 第二代蒸氣電子衣櫥 奢華鏡面",
+      "currentPrice": 44900,
+      "currentCurrency": "TWD",
+      "currentBuyUrl": "https://24h.pchome.com.tw/prod/DPAI1L-A900HWRSW",
+      "currentBuyLabel": "PChome 24h",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "TWD",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-07-23",
+        "note": "已查核 R723MG 的官方產品頁、可信新品通路與公開比價入口；未找到可重現、符合 exact-model 且排除會員個人化折扣、信用卡回饋、點數、福利品、展示機、拆封品、二手及整新品的歷史最低價，因此不以本輪現價推定史低。"
+      },
+      "checkedSources": [
+        "https://24h.pchome.com.tw/prod/DPAI1L-A900HWRSW",
+        "https://www.lg.com/tw/washer-dryers/styler/r723mg/"
+      ],
+      "rejectedCandidates": [
+        "R723MG：本輪公開現價不等於歷史最低價；未取得符合 exact-model、同地區規格與可信新品條件的可重現史低證據。"
+      ]
+    },
+    {
+      "id": "garmentcare-lg-e523mr",
+      "category": "garmentcare",
+      "brand": "LG",
+      "model": "E523MR",
+      "name": "LG Styler 蒸氣電子衣櫥 奢華鏡面",
+      "currentPrice": 41900,
+      "currentCurrency": "TWD",
+      "currentBuyUrl": "https://24h.pchome.com.tw/prod/DPAI1L-A900AMBO4",
+      "currentBuyLabel": "PChome 24h",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "TWD",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-07-23",
+        "note": "已查核 E523MR 的官方產品頁、可信新品通路與公開比價入口；未找到可重現、符合 exact-model 且排除會員個人化折扣、信用卡回饋、點數、福利品、展示機、拆封品、二手及整新品的歷史最低價，因此不以本輪現價推定史低。"
+      },
+      "checkedSources": [
+        "https://24h.pchome.com.tw/prod/DPAI1L-A900AMBO4",
+        "https://www.lg.com/tw/washer-dryers/styler/e523mr/"
+      ],
+      "rejectedCandidates": [
+        "E523MR：本輪公開現價不等於歷史最低價；未取得符合 exact-model、同地區規格與可信新品條件的可重現史低證據。"
+      ]
+    },
+    {
+      "id": "garmentcare-lg-e523ir",
+      "category": "garmentcare",
+      "brand": "LG",
+      "model": "E523IR",
+      "name": "LG Styler 蒸氣電子衣櫥 亞麻紋象牙白",
+      "currentPrice": 37799,
+      "currentCurrency": "TWD",
+      "currentBuyUrl": "https://www.costco.com.tw/Televisions-Appliances/Large-Appliances/Washers-Dryers/LG-WiFi-Styler-Smart-Enabled-Steam-Closet-E523IR/p/133957",
+      "currentBuyLabel": "Costco 好市多",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "TWD",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-07-23",
+        "note": "已查核 E523IR 的官方產品頁、可信新品通路與公開比價入口；未找到可重現、符合 exact-model 且排除會員個人化折扣、信用卡回饋、點數、福利品、展示機、拆封品、二手及整新品的歷史最低價，因此不以本輪現價推定史低。"
+      },
+      "checkedSources": [
+        "https://www.costco.com.tw/Televisions-Appliances/Large-Appliances/Washers-Dryers/LG-WiFi-Styler-Smart-Enabled-Steam-Closet-E523IR/p/133957",
+        "https://www.lg.com/tw/washer-dryers/styler/e523ir/"
+      ],
+      "rejectedCandidates": [
+        "E523IR：本輪公開現價不等於歷史最低價；未取得符合 exact-model、同地區規格與可信新品條件的可重現史低證據。"
+      ]
+    },
+    {
+      "id": "garmentcare-lg-sc5gmr80h",
+      "category": "garmentcare",
+      "brand": "LG",
+      "model": "SC5GMR80H",
+      "name": "LG Styler Smart Steam Closet Mirror with HandySteamer",
+      "currentPrice": 74510,
+      "currentCurrency": "USD",
+      "currentBuyUrl": "https://www.lg.com/us/washers-dryers/lg-sc5gmr80h-styler-steam-closet",
+      "currentBuyLabel": "LG 美國官網",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "USD",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-07-23",
+        "note": "已查核 SC5GMR80H 的 LG 官方產品頁與 Best Buy exact-model 新品頁；未找到可重現、符合 exact-model 且排除會員個人化折扣、信用卡回饋、點數、福利品、展示機、拆封品、二手及整新品的歷史最低價，因此不以本輪現價推定史低。"
+      },
+      "checkedSources": [
+        "https://www.lg.com/us/washers-dryers/lg-sc5gmr80h-styler-steam-closet",
+        "https://www.bestbuy.com/product/lg-styler-24-wide-smart-steam-closet-with-dual-truesteam-dynamic-moving-hanger-and-handy-steamer-mirror/JJ8VPZWTZR"
+      ],
+      "rejectedCandidates": [
+        "SC5GMR80H：本輪公開現價不等於歷史最低價；未取得符合 exact-model、同地區規格與可信新品條件的可重現史低證據。"
+      ]
+    },
+    {
+      "id": "garmentcare-lg-sc5mar4g",
+      "category": "garmentcare",
+      "brand": "LG",
+      "model": "SC5MAR4G",
+      "name": "LG Styler Smart Steam Closet Beige",
+      "currentPrice": 64787,
+      "currentCurrency": "USD",
+      "currentBuyUrl": "https://www.lg.com/us/washers-dryers/lg-sc5mar4g-styler-steam-closet",
+      "currentBuyLabel": "LG 美國官網",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "USD",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-07-23",
+        "note": "已查核 SC5MAR4G 的 LG 官方產品頁與 Best Buy exact-model 新品頁；未找到可重現、符合 exact-model 且排除會員個人化折扣、信用卡回饋、點數、福利品、展示機、拆封品、二手及整新品的歷史最低價，因此不以本輪現價推定史低。"
+      },
+      "checkedSources": [
+        "https://www.lg.com/us/washers-dryers/lg-sc5mar4g-styler-steam-closet",
+        "https://www.bestbuy.com/product/lg-styler-24-in-wide-smart-steam-closet-with-dual-truesteam-and-and-dynamic-movinghanger-beige/BGTKK8TL7L"
+      ],
+      "rejectedCandidates": [
+        "SC5MAR4G：本輪公開現價不等於歷史最低價；未取得符合 exact-model、同地區規格與可信新品條件的可重現史低證據。"
+      ]
+    },
+    {
+      "id": "garmentcare-lg-s3mfbn",
+      "category": "garmentcare",
+      "brand": "LG",
+      "model": "S3MFBN",
+      "name": "LG Styler Smart Steam Closet Mirror",
+      "currentPrice": 55064,
+      "currentCurrency": "USD",
+      "currentBuyUrl": "https://www.lg.com/us/washers-dryers/lg-s3mfbn-styler-steam-closet",
+      "currentBuyLabel": "LG 美國官網",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "USD",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-07-23",
+        "note": "已查核 S3MFBN 的 LG 官方產品頁與 Best Buy exact-model 新品頁；未找到可重現、符合 exact-model 且排除會員個人化折扣、信用卡回饋、點數、福利品、展示機、拆封品、二手及整新品的歷史最低價，因此不以本輪現價推定史低。"
+      },
+      "checkedSources": [
+        "https://www.lg.com/us/washers-dryers/lg-s3mfbn-styler-steam-closet",
+        "https://www.bestbuy.com/product/lg-styler-18-in-wide-smart-steam-clothing-care-system-mirror-finish/J7G564PKXJ"
+      ],
+      "rejectedCandidates": [
+        "S3MFBN：本輪公開現價不等於歷史最低價；未取得符合 exact-model、同地區規格與可信新品條件的可重現史低證據。"
+      ]
+    },
+    {
+      "id": "garmentcare-lg-s3wfbn",
+      "category": "garmentcare",
+      "brand": "LG",
+      "model": "S3WFBN",
+      "name": "LG Styler Smart Steam Closet White",
+      "currentPrice": 48582,
+      "currentCurrency": "USD",
+      "currentBuyUrl": "https://www.lg.com/us/washers-dryers/lg-s3wfbn-styler-steam-closet",
+      "currentBuyLabel": "LG 美國官網",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "USD",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-07-23",
+        "note": "已查核 S3WFBN 的 LG 官方產品頁與 Best Buy exact-model 新品頁；未找到可重現、符合 exact-model 且排除會員個人化折扣、信用卡回饋、點數、福利品、展示機、拆封品、二手及整新品的歷史最低價，因此不以本輪現價推定史低。"
+      },
+      "checkedSources": [
+        "https://www.lg.com/us/washers-dryers/lg-s3wfbn-styler-steam-closet",
+        "https://www.bestbuy.com/product/lg-styler-18-wide-smart-steam-clothing-care-system-white/J7G564PTCR/sku/6306425"
+      ],
+      "rejectedCandidates": [
+        "S3WFBN：本輪公開現價不等於歷史最低價；未取得符合 exact-model、同地區規格與可信新品條件的可重現史低證據。"
+      ]
+    },
+    {
+      "id": "garmentcare-lg-s3rfbn",
+      "category": "garmentcare",
+      "brand": "LG",
+      "model": "S3RFBN",
+      "name": "LG Styler Smart Steam Closet Espresso",
+      "currentPrice": 48582,
+      "currentCurrency": "USD",
+      "currentBuyUrl": "https://www.lg.com/us/washers-dryers/lg-s3rfbn-styler-steam-closet",
+      "currentBuyLabel": "LG 美國官網",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "USD",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-07-23",
+        "note": "已查核 S3RFBN 的 LG 官方產品頁與 Best Buy exact-model 歷史商品頁；未找到可重現、符合 exact-model 且明確為新品、並排除會員個人化折扣、信用卡回饋、點數、福利品、展示機、拆封品、二手及整新品的歷史最低價，因此不以本輪現價推定史低。"
+      },
+      "checkedSources": [
+        "https://www.lg.com/us/washers-dryers/lg-s3rfbn-styler-steam-closet",
+        "https://www.bestbuy.com/product/lg-styler-smart-steam-clothing-care-system-brown/6284404"
+      ],
+      "rejectedCandidates": [
+        "S3RFBN：本輪公開現價不等於歷史最低價；未取得符合 exact-model、同地區規格與可信新品條件的可重現史低證據。"
+      ]
+    },
+    {
+      "id": "garmentcare-samsung-df90h24r5c",
+      "category": "garmentcare",
+      "brand": "Samsung",
+      "model": "DF90H24R5C",
+      "name": "Samsung Bespoke AI AirDresser Crystal Mirror",
+      "currentPrice": 53569,
+      "currentCurrency": "KRW",
+      "currentBuyUrl": "https://prod.danawa.com/info/?pcode=108410873",
+      "currentBuyLabel": "Danawa 韓國新品比價",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "KRW",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-07-23",
+        "note": "已查核 DF90H24R5C 的官方產品頁、可信新品通路與公開比價入口；未找到可重現、符合 exact-model 且排除會員個人化折扣、信用卡回饋、點數、福利品、展示機、拆封品、二手及整新品的歷史最低價，因此不以本輪現價推定史低。"
+      },
+      "checkedSources": [
+        "https://prod.danawa.com/info/?pcode=108410873",
+        "https://www.samsung.com/sec/airdresser/airdresser-df90h24r5c-d2c/DF90H24R5C/"
+      ],
+      "rejectedCandidates": [
+        "DF90H24R5C：本輪公開現價不等於歷史最低價；未取得符合 exact-model、同地區規格與可信新品條件的可重現史低證據。"
+      ]
+    },
+    {
+      "id": "garmentcare-samsung-df90h24r4d",
+      "category": "garmentcare",
+      "brand": "Samsung",
+      "model": "DF90H24R4D",
+      "name": "Samsung Bespoke AI AirDresser Clean White",
+      "currentPrice": 47621,
+      "currentCurrency": "KRW",
+      "currentBuyUrl": "https://prod.danawa.com/info/?pcode=107770493",
+      "currentBuyLabel": "Danawa 韓國新品比價",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "KRW",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-07-23",
+        "note": "已查核 DF90H24R4D 的官方產品頁、可信新品通路與公開比價入口；未找到可重現、符合 exact-model 且排除會員個人化折扣、信用卡回饋、點數、福利品、展示機、拆封品、二手及整新品的歷史最低價，因此不以本輪現價推定史低。"
+      },
+      "checkedSources": [
+        "https://prod.danawa.com/info/?pcode=107770493",
+        "https://www.samsung.com/sec/airdresser/airdresser-df90h24r4d-d2c/DF90H24R4D/"
+      ],
+      "rejectedCandidates": [
+        "DF90H24R4D：本輪公開現價不等於歷史最低價；未取得符合 exact-model、同地區規格與可信新品條件的可重現史低證據。"
+      ]
+    },
+    {
+      "id": "garmentcare-samsung-df90h24r4p",
+      "category": "garmentcare",
+      "brand": "Samsung",
+      "model": "DF90H24R4P",
+      "name": "Samsung Bespoke AI AirDresser Soapstone Platinum",
+      "currentPrice": 48298,
+      "currentCurrency": "KRW",
+      "currentBuyUrl": "https://prod.danawa.com/info/?pcode=107770475",
+      "currentBuyLabel": "Danawa 韓國新品比價",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "KRW",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-07-23",
+        "note": "已查核 DF90H24R4P 的官方產品頁、可信新品通路與公開比價入口；未找到可重現、符合 exact-model 且排除會員個人化折扣、信用卡回饋、點數、福利品、展示機、拆封品、二手及整新品的歷史最低價，因此不以本輪現價推定史低。"
+      },
+      "checkedSources": [
+        "https://prod.danawa.com/info/?pcode=107770475",
+        "https://www.samsung.com/sec/airdresser/airdresser-df90h24r4p-d2c/DF90H24R4P/"
+      ],
+      "rejectedCandidates": [
+        "DF90H24R4P：本輪公開現價不等於歷史最低價；未取得符合 exact-model、同地區規格與可信新品條件的可重現史低證據。"
+      ]
+    },
+    {
+      "id": "garmentcare-samsung-df90h24r4b",
+      "category": "garmentcare",
+      "brand": "Samsung",
+      "model": "DF90H24R4B",
+      "name": "Samsung Bespoke AI AirDresser Soapstone Charcoal",
+      "currentPrice": 44236,
+      "currentCurrency": "KRW",
+      "currentBuyUrl": "https://prod.danawa.com/info/?pcode=107770397",
+      "currentBuyLabel": "Danawa 韓國新品比價",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "KRW",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-07-23",
+        "note": "已查核 DF90H24R4B 的官方產品頁、可信新品通路與公開比價入口；未找到可重現、符合 exact-model 且排除會員個人化折扣、信用卡回饋、點數、福利品、展示機、拆封品、二手及整新品的歷史最低價，因此不以本輪現價推定史低。"
+      },
+      "checkedSources": [
+        "https://prod.danawa.com/info/?pcode=107770397",
+        "https://www.samsung.com/sec/airdresser/airdresser-df90h24r4b-d2c/DF90H24R4B/"
+      ],
+      "rejectedCandidates": [
+        "DF90H24R4B：本輪公開現價不等於歷史最低價；未取得符合 exact-model、同地區規格與可信新品條件的可重現史低證據。"
+      ]
+    },
+    {
+      "id": "garmentcare-samsung-df80h24r1c",
+      "category": "garmentcare",
+      "brand": "Samsung",
+      "model": "DF80H24R1C",
+      "name": "Samsung Bespoke AI AirDresser Slim Crystal Mirror",
+      "currentPrice": 44245,
+      "currentCurrency": "KRW",
+      "currentBuyUrl": "https://prod.danawa.com/info/?pcode=108411020",
+      "currentBuyLabel": "Danawa 韓國新品比價",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "KRW",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-07-23",
+        "note": "已查核 DF80H24R1C 的官方產品頁、可信新品通路與公開比價入口；未找到可重現、符合 exact-model 且排除會員個人化折扣、信用卡回饋、點數、福利品、展示機、拆封品、二手及整新品的歷史最低價，因此不以本輪現價推定史低。"
+      },
+      "checkedSources": [
+        "https://prod.danawa.com/info/?pcode=108411020",
+        "https://www.samsung.com/sec/airdresser/airdresser-df80h24r1c-d2c/DF80H24R1C/"
+      ],
+      "rejectedCandidates": [
+        "DF80H24R1C：本輪公開現價不等於歷史最低價；未取得符合 exact-model、同地區規格與可信新品條件的可重現史低證據。"
+      ]
+    },
+    {
+      "id": "garmentcare-samsung-df80h24r1d",
+      "category": "garmentcare",
+      "brand": "Samsung",
+      "model": "DF80H24R1D",
+      "name": "Samsung Bespoke AI AirDresser Slim Clean White",
+      "currentPrice": 39264,
+      "currentCurrency": "KRW",
+      "currentBuyUrl": "https://prod.danawa.com/info/?pcode=108411242",
+      "currentBuyLabel": "Danawa 韓國新品比價",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "KRW",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-07-23",
+        "note": "已查核 DF80H24R1D 的官方產品頁、可信新品通路與公開比價入口；未找到可重現、符合 exact-model 且排除會員個人化折扣、信用卡回饋、點數、福利品、展示機、拆封品、二手及整新品的歷史最低價，因此不以本輪現價推定史低。"
+      },
+      "checkedSources": [
+        "https://prod.danawa.com/info/?pcode=108411242",
+        "https://www.samsung.com/sec/airdresser/airdresser-df80h24r1d-d2c/DF80H24R1D/"
+      ],
+      "rejectedCandidates": [
+        "DF80H24R1D：本輪公開現價不等於歷史最低價；未取得符合 exact-model、同地區規格與可信新品條件的可重現史低證據。"
+      ]
+    },
+    {
+      "id": "garmentcare-panasonic-hcc-r600al-x",
+      "category": "garmentcare",
+      "brand": "Panasonic",
+      "model": "HCC-R600AL-X",
+      "name": "Panasonic Smart Closet 左開門",
+      "currentPrice": 65318,
+      "currentCurrency": "JPY",
+      "currentBuyUrl": "https://www.biccamera.com/bc/item/11581815/",
+      "currentBuyLabel": "BicCamera 日本",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "JPY",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-07-23",
+        "note": "已查核 HCC-R600AL-X 的官方產品頁、可信新品通路與公開比價入口；未找到可重現、符合 exact-model 且排除會員個人化折扣、信用卡回饋、點數、福利品、展示機、拆封品、二手及整新品的歷史最低價，因此不以本輪現價推定史低。"
+      },
+      "checkedSources": [
+        "https://www.biccamera.com/bc/item/11581815/",
+        "https://panasonic.jp/smartcloset/products/HCC-R600AR/spec.html"
+      ],
+      "rejectedCandidates": [
+        "HCC-R600AL-X：本輪公開現價不等於歷史最低價；未取得符合 exact-model、同地區規格與可信新品條件的可重現史低證據。"
+      ]
+    },
+    {
+      "id": "garmentcare-panasonic-hcc-r600ar-x",
+      "category": "garmentcare",
+      "brand": "Panasonic",
+      "model": "HCC-R600AR-X",
+      "name": "Panasonic Smart Closet 右開門",
+      "currentPrice": 65318,
+      "currentCurrency": "JPY",
+      "currentBuyUrl": "https://www.biccamera.com/bc/item/11581816/",
+      "currentBuyLabel": "BicCamera 日本",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "JPY",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-07-23",
+        "note": "已查核 HCC-R600AR-X 的官方產品頁、可信新品通路與公開比價入口；未找到可重現、符合 exact-model 且排除會員個人化折扣、信用卡回饋、點數、福利品、展示機、拆封品、二手及整新品的歷史最低價，因此不以本輪現價推定史低。"
+      },
+      "checkedSources": [
+        "https://www.biccamera.com/bc/item/11581816/",
+        "https://panasonic.jp/smartcloset/products/HCC-R600AR/spec.html"
+      ],
+      "rejectedCandidates": [
+        "HCC-R600AR-X：本輪公開現價不等於歷史最低價；未取得符合 exact-model、同地區規格與可信新品條件的可重現史低證據。"
       ]
     }
   ]

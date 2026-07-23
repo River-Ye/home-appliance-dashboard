@@ -17,6 +17,11 @@ const {
   REQUIRED_CATEGORY_TERMS,
   CATEGORY_TEXT_MATCH_COUNTS,
   REQUIRED_FIELDS,
+  GARMENTCARE_MODELS,
+  GARMENTCARE_BRAND_COUNTS,
+  GARMENTCARE_CHANNEL_COUNTS,
+  GARMENTCARE_SPEC_PREFIXES,
+  GARMENTCARE_TOP_PICK_MODEL,
 } = require("./dashboard-contract");
 const { readDashboardProducts } = require("./read-dashboard-products");
 const { validateExplicitReview } = require("./mark-product-issue-review");
@@ -830,6 +835,15 @@ function validateHistoricalPriceResearch(root, products, failures) {
     assert(row.currentBuyUrl === product.buyUrl, `${product.id} historical price research buyUrl mismatch`, failures);
     assert(row.currentBuyLabel === product.buyLabel, `${product.id} historical price research buyLabel mismatch`, failures);
     assert(JSON.stringify(row.historicalLow) === JSON.stringify(product.historicalLow), `${product.id} historicalLow research mismatch`, failures);
+    if (product.category === "garmentcare") {
+      const checkedSources = Array.isArray(row.checkedSources) ? row.checkedSources : [];
+      assert(checkedSources.length >= 2, `${product.id} historical price research requires at least two checked sources`, failures);
+      assert(
+        new Set(checkedSources).size === checkedSources.length,
+        `${product.id} historical price research checked sources must be unique`,
+        failures,
+      );
+    }
   }
 }
 
@@ -925,6 +939,51 @@ function validateCategoryContent(products, failures) {
 
   for (const product of categoryProducts(products, "standingdesk")) {
     assert(productText(product).includes("桌板厚度："), `${product.id} standing desk missing desktop thickness spec`, failures);
+  }
+
+  const garmentCareProducts = categoryProducts(products, "garmentcare");
+  const garmentCareModels = new Set(garmentCareProducts.map((product) => product.model));
+  assert(
+    garmentCareModels.size === GARMENTCARE_MODELS.size
+      && [...GARMENTCARE_MODELS].every((model) => garmentCareModels.has(model)),
+    "garmentcare exact-model roster does not match the approved 20 models",
+    failures,
+  );
+  for (const [brand, expectedCount] of GARMENTCARE_BRAND_COUNTS) {
+    const count = garmentCareProducts.filter((product) => product.brand === brand).length;
+    assert(count === expectedCount, `garmentcare ${brand} count must be ${expectedCount}, got ${count}`, failures);
+  }
+  for (const [channel, expectedCount] of GARMENTCARE_CHANNEL_COUNTS) {
+    const count = garmentCareProducts.filter((product) => product.channel === channel).length;
+    assert(count === expectedCount, `garmentcare ${channel} count must be ${expectedCount}, got ${count}`, failures);
+  }
+  const garmentCareTopPicks = garmentCareProducts.filter((product) => product.topPick);
+  assert(
+    garmentCareTopPicks.length === 1 && garmentCareTopPicks[0].model === GARMENTCARE_TOP_PICK_MODEL,
+    `garmentcare Top Pick must be ${GARMENTCARE_TOP_PICK_MODEL}`,
+    failures,
+  );
+  for (const product of garmentCareProducts) {
+    for (const prefix of GARMENTCARE_SPEC_PREFIXES) {
+      const count = product.specs.filter((spec) => String(spec).startsWith(prefix)).length;
+      assert(count === 1, `${product.id} must include exactly one ${prefix} spec`, failures);
+    }
+    const expectedCurrency = product.channel === "tw"
+      ? "TWD"
+      : product.brand === "LG"
+        ? "USD"
+        : product.brand === "Samsung"
+          ? "KRW"
+          : "JPY";
+    assert(product.price.currency === expectedCurrency, `${product.id} must use ${expectedCurrency}`, failures);
+    if (product.channel === "global") {
+      const text = productText(product);
+      for (const warning of ["國際運費", "進口稅", "台灣保固"]) {
+        assert(text.includes(warning), `${product.id} overseas warning is missing ${warning}`, failures);
+      }
+      assert(/電壓|插頭/.test(text), `${product.id} overseas warning is missing voltage/plug risk`, failures);
+      assert(!product.topPick, `${product.id} overseas product must not be a Taiwan Top Pick`, failures);
+    }
   }
 }
 

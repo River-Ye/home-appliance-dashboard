@@ -27,7 +27,14 @@ https://ecapi-cdn.pchome.com.tw/ecshop/prodapi/v2/prod?id=<PID>&fields=Id,Name,N
 ## Exchange Rates And Foreign Prices
 
 - When updating exchange rates, update `assets/js/config.js` exchange values and date, recompute only foreign-currency `price.converted` values, and sync README/AGENTS/page text.
+- Keep every supported catalog currency in the same exchange contract; Korean AirDresser entries require `KRW_TWD` in config, maintenance parsing, historical summaries, and conversion tests.
 - Foreign products must keep notes about shipping, import tax, voltage/plug, and Taiwan warranty risk.
+
+## Electronic Closet Scope
+
+- `garmentcare` is strictly for rigid, enclosed cabinets centered on hanging garments and providing deodorizing, wrinkle reduction, sanitizing, or gentle drying. Exclude tumble dryers, washer-dryers, dehumidifiers, handheld steamers, fabric-cover drying closets, accessories, and discontinued stock.
+- Keep the approved exact-model roster, brand/channel counts, one dimension record per product, and the full garment-care spec-prefix contract synchronized with `tools/dashboard-contract.js`.
+- Overseas LG, Samsung, and Panasonic variants remain comparison references only; they must retain original currency plus TWD conversion and explicit international shipping, import tax, plug/voltage, and Taiwan warranty warnings.
 
 ## Release Dates And Historical Lows
 

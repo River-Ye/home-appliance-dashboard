@@ -1,26 +1,19 @@
 {
   "summary": {
-    "checkedAt": "2026-07-22T00:00:00+08:00",
-    "total": 668,
+    "checkedAt": "2026-07-23T00:00:00+08:00",
+    "total": 688,
     "commonIssueProducts": 36,
-    "noCommonIssueProducts": 632,
+    "noCommonIssueProducts": 652,
     "pendingManualReview": 0,
     "commonIssues": 36,
-    "searchUnavailable": 0,
+    "searchUnavailable": 20,
     "threshold": {
       "minimumDistinctUsers": 6,
       "minimumPlatforms": 2,
       "exactModelOnly": true
     },
     "sourcePolicy": "搜尋引擎只用於發現候選；只有原始論壇、社群或零售評價頁中可辨識的第一人稱同型號回報才計入人數。同帳號、跨站轉貼、按讚、媒體轉述與搜尋摘要不重複計算。",
-    "noIssueWording": "截至查核日，查無達門檻的集中負評／災情",
-    "refreshedThisRun": 1,
-    "preservedExistingNegativeEvidence": 49,
-    "priorFullRefresh": {
-      "checkedAt": "2026-07-11",
-      "refreshed": 612,
-      "preservedExistingNegativeEvidence": 49
-    }
+    "noIssueWording": "截至查核日，查無達門檻的集中負評／災情"
   },
   "results": [
     {
@@ -14298,6 +14291,132 @@
       "rejectedCandidates": []
     },
     {
+      "id": "ap-dyson-hj10",
+      "category": "purifier",
+      "brand": "Dyson",
+      "model": "HJ10",
+      "name": "HushJet Purifier Compact 噴射氣流空氣清淨機",
+      "identity": {
+        "canonicalModel": "HJ10",
+        "lookupLabel": "Dyson HJ10",
+        "aliases": [
+          "Dyson HJ10"
+        ],
+        "evidenceUrl": "https://24h.pchome.com.tw/prod/DMAU3C-1900JXJZ8"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "status": "completed",
+        "decision": "no_common_issue",
+        "reviewedAt": "2026-07-22",
+        "checkedPlatforms": [
+          "Mobile01",
+          "Reddit"
+        ],
+        "queries": [
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"Dyson HJ10\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?q=site%3Amobile01.com%20%22Dyson%20HJ10%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "mobile01.com"
+          },
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"Dyson HJ10\" (problem OR issue OR defect OR \"negative review\")",
+            "queryUrl": "https://www.bing.com/search?q=site%3Areddit.com%20%22Dyson%20HJ10%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
+            "targetHost": "reddit.com"
+          }
+        ],
+        "candidateDisposition": "HJ10 的 exact-model 原始頁候選均已逐頁覆核，未形成跨兩個獨立網站、至少 6 位第一人稱使用者回報同一問題的門檻。",
+        "representativeSources": [
+          {
+            "platform": "Mobile01",
+            "title": "Dyson Hj10空氣清淨機評價如何？",
+            "url": "https://www.mobile01.com/topicdetail.php?f=731&t=7235978"
+          }
+        ],
+        "candidateReviews": [
+          {
+            "platform": "Mobile01",
+            "title": "Dyson Hj10空氣清淨機評價如何？",
+            "url": "https://www.mobile01.com/topicdetail.php?f=731&t=7235978",
+            "sourceExcerpt": "自用者表示環境極安靜時，風速 3 以上仍聽得到運轉聲，且 HJ10 的聲音相較大金偏高頻。",
+            "independentAuthors": 1,
+            "specificReason": "原頁只有 1 位可辨識的 HJ10 第一人稱使用者描述噪音感受，且只來自 Mobile01 一個網站，未達 6 人與跨 2 網站門檻。",
+            "reviewedAt": "2026-07-22",
+            "exactModel": true,
+            "outcome": "excluded"
+          }
+        ],
+        "reviewerNote": "HJ10 已完成 Mobile01 與 Reddit exact-model 查詢；搜尋結果只作候選發現，決策以原始頁人工覆核為準。",
+        "attestation": "manual_original_pages_reviewed"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-07-22",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"Dyson HJ10\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?q=site%3Amobile01.com%20%22Dyson%20HJ10%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "mobile01.com"
+          },
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"Dyson HJ10\" (problem OR issue OR defect OR \"negative review\")",
+            "queryUrl": "https://www.bing.com/search?q=site%3Areddit.com%20%22Dyson%20HJ10%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
+            "targetHost": "reddit.com"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "Bing Search",
+          "query": "site:mobile01.com \"Dyson HJ10\" (災情 OR 問題 OR 故障 OR 負評)",
+          "searchUrl": "https://www.bing.com/search?q=site%3Amobile01.com%20%22Dyson%20HJ10%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "result": "candidates_unverified_by_search_only",
+          "resultCount": 1,
+          "candidateUrls": [
+            "https://www.mobile01.com/topicdetail.php?f=731&t=7235978"
+          ],
+          "candidates": [
+            {
+              "url": "https://www.mobile01.com/topicdetail.php?f=731&t=7235978",
+              "title": "Dyson Hj10空氣清淨機評價如何？"
+            }
+          ],
+          "inspectedAt": "2026-07-22T11:30:00+08:00"
+        },
+        {
+          "platform": "Bing Search",
+          "query": "site:reddit.com \"Dyson HJ10\" (problem OR issue OR defect OR \"negative review\")",
+          "searchUrl": "https://www.bing.com/search?q=site%3Areddit.com%20%22Dyson%20HJ10%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-07-22T11:30:00+08:00"
+        }
+      ],
+      "evidence": [],
+      "rejectedCandidates": [
+        {
+          "platform": "Mobile01",
+          "title": "Dyson Hj10空氣清淨機評價如何？",
+          "url": "https://www.mobile01.com/topicdetail.php?f=731&t=7235978",
+          "sourceExcerpt": "自用者表示環境極安靜時，風速 3 以上仍聽得到運轉聲，且 HJ10 的聲音相較大金偏高頻。",
+          "independentAuthors": 1,
+          "specificReason": "原頁只有 1 位可辨識的 HJ10 第一人稱使用者描述噪音感受，且只來自 Mobile01 一個網站，未達 6 人與跨 2 網站門檻。",
+          "reviewedAt": "2026-07-22",
+          "exactModel": true,
+          "outcome": "excluded",
+          "reason": "原頁只有 1 位可辨識的 HJ10 第一人稱使用者描述噪音感受，且只來自 Mobile01 一個網站，未達 6 人與跨 2 網站門檻。"
+        }
+      ]
+    },
+    {
       "id": "robot-roborock-saros-z70",
       "category": "robot",
       "brand": "Roborock",
@@ -27273,6 +27392,1745 @@
           "candidateUrls": [],
           "candidates": [],
           "inspectedAt": "2026-07-18T00:00:00+08:00"
+        }
+      ],
+      "evidence": [],
+      "rejectedCandidates": []
+    },
+    {
+      "id": "washerdryer-lg-wd-s2220b",
+      "category": "washerdryer",
+      "brand": "LG",
+      "model": "WD-S2220B",
+      "name": "LG WashTower AI 智控洗乾衣機第二代",
+      "identity": {
+        "canonicalModel": "WD-S2220B",
+        "lookupLabel": "LG WD-S2220B",
+        "aliases": [
+          "LG WD-S2220B"
+        ],
+        "evidenceUrl": "https://24h.pchome.com.tw/prod/DPAI1L-A900IXKBU"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "status": "completed",
+        "decision": "no_common_issue",
+        "reviewedAt": "2026-07-22",
+        "checkedPlatforms": [
+          "Mobile01",
+          "Reddit"
+        ],
+        "queries": [
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"LG WD-S2220B\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?q=site%3Amobile01.com%20%22LG%20WD-S2220B%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "mobile01.com"
+          },
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"LG WD-S2220B\" (problem OR issue OR defect OR \"negative review\")",
+            "queryUrl": "https://www.bing.com/search?q=site%3Areddit.com%20%22LG%20WD-S2220B%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
+            "targetHost": "reddit.com"
+          }
+        ],
+        "candidateDisposition": "WD-S2220B 的 exact-model 原始頁候選均已逐頁覆核，未形成跨兩個獨立網站、至少 6 位第一人稱使用者回報同一問題的門檻。",
+        "representativeSources": [
+          {
+            "platform": "Mobile01",
+            "title": "LG Washtower WD-S2220B 洗衣機+烘乾機",
+            "url": "https://www.mobile01.com/topicdetail.php?f=730&t=7136558"
+          },
+          {
+            "platform": "Mobile01",
+            "title": "雙薪家庭洗衣機選擇 LG WD-S2220B、國際NA-V170RPH-K",
+            "url": "https://www.mobile01.com/topicdetail.php?f=730&t=7134807"
+          }
+        ],
+        "candidateReviews": [
+          {
+            "platform": "Mobile01",
+            "title": "LG Washtower WD-S2220B 洗衣機+烘乾機",
+            "url": "https://www.mobile01.com/topicdetail.php?f=730&t=7136558",
+            "sourceExcerpt": "樓主自用後表示衣服烘完目視仍有一定程度縮水，並記錄新機的洗烘與耗電體驗。",
+            "independentAuthors": 1,
+            "specificReason": "原頁只有 1 位 WD-S2220B 第一人稱使用者提到烘後縮水，其他回覆未形成相同問題的獨立回報，且只來自一個網站。",
+            "reviewedAt": "2026-07-22",
+            "exactModel": true,
+            "outcome": "excluded"
+          },
+          {
+            "platform": "Mobile01",
+            "title": "雙薪家庭洗衣機選擇 LG WD-S2220B、國際NA-V170RPH-K",
+            "url": "https://www.mobile01.com/topicdetail.php?f=730&t=7134807",
+            "sourceExcerpt": "討論以購買選擇為主，回覆者多談使用習慣或其他容量機種，沒有形成 WD-S2220B 同型號集中故障回報。",
+            "independentAuthors": 0,
+            "specificReason": "此頁主要是選購討論，未找到可計入的 WD-S2220B 第一人稱同型號故障回報，不能拿相關系列或其他容量機種推定災情。",
+            "reviewedAt": "2026-07-22",
+            "exactModel": true,
+            "outcome": "excluded"
+          }
+        ],
+        "reviewerNote": "WD-S2220B 已完成 Mobile01 與 Reddit exact-model 查詢；搜尋結果只作候選發現，決策以原始頁人工覆核為準。",
+        "attestation": "manual_original_pages_reviewed"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-07-22",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"LG WD-S2220B\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?q=site%3Amobile01.com%20%22LG%20WD-S2220B%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "mobile01.com"
+          },
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"LG WD-S2220B\" (problem OR issue OR defect OR \"negative review\")",
+            "queryUrl": "https://www.bing.com/search?q=site%3Areddit.com%20%22LG%20WD-S2220B%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
+            "targetHost": "reddit.com"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "Bing Search",
+          "query": "site:mobile01.com \"LG WD-S2220B\" (災情 OR 問題 OR 故障 OR 負評)",
+          "searchUrl": "https://www.bing.com/search?q=site%3Amobile01.com%20%22LG%20WD-S2220B%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "result": "candidates_unverified_by_search_only",
+          "resultCount": 2,
+          "candidateUrls": [
+            "https://www.mobile01.com/topicdetail.php?f=730&t=7136558",
+            "https://www.mobile01.com/topicdetail.php?f=730&t=7134807"
+          ],
+          "candidates": [
+            {
+              "url": "https://www.mobile01.com/topicdetail.php?f=730&t=7136558",
+              "title": "LG Washtower WD-S2220B 洗衣機+烘乾機"
+            },
+            {
+              "url": "https://www.mobile01.com/topicdetail.php?f=730&t=7134807",
+              "title": "雙薪家庭洗衣機選擇 LG WD-S2220B、國際NA-V170RPH-K"
+            }
+          ],
+          "inspectedAt": "2026-07-22T11:30:00+08:00"
+        },
+        {
+          "platform": "Bing Search",
+          "query": "site:reddit.com \"LG WD-S2220B\" (problem OR issue OR defect OR \"negative review\")",
+          "searchUrl": "https://www.bing.com/search?q=site%3Areddit.com%20%22LG%20WD-S2220B%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-07-22T11:30:00+08:00"
+        }
+      ],
+      "evidence": [],
+      "rejectedCandidates": [
+        {
+          "platform": "Mobile01",
+          "title": "LG Washtower WD-S2220B 洗衣機+烘乾機",
+          "url": "https://www.mobile01.com/topicdetail.php?f=730&t=7136558",
+          "sourceExcerpt": "樓主自用後表示衣服烘完目視仍有一定程度縮水，並記錄新機的洗烘與耗電體驗。",
+          "independentAuthors": 1,
+          "specificReason": "原頁只有 1 位 WD-S2220B 第一人稱使用者提到烘後縮水，其他回覆未形成相同問題的獨立回報，且只來自一個網站。",
+          "reviewedAt": "2026-07-22",
+          "exactModel": true,
+          "outcome": "excluded",
+          "reason": "原頁只有 1 位 WD-S2220B 第一人稱使用者提到烘後縮水，其他回覆未形成相同問題的獨立回報，且只來自一個網站。"
+        },
+        {
+          "platform": "Mobile01",
+          "title": "雙薪家庭洗衣機選擇 LG WD-S2220B、國際NA-V170RPH-K",
+          "url": "https://www.mobile01.com/topicdetail.php?f=730&t=7134807",
+          "sourceExcerpt": "討論以購買選擇為主，回覆者多談使用習慣或其他容量機種，沒有形成 WD-S2220B 同型號集中故障回報。",
+          "independentAuthors": 0,
+          "specificReason": "此頁主要是選購討論，未找到可計入的 WD-S2220B 第一人稱同型號故障回報，不能拿相關系列或其他容量機種推定災情。",
+          "reviewedAt": "2026-07-22",
+          "exactModel": true,
+          "outcome": "excluded",
+          "reason": "此頁主要是選購討論，未找到可計入的 WD-S2220B 第一人稱同型號故障回報，不能拿相關系列或其他容量機種推定災情。"
+        }
+      ]
+    },
+    {
+      "id": "garmentcare-lg-r723wg",
+      "category": "garmentcare",
+      "brand": "LG",
+      "model": "R723WG",
+      "name": "LG Styler 第二代蒸氣電子衣櫥 雲霧白",
+      "identity": {
+        "canonicalModel": "R723WG",
+        "lookupLabel": "LG R723WG",
+        "aliases": [
+          "LG R723WG"
+        ],
+        "evidenceUrl": "https://24h.pchome.com.tw/prod/DPAI1L-A900HWRUQ"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "status": "completed",
+        "decision": "no_common_issue",
+        "reviewedAt": "2026-07-23",
+        "checkedPlatforms": [
+          "Dcard",
+          "Reddit"
+        ],
+        "queries": [
+          {
+            "platform": "Dcard",
+            "query": "site:dcard.tw \"LG R723WG\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Adcard.tw%20%22LG%20R723WG%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "dcard.tw"
+          },
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"LG R723WG\" (problem OR issue OR defect OR negative review)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22LG%20R723WG%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+            "targetHost": "reddit.com"
+          }
+        ],
+        "candidateDisposition": "R723WG：已於 2026-07-23 實際重跑 Dcard 與 Reddit exact-model 跨站查詢；兩站結果未發現通過 canonical-model 邊界的原始頁候選。此結果不代表完全沒有負評。",
+        "representativeSources": [],
+        "candidateReviews": [],
+        "reviewerNote": "R723WG 已人工覆核兩個獨立網站的可重現 exact-model 查詢；搜尋引擎只作候選發現，未把系列近似型號、購買詢問或搜尋摘要算成同型號集中災情。",
+        "attestation": "manual_cross_site_search_reviewed_no_candidate"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-07-23",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Dcard",
+            "query": "site:dcard.tw \"LG R723WG\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Adcard.tw%20%22LG%20R723WG%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "dcard.tw"
+          },
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"LG R723WG\" (problem OR issue OR defect OR negative review)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22LG%20R723WG%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+            "targetHost": "reddit.com"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "Yahoo Search",
+          "query": "(\"LG R723WG\") (problem OR issue OR defect OR failure OR 災情 OR 故障 OR 負評) (site:mobile01.com OR site:dcard.tw OR site:ptt.cc OR site:reddit.com OR site:snbforums.com OR site:52asus.com)",
+          "searchUrl": "https://search.yahoo.com/search?p=(%22LG%20R723WG%22)%20(problem%20OR%20issue%20OR%20defect%20OR%20failure%20OR%20%E7%81%BD%E6%83%85%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)%20(site%3Amobile01.com%20OR%20site%3Adcard.tw%20OR%20site%3Aptt.cc%20OR%20site%3Areddit.com%20OR%20site%3Asnbforums.com%20OR%20site%3A52asus.com)",
+          "result": "search_unavailable",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-07-23T00:00:00+08:00",
+          "error": "fetch failed"
+        }
+      ],
+      "evidence": [],
+      "rejectedCandidates": []
+    },
+    {
+      "id": "garmentcare-lg-e523mw",
+      "category": "garmentcare",
+      "brand": "LG",
+      "model": "E523MW",
+      "name": "LG Styler Z 蒸氣電子衣櫥 輕奢鏡面",
+      "identity": {
+        "canonicalModel": "E523MW",
+        "lookupLabel": "LG E523MW",
+        "aliases": [
+          "LG E523MW"
+        ],
+        "evidenceUrl": "https://24h.pchome.com.tw/prod/DPAI1L-A900J8NAE"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "status": "completed",
+        "decision": "no_common_issue",
+        "reviewedAt": "2026-07-23",
+        "checkedPlatforms": [
+          "Dcard",
+          "Reddit"
+        ],
+        "queries": [
+          {
+            "platform": "Dcard",
+            "query": "site:dcard.tw \"LG E523MW\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Adcard.tw%20%22LG%20E523MW%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "dcard.tw"
+          },
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"LG E523MW\" (problem OR issue OR defect OR negative review)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22LG%20E523MW%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+            "targetHost": "reddit.com"
+          }
+        ],
+        "candidateDisposition": "E523MW：已於 2026-07-23 實際重跑 Dcard 與 Reddit exact-model 跨站查詢；兩站結果未發現通過 canonical-model 邊界的原始頁候選。此結果不代表完全沒有負評。",
+        "representativeSources": [],
+        "candidateReviews": [],
+        "reviewerNote": "E523MW 已人工覆核兩個獨立網站的可重現 exact-model 查詢；搜尋引擎只作候選發現，未把系列近似型號、購買詢問或搜尋摘要算成同型號集中災情。",
+        "attestation": "manual_cross_site_search_reviewed_no_candidate"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-07-23",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Dcard",
+            "query": "site:dcard.tw \"LG E523MW\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Adcard.tw%20%22LG%20E523MW%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "dcard.tw"
+          },
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"LG E523MW\" (problem OR issue OR defect OR negative review)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22LG%20E523MW%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+            "targetHost": "reddit.com"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "Yahoo Search",
+          "query": "(\"LG E523MW\") (problem OR issue OR defect OR failure OR 災情 OR 故障 OR 負評) (site:mobile01.com OR site:dcard.tw OR site:ptt.cc OR site:reddit.com OR site:snbforums.com OR site:52asus.com)",
+          "searchUrl": "https://search.yahoo.com/search?p=(%22LG%20E523MW%22)%20(problem%20OR%20issue%20OR%20defect%20OR%20failure%20OR%20%E7%81%BD%E6%83%85%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)%20(site%3Amobile01.com%20OR%20site%3Adcard.tw%20OR%20site%3Aptt.cc%20OR%20site%3Areddit.com%20OR%20site%3Asnbforums.com%20OR%20site%3A52asus.com)",
+          "result": "search_unavailable",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-07-23T00:00:00+08:00",
+          "error": "fetch failed"
+        }
+      ],
+      "evidence": [],
+      "rejectedCandidates": []
+    },
+    {
+      "id": "garmentcare-lg-r723mb",
+      "category": "garmentcare",
+      "brand": "LG",
+      "model": "R723MB",
+      "name": "LG Styler 第二代蒸氣電子衣櫥 奢華鏡面",
+      "identity": {
+        "canonicalModel": "R723MB",
+        "lookupLabel": "LG R723MB",
+        "aliases": [
+          "LG R723MB"
+        ],
+        "evidenceUrl": "https://24h.pchome.com.tw/prod/DPAI1L-A900HWRR6"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "status": "completed",
+        "decision": "no_common_issue",
+        "reviewedAt": "2026-07-23",
+        "checkedPlatforms": [
+          "Dcard",
+          "Reddit"
+        ],
+        "queries": [
+          {
+            "platform": "Dcard",
+            "query": "site:dcard.tw \"LG R723MB\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Adcard.tw%20%22LG%20R723MB%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "dcard.tw"
+          },
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"LG R723MB\" (problem OR issue OR defect OR negative review)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22LG%20R723MB%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+            "targetHost": "reddit.com"
+          }
+        ],
+        "candidateDisposition": "R723MB：已於 2026-07-23 實際重跑 Dcard 與 Reddit exact-model 跨站查詢；兩站結果未發現通過 canonical-model 邊界的原始頁候選。此結果不代表完全沒有負評。",
+        "representativeSources": [],
+        "candidateReviews": [],
+        "reviewerNote": "R723MB 已人工覆核兩個獨立網站的可重現 exact-model 查詢；搜尋引擎只作候選發現，未把系列近似型號、購買詢問或搜尋摘要算成同型號集中災情。",
+        "attestation": "manual_cross_site_search_reviewed_no_candidate"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-07-23",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Dcard",
+            "query": "site:dcard.tw \"LG R723MB\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Adcard.tw%20%22LG%20R723MB%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "dcard.tw"
+          },
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"LG R723MB\" (problem OR issue OR defect OR negative review)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22LG%20R723MB%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+            "targetHost": "reddit.com"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "Yahoo Search",
+          "query": "(\"LG R723MB\") (problem OR issue OR defect OR failure OR 災情 OR 故障 OR 負評) (site:mobile01.com OR site:dcard.tw OR site:ptt.cc OR site:reddit.com OR site:snbforums.com OR site:52asus.com)",
+          "searchUrl": "https://search.yahoo.com/search?p=(%22LG%20R723MB%22)%20(problem%20OR%20issue%20OR%20defect%20OR%20failure%20OR%20%E7%81%BD%E6%83%85%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)%20(site%3Amobile01.com%20OR%20site%3Adcard.tw%20OR%20site%3Aptt.cc%20OR%20site%3Areddit.com%20OR%20site%3Asnbforums.com%20OR%20site%3A52asus.com)",
+          "result": "search_unavailable",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-07-23T00:00:00+08:00",
+          "error": "fetch failed"
+        }
+      ],
+      "evidence": [],
+      "rejectedCandidates": []
+    },
+    {
+      "id": "garmentcare-lg-r723sb",
+      "category": "garmentcare",
+      "brand": "LG",
+      "model": "R723SB",
+      "name": "LG Styler 第二代蒸氣電子衣櫥 雪霧白（HandySteamer）",
+      "identity": {
+        "canonicalModel": "R723SB",
+        "lookupLabel": "LG R723SB",
+        "aliases": [
+          "LG R723SB"
+        ],
+        "evidenceUrl": "https://24h.pchome.com.tw/prod/DPAI1L-A900HWRRX"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "status": "completed",
+        "decision": "no_common_issue",
+        "reviewedAt": "2026-07-23",
+        "checkedPlatforms": [
+          "Dcard",
+          "Reddit"
+        ],
+        "queries": [
+          {
+            "platform": "Dcard",
+            "query": "site:dcard.tw \"LG R723SB\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Adcard.tw%20%22LG%20R723SB%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "dcard.tw"
+          },
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"LG R723SB\" (problem OR issue OR defect OR negative review)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22LG%20R723SB%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+            "targetHost": "reddit.com"
+          }
+        ],
+        "candidateDisposition": "R723SB：已於 2026-07-23 實際重跑 Dcard 與 Reddit exact-model 跨站查詢；兩站結果未發現通過 canonical-model 邊界的原始頁候選。此結果不代表完全沒有負評。",
+        "representativeSources": [],
+        "candidateReviews": [],
+        "reviewerNote": "R723SB 已人工覆核兩個獨立網站的可重現 exact-model 查詢；搜尋引擎只作候選發現，未把系列近似型號、購買詢問或搜尋摘要算成同型號集中災情。",
+        "attestation": "manual_cross_site_search_reviewed_no_candidate"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-07-23",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Dcard",
+            "query": "site:dcard.tw \"LG R723SB\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Adcard.tw%20%22LG%20R723SB%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "dcard.tw"
+          },
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"LG R723SB\" (problem OR issue OR defect OR negative review)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22LG%20R723SB%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+            "targetHost": "reddit.com"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "Yahoo Search",
+          "query": "(\"LG R723SB\") (problem OR issue OR defect OR failure OR 災情 OR 故障 OR 負評) (site:mobile01.com OR site:dcard.tw OR site:ptt.cc OR site:reddit.com OR site:snbforums.com OR site:52asus.com)",
+          "searchUrl": "https://search.yahoo.com/search?p=(%22LG%20R723SB%22)%20(problem%20OR%20issue%20OR%20defect%20OR%20failure%20OR%20%E7%81%BD%E6%83%85%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)%20(site%3Amobile01.com%20OR%20site%3Adcard.tw%20OR%20site%3Aptt.cc%20OR%20site%3Areddit.com%20OR%20site%3Asnbforums.com%20OR%20site%3A52asus.com)",
+          "result": "search_unavailable",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-07-23T00:00:00+08:00",
+          "error": "fetch failed"
+        }
+      ],
+      "evidence": [],
+      "rejectedCandidates": []
+    },
+    {
+      "id": "garmentcare-lg-r723mg",
+      "category": "garmentcare",
+      "brand": "LG",
+      "model": "R723MG",
+      "name": "LG Styler 第二代蒸氣電子衣櫥 奢華鏡面",
+      "identity": {
+        "canonicalModel": "R723MG",
+        "lookupLabel": "LG R723MG",
+        "aliases": [
+          "LG R723MG"
+        ],
+        "evidenceUrl": "https://24h.pchome.com.tw/prod/DPAI1L-A900HWRSW"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "status": "completed",
+        "decision": "no_common_issue",
+        "reviewedAt": "2026-07-23",
+        "checkedPlatforms": [
+          "Dcard",
+          "Reddit"
+        ],
+        "queries": [
+          {
+            "platform": "Dcard",
+            "query": "site:dcard.tw \"LG R723MG\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Adcard.tw%20%22LG%20R723MG%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "dcard.tw"
+          },
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"LG R723MG\" (problem OR issue OR defect OR negative review)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22LG%20R723MG%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+            "targetHost": "reddit.com"
+          }
+        ],
+        "candidateDisposition": "R723MG：已於 2026-07-23 實際重跑 Dcard 與 Reddit exact-model 跨站查詢；兩站結果未發現通過 canonical-model 邊界的原始頁候選。此結果不代表完全沒有負評。",
+        "representativeSources": [],
+        "candidateReviews": [],
+        "reviewerNote": "R723MG 已人工覆核兩個獨立網站的可重現 exact-model 查詢；搜尋引擎只作候選發現，未把系列近似型號、購買詢問或搜尋摘要算成同型號集中災情。",
+        "attestation": "manual_cross_site_search_reviewed_no_candidate"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-07-23",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Dcard",
+            "query": "site:dcard.tw \"LG R723MG\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Adcard.tw%20%22LG%20R723MG%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "dcard.tw"
+          },
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"LG R723MG\" (problem OR issue OR defect OR negative review)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22LG%20R723MG%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+            "targetHost": "reddit.com"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "Yahoo Search",
+          "query": "(\"LG R723MG\") (problem OR issue OR defect OR failure OR 災情 OR 故障 OR 負評) (site:mobile01.com OR site:dcard.tw OR site:ptt.cc OR site:reddit.com OR site:snbforums.com OR site:52asus.com)",
+          "searchUrl": "https://search.yahoo.com/search?p=(%22LG%20R723MG%22)%20(problem%20OR%20issue%20OR%20defect%20OR%20failure%20OR%20%E7%81%BD%E6%83%85%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)%20(site%3Amobile01.com%20OR%20site%3Adcard.tw%20OR%20site%3Aptt.cc%20OR%20site%3Areddit.com%20OR%20site%3Asnbforums.com%20OR%20site%3A52asus.com)",
+          "result": "search_unavailable",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-07-23T00:00:00+08:00",
+          "error": "fetch failed"
+        }
+      ],
+      "evidence": [],
+      "rejectedCandidates": []
+    },
+    {
+      "id": "garmentcare-lg-e523mr",
+      "category": "garmentcare",
+      "brand": "LG",
+      "model": "E523MR",
+      "name": "LG Styler 蒸氣電子衣櫥 奢華鏡面",
+      "identity": {
+        "canonicalModel": "E523MR",
+        "lookupLabel": "LG E523MR",
+        "aliases": [
+          "LG E523MR"
+        ],
+        "evidenceUrl": "https://24h.pchome.com.tw/prod/DPAI1L-A900AMBO4"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "status": "completed",
+        "decision": "no_common_issue",
+        "reviewedAt": "2026-07-23",
+        "checkedPlatforms": [
+          "Dcard",
+          "Reddit"
+        ],
+        "queries": [
+          {
+            "platform": "Dcard",
+            "query": "site:dcard.tw \"LG E523MR\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Adcard.tw%20%22LG%20E523MR%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "dcard.tw"
+          },
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"LG E523MR\" (problem OR issue OR defect OR negative review)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22LG%20E523MR%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+            "targetHost": "reddit.com"
+          }
+        ],
+        "candidateDisposition": "E523MR：已於 2026-07-23 實際重跑 Dcard 與 Reddit exact-model 跨站查詢；兩站結果未發現通過 canonical-model 邊界的原始頁候選。此結果不代表完全沒有負評。",
+        "representativeSources": [],
+        "candidateReviews": [],
+        "reviewerNote": "E523MR 已人工覆核兩個獨立網站的可重現 exact-model 查詢；搜尋引擎只作候選發現，未把系列近似型號、購買詢問或搜尋摘要算成同型號集中災情。",
+        "attestation": "manual_cross_site_search_reviewed_no_candidate"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-07-23",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Dcard",
+            "query": "site:dcard.tw \"LG E523MR\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Adcard.tw%20%22LG%20E523MR%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "dcard.tw"
+          },
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"LG E523MR\" (problem OR issue OR defect OR negative review)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22LG%20E523MR%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+            "targetHost": "reddit.com"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "Yahoo Search",
+          "query": "(\"LG E523MR\") (problem OR issue OR defect OR failure OR 災情 OR 故障 OR 負評) (site:mobile01.com OR site:dcard.tw OR site:ptt.cc OR site:reddit.com OR site:snbforums.com OR site:52asus.com)",
+          "searchUrl": "https://search.yahoo.com/search?p=(%22LG%20E523MR%22)%20(problem%20OR%20issue%20OR%20defect%20OR%20failure%20OR%20%E7%81%BD%E6%83%85%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)%20(site%3Amobile01.com%20OR%20site%3Adcard.tw%20OR%20site%3Aptt.cc%20OR%20site%3Areddit.com%20OR%20site%3Asnbforums.com%20OR%20site%3A52asus.com)",
+          "result": "search_unavailable",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-07-23T00:00:00+08:00",
+          "error": "fetch failed"
+        }
+      ],
+      "evidence": [],
+      "rejectedCandidates": []
+    },
+    {
+      "id": "garmentcare-lg-e523ir",
+      "category": "garmentcare",
+      "brand": "LG",
+      "model": "E523IR",
+      "name": "LG Styler 蒸氣電子衣櫥 亞麻紋象牙白",
+      "identity": {
+        "canonicalModel": "E523IR",
+        "lookupLabel": "LG E523IR",
+        "aliases": [
+          "LG E523IR"
+        ],
+        "evidenceUrl": "https://www.costco.com.tw/Televisions-Appliances/Large-Appliances/Washers-Dryers/LG-WiFi-Styler-Smart-Enabled-Steam-Closet-E523IR/p/133957"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "status": "completed",
+        "decision": "no_common_issue",
+        "reviewedAt": "2026-07-23",
+        "checkedPlatforms": [
+          "Dcard",
+          "Reddit"
+        ],
+        "queries": [
+          {
+            "platform": "Dcard",
+            "query": "site:dcard.tw \"LG E523IR\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Adcard.tw%20%22LG%20E523IR%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "dcard.tw"
+          },
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"LG E523IR\" (problem OR issue OR defect OR negative review)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22LG%20E523IR%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+            "targetHost": "reddit.com"
+          }
+        ],
+        "candidateDisposition": "E523IR：已於 2026-07-23 實際重跑 Dcard 與 Reddit exact-model 跨站查詢；兩站結果未發現通過 canonical-model 邊界的原始頁候選。此結果不代表完全沒有負評。",
+        "representativeSources": [],
+        "candidateReviews": [],
+        "reviewerNote": "E523IR 已人工覆核兩個獨立網站的可重現 exact-model 查詢；搜尋引擎只作候選發現，未把系列近似型號、購買詢問或搜尋摘要算成同型號集中災情。",
+        "attestation": "manual_cross_site_search_reviewed_no_candidate"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-07-23",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Dcard",
+            "query": "site:dcard.tw \"LG E523IR\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Adcard.tw%20%22LG%20E523IR%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "dcard.tw"
+          },
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"LG E523IR\" (problem OR issue OR defect OR negative review)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22LG%20E523IR%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+            "targetHost": "reddit.com"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "Yahoo Search",
+          "query": "(\"LG E523IR\") (problem OR issue OR defect OR failure OR 災情 OR 故障 OR 負評) (site:mobile01.com OR site:dcard.tw OR site:ptt.cc OR site:reddit.com OR site:snbforums.com OR site:52asus.com)",
+          "searchUrl": "https://search.yahoo.com/search?p=(%22LG%20E523IR%22)%20(problem%20OR%20issue%20OR%20defect%20OR%20failure%20OR%20%E7%81%BD%E6%83%85%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)%20(site%3Amobile01.com%20OR%20site%3Adcard.tw%20OR%20site%3Aptt.cc%20OR%20site%3Areddit.com%20OR%20site%3Asnbforums.com%20OR%20site%3A52asus.com)",
+          "result": "search_unavailable",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-07-23T00:00:00+08:00",
+          "error": "fetch failed"
+        }
+      ],
+      "evidence": [],
+      "rejectedCandidates": []
+    },
+    {
+      "id": "garmentcare-lg-sc5gmr80h",
+      "category": "garmentcare",
+      "brand": "LG",
+      "model": "SC5GMR80H",
+      "name": "LG Styler Smart Steam Closet Mirror with HandySteamer",
+      "identity": {
+        "canonicalModel": "SC5GMR80H",
+        "lookupLabel": "LG SC5GMR80H",
+        "aliases": [
+          "LG SC5GMR80H"
+        ],
+        "evidenceUrl": "https://www.lg.com/us/washers-dryers/lg-sc5gmr80h-styler-steam-closet"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "status": "completed",
+        "decision": "no_common_issue",
+        "reviewedAt": "2026-07-23",
+        "checkedPlatforms": [
+          "Dcard",
+          "Reddit"
+        ],
+        "queries": [
+          {
+            "platform": "Dcard",
+            "query": "site:dcard.tw \"LG SC5GMR80H\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Adcard.tw%20%22LG%20SC5GMR80H%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "dcard.tw"
+          },
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"LG SC5GMR80H\" (problem OR issue OR defect OR negative review)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22LG%20SC5GMR80H%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+            "targetHost": "reddit.com"
+          }
+        ],
+        "candidateDisposition": "SC5GMR80H：已於 2026-07-23 實際重跑 Dcard 與 Reddit exact-model 跨站查詢；兩站結果未發現通過 canonical-model 邊界的原始頁候選。此結果不代表完全沒有負評。",
+        "representativeSources": [],
+        "candidateReviews": [],
+        "reviewerNote": "SC5GMR80H 已人工覆核兩個獨立網站的可重現 exact-model 查詢；搜尋引擎只作候選發現，未把系列近似型號、購買詢問或搜尋摘要算成同型號集中災情。",
+        "attestation": "manual_cross_site_search_reviewed_no_candidate"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-07-23",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Dcard",
+            "query": "site:dcard.tw \"LG SC5GMR80H\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Adcard.tw%20%22LG%20SC5GMR80H%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "dcard.tw"
+          },
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"LG SC5GMR80H\" (problem OR issue OR defect OR negative review)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22LG%20SC5GMR80H%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+            "targetHost": "reddit.com"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "Yahoo Search",
+          "query": "(\"LG SC5GMR80H\") (problem OR issue OR defect OR failure OR 災情 OR 故障 OR 負評) (site:mobile01.com OR site:dcard.tw OR site:ptt.cc OR site:reddit.com OR site:snbforums.com OR site:52asus.com)",
+          "searchUrl": "https://search.yahoo.com/search?p=(%22LG%20SC5GMR80H%22)%20(problem%20OR%20issue%20OR%20defect%20OR%20failure%20OR%20%E7%81%BD%E6%83%85%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)%20(site%3Amobile01.com%20OR%20site%3Adcard.tw%20OR%20site%3Aptt.cc%20OR%20site%3Areddit.com%20OR%20site%3Asnbforums.com%20OR%20site%3A52asus.com)",
+          "result": "search_unavailable",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-07-23T00:00:00+08:00",
+          "error": "fetch failed"
+        }
+      ],
+      "evidence": [],
+      "rejectedCandidates": []
+    },
+    {
+      "id": "garmentcare-lg-sc5mar4g",
+      "category": "garmentcare",
+      "brand": "LG",
+      "model": "SC5MAR4G",
+      "name": "LG Styler Smart Steam Closet Beige",
+      "identity": {
+        "canonicalModel": "SC5MAR4G",
+        "lookupLabel": "LG SC5MAR4G",
+        "aliases": [
+          "LG SC5MAR4G"
+        ],
+        "evidenceUrl": "https://www.lg.com/us/washers-dryers/lg-sc5mar4g-styler-steam-closet"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "status": "completed",
+        "decision": "no_common_issue",
+        "reviewedAt": "2026-07-23",
+        "checkedPlatforms": [
+          "Dcard",
+          "Reddit"
+        ],
+        "queries": [
+          {
+            "platform": "Dcard",
+            "query": "site:dcard.tw \"LG SC5MAR4G\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Adcard.tw%20%22LG%20SC5MAR4G%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "dcard.tw"
+          },
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"LG SC5MAR4G\" (problem OR issue OR defect OR negative review)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22LG%20SC5MAR4G%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+            "targetHost": "reddit.com"
+          }
+        ],
+        "candidateDisposition": "SC5MAR4G：已於 2026-07-23 實際重跑 Dcard 與 Reddit exact-model 跨站查詢；兩站結果未發現通過 canonical-model 邊界的原始頁候選。此結果不代表完全沒有負評。",
+        "representativeSources": [],
+        "candidateReviews": [],
+        "reviewerNote": "SC5MAR4G 已人工覆核兩個獨立網站的可重現 exact-model 查詢；搜尋引擎只作候選發現，未把系列近似型號、購買詢問或搜尋摘要算成同型號集中災情。",
+        "attestation": "manual_cross_site_search_reviewed_no_candidate"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-07-23",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Dcard",
+            "query": "site:dcard.tw \"LG SC5MAR4G\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Adcard.tw%20%22LG%20SC5MAR4G%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "dcard.tw"
+          },
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"LG SC5MAR4G\" (problem OR issue OR defect OR negative review)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22LG%20SC5MAR4G%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+            "targetHost": "reddit.com"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "Yahoo Search",
+          "query": "(\"LG SC5MAR4G\") (problem OR issue OR defect OR failure OR 災情 OR 故障 OR 負評) (site:mobile01.com OR site:dcard.tw OR site:ptt.cc OR site:reddit.com OR site:snbforums.com OR site:52asus.com)",
+          "searchUrl": "https://search.yahoo.com/search?p=(%22LG%20SC5MAR4G%22)%20(problem%20OR%20issue%20OR%20defect%20OR%20failure%20OR%20%E7%81%BD%E6%83%85%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)%20(site%3Amobile01.com%20OR%20site%3Adcard.tw%20OR%20site%3Aptt.cc%20OR%20site%3Areddit.com%20OR%20site%3Asnbforums.com%20OR%20site%3A52asus.com)",
+          "result": "search_unavailable",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-07-23T00:00:00+08:00",
+          "error": "fetch failed"
+        }
+      ],
+      "evidence": [],
+      "rejectedCandidates": []
+    },
+    {
+      "id": "garmentcare-lg-s3mfbn",
+      "category": "garmentcare",
+      "brand": "LG",
+      "model": "S3MFBN",
+      "name": "LG Styler Smart Steam Closet Mirror",
+      "identity": {
+        "canonicalModel": "S3MFBN",
+        "lookupLabel": "LG S3MFBN",
+        "aliases": [
+          "LG S3MFBN"
+        ],
+        "evidenceUrl": "https://www.lg.com/us/washers-dryers/lg-s3mfbn-styler-steam-closet"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "status": "completed",
+        "decision": "no_common_issue",
+        "reviewedAt": "2026-07-23",
+        "checkedPlatforms": [
+          "Dcard",
+          "Reddit"
+        ],
+        "queries": [
+          {
+            "platform": "Dcard",
+            "query": "site:dcard.tw \"LG S3MFBN\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Adcard.tw%20%22LG%20S3MFBN%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "dcard.tw"
+          },
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"LG S3MFBN\" (problem OR issue OR defect OR negative review)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22LG%20S3MFBN%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+            "targetHost": "reddit.com"
+          }
+        ],
+        "candidateDisposition": "S3MFBN：已於 2026-07-23 實際重跑 Dcard 與 Reddit exact-model 跨站查詢；搜尋結果曾出現一篇選購比較頁，但原頁標題不含 canonical model，摘要也只是詢問 S3MFBN 與 S3CW 差異，沒有可計入的第一人稱故障回報；經型號邊界過濾後未保留候選。此結果不代表完全沒有負評。",
+        "representativeSources": [],
+        "candidateReviews": [],
+        "reviewerNote": "S3MFBN 已人工覆核兩個獨立網站的可重現 exact-model 查詢；搜尋引擎只作候選發現，未把系列近似型號、購買詢問或搜尋摘要算成同型號集中災情。",
+        "attestation": "manual_cross_site_search_reviewed_no_candidate"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-07-23",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Dcard",
+            "query": "site:dcard.tw \"LG S3MFBN\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Adcard.tw%20%22LG%20S3MFBN%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "dcard.tw"
+          },
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"LG S3MFBN\" (problem OR issue OR defect OR negative review)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22LG%20S3MFBN%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+            "targetHost": "reddit.com"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "Yahoo Search",
+          "query": "(\"LG S3MFBN\") (problem OR issue OR defect OR failure OR 災情 OR 故障 OR 負評) (site:mobile01.com OR site:dcard.tw OR site:ptt.cc OR site:reddit.com OR site:snbforums.com OR site:52asus.com)",
+          "searchUrl": "https://search.yahoo.com/search?p=(%22LG%20S3MFBN%22)%20(problem%20OR%20issue%20OR%20defect%20OR%20failure%20OR%20%E7%81%BD%E6%83%85%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)%20(site%3Amobile01.com%20OR%20site%3Adcard.tw%20OR%20site%3Aptt.cc%20OR%20site%3Areddit.com%20OR%20site%3Asnbforums.com%20OR%20site%3A52asus.com)",
+          "result": "search_unavailable",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-07-23T00:00:00+08:00",
+          "error": "fetch failed"
+        }
+      ],
+      "evidence": [],
+      "rejectedCandidates": []
+    },
+    {
+      "id": "garmentcare-lg-s3wfbn",
+      "category": "garmentcare",
+      "brand": "LG",
+      "model": "S3WFBN",
+      "name": "LG Styler Smart Steam Closet White",
+      "identity": {
+        "canonicalModel": "S3WFBN",
+        "lookupLabel": "LG S3WFBN",
+        "aliases": [
+          "LG S3WFBN"
+        ],
+        "evidenceUrl": "https://www.lg.com/us/washers-dryers/lg-s3wfbn-styler-steam-closet"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "status": "completed",
+        "decision": "no_common_issue",
+        "reviewedAt": "2026-07-23",
+        "checkedPlatforms": [
+          "Dcard",
+          "Reddit"
+        ],
+        "queries": [
+          {
+            "platform": "Dcard",
+            "query": "site:dcard.tw \"LG S3WFBN\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Adcard.tw%20%22LG%20S3WFBN%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "dcard.tw"
+          },
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"LG S3WFBN\" (problem OR issue OR defect OR negative review)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22LG%20S3WFBN%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+            "targetHost": "reddit.com"
+          }
+        ],
+        "candidateDisposition": "S3WFBN：已於 2026-07-23 實際重跑 Dcard 與 Reddit exact-model 跨站查詢；兩站結果未發現通過 canonical-model 邊界的原始頁候選。此結果不代表完全沒有負評。",
+        "representativeSources": [],
+        "candidateReviews": [],
+        "reviewerNote": "S3WFBN 已人工覆核兩個獨立網站的可重現 exact-model 查詢；搜尋引擎只作候選發現，未把系列近似型號、購買詢問或搜尋摘要算成同型號集中災情。",
+        "attestation": "manual_cross_site_search_reviewed_no_candidate"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-07-23",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Dcard",
+            "query": "site:dcard.tw \"LG S3WFBN\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Adcard.tw%20%22LG%20S3WFBN%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "dcard.tw"
+          },
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"LG S3WFBN\" (problem OR issue OR defect OR negative review)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22LG%20S3WFBN%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+            "targetHost": "reddit.com"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "Yahoo Search",
+          "query": "(\"LG S3WFBN\") (problem OR issue OR defect OR failure OR 災情 OR 故障 OR 負評) (site:mobile01.com OR site:dcard.tw OR site:ptt.cc OR site:reddit.com OR site:snbforums.com OR site:52asus.com)",
+          "searchUrl": "https://search.yahoo.com/search?p=(%22LG%20S3WFBN%22)%20(problem%20OR%20issue%20OR%20defect%20OR%20failure%20OR%20%E7%81%BD%E6%83%85%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)%20(site%3Amobile01.com%20OR%20site%3Adcard.tw%20OR%20site%3Aptt.cc%20OR%20site%3Areddit.com%20OR%20site%3Asnbforums.com%20OR%20site%3A52asus.com)",
+          "result": "search_unavailable",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-07-23T00:00:00+08:00",
+          "error": "fetch failed"
+        }
+      ],
+      "evidence": [],
+      "rejectedCandidates": []
+    },
+    {
+      "id": "garmentcare-lg-s3rfbn",
+      "category": "garmentcare",
+      "brand": "LG",
+      "model": "S3RFBN",
+      "name": "LG Styler Smart Steam Closet Espresso",
+      "identity": {
+        "canonicalModel": "S3RFBN",
+        "lookupLabel": "LG S3RFBN",
+        "aliases": [
+          "LG S3RFBN"
+        ],
+        "evidenceUrl": "https://www.lg.com/us/washers-dryers/lg-s3rfbn-styler-steam-closet"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "status": "completed",
+        "decision": "no_common_issue",
+        "reviewedAt": "2026-07-23",
+        "checkedPlatforms": [
+          "Dcard",
+          "Reddit"
+        ],
+        "queries": [
+          {
+            "platform": "Dcard",
+            "query": "site:dcard.tw \"LG S3RFBN\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Adcard.tw%20%22LG%20S3RFBN%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "dcard.tw"
+          },
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"LG S3RFBN\" (problem OR issue OR defect OR negative review)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22LG%20S3RFBN%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+            "targetHost": "reddit.com"
+          }
+        ],
+        "candidateDisposition": "S3RFBN：已於 2026-07-23 實際重跑 Dcard 與 Reddit exact-model 跨站查詢；兩站結果未發現通過 canonical-model 邊界的原始頁候選。此結果不代表完全沒有負評。",
+        "representativeSources": [],
+        "candidateReviews": [],
+        "reviewerNote": "S3RFBN 已人工覆核兩個獨立網站的可重現 exact-model 查詢；搜尋引擎只作候選發現，未把系列近似型號、購買詢問或搜尋摘要算成同型號集中災情。",
+        "attestation": "manual_cross_site_search_reviewed_no_candidate"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-07-23",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Dcard",
+            "query": "site:dcard.tw \"LG S3RFBN\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Adcard.tw%20%22LG%20S3RFBN%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "dcard.tw"
+          },
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"LG S3RFBN\" (problem OR issue OR defect OR negative review)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22LG%20S3RFBN%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+            "targetHost": "reddit.com"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "Yahoo Search",
+          "query": "(\"LG S3RFBN\") (problem OR issue OR defect OR failure OR 災情 OR 故障 OR 負評) (site:mobile01.com OR site:dcard.tw OR site:ptt.cc OR site:reddit.com OR site:snbforums.com OR site:52asus.com)",
+          "searchUrl": "https://search.yahoo.com/search?p=(%22LG%20S3RFBN%22)%20(problem%20OR%20issue%20OR%20defect%20OR%20failure%20OR%20%E7%81%BD%E6%83%85%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)%20(site%3Amobile01.com%20OR%20site%3Adcard.tw%20OR%20site%3Aptt.cc%20OR%20site%3Areddit.com%20OR%20site%3Asnbforums.com%20OR%20site%3A52asus.com)",
+          "result": "search_unavailable",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-07-23T00:00:00+08:00",
+          "error": "fetch failed"
+        }
+      ],
+      "evidence": [],
+      "rejectedCandidates": []
+    },
+    {
+      "id": "garmentcare-samsung-df90h24r5c",
+      "category": "garmentcare",
+      "brand": "Samsung",
+      "model": "DF90H24R5C",
+      "name": "Samsung Bespoke AI AirDresser Crystal Mirror",
+      "identity": {
+        "canonicalModel": "DF90H24R5C",
+        "lookupLabel": "Samsung DF90H24R5C",
+        "aliases": [
+          "Samsung DF90H24R5C"
+        ],
+        "evidenceUrl": "https://prod.danawa.com/info/?pcode=108410873"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "status": "completed",
+        "decision": "no_common_issue",
+        "reviewedAt": "2026-07-23",
+        "checkedPlatforms": [
+          "Dcard",
+          "Reddit"
+        ],
+        "queries": [
+          {
+            "platform": "Dcard",
+            "query": "site:dcard.tw \"Samsung DF90H24R5C\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Adcard.tw%20%22Samsung%20DF90H24R5C%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "dcard.tw"
+          },
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"Samsung DF90H24R5C\" (problem OR issue OR defect OR negative review)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22Samsung%20DF90H24R5C%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+            "targetHost": "reddit.com"
+          }
+        ],
+        "candidateDisposition": "DF90H24R5C：已於 2026-07-23 實際重跑 Dcard 與 Reddit exact-model 跨站查詢；兩站結果未發現通過 canonical-model 邊界的原始頁候選。此結果不代表完全沒有負評。",
+        "representativeSources": [],
+        "candidateReviews": [],
+        "reviewerNote": "DF90H24R5C 已人工覆核兩個獨立網站的可重現 exact-model 查詢；搜尋引擎只作候選發現，未把系列近似型號、購買詢問或搜尋摘要算成同型號集中災情。",
+        "attestation": "manual_cross_site_search_reviewed_no_candidate"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-07-23",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Dcard",
+            "query": "site:dcard.tw \"Samsung DF90H24R5C\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Adcard.tw%20%22Samsung%20DF90H24R5C%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "dcard.tw"
+          },
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"Samsung DF90H24R5C\" (problem OR issue OR defect OR negative review)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22Samsung%20DF90H24R5C%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+            "targetHost": "reddit.com"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "Yahoo Search",
+          "query": "(\"Samsung DF90H24R5C\") (problem OR issue OR defect OR failure OR 災情 OR 故障 OR 負評) (site:mobile01.com OR site:dcard.tw OR site:ptt.cc OR site:reddit.com OR site:snbforums.com OR site:52asus.com)",
+          "searchUrl": "https://search.yahoo.com/search?p=(%22Samsung%20DF90H24R5C%22)%20(problem%20OR%20issue%20OR%20defect%20OR%20failure%20OR%20%E7%81%BD%E6%83%85%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)%20(site%3Amobile01.com%20OR%20site%3Adcard.tw%20OR%20site%3Aptt.cc%20OR%20site%3Areddit.com%20OR%20site%3Asnbforums.com%20OR%20site%3A52asus.com)",
+          "result": "search_unavailable",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-07-23T00:00:00+08:00",
+          "error": "fetch failed"
+        }
+      ],
+      "evidence": [],
+      "rejectedCandidates": []
+    },
+    {
+      "id": "garmentcare-samsung-df90h24r4d",
+      "category": "garmentcare",
+      "brand": "Samsung",
+      "model": "DF90H24R4D",
+      "name": "Samsung Bespoke AI AirDresser Clean White",
+      "identity": {
+        "canonicalModel": "DF90H24R4D",
+        "lookupLabel": "Samsung DF90H24R4D",
+        "aliases": [
+          "Samsung DF90H24R4D"
+        ],
+        "evidenceUrl": "https://prod.danawa.com/info/?pcode=107770493"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "status": "completed",
+        "decision": "no_common_issue",
+        "reviewedAt": "2026-07-23",
+        "checkedPlatforms": [
+          "Dcard",
+          "Reddit"
+        ],
+        "queries": [
+          {
+            "platform": "Dcard",
+            "query": "site:dcard.tw \"Samsung DF90H24R4D\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Adcard.tw%20%22Samsung%20DF90H24R4D%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "dcard.tw"
+          },
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"Samsung DF90H24R4D\" (problem OR issue OR defect OR negative review)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22Samsung%20DF90H24R4D%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+            "targetHost": "reddit.com"
+          }
+        ],
+        "candidateDisposition": "DF90H24R4D：已於 2026-07-23 實際重跑 Dcard 與 Reddit exact-model 跨站查詢；兩站結果未發現通過 canonical-model 邊界的原始頁候選。此結果不代表完全沒有負評。",
+        "representativeSources": [],
+        "candidateReviews": [],
+        "reviewerNote": "DF90H24R4D 已人工覆核兩個獨立網站的可重現 exact-model 查詢；搜尋引擎只作候選發現，未把系列近似型號、購買詢問或搜尋摘要算成同型號集中災情。",
+        "attestation": "manual_cross_site_search_reviewed_no_candidate"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-07-23",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Dcard",
+            "query": "site:dcard.tw \"Samsung DF90H24R4D\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Adcard.tw%20%22Samsung%20DF90H24R4D%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "dcard.tw"
+          },
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"Samsung DF90H24R4D\" (problem OR issue OR defect OR negative review)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22Samsung%20DF90H24R4D%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+            "targetHost": "reddit.com"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "Yahoo Search",
+          "query": "(\"Samsung DF90H24R4D\") (problem OR issue OR defect OR failure OR 災情 OR 故障 OR 負評) (site:mobile01.com OR site:dcard.tw OR site:ptt.cc OR site:reddit.com OR site:snbforums.com OR site:52asus.com)",
+          "searchUrl": "https://search.yahoo.com/search?p=(%22Samsung%20DF90H24R4D%22)%20(problem%20OR%20issue%20OR%20defect%20OR%20failure%20OR%20%E7%81%BD%E6%83%85%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)%20(site%3Amobile01.com%20OR%20site%3Adcard.tw%20OR%20site%3Aptt.cc%20OR%20site%3Areddit.com%20OR%20site%3Asnbforums.com%20OR%20site%3A52asus.com)",
+          "result": "search_unavailable",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-07-23T00:00:00+08:00",
+          "error": "fetch failed"
+        }
+      ],
+      "evidence": [],
+      "rejectedCandidates": []
+    },
+    {
+      "id": "garmentcare-samsung-df90h24r4p",
+      "category": "garmentcare",
+      "brand": "Samsung",
+      "model": "DF90H24R4P",
+      "name": "Samsung Bespoke AI AirDresser Soapstone Platinum",
+      "identity": {
+        "canonicalModel": "DF90H24R4P",
+        "lookupLabel": "Samsung DF90H24R4P",
+        "aliases": [
+          "Samsung DF90H24R4P"
+        ],
+        "evidenceUrl": "https://prod.danawa.com/info/?pcode=107770475"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "status": "completed",
+        "decision": "no_common_issue",
+        "reviewedAt": "2026-07-23",
+        "checkedPlatforms": [
+          "Dcard",
+          "Reddit"
+        ],
+        "queries": [
+          {
+            "platform": "Dcard",
+            "query": "site:dcard.tw \"Samsung DF90H24R4P\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Adcard.tw%20%22Samsung%20DF90H24R4P%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "dcard.tw"
+          },
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"Samsung DF90H24R4P\" (problem OR issue OR defect OR negative review)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22Samsung%20DF90H24R4P%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+            "targetHost": "reddit.com"
+          }
+        ],
+        "candidateDisposition": "DF90H24R4P：已於 2026-07-23 實際重跑 Dcard 與 Reddit exact-model 跨站查詢；兩站結果未發現通過 canonical-model 邊界的原始頁候選。此結果不代表完全沒有負評。",
+        "representativeSources": [],
+        "candidateReviews": [],
+        "reviewerNote": "DF90H24R4P 已人工覆核兩個獨立網站的可重現 exact-model 查詢；搜尋引擎只作候選發現，未把系列近似型號、購買詢問或搜尋摘要算成同型號集中災情。",
+        "attestation": "manual_cross_site_search_reviewed_no_candidate"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-07-23",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Dcard",
+            "query": "site:dcard.tw \"Samsung DF90H24R4P\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Adcard.tw%20%22Samsung%20DF90H24R4P%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "dcard.tw"
+          },
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"Samsung DF90H24R4P\" (problem OR issue OR defect OR negative review)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22Samsung%20DF90H24R4P%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+            "targetHost": "reddit.com"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "Yahoo Search",
+          "query": "(\"Samsung DF90H24R4P\") (problem OR issue OR defect OR failure OR 災情 OR 故障 OR 負評) (site:mobile01.com OR site:dcard.tw OR site:ptt.cc OR site:reddit.com OR site:snbforums.com OR site:52asus.com)",
+          "searchUrl": "https://search.yahoo.com/search?p=(%22Samsung%20DF90H24R4P%22)%20(problem%20OR%20issue%20OR%20defect%20OR%20failure%20OR%20%E7%81%BD%E6%83%85%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)%20(site%3Amobile01.com%20OR%20site%3Adcard.tw%20OR%20site%3Aptt.cc%20OR%20site%3Areddit.com%20OR%20site%3Asnbforums.com%20OR%20site%3A52asus.com)",
+          "result": "search_unavailable",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-07-23T00:00:00+08:00",
+          "error": "fetch failed"
+        }
+      ],
+      "evidence": [],
+      "rejectedCandidates": []
+    },
+    {
+      "id": "garmentcare-samsung-df90h24r4b",
+      "category": "garmentcare",
+      "brand": "Samsung",
+      "model": "DF90H24R4B",
+      "name": "Samsung Bespoke AI AirDresser Soapstone Charcoal",
+      "identity": {
+        "canonicalModel": "DF90H24R4B",
+        "lookupLabel": "Samsung DF90H24R4B",
+        "aliases": [
+          "Samsung DF90H24R4B"
+        ],
+        "evidenceUrl": "https://prod.danawa.com/info/?pcode=107770397"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "status": "completed",
+        "decision": "no_common_issue",
+        "reviewedAt": "2026-07-23",
+        "checkedPlatforms": [
+          "Dcard",
+          "Reddit"
+        ],
+        "queries": [
+          {
+            "platform": "Dcard",
+            "query": "site:dcard.tw \"Samsung DF90H24R4B\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Adcard.tw%20%22Samsung%20DF90H24R4B%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "dcard.tw"
+          },
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"Samsung DF90H24R4B\" (problem OR issue OR defect OR negative review)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22Samsung%20DF90H24R4B%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+            "targetHost": "reddit.com"
+          }
+        ],
+        "candidateDisposition": "DF90H24R4B：已於 2026-07-23 實際重跑 Dcard 與 Reddit exact-model 跨站查詢；兩站結果未發現通過 canonical-model 邊界的原始頁候選。此結果不代表完全沒有負評。",
+        "representativeSources": [],
+        "candidateReviews": [],
+        "reviewerNote": "DF90H24R4B 已人工覆核兩個獨立網站的可重現 exact-model 查詢；搜尋引擎只作候選發現，未把系列近似型號、購買詢問或搜尋摘要算成同型號集中災情。",
+        "attestation": "manual_cross_site_search_reviewed_no_candidate"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-07-23",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Dcard",
+            "query": "site:dcard.tw \"Samsung DF90H24R4B\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Adcard.tw%20%22Samsung%20DF90H24R4B%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "dcard.tw"
+          },
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"Samsung DF90H24R4B\" (problem OR issue OR defect OR negative review)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22Samsung%20DF90H24R4B%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+            "targetHost": "reddit.com"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "Yahoo Search",
+          "query": "(\"Samsung DF90H24R4B\") (problem OR issue OR defect OR failure OR 災情 OR 故障 OR 負評) (site:mobile01.com OR site:dcard.tw OR site:ptt.cc OR site:reddit.com OR site:snbforums.com OR site:52asus.com)",
+          "searchUrl": "https://search.yahoo.com/search?p=(%22Samsung%20DF90H24R4B%22)%20(problem%20OR%20issue%20OR%20defect%20OR%20failure%20OR%20%E7%81%BD%E6%83%85%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)%20(site%3Amobile01.com%20OR%20site%3Adcard.tw%20OR%20site%3Aptt.cc%20OR%20site%3Areddit.com%20OR%20site%3Asnbforums.com%20OR%20site%3A52asus.com)",
+          "result": "search_unavailable",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-07-23T00:00:00+08:00",
+          "error": "fetch failed"
+        }
+      ],
+      "evidence": [],
+      "rejectedCandidates": []
+    },
+    {
+      "id": "garmentcare-samsung-df80h24r1c",
+      "category": "garmentcare",
+      "brand": "Samsung",
+      "model": "DF80H24R1C",
+      "name": "Samsung Bespoke AI AirDresser Slim Crystal Mirror",
+      "identity": {
+        "canonicalModel": "DF80H24R1C",
+        "lookupLabel": "Samsung DF80H24R1C",
+        "aliases": [
+          "Samsung DF80H24R1C"
+        ],
+        "evidenceUrl": "https://prod.danawa.com/info/?pcode=108411020"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "status": "completed",
+        "decision": "no_common_issue",
+        "reviewedAt": "2026-07-23",
+        "checkedPlatforms": [
+          "Dcard",
+          "Reddit"
+        ],
+        "queries": [
+          {
+            "platform": "Dcard",
+            "query": "site:dcard.tw \"Samsung DF80H24R1C\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Adcard.tw%20%22Samsung%20DF80H24R1C%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "dcard.tw"
+          },
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"Samsung DF80H24R1C\" (problem OR issue OR defect OR negative review)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22Samsung%20DF80H24R1C%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+            "targetHost": "reddit.com"
+          }
+        ],
+        "candidateDisposition": "DF80H24R1C：已於 2026-07-23 實際重跑 Dcard 與 Reddit exact-model 跨站查詢；兩站結果未發現通過 canonical-model 邊界的原始頁候選。此結果不代表完全沒有負評。",
+        "representativeSources": [],
+        "candidateReviews": [],
+        "reviewerNote": "DF80H24R1C 已人工覆核兩個獨立網站的可重現 exact-model 查詢；搜尋引擎只作候選發現，未把系列近似型號、購買詢問或搜尋摘要算成同型號集中災情。",
+        "attestation": "manual_cross_site_search_reviewed_no_candidate"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-07-23",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Dcard",
+            "query": "site:dcard.tw \"Samsung DF80H24R1C\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Adcard.tw%20%22Samsung%20DF80H24R1C%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "dcard.tw"
+          },
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"Samsung DF80H24R1C\" (problem OR issue OR defect OR negative review)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22Samsung%20DF80H24R1C%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+            "targetHost": "reddit.com"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "Yahoo Search",
+          "query": "(\"Samsung DF80H24R1C\") (problem OR issue OR defect OR failure OR 災情 OR 故障 OR 負評) (site:mobile01.com OR site:dcard.tw OR site:ptt.cc OR site:reddit.com OR site:snbforums.com OR site:52asus.com)",
+          "searchUrl": "https://search.yahoo.com/search?p=(%22Samsung%20DF80H24R1C%22)%20(problem%20OR%20issue%20OR%20defect%20OR%20failure%20OR%20%E7%81%BD%E6%83%85%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)%20(site%3Amobile01.com%20OR%20site%3Adcard.tw%20OR%20site%3Aptt.cc%20OR%20site%3Areddit.com%20OR%20site%3Asnbforums.com%20OR%20site%3A52asus.com)",
+          "result": "search_unavailable",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-07-23T00:00:00+08:00",
+          "error": "fetch failed"
+        }
+      ],
+      "evidence": [],
+      "rejectedCandidates": []
+    },
+    {
+      "id": "garmentcare-samsung-df80h24r1d",
+      "category": "garmentcare",
+      "brand": "Samsung",
+      "model": "DF80H24R1D",
+      "name": "Samsung Bespoke AI AirDresser Slim Clean White",
+      "identity": {
+        "canonicalModel": "DF80H24R1D",
+        "lookupLabel": "Samsung DF80H24R1D",
+        "aliases": [
+          "Samsung DF80H24R1D"
+        ],
+        "evidenceUrl": "https://prod.danawa.com/info/?pcode=108411242"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "status": "completed",
+        "decision": "no_common_issue",
+        "reviewedAt": "2026-07-23",
+        "checkedPlatforms": [
+          "Dcard",
+          "Reddit"
+        ],
+        "queries": [
+          {
+            "platform": "Dcard",
+            "query": "site:dcard.tw \"Samsung DF80H24R1D\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Adcard.tw%20%22Samsung%20DF80H24R1D%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "dcard.tw"
+          },
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"Samsung DF80H24R1D\" (problem OR issue OR defect OR negative review)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22Samsung%20DF80H24R1D%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+            "targetHost": "reddit.com"
+          }
+        ],
+        "candidateDisposition": "DF80H24R1D：已於 2026-07-23 實際重跑 Dcard 與 Reddit exact-model 跨站查詢；兩站結果未發現通過 canonical-model 邊界的原始頁候選。此結果不代表完全沒有負評。",
+        "representativeSources": [],
+        "candidateReviews": [],
+        "reviewerNote": "DF80H24R1D 已人工覆核兩個獨立網站的可重現 exact-model 查詢；搜尋引擎只作候選發現，未把系列近似型號、購買詢問或搜尋摘要算成同型號集中災情。",
+        "attestation": "manual_cross_site_search_reviewed_no_candidate"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-07-23",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Dcard",
+            "query": "site:dcard.tw \"Samsung DF80H24R1D\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Adcard.tw%20%22Samsung%20DF80H24R1D%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "dcard.tw"
+          },
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"Samsung DF80H24R1D\" (problem OR issue OR defect OR negative review)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22Samsung%20DF80H24R1D%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+            "targetHost": "reddit.com"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "Yahoo Search",
+          "query": "(\"Samsung DF80H24R1D\") (problem OR issue OR defect OR failure OR 災情 OR 故障 OR 負評) (site:mobile01.com OR site:dcard.tw OR site:ptt.cc OR site:reddit.com OR site:snbforums.com OR site:52asus.com)",
+          "searchUrl": "https://search.yahoo.com/search?p=(%22Samsung%20DF80H24R1D%22)%20(problem%20OR%20issue%20OR%20defect%20OR%20failure%20OR%20%E7%81%BD%E6%83%85%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)%20(site%3Amobile01.com%20OR%20site%3Adcard.tw%20OR%20site%3Aptt.cc%20OR%20site%3Areddit.com%20OR%20site%3Asnbforums.com%20OR%20site%3A52asus.com)",
+          "result": "search_unavailable",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-07-23T00:00:00+08:00",
+          "error": "fetch failed"
+        }
+      ],
+      "evidence": [],
+      "rejectedCandidates": []
+    },
+    {
+      "id": "garmentcare-panasonic-hcc-r600al-x",
+      "category": "garmentcare",
+      "brand": "Panasonic",
+      "model": "HCC-R600AL-X",
+      "name": "Panasonic Smart Closet 左開門",
+      "identity": {
+        "canonicalModel": "HCC-R600AL-X",
+        "lookupLabel": "Panasonic HCC-R600AL-X",
+        "aliases": [
+          "Panasonic HCC-R600AL-X"
+        ],
+        "evidenceUrl": "https://www.biccamera.com/bc/item/11581815/"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "status": "completed",
+        "decision": "no_common_issue",
+        "reviewedAt": "2026-07-23",
+        "checkedPlatforms": [
+          "Dcard",
+          "Reddit"
+        ],
+        "queries": [
+          {
+            "platform": "Dcard",
+            "query": "site:dcard.tw \"Panasonic HCC-R600AL-X\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Adcard.tw%20%22Panasonic%20HCC-R600AL-X%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "dcard.tw"
+          },
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"Panasonic HCC-R600AL-X\" (problem OR issue OR defect OR negative review)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22Panasonic%20HCC-R600AL-X%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+            "targetHost": "reddit.com"
+          }
+        ],
+        "candidateDisposition": "HCC-R600AL-X：已於 2026-07-23 實際重跑 Dcard 與 Reddit exact-model 跨站查詢；兩站結果未發現通過 canonical-model 邊界的原始頁候選。此結果不代表完全沒有負評。",
+        "representativeSources": [],
+        "candidateReviews": [],
+        "reviewerNote": "HCC-R600AL-X 已人工覆核兩個獨立網站的可重現 exact-model 查詢；搜尋引擎只作候選發現，未把系列近似型號、購買詢問或搜尋摘要算成同型號集中災情。",
+        "attestation": "manual_cross_site_search_reviewed_no_candidate"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-07-23",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Dcard",
+            "query": "site:dcard.tw \"Panasonic HCC-R600AL-X\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Adcard.tw%20%22Panasonic%20HCC-R600AL-X%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "dcard.tw"
+          },
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"Panasonic HCC-R600AL-X\" (problem OR issue OR defect OR negative review)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22Panasonic%20HCC-R600AL-X%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+            "targetHost": "reddit.com"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "Yahoo Search",
+          "query": "(\"Panasonic HCC-R600AL-X\") (problem OR issue OR defect OR failure OR 災情 OR 故障 OR 負評) (site:mobile01.com OR site:dcard.tw OR site:ptt.cc OR site:reddit.com OR site:snbforums.com OR site:52asus.com)",
+          "searchUrl": "https://search.yahoo.com/search?p=(%22Panasonic%20HCC-R600AL-X%22)%20(problem%20OR%20issue%20OR%20defect%20OR%20failure%20OR%20%E7%81%BD%E6%83%85%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)%20(site%3Amobile01.com%20OR%20site%3Adcard.tw%20OR%20site%3Aptt.cc%20OR%20site%3Areddit.com%20OR%20site%3Asnbforums.com%20OR%20site%3A52asus.com)",
+          "result": "search_unavailable",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-07-23T00:00:00+08:00",
+          "error": "fetch failed"
+        }
+      ],
+      "evidence": [],
+      "rejectedCandidates": []
+    },
+    {
+      "id": "garmentcare-panasonic-hcc-r600ar-x",
+      "category": "garmentcare",
+      "brand": "Panasonic",
+      "model": "HCC-R600AR-X",
+      "name": "Panasonic Smart Closet 右開門",
+      "identity": {
+        "canonicalModel": "HCC-R600AR-X",
+        "lookupLabel": "Panasonic HCC-R600AR-X",
+        "aliases": [
+          "Panasonic HCC-R600AR-X"
+        ],
+        "evidenceUrl": "https://www.biccamera.com/bc/item/11581816/"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "status": "completed",
+        "decision": "no_common_issue",
+        "reviewedAt": "2026-07-23",
+        "checkedPlatforms": [
+          "Dcard",
+          "Reddit"
+        ],
+        "queries": [
+          {
+            "platform": "Dcard",
+            "query": "site:dcard.tw \"Panasonic HCC-R600AR-X\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Adcard.tw%20%22Panasonic%20HCC-R600AR-X%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "dcard.tw"
+          },
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"Panasonic HCC-R600AR-X\" (problem OR issue OR defect OR negative review)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22Panasonic%20HCC-R600AR-X%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+            "targetHost": "reddit.com"
+          }
+        ],
+        "candidateDisposition": "HCC-R600AR-X：已於 2026-07-23 實際重跑 Dcard 與 Reddit exact-model 跨站查詢；兩站結果未發現通過 canonical-model 邊界的原始頁候選。此結果不代表完全沒有負評。",
+        "representativeSources": [],
+        "candidateReviews": [],
+        "reviewerNote": "HCC-R600AR-X 已人工覆核兩個獨立網站的可重現 exact-model 查詢；搜尋引擎只作候選發現，未把系列近似型號、購買詢問或搜尋摘要算成同型號集中災情。",
+        "attestation": "manual_cross_site_search_reviewed_no_candidate"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-07-23",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Dcard",
+            "query": "site:dcard.tw \"Panasonic HCC-R600AR-X\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Adcard.tw%20%22Panasonic%20HCC-R600AR-X%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "dcard.tw"
+          },
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"Panasonic HCC-R600AR-X\" (problem OR issue OR defect OR negative review)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22Panasonic%20HCC-R600AR-X%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+            "targetHost": "reddit.com"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "Yahoo Search",
+          "query": "(\"Panasonic HCC-R600AR-X\") (problem OR issue OR defect OR failure OR 災情 OR 故障 OR 負評) (site:mobile01.com OR site:dcard.tw OR site:ptt.cc OR site:reddit.com OR site:snbforums.com OR site:52asus.com)",
+          "searchUrl": "https://search.yahoo.com/search?p=(%22Panasonic%20HCC-R600AR-X%22)%20(problem%20OR%20issue%20OR%20defect%20OR%20failure%20OR%20%E7%81%BD%E6%83%85%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)%20(site%3Amobile01.com%20OR%20site%3Adcard.tw%20OR%20site%3Aptt.cc%20OR%20site%3Areddit.com%20OR%20site%3Asnbforums.com%20OR%20site%3A52asus.com)",
+          "result": "search_unavailable",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-07-23T00:00:00+08:00",
+          "error": "fetch failed"
         }
       ],
       "evidence": [],
@@ -67460,291 +69318,6 @@
       ],
       "evidence": [],
       "rejectedCandidates": []
-    },
-    {
-      "id": "ap-dyson-hj10",
-      "category": "purifier",
-      "brand": "Dyson",
-      "model": "HJ10",
-      "name": "HushJet Purifier Compact 噴射氣流空氣清淨機",
-      "identity": {
-        "canonicalModel": "HJ10",
-        "lookupLabel": "Dyson HJ10",
-        "aliases": [
-          "Dyson HJ10"
-        ],
-        "evidenceUrl": "https://24h.pchome.com.tw/prod/DMAU3C-1900JXJZ8"
-      },
-      "workflowStatus": "completed",
-      "manualReview": {
-        "status": "completed",
-        "decision": "no_common_issue",
-        "reviewedAt": "2026-07-22",
-        "checkedPlatforms": [
-          "Mobile01",
-          "Reddit"
-        ],
-        "queries": [
-          {
-            "platform": "Mobile01",
-            "query": "site:mobile01.com \"Dyson HJ10\" (災情 OR 問題 OR 故障 OR 負評)",
-            "queryUrl": "https://www.bing.com/search?q=site%3Amobile01.com%20%22Dyson%20HJ10%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
-            "targetHost": "mobile01.com"
-          },
-          {
-            "platform": "Reddit",
-            "query": "site:reddit.com \"Dyson HJ10\" (problem OR issue OR defect OR \"negative review\")",
-            "queryUrl": "https://www.bing.com/search?q=site%3Areddit.com%20%22Dyson%20HJ10%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
-            "targetHost": "reddit.com"
-          }
-        ],
-        "candidateDisposition": "HJ10 的 exact-model 原始頁候選均已逐頁覆核，未形成跨兩個獨立網站、至少 6 位第一人稱使用者回報同一問題的門檻。",
-        "representativeSources": [
-          {
-            "platform": "Mobile01",
-            "title": "Dyson Hj10空氣清淨機評價如何？",
-            "url": "https://www.mobile01.com/topicdetail.php?f=731&t=7235978"
-          }
-        ],
-        "candidateReviews": [
-          {
-            "platform": "Mobile01",
-            "title": "Dyson Hj10空氣清淨機評價如何？",
-            "url": "https://www.mobile01.com/topicdetail.php?f=731&t=7235978",
-            "sourceExcerpt": "自用者表示環境極安靜時，風速 3 以上仍聽得到運轉聲，且 HJ10 的聲音相較大金偏高頻。",
-            "independentAuthors": 1,
-            "specificReason": "原頁只有 1 位可辨識的 HJ10 第一人稱使用者描述噪音感受，且只來自 Mobile01 一個網站，未達 6 人與跨 2 網站門檻。",
-            "reviewedAt": "2026-07-22",
-            "exactModel": true,
-            "outcome": "excluded"
-          }
-        ],
-        "reviewerNote": "HJ10 已完成 Mobile01 與 Reddit exact-model 查詢；搜尋結果只作候選發現，決策以原始頁人工覆核為準。",
-        "attestation": "manual_original_pages_reviewed"
-      },
-      "issueResearch": {
-        "status": "no_common_issue",
-        "checkedAt": "2026-07-22",
-        "summary": "截至查核日，查無達門檻的集中負評／災情",
-        "issues": [],
-        "checkedSources": [
-          {
-            "platform": "Mobile01",
-            "query": "site:mobile01.com \"Dyson HJ10\" (災情 OR 問題 OR 故障 OR 負評)",
-            "queryUrl": "https://www.bing.com/search?q=site%3Amobile01.com%20%22Dyson%20HJ10%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
-            "targetHost": "mobile01.com"
-          },
-          {
-            "platform": "Reddit",
-            "query": "site:reddit.com \"Dyson HJ10\" (problem OR issue OR defect OR \"negative review\")",
-            "queryUrl": "https://www.bing.com/search?q=site%3Areddit.com%20%22Dyson%20HJ10%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
-            "targetHost": "reddit.com"
-          }
-        ]
-      },
-      "searchChecks": [
-        {
-          "platform": "Bing Search",
-          "query": "site:mobile01.com \"Dyson HJ10\" (災情 OR 問題 OR 故障 OR 負評)",
-          "searchUrl": "https://www.bing.com/search?q=site%3Amobile01.com%20%22Dyson%20HJ10%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
-          "result": "candidates_unverified_by_search_only",
-          "resultCount": 1,
-          "candidateUrls": [
-            "https://www.mobile01.com/topicdetail.php?f=731&t=7235978"
-          ],
-          "candidates": [
-            {
-              "url": "https://www.mobile01.com/topicdetail.php?f=731&t=7235978",
-              "title": "Dyson Hj10空氣清淨機評價如何？"
-            }
-          ],
-          "inspectedAt": "2026-07-22T11:30:00+08:00"
-        },
-        {
-          "platform": "Bing Search",
-          "query": "site:reddit.com \"Dyson HJ10\" (problem OR issue OR defect OR \"negative review\")",
-          "searchUrl": "https://www.bing.com/search?q=site%3Areddit.com%20%22Dyson%20HJ10%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
-          "result": "no_exact_model_result",
-          "resultCount": 0,
-          "candidateUrls": [],
-          "candidates": [],
-          "inspectedAt": "2026-07-22T11:30:00+08:00"
-        }
-      ],
-      "evidence": [],
-      "rejectedCandidates": [
-        {
-          "platform": "Mobile01",
-          "title": "Dyson Hj10空氣清淨機評價如何？",
-          "url": "https://www.mobile01.com/topicdetail.php?f=731&t=7235978",
-          "sourceExcerpt": "自用者表示環境極安靜時，風速 3 以上仍聽得到運轉聲，且 HJ10 的聲音相較大金偏高頻。",
-          "independentAuthors": 1,
-          "specificReason": "原頁只有 1 位可辨識的 HJ10 第一人稱使用者描述噪音感受，且只來自 Mobile01 一個網站，未達 6 人與跨 2 網站門檻。",
-          "reviewedAt": "2026-07-22",
-          "exactModel": true,
-          "outcome": "excluded",
-          "reason": "原頁只有 1 位可辨識的 HJ10 第一人稱使用者描述噪音感受，且只來自 Mobile01 一個網站，未達 6 人與跨 2 網站門檻。"
-        }
-      ]
-    },
-    {
-      "id": "washerdryer-lg-wd-s2220b",
-      "category": "washerdryer",
-      "brand": "LG",
-      "model": "WD-S2220B",
-      "name": "LG WashTower AI 智控洗乾衣機第二代",
-      "identity": {
-        "canonicalModel": "WD-S2220B",
-        "lookupLabel": "LG WD-S2220B",
-        "aliases": [
-          "LG WD-S2220B"
-        ],
-        "evidenceUrl": "https://24h.pchome.com.tw/prod/DPAI1L-A900IXKBU"
-      },
-      "workflowStatus": "completed",
-      "manualReview": {
-        "status": "completed",
-        "decision": "no_common_issue",
-        "reviewedAt": "2026-07-22",
-        "checkedPlatforms": [
-          "Mobile01",
-          "Reddit"
-        ],
-        "queries": [
-          {
-            "platform": "Mobile01",
-            "query": "site:mobile01.com \"LG WD-S2220B\" (災情 OR 問題 OR 故障 OR 負評)",
-            "queryUrl": "https://www.bing.com/search?q=site%3Amobile01.com%20%22LG%20WD-S2220B%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
-            "targetHost": "mobile01.com"
-          },
-          {
-            "platform": "Reddit",
-            "query": "site:reddit.com \"LG WD-S2220B\" (problem OR issue OR defect OR \"negative review\")",
-            "queryUrl": "https://www.bing.com/search?q=site%3Areddit.com%20%22LG%20WD-S2220B%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
-            "targetHost": "reddit.com"
-          }
-        ],
-        "candidateDisposition": "WD-S2220B 的 exact-model 原始頁候選均已逐頁覆核，未形成跨兩個獨立網站、至少 6 位第一人稱使用者回報同一問題的門檻。",
-        "representativeSources": [
-          {
-            "platform": "Mobile01",
-            "title": "LG Washtower WD-S2220B 洗衣機+烘乾機",
-            "url": "https://www.mobile01.com/topicdetail.php?f=730&t=7136558"
-          },
-          {
-            "platform": "Mobile01",
-            "title": "雙薪家庭洗衣機選擇 LG WD-S2220B、國際NA-V170RPH-K",
-            "url": "https://www.mobile01.com/topicdetail.php?f=730&t=7134807"
-          }
-        ],
-        "candidateReviews": [
-          {
-            "platform": "Mobile01",
-            "title": "LG Washtower WD-S2220B 洗衣機+烘乾機",
-            "url": "https://www.mobile01.com/topicdetail.php?f=730&t=7136558",
-            "sourceExcerpt": "樓主自用後表示衣服烘完目視仍有一定程度縮水，並記錄新機的洗烘與耗電體驗。",
-            "independentAuthors": 1,
-            "specificReason": "原頁只有 1 位 WD-S2220B 第一人稱使用者提到烘後縮水，其他回覆未形成相同問題的獨立回報，且只來自一個網站。",
-            "reviewedAt": "2026-07-22",
-            "exactModel": true,
-            "outcome": "excluded"
-          },
-          {
-            "platform": "Mobile01",
-            "title": "雙薪家庭洗衣機選擇 LG WD-S2220B、國際NA-V170RPH-K",
-            "url": "https://www.mobile01.com/topicdetail.php?f=730&t=7134807",
-            "sourceExcerpt": "討論以購買選擇為主，回覆者多談使用習慣或其他容量機種，沒有形成 WD-S2220B 同型號集中故障回報。",
-            "independentAuthors": 0,
-            "specificReason": "此頁主要是選購討論，未找到可計入的 WD-S2220B 第一人稱同型號故障回報，不能拿相關系列或其他容量機種推定災情。",
-            "reviewedAt": "2026-07-22",
-            "exactModel": true,
-            "outcome": "excluded"
-          }
-        ],
-        "reviewerNote": "WD-S2220B 已完成 Mobile01 與 Reddit exact-model 查詢；搜尋結果只作候選發現，決策以原始頁人工覆核為準。",
-        "attestation": "manual_original_pages_reviewed"
-      },
-      "issueResearch": {
-        "status": "no_common_issue",
-        "checkedAt": "2026-07-22",
-        "summary": "截至查核日，查無達門檻的集中負評／災情",
-        "issues": [],
-        "checkedSources": [
-          {
-            "platform": "Mobile01",
-            "query": "site:mobile01.com \"LG WD-S2220B\" (災情 OR 問題 OR 故障 OR 負評)",
-            "queryUrl": "https://www.bing.com/search?q=site%3Amobile01.com%20%22LG%20WD-S2220B%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
-            "targetHost": "mobile01.com"
-          },
-          {
-            "platform": "Reddit",
-            "query": "site:reddit.com \"LG WD-S2220B\" (problem OR issue OR defect OR \"negative review\")",
-            "queryUrl": "https://www.bing.com/search?q=site%3Areddit.com%20%22LG%20WD-S2220B%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
-            "targetHost": "reddit.com"
-          }
-        ]
-      },
-      "searchChecks": [
-        {
-          "platform": "Bing Search",
-          "query": "site:mobile01.com \"LG WD-S2220B\" (災情 OR 問題 OR 故障 OR 負評)",
-          "searchUrl": "https://www.bing.com/search?q=site%3Amobile01.com%20%22LG%20WD-S2220B%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
-          "result": "candidates_unverified_by_search_only",
-          "resultCount": 2,
-          "candidateUrls": [
-            "https://www.mobile01.com/topicdetail.php?f=730&t=7136558",
-            "https://www.mobile01.com/topicdetail.php?f=730&t=7134807"
-          ],
-          "candidates": [
-            {
-              "url": "https://www.mobile01.com/topicdetail.php?f=730&t=7136558",
-              "title": "LG Washtower WD-S2220B 洗衣機+烘乾機"
-            },
-            {
-              "url": "https://www.mobile01.com/topicdetail.php?f=730&t=7134807",
-              "title": "雙薪家庭洗衣機選擇 LG WD-S2220B、國際NA-V170RPH-K"
-            }
-          ],
-          "inspectedAt": "2026-07-22T11:30:00+08:00"
-        },
-        {
-          "platform": "Bing Search",
-          "query": "site:reddit.com \"LG WD-S2220B\" (problem OR issue OR defect OR \"negative review\")",
-          "searchUrl": "https://www.bing.com/search?q=site%3Areddit.com%20%22LG%20WD-S2220B%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
-          "result": "no_exact_model_result",
-          "resultCount": 0,
-          "candidateUrls": [],
-          "candidates": [],
-          "inspectedAt": "2026-07-22T11:30:00+08:00"
-        }
-      ],
-      "evidence": [],
-      "rejectedCandidates": [
-        {
-          "platform": "Mobile01",
-          "title": "LG Washtower WD-S2220B 洗衣機+烘乾機",
-          "url": "https://www.mobile01.com/topicdetail.php?f=730&t=7136558",
-          "sourceExcerpt": "樓主自用後表示衣服烘完目視仍有一定程度縮水，並記錄新機的洗烘與耗電體驗。",
-          "independentAuthors": 1,
-          "specificReason": "原頁只有 1 位 WD-S2220B 第一人稱使用者提到烘後縮水，其他回覆未形成相同問題的獨立回報，且只來自一個網站。",
-          "reviewedAt": "2026-07-22",
-          "exactModel": true,
-          "outcome": "excluded",
-          "reason": "原頁只有 1 位 WD-S2220B 第一人稱使用者提到烘後縮水，其他回覆未形成相同問題的獨立回報，且只來自一個網站。"
-        },
-        {
-          "platform": "Mobile01",
-          "title": "雙薪家庭洗衣機選擇 LG WD-S2220B、國際NA-V170RPH-K",
-          "url": "https://www.mobile01.com/topicdetail.php?f=730&t=7134807",
-          "sourceExcerpt": "討論以購買選擇為主，回覆者多談使用習慣或其他容量機種，沒有形成 WD-S2220B 同型號集中故障回報。",
-          "independentAuthors": 0,
-          "specificReason": "此頁主要是選購討論，未找到可計入的 WD-S2220B 第一人稱同型號故障回報，不能拿相關系列或其他容量機種推定災情。",
-          "reviewedAt": "2026-07-22",
-          "exactModel": true,
-          "outcome": "excluded",
-          "reason": "此頁主要是選購討論，未找到可計入的 WD-S2220B 第一人稱同型號故障回報，不能拿相關系列或其他容量機種推定災情。"
-        }
-      ]
     }
   ]
 }

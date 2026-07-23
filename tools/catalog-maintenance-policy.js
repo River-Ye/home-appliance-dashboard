@@ -31,6 +31,7 @@ const EXPLICIT_DISCONTINUATION_PATTERNS = [
 
 const REVIEWED_PCHOME_BINDINGS = new Map([
   ["dishwasher-haier-h500", "DMBR25-A900IUNDB"],
+  ["garmentcare-lg-r723wg", "DPAI1L-A900HWRUQ"],
   ["monitor-dell-aw3225qf", "DSABOK-A900HB1B5"],
   ["monitor-lg-45gx90sa", "DSBC1Z-A900J732D"],
   ["robot-ecovacs-t50-pro", "DMBL0L-A900IDIPA"],

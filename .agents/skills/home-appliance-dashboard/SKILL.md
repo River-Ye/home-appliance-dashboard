@@ -18,7 +18,7 @@ Use a dedicated git worktree and short-lived `codex/` branch for repo changes un
 
 ## GEO And AI Search Workflow
 
-- The site has exactly 25 generated static category guides at `/categories/<id>/`; do not create one thin page per product or add tracking for GEO work.
+- The site has one generated static guide for every configured category (currently 26) at `/categories/<id>/`; do not create one thin page per product or add tracking for GEO work.
 - Maintain category-level intros, three buying criteria, and three FAQs in `tools/category-guides.js`. Product facts continue to come from `assets/js/config.js` and `products/*.js`.
 - Keep the shared site name, homepage title, description, H1, and visible AI disclosure in `tools/geo-config.js`; metadata, JSON-LD, generated guides, and `llms.txt` must use the same contract.
 - After any product, category, guide, or homepage CSS source change, run `npm run generate:categories`, then `npm run check:geo`. Do not hand-edit `assets/css/app.css`, `categories/<id>/index.html`, `sitemap.xml`, `llms.txt`, or the generated GEO blocks in `index.html`.

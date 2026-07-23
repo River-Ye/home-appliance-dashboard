@@ -941,8 +941,8 @@
     "image": "https://cs-a.ecimg.tw/items/DMAWEMA900GDIXH/000001_1774485785.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 18810,
-      "converted": 18810,
+      "amount": 20900,
+      "converted": 20900,
       "confidence": "PChome 2026-07-23 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "channel": "tw",
@@ -1668,7 +1668,7 @@
     "price": {
       "currency": "USD",
       "amount": 369.99,
-      "converted": 11967,
+      "converted": 11991,
       "confidence": "Costco US 2026-07-21 來源價；ExchangeRate-API 2026-07-21 匯率換算"
     },
     "image": "https://bfasset.costco-static.com/U447IH35/as/4xjr3phfqx7p9vvxzfhp3jp/100457228-847_chrome_1?auto=webp&format=jpg",

@@ -85,6 +85,13 @@ function main() {
   assert(index.includes(`id="dataDate">${meta.dataDate}</strong>`), "index data date fallback is stale");
   assert(index.includes(`資料更新日為 ${meta.dataDate}。`), "index footer data date is stale");
   assert(index.includes(`id="exchangeSummary">${meta.exchangeSummary}</span>`), "index exchange fallback is stale");
+  assert(
+    index.includes(`由 AI 協作整理 ${categories.length} 類、${products.length} 款可信新品，快速比較價格、規格、入手時機與同型號負評。`),
+    "index visible catalog summary count is stale",
+  );
+  assert(index.includes(`正在載入 ${categories.length} 類商品資料。`), "index loading status category count is stale");
+  assert(index.includes(`${categories.length} 類快速答案`), "index quick-answer category count is stale");
+  assert(index.includes(`${categories.length} 類可獨立閱讀指南`), "index category-guide count is stale");
   assert(!index.includes("<script src=\"./products/"), "index should not list product scripts manually");
   assert(index.includes("assets/js/product-loader.js"), "index should load product-loader.js");
   const homepageStylesheets = [...index.matchAll(/<link rel="stylesheet" href="\.\/assets\/css\/([^?\"]+)\?v=[^\"]+">/g)]

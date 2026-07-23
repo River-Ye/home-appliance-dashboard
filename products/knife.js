@@ -1493,9 +1493,9 @@
     "name": "料理刀水果刀含刀套",
     "price": {
       "currency": "TWD",
-      "amount": 697,
-      "converted": 697,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 662,
+      "converted": 662,
+      "confidence": "PChome 2026-07-23 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DEAWRUA900HDKXQ/000001_1712727942.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DEAWRU-A900HDKXQ",

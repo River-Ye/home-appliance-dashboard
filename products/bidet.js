@@ -797,9 +797,9 @@
     "name": "儲熱式溫水洗淨便座含原廠基本安裝",
     "price": {
       "currency": "TWD",
-      "amount": 6190,
-      "converted": 6190,
-      "confidence": "PChome 2026-07-22 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 6990,
+      "converted": 6990,
+      "confidence": "PChome 2026-07-23 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAL8LA900GH6F4/000001_1724400418.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAL8L-A900GH6F4",
@@ -1500,7 +1500,7 @@
     "price": {
       "currency": "USD",
       "amount": 399.99,
-      "converted": 12937,
+      "converted": 12964,
       "confidence": "Costco US 2026-07-21 來源價；ExchangeRate-API 2026-07-21 匯率換算"
     },
     "image": "https://bfasset.costco-static.com/U447IH35/as/k83n76pfjhvqcf9gfrz74sx/1432187-847__1?auto=webp&format=jpg",

@@ -254,8 +254,8 @@
     "name": "BE3600 雙頻 Wi-Fi 7 AiMesh 可擴充路由器",
     "price": {
       "currency": "TWD",
-      "amount": 3699,
-      "converted": 3699,
+      "amount": 3552,
+      "converted": 3552,
       "confidence": "Yahoo購物中心 2026-07-23 exact-model 公開結構化價格"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAFLPA900JKWXK/000001_1783555436.jpg",
@@ -663,7 +663,7 @@
     "price": {
       "currency": "USD",
       "amount": 189,
-      "converted": 6113,
+      "converted": 6125,
       "confidence": "Ubiquiti Store 2026-07-21 來源價；ExchangeRate-API 2026-07-21 匯率換算"
     },
     "image": "https://cdn.ecomm.ui.com/products/fa8dd4e4-36c8-4c79-a928-22c7bff2ce29/ab5bc8a4-6135-402e-a695-e3ea5e16d3e6.png",
@@ -752,7 +752,7 @@
     "price": {
       "currency": "USD",
       "amount": 159,
-      "converted": 5143,
+      "converted": 5153,
       "confidence": "Ubiquiti Store 2026-07-21 來源價；ExchangeRate-API 2026-07-21 匯率換算"
     },
     "image": "https://cdn.ecomm.ui.com/products/8e88b222-7a55-4cf0-8677-ae9b6347fe84/e16aa122-b5e5-4ffb-9f1a-27ee14d9ab3d.png",
@@ -832,7 +832,7 @@
     "price": {
       "currency": "USD",
       "amount": 99,
-      "converted": 3202,
+      "converted": 3209,
       "confidence": "Ubiquiti Store 2026-07-21 來源價；ExchangeRate-API 2026-07-21 匯率換算"
     },
     "image": "https://cdn.ecomm.ui.com/products/253cc208-4b09-4b2e-9d1a-7aa1e8f93507/49241c96-878f-4e40-8541-c2e89c1c5e6e.png",
@@ -1236,7 +1236,7 @@
     "price": {
       "currency": "USD",
       "amount": 129,
-      "converted": 4172,
+      "converted": 4181,
       "confidence": "Ubiquiti Store 2026-07-21 來源價；ExchangeRate-API 2026-07-21 匯率換算"
     },
     "image": "https://cdn.ecomm.ui.com/products/6d5c6141-e2e9-416a-b789-53e59416bb1a/853bc73b-f65b-4e59-a171-75c9a4a4615e.png",
@@ -1340,7 +1340,7 @@
     "price": {
       "currency": "USD",
       "amount": 279,
-      "converted": 9024,
+      "converted": 9042,
       "confidence": "Ubiquiti Store 2026-07-21 來源價；ExchangeRate-API 2026-07-21 匯率換算"
     },
     "image": "https://cdn.ecomm.ui.com/products/350070a0-ae43-431b-b052-8e849c3b0a75/bad94693-bc54-4ab4-b060-9b972401941c.png",
@@ -1434,8 +1434,8 @@
     "name": "BE6500 雙頻 Wi-Fi 7 路由器",
     "price": {
       "currency": "TWD",
-      "amount": 4990,
-      "converted": 4990,
+      "amount": 4791,
+      "converted": 4791,
       "confidence": "Yahoo購物中心 2026-07-23 exact-model 公開結構化價格"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAFLPA900IV4B6/000001_1783556530.jpg",
@@ -2386,8 +2386,8 @@
     "name": "三頻 Wi-Fi 6 Router 無線路由器",
     "price": {
       "currency": "TWD",
-      "amount": 9999,
-      "converted": 9999,
+      "amount": 9600,
+      "converted": 9600,
       "confidence": "Yahoo購物中心 2026-07-23 exact-model 公開結構化價格"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBS4VA900JIQU0/000001_1764896894.jpg",

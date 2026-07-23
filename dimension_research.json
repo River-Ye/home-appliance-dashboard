@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-22",
+  "generatedAt": "2026-07-23",
   "sourcePolicy": "機身尺寸優先官方產品頁或官方規格 PDF，其次可信通路；排除包裝與外箱尺寸。",
   "results": [
     {
@@ -921,6 +921,206 @@
       "confidence": "high",
       "isOfficialSource": true,
       "checkedAt": "2026-07-22"
+    },
+    {
+      "id": "garmentcare-lg-r723wg",
+      "dimension": "尺寸：寬 60 x 深 62 x 高 196.5 cm",
+      "sourceUrl": "https://www.lg.com/tw/washer-dryers/styler/r723wg/",
+      "sourceTitle": "LG R723WG 官方產品／規格頁",
+      "evidenceSnippet": "R723WG 官方規格列出機身尺寸；本列轉為「寬 x 深 x 高 cm」格式，未使用包裝或外箱尺寸。",
+      "confidence": "high",
+      "isOfficialSource": true,
+      "checkedAt": "2026-07-23"
+    },
+    {
+      "id": "garmentcare-lg-e523mw",
+      "dimension": "尺寸：寬 44.5 x 深 58.5 x 高 185 cm",
+      "sourceUrl": "https://www.lg.com/tw/washer-dryers/styler/e523mw/",
+      "sourceTitle": "LG E523MW 官方產品／規格頁",
+      "evidenceSnippet": "E523MW 官方規格列出機身尺寸；本列轉為「寬 x 深 x 高 cm」格式，未使用包裝或外箱尺寸。",
+      "confidence": "high",
+      "isOfficialSource": true,
+      "checkedAt": "2026-07-23"
+    },
+    {
+      "id": "garmentcare-lg-r723mb",
+      "dimension": "尺寸：寬 60 x 深 62 x 高 196.5 cm",
+      "sourceUrl": "https://www.lg.com/tw/washer-dryers/styler/r723mb/",
+      "sourceTitle": "LG R723MB 官方產品／規格頁",
+      "evidenceSnippet": "R723MB 官方規格列出機身尺寸；本列轉為「寬 x 深 x 高 cm」格式，未使用包裝或外箱尺寸。",
+      "confidence": "high",
+      "isOfficialSource": true,
+      "checkedAt": "2026-07-23"
+    },
+    {
+      "id": "garmentcare-lg-r723sb",
+      "dimension": "尺寸：寬 60 x 深 62 x 高 196.5 cm",
+      "sourceUrl": "https://www.lg.com/tw/washer-dryers/styler/r723sb/",
+      "sourceTitle": "LG R723SB 官方產品／規格頁",
+      "evidenceSnippet": "R723SB 官方規格列出機身尺寸；本列轉為「寬 x 深 x 高 cm」格式，未使用包裝或外箱尺寸。",
+      "confidence": "high",
+      "isOfficialSource": true,
+      "checkedAt": "2026-07-23"
+    },
+    {
+      "id": "garmentcare-lg-r723mg",
+      "dimension": "尺寸：寬 60 x 深 62 x 高 196.5 cm",
+      "sourceUrl": "https://www.lg.com/tw/washer-dryers/styler/r723mg/",
+      "sourceTitle": "LG R723MG 官方產品／規格頁",
+      "evidenceSnippet": "R723MG 官方規格列出機身尺寸；本列轉為「寬 x 深 x 高 cm」格式，未使用包裝或外箱尺寸。",
+      "confidence": "high",
+      "isOfficialSource": true,
+      "checkedAt": "2026-07-23"
+    },
+    {
+      "id": "garmentcare-lg-e523mr",
+      "dimension": "尺寸：寬 44.5 x 深 58.5 x 高 185 cm",
+      "sourceUrl": "https://www.lg.com/tw/washer-dryers/styler/e523mr/",
+      "sourceTitle": "LG E523MR 官方產品／規格頁",
+      "evidenceSnippet": "E523MR 官方規格列出機身尺寸；本列轉為「寬 x 深 x 高 cm」格式，未使用包裝或外箱尺寸。",
+      "confidence": "high",
+      "isOfficialSource": true,
+      "checkedAt": "2026-07-23"
+    },
+    {
+      "id": "garmentcare-lg-e523ir",
+      "dimension": "尺寸：寬 44.5 x 深 58.5 x 高 185 cm",
+      "sourceUrl": "https://www.lg.com/tw/washer-dryers/styler/e523ir/",
+      "sourceTitle": "LG E523IR 官方產品／規格頁",
+      "evidenceSnippet": "E523IR 官方規格列出機身尺寸；本列轉為「寬 x 深 x 高 cm」格式，未使用包裝或外箱尺寸。",
+      "confidence": "high",
+      "isOfficialSource": true,
+      "checkedAt": "2026-07-23"
+    },
+    {
+      "id": "garmentcare-lg-sc5gmr80h",
+      "dimension": "尺寸：寬 60 x 深 61.9 x 高 196.5 cm",
+      "sourceUrl": "https://www.lg.com/us/washers-dryers/lg-sc5gmr80h-styler-steam-closet",
+      "sourceTitle": "LG SC5GMR80H 官方產品／規格頁",
+      "evidenceSnippet": "SC5GMR80H 官方規格列出機身尺寸；本列轉為「寬 x 深 x 高 cm」格式，未使用包裝或外箱尺寸。",
+      "confidence": "high",
+      "isOfficialSource": true,
+      "checkedAt": "2026-07-23"
+    },
+    {
+      "id": "garmentcare-lg-sc5mar4g",
+      "dimension": "尺寸：寬 60 x 深 61.9 x 高 196.5 cm",
+      "sourceUrl": "https://www.lg.com/us/washers-dryers/lg-sc5mar4g-styler-steam-closet",
+      "sourceTitle": "LG SC5MAR4G 官方產品／規格頁",
+      "evidenceSnippet": "SC5MAR4G 官方規格列出機身尺寸；本列轉為「寬 x 深 x 高 cm」格式，未使用包裝或外箱尺寸。",
+      "confidence": "high",
+      "isOfficialSource": true,
+      "checkedAt": "2026-07-23"
+    },
+    {
+      "id": "garmentcare-lg-s3mfbn",
+      "dimension": "尺寸：寬 44.5 x 深 58.4 x 高 184.9 cm",
+      "sourceUrl": "https://www.lg.com/us/washers-dryers/lg-s3mfbn-styler-steam-closet",
+      "sourceTitle": "LG S3MFBN 官方產品／規格頁",
+      "evidenceSnippet": "S3MFBN 官方規格列出機身尺寸；本列轉為「寬 x 深 x 高 cm」格式，未使用包裝或外箱尺寸。",
+      "confidence": "high",
+      "isOfficialSource": true,
+      "checkedAt": "2026-07-23"
+    },
+    {
+      "id": "garmentcare-lg-s3wfbn",
+      "dimension": "尺寸：寬 44.5 x 深 58.4 x 高 184.9 cm",
+      "sourceUrl": "https://www.lg.com/us/washers-dryers/lg-s3wfbn-styler-steam-closet",
+      "sourceTitle": "LG S3WFBN 官方產品／規格頁",
+      "evidenceSnippet": "S3WFBN 官方規格列出機身尺寸；本列轉為「寬 x 深 x 高 cm」格式，未使用包裝或外箱尺寸。",
+      "confidence": "high",
+      "isOfficialSource": true,
+      "checkedAt": "2026-07-23"
+    },
+    {
+      "id": "garmentcare-lg-s3rfbn",
+      "dimension": "尺寸：寬 44.5 x 深 58.4 x 高 184.9 cm",
+      "sourceUrl": "https://www.lg.com/us/washers-dryers/lg-s3rfbn-styler-steam-closet",
+      "sourceTitle": "LG S3RFBN 官方產品／規格頁",
+      "evidenceSnippet": "S3RFBN 官方規格列出機身尺寸；本列轉為「寬 x 深 x 高 cm」格式，未使用包裝或外箱尺寸。",
+      "confidence": "high",
+      "isOfficialSource": true,
+      "checkedAt": "2026-07-23"
+    },
+    {
+      "id": "garmentcare-samsung-df90h24r5c",
+      "dimension": "尺寸：寬 59.5 x 深 59.5 x 高 196 cm",
+      "sourceUrl": "https://www.samsung.com/sec/airdresser/airdresser-df90h24r5c-d2c/DF90H24R5C/",
+      "sourceTitle": "Samsung DF90H24R5C 官方產品／規格頁",
+      "evidenceSnippet": "DF90H24R5C 官方規格列出機身尺寸；本列轉為「寬 x 深 x 高 cm」格式，未使用包裝或外箱尺寸。",
+      "confidence": "high",
+      "isOfficialSource": true,
+      "checkedAt": "2026-07-23"
+    },
+    {
+      "id": "garmentcare-samsung-df90h24r4d",
+      "dimension": "尺寸：寬 59.5 x 深 59.5 x 高 196 cm",
+      "sourceUrl": "https://www.samsung.com/sec/airdresser/airdresser-df90h24r4d-d2c/DF90H24R4D/",
+      "sourceTitle": "Samsung DF90H24R4D 官方產品／規格頁",
+      "evidenceSnippet": "DF90H24R4D 官方規格列出機身尺寸；本列轉為「寬 x 深 x 高 cm」格式，未使用包裝或外箱尺寸。",
+      "confidence": "high",
+      "isOfficialSource": true,
+      "checkedAt": "2026-07-23"
+    },
+    {
+      "id": "garmentcare-samsung-df90h24r4p",
+      "dimension": "尺寸：寬 59.5 x 深 59.5 x 高 196 cm",
+      "sourceUrl": "https://www.samsung.com/sec/airdresser/airdresser-df90h24r4p-d2c/DF90H24R4P/",
+      "sourceTitle": "Samsung DF90H24R4P 官方產品／規格頁",
+      "evidenceSnippet": "DF90H24R4P 官方規格列出機身尺寸；本列轉為「寬 x 深 x 高 cm」格式，未使用包裝或外箱尺寸。",
+      "confidence": "high",
+      "isOfficialSource": true,
+      "checkedAt": "2026-07-23"
+    },
+    {
+      "id": "garmentcare-samsung-df90h24r4b",
+      "dimension": "尺寸：寬 59.5 x 深 59.5 x 高 196 cm",
+      "sourceUrl": "https://www.samsung.com/sec/airdresser/airdresser-df90h24r4b-d2c/DF90H24R4B/",
+      "sourceTitle": "Samsung DF90H24R4B 官方產品／規格頁",
+      "evidenceSnippet": "DF90H24R4B 官方規格列出機身尺寸；本列轉為「寬 x 深 x 高 cm」格式，未使用包裝或外箱尺寸。",
+      "confidence": "high",
+      "isOfficialSource": true,
+      "checkedAt": "2026-07-23"
+    },
+    {
+      "id": "garmentcare-samsung-df80h24r1c",
+      "dimension": "尺寸：寬 59.5 x 深 59.5 x 高 196 cm",
+      "sourceUrl": "https://www.samsung.com/sec/airdresser/airdresser-df80h24r1c-d2c/DF80H24R1C/",
+      "sourceTitle": "Samsung DF80H24R1C 官方產品／規格頁",
+      "evidenceSnippet": "DF80H24R1C 官方規格列出機身尺寸；本列轉為「寬 x 深 x 高 cm」格式，未使用包裝或外箱尺寸。",
+      "confidence": "high",
+      "isOfficialSource": true,
+      "checkedAt": "2026-07-23"
+    },
+    {
+      "id": "garmentcare-samsung-df80h24r1d",
+      "dimension": "尺寸：寬 59.5 x 深 59.5 x 高 196 cm",
+      "sourceUrl": "https://www.samsung.com/sec/airdresser/airdresser-df80h24r1d-d2c/DF80H24R1D/",
+      "sourceTitle": "Samsung DF80H24R1D 官方產品／規格頁",
+      "evidenceSnippet": "DF80H24R1D 官方規格列出機身尺寸；本列轉為「寬 x 深 x 高 cm」格式，未使用包裝或外箱尺寸。",
+      "confidence": "high",
+      "isOfficialSource": true,
+      "checkedAt": "2026-07-23"
+    },
+    {
+      "id": "garmentcare-panasonic-hcc-r600al-x",
+      "dimension": "尺寸：寬 45 x 深 61.3 x 高 173.4 cm",
+      "sourceUrl": "https://panasonic.jp/smartcloset/products/HCC-R600AR.html",
+      "sourceTitle": "Panasonic HCC-R600AL-X／HCC-R600AR-X 官方產品頁",
+      "evidenceSnippet": "Panasonic 官方產品頁同列左開 HCC-R600AL-X 與右開 HCC-R600AR-X，並列出寬 450 x 深 613 x 高 1734 mm；本列轉為「寬 x 深 x 高 cm」格式，未使用包裝或外箱尺寸。",
+      "confidence": "high",
+      "isOfficialSource": true,
+      "checkedAt": "2026-07-23"
+    },
+    {
+      "id": "garmentcare-panasonic-hcc-r600ar-x",
+      "dimension": "尺寸：寬 45 x 深 61.3 x 高 173.4 cm",
+      "sourceUrl": "https://panasonic.jp/smartcloset/products/HCC-R600AR/spec.html",
+      "sourceTitle": "Panasonic HCC-R600AR-X 官方產品／規格頁",
+      "evidenceSnippet": "HCC-R600AR-X 官方規格列出機身尺寸；本列轉為「寬 x 深 x 高 cm」格式，未使用包裝或外箱尺寸。",
+      "confidence": "high",
+      "isOfficialSource": true,
+      "checkedAt": "2026-07-23"
     }
   ]
 }

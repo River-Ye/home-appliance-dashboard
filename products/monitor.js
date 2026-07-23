@@ -17,8 +17,8 @@
     "name": "27 型 2K 180Hz IPS USB-C 電競螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 5068,
-      "converted": 5068,
+      "amount": 5218,
+      "converted": 5218,
       "confidence": "PChome 2026-07-23 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABKBA900JZ3CV/000001_1777866944.jpg",
@@ -2142,8 +2142,8 @@
     "name": "27 型 WQHD 360Hz QD-OLED 電競螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 18900,
-      "converted": 18900,
+      "amount": 17955,
+      "converted": 17955,
       "confidence": "Yahoo購物中心 2026-07-23 exact-model 公開結構化價格"
     },
     "image": "https://cs-a.ecimg.tw/items/DSBC1ZA900HE04M/000001_1757303897.jpg",
@@ -3289,8 +3289,8 @@
     "name": "34 型 UWQHD 280Hz QD-OLED 曲面電競螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 25888,
-      "converted": 25888,
+      "amount": 26888,
+      "converted": 26888,
       "confidence": "PChome 2026-07-23 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABKBA900K0YA0/000001_1779246107.jpg",

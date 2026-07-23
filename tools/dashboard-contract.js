@@ -1,5 +1,5 @@
-const EXPECTED_CATEGORY_COUNT = 25;
-const EXPECTED_PRODUCT_COUNT = 668;
+const EXPECTED_CATEGORY_COUNT = 26;
+const EXPECTED_PRODUCT_COUNT = 688;
 const MIN_PRODUCTS_PER_CATEGORY = 20;
 const DATE_PATTERN = /^(找不到|\d{4}(?:[-/.]\d{1,2}(?:[-/.]\d{1,2})?)?)$/;
 const WASHER_DRYER_CAPACITY_PATTERN = /^洗\/乾容量：\d+(?:\.\d+)?kg \/ \d+(?:\.\d+)?kg$/;
@@ -8,6 +8,7 @@ const DIMENSION_CATEGORY_COUNTS = new Map([
   ["dryer", 21],
   ["washerdryer", 25],
   ["refrigerator", 23],
+  ["garmentcare", 20],
 ]);
 const DIMENSION_CATEGORIES = new Set(DIMENSION_CATEGORY_COUNTS.keys());
 const EXPECTED_DIMENSION_PRODUCT_COUNT = [...DIMENSION_CATEGORY_COUNTS.values()]
@@ -39,6 +40,7 @@ const REQUIRED_CATEGORY_TERMS = new Map([
   ["standingdesk", ["Loctek", "iRocks", "NITORI", "COUGAR"]],
   ["chair", ["iRocks", "Ergohuman", "Razer", "Herman Miller", "Steelcase"]],
   ["monitorarm", ["Raymii", "Happy Tech", "Loctek", "Ergotron", "j5create"]],
+  ["garmentcare", ["LG", "Samsung", "Panasonic"]],
 ]);
 const CATEGORY_TEXT_MATCH_COUNTS = [
   { category: "soundbar", term: "Marshall", exact: 2 },
@@ -83,6 +85,55 @@ const REQUIRED_FIELDS = [
   "tags",
 ];
 
+const GARMENTCARE_MODELS = new Set([
+  "R723MB",
+  "R723SB",
+  "R723MG",
+  "R723WG",
+  "E523MW",
+  "E523MR",
+  "E523IR",
+  "SC5GMR80H",
+  "SC5MAR4G",
+  "S3WFBN",
+  "S3MFBN",
+  "S3RFBN",
+  "DF90H24R5C",
+  "DF90H24R4D",
+  "DF90H24R4P",
+  "DF90H24R4B",
+  "DF80H24R1C",
+  "DF80H24R1D",
+  "HCC-R600AL-X",
+  "HCC-R600AR-X",
+]);
+const GARMENTCARE_BRAND_COUNTS = new Map([
+  ["LG", 12],
+  ["Samsung", 6],
+  ["Panasonic", 2],
+]);
+const GARMENTCARE_CHANNEL_COUNTS = new Map([
+  ["tw", 7],
+  ["global", 13],
+]);
+const GARMENTCARE_SPEC_PREFIXES = [
+  "容量：",
+  "護理技術：",
+  "行程：",
+  "乾燥方式：",
+  "尺寸：",
+  "重量：",
+  "水箱／給排水：",
+  "電壓／頻率：",
+  "耗電：",
+  "噪音：",
+  "連線功能：",
+  "門向：",
+  "安裝間距：",
+  "材質限制：",
+];
+const GARMENTCARE_TOP_PICK_MODEL = "R723WG";
+
 module.exports = {
   EXPECTED_CATEGORY_COUNT,
   EXPECTED_PRODUCT_COUNT,
@@ -104,4 +155,9 @@ module.exports = {
   REQUIRED_CATEGORY_TERMS,
   CATEGORY_TEXT_MATCH_COUNTS,
   REQUIRED_FIELDS,
+  GARMENTCARE_MODELS,
+  GARMENTCARE_BRAND_COUNTS,
+  GARMENTCARE_CHANNEL_COUNTS,
+  GARMENTCARE_SPEC_PREFIXES,
+  GARMENTCARE_TOP_PICK_MODEL,
 };

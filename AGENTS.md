@@ -33,10 +33,10 @@
 - `assets/js/product-loader.js`：依 `categories` 自動載入 `products/<category>.js?v=<cacheVersion>`。
 - `assets/js/main.js`：DOMContentLoaded、商品載入、事件綁定與初始 render。
 - `products/*.js`：每個商品分類一個檔案，只放該分類商品資料，透過 `globalThis.applianceDashboard.registerProducts(categoryId, items)` 註冊。
-- `tools/category-guides.js`：25 類導讀、選購條件與 FAQ 的人工維護來源，不放即時商品事實。
+- `tools/category-guides.js`：26 類導讀、選購條件與 FAQ 的人工維護來源，不放即時商品事實。
 - `tools/geo-config.js`：站名、首頁 title、description、H1、AI 揭露與 GEO 共用文案契約。
 - `tools/generate-category-pages.js`：依分類、商品、指南與 CSS 來源產生 `assets/css/app.css`、`categories/<id>/index.html`、`sitemap.xml`、`llms.txt` 與首頁 GEO 區塊。
-- `categories/<id>/index.html`：25 個可直接閱讀與索引的靜態分類指南頁，屬產生結果。
+- `categories/<id>/index.html`：26 個可直接閱讀與索引的靜態分類指南頁，屬產生結果。
 - `tools/dashboard-contract.js`：商品數、分類數、必要欄位與資料品質規則常數。
 - `tools/run-daily-catalog-maintenance.js`：永久維護入口，重查現價、來源、圖片、史低來源、匯率與停產候選；原始逐筆稽核只寫入 gitignored `.maintenance-audit.json`。
 - `tools/catalog-maintenance-policy.js`：exact-model、排除品與官方停產文字的純邏輯規則。
@@ -68,7 +68,7 @@
 
 ## GEO / AI 搜尋規則
 
-- 網站由現有 25 類資料產生 25 個 `/categories/<id>/` 靜態分類指南頁；不建立 666 個重複商品事實的薄內容頁。
+- 網站由現有 26 類資料產生 26 個 `/categories/<id>/` 靜態分類指南頁；不建立 688 個重複商品事實的薄內容頁。
 - `tools/category-guides.js` 只維護分類層級的繁中導讀、3 項選購條件與 3 組 FAQ；商品名稱、價格、排名、規格、史低與負評仍從既有商品資料產生，避免第二套事實來源。
 - 站名、首頁 title、description、H1 與 AI 揭露集中在 `tools/geo-config.js`；首頁 metadata、JSON-LD、分類頁與 `llms.txt` 必須共用此契約。首頁與分類頁首屏皆需可見 AI 協作、資料日期、查核方法與 GitHub 原始碼。
 - 修改 `assets/js/config.js` 的分類、`products/*.js` 商品或 `tools/category-guides.js` 後，必須執行 `npm run generate:categories`，再以 `npm run check:geo` 驗證產物與 contract。
@@ -79,7 +79,7 @@
 
 ## 目前資料規模
 
-- 共 25 類、668 筆商品。
+- 共 26 類、688 筆商品。
 - 所有分類每類至少 20 筆；新增分類或補資料時不可讓任何分類低於 20 筆。
 - 特殊分類目前數量：
   - `電視`：27 筆，需涵蓋主流顯示技術與可信台灣新品通路。
@@ -91,6 +91,7 @@
   - `電子鎖`：48 筆，需涵蓋知名品牌且注意安裝條件。
   - `鍋具`：24 筆、`刀具`：21 筆、`櫥下飲水機`：21 筆、`洗碗機`：23 筆，需排除配件、耗材、桌上/直立誤判、福利品與展示機。
   - `冰箱`：23 筆、`洗衣機`：23 筆、`烘衣機`：21 筆、`洗烘衣機(多功能型)`：25 筆，需排除配件、耗材、福利品、展示機、箱損品、組合包誤判與單功能錯類，且每筆需標示機身尺寸。
+  - `電子衣櫥（衣物護理機）`：20 筆，只收以吊掛衣物為核心、具除味／除皺／抑菌／柔護乾燥功能的封閉式櫃體設備；排除烘衣機、洗脫烘、除濕機、手持掛燙機、布罩烘衣櫃、配件與停產機種。
   - `空氣清淨機`：23 筆，已補入 POIEMA 新氣几系列；後續若替換資料，除非無可信新品通路，需保留 POIEMA 候選。
   - `電風扇`：22 筆，已補入 Philips 風扇/循環扇/塔扇/無葉片款；後續若替換資料，除非無可信新品通路，需保留 Philips 候選。
   - `循環扇`：22 筆，已納入有台灣官方現貨、上市年份與 exact-model 查核證據的 IRIS PCF-CDP18TEC。
@@ -119,6 +120,7 @@
 - 洗衣機
 - 烘衣機
 - 洗烘衣機(多功能型)
+- 電子衣櫥（衣物護理機）
 
 廚房餐飲：
 
@@ -266,6 +268,13 @@
 - 烘衣機需標示乾衣容量、熱泵/瓦斯/電熱/冷凝方式、電壓或瓦斯條件、排風/排水與疊放限制；不可把洗脫烘、除濕機、曬衣架或底座列入。
 - 洗烘衣機(多功能型)需明確標示洗/乾容量，格式使用「洗/乾容量：17kg / 10kg」；若商品頁未寫清楚，需改查品牌官網或可信通路規格圖，不可只寫總容量或猜測乾衣容量。並需標示熱泵/冷凝/蒸氣/自動投入等功能；推薦理由要提醒乾衣容量通常小於洗衣容量、全程洗烘時間較長與維修成本風險。
 
+### 電子衣櫥（衣物護理機）
+
+- 嚴格限於封閉式櫃體、以吊掛衣物為核心並具除味／除皺／抑菌／柔護乾燥功能的設備；不得混入滾筒烘衣機、洗脫烘、除濕機、手持掛燙機、布罩式烘衣櫃、配件或停產庫存。
+- 每筆至少標示容量、護理技術、行程、乾燥方式、機身尺寸與重量、水箱／給排水、電壓頻率、耗電、噪音、連線功能、門向、安裝間距與材質限制。
+- 電子衣櫥不能取代洗衣、乾洗、熨燙或大量烘衣；海外款不得列為台灣 Top Pick，且需明確標示原幣、TWD 換算、國際運費、進口稅、插頭／電壓與台灣保固風險。
+- 目前 20 筆包含 LG 12、Samsung 6、Panasonic 2，並涵蓋容量、顏色與左右門向變體；同系列變體仍需以 exact model 分別查核。
+
 ## UI / UX 規則
 
 - 桌機與手機版操作體驗都要重視。
@@ -290,10 +299,10 @@
 ## 價格與匯率
 
 <!-- catalog-maintenance-summary:start -->
-- 2026-07-23 07:50（台灣時間）完成 668 筆商品、25 類全量查核；401 筆 PChome SKU API 已完成（263 筆 exact model、9 筆人工 SKU 綁定可寫入，111 筆型號未自動確認），更新 55 筆現價（33 筆降價、22 筆漲價），18 筆 Qty 0 只列追蹤。
-- 沒有納入新產品；沒有移除產品。逐類人工新品覆核已完成，所有分類至少 20 筆；停產只採品牌官方明確證據，缺貨、反爬或單次連線錯誤不作為刪除依據。
-- 圖片查核覆蓋 668 筆；503 筆來源可由 exact model 或人工 SKU 綁定確認，165 筆來源／圖片例外保留原資料。史低為 438 筆 `found`、230 筆 `not_found`，本輪下修 5 筆；51 筆來源可自動重現，其餘保留原逐筆證據且未臆測失效。
-- ExchangeRate-API 最新批次為 2026-07-22 00:02 UTC，USD/TWD 32.34328；17 筆外幣商品已重算。完整摘要與例外保存在 `catalog_maintenance_latest.json`。
+- 2026-07-23 21:40（台灣時間）完成 688 筆商品、26 類全量查核；407 筆 PChome SKU API 已完成（264 筆 exact model、10 筆人工 SKU 綁定可寫入，110 筆型號未自動確認），更新 24 筆現價（17 筆降價、7 筆漲價），20 筆 Qty 0 只列追蹤。
+- 新增 garmentcare-lg-e523ir、garmentcare-lg-e523mr、garmentcare-lg-e523mw、garmentcare-lg-r723mb、garmentcare-lg-r723mg、garmentcare-lg-r723sb、garmentcare-lg-r723wg、garmentcare-lg-s3mfbn、garmentcare-lg-s3rfbn、garmentcare-lg-s3wfbn、garmentcare-lg-sc5gmr80h、garmentcare-lg-sc5mar4g、garmentcare-panasonic-hcc-r600al-x、garmentcare-panasonic-hcc-r600ar-x、garmentcare-samsung-df80h24r1c、garmentcare-samsung-df80h24r1d、garmentcare-samsung-df90h24r4b、garmentcare-samsung-df90h24r4d、garmentcare-samsung-df90h24r4p、garmentcare-samsung-df90h24r5c；沒有移除產品。逐類人工新品覆核已完成，所有分類至少 20 筆；停產只採品牌官方明確證據，缺貨、反爬或單次連線錯誤不作為刪除依據。
+- 圖片查核覆蓋 688 筆；516 筆來源可由 exact model 或人工 SKU 綁定確認，172 筆來源／圖片例外保留原資料。史低為 438 筆 `found`、250 筆 `not_found`，本輪下修 0 筆；51 筆來源可自動重現，其餘保留原逐筆證據且未臆測失效。
+- ExchangeRate-API 最新批次為 2026-07-23 00:02 UTC，USD/TWD 32.409765；30 筆外幣商品已重算。完整摘要與例外保存在 `catalog_maintenance_latest.json`。
 <!-- catalog-maintenance-summary:end -->
 
 ## 驗證清單
@@ -304,7 +313,7 @@
 - `npm run check:logic`：純邏輯回歸，涵蓋排序、品牌依分類限制、史低／負評文案、問題摘要搜尋、來源 URL 安全、HTML escape 與 product-loader URL/錯誤。
 - `npm run check:data`：商品總數、分類數、必要欄位、日期格式、負評逐型號人工覆核、逐位反映者與研究檔對齊、重複 URL 與重複型號檢查通過。
 - `npm run check:docs`：README、AGENTS、index/config 的商品數、分類數、日期與 cache version 不漂移。
-- `npm run check:geo`：25 個分類頁、metadata、結構化資料、首頁分類入口、sitemap、llms、六份公開證據檔、Pages artifact、IndexNow contract 與產生結果均無漂移。
+- `npm run check:geo`：26 個分類頁、metadata、結構化資料、首頁分類入口、sitemap、llms、六份公開證據檔、Pages artifact、IndexNow contract 與產生結果均無漂移。
 - `npm run check:ui`：桌機與手機版主要互動流程通過。
 - `npm run check:quality`：Lighthouse 的 Performance、LCP、CLS、Accessibility 與 SEO 採瀏覽器行動 throttling，TBT 採 Lantern 標準化模擬；首頁 Performance ≥ 90、LCP ≤ 2.5s、CLS ≤ 0.1、TBT ≤ 200ms、Accessibility = 100、SEO ≥ 95；代表分類頁 Performance、Accessibility、SEO 均 ≥ 95。
 - 商品總數仍符合 README 與分類 tab 顯示。

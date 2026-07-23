@@ -12,6 +12,10 @@ const {
 } = require("./generate-category-pages");
 const { submitIndexNow } = require("./submit-indexnow");
 const {
+  EXPECTED_CATEGORY_COUNT,
+  EXPECTED_PRODUCT_COUNT,
+} = require("./dashboard-contract");
+const {
   SITE_URL,
   SITE_NAME,
   REPO_URL,
@@ -252,7 +256,7 @@ function assertGeoConfigContract(categories, products) {
   assert(AI_DISCLOSURE === "本站內容與網站由 AI 協助研究、整理與製作；依公開規則查核，仍可能有錯漏。", "AI disclosure copy mismatch");
   assert(
     homePageDescription(categories.length, products.length)
-      === "由 AI 協作整理 25 類、668 款可信新品，提供價格、規格、歷史最低價與負評查核，並公開查核方法與原始碼。",
+      === `由 AI 協作整理 ${EXPECTED_CATEGORY_COUNT} 類、${EXPECTED_PRODUCT_COUNT} 款可信新品，提供價格、規格、歷史最低價與負評查核，並公開查核方法與原始碼。`,
     "homepage description should derive the catalog counts from source data",
   );
   assert(PUBLIC_EVIDENCE_RESOURCES.length === 6, "GEO contract should expose exactly six evidence resources");
@@ -553,7 +557,7 @@ function assertIndexNowContract(categories) {
   for (const url of urls) assert(payload.urlList.includes(url), `IndexNow payload is missing ${url}`);
 }
 
-async function assertIndexNowResponseHandling() {
+async function assertIndexNowResponseHandling(expectedCanonicalCount) {
   for (const status of [200, 202]) {
     let request;
     const result = await submitIndexNow(async (url, options) => {
@@ -564,7 +568,7 @@ async function assertIndexNowResponseHandling() {
     assert(request.url === "https://api.indexnow.org/indexnow", "IndexNow endpoint mismatch");
     assert(request.options.method === "POST", "IndexNow should use POST");
     const payload = JSON.parse(request.options.body);
-    assert(payload.urlList.length === 26, "IndexNow POST payload should contain all canonical URLs");
+    assert(payload.urlList.length === expectedCanonicalCount, `IndexNow POST payload should contain ${expectedCanonicalCount} canonical URLs`);
   }
 
   let rejected = false;
@@ -612,23 +616,27 @@ function assertPagesWorkflow(categories) {
   assert(indexNowStep.includes(indexNowTool), `IndexNow workflow step should call ${indexNowTool}`);
 
   const urls = expectedUrls(categories);
-  assert(urls.length === 26, "public artifact contract assumes one homepage plus 25 category pages");
+  assert(urls.length === categories.length + 1, "public artifact contract should include one homepage plus every category page");
 }
 
 async function main() {
   const { categories, products } = readDashboardProducts(root);
   const meta = parseMeta();
-  assert(categories.length === 25, `GEO contract expects 25 categories, got ${categories.length}`);
+  assert(categories.length === EXPECTED_CATEGORY_COUNT, `GEO contract expects ${EXPECTED_CATEGORY_COUNT} categories, got ${categories.length}`);
+  assert(products.length === EXPECTED_PRODUCT_COUNT, `GEO contract expects ${EXPECTED_PRODUCT_COUNT} products, got ${products.length}`);
 
   check("central GEO copy and evidence resource contract is complete", () => assertGeoConfigContract(categories, products));
   check("category guides and serializer escaping are complete", () => assertGuideAndEscapingContracts(categories));
   check("category generator detects committed-output drift", () => assertGeneratorDriftContract(categories));
-  check("generated output is exactly 25 category pages", () => assertGeneratedPageSet(categories));
+  check(`generated output is exactly ${categories.length} category pages`, () => assertGeneratedPageSet(categories));
   check("category pages expose unique, source-backed, static GEO content", () => assertCategoryPageContracts(categories, products, meta));
   check("homepage exposes trust signals, category links, and JSON-LD graph", () => assertHomepageGeoContract(categories));
   check("robots, sitemap, and llms discovery files match the catalog", () => assertDiscoveryFiles(categories, meta));
   check("IndexNow proof and dry-run payload cover all canonical URLs", () => assertIndexNowContract(categories));
-  await checkAsync("IndexNow accepts 200/202 and rejects other responses", assertIndexNowResponseHandling);
+  await checkAsync(
+    "IndexNow accepts 200/202 and rejects other responses",
+    () => assertIndexNowResponseHandling(expectedUrls(categories).length),
+  );
   check("Pages artifact and post-deploy IndexNow workflow are complete", () => assertPagesWorkflow(categories));
 
   if (failures.length) {
