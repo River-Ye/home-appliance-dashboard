@@ -1762,6 +1762,90 @@
         }
       ]
     }
+  },
+  {
+    "id": "standingdesk-backbone-dyback-craft",
+    "category": "standingdesk",
+    "rank": 23,
+    "budget": "premium",
+    "channel": "tw",
+    "brand": "Backbone",
+    "model": "Dyback Craft",
+    "name": "Dyback Craft 實木電動升降桌",
+    "price": {
+      "currency": "TWD",
+      "amount": 24400,
+      "converted": 24400,
+      "confidence": "Backbone 台灣官方 2026-07-24 公開訂製價"
+    },
+    "image": "https://cdn-general.cybassets.com/media/W1siZiIsIjExNTM0L3Byb2R1Y3RzLzY2Njk0NjM5LzE3NzM4MjQ5MzNfMTBiMjgxNWNkMGNiMGZjNzBlZmMuanBlZyJdLFsicCIsInRodW1iIiwiNjAweDYwMCJdXQ.jpeg?sha=ada726cb8a152221",
+    "buyUrl": "https://www.backbone.tw/products/dyback-craft",
+    "buyLabel": "Backbone 台灣官方",
+    "specs": [
+      "桌板厚度：未標示",
+      "北美赤楊木實木桌板：120 x 70 cm 或 150 x 75 cm",
+      "雙馬達 / 置中式三節升降柱",
+      "高度：66～131 ± 0.5 cm（含桌板）",
+      "動態承重：120 kg",
+      "四組高度記憶 / 升降速度 26 mm/s",
+      "噪音：<55 dBA",
+      "電源：110～240VAC、50/60Hz"
+    ],
+    "description": "台灣職人手工赤楊木桌板搭配雙馬達桌架，提供兩種桌面尺寸、120kg 動態承重與到府組裝，定位為重視實木觸感的高階升降桌。",
+    "pros": [
+      "實木桌板、120kg 承重與雙馬達",
+      "官方到府組裝，桌架與電機五年保固"
+    ],
+    "cons": [
+      "桌板厚度未標示，訂購前需向官方確認",
+      "官方即時頁標示交期約 45 個工作天，天候可能再延長漆面乾燥時間；客製加工會影響退貨權利"
+    ],
+    "bestFor": "重視實木材質、承重與到府安裝，且能接受訂製交期的工作空間。",
+    "recommendation": "實木高階補充選擇；購買前應確認桌板厚度、尺寸、搬運路徑、客製退貨限制與螢幕支架夾具相容性。",
+    "score": 86,
+    "voltage": "110～240VAC、50/60Hz",
+    "warranty": "桌架與電機 5 年官方保固",
+    "tags": [
+      "2026新品",
+      "實木桌板",
+      "雙馬達",
+      "120kg承重",
+      "到府安裝"
+    ],
+    "releaseDate": "2026-04-17",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-07-24",
+      "note": "Dyback Craft 於 2026-04-17 由 Backbone 官方發表；已查官方商品頁、BigGo、FindPrice 與 LBJ，未找到同尺寸、同桌板與同服務內容可公開重現的可信新品歷史最低價，官方現價 NT$24,400 不直接視為歷史最低價。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-07-24",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Backbone Dyback Craft\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Backbone%20Dyback%20Craft%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Backbone Dyback Craft\" (problem OR issue OR defect OR \"negative review\")",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Backbone%20Dyback%20Craft%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
+          "targetHost": "reddit.com"
+        }
+      ]
+    }
   }
 ]);
 })();

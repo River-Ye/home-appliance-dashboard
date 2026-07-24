@@ -6,20 +6,20 @@
     dataDate: "2026-07-24",
     costcoDate: "2026-07-24",
     expectedCategoryCount: 26,
-    expectedProductCount: 688,
-    cacheVersion: "20260724-maintenance-refactor",
-    exchangeSummary: "USD 1 = TWD 32.410",
+    expectedProductCount: 696,
+    cacheVersion: "20260724-105558-catalog",
+    exchangeSummary: "USD 1 = TWD 32.356",
   };
 
   const exchange = {
     source: "ExchangeRate-API",
-    date: "2026-07-23 00:02 UTC",
-    USD_TWD: 32.409765,
-    GBP_TWD: 43.34478815599422,
-    EUR_TWD: 36.98208164643915,
-    JPY_TWD: 0.19872728385353947,
-    CNY_TWD: 4.779127785897062,
-    KRW_TWD: 0.021920810152159333,
+    date: "2026-07-24 00:02 UTC",
+    USD_TWD: 32.356,
+    GBP_TWD: 43.12143997569122,
+    EUR_TWD: 36.84375338051344,
+    JPY_TWD: 0.19766382810103736,
+    CNY_TWD: 4.770137488642618,
+    KRW_TWD: 0.021943461158608523,
   };
 
   const categories = [

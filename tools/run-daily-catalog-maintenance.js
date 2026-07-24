@@ -520,18 +520,22 @@ function applyExchangeRates(products, exchange, raw) {
   }
 }
 
-function maintenanceCacheVersion(source, maintenanceDate = MAINTENANCE_DATE) {
+function maintenanceCacheVersion(source, maintenanceDate = MAINTENANCE_DATE, checkedAt = "") {
   const datePrefix = `${maintenanceDate.replaceAll("-", "")}-`;
+  const checkedAtTime = String(checkedAt).match(/T(\d{2}):(\d{2}):(\d{2})/);
+  if (checkedAtTime) {
+    return `${datePrefix}${checkedAtTime.slice(1).join("")}-catalog`;
+  }
   const currentVersion = source.match(/cacheVersion: "([^"]+)"/)?.[1];
   return currentVersion?.startsWith(datePrefix)
     ? currentVersion
     : `${datePrefix}maintenance-refactor`;
 }
 
-function updateConfig(exchange, productCount, categoryCount) {
+function updateConfig(exchange, productCount, categoryCount, checkedAt) {
   const filePath = path.join(ROOT, "assets/js/config.js");
   const originalSource = fs.readFileSync(filePath, "utf8");
-  const cacheVersion = maintenanceCacheVersion(originalSource);
+  const cacheVersion = maintenanceCacheVersion(originalSource, MAINTENANCE_DATE, checkedAt);
   const source = originalSource
     .replace(/dataDate: "\d{4}-\d{2}-\d{2}"/, `dataDate: "${MAINTENANCE_DATE}"`)
     .replace(/costcoDate: "\d{4}-\d{2}-\d{2}"/, `costcoDate: "${MAINTENANCE_DATE}"`)
@@ -572,23 +576,50 @@ function updateDashboardContract(productCount, categoryCount, categoryCounts) {
   fs.writeFileSync(filePath, source);
 }
 
+function syncHistoricalResearchRows(research, products) {
+  const previousRows = research.results || [];
+  const previousById = new Map(previousRows.map((row) => [row.id, row]));
+  const productsById = new Map(products.map((product) => [product.id, product]));
+  const syncRow = (product, previous) => {
+    const hasExplicitCheckedSources = Array.isArray(previous?.checkedSources) && previous.checkedSources.length > 0;
+    if (product.historicalLow?.status === "not_found" && !hasExplicitCheckedSources) {
+      throw new Error(`Missing explicit historical-price research evidence for product: ${product.id}`);
+    }
+    const checkedSources = previous?.checkedSources || [...new Set([
+      product.historicalLow?.sourceUrl,
+      product.buyUrl,
+    ].filter(Boolean))];
+    const rejectedCandidates = previous?.rejectedCandidates || [];
+    return {
+      ...(previous || {}),
+      id: product.id,
+      category: product.category,
+      brand: product.brand,
+      model: product.model,
+      name: product.name,
+      currentPrice: product.price.converted,
+      currentCurrency: product.price.currency,
+      currentBuyUrl: product.buyUrl,
+      currentBuyLabel: product.buyLabel,
+      historicalLow: product.historicalLow,
+      checkedSources,
+      rejectedCandidates,
+    };
+  };
+  const retainedRows = previousRows
+    .filter((row) => productsById.has(row.id))
+    .map((row) => syncRow(productsById.get(row.id), row));
+  const appendedRows = products
+    .filter((product) => !previousById.has(product.id))
+    .map((product) => syncRow(product));
+  research.results = [...retainedRows, ...appendedRows];
+  return research.results;
+}
+
 function syncHistoricalResearch(products, exchange, compact) {
   const filePath = path.join(ROOT, "historical_price_research.json");
   const research = JSON.parse(fs.readFileSync(filePath, "utf8"));
-  const productById = new Map(products.map((product) => [product.id, product]));
-  for (const row of research.results || []) {
-    const product = productById.get(row.id);
-    if (!product) continue;
-    row.category = product.category;
-    row.brand = product.brand;
-    row.model = product.model;
-    row.name = product.name;
-    row.currentPrice = product.price.converted;
-    row.currentCurrency = product.price.currency;
-    row.currentBuyUrl = product.buyUrl;
-    row.currentBuyLabel = product.buyLabel;
-    row.historicalLow = product.historicalLow;
-  }
+  syncHistoricalResearchRows(research, products);
   const found = products.filter((product) => product.historicalLow?.status === "found").length;
   const byConfidence = products.reduce((counts, product) => {
     const confidence = product.historicalLow?.confidence || product.historicalLow?.status || "not_found";
@@ -888,7 +919,7 @@ async function main() {
 
   if (WRITE) {
     writeChangedCategories(catalog.categories);
-    updateConfig(exchange, catalog.products.length, catalog.categories.length);
+    updateConfig(exchange, catalog.products.length, catalog.categories.length, checkedAt);
     updateDashboardContract(
       catalog.products.length,
       catalog.categories.length,
@@ -926,6 +957,7 @@ module.exports = {
   mergeDiscontinuationReviews,
   pchomeProductId,
   structuredPriceCandidates,
+  syncHistoricalResearchRows,
   trustedStructuredPrice,
   updateDashboardContractSource,
   updateDimensionCategoryCounts,

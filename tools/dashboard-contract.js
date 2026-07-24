@@ -1,13 +1,13 @@
 const EXPECTED_CATEGORY_COUNT = 26;
-const EXPECTED_PRODUCT_COUNT = 688;
+const EXPECTED_PRODUCT_COUNT = 696;
 const MIN_PRODUCTS_PER_CATEGORY = 20;
 const DATE_PATTERN = /^(找不到|\d{4}(?:[-/.]\d{1,2}(?:[-/.]\d{1,2})?)?)$/;
 const WASHER_DRYER_CAPACITY_PATTERN = /^洗\/乾容量：\d+(?:\.\d+)?kg \/ \d+(?:\.\d+)?kg$/;
 const DIMENSION_CATEGORY_COUNTS = new Map([
   ["washer", 23],
   ["dryer", 21],
-  ["washerdryer", 25],
-  ["refrigerator", 23],
+  ["washerdryer", 26],
+  ["refrigerator", 24],
   ["garmentcare", 20],
 ]);
 const DIMENSION_CATEGORIES = new Set(DIMENSION_CATEGORY_COUNTS.keys());

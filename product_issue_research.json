@@ -1,12 +1,12 @@
 {
   "summary": {
-    "checkedAt": "2026-07-23T00:00:00+08:00",
-    "total": 688,
+    "checkedAt": "2026-07-24T00:00:00+08:00",
+    "total": 696,
     "commonIssueProducts": 36,
-    "noCommonIssueProducts": 652,
+    "noCommonIssueProducts": 660,
     "pendingManualReview": 0,
     "commonIssues": 36,
-    "searchUnavailable": 20,
+    "searchUnavailable": 25,
     "threshold": {
       "minimumDistinctUsers": 6,
       "minimumPlatforms": 2,
@@ -5277,6 +5277,257 @@
       "rejectedCandidates": []
     },
     {
+      "id": "soundbar-jbl-bar-1300-mk2",
+      "category": "soundbar",
+      "brand": "JBL",
+      "model": "BAR 1300MK2",
+      "name": "11.1.4 聲道旗艦家庭劇院聲霸",
+      "identity": {
+        "canonicalModel": "BAR 1300MK2",
+        "lookupLabel": "JBL BAR 1300MK2",
+        "aliases": [
+          "JBL BAR 1300MK2",
+          "JBL MK2"
+        ],
+        "evidenceUrl": "https://24h.pchome.com.tw/prod/DMAAHG-A900JK94E"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "status": "completed",
+        "decision": "no_common_issue",
+        "reviewedAt": "2026-07-24",
+        "checkedPlatforms": [
+          "Mobile01",
+          "Reddit"
+        ],
+        "queries": [
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"JBL BAR 1300MK2\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22JBL%20BAR%201300MK2%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "mobile01.com"
+          },
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"JBL BAR 1300MK2\" (problem OR issue OR defect OR \"negative review\")",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22JBL%20BAR%201300MK2%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
+            "targetHost": "reddit.com"
+          }
+        ],
+        "candidateDisposition": "BAR 1300MK2：已用 Chrome 重跑 Mobile01 與 Reddit exact-model 查詢並逐頁覆核 5 個原頁；Mobile01 為正向體驗，Reddit 的低音、白噪音與無聲問題只出現在同一 canonical website，未達跨兩站門檻。",
+        "representativeSources": [
+          {
+            "platform": "Mobile01",
+            "title": "聲音不是變大，而是空間被打開：JBL Bar 1300MK2 體驗分享 - Mobile01",
+            "url": "https://www.mobile01.com/topicdetail.php?f=348&t=7250394"
+          },
+          {
+            "platform": "Mobile01",
+            "title": "【盲狙雜感】JBL BAR 1300MK2 | 全新出發的11.1.4 聲道無線全景聲系統，還有許多令人驚喜的創意設計 - Mobile01",
+            "url": "https://www.mobile01.com/topicdetail.php?f=348&t=7202105"
+          },
+          {
+            "platform": "Reddit",
+            "title": "Jbl soundbar 1300mk2 weak bass?",
+            "url": "https://www.reddit.com/r/JBL/comments/1ovfw9f/jbl_soundbar_1300mk2_weak_bass/"
+          },
+          {
+            "platform": "Reddit",
+            "title": "JBL Bar 1300MK2 vs. MK1: Massive disappointment (Defective unit?) - Non-existent bass & static noise",
+            "url": "https://www.reddit.com/r/Soundbars/comments/1qatt17/jbl_bar_1300mk2_vs_mk1_massive_disappointment/"
+          },
+          {
+            "platform": "Reddit",
+            "title": "JBL Bar 1300MK2 connection and sound issues",
+            "url": "https://www.reddit.com/r/Soundbars/comments/1rvkjii/jbl_bar_1300mk2_connection_and_sound_issues/"
+          }
+        ],
+        "candidateReviews": [
+          {
+            "url": "https://www.mobile01.com/topicdetail.php?f=348&t=7250394",
+            "title": "聲音不是變大，而是空間被打開：JBL Bar 1300MK2 體驗分享 - Mobile01",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-07-24",
+            "sourceExcerpt": "作者借到 BAR 1300MK2 後測試電影、遊戲與音樂，內容肯定其環繞、定位與低頻控制，沒有第一人稱故障或負面問題回報。",
+            "independentAuthors": 0,
+            "specificReason": "原頁是正向借測體驗；沒有可計數的 exact-model 第一人稱負面問題，因此不能用來成立 common_issue，也不能用正評推定完全沒有問題。"
+          },
+          {
+            "url": "https://www.mobile01.com/topicdetail.php?f=348&t=7202105",
+            "title": "【盲狙雜感】JBL BAR 1300MK2 | 全新出發的11.1.4 聲道無線全景聲系統，還有許多令人驚喜的創意設計 - Mobile01",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-07-24",
+            "sourceExcerpt": "作者在上市前體驗 BAR 1300MK2，文章主要肯定全景聲、重低音與無線設計，未提出自用故障、瑕疵或持續性負面問題。",
+            "independentAuthors": 0,
+            "specificReason": "這是上市前正向體驗文章，不含符合門檻的 exact-model 第一人稱負評；只有 Mobile01 一站也不足以支持跨站集中災情。"
+          },
+          {
+            "url": "https://www.reddit.com/r/JBL/comments/1ovfw9f/jbl_soundbar_1300mk2_weak_bass/",
+            "title": "Jbl soundbar 1300mk2 weak bass?",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-07-24",
+            "sourceExcerpt": "原作者與三位可辨識持有者表示雙 8 吋版本低音偏弱或疑似瑕疵；部分更換後恢復，也有持有者回報低音正常。",
+            "independentAuthors": 4,
+            "specificReason": "可辨識的負面回報未達六位，且全部位於 Reddit 單一 canonical website；其他回覆包含推測、非持有者與正向經驗，不能補足跨站門檻。"
+          },
+          {
+            "url": "https://www.reddit.com/r/Soundbars/comments/1qatt17/jbl_bar_1300mk2_vs_mk1_massive_disappointment/",
+            "title": "JBL Bar 1300MK2 vs. MK1: Massive disappointment (Defective unit?) - Non-existent bass & static noise",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-07-24",
+            "sourceExcerpt": "作者 sidhaarthm 回報低音很弱、初始連線失敗與後環繞白噪音；此作者也出現在另一個 Reddit 討論，必須跨帖去重。",
+            "independentAuthors": 1,
+            "specificReason": "本頁核心負評來自一位可辨識持有者，且與另一頁為同一作者；跨帖不重複計數，Reddit 仍只能算一個原始網站。"
+          },
+          {
+            "url": "https://www.reddit.com/r/Soundbars/comments/1rvkjii/jbl_bar_1300mk2_connection_and_sound_issues/",
+            "title": "JBL Bar 1300MK2 connection and sound issues",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-07-24",
+            "sourceExcerpt": "原作者與一位回覆者表示 BAR 1300MK2 開關電視後可能無聲，需重啟才恢復；另一位 1300X 使用者屬非 exact model。",
+            "independentAuthors": 2,
+            "specificReason": "同頁只有兩位 exact-model 第一人稱無聲回報，第三位是 1300X 非同型號；所有回報仍只在 Reddit 一站，未達六人兩站門檻。"
+          }
+        ],
+        "reviewerNote": "BAR 1300MK2 於 2026-07-24 透過可重現的 Bing exact-model 查詢與 Chrome 原頁覆核 Mobile01、Reddit；Reddit 作者需跨討論去重，且 old.reddit.com 與 reddit.com 只算同一網站。",
+        "attestation": "manual_original_pages_reviewed"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-07-24",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"JBL BAR 1300MK2\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22JBL%20BAR%201300MK2%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "mobile01.com"
+          },
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"JBL BAR 1300MK2\" (problem OR issue OR defect OR \"negative review\")",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22JBL%20BAR%201300MK2%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
+            "targetHost": "reddit.com"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"JBL BAR 1300MK2\" (災情 OR 問題 OR 故障 OR 負評)",
+          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22JBL%20BAR%201300MK2%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "result": "candidates_unverified_by_search_only",
+          "resultCount": 2,
+          "candidateUrls": [
+            "https://www.mobile01.com/topicdetail.php?f=348&t=7250394",
+            "https://www.mobile01.com/topicdetail.php?f=348&t=7202105"
+          ],
+          "candidates": [
+            {
+              "url": "https://www.mobile01.com/topicdetail.php?f=348&t=7250394",
+              "title": "聲音不是變大，而是空間被打開：JBL Bar 1300MK2 體驗分享 - Mobile01"
+            },
+            {
+              "url": "https://www.mobile01.com/topicdetail.php?f=348&t=7202105",
+              "title": "【盲狙雜感】JBL BAR 1300MK2 | 全新出發的11.1.4 聲道無線全景聲系統，還有許多令人驚喜的創意設計 - Mobile01"
+            }
+          ],
+          "inspectedAt": "2026-07-24T00:00:00+08:00"
+        },
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"JBL BAR 1300MK2\" (problem OR issue OR defect OR \"negative review\")",
+          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22JBL%20BAR%201300MK2%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
+          "result": "candidates_unverified_by_search_only",
+          "resultCount": 3,
+          "candidateUrls": [
+            "https://www.reddit.com/r/JBL/comments/1ovfw9f/jbl_soundbar_1300mk2_weak_bass/",
+            "https://www.reddit.com/r/Soundbars/comments/1qatt17/jbl_bar_1300mk2_vs_mk1_massive_disappointment/",
+            "https://www.reddit.com/r/Soundbars/comments/1rvkjii/jbl_bar_1300mk2_connection_and_sound_issues/"
+          ],
+          "candidates": [
+            {
+              "url": "https://www.reddit.com/r/JBL/comments/1ovfw9f/jbl_soundbar_1300mk2_weak_bass/",
+              "title": "Jbl soundbar 1300mk2 weak bass?"
+            },
+            {
+              "url": "https://www.reddit.com/r/Soundbars/comments/1qatt17/jbl_bar_1300mk2_vs_mk1_massive_disappointment/",
+              "title": "JBL Bar 1300MK2 vs. MK1: Massive disappointment (Defective unit?) - Non-existent bass & static noise"
+            },
+            {
+              "url": "https://www.reddit.com/r/Soundbars/comments/1rvkjii/jbl_bar_1300mk2_connection_and_sound_issues/",
+              "title": "JBL Bar 1300MK2 connection and sound issues"
+            }
+          ],
+          "inspectedAt": "2026-07-24T00:00:00+08:00"
+        }
+      ],
+      "evidence": [],
+      "rejectedCandidates": [
+        {
+          "url": "https://www.mobile01.com/topicdetail.php?f=348&t=7250394",
+          "title": "聲音不是變大，而是空間被打開：JBL Bar 1300MK2 體驗分享 - Mobile01",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-07-24",
+          "sourceExcerpt": "作者借到 BAR 1300MK2 後測試電影、遊戲與音樂，內容肯定其環繞、定位與低頻控制，沒有第一人稱故障或負面問題回報。",
+          "independentAuthors": 0,
+          "specificReason": "原頁是正向借測體驗；沒有可計數的 exact-model 第一人稱負面問題，因此不能用來成立 common_issue，也不能用正評推定完全沒有問題。",
+          "reason": "原頁是正向借測體驗；沒有可計數的 exact-model 第一人稱負面問題，因此不能用來成立 common_issue，也不能用正評推定完全沒有問題。"
+        },
+        {
+          "url": "https://www.mobile01.com/topicdetail.php?f=348&t=7202105",
+          "title": "【盲狙雜感】JBL BAR 1300MK2 | 全新出發的11.1.4 聲道無線全景聲系統，還有許多令人驚喜的創意設計 - Mobile01",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-07-24",
+          "sourceExcerpt": "作者在上市前體驗 BAR 1300MK2，文章主要肯定全景聲、重低音與無線設計，未提出自用故障、瑕疵或持續性負面問題。",
+          "independentAuthors": 0,
+          "specificReason": "這是上市前正向體驗文章，不含符合門檻的 exact-model 第一人稱負評；只有 Mobile01 一站也不足以支持跨站集中災情。",
+          "reason": "這是上市前正向體驗文章，不含符合門檻的 exact-model 第一人稱負評；只有 Mobile01 一站也不足以支持跨站集中災情。"
+        },
+        {
+          "url": "https://www.reddit.com/r/JBL/comments/1ovfw9f/jbl_soundbar_1300mk2_weak_bass/",
+          "title": "Jbl soundbar 1300mk2 weak bass?",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-07-24",
+          "sourceExcerpt": "原作者與三位可辨識持有者表示雙 8 吋版本低音偏弱或疑似瑕疵；部分更換後恢復，也有持有者回報低音正常。",
+          "independentAuthors": 4,
+          "specificReason": "可辨識的負面回報未達六位，且全部位於 Reddit 單一 canonical website；其他回覆包含推測、非持有者與正向經驗，不能補足跨站門檻。",
+          "reason": "可辨識的負面回報未達六位，且全部位於 Reddit 單一 canonical website；其他回覆包含推測、非持有者與正向經驗，不能補足跨站門檻。"
+        },
+        {
+          "url": "https://www.reddit.com/r/Soundbars/comments/1qatt17/jbl_bar_1300mk2_vs_mk1_massive_disappointment/",
+          "title": "JBL Bar 1300MK2 vs. MK1: Massive disappointment (Defective unit?) - Non-existent bass & static noise",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-07-24",
+          "sourceExcerpt": "作者 sidhaarthm 回報低音很弱、初始連線失敗與後環繞白噪音；此作者也出現在另一個 Reddit 討論，必須跨帖去重。",
+          "independentAuthors": 1,
+          "specificReason": "本頁核心負評來自一位可辨識持有者，且與另一頁為同一作者；跨帖不重複計數，Reddit 仍只能算一個原始網站。",
+          "reason": "本頁核心負評來自一位可辨識持有者，且與另一頁為同一作者；跨帖不重複計數，Reddit 仍只能算一個原始網站。"
+        },
+        {
+          "url": "https://www.reddit.com/r/Soundbars/comments/1rvkjii/jbl_bar_1300mk2_connection_and_sound_issues/",
+          "title": "JBL Bar 1300MK2 connection and sound issues",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-07-24",
+          "sourceExcerpt": "原作者與一位回覆者表示 BAR 1300MK2 開關電視後可能無聲，需重啟才恢復；另一位 1300X 使用者屬非 exact model。",
+          "independentAuthors": 2,
+          "specificReason": "同頁只有兩位 exact-model 第一人稱無聲回報，第三位是 1300X 非同型號；所有回報仍只在 Reddit 一站，未達六人兩站門檻。",
+          "reason": "同頁只有兩位 exact-model 第一人稱無聲回報，第三位是 1300X 非同型號；所有回報仍只在 Reddit 一站，未達六人兩站門檻。"
+        }
+      ]
+    },
+    {
       "id": "fan-panasonic-fh16",
       "category": "fan",
       "brand": "Panasonic",
@@ -9795,6 +10046,174 @@
       ],
       "evidence": [],
       "rejectedCandidates": []
+    },
+    {
+      "id": "circulator-sharp-pk-18s03t",
+      "category": "circulator",
+      "brand": "SHARP",
+      "model": "PK-18S03T",
+      "name": "森呼吸 NEXT 自動除菌離子 3D 清淨循環扇",
+      "identity": {
+        "canonicalModel": "PK-18S03T",
+        "lookupLabel": "SHARP PK-18S03T",
+        "aliases": [
+          "SHARP PK-18S03T"
+        ],
+        "evidenceUrl": "https://www.momoshop.com.tw/product/15360868"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "status": "completed",
+        "decision": "no_common_issue",
+        "reviewedAt": "2026-07-24",
+        "checkedPlatforms": [
+          "Mobile01",
+          "Reddit",
+          "PChome"
+        ],
+        "queries": [
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"SHARP PK-18S03T\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22SHARP%20PK-18S03T%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "mobile01.com"
+          },
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"SHARP PK-18S03T\" (problem OR issue OR defect OR \"negative review\")",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22SHARP%20PK-18S03T%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
+            "targetHost": "reddit.com"
+          }
+        ],
+        "candidateDisposition": "PK-18S03T：已用 Chrome 重跑 Mobile01 與 Reddit exact-model 查詢，開啟一個通過標題型號邊界的 Mobile01 原頁及 PChome 消費者評價頁；另一個購前討論未通過標題型號邊界，另存於 nonExactCandidates。",
+        "representativeSources": [
+          {
+            "platform": "Mobile01",
+            "title": "〖小宅開箱〗SHARP 森呼吸NEXT 3D清淨循環扇 PK-18S03T 開箱｜能除臭又抗拒的循環扇 你見過嗎",
+            "url": "https://www.mobile01.com/topicdetail.php?f=731&t=7247851"
+          },
+          {
+            "platform": "PChome",
+            "title": "SHARP 夏普 森呼吸 NEXT 自動除菌離子3D 清淨循環扇(PK-18S03T) - PChome 24h購物",
+            "url": "https://24h.pchome.com.tw/prod/DMABPM-A900K1FEL"
+          }
+        ],
+        "candidateReviews": [
+          {
+            "url": "https://www.mobile01.com/topicdetail.php?f=731&t=7247851",
+            "title": "〖小宅開箱〗SHARP 森呼吸NEXT 3D清淨循環扇 PK-18S03T 開箱｜能除臭又抗拒的循環扇 你見過嗎",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-07-24",
+            "sourceExcerpt": "作者實測的是工程測試機；全文為正向開箱，僅認為 NT$6,990 屬中高價，沒有故障、瑕疵或負面使用回報。",
+            "independentAuthors": 0,
+            "specificReason": "唯一作者使用的是非市售工程測試機，頁面沒有回覆；價格取捨不屬產品災情，也沒有零售持有者的第一人稱問題可計數。"
+          },
+          {
+            "url": "https://24h.pchome.com.tw/prod/DMABPM-A900K1FEL",
+            "title": "SHARP 夏普 森呼吸 NEXT 自動除菌離子3D 清淨循環扇(PK-18S03T) - PChome 24h購物",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-07-24",
+            "sourceExcerpt": "商品頁顯示 10 則評價、平均 5.0 且全為五星；可見文字稱機身小巧、風涼快及到貨迅速，沒有負面問題內容。",
+            "independentAuthors": 0,
+            "specificReason": "評分與正向評論不能當作負評作者；目前沒有可計數的 exact-model 第一人稱問題，只能作補充覆核來源，不能證明完全沒有負評。"
+          }
+        ],
+        "reviewerNote": "PK-18S03T 於 2026-07-24 透過可重現的 Bing exact-model 查詢覆核 Mobile01、Reddit，另直接檢查 PChome exact-model 評價；正向內容不得作為沒有負評的證明。",
+        "attestation": "manual_original_pages_reviewed"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-07-24",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"SHARP PK-18S03T\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22SHARP%20PK-18S03T%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "mobile01.com"
+          },
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"SHARP PK-18S03T\" (problem OR issue OR defect OR \"negative review\")",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22SHARP%20PK-18S03T%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
+            "targetHost": "reddit.com"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"SHARP PK-18S03T\" (災情 OR 問題 OR 故障 OR 負評)",
+          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22SHARP%20PK-18S03T%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "result": "candidates_unverified_by_search_only",
+          "resultCount": 1,
+          "candidateUrls": [
+            "https://www.mobile01.com/topicdetail.php?f=731&t=7247851"
+          ],
+          "candidates": [
+            {
+              "url": "https://www.mobile01.com/topicdetail.php?f=731&t=7247851",
+              "title": "〖小宅開箱〗SHARP 森呼吸NEXT 3D清淨循環扇 PK-18S03T 開箱｜能除臭又抗拒的循環扇 你見過嗎"
+            }
+          ],
+          "inspectedAt": "2026-07-24T00:00:00+08:00"
+        },
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"SHARP PK-18S03T\" (problem OR issue OR defect OR \"negative review\")",
+          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22SHARP%20PK-18S03T%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-07-24T00:00:00+08:00"
+        },
+        {
+          "platform": "PChome",
+          "query": "\"SHARP PK-18S03T\" PChome 評價",
+          "searchUrl": "https://24h.pchome.com.tw/prod/DMABPM-A900K1FEL",
+          "result": "candidates_unverified_by_search_only",
+          "resultCount": 1,
+          "candidateUrls": [
+            "https://24h.pchome.com.tw/prod/DMABPM-A900K1FEL"
+          ],
+          "candidates": [
+            {
+              "url": "https://24h.pchome.com.tw/prod/DMABPM-A900K1FEL",
+              "title": "SHARP 夏普 森呼吸 NEXT 自動除菌離子3D 清淨循環扇(PK-18S03T) - PChome 24h購物"
+            }
+          ],
+          "inspectedAt": "2026-07-24T00:00:00+08:00"
+        }
+      ],
+      "evidence": [],
+      "rejectedCandidates": [
+        {
+          "url": "https://www.mobile01.com/topicdetail.php?f=731&t=7247851",
+          "title": "〖小宅開箱〗SHARP 森呼吸NEXT 3D清淨循環扇 PK-18S03T 開箱｜能除臭又抗拒的循環扇 你見過嗎",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-07-24",
+          "sourceExcerpt": "作者實測的是工程測試機；全文為正向開箱，僅認為 NT$6,990 屬中高價，沒有故障、瑕疵或負面使用回報。",
+          "independentAuthors": 0,
+          "specificReason": "唯一作者使用的是非市售工程測試機，頁面沒有回覆；價格取捨不屬產品災情，也沒有零售持有者的第一人稱問題可計數。",
+          "reason": "唯一作者使用的是非市售工程測試機，頁面沒有回覆；價格取捨不屬產品災情，也沒有零售持有者的第一人稱問題可計數。"
+        },
+        {
+          "url": "https://24h.pchome.com.tw/prod/DMABPM-A900K1FEL",
+          "title": "SHARP 夏普 森呼吸 NEXT 自動除菌離子3D 清淨循環扇(PK-18S03T) - PChome 24h購物",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-07-24",
+          "sourceExcerpt": "商品頁顯示 10 則評價、平均 5.0 且全為五星；可見文字稱機身小巧、風涼快及到貨迅速，沒有負面問題內容。",
+          "independentAuthors": 0,
+          "specificReason": "評分與正向評論不能當作負評作者；目前沒有可計數的 exact-model 第一人稱問題，只能作補充覆核來源，不能證明完全沒有負評。",
+          "reason": "評分與正向評論不能當作負評作者；目前沒有可計數的 exact-model 第一人稱問題，只能作補充覆核來源，不能證明完全沒有負評。"
+        }
+      ]
     },
     {
       "id": "dh-panasonic-yv32nn",
@@ -27557,6 +27976,85 @@
       ]
     },
     {
+      "id": "washerdryer-samsung-wd90h22ahstw",
+      "category": "washerdryer",
+      "brand": "Samsung",
+      "model": "WD90H22AHSTW",
+      "name": "Bespoke AI 智慧熱泵滾筒洗衣機 蒸洗脫烘 22+20kg",
+      "identity": {
+        "canonicalModel": "WD90H22AHSTW",
+        "lookupLabel": "Samsung WD90H22AHSTW",
+        "aliases": [
+          "Samsung WD90H22AHSTW"
+        ],
+        "evidenceUrl": "https://www.elifemall.com.tw/product/2163236"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "status": "completed",
+        "decision": "no_common_issue",
+        "reviewedAt": "2026-07-24",
+        "checkedPlatforms": [
+          "Mobile01",
+          "Reddit"
+        ],
+        "queries": [
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"Samsung WD90H22AHSTW\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Samsung%20WD90H22AHSTW%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "mobile01.com"
+          },
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"Samsung WD90H22AHSTW\" (problem OR issue OR defect OR \"negative review\")",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Samsung%20WD90H22AHSTW%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
+            "targetHost": "reddit.com"
+          }
+        ],
+        "candidateDisposition": "WD90H22AHSTW：已用 Chrome 重跑 Mobile01 與 Reddit exact-model 跨站查詢，沒有找到通過型號邊界的原頁候選；此結果不代表完全沒有負評。",
+        "representativeSources": [],
+        "candidateReviews": [],
+        "reviewerNote": "WD90H22AHSTW 於 2026-07-24 透過可重現的 Bing exact-model 查詢覆核 Mobile01、Reddit；沒有以搜尋摘要或空結果合成負評決策。",
+        "attestation": "manual_cross_site_search_reviewed_no_candidate"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-07-24",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"Samsung WD90H22AHSTW\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Samsung%20WD90H22AHSTW%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "mobile01.com"
+          },
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"Samsung WD90H22AHSTW\" (problem OR issue OR defect OR \"negative review\")",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Samsung%20WD90H22AHSTW%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
+            "targetHost": "reddit.com"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "Yahoo Search",
+          "query": "(\"Samsung WD90H22AHSTW\") (problem OR issue OR defect OR failure OR 災情 OR 故障 OR 負評) (site:mobile01.com OR site:dcard.tw OR site:ptt.cc OR site:reddit.com OR site:snbforums.com OR site:52asus.com)",
+          "searchUrl": "https://search.yahoo.com/search?p=(%22Samsung%20WD90H22AHSTW%22)%20(problem%20OR%20issue%20OR%20defect%20OR%20failure%20OR%20%E7%81%BD%E6%83%85%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)%20(site%3Amobile01.com%20OR%20site%3Adcard.tw%20OR%20site%3Aptt.cc%20OR%20site%3Areddit.com%20OR%20site%3Asnbforums.com%20OR%20site%3A52asus.com)",
+          "result": "search_unavailable",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-07-24T00:00:00+08:00",
+          "error": "fetch failed"
+        }
+      ],
+      "evidence": [],
+      "rejectedCandidates": []
+    },
+    {
       "id": "garmentcare-lg-r723wg",
       "category": "garmentcare",
       "brand": "LG",
@@ -31161,6 +31659,85 @@
       "rejectedCandidates": []
     },
     {
+      "id": "refrigerator-sharp-sj-df58g-bk",
+      "category": "refrigerator",
+      "brand": "SHARP",
+      "model": "SJ-DF58G-BK",
+      "name": "575 公升四門十字對開除菌變頻冰箱",
+      "identity": {
+        "canonicalModel": "SJ-DF58G-BK",
+        "lookupLabel": "SHARP SJ-DF58G-BK",
+        "aliases": [
+          "SHARP SJ-DF58G-BK"
+        ],
+        "evidenceUrl": "https://www.momoshop.com.tw/TP/TP0003952/goodsDetail/TP00039520007288"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "status": "completed",
+        "decision": "no_common_issue",
+        "reviewedAt": "2026-07-24",
+        "checkedPlatforms": [
+          "Mobile01",
+          "Reddit"
+        ],
+        "queries": [
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"SHARP SJ-DF58G-BK\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22SHARP%20SJ-DF58G-BK%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "mobile01.com"
+          },
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"SHARP SJ-DF58G-BK\" (problem OR issue OR defect OR \"negative review\")",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22SHARP%20SJ-DF58G-BK%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
+            "targetHost": "reddit.com"
+          }
+        ],
+        "candidateDisposition": "SJ-DF58G-BK：已用 Chrome 重跑 Mobile01 與 Reddit exact-model 跨站查詢，沒有找到通過型號邊界的原頁候選；此結果不代表完全沒有負評。",
+        "representativeSources": [],
+        "candidateReviews": [],
+        "reviewerNote": "SJ-DF58G-BK 於 2026-07-24 透過可重現的 Bing exact-model 查詢覆核 Mobile01、Reddit；沒有以系列相近型號或搜尋摘要代替原頁判讀。",
+        "attestation": "manual_cross_site_search_reviewed_no_candidate"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-07-24",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"SHARP SJ-DF58G-BK\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22SHARP%20SJ-DF58G-BK%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "mobile01.com"
+          },
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"SHARP SJ-DF58G-BK\" (problem OR issue OR defect OR \"negative review\")",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22SHARP%20SJ-DF58G-BK%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
+            "targetHost": "reddit.com"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "Yahoo Search",
+          "query": "(\"SHARP SJ-DF58G-BK\") (problem OR issue OR defect OR failure OR 災情 OR 故障 OR 負評) (site:mobile01.com OR site:dcard.tw OR site:ptt.cc OR site:reddit.com OR site:snbforums.com OR site:52asus.com)",
+          "searchUrl": "https://search.yahoo.com/search?p=(%22SHARP%20SJ-DF58G-BK%22)%20(problem%20OR%20issue%20OR%20defect%20OR%20failure%20OR%20%E7%81%BD%E6%83%85%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)%20(site%3Amobile01.com%20OR%20site%3Adcard.tw%20OR%20site%3Aptt.cc%20OR%20site%3Areddit.com%20OR%20site%3Asnbforums.com%20OR%20site%3A52asus.com)",
+          "result": "search_unavailable",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-07-24T00:00:00+08:00",
+          "error": "fetch failed"
+        }
+      ],
+      "evidence": [],
+      "rejectedCandidates": []
+    },
+    {
       "id": "cookware-tefal-daisy-28cm-ih",
       "category": "cookware",
       "brand": "Tefal",
@@ -33248,6 +33825,85 @@
           "candidateUrls": [],
           "candidates": [],
           "inspectedAt": "2026-07-17T00:00:00+08:00"
+        }
+      ],
+      "evidence": [],
+      "rejectedCandidates": []
+    },
+    {
+      "id": "cookware-ballarini-ledro-1027801",
+      "category": "cookware",
+      "brand": "BALLARINI",
+      "model": "LEDRO 1027801",
+      "name": "LEDRO 義大利製陶瓷不沾炒鍋 28cm",
+      "identity": {
+        "canonicalModel": "LEDRO 1027801",
+        "lookupLabel": "BALLARINI LEDRO 1027801",
+        "aliases": [
+          "BALLARINI LEDRO 1027801"
+        ],
+        "evidenceUrl": "https://www.zwilling.com.tw/products/1027801"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "status": "completed",
+        "decision": "no_common_issue",
+        "reviewedAt": "2026-07-24",
+        "checkedPlatforms": [
+          "Mobile01",
+          "Reddit"
+        ],
+        "queries": [
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"BALLARINI LEDRO 1027801\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22BALLARINI%20LEDRO%201027801%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "mobile01.com"
+          },
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"BALLARINI LEDRO 1027801\" (problem OR issue OR defect OR \"negative review\")",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22BALLARINI%20LEDRO%201027801%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
+            "targetHost": "reddit.com"
+          }
+        ],
+        "candidateDisposition": "LEDRO 1027801：已用 Chrome 重跑 Mobile01 與 Reddit exact-model 跨站查詢，沒有找到通過型號邊界的原頁候選；此結果不代表完全沒有負評。",
+        "representativeSources": [],
+        "candidateReviews": [],
+        "reviewerNote": "LEDRO 1027801 於 2026-07-24 透過可重現的 Bing exact-model 查詢覆核 Mobile01、Reddit；沒有把相近鍋具系列評價歸入同 SKU。",
+        "attestation": "manual_cross_site_search_reviewed_no_candidate"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-07-24",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"BALLARINI LEDRO 1027801\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22BALLARINI%20LEDRO%201027801%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "mobile01.com"
+          },
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"BALLARINI LEDRO 1027801\" (problem OR issue OR defect OR \"negative review\")",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22BALLARINI%20LEDRO%201027801%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
+            "targetHost": "reddit.com"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "Yahoo Search",
+          "query": "(\"BALLARINI LEDRO 1027801\") (problem OR issue OR defect OR failure OR 災情 OR 故障 OR 負評) (site:mobile01.com OR site:dcard.tw OR site:ptt.cc OR site:reddit.com OR site:snbforums.com OR site:52asus.com)",
+          "searchUrl": "https://search.yahoo.com/search?p=(%22BALLARINI%20LEDRO%201027801%22)%20(problem%20OR%20issue%20OR%20defect%20OR%20failure%20OR%20%E7%81%BD%E6%83%85%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)%20(site%3Amobile01.com%20OR%20site%3Adcard.tw%20OR%20site%3Aptt.cc%20OR%20site%3Areddit.com%20OR%20site%3Asnbforums.com%20OR%20site%3A52asus.com)",
+          "result": "search_unavailable",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-07-24T00:00:00+08:00",
+          "error": "fetch failed"
         }
       ],
       "evidence": [],
@@ -59332,6 +59988,85 @@
       "rejectedCandidates": []
     },
     {
+      "id": "standingdesk-backbone-dyback-craft",
+      "category": "standingdesk",
+      "brand": "Backbone",
+      "model": "Dyback Craft",
+      "name": "Dyback Craft 實木電動升降桌",
+      "identity": {
+        "canonicalModel": "Dyback Craft",
+        "lookupLabel": "Backbone Dyback Craft",
+        "aliases": [
+          "Backbone Dyback Craft"
+        ],
+        "evidenceUrl": "https://www.backbone.tw/products/dyback-craft"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "status": "completed",
+        "decision": "no_common_issue",
+        "reviewedAt": "2026-07-24",
+        "checkedPlatforms": [
+          "Mobile01",
+          "Reddit"
+        ],
+        "queries": [
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"Backbone Dyback Craft\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Backbone%20Dyback%20Craft%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "mobile01.com"
+          },
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"Backbone Dyback Craft\" (problem OR issue OR defect OR \"negative review\")",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Backbone%20Dyback%20Craft%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
+            "targetHost": "reddit.com"
+          }
+        ],
+        "candidateDisposition": "Dyback Craft：已用 Chrome 重跑 Mobile01 與 Reddit exact-model 跨站查詢，沒有找到通過型號邊界的原頁候選；此結果不代表完全沒有負評。",
+        "representativeSources": [],
+        "candidateReviews": [],
+        "reviewerNote": "Dyback Craft 於 2026-07-24 透過可重現的 Bing exact-model 查詢覆核 Mobile01、Reddit；未以其他 Backbone 桌款或系列心得代替同型號證據。",
+        "attestation": "manual_cross_site_search_reviewed_no_candidate"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-07-24",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"Backbone Dyback Craft\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Backbone%20Dyback%20Craft%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "mobile01.com"
+          },
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"Backbone Dyback Craft\" (problem OR issue OR defect OR \"negative review\")",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Backbone%20Dyback%20Craft%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
+            "targetHost": "reddit.com"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "Yahoo Search",
+          "query": "(\"Backbone Dyback Craft\") (problem OR issue OR defect OR failure OR 災情 OR 故障 OR 負評) (site:mobile01.com OR site:dcard.tw OR site:ptt.cc OR site:reddit.com OR site:snbforums.com OR site:52asus.com)",
+          "searchUrl": "https://search.yahoo.com/search?p=(%22Backbone%20Dyback%20Craft%22)%20(problem%20OR%20issue%20OR%20defect%20OR%20failure%20OR%20%E7%81%BD%E6%83%85%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)%20(site%3Amobile01.com%20OR%20site%3Adcard.tw%20OR%20site%3Aptt.cc%20OR%20site%3Areddit.com%20OR%20site%3Asnbforums.com%20OR%20site%3A52asus.com)",
+          "result": "search_unavailable",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-07-24T00:00:00+08:00",
+          "error": "fetch failed"
+        }
+      ],
+      "evidence": [],
+      "rejectedCandidates": []
+    },
+    {
       "id": "chair-irocks-t07-plus",
       "category": "chair",
       "brand": "iRocks",
@@ -61756,6 +62491,85 @@
           "candidateUrls": [],
           "candidates": [],
           "inspectedAt": "2026-07-11T00:00:00+08:00"
+        }
+      ],
+      "evidence": [],
+      "rejectedCandidates": []
+    },
+    {
+      "id": "chair-backbone-orca",
+      "category": "chair",
+      "brand": "Backbone",
+      "model": "Orca",
+      "name": "Orca 人體工學椅",
+      "identity": {
+        "canonicalModel": "Orca",
+        "lookupLabel": "Backbone Orca",
+        "aliases": [
+          "Backbone Orca"
+        ],
+        "evidenceUrl": "https://www.backbone.tw/products/orca"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "status": "completed",
+        "decision": "no_common_issue",
+        "reviewedAt": "2026-07-24",
+        "checkedPlatforms": [
+          "Mobile01",
+          "Reddit"
+        ],
+        "queries": [
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"Backbone Orca\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Backbone%20Orca%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "mobile01.com"
+          },
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"Backbone Orca\" (problem OR issue OR defect OR \"negative review\")",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Backbone%20Orca%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
+            "targetHost": "reddit.com"
+          }
+        ],
+        "candidateDisposition": "Orca：已用 Chrome 重跑 Mobile01 與 Reddit exact-model 跨站查詢，沒有找到通過型號邊界的原頁候選；此結果不代表完全沒有負評。",
+        "representativeSources": [],
+        "candidateReviews": [],
+        "reviewerNote": "Orca 於 2026-07-24 透過可重現的 Bing exact-model 查詢覆核 Mobile01、Reddit；查詢包含 Backbone 品牌以避免一般動物名稱誤判。",
+        "attestation": "manual_cross_site_search_reviewed_no_candidate"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-07-24",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"Backbone Orca\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Backbone%20Orca%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "mobile01.com"
+          },
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"Backbone Orca\" (problem OR issue OR defect OR \"negative review\")",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Backbone%20Orca%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
+            "targetHost": "reddit.com"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "Yahoo Search",
+          "query": "(\"Backbone Orca\") (problem OR issue OR defect OR failure OR 災情 OR 故障 OR 負評) (site:mobile01.com OR site:dcard.tw OR site:ptt.cc OR site:reddit.com OR site:snbforums.com OR site:52asus.com)",
+          "searchUrl": "https://search.yahoo.com/search?p=(%22Backbone%20Orca%22)%20(problem%20OR%20issue%20OR%20defect%20OR%20failure%20OR%20%E7%81%BD%E6%83%85%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)%20(site%3Amobile01.com%20OR%20site%3Adcard.tw%20OR%20site%3Aptt.cc%20OR%20site%3Areddit.com%20OR%20site%3Asnbforums.com%20OR%20site%3A52asus.com)",
+          "result": "search_unavailable",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-07-24T00:00:00+08:00",
+          "error": "fetch failed"
         }
       ],
       "evidence": [],
@@ -69318,6 +70132,161 @@
       ],
       "evidence": [],
       "rejectedCandidates": []
+    },
+    {
+      "id": "monitorarm-dell-hda26",
+      "category": "monitorarm",
+      "brand": "Dell",
+      "model": "HDA26",
+      "name": "Dell Pro 重型單一顯示器懸臂支架",
+      "identity": {
+        "canonicalModel": "HDA26",
+        "lookupLabel": "Dell HDA26",
+        "aliases": [
+          "Dell HDA26"
+        ],
+        "evidenceUrl": "https://www.dell.com/zh-tw/shop/dell-pro-%E9%87%8D%E5%9E%8B%E5%96%AE%E4%B8%80%E9%A1%AF%E7%A4%BA%E5%99%A8%E8%87%82%E6%9E%B6-hda26/apd/482-bbgj/%E9%A1%AF%E7%A4%BA%E5%99%A8%E5%92%8C%E9%A1%AF%E7%A4%BA%E5%99%A8%E9%85%8D%E4%BB%B6"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "status": "completed",
+        "decision": "no_common_issue",
+        "reviewedAt": "2026-07-24",
+        "checkedPlatforms": [
+          "Mobile01",
+          "Reddit"
+        ],
+        "queries": [
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"Dell HDA26\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Dell%20HDA26%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "mobile01.com"
+          },
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"Dell HDA26\" (problem OR issue OR defect OR \"negative review\")",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Dell%20HDA26%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
+            "targetHost": "reddit.com"
+          }
+        ],
+        "candidateDisposition": "HDA26：已用 Chrome 重跑 Mobile01 與 Reddit exact-model 查詢並逐頁覆核兩個 Reddit 原頁；內容是購前比較及安裝詢問，沒有第一人稱故障回報。",
+        "representativeSources": [
+          {
+            "platform": "Reddit",
+            "title": "Anyone tried the Dell HDA26 monitor arm?",
+            "url": "https://www.reddit.com/r/ultrawidemasterrace/comments/1um2395/anyone_tried_the_dell_hda26_monitor_arm/"
+          },
+          {
+            "platform": "Reddit",
+            "title": "Dell HDA26 Monitor Arm to suit U5226KW 52-inch",
+            "url": "https://www.reddit.com/r/Dell/comments/1skzgdu/dell_hda26_monitor_arm_to_suit_u5226kw_52/"
+          }
+        ],
+        "candidateReviews": [
+          {
+            "url": "https://www.reddit.com/r/ultrawidemasterrace/comments/1um2395/anyone_tried_the_dell_hda26_monitor_arm/",
+            "title": "Anyone tried the Dell HDA26 monitor arm?",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-07-24",
+            "sourceExcerpt": "樓主詢問 HDA26 與 Ergotron HX 的比較；主要回覆者明言自己沒有 HDA26，只提醒非 U5226KW 需 VESA 板及最低承重 10kg。",
+            "independentAuthors": 0,
+            "specificReason": "回覆者不是持有者，內容是官方相容與承重限制的購前說明；沒有 exact-model 第一人稱故障、瑕疵或負面使用經驗可計數。"
+          },
+          {
+            "url": "https://www.reddit.com/r/Dell/comments/1skzgdu/dell_hda26_monitor_arm_to_suit_u5226kw_52/",
+            "title": "Dell HDA26 Monitor Arm to suit U5226KW 52-inch",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-07-24",
+            "sourceExcerpt": "樓主只詢問 HDA26 下方夾座能否拆卸以便穿桌安裝；回覆依圖示說明夾座與穿桌孔，沒有產品故障或使用後負評。",
+            "independentAuthors": 0,
+            "specificReason": "整頁是安裝結構詢問，沒有任何 exact-model 第一人稱負面問題；安裝限制本身不等於災情，也未形成跨站使用者回報。"
+          }
+        ],
+        "reviewerNote": "HDA26 於 2026-07-24 透過可重現的 Bing exact-model 查詢與 Chrome 原頁覆核 Mobile01、Reddit；購前限制與安裝提問不視為產品負評。",
+        "attestation": "manual_original_pages_reviewed"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-07-24",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"Dell HDA26\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Dell%20HDA26%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "mobile01.com"
+          },
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"Dell HDA26\" (problem OR issue OR defect OR \"negative review\")",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Dell%20HDA26%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
+            "targetHost": "reddit.com"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Dell HDA26\" (災情 OR 問題 OR 故障 OR 負評)",
+          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Dell%20HDA26%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-07-24T00:00:00+08:00"
+        },
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Dell HDA26\" (problem OR issue OR defect OR \"negative review\")",
+          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Dell%20HDA26%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
+          "result": "candidates_unverified_by_search_only",
+          "resultCount": 2,
+          "candidateUrls": [
+            "https://www.reddit.com/r/ultrawidemasterrace/comments/1um2395/anyone_tried_the_dell_hda26_monitor_arm/",
+            "https://www.reddit.com/r/Dell/comments/1skzgdu/dell_hda26_monitor_arm_to_suit_u5226kw_52/"
+          ],
+          "candidates": [
+            {
+              "url": "https://www.reddit.com/r/ultrawidemasterrace/comments/1um2395/anyone_tried_the_dell_hda26_monitor_arm/",
+              "title": "Anyone tried the Dell HDA26 monitor arm?"
+            },
+            {
+              "url": "https://www.reddit.com/r/Dell/comments/1skzgdu/dell_hda26_monitor_arm_to_suit_u5226kw_52/",
+              "title": "Dell HDA26 Monitor Arm to suit U5226KW 52-inch"
+            }
+          ],
+          "inspectedAt": "2026-07-24T00:00:00+08:00"
+        }
+      ],
+      "evidence": [],
+      "rejectedCandidates": [
+        {
+          "url": "https://www.reddit.com/r/ultrawidemasterrace/comments/1um2395/anyone_tried_the_dell_hda26_monitor_arm/",
+          "title": "Anyone tried the Dell HDA26 monitor arm?",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-07-24",
+          "sourceExcerpt": "樓主詢問 HDA26 與 Ergotron HX 的比較；主要回覆者明言自己沒有 HDA26，只提醒非 U5226KW 需 VESA 板及最低承重 10kg。",
+          "independentAuthors": 0,
+          "specificReason": "回覆者不是持有者，內容是官方相容與承重限制的購前說明；沒有 exact-model 第一人稱故障、瑕疵或負面使用經驗可計數。",
+          "reason": "回覆者不是持有者，內容是官方相容與承重限制的購前說明；沒有 exact-model 第一人稱故障、瑕疵或負面使用經驗可計數。"
+        },
+        {
+          "url": "https://www.reddit.com/r/Dell/comments/1skzgdu/dell_hda26_monitor_arm_to_suit_u5226kw_52/",
+          "title": "Dell HDA26 Monitor Arm to suit U5226KW 52-inch",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-07-24",
+          "sourceExcerpt": "樓主只詢問 HDA26 下方夾座能否拆卸以便穿桌安裝；回覆依圖示說明夾座與穿桌孔，沒有產品故障或使用後負評。",
+          "independentAuthors": 0,
+          "specificReason": "整頁是安裝結構詢問，沒有任何 exact-model 第一人稱負面問題；安裝限制本身不等於災情，也未形成跨站使用者回報。",
+          "reason": "整頁是安裝結構詢問，沒有任何 exact-model 第一人稱負面問題；安裝限制本身不等於災情，也未形成跨站使用者回報。"
+        }
+      ]
     }
   ]
 }

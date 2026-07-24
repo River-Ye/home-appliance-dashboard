@@ -617,9 +617,9 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/1f2a33ce70-Gd-10053955.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 43563,
-      "converted": 43563,
-      "confidence": "Yahoo購物中心 2026-07-18 商品頁公開價"
+      "amount": 44910,
+      "converted": 44910,
+      "confidence": "Yahoo購物中心 2026-07-24 exact-model 公開結構化價格"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心",
@@ -789,9 +789,9 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/953C366DCA-SP-17994282.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 46463,
-      "converted": 46463,
-      "confidence": "Yahoo購物中心 2026-07-20 頁面公開價"
+      "amount": 47900,
+      "converted": 47900,
+      "confidence": "Yahoo購物中心 2026-07-24 exact-model 公開結構化價格"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心",
@@ -961,9 +961,9 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/32FF0A7411-SP-21060003.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 32900,
-      "converted": 32900,
-      "confidence": "PChome 2026-07-22 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 38900,
+      "converted": 38900,
+      "confidence": "PChome 2026-07-24 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -1133,9 +1133,9 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/BCB950DBF0-SP-13742246.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 47433,
-      "converted": 47433,
-      "confidence": "Yahoo購物中心 2026-07-18 商品頁公開價"
+      "amount": 48900,
+      "converted": 48900,
+      "confidence": "Yahoo購物中心 2026-07-24 exact-model 公開結構化價格"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心",
@@ -1391,9 +1391,9 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/41046DB844-SP-12334280.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 35084,
-      "converted": 35084,
-      "confidence": "Yahoo購物中心 2026-07-18 商品頁公開價"
+      "amount": 36930,
+      "converted": 36930,
+      "confidence": "Yahoo購物中心 2026-07-24 exact-model 公開結構化價格"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心",
@@ -2134,6 +2134,93 @@
           "platform": "Reddit",
           "query": "site:reddit.com \"LG WD-S2220B\" (problem OR issue OR defect OR \"negative review\")",
           "queryUrl": "https://www.bing.com/search?q=site%3Areddit.com%20%22LG%20WD-S2220B%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
+          "targetHost": "reddit.com"
+        }
+      ]
+    }
+  },
+  {
+    "id": "washerdryer-samsung-wd90h22ahstw",
+    "rank": 26,
+    "topPick": false,
+    "brand": "Samsung",
+    "model": "WD90H22AHSTW",
+    "name": "Bespoke AI 智慧熱泵滾筒洗衣機 蒸洗脫烘 22+20kg",
+    "image": "https://images.samsung.com/is/image/samsung/p6pim/tw/wd90h22ahstw/gallery/tw-wd90h27-wd90h25ahs-wd90h22ahstw-552502802?$624_468_PNG$",
+    "price": {
+      "currency": "TWD",
+      "amount": 99900,
+      "converted": 99900,
+      "confidence": "全國電子 2026-07-24 exact-model 新品公開價"
+    },
+    "channel": "tw",
+    "buyLabel": "全國電子",
+    "buyUrl": "https://www.elifemall.com.tw/product/2163236",
+    "specs": [
+      "洗/乾容量：22kg / 20kg",
+      "尺寸：寬 68.6 x 深 87.5 x 高 111 cm",
+      "Heat Pump 熱泵低溫乾衣；洗滌 1100W、乾衣 1000W",
+      "AI Wash / AI Dry、AI Ecobubble、蒸氣洗程",
+      "89 分鐘洗脫烘、Auto Open Door、SmartThings",
+      "最高脫水轉速 1100rpm；機重 145kg",
+      "110V / 60Hz；大型機身需先確認進排水、專用插座與搬運動線"
+    ],
+    "description": "2026 年在台上市的 22/20kg 單筒熱泵洗脫烘，把大容量洗衣、接近等量乾衣與低溫熱泵整合在 111cm 高機身，補足現有洗衣塔之外的單筒大容量選擇。",
+    "pros": [
+      "洗 22kg／乾 20kg，乾衣容量接近洗衣容量",
+      "熱泵低溫乾衣、AI 洗乾、自動開門與 SmartThings 功能完整",
+      "111cm 高的單筒設計，比近 190cm 洗衣塔更容易利用上方空間"
+    ],
+    "cons": [
+      "售價高，145kg 機重與 87.5cm 深度對搬運、門寬及陽台空間要求高",
+      "單筒洗乾無法像上下雙筒洗衣塔同時處理下一批衣物",
+      "全機、主機板與馬達保固年限不同，不能視為全機十年"
+    ],
+    "bestFor": "需要 22kg 大容量、偏好單筒機身與熱泵低溫乾衣，且能先完成大型家電場勘的家庭。",
+    "recommendation": "大容量單筒熱泵補強：WD90H22AHSTW 的 22/20kg 容量、110V 台灣規格與官方上市證據完整；仍要留意乾衣 20kg 小於洗衣 22kg、89 分鐘為 3kg 測試條件而滿載完整洗烘時間更長，單筒整合機的停機影響與維修成本風險也較集中。適合和 LG WashTower 比較單筒空間、同步洗乾與售價取捨。",
+    "voltage": "110V / 60Hz；洗滌額定 1100W、乾衣額定 1000W",
+    "warranty": "本體 1 年、主機板 3 年、數位變頻馬達 10 年（2026 年 4 月起購買，依 Samsung 台灣原廠條款）",
+    "score": 91,
+    "budget": "premium",
+    "tags": [
+      "洗/乾容量：22kg / 20kg",
+      "Heat Pump熱泵",
+      "單筒洗脫烘",
+      "AI洗乾",
+      "SmartThings",
+      "110V"
+    ],
+    "category": "washerdryer",
+    "releaseDate": "2026-05-11",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-07-24",
+      "note": "WD90H22AHSTW 於 2026-05-11 在台上市；已查 Samsung 台灣官方、全國電子、FindPrice、BigGo 與其他 exact-model 零售結果，只取得建議售價或上市後現價，未找到可公開重現的可信新品完整價格曲線。NT$99,900 現價不得直接推定為史低。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-07-24",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Samsung WD90H22AHSTW\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Samsung%20WD90H22AHSTW%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Samsung WD90H22AHSTW\" (problem OR issue OR defect OR \"negative review\")",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Samsung%20WD90H22AHSTW%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
           "targetHost": "reddit.com"
         }
       ]

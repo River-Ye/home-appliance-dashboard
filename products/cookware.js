@@ -1969,6 +1969,93 @@
         }
       ]
     }
+  },
+  {
+    "id": "cookware-ballarini-ledro-1027801",
+    "category": "cookware",
+    "rank": 25,
+    "topPick": false,
+    "budget": "mid",
+    "channel": "tw",
+    "brand": "BALLARINI",
+    "model": "LEDRO 1027801",
+    "name": "LEDRO 義大利製陶瓷不沾炒鍋 28cm",
+    "price": {
+      "currency": "TWD",
+      "amount": 3680,
+      "converted": 3680,
+      "confidence": "ZWILLING 台灣官方 2026-07-24 exact-SKU 公開現貨價"
+    },
+    "image": "https://cdn-general.cybassets.com/media/W1siZiIsIjI5NjAzL3Byb2R1Y3RzLzY3NjAyNjc1LzE3Nzk2OTE2NDdfYzA4M2RlYzExYmIzMDgzNmVkOTMuanBlZyJdLFsicCIsInRodW1iIiwiMTAyNHgxMDI0Il1d.jpeg?sha=cdda42555954fd10",
+    "buyUrl": "https://www.zwilling.com.tw/products/1027801",
+    "buyLabel": "ZWILLING 台灣官方",
+    "specs": [
+      "直徑 28cm（不含把手）",
+      "鋁合金鍋身、CERAFORCE 陶瓷不沾塗層",
+      "鍋身採 100% 再生鋁材；手柄含 37% 生物基材質",
+      "不含 PFAS 與重金屬",
+      "Thermopoint 紅綠聰明感溫點",
+      "瓦斯爐、電磁爐等爐具適用",
+      "重量 1.28kg；義大利製；環保吊卡包裝無外盒"
+    ],
+    "description": "BALLARINI 2026 年 7 月 LEDRO 新品以義大利製、再生鋁鍋身、無 PFAS 陶瓷塗層與 Thermopoint 感溫點，補上現有鍋具中偏永續材質的 28cm 電磁爐炒鍋。",
+    "pros": [
+      "28cm 炒鍋用途廣，瓦斯爐與電磁爐皆可使用",
+      "100% 再生鋁鍋身與不含 PFAS、重金屬的陶瓷塗層有明確差異",
+      "Thermopoint 感溫點可協助掌握預熱與降溫時機"
+    ],
+    "cons": [
+      "陶瓷不沾塗層仍需避免空燒、金屬鍋鏟與高溫急冷",
+      "1.28kg 且為長柄 28cm 炒鍋，單手翻炒負擔高於輕量款",
+      "官方非電器類商品目前不提供保固"
+    ],
+    "bestFor": "想找義大利製、電磁爐可用、重視無 PFAS 陶瓷塗層與再生材質的家庭。",
+    "recommendation": "永續陶瓷不沾補強：LEDRO 1027801 的 28cm 尺寸、義大利產地、材質、爐具相容與官方現貨均可核對；適合和現有不沾鍋比較塗層照護與價格。",
+    "score": 87,
+    "voltage": "不適用（非電器；瓦斯爐、電磁爐等爐具適用）",
+    "warranty": "非電器類商品目前無保固；產品問題可聯繫台灣雙人客服（依 ZWILLING 台灣官方政策）",
+    "tags": [
+      "新品",
+      "28cm炒鍋",
+      "陶瓷不沾",
+      "無PFAS",
+      "再生鋁",
+      "電磁爐"
+    ],
+    "releaseDate": "2026-07",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-07-24",
+      "note": "LEDRO 1027801 為 2026 年 7 月新品；已查 ZWILLING 台灣官方、BigGo、FindPrice、LBJ 與 exact-SKU 搜尋，僅找到官方定價與當期組合促銷，未找到可公開重現的同 SKU／同尺寸可信新品歷史最低價。未把未落入商品欄位的組合折扣自行換算成史低。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-07-24",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"BALLARINI LEDRO 1027801\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22BALLARINI%20LEDRO%201027801%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"BALLARINI LEDRO 1027801\" (problem OR issue OR defect OR \"negative review\")",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22BALLARINI%20LEDRO%201027801%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
+          "targetHost": "reddit.com"
+        }
+      ]
+    }
   }
 ]);
 })();

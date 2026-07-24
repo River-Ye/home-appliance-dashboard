@@ -1758,6 +1758,90 @@
         }
       ]
     }
+  },
+  {
+    "id": "circulator-sharp-pk-18s03t",
+    "category": "circulator",
+    "rank": 23,
+    "budget": "mid",
+    "channel": "tw",
+    "brand": "SHARP",
+    "model": "PK-18S03T",
+    "name": "森呼吸 NEXT 自動除菌離子 3D 清淨循環扇",
+    "price": {
+      "currency": "TWD",
+      "amount": 5990,
+      "converted": 5990,
+      "confidence": "momo購物 2026-07-24 exact-model 商品頁公開現貨價"
+    },
+    "image": "https://www.tw.sharp/sites/default/files/styles/resize_640x640/public/2026-05/PK-18S03T-H.png?itok=HVyf5ufH",
+    "buyUrl": "https://www.momoshop.com.tw/product/15360868",
+    "buyLabel": "momo購物",
+    "specs": [
+      "Plasmacluster NEXT 自動除菌離子與抗菌扇葉",
+      "10 段風量；最遠送風距離約 24m；適用約 15 坪",
+      "上下 140°、左右 120° 自動 3D 擺頭",
+      "連續、乾衣、自然、睡眠 4 種模式；最低約 20dB",
+      "1–9 小時定時；DC 馬達",
+      "尺寸：25.3 x 19.7 x 32.9 cm；重量：約 2.6kg"
+    ],
+    "description": "SHARP 2026 年森呼吸 NEXT 循環扇，以 Plasmacluster NEXT、10 段風量與上下左右 3D 擺頭兼顧空氣循環、乾衣與低噪使用。",
+    "pros": [
+      "台灣可信通路現貨、原廠規格與圖片證據完整",
+      "10 段風量、3D 擺頭、乾衣模式與最低約 20dB 功能完整",
+      "AC 100–240V 變壓器，台灣使用相容"
+    ],
+    "cons": [
+      "現價比公開專案史低高 NT$1,000",
+      "2026 新品，長期耐用度與實際使用口碑仍待累積"
+    ],
+    "bestFor": "想搭配冷氣、除濕機或室內乾衣，並重視小體積、3D 擺頭與低噪的人。",
+    "recommendation": "2026 新品補充比較：功能與台灣購買證據完整，但現價高於早鳥史低；不急用可等待接近 NT$4,990 的公開促銷。",
+    "score": 87,
+    "voltage": "AC 100–240V / 50–60Hz（變壓器）",
+    "warranty": "momo 商品頁標示原廠保固 1 年",
+    "tags": [
+      "2026新品",
+      "Plasmacluster NEXT",
+      "3D擺頭",
+      "低噪",
+      "乾衣模式",
+      "台灣現貨"
+    ],
+    "releaseDate": "2026",
+    "historicalLow": {
+      "status": "found",
+      "amount": 4990,
+      "currency": "TWD",
+      "converted": 4990,
+      "sourceUrl": "https://www.myfeel-tw.com/projects/PK-18S03T",
+      "sourceTitle": "MyFeel：SHARP 森呼吸 NEXT 自動除菌離子 3D 清淨循環扇 PK-18S03T",
+      "evidenceSnippet": "公開專案的「森呼吸 NEXT｜超早鳥單入組」包含主機、說明書與完整配件，公開售價 NT$4,990。",
+      "sourceKind": "retailer_promo",
+      "confidence": "high",
+      "checkedAt": "2026-07-24",
+      "note": "同型號完整新品的公開早鳥單入價；未疊加額外折扣碼，並排除會員個人化折扣、信用卡回饋、點數、二手、福利品、展示、拆封與整新品。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-07-24",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"SHARP PK-18S03T\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22SHARP%20PK-18S03T%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"SHARP PK-18S03T\" (problem OR issue OR defect OR \"negative review\")",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22SHARP%20PK-18S03T%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
+          "targetHost": "reddit.com"
+        }
+      ]
+    }
   }
 ]);
 })();

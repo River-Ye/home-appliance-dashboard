@@ -40,6 +40,16 @@ const EXPECTED_POIEMA_COUNT = DASHBOARD_PRODUCTS
   .filter((product) => JSON.stringify(product).toUpperCase().includes("POIEMA")).length;
 const EXPECTED_PURIFIER_COUNT = DASHBOARD_PRODUCTS
   .filter((product) => product.category === "purifier").length;
+const EXPECTED_SOUNDBAR_COUNT = DASHBOARD_PRODUCTS
+  .filter((product) => product.category === "soundbar").length;
+const EXPECTED_COOKWARE_COUNT = DASHBOARD_PRODUCTS
+  .filter((product) => product.category === "cookware").length;
+const EXPECTED_STANDING_DESK_COUNT = DASHBOARD_PRODUCTS
+  .filter((product) => product.category === "standingdesk").length;
+const EXPECTED_CHAIR_COUNT = DASHBOARD_PRODUCTS
+  .filter((product) => product.category === "chair").length;
+const EXPECTED_MONITOR_ARM_COUNT = DASHBOARD_PRODUCTS
+  .filter((product) => product.category === "monitorarm").length;
 
 function attachRuntimeIssueCollector(page) {
   const issues = [];
@@ -412,9 +422,9 @@ async function runExhaustiveViewport(browser, name, viewport) {
   await page.getByRole("button", { name: "重設篩選" }).click();
   await waitForVisibleCount(page, EXPECTED_PRODUCT_COUNT);
 
-  const soundbarTab = page.getByRole("button", { name: "Soundbar 26" });
+  const soundbarTab = page.getByRole("button", { name: `Soundbar ${EXPECTED_SOUNDBAR_COUNT}` });
   await soundbarTab.click();
-  await page.waitForFunction(() => document.querySelector("#visibleCount")?.textContent?.trim() === "26");
+  await waitForVisibleCount(page, EXPECTED_SOUNDBAR_COUNT);
   await page.locator("#brandInput").click();
   const soundbarBrandOptions = await page.$$eval("#brandOptions [data-value]", (options) => options.map((option) => option.dataset.value));
   if (!soundbarBrandOptions.includes("Marshall")) throw new Error(`${name}: soundbar brands missing Marshall`);
@@ -509,9 +519,9 @@ async function runExhaustiveViewport(browser, name, viewport) {
   await page.getByRole("button", { name: "重設篩選" }).click();
   await waitForVisibleCount(page, EXPECTED_PRODUCT_COUNT);
 
-  const cookwareTab = page.getByRole("button", { name: "鍋具 24" });
+  const cookwareTab = page.getByRole("button", { name: `鍋具 ${EXPECTED_COOKWARE_COUNT}` });
   await cookwareTab.click();
-  await page.waitForFunction(() => document.querySelector("#visibleCount")?.textContent?.trim() === "24");
+  await waitForVisibleCount(page, EXPECTED_COOKWARE_COUNT);
   await loadAllVisibleProducts(page);
   for (const expected of ["Tefal", "Buffalo", "WMF", "Fissler", "Le Creuset", "Staub"]) {
     const found = await page.locator(".product-card", { hasText: expected }).count();
@@ -545,18 +555,18 @@ async function runExhaustiveViewport(browser, name, viewport) {
     if (!found) throw new Error(`${name}: missing dishwasher brand ${expected}`);
   }
 
-  const standingDeskTab = page.getByRole("button", { name: "升降桌 22" });
+  const standingDeskTab = page.getByRole("button", { name: `升降桌 ${EXPECTED_STANDING_DESK_COUNT}` });
   await standingDeskTab.click();
-  await page.waitForFunction(() => document.querySelector("#visibleCount")?.textContent?.trim() === "22");
+  await waitForVisibleCount(page, EXPECTED_STANDING_DESK_COUNT);
   await loadAllVisibleProducts(page);
   for (const expected of ["Loctek", "iRocks", "NITORI", "COUGAR"]) {
     const found = await page.locator(".product-card", { hasText: expected }).count();
     if (!found) throw new Error(`${name}: missing standing desk brand ${expected}`);
   }
 
-  const chairTab = page.getByRole("button", { name: "電腦椅 23" });
+  const chairTab = page.getByRole("button", { name: `電腦椅 ${EXPECTED_CHAIR_COUNT}` });
   await chairTab.click();
-  await page.waitForFunction(() => document.querySelector("#visibleCount")?.textContent?.trim() === "23");
+  await waitForVisibleCount(page, EXPECTED_CHAIR_COUNT);
   await loadAllVisibleProducts(page);
   for (const expected of ["iRocks", "Ergohuman", "Razer", "Herman Miller", "Steelcase"]) {
     const found = await page.locator(".product-card", { hasText: expected }).count();
@@ -582,9 +592,9 @@ async function runExhaustiveViewport(browser, name, viewport) {
   if (ultrawideVisible < 15) throw new Error(`${name}: ultrawide search returned ${ultrawideVisible}`);
 
   await page.fill("#searchInput", "");
-  const monitorArmTab = page.getByRole("button", { name: "懸臂支架 21" });
+  const monitorArmTab = page.getByRole("button", { name: `懸臂支架 ${EXPECTED_MONITOR_ARM_COUNT}` });
   await monitorArmTab.click();
-  await page.waitForFunction(() => document.querySelector("#visibleCount")?.textContent?.trim() === "21");
+  await waitForVisibleCount(page, EXPECTED_MONITOR_ARM_COUNT);
   await loadAllVisibleProducts(page);
   for (const expected of ["Raymii", "Happy Tech", "Loctek", "Ergotron", "j5create"]) {
     const found = await page.locator(".product-card", { hasText: expected }).count();
@@ -619,7 +629,7 @@ async function runExhaustiveViewport(browser, name, viewport) {
 
   await page.fill("#searchInput", "");
   await standingDeskTab.click();
-  await page.waitForFunction(() => document.querySelector("#visibleCount")?.textContent?.trim() === "22");
+  await waitForVisibleCount(page, EXPECTED_STANDING_DESK_COUNT);
   await loadAllVisibleProducts(page);
   const deskThicknessMissing = await page.$$eval(".product-card", (cards) => cards.filter((card) => !card.textContent.includes("桌板厚度：")).length);
   if (deskThicknessMissing) throw new Error(`${name}: ${deskThicknessMissing} standing desk cards missing desktop thickness spec`);
@@ -932,10 +942,10 @@ async function runDesktopJourney(browser) {
     await page.waitForFunction(() => document.querySelector("#brandOptions")?.hidden);
     await resetFilters(page);
 
-    await page.getByRole("button", { name: "Soundbar 26" }).click();
-    await page.waitForFunction(() => document.querySelector("#visibleCount")?.textContent?.trim() === "26");
+    await page.getByRole("button", { name: `Soundbar ${EXPECTED_SOUNDBAR_COUNT}` }).click();
+    await waitForVisibleCount(page, EXPECTED_SOUNDBAR_COUNT);
     await page.getByRole("button", { name: "再載入 40 筆" }).click();
-    await waitForProductCards(page, 26);
+    await waitForProductCards(page, EXPECTED_SOUNDBAR_COUNT);
     if (await page.locator("#loadMoreProducts").isVisible()) {
       throw new Error(`${name}: final manual batch should hide the load-more button`);
     }
@@ -1021,7 +1031,7 @@ async function runMobileJourney(browser) {
     }
 
     await selectComboboxOption(page, "#categoryInput", '#categoryOptions [data-value="soundbar"]', "Soundbar");
-    await page.waitForFunction(() => document.querySelector("#visibleCount")?.textContent?.trim() === "26");
+    await waitForVisibleCount(page, EXPECTED_SOUNDBAR_COUNT);
     await selectComboboxOption(page, "#brandInput", '#brandOptions [data-value="Marshall"]', "Marshall");
     await page.waitForFunction(() => document.querySelector("#visibleCount")?.textContent?.trim() === "2");
     await waitForProductCards(page, 2);
@@ -1032,7 +1042,7 @@ async function runMobileJourney(browser) {
     const collapsedFilterCount = Number(await page.locator("#activeFilterCount").innerText());
     if (collapsedFilterCount < 2) throw new Error(`${name}: collapsed filter count did not reflect active chips`);
     await page.locator('#activeFilterChips [data-clear-filter="brand"]').click();
-    await page.waitForFunction(() => document.querySelector("#visibleCount")?.textContent?.trim() === "26");
+    await waitForVisibleCount(page, EXPECTED_SOUNDBAR_COUNT);
     if (!await filterToggle.evaluate((node) => document.activeElement === node)) {
       throw new Error(`${name}: clearing a collapsed mobile filter focused a hidden control`);
     }

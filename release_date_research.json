@@ -1,13 +1,13 @@
 {
   "summary": {
-    "checkedAt": "2026-07-23T00:00:00+08:00",
-    "total": 688,
-    "found": 193,
-    "missing": 495,
+    "checkedAt": "2026-07-24T00:00:00+08:00",
+    "total": 696,
+    "found": 200,
+    "missing": 496,
     "byConfidence": {
-      "official": 93,
+      "official": 100,
       "credible_article": 89,
-      "not_found": 495,
+      "not_found": 496,
       "retailer_explicit": 11
     }
   },
@@ -748,6 +748,21 @@
       "query": "Soodatek SS0220-CS2000PBK release date launch announced 上市 發售"
     },
     {
+      "id": "soundbar-jbl-bar-1300-mk2",
+      "category": "soundbar",
+      "brand": "JBL",
+      "model": "BAR 1300MK2",
+      "name": "11.1.4 聲道旗艦家庭劇院聲霸",
+      "releaseDate": "2025-10",
+      "sourceUrl": "https://news.harman.com/releases/jbl-introduces-next-gen-bar-series-for-truly-immersive-entertainment",
+      "sourceTitle": "JBL Introduces Next-Gen BAR Series for Truly Immersive Entertainment",
+      "evidenceSnippet": "HARMAN 官方發布稿明列 JBL BAR 1300MK2，並表示此系列將於 2025 年 10 月供應。",
+      "confidence": "official",
+      "query": "site:news.harman.com JBL BAR 1300MK2 available October 2025",
+      "sourceKind": "official_brand_announcement",
+      "reason": "官方發布稿直接列出 exact model 與供應月份；未自行補足日。"
+    },
+    {
       "id": "fan-panasonic-fh16",
       "category": "fan",
       "brand": "Panasonic",
@@ -1334,6 +1349,21 @@
       "query": "site:irisplaza.com.tw \"PCF-CDP18TEC\" \"2026年新品\"",
       "sourceKind": "official_brand_page",
       "reason": "官方頁只支持年份 2026，不自行補推月份或日期。"
+    },
+    {
+      "id": "circulator-sharp-pk-18s03t",
+      "category": "circulator",
+      "brand": "SHARP",
+      "model": "PK-18S03T",
+      "name": "森呼吸 NEXT 自動除菌離子 3D 清淨循環扇",
+      "releaseDate": "2026",
+      "sourceUrl": "https://www.tw.sharp/products/pk-18s03t",
+      "sourceTitle": "《森呼吸NEXT》自動除菌離子3D清淨循環扇 PK-18S03T | SHARP Taiwan",
+      "evidenceSnippet": "SHARP 台灣 exact-model 官方頁明列 PK-18S03T「日本同步上市」及「2026夏日寵淨必備」；頁面只能支持上市年份 2026，未提供明確月日。",
+      "confidence": "official",
+      "query": "site:tw.sharp/products/pk-18s03t \"PK-18S03T\" \"2026夏日\"",
+      "sourceKind": "official_brand_page",
+      "reason": "官方 exact-model 頁只支持年份 2026，不把募資結束日或圖片更新日當成上市日。"
     },
     {
       "id": "dh-panasonic-yv32nn",
@@ -4024,6 +4054,21 @@
       "query": "Panasonic NR-B65CV-S release date launch announced 上市 發售"
     },
     {
+      "id": "refrigerator-sharp-sj-df58g-bk",
+      "category": "refrigerator",
+      "brand": "SHARP",
+      "model": "SJ-DF58G-BK",
+      "name": "575 公升四門十字對開除菌變頻冰箱",
+      "releaseDate": "2026",
+      "sourceUrl": "https://tw.sharp/news/2026-05-20-3",
+      "sourceTitle": "夏普Smart Life 2026五大類十大亮點全面出擊 | SHARP Taiwan",
+      "evidenceSnippet": "台灣夏普官方公告稱在 2026 新品發表會展示 2026 年家電升級陣容，並列四門對開除菌冰箱 SJ-DF58G（575L、水漾白／晶耀黑、36% 大冷凍室）；文章未明示開賣日。",
+      "confidence": "official",
+      "query": "site:tw.sharp/news SJ-DF58G 2026 新品發表會",
+      "sourceKind": "official_brand_announcement",
+      "reason": "官方公告只足以確認 2026 年新品，未將公告日期推定為精確開賣日。"
+    },
+    {
       "id": "cookware-tefal-daisy-28cm-ih",
       "category": "cookware",
       "brand": "Tefal",
@@ -4354,6 +4399,21 @@
       "evidenceSnippet": "ZWILLING 台灣官方頁將 UNLOCK 1034435 列於新品上市，並明示「7月新品登場，7/17立即選購！」。",
       "confidence": "official",
       "query": "ZWILLING UNLOCK 1034435 上市 發售 7/17"
+    },
+    {
+      "id": "cookware-ballarini-ledro-1027801",
+      "category": "cookware",
+      "brand": "BALLARINI",
+      "model": "LEDRO 1027801",
+      "name": "LEDRO 義大利製陶瓷不沾炒鍋 28cm",
+      "releaseDate": "2026-07",
+      "sourceUrl": "https://www.zwilling.com.tw/products/1027801",
+      "sourceTitle": "BALLARINI LEDRO 1027801 官方新品頁",
+      "evidenceSnippet": "2026 年 7 月查核時，ZWILLING 台灣官方首頁標示「7月新品登場」與「Ledro新上市」，exact-SKU 1027801 商品頁也列入新品上市。",
+      "confidence": "official",
+      "query": "site:zwilling.com.tw/products/1027801 LEDRO 新品上市 7月",
+      "sourceKind": "official_brand_page",
+      "reason": "官方首頁提供月份，exact-SKU 官方商品頁確認系列與型號；未自行補足日。"
     },
     {
       "id": "knife-tojiro-dp-f-808-210mm",
@@ -7890,6 +7950,21 @@
       "query": "FlexiSpot GET156E-14070 release date launch announced 上市 發售"
     },
     {
+      "id": "standingdesk-backbone-dyback-craft",
+      "category": "standingdesk",
+      "brand": "Backbone",
+      "model": "Dyback Craft",
+      "name": "Dyback Craft 實木電動升降桌",
+      "releaseDate": "2026-04-17",
+      "sourceUrl": "https://www.backbone.tw/blogs/news/dyback-craft",
+      "sourceTitle": "新品上市｜Dyback Craft 實木電動升降桌｜一張有溫度的工作桌",
+      "evidenceSnippet": "Backbone 官方新品文章於 2026-04-17 明示「新品上市」並寫明全新推出 Dyback Craft 實木電動升降桌。",
+      "confidence": "official",
+      "query": "site:backbone.tw/blogs/news/dyback-craft \"Dyback Craft\" \"新品上市\"",
+      "sourceKind": "official_brand_announcement",
+      "reason": "官方文章同時提供 exact product name 與發布日期，可支持完整上市日。"
+    },
+    {
       "id": "chair-irocks-t07-plus",
       "category": "chair",
       "brand": "iRocks",
@@ -8212,6 +8287,21 @@
       "evidenceSnippet": "",
       "confidence": "not_found",
       "query": "Anda Seat PHANTOM 3 PRO Gray release date launch announced 上市 發售"
+    },
+    {
+      "id": "chair-backbone-orca",
+      "category": "chair",
+      "brand": "Backbone",
+      "model": "Orca",
+      "name": "Orca 人體工學椅",
+      "releaseDate": "2026-07-06",
+      "sourceUrl": "https://www.backbone.tw/blogs/news/orca",
+      "sourceTitle": "新品推薦｜Orca 虎鯨人體工學椅，工作、娛樂、放鬆一椅滿足",
+      "evidenceSnippet": "Backbone 官方新品文章於 2026-07-06 明示「迎來全新成員——Orca 人體工學椅」。",
+      "confidence": "official",
+      "query": "site:backbone.tw/blogs/news/orca \"Orca 人體工學椅\" \"2026-07-06\"",
+      "sourceKind": "official_brand_announcement",
+      "reason": "官方文章同時提供 exact product name 與發布日期，可支持完整上市日。"
     },
     {
       "id": "monitor-asus-xg27acs",
@@ -9305,6 +9395,21 @@
       "sourceKind": "not_found_after_costco_update"
     },
     {
+      "id": "monitorarm-dell-hda26",
+      "category": "monitorarm",
+      "brand": "Dell",
+      "model": "HDA26",
+      "name": "Dell Pro 重型單一顯示器懸臂支架",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "query": "Dell HDA26 release date launch announced 上市 發售",
+      "sourceKind": "not_found_after_official_review",
+      "reason": "Dell 台灣官方商品頁只標示新品上市，沒有可驗證日期；未將支援文件或影片發布日當作上市日。"
+    },
+    {
       "id": "ap-dyson-hj10",
       "category": "purifier",
       "brand": "Dyson",
@@ -9333,6 +9438,21 @@
       "query": "site:lg.com/tw WD-S2220B WashTower 第二代 2025年7月8日",
       "sourceKind": "manual_research",
       "reason": "採 LG 台灣官方新聞稿的明確推出日期與 exact-model 列示。"
+    },
+    {
+      "id": "washerdryer-samsung-wd90h22ahstw",
+      "category": "washerdryer",
+      "brand": "Samsung",
+      "model": "WD90H22AHSTW",
+      "name": "Bespoke AI 智慧熱泵滾筒洗衣機 蒸洗脫烘 22+20kg",
+      "releaseDate": "2026-05-11",
+      "sourceUrl": "https://news.samsung.com/tw/%E5%AE%B6%E9%9B%BB%E3%80%8C%E6%98%9F%E3%80%8D%E5%8D%87%E7%B4%9A-%E4%B8%89%E6%98%9Fbespoke-ai%E6%99%BA%E6%85%A7%E7%86%B1%E6%B3%B5%E6%BB%BE%E7%AD%92%E6%B4%97%E8%A1%A3%E6%A9%9F%E5%85%A8%E6%96%B0%E4%B8%8A",
+      "sourceTitle": "家電「星」升級 三星Bespoke AI智慧熱泵滾筒洗衣機全新上市 – Samsung Newsroom 台灣",
+      "evidenceSnippet": "Samsung 台灣官方新聞稿日期為 2026-05-11，內文明示即日起正式在台上市，規格表列 exact model WD90H22AHSTW、洗衣 22kg／烘衣 20kg。",
+      "confidence": "official",
+      "query": "site:news.samsung.com/tw WD90H22AHSTW 正式在台上市",
+      "sourceKind": "official_brand_announcement",
+      "reason": "官方新聞稿同時提供 exact model、明確上市文字與發布日期，可支持完整上市日。"
     },
     {
       "id": "garmentcare-lg-r723wg",

@@ -17,9 +17,9 @@
     "name": "11.1.4 聲道旗艦 Soundbar",
     "price": {
       "currency": "TWD",
-      "amount": 47405,
-      "converted": 47405,
-      "confidence": "Yahoo購物中心 2026-07-22 exact-model 公開結構化價格"
+      "amount": 49900,
+      "converted": 49900,
+      "confidence": "Yahoo購物中心 2026-07-24 exact-model 公開結構化價格"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAAODA900JMDR5/000001_1773978957.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/Samsung-%E4%B8%89%E6%98%9F-11-1-4%E8%81%B2%E9%81%93-%E8%97%8D%E7%89%99%E8%81%B2%E9%9C%B8-HW-Q990F-ZW-11688500.html",
@@ -745,9 +745,9 @@
     "name": "Q 系列 11.1.4 聲道 Soundbar 家庭劇院",
     "price": {
       "currency": "TWD",
-      "amount": 56905,
-      "converted": 56905,
-      "confidence": "Yahoo購物中心 2026-07-22 exact-model 公開結構化價格"
+      "amount": 59900,
+      "converted": 59900,
+      "confidence": "Yahoo購物中心 2026-07-24 exact-model 公開結構化價格"
     },
     "image": "https://cs-a.ecimg.tw/items/DPADO2A900K5VUT/000001_1782993730.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/Samsung%E4%B8%89%E6%98%9F-11-1-4%E8%81%B2%E9%81%93-%E8%97%8D%E7%89%99%E8%81%B2%E9%9C%B8-HW-Q990H-ZW-12124621.html",
@@ -823,9 +823,9 @@
     "name": "Q 系列 7.1.2 聲道 Soundbar",
     "price": {
       "currency": "TWD",
-      "amount": 35055,
-      "converted": 35055,
-      "confidence": "Yahoo購物中心 2026-07-22 exact-model 公開結構化價格"
+      "amount": 36900,
+      "converted": 36900,
+      "confidence": "Yahoo購物中心 2026-07-24 exact-model 公開結構化價格"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAAODA900K5489/000001_1782988490.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/Samsung%E4%B8%89%E6%98%9F-7-1-2%E8%81%B2%E9%81%93-%E8%97%8D%E7%89%99%E8%81%B2%E9%9C%B8-HW-QS90H-ZW-12124562.html",
@@ -901,9 +901,9 @@
     "name": "5.1 聲道 Soundbar 家庭劇院組",
     "price": {
       "currency": "TWD",
-      "amount": 8275,
-      "converted": 8275,
-      "confidence": "Yahoo購物中心 2026-07-22 exact-model 公開結構化價格"
+      "amount": 8490,
+      "converted": 8490,
+      "confidence": "Yahoo購物中心 2026-07-24 exact-model 公開結構化價格"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBM1DA900GHTFE/000001_1776774078.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/SONY-%E7%B4%A2%E5%B0%BC-5-1-%E8%81%B2%E9%81%93-SOUNDBAR-%E5%AE%B6%E5%BA%AD%E5%8A%87%E9%99%A2%E7%B5%84-HT-S40R-10067449.html",
@@ -979,9 +979,9 @@
     "name": "2.0 聲道單件式藍牙 Soundbar",
     "price": {
       "currency": "TWD",
-      "amount": 7591,
-      "converted": 7591,
-      "confidence": "Yahoo購物中心 2026-07-22 exact-model 公開結構化價格"
+      "amount": 7990,
+      "converted": 7990,
+      "confidence": "Yahoo購物中心 2026-07-24 exact-model 公開結構化價格"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAAMTA900I5HHO/000001_1778661010.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/Sony-HT-S100F-11411387.html",
@@ -1135,9 +1135,9 @@
     "name": "7.1 聲道家庭劇院喇叭",
     "price": {
       "currency": "TWD",
-      "amount": 27161,
-      "converted": 27161,
-      "confidence": "Yahoo購物中心 2026-07-22 exact-model 公開結構化價格"
+      "amount": 28590,
+      "converted": 28590,
+      "confidence": "Yahoo購物中心 2026-07-24 exact-model 公開結構化價格"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAAHGA900J56OK/000001_1755250707.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/JBL-BAR800-MK2-7-1%E8%81%B2%E9%81%93%E5%AE%B6%E5%BA%AD%E5%8A%87%E9%99%A2%E5%96%87%E5%8F%AD-%E8%8B%B1%E5%A4%A7%E5%85%AC%E5%8F%B8%E8%B2%A8%E4%B8%80%E5%B9%B4%E4%BF%9D%E5%9B%BA-12156647.html",
@@ -1525,9 +1525,9 @@
     "name": "7.1.4 聲道家庭劇院聲霸",
     "price": {
       "currency": "TWD",
-      "amount": 42900,
-      "converted": 42900,
-      "confidence": "PChome 2026-07-21 API 公開價"
+      "amount": 40755,
+      "converted": 40755,
+      "confidence": "PChome 2026-07-24 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAAHGA900J5777/000001_1755253698.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAAHG-A900J5777",
@@ -1682,7 +1682,7 @@
     "price": {
       "currency": "USD",
       "amount": 1299.99,
-      "converted": 42132,
+      "converted": 42062,
       "confidence": "Marshall US 2026-07-21 來源價；ExchangeRate-API 2026-07-21 匯率換算"
     },
     "image": "https://images.ctfassets.net/javen7msabdh/2C2sn9CKoKFdIyd94Gm9z5/f3019d4e721511167ebe5c229bf490dd/heston-120_plp.jpg",
@@ -1762,7 +1762,7 @@
     "price": {
       "currency": "USD",
       "amount": 699.99,
-      "converted": 22687,
+      "converted": 22649,
       "confidence": "Marshall US 官方 2026-07-21 現貨價；ExchangeRate-API 2026-07-21 匯率換算"
     },
     "image": "https://images.ctfassets.net/javen7msabdh/3yitHqjPBTgQk5qRE72PSn/2788206646aa153f71f2c0ebefaff580/Heston-60-black_plp_800x800-v3.jpeg",
@@ -2015,9 +2015,9 @@
     "name": "2.0 聲道二合一分離式聲霸",
     "price": {
       "currency": "TWD",
-      "amount": 602,
-      "converted": 602,
-      "confidence": "Yahoo購物中心 2026-07-22 exact-model 公開結構化價格"
+      "amount": 633,
+      "converted": 633,
+      "confidence": "Yahoo購物中心 2026-07-24 exact-model 公開結構化價格"
     },
     "image": "https://www.costco.com.tw/medias/sys_master/images/h21/hac/367883491278878.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/Soodatek-2-0%E8%81%B2%E9%81%93%E4%BA%8C%E5%90%88%E4%B8%80Soundbar-SS0220-CS2000PBK-11633433.html",
@@ -2080,6 +2080,88 @@
           "platform": "Reddit",
           "query": "site:reddit.com \"Soodatek SS0220-CS2000PBK\" (problem OR issue OR defect OR \"negative review\")",
           "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Soodatek%20SS0220-CS2000PBK%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
+          "targetHost": "reddit.com"
+        }
+      ]
+    }
+  },
+  {
+    "id": "soundbar-jbl-bar-1300-mk2",
+    "category": "soundbar",
+    "rank": 27,
+    "budget": "premium",
+    "channel": "tw",
+    "brand": "JBL",
+    "model": "BAR 1300MK2",
+    "name": "11.1.4 聲道旗艦家庭劇院聲霸",
+    "price": {
+      "currency": "TWD",
+      "amount": 68800,
+      "converted": 68800,
+      "confidence": "PChome 2026-07-24 exact-model 商品 API 公開價；Price.Low 無正值時採 Price.P"
+    },
+    "image": "https://cs-a.ecimg.tw/items/DMAAHGA900JK94E/000001_1765975501.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DMAAHG-A900JK94E",
+    "buyLabel": "PChome",
+    "specs": [
+      "11.1.4 聲道、六顆天空聲道單體",
+      "可拆式無線後環繞，續航最長 10 小時",
+      "雙 8 吋無線重低音，系統最大輸出 2470W",
+      "Dolby Atmos / DTS:X / MultiBeam 3.0",
+      "HDMI eARC、4K Dolby Vision passthrough、AirPlay 與 Google Cast"
+    ],
+    "description": "JBL BAR 1300MK2 以 11.1.4 聲道、可拆式後環繞與雙 8 吋重低音補足 JBL 旗艦級距，適合與 Samsung Q990 系列直接比較。",
+    "pros": [
+      "可拆式後環繞兼顧實體包圍感與彈性擺位",
+      "六顆天空聲道與雙 8 吋重低音，電影沉浸規格完整",
+      "支援多種串流協定與 4K Dolby Vision 訊號直通"
+    ],
+    "cons": [
+      "售價、機身與重低音空間需求都高",
+      "後環繞需要充電並規劃擺位",
+      "Reddit 單一網站有低音偏弱、後環繞白噪音或連線異常個案，尚未達跨站集中災情門檻"
+    ],
+    "bestFor": "想要 11.1.4 聲道、實體後環繞與強低頻，且客廳有足夠擺位空間的人。",
+    "recommendation": "JBL 旗艦比較候選：規格與沉浸感完整，但價格高，建議在退換貨期內用實際電視與播放來源長時間測試低頻、後環繞與連線穩定性。",
+    "score": 88,
+    "voltage": "100-240V AC 50/60Hz",
+    "warranty": "台灣代理商公司貨 1 年保固；依購買通路與 JBL 台灣條款",
+    "tags": [
+      "11.1.4",
+      "可拆環繞",
+      "雙8吋重低音",
+      "旗艦"
+    ],
+    "releaseDate": "2025-10",
+    "historicalLow": {
+      "status": "found",
+      "amount": 176107,
+      "currency": "JPY",
+      "converted": 34810,
+      "sourceUrl": "https://kakaku.com/item/K0001712395/pricehistory/",
+      "sourceTitle": "価格.com：JBL BAR 1300MK2 [ブラック] 価格推移",
+      "evidenceSnippet": "価格.com 日別價格歷史顯示 exact-model「JBL BAR 1300MK2 [ブラック]」於 2026-06-22、2026-06-23 的新品最低價為 ¥176,107；2025-10 初始價格為 ¥205,306。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
+      "checkedAt": "2026-07-24",
+      "note": "採日本市場 exact-model 公開價格歷史並依 2026-07-24 JPY/TWD 匯率換算；未含國際運費、進口稅、插頭／電壓確認與台灣保固風險。官方規格雖為 100-240V，海外購入仍非台灣公司貨。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-07-24",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"JBL BAR 1300MK2\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22JBL%20BAR%201300MK2%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"JBL BAR 1300MK2\" (problem OR issue OR defect OR \"negative review\")",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22JBL%20BAR%201300MK2%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
           "targetHost": "reddit.com"
         }
       ]

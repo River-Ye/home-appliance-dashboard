@@ -12,8 +12,8 @@
 
 ## 內容
 
-- 共 26 類商品，每種商品至少 20 個，共 688 筆。
-- 另由現有分類與商品資料產生 26 個可獨立索引的 `/categories/<id>/` 選購指南頁；不為 688 筆商品建立重複、薄內容的獨立頁面。
+- 共 26 類商品，每種商品至少 20 個，共 696 筆。
+- 另由現有分類與商品資料產生 26 個可獨立索引的 `/categories/<id>/` 選購指南頁；不為 696 筆商品建立重複、薄內容的獨立頁面。
 - 聚焦可信通路新品，排除配件、耗材、福利品、展示機與誤判品。
 - 每類「綜合推薦」以 CP 值、評價口碑、價格、可信通路、台灣售後/保固風險綜合判斷，並附簡短推薦原因。
 - 支援分類、品牌、選購定位、通路、自然多詞搜尋、排序、active filter chips、可分享 URL 篩選狀態與比較清單；既有 `budget` query key 維持相容。
@@ -21,10 +21,10 @@
 - 針對桌機與手機操作最佳化，包含群組化分類列、sticky 分類列、手機快速操作列、收合式商品細節與重設篩選。
 - 冰箱、洗衣機、烘衣機、洗烘衣機與電子衣櫥皆標示機身尺寸，方便先確認家中擺放空間；若可信來源查不到則明確標示未標示。
 <!-- catalog-maintenance-summary:start -->
-- 2026-07-24 06:29（台灣時間）完成 688 筆商品、26 類全量查核；407 筆 PChome SKU API 已完成（264 筆 exact model、10 筆人工 SKU 綁定可寫入，110 筆型號未自動確認），更新 31 筆現價（16 筆降價、15 筆漲價），20 筆 Qty 0 只列追蹤。
-- 沒有納入新產品；沒有移除產品。逐類人工新品覆核已完成，所有分類至少 20 筆；停產只採品牌官方明確證據，缺貨、反爬或單次連線錯誤不作為刪除依據。
-- 圖片查核覆蓋 688 筆；516 筆來源可由 exact model 或人工 SKU 綁定確認，172 筆來源／圖片例外保留原資料。史低為 438 筆 `found`、250 筆 `not_found`，本輪下修 0 筆；51 筆來源可自動重現，其餘保留原逐筆證據且未臆測失效。
-- ExchangeRate-API 最新批次為 2026-07-23 00:02 UTC，USD/TWD 32.409765；30 筆外幣商品已重算。完整摘要與例外保存在 `catalog_maintenance_latest.json`。
+- 2026-07-24 18:55（台灣時間）完成 696 筆商品、26 類全量查核；408 筆 PChome SKU API 已完成（263 筆 exact model、10 筆人工 SKU 綁定可寫入，111 筆型號未自動確認），更新 76 筆現價（19 筆降價、57 筆漲價），20 筆 Qty 0 只列追蹤。
+- 新增 chair-backbone-orca、circulator-sharp-pk-18s03t、cookware-ballarini-ledro-1027801、monitorarm-dell-hda26、refrigerator-sharp-sj-df58g-bk、soundbar-jbl-bar-1300-mk2、standingdesk-backbone-dyback-craft、washerdryer-samsung-wd90h22ahstw；沒有移除產品。逐類人工新品覆核已完成，所有分類至少 20 筆；停產只採品牌官方明確證據，缺貨、反爬或單次連線錯誤不作為刪除依據。
+- 圖片查核覆蓋 696 筆；516 筆來源可由 exact model 或人工 SKU 綁定確認，180 筆來源／圖片例外保留原資料。史低為 441 筆 `found`、255 筆 `not_found`，本輪下修 0 筆；54 筆來源可自動重現，其餘保留原逐筆證據且未臆測失效。
+- ExchangeRate-API 最新批次為 2026-07-24 00:02 UTC，USD/TWD 32.356；30 筆外幣商品已重算。完整摘要與例外保存在 `catalog_maintenance_latest.json`。
 <!-- catalog-maintenance-summary:end -->
 
 ## 使用
@@ -50,7 +50,7 @@ npm run check
 
 - `npm run check:syntax`：檢查公開 JS 與維護工具語法。
 - `npm run check:logic`：檢查排序、篩選、URL 狀態、史低／負評文案、問題摘要搜尋、來源 URL 安全、HTML escape 與商品 loader 純邏輯。
-- `npm run check:data`：檢查 26 類、688 筆、必要欄位、日期格式、五類需量測機身的大型家電尺寸、電子衣櫥 exact-model／品牌／通路／必要規格、歷史最低價與負評 research 對齊、人工覆核完成清單、逐位反映者、6 人／2 平台門檻、每類至少 20 筆、重複型號與重複購買 URL。
+- `npm run check:data`：檢查 26 類、696 筆、必要欄位、日期格式、五類需量測機身的大型家電尺寸、電子衣櫥 exact-model／品牌／通路／必要規格、歷史最低價與負評 research 對齊、人工覆核完成清單、逐位反映者、6 人／2 平台門檻、每類至少 20 筆、重複型號與重複購買 URL。
 - `npm run check:docs`：檢查 README、AGENTS、index/config 的商品數、分類數、日期與 cache version 沒有漂移。
 - `npm run check:geo`：檢查 26 個分類頁、metadata、結構化資料、內部連結、sitemap、llms、證據檔、Pages artifact、IndexNow contract 與所有產生結果沒有漂移。
 - `npm run check:ui`：用 Playwright 驗證桌機/手機搜尋、篩選、排序、lazy loading、比較清單、負評警示與推薦卡高亮。

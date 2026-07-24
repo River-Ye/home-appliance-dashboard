@@ -1151,9 +1151,9 @@
     "name": "17-32 吋 2-9KG 人體工學螢幕支架",
     "price": {
       "currency": "TWD",
-      "amount": 800,
-      "converted": 800,
-      "confidence": "Yahoo購物中心 2026-07-13 頁面查核價"
+      "amount": 750,
+      "converted": 750,
+      "confidence": "Yahoo購物中心 2026-07-24 exact-model 公開結構化價格"
     },
     "image": "https://cs-a.ecimg.tw/items/DCAGQ5A900JUC1W/000001_1774344481.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/%E6%A8%82%E6%AD%8CLoctek-%E4%BA%BA%E9%AB%94%E5%B7%A5%E5%AD%B8-%E8%9E%A2%E5%B9%95%E6%94%AF%E6%9E%B6D5S-12033991.html",
@@ -1685,6 +1685,89 @@
           "platform": "Reddit",
           "query": "site:reddit.com \"IRIS OHYAMA DA-4550\" (problem OR issue OR defect OR negative review)",
           "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22IRIS%20OHYAMA%20DA-4550%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "targetHost": "reddit.com"
+        }
+      ]
+    }
+  },
+  {
+    "id": "monitorarm-dell-hda26",
+    "category": "monitorarm",
+    "rank": 22,
+    "budget": "premium",
+    "channel": "tw",
+    "brand": "Dell",
+    "model": "HDA26",
+    "name": "Dell Pro 重型單一顯示器懸臂支架",
+    "price": {
+      "currency": "TWD",
+      "amount": 14529,
+      "converted": 14529,
+      "confidence": "Dell 台灣官方 2026-07-24 exact-model 公開價"
+    },
+    "image": "https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/peripherals/stands/hda26/media-gallery/monitor-arm-pro-hda26-black-gallery-10.psd?chrss=full&fmt=png-alpha&hei=804&pscan=auto&qlt=100%2C1&resMode=sharp2&scl=1&size=974%2C804&wid=974",
+    "buyUrl": "https://www.dell.com/zh-tw/shop/dell-pro-%E9%87%8D%E5%9E%8B%E5%96%AE%E4%B8%80%E9%A1%AF%E7%A4%BA%E5%99%A8%E8%87%82%E6%9E%B6-hda26/apd/482-bbgj/%E9%A1%AF%E7%A4%BA%E5%99%A8%E5%92%8C%E9%A1%AF%E7%A4%BA%E5%99%A8%E9%85%8D%E4%BB%B6",
+    "buyLabel": "Dell 台灣官方",
+    "specs": [
+      "支援尺寸：官方未提供通用吋數；相容清單含 52 吋 U5226KW 與 43 吋 U4323QE",
+      "承重 10-20kg，VESA 100 x 100mm",
+      "Dell U5226KW / U4323QE 支援免工具 Quick Release",
+      "高度調整 300mm，傾斜 -5° 至 +30°",
+      "旋轉 180°-360°、樞軸 ±90°",
+      "夾桌支援最厚 53mm，穿桌孔 50.8mm"
+    ],
+    "description": "Dell HDA26 是針對大型 Dell UltraSharp 顯示器設計的 20kg 重型單臂支架，特色是指定機型免工具快拆、官方相容性與三年保固。",
+    "pros": [
+      "U5226KW 與 U4323QE 可免工具 Quick Release",
+      "20kg 承重涵蓋大型生產力螢幕",
+      "Dell 官方三年有限保固"
+    ],
+    "cons": [
+      "價格遠高於多數台灣高承重支架",
+      "最低承重 10kg，不適合一般輕型螢幕",
+      "非指定 Dell 機型需使用隨附 VESA 轉接板，支架本體約 8.21kg"
+    ],
+    "bestFor": "使用 Dell U5226KW、U4323QE 或其他 10-20kg VESA 100 x 100mm 大型螢幕，並重視原廠相容性與保固的人。",
+    "recommendation": "Dell 大型螢幕利基候選：指定 UltraSharp 機型快拆與官方售後是核心價值；購買前需核對 VESA、桌板厚度、夾桌或穿桌條件，以及螢幕不含腳架的實重，大型螢幕建議兩人安裝。若不需要 Dell 生態整合，台灣通路另有更便宜且承重更高的選擇。",
+    "score": 82,
+    "voltage": "無需用電；被動式支架",
+    "warranty": "Dell 三年有限保固",
+    "tags": [
+      "Dell",
+      "20kg",
+      "Quick Release",
+      "大型螢幕"
+    ],
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "found",
+      "amount": 288.15,
+      "currency": "GBP",
+      "converted": 12425,
+      "sourceUrl": "https://pricespy.co.uk/product.php?p=16273588",
+      "sourceTitle": "PriceSpy UK：Dell HDA26 Single Monitor Arm",
+      "evidenceSnippet": "PriceSpy exact-model 頁的 Price History 明示 30 天最低價 £288.15，且商品名稱、品牌與 GTIN 對應 Dell HDA26。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
+      "checkedAt": "2026-07-24",
+      "note": "採英國市場 exact-model 公開 30 天價格歷史並依 2026-07-24 GBP/TWD 匯率換算；未含國際運費、進口稅、退換貨與台灣保固風險，不能直接視為台灣到手價。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-07-24",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Dell HDA26\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Dell%20HDA26%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Dell HDA26\" (problem OR issue OR defect OR \"negative review\")",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Dell%20HDA26%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
           "targetHost": "reddit.com"
         }
       ]

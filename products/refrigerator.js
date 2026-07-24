@@ -270,9 +270,9 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/4455399AAF-SP-22083802.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 13775,
-      "converted": 13775,
-      "confidence": "Yahoo購物中心 2026-07-18 商品頁公開價"
+      "amount": 14500,
+      "converted": 14500,
+      "confidence": "Yahoo購物中心 2026-07-24 exact-model 公開結構化價格"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心",
@@ -1944,6 +1944,93 @@
           "platform": "Reddit",
           "query": "site:reddit.com \"Panasonic NR-B65CV-S\" (problem OR issue OR defect OR \"negative review\")",
           "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Panasonic%20NR-B65CV-S%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
+          "targetHost": "reddit.com"
+        }
+      ]
+    }
+  },
+  {
+    "id": "refrigerator-sharp-sj-df58g-bk",
+    "category": "refrigerator",
+    "rank": 24,
+    "topPick": false,
+    "budget": "premium",
+    "channel": "tw",
+    "brand": "SHARP",
+    "model": "SJ-DF58G-BK",
+    "name": "575 公升四門十字對開除菌變頻冰箱",
+    "price": {
+      "currency": "TWD",
+      "amount": 52900,
+      "converted": 52900,
+      "confidence": "Momo 2026-07-24 exact-model 新品頁公開價且庫存少於 3 台"
+    },
+    "image": "https://tw.sharp/sites/default/files/uploads_marketing/product_info/REF/SJ-DF58G-BK/SJ-DF58G-BK.jpg",
+    "buyUrl": "https://www.momoshop.com.tw/TP/TP0003952/goodsDetail/TP00039520007288",
+    "buyLabel": "Momo 購物網",
+    "specs": [
+      "總容量 575L（冷藏 366L / 冷凍 209L）",
+      "四門十字對開；36% 大比例冷凍室",
+      "尺寸：寬 89.2 x 深 76.8 x 高 183 cm",
+      "J-TECH Inverter 變頻、雙風扇、R600a 冷媒",
+      "PCI 自動除菌離子、微凍保鮮、水霧冷藏、-24℃ 深度冷凍",
+      "能源效率 1 級；年耗電 324 度；能源因數值 27",
+      "110V / 60Hz；機重 111kg，需先確認門寬、搬運、舊機回收與插座"
+    ],
+    "description": "SHARP 2026 年台灣新品以 575L、四門無中柱與 209L 大冷凍室，補上兼顧一級能效、微凍保鮮及大量冷凍收納的十字對開選擇。",
+    "pros": [
+      "575L 容量中有 209L 冷凍室，適合冷凍食材比例高的家庭",
+      "四門無中柱、微凍保鮮、水霧冷藏與 PCI 除菌功能完整",
+      "一級能效、110V 台灣規格與官方尺寸證據明確"
+    ],
+    "cons": [
+      "89.2cm 寬、111kg，大型家電搬運與廚房門寬需先實測",
+      "玻璃鏡面容易顯指紋，清潔頻率較高",
+      "本體、機板與壓縮機保固年限不同，延長保固需依期限完成註冊"
+    ],
+    "bestFor": "需要大比例冷凍空間、偏好四門十字對開與一級能效，且能容納近 90cm 寬冰箱的家庭。",
+    "recommendation": "2026 四門大冷凍補強：SJ-DF58G-BK 以 575L、209L 冷凍與一級能效形成明確差異；購買前仍要確認搬運門寬、散熱距離及原廠註冊保固。",
+    "score": 90,
+    "voltage": "110V / 60Hz；大型家電需確認插座、散熱空間、搬運門寬與舊機回收",
+    "warranty": "本體 1 年；機板註冊 3 年；指定機型壓縮機註冊 10 年（須於發票日起 60 日內完成 SHARP 台灣官網註冊，依原廠條款）",
+    "tags": [
+      "575L",
+      "四門十字對開",
+      "209L大冷凍",
+      "一級能效",
+      "PCI除菌",
+      "110V"
+    ],
+    "releaseDate": "2026",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-07-24",
+      "note": "SJ-DF58G-BK 為 SHARP 台灣 2026 年新品；已查 SHARP 官方、Momo、FindPrice、BigGo、LBJ 與其他 exact-model 新品頁，僅取得本輪現價與橫向比價，未找到可公開重現的完整歷史價格曲線。NT$52,900 現價不得直接推定為史低。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-07-24",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"SHARP SJ-DF58G-BK\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22SHARP%20SJ-DF58G-BK%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"SHARP SJ-DF58G-BK\" (problem OR issue OR defect OR \"negative review\")",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22SHARP%20SJ-DF58G-BK%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
           "targetHost": "reddit.com"
         }
       ]

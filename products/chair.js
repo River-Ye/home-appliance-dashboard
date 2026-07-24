@@ -1838,6 +1838,88 @@
         }
       ]
     }
+  },
+  {
+    "id": "chair-backbone-orca",
+    "category": "chair",
+    "rank": 24,
+    "budget": "premium",
+    "channel": "tw",
+    "brand": "Backbone",
+    "model": "Orca",
+    "name": "Orca 人體工學椅",
+    "price": {
+      "currency": "TWD",
+      "amount": 10800,
+      "converted": 10800,
+      "confidence": "Backbone 台灣官方 2026-07-24 公開現貨價"
+    },
+    "image": "https://cdn-general.cybassets.com/media/W1siZiIsIjExNTM0L3Byb2R1Y3RzLzY5MDYwMDU4LzE3ODMzMjQyNDJfMmUwZTM1MmFkMzk5YWMzYzE2YTMucG5nIl0sWyJwIiwidGh1bWIiLCI2MDB4NjAwIl1d.png?sha=b52c636bed7f1599",
+    "buyUrl": "https://www.backbone.tw/products/orca",
+    "buyLabel": "Backbone 台灣官方",
+    "specs": [
+      "全網布椅背與座面",
+      "6 段椅背高度調整",
+      "4 段傾仰鎖定",
+      "3D 扶手與頭枕",
+      "主動彈性網布腰靠",
+      "可加購無段放鬆腳踏"
+    ],
+    "description": "Backbone 於 2026 年 7 月推出的全網布人體工學椅，以多段椅背、傾仰、扶手、頭枕與腰靠調整補足工作、娛樂與休息情境。",
+    "pros": [
+      "台灣官方現貨、三年主體保固",
+      "全網布與多段支撐調整完整"
+    ],
+    "cons": [
+      "價格高於入門網椅",
+      "需自行組裝，扶手墊、氣壓棒與椅輪保固較短"
+    ],
+    "bestFor": "想要萬元級全網布、多段調整與台灣品牌售後的久坐使用者。",
+    "recommendation": "2026 新品補充比較；支撐調整與三年主體保固完整，但建議先確認椅背、腰靠與座深是否符合身形。",
+    "score": 87,
+    "voltage": "不適用",
+    "warranty": "椅款主體 3 年；扶手墊、氣壓棒、椅輪 2 年",
+    "tags": [
+      "2026新品",
+      "全網布",
+      "人體工學",
+      "3D扶手",
+      "官方通路"
+    ],
+    "releaseDate": "2026-07-06",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-07-24",
+      "note": "Orca 為 Backbone 於 2026-07-06 發表的新品；已查官方商品頁、BigGo、FindPrice 與 LBJ，未找到同型號可公開重現且符合可信新品條件的歷史最低價，官方現價 NT$10,800 不直接視為歷史最低價。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-07-24",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Backbone Orca\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Backbone%20Orca%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Backbone Orca\" (problem OR issue OR defect OR \"negative review\")",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Backbone%20Orca%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
+          "targetHost": "reddit.com"
+        }
+      ]
+    }
   }
 ]);
 })();

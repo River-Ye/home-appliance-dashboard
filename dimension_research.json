@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-23",
+  "generatedAt": "2026-07-24",
   "sourcePolicy": "機身尺寸優先官方產品頁或官方規格 PDF，其次可信通路；排除包裝與外箱尺寸。",
   "results": [
     {
@@ -1121,6 +1121,26 @@
       "confidence": "high",
       "isOfficialSource": true,
       "checkedAt": "2026-07-23"
+    },
+    {
+      "id": "washerdryer-samsung-wd90h22ahstw",
+      "dimension": "尺寸：寬 68.6 x 深 87.5 x 高 111 cm",
+      "sourceUrl": "https://news.samsung.com/tw/%E5%AE%B6%E9%9B%BB%E3%80%8C%E6%98%9F%E3%80%8D%E5%8D%87%E7%B4%9A-%E4%B8%89%E6%98%9Fbespoke-ai%E6%99%BA%E6%85%A7%E7%86%B1%E6%B3%B5%E6%BB%BE%E7%AD%92%E6%B4%97%E8%A1%A3%E6%A9%9F%E5%85%A8%E6%96%B0%E4%B8%8A",
+      "sourceTitle": "家電「星」升級 三星Bespoke AI智慧熱泵滾筒洗衣機全新上市 – Samsung Newsroom 台灣",
+      "evidenceSnippet": "Samsung 台灣官方規格表列型號 WD90H22AHSTW，產品尺寸（WxHxD）為 686 x 1110 x 875 mm；本列依專案格式轉為寬 x 深 x 高 cm。",
+      "confidence": "high",
+      "isOfficialSource": true,
+      "checkedAt": "2026-07-24"
+    },
+    {
+      "id": "refrigerator-sharp-sj-df58g-bk",
+      "dimension": "尺寸：寬 89.2 x 深 76.8 x 高 183 cm",
+      "sourceUrl": "https://tw.sharp/products/sj-df58g-bk",
+      "sourceTitle": "四門十字對開除菌冰箱 SJ-DF58G-BK | SHARP Taiwan",
+      "evidenceSnippet": "SHARP 台灣 exact-model 規格頁列本體尺寸為寬 89.2 x 深 76.8 x 高 183.0 cm；同頁另列外箱尺寸，本列採本體而非包裝尺寸。",
+      "confidence": "high",
+      "isOfficialSource": true,
+      "checkedAt": "2026-07-24"
     }
   ]
 }

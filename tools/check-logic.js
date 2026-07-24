@@ -26,6 +26,7 @@ const {
   mergeDiscontinuationReviews,
   pchomeProductId,
   structuredPriceCandidates,
+  syncHistoricalResearchRows,
   trustedStructuredPrice,
   updateDashboardContractSource,
   updateDimensionCategoryCounts,
@@ -549,6 +550,103 @@ async function main() {
     ).includes('["garmentcare", 20]'),
     "catalog maintenance should synchronize dimension-category contract counts",
   );
+  const historicalResearchFixture = {
+    results: [
+      {
+        id: "existing-product",
+        checkedSources: ["https://history.example/existing"],
+        rejectedCandidates: ["preserved manual decision"],
+      },
+      {
+        id: "removed-product",
+        checkedSources: ["https://history.example/removed"],
+        rejectedCandidates: [],
+      },
+    ],
+  };
+  const historicalProductsFixture = [
+    {
+      id: "new-product",
+      category: "chair",
+      brand: "New",
+      model: "NEW-1",
+      name: "New product",
+      price: { currency: "TWD", converted: 1200 },
+      buyUrl: "https://retailer.example/new",
+      buyLabel: "Retailer",
+      historicalLow: {
+        status: "found",
+        sourceUrl: "https://history.example/new",
+        note: "Verified exact-model history",
+      },
+    },
+    {
+      id: "existing-product",
+      category: "tv",
+      brand: "Existing",
+      model: "EX-1",
+      name: "Updated existing product",
+      price: { currency: "TWD", converted: 900 },
+      buyUrl: "https://retailer.example/existing",
+      buyLabel: "Retailer",
+      historicalLow: { status: "not_found", note: "No reproducible history" },
+    },
+  ];
+  syncHistoricalResearchRows(historicalResearchFixture, historicalProductsFixture);
+  assert(historicalResearchFixture.results.length === 2, "historical research sync should remove rows absent from the final catalog");
+  assert(
+    historicalResearchFixture.results[0].id === "existing-product",
+    "historical research sync should preserve the existing evidence order",
+  );
+  assert(
+    historicalResearchFixture.results[0].checkedSources[0] === "https://history.example/existing",
+    "historical research sync should preserve existing manual source evidence",
+  );
+  assert(
+    JSON.stringify(historicalResearchFixture.results[1].checkedSources)
+      === JSON.stringify(["https://history.example/new", "https://retailer.example/new"]),
+    "historical research sync should append evidence rows for newly added products",
+  );
+  assert(
+    historicalResearchFixture.results[1].rejectedCandidates.length === 0,
+    "historical research sync should not mislabel an accepted source note as a rejected candidate",
+  );
+  assertThrows(
+    () => syncHistoricalResearchRows(
+      { results: [] },
+      [{
+        id: "new-not-found-product",
+        category: "chair",
+        brand: "New",
+        model: "NEW-2",
+        name: "New product without evidence",
+        price: { currency: "TWD", converted: 1200 },
+        buyUrl: "https://retailer.example/new-not-found",
+        buyLabel: "Retailer",
+        historicalLow: { status: "not_found", note: "No reproducible history" },
+      }],
+    ),
+    /Missing explicit historical-price research evidence/,
+    "historical research sync should reject new not-found rows without explicit checked sources",
+  );
+  assertThrows(
+    () => syncHistoricalResearchRows(
+      { results: [{ id: "new-not-found-product", checkedSources: [], rejectedCandidates: [] }] },
+      [{
+        id: "new-not-found-product",
+        category: "chair",
+        brand: "New",
+        model: "NEW-2",
+        name: "New product with empty evidence",
+        price: { currency: "TWD", converted: 1200 },
+        buyUrl: "https://retailer.example/new-not-found",
+        buyLabel: "Retailer",
+        historicalLow: { status: "not_found", note: "No reproducible history" },
+      }],
+    ),
+    /Missing explicit historical-price research evidence/,
+    "historical research sync should reject not-found rows with an empty checked-source list",
+  );
   const baselineCalls = [];
   const baselineById = loadCatalogFromGit("origin/main", ["tv.js", "garmentcare.js"], {
     root,
@@ -595,6 +693,14 @@ async function main() {
   assert(
     maintenanceCacheVersion('cacheVersion: "20260722-previous"', "2026-07-23") === "20260723-maintenance-refactor",
     "catalog maintenance should advance a stale cache version to the maintenance date",
+  );
+  assert(
+    maintenanceCacheVersion(
+      'cacheVersion: "20260724-morning-catalog"',
+      "2026-07-24",
+      "2026-07-24T10:36:29.980Z",
+    ) === "20260724-103629-catalog",
+    "catalog maintenance should create a unique cache version for each same-day write",
   );
 
   assert(normalizeIdentity(null) === "", "catalog identity normalization should tolerate null input");
