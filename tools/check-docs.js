@@ -79,6 +79,53 @@ function main() {
   }
 
   assert(
+    readme.includes(`- 共 ${categories.length} 類商品，每種商品至少 20 個，共 ${products.length} 筆。`),
+    "README catalog scale line is stale",
+  );
+  assert(
+    readme.includes(`不為 ${products.length} 筆商品建立重複、薄內容的獨立頁面。`),
+    "README thin-page policy product count is stale",
+  );
+  assert(
+    readme.includes(`檢查 ${categories.length} 類、${products.length} 筆、必要欄位`),
+    "README check:data contract count is stale",
+  );
+  assert(
+    agents.includes(`不建立 ${products.length} 個重複商品事實的薄內容頁。`),
+    "AGENTS thin-page policy product count is stale",
+  );
+  assert(
+    agents.includes(`- 共 ${categories.length} 類、${products.length} 筆商品。`),
+    "AGENTS catalog scale line is stale",
+  );
+
+  const documentedCategoryCounts = [
+    ["tv", "電視"],
+    ["soundbar", "Soundbar"],
+    ["robot", "掃拖機器人"],
+    ["wifi", "無線路由器"],
+    ["monitor", "電腦螢幕"],
+    ["monitorarm", "懸臂支架"],
+    ["smartlock", "電子鎖"],
+    ["cookware", "鍋具"],
+    ["knife", "刀具"],
+    ["waterdispenser", "櫥下飲水機"],
+    ["dishwasher", "洗碗機"],
+    ["refrigerator", "冰箱"],
+    ["washer", "洗衣機"],
+    ["dryer", "烘衣機"],
+    ["washerdryer", "洗烘衣機(多功能型)"],
+    ["garmentcare", "電子衣櫥（衣物護理機）"],
+    ["purifier", "空氣清淨機"],
+    ["fan", "電風扇"],
+    ["circulator", "循環扇"],
+  ];
+  for (const [categoryId, label] of documentedCategoryCounts) {
+    const count = products.filter((product) => product.category === categoryId).length;
+    assert(agents.includes(`\`${label}\`：${count} 筆`), `AGENTS ${label} count is stale`);
+  }
+
+  assert(
     readme.includes(`整理 ${meta.dataDate} 查核的家電推薦清單`),
     "README overview data date is stale",
   );

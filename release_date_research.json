@@ -1,13 +1,13 @@
 {
   "summary": {
-    "checkedAt": "2026-07-24T00:00:00+08:00",
-    "total": 696,
+    "checkedAt": "2026-07-25T00:00:00+08:00",
+    "total": 697,
     "found": 200,
-    "missing": 496,
+    "missing": 497,
     "byConfidence": {
       "official": 100,
       "credible_article": 89,
-      "not_found": 496,
+      "not_found": 497,
       "retailer_explicit": 11
     }
   },
@@ -9726,6 +9726,21 @@
       "confidence": "official",
       "query": "Panasonic HCC-R600AR-X release date launch 上市 發售",
       "sourceKind": "official_page"
+    },
+    {
+      "id": "wifi-tplink-deco-be77",
+      "category": "wifi",
+      "brand": "TP-Link",
+      "model": "Deco BE77",
+      "name": "BE17000 三頻 10G Wi-Fi 7 真 Mesh 路由器一入組",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "query": "TP-Link Deco BE77 release date launch 上市 發售",
+      "sourceKind": "not_found_after_official_review",
+      "reason": "TP-Link 台灣官方頁僅標示「新品」，2026 年 6 月活動頁只證明當時列入活動；未找到明確上市／發售日期。韌體與支援文件日期不作為產品上市日。"
     }
   ]
 }

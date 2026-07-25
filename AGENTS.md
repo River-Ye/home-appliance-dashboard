@@ -68,7 +68,7 @@
 
 ## GEO / AI 搜尋規則
 
-- 網站由現有 26 類資料產生 26 個 `/categories/<id>/` 靜態分類指南頁；不建立 696 個重複商品事實的薄內容頁。
+- 網站由現有 26 類資料產生 26 個 `/categories/<id>/` 靜態分類指南頁；不建立 697 個重複商品事實的薄內容頁。
 - `tools/category-guides.js` 只維護分類層級的繁中導讀、3 項選購條件與 3 組 FAQ；商品名稱、價格、排名、規格、史低與負評仍從既有商品資料產生，避免第二套事實來源。
 - 站名、首頁 title、description、H1 與 AI 揭露集中在 `tools/geo-config.js`；首頁 metadata、JSON-LD、分類頁與 `llms.txt` 必須共用此契約。首頁與分類頁首屏皆需可見 AI 協作、資料日期、查核方法與 GitHub 原始碼。
 - 修改 `assets/js/config.js` 的分類、`products/*.js` 商品或 `tools/category-guides.js` 後，必須執行 `npm run generate:categories`，再以 `npm run check:geo` 驗證產物與 contract。
@@ -79,13 +79,13 @@
 
 ## 目前資料規模
 
-- 共 26 類、696 筆商品。
+- 共 26 類、697 筆商品。
 - 所有分類每類至少 20 筆；新增分類或補資料時不可讓任何分類低於 20 筆。
 - 特殊分類目前數量：
   - `電視`：27 筆，需涵蓋主流顯示技術與可信台灣新品通路。
   - `Soundbar`：27 筆，需涵蓋不同聲道、擴充方式與空間需求。
   - `掃拖機器人`：34 筆，需涵蓋知名品牌旗艦與次旗艦。
-  - `無線路由器`：48 筆，只收 Wi-Fi 6 以上，Mesh/多 AP/商用管理支援要寫清楚。
+  - `無線路由器`：49 筆，只收 Wi-Fi 6 以上，Mesh/多 AP/商用管理支援要寫清楚。
   - `電腦螢幕`：55 筆，需涵蓋主流品牌、不同用途帶與 34/40/45/49/57 吋寬螢幕。
   - `懸臂支架`：22 筆，需標示支援尺寸、承重重量與是否適合 49/57 吋大寬螢幕。
   - `電子鎖`：48 筆，需涵蓋知名品牌且注意安裝條件。
@@ -299,10 +299,10 @@
 ## 價格與匯率
 
 <!-- catalog-maintenance-summary:start -->
-- 2026-07-24 18:55（台灣時間）完成 696 筆商品、26 類全量查核；408 筆 PChome SKU API 已完成（263 筆 exact model、10 筆人工 SKU 綁定可寫入，111 筆型號未自動確認），更新 76 筆現價（19 筆降價、57 筆漲價），20 筆 Qty 0 只列追蹤。
-- 新增 chair-backbone-orca、circulator-sharp-pk-18s03t、cookware-ballarini-ledro-1027801、monitorarm-dell-hda26、refrigerator-sharp-sj-df58g-bk、soundbar-jbl-bar-1300-mk2、standingdesk-backbone-dyback-craft、washerdryer-samsung-wd90h22ahstw；沒有移除產品。逐類人工新品覆核已完成，所有分類至少 20 筆；停產只採品牌官方明確證據，缺貨、反爬或單次連線錯誤不作為刪除依據。
-- 圖片查核覆蓋 696 筆；516 筆來源可由 exact model 或人工 SKU 綁定確認，180 筆來源／圖片例外保留原資料。史低為 441 筆 `found`、255 筆 `not_found`，本輪下修 0 筆；54 筆來源可自動重現，其餘保留原逐筆證據且未臆測失效。
-- ExchangeRate-API 最新批次為 2026-07-24 00:02 UTC，USD/TWD 32.356；30 筆外幣商品已重算。完整摘要與例外保存在 `catalog_maintenance_latest.json`。
+- 2026-07-25 08:57（台灣時間）完成 697 筆商品、26 類全量查核；409 筆 PChome SKU API 已完成（264 筆 exact model、10 筆人工 SKU 綁定可寫入，111 筆型號未自動確認），更新 79 筆現價（42 筆降價、37 筆漲價），20 筆 Qty 0 只列追蹤。
+- 新增 wifi-tplink-deco-be77；沒有移除產品。逐類人工新品覆核已完成，所有分類至少 20 筆；停產只採品牌官方明確證據，缺貨、反爬或單次連線錯誤不作為刪除依據。
+- 圖片查核覆蓋 697 筆；520 筆來源可由 exact model 或人工 SKU 綁定確認，177 筆來源／圖片例外保留原資料。史低為 442 筆 `found`、255 筆 `not_found`，本輪下修 1 筆；55 筆來源可自動重現，其餘保留原逐筆證據且未臆測失效。
+- ExchangeRate-API 最新批次為 2026-07-25 00:02 UTC，USD/TWD 32.35177；30 筆外幣商品已重算。完整摘要與例外保存在 `catalog_maintenance_latest.json`。
 <!-- catalog-maintenance-summary:end -->
 
 ## 驗證清單

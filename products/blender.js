@@ -16,9 +16,9 @@
     "name": "Ascent 領航者全食物調理機",
     "price": {
       "currency": "TWD",
-      "amount": 39800,
-      "converted": 39800,
-      "confidence": "PChome 2026-07-24 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 35820,
+      "converted": 35820,
+      "confidence": "PChome 2026-07-25 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAYE8A900BKOKK/000001_1782889462.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAYE8-A900BKOKK",
@@ -109,9 +109,9 @@
     "name": "Ascent 領航者全食物調理機",
     "price": {
       "currency": "TWD",
-      "amount": 29600,
-      "converted": 29600,
-      "confidence": "PChome 2026-07-24 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 26640,
+      "converted": 26640,
+      "confidence": "PChome 2026-07-25 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/QBAO0FA900AS2G7/000001_1782460590.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/QBAO0F-A900AS2G7",
@@ -1097,9 +1097,9 @@
     "name": "1.2L 高速調理果汁機",
     "price": {
       "currency": "TWD",
-      "amount": 1290,
-      "converted": 1290,
-      "confidence": "PChome 2026-07-21 API 公開價"
+      "amount": 1225,
+      "converted": 1225,
+      "confidence": "PChome 2026-07-25 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAY7KA900JXOTJ/000001_1779933584.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAY7K-A900JXOTJ",
@@ -1487,9 +1487,9 @@
     "name": "多功能變頻輕音冷熱調理機",
     "price": {
       "currency": "TWD",
-      "amount": 11490,
-      "converted": 11490,
-      "confidence": "PChome 2026-07-23 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 10915,
+      "converted": 10915,
+      "confidence": "PChome 2026-07-25 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAY4YA900I3ILD/000001_1783328441.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAY4Y-A900I3ILD",
@@ -1565,9 +1565,9 @@
     "name": "多功能營養調理機",
     "price": {
       "currency": "TWD",
-      "amount": 3380,
-      "converted": 3380,
-      "confidence": "PChome 2026-07-21 API 公開價"
+      "amount": 3211,
+      "converted": 3211,
+      "confidence": "PChome 2026-07-25 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAYGBA900IW311/000001_1767836506.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAYGB-A900IW311",

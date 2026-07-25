@@ -4,6 +4,7 @@ const {
   EXPECTED_CATEGORY_COUNT,
   EXPECTED_PRODUCT_COUNT,
   MIN_PRODUCTS_PER_CATEGORY,
+  EXPECTED_CATEGORY_PRODUCT_COUNTS,
   DATE_PATTERN,
   WASHER_DRYER_CAPACITY_PATTERN,
   DIMENSION_CATEGORY_COUNTS,
@@ -1094,9 +1095,36 @@ function main() {
   );
 
   for (const category of categories) {
-    const count = products.filter((product) => product.category === category.id).length;
+    const categoryProducts = products.filter((product) => product.category === category.id);
+    const count = categoryProducts.length;
     assert(count >= MIN_PRODUCTS_PER_CATEGORY, `${category.label} has only ${count} products`, failures);
+    assert(
+      count === EXPECTED_CATEGORY_PRODUCT_COUNTS.get(category.id),
+      `${category.label} expected ${EXPECTED_CATEGORY_PRODUCT_COUNTS.get(category.id)} products, got ${count}`,
+      failures,
+    );
+    const ranks = categoryProducts.map((product) => product.rank);
+    assert(
+      ranks.every((rank) => Number.isInteger(rank) && rank > 0),
+      `${category.label} contains a non-positive or non-integer rank`,
+      failures,
+    );
+    assert(
+      new Set(ranks).size === ranks.length,
+      `${category.label} contains duplicate ranks`,
+      failures,
+    );
   }
+  assert(
+    EXPECTED_CATEGORY_PRODUCT_COUNTS.size === categories.length,
+    `expected category product count contract for ${categories.length} categories, got ${EXPECTED_CATEGORY_PRODUCT_COUNTS.size}`,
+    failures,
+  );
+  assert(
+    [...EXPECTED_CATEGORY_PRODUCT_COUNTS.values()].reduce((sum, count) => sum + count, 0) === EXPECTED_PRODUCT_COUNT,
+    "expected category product counts do not sum to the expected product total",
+    failures,
+  );
 
   const seenIds = new Set();
   const seenUrls = new Map();

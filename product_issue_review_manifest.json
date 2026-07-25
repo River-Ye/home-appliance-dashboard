@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-07-24",
+  "checkedAt": "2026-07-25",
   "methodVersion": 3,
   "policy": "每筆決策須保存 exact-model 跨站查詢與人工 attestation；每個搜尋候選須逐頁保存摘要、獨立作者數與具體排除理由，研究工具不得自行生成拒絕結論。",
   "results": [
@@ -30418,6 +30418,55 @@
         "errors": [],
         "threshold": "same exact-model issue, at least 6 distinct first-person reporters, across at least 2 original websites"
       }
+    },
+    {
+      "id": "wifi-tplink-deco-be77",
+      "category": "wifi",
+      "brand": "TP-Link",
+      "model": "Deco BE77",
+      "reviewedAt": "2026-07-25",
+      "reviewBatch": "wifi",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "Mobile01",
+        "Reddit"
+      ],
+      "queries": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"TP-Link Deco BE77\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?q=site%3Amobile01.com%20%22TP-Link%20Deco%20BE77%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"TP-Link Deco BE77\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.bing.com/search?q=site%3Areddit.com%20%22TP-Link%20Deco%20BE77%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "targetHost": "reddit.com"
+        }
+      ],
+      "candidateDisposition": "Deco BE77 的 exact-model 原頁候選只有一位 Reddit 使用者回報手機 Wi-Fi 間歇降至 1Mbps 以下，未見同問題跨站集中。",
+      "representativeSources": [
+        {
+          "platform": "Reddit",
+          "title": "Deco BE77：Deco BE17000 speed tests sometimes go below 1mbps",
+          "url": "https://www.reddit.com/r/TpLink/comments/1t2p0st/deco_be17000_speed_tests_sometimes_go_below_1mbps/"
+        }
+      ],
+      "candidateReviews": [
+        {
+          "url": "https://www.reddit.com/r/TpLink/comments/1t2p0st/deco_be17000_speed_tests_sometimes_go_below_1mbps/",
+          "title": "Deco BE77：Deco BE17000 speed tests sometimes go below 1mbps",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-07-25",
+          "sourceExcerpt": "原發文者明示 Model: BE77，手機 Wi-Fi 會間歇降至 1Mbps 以下；有線連線正常，限制 2.4GHz 後暫時改善。",
+          "independentAuthors": 1,
+          "specificReason": "僅一位可辨識的第一人稱作者，且只有 Reddit 單一原始網站，未達至少 6 位獨立使用者及 2 個原始網站門檻。"
+        }
+      ],
+      "attestation": "manual_original_pages_reviewed",
+      "reviewerNote": "已人工開啟 Deco BE77 的 Reddit exact-model 原頁並逐段覆核，也完成 Mobile01 與 Reddit 的可重現查詢；目前證據不足以成立集中災情。"
     },
     {
       "id": "wifi-netgear-orbi-rbe373",

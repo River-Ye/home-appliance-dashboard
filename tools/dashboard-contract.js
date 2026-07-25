@@ -1,6 +1,34 @@
 const EXPECTED_CATEGORY_COUNT = 26;
-const EXPECTED_PRODUCT_COUNT = 696;
+const EXPECTED_PRODUCT_COUNT = 697;
 const MIN_PRODUCTS_PER_CATEGORY = 20;
+const EXPECTED_CATEGORY_PRODUCT_COUNTS = new Map([
+  ["tv", 27],
+  ["soundbar", 27],
+  ["fan", 22],
+  ["circulator", 23],
+  ["dehumidifier", 24],
+  ["purifier", 23],
+  ["robot", 34],
+  ["vacuum", 24],
+  ["washer", 23],
+  ["dryer", 21],
+  ["washerdryer", 26],
+  ["garmentcare", 20],
+  ["refrigerator", 24],
+  ["cookware", 25],
+  ["knife", 21],
+  ["blender", 24],
+  ["oven", 24],
+  ["waterdispenser", 21],
+  ["dishwasher", 23],
+  ["bidet", 20],
+  ["smartlock", 48],
+  ["wifi", 49],
+  ["standingdesk", 23],
+  ["chair", 24],
+  ["monitor", 55],
+  ["monitorarm", 22],
+]);
 const DATE_PATTERN = /^(找不到|\d{4}(?:[-/.]\d{1,2}(?:[-/.]\d{1,2})?)?)$/;
 const WASHER_DRYER_CAPACITY_PATTERN = /^洗\/乾容量：\d+(?:\.\d+)?kg \/ \d+(?:\.\d+)?kg$/;
 const DIMENSION_CATEGORY_COUNTS = new Map([
@@ -138,6 +166,7 @@ module.exports = {
   EXPECTED_CATEGORY_COUNT,
   EXPECTED_PRODUCT_COUNT,
   MIN_PRODUCTS_PER_CATEGORY,
+  EXPECTED_CATEGORY_PRODUCT_COUNTS,
   DATE_PATTERN,
   WASHER_DRYER_CAPACITY_PATTERN,
   DIMENSION_CATEGORY_COUNTS,

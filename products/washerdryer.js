@@ -617,9 +617,9 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/1f2a33ce70-Gd-10053955.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 44910,
-      "converted": 44910,
-      "confidence": "Yahoo購物中心 2026-07-24 exact-model 公開結構化價格"
+      "amount": 43563,
+      "converted": 43563,
+      "confidence": "Yahoo購物中心 2026-07-25 exact-model 公開結構化價格"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心",
@@ -789,9 +789,9 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/953C366DCA-SP-17994282.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 47900,
-      "converted": 47900,
-      "confidence": "Yahoo購物中心 2026-07-24 exact-model 公開結構化價格"
+      "amount": 45493,
+      "converted": 45493,
+      "confidence": "Yahoo購物中心 2026-07-25 exact-model 公開結構化價格"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心",
@@ -1133,9 +1133,9 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/BCB950DBF0-SP-13742246.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 48900,
-      "converted": 48900,
-      "confidence": "Yahoo購物中心 2026-07-24 exact-model 公開結構化價格"
+      "amount": 47433,
+      "converted": 47433,
+      "confidence": "Yahoo購物中心 2026-07-25 exact-model 公開結構化價格"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心",
@@ -1391,9 +1391,9 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/41046DB844-SP-12334280.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 36930,
-      "converted": 36930,
-      "confidence": "Yahoo購物中心 2026-07-24 exact-model 公開結構化價格"
+      "amount": 33976,
+      "converted": 33976,
+      "confidence": "Yahoo購物中心 2026-07-25 exact-model 公開結構化價格"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心",
@@ -1435,16 +1435,16 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 34506,
+      "amount": 33976,
       "currency": "TWD",
-      "converted": 34506,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1270194144&cgp=34873",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：Panasonic 國際牌 15/10kg滾筒式溫水洗脫烘ECONAVI變頻洗衣機 NA-V150MDH -含基本安裝+舊機回收",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Yahoo購物中心 / Panasonic 國際牌 15/10kg滾筒式溫水洗脫烘ECONAVI變頻洗衣機 NA-V150MDH -含基本安裝+舊機回收」最低價為 NT$34,506，最低點日期 2026-06-18。",
-      "sourceKind": "price_history",
-      "confidence": "high",
-      "checkedAt": "2026-07-09",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+      "converted": 33976,
+      "sourceUrl": "https://tw.buy.yahoo.com/gdsale/Panasonic-%E5%9C%8B%E9%9A%9B%E7%89%8C-15-10kg%E6%BB%BE%E7%AD%92%E5%BC%8F%E6%BA%AB%E6%B0%B4%E6%B4%97%E8%84%AB%E7%83%98%E8%AE%8A%E9%A0%BB%E6%B4%97%E8%A1%A3%E6%A9%9F-NA-V150MDH%E5%90%AB%E5%9F%BA%E6%9C%AC%E5%AE%89%E8%A3%9D-10266758.html",
+      "sourceTitle": "Yahoo購物中心：Panasonic 國際牌 15/10kg滾筒式溫水洗脫烘ECONAVI變頻洗衣機 NA-V150MDH -含基本安裝+舊機回收 | 變頻14-15KG | Yahoo購物中心",
+      "evidenceSnippet": "Yahoo購物中心於 2026-07-25 顯示同型號可信新品公開價 NT$33,976，低於既有史低 NT$34,506。",
+      "sourceKind": "retailer_page",
+      "confidence": "medium",
+      "checkedAt": "2026-07-25",
+      "note": "採用 Yahoo購物中心當日可購商品的同型號新品公開價；不含會員券、點數、信用卡回饋、二手、福利、展示、拆封或整新品。"
     },
     "issueResearch": {
       "status": "no_common_issue",

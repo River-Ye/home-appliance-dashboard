@@ -422,9 +422,9 @@
     "name": "DELTA-S 20KG 49 吋高承重氣壓式螢幕支架",
     "price": {
       "currency": "TWD",
-      "amount": 1949,
-      "converted": 1949,
-      "confidence": "PChome 2026-07-23 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 2249,
+      "converted": 2249,
+      "confidence": "PChome 2026-07-25 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DCAGRJA900JS174/000001_1772508775.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DCAGTU-A900JXNXN",
@@ -1232,9 +1232,9 @@
     "name": "45吋 20KG 氣壓式螢幕支架",
     "price": {
       "currency": "TWD",
-      "amount": 2999,
-      "converted": 2999,
-      "confidence": "PChome 2026-07-22 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 3250,
+      "converted": 3250,
+      "confidence": "PChome 2026-07-25 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DCAGU1A900I6WCY/000001_1754374453.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DCAGU1-A900I6WCY",
@@ -1388,9 +1388,9 @@
     "name": "台灣製氣壓式螢幕支架加長桿組",
     "price": {
       "currency": "TWD",
-      "amount": 4480,
-      "converted": 4480,
-      "confidence": "PChome 2026-07-23 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 4540,
+      "converted": 4540,
+      "confidence": "PChome 2026-07-25 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABN2A900GINEE/000001_1690179981.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DSABN2-A900GINEE",
@@ -1743,7 +1743,7 @@
       "status": "found",
       "amount": 288.15,
       "currency": "GBP",
-      "converted": 12425,
+      "converted": 12421,
       "sourceUrl": "https://pricespy.co.uk/product.php?p=16273588",
       "sourceTitle": "PriceSpy UK：Dell HDA26 Single Monitor Arm",
       "evidenceSnippet": "PriceSpy exact-model 頁的 Price History 明示 30 天最低價 £288.15，且商品名稱、品牌與 GTIN 對應 Dell HDA26。",

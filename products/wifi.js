@@ -402,9 +402,89 @@
     }
   },
   {
-    "id": "wifi-netgear-orbi-rbe373",
+    "id": "wifi-tplink-deco-be77",
     "category": "wifi",
     "rank": 6,
+    "budget": "premium",
+    "channel": "tw",
+    "brand": "TP-Link",
+    "model": "Deco BE77",
+    "name": "BE17000 三頻 10G Wi-Fi 7 真 Mesh 路由器一入組",
+    "price": {
+      "currency": "TWD",
+      "amount": 8099,
+      "converted": 8099,
+      "confidence": "PChome 2026-07-25 exact-model API 查核價"
+    },
+    "image": "https://cs-a.ecimg.tw/items/DRAN08A900JHOFL/000001_1782099138.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DRAN08-A900JHOFL",
+    "buyLabel": "PChome",
+    "specs": [
+      "Wi-Fi 7 / BE17000 三頻（6GHz 11530Mbps、5GHz 4324Mbps、2.4GHz 688Mbps）",
+      "Mesh：支援 Deco Mesh，單機可與其他 Deco 節點擴充",
+      "有線：10G RJ45/SFP+ Combo、2.5G、1G，支援多重回程",
+      "官方標示可連接超過 200 台裝置"
+    ],
+    "description": "TP-Link 台灣官方標示為新品的 10G Wi-Fi 7 Deco 節點，補足既有 BE65 之上的 BE17000 與 SFP+ 高速回程比較。",
+    "pros": [
+      "10G RJ45/SFP+ Combo 與 2.5G 埠適合高速 NAS、光纖與有線回程",
+      "三頻 Wi-Fi 7、MLO 與 Deco Mesh 兼顧單機效能和後續擴充"
+    ],
+    "cons": [
+      "一入組只提供單節點，全屋覆蓋仍可能需要另購 Deco",
+      "要發揮 6GHz、MLO 與 10G 效益，終端、交換器與寬頻都需同步支援"
+    ],
+    "bestFor": "已有 2.5G／10G 網路、希望先買單台高階主節點再逐步擴充 Deco Mesh 的家庭。",
+    "recommendation": "10G Mesh 升級推薦：相較 BE65，多了 BE17000 無線規格與 10G SFP+／RJ45 彈性；若寬頻仍低於 1G 或只需基本涵蓋，較低階 Deco 會更划算。",
+    "score": 91,
+    "voltage": "台灣通路版本；使用原廠外接變壓器，安裝前仍需確認插座與數據機位置",
+    "warranty": "PChome 商品頁標示原廠 3 年保固／3 年換新",
+    "tags": [
+      "Wi-Fi 7",
+      "Deco Mesh",
+      "10G",
+      "SFP+",
+      "三頻"
+    ],
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "found",
+      "amount": 8099,
+      "currency": "TWD",
+      "converted": 8099,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1266335272&cgp=8099",
+      "sourceTitle": "LBJ 比價撿便宜：TP-Link Deco BE77 一入組歷史價格",
+      "evidenceSnippet": "LBJ exact-model 價格圖顯示 2026-04-25、2026-06-25 與 2026-07-25 的可信新品通路最低價皆為 NT$8,099。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
+      "checkedAt": "2026-07-25",
+      "note": "採用 LBJ 可公開重現的 2026 年 exact-model 價格點；排除型號或通路無法確認的蝦皮候選，也不採用頁面中早於產品公開資料且無法合理核對的回填點。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-07-25",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"TP-Link Deco BE77\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?q=site%3Amobile01.com%20%22TP-Link%20Deco%20BE77%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"TP-Link Deco BE77\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.bing.com/search?q=site%3Areddit.com%20%22TP-Link%20Deco%20BE77%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "targetHost": "reddit.com"
+        }
+      ]
+    }
+  },
+  {
+    "id": "wifi-netgear-orbi-rbe373",
+    "category": "wifi",
+    "rank": 7,
     "budget": "premium",
     "channel": "tw",
     "brand": "NETGEAR",
@@ -483,7 +563,7 @@
   {
     "id": "wifi-linksys-velop-pro-axe5400",
     "category": "wifi",
-    "rank": 7,
+    "rank": 8,
     "budget": "value",
     "channel": "tw",
     "brand": "Linksys",
@@ -562,7 +642,7 @@
   {
     "id": "wifi-synology-wrx560",
     "category": "wifi",
-    "rank": 8,
+    "rank": 9,
     "budget": "mid",
     "channel": "tw",
     "brand": "Synology",
@@ -663,7 +743,7 @@
     "price": {
       "currency": "USD",
       "amount": 189,
-      "converted": 6115,
+      "converted": 6114,
       "confidence": "Ubiquiti Store 2026-07-21 來源價；ExchangeRate-API 2026-07-21 匯率換算"
     },
     "image": "https://cdn.ecomm.ui.com/products/fa8dd4e4-36c8-4c79-a928-22c7bff2ce29/ab5bc8a4-6135-402e-a695-e3ea5e16d3e6.png",
@@ -696,7 +776,7 @@
       "PoE",
       "商用 AP"
     ],
-    "rank": 9,
+    "rank": 10,
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "not_found",
@@ -752,7 +832,7 @@
     "price": {
       "currency": "USD",
       "amount": 159,
-      "converted": 5145,
+      "converted": 5144,
       "confidence": "Ubiquiti Store 2026-07-21 來源價；ExchangeRate-API 2026-07-21 匯率換算"
     },
     "image": "https://cdn.ecomm.ui.com/products/8e88b222-7a55-4cf0-8677-ae9b6347fe84/e16aa122-b5e5-4ffb-9f1a-27ee14d9ab3d.png",
@@ -785,7 +865,7 @@
       "PoE",
       "商用 AP"
     ],
-    "rank": 10,
+    "rank": 11,
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "not_found",
@@ -865,7 +945,7 @@
       "PoE",
       "低價 AP"
     ],
-    "rank": 11,
+    "rank": 12,
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "not_found",
@@ -945,7 +1025,7 @@
       "Wi‑Fi 6",
       "商用 AP"
     ],
-    "rank": 12,
+    "rank": 13,
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "not_found",
@@ -1029,7 +1109,7 @@
       "Wi‑Fi 6",
       "高密度"
     ],
-    "rank": 13,
+    "rank": 14,
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
@@ -1109,7 +1189,7 @@
       "Wi‑Fi 6E",
       "6GHz"
     ],
-    "rank": 14,
+    "rank": 15,
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "not_found",
@@ -1189,7 +1269,7 @@
       "Wi‑Fi 6",
       "入門 AP"
     ],
-    "rank": 15,
+    "rank": 16,
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
@@ -1236,7 +1316,7 @@
     "price": {
       "currency": "USD",
       "amount": 129,
-      "converted": 4174,
+      "converted": 4173,
       "confidence": "Ubiquiti Store 2026-07-21 來源價；ExchangeRate-API 2026-07-21 匯率換算"
     },
     "image": "https://cdn.ecomm.ui.com/products/6d5c6141-e2e9-416a-b789-53e59416bb1a/853bc73b-f65b-4e59-a171-75c9a4a4615e.png",
@@ -1269,7 +1349,7 @@
       "PoE",
       "入門 AP"
     ],
-    "rank": 16,
+    "rank": 17,
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "not_found",
@@ -1340,7 +1420,7 @@
     "price": {
       "currency": "USD",
       "amount": 279,
-      "converted": 9027,
+      "converted": 9026,
       "confidence": "Ubiquiti Store 2026-07-21 來源價；ExchangeRate-API 2026-07-21 匯率換算"
     },
     "image": "https://cdn.ecomm.ui.com/products/350070a0-ae43-431b-b052-8e849c3b0a75/bad94693-bc54-4ab4-b060-9b972401941c.png",
@@ -1373,7 +1453,7 @@
       "PoE",
       "旗艦 AP"
     ],
-    "rank": 17,
+    "rank": 18,
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "not_found",
@@ -1426,7 +1506,7 @@
   {
     "id": "wifi-asus-rt-be82u",
     "category": "wifi",
-    "rank": 18,
+    "rank": 19,
     "budget": "mid",
     "channel": "tw",
     "brand": "ASUS",
@@ -1505,7 +1585,7 @@
   {
     "id": "wifi-tplink-archer-be700",
     "category": "wifi",
-    "rank": 19,
+    "rank": 20,
     "budget": "mid",
     "channel": "tw",
     "brand": "TP-Link",
@@ -1584,7 +1664,7 @@
   {
     "id": "wifi-dlink-r95",
     "category": "wifi",
-    "rank": 20,
+    "rank": 21,
     "budget": "mid",
     "channel": "tw",
     "brand": "D-Link",
@@ -1592,9 +1672,9 @@
     "name": "BE9500 Wi-Fi 7 三頻 2.5G Mesh 路由器",
     "price": {
       "currency": "TWD",
-      "amount": 5099,
-      "converted": 5099,
-      "confidence": "PChome 2026-07-22 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 5299,
+      "converted": 5299,
+      "confidence": "PChome 2026-07-25 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAFJ6A900IZ71A/000001_1755490950.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DRAFJ6-A900IZ71A",
@@ -1663,7 +1743,7 @@
   {
     "id": "wifi-acer-predator-t7",
     "category": "wifi",
-    "rank": 21,
+    "rank": 22,
     "budget": "mid",
     "channel": "tw",
     "brand": "Acer",
@@ -1671,9 +1751,9 @@
     "name": "BE11000 Mesh Wi-Fi 7 電競路由器",
     "price": {
       "currency": "TWD",
-      "amount": 5290,
-      "converted": 5290,
-      "confidence": "PChome 2026-07-22 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 5490,
+      "converted": 5490,
+      "confidence": "PChome 2026-07-25 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAF02A900I473A/000001_1732699929.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DRAF02-A900I473A",
@@ -1742,7 +1822,7 @@
   {
     "id": "wifi-mercusys-halo-h80x-3pack",
     "category": "wifi",
-    "rank": 22,
+    "rank": 23,
     "budget": "mid",
     "channel": "tw",
     "brand": "Mercusys",
@@ -1821,7 +1901,7 @@
   {
     "id": "wifi-xiaomi-ax3000-2pack",
     "category": "wifi",
-    "rank": 23,
+    "rank": 24,
     "budget": "value",
     "channel": "tw",
     "brand": "Xiaomi",
@@ -1904,7 +1984,7 @@
   {
     "id": "wifi-tplink-archer-be220",
     "category": "wifi",
-    "rank": 24,
+    "rank": 25,
     "budget": "value",
     "channel": "tw",
     "brand": "TP-Link",
@@ -1983,7 +2063,7 @@
   {
     "id": "wifi-mercusys-mr27be",
     "category": "wifi",
-    "rank": 25,
+    "rank": 26,
     "budget": "value",
     "channel": "tw",
     "brand": "Mercusys",
@@ -2062,7 +2142,7 @@
   {
     "id": "wifi-totolink-be5",
     "category": "wifi",
-    "rank": 26,
+    "rank": 27,
     "budget": "value",
     "channel": "tw",
     "brand": "TOTOLINK",
@@ -2141,7 +2221,7 @@
   {
     "id": "wifi-dlink-m36",
     "category": "wifi",
-    "rank": 27,
+    "rank": 28,
     "budget": "value",
     "channel": "tw",
     "brand": "D-Link",
@@ -2220,7 +2300,7 @@
   {
     "id": "wifi-netgear-rs100",
     "category": "wifi",
-    "rank": 28,
+    "rank": 29,
     "budget": "mid",
     "channel": "tw",
     "brand": "NETGEAR",
@@ -2299,7 +2379,7 @@
   {
     "id": "wifi-linksys-mx5502-3pack",
     "category": "wifi",
-    "rank": 29,
+    "rank": 30,
     "budget": "premium",
     "channel": "tw",
     "brand": "Linksys",
@@ -2378,7 +2458,7 @@
   {
     "id": "wifi-synology-rt6600ax",
     "category": "wifi",
-    "rank": 30,
+    "rank": 31,
     "budget": "premium",
     "channel": "tw",
     "brand": "Synology",
@@ -2457,7 +2537,7 @@
   {
     "id": "wifi-asus-rt-be88u",
     "category": "wifi",
-    "rank": 31,
+    "rank": 32,
     "budget": "premium",
     "channel": "tw",
     "brand": "ASUS",
@@ -2536,7 +2616,7 @@
   {
     "id": "wifi-tplink-archer-be805",
     "category": "wifi",
-    "rank": 32,
+    "rank": 33,
     "budget": "premium",
     "channel": "tw",
     "brand": "TP-Link",
@@ -2624,7 +2704,7 @@
   {
     "id": "wifi-tplink-archer-be900",
     "category": "wifi",
-    "rank": 33,
+    "rank": 34,
     "budget": "premium",
     "channel": "tw",
     "brand": "TP-Link",
@@ -2727,7 +2807,7 @@
   {
     "id": "wifi-netgear-rs300",
     "category": "wifi",
-    "rank": 34,
+    "rank": 35,
     "budget": "mid",
     "channel": "tw",
     "brand": "NETGEAR",
@@ -2735,9 +2815,9 @@
     "name": "BE9300 三頻 Wi-Fi 7 旗艦路由器",
     "price": {
       "currency": "TWD",
-      "amount": 8200,
-      "converted": 8200,
-      "confidence": "PChome 2026-07-22 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 8700,
+      "converted": 8700,
+      "confidence": "PChome 2026-07-25 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAFJAA900IFBVA/000001_1780997121.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DRAFJA-A900IFBVA",
@@ -2825,7 +2905,7 @@
   {
     "id": "wifi-zyxel-usg-lite-60ax",
     "category": "wifi",
-    "rank": 35,
+    "rank": 36,
     "budget": "mid",
     "channel": "tw",
     "brand": "Zyxel",
@@ -2904,7 +2984,7 @@
   {
     "id": "wifi-msi-radix-axe6600",
     "category": "wifi",
-    "rank": 36,
+    "rank": 37,
     "budget": "mid",
     "channel": "tw",
     "brand": "MSI",
@@ -2912,9 +2992,9 @@
     "name": "Wi-Fi 6E 三頻電競路由器",
     "price": {
       "currency": "TWD",
-      "amount": 7490,
-      "converted": 7490,
-      "confidence": "PChome 2026-07-22 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 7990,
+      "converted": 7990,
+      "confidence": "PChome 2026-07-25 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAFKSA900HEQVN/000001_1713512948.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DRAFKS-A900HEQVN",
@@ -2983,7 +3063,7 @@
   {
     "id": "wifi-acer-ovia-t360",
     "category": "wifi",
-    "rank": 37,
+    "rank": 38,
     "budget": "value",
     "channel": "tw",
     "brand": "Acer",
@@ -3062,7 +3142,7 @@
   {
     "id": "wifi-xiaomi-ax3000-1pack",
     "category": "wifi",
-    "rank": 38,
+    "rank": 39,
     "budget": "value",
     "channel": "tw",
     "brand": "Xiaomi",
@@ -3145,7 +3225,7 @@
   {
     "id": "wifi-totolink-x30-se",
     "category": "wifi",
-    "rank": 39,
+    "rank": 40,
     "budget": "value",
     "channel": "tw",
     "brand": "TOTOLINK",
@@ -3224,7 +3304,7 @@
   {
     "id": "wifi-qnap-qhora-301w",
     "category": "wifi",
-    "rank": 40,
+    "rank": 41,
     "budget": "mid",
     "channel": "tw",
     "brand": "QNAP",
@@ -3232,9 +3312,9 @@
     "name": "Wi-Fi 6 雙 10GbE SD-WAN 路由器",
     "price": {
       "currency": "TWD",
-      "amount": 7490,
-      "converted": 7490,
-      "confidence": "PChome 2026-07-22 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 7990,
+      "converted": 7990,
+      "confidence": "PChome 2026-07-25 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAG6JA900AUW3D/000001_1626400932.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DRAG6J-A900AUW3D",
@@ -3303,7 +3383,7 @@
   {
     "id": "wifi-cudy-ax3000-mesh",
     "category": "wifi",
-    "rank": 41,
+    "rank": 42,
     "budget": "value",
     "channel": "tw",
     "brand": "Cudy",
@@ -3382,7 +3462,7 @@
   {
     "id": "wifi-cudy-be3600",
     "category": "wifi",
-    "rank": 42,
+    "rank": 43,
     "budget": "value",
     "channel": "tw",
     "brand": "Cudy",
@@ -3461,7 +3541,7 @@
   {
     "id": "wifi-asus-rt-be3600hp",
     "category": "wifi",
-    "rank": 43,
+    "rank": 44,
     "budget": "mid",
     "channel": "tw",
     "brand": "ASUS",
@@ -3540,7 +3620,7 @@
   {
     "id": "wifi-tplink-deco-be22",
     "category": "wifi",
-    "rank": 44,
+    "rank": 45,
     "budget": "value",
     "channel": "tw",
     "brand": "TP-Link",
@@ -3619,7 +3699,7 @@
   {
     "id": "wifi-mercusys-halo-h25be-2pack",
     "category": "wifi",
-    "rank": 45,
+    "rank": 46,
     "budget": "mid",
     "channel": "tw",
     "brand": "Mercusys",
@@ -3698,7 +3778,7 @@
   {
     "id": "wifi-costco-tplink-deco-x55",
     "category": "wifi",
-    "rank": 46,
+    "rank": 47,
     "budget": "value",
     "channel": "tw",
     "brand": "TP-Link",
@@ -3796,7 +3876,7 @@
   {
     "id": "wifi-costco-tplink-archer-be3600",
     "category": "wifi",
-    "rank": 47,
+    "rank": 48,
     "budget": "value",
     "channel": "tw",
     "brand": "TP-Link",
@@ -3877,7 +3957,7 @@
   {
     "id": "wifi-costco-tplink-archer-be550",
     "category": "wifi",
-    "rank": 48,
+    "rank": 49,
     "budget": "mid",
     "channel": "tw",
     "brand": "TP-Link",

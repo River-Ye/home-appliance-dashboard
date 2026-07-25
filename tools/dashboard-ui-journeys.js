@@ -3,6 +3,7 @@ const os = require("os");
 const {
   EXPECTED_CATEGORY_COUNT,
   EXPECTED_PRODUCT_COUNT,
+  EXPECTED_CATEGORY_PRODUCT_COUNTS,
 } = require("./dashboard-contract");
 const { readDashboardProducts } = require("./read-dashboard-products");
 const {
@@ -38,18 +39,21 @@ const screenshotDir = process.env.DASHBOARD_SCREENSHOT_DIR || os.tmpdir();
 const DASHBOARD_PRODUCTS = readDashboardProducts(path.resolve(__dirname, "..")).products;
 const EXPECTED_POIEMA_COUNT = DASHBOARD_PRODUCTS
   .filter((product) => JSON.stringify(product).toUpperCase().includes("POIEMA")).length;
-const EXPECTED_PURIFIER_COUNT = DASHBOARD_PRODUCTS
-  .filter((product) => product.category === "purifier").length;
-const EXPECTED_SOUNDBAR_COUNT = DASHBOARD_PRODUCTS
-  .filter((product) => product.category === "soundbar").length;
-const EXPECTED_COOKWARE_COUNT = DASHBOARD_PRODUCTS
-  .filter((product) => product.category === "cookware").length;
-const EXPECTED_STANDING_DESK_COUNT = DASHBOARD_PRODUCTS
-  .filter((product) => product.category === "standingdesk").length;
-const EXPECTED_CHAIR_COUNT = DASHBOARD_PRODUCTS
-  .filter((product) => product.category === "chair").length;
-const EXPECTED_MONITOR_ARM_COUNT = DASHBOARD_PRODUCTS
-  .filter((product) => product.category === "monitorarm").length;
+const EXPECTED_PURIFIER_COUNT = EXPECTED_CATEGORY_PRODUCT_COUNTS.get("purifier");
+const EXPECTED_SOUNDBAR_COUNT = EXPECTED_CATEGORY_PRODUCT_COUNTS.get("soundbar");
+const EXPECTED_COOKWARE_COUNT = EXPECTED_CATEGORY_PRODUCT_COUNTS.get("cookware");
+const EXPECTED_STANDING_DESK_COUNT = EXPECTED_CATEGORY_PRODUCT_COUNTS.get("standingdesk");
+const EXPECTED_CHAIR_COUNT = EXPECTED_CATEGORY_PRODUCT_COUNTS.get("chair");
+const EXPECTED_MONITOR_ARM_COUNT = EXPECTED_CATEGORY_PRODUCT_COUNTS.get("monitorarm");
+const EXPECTED_FAN_COUNT = EXPECTED_CATEGORY_PRODUCT_COUNTS.get("fan");
+const EXPECTED_ROBOT_COUNT = EXPECTED_CATEGORY_PRODUCT_COUNTS.get("robot");
+const EXPECTED_SMARTLOCK_COUNT = EXPECTED_CATEGORY_PRODUCT_COUNTS.get("smartlock");
+const EXPECTED_WIFI_COUNT = EXPECTED_CATEGORY_PRODUCT_COUNTS.get("wifi");
+const EXPECTED_KNIFE_COUNT = EXPECTED_CATEGORY_PRODUCT_COUNTS.get("knife");
+const EXPECTED_WATER_DISPENSER_COUNT = EXPECTED_CATEGORY_PRODUCT_COUNTS.get("waterdispenser");
+const EXPECTED_DISHWASHER_COUNT = EXPECTED_CATEGORY_PRODUCT_COUNTS.get("dishwasher");
+const EXPECTED_MONITOR_COUNT = EXPECTED_CATEGORY_PRODUCT_COUNTS.get("monitor");
+const EXPECTED_TV_COUNT = EXPECTED_CATEGORY_PRODUCT_COUNTS.get("tv");
 
 function attachRuntimeIssueCollector(page) {
   const issues = [];
@@ -383,7 +387,7 @@ async function runExhaustiveViewport(browser, name, viewport) {
 
   await page.fill("#categoryInput", "電子");
   await page.locator('#categoryOptions [data-value="smartlock"]').click();
-  await page.waitForFunction(() => document.querySelector("#visibleCount")?.textContent?.trim() === "48");
+  await waitForVisibleCount(page, EXPECTED_SMARTLOCK_COUNT);
   await page.locator("#brandInput").click();
   const smartLockBrandOptions = await page.$$eval("#brandOptions [data-value]", (options) => options.map((option) => option.dataset.value));
   if (!smartLockBrandOptions.includes("Yale")) throw new Error(`${name}: smart lock brands missing Yale`);
@@ -410,7 +414,7 @@ async function runExhaustiveViewport(browser, name, viewport) {
 
   await page.fill("#categoryInput", "無線");
   await page.locator('#categoryOptions [data-value="wifi"]').click();
-  await page.waitForFunction(() => document.querySelector("#visibleCount")?.textContent?.trim() === "48");
+  await waitForVisibleCount(page, EXPECTED_WIFI_COUNT);
   await page.locator("#brandInput").click();
   const routerBrandOptions = await page.$$eval("#brandOptions [data-value]", (options) => options.map((option) => option.dataset.value));
   for (const expected of ["ASUS", "TP-Link", "Aruba", "UniFi"]) {
@@ -448,9 +452,9 @@ async function runExhaustiveViewport(browser, name, viewport) {
     await page.waitForFunction(() => document.querySelector("#advancedFilters")?.hidden);
   }
 
-  const fanTab = page.getByRole("button", { name: "電風扇 22" });
+  const fanTab = page.getByRole("button", { name: `電風扇 ${EXPECTED_FAN_COUNT}` });
   await fanTab.click();
-  await page.waitForFunction(() => document.querySelector("#visibleCount")?.textContent?.trim() === "22");
+  await waitForVisibleCount(page, EXPECTED_FAN_COUNT);
   await loadAllVisibleProducts(page);
   const philipsFanCount = await page.locator(".product-card", { hasText: "Philips" }).count();
   if (philipsFanCount < 5) throw new Error(`${name}: expected at least 5 Philips fan products, got ${philipsFanCount}`);
@@ -462,9 +466,9 @@ async function runExhaustiveViewport(browser, name, viewport) {
   const poiemaCount = await page.locator(".product-card", { hasText: "POIEMA" }).count();
   if (poiemaCount < 2) throw new Error(`${name}: expected POIEMA purifier products, got ${poiemaCount}`);
 
-  const robotTab = page.getByRole("button", { name: /掃拖機器人 34/ });
+  const robotTab = page.getByRole("button", { name: `掃拖機器人 ${EXPECTED_ROBOT_COUNT}` });
   await robotTab.click();
-  await page.waitForFunction(() => document.querySelector("#visibleCount")?.textContent?.trim() === "34");
+  await waitForVisibleCount(page, EXPECTED_ROBOT_COUNT);
   await loadAllVisibleProducts(page);
 
   const robotBrands = await page.$$eval(".product-card", (cards) => {
@@ -475,18 +479,18 @@ async function runExhaustiveViewport(browser, name, viewport) {
     if (!found) throw new Error(`${name}: missing robot brand ${expected}`);
   }
 
-  const smartLockTab = page.getByRole("button", { name: "電子鎖 48" });
+  const smartLockTab = page.getByRole("button", { name: `電子鎖 ${EXPECTED_SMARTLOCK_COUNT}` });
   await smartLockTab.click();
-  await page.waitForFunction(() => document.querySelector("#visibleCount")?.textContent?.trim() === "48");
+  await waitForVisibleCount(page, EXPECTED_SMARTLOCK_COUNT);
   await loadAllVisibleProducts(page);
   for (const expected of ["Yale", "Philips", "Kaadas", "Aqara", "Lockin", "dormakaba", "HITACHI", "WAFERLOCK"]) {
     const found = await page.locator(".product-card", { hasText: expected }).count();
     if (!found) throw new Error(`${name}: missing smart lock brand ${expected}`);
   }
 
-  const routerTab = page.getByRole("button", { name: "無線路由器 48" });
+  const routerTab = page.getByRole("button", { name: `無線路由器 ${EXPECTED_WIFI_COUNT}` });
   await routerTab.click();
-  await page.waitForFunction(() => document.querySelector("#visibleCount")?.textContent?.trim() === "48");
+  await waitForVisibleCount(page, EXPECTED_WIFI_COUNT);
   await loadAllVisibleProducts(page);
   for (const expected of ["ASUS", "TP-Link", "D-Link", "NETGEAR", "Linksys", "Synology", "Aruba", "UniFi", "Zyxel", "Mercusys", "Acer", "QNAP"]) {
     const found = await page.locator(".product-card", { hasText: expected }).count();
@@ -506,7 +510,7 @@ async function runExhaustiveViewport(browser, name, viewport) {
   await page.fill("#searchInput", "");
   await page.fill("#categoryInput", "螢幕");
   await page.locator('#categoryOptions [data-value="monitor"]').click();
-  await page.waitForFunction(() => document.querySelector("#visibleCount")?.textContent?.trim() === "55");
+  await waitForVisibleCount(page, EXPECTED_MONITOR_COUNT);
   await page.locator("#brandInput").click();
   const monitorBrandOptions = await page.$$eval("#brandOptions [data-value]", (options) => options.map((option) => option.dataset.value));
   for (const expected of ["ASUS", "BenQ", "Dell", "LG", "Samsung", "EIZO"]) {
@@ -528,27 +532,27 @@ async function runExhaustiveViewport(browser, name, viewport) {
     if (!found) throw new Error(`${name}: missing cookware brand ${expected}`);
   }
 
-  const knifeTab = page.getByRole("button", { name: "刀具 21" });
+  const knifeTab = page.getByRole("button", { name: `刀具 ${EXPECTED_KNIFE_COUNT}` });
   await knifeTab.click();
-  await page.waitForFunction(() => document.querySelector("#visibleCount")?.textContent?.trim() === "21");
+  await waitForVisibleCount(page, EXPECTED_KNIFE_COUNT);
   await loadAllVisibleProducts(page);
   for (const expected of ["TOJIRO", "GLOBAL", "Victorinox", "Kai", "Kyocera", "Wusthof"]) {
     const found = await page.locator(".product-card", { hasText: expected }).count();
     if (!found) throw new Error(`${name}: missing knife brand ${expected}`);
   }
 
-  const waterDispenserTab = page.getByRole("button", { name: "櫥下飲水機 21" });
+  const waterDispenserTab = page.getByRole("button", { name: `櫥下飲水機 ${EXPECTED_WATER_DISPENSER_COUNT}` });
   await waterDispenserTab.click();
-  await page.waitForFunction(() => document.querySelector("#visibleCount")?.textContent?.trim() === "21");
+  await waitForVisibleCount(page, EXPECTED_WATER_DISPENSER_COUNT);
   await loadAllVisibleProducts(page);
   for (const expected of ["3M", "EVERPURE", "Coway", "Panasonic", "BWT", "BRITA", "賀眾牌"]) {
     const found = await page.locator(".product-card", { hasText: expected }).count();
     if (!found) throw new Error(`${name}: missing water dispenser brand ${expected}`);
   }
 
-  const dishwasherTab = page.getByRole("button", { name: "洗碗機 23" });
+  const dishwasherTab = page.getByRole("button", { name: `洗碗機 ${EXPECTED_DISHWASHER_COUNT}` });
   await dishwasherTab.click();
-  await page.waitForFunction(() => document.querySelector("#visibleCount")?.textContent?.trim() === "23");
+  await waitForVisibleCount(page, EXPECTED_DISHWASHER_COUNT);
   await loadAllVisibleProducts(page);
   for (const expected of ["Panasonic", "TECO", "Toshiba", "Bosch", "Electrolux", "LG", "Miele"]) {
     const found = await page.locator(".product-card", { hasText: expected }).count();
@@ -573,9 +577,9 @@ async function runExhaustiveViewport(browser, name, viewport) {
     if (!found) throw new Error(`${name}: missing chair brand ${expected}`);
   }
 
-  const monitorTab = page.getByRole("button", { name: "電腦螢幕 55" });
+  const monitorTab = page.getByRole("button", { name: `電腦螢幕 ${EXPECTED_MONITOR_COUNT}` });
   await monitorTab.click();
-  await page.waitForFunction(() => document.querySelector("#visibleCount")?.textContent?.trim() === "55");
+  await waitForVisibleCount(page, EXPECTED_MONITOR_COUNT);
   await loadAllVisibleProducts(page);
   for (const expected of ["ASUS", "Acer", "BenQ", "LG", "Dell", "Samsung", "MSI", "GIGABYTE", "ViewSonic", "AOC", "Philips", "EIZO", "Xiaomi"]) {
     const found = await page.locator(".product-card", { hasText: expected }).count();
@@ -610,8 +614,8 @@ async function runExhaustiveViewport(browser, name, viewport) {
   if (arm30kgVisible < 1) throw new Error(`${name}: 30kg arm search returned ${arm30kgVisible}`);
 
   await page.fill("#searchInput", "");
-  await page.getByRole("button", { name: "電視 27" }).click();
-  await page.waitForFunction(() => document.querySelector("#visibleCount")?.textContent?.trim() === "27");
+  await page.getByRole("button", { name: `電視 ${EXPECTED_TV_COUNT}` }).click();
+  await waitForVisibleCount(page, EXPECTED_TV_COUNT);
   await loadAllVisibleProducts(page);
   const tvCastingMissing = await page.$$eval(".product-card", (cards) => cards.filter((card) => !card.textContent.includes("手機投影：")).length);
   if (tvCastingMissing) throw new Error(`${name}: ${tvCastingMissing} TV cards missing mobile casting spec`);
@@ -620,7 +624,7 @@ async function runExhaustiveViewport(browser, name, viewport) {
 
   await page.fill("#searchInput", "");
   await monitorTab.click();
-  await page.waitForFunction(() => document.querySelector("#visibleCount")?.textContent?.trim() === "55");
+  await waitForVisibleCount(page, EXPECTED_MONITOR_COUNT);
   await loadAllVisibleProducts(page);
   const monitorWeightMissing = await page.$$eval(".product-card", (cards) => cards.filter((card) => !card.textContent.includes("重量：")).length);
   if (monitorWeightMissing) throw new Error(`${name}: ${monitorWeightMissing} monitor cards missing weight spec`);
@@ -638,7 +642,7 @@ async function runExhaustiveViewport(browser, name, viewport) {
 
   await page.fill("#searchInput", "");
   await robotTab.click();
-  await page.waitForFunction(() => document.querySelector("#visibleCount")?.textContent?.trim() === "34");
+  await waitForVisibleCount(page, EXPECTED_ROBOT_COUNT);
   await loadAllVisibleProducts(page);
   await page.fill("#searchInput", "Saros");
   await page.waitForFunction(() => Number(document.querySelector("#visibleCount")?.textContent || 0) >= 3);
@@ -807,7 +811,7 @@ async function assertUrlQueryRestore(page, name) {
   if (page.url().includes("sort=")) throw new Error(`${name}: cleared sort remained in URL`);
 
   await page.locator('#activeFilterChips [data-clear-filter="search"]').click();
-  await page.waitForFunction(() => document.querySelector("#visibleCount")?.textContent?.trim() === "55");
+  await waitForVisibleCount(page, EXPECTED_MONITOR_COUNT);
   if (page.url().includes("q=")) throw new Error(`${name}: cleared search remained in URL`);
 
   await resetFilters(page);
@@ -914,7 +918,7 @@ async function runDesktopJourney(browser) {
     }
 
     await selectComboboxOption(page, "#categoryInput", '#categoryOptions [data-value="smartlock"]', "電子");
-    await page.waitForFunction(() => document.querySelector("#visibleCount")?.textContent?.trim() === "48");
+    await waitForVisibleCount(page, EXPECTED_SMARTLOCK_COUNT);
     await page.locator("#brandInput").click();
     const smartLockBrandOptions = await page.$$eval("#brandOptions [data-value]", (options) => options.map((option) => option.dataset.value));
     if (!smartLockBrandOptions.includes("Yale")) throw new Error(`${name}: smart lock brands missing Yale`);
@@ -931,7 +935,7 @@ async function runDesktopJourney(browser) {
     await resetFilters(page);
 
     await selectComboboxOption(page, "#categoryInput", '#categoryOptions [data-value="wifi"]', "無線");
-    await page.waitForFunction(() => document.querySelector("#visibleCount")?.textContent?.trim() === "48");
+    await waitForVisibleCount(page, EXPECTED_WIFI_COUNT);
     await page.locator("#brandInput").click();
     const routerBrandOptions = await page.$$eval("#brandOptions [data-value]", (options) => options.map((option) => option.dataset.value));
     for (const expected of ["ASUS", "TP-Link", "Aruba", "UniFi"]) {

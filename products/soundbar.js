@@ -265,9 +265,9 @@
     "name": "BRAVIA Theatre Bar 7 5.0.2 聲道 Soundbar",
     "price": {
       "currency": "TWD",
-      "amount": 21755,
-      "converted": 21755,
-      "confidence": "PChome 2026-07-23 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 20610,
+      "converted": 20610,
+      "confidence": "PChome 2026-07-25 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://img.pchome.com.tw/cs/items/DMAAN8A900K0Y8L/000001_1779181877.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAAN8-A900K0Y8L",
@@ -901,9 +901,9 @@
     "name": "5.1 聲道 Soundbar 家庭劇院組",
     "price": {
       "currency": "TWD",
-      "amount": 8490,
-      "converted": 8490,
-      "confidence": "Yahoo購物中心 2026-07-24 exact-model 公開結構化價格"
+      "amount": 9490,
+      "converted": 9490,
+      "confidence": "Yahoo購物中心 2026-07-25 exact-model 公開結構化價格"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBM1DA900GHTFE/000001_1776774078.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/SONY-%E7%B4%A2%E5%B0%BC-5-1-%E8%81%B2%E9%81%93-SOUNDBAR-%E5%AE%B6%E5%BA%AD%E5%8A%87%E9%99%A2%E7%B5%84-HT-S40R-10067449.html",
@@ -1603,9 +1603,9 @@
     "name": "Fidelio 7.1.2 Dolby Atmos 旗艦聲霸",
     "price": {
       "currency": "TWD",
-      "amount": 36955,
-      "converted": 36955,
-      "confidence": "PChome 2026-07-22 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 35010,
+      "converted": 35010,
+      "confidence": "PChome 2026-07-25 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAF02A900H2G5R/000001_1704612188.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAF02-A900H2G5R",
@@ -1682,7 +1682,7 @@
     "price": {
       "currency": "USD",
       "amount": 1299.99,
-      "converted": 42062,
+      "converted": 42057,
       "confidence": "Marshall US 2026-07-21 來源價；ExchangeRate-API 2026-07-21 匯率換算"
     },
     "image": "https://images.ctfassets.net/javen7msabdh/2C2sn9CKoKFdIyd94Gm9z5/f3019d4e721511167ebe5c229bf490dd/heston-120_plp.jpg",
@@ -1762,7 +1762,7 @@
     "price": {
       "currency": "USD",
       "amount": 699.99,
-      "converted": 22649,
+      "converted": 22646,
       "confidence": "Marshall US 官方 2026-07-21 現貨價；ExchangeRate-API 2026-07-21 匯率換算"
     },
     "image": "https://images.ctfassets.net/javen7msabdh/3yitHqjPBTgQk5qRE72PSn/2788206646aa153f71f2c0ebefaff580/Heston-60-black_plp_800x800-v3.jpeg",
@@ -2137,7 +2137,7 @@
       "status": "found",
       "amount": 176107,
       "currency": "JPY",
-      "converted": 34810,
+      "converted": 34778,
       "sourceUrl": "https://kakaku.com/item/K0001712395/pricehistory/",
       "sourceTitle": "価格.com：JBL BAR 1300MK2 [ブラック] 価格推移",
       "evidenceSnippet": "価格.com 日別價格歷史顯示 exact-model「JBL BAR 1300MK2 [ブラック]」於 2026-06-22、2026-06-23 的新品最低價為 ¥176,107；2025-10 初始價格為 ¥205,306。",
