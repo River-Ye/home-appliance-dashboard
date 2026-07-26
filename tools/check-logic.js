@@ -444,6 +444,8 @@ async function main() {
       ["dishwasher-haier-h500", "DMBR25-A900IUNDB"],
       ["garmentcare-lg-r723wg", "DPAI1L-A900HWRUQ"],
       ["monitor-dell-aw3225qf", "DSABOK-A900HB1B5"],
+      ["tv-jvc-70tg2", "DPADK9-A900HY2CU"],
+      ["tv-philips-70pqt8159", "DPADIK-A900K0GIF"],
       ["waterdispenser--uw-2262hw-1", "DMAWEM-A900GDIXH"],
       ["washerdryer-panasonic-na-sd10tb", "DPAI1H-A900JXCDB"],
     ].every(([productId, pchomeProductId]) => isReviewedPchomeBinding(productId, pchomeProductId)),

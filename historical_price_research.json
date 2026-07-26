@@ -1,13 +1,13 @@
 {
   "summary": {
     "checkedAt": "2026-07-26T00:00:00.000+08:00",
-    "sourcePolicy": "2026-07-26 以 697 筆基準清單全量查核現價、購買連結與可信新品狀態，並複核最終 700 筆商品圖片、全部 442 筆 found 史低來源、原廠停產訊號與同批次匯率。PChome exact-model 現貨頁有正值 Price.Low 時採公開折扣價，否則採 Price.P；Qty 0、福利品、展示機與配件不寫回。其他頁面的結構化價格差異列入人工覆核候選，阻擋、暫時錯誤與單次頁面失效只列稽核，不臆測停產或史低失效。",
-    "total": 700,
-    "researchedThisRun": 700,
+    "sourcePolicy": "2026-07-26 以 700 筆基準清單全量查核現價、購買連結與可信新品狀態，並複核最終 705 筆商品圖片、全部 442 筆 found 史低來源、原廠停產訊號與同批次匯率。PChome exact-model 現貨頁有正值 Price.Low 時採公開折扣價，否則採 Price.P；Qty 0、福利品、展示機與配件不寫回。其他頁面的結構化價格差異列入人工覆核候選，阻擋、暫時錯誤與單次頁面失效只列稽核，不臆測停產或史低失效。",
+    "total": 705,
+    "researchedThisRun": 705,
     "found": 442,
-    "missing": 258,
+    "missing": 263,
     "byConfidence": {
-      "not_found": 258,
+      "not_found": 263,
       "high": 305,
       "medium": 137
     },
@@ -20,11 +20,11 @@
       "CNY_TWD": 4.767045503944452,
       "KRW_TWD": 0.02211502511952675
     },
-    "lastMaintenanceCheckAt": "2026-07-26T01:31:29.778Z",
-    "currentPriceChanged": 8,
+    "lastMaintenanceCheckAt": "2026-07-26T03:37:46.224Z",
+    "currentPriceChanged": 2,
     "currentBuyLinkChanged": 0,
-    "currentPriceDrops": 2,
-    "currentPriceRises": 6,
+    "currentPriceDrops": 0,
+    "currentPriceRises": 2,
     "currentPriceFallbacks": 0,
     "historicalLowUpdated": 0,
     "historicalLowInvalidated": 0,
@@ -32,7 +32,7 @@
     "catalogReplacementNotes": [],
     "currentImageChanged": 0,
     "discontinuedRemoved": 0,
-    "newProductsAdded": 3,
+    "newProductsAdded": 5,
     "discontinuedRemovalNotes": [],
     "catalogEntriesRemoved": 0,
     "catalogRemovalNotes": []
@@ -221,7 +221,7 @@
       "brand": "Sony",
       "model": "Y-65XR90M2",
       "name": "BRAVIA 9 II 65 型 RGB LED 4K Google TV",
-      "currentPrice": 108323,
+      "currentPrice": 110533,
       "currentCurrency": "TWD",
       "currentBuyUrl": "https://tw.buy.yahoo.com/gdsale/%E5%90%AB%E6%A8%99%E6%BA%96%E5%AE%89%E8%A3%9D-SONY%E7%B4%A2%E5%B0%BC65%E5%90%8B%E5%90%8BRGB-4K%E9%80%A3%E7%B6%B2%E6%99%BA%E6%85%A7%E9%A1%AF%E7%A4%BA%E5%99%A8Y-65XR90M2-12159450.html",
       "currentBuyLabel": "Yahoo購物中心",
@@ -11468,7 +11468,7 @@
       "brand": "Whirlpool",
       "model": "WEHC10BBS",
       "name": "Whirlpool WEHC10BBS",
-      "currentPrice": 11111,
+      "currentPrice": 11900,
       "currentCurrency": "TWD",
       "currentBuyUrl": "https://24h.pchome.com.tw/prod/DPAI1P-A900BAABZ",
       "currentBuyLabel": "PChome",
@@ -30764,6 +30764,181 @@
       "rejectedCandidates": [
         "本輪查到的 NT$39,900 為 PChome exact-model 當日公開現價，缺乏更早可重現價格歷史，不能直接宣稱為史低。",
         "較低 marketplace 候選無法確認可信新品通路、庫存與完整交易條件，排除。"
+      ]
+    },
+    {
+      "id": "tv-aoc-70u8040",
+      "category": "tv",
+      "brand": "AOC",
+      "model": "70U8040",
+      "name": "70 型 4K QLED Google TV 智慧顯示器",
+      "currentPrice": 16999,
+      "currentCurrency": "TWD",
+      "currentBuyUrl": "https://24h.pchome.com.tw/prod/DPADB2-A900J8K60",
+      "currentBuyLabel": "PChome",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "TWD",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-07-26",
+        "note": "已查 PChome、BigGo、FindPrice 與 Mobile01 exact-model 資料；NT$16,999 為本次現價，未找到可公開重現且符合可信新品條件的歷史最低價紀錄，未以現價推定史低。"
+      },
+      "checkedSources": [
+        "https://24h.pchome.com.tw/prod/DPADB2-A900J8K60",
+        "https://biggo.com.tw/s/AOC%2070U8040",
+        "https://www.findprice.com.tw/g/AOC%2070U8040",
+        "https://www.mobile01.com/topicdetail.php?f=347&t=7041327"
+      ],
+      "rejectedCandidates": [
+        "Mobile01 2024 雙 11 心得提到促銷與贈品拆算，但不是可持續重現的同交易條件新品價格歷史，排除作為正式史低。",
+        "比價搜尋中的更低候選若缺少可信新品庫存、安裝與完整型號條件，均不採用。"
+      ]
+    },
+    {
+      "id": "tv-jvc-70tg2",
+      "category": "tv",
+      "brand": "JVC",
+      "model": "70TG2",
+      "name": "70 吋 4K HDR webOS 智慧顯示器",
+      "currentPrice": 18888,
+      "currentCurrency": "TWD",
+      "currentBuyUrl": "https://24h.pchome.com.tw/prod/DPADK9-A900HY2CU",
+      "currentBuyLabel": "PChome",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "TWD",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-07-26",
+        "note": "已查 PChome、BigGo、FindPrice 與 JVC 台灣 exact-model 資料；NT$18,888 為本次現價，未找到可公開重現且符合可信新品條件的歷史最低價紀錄，未以現價或點數回饋推定史低。"
+      },
+      "checkedSources": [
+        "https://jvc.tv/pro/pro_70TG2.html",
+        "https://24h.pchome.com.tw/prod/DPADK9-A900HY2CU",
+        "https://biggo.com.tw/s/JVC%2070TG2",
+        "https://www.findprice.com.tw/g/JVC%2070TG2"
+      ],
+      "rejectedCandidates": [
+        "PChome P 幣、登記贈品與信用卡回饋不是可直接比較的公開現金售價，排除作為史低。",
+        "無法確認 exact-model、可信新品庫存或完整安裝條件的較低候選均不採用。"
+      ]
+    },
+    {
+      "id": "tv-philips-70pqt8169",
+      "category": "tv",
+      "brand": "Philips",
+      "model": "70PQT8169/96",
+      "name": "70 型 4K QLED Google TV 智慧顯示器",
+      "currentPrice": 22999,
+      "currentCurrency": "TWD",
+      "currentBuyUrl": "https://24h.pchome.com.tw/prod/DPADIK-A900JFCPA",
+      "currentBuyLabel": "PChome",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "TWD",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-07-26",
+        "note": "已查 PChome、Yahoo、BigGo、FindPrice 與 Philips exact-model 資料；NT$22,999 為本次現價，未找到可公開重現且符合可信新品條件的歷史最低價紀錄，未以現價推定史低。"
+      },
+      "checkedSources": [
+        "https://24h.pchome.com.tw/prod/DPADIK-A900JFCPA",
+        "https://tw.buy.yahoo.com/gdsale/gdsale.asp?gdid=11808408",
+        "https://biggo.com.tw/s/70PQT8169%2F96",
+        "https://www.findprice.com.tw/g/70PQT8169%2F96"
+      ],
+      "rejectedCandidates": [
+        "海外 /56 區域尾碼並非台灣 /96 exact SKU，價格與保固條件不同，排除作為台灣型號史低。",
+        "本次 PChome NT$22,999 是當日現價，缺乏可重現的歷史價格點，不能直接宣稱史低。"
+      ]
+    },
+    {
+      "id": "tv-philips-70pqt8159",
+      "category": "tv",
+      "brand": "Philips",
+      "model": "70PQT8159",
+      "name": "70 型 4K QLED Google TV 智慧顯示器",
+      "currentPrice": 22999,
+      "currentCurrency": "TWD",
+      "currentBuyUrl": "https://24h.pchome.com.tw/prod/DPADIK-A900K0GIF",
+      "currentBuyLabel": "PChome",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "TWD",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-07-26",
+        "note": "已查 PChome、Yahoo、BigGo、FindPrice 與 Philips exact-model 資料；NT$22,999 為本次現價，未找到可公開重現且符合可信新品條件的歷史最低價紀錄，未以現價推定史低。"
+      },
+      "checkedSources": [
+        "https://24h.pchome.com.tw/prod/DPADIK-A900K0GIF",
+        "https://tw.buy.yahoo.com/gdsale/gdsale.asp?gdid=11201844",
+        "https://biggo.com.tw/s/70PQT8159",
+        "https://www.findprice.com.tw/g/70PQT8159",
+        "https://www.mobile01.com/topicdetail.php?f=347&t=6982591"
+      ],
+      "rejectedCandidates": [
+        "Yahoo exact-model 頁雖仍顯示 NT$20,999 與 5.0／1，但頁面明確標示已停售且無購買按鈕，不能當作目前可購價格或可重現史低。",
+        "Mobile01 討論中的舊促銷價格只來自使用者轉述，無可重現的原始新品交易頁與完整條件，排除作為正式史低。",
+        "本次 PChome NT$22,999 是當日現價，缺乏可重現的歷史價格點，不能直接宣稱史低。"
+      ]
+    },
+    {
+      "id": "tv-sampo-em70rf130",
+      "category": "tv",
+      "brand": "SAMPO",
+      "model": "EM-70RF130",
+      "name": "70 吋 4K Google TV 5.0 聯網智慧顯示器",
+      "currentPrice": 19710,
+      "currentCurrency": "TWD",
+      "currentBuyUrl": "https://pxbox.es.pxmart.com.tw/product/667166",
+      "currentBuyLabel": "全聯全電商",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "TWD",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-07-26",
+        "note": "已查全聯全電商、momo、Yahoo、BigGo、FindPrice 與 SAMPO exact-model 資料；NT$19,710 為本次現價，momo 與 Yahoo 原 exact-model 頁目前皆無展售，未找到可驗證的可信新品歷史最低價。"
+      },
+      "checkedSources": [
+        "https://pxbox.es.pxmart.com.tw/product/667166",
+        "https://www.momoshop.com.tw/product/15190368",
+        "https://tw.buy.yahoo.com/gdsale/gdsale.asp?gdid=11914064",
+        "https://www.myfone.com.tw/mfo/buy/prod/P0000203748510",
+        "https://biggo.com.tw/s/SAMPO%20EM-70RF130",
+        "https://www.findprice.com.tw/g/SAMPO%20EM-70RF130"
+      ],
+      "rejectedCandidates": [
+        "momo exact-model 頁目前顯示商品無展售；Yahoo exact-model 評價頁也已停售，兩頁價格都不是目前可購買現貨價，排除作為可重現史低。",
+        "Myfone 顯示的較低價格搭配已過期活動文字，無法確認今天仍可按相同條件成交；較低 marketplace 候選亦缺乏可信新品與完整安裝條件，均不採用。",
+        "全聯全電商 NT$19,710 是本次當日可購現價，缺乏獨立歷史價格點，不能直接宣稱史低。"
       ]
     }
   ]

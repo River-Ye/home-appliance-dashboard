@@ -1,9 +1,9 @@
 {
   "summary": {
     "checkedAt": "2026-07-26T00:00:00+08:00",
-    "total": 700,
+    "total": 705,
     "commonIssueProducts": 36,
-    "noCommonIssueProducts": 664,
+    "noCommonIssueProducts": 669,
     "pendingManualReview": 0,
     "commonIssues": 36,
     "searchUnavailable": 25,
@@ -204,7 +204,7 @@
         "aliases": [
           "Sony Y-65XR70"
         ],
-        "evidenceUrl": "https://24h.pchome.com.tw/prod/DMBM10-A900HKA39"
+        "evidenceUrl": "https://24h.pchome.com.tw/prod/DPADFN-A900K7VQ8"
       },
       "workflowStatus": "completed",
       "manualReview": {
@@ -317,10 +317,10 @@
             "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22LG%20OLED65C6PTA%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)"
           }
         ],
-        "candidateDisposition": "OLED65C6PTA：已實際重跑 Mobile01 與 Reddit exact-model 跨站查詢，未發現通過 canonical-model 邊界的原頁候選；此結果不代表完全沒有負評。",
+        "candidateDisposition": "OLED65C6PTA：已重跑 Mobile01 與 Reddit exact-model 跨站查詢，未發現通過 canonical-model 邊界的原頁候選；此結果不代表完全沒有負評。",
         "representativeSources": [],
         "candidateReviews": [],
-        "reviewerNote": "OLED65C6PTA 於 2026-07-16 實際請求兩個 Bing RSS exact-model 跨站查詢；兩站均無 exact-model 原頁候選，維持 no_common_issue，未以搜尋摘要或相近型號當作負評證據。",
+        "reviewerNote": "OLED65C6PTA 於 2026-07-16 以 Bing RSS 完成 Mobile01、Reddit 查詢；搜尋頁僅作候選發現，決策維持 no_common_issue。",
         "attestation": "manual_cross_site_search_reviewed_no_candidate"
       },
       "issueResearch": {
@@ -332,14 +332,14 @@
           {
             "platform": "Mobile01",
             "query": "site:mobile01.com \"LG OLED65C6PTA\" (災情 OR 問題 OR 故障 OR 負評)",
-            "targetHost": "mobile01.com",
-            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22LG%20OLED65C6PTA%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)"
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22LG%20OLED65C6PTA%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "mobile01.com"
           },
           {
             "platform": "Reddit",
             "query": "site:reddit.com \"LG OLED65C6PTA\" (problem OR issue OR defect OR \"negative review\")",
-            "targetHost": "reddit.com",
-            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22LG%20OLED65C6PTA%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)"
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22LG%20OLED65C6PTA%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
+            "targetHost": "reddit.com"
           }
         ]
       },
@@ -405,10 +405,10 @@
             "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Sony%20Y-65XR90M2%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)"
           }
         ],
-        "candidateDisposition": "Y-65XR90M2：已實際重跑 Mobile01 與 Reddit exact-model 跨站查詢，未發現通過 canonical-model 邊界的原頁候選；此結果不代表完全沒有負評。",
+        "candidateDisposition": "Y-65XR90M2：已重跑 Mobile01 與 Reddit exact-model 跨站查詢，未發現通過 canonical-model 邊界的原頁候選；此結果不代表完全沒有負評。",
         "representativeSources": [],
         "candidateReviews": [],
-        "reviewerNote": "Y-65XR90M2 於 2026-07-16 實際請求兩個 Bing RSS exact-model 跨站查詢；兩站均無 exact-model 原頁候選，維持 no_common_issue，未以搜尋摘要或相近型號當作負評證據。",
+        "reviewerNote": "Y-65XR90M2 於 2026-07-16 以 Bing RSS 完成 Mobile01、Reddit 查詢；搜尋頁僅作候選發現，決策維持 no_common_issue。",
         "attestation": "manual_cross_site_search_reviewed_no_candidate"
       },
       "issueResearch": {
@@ -420,14 +420,14 @@
           {
             "platform": "Mobile01",
             "query": "site:mobile01.com \"Sony Y-65XR90M2\" (災情 OR 問題 OR 故障 OR 負評)",
-            "targetHost": "mobile01.com",
-            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Sony%20Y-65XR90M2%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)"
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Sony%20Y-65XR90M2%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "mobile01.com"
           },
           {
             "platform": "Reddit",
             "query": "site:reddit.com \"Sony Y-65XR90M2\" (problem OR issue OR defect OR \"negative review\")",
-            "targetHost": "reddit.com",
-            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Sony%20Y-65XR90M2%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)"
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Sony%20Y-65XR90M2%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
+            "targetHost": "reddit.com"
           }
         ]
       },
@@ -493,10 +493,10 @@
             "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Samsung%20QA65S95HAXXZW%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)"
           }
         ],
-        "candidateDisposition": "QA65S95HAXXZW：已實際重跑 Mobile01 與 Reddit exact-model 跨站查詢，未發現通過 canonical-model 邊界的原頁候選；此結果不代表完全沒有負評。",
+        "candidateDisposition": "QA65S95HAXXZW：已重跑 Mobile01 與 Reddit exact-model 跨站查詢，未發現通過 canonical-model 邊界的原頁候選；此結果不代表完全沒有負評。",
         "representativeSources": [],
         "candidateReviews": [],
-        "reviewerNote": "QA65S95HAXXZW 於 2026-07-16 實際請求兩個 Bing RSS exact-model 跨站查詢；兩站均無 exact-model 原頁候選，維持 no_common_issue，未以搜尋摘要或相近型號當作負評證據。",
+        "reviewerNote": "QA65S95HAXXZW 於 2026-07-16 以 Bing RSS 完成 Mobile01、Reddit 查詢；搜尋頁僅作候選發現，決策維持 no_common_issue。",
         "attestation": "manual_cross_site_search_reviewed_no_candidate"
       },
       "issueResearch": {
@@ -508,14 +508,14 @@
           {
             "platform": "Mobile01",
             "query": "site:mobile01.com \"Samsung QA65S95HAXXZW\" (災情 OR 問題 OR 故障 OR 負評)",
-            "targetHost": "mobile01.com",
-            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Samsung%20QA65S95HAXXZW%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)"
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Samsung%20QA65S95HAXXZW%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "mobile01.com"
           },
           {
             "platform": "Reddit",
             "query": "site:reddit.com \"Samsung QA65S95HAXXZW\" (problem OR issue OR defect OR \"negative review\")",
-            "targetHost": "reddit.com",
-            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Samsung%20QA65S95HAXXZW%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)"
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Samsung%20QA65S95HAXXZW%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
+            "targetHost": "reddit.com"
           }
         ]
       },
@@ -1352,7 +1352,7 @@
         "aliases": [
           "Xiaomi S Pro Mini 65 2026"
         ],
-        "evidenceUrl": "https://24h.pchome.com.tw/prod/DPADBU-1900JC97W"
+        "evidenceUrl": "https://24h.pchome.com.tw/prod/DPADBU-A900JMIS1"
       },
       "workflowStatus": "completed",
       "manualReview": {
@@ -1794,7 +1794,7 @@
         "aliases": [
           "CHiQ CQ-65QX250"
         ],
-        "evidenceUrl": "https://24h.pchome.com.tw/prod/DPADTO-A900JNE73"
+        "evidenceUrl": "https://24h.pchome.com.tw/prod/DPADTO-A900JNMOP"
       },
       "workflowStatus": "completed",
       "manualReview": {
@@ -1882,7 +1882,7 @@
         "aliases": [
           "TECO TL65QU1TRE"
         ],
-        "evidenceUrl": "https://24h.pchome.com.tw/prod/DMBM10-A900IFXK7"
+        "evidenceUrl": "https://24h.pchome.com.tw/prod/DPAD0W-A900I9LNS"
       },
       "workflowStatus": "completed",
       "manualReview": {
@@ -2438,6 +2438,523 @@
       "rejectedCandidates": []
     },
     {
+      "id": "tv-aoc-70u8040",
+      "category": "tv",
+      "brand": "AOC",
+      "model": "70U8040",
+      "name": "70 型 4K QLED Google TV 智慧顯示器",
+      "identity": {
+        "canonicalModel": "70U8040",
+        "lookupLabel": "AOC 70U8040",
+        "aliases": [
+          "AOC 70U8040",
+          "AOC U8040"
+        ],
+        "evidenceUrl": "https://24h.pchome.com.tw/prod/DPADB2-A900J8K60"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "status": "completed",
+        "decision": "no_common_issue",
+        "reviewedAt": "2026-07-26",
+        "checkedPlatforms": [
+          "Mobile01",
+          "Reddit"
+        ],
+        "queries": [
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"AOC 70U8040\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22AOC%2070U8040%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "mobile01.com"
+          },
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"AOC 70U8040\" (problem OR issue OR defect OR negative review)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22AOC%2070U8040%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+            "targetHost": "reddit.com"
+          }
+        ],
+        "candidateDisposition": "70U8040：Mobile01 搜尋找到兩個同型號原頁，逐頁確認為正向屋主分享及比較串中的價格提及，均不是集中負評；Reddit 未找到同型號候選。",
+        "representativeSources": [
+          {
+            "platform": "Mobile01",
+            "title": "AOC 70U8040｜AOC雙11-高CP值螢幕分享",
+            "url": "https://www.mobile01.com/topicdetail.php?f=347&t=7041327"
+          },
+          {
+            "platform": "Mobile01",
+            "title": "AOC 70U8040｜小米 Q2 65 吋 4K - 小米 A pro 2025 65吋 4K",
+            "url": "https://www.mobile01.com/topicdetail.php?f=347&t=7005440"
+          }
+        ],
+        "candidateReviews": [
+          {
+            "url": "https://www.mobile01.com/topicdetail.php?f=347&t=7041327",
+            "title": "AOC 70U8040｜AOC雙11-高CP值螢幕分享",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-07-26",
+            "sourceExcerpt": "樓主明確寫老家客廳使用 AOC 70U8040，家人喜歡 70 吋畫面並認為價格不錯，品質評為及格。",
+            "independentAuthors": 1,
+            "specificReason": "原頁是單一屋主的正向使用與價格分享，沒有回報可計入的負面問題，更未達 6 位獨立使用者及兩個原始網站門檻。"
+          },
+          {
+            "url": "https://www.mobile01.com/topicdetail.php?f=347&t=7005440",
+            "title": "AOC 70U8040｜小米 Q2 65 吋 4K - 小米 A pro 2025 65吋 4K",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-07-26",
+            "sourceExcerpt": "討論串回覆只列出 AOC 70U8040 的 4K QLED 規格與促銷價，沒有同型號第一人稱故障回報。",
+            "independentAuthors": 0,
+            "specificReason": "同型號只作為價格與規格比較候選，沒有第一人稱持有經驗或具體負評，不能計入集中災情作者。"
+          }
+        ],
+        "reviewerNote": "70U8040 已於 2026-07-26 實際重跑 Mobile01、Reddit exact-model 查詢並開啟兩個 Mobile01 原頁；未找到跨兩個原始網站、至少 6 位獨立使用者的同一問題。",
+        "attestation": "manual_original_pages_reviewed"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-07-26",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"AOC 70U8040\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22AOC%2070U8040%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "mobile01.com"
+          },
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"AOC 70U8040\" (problem OR issue OR defect OR negative review)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22AOC%2070U8040%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+            "targetHost": "reddit.com"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "Bing RSS / Mobile01",
+          "query": "site:mobile01.com \"AOC 70U8040\" (災情 OR 問題 OR 故障 OR 負評)",
+          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22AOC%2070U8040%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "result": "candidates_unverified_by_search_only",
+          "resultCount": 2,
+          "candidateUrls": [
+            "https://www.mobile01.com/topicdetail.php?f=347&t=7041327",
+            "https://www.mobile01.com/topicdetail.php?f=347&t=7005440"
+          ],
+          "candidates": [
+            {
+              "url": "https://www.mobile01.com/topicdetail.php?f=347&t=7041327",
+              "title": "AOC 70U8040｜AOC雙11-高CP值螢幕分享"
+            },
+            {
+              "url": "https://www.mobile01.com/topicdetail.php?f=347&t=7005440",
+              "title": "AOC 70U8040｜小米 Q2 65 吋 4K - 小米 A pro 2025 65吋 4K"
+            }
+          ],
+          "inspectedAt": "2026-07-26T00:00:00+08:00"
+        },
+        {
+          "platform": "Bing RSS / Reddit",
+          "query": "site:reddit.com \"AOC 70U8040\" (problem OR issue OR defect OR negative review)",
+          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22AOC%2070U8040%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-07-26T00:00:00+08:00"
+        }
+      ],
+      "evidence": [],
+      "rejectedCandidates": [
+        {
+          "url": "https://www.mobile01.com/topicdetail.php?f=347&t=7041327",
+          "title": "AOC 70U8040｜AOC雙11-高CP值螢幕分享",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-07-26",
+          "sourceExcerpt": "樓主明確寫老家客廳使用 AOC 70U8040，家人喜歡 70 吋畫面並認為價格不錯，品質評為及格。",
+          "independentAuthors": 1,
+          "specificReason": "原頁是單一屋主的正向使用與價格分享，沒有回報可計入的負面問題，更未達 6 位獨立使用者及兩個原始網站門檻。",
+          "reason": "原頁是單一屋主的正向使用與價格分享，沒有回報可計入的負面問題，更未達 6 位獨立使用者及兩個原始網站門檻。"
+        },
+        {
+          "url": "https://www.mobile01.com/topicdetail.php?f=347&t=7005440",
+          "title": "AOC 70U8040｜小米 Q2 65 吋 4K - 小米 A pro 2025 65吋 4K",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-07-26",
+          "sourceExcerpt": "討論串回覆只列出 AOC 70U8040 的 4K QLED 規格與促銷價，沒有同型號第一人稱故障回報。",
+          "independentAuthors": 0,
+          "specificReason": "同型號只作為價格與規格比較候選，沒有第一人稱持有經驗或具體負評，不能計入集中災情作者。",
+          "reason": "同型號只作為價格與規格比較候選，沒有第一人稱持有經驗或具體負評，不能計入集中災情作者。"
+        }
+      ]
+    },
+    {
+      "id": "tv-jvc-70tg2",
+      "category": "tv",
+      "brand": "JVC",
+      "model": "70TG2",
+      "name": "70 吋 4K HDR webOS 智慧顯示器",
+      "identity": {
+        "canonicalModel": "70TG2",
+        "lookupLabel": "JVC 70TG2",
+        "aliases": [
+          "JVC 70TG2",
+          "JVC TG2"
+        ],
+        "evidenceUrl": "https://24h.pchome.com.tw/prod/DPADK9-A900HY2CU"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "status": "completed",
+        "decision": "no_common_issue",
+        "reviewedAt": "2026-07-26",
+        "checkedPlatforms": [
+          "Mobile01",
+          "Reddit"
+        ],
+        "queries": [
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"JVC 70TG2\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22JVC%2070TG2%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "mobile01.com"
+          },
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"JVC 70TG2\" (problem OR issue OR defect OR negative review)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22JVC%2070TG2%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+            "targetHost": "reddit.com"
+          }
+        ],
+        "candidateDisposition": "70TG2：已重跑 Mobile01、Reddit 兩個獨立網站 exact-model 查詢，搜尋結果未留下符合型號邊界、需要開原頁處置的候選。",
+        "representativeSources": [],
+        "candidateReviews": [],
+        "reviewerNote": "70TG2 已於 2026-07-26 實際重跑 Mobile01、Reddit 跨站 exact-model 搜尋；兩站搜尋均完成且未找到同型號候選，此結果不代表完全沒有負評。",
+        "attestation": "manual_cross_site_search_reviewed_no_candidate"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-07-26",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"JVC 70TG2\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22JVC%2070TG2%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "mobile01.com"
+          },
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"JVC 70TG2\" (problem OR issue OR defect OR negative review)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22JVC%2070TG2%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+            "targetHost": "reddit.com"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "Yahoo Search",
+          "query": "(\"JVC 70TG2\" OR \"JVC TG2\") (problem OR issue OR defect OR failure OR 災情 OR 故障 OR 負評) (site:mobile01.com OR site:dcard.tw OR site:ptt.cc OR site:reddit.com OR site:snbforums.com OR site:52asus.com)",
+          "searchUrl": "https://search.yahoo.com/search?p=(%22JVC%2070TG2%22%20OR%20%22JVC%20TG2%22)%20(problem%20OR%20issue%20OR%20defect%20OR%20failure%20OR%20%E7%81%BD%E6%83%85%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)%20(site%3Amobile01.com%20OR%20site%3Adcard.tw%20OR%20site%3Aptt.cc%20OR%20site%3Areddit.com%20OR%20site%3Asnbforums.com%20OR%20site%3A52asus.com)",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-07-26T00:00:00+08:00"
+        }
+      ],
+      "evidence": [],
+      "rejectedCandidates": []
+    },
+    {
+      "id": "tv-philips-70pqt8169",
+      "category": "tv",
+      "brand": "Philips",
+      "model": "70PQT8169/96",
+      "name": "70 型 4K QLED Google TV 智慧顯示器",
+      "identity": {
+        "canonicalModel": "70PQT8169/96",
+        "lookupLabel": "Philips 70PQT8169/96",
+        "aliases": [
+          "Philips 70PQT8169/96",
+          "Philips PQT8169"
+        ],
+        "evidenceUrl": "https://24h.pchome.com.tw/prod/DPADIK-A900JFCPA"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "status": "completed",
+        "decision": "no_common_issue",
+        "reviewedAt": "2026-07-26",
+        "checkedPlatforms": [
+          "Mobile01",
+          "Reddit"
+        ],
+        "queries": [
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"Philips 70PQT8169/96\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Philips%2070PQT8169%2F96%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "mobile01.com"
+          },
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"Philips 70PQT8169/96\" (problem OR issue OR defect OR negative review)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Philips%2070PQT8169%2F96%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+            "targetHost": "reddit.com"
+          }
+        ],
+        "candidateDisposition": "70PQT8169/96：已重跑 Mobile01、Reddit 兩個獨立網站 exact-model 查詢，搜尋結果未留下符合完整區域尾碼與型號邊界的原頁候選。",
+        "representativeSources": [],
+        "candidateReviews": [],
+        "reviewerNote": "70PQT8169/96 已於 2026-07-26 實際重跑 Mobile01、Reddit 跨站 exact-model 搜尋；未拿其他區域尾碼或同系列型號替代，此結果不代表完全沒有負評。",
+        "attestation": "manual_cross_site_search_reviewed_no_candidate"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-07-26",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"Philips 70PQT8169/96\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Philips%2070PQT8169%2F96%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "mobile01.com"
+          },
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"Philips 70PQT8169/96\" (problem OR issue OR defect OR negative review)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Philips%2070PQT8169%2F96%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+            "targetHost": "reddit.com"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "Yahoo Search",
+          "query": "(\"Philips 70PQT8169/96\" OR \"Philips PQT8169\") (problem OR issue OR defect OR failure OR 災情 OR 故障 OR 負評) (site:mobile01.com OR site:dcard.tw OR site:ptt.cc OR site:reddit.com OR site:snbforums.com OR site:52asus.com)",
+          "searchUrl": "https://search.yahoo.com/search?p=(%22Philips%2070PQT8169%2F96%22%20OR%20%22Philips%20PQT8169%22)%20(problem%20OR%20issue%20OR%20defect%20OR%20failure%20OR%20%E7%81%BD%E6%83%85%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)%20(site%3Amobile01.com%20OR%20site%3Adcard.tw%20OR%20site%3Aptt.cc%20OR%20site%3Areddit.com%20OR%20site%3Asnbforums.com%20OR%20site%3A52asus.com)",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-07-26T00:00:00+08:00"
+        }
+      ],
+      "evidence": [],
+      "rejectedCandidates": []
+    },
+    {
+      "id": "tv-philips-70pqt8159",
+      "category": "tv",
+      "brand": "Philips",
+      "model": "70PQT8159",
+      "name": "70 型 4K QLED Google TV 智慧顯示器",
+      "identity": {
+        "canonicalModel": "70PQT8159",
+        "lookupLabel": "Philips 70PQT8159",
+        "aliases": [
+          "Philips 70PQT8159",
+          "Philips PQT8159"
+        ],
+        "evidenceUrl": "https://24h.pchome.com.tw/prod/DPADIK-A900K0GIF"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "status": "completed",
+        "decision": "no_common_issue",
+        "reviewedAt": "2026-07-26",
+        "checkedPlatforms": [
+          "Mobile01",
+          "Reddit"
+        ],
+        "queries": [
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"Philips 70PQT8159\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Philips%2070PQT8159%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "mobile01.com"
+          },
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"Philips 70PQT8159\" (problem OR issue OR defect OR negative review)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Philips%2070PQT8159%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+            "targetHost": "reddit.com"
+          }
+        ],
+        "candidateDisposition": "70PQT8159：Mobile01 找到一個同型號選購詢問原頁，逐頁確認沒有第一人稱持有或故障回報；Reddit 未找到同型號候選。",
+        "representativeSources": [
+          {
+            "platform": "Mobile01",
+            "title": "Philips 70PQT8159｜麻煩各位分析推薦一下",
+            "url": "https://www.mobile01.com/topicdetail.php?f=347&t=6982591"
+          }
+        ],
+        "candidateReviews": [
+          {
+            "url": "https://www.mobile01.com/topicdetail.php?f=347&t=6982591",
+            "title": "Philips 70PQT8159｜麻煩各位分析推薦一下",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-07-26",
+            "sourceExcerpt": "樓主把 Philips 70PQT8159 列為四台候選之一並詢問推薦，討論沒有同型號第一人稱故障回報。",
+            "independentAuthors": 0,
+            "specificReason": "原頁是購買前的規格與價格比較，不是實際持有者的具體負評；沒有可計入的獨立作者，更未達跨站門檻。"
+          }
+        ],
+        "reviewerNote": "70PQT8159 已於 2026-07-26 實際重跑 Mobile01、Reddit exact-model 查詢並開啟 Mobile01 候選；該頁只有選購提問，未形成可計入的集中負評。",
+        "attestation": "manual_original_pages_reviewed"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-07-26",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"Philips 70PQT8159\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Philips%2070PQT8159%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "mobile01.com"
+          },
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"Philips 70PQT8159\" (problem OR issue OR defect OR negative review)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Philips%2070PQT8159%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+            "targetHost": "reddit.com"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "Bing RSS / Mobile01",
+          "query": "site:mobile01.com \"Philips 70PQT8159\" (災情 OR 問題 OR 故障 OR 負評)",
+          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Philips%2070PQT8159%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "result": "candidates_unverified_by_search_only",
+          "resultCount": 1,
+          "candidateUrls": [
+            "https://www.mobile01.com/topicdetail.php?f=347&t=6982591"
+          ],
+          "candidates": [
+            {
+              "url": "https://www.mobile01.com/topicdetail.php?f=347&t=6982591",
+              "title": "Philips 70PQT8159｜麻煩各位分析推薦一下"
+            }
+          ],
+          "inspectedAt": "2026-07-26T00:00:00+08:00"
+        },
+        {
+          "platform": "Bing RSS / Reddit",
+          "query": "site:reddit.com \"Philips 70PQT8159\" (problem OR issue OR defect OR negative review)",
+          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Philips%2070PQT8159%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-07-26T00:00:00+08:00"
+        }
+      ],
+      "evidence": [],
+      "rejectedCandidates": [
+        {
+          "url": "https://www.mobile01.com/topicdetail.php?f=347&t=6982591",
+          "title": "Philips 70PQT8159｜麻煩各位分析推薦一下",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-07-26",
+          "sourceExcerpt": "樓主把 Philips 70PQT8159 列為四台候選之一並詢問推薦，討論沒有同型號第一人稱故障回報。",
+          "independentAuthors": 0,
+          "specificReason": "原頁是購買前的規格與價格比較，不是實際持有者的具體負評；沒有可計入的獨立作者，更未達跨站門檻。",
+          "reason": "原頁是購買前的規格與價格比較，不是實際持有者的具體負評；沒有可計入的獨立作者，更未達跨站門檻。"
+        }
+      ]
+    },
+    {
+      "id": "tv-sampo-em70rf130",
+      "category": "tv",
+      "brand": "SAMPO",
+      "model": "EM-70RF130",
+      "name": "70 吋 4K Google TV 5.0 聯網智慧顯示器",
+      "identity": {
+        "canonicalModel": "EM-70RF130",
+        "lookupLabel": "SAMPO EM-70RF130",
+        "aliases": [
+          "SAMPO EM-70RF130"
+        ],
+        "evidenceUrl": "https://www.momoshop.com.tw/product/15190368"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "status": "completed",
+        "decision": "no_common_issue",
+        "reviewedAt": "2026-07-26",
+        "checkedPlatforms": [
+          "Mobile01",
+          "Reddit"
+        ],
+        "queries": [
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"SAMPO EM-70RF130\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22SAMPO%20EM-70RF130%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "mobile01.com"
+          },
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"SAMPO EM-70RF130\" (problem OR issue OR defect OR negative review)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22SAMPO%20EM-70RF130%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+            "targetHost": "reddit.com"
+          }
+        ],
+        "candidateDisposition": "EM-70RF130：已重跑 Mobile01、Reddit 兩個獨立網站 exact-model 查詢，搜尋結果未留下符合型號邊界、需要開原頁處置的候選。",
+        "representativeSources": [],
+        "candidateReviews": [],
+        "reviewerNote": "EM-70RF130 已於 2026-07-26 實際重跑 Mobile01、Reddit 跨站 exact-model 搜尋；兩站搜尋均完成且未找到同型號候選，此結果不代表完全沒有負評。",
+        "attestation": "manual_cross_site_search_reviewed_no_candidate"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-07-26",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"SAMPO EM-70RF130\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22SAMPO%20EM-70RF130%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "mobile01.com"
+          },
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"SAMPO EM-70RF130\" (problem OR issue OR defect OR negative review)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22SAMPO%20EM-70RF130%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+            "targetHost": "reddit.com"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "Yahoo Search",
+          "query": "(\"SAMPO EM-70RF130\") (problem OR issue OR defect OR failure OR 災情 OR 故障 OR 負評) (site:mobile01.com OR site:dcard.tw OR site:ptt.cc OR site:reddit.com OR site:snbforums.com OR site:52asus.com)",
+          "searchUrl": "https://search.yahoo.com/search?p=(%22SAMPO%20EM-70RF130%22)%20(problem%20OR%20issue%20OR%20defect%20OR%20failure%20OR%20%E7%81%BD%E6%83%85%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)%20(site%3Amobile01.com%20OR%20site%3Adcard.tw%20OR%20site%3Aptt.cc%20OR%20site%3Areddit.com%20OR%20site%3Asnbforums.com%20OR%20site%3A52asus.com)",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-07-26T00:00:00+08:00"
+        }
+      ],
+      "evidence": [],
+      "rejectedCandidates": []
+    },
+    {
       "id": "soundbar-samsung-q990f",
       "category": "soundbar",
       "brand": "Samsung",
@@ -2449,7 +2966,7 @@
         "aliases": [
           "Samsung HW-Q990F"
         ],
-        "evidenceUrl": "https://24h.pchome.com.tw/prod/DMAAOD-A900JMDR5"
+        "evidenceUrl": "https://tw.buy.yahoo.com/gdsale/Samsung-%E4%B8%89%E6%98%9F-11-1-4%E8%81%B2%E9%81%93-%E8%97%8D%E7%89%99%E8%81%B2%E9%9C%B8-HW-Q990F-ZW-11688500.html"
       },
       "workflowStatus": "completed",
       "manualReview": {
@@ -2696,7 +3213,7 @@
           "Samsung HW-Q800H/ZW",
           "Samsung HW-Q800H"
         ],
-        "evidenceUrl": "https://tw.buy.yahoo.com/gdsale/Samsung%E4%B8%89%E6%98%9F-5-1-2%E8%81%B2%E9%81%93-%E8%97%8D%E7%89%99%E8%81%B2%E9%9C%B8-HW-Q800H-ZW-12124622.html"
+        "evidenceUrl": "https://24h.pchome.com.tw/prod/DMAAOD-A900K53X0"
       },
       "workflowStatus": "completed",
       "manualReview": {
@@ -2897,10 +3414,10 @@
             "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Sony%20HT-A7100%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)"
           }
         ],
-        "candidateDisposition": "HT-A7100：已實際重跑 Mobile01 與 Reddit exact-model 跨站查詢，未發現通過 canonical-model 邊界的原頁候選；此結果不代表完全沒有負評。",
+        "candidateDisposition": "HT-A7100：已重跑 Mobile01 與 Reddit exact-model 跨站查詢，未發現通過 canonical-model 邊界的原頁候選；此結果不代表完全沒有負評。",
         "representativeSources": [],
         "candidateReviews": [],
-        "reviewerNote": "HT-A7100 於 2026-07-16 實際請求兩個 Bing RSS exact-model 跨站查詢；兩站均無 exact-model 原頁候選，維持 no_common_issue，未以搜尋摘要或相近型號當作負評證據。",
+        "reviewerNote": "HT-A7100 於 2026-07-16 以 Bing RSS 完成 Mobile01、Reddit 查詢；搜尋頁僅作候選發現，決策維持 no_common_issue。",
         "attestation": "manual_cross_site_search_reviewed_no_candidate"
       },
       "issueResearch": {
@@ -2912,14 +3429,14 @@
           {
             "platform": "Mobile01",
             "query": "site:mobile01.com \"Sony HT-A7100\" (災情 OR 問題 OR 故障 OR 負評)",
-            "targetHost": "mobile01.com",
-            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Sony%20HT-A7100%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)"
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Sony%20HT-A7100%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "mobile01.com"
           },
           {
             "platform": "Reddit",
             "query": "site:reddit.com \"Sony HT-A7100\" (problem OR issue OR defect OR \"negative review\")",
-            "targetHost": "reddit.com",
-            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Sony%20HT-A7100%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)"
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Sony%20HT-A7100%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
+            "targetHost": "reddit.com"
           }
         ]
       },
@@ -2960,7 +3477,7 @@
         "aliases": [
           "Sonos Arc Ultra"
         ],
-        "evidenceUrl": "https://24h.pchome.com.tw/prod/DMAAO6-A900IE4HM"
+        "evidenceUrl": "https://www.kwildglamping.com/products/sonos-arc-ultra"
       },
       "workflowStatus": "completed",
       "manualReview": {
@@ -3274,7 +3791,7 @@
           "JBL BAR 500 MK2",
           "JBL MK2"
         ],
-        "evidenceUrl": "https://24h.pchome.com.tw/prod/DMAAHG-A900JCY9J"
+        "evidenceUrl": "https://www.momoshop.com.tw/product/14610686"
       },
       "workflowStatus": "completed",
       "manualReview": {
@@ -3893,7 +4410,7 @@
         "aliases": [
           "Sony HT-S100F"
         ],
-        "evidenceUrl": "https://24h.pchome.com.tw/prod/DMAAMT-A900I5HHO"
+        "evidenceUrl": "https://tw.buy.yahoo.com/gdsale/Sony-HT-S100F-11411387.html"
       },
       "workflowStatus": "completed",
       "manualReview": {
@@ -3982,7 +4499,7 @@
           "JBL BAR 300 MK2",
           "JBL MK2"
         ],
-        "evidenceUrl": "https://24h.pchome.com.tw/prod/DMAAHG-A900JCY2V"
+        "evidenceUrl": "https://www.momoshop.com.tw/product/14610154"
       },
       "workflowStatus": "completed",
       "manualReview": {
@@ -4423,7 +4940,7 @@
         "aliases": [
           "Sony HT-A9000"
         ],
-        "evidenceUrl": "https://24h.pchome.com.tw/prod/DMBM1D-A900IUZUJ"
+        "evidenceUrl": "https://24h.pchome.com.tw/prod/DMBM1D-A900I0ZKD"
       },
       "workflowStatus": "completed",
       "manualReview": {
@@ -4777,7 +5294,7 @@
         "aliases": [
           "Marshall Heston 60"
         ],
-        "evidenceUrl": "https://www.marshall.com/us/en/product/heston-60"
+        "evidenceUrl": "https://www.marshall.com/us/en/product/heston-60?pid=1008949"
       },
       "workflowStatus": "completed",
       "manualReview": {
@@ -4865,7 +5382,7 @@
         "aliases": [
           "Denon DHT-S517"
         ],
-        "evidenceUrl": "https://www.costco.com.tw/p/144030"
+        "evidenceUrl": "https://www.costco.com.tw/Televisions-Appliances/TV-Home-Entertainment/Soundbars-Home-Theater/Denon-312-CH-Soundbar-with-Dolby-Atmos-and-Wireless-Subwoofer-DHT-S517/p/144030"
       },
       "workflowStatus": "completed",
       "manualReview": {
@@ -5979,7 +6496,7 @@
         "aliases": [
           "Panasonic F-H14GND-K"
         ],
-        "evidenceUrl": "https://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=15207072"
+        "evidenceUrl": "https://24h.pchome.com.tw/prod/DMABLM-A900EOQ12"
       },
       "workflowStatus": "completed",
       "manualReview": {
@@ -8316,7 +8833,7 @@
         "aliases": [
           "Vornado 52-TW"
         ],
-        "evidenceUrl": "https://24h.pchome.com.tw/prod/DMAB3X-A900JWRUP"
+        "evidenceUrl": "https://www.winrex.com.tw/en/products/52-tw"
       },
       "workflowStatus": "completed",
       "manualReview": {
@@ -8844,7 +9361,7 @@
         "aliases": [
           "Vornado 6303DC"
         ],
-        "evidenceUrl": "https://24h.pchome.com.tw/prod/QBAF31-A9008YBED"
+        "evidenceUrl": "https://tw.buy.yahoo.com/gdsale/%E7%BE%8E%E5%9C%8BVORNADO-%E6%B2%83%E6%8B%BF%E5%A4%9A-DC%E7%9B%B4%E6%B5%81%E6%B8%A6%E6%B5%81%E7%A9%BA%E6%B0%A3%E5%BE%AA%E7%92%B0%E6%A9%9F6303DC-%E7%99%BD-%E9%81%A9%E7%94%A8%E5%9D%AA%E6%95%B88-12%E5%9D%AA-9554814.html"
       },
       "workflowStatus": "completed",
       "manualReview": {
@@ -9522,7 +10039,7 @@
         "aliases": [
           "SAMPO SK-S24181WL"
         ],
-        "evidenceUrl": "https://tw.buy.yahoo.com/gdsale/gdsale.asp?gdid=p1014265510958"
+        "evidenceUrl": "https://24h.pchome.com.tw/prod/DMBM3G-A900IUV09"
       },
       "workflowStatus": "completed",
       "manualReview": {
@@ -9786,7 +10303,7 @@
         "aliases": [
           "Airmate FB2391DR"
         ],
-        "evidenceUrl": "https://www.costco.com.tw/Televisions-Appliances/Cooling-Heating-Air-Treatment/Heating-Cooling/Airmate-9-inch-DC-Inverter-Air-Circulator-FB2391DR/p/124247"
+        "evidenceUrl": "https://www.airmate.com.tw/products/fb2391dr"
       },
       "workflowStatus": "completed",
       "manualReview": {
@@ -9991,16 +10508,7 @@
         "representativeSources": [],
         "candidateReviews": [],
         "reviewerNote": "PCF-CDP18TEC 已於 2026-07-19 實際執行 Mobile01、Reddit 的 Bing RSS exact-model 查詢；兩站未發現需逐頁判讀的同型號候選，未以搜尋摘要合成負評證據。",
-        "attestation": "manual_cross_site_search_reviewed_no_candidate",
-        "recheckNotes": {
-          "searchErrors": [],
-          "nonExactCandidates": [],
-          "pendingOriginalPages": [],
-          "actualQueriesRun": 2,
-          "originalPagesOpenedDirectly": 0,
-          "searchProvider": "Bing RSS",
-          "successfulQueries": 2
-        }
+        "attestation": "manual_cross_site_search_reviewed_no_candidate"
       },
       "issueResearch": {
         "status": "no_common_issue",
@@ -10227,7 +10735,7 @@
         "aliases": [
           "Panasonic F-YV32NN"
         ],
-        "evidenceUrl": "https://tw.buy.yahoo.com/gdsale/Panasonic-%E5%9C%8B%E9%9A%9B%E7%89%8C-16L-nanoe%E6%B8%85%E6%B7%A8%E4%BA%8C%E5%90%88%E4%B8%80%E9%9B%99%E8%AE%8A%E9%A0%BB%E5%BE%AE%E9%9B%BB%E8%85%A6%E9%99%A4%E6%BF%95%E6%A9%9F-F-YV32NN-11666451.html"
+        "evidenceUrl": "https://24h.pchome.com.tw/prod/DMBQ3P-A900J0L88"
       },
       "workflowStatus": "completed",
       "manualReview": {
@@ -10403,7 +10911,7 @@
         "aliases": [
           "Mitsubishi MJ-EHV220KX-TW"
         ],
-        "evidenceUrl": "https://tw.buy.yahoo.com/gdsale/MITSUBISHI%E4%B8%89%E8%8F%B1-22L%E8%AE%8A%E9%A0%BB%E7%A9%BA%E6%B0%A3%E6%B8%85%E6%B7%A8%E9%99%A4%E6%BF%95%E6%A9%9F-MJ-EHV220KX-TW-11926713.html"
+        "evidenceUrl": "https://24h.pchome.com.tw/prod/DMBQ3F-A900JUOT6"
       },
       "workflowStatus": "completed",
       "manualReview": {
@@ -11021,7 +11529,7 @@
         "aliases": [
           "Panasonic F-Y18PN"
         ],
-        "evidenceUrl": "https://tw.buy.yahoo.com/gdsale/Panasonic-%E5%9C%8B%E9%9A%9B%E7%89%8C-9L-nanoeX-%E9%99%A4%E6%BF%95%E6%A9%9F-F-Y18PN-11819123.html"
+        "evidenceUrl": "https://24h.pchome.com.tw/prod/DMBQ00-A900JB38A"
       },
       "workflowStatus": "completed",
       "manualReview": {
@@ -11109,7 +11617,7 @@
         "aliases": [
           "LG MD161QPK3"
         ],
-        "evidenceUrl": "https://tw.buy.yahoo.com/gdsale/LG%E6%A8%82%E9%87%91-PuriCare-WiFi-%E9%9B%99%E8%AE%8A%E9%A0%BB%E9%99%A4%E6%BF%95%E6%A9%9F-16%E5%85%AC%E5%8D%87-%E7%B2%89%E7%B4%85-MD161QPK3-11003586.html"
+        "evidenceUrl": "https://24h.pchome.com.tw/prod/DMBQ07-A900HQ3L5"
       },
       "workflowStatus": "completed",
       "manualReview": {
@@ -11461,7 +11969,7 @@
         "aliases": [
           "LG DD181MWE0"
         ],
-        "evidenceUrl": "https://tw.buy.yahoo.com/gdsale/LG樂金-PuriCare-18公升雙變頻除濕機-白色-DD181MWE0-11971018.html"
+        "evidenceUrl": "https://tw.buy.yahoo.com/gdsale/LG%E6%A8%82%E9%87%91-PuriCare-18%E5%85%AC%E5%8D%87%E9%9B%99%E8%AE%8A%E9%A0%BB%E9%99%A4%E6%BF%95%E6%A9%9F-%E7%99%BD%E8%89%B2-DD181MWE0-11971018.html"
       },
       "workflowStatus": "completed",
       "manualReview": {
@@ -12464,16 +12972,15 @@
         "canonicalModel": "WDEE1200TW",
         "lookupLabel": "Whirlpool WDEE1200TW",
         "aliases": [
-          "Whirlpool WDEE1200TW",
-          "惠而浦 WDEE1200TW"
+          "Whirlpool WDEE1200TW"
         ],
-        "evidenceUrl": "https://www.energylabel.org.tw/purchasing/product/item.aspx?itemp0=73579"
+        "evidenceUrl": "https://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=15034893"
       },
       "workflowStatus": "completed",
       "manualReview": {
         "status": "completed",
-        "reviewedAt": "2026-07-11",
         "decision": "no_common_issue",
+        "reviewedAt": "2026-07-11",
         "checkedPlatforms": [
           "Mobile01",
           "Reddit",
@@ -12514,8 +13021,6 @@
             "url": "https://www.mobile01.com/topicdetail.php?f=731&t=7249083"
           }
         ],
-        "reviewerNote": "WDEE1200TW 已人工檢視 Mobile01 與 momo 原始頁，並完成 Reddit、Dcard exact-model 查詢；momo 評論依遮罩顯示名稱保守去重，決策維持 no_common_issue。",
-        "attestation": "manual_original_pages_reviewed",
         "candidateReviews": [
           {
             "url": "https://www.momoshop.com.tw/product/15034893",
@@ -12536,6 +13041,34 @@
             "sourceExcerpt": "樓主在購買前比較 WDEE1200TW 與 WDEE123HTW；回覆主要討論 HEPA、其他品牌與促銷，沒有 WDEE1200TW 擁有者回報實際故障或負面使用問題。",
             "independentAuthors": 0,
             "specificReason": "屬購前選購與功能取捨討論，沒有 exact-model 第一人稱負評，不能計入相同問題作者數。"
+          }
+        ],
+        "reviewerNote": "WDEE1200TW 已人工檢視 Mobile01 與 momo 原始頁，並完成 Reddit、Dcard exact-model 查詢；momo 評論依遮罩顯示名稱保守去重，決策維持 no_common_issue。",
+        "attestation": "manual_original_pages_reviewed"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-07-11",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"Whirlpool WDEE1200TW\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Whirlpool%20WDEE1200TW%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "mobile01.com"
+          },
+          {
+            "platform": "Reddit",
+            "query": "\"Whirlpool WDEE1200TW\" (problem OR issue OR defect OR negative review)",
+            "queryUrl": "https://www.reddit.com/search/?q=%22Whirlpool%20WDEE1200TW%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+            "targetHost": "reddit.com"
+          },
+          {
+            "platform": "Dcard",
+            "query": "site:dcard.tw \"Whirlpool WDEE1200TW\"",
+            "queryUrl": "https://www.google.com/search?q=site%3Adcard.tw%20%22Whirlpool%20WDEE1200TW%22",
+            "targetHost": "dcard.tw"
           }
         ]
       },
@@ -12563,26 +13096,6 @@
           "inspectedAt": "2026-07-11T11:47:00+08:00"
         }
       ],
-      "issueResearch": {
-        "status": "no_common_issue",
-        "checkedAt": "2026-07-11",
-        "summary": "截至查核日，查無達門檻的集中負評／災情",
-        "issues": [],
-        "checkedSources": [
-          {
-            "platform": "Mobile01",
-            "query": "site:mobile01.com \"Whirlpool WDEE1200TW\" (災情 OR 問題 OR 故障 OR 負評)",
-            "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Whirlpool%20WDEE1200TW%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
-            "targetHost": "mobile01.com"
-          },
-          {
-            "platform": "Reddit",
-            "query": "\"Whirlpool WDEE1200TW\" (problem OR issue OR defect OR negative review)",
-            "queryUrl": "https://www.reddit.com/search/?q=%22Whirlpool%20WDEE1200TW%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
-            "targetHost": "reddit.com"
-          }
-        ]
-      },
       "evidence": [],
       "rejectedCandidates": [
         {
@@ -13663,7 +14176,7 @@
           "Blueair ClassicPro CP7i",
           "Blueair CP7i"
         ],
-        "evidenceUrl": "https://24h.pchome.com.tw/prod/DMAU1F-A900IJCA6"
+        "evidenceUrl": "https://www.momoshop.com.tw/TP/TP0004905/goodsDetail/TP00049050000130"
       },
       "workflowStatus": "completed",
       "manualReview": {
@@ -14280,7 +14793,7 @@
         "aliases": [
           "SHARP FU-J41T-W"
         ],
-        "evidenceUrl": "https://24h.pchome.com.tw/prod/DMAU25-A900IK1F2"
+        "evidenceUrl": "https://24h.pchome.com.tw/prod/DMAU6T-A900IVWE0"
       },
       "workflowStatus": "completed",
       "manualReview": {
@@ -14721,7 +15234,7 @@
         "aliases": [
           "Dyson HJ10"
         ],
-        "evidenceUrl": "https://24h.pchome.com.tw/prod/DMAU3C-1900JXJZ8"
+        "evidenceUrl": "https://shop.dyson.tw/fans-and-heaters/purifiers/dyson-hushjet-purifier-compact-black-teal-1fliter-293084-01"
       },
       "workflowStatus": "completed",
       "manualReview": {
@@ -17661,7 +18174,7 @@
         "aliases": [
           "LG R5-PROPLUS1"
         ],
-        "evidenceUrl": "https://tw.buy.yahoo.com/gdsale/gdsale.asp?gdid=p0214265457626"
+        "evidenceUrl": "https://24h.pchome.com.tw/prod/DMBM2Z-A900IUC1E"
       },
       "workflowStatus": "completed",
       "manualReview": {
@@ -17838,7 +18351,7 @@
         "aliases": [
           "Dyson Spot+Scrub Ai"
         ],
-        "evidenceUrl": "https://www.dyson.com/vacuum-cleaners/robot/spot-scrub-ai/black"
+        "evidenceUrl": "https://shop.dyson.tw/robot-vacuums/robot/dyson-spot-scrub-ai-black-217994-01"
       },
       "workflowStatus": "completed",
       "manualReview": {
@@ -18222,11 +18735,9 @@
       "name": "Xiaomi 掃拖機器人 6 Max",
       "identity": {
         "canonicalModel": "6 Max",
-        "lookupLabel": "Xiaomi Robot Vacuum 6 Max",
+        "lookupLabel": "Xiaomi 6 Max",
         "aliases": [
-          "Xiaomi Robot Vacuum 6 Max",
-          "Xiaomi 掃拖機器人 6 Max",
-          "PV11GL"
+          "Xiaomi 6 Max"
         ],
         "evidenceUrl": "https://tw.buy.yahoo.com/gdsale/%E5%B0%8F%E7%B1%B3-Xiaomi-%E6%8E%83%E6%8B%96%E6%A9%9F%E5%99%A8%E4%BA%BA-6-Max-%E5%AE%98%E6%96%B9%E6%97%97%E8%89%A6%E9%A4%A8-12134974.html"
       },
@@ -18276,6 +18787,26 @@
         "reviewerNote": "6 Max 已於 2026-07-11 實際請求兩個 Bing RSS exact-model 跨站查詢；候選原頁已逐頁重開並人工複核，維持 no_common_issue，未以搜尋摘要當作負評證據。",
         "attestation": "manual_original_pages_reviewed"
       },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-07-11",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"Xiaomi 6 Max\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Xiaomi%206%20Max%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "mobile01.com"
+          },
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"Xiaomi 6 Max\" (problem OR issue OR defect OR \"negative review\")",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Xiaomi%206%20Max%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
+            "targetHost": "reddit.com"
+          }
+        ]
+      },
       "searchChecks": [
         {
           "platform": "Mobile01",
@@ -18315,26 +18846,6 @@
           "inspectedAt": "2026-07-11T00:00:00+08:00"
         }
       ],
-      "issueResearch": {
-        "status": "no_common_issue",
-        "checkedAt": "2026-07-11",
-        "summary": "截至查核日，查無達門檻的集中負評／災情",
-        "issues": [],
-        "checkedSources": [
-          {
-            "platform": "Mobile01",
-            "query": "site:mobile01.com \"Xiaomi 6 Max\" (災情 OR 問題 OR 故障 OR 負評)",
-            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Xiaomi%206%20Max%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
-            "targetHost": "mobile01.com"
-          },
-          {
-            "platform": "Reddit",
-            "query": "site:reddit.com \"Xiaomi 6 Max\" (problem OR issue OR defect OR \"negative review\")",
-            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Xiaomi%206%20Max%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
-            "targetHost": "reddit.com"
-          }
-        ]
-      },
       "evidence": [],
       "rejectedCandidates": [
         {
@@ -18358,13 +18869,12 @@
       "name": "ECOVACS DEEBOT T90 PRO OMNI",
       "identity": {
         "canonicalModel": "DEEBOT T90 PRO OMNI",
-        "lookupLabel": "ECOVACS DEEBOT T90 PRO OMNI",
+        "lookupLabel": "Ecovacs DEEBOT T90 PRO OMNI",
         "aliases": [
-          "ECOVACS DEEBOT T90 PRO OMNI",
-          "DEEBOT T90 PRO OMNI",
-          "T90 PRO"
+          "Ecovacs DEEBOT T90 PRO OMNI",
+          "Ecovacs T90"
         ],
-        "evidenceUrl": "https://www.ecovacs.com/tw/product-detail?id=71"
+        "evidenceUrl": "https://24h.pchome.com.tw/prod/DMBL0L-A900JWVON"
       },
       "workflowStatus": "completed",
       "manualReview": {
@@ -18652,6 +19162,26 @@
         "reviewerNote": "DEEBOT T90 PRO OMNI 已人工覆核 Mobile01 與 Reddit 原始頁；Mobile01 候選在撕除保護膜、重建地圖後恢復，Reddit 則有集中但單站的 App／建圖／導航回報。所有不同問題分開計數，跨頁作者不重複，尚未達 2 個原始網站門檻。",
         "attestation": "manual_original_pages_reviewed"
       },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-07-11",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"Ecovacs DEEBOT T90 PRO OMNI\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Ecovacs%20DEEBOT%20T90%20PRO%20OMNI%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "mobile01.com"
+          },
+          {
+            "platform": "Reddit",
+            "query": "\"Ecovacs DEEBOT T90 PRO OMNI\" (problem OR issue OR defect OR negative review)",
+            "queryUrl": "https://www.reddit.com/search/?q=%22Ecovacs%20DEEBOT%20T90%20PRO%20OMNI%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+            "targetHost": "reddit.com"
+          }
+        ]
+      },
       "searchChecks": [
         {
           "platform": "Web Search",
@@ -18751,26 +19281,6 @@
           "inspectedAt": "2026-07-11T18:30:00+08:00"
         }
       ],
-      "issueResearch": {
-        "status": "no_common_issue",
-        "checkedAt": "2026-07-11",
-        "summary": "截至查核日，查無達門檻的集中負評／災情",
-        "issues": [],
-        "checkedSources": [
-          {
-            "platform": "Mobile01",
-            "query": "site:mobile01.com \"ECOVACS DEEBOT T90 PRO OMNI\" (災情 OR 問題 OR 故障 OR 負評)",
-            "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22ECOVACS%20DEEBOT%20T90%20PRO%20OMNI%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
-            "targetHost": "mobile01.com"
-          },
-          {
-            "platform": "Reddit",
-            "query": "\"ECOVACS DEEBOT T90 PRO OMNI\" (problem OR issue OR defect OR negative review)",
-            "queryUrl": "https://www.reddit.com/search/?q=%22ECOVACS%20DEEBOT%20T90%20PRO%20OMNI%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
-            "targetHost": "reddit.com"
-          }
-        ]
-      },
       "evidence": [],
       "rejectedCandidates": [
         {
@@ -18970,11 +19480,10 @@
       "name": "ECOVACS DEEBOT X12 PRO OMNI",
       "identity": {
         "canonicalModel": "DEEBOT X12 PRO OMNI",
-        "lookupLabel": "ECOVACS DEEBOT X12 PRO OMNI",
+        "lookupLabel": "Ecovacs DEEBOT X12 PRO OMNI",
         "aliases": [
-          "ECOVACS DEEBOT X12 PRO OMNI",
-          "DEEBOT X12 PRO OMNI",
-          "X12 PRO"
+          "Ecovacs DEEBOT X12 PRO OMNI",
+          "Ecovacs X12"
         ],
         "evidenceUrl": "https://24h.pchome.com.tw/prod/DMBL0L-A900JS61Y"
       },
@@ -19007,6 +19516,26 @@
         "reviewerNote": "DEEBOT X12 PRO OMNI 已於 2026-07-11 實際請求兩個 Bing RSS exact-model 跨站查詢；兩站均無 exact-model 原頁候選，維持 no_common_issue，未以搜尋摘要當作負評證據。",
         "attestation": "manual_cross_site_search_reviewed_no_candidate"
       },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-07-11",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"Ecovacs DEEBOT X12 PRO OMNI\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Ecovacs%20DEEBOT%20X12%20PRO%20OMNI%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "mobile01.com"
+          },
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"Ecovacs DEEBOT X12 PRO OMNI\" (problem OR issue OR defect OR \"negative review\")",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Ecovacs%20DEEBOT%20X12%20PRO%20OMNI%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
+            "targetHost": "reddit.com"
+          }
+        ]
+      },
       "searchChecks": [
         {
           "platform": "Mobile01",
@@ -19029,26 +19558,6 @@
           "inspectedAt": "2026-07-11T00:00:00+08:00"
         }
       ],
-      "issueResearch": {
-        "status": "no_common_issue",
-        "checkedAt": "2026-07-11",
-        "summary": "截至查核日，查無達門檻的集中負評／災情",
-        "issues": [],
-        "checkedSources": [
-          {
-            "platform": "Mobile01",
-            "query": "site:mobile01.com \"Ecovacs DEEBOT X12 PRO OMNI\" (災情 OR 問題 OR 故障 OR 負評)",
-            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Ecovacs%20DEEBOT%20X12%20PRO%20OMNI%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
-            "targetHost": "mobile01.com"
-          },
-          {
-            "platform": "Reddit",
-            "query": "site:reddit.com \"Ecovacs DEEBOT X12 PRO OMNI\" (problem OR issue OR defect OR \"negative review\")",
-            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Ecovacs%20DEEBOT%20X12%20PRO%20OMNI%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
-            "targetHost": "reddit.com"
-          }
-        ]
-      },
       "evidence": [],
       "rejectedCandidates": []
     },
@@ -19063,10 +19572,9 @@
         "lookupLabel": "Xiaomi H50 Pro",
         "aliases": [
           "Xiaomi H50 Pro",
-          "Xiaomi 掃拖機器人 H50 Pro",
-          "OV42GL"
+          "Xiaomi H50"
         ],
-        "evidenceUrl": "https://www.mi.com/tw/product/xiaomi-robot-vacuum-h50-pro/specs/"
+        "evidenceUrl": "https://tw.buy.yahoo.com/gdsale/%E5%B0%8F%E7%B1%B3-Xiaomi-%E6%8E%83%E6%8B%96%E6%A9%9F%E5%99%A8%E4%BA%BA-H50-Pro-12052496.html"
       },
       "workflowStatus": "completed",
       "manualReview": {
@@ -19180,6 +19688,26 @@
         "reviewerNote": "H50 Pro 已人工覆核 Mobile01、Reddit 與可見零售原始頁；決策為 no_common_issue，少量早期回報保留供後續追蹤。",
         "attestation": "manual_original_pages_reviewed"
       },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-07-11",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"Xiaomi H50 Pro\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Xiaomi%20H50%20Pro%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "mobile01.com"
+          },
+          {
+            "platform": "Reddit",
+            "query": "\"Xiaomi H50 Pro\" (problem OR issue OR defect OR negative review)",
+            "queryUrl": "https://www.reddit.com/search/?q=%22Xiaomi%20H50%20Pro%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+            "targetHost": "reddit.com"
+          }
+        ]
+      },
       "searchChecks": [
         {
           "platform": "Web Search",
@@ -19219,26 +19747,6 @@
           "inspectedAt": "2026-07-11T11:35:00+08:00"
         }
       ],
-      "issueResearch": {
-        "status": "no_common_issue",
-        "checkedAt": "2026-07-11",
-        "summary": "截至查核日，查無達門檻的集中負評／災情",
-        "issues": [],
-        "checkedSources": [
-          {
-            "platform": "Mobile01",
-            "query": "site:mobile01.com \"Xiaomi H50 Pro\" (災情 OR 問題 OR 故障 OR 負評)",
-            "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Xiaomi%20H50%20Pro%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
-            "targetHost": "mobile01.com"
-          },
-          {
-            "platform": "Reddit",
-            "query": "\"Xiaomi H50 Pro\" (problem OR issue OR defect OR negative review)",
-            "queryUrl": "https://www.reddit.com/search/?q=%22Xiaomi%20H50%20Pro%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
-            "targetHost": "reddit.com"
-          }
-        ]
-      },
       "evidence": [],
       "rejectedCandidates": [
         {
@@ -19939,7 +20447,7 @@
           "Dyson V15",
           "Dyson SV47"
         ],
-        "evidenceUrl": "https://tw.buy.yahoo.com/gdsale/Dyson-%E6%88%B4%E6%A3%AEV15-Detect-Fluffy-SV47-%E5%BC%B7%E5%8B%81%E6%99%BA%E6%85%A7%E7%84%A1%E7%B7%9A%E5%90%B8%E5%A1%B5%E5%99%A8-%E9%9B%99%E4%B8%BB%E5%90%B8%E9%A0%AD%E7%B5%84-11097062.html"
+        "evidenceUrl": "https://24h.pchome.com.tw/prod/DMAX00-A900HC7B6"
       },
       "workflowStatus": "completed",
       "manualReview": {
@@ -20470,7 +20978,7 @@
         "aliases": [
           "Plus Minus Zero XJC-Y011"
         ],
-        "evidenceUrl": "https://24h.pchome.com.tw/prod/DSBE1A-A900J8H81"
+        "evidenceUrl": "https://plusminuszero.com.tw/shop-d.php?Key=1&W=Index"
       },
       "workflowStatus": "completed",
       "manualReview": {
@@ -20734,7 +21242,7 @@
         "aliases": [
           "Dyson SV50"
         ],
-        "evidenceUrl": "https://24h.pchome.com.tw/prod/DMAX00-A900JPJ7H"
+        "evidenceUrl": "https://shop.dyson.tw/vacuums/cordless-vacuums/dyson-pencilvac-fluffycones-black-sale-492694-01"
       },
       "workflowStatus": "completed",
       "manualReview": {
@@ -21348,11 +21856,9 @@
         "canonicalModel": "HHR32F",
         "lookupLabel": "Dreame HHR32F",
         "aliases": [
-          "Dreame HHR32F",
-          "Dreame Aero Ultra Steam",
-          "Aero Ultra Steam"
+          "Dreame HHR32F"
         ],
-        "evidenceUrl": "https://cdn.shopify.com/s/files/1/0302/5276/1220/files/W2619C-_-_-EN.pdf?v=1780564945"
+        "evidenceUrl": "https://vacuummop.dreametech.com/products/aero-ultra-steam-wet-dry-vacuum"
       },
       "workflowStatus": "completed",
       "manualReview": {
@@ -22832,7 +23338,7 @@
         "aliases": [
           "Whirlpool WM10GN"
         ],
-        "evidenceUrl": "https://tw.buy.yahoo.com/gdsale/gdsale.asp?gdid=p0214264897808"
+        "evidenceUrl": "https://www.momoshop.com.tw/TP/TP0007894/goodsDetail/TP00078940002025"
       },
       "workflowStatus": "completed",
       "manualReview": {
@@ -24421,7 +24927,7 @@
           "Whirlpool 8TWGD6622HW",
           "Whirlpool TWGD6622HW"
         ],
-        "evidenceUrl": "https://tw.buy.yahoo.com/gdsale/gdsale.asp?gdid=p0214264895227"
+        "evidenceUrl": "https://www.costco.com.tw/Televisions-Appliances/Large-Appliances/Washers-Dryers/Whirlpool-16-kg-Gas-Dryer-8TWGD6622HW/p/125469"
       },
       "workflowStatus": "completed",
       "manualReview": {
@@ -26018,7 +26524,7 @@
         "aliases": [
           "LG WD-S13VDW"
         ],
-        "evidenceUrl": "https://tw.buy.yahoo.com/gdsale/送王品集團餐券2張-LG樂金13公斤蒸氣洗脫烘洗衣機WD-S13VDW-9922820.html"
+        "evidenceUrl": "https://24h.pchome.com.tw/prod/DPAI1L-A900EP6CY"
       },
       "workflowStatus": "completed",
       "manualReview": {
@@ -26855,7 +27361,7 @@
           "Whirlpool 8TWFC6810LW",
           "Whirlpool TWFC6810LW"
         ],
-        "evidenceUrl": "https://tw.buy.yahoo.com/gdsale/gdsale.asp?gdid=p0214264897550"
+        "evidenceUrl": "https://24h.pchome.com.tw/prod/DPAI1P-A900F1KXB"
       },
       "workflowStatus": "completed",
       "manualReview": {
@@ -26943,7 +27449,7 @@
         "aliases": [
           "Toshiba TWD-BJ130M4G"
         ],
-        "evidenceUrl": "https://tw.buy.yahoo.com/gdsale/TOSHIBA東芝-TWD-BJ130M4G-12公斤-變頻溫水洗脫烘滾筒洗衣機-白色-11624484.html"
+        "evidenceUrl": "https://tw.buy.yahoo.com/gdsale/TOSHIBA%E6%9D%B1%E8%8A%9D-TWD-BJ130M4G-12%E5%85%AC%E6%96%A4-%E8%AE%8A%E9%A0%BB%E6%BA%AB%E6%B0%B4%E6%B4%97%E8%84%AB%E7%83%98%E6%BB%BE%E7%AD%92%E6%B4%97%E8%A1%A3%E6%A9%9F-%E7%99%BD%E8%89%B2-11624484.html"
       },
       "workflowStatus": "completed",
       "manualReview": {
@@ -30562,7 +31068,7 @@
         "aliases": [
           "Samsung RT22M4015S8TW"
         ],
-        "evidenceUrl": "https://www.momoshop.com.tw/TP/TP0005657/goodsDetail/TP00056570000486"
+        "evidenceUrl": "https://tw.buy.yahoo.com/gdsale/SAMSUNG%E4%B8%89%E6%98%9F-237%E5%85%AC%E5%8D%87-1%E7%B4%9A%E8%AE%8A%E9%A0%BB%E9%9B%99%E9%96%80%E9%9B%BB%E5%86%B0%E7%AE%B1-RT22M4015S8-TW-11647216.html"
       },
       "workflowStatus": "completed",
       "manualReview": {
@@ -34928,7 +35434,7 @@
         "aliases": [
           "Kyocera 黑陶瓷中華刀 16cm"
         ],
-        "evidenceUrl": "https://24h.pchome.com.tw/prod/DEAGL1-A900K0YA8"
+        "evidenceUrl": "https://tw.buy.yahoo.com/gdsale/KYOCERA-%E4%BA%AC%E7%93%B7-%E6%97%A5%E6%9C%AC%E8%A3%BD%E9%BB%91%E9%99%B6%E7%93%B7%E4%B8%AD%E8%8F%AF%E6%96%99%E7%90%86%E5%88%80-16cm-12105465.html"
       },
       "workflowStatus": "completed",
       "manualReview": {
@@ -38688,7 +39194,7 @@
         "aliases": [
           "Panasonic NN-BS607"
         ],
-        "evidenceUrl": "https://tw.buy.yahoo.com/gdsale/gdsale.asp?gdid=p0830264435843"
+        "evidenceUrl": "https://24h.pchome.com.tw/prod/DMBJ02-A900G62BM"
       },
       "workflowStatus": "completed",
       "manualReview": {
@@ -45843,7 +46349,7 @@
           "TOTO TCF33461GTW S2",
           "TOTO TCF33461GTW"
         ],
-        "evidenceUrl": "https://24h.pchome.com.tw/prod/DMAL6W-A900JVWI8"
+        "evidenceUrl": "https://www.momoshop.com.tw/product/14834662"
       },
       "workflowStatus": "completed",
       "manualReview": {
@@ -47122,7 +47628,7 @@
         "aliases": [
           "Yale Luna Pro+"
         ],
-        "evidenceUrl": "https://24h.pchome.com.tw/prod/DQBS4N-A900K6BSE"
+        "evidenceUrl": "https://www.momoshop.com.tw/product/15024130"
       },
       "workflowStatus": "completed",
       "manualReview": {
@@ -52255,7 +52761,7 @@
         "aliases": [
           "Synology WRX560"
         ],
-        "evidenceUrl": "https://24h.pchome.com.tw/prod/DRAGCM-A900FQ3JZ"
+        "evidenceUrl": "https://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=10885801"
       },
       "workflowStatus": "completed",
       "manualReview": {
@@ -52579,8 +53085,7 @@
         "checkedPlatforms": [
           "Mobile01",
           "Reddit",
-          "Ubiquiti Community",
-          "www.snbforums.com"
+          "Ubiquiti Community"
         ],
         "queries": [
           {
@@ -53857,8 +54362,7 @@
         "checkedPlatforms": [
           "Mobile01",
           "Reddit",
-          "Ubiquiti Community",
-          "www.dcard.tw"
+          "Ubiquiti Community"
         ],
         "queries": [
           {
@@ -54933,7 +55437,7 @@
         "aliases": [
           "Mercusys MR27BE"
         ],
-        "evidenceUrl": "https://24h.pchome.com.tw/prod/DSBC1T-A900IR9CO"
+        "evidenceUrl": "https://24h.pchome.com.tw/prod/DRAFJ9-A900HSRT9"
       },
       "workflowStatus": "completed",
       "manualReview": {
@@ -55375,7 +55879,7 @@
         "aliases": [
           "Synology RT6600ax"
         ],
-        "evidenceUrl": "https://24h.pchome.com.tw/prod/DQBS4V-A900JIQU0"
+        "evidenceUrl": "https://tw.buy.yahoo.com/gdsale/%E6%98%8C%E9%81%8B%E7%9B%A3%E8%A6%96%E5%99%A8-Synology%E7%BE%A4%E6%9A%89-RT6600AX-%E4%B8%89%E9%A0%BB-Wi-Fi-6-Router-%E7%84%A1%E7%B7%9A%E8%B7%AF%E7%94%B1%E5%99%A8-11898475.html"
       },
       "workflowStatus": "completed",
       "manualReview": {
@@ -56739,7 +57243,7 @@
           "MSI RadiX AXE6600",
           "MSI AXE6600"
         ],
-        "evidenceUrl": "https://tw.buy.yahoo.com/gdsale/MSI-RadiX-AXE6600-WiFi-6E-Tri-Band-Gaming-Router-%E4%B8%89-11104213.html"
+        "evidenceUrl": "https://24h.pchome.com.tw/prod/DRAFKS-A900HEQVN"
       },
       "workflowStatus": "completed",
       "manualReview": {
@@ -57776,8 +58280,7 @@
         "checkedPlatforms": [
           "Mobile01",
           "Reddit",
-          "TP-Link Community",
-          "www.ptt.cc"
+          "TP-Link Community"
         ],
         "queries": [
           {
@@ -63542,7 +64045,7 @@
           "Samsung S27FG532EC Odyssey G5",
           "Samsung S27FG532EC"
         ],
-        "evidenceUrl": "https://24h.pchome.com.tw/prod/DSABON-A900JZ7RG"
+        "evidenceUrl": "https://24h.pchome.com.tw/prod/DSABON-A900JCGXY"
       },
       "workflowStatus": "completed",
       "manualReview": {
@@ -64430,7 +64933,7 @@
           "ASUS ROG Strix XG27UCG",
           "ASUS XG27UCG"
         ],
-        "evidenceUrl": "https://24h.pchome.com.tw/prod/DSABW6-A900K6A95"
+        "evidenceUrl": "https://www.momoshop.com.tw/product/13254194"
       },
       "workflowStatus": "completed",
       "manualReview": {
@@ -65585,7 +66088,7 @@
           "ASUS ROG Strix XG27AQDMES",
           "ASUS XG27AQDMES"
         ],
-        "evidenceUrl": "https://24h.pchome.com.tw/prod/DSABKB-A900K092J"
+        "evidenceUrl": "https://www.momoshop.com.tw/product/14831560"
       },
       "workflowStatus": "completed",
       "manualReview": {
@@ -65673,7 +66176,7 @@
         "aliases": [
           "MSI MPG 271QRX"
         ],
-        "evidenceUrl": "https://24h.pchome.com.tw/prod/DSBC1Z-A900HE04M"
+        "evidenceUrl": "https://tw.buy.yahoo.com/gdsale/MSI%E5%BE%AE%E6%98%9F-MPG-271QRX-QD-OLED-27%E5%9E%8B-2K-360Hz-HDR%E9%9B%BB%E7%AB%B6%E8%9E%A2%E5%B9%95-10958143.html"
       },
       "workflowStatus": "completed",
       "manualReview": {
@@ -67879,7 +68382,7 @@
           "LG 45GX90SA-B",
           "LG GX90SA-B"
         ],
-        "evidenceUrl": "https://24h.pchome.com.tw/prod/DPADZM-A900JPITR"
+        "evidenceUrl": "https://24h.pchome.com.tw/prod/DSBC1Z-A900J732D"
       },
       "workflowStatus": "completed",
       "manualReview": {
@@ -67967,7 +68470,7 @@
         "aliases": [
           "Samsung S57CG952NC"
         ],
-        "evidenceUrl": "https://24h.pchome.com.tw/prod/DSABT5-A900J8G5R"
+        "evidenceUrl": "https://24h.pchome.com.tw/prod/DMBM10-A900GQLSE"
       },
       "workflowStatus": "completed",
       "manualReview": {
@@ -68583,8 +69086,7 @@
         "canonicalModel": "PD2732U",
         "lookupLabel": "BenQ PD2732U",
         "aliases": [
-          "BenQ PD2732U",
-          "PD2732U"
+          "BenQ PD2732U"
         ],
         "evidenceUrl": "https://www.benq.com/zh-tw/monitor/creative-pro/pd2732u/buy.html"
       },
@@ -68634,6 +69136,26 @@
         "reviewerNote": "2026-07-21 實際執行含完整 PD2732U canonical model 的 Mobile01、Reddit Bing RSS 查詢，並開啟 Reddit exact-model 原頁逐則閱讀；搜尋摘要只用於發現候選，沒有把品牌貼文或一般詢價計為負評。",
         "attestation": "manual_original_pages_reviewed"
       },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-07-21",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"BenQ PD2732U\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22BenQ%20PD2732U%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "mobile01.com"
+          },
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"BenQ PD2732U\" (problem OR issue OR defect OR \"negative review\")",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22BenQ%20PD2732U%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
+            "targetHost": "reddit.com"
+          }
+        ]
+      },
       "searchChecks": [
         {
           "platform": "Mobile01",
@@ -68676,27 +69198,7 @@
           "specificReason": "原頁是品牌新品介紹與一般售價詢問，沒有可計入的第一人稱同型號問題回報，且只有 Reddit 一個原始網站。",
           "reason": "原頁是品牌新品介紹與一般售價詢問，沒有可計入的第一人稱同型號問題回報，且只有 Reddit 一個原始網站。"
         }
-      ],
-      "issueResearch": {
-        "status": "no_common_issue",
-        "checkedAt": "2026-07-21",
-        "summary": "截至查核日，查無達門檻的集中負評／災情",
-        "issues": [],
-        "checkedSources": [
-          {
-            "platform": "Mobile01",
-            "query": "site:mobile01.com \"BenQ PD2732U\" (災情 OR 問題 OR 故障 OR 負評)",
-            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22BenQ%20PD2732U%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
-            "targetHost": "mobile01.com"
-          },
-          {
-            "platform": "Reddit",
-            "query": "site:reddit.com \"BenQ PD2732U\" (problem OR issue OR defect OR \"negative review\")",
-            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22BenQ%20PD2732U%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
-            "targetHost": "reddit.com"
-          }
-        ]
-      }
+      ]
     },
     {
       "id": "monitor-asus-pa27usd",

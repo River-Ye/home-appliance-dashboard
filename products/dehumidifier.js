@@ -1889,6 +1889,12 @@
           "query": "\"Whirlpool WDEE1200TW\" (problem OR issue OR defect OR negative review)",
           "queryUrl": "https://www.reddit.com/search/?q=%22Whirlpool%20WDEE1200TW%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
           "targetHost": "reddit.com"
+        },
+        {
+          "platform": "Dcard",
+          "query": "site:dcard.tw \"Whirlpool WDEE1200TW\"",
+          "queryUrl": "https://www.google.com/search?q=site%3Adcard.tw%20%22Whirlpool%20WDEE1200TW%22",
+          "targetHost": "dcard.tw"
         }
       ]
     }

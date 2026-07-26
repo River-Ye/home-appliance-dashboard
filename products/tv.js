@@ -312,14 +312,14 @@
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"LG OLED65C6PTA\" (災情 OR 問題 OR 故障 OR 負評)",
-          "targetHost": "mobile01.com",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22LG%20OLED65C6PTA%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)"
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22LG%20OLED65C6PTA%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
           "query": "site:reddit.com \"LG OLED65C6PTA\" (problem OR issue OR defect OR \"negative review\")",
-          "targetHost": "reddit.com",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22LG%20OLED65C6PTA%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)"
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22LG%20OLED65C6PTA%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
+          "targetHost": "reddit.com"
         }
       ]
     }
@@ -335,9 +335,9 @@
     "name": "BRAVIA 9 II 65 型 RGB LED 4K Google TV",
     "price": {
       "currency": "TWD",
-      "amount": 108323,
-      "converted": 108323,
-      "confidence": "Yahoo購物中心 2026-07-25 exact-model 公開結構化價格"
+      "amount": 110533,
+      "converted": 110533,
+      "confidence": "Yahoo購物中心 2026-07-26 exact-model 公開結構化價格"
     },
     "image": "https://img.yec.tw/zp/MerchandiseImages/F326F9F0C5-SP-23019953.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/%E5%90%AB%E6%A8%99%E6%BA%96%E5%AE%89%E8%A3%9D-SONY%E7%B4%A2%E5%B0%BC65%E5%90%8B%E5%90%8BRGB-4K%E9%80%A3%E7%B6%B2%E6%99%BA%E6%85%A7%E9%A1%AF%E7%A4%BA%E5%99%A8Y-65XR90M2-12159450.html",
@@ -394,14 +394,14 @@
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Sony Y-65XR90M2\" (災情 OR 問題 OR 故障 OR 負評)",
-          "targetHost": "mobile01.com",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Sony%20Y-65XR90M2%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)"
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Sony%20Y-65XR90M2%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
           "query": "site:reddit.com \"Sony Y-65XR90M2\" (problem OR issue OR defect OR \"negative review\")",
-          "targetHost": "reddit.com",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Sony%20Y-65XR90M2%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)"
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Sony%20Y-65XR90M2%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
+          "targetHost": "reddit.com"
         }
       ]
     }
@@ -475,14 +475,14 @@
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Samsung QA65S95HAXXZW\" (災情 OR 問題 OR 故障 OR 負評)",
-          "targetHost": "mobile01.com",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Samsung%20QA65S95HAXXZW%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)"
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Samsung%20QA65S95HAXXZW%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
           "query": "site:reddit.com \"Samsung QA65S95HAXXZW\" (problem OR issue OR defect OR \"negative review\")",
-          "targetHost": "reddit.com",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Samsung%20QA65S95HAXXZW%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)"
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Samsung%20QA65S95HAXXZW%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
+          "targetHost": "reddit.com"
         }
       ]
     }
@@ -2152,6 +2152,421 @@
           "platform": "Reddit",
           "query": "site:reddit.com \"Samsung MRA65R95HAXXZW\" (problem OR issue OR defect OR negative review)",
           "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22Samsung%20MRA65R95HAXXZW%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "targetHost": "reddit.com"
+        }
+      ]
+    }
+  },
+  {
+    "id": "tv-aoc-70u8040",
+    "category": "tv",
+    "rank": 28,
+    "budget": "value",
+    "channel": "tw",
+    "brand": "AOC",
+    "model": "70U8040",
+    "name": "70 型 4K QLED Google TV 智慧顯示器",
+    "price": {
+      "currency": "TWD",
+      "amount": 16999,
+      "converted": 16999,
+      "confidence": "PChome 2026-07-26 exact-model API 公開價，庫存 17"
+    },
+    "image": "https://cs-b.ecimg.tw/items/DPADB2A900J8K60/000001_1757578880.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DPADB2-A900J8K60",
+    "buyLabel": "PChome",
+    "specs": [
+      "70 吋 4K QLED / 原生 60Hz",
+      "Google TV / Dolby Atmos",
+      "手機投影：內建 Chromecast；iOS 需第三方 App",
+      "PChome 評價 5.0 / 4 則（2026-07-26 查核）",
+      "不含視訊盒"
+    ],
+    "description": "AOC 是成熟的顯示器品牌；PChome exact-model 評分 5.0／4，另有 Mobile01 屋主回報長輩喜歡 70 吋畫面與價格，但樣本仍不算多。",
+    "pros": [
+      "同批 70 吋 QLED 中價格最低",
+      "Google TV 與 Chromecast 串流方便",
+      "台灣新品通路、基本安裝與兩年原廠保固清楚"
+    ],
+    "cons": [
+      "原生 60Hz，不是高更新率遊戲機種",
+      "iOS 投影需第三方 App",
+      "評價方向正面但樣本僅 4 則"
+    ],
+    "bestFor": "想用約 1.7 萬元取得 70 吋 QLED、以串流影音和日常電視為主的家庭。",
+    "recommendation": "本批 CP 值優先：價格最低，並有 PChome 評分和 exact-model 屋主心得雙重參考；仍應把 4 則評價視為小樣本。",
+    "score": 86,
+    "voltage": "台灣通路公司貨；安裝前依產品銘牌確認電壓",
+    "warranty": "台灣原廠 2 年保固",
+    "tags": [
+      "70吋",
+      "QLED",
+      "Google TV",
+      "Chromecast",
+      "高CP值"
+    ],
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-07-26",
+      "note": "已查 PChome、BigGo、FindPrice 與 Mobile01 exact-model 資料；NT$16,999 為本次現價，未找到可公開重現且符合可信新品條件的歷史最低價紀錄，未以現價推定史低。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-07-26",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"AOC 70U8040\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22AOC%2070U8040%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"AOC 70U8040\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22AOC%2070U8040%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "targetHost": "reddit.com"
+        }
+      ]
+    }
+  },
+  {
+    "id": "tv-jvc-70tg2",
+    "category": "tv",
+    "rank": 29,
+    "budget": "value",
+    "channel": "tw",
+    "brand": "JVC",
+    "model": "70TG2",
+    "name": "70 吋 4K HDR webOS 智慧顯示器",
+    "price": {
+      "currency": "TWD",
+      "amount": 18888,
+      "converted": 18888,
+      "confidence": "PChome 2026-07-26 exact-model API 公開價，庫存 20"
+    },
+    "image": "https://cs-b.ecimg.tw/items/DPADK9A900HY2CU/000001_1761921890.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DPADK9-A900HY2CU",
+    "buyLabel": "PChome",
+    "specs": [
+      "70 吋 4K HDR / 原生 60Hz",
+      "webOS 22 / 3 組 HDMI / 2 組 USB",
+      "手機投影：AirPlay 2 / HomeKit / ThinkQ",
+      "PChome 評價 4.2 / 9 則（2026-07-26 查核）",
+      "不含調諧器"
+    ],
+    "description": "JVC 品牌在台灣此款由瑞旭製造、經銷與售服並取得商標授權；PChome 4.2／9，AirPlay 2 與 webOS 操作是主要優勢。",
+    "pros": [
+      "本批評價樣本最多，4.2／9 仍屬正向",
+      "AirPlay 2、HomeKit 與常見串流 App 支援完整",
+      "台灣三年保固與安裝服務清楚"
+    ],
+    "cons": [
+      "9 則評價中約三分之一為 3 星，並非一致滿分",
+      "原生 60Hz，不適合把高更新率遊戲列為首要需求",
+      "台灣機種為 JVC 商標授權產品，非日本 JVC 原廠直接製造"
+    ],
+    "bestFor": "重視 iPhone 投影、webOS 操作與三年台灣保固的家庭。",
+    "recommendation": "本批操作體驗優先：AirPlay 2 與 webOS 明確，評價樣本也相對完整；購買前仍要理解授權品牌與 60Hz 定位。",
+    "score": 84,
+    "voltage": "AC 110V / 50-60Hz",
+    "warranty": "台灣原廠 3 年保固（依產品註冊與保固條款）",
+    "tags": [
+      "70吋",
+      "webOS",
+      "AirPlay 2",
+      "HomeKit",
+      "三年保固"
+    ],
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-07-26",
+      "note": "已查 PChome、BigGo、FindPrice 與 JVC 台灣 exact-model 資料；NT$18,888 為本次現價，未找到可公開重現且符合可信新品條件的歷史最低價紀錄，未以現價或點數回饋推定史低。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-07-26",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"JVC 70TG2\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22JVC%2070TG2%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"JVC 70TG2\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22JVC%2070TG2%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "targetHost": "reddit.com"
+        }
+      ]
+    }
+  },
+  {
+    "id": "tv-philips-70pqt8169",
+    "category": "tv",
+    "rank": 30,
+    "budget": "mid",
+    "channel": "tw",
+    "brand": "Philips",
+    "model": "70PQT8169/96",
+    "name": "70 型 4K QLED Google TV 智慧顯示器",
+    "price": {
+      "currency": "TWD",
+      "amount": 22999,
+      "converted": 22999,
+      "confidence": "PChome 2026-07-26 exact-model API 公開價，庫存 5"
+    },
+    "image": "https://cs-b.ecimg.tw/items/DPADIKA900JFCPA/000001_1762407157.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DPADIK-A900JFCPA",
+    "buyLabel": "PChome",
+    "specs": [
+      "70 吋 4K QLED / 原生 60Hz",
+      "Google TV / Dolby Vision / Dolby Atmos",
+      "2GB 記憶體 / 32GB 儲存空間",
+      "手機投影：通路頁未標示",
+      "Yahoo 現售 exact-model 評價 5.0 / 1 則（小樣本）"
+    ],
+    "description": "Philips 是成熟影音品牌，70PQT8169/96 提供 QLED、Dolby Vision／Atmos 與三年保固；目前 exact-model 5 星評價僅 1 則，參考力有限。",
+    "pros": [
+      "QLED、Dolby Vision 與 Dolby Atmos 規格完整",
+      "32GB 儲存空間較適合安裝串流 App",
+      "台灣三年原廠保固"
+    ],
+    "cons": [
+      "exact-model 評價只有 1 則，不能視為穩定口碑",
+      "原生 60Hz，部分賣場的 120Hz 字樣不採用",
+      "台灣 exact-model 通路頁未明示手機投影能力"
+    ],
+    "bestFor": "想要 70 吋 QLED、Dolby Vision 與較大 App 儲存空間，並重視三年保固的人。",
+    "recommendation": "本批影音規格優先：QLED 與雙 Dolby 完整；但 5 星只有 1 則，建議實機確認動態畫面、亮度與操作速度。",
+    "score": 82,
+    "voltage": "台灣通路公司貨；安裝前依產品銘牌確認電壓",
+    "warranty": "台灣原廠 3 年保固",
+    "tags": [
+      "70吋",
+      "QLED",
+      "Google TV",
+      "Dolby Vision",
+      "32GB"
+    ],
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-07-26",
+      "note": "已查 PChome、Yahoo、BigGo、FindPrice 與 Philips exact-model 資料；NT$22,999 為本次現價，未找到可公開重現且符合可信新品條件的歷史最低價紀錄，未以現價推定史低。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-07-26",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Philips 70PQT8169/96\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Philips%2070PQT8169%2F96%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Philips 70PQT8169/96\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Philips%2070PQT8169%2F96%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "targetHost": "reddit.com"
+        }
+      ]
+    }
+  },
+  {
+    "id": "tv-philips-70pqt8159",
+    "category": "tv",
+    "rank": 31,
+    "budget": "mid",
+    "channel": "tw",
+    "brand": "Philips",
+    "model": "70PQT8159",
+    "name": "70 型 4K QLED Google TV 智慧顯示器",
+    "price": {
+      "currency": "TWD",
+      "amount": 22999,
+      "converted": 22999,
+      "confidence": "PChome 2026-07-26 exact-model API 公開價，庫存 5"
+    },
+    "image": "https://cs-b.ecimg.tw/items/DPADIKA900K0GIF/000001_1778751319.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DPADIK-A900K0GIF",
+    "buyLabel": "PChome",
+    "specs": [
+      "70 吋 4K QLED / 原生 60Hz",
+      "Google TV / Dolby Vision / Dolby Atmos",
+      "2GB 記憶體 / 32GB 儲存空間",
+      "手機投影：通路頁未標示",
+      "Yahoo 已停售 exact-model 頁仍可重現 5.0 / 1 則；現售 PChome 無公開評價"
+    ],
+    "description": "70PQT8159 與 8169 的公開規格很接近，同樣是 Philips QLED Google TV；Yahoo 已停售 exact-model 頁仍可重現 5.0／1，現售 PChome 無公開評價，主要作同價位通路備選。",
+    "pros": [
+      "QLED、Google TV 與雙 Dolby 規格齊全",
+      "32GB 儲存空間與三年保固",
+      "台灣可信新品通路仍有庫存"
+    ],
+    "cons": [
+      "僅已停售 Yahoo 頁留有 1 則 exact-model 評價，現售頁沒有公開評價",
+      "與 70PQT8169 的公開差異不明顯，需向通路確認實際版本",
+      "原生 60Hz，且通路頁未明示手機投影能力"
+    ],
+    "bestFor": "想比較同價位 Philips 70 吋 QLED 的通路、贈品與安裝條件的人。",
+    "recommendation": "本批同品牌備選：規格與 8169 接近，應以實際庫存、安裝與贈品條件決定；已停售頁的 1 則 5 星只能當初步訊號。",
+    "score": 80,
+    "voltage": "台灣通路公司貨；安裝前依產品銘牌確認電壓",
+    "warranty": "台灣原廠 3 年保固",
+    "tags": [
+      "70吋",
+      "QLED",
+      "Google TV",
+      "Dolby Vision",
+      "同價備選"
+    ],
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-07-26",
+      "note": "已查 PChome、Yahoo、BigGo、FindPrice 與 Philips exact-model 資料；NT$22,999 為本次現價，未找到可公開重現且符合可信新品條件的歷史最低價紀錄，未以現價推定史低。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-07-26",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Philips 70PQT8159\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Philips%2070PQT8159%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Philips 70PQT8159\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Philips%2070PQT8159%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "targetHost": "reddit.com"
+        }
+      ]
+    }
+  },
+  {
+    "id": "tv-sampo-em70rf130",
+    "category": "tv",
+    "rank": 32,
+    "budget": "value",
+    "channel": "tw",
+    "brand": "SAMPO",
+    "model": "EM-70RF130",
+    "name": "70 吋 4K Google TV 5.0 聯網智慧顯示器",
+    "price": {
+      "currency": "TWD",
+      "amount": 19710,
+      "converted": 19710,
+      "confidence": "全聯全電商 2026-07-26 exact-model 公開價，頁面結構化資料顯示 InStock"
+    },
+    "image": "https://b2eimg.pxec.com.tw/00436932/256f3e4f2c5144148f03302472792872.jpg",
+    "buyUrl": "https://pxbox.es.pxmart.com.tw/product/667166",
+    "buyLabel": "全聯全電商",
+    "specs": [
+      "70 吋 4K / 原生 60Hz",
+      "Google TV 5.0 / Dolby Vision / Dolby Atmos",
+      "MEMC / ALLM / 30W 喇叭",
+      "手機投影：Chromecast / iOS 智慧傳屏",
+      "Yahoo 已停售 exact-model 頁仍可重現 5.0 / 1 則；現售全聯頁無公開評價"
+    ],
+    "description": "SAMPO 是台灣老牌家電品牌，EM-70RF130 有 Google TV、雙 Dolby 與三年保固；Yahoo 已停售 exact-model 頁仍可重現 5.0／1，現售全聯頁無公開評價，應視為小樣本。",
+    "pros": [
+      "台灣品牌、三年保固與含基本安裝",
+      "Dolby Vision／Atmos、MEMC 與 ALLM 規格實用",
+      "Chromecast 與 iOS 智慧傳屏都有明確標示"
+    ],
+    "cons": [
+      "僅已停售 Yahoo 頁留有 1 則 exact-model 評價，現售頁沒有公開評價",
+      "原生 60Hz，ALLM 不代表高更新率",
+      "iOS 智慧傳屏未標示為 AirPlay，不能視為相同功能"
+    ],
+    "bestFor": "偏好台灣品牌、三年保固與到府安裝，主要觀看串流與第四台的家庭。",
+    "recommendation": "本批在地售後優先：Google TV、雙 Dolby 與三年保固完整；評價樣本很小，建議把實機與安裝服務列為購買前重點。",
+    "score": 81,
+    "voltage": "台灣通路公司貨；安裝前依產品銘牌確認電壓",
+    "warranty": "台灣原廠 3 年保固",
+    "tags": [
+      "70吋",
+      "台灣品牌",
+      "Google TV",
+      "Dolby Vision",
+      "三年保固"
+    ],
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-07-26",
+      "note": "已查全聯全電商、momo、Yahoo、BigGo、FindPrice 與 SAMPO exact-model 資料；NT$19,710 為本次現價，momo 與 Yahoo 原 exact-model 頁目前皆無展售，未找到可驗證的可信新品歷史最低價。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-07-26",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"SAMPO EM-70RF130\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22SAMPO%20EM-70RF130%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"SAMPO EM-70RF130\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22SAMPO%20EM-70RF130%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
           "targetHost": "reddit.com"
         }
       ]
