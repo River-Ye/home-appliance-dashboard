@@ -154,6 +154,20 @@ function blockedStatus(status) {
   return [401, 403, 406, 418, 429].includes(status);
 }
 
+function visiblePageText(html) {
+  return String(html || "")
+    .replace(/<!--[\s\S]*?-->/g, " ")
+    .replace(/<head\b[^>]*>[\s\S]*?<\/head>/gi, " ")
+    .replace(/<(?:script|style|template|noscript)\b[^>]*>[\s\S]*?<\/(?:script|style|template|noscript)>/gi, " ")
+    .replace(/<[^>]+>/g, " ")
+    .replace(/&nbsp;|&#160;/gi, " ")
+    .replace(/&amp;/gi, "&")
+    .replace(/&quot;/gi, "\"")
+    .replace(/&#0?39;|&apos;/gi, "'")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
 async function fetchPage(url) {
   try {
     const response = await fetchWithTimeout(url, {
@@ -421,7 +435,7 @@ async function auditNonPchome(product, raw) {
     priceCandidates,
     error: page.error || null,
   });
-  if (page.ok && exact && isExplicitlyDiscontinued(page.text)) {
+  if (page.ok && exact && isExplicitlyDiscontinued(visiblePageText(page.text))) {
     raw.discontinuedCandidates.push({
       id: product.id,
       brand: product.brand,
@@ -563,7 +577,7 @@ function updateDimensionCategoryCounts(source, categoryCounts) {
   let next = source;
   for (const [categoryId, count] of categoryCounts) {
     if (Number.isInteger(count)) {
-      next = next.replace(new RegExp(`(\\["${categoryId}",\\s*)\\d+(\\])`), `$1${count}$2`);
+      next = next.replace(new RegExp(`(\\["${categoryId}",\\s*)\\d+(\\])`, "g"), `$1${count}$2`);
     }
   }
   return next;
@@ -961,4 +975,5 @@ module.exports = {
   trustedStructuredPrice,
   updateDashboardContractSource,
   updateDimensionCategoryCounts,
+  visiblePageText,
 };

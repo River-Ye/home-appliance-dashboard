@@ -1,5 +1,5 @@
 const EXPECTED_CATEGORY_COUNT = 26;
-const EXPECTED_PRODUCT_COUNT = 697;
+const EXPECTED_PRODUCT_COUNT = 700;
 const MIN_PRODUCTS_PER_CATEGORY = 20;
 const EXPECTED_CATEGORY_PRODUCT_COUNTS = new Map([
   ["tv", 27],
@@ -12,7 +12,7 @@ const EXPECTED_CATEGORY_PRODUCT_COUNTS = new Map([
   ["vacuum", 24],
   ["washer", 23],
   ["dryer", 21],
-  ["washerdryer", 26],
+  ["washerdryer", 27],
   ["garmentcare", 20],
   ["refrigerator", 24],
   ["cookware", 25],
@@ -20,13 +20,13 @@ const EXPECTED_CATEGORY_PRODUCT_COUNTS = new Map([
   ["blender", 24],
   ["oven", 24],
   ["waterdispenser", 21],
-  ["dishwasher", 23],
+  ["dishwasher", 24],
   ["bidet", 20],
   ["smartlock", 48],
   ["wifi", 49],
   ["standingdesk", 23],
   ["chair", 24],
-  ["monitor", 55],
+  ["monitor", 56],
   ["monitorarm", 22],
 ]);
 const DATE_PATTERN = /^(找不到|\d{4}(?:[-/.]\d{1,2}(?:[-/.]\d{1,2})?)?)$/;
@@ -34,7 +34,7 @@ const WASHER_DRYER_CAPACITY_PATTERN = /^洗\/乾容量：\d+(?:\.\d+)?kg \/ \d+(
 const DIMENSION_CATEGORY_COUNTS = new Map([
   ["washer", 23],
   ["dryer", 21],
-  ["washerdryer", 26],
+  ["washerdryer", 27],
   ["refrigerator", 24],
   ["garmentcare", 20],
 ]);

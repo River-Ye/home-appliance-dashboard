@@ -1682,7 +1682,7 @@
     "price": {
       "currency": "USD",
       "amount": 1299.99,
-      "converted": 42057,
+      "converted": 42054,
       "confidence": "Marshall US 2026-07-21 來源價；ExchangeRate-API 2026-07-21 匯率換算"
     },
     "image": "https://images.ctfassets.net/javen7msabdh/2C2sn9CKoKFdIyd94Gm9z5/f3019d4e721511167ebe5c229bf490dd/heston-120_plp.jpg",
@@ -1762,7 +1762,7 @@
     "price": {
       "currency": "USD",
       "amount": 699.99,
-      "converted": 22646,
+      "converted": 22644,
       "confidence": "Marshall US 官方 2026-07-21 現貨價；ExchangeRate-API 2026-07-21 匯率換算"
     },
     "image": "https://images.ctfassets.net/javen7msabdh/3yitHqjPBTgQk5qRE72PSn/2788206646aa153f71f2c0ebefaff580/Heston-60-black_plp_800x800-v3.jpeg",

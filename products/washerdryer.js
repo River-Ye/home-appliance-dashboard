@@ -2225,6 +2225,93 @@
         }
       ]
     }
+  },
+  {
+    "id": "washerdryer-panasonic-na-sd10tb",
+    "rank": 27,
+    "topPick": false,
+    "brand": "Panasonic",
+    "model": "NA-SD10TB",
+    "name": "10.5/6kg 滾筒洗衣乾衣機",
+    "image": "https://pstw.panasonic.com.tw/shop/Upload/Product/20260514190222S44S2J5E.jpg",
+    "price": {
+      "currency": "TWD",
+      "amount": 39900,
+      "converted": 39900,
+      "confidence": "PChome 2026-07-26 exact-model API 公開折扣價；Price.Low 優先於 Price.P"
+    },
+    "channel": "tw",
+    "buyLabel": "PChome",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DPAI1H-A900JXCDB",
+    "specs": [
+      "洗/乾容量：10.5kg / 6kg",
+      "尺寸：寬 60 x 深 65 x 高 96 cm",
+      "低溫風乾（排風約室溫 +15°C）/ 蒸氣除味除皺",
+      "40°C 浸泡洗 / 60°C、30°C 槽洗淨",
+      "單槽洗劑自動投入約 1780ml",
+      "重量：66kg；用水量約 84L；水壓 0.03-1MPa",
+      "110V / 60Hz；溫水洗滌 1190W、乾衣 720W；運轉音 37/41/46dB",
+      "左開門；需 15A 接地專用插座、進排水與通風，機背至少預留 1cm"
+    ],
+    "description": "NA-SD10TB 是 Panasonic 2026 年台灣新款 10.5/6kg 滾筒洗脫烘，提供低溫風乾、蒸氣護理與洗劑自動投入，補足分類中較緊湊、110V 的中容量選項。",
+    "pros": [
+      "60cm 寬、10.5kg 洗衣容量，較容易放入一般台灣洗衣空間",
+      "低溫風乾、蒸氣除味除皺與溫水槽洗淨功能完整",
+      "110V 台灣公司貨，官方規格、說明書與現貨證據完整"
+    ],
+    "cons": [
+      "乾衣容量僅 6kg，明顯小於 10.5kg 洗衣容量，滿載需分批乾燥",
+      "採風乾而非熱泵，完整洗烘時間、耗能與衣物縮水仍需依衣量和洗標評估",
+      "左開門且需進排水、通風與專用接地插座，購買前應先量門向和安裝空間"
+    ],
+    "bestFor": "需要 10kg 級洗衣、偶爾使用 6kg 乾衣與蒸氣護理，且空間只能容納 60cm 寬機身的家庭。",
+    "recommendation": "中容量 110V 洗脫烘補充推薦：功能與安裝門檻比大型洗衣塔親民，但乾衣 6kg 小於洗衣 10.5kg，若經常滿載烘乾，仍應比較獨立烘衣機或大容量熱泵機種。",
+    "voltage": "110V / 60Hz；需 15A 接地專用插座",
+    "warranty": "全機 1 年、控制基板與驅動組 3 年、洗衣／脫水馬達 5 年；依 Panasonic 台灣原廠條款",
+    "score": 90,
+    "budget": "premium",
+    "tags": [
+      "洗/乾容量：10.5kg / 6kg",
+      "低溫風乾",
+      "蒸氣護理",
+      "自動洗劑",
+      "110V"
+    ],
+    "category": "washerdryer",
+    "releaseDate": "2026",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-07-26",
+      "note": "已查 BigGo、FindPrice、LBJ、Panasonic 官方商城、PChome 與 momo；PChome NT$39,900 是本次現價，未找到可公開重現的 exact-model 可信新品歷史價格，因此不推定史低。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-07-26",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Panasonic NA-SD10TB\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Amobile01.com%20%22Panasonic%20NA-SD10TB%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "PTT",
+          "query": "site:ptt.cc \"Panasonic NA-SD10TB\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Aptt.cc%20%22Panasonic%20NA-SD10TB%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "ptt.cc"
+        }
+      ]
+    }
   }
 ]);
 })();

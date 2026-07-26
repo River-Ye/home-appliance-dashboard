@@ -1,9 +1,9 @@
 {
   "summary": {
-    "checkedAt": "2026-07-25T00:00:00+08:00",
-    "total": 697,
+    "checkedAt": "2026-07-26T00:00:00+08:00",
+    "total": 700,
     "commonIssueProducts": 36,
-    "noCommonIssueProducts": 661,
+    "noCommonIssueProducts": 664,
     "pendingManualReview": 0,
     "commonIssues": 36,
     "searchUnavailable": 25,
@@ -28055,6 +28055,130 @@
       "rejectedCandidates": []
     },
     {
+      "id": "washerdryer-panasonic-na-sd10tb",
+      "category": "washerdryer",
+      "brand": "Panasonic",
+      "model": "NA-SD10TB",
+      "name": "10.5/6kg 滾筒洗衣乾衣機",
+      "identity": {
+        "canonicalModel": "NA-SD10TB",
+        "lookupLabel": "Panasonic NA-SD10TB",
+        "aliases": [
+          "Panasonic NA-SD10TB"
+        ],
+        "evidenceUrl": "https://24h.pchome.com.tw/prod/DPAI1H-A900JXCDB"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "status": "completed",
+        "decision": "no_common_issue",
+        "reviewedAt": "2026-07-26",
+        "checkedPlatforms": [
+          "Mobile01",
+          "PTT"
+        ],
+        "queries": [
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"Panasonic NA-SD10TB\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Amobile01.com%20%22Panasonic%20NA-SD10TB%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "mobile01.com"
+          },
+          {
+            "platform": "PTT",
+            "query": "site:ptt.cc \"Panasonic NA-SD10TB\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Aptt.cc%20%22Panasonic%20NA-SD10TB%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "ptt.cc"
+          }
+        ],
+        "candidateDisposition": "NA-SD10TB：已開啟 Mobile01 exact-model 新品原頁並核對 PTT 查詢；候選為新品介紹，未形成同一問題 6 位獨立使用者與 2 個原始網站。",
+        "representativeSources": [
+          {
+            "platform": "Mobile01",
+            "url": "https://www.mobile01.com/topicdetail.php?f=168&t=7256411",
+            "title": "Panasonic 2026 春季新品發表會：NA-SD10TB 滾筒洗烘衣機"
+          }
+        ],
+        "candidateReviews": [
+          {
+            "url": "https://www.mobile01.com/topicdetail.php?f=168&t=7256411",
+            "title": "Panasonic 2026 春季新品發表會：NA-SD10TB 滾筒洗烘衣機",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-07-26",
+            "sourceExcerpt": "原頁明列全新日本製 NA-SD10TB、10.5kg 洗衣、6kg 乾衣及 600 x 650 x 960 mm 尺寸，內容是春季新品介紹。",
+            "independentAuthors": 0,
+            "specificReason": "原頁是媒體新品發表整理，沒有 NA-SD10TB 使用者第一人稱故障回報；留言也未形成同一問題的獨立使用者門檻。"
+          }
+        ],
+        "reviewerNote": "NA-SD10TB 於 2026-07-26 完成 Mobile01 與 PTT exact-model 查詢及原頁覆核，決策維持 no_common_issue。",
+        "attestation": "manual_original_pages_reviewed"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-07-26",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"Panasonic NA-SD10TB\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Amobile01.com%20%22Panasonic%20NA-SD10TB%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "mobile01.com"
+          },
+          {
+            "platform": "PTT",
+            "query": "site:ptt.cc \"Panasonic NA-SD10TB\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Aptt.cc%20%22Panasonic%20NA-SD10TB%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "ptt.cc"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "Yahoo Search",
+          "query": "(\"Panasonic NA-SD10TB\") (problem OR issue OR defect OR failure OR 災情 OR 故障 OR 負評) (site:mobile01.com OR site:dcard.tw OR site:ptt.cc OR site:reddit.com OR site:snbforums.com OR site:52asus.com)",
+          "searchUrl": "https://search.yahoo.com/search?p=(%22Panasonic%20NA-SD10TB%22)%20(problem%20OR%20issue%20OR%20defect%20OR%20failure%20OR%20%E7%81%BD%E6%83%85%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)%20(site%3Amobile01.com%20OR%20site%3Adcard.tw%20OR%20site%3Aptt.cc%20OR%20site%3Areddit.com%20OR%20site%3Asnbforums.com%20OR%20site%3A52asus.com)",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-07-26T00:00:00+08:00"
+        },
+        {
+          "platform": "Manual Original Page Review",
+          "query": "人工開啟 exact-model 原頁覆核 Panasonic NA-SD10TB",
+          "searchUrl": "https://www.mobile01.com/topicdetail.php?f=168&t=7256411",
+          "result": "candidates_unverified_by_search_only",
+          "resultCount": 1,
+          "candidateUrls": [
+            "https://www.mobile01.com/topicdetail.php?f=168&t=7256411"
+          ],
+          "candidates": [
+            {
+              "url": "https://www.mobile01.com/topicdetail.php?f=168&t=7256411",
+              "title": "Panasonic 2026 春季新品發表會：NA-SD10TB 滾筒洗烘衣機"
+            }
+          ],
+          "inspectedAt": "2026-07-26T00:00:00+08:00"
+        }
+      ],
+      "evidence": [],
+      "rejectedCandidates": [
+        {
+          "url": "https://www.mobile01.com/topicdetail.php?f=168&t=7256411",
+          "title": "Panasonic 2026 春季新品發表會：NA-SD10TB 滾筒洗烘衣機",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-07-26",
+          "sourceExcerpt": "原頁明列全新日本製 NA-SD10TB、10.5kg 洗衣、6kg 乾衣及 600 x 650 x 960 mm 尺寸，內容是春季新品介紹。",
+          "independentAuthors": 0,
+          "specificReason": "原頁是媒體新品發表整理，沒有 NA-SD10TB 使用者第一人稱故障回報；留言也未形成同一問題的獨立使用者門檻。",
+          "reason": "原頁是媒體新品發表整理，沒有 NA-SD10TB 使用者第一人稱故障回報；留言也未形成同一問題的獨立使用者門檻。"
+        }
+      ]
+    },
+    {
       "id": "garmentcare-lg-r723wg",
       "category": "garmentcare",
       "brand": "LG",
@@ -44749,6 +44873,163 @@
       ],
       "evidence": [],
       "rejectedCandidates": []
+    },
+    {
+      "id": "dishwasher-panasonic-np-2ktbgr1tw",
+      "category": "dishwasher",
+      "brand": "Panasonic",
+      "model": "NP-2KTBGR1TW",
+      "name": "60 公分 15 人份全嵌式自動洗碗烘乾機",
+      "identity": {
+        "canonicalModel": "NP-2KTBGR1TW",
+        "lookupLabel": "Panasonic NP-2KTBGR1TW",
+        "aliases": [
+          "Panasonic NP-2KTBGR1TW"
+        ],
+        "evidenceUrl": "https://24h.pchome.com.tw/prod/DMBR1P-A900IIA3B"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "status": "completed",
+        "decision": "no_common_issue",
+        "reviewedAt": "2026-07-26",
+        "checkedPlatforms": [
+          "Mobile01",
+          "PTT"
+        ],
+        "queries": [
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"Panasonic NP-2KTBGR1TW\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Amobile01.com%20%22Panasonic%20NP-2KTBGR1TW%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "mobile01.com"
+          },
+          {
+            "platform": "PTT",
+            "query": "site:ptt.cc \"Panasonic NP-2KTBGR1TW\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Aptt.cc%20%22Panasonic%20NP-2KTBGR1TW%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "ptt.cc"
+          }
+        ],
+        "candidateDisposition": "NP-2KTBGR1TW：已開啟 Mobile01 與 PTT exact-model 原頁；一頁為單一使用者維修回報，另一頁為產品情報討論，未達跨站六人門檻。",
+        "representativeSources": [
+          {
+            "platform": "Mobile01",
+            "url": "https://www.mobile01.com/topicdetail.php?f=729&t=7228398",
+            "title": "〈Panasonic原廠維修頻頻出包〉：NP-2KTBGR1TW"
+          },
+          {
+            "platform": "PTT",
+            "url": "https://www.ptt.cc/bbs/E-appliance/M.1690195013.A.C95.html",
+            "title": "[情報]Panasonic NP-2KTBGR1TW 嵌入式自動洗碗"
+          }
+        ],
+        "candidateReviews": [
+          {
+            "url": "https://www.ptt.cc/bbs/E-appliance/M.1690195013.A.C95.html",
+            "title": "[情報]Panasonic NP-2KTBGR1TW 嵌入式自動洗碗",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-07-26",
+            "sourceExcerpt": "PTT 原頁是 NP-2KTBGR1TW 上市情報與電壓、價格、安裝條件討論，沒有台灣 exact-model 使用者的第一人稱同一故障群聚。",
+            "independentAuthors": 0,
+            "specificReason": "原頁屬產品情報與購買前討論，留言未提供可計入的台灣 exact-model 第一人稱故障回報，因此不計入問題人數。"
+          },
+          {
+            "url": "https://www.mobile01.com/topicdetail.php?f=729&t=7228398",
+            "title": "〈Panasonic原廠維修頻頻出包〉：NP-2KTBGR1TW",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-07-26",
+            "sourceExcerpt": "樓主表示 NP-2KTBGR1TW 購入未滿一年後烘碗不乾，後續維修扯斷進水管並造成漏水故障碼與地板受潮。",
+            "independentAuthors": 1,
+            "specificReason": "只有一位可辨識使用者在 Mobile01 回報烘乾與維修漏水經驗；其他留言未形成同一問題六位第一人稱回報，也缺第二原始網站。"
+          }
+        ],
+        "reviewerNote": "NP-2KTBGR1TW 於 2026-07-26 完成 Mobile01 與 PTT exact-model 查詢及原頁覆核，決策維持 no_common_issue。",
+        "attestation": "manual_original_pages_reviewed"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-07-26",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"Panasonic NP-2KTBGR1TW\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Amobile01.com%20%22Panasonic%20NP-2KTBGR1TW%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "mobile01.com"
+          },
+          {
+            "platform": "PTT",
+            "query": "site:ptt.cc \"Panasonic NP-2KTBGR1TW\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Aptt.cc%20%22Panasonic%20NP-2KTBGR1TW%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "ptt.cc"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "Yahoo Search",
+          "query": "(\"Panasonic NP-2KTBGR1TW\") (problem OR issue OR defect OR failure OR 災情 OR 故障 OR 負評) (site:mobile01.com OR site:dcard.tw OR site:ptt.cc OR site:reddit.com OR site:snbforums.com OR site:52asus.com)",
+          "searchUrl": "https://search.yahoo.com/search?p=(%22Panasonic%20NP-2KTBGR1TW%22)%20(problem%20OR%20issue%20OR%20defect%20OR%20failure%20OR%20%E7%81%BD%E6%83%85%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)%20(site%3Amobile01.com%20OR%20site%3Adcard.tw%20OR%20site%3Aptt.cc%20OR%20site%3Areddit.com%20OR%20site%3Asnbforums.com%20OR%20site%3A52asus.com)",
+          "result": "candidates_unverified_by_search_only",
+          "resultCount": 1,
+          "candidateUrls": [
+            "https://www.ptt.cc/bbs/E-appliance/M.1690195013.A.C95.html"
+          ],
+          "candidates": [
+            {
+              "url": "https://www.ptt.cc/bbs/E-appliance/M.1690195013.A.C95.html",
+              "title": "[情報]Panasonic NP-2KTBGR1TW 嵌入式自動洗碗"
+            }
+          ],
+          "inspectedAt": "2026-07-26T00:00:00+08:00"
+        },
+        {
+          "platform": "Manual Original Page Review",
+          "query": "人工開啟 exact-model 原頁覆核 Panasonic NP-2KTBGR1TW",
+          "searchUrl": "https://www.mobile01.com/topicdetail.php?f=729&t=7228398",
+          "result": "candidates_unverified_by_search_only",
+          "resultCount": 1,
+          "candidateUrls": [
+            "https://www.mobile01.com/topicdetail.php?f=729&t=7228398"
+          ],
+          "candidates": [
+            {
+              "url": "https://www.mobile01.com/topicdetail.php?f=729&t=7228398",
+              "title": "〈Panasonic原廠維修頻頻出包〉：NP-2KTBGR1TW"
+            }
+          ],
+          "inspectedAt": "2026-07-26T00:00:00+08:00"
+        }
+      ],
+      "evidence": [],
+      "rejectedCandidates": [
+        {
+          "url": "https://www.ptt.cc/bbs/E-appliance/M.1690195013.A.C95.html",
+          "title": "[情報]Panasonic NP-2KTBGR1TW 嵌入式自動洗碗",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-07-26",
+          "sourceExcerpt": "PTT 原頁是 NP-2KTBGR1TW 上市情報與電壓、價格、安裝條件討論，沒有台灣 exact-model 使用者的第一人稱同一故障群聚。",
+          "independentAuthors": 0,
+          "specificReason": "原頁屬產品情報與購買前討論，留言未提供可計入的台灣 exact-model 第一人稱故障回報，因此不計入問題人數。",
+          "reason": "原頁屬產品情報與購買前討論，留言未提供可計入的台灣 exact-model 第一人稱故障回報，因此不計入問題人數。"
+        },
+        {
+          "url": "https://www.mobile01.com/topicdetail.php?f=729&t=7228398",
+          "title": "〈Panasonic原廠維修頻頻出包〉：NP-2KTBGR1TW",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-07-26",
+          "sourceExcerpt": "樓主表示 NP-2KTBGR1TW 購入未滿一年後烘碗不乾，後續維修扯斷進水管並造成漏水故障碼與地板受潮。",
+          "independentAuthors": 1,
+          "specificReason": "只有一位可辨識使用者在 Mobile01 回報烘乾與維修漏水經驗；其他留言未形成同一問題六位第一人稱回報，也缺第二原始網站。",
+          "reason": "只有一位可辨識使用者在 Mobile01 回報烘乾與維修漏水經驗；其他留言未形成同一問題六位第一人稱回報，也缺第二原始網站。"
+        }
+      ]
     },
     {
       "id": "bidet-toto-s2",
@@ -68416,6 +68697,131 @@
           }
         ]
       }
+    },
+    {
+      "id": "monitor-asus-pa27usd",
+      "category": "monitor",
+      "brand": "ASUS",
+      "model": "PA27USD",
+      "name": "26.5 型 4K 240Hz QD-OLED 12G-SDI 專業創作者螢幕",
+      "identity": {
+        "canonicalModel": "PA27USD",
+        "lookupLabel": "ASUS PA27USD",
+        "aliases": [
+          "ASUS PA27USD"
+        ],
+        "evidenceUrl": "https://shop.asus.com/tw/90lm04n0-b013d1-proart-display-oled-pa27usd.html"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "status": "completed",
+        "decision": "no_common_issue",
+        "reviewedAt": "2026-07-26",
+        "checkedPlatforms": [
+          "Mobile01",
+          "Reddit",
+          "Parka Blogs"
+        ],
+        "queries": [
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"ASUS PA27USD\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Amobile01.com%20%22ASUS%20PA27USD%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "mobile01.com"
+          },
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"ASUS PA27USD\" (problem OR issue OR defect OR negative review)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22ASUS%20PA27USD%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+            "targetHost": "reddit.com"
+          }
+        ],
+        "candidateDisposition": "PA27USD：已開啟 Parka Blogs exact-model 評測並核對 Reddit 查詢；僅一位評測者回報特定連接情境的線圈音，未達跨站六人門檻。",
+        "representativeSources": [
+          {
+            "platform": "Parka Blogs",
+            "url": "https://www.parkablogs.com/content/asus-proart-pa27usd-oled-display-review",
+            "title": "Review: ASUS ProArt PA27USD OLED display"
+          }
+        ],
+        "candidateReviews": [
+          {
+            "url": "https://www.parkablogs.com/content/asus-proart-pa27usd-oled-display-review",
+            "title": "Review: ASUS ProArt PA27USD OLED display",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-07-26",
+            "sourceExcerpt": "評測者回報 PA27USD 連接 MacBook Pro 的 USB-C 與 HDMI 時有線圈音，連接手機、平板、Windows 筆電與 Mac Mini 時則沒有。",
+            "independentAuthors": 1,
+            "specificReason": "只有一位評測者在單一網站的特定連接情境回報，未達同一問題至少 6 位獨立使用者且跨 2 個原始網站的門檻。"
+          }
+        ],
+        "reviewerNote": "PA27USD 於 2026-07-26 完成 Parka Blogs 與 Reddit exact-model 查詢及原頁覆核，決策維持 no_common_issue。",
+        "attestation": "manual_original_pages_reviewed"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-07-26",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"ASUS PA27USD\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Amobile01.com%20%22ASUS%20PA27USD%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "mobile01.com"
+          },
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"ASUS PA27USD\" (problem OR issue OR defect OR negative review)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22ASUS%20PA27USD%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+            "targetHost": "reddit.com"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "Yahoo Search",
+          "query": "(\"ASUS PA27USD\") (problem OR issue OR defect OR failure OR 災情 OR 故障 OR 負評) (site:mobile01.com OR site:dcard.tw OR site:ptt.cc OR site:reddit.com OR site:snbforums.com OR site:52asus.com)",
+          "searchUrl": "https://search.yahoo.com/search?p=(%22ASUS%20PA27USD%22)%20(problem%20OR%20issue%20OR%20defect%20OR%20failure%20OR%20%E7%81%BD%E6%83%85%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)%20(site%3Amobile01.com%20OR%20site%3Adcard.tw%20OR%20site%3Aptt.cc%20OR%20site%3Areddit.com%20OR%20site%3Asnbforums.com%20OR%20site%3A52asus.com)",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-07-26T00:00:00+08:00"
+        },
+        {
+          "platform": "Manual Original Page Review",
+          "query": "人工開啟 exact-model 原頁覆核 ASUS PA27USD",
+          "searchUrl": "https://www.parkablogs.com/content/asus-proart-pa27usd-oled-display-review",
+          "result": "candidates_unverified_by_search_only",
+          "resultCount": 1,
+          "candidateUrls": [
+            "https://www.parkablogs.com/content/asus-proart-pa27usd-oled-display-review"
+          ],
+          "candidates": [
+            {
+              "url": "https://www.parkablogs.com/content/asus-proart-pa27usd-oled-display-review",
+              "title": "Review: ASUS ProArt PA27USD OLED display"
+            }
+          ],
+          "inspectedAt": "2026-07-26T00:00:00+08:00"
+        }
+      ],
+      "evidence": [],
+      "rejectedCandidates": [
+        {
+          "url": "https://www.parkablogs.com/content/asus-proart-pa27usd-oled-display-review",
+          "title": "Review: ASUS ProArt PA27USD OLED display",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-07-26",
+          "sourceExcerpt": "評測者回報 PA27USD 連接 MacBook Pro 的 USB-C 與 HDMI 時有線圈音，連接手機、平板、Windows 筆電與 Mac Mini 時則沒有。",
+          "independentAuthors": 1,
+          "specificReason": "只有一位評測者在單一網站的特定連接情境回報，未達同一問題至少 6 位獨立使用者且跨 2 個原始網站的門檻。",
+          "reason": "只有一位評測者在單一網站的特定連接情境回報，未達同一問題至少 6 位獨立使用者且跨 2 個原始網站的門檻。"
+        }
+      ]
     },
     {
       "id": "monitorarm-raymii-ls116m1",

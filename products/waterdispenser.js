@@ -15,9 +15,9 @@
     "image": "https://cs-a.ecimg.tw/items/DAANBRA900ASZRJ/000001_1758695631.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 8087,
-      "converted": 8087,
-      "confidence": "PChome 2026-07-25 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 9190,
+      "converted": 9190,
+      "confidence": "PChome 2026-07-26 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -1366,7 +1366,8 @@
       "櫥下 RO",
       "瞬熱",
       "聲控龍頭",
-      "Wi-Fi"
+      "Wi-Fi",
+      "220V / 50Hz / 2200W，建議專用迴路"
     ],
     "description": "Culligan US-201C-TW 補進本分類比較池，重點是櫥下 RO、瞬熱、聲控龍頭，適合和同類 Top Pick 依預算、售後與規格一起比較。",
     "pros": [
@@ -1380,7 +1381,7 @@
     "bestFor": "規劃廚下淨水/飲水系統，想比較 RO、瞬熱、冷熱與安裝條件的人。",
     "recommendation": "補充推薦：聲控櫥下 RO 瞬熱飲水機 的優勢在聲控與瞬熱規格新，但仍建議把價格高納入取捨。",
     "score": 85,
-    "voltage": "110V 台灣通路",
+    "voltage": "220V / 50Hz / 2200W；建議使用專用迴路",
     "warranty": "依台灣通路/品牌保固",
     "tags": [
       "RO",
@@ -1668,7 +1669,7 @@
     "price": {
       "currency": "USD",
       "amount": 369.99,
-      "converted": 11970,
+      "converted": 11969,
       "confidence": "Costco US 2026-07-21 來源價；ExchangeRate-API 2026-07-21 匯率換算"
     },
     "image": "https://bfasset.costco-static.com/U447IH35/as/4xjr3phfqx7p9vvxzfhp3jp/100457228-847_chrome_1?auto=webp&format=jpg",

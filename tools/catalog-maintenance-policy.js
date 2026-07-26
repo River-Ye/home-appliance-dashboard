@@ -41,6 +41,7 @@ const REVIEWED_PCHOME_BINDINGS = new Map([
   ["robot-ecovacs-x12-pro", "DMBL0L-A900JS61Y"],
   ["waterdispenser--uw-2262hw-1", "DMAWEM-A900GDIXH"],
   ["waterdispenser-extra-16-dsbe1fa900gsoln", "DMCI17-A900I6OFW"],
+  ["washerdryer-panasonic-na-sd10tb", "DPAI1H-A900JXCDB"],
 ]);
 
 function foldIdentity(value) {

@@ -1885,6 +1885,93 @@
         }
       ]
     }
+  },
+  {
+    "id": "dishwasher-panasonic-np-2ktbgr1tw",
+    "category": "dishwasher",
+    "rank": 24,
+    "topPick": false,
+    "budget": "premium",
+    "channel": "tw",
+    "brand": "Panasonic",
+    "model": "NP-2KTBGR1TW",
+    "name": "60 公分 15 人份全嵌式自動洗碗烘乾機",
+    "price": {
+      "currency": "TWD",
+      "amount": 41152,
+      "converted": 41152,
+      "confidence": "PChome 2026-07-26 exact-model API 公開折扣價；Price.Low 優先於 Price.P"
+    },
+    "image": "https://cs-a.ecimg.tw/items/DMBR1PA900IIA3B/000001_1743154773.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DMBR1P-A900IIA3B",
+    "buyLabel": "PChome",
+    "specs": [
+      "60cm 全嵌式 / 15 人份 / 最多 109 件餐具",
+      "72°C 高溫熱流洗淨 / 720° 龍捲渦流 / 9 大洗程",
+      "獨立熱循環烘乾 / 長效抑菌淨存 7 天",
+      "尺寸：寬 59.8 x 深 57.5 x 高 77.5-83.5 cm",
+      "重量：32kg",
+      "220V / 60Hz / 1870W；水壓 0.05-1MPa；門板與安裝另計"
+    ],
+    "description": "NP-2KTBGR1TW 是台灣公司貨 60 公分全嵌式洗碗機，提供 15 人份容量、獨立熱循環烘乾與長效淨存，補足分類中的 Panasonic 大容量系統廚具選項。",
+    "pros": [
+      "15 人份與 109 件餐具容量適合多人家庭及大量鍋具",
+      "獨立熱循環烘乾，不需開門散熱",
+      "77.5cm 起的機身高度較容易配合部分既有廚具"
+    ],
+    "cons": [
+      "需要 220V 專用電源、進排水與全嵌櫃體規劃",
+      "PChome 商品不含安裝，前嵌門板也需另購或客製",
+      "有單一使用者回報烘碗不乾與後續維修漏水，未達集中災情門檻"
+    ],
+    "bestFor": "正在規劃系統廚具、需要 15 人份容量並重視獨立烘乾與封閉淨存的多人家庭。",
+    "recommendation": "大容量全嵌式補充推薦：洗淨、烘乾與淨存功能完整，但購買前必須把 220V、門板、櫃體、進排水與安裝費一併估算。",
+    "score": 88,
+    "voltage": "220V / 60Hz / 1870W；需專用迴路、接地、進排水與嵌入空間",
+    "warranty": "全機 1 年；依 Panasonic 台灣與購買通路保固條款",
+    "tags": [
+      "15人份",
+      "60cm",
+      "全嵌式",
+      "獨立烘乾",
+      "7天淨存",
+      "220V",
+      "Panasonic"
+    ],
+    "releaseDate": "2023",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-07-26",
+      "note": "已查 Panasonic 官網、PChome、FindPrice、樂天與公開比價資料；PChome NT$41,152 是本次現價而非歷史紀錄，較低候選含券後、已售完、一般賣家或無法可靠綁定 exact model，因此不推定史低。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-07-26",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Panasonic NP-2KTBGR1TW\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Amobile01.com%20%22Panasonic%20NP-2KTBGR1TW%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "PTT",
+          "query": "site:ptt.cc \"Panasonic NP-2KTBGR1TW\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Aptt.cc%20%22Panasonic%20NP-2KTBGR1TW%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "ptt.cc"
+        }
+      ]
+    }
   }
 ]);
 })();

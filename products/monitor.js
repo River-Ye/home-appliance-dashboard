@@ -3617,9 +3617,9 @@
     "name": "49 型 Odyssey OLED G9 Dual QHD 240Hz 曲面螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 34999,
-      "converted": 34999,
-      "confidence": "PChome 2026-07-25 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 36900,
+      "converted": 36900,
+      "confidence": "PChome 2026-07-26 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBM10A900HZCPE/000001_1781766568.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBM10-A900HZCPE",
@@ -3781,9 +3781,9 @@
     "name": "45 型 UltraGear 21:9 OLED 240Hz 智慧曲面螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 38580,
-      "converted": 38580,
-      "confidence": "PChome 2026-07-25 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 41310,
+      "converted": 41310,
+      "confidence": "PChome 2026-07-26 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DSBC1ZA900J732D/000001_1780394558.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DSBC1Z-A900J732D",
@@ -3863,9 +3863,9 @@
     "name": "57 型 Odyssey Neo G9 Dual UHD 240Hz Mini LED 曲面螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 66500,
-      "converted": 66500,
-      "confidence": "PChome 2026-07-25 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 69900,
+      "converted": 69900,
+      "confidence": "PChome 2026-07-26 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBM10A900GQLSE/000001_1783054239.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBM10-A900GQLSE",
@@ -4508,6 +4508,94 @@
           "platform": "Reddit",
           "query": "site:reddit.com \"BenQ PD2732U\" (problem OR issue OR defect OR \"negative review\")",
           "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22BenQ%20PD2732U%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
+          "targetHost": "reddit.com"
+        }
+      ]
+    }
+  },
+  {
+    "id": "monitor-asus-pa27usd",
+    "category": "monitor",
+    "rank": 56,
+    "topPick": false,
+    "budget": "premium",
+    "channel": "tw",
+    "brand": "ASUS",
+    "model": "PA27USD",
+    "name": "26.5 型 4K 240Hz QD-OLED 12G-SDI 專業創作者螢幕",
+    "price": {
+      "currency": "TWD",
+      "amount": 69900,
+      "converted": 69900,
+      "confidence": "ASUS 台灣官方商城 2026-07-26 公開在庫價"
+    },
+    "image": "https://shop.asus.com/media/catalog/product/9/5/9565379b9c805db870350b1f2188d50f_1.png?bg-color=255%2C255%2C255&canvas=439%3A439&fit=bounds&format=auto&height=439&optimize=medium&width=439",
+    "buyUrl": "https://shop.asus.com/tw/90lm04n0-b013d1-proart-display-oled-pa27usd.html",
+    "buyLabel": "ASUS 台灣官方",
+    "specs": [
+      "26.5 吋 QD-OLED / 4K 3840 x 2160 / 240Hz / 0.1ms",
+      "1000 nits 峰值 / 99% DCI-P3 / Delta E < 1 / Dolby Vision",
+      "12G-SDI / 2 x Thunderbolt 4（96W）/ DisplayPort 2.1 / 2 x HDMI 2.1 / KVM",
+      "內建色度計 / ASUS ProArt 硬體校準 / 隨附遮光罩",
+      "重量：4.96kg（不含底座；含標準底座 7.50kg；含迷你底座 5.36kg）",
+      "VESA 100 x 100 mm"
+    ],
+    "description": "PA27USD 是面向影像後期與專業調色的 26.5 吋 4K QD-OLED 螢幕，補足清單中 12G-SDI、內建色度計、硬體校準與 240Hz 同時具備的專業工作流選項。",
+    "pros": [
+      "12G-SDI、硬體校準與內建色度計適合專業影像工作流",
+      "4K 240Hz QD-OLED 兼顧色彩、HDR 與流暢預覽",
+      "雙 Thunderbolt 4、96W 供電與 KVM 可整合 Mac／PC 桌面"
+    ],
+    "cons": [
+      "售價遠高於一般 27 吋 4K OLED 與 IPS 專業螢幕",
+      "OLED 長時間顯示固定介面仍需注意烙印風險",
+      "早期評測者有單一特定連接情境的線圈噪音回報，未達集中災情門檻"
+    ],
+    "bestFor": "需要 12G-SDI、硬體校準、精準廣色域與高刷新預覽的調色師、影像工作室與高階內容創作者。",
+    "recommendation": "專業影像工作流補充推薦：規格整合度高，但定價與用途都很專業，若不需要 SDI 或內建色度計，其他 4K OLED／廣色域螢幕更具性價比。",
+    "score": 90,
+    "voltage": "AC 100-240V / 50-60Hz；台灣官方新品",
+    "warranty": "3 年保固，包含面板烙印",
+    "tags": [
+      "26.5吋",
+      "4K",
+      "QD-OLED",
+      "240Hz",
+      "12G-SDI",
+      "Thunderbolt 4",
+      "硬體校色",
+      "專業色彩"
+    ],
+    "releaseDate": "2026-05",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-07-26",
+      "note": "已查 ASUS 台灣官方商城、官方產品列表、BigGo、FindPrice、LBJ 與海外 exact-model 價格歷史；台灣官方現價為 NT$69,900，但未找到同一台灣料號 90LM04N0-B013D1 可公開重現的可信新品歷史最低價，因此不把現價直接視為史低。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-07-26",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"ASUS PA27USD\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Amobile01.com%20%22ASUS%20PA27USD%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"ASUS PA27USD\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22ASUS%20PA27USD%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
           "targetHost": "reddit.com"
         }
       ]

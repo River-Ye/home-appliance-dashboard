@@ -1141,6 +1141,16 @@
       "confidence": "high",
       "isOfficialSource": true,
       "checkedAt": "2026-07-24"
+    },
+    {
+      "id": "washerdryer-panasonic-na-sd10tb",
+      "dimension": "尺寸：寬 60 x 深 65 x 高 96 cm",
+      "sourceUrl": "https://pmst.panasonic.com.tw/PSMIOUT/DL/DLFiles/3285/0_H_27456.pdf",
+      "sourceTitle": "NA-SD10TB 滾筒式洗衣乾衣機使用說明書",
+      "evidenceSnippet": "Panasonic 台灣官方 exact-model 使用說明書規格表列本體尺寸為寬 600 x 深 650 x 高 960 mm（不含進排水管）；本列轉為專案的寬 x 深 x 高 cm 格式。",
+      "confidence": "high",
+      "isOfficialSource": true,
+      "checkedAt": "2026-07-26"
     }
   ]
 }

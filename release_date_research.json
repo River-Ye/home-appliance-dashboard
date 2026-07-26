@@ -9741,6 +9741,51 @@
       "query": "TP-Link Deco BE77 release date launch 上市 發售",
       "sourceKind": "not_found_after_official_review",
       "reason": "TP-Link 台灣官方頁僅標示「新品」，2026 年 6 月活動頁只證明當時列入活動；未找到明確上市／發售日期。韌體與支援文件日期不作為產品上市日。"
+    },
+    {
+      "id": "monitor-asus-pa27usd",
+      "category": "monitor",
+      "brand": "ASUS",
+      "model": "PA27USD",
+      "name": "26.5 型 4K 240Hz QD-OLED 12G-SDI 專業創作者螢幕",
+      "releaseDate": "2026-05",
+      "sourceUrl": "https://press.asus.com/news/press-releases/asus-proart-oled-pa27usd-pa32usd-4k-qd-oled-monitors/",
+      "sourceTitle": "ASUS Announces ProArt OLED PA27USD and PA32USD 4K QD-OLED Monitors",
+      "evidenceSnippet": "ASUS 於 2026-05-11 的官方新聞稿明列 PA27USD，並說明 PA27USD 與 PA32USD 將於 2026 年 5 月前上市；證據只支持月份，不補成日級日期。",
+      "confidence": "official",
+      "query": "site:press.asus.com \"PA27USD\" \"available by May 2026\"",
+      "sourceKind": "official_press_release",
+      "reason": "官方公告日不是實際發售日，因此只採公告明示的 2026-05 上市月份。"
+    },
+    {
+      "id": "dishwasher-panasonic-np-2ktbgr1tw",
+      "category": "dishwasher",
+      "brand": "Panasonic",
+      "model": "NP-2KTBGR1TW",
+      "name": "60 公分 15 人份全嵌式自動洗碗烘乾機",
+      "releaseDate": "2023",
+      "sourceUrl": "https://www.mobile01.com/topicdetail.php?f=729&t=6825906",
+      "sourceTitle": "獨立烘乾更潔淨！Panasonic 嵌入式自動洗碗機 NP-2KTBGR1TW",
+      "evidenceSnippet": "Mobile01 於 2023-08-07 的 exact-model 實測明確寫 Panasonic「今年正式引進」NP-2KTBGR1TW；Panasonic 官方 2023-08-17 PoME 內容另可佐證當時已在台展示。",
+      "confidence": "credible_article",
+      "query": "\"Panasonic NP-2KTBGR1TW\" 正式引進 2023",
+      "sourceKind": "credible_article",
+      "reason": "可信媒體只明示 2023 年正式引進，官方 PoME 文章日期僅作市場存在佐證，因此不猜測月份或日期。"
+    },
+    {
+      "id": "washerdryer-panasonic-na-sd10tb",
+      "category": "washerdryer",
+      "brand": "Panasonic",
+      "model": "NA-SD10TB",
+      "name": "10.5/6kg 滾筒洗衣乾衣機",
+      "releaseDate": "2026",
+      "sourceUrl": "https://buy.line.me/u/article/620789",
+      "sourceTitle": "Panasonic 2026 春季新品登場：日製滾筒洗衣機、電鬍刀、吹風機、可變壓力 IH 電子鍋和咖啡機一次看",
+      "evidenceSnippet": "LINE 購物的 2026 春季新品整理明列 exact-model NA-SD10TB 為 2026 年新品；證據只支持年份，不以文章日期補成實際發售日。",
+      "confidence": "credible_article",
+      "query": "\"Panasonic NA-SD10TB\" 2026 春季新品",
+      "sourceKind": "credible_article",
+      "reason": "Panasonic 官方 2026-04-29 春季新品公告未明列 NA-SD10TB 型號，因此只以 exact-model 可信文章採 2026 年，不猜測月份或日期。"
     }
   ]
 }

@@ -30,6 +30,7 @@ const {
   trustedStructuredPrice,
   updateDashboardContractSource,
   updateDimensionCategoryCounts,
+  visiblePageText,
 } = require("./run-daily-catalog-maintenance");
 const { validateExplicitReview } = require("./mark-product-issue-review");
 const { validateExplicitReport, validateUniqueReportExcerpts } = require("./verified-product-issues");
@@ -444,6 +445,7 @@ async function main() {
       ["garmentcare-lg-r723wg", "DPAI1L-A900HWRUQ"],
       ["monitor-dell-aw3225qf", "DSABOK-A900HB1B5"],
       ["waterdispenser--uw-2262hw-1", "DMAWEM-A900GDIXH"],
+      ["washerdryer-panasonic-na-sd10tb", "DPAI1H-A900JXCDB"],
     ].every(([productId, pchomeProductId]) => isReviewedPchomeBinding(productId, pchomeProductId)),
     "manually verified exact-model PChome pages should keep their approved product bindings",
   );
@@ -489,6 +491,20 @@ async function main() {
   )[0];
   assert(retainedDiscontinuationReview.disposition === "false_positive_retained", "a same-date manual discontinuation review must survive a rerun");
   assert(retainedDiscontinuationReview.url === "https://www.breville.com/en-us/product/bov950", "a retained review must use the current candidate URL");
+  const brevillePageWithGlobalTranslation = `
+    <html>
+      <head><script>window.translations = {"legacyAlert":"This model has been discontinued."};</script></head>
+      <body><main><h1>Joule Oven Air Fryer Pro BOV950</h1><button>Add to cart</button></main></body>
+    </html>
+  `;
+  assert(
+    !isExplicitlyDiscontinued(visiblePageText(brevillePageWithGlobalTranslation)),
+    "hidden global translation strings must not create a discontinued-product candidate",
+  );
+  assert(
+    isExplicitlyDiscontinued(visiblePageText("<main><p>This model has been discontinued.</p></main>")),
+    "visible official product status must still create a discontinued-product candidate",
+  );
   assert(
     maintenanceReviewReady({ dataDate: "2026-07-22", categoryScan: [{ status: "manually_reviewed" }] }, "2026-07-22"),
     "same-date explicit category reviews should allow finalization",
@@ -549,6 +565,21 @@ async function main() {
       new Map([["washer", 24], ["dryer", 22], ["washerdryer", 26], ["refrigerator", 24], ["garmentcare", 20]]),
     ).includes('["garmentcare", 20]'),
     "catalog maintenance should synchronize dimension-category contract counts",
+  );
+  const duplicateDimensionCountSource = [
+    "const EXPECTED_CATEGORY_PRODUCT_COUNTS = new Map([",
+    '  ["washerdryer", 26],',
+    "]);",
+    "const DIMENSION_CATEGORY_COUNTS = new Map([",
+    '  ["washerdryer", 26],',
+    "]);",
+  ].join("\n");
+  assert(
+    (updateDimensionCategoryCounts(
+      duplicateDimensionCountSource,
+      new Map([["washerdryer", 27]]),
+    ).match(/\["washerdryer", 27\]/g) || []).length === 2,
+    "catalog maintenance should synchronize repeated category counts in both contract maps",
   );
   const historicalResearchFixture = {
     results: [

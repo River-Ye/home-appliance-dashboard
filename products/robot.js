@@ -1051,7 +1051,7 @@
     "price": {
       "currency": "EUR",
       "amount": 999,
-      "converted": 36770,
+      "converted": 36775,
       "confidence": "Boulanger 2026-07-21 來源價；ExchangeRate-API 2026-07-21 匯率換算"
     },
     "image": "https://boulanger.scene7.com/is/image/Boulanger/6972075738536_h_f_l_0?fmt=png-alpha&wid=640&hei=640",
@@ -1129,7 +1129,7 @@
     "price": {
       "currency": "USD",
       "amount": 551.69,
-      "converted": 17848,
+      "converted": 17847,
       "confidence": "Geekbuying 2026-07-21 來源價；ExchangeRate-API 2026-07-21 匯率換算"
     },
     "image": "https://img.gkbcdn.com/p/2025-04-11/Narwal-Freo-Z10-Ultra-Robot-Vacuum-with-Base-Station-Gray-528438-0._w315_.jpg",
@@ -2093,7 +2093,7 @@
     "price": {
       "currency": "USD",
       "amount": 999.99,
-      "converted": 32351,
+      "converted": 32349,
       "confidence": "SharkNinja US 2026-07-21 來源價；ExchangeRate-API 2026-07-21 匯率換算"
     },
     "image": "https://assets.sharkninja.com/image/upload/f_auto/q_auto/SharkNinja-NA/RV2820ZE_01.jpg",
