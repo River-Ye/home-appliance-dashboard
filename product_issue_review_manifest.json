@@ -1394,6 +1394,310 @@
       }
     },
     {
+      "id": "tv-aoc-70u8040",
+      "category": "tv",
+      "brand": "AOC",
+      "model": "70U8040",
+      "reviewedAt": "2026-07-26",
+      "reviewBatch": "tv",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "Mobile01",
+        "Reddit"
+      ],
+      "queries": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"AOC 70U8040\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22AOC%2070U8040%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"AOC 70U8040\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22AOC%2070U8040%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "targetHost": "reddit.com"
+        }
+      ],
+      "candidateDisposition": "70U8040：Mobile01 搜尋找到兩個同型號原頁，逐頁確認為正向屋主分享及比較串中的價格提及，均不是集中負評；Reddit 未找到同型號候選。",
+      "representativeSources": [
+        {
+          "platform": "Mobile01",
+          "title": "AOC 70U8040｜AOC雙11-高CP值螢幕分享",
+          "url": "https://www.mobile01.com/topicdetail.php?f=347&t=7041327"
+        },
+        {
+          "platform": "Mobile01",
+          "title": "AOC 70U8040｜小米 Q2 65 吋 4K - 小米 A pro 2025 65吋 4K",
+          "url": "https://www.mobile01.com/topicdetail.php?f=347&t=7005440"
+        }
+      ],
+      "reviewerNote": "70U8040 已於 2026-07-26 實際重跑 Mobile01、Reddit exact-model 查詢並開啟兩個 Mobile01 原頁；未找到跨兩個原始網站、至少 6 位獨立使用者的同一問題。",
+      "attestation": "manual_original_pages_reviewed",
+      "candidateReviews": [
+        {
+          "url": "https://www.mobile01.com/topicdetail.php?f=347&t=7041327",
+          "title": "AOC 70U8040｜AOC雙11-高CP值螢幕分享",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-07-26",
+          "sourceExcerpt": "樓主明確寫老家客廳使用 AOC 70U8040，家人喜歡 70 吋畫面並認為價格不錯，品質評為及格。",
+          "independentAuthors": 1,
+          "specificReason": "原頁是單一屋主的正向使用與價格分享，沒有回報可計入的負面問題，更未達 6 位獨立使用者及兩個原始網站門檻。"
+        },
+        {
+          "url": "https://www.mobile01.com/topicdetail.php?f=347&t=7005440",
+          "title": "AOC 70U8040｜小米 Q2 65 吋 4K - 小米 A pro 2025 65吋 4K",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-07-26",
+          "sourceExcerpt": "討論串回覆只列出 AOC 70U8040 的 4K QLED 規格與促銷價，沒有同型號第一人稱故障回報。",
+          "independentAuthors": 0,
+          "specificReason": "同型號只作為價格與規格比較候選，沒有第一人稱持有經驗或具體負評，不能計入集中災情作者。"
+        }
+      ],
+      "recheckNotes": {
+        "checkedAt": "2026-07-26",
+        "queryChecks": [
+          {
+            "platform": "Mobile01",
+            "status": 200,
+            "ok": true,
+            "resultCount": 9,
+            "exactModelCandidates": 2
+          },
+          {
+            "platform": "Reddit",
+            "status": 200,
+            "ok": true,
+            "resultCount": 9,
+            "exactModelCandidates": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "tv-jvc-70tg2",
+      "category": "tv",
+      "brand": "JVC",
+      "model": "70TG2",
+      "reviewedAt": "2026-07-26",
+      "reviewBatch": "tv",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "Mobile01",
+        "Reddit"
+      ],
+      "queries": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"JVC 70TG2\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22JVC%2070TG2%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"JVC 70TG2\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22JVC%2070TG2%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "targetHost": "reddit.com"
+        }
+      ],
+      "candidateDisposition": "70TG2：已重跑 Mobile01、Reddit 兩個獨立網站 exact-model 查詢，搜尋結果未留下符合型號邊界、需要開原頁處置的候選。",
+      "representativeSources": [],
+      "reviewerNote": "70TG2 已於 2026-07-26 實際重跑 Mobile01、Reddit 跨站 exact-model 搜尋；兩站搜尋均完成且未找到同型號候選，此結果不代表完全沒有負評。",
+      "attestation": "manual_cross_site_search_reviewed_no_candidate",
+      "candidateReviews": [],
+      "recheckNotes": {
+        "checkedAt": "2026-07-26",
+        "queryChecks": [
+          {
+            "platform": "Mobile01",
+            "status": 200,
+            "ok": true,
+            "resultCount": 10,
+            "exactModelCandidates": 0
+          },
+          {
+            "platform": "Reddit",
+            "status": 200,
+            "ok": true,
+            "resultCount": 10,
+            "exactModelCandidates": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "tv-philips-70pqt8169",
+      "category": "tv",
+      "brand": "Philips",
+      "model": "70PQT8169/96",
+      "reviewedAt": "2026-07-26",
+      "reviewBatch": "tv",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "Mobile01",
+        "Reddit"
+      ],
+      "queries": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Philips 70PQT8169/96\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Philips%2070PQT8169%2F96%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Philips 70PQT8169/96\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Philips%2070PQT8169%2F96%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "targetHost": "reddit.com"
+        }
+      ],
+      "candidateDisposition": "70PQT8169/96：已重跑 Mobile01、Reddit 兩個獨立網站 exact-model 查詢，搜尋結果未留下符合完整區域尾碼與型號邊界的原頁候選。",
+      "representativeSources": [],
+      "reviewerNote": "70PQT8169/96 已於 2026-07-26 實際重跑 Mobile01、Reddit 跨站 exact-model 搜尋；未拿其他區域尾碼或同系列型號替代，此結果不代表完全沒有負評。",
+      "attestation": "manual_cross_site_search_reviewed_no_candidate",
+      "candidateReviews": [],
+      "recheckNotes": {
+        "checkedAt": "2026-07-26",
+        "queryChecks": [
+          {
+            "platform": "Mobile01",
+            "status": 200,
+            "ok": true,
+            "resultCount": 9,
+            "exactModelCandidates": 0
+          },
+          {
+            "platform": "Reddit",
+            "status": 200,
+            "ok": true,
+            "resultCount": 9,
+            "exactModelCandidates": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "tv-philips-70pqt8159",
+      "category": "tv",
+      "brand": "Philips",
+      "model": "70PQT8159",
+      "reviewedAt": "2026-07-26",
+      "reviewBatch": "tv",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "Mobile01",
+        "Reddit"
+      ],
+      "queries": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Philips 70PQT8159\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Philips%2070PQT8159%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Philips 70PQT8159\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Philips%2070PQT8159%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "targetHost": "reddit.com"
+        }
+      ],
+      "candidateDisposition": "70PQT8159：Mobile01 找到一個同型號選購詢問原頁，逐頁確認沒有第一人稱持有或故障回報；Reddit 未找到同型號候選。",
+      "representativeSources": [
+        {
+          "platform": "Mobile01",
+          "title": "Philips 70PQT8159｜麻煩各位分析推薦一下",
+          "url": "https://www.mobile01.com/topicdetail.php?f=347&t=6982591"
+        }
+      ],
+      "reviewerNote": "70PQT8159 已於 2026-07-26 實際重跑 Mobile01、Reddit exact-model 查詢並開啟 Mobile01 候選；該頁只有選購提問，未形成可計入的集中負評。",
+      "attestation": "manual_original_pages_reviewed",
+      "candidateReviews": [
+        {
+          "url": "https://www.mobile01.com/topicdetail.php?f=347&t=6982591",
+          "title": "Philips 70PQT8159｜麻煩各位分析推薦一下",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-07-26",
+          "sourceExcerpt": "樓主把 Philips 70PQT8159 列為四台候選之一並詢問推薦，討論沒有同型號第一人稱故障回報。",
+          "independentAuthors": 0,
+          "specificReason": "原頁是購買前的規格與價格比較，不是實際持有者的具體負評；沒有可計入的獨立作者，更未達跨站門檻。"
+        }
+      ],
+      "recheckNotes": {
+        "checkedAt": "2026-07-26",
+        "queryChecks": [
+          {
+            "platform": "Mobile01",
+            "status": 200,
+            "ok": true,
+            "resultCount": 9,
+            "exactModelCandidates": 1
+          },
+          {
+            "platform": "Reddit",
+            "status": 200,
+            "ok": true,
+            "resultCount": 9,
+            "exactModelCandidates": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "tv-sampo-em70rf130",
+      "category": "tv",
+      "brand": "SAMPO",
+      "model": "EM-70RF130",
+      "reviewedAt": "2026-07-26",
+      "reviewBatch": "tv",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "Mobile01",
+        "Reddit"
+      ],
+      "queries": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"SAMPO EM-70RF130\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22SAMPO%20EM-70RF130%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"SAMPO EM-70RF130\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22SAMPO%20EM-70RF130%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "targetHost": "reddit.com"
+        }
+      ],
+      "candidateDisposition": "EM-70RF130：已重跑 Mobile01、Reddit 兩個獨立網站 exact-model 查詢，搜尋結果未留下符合型號邊界、需要開原頁處置的候選。",
+      "representativeSources": [],
+      "reviewerNote": "EM-70RF130 已於 2026-07-26 實際重跑 Mobile01、Reddit 跨站 exact-model 搜尋；兩站搜尋均完成且未找到同型號候選，此結果不代表完全沒有負評。",
+      "attestation": "manual_cross_site_search_reviewed_no_candidate",
+      "candidateReviews": [],
+      "recheckNotes": {
+        "checkedAt": "2026-07-26",
+        "queryChecks": [
+          {
+            "platform": "Mobile01",
+            "status": 200,
+            "ok": true,
+            "resultCount": 10,
+            "exactModelCandidates": 0
+          },
+          {
+            "platform": "Reddit",
+            "status": 200,
+            "ok": true,
+            "resultCount": 10,
+            "exactModelCandidates": 0
+          }
+        ]
+      }
+    },
+    {
       "id": "soundbar-samsung-q990f",
       "category": "soundbar",
       "brand": "Samsung",

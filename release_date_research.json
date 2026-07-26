@@ -1,13 +1,13 @@
 {
   "summary": {
-    "checkedAt": "2026-07-25T00:00:00+08:00",
-    "total": 697,
-    "found": 200,
-    "missing": 497,
+    "checkedAt": "2026-07-26T00:00:00+08:00",
+    "total": 705,
+    "found": 203,
+    "missing": 502,
     "byConfidence": {
-      "official": 100,
-      "credible_article": 89,
-      "not_found": 497,
+      "official": 101,
+      "credible_article": 91,
+      "not_found": 502,
       "retailer_explicit": 11
     }
   },
@@ -9786,6 +9786,81 @@
       "query": "\"Panasonic NA-SD10TB\" 2026 春季新品",
       "sourceKind": "credible_article",
       "reason": "Panasonic 官方 2026-04-29 春季新品公告未明列 NA-SD10TB 型號，因此只以 exact-model 可信文章採 2026 年，不猜測月份或日期。"
+    },
+    {
+      "id": "tv-aoc-70u8040",
+      "category": "tv",
+      "brand": "AOC",
+      "model": "70U8040",
+      "name": "70 型 4K QLED Google TV 智慧顯示器",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "query": "AOC 70U8040 release date launch 上市 發售",
+      "sourceKind": "not_found_after_official_review",
+      "reason": "已查 AOC 產品資訊、PChome exact-model 新品頁與 Mobile01 exact-model 使用心得；心得及零售頁日期只證明當時已在市場，未找到明確官方上市／發售日期，因此不以評論日或上架日代替。"
+    },
+    {
+      "id": "tv-jvc-70tg2",
+      "category": "tv",
+      "brand": "JVC",
+      "model": "70TG2",
+      "name": "70 吋 4K HDR webOS 智慧顯示器",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "query": "JVC 70TG2 release date launch 上市 發售",
+      "sourceKind": "not_found_after_official_review",
+      "reason": "已查 JVC 台灣 exact-model 產品頁、使用手冊與 PChome 新品頁；webOS 22、文件日期與零售頁上架狀態都不是上市日，未找到明確發售公告。"
+    },
+    {
+      "id": "tv-philips-70pqt8169",
+      "category": "tv",
+      "brand": "Philips",
+      "model": "70PQT8169/96",
+      "name": "70 型 4K QLED Google TV 智慧顯示器",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "query": "Philips 70PQT8169/96 release date launch 上市 發售",
+      "sourceKind": "not_found_after_official_review",
+      "reason": "已查 Philips 同型規格文件、PChome 台灣 /96 exact-model 新品頁與 Yahoo 評價頁；規格文件日期、評價日與上架狀態均不代表正式上市日，未找到可信發售公告。"
+    },
+    {
+      "id": "tv-philips-70pqt8159",
+      "category": "tv",
+      "brand": "Philips",
+      "model": "70PQT8159",
+      "name": "70 型 4K QLED Google TV 智慧顯示器",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "query": "Philips 70PQT8159 release date launch 上市 發售",
+      "sourceKind": "not_found_after_official_review",
+      "reason": "已查 PChome、Yahoo 與 Mobile01 exact-model 頁面；零售頁、討論串與評論日期只能證明當時已存在，未找到 Philips 官方明確上市／發售日期。"
+    },
+    {
+      "id": "tv-sampo-em70rf130",
+      "category": "tv",
+      "brand": "SAMPO",
+      "model": "EM-70RF130",
+      "name": "70 吋 4K Google TV 5.0 聯網智慧顯示器",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "query": "SAMPO EM-70RF130 release date launch 上市 發售",
+      "sourceKind": "not_found_after_official_review",
+      "reason": "已查 SAMPO exact-model 規格、全聯全電商、momo、Yahoo 與其他可信新品通路；商品頁及評價日期不是正式上市日，未找到原廠明確上市／發售公告。"
     }
   ]
 }
