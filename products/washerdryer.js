@@ -2151,11 +2151,11 @@
       "currency": "TWD",
       "amount": 99900,
       "converted": 99900,
-      "confidence": "全國電子 2026-07-24 exact-model 新品公開價"
+      "confidence": "Samsung 台灣 2026-07-26 exact-model 官方頁與建議售價"
     },
     "channel": "tw",
-    "buyLabel": "全國電子",
-    "buyUrl": "https://www.elifemall.com.tw/product/2163236",
+    "buyLabel": "Samsung 台灣官方（購買地點）",
+    "buyUrl": "https://www.samsung.com/tw/washers-and-dryers/washer-dryer-combo/wd90h27-22kg-dark-gray-wd90h22ahstw/",
     "specs": [
       "洗/乾容量：22kg / 20kg",
       "尺寸：寬 68.6 x 深 87.5 x 高 111 cm",

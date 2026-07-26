@@ -1,9 +1,9 @@
 {
   "summary": {
     "checkedAt": "2026-07-26T00:00:00+08:00",
-    "total": 705,
+    "total": 707,
     "commonIssueProducts": 36,
-    "noCommonIssueProducts": 669,
+    "noCommonIssueProducts": 671,
     "pendingManualReview": 0,
     "commonIssues": 36,
     "searchUnavailable": 25,
@@ -35426,21 +35426,22 @@
       "id": "knife-kyocera-16cm",
       "category": "knife",
       "brand": "Kyocera",
-      "model": "黑陶瓷中華刀 16cm",
-      "name": "Kyocera 黑陶瓷中華刀 16cm",
+      "model": "ZK-160BK",
+      "name": "Kyocera ZK-160BK 黑刃精密陶瓷刀 16cm",
       "identity": {
-        "canonicalModel": "黑陶瓷中華刀 16cm",
-        "lookupLabel": "Kyocera 黑陶瓷中華刀 16cm",
+        "canonicalModel": "ZK-160BK",
+        "lookupLabel": "Kyocera ZK-160BK",
         "aliases": [
-          "Kyocera 黑陶瓷中華刀 16cm"
+          "Kyocera ZK-160BK",
+          "Kyocera 黑刃精密陶瓷刀 16cm"
         ],
-        "evidenceUrl": "https://tw.buy.yahoo.com/gdsale/KYOCERA-%E4%BA%AC%E7%93%B7-%E6%97%A5%E6%9C%AC%E8%A3%BD%E9%BB%91%E9%99%B6%E7%93%B7%E4%B8%AD%E8%8F%AF%E6%96%99%E7%90%86%E5%88%80-16cm-12105465.html"
+        "evidenceUrl": "https://pxbox.es.pxmart.com.tw/product/189587"
       },
       "workflowStatus": "completed",
       "manualReview": {
         "status": "completed",
         "decision": "no_common_issue",
-        "reviewedAt": "2026-07-11",
+        "reviewedAt": "2026-07-26",
         "checkedPlatforms": [
           "Mobile01",
           "Reddit"
@@ -35448,39 +35449,39 @@
         "queries": [
           {
             "platform": "Mobile01",
-            "query": "site:mobile01.com \"Kyocera 黑陶瓷中華刀 16cm\" (災情 OR 問題 OR 故障 OR 負評)",
-            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Kyocera%20%E9%BB%91%E9%99%B6%E7%93%B7%E4%B8%AD%E8%8F%AF%E5%88%80%2016cm%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "query": "site:mobile01.com \"Kyocera ZK-160BK\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Kyocera%20ZK-160BK%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
             "targetHost": "mobile01.com"
           },
           {
             "platform": "Reddit",
-            "query": "site:reddit.com \"Kyocera 黑陶瓷中華刀 16cm\" (problem OR issue OR defect OR \"negative review\")",
-            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Kyocera%20%E9%BB%91%E9%99%B6%E7%93%B7%E4%B8%AD%E8%8F%AF%E5%88%80%2016cm%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
+            "query": "site:reddit.com \"Kyocera ZK-160BK\" (problem OR issue OR defect OR \"negative review\")",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Kyocera%20ZK-160BK%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
             "targetHost": "reddit.com"
           }
         ],
-        "candidateDisposition": "黑陶瓷中華刀 16cm：重新執行 Mobile01、Reddit exact-model 查詢，搜尋結果沒有 exact-model 原頁候選；此結果不代表完全沒有負評。",
+        "candidateDisposition": "ZK-160BK：2026-07-26 重新執行 Mobile01、Reddit exact-model 查詢，兩站均沒有通過 canonical-model 邊界的原頁候選；此結果不代表完全沒有負評。",
         "representativeSources": [],
         "candidateReviews": [],
-        "reviewerNote": "黑陶瓷中華刀 16cm 已於 2026-07-11 實際請求兩個 Bing RSS exact-model 跨站查詢；兩站均無 exact-model 原頁候選，維持 no_common_issue，未以搜尋摘要當作負評證據。",
+        "reviewerNote": "ZK-160BK 已於 2026-07-26 實際請求兩個 Bing RSS exact-model 跨站查詢；兩站均無 exact-model 原頁候選，維持 no_common_issue，未以搜尋摘要當作負評證據。",
         "attestation": "manual_cross_site_search_reviewed_no_candidate"
       },
       "issueResearch": {
         "status": "no_common_issue",
-        "checkedAt": "2026-07-11",
+        "checkedAt": "2026-07-26",
         "summary": "截至查核日，查無達門檻的集中負評／災情",
         "issues": [],
         "checkedSources": [
           {
             "platform": "Mobile01",
-            "query": "site:mobile01.com \"Kyocera 黑陶瓷中華刀 16cm\" (災情 OR 問題 OR 故障 OR 負評)",
-            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Kyocera%20%E9%BB%91%E9%99%B6%E7%93%B7%E4%B8%AD%E8%8F%AF%E5%88%80%2016cm%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "query": "site:mobile01.com \"Kyocera ZK-160BK\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Kyocera%20ZK-160BK%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
             "targetHost": "mobile01.com"
           },
           {
             "platform": "Reddit",
-            "query": "site:reddit.com \"Kyocera 黑陶瓷中華刀 16cm\" (problem OR issue OR defect OR \"negative review\")",
-            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Kyocera%20%E9%BB%91%E9%99%B6%E7%93%B7%E4%B8%AD%E8%8F%AF%E5%88%80%2016cm%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
+            "query": "site:reddit.com \"Kyocera ZK-160BK\" (problem OR issue OR defect OR \"negative review\")",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Kyocera%20ZK-160BK%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
             "targetHost": "reddit.com"
           }
         ]
@@ -35488,23 +35489,23 @@
       "searchChecks": [
         {
           "platform": "Mobile01",
-          "query": "site:mobile01.com \"Kyocera 黑陶瓷中華刀 16cm\" (災情 OR 問題 OR 故障 OR 負評)",
-          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Kyocera%20%E9%BB%91%E9%99%B6%E7%93%B7%E4%B8%AD%E8%8F%AF%E5%88%80%2016cm%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "query": "site:mobile01.com \"Kyocera ZK-160BK\" (災情 OR 問題 OR 故障 OR 負評)",
+          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Kyocera%20ZK-160BK%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "result": "no_exact_model_result",
           "resultCount": 0,
           "candidateUrls": [],
           "candidates": [],
-          "inspectedAt": "2026-07-11T00:00:00+08:00"
+          "inspectedAt": "2026-07-26T17:50:00+08:00"
         },
         {
           "platform": "Reddit",
-          "query": "site:reddit.com \"Kyocera 黑陶瓷中華刀 16cm\" (problem OR issue OR defect OR \"negative review\")",
-          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Kyocera%20%E9%BB%91%E9%99%B6%E7%93%B7%E4%B8%AD%E8%8F%AF%E5%88%80%2016cm%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
+          "query": "site:reddit.com \"Kyocera ZK-160BK\" (problem OR issue OR defect OR \"negative review\")",
+          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Kyocera%20ZK-160BK%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
           "result": "no_exact_model_result",
           "resultCount": 0,
           "candidateUrls": [],
           "candidates": [],
-          "inspectedAt": "2026-07-11T00:00:00+08:00"
+          "inspectedAt": "2026-07-26T17:50:00+08:00"
         }
       ],
       "evidence": [],
@@ -71318,6 +71319,325 @@
           "independentAuthors": 0,
           "specificReason": "整頁是安裝結構詢問，沒有任何 exact-model 第一人稱負面問題；安裝限制本身不等於災情，也未形成跨站使用者回報。",
           "reason": "整頁是安裝結構詢問，沒有任何 exact-model 第一人稱負面問題；安裝限制本身不等於災情，也未形成跨站使用者回報。"
+        }
+      ]
+    },
+    {
+      "id": "tv-lg-g6-65",
+      "category": "tv",
+      "brand": "LG",
+      "model": "OLED65G6PTA",
+      "name": "65 型 OLED evo G6 4K 智慧顯示器",
+      "identity": {
+        "canonicalModel": "OLED65G6PTA",
+        "lookupLabel": "LG OLED65G6PTA",
+        "aliases": [
+          "LG OLED65G6PTA"
+        ],
+        "evidenceUrl": "https://www.lg.com/tw/tv-soundbars/oled-evo/oled65g6pta/"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "status": "completed",
+        "decision": "no_common_issue",
+        "reviewedAt": "2026-07-26",
+        "checkedPlatforms": [
+          "Mobile01",
+          "Reddit"
+        ],
+        "queries": [
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"LG OLED65G6PTA\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22LG%20OLED65G6PTA%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "mobile01.com"
+          },
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"LG OLED65G6PTA\" (problem OR issue OR defect OR \"negative review\")",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22LG%20OLED65G6PTA%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
+            "targetHost": "reddit.com"
+          }
+        ],
+        "candidateDisposition": "OLED65G6PTA：已用 Bing RSS 完成 Mobile01 與 Reddit exact-model 跨站查詢，兩次請求皆為 HTTP 200，且未發現通過 canonical-model 邊界的原頁候選；此結果不代表完全沒有負評。",
+        "representativeSources": [],
+        "candidateReviews": [],
+        "reviewerNote": "OLED65G6PTA 於 2026-07-26 以 Bing RSS 完成 Mobile01、Reddit exact-model 查詢；兩站皆為 0 個 exact-model 候選，決策為 no_common_issue。",
+        "attestation": "manual_cross_site_search_reviewed_no_candidate"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-07-26",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"LG OLED65G6PTA\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22LG%20OLED65G6PTA%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "mobile01.com"
+          },
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"LG OLED65G6PTA\" (problem OR issue OR defect OR \"negative review\")",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22LG%20OLED65G6PTA%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
+            "targetHost": "reddit.com"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"LG OLED65G6PTA\" (災情 OR 問題 OR 故障 OR 負評)",
+          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22LG%20OLED65G6PTA%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-07-26T17:10:00+08:00"
+        },
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"LG OLED65G6PTA\" (problem OR issue OR defect OR \"negative review\")",
+          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22LG%20OLED65G6PTA%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-07-26T17:10:00+08:00"
+        }
+      ],
+      "evidence": [],
+      "rejectedCandidates": []
+    },
+    {
+      "id": "monitor-benq-pd2770u",
+      "category": "monitor",
+      "brand": "BenQ",
+      "model": "PD2770U",
+      "name": "27 型 4K 內建校色器專業色彩管理螢幕",
+      "identity": {
+        "canonicalModel": "PD2770U",
+        "lookupLabel": "BenQ PD2770U",
+        "aliases": [
+          "BenQ PD2770U",
+          "PD2770U"
+        ],
+        "evidenceUrl": "https://www.benq.com/zh-tw/monitor/creative-pro/pd2770u.html"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "status": "completed",
+        "decision": "no_common_issue",
+        "reviewedAt": "2026-07-26",
+        "checkedPlatforms": [
+          "Mobile01",
+          "Reddit",
+          "Digital Camera World"
+        ],
+        "queries": [
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"BenQ PD2770U\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Amobile01.com%20%22BenQ%20PD2770U%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "mobile01.com"
+          },
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"BenQ PD2770U\" (problem OR issue OR defect OR negative review)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22BenQ%20PD2770U%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+            "targetHost": "reddit.com"
+          }
+        ],
+        "candidateDisposition": "PD2770U：已開啟 Mobile01、Reddit 與 exact-model 專業評測原頁；Mobile01 標題候選正文實為 PD2732U，Reddit 為品牌新聞，單一評測樣機的色差結果亦未達至少 6 位且跨 2 個原始網站門檻。",
+        "representativeSources": [
+          {
+            "platform": "Reddit",
+            "url": "https://www.reddit.com/r/BenQ/comments/1o8wg90/",
+            "title": "【News】Meet the BenQ PD2770U — Our latest professional monitor built for studios"
+          },
+          {
+            "platform": "Digital Camera World",
+            "url": "https://www.digitalcameraworld.com/tech/monitors/benq-pd2770u-monitor-review",
+            "title": "BenQ PD2770U monitor review"
+          },
+          {
+            "platform": "Reddit",
+            "url": "https://www.reddit.com/r/ColorGrading/comments/1pqxdgm/help_needed_with_choosing_the_right_monitor/",
+            "title": "Help needed with choosing the right monitor (BenQ PD2770U)"
+          },
+          {
+            "platform": "Reddit",
+            "url": "https://www.reddit.com/r/Monitors/comments/1u74a7w/monitor_for_photo_editing/",
+            "title": "Monitor for photo editing (BenQ PD2770U)"
+          }
+        ],
+        "candidateReviews": [
+          {
+            "url": "https://www.reddit.com/r/BenQ/comments/1o8wg90/",
+            "title": "【News】Meet the BenQ PD2770U — Our latest professional monitor built for studios",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-07-26",
+            "sourceExcerpt": "BenQ 品牌帳號介紹 PD2770U 的內建校色器與工作室定位；留言僅詢問 24 吋版本及希望其他 PD 系列附遮光罩。",
+            "independentAuthors": 0,
+            "specificReason": "這是品牌新聞與功能需求留言，沒有 PD2770U 持有者第一人稱故障、瑕疵或負面使用經驗，不能計入災情人數。"
+          },
+          {
+            "url": "https://www.digitalcameraworld.com/tech/monitors/benq-pd2770u-monitor-review",
+            "title": "BenQ PD2770U monitor review",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-07-26",
+            "sourceExcerpt": "單一評測樣機的出廠 Delta E 為 1.58，略高於官方平均值不超過 1.5 的目標；人工校色後降至 0.97。",
+            "independentAuthors": 1,
+            "specificReason": "只有一位專業評測者在單一網站的一台樣機測得差異，且重新校色後改善；未達同一問題至少 6 位獨立使用者並跨 2 個原始網站的門檻。"
+          },
+          {
+            "url": "https://www.reddit.com/r/ColorGrading/comments/1pqxdgm/help_needed_with_choosing_the_right_monitor/",
+            "title": "Help needed with choosing the right monitor (BenQ PD2770U)",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-07-26",
+            "sourceExcerpt": "發文者把 PD2770U 列入待購螢幕比較，徵詢色彩工作用機建議；沒有同型號持有、故障或負面使用經驗。",
+            "independentAuthors": 0,
+            "specificReason": "這是購買前選擇討論，沒有可計入的 PD2770U 第一人稱使用者災情報告。"
+          },
+          {
+            "url": "https://www.reddit.com/r/Monitors/comments/1u74a7w/monitor_for_photo_editing/",
+            "title": "Monitor for photo editing (BenQ PD2770U)",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-07-26",
+            "sourceExcerpt": "留言將 PD2770U 當作攝影修圖候選，發文者只回覆價格超出預算；沒有同型號持有、故障或負面使用經驗。",
+            "independentAuthors": 0,
+            "specificReason": "這是型號推薦與價格取捨，沒有可計入的 PD2770U 第一人稱使用者災情報告。"
+          }
+        ],
+        "reviewerNote": "PD2770U 於 2026-07-26 完成 Mobile01、Reddit 與 Digital Camera World 原頁覆核；沒有可計數的跨站集中問題，決策維持 no_common_issue。",
+        "attestation": "manual_original_pages_reviewed"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-07-26",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"BenQ PD2770U\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Amobile01.com%20%22BenQ%20PD2770U%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "mobile01.com"
+          },
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"BenQ PD2770U\" (problem OR issue OR defect OR negative review)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22BenQ%20PD2770U%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+            "targetHost": "reddit.com"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"BenQ PD2770U\" (災情 OR 問題 OR 故障 OR 負評)",
+          "searchUrl": "https://search.yahoo.com/search?q=site%3Amobile01.com%20%22BenQ%20PD2770U%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-07-26T17:25:00+08:00"
+        },
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"BenQ PD2770U\" (problem OR issue OR defect OR negative review)",
+          "searchUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22BenQ%20PD2770U%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "result": "candidates_unverified_by_search_only",
+          "resultCount": 3,
+          "candidateUrls": [
+            "https://www.reddit.com/r/BenQ/comments/1o8wg90/",
+            "https://www.reddit.com/r/ColorGrading/comments/1pqxdgm/help_needed_with_choosing_the_right_monitor/",
+            "https://www.reddit.com/r/Monitors/comments/1u74a7w/monitor_for_photo_editing/"
+          ],
+          "candidates": [
+            {
+              "url": "https://www.reddit.com/r/BenQ/comments/1o8wg90/",
+              "title": "【News】Meet the BenQ PD2770U — Our latest professional monitor built for studios"
+            },
+            {
+              "url": "https://www.reddit.com/r/ColorGrading/comments/1pqxdgm/help_needed_with_choosing_the_right_monitor/",
+              "title": "Help needed with choosing the right monitor (BenQ PD2770U)"
+            },
+            {
+              "url": "https://www.reddit.com/r/Monitors/comments/1u74a7w/monitor_for_photo_editing/",
+              "title": "Monitor for photo editing (BenQ PD2770U)"
+            }
+          ],
+          "inspectedAt": "2026-07-26T17:25:00+08:00"
+        },
+        {
+          "platform": "Digital Camera World",
+          "query": "BenQ PD2770U monitor review Delta E",
+          "searchUrl": "https://www.digitalcameraworld.com/tech/monitors/benq-pd2770u-monitor-review",
+          "result": "candidates_unverified_by_search_only",
+          "resultCount": 1,
+          "candidateUrls": [
+            "https://www.digitalcameraworld.com/tech/monitors/benq-pd2770u-monitor-review"
+          ],
+          "candidates": [
+            {
+              "url": "https://www.digitalcameraworld.com/tech/monitors/benq-pd2770u-monitor-review",
+              "title": "BenQ PD2770U monitor review"
+            }
+          ],
+          "inspectedAt": "2026-07-26T17:25:00+08:00"
+        }
+      ],
+      "evidence": [],
+      "rejectedCandidates": [
+        {
+          "url": "https://www.reddit.com/r/BenQ/comments/1o8wg90/",
+          "title": "【News】Meet the BenQ PD2770U — Our latest professional monitor built for studios",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-07-26",
+          "sourceExcerpt": "BenQ 品牌帳號介紹 PD2770U 的內建校色器與工作室定位；留言僅詢問 24 吋版本及希望其他 PD 系列附遮光罩。",
+          "independentAuthors": 0,
+          "specificReason": "這是品牌新聞與功能需求留言，沒有 PD2770U 持有者第一人稱故障、瑕疵或負面使用經驗，不能計入災情人數。",
+          "reason": "這是品牌新聞與功能需求留言，沒有 PD2770U 持有者第一人稱故障、瑕疵或負面使用經驗，不能計入災情人數。"
+        },
+        {
+          "url": "https://www.digitalcameraworld.com/tech/monitors/benq-pd2770u-monitor-review",
+          "title": "BenQ PD2770U monitor review",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-07-26",
+          "sourceExcerpt": "單一評測樣機的出廠 Delta E 為 1.58，略高於官方平均值不超過 1.5 的目標；人工校色後降至 0.97。",
+          "independentAuthors": 1,
+          "specificReason": "只有一位專業評測者在單一網站的一台樣機測得差異，且重新校色後改善；未達同一問題至少 6 位獨立使用者並跨 2 個原始網站的門檻。",
+          "reason": "只有一位專業評測者在單一網站的一台樣機測得差異，且重新校色後改善；未達同一問題至少 6 位獨立使用者並跨 2 個原始網站的門檻。"
+        },
+        {
+          "url": "https://www.reddit.com/r/ColorGrading/comments/1pqxdgm/help_needed_with_choosing_the_right_monitor/",
+          "title": "Help needed with choosing the right monitor (BenQ PD2770U)",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-07-26",
+          "sourceExcerpt": "發文者把 PD2770U 列入待購螢幕比較，徵詢色彩工作用機建議；沒有同型號持有、故障或負面使用經驗。",
+          "independentAuthors": 0,
+          "specificReason": "這是購買前選擇討論，沒有可計入的 PD2770U 第一人稱使用者災情報告。",
+          "reason": "這是購買前選擇討論，沒有可計入的 PD2770U 第一人稱使用者災情報告。"
+        },
+        {
+          "url": "https://www.reddit.com/r/Monitors/comments/1u74a7w/monitor_for_photo_editing/",
+          "title": "Monitor for photo editing (BenQ PD2770U)",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-07-26",
+          "sourceExcerpt": "留言將 PD2770U 當作攝影修圖候選，發文者只回覆價格超出預算；沒有同型號持有、故障或負面使用經驗。",
+          "independentAuthors": 0,
+          "specificReason": "這是型號推薦與價格取捨，沒有可計入的 PD2770U 第一人稱使用者災情報告。",
+          "reason": "這是型號推薦與價格取捨，沒有可計入的 PD2770U 第一人稱使用者災情報告。"
         }
       ]
     }

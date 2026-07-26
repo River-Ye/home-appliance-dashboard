@@ -432,9 +432,9 @@
     "image": "https://cs-a.ecimg.tw/items/DEAWRUA900HDL2T/000001_1712729313.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 3494,
-      "converted": 3494,
-      "confidence": "PChome 24h 低價查核"
+      "amount": 3319,
+      "converted": 3319,
+      "confidence": "PChome 2026-07-26 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -841,45 +841,45 @@
     "rank": 11,
     "topPick": false,
     "brand": "Kyocera",
-    "model": "黑陶瓷中華刀 16cm",
-    "name": "Kyocera 黑陶瓷中華刀 16cm",
-    "image": "https://cs-a.ecimg.tw/items/DEAGL1A900K0YA8/000001_1779182108.jpg",
+    "model": "ZK-160BK",
+    "name": "Kyocera ZK-160BK 黑刃精密陶瓷刀 16cm",
+    "image": "https://b2eimg.pxec.com.tw/00210605/8265d7d9ec45437b8526e81713d90d8f.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 1999,
-      "converted": 1999,
-      "confidence": "Yahoo購物中心 2026-07-21 頁面公開價"
+      "amount": 2199,
+      "converted": 2199,
+      "confidence": "全聯全電商 2026-07-26 exact-model 公開價"
     },
     "channel": "tw",
-    "buyLabel": "Yahoo購物中心",
-    "buyUrl": "https://tw.buy.yahoo.com/gdsale/KYOCERA-%E4%BA%AC%E7%93%B7-%E6%97%A5%E6%9C%AC%E8%A3%BD%E9%BB%91%E9%99%B6%E7%93%B7%E4%B8%AD%E8%8F%AF%E6%96%99%E7%90%86%E5%88%80-16cm-12105465.html",
+    "buyLabel": "全聯全電商",
+    "buyUrl": "https://pxbox.es.pxmart.com.tw/product/189587",
     "specs": [
-      "刀具：Kyocera 黑陶瓷中華料理刀",
-      "KYOCERA_京瓷日本黑刃精密陶瓷料理刀 (16cm) 中式菜刀 陶瓷刀",
-      "刀型/刃長依商品頁標示",
-      "PChome 24h 可信通路低價",
-      "排除刮鬍刀/刀架/配件"
+      "商品料號：ZK-160BK",
+      "刀刃：16cm 精密陶瓷（二氧化鋯）",
+      "刀柄：聚丙烯 / ABS 樹脂",
+      "陶瓷刀刃日本製；整體產地依通路頁標示為中國",
+      "原廠台灣代理商商品"
     ],
-    "description": "以主廚刀、三德刀、牛刀與陶瓷刀為主，兼顧鋼材口碑、好磨好養、握持舒適與台灣通路可得性。",
+    "description": "ZK-160BK 是 16cm 黑刃精密陶瓷刀，刀身輕、不生鏽且不易把金屬味帶入食材，適合蔬果與去骨肉類的日常切片。",
     "pros": [
-      "涵蓋日系、德系、瑞士與陶瓷刀品牌",
-      "多數為廚房主力刀型",
-      "同型號以可信通路低價查核"
+      "16cm 尺寸可作為日常蔬果與去骨肉類主力刀",
+      "精密陶瓷不生鏽、不易殘留金屬味",
+      "全聯全電商 exact-model 頁可直接購買"
     ],
     "cons": [
-      "鋼刀需定期磨刀與擦乾",
-      "陶瓷刀不適合砍骨與硬食材",
-      "握把手感仍建議實際確認"
+      "不可切冷凍食品、骨頭、玉米等硬食材",
+      "避免剁、撬、摔落與硬質砧板，否則可能崩刃或斷裂",
+      "不能使用一般鋼刀磨刀器"
     ],
-    "bestFor": "想從一把主力刀或一組入門刀具開始升級備餐效率的人。",
-    "recommendation": "刀具第 11 推薦：Kyocera 黑陶瓷中華刀 16cm 在價格、評價、品牌通路與售後取得性之間表現均衡，適合納入同類比較。",
+    "bestFor": "想要輕量、抗鏽且主要處理蔬果與去骨肉類的日常備餐使用者。",
+    "recommendation": "刀具第 11 推薦：ZK-160BK 適合偏好輕量陶瓷刀與低金屬味的人；若常切骨、冷凍食材或需要拍蒜，應改選韌性較高的鋼刀。",
     "voltage": "無電壓需求；需注意刀刃材質、磨刀方式與收納安全",
-    "warranty": "依 PChome 24h 與品牌/供應商頁面標示",
+    "warranty": "依全聯全電商與原廠台灣代理商頁面標示；陶瓷刀屬易耗品，崩刃與不當使用通常不在保固範圍",
     "score": 84,
     "budget": "mid",
     "tags": [
       "陶瓷刀",
-      "中華料理",
+      "ZK-160BK",
       "刀具",
       "廚房",
       "主廚刀"
@@ -887,34 +887,34 @@
     "category": "knife",
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "found",
-      "amount": 1560,
+      "status": "not_found",
+      "amount": null,
       "currency": "TWD",
-      "converted": 1560,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1281991832&cgp=1640",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【KYOCERA 京瓷】日本製黑陶瓷中華料理刀-16cm",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Yahoo購物中心 / 【KYOCERA 京瓷】日本製黑陶瓷中華料理刀-16cm」最低價為 NT$1,560，最低點日期 2026-06-18。",
-      "sourceKind": "price_history",
-      "confidence": "high",
-      "checkedAt": "2026-07-09",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-07-26",
+      "note": "已查全聯全電商、PChome、momo、HOTAI購與比價索引；排除首購價、會員券、點數與無法重現的快取價格後，找不到 ZK-160BK 可公開驗證的可信新品歷史最低價。"
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-11",
+      "checkedAt": "2026-07-26",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
-          "query": "site:mobile01.com \"Kyocera 黑陶瓷中華刀 16cm\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Kyocera%20%E9%BB%91%E9%99%B6%E7%93%B7%E4%B8%AD%E8%8F%AF%E5%88%80%2016cm%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "query": "site:mobile01.com \"Kyocera ZK-160BK\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Kyocera%20ZK-160BK%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "site:reddit.com \"Kyocera 黑陶瓷中華刀 16cm\" (problem OR issue OR defect OR \"negative review\")",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Kyocera%20%E9%BB%91%E9%99%B6%E7%93%B7%E4%B8%AD%E8%8F%AF%E5%88%80%2016cm%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
+          "query": "site:reddit.com \"Kyocera ZK-160BK\" (problem OR issue OR defect OR \"negative review\")",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Kyocera%20ZK-160BK%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
           "targetHost": "reddit.com"
         }
       ]
@@ -1259,9 +1259,9 @@
     "name": "萬用刀 12cm",
     "price": {
       "currency": "TWD",
-      "amount": 13440,
-      "converted": 13440,
-      "confidence": "PChome 2026-07-21 API 公開價"
+      "amount": 12768,
+      "converted": 12768,
+      "confidence": "PChome 2026-07-26 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DEBM2CA900J9CYP/000001_1758097012.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DEBM2C-A900J9CYP",
@@ -1294,16 +1294,16 @@
     "releaseDate": "2022",
     "historicalLow": {
       "status": "found",
-      "amount": 13272,
+      "amount": 12768,
       "currency": "TWD",
-      "converted": 13272,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1249105134&cgp=13440",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【WMF官方直營】WMF Ultimate 萬用刀(12cm)",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【WMF官方直營】WMF Ultimate 萬用刀(12cm)」最低價為 NT$13,272，最低點日期 2025-07-29。",
-      "sourceKind": "price_history",
-      "confidence": "high",
-      "checkedAt": "2026-07-09",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+      "converted": 12768,
+      "sourceUrl": "https://24h.pchome.com.tw/prod/DEBM2C-A900J9CYP",
+      "sourceTitle": "PChome 24h 購物：WMF Ultimate 萬用刀 12cm",
+      "evidenceSnippet": "PChome 24h 購物於 2026-07-26 顯示同型號可信新品公開價 NT$12,768，低於既有史低 NT$13,272。",
+      "sourceKind": "retailer_page",
+      "confidence": "medium",
+      "checkedAt": "2026-07-26",
+      "note": "採用 PChome 24h 購物當日可購商品的同型號新品公開價；不含會員券、點數、信用卡回饋、二手、福利、展示、拆封或整新品。"
     },
     "issueResearch": {
       "status": "no_common_issue",

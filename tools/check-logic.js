@@ -14,6 +14,7 @@ const { matchesPchomeProductId, selectPchomeCurrentPrice } = require("./pchome-p
 const {
   normalizeExchangeDate,
   replaceMarkerBlock,
+  renderMaintenanceSummary,
   updateReadmeMetadata,
 } = require("./update-maintenance-metadata");
 const {
@@ -441,15 +442,42 @@ async function main() {
   );
   assert(
     [
+      ["blender-extra-8-dmay0g-a900agmd8", "DMAY0G-A900AGMD8"],
+      ["blender-extra-9-qbao0f-a900as2dj", "QBAO0F-A900AS2DJ"],
+      ["blender-extra-16-dmay01a900gfjco", "DMAY01-A900GFJCO"],
+      ["cookware-extra-17-deawmja900jmza5", "DEAWMJ-A900JMZA5"],
+      ["cookware-extra-19-dees01a900iq6x3", "DEES01-A900IQ6X3"],
+      ["cookware-fissler-levital-28cm", "DEAWED-A900HZZIP"],
+      ["cookware-wmf-astoria-20cm-2-5l", "DEAWMJ-A900JN626"],
+      ["cookware-wmf-durado-24cm", "DEAWMW-A900JCBKJ"],
+      ["cookware-zwilling-joy-plus-24cm", "DEAWMW-A900J5MY9"],
+      ["dishwasher-asko-dbi544id-w-tw", "DMBR16-A900HZZEG"],
       ["dishwasher-haier-h500", "DMBR25-A900IUNDB"],
+      ["dryer-panasonic-nh-80rz-w", "DPAI1H-A900I7ZB7"],
       ["garmentcare-lg-r723wg", "DPAI1L-A900HWRUQ"],
+      ["knife-extra-17-debm2ca900j9cyp", "DEBM2C-A900J9CYP"],
+      ["knife-wmf-18cm", "DEAWRU-A900HDL2T"],
       ["monitor-dell-aw3225qf", "DSABOK-A900HB1B5"],
+      ["standingdesk-irocks-d01-120", "DQBJ4C-A900I9XVY"],
+      ["standingdesk-irocks-d01-150", "DQBJ4C-A900HUG3C"],
+      ["standingdesk-irocks-d01-160", "DQBJ4C-A900ITV12"],
+      ["standingdesk-irocks-d01-180", "DQBJ4C-A900HUGSO"],
+      ["tv-extra-8-dpad09-a900j9faz", "DPAD09-A900J9FAZ"],
       ["tv-jvc-70tg2", "DPADK9-A900HY2CU"],
       ["tv-philips-70pqt8159", "DPADIK-A900K0GIF"],
+      ["vac-lg-a9x", "DMAX8K-A900HLX9W"],
       ["waterdispenser--uw-2262hw-1", "DMAWEM-A900GDIXH"],
       ["washerdryer-panasonic-na-sd10tb", "DPAI1H-A900JXCDB"],
     ].every(([productId, pchomeProductId]) => isReviewedPchomeBinding(productId, pchomeProductId)),
     "manually verified exact-model PChome pages should keep their approved product bindings",
+  );
+  assert(
+    [
+      ["blender-xiaomi-mjpbj01demtw", "DMAYFG-A900IXDP8"],
+      ["smartlock-panasonic-g11", "DQBS4N-A900K1WBU"],
+      ["wifi-asus-zenwifi-bd5-2pack", "DRAF01-A900I3ETA"],
+    ].every(([productId, pchomeProductId]) => !isReviewedPchomeBinding(productId, pchomeProductId)),
+    "generic or conflicting PChome titles must remain outside the reviewed bindings",
   );
   assert(
     !isReviewedPchomeBinding("robot-ecovacs-x11-pro", "DMBL0L-A900IDIPA"),
@@ -747,6 +775,44 @@ async function main() {
       { dataDate: "2026-07-23" },
     ) === "純前端靜態頁面，整理 2026-07-23 查核的家電推薦清單。",
     "maintenance metadata sync should refresh the README overview date",
+  );
+  assert(
+    renderMaintenanceSummary({
+      checkedAt: "2026-07-26T09:57:00.000Z",
+      summary: {
+        finalProducts: 707,
+        categories: 26,
+        pchomeAudited: 415,
+        pchomeExactModelVerified: 266,
+        pchomeReviewedBindingVerified: 32,
+        pchomeModelUnverified: 91,
+        priceChanges: 21,
+        priceDrops: 19,
+        priceRises: 2,
+        pchomeOutOfStockTracked: 22,
+        newProductsAdded: ["tv-lg-g6-65", "monitor-benq-pd2770u"],
+        discontinuedRemoved: [],
+        minimumProductsPerCategory: 20,
+        imagesAudited: 707,
+        sourcesVerifiedAvailable: 549,
+        sourceExceptions: 158,
+        imageExceptions: 0,
+        historicalFound: 443,
+        historicalMissing: 264,
+        historicalLowPriceChanges: 3,
+        historicalSourcesVerified: 54,
+        foreignPricesRecomputed: 30,
+      },
+      changes: {
+        historicalLows: [
+          { before: 2_499, after: 2_374 },
+          { before: 13_272, after: 12_768 },
+          { before: 1_560, after: null },
+        ],
+      },
+      exchange: { date: "2026-07-26 00:02 UTC", USD_TWD: 32.349719 },
+    }).includes("本輪下修 2 筆、撤銷 1 筆不適用史低"),
+    "maintenance summary should distinguish lowered historical prices from invalidated evidence",
   );
   assert(
     tokenizedIdentity("  ＡＳＵＳ RT－BE58U / V2  ").join(",") === "asus,rt,be58u,v2",

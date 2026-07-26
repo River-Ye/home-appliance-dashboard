@@ -267,9 +267,9 @@
     "image": "https://cs-a.ecimg.tw/items/DEAWMWA900JCBKJ/000001_1760418137.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 2690,
-      "converted": 2690,
-      "confidence": "PChome 2026-07-16 API 公開價"
+      "amount": 2555,
+      "converted": 2555,
+      "confidence": "PChome 2026-07-26 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -433,9 +433,9 @@
     "image": "https://cs-a.ecimg.tw/items/DEAWMWA900J5MY9/000001_1756189443.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 2499,
-      "converted": 2499,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 2374,
+      "converted": 2374,
+      "confidence": "PChome 2026-07-26 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -475,16 +475,16 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 2499,
+      "amount": 2374,
       "currency": "TWD",
-      "converted": 2499,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1282991043&cgp=2499",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：ZWILLING 雙人牌 Joy Plus 不鏽鋼深鍋 24cm 不鏽鋼鍋 平底鍋 炒鍋",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「PCHome購物 / ZWILLING 雙人牌 Joy Plus 不鏽鋼深鍋 24cm 不鏽鋼鍋 平底鍋 炒鍋」最低價為 NT$2,499，最低點日期 2026-07-09。",
-      "sourceKind": "price_history",
+      "converted": 2374,
+      "sourceUrl": "https://24h.pchome.com.tw/prod/DEAWMW-A900J5MY9",
+      "sourceTitle": "PChome 24h 購物：Zwilling 雙人牌 Joy Plus 不鏽鋼不沾深鍋 24cm (電磁爐 IH爐可用)",
+      "evidenceSnippet": "PChome 24h 購物於 2026-07-26 顯示同型號可信新品公開價 NT$2,374，低於既有史低 NT$2,499。",
+      "sourceKind": "retailer_page",
       "confidence": "medium",
-      "checkedAt": "2026-07-09",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+      "checkedAt": "2026-07-26",
+      "note": "採用 PChome 24h 購物當日可購商品的同型號新品公開價；不含會員券、點數、信用卡回饋、二手、福利、展示、拆封或整新品。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -683,9 +683,9 @@
     "image": "https://cs-a.ecimg.tw/items/DEAWMJA900JN626/000001_1768377713.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 1782,
-      "converted": 1782,
-      "confidence": "PChome 2026-07-18 API 公開價"
+      "amount": 1584,
+      "converted": 1584,
+      "confidence": "PChome 2026-07-26 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -766,9 +766,9 @@
     "image": "https://cs-a.ecimg.tw/items/DEAWEDA900HZZIP/000001_1767158620.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 2860,
-      "converted": 2860,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 2717,
+      "converted": 2717,
+      "confidence": "PChome 2026-07-26 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -1345,9 +1345,9 @@
     "name": "陶晶壺型鍋 1.7L",
     "price": {
       "currency": "TWD",
-      "amount": 7020,
-      "converted": 7020,
-      "confidence": "PChome 2026-07-18 API 公開價"
+      "amount": 6240,
+      "converted": 6240,
+      "confidence": "PChome 2026-07-26 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DEAWMJA900JMZA5/000001_1768290148.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DEAWMJ-A900JMZA5",
@@ -1501,9 +1501,9 @@
     "name": "醇火系列不沾炒鍋",
     "price": {
       "currency": "TWD",
-      "amount": 1399,
-      "converted": 1399,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 1329,
+      "converted": 1329,
+      "confidence": "PChome 2026-07-26 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DEES01A900IQ6X3/000001_1764832269.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DEES01-A900IQ6X3",

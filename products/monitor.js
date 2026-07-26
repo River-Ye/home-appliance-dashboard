@@ -4600,6 +4600,96 @@
         }
       ]
     }
+  },
+  {
+    "id": "monitor-benq-pd2770u",
+    "category": "monitor",
+    "rank": 57,
+    "topPick": false,
+    "budget": "premium",
+    "channel": "tw",
+    "brand": "BenQ",
+    "model": "PD2770U",
+    "name": "27 型 4K 內建校色器專業色彩管理螢幕",
+    "price": {
+      "currency": "TWD",
+      "amount": 49888,
+      "converted": 49888,
+      "confidence": "momo購物 2026-07-26 exact-model 公開促銷可購價"
+    },
+    "image": "https://image.benq.com/is/image/benqco/1pd2770u-front-hood-hotkey-2?$ResponsivePreset$",
+    "buyUrl": "https://www.momoshop.com.tw/product/15221341",
+    "buyLabel": "momo購物",
+    "specs": [
+      "27 吋 IPS / 4K 3840 x 2160 / 60Hz / 450 nits",
+      "100% sRGB、100% Rec.709、99% Adobe RGB、99% P3 / Delta E(avg) ≤ 1.5",
+      "內建校色器 / 硬體與排程校色 / 光自適應校色 / 三階段均勻度補償",
+      "2 x HDMI 2.1 / DisplayPort 1.4 / USB-C 96W / RJ45 / KVM / DMS Local",
+      "重量：6.1kg（不含底座；含底座淨重 8.8kg）",
+      "VESA 100 x 100 mm"
+    ],
+    "description": "PD2770U 是面向攝影、印刷與小型工作室的 27 吋 4K 專業螢幕，內建校色器並支援排程、光自適應校色與 DMS Local 多工作站管理，補足既有清單沒有的自動化色彩維護工作流。",
+    "pros": [
+      "內建校色器與排程校色可降低長期色彩漂移與逐台維護成本",
+      "99% Adobe RGB、99% P3 與三階段均勻度補償適合攝影及印刷工作",
+      "USB-C 96W、KVM、RJ45 與 DMS Local 可整合多工作站"
+    ],
+    "cons": [
+      "60Hz 不適合追求高刷新遊戲",
+      "價格仍明顯高於一般 27 吋 4K 廣色域螢幕",
+      "單一外部評測樣機的出廠色差略高於官方平均值目標，專業工作仍應自行校色"
+    ],
+    "bestFor": "需要 Adobe RGB 印刷色域、內建自動校色與多螢幕集中管理的攝影師、設計工作室及色彩管理人員。",
+    "recommendation": "工作室色彩管理補充推薦：PD2770U 的價值不在高刷新，而是把內建校色、排程維護、均勻度補償與 DMS 管理整合在同一台螢幕；若只需一般 4K USB-C 顯示，其他型號更具性價比。",
+    "score": 91,
+    "voltage": "AC 100-240V；內建電源；台灣公司貨",
+    "warranty": "面板與機身 3 年保固；PD 系列保固期內送修可提供同規格或優規備機",
+    "tags": [
+      "27吋",
+      "4K",
+      "Adobe RGB",
+      "P3",
+      "內建校色器",
+      "硬體校色",
+      "USB-C 96W",
+      "KVM",
+      "DMS Local",
+      "專業色彩"
+    ],
+    "releaseDate": "2026-05-22",
+    "historicalLow": {
+      "status": "found",
+      "amount": 49888,
+      "currency": "TWD",
+      "converted": 49888,
+      "sourceUrl": "https://www.momoshop.com.tw/product/15221341",
+      "sourceTitle": "momo購物：BenQ PD2770U 27 吋 4K 專業色彩管理設計螢幕",
+      "evidenceSnippet": "momo exact-model 商品頁於 2026-07-26 顯示公開促銷價 NT$49,888、市售價 NT$59,888，且可加入購物車與結帳。",
+      "sourceKind": "retailer_promo",
+      "confidence": "high",
+      "checkedAt": "2026-07-26",
+      "note": "採用可信新品通路可公開重現的同型號限時促銷，低於 BenQ 台灣上市建議售價 NT$59,888；排除會員個人券、信用卡回饋、點數、二手、福利、展示、拆封與整新品。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-07-26",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"BenQ PD2770U\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Amobile01.com%20%22BenQ%20PD2770U%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"BenQ PD2770U\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22BenQ%20PD2770U%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "targetHost": "reddit.com"
+        }
+      ]
+    }
   }
 ]);
 })();

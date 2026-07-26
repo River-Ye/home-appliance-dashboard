@@ -1,11 +1,11 @@
 {
   "summary": {
     "checkedAt": "2026-07-26T00:00:00+08:00",
-    "total": 705,
-    "found": 203,
+    "total": 707,
+    "found": 205,
     "missing": 502,
     "byConfidence": {
-      "official": 101,
+      "official": 103,
       "credible_article": 91,
       "not_found": 502,
       "retailer_explicit": 11
@@ -4559,15 +4559,16 @@
       "id": "knife-kyocera-16cm",
       "category": "knife",
       "brand": "Kyocera",
-      "model": "黑陶瓷中華刀 16cm",
-      "name": "Kyocera 黑陶瓷中華刀 16cm",
+      "model": "ZK-160BK",
+      "name": "Kyocera ZK-160BK 黑刃精密陶瓷刀 16cm",
       "releaseDate": "找不到",
       "sourceUrl": "",
       "sourceTitle": "",
       "evidenceSnippet": "",
       "confidence": "not_found",
-      "query": "Kyocera 16cm release date launch announced",
-      "error": "Browser Use cannot open https://www.bing.com/search in tab 1139074745. Browser reported: net::ERR_CONNECTION_CLOSED"
+      "query": "Kyocera ZK-160BK release date launch announced 上市 發售",
+      "sourceKind": "not_found_after_official_review",
+      "reason": "已核對全聯全電商、PChome、HOTAI購與品牌／代理商商品資訊，只能確認 exact model 與現售狀態，沒有可驗證的上市或發售日期；未用通路上架日推定。"
     },
     {
       "id": "knife-victorinox-5-2000-15",
@@ -9861,6 +9862,36 @@
       "query": "SAMPO EM-70RF130 release date launch 上市 發售",
       "sourceKind": "not_found_after_official_review",
       "reason": "已查 SAMPO exact-model 規格、全聯全電商、momo、Yahoo 與其他可信新品通路；商品頁及評價日期不是正式上市日，未找到原廠明確上市／發售公告。"
+    },
+    {
+      "id": "tv-lg-g6-65",
+      "category": "tv",
+      "brand": "LG",
+      "model": "OLED65G6PTA",
+      "name": "65 型 OLED evo G6 4K 智慧顯示器",
+      "releaseDate": "2026-07-08",
+      "sourceUrl": "https://www.lg.com/tw/about-lg/press-and-media/lg-tv-smart-monitor-new-launch-20260708/",
+      "sourceTitle": "LG 電視、智慧螢幕 2026 新品上市",
+      "evidenceSnippet": "LG 台灣於 2026-07-08 正式推出 2026 OLED evo AI G6 系列；LG 台灣 exact-model 官網頁對應 OLED65G6PTA。",
+      "confidence": "official",
+      "query": "site:lg.com/tw OLED65G6PTA 2026 上市 G6",
+      "sourceKind": "manual_research",
+      "reason": "採 LG 台灣官方新聞稿明確記載的 2026 G6 系列正式推出日期，並以官方 OLED65G6PTA 商品頁核對 exact model；未使用零售上架日或型號年份推定。"
+    },
+    {
+      "id": "monitor-benq-pd2770u",
+      "category": "monitor",
+      "brand": "BenQ",
+      "model": "PD2770U",
+      "name": "27 型 4K 內建校色器專業色彩管理螢幕",
+      "releaseDate": "2026-05-22",
+      "sourceUrl": "https://www.benq.com/zh-tw/news/products/branding-new-product-lcd-pd2770u-20260522.html",
+      "sourceTitle": "BenQ 推出 27 吋 4K 校色專業顯示器 PD2770U 建構完整色彩管理生態 讓色準成為創作標配",
+      "evidenceSnippet": "BenQ 台灣官方 2026-05-22 新聞稿明列 exact-model PD2770U，並表示「即日起」於 BenQ 官網與電商平台同步開賣，建議售價 NT$59,888。",
+      "confidence": "official",
+      "query": "site:benq.com/zh-tw \"PD2770U\" \"2026 年 5 月 22 日\" 即日起開賣",
+      "sourceKind": "official_press_release",
+      "reason": "官方新聞稿同日明確宣告即日起開賣，可採精確發售日；規格另以現行 exact-model 規格頁為準，不以新聞稿舊版的亮度或 HDMI 欄位覆寫。"
     }
   ]
 }

@@ -814,9 +814,9 @@
     "name": "65 型 OLED 智慧聯網顯示器",
     "price": {
       "currency": "TWD",
-      "amount": 72072,
-      "converted": 72072,
-      "confidence": "PChome 2026-07-21 API 公開價"
+      "amount": 67977,
+      "converted": 67977,
+      "confidence": "PChome 2026-07-26 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DPAD09A900J9FAZ/000001_1761888394.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DPAD09-A900J9FAZ",
@@ -2567,6 +2567,89 @@
           "platform": "Reddit",
           "query": "site:reddit.com \"SAMPO EM-70RF130\" (problem OR issue OR defect OR negative review)",
           "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22SAMPO%20EM-70RF130%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "targetHost": "reddit.com"
+        }
+      ]
+    }
+  },
+  {
+    "id": "tv-lg-g6-65",
+    "category": "tv",
+    "rank": 33,
+    "topPick": false,
+    "budget": "premium",
+    "channel": "tw",
+    "brand": "LG",
+    "model": "OLED65G6PTA",
+    "name": "65 型 OLED evo G6 4K 智慧顯示器",
+    "price": {
+      "currency": "TWD",
+      "amount": 114900,
+      "converted": 114900,
+      "confidence": "Yahoo購物中心 2026-07-26 exact-model 自營頁公開價"
+    },
+    "image": "https://www.lg.com/content/dam/channel/wcms/1-channel/tw/ms/lgcom/2026/tv-audio-video/tv/oled-evo/g6/gp1/gallery/65-g6/basic/lg-oled-evo-g6-2026-65-gallery-basic.jpg",
+    "buyUrl": "https://tw.buy.yahoo.com/gdsale/LG-%E6%A8%82%E9%87%91-65%E5%9E%8B-OLED-evo-G6-%E9%9B%B6%E9%96%93%E9%9A%99%E8%97%9D%E5%BB%8A%E7%B3%BB%E5%88%97-4K-AI%E7%89%A9%E8%81%AF%E7%B6%B2%E6%99%BA%E6%85%A7%E9%A1%AF%E7%A4%BA%E5%99%A8-OLED65-12185727.html",
+    "buyLabel": "Yahoo購物中心",
+    "specs": [
+      "65 吋 OLED evo",
+      "4K 120Hz / VRR 最高 165Hz",
+      "α11 第三代 Dual AI 4K 處理器",
+      "60W / 4.2 聲道",
+      "重量：22kg（不含底座）",
+      "手機投影：Apple AirPlay / Google Cast"
+    ],
+    "description": "LG 2026 G6 是零間隙藝廊系列旗艦 OLED，以高亮度、抗反光與 α11 第三代 Dual AI 處理器，同時強化明亮客廳、電影與高更新率遊戲體驗。",
+    "pros": [
+      "旗艦 OLED 黑位、高亮度與抗反光兼顧",
+      "最高 165Hz VRR，適合高階 PC 與主機遊戲",
+      "60W 4.2 聲道比多數薄型電視完整"
+    ],
+    "cons": [
+      "售價超過十一萬元，入手門檻高",
+      "藝廊式貼牆安裝需先確認牆面、線路與施工條件"
+    ],
+    "bestFor": "追求 2026 旗艦 OLED、明亮客廳抗反光、電影黑位與 165Hz 遊戲規格的高預算使用者。",
+    "recommendation": "G6 的高亮度、抗反光與 165Hz 足以形成獨立旗艦候選；若不需要藝廊式安裝與最高階面板表現，C6 的價格門檻較低。",
+    "score": 94,
+    "voltage": "110V / 60Hz 台灣公司貨",
+    "warranty": "LG 台灣 2 年整機保固；完成指定登錄可享 5 年面板保固（依活動資格與條款）",
+    "tags": [
+      "OLED",
+      "165Hz",
+      "抗反光",
+      "旗艦"
+    ],
+    "releaseDate": "2026-07-08",
+    "historicalLow": {
+      "status": "found",
+      "amount": 114900,
+      "currency": "TWD",
+      "converted": 114900,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=564208370&cgp=114900",
+      "sourceTitle": "LBJ 比價撿便宜歷史價格：LG OLED65G6PTA 65 吋 OLED evo G6",
+      "evidenceSnippet": "LBJ 歷史頁記錄 2026-04-26、06-17、06-26 與 07-26 四個價格點皆為 NT$114,900。",
+      "sourceKind": "price_history",
+      "confidence": "high",
+      "checkedAt": "2026-07-26",
+      "note": "採 exact-model、同為 65 吋 OLED65G6PTA 的可信新品公開價格歷史；排除會員券、點數、信用卡回饋、二手、福利品、展示、拆封與整新品。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-07-26",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"LG OLED65G6PTA\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22LG%20OLED65G6PTA%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"LG OLED65G6PTA\" (problem OR issue OR defect OR \"negative review\")",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22LG%20OLED65G6PTA%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
           "targetHost": "reddit.com"
         }
       ]

@@ -586,9 +586,9 @@
     "name": "E320 Explorian 探索者調理機雙杯組黑色",
     "price": {
       "currency": "TWD",
-      "amount": 24700,
-      "converted": 24700,
-      "confidence": "PChome 2026-07-22 API exact-model 現貨公開價"
+      "amount": 22230,
+      "converted": 22230,
+      "confidence": "PChome 2026-07-26 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAY0GA900AGMD8/000001_1782460348.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAY0G-A900AGMD8",
@@ -688,9 +688,9 @@
     "name": "Ascent A2500i 全食物調理機白色",
     "price": {
       "currency": "TWD",
-      "amount": 29600,
-      "converted": 29600,
-      "confidence": "PChome 2026-07-22 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 26640,
+      "converted": 26640,
+      "confidence": "PChome 2026-07-26 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/QBAO0FA900AS2DJ/000001_1782460671.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/QBAO0F-A900AS2DJ",
@@ -1253,9 +1253,9 @@
     "name": "免清洗多功能破壁豆漿機",
     "price": {
       "currency": "TWD",
-      "amount": 9480,
-      "converted": 9480,
-      "confidence": "PChome 2026-07-21 API 公開價"
+      "amount": 9006,
+      "converted": 9006,
+      "confidence": "PChome 2026-07-26 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAY01A900GFJCO/000001_1780310319.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAY01-A900GFJCO",

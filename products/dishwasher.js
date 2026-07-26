@@ -1099,9 +1099,9 @@
     "image": "https://cs-a.ecimg.tw/items/DMBR16A900HZZEG/000001_1763949344.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 74619,
-      "converted": 74619,
-      "confidence": "PChome 2026-07-22 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 73799,
+      "converted": 73799,
+      "confidence": "PChome 2026-07-26 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "channel": "tw",
     "buyLabel": "PChome",
