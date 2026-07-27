@@ -617,9 +617,9 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/1f2a33ce70-Gd-10053955.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 43563,
-      "converted": 43563,
-      "confidence": "Yahoo購物中心 2026-07-25 exact-model 公開結構化價格"
+      "amount": 44910,
+      "converted": 44910,
+      "confidence": "Yahoo購物中心 2026-07-27 exact-model 公開結構化價格"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心",
@@ -789,9 +789,9 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/953C366DCA-SP-17994282.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 45493,
-      "converted": 45493,
-      "confidence": "Yahoo購物中心 2026-07-25 exact-model 公開結構化價格"
+      "amount": 47900,
+      "converted": 47900,
+      "confidence": "Yahoo購物中心 2026-07-27 exact-model 公開結構化價格"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心",
@@ -963,7 +963,7 @@
       "currency": "TWD",
       "amount": 38900,
       "converted": 38900,
-      "confidence": "PChome 2026-07-24 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "confidence": "PChome 2026-07-27 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -1133,9 +1133,9 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/BCB950DBF0-SP-13742246.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 47433,
-      "converted": 47433,
-      "confidence": "Yahoo購物中心 2026-07-25 exact-model 公開結構化價格"
+      "amount": 48900,
+      "converted": 48900,
+      "confidence": "Yahoo購物中心 2026-07-27 exact-model 公開結構化價格"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心",
@@ -1391,9 +1391,9 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/41046DB844-SP-12334280.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 33976,
-      "converted": 33976,
-      "confidence": "Yahoo購物中心 2026-07-25 exact-model 公開結構化價格"
+      "amount": 36930,
+      "converted": 36930,
+      "confidence": "Yahoo購物中心 2026-07-27 exact-model 公開結構化價格"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心",

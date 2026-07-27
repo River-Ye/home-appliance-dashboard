@@ -1097,9 +1097,9 @@
     "name": "1.2L 高速調理果汁機",
     "price": {
       "currency": "TWD",
-      "amount": 1225,
-      "converted": 1225,
-      "confidence": "PChome 2026-07-25 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 1290,
+      "converted": 1290,
+      "confidence": "PChome 2026-07-27 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAY7KA900JXOTJ/000001_1779933584.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAY7K-A900JXOTJ",
@@ -1253,9 +1253,9 @@
     "name": "免清洗多功能破壁豆漿機",
     "price": {
       "currency": "TWD",
-      "amount": 9006,
-      "converted": 9006,
-      "confidence": "PChome 2026-07-26 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 9480,
+      "converted": 9480,
+      "confidence": "PChome 2026-07-27 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAY01A900GFJCO/000001_1780310319.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAY01-A900GFJCO",
@@ -1487,9 +1487,9 @@
     "name": "多功能變頻輕音冷熱調理機",
     "price": {
       "currency": "TWD",
-      "amount": 10915,
-      "converted": 10915,
-      "confidence": "PChome 2026-07-25 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 11490,
+      "converted": 11490,
+      "confidence": "PChome 2026-07-27 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAY4YA900I3ILD/000001_1783328441.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAY4Y-A900I3ILD",
@@ -1565,9 +1565,9 @@
     "name": "多功能營養調理機",
     "price": {
       "currency": "TWD",
-      "amount": 3211,
-      "converted": 3211,
-      "confidence": "PChome 2026-07-25 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 3380,
+      "converted": 3380,
+      "confidence": "PChome 2026-07-27 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAYGBA900IW311/000001_1767836506.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAYGB-A900IW311",

@@ -109,9 +109,9 @@
     "name": "LG Styler Z 蒸氣電子衣櫥 輕奢鏡面",
     "price": {
       "currency": "TWD",
-      "amount": 25900,
-      "converted": 25900,
-      "confidence": "PChome 2026-07-26 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 26900,
+      "converted": 26900,
+      "confidence": "PChome 2026-07-27 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DPAI1LA900J8NAE/000001_1775034251.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DPAI1L-A900J8NAE",

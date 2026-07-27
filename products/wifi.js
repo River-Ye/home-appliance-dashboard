@@ -17,23 +17,23 @@
     "name": "BE5000 雙頻 Wi-Fi 7 AiMesh 網狀路由器二入組",
     "price": {
       "currency": "TWD",
-      "amount": 5499,
-      "converted": 5499,
-      "confidence": "PChome 2026-07-16 API 公開價"
+      "amount": 5999,
+      "converted": 5999,
+      "confidence": "PChome 2026-07-27 exact-model 公開價"
     },
-    "image": "https://cs-a.ecimg.tw/items/DRAF01A900I3ETA/000001_1759801067.jpg",
-    "buyUrl": "https://24h.pchome.com.tw/prod/DRAF01-A900I3ETA",
+    "image": "https://cs-a.ecimg.tw/items/DSBC0ZA900I6OJ2/000001_1753174386.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DSBC0Z-A900I6OJ2",
     "buyLabel": "PChome",
     "specs": [
       "Wi-Fi 7",
       "BE5000 雙頻",
       "Mesh：支援 AiMesh，二入組可直接全屋串接",
-      "Gigabit 有線埠"
+      "2.5G WAN/LAN x 2；支援有線回程"
     ],
     "description": "ASUS ZenWiFi BD5 2入 是 Wi-Fi 6 以上無線路由器，已排除網卡、延伸器、交換器與福利/展示/拆封品。",
     "pros": [
       "可作為多台串接/全屋覆蓋候選",
-      "台灣可信通路新品，價格與圖片可查核"
+      "PChome exact-model 新品頁，價格、圖片與庫存可查核"
     ],
     "cons": [
       "Mesh 效果仍受擺位、牆面與回程頻段影響",
@@ -43,7 +43,7 @@
     "recommendation": "綜合推薦：二入價格接近單顆中高階路由器，AiMesh 擴充彈性與 ASUS 台灣售後都成熟，最符合 2-3 台串接需求。",
     "score": 94,
     "voltage": "110V 台灣通路；多數使用外接變壓器",
-    "warranty": "依 PChome/供應商頁面",
+    "warranty": "PChome 商品頁標示原廠 3 年保固",
     "tags": [
       "綜合推薦",
       "Mesh",

@@ -458,6 +458,7 @@ async function main() {
       ["knife-extra-17-debm2ca900j9cyp", "DEBM2C-A900J9CYP"],
       ["knife-wmf-18cm", "DEAWRU-A900HDL2T"],
       ["monitor-dell-aw3225qf", "DSABOK-A900HB1B5"],
+      ["smartlock-panasonic-g11", "DQBS4N-A900K1WBU"],
       ["standingdesk-irocks-d01-120", "DQBJ4C-A900I9XVY"],
       ["standingdesk-irocks-d01-150", "DQBJ4C-A900HUG3C"],
       ["standingdesk-irocks-d01-160", "DQBJ4C-A900ITV12"],
@@ -468,13 +469,13 @@ async function main() {
       ["vac-lg-a9x", "DMAX8K-A900HLX9W"],
       ["waterdispenser--uw-2262hw-1", "DMAWEM-A900GDIXH"],
       ["washerdryer-panasonic-na-sd10tb", "DPAI1H-A900JXCDB"],
+      ["wifi-asus-zenwifi-bd5-2pack", "DSBC0Z-A900I6OJ2"],
     ].every(([productId, pchomeProductId]) => isReviewedPchomeBinding(productId, pchomeProductId)),
     "manually verified exact-model PChome pages should keep their approved product bindings",
   );
   assert(
     [
       ["blender-xiaomi-mjpbj01demtw", "DMAYFG-A900IXDP8"],
-      ["smartlock-panasonic-g11", "DQBS4N-A900K1WBU"],
       ["wifi-asus-zenwifi-bd5-2pack", "DRAF01-A900I3ETA"],
     ].every(([productId, pchomeProductId]) => !isReviewedPchomeBinding(productId, pchomeProductId)),
     "generic or conflicting PChome titles must remain outside the reviewed bindings",

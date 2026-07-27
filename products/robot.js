@@ -96,7 +96,7 @@
       "currency": "TWD",
       "amount": 34980,
       "converted": 34980,
-      "confidence": "PChome 2026-07-24 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "confidence": "PChome 2026-07-27 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL1CA900JNELR/000001_1769062030.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBL1C-A900JNELR",
@@ -174,7 +174,7 @@
       "currency": "TWD",
       "amount": 32980,
       "converted": 32980,
-      "confidence": "PChome 2026-07-24 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "confidence": "PChome 2026-07-27 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL1CA900JMMCO/000001_1769061975.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBL1C-A900JMMCO",
@@ -207,16 +207,16 @@
     "releaseDate": "2026-01-06",
     "historicalLow": {
       "status": "found",
-      "amount": 32980,
+      "amount": 29682,
       "currency": "TWD",
-      "converted": 32980,
+      "converted": 29682,
       "sourceUrl": "https://24h.pchome.com.tw/prod/DMBL1C-A900JMMCO",
-      "sourceTitle": "PChome 商品 API：Roborock 石頭科技掃地機器人Saros 20 / Roborock 石頭科技 Saros 20 跨越奇兵旗艦越障掃拖王者(雙門檻越障8.8cm/36000Pa/障礙物識別300+)",
-      "evidenceSnippet": "PChome 商品 API 於 2026-07-10 回傳同一商品頁「Roborock 石頭科技掃地機器人Saros 20 / Roborock 石頭科技 Saros 20 跨越奇兵旗艦越障掃拖王者(雙門檻越障8.8cm/36000Pa/障礙物識別300+)」查核價 NT$32,980，低於原先記錄史低。",
+      "sourceTitle": "PChome 24h 購物：Roborock 石頭科技掃地機器人Saros 20",
+      "evidenceSnippet": "PChome 24h 購物於 2026-07-27 顯示同型號可信新品公開價 NT$29,682，低於既有史低 NT$32,980。",
       "sourceKind": "retailer_page",
       "confidence": "medium",
-      "checkedAt": "2026-07-10",
-      "note": "採用可信通路同一商品頁可公開查核現價作為本次觀測到的最低價；同型號/規格並排除會員個人化折扣、信用卡回饋、點數、二手、福利品、展示機、箱損、拆封與整新品。"
+      "checkedAt": "2026-07-27",
+      "note": "採用 PChome 24h 購物當日可購商品的同型號新品公開價；不含會員券、點數、信用卡回饋、二手、福利、展示、拆封或整新品。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -329,9 +329,9 @@
     "name": "滾筒全自動洗拖烘掃地機器人",
     "price": {
       "currency": "TWD",
-      "amount": 19999,
-      "converted": 19999,
-      "confidence": "PChome 2026-07-24 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 18999,
+      "converted": 18999,
+      "confidence": "PChome 2026-07-27 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL1CA900JA04J/000001_1783562731.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBL1C-A900JA04J",
@@ -485,9 +485,9 @@
     "name": "無限續航滾筒洗地機器人",
     "price": {
       "currency": "TWD",
-      "amount": 22999,
-      "converted": 22999,
-      "confidence": "PChome 2026-07-24 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 19999,
+      "converted": 19999,
+      "confidence": "PChome 2026-07-27 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL0LA900J5HJ0/000001_1766715791.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBL0L-A900J5HJ0",
@@ -662,7 +662,7 @@
       "currency": "TWD",
       "amount": 14999,
       "converted": 14999,
-      "confidence": "PChome 2026-07-24 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "confidence": "PChome 2026-07-27 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL0LA900IDIPA/000001_1763087835.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBL0L-A900IDIPA",
@@ -740,7 +740,7 @@
       "currency": "TWD",
       "amount": 12999,
       "converted": 12999,
-      "confidence": "PChome 2026-07-24 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "confidence": "PChome 2026-07-27 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL0LA900J0KF3/000001_1765762606.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBL0L-A900J0KF3",
@@ -2499,7 +2499,7 @@
       "currency": "TWD",
       "amount": 20999,
       "converted": 20999,
-      "confidence": "PChome 2026-07-24 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "confidence": "PChome 2026-07-27 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL0LA900JWVON/000001_1776138874.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBL0L-A900JWVON",
@@ -2581,9 +2581,9 @@
     "name": "ECOVACS DEEBOT X12 PRO OMNI",
     "price": {
       "currency": "TWD",
-      "amount": 29999,
-      "converted": 29999,
-      "confidence": "PChome 2026-07-24 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 26999,
+      "converted": 26999,
+      "confidence": "PChome 2026-07-27 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL0LA900JS61Y/000001_1772592930.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBL0L-A900JS61Y",

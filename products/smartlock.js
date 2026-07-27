@@ -2844,9 +2844,9 @@
     "name": "G-11 指紋密碼電子鎖",
     "price": {
       "currency": "TWD",
-      "amount": 9310,
-      "converted": 9310,
-      "confidence": "PChome 2026-07-14 API 查核價"
+      "amount": 11800,
+      "converted": 11800,
+      "confidence": "PChome 2026-07-27 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBS4NA900K1WBU/000001_1779862478.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBS4N-A900K1WBU",
@@ -2888,7 +2888,7 @@
       "sourceKind": "not_found",
       "confidence": "not_found",
       "checkedAt": "2026-07-11",
-      "note": "未找到 Panasonic G-11 可公開驗證的可信新品史低；PChome 原頁只顯示「G11黑」，未能證明 Panasonic 品牌與完整型號，因此不採為史低證據。"
+      "note": "未找到 Panasonic G-11 可公開驗證的可信新品史低；2026-07-27 PChome 公開商品頁已人工確認 exact model 與現價 NT$11,800，但單一當日現價不作為歷史最低價，故維持 not_found。"
     },
     "issueResearch": {
       "status": "no_common_issue",
