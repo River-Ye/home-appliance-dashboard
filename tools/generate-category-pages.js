@@ -276,7 +276,7 @@ function productMarkup(product, index) {
               <p><strong>負評／災情查核</strong>${escapeHtml(issueResearchText(product))}</p>
             </div>
             <div class="editorial-actions">
-              <a href="../../index.html?category=${escapeHtml(product.category)}">在工作台比較同類商品</a>
+              <a href="../../#category=${escapeHtml(product.category)}">在工作台比較同類商品</a>
               ${buyUrl ? `<a class="secondary" href="${escapeHtml(buyUrl)}" target="_blank" rel="noopener noreferrer nofollow">查看 ${escapeHtml(product.buyLabel)} 原通路</a>` : ""}
             </div>
           </div>
@@ -354,7 +354,7 @@ ${jsonLdStringify(structuredData).split("\n").map((line) => `      ${line}`).joi
     <header class="editorial-hero">
       <div class="editorial-shell">
         <nav class="editorial-breadcrumb" aria-label="麵包屑">
-          <a href="../../index.html">${escapeHtml(SITE_NAME)}</a><span aria-hidden="true">/</span><span>${escapeHtml(category.label)}</span>
+          <a href="../../">${escapeHtml(SITE_NAME)}</a><span aria-hidden="true">/</span><span>${escapeHtml(category.label)}</span>
         </nav>
         <p class="editorial-kicker">${escapeHtml(category.group)} · ${categoryProducts.length} 筆候選</p>
         <span class="editorial-ai-badge">AI 協作製作</span>
@@ -372,7 +372,7 @@ ${jsonLdStringify(structuredData).split("\n").map((line) => `      ${line}`).joi
           <a href="#faqHeading">常見問題</a>
           <a href="#methodHeading">查核方法</a>
         </nav>
-        <a class="editorial-primary-action" href="../../index.html?category=${escapeHtml(category.id)}">比較全部 ${categoryProducts.length} 款 ${escapeHtml(category.label)}</a>
+        <a class="editorial-primary-action" href="../../#category=${escapeHtml(category.id)}">比較全部 ${categoryProducts.length} 款 ${escapeHtml(category.label)}</a>
       </div>
     </header>
     <main id="categoryContent" class="editorial-shell">
@@ -423,7 +423,7 @@ ${jsonLdStringify(structuredData).split("\n").map((line) => `      ${line}`).joi
     </main>
     <footer class="editorial-footer">
       <div class="editorial-shell">
-        <a href="../../index.html">返回${escapeHtml(SITE_NAME)}</a>
+        <a href="../../">返回${escapeHtml(SITE_NAME)}</a>
         <a href="${escapeHtml(REPO_URL)}">GitHub 原始碼</a>
         <a href="https://riverye.com/privacy.html">隱私權政策</a>
       </div>

@@ -22,6 +22,7 @@ Use a dedicated git worktree and short-lived `codex/` branch for repo changes un
 - Maintain category-level intros, three buying criteria, and three FAQs in `tools/category-guides.js`. Product facts continue to come from `assets/js/config.js` and `products/*.js`.
 - Keep the shared site name, homepage title, description, H1, and visible AI disclosure in `tools/geo-config.js`; metadata, JSON-LD, generated guides, and `llms.txt` must use the same contract.
 - After any product, category, guide, or homepage CSS source change, run `npm run generate:categories`, then `npm run check:geo`. Do not hand-edit `assets/css/app.css`, `categories/<id>/index.html`, `sitemap.xml`, `llms.txt`, or the generated GEO blocks in `index.html`.
+- Category guides must return to the interactive dashboard with `/#category=<id>` fragment state, not crawlable `index.html?category=...` links. Capture that fragment before asynchronous product loading so in-page anchors cannot discard it, and keep existing query-based shared URLs backward-compatible in `assets/js/url-state.js`.
 - Treat `llms.txt` as supplemental discovery context only; it does not guarantee indexing, ranking, or AI citation.
 - Keep all six evidence files in the Pages artifact: `release_date_research.json`, `historical_price_research.json`, `dimension_research.json`, `product_issue_research.json`, `product_issue_report_evidence.json`, and `product_issue_review_manifest.json`.
 - IndexNow runs only after a successful Pages deployment and is non-blocking. Always inspect its workflow log and report failures accurately.

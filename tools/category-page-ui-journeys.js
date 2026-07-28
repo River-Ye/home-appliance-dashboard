@@ -126,16 +126,16 @@ async function assertNoJavaScriptCategoryPage(browser, category, name, viewport)
   }
 }
 
-async function findLocalHomepageFilterLink(page, categoryId) {
+async function findLocalHomepageFragmentLink(page, categoryId) {
   return page.locator("a[href]").evaluateAll((links, expectedCategoryId) => {
-    const index = links.findIndex((link) => {
-      const url = new URL(link.getAttribute("href"), document.baseURI);
+    const link = links.find((candidate) => {
+      const url = new URL(candidate.getAttribute("href"), document.baseURI);
+      const hashParams = new URLSearchParams(url.hash.replace(/^#/, ""));
       return url.protocol === "file:"
-        && url.pathname.endsWith("/index.html")
-        && url.searchParams.get("category") === expectedCategoryId;
+        && !url.search
+        && hashParams.get("category") === expectedCategoryId;
     });
-    if (index < 0) return null;
-    return { index, href: links[index].getAttribute("href") };
+    return link?.getAttribute("href") || null;
   }, categoryId);
 }
 
@@ -145,20 +145,23 @@ async function assertHomepageFilterJourney(browser, category, name, viewport) {
   const runtime = attachRuntimeIssueCollector(page);
   try {
     await page.goto(categoryFileUrl(category.id), { waitUntil: "domcontentloaded" });
-    const target = await findLocalHomepageFilterLink(page, category.id);
+    const target = await findLocalHomepageFragmentLink(page, category.id);
     if (!target) {
-      throw new Error(`${name}: category page has no local homepage ?category=${category.id} link`);
+      throw new Error(`${name}: category page has no local homepage #category=${category.id} link`);
     }
-    const link = page.locator("a[href]").nth(target.index);
-    await link.click();
+    const targetUrl = new URL(target, page.url());
+    const localHomepageUrl = `${pathToFileURL(path.join(root, "index.html")).href}${targetUrl.hash}`;
+    await page.goto(localHomepageUrl, { waitUntil: "domcontentloaded" });
     await page.waitForSelector(".product-card");
     const expectedCount = products.filter((product) => product.category === category.id).length;
     await page.waitForFunction(({ expectedLabel, count }) => (
       document.querySelector("#categoryInput")?.value === expectedLabel
       && document.querySelector("#visibleCount")?.textContent?.trim() === String(count)
     ), { expectedLabel: category.label, count: expectedCount });
-    if (new URL(page.url()).searchParams.get("category") !== category.id) {
-      throw new Error(`${name}: homepage URL did not retain category=${category.id}`);
+    const currentUrl = new URL(page.url());
+    const currentHash = new URLSearchParams(currentUrl.hash.replace(/^#/, ""));
+    if (currentUrl.search || currentHash.get("category") !== category.id) {
+      throw new Error(`${name}: homepage URL did not retain fragment category=${category.id}`);
     }
     await assertNoHorizontalOverflow(page, name);
     assertNoRuntimeIssues(runtime, name);

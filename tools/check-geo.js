@@ -407,12 +407,32 @@ function assertCategoryPageContracts(categories, products, meta) {
       assert(normalizedText.includes(String(product.price.amount)), `${file} is missing the source price for ${product.id}`);
     }
 
-    const homeFilterLink = hrefs
-      .find((href) => {
+    const categoryStateLinks = hrefs.filter((href) => {
+      const url = new URL(href, canonical);
+      const hashParams = new URLSearchParams(url.hash.replace(/^#/, ""));
+      return url.origin === new URL(siteUrl).origin
+        && url.pathname === "/"
+        && !url.search
+        && hashParams.get("category") === category.id;
+    });
+    assert(
+      categoryStateLinks.length === topFive.length + 1,
+      `${file} should use one non-crawlable category fragment for its main CTA and each top-five action`,
+    );
+    assert(
+      !hrefs.some((href) => {
         const url = new URL(href, canonical);
-        return ["/", "/index.html"].includes(url.pathname) && url.searchParams.get("category") === category.id;
-      });
-    assert(homeFilterLink, `${file} should link to the homepage with ?category=${category.id}`);
+        return url.origin === new URL(siteUrl).origin && url.searchParams.has("category");
+      }),
+      `${file} must not expose crawlable category query URLs`,
+    );
+    assert(
+      !hrefs.some((href) => {
+        const url = new URL(href, canonical);
+        return url.origin === new URL(siteUrl).origin && url.pathname === "/index.html";
+      }),
+      `${file} should link directly to the canonical homepage path`,
+    );
 
     const documents = jsonLdDocuments(markup);
     const scriptTags = elements(markup, "script");

@@ -31,6 +31,7 @@
     combobox.syncControls(true);
     ui.render();
     ui.updateMobileDock();
+    window.addEventListener("hashchange", urlState.preserveCategoryAcrossAnchorNavigation);
 
     document.getElementById("searchInput").addEventListener("input", (event) => {
       state.search = event.target.value;
