@@ -1,13 +1,13 @@
 {
   "summary": {
     "checkedAt": "2026-07-26T00:00:00+08:00",
-    "total": 707,
-    "found": 205,
-    "missing": 502,
+    "total": 705,
+    "found": 204,
+    "missing": 501,
     "byConfidence": {
       "official": 103,
-      "credible_article": 91,
-      "not_found": 502,
+      "credible_article": 90,
+      "not_found": 501,
       "retailer_explicit": 11
     }
   },
@@ -8477,20 +8477,6 @@
       "sourceKind": "not_found_after_available_search"
     },
     {
-      "id": "monitor-lg-27up850k",
-      "category": "monitor",
-      "brand": "LG",
-      "model": "UltraFine 27UP850K-W",
-      "name": "27 型 4K IPS UltraFine 顯示器",
-      "releaseDate": "找不到",
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "confidence": "not_found",
-      "query": "LG UltraFine 27UP850K-W release date launch announced 上市 發售",
-      "sourceKind": "not_found_after_available_search"
-    },
-    {
       "id": "monitor-asus-proart-pa278qev",
       "category": "monitor",
       "brand": "ASUS",
@@ -8636,21 +8622,6 @@
       "query": "Dell U2725QE available globally February 25 2025",
       "sourceKind": "agent_web_research",
       "reason": "日期來自 available to buy globally starting 文字，而非文章發布日。"
-    },
-    {
-      "id": "monitor-lg-27gx790a",
-      "category": "monitor",
-      "brand": "LG",
-      "model": "UltraGear 27GX790A-B",
-      "name": "27 型 QHD 480Hz OLED 電競螢幕",
-      "releaseDate": "2024-11-18",
-      "sourceUrl": "https://www.theverge.com/2024/11/18/24299376/lg-ultragear-gx7-480hz-oled-gaming-monitor-price-availability",
-      "sourceTitle": "LG’s first 480Hz OLED gaming monitor is $1,000",
-      "evidenceSnippet": "The Verge identifies UltraGear 27GX790A/GX7 and says it was available for preorder on LG's US website.",
-      "confidence": "credible_article",
-      "query": "LG UltraGear 27GX790A GX7 preorder availability November 18 2024",
-      "sourceKind": "agent_web_research",
-      "reason": "來源內文明確點名 27GX790A/GX7 並寫 available for preorder；採預購開放日期。"
     },
     {
       "id": "monitor-asus-xg32ucwg",

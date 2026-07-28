@@ -1,5 +1,5 @@
 const EXPECTED_CATEGORY_COUNT = 26;
-const EXPECTED_PRODUCT_COUNT = 707;
+const EXPECTED_PRODUCT_COUNT = 705;
 const MIN_PRODUCTS_PER_CATEGORY = 20;
 const EXPECTED_CATEGORY_PRODUCT_COUNTS = new Map([
   ["tv", 33],
@@ -26,7 +26,7 @@ const EXPECTED_CATEGORY_PRODUCT_COUNTS = new Map([
   ["wifi", 49],
   ["standingdesk", 23],
   ["chair", 24],
-  ["monitor", 57],
+  ["monitor", 55],
   ["monitorarm", 22],
 ]);
 const DATE_PATTERN = /^(找不到|\d{4}(?:[-/.]\d{1,2}(?:[-/.]\d{1,2})?)?)$/;

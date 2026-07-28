@@ -591,6 +591,44 @@ async function main() {
   assert(compactChangeFixture.summary.pchomeReviewedBindingVerified === 0, "a reviewed PChome binding must be counted only as an exact-model fallback");
   assert(compactChangeFixture.changes.links[0].afterUrl === currentProduct.buyUrl, "compact maintenance report should retain the new purchase link");
   assert(compactChangeFixture.changes.images[0].after === currentProduct.image, "compact maintenance report should retain the new image link");
+  const removedProduct = {
+    ...baselineProduct,
+    id: "officially-discontinued-product",
+  };
+  const confirmedDiscontinuationReview = {
+    id: removedProduct.id,
+    model: "Official Model",
+    url: "https://brand.example/products/official-model",
+    disposition: "confirmed_official_discontinued_remove",
+    reviewedAt: "2026-07-28T03:27:00.000Z",
+    reviewEvidence: {
+      sourceTitle: "Official exact-model product page",
+      evidenceSnippet: "The exact-model page marks this product as discontinued.",
+    },
+  };
+  const removedProductFixture = buildCompactReport({
+    catalog: { products: [], categories: [{ items: [] }] },
+    baselineById: new Map([[removedProduct.id, removedProduct]]),
+    raw: {
+      sourceRows: [],
+      imageRows: [],
+      historicalRows: [],
+      foreignPriceChanges: [],
+      discontinuedCandidates: [],
+    },
+    exchange: {},
+    checkedAt: "2026-07-28T03:33:46.713Z",
+    categoryScan: [],
+    previousDiscontinuationReviews: new Map([[removedProduct.id, confirmedDiscontinuationReview]]),
+  });
+  assert(
+    removedProductFixture.officialDiscontinuedCandidates[0]?.id === removedProduct.id,
+    "compact maintenance report should retain confirmed official evidence after a discontinued product is removed",
+  );
+  assert(
+    removedProductFixture.summary.officialDiscontinuedCandidates === 1,
+    "compact maintenance summary should count a confirmed removed-product review",
+  );
   assert(
     updateDashboardContractSource("const EXPECTED_CATEGORY_COUNT = 25;\nconst EXPECTED_PRODUCT_COUNT = 668;", 669, 26)
       === "const EXPECTED_CATEGORY_COUNT = 26;\nconst EXPECTED_PRODUCT_COUNT = 669;",

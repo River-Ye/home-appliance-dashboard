@@ -1477,8 +1477,8 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/df3ca3dcf3-Gd-10425979.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 5166,
-      "converted": 5166,
+      "amount": 5740,
+      "converted": 5740,
       "confidence": "Yahoo購物中心 2026-07-28 exact-model 公開結構化價格"
     },
     "channel": "tw",

@@ -1058,9 +1058,9 @@
     "name": "11吋智能聲控 DC 3D 循環扇",
     "price": {
       "currency": "TWD",
-      "amount": 1938,
-      "converted": 1938,
-      "confidence": "Yahoo購物中心 2026-07-11 頁面查核價"
+      "amount": 1692,
+      "converted": 1692,
+      "confidence": "Yahoo購物中心 2026-07-28 exact-model 公開結構化價格"
     },
     "image": "https://cs-a.ecimg.tw/items/DSBE18A900K5EJK/000001_1782367256.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/TECO%E6%9D%B1%E5%85%83-11%E5%90%8B%E6%99%BA%E8%83%BD%E8%81%B2%E6%8E%A7DC%E9%A6%AC%E9%81%943D%E5%BE%AA%E7%92%B0%E6%89%87-XYFXA1101CB-12063164.html",
@@ -1093,16 +1093,16 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 1934,
+      "amount": 1692,
       "currency": "TWD",
-      "converted": 1934,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1272634502&cgp=1984",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【TECO 東元】11吋智能聲控DC馬達3D循環扇XYFXA1101CB",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【TECO 東元】11吋智能聲控DC馬達3D循環扇XYFXA1101CB」最低價為 NT$1,934，最低點日期 2026-07-09。",
-      "sourceKind": "price_history",
-      "confidence": "high",
-      "checkedAt": "2026-07-09",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+      "converted": 1692,
+      "sourceUrl": "https://tw.buy.yahoo.com/gdsale/TECO%E6%9D%B1%E5%85%83-11%E5%90%8B%E6%99%BA%E8%83%BD%E8%81%B2%E6%8E%A7DC%E9%A6%AC%E9%81%943D%E5%BE%AA%E7%92%B0%E6%89%87-XYFXA1101CB-12063164.html",
+      "sourceTitle": "Yahoo購物中心：TECO東元 11吋智能聲控DC馬達3D循環扇 XYFXA1101CB | 循環扇 | Yahoo購物中心",
+      "evidenceSnippet": "Yahoo購物中心於 2026-07-28 顯示同型號可信新品公開價 NT$1,692，低於既有史低 NT$1,934。",
+      "sourceKind": "retailer_page",
+      "confidence": "medium",
+      "checkedAt": "2026-07-28",
+      "note": "採用 Yahoo購物中心當日可購商品的同型號新品公開價；不含會員券、點數、信用卡回饋、二手、福利、展示、拆封或整新品。"
     },
     "issueResearch": {
       "status": "no_common_issue",

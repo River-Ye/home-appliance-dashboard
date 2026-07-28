@@ -793,7 +793,14 @@ function buildCompactReport({ catalog, baselineById, raw, exchange, checkedAt, c
   const historicalExceptions = raw.historicalRows.filter((row) => row.status !== "verified");
   const categoryCounts = catalog.categories.map((category) => category.items.length);
   const foreignProducts = catalog.products.filter((product) => product.price.currency !== "TWD");
-  const discontinuedCandidates = mergeDiscontinuationReviews(raw.discontinuedCandidates, previousDiscontinuationReviews);
+  const removedIds = baselineIds.filter((id) => !finalById.has(id));
+  const confirmedRemovedCandidates = removedIds
+    .map((id) => previousDiscontinuationReviews.get(id))
+    .filter((candidate) => candidate?.disposition === "confirmed_official_discontinued_remove");
+  const discontinuedCandidates = [
+    ...mergeDiscontinuationReviews(raw.discontinuedCandidates, previousDiscontinuationReviews),
+    ...confirmedRemovedCandidates,
+  ];
   const pendingDiscontinuationCandidates = discontinuedCandidates.filter(
     (candidate) => candidate.disposition === "manual_official_evidence_required",
   );
@@ -852,7 +859,7 @@ function buildCompactReport({ catalog, baselineById, raw, exchange, checkedAt, c
       officialDiscontinuedCandidates: discontinuedCandidates.length,
       officialDiscontinuedPendingReview: pendingDiscontinuationCandidates.length,
       officialDiscontinuedFalsePositives: discontinuedCandidates.filter((candidate) => candidate.disposition === "false_positive_retained").length,
-      discontinuedRemoved: baselineIds.filter((id) => !finalById.has(id)),
+      discontinuedRemoved: removedIds,
     },
     exchange,
     categoryScan,
