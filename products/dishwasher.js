@@ -1015,13 +1015,13 @@
     "image": "https://cs-a.ecimg.tw/items/DMBR14A900G0F7J/000001_1779679396.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 49900,
-      "converted": 49900,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 48203,
+      "converted": 48203,
+      "confidence": "LG 官方商城 2026-07-28 指定商品公開結帳 92 折價（企業客戶／員購除外）"
     },
     "channel": "tw",
-    "buyLabel": "PChome",
-    "buyUrl": "https://24h.pchome.com.tw/prod/DMBR14-A900G0F7J",
+    "buyLabel": "LG 官方商城",
+    "buyUrl": "https://www.lg.com/tw/dishwashers/all-dishwashers/dfb335hs/",
     "specs": [
       "洗碗機：LG樂金 DFB335HS【QuadWash™ Steam四方洗蒸氣洗碗機】消光銀/自動開門烘乾/觸控面板",
       "LG 樂金 DFB335HS【四方洗蒸氣洗碗機】消光銀/上觸控面板/自動開門烘乾 (含基本安裝)",
@@ -1345,9 +1345,9 @@
     "name": "免安裝自動 6 人份洗碗機",
     "price": {
       "currency": "TWD",
-      "amount": 17999,
-      "converted": 17999,
-      "confidence": "PChome 2026-07-16 UTC API 公開價"
+      "amount": 17099,
+      "converted": 17099,
+      "confidence": "PChome 2026-07-28 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBR17A900IHTZ3/000001_1777540146.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBR17-A900IHTZ3",

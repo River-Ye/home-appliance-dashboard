@@ -15,13 +15,13 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/3a594d8137-Gd-10216764.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 18900,
-      "converted": 18900,
-      "confidence": "Yahoo購物中心 2026-07-18 商品頁公開價"
+      "amount": 18857,
+      "converted": 18857,
+      "confidence": "LG 官方商城 2026-07-28 指定商品公開結帳 92 折價（企業客戶／員購除外）"
     },
     "channel": "tw",
-    "buyLabel": "Yahoo購物中心",
-    "buyUrl": "https://tw.buy.yahoo.com/gdsale/LG%E6%A8%82%E9%87%91-9%E5%85%AC%E6%96%A4WiFi%E8%92%B8%E6%B4%97%E8%84%AB%E7%83%98%E6%BB%BE%E7%AD%92%E6%B4%97%E8%A1%A3%E6%A9%9F-WD-S90VDW-%E8%B4%88%E5%9F%BA%E6%9C%AC%E5%AE%89%E8%A3%9D-10216764.html",
+    "buyLabel": "LG 官方商城",
+    "buyUrl": "https://www.lg.com/tw/washer-dryers/front-loading-washing-machines/wd-s90vdw/",
     "specs": [
       "洗烘衣機：LG樂金 9公斤WiFi蒸洗脫烘滾筒洗衣機 WD-S90VDW 贈基本安裝 (獨家送好禮)",
       "洗/乾容量：9kg / 6kg",
@@ -531,9 +531,9 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/88F364AB6B-SP-11096810.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 29900,
-      "converted": 29900,
-      "confidence": "PChome 2026-07-24 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 31900,
+      "converted": 31900,
+      "confidence": "PChome 2026-07-28 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -789,13 +789,13 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/953C366DCA-SP-17994282.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 47900,
-      "converted": 47900,
-      "confidence": "Yahoo購物中心 2026-07-27 exact-model 公開結構化價格"
+      "amount": 45908,
+      "converted": 45908,
+      "confidence": "LG 官方商城 2026-07-28 指定商品公開結帳 92 折價（企業客戶／員購除外）"
     },
     "channel": "tw",
-    "buyLabel": "Yahoo購物中心",
-    "buyUrl": "https://tw.buy.yahoo.com/gdsale/LG%E6%A8%82%E9%87%91-18%E5%85%AC%E6%96%A4-%E8%92%B8%E6%B4%97%E8%84%AB%E7%83%98-AI-DD%E8%92%B8%E6%B0%A3%E6%BB%BE%E7%AD%92%E6%B4%97%E8%A1%A3%E6%A9%9F-%E5%A4%9C%E5%A2%A8%E7%81%B0-WD-S18NDB-11390798.html",
+    "buyLabel": "LG 官方商城",
+    "buyUrl": "https://www.lg.com/tw/washer-dryers/front-loading-washing-machines/wd-s18ndb/",
     "specs": [
       "洗烘衣機：LG樂金 18公斤 蒸洗脫烘 AI DD蒸氣滾筒洗衣機 夜墨灰 WD-S18NDB",
       "洗/乾容量：18kg / 10kg",
@@ -2236,9 +2236,9 @@
     "image": "https://pstw.panasonic.com.tw/shop/Upload/Product/20260514190222S44S2J5E.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 39900,
-      "converted": 39900,
-      "confidence": "PChome 2026-07-26 exact-model API 公開折扣價；Price.Low 優先於 Price.P"
+      "amount": 44900,
+      "converted": 44900,
+      "confidence": "PChome 2026-07-28 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "channel": "tw",
     "buyLabel": "PChome",

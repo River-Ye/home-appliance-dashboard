@@ -251,9 +251,9 @@
     "name": "19.6 公升 PuriCare 雙變頻除濕機",
     "price": {
       "currency": "TWD",
-      "amount": 19765,
-      "converted": 19765,
-      "confidence": "Yahoo購物中心 2026-07-18 商品頁公開價"
+      "amount": 19665,
+      "converted": 19665,
+      "confidence": "Yahoo購物中心 2026-07-28 exact-model 公開結構化價格"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ4OA900JX7GH/000001_1783563034.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/LG%E6%A8%82%E9%87%91-DD201MEE0-19-6%E5%85%AC%E5%8D%87-PuriCare-%E9%9B%99%E8%AE%8A%E9%A0%BB%E9%99%A4%E6%BF%95%E6%A9%9F-11884613.html",
@@ -286,16 +286,16 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 19710,
+      "amount": 19665,
       "currency": "TWD",
-      "converted": 19710,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1269132230&cgp=19765",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：LG樂金 DD201MEE0 19.6公升 PuriCare 雙變頻除濕機",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Yahoo購物中心 / LG樂金 DD201MEE0 19.6公升 PuriCare 雙變頻除濕機」最低價為 NT$19,710，最低點日期 2026-06-09。",
-      "sourceKind": "price_history",
-      "confidence": "high",
-      "checkedAt": "2026-07-18",
-      "note": "採用 LBJ 比價撿便宜可公開查核的價格歷史；同型號／規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+      "converted": 19665,
+      "sourceUrl": "https://tw.buy.yahoo.com/gdsale/LG%E6%A8%82%E9%87%91-DD201MEE0-19-6%E5%85%AC%E5%8D%87-PuriCare-%E9%9B%99%E8%AE%8A%E9%A0%BB%E9%99%A4%E6%BF%95%E6%A9%9F-11884613.html",
+      "sourceTitle": "Yahoo購物中心：LG樂金 DD201MEE0 19.6公升 PuriCare 雙變頻除濕機 | 14.1L以上 | Yahoo購物中心",
+      "evidenceSnippet": "Yahoo購物中心於 2026-07-28 顯示同型號可信新品公開價 NT$19,665，低於既有史低 NT$19,710。",
+      "sourceKind": "retailer_page",
+      "confidence": "medium",
+      "checkedAt": "2026-07-28",
+      "note": "採用 Yahoo購物中心當日可購商品的同型號新品公開價；不含會員券、點數、信用卡回饋、二手、福利、展示、拆封或整新品。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -1737,9 +1737,9 @@
     "name": "23 公升超變頻清淨除濕機",
     "price": {
       "currency": "TWD",
-      "amount": 23039,
-      "converted": 23039,
-      "confidence": "PChome 2026-07-18 API 公開價"
+      "amount": 23575,
+      "converted": 23575,
+      "confidence": "PChome 2026-07-28 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://www.costco.com.tw/medias/sys_master/images/h2d/h02/421140862271518.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBQ4K-A900I752Z",

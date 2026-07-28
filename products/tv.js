@@ -177,7 +177,7 @@
       "currency": "TWD",
       "amount": 56900,
       "converted": 56900,
-      "confidence": "PChome 2026-07-24 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "confidence": "PChome 2026-07-28 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DPADFNA900K7VQ8/000001_1784011502.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DPADFN-A900K7VQ8",
@@ -254,13 +254,13 @@
     "name": "65 型 OLED evo C6 4K 智慧顯示器",
     "price": {
       "currency": "TWD",
-      "amount": 79900,
-      "converted": 79900,
-      "confidence": "momo購物 2026-07-16 商品頁公開價"
+      "amount": 78889,
+      "converted": 78889,
+      "confidence": "LG 官方商城 2026-07-28 指定商品公開結帳 92 折價（企業客戶／員購除外）"
     },
     "image": "https://i6.momoshop.com.tw/1781278602/goodsimg/TP000/9148/0000/554/TP00091480000554_L.webp",
-    "buyUrl": "https://www.momoshop.com.tw/TP/TP0009148/goodsDetail/TP00091480000554",
-    "buyLabel": "momo購物",
+    "buyUrl": "https://www.lg.com/tw/tv-soundbars/oled-evo/oled65c6pta/",
+    "buyLabel": "LG 官方商城",
     "specs": [
       "65 吋 OLED evo",
       "4K 120Hz / VRR 最高 165Hz",
@@ -656,9 +656,9 @@
     "name": "BRAVIA 8 65 型 XR OLED 4K HDR Google TV 顯示器",
     "price": {
       "currency": "TWD",
-      "amount": 84510,
-      "converted": 84510,
-      "confidence": "PChome 2026-07-25 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 93900,
+      "converted": 93900,
+      "confidence": "PChome 2026-07-28 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DPAD06A900HLBJO/000001_1776334113.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DPAD06-A900HLBJO",
@@ -1604,9 +1604,9 @@
     "name": "65型 4K QLED 120Hz Google TV",
     "price": {
       "currency": "TWD",
-      "amount": 12591,
-      "converted": 12591,
-      "confidence": "PChome 2026-07-22 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 13990,
+      "converted": 13990,
+      "confidence": "PChome 2026-07-28 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DPADTOA900JNE73/000001_1768523868.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DPADTO-A900JNMOP",
@@ -2584,13 +2584,13 @@
     "name": "65 型 OLED evo G6 4K 智慧顯示器",
     "price": {
       "currency": "TWD",
-      "amount": 114900,
-      "converted": 114900,
-      "confidence": "Yahoo購物中心 2026-07-26 exact-model 自營頁公開價"
+      "amount": 106765,
+      "converted": 106765,
+      "confidence": "LG 官方商城 2026-07-28 指定商品公開結帳 92 折價（企業客戶／員購除外）"
     },
     "image": "https://www.lg.com/content/dam/channel/wcms/1-channel/tw/ms/lgcom/2026/tv-audio-video/tv/oled-evo/g6/gp1/gallery/65-g6/basic/lg-oled-evo-g6-2026-65-gallery-basic.jpg",
-    "buyUrl": "https://tw.buy.yahoo.com/gdsale/LG-%E6%A8%82%E9%87%91-65%E5%9E%8B-OLED-evo-G6-%E9%9B%B6%E9%96%93%E9%9A%99%E8%97%9D%E5%BB%8A%E7%B3%BB%E5%88%97-4K-AI%E7%89%A9%E8%81%AF%E7%B6%B2%E6%99%BA%E6%85%A7%E9%A1%AF%E7%A4%BA%E5%99%A8-OLED65-12185727.html",
-    "buyLabel": "Yahoo購物中心",
+    "buyUrl": "https://www.lg.com/tw/tv-soundbars/oled-evo/oled65g6pta/",
+    "buyLabel": "LG 官方商城",
     "specs": [
       "65 吋 OLED evo",
       "4K 120Hz / VRR 最高 165Hz",
@@ -2623,16 +2623,16 @@
     "releaseDate": "2026-07-08",
     "historicalLow": {
       "status": "found",
-      "amount": 114900,
+      "amount": 106765,
       "currency": "TWD",
-      "converted": 114900,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=564208370&cgp=114900",
-      "sourceTitle": "LBJ 比價撿便宜歷史價格：LG OLED65G6PTA 65 吋 OLED evo G6",
-      "evidenceSnippet": "LBJ 歷史頁記錄 2026-04-26、06-17、06-26 與 07-26 四個價格點皆為 NT$114,900。",
-      "sourceKind": "price_history",
+      "converted": 106765,
+      "sourceUrl": "https://www.lg.com/tw/tv-soundbars/oled-evo/oled65g6pta/",
+      "sourceTitle": "LG 官方商城：OLED65G6PTA 指定商品結帳 92 折",
+      "evidenceSnippet": "LG 官方商城商品頁顯示 OLED65G6PTA 公開價 NT$116,049；2026-07-27 至 2026-08-09 指定商品結帳 92 折，計得 NT$106,765，低於既有史低 NT$114,900。",
+      "sourceKind": "retailer_page",
       "confidence": "high",
-      "checkedAt": "2026-07-26",
-      "note": "採 exact-model、同為 65 吋 OLED65G6PTA 的可信新品公開價格歷史；排除會員券、點數、信用卡回饋、二手、福利品、展示、拆封與整新品。"
+      "checkedAt": "2026-07-28",
+      "note": "採 LG 官方商城 exact-model 商品頁與活動辦法；92 折不要求會員、優惠碼、指定支付、點數或信用卡回饋，企業客戶與員購除外。活動頁：https://www.lg.com/tw/obs/promotion/"
     },
     "issueResearch": {
       "status": "no_common_issue",

@@ -473,9 +473,9 @@
     "name": "LG Styler 蒸氣電子衣櫥 奢華鏡面",
     "price": {
       "currency": "TWD",
-      "amount": 39900,
-      "converted": 39900,
-      "confidence": "PChome 2026-07-24 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 41900,
+      "converted": 41900,
+      "confidence": "PChome 2026-07-28 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DPAI1LA900AMBO4/000001_1762826021.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DPAI1L-A900AMBO4",
@@ -654,7 +654,7 @@
     "price": {
       "currency": "USD",
       "amount": 2299,
-      "converted": 74372,
+      "converted": 74321,
       "confidence": "LG 美國 2026-07-23 官方現售型錄公開價"
     },
     "image": "https://media.us.lg.com/transform/ecomm-PDPGallery-1100x730/80ff5e54-eada-4b61-a822-7b8e27555153/Styler-SC5GMR80H-gallery-01_5000x5000?io=transform:fill,width:1024",
@@ -746,7 +746,7 @@
     "price": {
       "currency": "USD",
       "amount": 1999,
-      "converted": 64667,
+      "converted": 64622,
       "confidence": "LG 美國 2026-07-23 官方現售型錄公開價"
     },
     "image": "https://media.us.lg.com/transform/ecomm-PDPGallery-1100x730/98065e7a-bef7-4fef-9ab3-8354575893da/Styler-SC5MAR4G-gallery-01_5000x5000?io=transform:fill,width:1024",
@@ -838,7 +838,7 @@
     "price": {
       "currency": "USD",
       "amount": 1699,
-      "converted": 54962,
+      "converted": 54924,
       "confidence": "LG 美國 2026-07-23 官方現售型錄公開價"
     },
     "image": "https://media.us.lg.com/transform/ecomm-PDPGallery-1100x730/f09c059c-80e3-415a-afec-17d204454e7c/Styler-S3MFBN-gallery-01_5000x5000?io=transform:fill,width:1024",
@@ -930,7 +930,7 @@
     "price": {
       "currency": "USD",
       "amount": 1499,
-      "converted": 48492,
+      "converted": 48459,
       "confidence": "LG 美國 2026-07-23 官方現售型錄公開價"
     },
     "image": "https://media.us.lg.com/transform/ecomm-PDPGallery-1100x730/40e1eddc-4b4d-446b-afcf-fc792acdf3f8/Styler-S3WFBN-gallery-01_5000x5000?io=transform:fill,width:1024",
@@ -1022,7 +1022,7 @@
     "price": {
       "currency": "USD",
       "amount": 1499,
-      "converted": 48492,
+      "converted": 48459,
       "confidence": "LG 美國 2026-07-23 官方現售型錄公開價"
     },
     "image": "https://media.us.lg.com/transform/ecomm-PDPGallery-1100x730/d0843109-3129-40be-b3b9-325bb4ef78de/Styler-S3RFBN-gallery-01_5000x5000?io=transform:fill,width:1024",
@@ -1114,7 +1114,7 @@
     "price": {
       "currency": "KRW",
       "amount": 2443730,
-      "converted": 54043,
+      "converted": 53839,
       "confidence": "Danawa 2026-07-23 exact-model 新品比價頁公開最低價快照"
     },
     "image": "https://images.samsung.com/kdp/goods/2026/01/13/bcebeb93-4709-4c18-b685-e159e476dcfd.png",
@@ -1206,7 +1206,7 @@
     "price": {
       "currency": "KRW",
       "amount": 2172430,
-      "converted": 48043,
+      "converted": 47862,
       "confidence": "Danawa 2026-07-23 exact-model 新品比價頁公開最低價快照"
     },
     "image": "https://images.samsung.com/kdp/goods/2026/01/13/a5e2b9e4-2578-420b-a4e9-03f9af8a98a4.png",
@@ -1298,7 +1298,7 @@
     "price": {
       "currency": "KRW",
       "amount": 2203310,
-      "converted": 48726,
+      "converted": 48542,
       "confidence": "Danawa 2026-07-23 exact-model 新品比價頁公開最低價快照"
     },
     "image": "https://images.samsung.com/kdp/goods/2026/01/13/b79b910e-17e9-4844-b199-726f9a7a3810.png",
@@ -1390,7 +1390,7 @@
     "price": {
       "currency": "KRW",
       "amount": 2017980,
-      "converted": 44628,
+      "converted": 44459,
       "confidence": "Danawa 2026-07-23 exact-model 新品比價頁公開最低價快照"
     },
     "image": "https://images.samsung.com/kdp/goods/2026/01/13/76d4f74e-0c3a-42e1-89f8-426d5859c6d0.png",
@@ -1482,7 +1482,7 @@
     "price": {
       "currency": "KRW",
       "amount": 2018400,
-      "converted": 44637,
+      "converted": 44468,
       "confidence": "Danawa 2026-07-23 exact-model 新品比價頁公開最低價快照"
     },
     "image": "https://images.samsung.com/kdp/goods/2026/01/13/51d56ac5-a158-40ac-8c0a-40369bd7fd13.png",
@@ -1574,7 +1574,7 @@
     "price": {
       "currency": "KRW",
       "amount": 1791170,
-      "converted": 39612,
+      "converted": 39462,
       "confidence": "Danawa 2026-07-23 exact-model 新品比價頁公開最低價快照"
     },
     "image": "https://images.samsung.com/kdp/goods/2026/01/13/a6dfd1ea-ae12-4bd7-b437-8fbbab8ccbe7.png",
@@ -1666,7 +1666,7 @@
     "price": {
       "currency": "JPY",
       "amount": 328680,
-      "converted": 64909,
+      "converted": 64899,
       "confidence": "BicCamera 2026-07-23 exact-model 新品公開價"
     },
     "image": "https://panasonic.jp/content/experience-fragments/panasonic/jp/ja/content/smartcloset/products/HCC-R600AR/lp4_ind1_HCC-R600AR_cxf/master/_jcr_content/root/c_lay014/c_lay001_434717760_c_1343778137/c_lay011/c_gen003.coreimg.png/1743734842467/hcc-r600al-link-864x648-250403.png",
@@ -1759,7 +1759,7 @@
     "price": {
       "currency": "JPY",
       "amount": 328680,
-      "converted": 64909,
+      "converted": 64899,
       "confidence": "BicCamera 2026-07-23 exact-model 新品公開價"
     },
     "image": "https://panasonic.jp/content/experience-fragments/panasonic/jp/ja/content/smartcloset/products/HCC-R600AR/lp4_ind1_HCC-R600AR_cxf/master/_jcr_content/root/c_lay014/c_lay001_434717760_c_1343778137/c_lay011_copy/c_gen003_copy.coreimg.png/1743734847518/hcc-r600ar-link-864x648-250403.png",

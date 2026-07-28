@@ -452,8 +452,10 @@ async function main() {
       ["cookware-wmf-durado-24cm", "DEAWMW-A900JCBKJ"],
       ["cookware-zwilling-joy-plus-24cm", "DEAWMW-A900J5MY9"],
       ["dishwasher-asko-dbi544id-w-tw", "DMBR16-A900HZZEG"],
+      ["dishwasher-extra-17-dmbr17a900ihtz3", "DMBR17-A900IHTZ3"],
       ["dishwasher-haier-h500", "DMBR25-A900IUNDB"],
       ["dryer-panasonic-nh-80rz-w", "DPAI1H-A900I7ZB7"],
+      ["fan-extra-8-dmablm-a900eorp0", "DMABLM-A900EORP0"],
       ["garmentcare-lg-r723wg", "DPAI1L-A900HWRUQ"],
       ["knife-extra-17-debm2ca900j9cyp", "DEBM2C-A900J9CYP"],
       ["knife-wmf-18cm", "DEAWRU-A900HDL2T"],
@@ -464,6 +466,7 @@ async function main() {
       ["standingdesk-irocks-d01-160", "DQBJ4C-A900ITV12"],
       ["standingdesk-irocks-d01-180", "DQBJ4C-A900HUGSO"],
       ["tv-extra-8-dpad09-a900j9faz", "DPAD09-A900J9FAZ"],
+      ["tv-extra-18-dpadtoa900jne73", "DPADTO-A900JNMOP"],
       ["tv-jvc-70tg2", "DPADK9-A900HY2CU"],
       ["tv-philips-70pqt8159", "DPADIK-A900K0GIF"],
       ["vac-lg-a9x", "DMAX8K-A900HLX9W"],
@@ -476,6 +479,9 @@ async function main() {
   assert(
     [
       ["blender-xiaomi-mjpbj01demtw", "DMAYFG-A900IXDP8"],
+      ["dishwasher-extra-17-dmbr17a900ihtz3", "DMBR17-A900IHTZ4"],
+      ["fan-extra-8-dmablm-a900eorp0", "DMABLM-A900EORP1"],
+      ["tv-extra-18-dpadtoa900jne73", "DPADTO-A900JNE73"],
       ["wifi-asus-zenwifi-bd5-2pack", "DRAF01-A900I3ETA"],
     ].every(([productId, pchomeProductId]) => !isReviewedPchomeBinding(productId, pchomeProductId)),
     "generic or conflicting PChome titles must remain outside the reviewed bindings",

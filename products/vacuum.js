@@ -95,9 +95,9 @@
     "name": "自動集塵無線吸塵器",
     "price": {
       "currency": "TWD",
-      "amount": 16900,
-      "converted": 16900,
-      "confidence": "PChome 2026-07-26 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 17900,
+      "converted": 17900,
+      "confidence": "PChome 2026-07-28 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAX8KA900HLX9W/000001_1744871467.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAX8K-A900HLX9W",
@@ -1817,7 +1817,7 @@
     "price": {
       "currency": "USD",
       "amount": 679.99,
-      "converted": 21997,
+      "converted": 21982,
       "confidence": "Dreame Vacuum Mop US 2026-07-21 原廠公開特價；ExchangeRate-API 2026-07-21 匯率換算"
     },
     "image": "https://cdn.shopify.com/s/files/1/1006/5474/3895/files/0_-02_c3ee1e28-25e4-4458-921a-a6b34cecb723.png?v=1784095443",
@@ -1857,7 +1857,7 @@
       "status": "found",
       "amount": 679.99,
       "currency": "USD",
-      "converted": 21997,
+      "converted": 21982,
       "sourceUrl": "https://vacuummop.dreametech.com/products/aero-ultra-steam-wet-dry-vacuum",
       "sourceTitle": "Dreame Aero Ultra Steam Wet Dry Vacuum – Dreame Vacuum Mop",
       "evidenceSnippet": "Dreame 原廠美國商品頁於 2026-07-16 公開顯示特價 US$679.99、原價 US$799.99，且可 Add to Cart / Buy It Now。",
