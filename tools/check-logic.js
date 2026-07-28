@@ -1327,6 +1327,49 @@ async function main() {
   dashboard.urlState.syncToQuery();
   assert(context.history.lastUrl.endsWith("?q=OLED&category=monitor&brand=ASUS&sort=priceAsc"), "query sync should persist active filters only");
 
+  Object.assign(dashboard.state, {
+    search: "",
+    category: "all",
+    brand: "all",
+    budget: "all",
+    channel: "all",
+    sort: "rank",
+  });
+  context.location = new URL("https://example.test/#category=bidet");
+  context.history.lastUrl = "";
+  dashboard.urlState.applyFromQuery();
+  assert(dashboard.state.category === "bidet", "category fragment should restore the guide's dashboard filter");
+
+  dashboard.initialCategoryFragment = "bidet";
+  dashboard.state.category = "all";
+  context.location = new URL("https://example.test/#researchMethod");
+  context.history.lastUrl = "";
+  dashboard.urlState.applyFromQuery();
+  assert(dashboard.state.category === "bidet", "bootstrap state should survive an anchor click before app initialization");
+  assert(
+    context.history.lastUrl.endsWith("?category=bidet#researchMethod"),
+    "bootstrap state should persist the category while retaining the early anchor target",
+  );
+
+  context.location = new URL("https://example.test/#researchMethod");
+  context.history.lastUrl = "";
+  dashboard.urlState.preserveCategoryAcrossAnchorNavigation();
+  assert(
+    context.history.lastUrl.endsWith("?category=bidet#researchMethod"),
+    "in-page anchor navigation should persist a restored category in the query",
+  );
+
+  context.location = new URL("https://example.test/#category=bidet");
+  context.history.lastUrl = "";
+  dashboard.urlState.syncToQuery();
+  assert(context.history.lastUrl.endsWith("?category=bidet"), "query sync should preserve a category restored from the fragment");
+  assert(!context.history.lastUrl.includes("#category="), "query sync should remove the consumed category fragment");
+
+  dashboard.state.category = "all";
+  context.location = new URL("https://example.test/?category=monitor#category=bidet");
+  dashboard.urlState.applyFromQuery();
+  assert(dashboard.state.category === "monitor", "an explicit category query should take precedence over the guide fragment");
+
   await assertLoaderSchedulesAllCategoriesTogether();
   await assertLoaderRequiresNewItemsForCategory();
   await assertLoaderFailureIsClear(context, dashboard);

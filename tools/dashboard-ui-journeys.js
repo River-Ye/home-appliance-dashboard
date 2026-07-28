@@ -54,6 +54,7 @@ const EXPECTED_WATER_DISPENSER_COUNT = EXPECTED_CATEGORY_PRODUCT_COUNTS.get("wat
 const EXPECTED_DISHWASHER_COUNT = EXPECTED_CATEGORY_PRODUCT_COUNTS.get("dishwasher");
 const EXPECTED_MONITOR_COUNT = EXPECTED_CATEGORY_PRODUCT_COUNTS.get("monitor");
 const EXPECTED_TV_COUNT = EXPECTED_CATEGORY_PRODUCT_COUNTS.get("tv");
+const EXPECTED_BIDET_COUNT = EXPECTED_CATEGORY_PRODUCT_COUNTS.get("bidet");
 
 function attachRuntimeIssueCollector(page) {
   const issues = [];
@@ -183,6 +184,43 @@ async function runProductLoadSchedulingJourney(browser) {
     const topPickCount = await page.locator("#topPicks .pick-card").count();
     if (topPickCount !== EXPECTED_CATEGORY_COUNT) {
       throw new Error(`${name}: expected ${EXPECTED_CATEGORY_COUNT} top picks, got ${topPickCount}`);
+    }
+    assertNoRuntimeIssues(page, name);
+  } finally {
+    await page.close();
+  }
+}
+
+async function runDelayedInitializationCategoryJourney(browser) {
+  const name = "dashboard-delayed-category-initialization";
+  const page = await browser.newPage({ viewport: { width: 1440, height: 1100 } });
+  attachRuntimeIssueCollector(page);
+  try {
+    await page.addInitScript(() => {
+      const originalAppend = HTMLHeadElement.prototype.append;
+      HTMLHeadElement.prototype.append = function appendAfterDelay(...nodes) {
+        const includesProductScript = nodes.some((node) => (
+          node instanceof HTMLScriptElement && node.src.includes("/products/")
+        ));
+        if (!includesProductScript) {
+          return originalAppend.apply(this, nodes);
+        }
+        const head = this;
+        window.setTimeout(() => originalAppend.apply(head, nodes), 700);
+        return undefined;
+      };
+    });
+
+    await page.goto(`${fileUrl}#category=bidet`, { waitUntil: "domcontentloaded" });
+    if (await page.locator(".product-card").count()) {
+      throw new Error(`${name}: product loading was not delayed before the early anchor click`);
+    }
+    await page.locator('.ai-disclosure a[href="#researchMethod"]').click();
+    await page.waitForSelector(".product-card");
+    await page.waitForFunction(() => document.querySelector("#categoryInput")?.value === "免治馬桶");
+    await waitForVisibleCount(page, EXPECTED_BIDET_COUNT);
+    if (!page.url().includes("?category=bidet#researchMethod")) {
+      throw new Error(`${name}: early anchor click discarded the bootstrapped category`);
     }
     assertNoRuntimeIssues(page, name);
   } finally {
@@ -817,6 +855,35 @@ async function assertUrlQueryRestore(page, name) {
   await resetFilters(page);
 }
 
+async function assertUrlHashRestore(page, name) {
+  await page.goto(`${fileUrl}#category=bidet`, { waitUntil: "domcontentloaded" });
+  // The real guide-to-dashboard transition loads a new document; reload here because
+  // this journey is already on index.html and a hash-only goto is same-document navigation.
+  await page.reload({ waitUntil: "domcontentloaded" });
+  await page.waitForSelector(".product-card");
+  await page.waitForFunction(() => document.querySelector("#categoryInput")?.value === "免治馬桶");
+  await waitForVisibleCount(page, EXPECTED_BIDET_COUNT);
+  if (!page.url().endsWith("#category=bidet")) {
+    throw new Error(`${name}: guide fragment was not preserved during initial category restore`);
+  }
+
+  await page.locator('.ai-disclosure a[href="#researchMethod"]').click();
+  await page.waitForFunction(
+    () => location.search.includes("category=bidet") && location.hash === "#researchMethod",
+    undefined,
+    { timeout: 5000 },
+  );
+  await page.reload({ waitUntil: "domcontentloaded" });
+  await page.waitForSelector(".product-card");
+  await page.waitForFunction(() => document.querySelector("#categoryInput")?.value === "免治馬桶");
+  await waitForVisibleCount(page, EXPECTED_BIDET_COUNT);
+  if (!page.url().includes("?category=bidet#researchMethod")) {
+    throw new Error(`${name}: in-page anchor did not preserve the restored category in query state`);
+  }
+
+  await resetFilters(page);
+}
+
 async function runSmokeViewport(browser, name, viewport) {
   const page = await openDashboardPage(browser, name, viewport);
   try {
@@ -861,6 +928,7 @@ async function runDesktopJourney(browser) {
   const page = await openDashboardPage(browser, name, { width: 1440, height: 1100 });
   try {
     await assertUrlQueryRestore(page, name);
+    await assertUrlHashRestore(page, name);
 
     await page.fill("#searchInput", "POIEMA");
     await waitForVisibleCount(page, EXPECTED_POIEMA_COUNT);
@@ -1119,6 +1187,7 @@ async function runMobileJourney(browser) {
 
 module.exports = {
   runProductLoadSchedulingJourney,
+  runDelayedInitializationCategoryJourney,
   runInitializationFailureJourney,
   runExhaustiveViewport,
   runSmokeViewport,

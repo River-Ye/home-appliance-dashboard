@@ -73,6 +73,7 @@
 - 站名、首頁 title、description、H1 與 AI 揭露集中在 `tools/geo-config.js`；首頁 metadata、JSON-LD、分類頁與 `llms.txt` 必須共用此契約。首頁與分類頁首屏皆需可見 AI 協作、資料日期、查核方法與 GitHub 原始碼。
 - 修改 `assets/js/config.js` 的分類、`products/*.js` 商品或 `tools/category-guides.js` 後，必須執行 `npm run generate:categories`，再以 `npm run check:geo` 驗證產物與 contract。
 - `llms.txt` 是提供網站用途、查核方法、資料限制與分類入口的補充說明，不是正式排名標準，也不保證搜尋引擎或 AI 服務收錄、排名或引用。
+- 分類指南連回互動工作台時使用 `/#category=<id>` fragment 初始化篩選；不得產生可爬取的 `index.html?category=...` 內部連結，避免參數頁分散 canonical 與檢索訊號。首頁需在非同步商品載入前保存此 fragment，頁內錨點不得讓分類狀態遺失；既有 query 分享網址仍由 `assets/js/url-state.js` 向後相容。
 - Pages 必須公開六份證據 JSON：`release_date_research.json`、`historical_price_research.json`、`dimension_research.json`、`product_issue_research.json`、`product_issue_report_evidence.json`、`product_issue_review_manifest.json`。
 - Pages 成功部署後才執行 IndexNow；通知為 non-blocking，失敗不得讓已完成的 Pages 部署失敗，但維護者仍需檢查 workflow log 並釐清原因。
 - GEO / AI 搜尋優化不得新增 Google Analytics、Google Ads 轉換或其他追蹤，也不得衍生逐商品薄內容頁。

@@ -2,6 +2,7 @@ const path = require("path");
 const os = require("os");
 const {
   runProductLoadSchedulingJourney,
+  runDelayedInitializationCategoryJourney,
   runInitializationFailureJourney,
   runExhaustiveViewport,
   runSmokeViewport,
@@ -29,6 +30,7 @@ function loadPlaywright() {
   const browser = await chromium.launch({ headless: true });
   try {
     await runProductLoadSchedulingJourney(browser);
+    await runDelayedInitializationCategoryJourney(browser);
     await runInitializationFailureJourney(browser);
     await runCategoryPageJourneys(browser);
     await runGarmentCareJourney(

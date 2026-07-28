@@ -30,6 +30,17 @@
     filters.applyFilterValue(name, value);
   }
 
+  function applyCategoryFromHash() {
+    const hash = globalThis.location.hash || "";
+    const params = new URLSearchParams(hash.replace(/^#/, ""));
+    const currentValue = params.get(queryKeys.category);
+    const value = currentValue || dashboard.initialCategoryFragment;
+    dashboard.initialCategoryFragment = "";
+    if (!isValidFilterValue("category", value)) return null;
+    filters.applyFilterValue("category", value);
+    return currentValue ? "current" : "bootstrap";
+  }
+
   function applyFromQuery() {
     if (!hasBrowserLocation()) return;
     const params = new URLSearchParams(globalThis.location.search || "");
@@ -38,12 +49,21 @@
       state.search = search.trim();
     }
 
-    applyFilterParam(params, "category");
+    let categorySource = null;
+    if (params.has(queryKeys.category)) {
+      dashboard.initialCategoryFragment = "";
+      applyFilterParam(params, "category");
+    } else {
+      categorySource = applyCategoryFromHash();
+    }
     applyFilterParam(params, "budget");
     applyFilterParam(params, "channel");
     applyFilterParam(params, "sort");
     applyFilterParam(params, "brand");
     filters.ensureSelectedBrandIsAvailable();
+    if (categorySource === "bootstrap") {
+      syncToQuery();
+    }
   }
 
   function appendIfActive(params, name, defaultValue) {
@@ -67,15 +87,32 @@
 
     const nextUrl = new URL(globalThis.location.href);
     nextUrl.search = params.toString();
+    const hashParams = new URLSearchParams(nextUrl.hash.replace(/^#/, ""));
+    if (hashParams.has(queryKeys.category)) {
+      nextUrl.hash = "";
+    }
     const nextHref = nextUrl.href;
     if (nextHref !== globalThis.location.href) {
       globalThis.history.replaceState(null, "", nextHref);
     }
   }
 
+  function preserveCategoryAcrossAnchorNavigation() {
+    if (!hasBrowserLocation() || state.category === "all") return;
+
+    const hashParams = new URLSearchParams((globalThis.location.hash || "").replace(/^#/, ""));
+    if (!globalThis.location.hash || hashParams.has(queryKeys.category)) return;
+
+    const queryParams = new URLSearchParams(globalThis.location.search || "");
+    if (queryParams.get(queryKeys.category) === state.category) return;
+
+    syncToQuery();
+  }
+
   dashboard.urlState = {
     queryKeys,
     applyFromQuery,
+    preserveCategoryAcrossAnchorNavigation,
     syncToQuery,
   };
 })();
