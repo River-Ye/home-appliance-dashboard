@@ -849,9 +849,9 @@
     "image": "https://cs-a.ecimg.tw/items/DEDG3BA900GQDVZ/000001_1776769920.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 990,
-      "converted": 990,
-      "confidence": "Yahoo購物中心 2026-07-27 exact-model 公開結構化價格"
+      "amount": 961,
+      "converted": 961,
+      "confidence": "Yahoo購物中心 2026-07-29 exact-model 公開結構化價格"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心",
@@ -1501,9 +1501,9 @@
     "name": "醇火系列不沾炒鍋",
     "price": {
       "currency": "TWD",
-      "amount": 1329,
-      "converted": 1329,
-      "confidence": "PChome 2026-07-26 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 1259,
+      "converted": 1259,
+      "confidence": "PChome 2026-07-29 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DEES01A900IQ6X3/000001_1764832269.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DEES01-A900IQ6X3",
@@ -1536,16 +1536,16 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 1260,
+      "amount": 1259,
       "currency": "TWD",
-      "converted": 1260,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1249077776&cgp=1399",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：Tefal法國特福 Espresso醇火系列34CM不沾炒鍋(加蓋)",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Yahoo購物中心 / Tefal法國特福 Espresso醇火系列34CM不沾炒鍋(加蓋)」最低價為 NT$1,260，最低點日期 2025-08-13。",
-      "sourceKind": "price_history",
-      "confidence": "high",
-      "checkedAt": "2026-07-09",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+      "converted": 1259,
+      "sourceUrl": "https://24h.pchome.com.tw/prod/DEES01-A900IQ6X3",
+      "sourceTitle": "PChome 24h 購物：Tefal法國特福 Espresso醇火系列34CM不沾炒鍋(加蓋)",
+      "evidenceSnippet": "PChome 24h 購物於 2026-07-29 顯示同型號可信新品公開價 NT$1,259，低於既有史低 NT$1,260。",
+      "sourceKind": "retailer_page",
+      "confidence": "medium",
+      "checkedAt": "2026-07-29",
+      "note": "採用 PChome 24h 購物當日可購商品的同型號新品公開價；不含會員券、點數、信用卡回饋、二手、福利、展示、拆封或整新品。"
     },
     "issueResearch": {
       "status": "no_common_issue",

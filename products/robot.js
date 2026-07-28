@@ -94,9 +94,9 @@
     "name": "跨越奇兵旗艦掃拖王者水立方版",
     "price": {
       "currency": "TWD",
-      "amount": 34980,
-      "converted": 34980,
-      "confidence": "PChome 2026-07-27 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 31482,
+      "converted": 31482,
+      "confidence": "PChome 2026-07-29 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL1CA900JNELR/000001_1769062030.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBL1C-A900JNELR",
@@ -172,9 +172,9 @@
     "name": "跨越奇兵旗艦越障掃拖王者",
     "price": {
       "currency": "TWD",
-      "amount": 32980,
-      "converted": 32980,
-      "confidence": "PChome 2026-07-27 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 29682,
+      "converted": 29682,
+      "confidence": "PChome 2026-07-29 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL1CA900JMMCO/000001_1769061975.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBL1C-A900JMMCO",
@@ -329,9 +329,9 @@
     "name": "滾筒全自動洗拖烘掃地機器人",
     "price": {
       "currency": "TWD",
-      "amount": 20999,
-      "converted": 20999,
-      "confidence": "PChome 2026-07-28 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 19999,
+      "converted": 19999,
+      "confidence": "PChome 2026-07-29 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL1CA900JA04J/000001_1783562731.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBL1C-A900JA04J",
@@ -485,9 +485,9 @@
     "name": "無限續航滾筒洗地機器人",
     "price": {
       "currency": "TWD",
-      "amount": 19999,
-      "converted": 19999,
-      "confidence": "PChome 2026-07-27 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 17999,
+      "converted": 17999,
+      "confidence": "PChome 2026-07-29 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL0LA900J5HJ0/000001_1766715791.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBL0L-A900J5HJ0",
@@ -660,9 +660,9 @@
     "name": "超薄全覆蓋全能旗艦掃拖機器人",
     "price": {
       "currency": "TWD",
-      "amount": 14999,
-      "converted": 14999,
-      "confidence": "PChome 2026-07-27 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 13499,
+      "converted": 13499,
+      "confidence": "PChome 2026-07-29 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL0LA900IDIPA/000001_1763087835.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBL0L-A900IDIPA",
@@ -738,9 +738,9 @@
     "name": "強清潔全能掃拖機器人",
     "price": {
       "currency": "TWD",
-      "amount": 12999,
-      "converted": 12999,
-      "confidence": "PChome 2026-07-27 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 11699,
+      "converted": 11699,
+      "confidence": "PChome 2026-07-29 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL0LA900J0KF3/000001_1765762606.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBL0L-A900J0KF3",
@@ -816,9 +816,9 @@
     "name": "AI 藍光辨識超薄掃拖旗艦機低矮版",
     "price": {
       "currency": "TWD",
-      "amount": 32588,
-      "converted": 32588,
-      "confidence": "PChome 2026-07-24 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 29329,
+      "converted": 29329,
+      "confidence": "PChome 2026-07-29 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL3EA900JZ3SP/000001_1780033309.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBL3E-A900JZ3SP",
@@ -894,9 +894,9 @@
     "name": "全能掃拖機器人",
     "price": {
       "currency": "TWD",
-      "amount": 9999,
-      "converted": 9999,
-      "confidence": "PChome 2026-07-24 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 8999,
+      "converted": 8999,
+      "confidence": "PChome 2026-07-29 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL3EA900JY4G0/000001_1780033612.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBL3E-A900JY4G0",
@@ -2413,9 +2413,9 @@
     "name": "Xiaomi 掃拖機器人 6 Max",
     "price": {
       "currency": "TWD",
-      "amount": 23999,
-      "converted": 23999,
-      "confidence": "Yahoo購物中心 2026-07-28 exact-model 公開結構化價格"
+      "amount": 22800,
+      "converted": 22800,
+      "confidence": "Yahoo購物中心 2026-07-29 exact-model 公開結構化價格"
     },
     "image": "https://img.yec.tw/zp/MerchandiseImages/5A801ABE6A-SP-22823743.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/%E5%B0%8F%E7%B1%B3-Xiaomi-%E6%8E%83%E6%8B%96%E6%A9%9F%E5%99%A8%E4%BA%BA-6-Max-%E5%AE%98%E6%96%B9%E6%97%97%E8%89%A6%E9%A4%A8-12134974.html",
@@ -2497,9 +2497,9 @@
     "name": "ECOVACS DEEBOT T90 PRO OMNI",
     "price": {
       "currency": "TWD",
-      "amount": 20999,
-      "converted": 20999,
-      "confidence": "PChome 2026-07-27 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 18899,
+      "converted": 18899,
+      "confidence": "PChome 2026-07-29 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL0LA900JWVON/000001_1776138874.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBL0L-A900JWVON",
@@ -2581,9 +2581,9 @@
     "name": "ECOVACS DEEBOT X12 PRO OMNI",
     "price": {
       "currency": "TWD",
-      "amount": 26999,
-      "converted": 26999,
-      "confidence": "PChome 2026-07-27 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 24299,
+      "converted": 24299,
+      "confidence": "PChome 2026-07-29 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL0LA900JS61Y/000001_1772592930.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBL0L-A900JS61Y",
@@ -2665,9 +2665,9 @@
     "name": "Xiaomi 掃拖機器人 H50 Pro",
     "price": {
       "currency": "TWD",
-      "amount": 10999,
-      "converted": 10999,
-      "confidence": "Yahoo購物中心 2026-07-25 exact-model 公開結構化價格"
+      "amount": 10450,
+      "converted": 10450,
+      "confidence": "Yahoo購物中心 2026-07-29 exact-model 公開結構化價格"
     },
     "image": "https://img.yec.tw/zp/MerchandiseImages/DBA14833A1-SP-22450109.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/%E5%B0%8F%E7%B1%B3-Xiaomi-%E6%8E%83%E6%8B%96%E6%A9%9F%E5%99%A8%E4%BA%BA-H50-Pro-12052496.html",
