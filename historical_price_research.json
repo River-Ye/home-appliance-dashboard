@@ -1,7 +1,7 @@
 {
   "summary": {
     "checkedAt": "2026-07-28T00:00:00.000+08:00",
-    "sourcePolicy": "2026-07-28 以 707 筆基準清單全量查核現價、購買連結與可信新品狀態，並複核最終 705 筆商品圖片、全部 442 筆 found 史低來源、原廠停產訊號與同批次匯率。PChome exact-model 現貨頁有正值 Price.Low 時採公開折扣價，否則採 Price.P；Qty 0、福利品、展示機與配件不寫回。其他頁面的結構化價格差異列入人工覆核候選，阻擋、暫時錯誤與單次頁面失效只列稽核，不臆測停產或史低失效。",
+    "sourcePolicy": "2026-07-28 以 705 筆基準清單全量查核現價、購買連結與可信新品狀態，並複核最終 705 筆商品圖片、全部 442 筆 found 史低來源、原廠停產訊號與同批次匯率。PChome exact-model 現貨頁有正值 Price.Low 時採公開折扣價，否則採 Price.P；Qty 0、福利品、展示機與配件不寫回。其他頁面的結構化價格差異列入人工覆核候選，阻擋、暫時錯誤與單次頁面失效只列稽核，不臆測停產或史低失效。",
     "total": 705,
     "researchedThisRun": 705,
     "found": 442,
@@ -20,28 +20,22 @@
       "CNY_TWD": 4.771882513872133,
       "KRW_TWD": 0.02203136051269113
     },
-    "lastMaintenanceCheckAt": "2026-07-28T03:55:15.511Z",
-    "currentPriceChanged": 11,
+    "lastMaintenanceCheckAt": "2026-07-28T09:12:11.829Z",
+    "currentPriceChanged": 4,
     "currentBuyLinkChanged": 0,
-    "currentPriceDrops": 3,
-    "currentPriceRises": 8,
+    "currentPriceDrops": 0,
+    "currentPriceRises": 4,
     "currentPriceFallbacks": 0,
-    "historicalLowUpdated": 1,
+    "historicalLowUpdated": 0,
     "historicalLowInvalidated": 0,
     "catalogEntriesReplaced": 0,
     "catalogReplacementNotes": [],
     "currentImageChanged": 0,
-    "discontinuedRemoved": 2,
+    "discontinuedRemoved": 0,
     "newProductsAdded": 0,
-    "discontinuedRemovalNotes": [
-      "monitor-lg-27gx790a",
-      "monitor-lg-27up850k"
-    ],
-    "catalogEntriesRemoved": 2,
-    "catalogRemovalNotes": [
-      "monitor-lg-27gx790a",
-      "monitor-lg-27up850k"
-    ]
+    "discontinuedRemovalNotes": [],
+    "catalogEntriesRemoved": 0,
+    "catalogRemovalNotes": []
   },
   "results": [
     {
@@ -6975,7 +6969,7 @@
       "brand": "Roborock",
       "model": "Qrevo Curv 2 Flow",
       "name": "滾筒全自動洗拖烘掃地機器人",
-      "currentPrice": 19999,
+      "currentPrice": 20999,
       "currentCurrency": "TWD",
       "currentBuyUrl": "https://24h.pchome.com.tw/prod/DMBL1C-A900JA04J",
       "currentBuyLabel": "PChome",
@@ -10867,7 +10861,7 @@
       "brand": "SAMPO",
       "model": "SD-7C",
       "name": "SAMPO SD-7C",
-      "currentPrice": 7690,
+      "currentPrice": 7691,
       "currentCurrency": "TWD",
       "currentBuyUrl": "https://tw.buy.yahoo.com/gdsale/SAMPO%E8%81%B2%E5%AF%B6-7%E5%85%AC%E6%96%A4%E4%B9%BE%E8%A1%A3%E6%A9%9F-SD-7C-%E5%90%AB%E5%9F%BA%E6%9C%AC%E5%AE%89%E8%A3%9D-%E9%81%8B%E9%80%81%E5%88%B0%E5%BA%9C-9971420.html",
       "currentBuyLabel": "Yahoo購物中心",
@@ -16267,7 +16261,7 @@
       "brand": "Panasonic",
       "model": "NN-BS607",
       "name": "27L 蒸烘烤微波爐",
-      "currentPrice": 12490,
+      "currentPrice": 14310,
       "currentCurrency": "TWD",
       "currentBuyUrl": "https://24h.pchome.com.tw/prod/DMBJ02-A900G62BM",
       "currentBuyLabel": "PChome",
@@ -24203,7 +24197,7 @@
       "brand": "TP-Link",
       "model": "Deco BE22",
       "name": "BE3600 Wi-Fi 7 真 Mesh 無線路由器一入組",
-      "currentPrice": 2699,
+      "currentPrice": 2899,
       "currentCurrency": "TWD",
       "currentBuyUrl": "https://24h.pchome.com.tw/prod/DSBC5U-A900J0QSL",
       "currentBuyLabel": "PChome",

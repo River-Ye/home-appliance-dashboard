@@ -3628,9 +3628,9 @@
     "name": "BE3600 Wi-Fi 7 真 Mesh 無線路由器一入組",
     "price": {
       "currency": "TWD",
-      "amount": 2699,
-      "converted": 2699,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 2899,
+      "converted": 2899,
+      "confidence": "PChome 2026-07-28 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DSBC5UA900J0QSL/000001_1779184048.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DSBC5U-A900J0QSL",
