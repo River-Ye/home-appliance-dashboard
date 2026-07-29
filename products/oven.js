@@ -330,10 +330,10 @@
     "price": {
       "currency": "USD",
       "amount": 499.95,
-      "converted": 16162,
-      "confidence": "Breville 官方 2026-07-21 來源價；ExchangeRate-API 2026-07-21 匯率換算"
+      "converted": 16191,
+      "confidence": "Breville 官方 2026-07-21 來源價；ExchangeRate-API 2026-07-29 匯率換算"
     },
-    "image": "https://cdn11.bigcommerce.com/s-ihwnd7z21q/images/stencil/640w/products/1251/4666/212814_JouleOvenAirFryer1__10534.1724079466.jpg?c=1",
+    "image": "https://assets.breville.com/cdn-cgi/image/width=1300,format=auto/BOV950/BOV950BSS1BUS1/pdp3.png?pdp=",
     "buyUrl": "https://www.breville.com/en-us/product/bov950",
     "buyLabel": "Breville 官方",
     "specs": [
@@ -719,8 +719,8 @@
     "name": "20L 多功能蒸氣氣炸烤箱",
     "price": {
       "currency": "TWD",
-      "amount": 10260,
-      "converted": 10260,
+      "amount": 10800,
+      "converted": 10800,
       "confidence": "PChome 2026-07-29 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBM0GA900HF91A/000001_1768545220.jpg",
@@ -1499,8 +1499,8 @@
     "name": "蒸烘烤變頻微波爐",
     "price": {
       "currency": "TWD",
-      "amount": 41724,
-      "converted": 41724,
+      "amount": 43920,
+      "converted": 43920,
       "confidence": "PChome 2026-07-29 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBM0GA900H5125/000001_1783054719.jpg",
@@ -1819,8 +1819,8 @@
     "price": {
       "currency": "USD",
       "amount": 449.99,
-      "converted": 14547,
-      "confidence": "SharkNinja 美國官方 2026-07-21 商品頁現貨價；ExchangeRate-API 2026-07-21 匯率換算"
+      "converted": 14573,
+      "confidence": "SharkNinja 美國官方 2026-07-21 商品頁現貨價；ExchangeRate-API 2026-07-29 匯率換算"
     },
     "image": "https://assets.sharkninja.com/image/upload/f_auto/q_auto/SharkNinja-NA/MW101_01.jpg",
     "buyUrl": "https://www.sharkninja.com/ninja-crispi-microwave/MW101.html",

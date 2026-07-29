@@ -16,8 +16,8 @@
     "name": "Ascent 領航者全食物調理機",
     "price": {
       "currency": "TWD",
-      "amount": 35820,
-      "converted": 35820,
+      "amount": 39800,
+      "converted": 39800,
       "confidence": "PChome 2026-07-29 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAYE8A900BKOKK/000001_1782889462.jpg",
@@ -109,8 +109,8 @@
     "name": "Ascent 領航者全食物調理機",
     "price": {
       "currency": "TWD",
-      "amount": 26640,
-      "converted": 26640,
+      "amount": 29600,
+      "converted": 29600,
       "confidence": "PChome 2026-07-29 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/QBAO0FA900AS2G7/000001_1782460590.jpg",
@@ -344,8 +344,8 @@
     "price": {
       "currency": "USD",
       "amount": 119.99,
-      "converted": 3879,
-      "confidence": "SharkNinja 官方 2026-07-21 來源價；ExchangeRate-API 2026-07-21 匯率換算"
+      "converted": 3886,
+      "confidence": "SharkNinja 官方 2026-07-21 來源價；ExchangeRate-API 2026-07-29 匯率換算"
     },
     "image": "https://ak1.ostkcdn.com/images/products/is/images/direct/d1c25153baa2aa99eae7831be826d2a51d87c485/Ninja-BN701-Professional-Plus-Blender-with-Auto-iQ.jpg",
     "buyUrl": "https://www.sharkninja.com/ninja-professional-plus-blender-with-auto-iq/BN701.html",
@@ -586,8 +586,8 @@
     "name": "E320 Explorian 探索者調理機雙杯組黑色",
     "price": {
       "currency": "TWD",
-      "amount": 22230,
-      "converted": 22230,
+      "amount": 24700,
+      "converted": 24700,
       "confidence": "PChome 2026-07-29 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAY0GA900AGMD8/000001_1782460348.jpg",
@@ -688,8 +688,8 @@
     "name": "Ascent A2500i 全食物調理機白色",
     "price": {
       "currency": "TWD",
-      "amount": 26640,
-      "converted": 26640,
+      "amount": 29600,
+      "converted": 29600,
       "confidence": "PChome 2026-07-29 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/QBAO0FA900AS2DJ/000001_1782460671.jpg",

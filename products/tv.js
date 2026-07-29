@@ -1604,8 +1604,8 @@
     "name": "65型 4K QLED 120Hz Google TV",
     "price": {
       "currency": "TWD",
-      "amount": 12591,
-      "converted": 12591,
+      "amount": 13990,
+      "converted": 13990,
       "confidence": "PChome 2026-07-29 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DPADTOA900JNE73/000001_1768523868.jpg",

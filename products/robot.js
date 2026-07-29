@@ -94,8 +94,8 @@
     "name": "跨越奇兵旗艦掃拖王者水立方版",
     "price": {
       "currency": "TWD",
-      "amount": 31482,
-      "converted": 31482,
+      "amount": 34980,
+      "converted": 34980,
       "confidence": "PChome 2026-07-29 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL1CA900JNELR/000001_1769062030.jpg",
@@ -172,8 +172,8 @@
     "name": "跨越奇兵旗艦越障掃拖王者",
     "price": {
       "currency": "TWD",
-      "amount": 29682,
-      "converted": 29682,
+      "amount": 32980,
+      "converted": 32980,
       "confidence": "PChome 2026-07-29 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL1CA900JMMCO/000001_1769061975.jpg",
@@ -485,8 +485,8 @@
     "name": "無限續航滾筒洗地機器人",
     "price": {
       "currency": "TWD",
-      "amount": 17999,
-      "converted": 17999,
+      "amount": 19999,
+      "converted": 19999,
       "confidence": "PChome 2026-07-29 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL0LA900J5HJ0/000001_1766715791.jpg",
@@ -660,8 +660,8 @@
     "name": "超薄全覆蓋全能旗艦掃拖機器人",
     "price": {
       "currency": "TWD",
-      "amount": 13499,
-      "converted": 13499,
+      "amount": 14999,
+      "converted": 14999,
       "confidence": "PChome 2026-07-29 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL0LA900IDIPA/000001_1763087835.jpg",
@@ -738,8 +738,8 @@
     "name": "強清潔全能掃拖機器人",
     "price": {
       "currency": "TWD",
-      "amount": 11699,
-      "converted": 11699,
+      "amount": 12999,
+      "converted": 12999,
       "confidence": "PChome 2026-07-29 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL0LA900J0KF3/000001_1765762606.jpg",
@@ -816,8 +816,8 @@
     "name": "AI 藍光辨識超薄掃拖旗艦機低矮版",
     "price": {
       "currency": "TWD",
-      "amount": 29329,
-      "converted": 29329,
+      "amount": 32588,
+      "converted": 32588,
       "confidence": "PChome 2026-07-29 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL3EA900JZ3SP/000001_1780033309.jpg",
@@ -894,8 +894,8 @@
     "name": "全能掃拖機器人",
     "price": {
       "currency": "TWD",
-      "amount": 8999,
-      "converted": 8999,
+      "amount": 9999,
+      "converted": 9999,
       "confidence": "PChome 2026-07-29 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL3EA900JY4G0/000001_1780033612.jpg",
@@ -1051,8 +1051,8 @@
     "price": {
       "currency": "EUR",
       "amount": 999,
-      "converted": 36749,
-      "confidence": "Boulanger 2026-07-21 來源價；ExchangeRate-API 2026-07-21 匯率換算"
+      "converted": 36821,
+      "confidence": "Boulanger 2026-07-21 來源價；ExchangeRate-API 2026-07-29 匯率換算"
     },
     "image": "https://boulanger.scene7.com/is/image/Boulanger/6972075738536_h_f_l_0?fmt=png-alpha&wid=640&hei=640",
     "buyUrl": "https://www.boulanger.com/ref/1238998",
@@ -1129,8 +1129,8 @@
     "price": {
       "currency": "USD",
       "amount": 551.69,
-      "converted": 17835,
-      "confidence": "Geekbuying 2026-07-21 來源價；ExchangeRate-API 2026-07-21 匯率換算"
+      "converted": 17867,
+      "confidence": "Geekbuying 2026-07-21 來源價；ExchangeRate-API 2026-07-29 匯率換算"
     },
     "image": "https://img.gkbcdn.com/p/2025-04-11/Narwal-Freo-Z10-Ultra-Robot-Vacuum-with-Base-Station-Gray-528438-0._w315_.jpg",
     "buyUrl": "https://www.geekbuying.com/item/Narwal-Freo-Z10-Ultra-Robot-Vacuum-with-Base-Station-Gray-528438.html",
@@ -1936,9 +1936,9 @@
     "name": "R5T 變頻濕拖掃地機器人",
     "price": {
       "currency": "TWD",
-      "amount": 13290,
-      "converted": 13290,
-      "confidence": "PChome 2026-07-23 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 13490,
+      "converted": 13490,
+      "confidence": "PChome 2026-07-29 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBM2ZA900IUC17/000001_1778123320.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBM2Z-A900IUC17",
@@ -2093,8 +2093,8 @@
     "price": {
       "currency": "USD",
       "amount": 999.99,
-      "converted": 32327,
-      "confidence": "SharkNinja US 2026-07-21 來源價；ExchangeRate-API 2026-07-21 匯率換算"
+      "converted": 32385,
+      "confidence": "SharkNinja US 2026-07-21 來源價；ExchangeRate-API 2026-07-29 匯率換算"
     },
     "image": "https://assets.sharkninja.com/image/upload/f_auto/q_auto/SharkNinja-NA/RV2820ZE_01.jpg",
     "buyUrl": "https://www.sharkninja.com/shark-powerdetect-2-in-1-robot-vacuum-and-mop-with-nevertouch-pro-base/RV2820ZE.html",
@@ -2251,8 +2251,8 @@
     "price": {
       "currency": "USD",
       "amount": 399.99,
-      "converted": 12931,
-      "confidence": "Costco US 2026-07-21 來源價；ExchangeRate-API 2026-07-21 匯率換算"
+      "converted": 12954,
+      "confidence": "Costco US 2026-07-21 來源價；ExchangeRate-API 2026-07-29 匯率換算"
     },
     "image": "https://bfasset.costco-static.com/U447IH35/as/tkj772p4357mmh3bwz8kcq/1791272-847__1?auto=webp&format=jpg",
     "buyUrl": "https://www.costco.com/roborock-qx-revo-robot-vacuum-and-mop-with-multifunctional-dock.product.4000233271.html",
@@ -2497,8 +2497,8 @@
     "name": "ECOVACS DEEBOT T90 PRO OMNI",
     "price": {
       "currency": "TWD",
-      "amount": 18899,
-      "converted": 18899,
+      "amount": 20999,
+      "converted": 20999,
       "confidence": "PChome 2026-07-29 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL0LA900JWVON/000001_1776138874.jpg",
@@ -2581,8 +2581,8 @@
     "name": "ECOVACS DEEBOT X12 PRO OMNI",
     "price": {
       "currency": "TWD",
-      "amount": 24299,
-      "converted": 24299,
+      "amount": 26999,
+      "converted": 26999,
       "confidence": "PChome 2026-07-29 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL0LA900JS61Y/000001_1772592930.jpg",

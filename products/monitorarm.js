@@ -1743,7 +1743,7 @@
       "status": "found",
       "amount": 288.15,
       "currency": "GBP",
-      "converted": 12389,
+      "converted": 12401,
       "sourceUrl": "https://pricespy.co.uk/product.php?p=16273588",
       "sourceTitle": "PriceSpy UK：Dell HDA26 Single Monitor Arm",
       "evidenceSnippet": "PriceSpy exact-model 頁的 Price History 明示 30 天最低價 £288.15，且商品名稱、品牌與 GTIN 對應 Dell HDA26。",

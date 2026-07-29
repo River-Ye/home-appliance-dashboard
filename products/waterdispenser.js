@@ -1424,9 +1424,90 @@
     }
   },
   {
-    "id": "waterdispenser-extra-18-dmci0oa900jt66n",
+    "id": "waterdispenser-sakura-p0532",
     "category": "waterdispenser",
     "rank": 18,
+    "budget": "premium",
+    "channel": "tw",
+    "brand": "SAKURA",
+    "model": "P0532",
+    "name": "廚下 RO 雙溫淨熱飲（P0531 升級款）",
+    "price": {
+      "currency": "TWD",
+      "amount": 36810,
+      "converted": 36810,
+      "confidence": "PChome 2026-07-29 人工確認 exact-SKU 公開價；Price.Low 無正值時採 Price.P，Qty 2"
+    },
+    "image": "https://cs-a.ecimg.tw/items/DMCI0OA900K3T62/000001_1781238167.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DMCI0O-A900K3T62",
+    "buyLabel": "PChome",
+    "specs": [
+      "廚下 RO 600G",
+      "RO 淨水＋熱水雙機合一",
+      "儲瞬熱雙模，熱水儲水量 2.0L",
+      "瞬熱出水量 1.2L／分",
+      "主機尺寸：寬 23 x 深 41 x 高 44.7 cm",
+      "110V／60Hz，1500W"
+    ],
+    "description": "P0532 是 P0531 升級款，整合 600G RO、2L 儲熱與瞬熱大水量，並保留台灣原廠安裝與售後，適合想在有限廚下空間整合淨水與熱飲的人。",
+    "pros": [
+      "600G RO 與儲瞬熱雙模整合，瞬熱出水量 1.2L／分",
+      "具過熱、防空燒、漏電斷路與漏水保護"
+    ],
+    "cons": [
+      "價格較 P0531 高，且濾心耗材成本需納入",
+      "安裝前需確認櫃內尺寸、插座、水壓與檯面鑽孔條件"
+    ],
+    "bestFor": "想升級 P0531、需要較大瞬熱出水量，並重視台灣安裝與售後的家庭。",
+    "recommendation": "新款比較：P0532 以 600G RO、儲瞬熱雙模與 1.2L／分瞬熱流量區隔 P0531；價格較高，購買前仍要確認廚下空間、額外施工與濾心成本。",
+    "score": 86,
+    "voltage": "110V / 60Hz / 1500W；廚下需預留合適插座",
+    "warranty": "momo exact-model 頁標示原廠保固 1 年；PChome 含標準基本安裝，額外工程費依通路及原廠條款",
+    "tags": [
+      "SAKURA",
+      "RO 600G",
+      "雙溫",
+      "儲瞬熱"
+    ],
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "found",
+      "amount": 36810,
+      "currency": "TWD",
+      "converted": 36810,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1283319043&cgp=36810",
+      "sourceTitle": "LBJ 比價撿便宜歷史價格：Yahoo 自營 SAKURA P0532",
+      "evidenceSnippet": "LBJ 的 exact-model Yahoo 商品 PID 1283319043 價格歷史顯示 2026-04-29、2026-06-24、2026-06-29 與 2026-07-29 均為 NT$36,810；Yahoo 自營 exact-model 商品頁本次查核仍為 NT$36,810。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
+      "checkedAt": "2026-07-29",
+      "note": "採同型號、同規格、Yahoo 自營新品頁對應的可重現價格歷史；未計入卡片回饋、點數、折價券或登記贈點。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-07-29",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"SAKURA P0532\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22SAKURA%20P0532%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"SAKURA P0532\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22SAKURA%20P0532%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "targetHost": "reddit.com"
+        }
+      ]
+    }
+  },
+  {
+    "id": "waterdispenser-extra-18-dmci0oa900jt66n",
+    "category": "waterdispenser",
+    "rank": 19,
     "budget": "premium",
     "channel": "tw",
     "brand": "SAKURA",
@@ -1504,7 +1585,7 @@
   {
     "id": "waterdispenser-extra-19-dmci19a900iw2pm",
     "category": "waterdispenser",
-    "rank": 19,
+    "rank": 20,
     "budget": "premium",
     "channel": "tw",
     "brand": "Honeywell",
@@ -1582,7 +1663,7 @@
   {
     "id": "waterdispenser-extra-20-dmawb8a900bveog",
     "category": "waterdispenser",
-    "rank": 20,
+    "rank": 21,
     "budget": "mid",
     "channel": "tw",
     "brand": "BWT",
@@ -1660,7 +1741,7 @@
   {
     "id": "waterdispenser-costco-us-brondell-circle",
     "category": "waterdispenser",
-    "rank": 21,
+    "rank": 22,
     "budget": "mid",
     "channel": "global",
     "brand": "Brondell",
@@ -1669,8 +1750,8 @@
     "price": {
       "currency": "USD",
       "amount": 369.99,
-      "converted": 11961,
-      "confidence": "Costco US 2026-07-21 來源價；ExchangeRate-API 2026-07-21 匯率換算"
+      "converted": 11982,
+      "confidence": "Costco US 2026-07-21 來源價；ExchangeRate-API 2026-07-29 匯率換算"
     },
     "image": "https://bfasset.costco-static.com/U447IH35/as/4xjr3phfqx7p9vvxzfhp3jp/100457228-847_chrome_1?auto=webp&format=jpg",
     "buyUrl": "https://www.costco.com/brondell-circle-reverse-osmosis-water-filtration-system.product.100457228.html",

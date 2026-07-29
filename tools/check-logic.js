@@ -471,6 +471,7 @@ async function main() {
       ["tv-philips-70pqt8159", "DPADIK-A900K0GIF"],
       ["vac-lg-a9x", "DMAX8K-A900HLX9W"],
       ["waterdispenser--uw-2262hw-1", "DMAWEM-A900GDIXH"],
+      ["waterdispenser-sakura-p0532", "DMCI0O-A900K3T62"],
       ["washerdryer-panasonic-na-sd10tb", "DPAI1H-A900JXCDB"],
       ["wifi-asus-zenwifi-bd5-2pack", "DSBC0Z-A900I6OJ2"],
     ].every(([productId, pchomeProductId]) => isReviewedPchomeBinding(productId, pchomeProductId)),
@@ -482,6 +483,7 @@ async function main() {
       ["dishwasher-extra-17-dmbr17a900ihtz3", "DMBR17-A900IHTZ4"],
       ["fan-extra-8-dmablm-a900eorp0", "DMABLM-A900EORP1"],
       ["tv-extra-18-dpadtoa900jne73", "DPADTO-A900JNE73"],
+      ["waterdispenser-sakura-p0532", "DMCI0O-A900K57Y2"],
       ["wifi-asus-zenwifi-bd5-2pack", "DRAF01-A900I3ETA"],
     ].every(([productId, pchomeProductId]) => !isReviewedPchomeBinding(productId, pchomeProductId)),
     "generic or conflicting PChome titles must remain outside the reviewed bindings",
@@ -785,13 +787,35 @@ async function main() {
   assert(krwExchange.KRW_TWD === 0.025, "exchange-rate parser should derive KRW/TWD from the USD base");
   const krwProduct = {
     id: "garmentcare-samsung-fixture",
-    price: { currency: "KRW", amount: 2_399_000, converted: 0 },
+    price: {
+      currency: "KRW",
+      amount: 2_399_000,
+      converted: 0,
+      confidence: "Danawa 2026-07-23 exact-model 新品比價頁公開最低價快照",
+    },
     historicalLow: { status: "found", currency: "KRW", amount: 2_000_000, converted: 0 },
   };
+  const staleUsdProduct = {
+    id: "vacuum-overseas-fixture",
+    price: {
+      currency: "USD",
+      amount: 100,
+      converted: 0,
+      confidence: "官方 2026-07-21 來源價；ExchangeRate-API 2026-07-21 匯率換算",
+    },
+  };
   const krwRaw = { foreignPriceChanges: [] };
-  applyExchangeRates([krwProduct], krwExchange, krwRaw);
+  applyExchangeRates([krwProduct, staleUsdProduct], krwExchange, krwRaw);
   assert(krwProduct.price.converted === 59_975, "KRW catalog prices should convert to rounded TWD");
   assert(krwProduct.historicalLow.converted === 50_000, "KRW historical lows should convert to rounded TWD");
+  assert(
+    krwProduct.price.confidence.endsWith("；ExchangeRate-API 2026-07-22 匯率換算"),
+    "foreign catalog prices should append the current exchange-rate provenance",
+  );
+  assert(
+    staleUsdProduct.price.confidence === "官方 2026-07-21 來源價；ExchangeRate-API 2026-07-22 匯率換算",
+    "foreign catalog prices should replace stale exchange-rate provenance without changing the source-price date",
+  );
   assert(
     maintenanceCacheVersion('cacheVersion: "20260723-garmentcare"', "2026-07-23") === "20260723-garmentcare",
     "catalog maintenance should preserve a same-day feature cache version",

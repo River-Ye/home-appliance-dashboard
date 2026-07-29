@@ -507,6 +507,9 @@ async function fetchExchangeRates() {
 }
 
 function applyExchangeRates(products, exchange, raw) {
+  const exchangeDate = String(exchange.date || "").match(/^\d{4}-\d{2}-\d{2}/)?.[0];
+  if (!exchangeDate) throw new Error("Exchange rate date is incomplete");
+  const exchangeProvenance = `ExchangeRate-API ${exchangeDate} 匯率換算`;
   const rates = {
     USD: exchange.USD_TWD,
     GBP: exchange.GBP_TWD,
@@ -523,6 +526,10 @@ function applyExchangeRates(products, exchange, raw) {
       const before = Number(product.price.converted);
       const after = Math.round(Number(product.price.amount) * rate);
       product.price.converted = after;
+      const confidence = String(product.price.confidence || "").trim();
+      product.price.confidence = /ExchangeRate-API \d{4}-\d{2}-\d{2} 匯率換算/u.test(confidence)
+        ? confidence.replace(/ExchangeRate-API \d{4}-\d{2}-\d{2} 匯率換算/u, exchangeProvenance)
+        : [confidence, exchangeProvenance].filter(Boolean).join("；");
       raw.foreignPriceChanges.push({ id: product.id, currency, amount: product.price.amount, before, after, rate });
     }
     const low = product.historicalLow;

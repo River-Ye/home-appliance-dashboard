@@ -1,13 +1,13 @@
 {
   "summary": {
-    "checkedAt": "2026-07-26T00:00:00+08:00",
-    "total": 705,
+    "checkedAt": "2026-07-29T00:00:00+08:00",
+    "total": 706,
     "found": 204,
-    "missing": 501,
+    "missing": 502,
     "byConfidence": {
       "official": 103,
       "credible_article": 90,
-      "not_found": 501,
+      "not_found": 502,
       "retailer_explicit": 11
     }
   },
@@ -5622,6 +5622,21 @@
       "confidence": "not_found",
       "query": "Culligan US-201C-TW release date launch announced 上市 發售",
       "sourceKind": "not_found_after_available_search"
+    },
+    {
+      "id": "waterdispenser-sakura-p0532",
+      "category": "waterdispenser",
+      "brand": "SAKURA",
+      "model": "P0532",
+      "name": "廚下 RO 雙溫淨熱飲（P0531 升級款）",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "query": "site:sakura.com.tw \"P0532\" (上市 OR 發售 OR 發表 OR 新品)",
+      "sourceKind": "not_found_after_available_search",
+      "reason": "品牌官網、PChome 與 momo 僅寫新品或升級款，沒有明確上市日；澄軒頁面的 2026-06-18 是文章發布時間，且同型號價格歷史已見於 2026-04-29，依規則不以文章日期推定上市日。"
     },
     {
       "id": "waterdispenser-extra-18-dmci0oa900jt66n",

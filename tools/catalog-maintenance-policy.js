@@ -66,6 +66,7 @@ const REVIEWED_PCHOME_BINDINGS = new Map([
   ["vac-lg-a9x", "DMAX8K-A900HLX9W"],
   ["waterdispenser--uw-2262hw-1", "DMAWEM-A900GDIXH"],
   ["waterdispenser-extra-16-dsbe1fa900gsoln", "DMCI17-A900I6OFW"],
+  ["waterdispenser-sakura-p0532", "DMCI0O-A900K3T62"],
   ["washerdryer-panasonic-na-sd10tb", "DPAI1H-A900JXCDB"],
   ["wifi-asus-zenwifi-bd5-2pack", "DSBC0Z-A900I6OJ2"],
 ]);

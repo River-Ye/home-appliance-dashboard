@@ -658,9 +658,9 @@
     "name": "Enki 電競椅",
     "price": {
       "currency": "TWD",
-      "amount": 13410,
-      "converted": 13410,
-      "confidence": "PChome 2026-07-28 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 12810,
+      "converted": 12810,
+      "confidence": "PChome 2026-07-29 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DCAKFOA900BWWGS/000001_1755481797.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DCAKFO-A900BWWGS",
