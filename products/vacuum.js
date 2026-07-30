@@ -95,9 +95,9 @@
     "name": "自動集塵無線吸塵器",
     "price": {
       "currency": "TWD",
-      "amount": 17900,
-      "converted": 17900,
-      "confidence": "PChome 2026-07-28 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 16900,
+      "converted": 16900,
+      "confidence": "PChome 2026-07-30 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAX8KA900HLX9W/000001_1744871467.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAX8K-A900HLX9W",
@@ -1817,8 +1817,8 @@
     "price": {
       "currency": "USD",
       "amount": 679.99,
-      "converted": 22022,
-      "confidence": "Dreame Vacuum Mop US 2026-07-21 原廠公開特價；ExchangeRate-API 2026-07-29 匯率換算"
+      "converted": 22021,
+      "confidence": "Dreame Vacuum Mop US 2026-07-21 原廠公開特價；ExchangeRate-API 2026-07-30 匯率換算"
     },
     "image": "https://m.media-amazon.com/images/I/61Yuy5vtWFL._AC_SL1500_.jpg",
     "buyUrl": "https://vacuummop.dreametech.com/products/aero-ultra-steam-wet-dry-vacuum",
@@ -1857,7 +1857,7 @@
       "status": "found",
       "amount": 679.99,
       "currency": "USD",
-      "converted": 22022,
+      "converted": 22021,
       "sourceUrl": "https://vacuummop.dreametech.com/products/aero-ultra-steam-wet-dry-vacuum",
       "sourceTitle": "Dreame Aero Ultra Steam Wet Dry Vacuum – Dreame Vacuum Mop",
       "evidenceSnippet": "Dreame 原廠美國商品頁於 2026-07-16 公開顯示特價 US$679.99、原價 US$799.99，且可 Add to Cart / Buy It Now。",
@@ -1882,6 +1882,90 @@
           "platform": "Reddit",
           "query": "site:reddit.com \"Dreame HHR32F\" (problem OR issue OR defect OR \"negative review\")",
           "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Dreame%20HHR32F%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
+          "targetHost": "reddit.com"
+        }
+      ]
+    }
+  },
+  {
+    "id": "vacuum-dyson-v16-sv53-a",
+    "category": "vacuum",
+    "rank": 25,
+    "budget": "premium",
+    "channel": "tw",
+    "brand": "Dyson",
+    "model": "SV53-A",
+    "name": "V16 Piston Animal 強勁雙錐吸塵器（雙主吸頭組）",
+    "price": {
+      "currency": "TWD",
+      "amount": 30900,
+      "converted": 30900,
+      "confidence": "PChome 24h 2026-07-30 exact-model API 公開價；Price.Low 無正值時採 Price.P，Qty 19"
+    },
+    "image": "https://dysonshop.blob.core.windows.net/products/dyson-v16-piston-animal-black-copper/hero-1781626080-480x480.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DMAX00-A900K78B0",
+    "buyLabel": "PChome",
+    "specs": [
+      "315AW Hyperdymium 900W 馬達",
+      "最長 70 分鐘續航",
+      "All Floor Cones 雙錐無纏結＋Fluffy Optic 雙主吸頭",
+      "CleanCompaktor 壓縮式集塵筒 1.89L／最高 30 天免傾倒",
+      "全機密封 HEPA 過濾",
+      "重量 3.50kg；尺寸：25.9 x 25 x 129.8 cm",
+      "充電最長 4.5 小時；BSMI R31692／NCC CCAM25LP0960T8"
+    ],
+    "description": "Dyson 最新旗艦無線吸塵器，以 315AW、雙錐無纏結吸頭、Fluffy Optic 光學吸頭與壓縮集塵筒，補足現有目錄缺少的最新 V16 寵物／長髮清潔選項。",
+    "pros": [
+      "315AW 與地板／灰塵偵測，硬地板與地毯可自動調整",
+      "雙錐防纏結＋壓縮集塵筒，長髮／寵物家庭維護較省事"
+    ],
+    "cons": [
+      "3.5kg 且 NT$30,900，長時間手持與價格負擔明顯",
+      "新吸頭／配件相容性有限，且新品長期可靠度仍需觀察"
+    ],
+    "bestFor": "長髮或寵物家庭、需一次完成硬地板／地毯深度清潔且接受旗艦預算者。",
+    "recommendation": "值得納入但不列高 CP Top Pick；315AW、防纏結與壓縮集塵差異化強，應與 V15／V12 的重量與價格一起比較。",
+    "score": 89,
+    "voltage": "110V 台灣公司貨；品牌頁未公開充電器輸入細節",
+    "warranty": "Dyson 台灣無線手持吸塵器原廠保固 2 年",
+    "tags": [
+      "Dyson",
+      "SV53-A",
+      "315AW",
+      "雙錐無纏結",
+      "Fluffy Optic",
+      "寵物家庭"
+    ],
+    "releaseDate": "2025-09-04",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-07-30",
+      "note": "已查 Dyson 官方、PChome exact-model、BigGo、FindPrice、Feebee 與 LBJ；只取得上市後現價／比價快照，沒有可重現的 exact-model 可信新品歷史曲線與明確最低點日期，現價不得推定為史低。Feebee 曾列全國電子 NT$27,900 與一般蝦皮 NT$28,800，但前者缺可重現原頁／最低點日期、後者非可信通路，均不採。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-07-30",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Dyson SV53-A\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Dyson%20SV53-A%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Dyson SV53-A\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Dyson%20SV53-A%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
           "targetHost": "reddit.com"
         }
       ]

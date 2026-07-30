@@ -1,9 +1,9 @@
 {
   "summary": {
-    "checkedAt": "2026-07-29T00:00:00+08:00",
-    "total": 706,
+    "checkedAt": "2026-07-30T00:00:00+08:00",
+    "total": 710,
     "commonIssueProducts": 36,
-    "noCommonIssueProducts": 670,
+    "noCommonIssueProducts": 674,
     "pendingManualReview": 0,
     "commonIssues": 36,
     "searchUnavailable": 26,
@@ -22023,6 +22023,84 @@
       "rejectedCandidates": []
     },
     {
+      "id": "vacuum-dyson-v16-sv53-a",
+      "category": "vacuum",
+      "brand": "Dyson",
+      "model": "SV53-A",
+      "name": "V16 Piston Animal 強勁雙錐吸塵器（雙主吸頭組）",
+      "identity": {
+        "canonicalModel": "SV53-A",
+        "lookupLabel": "Dyson SV53-A",
+        "aliases": [
+          "Dyson SV53-A"
+        ],
+        "evidenceUrl": "https://24h.pchome.com.tw/prod/DMAX00-A900K78B0"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "status": "completed",
+        "decision": "no_common_issue",
+        "reviewedAt": "2026-07-30",
+        "checkedPlatforms": [
+          "Mobile01",
+          "Reddit"
+        ],
+        "queries": [
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"Dyson SV53-A\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Dyson%20SV53-A%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "mobile01.com"
+          },
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"Dyson SV53-A\" (problem OR issue OR defect OR negative review)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Dyson%20SV53-A%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+            "targetHost": "reddit.com"
+          }
+        ],
+        "candidateDisposition": "SV53-A：已實際執行 Mobile01 與 Reddit 兩個獨立網站的 exact-model 查詢；未找到含 SV53-A 的原始使用者頁。較寬鬆的 V16 Piston Animal 查詢雖見單篇系列反映，但原頁未標示 SV53-A 且未達 6 人／2 站門檻，不計入。",
+        "representativeSources": [],
+        "candidateReviews": [],
+        "reviewerNote": "SV53-A 已於 2026-07-30 完成 Mobile01、Reddit 跨站 exact-model 搜尋；沒有可確認台灣 SV53-A 的第一人稱原頁候選，不以 V16 系列稱呼或搜尋摘要合成災情。",
+        "attestation": "manual_cross_site_search_reviewed_no_candidate"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-07-30",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"Dyson SV53-A\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Dyson%20SV53-A%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "mobile01.com"
+          },
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"Dyson SV53-A\" (problem OR issue OR defect OR negative review)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Dyson%20SV53-A%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+            "targetHost": "reddit.com"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "Yahoo Search",
+          "query": "(\"Dyson SV53-A\") (problem OR issue OR defect OR failure OR 災情 OR 故障 OR 負評) (site:mobile01.com OR site:dcard.tw OR site:ptt.cc OR site:reddit.com OR site:snbforums.com OR site:52asus.com)",
+          "searchUrl": "https://search.yahoo.com/search?p=(%22Dyson%20SV53-A%22)%20(problem%20OR%20issue%20OR%20defect%20OR%20failure%20OR%20%E7%81%BD%E6%83%85%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)%20(site%3Amobile01.com%20OR%20site%3Adcard.tw%20OR%20site%3Aptt.cc%20OR%20site%3Areddit.com%20OR%20site%3Asnbforums.com%20OR%20site%3A52asus.com)",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-07-30T00:00:00+08:00"
+        }
+      ],
+      "evidence": [],
+      "rejectedCandidates": []
+    },
+    {
       "id": "washer-lg-wt-vdn12hm",
       "category": "washer",
       "brand": "LG",
@@ -34628,6 +34706,84 @@
       "rejectedCandidates": []
     },
     {
+      "id": "cookware-ikea-hemkomst-60580100",
+      "category": "cookware",
+      "brand": "IKEA",
+      "model": "HEMKOMST 605.801.00",
+      "name": "HEMKOMST 陶瓷不沾平底煎鍋 28cm",
+      "identity": {
+        "canonicalModel": "HEMKOMST 605.801.00",
+        "lookupLabel": "IKEA HEMKOMST 605.801.00",
+        "aliases": [
+          "IKEA HEMKOMST 605.801.00"
+        ],
+        "evidenceUrl": "https://www.ikea.com.tw/zh/products/cookware/pans/hemkomst-art-60580100"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "status": "completed",
+        "decision": "no_common_issue",
+        "reviewedAt": "2026-07-30",
+        "checkedPlatforms": [
+          "Mobile01",
+          "Reddit"
+        ],
+        "queries": [
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"IKEA HEMKOMST 605.801.00\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22IKEA%20HEMKOMST%20605.801.00%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "mobile01.com"
+          },
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"IKEA HEMKOMST 605.801.00\" (problem OR issue OR defect OR negative review)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22IKEA%20HEMKOMST%20605.801.00%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+            "targetHost": "reddit.com"
+          }
+        ],
+        "candidateDisposition": "HEMKOMST 605.801.00：已重跑 Mobile01 與 Reddit exact-article/model 跨站查詢；Bing RSS 只有 targetHost 外的 generic 污染結果，沒有通過 canonical-model 與 targetHost 邊界的原頁候選；此結果不代表完全沒有負評。",
+        "representativeSources": [],
+        "candidateReviews": [],
+        "reviewerNote": "HEMKOMST 605.801.00 於 2026-07-30 透過可重現的 Bing RSS exact-article/model 查詢覆核 Mobile01、Reddit；未以其他 IKEA 商品、同系列不同 article 或搜尋污染結果代替同型號證據。",
+        "attestation": "manual_cross_site_search_reviewed_no_candidate"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-07-30",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"IKEA HEMKOMST 605.801.00\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22IKEA%20HEMKOMST%20605.801.00%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "mobile01.com"
+          },
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"IKEA HEMKOMST 605.801.00\" (problem OR issue OR defect OR negative review)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22IKEA%20HEMKOMST%20605.801.00%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+            "targetHost": "reddit.com"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "Yahoo Search",
+          "query": "(\"IKEA HEMKOMST 605.801.00\") (problem OR issue OR defect OR failure OR 災情 OR 故障 OR 負評) (site:mobile01.com OR site:dcard.tw OR site:ptt.cc OR site:reddit.com OR site:snbforums.com OR site:52asus.com)",
+          "searchUrl": "https://search.yahoo.com/search?p=(%22IKEA%20HEMKOMST%20605.801.00%22)%20(problem%20OR%20issue%20OR%20defect%20OR%20failure%20OR%20%E7%81%BD%E6%83%85%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)%20(site%3Amobile01.com%20OR%20site%3Adcard.tw%20OR%20site%3Aptt.cc%20OR%20site%3Areddit.com%20OR%20site%3Asnbforums.com%20OR%20site%3A52asus.com)",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-07-30T00:00:00+08:00"
+        }
+      ],
+      "evidence": [],
+      "rejectedCandidates": []
+    },
+    {
       "id": "knife-tojiro-dp-f-808-210mm",
       "category": "knife",
       "brand": "TOJIRO",
@@ -36474,6 +36630,84 @@
           "candidateUrls": [],
           "candidates": [],
           "inspectedAt": "2026-07-11T00:00:00+08:00"
+        }
+      ],
+      "evidence": [],
+      "rejectedCandidates": []
+    },
+    {
+      "id": "knife-ikea-fjallroding-00631466",
+      "category": "knife",
+      "brand": "IKEA",
+      "model": "FJÄLLRÖDING 006.314.66",
+      "name": "FJÄLLRÖDING 67 層大馬士革主廚刀 22cm",
+      "identity": {
+        "canonicalModel": "FJÄLLRÖDING 006.314.66",
+        "lookupLabel": "IKEA FJÄLLRÖDING 006.314.66",
+        "aliases": [
+          "IKEA FJÄLLRÖDING 006.314.66"
+        ],
+        "evidenceUrl": "https://www.ikea.com.tw/zh/products/kitchen-tools/knives/fjallroding-art-00631466"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "status": "completed",
+        "decision": "no_common_issue",
+        "reviewedAt": "2026-07-30",
+        "checkedPlatforms": [
+          "Mobile01",
+          "Reddit"
+        ],
+        "queries": [
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"IKEA FJÄLLRÖDING 006.314.66\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22IKEA%20FJ%C3%84LLR%C3%96DING%20006.314.66%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "mobile01.com"
+          },
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"IKEA FJÄLLRÖDING 006.314.66\" (problem OR issue OR defect OR negative review)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22IKEA%20FJ%C3%84LLR%C3%96DING%20006.314.66%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+            "targetHost": "reddit.com"
+          }
+        ],
+        "candidateDisposition": "FJÄLLRÖDING 006.314.66：已重跑 Mobile01 與 Reddit exact-article/model 跨站查詢；Bing RSS 只有 targetHost 外的 generic 污染結果，沒有通過 canonical-model 與 targetHost 邊界的原頁候選；此結果不代表完全沒有負評。",
+        "representativeSources": [],
+        "candidateReviews": [],
+        "reviewerNote": "FJÄLLRÖDING 006.314.66 於 2026-07-30 透過可重現的 Bing RSS exact-article/model 查詢覆核 Mobile01、Reddit；未以其他 IKEA 商品、同系列不同 article 或搜尋污染結果代替同型號證據。",
+        "attestation": "manual_cross_site_search_reviewed_no_candidate"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-07-30",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"IKEA FJÄLLRÖDING 006.314.66\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22IKEA%20FJ%C3%84LLR%C3%96DING%20006.314.66%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "mobile01.com"
+          },
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"IKEA FJÄLLRÖDING 006.314.66\" (problem OR issue OR defect OR negative review)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22IKEA%20FJ%C3%84LLR%C3%96DING%20006.314.66%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+            "targetHost": "reddit.com"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "Yahoo Search",
+          "query": "(\"IKEA FJÄLLRÖDING 006.314.66\") (problem OR issue OR defect OR failure OR 災情 OR 故障 OR 負評) (site:mobile01.com OR site:dcard.tw OR site:ptt.cc OR site:reddit.com OR site:snbforums.com OR site:52asus.com)",
+          "searchUrl": "https://search.yahoo.com/search?p=(%22IKEA%20FJ%C3%84LLR%C3%96DING%20006.314.66%22)%20(problem%20OR%20issue%20OR%20defect%20OR%20failure%20OR%20%E7%81%BD%E6%83%85%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)%20(site%3Amobile01.com%20OR%20site%3Adcard.tw%20OR%20site%3Aptt.cc%20OR%20site%3Areddit.com%20OR%20site%3Asnbforums.com%20OR%20site%3A52asus.com)",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-07-30T00:00:00+08:00"
         }
       ],
       "evidence": [],
@@ -61138,6 +61372,84 @@
           "candidates": [],
           "inspectedAt": "2026-07-24T00:00:00+08:00",
           "error": "fetch failed"
+        }
+      ],
+      "evidence": [],
+      "rejectedCandidates": []
+    },
+    {
+      "id": "standingdesk-ikea-trotten-79621898",
+      "category": "standingdesk",
+      "brand": "IKEA",
+      "model": "TROTTEN 796.218.98",
+      "name": "TROTTEN 電動升降工作桌 160x80cm",
+      "identity": {
+        "canonicalModel": "TROTTEN 796.218.98",
+        "lookupLabel": "IKEA TROTTEN 796.218.98",
+        "aliases": [
+          "IKEA TROTTEN 796.218.98"
+        ],
+        "evidenceUrl": "https://www.ikea.com.tw/zh/products/office-workspace/office-desks-and-tables/trotten-spr-79621898"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "status": "completed",
+        "decision": "no_common_issue",
+        "reviewedAt": "2026-07-30",
+        "checkedPlatforms": [
+          "Mobile01",
+          "Reddit"
+        ],
+        "queries": [
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"IKEA TROTTEN 796.218.98\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22IKEA%20TROTTEN%20796.218.98%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "mobile01.com"
+          },
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"IKEA TROTTEN 796.218.98\" (problem OR issue OR defect OR negative review)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22IKEA%20TROTTEN%20796.218.98%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+            "targetHost": "reddit.com"
+          }
+        ],
+        "candidateDisposition": "TROTTEN 796.218.98：已重跑 Mobile01 與 Reddit exact-article/model 跨站查詢；Bing RSS 只有 targetHost 外的 generic 污染結果，沒有通過 canonical-model 與 targetHost 邊界的原頁候選；此結果不代表完全沒有負評。",
+        "representativeSources": [],
+        "candidateReviews": [],
+        "reviewerNote": "TROTTEN 796.218.98 於 2026-07-30 透過可重現的 Bing RSS exact-article/model 查詢覆核 Mobile01、Reddit；未以其他 IKEA 商品、同系列不同 article 或搜尋污染結果代替同型號證據。",
+        "attestation": "manual_cross_site_search_reviewed_no_candidate"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-07-30",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"IKEA TROTTEN 796.218.98\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22IKEA%20TROTTEN%20796.218.98%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "mobile01.com"
+          },
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"IKEA TROTTEN 796.218.98\" (problem OR issue OR defect OR negative review)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22IKEA%20TROTTEN%20796.218.98%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+            "targetHost": "reddit.com"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "Yahoo Search",
+          "query": "(\"IKEA TROTTEN 796.218.98\") (problem OR issue OR defect OR failure OR 災情 OR 故障 OR 負評) (site:mobile01.com OR site:dcard.tw OR site:ptt.cc OR site:reddit.com OR site:snbforums.com OR site:52asus.com)",
+          "searchUrl": "https://search.yahoo.com/search?p=(%22IKEA%20TROTTEN%20796.218.98%22)%20(problem%20OR%20issue%20OR%20defect%20OR%20failure%20OR%20%E7%81%BD%E6%83%85%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)%20(site%3Amobile01.com%20OR%20site%3Adcard.tw%20OR%20site%3Aptt.cc%20OR%20site%3Areddit.com%20OR%20site%3Asnbforums.com%20OR%20site%3A52asus.com)",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-07-30T00:00:00+08:00"
         }
       ],
       "evidence": [],

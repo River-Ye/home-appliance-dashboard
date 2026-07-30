@@ -1718,6 +1718,92 @@
         }
       ]
     }
+  },
+  {
+    "id": "knife-ikea-fjallroding-00631466",
+    "category": "knife",
+    "rank": 22,
+    "topPick": false,
+    "budget": "value",
+    "channel": "tw",
+    "brand": "IKEA",
+    "model": "FJÄLLRÖDING 006.314.66",
+    "name": "FJÄLLRÖDING 67 層大馬士革主廚刀 22cm",
+    "price": {
+      "currency": "TWD",
+      "amount": 1499,
+      "converted": 1499,
+      "confidence": "IKEA 台灣官方 2026-07-30 exact-article 公開價；線上庫存 4"
+    },
+    "image": "https://www.ikea.com.tw/dairyfarm/tw/images/125/1512561_PE1010446_S4.jpg",
+    "buyUrl": "https://www.ikea.com.tw/zh/products/kitchen-tools/knives/fjallroding-art-00631466",
+    "buyLabel": "IKEA 台灣官方",
+    "specs": [
+      "全長 36 cm；刀刃長 22 cm",
+      "淨重 0.22 kg",
+      "67 層大馬士革鋼，10Cr15MoVCo 芯材",
+      "刀身／鉚釘：不鏽鋼；把手：Pakkawood 高壓實木貼皮、油",
+      "只能手洗",
+      "15 年品質保證"
+    ],
+    "description": "日本刀型靈感的 22cm 主廚刀，以 67 層大馬士革鋼與 10Cr15MoVCo 芯材提供切片、切丁與大量備料用途，台灣官方售價 NT$1,499。",
+    "pros": [
+      "67 層大馬士革鋼與可核對的芯材規格",
+      "22cm 刃長適合肉類、根莖與大量蔬菜備料",
+      "台灣官方有貨並提供 15 年品質保證"
+    ],
+    "cons": [
+      "只能手洗，使用後需立即清潔擦乾",
+      "22cm 對小砧板或手型較小者可能偏長",
+      "線上庫存僅 4 件，供貨需持續追蹤"
+    ],
+    "bestFor": "想以約 NT$1,500 入手長刃大馬士革鋼主廚刀，且願意手洗保養與安全收納的使用者。",
+    "recommendation": "大馬士革鋼平價補強；材質、刃長與 15 年保固有明確差異，但應先確認 22cm 操控與收納空間。",
+    "score": 87,
+    "voltage": "不適用（非電器；需注意刀刃保養、磨刀方式與安全收納）",
+    "warranty": "IKEA 官方 15 年品質保證",
+    "tags": [
+      "新品",
+      "22cm主廚刀",
+      "67層大馬士革鋼",
+      "10Cr15MoVCo",
+      "Pakkawood",
+      "15年保固"
+    ],
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-07-30",
+      "note": "已查 IKEA 台灣官方 exact-article 頁、BigGo、FindPrice 與 LBJ；商品為新上架款，只取得官方現價與比價快照，未找到可公開重現的可信新品歷史最低價與最低點日期，現價不得推定為史低。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-07-30",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"IKEA FJÄLLRÖDING 006.314.66\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22IKEA%20FJ%C3%84LLR%C3%96DING%20006.314.66%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"IKEA FJÄLLRÖDING 006.314.66\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22IKEA%20FJ%C3%84LLR%C3%96DING%20006.314.66%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "targetHost": "reddit.com"
+        }
+      ]
+    }
   }
 ]);
 })();

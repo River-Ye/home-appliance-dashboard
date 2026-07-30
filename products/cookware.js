@@ -849,9 +849,9 @@
     "image": "https://cs-a.ecimg.tw/items/DEDG3BA900GQDVZ/000001_1776769920.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 961,
-      "converted": 961,
-      "confidence": "Yahoo購物中心 2026-07-29 exact-model 公開結構化價格"
+      "amount": 990,
+      "converted": 990,
+      "confidence": "Yahoo購物中心 2026-07-30 exact-model 公開結構化價格"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心",
@@ -2052,6 +2052,92 @@
           "platform": "Reddit",
           "query": "site:reddit.com \"BALLARINI LEDRO 1027801\" (problem OR issue OR defect OR \"negative review\")",
           "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22BALLARINI%20LEDRO%201027801%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
+          "targetHost": "reddit.com"
+        }
+      ]
+    }
+  },
+  {
+    "id": "cookware-ikea-hemkomst-60580100",
+    "category": "cookware",
+    "rank": 26,
+    "topPick": false,
+    "budget": "value",
+    "channel": "tw",
+    "brand": "IKEA",
+    "model": "HEMKOMST 605.801.00",
+    "name": "HEMKOMST 陶瓷不沾平底煎鍋 28cm",
+    "price": {
+      "currency": "TWD",
+      "amount": 899,
+      "converted": 899,
+      "confidence": "IKEA 台灣官方 2026-07-30 exact-article 公開價；線上庫存 20"
+    },
+    "image": "https://www.ikea.com.tw/dairyfarm/tw/images/573/1257342_PE925736_S4.jpg",
+    "buyUrl": "https://www.ikea.com.tw/zh/products/cookware/pans/hemkomst-art-60580100",
+    "buyLabel": "IKEA 台灣官方",
+    "specs": [
+      "尺寸：高 5 x 直徑 28 cm；含把手長 48 cm",
+      "淨重 1.12 kg",
+      "鍋身：不鏽鋼、鋁質、Sol-gel 陶瓷不沾塗層；把手：不鏽鋼",
+      "不沾塗層未使用 PTFE 或其他 PFAS",
+      "瓦斯爐、電磁爐、電陶爐、鑄鐵爐與烤箱適用",
+      "只能手洗"
+    ],
+    "description": "28cm 三層金屬鍋身搭配 Sol-gel 陶瓷不沾塗層，以 NT$899 補入 IKEA 平價官方通路選擇；適用電磁爐及烤箱。",
+    "pros": [
+      "官方台灣通路價格低且線上有貨",
+      "不鏽鋼夾鋁有助快速均勻傳熱",
+      "不含 PTFE／PFAS，且支援多種爐具與烤箱"
+    ],
+    "cons": [
+      "只能手洗，陶瓷不沾層仍需避免尖銳金屬器具、空鍋急熱與高溫急冷",
+      "官方 exact page 未標示保固；IKEA 15 年鍋具保固只涵蓋無不沾塗層鍋具",
+      "官方資料顯示 2025-04-01 已開始販售，不是本輪新上市品"
+    ],
+    "bestFor": "想用千元內預算購買 28cm、電磁爐與烤箱皆可用、無 PTFE／PFAS 陶瓷不沾鍋的家庭。",
+    "recommendation": "平價官方通路補充選擇；材質、尺寸與爐具相容性完整，但需接受手洗、不沾層耗損與無明示長期保固。",
+    "score": 86,
+    "voltage": "不適用（非電器；適用瓦斯爐、電磁爐、電陶爐、鑄鐵爐與烤箱）",
+    "warranty": "官方 exact-model 商品頁未標示；IKEA 15 年鍋具保固不涵蓋有不沾塗層的本款",
+    "tags": [
+      "28cm平底鍋",
+      "陶瓷不沾",
+      "無PTFE/PFAS",
+      "電磁爐",
+      "烤箱適用",
+      "IKEA官方"
+    ],
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-07-30",
+      "note": "已查 IKEA 台灣官方 exact-article 頁、BigGo、FindPrice 與 LBJ；只取得現價或上架後快照，未找到同 article number 可公開重現的可信新品歷史最低價與最低點日期，現價不得推定為史低。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-07-30",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"IKEA HEMKOMST 605.801.00\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22IKEA%20HEMKOMST%20605.801.00%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"IKEA HEMKOMST 605.801.00\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22IKEA%20HEMKOMST%20605.801.00%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
           "targetHost": "reddit.com"
         }
       ]

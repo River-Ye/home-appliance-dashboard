@@ -20,6 +20,7 @@ const {
 const {
   applyExchangeRates,
   buildCompactReport,
+  exchangeRateRequestUrl,
   exchangeRatesFromPayload,
   loadCatalogFromGit,
   maintenanceCacheVersion,
@@ -784,6 +785,14 @@ async function main() {
     time_last_update_unix: 1784678551,
     rates: { TWD: 32, USD: 1, GBP: 0.8, EUR: 0.9, JPY: 160, CNY: 7.2, KRW: 1280 },
   });
+  assert(
+    exchangeRateRequestUrl("2026-07-30") === "https://open.er-api.com/v6/latest/USD?v=2026-07-30",
+    "exchange-rate requests should use a daily cache key instead of reusing the previous-day CDN response",
+  );
+  assertThrows(
+    () => exchangeRateRequestUrl("2026/07/30"),
+    "exchange-rate request cache dates must use YYYY-MM-DD",
+  );
   assert(krwExchange.KRW_TWD === 0.025, "exchange-rate parser should derive KRW/TWD from the USD base");
   const krwProduct = {
     id: "garmentcare-samsung-fixture",

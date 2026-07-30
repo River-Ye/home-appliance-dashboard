@@ -345,7 +345,7 @@
       "currency": "USD",
       "amount": 119.99,
       "converted": 3886,
-      "confidence": "SharkNinja 官方 2026-07-21 來源價；ExchangeRate-API 2026-07-29 匯率換算"
+      "confidence": "SharkNinja 官方 2026-07-21 來源價；ExchangeRate-API 2026-07-30 匯率換算"
     },
     "image": "https://ak1.ostkcdn.com/images/products/is/images/direct/d1c25153baa2aa99eae7831be826d2a51d87c485/Ninja-BN701-Professional-Plus-Blender-with-Auto-iQ.jpg",
     "buyUrl": "https://www.sharkninja.com/ninja-professional-plus-blender-with-auto-iq/BN701.html",
@@ -508,20 +508,20 @@
     "name": "VITA PREP3 多功能營養調理機",
     "price": {
       "currency": "TWD",
-      "amount": 26500,
-      "converted": 26500,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 24300,
+      "converted": 24300,
+      "confidence": "momo 2026-07-30 exact-model 公開限時折後價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAY9TA900G068X/000001_1782790517.jpg",
-    "buyUrl": "https://24h.pchome.com.tw/prod/DMAY9T-A900G068X",
-    "buyLabel": "PChome",
+    "buyUrl": "https://www.momoshop.com.tw/product/622427",
+    "buyLabel": "momo",
     "specs": [
       "3 匹馬力",
       "高轉速",
       "美國原廠貨",
       "商家用"
     ],
-    "description": "Vitamix VITA PREP 3 是破壁機類的補充比較型號，依 2026-07-09 通路頁面整理售價、圖片與核心規格。",
+    "description": "Vitamix VITA PREP 3 是商用級高馬力調理機，2026-07-30 改以 momo 台灣公司貨現貨頁整理售價與保固。",
     "pros": [
       "高階馬力與杯體選擇多",
       "可依加熱/冷打需求分流"
@@ -534,7 +534,7 @@
     "recommendation": "同類推薦：補入 Vitamix、Blendtec 與加熱破壁機，方便比較馬力、容量與保固。",
     "score": 86,
     "voltage": "110V 台灣通路",
-    "warranty": "依 PChome/供應商頁面",
+    "warranty": "momo 標示 1 年保固",
     "tags": [
       "Vitamix",
       "旗艦",
@@ -551,8 +551,8 @@
       "evidenceSnippet": "",
       "sourceKind": "not_found",
       "confidence": "not_found",
-      "checkedAt": "2026-07-09",
-      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ Vitamix VITA PREP 3: PCHome購物 Vitamix 維他美仕 美國製維他美仕最新款獨立電源開關生機調理機果汁機冰沙機 VITA PREP(2.3匹馬力)美國原廠貨 型號/規格不相符；LBJ Vitamix VITA PREP 3: Yahoo拍賣 - 鑫和小舖 (262個評價) 維他美仕VITAMIX全新VITA-PREP 3超強三匹馬力vitamix vita prep 3 全營養調理機專業商用 非採用通路或含排除條件；LBJ Vitamix VITA PREP 3: 露天拍賣 - chen_rumi的賣場 (2355個評價) 便宜賣全新 Vitamix Vita Prep 3 紅 非採用通路或含排除條件。"
+      "checkedAt": "2026-07-30",
+      "note": "momo exact-model 頁於 2026-07-30 顯示公開 9 折現價 NT$24,300，但單次當期價格沒有可重現的歷史曲線或最低點日期，不能推定為史低；另查 BigGo、FindPrice 與 LBJ 仍未找到可採用的同型號可信新品歷史最低價。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -1099,18 +1099,18 @@
       "currency": "TWD",
       "amount": 1290,
       "converted": 1290,
-      "confidence": "PChome 2026-07-27 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "confidence": "momo 2026-07-30 exact-model 公開促銷價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAY7KA900JXOTJ/000001_1779933584.jpg",
-    "buyUrl": "https://24h.pchome.com.tw/prod/DMAY7K-A900JXOTJ",
-    "buyLabel": "PChome",
+    "buyUrl": "https://www.momoshop.com.tw/product/14949449",
+    "buyLabel": "momo",
     "specs": [
       "1.2L",
       "高速調理",
       "果汁/冰沙",
       "入門價位"
     ],
-    "description": "Joyoung L19N-Y1W 是破壁機類的補充比較型號，依 2026-07-09 通路頁面整理售價、圖片與核心規格。",
+    "description": "Joyoung L19N-Y1W 是 1.2L 入門高速調理果汁機，2026-07-30 改用 momo exact-model 現貨頁。",
     "pros": [
       "高階馬力與杯體選擇多",
       "可依加熱/冷打需求分流"
@@ -1123,7 +1123,7 @@
     "recommendation": "同類推薦：補入 Vitamix、Blendtec 與加熱破壁機，方便比較馬力、容量與保固。",
     "score": 79,
     "voltage": "110V 台灣通路",
-    "warranty": "依 PChome/供應商頁面",
+    "warranty": "momo 標示 1 年保固",
     "tags": [
       "Joyoung",
       "低價",

@@ -500,8 +500,17 @@ function exchangeRatesFromPayload(payload) {
   };
 }
 
+function exchangeRateRequestUrl(maintenanceDate = MAINTENANCE_DATE) {
+  if (!/^\d{4}-\d{2}-\d{2}$/.test(maintenanceDate)) {
+    throw new Error(`Invalid exchange-rate cache date: ${maintenanceDate}`);
+  }
+  const url = new URL("https://open.er-api.com/v6/latest/USD");
+  url.searchParams.set("v", maintenanceDate);
+  return url.toString();
+}
+
 async function fetchExchangeRates() {
-  const response = await fetchWithTimeout("https://open.er-api.com/v6/latest/USD", { headers: { accept: "application/json" } });
+  const response = await fetchWithTimeout(exchangeRateRequestUrl(), { headers: { accept: "application/json" } });
   if (!response.ok) throw new Error(`Exchange rate request failed: ${response.status}`);
   return exchangeRatesFromPayload(await response.json());
 }
@@ -978,6 +987,7 @@ if (require.main === module) {
 module.exports = {
   applyExchangeRates,
   buildCompactReport,
+  exchangeRateRequestUrl,
   exchangeRatesFromPayload,
   loadCatalogFromGit,
   maintenanceCacheVersion,

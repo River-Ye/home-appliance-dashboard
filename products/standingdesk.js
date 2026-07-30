@@ -97,9 +97,9 @@
     "name": "D01-SL-DX 電動升降桌 120x80",
     "price": {
       "currency": "TWD",
-      "amount": 14790,
-      "converted": 14790,
-      "confidence": "PChome 2026-07-29 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 14346,
+      "converted": 14346,
+      "confidence": "PChome 2026-07-30 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBJ4CA900I9XVY/000001_1773043590.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBJ4C-A900I9XVY",
@@ -177,9 +177,9 @@
     "name": "D01-SL-DX 電動升降桌 150x80",
     "price": {
       "currency": "TWD",
-      "amount": 15490,
-      "converted": 15490,
-      "confidence": "PChome 2026-07-29 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 15025,
+      "converted": 15025,
+      "confidence": "PChome 2026-07-30 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBJ4CA900HUG3C/000001_1773043903.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBJ4C-A900HUG3C",
@@ -257,9 +257,9 @@
     "name": "D01-SL-DX 電動升降桌 160x80",
     "price": {
       "currency": "TWD",
-      "amount": 15990,
-      "converted": 15990,
-      "confidence": "PChome 2026-07-29 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 15510,
+      "converted": 15510,
+      "confidence": "PChome 2026-07-30 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBJ4CA900ITV12/000001_1773043461.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBJ4C-A900ITV12",
@@ -337,9 +337,9 @@
     "name": "D01-SL-DX 電動升降桌 180x80",
     "price": {
       "currency": "TWD",
-      "amount": 16490,
-      "converted": 16490,
-      "confidence": "PChome 2026-07-29 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 15995,
+      "converted": 15995,
+      "confidence": "PChome 2026-07-30 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBJ4CA900HUGSO/000001_1773043706.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBJ4C-A900HUGSO",
@@ -1842,6 +1842,93 @@
           "platform": "Reddit",
           "query": "site:reddit.com \"Backbone Dyback Craft\" (problem OR issue OR defect OR \"negative review\")",
           "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Backbone%20Dyback%20Craft%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
+          "targetHost": "reddit.com"
+        }
+      ]
+    }
+  },
+  {
+    "id": "standingdesk-ikea-trotten-79621898",
+    "category": "standingdesk",
+    "rank": 24,
+    "topPick": false,
+    "budget": "value",
+    "channel": "tw",
+    "brand": "IKEA",
+    "model": "TROTTEN 796.218.98",
+    "name": "TROTTEN 電動升降工作桌 160x80cm",
+    "price": {
+      "currency": "TWD",
+      "amount": 7999,
+      "converted": 7999,
+      "confidence": "IKEA 台灣官方 2026-07-30 exact-combination 公開價；線上庫存 34"
+    },
+    "image": "https://www.ikea.com.tw/dairyfarm/tw/images/173/1517363_PE1012267_S4.jpg",
+    "buyUrl": "https://www.ikea.com.tw/zh/products/office-workspace/office-desks-and-tables/trotten-spr-79621898",
+    "buyLabel": "IKEA 台灣官方",
+    "specs": [
+      "桌面：160 x 80 cm；桌板厚度：2.0 cm",
+      "高度：71–118 cm；最大承重：50 kg",
+      "組合產品編號 796.218.98：電動底框 405.984.03 + 桌面 406.134.51",
+      "桌面：密集板、美耐皿箔皮、塑膠邊；桌架：鋼質粉體塗裝",
+      "輸入 AC 100–240V、50/60Hz、2.0A；電源供應器 DC 29V、1.8A",
+      "待機功耗 0.35W；運轉音約 50dB",
+      "符合 EN 527-2 辦公用途安全、耐用與穩定要求"
+    ],
+    "description": "IKEA 2026 年新增的 160x80cm TROTTEN 電動升降桌，NT$7,999 提供 50kg 承重、71–118cm 升降範圍、2cm 桌板與 10 年品質保證。",
+    "pros": [
+      "160x80cm 桌面與 NT$7,999 定價具高 CP 值",
+      "AC 100–240V、約 50dB 與 0.35W 待機規格可核對",
+      "EN 527-2 辦公測試與 TROTTEN 10 年品質保證"
+    ],
+    "cons": [
+      "50kg 承重低於部分雙馬達競品，重型多螢幕配置需先加總重量",
+      "官方未標示高度記憶功能，不應自行宣稱",
+      "兩包裝總淨重約 40.08kg，搬運與組裝需預留人力空間"
+    ],
+    "bestFor": "想用萬元內預算取得 160x80cm 大桌面、跨電壓電源與長保固，設備總重不超過 50kg 的居家或辦公使用者。",
+    "recommendation": "萬元內大桌面補強；價格、2cm 桌板、供電與保固證據完整，但重型螢幕與多支架配置要先核算 50kg 承重。",
+    "score": 86,
+    "voltage": "AC 100–240V、50/60Hz、2.0A；電源供應器 DC 29V、1.8A",
+    "warranty": "IKEA TROTTEN 系列 10 年品質保證",
+    "tags": [
+      "新品",
+      "160x80cm",
+      "電動升降",
+      "50kg承重",
+      "桌板厚2cm",
+      "10年保固"
+    ],
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-07-30",
+      "note": "已查 IKEA 台灣官方 exact-combination 頁、底框與桌面組件頁、BigGo、FindPrice 與 LBJ；只取得組合現價與無關 numeric-token 結果，未找到相同底框、桌面與 160x80 規格的可重現歷史價格，因此不以官方現價推定史低。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-07-30",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"IKEA TROTTEN 796.218.98\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22IKEA%20TROTTEN%20796.218.98%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"IKEA TROTTEN 796.218.98\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22IKEA%20TROTTEN%20796.218.98%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
           "targetHost": "reddit.com"
         }
       ]

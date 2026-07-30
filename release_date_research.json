@@ -1,13 +1,13 @@
 {
   "summary": {
-    "checkedAt": "2026-07-29T00:00:00+08:00",
-    "total": 706,
-    "found": 204,
-    "missing": 502,
+    "checkedAt": "2026-07-30T00:00:00+08:00",
+    "total": 710,
+    "found": 205,
+    "missing": 505,
     "byConfidence": {
-      "official": 103,
+      "official": 104,
       "credible_article": 90,
-      "not_found": 502,
+      "not_found": 505,
       "retailer_explicit": 11
     }
   },
@@ -9878,6 +9878,66 @@
       "query": "site:benq.com/zh-tw \"PD2770U\" \"2026 年 5 月 22 日\" 即日起開賣",
       "sourceKind": "official_press_release",
       "reason": "官方新聞稿同日明確宣告即日起開賣，可採精確發售日；規格另以現行 exact-model 規格頁為準，不以新聞稿舊版的亮度或 HDMI 欄位覆寫。"
+    },
+    {
+      "id": "cookware-ikea-hemkomst-60580100",
+      "category": "cookware",
+      "brand": "IKEA",
+      "model": "HEMKOMST 605.801.00",
+      "name": "HEMKOMST 陶瓷不沾平底煎鍋 28cm",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "query": "site:ikea.com.tw \"605.801.00\" (上市 OR 發售 OR 發表 OR 新品)",
+      "sourceKind": "not_found_after_official_review",
+      "reason": "已核對 IKEA 台灣 exact-article 商品頁與 IKEA 官方跨區 exact-article 頁；只能確認現售狀態。台灣頁 raw ecommerce payload 的 start_sale_date=2025-04-01、is_new=false 屬網站販售／上架 metadata，並非官方上市公告，依規則不採為 releaseDate。"
+    },
+    {
+      "id": "knife-ikea-fjallroding-00631466",
+      "category": "knife",
+      "brand": "IKEA",
+      "model": "FJÄLLRÖDING 006.314.66",
+      "name": "FJÄLLRÖDING 67 層大馬士革主廚刀 22cm",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "query": "site:ikea.com.tw \"006.314.66\" (上市 OR 發售 OR 發表 OR 新品)",
+      "sourceKind": "not_found_after_official_review",
+      "reason": "IKEA 台灣 exact-article 頁明示「新品」，但沒有正式上市／發售日期；raw ecommerce payload 的 start_sale_date=2026-07-01 是網站販售／上架 metadata，不能依規則代替 releaseDate。已查 IKEA 台灣、日本、香港與馬來西亞官方頁，仍沒有明確 launch announcement。"
+    },
+    {
+      "id": "standingdesk-ikea-trotten-79621898",
+      "category": "standingdesk",
+      "brand": "IKEA",
+      "model": "TROTTEN 796.218.98",
+      "name": "TROTTEN 電動升降工作桌 160x80cm",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "query": "site:ikea.com.tw \"796.218.98\" (上市 OR 發售 OR 發表 OR 新品)",
+      "sourceKind": "not_found_after_official_review",
+      "reason": "IKEA 台灣 exact-combination 頁明示「新品」，但沒有正式上市／發售日期；raw ecommerce payload 同時出現 start_sale_date=2026-07-01 與 start_sale_date_showable=2026-06-08，屬網站販售／顯示 metadata 且日期語義不一致，不能依規則推定 releaseDate。"
+    },
+    {
+      "id": "vacuum-dyson-v16-sv53-a",
+      "category": "vacuum",
+      "brand": "Dyson",
+      "model": "SV53-A",
+      "name": "V16 Piston Animal 強勁雙錐吸塵器（雙主吸頭組）",
+      "releaseDate": "2025-09-04",
+      "sourceUrl": "https://www.dyson.com/discover/innovation/new-machines/v16-piston-animal-cordless-vacuum",
+      "sourceTitle": "Introducing the Dyson V16 Piston Animal cordless vacuum",
+      "evidenceSnippet": "Dyson 官方公告標示 Published: September 4 2025，並於同日宣布 V16 Piston Animal cordless vacuum。",
+      "confidence": "official",
+      "query": "site:dyson.com/discover/innovation/new-machines \"V16 Piston Animal\" \"September 4 2025\"",
+      "sourceKind": "official_press_release",
+      "reason": "採 Dyson 官方產品發表文章的明確發布日期；並以台灣官方與 PChome exact-model 頁核對 SV53-A，不使用零售上架日或型號年份推定。"
     }
   ]
 }
