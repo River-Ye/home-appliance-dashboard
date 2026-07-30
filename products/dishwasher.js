@@ -15,9 +15,9 @@
     "image": "https://cs-a.ecimg.tw/items/DMBR1PA900I386D/000001_1738721735.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 18000,
-      "converted": 18000,
-      "confidence": "PChome 2026-07-29 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 17800,
+      "converted": 17800,
+      "confidence": "PChome 2026-07-31 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -1099,9 +1099,9 @@
     "image": "https://cs-a.ecimg.tw/items/DMBR16A900HZZEG/000001_1763949344.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 74619,
-      "converted": 74619,
-      "confidence": "PChome 2026-07-27 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 73799,
+      "converted": 73799,
+      "confidence": "PChome 2026-07-31 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -1579,9 +1579,9 @@
     "name": "桌上型洗碗機",
     "price": {
       "currency": "TWD",
-      "amount": 12999,
-      "converted": 12999,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 12440,
+      "converted": 12440,
+      "confidence": "PChome 2026-07-31 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBR24A900JFSR7/000001_1762761618.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBR24-A900JFSR7",
@@ -1969,6 +1969,92 @@
           "query": "site:ptt.cc \"Panasonic NP-2KTBGR1TW\" (災情 OR 問題 OR 故障 OR 負評)",
           "queryUrl": "https://search.yahoo.com/search?q=site%3Aptt.cc%20%22Panasonic%20NP-2KTBGR1TW%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "ptt.cc"
+        }
+      ]
+    }
+  },
+  {
+    "id": "dishwasher-bosch-smv8zcx00x",
+    "category": "dishwasher",
+    "rank": 25,
+    "topPick": false,
+    "budget": "premium",
+    "channel": "tw",
+    "brand": "Bosch",
+    "model": "SMV8ZCX00X",
+    "name": "8 系列 60 公分 14 人份全嵌式沸石洗碗機",
+    "price": {
+      "currency": "TWD",
+      "amount": 84500,
+      "converted": 84500,
+      "confidence": "momo 2026-07-31 exact-model 公開價；含基本安裝"
+    },
+    "image": "https://media3.bsh-group.com/Product_Shots/13189725_SMV8ZCX00X_STP_def.webp",
+    "buyUrl": "https://www.momoshop.com.tw/TP/TP0002980/goodsDetail/TP00029800000034?categoryCode=130000000000&sourcePageType=4",
+    "buyLabel": "momo購物",
+    "specs": [
+      "60cm 全嵌式 / 14 人份 / 全彩 TFT 繁體中文介面",
+      "沸石烘乾 / Home Connect / 24 小時預約",
+      "41dB；夜間洗程 39dB",
+      "尺寸：寬 59.8 x 深 55 x 高 81.5 cm",
+      "110V / 60Hz / 1100W / 10A",
+      "全嵌式機型需自備門板，並另行確認櫥櫃、進排水與安裝費"
+    ],
+    "description": "SMV8ZCX00X 是 Bosch 台灣 8 系列 14 人份全嵌式旗艦，主打沸石烘乾、Home Connect、低噪與繁體中文操作介面。",
+    "pros": [
+      "沸石烘乾、低噪與 14 人份容量適合重度家庭使用",
+      "110V 台灣規格，免另設 220V 專用電源",
+      "品牌官網、型錄與可信通路的 exact-model 證據完整"
+    ],
+    "cons": [
+      "全嵌式機型需要自備門板與完整櫥櫃、進排水規劃",
+      "售價高，安裝與門板費用需另外估算",
+      "中式深碗與鍋具仍需實際確認碗籃擺放方式"
+    ],
+    "bestFor": "正在規劃系統廚具、需要 110V 大容量旗艦洗碗機，並重視烘乾與低噪的人。",
+    "recommendation": "高階全嵌式補充推薦：沸石烘乾、14 人份與 110V 規格完整，但購買前要把門板、櫥櫃、進排水與安裝總價一併估算。",
+    "score": 91,
+    "voltage": "110V / 60Hz / 1100W / 10A；需接地、進排水與全嵌櫃體",
+    "warranty": "Bosch 台灣型錄標示全機 2 年",
+    "tags": [
+      "14人份",
+      "60cm",
+      "全嵌式",
+      "沸石烘乾",
+      "Home Connect",
+      "110V"
+    ],
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-07-31",
+      "note": "已查 Bosch 台灣官方商城、momo、HOTAI購與公開比價資料；NT$84,500 是本次可信新品現價，但沒有可驗證的同型號價格歷史，因此不以現價推定史低。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-07-31",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Bosch SMV8ZCX00X\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Bosch%20SMV8ZCX00X%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Bosch SMV8ZCX00X\" (problem OR issue OR defect OR \"negative review\")",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Bosch%20SMV8ZCX00X%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
+          "targetHost": "reddit.com"
         }
       ]
     }

@@ -1053,10 +1053,10 @@
       "currency": "TWD",
       "amount": 56990,
       "converted": 56990,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "confidence": "PChome 2026-07-31 exact-model API 公開價"
     },
-    "image": "https://cs-a.ecimg.tw/items/DPADZMA900K3904/000001_1780907613.jpg",
-    "buyUrl": "https://24h.pchome.com.tw/prod/DPADZM-A900K3904",
+    "image": "https://cs-a.ecimg.tw/items/DPADO2A900K2L4V/000001_1784823240.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DPADO2-A900K2L4V",
     "buyLabel": "PChome",
     "specs": [
       "65 吋 Mini LED",
@@ -1132,10 +1132,10 @@
       "currency": "TWD",
       "amount": 30990,
       "converted": 30990,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "confidence": "PChome 2026-07-31 exact-model API 公開價"
     },
-    "image": "https://cs-a.ecimg.tw/items/DPADZMA900K2RGJ/000001_1780552782.jpg",
-    "buyUrl": "https://24h.pchome.com.tw/prod/DPADZM-A900K2RGJ",
+    "image": "https://cs-a.ecimg.tw/items/DPADO2A900K39X4/000001_1781238906.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DPADO2-A900K39X4",
     "buyLabel": "PChome",
     "specs": [
       "65 吋 QD-Mini LED",

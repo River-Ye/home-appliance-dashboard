@@ -1000,13 +1000,13 @@
     "name": "Total Blender 數位三匹馬力生機調理機",
     "price": {
       "currency": "TWD",
-      "amount": 28000,
-      "converted": 28000,
-      "confidence": "PChome 2026-07-21 API 公開價"
+      "amount": 21800,
+      "converted": 21800,
+      "confidence": "momo 2026-07-31 exact-model 台灣公司貨公開價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAYBBA900K3CZM/000001_1780982111.jpg",
-    "buyUrl": "https://24h.pchome.com.tw/prod/DMAYBB-A900K3CZM",
-    "buyLabel": "PChome",
+    "buyUrl": "https://www.momoshop.com.tw/TP/TP0002925/goodsDetail/TP00029250000703",
+    "buyLabel": "momo",
     "specs": [
       "3 匹馬力",
       "數位控制",
@@ -1026,7 +1026,7 @@
     "recommendation": "同類推薦：補入 Vitamix、Blendtec 與加熱破壁機，方便比較馬力、容量與保固。",
     "score": 80,
     "voltage": "110V 台灣通路",
-    "warranty": "依 PChome/供應商頁面",
+    "warranty": "momo 頁面標示台灣公司貨 2 年保固",
     "tags": [
       "Blendtec",
       "公司貨",
@@ -1333,11 +1333,11 @@
       "currency": "TWD",
       "amount": 3290,
       "converted": 3290,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "confidence": "momo 2026-07-31 exact-model 公開價"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAYE4A900JTMQR/000001_1773730782.jpg",
-    "buyUrl": "https://24h.pchome.com.tw/prod/DMAYE4-A900JTMQR",
-    "buyLabel": "PChome",
+    "buyUrl": "https://www.momoshop.com.tw/product/13713955",
+    "buyLabel": "momo",
     "specs": [
       "冷熱雙全",
       "一鍵清洗",

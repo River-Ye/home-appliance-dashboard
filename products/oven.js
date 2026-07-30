@@ -719,9 +719,9 @@
     "name": "20L 多功能蒸氣氣炸烤箱",
     "price": {
       "currency": "TWD",
-      "amount": 10800,
-      "converted": 10800,
-      "confidence": "PChome 2026-07-29 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 10260,
+      "converted": 10260,
+      "confidence": "PChome 2026-07-31 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBM0GA900HF91A/000001_1768545220.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBM0G-A900HF91A",
@@ -1499,9 +1499,9 @@
     "name": "蒸烘烤變頻微波爐",
     "price": {
       "currency": "TWD",
-      "amount": 43920,
-      "converted": 43920,
-      "confidence": "PChome 2026-07-29 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 41724,
+      "converted": 41724,
+      "confidence": "PChome 2026-07-31 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBM0GA900H5125/000001_1783054719.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBM0G-A900H5125",

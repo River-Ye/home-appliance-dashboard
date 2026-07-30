@@ -563,13 +563,13 @@
     "name": "滾筒活水洗地掃拖機器人",
     "price": {
       "currency": "TWD",
-      "amount": 15299,
-      "converted": 15299,
-      "confidence": "PChome 2026-07-22 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 14999,
+      "converted": 14999,
+      "confidence": "momo 2026-07-31 exact-model 公開折後價（活動至 2026-07-31）"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL0LA900IT3IU/000001_1763087795.jpg",
-    "buyUrl": "https://24h.pchome.com.tw/prod/DMBL0L-A900IT3IU",
-    "buyLabel": "PChome",
+    "buyUrl": "https://www.momoshop.com.tw/product/14001201",
+    "buyLabel": "momo",
     "specs": [
       "滾筒活水洗地",
       "16 倍壓強",
@@ -589,7 +589,7 @@
     "recommendation": "同類推薦：列入 Ecovacs 次旗艦代表機種，適合和同品牌下一階機型一起比較。",
     "score": 91,
     "voltage": "110V 台灣通路",
-    "warranty": "依 PChome/供應商頁面",
+    "warranty": "momo 頁面標示 1 年保固",
     "tags": [
       "次旗艦",
       "滾筒洗地",
@@ -598,16 +598,16 @@
     "releaseDate": "2025-05",
     "historicalLow": {
       "status": "found",
-      "amount": 15299,
+      "amount": 14999,
       "currency": "TWD",
-      "converted": 15299,
-      "sourceUrl": "https://24h.pchome.com.tw/prod/DMBL0L-A900IT3IU",
-      "sourceTitle": "PChome 24h：ECOVACS DEEBOT T80 OMNI 限時 9 折",
-      "evidenceSnippet": "同一新品商品頁公開活動顯示「限時下殺 07/09–07/10 任選1件享9折」、「折扣價 $15,299」與「網路價 $16,999」。",
+      "converted": 14999,
+      "sourceUrl": "https://www.momoshop.com.tw/product/14001201",
+      "sourceTitle": "momo 購物網：ECOVACS DEEBOT T80 OMNI 7 月公開特價",
+      "evidenceSnippet": "momo 同型號新品頁於 2026-07-31 顯示「07/01~07/31 科沃斯 T80 特價 14999」及「限時折後價 14,999 元」。",
       "sourceKind": "retailer_promo",
       "confidence": "high",
-      "checkedAt": "2026-07-11",
-      "note": "同型號新品通路的公開任選一件 9 折活動，非會員個人化折扣、信用卡回饋或點數；2026-07-11 PChome API 已回到 NT$16,999，故保留 NT$15,299 為已結束、可驗證的入手價。"
+      "checkedAt": "2026-07-31",
+      "note": "同型號新品通路的公開單件折價活動，非會員個人化折扣、信用卡回饋、點數、福利品或展示品。"
     },
     "issueResearch": {
       "status": "common_issue",
@@ -2413,9 +2413,9 @@
     "name": "Xiaomi 掃拖機器人 6 Max",
     "price": {
       "currency": "TWD",
-      "amount": 23999,
-      "converted": 23999,
-      "confidence": "Yahoo購物中心 2026-07-30 exact-model 公開結構化價格"
+      "amount": 22800,
+      "converted": 22800,
+      "confidence": "Yahoo購物中心 2026-07-31 exact-model 公開結構化價格"
     },
     "image": "https://img.yec.tw/zp/MerchandiseImages/5A801ABE6A-SP-22823743.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/%E5%B0%8F%E7%B1%B3-Xiaomi-%E6%8E%83%E6%8B%96%E6%A9%9F%E5%99%A8%E4%BA%BA-6-Max-%E5%AE%98%E6%96%B9%E6%97%97%E8%89%A6%E9%A4%A8-12134974.html",
@@ -2665,9 +2665,9 @@
     "name": "Xiaomi 掃拖機器人 H50 Pro",
     "price": {
       "currency": "TWD",
-      "amount": 10999,
-      "converted": 10999,
-      "confidence": "Yahoo購物中心 2026-07-30 exact-model 公開結構化價格"
+      "amount": 10450,
+      "converted": 10450,
+      "confidence": "Yahoo購物中心 2026-07-31 exact-model 公開結構化價格"
     },
     "image": "https://img.yec.tw/zp/MerchandiseImages/DBA14833A1-SP-22450109.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/%E5%B0%8F%E7%B1%B3-Xiaomi-%E6%8E%83%E6%8B%96%E6%A9%9F%E5%99%A8%E4%BA%BA-H50-Pro-12052496.html",

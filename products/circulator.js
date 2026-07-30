@@ -1842,6 +1842,92 @@
         }
       ]
     }
+  },
+  {
+    "id": "circulator-iris-ksf-sdc151tec",
+    "category": "circulator",
+    "rank": 24,
+    "topPick": false,
+    "budget": "value",
+    "channel": "tw",
+    "brand": "IRIS OHYAMA",
+    "model": "KSF-SDC151TEC",
+    "name": "DC 直立式 3D 空氣循環扇",
+    "price": {
+      "currency": "TWD",
+      "amount": 2930,
+      "converted": 2930,
+      "confidence": "myfone 購物 2026-07-31 exact-model 公開限時價；24hr 到貨"
+    },
+    "image": "https://img.shoplineapp.com/media/image_clips/69cce470ffef1bb84c79510a/original.jpg?1775035504=&owner_id=6976e3a5a39620001e911a08",
+    "buyUrl": "https://www.myfone.com.tw/abuy/prod/P0000203764031",
+    "buyLabel": "myfone 購物",
+    "specs": [
+      "DC 直流馬達；10 段風量",
+      "上下左右自動 3D 立體擺頭；左右 3 段、上下 4 段",
+      "適用約 14 坪；送風距離約 24m",
+      "睡眠、風扇、強力對流模式；2/4/8 小時開關機定時與遙控",
+      "尺寸：寬 24.5 x 深 24.5 x 高 60.5–70.5 cm；重量：約 2.0kg",
+      "DC 24V / 23W（AC 變壓器）；電源線約 1.7m；商品檢驗標識 R3C764"
+    ],
+    "description": "KSF-SDC151TEC 是 IRIS 台灣 2026 新款直立式 DC 循環扇，以 3D 擺頭、10 段風量、遙控與多模式補足小型桌上款以外的中大型空間選擇。",
+    "pros": [
+      "myfone exact-model 24 小時到貨，台灣購買證據完整",
+      "3D 擺頭、10 段風量與直立式送風兼顧循環範圍",
+      "DC 馬達、睡眠模式、定時與遙控功能齊全"
+    ],
+    "cons": [
+      "原廠商城與零售通路的即時庫存可能不同，需以結帳頁為準",
+      "官方與可信通路未標示可比較的噪音數值",
+      "2026 新品，長期耐用度與使用者口碑仍待累積"
+    ],
+    "bestFor": "需要直立式廣域循環、細緻風量與 3D 擺頭，並希望台灣通路可立即購買的人。",
+    "recommendation": "直立式 DC 新品補充比較：功能與現貨價格具吸引力，購買前仍要再次確認通路即時庫存與保固。",
+    "score": 86,
+    "voltage": "DC 24V / 23W（隨附 AC 變壓器）；台灣公司貨",
+    "warranty": "IRIS 台灣原廠保固 1 年",
+    "tags": [
+      "2026新品",
+      "DC馬達",
+      "3D擺頭",
+      "10段風量",
+      "直立式",
+      "台灣現貨"
+    ],
+    "releaseDate": "2026",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-07-31",
+      "note": "已查 IRIS 台灣官方商城、myfone、PChome 與公開比價資料；NT$2,930 是本次可信新品現價，但沒有可驗證的同型號價格歷史，因此不以現價推定史低。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-07-31",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"IRIS KSF-SDC151TEC\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22IRIS%20KSF-SDC151TEC%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"IRIS KSF-SDC151TEC\" (problem OR issue OR defect OR \"negative review\")",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22IRIS%20KSF-SDC151TEC%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
+          "targetHost": "reddit.com"
+        }
+      ]
+    }
   }
 ]);
 })();
