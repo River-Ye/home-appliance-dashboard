@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-07-30",
+  "checkedAt": "2026-07-31",
   "methodVersion": 3,
   "policy": "每筆決策須保存 exact-model 跨站查詢與人工 attestation；每個搜尋候選須逐頁保存摘要、獨立作者數與具體排除理由，研究工具不得自行生成拒絕結論。",
   "results": [
@@ -6093,6 +6093,38 @@
         "originalPagesOpenedDirectly": 3,
         "searchProvider": "Bing RSS and direct Chrome review"
       }
+    },
+    {
+      "id": "circulator-iris-ksf-sdc151tec",
+      "category": "circulator",
+      "brand": "IRIS OHYAMA",
+      "model": "KSF-SDC151TEC",
+      "reviewedAt": "2026-07-31",
+      "reviewBatch": "circulator",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "Mobile01",
+        "Reddit"
+      ],
+      "queries": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"IRIS KSF-SDC151TEC\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22IRIS%20KSF-SDC151TEC%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"IRIS KSF-SDC151TEC\" (problem OR issue OR defect OR \"negative review\")",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22IRIS%20KSF-SDC151TEC%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
+          "targetHost": "reddit.com"
+        }
+      ],
+      "candidateDisposition": "KSF-SDC151TEC：完成 Mobile01 與 Reddit exact-model 查詢，沒有經 canonical-model 邊界確認的原頁候選；此結果不代表完全沒有負評。",
+      "representativeSources": [],
+      "candidateReviews": [],
+      "reviewerNote": "KSF-SDC151TEC 於 2026-07-31 完成 Mobile01、Reddit exact-model 跨站人工查詢；未自動推定沒有負評，決策為 no_common_issue。",
+      "attestation": "manual_cross_site_search_reviewed_no_candidate"
     },
     {
       "id": "dh-panasonic-yv32nn",
@@ -26555,6 +26587,70 @@
       ]
     },
     {
+      "id": "dishwasher-bosch-smv8zcx00x",
+      "category": "dishwasher",
+      "brand": "Bosch",
+      "model": "SMV8ZCX00X",
+      "reviewedAt": "2026-07-31",
+      "reviewBatch": "dishwasher",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "Mobile01",
+        "Reddit"
+      ],
+      "queries": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Bosch SMV8ZCX00X\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Bosch%20SMV8ZCX00X%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Bosch SMV8ZCX00X\" (problem OR issue OR defect OR \"negative review\")",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Bosch%20SMV8ZCX00X%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
+          "targetHost": "reddit.com"
+        }
+      ],
+      "candidateDisposition": "SMV8ZCX00X：Mobile01 兩篇 exact-model 原頁均為選購或沸石烘乾討論，沒有同型號第一人稱故障回報；Reddit exact-model 查詢沒有原頁候選。",
+      "representativeSources": [
+        {
+          "platform": "Mobile01",
+          "title": "Bosch SMV8ZCX00X｜請問BOSCH有、無沸石機種，烘乾效果差異程度如何?",
+          "url": "https://www.mobile01.com/topicdetail.php?f=729&t=6472321"
+        },
+        {
+          "platform": "Mobile01",
+          "title": "Bosch SMV8ZCX00X｜洗碗機品牌型號挑選(伊萊克斯、BOSCH、Miele)",
+          "url": "https://www.mobile01.com/topicdetail.php?f=729&t=6456342"
+        }
+      ],
+      "candidateReviews": [
+        {
+          "url": "https://www.mobile01.com/topicdetail.php?f=729&t=6472321",
+          "title": "Bosch SMV8ZCX00X｜請問BOSCH有、無沸石機種，烘乾效果差異程度如何?",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-07-31",
+          "sourceExcerpt": "原頁比較 Bosch 有無沸石機種的烘乾與洗程，SMV8ZCX00X 僅被列作最高規型號與規格參考。",
+          "independentAuthors": 5,
+          "specificReason": "討論沒有可計入的 SMV8ZCX00X 第一人稱故障回報，也沒有形成同一問題六位獨立使用者與第二個原始網站。"
+        },
+        {
+          "url": "https://www.mobile01.com/topicdetail.php?f=729&t=6456342",
+          "title": "Bosch SMV8ZCX00X｜洗碗機品牌型號挑選(伊萊克斯、BOSCH、Miele)",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-07-31",
+          "sourceExcerpt": "原頁把 SMV8ZCX00X 與 Electrolux、Miele 機種作購前比較，內容集中在規格、價格與碗籃取捨。",
+          "independentAuthors": 6,
+          "specificReason": "原頁是購前型號比較，未出現可驗證的 SMV8ZCX00X 同一問題第一人稱回報，且只來自 Mobile01 單一網站。"
+        }
+      ],
+      "reviewerNote": "SMV8ZCX00X 於 2026-07-31 完成 Mobile01、Reddit exact-model 跨站查詢及兩篇 Mobile01 原頁人工覆核；選購討論不視為集中災情。",
+      "attestation": "manual_original_pages_reviewed"
+    },
+    {
       "id": "bidet-toto-s2",
       "category": "bidet",
       "brand": "TOTO",
@@ -34951,6 +35047,38 @@
         ],
         "successfulQueries": 2
       }
+    },
+    {
+      "id": "standingdesk-ikea-travsport-79620950",
+      "category": "standingdesk",
+      "brand": "IKEA",
+      "model": "TRAVSPORT 796.209.50",
+      "reviewedAt": "2026-07-31",
+      "reviewBatch": "standingdesk",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "Mobile01",
+        "Reddit"
+      ],
+      "queries": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"IKEA TRAVSPORT 796.209.50\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22IKEA%20TRAVSPORT%20796.209.50%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"IKEA TRAVSPORT 796.209.50\" (problem OR issue OR defect OR \"negative review\")",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22IKEA%20TRAVSPORT%20796.209.50%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
+          "targetHost": "reddit.com"
+        }
+      ],
+      "candidateDisposition": "TRAVSPORT 796.209.50：完成 Mobile01 與 Reddit exact-model 查詢，沒有經 canonical-model 邊界確認的原頁候選；此結果不代表完全沒有負評。",
+      "representativeSources": [],
+      "candidateReviews": [],
+      "reviewerNote": "TRAVSPORT 796.209.50 於 2026-07-31 完成 Mobile01、Reddit exact-model 跨站人工查詢；未自動推定沒有負評，決策為 no_common_issue。",
+      "attestation": "manual_cross_site_search_reviewed_no_candidate"
     },
     {
       "id": "chair-irocks-t07-plus",

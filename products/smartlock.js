@@ -2376,9 +2376,9 @@
     "name": "七合一人臉/貓眼掌靜脈電子鎖",
     "price": {
       "currency": "TWD",
-      "amount": 29800,
-      "converted": 29800,
-      "confidence": "PChome 2026-07-29 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 28310,
+      "converted": 28310,
+      "confidence": "PChome 2026-07-31 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBS4NA900IT8YL/000001_1782961750.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBS4N-A900IT8YL",
@@ -2532,9 +2532,9 @@
     "name": "逸系列微光夜視貓眼電子鎖",
     "price": {
       "currency": "TWD",
-      "amount": 38800,
-      "converted": 38800,
-      "confidence": "PChome 2026-07-29 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 36860,
+      "converted": 36860,
+      "confidence": "PChome 2026-07-31 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBS4NA900K2QWO/000001_1782963114.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBS4N-A900K2QWO",
@@ -2844,9 +2844,9 @@
     "name": "G-11 指紋密碼電子鎖",
     "price": {
       "currency": "TWD",
-      "amount": 11800,
-      "converted": 11800,
-      "confidence": "PChome 2026-07-27 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 11210,
+      "converted": 11210,
+      "confidence": "PChome 2026-07-31 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBS4NA900K1WBU/000001_1779862478.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBS4N-A900K1WBU",

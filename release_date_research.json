@@ -1,13 +1,13 @@
 {
   "summary": {
-    "checkedAt": "2026-07-30T00:00:00+08:00",
-    "total": 710,
-    "found": 205,
-    "missing": 505,
+    "checkedAt": "2026-07-31T00:00:00+08:00",
+    "total": 713,
+    "found": 206,
+    "missing": 507,
     "byConfidence": {
-      "official": 104,
+      "official": 105,
       "credible_article": 90,
-      "not_found": 505,
+      "not_found": 507,
       "retailer_explicit": 11
     }
   },
@@ -9938,6 +9938,51 @@
       "query": "site:dyson.com/discover/innovation/new-machines \"V16 Piston Animal\" \"September 4 2025\"",
       "sourceKind": "official_press_release",
       "reason": "採 Dyson 官方產品發表文章的明確發布日期；並以台灣官方與 PChome exact-model 頁核對 SV53-A，不使用零售上架日或型號年份推定。"
+    },
+    {
+      "id": "dishwasher-bosch-smv8zcx00x",
+      "category": "dishwasher",
+      "brand": "Bosch",
+      "model": "SMV8ZCX00X",
+      "name": "8 系列 60 公分 14 人份全嵌式沸石洗碗機",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "query": "site:bosch-home.com.tw \"SMV8ZCX00X\" (上市 OR 發售 OR 發表 OR 新品)",
+      "sourceKind": "not_found_after_official_review",
+      "reason": "已核對 Bosch 台灣 exact-model 商品頁、官方商城與 2026 型錄；只能確認目前販售與規格，型錄日期不是產品上市日，未找到正式上市／發售公告。"
+    },
+    {
+      "id": "circulator-iris-ksf-sdc151tec",
+      "category": "circulator",
+      "brand": "IRIS OHYAMA",
+      "model": "KSF-SDC151TEC",
+      "name": "DC 直立式 3D 空氣循環扇",
+      "releaseDate": "2026",
+      "sourceUrl": "https://www.irisplaza.com.tw/products/iris-ksf-sdc151tec",
+      "sourceTitle": "IRIS KSF-SDC151TEC DC 直立式空氣循環扇－2026 新品",
+      "evidenceSnippet": "IRIS 台灣官方 exact-model 商品頁將 KSF-SDC151TEC 明確列為「2026新品上市」；來源只證明年份，故不補推月份或日期。",
+      "confidence": "official",
+      "query": "site:irisplaza.com.tw \"KSF-SDC151TEC\" \"2026新品\"",
+      "sourceKind": "manual_research",
+      "reason": "採 IRIS 台灣官方 exact-model 頁明確標示的 2026 新品年份；未使用日本 -W 色號發售日或零售上架日補推更精確日期。"
+    },
+    {
+      "id": "standingdesk-ikea-travsport-79620950",
+      "category": "standingdesk",
+      "brand": "IKEA",
+      "model": "TRAVSPORT 796.209.50",
+      "name": "TRAVSPORT 電動升降工作桌 120x70cm",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "query": "site:ikea.com.tw \"796.209.50\" (上市 OR 發售 OR 發表 OR 新品)",
+      "sourceKind": "not_found_after_official_review",
+      "reason": "IKEA 台灣 exact-combination 頁可確認新品與現貨，但沒有正式上市／發售日期；商品上架 metadata 與組裝文件日期均不作為 releaseDate。"
     }
   ]
 }

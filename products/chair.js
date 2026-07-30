@@ -177,10 +177,10 @@
       "currency": "TWD",
       "amount": 6990,
       "converted": 6990,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "confidence": "PChome 2026-07-31 exact-model API 公開價"
     },
-    "image": "https://cs-a.ecimg.tw/items/DCAKFHA900B12OU/000001_1773127491.jpg",
-    "buyUrl": "https://24h.pchome.com.tw/prod/DCAKFH-A900B12OU",
+    "image": "https://cs-a.ecimg.tw/items/DCBE2LA900F8CX4/000001_1783563753.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DCBE2L-A900F8CX4",
     "buyLabel": "PChome",
     "specs": [
       "高階電腦椅",

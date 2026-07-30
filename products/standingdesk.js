@@ -1933,6 +1933,93 @@
         }
       ]
     }
+  },
+  {
+    "id": "standingdesk-ikea-travsport-79620950",
+    "category": "standingdesk",
+    "rank": 25,
+    "topPick": false,
+    "budget": "value",
+    "channel": "tw",
+    "brand": "IKEA",
+    "model": "TRAVSPORT 796.209.50",
+    "name": "TRAVSPORT 電動升降工作桌 120x70cm",
+    "price": {
+      "currency": "TWD",
+      "amount": 7999,
+      "converted": 7999,
+      "confidence": "IKEA 台灣官方 2026-07-31 exact-combination 公開價；線上庫存 16"
+    },
+    "image": "https://www.ikea.com.tw/dairyfarm/tw/images/450/1545052_PE1019554_S4.jpg",
+    "buyUrl": "https://www.ikea.com.tw/zh/products/home-workspace/home-desks/travsport-spr-79620950",
+    "buyLabel": "IKEA 台灣官方",
+    "specs": [
+      "桌面：120 x 70 cm；桌板厚度：未標示",
+      "高度：72–117 cm；最大承重：50 kg",
+      "單馬達升降；碰撞偵測會停止並反向 30–50mm",
+      "兒童鎖、後方理線、上層置物架",
+      "組合產品編號 796.209.50：桌面 106.204.53 + 電動底框 206.204.43",
+      "AC 100–240V / 50–60Hz；變壓器輸出 DC 29V / 1.8A；待機 0.35W",
+      "符合 ANSI/BIFMA X6.5 與 EN 527 安全、耐用及穩定要求"
+    ],
+    "description": "TRAVSPORT 796.209.50 是 IKEA 新款 120x70cm 電動升降桌，具單馬達、50kg 承重、碰撞偵測、兒童鎖、理線與置物架。",
+    "pros": [
+      "NT$7,999、120x70cm 與官方現貨，適合萬元內完整工作站",
+      "碰撞偵測與兒童鎖比純升降入門款更完整",
+      "置物架與後方理線有利小空間整理"
+    ],
+    "cons": [
+      "50kg 承重低於部分雙馬達競品，重型多螢幕配置需先加總重量",
+      "桌板厚度未標示，使用夾桌式螢幕支架前需向官方確認",
+      "單馬達且官方未標示高度記憶，不應自行假設具備"
+    ],
+    "bestFor": "想在萬元內取得安全機制、理線與置物架，且設備總重不超過 50kg 的居家工作者。",
+    "recommendation": "小空間升降桌補強：官方現貨、碰撞偵測與兒童鎖具差異化；使用螢幕懸臂前務必先確認桌板厚度與夾具相容性。",
+    "score": 87,
+    "voltage": "AC 100–240V / 50–60Hz；變壓器輸出 DC 29V / 1.8A",
+    "warranty": "依 IKEA 台灣工作桌與電動底框品質保證條款",
+    "tags": [
+      "新品",
+      "120x70cm",
+      "電動升降",
+      "50kg承重",
+      "碰撞偵測",
+      "兒童鎖"
+    ],
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-07-31",
+      "note": "已查 IKEA 台灣 official exact-combination 頁與公開比價資料；NT$7,999 是本次可購現價，尚無可重現的同組合歷史價格，因此不以現價推定史低。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-07-31",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"IKEA TRAVSPORT 796.209.50\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22IKEA%20TRAVSPORT%20796.209.50%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"IKEA TRAVSPORT 796.209.50\" (problem OR issue OR defect OR \"negative review\")",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22IKEA%20TRAVSPORT%20796.209.50%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
+          "targetHost": "reddit.com"
+        }
+      ]
+    }
   }
 ]);
 })();

@@ -1232,9 +1232,9 @@
     "name": "45吋 20KG 氣壓式螢幕支架",
     "price": {
       "currency": "TWD",
-      "amount": 3250,
-      "converted": 3250,
-      "confidence": "PChome 2026-07-25 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 2999,
+      "converted": 2999,
+      "confidence": "PChome 2026-07-31 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DCAGU1A900I6WCY/000001_1754374453.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DCAGU1-A900I6WCY",
