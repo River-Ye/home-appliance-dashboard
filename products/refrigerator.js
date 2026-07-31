@@ -1375,9 +1375,9 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/6bf08c2eea-Gd-11751994.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 22900,
-      "converted": 22900,
-      "confidence": "Yahoo購物中心 2026-07-11 頁面查核價"
+      "amount": 19900,
+      "converted": 19900,
+      "confidence": "Yahoo購物中心 2026-08-01 exact-model 公開結構化價格"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心",
@@ -1418,16 +1418,16 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 20148,
+      "amount": 19900,
       "currency": "TWD",
-      "converted": 20148,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1258922304&cgp=22900",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【SAMSUNG 三星】 466公升 一級能效智慧節能變頻極簡雙門冰箱 RT47CG662AS9",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Yahoo購物中心 / 【SAMSUNG 三星】 466公升 一級能效智慧節能變頻極簡雙門冰箱 RT47CG662AS9」最低價為 NT$20,148，最低點日期 2026-04-11。",
-      "sourceKind": "price_history",
-      "confidence": "high",
-      "checkedAt": "2026-07-09",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+      "converted": 19900,
+      "sourceUrl": "https://tw.buy.yahoo.com/gdsale/SAMSUNG-%E4%B8%89%E6%98%9F-466%E5%85%AC%E5%8D%87-%E4%B8%80%E7%B4%9A%E8%83%BD%E6%95%88%E6%99%BA%E6%85%A7%E7%AF%80%E8%83%BD%E8%AE%8A%E9%A0%BB%E6%A5%B5%E7%B0%A1%E9%9B%99%E9%96%80%E5%86%B0%E7%AE%B1-RT47CG662AS9-11751994.html",
+      "sourceTitle": "Yahoo購物中心：【SAMSUNG 三星】 466公升 一級能效智慧節能變頻極簡雙門冰箱 RT47CG662AS9 | 變頻600L以上 | Yahoo購物中心",
+      "evidenceSnippet": "Yahoo購物中心於 2026-08-01 顯示同型號可信新品公開價 NT$19,900，低於既有史低 NT$20,148。",
+      "sourceKind": "retailer_page",
+      "confidence": "medium",
+      "checkedAt": "2026-08-01",
+      "note": "採用 Yahoo購物中心當日可購商品的同型號新品公開價；不含會員券、點數、信用卡回饋、二手、福利、展示、拆封或整新品。"
     },
     "issueResearch": {
       "status": "no_common_issue",

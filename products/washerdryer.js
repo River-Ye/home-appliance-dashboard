@@ -617,9 +617,9 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/1f2a33ce70-Gd-10053955.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 43563,
-      "converted": 43563,
-      "confidence": "Yahoo購物中心 2026-07-31 exact-model 公開結構化價格"
+      "amount": 42583,
+      "converted": 42583,
+      "confidence": "Yahoo購物中心 2026-08-01 exact-model 公開結構化價格"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心",
@@ -961,9 +961,9 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/32FF0A7411-SP-21060003.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 32900,
-      "converted": 32900,
-      "confidence": "PChome 2026-07-31 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 24900,
+      "converted": 24900,
+      "confidence": "PChome 2026-08-01 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -1005,16 +1005,16 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 32900,
+      "amount": 24900,
       "currency": "TWD",
-      "converted": 32900,
+      "converted": 24900,
       "sourceUrl": "https://24h.pchome.com.tw/prod/DPAI1N-A900I8IJ8",
       "sourceTitle": "PChome 24h 購物：SAMSUNG三星 12公斤變頻Bespoke蒸洗脫烘滾筒洗衣機 WD12DB9B84GDTW",
-      "evidenceSnippet": "PChome 商品 API 於 2026-07-22 回傳同型號可信新品公開價 NT$32,900，低於既有史低 NT$34,900。",
+      "evidenceSnippet": "PChome 24h 購物於 2026-08-01 顯示同型號可信新品公開價 NT$24,900，低於既有史低 NT$32,900。",
       "sourceKind": "retailer_page",
       "confidence": "medium",
-      "checkedAt": "2026-07-22",
-      "note": "採用 PChome 當日可購商品 API 的同型號新品公開價；不含會員券、點數、信用卡回饋、二手、福利、展示、拆封或整新品。"
+      "checkedAt": "2026-08-01",
+      "note": "採用 PChome 24h 購物當日可購商品的同型號新品公開價；不含會員券、點數、信用卡回饋、二手、福利、展示、拆封或整新品。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -1219,9 +1219,9 @@
     "image": "https://cs-a.ecimg.tw/items/DPAI1PA900F1KXB/000001_1762877683.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 35910,
-      "converted": 35910,
-      "confidence": "PChome 2026-07-12 API 查核價"
+      "amount": 32900,
+      "converted": 32900,
+      "confidence": "PChome 2026-08-01 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "channel": "tw",
     "buyLabel": "PChome",

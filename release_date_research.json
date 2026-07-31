@@ -1,13 +1,13 @@
 {
   "summary": {
-    "checkedAt": "2026-07-31T00:00:00+08:00",
-    "total": 713,
+    "checkedAt": "2026-08-01T00:00:00+08:00",
+    "total": 714,
     "found": 206,
-    "missing": 507,
+    "missing": 508,
     "byConfidence": {
       "official": 105,
       "credible_article": 90,
-      "not_found": 507,
+      "not_found": 508,
       "retailer_explicit": 11
     }
   },
@@ -9983,6 +9983,21 @@
       "query": "site:ikea.com.tw \"796.209.50\" (上市 OR 發售 OR 發表 OR 新品)",
       "sourceKind": "not_found_after_official_review",
       "reason": "IKEA 台灣 exact-combination 頁可確認新品與現貨，但沒有正式上市／發售日期；商品上架 metadata 與組裝文件日期均不作為 releaseDate。"
+    },
+    {
+      "id": "purifier-philips-ac0921-84",
+      "category": "purifier",
+      "brand": "Philips",
+      "model": "AC0921/84",
+      "name": "迷你奈抗敏奈米級空氣清淨機",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "query": "site:philips-da.com.tw \"AC0921/84\" (上市 OR 發售 OR 發表 OR 新品)",
+      "sourceKind": "not_found_after_official_review",
+      "reason": "Philips 台灣 official exact-model 頁只寫「2026 最新力作」，未提供明確上市／發售日期；官方手冊文章日期、預購活動期間與通路上架日均不作為 releaseDate。"
     }
   ]
 }

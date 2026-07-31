@@ -509,6 +509,17 @@ function exchangeRateRequestUrl(maintenanceDate = MAINTENANCE_DATE) {
   return url.toString();
 }
 
+function updateHistoricalExchangeNote(note, currency, exchangeDate) {
+  const current = String(note || "").trim();
+  const provenance = `依 ${exchangeDate} ${currency}/TWD 匯率換算`;
+  const staleProvenance = /依 \d{4}-\d{2}-\d{2} [A-Z]{3}\/TWD 匯率換算/u;
+  if (staleProvenance.test(current)) {
+    return current.replace(staleProvenance, provenance);
+  }
+  const base = current.replace(/[。；\s]+$/u, "");
+  return `${base ? `${base}；` : ""}${provenance}。`;
+}
+
 async function fetchExchangeRates() {
   const response = await fetchWithTimeout(exchangeRateRequestUrl(), { headers: { accept: "application/json" } });
   if (!response.ok) throw new Error(`Exchange rate request failed: ${response.status}`);
@@ -546,6 +557,7 @@ function applyExchangeRates(products, exchange, raw) {
       const rate = rates[low.currency];
       if (!Number.isFinite(rate)) throw new Error(`Unsupported historical currency: ${low.currency} (${product.id})`);
       low.converted = Math.round(Number(low.amount) * rate);
+      low.note = updateHistoricalExchangeNote(low.note, low.currency, exchangeDate);
     }
   }
 }
