@@ -254,9 +254,9 @@
     "name": "T03 NEO 人體工學椅",
     "price": {
       "currency": "TWD",
-      "amount": 8990,
-      "converted": 8990,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 8541,
+      "converted": 8541,
+      "confidence": "PChome 2026-08-01 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBJ4CA900HS19G/000001_1773036067.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBJ4C-A900HS19G",
@@ -1220,9 +1220,9 @@
     "name": "高彈力人體工學網椅",
     "price": {
       "currency": "TWD",
-      "amount": 5890,
-      "converted": 5890,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 6800,
+      "converted": 6800,
+      "confidence": "PChome 2026-08-01 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBJ0AA900JSBYX/000001_1780972580.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBJ0A-A900JSBYX",

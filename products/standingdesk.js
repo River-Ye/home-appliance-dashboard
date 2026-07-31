@@ -97,9 +97,9 @@
     "name": "D01-SL-DX 電動升降桌 120x80",
     "price": {
       "currency": "TWD",
-      "amount": 14346,
-      "converted": 14346,
-      "confidence": "PChome 2026-07-30 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 13644,
+      "converted": 13644,
+      "confidence": "PChome 2026-08-01 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBJ4CA900I9XVY/000001_1773043590.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBJ4C-A900I9XVY",
@@ -177,9 +177,9 @@
     "name": "D01-SL-DX 電動升降桌 150x80",
     "price": {
       "currency": "TWD",
-      "amount": 15025,
-      "converted": 15025,
-      "confidence": "PChome 2026-07-30 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 14091,
+      "converted": 14091,
+      "confidence": "PChome 2026-08-01 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBJ4CA900HUG3C/000001_1773043903.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBJ4C-A900HUG3C",
@@ -257,9 +257,9 @@
     "name": "D01-SL-DX 電動升降桌 160x80",
     "price": {
       "currency": "TWD",
-      "amount": 15510,
-      "converted": 15510,
-      "confidence": "PChome 2026-07-30 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 14537,
+      "converted": 14537,
+      "confidence": "PChome 2026-08-01 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBJ4CA900ITV12/000001_1773043461.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBJ4C-A900ITV12",
@@ -337,9 +337,9 @@
     "name": "D01-SL-DX 電動升降桌 180x80",
     "price": {
       "currency": "TWD",
-      "amount": 15995,
-      "converted": 15995,
-      "confidence": "PChome 2026-07-30 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 15162,
+      "converted": 15162,
+      "confidence": "PChome 2026-08-01 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBJ4CA900HUGSO/000001_1773043706.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBJ4C-A900HUGSO",
@@ -737,9 +737,9 @@
     "name": "ROYAL MOSSA 150 加大電動升降桌",
     "price": {
       "currency": "TWD",
-      "amount": 10990,
-      "converted": 10990,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 15990,
+      "converted": 15990,
+      "confidence": "PChome 2026-08-01 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DCBB6OA900HZWA5/000001_1783085629.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DCBB6O-A900HZWA5",

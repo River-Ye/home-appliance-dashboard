@@ -802,7 +802,13 @@ async function main() {
       converted: 0,
       confidence: "Danawa 2026-07-23 exact-model 新品比價頁公開最低價快照",
     },
-    historicalLow: { status: "found", currency: "KRW", amount: 2_000_000, converted: 0 },
+    historicalLow: {
+      status: "found",
+      currency: "KRW",
+      amount: 2_000_000,
+      converted: 0,
+      note: "海外史低並依 2026-07-21 KRW/TWD 匯率換算；未含進口成本。",
+    },
   };
   const staleUsdProduct = {
     id: "vacuum-overseas-fixture",
@@ -812,11 +818,22 @@ async function main() {
       converted: 0,
       confidence: "官方 2026-07-21 來源價；ExchangeRate-API 2026-07-21 匯率換算",
     },
+    historicalLow: {
+      status: "found",
+      currency: "USD",
+      amount: 80,
+      converted: 0,
+      note: "海外史低；未含國際運費。",
+    },
   };
   const krwRaw = { foreignPriceChanges: [] };
   applyExchangeRates([krwProduct, staleUsdProduct], krwExchange, krwRaw);
   assert(krwProduct.price.converted === 59_975, "KRW catalog prices should convert to rounded TWD");
   assert(krwProduct.historicalLow.converted === 50_000, "KRW historical lows should convert to rounded TWD");
+  assert(
+    krwProduct.historicalLow.note === "海外史低並依 2026-07-22 KRW/TWD 匯率換算；未含進口成本。",
+    "foreign historical lows should replace stale exchange-rate provenance",
+  );
   assert(
     krwProduct.price.confidence.endsWith("；ExchangeRate-API 2026-07-22 匯率換算"),
     "foreign catalog prices should append the current exchange-rate provenance",
@@ -824,6 +841,11 @@ async function main() {
   assert(
     staleUsdProduct.price.confidence === "官方 2026-07-21 來源價；ExchangeRate-API 2026-07-22 匯率換算",
     "foreign catalog prices should replace stale exchange-rate provenance without changing the source-price date",
+  );
+  assert(staleUsdProduct.historicalLow.converted === 2_560, "USD historical lows should convert to rounded TWD");
+  assert(
+    staleUsdProduct.historicalLow.note === "海外史低；未含國際運費；依 2026-07-22 USD/TWD 匯率換算。",
+    "foreign historical lows should append exchange-rate provenance when it is missing",
   );
   assert(
     maintenanceCacheVersion('cacheVersion: "20260723-garmentcare"', "2026-07-23") === "20260723-garmentcare",

@@ -1357,9 +1357,9 @@
     "name": "10坪圓嘟嘟空氣清淨機",
     "price": {
       "currency": "TWD",
-      "amount": 7990,
-      "converted": 7990,
-      "confidence": "PChome 2026-07-28 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 5888,
+      "converted": 5888,
+      "confidence": "PChome 2026-08-01 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAU6TA900IVWE0/000001_1748922662.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAU6T-A900IVWE0",
@@ -1819,6 +1819,92 @@
       "甲醛濾網",
       "台灣現貨"
     ]
+  },
+  {
+    "id": "purifier-philips-ac0921-84",
+    "category": "purifier",
+    "rank": 24,
+    "topPick": false,
+    "budget": "mid",
+    "channel": "tw",
+    "brand": "Philips",
+    "model": "AC0921/84",
+    "name": "迷你奈抗敏奈米級空氣清淨機",
+    "price": {
+      "currency": "TWD",
+      "amount": 7350,
+      "converted": 7350,
+      "confidence": "PChome 2026-08-01 exact-model 公開折扣價；Price.Low NT$7,350、Qty 4、24h 倉庫出貨"
+    },
+    "image": "https://img.pchome.com.tw/cs/items/DMAUFVA900JZR3M/000001_1785203322.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DMAUFV-A900JZR3M",
+    "buyLabel": "PChome",
+    "specs": [
+      "CADR 250 m³/h；建議適用 10–12 坪",
+      "NanoProtect HEPA 雙層過濾；可濾除小至 PM0.003 微粒 99.97%",
+      "AeraSense 感應器每秒偵測空氣品質 1,000 次",
+      "自動、睡眠、中速與 Turbo 模式；睡眠模式最低 18 dB",
+      "尺寸：寬 23.8 x 深 24 x 高 36.4 cm；重量：2.5 kg",
+      "最大耗電 22W；待機 0.50W；一級能效；FY0900 濾網約 12 個月"
+    ],
+    "description": "AC0921/84 是 Philips 2026 年台灣小坪數新品，以 2.5kg 小機身、CADR 250、低噪與過敏原過濾定位臥室及工作空間；台灣可信通路已有 exact-model 現貨。",
+    "pros": [
+      "PChome exact-model 現貨、公開價格與台灣售後證據完整",
+      "18 dB 睡眠模式與小體積適合床邊或工作桌旁",
+      "22W 最大耗電、一級能效與一年濾網週期容易估算使用成本"
+    ],
+    "cons": [
+      "CADR 250 較適合中小空間，不宜拿來取代大坪數主機",
+      "FY0900 屬持續耗材，購買前仍要估算長期濾網成本",
+      "2026 新品，台灣長期耐用度與大量使用者口碑仍待累積"
+    ],
+    "bestFor": "需要 10–12 坪臥室或工作空間清淨、重視低噪與台灣現貨保固的人。",
+    "recommendation": "小坪數抗敏新品補充比較：AC0921/84 的 exact-model 現貨、低噪與能效證據完整，適合和同級 Coway、Blueair 與 POIEMA 機種比較。",
+    "score": 87,
+    "voltage": "台灣販售版本；隨附 KA2401A-2401000TW 變壓器，官方頁未標示額定輸入電壓",
+    "warranty": "Philips 台灣官網標示全球 2 年保固；登錄、範圍與條件依官方頁",
+    "tags": [
+      "2026新品",
+      "10–12坪",
+      "18dB",
+      "一級能效",
+      "抗敏",
+      "台灣現貨"
+    ],
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-08-01",
+      "note": "已查 Philips 台灣官方、PChome、momo 與公開比價入口；NT$7,350 是本次 PChome exact-model 公開折扣現價，但沒有可重現的同型號歷史價格曲線或明確最低點日期，因此不以現價推定史低。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-08-01",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Philips AC0921/84\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Philips%20AC0921%2F84%22%20%28%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95%29",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Philips AC0921/84\" (problem OR issue OR defect OR \"negative review\")",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Philips%20AC0921%2F84%22%20%28problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22%29",
+          "targetHost": "reddit.com"
+        }
+      ]
+    }
   }
 ]);
 })();

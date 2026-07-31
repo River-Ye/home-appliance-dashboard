@@ -267,9 +267,9 @@
     "image": "https://cs-a.ecimg.tw/items/DEAWMWA900JCBKJ/000001_1760418137.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 2555,
-      "converted": 2555,
-      "confidence": "PChome 2026-07-26 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 2690,
+      "converted": 2690,
+      "confidence": "PChome 2026-08-01 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -433,9 +433,9 @@
     "image": "https://cs-a.ecimg.tw/items/DEAWMWA900J5MY9/000001_1756189443.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 2374,
-      "converted": 2374,
-      "confidence": "PChome 2026-07-26 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 2499,
+      "converted": 2499,
+      "confidence": "PChome 2026-08-01 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -683,9 +683,9 @@
     "image": "https://cs-a.ecimg.tw/items/DEAWMJA900JN626/000001_1768377713.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 1584,
-      "converted": 1584,
-      "confidence": "PChome 2026-07-26 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 1782,
+      "converted": 1782,
+      "confidence": "PChome 2026-08-01 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -766,9 +766,9 @@
     "image": "https://cs-a.ecimg.tw/items/DEAWEDA900HZZIP/000001_1767158620.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 2717,
-      "converted": 2717,
-      "confidence": "PChome 2026-07-26 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 2860,
+      "converted": 2860,
+      "confidence": "PChome 2026-08-01 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -1100,9 +1100,9 @@
     "image": "https://cs-a.ecimg.tw/items/DEAWGAA900B4V1I/000001_1670815636.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 1415,
-      "converted": 1415,
-      "confidence": "PChome 2026-07-22 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 1490,
+      "converted": 1490,
+      "confidence": "PChome 2026-08-01 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -1345,9 +1345,9 @@
     "name": "陶晶壺型鍋 1.7L",
     "price": {
       "currency": "TWD",
-      "amount": 6240,
-      "converted": 6240,
-      "confidence": "PChome 2026-07-26 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 7020,
+      "converted": 7020,
+      "confidence": "PChome 2026-08-01 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DEAWMJA900JMZA5/000001_1768290148.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DEAWMJ-A900JMZA5",
@@ -1501,9 +1501,9 @@
     "name": "醇火系列不沾炒鍋",
     "price": {
       "currency": "TWD",
-      "amount": 1259,
-      "converted": 1259,
-      "confidence": "PChome 2026-07-29 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 1399,
+      "converted": 1399,
+      "confidence": "PChome 2026-08-01 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DEES01A900IQ6X3/000001_1764832269.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DEES01-A900IQ6X3",
@@ -1579,9 +1579,9 @@
     "name": "瓷安系列不沾單柄牛奶鍋",
     "price": {
       "currency": "TWD",
-      "amount": 2290,
-      "converted": 2290,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 2061,
+      "converted": 2061,
+      "confidence": "PChome 2026-08-01 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DEAWMLA900JSTI6/000001_1773108785.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DEAWML-A900JSTI6",
