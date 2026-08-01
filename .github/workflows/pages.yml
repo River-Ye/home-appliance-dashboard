@@ -77,7 +77,7 @@ jobs:
           set -euo pipefail
           rm -rf _site
           mkdir -p _site
-          cp index.html favicon.svg social-preview.png CNAME .nojekyll robots.txt sitemap.xml llms.txt 949a77c30a2a9346e8a7475117ff39b6.txt _site/
+          cp index.html favicon.svg favicon.ico social-preview.png CNAME .nojekyll robots.txt sitemap.xml llms.txt 949a77c30a2a9346e8a7475117ff39b6.txt _site/
           cp release_date_research.json historical_price_research.json dimension_research.json _site/
           cp product_issue_research.json product_issue_report_evidence.json product_issue_review_manifest.json _site/
           cp -R assets products categories _site/
