@@ -12,6 +12,13 @@ const {
 } = require("./catalog-maintenance-policy");
 const { matchesPchomeProductId, selectPchomeCurrentPrice } = require("./pchome-product-api");
 const {
+  DIMENSION_PATTERN,
+  MEASUREMENT_PRIORITY_CATEGORIES,
+  NEW_DIMENSION_CATEGORIES,
+  WEIGHT_CATEGORIES,
+  WEIGHT_PATTERN,
+} = require("./dashboard-contract");
+const {
   normalizeExchangeDate,
   replaceMarkerBlock,
   renderMaintenanceSummary,
@@ -403,6 +410,33 @@ async function assertRejects(promise, pattern) {
 }
 
 async function main() {
+  assert(
+    DIMENSION_PATTERN.test("尺寸：不含底座 寬 144.1 x 深 4.5 x 高 82.6 cm；含底座 寬 144.1 x 深 26.7 x 高 89.6 cm"),
+    "dimension contract should accept separate TV stand configurations",
+  );
+  assert(
+    DIMENSION_PATTERN.test("尺寸：不含底座 寬 144.1 x 深 2.4 x 高 82.6 cm；含底座 寬 144.1 x 深 26.3 x 高 86.5／91 cm"),
+    "dimension contract should preserve official alternate stand positions",
+  );
+  assert(
+    DIMENSION_PATTERN.test("尺寸：主機 寬 123.2 x 深 13.8 x 高 7 cm；重低音 寬 24.9 x 深 24.9 x 高 25.1 cm"),
+    "dimension contract should accept soundbar component measurements",
+  );
+  assert(DIMENSION_PATTERN.test("尺寸：查不到"), "dimension contract should accept the agreed not-found text");
+  assert(!DIMENSION_PATTERN.test("尺寸：600 x 620 x 1965 mm"), "dimension contract should reject unlabeled measurement order");
+  assert(!DIMENSION_PATTERN.test("尺寸：包裝 寬 60 x 深 62 x 高 196.5 cm"), "dimension contract should reject packaging dimensions");
+  assert(
+    WEIGHT_PATTERN.test("重量：主機 7.7 kg；重低音 11.7 kg；後環繞 3.4 kg"),
+    "weight contract should accept soundbar component weights",
+  );
+  assert(WEIGHT_PATTERN.test("重量：查不到"), "weight contract should accept the agreed not-found text");
+  assert(WEIGHT_PATTERN.test("重量：約 15.7 kg"), "weight contract should preserve an explicit approximate qualifier");
+  assert(!WEIGHT_PATTERN.test("重量：毛重 20 kg"), "weight contract should reject gross weight");
+  assert(NEW_DIMENSION_CATEGORIES.has("bidet"), "dimension contract should cover bidets");
+  assert(MEASUREMENT_PRIORITY_CATEGORIES.has("garmentcare"), "measurement display contract should surface garment-care dimensions");
+  assert(!MEASUREMENT_PRIORITY_CATEGORIES.has("monitor"), "measurement display contract should not reorder unrelated monitor specs");
+  assert(WEIGHT_CATEGORIES.has("oven"), "weight contract should cover multifunction ovens");
+
   const markerSource = [
     "before",
     "<!-- maintenance:start -->",

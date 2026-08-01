@@ -18,7 +18,7 @@ const INDEXNOW_KEY_FILE = `${INDEXNOW_KEY}.txt`;
 const PUBLIC_EVIDENCE_RESOURCES = Object.freeze([
   Object.freeze({ file: "release_date_research.json", label: "上市／發售日期查核證據" }),
   Object.freeze({ file: "historical_price_research.json", label: "歷史最低價查核證據" }),
-  Object.freeze({ file: "dimension_research.json", label: "大型家電尺寸查核證據" }),
+  Object.freeze({ file: "dimension_research.json", label: "家電尺寸／重量查核證據" }),
   Object.freeze({ file: "product_issue_research.json", label: "商品負評／災情研究" }),
   Object.freeze({ file: "product_issue_report_evidence.json", label: "集中負評逐位反映者證據" }),
   Object.freeze({ file: "product_issue_review_manifest.json", label: "商品負評人工覆核清單" }),

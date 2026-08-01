@@ -56,7 +56,7 @@
 
 - [上市／發售日期查核證據](https://appliance.riverye.com/release_date_research.json): release_date_research.json
 - [歷史最低價查核證據](https://appliance.riverye.com/historical_price_research.json): historical_price_research.json
-- [大型家電尺寸查核證據](https://appliance.riverye.com/dimension_research.json): dimension_research.json
+- [家電尺寸／重量查核證據](https://appliance.riverye.com/dimension_research.json): dimension_research.json
 - [商品負評／災情研究](https://appliance.riverye.com/product_issue_research.json): product_issue_research.json
 - [集中負評逐位反映者證據](https://appliance.riverye.com/product_issue_report_evidence.json): product_issue_report_evidence.json
 - [商品負評人工覆核清單](https://appliance.riverye.com/product_issue_review_manifest.json): product_issue_review_manifest.json

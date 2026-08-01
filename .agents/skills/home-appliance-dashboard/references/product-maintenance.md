@@ -36,6 +36,13 @@ https://ecapi-cdn.pchome.com.tw/ecshop/prodapi/v2/prod?id=<PID>&fields=Id,Name,N
 - Keep the approved exact-model roster, brand/channel counts, one dimension record per product, and the full garment-care spec-prefix contract synchronized with `tools/dashboard-contract.js`.
 - Overseas LG, Samsung, and Panasonic variants remain comparison references only; they must retain original currency plus TWD conversion and explicit international shipping, import tax, plug/voltage, and Taiwan warranty warnings.
 
+## Dimension And Weight Evidence
+
+- Keep `dimension_research.json` aligned with the ten dimension categories: TV, soundbar, washer, dryer, washer-dryer, garment care, refrigerator, multifunction oven/microwave, dishwasher, and bidet. The same file also carries the newly researched weight evidence for TV, soundbar, and multifunction oven/microwave.
+- Prefer exact-model official product/specification pages and official PDFs, then trusted retailer pages. Record product/body dimensions and net weight only; never substitute packaging dimensions, carton dimensions, or gross weight.
+- Preserve component-level values where the product has separate pieces: TV with/without stand, and soundbar main unit/subwoofer/rear speakers. Do not collapse them into an invented total.
+- Never infer width/depth/height order from three unlabeled numbers. For the newly researched TV, soundbar, oven, dishwasher, and bidet fields, use the literal `尺寸：查不到` or `重量：查不到` after credible sources are exhausted, and retain the checked page plus the specific reason in the evidence row.
+
 ## Release Dates And Historical Lows
 
 - Release dates must come from official launch/release pages first, then trusted media with explicit launch/release wording. Do not use generative search summaries, support-page firmware/manual dates, article publish dates, listing dates, or model years as release dates.

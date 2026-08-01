@@ -695,7 +695,7 @@ async function resetFilters(page) {
   await page.waitForFunction((expected) => {
     return document.querySelector("#visibleCount")?.textContent?.trim() === expected;
   }, EXPECTED_PRODUCT_COUNT_TEXT);
-  await waitForProductCards(page, 12);
+  await page.waitForFunction(() => document.querySelectorAll(".product-card").length >= 12);
 }
 
 async function selectComboboxOption(page, inputSelector, optionSelector, query) {

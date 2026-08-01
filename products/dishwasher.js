@@ -24,6 +24,7 @@
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBR1P-A900I386D",
     "specs": [
       "洗碗機：【Panasonic 國際牌】全省安裝 6人份桌上型洗碗機(NP-K1YWHR2TW)",
+      "尺寸：寬 55 x 深 34.4 x 高 59.8 cm",
       "容量/安裝型式依商品頁標示",
       "PChome 24h 可信通路低價",
       "排除福利品與配件"
@@ -107,6 +108,7 @@
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBR0P-A900IX8N8",
     "specs": [
       "洗碗機：【TECO東元】3D全方位洗烘一體全自動洗碗機(XYFYW-5001CBW)",
+      "尺寸：寬 42.8 x 深 42.5 x 高 45.8 cm",
       "容量/安裝型式依商品頁標示",
       "PChome 24h 可信通路低價",
       "排除福利品與配件"
@@ -190,6 +192,7 @@
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBR0P-A900I01YW",
     "specs": [
       "洗碗機：日本東芝TOSHIBA 4人份智慧WiFi洗烘存洗碗機 DWS-34BTW",
+      "尺寸：寬 42 x 深 44 x 高 47 cm",
       "容量/安裝型式依商品頁標示",
       "PChome 24h 可信通路低價",
       "排除福利品與配件"
@@ -273,6 +276,7 @@
     "buyUrl": "https://24h.pchome.com.tw/prod/DCBE34-A900HUR37",
     "specs": [
       "洗碗機：TOSHIBA東芝 DW-05T1-TW 6人份免安裝全自動洗碗機",
+      "尺寸：寬 55 x 深 34.5 x 高 50 cm",
       "容量/安裝型式依商品頁標示",
       "PChome 24h 可信通路低價",
       "排除福利品與配件"
@@ -356,6 +360,7 @@
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBR0N-A900IH50L",
     "specs": [
       "洗碗機：【BOSCH 博世】12人份 獨立式洗碗機(SMS2ITI06X)",
+      "尺寸：寬 60 x 深 60 x 高 84.5 cm",
       "容量/安裝型式依商品頁標示",
       "PChome 24h 可信通路低價",
       "排除福利品與配件"
@@ -439,6 +444,7 @@
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBR35-A900JVAOT",
     "specs": [
       "洗碗機：Electrolux 伊萊克斯 60cm 13人份 300系列自動開門獨立式洗碗機(EFF3360VWB)",
+      "尺寸：寬 59.8 x 深 59.8 x 高 85 cm",
       "容量/安裝型式依商品頁標示",
       "PChome 24h 可信通路低價",
       "排除福利品與配件"
@@ -522,6 +528,7 @@
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBR0O-A900IFXRC",
     "specs": [
       "洗碗機：LG 樂金 QuadWash™ Steam 四方洗蒸氣超潔凈洗碗機 雲朵白 DFB533FW",
+      "尺寸：寬 60 x 深 60 x 高 85 cm",
       "加碼送10%P幣",
       "容量/安裝型式依商品頁標示",
       "PChome 24h 可信通路低價",
@@ -606,6 +613,7 @@
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBR24-A900JQ4N2",
     "specs": [
       "洗碗機：Whirlpool 惠而浦 14人份自動開門獨立式洗碗機 WDFS2R4PWETW",
+      "尺寸：寬 60 x 深 60 x 高 80.5 cm",
       "容量/安裝型式依商品頁標示",
       "PChome 24h 可信通路低價",
       "排除福利品與配件"
@@ -689,6 +697,7 @@
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBR25-A900IUNDB",
     "specs": [
       "洗碗機：Haier 海爾 16人份 自動開門 AI變頻獨嵌兩用洗碗機H500(HDWE16-48SC5SA 不含安裝)",
+      "尺寸：寬 59.8 x 深 60 x 高 85 cm",
       "容量：16 人份；獨立／嵌入兩用",
       "電壓：230V；商品不含安裝",
       "PChome 24h 可信通路低價",
@@ -773,6 +782,7 @@
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBR0Y-A900FMAWF",
     "specs": [
       "洗碗機：櫻花 半嵌入式洗碗機(標準安裝)(不含門板及踢腳板)【E-7682】",
+      "尺寸：寬 59.8 x 深 57 x 高 81.5 cm",
       "不含門板及踢腳板半嵌入式E7682洗碗機(標準安裝)【E-7682】",
       "容量/安裝型式依商品頁標示",
       "PChome 24h 可信通路低價",
@@ -857,6 +867,7 @@
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBR2H-A900K4KMO",
     "specs": [
       "洗碗機：【BOSCH 博世】15人份 自動開門嵌櫃式洗碗機(SJU4EKW00W)",
+      "尺寸：寬 59.8 x 深 57.3 x 高 77.5 cm",
       "容量/安裝型式依商品頁標示",
       "PChome 24h 可信通路低價",
       "排除福利品與配件"
@@ -940,6 +951,7 @@
     "buyUrl": "https://24h.pchome.com.tw/prod/DPAL7P-A900G5M47",
     "specs": [
       "洗碗機：Fisher＆Paykel 菲雪品克 DD60SHI9 單層設計師款抽屜式洗碗機 (7人份)",
+      "尺寸：寬 59.9 x 深 55.3 x 高 41 cm",
       "~~原廠直營，送標準安裝，送好禮~~【Fisher＆Paykel 菲雪品克】7人份《抽屜式-單層》設計師款洗碗機DD60SHI9",
       "容量/安裝型式依商品頁標示",
       "PChome 24h 可信通路低價",
@@ -1024,6 +1036,7 @@
     "buyUrl": "https://www.lg.com/tw/dishwashers/all-dishwashers/dfb335hs/",
     "specs": [
       "洗碗機：LG樂金 DFB335HS【QuadWash™ Steam四方洗蒸氣洗碗機】消光銀/自動開門烘乾/觸控面板",
+      "尺寸：寬 60 x 深 60 x 高 85 cm",
       "LG 樂金 DFB335HS【四方洗蒸氣洗碗機】消光銀/上觸控面板/自動開門烘乾 (含基本安裝)",
       "容量/安裝型式依商品頁標示",
       "PChome 24h 可信通路低價",
@@ -1108,6 +1121,7 @@
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBR16-A900HZZEG",
     "specs": [
       "洗碗機：【ASKO 雅士高】14人份洗碗機DBI544ID.W.TW(白色/110V)",
+      "尺寸：寬 59.6 x 深 55.4 x 高 81.9 cm",
       "容量/安裝型式依商品頁標示",
       "PChome 24h 可信通路低價",
       "排除福利品與配件"
@@ -1191,6 +1205,7 @@
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBR1W-A900K4MYS",
     "specs": [
       "洗碗機：【德國Miele】Miele G5314 C SCI 不鏽鋼洗碗機-半嵌式(自動開門/220V電壓)",
+      "尺寸：寬 59.8 x 深 60 x 高 84.5 cm",
       "自動開門冷凝烘乾【德國Miele】Miele G5314 C SCI 不鏽鋼洗碗機-半嵌式(自動開門冷凝烘乾/220V電壓)",
       "容量/安裝型式依商品頁標示",
       "PChome 24h 可信通路低價",
@@ -1276,6 +1291,7 @@
     "buyLabel": "PChome",
     "specs": [
       "桌上型",
+      "尺寸：寬 44.5 x 深 47.5 x 高 47.6 cm",
       "小家庭",
       "烘乾",
       "免大型裝修"
@@ -1354,6 +1370,7 @@
     "buyLabel": "PChome",
     "specs": [
       "6 人份",
+      "尺寸：寬 54.8 x 深 36 x 高 49.6 cm",
       "免安裝",
       "110V",
       "桌上型"
@@ -1432,6 +1449,7 @@
     "buyLabel": "PChome",
     "specs": [
       "桌上型",
+      "尺寸：寬 55 x 深 36 x 高 50 cm",
       "全自動",
       "Acerpure",
       "小家庭"
@@ -1510,6 +1528,7 @@
     "buyLabel": "PChome",
     "specs": [
       "6-8 人份",
+      "尺寸：寬 55 x 深 50 x 高 43.8 cm",
       "桌上型",
       "智慧洗程",
       "可獨立/嵌入"
@@ -1588,6 +1607,7 @@
     "buyLabel": "PChome",
     "specs": [
       "桌上型",
+      "尺寸：寬 55 x 深 35 x 高 59.8 cm",
       "小米",
       "小家庭",
       "省空間"
@@ -1666,6 +1686,7 @@
     "buyLabel": "Costco 好市多",
     "specs": [
       "45 公分獨立式",
+      "尺寸：寬 45 x 深 60 x 高 84.5 cm",
       "窄版洗碗機",
       "需進排水與插座",
       "Costco 評價 4.7 / 154 則"
@@ -1744,6 +1765,7 @@
     "buyLabel": "Costco 好市多",
     "specs": [
       "60cm 獨立式",
+      "尺寸：寬 60 x 深 60 x 高 84.5 cm",
       "110V / 60Hz",
       "1100W",
       "2 年保固",
@@ -1825,6 +1847,7 @@
     "buyLabel": "Costco 好市多",
     "specs": [
       "60cm 獨立式",
+      "尺寸：寬 59.8 x 深 59.8 x 高 85 cm",
       "15 人份",
       "110V / 60Hz",
       "自動開門 AirDry",
@@ -1909,7 +1932,7 @@
       "60cm 全嵌式 / 15 人份 / 最多 109 件餐具",
       "72°C 高溫熱流洗淨 / 720° 龍捲渦流 / 9 大洗程",
       "獨立熱循環烘乾 / 長效抑菌淨存 7 天",
-      "尺寸：寬 59.8 x 深 57.5 x 高 77.5-83.5 cm",
+      "尺寸：寬 59.8 x 深 55 x 高 77.5-83.5 cm",
       "重量：32kg",
       "220V / 60Hz / 1870W；水壓 0.05-1MPa；門板與安裝另計"
     ],

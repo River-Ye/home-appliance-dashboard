@@ -345,6 +345,13 @@ async function assertGarmentCareJourney(page, name) {
   await topPick.click();
   const targetedCard = page.locator('.product-card.is-targeted[data-product-id="garmentcare-lg-r723wg"]');
   await targetedCard.waitFor({ state: "visible" });
+  const keySpecs = await targetedCard.locator(".spec-list--key").innerText();
+  if (!keySpecs.includes("尺寸：寬 60 x 深 62 x 高 196.5 cm")) {
+    throw new Error(`${name}: garmentcare body dimensions should be visible in key specs`);
+  }
+  if (!keySpecs.includes("重量：87 kg")) {
+    throw new Error(`${name}: garmentcare body weight should remain visible in key specs`);
+  }
   await targetedCard.locator(".compare-button").click();
   await page.waitForFunction(() => document.querySelector("#compareCount")?.textContent?.trim() === "1");
   await assertIssueResearchCompareRow(page, `${name} garmentcare`);

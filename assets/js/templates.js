@@ -6,6 +6,21 @@
     state,
     utils,
   } = dashboard;
+  const measurementPriorityCategories = new Set([
+    "tv",
+    "soundbar",
+    "garmentcare",
+    "oven",
+    "dishwasher",
+    "bidet",
+  ]);
+
+  function prioritizedSpecs(product) {
+    if (!measurementPriorityCategories.has(product.category)) return product.specs;
+    const measurements = product.specs.filter((spec) => /^(尺寸|重量)：/.test(spec));
+    const others = product.specs.filter((spec) => !/^(尺寸|重量)：/.test(spec));
+    return [...measurements, ...others];
+  }
 
   function releaseDateText(product) {
     return product.releaseDate || "找不到";
@@ -206,8 +221,9 @@
     const sourceDate = /costco|好市多/i.test(`${product.buyLabel} ${product.buyUrl}`)
       ? meta.costcoDate
       : meta.dataDate;
-    const keySpecs = product.specs.slice(0, 3);
-    const detailSpecs = product.specs.slice(3);
+    const specs = prioritizedSpecs(product);
+    const keySpecs = specs.slice(0, 3);
+    const detailSpecs = specs.slice(3);
 
     return `
       <article class="product-card" data-product-id="${utils.escapeHtml(product.id)}">

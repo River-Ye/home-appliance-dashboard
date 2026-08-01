@@ -16,6 +16,7 @@ const {
   categoryUrl,
 } = require("./geo-config");
 const { readDashboardProducts } = require("./read-dashboard-products");
+const { MEASUREMENT_PRIORITY_CATEGORIES } = require("./dashboard-contract");
 
 const root = path.resolve(__dirname, "..");
 const categoriesRoot = path.join(root, "categories");
@@ -243,7 +244,15 @@ function productMarkup(product, index) {
   const buyUrl = safeHttpUrl(product.buyUrl);
   const pros = product.pros.map((item) => `<li>${escapeHtml(item)}</li>`).join("");
   const cons = product.cons.map((item) => `<li>${escapeHtml(item)}</li>`).join("");
-  const specs = product.specs.slice(0, 4).map((item) => `<li>${escapeHtml(item)}</li>`).join("");
+  const measurementSpecs = product.specs.filter((item) => /^(尺寸|重量)：/.test(item));
+  const otherSpecs = product.specs.filter((item) => !/^(尺寸|重量)：/.test(item));
+  const prioritizedSpecs = MEASUREMENT_PRIORITY_CATEGORIES.has(product.category)
+    ? [...measurementSpecs, ...otherSpecs]
+    : product.specs;
+  const specs = prioritizedSpecs
+    .slice(0, 4)
+    .map((item) => `<li>${escapeHtml(item)}</li>`)
+    .join("");
   return `
         <article id="${escapeHtml(productAnchor(product.id))}" class="editorial-product">
           <div class="editorial-product-rank" aria-label="第 ${index + 1} 名">${String(index + 1).padStart(2, "0")}</div>

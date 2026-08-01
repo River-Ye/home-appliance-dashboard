@@ -32,17 +32,38 @@ const EXPECTED_CATEGORY_PRODUCT_COUNTS = new Map([
 const DATE_PATTERN = /^(找不到|\d{4}(?:[-/.]\d{1,2}(?:[-/.]\d{1,2})?)?)$/;
 const WASHER_DRYER_CAPACITY_PATTERN = /^洗\/乾容量：\d+(?:\.\d+)?kg \/ \d+(?:\.\d+)?kg$/;
 const DIMENSION_CATEGORY_COUNTS = new Map([
+  ["tv", 33],
+  ["soundbar", 27],
   ["washer", 23],
   ["dryer", 21],
   ["washerdryer", 27],
-  ["refrigerator", 24],
   ["garmentcare", 20],
+  ["refrigerator", 24],
+  ["oven", 24],
+  ["dishwasher", 25],
+  ["bidet", 20],
 ]);
 const DIMENSION_CATEGORIES = new Set(DIMENSION_CATEGORY_COUNTS.keys());
 const EXPECTED_DIMENSION_PRODUCT_COUNT = [...DIMENSION_CATEGORY_COUNTS.values()]
   .reduce((sum, count) => sum + count, 0);
-const DIMENSION_PATTERN = /^尺寸：(未標示|寬 \d+(?:\.\d+)? x 深 \d+(?:\.\d+)? x 高 \d+(?:\.\d+)? cm)$/;
+const NEW_DIMENSION_CATEGORIES = new Set(["tv", "soundbar", "oven", "dishwasher", "bidet"]);
+const MEASUREMENT_PRIORITY_CATEGORIES = new Set(["tv", "soundbar", "garmentcare", "oven", "dishwasher", "bidet"]);
+const MEASUREMENT_VALUE_PATTERN = "\\d+(?:\\.\\d+)?(?:[-–／/]\\d+(?:\\.\\d+)?)?";
+const DIMENSION_SEGMENT_PATTERN = `(?:[^；]+ )?寬 ${MEASUREMENT_VALUE_PATTERN} x 深 ${MEASUREMENT_VALUE_PATTERN} x 高 ${MEASUREMENT_VALUE_PATTERN} cm`;
+const FORBIDDEN_MEASUREMENT_LABEL_PATTERN = "(?!.*(?:包裝|外箱|紙箱|毛重|gross|carton))";
+const DIMENSION_PATTERN = new RegExp(`^尺寸：${FORBIDDEN_MEASUREMENT_LABEL_PATTERN}(未標示|查不到|${DIMENSION_SEGMENT_PATTERN}(?:；${DIMENSION_SEGMENT_PATTERN})*)$`, "i");
 const DIMENSION_CONFIDENCE_VALUES = new Set(["high", "medium", "low", "not_found"]);
+const WEIGHT_CATEGORY_COUNTS = new Map([
+  ["tv", 33],
+  ["soundbar", 27],
+  ["oven", 24],
+]);
+const WEIGHT_CATEGORIES = new Set(WEIGHT_CATEGORY_COUNTS.keys());
+const EXPECTED_WEIGHT_PRODUCT_COUNT = [...WEIGHT_CATEGORY_COUNTS.values()]
+  .reduce((sum, count) => sum + count, 0);
+const WEIGHT_SEGMENT_PATTERN = `(?:[^；]+ )?(?:約 )?${MEASUREMENT_VALUE_PATTERN} kg`;
+const WEIGHT_PATTERN = new RegExp(`^重量：${FORBIDDEN_MEASUREMENT_LABEL_PATTERN}(未標示|查不到|${WEIGHT_SEGMENT_PATTERN}(?:；${WEIGHT_SEGMENT_PATTERN})*)$`, "i");
+const WEIGHT_CONFIDENCE_VALUES = new Set(["high", "medium", "low", "not_found"]);
 const HISTORICAL_LOW_STATUSES = new Set(["found", "not_found"]);
 const HISTORICAL_LOW_SOURCE_KINDS = new Set([
   "price_history",
@@ -172,8 +193,15 @@ module.exports = {
   DIMENSION_CATEGORY_COUNTS,
   DIMENSION_CATEGORIES,
   EXPECTED_DIMENSION_PRODUCT_COUNT,
+  NEW_DIMENSION_CATEGORIES,
+  MEASUREMENT_PRIORITY_CATEGORIES,
   DIMENSION_PATTERN,
   DIMENSION_CONFIDENCE_VALUES,
+  WEIGHT_CATEGORY_COUNTS,
+  WEIGHT_CATEGORIES,
+  EXPECTED_WEIGHT_PRODUCT_COUNT,
+  WEIGHT_PATTERN,
+  WEIGHT_CONFIDENCE_VALUES,
   HISTORICAL_LOW_STATUSES,
   HISTORICAL_LOW_SOURCE_KINDS,
   HISTORICAL_LOW_CONFIDENCE_VALUES,
