@@ -1687,9 +1687,9 @@
     "name": "16公斤 蒸本事瓦斯型乾衣機",
     "price": {
       "currency": "TWD",
-      "amount": 33999,
-      "converted": 33999,
-      "confidence": "Costco 好市多 2026-07-20 頁面公開價"
+      "amount": 30999,
+      "converted": 30999,
+      "confidence": "Costco 好市多 2026-08-01 exact-model 公開結構化價格"
     },
     "image": "https://www.costco.com.tw/medias/sys_master/images/h6d/h02/208447528140830.jpg",
     "buyUrl": "https://www.costco.com.tw/Televisions-Appliances/Large-Appliances/Washers-Dryers/Samsung-16-kg-Smart-Dial-Gas-Dryer-DVG16CG8600WTW/p/144425",
