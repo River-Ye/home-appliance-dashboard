@@ -25,6 +25,8 @@
     "buyUrl": "https://24h.pchome.com.tw/prod/DPADYE-A900JC4MY",
     "buyLabel": "PChome",
     "specs": [
+      "尺寸：不含底座 寬 144.1 x 深 4.51 x 高 82.6 cm；含底座 寬 144.1 x 深 23 x 高 88 cm",
+      "重量：不含底座 16.6 kg；含底座 18.5 kg",
       "65 吋 OLED evo",
       "4K 120Hz",
       "webOS",
@@ -104,6 +106,8 @@
     "buyUrl": "https://24h.pchome.com.tw/prod/DPADEW-A900IUE7F",
     "buyLabel": "PChome",
     "specs": [
+      "尺寸：不含底座 寬 144.43 x 深 3.99 x 高 83.17 cm；含底座 寬 144.43 x 深 26.52 x 高 89.67 cm",
+      "重量：不含底座 19.1 kg；含底座 20.4 kg",
       "65 吋 OLED",
       "4K 144Hz",
       "Tizen",
@@ -183,6 +187,8 @@
     "buyUrl": "https://24h.pchome.com.tw/prod/DPADFN-A900K7VQ8",
     "buyLabel": "PChome",
     "specs": [
+      "尺寸：不含底座 約 寬 144.5 x 深 5.7 x 高 83.2 cm；含底座 約 寬 144.5 x 深 34.5 x 高 85.6 cm",
+      "重量：不含底座 約 27.1 kg；含底座 約 28.3 kg",
       "65 吋 Mini LED",
       "XR 處理器",
       "4K 120Hz",
@@ -262,11 +268,12 @@
     "buyUrl": "https://www.lg.com/tw/tv-soundbars/oled-evo/oled65c6pta/",
     "buyLabel": "LG 官方商城",
     "specs": [
+      "尺寸：不含底座 寬 144.1 x 深 4.51 x 高 82.6 cm；含底座 寬 144.1 x 深 23 x 高 88 cm",
+      "重量：不含底座 16.6 kg；含底座 18.4 kg",
       "65 吋 OLED evo",
       "4K 120Hz / VRR 最高 165Hz",
       "第三代 α11 AI 4K 處理器",
       "webOS 26",
-      "重量：16.6kg（不含底座）",
       "手機投影：Apple AirPlay / Google Cast"
     ],
     "description": "新一代 C 系列把 α11 處理器與最高 165Hz VRR 帶入主流 OLED，兼顧電影黑位、遊戲與智慧平台。",
@@ -343,12 +350,13 @@
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/%E5%90%AB%E6%A8%99%E6%BA%96%E5%AE%89%E8%A3%9D-SONY%E7%B4%A2%E5%B0%BC65%E5%90%8B%E5%90%8BRGB-4K%E9%80%A3%E7%B6%B2%E6%99%BA%E6%85%A7%E9%A1%AF%E7%A4%BA%E5%99%A8Y-65XR90M2-12159450.html",
     "buyLabel": "Yahoo購物中心",
     "specs": [
+      "尺寸：含底座 約 寬 144.5 x 深 34.1 x 高 90.6 cm",
+      "重量：不含底座 約 26.6 kg；含底座 約 30.6 kg",
       "65 吋 4K RGB LED / 區域控光",
       "原生 120Hz",
       "RGB TRILUMINOS Max / RGB Backlight Master Drive Pro",
       "4K120 / VRR / ALLM / eARC",
       "Google TV",
-      "重量：26.6kg（不含底座）",
       "手機投影：Apple AirPlay 2 / Google Cast"
     ],
     "description": "Sony 2026 旗艦 RGB 背光機種，以獨立控制三原色提升亮度、色彩體積與高亮場景純度。",
@@ -425,11 +433,12 @@
     "buyUrl": "https://24h.pchome.com.tw/prod/DPADO2-A900K6OWZ",
     "buyLabel": "PChome",
     "specs": [
+      "尺寸：不含底座 寬 150.95 x 深 2.64 x 高 89.49 cm；含底座 寬 150.95 x 深 25.68 x 高 93.37 cm",
+      "重量：不含底座 20.9 kg；含底座 21.3 kg",
       "65 吋 4K OLED / 最高 165Hz VRR",
       "抗反光真星黑面板",
       "NQ4 AI 第三代處理器 / OLED HDR Pro",
       "4.2.2 聲道 70W / Dolby Atmos",
-      "重量：20.9kg（不含底座）",
       "手機投影：Smart View / Apple AirPlay / Google Cast"
     ],
     "description": "Samsung 2026 旗艦 OLED，以 165Hz 遊戲、抗反光面板、AI 影像處理與 70W 音響拉開和 S90F 的定位。",
@@ -506,6 +515,8 @@
     "buyUrl": "https://24h.pchome.com.tw/prod/DPAD98-A900JV2CC",
     "buyLabel": "PChome",
     "specs": [
+      "尺寸：不含底座 寬 144.9 x 深 7.7 x 高 83.8 cm；含底座 寬 144.9 x 深 29.5 x 高 89.9 cm",
+      "重量：不含底座 19.7 kg；含底座 20.8 kg",
       "65 吋 Mini LED",
       "4K 144Hz",
       "Google TV",
@@ -585,6 +596,8 @@
     "buyUrl": "https://24h.pchome.com.tw/prod/DPAD0O-1900IEK5W",
     "buyLabel": "PChome",
     "specs": [
+      "尺寸：不含底座 寬 144.53 x 深 9.08 x 高 83.74 cm；含底座 寬 144.53 x 深 30.09 x 高 89.47 cm",
+      "重量：不含底座 15.3 kg；含底座 15.6 kg",
       "65 吋 QLED",
       "4K 120Hz DLG",
       "Google TV",
@@ -664,6 +677,8 @@
     "buyUrl": "https://24h.pchome.com.tw/prod/DPAD06-A900HLBJO",
     "buyLabel": "PChome",
     "specs": [
+      "尺寸：不含底座 約 寬 144.2 x 深 3.7 x 高 82.9 cm；含底座 約 寬 144.2 x 深 24.8 x 高 85.5 cm",
+      "重量：不含底座 約 22.3 kg；含底座 約 23.2 kg",
       "65 吋 OLED",
       "4K HDR Google TV",
       "XR 影像處理",
@@ -743,6 +758,8 @@
     "buyUrl": "https://24h.pchome.com.tw/prod/DPADYE-A900JFBEC",
     "buyLabel": "PChome",
     "specs": [
+      "尺寸：不含底座 寬 144.1 x 深 2.43 x 高 82.6 cm；含底座 寬 144.1 x 深 26.3 x 高 86.5–91 cm",
+      "重量：不含底座 22 kg；含底座 26.6 kg",
       "65 吋 OLED evo",
       "4K 120Hz",
       "零間隙藝廊設計",
@@ -822,6 +839,8 @@
     "buyUrl": "https://24h.pchome.com.tw/prod/DPAD09-A900J9FAZ",
     "buyLabel": "PChome",
     "specs": [
+      "尺寸：不含底座 寬 144.4 x 深 5.8 x 高 89.2 cm；含底座 寬 144.4 x 深 34.8 x 高 91.5 cm",
+      "重量：不含底座 25.5 kg；含底座 30.5 kg",
       "65 吋 OLED",
       "智慧聯網",
       "4K",
@@ -901,6 +920,8 @@
     "buyUrl": "https://24h.pchome.com.tw/prod/DPADIK-A900HJGF2",
     "buyLabel": "PChome",
     "specs": [
+      "尺寸：不含底座 寬 144.4 x 深 6.8 x 高 83 cm；含底座 寬 144.4 x 深 28 x 高 89.6 cm",
+      "重量：不含底座 23 kg；含底座 28 kg",
       "65 吋 OLED",
       "4K 144Hz",
       "VRR",
@@ -980,6 +1001,8 @@
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBM10-A900IXJZG",
     "buyLabel": "PChome",
     "specs": [
+      "尺寸：不含底座 寬 144.35 x 深 1.1 x 高 82.94 cm；含底座 寬 144.35 x 深 26.79 x 高 89.44 cm",
+      "重量：不含底座 18.9 kg；含底座 29 kg",
       "65 吋 OLED",
       "Vision AI",
       "4K",
@@ -1059,6 +1082,8 @@
     "buyUrl": "https://24h.pchome.com.tw/prod/DPADO2-A900K2L4V",
     "buyLabel": "PChome",
     "specs": [
+      "尺寸：不含底座 寬 143.4 x 深 5 x 高 82.4 cm；含底座 寬 143.4 x 深 36.8 x 高 86 cm",
+      "重量：不含底座 21.1 kg；含底座 23.1 kg",
       "65 吋 Mini LED",
       "4K",
       "Google TV",
@@ -1138,6 +1163,8 @@
     "buyUrl": "https://24h.pchome.com.tw/prod/DPADO2-A900K39X4",
     "buyLabel": "PChome",
     "specs": [
+      "尺寸：不含底座 寬 144.6 x 深 3.99 x 高 83.3 cm；含底座 寬 144.6 x 深 29.5 x 高 88.3 cm",
+      "重量：不含底座 17.7 kg；含底座 18.1 kg",
       "65 吋 QD-Mini LED",
       "4K",
       "Google TV",
@@ -1217,6 +1244,8 @@
     "buyUrl": "https://24h.pchome.com.tw/prod/DPADBU-A900JMIS1",
     "buyLabel": "PChome",
     "specs": [
+      "尺寸：不含底座 寬 144.4 x 深 7.2 x 高 83.1 cm；含底座 寬 144.4 x 深 33 x 高 90.2 cm",
+      "重量：不含底座 約 18 kg；含底座 約 18.3 kg",
       "65 吋 Mini LED",
       "4K 144Hz",
       "Google TV",
@@ -1296,6 +1325,8 @@
     "buyUrl": "https://24h.pchome.com.tw/prod/DPADEW-A900IZ244",
     "buyLabel": "PChome",
     "specs": [
+      "尺寸：不含底座 寬 145.53 x 深 3.78 x 高 83.03 cm；含底座 寬 145.53 x 深 25.68 x 高 86.74 cm",
+      "重量：不含底座 25.5 kg；含底座 25.9 kg",
       "65 吋 8K Neo QLED",
       "Mini LED",
       "165Hz",
@@ -1375,6 +1406,8 @@
     "buyUrl": "https://24h.pchome.com.tw/prod/DPADY8-A900JI9B7",
     "buyLabel": "PChome",
     "specs": [
+      "尺寸：不含底座 寬 144.53 x 深 6.62 x 高 84.3 cm；含底座 寬 144.53 x 深 29.92 x 高 89.84 cm",
+      "重量：不含底座 19.45 kg；含底座 19.75 kg",
       "65 吋 Mini LED",
       "4K 144Hz",
       "Google TV",
@@ -1454,6 +1487,8 @@
     "buyUrl": "https://24h.pchome.com.tw/prod/DPADB2-A900JGKQB",
     "buyLabel": "PChome",
     "specs": [
+      "尺寸：查不到",
+      "重量：查不到",
       "65 吋",
       "4K",
       "QLED",
@@ -1533,6 +1568,8 @@
     "buyUrl": "https://24h.pchome.com.tw/prod/DPADBH-A900HWJZ7",
     "buyLabel": "PChome",
     "specs": [
+      "尺寸：不含底座 寬 145.3 x 深 7.6 x 高 83.8 cm；含底座 寬 145.3 x 深 31.8 x 高 89.3 cm",
+      "重量：不含底座 15.7 kg；含底座 15.9 kg",
       "65 吋",
       "4K",
       "QLED",
@@ -1612,6 +1649,8 @@
     "buyUrl": "https://24h.pchome.com.tw/prod/DPADTO-A900JNMOP",
     "buyLabel": "PChome",
     "specs": [
+      "尺寸：不含底座 寬 144.53 x 深 6.73 x 高 83.15 cm；含底座 寬 144.53 x 深 27.7 x 高 89 cm",
+      "重量：查不到",
       "65 吋",
       "4K",
       "QLED",
@@ -1691,6 +1730,8 @@
     "buyUrl": "https://24h.pchome.com.tw/prod/DPAD0W-A900I9LNS",
     "buyLabel": "PChome",
     "specs": [
+      "尺寸：不含底座 寬 144.53 x 深 9.17 x 高 83.19 cm；含底座 寬 144.53 x 深 30.09 x 高 89.47 cm",
+      "重量：查不到",
       "65 吋",
       "4K",
       "QLED",
@@ -1770,6 +1811,8 @@
     "buyUrl": "https://24h.pchome.com.tw/prod/DPADW5-A900K2DOT",
     "buyLabel": "PChome",
     "specs": [
+      "尺寸：不含底座 寬 144.58 x 深 7.5 x 高 83.6 cm；含底座 寬 144.58 x 深 26.57 x 高 88.44 cm",
+      "重量：含底座 15.3 kg",
       "65 吋",
       "QLED",
       "Google TV",
@@ -1849,6 +1892,8 @@
     "buyUrl": "https://www.costco.com.tw/Televisions-Appliances/TV-Home-Entertainment/Televisions-TV-Accessories/70-79-TVs/Toshiba-Regza-75-inch-Full-Array-4K-QLED-144Hz-Smart-Monitor-75Z670NT/p/152535",
     "buyLabel": "Costco 好市多",
     "specs": [
+      "尺寸：不含底座 寬 167.3 x 深 7.7 x 高 96.1 cm；含底座 寬 167.3 x 深 34.8 x 高 101.3 cm",
+      "重量：不含底座 28 kg；含底座 28.7 kg",
       "75 吋 4K QLED",
       "全陣列背光",
       "144Hz",
@@ -1928,10 +1973,11 @@
     "buyUrl": "https://www.costco.com.tw/Televisions-Appliances/TV-Home-Entertainment/Televisions-TV-Accessories/60-69-TVs/TCL-65-inch-premium-QD-Mini-LED-Google-TV-Smart-Monitor-without-STB-65C8K/p/154789",
     "buyLabel": "Costco 好市多",
     "specs": [
+      "尺寸：不含底座 寬 143.4 x 深 5 x 高 82.4 cm；含底座 寬 143.4 x 深 36.8 x 高 86 cm",
+      "重量：不含底座 21.2 kg；含底座 23.1 kg",
       "65 吋 QD-Mini LED",
       "4K / Google TV",
       "Dolby Atmos",
-      "重量：30.6公斤",
       "手機投影：通路頁未標示",
       "Costco 評價 4.8 / 32 則"
     ],
@@ -2010,10 +2056,11 @@
     "buyUrl": "https://24h.pchome.com.tw/prod/DPAD98-A900JV2AT",
     "buyLabel": "PChome",
     "specs": [
+      "尺寸：不含底座 寬 167.3 x 深 7.9 x 高 96 cm；含底座 寬 167.3 x 深 37 x 高 104.3 cm",
+      "重量：不含底座 28.9 kg；含底座 29.3 kg",
       "75 吋 QLED",
       "4K 144Hz / VIDDA",
       "Dolby Vision / Dolby Atmos",
-      "重量：28.9公斤（不含底座）",
       "手機投影：通路頁未標示",
       "Costco 評價 5 / 10 則"
     ],
@@ -2092,12 +2139,12 @@
     "buyUrl": "https://24h.pchome.com.tw/prod/DPADO2-A900K3VO9",
     "buyLabel": "PChome",
     "specs": [
+      "尺寸：不含底座 寬 143.71 x 深 2.96 x 高 82.6 cm；含底座 寬 143.71 x 深 30.2 x 高 89 cm",
+      "重量：不含底座 22.4 kg；含底座 23.8 kg",
       "65 吋 4K Micro RGB / 最高 165Hz VRR",
       "Micro RGB Precision Color / 100% BT.2020 色域",
       "抗反光真星黑面板 / Micro RGB AI Engine Pro",
-      "4 組 HDMI / 手機投影：支援 AirPlay、Google Cast 與鏡像分享",
-      "重量：22.4kg（不含底座）",
-      "機身尺寸：143.71 x 82.6 x 2.96 cm（不含底座）"
+      "4 組 HDMI / 手機投影：支援 AirPlay、Google Cast 與鏡像分享"
     ],
     "description": "Samsung 2026 旗艦 Micro RGB，以獨立微型紅綠藍背光、廣色域與 165Hz 補上現有清單沒有的顯示技術。",
     "pros": [
@@ -2176,6 +2223,8 @@
     "buyUrl": "https://24h.pchome.com.tw/prod/DPADB2-A900J8K60",
     "buyLabel": "PChome",
     "specs": [
+      "尺寸：查不到",
+      "重量：查不到",
       "70 吋 4K QLED / 原生 60Hz",
       "Google TV / Dolby Atmos",
       "手機投影：內建 Chromecast；iOS 需第三方 App",
@@ -2259,6 +2308,8 @@
     "buyUrl": "https://24h.pchome.com.tw/prod/DPADK9-A900HY2CU",
     "buyLabel": "PChome",
     "specs": [
+      "尺寸：不含底座 寬 155.1 x 深 8.2 x 高 90.4 cm；含底座 寬 155.1 x 深 31.8 x 高 97.7 cm",
+      "重量：不含底座 19.4 kg；含底座 19.6 kg",
       "70 吋 4K HDR / 原生 60Hz",
       "webOS 22 / 3 組 HDMI / 2 組 USB",
       "手機投影：AirPlay 2 / HomeKit / ThinkQ",
@@ -2342,6 +2393,8 @@
     "buyUrl": "https://24h.pchome.com.tw/prod/DPADIK-A900JFCPA",
     "buyLabel": "PChome",
     "specs": [
+      "尺寸：不含底座 寬 156.7 x 深 9.4 x 高 87.4 cm；含底座 寬 156.7 x 深 32.4 x 高 94 cm",
+      "重量：查不到",
       "70 吋 4K QLED / 原生 60Hz",
       "Google TV / Dolby Vision / Dolby Atmos",
       "2GB 記憶體 / 32GB 儲存空間",
@@ -2425,6 +2478,8 @@
     "buyUrl": "https://24h.pchome.com.tw/prod/DPADIK-A900K0GIF",
     "buyLabel": "PChome",
     "specs": [
+      "尺寸：不含底座 寬 156.7 x 深 9.4 x 高 87.4 cm",
+      "重量：查不到",
       "70 吋 4K QLED / 原生 60Hz",
       "Google TV / Dolby Vision / Dolby Atmos",
       "2GB 記憶體 / 32GB 儲存空間",
@@ -2508,6 +2563,8 @@
     "buyUrl": "https://pxbox.es.pxmart.com.tw/product/667166",
     "buyLabel": "全聯全電商",
     "specs": [
+      "尺寸：查不到",
+      "重量：含底座 20.35 kg",
       "70 吋 4K / 原生 60Hz",
       "Google TV 5.0 / Dolby Vision / Dolby Atmos",
       "MEMC / ALLM / 30W 喇叭",
@@ -2592,11 +2649,12 @@
     "buyUrl": "https://www.lg.com/tw/tv-soundbars/oled-evo/oled65g6pta/",
     "buyLabel": "LG 官方商城",
     "specs": [
+      "尺寸：不含底座 寬 144.1 x 深 2.43 x 高 82.6 cm；含底座 寬 144.1 x 深 26.3 x 高 86.5–91 cm",
+      "重量：不含底座 22 kg；含底座 27.3 kg",
       "65 吋 OLED evo",
       "4K 120Hz / VRR 最高 165Hz",
       "α11 第三代 Dual AI 4K 處理器",
       "60W / 4.2 聲道",
-      "重量：22kg（不含底座）",
       "手機投影：Apple AirPlay / Google Cast"
     ],
     "description": "LG 2026 G6 是零間隙藝廊系列旗艦 OLED，以高亮度、抗反光與 α11 第三代 Dual AI 處理器，同時強化明亮客廳、電影與高更新率遊戲體驗。",

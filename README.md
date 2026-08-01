@@ -19,7 +19,7 @@
 - 支援分類、品牌、選購定位、通路、自然多詞搜尋、排序、active filter chips、可分享 URL 篩選狀態與比較清單；既有 `budget` query key 維持相容。
 - 首屏與 26 個分類指南皆清楚標示 AI 協作、資料日期、查核方法與 GitHub 原始碼；網站與內容仍可能有錯漏，不虛構專家或實機使用經驗。
 - 針對桌機與手機操作最佳化，包含群組化分類列、sticky 分類列、手機快速操作列、收合式商品細節與重設篩選。
-- 冰箱、洗衣機、烘衣機、洗烘衣機與電子衣櫥皆標示機身尺寸，方便先確認家中擺放空間；若可信來源查不到則明確標示未標示。
+- 電視、Soundbar、冰箱、洗衣機、烘衣機、洗烘衣機、電子衣櫥、多功能氣炸烤箱／微波爐、洗碗機與免治馬桶皆標示本體尺寸；電視、Soundbar、電子衣櫥與多功能氣炸烤箱／微波爐另標示本體重量。新補查欄位若可信來源仍無法確認，會明確標示「查不到」。
 <!-- catalog-maintenance-summary:start -->
 - 2026-08-01 12:38（台灣時間）完成 714 筆商品、26 類全量查核；408 筆 PChome SKU API 已完成（262 筆 exact model、37 筆人工 SKU 綁定可寫入，82 筆型號未自動確認），更新 14 筆現價（5 筆降價、9 筆漲價），23 筆 Qty 0 只列追蹤。
 - 沒有納入新產品；沒有移除產品。逐類人工新品覆核已完成，所有分類至少 20 筆；停產只採品牌官方明確證據，缺貨、反爬或單次連線錯誤不作為刪除依據。
@@ -50,7 +50,7 @@ npm run check
 
 - `npm run check:syntax`：檢查公開 JS 與維護工具語法。
 - `npm run check:logic`：檢查排序、篩選、URL 狀態、史低／負評文案、問題摘要搜尋、來源 URL 安全、HTML escape 與商品 loader 純邏輯。
-- `npm run check:data`：檢查 26 類、714 筆、必要欄位、日期格式、五類需量測機身的大型家電尺寸、電子衣櫥 exact-model／品牌／通路／必要規格、歷史最低價與負評 research 對齊、人工覆核完成清單、逐位反映者、6 人／2 平台門檻、每類至少 20 筆、重複型號與重複購買 URL。
+- `npm run check:data`：檢查 26 類、714 筆、必要欄位、日期格式、10 類尺寸與 3 類新增重量規格／證據對齊、電子衣櫥 exact-model／品牌／通路／必要規格、歷史最低價與負評 research 對齊、人工覆核完成清單、逐位反映者、6 人／2 平台門檻、每類至少 20 筆、重複型號與重複購買 URL。
 - `npm run check:docs`：檢查 README、AGENTS、index/config 的商品數、分類數、日期與 cache version 沒有漂移。
 - `npm run check:geo`：檢查 26 個分類頁、metadata、結構化資料、內部連結、sitemap、llms、證據檔、Pages artifact、IndexNow contract 與所有產生結果沒有漂移。
 - `npm run check:ui`：用 Playwright 驗證桌機/手機搜尋、篩選、排序、lazy loading、比較清單、負評警示與推薦卡高亮。

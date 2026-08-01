@@ -10,8 +10,14 @@ const {
   DIMENSION_CATEGORY_COUNTS,
   DIMENSION_CATEGORIES,
   EXPECTED_DIMENSION_PRODUCT_COUNT,
+  NEW_DIMENSION_CATEGORIES,
   DIMENSION_PATTERN,
   DIMENSION_CONFIDENCE_VALUES,
+  WEIGHT_CATEGORY_COUNTS,
+  WEIGHT_CATEGORIES,
+  EXPECTED_WEIGHT_PRODUCT_COUNT,
+  WEIGHT_PATTERN,
+  WEIGHT_CONFIDENCE_VALUES,
   HISTORICAL_LOW_STATUSES,
   HISTORICAL_LOW_SOURCE_KINDS,
   HISTORICAL_LOW_CONFIDENCE_VALUES,
@@ -86,6 +92,22 @@ function isHttpUrl(value) {
   try {
     const parsed = new URL(value);
     return parsed.protocol === "http:" || parsed.protocol === "https:";
+  } catch (_error) {
+    return false;
+  }
+}
+
+function isSearchDiscoveryUrl(value) {
+  try {
+    const parsed = new URL(value);
+    const hostname = parsed.hostname.replace(/^www\./, "");
+    return /(^|\.)google\.[a-z.]+$/i.test(hostname)
+      || hostname === "bing.com"
+      || hostname.endsWith(".bing.com")
+      || hostname === "search.yahoo.com"
+      || hostname.endsWith(".search.yahoo.com")
+      || hostname === "duckduckgo.com"
+      || hostname.endsWith(".duckduckgo.com");
   } catch (_error) {
     return false;
   }
@@ -296,7 +318,21 @@ function validateProduct(product, categoryIds, failures) {
     const dimensionSpecs = product.specs.filter((spec) => String(spec).trim().startsWith("尺寸："));
     assert(dimensionSpecs.length === 1, `${product.id} must include exactly one dimension spec`, failures);
     if (dimensionSpecs.length === 1) {
-      assert(DIMENSION_PATTERN.test(String(dimensionSpecs[0]).trim()), `${product.id} has invalid dimension spec: ${dimensionSpecs[0]}`, failures);
+      const normalizedDimensionSpec = String(dimensionSpecs[0]).trim();
+      assert(DIMENSION_PATTERN.test(normalizedDimensionSpec), `${product.id} has invalid dimension spec: ${dimensionSpecs[0]}`, failures);
+      if (NEW_DIMENSION_CATEGORIES.has(product.category)) {
+        assert(normalizedDimensionSpec !== "尺寸：未標示", `${product.id} must use 尺寸：查不到 when the new lookup has no result`, failures);
+      }
+    }
+  }
+
+  if (WEIGHT_CATEGORIES.has(product.category)) {
+    const weightSpecs = product.specs.filter((spec) => String(spec).trim().startsWith("重量："));
+    assert(weightSpecs.length === 1, `${product.id} must include exactly one weight spec`, failures);
+    if (weightSpecs.length === 1) {
+      const normalizedWeightSpec = String(weightSpecs[0]).trim();
+      assert(WEIGHT_PATTERN.test(normalizedWeightSpec), `${product.id} has invalid weight spec: ${weightSpecs[0]}`, failures);
+      assert(normalizedWeightSpec !== "重量：未標示", `${product.id} must use 重量：查不到 when the new lookup has no result`, failures);
     }
   }
 }
@@ -872,10 +908,16 @@ function validateReleaseResearch(root, products, failures) {
 
 function validateDimensionResearch(root, products, failures) {
   const dimensionProducts = products.filter((product) => DIMENSION_CATEGORIES.has(product.category));
+  const weightProducts = products.filter((product) => WEIGHT_CATEGORIES.has(product.category));
   assert(dimensionProducts.length === EXPECTED_DIMENSION_PRODUCT_COUNT, `expected ${EXPECTED_DIMENSION_PRODUCT_COUNT} dimension products, got ${dimensionProducts.length}`, failures);
   for (const [categoryId, expectedCount] of DIMENSION_CATEGORY_COUNTS) {
     const count = dimensionProducts.filter((product) => product.category === categoryId).length;
     assert(count === expectedCount, `${categoryId} must have ${expectedCount} dimension products, got ${count}`, failures);
+  }
+  assert(weightProducts.length === EXPECTED_WEIGHT_PRODUCT_COUNT, `expected ${EXPECTED_WEIGHT_PRODUCT_COUNT} weight products, got ${weightProducts.length}`, failures);
+  for (const [categoryId, expectedCount] of WEIGHT_CATEGORY_COUNTS) {
+    const count = weightProducts.filter((product) => product.category === categoryId).length;
+    assert(count === expectedCount, `${categoryId} must have ${expectedCount} weight products, got ${count}`, failures);
   }
 
   const researchFile = path.join(root, "dimension_research.json");
@@ -897,12 +939,45 @@ function validateDimensionResearch(root, products, failures) {
     const dimensionSpec = dimensionSpecs[0];
     assert(row.dimension === dimensionSpec, `${product.id} dimension research mismatch`, failures);
     assert(DIMENSION_PATTERN.test(String(row.dimension || "").trim()), `${product.id} dimension research has invalid dimension: ${row.dimension}`, failures);
-    assert(row.sourceUrl && /^https?:\/\//.test(row.sourceUrl), `${product.id} dimension research requires sourceUrl`, failures);
+    assert(isHttpUrl(row.sourceUrl), `${product.id} dimension research requires a valid http(s) sourceUrl`, failures);
+    assert(!isSearchDiscoveryUrl(row.sourceUrl), `${product.id} dimension research must cite an original product/spec page`, failures);
     assert(row.sourceTitle, `${product.id} dimension research requires sourceTitle`, failures);
     assert(row.evidenceSnippet, `${product.id} dimension research requires evidenceSnippet`, failures);
     assert(DIMENSION_CONFIDENCE_VALUES.has(row.confidence), `${product.id} dimension research has invalid confidence: ${row.confidence}`, failures);
     assert(typeof row.isOfficialSource === "boolean", `${product.id} dimension research requires boolean isOfficialSource`, failures);
-    assert(row.checkedAt, `${product.id} dimension research requires checkedAt`, failures);
+    assert(/^\d{4}-\d{2}-\d{2}$/.test(String(row.checkedAt || "")), `${product.id} dimension research requires YYYY-MM-DD checkedAt`, failures);
+    if (NEW_DIMENSION_CATEGORIES.has(product.category)) {
+      assert(row.checkedAt === research.generatedAt, `${product.id} new dimension research checkedAt must match generatedAt`, failures);
+    }
+
+    const dimensionNotFound = dimensionSpec === "尺寸：未標示" || dimensionSpec === "尺寸：查不到";
+    if (dimensionNotFound) {
+      assert(row.confidence === "not_found", `${product.id} missing dimension must use not_found confidence`, failures);
+    } else {
+      assert(row.confidence !== "not_found", `${product.id} found dimension cannot use not_found confidence`, failures);
+    }
+
+    if (WEIGHT_CATEGORIES.has(product.category)) {
+      const weightSpecs = product.specs.filter((spec) => String(spec).trim().startsWith("重量："));
+      const weightSpec = weightSpecs[0];
+      assert(row.weight === weightSpec, `${product.id} weight research mismatch`, failures);
+      assert(WEIGHT_PATTERN.test(String(row.weight || "").trim()), `${product.id} weight research has invalid weight: ${row.weight}`, failures);
+      assert(isHttpUrl(row.weightSourceUrl), `${product.id} weight research requires a valid http(s) weightSourceUrl`, failures);
+      assert(!isSearchDiscoveryUrl(row.weightSourceUrl), `${product.id} weight research must cite an original product/spec page`, failures);
+      assert(row.weightSourceTitle, `${product.id} weight research requires weightSourceTitle`, failures);
+      assert(row.weightEvidenceSnippet, `${product.id} weight research requires weightEvidenceSnippet`, failures);
+      assert(WEIGHT_CONFIDENCE_VALUES.has(row.weightConfidence), `${product.id} weight research has invalid weightConfidence: ${row.weightConfidence}`, failures);
+      assert(typeof row.weightIsOfficialSource === "boolean", `${product.id} weight research requires boolean weightIsOfficialSource`, failures);
+      assert(/^\d{4}-\d{2}-\d{2}$/.test(String(row.weightCheckedAt || "")), `${product.id} weight research requires YYYY-MM-DD weightCheckedAt`, failures);
+      assert(row.weightCheckedAt === research.generatedAt, `${product.id} weight research weightCheckedAt must match generatedAt`, failures);
+
+      const weightNotFound = weightSpec === "重量：未標示" || weightSpec === "重量：查不到";
+      if (weightNotFound) {
+        assert(row.weightConfidence === "not_found", `${product.id} missing weight must use not_found confidence`, failures);
+      } else {
+        assert(row.weightConfidence !== "not_found", `${product.id} found weight cannot use not_found confidence`, failures);
+      }
+    }
   }
 }
 

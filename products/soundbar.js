@@ -28,7 +28,9 @@
       "11.1.4 聲道",
       "無線後環繞",
       "無線重低音",
-      "Dolby Atmos / DTS:X"
+      "Dolby Atmos / DTS:X",
+      "尺寸：主機 寬 123.2 x 深 13.8 x 高 7.08 cm；後環繞喇叭 寬 12.95 x 深 14.04 x 高 20.13 cm；重低音 寬 24.9 x 深 24.9 x 高 25.18 cm",
+      "重量：主機 7.3 kg；後環繞喇叭 3.4 kg；重低音 8.3 kg"
     ],
     "description": "一次補齊天空聲道、後環繞與低頻，是最接近家庭劇院的一體式方案。",
     "pros": [
@@ -120,7 +122,9 @@
       "5.1.2 聲道",
       "無線重低音",
       "Dolby Atmos",
-      "Q-Symphony"
+      "Q-Symphony",
+      "尺寸：主機 寬 111.07 x 深 12 x 高 6.04 cm；重低音 寬 24.9 x 深 24.9 x 高 25.18 cm",
+      "重量：主機 5.1 kg；重低音 7.2 kg"
     ],
     "description": "改列正常新品頁的 Q 系列 5.1.2 聲道聲霸，適合想升級 Atmos 與重低音的客廳。",
     "pros": [
@@ -198,7 +202,9 @@
       "3.1.2 聲道",
       "Dolby Atmos",
       "無線重低音",
-      "BRAVIA 連動"
+      "BRAVIA 連動",
+      "尺寸：主機 寬 95 x 深 11 x 高 6.4 cm；重低音 寬 21 x 深 38.8 x 高 38.8 cm",
+      "重量：主機 3.1 kg；重低音 7.7 kg"
     ],
     "description": "預算友善且有獨立重低音，適合把電視內建聲音升級到清楚有力。",
     "pros": [
@@ -278,7 +284,9 @@
       "Dolby Atmos / DTS:X",
       "HDMI 2.1：8K HDR / 4K120 / VRR / ALLM",
       "Apple AirPlay / Spotify Connect",
-      "BRAVIA Connect 空間校正"
+      "BRAVIA Connect 空間校正",
+      "尺寸：主機 寬 95 x 深 12.5 x 高 6.4 cm",
+      "重量：主機 4.6 kg"
     ],
     "description": "以九單體與 360 Spatial Sound Mapping 建立虛擬環繞，並保留 4K120、VRR 等新世代遊戲訊號直通。",
     "pros": [
@@ -357,7 +365,9 @@
       "單件式 Soundbar",
       "Dolby Atmos",
       "Wi-Fi 串流",
-      "Sonos 生態系"
+      "Sonos 生態系",
+      "尺寸：主機 寬 117.8 x 深 11.06 x 高 7.5 cm",
+      "重量：主機 5.9 kg"
     ],
     "description": "音樂串流與多房間體驗強，外型俐落，適合不想擺重低音與後喇叭的人。",
     "pros": [
@@ -444,7 +454,9 @@
       "5.1 聲道",
       "無線重低音",
       "Dolby Atmos 模擬",
-      "藍牙/Wi-Fi"
+      "藍牙/Wi-Fi",
+      "尺寸：主機 寬 94 x 深 10.4 x 高 5.05 cm；重低音 寬 32.5 x 深 32.5 x 高 40 cm",
+      "重量：主機 2.9 kg；重低音 8.1 kg"
     ],
     "description": "JBL 低頻與電影感討喜，適合想要震撼感但不想上旗艦環繞的人。",
     "pros": [
@@ -522,7 +534,9 @@
       "9.1.4 聲道",
       "Dolby Atmos",
       "後環繞喇叭",
-      "Q 系列"
+      "Q 系列",
+      "尺寸：主機 寬 111.07 x 深 12 x 高 6.04 cm；後環繞喇叭 寬 12.95 x 深 14.04 x 高 20.13 cm；重低音 寬 24.9 x 深 24.9 x 高 25.18 cm",
+      "重量：主機 5.3 kg；後環繞喇叭 3.1 kg；重低音 7.2 kg"
     ],
     "description": "Samsung HW-Q930H/ZW 是Soundbar類的補充比較型號，依 2026-07-17 通路頁面整理售價、圖片與核心規格。",
     "pros": [
@@ -600,7 +614,9 @@
       "3.1.2 聲道",
       "Dolby Atmos",
       "Q 系列",
-      "中階聲霸"
+      "中階聲霸",
+      "尺寸：主機 寬 116 x 深 12 x 高 5.1 cm；重低音 寬 24.9 x 深 24.9 x 高 25.2 cm",
+      "重量：主機 4.4 kg；重低音 4.8 kg"
     ],
     "description": "Samsung HW-QS700F 是Soundbar類的補充比較型號，依 2026-07-09 通路頁面整理售價、圖片與核心規格。",
     "pros": [
@@ -678,7 +694,9 @@
       "5.1.3 聲道",
       "Dolby Atmos",
       "立體環繞",
-      "LG Soundbar"
+      "LG Soundbar",
+      "尺寸：主機 寬 100 x 深 13.5 x 高 6.3 cm；後環繞喇叭 寬 10 x 深 12 x 高 17.65 cm；重低音 寬 20.17 x 深 40.3 x 高 40.7 cm",
+      "重量：主機 4.3 kg；後環繞喇叭（2 只） 2.34 kg；重低音 10 kg"
     ],
     "description": "LG S80TR 是Soundbar類的補充比較型號，依 2026-07-11 通路頁面整理售價、圖片與核心規格。",
     "pros": [
@@ -756,7 +774,9 @@
       "11.1.4 聲道",
       "重低音",
       "後環繞",
-      "Dolby Atmos"
+      "Dolby Atmos",
+      "尺寸：主機 寬 123.2 x 深 13.8 x 高 7.08 cm；後環繞喇叭 寬 12.95 x 深 14.04 x 高 20.13 cm；重低音 寬 24.9 x 深 24.9 x 高 25.18 cm",
+      "重量：主機 7.3 kg；後環繞喇叭 3.4 kg；重低音 8.3 kg"
     ],
     "description": "Samsung HW-Q990H/ZW 是Soundbar類的補充比較型號，依 2026-07-17 通路頁面整理售價、圖片與核心規格。",
     "pros": [
@@ -834,7 +854,9 @@
       "7.1.2 聲道",
       "Q 系列",
       "Dolby Atmos",
-      "重低音"
+      "重低音",
+      "尺寸：主機 寬 124.5 x 深 12.5 x 高 6.88 cm",
+      "重量：主機 6.7 kg"
     ],
     "description": "Samsung HW-QS90H/ZW 是Soundbar類的補充比較型號，依 2026-07-17 通路頁面整理售價、圖片與核心規格。",
     "pros": [
@@ -912,7 +934,9 @@
       "5.1 聲道",
       "後環繞",
       "重低音",
-      "藍牙"
+      "藍牙",
+      "尺寸：主機 寬 90 x 深 7.45 x 高 5.2 cm；後環繞喇叭 寬 8.3 x 深 7.45 x 高 18 cm；無線擴大器 寬 16 x 深 16 x 高 5.2 cm；重低音 寬 19.2 x 深 36.6 x 高 38.7 cm",
+      "重量：主機 2 kg；無線擴大器 0.8 kg；重低音 7.8 kg"
     ],
     "description": "Sony HT-S40R 是Soundbar類的補充比較型號，依 2026-07-17 通路頁面整理售價、圖片與核心規格。",
     "pros": [
@@ -990,7 +1014,9 @@
       "2.0 聲道",
       "單件式",
       "藍牙",
-      "小空間"
+      "小空間",
+      "尺寸：主機 寬 90 x 深 8.8 x 高 6.4 cm",
+      "重量：主機 2.4 kg"
     ],
     "description": "Sony HT-S100F 是Soundbar類的補充比較型號，依 2026-07-17 通路頁面整理售價、圖片與核心規格。",
     "pros": [
@@ -1068,7 +1094,9 @@
       "5.0 聲道",
       "Dolby Atmos",
       "單件式",
-      "黑/白色"
+      "黑/白色",
+      "尺寸：主機 寬 94 x 深 10.4 x 高 5.05 cm",
+      "重量：主機 2.9 kg"
     ],
     "description": "JBL BAR 300 MK2 是Soundbar類的補充比較型號，依 2026-07-09 通路頁面整理售價、圖片與核心規格。",
     "pros": [
@@ -1146,7 +1174,9 @@
       "7.1 聲道",
       "無線後環繞",
       "重低音",
-      "家庭劇院"
+      "家庭劇院",
+      "尺寸：主機 寬 85.4 x 深 12.8 x 高 5.2 cm；後環繞喇叭 寬 16.9 x 深 12.8 x 高 5.2 cm；重低音 寬 32.5 x 深 32.5 x 高 40 cm",
+      "重量：主機 5 kg；後環繞喇叭每只 0.7 kg；重低音 8.1 kg"
     ],
     "description": "JBL BAR 800 MK2 是Soundbar類的補充比較型號，依 2026-07-17 通路頁面整理售價、圖片與核心規格。",
     "pros": [
@@ -1224,7 +1254,9 @@
       "單件式聲霸",
       "智慧連線",
       "Bose 調音",
-      "家庭娛樂"
+      "家庭娛樂",
+      "尺寸：查不到",
+      "重量：查不到"
     ],
     "description": "Bose Smart Soundbar 600 Ultra 是Soundbar類的補充比較型號，依 2026-07-09 通路頁面整理售價、圖片與核心規格。",
     "pros": [
@@ -1302,7 +1334,9 @@
       "2.0 聲道",
       "藍牙",
       "無線聲霸",
-      "入門"
+      "入門",
+      "尺寸：主機 寬 110 x 深 8.8 x 高 6.7 cm",
+      "重量：主機 2.3 kg"
     ],
     "description": "Philips TAB4288 補進本分類比較池，重點是2.0 聲道、藍牙、無線聲霸，適合和同類 Top Pick 依預算、售後與規格一起比較。",
     "pros": [
@@ -1380,7 +1414,9 @@
       "11 單體",
       "Dolby Atmos",
       "空間音場",
-      "Sony"
+      "Sony",
+      "尺寸：主機 寬 110 x 深 11.3 x 高 6.4 cm",
+      "重量：主機 4.7 kg"
     ],
     "description": "Sony HT-A8000 補進本分類比較池，重點是11 單體、Dolby Atmos、空間音場，適合和同類 Top Pick 依預算、售後與規格一起比較。",
     "pros": [
@@ -1458,7 +1494,9 @@
       "13 單體",
       "360 空間音場",
       "Dolby Atmos",
-      "旗艦"
+      "旗艦",
+      "尺寸：主機 寬 130 x 深 11.3 x 高 6.4 cm",
+      "重量：主機 5.5 kg"
     ],
     "description": "Sony HT-A9000 補進本分類比較池，重點是13 單體、360 空間音場、Dolby Atmos，適合和同類 Top Pick 依預算、售後與規格一起比較。",
     "pros": [
@@ -1536,7 +1574,9 @@
       "7.1.4 聲道",
       "可拆式無線喇叭",
       "10 吋重低音",
-      "Dolby Atmos"
+      "Dolby Atmos",
+      "尺寸：主機 寬 85.4 x 深 12.8 x 高 5.2 cm；後環繞喇叭 寬 18.9 x 深 12.8 x 高 5.2 cm；重低音 寬 32.5 x 深 32.5 x 高 40 cm",
+      "重量：主機 5.5 kg；後環繞喇叭每只 0.9 kg；重低音 9.1 kg"
     ],
     "description": "JBL BAR 1000 MK2 補進本分類比較池，重點是7.1.4 聲道、可拆式無線喇叭、10 吋重低音，適合和同類 Top Pick 依預算、售後與規格一起比較。",
     "pros": [
@@ -1614,7 +1654,9 @@
       "7.1.2 聲道",
       "Dolby Atmos",
       "IMAX Enhanced",
-      "無線重低音"
+      "無線重低音",
+      "尺寸：主機 寬 120 x 深 12.5 x 高 7.3 cm",
+      "重量：主機 7.2 kg"
     ],
     "description": "Philips TAFB1/96 補進本分類比較池，重點是7.1.2 聲道、Dolby Atmos、IMAX Enhanced，適合和同類 Top Pick 依預算、售後與規格一起比較。",
     "pros": [
@@ -1693,7 +1735,9 @@
       "Dolby Atmos / DTS:X",
       "HDMI eARC / HDMI IN 4K 120Hz passthrough",
       "Wi-Fi 6 / Bluetooth 5.3 / AirPlay 2 / Google Cast",
-      "可搭配主動式重低音或 Heston Sub 200"
+      "可搭配主動式重低音或 Heston Sub 200",
+      "尺寸：主機 寬 110 x 深 14.5 x 高 7.6 cm",
+      "重量：主機 7.04 kg"
     ],
     "description": "Marshall 首款旗艦 Soundbar，走單件式高質感設計，適合作為 Sonos、Bose 與高階 Samsung 聲霸的海外參考。",
     "pros": [
@@ -1773,7 +1817,9 @@
       "Dolby Atmos / DTS:X",
       "HDMI eARC / AUX 3.5mm / RCA Mono Sub Out / USB-C",
       "Wi-Fi 6 / Bluetooth 5.3 / AirPlay 2 / Google Cast",
-      "可加購 Heston Sub 200 補強低頻"
+      "可加購 Heston Sub 200 補強低頻",
+      "尺寸：主機 寬 73 x 深 12.4 x 高 6.8 cm",
+      "重量：主機 2.76 kg"
     ],
     "description": "Marshall Heston 60 是較小空間取向的 Atmos 聲霸，適合和 Sonos Beam、Bose Smart Soundbar 等單件式機型比較。",
     "pros": [
@@ -1853,7 +1899,9 @@
       "3.1.2 聲道",
       "Dolby Atmos",
       "無線重低音",
-      "Costco 評價 4.6 / 52 則"
+      "Costco 評價 4.6 / 52 則",
+      "尺寸：主機 寬 105 x 深 9.5 x 高 6 cm；重低音 寬 17.2 x 深 29 x 高 37 cm",
+      "重量：主機 2.5 kg；重低音 4.3 kg"
     ],
     "description": "Denon DHT-S517 是 Costco 評價穩定的 Atmos 聲霸，保留獨立重低音又不需要後環繞喇叭。",
     "pros": [
@@ -1946,7 +1994,9 @@
       "無線重低音",
       "Dolby Atmos",
       "主機 30W / 重低音 40W",
-      "Costco 評價 4.6 / 48 則"
+      "Costco 評價 4.6 / 48 則",
+      "尺寸：主機 寬 81.1 x 深 4.2 x 高 3.7 cm；重低音 寬 15.5 x 深 16.1 x 高 39.1 cm",
+      "重量：主機 0.61 kg；重低音 3.69 kg"
     ],
     "description": "Costco 評價不錯的聲霸候選，補進聲音升級比較池。",
     "pros": [
@@ -2025,9 +2075,10 @@
     "specs": [
       "2.0 聲道",
       "二合一分離式設計",
-      "重量：680公克",
       "Costco 稀少分類例外候選",
-      "Costco 評價 4.6 / 14 則"
+      "Costco 評價 4.6 / 14 則",
+      "尺寸：查不到",
+      "重量：查不到"
     ],
     "description": "Costco 評價不錯的聲霸候選，補進聲音升級比較池。",
     "pros": [
@@ -2108,7 +2159,9 @@
       "可拆式無線後環繞，續航最長 10 小時",
       "雙 8 吋無線重低音，系統最大輸出 2470W",
       "Dolby Atmos / DTS:X / MultiBeam 3.0",
-      "HDMI eARC、4K Dolby Vision passthrough、AirPlay 與 Google Cast"
+      "HDMI eARC、4K Dolby Vision passthrough、AirPlay 與 Google Cast",
+      "尺寸：主機 寬 103 x 深 13.6 x 高 5.8 cm；後環繞喇叭 寬 20.2 x 深 13.6 x 高 5.8 cm；重低音 寬 31.5 x 深 27.5 x 高 27.7 cm",
+      "重量：主機 5.93 kg；後環繞喇叭每只 1.3 kg；重低音 12 kg"
     ],
     "description": "JBL BAR 1300MK2 以 11.1.4 聲道、可拆式後環繞與雙 8 吋重低音補足 JBL 旗艦級距，適合與 Samsung Q990 系列直接比較。",
     "pros": [

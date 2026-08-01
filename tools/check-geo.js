@@ -14,6 +14,7 @@ const { submitIndexNow } = require("./submit-indexnow");
 const {
   EXPECTED_CATEGORY_COUNT,
   EXPECTED_PRODUCT_COUNT,
+  MEASUREMENT_PRIORITY_CATEGORIES,
 } = require("./dashboard-contract");
 const {
   SITE_URL,
@@ -405,6 +406,13 @@ function assertCategoryPageContracts(categories, products, meta) {
         assert(normalizedText.includes(String(value).replace(/[,，]/g, "")), `${file} is missing source-backed content for ${product.id}: ${value}`);
       }
       assert(normalizedText.includes(String(product.price.amount)), `${file} is missing the source price for ${product.id}`);
+      if (MEASUREMENT_PRIORITY_CATEGORIES.has(category.id)) {
+        const measurementSpecs = product.specs.filter((spec) => /^(尺寸|重量)：/.test(spec));
+        assert(measurementSpecs.some((spec) => spec.startsWith("尺寸：")), `${file} source product ${product.id} is missing its dimension spec`);
+        for (const measurementSpec of measurementSpecs) {
+          assert(normalizedText.includes(measurementSpec.replace(/[,，]/g, "")), `${file} should expose ${measurementSpec} for ${product.id}`);
+        }
+      }
     }
 
     const categoryStateLinks = hrefs.filter((href) => {
