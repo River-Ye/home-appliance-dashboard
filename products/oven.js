@@ -330,8 +330,8 @@
     "price": {
       "currency": "USD",
       "amount": 499.95,
-      "converted": 16187,
-      "confidence": "Breville 官方 2026-07-21 來源價；ExchangeRate-API 2026-07-31 匯率換算"
+      "converted": 16143,
+      "confidence": "Breville 官方 2026-07-21 來源價；ExchangeRate-API 2026-08-01 匯率換算"
     },
     "image": "https://assets.breville.com/cdn-cgi/image/width=1300,format=auto/BOV950/BOV950BSS1BUS1/pdp3.png?pdp=",
     "buyUrl": "https://www.breville.com/en-us/product/bov950",
@@ -1819,8 +1819,8 @@
     "price": {
       "currency": "USD",
       "amount": 449.99,
-      "converted": 14570,
-      "confidence": "SharkNinja 美國官方 2026-07-21 商品頁現貨價；ExchangeRate-API 2026-07-31 匯率換算"
+      "converted": 14530,
+      "confidence": "SharkNinja 美國官方 2026-07-21 商品頁現貨價；ExchangeRate-API 2026-08-01 匯率換算"
     },
     "image": "https://assets.sharkninja.com/image/upload/f_auto/q_auto/SharkNinja-NA/MW101_01.jpg",
     "buyUrl": "https://www.sharkninja.com/ninja-crispi-microwave/MW101.html",

@@ -1279,9 +1279,9 @@
     "name": "D200i 智能門鎖",
     "price": {
       "currency": "TWD",
-      "amount": 24900,
-      "converted": 24900,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 24000,
+      "converted": 24000,
+      "confidence": "PChome 2026-08-01 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAAPFA900JXSH5/000001_1776828240.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAAPF-A900JXSH5",
