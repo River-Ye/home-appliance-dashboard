@@ -523,9 +523,9 @@
     "name": "Q 系列 9.1.4 聲道 Soundbar 家庭劇院",
     "price": {
       "currency": "TWD",
-      "amount": 49900,
-      "converted": 49900,
-      "confidence": "PChome 2026-07-17 API 公開價"
+      "amount": 42886,
+      "converted": 42886,
+      "confidence": "PChome 2026-08-02 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAAODA900K3QSM/000001_1782969828.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAAOD-A900K3QSM",
@@ -560,16 +560,16 @@
     "releaseDate": "2026-04",
     "historicalLow": {
       "status": "found",
-      "amount": 44910,
+      "amount": 42886,
       "currency": "TWD",
-      "converted": 44910,
+      "converted": 42886,
       "sourceUrl": "https://24h.pchome.com.tw/prod/DMAAOD-A900K3QSM",
-      "sourceTitle": "PChome 24h：Samsung HW-Q930H/ZW Q 系列 9.1.4 聲道 Soundbar",
-      "evidenceSnippet": "PChome 商品 API 於 2026-07-16 UTC 回傳同型號 HW-Q930H/ZW 公開 Low 價 NT$44,910、Qty 2，低於原記錄史低 NT$49,900。",
+      "sourceTitle": "PChome 24h 購物：SAMSUNG 三星 HW-Q930H/ZW Q 系列 Soundbar 9.1.4 聲道 家庭劇院",
+      "evidenceSnippet": "PChome 24h 購物於 2026-08-02 顯示同型號可信新品公開價 NT$42,886，低於既有史低 NT$44,910。",
       "sourceKind": "retailer_page",
-      "confidence": "high",
-      "checkedAt": "2026-07-17",
-      "note": "採用可信通路同型號新品公開價；排除會員個人化折扣、信用卡回饋、點數、二手、福利品、展示機、拆封品與整新品。"
+      "confidence": "medium",
+      "checkedAt": "2026-08-02",
+      "note": "採用 PChome 24h 購物當日可購商品的同型號新品公開價；不含會員券、點數、信用卡回饋、二手、福利、展示、拆封或整新品。"
     },
     "issueResearch": {
       "status": "no_common_issue",

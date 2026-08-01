@@ -1,13 +1,13 @@
 {
   "summary": {
-    "checkedAt": "2026-08-01T00:00:00+08:00",
-    "total": 714,
+    "checkedAt": "2026-08-02T00:00:00+08:00",
+    "total": 715,
     "found": 206,
-    "missing": 508,
+    "missing": 509,
     "byConfidence": {
       "official": 105,
       "credible_article": 90,
-      "not_found": 508,
+      "not_found": 509,
       "retailer_explicit": 11
     }
   },
@@ -9998,6 +9998,21 @@
       "query": "site:philips-da.com.tw \"AC0921/84\" (上市 OR 發售 OR 發表 OR 新品)",
       "sourceKind": "not_found_after_official_review",
       "reason": "Philips 台灣 official exact-model 頁只寫「2026 最新力作」，未提供明確上市／發售日期；官方手冊文章日期、預購活動期間與通路上架日均不作為 releaseDate。"
+    },
+    {
+      "id": "monitorarm-backbone-titan-link",
+      "category": "monitorarm",
+      "brand": "Backbone",
+      "model": "WB-AC-025-111",
+      "name": "Titan Link 20kg 49 吋高承重快充螢幕手臂",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "query": "site:backbone.tw \"WB-AC-025-111\" (上市 OR 發售 OR 發表 OR 新品)",
+      "sourceKind": "not_found_after_official_review",
+      "reason": "Taiwan Access 與 Backbone 官方 exact-model 頁可確認現售商品、SKU 與規格，但均未提供正式上市／發售日期；頁面修改時間與搜尋索引日期不作為 releaseDate。"
     }
   ]
 }

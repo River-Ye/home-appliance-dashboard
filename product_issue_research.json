@@ -1,9 +1,9 @@
 {
   "summary": {
-    "checkedAt": "2026-08-01T00:00:00+08:00",
-    "total": 714,
+    "checkedAt": "2026-08-02T00:00:00+08:00",
+    "total": 715,
     "commonIssueProducts": 36,
-    "noCommonIssueProducts": 678,
+    "noCommonIssueProducts": 679,
     "pendingManualReview": 0,
     "commonIssues": 36,
     "searchUnavailable": 26,
@@ -72243,6 +72243,95 @@
           "reason": "整頁是安裝結構詢問，沒有任何 exact-model 第一人稱負面問題；安裝限制本身不等於災情，也未形成跨站使用者回報。"
         }
       ]
+    },
+    {
+      "id": "monitorarm-backbone-titan-link",
+      "category": "monitorarm",
+      "brand": "Backbone",
+      "model": "WB-AC-025-111",
+      "name": "Titan Link 20kg 49 吋高承重快充螢幕手臂",
+      "identity": {
+        "canonicalModel": "WB-AC-025-111",
+        "lookupLabel": "Backbone Titan Link",
+        "aliases": [
+          "Backbone Titan Link",
+          "Backbone WB-AC-025-111"
+        ],
+        "evidenceUrl": "https://www.taiwanaccess.com.tw/products/backbone-titan-link"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "status": "completed",
+        "decision": "no_common_issue",
+        "reviewedAt": "2026-08-02",
+        "checkedPlatforms": [
+          "Mobile01",
+          "Reddit"
+        ],
+        "queries": [
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"WB-AC-025-111\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22WB-AC-025-111%22%20%28%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95%29",
+            "targetHost": "mobile01.com"
+          },
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"WB-AC-025-111\" (problem OR issue OR defect OR \"negative review\")",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22WB-AC-025-111%22%20%28problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22%29",
+            "targetHost": "reddit.com"
+          }
+        ],
+        "candidateDisposition": "WB-AC-025-111：完成 Mobile01 與 Reddit exact-model 查詢，搜尋回應中沒有經 canonical-model 邊界確認的原頁候選；此結果不代表完全沒有負評。",
+        "representativeSources": [],
+        "candidateReviews": [],
+        "reviewerNote": "WB-AC-025-111 已於 2026-08-02 實際請求 Mobile01、Reddit 兩個獨立網站的 exact-model 查詢；未以搜尋摘要自動推定沒有負評。",
+        "attestation": "manual_cross_site_search_reviewed_no_candidate"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-08-02",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"WB-AC-025-111\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22WB-AC-025-111%22%20%28%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95%29",
+            "targetHost": "mobile01.com"
+          },
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"WB-AC-025-111\" (problem OR issue OR defect OR \"negative review\")",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22WB-AC-025-111%22%20%28problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22%29",
+            "targetHost": "reddit.com"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"WB-AC-025-111\" (災情 OR 問題 OR 故障 OR 負評)",
+          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22WB-AC-025-111%22%20%28%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95%29",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-08-02T00:00:00+08:00"
+        },
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"WB-AC-025-111\" (problem OR issue OR defect OR \"negative review\")",
+          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22WB-AC-025-111%22%20%28problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22%29",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-08-02T00:00:00+08:00"
+        }
+      ],
+      "evidence": [],
+      "rejectedCandidates": []
     }
   ]
 }
