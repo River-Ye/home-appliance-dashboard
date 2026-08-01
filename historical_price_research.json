@@ -1,15 +1,15 @@
 {
   "summary": {
-    "checkedAt": "2026-08-01T00:00:00.000+08:00",
-    "sourcePolicy": "2026-08-01 以 714 筆基準清單全量查核現價、購買連結與可信新品狀態，並複核最終 714 筆商品圖片、全部 443 筆 found 史低來源、原廠停產訊號與同批次匯率。PChome exact-model 現貨頁有正值 Price.Low 時採公開折扣價，否則採 Price.P；Qty 0、福利品、展示機與配件不寫回。其他頁面的結構化價格差異列入人工覆核候選，阻擋、暫時錯誤與單次頁面失效只列稽核，不臆測停產或史低失效。",
-    "total": 714,
-    "researchedThisRun": 714,
+    "checkedAt": "2026-08-02T00:00:00.000+08:00",
+    "sourcePolicy": "2026-08-02 以 714 筆基準清單全量查核現價、購買連結與可信新品狀態，並複核最終 715 筆商品圖片、全部 443 筆 found 史低來源、原廠停產訊號與同批次匯率。PChome exact-model 現貨頁有正值 Price.Low 時採公開折扣價，否則採 Price.P；Qty 0、福利品、展示機與配件不寫回。其他頁面的結構化價格差異列入人工覆核候選，阻擋、暫時錯誤與單次頁面失效只列稽核，不臆測停產或史低失效。",
+    "total": 715,
+    "researchedThisRun": 715,
     "found": 443,
-    "missing": 271,
+    "missing": 272,
     "byConfidence": {
-      "not_found": 271,
-      "high": 300,
-      "medium": 143
+      "not_found": 272,
+      "high": 299,
+      "medium": 144
     },
     "exchange": {
       "USD_TWD": 32.28872,
@@ -20,19 +20,19 @@
       "CNY_TWD": 4.772980283365733,
       "KRW_TWD": 0.022431664465063315
     },
-    "lastMaintenanceCheckAt": "2026-08-01T15:24:56.391Z",
-    "currentPriceChanged": 17,
+    "lastMaintenanceCheckAt": "2026-08-01T22:37:48.958Z",
+    "currentPriceChanged": 2,
     "currentBuyLinkChanged": 0,
-    "currentPriceDrops": 17,
+    "currentPriceDrops": 2,
     "currentPriceRises": 0,
     "currentPriceFallbacks": 0,
-    "historicalLowUpdated": 0,
+    "historicalLowUpdated": 1,
     "historicalLowInvalidated": 0,
     "catalogEntriesReplaced": 0,
     "catalogReplacementNotes": [],
     "currentImageChanged": 0,
     "discontinuedRemoved": 0,
-    "newProductsAdded": 0,
+    "newProductsAdded": 1,
     "discontinuedRemovalNotes": [],
     "catalogEntriesRemoved": 0,
     "catalogRemovalNotes": []
@@ -1451,22 +1451,22 @@
       "brand": "Samsung",
       "model": "HW-Q930H/ZW",
       "name": "Q 系列 9.1.4 聲道 Soundbar 家庭劇院",
-      "currentPrice": 49900,
+      "currentPrice": 42886,
       "currentCurrency": "TWD",
       "currentBuyUrl": "https://24h.pchome.com.tw/prod/DMAAOD-A900K3QSM",
       "currentBuyLabel": "PChome",
       "historicalLow": {
         "status": "found",
-        "amount": 44910,
+        "amount": 42886,
         "currency": "TWD",
-        "converted": 44910,
+        "converted": 42886,
         "sourceUrl": "https://24h.pchome.com.tw/prod/DMAAOD-A900K3QSM",
-        "sourceTitle": "PChome 24h：Samsung HW-Q930H/ZW Q 系列 9.1.4 聲道 Soundbar",
-        "evidenceSnippet": "PChome 商品 API 於 2026-07-16 UTC 回傳同型號 HW-Q930H/ZW 公開 Low 價 NT$44,910、Qty 2，低於原記錄史低 NT$49,900。",
+        "sourceTitle": "PChome 24h 購物：SAMSUNG 三星 HW-Q930H/ZW Q 系列 Soundbar 9.1.4 聲道 家庭劇院",
+        "evidenceSnippet": "PChome 24h 購物於 2026-08-02 顯示同型號可信新品公開價 NT$42,886，低於既有史低 NT$44,910。",
         "sourceKind": "retailer_page",
-        "confidence": "high",
-        "checkedAt": "2026-07-17",
-        "note": "採用可信通路同型號新品公開價；排除會員個人化折扣、信用卡回饋、點數、二手、福利品、展示機、拆封品與整新品。"
+        "confidence": "medium",
+        "checkedAt": "2026-08-02",
+        "note": "採用 PChome 24h 購物當日可購商品的同型號新品公開價；不含會員券、點數、信用卡回饋、二手、福利、展示、拆封或整新品。"
       },
       "checkedSources": [
         "https://www.lbj.tw/BJ/Query.aspx?k=DMAAOD-A900K3QSM",
@@ -22606,7 +22606,7 @@
       "brand": "NETGEAR",
       "model": "Orbi RBE373",
       "name": "BE5000 Wi-Fi 7 Mesh 延伸系統路由器+2衛星",
-      "currentPrice": 12863,
+      "currentPrice": 9900,
       "currentCurrency": "TWD",
       "currentBuyUrl": "https://24h.pchome.com.tw/prod/DRAFJA-A900JG5AK",
       "currentBuyLabel": "PChome",
@@ -31241,6 +31241,41 @@
       "rejectedCandidates": [
         "PChome Price.Low NT$7,350、Philips 官方與 momo 的 NT$7,990 都只證明本次現價，沒有可重現的歷史最低點日期。",
         "信用卡回饋、P 幣、點數、濾網六入組、福利品與非 AC0921/84 exact-model 候選均不採。"
+      ]
+    },
+    {
+      "id": "monitorarm-backbone-titan-link",
+      "category": "monitorarm",
+      "brand": "Backbone",
+      "model": "WB-AC-025-111",
+      "name": "Titan Link 20kg 49 吋高承重快充螢幕手臂",
+      "currentPrice": 3280,
+      "currentCurrency": "TWD",
+      "currentBuyUrl": "https://www.taiwanaccess.com.tw/products/backbone-titan-link",
+      "currentBuyLabel": "Taiwan Access",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "TWD",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-08-02",
+        "note": "已查 Taiwan Access、Backbone 官方、BigGo、FindPrice 與 LBJ exact-model 公開入口；NT$3,280 只證明本次現價，沒有可重現的同型號歷史價格曲線或明確最低點日期，因此不以現價推定史低。"
+      },
+      "checkedSources": [
+        "https://www.taiwanaccess.com.tw/products/backbone-titan-link",
+        "https://www.backbone.tw/products/dyback04",
+        "https://biggo.com.tw/s/WB-AC-025-111",
+        "https://www.findprice.com.tw/g/WB-AC-025-111",
+        "https://www.lbj.tw/BJ/Query.aspx?k=WB-AC-025-111"
+      ],
+      "rejectedCandidates": [
+        "Taiwan Access 與 Backbone 官方 NT$3,280 只證明 2026-08-02 當日現價與 exact-model 身分，沒有可重現的歷史最低點日期。",
+        "BigGo、FindPrice 與 LBJ 未找到可綁定 WB-AC-025-111 的可信新品歷史價格曲線；會員折扣、點數與組合加購價均不採。"
       ]
     }
   ]

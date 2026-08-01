@@ -1772,6 +1772,88 @@
         }
       ]
     }
+  },
+  {
+    "id": "monitorarm-backbone-titan-link",
+    "category": "monitorarm",
+    "rank": 23,
+    "budget": "mid",
+    "channel": "tw",
+    "brand": "Backbone",
+    "model": "WB-AC-025-111",
+    "name": "Titan Link 20kg 49 吋高承重快充螢幕手臂",
+    "price": {
+      "currency": "TWD",
+      "amount": 3280,
+      "converted": 3280,
+      "confidence": "Taiwan Access 2026-08-02 exact-model 公開價；頁面標示 InStock，且可見加入購物車與立即購買"
+    },
+    "image": "https://img.shoplineapp.com/media/image_clips/6a55cbb9b20283abcefad1b1/original.jpg?1784007609=&owner_id=5a1cb8de9f9a4f43f800135c",
+    "buyUrl": "https://www.taiwanaccess.com.tw/products/backbone-titan-link",
+    "buyLabel": "Taiwan Access",
+    "specs": [
+      "支援 17-49 吋",
+      "承重最高 20kg",
+      "60W Type-C / Type-A 快充孔（需自備快充頭）",
+      "桌夾支援 10-80mm 桌板，另支援穿桌安裝",
+      "360° 多轉軸調整；VESA 孔距數值未標示，購買前需核對"
+    ],
+    "description": "Backbone Titan Link 是台灣通路可單獨購買的 20kg 高承重螢幕手臂，結合 60W Type-C / Type-A 充電孔；Backbone 官方加購資料與 Taiwan Access 單品頁皆對應 exact SKU WB-AC-025-111。",
+    "pros": [
+      "20kg 承重涵蓋多數 49 吋大型螢幕",
+      "整合 60W Type-C / Type-A 快充孔",
+      "同時支援夾桌與穿桌安裝"
+    ],
+    "cons": [
+      "官方支援上限為 49 吋，不適合 57 吋超寬螢幕",
+      "快充頭需自備",
+      "頁面未標示 VESA 孔距數值，購買前必須核對"
+    ],
+    "bestFor": "使用 34-49 吋、20kg 內大型螢幕，且希望桌邊整合快充孔的人。",
+    "recommendation": "高承重與快充整合是同價位的差異化選擇；購買前仍需核對 VESA、桌板厚度與螢幕不含腳架的實重。49 吋大型螢幕建議兩人安裝，57 吋機型請改選明確支援的支架。",
+    "score": 85,
+    "voltage": "支架本體無需用電；充電孔需自備快充頭並以充電器電壓規格為準",
+    "warranty": "Taiwan Access 標示 1 年 e 化保固",
+    "tags": [
+      "20kg",
+      "49吋",
+      "60W快充",
+      "夾桌／穿桌"
+    ],
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-08-02",
+      "note": "已查 Taiwan Access、Backbone 官方、BigGo、FindPrice 與 LBJ exact-model 公開入口；NT$3,280 只證明本次現價，沒有可重現的同型號歷史價格曲線或明確最低點日期，因此不以現價推定史低。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-08-02",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"WB-AC-025-111\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22WB-AC-025-111%22%20%28%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95%29",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"WB-AC-025-111\" (problem OR issue OR defect OR \"negative review\")",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22WB-AC-025-111%22%20%28problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22%29",
+          "targetHost": "reddit.com"
+        }
+      ]
+    }
   }
 ]);
 })();

@@ -1,5 +1,5 @@
 const EXPECTED_CATEGORY_COUNT = 26;
-const EXPECTED_PRODUCT_COUNT = 714;
+const EXPECTED_PRODUCT_COUNT = 715;
 const MIN_PRODUCTS_PER_CATEGORY = 20;
 const EXPECTED_CATEGORY_PRODUCT_COUNTS = new Map([
   ["tv", 33],
@@ -27,7 +27,7 @@ const EXPECTED_CATEGORY_PRODUCT_COUNTS = new Map([
   ["standingdesk", 25],
   ["chair", 24],
   ["monitor", 55],
-  ["monitorarm", 22],
+  ["monitorarm", 23],
 ]);
 const DATE_PATTERN = /^(找不到|\d{4}(?:[-/.]\d{1,2}(?:[-/.]\d{1,2})?)?)$/;
 const WASHER_DRYER_CAPACITY_PATTERN = /^洗\/乾容量：\d+(?:\.\d+)?kg \/ \d+(?:\.\d+)?kg$/;
