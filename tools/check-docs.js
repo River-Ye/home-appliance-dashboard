@@ -52,6 +52,12 @@ function main() {
   assertFileExists("robots.txt");
   assertFileExists("sitemap.xml");
   assertFileExists("social-preview.png");
+  assertFileExists("favicon.ico");
+  const favicon = fs.readFileSync(path.join(root, "favicon.ico"));
+  assert(
+    favicon.length > 4 && favicon.subarray(0, 4).equals(Buffer.from([0x00, 0x00, 0x01, 0x00])),
+    "favicon.ico should be a valid ICO resource",
+  );
   assertFileExists("assets/js/ads.js");
   assertFileExists("assets/css/app.css");
   const cname = read("CNAME");
@@ -260,6 +266,7 @@ function main() {
   assert(artifactStepMatch[1].includes("robots.txt"), "Pages artifact should include robots.txt");
   assert(artifactStepMatch[1].includes("sitemap.xml"), "Pages artifact should include sitemap.xml");
   assert(artifactStepMatch[1].includes("social-preview.png"), "Pages artifact should include the social preview image");
+  assert(artifactStepMatch[1].includes("favicon.ico"), "Pages artifact should include the browser fallback favicon");
   assert(artifactStepMatch[1].includes("CNAME"), "Pages artifact should include CNAME");
   assert(artifactStepMatch[1].includes("categories"), "Pages artifact should include generated category pages");
   assert(artifactStepMatch[1].includes("llms.txt"), "Pages artifact should include llms.txt");

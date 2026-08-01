@@ -627,6 +627,7 @@ function assertPagesWorkflow(categories) {
   assert(artifactStep, "Pages artifact preparation step is missing");
   assert(/\bcategories\b/.test(artifactStep), "Pages artifact should include categories/");
   assert(artifactStep.includes("llms.txt"), "Pages artifact should include llms.txt");
+  assert(artifactStep.includes("favicon.ico"), "Pages artifact should include the browser fallback favicon");
   const proof = findIndexNowProof();
   assert(artifactStep.includes(proof.filename) || artifactStep.includes("*.txt"), `Pages artifact should include ${proof.filename}`);
   for (const evidenceFile of expectedEvidenceFiles) {
