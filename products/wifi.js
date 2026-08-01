@@ -254,8 +254,8 @@
     "name": "BE3600 雙頻 Wi-Fi 7 AiMesh 可擴充路由器",
     "price": {
       "currency": "TWD",
-      "amount": 3499,
-      "converted": 3499,
+      "amount": 3360,
+      "converted": 3360,
       "confidence": "Yahoo購物中心 2026-08-01 exact-model 公開結構化價格"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAFLPA900JKWXK/000001_1783555436.jpg",
@@ -1514,8 +1514,8 @@
     "name": "BE6500 雙頻 Wi-Fi 7 路由器",
     "price": {
       "currency": "TWD",
-      "amount": 4990,
-      "converted": 4990,
+      "amount": 4791,
+      "converted": 4791,
       "confidence": "Yahoo購物中心 2026-08-01 exact-model 公開結構化價格"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAFLPA900IV4B6/000001_1783556530.jpg",
@@ -2466,8 +2466,8 @@
     "name": "三頻 Wi-Fi 6 Router 無線路由器",
     "price": {
       "currency": "TWD",
-      "amount": 9999,
-      "converted": 9999,
+      "amount": 9600,
+      "converted": 9600,
       "confidence": "Yahoo購物中心 2026-08-01 exact-model 公開結構化價格"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBS4VA900JIQU0/000001_1764896894.jpg",
