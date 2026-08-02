@@ -1201,9 +1201,9 @@
     "name": "新氣几 UV 抑菌空氣清淨機",
     "price": {
       "currency": "TWD",
-      "amount": 15990,
-      "converted": 15990,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 13990,
+      "converted": 13990,
+      "confidence": "PChome 2026-08-03 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAU5EA900JYG1W/000001_1782872854.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAU5E-A900JYG1W",
@@ -1279,9 +1279,9 @@
     "name": "新氣几 Lite 抑菌除臭空氣清淨機",
     "price": {
       "currency": "TWD",
-      "amount": 13990,
-      "converted": 13990,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 11990,
+      "converted": 11990,
+      "confidence": "PChome 2026-08-03 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAU5EA900JYG87/000001_1782872232.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAU5E-A900JYG87",

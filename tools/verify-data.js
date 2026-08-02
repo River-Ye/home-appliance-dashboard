@@ -1085,13 +1085,30 @@ function validateMaintenanceReport(root, categories, products, dataDate, failure
   assert(report.summary?.linkChanges === report.changes?.links?.length, "maintenance report link change summary is inconsistent", failures);
   assert(report.summary?.imageChanges === report.changes?.images?.length, "maintenance report image change summary is inconsistent", failures);
   assert(report.summary?.historicalLowChanges === report.changes?.historicalLows?.length, "maintenance report historical-low summary is inconsistent", failures);
+  assert(
+    ["current_run", "same_date_carried_forward", "mixed_current_and_carried_forward"].includes(report.categoryReviewProvenance),
+    "maintenance report category review provenance is missing or pending",
+    failures,
+  );
   assert(report.categoryScan?.length === categories.length, "maintenance report category scan is incomplete", failures);
 
+  const reportCheckedAt = Date.parse(report.checkedAt);
+  assert(!Number.isNaN(reportCheckedAt), "maintenance report checkedAt is invalid", failures);
   const categoryScan = new Map((report.categoryScan || []).map((row) => [row.category, row]));
   for (const category of categories) {
     const row = categoryScan.get(category.id);
     const count = categoryProducts(products, category.id).length;
     assert(row?.status === "manually_reviewed", `${category.id} maintenance scan still requires manual review`, failures);
+    assert(
+      /^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}(?:\.\d{3})?Z$/.test(String(row?.reviewedAt || "")),
+      `${category.id} maintenance review timestamp is invalid`,
+      failures,
+    );
+    assert(
+      !Number.isNaN(Date.parse(row?.reviewedAt)) && Date.parse(row.reviewedAt) <= reportCheckedAt,
+      `${category.id} maintenance review timestamp exceeds the report checkpoint`,
+      failures,
+    );
     assert(row?.finalProductCount === count, `${category.id} maintenance scan product count is stale`, failures);
     assert(row?.minimumSatisfied === (count >= MIN_PRODUCTS_PER_CATEGORY), `${category.id} maintenance minimum flag is stale`, failures);
   }

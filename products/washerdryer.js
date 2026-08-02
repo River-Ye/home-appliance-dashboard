@@ -531,9 +531,9 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/88F364AB6B-SP-11096810.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 29900,
-      "converted": 29900,
-      "confidence": "PChome 2026-07-30 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 30900,
+      "converted": 30900,
+      "confidence": "PChome 2026-08-03 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -1815,9 +1815,9 @@
     "name": "13 公斤 / 8 公斤滾筒洗脫烘衣機",
     "price": {
       "currency": "TWD",
-      "amount": 25599,
-      "converted": 25599,
-      "confidence": "Costco 好市多 2026-07-11 頁面查核價"
+      "amount": 20479,
+      "converted": 20479,
+      "confidence": "Costco 好市多 2026-08-03 exact-model 公開結構化價格"
     },
     "image": "https://www.costco.com.tw/medias/sys_master/images/hfb/h3d/420197074894878.jpg",
     "buyUrl": "https://www.costco.com.tw/Televisions-Appliances/Large-Appliances/Washers-Dryers/Washer-Size-10-15-kg/SHARP-13-kg8-kg-Front-Load-Washer-and-Dryer-Combo-ES-FD13BT/p/155140",

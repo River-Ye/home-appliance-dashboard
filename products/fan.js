@@ -1499,9 +1499,9 @@
     "name": "DC 遙控大廈扇",
     "price": {
       "currency": "TWD",
-      "amount": 2999,
-      "converted": 2999,
-      "confidence": "Costco 好市多 2026-07-11 頁面查核價"
+      "amount": 2389,
+      "converted": 2389,
+      "confidence": "Costco 好市多 2026-08-03 exact-model 公開結構化價格"
     },
     "image": "https://www.costco.com.tw/medias/sys_master/images/ha1/h9a/361109992439838.jpg",
     "buyUrl": "https://www.costco.com.tw/Televisions-Appliances/Cooling-Heating-Air-Treatment/Heating-Cooling/Airmate-DC-Remote-Control-Tower-Fan-FT89R/p/150625",
