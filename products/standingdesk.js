@@ -1693,9 +1693,9 @@
     "name": "GET156E 140 x 70 公分電動升降桌",
     "price": {
       "currency": "TWD",
-      "amount": 5489,
-      "converted": 5489,
-      "confidence": "Costco 好市多 2026-07-11 頁面查核價"
+      "amount": 4289,
+      "converted": 4289,
+      "confidence": "Costco 好市多 2026-08-03 exact-model 公開結構化價格"
     },
     "image": "https://www.costco.com.tw/medias/sys_master/images/h8a/h61/386020263100446.jpg",
     "buyUrl": "https://www.costco.com.tw/Furniture-Kitchen/Furniture/Computer-Desk-Chair-Sets/FlexiSpot-Adjustable-Desk-GET156E-14070/p/156015",
@@ -1731,16 +1731,16 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 5489,
+      "amount": 4289,
       "currency": "TWD",
-      "converted": 5489,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1283941175&cgp=5489",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【Costco好市多】FlexiSpot 電動升降桌 GET156E-14070 FlexiSpot Adjustable Desk GET156E-14070",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Costco好市多 / 【Costco好市多】FlexiSpot 電動升降桌 GET156E-14070 FlexiSpot Adjustable Desk GET156E-14070」最低價為 NT$5,489，最低點日期 2026-07-09。",
-      "sourceKind": "price_history",
+      "converted": 4289,
+      "sourceUrl": "https://www.costco.com.tw/Furniture-Kitchen/Furniture/Computer-Desk-Chair-Sets/FlexiSpot-Adjustable-Desk-GET156E-14070/p/156015",
+      "sourceTitle": "Costco 好市多：FlexiSpot 電動升降桌 GET156E-14070 | Costco 好市多",
+      "evidenceSnippet": "Costco 好市多於 2026-08-03 顯示同型號可信新品公開價 NT$4,289，低於既有史低 NT$5,489。",
+      "sourceKind": "retailer_page",
       "confidence": "medium",
-      "checkedAt": "2026-07-09",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+      "checkedAt": "2026-08-03",
+      "note": "採用 Costco 好市多當日可購商品的同型號新品公開價；不含會員券、點數、信用卡回饋、二手、福利、展示、拆封或整新品。"
     },
     "issueResearch": {
       "status": "no_common_issue",

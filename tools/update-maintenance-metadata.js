@@ -58,12 +58,10 @@ function renderMaintenanceSummary(report) {
     ? `本次增量移除 ${summary.discontinuedRemoved.join("、")}`
     : "本次增量沒有移除產品";
   const timestamp = taipeiTimestamp(report.checkedAt);
-  const categoryReviewsCarriedForward = Array.isArray(report.categoryScan)
-    && report.categoryScan.some((row) => row.status === "manually_reviewed"
-      && row.reviewedAt !== report.checkedAt);
-  const categoryReviewSummary = categoryReviewsCarriedForward
-    ? "沿用本資料日已完成的逐類人工新品覆核（原覆核時間保留）"
-    : "逐類人工新品覆核已完成";
+  const categoryReviewSummary = {
+    same_date_carried_forward: "沿用本資料日已完成的逐類人工新品覆核（原覆核時間保留）",
+    mixed_current_and_carried_forward: "沿用本資料日既有逐類人工新品覆核，並補查部分分類（原覆核時間保留）",
+  }[report.categoryReviewProvenance] || "逐類人工新品覆核已完成";
   const historicalRows = report.changes?.historicalLows || [];
   const historicalChanges = summary.historicalLowPriceChanges ?? summary.historicalLowChanges ?? 0;
   const historicalDrops = historicalRows.filter(

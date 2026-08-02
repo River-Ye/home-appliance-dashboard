@@ -27,6 +27,7 @@ const {
 const {
   applyExchangeRates,
   buildCompactReport,
+  categoryReviewProvenance,
   currentCategoryScan,
   exchangeRateRequestUrl,
   exchangeRatesFromPayload,
@@ -35,6 +36,7 @@ const {
   maintenanceReviewReady,
   mergeDiscontinuationReviews,
   pchomeProductId,
+  selectPreviousCategoryReview,
   structuredPriceCandidates,
   syncHistoricalResearchRows,
   trustedStructuredPrice,
@@ -601,6 +603,14 @@ async function main() {
     }, "2026-07-22"),
     "a manual category decision without a review timestamp must not allow finalization",
   );
+  assert(
+    !maintenanceReviewReady({
+      dataDate: "2026-07-22",
+      checkedAt: "2026-07-22T14:16:00.000Z",
+      categoryScan: [{ status: "manually_reviewed", reviewedAt: "2026-07-22T14:17:00.000Z" }],
+    }, "2026-07-22"),
+    "a category review timestamp after the final audit checkpoint must not allow finalization",
+  );
   const originalCategoryReviewAt = "2026-07-22T14:16:00.000Z";
   const retainedCategoryReview = currentCategoryScan(
     [{ categoryId: "oven", items: [{ id: "fixture-product" }] }],
@@ -979,6 +989,7 @@ async function main() {
   );
   const carriedForwardMaintenanceSummary = renderMaintenanceSummary({
     checkedAt: "2026-07-26T13:00:00.000Z",
+    categoryReviewProvenance: "same_date_carried_forward",
     summary: {
       newProductsAdded: [],
       discontinuedRemoved: [],
@@ -994,6 +1005,84 @@ async function main() {
     carriedForwardMaintenanceSummary.includes("本次增量沒有納入新產品")
       && carriedForwardMaintenanceSummary.includes("沿用本資料日已完成的逐類人工新品覆核（原覆核時間保留）"),
     "a same-date incremental summary must distinguish carried reviews from fresh product additions",
+  );
+  const freshMaintenanceSummary = renderMaintenanceSummary({
+    checkedAt: "2026-08-02T22:29:14.214Z",
+    categoryReviewProvenance: "current_run",
+    summary: {
+      newProductsAdded: [],
+      discontinuedRemoved: [],
+    },
+    categoryScan: [{
+      status: "manually_reviewed",
+      reviewedAt: "2026-08-02T22:29:03.000Z",
+    }],
+    changes: { historicalLows: [] },
+    exchange: {},
+  });
+  assert(
+    freshMaintenanceSummary.includes("逐類人工新品覆核已完成")
+      && !freshMaintenanceSummary.includes("沿用本資料日已完成"),
+    "a newly completed draft review must not be reported as carried forward only because finalize happens later",
+  );
+  const selectedCurrentReview = selectPreviousCategoryReview([
+    {
+      dataDate: "2026-08-03",
+      checkedAt: "2026-08-02T22:20:23.000Z",
+      categoryScan: [{ status: "manually_reviewed", reviewedAt: "2026-08-02T22:29:03.000Z" }],
+    },
+    {
+      dataDate: "2026-08-03",
+      checkedAt: "2026-08-02T22:18:00.000Z",
+      categoryScan: [{ status: "manually_reviewed", reviewedAt: "2026-08-02T22:18:00.000Z" }],
+    },
+  ], "2026-08-03");
+  assert(
+    selectedCurrentReview.sourceCheckedAt === "2026-08-02T22:20:23.000Z"
+      && categoryReviewProvenance(selectedCurrentReview.rows, selectedCurrentReview.sourceCheckedAt) === "current_run",
+    "a review completed after the draft checkpoint must be marked as current-run provenance",
+  );
+  const selectedCarriedReview = selectPreviousCategoryReview([
+    {
+      dataDate: "2026-08-03",
+      checkedAt: "2026-08-02T22:20:23.000Z",
+      categoryScan: [{ status: "manually_reviewed", reviewedAt: "2026-08-02T22:29:03.000Z" }],
+    },
+    {
+      dataDate: "2026-08-03",
+      checkedAt: "2026-08-02T22:29:14.214Z",
+      categoryScan: [{ status: "manually_reviewed", reviewedAt: "2026-08-02T22:29:03.000Z" }],
+    },
+  ], "2026-08-03");
+  assert(
+    selectedCarriedReview.sourceCheckedAt === "2026-08-02T22:29:14.214Z"
+      && categoryReviewProvenance(selectedCarriedReview.rows, selectedCarriedReview.sourceCheckedAt) === "same_date_carried_forward",
+    "a finalized same-date review must be marked as carried forward on a later rerun",
+  );
+  const partiallyUpdatedStaleDraft = selectPreviousCategoryReview([
+    {
+      dataDate: "2026-08-03",
+      checkedAt: "2026-08-03T10:00:00.000Z",
+      categoryScan: [
+        { category: "wifi", status: "manually_reviewed", decision: "updated_wifi", reviewedAt: "2026-08-03T12:10:00.000Z" },
+        { category: "tv", status: "manually_reviewed", decision: "stale_tv", reviewedAt: "2026-08-03T11:00:00.000Z" },
+      ],
+    },
+    {
+      dataDate: "2026-08-03",
+      checkedAt: "2026-08-03T12:00:00.000Z",
+      categoryScan: [
+        { category: "wifi", status: "manually_reviewed", decision: "compact_wifi", reviewedAt: "2026-08-03T11:30:00.000Z" },
+        { category: "tv", status: "manually_reviewed", decision: "newer_compact_tv", reviewedAt: "2026-08-03T11:30:00.000Z" },
+      ],
+    },
+  ], "2026-08-03");
+  assert(
+    partiallyUpdatedStaleDraft.sourceCheckedAt === "2026-08-03T12:00:00.000Z"
+      && partiallyUpdatedStaleDraft.rows.find((row) => row.category === "wifi")?.decision === "updated_wifi"
+      && partiallyUpdatedStaleDraft.rows.find((row) => row.category === "tv")?.decision === "newer_compact_tv"
+      && categoryReviewProvenance(partiallyUpdatedStaleDraft.rows, partiallyUpdatedStaleDraft.sourceCheckedAt) === "mixed_current_and_carried_forward",
+    "a stale draft partial update must merge per category without replacing newer compact decisions",
   );
   assert(
     tokenizedIdentity("  ＡＳＵＳ RT－BE58U / V2  ").join(",") === "asus,rt,be58u,v2",

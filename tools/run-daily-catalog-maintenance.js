@@ -709,19 +709,56 @@ function syncHistoricalResearch(products, exchange, compact) {
   fs.writeFileSync(filePath, `${JSON.stringify(research, null, 2)}\n`);
 }
 
-function readPreviousCategoryScan() {
-  const candidates = [
+function selectPreviousCategoryReview(reports, maintenanceDate) {
+  const candidates = reports.filter((report) => {
+    const reportDate = report.dataDate;
+    return reportDate === maintenanceDate && Array.isArray(report.categoryScan);
+  });
+  if (candidates.length === 0) return { rows: [], sourceCheckedAt: null };
+
+  const reportCheckedAt = (report) => {
+    const parsed = Date.parse(report.checkedAt);
+    return Number.isNaN(parsed) ? Number.NEGATIVE_INFINITY : parsed;
+  };
+  const latestReport = candidates.reduce((latest, report) => (
+    reportCheckedAt(report) > reportCheckedAt(latest) ? report : latest
+  ));
+  const selectedByCategory = new Map(latestReport.categoryScan.map((row) => [row.category, row]));
+  for (const report of candidates) {
+    for (const row of report.categoryScan) {
+      const selected = selectedByCategory.get(row.category);
+      const reviewedAt = Date.parse(row.reviewedAt);
+      const selectedReviewedAt = Date.parse(selected?.reviewedAt);
+      if (!selected || (!Number.isNaN(reviewedAt)
+        && (Number.isNaN(selectedReviewedAt) || reviewedAt > selectedReviewedAt))) {
+        selectedByCategory.set(row.category, row);
+      }
+    }
+  }
+  const latestCategories = new Set(latestReport.categoryScan.map((row) => row.category));
+  const rows = [
+    ...latestReport.categoryScan.map((row) => selectedByCategory.get(row.category)),
+    ...[...selectedByCategory.entries()]
+      .filter(([category]) => !latestCategories.has(category))
+      .map(([, row]) => row),
+  ];
+  return { rows, sourceCheckedAt: latestReport.checkedAt || null };
+}
+
+function readPreviousCategoryReview() {
+  const paths = [
     DRAFT_REPORT_PATH,
     COMPACT_REPORT_PATH,
     path.join(ROOT, `catalog_maintenance_${MAINTENANCE_DATE}.json`),
   ];
-  for (const file of candidates) {
+  const reports = [];
+  for (const file of paths) {
     if (!fs.existsSync(file)) continue;
     const report = JSON.parse(fs.readFileSync(file, "utf8"));
     const reportDate = report.dataDate || path.basename(file).match(/\d{4}-\d{2}-\d{2}/)?.[0];
-    if (reportDate === MAINTENANCE_DATE && Array.isArray(report.categoryScan)) return report.categoryScan;
+    reports.push({ ...report, dataDate: reportDate });
   }
-  return [];
+  return selectPreviousCategoryReview(reports, MAINTENANCE_DATE);
 }
 
 function readPreviousDiscontinuationReviews() {
@@ -739,14 +776,29 @@ function maintenanceReviewReady(report, maintenanceDate) {
   return report?.dataDate === maintenanceDate
     && Array.isArray(report.categoryScan)
     && report.categoryScan.length > 0
-    && report.categoryScan.every(categoryReviewReady);
+    && report.categoryScan.every((row) => categoryReviewReady(row, report.checkedAt));
 }
 
-function categoryReviewReady(row) {
-  return row?.status === "manually_reviewed"
+function categoryReviewReady(row, maximumReviewedAt = null) {
+  const ready = row?.status === "manually_reviewed"
     && typeof row.reviewedAt === "string"
     && /^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}(?:\.\d{3})?Z$/.test(row.reviewedAt)
     && !Number.isNaN(Date.parse(row.reviewedAt));
+  if (!ready || maximumReviewedAt === null || maximumReviewedAt === undefined) return ready;
+  const maximumTimestamp = Date.parse(maximumReviewedAt);
+  return !Number.isNaN(maximumTimestamp) && Date.parse(row.reviewedAt) <= maximumTimestamp;
+}
+
+function categoryReviewProvenance(categoryScan, sourceCheckedAt) {
+  if (!Array.isArray(categoryScan) || categoryScan.length === 0 || categoryScan.some((row) => !categoryReviewReady(row))) {
+    return "pending";
+  }
+  const sourceTimestamp = Date.parse(sourceCheckedAt);
+  if (Number.isNaN(sourceTimestamp)) return "current_run";
+  const currentReviewCount = categoryScan.filter((row) => Date.parse(row.reviewedAt) > sourceTimestamp).length;
+  if (currentReviewCount === categoryScan.length) return "current_run";
+  if (currentReviewCount === 0) return "same_date_carried_forward";
+  return "mixed_current_and_carried_forward";
 }
 
 function currentCategoryScan(categories, previousRows, checkedAt) {
@@ -797,7 +849,7 @@ function mergeDiscontinuationReviews(candidates, previousReviews = new Map()) {
   });
 }
 
-function buildCompactReport({ catalog, baselineById, raw, exchange, checkedAt, categoryScan, previousDiscontinuationReviews = new Map() }) {
+function buildCompactReport({ catalog, baselineById, raw, exchange, checkedAt, categoryScan, categoryReviewProvenance: reviewProvenance = "pending", previousDiscontinuationReviews = new Map() }) {
   const finalIds = catalog.products.map((product) => product.id).sort();
   const baselineIds = [...baselineById.keys()].sort();
   const finalById = new Map(catalog.products.map((product) => [product.id, product]));
@@ -897,6 +949,7 @@ function buildCompactReport({ catalog, baselineById, raw, exchange, checkedAt, c
       discontinuedRemoved: removedIds,
     },
     exchange,
+    categoryReviewProvenance: reviewProvenance,
     categoryScan,
     changes: {
       prices: priceChanges,
@@ -953,7 +1006,8 @@ async function main() {
   applyExchangeRates(catalog.products, exchange, raw);
   await mapLimit(catalog.products, CONCURRENCY, (product) => auditHistoricalSource(product, raw));
 
-  const categoryScan = currentCategoryScan(catalog.categories, readPreviousCategoryScan(), checkedAt);
+  const previousCategoryReview = readPreviousCategoryReview();
+  const categoryScan = currentCategoryScan(catalog.categories, previousCategoryReview.rows, checkedAt);
   const compact = buildCompactReport({
     catalog,
     baselineById,
@@ -961,9 +1015,10 @@ async function main() {
     exchange,
     checkedAt,
     categoryScan,
+    categoryReviewProvenance: categoryReviewProvenance(categoryScan, previousCategoryReview.sourceCheckedAt),
     previousDiscontinuationReviews: readPreviousDiscontinuationReviews(),
   });
-  if (WRITE && categoryScan.some((row) => !categoryReviewReady(row))) {
+  if (WRITE && categoryScan.some((row) => !categoryReviewReady(row, checkedAt))) {
     throw new Error("Refusing to finalize: every category requires an explicit manually_reviewed new-product decision with a valid reviewedAt timestamp");
   }
   if (WRITE && compact.summary.pchomeInvalidPrices + compact.summary.pchomeRequestFailures > 0) {
@@ -1006,6 +1061,7 @@ if (require.main === module) {
 module.exports = {
   applyExchangeRates,
   buildCompactReport,
+  categoryReviewProvenance,
   currentCategoryScan,
   exchangeRateRequestUrl,
   exchangeRatesFromPayload,
@@ -1014,6 +1070,7 @@ module.exports = {
   maintenanceReviewReady,
   mergeDiscontinuationReviews,
   pchomeProductId,
+  selectPreviousCategoryReview,
   structuredPriceCandidates,
   syncHistoricalResearchRows,
   trustedStructuredPrice,

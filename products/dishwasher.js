@@ -1677,9 +1677,9 @@
     "name": "45公分 獨立式洗碗機",
     "price": {
       "currency": "TWD",
-      "amount": 25599,
-      "converted": 25599,
-      "confidence": "Costco 好市多 2026-07-11 頁面查核價"
+      "amount": 21598,
+      "converted": 21598,
+      "confidence": "Costco 好市多 2026-08-03 exact-model 公開結構化價格"
     },
     "image": "https://www.costco.com.tw/medias/sys_master/images/h3d/h7a/66317147242526.jpg",
     "buyUrl": "https://www.costco.com.tw/Televisions-Appliances/Kitchen-Appliances/Dishwashers-Dish-Dryers/BOSCH-45-cm-Freestanding-Dishwasher-SPS2IKW00X/p/131781",

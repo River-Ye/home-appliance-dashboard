@@ -254,9 +254,9 @@
     "name": "BE3600 雙頻 Wi-Fi 7 AiMesh 可擴充路由器",
     "price": {
       "currency": "TWD",
-      "amount": 3360,
-      "converted": 3360,
-      "confidence": "Yahoo購物中心 2026-08-01 exact-model 公開結構化價格"
+      "amount": 3552,
+      "converted": 3552,
+      "confidence": "Yahoo購物中心 2026-08-03 exact-model 公開結構化價格"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAFLPA900JKWXK/000001_1783555436.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/ASUS-%E8%8F%AF%E7%A2%A9-RT-BE58U-V2-BE3600-%E9%9B%99%E9%A0%BB-Wi-Fi-7-%E5%8F%AF%E6%93%B4%E5%85%85%E5%BC%8F%E8%B7%AF%E7%94%B1%E5%99%A8-12005854.html",
@@ -2545,9 +2545,9 @@
     "name": "BE7200 Wi-Fi 7 AiMesh 雙頻電競路由器",
     "price": {
       "currency": "TWD",
-      "amount": 9999,
-      "converted": 9999,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 9499,
+      "converted": 9499,
+      "confidence": "PChome 2026-08-03 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAFJ5A900HRBD9/000001_1760580708.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DRAFJ5-A900HRBD9",
@@ -3884,9 +3884,9 @@
     "name": "BE3600 雙頻 Wi-Fi 7 路由器",
     "price": {
       "currency": "TWD",
-      "amount": 2049,
-      "converted": 2049,
-      "confidence": "Costco 好市多 2026-07-11 頁面查核價"
+      "amount": 1639,
+      "converted": 1639,
+      "confidence": "Costco 好市多 2026-08-03 exact-model 公開結構化價格"
     },
     "image": "https://www.costco.com.tw/medias/sys_master/images/h75/h55/366793139191838.jpg",
     "buyUrl": "https://www.costco.com.tw/Digital-Mobile/Laptops-Computers/Keyboards-Mice-Computer-Accessories/TP-Link-BE3600-Dual-Band-Wi-Fi-7-Router-Archer-BE3600/p/154268",
@@ -3922,16 +3922,16 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 2049,
+      "amount": 1639,
       "currency": "TWD",
-      "converted": 2049,
+      "converted": 1639,
       "sourceUrl": "https://www.costco.com.tw/Digital-Mobile/Laptops-Computers/Keyboards-Mice-Computer-Accessories/TP-Link-BE3600-Dual-Band-Wi-Fi-7-Router-Archer-BE3600/p/154268",
-      "sourceTitle": "Costco 商品頁：TP-Link BE3600 雙頻 Wi-Fi 7 路由器 Archer BE3600 | Costco 好市多",
-      "evidenceSnippet": "Costco 商品頁 於 2026-07-10 回傳同一商品頁「TP-Link BE3600 雙頻 Wi-Fi 7 路由器 Archer BE3600 | Costco 好市多」查核價 NT$2,049，低於原先記錄史低。",
+      "sourceTitle": "Costco 好市多：TP-Link BE3600 雙頻 Wi-Fi 7 路由器 Archer BE3600 | Costco 好市多",
+      "evidenceSnippet": "Costco 好市多於 2026-08-03 顯示同型號可信新品公開價 NT$1,639，低於既有史低 NT$2,049。",
       "sourceKind": "retailer_page",
       "confidence": "medium",
-      "checkedAt": "2026-07-10",
-      "note": "採用可信通路同一商品頁可公開查核現價作為本次觀測到的最低價；同型號/規格並排除會員個人化折扣、信用卡回饋、點數、二手、福利品、展示機、箱損、拆封與整新品。"
+      "checkedAt": "2026-08-03",
+      "note": "採用 Costco 好市多當日可購商品的同型號新品公開價；不含會員券、點數、信用卡回饋、二手、福利、展示、拆封或整新品。"
     },
     "issueResearch": {
       "status": "no_common_issue",
