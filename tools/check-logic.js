@@ -27,6 +27,7 @@ const {
 const {
   applyExchangeRates,
   buildCompactReport,
+  currentCategoryScan,
   exchangeRateRequestUrl,
   exchangeRatesFromPayload,
   loadCatalogFromGit,
@@ -580,12 +581,40 @@ async function main() {
     "visible official product status must still create a discontinued-product candidate",
   );
   assert(
-    maintenanceReviewReady({ dataDate: "2026-07-22", categoryScan: [{ status: "manually_reviewed" }] }, "2026-07-22"),
+    maintenanceReviewReady({
+      dataDate: "2026-07-22",
+      categoryScan: [{ status: "manually_reviewed", reviewedAt: "2026-07-22T14:16:00.000Z" }],
+    }, "2026-07-22"),
     "same-date explicit category reviews should allow finalization",
   );
   assert(
-    !maintenanceReviewReady({ dataDate: "2026-07-22", categoryScan: [{ status: "manually_reviewed" }] }, "2026-07-23"),
+    !maintenanceReviewReady({
+      dataDate: "2026-07-22",
+      categoryScan: [{ status: "manually_reviewed", reviewedAt: "2026-07-22T14:16:00.000Z" }],
+    }, "2026-07-23"),
     "a new data date should require a draft and fresh category reviews",
+  );
+  assert(
+    !maintenanceReviewReady({
+      dataDate: "2026-07-22",
+      categoryScan: [{ status: "manually_reviewed", reviewedAt: null }],
+    }, "2026-07-22"),
+    "a manual category decision without a review timestamp must not allow finalization",
+  );
+  const originalCategoryReviewAt = "2026-07-22T14:16:00.000Z";
+  const retainedCategoryReview = currentCategoryScan(
+    [{ categoryId: "oven", items: [{ id: "fixture-product" }] }],
+    [{
+      category: "oven",
+      status: "manually_reviewed",
+      decision: "no_eligible_addition",
+      reviewedAt: originalCategoryReviewAt,
+    }],
+    "2026-07-22T20:00:00.000Z",
+  )[0];
+  assert(
+    retainedCategoryReview.reviewedAt === originalCategoryReviewAt,
+    "a same-date category rerun must preserve the actual manual review timestamp",
   );
   const baselineProduct = {
     id: "fixture-product",
@@ -947,6 +976,24 @@ async function main() {
       exchange: { date: "2026-07-26 00:02 UTC", USD_TWD: 32.349719 },
     }).includes("本輪下修 2 筆、撤銷 1 筆不適用史低"),
     "maintenance summary should distinguish lowered historical prices from invalidated evidence",
+  );
+  const carriedForwardMaintenanceSummary = renderMaintenanceSummary({
+    checkedAt: "2026-07-26T13:00:00.000Z",
+    summary: {
+      newProductsAdded: [],
+      discontinuedRemoved: [],
+    },
+    categoryScan: [{
+      status: "manually_reviewed",
+      reviewedAt: "2026-07-26T01:00:00.000Z",
+    }],
+    changes: { historicalLows: [] },
+    exchange: {},
+  });
+  assert(
+    carriedForwardMaintenanceSummary.includes("本次增量沒有納入新產品")
+      && carriedForwardMaintenanceSummary.includes("沿用本資料日已完成的逐類人工新品覆核（原覆核時間保留）"),
+    "a same-date incremental summary must distinguish carried reviews from fresh product additions",
   );
   assert(
     tokenizedIdentity("  ＡＳＵＳ RT－BE58U / V2  ").join(",") === "asus,rt,be58u,v2",

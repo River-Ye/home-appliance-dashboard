@@ -17,9 +17,9 @@
     "name": "27L 蒸烘烤微波爐",
     "price": {
       "currency": "TWD",
-      "amount": 14310,
-      "converted": 14310,
-      "confidence": "PChome 2026-07-28 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 14000,
+      "converted": 14000,
+      "confidence": "PChome 2026-08-02 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBJ02A900G62BM/000001_1756899692.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBJ02-A900G62BM",
@@ -338,8 +338,8 @@
     "price": {
       "currency": "USD",
       "amount": 499.95,
-      "converted": 16143,
-      "confidence": "Breville 官方 2026-07-21 來源價；ExchangeRate-API 2026-08-01 匯率換算"
+      "converted": 16152,
+      "confidence": "Breville 官方 2026-07-21 來源價；ExchangeRate-API 2026-08-02 匯率換算"
     },
     "image": "https://assets.breville.com/cdn-cgi/image/width=1300,format=auto/BOV950/BOV950BSS1BUS1/pdp3.png?pdp=",
     "buyUrl": "https://www.breville.com/en-us/product/bov950",
@@ -1865,8 +1865,8 @@
     "price": {
       "currency": "USD",
       "amount": 449.99,
-      "converted": 14530,
-      "confidence": "SharkNinja 美國官方 2026-07-21 商品頁現貨價；ExchangeRate-API 2026-08-01 匯率換算"
+      "converted": 14538,
+      "confidence": "SharkNinja 美國官方 2026-07-21 商品頁現貨價；ExchangeRate-API 2026-08-02 匯率換算"
     },
     "image": "https://assets.sharkninja.com/image/upload/f_auto/q_auto/SharkNinja-NA/MW101_01.jpg",
     "buyUrl": "https://www.sharkninja.com/ninja-crispi-microwave/MW101.html",

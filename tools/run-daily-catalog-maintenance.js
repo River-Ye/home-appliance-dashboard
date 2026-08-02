@@ -739,7 +739,14 @@ function maintenanceReviewReady(report, maintenanceDate) {
   return report?.dataDate === maintenanceDate
     && Array.isArray(report.categoryScan)
     && report.categoryScan.length > 0
-    && report.categoryScan.every((row) => row.status === "manually_reviewed");
+    && report.categoryScan.every(categoryReviewReady);
+}
+
+function categoryReviewReady(row) {
+  return row?.status === "manually_reviewed"
+    && typeof row.reviewedAt === "string"
+    && /^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}(?:\.\d{3})?Z$/.test(row.reviewedAt)
+    && !Number.isNaN(Date.parse(row.reviewedAt));
 }
 
 function currentCategoryScan(categories, previousRows, checkedAt) {
@@ -763,7 +770,7 @@ function currentCategoryScan(categories, previousRows, checkedAt) {
     return {
       ...previous,
       cutoff: MAINTENANCE_DATE,
-      reviewedAt: checkedAt,
+      reviewedAt: previous.reviewedAt ?? null,
       finalProductCount: category.items.length,
       minimumSatisfied: category.items.length >= 20,
     };
@@ -956,8 +963,8 @@ async function main() {
     categoryScan,
     previousDiscontinuationReviews: readPreviousDiscontinuationReviews(),
   });
-  if (WRITE && categoryScan.some((row) => row.status !== "manually_reviewed")) {
-    throw new Error("Refusing to finalize: every category requires an explicit manually_reviewed new-product decision");
+  if (WRITE && categoryScan.some((row) => !categoryReviewReady(row))) {
+    throw new Error("Refusing to finalize: every category requires an explicit manually_reviewed new-product decision with a valid reviewedAt timestamp");
   }
   if (WRITE && compact.summary.pchomeInvalidPrices + compact.summary.pchomeRequestFailures > 0) {
     throw new Error("Refusing to write with unsafe PChome audit results");
@@ -999,6 +1006,7 @@ if (require.main === module) {
 module.exports = {
   applyExchangeRates,
   buildCompactReport,
+  currentCategoryScan,
   exchangeRateRequestUrl,
   exchangeRatesFromPayload,
   loadCatalogFromGit,

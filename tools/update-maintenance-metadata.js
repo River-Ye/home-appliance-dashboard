@@ -52,12 +52,18 @@ function renderMaintenanceSummary(report) {
   const summary = report.summary || {};
   const exchange = report.exchange || {};
   const added = summary.newProductsAdded?.length
-    ? `新增 ${summary.newProductsAdded.join("、")}`
-    : "沒有納入新產品";
+    ? `本次增量新增 ${summary.newProductsAdded.join("、")}`
+    : "本次增量沒有納入新產品";
   const removed = summary.discontinuedRemoved?.length
-    ? `移除 ${summary.discontinuedRemoved.join("、")}`
-    : "沒有移除產品";
+    ? `本次增量移除 ${summary.discontinuedRemoved.join("、")}`
+    : "本次增量沒有移除產品";
   const timestamp = taipeiTimestamp(report.checkedAt);
+  const categoryReviewsCarriedForward = Array.isArray(report.categoryScan)
+    && report.categoryScan.some((row) => row.status === "manually_reviewed"
+      && row.reviewedAt !== report.checkedAt);
+  const categoryReviewSummary = categoryReviewsCarriedForward
+    ? "沿用本資料日已完成的逐類人工新品覆核（原覆核時間保留）"
+    : "逐類人工新品覆核已完成";
   const historicalRows = report.changes?.historicalLows || [];
   const historicalChanges = summary.historicalLowPriceChanges ?? summary.historicalLowChanges ?? 0;
   const historicalDrops = historicalRows.filter(
@@ -78,7 +84,7 @@ function renderMaintenanceSummary(report) {
 
   return [
     `- ${timestamp}（台灣時間）完成 ${summary.finalProducts} 筆商品、${summary.categories} 類全量查核；${summary.pchomeAudited} 筆 PChome SKU API 已完成（${summary.pchomeExactModelVerified} 筆 exact model、${summary.pchomeReviewedBindingVerified} 筆人工 SKU 綁定可寫入，${summary.pchomeModelUnverified} 筆型號未自動確認），更新 ${summary.priceChanges} 筆現價（${summary.priceDrops} 筆降價、${summary.priceRises} 筆漲價），${summary.pchomeOutOfStockTracked} 筆 Qty 0 只列追蹤。`,
-    `- ${added}；${removed}。逐類人工新品覆核已完成，所有分類至少 ${summary.minimumProductsPerCategory} 筆；停產只採品牌官方明確證據，缺貨、反爬或單次連線錯誤不作為刪除依據。`,
+    `- ${added}；${removed}。${categoryReviewSummary}，所有分類至少 ${summary.minimumProductsPerCategory} 筆；停產只採品牌官方明確證據，缺貨、反爬或單次連線錯誤不作為刪除依據。`,
     `- 圖片查核覆蓋 ${summary.imagesAudited} 筆；${summary.sourcesVerifiedAvailable} 筆來源可由 exact model 或人工 SKU 綁定確認，${exceptionCount} 筆來源／圖片例外保留原資料。史低為 ${summary.historicalFound} 筆 \`found\`、${summary.historicalMissing} 筆 \`not_found\`，本輪${historicalChangeSummary}；${summary.historicalSourcesVerified} 筆來源可自動重現，其餘保留原逐筆證據且未臆測失效。`,
     `- ExchangeRate-API 最新批次為 ${exchange.date}，USD/TWD ${exchange.USD_TWD}；${summary.foreignPricesRecomputed} 筆外幣商品已重算。完整摘要與例外保存在 \`catalog_maintenance_latest.json\`。`,
   ].join("\n");
