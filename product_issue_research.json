@@ -1,9 +1,9 @@
 {
   "summary": {
-    "checkedAt": "2026-08-02T00:00:00+08:00",
-    "total": 715,
+    "checkedAt": "2026-08-04T00:00:00+08:00",
+    "total": 716,
     "commonIssueProducts": 36,
-    "noCommonIssueProducts": 679,
+    "noCommonIssueProducts": 680,
     "pendingManualReview": 0,
     "commonIssues": 36,
     "searchUnavailable": 26,
@@ -72328,6 +72328,95 @@
           "candidateUrls": [],
           "candidates": [],
           "inspectedAt": "2026-08-02T00:00:00+08:00"
+        }
+      ],
+      "evidence": [],
+      "rejectedCandidates": []
+    },
+    {
+      "id": "chair-irocks-t36",
+      "category": "chair",
+      "brand": "iRocks",
+      "model": "T36",
+      "name": "T36 人體工學椅",
+      "identity": {
+        "canonicalModel": "T36",
+        "lookupLabel": "iRocks T36",
+        "aliases": [
+          "iRocks T36",
+          "I-ROCKS T36"
+        ],
+        "evidenceUrl": "https://www.i-rocks.com.tw/web/product/product_in.jsp?lang=tw&pd_no=PD1781490256838"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "status": "completed",
+        "decision": "no_common_issue",
+        "reviewedAt": "2026-08-04",
+        "checkedPlatforms": [
+          "Mobile01",
+          "Reddit"
+        ],
+        "queries": [
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"iRocks T36\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22iRocks%20T36%22%20%28%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95%29",
+            "targetHost": "mobile01.com"
+          },
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"iRocks T36\" (problem OR issue OR defect OR \"negative review\")",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22iRocks%20T36%22%20%28problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22%29",
+            "targetHost": "reddit.com"
+          }
+        ],
+        "candidateDisposition": "iRocks T36：完成 Mobile01 與 Reddit exact-model 跨站查詢，沒有找到通過 canonical-model 邊界的原頁候選；此結果不代表完全沒有負評。",
+        "representativeSources": [],
+        "candidateReviews": [],
+        "reviewerNote": "T36 已於 2026-08-04 實際請求 Mobile01、Reddit 兩個獨立網站的 exact-model 查詢；搜尋結果未出現 exact-model 第一人稱原頁候選，未以搜尋摘要自動推定沒有負評。",
+        "attestation": "manual_cross_site_search_reviewed_no_candidate"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-08-04",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"iRocks T36\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22iRocks%20T36%22%20%28%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95%29",
+            "targetHost": "mobile01.com"
+          },
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"iRocks T36\" (problem OR issue OR defect OR \"negative review\")",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22iRocks%20T36%22%20%28problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22%29",
+            "targetHost": "reddit.com"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"iRocks T36\" (災情 OR 問題 OR 故障 OR 負評)",
+          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22iRocks%20T36%22%20%28%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95%29",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-08-04T00:00:00+08:00"
+        },
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"iRocks T36\" (problem OR issue OR defect OR \"negative review\")",
+          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22iRocks%20T36%22%20%28problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22%29",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-08-04T00:00:00+08:00"
         }
       ],
       "evidence": [],
