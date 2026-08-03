@@ -1591,9 +1591,9 @@
     "name": "PuriCare 360° 空氣清淨機",
     "price": {
       "currency": "TWD",
-      "amount": 17999,
-      "converted": 17999,
-      "confidence": "Costco 好市多 2026-07-11 頁面查核價"
+      "amount": 17899,
+      "converted": 17899,
+      "confidence": "Costco 好市多 2026-08-04 exact-model 公開結構化價格"
     },
     "image": "https://www.costco.com.tw/medias/sys_master/images/hfb/h8d/115203619782686.jpg",
     "buyUrl": "https://www.costco.com.tw/Televisions-Appliances/Cooling-Heating-Air-Treatment/Air-Purifiers-Filters-Accessories/LG-PuriCare-360-Air-Purifier-AS651DWH0/p/136662",

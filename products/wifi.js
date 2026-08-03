@@ -743,8 +743,8 @@
     "price": {
       "currency": "USD",
       "amount": 189,
-      "converted": 6106,
-      "confidence": "Ubiquiti Store 2026-07-21 來源價；ExchangeRate-API 2026-08-02 匯率換算"
+      "converted": 6101,
+      "confidence": "Ubiquiti Store 2026-07-21 來源價；ExchangeRate-API 2026-08-03 匯率換算"
     },
     "image": "https://cdn.ecomm.ui.com/products/fa8dd4e4-36c8-4c79-a928-22c7bff2ce29/ab5bc8a4-6135-402e-a695-e3ea5e16d3e6.png",
     "buyUrl": "https://store.ui.com/us/en/category/all-wifi/products/u7-pro",
@@ -832,8 +832,8 @@
     "price": {
       "currency": "USD",
       "amount": 159,
-      "converted": 5137,
-      "confidence": "Ubiquiti Store 2026-07-21 來源價；ExchangeRate-API 2026-08-02 匯率換算"
+      "converted": 5132,
+      "confidence": "Ubiquiti Store 2026-07-21 來源價；ExchangeRate-API 2026-08-03 匯率換算"
     },
     "image": "https://cdn.ecomm.ui.com/products/8e88b222-7a55-4cf0-8677-ae9b6347fe84/e16aa122-b5e5-4ffb-9f1a-27ee14d9ab3d.png",
     "buyUrl": "https://store.ui.com/us/en/category/all-wifi/products/u6-pro",
@@ -912,8 +912,8 @@
     "price": {
       "currency": "USD",
       "amount": 99,
-      "converted": 3198,
-      "confidence": "Ubiquiti Store 2026-07-21 來源價；ExchangeRate-API 2026-08-02 匯率換算"
+      "converted": 3196,
+      "confidence": "Ubiquiti Store 2026-07-21 來源價；ExchangeRate-API 2026-08-03 匯率換算"
     },
     "image": "https://cdn.ecomm.ui.com/products/253cc208-4b09-4b2e-9d1a-7aa1e8f93507/49241c96-878f-4e40-8541-c2e89c1c5e6e.png",
     "buyUrl": "https://store.ui.com/us/en/category/all-wifi/products/u7-lite",
@@ -1316,8 +1316,8 @@
     "price": {
       "currency": "USD",
       "amount": 129,
-      "converted": 4168,
-      "confidence": "Ubiquiti Store 2026-07-21 來源價；ExchangeRate-API 2026-08-02 匯率換算"
+      "converted": 4164,
+      "confidence": "Ubiquiti Store 2026-07-21 來源價；ExchangeRate-API 2026-08-03 匯率換算"
     },
     "image": "https://cdn.ecomm.ui.com/products/6d5c6141-e2e9-416a-b789-53e59416bb1a/853bc73b-f65b-4e59-a171-75c9a4a4615e.png",
     "buyUrl": "https://store.ui.com/us/en/category/all-wifi/products/u6-plus",
@@ -1420,8 +1420,8 @@
     "price": {
       "currency": "USD",
       "amount": 279,
-      "converted": 9014,
-      "confidence": "Ubiquiti Store 2026-07-21 來源價；ExchangeRate-API 2026-08-02 匯率換算"
+      "converted": 9006,
+      "confidence": "Ubiquiti Store 2026-07-21 來源價；ExchangeRate-API 2026-08-03 匯率換算"
     },
     "image": "https://cdn.ecomm.ui.com/products/350070a0-ae43-431b-b052-8e849c3b0a75/bad94693-bc54-4ab4-b060-9b972401941c.png",
     "buyUrl": "https://store.ui.com/us/en/category/all-wifi/products/u7-pro-max",
@@ -2815,9 +2815,9 @@
     "name": "BE9300 三頻 Wi-Fi 7 旗艦路由器",
     "price": {
       "currency": "TWD",
-      "amount": 8700,
-      "converted": 8700,
-      "confidence": "PChome 2026-07-31 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 6990,
+      "converted": 6990,
+      "confidence": "PChome 2026-08-04 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAFJAA900IFBVA/000001_1780997121.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DRAFJA-A900IFBVA",

@@ -570,9 +570,9 @@
     "name": "Iskur V2 電競椅",
     "price": {
       "currency": "TWD",
-      "amount": 17990,
-      "converted": 17990,
-      "confidence": "PChome 2026-07-28 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 20900,
+      "converted": 20900,
+      "confidence": "PChome 2026-08-04 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DCBE2LA900HBXCK/000001_1783562976.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DCBE2L-A900HBXCK",
@@ -1916,6 +1916,88 @@
           "platform": "Reddit",
           "query": "site:reddit.com \"Backbone Orca\" (problem OR issue OR defect OR \"negative review\")",
           "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Backbone%20Orca%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
+          "targetHost": "reddit.com"
+        }
+      ]
+    }
+  },
+  {
+    "id": "chair-irocks-t36",
+    "category": "chair",
+    "rank": 25,
+    "budget": "value",
+    "channel": "tw",
+    "brand": "iRocks",
+    "model": "T36",
+    "name": "T36 人體工學椅",
+    "price": {
+      "currency": "TWD",
+      "amount": 6641,
+      "converted": 6641,
+      "confidence": "PCPARTY 2026-08-04 exact-model 結構化公開現貨價"
+    },
+    "image": "https://img.shoplineapp.com/media/image_clips/6a3bb7831f653f80a5328a3b/original.jpg?1782298499=&owner_id=58463ef36170691735790100",
+    "buyUrl": "https://www.pcparty.com.tw/en/products/i-rocks-i-rocks-t36",
+    "buyLabel": "PCPARTY",
+    "specs": [
+      "高彈力網眼編織布",
+      "4D 可調扶手",
+      "可調座深",
+      "21° 三段傾仰",
+      "Class 4 氣壓棒",
+      "承重 113 kg"
+    ],
+    "description": "iRocks 於 2026 年推出的台灣製人體工學椅，以可調座深、4D 扶手、三段傾仰與高彈力網眼椅背補足七千元內的工作與遊戲座椅選擇。",
+    "pros": [
+      "台灣通路現貨、全椅兩年保固",
+      "座深、扶手與傾仰調整在同價位帶完整"
+    ],
+    "cons": [
+      "座面為泡棉而非全網布",
+      "需自行組裝，購買前仍應確認坐深與扶手高度是否合身"
+    ],
+    "bestFor": "預算七千元內、需要可調座深與 4D 扶手的居家工作或遊戲使用者。",
+    "recommendation": "2026 新品補充推薦；台灣現貨、兩年保固與調整機能具有競爭力，仍建議先確認椅身尺寸與自身坐姿需求。",
+    "score": 88,
+    "voltage": "不適用",
+    "warranty": "正常使用全椅 2 年",
+    "tags": [
+      "2026新品",
+      "台灣製造",
+      "人體工學",
+      "4D扶手",
+      "可調座深"
+    ],
+    "releaseDate": "2026-07-01",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-08-04",
+      "note": "已查 iRocks 官方新品與商品頁、PCPARTY、Yahoo 購物、富廉網、BigGo、FindPrice 與 LBJ exact-model 公開入口；NT$6,641 只證明本次 PCPARTY 現貨價，沒有可重現的同型號歷史價格曲線或明確最低點日期，因此不以現價推定史低。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-08-04",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"iRocks T36\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22iRocks%20T36%22%20%28%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95%29",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"iRocks T36\" (problem OR issue OR defect OR \"negative review\")",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22iRocks%20T36%22%20%28problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22%29",
           "targetHost": "reddit.com"
         }
       ]

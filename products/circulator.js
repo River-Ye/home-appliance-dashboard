@@ -196,9 +196,9 @@
     "name": "10 吋 DC 直流遙控空氣循環扇",
     "price": {
       "currency": "TWD",
-      "amount": 3990,
-      "converted": 3990,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 4200,
+      "converted": 4200,
+      "confidence": "PChome 2026-08-04 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMABLYA900EV5DV/000001_1649666306.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMABLY-A900EV5DV",

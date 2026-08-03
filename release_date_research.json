@@ -1,11 +1,11 @@
 {
   "summary": {
-    "checkedAt": "2026-08-02T00:00:00+08:00",
-    "total": 715,
-    "found": 206,
+    "checkedAt": "2026-08-04T00:00:00+08:00",
+    "total": 716,
+    "found": 207,
     "missing": 509,
     "byConfidence": {
-      "official": 105,
+      "official": 106,
       "credible_article": 90,
       "not_found": 509,
       "retailer_explicit": 11
@@ -10013,6 +10013,21 @@
       "query": "site:backbone.tw \"WB-AC-025-111\" (上市 OR 發售 OR 發表 OR 新品)",
       "sourceKind": "not_found_after_official_review",
       "reason": "Taiwan Access 與 Backbone 官方 exact-model 頁可確認現售商品、SKU 與規格，但均未提供正式上市／發售日期；頁面修改時間與搜尋索引日期不作為 releaseDate。"
+    },
+    {
+      "id": "chair-irocks-t36",
+      "category": "chair",
+      "brand": "iRocks",
+      "model": "T36",
+      "name": "T36 人體工學椅",
+      "releaseDate": "2026-07-01",
+      "sourceUrl": "https://www.i-rocks.com.tw/web/about/news_in.jsp?lang=tw&np_no=NP1782875335452",
+      "sourceTitle": "T36 人體工學椅：舒適升級，開啟辦公新「坐」標",
+      "evidenceSnippet": "iRocks 官方新品文章於 2026-07-01 明示推出全新 T36 人體工學椅，並列出可調座深、4D 扶手與三段傾仰等 exact-model 規格。",
+      "confidence": "official",
+      "query": "site:i-rocks.com.tw \"T36 人體工學椅\" \"2026-07-01\"",
+      "sourceKind": "official_brand_announcement",
+      "reason": "品牌官方新品文章同時提供 exact product name、正式發布日期與規格，可支持完整上市日。"
     }
   ]
 }

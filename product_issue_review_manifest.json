@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-08-02",
+  "checkedAt": "2026-08-04",
   "methodVersion": 3,
   "policy": "每筆決策須保存 exact-model 跨站查詢與人工 attestation；每個搜尋候選須逐頁保存摘要、獨立作者數與具體排除理由，研究工具不得自行生成拒絕結論。",
   "results": [
@@ -41294,6 +41294,38 @@
       "representativeSources": [],
       "candidateReviews": [],
       "reviewerNote": "WB-AC-025-111 已於 2026-08-02 實際請求 Mobile01、Reddit 兩個獨立網站的 exact-model 查詢；未以搜尋摘要自動推定沒有負評。",
+      "attestation": "manual_cross_site_search_reviewed_no_candidate"
+    },
+    {
+      "id": "chair-irocks-t36",
+      "category": "chair",
+      "brand": "iRocks",
+      "model": "T36",
+      "reviewedAt": "2026-08-04",
+      "reviewBatch": "chair",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "Mobile01",
+        "Reddit"
+      ],
+      "queries": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"iRocks T36\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22iRocks%20T36%22%20%28%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95%29",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"iRocks T36\" (problem OR issue OR defect OR \"negative review\")",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22iRocks%20T36%22%20%28problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22%29",
+          "targetHost": "reddit.com"
+        }
+      ],
+      "candidateDisposition": "iRocks T36：完成 Mobile01 與 Reddit exact-model 跨站查詢，沒有找到通過 canonical-model 邊界的原頁候選；此結果不代表完全沒有負評。",
+      "representativeSources": [],
+      "candidateReviews": [],
+      "reviewerNote": "T36 已於 2026-08-04 實際請求 Mobile01、Reddit 兩個獨立網站的 exact-model 查詢；搜尋結果未出現 exact-model 第一人稱原頁候選，未以搜尋摘要自動推定沒有負評。",
       "attestation": "manual_cross_site_search_reviewed_no_candidate"
     }
   ]
