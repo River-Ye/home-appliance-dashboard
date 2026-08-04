@@ -680,10 +680,85 @@ async function main() {
     disposition: "confirmed_official_discontinued_remove",
     reviewedAt: "2026-07-28T03:27:00.000Z",
     reviewEvidence: {
+      sourceKind: "official",
+      exactModelConfirmed: true,
       sourceTitle: "Official exact-model product page",
       evidenceSnippet: "The exact-model page marks this product as discontinued.",
     },
   };
+  assertThrows(
+    () => buildCompactReport({
+      catalog: { products: [], categories: [{ items: [] }] },
+      baselineById: new Map([[removedProduct.id, removedProduct]]),
+      raw: {
+        sourceRows: [],
+        imageRows: [],
+        historicalRows: [],
+        foreignPriceChanges: [],
+        discontinuedCandidates: [],
+      },
+      exchange: {},
+      checkedAt: "2026-07-28T03:33:46.713Z",
+      categoryScan: [],
+      previousDiscontinuationReviews: new Map(),
+    }),
+    "catalog maintenance must reject removed products without confirmed official discontinuation evidence",
+  );
+  assertThrows(
+    () => buildCompactReport({
+      catalog: { products: [], categories: [{ items: [] }] },
+      baselineById: new Map([[removedProduct.id, removedProduct]]),
+      raw: {
+        sourceRows: [],
+        imageRows: [],
+        historicalRows: [],
+        foreignPriceChanges: [],
+        discontinuedCandidates: [],
+      },
+      exchange: {},
+      checkedAt: "2026-07-28T03:33:46.713Z",
+      categoryScan: [],
+      previousDiscontinuationReviews: new Map([[
+        removedProduct.id,
+        { id: removedProduct.id, disposition: "confirmed_official_discontinued_remove" },
+      ]]),
+    }),
+    "catalog maintenance must reject a confirmed marker without complete official exact-model evidence",
+  );
+  assertThrows(
+    () => buildCompactReport({
+      catalog: { products: [], categories: [{ items: [] }] },
+      baselineById: new Map([[removedProduct.id, removedProduct]]),
+      raw: {
+        sourceRows: [], imageRows: [], historicalRows: [], foreignPriceChanges: [], discontinuedCandidates: [],
+      },
+      exchange: {},
+      checkedAt: "2026-07-28T03:33:46.713Z",
+      categoryScan: [],
+      previousDiscontinuationReviews: new Map([[
+        removedProduct.id,
+        { ...confirmedDiscontinuationReview, url: "https://" },
+      ]]),
+    }),
+    "catalog maintenance must reject official discontinuation evidence with an invalid URL",
+  );
+  assertThrows(
+    () => buildCompactReport({
+      catalog: { products: [], categories: [{ items: [] }] },
+      baselineById: new Map([[removedProduct.id, removedProduct]]),
+      raw: {
+        sourceRows: [], imageRows: [], historicalRows: [], foreignPriceChanges: [], discontinuedCandidates: [],
+      },
+      exchange: {},
+      checkedAt: "2026-07-28T03:33:46.713Z",
+      categoryScan: [],
+      previousDiscontinuationReviews: new Map([[
+        removedProduct.id,
+        { ...confirmedDiscontinuationReview, reviewedAt: "2099-01-01T00:00:00.000Z" },
+      ]]),
+    }),
+    "catalog maintenance must reject official discontinuation evidence reviewed after the maintenance check",
+  );
   const removedProductFixture = buildCompactReport({
     catalog: { products: [], categories: [{ items: [] }] },
     baselineById: new Map([[removedProduct.id, removedProduct]]),
@@ -1000,6 +1075,19 @@ async function main() {
       exchange: { date: "2026-07-26 00:02 UTC", USD_TWD: 32.349719 },
     }).includes("本輪下修 2 筆、撤銷 1 筆不適用史低"),
     "maintenance summary should distinguish lowered historical prices from invalidated evidence",
+  );
+  assert(
+    renderMaintenanceSummary({
+      checkedAt: "2026-08-05T00:00:00.000Z",
+      summary: {
+        newProductsAdded: ["vacuum-new"],
+        discontinuedRemoved: [],
+        catalogEntriesReplaced: [{ beforeId: "coffee-old", afterId: "coffee-new" }],
+      },
+      changes: { historicalLows: [] },
+      exchange: {},
+    }).includes("品質替換 coffee-old → coffee-new"),
+    "maintenance summary should distinguish catalog replacements from discontinued removals",
   );
   const carriedForwardMaintenanceSummary = renderMaintenanceSummary({
     checkedAt: "2026-07-26T13:00:00.000Z",

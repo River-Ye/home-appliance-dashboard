@@ -1970,6 +1970,90 @@
         }
       ]
     }
+  },
+  {
+    "id": "vacuum-roborock-h60-h10a3a",
+    "category": "vacuum",
+    "rank": 26,
+    "budget": "value",
+    "channel": "tw",
+    "brand": "Roborock",
+    "model": "H10A3A",
+    "name": "H60 掃震地刷無線吸塵器",
+    "price": {
+      "currency": "TWD",
+      "amount": 3999,
+      "converted": 3999,
+      "confidence": "Roborock 台灣官網 2026-08-05 exact-model H10A3A 公開價；available=true 且可加入購物車"
+    },
+    "image": "https://cdn.shopify.com/s/files/1/0579/7278/5257/files/H60_5.png?v=1785513300",
+    "buyUrl": "https://taiwan.roborock.com/products/roborock-h60",
+    "buyLabel": "Roborock 台灣官網",
+    "specs": [
+      "115AW 最大吸力；9 錐氣旋除塵",
+      "90° 活動式彎折握桿；可深入 5.6cm 家具底部",
+      "JawScrapers 防纏地板／地毯兩用主刷；7,200 次／分鐘拍打",
+      "140° 綠光顯塵；五重過濾可捕捉 0.3μm 微塵 99.95%",
+      "地刷續航：約 45／25／8 分鐘（持久／強力／超強）；縫隙刷最長 60 分鐘",
+      "可拆電池 21.6V／2500mAh；約 3.5 小時充電",
+      "集塵桶 0.5L；尺寸：29.3 x 25 x 116.2 cm；淨重 3.0kg",
+      "BSMI R38795；附二合一縫隙刷、壁掛架與轉接器"
+    ],
+    "description": "以四千元內價格提供彎折握桿、綠光顯塵、防纏主刷與可拆電池，補足目錄缺少的 Roborock 入門乾式無線吸塵器。",
+    "pros": [
+      "四千元內即有 115AW、彎折握桿與綠光顯塵，規格相對完整",
+      "台灣官網可購原廠替換電池與濾網，並有手持品項售後維修中心"
+    ],
+    "cons": [
+      "基本款沒有自動集塵座與電動迷你刷，床墊／布面清潔配件較少",
+      "搭地刷持久檔約 45 分鐘、超強檔約 8 分鐘，且原廠保固僅 1 年"
+    ],
+    "bestFor": "預算四千元左右、以硬地板與短毛地毯為主，重視家具底部與毛髮清潔的小宅或寵物家庭。",
+    "recommendation": "值得納入但不列 Top Pick；H60 以入門價補上彎折、綠光顯塵與防纏組合，需接受基本配件與一年保固。",
+    "score": 89,
+    "voltage": "H10A3A 主機 21.6V DC／15.3A；轉接器輸入 100-240V~ 50-60Hz 0.8A，台灣官網公司貨",
+    "warranty": "Roborock 台灣原廠保固 1 年；手持品項售後維修中心 (02) 2610-0806",
+    "tags": [
+      "CP 值",
+      "彎折",
+      "綠光顯塵",
+      "防纏",
+      "可拆電池"
+    ],
+    "releaseDate": "2025-09-04",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-08-05",
+      "note": "已查 Roborock 台灣官網、momo、BigGo、FindPrice、飛比、LBJ 與 Coupang exact-model H10A3A；只取得 NT$3,899 至 NT$4,688 的現價／比價快照，沒有可重現的可信新品歷史曲線與明確最低點日期。Coupang 原頁本輪回應 403，現價不得推定為史低。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-08-05",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Roborock H60 H10A3A\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Roborock%20H60%20H10A3A%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Roborock H60 H10A3A\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Roborock%20H60%20H10A3A%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "targetHost": "reddit.com"
+        }
+      ]
+    }
   }
 ]);
 })();

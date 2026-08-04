@@ -1,14 +1,14 @@
 {
   "summary": {
-    "checkedAt": "2026-08-04T00:00:00+08:00",
-    "total": 740,
-    "found": 208,
-    "missing": 532,
+    "checkedAt": "2026-08-05T00:00:00+08:00",
+    "total": 743,
+    "found": 212,
+    "missing": 531,
     "byConfidence": {
-      "official": 107,
+      "official": 110,
       "credible_article": 90,
-      "not_found": 532,
-      "retailer_explicit": 11
+      "not_found": 531,
+      "retailer_explicit": 12
     }
   },
   "results": [
@@ -9775,6 +9775,21 @@
       "reason": "Panasonic 官方 2026-04-29 春季新品公告未明列 NA-SD10TB 型號，因此只以 exact-model 可信文章採 2026 年，不猜測月份或日期。"
     },
     {
+      "id": "washerdryer-lg-wd-s22fhdb",
+      "category": "washerdryer",
+      "brand": "LG",
+      "model": "WD-S22FHDB",
+      "name": "22公斤 WashCombo AI 熱泵滾筒洗衣機 蒸洗脫烘 22+15kg",
+      "releaseDate": "2026-03-13",
+      "sourceUrl": "https://www.lg.com/tw/about-lg/press-and-media/washcombo-ai-washer-new-launch-20260313/",
+      "sourceTitle": "LG 全新 WashCombo AI 熱泵滾筒洗衣機「洗」捲小宅界！",
+      "evidenceSnippet": "LG 台灣官方新聞稿標示 2026-03-13，內文明列 WD-S22FHDB 與 22kg 洗衣、15kg 乾衣、熱泵除濕乾衣及建議售價。",
+      "confidence": "official",
+      "query": "site:lg.com/tw WD-S22FHDB 全新 上市 2026",
+      "sourceKind": "official_press_release",
+      "reason": "採 LG 台灣官方的 exact-model 新品發表日期，不使用零售上架日推定。"
+    },
+    {
       "id": "tv-aoc-70u8040",
       "category": "tv",
       "brand": "AOC",
@@ -10290,17 +10305,19 @@
       "query": "Giaretti GL-5700 release date launch 上市 發售"
     },
     {
-      "id": "coffee-breville-bes876xl",
+      "id": "coffee-delonghi-ec9255m",
       "category": "coffee",
-      "brand": "Breville",
-      "model": "BES876XL",
-      "name": "the Barista Express Impress 專業級複合式研磨義式咖啡機",
-      "releaseDate": "找不到",
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "confidence": "not_found",
-      "query": "Breville BES876XL release date launch 上市 發售"
+      "brand": "DeLonghi",
+      "model": "EC9255M",
+      "name": "La Specialista Arte Evo 半自動義式咖啡機",
+      "releaseDate": "2026",
+      "sourceUrl": "https://24h.pchome.com.tw/prod/DMAT03-A900K4F0K",
+      "sourceTitle": "DeLonghi 迪朗奇【官方直營】EC9255M 半自動義式咖啡機 - PChome 24h購物",
+      "evidenceSnippet": "PChome exact-model 台灣新品頁明確標示「2026新上市｜創新冷萃技術 5分鐘即萃」；證據只支持 2026 年，不自行補月日。",
+      "confidence": "retailer_explicit",
+      "query": "DeLonghi EC9255M 2026 新上市",
+      "sourceKind": "retailer_explicit",
+      "reason": "台灣總代理官方產品頁可確認 exact model 與現售狀態，但未明列發售日；因此只採可信零售頁明載的 2026 年。"
     },
     {
       "id": "coffee-breville-bes878xl",
@@ -10340,6 +10357,36 @@
       "evidenceSnippet": "",
       "confidence": "not_found",
       "query": "Rancilio Silvia Pro X release date launch 上市 發售"
+    },
+    {
+      "id": "vacuum-roborock-h60-h10a3a",
+      "category": "vacuum",
+      "brand": "Roborock",
+      "model": "H10A3A",
+      "name": "H60 掃震地刷無線吸塵器",
+      "releaseDate": "2025-09-04",
+      "sourceUrl": "https://newsroom.roborock.com/gl/news/roborock-introduces-the-h60-series-stick-vacuums-with-up-to-90-of-bend-and-210aw-maximum-suction-for-ultimate-power-and-flexibility",
+      "sourceTitle": "Roborock introduces the H60 Series: Stick Vacuums with up to 90° of bend and 210AW maximum suction",
+      "evidenceSnippet": "Roborock 官方新聞室標示 2025-09-04，並明確宣布推出由 H60 Ultra、H60 Pro 與 H60 組成的新 H60 系列。",
+      "confidence": "official",
+      "query": "site:newsroom.roborock.com Roborock H60 launch September 4 2025",
+      "sourceKind": "official_press_release",
+      "reason": "採 Roborock 官方產品發表文章的明確日期；另以台灣官網 Shopify SKU 與 momo 規格核對台灣商品為 H60 exact model H10A3A，不使用零售上架日推定。"
+    },
+    {
+      "id": "wifi-asus-rog-gt-be19000ai",
+      "category": "wifi",
+      "brand": "ASUS",
+      "model": "ROG Rapture GT-BE19000AI",
+      "name": "BE19000 三頻 Wi-Fi 7 AI 電競路由器",
+      "releaseDate": "2026-03-18",
+      "sourceUrl": "https://press.asus.com/tw/news/press-releases/rog-rapture-gt-be19000ai-router/",
+      "sourceTitle": "極速飆網「智」在必得！ROG全球首款AI電競路由器在台上市",
+      "evidenceSnippet": "ASUS 台灣官方新聞稿標示 2026-03-18，並明確宣布 ROG Rapture GT-BE19000AI 在台上市、建議售價 NT$27,990。",
+      "confidence": "official",
+      "query": "site:press.asus.com/tw ROG Rapture GT-BE19000AI 在台上市 2026",
+      "sourceKind": "official_press_release",
+      "reason": "採 ASUS 台灣官方新聞稿明確記載的在台上市日期；未以通路上架日、促銷期間或型號年份推定。"
     }
   ]
 }

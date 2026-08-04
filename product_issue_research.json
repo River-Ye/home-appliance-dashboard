@@ -1,9 +1,9 @@
 {
   "summary": {
-    "checkedAt": "2026-08-04T00:00:00+08:00",
-    "total": 740,
+    "checkedAt": "2026-08-05T00:00:00+08:00",
+    "total": 743,
     "commonIssueProducts": 36,
-    "noCommonIssueProducts": 704,
+    "noCommonIssueProducts": 707,
     "pendingManualReview": 0,
     "commonIssues": 36,
     "searchUnavailable": 26,
@@ -41782,92 +41782,211 @@
       "rejectedCandidates": []
     },
     {
-      "id": "coffee-breville-bes876xl",
+      "id": "coffee-delonghi-ec9255m",
       "category": "coffee",
-      "brand": "Breville",
-      "model": "BES876XL",
-      "name": "the Barista Express Impress 專業級複合式研磨義式咖啡機",
+      "brand": "DeLonghi",
+      "model": "EC9255M",
+      "name": "La Specialista Arte Evo 半自動義式咖啡機",
       "identity": {
-        "canonicalModel": "BES876XL",
-        "lookupLabel": "Breville BES876XL",
+        "canonicalModel": "EC9255M",
+        "lookupLabel": "DeLonghi EC9255M",
         "aliases": [
-          "Breville BES876XL"
+          "DeLonghi EC9255M",
+          "De'Longhi EC9255M",
+          "La Specialista Arte Evo EC9255M"
         ],
-        "evidenceUrl": "https://www.momoshop.com.tw/product/14547697"
+        "evidenceUrl": "https://www.stilusa.com.tw/zh-TW/products/ec9255m"
       },
       "workflowStatus": "completed",
       "manualReview": {
         "status": "completed",
         "decision": "no_common_issue",
-        "reviewedAt": "2026-08-04",
+        "reviewedAt": "2026-08-05",
         "checkedPlatforms": [
-          "Dcard",
-          "Reddit"
+          "Reddit",
+          "Mobile01",
+          "Best Buy"
         ],
         "queries": [
           {
-            "platform": "Dcard",
-            "targetHost": "dcard.tw",
-            "query": "site:dcard.tw \"Breville BES876XL\" (災情 OR 問題 OR 故障 OR 負評)",
-            "queryUrl": "https://search.yahoo.com/search?q=site%3Adcard.tw%20%22Breville%20BES876XL%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)"
+            "platform": "Reddit",
+            "targetHost": "reddit.com",
+            "query": "site:reddit.com \"DeLonghi EC9255M\" (problem OR issue OR defect OR negative review)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22DeLonghi%20EC9255M%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)"
+          },
+          {
+            "platform": "Mobile01",
+            "targetHost": "mobile01.com",
+            "query": "site:mobile01.com \"DeLonghi EC9255M\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Amobile01.com%20%22DeLonghi%20EC9255M%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)"
+          }
+        ],
+        "candidateDisposition": "EC9255M：已開啟 Reddit 與 Best Buy exact-model 原頁；磨豆機停轉同一問題只有 Reddit 兩位可辨識使用者，其他候選為不同症狀或無法定位逐位評論，未達六人且跨兩站。",
+        "representativeSources": [
+          {
+            "platform": "Reddit",
+            "title": "EC9255M DeLonghi La Specialista Arte Evo grinder stopped working",
+            "url": "https://www.reddit.com/r/espresso/comments/1t7rhi4/delonghi_la_specialista_arte_evo_grinder_stopped/"
           },
           {
             "platform": "Reddit",
-            "targetHost": "reddit.com",
-            "query": "site:reddit.com \"Breville BES876XL\" (problem OR issue OR defect OR negative review)",
-            "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22Breville%20BES876XL%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)"
+            "title": "EC9255M Got impatient, bought a DeLonghi. Quick regret.",
+            "url": "https://www.reddit.com/r/espresso/comments/1szg50k/got_impatient_bought_a_delonghi_quick_regret/"
+          },
+          {
+            "platform": "Best Buy",
+            "title": "DeLonghi La Specialista Arte Evo EC9255M customer reviews",
+            "url": "https://www.bestbuy.com/site/reviews/delonghi-la-specialista-arte-evo-espresso-machine-with-cold-brew-stainless-steel/6573737"
           }
         ],
-        "candidateDisposition": "BES876XL：Dcard 與 Reddit exact-model 查詢均無通過型號邊界的原頁候選；不代表完全沒有負評。",
-        "representativeSources": [],
-        "candidateReviews": [],
-        "reviewerNote": "BES876XL 已逐一重跑兩站查詢並人工確認結果，未把其他 Barista 系列型號混入。",
-        "attestation": "manual_cross_site_search_reviewed_no_candidate"
+        "candidateReviews": [
+          {
+            "platform": "Reddit",
+            "url": "https://www.reddit.com/r/espresso/comments/1t7rhi4/delonghi_la_specialista_arte_evo_grinder_stopped/",
+            "title": "EC9255M DeLonghi La Specialista Arte Evo grinder stopped working",
+            "sourceExcerpt": "樓主明列 EC9255M 使用數月後磨豆機停轉；另一位回覆者表示同型號磨豆機只剩點擊聲。",
+            "independentAuthors": 2,
+            "specificReason": "同一磨豆機故障只有兩位可辨識第一人稱使用者，低於六人，且僅來自 Reddit 一站。",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-08-05"
+          },
+          {
+            "platform": "Reddit",
+            "url": "https://www.reddit.com/r/espresso/comments/1szg50k/got_impatient_bought_a_delonghi_quick_regret/",
+            "title": "EC9255M Got impatient, bought a DeLonghi. Quick regret.",
+            "sourceExcerpt": "一位 EC9255M 機主批評原廠磨豆機表現與無三向電磁閥的使用取捨，並已另購獨立磨豆機。",
+            "independentAuthors": 1,
+            "specificReason": "原頁只有一位同型號機主的負面心得，與停轉故障也不是同一問題，無法與其他候選合併計數。",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-08-05"
+          },
+          {
+            "platform": "Best Buy",
+            "url": "https://www.bestbuy.com/site/reviews/delonghi-la-specialista-arte-evo-espresso-machine-with-cold-brew-stainless-steel/6573737",
+            "title": "DeLonghi La Specialista Arte Evo EC9255M customer reviews",
+            "sourceExcerpt": "Best Buy exact-model 頁的彙總文字提到少數水箱相關意見，但本輪無法從原頁定位每位作者、permalink 與逐人原文。",
+            "independentAuthors": 0,
+            "specificReason": "聚合摘要與星級不是逐人原始回報；缺少可重現的作者、原文定位與第一人稱確認，因此計數為零。",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-08-05"
+          }
+        ],
+        "reviewerNote": "EC9255M 已人工開啟候選原頁、核對 exact model 與問題一致性；未把系列近似型號、轉述或零售彙總當成逐人證據。",
+        "attestation": "manual_original_pages_reviewed"
       },
       "issueResearch": {
         "status": "no_common_issue",
-        "checkedAt": "2026-08-04",
+        "checkedAt": "2026-08-05",
         "summary": "截至查核日，查無達門檻的集中負評／災情",
         "issues": [],
         "checkedSources": [
           {
-            "platform": "Dcard",
-            "query": "site:dcard.tw \"Breville BES876XL\" (災情 OR 問題 OR 故障 OR 負評)",
-            "queryUrl": "https://search.yahoo.com/search?q=site%3Adcard.tw%20%22Breville%20BES876XL%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
-            "targetHost": "dcard.tw"
+            "platform": "Reddit",
+            "query": "site:reddit.com \"DeLonghi EC9255M\" (problem OR issue OR defect OR negative review)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22DeLonghi%20EC9255M%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+            "targetHost": "reddit.com"
           },
           {
-            "platform": "Reddit",
-            "query": "site:reddit.com \"Breville BES876XL\" (problem OR issue OR defect OR negative review)",
-            "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22Breville%20BES876XL%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
-            "targetHost": "reddit.com"
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"DeLonghi EC9255M\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Amobile01.com%20%22DeLonghi%20EC9255M%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "mobile01.com"
           }
         ]
       },
       "searchChecks": [
         {
-          "platform": "Dcard",
-          "query": "site:dcard.tw \"Breville BES876XL\" (災情 OR 問題 OR 故障 OR 負評)",
-          "searchUrl": "https://search.yahoo.com/search?q=site%3Adcard.tw%20%22Breville%20BES876XL%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
-          "result": "no_exact_model_result",
-          "resultCount": 0,
-          "candidateUrls": [],
-          "candidates": [],
-          "inspectedAt": "2026-08-04T00:00:00+08:00"
+          "platform": "Reddit",
+          "query": "site:reddit.com \"DeLonghi EC9255M\" (problem OR issue OR defect OR negative review)",
+          "searchUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22DeLonghi%20EC9255M%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "result": "candidates_unverified_by_search_only",
+          "resultCount": 2,
+          "candidateUrls": [
+            "https://www.reddit.com/r/espresso/comments/1t7rhi4/delonghi_la_specialista_arte_evo_grinder_stopped/",
+            "https://www.reddit.com/r/espresso/comments/1szg50k/got_impatient_bought_a_delonghi_quick_regret/"
+          ],
+          "candidates": [
+            {
+              "url": "https://www.reddit.com/r/espresso/comments/1t7rhi4/delonghi_la_specialista_arte_evo_grinder_stopped/",
+              "title": "EC9255M DeLonghi La Specialista Arte Evo grinder stopped working"
+            },
+            {
+              "url": "https://www.reddit.com/r/espresso/comments/1szg50k/got_impatient_bought_a_delonghi_quick_regret/",
+              "title": "EC9255M Got impatient, bought a DeLonghi. Quick regret."
+            }
+          ],
+          "inspectedAt": "2026-08-05T00:00:00+08:00"
         },
         {
-          "platform": "Reddit",
-          "query": "site:reddit.com \"Breville BES876XL\" (problem OR issue OR defect OR negative review)",
-          "searchUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22Breville%20BES876XL%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"DeLonghi EC9255M\" (災情 OR 問題 OR 故障 OR 負評)",
+          "searchUrl": "https://search.yahoo.com/search?q=site%3Amobile01.com%20%22DeLonghi%20EC9255M%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "result": "no_exact_model_result",
           "resultCount": 0,
           "candidateUrls": [],
           "candidates": [],
-          "inspectedAt": "2026-08-04T00:00:00+08:00"
+          "inspectedAt": "2026-08-05T00:00:00+08:00"
+        },
+        {
+          "platform": "Best Buy",
+          "query": "site:bestbuy.com \"DeLonghi EC9255M\" (problem OR issue OR defect OR negative review)",
+          "searchUrl": "https://search.yahoo.com/search?q=site%3Abestbuy.com%20%22DeLonghi%20EC9255M%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "result": "candidates_unverified_by_search_only",
+          "resultCount": 1,
+          "candidateUrls": [
+            "https://www.bestbuy.com/site/reviews/delonghi-la-specialista-arte-evo-espresso-machine-with-cold-brew-stainless-steel/6573737"
+          ],
+          "candidates": [
+            {
+              "url": "https://www.bestbuy.com/site/reviews/delonghi-la-specialista-arte-evo-espresso-machine-with-cold-brew-stainless-steel/6573737",
+              "title": "DeLonghi La Specialista Arte Evo EC9255M customer reviews"
+            }
+          ],
+          "inspectedAt": "2026-08-05T00:00:00+08:00"
         }
       ],
       "evidence": [],
-      "rejectedCandidates": []
+      "rejectedCandidates": [
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/espresso/comments/1t7rhi4/delonghi_la_specialista_arte_evo_grinder_stopped/",
+          "title": "EC9255M DeLonghi La Specialista Arte Evo grinder stopped working",
+          "sourceExcerpt": "樓主明列 EC9255M 使用數月後磨豆機停轉；另一位回覆者表示同型號磨豆機只剩點擊聲。",
+          "independentAuthors": 2,
+          "specificReason": "同一磨豆機故障只有兩位可辨識第一人稱使用者，低於六人，且僅來自 Reddit 一站。",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-05",
+          "reason": "同一磨豆機故障只有兩位可辨識第一人稱使用者，低於六人，且僅來自 Reddit 一站。"
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/espresso/comments/1szg50k/got_impatient_bought_a_delonghi_quick_regret/",
+          "title": "EC9255M Got impatient, bought a DeLonghi. Quick regret.",
+          "sourceExcerpt": "一位 EC9255M 機主批評原廠磨豆機表現與無三向電磁閥的使用取捨，並已另購獨立磨豆機。",
+          "independentAuthors": 1,
+          "specificReason": "原頁只有一位同型號機主的負面心得，與停轉故障也不是同一問題，無法與其他候選合併計數。",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-05",
+          "reason": "原頁只有一位同型號機主的負面心得，與停轉故障也不是同一問題，無法與其他候選合併計數。"
+        },
+        {
+          "platform": "Best Buy",
+          "url": "https://www.bestbuy.com/site/reviews/delonghi-la-specialista-arte-evo-espresso-machine-with-cold-brew-stainless-steel/6573737",
+          "title": "DeLonghi La Specialista Arte Evo EC9255M customer reviews",
+          "sourceExcerpt": "Best Buy exact-model 頁的彙總文字提到少數水箱相關意見，但本輪無法從原頁定位每位作者、permalink 與逐人原文。",
+          "independentAuthors": 0,
+          "specificReason": "聚合摘要與星級不是逐人原始回報；缺少可重現的作者、原文定位與第一人稱確認，因此計數為零。",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-05",
+          "reason": "聚合摘要與星級不是逐人原始回報；缺少可重現的作者、原文定位與第一人稱確認，因此計數為零。"
+        }
+      ]
     },
     {
       "id": "coffee-breville-bes878xl",
@@ -75091,6 +75210,628 @@
       ],
       "evidence": [],
       "rejectedCandidates": []
+    },
+    {
+      "id": "vacuum-roborock-h60-h10a3a",
+      "category": "vacuum",
+      "brand": "Roborock",
+      "model": "H10A3A",
+      "name": "H60 掃震地刷無線吸塵器",
+      "identity": {
+        "canonicalModel": "H10A3A",
+        "lookupLabel": "Roborock H60 H10A3A",
+        "aliases": [
+          "Roborock H60 H10A3A",
+          "Roborock H60",
+          "H10A3A"
+        ],
+        "evidenceUrl": "https://taiwan.roborock.com/products/roborock-h60"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "status": "completed",
+        "decision": "no_common_issue",
+        "reviewedAt": "2026-08-05",
+        "checkedPlatforms": [
+          "Mobile01",
+          "Reddit"
+        ],
+        "queries": [
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"Roborock H60 H10A3A\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Roborock%20H60%20H10A3A%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "mobile01.com"
+          },
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"Roborock H60 H10A3A\" (problem OR issue OR defect OR negative review)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Roborock%20H60%20H10A3A%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+            "targetHost": "reddit.com"
+          }
+        ],
+        "candidateDisposition": "H10A3A：完成 Mobile01 與 Reddit 兩個獨立網站的 exact-model 查詢；搜尋回應未找到含 H10A3A 的原始使用者頁。H60 Hub Pro、H60 Hub Ultra 與區域 SKU RRPL-H60-M1 均不是台灣 H10A3A，不計入。",
+        "representativeSources": [],
+        "candidateReviews": [],
+        "reviewerNote": "H10A3A 已於 2026-08-05 實際請求 Mobile01、Reddit 跨站 exact-model 查詢；沒有可確認 H10A3A 的第一人稱原頁候選，不以其他 H60 變體或搜尋摘要合成災情。",
+        "attestation": "manual_cross_site_search_reviewed_no_candidate"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-08-05",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"Roborock H60 H10A3A\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Roborock%20H60%20H10A3A%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "mobile01.com"
+          },
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"Roborock H60 H10A3A\" (problem OR issue OR defect OR negative review)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Roborock%20H60%20H10A3A%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+            "targetHost": "reddit.com"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Roborock H60 H10A3A\" (災情 OR 問題 OR 故障 OR 負評)",
+          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Roborock%20H60%20H10A3A%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-08-05T00:00:00+08:00"
+        },
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Roborock H60 H10A3A\" (problem OR issue OR defect OR negative review)",
+          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Roborock%20H60%20H10A3A%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-08-05T00:00:00+08:00"
+        }
+      ],
+      "evidence": [],
+      "rejectedCandidates": []
+    },
+    {
+      "id": "wifi-asus-rog-gt-be19000ai",
+      "category": "wifi",
+      "brand": "ASUS",
+      "model": "ROG Rapture GT-BE19000AI",
+      "name": "BE19000 三頻 Wi-Fi 7 AI 電競路由器",
+      "identity": {
+        "canonicalModel": "ROG Rapture GT-BE19000AI",
+        "lookupLabel": "ASUS ROG Rapture GT-BE19000AI",
+        "aliases": [
+          "ASUS ROG Rapture GT-BE19000AI",
+          "ROG Rapture GT-BE19000AI",
+          "GT-BE19000AI"
+        ],
+        "evidenceUrl": "https://rog.asus.com/tw/networking/rog-rapture-gt-be19000ai/"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "status": "completed",
+        "decision": "no_common_issue",
+        "reviewedAt": "2026-08-05",
+        "checkedPlatforms": [
+          "Mobile01",
+          "Reddit",
+          "ZenTalk",
+          "SNBForums"
+        ],
+        "queries": [
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"ROG Rapture GT-BE19000AI\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22ROG%20Rapture%20GT-BE19000AI%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "mobile01.com"
+          },
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"ROG Rapture GT-BE19000AI\" (problem OR issue OR defect OR \"negative review\")",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22ROG%20Rapture%20GT-BE19000AI%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
+            "targetHost": "reddit.com"
+          }
+        ],
+        "candidateDisposition": "ROG Rapture GT-BE19000AI：已逐頁覆核 Reddit 3 頁、ZenTalk 1 頁與 SNBForums 4 頁。最接近門檻的是 3.0.0.6.102_40480 韌體後的 WAN／網際網路不穩，ZenTalk 2 位加 SNBForums 3 位共 5 位獨立 exact-model 第一人稱作者；其餘 2.4GHz、320MHz、連接埠轉送、Home Assistant 與 AI Board 症狀不可合併，沒有同一問題達 6 位且跨 2 個原始網站。",
+        "representativeSources": [
+          {
+            "platform": "Reddit",
+            "title": "ROG Rapture GT-BE19000AI — Worst router, broken port forwarding - Reddit",
+            "url": "https://www.reddit.com/r/ASUS/comments/1s6syer/gtbe19000ai_worst_router_broken_port_forwarding/"
+          },
+          {
+            "platform": "Reddit",
+            "title": "ROG Rapture GT-BE19000AI owner discussion - Reddit",
+            "url": "https://www.reddit.com/r/ASUSROG/comments/1os449k/rog_rapture_gtbe19000ai/"
+          },
+          {
+            "platform": "Reddit",
+            "title": "ROG Rapture GT-BE19000AI crashing Home Assistant container - Reddit",
+            "url": "https://www.reddit.com/r/homeassistant/comments/1rhku3w/asus_gtbe19000ai_crashing_ha_need_a_powerful/"
+          },
+          {
+            "platform": "ZenTalk",
+            "title": "ROG Rapture GT-BE19000AI issue after firmware 3.0.0.6.102_40480 - ZenTalk",
+            "url": "https://zentalk.asus.com/t5/networking/asus-be19000ai-issue-after-last-firmware/td-p/506408"
+          },
+          {
+            "platform": "SNBForums",
+            "title": "ROG Rapture GT-BE19000AI Wi-Fi 7 320MHz issue - SNBForums",
+            "url": "https://www.snbforums.com/threads/gt-be19000ai-wifi-7-issue.96645/"
+          },
+          {
+            "platform": "SNBForums",
+            "title": "ROG Rapture GT-BE19000AI 2.4GHz band extremely slow and unstable - SNBForums",
+            "url": "https://www.snbforums.com/threads/gt-be19000ai-2-4-ghz-band-extremely-slow-and-unstable.96762/"
+          },
+          {
+            "platform": "SNBForums",
+            "title": "ROG Rapture GT-BE19000AI firmware 3.0.0.6.102_40480 thread - SNBForums",
+            "url": "https://www.snbforums.com/threads/asus-gt-be19000ai-firmware-version-3-0-0-6-102_40480-2026-03-31.97029/"
+          },
+          {
+            "platform": "SNBForums",
+            "title": "ROG Rapture GT-BE19000AI AI Board firmware 3.0.0.2.102_171 thread - SNBForums",
+            "url": "https://www.snbforums.com/threads/gt-be19000ai-ai-board-firmware-version-3-0-0-2-102_171-2026-06-04.97390/"
+          }
+        ],
+        "candidateReviews": [
+          {
+            "url": "https://www.reddit.com/r/ASUS/comments/1s6syer/gtbe19000ai_worst_router_broken_port_forwarding/",
+            "title": "ROG Rapture GT-BE19000AI — Worst router, broken port forwarding - Reddit",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-08-05",
+            "sourceExcerpt": "Fabulous-Challenge-4 明確表示持有 GT-BE19000AI，啟用部分功能後連接埠轉送停止運作；其他回覆沒有再建立 exact-model 持有與相同第一人稱問題。",
+            "independentAuthors": 1,
+            "specificReason": "連接埠轉送症狀只有 1 位可辨識的 exact-model 第一人稱作者，且沒有第二個原始網站的同症狀回報；不能與一般 UPnP 抱怨或其他型號合併。"
+          },
+          {
+            "url": "https://www.reddit.com/r/ASUSROG/comments/1os449k/rog_rapture_gtbe19000ai/",
+            "title": "ROG Rapture GT-BE19000AI owner discussion - Reddit",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-08-05",
+            "sourceExcerpt": "Painkillerspe 回報 AI 廣告阻擋與近期韌體下 Wi-Fi 7／2.4GHz IoT 問題；Cristianalereviu 另回報訊號範圍及 iPhone、IoT 斷線，兩人皆以 GT-BE19000AI 使用者身分敘述。",
+            "independentAuthors": 2,
+            "specificReason": "兩位作者的回報分屬 AI 過濾、範圍與不同無線用戶端情境，不能全部合成一個缺陷；任一可辨識症狀都未達 6 人，也沒有在第二原始網站形成相同六人門檻。"
+          },
+          {
+            "url": "https://www.reddit.com/r/homeassistant/comments/1rhku3w/asus_gtbe19000ai_crashing_ha_need_a_powerful/",
+            "title": "ROG Rapture GT-BE19000AI crashing Home Assistant container - Reddit",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-08-05",
+            "sourceExcerpt": "palvarez05 表示在 GT-BE19000AI 的 Docker 執行 Home Assistant 時會凍結或崩潰，主 CPU 曾達 100%；回覆者主要建議改用獨立主機，沒有其他 exact-model 同症狀持有者。",
+            "independentAuthors": 1,
+            "specificReason": "Home Assistant 容器凍結只有樓主 1 位 exact-model 第一人稱作者；其他人提供部署建議而非同機型故障回報，未達人數與跨站門檻。"
+          },
+          {
+            "url": "https://zentalk.asus.com/t5/networking/asus-be19000ai-issue-after-last-firmware/td-p/506408",
+            "title": "ROG Rapture GT-BE19000AI issue after firmware 3.0.0.6.102_40480 - ZenTalk",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-08-05",
+            "sourceExcerpt": "ghostman88ro 回報升級 3.0.0.6.102_40480 後每日網路延遲或停止、需重開機；Stevenx80 回報同版更新後約每小時降速或斷線並重設，兩人皆指向 GT-BE19000AI。",
+            "independentAuthors": 2,
+            "specificReason": "ZenTalk 有 2 位 exact-model 作者回報 40480 後網際網路不穩；加上 SNBForums 同組 3 位仍只有 5 位獨立作者，低於 6 人門檻。另一名回覆者最後歸因於網路線，未計入。"
+          },
+          {
+            "url": "https://www.snbforums.com/threads/gt-be19000ai-wifi-7-issue.96645/",
+            "title": "ROG Rapture GT-BE19000AI Wi-Fi 7 320MHz issue - SNBForums",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-08-05",
+            "sourceExcerpt": "ApexAvian 明確使用 GT-BE19000AI，回報 6GHz 320MHz 吞吐降低與延遲；後續回覆主要進行頻道、韌體與用戶端排查，沒有其他同機型第一人稱同症狀作者。",
+            "independentAuthors": 1,
+            "specificReason": "6GHz／320MHz 吞吐與延遲問題只有 1 位 exact-model 第一人稱作者；排查回覆不能計成人數，且未在第二個原始網站形成同一症狀門檻。"
+          },
+          {
+            "url": "https://www.snbforums.com/threads/gt-be19000ai-2-4-ghz-band-extremely-slow-and-unstable.96762/",
+            "title": "ROG Rapture GT-BE19000AI 2.4GHz band extremely slow and unstable - SNBForums",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-08-05",
+            "sourceExcerpt": "TF1470 表示 GT-BE19000AI 的 2.4GHz IoT 裝置出現 200 至 400ms 平均延遲、數秒尖峰、封包遺失與斷線；其他回覆沒有第二位同型號同症狀持有者。",
+            "independentAuthors": 1,
+            "specificReason": "2.4GHz IoT 不穩只有 1 位 exact-model 第一人稱作者；Spartan 明確談的是不含 AI 的 GT-BE19000，屬不同型號，其他評論者也未建立同機型持有。"
+          },
+          {
+            "url": "https://www.snbforums.com/threads/asus-gt-be19000ai-firmware-version-3-0-0-6-102_40480-2026-03-31.97029/",
+            "title": "ROG Rapture GT-BE19000AI firmware 3.0.0.6.102_40480 thread - SNBForums",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-08-05",
+            "sourceExcerpt": "jzchen、abuelobalo 與 Lax 各自回報 GT-BE19000AI 在 40480 後出現 WAN／網際網路不穩、斷線或降速，回退或重刷後狀況改善；其他發言不是同一第一人稱症狀。",
+            "independentAuthors": 3,
+            "specificReason": "SNBForums 同組有 3 位 exact-model 作者；與 ZenTalk 2 位去重後合計 5 位、雖跨 2 網站仍低於 6 人。AFC、AI Board 或只詢問韌體撤回的發言不混入。"
+          },
+          {
+            "url": "https://www.snbforums.com/threads/gt-be19000ai-ai-board-firmware-version-3-0-0-2-102_171-2026-06-04.97390/",
+            "title": "ROG Rapture GT-BE19000AI AI Board firmware 3.0.0.2.102_171 thread - SNBForums",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-08-05",
+            "sourceExcerpt": "Lax、DMcD-EMS-USMC、H74 與 abuelobalo 分別討論 AI Board 更新失敗、DNS／AI Protection 設定、Merlin 找不到更新及 Home Assistant 升級卡住，情境與結果並不一致。",
+            "independentAuthors": 4,
+            "specificReason": "頁內 4 位 exact-model 作者談的是不同 AI Board 更新或容器情境，部分調整設定或切回 stock 後成功；沒有一個共同症狀達 6 人，也沒有第二原始網站的同症狀六人證據。"
+          }
+        ],
+        "reviewerNote": "ROG Rapture GT-BE19000AI 已於 2026-08-05 逐頁回到 Reddit、ZenTalk 與 SNBForums 原始討論，確認 exact model、第一人稱與作者去重；40480 連線不穩最多為跨兩站 5 人，其他症狀分組後更少，因此維持 no_common_issue，而非宣稱完全沒有負評。",
+        "attestation": "manual_original_pages_reviewed"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-08-05",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"ROG Rapture GT-BE19000AI\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22ROG%20Rapture%20GT-BE19000AI%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "mobile01.com"
+          },
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"ROG Rapture GT-BE19000AI\" (problem OR issue OR defect OR \"negative review\")",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22ROG%20Rapture%20GT-BE19000AI%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
+            "targetHost": "reddit.com"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"ROG Rapture GT-BE19000AI\" (災情 OR 問題 OR 故障 OR 負評)",
+          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22ROG%20Rapture%20GT-BE19000AI%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-08-05T00:00:00+08:00"
+        },
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"ROG Rapture GT-BE19000AI\" (problem OR issue OR defect OR \"negative review\")",
+          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22ROG%20Rapture%20GT-BE19000AI%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
+          "result": "candidates_unverified_by_search_only",
+          "resultCount": 3,
+          "candidateUrls": [
+            "https://www.reddit.com/r/ASUS/comments/1s6syer/gtbe19000ai_worst_router_broken_port_forwarding/",
+            "https://www.reddit.com/r/ASUSROG/comments/1os449k/rog_rapture_gtbe19000ai/",
+            "https://www.reddit.com/r/homeassistant/comments/1rhku3w/asus_gtbe19000ai_crashing_ha_need_a_powerful/"
+          ],
+          "candidates": [
+            {
+              "url": "https://www.reddit.com/r/ASUS/comments/1s6syer/gtbe19000ai_worst_router_broken_port_forwarding/",
+              "title": "ROG Rapture GT-BE19000AI — Worst router, broken port forwarding - Reddit"
+            },
+            {
+              "url": "https://www.reddit.com/r/ASUSROG/comments/1os449k/rog_rapture_gtbe19000ai/",
+              "title": "ROG Rapture GT-BE19000AI owner discussion - Reddit"
+            },
+            {
+              "url": "https://www.reddit.com/r/homeassistant/comments/1rhku3w/asus_gtbe19000ai_crashing_ha_need_a_powerful/",
+              "title": "ROG Rapture GT-BE19000AI crashing Home Assistant container - Reddit"
+            }
+          ],
+          "inspectedAt": "2026-08-05T00:00:00+08:00"
+        },
+        {
+          "platform": "ZenTalk",
+          "query": "site:zentalk.asus.com \"ROG Rapture GT-BE19000AI\" (issue OR problem OR disconnect OR firmware)",
+          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Azentalk.asus.com%20%22ROG%20Rapture%20GT-BE19000AI%22%20(issue%20OR%20problem%20OR%20disconnect%20OR%20firmware)",
+          "result": "candidates_unverified_by_search_only",
+          "resultCount": 1,
+          "candidateUrls": [
+            "https://zentalk.asus.com/t5/networking/asus-be19000ai-issue-after-last-firmware/td-p/506408"
+          ],
+          "candidates": [
+            {
+              "url": "https://zentalk.asus.com/t5/networking/asus-be19000ai-issue-after-last-firmware/td-p/506408",
+              "title": "ROG Rapture GT-BE19000AI issue after firmware 3.0.0.6.102_40480 - ZenTalk"
+            }
+          ],
+          "inspectedAt": "2026-08-05T00:00:00+08:00"
+        },
+        {
+          "platform": "SNBForums",
+          "query": "site:snbforums.com \"ROG Rapture GT-BE19000AI\" (issue OR problem OR disconnect OR firmware)",
+          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Asnbforums.com%20%22ROG%20Rapture%20GT-BE19000AI%22%20(issue%20OR%20problem%20OR%20disconnect%20OR%20firmware)",
+          "result": "candidates_unverified_by_search_only",
+          "resultCount": 4,
+          "candidateUrls": [
+            "https://www.snbforums.com/threads/gt-be19000ai-wifi-7-issue.96645/",
+            "https://www.snbforums.com/threads/gt-be19000ai-2-4-ghz-band-extremely-slow-and-unstable.96762/",
+            "https://www.snbforums.com/threads/asus-gt-be19000ai-firmware-version-3-0-0-6-102_40480-2026-03-31.97029/",
+            "https://www.snbforums.com/threads/gt-be19000ai-ai-board-firmware-version-3-0-0-2-102_171-2026-06-04.97390/"
+          ],
+          "candidates": [
+            {
+              "url": "https://www.snbforums.com/threads/gt-be19000ai-wifi-7-issue.96645/",
+              "title": "ROG Rapture GT-BE19000AI Wi-Fi 7 320MHz issue - SNBForums"
+            },
+            {
+              "url": "https://www.snbforums.com/threads/gt-be19000ai-2-4-ghz-band-extremely-slow-and-unstable.96762/",
+              "title": "ROG Rapture GT-BE19000AI 2.4GHz band extremely slow and unstable - SNBForums"
+            },
+            {
+              "url": "https://www.snbforums.com/threads/asus-gt-be19000ai-firmware-version-3-0-0-6-102_40480-2026-03-31.97029/",
+              "title": "ROG Rapture GT-BE19000AI firmware 3.0.0.6.102_40480 thread - SNBForums"
+            },
+            {
+              "url": "https://www.snbforums.com/threads/gt-be19000ai-ai-board-firmware-version-3-0-0-2-102_171-2026-06-04.97390/",
+              "title": "ROG Rapture GT-BE19000AI AI Board firmware 3.0.0.2.102_171 thread - SNBForums"
+            }
+          ],
+          "inspectedAt": "2026-08-05T00:00:00+08:00"
+        }
+      ],
+      "evidence": [],
+      "rejectedCandidates": [
+        {
+          "url": "https://www.reddit.com/r/ASUS/comments/1s6syer/gtbe19000ai_worst_router_broken_port_forwarding/",
+          "title": "ROG Rapture GT-BE19000AI — Worst router, broken port forwarding - Reddit",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-05",
+          "sourceExcerpt": "Fabulous-Challenge-4 明確表示持有 GT-BE19000AI，啟用部分功能後連接埠轉送停止運作；其他回覆沒有再建立 exact-model 持有與相同第一人稱問題。",
+          "independentAuthors": 1,
+          "specificReason": "連接埠轉送症狀只有 1 位可辨識的 exact-model 第一人稱作者，且沒有第二個原始網站的同症狀回報；不能與一般 UPnP 抱怨或其他型號合併。",
+          "reason": "連接埠轉送症狀只有 1 位可辨識的 exact-model 第一人稱作者，且沒有第二個原始網站的同症狀回報；不能與一般 UPnP 抱怨或其他型號合併。"
+        },
+        {
+          "url": "https://www.reddit.com/r/ASUSROG/comments/1os449k/rog_rapture_gtbe19000ai/",
+          "title": "ROG Rapture GT-BE19000AI owner discussion - Reddit",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-05",
+          "sourceExcerpt": "Painkillerspe 回報 AI 廣告阻擋與近期韌體下 Wi-Fi 7／2.4GHz IoT 問題；Cristianalereviu 另回報訊號範圍及 iPhone、IoT 斷線，兩人皆以 GT-BE19000AI 使用者身分敘述。",
+          "independentAuthors": 2,
+          "specificReason": "兩位作者的回報分屬 AI 過濾、範圍與不同無線用戶端情境，不能全部合成一個缺陷；任一可辨識症狀都未達 6 人，也沒有在第二原始網站形成相同六人門檻。",
+          "reason": "兩位作者的回報分屬 AI 過濾、範圍與不同無線用戶端情境，不能全部合成一個缺陷；任一可辨識症狀都未達 6 人，也沒有在第二原始網站形成相同六人門檻。"
+        },
+        {
+          "url": "https://www.reddit.com/r/homeassistant/comments/1rhku3w/asus_gtbe19000ai_crashing_ha_need_a_powerful/",
+          "title": "ROG Rapture GT-BE19000AI crashing Home Assistant container - Reddit",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-05",
+          "sourceExcerpt": "palvarez05 表示在 GT-BE19000AI 的 Docker 執行 Home Assistant 時會凍結或崩潰，主 CPU 曾達 100%；回覆者主要建議改用獨立主機，沒有其他 exact-model 同症狀持有者。",
+          "independentAuthors": 1,
+          "specificReason": "Home Assistant 容器凍結只有樓主 1 位 exact-model 第一人稱作者；其他人提供部署建議而非同機型故障回報，未達人數與跨站門檻。",
+          "reason": "Home Assistant 容器凍結只有樓主 1 位 exact-model 第一人稱作者；其他人提供部署建議而非同機型故障回報，未達人數與跨站門檻。"
+        },
+        {
+          "url": "https://zentalk.asus.com/t5/networking/asus-be19000ai-issue-after-last-firmware/td-p/506408",
+          "title": "ROG Rapture GT-BE19000AI issue after firmware 3.0.0.6.102_40480 - ZenTalk",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-05",
+          "sourceExcerpt": "ghostman88ro 回報升級 3.0.0.6.102_40480 後每日網路延遲或停止、需重開機；Stevenx80 回報同版更新後約每小時降速或斷線並重設，兩人皆指向 GT-BE19000AI。",
+          "independentAuthors": 2,
+          "specificReason": "ZenTalk 有 2 位 exact-model 作者回報 40480 後網際網路不穩；加上 SNBForums 同組 3 位仍只有 5 位獨立作者，低於 6 人門檻。另一名回覆者最後歸因於網路線，未計入。",
+          "reason": "ZenTalk 有 2 位 exact-model 作者回報 40480 後網際網路不穩；加上 SNBForums 同組 3 位仍只有 5 位獨立作者，低於 6 人門檻。另一名回覆者最後歸因於網路線，未計入。"
+        },
+        {
+          "url": "https://www.snbforums.com/threads/gt-be19000ai-wifi-7-issue.96645/",
+          "title": "ROG Rapture GT-BE19000AI Wi-Fi 7 320MHz issue - SNBForums",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-05",
+          "sourceExcerpt": "ApexAvian 明確使用 GT-BE19000AI，回報 6GHz 320MHz 吞吐降低與延遲；後續回覆主要進行頻道、韌體與用戶端排查，沒有其他同機型第一人稱同症狀作者。",
+          "independentAuthors": 1,
+          "specificReason": "6GHz／320MHz 吞吐與延遲問題只有 1 位 exact-model 第一人稱作者；排查回覆不能計成人數，且未在第二個原始網站形成同一症狀門檻。",
+          "reason": "6GHz／320MHz 吞吐與延遲問題只有 1 位 exact-model 第一人稱作者；排查回覆不能計成人數，且未在第二個原始網站形成同一症狀門檻。"
+        },
+        {
+          "url": "https://www.snbforums.com/threads/gt-be19000ai-2-4-ghz-band-extremely-slow-and-unstable.96762/",
+          "title": "ROG Rapture GT-BE19000AI 2.4GHz band extremely slow and unstable - SNBForums",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-05",
+          "sourceExcerpt": "TF1470 表示 GT-BE19000AI 的 2.4GHz IoT 裝置出現 200 至 400ms 平均延遲、數秒尖峰、封包遺失與斷線；其他回覆沒有第二位同型號同症狀持有者。",
+          "independentAuthors": 1,
+          "specificReason": "2.4GHz IoT 不穩只有 1 位 exact-model 第一人稱作者；Spartan 明確談的是不含 AI 的 GT-BE19000，屬不同型號，其他評論者也未建立同機型持有。",
+          "reason": "2.4GHz IoT 不穩只有 1 位 exact-model 第一人稱作者；Spartan 明確談的是不含 AI 的 GT-BE19000，屬不同型號，其他評論者也未建立同機型持有。"
+        },
+        {
+          "url": "https://www.snbforums.com/threads/asus-gt-be19000ai-firmware-version-3-0-0-6-102_40480-2026-03-31.97029/",
+          "title": "ROG Rapture GT-BE19000AI firmware 3.0.0.6.102_40480 thread - SNBForums",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-05",
+          "sourceExcerpt": "jzchen、abuelobalo 與 Lax 各自回報 GT-BE19000AI 在 40480 後出現 WAN／網際網路不穩、斷線或降速，回退或重刷後狀況改善；其他發言不是同一第一人稱症狀。",
+          "independentAuthors": 3,
+          "specificReason": "SNBForums 同組有 3 位 exact-model 作者；與 ZenTalk 2 位去重後合計 5 位、雖跨 2 網站仍低於 6 人。AFC、AI Board 或只詢問韌體撤回的發言不混入。",
+          "reason": "SNBForums 同組有 3 位 exact-model 作者；與 ZenTalk 2 位去重後合計 5 位、雖跨 2 網站仍低於 6 人。AFC、AI Board 或只詢問韌體撤回的發言不混入。"
+        },
+        {
+          "url": "https://www.snbforums.com/threads/gt-be19000ai-ai-board-firmware-version-3-0-0-2-102_171-2026-06-04.97390/",
+          "title": "ROG Rapture GT-BE19000AI AI Board firmware 3.0.0.2.102_171 thread - SNBForums",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-05",
+          "sourceExcerpt": "Lax、DMcD-EMS-USMC、H74 與 abuelobalo 分別討論 AI Board 更新失敗、DNS／AI Protection 設定、Merlin 找不到更新及 Home Assistant 升級卡住，情境與結果並不一致。",
+          "independentAuthors": 4,
+          "specificReason": "頁內 4 位 exact-model 作者談的是不同 AI Board 更新或容器情境，部分調整設定或切回 stock 後成功；沒有一個共同症狀達 6 人，也沒有第二原始網站的同症狀六人證據。",
+          "reason": "頁內 4 位 exact-model 作者談的是不同 AI Board 更新或容器情境，部分調整設定或切回 stock 後成功；沒有一個共同症狀達 6 人，也沒有第二原始網站的同症狀六人證據。"
+        }
+      ]
+    },
+    {
+      "id": "washerdryer-lg-wd-s22fhdb",
+      "category": "washerdryer",
+      "brand": "LG",
+      "model": "WD-S22FHDB",
+      "name": "22公斤 WashCombo AI 熱泵滾筒洗衣機 蒸洗脫烘 22+15kg",
+      "identity": {
+        "canonicalModel": "WD-S22FHDB",
+        "lookupLabel": "LG WD-S22FHDB",
+        "aliases": [
+          "LG WD-S22FHDB",
+          "WD-S22FHDB",
+          "WashCombo AI WD-S22FHDB"
+        ],
+        "evidenceUrl": "https://www.lg.com/tw/washer-dryers/front-loading-washing-machines/wd-s22fhdb/"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "status": "completed",
+        "decision": "no_common_issue",
+        "reviewedAt": "2026-08-05",
+        "checkedPlatforms": [
+          "Mobile01",
+          "PTT"
+        ],
+        "queries": [
+          {
+            "platform": "Mobile01",
+            "targetHost": "mobile01.com",
+            "query": "site:mobile01.com \"LG WD-S22FHDB\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Amobile01.com%20%22LG%20WD-S22FHDB%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)"
+          },
+          {
+            "platform": "PTT",
+            "targetHost": "ptt.cc",
+            "query": "site:ptt.cc \"LG WD-S22FHDB\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Aptt.cc%20%22LG%20WD-S22FHDB%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)"
+          }
+        ],
+        "candidateDisposition": "WD-S22FHDB：已逐頁覆核 Mobile01 與 PTT exact-model 候選；兩頁都是購買前比較或規格轉述，沒有可辨識的第一人稱 exact-model 故障作者，因此沒有同一問題達六人且跨兩站。",
+        "representativeSources": [
+          {
+            "platform": "Mobile01",
+            "title": "LG WD-S22FHDB 22/15kg WashCombo AI recommendation discussion - Mobile01",
+            "url": "https://www.mobile01.com/topicdetail.php?f=730&t=7251263"
+          },
+          {
+            "platform": "PTT",
+            "title": "LG WD-S22FHDB comparison discussion - PTT",
+            "url": "https://www.ptt.cc/bbs/E-appliance/M.1778998386.A.963.html"
+          }
+        ],
+        "candidateReviews": [
+          {
+            "platform": "Mobile01",
+            "url": "https://www.mobile01.com/topicdetail.php?f=730&t=7251263",
+            "title": "LG WD-S22FHDB 22/15kg WashCombo AI recommendation discussion - Mobile01",
+            "sourceExcerpt": "原頁樓主把 WD-S22FHDB 列為購買候選並詢問建議，回覆集中在容量、空間與品牌比較；沒有可辨識的 exact-model 機主第一人稱故障回報。",
+            "independentAuthors": 0,
+            "specificReason": "這是購買前推薦討論，未出現可確認持有 WD-S22FHDB 的第一人稱同一問題作者，不能計入災情人數。",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-08-05"
+          },
+          {
+            "platform": "PTT",
+            "url": "https://www.ptt.cc/bbs/E-appliance/M.1778998386.A.963.html",
+            "title": "LG WD-S22FHDB comparison discussion - PTT",
+            "sourceExcerpt": "原頁以 WD-S22FHDB 與其他大容量洗脫烘機比較，內容為選購條件與轉貼規格，沒有逐位 exact-model 機主故障敘述。",
+            "independentAuthors": 0,
+            "specificReason": "比較與規格轉述不是第一人稱使用回報；沒有作者、同一症狀與持有證據可計數，未達六人與跨站門檻。",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-08-05"
+          }
+        ],
+        "reviewerNote": "WD-S22FHDB 已於 2026-08-05 回到 Mobile01 與 PTT 原頁核對型號、作者與第一人稱；比較文與非機主建議不計入災情人數。",
+        "attestation": "manual_original_pages_reviewed"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-08-05",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"LG WD-S22FHDB\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Amobile01.com%20%22LG%20WD-S22FHDB%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "mobile01.com"
+          },
+          {
+            "platform": "PTT",
+            "query": "site:ptt.cc \"LG WD-S22FHDB\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Aptt.cc%20%22LG%20WD-S22FHDB%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "ptt.cc"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"LG WD-S22FHDB\" (災情 OR 問題 OR 故障 OR 負評)",
+          "searchUrl": "https://search.yahoo.com/search?q=site%3Amobile01.com%20%22LG%20WD-S22FHDB%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "result": "candidates_unverified_by_search_only",
+          "resultCount": 1,
+          "candidateUrls": [
+            "https://www.mobile01.com/topicdetail.php?f=730&t=7251263"
+          ],
+          "candidates": [
+            {
+              "url": "https://www.mobile01.com/topicdetail.php?f=730&t=7251263",
+              "title": "LG WD-S22FHDB 22/15kg WashCombo AI recommendation discussion - Mobile01"
+            }
+          ],
+          "inspectedAt": "2026-08-05T00:00:00+08:00"
+        },
+        {
+          "platform": "PTT",
+          "query": "site:ptt.cc \"LG WD-S22FHDB\" (災情 OR 問題 OR 故障 OR 負評)",
+          "searchUrl": "https://search.yahoo.com/search?q=site%3Aptt.cc%20%22LG%20WD-S22FHDB%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "result": "candidates_unverified_by_search_only",
+          "resultCount": 1,
+          "candidateUrls": [
+            "https://www.ptt.cc/bbs/E-appliance/M.1778998386.A.963.html"
+          ],
+          "candidates": [
+            {
+              "url": "https://www.ptt.cc/bbs/E-appliance/M.1778998386.A.963.html",
+              "title": "LG WD-S22FHDB comparison discussion - PTT"
+            }
+          ],
+          "inspectedAt": "2026-08-05T00:00:00+08:00"
+        }
+      ],
+      "evidence": [],
+      "rejectedCandidates": [
+        {
+          "platform": "Mobile01",
+          "url": "https://www.mobile01.com/topicdetail.php?f=730&t=7251263",
+          "title": "LG WD-S22FHDB 22/15kg WashCombo AI recommendation discussion - Mobile01",
+          "sourceExcerpt": "原頁樓主把 WD-S22FHDB 列為購買候選並詢問建議，回覆集中在容量、空間與品牌比較；沒有可辨識的 exact-model 機主第一人稱故障回報。",
+          "independentAuthors": 0,
+          "specificReason": "這是購買前推薦討論，未出現可確認持有 WD-S22FHDB 的第一人稱同一問題作者，不能計入災情人數。",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-05",
+          "reason": "這是購買前推薦討論，未出現可確認持有 WD-S22FHDB 的第一人稱同一問題作者，不能計入災情人數。"
+        },
+        {
+          "platform": "PTT",
+          "url": "https://www.ptt.cc/bbs/E-appliance/M.1778998386.A.963.html",
+          "title": "LG WD-S22FHDB comparison discussion - PTT",
+          "sourceExcerpt": "原頁以 WD-S22FHDB 與其他大容量洗脫烘機比較，內容為選購條件與轉貼規格，沒有逐位 exact-model 機主故障敘述。",
+          "independentAuthors": 0,
+          "specificReason": "比較與規格轉述不是第一人稱使用回報；沒有作者、同一症狀與持有證據可計數，未達六人與跨站門檻。",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-05",
+          "reason": "比較與規格轉述不是第一人稱使用回報；沒有作者、同一症狀與持有證據可計數，未達六人與跨站門檻。"
+        }
+      ]
     }
   ]
 }
