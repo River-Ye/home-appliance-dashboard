@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-04",
+  "generatedAt": "2026-08-05",
   "sourcePolicy": "本次新增的電視、Soundbar、咖啡機、多功能氣炸烤箱／微波爐、洗碗機與免治馬桶尺寸，以及電視、Soundbar、咖啡機、多功能氣炸烤箱／微波爐重量，優先採 exact-model 官方產品頁、官方規格表或官方 PDF，其次可信通路；只採本體／機身尺寸與淨重，排除包裝、外箱尺寸與毛重，來源未標示寬／深／高順序時不自行推定。既有洗衣機、烘衣機、洗烘衣機、電子衣櫥與冰箱尺寸沿用原研究列及當時查核規則。",
   "results": [
     {
@@ -1733,6 +1733,16 @@
       "checkedAt": "2026-07-26"
     },
     {
+      "id": "washerdryer-lg-wd-s22fhdb",
+      "dimension": "尺寸：寬 70 x 深 84 x 高 99 cm",
+      "sourceUrl": "https://www.lg.com/tw/about-lg/press-and-media/washcombo-ai-washer-new-launch-20260313/",
+      "sourceTitle": "LG 全新 WashCombo AI 熱泵滾筒洗衣機「洗」捲小宅界！",
+      "evidenceSnippet": "LG 台灣官方 exact-model 新聞稿與產品頁均列產品尺寸（WxHxD）為 700 x 990 x 840 mm；本列依專案格式重排並換算為寬 70 x 深 84 x 高 99 cm，未使用包裝尺寸。",
+      "confidence": "high",
+      "isOfficialSource": true,
+      "checkedAt": "2026-08-05"
+    },
+    {
       "id": "garmentcare-lg-r723wg",
       "dimension": "尺寸：寬 60 x 深 62 x 高 196.5 cm",
       "sourceUrl": "https://www.lg.com/tw/washer-dryers/styler/r723wg/",
@@ -3371,21 +3381,21 @@
       "weightCheckedAt": "2026-08-04"
     },
     {
-      "id": "coffee-breville-bes876xl",
-      "dimension": "尺寸：寬 33.0 x 深 38.0 x 高 41.0 cm",
-      "sourceUrl": "https://datungying.com.tw/breville/CoffeeMachines/BES876XL/index.html",
-      "sourceTitle": "Breville BES876XL exact-model 產品／規格頁",
-      "evidenceSnippet": "BES876XL exact-model 來源列出本體寬、深、高；本列轉為「寬 x 深 x 高 cm」格式，未使用包裝或外箱尺寸。",
+      "id": "coffee-delonghi-ec9255m",
+      "dimension": "尺寸：寬 28.5 x 深 36.5 x 高 40 cm",
+      "sourceUrl": "https://www.stilusa.com.tw/zh-TW/products/ec9255m",
+      "sourceTitle": "De'Longhi EC9255M 台灣總代理官方產品頁",
+      "evidenceSnippet": "台灣總代理 exact-model 官方產品規格列「尺寸(cm)：寬28.5 x 深36.5 x 高40」；本列直接採機身尺寸，未使用包裝或外箱尺寸。",
       "confidence": "high",
       "isOfficialSource": true,
-      "checkedAt": "2026-08-04",
-      "weight": "重量：11 kg",
-      "weightSourceUrl": "https://datungying.com.tw/breville/CoffeeMachines/BES876XL/index.html",
-      "weightSourceTitle": "Breville BES876XL exact-model 產品／規格頁",
-      "weightEvidenceSnippet": "BES876XL exact-model 來源列出產品淨重／本體重量；未使用包裝毛重。",
+      "checkedAt": "2026-08-05",
+      "weight": "重量：9.3 kg",
+      "weightSourceUrl": "https://www.stilusa.com.tw/zh-TW/products/ec9255m",
+      "weightSourceTitle": "De'Longhi EC9255M 台灣總代理官方產品頁",
+      "weightEvidenceSnippet": "台灣總代理 exact-model 官方產品規格列重量 9.3kg；本列採用產品本體重量，未使用包裝毛重。",
       "weightConfidence": "high",
       "weightIsOfficialSource": true,
-      "weightCheckedAt": "2026-08-04"
+      "weightCheckedAt": "2026-08-05"
     },
     {
       "id": "coffee-breville-bes878xl",

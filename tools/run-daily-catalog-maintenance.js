@@ -675,6 +675,7 @@ function syncHistoricalResearch(products, exchange, compact) {
   }, {});
   const removedIds = compact.summary.discontinuedRemoved || [];
   const addedIds = compact.summary.newProductsAdded || [];
+  const replacements = compact.summary.catalogEntriesReplaced || [];
   const invalidatedHistoricalLows = (compact.changes?.historicalLows || [])
     .filter((change) => change.before !== null && change.after === null).length;
   research.summary = {
@@ -702,8 +703,8 @@ function syncHistoricalResearch(products, exchange, compact) {
     currentPriceFallbacks: 0,
     historicalLowUpdated: compact.summary.historicalLowPriceChanges,
     historicalLowInvalidated: invalidatedHistoricalLows,
-    catalogEntriesReplaced: 0,
-    catalogReplacementNotes: [],
+    catalogEntriesReplaced: replacements.length,
+    catalogReplacementNotes: replacements,
     currentImageChanged: compact.summary.imageChanges,
     discontinuedRemoved: removedIds.length,
     newProductsAdded: addedIds.length,
@@ -854,6 +855,32 @@ function mergeDiscontinuationReviews(candidates, previousReviews = new Map()) {
   });
 }
 
+function hasConfirmedOfficialDiscontinuationEvidence(candidate, maximumReviewedAt) {
+  const evidence = candidate?.reviewEvidence;
+  let sourceUrl;
+  try {
+    sourceUrl = new URL(candidate?.url);
+  } catch (_error) {
+    return false;
+  }
+  const reviewedAt = String(candidate?.reviewedAt || "");
+  const reviewedTimestamp = Date.parse(reviewedAt);
+  const maximumTimestamp = Date.parse(maximumReviewedAt);
+  return candidate?.disposition === "confirmed_official_discontinued_remove"
+    && sourceUrl.protocol === "https:"
+    && sourceUrl.hostname.length > 0
+    && /^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}(?:\.\d{3})?Z$/.test(reviewedAt)
+    && !Number.isNaN(reviewedTimestamp)
+    && !Number.isNaN(maximumTimestamp)
+    && reviewedTimestamp <= maximumTimestamp
+    && evidence?.sourceKind === "official"
+    && evidence?.exactModelConfirmed === true
+    && typeof evidence?.sourceTitle === "string"
+    && evidence.sourceTitle.trim().length > 0
+    && typeof evidence?.evidenceSnippet === "string"
+    && evidence.evidenceSnippet.trim().length > 0;
+}
+
 function buildCompactReport({ catalog, baselineById, raw, exchange, checkedAt, categoryScan, categoryReviewProvenance: reviewProvenance = "pending", previousDiscontinuationReviews = new Map() }) {
   const finalIds = catalog.products.map((product) => product.id).sort();
   const baselineIds = [...baselineById.keys()].sort();
@@ -885,10 +912,40 @@ function buildCompactReport({ catalog, baselineById, raw, exchange, checkedAt, c
   const historicalExceptions = raw.historicalRows.filter((row) => row.status !== "verified");
   const categoryCounts = catalog.categories.map((category) => category.items.length);
   const foreignProducts = catalog.products.filter((product) => product.price.currency !== "TWD");
-  const removedIds = baselineIds.filter((id) => !finalById.has(id));
-  const confirmedRemovedCandidates = removedIds
+  const removedBaselineIds = baselineIds.filter((id) => !finalById.has(id));
+  const addedFinalIds = finalIds.filter((id) => !baselineById.has(id));
+  const catalogEntriesReplaced = categoryScan.flatMap((row) => row.catalogReplacements || []);
+  const replacedBeforeIds = new Set();
+  const replacedAfterIds = new Set();
+  for (const replacement of catalogEntriesReplaced) {
+    const before = baselineById.get(replacement.beforeId);
+    const after = finalById.get(replacement.afterId);
+    if (!before || finalById.has(replacement.beforeId) || baselineById.has(replacement.afterId) || !after) {
+      throw new Error(`Invalid catalog replacement ${replacement.beforeId || "missing"} -> ${replacement.afterId || "missing"}`);
+    }
+    if (before.category !== after.category || before.category !== replacement.category) {
+      throw new Error(`Catalog replacement category mismatch ${replacement.beforeId} -> ${replacement.afterId}`);
+    }
+    if (typeof replacement.reason !== "string" || !replacement.reason.trim()) {
+      throw new Error(`Catalog replacement requires a reason ${replacement.beforeId} -> ${replacement.afterId}`);
+    }
+    if (replacedBeforeIds.has(replacement.beforeId) || replacedAfterIds.has(replacement.afterId)) {
+      throw new Error(`Duplicate catalog replacement ${replacement.beforeId} -> ${replacement.afterId}`);
+    }
+    replacedBeforeIds.add(replacement.beforeId);
+    replacedAfterIds.add(replacement.afterId);
+  }
+  const discontinuedRemovedIds = removedBaselineIds.filter((id) => !replacedBeforeIds.has(id));
+  const newProductIds = addedFinalIds.filter((id) => !replacedAfterIds.has(id));
+  const unconfirmedRemovedIds = discontinuedRemovedIds.filter(
+    (id) => !hasConfirmedOfficialDiscontinuationEvidence(previousDiscontinuationReviews.get(id), checkedAt),
+  );
+  if (unconfirmedRemovedIds.length > 0) {
+    throw new Error(`Removed catalog entries require confirmed official discontinuation evidence: ${unconfirmedRemovedIds.join(", ")}`);
+  }
+  const confirmedRemovedCandidates = discontinuedRemovedIds
     .map((id) => previousDiscontinuationReviews.get(id))
-    .filter((candidate) => candidate?.disposition === "confirmed_official_discontinued_remove");
+    .filter((candidate) => hasConfirmedOfficialDiscontinuationEvidence(candidate, checkedAt));
   const discontinuedCandidates = [
     ...mergeDiscontinuationReviews(raw.discontinuedCandidates, previousDiscontinuationReviews),
     ...confirmedRemovedCandidates,
@@ -916,7 +973,8 @@ function buildCompactReport({ catalog, baselineById, raw, exchange, checkedAt, c
       finalProducts: finalIds.length,
       categories: catalog.categories.length,
       minimumProductsPerCategory: Math.min(...categoryCounts),
-      newProductsAdded: finalIds.filter((id) => !baselineById.has(id)),
+      newProductsAdded: newProductIds,
+      catalogEntriesReplaced,
       priceChanges: priceChanges.length,
       priceDrops: priceChanges.filter((change) => change.after < change.before).length,
       priceRises: priceChanges.filter((change) => change.after > change.before).length,
@@ -951,7 +1009,7 @@ function buildCompactReport({ catalog, baselineById, raw, exchange, checkedAt, c
       officialDiscontinuedCandidates: discontinuedCandidates.length,
       officialDiscontinuedPendingReview: pendingDiscontinuationCandidates.length,
       officialDiscontinuedFalsePositives: discontinuedCandidates.filter((candidate) => candidate.disposition === "false_positive_retained").length,
-      discontinuedRemoved: removedIds,
+      discontinuedRemoved: discontinuedRemovedIds,
     },
     exchange,
     categoryReviewProvenance: reviewProvenance,

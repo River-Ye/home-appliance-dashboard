@@ -1176,9 +1176,9 @@
     "name": "Saeco 半自動義式咖啡機",
     "price": {
       "currency": "TWD",
-      "amount": 4990,
-      "converted": 4990,
-      "confidence": "Yahoo購物中心自營 2026-08-04 exact-model 公開新品價；台灣公司貨／原廠通路"
+      "amount": 4591,
+      "converted": 4591,
+      "confidence": "Yahoo購物中心 2026-08-05 exact-model 公開結構化價格"
     },
     "image": "https://img.yec.tw/zp/MerchandiseImages/69fb8a2ae4-Gd-11322933.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/Philips-%E9%A3%9B%E5%88%A9%E6%B5%A6-Saeco%E5%8D%8A%E8%87%AA%E5%8B%95%E7%BE%A9%E5%BC%8F%E5%92%96%E5%95%A1%E6%A9%9F-EMS5110-02-11322933.html",
@@ -1790,87 +1790,87 @@
     ]
   },
   {
-    "id": "coffee-breville-bes876xl",
+    "id": "coffee-delonghi-ec9255m",
     "category": "coffee",
     "rank": 21,
     "budget": "premium",
     "channel": "tw",
-    "brand": "Breville",
-    "model": "BES876XL",
-    "name": "the Barista Express Impress 專業級複合式研磨義式咖啡機",
+    "brand": "DeLonghi",
+    "model": "EC9255M",
+    "name": "La Specialista Arte Evo 半自動義式咖啡機",
     "price": {
       "currency": "TWD",
-      "amount": 24800,
-      "converted": 24800,
-      "confidence": "momo 購物網｜Breville 台灣總代理公司貨 2026-08-04 exact-model 公開新品價；台灣公司貨／原廠通路"
+      "amount": 27900,
+      "converted": 27900,
+      "confidence": "De'Longhi 台灣總代理官方商城 2026-08-05 exact-model 結構化公開新品價與 InStock 狀態；PChome exact-model API 同價且 Qty 9"
     },
-    "image": "https://storage.googleapis.com/uni-splendor.appspot.com/images/p/18b932c6-ae27-49e8-b8a6-d29595204533.png",
-    "buyUrl": "https://www.momoshop.com.tw/product/14547697",
-    "buyLabel": "momo 購物網｜Breville 台灣總代理公司貨",
+    "image": "https://cdn-general.cybassets.com/media/W1siZiIsIjIwMTI5L3Byb2R1Y3RzLzY2NTU3MDg1LzE3NzM0MTM4NDNfZjVlZWUxZTIwYjUzYTExM2ZmZDEuanBlZyJdLFsicCIsInRodW1iIiwiNjAweDYwMCJdXQ.jpeg?sha=3f6d953c1b860ddc",
+    "buyUrl": "https://www.stilusa.com.tw/zh-TW/products/ec9255m",
+    "buyLabel": "De'Longhi 台灣總代理官方商城",
     "specs": [
       "類型：半自動",
       "使用原料：咖啡豆研磨後的咖啡粉",
-      "研磨系統：內建不鏽鋼錐形刀盤磨豆機，25 段研磨；豆槽約 230g",
-      "萃取／沖煮：54mm 沖煮把手、Impress Puck System 智慧粉量與輔助填壓、PID 控溫、低壓預浸",
-      "奶泡：手動蒸汽棒",
-      "容量：水箱 2.0L；豆槽約 230g",
-      "尺寸：寬 33.0 x 深 38.0 x 高 41.0 cm",
-      "重量：11 kg",
+      "研磨系統：內建不鏽鋼錐形磨豆機，8 段粗細與 40 段研磨份量調整",
+      "萃取／沖煮：15 bar；92–96°C 三段萃取溫度；支援熱萃與約 5 分鐘冷萃",
+      "奶泡：My LatteArt 手動蒸汽棒",
+      "容量：水箱 1.7L",
+      "尺寸：寬 28.5 x 深 36.5 x 高 40 cm",
+      "重量：9.3 kg",
       "電壓／頻率：110V／60Hz",
-      "功率：1500W",
-      "清潔維護：沖煮頭、磨豆機與蒸汽棒需手動清潔；完整除垢程序查不到",
-      "耗材／配件相容性：54mm 沖煮配件；相容 BEA201 接粉環及 BEA202／203／204 配件；購買前依台灣代理型號確認供應"
+      "功率：1150W",
+      "清潔維護：沖煮頭、濾杯、磨豆機與蒸汽棒需依官方教學清潔，並依水質定期除垢",
+      "耗材／配件相容性：51mm 沖煮把手與濾杯；原廠金屬填壓器、接粉環、奶缸與清潔配件；可搭配 De'Longhi 除垢劑"
     ],
-    "description": "半自動義式咖啡機；輔助拉桿填壓與 25 段磨豆降低粉量與填壓落差。實際風味仍取決於咖啡豆、研磨、粉水比與清潔狀態。",
+    "description": "2026 年台灣新款半自動義式咖啡機；整合內建磨豆、三段萃取溫度、手動奶泡與約 5 分鐘冷萃。實際風味仍取決於咖啡豆、研磨、粉水比與清潔狀態。",
     "pros": [
-      "輔助拉桿填壓與 25 段磨豆降低粉量與填壓落差",
-      "台灣新品通路提供 TWD 公開價與本地保固",
-      "寬 33.0 x 深 38.0 x 高 41.0 cm、11 kg 已納入檯面與搬運評估"
+      "8 段磨豆、40 段份量與三段萃取溫度，保留手動調整空間",
+      "熱萃、冷萃與 My LatteArt 蒸汽棒整合在同一台機器",
+      "台灣總代理官方現貨、一年保固與到府服務資訊完整"
     ],
     "cons": [
-      "一體式磨豆仍限制後續升級，機身與清潔流程有一定份量",
-      "使用後須清潔咖啡渣、滴水盤與奶泡零件",
-      "須依水質與原廠週期除垢並計入耗材成本"
+      "一體式磨豆機限制後續獨立升級，並需反覆校正研磨與粉量",
+      "手動填粉、萃取與奶泡仍有學習曲線，不是一鍵式全自動機",
+      "使用後需清潔濾杯、滴水盤、蒸汽棒與磨豆機，並計入除垢耗材成本"
     ],
-    "bestFor": "希望減少填壓變因、又保留手動萃取與奶泡練習的人",
-    "recommendation": "分型建議：輔助拉桿填壓與 25 段磨豆降低粉量與填壓落差。",
-    "releaseDate": "找不到",
+    "bestFor": "想練習手動萃取與奶泡，同時需要內建磨豆與冷萃功能的進階家庭用戶",
+    "recommendation": "半自動新品推薦：EC9255M 用約 5 分鐘冷萃、三段溫控與內建磨豆擴充飲品與調整範圍；但仍需手動填壓、奶泡與清潔。",
+    "releaseDate": "2026",
     "historicalLow": {
-      "status": "found",
-      "amount": 24800,
+      "status": "not_found",
+      "amount": null,
       "currency": "TWD",
-      "converted": 24800,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1262077585&cgp=24800",
-      "sourceTitle": "LBJ momo Breville BES876XL exact-model 台灣公司貨價格曲線",
-      "evidenceSnippet": "momo exact-model 總代理公司貨曲線在 2026-07-30 記錄 24,800 元。",
-      "sourceKind": "price_history",
-      "confidence": "medium",
-      "checkedAt": "2026-08-04",
-      "note": "LBJ 可重現 momo exact-model 總代理公司貨在 2026-07-30 的 24,800 元；百貨滿額回饋與近全新個人賣場均未採。"
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-08-05",
+      "note": "已查 De'Longhi 台灣官方、PChome exact-model 原始頁與 API、FindPrice 與 BigGo；本輪只能重現 27,900–35,900 元現價，沒有附明確日期的可信新品價格曲線。另網頁中的 25,900 元候選實為 TCL 65Q6C 電視，型號不符，不採作本機史低。"
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-04",
+      "checkedAt": "2026-08-05",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
-          "platform": "Dcard",
-          "query": "site:dcard.tw \"Breville BES876XL\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://search.yahoo.com/search?q=site%3Adcard.tw%20%22Breville%20BES876XL%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
-          "targetHost": "dcard.tw"
+          "platform": "Reddit",
+          "query": "site:reddit.com \"DeLonghi EC9255M\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22DeLonghi%20EC9255M%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "targetHost": "reddit.com"
         },
         {
-          "platform": "Reddit",
-          "query": "site:reddit.com \"Breville BES876XL\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22Breville%20BES876XL%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
-          "targetHost": "reddit.com"
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"DeLonghi EC9255M\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Amobile01.com%20%22DeLonghi%20EC9255M%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
         }
       ]
     },
-    "score": 82,
+    "score": 86,
     "voltage": "110V／60Hz 台灣公司貨；使用前確認獨立接地插座與迴路負載",
-    "warranty": "台灣總代理公司貨；momo exact-model 頁標示原廠保固 1 年",
+    "warranty": "台灣總代理公司貨；原廠 1 年保固；官方提供台灣本島到府安裝教學與到府維修聯絡",
     "tags": [
       "半自動",
       "旗艦",

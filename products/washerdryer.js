@@ -445,9 +445,9 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/50A8962C97-SP-12443254.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 43032,
-      "converted": 43032,
-      "confidence": "Yahoo購物中心 2026-08-04 exact-model 公開結構化價格"
+      "amount": 42543,
+      "converted": 42543,
+      "confidence": "Yahoo購物中心 2026-08-05 exact-model 公開結構化價格"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心",
@@ -2308,6 +2308,93 @@
           "platform": "PTT",
           "query": "site:ptt.cc \"Panasonic NA-SD10TB\" (災情 OR 問題 OR 故障 OR 負評)",
           "queryUrl": "https://search.yahoo.com/search?q=site%3Aptt.cc%20%22Panasonic%20NA-SD10TB%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "ptt.cc"
+        }
+      ]
+    }
+  },
+  {
+    "id": "washerdryer-lg-wd-s22fhdb",
+    "rank": 28,
+    "topPick": false,
+    "brand": "LG",
+    "model": "WD-S22FHDB",
+    "name": "22公斤 WashCombo AI 熱泵滾筒洗衣機 蒸洗脫烘 22+15kg",
+    "image": "https://www.lg.com/content/dam/channel/wcms/tw/images/washer-dryers/washer-dryer-combos/wd-s22fhdb/gallery/new/WD-S22FHDB-450.jpg",
+    "price": {
+      "currency": "TWD",
+      "amount": 89900,
+      "converted": 89900,
+      "confidence": "LG 台灣 2026-08-05 exact-model 官方頁結構化價格 TWD 89,900 與 InStock 狀態；PXbox exact-model 新品頁同價現貨"
+    },
+    "channel": "tw",
+    "buyLabel": "LG 台灣官方商城",
+    "buyUrl": "https://www.lg.com/tw/washer-dryers/front-loading-washing-machines/wd-s22fhdb/",
+    "specs": [
+      "洗/乾容量：22kg / 15kg",
+      "尺寸：寬 70 x 深 84 x 高 99 cm",
+      "HeatPump™ 雙變頻熱泵除濕式低溫乾衣",
+      "AI DD™ 智慧洗滌、ezDispense 自動洗劑投入、Steam™ 蒸氣洗",
+      "易拉潔極細密棉絮濾網、冷凝器自動清潔、ThinQ Wi-Fi",
+      "開門後深度 146.6cm；機重 112kg",
+      "110V / 60Hz；需先確認進排水、接地專用插座、門寬與搬運動線"
+    ],
+    "description": "LG 2026 年在台上市的 22/15kg 單筒熱泵洗脫烘，整合 AI 洗滌、低溫熱泵乾衣、棉絮濾網與自動清潔冷凝器，補足現有洗衣塔與大容量單筒機之間的選擇。",
+    "pros": [
+      "洗 22kg／乾 15kg，可處理大家庭日常衣物與床品",
+      "熱泵低溫乾衣、易拉潔濾網與冷凝器自動清潔兼顧護衣與維護",
+      "99cm 高單筒設計比近 190cm 洗衣塔容易利用上方空間"
+    ],
+    "cons": [
+      "乾衣 15kg 小於洗衣 22kg，洗衣滿載時可能需分批乾燥",
+      "112kg 機重、84cm 深度與開門後 146.6cm 對門寬、搬運與使用空間要求高",
+      "單筒洗乾無法像上下雙筒洗衣塔同時處理下一批衣物，且整合機維修成本較集中"
+    ],
+    "bestFor": "需要 22kg 大容量洗衣、偏好單筒熱泵乾衣，並能在購買前完成空間與搬運場勘的家庭。",
+    "recommendation": "大容量單筒熱泵補強：WD-S22FHDB 比現有 Samsung WD90H22AHSTW 矮 12cm、淺 3.5cm 且輕 33kg，官方現價也少 10,000 元；但乾衣容量為 15kg 而非 20kg，洗滿 22kg 時仍要留意分批與完整洗烘時間。",
+    "voltage": "110V / 60Hz；需接地專用插座並依 LG 台灣安裝條件施作",
+    "warranty": "全機 1 年、主機板 3 年、變頻馬達與熱泵壓縮機 10 年（依 LG 台灣原廠條款）",
+    "score": 90,
+    "budget": "premium",
+    "tags": [
+      "洗/乾容量：22kg / 15kg",
+      "HeatPump熱泵",
+      "單筒洗脫烘",
+      "AI DD",
+      "ThinQ",
+      "110V"
+    ],
+    "category": "washerdryer",
+    "releaseDate": "2026-03-13",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-08-05",
+      "note": "已查 LG 台灣上市新聞稿與官方商城、PXbox、FindPrice 與 BigGo；上市建議售價為 92,900 元，LG 官方與 PXbox 本輪公開新品價為 89,900 元。FindPrice 的 76,900 元市集候選無可信原始新品頁與歷史日期，因此不採作史低。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-08-05",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"LG WD-S22FHDB\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Amobile01.com%20%22LG%20WD-S22FHDB%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "PTT",
+          "query": "site:ptt.cc \"LG WD-S22FHDB\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Aptt.cc%20%22LG%20WD-S22FHDB%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "ptt.cc"
         }
       ]

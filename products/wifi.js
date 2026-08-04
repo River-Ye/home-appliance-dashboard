@@ -2913,9 +2913,9 @@
     "name": "AX6000 Wi-Fi 6 雲端安全路由器",
     "price": {
       "currency": "TWD",
-      "amount": 7139,
-      "converted": 7139,
-      "confidence": "PChome 2026-08-04 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 6470,
+      "converted": 6470,
+      "confidence": "PChome 2026-08-05 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAF0IA900HO2DR/000001_1777023675.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DRAF0I-A900HO2DR",
@@ -4035,6 +4035,94 @@
               "url": "https://www.reddit.com/r/TpLink/comments/1gkcbca/top_routers_tossing_archer_be550_too_many_lagging/"
             }
           ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "wifi-asus-rog-gt-be19000ai",
+    "category": "wifi",
+    "rank": 50,
+    "budget": "premium",
+    "channel": "tw",
+    "brand": "ASUS",
+    "model": "ROG Rapture GT-BE19000AI",
+    "name": "BE19000 三頻 Wi-Fi 7 AI 電競路由器",
+    "price": {
+      "currency": "TWD",
+      "amount": 26871,
+      "converted": 26871,
+      "confidence": "Yahoo購物中心 2026-08-05 exact-model 自營頁公開活動折後價"
+    },
+    "image": "https://dlcdnwebimgs.asus.com/gain/FF5DB299-9708-4259-ABF9-167FDC7166BD",
+    "buyUrl": "https://tw.buy.yahoo.com/gdsale/%E6%98%8C%E9%81%8B%E7%9B%A3%E8%A6%96%E5%99%A8-ASUS-%E8%8F%AF%E7%A2%A9-ROG-Rapture-GT-BE19000AI-WiFi-7-%E4%B8%89%E9%A0%BB%E9%9B%BB%E7%AB%B6-12032656.html",
+    "buyLabel": "Yahoo購物中心",
+    "specs": [
+      "Wi-Fi 7 / BE19000 三頻（2.4GHz 1376Mbps＋5GHz 5764Mbps＋6GHz 11529Mbps）",
+      "運算：2.6GHz 四核心主處理器、4GB RAM／32GB Flash；獨立 AI 核心另有 4GB RAM／32GB Flash",
+      "自架服務：原生 Docker，可運行 Home Assistant、Frigate、AdGuard Home 等容器",
+      "Mesh：支援 AiMesh，可作主路由、節點或 AP",
+      "有線：10G WAN/LAN x1、10G LAN x1、2.5G WAN/LAN x1、2.5G LAN x3、1G LAN x1",
+      "電源：AC 110-240V / 50-60Hz；DC 12V / 5A",
+      "尺寸：350.41 x 350.41 x 220.6 mm；重量：2kg"
+    ],
+    "description": "將 Wi-Fi 7 三頻、雙 10GbE 與獨立 AI 核心整合在單台路由器內，原生 Docker 可把 Home Assistant、Frigate 或 AdGuard Home 等服務放在路由器上運行。",
+    "pros": [
+      "獨立 AI 核心與原生 Docker，適合在路由器上整合智慧家庭或網路服務",
+      "雙 10GbE、四個 2.5GbE 等高速埠，適合高速 NAS 與多 Gigabit 網路",
+      "支援 AiMesh、320MHz 與完整 Wi-Fi 7 三頻規格"
+    ],
+    "cons": [
+      "價格與機身尺寸都明顯高於一般家用路由器",
+      "AI Board、Docker 與較新的 Wi-Fi 7 韌體需要持續更新及自行維護",
+      "若只需要穩定分享網路，額外運算能力與高速埠可能用不到"
+    ],
+    "bestFor": "想把 Home Assistant、Frigate、AdGuard Home 等自架服務整合進路由器，並需要 Wi-Fi 7、AiMesh 與 10GbE 的進階使用者",
+    "recommendation": "AI／自架服務推薦：獨立 AI 核心、原生 Docker 與雙 10GbE 是現有清單中少見的組合；適合願意維護容器與韌體的進階家庭網路，不是一般使用者的低門檻首選。",
+    "topPick": false,
+    "score": 88,
+    "voltage": "AC 110-240V / 50-60Hz；台灣電力可用",
+    "warranty": "ASUS 台灣網通產品主機 3 年保固；變壓器、電源線與天線 1 年",
+    "tags": [
+      "AI／自架服務推薦",
+      "Wi-Fi 7",
+      "BE19000",
+      "Docker",
+      "Home Assistant",
+      "AiMesh",
+      "雙 10G"
+    ],
+    "releaseDate": "2026-03-18",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-08-05",
+      "note": "已查 Yahoo購物中心、momo、FindPrice 與 BigGo 的 ROG Rapture GT-BE19000AI exact-model 頁；只取得本輪 NT$26,871 至 NT$27,990 現價，沒有可重現的可信新品歷史曲線與最低點日期。FindPrice 的 NT$20,999 候選標題僅寫四頻 Rapture、未含 GT-BE19000AI，與本款三頻 exact model 不符，已排除。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-08-05",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"ROG Rapture GT-BE19000AI\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22ROG%20Rapture%20GT-BE19000AI%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"ROG Rapture GT-BE19000AI\" (problem OR issue OR defect OR \"negative review\")",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22ROG%20Rapture%20GT-BE19000AI%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
+          "targetHost": "reddit.com"
         }
       ]
     }

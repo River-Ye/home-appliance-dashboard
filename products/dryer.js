@@ -518,9 +518,9 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/2618755F67-Product-24570513.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 6621,
-      "converted": 6621,
-      "confidence": "PChome 2026-08-04 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 7120,
+      "converted": 7120,
+      "confidence": "PChome 2026-08-05 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -1518,9 +1518,9 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/04F73DE2ED-SP-21351939.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 37628,
-      "converted": 37628,
-      "confidence": "Yahoo購物中心 2026-07-11 頁面查核價"
+      "amount": 35055,
+      "converted": 35055,
+      "confidence": "Yahoo購物中心 2026-08-05 exact-model 公開結構化價格"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心",
@@ -1560,16 +1560,16 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 36810,
+      "amount": 35055,
       "currency": "TWD",
-      "converted": 36810,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1263635920&cgp=40900",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：SAMSUNG 三星 10KG 智慧熱泵乾衣機 DV10DB7440GB/DV10DB7440GW 黑白",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Yahoo購物中心 / SAMSUNG 三星 10KG 智慧熱泵乾衣機 DV10DB7440GB/DV10DB7440GW 黑白」最低價為 NT$36,810，最低點日期 2026-03-11。",
-      "sourceKind": "price_history",
-      "confidence": "high",
-      "checkedAt": "2026-07-09",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+      "converted": 35055,
+      "sourceUrl": "https://tw.buy.yahoo.com/gdsale/SAMSUNG-%E4%B8%89%E6%98%9F-10KG-%E6%99%BA%E6%85%A7%E7%86%B1%E6%B3%B5%E4%B9%BE%E8%A1%A3%E6%A9%9F-DV10DB7440GB-DV10DB7440GW-11854932.html",
+      "sourceTitle": "Yahoo購物中心：SAMSUNG 三星 10KG 智慧熱泵乾衣機 DV10DB7440GB/DV10DB7440GW 黑白 | 脫水/乾衣機 | Yahoo購物中心",
+      "evidenceSnippet": "Yahoo購物中心於 2026-08-05 顯示同型號可信新品公開價 NT$35,055，低於既有史低 NT$36,810。",
+      "sourceKind": "retailer_page",
+      "confidence": "medium",
+      "checkedAt": "2026-08-05",
+      "note": "採用 Yahoo購物中心當日可購商品的同型號新品公開價；不含會員券、點數、信用卡回饋、二手、福利、展示、拆封或整新品。"
     },
     "issueResearch": {
       "status": "no_common_issue",
