@@ -355,9 +355,9 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/554C25E292-SP-18069150.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 34658,
-      "converted": 34658,
-      "confidence": "Yahoo購物中心 2026-08-01 exact-model 公開結構化價格"
+      "amount": 35464,
+      "converted": 35464,
+      "confidence": "Yahoo購物中心 2026-08-04 exact-model 公開結構化價格"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心",
@@ -1287,16 +1287,16 @@
     "brand": "HITACHI",
     "model": "RV469",
     "name": "HITACHI RV469",
-    "image": "https://img.yec.tw/zp/MerchandiseImages/A818CEFD00-SP-22130389.jpg",
+    "image": "https://cs-a.ecimg.tw/items/DPACGVA900BFMHM/000001_1785552938.png",
     "price": {
       "currency": "TWD",
       "amount": 23490,
       "converted": 23490,
-      "confidence": "Yahoo購物中心 2026-07-11 頁面查核價"
+      "confidence": "PChome 2026-08-04 exact-model API 公開折扣價；有正值 Price.Low 時優先於 Price.P"
     },
     "channel": "tw",
-    "buyLabel": "Yahoo購物中心",
-    "buyUrl": "https://tw.buy.yahoo.com/gdsale/HITACHI%E6%97%A5%E7%AB%8B460%E5%85%AC%E5%8D%87%E8%AE%8A%E9%A0%BB%E5%85%A9%E9%96%80%E5%86%B0%E7%AE%B1RV469-BSL%E6%98%9F%E7%87%A6%E9%8A%80-11996786.html",
+    "buyLabel": "PChome 24h",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DPACGV-A900BFMHM",
     "specs": [
       "冰箱：HITACHI日立460公升變頻兩門冰箱RV469_BSL星燦銀",
       "容量：460L",
@@ -1304,7 +1304,7 @@
       "門型：雙門",
       "變頻：有標示",
       "節能：一級能效有標示",
-      "Yahoo購物 可信通路低價；排除福利品、展示機與配件頁"
+      "PChome 24h 可信通路低價；排除福利品、展示機與配件頁"
     ],
     "description": "聚焦台灣可信通路新品，依容量、門型、變頻節能、品牌售後與大型家電安裝便利性排序。",
     "pros": [

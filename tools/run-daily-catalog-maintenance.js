@@ -526,7 +526,7 @@ async function fetchExchangeRates() {
   return exchangeRatesFromPayload(await response.json());
 }
 
-function applyExchangeRates(products, exchange, raw) {
+function applyExchangeRates(products, exchange, raw, baselineById = new Map()) {
   const exchangeDate = String(exchange.date || "").match(/^\d{4}-\d{2}-\d{2}/)?.[0];
   if (!exchangeDate) throw new Error("Exchange rate date is incomplete");
   const exchangeProvenance = `ExchangeRate-API ${exchangeDate} 匯率換算`;
@@ -543,7 +543,12 @@ function applyExchangeRates(products, exchange, raw) {
     if (currency && currency !== "TWD") {
       const rate = rates[currency];
       if (!Number.isFinite(rate)) throw new Error(`Unsupported product currency: ${currency} (${product.id})`);
-      const before = Number(product.price.converted);
+      const currentBefore = Number(product.price.converted);
+      const baselinePrice = baselineById.get(product.id)?.price;
+      const baselineBefore = baselinePrice?.currency === currency
+        ? Number(baselinePrice.converted)
+        : Number.NaN;
+      const before = Number.isFinite(baselineBefore) ? baselineBefore : currentBefore;
       const after = Math.round(Number(product.price.amount) * rate);
       product.price.converted = after;
       const confidence = String(product.price.confidence || "").trim();
@@ -1003,7 +1008,7 @@ async function main() {
   await mapLimit(catalog.products, CONCURRENCY, (product) => auditImage(product, raw));
 
   const exchange = await fetchExchangeRates();
-  applyExchangeRates(catalog.products, exchange, raw);
+  applyExchangeRates(catalog.products, exchange, raw, baselineById);
   await mapLimit(catalog.products, CONCURRENCY, (product) => auditHistoricalSource(product, raw));
 
   const previousCategoryReview = readPreviousCategoryReview();

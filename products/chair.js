@@ -17,9 +17,9 @@
     "name": "T07 Plus 人體工學電腦椅",
     "price": {
       "currency": "TWD",
-      "amount": 12500,
-      "converted": 12500,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 11875,
+      "converted": 11875,
+      "confidence": "PChome 2026-08-04 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBJ4CA900JM0HG/000001_1783562693.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBJ4C-A900JM0HG",
@@ -412,9 +412,9 @@
     "name": "T27 雲岩網人體工學電腦椅",
     "price": {
       "currency": "TWD",
-      "amount": 14500,
-      "converted": 14500,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 14060,
+      "converted": 14060,
+      "confidence": "PChome 2026-08-04 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DCBE2LA900HA2WP/000001_1783563647.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DCBE2L-A900HA2WP",
@@ -1220,9 +1220,9 @@
     "name": "高彈力人體工學網椅",
     "price": {
       "currency": "TWD",
-      "amount": 6800,
-      "converted": 6800,
-      "confidence": "PChome 2026-08-01 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 5890,
+      "converted": 5890,
+      "confidence": "PChome 2026-08-04 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBJ0AA900JSBYX/000001_1780972580.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBJ0A-A900JSBYX",

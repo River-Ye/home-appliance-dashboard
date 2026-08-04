@@ -498,6 +498,7 @@ async function main() {
       ["knife-extra-17-debm2ca900j9cyp", "DEBM2C-A900J9CYP"],
       ["knife-wmf-18cm", "DEAWRU-A900HDL2T"],
       ["monitor-dell-aw3225qf", "DSABOK-A900HB1B5"],
+      ["refrigerator-hitachi-rv469", "DPACGV-A900BFMHM"],
       ["smartlock-panasonic-g11", "DQBS4N-A900K1WBU"],
       ["standingdesk-irocks-d01-120", "DQBJ4C-A900I9XVY"],
       ["standingdesk-irocks-d01-150", "DQBJ4C-A900HUG3C"],
@@ -520,6 +521,7 @@ async function main() {
       ["blender-xiaomi-mjpbj01demtw", "DMAYFG-A900IXDP8"],
       ["dishwasher-extra-17-dmbr17a900ihtz3", "DMBR17-A900IHTZ4"],
       ["fan-extra-8-dmablm-a900eorp0", "DMABLM-A900EORP1"],
+      ["refrigerator-hitachi-rv469", "DPACGV-A900BFMHN"],
       ["tv-extra-18-dpadtoa900jne73", "DPADTO-A900JNE73"],
       ["waterdispenser-sakura-p0532", "DMCI0O-A900K57Y2"],
       ["wifi-asus-zenwifi-bd5-2pack", "DRAF01-A900I3ETA"],
@@ -919,6 +921,18 @@ async function main() {
   assert(
     staleUsdProduct.historicalLow.note === "海外史低；未含國際運費；依 2026-07-22 USD/TWD 匯率換算。",
     "foreign historical lows should append exchange-rate provenance when it is missing",
+  );
+  const rerunExchangeRaw = { foreignPriceChanges: [] };
+  applyExchangeRates(
+    [staleUsdProduct],
+    krwExchange,
+    rerunExchangeRaw,
+    new Map([[staleUsdProduct.id, { price: { currency: "USD", converted: 3_100 } }]]),
+  );
+  assert(
+    rerunExchangeRaw.foreignPriceChanges[0].before === 3_100
+      && rerunExchangeRaw.foreignPriceChanges[0].after === 3_200,
+    "same-day exchange reruns should preserve the baseline converted price in the maintenance report",
   );
   assert(
     maintenanceCacheVersion('cacheVersion: "20260723-garmentcare"', "2026-07-23") === "20260723-garmentcare",
