@@ -10,6 +10,7 @@
     "tv",
     "soundbar",
     "garmentcare",
+    "coffee",
     "oven",
     "dishwasher",
     "bidet",

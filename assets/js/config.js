@@ -5,9 +5,9 @@
   const meta = {
     dataDate: "2026-08-04",
     costcoDate: "2026-08-04",
-    expectedCategoryCount: 26,
-    expectedProductCount: 716,
-    cacheVersion: "20260804-115958-catalog",
+    expectedCategoryCount: 27,
+    expectedProductCount: 740,
+    cacheVersion: "20260804-coffee",
     exchangeSummary: "USD 1 = TWD 32.337",
   };
 
@@ -39,6 +39,7 @@
     { id: "cookware", label: "鍋具", group: "廚房餐飲" },
     { id: "knife", label: "刀具", group: "廚房餐飲" },
     { id: "blender", label: "破壁機", group: "廚房餐飲" },
+    { id: "coffee", label: "咖啡機", group: "廚房餐飲" },
     { id: "oven", label: "多功能氣炸烤箱/微波爐", group: "廚房餐飲" },
     { id: "waterdispenser", label: "櫥下飲水機", group: "廚房餐飲" },
     { id: "dishwasher", label: "洗碗機", group: "廚房餐飲" },

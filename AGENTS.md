@@ -33,10 +33,10 @@
 - `assets/js/product-loader.js`：依 `categories` 自動載入 `products/<category>.js?v=<cacheVersion>`。
 - `assets/js/main.js`：DOMContentLoaded、商品載入、事件綁定與初始 render。
 - `products/*.js`：每個商品分類一個檔案，只放該分類商品資料，透過 `globalThis.applianceDashboard.registerProducts(categoryId, items)` 註冊。
-- `tools/category-guides.js`：26 類導讀、選購條件與 FAQ 的人工維護來源，不放即時商品事實。
+- `tools/category-guides.js`：27 類導讀、選購條件與 FAQ 的人工維護來源，不放即時商品事實。
 - `tools/geo-config.js`：站名、首頁 title、description、H1、AI 揭露與 GEO 共用文案契約。
 - `tools/generate-category-pages.js`：依分類、商品、指南與 CSS 來源產生 `assets/css/app.css`、`categories/<id>/index.html`、`sitemap.xml`、`llms.txt` 與首頁 GEO 區塊。
-- `categories/<id>/index.html`：26 個可直接閱讀與索引的靜態分類指南頁，屬產生結果。
+- `categories/<id>/index.html`：27 個可直接閱讀與索引的靜態分類指南頁，屬產生結果。
 - `tools/dashboard-contract.js`：商品數、分類數、必要欄位與資料品質規則常數。
 - `tools/run-daily-catalog-maintenance.js`：永久維護入口，重查現價、來源、圖片、史低來源、匯率與停產候選；原始逐筆稽核只寫入 gitignored `.maintenance-audit.json`。
 - `tools/catalog-maintenance-policy.js`：exact-model、排除品與官方停產文字的純邏輯規則。
@@ -68,7 +68,7 @@
 
 ## GEO / AI 搜尋規則
 
-- 網站由現有 26 類資料產生 26 個 `/categories/<id>/` 靜態分類指南頁；不建立 716 個重複商品事實的薄內容頁。
+- 網站由現有 27 類資料產生 27 個 `/categories/<id>/` 靜態分類指南頁；不建立 740 個重複商品事實的薄內容頁。
 - `tools/category-guides.js` 只維護分類層級的繁中導讀、3 項選購條件與 3 組 FAQ；商品名稱、價格、排名、規格、史低與負評仍從既有商品資料產生，避免第二套事實來源。
 - 站名、首頁 title、description、H1 與 AI 揭露集中在 `tools/geo-config.js`；首頁 metadata、JSON-LD、分類頁與 `llms.txt` 必須共用此契約。首頁與分類頁首屏皆需可見 AI 協作、資料日期、查核方法與 GitHub 原始碼。
 - 修改 `assets/js/config.js` 的分類、`products/*.js` 商品或 `tools/category-guides.js` 後，必須執行 `npm run generate:categories`，再以 `npm run check:geo` 驗證產物與 contract。
@@ -80,7 +80,7 @@
 
 ## 目前資料規模
 
-- 共 26 類、716 筆商品。
+- 共 27 類、740 筆商品。
 - 所有分類每類至少 20 筆；新增分類或補資料時不可讓任何分類低於 20 筆。
 - 特殊分類目前數量：
   - `電視`：33 筆，其中 5 筆為 exact 70 吋，需涵蓋主流顯示技術與可信台灣新品通路。
@@ -96,6 +96,7 @@
   - `空氣清淨機`：24 筆，已補入 POIEMA 新氣几系列與 Philips AC0921/84；後續若替換資料，除非無可信新品通路，需保留 POIEMA 候選。
   - `電風扇`：22 筆，已補入 Philips 風扇/循環扇/塔扇/無葉片款；後續若替換資料，除非無可信新品通路，需保留 Philips 候選。
   - `循環扇`：24 筆，已納入有台灣官方現貨、上市年份與 exact-model 查核證據的 IRIS PCF-CDP18TEC、IRIS KSF-SDC151TEC 與 SHARP PK-18S03T。
+  - `咖啡機`：24 筆，只收台灣現售全自動與半自動義式機，各 12 筆；各類型入門／均衡／旗艦各 4 筆，半自動含內建磨豆與需外接磨豆各 6 筆。
 
 現有分類順序需盡量維持關聯群組，方便商品數量變多後掃描：
 
@@ -129,6 +130,7 @@
 - 鍋具
 - 刀具
 - 破壁機
+- 咖啡機
 - 多功能氣炸烤箱/微波爐
 - 櫥下飲水機
 - 洗碗機
@@ -188,11 +190,12 @@
 - 日期查核需保留 `release_date_research.json` 證據檔；非「找不到」項目必須有 `sourceUrl`、`sourceTitle`、`evidenceSnippet` 與 `confidence`，且 `releaseDate` 只能使用 `YYYY-MM-DD`、`YYYY-MM`、`YYYY`。
 - 補查上市/發售日時，優先官方新聞稿、官方產品發表頁、官方上市/發售公告；其次才使用可信媒體/評測明確寫出的 release/launch/上市/發售文字。不可把 Google/Bing 生成式摘要、支援頁的說明書/韌體/驅動 release date、文章發布日、促銷期間、上架日、保固文件日期、購買頁庫存日期或型號年份當作上市日。
 - 若搜尋結果只找到「released in 2024」這類明確年份，可填 `YYYY`；只寫月份則填 `YYYY-MM`。不要自行補月份或日期。
-- `dimension_research.json` 同步保存 10 類商品的機身尺寸證據，以及本次新增的電視、Soundbar、多功能氣炸烤箱／微波爐 3 類商品重量證據；商品規格與研究列必須逐筆對齊。
+- `dimension_research.json` 同步保存 11 類商品的機身尺寸證據，以及電視、Soundbar、咖啡機、多功能氣炸烤箱／微波爐 4 類商品重量證據；商品規格與研究列必須逐筆對齊。
 - 尺寸與重量優先採品牌官方 exact-model 產品頁、官方規格表或官方 PDF，其次才使用可信通路。只採本體／機身尺寸與淨重，不可使用包裝、外箱尺寸或毛重；來源沒有明確標示寬／深／高順序時不得自行推定。
-- 本次新增查核的電視、Soundbar、多功能氣炸烤箱／微波爐、洗碗機與免治馬桶若仍無法確認，規格文字固定使用「尺寸：查不到」／「重量：查不到」，並在研究列保留實際查過的代表性頁面與找不到原因；既有大型家電的「未標示」契約不回溯改寫。
+- 新增查核的電視、Soundbar、咖啡機、多功能氣炸烤箱／微波爐、洗碗機與免治馬桶若仍無法確認，規格文字固定使用「尺寸：查不到」／「重量：查不到」，並在研究列保留實際查過的代表性頁面與找不到原因；既有大型家電的「未標示」契約不回溯改寫。
 - 每筆商品都必須標示 `historicalLow`，代表同型號、同尺寸/容量/規格在可信新品通路可驗證的歷史最低價與入手時機判斷；若找不到可靠來源，需填 `status: "not_found"`，不要以現價推定史低。
 - 歷史最低價查核需保留 `historical_price_research.json` 證據檔；`found` 項目必須有 `sourceUrl`、`sourceTitle`、`evidenceSnippet`、`amount`、`currency`、`converted`、`sourceKind`、`confidence` 與 `checkedAt`，`not_found` 項目必須寫明查核說明。
+- 咖啡機的史低研究列另需保留結構化 `priceChecks`：每筆寫明 exact-model 查詢、價格來源用途與採用／排除結果，至少跨兩個網站並包含實際比價、價格歷史或 exact-model 價格搜尋；規格、保固、清潔教學、影片與品牌分類頁不得計入價格查核門檻。
 - 歷史最低價來源排除會員個人化折扣、信用卡回饋、點數、二手、福利品、展示機、拆封品、整新品、配件頁或耗材頁；海外史低需在 `note` 標示未含國際運費、進口稅、電壓/插頭與台灣保固風險。
 - 每筆商品都必須有 `issueResearch`。同一問題只有在完全相同型號、至少 6 位可辨識的獨立使用者、且跨至少 2 個原始網站時，才能標為 `common_issue`；同帳號重複留言、跨站轉貼、按讚、搜尋摘要、媒體轉述與系列相近型號均不得計入人數。
 - 未達門檻使用 `no_common_issue`，文案固定為「截至查核日，查無達門檻的集中負評／災情」，不可寫成完全沒有負評。每次查核需保留至少兩個平台的查詢入口，完整查詢、候選、排除原因、作者與摘錄保存在 `product_issue_research.json`。
@@ -228,6 +231,13 @@
 
 - 每筆需標示尺寸與重量；套裝含重低音或後環繞喇叭時，主機、重低音與後環繞需依官方明確資料分列，不可寫成沒有意義的合計值。
 - 不可把包裝尺寸／毛重當成產品規格；來源只列部分元件時，只填已確認元件，整筆完全無法確認才寫「查不到」。
+
+### 咖啡機
+
+- 固定收錄 24 款台灣現售義式咖啡機：全自動 12 款、半自動 12 款；排除膠囊、滴濾、商用／嵌入式機、獨立磨豆機、奶泡機、耗材及配件。
+- 全自動與半自動皆維持入門／均衡／旗艦各 4 款；半自動再分為 6 款內建磨豆機與 6 款需外接磨豆機。至少涵蓋 6 個品牌，單一品牌不得超過 6 款，不以顏色或套組重複湊數。
+- 每筆必須依序提供類型、使用原料、研磨系統、萃取／沖煮、奶泡、容量、機身尺寸、淨重、電壓／頻率、功率、清潔維護及耗材／配件相容性；不可使用包裝尺寸或毛重，查無可信資料時使用「尺寸：查不到」／「重量：查不到」。
+- 只收具 exact model、TWD 公開售價、台灣可信新品通路、60Hz、台灣官方明確支援的 110V 或 120V 電力規格及台灣保固的型號。全分類只能有一款 Top Pick，且該款須為 110V／60Hz，並明確證明台灣維修與耗材／配件可取得；其他分型推薦使用「全自動推薦」「半自動推薦」「入門推薦」等標籤。
 
 ### 多功能氣炸烤箱/微波爐
 
@@ -316,9 +326,9 @@
 ## 價格與匯率
 
 <!-- catalog-maintenance-summary:start -->
-- 2026-08-04 19:59（台灣時間）完成 716 筆商品、26 類全量查核；409 筆 PChome SKU API 已完成（261 筆 exact model、38 筆人工 SKU 綁定可寫入，83 筆型號未自動確認），更新 47 筆現價（21 筆降價、26 筆漲價），23 筆 Qty 0 只列追蹤。
-- 本次增量沒有納入新產品；本次增量沒有移除產品。沿用本資料日既有逐類人工新品覆核，並補查部分分類（原覆核時間保留），所有分類至少 20 筆；停產只採品牌官方明確證據，缺貨、反爬或單次連線錯誤不作為刪除依據。
-- 圖片查核覆蓋 716 筆；559 筆來源可由 exact model 或人工 SKU 綁定確認，157 筆來源／圖片例外保留原資料。史低為 443 筆 `found`、273 筆 `not_found`，本輪下修 1 筆、其他更正 3 筆；75 筆來源可自動重現，其餘保留原逐筆證據且未臆測失效。
+- 2026-08-04 22:45（台灣時間）完成 740 筆商品、27 類全量查核；416 筆 PChome SKU API 已完成（264 筆 exact model、42 筆人工 SKU 綁定可寫入，82 筆型號未自動確認），更新 0 筆現價（0 筆降價、0 筆漲價），23 筆 Qty 0 只列追蹤。
+- 本次增量新增 coffee-best-g6280、coffee-breville-bes450xl、coffee-breville-bes876xl、coffee-breville-bes878xl、coffee-delonghi-ecam220-22-sb、coffee-delonghi-ecam290-43-sb、coffee-delonghi-ecam350-25-sb、coffee-delonghi-em450-m、coffee-electrolux-e5ec1-51st、coffee-electrolux-e7ec1-610p、coffee-gaggia-anima-cmf、coffee-gaggia-magenta-prestige、coffee-giaretti-gl-5700、coffee-jura-e8-15646、coffee-jura-ena-4-15344、coffee-lelit-mara-x-pl62x-v2、coffee-miele-cm5310、coffee-philips-ems5110-02、coffee-philips-ep3326-94、coffee-philips-ep3347-84、coffee-philips-ep5547-90、coffee-philips-ess5228-02、coffee-philips-psa3218-10、coffee-rancilio-silvia-pro-x；本次增量沒有移除產品。沿用本資料日已完成的逐類人工新品覆核（原覆核時間保留），所有分類至少 20 筆；停產只採品牌官方明確證據，缺貨、反爬或單次連線錯誤不作為刪除依據。
+- 圖片查核覆蓋 740 筆；583 筆來源可由 exact model 或人工 SKU 綁定確認，157 筆來源／圖片例外保留原資料。史低為 464 筆 `found`、276 筆 `not_found`，本輪異動 0 筆；67 筆來源可自動重現，其餘保留原逐筆證據且未臆測失效。
 - ExchangeRate-API 最新批次為 2026-08-04 00:02 UTC，USD/TWD 32.337189；30 筆外幣商品已重算。完整摘要與例外保存在 `catalog_maintenance_latest.json`。
 <!-- catalog-maintenance-summary:end -->
 
@@ -330,7 +340,7 @@
 - `npm run check:logic`：純邏輯回歸，涵蓋排序、品牌依分類限制、史低／負評文案、問題摘要搜尋、來源 URL 安全、HTML escape 與 product-loader URL/錯誤。
 - `npm run check:data`：商品總數、分類數、必要欄位、日期格式、負評逐型號人工覆核、逐位反映者與研究檔對齊、重複 URL 與重複型號檢查通過。
 - `npm run check:docs`：README、AGENTS、index/config 的商品數、分類數、日期與 cache version 不漂移。
-- `npm run check:geo`：26 個分類頁、metadata、結構化資料、首頁分類入口、sitemap、llms、六份公開證據檔、Pages artifact、IndexNow contract 與產生結果均無漂移。
+- `npm run check:geo`：27 個分類頁、metadata、結構化資料、首頁分類入口、sitemap、llms、六份公開證據檔、Pages artifact、IndexNow contract 與產生結果均無漂移。
 - `npm run check:ui`：桌機與手機版主要互動流程通過。
 - `npm run check:quality`：Lighthouse 的 Performance、LCP、CLS、Accessibility 與 SEO 採瀏覽器行動 throttling，TBT 採 Lantern 標準化模擬；首頁 Performance ≥ 90、LCP ≤ 2.5s、CLS ≤ 0.1、TBT ≤ 200ms、Accessibility = 100、SEO ≥ 95；代表分類頁 Performance、Accessibility、SEO 均 ≥ 95。
 - 商品總數仍符合 README 與分類 tab 顯示。

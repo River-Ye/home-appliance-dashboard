@@ -1,15 +1,15 @@
 {
   "summary": {
     "checkedAt": "2026-08-04T00:00:00.000+08:00",
-    "sourcePolicy": "2026-08-04 以 716 筆基準清單全量查核現價、購買連結與可信新品狀態，並複核最終 716 筆商品圖片、全部 443 筆 found 史低來源、原廠停產訊號與同批次匯率。PChome exact-model 現貨頁有正值 Price.Low 時採公開折扣價，否則採 Price.P；Qty 0、福利品、展示機與配件不寫回。其他頁面的結構化價格差異列入人工覆核候選，阻擋、暫時錯誤與單次頁面失效只列稽核，不臆測停產或史低失效。",
-    "total": 716,
-    "researchedThisRun": 716,
-    "found": 443,
-    "missing": 273,
+    "sourcePolicy": "2026-08-04 以 716 筆基準清單全量查核現價、購買連結與可信新品狀態，並複核最終 740 筆商品圖片、全部 464 筆 found 史低來源、原廠停產訊號與同批次匯率。PChome exact-model 現貨頁有正值 Price.Low 時採公開折扣價，否則採 Price.P；Qty 0、福利品、展示機與配件不寫回。其他頁面的結構化價格差異列入人工覆核候選，阻擋、暫時錯誤與單次頁面失效只列稽核，不臆測停產或史低失效。",
+    "total": 740,
+    "researchedThisRun": 740,
+    "found": 464,
+    "missing": 276,
     "byConfidence": {
-      "not_found": 273,
-      "high": 298,
-      "medium": 145
+      "not_found": 276,
+      "high": 311,
+      "medium": 153
     },
     "exchange": {
       "USD_TWD": 32.337189,
@@ -20,19 +20,19 @@
       "CNY_TWD": 4.779466814034055,
       "KRW_TWD": 0.02261989649184111
     },
-    "lastMaintenanceCheckAt": "2026-08-04T11:59:58.777Z",
-    "currentPriceChanged": 47,
-    "currentBuyLinkChanged": 1,
-    "currentPriceDrops": 21,
-    "currentPriceRises": 26,
+    "lastMaintenanceCheckAt": "2026-08-04T14:45:07.449Z",
+    "currentPriceChanged": 0,
+    "currentBuyLinkChanged": 0,
+    "currentPriceDrops": 0,
+    "currentPriceRises": 0,
     "currentPriceFallbacks": 0,
-    "historicalLowUpdated": 1,
+    "historicalLowUpdated": 0,
     "historicalLowInvalidated": 0,
     "catalogEntriesReplaced": 0,
     "catalogReplacementNotes": [],
-    "currentImageChanged": 1,
+    "currentImageChanged": 0,
     "discontinuedRemoved": 0,
-    "newProductsAdded": 0,
+    "newProductsAdded": 24,
     "discontinuedRemovalNotes": [],
     "catalogEntriesRemoved": 0,
     "catalogRemovalNotes": []
@@ -31314,6 +31314,1235 @@
       "rejectedCandidates": [
         "PCPARTY NT$6,641 與其他通路 NT$6,990 只證明本次現價，沒有可重現的歷史最低點日期。",
         "會員折扣、點數、缺貨頁與非 T36 exact-model 候選均不採。"
+      ]
+    },
+    {
+      "id": "coffee-best-g6280",
+      "category": "coffee",
+      "brand": "BEST",
+      "model": "G6280",
+      "name": "BEST 貝斯特 G6280 獨立式全自動咖啡機",
+      "currentPrice": 18800,
+      "currentCurrency": "TWD",
+      "currentBuyUrl": "https://24h.pchome.com.tw/prod/DMATI9-A900HPMCA",
+      "currentBuyLabel": "PChome 24h｜公司貨，含基本安裝與教學",
+      "historicalLow": {
+        "status": "found",
+        "amount": 18800,
+        "currency": "TWD",
+        "converted": 18800,
+        "sourceUrl": "https://24h.pchome.com.tw/prod/DMATI9-A900HPMCA",
+        "sourceTitle": "PChome 24h BEST 貝斯特 G6280 獨立式全自動咖啡機",
+        "evidenceSnippet": "exact-model 公司貨頁公開價為 18,800 元，並列原價 24,900 元；官方型錄另列 19,800 元。",
+        "sourceKind": "retailer_promo",
+        "confidence": "high",
+        "checkedAt": "2026-08-04",
+        "note": "截至查核日，PChome exact-model 公司貨頁的 18,800 元為本輪可重現最低公開新品促銷價；未使用會員券、信用卡、點數或瑕疵品條件，不把未能回到原始頁的聚合摘要算入。"
+      },
+      "checkedSources": [
+        "https://24h.pchome.com.tw/prod/DMATI9-A900HPMCA",
+        "https://biggo.com.tw/s/G6280",
+        "https://www.findprice.com.tw/g/G6280"
+      ],
+      "rejectedCandidates": [],
+      "priceChecks": [
+        {
+          "kind": "retailer_price",
+          "url": "https://24h.pchome.com.tw/prod/DMATI9-A900HPMCA",
+          "query": "G6280",
+          "outcome": "採用：exact-model 公開新品促銷價 TWD 18,800，頁面同時保留原價或促銷標示。"
+        },
+        {
+          "kind": "price_comparison",
+          "url": "https://biggo.com.tw/s/G6280",
+          "query": "G6280",
+          "outcome": "覆核：逐筆回到原始頁核對 exact model、商品狀態與公開價格；未採不可重現、套組、福利品或個人化優惠候選。"
+        },
+        {
+          "kind": "price_comparison",
+          "url": "https://www.findprice.com.tw/g/G6280",
+          "query": "G6280",
+          "outcome": "覆核：只把可回到可信新品原始頁、且可確認 exact model 的公開價格列入比較。"
+        }
+      ]
+    },
+    {
+      "id": "coffee-philips-ep3326-94",
+      "category": "coffee",
+      "brand": "Philips",
+      "model": "EP3326/94",
+      "name": "Philips 飛利浦 EP3326/94 雙溫萃取全自動義式咖啡機",
+      "currentPrice": 14900,
+      "currentCurrency": "TWD",
+      "currentBuyUrl": "https://www.philips-da.com.tw/products/ep3326",
+      "currentBuyLabel": "台灣飛利浦家電官方網站",
+      "historicalLow": {
+        "status": "found",
+        "amount": 14900,
+        "currency": "TWD",
+        "converted": 14900,
+        "sourceUrl": "https://www.philips-da.com.tw/products/ep3326",
+        "sourceTitle": "台灣飛利浦家電 Philips 3300 系列 EP3326/94 官方商品頁",
+        "evidenceSnippet": "官方 exact-model 頁公開價為 NT$14,900，並列原價 NT$28,900；附加點數未計入價格。",
+        "sourceKind": "official_sale",
+        "confidence": "high",
+        "checkedAt": "2026-08-04",
+        "note": "截至查核日，台灣官方 exact-model 頁的 NT$14,900 為本輪可重現最低公開新品促銷價；LINE 點數屬附加利益，沒有折入史低金額。"
+      },
+      "checkedSources": [
+        "https://www.philips-da.com.tw/products/ep3326",
+        "https://biggo.com.tw/s/EP3326%2F94",
+        "https://www.findprice.com.tw/g/EP3326%2F94"
+      ],
+      "rejectedCandidates": [],
+      "priceChecks": [
+        {
+          "kind": "official_price",
+          "url": "https://www.philips-da.com.tw/products/ep3326",
+          "query": "EP3326/94",
+          "outcome": "採用：exact-model 公開新品促銷價 TWD 14,900，頁面同時保留原價或促銷標示。"
+        },
+        {
+          "kind": "price_comparison",
+          "url": "https://biggo.com.tw/s/EP3326%2F94",
+          "query": "EP3326/94",
+          "outcome": "覆核：逐筆回到原始頁核對 exact model、商品狀態與公開價格；未採不可重現、套組、福利品或個人化優惠候選。"
+        },
+        {
+          "kind": "price_comparison",
+          "url": "https://www.findprice.com.tw/g/EP3326%2F94",
+          "query": "EP3326/94",
+          "outcome": "覆核：只把可回到可信新品原始頁、且可確認 exact model 的公開價格列入比較。"
+        }
+      ]
+    },
+    {
+      "id": "coffee-delonghi-ecam220-22-sb",
+      "category": "coffee",
+      "brand": "DeLonghi",
+      "model": "ECAM220.22.SB",
+      "name": "De'Longhi ECAM220.22.SB Magnifica Start 全自動義式咖啡機",
+      "currentPrice": 26900,
+      "currentCurrency": "TWD",
+      "currentBuyUrl": "https://www.idelonghi.com.tw/id/products/ecam22022",
+      "currentBuyLabel": "De'Longhi Taiwan 官方網站",
+      "historicalLow": {
+        "status": "found",
+        "amount": 26900,
+        "currency": "TWD",
+        "converted": 26900,
+        "sourceUrl": "https://www.idelonghi.com.tw/id/products/ecam22022",
+        "sourceTitle": "De'Longhi Taiwan Magnifica Start ECAM220.22.SB 官方商品頁",
+        "evidenceSnippet": "官方頁以商品編號 ECAM22022SB 列出公開價 NT$26,900、原價 NT$32,900。",
+        "sourceKind": "official_sale",
+        "confidence": "high",
+        "checkedAt": "2026-08-04",
+        "note": "截至查核日，台灣官方 exact-model 頁的 NT$26,900 為本輪可重現最低公開新品促銷價；未採會員個人化折扣、卡回饋或點數。"
+      },
+      "checkedSources": [
+        "https://www.idelonghi.com.tw/id/products/ecam22022",
+        "https://biggo.com.tw/s/ECAM220.22.SB",
+        "https://www.findprice.com.tw/g/ECAM220.22.SB"
+      ],
+      "rejectedCandidates": [],
+      "priceChecks": [
+        {
+          "kind": "official_price",
+          "url": "https://www.idelonghi.com.tw/id/products/ecam22022",
+          "query": "ECAM220.22.SB",
+          "outcome": "採用：exact-model 公開新品促銷價 TWD 26,900，頁面同時保留原價或促銷標示。"
+        },
+        {
+          "kind": "price_comparison",
+          "url": "https://biggo.com.tw/s/ECAM220.22.SB",
+          "query": "ECAM220.22.SB",
+          "outcome": "覆核：逐筆回到原始頁核對 exact model、商品狀態與公開價格；未採不可重現、套組、福利品或個人化優惠候選。"
+        },
+        {
+          "kind": "price_comparison",
+          "url": "https://www.findprice.com.tw/g/ECAM220.22.SB",
+          "query": "ECAM220.22.SB",
+          "outcome": "覆核：只把可回到可信新品原始頁、且可確認 exact model 的公開價格列入比較。"
+        }
+      ]
+    },
+    {
+      "id": "coffee-gaggia-anima-cmf",
+      "category": "coffee",
+      "brand": "Gaggia",
+      "model": "ANIMA CMF",
+      "name": "Gaggia 佳吉亞 ANIMA CMF 星耀型全自動咖啡機",
+      "currentPrice": 27900,
+      "currentCurrency": "TWD",
+      "currentBuyUrl": "https://24h.pchome.com.tw/prod/DMAT01-A900GG8P0",
+      "currentBuyLabel": "PChome 24h｜Gaggia 台灣原廠公司貨",
+      "historicalLow": {
+        "status": "found",
+        "amount": 22800,
+        "currency": "TWD",
+        "converted": 22800,
+        "sourceUrl": "https://www.qkshopping.com.tw/product/anima/",
+        "sourceTitle": "QK Shopping GAGGIA ANIMA CMF 星耀型 110V 全新公司貨",
+        "evidenceSnippet": "exact-model 頁列出全新公司貨、保固與公開特價 NT$22,800，原價 NT$29,900。",
+        "sourceKind": "retailer_promo",
+        "confidence": "high",
+        "checkedAt": "2026-08-04",
+        "note": "截至查核日，可信台灣新品通路 exact-model 頁的 NT$22,800 為本輪可重現最低公開促銷價；頁面明列 110V、全新品、公司貨與保固。"
+      },
+      "checkedSources": [
+        "https://www.qkshopping.com.tw/product/anima/",
+        "https://biggo.com.tw/s/ANIMA%20CMF",
+        "https://www.findprice.com.tw/g/ANIMA%20CMF"
+      ],
+      "rejectedCandidates": [],
+      "priceChecks": [
+        {
+          "kind": "retailer_price",
+          "url": "https://www.qkshopping.com.tw/product/anima/",
+          "query": "ANIMA CMF",
+          "outcome": "採用：exact-model 公開新品促銷價 TWD 22,800，頁面同時保留原價或促銷標示。"
+        },
+        {
+          "kind": "price_comparison",
+          "url": "https://biggo.com.tw/s/ANIMA%20CMF",
+          "query": "ANIMA CMF",
+          "outcome": "覆核：逐筆回到原始頁核對 exact model、商品狀態與公開價格；未採不可重現、套組、福利品或個人化優惠候選。"
+        },
+        {
+          "kind": "price_comparison",
+          "url": "https://www.findprice.com.tw/g/ANIMA%20CMF",
+          "query": "ANIMA CMF",
+          "outcome": "覆核：只把可回到可信新品原始頁、且可確認 exact model 的公開價格列入比較。"
+        }
+      ]
+    },
+    {
+      "id": "coffee-philips-ep3347-84",
+      "category": "coffee",
+      "brand": "Philips",
+      "model": "EP3347/84",
+      "name": "Philips 飛利浦 EP3347/84 LatteGo 雙溫萃取全自動義式咖啡機",
+      "currentPrice": 26400,
+      "currentCurrency": "TWD",
+      "currentBuyUrl": "https://www.elifemall.com.tw/product/2149579",
+      "currentBuyLabel": "全國電子｜台灣公司貨新品",
+      "historicalLow": {
+        "status": "found",
+        "amount": 23900,
+        "currency": "TWD",
+        "converted": 23900,
+        "sourceUrl": "https://online.skm.com.tw/product/2239170067621",
+        "sourceTitle": "新光三越 PHILIPS 飛利浦 3300 系列 EP3347/84 商品頁",
+        "evidenceSnippet": "百貨 exact-model 新品頁公開售價 NT$23,900，並列原價 NT$34,900。",
+        "sourceKind": "retailer_promo",
+        "confidence": "high",
+        "checkedAt": "2026-08-04",
+        "note": "截至查核日，新光三越 exact-model 新品頁的 NT$23,900 為本輪可重現最低公開促銷價；未把會員、信用卡或點數回饋折入。"
+      },
+      "checkedSources": [
+        "https://online.skm.com.tw/product/2239170067621",
+        "https://biggo.com.tw/s/EP3347%2F84",
+        "https://www.findprice.com.tw/g/EP3347%2F84"
+      ],
+      "rejectedCandidates": [],
+      "priceChecks": [
+        {
+          "kind": "retailer_price",
+          "url": "https://online.skm.com.tw/product/2239170067621",
+          "query": "EP3347/84",
+          "outcome": "採用：exact-model 公開新品促銷價 TWD 23,900，頁面同時保留原價或促銷標示。"
+        },
+        {
+          "kind": "price_comparison",
+          "url": "https://biggo.com.tw/s/EP3347%2F84",
+          "query": "EP3347/84",
+          "outcome": "覆核：逐筆回到原始頁核對 exact model、商品狀態與公開價格；未採不可重現、套組、福利品或個人化優惠候選。"
+        },
+        {
+          "kind": "price_comparison",
+          "url": "https://www.findprice.com.tw/g/EP3347%2F84",
+          "query": "EP3347/84",
+          "outcome": "覆核：只把可回到可信新品原始頁、且可確認 exact model 的公開價格列入比較。"
+        }
+      ]
+    },
+    {
+      "id": "coffee-philips-ep5547-90",
+      "category": "coffee",
+      "brand": "Philips",
+      "model": "EP5547/90",
+      "name": "Philips 飛利浦 EP5547/90 LatteGo 雙溫萃取全自動義式咖啡機",
+      "currentPrice": 33900,
+      "currentCurrency": "TWD",
+      "currentBuyUrl": "https://www.philips-da.com.tw/products/ep554790",
+      "currentBuyLabel": "台灣飛利浦家電官方網站",
+      "historicalLow": {
+        "status": "found",
+        "amount": 33900,
+        "currency": "TWD",
+        "converted": 33900,
+        "sourceUrl": "https://www.philips-da.com.tw/products/ep554790",
+        "sourceTitle": "台灣飛利浦家電 Philips 5500 系列 EP5547/90 官方商品頁",
+        "evidenceSnippet": "官方 exact-model 頁公開價為 NT$33,900，並列原價 NT$49,900。",
+        "sourceKind": "official_sale",
+        "confidence": "high",
+        "checkedAt": "2026-08-04",
+        "note": "截至查核日，台灣官方 exact-model 頁的 NT$33,900 為本輪可重現最低公開新品促銷價；未把附加回饋折入金額。"
+      },
+      "checkedSources": [
+        "https://www.philips-da.com.tw/products/ep554790",
+        "https://biggo.com.tw/s/EP5547%2F90",
+        "https://www.findprice.com.tw/g/EP5547%2F90"
+      ],
+      "rejectedCandidates": [],
+      "priceChecks": [
+        {
+          "kind": "official_price",
+          "url": "https://www.philips-da.com.tw/products/ep554790",
+          "query": "EP5547/90",
+          "outcome": "採用：exact-model 公開新品促銷價 TWD 33,900，頁面同時保留原價或促銷標示。"
+        },
+        {
+          "kind": "price_comparison",
+          "url": "https://biggo.com.tw/s/EP5547%2F90",
+          "query": "EP5547/90",
+          "outcome": "覆核：逐筆回到原始頁核對 exact model、商品狀態與公開價格；未採不可重現、套組、福利品或個人化優惠候選。"
+        },
+        {
+          "kind": "price_comparison",
+          "url": "https://www.findprice.com.tw/g/EP5547%2F90",
+          "query": "EP5547/90",
+          "outcome": "覆核：只把可回到可信新品原始頁、且可確認 exact model 的公開價格列入比較。"
+        }
+      ]
+    },
+    {
+      "id": "coffee-delonghi-ecam290-43-sb",
+      "category": "coffee",
+      "brand": "DeLonghi",
+      "model": "ECAM290.43.SB",
+      "name": "De'Longhi ECAM290.43.SB Magnifica Evo 全自動義式咖啡機",
+      "currentPrice": 25900,
+      "currentCurrency": "TWD",
+      "currentBuyUrl": "https://www.idelonghi.com.tw/ja/products/ecam29043",
+      "currentBuyLabel": "De'Longhi Taiwan 官方網站",
+      "historicalLow": {
+        "status": "found",
+        "amount": 23900,
+        "currency": "TWD",
+        "converted": 23900,
+        "sourceUrl": "https://24h.pchome.com.tw/prod/DMAT03-A900IJELQ",
+        "sourceTitle": "PChome 24h DeLonghi Magnifica Evo ECAM290.43.SB 公司貨",
+        "evidenceSnippet": "exact-model 公司貨頁公開價 23,900 元，並列原價 29,900 元。",
+        "sourceKind": "retailer_promo",
+        "confidence": "high",
+        "checkedAt": "2026-08-04",
+        "note": "截至查核日，PChome exact-model 公司貨頁的 23,900 元為本輪可重現最低合格新品促銷價；另見 19,900 元頁面明載福利品，已排除。"
+      },
+      "checkedSources": [
+        "https://24h.pchome.com.tw/prod/DMAT03-A900IJELQ",
+        "https://biggo.com.tw/s/ECAM290.43.SB",
+        "https://www.findprice.com.tw/g/ECAM290.43.SB"
+      ],
+      "rejectedCandidates": [
+        "PChome 19,900 元候選的標題明載福利品，不符合可信新品契約。"
+      ],
+      "priceChecks": [
+        {
+          "kind": "retailer_price",
+          "url": "https://24h.pchome.com.tw/prod/DMAT03-A900IJELQ",
+          "query": "ECAM290.43.SB",
+          "outcome": "採用：exact-model 公開新品促銷價 TWD 23,900，頁面同時保留原價或促銷標示。"
+        },
+        {
+          "kind": "price_comparison",
+          "url": "https://biggo.com.tw/s/ECAM290.43.SB",
+          "query": "ECAM290.43.SB",
+          "outcome": "覆核：逐筆回到原始頁核對 exact model、商品狀態與公開價格；未採不可重現、套組、福利品或個人化優惠候選。"
+        },
+        {
+          "kind": "price_comparison",
+          "url": "https://www.findprice.com.tw/g/ECAM290.43.SB",
+          "query": "ECAM290.43.SB",
+          "outcome": "覆核：只把可回到可信新品原始頁、且可確認 exact model 的公開價格列入比較。"
+        }
+      ]
+    },
+    {
+      "id": "coffee-delonghi-ecam350-25-sb",
+      "category": "coffee",
+      "brand": "DeLonghi",
+      "model": "ECAM350.25.SB",
+      "name": "De'Longhi ECAM350.25.SB Dinamica 全自動義式咖啡機",
+      "currentPrice": 30900,
+      "currentCurrency": "TWD",
+      "currentBuyUrl": "https://24h.pchome.com.tw/prod/DMAT03-A900J0QWV",
+      "currentBuyLabel": "PChome 24h｜De'Longhi 原廠公司貨",
+      "historicalLow": {
+        "status": "found",
+        "amount": 30900,
+        "currency": "TWD",
+        "converted": 30900,
+        "sourceUrl": "https://24h.pchome.com.tw/prod/DMAT03-A900J0QWV",
+        "sourceTitle": "PChome 24h DeLonghi Dinamica ECAM350.25.SB 公司貨",
+        "evidenceSnippet": "exact-model 公司貨頁公開價 30,900 元，並列原價 47,900 元。",
+        "sourceKind": "retailer_promo",
+        "confidence": "high",
+        "checkedAt": "2026-08-04",
+        "note": "截至查核日，PChome exact-model 公司貨頁的 30,900 元為本輪可重現最低公開新品促銷價；官方頁同期為 35,900 元。"
+      },
+      "checkedSources": [
+        "https://24h.pchome.com.tw/prod/DMAT03-A900J0QWV",
+        "https://biggo.com.tw/s/ECAM350.25.SB",
+        "https://www.findprice.com.tw/g/ECAM350.25.SB"
+      ],
+      "rejectedCandidates": [],
+      "priceChecks": [
+        {
+          "kind": "retailer_price",
+          "url": "https://24h.pchome.com.tw/prod/DMAT03-A900J0QWV",
+          "query": "ECAM350.25.SB",
+          "outcome": "採用：exact-model 公開新品促銷價 TWD 30,900，頁面同時保留原價或促銷標示。"
+        },
+        {
+          "kind": "price_comparison",
+          "url": "https://biggo.com.tw/s/ECAM350.25.SB",
+          "query": "ECAM350.25.SB",
+          "outcome": "覆核：逐筆回到原始頁核對 exact model、商品狀態與公開價格；未採不可重現、套組、福利品或個人化優惠候選。"
+        },
+        {
+          "kind": "price_comparison",
+          "url": "https://www.findprice.com.tw/g/ECAM350.25.SB",
+          "query": "ECAM350.25.SB",
+          "outcome": "覆核：只把可回到可信新品原始頁、且可確認 exact model 的公開價格列入比較。"
+        }
+      ]
+    },
+    {
+      "id": "coffee-gaggia-magenta-prestige",
+      "category": "coffee",
+      "brand": "Gaggia",
+      "model": "Magenta Prestige",
+      "name": "Gaggia MAGENTA PRESTIGE 爵品型全自動咖啡機",
+      "currentPrice": 49800,
+      "currentCurrency": "TWD",
+      "currentBuyUrl": "https://www.momoshop.com.tw/product/11041230",
+      "currentBuyLabel": "momo 購物網｜台灣公司貨新品",
+      "historicalLow": {
+        "status": "found",
+        "amount": 49800,
+        "currency": "TWD",
+        "converted": 49800,
+        "sourceUrl": "https://www.touchcafe.com.tw/magenta-prestige/",
+        "sourceTitle": "Touch Cafe GAGGIA Magenta Prestige 爵品型商品頁",
+        "evidenceSnippet": "exact-model 台灣新品頁公開特價為 49,800 元；momo 同型號公司貨亦列 49,800 元。",
+        "sourceKind": "retailer_promo",
+        "confidence": "medium",
+        "checkedAt": "2026-08-04",
+        "note": "截至查核日，兩個台灣新品通路可重現同型號 49,800 元公開價；未取得更低且可回到可信新品原始頁的候選。"
+      },
+      "checkedSources": [
+        "https://www.touchcafe.com.tw/magenta-prestige/",
+        "https://biggo.com.tw/s/Magenta%20Prestige",
+        "https://www.findprice.com.tw/g/Magenta%20Prestige"
+      ],
+      "rejectedCandidates": [],
+      "priceChecks": [
+        {
+          "kind": "retailer_price",
+          "url": "https://www.touchcafe.com.tw/magenta-prestige/",
+          "query": "Magenta Prestige",
+          "outcome": "採用：exact-model 公開新品促銷價 TWD 49,800，頁面同時保留原價或促銷標示。"
+        },
+        {
+          "kind": "price_comparison",
+          "url": "https://biggo.com.tw/s/Magenta%20Prestige",
+          "query": "Magenta Prestige",
+          "outcome": "覆核：逐筆回到原始頁核對 exact model、商品狀態與公開價格；未採不可重現、套組、福利品或個人化優惠候選。"
+        },
+        {
+          "kind": "price_comparison",
+          "url": "https://www.findprice.com.tw/g/Magenta%20Prestige",
+          "query": "Magenta Prestige",
+          "outcome": "覆核：只把可回到可信新品原始頁、且可確認 exact model 的公開價格列入比較。"
+        }
+      ]
+    },
+    {
+      "id": "coffee-jura-e8-15646",
+      "category": "coffee",
+      "brand": "JURA",
+      "model": "E8 15646",
+      "name": "JURA E8 Chrome (NAC) 全自動咖啡機",
+      "currentPrice": 72500,
+      "currentCurrency": "TWD",
+      "currentBuyUrl": "https://24h.pchome.com.tw/prod/DMAT3G-A900JFELW",
+      "currentBuyLabel": "PChome 24h｜JURA 台灣原廠公司貨",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "TWD",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-08-04",
+        "note": "官方頁可確認 article 15646，但台灣零售頁只寫 E8 IV、未顯示 15646；exact-model 價格搜尋也沒有取得可重現的同 article 新品史低，因此保守維持找不到。"
+      },
+      "checkedSources": [
+        "https://24h.pchome.com.tw/prod/DMAT3G-A900JFELW",
+        "https://search.yahoo.com/search?p=%22JURA+E8%22+%2215646%22+%E5%8F%B0%E7%81%A3+%E7%89%B9%E5%83%B9",
+        "https://biggo.com.tw/s/E8%2015646"
+      ],
+      "rejectedCandidates": [
+        "PChome E8 IV 公開價頁未列 article 15646，不能把系列名直接視為 exact-model 史低。"
+      ],
+      "priceChecks": [
+        {
+          "kind": "retailer_price",
+          "url": "https://24h.pchome.com.tw/prod/DMAT3G-A900JFELW",
+          "outcome": "排除：頁面公開價 72,500 元，但可見規格未列 article 15646，不能嚴格證明同型號。",
+          "query": "E8 15646"
+        },
+        {
+          "kind": "search_query",
+          "url": "https://search.yahoo.com/search?p=%22JURA+E8%22+%2215646%22+%E5%8F%B0%E7%81%A3+%E7%89%B9%E5%83%B9",
+          "outcome": "查無：exact-model 價格搜尋未取得可回到可信台灣新品原始頁的 article 15646 史低。",
+          "query": "E8 15646"
+        },
+        {
+          "kind": "price_comparison",
+          "url": "https://biggo.com.tw/s/E8%2015646",
+          "outcome": "查無：聚合候選無法同時確認 article 15646、可信新品狀態與可重現日期。",
+          "query": "E8 15646"
+        }
+      ]
+    },
+    {
+      "id": "coffee-jura-ena-4-15344",
+      "category": "coffee",
+      "brand": "JURA",
+      "model": "ENA 4 15344",
+      "name": "JURA ENA 4 Full Metropolitan Black (EA) 全自動咖啡機",
+      "currentPrice": 38900,
+      "currentCurrency": "TWD",
+      "currentBuyUrl": "https://24h.pchome.com.tw/prod/DMAT00-A900BQG97",
+      "currentBuyLabel": "PChome 24h｜JURA 台灣原廠公司貨",
+      "historicalLow": {
+        "status": "found",
+        "amount": 35788,
+        "currency": "TWD",
+        "converted": 35788,
+        "sourceUrl": "https://24h.pchome.com.tw/prod/DMAT00-A900BQG97",
+        "sourceTitle": "PChome 24h JURA ENA 4 15344 全自動咖啡機",
+        "evidenceSnippet": "頁面規格列產品編號 15344，並保留公開限時折扣價 35,788 元與網路價 38,900 元。",
+        "sourceKind": "retailer_promo",
+        "confidence": "medium",
+        "checkedAt": "2026-08-04",
+        "note": "截至查核日，可重現頁面明列 exact article 15344 與公開站內折扣價 35,788 元；未使用會員券、信用卡或點數。"
+      },
+      "checkedSources": [
+        "https://24h.pchome.com.tw/prod/DMAT00-A900BQG97",
+        "https://biggo.com.tw/s/ENA%204%2015344",
+        "https://www.findprice.com.tw/g/ENA%204%2015344"
+      ],
+      "rejectedCandidates": [],
+      "priceChecks": [
+        {
+          "kind": "retailer_price",
+          "url": "https://24h.pchome.com.tw/prod/DMAT00-A900BQG97",
+          "query": "ENA 4 15344",
+          "outcome": "採用：exact-model 公開新品促銷價 TWD 35,788，頁面同時保留原價或促銷標示。"
+        },
+        {
+          "kind": "price_comparison",
+          "url": "https://biggo.com.tw/s/ENA%204%2015344",
+          "query": "ENA 4 15344",
+          "outcome": "覆核：逐筆回到原始頁核對 exact model、商品狀態與公開價格；未採不可重現、套組、福利品或個人化優惠候選。"
+        },
+        {
+          "kind": "price_comparison",
+          "url": "https://www.findprice.com.tw/g/ENA%204%2015344",
+          "query": "ENA 4 15344",
+          "outcome": "覆核：只把可回到可信新品原始頁、且可確認 exact model 的公開價格列入比較。"
+        }
+      ]
+    },
+    {
+      "id": "coffee-miele-cm5310",
+      "category": "coffee",
+      "brand": "Miele",
+      "model": "CM5310",
+      "name": "Miele CM5310 獨立式全自動咖啡機",
+      "currentPrice": 76000,
+      "currentCurrency": "TWD",
+      "currentBuyUrl": "https://miele.kenk.com.tw/product/coffee/no.cm5310/%E7%8D%A8%E7%AB%8B%E5%BC%8F%E5%85%A8%E8%87%AA%E5%8B%95%E5%92%96%E5%95%A1%E6%A9%9F",
+      "currentBuyLabel": "德國 Miele 台灣總代理嘉儀企業產品頁",
+      "historicalLow": {
+        "status": "found",
+        "amount": 68000,
+        "currency": "TWD",
+        "converted": 68000,
+        "sourceUrl": "https://www.ye888.com.tw/ec99/rwd1295/product.asp?prodid=cm5310",
+        "sourceTitle": "永業 Miele CM5310 全自動咖啡機商品頁",
+        "evidenceSnippet": "exact-model 台灣頁公開特價 68,000 元、定價 76,000 元；Yahoo 與 momo 同型號公司貨為 68,400 元。",
+        "sourceKind": "retailer_promo",
+        "confidence": "medium",
+        "checkedAt": "2026-08-04",
+        "note": "截至查核日，exact-model 台灣新品頁可重現 68,000 元公開特價；兩個可直接購買的主要通路同為 68,400 元，未採無法回到原始頁的 67,500 元聚合摘要。"
+      },
+      "checkedSources": [
+        "https://www.ye888.com.tw/ec99/rwd1295/product.asp?prodid=cm5310",
+        "https://biggo.com.tw/s/CM5310",
+        "https://www.findprice.com.tw/g/CM5310"
+      ],
+      "rejectedCandidates": [
+        "聚合站曾顯示 67,500 元，但原始頁目前無法重現，未採。"
+      ],
+      "priceChecks": [
+        {
+          "kind": "retailer_price",
+          "url": "https://www.ye888.com.tw/ec99/rwd1295/product.asp?prodid=cm5310",
+          "query": "CM5310",
+          "outcome": "採用：exact-model 公開新品促銷價 TWD 68,000，頁面同時保留原價或促銷標示。"
+        },
+        {
+          "kind": "price_comparison",
+          "url": "https://biggo.com.tw/s/CM5310",
+          "query": "CM5310",
+          "outcome": "覆核：逐筆回到原始頁核對 exact model、商品狀態與公開價格；未採不可重現、套組、福利品或個人化優惠候選。"
+        },
+        {
+          "kind": "price_comparison",
+          "url": "https://www.findprice.com.tw/g/CM5310",
+          "query": "CM5310",
+          "outcome": "覆核：只把可回到可信新品原始頁、且可確認 exact model 的公開價格列入比較。"
+        }
+      ]
+    },
+    {
+      "id": "coffee-electrolux-e5ec1-51st",
+      "category": "coffee",
+      "brand": "Electrolux",
+      "model": "E5EC1-51ST",
+      "name": "1公升極致美味500 半自動義式咖啡機（不鏽鋼觸控式）",
+      "currentPrice": 4690,
+      "currentCurrency": "TWD",
+      "currentBuyUrl": "https://www.electrolux.com.tw/appliances/coffee-machines/e5ec1-51st/",
+      "currentBuyLabel": "伊萊克斯台灣官方",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "TWD",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-08-04",
+        "note": "已查官方現價、LBJ exact-model 曲線與公開比價入口；4,111 元曲線來自無法確認為品牌授權的第三方 Shopee Mall 賣場，2,990 元候選又混有顏色／福利品邊界，未達可信新品史低門檻。"
+      },
+      "checkedSources": [
+        "https://www.electrolux.com.tw/appliances/coffee-machines/e5ec1-51st/",
+        "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=531013728&cgp=4677",
+        "https://biggo.com.tw/s/E5EC1-51ST"
+      ],
+      "rejectedCandidates": [
+        "LBJ 4,111 元來源的第三方 Shopee Mall 賣場無法確認品牌授權，保守不採。",
+        "2,990 元候選混有顏色／福利品邊界；4,540 元候選需領券，皆排除。"
+      ],
+      "priceChecks": [
+        {
+          "kind": "official_price",
+          "url": "https://www.electrolux.com.tw/appliances/coffee-machines/e5ec1-51st/",
+          "outcome": "覆核：官方 exact-model 頁只證明本輪公開現價，沒有可重現的歷史低點日期。",
+          "query": "E5EC1-51ST"
+        },
+        {
+          "kind": "price_history",
+          "url": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=531013728&cgp=4677",
+          "outcome": "排除：曲線雖記錄 4,111 元，但原始賣場的品牌授權與可信新品身分不足以確認。",
+          "query": "E5EC1-51ST"
+        },
+        {
+          "kind": "price_comparison",
+          "url": "https://biggo.com.tw/s/E5EC1-51ST",
+          "outcome": "排除：2,990 元候選無法確認 ST exact variant，且相近候選標示福利品；4,540 元為領券折。",
+          "query": "E5EC1-51ST"
+        }
+      ]
+    },
+    {
+      "id": "coffee-philips-ems5110-02",
+      "category": "coffee",
+      "brand": "Philips",
+      "model": "EMS5110/02",
+      "name": "Saeco 半自動義式咖啡機",
+      "currentPrice": 4990,
+      "currentCurrency": "TWD",
+      "currentBuyUrl": "https://tw.buy.yahoo.com/gdsale/Philips-%E9%A3%9B%E5%88%A9%E6%B5%A6-Saeco%E5%8D%8A%E8%87%AA%E5%8B%95%E7%BE%A9%E5%BC%8F%E5%92%96%E5%95%A1%E6%A9%9F-EMS5110-02-11322933.html",
+      "currentBuyLabel": "Yahoo購物中心自營",
+      "historicalLow": {
+        "status": "found",
+        "amount": 4491,
+        "currency": "TWD",
+        "converted": 4491,
+        "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1233739510&cgp=4990",
+        "sourceTitle": "LBJ Yahoo 購物 Philips EMS5110/02 exact-model 新品價格曲線",
+        "evidenceSnippet": "Yahoo exact-model 裸機曲線於 2025-11-02 至 2025-12-13 多次記錄 4,491 元。",
+        "sourceKind": "price_history",
+        "confidence": "high",
+        "checkedAt": "2026-08-04",
+        "note": "LBJ 可重現 Yahoo exact-model 裸機在 2025-11-02 至 2025-12-13 多次出現 4,491 元；未採套磨豆機、奶泡機或其他組合價。"
+      },
+      "checkedSources": [
+        "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1233739510&cgp=4990",
+        "https://tw.buy.yahoo.com/gdsale/Philips-%E9%A3%9B%E5%88%A9%E6%B5%A6-Saeco%E5%8D%8A%E8%87%AA%E5%8B%95%E7%BE%A9%E5%BC%8F%E5%92%96%E5%95%A1%E6%A9%9F-EMS5110-02-11322933.html",
+        "https://biggo.com.tw/s/EMS5110%2F02"
+      ],
+      "rejectedCandidates": [
+        "含磨豆機或奶泡機的套組不是同一商品契約，已排除。"
+      ],
+      "priceChecks": [
+        {
+          "kind": "price_history",
+          "url": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1233739510&cgp=4990",
+          "query": "EMS5110/02",
+          "outcome": "採用：exact-model 可信新品價格曲線記錄 TWD 4,491，並保留可重現日期。"
+        },
+        {
+          "kind": "retailer_price",
+          "url": "https://tw.buy.yahoo.com/gdsale/Philips-%E9%A3%9B%E5%88%A9%E6%B5%A6-Saeco%E5%8D%8A%E8%87%AA%E5%8B%95%E7%BE%A9%E5%BC%8F%E5%92%96%E5%95%A1%E6%A9%9F-EMS5110-02-11322933.html",
+          "query": "EMS5110/02",
+          "outcome": "覆核：Yahoo 原始頁為 exact-model 台灣新品裸機；套磨豆機或奶泡機組合未納入。"
+        },
+        {
+          "kind": "price_comparison",
+          "url": "https://biggo.com.tw/s/EMS5110%2F02",
+          "query": "EMS5110/02",
+          "outcome": "覆核：排除無法回到 exact-model 原始新品頁、套組、會員券、點數、福利品與二手候選。"
+        }
+      ]
+    },
+    {
+      "id": "coffee-delonghi-em450-m",
+      "category": "coffee",
+      "brand": "DeLonghi",
+      "model": "EM450.M",
+      "name": "啡行家半自動義式咖啡機",
+      "currentPrice": 6490,
+      "currentCurrency": "TWD",
+      "currentBuyUrl": "https://www.stilusa.com.tw/zh-TW/products/em450m",
+      "currentBuyLabel": "De'Longhi 台灣品牌官方網站",
+      "historicalLow": {
+        "status": "found",
+        "amount": 5990,
+        "currency": "TWD",
+        "converted": 5990,
+        "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=571908732&cgp=5990",
+        "sourceTitle": "LBJ De'Longhi 品牌旗艦 EM450.M exact-model 新品價格曲線",
+        "evidenceSnippet": "品牌旗艦 exact-model 曲線自 2025-11-01 至 2026-08-04 多次記錄 5,990 元。",
+        "sourceKind": "price_history",
+        "confidence": "high",
+        "checkedAt": "2026-08-04",
+        "note": "LBJ 可重現 De'Longhi 品牌旗艦 exact-model 新品自 2025-11-01 至 2026-08-04 多次為 5,990 元；EC885 與配件候選均排除。"
+      },
+      "checkedSources": [
+        "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=571908732&cgp=5990",
+        "https://www.stilusa.com.tw/zh-TW/products/em450m",
+        "https://biggo.com.tw/s/EM450.M"
+      ],
+      "rejectedCandidates": [
+        "EC885、濾杯與其他配件不是 EM450.M exact-model 裸機，已排除。"
+      ],
+      "priceChecks": [
+        {
+          "kind": "price_history",
+          "url": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=571908732&cgp=5990",
+          "query": "EM450.M",
+          "outcome": "採用：exact-model 可信新品價格曲線記錄 TWD 5,990，並保留可重現日期。"
+        },
+        {
+          "kind": "retailer_price",
+          "url": "https://www.stilusa.com.tw/zh-TW/products/em450m",
+          "query": "EM450.M",
+          "outcome": "覆核：De'Longhi 台灣品牌頁確認 exact model、台灣規格與新品身分。"
+        },
+        {
+          "kind": "price_comparison",
+          "url": "https://biggo.com.tw/s/EM450.M",
+          "query": "EM450.M",
+          "outcome": "覆核：排除無法回到 exact-model 原始新品頁、套組、會員券、點數、福利品與二手候選。"
+        }
+      ]
+    },
+    {
+      "id": "coffee-philips-psa3218-10",
+      "category": "coffee",
+      "brand": "Philips",
+      "model": "PSA3218/10",
+      "name": "半自動研磨義式咖啡機",
+      "currentPrice": 9999,
+      "currentCurrency": "TWD",
+      "currentBuyUrl": "https://www.momoshop.com.tw/product/12830517",
+      "currentBuyLabel": "momo購物網",
+      "historicalLow": {
+        "status": "found",
+        "amount": 9999,
+        "currency": "TWD",
+        "converted": 9999,
+        "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1221296524&cgp=9999",
+        "sourceTitle": "LBJ momo Philips PSA3218/10 exact-model 裸機價格曲線",
+        "evidenceSnippet": "momo exact-model 裸機曲線自 2025-05-29 至 2026-07-27 多次記錄 9,999 元。",
+        "sourceKind": "price_history",
+        "confidence": "high",
+        "checkedAt": "2026-08-04",
+        "note": "LBJ 可重現 momo exact-model 裸機自 2025-05-29 至 2026-07-27 多次為 9,999 元；12,900 元大全配組不是相同商品範圍。"
+      },
+      "checkedSources": [
+        "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1221296524&cgp=9999",
+        "https://www.momoshop.com.tw/product/12830517",
+        "https://biggo.com.tw/s/PSA3218%2F10"
+      ],
+      "rejectedCandidates": [
+        "12,900 元大全配組含額外配件，不列入裸機史低。"
+      ],
+      "priceChecks": [
+        {
+          "kind": "price_history",
+          "url": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1221296524&cgp=9999",
+          "query": "PSA3218/10",
+          "outcome": "採用：exact-model 可信新品價格曲線記錄 TWD 9,999，並保留可重現日期。"
+        },
+        {
+          "kind": "retailer_price",
+          "url": "https://www.momoshop.com.tw/product/12830517",
+          "query": "PSA3218/10",
+          "outcome": "覆核：momo 原始頁為 PSA3218/10 台灣新品裸機；大全配組不屬同一商品。"
+        },
+        {
+          "kind": "price_comparison",
+          "url": "https://biggo.com.tw/s/PSA3218%2F10",
+          "query": "PSA3218/10",
+          "outcome": "覆核：排除無法回到 exact-model 原始新品頁、套組、會員券、點數、福利品與二手候選。"
+        }
+      ]
+    },
+    {
+      "id": "coffee-breville-bes450xl",
+      "category": "coffee",
+      "brand": "Breville",
+      "model": "BES450XL",
+      "name": "the Bambino 半自動義式咖啡機",
+      "currentPrice": 8300,
+      "currentCurrency": "TWD",
+      "currentBuyUrl": "https://www.momoshop.com.tw/product/14547707",
+      "currentBuyLabel": "momo 購物網｜Breville 台灣總代理公司貨",
+      "historicalLow": {
+        "status": "found",
+        "amount": 8300,
+        "currency": "TWD",
+        "converted": 8300,
+        "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1262077588&cgp=8300",
+        "sourceTitle": "LBJ momo Breville BES450XL exact-model 台灣公司貨價格曲線",
+        "evidenceSnippet": "momo exact-model 總代理公司貨曲線在 2026-07-30 記錄 8,300 元。",
+        "sourceKind": "price_history",
+        "confidence": "medium",
+        "checkedAt": "2026-08-04",
+        "note": "LBJ 可重現 momo exact-model 總代理公司貨在 2026-07-30 的 8,300 元；目前只有一個可驗證低點，因此信心標為 medium。"
+      },
+      "checkedSources": [
+        "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1262077588&cgp=8300",
+        "https://www.momoshop.com.tw/product/14547707",
+        "https://biggo.com.tw/s/BES450XL"
+      ],
+      "rejectedCandidates": [],
+      "priceChecks": [
+        {
+          "kind": "price_history",
+          "url": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1262077588&cgp=8300",
+          "query": "BES450XL",
+          "outcome": "採用：exact-model 可信新品價格曲線記錄 TWD 8,300，並保留可重現日期。"
+        },
+        {
+          "kind": "retailer_price",
+          "url": "https://www.momoshop.com.tw/product/14547707",
+          "query": "BES450XL",
+          "outcome": "覆核：momo 原始頁為 BES450XL 台灣總代理新品公司貨。"
+        },
+        {
+          "kind": "price_comparison",
+          "url": "https://biggo.com.tw/s/BES450XL",
+          "query": "BES450XL",
+          "outcome": "覆核：排除無法回到 exact-model 原始新品頁、套組、會員券、點數、福利品與二手候選。"
+        }
+      ]
+    },
+    {
+      "id": "coffee-philips-ess5228-02",
+      "category": "coffee",
+      "brand": "Philips",
+      "model": "ESS5228/02",
+      "name": "Saeco 半自動雙研磨義式咖啡機",
+      "currentPrice": 18900,
+      "currentCurrency": "TWD",
+      "currentBuyUrl": "https://24h.pchome.com.tw/prod/DMAC4W-A900H8QLE",
+      "currentBuyLabel": "PChome 24h購物",
+      "historicalLow": {
+        "status": "found",
+        "amount": 17910,
+        "currency": "TWD",
+        "converted": 17910,
+        "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1213304271&cgp=19900",
+        "sourceTitle": "LBJ momo Philips ESS5228/02 exact-model 裸機價格曲線",
+        "evidenceSnippet": "momo exact-model 裸機曲線於 2026-06-18 記錄 17,910 元。",
+        "sourceKind": "price_history",
+        "confidence": "medium",
+        "checkedAt": "2026-08-04",
+        "note": "LBJ 可重現 momo exact-model 裸機在 2026-06-18 的 17,910 元；未採贈豆、家電或敲渣桶套組價格。"
+      },
+      "checkedSources": [
+        "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1213304271&cgp=19900",
+        "https://24h.pchome.com.tw/prod/DMAC4W-A900H8QLE",
+        "https://biggo.com.tw/s/ESS5228%2F02"
+      ],
+      "rejectedCandidates": [
+        "贈豆、搭配家電或敲渣桶的套組與裸機契約不同，已排除。"
+      ],
+      "priceChecks": [
+        {
+          "kind": "price_history",
+          "url": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1213304271&cgp=19900",
+          "query": "ESS5228/02",
+          "outcome": "採用：exact-model 可信新品價格曲線記錄 TWD 17,910，並保留可重現日期。"
+        },
+        {
+          "kind": "retailer_price",
+          "url": "https://24h.pchome.com.tw/prod/DMAC4W-A900H8QLE",
+          "query": "ESS5228/02",
+          "outcome": "覆核：PChome exact-model 裸機公開價 18,900 元；贈豆、家電或敲渣桶套組均排除。"
+        },
+        {
+          "kind": "price_comparison",
+          "url": "https://biggo.com.tw/s/ESS5228%2F02",
+          "query": "ESS5228/02",
+          "outcome": "覆核：排除無法回到 exact-model 原始新品頁、套組、會員券、點數、福利品與二手候選。"
+        }
+      ]
+    },
+    {
+      "id": "coffee-electrolux-e7ec1-610p",
+      "category": "coffee",
+      "brand": "Electrolux",
+      "model": "E7EC1-610P",
+      "name": "3公升極致美味700 半自動義式咖啡機（珍珠黑）",
+      "currentPrice": 22900,
+      "currentCurrency": "TWD",
+      "currentBuyUrl": "https://www.electrolux.com.tw/appliances/coffee-machines/e7ec1-610p/",
+      "currentBuyLabel": "伊萊克斯台灣官方",
+      "historicalLow": {
+        "status": "found",
+        "amount": 11111,
+        "currency": "TWD",
+        "converted": 11111,
+        "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1221659333&cgp=13900",
+        "sourceTitle": "LBJ momo Electrolux E7EC1-610P exact-model 新品價格曲線",
+        "evidenceSnippet": "momo exact-model 曲線自 2025-10-25 至 2026-08-04 多次記錄 11,111 元；原頁亦保留公開件數折扣。",
+        "sourceKind": "price_history",
+        "confidence": "high",
+        "checkedAt": "2026-08-04",
+        "note": "LBJ 可重現 momo exact-model 新品自 2025-10-25 至 2026-08-04 多次為 11,111 元；單日 6,000 元曲線與原 listing 價格範圍不一致，未採。"
+      },
+      "checkedSources": [
+        "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1221659333&cgp=13900",
+        "https://www.momoshop.com.tw/product/12813998",
+        "https://biggo.com.tw/s/E7EC1-610P"
+      ],
+      "rejectedCandidates": [
+        "Shopee 單日 6,000 元曲線與原 listing 16,900–26,900 元範圍不一致且原頁不可重現，已排除。"
+      ],
+      "priceChecks": [
+        {
+          "kind": "price_history",
+          "url": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1221659333&cgp=13900",
+          "query": "E7EC1-610P",
+          "outcome": "採用：exact-model 可信新品價格曲線記錄 TWD 11,111，並保留可重現日期。"
+        },
+        {
+          "kind": "retailer_price",
+          "url": "https://www.momoshop.com.tw/product/12813998",
+          "query": "E7EC1-610P",
+          "outcome": "覆核：momo 原始頁為 exact-model 新品，公開滿 1 件折價不是會員券、卡回饋或點數。"
+        },
+        {
+          "kind": "price_comparison",
+          "url": "https://biggo.com.tw/s/E7EC1-610P",
+          "query": "E7EC1-610P",
+          "outcome": "覆核：排除無法回到 exact-model 原始新品頁、套組、會員券、點數、福利品與二手候選。"
+        }
+      ]
+    },
+    {
+      "id": "coffee-giaretti-gl-5700",
+      "category": "coffee",
+      "brand": "Giaretti",
+      "model": "GL-5700",
+      "name": "Barista EX 系列經典義式濃縮咖啡機（爵士灰）",
+      "currentPrice": 7888,
+      "currentCurrency": "TWD",
+      "currentBuyUrl": "https://24h.pchome.com.tw/prod/DMAT09-A900IXUVD",
+      "currentBuyLabel": "PChome 24h購物",
+      "historicalLow": {
+        "status": "found",
+        "amount": 6168,
+        "currency": "TWD",
+        "converted": 6168,
+        "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1253866481&cgp=6990",
+        "sourceTitle": "LBJ momo Giaretti GL-5700 exact-model 裸機價格曲線",
+        "evidenceSnippet": "momo exact-model 裸機曲線於 2025-10-16 至 2025-10-31 記錄 6,168 元。",
+        "sourceKind": "price_history",
+        "confidence": "medium",
+        "checkedAt": "2026-08-04",
+        "note": "LBJ 可重現 momo exact-model 裸機在 2025-10-16 至 2025-10-31 的 6,168 元；未採贈品組或沒有日期的聚合價。"
+      },
+      "checkedSources": [
+        "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1253866481&cgp=6990",
+        "https://www.momoshop.com.tw/product/14119601",
+        "https://biggo.com.tw/s/GL-5700"
+      ],
+      "rejectedCandidates": [
+        "FindPrice 6,880 元摘要沒有可重現日期；贈品組亦不屬裸機範圍，皆排除。"
+      ],
+      "priceChecks": [
+        {
+          "kind": "price_history",
+          "url": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1253866481&cgp=6990",
+          "query": "GL-5700",
+          "outcome": "採用：exact-model 可信新品價格曲線記錄 TWD 6,168，並保留可重現日期。"
+        },
+        {
+          "kind": "retailer_price",
+          "url": "https://www.momoshop.com.tw/product/14119601",
+          "query": "GL-5700",
+          "outcome": "覆核：momo 原始頁為 GL-5700 裸機新品；贈品組不列入。"
+        },
+        {
+          "kind": "price_comparison",
+          "url": "https://biggo.com.tw/s/GL-5700",
+          "query": "GL-5700",
+          "outcome": "覆核：排除無法回到 exact-model 原始新品頁、套組、會員券、點數、福利品與二手候選。"
+        }
+      ]
+    },
+    {
+      "id": "coffee-breville-bes876xl",
+      "category": "coffee",
+      "brand": "Breville",
+      "model": "BES876XL",
+      "name": "the Barista Express Impress 專業級複合式研磨義式咖啡機",
+      "currentPrice": 24800,
+      "currentCurrency": "TWD",
+      "currentBuyUrl": "https://www.momoshop.com.tw/product/14547697",
+      "currentBuyLabel": "momo 購物網｜Breville 台灣總代理公司貨",
+      "historicalLow": {
+        "status": "found",
+        "amount": 24800,
+        "currency": "TWD",
+        "converted": 24800,
+        "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1262077585&cgp=24800",
+        "sourceTitle": "LBJ momo Breville BES876XL exact-model 台灣公司貨價格曲線",
+        "evidenceSnippet": "momo exact-model 總代理公司貨曲線在 2026-07-30 記錄 24,800 元。",
+        "sourceKind": "price_history",
+        "confidence": "medium",
+        "checkedAt": "2026-08-04",
+        "note": "LBJ 可重現 momo exact-model 總代理公司貨在 2026-07-30 的 24,800 元；百貨滿額回饋與近全新個人賣場均未採。"
+      },
+      "checkedSources": [
+        "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1262077585&cgp=24800",
+        "https://www.momoshop.com.tw/product/14547697",
+        "https://biggo.com.tw/s/BES876XL"
+      ],
+      "rejectedCandidates": [
+        "百貨滿額回饋不是商品公開售價；近全新個人賣場不是新品可信通路，皆排除。"
+      ],
+      "priceChecks": [
+        {
+          "kind": "price_history",
+          "url": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1262077585&cgp=24800",
+          "query": "BES876XL",
+          "outcome": "採用：exact-model 可信新品價格曲線記錄 TWD 24,800，並保留可重現日期。"
+        },
+        {
+          "kind": "retailer_price",
+          "url": "https://www.momoshop.com.tw/product/14547697",
+          "query": "BES876XL",
+          "outcome": "覆核：momo 原始頁為 BES876XL 台灣總代理新品公司貨。"
+        },
+        {
+          "kind": "price_comparison",
+          "url": "https://biggo.com.tw/s/BES876XL",
+          "query": "BES876XL",
+          "outcome": "覆核：排除無法回到 exact-model 原始新品頁、套組、會員券、點數、福利品與二手候選。"
+        }
+      ]
+    },
+    {
+      "id": "coffee-breville-bes878xl",
+      "category": "coffee",
+      "brand": "Breville",
+      "model": "BES878XL",
+      "name": "the Barista Pro 專業級複合式研磨義式咖啡機",
+      "currentPrice": 29300,
+      "currentCurrency": "TWD",
+      "currentBuyUrl": "https://www.momoshop.com.tw/product/14956869",
+      "currentBuyLabel": "momo 購物網｜Breville 台灣總代理公司貨",
+      "historicalLow": {
+        "status": "found",
+        "amount": 27500,
+        "currency": "TWD",
+        "converted": 27500,
+        "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1269952183&cgp=29300",
+        "sourceTitle": "LBJ momo Breville BES878XL exact-model 台灣公司貨價格曲線",
+        "evidenceSnippet": "momo exact-model 公司貨曲線於 2026-04-19 至 2026-05-04 記錄 27,500 元。",
+        "sourceKind": "price_history",
+        "confidence": "medium",
+        "checkedAt": "2026-08-04",
+        "note": "LBJ 可重現 momo exact-model 公司貨在 2026-04-19 至 2026-05-04 的 27,500 元；二手與個人未開箱候選不是可信新品通路。"
+      },
+      "checkedSources": [
+        "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1269952183&cgp=29300",
+        "https://www.momoshop.com.tw/product/14956869",
+        "https://biggo.com.tw/s/BES878XL"
+      ],
+      "rejectedCandidates": [
+        "二手 16,000／17,000 元與個人未開箱 26,800 元候選均不符合可信新品通路契約。"
+      ],
+      "priceChecks": [
+        {
+          "kind": "price_history",
+          "url": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1269952183&cgp=29300",
+          "query": "BES878XL",
+          "outcome": "採用：exact-model 可信新品價格曲線記錄 TWD 27,500，並保留可重現日期。"
+        },
+        {
+          "kind": "retailer_price",
+          "url": "https://www.momoshop.com.tw/product/14956869",
+          "query": "BES878XL",
+          "outcome": "覆核：momo 原始頁為 BES878XL 同型號台灣公司貨；顏色不另計商品。"
+        },
+        {
+          "kind": "price_comparison",
+          "url": "https://biggo.com.tw/s/BES878XL",
+          "query": "BES878XL",
+          "outcome": "覆核：排除無法回到 exact-model 原始新品頁、套組、會員券、點數、福利品與二手候選。"
+        }
+      ]
+    },
+    {
+      "id": "coffee-lelit-mara-x-pl62x-v2",
+      "category": "coffee",
+      "brand": "Lelit",
+      "model": "Mara X PL62X V2",
+      "name": "Mara X V2 單孔半自動義式咖啡機",
+      "currentPrice": 48800,
+      "currentCurrency": "TWD",
+      "currentBuyUrl": "https://www.lelittaiwan.com/products/lelit-mara-x-pl62x",
+      "currentBuyLabel": "LELIT Taiwan（MJS 梅珍香）",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "TWD",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-08-04",
+        "note": "已查台灣代理 exact-model 現價、可信新品通路與 BigGo exact-model 比價；目前只找到 43,800／44,800 元現價，沒有可重現日期或價格曲線，因此不以現價推定史低。"
+      },
+      "checkedSources": [
+        "https://www.lelittaiwan.com/products/lelit-mara-x-pl62x",
+        "https://www.muzhan-coffee.com/products/2024032237",
+        "https://biggo.com.tw/s/Mara%20X%20PL62X"
+      ],
+      "rejectedCandidates": [
+        "43,800／44,800 元只證明本輪現價；沒有歷史日期或曲線，未推定為史低。"
+      ],
+      "priceChecks": [
+        {
+          "kind": "official_price",
+          "url": "https://www.lelittaiwan.com/products/lelit-mara-x-pl62x",
+          "outcome": "覆核：台灣代理 exact-model 頁只證明目前公開新品價，沒有歷史日期或曲線。",
+          "query": "Mara X PL62X V2"
+        },
+        {
+          "kind": "retailer_price",
+          "url": "https://www.muzhan-coffee.com/products/2024032237",
+          "outcome": "覆核：可信通路 exact-model 現價 44,800 元，但頁面沒有可重現史低日期。",
+          "query": "Mara X PL62X V2"
+        },
+        {
+          "kind": "price_comparison",
+          "url": "https://biggo.com.tw/s/Mara%20X%20PL62X",
+          "outcome": "查無：聚合結果只有現價候選，未取得可回到原始頁的歷史價格曲線。",
+          "query": "Mara X PL62X V2"
+        }
+      ]
+    },
+    {
+      "id": "coffee-rancilio-silvia-pro-x",
+      "category": "coffee",
+      "brand": "Rancilio",
+      "model": "Silvia Pro X",
+      "name": "Silvia Pro X 雙鍋爐半自動咖啡機 110V",
+      "currentPrice": 56050,
+      "currentCurrency": "TWD",
+      "currentBuyUrl": "https://www.tiamo-cafe.com.tw/ec99/rwd1627/product.asp?category_id=141&prodid=HG6477",
+      "currentBuyLabel": "禧龍企業台灣進口商",
+      "historicalLow": {
+        "status": "found",
+        "amount": 55000,
+        "currency": "TWD",
+        "converted": 55000,
+        "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1244400604&cgp=55000",
+        "sourceTitle": "LBJ Pinkoi Rancilio Silvia Pro X exact-model 新品價格曲線",
+        "evidenceSnippet": "Pinkoi exact-model 新品曲線自 2025-03-20 至 2026-07-19 多次記錄 55,000 元。",
+        "sourceKind": "price_history",
+        "confidence": "high",
+        "checkedAt": "2026-08-04",
+        "note": "LBJ 可重現 Pinkoi exact-model 新品自 2025-03-20 至 2026-07-19 多次為 55,000 元；無法落到 exact listing 的 48,888 元摘要、MISS Silvia 變體與點數回饋均排除。"
+      },
+      "checkedSources": [
+        "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1244400604&cgp=55000",
+        "https://www.tiamo-cafe.com.tw/ec99/rwd1627/product.asp?category_id=141&prodid=HG6477",
+        "https://biggo.com.tw/s/Silvia%20Pro%20X"
+      ],
+      "rejectedCandidates": [
+        "BigGo 48,888 元起無法落到 exact listing；MISS Silvia 與點數回饋也不屬同一合格價格。"
+      ],
+      "priceChecks": [
+        {
+          "kind": "price_history",
+          "url": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1244400604&cgp=55000",
+          "query": "Silvia Pro X",
+          "outcome": "採用：exact-model 可信新品價格曲線記錄 TWD 55,000，並保留可重現日期。"
+        },
+        {
+          "kind": "retailer_price",
+          "url": "https://www.tiamo-cafe.com.tw/ec99/rwd1627/product.asp?category_id=141&prodid=HG6477",
+          "query": "Silvia Pro X",
+          "outcome": "覆核：台灣進口商原始頁確認 Silvia Pro X exact model、110V 與公司貨新品身分。"
+        },
+        {
+          "kind": "price_comparison",
+          "url": "https://biggo.com.tw/s/Silvia%20Pro%20X",
+          "query": "Silvia Pro X",
+          "outcome": "覆核：排除無法回到 exact-model 原始新品頁、套組、會員券、點數、福利品與二手候選。"
+        }
       ]
     }
   ]

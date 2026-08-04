@@ -36,12 +36,20 @@ https://ecapi-cdn.pchome.com.tw/ecshop/prodapi/v2/prod?id=<PID>&fields=Id,Name,N
 - Keep the approved exact-model roster, brand/channel counts, one dimension record per product, and the full garment-care spec-prefix contract synchronized with `tools/dashboard-contract.js`.
 - Overseas LG, Samsung, and Panasonic variants remain comparison references only; they must retain original currency plus TWD conversion and explicit international shipping, import tax, plug/voltage, and Taiwan warranty warnings.
 
+## Coffee Machine Scope
+
+- `coffee` contains exactly 24 Taiwan-market espresso machines: 12 fully automatic and 12 semi-automatic. Exclude capsule, drip, commercial, and built-in machines, as well as standalone grinders, milk frothers, consumables, accessories, color duplicates, and bundles used only to inflate the roster.
+- Within each type, keep 4 value, 4 mid, and 4 premium products. Exactly 6 semi-automatic products must have built-in grinders and 6 must require an external grinder. Keep at least 6 brands and no more than 6 products from one brand.
+- Every coffee product must use the Taiwan channel and TWD price, use a Taiwan-market 110V or 120V/60Hz rating, state Taiwan warranty, and include exactly one each of these prefixes: `類型：`, `使用原料：`, `研磨系統：`, `萃取／沖煮：`, `奶泡：`, `容量：`, `尺寸：`, `重量：`, `電壓／頻率：`, `功率：`, `清潔維護：`, `耗材／配件相容性：`.
+- Keep exactly one dynamic Top Pick rather than pinning a model in validation. It must have Taiwan warranty and explicitly available Taiwan service plus consumables or parts. Preserve `全自動推薦`, `半自動推薦`, and `入門推薦` tags across the roster.
+
 ## Dimension And Weight Evidence
 
-- Keep `dimension_research.json` aligned with the ten dimension categories: TV, soundbar, washer, dryer, washer-dryer, garment care, refrigerator, multifunction oven/microwave, dishwasher, and bidet. The same file also carries the newly researched weight evidence for TV, soundbar, and multifunction oven/microwave.
+- Keep `dimension_research.json` aligned with the eleven dimension categories: TV, soundbar, washer, dryer, washer-dryer, garment care, refrigerator, coffee machine, multifunction oven/microwave, dishwasher, and bidet. The same file also carries researched weight evidence for TV, soundbar, coffee machine, and multifunction oven/microwave.
+- Treat `generatedAt` as the latest evidence-batch date while preserving each row's actual `checkedAt` / `weightCheckedAt`; incremental category additions must not pretend older evidence was rechecked.
 - Prefer exact-model official product/specification pages and official PDFs, then trusted retailer pages. Record product/body dimensions and net weight only; never substitute packaging dimensions, carton dimensions, or gross weight.
 - Preserve component-level values where the product has separate pieces: TV with/without stand, and soundbar main unit/subwoofer/rear speakers. Do not collapse them into an invented total.
-- Never infer width/depth/height order from three unlabeled numbers. For the newly researched TV, soundbar, oven, dishwasher, and bidet fields, use the literal `尺寸：查不到` or `重量：查不到` after credible sources are exhausted, and retain the checked page plus the specific reason in the evidence row.
+- Never infer width/depth/height order from three unlabeled numbers. For the newly researched TV, soundbar, coffee machine, oven, dishwasher, and bidet fields, use the literal `尺寸：查不到` or `重量：查不到` after credible sources are exhausted, and retain the checked page plus the specific reason in the evidence row.
 
 ## Release Dates And Historical Lows
 
@@ -49,6 +57,7 @@ https://ecapi-cdn.pchome.com.tw/ecshop/prodapi/v2/prod?id=<PID>&fields=Id,Name,N
 - If no trustworthy release date exists, use `找不到` and keep `release_date_research.json` aligned.
 - Historical lows must be same model and same size/capacity/spec where relevant. Exclude member-only personal discounts, card rebates, points, used/refurbished/display/open-box/damaged-box items, accessories, and consumables.
 - Keep `historical_price_research.json` exactly aligned with product `historicalLow` objects.
+- Coffee historical-low rows must also retain structured `priceChecks` with an exact-model query, price-source purpose, and explicit accepted/rejected outcome. Require at least two websites and a real price-comparison, price-history, or exact-model price-search record; specification, warranty, cleaning, video, and brand-category pages do not count toward the price-check minimum.
 - The runner may lower an existing `found` historical low when the same trusted exact-model public price is lower. It must never manufacture a historical low for an existing `not_found` row or invalidate retained evidence from a blocked/model-unverified source automatically.
 
 ## Audit Artifacts And Documentation

@@ -3,6 +3,7 @@ const os = require("os");
 const {
   runProductLoadSchedulingJourney,
   runDelayedInitializationCategoryJourney,
+  runCoffeeFragmentJourney,
   runInitializationFailureJourney,
   runExhaustiveViewport,
   runSmokeViewport,
@@ -31,6 +32,7 @@ function loadPlaywright() {
   try {
     await runProductLoadSchedulingJourney(browser);
     await runDelayedInitializationCategoryJourney(browser);
+    await runCoffeeFragmentJourney(browser);
     await runInitializationFailureJourney(browser);
     await runCategoryPageJourneys(browser);
     await runGarmentCareJourney(
