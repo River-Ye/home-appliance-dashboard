@@ -18,7 +18,7 @@ Use a dedicated git worktree and short-lived `codex/` branch for repo changes un
 
 ## GEO And AI Search Workflow
 
-- The site has one generated static guide for every configured category (currently 26) at `/categories/<id>/`; do not create one thin page per product or add tracking for GEO work.
+- The site has one generated static guide for every configured category (currently 27) at `/categories/<id>/`; do not create one thin page per product or add tracking for GEO work.
 - Maintain category-level intros, three buying criteria, and three FAQs in `tools/category-guides.js`. Product facts continue to come from `assets/js/config.js` and `products/*.js`.
 - Keep the shared site name, homepage title, description, H1, and visible AI disclosure in `tools/geo-config.js`; metadata, JSON-LD, generated guides, and `llms.txt` must use the same contract.
 - After any product, category, guide, or homepage CSS source change, run `npm run generate:categories`, then `npm run check:geo`. Do not hand-edit `assets/css/app.css`, `categories/<id>/index.html`, `sitemap.xml`, `llms.txt`, or the generated GEO blocks in `index.html`.
@@ -35,6 +35,7 @@ Use a dedicated git worktree and short-lived `codex/` branch for repo changes un
 - After maintenance, run `npm run sync:maintenance-metadata` and `npm run generate:categories` before the checks. Never bypass pending category or official-discontinuation review gates.
 - Keep the Lighthouse budgets enforced by `npm run check:quality`: browser-throttled Performance ≥ 90, LCP ≤ 2.5s, CLS ≤ 0.1, Accessibility = 100, SEO ≥ 95, plus runner-independent Lantern TBT ≤ 200ms.
 - Do not delete products from weak signals such as one stale image URL, one transient page error, or PChome `Qty: 0`.
+- Keep `coffee` at exactly 24 Taiwan-channel, TWD-priced espresso machines: 12 fully automatic and 12 semi-automatic, each type split 4/4/4 across value/mid/premium, with six semi-automatic models using built-in grinders and six requiring external grinders. Preserve 6+ brands, at most 6 products per brand, all 12 coffee spec prefixes, dimension/weight evidence, Taiwan-market 110V or 120V/60Hz power, and exactly one Taiwan-serviceable 110V/60Hz Top Pick.
 - Do not rewrite the app into a framework or add a build pipeline unless the user explicitly asks for that architectural change.
 - 只允許本次核准的 Google AdSense 手動廣告與 Google CMP；保留兩個 responsive manual slots 與正式 hostname gate；`https://appliance.riverye.com/` 必須維持 AdSense 全站 Auto ads page exclusion，不得擴充為其他追蹤。
 - 禁止加入 Google Analytics、Google Ads 轉換追蹤或其他未授權追蹤；本機與 `file://` 驗證不得送出廣告請求，公開驗收不得點擊自己的廣告。

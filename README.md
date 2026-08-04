@@ -12,18 +12,19 @@
 
 ## 內容
 
-- 共 26 類商品，每種商品至少 20 個，共 716 筆。
-- 另由現有分類與商品資料產生 26 個可獨立索引的 `/categories/<id>/` 選購指南頁；不為 716 筆商品建立重複、薄內容的獨立頁面。
+- 共 27 類商品，每種商品至少 20 個，共 740 筆。
+- 另由現有分類與商品資料產生 27 個可獨立索引的 `/categories/<id>/` 選購指南頁；不為 740 筆商品建立重複、薄內容的獨立頁面。
 - 聚焦可信通路新品，排除配件、耗材、福利品、展示機與誤判品。
+- 咖啡機共 24 款台灣現售義式機，全自動與半自動各 12 款，並維持各類型入門／均衡／旗艦各 4 款；半自動再平分為 6 款內建磨豆機與 6 款需外接磨豆機。
 - 每類「綜合推薦」以 CP 值、評價口碑、價格、可信通路、台灣售後/保固風險綜合判斷，並附簡短推薦原因。
 - 支援分類、品牌、選購定位、通路、自然多詞搜尋、排序、active filter chips、可分享 URL 篩選狀態與比較清單；既有 `budget` query key 維持相容。
-- 首屏與 26 個分類指南皆清楚標示 AI 協作、資料日期、查核方法與 GitHub 原始碼；網站與內容仍可能有錯漏，不虛構專家或實機使用經驗。
+- 首屏與 27 個分類指南皆清楚標示 AI 協作、資料日期、查核方法與 GitHub 原始碼；網站與內容仍可能有錯漏，不虛構專家或實機使用經驗。
 - 針對桌機與手機操作最佳化，包含群組化分類列、sticky 分類列、手機快速操作列、收合式商品細節與重設篩選。
-- 電視、Soundbar、冰箱、洗衣機、烘衣機、洗烘衣機、電子衣櫥、多功能氣炸烤箱／微波爐、洗碗機與免治馬桶皆標示本體尺寸；電視、Soundbar、電子衣櫥與多功能氣炸烤箱／微波爐另標示本體重量。新補查欄位若可信來源仍無法確認，會明確標示「查不到」。
+- 電視、Soundbar、冰箱、洗衣機、烘衣機、洗烘衣機、電子衣櫥、咖啡機、多功能氣炸烤箱／微波爐、洗碗機與免治馬桶皆標示本體尺寸；電視、Soundbar、電子衣櫥、咖啡機與多功能氣炸烤箱／微波爐另標示本體重量。新補查欄位若可信來源仍無法確認，會明確標示「查不到」。
 <!-- catalog-maintenance-summary:start -->
-- 2026-08-04 19:59（台灣時間）完成 716 筆商品、26 類全量查核；409 筆 PChome SKU API 已完成（261 筆 exact model、38 筆人工 SKU 綁定可寫入，83 筆型號未自動確認），更新 47 筆現價（21 筆降價、26 筆漲價），23 筆 Qty 0 只列追蹤。
-- 本次增量沒有納入新產品；本次增量沒有移除產品。沿用本資料日既有逐類人工新品覆核，並補查部分分類（原覆核時間保留），所有分類至少 20 筆；停產只採品牌官方明確證據，缺貨、反爬或單次連線錯誤不作為刪除依據。
-- 圖片查核覆蓋 716 筆；559 筆來源可由 exact model 或人工 SKU 綁定確認，157 筆來源／圖片例外保留原資料。史低為 443 筆 `found`、273 筆 `not_found`，本輪下修 1 筆、其他更正 3 筆；75 筆來源可自動重現，其餘保留原逐筆證據且未臆測失效。
+- 2026-08-04 22:45（台灣時間）完成 740 筆商品、27 類全量查核；416 筆 PChome SKU API 已完成（264 筆 exact model、42 筆人工 SKU 綁定可寫入，82 筆型號未自動確認），更新 0 筆現價（0 筆降價、0 筆漲價），23 筆 Qty 0 只列追蹤。
+- 本次增量新增 coffee-best-g6280、coffee-breville-bes450xl、coffee-breville-bes876xl、coffee-breville-bes878xl、coffee-delonghi-ecam220-22-sb、coffee-delonghi-ecam290-43-sb、coffee-delonghi-ecam350-25-sb、coffee-delonghi-em450-m、coffee-electrolux-e5ec1-51st、coffee-electrolux-e7ec1-610p、coffee-gaggia-anima-cmf、coffee-gaggia-magenta-prestige、coffee-giaretti-gl-5700、coffee-jura-e8-15646、coffee-jura-ena-4-15344、coffee-lelit-mara-x-pl62x-v2、coffee-miele-cm5310、coffee-philips-ems5110-02、coffee-philips-ep3326-94、coffee-philips-ep3347-84、coffee-philips-ep5547-90、coffee-philips-ess5228-02、coffee-philips-psa3218-10、coffee-rancilio-silvia-pro-x；本次增量沒有移除產品。沿用本資料日已完成的逐類人工新品覆核（原覆核時間保留），所有分類至少 20 筆；停產只採品牌官方明確證據，缺貨、反爬或單次連線錯誤不作為刪除依據。
+- 圖片查核覆蓋 740 筆；583 筆來源可由 exact model 或人工 SKU 綁定確認，157 筆來源／圖片例外保留原資料。史低為 464 筆 `found`、276 筆 `not_found`，本輪異動 0 筆；67 筆來源可自動重現，其餘保留原逐筆證據且未臆測失效。
 - ExchangeRate-API 最新批次為 2026-08-04 00:02 UTC，USD/TWD 32.337189；30 筆外幣商品已重算。完整摘要與例外保存在 `catalog_maintenance_latest.json`。
 <!-- catalog-maintenance-summary:end -->
 
@@ -35,7 +36,7 @@
 
 ## GEO / AI 搜尋維護
 
-- `tools/category-guides.js` 是 26 類導讀、選購重點與 FAQ 的人工維護來源；商品事實仍以 `assets/js/config.js` 與 `products/*.js` 為準。
+- `tools/category-guides.js` 是 27 類導讀、選購重點與 FAQ 的人工維護來源；商品事實仍以 `assets/js/config.js` 與 `products/*.js` 為準。
 - 站名、首頁 title、description、H1 與 AI 揭露契約集中在 `tools/geo-config.js`，供首頁檢查、JSON-LD、分類產生器與 `llms.txt` 共用。
 - 修改商品、分類、分類指南或首頁 CSS 來源後，先執行 `npm run generate:categories`。`assets/css/app.css`、`categories/<id>/index.html`、`sitemap.xml`、`llms.txt`，以及 `index.html` 內 `geo-structured-data`／`geo-category-links` marker 之間的區塊都是產生結果，不可手動修改。
 - `llms.txt` 只是提供網站用途、查核方式與分類入口的補充說明，不保證任何搜尋排名、AI 引用或收錄結果。
@@ -50,9 +51,9 @@ npm run check
 
 - `npm run check:syntax`：檢查公開 JS 與維護工具語法。
 - `npm run check:logic`：檢查排序、篩選、URL 狀態、史低／負評文案、問題摘要搜尋、來源 URL 安全、HTML escape 與商品 loader 純邏輯。
-- `npm run check:data`：檢查 26 類、716 筆、必要欄位、日期格式、10 類尺寸與 3 類新增重量規格／證據對齊、電子衣櫥 exact-model／品牌／通路／必要規格、歷史最低價與負評 research 對齊、人工覆核完成清單、逐位反映者、6 人／2 平台門檻、每類至少 20 筆、重複型號與重複購買 URL。
+- `npm run check:data`：檢查 27 類、740 筆、必要欄位、日期格式、11 類尺寸與 4 類新增重量規格／證據對齊、電子衣櫥 exact-model／品牌／通路／必要規格、咖啡機類型／定位／研磨配置／品牌／台灣通路／必要規格與唯一 Top Pick、歷史最低價與負評 research 對齊、人工覆核完成清單、逐位反映者、6 人／2 平台門檻、每類至少 20 筆、重複型號與重複購買 URL。
 - `npm run check:docs`：檢查 README、AGENTS、index/config 的商品數、分類數、日期與 cache version 沒有漂移。
-- `npm run check:geo`：檢查 26 個分類頁、metadata、結構化資料、內部連結、sitemap、llms、證據檔、Pages artifact、IndexNow contract 與所有產生結果沒有漂移。
+- `npm run check:geo`：檢查 27 個分類頁、metadata、結構化資料、內部連結、sitemap、llms、證據檔、Pages artifact、IndexNow contract 與所有產生結果沒有漂移。
 - `npm run check:ui`：用 Playwright 驗證桌機/手機搜尋、篩選、排序、lazy loading、比較清單、負評警示與推薦卡高亮。
 - `npm run check:quality`：用 Lighthouse 驗證首頁與代表分類頁；Performance、LCP、CLS、Accessibility 與 SEO 採瀏覽器行動 throttling，TBT 採 Lantern 標準化模擬以排除 CI runner 硬體差異，門檻仍為 200ms。
 - `npm run audit:pchome-prices`：唯讀重查所有 PChome SKU；有正值 `Price.Low` 時優先採折扣價，否則採 `Price.P`。人工確認輸出後才可加 `-- --write --date=YYYY-MM-DD` 寫回。

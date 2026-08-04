@@ -96,10 +96,10 @@ function main() {
     readme.includes(`檢查 ${categories.length} 類、${products.length} 筆、必要欄位`),
     "README check:data contract count is stale",
   );
-  assert(readme.includes("10 類尺寸與 3 類新增重量規格／證據對齊"), "README dimension/weight coverage is stale");
+  assert(readme.includes("11 類尺寸與 4 類新增重量規格／證據對齊"), "README dimension/weight coverage is stale");
   assert(index.includes("家電尺寸／重量查核證據"), "homepage dimension/weight evidence label is stale");
   assert(
-    agents.includes("`dimension_research.json` 同步保存 10 類商品的機身尺寸證據"),
+    agents.includes("`dimension_research.json` 同步保存 11 類商品的機身尺寸證據"),
     "AGENTS dimension evidence coverage is stale",
   );
   assert(agents.includes("主機、重低音與後環繞需依官方明確資料分列"), "AGENTS soundbar component rule is missing");
@@ -122,6 +122,7 @@ function main() {
     ["smartlock", "電子鎖"],
     ["cookware", "鍋具"],
     ["knife", "刀具"],
+    ["coffee", "咖啡機"],
     ["waterdispenser", "櫥下飲水機"],
     ["dishwasher", "洗碗機"],
     ["refrigerator", "冰箱"],

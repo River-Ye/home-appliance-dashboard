@@ -55,6 +55,10 @@ const EXPECTED_DISHWASHER_COUNT = EXPECTED_CATEGORY_PRODUCT_COUNTS.get("dishwash
 const EXPECTED_MONITOR_COUNT = EXPECTED_CATEGORY_PRODUCT_COUNTS.get("monitor");
 const EXPECTED_TV_COUNT = EXPECTED_CATEGORY_PRODUCT_COUNTS.get("tv");
 const EXPECTED_BIDET_COUNT = EXPECTED_CATEGORY_PRODUCT_COUNTS.get("bidet");
+const EXPECTED_COFFEE_COUNT = EXPECTED_CATEGORY_PRODUCT_COUNTS.get("coffee");
+const COFFEE_PRODUCTS = DASHBOARD_PRODUCTS.filter((product) => product.category === "coffee");
+const COFFEE_BRANDS = [...new Set(COFFEE_PRODUCTS.map((product) => product.brand))].sort();
+const COFFEE_TOP_PICK = COFFEE_PRODUCTS.find((product) => product.topPick);
 
 function attachRuntimeIssueCollector(page) {
   const issues = [];
@@ -66,7 +70,7 @@ function attachRuntimeIssueCollector(page) {
     }
   });
   page.on("console", (message) => {
-    if (message.type() === "error") issues.push(`console: ${message.text()}`);
+    if (["error", "warning"].includes(message.type())) issues.push(`console ${message.type()}: ${message.text()}`);
   });
   page.on("pageerror", (error) => issues.push(`pageerror: ${error.message}`));
   page.on("requestfailed", (request) => {
@@ -228,6 +232,27 @@ async function runDelayedInitializationCategoryJourney(browser) {
   }
 }
 
+async function runCoffeeFragmentJourney(browser) {
+  const name = "dashboard-coffee-fragment";
+  const page = await browser.newPage({ viewport: { width: 1440, height: 1100 } });
+  attachRuntimeIssueCollector(page);
+  try {
+    await page.goto(`${fileUrl}#category=coffee`, { waitUntil: "domcontentloaded" });
+    await page.waitForSelector(".product-card");
+    await page.waitForFunction(() => document.querySelector("#categoryInput")?.value === "咖啡機");
+    await waitForVisibleCount(page, EXPECTED_COFFEE_COUNT);
+    if (!page.url().endsWith("#category=coffee")) {
+      throw new Error(`${name}: initial coffee category fragment was not preserved`);
+    }
+    if (await page.locator('.product-card[data-product-id^="coffee-"]').count() !== 12) {
+      throw new Error(`${name}: coffee fragment must start with the 12-card lazy-loading batch`);
+    }
+    assertNoRuntimeIssues(page, name);
+  } finally {
+    await page.close();
+  }
+}
+
 async function runInitializationFailureJourney(browser) {
   const name = "dashboard-initialization-failure";
   const page = await browser.newPage({ viewport: { width: 1440, height: 1100 } });
@@ -266,7 +291,7 @@ async function runInitializationFailureJourney(browser) {
       throw new Error(`${name}: initialization error was not rendered safely ${JSON.stringify(result)}`);
     }
     const unexpectedIssues = (page.__dashboardRuntimeIssues || []).filter((issue) => (
-      !(issue.startsWith("console:") && issue.includes("forced initialization failure"))
+      !(issue.startsWith("console error:") && issue.includes("forced initialization failure"))
     ));
     if (unexpectedIssues.length) {
       throw new Error(`${name}: unexpected runtime errors ${JSON.stringify(unexpectedIssues.slice(0, 10))}`);
@@ -356,6 +381,130 @@ async function assertGarmentCareJourney(page, name) {
   await page.waitForFunction(() => document.querySelector("#compareCount")?.textContent?.trim() === "1");
   await assertIssueResearchCompareRow(page, `${name} garmentcare`);
   await assertHistoricalLowCompareLayout(page, `${name} garmentcare`);
+  await page.locator("[data-compare-remove]").first().click();
+  await page.waitForFunction(() => document.querySelector("#compareCount")?.textContent?.trim() === "0");
+  await resetFilters(page);
+}
+
+async function assertCoffeeImagesDecode(page, name) {
+  const cards = page.locator(".product-card");
+  for (let index = 0; index < EXPECTED_COFFEE_COUNT; index += 1) {
+    const card = cards.nth(index);
+    const image = card.locator("img.product-image");
+    await card.scrollIntoViewIfNeeded();
+    await image.waitFor({ state: "attached" });
+    try {
+      await page.waitForFunction((productIndex) => {
+        const productImage = document.querySelectorAll(".product-card img.product-image")[productIndex];
+        return productImage && !productImage.dataset.src;
+      }, index, { timeout: 20000 });
+      await image.evaluate((node) => new Promise((resolve, reject) => {
+        const timeout = window.setTimeout(
+          () => reject(new Error("image decode timed out after 30 seconds")),
+          30000,
+        );
+        node.decode().then(
+          () => {
+            window.clearTimeout(timeout);
+            resolve();
+          },
+          (error) => {
+            window.clearTimeout(timeout);
+            reject(error);
+          },
+        );
+      }));
+    } catch (error) {
+      const state = await image.evaluate((node) => ({
+        src: node.currentSrc || node.src,
+        pendingSrc: node.dataset.src || "",
+        complete: node.complete,
+        naturalWidth: node.naturalWidth,
+        naturalHeight: node.naturalHeight,
+      }));
+      throw new Error(`${name}: coffee image ${index + 1} timed out ${JSON.stringify(state)} (${error.message})`);
+    }
+    const decoded = await image.evaluate((node) => (
+      node.complete && node.naturalWidth > 0 && node.naturalHeight > 0
+    ));
+    if (!decoded) throw new Error(`${name}: coffee image ${index + 1} did not decode`);
+  }
+}
+
+async function assertCoffeeJourney(page, name, { verifyAllImages = false } = {}) {
+  await page.evaluate(() => window.scrollTo(0, 0));
+  await page.waitForFunction(() => window.scrollY === 0);
+  await selectComboboxOption(
+    page,
+    "#categoryInput",
+    '#categoryOptions [data-value="coffee"]',
+    "咖啡機",
+  );
+  await waitForVisibleCount(page, EXPECTED_COFFEE_COUNT);
+  await waitForProductCards(page, 12);
+  await page.waitForFunction(() => new URL(window.location.href).searchParams.get("category") === "coffee");
+
+  await page.locator("#brandInput").click();
+  const brands = await page.$$eval(
+    "#brandOptions [data-value]",
+    (options) => options.map((option) => option.dataset.value).filter((value) => value !== "all").sort(),
+  );
+  if (JSON.stringify(brands) !== JSON.stringify(COFFEE_BRANDS)) {
+    throw new Error(`${name}: coffee brand options mismatch ${JSON.stringify(brands)}`);
+  }
+
+  const sampleBrand = COFFEE_BRANDS[0];
+  const sampleBrandCount = COFFEE_PRODUCTS.filter((product) => product.brand === sampleBrand).length;
+  await page.fill("#brandInput", sampleBrand);
+  await page.getByRole("option", { name: sampleBrand, exact: true }).click();
+  await waitForVisibleCount(page, sampleBrandCount);
+  await resetFilters(page);
+  await selectComboboxOption(
+    page,
+    "#categoryInput",
+    '#categoryOptions [data-value="coffee"]',
+    "咖啡機",
+  );
+  await waitForVisibleCount(page, EXPECTED_COFFEE_COUNT);
+  await loadAllVisibleProducts(page);
+
+  const typeCounts = await page.$$eval(".product-card", (cards) => ({
+    fullyAutomatic: cards.filter((card) => (card.textContent || "").includes("類型：全自動")).length,
+    semiAutomatic: cards.filter((card) => (card.textContent || "").includes("類型：半自動")).length,
+  }));
+  if (typeCounts.fullyAutomatic !== 12 || typeCounts.semiAutomatic !== 12) {
+    throw new Error(`${name}: coffee type split mismatch ${JSON.stringify(typeCounts)}`);
+  }
+
+  if (verifyAllImages) await assertCoffeeImagesDecode(page, name);
+  await assertProductImagesStayInsideWrap(page, `${name} coffee`);
+  if (!COFFEE_TOP_PICK) throw new Error(`${name}: coffee Top Pick data is missing`);
+  const topPick = page.locator(`#topPicks [data-focus-product="${COFFEE_TOP_PICK.id}"]`);
+  if (await topPick.count() !== 1) throw new Error(`${name}: coffee Top Pick card is missing`);
+  await topPick.click();
+  const targetedCard = page.locator(`.product-card.is-targeted[data-product-id="${COFFEE_TOP_PICK.id}"]`);
+  await targetedCard.waitFor({ state: "visible" });
+  const productCard = page.locator(`.product-card[data-product-id="${COFFEE_TOP_PICK.id}"]`);
+  await page.waitForFunction((productId) => {
+    const image = document.querySelector(`.product-card[data-product-id="${productId}"] img.product-image`);
+    return image && !image.dataset.src && image.complete && image.naturalWidth > 0;
+  }, COFFEE_TOP_PICK.id, { timeout: 10000 });
+
+  const details = productCard.locator("details.card-details");
+  if (!await details.evaluate((node) => node.open)) await details.locator("summary").click();
+  const dimensionSpec = COFFEE_TOP_PICK.specs.find((spec) => spec.startsWith("尺寸："));
+  const weightSpec = COFFEE_TOP_PICK.specs.find((spec) => spec.startsWith("重量："));
+  for (const spec of [dimensionSpec, weightSpec]) {
+    if (!spec || !await productCard.locator(".spec-item span", { hasText: spec }).filter({ hasText: spec }).first().isVisible()) {
+      throw new Error(`${name}: coffee Top Pick must visibly expose ${spec || "measurement"}`);
+    }
+  }
+
+  await productCard.locator(".compare-button").click();
+  await page.waitForFunction(() => document.querySelector("#compareCount")?.textContent?.trim() === "1");
+  await assertIssueResearchCompareRow(page, `${name} coffee`);
+  await assertHistoricalLowCompareLayout(page, `${name} coffee`);
+  await assertSingleCompareFitsViewport(page, `${name} coffee`);
   await page.locator("[data-compare-remove]").first().click();
   await page.waitForFunction(() => document.querySelector("#compareCount")?.textContent?.trim() === "0");
   await resetFilters(page);
@@ -923,6 +1072,7 @@ async function runGarmentCareJourney(browser, name, viewport) {
     }
 
     await assertGarmentCareJourney(page, name);
+    await assertCoffeeJourney(page, name, { verifyAllImages: viewport.width >= 700 });
     await assertNoHorizontalOverflow(page, name);
     assertNoRuntimeIssues(page, name);
   } finally {
@@ -1195,6 +1345,7 @@ async function runMobileJourney(browser) {
 module.exports = {
   runProductLoadSchedulingJourney,
   runDelayedInitializationCategoryJourney,
+  runCoffeeFragmentJourney,
   runInitializationFailureJourney,
   runExhaustiveViewport,
   runSmokeViewport,

@@ -29,6 +29,15 @@ const {
   GARMENTCARE_CHANNEL_COUNTS,
   GARMENTCARE_SPEC_PREFIXES,
   GARMENTCARE_TOP_PICK_MODEL,
+  COFFEE_TYPE_COUNTS,
+  COFFEE_BUDGET_COUNTS,
+  COFFEE_TYPE_BUDGET_COUNT,
+  COFFEE_SEMI_AUTO_GRINDER_COUNTS,
+  COFFEE_MIN_BRAND_COUNT,
+  COFFEE_MAX_PRODUCTS_PER_BRAND,
+  COFFEE_SPEC_PREFIXES,
+  COFFEE_RECOMMENDATION_TAGS,
+  COFFEE_EXCLUDED_NAME_TERMS,
 } = require("./dashboard-contract");
 const { readDashboardProducts } = require("./read-dashboard-products");
 const { validateExplicitReview } = require("./mark-product-issue-review");
@@ -286,6 +295,76 @@ function validateHistoricalLow(product, failures) {
     assert(low.evidenceSnippet === "", `${product.id} not_found historicalLow evidenceSnippet must be empty`, failures);
     assert(low.sourceKind === "not_found", `${product.id} not_found historicalLow sourceKind must be not_found`, failures);
     assert(low.confidence === "not_found", `${product.id} not_found historicalLow confidence must be not_found`, failures);
+  }
+}
+
+function validateHistoricalPriceChecks(product, row, failures) {
+  const checks = Array.isArray(row.priceChecks) ? row.priceChecks : [];
+  const allowedKinds = new Set([
+    "official_price",
+    "retailer_price",
+    "price_comparison",
+    "price_history",
+    "search_query",
+  ]);
+  const discoveryKinds = new Set(["price_comparison", "price_history", "search_query"]);
+  const productModel = compactIdentity(product.model);
+
+  assert(checks.length >= 2, `${product.id} historical price research requires at least two structured price checks`, failures);
+  const urls = [];
+  for (const [index, check] of checks.entries()) {
+    const prefix = `${product.id} historical priceChecks[${index}]`;
+    assert(check && typeof check === "object" && !Array.isArray(check), `${prefix} must be an object`, failures);
+    if (!check || typeof check !== "object" || Array.isArray(check)) continue;
+
+    assert(allowedKinds.has(check.kind), `${prefix} has invalid kind: ${check.kind}`, failures);
+    assert(isHttpUrl(check.url), `${prefix} requires a valid http(s) URL`, failures);
+    assert(
+      productModel && compactIdentity(check.query).includes(productModel),
+      `${prefix} query must preserve exact model ${product.model}`,
+      failures,
+    );
+    assert(typeof check.outcome === "string" && check.outcome.trim(), `${prefix} requires an explicit outcome`, failures);
+    urls.push(check.url);
+  }
+
+  assert(new Set(urls).size === urls.length, `${product.id} historical price check URLs must be unique`, failures);
+  assert(
+    new Set(urls.map((url) => canonicalWebsite(url))).size >= 2,
+    `${product.id} historical price checks must cover at least two websites`,
+    failures,
+  );
+  assert(
+    checks.some((check) => discoveryKinds.has(check?.kind)),
+    `${product.id} historical price checks require a price-comparison, price-history, or exact-model search record`,
+    failures,
+  );
+
+  const checkedSources = Array.isArray(row.checkedSources) ? row.checkedSources : [];
+  assert(
+    JSON.stringify(checkedSources) === JSON.stringify(urls),
+    `${product.id} historical checkedSources must mirror structured priceChecks URLs`,
+    failures,
+  );
+
+  if (product.historicalLow.status === "found") {
+    const acceptedCheck = checks.find((check) => (
+      check?.url === product.historicalLow.sourceUrl
+      && /^(採用|accepted)[：:]/i.test(String(check.outcome || "").trim())
+    ));
+    assert(acceptedCheck, `${product.id} found historical low requires an accepted structured source check`, failures);
+    const outcomeDigits = String(acceptedCheck?.outcome || "").replace(/\D/g, "");
+    assert(
+      outcomeDigits.includes(String(product.historicalLow.amount)),
+      `${product.id} accepted historical price check must retain the adopted amount`,
+      failures,
+    );
+  } else {
+    assert(
+      checks.every((check) => !/^(採用|accepted)[：:]/i.test(String(check?.outcome || "").trim())),
+      `${product.id} not_found historical price checks cannot contain an accepted source`,
+      failures,
+    );
   }
 }
 
@@ -872,7 +951,7 @@ function validateHistoricalPriceResearch(root, products, failures) {
     assert(row.currentBuyUrl === product.buyUrl, `${product.id} historical price research buyUrl mismatch`, failures);
     assert(row.currentBuyLabel === product.buyLabel, `${product.id} historical price research buyLabel mismatch`, failures);
     assert(JSON.stringify(row.historicalLow) === JSON.stringify(product.historicalLow), `${product.id} historicalLow research mismatch`, failures);
-    if (product.category === "garmentcare") {
+    if (product.category === "garmentcare" || product.category === "coffee") {
       const checkedSources = Array.isArray(row.checkedSources) ? row.checkedSources : [];
       assert(checkedSources.length >= 2, `${product.id} historical price research requires at least two checked sources`, failures);
       assert(
@@ -880,6 +959,9 @@ function validateHistoricalPriceResearch(root, products, failures) {
         `${product.id} historical price research checked sources must be unique`,
         failures,
       );
+    }
+    if (product.category === "coffee") {
+      validateHistoricalPriceChecks(product, row, failures);
     }
   }
 }
@@ -925,6 +1007,32 @@ function validateDimensionResearch(root, products, failures) {
   if (!fs.existsSync(researchFile)) return;
 
   const research = JSON.parse(fs.readFileSync(researchFile, "utf8"));
+  assert(/^\d{4}-\d{2}-\d{2}$/.test(String(research.generatedAt || "")), "dimension research requires YYYY-MM-DD generatedAt", failures);
+  for (const categoryLabel of [
+    "電視",
+    "Soundbar",
+    "洗衣機",
+    "烘衣機",
+    "洗烘衣機",
+    "電子衣櫥",
+    "冰箱",
+    "咖啡機",
+    "多功能氣炸烤箱／微波爐",
+    "洗碗機",
+    "免治馬桶",
+  ]) {
+    assert(
+      String(research.sourcePolicy || "").includes(categoryLabel),
+      `dimension research source policy must include ${categoryLabel}`,
+      failures,
+    );
+  }
+  assert(
+    String(research.sourcePolicy || "").includes("淨重")
+      && String(research.sourcePolicy || "").includes("毛重"),
+    "dimension research source policy must distinguish net weight from gross weight",
+    failures,
+  );
   const researchRows = Array.isArray(research.results) ? research.results : [];
   const researchById = new Map(researchRows.map((row) => [row.id, row]));
   assert(researchRows.length === dimensionProducts.length, `dimension research rows ${researchRows.length} does not match dimension products ${dimensionProducts.length}`, failures);
@@ -947,7 +1055,7 @@ function validateDimensionResearch(root, products, failures) {
     assert(typeof row.isOfficialSource === "boolean", `${product.id} dimension research requires boolean isOfficialSource`, failures);
     assert(/^\d{4}-\d{2}-\d{2}$/.test(String(row.checkedAt || "")), `${product.id} dimension research requires YYYY-MM-DD checkedAt`, failures);
     if (NEW_DIMENSION_CATEGORIES.has(product.category)) {
-      assert(row.checkedAt === research.generatedAt, `${product.id} new dimension research checkedAt must match generatedAt`, failures);
+      assert(row.checkedAt <= research.generatedAt, `${product.id} dimension research checkedAt cannot be newer than generatedAt`, failures);
     }
 
     const dimensionNotFound = dimensionSpec === "尺寸：未標示" || dimensionSpec === "尺寸：查不到";
@@ -969,7 +1077,7 @@ function validateDimensionResearch(root, products, failures) {
       assert(WEIGHT_CONFIDENCE_VALUES.has(row.weightConfidence), `${product.id} weight research has invalid weightConfidence: ${row.weightConfidence}`, failures);
       assert(typeof row.weightIsOfficialSource === "boolean", `${product.id} weight research requires boolean weightIsOfficialSource`, failures);
       assert(/^\d{4}-\d{2}-\d{2}$/.test(String(row.weightCheckedAt || "")), `${product.id} weight research requires YYYY-MM-DD weightCheckedAt`, failures);
-      assert(row.weightCheckedAt === research.generatedAt, `${product.id} weight research weightCheckedAt must match generatedAt`, failures);
+      assert(row.weightCheckedAt <= research.generatedAt, `${product.id} weight research weightCheckedAt cannot be newer than generatedAt`, failures);
 
       const weightNotFound = weightSpec === "重量：未標示" || weightSpec === "重量：查不到";
       if (weightNotFound) {
@@ -1060,6 +1168,90 @@ function validateCategoryContent(products, failures) {
       assert(/電壓|插頭/.test(text), `${product.id} overseas warning is missing voltage/plug risk`, failures);
       assert(!product.topPick, `${product.id} overseas product must not be a Taiwan Top Pick`, failures);
     }
+  }
+
+  const coffeeProducts = categoryProducts(products, "coffee");
+  const coffeeBrands = new Map();
+  for (const product of coffeeProducts) {
+    coffeeBrands.set(product.brand, (coffeeBrands.get(product.brand) || 0) + 1);
+    for (const prefix of COFFEE_SPEC_PREFIXES) {
+      const count = product.specs.filter((spec) => String(spec).startsWith(prefix)).length;
+      assert(count === 1, `${product.id} must include exactly one ${prefix} spec`, failures);
+    }
+    const typeSpec = product.specs.find((spec) => String(spec).startsWith("類型："));
+    const type = String(typeSpec || "").slice("類型：".length).trim();
+    assert(COFFEE_TYPE_COUNTS.has(type), `${product.id} coffee type must be 全自動 or 半自動`, failures);
+    assert(product.channel === "tw", `${product.id} coffee product must use the Taiwan channel`, failures);
+    assert(product.price.currency === "TWD", `${product.id} coffee product must use TWD`, failures);
+    assert(product.price.amount === product.price.converted, `${product.id} TWD amount and converted price must match`, failures);
+    const powerSpec = product.specs.find((spec) => String(spec).startsWith("電壓／頻率："));
+    assert(/1(?:10|20)\s*V/i.test(String(powerSpec || "")), `${product.id} coffee product must use a Taiwan-market 110V or 120V rating`, failures);
+    assert(/60\s*Hz/i.test(String(powerSpec || "")), `${product.id} coffee product must support Taiwan 60Hz frequency`, failures);
+    assert(/台灣/.test(String(product.warranty || "")) && /保固/.test(String(product.warranty || "")), `${product.id} coffee product must state Taiwan warranty`, failures);
+    const taiwanMarketText = [product.voltage, product.warranty, product.price.confidence, product.buyLabel].join(" ");
+    assert(/公司貨|台灣官方|原廠/.test(taiwanMarketText), `${product.id} coffee product must prove Taiwan official-market supply`, failures);
+    assert(/咖啡機/.test(String(product.name)), `${product.id} coffee product name must identify a coffee machine`, failures);
+    for (const excludedTerm of COFFEE_EXCLUDED_NAME_TERMS) {
+      assert(!String(product.name).includes(excludedTerm), `${product.id} coffee product name must not be an excluded ${excludedTerm} item`, failures);
+    }
+  }
+
+  assert(coffeeBrands.size >= COFFEE_MIN_BRAND_COUNT, `coffee must include at least ${COFFEE_MIN_BRAND_COUNT} brands, got ${coffeeBrands.size}`, failures);
+  for (const [brand, count] of coffeeBrands) {
+    assert(count <= COFFEE_MAX_PRODUCTS_PER_BRAND, `coffee ${brand} exceeds ${COFFEE_MAX_PRODUCTS_PER_BRAND} products`, failures);
+  }
+
+  for (const [type, expectedCount] of COFFEE_TYPE_COUNTS) {
+    const productsOfType = coffeeProducts.filter((product) => product.specs.includes(`類型：${type}`));
+    assert(productsOfType.length === expectedCount, `coffee ${type} count must be ${expectedCount}, got ${productsOfType.length}`, failures);
+    for (const budget of COFFEE_BUDGET_COUNTS.keys()) {
+      const count = productsOfType.filter((product) => product.budget === budget).length;
+      assert(count === COFFEE_TYPE_BUDGET_COUNT, `coffee ${type} ${budget} count must be ${COFFEE_TYPE_BUDGET_COUNT}, got ${count}`, failures);
+    }
+  }
+  for (const [budget, expectedCount] of COFFEE_BUDGET_COUNTS) {
+    const count = coffeeProducts.filter((product) => product.budget === budget).length;
+    assert(count === expectedCount, `coffee ${budget} count must be ${expectedCount}, got ${count}`, failures);
+  }
+
+  const semiAutomaticProducts = coffeeProducts.filter((product) => product.specs.includes("類型：半自動"));
+  const builtInGrinderCount = semiAutomaticProducts.filter((product) => {
+    const grinderSpec = product.specs.find((spec) => String(spec).startsWith("研磨系統："));
+    return String(grinderSpec || "").slice("研磨系統：".length).trim().startsWith("內建");
+  }).length;
+  const externalGrinderCount = semiAutomaticProducts.filter((product) => {
+    const grinderSpec = product.specs.find((spec) => String(spec).startsWith("研磨系統："));
+    const grinder = String(grinderSpec || "").slice("研磨系統：".length).trim();
+    return !grinder.startsWith("內建") && /外接|另購/.test(grinder);
+  }).length;
+  assert(
+    builtInGrinderCount === COFFEE_SEMI_AUTO_GRINDER_COUNTS.get("built_in"),
+    `coffee semi-auto built-in grinder count must be ${COFFEE_SEMI_AUTO_GRINDER_COUNTS.get("built_in")}, got ${builtInGrinderCount}`,
+    failures,
+  );
+  assert(
+    externalGrinderCount === COFFEE_SEMI_AUTO_GRINDER_COUNTS.get("external"),
+    `coffee semi-auto external-grinder count must be ${COFFEE_SEMI_AUTO_GRINDER_COUNTS.get("external")}, got ${externalGrinderCount}`,
+    failures,
+  );
+
+  for (const tag of COFFEE_RECOMMENDATION_TAGS) {
+    assert(coffeeProducts.some((product) => product.tags.includes(tag)), `coffee missing recommendation tag ${tag}`, failures);
+  }
+
+  const coffeeTopPicks = coffeeProducts.filter((product) => product.topPick);
+  assert(coffeeTopPicks.length === 1, `coffee must have exactly one Top Pick, got ${coffeeTopPicks.length}`, failures);
+  if (coffeeTopPicks.length === 1) {
+    const [topPick] = coffeeTopPicks;
+    const powerSpec = topPick.specs.find((spec) => String(spec).startsWith("電壓／頻率："));
+    const availabilitySpec = topPick.specs.find((spec) => String(spec).startsWith("耗材／配件相容性："));
+    assert(/110\s*V/i.test(String(powerSpec || "")) && /60\s*Hz/i.test(String(powerSpec || "")), `${topPick.id} Top Pick must be 110V/60Hz`, failures);
+    assert(/台灣/.test(String(topPick.warranty || "")) && /保固/.test(String(topPick.warranty || "")), `${topPick.id} Top Pick must have Taiwan warranty`, failures);
+    assert(
+      /台灣/.test(String(availabilitySpec || "")) && /可取得|供應|購買/.test(String(availabilitySpec || "")),
+      `${topPick.id} Top Pick must state Taiwan supplies or parts availability`,
+      failures,
+    );
   }
 }
 
@@ -1177,6 +1369,8 @@ function main() {
 
   assert(categories.length === EXPECTED_CATEGORY_COUNT, `expected ${EXPECTED_CATEGORY_COUNT} categories, got ${categories.length}`, failures);
   assert(products.length === EXPECTED_PRODUCT_COUNT, `expected ${EXPECTED_PRODUCT_COUNT} products, got ${products.length}`, failures);
+  const coffeeCategoryIndex = categories.findIndex((category) => category.id === "coffee");
+  assert(coffeeCategoryIndex > 0 && categories[coffeeCategoryIndex - 1]?.id === "blender", "coffee category must appear immediately after blender", failures);
   const missingIssueResearchIds = products
     .filter((product) => !product.issueResearch || typeof product.issueResearch !== "object" || Array.isArray(product.issueResearch))
     .map((product) => product.id);

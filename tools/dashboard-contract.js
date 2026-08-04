@@ -1,5 +1,5 @@
-const EXPECTED_CATEGORY_COUNT = 26;
-const EXPECTED_PRODUCT_COUNT = 716;
+const EXPECTED_CATEGORY_COUNT = 27;
+const EXPECTED_PRODUCT_COUNT = 740;
 const MIN_PRODUCTS_PER_CATEGORY = 20;
 const EXPECTED_CATEGORY_PRODUCT_COUNTS = new Map([
   ["tv", 33],
@@ -18,6 +18,7 @@ const EXPECTED_CATEGORY_PRODUCT_COUNTS = new Map([
   ["cookware", 26],
   ["knife", 22],
   ["blender", 24],
+  ["coffee", 24],
   ["oven", 24],
   ["waterdispenser", 22],
   ["dishwasher", 25],
@@ -39,6 +40,7 @@ const DIMENSION_CATEGORY_COUNTS = new Map([
   ["washerdryer", 27],
   ["garmentcare", 20],
   ["refrigerator", 24],
+  ["coffee", 24],
   ["oven", 24],
   ["dishwasher", 25],
   ["bidet", 20],
@@ -46,8 +48,8 @@ const DIMENSION_CATEGORY_COUNTS = new Map([
 const DIMENSION_CATEGORIES = new Set(DIMENSION_CATEGORY_COUNTS.keys());
 const EXPECTED_DIMENSION_PRODUCT_COUNT = [...DIMENSION_CATEGORY_COUNTS.values()]
   .reduce((sum, count) => sum + count, 0);
-const NEW_DIMENSION_CATEGORIES = new Set(["tv", "soundbar", "oven", "dishwasher", "bidet"]);
-const MEASUREMENT_PRIORITY_CATEGORIES = new Set(["tv", "soundbar", "garmentcare", "oven", "dishwasher", "bidet"]);
+const NEW_DIMENSION_CATEGORIES = new Set(["tv", "soundbar", "coffee", "oven", "dishwasher", "bidet"]);
+const MEASUREMENT_PRIORITY_CATEGORIES = new Set(["tv", "soundbar", "garmentcare", "coffee", "oven", "dishwasher", "bidet"]);
 const MEASUREMENT_VALUE_PATTERN = "\\d+(?:\\.\\d+)?(?:[-–／/]\\d+(?:\\.\\d+)?)?";
 const DIMENSION_SEGMENT_PATTERN = `(?:[^；]+ )?寬 ${MEASUREMENT_VALUE_PATTERN} x 深 ${MEASUREMENT_VALUE_PATTERN} x 高 ${MEASUREMENT_VALUE_PATTERN} cm`;
 const FORBIDDEN_MEASUREMENT_LABEL_PATTERN = "(?!.*(?:包裝|外箱|紙箱|毛重|gross|carton))";
@@ -56,6 +58,7 @@ const DIMENSION_CONFIDENCE_VALUES = new Set(["high", "medium", "low", "not_found
 const WEIGHT_CATEGORY_COUNTS = new Map([
   ["tv", 33],
   ["soundbar", 27],
+  ["coffee", 24],
   ["oven", 24],
 ]);
 const WEIGHT_CATEGORIES = new Set(WEIGHT_CATEGORY_COUNTS.keys());
@@ -182,6 +185,48 @@ const GARMENTCARE_SPEC_PREFIXES = [
   "材質限制：",
 ];
 const GARMENTCARE_TOP_PICK_MODEL = "R723WG";
+const COFFEE_TYPE_COUNTS = new Map([
+  ["全自動", 12],
+  ["半自動", 12],
+]);
+const COFFEE_BUDGET_COUNTS = new Map([
+  ["value", 8],
+  ["mid", 8],
+  ["premium", 8],
+]);
+const COFFEE_TYPE_BUDGET_COUNT = 4;
+const COFFEE_SEMI_AUTO_GRINDER_COUNTS = new Map([
+  ["built_in", 6],
+  ["external", 6],
+]);
+const COFFEE_MIN_BRAND_COUNT = 6;
+const COFFEE_MAX_PRODUCTS_PER_BRAND = 6;
+const COFFEE_SPEC_PREFIXES = [
+  "類型：",
+  "使用原料：",
+  "研磨系統：",
+  "萃取／沖煮：",
+  "奶泡：",
+  "容量：",
+  "尺寸：",
+  "重量：",
+  "電壓／頻率：",
+  "功率：",
+  "清潔維護：",
+  "耗材／配件相容性：",
+];
+const COFFEE_RECOMMENDATION_TAGS = new Set(["全自動推薦", "半自動推薦", "入門推薦"]);
+const COFFEE_EXCLUDED_NAME_TERMS = new Set([
+  "膠囊",
+  "滴濾",
+  "商用",
+  "嵌入式",
+  "獨立磨豆機",
+  "獨立奶泡機",
+  "除鈣劑",
+  "濾芯",
+  "配件",
+]);
 
 module.exports = {
   EXPECTED_CATEGORY_COUNT,
@@ -217,4 +262,13 @@ module.exports = {
   GARMENTCARE_CHANNEL_COUNTS,
   GARMENTCARE_SPEC_PREFIXES,
   GARMENTCARE_TOP_PICK_MODEL,
+  COFFEE_TYPE_COUNTS,
+  COFFEE_BUDGET_COUNTS,
+  COFFEE_TYPE_BUDGET_COUNT,
+  COFFEE_SEMI_AUTO_GRINDER_COUNTS,
+  COFFEE_MIN_BRAND_COUNT,
+  COFFEE_MAX_PRODUCTS_PER_BRAND,
+  COFFEE_SPEC_PREFIXES,
+  COFFEE_RECOMMENDATION_TAGS,
+  COFFEE_EXCLUDED_NAME_TERMS,
 };

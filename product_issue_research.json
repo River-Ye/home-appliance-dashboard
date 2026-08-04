@@ -1,9 +1,9 @@
 {
   "summary": {
     "checkedAt": "2026-08-04T00:00:00+08:00",
-    "total": 716,
+    "total": 740,
     "commonIssueProducts": 36,
-    "noCommonIssueProducts": 680,
+    "noCommonIssueProducts": 704,
     "pendingManualReview": 0,
     "commonIssues": 36,
     "searchUnavailable": 26,
@@ -39673,6 +39673,2676 @@
       "rejectedCandidates": []
     },
     {
+      "id": "coffee-best-g6280",
+      "category": "coffee",
+      "brand": "BEST",
+      "model": "G6280",
+      "name": "BEST 貝斯特 G6280 獨立式全自動咖啡機",
+      "identity": {
+        "canonicalModel": "G6280",
+        "lookupLabel": "BEST G6280",
+        "aliases": [
+          "BEST G6280"
+        ],
+        "evidenceUrl": "https://24h.pchome.com.tw/prod/DMATI9-A900HPMCA"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "status": "completed",
+        "decision": "no_common_issue",
+        "reviewedAt": "2026-08-04",
+        "checkedPlatforms": [
+          "Dcard",
+          "Reddit"
+        ],
+        "queries": [
+          {
+            "platform": "Dcard",
+            "targetHost": "dcard.tw",
+            "query": "site:dcard.tw \"BEST G6280\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Adcard.tw%20%22BEST%20G6280%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)"
+          },
+          {
+            "platform": "Reddit",
+            "targetHost": "reddit.com",
+            "query": "site:reddit.com \"BEST G6280\" (problem OR issue OR defect OR negative review)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22BEST%20G6280%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)"
+          }
+        ],
+        "candidateDisposition": "G6280：Dcard 與 Reddit exact-model 查詢均無通過型號邊界的原頁候選；不代表完全沒有負評。",
+        "representativeSources": [],
+        "candidateReviews": [],
+        "reviewerNote": "G6280 已逐一重跑兩站查詢並人工確認結果，未把近似型號或搜尋摘要列入產品災情。",
+        "attestation": "manual_cross_site_search_reviewed_no_candidate"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-08-04",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Dcard",
+            "query": "site:dcard.tw \"BEST G6280\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Adcard.tw%20%22BEST%20G6280%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "dcard.tw"
+          },
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"BEST G6280\" (problem OR issue OR defect OR negative review)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22BEST%20G6280%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+            "targetHost": "reddit.com"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "Dcard",
+          "query": "site:dcard.tw \"BEST G6280\" (災情 OR 問題 OR 故障 OR 負評)",
+          "searchUrl": "https://search.yahoo.com/search?q=site%3Adcard.tw%20%22BEST%20G6280%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-08-04T00:00:00+08:00"
+        },
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"BEST G6280\" (problem OR issue OR defect OR negative review)",
+          "searchUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22BEST%20G6280%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-08-04T00:00:00+08:00"
+        }
+      ],
+      "evidence": [],
+      "rejectedCandidates": []
+    },
+    {
+      "id": "coffee-philips-ep3326-94",
+      "category": "coffee",
+      "brand": "Philips",
+      "model": "EP3326/94",
+      "name": "Philips 飛利浦 EP3326/94 雙溫萃取全自動義式咖啡機",
+      "identity": {
+        "canonicalModel": "EP3326/94",
+        "lookupLabel": "Philips EP3326/94",
+        "aliases": [
+          "Philips EP3326/94",
+          "Philips EP3326"
+        ],
+        "evidenceUrl": "https://www.philips-da.com.tw/products/ep3326"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "status": "completed",
+        "decision": "no_common_issue",
+        "reviewedAt": "2026-08-04",
+        "checkedPlatforms": [
+          "Dcard",
+          "Reddit"
+        ],
+        "queries": [
+          {
+            "platform": "Dcard",
+            "targetHost": "dcard.tw",
+            "query": "site:dcard.tw \"Philips EP3326/94\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Adcard.tw%20%22Philips%20EP3326%2F94%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)"
+          },
+          {
+            "platform": "Reddit",
+            "targetHost": "reddit.com",
+            "query": "site:reddit.com \"Philips EP3326/94\" (problem OR issue OR defect OR negative review)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22Philips%20EP3326%2F94%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)"
+          }
+        ],
+        "candidateDisposition": "EP3326/94：已開啟並覆核一個 Dcard exact-model 原頁，使用心得僅一位作者且無第二站同問題。",
+        "representativeSources": [
+          {
+            "platform": "Dcard",
+            "title": "EP3326/94｜飛利浦雙溫萃取義式咖啡機使用心得",
+            "url": "https://www.dcard.tw/f/coffee/p/258548513"
+          }
+        ],
+        "candidateReviews": [
+          {
+            "platform": "Dcard",
+            "url": "https://www.dcard.tw/f/coffee/p/258548513",
+            "title": "EP3326/94｜飛利浦雙溫萃取義式咖啡機使用心得",
+            "sourceExcerpt": "作者分享開關機自動清洗較耗水、說明書不夠詳細，並說明每週清洗沖煮器的使用經驗。",
+            "independentAuthors": 1,
+            "specificReason": "原頁只有一位可辨識使用者，且內容為多項使用心得，未形成六位同型號使用者回報同一問題，更沒有跨第二個原始網站。",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-08-04"
+          }
+        ],
+        "reviewerNote": "EP3326/94 已人工覆核 Dcard 原頁與 Reddit 查詢，沒有同問題六人且跨兩站的證據。",
+        "attestation": "manual_original_pages_reviewed"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-08-04",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Dcard",
+            "query": "site:dcard.tw \"Philips EP3326/94\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Adcard.tw%20%22Philips%20EP3326%2F94%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "dcard.tw"
+          },
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"Philips EP3326/94\" (problem OR issue OR defect OR negative review)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22Philips%20EP3326%2F94%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+            "targetHost": "reddit.com"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "Dcard",
+          "query": "site:dcard.tw \"Philips EP3326/94\" (災情 OR 問題 OR 故障 OR 負評)",
+          "searchUrl": "https://search.yahoo.com/search?q=site%3Adcard.tw%20%22Philips%20EP3326%2F94%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "result": "candidates_unverified_by_search_only",
+          "resultCount": 1,
+          "candidateUrls": [
+            "https://www.dcard.tw/f/coffee/p/258548513"
+          ],
+          "candidates": [
+            {
+              "url": "https://www.dcard.tw/f/coffee/p/258548513",
+              "title": "EP3326/94｜飛利浦雙溫萃取義式咖啡機使用心得"
+            }
+          ],
+          "inspectedAt": "2026-08-04T00:00:00+08:00"
+        },
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Philips EP3326/94\" (problem OR issue OR defect OR negative review)",
+          "searchUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22Philips%20EP3326%2F94%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-08-04T00:00:00+08:00"
+        }
+      ],
+      "evidence": [],
+      "rejectedCandidates": [
+        {
+          "platform": "Dcard",
+          "url": "https://www.dcard.tw/f/coffee/p/258548513",
+          "title": "EP3326/94｜飛利浦雙溫萃取義式咖啡機使用心得",
+          "sourceExcerpt": "作者分享開關機自動清洗較耗水、說明書不夠詳細，並說明每週清洗沖煮器的使用經驗。",
+          "independentAuthors": 1,
+          "specificReason": "原頁只有一位可辨識使用者，且內容為多項使用心得，未形成六位同型號使用者回報同一問題，更沒有跨第二個原始網站。",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-04",
+          "reason": "原頁只有一位可辨識使用者，且內容為多項使用心得，未形成六位同型號使用者回報同一問題，更沒有跨第二個原始網站。"
+        }
+      ]
+    },
+    {
+      "id": "coffee-delonghi-ecam220-22-sb",
+      "category": "coffee",
+      "brand": "DeLonghi",
+      "model": "ECAM220.22.SB",
+      "name": "De'Longhi ECAM220.22.SB Magnifica Start 全自動義式咖啡機",
+      "identity": {
+        "canonicalModel": "ECAM220.22.SB",
+        "lookupLabel": "DeLonghi ECAM220.22.SB",
+        "aliases": [
+          "DeLonghi ECAM220.22.SB",
+          "DeLonghi ECAM220"
+        ],
+        "evidenceUrl": "https://www.idelonghi.com.tw/id/products/ecam22022"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "status": "completed",
+        "decision": "no_common_issue",
+        "reviewedAt": "2026-08-04",
+        "checkedPlatforms": [
+          "Dcard",
+          "Reddit"
+        ],
+        "queries": [
+          {
+            "platform": "Dcard",
+            "targetHost": "dcard.tw",
+            "query": "site:dcard.tw \"DeLonghi ECAM220.22.SB\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Adcard.tw%20%22DeLonghi%20ECAM220.22.SB%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)"
+          },
+          {
+            "platform": "Reddit",
+            "targetHost": "reddit.com",
+            "query": "site:reddit.com \"DeLonghi ECAM220.22.SB\" (problem OR issue OR defect OR negative review)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22DeLonghi%20ECAM220.22.SB%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)"
+          }
+        ],
+        "candidateDisposition": "ECAM220.22.SB：Dcard 與 Reddit exact-model 查詢均無通過型號邊界的原頁候選；不代表完全沒有負評。",
+        "representativeSources": [],
+        "candidateReviews": [],
+        "reviewerNote": "ECAM220.22.SB 已逐一重跑兩站查詢並人工確認結果，未把系列型號或摘要列入災情。",
+        "attestation": "manual_cross_site_search_reviewed_no_candidate"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-08-04",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Dcard",
+            "query": "site:dcard.tw \"DeLonghi ECAM220.22.SB\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Adcard.tw%20%22DeLonghi%20ECAM220.22.SB%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "dcard.tw"
+          },
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"DeLonghi ECAM220.22.SB\" (problem OR issue OR defect OR negative review)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22DeLonghi%20ECAM220.22.SB%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+            "targetHost": "reddit.com"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "Dcard",
+          "query": "site:dcard.tw \"DeLonghi ECAM220.22.SB\" (災情 OR 問題 OR 故障 OR 負評)",
+          "searchUrl": "https://search.yahoo.com/search?q=site%3Adcard.tw%20%22DeLonghi%20ECAM220.22.SB%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-08-04T00:00:00+08:00"
+        },
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"DeLonghi ECAM220.22.SB\" (problem OR issue OR defect OR negative review)",
+          "searchUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22DeLonghi%20ECAM220.22.SB%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-08-04T00:00:00+08:00"
+        }
+      ],
+      "evidence": [],
+      "rejectedCandidates": []
+    },
+    {
+      "id": "coffee-gaggia-anima-cmf",
+      "category": "coffee",
+      "brand": "Gaggia",
+      "model": "ANIMA CMF",
+      "name": "Gaggia 佳吉亞 ANIMA CMF 星耀型全自動咖啡機",
+      "identity": {
+        "canonicalModel": "ANIMA CMF",
+        "lookupLabel": "Gaggia ANIMA CMF",
+        "aliases": [
+          "Gaggia ANIMA CMF"
+        ],
+        "evidenceUrl": "https://24h.pchome.com.tw/prod/DMAT01-A900GG8P0"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "status": "completed",
+        "decision": "no_common_issue",
+        "reviewedAt": "2026-08-04",
+        "checkedPlatforms": [
+          "Dcard",
+          "Reddit"
+        ],
+        "queries": [
+          {
+            "platform": "Dcard",
+            "targetHost": "dcard.tw",
+            "query": "site:dcard.tw \"Gaggia ANIMA CMF\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Adcard.tw%20%22Gaggia%20ANIMA%20CMF%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)"
+          },
+          {
+            "platform": "Reddit",
+            "targetHost": "reddit.com",
+            "query": "site:reddit.com \"Gaggia ANIMA CMF\" (problem OR issue OR defect OR negative review)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22Gaggia%20ANIMA%20CMF%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)"
+          }
+        ],
+        "candidateDisposition": "ANIMA CMF：Dcard 與 Reddit exact-model 查詢均無通過型號邊界的原頁候選；不代表完全沒有負評。",
+        "representativeSources": [],
+        "candidateReviews": [],
+        "reviewerNote": "ANIMA CMF 已逐一重跑兩站查詢並人工確認結果，未把 ANIMA 系列近似版本混入。",
+        "attestation": "manual_cross_site_search_reviewed_no_candidate"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-08-04",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Dcard",
+            "query": "site:dcard.tw \"Gaggia ANIMA CMF\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Adcard.tw%20%22Gaggia%20ANIMA%20CMF%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "dcard.tw"
+          },
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"Gaggia ANIMA CMF\" (problem OR issue OR defect OR negative review)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22Gaggia%20ANIMA%20CMF%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+            "targetHost": "reddit.com"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "Dcard",
+          "query": "site:dcard.tw \"Gaggia ANIMA CMF\" (災情 OR 問題 OR 故障 OR 負評)",
+          "searchUrl": "https://search.yahoo.com/search?q=site%3Adcard.tw%20%22Gaggia%20ANIMA%20CMF%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-08-04T00:00:00+08:00"
+        },
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Gaggia ANIMA CMF\" (problem OR issue OR defect OR negative review)",
+          "searchUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22Gaggia%20ANIMA%20CMF%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-08-04T00:00:00+08:00"
+        }
+      ],
+      "evidence": [],
+      "rejectedCandidates": []
+    },
+    {
+      "id": "coffee-philips-ep3347-84",
+      "category": "coffee",
+      "brand": "Philips",
+      "model": "EP3347/84",
+      "name": "Philips 飛利浦 EP3347/84 LatteGo 雙溫萃取全自動義式咖啡機",
+      "identity": {
+        "canonicalModel": "EP3347/84",
+        "lookupLabel": "Philips EP3347/84",
+        "aliases": [
+          "Philips EP3347/84",
+          "Philips EP3347"
+        ],
+        "evidenceUrl": "https://www.elifemall.com.tw/product/2149579"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "status": "completed",
+        "decision": "no_common_issue",
+        "reviewedAt": "2026-08-04",
+        "checkedPlatforms": [
+          "Dcard",
+          "Reddit"
+        ],
+        "queries": [
+          {
+            "platform": "Dcard",
+            "targetHost": "dcard.tw",
+            "query": "site:dcard.tw \"Philips EP3347/84\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Adcard.tw%20%22Philips%20EP3347%2F84%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)"
+          },
+          {
+            "platform": "Reddit",
+            "targetHost": "reddit.com",
+            "query": "site:reddit.com \"Philips EP3347/84\" (problem OR issue OR defect OR negative review)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22Philips%20EP3347%2F84%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)"
+          }
+        ],
+        "candidateDisposition": "EP3347/84：已開啟一個 Dcard exact-model 候選，確認是選購整理而非逐位第一人稱災情。",
+        "representativeSources": [
+          {
+            "platform": "Dcard",
+            "title": "EP3347/84｜2026 煮咖啡器具推薦整理",
+            "url": "https://www.dcard.tw/%40mikoya_1327/post/260827647"
+          }
+        ],
+        "candidateReviews": [
+          {
+            "platform": "Dcard",
+            "url": "https://www.dcard.tw/%40mikoya_1327/post/260827647",
+            "title": "EP3347/84｜2026 煮咖啡器具推薦整理",
+            "sourceExcerpt": "文章以選購清單方式整理 LatteGo 奶泡質地與清潔取捨，沒有可追溯的逐位原始使用者回報。",
+            "independentAuthors": 0,
+            "specificReason": "這是單一作者的選購整理，文內轉述的網友心得無作者與原始連結，不能計入第一人稱人數，也沒有跨站同問題證據。",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-08-04"
+          }
+        ],
+        "reviewerNote": "EP3347/84 已人工覆核 Dcard 原頁與 Reddit 查詢，轉述心得未被算成獨立使用者。",
+        "attestation": "manual_original_pages_reviewed"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-08-04",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Dcard",
+            "query": "site:dcard.tw \"Philips EP3347/84\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Adcard.tw%20%22Philips%20EP3347%2F84%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "dcard.tw"
+          },
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"Philips EP3347/84\" (problem OR issue OR defect OR negative review)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22Philips%20EP3347%2F84%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+            "targetHost": "reddit.com"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "Dcard",
+          "query": "site:dcard.tw \"Philips EP3347/84\" (災情 OR 問題 OR 故障 OR 負評)",
+          "searchUrl": "https://search.yahoo.com/search?q=site%3Adcard.tw%20%22Philips%20EP3347%2F84%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "result": "candidates_unverified_by_search_only",
+          "resultCount": 1,
+          "candidateUrls": [
+            "https://www.dcard.tw/%40mikoya_1327/post/260827647"
+          ],
+          "candidates": [
+            {
+              "url": "https://www.dcard.tw/%40mikoya_1327/post/260827647",
+              "title": "EP3347/84｜2026 煮咖啡器具推薦整理"
+            }
+          ],
+          "inspectedAt": "2026-08-04T00:00:00+08:00"
+        },
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Philips EP3347/84\" (problem OR issue OR defect OR negative review)",
+          "searchUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22Philips%20EP3347%2F84%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-08-04T00:00:00+08:00"
+        }
+      ],
+      "evidence": [],
+      "rejectedCandidates": [
+        {
+          "platform": "Dcard",
+          "url": "https://www.dcard.tw/%40mikoya_1327/post/260827647",
+          "title": "EP3347/84｜2026 煮咖啡器具推薦整理",
+          "sourceExcerpt": "文章以選購清單方式整理 LatteGo 奶泡質地與清潔取捨，沒有可追溯的逐位原始使用者回報。",
+          "independentAuthors": 0,
+          "specificReason": "這是單一作者的選購整理，文內轉述的網友心得無作者與原始連結，不能計入第一人稱人數，也沒有跨站同問題證據。",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-04",
+          "reason": "這是單一作者的選購整理，文內轉述的網友心得無作者與原始連結，不能計入第一人稱人數，也沒有跨站同問題證據。"
+        }
+      ]
+    },
+    {
+      "id": "coffee-philips-ep5547-90",
+      "category": "coffee",
+      "brand": "Philips",
+      "model": "EP5547/90",
+      "name": "Philips 飛利浦 EP5547/90 LatteGo 雙溫萃取全自動義式咖啡機",
+      "identity": {
+        "canonicalModel": "EP5547/90",
+        "lookupLabel": "Philips EP5547/90",
+        "aliases": [
+          "Philips EP5547/90",
+          "Philips EP5547"
+        ],
+        "evidenceUrl": "https://www.philips-da.com.tw/products/ep554790"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "status": "completed",
+        "decision": "no_common_issue",
+        "reviewedAt": "2026-08-04",
+        "checkedPlatforms": [
+          "Dcard",
+          "Reddit"
+        ],
+        "queries": [
+          {
+            "platform": "Dcard",
+            "targetHost": "dcard.tw",
+            "query": "site:dcard.tw \"Philips EP5547/90\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Adcard.tw%20%22Philips%20EP5547%2F90%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)"
+          },
+          {
+            "platform": "Reddit",
+            "targetHost": "reddit.com",
+            "query": "site:reddit.com \"Philips EP5547/90\" (problem OR issue OR defect OR negative review)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22Philips%20EP5547%2F90%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)"
+          }
+        ],
+        "candidateDisposition": "EP5547/90：已覆核 Reddit exact-model 討論，風味相關回報至多三位且沒有第二個原始網站。",
+        "representativeSources": [
+          {
+            "platform": "Reddit",
+            "title": "Philips EP5547/90 Serie 5500 LatteGo 19",
+            "url": "https://www.reddit.com/r/superautomatic/comments/1lmvdjr"
+          }
+        ],
+        "candidateReviews": [
+          {
+            "platform": "Reddit",
+            "url": "https://www.reddit.com/r/superautomatic/comments/1lmvdjr",
+            "title": "Philips EP5547/90 Serie 5500 LatteGo 19",
+            "sourceExcerpt": "原頁有少數使用者提到濃縮偏淡、初期水感與奶泡質地，但回報數未達門檻且僅來自 Reddit。",
+            "independentAuthors": 3,
+            "specificReason": "人工逐則覆核後，同一風味偏淡或水感問題至多三位可辨識使用者，低於六人，且查無第二個獨立原始網站的同型號同問題。",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-08-04"
+          }
+        ],
+        "reviewerNote": "EP5547/90 已人工逐則檢查候選作者與問題一致性，未達六人與兩站門檻。",
+        "attestation": "manual_original_pages_reviewed"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-08-04",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Dcard",
+            "query": "site:dcard.tw \"Philips EP5547/90\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Adcard.tw%20%22Philips%20EP5547%2F90%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "dcard.tw"
+          },
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"Philips EP5547/90\" (problem OR issue OR defect OR negative review)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22Philips%20EP5547%2F90%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+            "targetHost": "reddit.com"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "Dcard",
+          "query": "site:dcard.tw \"Philips EP5547/90\" (災情 OR 問題 OR 故障 OR 負評)",
+          "searchUrl": "https://search.yahoo.com/search?q=site%3Adcard.tw%20%22Philips%20EP5547%2F90%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-08-04T00:00:00+08:00"
+        },
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Philips EP5547/90\" (problem OR issue OR defect OR negative review)",
+          "searchUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22Philips%20EP5547%2F90%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "result": "candidates_unverified_by_search_only",
+          "resultCount": 1,
+          "candidateUrls": [
+            "https://www.reddit.com/r/superautomatic/comments/1lmvdjr"
+          ],
+          "candidates": [
+            {
+              "url": "https://www.reddit.com/r/superautomatic/comments/1lmvdjr",
+              "title": "Philips EP5547/90 Serie 5500 LatteGo 19"
+            }
+          ],
+          "inspectedAt": "2026-08-04T00:00:00+08:00"
+        }
+      ],
+      "evidence": [],
+      "rejectedCandidates": [
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/superautomatic/comments/1lmvdjr",
+          "title": "Philips EP5547/90 Serie 5500 LatteGo 19",
+          "sourceExcerpt": "原頁有少數使用者提到濃縮偏淡、初期水感與奶泡質地，但回報數未達門檻且僅來自 Reddit。",
+          "independentAuthors": 3,
+          "specificReason": "人工逐則覆核後，同一風味偏淡或水感問題至多三位可辨識使用者，低於六人，且查無第二個獨立原始網站的同型號同問題。",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-04",
+          "reason": "人工逐則覆核後，同一風味偏淡或水感問題至多三位可辨識使用者，低於六人，且查無第二個獨立原始網站的同型號同問題。"
+        }
+      ]
+    },
+    {
+      "id": "coffee-delonghi-ecam290-43-sb",
+      "category": "coffee",
+      "brand": "DeLonghi",
+      "model": "ECAM290.43.SB",
+      "name": "De'Longhi ECAM290.43.SB Magnifica Evo 全自動義式咖啡機",
+      "identity": {
+        "canonicalModel": "ECAM290.43.SB",
+        "lookupLabel": "DeLonghi ECAM290.43.SB",
+        "aliases": [
+          "DeLonghi ECAM290.43.SB",
+          "DeLonghi ECAM290"
+        ],
+        "evidenceUrl": "https://www.idelonghi.com.tw/ja/products/ecam29043"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "status": "completed",
+        "decision": "no_common_issue",
+        "reviewedAt": "2026-08-04",
+        "checkedPlatforms": [
+          "Dcard",
+          "Reddit"
+        ],
+        "queries": [
+          {
+            "platform": "Dcard",
+            "targetHost": "dcard.tw",
+            "query": "site:dcard.tw \"DeLonghi ECAM290.43.SB\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Adcard.tw%20%22DeLonghi%20ECAM290.43.SB%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)"
+          },
+          {
+            "platform": "Reddit",
+            "targetHost": "reddit.com",
+            "query": "site:reddit.com \"DeLonghi ECAM290.43.SB\" (problem OR issue OR defect OR negative review)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22DeLonghi%20ECAM290.43.SB%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)"
+          }
+        ],
+        "candidateDisposition": "ECAM290.43.SB：Dcard 與 Reddit exact-model 查詢均無通過型號邊界的原頁候選；不代表完全沒有負評。",
+        "representativeSources": [],
+        "candidateReviews": [],
+        "reviewerNote": "ECAM290.43.SB 已逐一重跑兩站查詢並人工確認結果，沒有以系列文章代替原始回報。",
+        "attestation": "manual_cross_site_search_reviewed_no_candidate"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-08-04",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Dcard",
+            "query": "site:dcard.tw \"DeLonghi ECAM290.43.SB\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Adcard.tw%20%22DeLonghi%20ECAM290.43.SB%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "dcard.tw"
+          },
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"DeLonghi ECAM290.43.SB\" (problem OR issue OR defect OR negative review)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22DeLonghi%20ECAM290.43.SB%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+            "targetHost": "reddit.com"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "Dcard",
+          "query": "site:dcard.tw \"DeLonghi ECAM290.43.SB\" (災情 OR 問題 OR 故障 OR 負評)",
+          "searchUrl": "https://search.yahoo.com/search?q=site%3Adcard.tw%20%22DeLonghi%20ECAM290.43.SB%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-08-04T00:00:00+08:00"
+        },
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"DeLonghi ECAM290.43.SB\" (problem OR issue OR defect OR negative review)",
+          "searchUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22DeLonghi%20ECAM290.43.SB%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-08-04T00:00:00+08:00"
+        }
+      ],
+      "evidence": [],
+      "rejectedCandidates": []
+    },
+    {
+      "id": "coffee-delonghi-ecam350-25-sb",
+      "category": "coffee",
+      "brand": "DeLonghi",
+      "model": "ECAM350.25.SB",
+      "name": "De'Longhi ECAM350.25.SB Dinamica 全自動義式咖啡機",
+      "identity": {
+        "canonicalModel": "ECAM350.25.SB",
+        "lookupLabel": "DeLonghi ECAM350.25.SB",
+        "aliases": [
+          "DeLonghi ECAM350.25.SB",
+          "DeLonghi ECAM350"
+        ],
+        "evidenceUrl": "https://24h.pchome.com.tw/prod/DMAT03-A900J0QWV"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "status": "completed",
+        "decision": "no_common_issue",
+        "reviewedAt": "2026-08-04",
+        "checkedPlatforms": [
+          "Dcard",
+          "Reddit"
+        ],
+        "queries": [
+          {
+            "platform": "Dcard",
+            "targetHost": "dcard.tw",
+            "query": "site:dcard.tw \"DeLonghi ECAM350.25.SB\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Adcard.tw%20%22DeLonghi%20ECAM350.25.SB%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)"
+          },
+          {
+            "platform": "Reddit",
+            "targetHost": "reddit.com",
+            "query": "site:reddit.com \"DeLonghi ECAM350.25.SB\" (problem OR issue OR defect OR negative review)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22DeLonghi%20ECAM350.25.SB%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)"
+          }
+        ],
+        "candidateDisposition": "ECAM350.25.SB：Dcard 與 Reddit exact-model 查詢均無通過型號邊界的原頁候選；不代表完全沒有負評。",
+        "representativeSources": [],
+        "candidateReviews": [],
+        "reviewerNote": "ECAM350.25.SB 已逐一重跑兩站查詢並人工確認結果，未把近似 ECAM 型號混入。",
+        "attestation": "manual_cross_site_search_reviewed_no_candidate"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-08-04",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Dcard",
+            "query": "site:dcard.tw \"DeLonghi ECAM350.25.SB\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Adcard.tw%20%22DeLonghi%20ECAM350.25.SB%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "dcard.tw"
+          },
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"DeLonghi ECAM350.25.SB\" (problem OR issue OR defect OR negative review)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22DeLonghi%20ECAM350.25.SB%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+            "targetHost": "reddit.com"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "Dcard",
+          "query": "site:dcard.tw \"DeLonghi ECAM350.25.SB\" (災情 OR 問題 OR 故障 OR 負評)",
+          "searchUrl": "https://search.yahoo.com/search?q=site%3Adcard.tw%20%22DeLonghi%20ECAM350.25.SB%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-08-04T00:00:00+08:00"
+        },
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"DeLonghi ECAM350.25.SB\" (problem OR issue OR defect OR negative review)",
+          "searchUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22DeLonghi%20ECAM350.25.SB%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-08-04T00:00:00+08:00"
+        }
+      ],
+      "evidence": [],
+      "rejectedCandidates": []
+    },
+    {
+      "id": "coffee-gaggia-magenta-prestige",
+      "category": "coffee",
+      "brand": "Gaggia",
+      "model": "Magenta Prestige",
+      "name": "Gaggia MAGENTA PRESTIGE 爵品型全自動咖啡機",
+      "identity": {
+        "canonicalModel": "Magenta Prestige",
+        "lookupLabel": "Gaggia Magenta Prestige",
+        "aliases": [
+          "Gaggia Magenta Prestige"
+        ],
+        "evidenceUrl": "https://www.momoshop.com.tw/product/11041230"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "status": "completed",
+        "decision": "no_common_issue",
+        "reviewedAt": "2026-08-04",
+        "checkedPlatforms": [
+          "Dcard",
+          "Reddit"
+        ],
+        "queries": [
+          {
+            "platform": "Dcard",
+            "targetHost": "dcard.tw",
+            "query": "site:dcard.tw \"Gaggia Magenta Prestige\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Adcard.tw%20%22Gaggia%20Magenta%20Prestige%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)"
+          },
+          {
+            "platform": "Reddit",
+            "targetHost": "reddit.com",
+            "query": "site:reddit.com \"Gaggia Magenta Prestige\" (problem OR issue OR defect OR negative review)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22Gaggia%20Magenta%20Prestige%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)"
+          }
+        ],
+        "candidateDisposition": "Magenta Prestige：Dcard 與 Reddit exact-model 查詢均無通過型號邊界的原頁候選；不代表完全沒有負評。",
+        "representativeSources": [],
+        "candidateReviews": [],
+        "reviewerNote": "Magenta Prestige 已逐一重跑兩站查詢並人工確認結果，沒有以系列名稱模糊歸因。",
+        "attestation": "manual_cross_site_search_reviewed_no_candidate"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-08-04",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Dcard",
+            "query": "site:dcard.tw \"Gaggia Magenta Prestige\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Adcard.tw%20%22Gaggia%20Magenta%20Prestige%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "dcard.tw"
+          },
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"Gaggia Magenta Prestige\" (problem OR issue OR defect OR negative review)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22Gaggia%20Magenta%20Prestige%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+            "targetHost": "reddit.com"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "Dcard",
+          "query": "site:dcard.tw \"Gaggia Magenta Prestige\" (災情 OR 問題 OR 故障 OR 負評)",
+          "searchUrl": "https://search.yahoo.com/search?q=site%3Adcard.tw%20%22Gaggia%20Magenta%20Prestige%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-08-04T00:00:00+08:00"
+        },
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Gaggia Magenta Prestige\" (problem OR issue OR defect OR negative review)",
+          "searchUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22Gaggia%20Magenta%20Prestige%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-08-04T00:00:00+08:00"
+        }
+      ],
+      "evidence": [],
+      "rejectedCandidates": []
+    },
+    {
+      "id": "coffee-jura-e8-15646",
+      "category": "coffee",
+      "brand": "JURA",
+      "model": "E8 15646",
+      "name": "JURA E8 Chrome (NAC) 全自動咖啡機",
+      "identity": {
+        "canonicalModel": "E8 15646",
+        "lookupLabel": "JURA E8 15646",
+        "aliases": [
+          "JURA E8 15646"
+        ],
+        "evidenceUrl": "https://24h.pchome.com.tw/prod/DMAT3G-A900JFELW"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "status": "completed",
+        "decision": "no_common_issue",
+        "reviewedAt": "2026-08-04",
+        "checkedPlatforms": [
+          "Dcard",
+          "Reddit"
+        ],
+        "queries": [
+          {
+            "platform": "Dcard",
+            "targetHost": "dcard.tw",
+            "query": "site:dcard.tw \"JURA E8 15646\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Adcard.tw%20%22JURA%20E8%2015646%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)"
+          },
+          {
+            "platform": "Reddit",
+            "targetHost": "reddit.com",
+            "query": "site:reddit.com \"JURA E8 15646\" (problem OR issue OR defect OR negative review)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22JURA%20E8%2015646%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)"
+          }
+        ],
+        "candidateDisposition": "E8 15646：以完整 article number 重跑 Dcard 與 Reddit，沒有通過型號邊界的原頁候選。",
+        "representativeSources": [],
+        "candidateReviews": [],
+        "reviewerNote": "E8 15646 已用完整台灣 exact model 人工覆核兩站，未混入其他世代 E8。",
+        "attestation": "manual_cross_site_search_reviewed_no_candidate"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-08-04",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Dcard",
+            "query": "site:dcard.tw \"JURA E8 15646\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Adcard.tw%20%22JURA%20E8%2015646%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "dcard.tw"
+          },
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"JURA E8 15646\" (problem OR issue OR defect OR negative review)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22JURA%20E8%2015646%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+            "targetHost": "reddit.com"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "Dcard",
+          "query": "site:dcard.tw \"JURA E8 15646\" (災情 OR 問題 OR 故障 OR 負評)",
+          "searchUrl": "https://search.yahoo.com/search?q=site%3Adcard.tw%20%22JURA%20E8%2015646%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-08-04T00:00:00+08:00"
+        },
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"JURA E8 15646\" (problem OR issue OR defect OR negative review)",
+          "searchUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22JURA%20E8%2015646%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-08-04T00:00:00+08:00"
+        }
+      ],
+      "evidence": [],
+      "rejectedCandidates": []
+    },
+    {
+      "id": "coffee-jura-ena-4-15344",
+      "category": "coffee",
+      "brand": "JURA",
+      "model": "ENA 4 15344",
+      "name": "JURA ENA 4 Full Metropolitan Black (EA) 全自動咖啡機",
+      "identity": {
+        "canonicalModel": "ENA 4 15344",
+        "lookupLabel": "JURA ENA 4 15344",
+        "aliases": [
+          "JURA ENA 4 15344"
+        ],
+        "evidenceUrl": "https://24h.pchome.com.tw/prod/DMAT00-A900BQG97"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "status": "completed",
+        "decision": "no_common_issue",
+        "reviewedAt": "2026-08-04",
+        "checkedPlatforms": [
+          "Dcard",
+          "Reddit"
+        ],
+        "queries": [
+          {
+            "platform": "Dcard",
+            "targetHost": "dcard.tw",
+            "query": "site:dcard.tw \"JURA ENA 4 15344\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Adcard.tw%20%22JURA%20ENA%204%2015344%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)"
+          },
+          {
+            "platform": "Reddit",
+            "targetHost": "reddit.com",
+            "query": "site:reddit.com \"JURA ENA 4 15344\" (problem OR issue OR defect OR negative review)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22JURA%20ENA%204%2015344%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)"
+          }
+        ],
+        "candidateDisposition": "ENA 4 15344：以完整 article number 重跑 Dcard 與 Reddit，沒有通過型號邊界的原頁候選。",
+        "representativeSources": [],
+        "candidateReviews": [],
+        "reviewerNote": "ENA 4 15344 已用完整台灣 exact model 人工覆核兩站，未混入其他 ENA 4 版本。",
+        "attestation": "manual_cross_site_search_reviewed_no_candidate"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-08-04",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Dcard",
+            "query": "site:dcard.tw \"JURA ENA 4 15344\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Adcard.tw%20%22JURA%20ENA%204%2015344%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "dcard.tw"
+          },
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"JURA ENA 4 15344\" (problem OR issue OR defect OR negative review)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22JURA%20ENA%204%2015344%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+            "targetHost": "reddit.com"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "Dcard",
+          "query": "site:dcard.tw \"JURA ENA 4 15344\" (災情 OR 問題 OR 故障 OR 負評)",
+          "searchUrl": "https://search.yahoo.com/search?q=site%3Adcard.tw%20%22JURA%20ENA%204%2015344%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-08-04T00:00:00+08:00"
+        },
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"JURA ENA 4 15344\" (problem OR issue OR defect OR negative review)",
+          "searchUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22JURA%20ENA%204%2015344%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-08-04T00:00:00+08:00"
+        }
+      ],
+      "evidence": [],
+      "rejectedCandidates": []
+    },
+    {
+      "id": "coffee-miele-cm5310",
+      "category": "coffee",
+      "brand": "Miele",
+      "model": "CM5310",
+      "name": "Miele CM5310 獨立式全自動咖啡機",
+      "identity": {
+        "canonicalModel": "CM5310",
+        "lookupLabel": "Miele CM5310",
+        "aliases": [
+          "Miele CM5310"
+        ],
+        "evidenceUrl": "https://miele.kenk.com.tw/product/coffee/no.cm5310/%E7%8D%A8%E7%AB%8B%E5%BC%8F%E5%85%A8%E8%87%AA%E5%8B%95%E5%92%96%E5%95%A1%E6%A9%9F"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "status": "completed",
+        "decision": "no_common_issue",
+        "reviewedAt": "2026-08-04",
+        "checkedPlatforms": [
+          "Dcard",
+          "Reddit"
+        ],
+        "queries": [
+          {
+            "platform": "Dcard",
+            "targetHost": "dcard.tw",
+            "query": "site:dcard.tw \"Miele CM5310\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Adcard.tw%20%22Miele%20CM5310%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)"
+          },
+          {
+            "platform": "Reddit",
+            "targetHost": "reddit.com",
+            "query": "site:reddit.com \"Miele CM5310\" (problem OR issue OR defect OR negative review)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22Miele%20CM5310%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)"
+          }
+        ],
+        "candidateDisposition": "CM5310：已開啟 Dcard 與 Reddit 兩個原頁；一頁為正向心得，另一頁只有一位不出水回報。",
+        "representativeSources": [
+          {
+            "platform": "Dcard",
+            "title": "Miele CM5310｜終於入手我的夢想咖啡機",
+            "url": "https://www.dcard.tw/f/mood/p/260779964"
+          },
+          {
+            "platform": "Reddit",
+            "title": "Miele CM5310 issue - no water",
+            "url": "https://www.reddit.com/r/superautomatic/comments/1r5f1cg/miele_cm5310_issue_no_water/"
+          }
+        ],
+        "candidateReviews": [
+          {
+            "platform": "Dcard",
+            "url": "https://www.dcard.tw/f/mood/p/260779964",
+            "title": "Miele CM5310｜終於入手我的夢想咖啡機",
+            "sourceExcerpt": "作者表示使用約半年後整體滿意，並分享奶泡、清潔、雙杯與磨豆聲等實際感受。",
+            "independentAuthors": 1,
+            "specificReason": "此頁是一位機主的正向使用心得，沒有回報可歸納為集中故障的同一問題，不能以型號命中本身計入負評人數。",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-08-04"
+          },
+          {
+            "platform": "Reddit",
+            "url": "https://www.reddit.com/r/superautomatic/comments/1r5f1cg/miele_cm5310_issue_no_water/",
+            "title": "Miele CM5310 issue - no water",
+            "sourceExcerpt": "一位機主回報清洗啟動與沖煮時不出水，回覆推測沖煮器或壓力閥阻塞。",
+            "independentAuthors": 1,
+            "specificReason": "原頁只有一位第一人稱故障回報，其他留言是推測與維修建議；即使與 Dcard 型號頁合併，也沒有跨站六位同問題使用者。",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-08-04"
+          }
+        ],
+        "reviewerNote": "CM5310 已人工覆核兩站原頁與作者，沒有六位使用者回報相同故障。",
+        "attestation": "manual_original_pages_reviewed"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-08-04",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Dcard",
+            "query": "site:dcard.tw \"Miele CM5310\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Adcard.tw%20%22Miele%20CM5310%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "dcard.tw"
+          },
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"Miele CM5310\" (problem OR issue OR defect OR negative review)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22Miele%20CM5310%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+            "targetHost": "reddit.com"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "Dcard",
+          "query": "site:dcard.tw \"Miele CM5310\" (災情 OR 問題 OR 故障 OR 負評)",
+          "searchUrl": "https://search.yahoo.com/search?q=site%3Adcard.tw%20%22Miele%20CM5310%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "result": "candidates_unverified_by_search_only",
+          "resultCount": 1,
+          "candidateUrls": [
+            "https://www.dcard.tw/f/mood/p/260779964"
+          ],
+          "candidates": [
+            {
+              "url": "https://www.dcard.tw/f/mood/p/260779964",
+              "title": "Miele CM5310｜終於入手我的夢想咖啡機"
+            }
+          ],
+          "inspectedAt": "2026-08-04T00:00:00+08:00"
+        },
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Miele CM5310\" (problem OR issue OR defect OR negative review)",
+          "searchUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22Miele%20CM5310%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "result": "candidates_unverified_by_search_only",
+          "resultCount": 1,
+          "candidateUrls": [
+            "https://www.reddit.com/r/superautomatic/comments/1r5f1cg/miele_cm5310_issue_no_water/"
+          ],
+          "candidates": [
+            {
+              "url": "https://www.reddit.com/r/superautomatic/comments/1r5f1cg/miele_cm5310_issue_no_water/",
+              "title": "Miele CM5310 issue - no water"
+            }
+          ],
+          "inspectedAt": "2026-08-04T00:00:00+08:00"
+        }
+      ],
+      "evidence": [],
+      "rejectedCandidates": [
+        {
+          "platform": "Dcard",
+          "url": "https://www.dcard.tw/f/mood/p/260779964",
+          "title": "Miele CM5310｜終於入手我的夢想咖啡機",
+          "sourceExcerpt": "作者表示使用約半年後整體滿意，並分享奶泡、清潔、雙杯與磨豆聲等實際感受。",
+          "independentAuthors": 1,
+          "specificReason": "此頁是一位機主的正向使用心得，沒有回報可歸納為集中故障的同一問題，不能以型號命中本身計入負評人數。",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-04",
+          "reason": "此頁是一位機主的正向使用心得，沒有回報可歸納為集中故障的同一問題，不能以型號命中本身計入負評人數。"
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/superautomatic/comments/1r5f1cg/miele_cm5310_issue_no_water/",
+          "title": "Miele CM5310 issue - no water",
+          "sourceExcerpt": "一位機主回報清洗啟動與沖煮時不出水，回覆推測沖煮器或壓力閥阻塞。",
+          "independentAuthors": 1,
+          "specificReason": "原頁只有一位第一人稱故障回報，其他留言是推測與維修建議；即使與 Dcard 型號頁合併，也沒有跨站六位同問題使用者。",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-04",
+          "reason": "原頁只有一位第一人稱故障回報，其他留言是推測與維修建議；即使與 Dcard 型號頁合併，也沒有跨站六位同問題使用者。"
+        }
+      ]
+    },
+    {
+      "id": "coffee-electrolux-e5ec1-51st",
+      "category": "coffee",
+      "brand": "Electrolux",
+      "model": "E5EC1-51ST",
+      "name": "1公升極致美味500 半自動義式咖啡機（不鏽鋼觸控式）",
+      "identity": {
+        "canonicalModel": "E5EC1-51ST",
+        "lookupLabel": "Electrolux E5EC1-51ST",
+        "aliases": [
+          "Electrolux E5EC1-51ST"
+        ],
+        "evidenceUrl": "https://www.electrolux.com.tw/appliances/coffee-machines/e5ec1-51st/"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "status": "completed",
+        "decision": "no_common_issue",
+        "reviewedAt": "2026-08-04",
+        "checkedPlatforms": [
+          "Dcard",
+          "Reddit"
+        ],
+        "queries": [
+          {
+            "platform": "Dcard",
+            "targetHost": "dcard.tw",
+            "query": "site:dcard.tw \"Electrolux E5EC1-51ST\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Adcard.tw%20%22Electrolux%20E5EC1-51ST%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)"
+          },
+          {
+            "platform": "Reddit",
+            "targetHost": "reddit.com",
+            "query": "site:reddit.com \"Electrolux E5EC1-51ST\" (problem OR issue OR defect OR negative review)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22Electrolux%20E5EC1-51ST%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)"
+          }
+        ],
+        "candidateDisposition": "E5EC1-51ST：Dcard 與 Reddit exact-model 查詢均無通過型號邊界的原頁候選；不代表完全沒有負評。",
+        "representativeSources": [],
+        "candidateReviews": [],
+        "reviewerNote": "E5EC1-51ST 已逐一重跑兩站查詢並人工確認結果，未把 E5 系列其他型號混入。",
+        "attestation": "manual_cross_site_search_reviewed_no_candidate"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-08-04",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Dcard",
+            "query": "site:dcard.tw \"Electrolux E5EC1-51ST\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Adcard.tw%20%22Electrolux%20E5EC1-51ST%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "dcard.tw"
+          },
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"Electrolux E5EC1-51ST\" (problem OR issue OR defect OR negative review)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22Electrolux%20E5EC1-51ST%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+            "targetHost": "reddit.com"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "Dcard",
+          "query": "site:dcard.tw \"Electrolux E5EC1-51ST\" (災情 OR 問題 OR 故障 OR 負評)",
+          "searchUrl": "https://search.yahoo.com/search?q=site%3Adcard.tw%20%22Electrolux%20E5EC1-51ST%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-08-04T00:00:00+08:00"
+        },
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Electrolux E5EC1-51ST\" (problem OR issue OR defect OR negative review)",
+          "searchUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22Electrolux%20E5EC1-51ST%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-08-04T00:00:00+08:00"
+        }
+      ],
+      "evidence": [],
+      "rejectedCandidates": []
+    },
+    {
+      "id": "coffee-philips-ems5110-02",
+      "category": "coffee",
+      "brand": "Philips",
+      "model": "EMS5110/02",
+      "name": "Saeco 半自動義式咖啡機",
+      "identity": {
+        "canonicalModel": "EMS5110/02",
+        "lookupLabel": "Philips EMS5110/02",
+        "aliases": [
+          "Philips EMS5110/02",
+          "Philips EMS5110"
+        ],
+        "evidenceUrl": "https://tw.buy.yahoo.com/gdsale/Philips-%E9%A3%9B%E5%88%A9%E6%B5%A6-Saeco%E5%8D%8A%E8%87%AA%E5%8B%95%E7%BE%A9%E5%BC%8F%E5%92%96%E5%95%A1%E6%A9%9F-EMS5110-02-11322933.html"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "status": "completed",
+        "decision": "no_common_issue",
+        "reviewedAt": "2026-08-04",
+        "checkedPlatforms": [
+          "Dcard",
+          "Reddit"
+        ],
+        "queries": [
+          {
+            "platform": "Dcard",
+            "targetHost": "dcard.tw",
+            "query": "site:dcard.tw \"Philips EMS5110/02\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Adcard.tw%20%22Philips%20EMS5110%2F02%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)"
+          },
+          {
+            "platform": "Reddit",
+            "targetHost": "reddit.com",
+            "query": "site:reddit.com \"Philips EMS5110/02\" (problem OR issue OR defect OR negative review)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22Philips%20EMS5110%2F02%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)"
+          }
+        ],
+        "candidateDisposition": "EMS5110/02：Dcard 與 Reddit exact-model 查詢均無通過型號邊界的原頁候選；不代表完全沒有負評。",
+        "representativeSources": [],
+        "candidateReviews": [],
+        "reviewerNote": "EMS5110/02 已逐一重跑兩站查詢並人工確認結果，未以通路評分代替第一人稱證據。",
+        "attestation": "manual_cross_site_search_reviewed_no_candidate"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-08-04",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Dcard",
+            "query": "site:dcard.tw \"Philips EMS5110/02\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Adcard.tw%20%22Philips%20EMS5110%2F02%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "dcard.tw"
+          },
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"Philips EMS5110/02\" (problem OR issue OR defect OR negative review)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22Philips%20EMS5110%2F02%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+            "targetHost": "reddit.com"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "Dcard",
+          "query": "site:dcard.tw \"Philips EMS5110/02\" (災情 OR 問題 OR 故障 OR 負評)",
+          "searchUrl": "https://search.yahoo.com/search?q=site%3Adcard.tw%20%22Philips%20EMS5110%2F02%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-08-04T00:00:00+08:00"
+        },
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Philips EMS5110/02\" (problem OR issue OR defect OR negative review)",
+          "searchUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22Philips%20EMS5110%2F02%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-08-04T00:00:00+08:00"
+        }
+      ],
+      "evidence": [],
+      "rejectedCandidates": []
+    },
+    {
+      "id": "coffee-delonghi-em450-m",
+      "category": "coffee",
+      "brand": "DeLonghi",
+      "model": "EM450.M",
+      "name": "啡行家半自動義式咖啡機",
+      "identity": {
+        "canonicalModel": "EM450.M",
+        "lookupLabel": "DeLonghi EM450.M",
+        "aliases": [
+          "DeLonghi EM450.M",
+          "DeLonghi EM450"
+        ],
+        "evidenceUrl": "https://www.stilusa.com.tw/zh-TW/products/em450m"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "status": "completed",
+        "decision": "no_common_issue",
+        "reviewedAt": "2026-08-04",
+        "checkedPlatforms": [
+          "Dcard",
+          "Reddit"
+        ],
+        "queries": [
+          {
+            "platform": "Dcard",
+            "targetHost": "dcard.tw",
+            "query": "site:dcard.tw \"DeLonghi EM450.M\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Adcard.tw%20%22DeLonghi%20EM450.M%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)"
+          },
+          {
+            "platform": "Reddit",
+            "targetHost": "reddit.com",
+            "query": "site:reddit.com \"DeLonghi EM450.M\" (problem OR issue OR defect OR negative review)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22DeLonghi%20EM450.M%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)"
+          }
+        ],
+        "candidateDisposition": "EM450.M：已開啟 Reddit 原頁並核對跨貼，內容只有同一作者的一項咖啡包使用經驗。",
+        "representativeSources": [
+          {
+            "platform": "Reddit",
+            "title": "DeLonghi EM450.M bad experience",
+            "url": "https://www.reddit.com/r/DeLonghi/comments/1t6c7h8/my_delonghi_linea_classic_em450m_bad_experience/"
+          }
+        ],
+        "candidateReviews": [
+          {
+            "platform": "Reddit",
+            "url": "https://www.reddit.com/r/DeLonghi/comments/1t6c7h8/my_delonghi_linea_classic_em450m_bad_experience/",
+            "title": "DeLonghi EM450.M bad experience",
+            "sourceExcerpt": "一位作者表示使用 E.S.E. 咖啡包時流速過快、口感偏水；另一 subreddit 為同作者跨貼。",
+            "independentAuthors": 1,
+            "specificReason": "同內容在兩個 Reddit subreddit 跨貼仍只算一位作者與一個網站，且問題限定咖啡包使用，未達六位與兩個獨立原始網站。",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-08-04"
+          }
+        ],
+        "reviewerNote": "EM450.M 已人工去除同作者跨 subreddit 轉貼，Dcard 亦無第二站同問題證據。",
+        "attestation": "manual_original_pages_reviewed"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-08-04",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Dcard",
+            "query": "site:dcard.tw \"DeLonghi EM450.M\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Adcard.tw%20%22DeLonghi%20EM450.M%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "dcard.tw"
+          },
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"DeLonghi EM450.M\" (problem OR issue OR defect OR negative review)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22DeLonghi%20EM450.M%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+            "targetHost": "reddit.com"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "Dcard",
+          "query": "site:dcard.tw \"DeLonghi EM450.M\" (災情 OR 問題 OR 故障 OR 負評)",
+          "searchUrl": "https://search.yahoo.com/search?q=site%3Adcard.tw%20%22DeLonghi%20EM450.M%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-08-04T00:00:00+08:00"
+        },
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"DeLonghi EM450.M\" (problem OR issue OR defect OR negative review)",
+          "searchUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22DeLonghi%20EM450.M%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "result": "candidates_unverified_by_search_only",
+          "resultCount": 1,
+          "candidateUrls": [
+            "https://www.reddit.com/r/DeLonghi/comments/1t6c7h8/my_delonghi_linea_classic_em450m_bad_experience/"
+          ],
+          "candidates": [
+            {
+              "url": "https://www.reddit.com/r/DeLonghi/comments/1t6c7h8/my_delonghi_linea_classic_em450m_bad_experience/",
+              "title": "DeLonghi EM450.M bad experience"
+            }
+          ],
+          "inspectedAt": "2026-08-04T00:00:00+08:00"
+        }
+      ],
+      "evidence": [],
+      "rejectedCandidates": [
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/DeLonghi/comments/1t6c7h8/my_delonghi_linea_classic_em450m_bad_experience/",
+          "title": "DeLonghi EM450.M bad experience",
+          "sourceExcerpt": "一位作者表示使用 E.S.E. 咖啡包時流速過快、口感偏水；另一 subreddit 為同作者跨貼。",
+          "independentAuthors": 1,
+          "specificReason": "同內容在兩個 Reddit subreddit 跨貼仍只算一位作者與一個網站，且問題限定咖啡包使用，未達六位與兩個獨立原始網站。",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-04",
+          "reason": "同內容在兩個 Reddit subreddit 跨貼仍只算一位作者與一個網站，且問題限定咖啡包使用，未達六位與兩個獨立原始網站。"
+        }
+      ]
+    },
+    {
+      "id": "coffee-philips-psa3218-10",
+      "category": "coffee",
+      "brand": "Philips",
+      "model": "PSA3218/10",
+      "name": "半自動研磨義式咖啡機",
+      "identity": {
+        "canonicalModel": "PSA3218/10",
+        "lookupLabel": "Philips PSA3218/10",
+        "aliases": [
+          "Philips PSA3218/10",
+          "Philips PSA3218"
+        ],
+        "evidenceUrl": "https://www.momoshop.com.tw/product/12830517"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "status": "completed",
+        "decision": "no_common_issue",
+        "reviewedAt": "2026-08-04",
+        "checkedPlatforms": [
+          "Dcard",
+          "Reddit"
+        ],
+        "queries": [
+          {
+            "platform": "Dcard",
+            "targetHost": "dcard.tw",
+            "query": "site:dcard.tw \"Philips PSA3218/10\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Adcard.tw%20%22Philips%20PSA3218%2F10%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)"
+          },
+          {
+            "platform": "Reddit",
+            "targetHost": "reddit.com",
+            "query": "site:reddit.com \"Philips PSA3218/10\" (problem OR issue OR defect OR negative review)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22Philips%20PSA3218%2F10%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)"
+          }
+        ],
+        "candidateDisposition": "PSA3218/10：Dcard 候選是購買前請益，沒有第一人稱產品故障；Reddit 查無 exact-model 原頁。",
+        "representativeSources": [
+          {
+            "platform": "Dcard",
+            "title": "PSA3218/10｜半自動咖啡機推薦請益",
+            "url": "https://www.dcard.tw/f/coffee/p/259720971"
+          }
+        ],
+        "candidateReviews": [
+          {
+            "platform": "Dcard",
+            "url": "https://www.dcard.tw/f/coffee/p/259720971",
+            "title": "PSA3218/10｜半自動咖啡機推薦請益",
+            "sourceExcerpt": "發文者在 PSA3218/10 與另一機型之間詢問優缺點，尚未陳述購入後的第一人稱故障。",
+            "independentAuthors": 0,
+            "specificReason": "頁面是購買前請益而非使用者災情，沒有可計入的第一人稱同型號問題回報，也查無 Reddit 的 exact-model 原頁候選。",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-08-04"
+          }
+        ],
+        "reviewerNote": "PSA3218/10 已人工覆核兩站，購買問題未被誤算為產品災情。",
+        "attestation": "manual_original_pages_reviewed"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-08-04",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Dcard",
+            "query": "site:dcard.tw \"Philips PSA3218/10\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Adcard.tw%20%22Philips%20PSA3218%2F10%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "dcard.tw"
+          },
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"Philips PSA3218/10\" (problem OR issue OR defect OR negative review)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22Philips%20PSA3218%2F10%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+            "targetHost": "reddit.com"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "Dcard",
+          "query": "site:dcard.tw \"Philips PSA3218/10\" (災情 OR 問題 OR 故障 OR 負評)",
+          "searchUrl": "https://search.yahoo.com/search?q=site%3Adcard.tw%20%22Philips%20PSA3218%2F10%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "result": "candidates_unverified_by_search_only",
+          "resultCount": 1,
+          "candidateUrls": [
+            "https://www.dcard.tw/f/coffee/p/259720971"
+          ],
+          "candidates": [
+            {
+              "url": "https://www.dcard.tw/f/coffee/p/259720971",
+              "title": "PSA3218/10｜半自動咖啡機推薦請益"
+            }
+          ],
+          "inspectedAt": "2026-08-04T00:00:00+08:00"
+        },
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Philips PSA3218/10\" (problem OR issue OR defect OR negative review)",
+          "searchUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22Philips%20PSA3218%2F10%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-08-04T00:00:00+08:00"
+        }
+      ],
+      "evidence": [],
+      "rejectedCandidates": [
+        {
+          "platform": "Dcard",
+          "url": "https://www.dcard.tw/f/coffee/p/259720971",
+          "title": "PSA3218/10｜半自動咖啡機推薦請益",
+          "sourceExcerpt": "發文者在 PSA3218/10 與另一機型之間詢問優缺點，尚未陳述購入後的第一人稱故障。",
+          "independentAuthors": 0,
+          "specificReason": "頁面是購買前請益而非使用者災情，沒有可計入的第一人稱同型號問題回報，也查無 Reddit 的 exact-model 原頁候選。",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-04",
+          "reason": "頁面是購買前請益而非使用者災情，沒有可計入的第一人稱同型號問題回報，也查無 Reddit 的 exact-model 原頁候選。"
+        }
+      ]
+    },
+    {
+      "id": "coffee-breville-bes450xl",
+      "category": "coffee",
+      "brand": "Breville",
+      "model": "BES450XL",
+      "name": "the Bambino 半自動義式咖啡機",
+      "identity": {
+        "canonicalModel": "BES450XL",
+        "lookupLabel": "Breville BES450XL",
+        "aliases": [
+          "Breville BES450XL"
+        ],
+        "evidenceUrl": "https://www.momoshop.com.tw/product/14547707"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "status": "completed",
+        "decision": "no_common_issue",
+        "reviewedAt": "2026-08-04",
+        "checkedPlatforms": [
+          "Dcard",
+          "Reddit"
+        ],
+        "queries": [
+          {
+            "platform": "Dcard",
+            "targetHost": "dcard.tw",
+            "query": "site:dcard.tw \"Breville BES450XL\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Adcard.tw%20%22Breville%20BES450XL%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)"
+          },
+          {
+            "platform": "Reddit",
+            "targetHost": "reddit.com",
+            "query": "site:reddit.com \"Breville BES450XL\" (problem OR issue OR defect OR negative review)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22Breville%20BES450XL%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)"
+          }
+        ],
+        "candidateDisposition": "BES450XL：Dcard 候選是壓力規格請益，沒有持有與故障陳述；Reddit 查無第二站原頁。",
+        "representativeSources": [
+          {
+            "platform": "Dcard",
+            "title": "Breville BES450XL 萃取壓力設計",
+            "url": "https://www.dcard.tw/f/coffee/p/261291466"
+          }
+        ],
+        "candidateReviews": [
+          {
+            "platform": "Dcard",
+            "url": "https://www.dcard.tw/f/coffee/p/261291466",
+            "title": "Breville BES450XL 萃取壓力設計",
+            "sourceExcerpt": "發文者詢問台灣版是否具 9 bar 過壓閥，內容沒有表示已持有或發生實際故障。",
+            "independentAuthors": 0,
+            "specificReason": "這是規格確認問題而非第一人稱使用故障，未提供購入與實際操作證據，也沒有跨 Reddit 的同型號同問題回報。",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-08-04"
+          }
+        ],
+        "reviewerNote": "BES450XL 已人工覆核兩站，規格提問未被計入第一人稱負評。",
+        "attestation": "manual_original_pages_reviewed"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-08-04",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Dcard",
+            "query": "site:dcard.tw \"Breville BES450XL\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Adcard.tw%20%22Breville%20BES450XL%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "dcard.tw"
+          },
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"Breville BES450XL\" (problem OR issue OR defect OR negative review)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22Breville%20BES450XL%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+            "targetHost": "reddit.com"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "Dcard",
+          "query": "site:dcard.tw \"Breville BES450XL\" (災情 OR 問題 OR 故障 OR 負評)",
+          "searchUrl": "https://search.yahoo.com/search?q=site%3Adcard.tw%20%22Breville%20BES450XL%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "result": "candidates_unverified_by_search_only",
+          "resultCount": 1,
+          "candidateUrls": [
+            "https://www.dcard.tw/f/coffee/p/261291466"
+          ],
+          "candidates": [
+            {
+              "url": "https://www.dcard.tw/f/coffee/p/261291466",
+              "title": "Breville BES450XL 萃取壓力設計"
+            }
+          ],
+          "inspectedAt": "2026-08-04T00:00:00+08:00"
+        },
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Breville BES450XL\" (problem OR issue OR defect OR negative review)",
+          "searchUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22Breville%20BES450XL%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-08-04T00:00:00+08:00"
+        }
+      ],
+      "evidence": [],
+      "rejectedCandidates": [
+        {
+          "platform": "Dcard",
+          "url": "https://www.dcard.tw/f/coffee/p/261291466",
+          "title": "Breville BES450XL 萃取壓力設計",
+          "sourceExcerpt": "發文者詢問台灣版是否具 9 bar 過壓閥，內容沒有表示已持有或發生實際故障。",
+          "independentAuthors": 0,
+          "specificReason": "這是規格確認問題而非第一人稱使用故障，未提供購入與實際操作證據，也沒有跨 Reddit 的同型號同問題回報。",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-04",
+          "reason": "這是規格確認問題而非第一人稱使用故障，未提供購入與實際操作證據，也沒有跨 Reddit 的同型號同問題回報。"
+        }
+      ]
+    },
+    {
+      "id": "coffee-philips-ess5228-02",
+      "category": "coffee",
+      "brand": "Philips",
+      "model": "ESS5228/02",
+      "name": "Saeco 半自動雙研磨義式咖啡機",
+      "identity": {
+        "canonicalModel": "ESS5228/02",
+        "lookupLabel": "Philips ESS5228/02",
+        "aliases": [
+          "Philips ESS5228/02",
+          "Philips ESS5228"
+        ],
+        "evidenceUrl": "https://24h.pchome.com.tw/prod/DMAC4W-A900H8QLE"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "status": "completed",
+        "decision": "no_common_issue",
+        "reviewedAt": "2026-08-04",
+        "checkedPlatforms": [
+          "Dcard",
+          "Reddit"
+        ],
+        "queries": [
+          {
+            "platform": "Dcard",
+            "targetHost": "dcard.tw",
+            "query": "site:dcard.tw \"Philips ESS5228/02\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Adcard.tw%20%22Philips%20ESS5228%2F02%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)"
+          },
+          {
+            "platform": "Reddit",
+            "targetHost": "reddit.com",
+            "query": "site:reddit.com \"Philips ESS5228/02\" (problem OR issue OR defect OR negative review)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22Philips%20ESS5228%2F02%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)"
+          }
+        ],
+        "candidateDisposition": "ESS5228/02：Dcard 與 Reddit exact-model 查詢均無通過型號邊界的原頁候選；不代表完全沒有負評。",
+        "representativeSources": [],
+        "candidateReviews": [],
+        "reviewerNote": "ESS5228/02 已逐一重跑兩站查詢並人工確認結果，未把不同型號系列心得混入。",
+        "attestation": "manual_cross_site_search_reviewed_no_candidate"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-08-04",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Dcard",
+            "query": "site:dcard.tw \"Philips ESS5228/02\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Adcard.tw%20%22Philips%20ESS5228%2F02%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "dcard.tw"
+          },
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"Philips ESS5228/02\" (problem OR issue OR defect OR negative review)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22Philips%20ESS5228%2F02%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+            "targetHost": "reddit.com"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "Dcard",
+          "query": "site:dcard.tw \"Philips ESS5228/02\" (災情 OR 問題 OR 故障 OR 負評)",
+          "searchUrl": "https://search.yahoo.com/search?q=site%3Adcard.tw%20%22Philips%20ESS5228%2F02%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-08-04T00:00:00+08:00"
+        },
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Philips ESS5228/02\" (problem OR issue OR defect OR negative review)",
+          "searchUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22Philips%20ESS5228%2F02%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-08-04T00:00:00+08:00"
+        }
+      ],
+      "evidence": [],
+      "rejectedCandidates": []
+    },
+    {
+      "id": "coffee-electrolux-e7ec1-610p",
+      "category": "coffee",
+      "brand": "Electrolux",
+      "model": "E7EC1-610P",
+      "name": "3公升極致美味700 半自動義式咖啡機（珍珠黑）",
+      "identity": {
+        "canonicalModel": "E7EC1-610P",
+        "lookupLabel": "Electrolux E7EC1-610P",
+        "aliases": [
+          "Electrolux E7EC1-610P"
+        ],
+        "evidenceUrl": "https://www.electrolux.com.tw/appliances/coffee-machines/e7ec1-610p/"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "status": "completed",
+        "decision": "no_common_issue",
+        "reviewedAt": "2026-08-04",
+        "checkedPlatforms": [
+          "Dcard",
+          "Reddit"
+        ],
+        "queries": [
+          {
+            "platform": "Dcard",
+            "targetHost": "dcard.tw",
+            "query": "site:dcard.tw \"Electrolux E7EC1-610P\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Adcard.tw%20%22Electrolux%20E7EC1-610P%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)"
+          },
+          {
+            "platform": "Reddit",
+            "targetHost": "reddit.com",
+            "query": "site:reddit.com \"Electrolux E7EC1-610P\" (problem OR issue OR defect OR negative review)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22Electrolux%20E7EC1-610P%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)"
+          }
+        ],
+        "candidateDisposition": "E7EC1-610P：Dcard 候選是推薦彙整而非原始災情，Reddit 查無 exact-model 原頁。",
+        "representativeSources": [
+          {
+            "platform": "Dcard",
+            "title": "E7EC1-610P｜2026 咖啡機推薦整理",
+            "url": "https://www.dcard.tw/%40u_u_blue/post/261081507"
+          }
+        ],
+        "candidateReviews": [
+          {
+            "platform": "Dcard",
+            "url": "https://www.dcard.tw/%40u_u_blue/post/261081507",
+            "title": "E7EC1-610P｜2026 咖啡機推薦整理",
+            "sourceExcerpt": "文章以推薦清單介紹溫控、功率和水箱，沒有列出可辨識作者與原始連結的逐位負評。",
+            "independentAuthors": 0,
+            "specificReason": "此頁是單一作者的推薦彙整，不是同型號原始災情頁；轉述內容不可代替第一人稱證據，且 Reddit 查無候選。",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-08-04"
+          }
+        ],
+        "reviewerNote": "E7EC1-610P 已人工覆核兩站，沒有把無作者原連結的轉述列入人數。",
+        "attestation": "manual_original_pages_reviewed"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-08-04",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Dcard",
+            "query": "site:dcard.tw \"Electrolux E7EC1-610P\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Adcard.tw%20%22Electrolux%20E7EC1-610P%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "dcard.tw"
+          },
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"Electrolux E7EC1-610P\" (problem OR issue OR defect OR negative review)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22Electrolux%20E7EC1-610P%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+            "targetHost": "reddit.com"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "Dcard",
+          "query": "site:dcard.tw \"Electrolux E7EC1-610P\" (災情 OR 問題 OR 故障 OR 負評)",
+          "searchUrl": "https://search.yahoo.com/search?q=site%3Adcard.tw%20%22Electrolux%20E7EC1-610P%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "result": "candidates_unverified_by_search_only",
+          "resultCount": 1,
+          "candidateUrls": [
+            "https://www.dcard.tw/%40u_u_blue/post/261081507"
+          ],
+          "candidates": [
+            {
+              "url": "https://www.dcard.tw/%40u_u_blue/post/261081507",
+              "title": "E7EC1-610P｜2026 咖啡機推薦整理"
+            }
+          ],
+          "inspectedAt": "2026-08-04T00:00:00+08:00"
+        },
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Electrolux E7EC1-610P\" (problem OR issue OR defect OR negative review)",
+          "searchUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22Electrolux%20E7EC1-610P%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-08-04T00:00:00+08:00"
+        }
+      ],
+      "evidence": [],
+      "rejectedCandidates": [
+        {
+          "platform": "Dcard",
+          "url": "https://www.dcard.tw/%40u_u_blue/post/261081507",
+          "title": "E7EC1-610P｜2026 咖啡機推薦整理",
+          "sourceExcerpt": "文章以推薦清單介紹溫控、功率和水箱，沒有列出可辨識作者與原始連結的逐位負評。",
+          "independentAuthors": 0,
+          "specificReason": "此頁是單一作者的推薦彙整，不是同型號原始災情頁；轉述內容不可代替第一人稱證據，且 Reddit 查無候選。",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-04",
+          "reason": "此頁是單一作者的推薦彙整，不是同型號原始災情頁；轉述內容不可代替第一人稱證據，且 Reddit 查無候選。"
+        }
+      ]
+    },
+    {
+      "id": "coffee-giaretti-gl-5700",
+      "category": "coffee",
+      "brand": "Giaretti",
+      "model": "GL-5700",
+      "name": "Barista EX 系列經典義式濃縮咖啡機（爵士灰）",
+      "identity": {
+        "canonicalModel": "GL-5700",
+        "lookupLabel": "Giaretti GL-5700",
+        "aliases": [
+          "Giaretti GL-5700"
+        ],
+        "evidenceUrl": "https://24h.pchome.com.tw/prod/DMAT09-A900IXUVD"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "status": "completed",
+        "decision": "no_common_issue",
+        "reviewedAt": "2026-08-04",
+        "checkedPlatforms": [
+          "Dcard",
+          "Reddit"
+        ],
+        "queries": [
+          {
+            "platform": "Dcard",
+            "targetHost": "dcard.tw",
+            "query": "site:dcard.tw \"Giaretti GL-5700\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Adcard.tw%20%22Giaretti%20GL-5700%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)"
+          },
+          {
+            "platform": "Reddit",
+            "targetHost": "reddit.com",
+            "query": "site:reddit.com \"Giaretti GL-5700\" (problem OR issue OR defect OR negative review)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22Giaretti%20GL-5700%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)"
+          }
+        ],
+        "candidateDisposition": "GL-5700：Dcard 與 Reddit exact-model 查詢均無通過型號邊界的原頁候選；不代表完全沒有負評。",
+        "representativeSources": [],
+        "candidateReviews": [],
+        "reviewerNote": "GL-5700 已逐一重跑兩站查詢並人工確認結果，未把配件或 GL 系列近似型號混入。",
+        "attestation": "manual_cross_site_search_reviewed_no_candidate"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-08-04",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Dcard",
+            "query": "site:dcard.tw \"Giaretti GL-5700\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Adcard.tw%20%22Giaretti%20GL-5700%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "dcard.tw"
+          },
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"Giaretti GL-5700\" (problem OR issue OR defect OR negative review)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22Giaretti%20GL-5700%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+            "targetHost": "reddit.com"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "Dcard",
+          "query": "site:dcard.tw \"Giaretti GL-5700\" (災情 OR 問題 OR 故障 OR 負評)",
+          "searchUrl": "https://search.yahoo.com/search?q=site%3Adcard.tw%20%22Giaretti%20GL-5700%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-08-04T00:00:00+08:00"
+        },
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Giaretti GL-5700\" (problem OR issue OR defect OR negative review)",
+          "searchUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22Giaretti%20GL-5700%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-08-04T00:00:00+08:00"
+        }
+      ],
+      "evidence": [],
+      "rejectedCandidates": []
+    },
+    {
+      "id": "coffee-breville-bes876xl",
+      "category": "coffee",
+      "brand": "Breville",
+      "model": "BES876XL",
+      "name": "the Barista Express Impress 專業級複合式研磨義式咖啡機",
+      "identity": {
+        "canonicalModel": "BES876XL",
+        "lookupLabel": "Breville BES876XL",
+        "aliases": [
+          "Breville BES876XL"
+        ],
+        "evidenceUrl": "https://www.momoshop.com.tw/product/14547697"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "status": "completed",
+        "decision": "no_common_issue",
+        "reviewedAt": "2026-08-04",
+        "checkedPlatforms": [
+          "Dcard",
+          "Reddit"
+        ],
+        "queries": [
+          {
+            "platform": "Dcard",
+            "targetHost": "dcard.tw",
+            "query": "site:dcard.tw \"Breville BES876XL\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Adcard.tw%20%22Breville%20BES876XL%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)"
+          },
+          {
+            "platform": "Reddit",
+            "targetHost": "reddit.com",
+            "query": "site:reddit.com \"Breville BES876XL\" (problem OR issue OR defect OR negative review)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22Breville%20BES876XL%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)"
+          }
+        ],
+        "candidateDisposition": "BES876XL：Dcard 與 Reddit exact-model 查詢均無通過型號邊界的原頁候選；不代表完全沒有負評。",
+        "representativeSources": [],
+        "candidateReviews": [],
+        "reviewerNote": "BES876XL 已逐一重跑兩站查詢並人工確認結果，未把其他 Barista 系列型號混入。",
+        "attestation": "manual_cross_site_search_reviewed_no_candidate"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-08-04",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Dcard",
+            "query": "site:dcard.tw \"Breville BES876XL\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Adcard.tw%20%22Breville%20BES876XL%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "dcard.tw"
+          },
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"Breville BES876XL\" (problem OR issue OR defect OR negative review)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22Breville%20BES876XL%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+            "targetHost": "reddit.com"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "Dcard",
+          "query": "site:dcard.tw \"Breville BES876XL\" (災情 OR 問題 OR 故障 OR 負評)",
+          "searchUrl": "https://search.yahoo.com/search?q=site%3Adcard.tw%20%22Breville%20BES876XL%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-08-04T00:00:00+08:00"
+        },
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Breville BES876XL\" (problem OR issue OR defect OR negative review)",
+          "searchUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22Breville%20BES876XL%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-08-04T00:00:00+08:00"
+        }
+      ],
+      "evidence": [],
+      "rejectedCandidates": []
+    },
+    {
+      "id": "coffee-breville-bes878xl",
+      "category": "coffee",
+      "brand": "Breville",
+      "model": "BES878XL",
+      "name": "the Barista Pro 專業級複合式研磨義式咖啡機",
+      "identity": {
+        "canonicalModel": "BES878XL",
+        "lookupLabel": "Breville BES878XL",
+        "aliases": [
+          "Breville BES878XL"
+        ],
+        "evidenceUrl": "https://www.momoshop.com.tw/product/14956869"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "status": "completed",
+        "decision": "no_common_issue",
+        "reviewedAt": "2026-08-04",
+        "checkedPlatforms": [
+          "Dcard",
+          "Reddit"
+        ],
+        "queries": [
+          {
+            "platform": "Dcard",
+            "targetHost": "dcard.tw",
+            "query": "site:dcard.tw \"Breville BES878XL\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Adcard.tw%20%22Breville%20BES878XL%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)"
+          },
+          {
+            "platform": "Reddit",
+            "targetHost": "reddit.com",
+            "query": "site:reddit.com \"Breville BES878XL\" (problem OR issue OR defect OR negative review)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22Breville%20BES878XL%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)"
+          }
+        ],
+        "candidateDisposition": "BES878XL：已開啟 Reddit 候選，內容是二手賣場型號辨識與詐騙風險而非機器故障。",
+        "representativeSources": [
+          {
+            "platform": "Reddit",
+            "title": "BES878XL｜Breville model identification help",
+            "url": "https://www.reddit.com/r/BrevilleCoffee/comments/1lcfmm5"
+          }
+        ],
+        "candidateReviews": [
+          {
+            "platform": "Reddit",
+            "url": "https://www.reddit.com/r/BrevilleCoffee/comments/1lcfmm5",
+            "title": "BES878XL｜Breville model identification help",
+            "sourceExcerpt": "討論辨識二手 Marketplace 照片為 BES878XL，負面內容針對疑似詐騙刊登而不是機器故障。",
+            "independentAuthors": 0,
+            "specificReason": "原頁的問題是二手賣場圖片與詐騙風險，沒有 BES878XL 機主的第一人稱產品故障，因此不能列入同型號負評人數。",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-08-04"
+          }
+        ],
+        "reviewerNote": "BES878XL 已人工覆核 Dcard 與 Reddit，二手刊登風險未被計入產品負評。",
+        "attestation": "manual_original_pages_reviewed"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-08-04",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Dcard",
+            "query": "site:dcard.tw \"Breville BES878XL\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Adcard.tw%20%22Breville%20BES878XL%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "dcard.tw"
+          },
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"Breville BES878XL\" (problem OR issue OR defect OR negative review)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22Breville%20BES878XL%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+            "targetHost": "reddit.com"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "Dcard",
+          "query": "site:dcard.tw \"Breville BES878XL\" (災情 OR 問題 OR 故障 OR 負評)",
+          "searchUrl": "https://search.yahoo.com/search?q=site%3Adcard.tw%20%22Breville%20BES878XL%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-08-04T00:00:00+08:00"
+        },
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Breville BES878XL\" (problem OR issue OR defect OR negative review)",
+          "searchUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22Breville%20BES878XL%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "result": "candidates_unverified_by_search_only",
+          "resultCount": 1,
+          "candidateUrls": [
+            "https://www.reddit.com/r/BrevilleCoffee/comments/1lcfmm5"
+          ],
+          "candidates": [
+            {
+              "url": "https://www.reddit.com/r/BrevilleCoffee/comments/1lcfmm5",
+              "title": "BES878XL｜Breville model identification help"
+            }
+          ],
+          "inspectedAt": "2026-08-04T00:00:00+08:00"
+        }
+      ],
+      "evidence": [],
+      "rejectedCandidates": [
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/BrevilleCoffee/comments/1lcfmm5",
+          "title": "BES878XL｜Breville model identification help",
+          "sourceExcerpt": "討論辨識二手 Marketplace 照片為 BES878XL，負面內容針對疑似詐騙刊登而不是機器故障。",
+          "independentAuthors": 0,
+          "specificReason": "原頁的問題是二手賣場圖片與詐騙風險，沒有 BES878XL 機主的第一人稱產品故障，因此不能列入同型號負評人數。",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-04",
+          "reason": "原頁的問題是二手賣場圖片與詐騙風險，沒有 BES878XL 機主的第一人稱產品故障，因此不能列入同型號負評人數。"
+        }
+      ]
+    },
+    {
+      "id": "coffee-lelit-mara-x-pl62x-v2",
+      "category": "coffee",
+      "brand": "Lelit",
+      "model": "Mara X PL62X V2",
+      "name": "Mara X V2 單孔半自動義式咖啡機",
+      "identity": {
+        "canonicalModel": "Mara X PL62X V2",
+        "lookupLabel": "Lelit Mara X PL62X V2",
+        "aliases": [
+          "Lelit Mara X PL62X V2",
+          "Lelit PL62X"
+        ],
+        "evidenceUrl": "https://www.lelittaiwan.com/products/lelit-mara-x-pl62x"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "status": "completed",
+        "decision": "no_common_issue",
+        "reviewedAt": "2026-08-04",
+        "checkedPlatforms": [
+          "Dcard",
+          "Reddit"
+        ],
+        "queries": [
+          {
+            "platform": "Dcard",
+            "targetHost": "dcard.tw",
+            "query": "site:dcard.tw \"Lelit Mara X PL62X V2\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Adcard.tw%20%22Lelit%20Mara%20X%20PL62X%20V2%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)"
+          },
+          {
+            "platform": "Reddit",
+            "targetHost": "reddit.com",
+            "query": "site:reddit.com \"Lelit Mara X PL62X V2\" (problem OR issue OR defect OR negative review)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22Lelit%20Mara%20X%20PL62X%20V2%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)"
+          }
+        ],
+        "candidateDisposition": "Mara X PL62X V2：Dcard 與 Reddit 以完整 V2 型號查詢，沒有通過型號邊界的原頁候選。",
+        "representativeSources": [],
+        "candidateReviews": [],
+        "reviewerNote": "Mara X PL62X V2 已逐一重跑兩站查詢並人工確認結果，未混入舊版 Mara X。",
+        "attestation": "manual_cross_site_search_reviewed_no_candidate"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-08-04",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Dcard",
+            "query": "site:dcard.tw \"Lelit Mara X PL62X V2\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Adcard.tw%20%22Lelit%20Mara%20X%20PL62X%20V2%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "dcard.tw"
+          },
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"Lelit Mara X PL62X V2\" (problem OR issue OR defect OR negative review)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22Lelit%20Mara%20X%20PL62X%20V2%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+            "targetHost": "reddit.com"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "Dcard",
+          "query": "site:dcard.tw \"Lelit Mara X PL62X V2\" (災情 OR 問題 OR 故障 OR 負評)",
+          "searchUrl": "https://search.yahoo.com/search?q=site%3Adcard.tw%20%22Lelit%20Mara%20X%20PL62X%20V2%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-08-04T00:00:00+08:00"
+        },
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Lelit Mara X PL62X V2\" (problem OR issue OR defect OR negative review)",
+          "searchUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22Lelit%20Mara%20X%20PL62X%20V2%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-08-04T00:00:00+08:00"
+        }
+      ],
+      "evidence": [],
+      "rejectedCandidates": []
+    },
+    {
+      "id": "coffee-rancilio-silvia-pro-x",
+      "category": "coffee",
+      "brand": "Rancilio",
+      "model": "Silvia Pro X",
+      "name": "Silvia Pro X 雙鍋爐半自動咖啡機 110V",
+      "identity": {
+        "canonicalModel": "Silvia Pro X",
+        "lookupLabel": "Rancilio Silvia Pro X",
+        "aliases": [
+          "Rancilio Silvia Pro X"
+        ],
+        "evidenceUrl": "https://www.tiamo-cafe.com.tw/ec99/rwd1627/product.asp?category_id=141&prodid=HG6477"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "status": "completed",
+        "decision": "no_common_issue",
+        "reviewedAt": "2026-08-04",
+        "checkedPlatforms": [
+          "Dcard",
+          "Reddit"
+        ],
+        "queries": [
+          {
+            "platform": "Dcard",
+            "targetHost": "dcard.tw",
+            "query": "site:dcard.tw \"Rancilio Silvia Pro X\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Adcard.tw%20%22Rancilio%20Silvia%20Pro%20X%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)"
+          },
+          {
+            "platform": "Reddit",
+            "targetHost": "reddit.com",
+            "query": "site:reddit.com \"Rancilio Silvia Pro X\" (problem OR issue OR defect OR negative review)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22Rancilio%20Silvia%20Pro%20X%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)"
+          }
+        ],
+        "candidateDisposition": "Silvia Pro X：已逐頁覆核五個 Reddit exact-model 候選，問題分散且均未達同問題六人，也沒有第二個原始網站。",
+        "representativeSources": [
+          {
+            "platform": "Reddit",
+            "title": "Silvia Pro X Issue - group gasket leakage",
+            "url": "https://www.reddit.com/r/espresso/comments/124xwf7/silvia_pro_x_issue/"
+          },
+          {
+            "platform": "Reddit",
+            "title": "Silvia Pro X stopped working after a week",
+            "url": "https://www.reddit.com/r/ranciliosilvia/comments/17vyvpq/silvia_pro_x_stopped_working_after_a_week/"
+          },
+          {
+            "platform": "Reddit",
+            "title": "Convince me not to get a Rancilio Silvia Pro X - Reddit",
+            "url": "https://www.reddit.com/r/espresso/comments/161syur/convince_me_not_to_get_a_rancilio_silvia_pro_x/"
+          },
+          {
+            "platform": "Reddit",
+            "title": "Rancilio Silvia Pro X - Is My Decision Really This Straight Forward?",
+            "url": "https://www.reddit.com/r/espresso/comments/1co3026/rancilio_silvia_pro_x_is_my_decision_really_this/"
+          },
+          {
+            "platform": "Reddit",
+            "title": "Just upgraded to the Rancilio Silvia Pro X. Can you tell I like white with rocker switches?",
+            "url": "https://www.reddit.com/r/espresso/comments/wqbchw/just_upgraded_to_the_rancilio_silvia_pro_x_can/"
+          }
+        ],
+        "candidateReviews": [
+          {
+            "platform": "Reddit",
+            "url": "https://www.reddit.com/r/espresso/comments/124xwf7/silvia_pro_x_issue/",
+            "title": "Silvia Pro X Issue - group gasket leakage",
+            "sourceExcerpt": "一位機主回報把手邊緣漏水與短期內再次更換墊圈，後續確認部分原因與安裝、鎖緊操作有關。",
+            "independentAuthors": 1,
+            "specificReason": "原頁只有一位第一人稱機主，且後續將部分原因歸於安裝與操作；同問題未達六位，也沒有第二個獨立網站。",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-08-04"
+          },
+          {
+            "platform": "Reddit",
+            "url": "https://www.reddit.com/r/ranciliosilvia/comments/17vyvpq/silvia_pro_x_stopped_working_after_a_week/",
+            "title": "Silvia Pro X stopped working after a week",
+            "sourceExcerpt": "原作者與一位後續留言者描述加熱期間關機或無法啟動，但都在 Reddit 同一原始網站。",
+            "independentAuthors": 2,
+            "specificReason": "相同關機情況只有兩位可辨識機主，且兩者均來自 Reddit；未達六位，也缺少第二個獨立原始網站的同問題證據。",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-08-04"
+          },
+          {
+            "platform": "Reddit",
+            "url": "https://www.reddit.com/r/espresso/comments/161syur/convince_me_not_to_get_a_rancilio_silvia_pro_x/",
+            "title": "Convince me not to get a Rancilio Silvia Pro X - Reddit",
+            "sourceExcerpt": "選購討論多為正向機主心得，零星留言分別提到泵浦聲、滴水盤、蒸汽壓力與 soft infusion 取捨。",
+            "independentAuthors": 5,
+            "specificReason": "人工逐則覆核後，意見分散在不同設計取捨，沒有六位使用者回報同一故障；所有候選仍只位於 Reddit 一個原始網站。",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-08-04"
+          },
+          {
+            "platform": "Reddit",
+            "url": "https://www.reddit.com/r/espresso/comments/1co3026/rancilio_silvia_pro_x_is_my_decision_really_this/",
+            "title": "Rancilio Silvia Pro X - Is My Decision Really This Straight Forward?",
+            "sourceExcerpt": "選購討論中多位機主給出正向經驗，僅一位提到原廠滴水盤不好取出，另有海外保固風險提醒。",
+            "independentAuthors": 1,
+            "specificReason": "原頁只有一位同型號機主對滴水盤提出明確抱怨，其他內容為選購、價格與保固討論，未達六位同問題門檻。",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-08-04"
+          },
+          {
+            "platform": "Reddit",
+            "url": "https://www.reddit.com/r/espresso/comments/wqbchw/just_upgraded_to_the_rancilio_silvia_pro_x_can/",
+            "title": "Just upgraded to the Rancilio Silvia Pro X. Can you tell I like white with rocker switches?",
+            "sourceExcerpt": "原作者提到副廠把手漏水與原廠滴水盤難取且易灑，另一留言則是研磨與萃取設定請益。",
+            "independentAuthors": 2,
+            "specificReason": "把手漏水涉及副廠配件，滴水盤抱怨只有一位機主；其餘為操作請益，沒有六位同問題且仍只來自 Reddit。",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-08-04"
+          }
+        ],
+        "reviewerNote": "Silvia Pro X 已人工逐則檢查候選原頁、作者與問題一致性；Dcard 查無第二站同問題證據。",
+        "attestation": "manual_original_pages_reviewed"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-08-04",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Dcard",
+            "query": "site:dcard.tw \"Rancilio Silvia Pro X\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Adcard.tw%20%22Rancilio%20Silvia%20Pro%20X%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "dcard.tw"
+          },
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"Rancilio Silvia Pro X\" (problem OR issue OR defect OR negative review)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22Rancilio%20Silvia%20Pro%20X%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+            "targetHost": "reddit.com"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "Dcard",
+          "query": "site:dcard.tw \"Rancilio Silvia Pro X\" (災情 OR 問題 OR 故障 OR 負評)",
+          "searchUrl": "https://search.yahoo.com/search?q=site%3Adcard.tw%20%22Rancilio%20Silvia%20Pro%20X%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-08-04T00:00:00+08:00"
+        },
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Rancilio Silvia Pro X\" (problem OR issue OR defect OR negative review)",
+          "searchUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22Rancilio%20Silvia%20Pro%20X%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "result": "candidates_unverified_by_search_only",
+          "resultCount": 5,
+          "candidateUrls": [
+            "https://www.reddit.com/r/espresso/comments/124xwf7/silvia_pro_x_issue/",
+            "https://www.reddit.com/r/ranciliosilvia/comments/17vyvpq/silvia_pro_x_stopped_working_after_a_week/",
+            "https://www.reddit.com/r/espresso/comments/161syur/convince_me_not_to_get_a_rancilio_silvia_pro_x/",
+            "https://www.reddit.com/r/espresso/comments/1co3026/rancilio_silvia_pro_x_is_my_decision_really_this/",
+            "https://www.reddit.com/r/espresso/comments/wqbchw/just_upgraded_to_the_rancilio_silvia_pro_x_can/"
+          ],
+          "candidates": [
+            {
+              "url": "https://www.reddit.com/r/espresso/comments/124xwf7/silvia_pro_x_issue/",
+              "title": "Silvia Pro X Issue - group gasket leakage"
+            },
+            {
+              "url": "https://www.reddit.com/r/ranciliosilvia/comments/17vyvpq/silvia_pro_x_stopped_working_after_a_week/",
+              "title": "Silvia Pro X stopped working after a week"
+            },
+            {
+              "url": "https://www.reddit.com/r/espresso/comments/161syur/convince_me_not_to_get_a_rancilio_silvia_pro_x/",
+              "title": "Convince me not to get a Rancilio Silvia Pro X - Reddit"
+            },
+            {
+              "url": "https://www.reddit.com/r/espresso/comments/1co3026/rancilio_silvia_pro_x_is_my_decision_really_this/",
+              "title": "Rancilio Silvia Pro X - Is My Decision Really This Straight Forward?"
+            },
+            {
+              "url": "https://www.reddit.com/r/espresso/comments/wqbchw/just_upgraded_to_the_rancilio_silvia_pro_x_can/",
+              "title": "Just upgraded to the Rancilio Silvia Pro X. Can you tell I like white with rocker switches?"
+            }
+          ],
+          "inspectedAt": "2026-08-04T00:00:00+08:00"
+        }
+      ],
+      "evidence": [],
+      "rejectedCandidates": [
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/espresso/comments/124xwf7/silvia_pro_x_issue/",
+          "title": "Silvia Pro X Issue - group gasket leakage",
+          "sourceExcerpt": "一位機主回報把手邊緣漏水與短期內再次更換墊圈，後續確認部分原因與安裝、鎖緊操作有關。",
+          "independentAuthors": 1,
+          "specificReason": "原頁只有一位第一人稱機主，且後續將部分原因歸於安裝與操作；同問題未達六位，也沒有第二個獨立網站。",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-04",
+          "reason": "原頁只有一位第一人稱機主，且後續將部分原因歸於安裝與操作；同問題未達六位，也沒有第二個獨立網站。"
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/ranciliosilvia/comments/17vyvpq/silvia_pro_x_stopped_working_after_a_week/",
+          "title": "Silvia Pro X stopped working after a week",
+          "sourceExcerpt": "原作者與一位後續留言者描述加熱期間關機或無法啟動，但都在 Reddit 同一原始網站。",
+          "independentAuthors": 2,
+          "specificReason": "相同關機情況只有兩位可辨識機主，且兩者均來自 Reddit；未達六位，也缺少第二個獨立原始網站的同問題證據。",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-04",
+          "reason": "相同關機情況只有兩位可辨識機主，且兩者均來自 Reddit；未達六位，也缺少第二個獨立原始網站的同問題證據。"
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/espresso/comments/161syur/convince_me_not_to_get_a_rancilio_silvia_pro_x/",
+          "title": "Convince me not to get a Rancilio Silvia Pro X - Reddit",
+          "sourceExcerpt": "選購討論多為正向機主心得，零星留言分別提到泵浦聲、滴水盤、蒸汽壓力與 soft infusion 取捨。",
+          "independentAuthors": 5,
+          "specificReason": "人工逐則覆核後，意見分散在不同設計取捨，沒有六位使用者回報同一故障；所有候選仍只位於 Reddit 一個原始網站。",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-04",
+          "reason": "人工逐則覆核後，意見分散在不同設計取捨，沒有六位使用者回報同一故障；所有候選仍只位於 Reddit 一個原始網站。"
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/espresso/comments/1co3026/rancilio_silvia_pro_x_is_my_decision_really_this/",
+          "title": "Rancilio Silvia Pro X - Is My Decision Really This Straight Forward?",
+          "sourceExcerpt": "選購討論中多位機主給出正向經驗，僅一位提到原廠滴水盤不好取出，另有海外保固風險提醒。",
+          "independentAuthors": 1,
+          "specificReason": "原頁只有一位同型號機主對滴水盤提出明確抱怨，其他內容為選購、價格與保固討論，未達六位同問題門檻。",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-04",
+          "reason": "原頁只有一位同型號機主對滴水盤提出明確抱怨，其他內容為選購、價格與保固討論，未達六位同問題門檻。"
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/espresso/comments/wqbchw/just_upgraded_to_the_rancilio_silvia_pro_x_can/",
+          "title": "Just upgraded to the Rancilio Silvia Pro X. Can you tell I like white with rocker switches?",
+          "sourceExcerpt": "原作者提到副廠把手漏水與原廠滴水盤難取且易灑，另一留言則是研磨與萃取設定請益。",
+          "independentAuthors": 2,
+          "specificReason": "把手漏水涉及副廠配件，滴水盤抱怨只有一位機主；其餘為操作請益，沒有六位同問題且仍只來自 Reddit。",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-04",
+          "reason": "把手漏水涉及副廠配件，滴水盤抱怨只有一位機主；其餘為操作請益，沒有六位同問題且仍只來自 Reddit。"
+        }
+      ]
+    },
+    {
       "id": "oven-panasonic-bs607",
       "category": "oven",
       "brand": "Panasonic",
@@ -64355,6 +67025,95 @@
       "rejectedCandidates": []
     },
     {
+      "id": "chair-irocks-t36",
+      "category": "chair",
+      "brand": "iRocks",
+      "model": "T36",
+      "name": "T36 人體工學椅",
+      "identity": {
+        "canonicalModel": "T36",
+        "lookupLabel": "iRocks T36",
+        "aliases": [
+          "iRocks T36",
+          "I-ROCKS T36"
+        ],
+        "evidenceUrl": "https://www.i-rocks.com.tw/web/product/product_in.jsp?lang=tw&pd_no=PD1781490256838"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "status": "completed",
+        "decision": "no_common_issue",
+        "reviewedAt": "2026-08-04",
+        "checkedPlatforms": [
+          "Mobile01",
+          "Reddit"
+        ],
+        "queries": [
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"iRocks T36\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22iRocks%20T36%22%20%28%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95%29",
+            "targetHost": "mobile01.com"
+          },
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"iRocks T36\" (problem OR issue OR defect OR \"negative review\")",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22iRocks%20T36%22%20%28problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22%29",
+            "targetHost": "reddit.com"
+          }
+        ],
+        "candidateDisposition": "iRocks T36：完成 Mobile01 與 Reddit exact-model 跨站查詢，沒有找到通過 canonical-model 邊界的原頁候選；此結果不代表完全沒有負評。",
+        "representativeSources": [],
+        "candidateReviews": [],
+        "reviewerNote": "T36 已於 2026-08-04 實際請求 Mobile01、Reddit 兩個獨立網站的 exact-model 查詢；搜尋結果未出現 exact-model 第一人稱原頁候選，未以搜尋摘要自動推定沒有負評。",
+        "attestation": "manual_cross_site_search_reviewed_no_candidate"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-08-04",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"iRocks T36\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22iRocks%20T36%22%20%28%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95%29",
+            "targetHost": "mobile01.com"
+          },
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"iRocks T36\" (problem OR issue OR defect OR \"negative review\")",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22iRocks%20T36%22%20%28problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22%29",
+            "targetHost": "reddit.com"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"iRocks T36\" (災情 OR 問題 OR 故障 OR 負評)",
+          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22iRocks%20T36%22%20%28%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95%29",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-08-04T00:00:00+08:00"
+        },
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"iRocks T36\" (problem OR issue OR defect OR \"negative review\")",
+          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22iRocks%20T36%22%20%28problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22%29",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-08-04T00:00:00+08:00"
+        }
+      ],
+      "evidence": [],
+      "rejectedCandidates": []
+    },
+    {
       "id": "monitor-asus-xg27acs",
       "category": "monitor",
       "brand": "ASUS",
@@ -72328,95 +75087,6 @@
           "candidateUrls": [],
           "candidates": [],
           "inspectedAt": "2026-08-02T00:00:00+08:00"
-        }
-      ],
-      "evidence": [],
-      "rejectedCandidates": []
-    },
-    {
-      "id": "chair-irocks-t36",
-      "category": "chair",
-      "brand": "iRocks",
-      "model": "T36",
-      "name": "T36 人體工學椅",
-      "identity": {
-        "canonicalModel": "T36",
-        "lookupLabel": "iRocks T36",
-        "aliases": [
-          "iRocks T36",
-          "I-ROCKS T36"
-        ],
-        "evidenceUrl": "https://www.i-rocks.com.tw/web/product/product_in.jsp?lang=tw&pd_no=PD1781490256838"
-      },
-      "workflowStatus": "completed",
-      "manualReview": {
-        "status": "completed",
-        "decision": "no_common_issue",
-        "reviewedAt": "2026-08-04",
-        "checkedPlatforms": [
-          "Mobile01",
-          "Reddit"
-        ],
-        "queries": [
-          {
-            "platform": "Mobile01",
-            "query": "site:mobile01.com \"iRocks T36\" (災情 OR 問題 OR 故障 OR 負評)",
-            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22iRocks%20T36%22%20%28%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95%29",
-            "targetHost": "mobile01.com"
-          },
-          {
-            "platform": "Reddit",
-            "query": "site:reddit.com \"iRocks T36\" (problem OR issue OR defect OR \"negative review\")",
-            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22iRocks%20T36%22%20%28problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22%29",
-            "targetHost": "reddit.com"
-          }
-        ],
-        "candidateDisposition": "iRocks T36：完成 Mobile01 與 Reddit exact-model 跨站查詢，沒有找到通過 canonical-model 邊界的原頁候選；此結果不代表完全沒有負評。",
-        "representativeSources": [],
-        "candidateReviews": [],
-        "reviewerNote": "T36 已於 2026-08-04 實際請求 Mobile01、Reddit 兩個獨立網站的 exact-model 查詢；搜尋結果未出現 exact-model 第一人稱原頁候選，未以搜尋摘要自動推定沒有負評。",
-        "attestation": "manual_cross_site_search_reviewed_no_candidate"
-      },
-      "issueResearch": {
-        "status": "no_common_issue",
-        "checkedAt": "2026-08-04",
-        "summary": "截至查核日，查無達門檻的集中負評／災情",
-        "issues": [],
-        "checkedSources": [
-          {
-            "platform": "Mobile01",
-            "query": "site:mobile01.com \"iRocks T36\" (災情 OR 問題 OR 故障 OR 負評)",
-            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22iRocks%20T36%22%20%28%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95%29",
-            "targetHost": "mobile01.com"
-          },
-          {
-            "platform": "Reddit",
-            "query": "site:reddit.com \"iRocks T36\" (problem OR issue OR defect OR \"negative review\")",
-            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22iRocks%20T36%22%20%28problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22%29",
-            "targetHost": "reddit.com"
-          }
-        ]
-      },
-      "searchChecks": [
-        {
-          "platform": "Mobile01",
-          "query": "site:mobile01.com \"iRocks T36\" (災情 OR 問題 OR 故障 OR 負評)",
-          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22iRocks%20T36%22%20%28%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95%29",
-          "result": "no_exact_model_result",
-          "resultCount": 0,
-          "candidateUrls": [],
-          "candidates": [],
-          "inspectedAt": "2026-08-04T00:00:00+08:00"
-        },
-        {
-          "platform": "Reddit",
-          "query": "site:reddit.com \"iRocks T36\" (problem OR issue OR defect OR \"negative review\")",
-          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22iRocks%20T36%22%20%28problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22%29",
-          "result": "no_exact_model_result",
-          "resultCount": 0,
-          "candidateUrls": [],
-          "candidates": [],
-          "inspectedAt": "2026-08-04T00:00:00+08:00"
         }
       ],
       "evidence": [],
