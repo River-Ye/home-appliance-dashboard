@@ -1343,9 +1343,9 @@
     "name": "6L 除濕機",
     "price": {
       "currency": "TWD",
-      "amount": 5211,
-      "converted": 5211,
-      "confidence": "PChome 2026-08-04 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 4805,
+      "converted": 4805,
+      "confidence": "PChome 2026-08-07 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ3PA900J9FH9/000001_1776325410.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBQ3P-A900J9FH9",
@@ -1378,16 +1378,16 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 4888,
+      "amount": 4805,
       "currency": "TWD",
-      "converted": 4888,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=612343329&cgp=5211",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：Panasonic 國際牌 6L除濕機 F-Y12PS【可申請貨物稅補助】【愛買】",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「蝦皮商城 - 愛買線上購物 / Panasonic 國際牌 6L除濕機 F-Y12PS【可申請貨物稅補助】【愛買】」最低價為 NT$4,888，最低點日期 2026-06-21。",
-      "sourceKind": "price_history",
-      "confidence": "high",
-      "checkedAt": "2026-07-09",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+      "converted": 4805,
+      "sourceUrl": "https://24h.pchome.com.tw/prod/DMBQ3P-A900J9FH9",
+      "sourceTitle": "PChome 24h 購物：Panasonic 國際牌 6L 除濕機 F-Y12PS",
+      "evidenceSnippet": "PChome 24h 購物於 2026-08-07 顯示同型號可信新品公開價 NT$4,805，低於既有史低 NT$4,888。",
+      "sourceKind": "retailer_page",
+      "confidence": "medium",
+      "checkedAt": "2026-08-07",
+      "note": "採用 PChome 24h 購物當日可購商品的同型號新品公開價；不含會員券、點數、信用卡回饋、二手、福利、展示、拆封或整新品。"
     },
     "issueResearch": {
       "status": "no_common_issue",
