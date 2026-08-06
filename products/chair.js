@@ -256,7 +256,7 @@
       "currency": "TWD",
       "amount": 8541,
       "converted": 8541,
-      "confidence": "PChome 2026-08-01 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "confidence": "PChome 2026-08-06 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBJ4CA900HS19G/000001_1773036067.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBJ4C-A900HS19G",
@@ -491,9 +491,9 @@
     "name": "Fujin 風靈網狀人體工學電競椅",
     "price": {
       "currency": "TWD",
-      "amount": 11691,
-      "converted": 11691,
-      "confidence": "PChome 2026-07-28 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 11091,
+      "converted": 11091,
+      "confidence": "PChome 2026-08-06 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DCBT0KA900GSDTK/000001_1762771347.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DCBT0K-A900GSDTK",
@@ -1998,6 +1998,92 @@
           "platform": "Reddit",
           "query": "site:reddit.com \"iRocks T36\" (problem OR issue OR defect OR \"negative review\")",
           "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22iRocks%20T36%22%20%28problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22%29",
+          "targetHost": "reddit.com"
+        }
+      ]
+    }
+  },
+  {
+    "id": "chair-cougar-stryder",
+    "category": "chair",
+    "rank": 26,
+    "topPick": false,
+    "budget": "value",
+    "channel": "tw",
+    "brand": "COUGAR",
+    "model": "CGR-STD-BLB",
+    "name": "STRYDER 高椅背可上掀扶手人體工學椅",
+    "price": {
+      "currency": "TWD",
+      "amount": 6990,
+      "converted": 6990,
+      "confidence": "PChome 24h 2026-08-06 STRYDER 商品頁公開價 NT$6,990、Qty 4；料號以 COUGAR 台灣官方頁交叉核對"
+    },
+    "image": "https://cs-a.ecimg.tw/items/DQBJ0AA900JCVY5/000001_1785087796.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DQBJ0A-A900JCVY5",
+    "buyLabel": "PChome 24h購物",
+    "specs": [
+      "仿亞麻布料 / 多密度泡棉加大座墊 / 內建腰部支撐",
+      "加寬可調式頭枕 / 可上掀扶手 / 搖擺與傾斜阻力調整",
+      "TÜV 認證 Class 4 氣壓棒 / 靜音椅輪",
+      "尺寸：寬 71 x 深 67.5 x 高 115 cm",
+      "重量：15 kg",
+      "承重：120 kg"
+    ],
+    "description": "STRYDER 以低調布面、高椅背、加大泡棉座墊與可上掀扶手切入居家工作／娛樂混合情境，補足清單中七千元內非網布、可收扶手的寬座選項。",
+    "pros": [
+      "可上掀扶手方便貼近桌面或騰出空間",
+      "120 kg 承重、加大座墊與可調頭枕適用身形範圍廣",
+      "布面外觀較容易融入居家工作空間"
+    ],
+    "cons": [
+      "泡棉與布面在炎熱環境的透氣性不如全網椅",
+      "腰靠為內建曲面，缺少獨立高度或深度調整",
+      "扶手只能上掀，沒有 3D／4D 精細調整"
+    ],
+    "bestFor": "預算七千元內、偏好寬座布面與可上掀扶手，且需在工作與娛樂間切換的使用者。",
+    "recommendation": "入門布面高椅背補充推薦：尺寸、承重與上掀扶手具明確差異；久坐前仍建議實際確認座深、腰靠位置與布面散熱。",
+    "score": 84,
+    "voltage": "不適用",
+    "warranty": "COUGAR 台灣電競椅機械組件、鋼骨、底座與布料 1 年；氣壓棒、五星椅腳與網材 2 年",
+    "tags": [
+      "布面",
+      "高椅背",
+      "上掀扶手",
+      "120kg",
+      "Class 4",
+      "居家工作"
+    ],
+    "releaseDate": "2025-08-26",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-08-06",
+      "note": "已查 COUGAR 官方料號頁、PChome／momo STRYDER 商品頁、BigGo、FindPrice 與海外價格頁；NT$6,990 只證明本輪台灣同名產品現價，沒有同一台灣料號可重現的可信新品歷史曲線或明確最低點日期。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-08-06",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"COUGAR CGR-STD-BLB\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22COUGAR%20CGR-STD-BLB%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"COUGAR CGR-STD-BLB\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22COUGAR%20CGR-STD-BLB%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
           "targetHost": "reddit.com"
         }
       ]

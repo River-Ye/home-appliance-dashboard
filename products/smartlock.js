@@ -1830,9 +1830,9 @@
     "name": "FA9000 五合一人臉辨識電子鎖",
     "price": {
       "currency": "TWD",
-      "amount": 28990,
-      "converted": 28990,
-      "confidence": "PChome 2026-07-25 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 26888,
+      "converted": 26888,
+      "confidence": "PChome 2026-08-06 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBS4NA900IAVXZ/000001_1740465068.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBS4N-A900IAVXZ",

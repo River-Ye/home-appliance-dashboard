@@ -254,9 +254,9 @@
     "name": "BE3600 雙頻 Wi-Fi 7 AiMesh 可擴充路由器",
     "price": {
       "currency": "TWD",
-      "amount": 3552,
-      "converted": 3552,
-      "confidence": "Yahoo購物中心 2026-08-03 exact-model 公開結構化價格"
+      "amount": 3699,
+      "converted": 3699,
+      "confidence": "Yahoo購物中心 2026-08-06 exact-model 公開結構化價格"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAFLPA900JKWXK/000001_1783555436.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/ASUS-%E8%8F%AF%E7%A2%A9-RT-BE58U-V2-BE3600-%E9%9B%99%E9%A0%BB-Wi-Fi-7-%E5%8F%AF%E6%93%B4%E5%85%85%E5%BC%8F%E8%B7%AF%E7%94%B1%E5%99%A8-12005854.html",
@@ -743,8 +743,8 @@
     "price": {
       "currency": "USD",
       "amount": 189,
-      "converted": 6112,
-      "confidence": "Ubiquiti Store 2026-07-21 來源價；ExchangeRate-API 2026-08-04 匯率換算"
+      "converted": 6086,
+      "confidence": "Ubiquiti Store 2026-07-21 來源價；ExchangeRate-API 2026-08-06 匯率換算"
     },
     "image": "https://cdn.ecomm.ui.com/products/fa8dd4e4-36c8-4c79-a928-22c7bff2ce29/ab5bc8a4-6135-402e-a695-e3ea5e16d3e6.png",
     "buyUrl": "https://store.ui.com/us/en/category/all-wifi/products/u7-pro",
@@ -832,8 +832,8 @@
     "price": {
       "currency": "USD",
       "amount": 159,
-      "converted": 5142,
-      "confidence": "Ubiquiti Store 2026-07-21 來源價；ExchangeRate-API 2026-08-04 匯率換算"
+      "converted": 5120,
+      "confidence": "Ubiquiti Store 2026-07-21 來源價；ExchangeRate-API 2026-08-06 匯率換算"
     },
     "image": "https://cdn.ecomm.ui.com/products/8e88b222-7a55-4cf0-8677-ae9b6347fe84/e16aa122-b5e5-4ffb-9f1a-27ee14d9ab3d.png",
     "buyUrl": "https://store.ui.com/us/en/category/all-wifi/products/u6-pro",
@@ -912,8 +912,8 @@
     "price": {
       "currency": "USD",
       "amount": 99,
-      "converted": 3201,
-      "confidence": "Ubiquiti Store 2026-07-21 來源價；ExchangeRate-API 2026-08-04 匯率換算"
+      "converted": 3188,
+      "confidence": "Ubiquiti Store 2026-07-21 來源價；ExchangeRate-API 2026-08-06 匯率換算"
     },
     "image": "https://cdn.ecomm.ui.com/products/253cc208-4b09-4b2e-9d1a-7aa1e8f93507/49241c96-878f-4e40-8541-c2e89c1c5e6e.png",
     "buyUrl": "https://store.ui.com/us/en/category/all-wifi/products/u7-lite",
@@ -1316,8 +1316,8 @@
     "price": {
       "currency": "USD",
       "amount": 129,
-      "converted": 4171,
-      "confidence": "Ubiquiti Store 2026-07-21 來源價；ExchangeRate-API 2026-08-04 匯率換算"
+      "converted": 4154,
+      "confidence": "Ubiquiti Store 2026-07-21 來源價；ExchangeRate-API 2026-08-06 匯率換算"
     },
     "image": "https://cdn.ecomm.ui.com/products/6d5c6141-e2e9-416a-b789-53e59416bb1a/853bc73b-f65b-4e59-a171-75c9a4a4615e.png",
     "buyUrl": "https://store.ui.com/us/en/category/all-wifi/products/u6-plus",
@@ -1420,8 +1420,8 @@
     "price": {
       "currency": "USD",
       "amount": 279,
-      "converted": 9022,
-      "confidence": "Ubiquiti Store 2026-07-21 來源價；ExchangeRate-API 2026-08-04 匯率換算"
+      "converted": 8984,
+      "confidence": "Ubiquiti Store 2026-07-21 來源價；ExchangeRate-API 2026-08-06 匯率換算"
     },
     "image": "https://cdn.ecomm.ui.com/products/350070a0-ae43-431b-b052-8e849c3b0a75/bad94693-bc54-4ab4-b060-9b972401941c.png",
     "buyUrl": "https://store.ui.com/us/en/category/all-wifi/products/u7-pro-max",
@@ -1514,9 +1514,9 @@
     "name": "BE6500 雙頻 Wi-Fi 7 路由器",
     "price": {
       "currency": "TWD",
-      "amount": 4791,
-      "converted": 4791,
-      "confidence": "Yahoo購物中心 2026-08-01 exact-model 公開結構化價格"
+      "amount": 4990,
+      "converted": 4990,
+      "confidence": "Yahoo購物中心 2026-08-06 exact-model 公開結構化價格"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAFLPA900IV4B6/000001_1783556530.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/ASUS-%E8%8F%AF%E7%A2%A9-RT-BE82U-WiFi-7-%E9%9B%99%E9%A0%BB-BE6500-%E8%B7%AF%E7%94%B1%E5%99%A8-%E5%88%86%E4%BA%AB%E5%99%A8-11798654.html",
@@ -1672,9 +1672,9 @@
     "name": "BE9500 Wi-Fi 7 三頻 2.5G Mesh 路由器",
     "price": {
       "currency": "TWD",
-      "amount": 5499,
-      "converted": 5499,
-      "confidence": "PChome 2026-08-01 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 5299,
+      "converted": 5299,
+      "confidence": "PChome 2026-08-06 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAFJ6A900IZ71A/000001_1755490950.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DRAFJ6-A900IZ71A",
@@ -1751,9 +1751,9 @@
     "name": "BE11000 Mesh Wi-Fi 7 電競路由器",
     "price": {
       "currency": "TWD",
-      "amount": 5490,
-      "converted": 5490,
-      "confidence": "PChome 2026-08-01 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 5290,
+      "converted": 5290,
+      "confidence": "PChome 2026-08-06 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAF02A900I473A/000001_1732699929.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DRAF02-A900I473A",
@@ -2308,9 +2308,9 @@
     "name": "BE3600 雙頻 Wi-Fi 7 路由器",
     "price": {
       "currency": "TWD",
-      "amount": 3990,
-      "converted": 3990,
-      "confidence": "PChome 2026-08-01 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 3699,
+      "converted": 3699,
+      "confidence": "PChome 2026-08-06 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAFJAA900JUQYP/000001_1774520642.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DRAFJA-A900JUQYP",
@@ -2466,9 +2466,9 @@
     "name": "三頻 Wi-Fi 6 Router 無線路由器",
     "price": {
       "currency": "TWD",
-      "amount": 9600,
-      "converted": 9600,
-      "confidence": "Yahoo購物中心 2026-08-01 exact-model 公開結構化價格"
+      "amount": 9999,
+      "converted": 9999,
+      "confidence": "Yahoo購物中心 2026-08-06 exact-model 公開結構化價格"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBS4VA900JIQU0/000001_1764896894.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/%E6%98%8C%E9%81%8B%E7%9B%A3%E8%A6%96%E5%99%A8-Synology%E7%BE%A4%E6%9A%89-RT6600AX-%E4%B8%89%E9%A0%BB-Wi-Fi-6-Router-%E7%84%A1%E7%B7%9A%E8%B7%AF%E7%94%B1%E5%99%A8-11898475.html",
@@ -2545,9 +2545,9 @@
     "name": "BE7200 Wi-Fi 7 AiMesh 雙頻電競路由器",
     "price": {
       "currency": "TWD",
-      "amount": 9499,
-      "converted": 9499,
-      "confidence": "PChome 2026-08-03 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 9999,
+      "converted": 9999,
+      "confidence": "PChome 2026-08-06 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAFJ5A900HRBD9/000001_1760580708.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DRAFJ5-A900HRBD9",
@@ -2992,9 +2992,9 @@
     "name": "Wi-Fi 6E 三頻電競路由器",
     "price": {
       "currency": "TWD",
-      "amount": 7990,
-      "converted": 7990,
-      "confidence": "PChome 2026-08-01 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 7590,
+      "converted": 7590,
+      "confidence": "PChome 2026-08-06 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAFKSA900HEQVN/000001_1713512948.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DRAFKS-A900HEQVN",
@@ -3312,9 +3312,9 @@
     "name": "Wi-Fi 6 雙 10GbE SD-WAN 路由器",
     "price": {
       "currency": "TWD",
-      "amount": 7990,
-      "converted": 7990,
-      "confidence": "PChome 2026-08-01 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 7590,
+      "converted": 7590,
+      "confidence": "PChome 2026-08-06 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAG6JA900AUW3D/000001_1626400932.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DRAG6J-A900AUW3D",
@@ -4050,9 +4050,9 @@
     "name": "BE19000 三頻 Wi-Fi 7 AI 電競路由器",
     "price": {
       "currency": "TWD",
-      "amount": 26871,
-      "converted": 26871,
-      "confidence": "Yahoo購物中心 2026-08-05 exact-model 自營頁公開活動折後價"
+      "amount": 27990,
+      "converted": 27990,
+      "confidence": "Yahoo購物中心 2026-08-06 exact-model 公開結構化價格"
     },
     "image": "https://dlcdnwebimgs.asus.com/gain/FF5DB299-9708-4259-ABF9-167FDC7166BD",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/%E6%98%8C%E9%81%8B%E7%9B%A3%E8%A6%96%E5%99%A8-ASUS-%E8%8F%AF%E7%A2%A9-ROG-Rapture-GT-BE19000AI-WiFi-7-%E4%B8%89%E9%A0%BB%E9%9B%BB%E7%AB%B6-12032656.html",
@@ -4122,6 +4122,93 @@
           "platform": "Reddit",
           "query": "site:reddit.com \"ROG Rapture GT-BE19000AI\" (problem OR issue OR defect OR \"negative review\")",
           "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22ROG%20Rapture%20GT-BE19000AI%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
+          "targetHost": "reddit.com"
+        }
+      ]
+    }
+  },
+  {
+    "id": "wifi-tplink-archer-be600",
+    "category": "wifi",
+    "rank": 51,
+    "topPick": false,
+    "budget": "mid",
+    "channel": "tw",
+    "brand": "TP-Link",
+    "model": "Archer BE600",
+    "name": "BE9700 三頻 Wi-Fi 7 10G 路由器",
+    "price": {
+      "currency": "TWD",
+      "amount": 5999,
+      "converted": 5999,
+      "confidence": "PChome 24h 2026-08-06 exact-model SKU API 公開價，Qty 20"
+    },
+    "image": "https://cs-a.ecimg.tw/items/DRAFKPA900JM7MV/000001_1782098969.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DRAFKP-A900JM7MV",
+    "buyLabel": "PChome 24h購物",
+    "specs": [
+      "Wi-Fi 7 / BE9700 三頻（6GHz 5765Mbps＋5GHz 2882Mbps＋2.4GHz 1032Mbps）",
+      "MLO / 320MHz / 6 支外接天線 / 可連接最多 150 台設備",
+      "有線：10G WAN/LAN x1、2.5G WAN/LAN x1、2.5G LAN x3",
+      "Mesh：支援 EasyMesh，可與相容路由器或延伸器建立全屋網路",
+      "HomeShield / WPA3 / VPN 用戶端與伺服器 / IPTV MOD",
+      "電源：DC 12V / 3.3A；台灣公司貨隨附變壓器"
+    ],
+    "description": "Archer BE600 在約六千元價位提供完整三頻 Wi-Fi 7、6GHz、MLO、10GbE 與 EasyMesh，定位介於入門雙頻 Wi-Fi 7 與萬元級旗艦路由器之間。",
+    "pros": [
+      "三頻 Wi-Fi 7、6GHz 與 10GbE 規格在價位帶具競爭力",
+      "EasyMesh 可依住家格局增購相容節點",
+      "PChome exact-model 現貨與台灣原廠三年保固"
+    ],
+    "cons": [
+      "單台產品不是完整 Mesh 套組，多樓層仍可能需加購節點",
+      "6GHz、MLO 與 320MHz 效益取決於終端裝置相容性",
+      "少數 exact-model 使用者曾回報斷線或速度不穩，但未達集中災情門檻"
+    ],
+    "bestFor": "想在中階預算升級三頻 Wi-Fi 7、10GbE 與 EasyMesh，並有 NAS 或多裝置需求的家庭。",
+    "recommendation": "中階三頻 Wi-Fi 7 補充推薦：10GbE 與 EasyMesh 兼具；購買後應先更新韌體，並以家中 IoT、MLO 與 6GHz 裝置實測穩定性。",
+    "score": 90,
+    "voltage": "DC 12V / 3.3A；台灣公司貨隨附變壓器",
+    "warranty": "TP-Link 台灣原廠 3 年保固",
+    "tags": [
+      "Wi-Fi 7",
+      "BE9700",
+      "三頻",
+      "6GHz",
+      "10G",
+      "EasyMesh",
+      "MLO"
+    ],
+    "releaseDate": "2026-03-03",
+    "historicalLow": {
+      "status": "found",
+      "amount": 5499,
+      "currency": "TWD",
+      "converted": 5499,
+      "sourceUrl": "https://www.tp-link.com/tw/press/news/22235/",
+      "sourceTitle": "TP-Link 打造 WBC 應援守護神，祭出 Archer BE600、Deco BE65 優惠",
+      "evidenceSnippet": "TP-Link 台灣官方新聞稿明載 Archer BE600 於 2026-03-01 至 2026-03-08 由原價 NT$5,999 限時降至 NT$5,499。",
+      "sourceKind": "official_sale",
+      "confidence": "high",
+      "checkedAt": "2026-08-06",
+      "note": "採 TP-Link 台灣官方 exact-model 限時活動，價格與日期均可公開重現；排除點數、信用卡回饋、會員個人券、二手、福利品、展示與整新品。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-08-06",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"TP-Link Archer BE600\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22TP-Link%20Archer%20BE600%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"TP-Link Archer BE600\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22TP-Link%20Archer%20BE600%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
           "targetHost": "reddit.com"
         }
       ]

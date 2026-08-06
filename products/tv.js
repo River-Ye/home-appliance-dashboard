@@ -2712,6 +2712,92 @@
         }
       ]
     }
+  },
+  {
+    "id": "tv-lg-w6-83",
+    "category": "tv",
+    "rank": 34,
+    "topPick": false,
+    "budget": "premium",
+    "channel": "tw",
+    "brand": "LG",
+    "model": "OLED83W6PTA",
+    "name": "83 型 OLED evo W6 Wallpaper 4K 智慧顯示器",
+    "price": {
+      "currency": "TWD",
+      "amount": 299000,
+      "converted": 299000,
+      "confidence": "全聯全電商 2026-08-06 exact-model 結構化資料顯示 NewCondition、InStock 與公開價"
+    },
+    "image": "https://b2eimg.pxec.com.tw/00475238/d2eafa4e251644ef8089a6092793b798.jpg",
+    "buyUrl": "https://pxbox.es.pxmart.com.tw/product/744284",
+    "buyLabel": "全聯全電商",
+    "specs": [
+      "尺寸：不含底座 寬 184.4 x 深 0.995 x 高 106.1 cm；真無線影音盒 寬 24.5 x 深 24.5 x 高 6.98 cm",
+      "重量：不含底座 22.5 kg",
+      "83 吋 OLED evo / 4K 120Hz / VRR 最高 165Hz",
+      "α11 第三代 Dual AI 4K 處理器 / Brightness Booster Ultra",
+      "Wallpaper 零間隙壁掛設計 / 真無線 4K 影音盒",
+      "手機投影：Apple AirPlay / Google Cast"
+    ],
+    "description": "LG W6 將 83 吋 OLED evo、近 1 公分極薄壁畫機身與真無線 4K 影音盒整合，補足清單中面向大型客廳與高階壁掛施工的 2026 Wallpaper TV。",
+    "pros": [
+      "近 1 公分機身搭配零間隙壁掛，視覺整合度高",
+      "最高 165Hz VRR 與旗艦 OLED 畫質兼顧電影及遊戲",
+      "影音盒可減少牆面訊號線，但仍需電源與施工規劃"
+    ],
+    "cons": [
+      "售價接近三十萬元，入手與安裝門檻都很高",
+      "只能依壁掛情境規劃，購買前要確認牆體、電源與施工責任",
+      "真無線影音盒重量未由官方規格明確提供"
+    ],
+    "bestFor": "追求 83 吋旗艦 OLED、極薄貼牆外觀與 165Hz 遊戲規格，且可先完成專業壁掛評估的高預算家庭。",
+    "recommendation": "大型 Wallpaper TV 補充推薦：規格與安裝型態在現有清單中具明顯差異；若不需要極薄貼牆與真無線影音盒，G6／C6 更容易控制預算。",
+    "score": 93,
+    "voltage": "110V / 60Hz 台灣公司貨",
+    "warranty": "LG 台灣電視 2 年保固；符合登錄資格可享 OLED 面板 5 年保固",
+    "tags": [
+      "83吋",
+      "OLED",
+      "Wallpaper TV",
+      "165Hz",
+      "真無線影音盒",
+      "壁掛"
+    ],
+    "releaseDate": "2026-07-08",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-08-06",
+      "note": "已查 LG 台灣官方、全聯全電商、BigGo 與 FindPrice exact-model 頁；NT$299,000 只證明本輪公開現價，沒有可重現的可信新品歷史價格曲線或明確最低點日期，因此不以現價推定史低。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-08-06",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"LG OLED83W6PTA\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22LG%20OLED83W6PTA%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"LG OLED83W6PTA\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22LG%20OLED83W6PTA%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "targetHost": "reddit.com"
+        }
+      ]
+    }
   }
 ]);
 })();

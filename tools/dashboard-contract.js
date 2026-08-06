@@ -1,8 +1,8 @@
 const EXPECTED_CATEGORY_COUNT = 27;
-const EXPECTED_PRODUCT_COUNT = 743;
+const EXPECTED_PRODUCT_COUNT = 750;
 const MIN_PRODUCTS_PER_CATEGORY = 20;
 const EXPECTED_CATEGORY_PRODUCT_COUNTS = new Map([
-  ["tv", 33],
+  ["tv", 34],
   ["soundbar", 27],
   ["fan", 22],
   ["circulator", 24],
@@ -10,7 +10,7 @@ const EXPECTED_CATEGORY_PRODUCT_COUNTS = new Map([
   ["purifier", 24],
   ["robot", 34],
   ["vacuum", 26],
-  ["washer", 23],
+  ["washer", 24],
   ["dryer", 21],
   ["washerdryer", 28],
   ["garmentcare", 20],
@@ -19,29 +19,29 @@ const EXPECTED_CATEGORY_PRODUCT_COUNTS = new Map([
   ["knife", 22],
   ["blender", 24],
   ["coffee", 24],
-  ["oven", 24],
-  ["waterdispenser", 22],
+  ["oven", 25],
+  ["waterdispenser", 23],
   ["dishwasher", 25],
   ["bidet", 20],
   ["smartlock", 48],
-  ["wifi", 50],
+  ["wifi", 51],
   ["standingdesk", 25],
-  ["chair", 25],
-  ["monitor", 55],
+  ["chair", 26],
+  ["monitor", 56],
   ["monitorarm", 23],
 ]);
 const DATE_PATTERN = /^(找不到|\d{4}(?:[-/.]\d{1,2}(?:[-/.]\d{1,2})?)?)$/;
 const WASHER_DRYER_CAPACITY_PATTERN = /^洗\/乾容量：\d+(?:\.\d+)?kg \/ \d+(?:\.\d+)?kg$/;
 const DIMENSION_CATEGORY_COUNTS = new Map([
-  ["tv", 33],
+  ["tv", 34],
   ["soundbar", 27],
-  ["washer", 23],
+  ["washer", 24],
   ["dryer", 21],
   ["washerdryer", 28],
   ["garmentcare", 20],
   ["refrigerator", 24],
   ["coffee", 24],
-  ["oven", 24],
+  ["oven", 25],
   ["dishwasher", 25],
   ["bidet", 20],
 ]);
@@ -56,10 +56,10 @@ const FORBIDDEN_MEASUREMENT_LABEL_PATTERN = "(?!.*(?:包裝|外箱|紙箱|毛重
 const DIMENSION_PATTERN = new RegExp(`^尺寸：${FORBIDDEN_MEASUREMENT_LABEL_PATTERN}(未標示|查不到|${DIMENSION_SEGMENT_PATTERN}(?:；${DIMENSION_SEGMENT_PATTERN})*)$`, "i");
 const DIMENSION_CONFIDENCE_VALUES = new Set(["high", "medium", "low", "not_found"]);
 const WEIGHT_CATEGORY_COUNTS = new Map([
-  ["tv", 33],
+  ["tv", 34],
   ["soundbar", 27],
   ["coffee", 24],
-  ["oven", 24],
+  ["oven", 25],
 ]);
 const WEIGHT_CATEGORIES = new Set(WEIGHT_CATEGORY_COUNTS.keys());
 const EXPECTED_WEIGHT_PRODUCT_COUNT = [...WEIGHT_CATEGORY_COUNTS.values()]

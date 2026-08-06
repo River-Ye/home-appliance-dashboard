@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-08-05",
+  "checkedAt": "2026-08-06",
   "methodVersion": 3,
   "policy": "每筆決策須保存 exact-model 跨站查詢與人工 attestation；每個搜尋候選須逐頁保存摘要、獨立作者數與具體排除理由，研究工具不得自行生成拒絕結論。",
   "results": [
@@ -42695,6 +42695,259 @@
           "reviewedAt": "2026-08-05"
         }
       ]
+    },
+    {
+      "id": "tv-lg-w6-83",
+      "category": "tv",
+      "brand": "LG",
+      "model": "OLED83W6PTA",
+      "reviewedAt": "2026-08-06",
+      "reviewBatch": "tv",
+      "decision": "no_common_issue",
+      "checkedPlatforms": ["Mobile01", "Reddit"],
+      "queries": [
+        {
+          "platform": "Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "site:mobile01.com \"LG OLED83W6PTA\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22LG%20OLED83W6PTA%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)"
+        },
+        {
+          "platform": "Reddit",
+          "targetHost": "reddit.com",
+          "query": "site:reddit.com \"LG OLED83W6PTA\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22LG%20OLED83W6PTA%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)"
+        }
+      ],
+      "candidateDisposition": "OLED83W6PTA：已逐型號覆核 Mobile01 與 Reddit exact-model 查詢，兩站均沒有可回到原頁的 exact-model 第一人稱問題候選。",
+      "representativeSources": [],
+      "reviewerNote": "OLED83W6PTA 已於 2026-08-06 完成兩個獨立網站的 exact-model 人工查詢；搜尋沒有候選，未由摘要推定成完全沒有負評。",
+      "attestation": "manual_cross_site_search_reviewed_no_candidate",
+      "candidateReviews": []
+    },
+    {
+      "id": "washer-samsung-wa80f16b9btw",
+      "category": "washer",
+      "brand": "Samsung",
+      "model": "WA80F16B9BTW",
+      "reviewedAt": "2026-08-06",
+      "reviewBatch": "washer",
+      "decision": "no_common_issue",
+      "checkedPlatforms": ["Mobile01", "Reddit"],
+      "queries": [
+        {
+          "platform": "Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "site:mobile01.com \"Samsung WA80F16B9BTW\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Samsung%20WA80F16B9BTW%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)"
+        },
+        {
+          "platform": "Reddit",
+          "targetHost": "reddit.com",
+          "query": "site:reddit.com \"Samsung WA80F16B9BTW\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Samsung%20WA80F16B9BTW%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)"
+        }
+      ],
+      "candidateDisposition": "WA80F16B9BTW：已逐型號覆核 Mobile01 與 Reddit exact-model 查詢，兩站均沒有可回到原頁的 exact-model 第一人稱問題候選。",
+      "representativeSources": [],
+      "reviewerNote": "WA80F16B9BTW 已於 2026-08-06 完成兩個獨立網站的 exact-model 人工查詢；搜尋沒有候選，未把官方評論數或相近容量型號混入。",
+      "attestation": "manual_cross_site_search_reviewed_no_candidate",
+      "candidateReviews": []
+    },
+    {
+      "id": "wifi-tplink-archer-be600",
+      "category": "wifi",
+      "brand": "TP-Link",
+      "model": "Archer BE600",
+      "reviewedAt": "2026-08-06",
+      "reviewBatch": "wifi",
+      "decision": "no_common_issue",
+      "checkedPlatforms": ["Mobile01", "Reddit"],
+      "queries": [
+        {
+          "platform": "Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "site:mobile01.com \"TP-Link Archer BE600\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22TP-Link%20Archer%20BE600%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)"
+        },
+        {
+          "platform": "Reddit",
+          "targetHost": "reddit.com",
+          "query": "site:reddit.com \"TP-Link Archer BE600\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22TP-Link%20Archer%20BE600%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)"
+        }
+      ],
+      "candidateDisposition": "Archer BE600：已回到 Mobile01 與 Reddit 原頁逐位覆核；Mobile01 是 1 位正向機主，Reddit 有 2 位分屬不同討論的斷線／速度問題作者，合計遠低於同一問題 6 人且跨 2 原始網站門檻。",
+      "representativeSources": [
+        {
+          "platform": "Mobile01",
+          "title": "TP-Link Archer BE600超有感開箱實測 - Mobile01",
+          "url": "https://www.mobile01.com/topicdetail.php?f=110&t=7220178"
+        },
+        {
+          "platform": "Reddit",
+          "title": "Issues with new TP-Link Archer BE600 Router - Reddit",
+          "url": "https://www.reddit.com/r/HomeNetworking/comments/1qx32ft/issues_with_new_tp_link_archer_be_600_router/"
+        },
+        {
+          "platform": "Reddit",
+          "title": "TP-Link Archer BE600 (BE9700 marketing name) issue report - Reddit",
+          "url": "https://www.reddit.com/r/wifi/comments/1ves00z/tp_link_be9700_be600_model_and_be9700_be9700_model/"
+        }
+      ],
+      "reviewerNote": "Archer BE600 已於 2026-08-06 回到 Mobile01 與 Reddit 原頁核對 exact model、作者與第一人稱；相近 BE800／BE9700 型號回覆不計入。",
+      "attestation": "manual_original_pages_reviewed",
+      "candidateReviews": [
+        {
+          "platform": "Mobile01",
+          "url": "https://www.mobile01.com/topicdetail.php?f=110&t=7220178",
+          "title": "TP-Link Archer BE600超有感開箱實測 - Mobile01",
+          "sourceExcerpt": "樓主明確使用 Archer BE600，逐項描述 24 台裝置、1Gbps 與 NAS 傳輸情境，整體回報更換後穩定且速度提升；回覆沒有其他同型號故障作者。",
+          "independentAuthors": 0,
+          "specificReason": "這是 exact-model 正向開箱，沒有第一人稱問題作者；不能把樓主更換前舊路由器的斷線敘述算成 BE600 災情。",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-06"
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/HomeNetworking/comments/1qx32ft/issues_with_new_tp_link_archer_be_600_router/",
+          "title": "Issues with new TP-Link Archer BE600 Router - Reddit",
+          "sourceExcerpt": "樓主表示新購 Archer BE600 在同一房間仍出現速度較慢與家人裝置經常斷線；回覆提及 BE800 者為不同型號。",
+          "independentAuthors": 1,
+          "specificReason": "只有樓主 1 位 exact-model 第一人稱作者；BE800 與一般設定建議不計入，未達 6 人且沒有第二原始網站同症狀門檻。",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-06"
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/wifi/comments/1ves00z/tp_link_be9700_be600_model_and_be9700_be9700_model/",
+          "title": "TP-Link Archer BE600 (BE9700 marketing name) issue report - Reddit",
+          "sourceExcerpt": "樓主明確表示 Amazon 購買的 BE9700／Archer BE600 無法維持 5GHz 或 6GHz 連線，退貨後改買另一型號；其餘回覆沒有同一 exact-model 同症狀機主。",
+          "independentAuthors": 1,
+          "specificReason": "只有樓主 1 位 Archer BE600 第一人稱作者，且自述可能是單台故障；未在 Mobile01 建立負面作者，也未達 6 人跨站門檻。",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-06"
+        }
+      ]
+    },
+    {
+      "id": "monitor-samsung-s32hg806es",
+      "category": "monitor",
+      "brand": "Samsung",
+      "model": "LS32HG806ESXZW",
+      "reviewedAt": "2026-08-06",
+      "reviewBatch": "monitor",
+      "decision": "no_common_issue",
+      "checkedPlatforms": ["Mobile01", "Reddit"],
+      "queries": [
+        {
+          "platform": "Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "site:mobile01.com \"Samsung LS32HG806ESXZW\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Samsung%20LS32HG806ESXZW%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)"
+        },
+        {
+          "platform": "Reddit",
+          "targetHost": "reddit.com",
+          "query": "site:reddit.com \"Samsung LS32HG806ESXZW\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Samsung%20LS32HG806ESXZW%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)"
+        }
+      ],
+      "candidateDisposition": "LS32HG806ESXZW：已逐型號覆核 Mobile01 與 Reddit exact-model 查詢，兩站均沒有可回到原頁的 exact-model 第一人稱問題候選。",
+      "representativeSources": [],
+      "reviewerNote": "LS32HG806ESXZW 已於 2026-08-06 完成兩個獨立網站的台灣 exact-model 人工查詢；未把歐洲料號或其他 Odyssey G8 混入。",
+      "attestation": "manual_cross_site_search_reviewed_no_candidate",
+      "candidateReviews": []
+    },
+    {
+      "id": "chair-cougar-stryder",
+      "category": "chair",
+      "brand": "COUGAR",
+      "model": "CGR-STD-BLB",
+      "reviewedAt": "2026-08-06",
+      "reviewBatch": "chair",
+      "decision": "no_common_issue",
+      "checkedPlatforms": ["Mobile01", "Reddit"],
+      "queries": [
+        {
+          "platform": "Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "site:mobile01.com \"COUGAR CGR-STD-BLB\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22COUGAR%20CGR-STD-BLB%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)"
+        },
+        {
+          "platform": "Reddit",
+          "targetHost": "reddit.com",
+          "query": "site:reddit.com \"COUGAR CGR-STD-BLB\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22COUGAR%20CGR-STD-BLB%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)"
+        }
+      ],
+      "candidateDisposition": "CGR-STD-BLB：已逐型號覆核 Mobile01 與 Reddit exact-model 查詢，兩站均沒有可回到原頁的 exact-model 第一人稱問題候選。",
+      "representativeSources": [],
+      "reviewerNote": "CGR-STD-BLB 已於 2026-08-06 完成兩個獨立網站的 exact-model 人工查詢；未把 STRYDER 顏色變體或其他 COUGAR 椅款混入。",
+      "attestation": "manual_cross_site_search_reviewed_no_candidate",
+      "candidateReviews": []
+    },
+    {
+      "id": "oven-ninja-sfp701tw",
+      "category": "oven",
+      "brand": "NINJA",
+      "model": "SFP701TW",
+      "reviewedAt": "2026-08-06",
+      "reviewBatch": "oven",
+      "decision": "no_common_issue",
+      "checkedPlatforms": ["Mobile01", "Reddit"],
+      "queries": [
+        {
+          "platform": "Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "site:mobile01.com \"NINJA SFP701TW\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22NINJA%20SFP701TW%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)"
+        },
+        {
+          "platform": "Reddit",
+          "targetHost": "reddit.com",
+          "query": "site:reddit.com \"NINJA SFP701TW\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22NINJA%20SFP701TW%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)"
+        }
+      ],
+      "candidateDisposition": "SFP701TW：已逐型號覆核 Mobile01 與 Reddit exact-model 查詢，兩站均沒有可回到原頁的 exact-model 第一人稱問題候選。",
+      "representativeSources": [],
+      "reviewerNote": "SFP701TW 已於 2026-08-06 完成兩個獨立網站的 exact-model 人工查詢；未把海外 SFP700 系列或通路促銷摘要混入。",
+      "attestation": "manual_cross_site_search_reviewed_no_candidate",
+      "candidateReviews": []
+    },
+    {
+      "id": "waterdispenser-panasonic-tk-rnb601w",
+      "category": "waterdispenser",
+      "brand": "Panasonic",
+      "model": "TK-RNB601W",
+      "reviewedAt": "2026-08-06",
+      "reviewBatch": "waterdispenser",
+      "decision": "no_common_issue",
+      "checkedPlatforms": ["Mobile01", "Reddit"],
+      "queries": [
+        {
+          "platform": "Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "site:mobile01.com \"Panasonic TK-RNB601W\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Panasonic%20TK-RNB601W%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)"
+        },
+        {
+          "platform": "Reddit",
+          "targetHost": "reddit.com",
+          "query": "site:reddit.com \"Panasonic TK-RNB601W\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Panasonic%20TK-RNB601W%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)"
+        }
+      ],
+      "candidateDisposition": "TK-RNB601W：已逐型號覆核 Mobile01 與 Reddit exact-model 查詢，兩站均沒有可回到原頁的 exact-model 第一人稱問題候選。",
+      "representativeSources": [],
+      "reviewerNote": "TK-RNB601W 已於 2026-08-06 完成兩個獨立網站的 exact-model 人工查詢；濾芯、相近淨水器與比價頁不計入。",
+      "attestation": "manual_cross_site_search_reviewed_no_candidate",
+      "candidateReviews": []
     }
   ]
 }

@@ -433,9 +433,9 @@
     "image": "https://cs-a.ecimg.tw/items/DEAWMWA900J5MY9/000001_1756189443.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 2374,
-      "converted": 2374,
-      "confidence": "PChome 2026-08-04 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 2499,
+      "converted": 2499,
+      "confidence": "PChome 2026-08-06 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -766,9 +766,9 @@
     "image": "https://cs-a.ecimg.tw/items/DEAWEDA900HZZIP/000001_1767158620.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 2717,
-      "converted": 2717,
-      "confidence": "PChome 2026-08-04 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 2860,
+      "converted": 2860,
+      "confidence": "PChome 2026-08-06 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -849,9 +849,9 @@
     "image": "https://cs-a.ecimg.tw/items/DEDG3BA900GQDVZ/000001_1776769920.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 990,
-      "converted": 990,
-      "confidence": "Yahoo購物中心 2026-08-05 exact-model 公開結構化價格"
+      "amount": 961,
+      "converted": 961,
+      "confidence": "Yahoo購物中心 2026-08-06 exact-model 公開結構化價格"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心",
@@ -1100,9 +1100,9 @@
     "image": "https://cs-a.ecimg.tw/items/DEAWGAA900B4V1I/000001_1670815636.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 1415,
-      "converted": 1415,
-      "confidence": "PChome 2026-08-04 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 1490,
+      "converted": 1490,
+      "confidence": "PChome 2026-08-06 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "channel": "tw",
     "buyLabel": "PChome",

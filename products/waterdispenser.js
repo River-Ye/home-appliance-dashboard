@@ -17,7 +17,7 @@
       "currency": "TWD",
       "amount": 9190,
       "converted": 9190,
-      "confidence": "PChome 2026-08-05 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "confidence": "PChome 2026-08-06 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -185,9 +185,9 @@
     "image": "https://cs-a.ecimg.tw/items/DMAW25A900G453U/000001_1781668075.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 8590,
-      "converted": 8590,
-      "confidence": "Yahoo購物中心 2026-08-04 exact-model 公開結構化價格"
+      "amount": 8333,
+      "converted": 8333,
+      "confidence": "Yahoo購物中心 2026-08-06 exact-model 公開結構化價格"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心",
@@ -270,9 +270,9 @@
     "image": "https://cs-a.ecimg.tw/items/DMCI1NA900HIJUW/000001_1782095197.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 9900,
-      "converted": 9900,
-      "confidence": "Yahoo購物中心 2026-08-04 exact-model 公開結構化價格"
+      "amount": 9108,
+      "converted": 9108,
+      "confidence": "Yahoo購物中心 2026-08-06 exact-model 公開結構化價格"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心",
@@ -442,7 +442,7 @@
       "currency": "TWD",
       "amount": 19500,
       "converted": 19500,
-      "confidence": "PChome 2026-08-04 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "confidence": "PChome 2026-08-06 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -609,7 +609,7 @@
       "currency": "TWD",
       "amount": 28999,
       "converted": 28999,
-      "confidence": "PChome 2026-08-04 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "confidence": "PChome 2026-08-06 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -692,7 +692,7 @@
       "currency": "TWD",
       "amount": 17800,
       "converted": 17800,
-      "confidence": "PChome 2026-08-04 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "confidence": "PChome 2026-08-06 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -776,7 +776,7 @@
       "currency": "TWD",
       "amount": 26800,
       "converted": 26800,
-      "confidence": "PChome 2026-08-04 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "confidence": "PChome 2026-08-06 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -943,7 +943,7 @@
       "currency": "TWD",
       "amount": 20900,
       "converted": 20900,
-      "confidence": "PChome 2026-08-04 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "confidence": "PChome 2026-08-06 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -1110,7 +1110,7 @@
       "currency": "TWD",
       "amount": 27800,
       "converted": 27800,
-      "confidence": "PChome 2026-08-04 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "confidence": "PChome 2026-08-06 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -1279,7 +1279,7 @@
       "currency": "TWD",
       "amount": 34000,
       "converted": 34000,
-      "confidence": "PChome 2026-08-04 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "confidence": "PChome 2026-08-06 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DSBE1FA900GSOLN/000001_1698896380.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMCI17-A900I6OFW",
@@ -1517,7 +1517,7 @@
       "currency": "TWD",
       "amount": 36810,
       "converted": 36810,
-      "confidence": "PChome 2026-08-04 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "confidence": "PChome 2026-08-06 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMCI0OA900JT66N/000001_1773306819.png",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMCI0O-A900JI1JA",
@@ -1671,9 +1671,9 @@
     "name": "廚下型飲用水加熱器",
     "price": {
       "currency": "TWD",
-      "amount": 23500,
-      "converted": 23500,
-      "confidence": "Yahoo購物中心 2026-08-04 exact-model 公開結構化價格"
+      "amount": 21150,
+      "converted": 21150,
+      "confidence": "Yahoo購物中心 2026-08-06 exact-model 公開結構化價格"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAWB8A900BVEOG/000001_1760685693.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/BWT%E5%BE%B7%E5%9C%8B%E5%80%8D%E4%B8%96-%E6%99%BA%E6%85%A7%E5%9E%8B%E6%AB%A5%E4%B8%8B%E5%8A%A0%E7%86%B1%E5%99%A8-DWH30A-9802406.html",
@@ -1750,8 +1750,8 @@
     "price": {
       "currency": "USD",
       "amount": 369.99,
-      "converted": 11964,
-      "confidence": "Costco US 2026-07-21 來源價；ExchangeRate-API 2026-08-04 匯率換算"
+      "converted": 11914,
+      "confidence": "Costco US 2026-07-21 來源價；ExchangeRate-API 2026-08-06 匯率換算"
     },
     "image": "https://bfasset.costco-static.com/U447IH35/as/4xjr3phfqx7p9vvxzfhp3jp/100457228-847_chrome_1?auto=webp&format=jpg",
     "buyUrl": "https://www.costco.com/brondell-circle-reverse-osmosis-water-filtration-system.product.100457228.html",
@@ -1817,6 +1817,92 @@
               "url": "https://www.brondell.com/circle-reverse-osmosis-water-filter-system/#reviews"
             }
           ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "waterdispenser-panasonic-tk-rnb601w",
+    "category": "waterdispenser",
+    "rank": 23,
+    "topPick": false,
+    "budget": "mid",
+    "channel": "tw",
+    "brand": "Panasonic",
+    "model": "TK-RNB601W",
+    "name": "600G 直輸式 RO 純水機",
+    "price": {
+      "currency": "TWD",
+      "amount": 27900,
+      "converted": 27900,
+      "confidence": "玉山淨水 2026-08-06 exact-model 公開價與可直接購買狀態"
+    },
+    "image": "https://panasonic.scene7.com/is/image/Panasonic/ast-3074920?fmt=png-alpha&hei=644&wid=644",
+    "buyUrl": "https://www.yushanwater.com.tw/products/ps_tkrnb601w",
+    "buyLabel": "玉山淨水",
+    "specs": [
+      "600G 直輸式 RO / 無儲水桶",
+      "2:1 低廢水比 / MRO 複合濾芯 / 2 芯 5 層過濾",
+      "TDS 數顯龍頭 / 濾芯狀態指示燈",
+      "尺寸：寬 15 x 深 44 x 高 35.5 cm",
+      "重量：10 kg",
+      "110V 台灣公司貨；龍頭、進排水與櫃內插座須先丈量"
+    ],
+    "description": "TK-RNB601W 是 Panasonic 台灣在售的 600G 無桶直輸式 RO 純水機，以窄 15 公分機身、2:1 廢水比與 TDS 顯示補足高流量櫥下 RO 選項。",
+    "pros": [
+      "600G 直輸與無桶設計可減少等待及儲水桶空間",
+      "15 公分窄機身較容易安排櫥下空間",
+      "官方規格明確提供尺寸、重量、濾芯與廢水比"
+    ],
+    "cons": [
+      "仍需櫃內 110V 插座、進排水、龍頭孔與足夠維修空間",
+      "濾芯成本與更換週期會受水質及用量影響",
+      "購買頁未公開完整標準安裝範圍，需先取得逐項報價"
+    ],
+    "bestFor": "需要高流量無桶 RO、櫥下寬度有限，且能先確認插座、龍頭孔與安裝條件的家庭。",
+    "recommendation": "窄機身 600G RO 補充推薦：官方規格與耗材型號清楚；下單前仍應確認基本安裝、額外鑽孔／管線費、濾芯價格與保固責任。",
+    "score": 87,
+    "voltage": "110V 台灣公司貨；需預留櫃內插座並確認進排水條件",
+    "warranty": "台灣公司貨；公開購買頁未標示完整保固年限，購買前應向通路書面確認",
+    "tags": [
+      "600G",
+      "RO",
+      "無桶直輸",
+      "2:1廢水比",
+      "TDS顯示",
+      "窄機身"
+    ],
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-08-06",
+      "note": "已查 Panasonic 台灣、玉山淨水、天康、BigGo、FindPrice、飛比與 LBJ exact-model 頁；公開價格介於 NT$25,000 至 NT$27,900，但缺少可重現的歷史曲線與明確最低點日期，且較低價的安裝範圍未完全公開，因此不推定史低。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-08-06",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Panasonic TK-RNB601W\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Panasonic%20TK-RNB601W%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Panasonic TK-RNB601W\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Panasonic%20TK-RNB601W%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "targetHost": "reddit.com"
         }
       ]
     }

@@ -953,9 +953,9 @@
     "name": "14 吋 DC 直流馬達伸縮立扇",
     "price": {
       "currency": "TWD",
-      "amount": 1861,
-      "converted": 1861,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 1990,
+      "converted": 1990,
+      "confidence": "PChome 2026-08-06 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMABPMA900K2J9E/000001_1780381094.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMABPM-A900K2J9E",
