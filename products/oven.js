@@ -338,8 +338,8 @@
     "price": {
       "currency": "USD",
       "amount": 499.95,
-      "converted": 16167,
-      "confidence": "Breville 官方 2026-07-21 來源價；ExchangeRate-API 2026-08-04 匯率換算"
+      "converted": 16099,
+      "confidence": "Breville 官方 2026-07-21 來源價；ExchangeRate-API 2026-08-06 匯率換算"
     },
     "image": "https://assets.breville.com/cdn-cgi/image/width=1300,format=auto/BOV950/BOV950BSS1BUS1/pdp3.png?pdp=",
     "buyUrl": "https://www.breville.com/en-us/product/bov950",
@@ -737,9 +737,9 @@
     "name": "20L 多功能蒸氣氣炸烤箱",
     "price": {
       "currency": "TWD",
-      "amount": 10260,
-      "converted": 10260,
-      "confidence": "PChome 2026-07-31 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 10800,
+      "converted": 10800,
+      "confidence": "PChome 2026-08-06 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBM0GA900HF91A/000001_1768545220.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBM0G-A900HF91A",
@@ -1537,9 +1537,9 @@
     "name": "蒸烘烤變頻微波爐",
     "price": {
       "currency": "TWD",
-      "amount": 41724,
-      "converted": 41724,
-      "confidence": "PChome 2026-07-31 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 43920,
+      "converted": 43920,
+      "confidence": "PChome 2026-08-06 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBM0GA900H5125/000001_1783054719.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBM0G-A900H5125",
@@ -1865,8 +1865,8 @@
     "price": {
       "currency": "USD",
       "amount": 449.99,
-      "converted": 14551,
-      "confidence": "SharkNinja 美國官方 2026-07-21 商品頁現貨價；ExchangeRate-API 2026-08-04 匯率換算"
+      "converted": 14491,
+      "confidence": "SharkNinja 美國官方 2026-07-21 商品頁現貨價；ExchangeRate-API 2026-08-06 匯率換算"
     },
     "image": "https://assets.sharkninja.com/image/upload/f_auto/q_auto/SharkNinja-NA/MW101_01.jpg",
     "buyUrl": "https://www.sharkninja.com/ninja-crispi-microwave/MW101.html",
@@ -1934,6 +1934,93 @@
           "platform": "Reddit",
           "query": "site:reddit.com \"Ninja MW101\" (problem OR issue OR defect OR negative review)",
           "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22Ninja%20MW101%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "targetHost": "reddit.com"
+        }
+      ]
+    }
+  },
+  {
+    "id": "oven-ninja-sfp701tw",
+    "category": "oven",
+    "rank": 25,
+    "topPick": false,
+    "budget": "mid",
+    "channel": "tw",
+    "brand": "NINJA",
+    "model": "SFP701TW",
+    "name": "Combi 14 合 1 多功能氣炸蒸烤箱",
+    "price": {
+      "currency": "TWD",
+      "amount": 9900,
+      "converted": 9900,
+      "confidence": "SharkNinja 台灣官方商城 2026-08-06 exact-model InStock 公開促銷價"
+    },
+    "image": "https://sharkninja.tw/cdn/shop/files/1_814ff1dc-2e54-41b6-84b8-bf2af373ecac.jpg?v=1769416258",
+    "buyUrl": "https://sharkninja.tw/products/combi-sfp701tw",
+    "buyLabel": "SharkNinja 台灣官方商城",
+    "specs": [
+      "12.5L / 14 種烹調模式 / 4–6 人料理份量",
+      "高溫水蒸氣＋360°旋風氣炸 / 下蒸上烤雙層同步烹調",
+      "40–240°C 控溫 / 可放 8 人份米飯、一隻烤雞或 10 吋披薩",
+      "尺寸：寬 40 x 深 37 x 高 33 cm",
+      "重量：10.5 kg",
+      "110V / 60Hz / 1580W / BSMI R3H226",
+      "陶瓷不沾配件可放洗碗機"
+    ],
+    "description": "SFP701TW 把蒸煮、氣炸、烘烤與上下兩層同步料理整合在 12.5L 機身，適合希望以一台設備取代電鍋與小烤箱、但仍需兼顧完整一餐的小家庭。",
+    "pros": [
+      "下蒸上烤可同步完成主食、蔬菜與肉類",
+      "14 種模式與 40–240°C 溫域涵蓋日常蒸烤氣炸",
+      "台灣官方現貨、110V／60Hz 與一年保固明確"
+    ],
+    "cons": [
+      "1580W 高功率需確認家電櫃插座與同迴路負載",
+      "蒸氣與高溫運作需預留上方、後方散熱空間",
+      "12.5L 雖可做家庭餐，仍小於大型水波爐或嵌入式蒸烤箱"
+    ],
+    "bestFor": "家電櫃空間有限，想以一台 110V 機器完成蒸、烤、氣炸與雙層同步料理的 1–4 人家庭。",
+    "recommendation": "蒸烤氣炸整合推薦：相較純氣炸烤箱，多了高溫蒸氣與上下層同步餐；購買前務必依機身尺寸再加散熱距離確認櫃位。",
+    "score": 90,
+    "voltage": "110V / 60Hz / 1580W；需使用合規插座並確認迴路負載",
+    "warranty": "SharkNinja 台灣官方 1 年保固",
+    "tags": [
+      "12.5L",
+      "14合1",
+      "氣炸",
+      "蒸烤",
+      "雙層同步",
+      "110V"
+    ],
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-08-06",
+      "note": "已查 SharkNinja 台灣官方、momo、錦達數位、怡眾、BigGo 與 FindPrice exact-model 頁；NT$9,900 是本輪公開促銷現價，但沒有可重現的歷史價格曲線或明確最低點日期，因此不直接視為史低。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-08-06",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"NINJA SFP701TW\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22NINJA%20SFP701TW%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"NINJA SFP701TW\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22NINJA%20SFP701TW%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
           "targetHost": "reddit.com"
         }
       ]

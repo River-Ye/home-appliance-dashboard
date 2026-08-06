@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-05",
+  "generatedAt": "2026-08-06",
   "sourcePolicy": "本次新增的電視、Soundbar、咖啡機、多功能氣炸烤箱／微波爐、洗碗機與免治馬桶尺寸，以及電視、Soundbar、咖啡機、多功能氣炸烤箱／微波爐重量，優先採 exact-model 官方產品頁、官方規格表或官方 PDF，其次可信通路；只採本體／機身尺寸與淨重，排除包裝、外箱尺寸與毛重，來源未標示寬／深／高順序時不自行推定。既有洗衣機、烘衣機、洗烘衣機、電子衣櫥與冰箱尺寸沿用原研究列及當時查核規則。",
   "results": [
     {
@@ -3447,6 +3447,50 @@
       "weightConfidence": "high",
       "weightIsOfficialSource": true,
       "weightCheckedAt": "2026-08-04"
+    },
+    {
+      "id": "tv-lg-w6-83",
+      "dimension": "尺寸：不含底座 寬 184.4 x 深 0.995 x 高 106.1 cm；真無線影音盒 寬 24.5 x 深 24.5 x 高 6.98 cm",
+      "sourceUrl": "https://www.lg.com/tw/tv-soundbars/oled-evo/oled83w6pta/",
+      "sourceTitle": "83 吋 Wallpaper TV LG OLED evo AI W6 OLED83W6PTA | LG 台灣",
+      "evidenceSnippet": "LG 官方 exact-model 規格列電視不含底座 1844 x 1061 x 9.95 mm，真無線影音盒 245 x 245 x 69.8 mm；底座欄為「-」，未自行補出含底座尺寸。",
+      "confidence": "high",
+      "isOfficialSource": true,
+      "checkedAt": "2026-08-06",
+      "weight": "重量：不含底座 22.5 kg",
+      "weightSourceUrl": "https://www.lg.com/tw/tv-soundbars/oled-evo/oled83w6pta/",
+      "weightSourceTitle": "83 吋 Wallpaper TV LG OLED evo AI W6 OLED83W6PTA | LG 台灣",
+      "weightEvidenceSnippet": "LG 官方 exact-model 規格列電視不含底座重量 22.5 kg；未提供真無線影音盒淨重，故不推算也不採包裝重量。",
+      "weightConfidence": "high",
+      "weightIsOfficialSource": true,
+      "weightCheckedAt": "2026-08-06"
+    },
+    {
+      "id": "washer-samsung-wa80f16b9btw",
+      "dimension": "尺寸：寬 63.7 x 深 70.1 x 高 109.3 cm",
+      "sourceUrl": "https://www.samsung.com/tw/washers-and-dryers/washing-machines/wa80f-25-top-load-washer-ai-wash-ecobubble-ai-energy-mode-16kg-black-wa80f16b9btw/",
+      "sourceTitle": "16 公斤 Bespoke AI 智慧控制直立洗衣機 WA80F16B9BTW | Samsung 台灣",
+      "evidenceSnippet": "Samsung 官方 exact-model 規格列實體規格（淨寬 x 淨高 x 淨深）637 x 1093 x 701 mm；本列依欄位名稱轉為寬 x 深 x 高 cm，未採包裝尺寸。",
+      "confidence": "high",
+      "isOfficialSource": true,
+      "checkedAt": "2026-08-06"
+    },
+    {
+      "id": "oven-ninja-sfp701tw",
+      "dimension": "尺寸：寬 40 x 深 37 x 高 33 cm",
+      "sourceUrl": "https://shopee.tw/%E3%80%90%E9%99%90%E6%99%82%E7%89%B9%E8%B3%A3%E4%B8%AD%F0%9F%94%A5-Ninja-Combi-14%E5%90%881%E5%A4%9A%E5%8A%9F%E8%83%BD%E6%B0%A3%E7%82%B8%E8%92%B8%E7%83%A4%E7%AE%B1-SFP701TW%E3%80%91%E6%96%B0%E5%B1%85%E7%A6%AE%E7%89%A9%E9%A6%96%E9%81%B8%EF%BD%9C%E7%B0%A1%E5%96%AE%E6%93%8D%E4%BD%9C%E5%A5%BD%E6%B8%85%EF%BD%9C%E9%8C%A6%E9%81%94%E6%95%B8%E4%BD%8D-i.36918128.53952500215",
+      "sourceTitle": "錦達數位：Ninja Combi 14 合 1 多功能氣炸蒸烤箱 SFP701TW",
+      "evidenceSnippet": "可信台灣實體家電通路的 exact-model 商品欄列 33H x 40W x 37D cm；本列依明示方向轉為寬 x 深 x 高，未使用包裝尺寸。",
+      "confidence": "medium",
+      "isOfficialSource": false,
+      "checkedAt": "2026-08-06",
+      "weight": "重量：10.5 kg",
+      "weightSourceUrl": "https://sharkninja.tw/products/combi-sfp701tw",
+      "weightSourceTitle": "NINJA Combi SFP701TW 14 合 1 蒸烤箱 | SharkNinja Taiwan",
+      "weightEvidenceSnippet": "SharkNinja 台灣官方 exact-model 規格明列產品重量 10.5 kg；未使用包裝毛重。",
+      "weightConfidence": "high",
+      "weightIsOfficialSource": true,
+      "weightCheckedAt": "2026-08-06"
     }
   ]
 }

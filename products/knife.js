@@ -432,9 +432,9 @@
     "image": "https://cs-a.ecimg.tw/items/DEAWRUA900HDL2T/000001_1712729313.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 3319,
-      "converted": 3319,
-      "confidence": "PChome 2026-08-04 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 3494,
+      "converted": 3494,
+      "confidence": "PChome 2026-08-06 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -1493,9 +1493,9 @@
     "name": "料理刀水果刀含刀套",
     "price": {
       "currency": "TWD",
-      "amount": 662,
-      "converted": 662,
-      "confidence": "PChome 2026-08-04 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 697,
+      "converted": 697,
+      "confidence": "PChome 2026-08-06 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DEAWRUA900HDKXQ/000001_1712727942.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DEAWRU-A900HDKXQ",

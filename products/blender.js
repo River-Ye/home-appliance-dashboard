@@ -344,8 +344,8 @@
     "price": {
       "currency": "USD",
       "amount": 119.99,
-      "converted": 3880,
-      "confidence": "SharkNinja 官方 2026-07-21 來源價；ExchangeRate-API 2026-08-04 匯率換算"
+      "converted": 3864,
+      "confidence": "SharkNinja 官方 2026-07-21 來源價；ExchangeRate-API 2026-08-06 匯率換算"
     },
     "image": "https://ak1.ostkcdn.com/images/products/is/images/direct/d1c25153baa2aa99eae7831be826d2a51d87c485/Ninja-BN701-Professional-Plus-Blender-with-Auto-iQ.jpg",
     "buyUrl": "https://www.sharkninja.com/ninja-professional-plus-blender-with-auto-iq/BN701.html",
@@ -1489,7 +1489,7 @@
       "currency": "TWD",
       "amount": 11490,
       "converted": 11490,
-      "confidence": "PChome 2026-08-04 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "confidence": "PChome 2026-08-06 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAY4YA900I3ILD/000001_1783328441.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAY4Y-A900I3ILD",

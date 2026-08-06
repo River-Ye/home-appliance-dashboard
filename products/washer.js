@@ -1967,6 +1967,92 @@
         }
       ]
     }
+  },
+  {
+    "id": "washer-samsung-wa80f16b9btw",
+    "category": "washer",
+    "rank": 24,
+    "topPick": false,
+    "budget": "mid",
+    "channel": "tw",
+    "brand": "Samsung",
+    "model": "WA80F16B9BTW",
+    "name": "16 公斤 Bespoke AI 智慧控制直立洗衣機",
+    "price": {
+      "currency": "TWD",
+      "amount": 17900,
+      "converted": 17900,
+      "confidence": "momo購物 2026-08-06 exact-model JSON-LD 與 meta 公開價 NT$17,900"
+    },
+    "image": "https://images.samsung.com/is/image/samsung/p6pim/tw/wa80f16b9btw/gallery/tw-wa80f25-wa80f16b9btw-547168133?$1164_776_PNG$",
+    "buyUrl": "https://www.momoshop.com.tw/product/14090998",
+    "buyLabel": "momo購物",
+    "specs": [
+      "16 公斤 / 直立式",
+      "尺寸：寬 63.7 x 深 70.1 x 高 109.3 cm",
+      "重量：47 kg",
+      "AI 智慧洗衣 / EcoBubble 泡泡淨 / 蒸氣除菌",
+      "AI 節能模式 / Wi-Fi SmartThings / VRT+ 減震",
+      "110V / 60Hz"
+    ],
+    "description": "16 公斤 WA80F16B9BTW 在既有 13 公斤 Samsung 直立機之上增加容量、AI 智慧洗衣、EcoBubble 與蒸氣除菌，適合棉被與多人家庭的單洗需求。",
+    "pros": [
+      "16 公斤容量與 AI 智慧洗衣適合多人家庭",
+      "EcoBubble、蒸氣除菌與 SmartThings 功能完整",
+      "台灣 exact-model 現貨並含大型家電標準安裝"
+    ],
+    "cons": [
+      "63.7 公分機寬與上掀門需先確認動線及櫃體高度",
+      "不含烘衣功能，仍需另規劃曬衣或烘衣設備",
+      "大型家電配送、舊機回收與超區費用需另確認"
+    ],
+    "bestFor": "需要 16 公斤單洗容量、直立操作與 AI／蒸氣洗程的多人家庭。",
+    "recommendation": "大容量直立式補充推薦：比既有 13 公斤款多出容量與蒸氣洗程；若家中空間較小或想降低用水量，仍可比較滾筒機。",
+    "score": 89,
+    "voltage": "110V / 60Hz 台灣公司貨；需確認獨立插座、進排水、門向與地面水平",
+    "warranty": "Samsung 台灣全機 1 年、主機板 3 年；符合購買日期條件的數位變頻馬達 10 年",
+    "tags": [
+      "16kg",
+      "直立式",
+      "AI智慧洗衣",
+      "EcoBubble",
+      "蒸氣除菌",
+      "SmartThings"
+    ],
+    "releaseDate": "2025-05-27",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-08-06",
+      "note": "已查 momo、Samsung 台灣、家樂福、飛比、BigGo、FindPrice 與 LBJ exact-model 資料；本輪可重現公開現價為 NT$17,900，先前短暫看到的 NT$17,005 已不在商品頁 HTML／結構化資料中，因此不採用，也不以現價推定史低。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-08-06",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Samsung WA80F16B9BTW\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Samsung%20WA80F16B9BTW%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Samsung WA80F16B9BTW\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Samsung%20WA80F16B9BTW%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "targetHost": "reddit.com"
+        }
+      ]
+    }
   }
 ]);
 })();
