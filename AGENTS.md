@@ -326,9 +326,9 @@
 ## 價格與匯率
 
 <!-- catalog-maintenance-summary:start -->
-- 2026-08-06 08:22（台灣時間）完成 750 筆商品、27 類全量查核；419 筆 PChome SKU API 已完成（264 筆 exact model、44 筆人工 SKU 綁定可寫入，83 筆型號未自動確認），更新 63 筆現價（31 筆降價、32 筆漲價），21 筆 Qty 0 只列追蹤。
-- 本次增量新增 chair-cougar-stryder、monitor-samsung-s32hg806es、oven-ninja-sfp701tw、tv-lg-w6-83、washer-samsung-wa80f16b9btw、waterdispenser-panasonic-tk-rnb601w、wifi-tplink-archer-be600；本次增量沒有移除停產產品。逐類人工新品覆核已完成，所有分類至少 20 筆；停產只採品牌官方明確證據，缺貨、反爬或單次連線錯誤不作為刪除依據。
-- 圖片查核覆蓋 750 筆；590 筆來源可由 exact model 或人工 SKU 綁定確認，160 筆來源／圖片例外保留原資料。史低為 465 筆 `found`、285 筆 `not_found`，本輪其他更正 3 筆；70 筆來源可自動重現，其餘保留原逐筆證據且未臆測失效。
+- 2026-08-07 06:35（台灣時間）完成 750 筆商品、27 類全量查核；418 筆 PChome SKU API 已完成（264 筆 exact model、43 筆人工 SKU 綁定可寫入，83 筆型號未自動確認），更新 70 筆現價（42 筆降價、28 筆漲價），20 筆 Qty 0 只列追蹤。
+- 本次增量沒有納入新產品；本次增量沒有移除停產產品。逐類人工新品覆核已完成，所有分類至少 20 筆；停產只採品牌官方明確證據，缺貨、反爬或單次連線錯誤不作為刪除依據。
+- 圖片查核覆蓋 750 筆；588 筆來源可由 exact model 或人工 SKU 綁定確認，162 筆來源／圖片例外保留原資料。史低為 465 筆 `found`、285 筆 `not_found`，本輪下修 2 筆；68 筆來源可自動重現，其餘保留原逐筆證據且未臆測失效。
 - ExchangeRate-API 最新批次為 2026-08-06 00:02 UTC，USD/TWD 32.201906；30 筆外幣商品已重算。完整摘要與例外保存在 `catalog_maintenance_latest.json`。
 <!-- catalog-maintenance-summary:end -->
 

@@ -683,17 +683,17 @@
     "image": "https://cs-a.ecimg.tw/items/DEAWMJA900JN626/000001_1768377713.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 1584,
-      "converted": 1584,
-      "confidence": "PChome 2026-08-04 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 1980,
+      "converted": 1980,
+      "confidence": "Yahoo 購物中心 2026-08-07 exact-model 公開價"
     },
     "channel": "tw",
-    "buyLabel": "PChome",
-    "buyUrl": "https://24h.pchome.com.tw/prod/DEAWMJ-A900JN626",
+    "buyLabel": "Yahoo 購物中心",
+    "buyUrl": "https://tw.buy.yahoo.com/gdsale/gdsale.asp?gdid=11965999",
     "specs": [
       "鍋具：WMF ASTORIA 低身湯鍋 20cm 2.5L",
       "尺寸與材質依商品頁標示",
-      "PChome 24h 可信通路低價",
+      "可信台灣新品通路公開價",
       "排除福利品/配件/旋鈕"
     ],
     "description": "以台灣家庭常見瓦斯爐、IH 與日常煎炒煮燉需求篩選，優先保留品牌穩定、價格合理、容易補買或維修的鍋具。",
@@ -710,7 +710,7 @@
     "bestFor": "想一次比較日常不沾鍋、湯鍋、不鏽鋼鍋與鑄鐵鍋的家庭。",
     "recommendation": "鍋具第 9 推薦：WMF Astoria 20cm 2.5L 在價格、評價、品牌通路與售後取得性之間表現均衡，適合納入同類比較。",
     "voltage": "無電壓需求；IH/電磁爐相容性依商品頁與鍋底標示",
-    "warranty": "依 PChome 24h 與品牌/供應商頁面標示",
+    "warranty": "依品牌、供應商與購買頁面標示",
     "score": 86,
     "budget": "value",
     "tags": [

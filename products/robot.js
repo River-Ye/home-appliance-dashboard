@@ -172,9 +172,9 @@
     "name": "跨越奇兵旗艦越障掃拖王者",
     "price": {
       "currency": "TWD",
-      "amount": 30341,
-      "converted": 30341,
-      "confidence": "PChome 2026-08-04 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 30340,
+      "converted": 30340,
+      "confidence": "PChome 2026-08-07 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL1CA900JMMCO/000001_1769061975.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBL1C-A900JMMCO",
@@ -250,9 +250,9 @@
     "name": "雙越野高智商旗艦級掃拖機器人",
     "price": {
       "currency": "TWD",
-      "amount": 24821,
-      "converted": 24821,
-      "confidence": "PChome 2026-08-04 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 24800,
+      "converted": 24800,
+      "confidence": "PChome 2026-08-07 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL1CA900JPHOP/000001_1782870240.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBL1C-A900JPHOP",
@@ -329,9 +329,9 @@
     "name": "滾筒全自動洗拖烘掃地機器人",
     "price": {
       "currency": "TWD",
-      "amount": 18399,
-      "converted": 18399,
-      "confidence": "PChome 2026-08-04 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 18388,
+      "converted": 18388,
+      "confidence": "PChome 2026-08-07 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL1CA900JA04J/000001_1783562731.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBL1C-A900JA04J",
@@ -364,16 +364,16 @@
     "releaseDate": "2026-01-06",
     "historicalLow": {
       "status": "found",
-      "amount": 18398,
+      "amount": 18388,
       "currency": "TWD",
-      "converted": 18398,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1261753972&cgp=19999",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【Roborock 石頭科技】限量熱燒新品! Qrevo Curv 2 Flow搖滾巨星滾筒掃拖機器人(滾筒拖地/熱水洗烘/零纏繞)",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【Roborock 石頭科技】限量熱燒新品! Qrevo Curv 2 Flow搖滾巨星滾筒掃拖機器人(滾筒拖地/熱水洗烘/零纏繞)」最低價為 NT$18,398，最低點日期 2025-11-11。",
-      "sourceKind": "price_history",
-      "confidence": "high",
-      "checkedAt": "2026-07-09",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+      "converted": 18388,
+      "sourceUrl": "https://24h.pchome.com.tw/prod/DMBL1C-A900JA04J",
+      "sourceTitle": "PChome 24h 購物：Roborock 石頭科技 掃地機器人Qrevo Curv2 Flow",
+      "evidenceSnippet": "PChome 24h 購物於 2026-08-07 顯示同型號可信新品公開價 NT$18,388，低於既有史低 NT$18,398。",
+      "sourceKind": "retailer_page",
+      "confidence": "medium",
+      "checkedAt": "2026-08-07",
+      "note": "採用 PChome 24h 購物當日可購商品的同型號新品公開價；不含會員券、點數、信用卡回饋、二手、福利、展示、拆封或整新品。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -407,9 +407,9 @@
     "name": "無限續航滾筒洗地機器人上下水款",
     "price": {
       "currency": "TWD",
-      "amount": 25999,
-      "converted": 25999,
-      "confidence": "Yahoo購物中心 2026-08-06 exact-model 公開結構化價格"
+      "amount": 24700,
+      "converted": 24700,
+      "confidence": "Yahoo購物中心 2026-08-07 exact-model 公開結構化價格"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL0LA900JRDAS/000001_1771917633.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/ECOVACS-%E7%A7%91%E6%B2%83%E6%96%AF-DEEBOT-X11-PRO%E7%84%A1%E9%99%90%E7%BA%8C%E8%88%AA%E6%BB%BE%E7%AD%92%E6%B4%97%E5%9C%B0%E6%A9%9F%E5%99%A8%E4%BA%BA-%E6%8E%83%E5%9C%B0%E6%A9%9F%E5%99%A8%E4%BA%BA-11797803.html",

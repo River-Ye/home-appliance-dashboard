@@ -95,9 +95,9 @@
     "name": "自動集塵無線吸塵器",
     "price": {
       "currency": "TWD",
-      "amount": 16900,
-      "converted": 16900,
-      "confidence": "PChome 2026-08-04 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 17900,
+      "converted": 17900,
+      "confidence": "PChome 2026-08-07 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAX8KA900HLX9W/000001_1744871467.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAX8K-A900HLX9W",
@@ -1577,9 +1577,9 @@
     "name": "無線吸塵器",
     "price": {
       "currency": "TWD",
-      "amount": 10900,
-      "converted": 10900,
-      "confidence": "momo購物 2026-07-13 頁面查核價"
+      "amount": 9282,
+      "converted": 9282,
+      "confidence": "momo購物 2026-08-07 exact-model 公開價"
     },
     "image": "https://www.costco.com.tw/medias/sys_master/images/h52/h5d/351316137377822.jpg",
     "buyUrl": "https://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=13546308",
