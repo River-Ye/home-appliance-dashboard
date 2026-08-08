@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-06",
+  "generatedAt": "2026-08-08",
   "sourcePolicy": "本次新增的電視、Soundbar、咖啡機、多功能氣炸烤箱／微波爐、洗碗機與免治馬桶尺寸，以及電視、Soundbar、咖啡機、多功能氣炸烤箱／微波爐重量，優先採 exact-model 官方產品頁、官方規格表或官方 PDF，其次可信通路；只採本體／機身尺寸與淨重，排除包裝、外箱尺寸與毛重，來源未標示寬／深／高順序時不自行推定。既有洗衣機、烘衣機、洗烘衣機、電子衣櫥與冰箱尺寸沿用原研究列及當時查核規則。",
   "results": [
     {
@@ -1461,6 +1461,16 @@
       "confidence": "high",
       "isOfficialSource": false,
       "checkedAt": "2026-07-09"
+    },
+    {
+      "id": "dryer-samsung-dv90f20cdstw",
+      "dimension": "尺寸：寬 68.6 x 深 84 x 高 98.4 cm",
+      "sourceUrl": "https://org.downloadcenter.samsung.com/downloadfile/ContentsFile.aspx?CDSite=UNI_TW&OriginYN=N&ModelType=N&ModelName=DV90F20CDSTW&CttFileID=11119806&CDCttType=UM&VPath=UM%2F202511%2F20251119105608553%2FOID127201_IB_DV90F_7LCD_ZH-TW_251103.pdf",
+      "sourceTitle": "Samsung DV90F20CDSTW 使用手冊（繁體中文）",
+      "evidenceSnippet": "Samsung 官方使用手冊第 54 頁列出型號 DV90F20CDSTW、A=686 mm、B=984 mm、C=840 mm；圖示定義 A 為寬、B 為高、C 為機身深度，另列淨重 77.0 kg，未採開門深度 D=1393 mm。",
+      "confidence": "high",
+      "isOfficialSource": true,
+      "checkedAt": "2026-08-08"
     },
     {
       "id": "washerdryer-lg-wd-s90vdw",

@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-08-06",
+  "checkedAt": "2026-08-08",
   "methodVersion": 3,
   "policy": "每筆決策須保存 exact-model 跨站查詢與人工 attestation；每個搜尋候選須逐頁保存摘要、獨立作者數與具體排除理由，研究工具不得自行生成拒絕結論。",
   "results": [
@@ -15075,6 +15075,60 @@
             "status": 200,
             "ok": true,
             "resultCount": 10,
+            "exactModelCandidates": 0
+          }
+        ],
+        "originalPageFetches": [],
+        "errors": [],
+        "threshold": "same exact-model issue, at least 6 distinct first-person reporters, across at least 2 original websites"
+      }
+    },
+    {
+      "id": "dryer-samsung-dv90f20cdstw",
+      "category": "dryer",
+      "brand": "Samsung",
+      "model": "DV90F20CDSTW",
+      "reviewedAt": "2026-08-08",
+      "reviewBatch": "dryer",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "Mobile01",
+        "Reddit"
+      ],
+      "queries": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Samsung DV90F20CDSTW\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Samsung%20DV90F20CDSTW%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "Reddit",
+          "query": "\"Samsung DV90F20CDSTW\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.reddit.com/search/?q=%22Samsung%20DV90F20CDSTW%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "targetHost": "reddit.com"
+        }
+      ],
+      "candidateDisposition": "DV90F20CDSTW：已實際覆核 Mobile01 與 Reddit 兩個獨立網站的 exact-model 查詢，未留下需逐頁處置的同型號候選；此結果不代表完全沒有負評。",
+      "representativeSources": [],
+      "reviewerNote": "DV90F20CDSTW 於 2026-08-08 完成 Mobile01、Reddit 跨站 exact-model 人工覆核；兩站皆未找到同型號原頁候選，未用搜尋摘要或 Samsung 官方兩則五星評論推定沒有負評。",
+      "attestation": "manual_cross_site_search_reviewed_no_candidate",
+      "candidateReviews": [],
+      "recheckNotes": {
+        "checkedAt": "2026-08-08",
+        "queryChecks": [
+          {
+            "platform": "Mobile01",
+            "status": 200,
+            "ok": true,
+            "resultCount": 0,
+            "exactModelCandidates": 0
+          },
+          {
+            "platform": "Reddit",
+            "status": 200,
+            "ok": true,
+            "resultCount": 0,
             "exactModelCandidates": 0
           }
         ],

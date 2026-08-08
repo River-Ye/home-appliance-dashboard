@@ -1,9 +1,9 @@
 {
   "summary": {
-    "checkedAt": "2026-08-06T00:00:00+08:00",
-    "total": 750,
+    "checkedAt": "2026-08-08T00:00:00+08:00",
+    "total": 751,
     "commonIssueProducts": 36,
-    "noCommonIssueProducts": 714,
+    "noCommonIssueProducts": 715,
     "pendingManualReview": 0,
     "commonIssues": 36,
     "searchUnavailable": 26,
@@ -26479,6 +26479,94 @@
           "candidateUrls": [],
           "candidates": [],
           "inspectedAt": "2026-07-11T00:00:00+08:00"
+        }
+      ],
+      "evidence": [],
+      "rejectedCandidates": []
+    },
+    {
+      "id": "dryer-samsung-dv90f20cdstw",
+      "category": "dryer",
+      "brand": "Samsung",
+      "model": "DV90F20CDSTW",
+      "name": "20公斤 Bespoke AI 智慧熱泵乾衣機",
+      "identity": {
+        "canonicalModel": "DV90F20CDSTW",
+        "lookupLabel": "Samsung DV90F20CDSTW",
+        "aliases": [
+          "Samsung DV90F20CDSTW"
+        ],
+        "evidenceUrl": "https://www.samsung.com/tw/washers-and-dryers/dryers/dv90f27h-dryer-hybrid-heat-pump-ai-home-ai-dry-20kg-silver-dv90f20cdstw/"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "status": "completed",
+        "decision": "no_common_issue",
+        "reviewedAt": "2026-08-08",
+        "checkedPlatforms": [
+          "Mobile01",
+          "Reddit"
+        ],
+        "queries": [
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"Samsung DV90F20CDSTW\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Samsung%20DV90F20CDSTW%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "mobile01.com"
+          },
+          {
+            "platform": "Reddit",
+            "query": "\"Samsung DV90F20CDSTW\" (problem OR issue OR defect OR negative review)",
+            "queryUrl": "https://www.reddit.com/search/?q=%22Samsung%20DV90F20CDSTW%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+            "targetHost": "reddit.com"
+          }
+        ],
+        "candidateDisposition": "DV90F20CDSTW：已實際覆核 Mobile01 與 Reddit 兩個獨立網站的 exact-model 查詢，未留下需逐頁處置的同型號候選；此結果不代表完全沒有負評。",
+        "representativeSources": [],
+        "candidateReviews": [],
+        "reviewerNote": "DV90F20CDSTW 於 2026-08-08 完成 Mobile01、Reddit 跨站 exact-model 人工覆核；兩站皆未找到同型號原頁候選，未用搜尋摘要或 Samsung 官方兩則五星評論推定沒有負評。",
+        "attestation": "manual_cross_site_search_reviewed_no_candidate"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-08-08",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"Samsung DV90F20CDSTW\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Samsung%20DV90F20CDSTW%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "mobile01.com"
+          },
+          {
+            "platform": "Reddit",
+            "query": "\"Samsung DV90F20CDSTW\" (problem OR issue OR defect OR negative review)",
+            "queryUrl": "https://www.reddit.com/search/?q=%22Samsung%20DV90F20CDSTW%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+            "targetHost": "reddit.com"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Samsung DV90F20CDSTW\" (災情 OR 問題 OR 故障 OR 負評)",
+          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Samsung%20DV90F20CDSTW%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-08-08T12:39:00+08:00"
+        },
+        {
+          "platform": "Reddit",
+          "query": "\"Samsung DV90F20CDSTW\" (problem OR issue OR defect OR negative review)",
+          "searchUrl": "https://www.reddit.com/search/?q=%22Samsung%20DV90F20CDSTW%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-08-08T12:39:00+08:00"
         }
       ],
       "evidence": [],
