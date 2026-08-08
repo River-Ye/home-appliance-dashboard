@@ -1,9 +1,9 @@
 {
   "summary": {
     "checkedAt": "2026-08-08T00:00:00+08:00",
-    "total": 751,
+    "total": 762,
     "commonIssueProducts": 36,
-    "noCommonIssueProducts": 715,
+    "noCommonIssueProducts": 726,
     "pendingManualReview": 0,
     "commonIssues": 36,
     "searchUnavailable": 26,
@@ -47333,6 +47333,1211 @@
           "candidateUrls": [],
           "candidates": [],
           "inspectedAt": "2026-08-06T00:00:00+08:00"
+        }
+      ],
+      "evidence": [],
+      "rejectedCandidates": []
+    },
+    {
+      "id": "waterdispenser-acuo-ur-3902aw-1",
+      "category": "waterdispenser",
+      "brand": "賀眾牌",
+      "model": "UR-3902AW-1",
+      "name": "PREMIER 廚下冰溫瞬熱旗艦飲水機",
+      "identity": {
+        "canonicalModel": "UR-3902AW-1",
+        "lookupLabel": "賀眾牌 UR-3902AW-1",
+        "aliases": [
+          "賀眾牌 UR-3902AW-1"
+        ],
+        "evidenceUrl": "https://24h.pchome.com.tw/prod/DMAWI0-A900ITF3M"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "status": "completed",
+        "decision": "no_common_issue",
+        "reviewedAt": "2026-08-08",
+        "checkedPlatforms": [
+          "Mobile01",
+          "Reddit"
+        ],
+        "queries": [
+          {
+            "platform": "Mobile01",
+            "targetHost": "mobile01.com",
+            "query": "site:mobile01.com \"賀眾牌 UR-3902AW-1\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22%E8%B3%80%E7%9C%BE%E7%89%8C%20UR-3902AW-1%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)"
+          },
+          {
+            "platform": "Reddit",
+            "targetHost": "reddit.com",
+            "query": "site:reddit.com \"賀眾牌 UR-3902AW-1\" (problem OR issue OR defect OR negative review)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22%E8%B3%80%E7%9C%BE%E7%89%8C%20UR-3902AW-1%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)"
+          }
+        ],
+        "candidateDisposition": "UR-3902AW-1：已完成人工覆核 Mobile01 與 Reddit exact-model 查詢；兩站未留下可回到原頁的 exact-model 第一人稱問題候選。",
+        "representativeSources": [],
+        "candidateReviews": [],
+        "reviewerNote": "UR-3902AW-1 於 2026-08-08 完成兩個獨立網站的 exact-model 人工查詢；搜尋頁只用於候選發現，未由摘要自動推定沒有負評。",
+        "attestation": "manual_cross_site_search_reviewed_no_candidate"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-08-08",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"賀眾牌 UR-3902AW-1\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22%E8%B3%80%E7%9C%BE%E7%89%8C%20UR-3902AW-1%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "mobile01.com"
+          },
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"賀眾牌 UR-3902AW-1\" (problem OR issue OR defect OR negative review)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22%E8%B3%80%E7%9C%BE%E7%89%8C%20UR-3902AW-1%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+            "targetHost": "reddit.com"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"賀眾牌 UR-3902AW-1\" (災情 OR 問題 OR 故障 OR 負評)",
+          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22%E8%B3%80%E7%9C%BE%E7%89%8C%20UR-3902AW-1%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-08-08T14:00:00+08:00"
+        },
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"賀眾牌 UR-3902AW-1\" (problem OR issue OR defect OR negative review)",
+          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22%E8%B3%80%E7%9C%BE%E7%89%8C%20UR-3902AW-1%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-08-08T14:00:00+08:00"
+        }
+      ],
+      "evidence": [],
+      "rejectedCandidates": []
+    },
+    {
+      "id": "waterdispenser-haier-hr-wf-4tcro600",
+      "category": "waterdispenser",
+      "brand": "Haier",
+      "model": "HR-WF-4TCRO600",
+      "name": "鮮活 3.0 廚下 RO 四段溫控瞬熱飲水機",
+      "identity": {
+        "canonicalModel": "HR-WF-4TCRO600",
+        "lookupLabel": "Haier HR-WF-4TCRO600",
+        "aliases": [
+          "Haier HR-WF-4TCRO600"
+        ],
+        "evidenceUrl": "https://24h.pchome.com.tw/prod/DMCI0T-A900JTMWM"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "status": "completed",
+        "decision": "no_common_issue",
+        "reviewedAt": "2026-08-08",
+        "checkedPlatforms": [
+          "Mobile01",
+          "Reddit"
+        ],
+        "queries": [
+          {
+            "platform": "Mobile01",
+            "targetHost": "mobile01.com",
+            "query": "site:mobile01.com \"Haier HR-WF-4TCRO600\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Haier%20HR-WF-4TCRO600%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)"
+          },
+          {
+            "platform": "Reddit",
+            "targetHost": "reddit.com",
+            "query": "site:reddit.com \"Haier HR-WF-4TCRO600\" (problem OR issue OR defect OR negative review)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Haier%20HR-WF-4TCRO600%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)"
+          }
+        ],
+        "candidateDisposition": "HR-WF-4TCRO600：已完成人工覆核 Mobile01 與 Reddit exact-model 查詢；兩站未留下可回到原頁的 exact-model 第一人稱問題候選。",
+        "representativeSources": [],
+        "candidateReviews": [],
+        "reviewerNote": "HR-WF-4TCRO600 於 2026-08-08 完成兩個獨立網站的 exact-model 人工查詢；搜尋頁只用於候選發現，未由摘要自動推定沒有負評。",
+        "attestation": "manual_cross_site_search_reviewed_no_candidate"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-08-08",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"Haier HR-WF-4TCRO600\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Haier%20HR-WF-4TCRO600%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "mobile01.com"
+          },
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"Haier HR-WF-4TCRO600\" (problem OR issue OR defect OR negative review)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Haier%20HR-WF-4TCRO600%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+            "targetHost": "reddit.com"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Haier HR-WF-4TCRO600\" (災情 OR 問題 OR 故障 OR 負評)",
+          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Haier%20HR-WF-4TCRO600%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-08-08T14:00:00+08:00"
+        },
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Haier HR-WF-4TCRO600\" (problem OR issue OR defect OR negative review)",
+          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Haier%20HR-WF-4TCRO600%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-08-08T14:00:00+08:00"
+        }
+      ],
+      "evidence": [],
+      "rejectedCandidates": []
+    },
+    {
+      "id": "waterdispenser-ge-usb10b",
+      "category": "waterdispenser",
+      "brand": "GE",
+      "model": "USB10B",
+      "name": "極熱 廚下五段溫控瞬熱飲水機",
+      "identity": {
+        "canonicalModel": "USB10B",
+        "lookupLabel": "GE USB10B",
+        "aliases": [
+          "GE USB10B"
+        ],
+        "evidenceUrl": "https://24h.pchome.com.tw/prod/DMAWHT-A900JVB6I"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "status": "completed",
+        "decision": "no_common_issue",
+        "reviewedAt": "2026-08-08",
+        "checkedPlatforms": [
+          "Mobile01",
+          "Reddit"
+        ],
+        "queries": [
+          {
+            "platform": "Mobile01",
+            "targetHost": "mobile01.com",
+            "query": "site:mobile01.com \"GE USB10B\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22GE%20USB10B%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)"
+          },
+          {
+            "platform": "Reddit",
+            "targetHost": "reddit.com",
+            "query": "site:reddit.com \"GE USB10B\" (problem OR issue OR defect OR negative review)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22GE%20USB10B%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)"
+          }
+        ],
+        "candidateDisposition": "USB10B：已完成人工覆核 Mobile01 與 Reddit exact-model 查詢；兩站未留下可回到原頁的 exact-model 第一人稱問題候選。",
+        "representativeSources": [],
+        "candidateReviews": [],
+        "reviewerNote": "USB10B 於 2026-08-08 完成兩個獨立網站的 exact-model 人工查詢；搜尋頁只用於候選發現，未由摘要自動推定沒有負評。",
+        "attestation": "manual_cross_site_search_reviewed_no_candidate"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-08-08",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"GE USB10B\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22GE%20USB10B%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "mobile01.com"
+          },
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"GE USB10B\" (problem OR issue OR defect OR negative review)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22GE%20USB10B%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+            "targetHost": "reddit.com"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"GE USB10B\" (災情 OR 問題 OR 故障 OR 負評)",
+          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22GE%20USB10B%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-08-08T14:00:00+08:00"
+        },
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"GE USB10B\" (problem OR issue OR defect OR negative review)",
+          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22GE%20USB10B%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-08-08T14:00:00+08:00"
+        }
+      ],
+      "evidence": [],
+      "rejectedCandidates": []
+    },
+    {
+      "id": "waterdispenser-philips-aut7063r23-96",
+      "category": "waterdispenser",
+      "brand": "Philips",
+      "model": "AUT7063R23/96",
+      "name": "小淨靈 瞬熱式廚下 RO 淨水器",
+      "identity": {
+        "canonicalModel": "AUT7063R23/96",
+        "lookupLabel": "Philips AUT7063R23/96",
+        "aliases": [
+          "Philips AUT7063R23/96"
+        ],
+        "evidenceUrl": "https://www.ezonelife.com.tw/products/aut7063r2396"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "status": "completed",
+        "decision": "no_common_issue",
+        "reviewedAt": "2026-08-08",
+        "checkedPlatforms": [
+          "Mobile01",
+          "Reddit"
+        ],
+        "queries": [
+          {
+            "platform": "Mobile01",
+            "targetHost": "mobile01.com",
+            "query": "site:mobile01.com \"Philips AUT7063R23/96\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Philips%20AUT7063R23%2F96%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)"
+          },
+          {
+            "platform": "Reddit",
+            "targetHost": "reddit.com",
+            "query": "site:reddit.com \"Philips AUT7063R23/96\" (problem OR issue OR defect OR negative review)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Philips%20AUT7063R23%2F96%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)"
+          }
+        ],
+        "candidateDisposition": "AUT7063R23/96：已完成人工覆核 Mobile01 與 Reddit exact-model 查詢；兩站未留下可回到原頁的 exact-model 第一人稱問題候選。",
+        "representativeSources": [],
+        "candidateReviews": [],
+        "reviewerNote": "AUT7063R23/96 於 2026-08-08 完成兩個獨立網站的 exact-model 人工查詢；搜尋頁只用於候選發現，未由摘要自動推定沒有負評。",
+        "attestation": "manual_cross_site_search_reviewed_no_candidate"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-08-08",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"Philips AUT7063R23/96\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Philips%20AUT7063R23%2F96%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "mobile01.com"
+          },
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"Philips AUT7063R23/96\" (problem OR issue OR defect OR negative review)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Philips%20AUT7063R23%2F96%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+            "targetHost": "reddit.com"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Philips AUT7063R23/96\" (災情 OR 問題 OR 故障 OR 負評)",
+          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Philips%20AUT7063R23%2F96%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-08-08T14:00:00+08:00"
+        },
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Philips AUT7063R23/96\" (problem OR issue OR defect OR negative review)",
+          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Philips%20AUT7063R23%2F96%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-08-08T14:00:00+08:00"
+        }
+      ],
+      "evidence": [],
+      "rejectedCandidates": []
+    },
+    {
+      "id": "waterdispenser-lg-wu525bs",
+      "category": "waterdispenser",
+      "brand": "LG",
+      "model": "WU525BS",
+      "name": "PuriCare 淨水 Bar 廚下型冰溫熱飲水機",
+      "identity": {
+        "canonicalModel": "WU525BS",
+        "lookupLabel": "LG WU525BS",
+        "aliases": [
+          "LG WU525BS"
+        ],
+        "evidenceUrl": "https://www.lg.com/tw/water-purifier/all-water-purifier/wu525bs/"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "status": "completed",
+        "decision": "no_common_issue",
+        "reviewedAt": "2026-08-08",
+        "checkedPlatforms": [
+          "Mobile01",
+          "Reddit"
+        ],
+        "queries": [
+          {
+            "platform": "Mobile01",
+            "targetHost": "mobile01.com",
+            "query": "site:mobile01.com \"LG WU525BS\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22LG%20WU525BS%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)"
+          },
+          {
+            "platform": "Reddit",
+            "targetHost": "reddit.com",
+            "query": "site:reddit.com \"LG WU525BS\" (problem OR issue OR defect OR negative review)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22LG%20WU525BS%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)"
+          }
+        ],
+        "candidateDisposition": "WU525BS：已完成人工覆核 Mobile01 與 Reddit exact-model 查詢；原頁候選均未達同一問題六位獨立使用者且跨兩個網站門檻。",
+        "representativeSources": [
+          {
+            "platform": "Mobile01",
+            "title": "〖體驗分享〗LG PuriCare 淨水 Bar 廚下型冰溫熱飲水機 WU525BS - Mobile01",
+            "url": "https://www.mobile01.com/topicdetail.php?f=729&t=7248112"
+          }
+        ],
+        "candidateReviews": [
+          {
+            "url": "https://www.mobile01.com/topicdetail.php?f=729&t=7248112",
+            "title": "〖體驗分享〗LG PuriCare 淨水 Bar 廚下型冰溫熱飲水機 WU525BS - Mobile01",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-08-08",
+            "sourceExcerpt": "一位 WU525BS 體驗者實測 40／75／85°C 設定約為 36／66／76°C，並註明環境與量測工具可能造成誤差。",
+            "independentAuthors": 1,
+            "specificReason": "只有一位 Mobile01 第一人稱體驗者提到水溫準確度可改善，未達同一問題六位獨立使用者且跨兩個原始網站的門檻。"
+          }
+        ],
+        "reviewerNote": "WU525BS 於 2026-08-08 完成兩個獨立網站的 exact-model 人工查詢；搜尋頁只用於候選發現，未由摘要自動推定沒有負評。",
+        "attestation": "manual_original_pages_reviewed"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-08-08",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"LG WU525BS\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22LG%20WU525BS%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "mobile01.com"
+          },
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"LG WU525BS\" (problem OR issue OR defect OR negative review)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22LG%20WU525BS%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+            "targetHost": "reddit.com"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"LG WU525BS\" (災情 OR 問題 OR 故障 OR 負評)",
+          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22LG%20WU525BS%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "result": "candidates_unverified_by_search_only",
+          "resultCount": 1,
+          "candidateUrls": [
+            "https://www.mobile01.com/topicdetail.php?f=729&t=7248112"
+          ],
+          "candidates": [
+            {
+              "url": "https://www.mobile01.com/topicdetail.php?f=729&t=7248112",
+              "title": "〖體驗分享〗LG PuriCare 淨水 Bar 廚下型冰溫熱飲水機 WU525BS - Mobile01"
+            }
+          ],
+          "inspectedAt": "2026-08-08T14:00:00+08:00"
+        },
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"LG WU525BS\" (problem OR issue OR defect OR negative review)",
+          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22LG%20WU525BS%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-08-08T14:00:00+08:00"
+        }
+      ],
+      "evidence": [],
+      "rejectedCandidates": [
+        {
+          "url": "https://www.mobile01.com/topicdetail.php?f=729&t=7248112",
+          "title": "〖體驗分享〗LG PuriCare 淨水 Bar 廚下型冰溫熱飲水機 WU525BS - Mobile01",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-08",
+          "sourceExcerpt": "一位 WU525BS 體驗者實測 40／75／85°C 設定約為 36／66／76°C，並註明環境與量測工具可能造成誤差。",
+          "independentAuthors": 1,
+          "specificReason": "只有一位 Mobile01 第一人稱體驗者提到水溫準確度可改善，未達同一問題六位獨立使用者且跨兩個原始網站的門檻。",
+          "reason": "只有一位 Mobile01 第一人稱體驗者提到水溫準確度可改善，未達同一問題六位獨立使用者且跨兩個原始網站的門檻。"
+        }
+      ]
+    },
+    {
+      "id": "waterdispenser-rewatt-yo-50",
+      "category": "waterdispenser",
+      "brand": "Rewatt × BRITA",
+      "model": "YO-50",
+      "name": "YO-50 瞬熱飲水機＋mypure P1 淨水組",
+      "identity": {
+        "canonicalModel": "YO-50",
+        "lookupLabel": "Rewatt × BRITA YO-50",
+        "aliases": [
+          "Rewatt × BRITA YO-50"
+        ],
+        "evidenceUrl": "https://www.rewatt.com.tw/yo50/"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "status": "completed",
+        "decision": "no_common_issue",
+        "reviewedAt": "2026-08-08",
+        "checkedPlatforms": [
+          "Mobile01",
+          "Reddit"
+        ],
+        "queries": [
+          {
+            "platform": "Mobile01",
+            "targetHost": "mobile01.com",
+            "query": "site:mobile01.com \"Rewatt × BRITA YO-50\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Rewatt%20%C3%97%20BRITA%20YO-50%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)"
+          },
+          {
+            "platform": "Reddit",
+            "targetHost": "reddit.com",
+            "query": "site:reddit.com \"Rewatt × BRITA YO-50\" (problem OR issue OR defect OR negative review)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Rewatt%20%C3%97%20BRITA%20YO-50%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)"
+          }
+        ],
+        "candidateDisposition": "YO-50：已完成人工覆核 Mobile01 與 Reddit exact-model 查詢；兩篇 Mobile01 原頁只是在購買前詢問濾水設備相容性，沒有 exact-model 第一人稱故障回報，Reddit 亦無候選。",
+        "representativeSources": [
+          {
+            "platform": "Mobile01",
+            "title": "[疑問]廚下瞬熱飲水機 - Mobile01（內文：Rewatt YO-50）",
+            "url": "https://www.mobile01.com/topicdetail.php?f=729&t=7063032"
+          },
+          {
+            "platform": "Mobile01",
+            "title": "廚下淨水瞬熱機, 如何選擇? - Mobile01（內文：Rewatt YO-50）",
+            "url": "https://www.mobile01.com/topicdetail.php?f=729&t=7061441"
+          }
+        ],
+        "candidateReviews": [
+          {
+            "url": "https://www.mobile01.com/topicdetail.php?f=729&t=7063032",
+            "title": "[疑問]廚下瞬熱飲水機 - Mobile01（內文：Rewatt YO-50）",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-08-08",
+            "sourceExcerpt": "樓主明載正考慮 BRITA GR1000＋Rewatt YO-50，並詢問建商附的 WU-001 能否與 YO-50 搭配。",
+            "independentAuthors": 0,
+            "specificReason": "樓主尚未購買或使用 YO-50，內容是安裝前的相容性提問；不是第一人稱故障或負評，沒有可計入作者。"
+          },
+          {
+            "url": "https://www.mobile01.com/topicdetail.php?f=729&t=7061441",
+            "title": "廚下淨水瞬熱機, 如何選擇? - Mobile01（內文：Rewatt YO-50）",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-08-08",
+            "sourceExcerpt": "回覆者明載想搭配 Rewatt YO-50，詢問建商附的 WU001 是否相容；另一則只泛稱瞬熱機較容易壞。",
+            "independentAuthors": 0,
+            "specificReason": "YO-50 提及者是購前相容性詢問，泛稱瞬熱較容易壞的留言未指向 YO-50，也不是該型號第一人稱故障回報。"
+          }
+        ],
+        "reviewerNote": "YO-50 於 2026-08-08 完成兩個獨立網站的 exact-model 人工查詢；搜尋頁只用於候選發現，未由摘要自動推定沒有負評。",
+        "attestation": "manual_original_pages_reviewed"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-08-08",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"Rewatt × BRITA YO-50\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Rewatt%20%C3%97%20BRITA%20YO-50%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "mobile01.com"
+          },
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"Rewatt × BRITA YO-50\" (problem OR issue OR defect OR negative review)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Rewatt%20%C3%97%20BRITA%20YO-50%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+            "targetHost": "reddit.com"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Rewatt × BRITA YO-50\" (災情 OR 問題 OR 故障 OR 負評)",
+          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Rewatt%20%C3%97%20BRITA%20YO-50%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "result": "candidates_unverified_by_search_only",
+          "resultCount": 2,
+          "candidateUrls": [
+            "https://www.mobile01.com/topicdetail.php?f=729&t=7063032",
+            "https://www.mobile01.com/topicdetail.php?f=729&t=7061441"
+          ],
+          "candidates": [
+            {
+              "url": "https://www.mobile01.com/topicdetail.php?f=729&t=7063032",
+              "title": "[疑問]廚下瞬熱飲水機 - Mobile01（內文：Rewatt YO-50）"
+            },
+            {
+              "url": "https://www.mobile01.com/topicdetail.php?f=729&t=7061441",
+              "title": "廚下淨水瞬熱機, 如何選擇? - Mobile01（內文：Rewatt YO-50）"
+            }
+          ],
+          "inspectedAt": "2026-08-08T14:00:00+08:00"
+        },
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Rewatt × BRITA YO-50\" (problem OR issue OR defect OR negative review)",
+          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Rewatt%20%C3%97%20BRITA%20YO-50%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-08-08T14:00:00+08:00"
+        }
+      ],
+      "evidence": [],
+      "rejectedCandidates": [
+        {
+          "url": "https://www.mobile01.com/topicdetail.php?f=729&t=7063032",
+          "title": "[疑問]廚下瞬熱飲水機 - Mobile01（內文：Rewatt YO-50）",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-08",
+          "sourceExcerpt": "樓主明載正考慮 BRITA GR1000＋Rewatt YO-50，並詢問建商附的 WU-001 能否與 YO-50 搭配。",
+          "independentAuthors": 0,
+          "specificReason": "樓主尚未購買或使用 YO-50，內容是安裝前的相容性提問；不是第一人稱故障或負評，沒有可計入作者。",
+          "reason": "樓主尚未購買或使用 YO-50，內容是安裝前的相容性提問；不是第一人稱故障或負評，沒有可計入作者。"
+        },
+        {
+          "url": "https://www.mobile01.com/topicdetail.php?f=729&t=7061441",
+          "title": "廚下淨水瞬熱機, 如何選擇? - Mobile01（內文：Rewatt YO-50）",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-08",
+          "sourceExcerpt": "回覆者明載想搭配 Rewatt YO-50，詢問建商附的 WU001 是否相容；另一則只泛稱瞬熱機較容易壞。",
+          "independentAuthors": 0,
+          "specificReason": "YO-50 提及者是購前相容性詢問，泛稱瞬熱較容易壞的留言未指向 YO-50，也不是該型號第一人稱故障回報。",
+          "reason": "YO-50 提及者是購前相容性詢問，泛稱瞬熱較容易壞的留言未指向 YO-50，也不是該型號第一人稱故障回報。"
+        }
+      ]
+    },
+    {
+      "id": "waterdispenser-3m-ih1000",
+      "category": "waterdispenser",
+      "brand": "3M",
+      "model": "IH1000",
+      "name": "IH1000 瞬熱熱飲機＋3US-MAX-S01H 淨水組",
+      "identity": {
+        "canonicalModel": "IH1000",
+        "lookupLabel": "3M IH1000",
+        "aliases": [
+          "3M IH1000"
+        ],
+        "evidenceUrl": "https://www.rakuten.com.tw/shop/dadawater/product/891110122/"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "status": "completed",
+        "decision": "no_common_issue",
+        "reviewedAt": "2026-08-08",
+        "checkedPlatforms": [
+          "Mobile01",
+          "Reddit"
+        ],
+        "queries": [
+          {
+            "platform": "Mobile01",
+            "targetHost": "mobile01.com",
+            "query": "site:mobile01.com \"3M IH1000\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%223M%20IH1000%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)"
+          },
+          {
+            "platform": "Reddit",
+            "targetHost": "reddit.com",
+            "query": "site:reddit.com \"3M IH1000\" (problem OR issue OR defect OR negative review)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%223M%20IH1000%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)"
+          }
+        ],
+        "candidateDisposition": "IH1000：已完成人工覆核 Mobile01 與 Reddit exact-model 查詢；原頁候選均未達同一問題六位獨立使用者且跨兩個網站門檻。",
+        "representativeSources": [
+          {
+            "platform": "Mobile01",
+            "title": "3M IH1000 櫥下瞬熱式熱飲機開箱（淨水＋瞬熱一次搞定） - Mobile01",
+            "url": "https://www.mobile01.com/topicdetail.php?f=729&t=7002820"
+          },
+          {
+            "platform": "Mobile01",
+            "title": "請問大家有推薦的廚下瞬熱嗎？ - Mobile01（內文：3M IH1000）",
+            "url": "https://www.mobile01.com/topicdetail.php?f=729&t=7214072"
+          },
+          {
+            "platform": "Mobile01",
+            "title": "廚下淨水瞬熱機, 如何選擇? - Mobile01（內文：3M IH1000）",
+            "url": "https://www.mobile01.com/topicdetail.php?f=729&t=7061441"
+          }
+        ],
+        "candidateReviews": [
+          {
+            "url": "https://www.mobile01.com/topicdetail.php?f=729&t=7002820",
+            "title": "3M IH1000 櫥下瞬熱式熱飲機開箱（淨水＋瞬熱一次搞定） - Mobile01",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-08-08",
+            "sourceExcerpt": "頁面有兩位 IH1000 實際使用者；其中一位稱安裝首日 95°C 只出約 40°C 並由 3M 派工，樓主則分享正常使用與安裝條件。",
+            "independentAuthors": 1,
+            "specificReason": "原頁只有一位第一人稱溫度故障回報，另一位為正常使用分享；加上另一頁觸控誤觸仍只在 Mobile01，未達六人且跨兩站門檻。"
+          },
+          {
+            "url": "https://www.mobile01.com/topicdetail.php?f=729&t=7214072",
+            "title": "請問大家有推薦的廚下瞬熱嗎？ - Mobile01（內文：3M IH1000）",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-08-08",
+            "sourceExcerpt": "使用者 tux.lu 明載目前使用 3M IH1000，認為觸控電子龍頭過度敏感，隔著抹布也會誤觸。",
+            "independentAuthors": 1,
+            "specificReason": "只有一位 Mobile01 第一人稱使用者回報觸控誤觸；與另一頁的出水溫度異常不是同一問題，且沒有第二個原始網站證據。"
+          },
+          {
+            "url": "https://www.mobile01.com/topicdetail.php?f=729&t=7061441",
+            "title": "廚下淨水瞬熱機, 如何選擇? - Mobile01（內文：3M IH1000）",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-08-08",
+            "sourceExcerpt": "購買者「睡仔」表示已訂 3M IH1000，但尚未預約安裝即被告知有問題要召回，打算退訂。",
+            "independentAuthors": 0,
+            "specificReason": "尚未安裝或實際使用，且查無 3M 官方 exact-model 召回公告可交叉確認；只保留為候選，不計入第一人稱使用故障作者。"
+          }
+        ],
+        "reviewerNote": "IH1000 於 2026-08-08 完成兩個獨立網站的 exact-model 人工查詢；搜尋頁只用於候選發現，未由摘要自動推定沒有負評。",
+        "attestation": "manual_original_pages_reviewed"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-08-08",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"3M IH1000\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%223M%20IH1000%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "mobile01.com"
+          },
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"3M IH1000\" (problem OR issue OR defect OR negative review)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%223M%20IH1000%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+            "targetHost": "reddit.com"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"3M IH1000\" (災情 OR 問題 OR 故障 OR 負評)",
+          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%223M%20IH1000%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "result": "candidates_unverified_by_search_only",
+          "resultCount": 3,
+          "candidateUrls": [
+            "https://www.mobile01.com/topicdetail.php?f=729&t=7002820",
+            "https://www.mobile01.com/topicdetail.php?f=729&t=7214072",
+            "https://www.mobile01.com/topicdetail.php?f=729&t=7061441"
+          ],
+          "candidates": [
+            {
+              "url": "https://www.mobile01.com/topicdetail.php?f=729&t=7002820",
+              "title": "3M IH1000 櫥下瞬熱式熱飲機開箱（淨水＋瞬熱一次搞定） - Mobile01"
+            },
+            {
+              "url": "https://www.mobile01.com/topicdetail.php?f=729&t=7214072",
+              "title": "請問大家有推薦的廚下瞬熱嗎？ - Mobile01（內文：3M IH1000）"
+            },
+            {
+              "url": "https://www.mobile01.com/topicdetail.php?f=729&t=7061441",
+              "title": "廚下淨水瞬熱機, 如何選擇? - Mobile01（內文：3M IH1000）"
+            }
+          ],
+          "inspectedAt": "2026-08-08T14:00:00+08:00"
+        },
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"3M IH1000\" (problem OR issue OR defect OR negative review)",
+          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%223M%20IH1000%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-08-08T14:00:00+08:00"
+        }
+      ],
+      "evidence": [],
+      "rejectedCandidates": [
+        {
+          "url": "https://www.mobile01.com/topicdetail.php?f=729&t=7002820",
+          "title": "3M IH1000 櫥下瞬熱式熱飲機開箱（淨水＋瞬熱一次搞定） - Mobile01",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-08",
+          "sourceExcerpt": "頁面有兩位 IH1000 實際使用者；其中一位稱安裝首日 95°C 只出約 40°C 並由 3M 派工，樓主則分享正常使用與安裝條件。",
+          "independentAuthors": 1,
+          "specificReason": "原頁只有一位第一人稱溫度故障回報，另一位為正常使用分享；加上另一頁觸控誤觸仍只在 Mobile01，未達六人且跨兩站門檻。",
+          "reason": "原頁只有一位第一人稱溫度故障回報，另一位為正常使用分享；加上另一頁觸控誤觸仍只在 Mobile01，未達六人且跨兩站門檻。"
+        },
+        {
+          "url": "https://www.mobile01.com/topicdetail.php?f=729&t=7214072",
+          "title": "請問大家有推薦的廚下瞬熱嗎？ - Mobile01（內文：3M IH1000）",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-08",
+          "sourceExcerpt": "使用者 tux.lu 明載目前使用 3M IH1000，認為觸控電子龍頭過度敏感，隔著抹布也會誤觸。",
+          "independentAuthors": 1,
+          "specificReason": "只有一位 Mobile01 第一人稱使用者回報觸控誤觸；與另一頁的出水溫度異常不是同一問題，且沒有第二個原始網站證據。",
+          "reason": "只有一位 Mobile01 第一人稱使用者回報觸控誤觸；與另一頁的出水溫度異常不是同一問題，且沒有第二個原始網站證據。"
+        },
+        {
+          "url": "https://www.mobile01.com/topicdetail.php?f=729&t=7061441",
+          "title": "廚下淨水瞬熱機, 如何選擇? - Mobile01（內文：3M IH1000）",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-08",
+          "sourceExcerpt": "購買者「睡仔」表示已訂 3M IH1000，但尚未預約安裝即被告知有問題要召回，打算退訂。",
+          "independentAuthors": 0,
+          "specificReason": "尚未安裝或實際使用，且查無 3M 官方 exact-model 召回公告可交叉確認；只保留為候選，不計入第一人稱使用故障作者。",
+          "reason": "尚未安裝或實際使用，且查無 3M 官方 exact-model 召回公告可交叉確認；只保留為候選，不計入第一人稱使用故障作者。"
+        }
+      ]
+    },
+    {
+      "id": "waterdispenser-ke-kew-800u",
+      "category": "waterdispenser",
+      "brand": "嘉儀 KE",
+      "model": "KEW-800U",
+      "name": "超薄廚下型瞬熱飲水機",
+      "identity": {
+        "canonicalModel": "KEW-800U",
+        "lookupLabel": "嘉儀 KE KEW-800U",
+        "aliases": [
+          "嘉儀 KE KEW-800U"
+        ],
+        "evidenceUrl": "https://shop.kenk.com.tw/product-detail1417.htm"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "status": "completed",
+        "decision": "no_common_issue",
+        "reviewedAt": "2026-08-08",
+        "checkedPlatforms": [
+          "Mobile01",
+          "Reddit"
+        ],
+        "queries": [
+          {
+            "platform": "Mobile01",
+            "targetHost": "mobile01.com",
+            "query": "site:mobile01.com \"嘉儀 KE KEW-800U\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22%E5%98%89%E5%84%80%20KE%20KEW-800U%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)"
+          },
+          {
+            "platform": "Reddit",
+            "targetHost": "reddit.com",
+            "query": "site:reddit.com \"嘉儀 KE KEW-800U\" (problem OR issue OR defect OR negative review)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22%E5%98%89%E5%84%80%20KE%20KEW-800U%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)"
+          }
+        ],
+        "candidateDisposition": "KEW-800U：已完成人工覆核 Mobile01 與 Reddit exact-model 查詢；兩站未留下可回到原頁的 exact-model 第一人稱問題候選。",
+        "representativeSources": [],
+        "candidateReviews": [],
+        "reviewerNote": "KEW-800U 於 2026-08-08 完成兩個獨立網站的 exact-model 人工查詢；搜尋頁只用於候選發現，未由摘要自動推定沒有負評。",
+        "attestation": "manual_cross_site_search_reviewed_no_candidate"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-08-08",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"嘉儀 KE KEW-800U\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22%E5%98%89%E5%84%80%20KE%20KEW-800U%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "mobile01.com"
+          },
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"嘉儀 KE KEW-800U\" (problem OR issue OR defect OR negative review)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22%E5%98%89%E5%84%80%20KE%20KEW-800U%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+            "targetHost": "reddit.com"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"嘉儀 KE KEW-800U\" (災情 OR 問題 OR 故障 OR 負評)",
+          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22%E5%98%89%E5%84%80%20KE%20KEW-800U%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-08-08T14:00:00+08:00"
+        },
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"嘉儀 KE KEW-800U\" (problem OR issue OR defect OR negative review)",
+          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22%E5%98%89%E5%84%80%20KE%20KEW-800U%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-08-08T14:00:00+08:00"
+        }
+      ],
+      "evidence": [],
+      "rejectedCandidates": []
+    },
+    {
+      "id": "waterdispenser-tiancom-tcih220",
+      "category": "waterdispenser",
+      "brand": "天康淨水",
+      "model": "TCIH220",
+      "name": "廚下雙溫觸控瞬熱飲水機",
+      "identity": {
+        "canonicalModel": "TCIH220",
+        "lookupLabel": "天康淨水 TCIH220",
+        "aliases": [
+          "天康淨水 TCIH220"
+        ],
+        "evidenceUrl": "https://tc-water.com.tw/product/tcih220/"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "status": "completed",
+        "decision": "no_common_issue",
+        "reviewedAt": "2026-08-08",
+        "checkedPlatforms": [
+          "Mobile01",
+          "Reddit"
+        ],
+        "queries": [
+          {
+            "platform": "Mobile01",
+            "targetHost": "mobile01.com",
+            "query": "site:mobile01.com \"天康淨水 TCIH220\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22%E5%A4%A9%E5%BA%B7%E6%B7%A8%E6%B0%B4%20TCIH220%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)"
+          },
+          {
+            "platform": "Reddit",
+            "targetHost": "reddit.com",
+            "query": "site:reddit.com \"天康淨水 TCIH220\" (problem OR issue OR defect OR negative review)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22%E5%A4%A9%E5%BA%B7%E6%B7%A8%E6%B0%B4%20TCIH220%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)"
+          }
+        ],
+        "candidateDisposition": "TCIH220：已完成人工覆核 Mobile01 與 Reddit exact-model 查詢；兩站未留下可回到原頁的 exact-model 第一人稱問題候選。",
+        "representativeSources": [],
+        "candidateReviews": [],
+        "reviewerNote": "TCIH220 於 2026-08-08 完成兩個獨立網站的 exact-model 人工查詢；搜尋頁只用於候選發現，未由摘要自動推定沒有負評。",
+        "attestation": "manual_cross_site_search_reviewed_no_candidate"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-08-08",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"天康淨水 TCIH220\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22%E5%A4%A9%E5%BA%B7%E6%B7%A8%E6%B0%B4%20TCIH220%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "mobile01.com"
+          },
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"天康淨水 TCIH220\" (problem OR issue OR defect OR negative review)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22%E5%A4%A9%E5%BA%B7%E6%B7%A8%E6%B0%B4%20TCIH220%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+            "targetHost": "reddit.com"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"天康淨水 TCIH220\" (災情 OR 問題 OR 故障 OR 負評)",
+          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22%E5%A4%A9%E5%BA%B7%E6%B7%A8%E6%B0%B4%20TCIH220%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-08-08T14:00:00+08:00"
+        },
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"天康淨水 TCIH220\" (problem OR issue OR defect OR negative review)",
+          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22%E5%A4%A9%E5%BA%B7%E6%B7%A8%E6%B0%B4%20TCIH220%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-08-08T14:00:00+08:00"
+        }
+      ],
+      "evidence": [],
+      "rejectedCandidates": []
+    },
+    {
+      "id": "waterdispenser-culligan-ave-t2800",
+      "category": "waterdispenser",
+      "brand": "Culligan",
+      "model": "AVE-T2800",
+      "name": "櫥下 RO 瞬熱雙溫飲水機",
+      "identity": {
+        "canonicalModel": "AVE-T2800",
+        "lookupLabel": "Culligan AVE-T2800",
+        "aliases": [
+          "Culligan AVE-T2800"
+        ],
+        "evidenceUrl": "https://www.clwater.com.tw/product-661-127.html"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "status": "completed",
+        "decision": "no_common_issue",
+        "reviewedAt": "2026-08-08",
+        "checkedPlatforms": [
+          "Mobile01",
+          "Reddit"
+        ],
+        "queries": [
+          {
+            "platform": "Mobile01",
+            "targetHost": "mobile01.com",
+            "query": "site:mobile01.com \"Culligan AVE-T2800\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Culligan%20AVE-T2800%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)"
+          },
+          {
+            "platform": "Reddit",
+            "targetHost": "reddit.com",
+            "query": "site:reddit.com \"Culligan AVE-T2800\" (problem OR issue OR defect OR negative review)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Culligan%20AVE-T2800%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)"
+          }
+        ],
+        "candidateDisposition": "AVE-T2800：已完成人工覆核 Mobile01 與 Reddit exact-model 查詢；原頁候選均未達同一問題六位獨立使用者且跨兩個網站門檻。",
+        "representativeSources": [
+          {
+            "platform": "Mobile01",
+            "title": "Culligan 櫥下 RO 瞬熱雙溫飲水機 AVE-T2800｜熱水即開即飲 - Mobile01",
+            "url": "https://www.mobile01.com/topicdetail.php?f=729&p=8&t=6951979"
+          }
+        ],
+        "candidateReviews": [
+          {
+            "url": "https://www.mobile01.com/topicdetail.php?f=729&p=8&t=6951979",
+            "title": "Culligan 櫥下 RO 瞬熱雙溫飲水機 AVE-T2800｜熱水即開即飲 - Mobile01",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-08-08",
+            "sourceExcerpt": "第 8 頁使用者「冰塵」明載自己使用 T2800，回報龍頭左右旋鈕內部結構間隙變大，有時關閉後仍出水，需再調整角度才能關掉。",
+            "independentAuthors": 1,
+            "specificReason": "只有 1 位 Mobile01 exact-model 第一人稱使用者回報旋鈕關水問題；其他回覆未形成六位同症狀作者，也沒有第二個原始網站證據。"
+          }
+        ],
+        "reviewerNote": "AVE-T2800 於 2026-08-08 完成兩個獨立網站的 exact-model 人工查詢；搜尋頁只用於候選發現，未由摘要自動推定沒有負評。",
+        "attestation": "manual_original_pages_reviewed"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-08-08",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"Culligan AVE-T2800\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Culligan%20AVE-T2800%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "mobile01.com"
+          },
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"Culligan AVE-T2800\" (problem OR issue OR defect OR negative review)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Culligan%20AVE-T2800%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+            "targetHost": "reddit.com"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Culligan AVE-T2800\" (災情 OR 問題 OR 故障 OR 負評)",
+          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Culligan%20AVE-T2800%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "result": "candidates_unverified_by_search_only",
+          "resultCount": 1,
+          "candidateUrls": [
+            "https://www.mobile01.com/topicdetail.php?f=729&p=8&t=6951979"
+          ],
+          "candidates": [
+            {
+              "url": "https://www.mobile01.com/topicdetail.php?f=729&p=8&t=6951979",
+              "title": "Culligan 櫥下 RO 瞬熱雙溫飲水機 AVE-T2800｜熱水即開即飲 - Mobile01"
+            }
+          ],
+          "inspectedAt": "2026-08-08T14:00:00+08:00"
+        },
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Culligan AVE-T2800\" (problem OR issue OR defect OR negative review)",
+          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Culligan%20AVE-T2800%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-08-08T14:00:00+08:00"
+        }
+      ],
+      "evidence": [],
+      "rejectedCandidates": [
+        {
+          "url": "https://www.mobile01.com/topicdetail.php?f=729&p=8&t=6951979",
+          "title": "Culligan 櫥下 RO 瞬熱雙溫飲水機 AVE-T2800｜熱水即開即飲 - Mobile01",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-08",
+          "sourceExcerpt": "第 8 頁使用者「冰塵」明載自己使用 T2800，回報龍頭左右旋鈕內部結構間隙變大，有時關閉後仍出水，需再調整角度才能關掉。",
+          "independentAuthors": 1,
+          "specificReason": "只有 1 位 Mobile01 exact-model 第一人稱使用者回報旋鈕關水問題；其他回覆未形成六位同症狀作者，也沒有第二個原始網站證據。",
+          "reason": "只有 1 位 Mobile01 exact-model 第一人稱使用者回報旋鈕關水問題；其他回覆未形成六位同症狀作者，也沒有第二個原始網站證據。"
+        }
+      ]
+    },
+    {
+      "id": "waterdispenser-dech-dh-1",
+      "category": "waterdispenser",
+      "brand": "DECH",
+      "model": "DH-1",
+      "name": "櫥下型瞬熱飲水機",
+      "identity": {
+        "canonicalModel": "DH-1",
+        "lookupLabel": "DECH DH-1",
+        "aliases": [
+          "DECH DH-1"
+        ],
+        "evidenceUrl": "https://www.dech.com.tw/shop/dech-9"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "status": "completed",
+        "decision": "no_common_issue",
+        "reviewedAt": "2026-08-08",
+        "checkedPlatforms": [
+          "Mobile01",
+          "Reddit"
+        ],
+        "queries": [
+          {
+            "platform": "Mobile01",
+            "targetHost": "mobile01.com",
+            "query": "site:mobile01.com \"DECH DH-1\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22DECH%20DH-1%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)"
+          },
+          {
+            "platform": "Reddit",
+            "targetHost": "reddit.com",
+            "query": "site:reddit.com \"DECH DH-1\" (problem OR issue OR defect OR negative review)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22DECH%20DH-1%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)"
+          }
+        ],
+        "candidateDisposition": "DH-1：已完成人工覆核 Mobile01 與 Reddit exact-model 查詢；兩站未留下可回到原頁的 exact-model 第一人稱問題候選。",
+        "representativeSources": [],
+        "candidateReviews": [],
+        "reviewerNote": "DH-1 於 2026-08-08 完成兩個獨立網站的 exact-model 人工查詢；搜尋頁只用於候選發現，未由摘要自動推定沒有負評。",
+        "attestation": "manual_cross_site_search_reviewed_no_candidate"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-08-08",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"DECH DH-1\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22DECH%20DH-1%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "mobile01.com"
+          },
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"DECH DH-1\" (problem OR issue OR defect OR negative review)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22DECH%20DH-1%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+            "targetHost": "reddit.com"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"DECH DH-1\" (災情 OR 問題 OR 故障 OR 負評)",
+          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22DECH%20DH-1%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-08-08T14:00:00+08:00"
+        },
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"DECH DH-1\" (problem OR issue OR defect OR negative review)",
+          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22DECH%20DH-1%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-08-08T14:00:00+08:00"
         }
       ],
       "evidence": [],

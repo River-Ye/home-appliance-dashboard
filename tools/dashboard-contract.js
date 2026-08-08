@@ -1,5 +1,5 @@
 const EXPECTED_CATEGORY_COUNT = 27;
-const EXPECTED_PRODUCT_COUNT = 751;
+const EXPECTED_PRODUCT_COUNT = 762;
 const MIN_PRODUCTS_PER_CATEGORY = 20;
 const EXPECTED_CATEGORY_PRODUCT_COUNTS = new Map([
   ["tv", 34],
@@ -20,7 +20,7 @@ const EXPECTED_CATEGORY_PRODUCT_COUNTS = new Map([
   ["blender", 24],
   ["coffee", 24],
   ["oven", 25],
-  ["waterdispenser", 23],
+  ["waterdispenser", 34],
   ["dishwasher", 25],
   ["bidet", 20],
   ["smartlock", 48],

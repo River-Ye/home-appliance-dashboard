@@ -74,6 +74,8 @@ const REVIEWED_PCHOME_BINDINGS = new Map([
   ["waterdispenser--uw-2262hw-1", "DMAWEM-A900GDIXH"],
   ["waterdispenser-extra-16-dsbe1fa900gsoln", "DMCI17-A900I6OFW"],
   ["waterdispenser-sakura-p0532", "DMCI0O-A900K3T62"],
+  ["waterdispenser-acuo-ur-3902aw-1", "DMAWI0-A900ITF3M"],
+  ["waterdispenser-haier-hr-wf-4tcro600", "DSBE1F-A900IHRME"],
   ["washerdryer-panasonic-na-sd10tb", "DPAI1H-A900JXCDB"],
   ["wifi-asus-zenwifi-bd5-2pack", "DSBC0Z-A900I6OJ2"],
 ]);

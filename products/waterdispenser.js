@@ -1906,6 +1906,935 @@
         }
       ]
     }
+  },
+  {
+    "id": "waterdispenser-acuo-ur-3902aw-1",
+    "category": "waterdispenser",
+    "rank": 24,
+    "topPick": false,
+    "budget": "mid",
+    "channel": "tw",
+    "brand": "賀眾牌",
+    "model": "UR-3902AW-1",
+    "name": "PREMIER 廚下冰溫瞬熱旗艦飲水機",
+    "price": {
+      "currency": "TWD",
+      "amount": 36800,
+      "converted": 36800,
+      "confidence": "PChome 2026-08-08 exact-model API 公開價 Price.P；Qty 20"
+    },
+    "image": "https://cs-a.ecimg.tw/items/DMAWI0A900ITF3M/000001_1781688918.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DMAWI0-A900ITF3M",
+    "buyLabel": "PChome 24h",
+    "specs": [
+      "600G RO／6 L 純水箱；純水製水量 1.5 L/min、純淨水流量 2.5 L/min",
+      "厚膜瞬熱、無熱缸；9 段水溫、6 段定量",
+      "冰水箱 0.8 L；90°C 熱水約 320 mL/min",
+      "尺寸：主機寬 18.3 x 深 46.7 x 高 46.3 cm；前置濾芯寬 16 x 深 15.5 x 高 38 cm",
+      "110V／60Hz、1600W；需獨立接地插座、進排水與龍頭孔",
+      "台灣原廠 1 年保固；原廠安裝自安裝日起算，自行安裝自送達日起算"
+    ],
+    "description": "UR-3902AW-1 將 600G RO、冰水與無熱缸瞬熱整合在廚下，適合需要多段溫度與較完整飲水功能的家庭。",
+    "pros": [
+      "110V／60Hz 較容易配合台灣住宅",
+      "冰水、常溫與瞬熱集中於同一系統",
+      "官方規格列出流量、尺寸與耗電"
+    ],
+    "cons": [
+      "6 L 純水箱與冰水模組會占用較多櫥下空間",
+      "1600W 仍應使用獨立接地插座",
+      "超出標準安裝範圍的鑽孔、延長配管或加壓／減壓設備需另行報價"
+    ],
+    "bestFor": "想一次取得 RO、冰水與瞬熱，且櫥下空間足以容納主機與前置濾芯的家庭。",
+    "recommendation": "110V 冰溫瞬熱補充推薦：功能完整，但應先丈量櫃體、確認插座迴路與後續濾芯費用。",
+    "score": 91,
+    "voltage": "110V／60Hz、1600W；需獨立接地插座，禁止與高功率家電共用延長線",
+    "warranty": "台灣原廠 1 年保固；原廠安裝自安裝日起算，自行安裝則自送達日起算，濾芯與不當安裝不在保固範圍",
+    "tags": [
+      "600G RO",
+      "瞬熱",
+      "冰溫熱",
+      "110V",
+      "無熱缸",
+      "多段溫控"
+    ],
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-08-08",
+      "note": "已查賀眾牌官方型錄、PChome、FindPrice、BigGo 與 LBJ exact-model 查詢；NT$36,800 只證明本輪現價，未取得可重現的歷史曲線與明確最低點日期，因此不以現價推定史低。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-08-08",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"賀眾牌 UR-3902AW-1\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22%E8%B3%80%E7%9C%BE%E7%89%8C%20UR-3902AW-1%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"賀眾牌 UR-3902AW-1\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22%E8%B3%80%E7%9C%BE%E7%89%8C%20UR-3902AW-1%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "targetHost": "reddit.com"
+        }
+      ]
+    }
+  },
+  {
+    "id": "waterdispenser-haier-hr-wf-4tcro600",
+    "category": "waterdispenser",
+    "rank": 25,
+    "topPick": false,
+    "budget": "value",
+    "channel": "tw",
+    "brand": "Haier",
+    "model": "HR-WF-4TCRO600",
+    "name": "鮮活 3.0 廚下 RO 四段溫控瞬熱飲水機",
+    "price": {
+      "currency": "TWD",
+      "amount": 32600,
+      "converted": 32600,
+      "confidence": "PChome 2026-08-08 exact-model 公開價 Price.P；Qty 5"
+    },
+    "image": "https://img.pchome.com.tw/cs/items/DSBE1FA900IHRME/000001_1742870958.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DSBE1F-A900IHRME",
+    "buyLabel": "PChome 24h",
+    "specs": [
+      "600G RO／0.0001 μm；淨水流量 1.56 L/min、總淨水量 4000 L",
+      "55°C 儲水槽結合瞬熱的雙模式；四段溫控、熱水能力 12 L/h",
+      "尺寸：寬 16 x 深 43.5 x 高 45 cm",
+      "220V、2150W；需由合格水電配置專用迴路",
+      "含台灣原廠一年保固與通路標示基本安裝"
+    ],
+    "description": "HR-WF-4TCRO600 以窄 16 公分機身整合 600G RO，採 55°C 儲水加瞬熱的混合模式；不是純無熱桶機，但確有瞬熱加熱能力。",
+    "pros": [
+      "600G RO 與瞬熱一體化",
+      "16 公分窄機身較利於櫥下配置",
+      "通路公開價與一年原廠保固清楚"
+    ],
+    "cons": [
+      "屬 55°C 儲水加瞬熱混合式，不是純無熱桶",
+      "2150W、220V 必須先確認專用迴路；官方 exact 頁未明列頻率",
+      "基本安裝不代表石材鑽孔與改管免費"
+    ],
+    "bestFor": "裝潢階段可預留 220V 專線，想以較低預算取得 600G RO 瞬熱一體機的家庭。",
+    "recommendation": "窄機身 RO 瞬熱補充推薦：公開價格具競爭力；下單前先取得配電、鑽孔與額外材料逐項報價。",
+    "score": 88,
+    "voltage": "220V、2150W；官方 exact 頁未明列頻率；須由合格水電配置專用迴路與接地",
+    "warranty": "台灣公司貨一年原廠保固；安裝範圍以通路與現場勘查為準",
+    "tags": [
+      "600G RO",
+      "瞬熱",
+      "四段溫控",
+      "窄機身",
+      "220V"
+    ],
+    "releaseDate": "2024-09-01",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-08-08",
+      "note": "已查 Haier 官方、PChome、FindPrice、BigGo 與 LBJ exact-model 查詢；PChome NT$32,600 是 2026-08-08 穩定現售價，其他較低當期 listing 的安裝範圍不一，且沒有可重現的歷史最低點日期，故維持 not_found。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-08-08",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Haier HR-WF-4TCRO600\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Haier%20HR-WF-4TCRO600%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Haier HR-WF-4TCRO600\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Haier%20HR-WF-4TCRO600%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "targetHost": "reddit.com"
+        }
+      ]
+    }
+  },
+  {
+    "id": "waterdispenser-ge-usb10b",
+    "category": "waterdispenser",
+    "rank": 26,
+    "topPick": false,
+    "budget": "value",
+    "channel": "tw",
+    "brand": "GE",
+    "model": "USB10B",
+    "name": "極熱 廚下五段溫控瞬熱飲水機",
+    "price": {
+      "currency": "TWD",
+      "amount": 25920,
+      "converted": 25920,
+      "confidence": "PChome 2026-08-08 exact-model API 公開價；正值 Price.Low 優先於 Price.P，Qty 5"
+    },
+    "image": "https://cs-a.ecimg.tw/items/DMAWHTA900JVB6I/000001_1775031754.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DMAWHT-A900JVB6I",
+    "buyLabel": "PChome 24h",
+    "specs": [
+      "無熱缸、約 3 秒瞬熱；五段溫控",
+      "熱水流量最高約 600 mL/min",
+      "尺寸：主機寬 10.5 x 深 29 x 高 35 cm；龍頭寬 18 x 高 27 cm",
+      "220V、3200W；須配置高功率專用迴路",
+      "註冊 App 並上傳購買證明後主機 2 年；水路板與加壓馬達 5 年"
+    ],
+    "description": "USB10B 以 10.5 公分超窄主機和 3200W 高功率瞬熱換取較快出水，適合裝潢時已能規劃合格 220V 專線的廚房。",
+    "pros": [
+      "無熱缸與高功率瞬熱",
+      "10.5 公分窄機身節省櫥下寬度",
+      "通路列出延長保固條件"
+    ],
+    "cons": [
+      "3200W 對線徑、斷路器與插座要求高",
+      "PChome 售價不含標準安裝，施工費需另估",
+      "需先確認濾水前端與濾芯組合"
+    ],
+    "bestFor": "能由合格水電預留高功率 220V 專線，並重視主機窄度與熱水速度的家庭。",
+    "recommendation": "高功率窄機身補充推薦：先讓安裝商書面確認線徑、斷路器、接地與責任界面，再決定是否購買。",
+    "score": 87,
+    "voltage": "220V、3200W；必須使用合格專用迴路、接地與相符斷路器，禁止用一般升壓器或延長線代替",
+    "warranty": "註冊 App 並上傳購買證明後主機 2 年；核心部件水路板與加壓馬達 5 年，實際適用條件以原廠公告與保證書為準",
+    "tags": [
+      "瞬熱",
+      "五段溫控",
+      "超窄主機",
+      "3200W",
+      "220V"
+    ],
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-08-08",
+      "note": "已查 GE 台灣通路、PChome、FindPrice、BigGo 與 LBJ exact-model 查詢；NT$25,920 僅為 2026-08-08 公開折扣現價，沒有可信歷史最低點日期，故不推定史低。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-08-08",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"GE USB10B\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22GE%20USB10B%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"GE USB10B\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22GE%20USB10B%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "targetHost": "reddit.com"
+        }
+      ]
+    }
+  },
+  {
+    "id": "waterdispenser-philips-aut7063r23-96",
+    "category": "waterdispenser",
+    "rank": 27,
+    "topPick": false,
+    "budget": "mid",
+    "channel": "tw",
+    "brand": "Philips",
+    "model": "AUT7063R23/96",
+    "name": "小淨靈 瞬熱式廚下 RO 淨水器",
+    "price": {
+      "currency": "TWD",
+      "amount": 39900,
+      "converted": 39900,
+      "confidence": "EZONE 2026-08-08 exact-model 公開價與尚有庫存狀態"
+    },
+    "image": "https://img.shoplineapp.com/media/image_clips/697acd643925d252f60efd0e/original.jpg?1769655651=&owner_id=562f154ce37ec6797200001d",
+    "buyUrl": "https://www.ezonelife.com.tw/products/aut7063r2396",
+    "buyLabel": "EZONE",
+    "specs": [
+      "900G RO／無儲水桶；淨水流量 2.3 L/min",
+      "官方明列瞬熱加熱系統、多段溫控與智能龍頭",
+      "尺寸：主機寬 45 x 深 15.2 x 高 42 cm；龍頭寬 6.1 x 高 35.9 cm",
+      "110V／60Hz、1600W；需獨立插座，禁止延長線",
+      "台灣通路明列 2 年全球保固"
+    ],
+    "description": "AUT7063R23/96 以 110V、900G RO、無桶直輸與瞬熱補足高流量廚下選項，機身深度僅約 15.2 公分但寬度達 45 公分。",
+    "pros": [
+      "110V／60Hz、900G RO 與無桶直輸",
+      "2.3 L/min 淨水流量",
+      "品牌官方 exact-model 規格與台灣通路保固資料完整"
+    ],
+    "cons": [
+      "45 公分機身寬度需先丈量櫃體",
+      "1600W 應使用獨立插座且禁延長線",
+      "較低價頁面有庫存狀態歧義，本卡採穩定現售頁"
+    ],
+    "bestFor": "希望使用 110V、重視高流量與無儲水桶，且櫥下橫向空間足夠的家庭。",
+    "recommendation": "900G 110V 瞬熱補充推薦：規格與保固證據完整；先確認 45 公分寬度、濾芯價格與安裝費。",
+    "score": 92,
+    "voltage": "110V／60Hz、1600W；需獨立接地插座，官方要求禁止使用延長線",
+    "warranty": "台灣 exact-model 通路明列 2 年全球保固；耗材與施工不在一般保固範圍",
+    "tags": [
+      "900G RO",
+      "瞬熱",
+      "無桶直輸",
+      "110V",
+      "高流量"
+    ],
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-08-08",
+      "note": "已查 Philips 台灣、EZONE、my-water、FindPrice 與 LBJ；NT$39,900 是穩定現售頁價格，另一 NT$32,900 頁同時出現貨到通知模板，均缺少歷史最低點日期，故不採為史低。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-08-08",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Philips AUT7063R23/96\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Philips%20AUT7063R23%2F96%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Philips AUT7063R23/96\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Philips%20AUT7063R23%2F96%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "targetHost": "reddit.com"
+        }
+      ]
+    }
+  },
+  {
+    "id": "waterdispenser-lg-wu525bs",
+    "category": "waterdispenser",
+    "rank": 28,
+    "topPick": false,
+    "budget": "premium",
+    "channel": "tw",
+    "brand": "LG",
+    "model": "WU525BS",
+    "name": "PuriCare 淨水 Bar 廚下型冰溫熱飲水機",
+    "price": {
+      "currency": "TWD",
+      "amount": 44900,
+      "converted": 44900,
+      "confidence": "LG 台灣 2026-08-08 官方 Product schema 公開價 NT$44,900、InStock"
+    },
+    "image": "https://www.lg.com/content/dam/channel/wcms/tw/images/water-purifier/all-water-purifier/wu525bs/gallery/basic.jpg",
+    "buyUrl": "https://www.lg.com/tw/water-purifier/all-water-purifier/wu525bs/",
+    "buyLabel": "LG 台灣官方",
+    "specs": [
+      "無水箱廚下型；瞬冰、瞬熱與常溫水",
+      "40／75／85°C 熱水；120／250／500 mL 定量",
+      "尺寸：主機寬 17 x 深 41 x 高 42 cm；龍頭直徑 4.8 x 深 18.8 x 高 26.4 cm",
+      "主機淨重 11.8 kg；ThinQ、UVnano 與機內管線高溫清潔",
+      "220V 專用 T 型插座、至少 15A；官方未公開頻率與額定功率"
+    ],
+    "description": "WU525BS 是 LG 台灣官方現售的廚下冰溫熱旗艦，提供無水箱、感應加熱、ThinQ、UVnano 與自動管線高溫清潔。",
+    "pros": [
+      "冰水、常溫與瞬熱整合",
+      "LG 官方直購、規格與售後政策清楚",
+      "ThinQ、UVnano 與自動高溫清潔便於維護"
+    ],
+    "cons": [
+      "需 220V 專用 T 型插座與至少 15A 負載",
+      "官方未公開額定頻率與功率，不可由 15A 反推",
+      "原頁體驗者實測設定溫度與杯中測得溫度有落差"
+    ],
+    "bestFor": "重視冰水、清潔自動化與品牌到府服務，且可配置 220V 專用插座的家庭。",
+    "recommendation": "冰溫熱智慧補充推薦：功能與官方售後完整；安裝前仍應書面確認頻率、功率、迴路及濾芯成本。",
+    "score": 93,
+    "voltage": "220V 專用 T 型插座、至少 15A、距主機 1 m 內且禁延長線；官方未公開額定頻率與功率",
+    "warranty": "全機 1 年；LG 官方服務政策另列 WU525BS 壓縮機 10 年保固，僅適用該零件與政策條件",
+    "tags": [
+      "瞬冰瞬熱",
+      "無水箱",
+      "ThinQ",
+      "UVnano",
+      "220V"
+    ],
+    "releaseDate": "2025-05-07",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-08-08",
+      "note": "已查 LG 台灣官方產品頁、官方商城、FindPrice、BigGo 與 LBJ exact-model 查詢；NT$44,900 只是本輪官方現價，未取得可重現的歷史曲線與最低點日期，故維持 not_found。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-08-08",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"LG WU525BS\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22LG%20WU525BS%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"LG WU525BS\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22LG%20WU525BS%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "targetHost": "reddit.com"
+        }
+      ]
+    }
+  },
+  {
+    "id": "waterdispenser-rewatt-yo-50",
+    "category": "waterdispenser",
+    "rank": 29,
+    "topPick": false,
+    "budget": "mid",
+    "channel": "tw",
+    "brand": "Rewatt × BRITA",
+    "model": "YO-50",
+    "name": "YO-50 瞬熱飲水機＋mypure P1 淨水組",
+    "price": {
+      "currency": "TWD",
+      "amount": 38500,
+      "converted": 38500,
+      "confidence": "Rewatt 台灣官方 2026-08-08 exact-model 組合公開價與立即購買入口"
+    },
+    "image": "https://www.rewatt.com.tw/wp-content/uploads/elementor/thumbs/BRITA-P1%E7%B5%84%E5%90%88-e1681435669237-q54roko68rk7f2dummzduob2l9dplaam21edwmtjnc.png",
+    "buyUrl": "https://www.rewatt.com.tw/yo50/",
+    "buyLabel": "Rewatt 台灣官方",
+    "specs": [
+      "YO-50 無熱缸瞬熱＋BRITA mypure P1 櫥下淨水組",
+      "常溫／45／65／85／100°C；四段定量出水",
+      "尺寸：主機寬 10.6 x 深 39.5 x 高 36.3 cm；龍頭寬 3.5 x 深 17.7 x 高 27.6 cm",
+      "220V／60Hz、0–2200W；線徑 3.5 mm²",
+      "冷水箱定時 UV；全機 2 年保固、含標準安裝"
+    ],
+    "description": "YO-50 採無熱缸石英瞬熱並搭配 BRITA mypure P1，主機僅 10.6 公分寬，另有冷水箱 UV 與五段溫控。",
+    "pros": [
+      "無熱缸瞬熱與五段溫控",
+      "10.6 公分窄機身",
+      "官方列出 2 年保固與標準安裝範圍"
+    ],
+    "cons": [
+      "220V 專用迴路、線徑與插座需先規劃",
+      "冷水箱並非完全無儲水設計",
+      "官方 FAQ 說明初期可能有矽膠氣味、關水後殘水滴出屬正常現象"
+    ],
+    "bestFor": "想要窄機身、多段瞬熱與 BRITA 濾水組，且能配置 220V 專線的家庭。",
+    "recommendation": "窄機身組合補充推薦：2 年保固與安裝條件公開；購買前仍應確認冷水箱、鑽孔與額外配電費。",
+    "score": 90,
+    "voltage": "220V／60Hz、最高 2200W；官方要求專用迴路與插座，建議由合格水電確認 3.5 mm² 線徑",
+    "warranty": "Rewatt 台灣官方全機 2 年保固；特殊石材鑽孔、額外配管與配電另行報價",
+    "tags": [
+      "瞬熱",
+      "BRITA",
+      "五段溫控",
+      "UV",
+      "窄機身",
+      "220V"
+    ],
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-08-08",
+      "note": "已查 Rewatt 官方 YO-50 頁、BRITA 組合價、FindPrice、BigGo 與 LBJ；NT$38,500 是 2026-08-08 公開組合現價，未取得可重現歷史最低點日期，不以現價推定史低。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-08-08",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Rewatt × BRITA YO-50\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Rewatt%20%C3%97%20BRITA%20YO-50%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Rewatt × BRITA YO-50\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Rewatt%20%C3%97%20BRITA%20YO-50%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "targetHost": "reddit.com"
+        }
+      ]
+    }
+  },
+  {
+    "id": "waterdispenser-3m-ih1000",
+    "category": "waterdispenser",
+    "rank": 30,
+    "topPick": false,
+    "budget": "mid",
+    "channel": "tw",
+    "brand": "3M",
+    "model": "IH1000",
+    "name": "IH1000 瞬熱熱飲機＋3US-MAX-S01H 淨水組",
+    "price": {
+      "currency": "TWD",
+      "amount": 38900,
+      "converted": 38900,
+      "confidence": "樂天市場大大淨水直營店 2026-08-08 exact-product JSON-LD 公開價 NT$38,900、InStock"
+    },
+    "image": "https://i2.momoshop.com.tw/1782109092/goodsimg/0014/461/520/14461520_R_m.webp",
+    "buyUrl": "https://www.rakuten.com.tw/shop/dadawater/product/891110122/",
+    "buyLabel": "樂天市場－大大淨水直營店",
+    "specs": [
+      "IH1000 無熱缸變頻瞬熱＋3US-MAX-S01H 生飲淨水組",
+      "25°C 加熱至 95°C 約 20 秒；熱水連續流量約 450 mL/min",
+      "尺寸：主機寬 26.5 x 深 7.6 x 高 27.7 cm；龍頭寬 4.2 x 深 22.8 x 高 21.9 cm",
+      "220V／60Hz；加熱 3000W、待機 6.75W",
+      "主機約 4.5 kg；台灣原廠 1 年保固與到府安裝"
+    ],
+    "description": "IH1000 是 3M 的無熱缸瞬熱模組，本組搭配 3US-MAX-S01H 與軟水前置，採 220V／3000W 高功率設計。",
+    "pros": [
+      "3M 濾材與台灣售後體系",
+      "無熱缸瞬熱、漏水斷路與軟水前置組合",
+      "主機深度僅 7.6 公分"
+    ],
+    "cons": [
+      "3000W 需合格 220V 專線與適當水壓",
+      "95°C 出水前需等待約 20 秒",
+      "兩位 Mobile01 使用者分別回報溫度異常與觸控龍頭容易誤觸，未達集中災情門檻"
+    ],
+    "bestFor": "偏好 3M 濾材與售後、裝潢時可配置 220V 高功率專線，且能接受熱水啟動等待的人。",
+    "recommendation": "3M 瞬熱補充推薦：濾材與安裝資源成熟；驗收時應實測 95°C 水溫、觸控靈敏度、水壓與漏水保護。",
+    "score": 89,
+    "voltage": "220V／60Hz、加熱 3000W；需合格專用迴路、接地與相符線徑／斷路器，勿使用一般升壓器",
+    "warranty": "台灣原廠 1 年保固；耗材、軟水前置與額外施工範圍依通路條款",
+    "tags": [
+      "瞬熱",
+      "3M MAX",
+      "無熱缸",
+      "3000W",
+      "220V",
+      "軟水前置"
+    ],
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-08-08",
+      "note": "已查 3M 官方、樂天大大淨水、momo、FindPrice 與 LBJ；NT$38,900 是 2026-08-08 樂天 exact-product JSON-LD 公開現價，未取得帶日期的可信歷史最低價紀錄，不以現價推定史低。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-08-08",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"3M IH1000\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%223M%20IH1000%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"3M IH1000\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%223M%20IH1000%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "targetHost": "reddit.com"
+        }
+      ]
+    }
+  },
+  {
+    "id": "waterdispenser-ke-kew-800u",
+    "category": "waterdispenser",
+    "rank": 31,
+    "topPick": false,
+    "budget": "mid",
+    "channel": "tw",
+    "brand": "嘉儀 KE",
+    "model": "KEW-800U",
+    "name": "超薄廚下型瞬熱飲水機",
+    "price": {
+      "currency": "TWD",
+      "amount": 28000,
+      "converted": 28000,
+      "confidence": "嘉儀 KE 台灣官方商城 2026-08-08 exact-model JSON-LD 公開價與可加入購物車狀態"
+    },
+    "image": "https://shop.kenk.com.tw/Upload/202508/product_2025080608363501.jpg",
+    "buyUrl": "https://shop.kenk.com.tw/product-detail1417.htm",
+    "buyLabel": "嘉儀 KE 官方商城",
+    "specs": [
+      "無內膽／無熱缸精準瞬熱；需搭配可生飲前端淨水器",
+      "超薄 9 公分主機；App 遠端設定",
+      "尺寸：長 31.5 x 寬 9 x 高 35.5 cm（官方標示順序）",
+      "220V／60Hz、2800W",
+      "無鉛、BPA Free；官方商城含基本安裝，特殊鑽孔另計；全機原廠 1 年保固"
+    ],
+    "description": "KEW-800U 是 9 公分超薄的無熱缸瞬熱主機，可搭配既有可生飲淨水器，適合櫥下寬度有限但已預留 220V 專線的廚房。",
+    "pros": [
+      "9 公分超薄機身",
+      "無熱缸瞬熱與 App 設定",
+      "官方商城 exact-model 現售與基本安裝入口"
+    ],
+    "cons": [
+      "不是獨立 RO 淨水機，必須另配可生飲前端",
+      "2800W 需 220V 高功率專線",
+      "不同通路的安裝費與跨區運費條件不同，需下單前逐項確認"
+    ],
+    "bestFor": "已有可信淨水器、櫥下寬度有限，並可配置 220V 專線的家庭。",
+    "recommendation": "超薄瞬熱補充推薦：適合既有濾水系統升級；先核對前端流量、水質、保固與額外施工。",
+    "score": 85,
+    "voltage": "220V／60Hz、2800W；需合格專用迴路、接地與適當散熱空間",
+    "warranty": "台灣 exact-model 原廠公司貨通路明列全機 1 年保固；安裝、跨區運費與耗材依通路條款",
+    "tags": [
+      "瞬熱",
+      "超薄",
+      "無熱缸",
+      "App",
+      "220V",
+      "需搭淨水器"
+    ],
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-08-08",
+      "note": "已查嘉儀 KE 官方商城、FindPrice、BigGo、飛比與 LBJ exact-model 查詢；NT$28,000 只證明本輪官方現價，未找到可重現歷史最低點日期，故維持 not_found。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-08-08",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"嘉儀 KE KEW-800U\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22%E5%98%89%E5%84%80%20KE%20KEW-800U%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"嘉儀 KE KEW-800U\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22%E5%98%89%E5%84%80%20KE%20KEW-800U%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "targetHost": "reddit.com"
+        }
+      ]
+    }
+  },
+  {
+    "id": "waterdispenser-tiancom-tcih220",
+    "category": "waterdispenser",
+    "rank": 32,
+    "topPick": false,
+    "budget": "mid",
+    "channel": "tw",
+    "brand": "天康淨水",
+    "model": "TCIH220",
+    "name": "廚下雙溫觸控瞬熱飲水機",
+    "price": {
+      "currency": "TWD",
+      "amount": 35800,
+      "converted": 35800,
+      "confidence": "天康淨水台灣官方商城 2026-08-08 exact-model 公開價、尚有庫存與直接購買狀態"
+    },
+    "image": "https://tc-water.com.tw/wp-content/uploads/2025/10/TCIH220-02-1024x1024.jpg",
+    "buyUrl": "https://tc-water.com.tw/product/tcih220/",
+    "buyLabel": "天康淨水官方商城",
+    "specs": [
+      "無熱缸、無壓力瞬熱；觸控防燙龍頭",
+      "25／45／85／100°C；100°C 熱水約 0.6 L/min",
+      "尺寸：寬 12 x 深 27 x 高 32 cm；龍頭孔徑 30 mm",
+      "需搭配可生飲前端淨水系統",
+      "220V；官方購買頁未公開額定頻率與功率"
+    ],
+    "description": "TCIH220 是 12 公分窄身的雙溫觸控瞬熱主機，官方現售頁明確標示無熱缸與四段溫度，但電力規格需在下單前補齊。",
+    "pros": [
+      "12 公分窄身與無熱缸瞬熱",
+      "100°C 熱水流量公開",
+      "台灣官方商城現貨與安裝諮詢入口"
+    ],
+    "cons": [
+      "官方公開頁只確認 220V，未列頻率與功率，不能自行推算",
+      "需另搭可生飲前端淨水器",
+      "配電責任需在下單前書面確認"
+    ],
+    "bestFor": "願意先由天康書面確認完整電力、保固與濾水搭配，且重視窄機身與四段水溫的人。",
+    "recommendation": "窄身雙溫補充推薦：瞬熱條件明確，但電力與保固資料不完整；未取得書面規格前不建議直接下單。",
+    "score": 82,
+    "voltage": "220V；官方 exact-model 頁未標示額定頻率與功率，安裝前必須向天康書面確認專用迴路、線徑與接地",
+    "warranty": "台灣原廠 1 年保固；濾芯、額外管線與施工責任依官方條款",
+    "tags": [
+      "瞬熱",
+      "四段溫控",
+      "窄機身",
+      "需搭淨水器",
+      "電力待確認"
+    ],
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-08-08",
+      "note": "已查天康官方商城、FindPrice、BigGo、飛比與 LBJ exact-model 查詢；NT$35,800 僅為本輪現價，未取得可重現歷史最低點日期，故維持 not_found。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-08-08",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"天康淨水 TCIH220\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22%E5%A4%A9%E5%BA%B7%E6%B7%A8%E6%B0%B4%20TCIH220%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"天康淨水 TCIH220\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22%E5%A4%A9%E5%BA%B7%E6%B7%A8%E6%B0%B4%20TCIH220%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "targetHost": "reddit.com"
+        }
+      ]
+    }
+  },
+  {
+    "id": "waterdispenser-culligan-ave-t2800",
+    "category": "waterdispenser",
+    "rank": 33,
+    "topPick": false,
+    "budget": "mid",
+    "channel": "tw",
+    "brand": "Culligan",
+    "model": "AVE-T2800",
+    "name": "櫥下 RO 瞬熱雙溫飲水機",
+    "price": {
+      "currency": "TWD",
+      "amount": 39800,
+      "converted": 39800,
+      "confidence": "川菱淨水 2026-08-08 exact-model 公開價與可加入購物車狀態；Yahoo、星泉通路交叉核對"
+    },
+    "image": "https://www.clwater.com.tw/uploads/product/202603/202603041250139f66.png",
+    "buyUrl": "https://www.clwater.com.tw/product-661-127.html",
+    "buyLabel": "川菱淨水",
+    "specs": [
+      "五合一 RO／無熱缸瞬熱；25／45／95°C",
+      "常溫水約 2.8 L/min；95°C 熱水約 0.4 L/min",
+      "尺寸：主機寬 14.8 x 深 29.8 x 高 44.6 cm；淨重 10 kg",
+      "220V／60Hz、2100W；需專用迴路",
+      "台灣公司貨 1 年原廠保固"
+    ],
+    "description": "AVE-T2800 將 RO 與無熱缸瞬熱整合於 14.8 公分窄身主機，熱水流量較保守，適合以飲用與沖泡為主的家庭。",
+    "pros": [
+      "RO 與瞬熱一體化",
+      "14.8 公分窄身、常溫流量 2.8 L/min",
+      "台灣多個可信通路可交叉核對"
+    ],
+    "cons": [
+      "需 220V／60Hz 專用迴路",
+      "95°C 熱水流量約 0.4 L/min，不適合快速裝大鍋",
+      "Mobile01 有 1 位 T2800 使用者回報龍頭旋鈕間隙變大、關閉後仍出水；未達集中災情門檻"
+    ],
+    "bestFor": "以喝水、泡茶咖啡為主，能接受高溫出水較慢並可配置 220V 專線的家庭。",
+    "recommendation": "RO 瞬熱補充推薦：機身窄且通路完整；購買前實測高溫流量並確認安裝、濾芯與一年後維護費。",
+    "score": 86,
+    "voltage": "220V／60Hz、2100W；需由合格水電配置專用迴路、接地與相符斷路器",
+    "warranty": "台灣公司貨 1 年原廠保固；耗材、鑽孔與額外施工依通路條款",
+    "tags": [
+      "RO",
+      "瞬熱",
+      "雙溫",
+      "窄機身",
+      "220V"
+    ],
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-08-08",
+      "note": "已查川菱淨水、星泉、Yahoo、FindPrice 與 LBJ exact-model 查詢；NT$39,800 是本輪現價，未取得可重現的歷史最低點日期，故維持 not_found。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-08-08",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Culligan AVE-T2800\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Culligan%20AVE-T2800%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Culligan AVE-T2800\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Culligan%20AVE-T2800%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "targetHost": "reddit.com"
+        }
+      ]
+    }
+  },
+  {
+    "id": "waterdispenser-dech-dh-1",
+    "category": "waterdispenser",
+    "rank": 34,
+    "topPick": false,
+    "budget": "mid",
+    "channel": "tw",
+    "brand": "DECH",
+    "model": "DH-1",
+    "name": "櫥下型瞬熱飲水機",
+    "price": {
+      "currency": "TWD",
+      "amount": 28800,
+      "converted": 28800,
+      "confidence": "DECH 台灣官方商城 2026-08-08 公開價與可加入購物車／立即購買狀態"
+    },
+    "image": "https://attach.mobile01.com/attach/202506/mobile01-1fe83b9868f02c2244bbeba402e0c5cd.jpg",
+    "buyUrl": "https://www.dech.com.tw/shop/dech-9",
+    "buyLabel": "DECH 官方商城",
+    "specs": [
+      "原廠明列無須儲水的瞬間加熱；約 5–7 秒達設定溫度",
+      "92°C 熱水約 300–330 mL/min；需另配可生飲前端淨水",
+      "尺寸：主機 17L x 16W x 35.4H cm、3.9 kg；龍頭 21L x 2.5W x 24H cm、0.3 kg",
+      "AC 110V／60Hz；輸入 12–15A、待機 2W，官方未公開額定瓦數",
+      "需 2.0 mm² 以上獨立三孔迴路、15A 以上漏電斷路器與接地"
+    ],
+    "description": "DH-1 是台灣設計製造的 110V 無儲熱槽瞬熱主機，體積小且電力條件公開，但售價不含前端濾心與安裝。",
+    "pros": [
+      "110V／60Hz 無儲熱槽瞬熱",
+      "官方說明書、購買與保固條件可 exact-model 對齊",
+      "主機僅 3.9 kg、適合櫥下配置"
+    ],
+    "cons": [
+      "不含濾心、前端淨水設備與安裝服務",
+      "需 15A 獨立迴路、漏電斷路器與接地",
+      "溫度顯示位於廚下主機而非龍頭"
+    ],
+    "bestFor": "想用 110V 無儲熱槽瞬熱、已有或另行規劃前端淨水，並能安排獨立迴路的家庭。",
+    "recommendation": "MIT 110V 瞬熱補充推薦：電力與保固條件透明；總成本要把濾水器、安裝、鑽孔與配電一併計入。",
+    "score": 89,
+    "voltage": "AC 110V／60Hz、輸入 12–15A、待機 2W；需 2.0 mm² 以上獨立三孔迴路、15A 以上漏電斷路器與接地",
+    "warranty": "全機自出貨日起 13 個月（實際保固 12 個月＋寄送往來 1 個月）；濾心、外接管線、濾頭與水閥不在範圍",
+    "tags": [
+      "瞬熱",
+      "無儲熱槽",
+      "110V",
+      "MIT",
+      "需搭淨水器"
+    ],
+    "releaseDate": "2025-06-05",
+    "historicalLow": {
+      "status": "found",
+      "amount": 24999,
+      "currency": "TWD",
+      "converted": 24999,
+      "sourceUrl": "https://www.winnews.com.tw/230549/",
+      "sourceTitle": "告別吃電怪獸！DECH瞬熱飲水機一鍵即熱，高效節能新登場",
+      "evidenceSnippet": "新品報導明載 DECH 瞬熱飲水機於 2025-06-05 在官方電商開始預購，首月限量 100 台優惠價 NT$24,999。",
+      "sourceKind": "retailer_promo",
+      "confidence": "medium",
+      "checkedAt": "2026-08-08",
+      "note": "2025-06-05 首賣限量 100 台且已結束；非會員個人化、信用卡、點數、二手或福利品價。報導未印 DH-1，exact identity 以官方商品頁直連的 DH-1 說明書交叉確認。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-08-08",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"DECH DH-1\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22DECH%20DH-1%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"DECH DH-1\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22DECH%20DH-1%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "targetHost": "reddit.com"
+        }
+      ]
+    }
   }
 ]);
 })();

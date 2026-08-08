@@ -1,15 +1,15 @@
 {
   "summary": {
     "checkedAt": "2026-08-08T00:00:00.000+08:00",
-    "sourcePolicy": "2026-08-08 以 750 筆基準清單全量查核現價、購買連結與可信新品狀態，並複核最終 751 筆商品圖片、全部 465 筆 found 史低來源、原廠停產訊號與同批次匯率。PChome exact-model 現貨頁有正值 Price.Low 時採公開折扣價，否則採 Price.P；Qty 0、福利品、展示機與配件不寫回。其他頁面的結構化價格差異列入人工覆核候選，阻擋、暫時錯誤與單次頁面失效只列稽核，不臆測停產或史低失效。",
-    "total": 751,
-    "researchedThisRun": 751,
-    "found": 465,
-    "missing": 286,
+    "sourcePolicy": "2026-08-08 以 751 筆基準清單全量查核現價、購買連結與可信新品狀態，並複核最終 762 筆商品圖片、全部 466 筆 found 史低來源、原廠停產訊號與同批次匯率。PChome exact-model 現貨頁有正值 Price.Low 時採公開折扣價，否則採 Price.P；Qty 0、福利品、展示機與配件不寫回。其他頁面的結構化價格差異列入人工覆核候選，阻擋、暫時錯誤與單次頁面失效只列稽核，不臆測停產或史低失效。",
+    "total": 762,
+    "researchedThisRun": 762,
+    "found": 466,
+    "missing": 296,
     "byConfidence": {
-      "not_found": 286,
+      "not_found": 296,
       "high": 309,
-      "medium": 156
+      "medium": 157
     },
     "exchange": {
       "USD_TWD": 32.196077,
@@ -20,11 +20,11 @@
       "CNY_TWD": 4.762962977208664,
       "KRW_TWD": 0.02280773585261652
     },
-    "lastMaintenanceCheckAt": "2026-08-08T05:20:49.216Z",
-    "currentPriceChanged": 46,
+    "lastMaintenanceCheckAt": "2026-08-08T06:50:19.648Z",
+    "currentPriceChanged": 0,
     "currentBuyLinkChanged": 0,
-    "currentPriceDrops": 19,
-    "currentPriceRises": 27,
+    "currentPriceDrops": 0,
+    "currentPriceRises": 0,
     "currentPriceFallbacks": 0,
     "historicalLowUpdated": 0,
     "historicalLowInvalidated": 0,
@@ -32,7 +32,7 @@
     "catalogReplacementNotes": [],
     "currentImageChanged": 0,
     "discontinuedRemoved": 0,
-    "newProductsAdded": 1,
+    "newProductsAdded": 11,
     "discontinuedRemovalNotes": [],
     "catalogEntriesRemoved": 0,
     "catalogRemovalNotes": []
@@ -18535,6 +18535,371 @@
         "BigGo Circle Reverse Osmosis: 查詢失敗 429 https://biggo.com.tw/api/v1/spa/search/Circle%20Reverse%20Osmosis/product?p=1",
         "[2026-07-11] 整合品質閘門：查核結果明確保留原值 fallback",
         "[2026-07-11] 現價查核例外：Current Costco US product page: HTTP 403"
+      ]
+    },
+    {
+      "id": "waterdispenser-acuo-ur-3902aw-1",
+      "category": "waterdispenser",
+      "brand": "賀眾牌",
+      "model": "UR-3902AW-1",
+      "name": "PREMIER 廚下冰溫瞬熱旗艦飲水機",
+      "currentPrice": 36800,
+      "currentCurrency": "TWD",
+      "currentBuyUrl": "https://24h.pchome.com.tw/prod/DMAWI0-A900ITF3M",
+      "currentBuyLabel": "PChome 24h",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "TWD",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-08-08",
+        "note": "已查賀眾牌官方型錄、PChome、FindPrice、BigGo 與 LBJ exact-model 查詢；NT$36,800 只證明本輪現價，未取得可重現的歷史曲線與明確最低點日期，因此不以現價推定史低。"
+      },
+      "checkedSources": [
+        "https://24h.pchome.com.tw/prod/DMAWI0-A900ITF3M",
+        "https://www.findprice.com.tw/g/%E8%B3%80%E7%9C%BE%E7%89%8C%20UR-3902AW-1",
+        "https://biggo.com.tw/s/%E8%B3%80%E7%9C%BE%E7%89%8C%20UR-3902AW-1",
+        "https://www.lbj.tw/BJ/Query.aspx?k=%E8%B3%80%E7%9C%BE%E7%89%8C%20UR-3902AW-1"
+      ],
+      "rejectedCandidates": [
+        "本輪公開售價只能證明 2026-08-08 現價；沒有可重現歷史曲線與明確最低點日期，因此不採現價或條件式優惠推定史低。"
+      ]
+    },
+    {
+      "id": "waterdispenser-haier-hr-wf-4tcro600",
+      "category": "waterdispenser",
+      "brand": "Haier",
+      "model": "HR-WF-4TCRO600",
+      "name": "鮮活 3.0 廚下 RO 四段溫控瞬熱飲水機",
+      "currentPrice": 32600,
+      "currentCurrency": "TWD",
+      "currentBuyUrl": "https://24h.pchome.com.tw/prod/DSBE1F-A900IHRME",
+      "currentBuyLabel": "PChome 24h",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "TWD",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-08-08",
+        "note": "已查 Haier 官方、PChome、FindPrice、BigGo 與 LBJ exact-model 查詢；PChome NT$32,600 是 2026-08-08 穩定現售價，其他較低當期 listing 的安裝範圍不一，且沒有可重現的歷史最低點日期，故維持 not_found。"
+      },
+      "checkedSources": [
+        "https://24h.pchome.com.tw/prod/DSBE1F-A900IHRME",
+        "https://www.findprice.com.tw/g/Haier%20HR-WF-4TCRO600",
+        "https://biggo.com.tw/s/Haier%20HR-WF-4TCRO600",
+        "https://www.lbj.tw/BJ/Query.aspx?k=Haier%20HR-WF-4TCRO600"
+      ],
+      "rejectedCandidates": [
+        "本輪公開售價只能證明 2026-08-08 現價；沒有可重現歷史曲線與明確最低點日期，因此不採現價或條件式優惠推定史低。"
+      ]
+    },
+    {
+      "id": "waterdispenser-ge-usb10b",
+      "category": "waterdispenser",
+      "brand": "GE",
+      "model": "USB10B",
+      "name": "極熱 廚下五段溫控瞬熱飲水機",
+      "currentPrice": 25920,
+      "currentCurrency": "TWD",
+      "currentBuyUrl": "https://24h.pchome.com.tw/prod/DMAWHT-A900JVB6I",
+      "currentBuyLabel": "PChome 24h",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "TWD",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-08-08",
+        "note": "已查 GE 台灣通路、PChome、FindPrice、BigGo 與 LBJ exact-model 查詢；NT$25,920 僅為 2026-08-08 公開折扣現價，沒有可信歷史最低點日期，故不推定史低。"
+      },
+      "checkedSources": [
+        "https://24h.pchome.com.tw/prod/DMAWHT-A900JVB6I",
+        "https://www.findprice.com.tw/g/GE%20USB10B",
+        "https://biggo.com.tw/s/GE%20USB10B",
+        "https://www.lbj.tw/BJ/Query.aspx?k=GE%20USB10B"
+      ],
+      "rejectedCandidates": [
+        "本輪公開售價只能證明 2026-08-08 現價；沒有可重現歷史曲線與明確最低點日期，因此不採現價或條件式優惠推定史低。"
+      ]
+    },
+    {
+      "id": "waterdispenser-philips-aut7063r23-96",
+      "category": "waterdispenser",
+      "brand": "Philips",
+      "model": "AUT7063R23/96",
+      "name": "小淨靈 瞬熱式廚下 RO 淨水器",
+      "currentPrice": 39900,
+      "currentCurrency": "TWD",
+      "currentBuyUrl": "https://www.ezonelife.com.tw/products/aut7063r2396",
+      "currentBuyLabel": "EZONE",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "TWD",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-08-08",
+        "note": "已查 Philips 台灣、EZONE、my-water、FindPrice 與 LBJ；NT$39,900 是穩定現售頁價格，另一 NT$32,900 頁同時出現貨到通知模板，均缺少歷史最低點日期，故不採為史低。"
+      },
+      "checkedSources": [
+        "https://www.ezonelife.com.tw/products/aut7063r2396",
+        "https://www.findprice.com.tw/g/Philips%20AUT7063R23%2F96",
+        "https://biggo.com.tw/s/Philips%20AUT7063R23%2F96",
+        "https://www.lbj.tw/BJ/Query.aspx?k=Philips%20AUT7063R23%2F96"
+      ],
+      "rejectedCandidates": [
+        "本輪公開售價只能證明 2026-08-08 現價；沒有可重現歷史曲線與明確最低點日期，因此不採現價或條件式優惠推定史低。"
+      ]
+    },
+    {
+      "id": "waterdispenser-lg-wu525bs",
+      "category": "waterdispenser",
+      "brand": "LG",
+      "model": "WU525BS",
+      "name": "PuriCare 淨水 Bar 廚下型冰溫熱飲水機",
+      "currentPrice": 44900,
+      "currentCurrency": "TWD",
+      "currentBuyUrl": "https://www.lg.com/tw/water-purifier/all-water-purifier/wu525bs/",
+      "currentBuyLabel": "LG 台灣官方",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "TWD",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-08-08",
+        "note": "已查 LG 台灣官方產品頁、官方商城、FindPrice、BigGo 與 LBJ exact-model 查詢；NT$44,900 只是本輪官方現價，未取得可重現的歷史曲線與最低點日期，故維持 not_found。"
+      },
+      "checkedSources": [
+        "https://www.lg.com/tw/water-purifier/all-water-purifier/wu525bs/",
+        "https://www.findprice.com.tw/g/LG%20WU525BS",
+        "https://biggo.com.tw/s/LG%20WU525BS",
+        "https://www.lbj.tw/BJ/Query.aspx?k=LG%20WU525BS"
+      ],
+      "rejectedCandidates": [
+        "本輪公開售價只能證明 2026-08-08 現價；沒有可重現歷史曲線與明確最低點日期，因此不採現價或條件式優惠推定史低。"
+      ]
+    },
+    {
+      "id": "waterdispenser-rewatt-yo-50",
+      "category": "waterdispenser",
+      "brand": "Rewatt × BRITA",
+      "model": "YO-50",
+      "name": "YO-50 瞬熱飲水機＋mypure P1 淨水組",
+      "currentPrice": 38500,
+      "currentCurrency": "TWD",
+      "currentBuyUrl": "https://www.rewatt.com.tw/yo50/",
+      "currentBuyLabel": "Rewatt 台灣官方",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "TWD",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-08-08",
+        "note": "已查 Rewatt 官方 YO-50 頁、BRITA 組合價、FindPrice、BigGo 與 LBJ；NT$38,500 是 2026-08-08 公開組合現價，未取得可重現歷史最低點日期，不以現價推定史低。"
+      },
+      "checkedSources": [
+        "https://www.rewatt.com.tw/yo50/",
+        "https://www.findprice.com.tw/g/Rewatt%20%C3%97%20BRITA%20YO-50",
+        "https://biggo.com.tw/s/Rewatt%20%C3%97%20BRITA%20YO-50",
+        "https://www.lbj.tw/BJ/Query.aspx?k=Rewatt%20%C3%97%20BRITA%20YO-50"
+      ],
+      "rejectedCandidates": [
+        "本輪公開售價只能證明 2026-08-08 現價；沒有可重現歷史曲線與明確最低點日期，因此不採現價或條件式優惠推定史低。"
+      ]
+    },
+    {
+      "id": "waterdispenser-3m-ih1000",
+      "category": "waterdispenser",
+      "brand": "3M",
+      "model": "IH1000",
+      "name": "IH1000 瞬熱熱飲機＋3US-MAX-S01H 淨水組",
+      "currentPrice": 38900,
+      "currentCurrency": "TWD",
+      "currentBuyUrl": "https://www.rakuten.com.tw/shop/dadawater/product/891110122/",
+      "currentBuyLabel": "樂天市場－大大淨水直營店",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "TWD",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-08-08",
+        "note": "已查 3M 官方、樂天大大淨水、momo、FindPrice 與 LBJ；NT$38,900 是 2026-08-08 樂天 exact-product JSON-LD 公開現價，未取得帶日期的可信歷史最低價紀錄，不以現價推定史低。"
+      },
+      "checkedSources": [
+        "https://www.rakuten.com.tw/shop/dadawater/product/891110122/",
+        "https://www.findprice.com.tw/g/3M%20IH1000",
+        "https://biggo.com.tw/s/3M%20IH1000",
+        "https://www.lbj.tw/BJ/Query.aspx?k=3M%20IH1000"
+      ],
+      "rejectedCandidates": [
+        "本輪公開售價只能證明 2026-08-08 現價；沒有可重現歷史曲線與明確最低點日期，因此不採現價或條件式優惠推定史低。"
+      ]
+    },
+    {
+      "id": "waterdispenser-ke-kew-800u",
+      "category": "waterdispenser",
+      "brand": "嘉儀 KE",
+      "model": "KEW-800U",
+      "name": "超薄廚下型瞬熱飲水機",
+      "currentPrice": 28000,
+      "currentCurrency": "TWD",
+      "currentBuyUrl": "https://shop.kenk.com.tw/product-detail1417.htm",
+      "currentBuyLabel": "嘉儀 KE 官方商城",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "TWD",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-08-08",
+        "note": "已查嘉儀 KE 官方商城、FindPrice、BigGo、飛比與 LBJ exact-model 查詢；NT$28,000 只證明本輪官方現價，未找到可重現歷史最低點日期，故維持 not_found。"
+      },
+      "checkedSources": [
+        "https://shop.kenk.com.tw/product-detail1417.htm",
+        "https://www.findprice.com.tw/g/%E5%98%89%E5%84%80%20KE%20KEW-800U",
+        "https://biggo.com.tw/s/%E5%98%89%E5%84%80%20KE%20KEW-800U",
+        "https://www.lbj.tw/BJ/Query.aspx?k=%E5%98%89%E5%84%80%20KE%20KEW-800U"
+      ],
+      "rejectedCandidates": [
+        "本輪公開售價只能證明 2026-08-08 現價；沒有可重現歷史曲線與明確最低點日期，因此不採現價或條件式優惠推定史低。"
+      ]
+    },
+    {
+      "id": "waterdispenser-tiancom-tcih220",
+      "category": "waterdispenser",
+      "brand": "天康淨水",
+      "model": "TCIH220",
+      "name": "廚下雙溫觸控瞬熱飲水機",
+      "currentPrice": 35800,
+      "currentCurrency": "TWD",
+      "currentBuyUrl": "https://tc-water.com.tw/product/tcih220/",
+      "currentBuyLabel": "天康淨水官方商城",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "TWD",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-08-08",
+        "note": "已查天康官方商城、FindPrice、BigGo、飛比與 LBJ exact-model 查詢；NT$35,800 僅為本輪現價，未取得可重現歷史最低點日期，故維持 not_found。"
+      },
+      "checkedSources": [
+        "https://tc-water.com.tw/product/tcih220/",
+        "https://www.findprice.com.tw/g/%E5%A4%A9%E5%BA%B7%E6%B7%A8%E6%B0%B4%20TCIH220",
+        "https://biggo.com.tw/s/%E5%A4%A9%E5%BA%B7%E6%B7%A8%E6%B0%B4%20TCIH220",
+        "https://www.lbj.tw/BJ/Query.aspx?k=%E5%A4%A9%E5%BA%B7%E6%B7%A8%E6%B0%B4%20TCIH220"
+      ],
+      "rejectedCandidates": [
+        "本輪公開售價只能證明 2026-08-08 現價；沒有可重現歷史曲線與明確最低點日期，因此不採現價或條件式優惠推定史低。"
+      ]
+    },
+    {
+      "id": "waterdispenser-culligan-ave-t2800",
+      "category": "waterdispenser",
+      "brand": "Culligan",
+      "model": "AVE-T2800",
+      "name": "櫥下 RO 瞬熱雙溫飲水機",
+      "currentPrice": 39800,
+      "currentCurrency": "TWD",
+      "currentBuyUrl": "https://www.clwater.com.tw/product-661-127.html",
+      "currentBuyLabel": "川菱淨水",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "TWD",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-08-08",
+        "note": "已查川菱淨水、星泉、Yahoo、FindPrice 與 LBJ exact-model 查詢；NT$39,800 是本輪現價，未取得可重現的歷史最低點日期，故維持 not_found。"
+      },
+      "checkedSources": [
+        "https://www.clwater.com.tw/product-661-127.html",
+        "https://www.findprice.com.tw/g/Culligan%20AVE-T2800",
+        "https://biggo.com.tw/s/Culligan%20AVE-T2800",
+        "https://www.lbj.tw/BJ/Query.aspx?k=Culligan%20AVE-T2800"
+      ],
+      "rejectedCandidates": [
+        "本輪公開售價只能證明 2026-08-08 現價；沒有可重現歷史曲線與明確最低點日期，因此不採現價或條件式優惠推定史低。"
+      ]
+    },
+    {
+      "id": "waterdispenser-dech-dh-1",
+      "category": "waterdispenser",
+      "brand": "DECH",
+      "model": "DH-1",
+      "name": "櫥下型瞬熱飲水機",
+      "currentPrice": 28800,
+      "currentCurrency": "TWD",
+      "currentBuyUrl": "https://www.dech.com.tw/shop/dech-9",
+      "currentBuyLabel": "DECH 官方商城",
+      "historicalLow": {
+        "status": "found",
+        "amount": 24999,
+        "currency": "TWD",
+        "converted": 24999,
+        "sourceUrl": "https://www.winnews.com.tw/230549/",
+        "sourceTitle": "告別吃電怪獸！DECH瞬熱飲水機一鍵即熱，高效節能新登場",
+        "evidenceSnippet": "新品報導明載 DECH 瞬熱飲水機於 2025-06-05 在官方電商開始預購，首月限量 100 台優惠價 NT$24,999。",
+        "sourceKind": "retailer_promo",
+        "confidence": "medium",
+        "checkedAt": "2026-08-08",
+        "note": "2025-06-05 首賣限量 100 台且已結束；非會員個人化、信用卡、點數、二手或福利品價。報導未印 DH-1，exact identity 以官方商品頁直連的 DH-1 說明書交叉確認。"
+      },
+      "checkedSources": [
+        "https://www.dech.com.tw/shop/dech-9",
+        "https://www.winnews.com.tw/230549/",
+        "https://www.mobile01.com/topicdetail.php?f=168&t=7131776",
+        "https://www.findprice.com.tw/g/DECH%20DH-1",
+        "https://biggo.com.tw/s/DECH%20DH-1",
+        "https://www.lbj.tw/BJ/Query.aspx?k=DECH%20DH-1"
+      ],
+      "rejectedCandidates": [
+        "本輪公開售價只能證明 2026-08-08 現價；沒有可重現歷史曲線與明確最低點日期，因此不採現價或條件式優惠推定史低。"
       ]
     },
     {
