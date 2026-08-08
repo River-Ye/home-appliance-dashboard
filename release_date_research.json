@@ -1,13 +1,13 @@
 {
   "summary": {
-    "checkedAt": "2026-08-06T00:00:00+08:00",
-    "total": 750,
+    "checkedAt": "2026-08-08T00:00:00+08:00",
+    "total": 751,
     "found": 217,
-    "missing": 533,
+    "missing": 534,
     "byConfidence": {
       "official": 115,
       "credible_article": 90,
-      "not_found": 533,
+      "not_found": 534,
       "retailer_explicit": 12
     }
   },
@@ -3403,6 +3403,20 @@
       "confidence": "not_found",
       "query": "Samsung DVG16CG8600WTW release date launch announced 上市 發售",
       "sourceKind": "not_found_after_costco_update"
+    },
+    {
+      "id": "dryer-samsung-dv90f20cdstw",
+      "category": "dryer",
+      "brand": "Samsung",
+      "model": "DV90F20CDSTW",
+      "name": "20公斤 Bespoke AI 智慧熱泵乾衣機",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "query": "Samsung DV90F20CDSTW release date launch announced 上市 發售",
+      "sourceKind": "not_found_after_official_support_energy_label_and_retailer_review"
     },
     {
       "id": "washerdryer-lg-wd-s90vdw",

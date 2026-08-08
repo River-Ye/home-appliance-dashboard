@@ -518,9 +518,9 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/2618755F67-Product-24570513.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 6621,
-      "converted": 6621,
-      "confidence": "PChome 2026-08-07 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 7120,
+      "converted": 7120,
+      "confidence": "PChome 2026-08-08 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -1750,6 +1750,89 @@
           "platform": "Reddit",
           "query": "site:reddit.com \"Samsung DVG16CG8600WTW\" (problem OR issue OR defect OR negative review)",
           "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Samsung%20DVG16CG8600WTW%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "targetHost": "reddit.com"
+        }
+      ]
+    }
+  },
+  {
+    "id": "dryer-samsung-dv90f20cdstw",
+    "category": "dryer",
+    "rank": 22,
+    "budget": "premium",
+    "channel": "tw",
+    "brand": "Samsung",
+    "model": "DV90F20CDSTW",
+    "name": "20公斤 Bespoke AI 智慧熱泵乾衣機",
+    "price": {
+      "currency": "TWD",
+      "amount": 49900,
+      "converted": 49900,
+      "confidence": "樂天市場秀翔電器 SS3C 2026-08-08 exact-model JSON-LD InStock 公開價"
+    },
+    "image": "https://img.pchome.com.tw/cs/items/DPAI1NA900JUUYX/000001_1774598663.jpg",
+    "buyUrl": "https://www.rakuten.com.tw/shop/ss3c/product/eig6gzaxq/",
+    "buyLabel": "樂天市場－秀翔電器 SS3C",
+    "specs": [
+      "20 公斤乾衣容量",
+      "智慧熱泵乾衣",
+      "尺寸：寬 68.6 x 深 84 x 高 98.4 cm",
+      "淨重：77 kg",
+      "AI Home 觸控螢幕、AI Dry 與 SmartThings",
+      "110 V / 60 Hz、800 W"
+    ],
+    "description": "Samsung 20 公斤熱泵旗艦以大容量、AI Home 操作與低溫熱泵乾衣為核心，適合大量衣物、寢具與重視節能的家庭。",
+    "pros": [
+      "20 公斤大容量，適合大家庭與大型寢具",
+      "熱泵乾衣搭配 AI Dry 與 SmartThings",
+      "110 V / 60 Hz 台灣電力規格"
+    ],
+    "cons": [
+      "機身深 84 cm、重 77 kg，搬運與安裝空間需先確認",
+      "高階熱泵機價格較高",
+      "疊放、排水與門片開啟空間需依現場條件確認"
+    ],
+    "bestFor": "衣物量大、常烘寢具，且希望兼顧熱泵節能與智慧操作的台灣家庭。",
+    "recommendation": "大容量熱泵旗艦推薦：DV90F20CDSTW 提供現有清單少見的 20 公斤台灣熱泵容量帶，購買前先量測深度、門寬與搬運動線。",
+    "score": 89,
+    "voltage": "110 V / 60 Hz、800 W；需使用有接地三孔插座，並依手冊確認排水、散熱與安裝間距",
+    "warranty": "台灣公司貨整機 1 年；數位變頻馬達與壓縮機 10 年僅零件（依 Samsung 官方與通路保固說明）",
+    "tags": [
+      "20公斤",
+      "熱泵",
+      "AI Home",
+      "110V"
+    ],
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-08-08",
+      "note": "已查樂天市場秀翔電器 SS3C、momo、PChome、FindPrice 與 LBJ；樂天 NT$49,900 只能證明 2026-08-08 同日現價，momo 頁面另含「領券再折」條件，PChome 未提供可重現價格，FindPrice 與 LBJ 未取得同型號可採用的歷史價格紀錄，因此不以現價推定史低。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-08-08",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Samsung DV90F20CDSTW\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Samsung%20DV90F20CDSTW%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "Reddit",
+          "query": "\"Samsung DV90F20CDSTW\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://www.reddit.com/search/?q=%22Samsung%20DV90F20CDSTW%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
           "targetHost": "reddit.com"
         }
       ]
