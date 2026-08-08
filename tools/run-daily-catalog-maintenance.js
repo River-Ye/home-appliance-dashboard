@@ -623,6 +623,42 @@ function updateDashboardContract(productCount, categoryCount, categoryCounts) {
   fs.writeFileSync(filePath, source);
 }
 
+function syncAcceptedHistoricalPriceCheck(previous, historicalLow) {
+  const priceChecks = previous?.priceChecks;
+  const previousLow = previous?.historicalLow;
+  if (!Array.isArray(priceChecks) || historicalLow?.status !== "found") return priceChecks;
+
+  const adoptedIndex = priceChecks.findIndex((check) => check?.url === historicalLow.sourceUrl);
+  if (adoptedIndex < 0) return priceChecks;
+  const adoptedCheck = priceChecks[adoptedIndex];
+  const adoptedOutcome = String(adoptedCheck?.outcome || "").trim();
+  const adoptedDigits = adoptedOutcome.replace(/\D/g, "");
+  const acceptedCheckAligned = /^(採用|accepted)[：:]/i.test(adoptedOutcome)
+    && adoptedDigits.includes(String(historicalLow.amount));
+  const foundLowChanged = (
+    previousLow?.status !== historicalLow.status
+    || previousLow?.sourceUrl !== historicalLow.sourceUrl
+    || Number(previousLow?.amount) !== Number(historicalLow.amount)
+  );
+  if (!foundLowChanged && acceptedCheckAligned) return priceChecks;
+  const adoptedAmount = Number(historicalLow.amount).toLocaleString("en-US");
+  return priceChecks.map((check, index) => {
+    if (index === adoptedIndex) {
+      return {
+        ...check,
+        outcome: `採用：exact-model 公開新品促銷價 TWD ${adoptedAmount}，於 ${historicalLow.checkedAt || MAINTENANCE_DATE} 覆核。`,
+      };
+    }
+    if (/^(採用|accepted)[：:]/i.test(String(check?.outcome || "").trim())) {
+      return {
+        ...check,
+        outcome: `覆核：先前採用來源已由較低的 exact-model 新品價 TWD ${adoptedAmount} 取代。`,
+      };
+    }
+    return check;
+  });
+}
+
 function syncHistoricalResearchRows(research, products) {
   const previousRows = research.results || [];
   const previousById = new Map(previousRows.map((row) => [row.id, row]));
@@ -637,6 +673,7 @@ function syncHistoricalResearchRows(research, products) {
       product.buyUrl,
     ].filter(Boolean))];
     const rejectedCandidates = previous?.rejectedCandidates || [];
+    const priceChecks = syncAcceptedHistoricalPriceCheck(previous, product.historicalLow);
     return {
       ...(previous || {}),
       id: product.id,
@@ -651,6 +688,7 @@ function syncHistoricalResearchRows(research, products) {
       historicalLow: product.historicalLow,
       checkedSources,
       rejectedCandidates,
+      ...(Array.isArray(priceChecks) ? { priceChecks } : {}),
     };
   };
   const retainedRows = previousRows

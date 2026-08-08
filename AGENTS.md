@@ -326,9 +326,9 @@
 ## 價格與匯率
 
 <!-- catalog-maintenance-summary:start -->
-- 2026-08-08 14:50（台灣時間）完成 762 筆商品、27 類全量查核；421 筆 PChome SKU API 已完成（262 筆 exact model、45 筆人工 SKU 綁定可寫入，83 筆型號未自動確認），更新 0 筆現價（0 筆降價、0 筆漲價），22 筆 Qty 0 只列追蹤。
-- 本次增量新增 waterdispenser-3m-ih1000、waterdispenser-acuo-ur-3902aw-1、waterdispenser-culligan-ave-t2800、waterdispenser-dech-dh-1、waterdispenser-ge-usb10b、waterdispenser-haier-hr-wf-4tcro600、waterdispenser-ke-kew-800u、waterdispenser-lg-wu525bs、waterdispenser-philips-aut7063r23-96、waterdispenser-rewatt-yo-50、waterdispenser-tiancom-tcih220；本次增量沒有移除停產產品。沿用本資料日已完成的逐類人工新品覆核（原覆核時間保留），所有分類至少 20 筆；停產只採品牌官方明確證據，缺貨、反爬或單次連線錯誤不作為刪除依據。
-- 圖片查核覆蓋 762 筆；595 筆來源可由 exact model 或人工 SKU 綁定確認，167 筆來源／圖片例外保留原資料。史低為 466 筆 `found`、296 筆 `not_found`，本輪異動 0 筆；61 筆來源可自動重現，其餘保留原逐筆證據且未臆測失效。
+- 2026-08-09 07:47（台灣時間）完成 762 筆商品、27 類全量查核；421 筆 PChome SKU API 已完成（262 筆 exact model、45 筆人工 SKU 綁定可寫入，83 筆型號未自動確認），更新 19 筆現價（15 筆降價、4 筆漲價），22 筆 Qty 0 只列追蹤。
+- 本次增量沒有納入新產品；本次增量沒有移除停產產品。逐類人工新品覆核已完成，所有分類至少 20 筆；停產只採品牌官方明確證據，缺貨、反爬或單次連線錯誤不作為刪除依據。
+- 圖片查核覆蓋 762 筆；595 筆來源可由 exact model 或人工 SKU 綁定確認，167 筆來源／圖片例外保留原資料。史低為 466 筆 `found`、296 筆 `not_found`，本輪下修 1 筆；69 筆來源可自動重現，其餘保留原逐筆證據且未臆測失效。
 - ExchangeRate-API 最新批次為 2026-08-08 00:02 UTC，USD/TWD 32.196077；30 筆外幣商品已重算。完整摘要與例外保存在 `catalog_maintenance_latest.json`。
 <!-- catalog-maintenance-summary:end -->
 

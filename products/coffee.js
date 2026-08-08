@@ -17,9 +17,9 @@
     "name": "BEST 貝斯特 G6280 獨立式全自動咖啡機",
     "price": {
       "currency": "TWD",
-      "amount": 18800,
-      "converted": 18800,
-      "confidence": "PChome 24h｜公司貨，含基本安裝與教學 2026-08-04 exact-model 公開新品價；台灣公司貨／原廠通路"
+      "amount": 17860,
+      "converted": 17860,
+      "confidence": "PChome 2026-08-09 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://img.pchome.com.tw/cs/items/DMATI9A900HPMCA/000001_1722852018.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMATI9-A900HPMCA",
@@ -54,16 +54,16 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 18800,
+      "amount": 17860,
       "currency": "TWD",
-      "converted": 18800,
+      "converted": 17860,
       "sourceUrl": "https://24h.pchome.com.tw/prod/DMATI9-A900HPMCA",
-      "sourceTitle": "PChome 24h BEST 貝斯特 G6280 獨立式全自動咖啡機",
-      "evidenceSnippet": "exact-model 公司貨頁公開價為 18,800 元，並列原價 24,900 元；官方型錄另列 19,800 元。",
-      "sourceKind": "retailer_promo",
-      "confidence": "high",
-      "checkedAt": "2026-08-04",
-      "note": "截至查核日，PChome exact-model 公司貨頁的 18,800 元為本輪可重現最低公開新品促銷價；未使用會員券、信用卡、點數或瑕疵品條件，不把未能回到原始頁的聚合摘要算入。"
+      "sourceTitle": "PChome 24h 購物：Best 貝斯特 獨立式全自動咖啡機 G6280",
+      "evidenceSnippet": "PChome 24h 購物於 2026-08-09 顯示同型號可信新品公開價 NT$17,860，低於既有史低 NT$18,800。",
+      "sourceKind": "retailer_page",
+      "confidence": "medium",
+      "checkedAt": "2026-08-09",
+      "note": "採用 PChome 24h 購物當日可購商品的同型號新品公開價；不含會員券、點數、信用卡回饋、二手、福利、展示、拆封或整新品。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -819,9 +819,9 @@
     "name": "JURA E8 Chrome (NAC) 全自動咖啡機",
     "price": {
       "currency": "TWD",
-      "amount": 72500,
-      "converted": 72500,
-      "confidence": "PChome 24h｜JURA 台灣原廠公司貨 2026-08-04 exact-model 公開新品價；台灣公司貨／原廠通路"
+      "amount": 63800,
+      "converted": 63800,
+      "confidence": "PChome 2026-08-09 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://img.pchome.com.tw/cs/items/DMAT3GA900JFELW/000001_1762414552.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAT3G-A900JFELW",
@@ -908,9 +908,9 @@
     "name": "JURA ENA 4 Full Metropolitan Black (EA) 全自動咖啡機",
     "price": {
       "currency": "TWD",
-      "amount": 38900,
-      "converted": 38900,
-      "confidence": "PChome 24h｜JURA 台灣原廠公司貨 2026-08-04 exact-model 公開新品價；台灣公司貨／原廠通路"
+      "amount": 35788,
+      "converted": 35788,
+      "confidence": "PChome 2026-08-09 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://img.pchome.com.tw/cs/items/DMAT00A900BQG97/000001_1777222745.png",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAT00-A900BQG97",
@@ -1711,9 +1711,9 @@
     "name": "Barista EX 系列經典義式濃縮咖啡機（爵士灰）",
     "price": {
       "currency": "TWD",
-      "amount": 7888,
-      "converted": 7888,
-      "confidence": "PChome 24h購物 2026-08-04 exact-model 公開新品價；台灣公司貨／原廠通路"
+      "amount": 11264,
+      "converted": 11264,
+      "confidence": "PChome 2026-08-09 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://img.pchome.com.tw/cs/items/DMAT09A900IXUVD/000001_1769478978.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAT09-A900IXUVD",
