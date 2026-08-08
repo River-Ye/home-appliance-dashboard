@@ -872,6 +872,58 @@ async function main() {
     historicalResearchFixture.results[1].rejectedCandidates.length === 0,
     "historical research sync should not mislabel an accepted source note as a rejected candidate",
   );
+  const loweredCoffeeHistoricalResearch = {
+    results: [{
+      id: "coffee-existing",
+      historicalLow: {
+        status: "found",
+        amount: 17860,
+        sourceUrl: "https://retailer.example/coffee",
+      },
+      checkedSources: [
+        "https://retailer.example/coffee",
+        "https://prices.example/coffee",
+      ],
+      rejectedCandidates: [],
+      priceChecks: [
+        {
+          kind: "retailer_price",
+          url: "https://retailer.example/coffee",
+          query: "COFFEE-1",
+          outcome: "採用：exact-model 公開新品促銷價 TWD 18,800。",
+        },
+        {
+          kind: "price_comparison",
+          url: "https://prices.example/coffee",
+          query: "COFFEE-1",
+          outcome: "覆核：沒有更低且可重現的價格。",
+        },
+      ],
+    }],
+  };
+  syncHistoricalResearchRows(loweredCoffeeHistoricalResearch, [{
+    id: "coffee-existing",
+    category: "coffee",
+    brand: "Coffee",
+    model: "COFFEE-1",
+    name: "Existing coffee machine",
+    price: { currency: "TWD", converted: 17860 },
+    buyUrl: "https://retailer.example/coffee",
+    buyLabel: "Retailer",
+    historicalLow: {
+      status: "found",
+      amount: 17860,
+      currency: "TWD",
+      converted: 17860,
+      sourceUrl: "https://retailer.example/coffee",
+      checkedAt: "2026-08-09",
+    },
+  }]);
+  assert(
+    loweredCoffeeHistoricalResearch.results[0].priceChecks[0].outcome.includes("17,860")
+      && !loweredCoffeeHistoricalResearch.results[0].priceChecks[0].outcome.includes("18,800"),
+    "historical research sync should repair a stale accepted structured price check amount",
+  );
   assertThrows(
     () => syncHistoricalResearchRows(
       { results: [] },
