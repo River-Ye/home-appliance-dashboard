@@ -17,8 +17,8 @@
     "name": "BEST 貝斯特 G6280 獨立式全自動咖啡機",
     "price": {
       "currency": "TWD",
-      "amount": 17860,
-      "converted": 17860,
+      "amount": 18800,
+      "converted": 18800,
       "confidence": "PChome 2026-08-09 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://img.pchome.com.tw/cs/items/DMATI9A900HPMCA/000001_1722852018.jpg",
@@ -819,8 +819,8 @@
     "name": "JURA E8 Chrome (NAC) 全自動咖啡機",
     "price": {
       "currency": "TWD",
-      "amount": 63800,
-      "converted": 63800,
+      "amount": 72500,
+      "converted": 72500,
       "confidence": "PChome 2026-08-09 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://img.pchome.com.tw/cs/items/DMAT3GA900JFELW/000001_1762414552.jpg",
@@ -908,8 +908,8 @@
     "name": "JURA ENA 4 Full Metropolitan Black (EA) 全自動咖啡機",
     "price": {
       "currency": "TWD",
-      "amount": 35788,
-      "converted": 35788,
+      "amount": 38900,
+      "converted": 38900,
       "confidence": "PChome 2026-08-09 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://img.pchome.com.tw/cs/items/DMAT00A900BQG97/000001_1777222745.png",
@@ -1711,8 +1711,8 @@
     "name": "Barista EX 系列經典義式濃縮咖啡機（爵士灰）",
     "price": {
       "currency": "TWD",
-      "amount": 11264,
-      "converted": 11264,
+      "amount": 7888,
+      "converted": 7888,
       "confidence": "PChome 2026-08-09 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://img.pchome.com.tw/cs/items/DMAT09A900IXUVD/000001_1769478978.jpg",
