@@ -654,8 +654,8 @@
     "price": {
       "currency": "USD",
       "amount": 2299,
-      "converted": 74019,
-      "confidence": "LG 美國 2026-07-23 官方現售型錄公開價；ExchangeRate-API 2026-08-08 匯率換算"
+      "converted": 73984,
+      "confidence": "LG 美國 2026-07-23 官方現售型錄公開價；ExchangeRate-API 2026-08-09 匯率換算"
     },
     "image": "https://media.us.lg.com/transform/ecomm-PDPGallery-1100x730/80ff5e54-eada-4b61-a822-7b8e27555153/Styler-SC5GMR80H-gallery-01_5000x5000?io=transform:fill,width:1024",
     "buyUrl": "https://www.lg.com/us/washers-dryers/lg-sc5gmr80h-styler-steam-closet",
@@ -746,8 +746,8 @@
     "price": {
       "currency": "USD",
       "amount": 1999,
-      "converted": 64360,
-      "confidence": "LG 美國 2026-07-23 官方現售型錄公開價；ExchangeRate-API 2026-08-08 匯率換算"
+      "converted": 64329,
+      "confidence": "LG 美國 2026-07-23 官方現售型錄公開價；ExchangeRate-API 2026-08-09 匯率換算"
     },
     "image": "https://media.us.lg.com/transform/ecomm-PDPGallery-1100x730/98065e7a-bef7-4fef-9ab3-8354575893da/Styler-SC5MAR4G-gallery-01_5000x5000?io=transform:fill,width:1024",
     "buyUrl": "https://www.lg.com/us/washers-dryers/lg-sc5mar4g-styler-steam-closet",
@@ -838,8 +838,8 @@
     "price": {
       "currency": "USD",
       "amount": 1699,
-      "converted": 54701,
-      "confidence": "LG 美國 2026-07-23 官方現售型錄公開價；ExchangeRate-API 2026-08-08 匯率換算"
+      "converted": 54675,
+      "confidence": "LG 美國 2026-07-23 官方現售型錄公開價；ExchangeRate-API 2026-08-09 匯率換算"
     },
     "image": "https://media.us.lg.com/transform/ecomm-PDPGallery-1100x730/f09c059c-80e3-415a-afec-17d204454e7c/Styler-S3MFBN-gallery-01_5000x5000?io=transform:fill,width:1024",
     "buyUrl": "https://www.lg.com/us/washers-dryers/lg-s3mfbn-styler-steam-closet",
@@ -930,8 +930,8 @@
     "price": {
       "currency": "USD",
       "amount": 1499,
-      "converted": 48262,
-      "confidence": "LG 美國 2026-07-23 官方現售型錄公開價；ExchangeRate-API 2026-08-08 匯率換算"
+      "converted": 48239,
+      "confidence": "LG 美國 2026-07-23 官方現售型錄公開價；ExchangeRate-API 2026-08-09 匯率換算"
     },
     "image": "https://media.us.lg.com/transform/ecomm-PDPGallery-1100x730/40e1eddc-4b4d-446b-afcf-fc792acdf3f8/Styler-S3WFBN-gallery-01_5000x5000?io=transform:fill,width:1024",
     "buyUrl": "https://www.lg.com/us/washers-dryers/lg-s3wfbn-styler-steam-closet",
@@ -1022,8 +1022,8 @@
     "price": {
       "currency": "USD",
       "amount": 1499,
-      "converted": 48262,
-      "confidence": "LG 美國 2026-07-23 官方現售型錄公開價；ExchangeRate-API 2026-08-08 匯率換算"
+      "converted": 48239,
+      "confidence": "LG 美國 2026-07-23 官方現售型錄公開價；ExchangeRate-API 2026-08-09 匯率換算"
     },
     "image": "https://media.us.lg.com/transform/ecomm-PDPGallery-1100x730/d0843109-3129-40be-b3b9-325bb4ef78de/Styler-S3RFBN-gallery-01_5000x5000?io=transform:fill,width:1024",
     "buyUrl": "https://www.lg.com/us/washers-dryers/lg-s3rfbn-styler-steam-closet",
@@ -1114,8 +1114,8 @@
     "price": {
       "currency": "KRW",
       "amount": 2443730,
-      "converted": 55736,
-      "confidence": "Danawa 2026-07-23 exact-model 新品比價頁公開最低價快照；ExchangeRate-API 2026-08-08 匯率換算"
+      "converted": 55687,
+      "confidence": "Danawa 2026-07-23 exact-model 新品比價頁公開最低價快照；ExchangeRate-API 2026-08-09 匯率換算"
     },
     "image": "https://images.samsung.com/kdp/goods/2026/01/13/bcebeb93-4709-4c18-b685-e159e476dcfd.png",
     "buyUrl": "https://prod.danawa.com/info/?pcode=108410873",
@@ -1206,8 +1206,8 @@
     "price": {
       "currency": "KRW",
       "amount": 2172430,
-      "converted": 49548,
-      "confidence": "Danawa 2026-07-23 exact-model 新品比價頁公開最低價快照；ExchangeRate-API 2026-08-08 匯率換算"
+      "converted": 49505,
+      "confidence": "Danawa 2026-07-23 exact-model 新品比價頁公開最低價快照；ExchangeRate-API 2026-08-09 匯率換算"
     },
     "image": "https://images.samsung.com/kdp/goods/2026/01/13/a5e2b9e4-2578-420b-a4e9-03f9af8a98a4.png",
     "buyUrl": "https://prod.danawa.com/info/?pcode=107770493",
@@ -1298,8 +1298,8 @@
     "price": {
       "currency": "KRW",
       "amount": 2203310,
-      "converted": 50253,
-      "confidence": "Danawa 2026-07-23 exact-model 新品比價頁公開最低價快照；ExchangeRate-API 2026-08-08 匯率換算"
+      "converted": 50208,
+      "confidence": "Danawa 2026-07-23 exact-model 新品比價頁公開最低價快照；ExchangeRate-API 2026-08-09 匯率換算"
     },
     "image": "https://images.samsung.com/kdp/goods/2026/01/13/b79b910e-17e9-4844-b199-726f9a7a3810.png",
     "buyUrl": "https://prod.danawa.com/info/?pcode=107770475",
@@ -1390,8 +1390,8 @@
     "price": {
       "currency": "KRW",
       "amount": 2017980,
-      "converted": 46026,
-      "confidence": "Danawa 2026-07-23 exact-model 新品比價頁公開最低價快照；ExchangeRate-API 2026-08-08 匯率換算"
+      "converted": 45985,
+      "confidence": "Danawa 2026-07-23 exact-model 新品比價頁公開最低價快照；ExchangeRate-API 2026-08-09 匯率換算"
     },
     "image": "https://images.samsung.com/kdp/goods/2026/01/13/76d4f74e-0c3a-42e1-89f8-426d5859c6d0.png",
     "buyUrl": "https://prod.danawa.com/info/?pcode=107770397",
@@ -1482,8 +1482,8 @@
     "price": {
       "currency": "KRW",
       "amount": 2018400,
-      "converted": 46035,
-      "confidence": "Danawa 2026-07-23 exact-model 新品比價頁公開最低價快照；ExchangeRate-API 2026-08-08 匯率換算"
+      "converted": 45995,
+      "confidence": "Danawa 2026-07-23 exact-model 新品比價頁公開最低價快照；ExchangeRate-API 2026-08-09 匯率換算"
     },
     "image": "https://images.samsung.com/kdp/goods/2026/01/13/51d56ac5-a158-40ac-8c0a-40369bd7fd13.png",
     "buyUrl": "https://prod.danawa.com/info/?pcode=108411020",
@@ -1574,8 +1574,8 @@
     "price": {
       "currency": "KRW",
       "amount": 1791170,
-      "converted": 40853,
-      "confidence": "Danawa 2026-07-23 exact-model 新品比價頁公開最低價快照；ExchangeRate-API 2026-08-08 匯率換算"
+      "converted": 40817,
+      "confidence": "Danawa 2026-07-23 exact-model 新品比價頁公開最低價快照；ExchangeRate-API 2026-08-09 匯率換算"
     },
     "image": "https://images.samsung.com/kdp/goods/2026/01/13/a6dfd1ea-ae12-4bd7-b437-8fbbab8ccbe7.png",
     "buyUrl": "https://prod.danawa.com/info/?pcode=108411242",
@@ -1666,8 +1666,8 @@
     "price": {
       "currency": "JPY",
       "amount": 328680,
-      "converted": 67036,
-      "confidence": "BicCamera 2026-07-23 exact-model 新品公開價；ExchangeRate-API 2026-08-08 匯率換算"
+      "converted": 66975,
+      "confidence": "BicCamera 2026-07-23 exact-model 新品公開價；ExchangeRate-API 2026-08-09 匯率換算"
     },
     "image": "https://panasonic.jp/content/experience-fragments/panasonic/jp/ja/content/smartcloset/products/HCC-R600AR/lp4_ind1_HCC-R600AR_cxf/master/_jcr_content/root/c_lay014/c_lay001_434717760_c_1343778137/c_lay011/c_gen003.coreimg.png/1743734842467/hcc-r600al-link-864x648-250403.png",
     "buyUrl": "https://www.biccamera.com/bc/item/11581815/",
@@ -1759,8 +1759,8 @@
     "price": {
       "currency": "JPY",
       "amount": 328680,
-      "converted": 67036,
-      "confidence": "BicCamera 2026-07-23 exact-model 新品公開價；ExchangeRate-API 2026-08-08 匯率換算"
+      "converted": 66975,
+      "confidence": "BicCamera 2026-07-23 exact-model 新品公開價；ExchangeRate-API 2026-08-09 匯率換算"
     },
     "image": "https://panasonic.jp/content/experience-fragments/panasonic/jp/ja/content/smartcloset/products/HCC-R600AR/lp4_ind1_HCC-R600AR_cxf/master/_jcr_content/root/c_lay014/c_lay001_434717760_c_1343778137/c_lay011_copy/c_gen003_copy.coreimg.png/1743734847518/hcc-r600ar-link-864x648-250403.png",
     "buyUrl": "https://www.biccamera.com/bc/item/11581816/",
