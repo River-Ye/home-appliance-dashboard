@@ -531,9 +531,9 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/88F364AB6B-SP-11096810.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 30900,
-      "converted": 30900,
-      "confidence": "PChome 2026-08-08 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 29900,
+      "converted": 29900,
+      "confidence": "PChome 2026-08-10 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -2236,9 +2236,9 @@
     "image": "https://pstw.panasonic.com.tw/shop/Upload/Product/20260514190222S44S2J5E.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 44900,
-      "converted": 44900,
-      "confidence": "PChome 2026-07-28 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 39900,
+      "converted": 39900,
+      "confidence": "PChome 2026-08-10 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "channel": "tw",
     "buyLabel": "PChome",

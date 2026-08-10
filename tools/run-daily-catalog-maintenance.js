@@ -500,12 +500,15 @@ function exchangeRatesFromPayload(payload) {
   };
 }
 
-function exchangeRateRequestUrl(maintenanceDate = MAINTENANCE_DATE) {
+function exchangeRateRequestUrl(maintenanceDate = MAINTENANCE_DATE, cacheNonce = Date.now()) {
   if (!/^\d{4}-\d{2}-\d{2}$/.test(maintenanceDate)) {
     throw new Error(`Invalid exchange-rate cache date: ${maintenanceDate}`);
   }
+  if (!Number.isSafeInteger(cacheNonce) || cacheNonce <= 0) {
+    throw new Error(`Invalid exchange-rate cache nonce: ${cacheNonce}`);
+  }
   const url = new URL("https://open.er-api.com/v6/latest/USD");
-  url.searchParams.set("v", maintenanceDate);
+  url.searchParams.set("v", `${maintenanceDate}-${cacheNonce}`);
   return url.toString();
 }
 
