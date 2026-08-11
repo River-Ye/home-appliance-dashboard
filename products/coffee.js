@@ -200,7 +200,7 @@
       "converted": 26900,
       "confidence": "De'Longhi Taiwan 官方網站 2026-08-04 exact-model 公開新品價；台灣公司貨／原廠通路"
     },
-    "image": "https://cdn-general.cybassets.com/media/W1siZiIsIjIwMTI5L3Byb2R1Y3RzLzUyNTQzNjI0LzE3NDkwMTA4NjBfOTIyYjgwYjhmZjk0YmU0NTY3MTkucG5nIl0sWyJwIiwidGh1bWIiLCIyNDB4MjQwIl1d.png?sha=ed7cdbabfab6d83f",
+    "image": "https://cdn-general.cybassets.com/media/W1siZiIsIjIwMTI5L3Byb2R1Y3RzLzUyNTQzNjI0LzE3ODY0MzY3NjVfOGM0MmZmYTY1ZGI5ZDNkMmI1MDQuanBlZyJdLFsicCIsInRodW1iIiwiMjQweDI0MCJdXQ.jpeg?sha=7d566d5833ed09aa",
     "buyUrl": "https://www.idelonghi.com.tw/id/products/ecam22022",
     "buyLabel": "De'Longhi Taiwan 官方網站",
     "specs": [
