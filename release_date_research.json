@@ -1,13 +1,13 @@
 {
   "summary": {
     "checkedAt": "2026-08-11T00:00:00+08:00",
-    "total": 765,
+    "total": 766,
     "found": 222,
-    "missing": 543,
+    "missing": 544,
     "byConfidence": {
       "official": 118,
       "credible_article": 92,
-      "not_found": 543,
+      "not_found": 544,
       "retailer_explicit": 12
     }
   },
@@ -10715,6 +10715,21 @@
       "query": "site:youtube.com \"CLAR EVO\" \"美型新上市\"",
       "sourceKind": "official_brand_announcement",
       "reason": "採 CLAR 官方頻道明確的新上市公告日期；exact 110V 型號另以官方商品頁及說明書交叉確認，不以影片發布日單獨推定。"
+    },
+    {
+      "id": "waterdispenser-voca-tc-x",
+      "category": "waterdispenser",
+      "brand": "VOCA",
+      "model": "TC-X",
+      "name": "頂級瞬熱飲水機 旗艦款（F-1Z 濾芯）",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "query": "site:voca.com.tw OR site:livtec.com.tw \"TC-X\" (上市 OR 發售 OR 發表 OR 新品)",
+      "sourceKind": "not_found_after_official_review",
+      "reason": "已核對 VOCA 官方商品頁、從 0 客製頁、新聞與 Livtec 品牌頁；只能確認 TC-X 至少於 2022 年已現售。品牌 2012 創立、素材日期與 2025-02-12 MIT 標章通過日都不是 exact-model 上市日，因此維持找不到。"
     }
   ]
 }
