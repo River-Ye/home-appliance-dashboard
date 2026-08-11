@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-08",
+  "generatedAt": "2026-08-11",
   "sourcePolicy": "本次新增的電視、Soundbar、咖啡機、多功能氣炸烤箱／微波爐、洗碗機與免治馬桶尺寸，以及電視、Soundbar、咖啡機、多功能氣炸烤箱／微波爐重量，優先採 exact-model 官方產品頁、官方規格表或官方 PDF，其次可信通路；只採本體／機身尺寸與淨重，排除包裝、外箱尺寸與毛重，來源未標示寬／深／高順序時不自行推定。既有洗衣機、烘衣機、洗烘衣機、電子衣櫥與冰箱尺寸沿用原研究列及當時查核規則。",
   "results": [
     {
@@ -3501,6 +3501,16 @@
       "weightConfidence": "high",
       "weightIsOfficialSource": true,
       "weightCheckedAt": "2026-08-06"
+    },
+    {
+      "id": "dishwasher-bosch-smv6zax00x",
+      "dimension": "尺寸：寬 59.8 x 深 55 x 高 81.5 cm",
+      "sourceUrl": "https://www.bosch-home.com.tw/zh/mkt-product/dishwashers/built-in-dishwashers/built-in-dishwashers-60cm-width/SMV6ZAX00X",
+      "sourceTitle": "Bosch SMV6ZAX00X 全嵌式洗碗機官方產品頁",
+      "evidenceSnippet": "Bosch 台灣官方 exact-model 規格列機體尺寸（高 x 寬 x 深）815 x 598 x 550 mm，另列包裝尺寸 880 x 660 x 670 mm；本資料只採機體尺寸，轉為寬 59.8 x 深 55 x 高 81.5 cm。",
+      "confidence": "high",
+      "isOfficialSource": true,
+      "checkedAt": "2026-08-11"
     }
   ]
 }

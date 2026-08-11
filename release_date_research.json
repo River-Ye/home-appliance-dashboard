@@ -1,13 +1,13 @@
 {
   "summary": {
-    "checkedAt": "2026-08-08T00:00:00+08:00",
-    "total": 762,
-    "found": 220,
-    "missing": 542,
+    "checkedAt": "2026-08-11T00:00:00+08:00",
+    "total": 764,
+    "found": 221,
+    "missing": 543,
     "byConfidence": {
-      "official": 116,
+      "official": 117,
       "credible_article": 92,
-      "not_found": 542,
+      "not_found": 543,
       "retailer_explicit": 12
     }
   },
@@ -10670,6 +10670,36 @@
       "query": "Panasonic TK-RNB601W release date launch 上市 發售",
       "sourceKind": "not_found",
       "reason": "官方產品頁可確認 exact model 與現售規格，但未明列上市或發售日期；不採型號年份、活動贈品日期或通路上架日推定。"
+    },
+    {
+      "id": "dishwasher-bosch-smv6zax00x",
+      "category": "dishwasher",
+      "brand": "Bosch",
+      "model": "SMV6ZAX00X",
+      "name": "6 系列 60 公分 13 人份全嵌式沸石洗碗機",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "query": "site:bosch-home.com.tw \"SMV6ZAX00X\" (上市 OR 發售 OR 發表 OR 新品)",
+      "sourceKind": "not_found_after_official_review",
+      "reason": "已核對 Bosch 台灣 exact-model 商品頁、官方商城、官方型錄與官方使用手冊；只能確認目前在售與規格。型錄／手冊日期、通路到貨文案及論壇所稱新機種都不是正式上市日，未找到可信的上市／發售公告。"
+    },
+    {
+      "id": "standingdesk-backbone-allround-941",
+      "category": "standingdesk",
+      "brand": "Backbone",
+      "model": "Allround Desk 941.0",
+      "name": "Allround Desk 鷗圓電動升降桌 夜霧檀棕",
+      "releaseDate": "2023-08-18",
+      "sourceUrl": "https://www.backbone.tw/blogs/news/allround",
+      "sourceTitle": "Allround Desk 鷗圓桌｜體現北歐生活美學的電動升降桌",
+      "evidenceSnippet": "Backbone 官方文章標示 2023-08-18，正文稱 Allround Desk 正式亮相，並在同頁列出夜霧檀棕與羊絨米灰兩色。",
+      "confidence": "official",
+      "query": "site:backbone.tw/blogs/news/allround \"Allround Desk\" \"正式亮相\"",
+      "sourceKind": "official_brand_announcement",
+      "reason": "品牌官方發表頁同時提供 exact product name、明確的正式亮相文字、文章日期與夜霧檀棕色名，可支持完整上市日。"
     }
   ]
 }

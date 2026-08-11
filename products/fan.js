@@ -17,9 +17,9 @@
     "name": "16 吋 DC 微電腦定時電風扇",
     "price": {
       "currency": "TWD",
-      "amount": 3272,
-      "converted": 3272,
-      "confidence": "PChome 2026-07-22 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 3149,
+      "converted": 3149,
+      "confidence": "PChome 2026-08-11 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAB30A900EOQ24/000001_1753338098.png",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAB30-A900EOQ24",
@@ -52,16 +52,16 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 3272,
+      "amount": 3149,
       "currency": "TWD",
-      "converted": 3272,
+      "converted": 3149,
       "sourceUrl": "https://24h.pchome.com.tw/prod/DMAB30-A900EOQ24",
-      "sourceTitle": "PChome 商品頁：Panasonic國際牌16吋DC變頻旗艦型負離子溫感立扇F-H16GND / Panasonic國際牌16吋DC微電腦定時立扇(負離子/ECO溫控)F-H16GND",
-      "evidenceSnippet": "PChome 商品 API 於 2026-07-10 回傳同一商品頁「Panasonic國際牌16吋DC變頻旗艦型負離子溫感立扇F-H16GND / Panasonic國際牌16吋DC微電腦定時立扇(負離子/ECO溫控)F-H16GND」查核價 NT$3,272，低於原先記錄史低。",
+      "sourceTitle": "PChome 24h 購物：Panasonic國際牌16吋DC變頻旗艦型負離子溫感立扇F-H16GND",
+      "evidenceSnippet": "PChome 24h 購物於 2026-08-11 顯示同型號可信新品公開價 NT$3,149，低於既有史低 NT$3,272。",
       "sourceKind": "retailer_page",
       "confidence": "medium",
-      "checkedAt": "2026-07-10",
-      "note": "採用 PChome 24h 同一商品頁可公開查核現價作為本次觀測到的最低價；同型號/規格並排除會員個人化折扣、信用卡回饋、點數、二手、福利品、展示機、箱損、拆封與整新品。"
+      "checkedAt": "2026-08-11",
+      "note": "採用 PChome 24h 購物當日可購商品的同型號新品公開價；不含會員券、點數、信用卡回饋、二手、福利、展示、拆封或整新品。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -329,9 +329,9 @@
     "name": "16 吋 DC 變頻電風扇",
     "price": {
       "currency": "TWD",
-      "amount": 2472,
-      "converted": 2472,
-      "confidence": "PChome 2026-07-22 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 2379,
+      "converted": 2379,
+      "confidence": "PChome 2026-08-11 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMABLMA900EOROV/000001_1757038312.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMABLM-A900EOROV",
@@ -407,9 +407,9 @@
     "name": "14 吋 DC 微電腦定時電風扇",
     "price": {
       "currency": "TWD",
-      "amount": 3112,
-      "converted": 3112,
-      "confidence": "PChome 2026-08-07 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 2995,
+      "converted": 2995,
+      "confidence": "PChome 2026-08-11 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMABLMA900EOQ12/000001_1695005225.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMABLM-A900EOQ12",
@@ -485,9 +485,9 @@
     "name": "14 吋 DC 微電腦定時電風扇",
     "price": {
       "currency": "TWD",
-      "amount": 4410,
-      "converted": 4410,
-      "confidence": "PChome 2026-07-28 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 3996,
+      "converted": 3996,
+      "confidence": "PChome 2026-08-11 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMABLMA900EORP0/000001_1697161466.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMABLM-A900EORP0",
@@ -563,9 +563,9 @@
     "name": "14 吋微電腦 DC 直流電風扇",
     "price": {
       "currency": "TWD",
-      "amount": 1399,
-      "converted": 1399,
-      "confidence": "PChome 2026-08-01 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 1444,
+      "converted": 1444,
+      "confidence": "PChome 2026-08-11 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAB1FA900EZLVB/000001_1685607577.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAB1F-A900EZLVB",

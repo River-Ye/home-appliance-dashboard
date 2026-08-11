@@ -267,9 +267,9 @@
     "image": "https://cs-a.ecimg.tw/items/DEAWMWA900JCBKJ/000001_1760418137.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 2555,
-      "converted": 2555,
-      "confidence": "PChome 2026-08-04 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 2690,
+      "converted": 2690,
+      "confidence": "PChome 2026-08-11 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -1345,9 +1345,9 @@
     "name": "陶晶壺型鍋 1.7L",
     "price": {
       "currency": "TWD",
-      "amount": 6240,
-      "converted": 6240,
-      "confidence": "PChome 2026-08-04 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 6630,
+      "converted": 6630,
+      "confidence": "PChome 2026-08-11 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DEAWMJA900JMZA5/000001_1768290148.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DEAWMJ-A900JMZA5",
@@ -1501,9 +1501,9 @@
     "name": "醇火系列不沾炒鍋",
     "price": {
       "currency": "TWD",
-      "amount": 1259,
-      "converted": 1259,
-      "confidence": "PChome 2026-08-04 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 1399,
+      "converted": 1399,
+      "confidence": "PChome 2026-08-11 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DEES01A900IQ6X3/000001_1764832269.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DEES01-A900IQ6X3",
@@ -1579,9 +1579,9 @@
     "name": "瓷安系列不沾單柄牛奶鍋",
     "price": {
       "currency": "TWD",
-      "amount": 1832,
-      "converted": 1832,
-      "confidence": "PChome 2026-08-04 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 1946,
+      "converted": 1946,
+      "confidence": "PChome 2026-08-11 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DEAWMLA900JSTI6/000001_1773108785.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DEAWML-A900JSTI6",

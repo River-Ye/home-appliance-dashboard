@@ -97,9 +97,9 @@
     "name": "D01-SL-DX 電動升降桌 120x80",
     "price": {
       "currency": "TWD",
-      "amount": 13644,
-      "converted": 13644,
-      "confidence": "PChome 2026-08-10 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 14790,
+      "converted": 14790,
+      "confidence": "PChome 2026-08-11 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBJ4CA900I9XVY/000001_1773043590.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBJ4C-A900I9XVY",
@@ -177,9 +177,9 @@
     "name": "D01-SL-DX 電動升降桌 150x80",
     "price": {
       "currency": "TWD",
-      "amount": 14091,
-      "converted": 14091,
-      "confidence": "PChome 2026-08-10 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 15490,
+      "converted": 15490,
+      "confidence": "PChome 2026-08-11 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBJ4CA900HUG3C/000001_1773043903.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBJ4C-A900HUG3C",
@@ -257,9 +257,9 @@
     "name": "D01-SL-DX 電動升降桌 160x80",
     "price": {
       "currency": "TWD",
-      "amount": 14537,
-      "converted": 14537,
-      "confidence": "PChome 2026-08-10 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 15990,
+      "converted": 15990,
+      "confidence": "PChome 2026-08-11 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBJ4CA900ITV12/000001_1773043461.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBJ4C-A900ITV12",
@@ -337,9 +337,9 @@
     "name": "D01-SL-DX 電動升降桌 180x80",
     "price": {
       "currency": "TWD",
-      "amount": 15162,
-      "converted": 15162,
-      "confidence": "PChome 2026-08-10 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 16490,
+      "converted": 16490,
+      "confidence": "PChome 2026-08-11 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBJ4CA900HUGSO/000001_1773043706.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBJ4C-A900HUGSO",
@@ -2016,6 +2016,93 @@
           "platform": "Reddit",
           "query": "site:reddit.com \"IKEA TRAVSPORT 796.209.50\" (problem OR issue OR defect OR \"negative review\")",
           "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22IKEA%20TRAVSPORT%20796.209.50%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
+          "targetHost": "reddit.com"
+        }
+      ]
+    }
+  },
+  {
+    "id": "standingdesk-backbone-allround-941",
+    "category": "standingdesk",
+    "rank": 26,
+    "topPick": false,
+    "budget": "mid",
+    "channel": "tw",
+    "brand": "Backbone",
+    "model": "Allround Desk 941.0",
+    "name": "Allround Desk 鷗圓電動升降桌 夜霧檀棕",
+    "price": {
+      "currency": "TWD",
+      "amount": 9980,
+      "converted": 9980,
+      "confidence": "momo購物 2026-08-11 夜霧檀棕 exact-color 新品公開價；Backbone 官方 variant 對照確認 SKU 941.0 為夜霧檀棕、variant 49257578，同價 NT$9,980 且官方庫存 124。未混用 SKU 940.0 預購羊絨米灰"
+    },
+    "image": "https://cdn-general.cybassets.com/media/W1siZiIsIjExNTM0L3Byb2R1Y3RzLzQyMjY0ODcyLzE2OTQ3NjcwMzRfYWI3ODRhMzVhZTY3YTNjZjcxOTQucG5nIl0sWyJwIiwidGh1bWIiLCI2MDB4NjAwIl1d.png?sha=2abcf9cc505bac65",
+    "buyUrl": "https://www.momoshop.com.tw/product/12726316",
+    "buyLabel": "momo購物",
+    "specs": [
+      "桌面：130 x 70 cm",
+      "桌板厚度：1.8 cm",
+      "高度：72–116 cm",
+      "單馬達（依官方說明書組裝圖與電機 1 故障碼判讀）／四組高度記憶",
+      "靜態承重：100 kg；動態承重：70 kg（PChome Backbone 官方直營頁）",
+      "升降運轉音：<50 dB；遇阻回彈約 3 cm、10 段靈敏度",
+      "雙拼低甲醛美耐皿系統板；CARB 認證、CNS F1 等級；MIT 鐵件"
+    ],
+    "description": "Allround Desk 941.0 是夜霧檀棕 exact variant，以 130x70cm 雙拼桌板、圓弧桌角、側邊走線孔、四組高度記憶與萬元內售價，補足現有升降桌清單的設計取向中尺寸選擇。",
+    "pros": [
+      "130x70cm 桌面比既有 Dyback Lite 100x60 更適合單螢幕加筆電配置",
+      "1.8cm 桌板、四組記憶、遇阻回彈與 <50dB 規格都有可核對來源",
+      "夜霧檀棕目前有台灣 exact-color 新品通路，官方 SKU 與庫存邊界可確認"
+    ],
+    "cons": [
+      "單馬達；Mobile01 僅 1 位 exact-product 現場試用者回報升降時拼接處明顯晃動，聲音較大且速度較慢，未達集中負評門檻",
+      "雙拼桌板有接縫，重視高位穩定或重型多螢幕者應先到門市實際升降測試",
+      "官方商品頁與說明書未標示輸入電壓，安裝前需核對變壓器銘牌與插座"
+    ],
+    "bestFor": "預算約一萬元、想要 130x70cm 北歐雙拼桌面與高度記憶，設備未達重型多螢幕等級，並願意先確認單馬達穩定感的人。",
+    "recommendation": "設計取向的萬元內補充選擇；相較 Dyback Lite 提供更實用桌面，相較 iRocks D01 價格更低，但單馬達晃動候選需透明揭露，不列 Top Pick。",
+    "score": 85,
+    "voltage": "Backbone 官方商品頁與說明書未標示輸入電壓；台灣官方通路販售，安裝前確認變壓器銘牌與插座",
+    "warranty": "桌架 5 年、馬達／電控 2 年；PChome Backbone 官方直營頁標示桌板 1 年功能保固",
+    "tags": [
+      "130x70cm",
+      "夜霧檀棕",
+      "四組記憶",
+      "單馬達",
+      "靜態100kg",
+      "桌板厚1.8cm"
+    ],
+    "releaseDate": "2023-08-18",
+    "historicalLow": {
+      "status": "found",
+      "amount": 8900,
+      "currency": "TWD",
+      "converted": 8900,
+      "sourceUrl": "https://www.zeczec.com/projects/mindcase-allround-desk",
+      "sourceTitle": "嘖嘖｜Allround Desk 鷗圓電動升降桌｜萬元內輕鬆入手！告別久坐魔咒，打造你的專屬高效工作『站』",
+      "evidenceSnippet": "官方募資頁的夜霧檀棕單入超早鳥方案為 NT$8,900，內容明列 Allround Desk 夜霧檀棕 1 台，且已有實際贊助紀錄。",
+      "sourceKind": "official_sale",
+      "confidence": "high",
+      "checkedAt": "2026-08-11",
+      "note": "採 exact-color 單台公開方案；雙入超早鳥 NT$17,400 雖平均每台 NT$8,700，但必須一次購買兩台，依規則排除套組條件。現價 NT$9,980 不用來反推史低。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-08-11",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com (\"Backbone Allround Desk 941.0\" OR \"Backbone Allround Desk\") (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20(%22Backbone%20Allround%20Desk%20941.0%22%20OR%20%22Backbone%20Allround%20Desk%22)%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com (\"Backbone Allround Desk 941.0\" OR \"Backbone Allround Desk\") (problem OR issue OR defect OR wobble OR \"negative review\")",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20(%22Backbone%20Allround%20Desk%20941.0%22%20OR%20%22Backbone%20Allround%20Desk%22)%20(problem%20OR%20issue%20OR%20defect%20OR%20wobble%20OR%20%22negative%20review%22)",
           "targetHost": "reddit.com"
         }
       ]

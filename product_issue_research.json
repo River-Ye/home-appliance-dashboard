@@ -1,9 +1,9 @@
 {
   "summary": {
-    "checkedAt": "2026-08-08T00:00:00+08:00",
-    "total": 762,
+    "checkedAt": "2026-08-11T00:00:00+08:00",
+    "total": 764,
     "commonIssueProducts": 36,
-    "noCommonIssueProducts": 726,
+    "noCommonIssueProducts": 728,
     "pendingManualReview": 0,
     "commonIssues": 36,
     "searchUnavailable": 26,
@@ -77848,6 +77848,319 @@
       ],
       "evidence": [],
       "rejectedCandidates": []
+    },
+    {
+      "id": "dishwasher-bosch-smv6zax00x",
+      "category": "dishwasher",
+      "brand": "Bosch",
+      "model": "SMV6ZAX00X",
+      "name": "6 系列 60 公分 13 人份全嵌式沸石洗碗機",
+      "identity": {
+        "canonicalModel": "SMV6ZAX00X",
+        "lookupLabel": "Bosch SMV6ZAX00X",
+        "aliases": [
+          "Bosch SMV6ZAX00X"
+        ],
+        "evidenceUrl": "https://www.bosch-home.com.tw/zh/mkt-product/dishwashers/built-in-dishwashers/built-in-dishwashers-60cm-width/SMV6ZAX00X"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "status": "completed",
+        "decision": "no_common_issue",
+        "reviewedAt": "2026-08-11",
+        "checkedPlatforms": [
+          "Mobile01",
+          "Reddit"
+        ],
+        "queries": [
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"Bosch SMV6ZAX00X\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Bosch%20SMV6ZAX00X%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "mobile01.com"
+          },
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"Bosch SMV6ZAX00X\" (problem OR issue OR defect OR \"negative review\")",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Bosch%20SMV6ZAX00X%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
+            "targetHost": "reddit.com"
+          }
+        ],
+        "candidateDisposition": "SMV6ZAX00X：Mobile01 兩篇 exact-model 原頁分別為滑動鉸鍊門板安裝疑問與沸石烘乾選購討論；第一篇樓主確認是正常滑動門設計、其餘功能正常，第二篇沒有同型號故障回報；Reddit 查無 exact-model 原頁候選。",
+        "representativeSources": [
+          {
+            "platform": "Mobile01",
+            "title": "Bosch SMV6ZAX00X｜請問BOSH全坎式洗碗機門板安裝問題",
+            "url": "https://www.mobile01.com/topicdetail.php?f=729&t=6648948"
+          },
+          {
+            "platform": "Mobile01",
+            "title": "Bosch SMV6ZAX00X｜請問BOSCH有、無沸石機種，烘乾效果差異程度如何?",
+            "url": "https://www.mobile01.com/topicdetail.php?f=729&t=6472321"
+          }
+        ],
+        "candidateReviews": [
+          {
+            "url": "https://www.mobile01.com/topicdetail.php?f=729&t=6648948",
+            "title": "Bosch SMV6ZAX00X｜請問BOSH全坎式洗碗機門板安裝問題",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-08-11",
+            "sourceExcerpt": "樓主安裝 SMV6ZAX00X 後詢問門板上下滑動與關門方式，後續確認為滑動門設計，並明確表示不是安裝問題、其餘功能及目前使用均正常。",
+            "independentAuthors": 1,
+            "specificReason": "這是單一使用者對滑動鉸鍊操作方式的疑問，樓主最後確認為正常設計且功能正常，不構成同型號第一人稱故障回報，更未達六位使用者與兩個網站門檻。"
+          },
+          {
+            "url": "https://www.mobile01.com/topicdetail.php?f=729&t=6472321",
+            "title": "Bosch SMV6ZAX00X｜請問BOSCH有、無沸石機種，烘乾效果差異程度如何?",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-08-11",
+            "sourceExcerpt": "原頁把 SMV6ZAX00X 列為 2021 下半年考慮的新機種之一，討論重點是有無沸石的烘乾、洗程與碗籃選擇，未見 SMV6ZAX00X 同型號故障敘述。",
+            "independentAuthors": 0,
+            "specificReason": "這是購前規格與沸石烘乾選型討論，沒有可計入的 SMV6ZAX00X 第一人稱故障回報，也只有 Mobile01 單一網站，不能成立集中災情。"
+          }
+        ],
+        "reviewerNote": "SMV6ZAX00X 於 2026-08-11 完成 Mobile01、Reddit exact-model 跨站人工覆核；兩篇 Mobile01 原頁均已逐篇判讀，Reddit 無同型號原頁候選，未把滑動鉸鍊正常行為或購前選型討論計為負評。",
+        "attestation": "manual_original_pages_reviewed"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-08-11",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"Bosch SMV6ZAX00X\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Bosch%20SMV6ZAX00X%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "mobile01.com"
+          },
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"Bosch SMV6ZAX00X\" (problem OR issue OR defect OR \"negative review\")",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Bosch%20SMV6ZAX00X%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
+            "targetHost": "reddit.com"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Bosch SMV6ZAX00X\" (災情 OR 問題 OR 故障 OR 負評)",
+          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Bosch%20SMV6ZAX00X%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "result": "candidates_unverified_by_search_only",
+          "resultCount": 2,
+          "candidateUrls": [
+            "https://www.mobile01.com/topicdetail.php?f=729&t=6648948",
+            "https://www.mobile01.com/topicdetail.php?f=729&t=6472321"
+          ],
+          "candidates": [
+            {
+              "url": "https://www.mobile01.com/topicdetail.php?f=729&t=6648948",
+              "title": "Bosch SMV6ZAX00X｜請問BOSH全坎式洗碗機門板安裝問題"
+            },
+            {
+              "url": "https://www.mobile01.com/topicdetail.php?f=729&t=6472321",
+              "title": "Bosch SMV6ZAX00X｜請問BOSCH有、無沸石機種，烘乾效果差異程度如何?"
+            }
+          ],
+          "inspectedAt": "2026-08-11T08:05:00+08:00"
+        },
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Bosch SMV6ZAX00X\" (problem OR issue OR defect OR \"negative review\")",
+          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Bosch%20SMV6ZAX00X%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-08-11T08:05:00+08:00"
+        }
+      ],
+      "evidence": [],
+      "rejectedCandidates": [
+        {
+          "url": "https://www.mobile01.com/topicdetail.php?f=729&t=6648948",
+          "title": "Bosch SMV6ZAX00X｜請問BOSH全坎式洗碗機門板安裝問題",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-11",
+          "sourceExcerpt": "樓主安裝 SMV6ZAX00X 後詢問門板上下滑動與關門方式，後續確認為滑動門設計，並明確表示不是安裝問題、其餘功能及目前使用均正常。",
+          "independentAuthors": 1,
+          "specificReason": "這是單一使用者對滑動鉸鍊操作方式的疑問，樓主最後確認為正常設計且功能正常，不構成同型號第一人稱故障回報，更未達六位使用者與兩個網站門檻。",
+          "reason": "這是單一使用者對滑動鉸鍊操作方式的疑問，樓主最後確認為正常設計且功能正常，不構成同型號第一人稱故障回報，更未達六位使用者與兩個網站門檻。"
+        },
+        {
+          "url": "https://www.mobile01.com/topicdetail.php?f=729&t=6472321",
+          "title": "Bosch SMV6ZAX00X｜請問BOSCH有、無沸石機種，烘乾效果差異程度如何?",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-11",
+          "sourceExcerpt": "原頁把 SMV6ZAX00X 列為 2021 下半年考慮的新機種之一，討論重點是有無沸石的烘乾、洗程與碗籃選擇，未見 SMV6ZAX00X 同型號故障敘述。",
+          "independentAuthors": 0,
+          "specificReason": "這是購前規格與沸石烘乾選型討論，沒有可計入的 SMV6ZAX00X 第一人稱故障回報，也只有 Mobile01 單一網站，不能成立集中災情。",
+          "reason": "這是購前規格與沸石烘乾選型討論，沒有可計入的 SMV6ZAX00X 第一人稱故障回報，也只有 Mobile01 單一網站，不能成立集中災情。"
+        }
+      ]
+    },
+    {
+      "id": "standingdesk-backbone-allround-941",
+      "category": "standingdesk",
+      "brand": "Backbone",
+      "model": "Allround Desk 941.0",
+      "name": "Allround Desk 鷗圓電動升降桌 夜霧檀棕",
+      "identity": {
+        "canonicalModel": "Allround Desk 941.0",
+        "lookupLabel": "Backbone Allround Desk 941.0 夜霧檀棕",
+        "aliases": [
+          "Backbone Allround Desk 941.0",
+          "Backbone Allround Desk",
+          "Allround Desk 鷗圓電動升降桌 夜霧檀棕",
+          "Backbone Allround Desk variant 49257578"
+        ],
+        "evidenceUrl": "https://www.backbone.tw/products/allrounddesk"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "status": "completed",
+        "decision": "no_common_issue",
+        "reviewedAt": "2026-08-11",
+        "checkedPlatforms": [
+          "Mobile01",
+          "Reddit"
+        ],
+        "queries": [
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com (\"Backbone Allround Desk 941.0\" OR \"Backbone Allround Desk\") (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20(%22Backbone%20Allround%20Desk%20941.0%22%20OR%20%22Backbone%20Allround%20Desk%22)%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "mobile01.com"
+          },
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com (\"Backbone Allround Desk 941.0\" OR \"Backbone Allround Desk\") (problem OR issue OR defect OR wobble OR \"negative review\")",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20(%22Backbone%20Allround%20Desk%20941.0%22%20OR%20%22Backbone%20Allround%20Desk%22)%20(problem%20OR%20issue%20OR%20defect%20OR%20wobble%20OR%20%22negative%20review%22)",
+            "targetHost": "reddit.com"
+          }
+        ],
+        "candidateDisposition": "Allround Desk 941.0：Mobile01 找到 2 個 exact-product 原頁；1 位樓主回報升降晃動、較吵且較慢，另一頁只有推薦。Reddit 未找到 exact-product 候選；未達同一問題 6 位獨立使用者、跨 2 個原始網站門檻。",
+        "representativeSources": [
+          {
+            "platform": "Mobile01",
+            "title": "Backbone Allround Desk 941.0｜三款升降桌推薦 現場體驗心得",
+            "url": "https://www.mobile01.com/topicdetail.php?f=116&t=7113262"
+          },
+          {
+            "platform": "Mobile01",
+            "title": "Backbone Allround Desk 941.0｜請推薦好用的升降桌給我（勿推 IKEA）",
+            "url": "https://www.mobile01.com/topicdetail.php?f=514&t=7147581"
+          }
+        ],
+        "candidateReviews": [
+          {
+            "url": "https://www.mobile01.com/topicdetail.php?f=116&t=7113262",
+            "title": "Backbone Allround Desk 941.0｜三款升降桌推薦 現場體驗心得",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-08-11",
+            "sourceExcerpt": "樓主馮小剛剛剛稱現場操作 Allround Desk 時，拼接處升降有明顯晃動，聲音較大且速度較慢。",
+            "independentAuthors": 1,
+            "specificReason": "只有 1 位 exact-product 第一人稱現場體驗者，且只在 Mobile01 1 個原始網站，未達同一問題 6 人／2 站門檻；其他泛稱單馬達會晃的留言不是同型號第一人稱回報。"
+          },
+          {
+            "url": "https://www.mobile01.com/topicdetail.php?f=514&t=7147581",
+            "title": "Backbone Allround Desk 941.0｜請推薦好用的升降桌給我（勿推 IKEA）",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-08-11",
+            "sourceExcerpt": "dreamyo 只把 Backbone Allround Desk 當作較平價的選購推薦，沒有回報故障、缺陷或負面使用經驗。",
+            "independentAuthors": 0,
+            "specificReason": "原頁只有同產品推薦，不是第一人稱負面問題回報，沒有可計入的獨立負評作者，也未形成跨站集中問題。"
+          }
+        ],
+        "reviewerNote": "Allround Desk 941.0 已於 2026-08-11 重跑含 canonical SKU 與產品別名的 Mobile01、Reddit 查詢，並人工開啟兩個 Mobile01 原頁；只有 1 位 exact-product 第一人稱負面體驗者，決策維持 no_common_issue。",
+        "attestation": "manual_original_pages_reviewed"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-08-11",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com (\"Backbone Allround Desk 941.0\" OR \"Backbone Allround Desk\") (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20(%22Backbone%20Allround%20Desk%20941.0%22%20OR%20%22Backbone%20Allround%20Desk%22)%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "mobile01.com"
+          },
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com (\"Backbone Allround Desk 941.0\" OR \"Backbone Allround Desk\") (problem OR issue OR defect OR wobble OR \"negative review\")",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20(%22Backbone%20Allround%20Desk%20941.0%22%20OR%20%22Backbone%20Allround%20Desk%22)%20(problem%20OR%20issue%20OR%20defect%20OR%20wobble%20OR%20%22negative%20review%22)",
+            "targetHost": "reddit.com"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "Bing RSS / Mobile01",
+          "query": "site:mobile01.com (\"Backbone Allround Desk 941.0\" OR \"Backbone Allround Desk\") (災情 OR 問題 OR 故障 OR 負評)",
+          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20(%22Backbone%20Allround%20Desk%20941.0%22%20OR%20%22Backbone%20Allround%20Desk%22)%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "result": "candidates_unverified_by_search_only",
+          "resultCount": 2,
+          "candidateUrls": [
+            "https://www.mobile01.com/topicdetail.php?f=116&t=7113262",
+            "https://www.mobile01.com/topicdetail.php?f=514&t=7147581"
+          ],
+          "candidates": [
+            {
+              "url": "https://www.mobile01.com/topicdetail.php?f=116&t=7113262",
+              "title": "Backbone Allround Desk 941.0｜三款升降桌推薦 現場體驗心得"
+            },
+            {
+              "url": "https://www.mobile01.com/topicdetail.php?f=514&t=7147581",
+              "title": "Backbone Allround Desk 941.0｜請推薦好用的升降桌給我（勿推 IKEA）"
+            }
+          ],
+          "inspectedAt": "2026-08-11T08:08:29+08:00"
+        },
+        {
+          "platform": "Bing RSS / Reddit",
+          "query": "site:reddit.com (\"Backbone Allround Desk 941.0\" OR \"Backbone Allround Desk\") (problem OR issue OR defect OR wobble OR \"negative review\")",
+          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20(%22Backbone%20Allround%20Desk%20941.0%22%20OR%20%22Backbone%20Allround%20Desk%22)%20(problem%20OR%20issue%20OR%20defect%20OR%20wobble%20OR%20%22negative%20review%22)",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-08-11T08:08:29+08:00"
+        }
+      ],
+      "evidence": [],
+      "rejectedCandidates": [
+        {
+          "url": "https://www.mobile01.com/topicdetail.php?f=116&t=7113262",
+          "title": "Backbone Allround Desk 941.0｜三款升降桌推薦 現場體驗心得",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-11",
+          "sourceExcerpt": "樓主馮小剛剛剛稱現場操作 Allround Desk 時，拼接處升降有明顯晃動，聲音較大且速度較慢。",
+          "independentAuthors": 1,
+          "specificReason": "只有 1 位 exact-product 第一人稱現場體驗者，且只在 Mobile01 1 個原始網站，未達同一問題 6 人／2 站門檻；其他泛稱單馬達會晃的留言不是同型號第一人稱回報。",
+          "reason": "只有 1 位 exact-product 第一人稱現場體驗者，且只在 Mobile01 1 個原始網站，未達同一問題 6 人／2 站門檻；其他泛稱單馬達會晃的留言不是同型號第一人稱回報。"
+        },
+        {
+          "url": "https://www.mobile01.com/topicdetail.php?f=514&t=7147581",
+          "title": "Backbone Allround Desk 941.0｜請推薦好用的升降桌給我（勿推 IKEA）",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-11",
+          "sourceExcerpt": "dreamyo 只把 Backbone Allround Desk 當作較平價的選購推薦，沒有回報故障、缺陷或負面使用經驗。",
+          "independentAuthors": 0,
+          "specificReason": "原頁只有同產品推薦，不是第一人稱負面問題回報，沒有可計入的獨立負評作者，也未形成跨站集中問題。",
+          "reason": "原頁只有同產品推薦，不是第一人稱負面問題回報，沒有可計入的獨立負評作者，也未形成跨站集中問題。"
+        }
+      ]
     }
   ]
 }
