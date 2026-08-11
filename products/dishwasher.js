@@ -435,9 +435,9 @@
     "image": "https://cs-a.ecimg.tw/items/DMBR35A900JVAOT/000001_1782872320.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 29900,
-      "converted": 29900,
-      "confidence": "PChome 2026-08-06 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 28888,
+      "converted": 28888,
+      "confidence": "PChome 2026-08-11 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -2077,6 +2077,94 @@
           "platform": "Reddit",
           "query": "site:reddit.com \"Bosch SMV8ZCX00X\" (problem OR issue OR defect OR \"negative review\")",
           "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Bosch%20SMV8ZCX00X%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
+          "targetHost": "reddit.com"
+        }
+      ]
+    }
+  },
+  {
+    "id": "dishwasher-bosch-smv6zax00x",
+    "category": "dishwasher",
+    "rank": 26,
+    "topPick": false,
+    "budget": "premium",
+    "channel": "tw",
+    "brand": "Bosch",
+    "model": "SMV6ZAX00X",
+    "name": "6 系列 60 公分 13 人份全嵌式沸石洗碗機",
+    "price": {
+      "currency": "TWD",
+      "amount": 59000,
+      "converted": 59000,
+      "confidence": "樂天市場新竹簡單生活館 2026-08-11 exact-model JSON-LD InStock 公開價"
+    },
+    "image": "https://media3.bsh-group.com/Product_Shots/13190281_SMV6ZAX00X_STP_def.webp",
+    "buyUrl": "https://www.rakuten.com.tw/shop/cova-shop/product/smv6zax00x_no/",
+    "buyLabel": "樂天市場－新竹簡單生活館",
+    "specs": [
+      "60cm 全嵌式 / 13 人份 / 滑動鉸鍊",
+      "沸石烘乾 / Home Connect / Extra Clean Zone 強效潔淨區",
+      "44dB / 24 小時預約 / AquaStop 自動偵測漏水",
+      "尺寸：寬 59.8 x 深 55 x 高 81.5 cm",
+      "110V / 60Hz / 1100W；官方手冊列 15A 保險裝置",
+      "安裝空間：寬 60-60.8 x 深 55 x 高 81.5-87.5 cm；門片 4.5-11 kg",
+      "需自備門板；樂天售價不含基本安裝，門板製作與安裝另計"
+    ],
+    "description": "SMV6ZAX00X 是 Bosch 台灣 6 系列 13 人份全嵌式機型，以 110V、沸石烘乾、Home Connect 與滑動鉸鍊，補足現有清單在入門全嵌式與 8 系列旗艦之間的中高階選項。",
+    "pros": [
+      "13 人份、110V 台灣電力規格，免另設 220V 專用電源",
+      "沸石烘乾、Home Connect、Extra Clean Zone 與 AquaStop 功能完整",
+      "NT$59,000 現價明顯低於清單內 Bosch SMV8ZCX00X，保留全嵌式與沸石核心功能"
+    ],
+    "cons": [
+      "全嵌式機型需自備門板並預先規劃櫥櫃、進排水與接地插座",
+      "樂天頁面不含基本安裝，門片製作、安裝與現場修改費需另計",
+      "13 人份與 44dB 規格低於／高於 8 系列的 14 人份與 41dB，且沒有全彩 TFT 介面"
+    ],
+    "bestFor": "正在規劃系統廚具、希望使用 110V 全嵌式沸石洗碗機，但不需要 8 系列 TFT 與最高規格的人。",
+    "recommendation": "110V 沸石全嵌式中高階推薦：SMV6ZAX00X 以較 8 系列低的現價保留沸石、Home Connect 與滑動鉸鍊，購買前仍要把門板、櫥櫃、進排水與安裝總價一併估算。",
+    "score": 90,
+    "voltage": "110V / 60Hz / 1100W；官方手冊列 15A 保險裝置，需接地插座、進排水與全嵌櫃體",
+    "warranty": "Bosch 台灣官方型錄標示全機 2 年；購前確認通路公司貨、保固登錄與正確安裝條件",
+    "tags": [
+      "13人份",
+      "60cm",
+      "全嵌式",
+      "沸石烘乾",
+      "滑動鉸鍊",
+      "Home Connect",
+      "110V"
+    ],
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-08-11",
+      "note": "已查 Bosch 台灣官方商城、樂天市場新竹簡單生活館、FindPrice、BigGo 與 LBJ；樂天 NT$59,000 與官方商城 NT$69,200 只能證明本次現價。FindPrice／飛比曾顯示更低比較價，但沒有可重現的原始通路歷史曲線、最低點日期或無條件 exact-model 原頁，因此不以現價或比價快照推定史低。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-08-11",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Bosch SMV6ZAX00X\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Bosch%20SMV6ZAX00X%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Bosch SMV6ZAX00X\" (problem OR issue OR defect OR \"negative review\")",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Bosch%20SMV6ZAX00X%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
           "targetHost": "reddit.com"
         }
       ]

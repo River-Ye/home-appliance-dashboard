@@ -1403,9 +1403,9 @@
     "name": "BRAVIA Theatre Bar 8 聲霸",
     "price": {
       "currency": "TWD",
-      "amount": 27900,
-      "converted": 27900,
-      "confidence": "PChome 2026-08-09 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 29900,
+      "converted": 29900,
+      "confidence": "PChome 2026-08-11 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBM1DA900HTC64/000001_1781747501.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBM1D-A900HTC64",
@@ -1483,9 +1483,9 @@
     "name": "BRAVIA Theatre Bar 9 旗艦聲霸",
     "price": {
       "currency": "TWD",
-      "amount": 40900,
-      "converted": 40900,
-      "confidence": "PChome 2026-08-09 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 42900,
+      "converted": 42900,
+      "confidence": "PChome 2026-08-11 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBM1DA900I0ZKD/000001_1783764143.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBM1D-A900I0ZKD",
@@ -1724,8 +1724,8 @@
     "price": {
       "currency": "USD",
       "amount": 1299.99,
-      "converted": 41834,
-      "confidence": "Marshall US 2026-07-21 來源價；ExchangeRate-API 2026-08-10 匯率換算"
+      "converted": 41900,
+      "confidence": "Marshall US 2026-07-21 來源價；ExchangeRate-API 2026-08-11 匯率換算"
     },
     "image": "https://images.ctfassets.net/javen7msabdh/2C2sn9CKoKFdIyd94Gm9z5/f3019d4e721511167ebe5c229bf490dd/heston-120_plp.jpg",
     "buyUrl": "https://www.marshall.com/us/en/product/heston-120",
@@ -1806,8 +1806,8 @@
     "price": {
       "currency": "USD",
       "amount": 699.99,
-      "converted": 22526,
-      "confidence": "Marshall US 官方 2026-07-21 現貨價；ExchangeRate-API 2026-08-10 匯率換算"
+      "converted": 22561,
+      "confidence": "Marshall US 官方 2026-07-21 現貨價；ExchangeRate-API 2026-08-11 匯率換算"
     },
     "image": "https://images.ctfassets.net/javen7msabdh/3yitHqjPBTgQk5qRE72PSn/2788206646aa153f71f2c0ebefaff580/Heston-60-black_plp_800x800-v3.jpeg",
     "buyUrl": "https://www.marshall.com/us/en/product/heston-60?pid=1008949",
@@ -2190,14 +2190,14 @@
       "status": "found",
       "amount": 176107,
       "currency": "JPY",
-      "converted": 35895,
+      "converted": 35710,
       "sourceUrl": "https://kakaku.com/item/K0001712395/pricehistory/",
       "sourceTitle": "価格.com：JBL BAR 1300MK2 [ブラック] 価格推移",
       "evidenceSnippet": "価格.com 日別價格歷史顯示 exact-model「JBL BAR 1300MK2 [ブラック]」於 2026-06-22、2026-06-23 的新品最低價為 ¥176,107；2025-10 初始價格為 ¥205,306。",
       "sourceKind": "price_history",
       "confidence": "medium",
       "checkedAt": "2026-07-24",
-      "note": "採日本市場 exact-model 公開價格歷史並依 2026-08-10 JPY/TWD 匯率換算；未含國際運費、進口稅、插頭／電壓確認與台灣保固風險。官方規格雖為 100-240V，海外購入仍非台灣公司貨。"
+      "note": "採日本市場 exact-model 公開價格歷史並依 2026-08-11 JPY/TWD 匯率換算；未含國際運費、進口稅、插頭／電壓確認與台灣保固風險。官方規格雖為 100-240V，海外購入仍非台灣公司貨。"
     },
     "issueResearch": {
       "status": "no_common_issue",

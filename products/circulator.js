@@ -1448,9 +1448,9 @@
     "name": "9吋 DC 直流馬達空氣循環扇",
     "price": {
       "currency": "TWD",
-      "amount": 3799,
-      "converted": 3799,
-      "confidence": "Costco 好市多 2026-07-11 頁面查核價"
+      "amount": 3029,
+      "converted": 3029,
+      "confidence": "Costco 好市多 2026-08-11 exact-model 公開結構化價格"
     },
     "image": "https://www.costco.com.tw/medias/sys_master/images/h4c/h76/333377583546398.jpg",
     "buyUrl": "https://www.costco.com.tw/Televisions-Appliances/Cooling-Heating-Air-Treatment/Heating-Cooling/Airmate-9-inch-DC-Inverter-Air-Circulator-FB2393DR/p/149328",
