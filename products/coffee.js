@@ -819,9 +819,9 @@
     "name": "JURA E8 Chrome (NAC) 全自動咖啡機",
     "price": {
       "currency": "TWD",
-      "amount": 72500,
-      "converted": 72500,
-      "confidence": "PChome 2026-08-09 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 65250,
+      "converted": 65250,
+      "confidence": "PChome 2026-08-11 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://img.pchome.com.tw/cs/items/DMAT3GA900JFELW/000001_1762414552.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAT3G-A900JFELW",
@@ -908,9 +908,9 @@
     "name": "JURA ENA 4 Full Metropolitan Black (EA) 全自動咖啡機",
     "price": {
       "currency": "TWD",
-      "amount": 38900,
-      "converted": 38900,
-      "confidence": "PChome 2026-08-09 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 35010,
+      "converted": 35010,
+      "confidence": "PChome 2026-08-11 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://img.pchome.com.tw/cs/items/DMAT00A900BQG97/000001_1777222745.png",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAT00-A900BQG97",
@@ -945,16 +945,16 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 35788,
+      "amount": 35010,
       "currency": "TWD",
-      "converted": 35788,
+      "converted": 35010,
       "sourceUrl": "https://24h.pchome.com.tw/prod/DMAT00-A900BQG97",
-      "sourceTitle": "PChome 24h JURA ENA 4 15344 全自動咖啡機",
-      "evidenceSnippet": "頁面規格列產品編號 15344，並保留公開限時折扣價 35,788 元與網路價 38,900 元。",
-      "sourceKind": "retailer_promo",
+      "sourceTitle": "PChome 24h 購物：Jura ENA 4 家用全自動咖啡機",
+      "evidenceSnippet": "PChome 24h 購物於 2026-08-11 顯示同型號可信新品公開價 NT$35,010，低於既有史低 NT$35,788。",
+      "sourceKind": "retailer_page",
       "confidence": "medium",
-      "checkedAt": "2026-08-04",
-      "note": "截至查核日，可重現頁面明列 exact article 15344 與公開站內折扣價 35,788 元；未使用會員券、信用卡或點數。"
+      "checkedAt": "2026-08-11",
+      "note": "採用 PChome 24h 購物當日可購商品的同型號新品公開價；不含會員券、點數、信用卡回饋、二手、福利、展示、拆封或整新品。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -1176,9 +1176,9 @@
     "name": "Saeco 半自動義式咖啡機",
     "price": {
       "currency": "TWD",
-      "amount": 4990,
-      "converted": 4990,
-      "confidence": "Yahoo購物中心 2026-08-10 exact-model 公開結構化價格"
+      "amount": 4741,
+      "converted": 4741,
+      "confidence": "Yahoo購物中心 2026-08-11 exact-model 公開結構化價格"
     },
     "image": "https://img.yec.tw/zp/MerchandiseImages/69fb8a2ae4-Gd-11322933.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/Philips-%E9%A3%9B%E5%88%A9%E6%B5%A6-Saeco%E5%8D%8A%E8%87%AA%E5%8B%95%E7%BE%A9%E5%BC%8F%E5%92%96%E5%95%A1%E6%A9%9F-EMS5110-02-11322933.html",
