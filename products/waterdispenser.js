@@ -15,9 +15,9 @@
     "image": "https://cs-a.ecimg.tw/items/DAANBRA900ASZRJ/000001_1758695631.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 9190,
-      "converted": 9190,
-      "confidence": "PChome 2026-08-09 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 8087,
+      "converted": 8087,
+      "confidence": "PChome 2026-08-11 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -2918,6 +2918,94 @@
           "platform": "PTT",
           "query": "site:ptt.cc (\"CLAR WS2-C1\" OR \"CLAR EVO WS2-C1\" OR \"CLAR EVO 110V\") (災情 OR 問題 OR 故障 OR 負評 OR 水溫 OR 出水)",
           "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20(%22CLAR%20WS2-C1%22%20OR%20%22CLAR%20EVO%20WS2-C1%22%20OR%20%22CLAR%20EVO%20110V%22)%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95%20OR%20%E6%B0%B4%E6%BA%AB%20OR%20%E5%87%BA%E6%B0%B4)",
+          "targetHost": "ptt.cc"
+        }
+      ]
+    }
+  },
+  {
+    "id": "waterdispenser-voca-tc-x",
+    "category": "waterdispenser",
+    "rank": 36,
+    "topPick": false,
+    "budget": "premium",
+    "channel": "tw",
+    "brand": "VOCA",
+    "model": "TC-X",
+    "name": "頂級瞬熱飲水機 旗艦款（F-1Z 濾芯）",
+    "price": {
+      "currency": "TWD",
+      "amount": 58800,
+      "converted": 58800,
+      "confidence": "VOCA 台灣官方商城 2026-08-11 TC-X 旗艦款搭配 F-1Z 濾芯的公開售價；同頁 F-1 COMPACT 為不同濾芯配套，不混用價格"
+    },
+    "image": "https://www.voca.com.tw/Files/Product/20260612212347671.jpg",
+    "buyUrl": "https://www.voca.com.tw/Product/Detail?ID=155&class=7",
+    "buyLabel": "VOCA 官方商城",
+    "specs": [
+      "櫥下型／無儲水桶／磁束瞬熱；常溫至 95°C 定溫定量",
+      "旗艦配套：TC-X 主機、SUS304 觸控龍頭、R3 無線觸控面板與 MEISUI F-1Z 主濾芯",
+      "F-1Z：0.15μm 三層過濾，官方標示總過濾量 20,000L",
+      "主機尺寸：高 38.2 x 長 23.4 x 寬 5.2 cm；重量 3 kg（保留官方標示順序）",
+      "220V：AC 220V／60Hz、最大 2650W、熱水約 500–530 cc/分",
+      "110V：AC 110V／60Hz、最大 1650W、熱水約 300–330 cc/分；接單訂製",
+      "進水壓力：1–3 kg/cm²；待機 2W；定量誤差 ±10%、溫度誤差 ±5°C"
+    ],
+    "description": "TC-X 是 VOCA 現售的 5.2 cm 薄型櫥下瞬熱主機；本筆鎖定含 R3 無線面板與 F-1Z 濾芯的旗艦配套，110V／220V 版本都需先確認電源、水壓、鑽孔與官方安裝區域。",
+    "pros": [
+      "5.2 cm 薄型無儲水桶主機，常溫至 95°C 可定溫定量",
+      "110V／220V、60Hz 版本可依現場條件評估，220V 熱水流量較高",
+      "官方安裝、全機 3 年與瞬熱引擎本體 10 年保固"
+    ],
+    "cons": [
+      "旗艦 F-1Z 配套價格高，F-1Z／F-1 COMPACT 的容量、口感與價格不同，需分開比較",
+      "不提供冰水；110V 或 95°C 高溫出水較慢，Mobile01 同型號少數使用者亦有流量感受回報，但未達集中災情門檻",
+      "只支援自來水；低水壓、非標準鑽孔、加壓或拉 220V 專用迴路可能另增成本"
+    ],
+    "bestFor": "重視薄型櫥下收納、定溫定量、台灣官方到府安裝與長期瞬熱核心保固，且不需要冰水的家庭。",
+    "recommendation": "VOCA 品牌補充推薦：exact model、台灣官方現售、電力與安裝證據完整；下單前應先到門市確認 F-1Z 口感，並讓官方評估 110V／220V、實際熱水流量、水壓與所在地服務範圍。",
+    "score": 89,
+    "voltage": "AC 110V／60Hz、最大 1650W（接單訂製）或 AC 220V／60Hz、最大 2650W；需 110V 15A 或 220V 13–15A 電源並由官方評估安裝",
+    "warranty": "全機 3 年、瞬熱引擎本體 10 年；限官方保固條件與服務範圍，自行或第三方拆裝／遷移可能失去保固",
+    "tags": [
+      "VOCA",
+      "瞬熱",
+      "無儲水桶",
+      "110V/220V",
+      "F-1Z",
+      "MIT",
+      "櫥下型"
+    ],
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-08-11",
+      "note": "已查 VOCA 官方商城、Livtec、Marie Claire、BigGo、FindPrice 與 LBJ。2022 年媒體可重現的 TC-X 旗艦價 NT$47,000 搭配 3M DWS1500，與目前 F-1Z 配套不同；官方現售 NT$58,800 也只有本次現價，因此不混用套裝或以現價推定史低。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-08-11",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com (\"VOCA TC-X\" OR \"VOCA TCX\") (災情 OR 問題 OR 故障 OR 負評 OR 出水 OR 維修)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com+%28%22VOCA+TC-X%22+OR+%22VOCA+TCX%22%29+%28%E7%81%BD%E6%83%85+OR+%E5%95%8F%E9%A1%8C+OR+%E6%95%85%E9%9A%9C+OR+%E8%B2%A0%E8%A9%95+OR+%E5%87%BA%E6%B0%B4+OR+%E7%B6%AD%E4%BF%AE%29",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "PTT",
+          "query": "site:ptt.cc (\"VOCA TC-X\" OR \"VOCA TCX\") (災情 OR 問題 OR 故障 OR 負評 OR 出水 OR 維修)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc+%28%22VOCA+TC-X%22+OR+%22VOCA+TCX%22%29+%28%E7%81%BD%E6%83%85+OR+%E5%95%8F%E9%A1%8C+OR+%E6%95%85%E9%9A%9C+OR+%E8%B2%A0%E8%A9%95+OR+%E5%87%BA%E6%B0%B4+OR+%E7%B6%AD%E4%BF%AE%29",
           "targetHost": "ptt.cc"
         }
       ]

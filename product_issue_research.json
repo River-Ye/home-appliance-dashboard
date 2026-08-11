@@ -1,9 +1,9 @@
 {
   "summary": {
     "checkedAt": "2026-08-11T00:00:00+08:00",
-    "total": 765,
+    "total": 766,
     "commonIssueProducts": 36,
-    "noCommonIssueProducts": 729,
+    "noCommonIssueProducts": 730,
     "pendingManualReview": 0,
     "commonIssues": 36,
     "searchUnavailable": 26,
@@ -48695,6 +48695,161 @@
           "independentAuthors": 1,
           "specificReason": "只有 1 位可確認為 110V WS2-C1 的面板問題回報，且已獲維修解決；與另一候選的流量感受不是同一問題，也沒有跨第二個原始網站。",
           "reason": "只有 1 位可確認為 110V WS2-C1 的面板問題回報，且已獲維修解決；與另一候選的流量感受不是同一問題，也沒有跨第二個原始網站。"
+        }
+      ]
+    },
+    {
+      "id": "waterdispenser-voca-tc-x",
+      "category": "waterdispenser",
+      "brand": "VOCA",
+      "model": "TC-X",
+      "name": "頂級瞬熱飲水機 旗艦款（F-1Z 濾芯）",
+      "identity": {
+        "canonicalModel": "TC-X",
+        "lookupLabel": "VOCA TC-X",
+        "aliases": [
+          "VOCA TC-X"
+        ],
+        "evidenceUrl": "https://www.voca.com.tw/Product/Detail?ID=155&class=7"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "status": "completed",
+        "decision": "no_common_issue",
+        "reviewedAt": "2026-08-11",
+        "checkedPlatforms": [
+          "Mobile01",
+          "PTT"
+        ],
+        "queries": [
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com (\"VOCA TC-X\" OR \"VOCA TCX\") (災情 OR 問題 OR 故障 OR 負評 OR 出水 OR 維修)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com+%28%22VOCA+TC-X%22+OR+%22VOCA+TCX%22%29+%28%E7%81%BD%E6%83%85+OR+%E5%95%8F%E9%A1%8C+OR+%E6%95%85%E9%9A%9C+OR+%E8%B2%A0%E8%A9%95+OR+%E5%87%BA%E6%B0%B4+OR+%E7%B6%AD%E4%BF%AE%29",
+            "targetHost": "mobile01.com"
+          },
+          {
+            "platform": "PTT",
+            "query": "site:ptt.cc (\"VOCA TC-X\" OR \"VOCA TCX\") (災情 OR 問題 OR 故障 OR 負評 OR 出水 OR 維修)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc+%28%22VOCA+TC-X%22+OR+%22VOCA+TCX%22%29+%28%E7%81%BD%E6%83%85+OR+%E5%95%8F%E9%A1%8C+OR+%E6%95%85%E9%9A%9C+OR+%E8%B2%A0%E8%A9%95+OR+%E5%87%BA%E6%B0%B4+OR+%E7%B6%AD%E4%BF%AE%29",
+            "targetHost": "ptt.cc"
+          }
+        ],
+        "candidateDisposition": "TC-X：Mobile01 找到 2 個 exact-model 原頁；一頁有 2 位可辨識使用者回報高溫或整體出水較慢，另一頁有 1 位使用者明確將高溫流量較小列為取捨。PTT exact-model 討論為購前比較與正面使用回覆，沒有可計入的同一負面原頁；合計未達同一問題 6 位獨立使用者、跨 2 個原始網站門檻。",
+        "representativeSources": [
+          {
+            "platform": "Mobile01",
+            "title": "請問Voca TCX 廚下式瞬熱飲水機 出水量問題",
+            "url": "https://www.mobile01.com/topicdetail.php?f=729&t=6886734"
+          },
+          {
+            "platform": "Mobile01",
+            "title": "終於裝 VOCA TCX 廚下式瞬熱飲水機了！新家的喝水小幫手～",
+            "url": "https://www.mobile01.com/topicdetail.php?f=729&t=6421162"
+          }
+        ],
+        "candidateReviews": [
+          {
+            "url": "https://www.mobile01.com/topicdetail.php?f=729&t=6886734",
+            "title": "請問Voca TCX 廚下式瞬熱飲水機 出水量問題",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-08-11",
+            "sourceExcerpt": "樓主 003567896 實測常溫 200cc 約 20 秒；使用約一年的 chyieh 實測常溫約 14 秒、95°C 約 20 秒，兩人都指向 TCX 出水速度取捨。",
+            "independentAuthors": 2,
+            "specificReason": "只有 2 位可確認為 TC-X 的第一人稱使用者，且同頁其他留言多為規格評論或他牌比較；沒有跨第二個原始網站，也未達 6 位獨立使用者。"
+          },
+          {
+            "url": "https://www.mobile01.com/topicdetail.php?f=729&t=6421162",
+            "title": "終於裝 VOCA TCX 廚下式瞬熱飲水機了！新家的喝水小幫手～",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-08-11",
+            "sourceExcerpt": "樓主 daisyjiang 表示 TCX 整體使用滿意，但將 95°C 高溫水出水量明顯較小列為缺點，並說明可用定量後等待的方式因應。",
+            "independentAuthors": 1,
+            "specificReason": "只有 1 位可確認為 TC-X 的第一人稱流量取捨，與另一候選仍同屬 Mobile01；即使合併也只有 3 人／1 站，不符合 6 人／2 站門檻。"
+          }
+        ],
+        "reviewerNote": "TC-X 已於 2026-08-11 完成 Mobile01 與 PTT 的 canonical-model／無連字號別名跨站查詢並人工開啟 exact-model 候選原頁；高溫出水較慢只有 3 位／1 站，決策為 no_common_issue。",
+        "attestation": "manual_original_pages_reviewed"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-08-11",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com (\"VOCA TC-X\" OR \"VOCA TCX\") (災情 OR 問題 OR 故障 OR 負評 OR 出水 OR 維修)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com+%28%22VOCA+TC-X%22+OR+%22VOCA+TCX%22%29+%28%E7%81%BD%E6%83%85+OR+%E5%95%8F%E9%A1%8C+OR+%E6%95%85%E9%9A%9C+OR+%E8%B2%A0%E8%A9%95+OR+%E5%87%BA%E6%B0%B4+OR+%E7%B6%AD%E4%BF%AE%29",
+            "targetHost": "mobile01.com"
+          },
+          {
+            "platform": "PTT",
+            "query": "site:ptt.cc (\"VOCA TC-X\" OR \"VOCA TCX\") (災情 OR 問題 OR 故障 OR 負評 OR 出水 OR 維修)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc+%28%22VOCA+TC-X%22+OR+%22VOCA+TCX%22%29+%28%E7%81%BD%E6%83%85+OR+%E5%95%8F%E9%A1%8C+OR+%E6%95%85%E9%9A%9C+OR+%E8%B2%A0%E8%A9%95+OR+%E5%87%BA%E6%B0%B4+OR+%E7%B6%AD%E4%BF%AE%29",
+            "targetHost": "ptt.cc"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "Bing RSS / Mobile01",
+          "query": "site:mobile01.com (\"VOCA TC-X\" OR \"VOCA TCX\") (災情 OR 問題 OR 故障 OR 負評 OR 出水 OR 維修)",
+          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com+%28%22VOCA+TC-X%22+OR+%22VOCA+TCX%22%29+%28%E7%81%BD%E6%83%85+OR+%E5%95%8F%E9%A1%8C+OR+%E6%95%85%E9%9A%9C+OR+%E8%B2%A0%E8%A9%95+OR+%E5%87%BA%E6%B0%B4+OR+%E7%B6%AD%E4%BF%AE%29",
+          "result": "candidates_unverified_by_search_only",
+          "resultCount": 2,
+          "candidateUrls": [
+            "https://www.mobile01.com/topicdetail.php?f=729&t=6886734",
+            "https://www.mobile01.com/topicdetail.php?f=729&t=6421162"
+          ],
+          "candidates": [
+            {
+              "url": "https://www.mobile01.com/topicdetail.php?f=729&t=6886734",
+              "title": "請問Voca TCX 廚下式瞬熱飲水機 出水量問題"
+            },
+            {
+              "url": "https://www.mobile01.com/topicdetail.php?f=729&t=6421162",
+              "title": "終於裝 VOCA TCX 廚下式瞬熱飲水機了！新家的喝水小幫手～"
+            }
+          ],
+          "inspectedAt": "2026-08-11T21:58:44+08:00"
+        },
+        {
+          "platform": "Bing RSS / PTT",
+          "query": "site:ptt.cc (\"VOCA TC-X\" OR \"VOCA TCX\") (災情 OR 問題 OR 故障 OR 負評 OR 出水 OR 維修)",
+          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc+%28%22VOCA+TC-X%22+OR+%22VOCA+TCX%22%29+%28%E7%81%BD%E6%83%85+OR+%E5%95%8F%E9%A1%8C+OR+%E6%95%85%E9%9A%9C+OR+%E8%B2%A0%E8%A9%95+OR+%E5%87%BA%E6%B0%B4+OR+%E7%B6%AD%E4%BF%AE%29",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-08-11T21:58:44+08:00"
+        }
+      ],
+      "evidence": [],
+      "rejectedCandidates": [
+        {
+          "url": "https://www.mobile01.com/topicdetail.php?f=729&t=6886734",
+          "title": "請問Voca TCX 廚下式瞬熱飲水機 出水量問題",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-11",
+          "sourceExcerpt": "樓主 003567896 實測常溫 200cc 約 20 秒；使用約一年的 chyieh 實測常溫約 14 秒、95°C 約 20 秒，兩人都指向 TCX 出水速度取捨。",
+          "independentAuthors": 2,
+          "specificReason": "只有 2 位可確認為 TC-X 的第一人稱使用者，且同頁其他留言多為規格評論或他牌比較；沒有跨第二個原始網站，也未達 6 位獨立使用者。",
+          "reason": "只有 2 位可確認為 TC-X 的第一人稱使用者，且同頁其他留言多為規格評論或他牌比較；沒有跨第二個原始網站，也未達 6 位獨立使用者。"
+        },
+        {
+          "url": "https://www.mobile01.com/topicdetail.php?f=729&t=6421162",
+          "title": "終於裝 VOCA TCX 廚下式瞬熱飲水機了！新家的喝水小幫手～",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-11",
+          "sourceExcerpt": "樓主 daisyjiang 表示 TCX 整體使用滿意，但將 95°C 高溫水出水量明顯較小列為缺點，並說明可用定量後等待的方式因應。",
+          "independentAuthors": 1,
+          "specificReason": "只有 1 位可確認為 TC-X 的第一人稱流量取捨，與另一候選仍同屬 Mobile01；即使合併也只有 3 人／1 站，不符合 6 人／2 站門檻。",
+          "reason": "只有 1 位可確認為 TC-X 的第一人稱流量取捨，與另一候選仍同屬 Mobile01；即使合併也只有 3 人／1 站，不符合 6 人／2 站門檻。"
         }
       ]
     },

@@ -1,5 +1,5 @@
 const EXPECTED_CATEGORY_COUNT = 27;
-const EXPECTED_PRODUCT_COUNT = 765;
+const EXPECTED_PRODUCT_COUNT = 766;
 const MIN_PRODUCTS_PER_CATEGORY = 20;
 const EXPECTED_CATEGORY_PRODUCT_COUNTS = new Map([
   ["tv", 34],
@@ -20,7 +20,7 @@ const EXPECTED_CATEGORY_PRODUCT_COUNTS = new Map([
   ["blender", 24],
   ["coffee", 24],
   ["oven", 25],
-  ["waterdispenser", 35],
+  ["waterdispenser", 36],
   ["dishwasher", 26],
   ["bidet", 20],
   ["smartlock", 48],
@@ -87,7 +87,7 @@ const REQUIRED_CATEGORY_TERMS = new Map([
   ["monitor", ["ASUS", "Acer", "BenQ", "LG", "Dell", "Samsung", "MSI", "GIGABYTE", "ViewSonic", "AOC", "Philips", "EIZO", "Xiaomi"]],
   ["cookware", ["Tefal", "Buffalo", "WMF", "Fissler", "Le Creuset", "Staub"]],
   ["knife", ["TOJIRO", "GLOBAL", "Victorinox", "Kai", "Kyocera", "Wusthof"]],
-  ["waterdispenser", ["3M", "EVERPURE", "Coway", "Panasonic", "BWT", "BRITA", "賀眾牌", "CLAR"]],
+  ["waterdispenser", ["3M", "EVERPURE", "Coway", "Panasonic", "BWT", "BRITA", "賀眾牌", "CLAR", "VOCA"]],
   ["dishwasher", ["Panasonic", "TECO", "Toshiba", "Bosch", "Electrolux", "LG", "Miele"]],
   ["standingdesk", ["Loctek", "iRocks", "NITORI", "COUGAR"]],
   ["chair", ["iRocks", "Ergohuman", "Razer", "Herman Miller", "Steelcase"]],
