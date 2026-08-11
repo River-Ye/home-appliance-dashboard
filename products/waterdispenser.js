@@ -3010,6 +3010,94 @@
         }
       ]
     }
+  },
+  {
+    "id": "waterdispenser-chianshan-tk-9000",
+    "category": "waterdispenser",
+    "rank": 37,
+    "topPick": false,
+    "budget": "premium",
+    "channel": "tw",
+    "brand": "千山淨水",
+    "model": "TK-9000",
+    "name": "HeatPure Ice 零降溫淨飲系統（三溫）＋全效能濾芯組合",
+    "price": {
+      "currency": "TWD",
+      "amount": 39800,
+      "converted": 39800,
+      "confidence": "千山淨水台灣官方商城 2026-08-11 TK-9000 預設全效能濾芯組合公開優惠價；牌價 NT$52,900，LifePure 600 RO、IonPure Pro 與軟水組合為同主機加價配套，不混用價格"
+    },
+    "image": "https://image-cdn-flare.qdm.cloud/q6041cc57bfa5e/image/data/2026/04/13/34a9261f2edd7e5648fe02f2b6e3c48c.png",
+    "buyUrl": "https://www.cswater.com.tw/HeatPureIce",
+    "buyLabel": "千山淨水官方商城",
+    "specs": [
+      "廚下型／冰、常溫、熱水三溫；零降溫技術，熱水出水量最高每分鐘 2.5L",
+      "預設 PF-207 全效能濾芯：0.5μm 活性碳＋奈米除菌纖維，官方建議約 12 個月或 8,000L 更換",
+      "溫度／定量：5–96°C、15 段溫控／50–3000 ml",
+      "容量：熱水槽官網列 3.2L、官方手冊另列 3.5L；冰水槽 1.3L，熱水容量建議購買前確認",
+      "主機尺寸／淨重：寬 26 x 深 42.5 x 高 42 cm／16 kg；龍頭：寬 4.7 x 深 16.7 x 高 24.5 cm／1.2 kg",
+      "AC 110V／60Hz、總功率 860W（熱水 750W、冰水 110W）；至少 15A 專用接地插座",
+      "工作水壓 0.7–3.5 kg/cm²、進水低於 40°C；TK-9000 另需冷卻水進排水與排水管"
+    ],
+    "description": "TK-9000 是千山淨水現售的 HeatPure Ice 三溫廚下主機；本筆鎖定含 PF-207 的預設全效能濾芯組合，其他 RO、電淨盾、軟水或龍頭顏色選項都不拆成重複商品。",
+    "pros": [
+      "冰、常溫、熱水三溫整合，5–96°C 與 50–3000 ml 可調",
+      "零降溫熱水、最高每分鐘 2.5L，並有節能排程與安全偵測",
+      "110V／60Hz 台灣官方現售，門市、安裝與手冊證據完整"
+    ],
+    "cons": [
+      "主機含儲熱與冰水槽，16 kg 且深 42.5 cm；不是無儲水桶瞬熱機",
+      "預設 PF-207 不是 RO；硬水環境或要純水需另評估軟水、LifePure 600 RO 或 IonPure Pro 加價配套",
+      "需冷卻水進排水、排水管與 15A 專用插座；官網和手冊的熱水槽容量分別為 3.2L、3.5L，應於下單前確認"
+    ],
+    "bestFor": "想在台灣廚下整合冰水、常溫與穩定熱水，重視定溫定量、官方安裝與門市服務，且可預留主機及進排水空間的家庭。",
+    "recommendation": "千山淨水品牌補充推薦：選現售功能完整的 TK-9000，並以預設 PF-207 組合建立單一 exact-model 資料；下單前應請官方確認櫥下尺寸、水壓、鑽孔、排水、專用插座及所需濾水配套。",
+    "score": 90,
+    "voltage": "AC 110V／60Hz、總功率 860W；至少 15A 專用接地插座，插座距離 1m 內且不可使用延長線",
+    "warranty": "正常使用下自購買日或發票日起 1 年免費維修；官方手冊另載產品零件保修 4 年，實際依安裝與非保固條款",
+    "tags": [
+      "千山淨水",
+      "HeatPure Ice",
+      "冰溫熱",
+      "零降溫",
+      "110V",
+      "PF-207",
+      "廚下型"
+    ],
+    "releaseDate": "2026-04-01",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-08-11",
+      "note": "已查千山淨水官方商城、BigGo、FindPrice、飛比與 LBJ 的 HeatPure Ice／TK-9000 exact-model、exact-title 查詢。官方牌價 NT$52,900、現售 NT$39,800 僅證明本次現價；比價平台未取得同型號、同為全效能濾芯組合且具日期的可信新品歷史最低價，因此不以現價推定史低。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-08-11",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"千山淨水\" \"TK-9000\" (災情 OR 問題 OR 故障 OR 維修 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22%E5%8D%83%E5%B1%B1%E6%B7%A8%E6%B0%B4%22%20%22TK-9000%22%20%28%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E7%B6%AD%E4%BF%AE%20OR%20%E8%B2%A0%E8%A9%95%29",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "PTT",
+          "query": "site:ptt.cc \"千山淨水\" \"TK-9000\" (災情 OR 問題 OR 故障 OR 維修 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22%E5%8D%83%E5%B1%B1%E6%B7%A8%E6%B0%B4%22%20%22TK-9000%22%20%28%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E7%B6%AD%E4%BF%AE%20OR%20%E8%B2%A0%E8%A9%95%29",
+          "targetHost": "ptt.cc"
+        }
+      ]
+    }
   }
 ]);
 })();

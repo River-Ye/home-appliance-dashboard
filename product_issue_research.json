@@ -1,9 +1,9 @@
 {
   "summary": {
     "checkedAt": "2026-08-11T00:00:00+08:00",
-    "total": 766,
+    "total": 767,
     "commonIssueProducts": 36,
-    "noCommonIssueProducts": 730,
+    "noCommonIssueProducts": 731,
     "pendingManualReview": 0,
     "commonIssues": 36,
     "searchUnavailable": 26,
@@ -48852,6 +48852,84 @@
           "reason": "只有 1 位可確認為 TC-X 的第一人稱流量取捨，與另一候選仍同屬 Mobile01；即使合併也只有 3 人／1 站，不符合 6 人／2 站門檻。"
         }
       ]
+    },
+    {
+      "id": "waterdispenser-chianshan-tk-9000",
+      "category": "waterdispenser",
+      "brand": "千山淨水",
+      "model": "TK-9000",
+      "name": "HeatPure Ice 零降溫淨飲系統（三溫）＋全效能濾芯組合",
+      "identity": {
+        "canonicalModel": "TK-9000",
+        "lookupLabel": "千山淨水 TK-9000",
+        "aliases": [
+          "千山淨水 TK-9000"
+        ],
+        "evidenceUrl": "https://www.cswater.com.tw/HeatPureIce"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "status": "completed",
+        "decision": "no_common_issue",
+        "reviewedAt": "2026-08-11",
+        "checkedPlatforms": [
+          "Mobile01",
+          "PTT"
+        ],
+        "queries": [
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"千山淨水\" \"TK-9000\" (災情 OR 問題 OR 故障 OR 維修 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22%E5%8D%83%E5%B1%B1%E6%B7%A8%E6%B0%B4%22%20%22TK-9000%22%20%28%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E7%B6%AD%E4%BF%AE%20OR%20%E8%B2%A0%E8%A9%95%29",
+            "targetHost": "mobile01.com"
+          },
+          {
+            "platform": "PTT",
+            "query": "site:ptt.cc \"千山淨水\" \"TK-9000\" (災情 OR 問題 OR 故障 OR 維修 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22%E5%8D%83%E5%B1%B1%E6%B7%A8%E6%B0%B4%22%20%22TK-9000%22%20%28%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E7%B6%AD%E4%BF%AE%20OR%20%E8%B2%A0%E8%A9%95%29",
+            "targetHost": "ptt.cc"
+          }
+        ],
+        "candidateDisposition": "TK-9000：完成 Mobile01 與 PTT exact-model 查詢，沒有經 canonical-model 邊界確認的原頁候選。廣義品牌查詢曾命中 TK-6000 的安裝與廢水投訴，但不同型號，不列入 TK-9000；此結果不代表完全沒有負評。",
+        "representativeSources": [],
+        "candidateReviews": [],
+        "reviewerNote": "TK-9000 已於 2026-08-11 實際請求 Mobile01、PTT 兩個獨立網站的 exact-model 查詢；均未找到符合 canonical model 的原頁候選。TK-6000 投訴已依型號邊界排除，未以搜尋摘要自動推定沒有負評。",
+        "attestation": "manual_cross_site_search_reviewed_no_candidate"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-08-11",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"千山淨水\" \"TK-9000\" (災情 OR 問題 OR 故障 OR 維修 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22%E5%8D%83%E5%B1%B1%E6%B7%A8%E6%B0%B4%22%20%22TK-9000%22%20%28%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E7%B6%AD%E4%BF%AE%20OR%20%E8%B2%A0%E8%A9%95%29",
+            "targetHost": "mobile01.com"
+          },
+          {
+            "platform": "PTT",
+            "query": "site:ptt.cc \"千山淨水\" \"TK-9000\" (災情 OR 問題 OR 故障 OR 維修 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22%E5%8D%83%E5%B1%B1%E6%B7%A8%E6%B0%B4%22%20%22TK-9000%22%20%28%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E7%B6%AD%E4%BF%AE%20OR%20%E8%B2%A0%E8%A9%95%29",
+            "targetHost": "ptt.cc"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "Yahoo Search",
+          "query": "(\"千山淨水 TK-9000\") (problem OR issue OR defect OR failure OR 災情 OR 故障 OR 負評) (site:mobile01.com OR site:dcard.tw OR site:ptt.cc OR site:reddit.com OR site:snbforums.com OR site:52asus.com)",
+          "searchUrl": "https://search.yahoo.com/search?p=(%22%E5%8D%83%E5%B1%B1%E6%B7%A8%E6%B0%B4%20TK-9000%22)%20(problem%20OR%20issue%20OR%20defect%20OR%20failure%20OR%20%E7%81%BD%E6%83%85%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)%20(site%3Amobile01.com%20OR%20site%3Adcard.tw%20OR%20site%3Aptt.cc%20OR%20site%3Areddit.com%20OR%20site%3Asnbforums.com%20OR%20site%3A52asus.com)",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-08-11T00:00:00+08:00"
+        }
+      ],
+      "evidence": [],
+      "rejectedCandidates": []
     },
     {
       "id": "dishwasher-panasonic-np-k1ywhr2tw",

@@ -1,11 +1,11 @@
 {
   "summary": {
     "checkedAt": "2026-08-11T00:00:00+08:00",
-    "total": 766,
-    "found": 222,
+    "total": 767,
+    "found": 223,
     "missing": 544,
     "byConfidence": {
-      "official": 118,
+      "official": 119,
       "credible_article": 92,
       "not_found": 544,
       "retailer_explicit": 12
@@ -10730,6 +10730,21 @@
       "query": "site:voca.com.tw OR site:livtec.com.tw \"TC-X\" (上市 OR 發售 OR 發表 OR 新品)",
       "sourceKind": "not_found_after_official_review",
       "reason": "已核對 VOCA 官方商品頁、從 0 客製頁、新聞與 Livtec 品牌頁；只能確認 TC-X 至少於 2022 年已現售。品牌 2012 創立、素材日期與 2025-02-12 MIT 標章通過日都不是 exact-model 上市日，因此維持找不到。"
+    },
+    {
+      "id": "waterdispenser-chianshan-tk-9000",
+      "category": "waterdispenser",
+      "brand": "千山淨水",
+      "model": "TK-9000",
+      "name": "HeatPure Ice 零降溫淨飲系統（三溫）＋全效能濾芯組合",
+      "releaseDate": "2026-04-01",
+      "sourceUrl": "https://www.youtube.com/watch?v=QY4ZTn31hBM",
+      "sourceTitle": "【新品上市】HeatPure 零降溫淨飲系統，「真熱水，即刻享」不再越沖越涼！",
+      "evidenceSnippet": "千山淨水官方影片標題明載「新品上市」，YouTube metadata 與繁中首播日期均為 2026-04-01；影片所列 5°C～96°C、15 段溫控，依官方規格表對應 HeatPure Ice 型號 TK-9000。",
+      "confidence": "official",
+      "query": "site:youtube.com/@千山淨水 HeatPure 新品上市 2026-04-01",
+      "sourceKind": "official_brand_announcement",
+      "reason": "採千山淨水官方頻道明確標示新品上市的發布日期；exact TK-9000 另由品牌官網 HeatPure 規格表交叉確認，不以一般影片上傳日或圖片素材日期推定。"
     }
   ]
 }
