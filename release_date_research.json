@@ -1,11 +1,11 @@
 {
   "summary": {
     "checkedAt": "2026-08-11T00:00:00+08:00",
-    "total": 764,
-    "found": 221,
+    "total": 765,
+    "found": 222,
     "missing": 543,
     "byConfidence": {
-      "official": 117,
+      "official": 118,
       "credible_article": 92,
       "not_found": 543,
       "retailer_explicit": 12
@@ -10700,6 +10700,21 @@
       "query": "site:backbone.tw/blogs/news/allround \"Allround Desk\" \"正式亮相\"",
       "sourceKind": "official_brand_announcement",
       "reason": "品牌官方發表頁同時提供 exact product name、明確的正式亮相文字、文章日期與夜霧檀棕色名，可支持完整上市日。"
+    },
+    {
+      "id": "waterdispenser-clar-evo-ws2-c1",
+      "category": "waterdispenser",
+      "brand": "CLAR",
+      "model": "WS2-C1",
+      "name": "EVO 櫥下型瞬冰瞬熱淨水器",
+      "releaseDate": "2023-05-12",
+      "sourceUrl": "https://www.youtube.com/watch?v=ZBQ1X-hM3hI",
+      "sourceTitle": "CLAR EVO 瞬冰瞬熱淨水器 | 美型淨水器新革命，顛覆你的淨水想像",
+      "evidenceSnippet": "CLAR 官方影片於 2023-05-12 發布，影片說明明寫「CLAR EVO 瞬冰瞬熱淨水器 美型新上市」；官方商品頁與說明書將 110–120V 版本標示為 WS2-C1。",
+      "confidence": "official",
+      "query": "site:youtube.com \"CLAR EVO\" \"美型新上市\"",
+      "sourceKind": "official_brand_announcement",
+      "reason": "採 CLAR 官方頻道明確的新上市公告日期；exact 110V 型號另以官方商品頁及說明書交叉確認，不以影片發布日單獨推定。"
     }
   ]
 }

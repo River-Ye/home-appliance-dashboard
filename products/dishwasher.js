@@ -1921,9 +1921,9 @@
     "name": "60 公分 15 人份全嵌式自動洗碗烘乾機",
     "price": {
       "currency": "TWD",
-      "amount": 41152,
-      "converted": 41152,
-      "confidence": "PChome 2026-07-26 exact-model API 公開折扣價；Price.Low 優先於 Price.P"
+      "amount": 43318,
+      "converted": 43318,
+      "confidence": "PChome 2026-08-11 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBR1PA900IIA3B/000001_1743154773.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBR1P-A900IIA3B",

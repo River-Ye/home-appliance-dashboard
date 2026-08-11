@@ -185,9 +185,9 @@
     "image": "https://cs-a.ecimg.tw/items/DMAW25A900G453U/000001_1781668075.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 8590,
-      "converted": 8590,
-      "confidence": "Yahoo購物中心 2026-08-10 exact-model 公開結構化價格"
+      "amount": 8333,
+      "converted": 8333,
+      "confidence": "Yahoo購物中心 2026-08-11 exact-model 公開結構化價格"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心",
@@ -270,9 +270,9 @@
     "image": "https://cs-a.ecimg.tw/items/DMCI1NA900HIJUW/000001_1782095197.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 9900,
-      "converted": 9900,
-      "confidence": "Yahoo購物中心 2026-08-10 exact-model 公開結構化價格"
+      "amount": 9108,
+      "converted": 9108,
+      "confidence": "Yahoo購物中心 2026-08-11 exact-model 公開結構化價格"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心",
@@ -440,9 +440,9 @@
     "image": "https://cs-a.ecimg.tw/items/QFAX6BA9009Y2C3/000001_1760596937.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 19500,
-      "converted": 19500,
-      "confidence": "PChome 2026-08-10 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 17550,
+      "converted": 17550,
+      "confidence": "PChome 2026-08-11 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -607,9 +607,9 @@
     "image": "https://cs-a.ecimg.tw/items/DMAC6RA900IUC3J/000001_1761017834.png",
     "price": {
       "currency": "TWD",
-      "amount": 28999,
-      "converted": 28999,
-      "confidence": "PChome 2026-08-10 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 26099,
+      "converted": 26099,
+      "confidence": "PChome 2026-08-11 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -690,9 +690,9 @@
     "image": "https://cs-a.ecimg.tw/items/DMCI01A900JV0NP/000001_1774843160.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 17800,
-      "converted": 17800,
-      "confidence": "PChome 2026-08-10 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 16020,
+      "converted": 16020,
+      "confidence": "PChome 2026-08-11 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -774,9 +774,9 @@
     "image": "https://cs-a.ecimg.tw/items/QFAX6BA9009Y2E9/000001_1760596811.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 26800,
-      "converted": 26800,
-      "confidence": "PChome 2026-08-10 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 24120,
+      "converted": 24120,
+      "confidence": "PChome 2026-08-11 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -1108,9 +1108,9 @@
     "image": "https://cs-a.ecimg.tw/items/DMBM2HA900GH7MW/000001_1770018742.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 27800,
-      "converted": 27800,
-      "confidence": "PChome 2026-08-10 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 25020,
+      "converted": 25020,
+      "confidence": "PChome 2026-08-11 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -1277,9 +1277,9 @@
     "name": "櫥下型雙溫 UV 觸控飲水機",
     "price": {
       "currency": "TWD",
-      "amount": 34000,
-      "converted": 34000,
-      "confidence": "PChome 2026-08-10 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 30600,
+      "converted": 30600,
+      "confidence": "PChome 2026-08-11 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DSBE1FA900GSOLN/000001_1698896380.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMCI17-A900I6OFW",
@@ -1515,9 +1515,9 @@
     "name": "廚下 RO 雙溫觸控飲水機",
     "price": {
       "currency": "TWD",
-      "amount": 36810,
-      "converted": 36810,
-      "confidence": "PChome 2026-08-10 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 33129,
+      "converted": 33129,
+      "confidence": "PChome 2026-08-11 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMCI0OA900JT66N/000001_1773306819.png",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMCI0O-A900JI1JA",
@@ -1671,9 +1671,9 @@
     "name": "廚下型飲用水加熱器",
     "price": {
       "currency": "TWD",
-      "amount": 23500,
-      "converted": 23500,
-      "confidence": "Yahoo購物中心 2026-08-10 exact-model 公開結構化價格"
+      "amount": 21150,
+      "converted": 21150,
+      "confidence": "Yahoo購物中心 2026-08-11 exact-model 公開結構化價格"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAWB8A900BVEOG/000001_1760685693.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/BWT%E5%BE%B7%E5%9C%8B%E5%80%8D%E4%B8%96-%E6%99%BA%E6%85%A7%E5%9E%8B%E6%AB%A5%E4%B8%8B%E5%8A%A0%E7%86%B1%E5%99%A8-DWH30A-9802406.html",
@@ -2089,9 +2089,9 @@
     "name": "極熱 廚下五段溫控瞬熱飲水機",
     "price": {
       "currency": "TWD",
-      "amount": 28800,
-      "converted": 28800,
-      "confidence": "PChome 2026-08-10 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 25920,
+      "converted": 25920,
+      "confidence": "PChome 2026-08-11 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAWHTA900JVB6I/000001_1775031754.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAWHT-A900JVB6I",
@@ -2832,6 +2832,93 @@
           "query": "site:reddit.com \"DECH DH-1\" (problem OR issue OR defect OR negative review)",
           "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22DECH%20DH-1%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
           "targetHost": "reddit.com"
+        }
+      ]
+    }
+  },
+  {
+    "id": "waterdispenser-clar-evo-ws2-c1",
+    "category": "waterdispenser",
+    "rank": 35,
+    "topPick": false,
+    "budget": "premium",
+    "channel": "tw",
+    "brand": "CLAR",
+    "model": "WS2-C1",
+    "name": "EVO 櫥下型瞬冰瞬熱淨水器",
+    "price": {
+      "currency": "TWD",
+      "amount": 39800,
+      "converted": 39800,
+      "confidence": "CLAR 台灣官方商城 2026-08-11 WS2-C1／WS2-C2 商品頁基本套裝公開促銷價；牌價 NT$49,800，智慧龍頭與特殊配色另加價"
+    },
+    "image": "https://image-cdn-flare.qdm.cloud/q66732dda3124b/image/data/2024/03/07/01.png",
+    "buyUrl": "https://www.myclar.com/clarws2-c",
+    "buyLabel": "CLAR 台灣官方商城",
+    "specs": [
+      "櫥下型／非 RO／無儲水缸；瞬冰、常溫與瞬熱出水",
+      "兩道濾芯：0.5μm 壓縮活性碳＋0.1μm 中空絲膜，約 12 個月更換",
+      "溫度／定量：10–95°C／50–3000 ml",
+      "WS2-C1：冰 700W／加熱 1600W；熱水 300–600 ml/分、冰水 200–500 ml/分、常溫最高 1100 ml/分",
+      "主機尺寸：寬 11.5 x 深 38 x 高 32.5 cm；新版官方說明書列含濾芯淨重 6.5 kg",
+      "使用水壓：15–45 PSI；原水溫建議不超過 30°C",
+      "冰水單次建議不超過 3L，之後約等 10 分鐘"
+    ],
+    "description": "WS2-C1 是 CLAR 現售 110V 櫥下瞬冰瞬熱機，11.5 cm 窄機身整合兩道非 RO 淨水與 10–95°C 定溫定量；選購前要確認流量期待、水質與安裝區域。",
+    "pros": [
+      "11.5 cm 窄機身、無儲水缸，同時提供瞬冰與瞬熱",
+      "110–120V／50–60Hz 規格適合台灣一般家用電力評估",
+      "10–95°C、50–3000 ml 可調，濾芯可自行更換"
+    ],
+    "cons": [
+      "非 RO 系統，硬度或原水條件較差時需另評估軟水與過濾需求",
+      "110V 高溫與冰水流量有限；少數同型 110V 使用者回報非中段溫度出水偏慢或面板曾需維修，未達集中災情門檻",
+      "智慧龍頭、特殊配色與非標準安裝另計，部分地區目前不提供官方安裝"
+    ],
+    "bestFor": "想在窄櫥下空間同時取得冰水、常溫與熱水，接受非 RO 濾水並重視定溫定量操作的家庭。",
+    "recommendation": "CLAR 品牌補充推薦：台灣官方現售、110V exact model 與規格證據完整；下單前先比較實際出水量、原水硬度、年濾芯成本與所在地安裝條件。",
+    "score": 88,
+    "voltage": "WS2-C1：AC 110–120V／50–60Hz，冰 700W、加熱 1600W；需依官方條件確認插座、迴路與進水壓力",
+    "warranty": "EVO 最長 3 年（需加入官方 LINE@ 並完成登錄，實際依官方保固與安裝條件）；濾芯耗材另計",
+    "tags": [
+      "CLAR",
+      "瞬冰瞬熱",
+      "無儲水缸",
+      "110V",
+      "非RO",
+      "櫥下型"
+    ],
+    "releaseDate": "2023-05-12",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-08-11",
+      "note": "已查 CLAR 官方商城、BigGo、FindPrice 與 LBJ exact-model／exact-title 查詢；官方牌價 NT$49,800、現售 NT$39,800 只能證明本次促銷，未取得具日期與可重現來源的歷史最低點，因此不以現價推定史低。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-08-11",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com (\"CLAR WS2-C1\" OR \"CLAR EVO WS2-C1\" OR \"CLAR EVO 110V\") (災情 OR 問題 OR 故障 OR 負評 OR 水溫 OR 出水)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20(%22CLAR%20WS2-C1%22%20OR%20%22CLAR%20EVO%20WS2-C1%22%20OR%20%22CLAR%20EVO%20110V%22)%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95%20OR%20%E6%B0%B4%E6%BA%AB%20OR%20%E5%87%BA%E6%B0%B4)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "PTT",
+          "query": "site:ptt.cc (\"CLAR WS2-C1\" OR \"CLAR EVO WS2-C1\" OR \"CLAR EVO 110V\") (災情 OR 問題 OR 故障 OR 負評 OR 水溫 OR 出水)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20(%22CLAR%20WS2-C1%22%20OR%20%22CLAR%20EVO%20WS2-C1%22%20OR%20%22CLAR%20EVO%20110V%22)%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95%20OR%20%E6%B0%B4%E6%BA%AB%20OR%20%E5%87%BA%E6%B0%B4)",
+          "targetHost": "ptt.cc"
         }
       ]
     }
