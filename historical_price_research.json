@@ -1,13 +1,13 @@
 {
   "summary": {
     "checkedAt": "2026-08-11T00:00:00.000+08:00",
-    "sourcePolicy": "2026-08-11 以 765 筆基準清單全量查核現價、購買連結與可信新品狀態，並複核最終 766 筆商品圖片、全部 467 筆 found 史低來源、原廠停產訊號與同批次匯率。PChome exact-model 現貨頁有正值 Price.Low 時採公開折扣價，否則採 Price.P；Qty 0、福利品、展示機與配件不寫回。其他頁面的結構化價格差異列入人工覆核候選，阻擋、暫時錯誤與單次頁面失效只列稽核，不臆測停產或史低失效。",
-    "total": 766,
-    "researchedThisRun": 766,
+    "sourcePolicy": "2026-08-11 以 766 筆基準清單全量查核現價、購買連結與可信新品狀態，並複核最終 767 筆商品圖片、全部 467 筆 found 史低來源、原廠停產訊號與同批次匯率。PChome exact-model 現貨頁有正值 Price.Low 時採公開折扣價，否則採 Price.P；Qty 0、福利品、展示機與配件不寫回。其他頁面的結構化價格差異列入人工覆核候選，阻擋、暫時錯誤與單次頁面失效只列稽核，不臆測停產或史低失效。",
+    "total": 767,
+    "researchedThisRun": 767,
     "found": 467,
-    "missing": 299,
+    "missing": 300,
     "byConfidence": {
-      "not_found": 299,
+      "not_found": 300,
       "high": 309,
       "medium": 158
     },
@@ -20,11 +20,11 @@
       "CNY_TWD": 4.771146408477882,
       "KRW_TWD": 0.022745827175157357
     },
-    "lastMaintenanceCheckAt": "2026-08-11T14:05:46.818Z",
-    "currentPriceChanged": 16,
+    "lastMaintenanceCheckAt": "2026-08-11T14:48:04.988Z",
+    "currentPriceChanged": 0,
     "currentBuyLinkChanged": 0,
-    "currentPriceDrops": 15,
-    "currentPriceRises": 1,
+    "currentPriceDrops": 0,
+    "currentPriceRises": 0,
     "currentPriceFallbacks": 0,
     "historicalLowUpdated": 0,
     "historicalLowInvalidated": 0,
@@ -33439,6 +33439,41 @@
         "VOCA 官方商城 2026-08-11 的 TC-X 旗艦 F-1Z 配套 NT$58,800 只證明本次現價，沒有最低點日期或歷史曲線。",
         "Marie Claire 2022-04-14 明載 TC-X 旗艦 NT$47,000，但該套裝含 3M DWS1500；目前商品頁預設為 MEISUI F-1Z，濾芯套裝不同，依同規格原則排除。",
         "Livtec 頁面價格與目前 VOCA 官方商城不一致；BigGo、FindPrice 與 LBJ 未取得可重現的同套裝可信新品歷史最低價。"
+      ]
+    },
+    {
+      "id": "waterdispenser-chianshan-tk-9000",
+      "category": "waterdispenser",
+      "brand": "千山淨水",
+      "model": "TK-9000",
+      "name": "HeatPure Ice 零降溫淨飲系統（三溫）＋全效能濾芯組合",
+      "currentPrice": 39800,
+      "currentCurrency": "TWD",
+      "currentBuyUrl": "https://www.cswater.com.tw/HeatPureIce",
+      "currentBuyLabel": "千山淨水官方商城",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "TWD",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-08-11",
+        "note": "已查千山淨水官方商城、BigGo、FindPrice、飛比與 LBJ 的 HeatPure Ice／TK-9000 exact-model、exact-title 查詢。官方牌價 NT$52,900、現售 NT$39,800 僅證明本次現價；比價平台未取得同型號、同為全效能濾芯組合且具日期的可信新品歷史最低價，因此不以現價推定史低。"
+      },
+      "checkedSources": [
+        "https://www.cswater.com.tw/HeatPureIce",
+        "https://biggo.com.tw/s/HeatPure%20Ice/",
+        "https://www.findprice.com.tw/g/HeatPure%20Ice",
+        "https://feebee.com.tw/s/HeatPure%20Ice/",
+        "https://www.lbj.tw/BJ/Query.aspx?k=HeatPure%20Ice"
+      ],
+      "rejectedCandidates": [
+        "千山淨水官方商城 2026-08-11 的預設全效能濾芯組合牌價 NT$52,900、優惠價 NT$39,800 只證明本次現價，沒有最低點日期或價格歷史。",
+        "BigGo、FindPrice、飛比與 LBJ 未取得 HeatPure Ice／TK-9000 同型號且同為全效能濾芯組合的可信新品歷史最低價；TK-9000 單獨查詢的冷水機、球拍等不同商品均排除。"
       ]
     }
   ]
