@@ -2815,9 +2815,9 @@
     "name": "BE9300 三頻 Wi-Fi 7 旗艦路由器",
     "price": {
       "currency": "TWD",
-      "amount": 8700,
-      "converted": 8700,
-      "confidence": "PChome 2026-08-08 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 6990,
+      "converted": 6990,
+      "confidence": "PChome 2026-08-12 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAFJAA900IFBVA/000001_1780997121.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DRAFJA-A900IFBVA",

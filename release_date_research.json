@@ -1,14 +1,14 @@
 {
   "summary": {
-    "checkedAt": "2026-08-11T00:00:00+08:00",
-    "total": 767,
-    "found": 223,
+    "checkedAt": "2026-08-12T00:00:00+08:00",
+    "total": 766,
+    "found": 222,
     "missing": 544,
     "byConfidence": {
       "official": 119,
       "credible_article": 92,
       "not_found": 544,
-      "retailer_explicit": 12
+      "retailer_explicit": 11
     }
   },
   "results": [
@@ -8539,21 +8539,6 @@
       "confidence": "not_found",
       "query": "LG 27U631A-B release date launch announced 上市 發售",
       "sourceKind": "not_found_after_available_search"
-    },
-    {
-      "id": "monitor-dell-p2425h",
-      "category": "monitor",
-      "brand": "Dell",
-      "model": "P2425H-4Y",
-      "name": "24 型 FHD IPS USB-C 商務螢幕",
-      "releaseDate": "2024-03-19",
-      "sourceUrl": "https://techshop.umich.edu/301222.html",
-      "sourceTitle": "Dell P2425H 24-Inch Monitor",
-      "evidenceSnippet": "University of Michigan Tech Shop product page lists Dell P2425H release date as Mar 19, 2024.",
-      "confidence": "retailer_explicit",
-      "query": "Dell P2425H Release Date Mar 19 2024",
-      "sourceKind": "agent_web_research",
-      "reason": "Institutional retailer page lists an explicit release-date field for manufacturer model P2425H."
     },
     {
       "id": "monitor-samsung-g5-s27fg532",
