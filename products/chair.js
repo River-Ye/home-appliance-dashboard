@@ -17,9 +17,9 @@
     "name": "T07 Plus 人體工學電腦椅",
     "price": {
       "currency": "TWD",
-      "amount": 11875,
-      "converted": 11875,
-      "confidence": "PChome 2026-08-04 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 12500,
+      "converted": 12500,
+      "confidence": "PChome 2026-08-13 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBJ4CA900JM0HG/000001_1783562693.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBJ4C-A900JM0HG",
@@ -412,9 +412,9 @@
     "name": "T27 雲岩網人體工學電腦椅",
     "price": {
       "currency": "TWD",
-      "amount": 14060,
-      "converted": 14060,
-      "confidence": "PChome 2026-08-04 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 14800,
+      "converted": 14800,
+      "confidence": "PChome 2026-08-13 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DCBE2LA900HA2WP/000001_1783563647.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DCBE2L-A900HA2WP",
@@ -825,9 +825,9 @@
     "name": "Karman Chair 人體工學辦公椅",
     "price": {
       "currency": "TWD",
-      "amount": 65900,
-      "converted": 65900,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 62605,
+      "converted": 62605,
+      "confidence": "PChome 2026-08-13 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBJ1HA900ICP8J/000001_1739333373.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBJ1H-A900ICP8J",
@@ -861,16 +861,16 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 65900,
+      "amount": 62605,
       "currency": "TWD",
-      "converted": 65900,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1260348877&cgp=65900",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：Steelcase Karman Chair 人體工學辦公椅｜深夜黑黑五爪全透網",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「PCHome購物 / Steelcase Karman Chair 人體工學辦公椅｜深夜黑黑五爪全透網」最低價為 NT$65,900，最低點日期 2026-07-09。",
-      "sourceKind": "price_history",
+      "converted": 62605,
+      "sourceUrl": "https://24h.pchome.com.tw/prod/DQBJ1H-A900ICP8J",
+      "sourceTitle": "PChome 24h 購物：【Steelcase】Karman Chair 人體工學辦公椅｜深夜黑黑五爪全透網",
+      "evidenceSnippet": "PChome 24h 購物於 2026-08-13 顯示同型號可信新品公開價 NT$62,605，低於既有史低 NT$65,900。",
+      "sourceKind": "retailer_page",
       "confidence": "medium",
-      "checkedAt": "2026-07-09",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+      "checkedAt": "2026-08-13",
+      "note": "採用 PChome 24h 購物當日可購商品的同型號新品公開價；不含會員券、點數、信用卡回饋、二手、福利、展示、拆封或整新品。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -1062,9 +1062,9 @@
     "name": "OC2 SEAT SET 坐躺兩用電腦椅",
     "price": {
       "currency": "TWD",
-      "amount": 3359,
-      "converted": 3359,
-      "confidence": "PChome 2026-08-05 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 2999,
+      "converted": 2999,
+      "confidence": "PChome 2026-08-13 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DEBHA6A9007ZPEF/000001_1768553712.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DEBHA6-A9007ZPEF",

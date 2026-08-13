@@ -741,81 +741,81 @@
     }
   },
   {
-    "id": "monitor-eizo-ev2460",
+    "id": "monitor-eizo-ev2740s",
     "category": "monitor",
     "rank": 11,
-    "budget": "mid",
+    "budget": "premium",
     "channel": "tw",
     "brand": "EIZO",
-    "model": "FlexScan EV2460",
-    "name": "23.8 吋 IPS 超薄邊框商務螢幕",
+    "model": "FlexScan EV2740S",
+    "name": "27 型 4K USB-C 70W 商務螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 10900,
-      "converted": 10900,
-      "confidence": "PChome 2026-08-03 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 29900,
+      "converted": 29900,
+      "confidence": "PChome API 2026-08-13 exact-model 公開現貨價，Qty 4；Price.Low 無正值，採 Price.P"
     },
-    "image": "https://cs-a.ecimg.tw/items/DSABABA900AHPRB/000001_1641969597.jpg",
-    "buyUrl": "https://24h.pchome.com.tw/prod/DSABAB-A900AHPRB",
+    "image": "https://cs-a.ecimg.tw/items/DSABGVA900JG58D/000001_1763013340.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DSABGV-A900JG58D",
     "buyLabel": "PChome",
     "specs": [
-      "23.8 吋",
-      "FHD",
+      "27 吋",
+      "4K/UHD",
       "IPS",
-      "商務",
-      "窄邊框",
-      "重量：未標示（通路頁未明確列出）"
+      "USB-C PD 70W",
+      "Auto EcoView",
+      "重量：8.6 kg（含底座）；5.8 kg（不含底座）"
     ],
-    "description": "EIZO EV2460 不是規格 CP 取向，而是重視舒適、可靠與長期辦公品質。",
+    "description": "EV2740S 是 27 吋 4K 商務型 EIZO，USB-C 可供電 70W，適合筆電單線連接與長時間文字、表格工作。",
     "pros": [
-      "EIZO 品牌與穩定性",
-      "辦公舒適度佳",
-      "耐用口碑好"
+      "4K 文字與表格顯示細緻",
+      "USB-C 單線影像與 70W 供電",
+      "全球官網公告追溯延長為 7 年／30,000 小時"
     ],
     "cons": [
-      "價格高於同規格 FHD",
-      "不適合遊戲規格黨"
+      "價格高於多數同級 27 吋 4K 螢幕",
+      "台灣規格頁仍標 5 年，購買前須向總代理確認 7 年條款"
     ],
-    "bestFor": "長時間看文字、重視眼睛舒適與耐用的人。",
-    "recommendation": "長時間辦公推薦：規格普通但穩定舒適，適合文字工作者。",
-    "score": 81,
-    "voltage": "110V 台灣通路",
-    "warranty": "依 PChome/供應商頁面",
+    "bestFor": "重視長時間辦公舒適、USB-C 筆電整線與長保固的工作者。",
+    "recommendation": "4K 商務推薦：用較高預算換取 USB-C 整線、人體工學支架與 EIZO 長保固。",
+    "score": 86,
+    "voltage": "AC 100–240V、50/60Hz",
+    "warranty": "EIZO Global 自 2026-06-23 將 EV2740S 追溯納入購買日起 7 年／30,000 小時保固；台灣規格頁仍標全機、面板 5 年，台灣實際適用條款購買前向總代理確認",
     "tags": [
-      "辦公",
-      "EIZO",
-      "舒適"
+      "4K",
+      "USB-C",
+      "商務"
     ],
-    "releaseDate": "2019-12-05",
+    "releaseDate": "2025-07-18",
     "historicalLow": {
       "status": "found",
-      "amount": 10355,
+      "amount": 29900,
       "currency": "TWD",
-      "converted": 10355,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1235989105&cgp=10900",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：EIZO FlexScan EV2460 黑色 24型/低藍光低閃頻護眼/薄邊框",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Yahoo購物中心 / EIZO FlexScan EV2460 黑色 24型/低藍光低閃頻護眼/薄邊框」最低價為 NT$10,355，最低點日期 2026-06-30。",
+      "converted": 29900,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1265589553&cgp=29900",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：EIZO FlexScan EV2740S 黑色",
+      "evidenceSnippet": "LBJ exact-model PChome 價格歷史顯示 EV2740S 於 2026-05-01 首次降至 NT$29,900，之後多次維持同價；更早觀測為 NT$32,900。",
       "sourceKind": "price_history",
       "confidence": "high",
-      "checkedAt": "2026-07-09",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+      "checkedAt": "2026-08-13",
+      "note": "採用 LBJ 可公開重現的 PChome exact-model 新品價格歷史；排除拍賣多型號混列、會員券、點數、信用卡回饋、二手、福利品與展示品。"
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-11",
+      "checkedAt": "2026-08-13",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Mobile01",
-          "query": "site:mobile01.com \"EIZO FlexScan EV2460\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22EIZO%20FlexScan%20EV2460%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "query": "site:mobile01.com \"EIZO FlexScan EV2740S\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Amobile01.com+%22EIZO+FlexScan+EV2740S%22+%28%E7%81%BD%E6%83%85+OR+%E5%95%8F%E9%A1%8C+OR+%E6%95%85%E9%9A%9C+OR+%E8%B2%A0%E8%A9%95%29",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "query": "site:reddit.com \"EIZO FlexScan EV2460\" (problem OR issue OR defect OR \"negative review\")",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22EIZO%20FlexScan%20EV2460%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
+          "query": "site:reddit.com \"EIZO FlexScan EV2740S\" (problem OR issue OR defect OR negative review)",
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com+%22EIZO+FlexScan+EV2740S%22+%28problem+OR+issue+OR+defect+OR+negative+review%29",
           "targetHost": "reddit.com"
         }
       ]
@@ -1899,9 +1899,9 @@
     "name": "27 型 WQHD 360Hz QD-OLED 電競螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 17955,
-      "converted": 17955,
-      "confidence": "Yahoo購物中心 2026-08-11 exact-model 公開結構化價格"
+      "amount": 18900,
+      "converted": 18900,
+      "confidence": "Yahoo購物中心 2026-08-13 exact-model 公開結構化價格"
     },
     "image": "https://cs-a.ecimg.tw/items/DSBC1ZA900HE04M/000001_1757303897.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/MSI%E5%BE%AE%E6%98%9F-MPG-271QRX-QD-OLED-27%E5%9E%8B-2K-360Hz-HDR%E9%9B%BB%E7%AB%B6%E8%9E%A2%E5%B9%95-10958143.html",
@@ -2540,87 +2540,6 @@
               "url": "https://www.dell.com/community/en/conversations/alienware-desktops/aw3225qf-screen-scratches/65cfe5920217a51eb1a3fde2"
             }
           ]
-        }
-      ]
-    }
-  },
-  {
-    "id": "monitor-eizo-cs2740",
-    "category": "monitor",
-    "rank": 35,
-    "budget": "premium",
-    "channel": "tw",
-    "brand": "EIZO",
-    "model": "ColorEdge CS2740",
-    "name": "27 型 4K AdobeRGB 99% 專業攝影螢幕",
-    "price": {
-      "currency": "TWD",
-      "amount": 59900,
-      "converted": 59900,
-      "confidence": "PChome 2026-08-10 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
-    },
-    "image": "https://cs-a.ecimg.tw/items/DSABGWA900ANM62/000001_1741748518.jpg",
-    "buyUrl": "https://24h.pchome.com.tw/prod/DSABGW-A900ANM62",
-    "buyLabel": "PChome",
-    "specs": [
-      "27 吋",
-      "4K/UHD",
-      "AdobeRGB 99%",
-      "ColorEdge",
-      "攝影設計",
-      "重量：未標示（通路頁未明確列出）"
-    ],
-    "description": "ColorEdge CS2740 是專業攝影、印刷與色彩工作用螢幕，不以遊戲或 CP 值為主。",
-    "pros": [
-      "專業色彩口碑強",
-      "4K 細緻",
-      "適合嚴肅色彩工作"
-    ],
-    "cons": [
-      "價格非常高",
-      "一般辦公/遊戲不需要"
-    ],
-    "bestFor": "攝影、印刷、設計與需要穩定色彩管理的人。",
-    "recommendation": "專業色彩推薦：只有色彩準確度會帶來收益時才值得買。",
-    "score": 86,
-    "voltage": "110V 台灣通路",
-    "warranty": "依 PChome/供應商頁面",
-    "tags": [
-      "專業",
-      "4K",
-      "色彩管理"
-    ],
-    "releaseDate": "2020-03-12",
-    "historicalLow": {
-      "status": "found",
-      "amount": 56905,
-      "currency": "TWD",
-      "converted": 56905,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1226974989&cgp=59900",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：EIZO ColorEdge CS2740 UHD4K 27吋螢幕/低藍光低閃頻護眼/薄邊框",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Yahoo購物中心 / EIZO ColorEdge CS2740 UHD4K 27吋螢幕/低藍光低閃頻護眼/薄邊框」最低價為 NT$56,905，最低點日期 2026-06-30。",
-      "sourceKind": "price_history",
-      "confidence": "high",
-      "checkedAt": "2026-07-09",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
-    },
-    "issueResearch": {
-      "status": "no_common_issue",
-      "checkedAt": "2026-07-11",
-      "summary": "截至查核日，查無達門檻的集中負評／災情",
-      "issues": [],
-      "checkedSources": [
-        {
-          "platform": "Mobile01",
-          "query": "site:mobile01.com \"EIZO ColorEdge CS2740\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22EIZO%20ColorEdge%20CS2740%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
-          "targetHost": "mobile01.com"
-        },
-        {
-          "platform": "Reddit",
-          "query": "site:reddit.com \"EIZO ColorEdge CS2740\" (problem OR issue OR defect OR \"negative review\")",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22EIZO%20ColorEdge%20CS2740%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
-          "targetHost": "reddit.com"
         }
       ]
     }
@@ -3374,9 +3293,9 @@
     "name": "49 型 Odyssey OLED G9 Dual QHD 240Hz 曲面螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 34999,
-      "converted": 34999,
-      "confidence": "PChome 2026-08-11 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 36900,
+      "converted": 36900,
+      "confidence": "PChome 2026-08-13 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBM10A900HZCPE/000001_1781766568.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBM10-A900HZCPE",
@@ -3620,9 +3539,9 @@
     "name": "57 型 Odyssey Neo G9 Dual UHD 240Hz Mini LED 曲面螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 66500,
-      "converted": 66500,
-      "confidence": "PChome 2026-08-11 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 69900,
+      "converted": 69900,
+      "confidence": "PChome 2026-08-13 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBM10A900GQLSE/000001_1783054239.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBM10-A900GQLSE",
