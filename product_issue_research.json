@@ -1,9 +1,9 @@
 {
   "summary": {
-    "checkedAt": "2026-08-11T00:00:00+08:00",
-    "total": 766,
+    "checkedAt": "2026-08-13T00:00:00+08:00",
+    "total": 765,
     "commonIssueProducts": 36,
-    "noCommonIssueProducts": 730,
+    "noCommonIssueProducts": 729,
     "pendingManualReview": 0,
     "commonIssues": 36,
     "searchUnavailable": 26,
@@ -71476,25 +71476,26 @@
       "rejectedCandidates": []
     },
     {
-      "id": "monitor-eizo-ev2460",
+      "id": "monitor-eizo-ev2740s",
       "category": "monitor",
       "brand": "EIZO",
-      "model": "FlexScan EV2460",
-      "name": "23.8 吋 IPS 超薄邊框商務螢幕",
+      "model": "FlexScan EV2740S",
+      "name": "27 型 4K USB-C 70W 商務螢幕",
       "identity": {
-        "canonicalModel": "FlexScan EV2460",
-        "lookupLabel": "EIZO FlexScan EV2460",
+        "canonicalModel": "FlexScan EV2740S",
+        "lookupLabel": "EIZO FlexScan EV2740S",
         "aliases": [
-          "EIZO FlexScan EV2460",
-          "EIZO EV2460"
+          "EIZO FlexScan EV2740S",
+          "EIZO EV2740S",
+          "EV2740S-BK"
         ],
-        "evidenceUrl": "https://24h.pchome.com.tw/prod/DSABAB-A900AHPRB"
+        "evidenceUrl": "https://24h.pchome.com.tw/prod/DSABGV-A900JG58D"
       },
       "workflowStatus": "completed",
       "manualReview": {
         "status": "completed",
         "decision": "no_common_issue",
-        "reviewedAt": "2026-07-11",
+        "reviewedAt": "2026-08-13",
         "checkedPlatforms": [
           "Mobile01",
           "Reddit"
@@ -71502,39 +71503,86 @@
         "queries": [
           {
             "platform": "Mobile01",
-            "query": "site:mobile01.com \"EIZO FlexScan EV2460\" (災情 OR 問題 OR 故障 OR 負評)",
-            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22EIZO%20FlexScan%20EV2460%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "query": "site:mobile01.com \"EIZO FlexScan EV2740S\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Amobile01.com+%22EIZO+FlexScan+EV2740S%22+%28%E7%81%BD%E6%83%85+OR+%E5%95%8F%E9%A1%8C+OR+%E6%95%85%E9%9A%9C+OR+%E8%B2%A0%E8%A9%95%29",
             "targetHost": "mobile01.com"
           },
           {
             "platform": "Reddit",
-            "query": "site:reddit.com \"EIZO FlexScan EV2460\" (problem OR issue OR defect OR \"negative review\")",
-            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22EIZO%20FlexScan%20EV2460%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
+            "query": "site:reddit.com \"EIZO FlexScan EV2740S\" (problem OR issue OR defect OR negative review)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com+%22EIZO+FlexScan+EV2740S%22+%28problem+OR+issue+OR+defect+OR+negative+review%29",
             "targetHost": "reddit.com"
           }
         ],
-        "candidateDisposition": "FlexScan EV2460：重新執行 Mobile01、Reddit exact-model 查詢，搜尋結果沒有 exact-model 原頁候選；此結果不代表完全沒有負評。",
-        "representativeSources": [],
-        "candidateReviews": [],
-        "reviewerNote": "FlexScan EV2460 已於 2026-07-11 實際請求兩個 Bing RSS exact-model 跨站查詢；兩站均無 exact-model 原頁候選，維持 no_common_issue，未以搜尋摘要當作負評證據。",
-        "attestation": "manual_cross_site_search_reviewed_no_candidate"
+        "candidateDisposition": "FlexScan EV2740S：已完成 Mobile01 與 Reddit exact-model 查詢並逐頁開啟 3 個原頁；一頁是正面推薦、一頁僅一位使用者主觀眼睛不適、一頁是尚未購買的選購討論，均未達同一問題 6 位獨立使用者與 2 個原始網站門檻。",
+        "representativeSources": [
+          {
+            "platform": "Mobile01",
+            "title": "請幫忙推薦27吋~32吋螢幕 - Mobile01（FlexScan EV2740S 候選）",
+            "url": "https://www.mobile01.com/topicdetail.php?f=350&t=7216086"
+          },
+          {
+            "platform": "Reddit",
+            "title": "Three monitors side by side, two works, one not : r/ScreenSensitive（FlexScan EV2740S-BK 候選）",
+            "url": "https://www.reddit.com/r/ScreenSensitive/comments/1upxwjx/three_monitors_side_by_side_two_works_one_not/"
+          },
+          {
+            "platform": "Reddit",
+            "title": "New good quality second 27\" monitor : r/Monitors（FlexScan EV2740S 候選）",
+            "url": "https://www.reddit.com/r/Monitors/comments/1qzbzl3/new_good_quality_second_27_monitor/"
+          }
+        ],
+        "candidateReviews": [
+          {
+            "url": "https://www.mobile01.com/topicdetail.php?f=350&t=7216086",
+            "title": "請幫忙推薦27吋~32吋螢幕 - Mobile01（FlexScan EV2740S 候選）",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-08-13",
+            "sourceExcerpt": "原頁 2 樓推薦 EIZO FlexScan EV2740S，表示長時間觀看眼睛不累並提到五年保固；沒有描述故障、負評或不良症狀。",
+            "independentAuthors": 1,
+            "specificReason": "這是一位作者對 EV2740S 的正面推薦，不是負面問題回報；未形成同一問題，也沒有六位獨立使用者與第二個原始網站。"
+          },
+          {
+            "url": "https://www.reddit.com/r/ScreenSensitive/comments/1upxwjx/three_monitors_side_by_side_two_works_one_not/",
+            "title": "Three monitors side by side, two works, one not : r/ScreenSensitive（FlexScan EV2740S-BK 候選）",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-08-13",
+            "sourceExcerpt": "原作者在回覆中列出曾測過且對眼睛不適、帶偏紅色調的螢幕，其中包含 EIZO EV2740S-BK；這是單一作者的主觀回報。",
+            "independentAuthors": 1,
+            "specificReason": "原頁只有一位 EV2740S-BK 使用者描述眼睛不適與偏紅感受，未達六位獨立使用者，且同一問題沒有跨第二個原始網站。"
+          },
+          {
+            "url": "https://www.reddit.com/r/Monitors/comments/1qzbzl3/new_good_quality_second_27_monitor/",
+            "title": "New good quality second 27\" monitor : r/Monitors（FlexScan EV2740S 候選）",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-08-13",
+            "sourceExcerpt": "樓主詢問 EV2740S/X 是否值得較高價格，後續明確表示尚未購買、資金先用於新筆電；原頁沒有 EV2740S 第一人稱使用後故障回報。",
+            "independentAuthors": 0,
+            "specificReason": "這是 EV2740S 選購比較，樓主沒有購買或使用該型號；沒有可計入的第一人稱問題作者，也未形成跨站同一問題。"
+          }
+        ],
+        "reviewerNote": "FlexScan EV2740S 於 2026-08-13 完成可重現的跨站查詢與 3 個 exact-model 原頁人工判讀；搜尋頁只用於候選發現，所有候選均逐頁留下具體處置，未把單一主觀回報合成集中負評。",
+        "attestation": "manual_original_pages_reviewed"
       },
       "issueResearch": {
         "status": "no_common_issue",
-        "checkedAt": "2026-07-11",
+        "checkedAt": "2026-08-13",
         "summary": "截至查核日，查無達門檻的集中負評／災情",
         "issues": [],
         "checkedSources": [
           {
             "platform": "Mobile01",
-            "query": "site:mobile01.com \"EIZO FlexScan EV2460\" (災情 OR 問題 OR 故障 OR 負評)",
-            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22EIZO%20FlexScan%20EV2460%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "query": "site:mobile01.com \"EIZO FlexScan EV2740S\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Amobile01.com+%22EIZO+FlexScan+EV2740S%22+%28%E7%81%BD%E6%83%85+OR+%E5%95%8F%E9%A1%8C+OR+%E6%95%85%E9%9A%9C+OR+%E8%B2%A0%E8%A9%95%29",
             "targetHost": "mobile01.com"
           },
           {
             "platform": "Reddit",
-            "query": "site:reddit.com \"EIZO FlexScan EV2460\" (problem OR issue OR defect OR \"negative review\")",
-            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22EIZO%20FlexScan%20EV2460%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
+            "query": "site:reddit.com \"EIZO FlexScan EV2740S\" (problem OR issue OR defect OR negative review)",
+            "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com+%22EIZO+FlexScan+EV2740S%22+%28problem+OR+issue+OR+defect+OR+negative+review%29",
             "targetHost": "reddit.com"
           }
         ]
@@ -71542,27 +71590,80 @@
       "searchChecks": [
         {
           "platform": "Mobile01",
-          "query": "site:mobile01.com \"EIZO FlexScan EV2460\" (災情 OR 問題 OR 故障 OR 負評)",
-          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22EIZO%20FlexScan%20EV2460%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
-          "result": "no_exact_model_result",
-          "resultCount": 0,
-          "candidateUrls": [],
-          "candidates": [],
-          "inspectedAt": "2026-07-11T00:00:00+08:00"
+          "query": "site:mobile01.com \"EIZO FlexScan EV2740S\" (災情 OR 問題 OR 故障 OR 負評)",
+          "searchUrl": "https://search.yahoo.com/search?q=site%3Amobile01.com+%22EIZO+FlexScan+EV2740S%22+%28%E7%81%BD%E6%83%85+OR+%E5%95%8F%E9%A1%8C+OR+%E6%95%85%E9%9A%9C+OR+%E8%B2%A0%E8%A9%95%29",
+          "result": "candidates_unverified_by_search_only",
+          "resultCount": 1,
+          "candidateUrls": [
+            "https://www.mobile01.com/topicdetail.php?f=350&t=7216086"
+          ],
+          "candidates": [
+            {
+              "url": "https://www.mobile01.com/topicdetail.php?f=350&t=7216086",
+              "title": "請幫忙推薦27吋~32吋螢幕 - Mobile01（FlexScan EV2740S 候選）"
+            }
+          ],
+          "inspectedAt": "2026-08-13T00:00:00+08:00"
         },
         {
           "platform": "Reddit",
-          "query": "site:reddit.com \"EIZO FlexScan EV2460\" (problem OR issue OR defect OR \"negative review\")",
-          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22EIZO%20FlexScan%20EV2460%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
-          "result": "no_exact_model_result",
-          "resultCount": 0,
-          "candidateUrls": [],
-          "candidates": [],
-          "inspectedAt": "2026-07-11T00:00:00+08:00"
+          "query": "site:reddit.com \"EIZO FlexScan EV2740S\" (problem OR issue OR defect OR negative review)",
+          "searchUrl": "https://search.yahoo.com/search?q=site%3Areddit.com+%22EIZO+FlexScan+EV2740S%22+%28problem+OR+issue+OR+defect+OR+negative+review%29",
+          "result": "candidates_unverified_by_search_only",
+          "resultCount": 2,
+          "candidateUrls": [
+            "https://www.reddit.com/r/ScreenSensitive/comments/1upxwjx/three_monitors_side_by_side_two_works_one_not/",
+            "https://www.reddit.com/r/Monitors/comments/1qzbzl3/new_good_quality_second_27_monitor/"
+          ],
+          "candidates": [
+            {
+              "url": "https://www.reddit.com/r/ScreenSensitive/comments/1upxwjx/three_monitors_side_by_side_two_works_one_not/",
+              "title": "Three monitors side by side, two works, one not : r/ScreenSensitive（FlexScan EV2740S-BK 候選）"
+            },
+            {
+              "url": "https://www.reddit.com/r/Monitors/comments/1qzbzl3/new_good_quality_second_27_monitor/",
+              "title": "New good quality second 27\" monitor : r/Monitors（FlexScan EV2740S 候選）"
+            }
+          ],
+          "inspectedAt": "2026-08-13T00:00:00+08:00"
         }
       ],
       "evidence": [],
-      "rejectedCandidates": []
+      "rejectedCandidates": [
+        {
+          "url": "https://www.mobile01.com/topicdetail.php?f=350&t=7216086",
+          "title": "請幫忙推薦27吋~32吋螢幕 - Mobile01（FlexScan EV2740S 候選）",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-13",
+          "sourceExcerpt": "原頁 2 樓推薦 EIZO FlexScan EV2740S，表示長時間觀看眼睛不累並提到五年保固；沒有描述故障、負評或不良症狀。",
+          "independentAuthors": 1,
+          "specificReason": "這是一位作者對 EV2740S 的正面推薦，不是負面問題回報；未形成同一問題，也沒有六位獨立使用者與第二個原始網站。",
+          "reason": "這是一位作者對 EV2740S 的正面推薦，不是負面問題回報；未形成同一問題，也沒有六位獨立使用者與第二個原始網站。"
+        },
+        {
+          "url": "https://www.reddit.com/r/ScreenSensitive/comments/1upxwjx/three_monitors_side_by_side_two_works_one_not/",
+          "title": "Three monitors side by side, two works, one not : r/ScreenSensitive（FlexScan EV2740S-BK 候選）",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-13",
+          "sourceExcerpt": "原作者在回覆中列出曾測過且對眼睛不適、帶偏紅色調的螢幕，其中包含 EIZO EV2740S-BK；這是單一作者的主觀回報。",
+          "independentAuthors": 1,
+          "specificReason": "原頁只有一位 EV2740S-BK 使用者描述眼睛不適與偏紅感受，未達六位獨立使用者，且同一問題沒有跨第二個原始網站。",
+          "reason": "原頁只有一位 EV2740S-BK 使用者描述眼睛不適與偏紅感受，未達六位獨立使用者，且同一問題沒有跨第二個原始網站。"
+        },
+        {
+          "url": "https://www.reddit.com/r/Monitors/comments/1qzbzl3/new_good_quality_second_27_monitor/",
+          "title": "New good quality second 27\" monitor : r/Monitors（FlexScan EV2740S 候選）",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-13",
+          "sourceExcerpt": "樓主詢問 EV2740S/X 是否值得較高價格，後續明確表示尚未購買、資金先用於新筆電；原頁沒有 EV2740S 第一人稱使用後故障回報。",
+          "independentAuthors": 0,
+          "specificReason": "這是 EV2740S 選購比較，樓主沒有購買或使用該型號；沒有可計入的第一人稱問題作者，也未形成跨站同一問題。",
+          "reason": "這是 EV2740S 選購比較，樓主沒有購買或使用該型號；沒有可計入的第一人稱問題作者，也未形成跨站同一問題。"
+        }
+      ]
     },
     {
       "id": "monitor-xiaomi-a27qi-2026",
@@ -74039,95 +74140,6 @@
           "reason": "頁面雖為完全相同型號，但沒有任何可辨識作者回報包裝保護材造成的面板污痕或微刮痕；一般評測與規格討論不能計入本次成立問題的人數。"
         }
       ]
-    },
-    {
-      "id": "monitor-eizo-cs2740",
-      "category": "monitor",
-      "brand": "EIZO",
-      "model": "ColorEdge CS2740",
-      "name": "27 型 4K AdobeRGB 99% 專業攝影螢幕",
-      "identity": {
-        "canonicalModel": "ColorEdge CS2740",
-        "lookupLabel": "EIZO ColorEdge CS2740",
-        "aliases": [
-          "EIZO ColorEdge CS2740",
-          "EIZO CS2740"
-        ],
-        "evidenceUrl": "https://24h.pchome.com.tw/prod/DSABGW-A900ANM62"
-      },
-      "workflowStatus": "completed",
-      "manualReview": {
-        "status": "completed",
-        "decision": "no_common_issue",
-        "reviewedAt": "2026-07-11",
-        "checkedPlatforms": [
-          "Mobile01",
-          "Reddit"
-        ],
-        "queries": [
-          {
-            "platform": "Mobile01",
-            "query": "site:mobile01.com \"EIZO ColorEdge CS2740\" (災情 OR 問題 OR 故障 OR 負評)",
-            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22EIZO%20ColorEdge%20CS2740%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
-            "targetHost": "mobile01.com"
-          },
-          {
-            "platform": "Reddit",
-            "query": "site:reddit.com \"EIZO ColorEdge CS2740\" (problem OR issue OR defect OR \"negative review\")",
-            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22EIZO%20ColorEdge%20CS2740%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
-            "targetHost": "reddit.com"
-          }
-        ],
-        "candidateDisposition": "ColorEdge CS2740：重新執行 Mobile01、Reddit exact-model 查詢，搜尋結果沒有 exact-model 原頁候選；此結果不代表完全沒有負評。",
-        "representativeSources": [],
-        "candidateReviews": [],
-        "reviewerNote": "ColorEdge CS2740 已於 2026-07-11 實際請求兩個 Bing RSS exact-model 跨站查詢；兩站均無 exact-model 原頁候選，維持 no_common_issue，未以搜尋摘要當作負評證據。",
-        "attestation": "manual_cross_site_search_reviewed_no_candidate"
-      },
-      "issueResearch": {
-        "status": "no_common_issue",
-        "checkedAt": "2026-07-11",
-        "summary": "截至查核日，查無達門檻的集中負評／災情",
-        "issues": [],
-        "checkedSources": [
-          {
-            "platform": "Mobile01",
-            "query": "site:mobile01.com \"EIZO ColorEdge CS2740\" (災情 OR 問題 OR 故障 OR 負評)",
-            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22EIZO%20ColorEdge%20CS2740%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
-            "targetHost": "mobile01.com"
-          },
-          {
-            "platform": "Reddit",
-            "query": "site:reddit.com \"EIZO ColorEdge CS2740\" (problem OR issue OR defect OR \"negative review\")",
-            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22EIZO%20ColorEdge%20CS2740%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
-            "targetHost": "reddit.com"
-          }
-        ]
-      },
-      "searchChecks": [
-        {
-          "platform": "Mobile01",
-          "query": "site:mobile01.com \"EIZO ColorEdge CS2740\" (災情 OR 問題 OR 故障 OR 負評)",
-          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22EIZO%20ColorEdge%20CS2740%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
-          "result": "no_exact_model_result",
-          "resultCount": 0,
-          "candidateUrls": [],
-          "candidates": [],
-          "inspectedAt": "2026-07-11T00:00:00+08:00"
-        },
-        {
-          "platform": "Reddit",
-          "query": "site:reddit.com \"EIZO ColorEdge CS2740\" (problem OR issue OR defect OR \"negative review\")",
-          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22EIZO%20ColorEdge%20CS2740%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
-          "result": "no_exact_model_result",
-          "resultCount": 0,
-          "candidateUrls": [],
-          "candidates": [],
-          "inspectedAt": "2026-07-11T00:00:00+08:00"
-        }
-      ],
-      "evidence": [],
-      "rejectedCandidates": []
     },
     {
       "id": "monitor-acer-ed343cur-j0",

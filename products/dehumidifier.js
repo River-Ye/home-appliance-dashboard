@@ -17,9 +17,9 @@
     "name": "16 公升高效型變頻除濕機",
     "price": {
       "currency": "TWD",
-      "amount": 14872,
-      "converted": 14872,
-      "confidence": "PChome 2026-08-08 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 14027,
+      "converted": 14027,
+      "confidence": "PChome 2026-08-13 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ3PA900J0L88/000001_1776323540.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBQ3P-A900J0L88",
@@ -95,9 +95,9 @@
     "name": "22 公升 PuriCare 雙變頻除濕機",
     "price": {
       "currency": "TWD",
-      "amount": 20900,
-      "converted": 20900,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 19999,
+      "converted": 19999,
+      "confidence": "PChome 2026-08-13 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ4NA900JMY77/000001_1783337653.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBQ4N-A900JMY77",
@@ -130,16 +130,16 @@
     "releaseDate": "2025-12-18",
     "historicalLow": {
       "status": "found",
-      "amount": 20900,
+      "amount": 19999,
       "currency": "TWD",
-      "converted": 20900,
+      "converted": 19999,
       "sourceUrl": "https://24h.pchome.com.tw/prod/DMBQ4N-A900JMY77",
-      "sourceTitle": "PChome 商品 API：LG 樂金 22公升 一級能效 PuriCare™ 雙變頻除濕機 DE221MWE0 / LG 樂金 22公升 一級能效 PuriCare™ 雙變頻除濕機 DE221MWE0",
-      "evidenceSnippet": "PChome 商品 API 於 2026-07-10 回傳同一商品頁「LG 樂金 22公升 一級能效 PuriCare™ 雙變頻除濕機 DE221MWE0 / LG 樂金 22公升 一級能效 PuriCare™ 雙變頻除濕機 DE221MWE0」查核價 NT$20,900，低於原先記錄史低。",
+      "sourceTitle": "PChome 24h 購物：LG 樂金 22公升 一級能效 PuriCare™ 雙變頻除濕機 DE221MWE0",
+      "evidenceSnippet": "PChome 24h 購物於 2026-08-13 顯示同型號可信新品公開價 NT$19,999，低於既有史低 NT$20,900。",
       "sourceKind": "retailer_page",
       "confidence": "medium",
-      "checkedAt": "2026-07-10",
-      "note": "採用可信通路同一商品頁可公開查核現價作為本次觀測到的最低價；同型號/規格並排除會員個人化折扣、信用卡回饋、點數、二手、福利品、展示機、箱損、拆封與整新品。"
+      "checkedAt": "2026-08-13",
+      "note": "採用 PChome 24h 購物當日可購商品的同型號新品公開價；不含會員券、點數、信用卡回饋、二手、福利、展示、拆封或整新品。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -1343,9 +1343,9 @@
     "name": "6L 除濕機",
     "price": {
       "currency": "TWD",
-      "amount": 5095,
-      "converted": 5095,
-      "confidence": "PChome 2026-08-08 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 4805,
+      "converted": 4805,
+      "confidence": "PChome 2026-08-13 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ3PA900J9FH9/000001_1776325410.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBQ3P-A900J9FH9",
