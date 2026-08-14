@@ -15,8 +15,8 @@
     "image": "https://cs-a.ecimg.tw/items/DAANBRA900ASZRJ/000001_1758695631.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 8087,
-      "converted": 8087,
+      "amount": 9190,
+      "converted": 9190,
       "confidence": "PChome 2026-08-14 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "channel": "tw",
@@ -185,9 +185,9 @@
     "image": "https://cs-a.ecimg.tw/items/DMAW25A900G453U/000001_1781668075.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 8590,
-      "converted": 8590,
-      "confidence": "Yahoo購物中心 2026-08-12 exact-model 公開結構化價格"
+      "amount": 8333,
+      "converted": 8333,
+      "confidence": "Yahoo購物中心 2026-08-14 exact-model 公開結構化價格"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心",
@@ -270,9 +270,9 @@
     "image": "https://cs-a.ecimg.tw/items/DMCI1NA900HIJUW/000001_1782095197.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 9900,
-      "converted": 9900,
-      "confidence": "Yahoo購物中心 2026-08-12 exact-model 公開結構化價格"
+      "amount": 9108,
+      "converted": 9108,
+      "confidence": "Yahoo購物中心 2026-08-14 exact-model 公開結構化價格"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心",
@@ -607,8 +607,8 @@
     "image": "https://cs-a.ecimg.tw/items/DMAC6RA900IUC3J/000001_1761017834.png",
     "price": {
       "currency": "TWD",
-      "amount": 26099,
-      "converted": 26099,
+      "amount": 28999,
+      "converted": 28999,
       "confidence": "PChome 2026-08-14 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "channel": "tw",
@@ -690,8 +690,8 @@
     "image": "https://cs-a.ecimg.tw/items/DMCI01A900JV0NP/000001_1774843160.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 16020,
-      "converted": 16020,
+      "amount": 17800,
+      "converted": 17800,
       "confidence": "PChome 2026-08-14 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "channel": "tw",
@@ -1108,8 +1108,8 @@
     "image": "https://cs-a.ecimg.tw/items/DMBM2HA900GH7MW/000001_1770018742.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 25020,
-      "converted": 25020,
+      "amount": 27800,
+      "converted": 27800,
       "confidence": "PChome 2026-08-14 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "channel": "tw",
@@ -1277,8 +1277,8 @@
     "name": "櫥下型雙溫 UV 觸控飲水機",
     "price": {
       "currency": "TWD",
-      "amount": 30600,
-      "converted": 30600,
+      "amount": 34000,
+      "converted": 34000,
       "confidence": "PChome 2026-08-14 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DSBE1FA900GSOLN/000001_1698896380.jpg",
@@ -1355,8 +1355,8 @@
     "name": "聲控櫥下 RO 瞬熱飲水機",
     "price": {
       "currency": "TWD",
-      "amount": 41220,
-      "converted": 41220,
+      "amount": 45800,
+      "converted": 45800,
       "confidence": "PChome 2026-08-14 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMCI2FA900JBNK6/000001_1782095017.jpg",
@@ -1515,8 +1515,8 @@
     "name": "廚下 RO 雙溫觸控飲水機",
     "price": {
       "currency": "TWD",
-      "amount": 33129,
-      "converted": 33129,
+      "amount": 36810,
+      "converted": 36810,
       "confidence": "PChome 2026-08-14 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMCI0OA900JT66N/000001_1773306819.png",
@@ -1671,9 +1671,9 @@
     "name": "廚下型飲用水加熱器",
     "price": {
       "currency": "TWD",
-      "amount": 23500,
-      "converted": 23500,
-      "confidence": "Yahoo購物中心 2026-08-12 exact-model 公開結構化價格"
+      "amount": 21150,
+      "converted": 21150,
+      "confidence": "Yahoo購物中心 2026-08-14 exact-model 公開結構化價格"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAWB8A900BVEOG/000001_1760685693.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/BWT%E5%BE%B7%E5%9C%8B%E5%80%8D%E4%B8%96-%E6%99%BA%E6%85%A7%E5%9E%8B%E6%AB%A5%E4%B8%8B%E5%8A%A0%E7%86%B1%E5%99%A8-DWH30A-9802406.html",
@@ -1750,8 +1750,8 @@
     "price": {
       "currency": "USD",
       "amount": 369.99,
-      "converted": 11914,
-      "confidence": "Costco US 2026-07-21 來源價；ExchangeRate-API 2026-08-13 匯率換算"
+      "converted": 11885,
+      "confidence": "Costco US 2026-07-21 來源價；ExchangeRate-API 2026-08-14 匯率換算"
     },
     "image": "https://bfasset.costco-static.com/U447IH35/as/4xjr3phfqx7p9vvxzfhp3jp/100457228-847_chrome_1?auto=webp&format=jpg",
     "buyUrl": "https://www.costco.com/brondell-circle-reverse-osmosis-water-filtration-system.product.100457228.html",
@@ -2089,8 +2089,8 @@
     "name": "極熱 廚下五段溫控瞬熱飲水機",
     "price": {
       "currency": "TWD",
-      "amount": 25920,
-      "converted": 25920,
+      "amount": 28800,
+      "converted": 28800,
       "confidence": "PChome 2026-08-14 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAWHTA900JVB6I/000001_1775031754.jpg",
@@ -3094,6 +3094,188 @@
           "platform": "PTT",
           "query": "site:ptt.cc \"千山淨水\" \"TK-9000\" (災情 OR 問題 OR 故障 OR 維修 OR 負評)",
           "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22%E5%8D%83%E5%B1%B1%E6%B7%A8%E6%B0%B4%22%20%22TK-9000%22%20%28%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E7%B6%AD%E4%BF%AE%20OR%20%E8%B2%A0%E8%A9%95%29",
+          "targetHost": "ptt.cc"
+        }
+      ]
+    }
+  },
+  {
+    "id": "waterdispenser-aquas-aq928",
+    "category": "waterdispenser",
+    "rank": 38,
+    "topPick": false,
+    "budget": "premium",
+    "channel": "tw",
+    "brand": "AQUAS",
+    "model": "AQ928",
+    "name": "AQ928 RO 淨熱一體機",
+    "price": {
+      "currency": "TWD",
+      "amount": 45000,
+      "converted": 45000,
+      "confidence": "AQUAS 淨工坊官方商城 2026-08-14 exact-model 預購新品頁公開價",
+      "basis": "retailer_current"
+    },
+    "image": "https://shoplineimg.com/66c694c75dfb0d001cdcdefa/69675f929d539e1316a27604/800x.webp?source_format=png",
+    "buyUrl": "https://www.shop-aquas.com/products/aquas-aq928",
+    "buyLabel": "AQUAS 淨工坊官方商城",
+    "installation": {
+      "status": "not_stated",
+      "note": "AQUAS 官方 exact-model 頁僅列廠商出貨／門市取貨，未標示售價是否含基本安裝；頁面明列自來水、水壓 1–4 kg/cm² 與 110V/800W，櫥下尺寸、龍頭開孔及進排水條件應於下單前向原廠確認。"
+    },
+    "specs": [
+      "櫥下型 RO 淨熱一體機；0.0001μm（0.1nm）過濾精度，總淨水量 6,000L",
+      "七段出水溫度：常溫、45–95°C；三段定量 240／500／1000ml",
+      "常溫流量 2L/min；溫熱水流量 1.6L/min",
+      "主機尺寸：寬 16 x 深 45 x 高 43.65 cm；觸控龍頭：深 18.5 x 高 23 cm",
+      "官方同頁另列未說明方向的 452 x 145 x 350mm 尺寸，櫥下施工前應請原廠書面確認",
+      "適用自來水；工作水壓 1–4 kg/cm²；檢驗登錄字號 T46298",
+      "110V／800W；一級能源效率；官方標示不需另拉專用迴路"
+    ],
+    "description": "AQUAS 16cm 窄身櫥下 RO 淨熱一體機，以常溫至 95°C 七段溫控、三段定量和最高 1.6L/min 溫熱出水，提供小櫃體的淨熱整合選擇。",
+    "pros": [
+      "16cm 窄身主機，有利於保留櫥下收納空間",
+      "七段溫控、三段定量，溫熱水最高每分鐘 1.6L",
+      "110V／800W、一級能效，官方明載不需另拉專用迴路"
+    ],
+    "cons": [
+      "只有常溫與溫熱水，不提供冰水",
+      "官方 exact-model 頁未說明售價是否含基本安裝，也未標示 exact-model 保固年限",
+      "同一官方頁出現兩組不一致的主機尺寸，櫥下開孔與施工前必須向原廠確認"
+    ],
+    "bestFor": "櫥下寬度有限、需要 RO 淨水與快速溫熱水，但不需要冰水的家庭。",
+    "recommendation": "AQUAS 淨熱窄身補強：AQ928 以 16cm 寬、七段溫控和 1.6L/min 溫熱流量吸引；正式下單前應先書面確認尺寸、安裝費、龍頭孔位及保固。",
+    "score": 89,
+    "voltage": "110V／800W；官方標示不需另拉專用迴路，仍應確認接地插座與櫥下防潮",
+    "warranty": "AQUAS 台灣官方商城公司貨；依淨工坊官方保固條款，exact-model 頁未標示年限，安裝前應向客服確認",
+    "tags": [
+      "AQUAS",
+      "AQ928",
+      "RO",
+      "淨熱一體",
+      "16cm窄身",
+      "110V",
+      "櫥下型"
+    ],
+    "releaseDate": "2026-03-02",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-08-14",
+      "note": "已查 AQUAS 淨工坊官方 exact-model 頁、FindPrice 與 exact-model 價格搜尋；官方 NT$45,000 與比價頁 NT$48,000 都是本輪現價，未找到同型號可公開重現且具日期的可信新品歷史價格，因此不推定史低。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-08-14",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"AQ928\" AQUAS (災情 OR 問題 OR 故障 OR 負評 OR 漏水)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22AQ928%22%20AQUAS%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95%20OR%20%E6%BC%8F%E6%B0%B4)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "PTT",
+          "query": "site:ptt.cc \"AQ928\" AQUAS (災情 OR 問題 OR 故障 OR 負評 OR 漏水)",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22AQ928%22%20AQUAS%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95%20OR%20%E6%BC%8F%E6%B0%B4)",
+          "targetHost": "ptt.cc"
+        }
+      ]
+    }
+  },
+  {
+    "id": "waterdispenser-rinnai-rwp-h300",
+    "category": "waterdispenser",
+    "rank": 39,
+    "topPick": false,
+    "budget": "premium",
+    "channel": "tw",
+    "brand": "Rinnai",
+    "model": "RWP-H300",
+    "name": "冰冷熱三溫櫥下飲水機",
+    "price": {
+      "currency": "TWD",
+      "amount": 37200,
+      "converted": 37200,
+      "confidence": "PChome 24h 2026-08-14 exact-model 新品頁公開售價，標題明載全省安裝",
+      "basis": "retailer_current"
+    },
+    "image": "https://www.rinnai.com.tw/storage/product/1620137744_RWP-H300.png",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DMAW2C-A900BV90K",
+    "buyLabel": "PChome 24h購物",
+    "installation": {
+      "status": "included_basic",
+      "note": "PChome exact-model 標題明載全省安裝；頁面未完整列出基本材料範圍，離島／偏遠、額外鑽孔、遠距配管、插座、進水壓力、濾水器串接與特殊櫃體施工須先確認。"
+    },
+    "specs": [
+      "櫥下型冰／冷／熱三溫電子龍頭",
+      "熱水槽 3.5L、冰水槽 1.3L；熱水安全鎖與 UV 殺菌",
+      "SUS304 內膽；總功率 870W（熱水 750W／冰水 120W）",
+      "尺寸：寬 26 x 深 42.5 x 高 42 cm；重量 16kg",
+      "AC 110V / 60Hz；適用水壓 0.7–5 kgf/cm²"
+    ],
+    "description": "Rinnai RWP-H300 將冰水、冷水與熱水集中在櫥下主機及電子龍頭，適合需要三溫即飲的廚房。",
+    "pros": [
+      "冰、冷、熱三溫一體，熱水槽 3.5L",
+      "110V 規格、SUS304 內膽與安全鎖",
+      "PChome exact-model 頁標示全省安裝"
+    ],
+    "cons": [
+      "需占用寬 26 x 深 42.5 x 高 42cm 櫃內空間",
+      "需另確認前置濾水、排熱、水壓與耗材配置",
+      "基本安裝材料範圍未完整公開，特殊施工可能加價"
+    ],
+    "bestFor": "櫥下有足夠空間、需要冰冷熱三溫並可配合場勘與濾水配置的家庭。",
+    "recommendation": "Rinnai 日系櫥下飲水補強：全省安裝文字不等於所有工料免費，下單前應書面確認孔位、水路、電源和耗材。",
+    "score": 86,
+    "voltage": "AC 110V / 60Hz；總功率 870W，需可靠接地與合適插座",
+    "warranty": "台灣林內公司貨；依原廠與 PChome 保固條款",
+    "tags": [
+      "櫥下型",
+      "冰冷熱",
+      "3.5L熱水",
+      "UV",
+      "110V"
+    ],
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-08-14",
+      "note": "已查台灣林內官方、PChome 與 exact-model 價格搜尋；不同頁面常含不同濾水器／安裝範圍，未找到可同條件比較且具日期的可信新品史低。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-08-14",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"RWP-H300\" (災情 OR 問題 OR 故障 OR 負評 OR 漏水)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22RWP-H300%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95%20OR%20%E6%BC%8F%E6%B0%B4)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "PTT",
+          "query": "site:ptt.cc \"RWP-H300\" (災情 OR 問題 OR 故障 OR 負評 OR 漏水)",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22RWP-H300%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95%20OR%20%E6%BC%8F%E6%B0%B4)",
           "targetHost": "ptt.cc"
         }
       ]

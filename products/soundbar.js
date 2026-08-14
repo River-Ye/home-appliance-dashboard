@@ -17,8 +17,8 @@
     "name": "11.1.4 聲道旗艦 Soundbar",
     "price": {
       "currency": "TWD",
-      "amount": 42655,
-      "converted": 42655,
+      "amount": 44900,
+      "converted": 44900,
       "confidence": "Yahoo購物中心 2026-08-14 exact-model 公開結構化價格"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAAODA900JMDR5/000001_1773978957.jpg",
@@ -271,8 +271,8 @@
     "name": "BRAVIA Theatre Bar 7 5.0.2 聲道 Soundbar",
     "price": {
       "currency": "TWD",
-      "amount": 20610,
-      "converted": 20610,
+      "amount": 21755,
+      "converted": 21755,
       "confidence": "PChome 2026-08-14 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://img.pchome.com.tw/cs/items/DMAAN8A900K0Y8L/000001_1779181877.jpg",
@@ -763,8 +763,8 @@
     "name": "Q 系列 11.1.4 聲道 Soundbar 家庭劇院",
     "price": {
       "currency": "TWD",
-      "amount": 56905,
-      "converted": 56905,
+      "amount": 59900,
+      "converted": 59900,
       "confidence": "Yahoo購物中心 2026-08-14 exact-model 公開結構化價格"
     },
     "image": "https://cs-a.ecimg.tw/items/DPADO2A900K5VUT/000001_1782993730.jpg",
@@ -843,8 +843,8 @@
     "name": "Q 系列 7.1.2 聲道 Soundbar",
     "price": {
       "currency": "TWD",
-      "amount": 35055,
-      "converted": 35055,
+      "amount": 36900,
+      "converted": 36900,
       "confidence": "Yahoo購物中心 2026-08-14 exact-model 公開結構化價格"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAAODA900K5489/000001_1782988490.jpg",
@@ -923,8 +923,8 @@
     "name": "5.1 聲道 Soundbar 家庭劇院組",
     "price": {
       "currency": "TWD",
-      "amount": 8541,
-      "converted": 8541,
+      "amount": 9016,
+      "converted": 9016,
       "confidence": "Yahoo購物中心 2026-08-14 exact-model 公開結構化價格"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBM1DA900GHTFE/000001_1776774078.jpg",
@@ -1163,8 +1163,8 @@
     "name": "7.1 聲道家庭劇院喇叭",
     "price": {
       "currency": "TWD",
-      "amount": 27161,
-      "converted": 27161,
+      "amount": 28590,
+      "converted": 28590,
       "confidence": "Yahoo購物中心 2026-08-14 exact-model 公開結構化價格"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAAHGA900J56OK/000001_1755250707.jpg",
@@ -1724,8 +1724,8 @@
     "price": {
       "currency": "USD",
       "amount": 1299.99,
-      "converted": 41860,
-      "confidence": "Marshall US 2026-07-21 來源價；ExchangeRate-API 2026-08-13 匯率換算"
+      "converted": 41760,
+      "confidence": "Marshall US 2026-07-21 來源價；ExchangeRate-API 2026-08-14 匯率換算"
     },
     "image": "https://images.ctfassets.net/javen7msabdh/2C2sn9CKoKFdIyd94Gm9z5/f3019d4e721511167ebe5c229bf490dd/heston-120_plp.jpg",
     "buyUrl": "https://www.marshall.com/us/en/product/heston-120",
@@ -1806,8 +1806,8 @@
     "price": {
       "currency": "USD",
       "amount": 699.99,
-      "converted": 22540,
-      "confidence": "Marshall US 官方 2026-07-21 現貨價；ExchangeRate-API 2026-08-13 匯率換算"
+      "converted": 22486,
+      "confidence": "Marshall US 官方 2026-07-21 現貨價；ExchangeRate-API 2026-08-14 匯率換算"
     },
     "image": "https://images.ctfassets.net/javen7msabdh/3yitHqjPBTgQk5qRE72PSn/2788206646aa153f71f2c0ebefaff580/Heston-60-black_plp_800x800-v3.jpeg",
     "buyUrl": "https://www.marshall.com/us/en/product/heston-60?pid=1008949",
@@ -2065,8 +2065,8 @@
     "name": "2.0 聲道二合一分離式聲霸",
     "price": {
       "currency": "TWD",
-      "amount": 602,
-      "converted": 602,
+      "amount": 633,
+      "converted": 633,
       "confidence": "Yahoo購物中心 2026-08-14 exact-model 公開結構化價格"
     },
     "image": "https://www.costco.com.tw/medias/sys_master/images/h21/hac/367883491278878.jpg",
@@ -2190,14 +2190,14 @@
       "status": "found",
       "amount": 176107,
       "currency": "JPY",
-      "converted": 35600,
+      "converted": 35491,
       "sourceUrl": "https://kakaku.com/item/K0001712395/pricehistory/",
       "sourceTitle": "価格.com：JBL BAR 1300MK2 [ブラック] 価格推移",
       "evidenceSnippet": "価格.com 日別價格歷史顯示 exact-model「JBL BAR 1300MK2 [ブラック]」於 2026-06-22、2026-06-23 的新品最低價為 ¥176,107；2025-10 初始價格為 ¥205,306。",
       "sourceKind": "price_history",
       "confidence": "medium",
       "checkedAt": "2026-07-24",
-      "note": "採日本市場 exact-model 公開價格歷史並依 2026-08-13 JPY/TWD 匯率換算；未含國際運費、進口稅、插頭／電壓確認與台灣保固風險。官方規格雖為 100-240V，海外購入仍非台灣公司貨。"
+      "note": "採日本市場 exact-model 公開價格歷史並依 2026-08-14 JPY/TWD 匯率換算；未含國際運費、進口稅、插頭／電壓確認與台灣保固風險。官方規格雖為 100-240V，海外購入仍非台灣公司貨。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -2216,6 +2216,95 @@
           "query": "site:reddit.com \"JBL BAR 1300MK2\" (problem OR issue OR defect OR \"negative review\")",
           "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22JBL%20BAR%201300MK2%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
           "targetHost": "reddit.com"
+        }
+      ]
+    }
+  },
+  {
+    "id": "soundbar-panasonic-sc-htb334gtk",
+    "category": "soundbar",
+    "rank": 28,
+    "topPick": false,
+    "budget": "balanced",
+    "channel": "tw",
+    "brand": "Panasonic",
+    "model": "SC-HTB334GTK",
+    "name": "3.1.2 聲道 Dolby Atmos 無線重低音 Soundbar",
+    "price": {
+      "currency": "TWD",
+      "amount": 16900,
+      "converted": 16900,
+      "confidence": "雅光電器 2026-08-14 exact-model 新品頁公開售價並標示尚有庫存",
+      "basis": "retailer_current"
+    },
+    "image": "https://panasonic.com/content/dam/panasonic/tw/zh/pim/dam/SC/SC-HTB/SC-HTB334GTK/ast-3076015.jpg",
+    "buyUrl": "https://www.yk01.com.tw/products/schtb334gtk",
+    "buyLabel": "雅光電器",
+    "installation": {
+      "status": "not_stated",
+      "note": "雅光 exact-model 現售頁未把壁掛施工或線材配置列為售價內服務；桌上擺放可自行接線，壁掛支架、牆體承重與施工費需另詢。"
+    },
+    "specs": [
+      "3.1.2 聲道、總輸出 440W、無線重低音",
+      "Dolby Atmos、DTS:X、Bluetooth 5.3、HDMI eARC/ARC",
+      "尺寸：主機 寬 92 x 深 9 x 高 6 cm；重低音 寬 21.4 x 深 30.4 x 高 29.4 cm",
+      "重量：主機 2.9 kg；重低音 5.33 kg",
+      "主機／重低音皆 AC 110V / 60Hz；耗電約 18W／19W"
+    ],
+    "description": "Panasonic SC-HTB334GTK 以 3.1.2 聲道、無線重低音與 Atmos／DTS:X，補入日系中階客廳劇院選擇。",
+    "pros": [
+      "主機 6cm 高，較不易遮擋電視",
+      "Atmos、DTS:X、eARC 與無線重低音規格完整",
+      "官方目錄明列各元件尺寸與淨重"
+    ],
+    "cons": [
+      "沒有實體後環繞，包圍感仰賴反射與房間條件",
+      "壁掛施工與額外線材未列入通路現價",
+      "公開長期使用評價仍有限"
+    ],
+    "bestFor": "想在不配置後環繞喇叭下取得 Atmos、清楚對白與較完整低頻的中小型客廳。",
+    "recommendation": "Panasonic 日系 Soundbar 補強：規格和尺寸證據完整；天花高度、反射面與壁掛條件仍會影響上射聲道效果。",
+    "score": 88,
+    "voltage": "AC 110V / 60Hz（主機與重低音）",
+    "warranty": "台灣公司貨 1 年保固；依 Panasonic 保證書",
+    "tags": [
+      "3.1.2聲道",
+      "Dolby Atmos",
+      "DTS:X",
+      "無線重低音",
+      "eARC"
+    ],
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "found",
+      "amount": 15900,
+      "currency": "TWD",
+      "converted": 15900,
+      "sourceUrl": "https://www.mobile01.com/topicdetail.php?f=348&t=7125293",
+      "sourceTitle": "Mobile01：Panasonic SC-HTB334GTK 3.1.2 聲道 soundbar 評測",
+      "evidenceSnippet": "2025-05-27 的 exact-model 評測明載「新台幣15,900元售價」。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
+      "checkedAt": "2026-08-14",
+      "note": "採可信媒體同型號、具日期的公開售價紀錄作價格歷史；不是會員個人券、信用卡回饋、點數、二手或展示品。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-08-14",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"SC-HTB334GTK\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22SC-HTB334GTK%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "PTT",
+          "query": "site:ptt.cc \"SC-HTB334GTK\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22SC-HTB334GTK%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "ptt.cc"
         }
       ]
     }

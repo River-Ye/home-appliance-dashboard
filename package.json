@@ -15,6 +15,7 @@
     "check:quality": "node tools/check-quality.js",
     "audit:pchome-prices": "node tools/sync-pchome-prices.js",
     "maintain:catalog": "node tools/run-daily-catalog-maintenance.js",
+    "review:japanese-brands": "node tools/apply-japanese-brand-review.js",
     "sync:maintenance-metadata": "node tools/update-maintenance-metadata.js",
     "generate:categories": "node tools/generate-category-pages.js"
   },

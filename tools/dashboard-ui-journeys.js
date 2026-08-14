@@ -56,6 +56,12 @@ const EXPECTED_MONITOR_COUNT = EXPECTED_CATEGORY_PRODUCT_COUNTS.get("monitor");
 const EXPECTED_TV_COUNT = EXPECTED_CATEGORY_PRODUCT_COUNTS.get("tv");
 const EXPECTED_BIDET_COUNT = EXPECTED_CATEGORY_PRODUCT_COUNTS.get("bidet");
 const EXPECTED_COFFEE_COUNT = EXPECTED_CATEGORY_PRODUCT_COUNTS.get("coffee");
+const EXPECTED_AIRCON_HEAT_COOL_COUNT = DASHBOARD_PRODUCTS
+  .filter((product) => product.category === "aircon" && product.type === "heat_cool").length;
+const OFFICIAL_SUGGESTED_PRODUCT = DASHBOARD_PRODUCTS.find((product) => (
+  ["aircon", "waterheater"].includes(product.category)
+    && product.price?.basis === "official_suggested"
+));
 const COFFEE_PRODUCTS = DASHBOARD_PRODUCTS.filter((product) => product.category === "coffee");
 const COFFEE_BRANDS = [...new Set(COFFEE_PRODUCTS.map((product) => product.brand))].sort();
 const COFFEE_TOP_PICK = COFFEE_PRODUCTS.find((product) => product.topPick);
@@ -1040,6 +1046,82 @@ async function assertUrlHashRestore(page, name) {
   await resetFilters(page);
 }
 
+async function runTypeFilterJourney(browser) {
+  const name = "dashboard-type-filter";
+  const page = await browser.newPage({ viewport: { width: 1100, height: 900 } });
+  attachRuntimeIssueCollector(page);
+  try {
+    await page.goto(`${fileUrl}?category=aircon&type=heat_cool`, { waitUntil: "domcontentloaded" });
+    await page.waitForSelector(".product-card");
+    await page.waitForFunction(() => document.querySelector("#typeInput")?.value === "冷暖");
+    if (await page.locator("#typeFilterField").isHidden()) throw new Error(`${name}: aircon type filter is hidden`);
+    await waitForVisibleCount(page, EXPECTED_AIRCON_HEAT_COOL_COUNT);
+    if (!page.url().includes("type=heat_cool")) throw new Error(`${name}: compatible type query was not retained`);
+    if (!await page.locator('#activeFilterChips [data-clear-filter="type"]', { hasText: "型態：冷暖" }).count()) {
+      throw new Error(`${name}: type active chip is missing`);
+    }
+    await assertNoHorizontalOverflow(page, `${name}-1100px`);
+
+    await page.goto(`${fileUrl}?category=monitor&type=gas`, { waitUntil: "domcontentloaded" });
+    await page.waitForSelector(".product-card");
+    await page.waitForFunction(() => document.querySelector("#categoryInput")?.value === "電腦螢幕");
+    if (!await page.locator("#typeFilterField").isHidden()) throw new Error(`${name}: incompatible category displayed type filter`);
+    if (page.url().includes("type=")) throw new Error(`${name}: invalid direct type value remained in URL`);
+
+    await page.goBack({ waitUntil: "domcontentloaded" });
+    await page.waitForSelector(".product-card");
+    await page.waitForFunction(() => document.querySelector("#typeInput")?.value === "冷暖");
+    await waitForVisibleCount(page, EXPECTED_AIRCON_HEAT_COOL_COUNT);
+
+    await selectComboboxOption(page, "#categoryInput", '#categoryOptions [data-value="waterheater"]', "熱水器");
+    await page.waitForFunction(() => document.querySelector("#typeInput")?.value === "全部型態");
+    if (page.url().includes("type=")) throw new Error(`${name}: switching category did not clear incompatible type`);
+    await selectComboboxOption(page, "#typeInput", '#typeOptions [data-value="gas"]', "瓦斯");
+    if (!page.url().includes("type=gas")) throw new Error(`${name}: waterheater type was not synchronized to URL`);
+    await page.getByRole("button", { name: "重設篩選" }).click();
+    await page.waitForFunction(() => document.querySelector("#typeFilterField")?.hidden === true);
+
+    if (!OFFICIAL_SUGGESTED_PRODUCT) {
+      throw new Error(`${name}: fixture requires at least one official_suggested aircon or waterheater product`);
+    }
+    const officialQuery = new URLSearchParams({
+      q: OFFICIAL_SUGGESTED_PRODUCT.model,
+      category: OFFICIAL_SUGGESTED_PRODUCT.category,
+    });
+    await page.goto(`${fileUrl}?${officialQuery}`, { waitUntil: "domcontentloaded" });
+    await waitForVisibleCount(page, 1);
+    await waitForProductCards(page, 1);
+    const card = page.locator(".product-card").first();
+    if (!await card.getByText("建議售價", { exact: false }).count()) throw new Error(`${name}: official price label is missing`);
+    if (!await card.locator(".buy-link", { hasText: "查看官方資料" }).count()) throw new Error(`${name}: official price CTA is not disclosed`);
+    await card.locator(".compare-button").click();
+    const basisRow = page.locator("#compareTable tr", { has: page.getByRole("rowheader", { name: "價格基準" }) });
+    if (!await basisRow.getByText("官方建議售價", { exact: true }).count()) throw new Error(`${name}: comparison price basis is missing`);
+    const installationRow = page.locator("#compareTable tr", { has: page.getByRole("rowheader", { name: "安裝" }) });
+    if (!await installationRow.locator("td").count()) throw new Error(`${name}: comparison installation disclosure is missing`);
+    assertNoRuntimeIssues(page, name);
+  } finally {
+    await page.close();
+  }
+
+  const mobileName = `${name}-mobile`;
+  const mobile = await browser.newPage({ viewport: { width: 390, height: 844 } });
+  attachRuntimeIssueCollector(mobile);
+  try {
+    await mobile.goto(`${fileUrl}?category=aircon&type=heat_cool`, { waitUntil: "domcontentloaded" });
+    await mobile.waitForSelector(".product-card");
+    await mobile.waitForFunction(() => document.querySelector("#activeFilterCount")?.textContent?.trim() === "2");
+    const toggle = mobile.getByRole("button", { name: /^篩選/ });
+    await toggle.click();
+    await mobile.waitForFunction(() => document.querySelector("#typeFilterField")?.hidden === false);
+    if (await mobile.locator("#typeInput").inputValue() !== "冷暖") throw new Error(`${mobileName}: mobile type value is stale`);
+    await assertNoHorizontalOverflow(mobile, mobileName);
+    assertNoRuntimeIssues(mobile, mobileName);
+  } finally {
+    await mobile.close();
+  }
+}
+
 async function runSmokeViewport(browser, name, viewport) {
   const page = await openDashboardPage(browser, name, viewport);
   try {
@@ -1350,6 +1432,7 @@ module.exports = {
   runExhaustiveViewport,
   runSmokeViewport,
   runGarmentCareJourney,
+  runTypeFilterJourney,
   runDesktopJourney,
   runMobileJourney,
 };

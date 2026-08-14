@@ -1817,8 +1817,8 @@
     "price": {
       "currency": "USD",
       "amount": 679.99,
-      "converted": 21896,
-      "confidence": "Dreame Vacuum Mop US 2026-07-21 原廠公開特價；ExchangeRate-API 2026-08-13 匯率換算"
+      "converted": 21843,
+      "confidence": "Dreame Vacuum Mop US 2026-07-21 原廠公開特價；ExchangeRate-API 2026-08-14 匯率換算"
     },
     "image": "https://m.media-amazon.com/images/I/61Yuy5vtWFL._AC_SL1500_.jpg",
     "buyUrl": "https://vacuummop.dreametech.com/products/aero-ultra-steam-wet-dry-vacuum",
@@ -1857,14 +1857,14 @@
       "status": "found",
       "amount": 679.99,
       "currency": "USD",
-      "converted": 21896,
+      "converted": 21843,
       "sourceUrl": "https://vacuummop.dreametech.com/products/aero-ultra-steam-wet-dry-vacuum",
       "sourceTitle": "Dreame Aero Ultra Steam Wet Dry Vacuum – Dreame Vacuum Mop",
       "evidenceSnippet": "Dreame 原廠美國商品頁於 2026-07-16 公開顯示特價 US$679.99、原價 US$799.99，且可 Add to Cart / Buy It Now。",
       "sourceKind": "official_sale",
       "confidence": "high",
       "checkedAt": "2026-07-16",
-      "note": "新上市商品目前可公開驗證的最低售價；未套用會員碼、信用卡、點數或個人化折扣，且未含國際運費、進口稅、插頭／供電與台灣保固風險；依 2026-08-13 USD/TWD 匯率換算。"
+      "note": "新上市商品目前可公開驗證的最低售價；未套用會員碼、信用卡、點數或個人化折扣，且未含國際運費、進口稅、插頭／供電與台灣保固風險；依 2026-08-14 USD/TWD 匯率換算。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -2051,6 +2051,95 @@
           "query": "site:reddit.com \"Roborock H60 H10A3A\" (problem OR issue OR defect OR negative review)",
           "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Roborock%20H60%20H10A3A%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
           "targetHost": "reddit.com"
+        }
+      ]
+    }
+  },
+  {
+    "id": "vacuum-hitachi-pv-xh4p",
+    "category": "vacuum",
+    "rank": 27,
+    "topPick": false,
+    "budget": "premium",
+    "channel": "tw",
+    "brand": "HITACHI",
+    "model": "PV-XH4P",
+    "name": "225AW 輕量無線吸塵器",
+    "price": {
+      "currency": "TWD",
+      "amount": 9990,
+      "converted": 9990,
+      "confidence": "Jarvis 家電 2026-08-14 exact-model 台灣新品頁公開售價",
+      "basis": "retailer_current"
+    },
+    "image": "https://www.hitachi-homeappliances.com.tw/products/image/PVXH4P/0.jpg",
+    "buyUrl": "https://www.jarvis.com.tw/appliances/hitachi/vacuum-hitachi/hitachi-pvxh4p/",
+    "buyLabel": "Jarvis 家電",
+    "installation": {
+      "status": "not_stated",
+      "note": "通路頁未列到府安裝；本品為手持／直立無線吸塵器，充電座擺放與配件收納由使用者依說明書完成。"
+    },
+    "specs": [
+      "最大吸力 225AW；HEPA H13 過濾",
+      "整機約 1.95kg、手持約 1.5kg；集塵盒 0.4L",
+      "尺寸：寬 25 x 深 23 x 高 122.2 cm",
+      "續航：約 60 分鐘（手持）／低速 45／中速 20／強力 8 分鐘",
+      "充電約 3 小時、可拆式電池、自走式 LED 吸頭、毛髮防纏"
+    ],
+    "description": "HITACHI PV-XH4P 以 225AW、可拆電池與 1.95kg 機身，補進日系高吸力輕量無線吸塵器。",
+    "pros": [
+      "225AW 與 HEPA H13 規格完整",
+      "1.95kg 整機兼顧吸力與操作負擔",
+      "可拆電池、LED 自走吸頭及防纏功能實用"
+    ],
+    "cons": [
+      "強力模式續航約 8 分鐘",
+      "0.4L 集塵盒需較頻繁倒塵",
+      "替換電池與濾網成本需另查"
+    ],
+    "bestFor": "重視日系售後、高吸力與輕量操控，家中有毛髮清潔需求的人。",
+    "recommendation": "HITACHI 日系吸塵器補強：吸力與重量亮眼，但應用實際常用檔位續航而非最大標稱時間比較。",
+    "score": 89,
+    "voltage": "充電器輸入 AC 100–240V、50/60Hz、1.0A；輸出 DC 29.9V、0.9A；台灣公司貨",
+    "warranty": "HITACHI 台灣公司貨；依原廠與通路保固條款",
+    "tags": [
+      "225AW",
+      "1.95kg",
+      "HEPA H13",
+      "可拆電池",
+      "防纏"
+    ],
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-08-14",
+      "note": "已查 HITACHI 台灣官方 exact-model 頁、Jarvis 現售頁及 exact-model 價格搜尋；無具日期且可重現的可信新品史低。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-08-14",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"PV-XH4P\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22PV-XH4P%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "PTT",
+          "query": "site:ptt.cc \"PV-XH4P\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22PV-XH4P%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "ptt.cc"
         }
       ]
     }

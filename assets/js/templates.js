@@ -14,6 +14,8 @@
     "oven",
     "dishwasher",
     "bidet",
+    "aircon",
+    "waterheater",
   ]);
 
   function prioritizedSpecs(product) {
@@ -29,6 +31,30 @@
 
   function historicalLowInfo(product) {
     const low = product.historicalLow || {};
+    if (product.price?.basis === "official_suggested") {
+      const hasLow = low.status === "found" && typeof low.converted === "number" && low.converted > 0;
+      return {
+        className: "unknown",
+        label: "待比價",
+        lowText: hasLow
+          ? `歷史最低價：${utils.formatTwd(low.converted)}`
+          : "歷史最低價：找不到",
+        detail: "目前為官方建議售價，不與通路史低計算差額",
+        sourceUrl: hasLow ? (low.sourceUrl || "") : "",
+      };
+    }
+    if (product.price?.basis !== "retailer_current") {
+      const hasLow = low.status === "found" && typeof low.converted === "number" && low.converted > 0;
+      return {
+        className: "unknown",
+        label: "待覆核",
+        lowText: hasLow
+          ? `歷史最低價：${utils.formatTwd(low.converted)}`
+          : "歷史最低價：找不到",
+        detail: "目前價格基準未標示，不計算與通路史低的差額",
+        sourceUrl: hasLow ? (low.sourceUrl || "") : "",
+      };
+    }
     if (low.status !== "found" || typeof low.converted !== "number" || low.converted <= 0) {
       return {
         className: "unknown",
@@ -216,9 +242,24 @@
   function cardMarkup(product) {
     const category = categoryById.get(product.category);
     const isCompared = state.compare.has(product.id);
-    const priceNote = product.price.currency === "TWD"
-      ? "台灣通路售價"
-      : `${product.price.confidence}，匯率 ${product.price.currency} 轉 TWD；未含國際運費/進口稅`;
+    const officialSuggested = product.price.basis === "official_suggested";
+    const retailerCurrent = product.price.basis === "retailer_current";
+    const priceNote = officialSuggested
+      ? "台灣官方公開建議售價，非通路成交價"
+      : retailerCurrent && product.price.currency === "TWD"
+        ? "台灣通路現價"
+        : retailerCurrent
+          ? `${product.price.confidence}，匯率 ${product.price.currency} 轉 TWD；未含國際運費/進口稅`
+          : "價格基準未標示，請開啟來源確認";
+    const priceLabel = officialSuggested
+      ? "官方建議售價"
+      : retailerCurrent
+        ? "查核時價格"
+        : "公開售價";
+    const installationText = product.installation
+      ? `${({ included_basic: "含基本安裝", excluded: "不含安裝", not_stated: "安裝未標示" })[product.installation.status] || "安裝未標示"}；${product.installation.note}`
+      : "依商品頁與現場條件確認";
+    const actionText = officialSuggested ? "查看官方資料" : `前往 ${product.buyLabel}`;
     const sourceDate = /costco|好市多/i.test(`${product.buyLabel} ${product.buyUrl}`)
       ? meta.costcoDate
       : meta.dataDate;
@@ -247,7 +288,7 @@
           </div>
           <div class="price-row decision-strip">
             <div>
-              <span class="field-label">建議/常見售價</span>
+              <span class="field-label">${utils.escapeHtml(priceLabel)}</span>
               <strong>${utils.escapeHtml(utils.formatTwd(product.price.converted))}</strong>
               <small>${utils.escapeHtml(utils.formatOriginal(product.price))} · ${utils.escapeHtml(priceNote)}</small>
             </div>
@@ -285,6 +326,7 @@
               </div>
               ${specItemMarkup("適合對象", product.bestFor)}
               ${specItemMarkup("電壓 / 保固", `${product.voltage}；${product.warranty}`)}
+              ${specItemMarkup("安裝", installationText)}
               ${specItemMarkup("上市 / 發售日期", releaseDateText(product))}
               <div class="tag-row">${product.tags.map((tag) => `<span class="tag">${utils.escapeHtml(tag)}</span>`).join("")}</div>
               <p class="fineprint">資料來源：${utils.escapeHtml(product.buyLabel)}，擷取日 ${sourceDate}。</p>
@@ -292,7 +334,7 @@
           </details>
         </div>
         <div class="card-actions">
-          <a class="buy-link" href="${utils.escapeHtml(product.buyUrl)}" target="_blank" rel="noreferrer" aria-label="前往 ${utils.escapeHtml(product.buyLabel)} 購買 ${utils.escapeHtml(product.brand)} ${utils.escapeHtml(product.model)}">前往 ${utils.escapeHtml(product.buyLabel)}</a>
+          <a class="buy-link" href="${utils.escapeHtml(product.buyUrl)}" target="_blank" rel="noreferrer" aria-label="${officialSuggested ? "查看" : "前往"} ${utils.escapeHtml(product.buyLabel)} ${utils.escapeHtml(product.brand)} ${utils.escapeHtml(product.model)}">${utils.escapeHtml(actionText)}</a>
           <button class="compare-button ${isCompared ? "active" : ""}" type="button" data-compare="${utils.escapeHtml(product.id)}" aria-pressed="${isCompared}">
             ${isCompared ? "已加入比較" : "加入比較"}
           </button>
@@ -319,6 +361,11 @@
       { label: "品牌/型號", get: (product) => `${product.brand} ${product.model}` },
       { label: "TWD 價格", get: (product) => utils.formatTwd(product.price.converted) },
       { label: "原幣價格", get: (product) => utils.formatOriginal(product.price) },
+      { label: "價格基準", get: (product) => product.price.basis === "official_suggested"
+        ? "官方建議售價"
+        : product.price.basis === "retailer_current"
+          ? "通路現價"
+          : "未標示" },
       { label: "歷史最低價 / 入手時機", get: historicalLowText },
       { label: "負評／災情", get: issueResearchText },
       { label: "上市/發售", get: releaseDateText },
@@ -327,6 +374,9 @@
       { label: "留意", get: (product) => product.cons.join(" / ") },
       { label: "適合", get: (product) => product.bestFor },
       { label: "電壓保固", get: (product) => `${product.voltage}；${product.warranty}` },
+      { label: "安裝", get: (product) => product.installation
+        ? `${({ included_basic: "含基本安裝", excluded: "不含安裝", not_stated: "安裝未標示" })[product.installation.status] || "安裝未標示"}；${product.installation.note}`
+        : "依商品頁與現場條件確認" },
     ];
 
     return `

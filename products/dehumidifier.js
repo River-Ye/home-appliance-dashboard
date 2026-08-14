@@ -168,7 +168,7 @@
     "rank": 3,
     "budget": "premium",
     "channel": "tw",
-    "brand": "Mitsubishi",
+    "brand": "Mitsubishi Electric",
     "model": "MJ-EHV220KX-TW",
     "name": "22.5L 日製變頻空氣清淨除濕機",
     "price": {
@@ -1572,7 +1572,7 @@
     "rank": 22,
     "budget": "premium",
     "channel": "tw",
-    "brand": "Hitachi",
+    "brand": "HITACHI",
     "model": "RD-380VC",
     "name": "19公升 超變頻清淨除濕機",
     "price": {
@@ -1895,6 +1895,95 @@
           "query": "site:dcard.tw \"Whirlpool WDEE1200TW\"",
           "queryUrl": "https://www.google.com/search?q=site%3Adcard.tw%20%22Whirlpool%20WDEE1200TW%22",
           "targetHost": "dcard.tw"
+        }
+      ]
+    }
+  },
+  {
+    "id": "dehumidifier-daikin-jp33asct-w",
+    "category": "dehumidifier",
+    "rank": 25,
+    "topPick": false,
+    "budget": "balanced",
+    "channel": "tw",
+    "brand": "DAIKIN",
+    "model": "JP33ASCT-W",
+    "name": "16.5L 智慧乾衣電眼除濕機",
+    "price": {
+      "currency": "TWD",
+      "amount": 13800,
+      "converted": 13800,
+      "confidence": "PChome 24h 2026-08-14 exact-model 新品頁公開售價，標示 InStock",
+      "basis": "retailer_current"
+    },
+    "image": "https://img.pchome.com.tw/cs/items/DMAU9HA900C8PS4/000001_1641275711.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DMAU9H-A900C8PS4",
+    "buyLabel": "PChome 24h購物",
+    "installation": {
+      "status": "not_stated",
+      "note": "PChome exact-model 頁未列安裝服務；本品為移動式除濕機，連續排水如需打孔或配管須另行處理。"
+    },
+    "specs": [
+      "日除濕量 16.5L（27°C／60%RH）",
+      "智慧乾衣電眼、上下左右擺葉、濕度 40–70% 設定",
+      "4L 水箱、額定耗電約 272W、一級能效",
+      "尺寸：寬 52.6 x 深 31 x 高 45.4 cm；重量 15.8kg",
+      "110V / 60Hz；冷媒 R134a"
+    ],
+    "description": "Daikin JP33ASCT-W 以 16.5L 除濕量與乾衣電眼，自動偵測衣物濕區並調整送風。",
+    "pros": [
+      "16.5L 與 4L 水箱適合中型空間及乾衣",
+      "上下左右擺風與電眼針對衣物乾燥",
+      "一級能效、110V 台灣規格"
+    ],
+    "cons": [
+      "15.8kg，跨樓層搬運不輕",
+      "機身橫向 52.6cm，收納占寬較大",
+      "沒有 Wi-Fi 遠端控制"
+    ],
+    "bestFor": "北部潮濕環境、需要室內乾衣，並希望機器自動追蹤較濕衣物的人。",
+    "recommendation": "Daikin 日系除濕補強：乾衣導向清楚；選購仍要以標準測試條件下的 16.5L 與空間坪數比較。",
+    "score": 86,
+    "voltage": "110V / 60Hz；額定耗電約 272W",
+    "warranty": "台灣大金公司貨；依原廠與 PChome 保固條款",
+    "tags": [
+      "16.5L",
+      "乾衣電眼",
+      "4L水箱",
+      "一級能效",
+      "110V"
+    ],
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-08-14",
+      "note": "已查台灣大金型錄、PChome 與 exact-model 價格搜尋；只重現本輪 NT$13,800，未找到具日期且可公開驗證的可信新品史低。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-08-14",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"JP33ASCT-W\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22JP33ASCT-W%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "PTT",
+          "query": "site:ptt.cc \"JP33ASCT-W\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22JP33ASCT-W%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "ptt.cc"
         }
       ]
     }

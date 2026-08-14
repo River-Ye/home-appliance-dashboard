@@ -1899,8 +1899,8 @@
     "name": "27 型 WQHD 360Hz QD-OLED 電競螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 17955,
-      "converted": 17955,
+      "amount": 18900,
+      "converted": 18900,
       "confidence": "Yahoo購物中心 2026-08-14 exact-model 公開結構化價格"
     },
     "image": "https://cs-a.ecimg.tw/items/DSBC1ZA900HE04M/000001_1757303897.jpg",
@@ -3293,8 +3293,8 @@
     "name": "49 型 Odyssey OLED G9 Dual QHD 240Hz 曲面螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 34999,
-      "converted": 34999,
+      "amount": 36900,
+      "converted": 36900,
       "confidence": "PChome 2026-08-14 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBM10A900HZCPE/000001_1781766568.jpg",
@@ -3539,8 +3539,8 @@
     "name": "57 型 Odyssey Neo G9 Dual UHD 240Hz Mini LED 曲面螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 66500,
-      "converted": 66500,
+      "amount": 69900,
+      "converted": 69900,
       "confidence": "PChome 2026-08-14 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBM10A900GQLSE/000001_1783054239.jpg",
@@ -4451,6 +4451,186 @@
           "query": "site:reddit.com \"Samsung LS32HG806ESXZW\" (problem OR issue OR defect OR negative review)",
           "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Samsung%20LS32HG806ESXZW%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
           "targetHost": "reddit.com"
+        }
+      ]
+    }
+  },
+  {
+    "id": "monitor-sony-sdm-27u9m2",
+    "category": "monitor",
+    "rank": 59,
+    "topPick": false,
+    "budget": "premium",
+    "channel": "tw",
+    "brand": "SONY",
+    "model": "SDM-27U9M2",
+    "name": "INZONE M9 II 27 吋 4K 160Hz 全陣列背光電競螢幕",
+    "price": {
+      "currency": "TWD",
+      "amount": 26990,
+      "converted": 26990,
+      "confidence": "Sony 台灣官方購物網站 2026-08-14 exact-model 公開售價，頁面可加入購物車",
+      "basis": "retailer_current"
+    },
+    "image": "https://store.sony.com.tw/resource/product_files/SDM-27U9M2/SDM-27U9M2_pi.jpg",
+    "buyUrl": "https://store.sony.com.tw/product/SDM-27U9M2",
+    "buyLabel": "Sony 台灣官方購物網站",
+    "installation": {
+      "status": "not_stated",
+      "note": "Sony 官方購物頁明載免費宅配與 36 個月保固，但未把桌面組裝或 VESA 壁掛施工列為售價內服務；壁掛架、承重與施工需另行確認。"
+    },
+    "specs": [
+      "27 吋 4K UHD IPS；DisplayPort 最高 160Hz、HDMI 最高 144Hz",
+      "1ms GtG、全陣列區域控光、峰值亮度 750 nits、DisplayHDR 600",
+      "DCI-P3 95% 以上、G-SYNC Compatible、VRR、PS5 Auto HDR Tone Mapping",
+      "HDMI 2.1 x2、DisplayPort 2.1 UHBR10 x1、USB Hub",
+      "重量：未標示（台灣官方購物頁未明確列出本體淨重）"
+    ],
+    "description": "Sony INZONE M9 II 以 4K 160Hz、全陣列背光與 PS5 專屬協同功能，補進高階主機／PC 雙用螢幕選擇。",
+    "pros": [
+      "4K 160Hz、DisplayHDR 600 與全陣列控光兼顧遊戲及 HDR",
+      "雙 HDMI 2.1、DP 2.1 與 VRR 適合 PC、PS5 共用",
+      "Sony 台灣官方直售、免費宅配與 36 個月保固"
+    ],
+    "cons": [
+      "價格高於一般 27 吋 4K IPS",
+      "官方購物頁未明確列本體淨重，支架規劃前仍要查保證書或實機",
+      "不是 OLED，暗場光暈仍取決於區域控光表現"
+    ],
+    "bestFor": "需要一台同時接高階 PC 與 PS5，並重視 4K 高刷新、HDR 與台灣官方保固的人。",
+    "recommendation": "Sony 日系電競補強：規格與官方售後完整，但屬高價位，購買前應確認桌深、顯示卡輸出與 VESA 支架承重。",
+    "score": 90,
+    "voltage": "原廠 AC 變壓器輸入 100–240V、50/60Hz；台灣官方公司貨",
+    "warranty": "Sony 台灣官方購物頁明載 36 個月保固",
+    "tags": [
+      "27吋",
+      "4K",
+      "160Hz",
+      "全陣列背光",
+      "HDMI 2.1",
+      "PS5"
+    ],
+    "releaseDate": "2024-10-08",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-08-14",
+      "note": "已查 Sony 台灣官方購物頁及 exact-model 價格搜尋；本輪可重現現價為 NT$26,990，搜尋到的活動數字無法在具日期的可信新品原頁重現，因此不以現價或摘要推定史低。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-08-14",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"SDM-27U9M2\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22SDM-27U9M2%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "PTT",
+          "query": "site:ptt.cc \"SDM-27U9M2\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22SDM-27U9M2%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "ptt.cc"
+        }
+      ]
+    }
+  },
+  {
+    "id": "monitor-panasonic-ts-27gf40ctk",
+    "category": "monitor",
+    "rank": 60,
+    "topPick": false,
+    "budget": "balanced",
+    "channel": "tw",
+    "brand": "Panasonic",
+    "model": "TS-27GF40CTK",
+    "name": "27 吋 4K 160Hz／FHD 320Hz Fast IPS 電競螢幕",
+    "price": {
+      "currency": "TWD",
+      "amount": 12900,
+      "converted": 12900,
+      "confidence": "Panasonic 台灣官方商城 2026-08-14 gaming monitor 分類頁公開會員優惠價",
+      "basis": "retailer_current"
+    },
+    "image": "https://panasonic.com/content/dam/panasonic/tw/zh/pim/dam/TS/TS-27G/TS-27GF40CTK/ast-3334250.png",
+    "buyUrl": "https://pstw.panasonic.com.tw/Shop/Product/gamingmonitor?Ordery=MAXPRICE",
+    "buyLabel": "Panasonic 台灣官方商城會員價",
+    "installation": {
+      "status": "not_stated",
+      "note": "Panasonic 官方商城頁未將桌面組裝或 VESA 壁掛施工列入售價；如改用支架，需另查 VESA、承重與施工條件。"
+    },
+    "specs": [
+      "27 吋 4K Fast IPS；4K 160Hz／FHD 320Hz 雙模式",
+      "1ms、Adaptive-Sync、HDR 模式、DCI-P3 90%（典型值）",
+      "HDMI、DisplayPort；底座支援高度與角度調整",
+      "尺寸：寬 61 x 深 21.5 x 高 53.5 cm（含底座）",
+      "重量：5 kg（官方產品頁淨重）"
+    ],
+    "description": "Panasonic 首波台灣電競螢幕，以 4K 160Hz 與 FHD 320Hz 雙模式，在單機上兼顧畫質工作區與競技速度。",
+    "pros": [
+      "4K 160Hz／FHD 320Hz 雙模式用途彈性高",
+      "官方明列尺寸與 5kg 淨重，方便桌面及支架規劃",
+      "Panasonic 台灣官方商城有公開現價"
+    ],
+    "cons": [
+      "官方 DCI-P3 典型值 90%，不屬專業廣色域定位",
+      "320Hz 需切換至 FHD，不能同時維持 4K",
+      "新產品線的長期使用評價仍少"
+    ],
+    "bestFor": "希望同一台螢幕在 4K 單機／創作與 FHD 高刷新競技間切換的人。",
+    "recommendation": "Panasonic 日系螢幕補強：雙模式規格清楚且官方現售，但不因品牌直接取代既有 Top Pick。",
+    "score": 89,
+    "voltage": "原廠適配器輸出 19V／3.42A；BSMI 驗證登錄 R31417、證書 CI315064175992；台灣官方公司貨",
+    "warranty": "Panasonic 台灣公司貨；期限依官方商城與保證書",
+    "tags": [
+      "27吋",
+      "4K 160Hz",
+      "FHD 320Hz",
+      "Fast IPS",
+      "雙模式",
+      "5kg"
+    ],
+    "releaseDate": "2026-04-29",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-08-14",
+      "note": "已查 Panasonic 官方產品頁、官方商城及 exact-model 價格搜尋；目前只能重現官方商城 NT$12,900，尚無具日期且可公開重現的更低可信新品價。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-08-14",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"TS-27GF40CTK\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22TS-27GF40CTK%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "PTT",
+          "query": "site:ptt.cc \"TS-27GF40CTK\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22TS-27GF40CTK%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "ptt.cc"
         }
       ]
     }

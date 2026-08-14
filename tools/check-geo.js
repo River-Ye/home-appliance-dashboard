@@ -402,10 +402,29 @@ function assertCategoryPageContracts(categories, products, meta) {
     assert(topFive.length === 5, `${file} cannot derive five recommendations from source products`);
     const normalizedText = text.replace(/[,，]/g, "");
     for (const product of topFive) {
+      const productAnchorId = `product-${String(product.id).replace(/[^a-zA-Z0-9_-]/g, "-")}`;
+      const productArticle = markup.match(new RegExp(`<article id="${productAnchorId}"[\\s\\S]*?</article>`, "i"))?.[0] || "";
+      const productArticleText = visibleText(productArticle);
+      assert(productArticleText, `${file} is missing the editorial card for ${product.id}`);
       for (const value of [product.brand, product.model, product.bestFor, product.recommendation, product.pros[0], product.cons[0]]) {
         assert(normalizedText.includes(String(value).replace(/[,，]/g, "")), `${file} is missing source-backed content for ${product.id}: ${value}`);
       }
       assert(normalizedText.includes(String(product.price.amount)), `${file} is missing the source price for ${product.id}`);
+      if (product.price?.basis === "official_suggested") {
+        assert(productArticleText.includes("官方建議售價"), `${file} must label ${product.id} as an official suggested price`);
+        assert(productArticleText.includes("非通路成交價"), `${file} must disclose that ${product.id} is not a retailer transaction price`);
+        assert(productArticleText.includes("查看官方資料"), `${file} must link ${product.id} as official data`);
+        assert(!productArticleText.includes("查核時價格"), `${file} must not call ${product.id} a checked retailer price`);
+      } else if (product.price?.basis === "retailer_current") {
+        assert(productArticleText.includes("查核時價格") && productArticleText.includes("通路現價"), `${file} must label ${product.id} as a retailer-current price`);
+      } else {
+        assert(productArticleText.includes("公開售價") && productArticleText.includes("價格基準未標示"), `${file} must disclose the unknown price basis for ${product.id}`);
+        assert(!productArticleText.includes("通路現價"), `${file} must not infer retailer-current pricing for ${product.id}`);
+      }
+      if (product.installation) {
+        assert(productArticleText.includes("安裝"), `${file} must expose the installation boundary for ${product.id}`);
+        assert(productArticleText.includes(product.installation.note), `${file} is missing the installation note for ${product.id}`);
+      }
       if (MEASUREMENT_PRIORITY_CATEGORIES.has(category.id)) {
         const measurementSpecs = product.specs.filter((spec) => /^(尺寸|重量)：/.test(spec));
         assert(measurementSpecs.some((spec) => spec.startsWith("尺寸：")), `${file} source product ${product.id} is missing its dimension spec`);

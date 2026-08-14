@@ -101,9 +101,9 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/2E9A754FA4-SP-22052141.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 19104,
-      "converted": 19104,
-      "confidence": "Yahoo購物中心 2026-08-13 exact-model 公開結構化價格"
+      "amount": 19900,
+      "converted": 19900,
+      "confidence": "Yahoo購物中心 2026-08-14 exact-model 公開結構化價格"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心",
@@ -359,9 +359,9 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/CA07AC9A88-SP-14769059.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 20152,
-      "converted": 20152,
-      "confidence": "PChome 2026-08-11 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 20610,
+      "converted": 20610,
+      "confidence": "PChome 2026-08-14 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -2050,6 +2050,96 @@
           "query": "site:reddit.com \"Samsung WA80F16B9BTW\" (problem OR issue OR defect OR negative review)",
           "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Samsung%20WA80F16B9BTW%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
           "targetHost": "reddit.com"
+        }
+      ]
+    }
+  },
+  {
+    "id": "washer-hitachi-sf-170zhv",
+    "category": "washer",
+    "rank": 25,
+    "topPick": false,
+    "budget": "balanced",
+    "channel": "tw",
+    "brand": "HITACHI",
+    "model": "SF-170ZHV",
+    "name": "17kg 變頻溫水直立式洗衣機",
+    "price": {
+      "currency": "TWD",
+      "amount": 19770,
+      "converted": 19770,
+      "confidence": "PChome 24h 2026-08-14 exact-model 新品頁公開售價，標示 InStock",
+      "basis": "retailer_current"
+    },
+    "image": "https://img.pchome.com.tw/cs/items/DMBM1PA900IE3KH/000001_1775150195.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DMBM1P-A900IE3KH",
+    "buyLabel": "PChome 24h購物",
+    "installation": {
+      "status": "included_basic",
+      "note": "PChome exact-model 頁明載配送包含運送、拆箱定位與舊機回收；偏遠地區、無電梯樓層、吊車／拆窗及特殊搬運另計，進排水與插座現場條件仍需先確認。"
+    },
+    "specs": [
+      "洗衣容量 17kg；直立式變頻",
+      "30／40／60°C 三段溫水洗、夜間靜音、ECO 智慧感測",
+      "預洗淨、槽自動清潔與多種洗衣行程",
+      "尺寸：寬 64 x 深 68.4 x 高 108.7 cm",
+      "本體重量 49 kg",
+      "110V / 60Hz；泰國製"
+    ],
+    "description": "HITACHI SF-170ZHV 是 17kg 大容量單洗直立機，以三段溫水與槽自動清潔補強日系洗衣機選擇。",
+    "pros": [
+      "17kg 容量適合大家庭與大量床單",
+      "三段溫水、夜間靜音與自動槽洗功能完整",
+      "PChome 明列配送定位與舊機回收範圍"
+    ],
+    "cons": [
+      "108.7cm 高且上掀蓋，需確認上方櫃體與操作空間",
+      "無烘衣功能，需另搭配晾衣或乾衣設備",
+      "偏遠、樓層或吊掛搬運可能加價"
+    ],
+    "bestFor": "需要 17kg 大容量、偏好直立操作與溫水洗，但不需要一體烘乾的家庭。",
+    "recommendation": "HITACHI 日系單洗補強：容量與溫水功能明確；進排水、地面水平、門寬及上掀空間要先量。",
+    "score": 87,
+    "voltage": "110V / 60Hz；需接地插座與穩定進排水",
+    "warranty": "HITACHI 台灣公司貨；依原廠保證書及通路條款",
+    "tags": [
+      "17kg",
+      "直立式",
+      "變頻",
+      "溫水洗",
+      "槽自動清潔"
+    ],
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-08-14",
+      "note": "已查 HITACHI 台灣官方頁、PChome 與 exact-model 價格搜尋；只能重現本輪 NT$19,770，未找到具日期的可信新品史低。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-08-14",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"SF-170ZHV\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22SF-170ZHV%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "PTT",
+          "query": "site:ptt.cc \"SF-170ZHV\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22SF-170ZHV%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "ptt.cc"
         }
       ]
     }

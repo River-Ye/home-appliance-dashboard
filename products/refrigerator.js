@@ -270,9 +270,9 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/4455399AAF-SP-22083802.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 13920,
-      "converted": 13920,
-      "confidence": "Yahoo購物中心 2026-08-13 exact-model 公開結構化價格"
+      "amount": 14500,
+      "converted": 14500,
+      "confidence": "Yahoo購物中心 2026-08-14 exact-model 公開結構化價格"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心",
@@ -2032,6 +2032,188 @@
           "query": "site:reddit.com \"SHARP SJ-DF58G-BK\" (problem OR issue OR defect OR \"negative review\")",
           "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22SHARP%20SJ-DF58G-BK%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
           "targetHost": "reddit.com"
+        }
+      ]
+    }
+  },
+  {
+    "id": "refrigerator-hitachi-r-hw620yj",
+    "category": "refrigerator",
+    "rank": 25,
+    "topPick": false,
+    "budget": "premium",
+    "channel": "tw",
+    "brand": "HITACHI",
+    "model": "R-HW620YJ",
+    "name": "614 公升日製六門琉璃變頻冰箱",
+    "price": {
+      "currency": "TWD",
+      "amount": 80868,
+      "converted": 80868,
+      "confidence": "全電商 2026-08-14 exact-model 新品頁公開特價；原價 NT$87,900",
+      "basis": "retailer_current"
+    },
+    "image": "https://b2eimg.pxec.com.tw/PX-PROD/Vendor/200290/a7bf9af630504e6aae7f3048b0b2ff2f",
+    "buyUrl": "https://pxbox.es.pxmart.com.tw/product/803424",
+    "buyLabel": "全電商",
+    "installation": {
+      "status": "included_basic",
+      "note": "全電商 exact-model 頁明載商品價格已含配送與基本安裝；偏遠地區、無電梯樓層搬運及其他加價由廠商聯繫時說明，並應先確認門寬、電梯／樓梯動線與舊機回收。"
+    },
+    "specs": [
+      "總容量 614L（冷藏 316L／製冰 21L／上層冷凍 34L／冷凍 128L／蔬果 115L）",
+      "六門日製；白金真空睡眠冰溫室約 -1°C、低溫冷藏約 2°C",
+      "尺寸：寬 68.5 x 深 73.8 x 高 183.3 cm",
+      "建議散熱間距：左右各 0.5cm、上方 5cm；官方標示後方 0cm",
+      "自動感應急速冷凍、三層大容量冷凍室、熱食免放涼",
+      "一級能源效率；月耗電 23 度、年耗電 276 度",
+      "110V / 60Hz；淨重 106kg，需先確認門寬、搬運動線與舊機回收"
+    ],
+    "description": "HITACHI 日本製 614L 六門旗艦，以真空冰溫、低溫冷藏、急速冷凍與三層冷凍收納，兼顧高階保鮮和 68.5cm 窄身寬度。",
+    "pros": [
+      "614L 容量中整合真空冰溫、低溫冷藏與 128L 下層冷凍室",
+      "68.5cm 機身寬度相對容易配置，且官方本體尺寸、重量與散熱間距完整",
+      "日本製、一級能效與 110V／60Hz 台灣規格"
+    ],
+    "cons": [
+      "價格屬高階帶，且 106kg 機重仍需事先確認電梯、樓梯與門寬",
+      "73.8cm 深、183.3cm 高，櫃體與上方散熱空間要先實測",
+      "基本安裝以外的偏遠配送、無電梯樓層與特殊搬運可能另計"
+    ],
+    "bestFor": "想要日本製六門、真空冰溫與大容量冷凍，且廚房可容納 68.5 x 73.8 x 183.3cm 機身的家庭。",
+    "recommendation": "日系六門旗艦補強：R-HW620YJ 的 614L 容量、真空冰溫與一級能效完整，但購買前要把 106kg 搬運、散熱與門寬列為必要場勘項目。",
+    "score": 91,
+    "voltage": "110V / 60Hz；大型家電需確認獨立插座、散熱、搬運門寬與舊機回收",
+    "warranty": "全機 1 年；機板與壓縮機組 3 年；馬達 5 年（依 HITACHI 台灣及通路條款）",
+    "tags": [
+      "614L",
+      "日本製",
+      "六門",
+      "真空冰溫",
+      "一級能效",
+      "110V"
+    ],
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-08-14",
+      "note": "已查 HITACHI 台灣官方 exact-model 頁、全電商與 exact-model 價格搜尋；官方頁未提供上市日期，通路僅能驗證本輪現價 NT$80,868，未找到同型號可公開重現且具日期的可信新品歷史價格，因此不以現價推定史低。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-08-14",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"R-HW620YJ\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22R-HW620YJ%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "PTT",
+          "query": "site:ptt.cc \"R-HW620YJ\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22R-HW620YJ%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "ptt.cc"
+        }
+      ]
+    }
+  },
+  {
+    "id": "refrigerator-mitsubishi-mr-wx53c",
+    "category": "refrigerator",
+    "rank": 26,
+    "topPick": false,
+    "budget": "premium",
+    "channel": "tw",
+    "brand": "Mitsubishi Electric",
+    "model": "MR-WX53C",
+    "name": "525L 日製六門玻璃鏡面變頻冰箱",
+    "price": {
+      "currency": "TWD",
+      "amount": 62230,
+      "converted": 62230,
+      "confidence": "雅光電器 2026-08-14 exact-model 新品頁公開售價並標示尚有庫存",
+      "basis": "retailer_current"
+    },
+    "image": "https://www.mitsubishielectric.com.tw/product1_list/home/refrigerator/images/mrwx53c_pd1.png?t=1728880768",
+    "buyUrl": "https://www.yk01.com.tw/products/mrwx53c",
+    "buyLabel": "雅光電器",
+    "installation": {
+      "status": "not_stated",
+      "note": "雅光 exact-model 現售頁未明確說明價格是否含基本安裝；大型家電配送定位、舊機回收、偏遠與無電梯樓層加價須下單前確認。"
+    },
+    "specs": [
+      "總容量 525L、日製六門玻璃鏡面",
+      "全室獨立、-3～0°C 超冰保鮮 D、約 -7°C 瞬冷凍",
+      "三色 LED 蔬果保鮮、製冰給水管路可拆洗",
+      "尺寸：寬 65 x 深 69.9 x 高 182.1 cm",
+      "一級能源效率、約 15dB 靜音；台灣 110V / 60Hz"
+    ],
+    "description": "Mitsubishi Electric MR-WX53C 以 65cm 窄身、六門獨立分區與可拆洗製冰管路，補入日製中大型冰箱。",
+    "pros": [
+      "65cm 寬容納 525L，適合較窄冰箱位",
+      "六室獨立、超冰保鮮 D 與瞬冷凍兼顧分類保存",
+      "製冰水路可拆洗，官方本體尺寸明確"
+    ],
+    "cons": [
+      "高 182.1cm、深 69.9cm，仍需量門寬與櫃體深度",
+      "玻璃門不能吸一般磁鐵",
+      "通路售價未明確說明基本安裝與特殊搬運範圍"
+    ],
+    "bestFor": "廚房冰箱位寬約 65cm、重視日製六門分區與製冰清潔的家庭。",
+    "recommendation": "三菱電機日系冰箱補強：窄身容量與分區是優勢；搬運、散熱、玻璃門使用習慣及安裝費要先確認。",
+    "score": 88,
+    "voltage": "110V / 60Hz；大型家電需確認接地、散熱與搬運動線",
+    "warranty": "台灣三菱電機公司貨；依原廠保證書與通路條款",
+    "tags": [
+      "525L",
+      "日本製",
+      "六門",
+      "65cm窄身",
+      "超冰保鮮D",
+      "瞬冷凍"
+    ],
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "found",
+      "amount": 57310,
+      "currency": "TWD",
+      "converted": 57310,
+      "sourceUrl": "https://go.shopping.friday.tw/event/202402/20240219-appliance/index.html",
+      "sourceTitle": "friDay 購物 2024 家電活動：Mitsubishi MR-WX53C",
+      "evidenceSnippet": "2024-02 活動頁的 exact-model 商品列公開顯示 MR-WX53C 活動價 NT$57,310。",
+      "sourceKind": "retailer_promo",
+      "confidence": "medium",
+      "checkedAt": "2026-08-14",
+      "note": "採用具日期路徑的可信新品通路公開活動價；排除會員個人券、信用卡回饋、點數、二手、展示與福利品。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-08-14",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"MR-WX53C\" (災情 OR 問題 OR 故障 OR 異音)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22MR-WX53C%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E7%95%B0%E9%9F%B3)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "PTT",
+          "query": "site:ptt.cc \"MR-WX53C\" (災情 OR 問題 OR 故障 OR 異音)",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22MR-WX53C%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E7%95%B0%E9%9F%B3)",
+          "targetHost": "ptt.cc"
         }
       ]
     }

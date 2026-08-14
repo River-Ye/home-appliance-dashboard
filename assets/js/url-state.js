@@ -9,6 +9,7 @@
   const queryKeys = {
     search: "q",
     category: "category",
+    type: "type",
     brand: "brand",
     budget: "budget",
     channel: "channel",
@@ -59,9 +60,14 @@
     applyFilterParam(params, "budget");
     applyFilterParam(params, "channel");
     applyFilterParam(params, "sort");
+    const requestedType = params.get(queryKeys.type);
+    applyFilterParam(params, "type");
     applyFilterParam(params, "brand");
     filters.ensureSelectedBrandIsAvailable();
-    if (categorySource === "bootstrap") {
+    filters.ensureSelectedTypeIsAvailable();
+    const invalidType = params.has(queryKeys.type)
+      && (state.type === "all" || state.type !== requestedType);
+    if (categorySource === "bootstrap" || invalidType) {
       syncToQuery();
     }
   }
@@ -80,6 +86,7 @@
       params.set(queryKeys.search, search);
     }
     appendIfActive(params, "category", "all");
+    appendIfActive(params, "type", "all");
     appendIfActive(params, "brand", "all");
     appendIfActive(params, "budget", "all");
     appendIfActive(params, "channel", "all");

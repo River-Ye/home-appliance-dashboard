@@ -2,6 +2,17 @@
   const dashboard = globalThis.applianceDashboard;
   const { categories, products, state, constants, utils } = dashboard;
   let lazyLoadingPausedUntil = 0;
+  const typeOptionsByCategory = {
+    aircon: [
+      { value: "cooling_only", label: "冷專", keywords: "冷專 cooling only" },
+      { value: "heat_cool", label: "冷暖", keywords: "冷暖 heat cool" },
+    ],
+    waterheater: [
+      { value: "gas", label: "瓦斯", keywords: "gas 瓦斯 天然氣 液化石油氣" },
+      { value: "electric", label: "電熱", keywords: "electric 電熱 儲熱 瞬熱" },
+      { value: "heat_pump", label: "熱泵", keywords: "heat pump 熱泵" },
+    ],
+  };
 
   function defaultSortCompare(a, b) {
     const catDiff = categories.findIndex((category) => category.id === a.category)
@@ -47,6 +58,7 @@
     const queryTokens = utils.searchTokens(state.search);
     return sortedProducts(products.filter((product) => {
       if (state.category !== "all" && product.category !== state.category) return false;
+      if (state.type !== "all" && product.type !== state.type) return false;
       if (state.brand !== "all" && product.brand !== state.brand) return false;
       if (state.budget !== "all" && product.budget !== state.budget) return false;
       if (state.channel !== "all" && product.channel !== state.channel) return false;
@@ -115,6 +127,15 @@
     }
   }
 
+  function typeFilterAvailable() {
+    return Object.hasOwn(typeOptionsByCategory, state.category);
+  }
+
+  function ensureSelectedTypeIsAvailable() {
+    const availableValues = (typeOptionsByCategory[state.category] || []).map((option) => option.value);
+    if (!availableValues.includes(state.type)) state.type = "all";
+  }
+
   function filterOptions(name) {
     if (name === "category") {
       return [
@@ -135,6 +156,13 @@
           label: brand,
           keywords: brand,
         })),
+      ];
+    }
+
+    if (name === "type") {
+      return [
+        { value: "all", label: "全部型態", keywords: "all" },
+        ...(typeOptionsByCategory[state.category] || []),
       ];
     }
 
@@ -179,6 +207,7 @@
     if (name === "category") {
       state.category = value;
       ensureSelectedBrandIsAvailable();
+      ensureSelectedTypeIsAvailable();
     } else {
       state[name] = value;
     }
@@ -187,6 +216,7 @@
   function activeAdvancedFilterCount() {
     return [
       state.category !== "all",
+      state.type !== "all",
       state.brand !== "all",
       state.budget !== "all",
       state.channel !== "all",
@@ -207,6 +237,8 @@
     loadAllProducts,
     brandOptionsForCurrentCategory,
     ensureSelectedBrandIsAvailable,
+    typeFilterAvailable,
+    ensureSelectedTypeIsAvailable,
     filterOptions,
     selectedFilterOption,
     defaultFilterValue,

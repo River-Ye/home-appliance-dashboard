@@ -344,8 +344,8 @@
     "price": {
       "currency": "USD",
       "amount": 119.99,
-      "converted": 3864,
-      "confidence": "SharkNinja 官方 2026-07-21 來源價；ExchangeRate-API 2026-08-13 匯率換算"
+      "converted": 3854,
+      "confidence": "SharkNinja 官方 2026-07-21 來源價；ExchangeRate-API 2026-08-14 匯率換算"
     },
     "image": "https://ak1.ostkcdn.com/images/products/is/images/direct/d1c25153baa2aa99eae7831be826d2a51d87c485/Ninja-BN701-Professional-Plus-Blender-with-Auto-iQ.jpg",
     "buyUrl": "https://www.sharkninja.com/ninja-professional-plus-blender-with-auto-iq/BN701.html",
@@ -1487,8 +1487,8 @@
     "name": "多功能變頻輕音冷熱調理機",
     "price": {
       "currency": "TWD",
-      "amount": 10915,
-      "converted": 10915,
+      "amount": 11490,
+      "converted": 11490,
       "confidence": "PChome 2026-08-14 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAY4YA900I3ILD/000001_1783328441.jpg",
@@ -1948,6 +1948,95 @@
           "query": "site:reddit.com \"Vitamix E310\" (problem OR issue OR defect OR negative review)",
           "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22Vitamix%20E310%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
           "targetHost": "reddit.com"
+        }
+      ]
+    }
+  },
+  {
+    "id": "blender-panasonic-mx-hg4401",
+    "category": "blender",
+    "rank": 25,
+    "topPick": false,
+    "budget": "value",
+    "channel": "tw",
+    "brand": "Panasonic",
+    "model": "MX-HG4401",
+    "name": "冷熱兩用降噪破壁調理機",
+    "price": {
+      "currency": "TWD",
+      "amount": 4667,
+      "converted": 4667,
+      "confidence": "PChome 24h 2026-08-14 exact-model 新品頁公開售價",
+      "basis": "retailer_current"
+    },
+    "image": "https://img.pchome.com.tw/cs/items/DMAYEUA900K4DML/000001_1781585781.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DMAYEU-A900K4DML",
+    "buyLabel": "PChome 24h購物",
+    "installation": {
+      "status": "not_stated",
+      "note": "PChome 商品頁未列安裝服務；本品為檯面式調理機，需自行組裝杯體並依說明書確認耐熱容量與清潔方式。"
+    },
+    "specs": [
+      "冷熱兩用、六葉不鏽鋼刀、最高約 21,000 rpm",
+      "10 段轉速、5 段溫度與自動料理行程",
+      "玻璃杯總容量 1.6L；冷飲上限 1.2L／熱飲上限 1.0L",
+      "尺寸：寬 20.6 x 深 24.7 x 高 39.9 cm；重量 5 kg",
+      "110V / 60Hz；加熱 800W、攪拌 450W"
+    ],
+    "description": "Panasonic MX-HG4401 以冷熱料理、降噪罩與玻璃杯體，補進日系中價破壁調理機。",
+    "pros": [
+      "冷飲、熱湯與豆漿等行程整合",
+      "容量、尺寸、重量與功率資料完整",
+      "台灣 110V／60Hz 公司貨且 PChome 現售"
+    ],
+    "cons": [
+      "玻璃杯與整機 5kg，搬洗較費力",
+      "熱飲可用容量只有 1.0L",
+      "降噪不代表無聲，高轉速仍有運轉音"
+    ],
+    "bestFor": "想做濃湯、豆漿與冰沙，並重視玻璃杯及降噪設計的小家庭。",
+    "recommendation": "Panasonic 日系破壁機補強：價格與冷熱功能均衡，但容量應依冷／熱上限分開評估。",
+    "score": 87,
+    "voltage": "110V / 60Hz；加熱 800W、攪拌 450W",
+    "warranty": "台灣公司貨 1 年保固（依 Panasonic 保證書）",
+    "tags": [
+      "冷熱兩用",
+      "降噪",
+      "玻璃杯",
+      "21,000rpm",
+      "110V"
+    ],
+    "releaseDate": "2026-05",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-08-14",
+      "note": "已查 Panasonic 台灣產品資訊、PChome 與 exact-model 價格搜尋；僅能重現本輪 NT$4,667，新上市期間尚無可公開驗證的更低可信新品價。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-08-14",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"MX-HG4401\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22MX-HG4401%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "PTT",
+          "query": "site:ptt.cc \"MX-HG4401\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22MX-HG4401%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "ptt.cc"
         }
       ]
     }

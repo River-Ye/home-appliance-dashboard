@@ -187,8 +187,8 @@
     "name": "Purifier Cool 二合一涼風智能空氣清淨機",
     "price": {
       "currency": "TWD",
-      "amount": 11662,
-      "converted": 11662,
+      "amount": 11900,
+      "converted": 11900,
       "confidence": "Yahoo購物中心 2026-08-14 exact-model 公開結構化價格"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAU3CA900K0T3T/000001_1779087672.jpg",
@@ -889,8 +889,8 @@
     "name": "Purifier Hot+Cool De-NOx 甲醛 NOx 偵測涼暖空氣清淨機",
     "price": {
       "currency": "TWD",
-      "amount": 25382,
-      "converted": 25382,
+      "amount": 25900,
+      "converted": 25900,
       "confidence": "Yahoo購物中心 2026-08-14 exact-model 公開結構化價格"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAU3CA900I7ORK/000001_1782810487.jpg",
@@ -967,8 +967,8 @@
     "name": "Purifier Hot+Cool 三合一涼暖智能空氣清淨機",
     "price": {
       "currency": "TWD",
-      "amount": 14602,
-      "converted": 14602,
+      "amount": 14900,
+      "converted": 14900,
       "confidence": "Yahoo購物中心 2026-08-14 exact-model 公開結構化價格"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAU3CA900J2MV6/000001_1767758338.jpg",
@@ -1045,8 +1045,8 @@
     "name": "Purifier Cool De-NOx 甲醛 NOx 偵測涼風空氣清淨機",
     "price": {
       "currency": "TWD",
-      "amount": 20482,
-      "converted": 20482,
+      "amount": 20900,
+      "converted": 20900,
       "confidence": "Yahoo購物中心 2026-08-14 exact-model 公開結構化價格"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAU3CA900HTKRG/000001_1767758629.jpg",
@@ -1513,8 +1513,8 @@
     "name": "PuriCare 超淨化大白空氣清淨機",
     "price": {
       "currency": "TWD",
-      "amount": 6810,
-      "converted": 6810,
+      "amount": 7399,
+      "converted": 7399,
       "confidence": "PChome 2026-08-14 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAU0BA900GI0Q1/000001_1763349087.jpg",
@@ -1902,6 +1902,183 @@
           "query": "site:reddit.com \"Philips AC0921/84\" (problem OR issue OR defect OR \"negative review\")",
           "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Philips%20AC0921%2F84%22%20%28problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22%29",
           "targetHost": "reddit.com"
+        }
+      ]
+    }
+  },
+  {
+    "id": "purifier-panasonic-f-p60ph",
+    "category": "purifier",
+    "rank": 25,
+    "topPick": false,
+    "budget": "balanced",
+    "channel": "tw",
+    "brand": "Panasonic",
+    "model": "F-P60PH",
+    "name": "nanoe X 48兆 複合圓筒濾網空氣清淨機",
+    "price": {
+      "currency": "TWD",
+      "amount": 12990,
+      "converted": 12990,
+      "confidence": "Panasonic 台灣官方商城 2026-08-14 exact-model 公開會員優惠價，結構化資料標示 InStock",
+      "basis": "retailer_current"
+    },
+    "image": "https://pstw.panasonic.com.tw/shop/Upload/Product/2025111714264991XMKT17.jpg",
+    "buyUrl": "https://pstw.panasonic.com.tw/Shop/product/detail/7ZZSVQV5CEAEXUG4G0P4/F-P60PH",
+    "buyLabel": "Panasonic 台灣官方商城會員價",
+    "installation": {
+      "status": "not_stated",
+      "note": "官方商城頁未列到府安裝；本品為可移動式清淨機，使用者需依說明書保留進出風空間並自行更換濾網。"
+    },
+    "specs": [
+      "nanoe X 48兆、複合圓筒濾網、IoT 連線",
+      "CADR 312 m³/h；官方適用坪數 12 坪基準（約 7–15 坪）",
+      "尺寸：寬 28 x 深 30.5 x 高 60 cm；重量 7.2 kg",
+      "360° 進氣、空氣品質顯示與多段運轉"
+    ],
+    "description": "Panasonic F-P60PH 以窄身圓筒、nanoe X 48兆與 App 連線，補進台灣現售日系中階清淨機。",
+    "pros": [
+      "28cm 窄身、360° 進氣，空間配置彈性高",
+      "CADR 與適用坪數由台灣官方明列",
+      "台灣官方商城可直接購買"
+    ],
+    "cons": [
+      "濾網耗材成本與更換週期需納入長期預算",
+      "CADR 適合中小空間，大客廳需重新估算換氣次數",
+      "官方現價未包含後續耗材"
+    ],
+    "bestFor": "約 7–15 坪、重視窄身外觀、空氣品質顯示與 App 管理的家庭。",
+    "recommendation": "Panasonic 日系清淨補強：官方規格與現售證據完整，選購仍應用實際坪數、CADR 與濾網成本比較。",
+    "score": 88,
+    "voltage": "台灣 110V / 60Hz 公司貨",
+    "warranty": "Panasonic 台灣公司貨；期限依官方商城與保證書",
+    "tags": [
+      "nanoe X",
+      "48兆",
+      "CADR 312",
+      "IoT",
+      "12坪"
+    ],
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-08-14",
+      "note": "已查 Panasonic 台灣官方商品頁、官方商城與 exact-model 價格搜尋；只重現本輪會員價 NT$12,990，沒有具日期且可重現的可信新品史低。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-08-14",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"F-P60PH\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22F-P60PH%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "PTT",
+          "query": "site:ptt.cc \"F-P60PH\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22F-P60PH%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "ptt.cc"
+        }
+      ]
+    }
+  },
+  {
+    "id": "purifier-daikin-mc655asct",
+    "category": "purifier",
+    "rank": 26,
+    "topPick": false,
+    "budget": "premium",
+    "channel": "tw",
+    "brand": "DAIKIN",
+    "model": "MC655ASCT",
+    "name": "15 坪雙重閃流空氣清淨機",
+    "price": {
+      "currency": "TWD",
+      "amount": 16900,
+      "converted": 16900,
+      "confidence": "PChome 24h 2026-08-14 exact-model 新品頁公開售價並標示 InStock",
+      "basis": "retailer_current"
+    },
+    "image": "https://img.pchome.com.tw/cs/items/DMAU04A900JHTHV/000001_1764136677.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DMAU04-A900JHTHV",
+    "buyLabel": "PChome 24h購物",
+    "installation": {
+      "status": "not_stated",
+      "note": "PChome exact-model 頁未列到府安裝；本品為可移動式清淨機，需依說明書留出進出風距離並自行維護濾網。"
+    },
+    "specs": [
+      "適用約 15 坪、CASR 6.72 cmm",
+      "雙重閃流放電、靜電 HEPA、Daikin Eye 空氣品質顯示",
+      "尺寸：寬 31.5 x 深 31.5 x 高 63 cm；重量 9.8 kg",
+      "噪音 19／25／34／48 dB；耗電 7／9／13／44W",
+      "App 連線、寵物模式；110V / 60Hz"
+    ],
+    "description": "Daikin MC655ASCT 以雙重閃流、靜電 HEPA 與 15 坪級風量，補進日系高階清淨機比較。",
+    "pros": [
+      "CASR 6.72 cmm 與 15 坪定位清楚",
+      "低速 19dB、四段耗電與噪音資料完整",
+      "App、寵物模式與污染顯示適合長期管理"
+    ],
+    "cons": [
+      "價格高於多數同坪數機種",
+      "9.8kg 搬動性普通",
+      "濾網壽命仍會受粉塵、寵物與使用時數影響"
+    ],
+    "bestFor": "中型客廳、寵物家庭，且願意為低速安靜與污染控制功能提高預算的人。",
+    "recommendation": "Daikin 日系清淨補強：強項是風量、閃流與監測，仍需比較濾網耗材及實際坪數。",
+    "score": 89,
+    "voltage": "110V / 60Hz",
+    "warranty": "台灣大金公司貨 3 年保固（依通路與原廠條款）",
+    "tags": [
+      "15坪",
+      "雙重閃流",
+      "靜電HEPA",
+      "App",
+      "寵物模式"
+    ],
+    "releaseDate": "2025-03-12",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-08-14",
+      "note": "已查台灣大金產品資料、PChome 與 exact-model 價格搜尋；現價 NT$16,900 可重現，但未找到具日期的可信新品史低。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-08-14",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"MC655ASCT\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22MC655ASCT%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "PTT",
+          "query": "site:ptt.cc \"MC655ASCT\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22MC655ASCT%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "ptt.cc"
         }
       ]
     }

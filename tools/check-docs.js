@@ -96,10 +96,10 @@ function main() {
     readme.includes(`檢查 ${categories.length} 類、${products.length} 筆、必要欄位`),
     "README check:data contract count is stale",
   );
-  assert(readme.includes("11 類尺寸與 4 類新增重量規格／證據對齊"), "README dimension/weight coverage is stale");
+  assert(readme.includes("13 類尺寸與 6 類新增重量規格／證據對齊"), "README dimension/weight coverage is stale");
   assert(index.includes("家電尺寸／重量查核證據"), "homepage dimension/weight evidence label is stale");
   assert(
-    agents.includes("`dimension_research.json` 同步保存 11 類商品的機身尺寸證據"),
+    agents.includes("`dimension_research.json` 同步保存 13 類商品的機身／組件尺寸證據"),
     "AGENTS dimension evidence coverage is stale",
   );
   assert(agents.includes("主機、重低音與後環繞需依官方明確資料分列"), "AGENTS soundbar component rule is missing");
@@ -133,6 +133,8 @@ function main() {
     ["purifier", "空氣清淨機"],
     ["fan", "電風扇"],
     ["circulator", "循環扇"],
+    ["aircon", "冷氣"],
+    ["waterheater", "熱水器"],
   ];
   for (const [categoryId, label] of documentedCategoryCounts) {
     const count = products.filter((product) => product.category === categoryId).length;

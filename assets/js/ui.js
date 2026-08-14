@@ -76,6 +76,7 @@
       const selected = filters.selectedFilterOption(name);
       const labelPrefix = {
         category: "分類",
+        type: "型態",
         brand: "品牌",
         budget: "選購定位",
         channel: "通路",
@@ -245,6 +246,8 @@
     const mobile = isMobileFilterLayout();
     const open = !mobile || state.mobileFiltersOpen;
     const activeCount = activeFilterItems().length;
+    const typeField = document.getElementById("typeFilterField");
+    if (typeField) typeField.hidden = !filters.typeFilterAvailable();
     toolbar.classList.toggle("filters-open", mobile && open);
     panel.hidden = !open;
     toggle.hidden = !mobile;
@@ -258,6 +261,7 @@
       filters.resetRenderedProductLimit();
     }
     filters.ensureSelectedBrandIsAvailable();
+    filters.ensureSelectedTypeIsAvailable();
     const visible = filters.filteredProducts();
     const cards = filters.renderedProducts(visible);
     renderMeta();
@@ -284,6 +288,7 @@
   function setCategory(category) {
     state.category = category;
     filters.ensureSelectedBrandIsAvailable();
+    filters.ensureSelectedTypeIsAvailable();
     dashboard.combobox.syncControls(true);
     render({
       resetProducts: true,
@@ -294,6 +299,7 @@
 
   function resetFilters() {
     state.category = "all";
+    state.type = "all";
     state.brand = "all";
     state.budget = "all";
     state.channel = "all";
@@ -316,6 +322,7 @@
       return;
     }
     filters.ensureSelectedBrandIsAvailable();
+    filters.ensureSelectedTypeIsAvailable();
     dashboard.combobox.syncControls(true);
     dashboard.combobox.closeAllCombos();
     const focusTarget = name === "search"

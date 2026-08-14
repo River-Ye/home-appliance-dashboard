@@ -407,9 +407,9 @@
     "name": "無限續航滾筒洗地機器人上下水款",
     "price": {
       "currency": "TWD",
-      "amount": 25999,
-      "converted": 25999,
-      "confidence": "Yahoo購物中心 2026-08-13 exact-model 公開結構化價格"
+      "amount": 24700,
+      "converted": 24700,
+      "confidence": "Yahoo購物中心 2026-08-14 exact-model 公開結構化價格"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL0LA900JRDAS/000001_1771917633.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/ECOVACS-%E7%A7%91%E6%B2%83%E6%96%AF-DEEBOT-X11-PRO%E7%84%A1%E9%99%90%E7%BA%8C%E8%88%AA%E6%BB%BE%E7%AD%92%E6%B4%97%E5%9C%B0%E6%A9%9F%E5%99%A8%E4%BA%BA-%E6%8E%83%E5%9C%B0%E6%A9%9F%E5%99%A8%E4%BA%BA-11797803.html",
@@ -660,8 +660,8 @@
     "name": "超薄全覆蓋全能旗艦掃拖機器人",
     "price": {
       "currency": "TWD",
-      "amount": 13499,
-      "converted": 13499,
+      "amount": 14999,
+      "converted": 14999,
       "confidence": "PChome 2026-08-14 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL0LA900IDIPA/000001_1763087835.jpg",
@@ -738,8 +738,8 @@
     "name": "強清潔全能掃拖機器人",
     "price": {
       "currency": "TWD",
-      "amount": 11699,
-      "converted": 11699,
+      "amount": 12999,
+      "converted": 12999,
       "confidence": "PChome 2026-08-14 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL0LA900J0KF3/000001_1765762606.jpg",
@@ -816,8 +816,8 @@
     "name": "AI 藍光辨識超薄掃拖旗艦機低矮版",
     "price": {
       "currency": "TWD",
-      "amount": 29329,
-      "converted": 29329,
+      "amount": 32588,
+      "converted": 32588,
       "confidence": "PChome 2026-08-14 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL3EA900JZ3SP/000001_1780033309.jpg",
@@ -1051,8 +1051,8 @@
     "price": {
       "currency": "EUR",
       "amount": 999,
-      "converted": 37102,
-      "confidence": "Boulanger 2026-07-21 來源價；ExchangeRate-API 2026-08-13 匯率換算"
+      "converted": 37008,
+      "confidence": "Boulanger 2026-07-21 來源價；ExchangeRate-API 2026-08-14 匯率換算"
     },
     "image": "https://boulanger.scene7.com/is/image/Boulanger/6972075738536_h_f_l_0?fmt=png-alpha&wid=640&hei=640",
     "buyUrl": "https://www.boulanger.com/ref/1238998",
@@ -1129,8 +1129,8 @@
     "price": {
       "currency": "USD",
       "amount": 551.69,
-      "converted": 17765,
-      "confidence": "Geekbuying 2026-07-21 來源價；ExchangeRate-API 2026-08-13 匯率換算"
+      "converted": 17722,
+      "confidence": "Geekbuying 2026-07-21 來源價；ExchangeRate-API 2026-08-14 匯率換算"
     },
     "image": "https://img.gkbcdn.com/p/2025-04-11/Narwal-Freo-Z10-Ultra-Robot-Vacuum-with-Base-Station-Gray-528438-0._w315_.jpg",
     "buyUrl": "https://www.geekbuying.com/item/Narwal-Freo-Z10-Ultra-Robot-Vacuum-with-Base-Station-Gray-528438.html",
@@ -1206,8 +1206,8 @@
     "name": "全能滾筒旗艦機皇掃拖機器人",
     "price": {
       "currency": "TWD",
-      "amount": 28692,
-      "converted": 28692,
+      "amount": 29292,
+      "converted": 29292,
       "confidence": "PChome 2026-08-14 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL0JA900JCCJT/000001_1782802020.jpg",
@@ -1390,8 +1390,8 @@
     "name": "旋風全能掃拖機器人",
     "price": {
       "currency": "TWD",
-      "amount": 15192,
-      "converted": 15192,
+      "amount": 15292,
+      "converted": 15292,
       "confidence": "PChome 2026-08-14 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL0JA900ITF88/000001_1782803241.jpg",
@@ -1780,8 +1780,8 @@
     "name": "極薄滾筒掃拖機器人旗艦版",
     "price": {
       "currency": "TWD",
-      "amount": 24681,
-      "converted": 24681,
+      "amount": 25980,
+      "converted": 25980,
       "confidence": "PChome 2026-08-14 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL5WA900JXBY3/000001_1776393356.jpg",
@@ -1858,8 +1858,8 @@
     "name": "極薄滾筒掃拖機器人",
     "price": {
       "currency": "TWD",
-      "amount": 16140,
-      "converted": 16140,
+      "amount": 16990,
+      "converted": 16990,
       "confidence": "PChome 2026-08-14 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL5WA900K13VT/000001_1779264098.jpg",
@@ -2093,8 +2093,8 @@
     "price": {
       "currency": "USD",
       "amount": 999.99,
-      "converted": 32200,
-      "confidence": "SharkNinja US 2026-07-21 來源價；ExchangeRate-API 2026-08-13 匯率換算"
+      "converted": 32123,
+      "confidence": "SharkNinja US 2026-07-21 來源價；ExchangeRate-API 2026-08-14 匯率換算"
     },
     "image": "https://assets.sharkninja.com/image/upload/f_auto/q_auto/SharkNinja-NA/RV2820ZE_01.jpg",
     "buyUrl": "https://www.sharkninja.com/shark-powerdetect-2-in-1-robot-vacuum-and-mop-with-nevertouch-pro-base/RV2820ZE.html",
@@ -2251,8 +2251,8 @@
     "price": {
       "currency": "USD",
       "amount": 399.99,
-      "converted": 12880,
-      "confidence": "Costco US 2026-07-21 來源價；ExchangeRate-API 2026-08-13 匯率換算"
+      "converted": 12849,
+      "confidence": "Costco US 2026-07-21 來源價；ExchangeRate-API 2026-08-14 匯率換算"
     },
     "image": "https://bfasset.costco-static.com/U447IH35/as/tkj772p4357mmh3bwz8kcq/1791272-847__1?auto=webp&format=jpg",
     "buyUrl": "https://www.costco.com/roborock-qx-revo-robot-vacuum-and-mop-with-multifunctional-dock.product.4000233271.html",
@@ -2497,8 +2497,8 @@
     "name": "ECOVACS DEEBOT T90 PRO OMNI",
     "price": {
       "currency": "TWD",
-      "amount": 18899,
-      "converted": 18899,
+      "amount": 20999,
+      "converted": 20999,
       "confidence": "PChome 2026-08-14 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL0LA900JWVON/000001_1776138874.jpg",
@@ -2581,8 +2581,8 @@
     "name": "ECOVACS DEEBOT X12 PRO OMNI",
     "price": {
       "currency": "TWD",
-      "amount": 24299,
-      "converted": 24299,
+      "amount": 26999,
+      "converted": 26999,
       "confidence": "PChome 2026-08-14 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL0LA900JS61Y/000001_1772592930.jpg",
@@ -2665,9 +2665,9 @@
     "name": "Xiaomi 掃拖機器人 H50 Pro",
     "price": {
       "currency": "TWD",
-      "amount": 9975,
-      "converted": 9975,
-      "confidence": "Yahoo購物中心 2026-08-01 exact-model 公開結構化價格"
+      "amount": 10499,
+      "converted": 10499,
+      "confidence": "Yahoo購物中心 2026-08-14 exact-model 公開結構化價格"
     },
     "image": "https://img.yec.tw/zp/MerchandiseImages/DBA14833A1-SP-22450109.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/%E5%B0%8F%E7%B1%B3-Xiaomi-%E6%8E%83%E6%8B%96%E6%A9%9F%E5%99%A8%E4%BA%BA-H50-Pro-12052496.html",
@@ -2733,6 +2733,99 @@
           "platform": "Reddit",
           "query": "\"Xiaomi H50 Pro\" (problem OR issue OR defect OR negative review)",
           "queryUrl": "https://www.reddit.com/search/?q=%22Xiaomi%20H50%20Pro%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "targetHost": "reddit.com"
+        }
+      ]
+    }
+  },
+  {
+    "id": "robot-hobot-legee-q10-pro",
+    "category": "robot",
+    "rank": 35,
+    "topPick": false,
+    "budget": "premium",
+    "channel": "tw",
+    "brand": "HOBOT",
+    "model": "LEGEE-Q10 PRO",
+    "name": "LEGEE-Q10 PRO 雷姬掃拖地機器人＋LuLu 洗布座",
+    "price": {
+      "currency": "TWD",
+      "amount": 19800,
+      "converted": 19800,
+      "confidence": "PChome 24h 2026-08-14 exact-model 新品頁公開價；建議售價 NT$29,800",
+      "basis": "retailer_current"
+    },
+    "image": "https://cs-a.ecimg.tw/items/DMBL0PA900IW7Y7/yt000001_1749100214.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DMBL0P-A900IW7Y7",
+    "buyLabel": "PChome 24h購物",
+    "installation": {
+      "status": "not_stated",
+      "note": "PChome exact-model 頁僅列廠商出貨與宅配到府，未標示安裝服務；LuLu 洗布座為水箱式自動清洗／補水／烘乾／充電座，應依原廠說明置於平坦乾燥處並預留插座與含導板深 48.6cm 的空間。"
+    },
+    "specs": [
+      "四合一吸塵、清掃、噴水、拖地；LEGEE SLAM 10.0 導航",
+      "7,000Pa 吸力；無纏繞吸口、ECO Compactor 五倍集塵壓縮",
+      "每分鐘 1,300 次往復拖地、8mm 振幅、600g 下壓力",
+      "拖布抬升 10mm；Corner Killer 伸縮邊拖；越障最高 20mm",
+      "主機尺寸：長 35 x 寬 35 x 高 9.75 cm；5200mAh 電池",
+      "塵盒 500ml、清水箱 320ml；最多儲存 5 張地圖",
+      "LuLu 洗布座 40°C 熱風烘乾；清水 3.2L／污水 2.8L；含導板尺寸 41 x 48.6 x 39 cm",
+      "主機變壓器與洗布座皆支援 100–240V、50/60Hz 輸入"
+    ],
+    "description": "台灣 HOBOT 旗艦掃拖組合，以高頻往復擦地、7,000Pa 吸力、伸縮邊拖和水箱式 LuLu 洗布座，提供免集塵袋的完整洗烘補水體驗。",
+    "pros": [
+      "每分鐘 1,300 次往復拖地與 600g 下壓力，硬地板擦拭特色明確",
+      "洗布座整合清洗、補水、40°C 烘乾與充電，不需安裝進排水",
+      "無纏繞吸口、五倍壓縮塵盒免集塵袋，降低耗材支出"
+    ],
+    "cons": [
+      "仍需人工倒塵盒與清污水箱，並定期清潔洗布座",
+      "Mobile01 有少數 exact-model 使用者回報水箱感測、未噴水、滴水、洗布座震動或中斷續掃問題，但作者與平台數均未達集中災情門檻",
+      "含導板深 48.6cm，擺放前需預留基座前方進出空間"
+    ],
+    "bestFor": "重視硬地板高頻擦拭、想避開集塵袋耗材，且願意自行倒塵與維護清污水箱的家庭。",
+    "recommendation": "HOBOT 台灣旗艦補強：Q10 Pro 的往復拖布和免集塵袋設計有明確差異；購買後建議在退換貨期內實測噴水、水箱偵測與中斷續掃。",
+    "score": 90,
+    "voltage": "主機與 LuLu 洗布座皆為 100–240V、50/60Hz 輸入；台灣適用",
+    "warranty": "HOBOT 台灣總代理和康生技提供 1 年保固（依原廠／總代理條款）",
+    "tags": [
+      "HOBOT",
+      "7,000Pa",
+      "往復拖地",
+      "LuLu洗布座",
+      "免集塵袋",
+      "台灣公司貨"
+    ],
+    "releaseDate": "2025-07-11",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-08-14",
+      "note": "已查 HOBOT 台灣官方規格、和康總代理上市與 exact-model 商品頁、PChome 及 exact-model 價格搜尋；PChome NT$19,800 與官方商城 NT$20,800 都是本輪現價，未找到可公開重現且具日期的可信新品歷史曲線，因此不推定史低。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-08-14",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"LEGEE-Q10 Pro\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22LEGEE-Q10%20Pro%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"LEGEE-Q10 Pro\" (problem OR issue OR defect OR \"negative review\")",
+          "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22LEGEE-Q10%20Pro%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
           "targetHost": "reddit.com"
         }
       ]
