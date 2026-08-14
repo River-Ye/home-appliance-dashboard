@@ -60,6 +60,7 @@ const {
   buildJapaneseBrandReview,
   hasTaiwanCompatiblePower,
 } = require("./japanese-brand-audit");
+const { carriedCategoryReviewMatchesCatalog } = require("./run-daily-catalog-maintenance");
 const { validateExplicitReview } = require("./mark-product-issue-review");
 const {
   canonicalWebsite,
@@ -1574,23 +1575,22 @@ function canonicalJapaneseBrand(value) {
   }[normalized] || null;
 }
 
-function validateJapaneseBrandReview(category, row, productById, dataDate, expectedReviews, failures) {
+function validateJapaneseBrandReview(category, row, productById, dataDate, expectedReviews, carriedReviewMatches, failures) {
   const reviews = Array.isArray(row?.japaneseBrandReview) ? row.japaneseBrandReview : [];
   assert(reviews.length === JAPANESE_BRAND_ROSTER.length, `${category.id} Japanese-brand review must contain ${JAPANESE_BRAND_ROSTER.length} rows`, failures);
+  assert(
+    carriedReviewMatches || JSON.stringify(reviews) === JSON.stringify(expectedReviews),
+    `${category.id} Japanese-brand review must match the current or carried same-date catalog baseline`,
+    failures,
+  );
   const byBrand = new Map(reviews.map((review) => [review.brand, review]));
   assert(byBrand.size === JAPANESE_BRAND_ROSTER.length, `${category.id} Japanese-brand review contains duplicate brands`, failures);
 
   for (const brand of JAPANESE_BRAND_ROSTER) {
     const review = byBrand.get(brand);
-    const expectedReview = expectedReviews.find((candidate) => candidate.brand === brand);
     const prefix = `${category.id} ${brand} Japanese-brand review`;
     assert(review, `${prefix} is missing`, failures);
     if (!review) continue;
-    assert(
-      JSON.stringify(review) === JSON.stringify(expectedReview),
-      `${prefix} must match the current catalog and maintenance baseline`,
-      failures,
-    );
     assert(JAPANESE_BRAND_REVIEW_STATUSES.has(review.status), `${prefix} has invalid status: ${review.status}`, failures);
     assert(review.checkedAt === dataDate, `${prefix} checkedAt must equal ${dataDate}`, failures);
     assert(Array.isArray(review.officialSources) && review.officialSources.length > 0, `${prefix} requires officialSources`, failures);
@@ -1690,7 +1690,25 @@ function validateMaintenanceReport(root, categories, products, dataDate, failure
       baselineById,
       checkedAt: dataDate,
     });
-    validateJapaneseBrandReview(category, row, productById, dataDate, expectedReviews, failures);
+    const carriedReviewMatches = ["same_date_carried_forward", "mixed_current_and_carried_forward"]
+      .includes(report.categoryReviewProvenance)
+      && carriedCategoryReviewMatchesCatalog({
+        row,
+        category,
+        products,
+        baselineById,
+        maintenanceDate: dataDate,
+        maximumReviewedAt: report.checkedAt,
+      });
+    validateJapaneseBrandReview(
+      category,
+      row,
+      productById,
+      dataDate,
+      expectedReviews,
+      carriedReviewMatches,
+      failures,
+    );
   }
 
   const validateCompactAudit = (name, audit, expectedIds, verifiedKey, expectedExceptionCount) => {
