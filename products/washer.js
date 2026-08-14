@@ -789,9 +789,9 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/ae6170dd95-Gd-10609233.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 6590,
-      "converted": 6590,
-      "confidence": "PChome 2026-08-01 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 6890,
+      "converted": 6890,
+      "confidence": "PChome 2026-08-14 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "channel": "tw",
     "buyLabel": "PChome",

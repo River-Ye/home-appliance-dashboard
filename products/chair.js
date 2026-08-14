@@ -491,9 +491,9 @@
     "name": "Fujin 風靈網狀人體工學電競椅",
     "price": {
       "currency": "TWD",
-      "amount": 11691,
-      "converted": 11691,
-      "confidence": "PChome 2026-08-08 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 11091,
+      "converted": 11091,
+      "confidence": "PChome 2026-08-14 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DCBT0KA900GSDTK/000001_1762771347.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DCBT0K-A900GSDTK",

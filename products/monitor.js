@@ -1899,9 +1899,9 @@
     "name": "27 型 WQHD 360Hz QD-OLED 電競螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 18900,
-      "converted": 18900,
-      "confidence": "Yahoo購物中心 2026-08-13 exact-model 公開結構化價格"
+      "amount": 17955,
+      "converted": 17955,
+      "confidence": "Yahoo購物中心 2026-08-14 exact-model 公開結構化價格"
     },
     "image": "https://cs-a.ecimg.tw/items/DSBC1ZA900HE04M/000001_1757303897.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/MSI%E5%BE%AE%E6%98%9F-MPG-271QRX-QD-OLED-27%E5%9E%8B-2K-360Hz-HDR%E9%9B%BB%E7%AB%B6%E8%9E%A2%E5%B9%95-10958143.html",
@@ -3293,9 +3293,9 @@
     "name": "49 型 Odyssey OLED G9 Dual QHD 240Hz 曲面螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 36900,
-      "converted": 36900,
-      "confidence": "PChome 2026-08-13 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 34999,
+      "converted": 34999,
+      "confidence": "PChome 2026-08-14 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBM10A900HZCPE/000001_1781766568.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBM10-A900HZCPE",
@@ -3539,9 +3539,9 @@
     "name": "57 型 Odyssey Neo G9 Dual UHD 240Hz Mini LED 曲面螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 69900,
-      "converted": 69900,
-      "confidence": "PChome 2026-08-13 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 66500,
+      "converted": 66500,
+      "confidence": "PChome 2026-08-14 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBM10A900GQLSE/000001_1783054239.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBM10-A900GQLSE",
@@ -3621,9 +3621,9 @@
     "name": "34 型 21:9 IPS Black 120Hz USB-C 商務曲面螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 37893,
-      "converted": 37893,
-      "confidence": "PChome 2026-08-01 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 39888,
+      "converted": 39888,
+      "confidence": "PChome 2026-08-14 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABOMA900HIJN3/000001_1716881117.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DSABOM-A900HIJN3",
