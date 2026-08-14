@@ -1,55 +1,59 @@
-const EXPECTED_CATEGORY_COUNT = 27;
-const EXPECTED_PRODUCT_COUNT = 765;
+const EXPECTED_CATEGORY_COUNT = 29;
+const EXPECTED_PRODUCT_COUNT = 859;
 const MIN_PRODUCTS_PER_CATEGORY = 20;
 const EXPECTED_CATEGORY_PRODUCT_COUNTS = new Map([
   ["tv", 34],
-  ["soundbar", 27],
-  ["fan", 22],
+  ["soundbar", 28],
+  ["fan", 23],
   ["circulator", 24],
-  ["dehumidifier", 24],
-  ["purifier", 24],
-  ["robot", 34],
-  ["vacuum", 26],
-  ["washer", 24],
-  ["dryer", 22],
-  ["washerdryer", 28],
+  ["dehumidifier", 25],
+  ["purifier", 26],
+  ["aircon", 30],
+  ["robot", 35],
+  ["vacuum", 27],
+  ["washer", 25],
+  ["dryer", 23],
+  ["washerdryer", 29],
   ["garmentcare", 20],
-  ["refrigerator", 24],
-  ["cookware", 26],
+  ["refrigerator", 26],
+  ["cookware", 27],
   ["knife", 22],
-  ["blender", 24],
+  ["blender", 25],
   ["coffee", 24],
   ["oven", 25],
-  ["waterdispenser", 37],
-  ["dishwasher", 26],
+  ["waterdispenser", 39],
+  ["dishwasher", 27],
+  ["waterheater", 45],
   ["bidet", 20],
   ["smartlock", 48],
   ["wifi", 51],
   ["standingdesk", 26],
   ["chair", 26],
-  ["monitor", 54],
+  ["monitor", 56],
   ["monitorarm", 23],
 ]);
 const DATE_PATTERN = /^(找不到|\d{4}(?:[-/.]\d{1,2}(?:[-/.]\d{1,2})?)?)$/;
 const WASHER_DRYER_CAPACITY_PATTERN = /^洗\/乾容量：\d+(?:\.\d+)?kg \/ \d+(?:\.\d+)?kg$/;
 const DIMENSION_CATEGORY_COUNTS = new Map([
   ["tv", 34],
-  ["soundbar", 27],
-  ["washer", 24],
-  ["dryer", 22],
-  ["washerdryer", 28],
+  ["soundbar", 28],
+  ["washer", 25],
+  ["dryer", 23],
+  ["washerdryer", 29],
   ["garmentcare", 20],
-  ["refrigerator", 24],
+  ["refrigerator", 26],
   ["coffee", 24],
   ["oven", 25],
-  ["dishwasher", 26],
+  ["dishwasher", 27],
   ["bidet", 20],
+  ["aircon", 30],
+  ["waterheater", 45],
 ]);
 const DIMENSION_CATEGORIES = new Set(DIMENSION_CATEGORY_COUNTS.keys());
 const EXPECTED_DIMENSION_PRODUCT_COUNT = [...DIMENSION_CATEGORY_COUNTS.values()]
   .reduce((sum, count) => sum + count, 0);
-const NEW_DIMENSION_CATEGORIES = new Set(["tv", "soundbar", "coffee", "oven", "dishwasher", "bidet"]);
-const MEASUREMENT_PRIORITY_CATEGORIES = new Set(["tv", "soundbar", "garmentcare", "coffee", "oven", "dishwasher", "bidet"]);
+const NEW_DIMENSION_CATEGORIES = new Set(["tv", "soundbar", "coffee", "oven", "dishwasher", "bidet", "aircon", "waterheater"]);
+const MEASUREMENT_PRIORITY_CATEGORIES = new Set(["tv", "soundbar", "garmentcare", "coffee", "oven", "dishwasher", "bidet", "aircon", "waterheater"]);
 const MEASUREMENT_VALUE_PATTERN = "\\d+(?:\\.\\d+)?(?:[-–／/]\\d+(?:\\.\\d+)?)?";
 const DIMENSION_SEGMENT_PATTERN = `(?:[^；]+ )?寬 ${MEASUREMENT_VALUE_PATTERN} x 深 ${MEASUREMENT_VALUE_PATTERN} x 高 ${MEASUREMENT_VALUE_PATTERN} cm`;
 const FORBIDDEN_MEASUREMENT_LABEL_PATTERN = "(?!.*(?:包裝|外箱|紙箱|毛重|gross|carton))";
@@ -57,14 +61,17 @@ const DIMENSION_PATTERN = new RegExp(`^尺寸：${FORBIDDEN_MEASUREMENT_LABEL_PA
 const DIMENSION_CONFIDENCE_VALUES = new Set(["high", "medium", "low", "not_found"]);
 const WEIGHT_CATEGORY_COUNTS = new Map([
   ["tv", 34],
-  ["soundbar", 27],
+  ["soundbar", 28],
   ["coffee", 24],
   ["oven", 25],
+  ["aircon", 30],
+  ["waterheater", 45],
 ]);
 const WEIGHT_CATEGORIES = new Set(WEIGHT_CATEGORY_COUNTS.keys());
 const EXPECTED_WEIGHT_PRODUCT_COUNT = [...WEIGHT_CATEGORY_COUNTS.values()]
   .reduce((sum, count) => sum + count, 0);
-const WEIGHT_SEGMENT_PATTERN = `(?:[^；]+ )?(?:約 )?${MEASUREMENT_VALUE_PATTERN} kg`;
+const WEIGHT_MEASUREMENT_VALUE_PATTERN = `(?:${MEASUREMENT_VALUE_PATTERN}|\\d+(?:\\.\\d+)?\\s*±\\s*\\d+(?:\\.\\d+)?)`;
+const WEIGHT_SEGMENT_PATTERN = `(?:[^；]+ )?(?:約 )?${WEIGHT_MEASUREMENT_VALUE_PATTERN} kg`;
 const WEIGHT_PATTERN = new RegExp(`^重量：${FORBIDDEN_MEASUREMENT_LABEL_PATTERN}(未標示|查不到|${WEIGHT_SEGMENT_PATTERN}(?:；${WEIGHT_SEGMENT_PATTERN})*)$`, "i");
 const WEIGHT_CONFIDENCE_VALUES = new Set(["high", "medium", "low", "not_found"]);
 const HISTORICAL_LOW_STATUSES = new Set(["found", "not_found"]);
@@ -80,6 +87,91 @@ const ISSUE_RESEARCH_STATUSES = new Set(["common_issue", "no_common_issue"]);
 const ISSUE_RESEARCH_MIN_REPORTERS = 6;
 const ISSUE_RESEARCH_MIN_PLATFORMS = 2;
 const NO_COMMON_ISSUE_SUMMARY = "截至查核日，查無達門檻的集中負評／災情";
+const PRICE_BASIS_VALUES = new Set(["retailer_current", "official_suggested"]);
+const INSTALLATION_STATUS_VALUES = new Set(["included_basic", "excluded", "not_stated"]);
+const OFFICIAL_SUGGESTED_PRICE_HOSTS = new Set([
+  "tecohome.com.tw",
+  "rinnai.com.tw",
+  "sakura.com.tw",
+  "hcg.com.tw",
+  "paotien.com.tw",
+  "haierpro.com.tw",
+  "atlantic.tw",
+  "homemark.com.tw",
+]);
+const AIRCON_TYPE_COUNTS = new Map([
+  ["cooling_only", 12],
+  ["heat_cool", 12],
+]);
+const AIRCON_CAPACITY_BAND_COUNTS = new Map([
+  ["small", 6],
+  ["medium", 6],
+  ["large", 6],
+  ["living_dining", 6],
+]);
+const AIRCON_CAPACITY_BAND_LIMITS = new Map([
+  ["small", { minExclusive: Number.NEGATIVE_INFINITY, maxInclusive: 5 }],
+  ["medium", { minExclusive: 5, maxInclusive: 7 }],
+  ["large", { minExclusive: 7, maxInclusive: 10 }],
+  ["living_dining", { minExclusive: 10, maxInclusive: Number.POSITIVE_INFINITY }],
+]);
+const WATERHEATER_TYPE_COUNTS = new Map([
+  ["gas", 15],
+  ["electric", 15],
+  ["heat_pump", 15],
+]);
+const WATERHEATER_ELECTRIC_SUBTYPE_COUNTS = new Map([
+  ["storage", 8],
+  ["instant", 7],
+]);
+const AIRCON_SPEC_PREFIXES = [
+  "型式：",
+  "組合型號：",
+  "適用坪數：",
+  "冷房能力：",
+  "暖房能力：",
+  "CSPF／能源效率：",
+  "能源效率等級：",
+  "尺寸：",
+  "重量：",
+  "電壓／頻率：",
+  "冷媒：",
+  "運轉音：",
+  "智慧功能：",
+  "安裝／配管：",
+];
+const WATERHEATER_SPEC_PREFIXES = [
+  "類型：",
+  "能源／氣源：",
+  "熱水能力：",
+  "能效：",
+  "安裝位置：",
+  "尺寸：",
+  "重量：",
+  "電壓／頻率：",
+  "排氣／給排水：",
+  "安全裝置：",
+  "溫控／操作：",
+  "安裝／加價：",
+];
+const JAPANESE_BRAND_ROSTER = [
+  "Sony",
+  "Panasonic",
+  "HITACHI",
+  "Mitsubishi Electric",
+  "Daikin",
+  "GENERAL",
+  "Rinnai",
+  "Noritz",
+  "TOTO",
+];
+const JAPANESE_BRAND_REVIEW_STATUSES = new Set([
+  "covered_existing",
+  "covered_added",
+  "covered_supplemented",
+  "no_relevant_line",
+  "no_eligible_taiwan_model",
+]);
 const REQUIRED_CATEGORY_TERMS = new Map([
   ["robot", ["Roborock", "Ecovacs", "Dreame", "Narwal", "iRobot", "eufy", "MOVA", "LG", "Shark", "Dyson"]],
   ["smartlock", ["Yale", "Philips", "Kaadas", "Aqara", "Lockin", "dormakaba", "HITACHI", "WAFERLOCK"]],
@@ -254,6 +346,18 @@ module.exports = {
   ISSUE_RESEARCH_MIN_REPORTERS,
   ISSUE_RESEARCH_MIN_PLATFORMS,
   NO_COMMON_ISSUE_SUMMARY,
+  PRICE_BASIS_VALUES,
+  INSTALLATION_STATUS_VALUES,
+  OFFICIAL_SUGGESTED_PRICE_HOSTS,
+  AIRCON_TYPE_COUNTS,
+  AIRCON_CAPACITY_BAND_COUNTS,
+  AIRCON_CAPACITY_BAND_LIMITS,
+  WATERHEATER_TYPE_COUNTS,
+  WATERHEATER_ELECTRIC_SUBTYPE_COUNTS,
+  AIRCON_SPEC_PREFIXES,
+  WATERHEATER_SPEC_PREFIXES,
+  JAPANESE_BRAND_ROSTER,
+  JAPANESE_BRAND_REVIEW_STATUSES,
   REQUIRED_CATEGORY_TERMS,
   CATEGORY_TEXT_MATCH_COUNTS,
   REQUIRED_FIELDS,

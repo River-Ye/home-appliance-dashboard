@@ -33,10 +33,10 @@
 - `assets/js/product-loader.js`：依 `categories` 自動載入 `products/<category>.js?v=<cacheVersion>`。
 - `assets/js/main.js`：DOMContentLoaded、商品載入、事件綁定與初始 render。
 - `products/*.js`：每個商品分類一個檔案，只放該分類商品資料，透過 `globalThis.applianceDashboard.registerProducts(categoryId, items)` 註冊。
-- `tools/category-guides.js`：27 類導讀、選購條件與 FAQ 的人工維護來源，不放即時商品事實。
+- `tools/category-guides.js`：29 類導讀、選購條件與 FAQ 的人工維護來源，不放即時商品事實。
 - `tools/geo-config.js`：站名、首頁 title、description、H1、AI 揭露與 GEO 共用文案契約。
 - `tools/generate-category-pages.js`：依分類、商品、指南與 CSS 來源產生 `assets/css/app.css`、`categories/<id>/index.html`、`sitemap.xml`、`llms.txt` 與首頁 GEO 區塊。
-- `categories/<id>/index.html`：27 個可直接閱讀與索引的靜態分類指南頁，屬產生結果。
+- `categories/<id>/index.html`：29 個可直接閱讀與索引的靜態分類指南頁，屬產生結果。
 - `tools/dashboard-contract.js`：商品數、分類數、必要欄位與資料品質規則常數。
 - `tools/run-daily-catalog-maintenance.js`：永久維護入口，重查現價、來源、圖片、史低來源、匯率與停產候選；原始逐筆稽核只寫入 gitignored `.maintenance-audit.json`。
 - `tools/catalog-maintenance-policy.js`：exact-model、排除品與官方停產文字的純邏輯規則。
@@ -68,7 +68,7 @@
 
 ## GEO / AI 搜尋規則
 
-- 網站由現有 27 類資料產生 27 個 `/categories/<id>/` 靜態分類指南頁；不建立 765 個重複商品事實的薄內容頁。
+- 網站由現有 29 類資料產生 29 個 `/categories/<id>/` 靜態分類指南頁；不建立 859 個重複商品事實的薄內容頁。
 - `tools/category-guides.js` 只維護分類層級的繁中導讀、3 項選購條件與 3 組 FAQ；商品名稱、價格、排名、規格、史低與負評仍從既有商品資料產生，避免第二套事實來源。
 - 站名、首頁 title、description、H1 與 AI 揭露集中在 `tools/geo-config.js`；首頁 metadata、JSON-LD、分類頁與 `llms.txt` 必須共用此契約。首頁與分類頁首屏皆需可見 AI 協作、資料日期、查核方法與 GitHub 原始碼。
 - 修改 `assets/js/config.js` 的分類、`products/*.js` 商品或 `tools/category-guides.js` 後，必須執行 `npm run generate:categories`，再以 `npm run check:geo` 驗證產物與 contract。
@@ -80,23 +80,25 @@
 
 ## 目前資料規模
 
-- 共 27 類、765 筆商品。
+- 共 29 類、859 筆商品。
 - 所有分類每類至少 20 筆；新增分類或補資料時不可讓任何分類低於 20 筆。
 - 特殊分類目前數量：
   - `電視`：34 筆，其中 5 筆為 exact 70 吋，需涵蓋主流顯示技術與可信台灣新品通路。
-  - `Soundbar`：27 筆，需涵蓋不同聲道、擴充方式與空間需求。
-  - `掃拖機器人`：34 筆，需涵蓋知名品牌旗艦與次旗艦。
+  - `Soundbar`：28 筆，需涵蓋不同聲道、擴充方式與空間需求。
+  - `掃拖機器人`：35 筆，需涵蓋知名品牌旗艦與次旗艦。
   - `無線路由器`：51 筆，只收 Wi-Fi 6 以上，Mesh/多 AP/商用管理支援要寫清楚。
-  - `電腦螢幕`：54 筆，需涵蓋主流品牌、不同用途帶與 34/40/45/49/57 吋寬螢幕。
+  - `電腦螢幕`：56 筆，需涵蓋主流品牌、不同用途帶與 34/40/45/49/57 吋寬螢幕。
   - `懸臂支架`：23 筆，需標示支援尺寸、承重重量與是否適合 49/57 吋大寬螢幕。
   - `電子鎖`：48 筆，需涵蓋知名品牌且注意安裝條件。
-  - `鍋具`：26 筆、`刀具`：22 筆、`櫥下飲水機`：37 筆、`洗碗機`：26 筆，需排除配件、耗材、桌上/直立誤判、福利品與展示機。
-  - `冰箱`：24 筆、`洗衣機`：24 筆、`烘衣機`：22 筆、`洗烘衣機(多功能型)`：28 筆，需排除配件、耗材、福利品、展示機、箱損品、組合包誤判與單功能錯類，且每筆需標示機身尺寸。
+  - `鍋具`：27 筆、`刀具`：22 筆、`櫥下飲水機`：39 筆、`洗碗機`：27 筆，需排除配件、耗材、桌上/直立誤判、福利品與展示機。
+  - `冰箱`：26 筆、`洗衣機`：25 筆、`烘衣機`：23 筆、`洗烘衣機(多功能型)`：29 筆，需排除配件、耗材、福利品、展示機、箱損品、組合包誤判與單功能錯類，且每筆需標示機身尺寸。
   - `電子衣櫥（衣物護理機）`：20 筆，只收以吊掛衣物為核心、具除味／除皺／抑菌／柔護乾燥功能的封閉式櫃體設備；排除烘衣機、洗脫烘、除濕機、手持掛燙機、布罩烘衣櫃、配件與停產機種。
-  - `空氣清淨機`：24 筆，已補入 POIEMA 新氣几系列與 Philips AC0921/84；後續若替換資料，除非無可信新品通路，需保留 POIEMA 候選。
-  - `電風扇`：22 筆，已補入 Philips 風扇/循環扇/塔扇/無葉片款；後續若替換資料，除非無可信新品通路，需保留 Philips 候選。
+  - `空氣清淨機`：26 筆，已補入 POIEMA 新氣几系列與 Philips AC0921/84；後續若替換資料，除非無可信新品通路，需保留 POIEMA 候選。
+  - `電風扇`：23 筆，已補入 Philips 風扇/循環扇/塔扇/無葉片款；後續若替換資料，除非無可信新品通路，需保留 Philips 候選。
   - `循環扇`：24 筆，已納入有台灣官方現貨、上市年份與 exact-model 查核證據的 IRIS PCF-CDP18TEC、IRIS KSF-SDC151TEC 與 SHARP PK-18S03T。
   - `咖啡機`：24 筆，只收台灣現售全自動與半自動義式機，各 12 筆；各類型入門／均衡／旗艦各 4 筆，半自動含內建磨豆與需外接磨豆各 6 筆。
+  - `冷氣`：30 筆，只收台灣住宅完整一對一分離式室內／室外機組；冷專、冷暖各至少 12 組，四個坪數帶各至少 6 組。
+  - `熱水器`：45 筆，瓦斯、電熱、熱泵各 15 筆；電熱固定儲熱式 8 筆、瞬熱式 7 筆。
 
 現有分類順序需盡量維持關聯群組，方便商品數量變多後掃描：
 
@@ -111,6 +113,7 @@
 - 循環扇
 - 除濕機
 - 空氣清淨機
+- 冷氣
 
 清潔家務：
 
@@ -137,6 +140,7 @@
 
 衛浴安全：
 
+- 熱水器
 - 免治馬桶
 - 電子鎖
 
@@ -161,6 +165,7 @@
 - `model`
 - `name`
 - `price`
+- `installation`（冷氣、熱水器、四個指定型號與本輪新增日系代表款必填）
 - `image`
 - `buyUrl`
 - `buyLabel`
@@ -185,12 +190,14 @@
 - 若是海外通路，必須標示未含國際運費、進口稅、電壓/插頭/變壓器與台灣保固風險。
 - 電壓明顯不適合台灣者不可列為 Top Pick。
 - 使用者曾要求「全網最低價」，實作上要以可信通路與同型號可查低價為準；不要為了低價改放不可信網站或非新品頁。
+- 新增商品的 `price.basis` 只允許 `retailer_current` 或 `official_suggested`；後者必須顯示「建議售價／查看官方資料」，不可被卡片、史低或 maintenance 文案稱為通路現價。`installation.status` 只允許 `included_basic`、`excluded`、`not_stated`，並須用 `installation.note` 說明邊界與可能加價。
+- 日系品牌固定盤點 Sony、Panasonic、HITACHI、Mitsubishi Electric、Daikin、GENERAL、Rinnai、Noritz、TOTO；`Hitachi` 統一為 `HITACHI`，`Mitsubishi` 只在確認為 Mitsubishi Electric 時收錄，GENERAL 可接受 Fujitsu General alias，TOTO 不得誤中 TOTOLINK。29 類 × 9 品牌的完整 `japaneseBrandReview` 保存在 `catalog_maintenance_latest.json`，不新增第七份公開 audit JSON。
 - 商品內容若有「排除福利/展示/拆封品」等說明文字是允許的，但商品名稱、型號與購買頁本身不能是這類商品。
 - 每筆商品都必須標示 `releaseDate`，代表上市/發售日期；若可信通路或品牌頁找不到明確日期，需填「找不到」，不要用評論日期、促銷日期、上架日或型號年份猜測。
 - 日期查核需保留 `release_date_research.json` 證據檔；非「找不到」項目必須有 `sourceUrl`、`sourceTitle`、`evidenceSnippet` 與 `confidence`，且 `releaseDate` 只能使用 `YYYY-MM-DD`、`YYYY-MM`、`YYYY`。
 - 補查上市/發售日時，優先官方新聞稿、官方產品發表頁、官方上市/發售公告；其次才使用可信媒體/評測明確寫出的 release/launch/上市/發售文字。不可把 Google/Bing 生成式摘要、支援頁的說明書/韌體/驅動 release date、文章發布日、促銷期間、上架日、保固文件日期、購買頁庫存日期或型號年份當作上市日。
 - 若搜尋結果只找到「released in 2024」這類明確年份，可填 `YYYY`；只寫月份則填 `YYYY-MM`。不要自行補月份或日期。
-- `dimension_research.json` 同步保存 11 類商品的機身尺寸證據，以及電視、Soundbar、咖啡機、多功能氣炸烤箱／微波爐 4 類商品重量證據；商品規格與研究列必須逐筆對齊。
+- `dimension_research.json` 同步保存 13 類商品的機身／組件尺寸證據，以及電視、Soundbar、咖啡機、多功能氣炸烤箱／微波爐、冷氣、熱水器 6 類商品重量證據；商品規格與研究列必須逐筆對齊。
 - 尺寸與重量優先採品牌官方 exact-model 產品頁、官方規格表或官方 PDF，其次才使用可信通路。只採本體／機身尺寸與淨重，不可使用包裝、外箱尺寸或毛重；來源沒有明確標示寬／深／高順序時不得自行推定。
 - 新增查核的電視、Soundbar、咖啡機、多功能氣炸烤箱／微波爐、洗碗機與免治馬桶若仍無法確認，規格文字固定使用「尺寸：查不到」／「重量：查不到」，並在研究列保留實際查過的代表性頁面與找不到原因；既有大型家電的「未標示」契約不回溯改寫。
 - 每筆商品都必須標示 `historicalLow`，代表同型號、同尺寸/容量/規格在可信新品通路可驗證的歷史最低價與入手時機判斷；若找不到可靠來源，需填 `status: "not_found"`，不要以現價推定史低。
@@ -204,6 +211,19 @@
 - 大量更新商品檔時仍需維持 `products/*.js` 逐分類獨立，不要把商品資料塞回 `assets/js/*.js`。
 
 ## 特別分類規則
+
+### 冷氣
+
+- 固定 30 組，只收台灣住宅用完整一對一分離式室內／室外機組；排除窗型、移動式、多聯式、商用機與單一室內機／室外機價格。
+- `type` 只允許 `cooling_only`、`heat_cool`，兩者各至少 12 組；`modelPair.indoor` 與 `modelPair.outdoor` 必須同時由 exact-model 來源核對。
+- `roomSizeUpperPing` 依官方適用坪數上限分為 `small`（≤5）、`medium`（>5–7）、`large`（>7–10）、`living_dining`（>10），四帶各至少 6 組。
+- 價格必須涵蓋完整室內＋室外機組；尺寸與淨重分列室內／室外機，並揭露 220V／60Hz、能源效率、配管、排水、室外機空間、基本安裝與追加施工邊界。
+
+### 熱水器
+
+- 固定 45 台：`gas`、`electric`、`heat_pump` 各 15 台；電熱另以 `electricSubtype` 固定 `storage` 8 台、`instant` 7 台。
+- 瓦斯機必須標示天然氣／桶裝瓦斯、室內外安裝與排氣方式；電熱機必須揭露容量、迴路、接地與漏電保護；熱泵複合系統要保存主機與儲槽 exact model、尺寸及完整套組價格。
+- 所有類型皆要揭露適用容量、能效、電壓頻率、安全條件、尺寸、淨重、安裝限制與可能加價；不可用詢價、單一組件、包裝尺寸、毛重或推定的寬深高補數。
 
 ### 掃拖機器人
 
@@ -308,6 +328,7 @@
 - 最上方 header 內容需與 body 主內容同寬對齊，不可滿版貼邊後和下方錯位。
 - 搜尋與篩選控制要支援手動 key 關鍵字找選項，避免選項太多難找。
 - 選擇「分類」後，「品牌」選項只顯示該分類實際存在的品牌，不可顯示無關品牌。
+- 型態篩選只在冷氣與熱水器顯示，URL 使用 `type=cooling_only|heat_cool|gas|electric|heat_pump`；切換到不相容分類時清除 type，無效直連值要忽略並從同步 URL 移除，桌機、手機、active chip、篩選數量、重設與分享網址須一致。
 - 排序控制必須支援推薦排序、價格升冪/降冪、分數升冪/降冪、`上市 / 發售日期` 升冪/降冪；日期找不到的商品在日期排序時應排在最後。
 - 分類 tabs 需把相關品類放在一起；目前分為影音、空氣環境、清潔家務、洗衣家務、廚房餐飲、衛浴安全、工作網路。
 - 手機版進階篩選區必須可收合，避免搜尋列表占太多空間。
@@ -326,10 +347,10 @@
 ## 價格與匯率
 
 <!-- catalog-maintenance-summary:start -->
-- 2026-08-14 07:52（台灣時間）完成 765 筆商品、27 類全量查核；419 筆 PChome SKU API 已完成（260 筆 exact model、43 筆人工 SKU 綁定可寫入，81 筆型號未自動確認），更新 74 筆現價（48 筆降價、26 筆漲價），23 筆 Qty 0 只列追蹤。
-- 本次增量沒有納入新產品；本次增量沒有移除停產產品。逐類人工新品覆核已完成，所有分類至少 20 筆；停產只採品牌官方明確證據，缺貨、反爬或單次連線錯誤不作為刪除依據。
-- 圖片查核覆蓋 765 筆；548 筆來源可由 exact model 或人工 SKU 綁定確認，217 筆來源／圖片例外保留原資料。史低為 465 筆 `found`、300 筆 `not_found`，本輪下修 1 筆；63 筆來源可自動重現，其餘保留原逐筆證據且未臆測失效。
-- ExchangeRate-API 最新批次為 2026-08-13 00:02 UTC，USD/TWD 32.200243；30 筆外幣商品已重算。完整摘要與例外保存在 `catalog_maintenance_latest.json`。
+- 2026-08-14 12:47（台灣時間）完成 859 筆商品、29 類全量查核；431 筆 PChome SKU API 已完成（271 筆 exact model、43 筆人工 SKU 綁定可寫入，82 筆型號未自動確認），更新 62 筆公開價格（7 筆下修、55 筆上修），22 筆 Qty 0 只列追蹤。
+- 本次增量新增 aircon-daikin-ftxm36zvlt-rxm36zvlt、aircon-daikin-ftxm41zvlt-rxm41zvlt、aircon-daikin-ftxm60zvlt-rxm60zvlt、aircon-general-ascg022kmtc-aocg022kmtc、aircon-general-ascg050kmtc-aocg050kmtc、aircon-general-ascg063kmtc-aocg063kmtc、aircon-gree-gks-23ci-gks-23co、aircon-gree-gks-41ci-gks-41co、aircon-gree-gks-63ci-gks-63co、aircon-heran-hi-sl36-ho-sl36、aircon-heran-hi-sl41r-ho-sl41r、aircon-heran-hi-sl80-ho-sl80、aircon-hitachi-ras-22ntb-rac-22np、aircon-hitachi-ras-40ntb-rac-40np、aircon-hitachi-ras-71ntb-rac-71np、aircon-lg-lsn28ddhs-lsu28dhs、aircon-lg-lsn50ddhst-lsu50dhst、aircon-lg-lsn72ddhst-lsu72dhst、aircon-mitsubishi-electric-msy-ga42nj-muy-ga42nj、aircon-mitsubishi-electric-msy-ga50nj-muy-ga50nj、aircon-mitsubishi-electric-msy-ga71nj-muy-ga71nj、aircon-panasonic-cs-vx40fa2-cu-ux40fha2、aircon-panasonic-cs-vx50fa2-cu-ux50fha2、aircon-panasonic-cs-vx80fa2-cu-ux80fha2、aircon-sanlux-sae-v28hj3-sac-v28hj3、aircon-sanlux-sae-v63hj3-sac-v63hj3、aircon-sanlux-sae-v72hj3-sac-v72hj3、aircon-teco-ms22ic-hs8-ma22ic-hs8、aircon-teco-ms63ic-hs8-ma63ic-hs8、aircon-teco-ms80ic-hs8-ma80ic-hs8、blender-panasonic-mx-hg4401、cookware-rinnai-rbo-mn22-wh、dehumidifier-daikin-jp33asct-w、dishwasher-rinnai-rkw-601c-sv-tr、dryer-rinnai-rdt-90-tr-w、fan-mitsubishi-r12a-da、monitor-panasonic-ts-27gf40ctk、monitor-sony-sdm-27u9m2、purifier-daikin-mc655asct、purifier-panasonic-f-p60ph、refrigerator-hitachi-r-hw620yj、refrigerator-mitsubishi-mr-wx53c、robot-hobot-legee-q10-pro、soundbar-panasonic-sc-htb334gtk、vacuum-hitachi-pv-xh4p、washer-hitachi-sf-170zhv、washerdryer-panasonic-na-v170rph-k、waterdispenser-aquas-aq928、waterdispenser-rinnai-rwp-h300、waterheater-a-o-smith-cahp-1-5dt-120、waterheater-a-o-smith-cahp-1-5dt-80、waterheater-a-o-smith-hpi-50d1-0bt、waterheater-atlantic-egeo-250、waterheater-atlantic-exp-200、waterheater-atlantic-exp-270、waterheater-dajinan-djnhp-200l、waterheater-haier-hp110m8-9、waterheater-haier-hp150m8-9、waterheater-haier-hp80m8-9、waterheater-haier-hr-ei65ze1、waterheater-haier-hr-es15vsvh1、waterheater-haier-hr-es20hj5d、waterheater-haier-jsq25-13e3-lpg、waterheater-haier-jsq30-16e1-lpg、waterheater-haier-jsq34-16dc3-ng1、waterheater-hcg-e7120w、waterheater-hcg-e7122b、waterheater-hcg-eq1020a、waterheater-hcg-gh1011、waterheater-hcg-gh160i、waterheater-hcg-gh1688b、waterheater-hmk-hmt-010200、waterheater-paotien-peh-15gs、waterheater-paotien-peh-8gs、waterheater-paotien-ph-1301fe、waterheater-paotien-ph-1607felw、waterheater-paotien-ph-2001fel、waterheater-paotien-ph-88、waterheater-rechi-at-042ai、waterheater-rechi-at-062ai11-ydle、waterheater-rinnai-reh-0856p4、waterheater-rinnai-reh-1256p4、waterheater-rinnai-reh-2056p4、waterheater-rinnai-rua-d1620wf、waterheater-rinnai-rua-uc1628wf、waterheater-rinnai-rua-ud1620wf、waterheater-sakura-dh1628、waterheater-sakura-dh1670f、waterheater-sakura-dh1693f、waterheater-sakura-eh0810a6、waterheater-sakura-se8102、waterheater-sakura-sh125、waterheater-sakura-sh186、waterheater-suntech-hp-600；本次增量沒有移除停產產品。沿用本資料日已完成的逐類人工新品覆核（原覆核時間保留），所有分類至少 20 筆；停產只採品牌官方明確證據，缺貨、反爬或單次連線錯誤不作為刪除依據。
+- 圖片查核覆蓋 859 筆；628 筆來源可由 exact model 或人工 SKU 綁定確認，234 筆來源／圖片例外保留原資料。史低為 467 筆 `found`、392 筆 `not_found`，本輪其他更正 3 筆；67 筆來源可自動重現，其餘保留原逐筆證據且未臆測失效。
+- ExchangeRate-API 最新批次為 2026-08-14 00:02 UTC，USD/TWD 32.123012；30 筆外幣商品已重算。完整摘要與例外保存在 `catalog_maintenance_latest.json`。
 <!-- catalog-maintenance-summary:end -->
 
 ## 驗證清單
@@ -340,7 +361,7 @@
 - `npm run check:logic`：純邏輯回歸，涵蓋排序、品牌依分類限制、史低／負評文案、問題摘要搜尋、來源 URL 安全、HTML escape 與 product-loader URL/錯誤。
 - `npm run check:data`：商品總數、分類數、必要欄位、日期格式、負評逐型號人工覆核、逐位反映者與研究檔對齊、重複 URL 與重複型號檢查通過。
 - `npm run check:docs`：README、AGENTS、index/config 的商品數、分類數、日期與 cache version 不漂移。
-- `npm run check:geo`：27 個分類頁、metadata、結構化資料、首頁分類入口、sitemap、llms、六份公開證據檔、Pages artifact、IndexNow contract 與產生結果均無漂移。
+- `npm run check:geo`：29 個分類頁、metadata、結構化資料、首頁分類入口、sitemap、llms、六份公開證據檔、Pages artifact、30 個 canonical URL 的 IndexNow contract 與產生結果均無漂移。
 - `npm run check:ui`：桌機與手機版主要互動流程通過。
 - `npm run check:quality`：Lighthouse 的 Performance、LCP、CLS、Accessibility 與 SEO 採瀏覽器行動 throttling，TBT 採 Lantern 標準化模擬；首頁 Performance ≥ 90、LCP ≤ 2.5s、CLS ≤ 0.1、TBT ≤ 200ms、Accessibility = 100、SEO ≥ 95；代表分類頁 Performance、Accessibility、SEO 均 ≥ 95。
 - 商品總數仍符合 README 與分類 tab 顯示。

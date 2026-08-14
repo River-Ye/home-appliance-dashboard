@@ -291,13 +291,17 @@ footer {
 
 .filter-panel {
   display: grid;
-  grid-template-columns: repeat(5, minmax(132px, 1fr)) auto;
+  grid-template-columns: repeat(6, minmax(120px, 1fr)) auto;
   gap: 10px;
   align-items: end;
   min-width: 0;
 }
 
 .filter-panel[hidden] {
+  display: none;
+}
+
+.combo-field[hidden] {
   display: none;
 }
 
@@ -2473,7 +2477,7 @@ a:focus-visible {
   }
 }
 
-@media (max-width: 1080px) {
+@media (max-width: 1180px) {
   .topbar-inner {
     grid-template-columns: 1fr;
   }

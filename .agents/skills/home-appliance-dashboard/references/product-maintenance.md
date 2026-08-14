@@ -20,6 +20,7 @@ https://ecapi-cdn.pchome.com.tw/ecshop/prodapi/v2/prod?id=<PID>&fields=Id,Name,N
 
 - PChome `Price.Low` is the public discount price rendered as `折扣價` when it is a positive number; prefer it over `Price.P` (`網路價`). Use `Price.P` only when `Price.Low` is absent or non-positive. The full runner enforces the product-ID binding and tracks `Qty: 0` without writing it; use `npm run audit:pchome-prices` only for a focused read-only PChome audit.
 - Automatic non-PChome price writes are restricted to a single exact-model, same-currency structured price from the explicitly trusted Yahoo Taiwan or Costco Taiwan host. Ambiguous prices, blocked pages, and model-unverified pages stay as report exceptions.
+- New researched products use `price.basis: retailer_current | official_suggested` and `installation: { status, note }`, where status is `included_basic | excluded | not_stated`. An official suggested price is allowed only when the exact Taiwan model has a public numeric price; it must remain labeled as suggested price and must not become a retailer-current or historical-low claim.
 - Treat PChome `Qty: 0` as no-stock tracking, not discontinuation by itself.
 - For Yahoo image failures on old `img.yec.tw/zp/MerchandiseImages/...` URLs, inspect the product page schema and prefer the current `cl/api/res/.../https://img.yec.tw/fy/...jpg` image when available.
 - Do not remove a product unless the brand's official page or announcement explicitly establishes discontinuation for the exact model. A missing page, retailer no-stock signal, fetch block, stale image, or repeated network failure is not sufficient.
@@ -43,9 +44,22 @@ https://ecapi-cdn.pchome.com.tw/ecshop/prodapi/v2/prod?id=<PID>&fields=Id,Name,N
 - Every coffee product must use the Taiwan channel and TWD price, use a Taiwan-market 110V or 120V/60Hz rating, state Taiwan warranty, and include exactly one each of these prefixes: `類型：`, `使用原料：`, `研磨系統：`, `萃取／沖煮：`, `奶泡：`, `容量：`, `尺寸：`, `重量：`, `電壓／頻率：`, `功率：`, `清潔維護：`, `耗材／配件相容性：`.
 - Keep exactly one dynamic Top Pick rather than pinning a model in validation. It must have Taiwan warranty and explicitly available Taiwan service plus consumables or parts. Preserve `全自動推薦`, `半自動推薦`, and `入門推薦` tags across the roster.
 
+## Air Conditioner And Water Heater Scope
+
+- `aircon` stays at exactly 30 complete Taiwan residential one-to-one split indoor/outdoor pairs. Exclude window, portable, multi-split, commercial, and single-component listings. Keep at least 12 `cooling_only`, at least 12 `heat_cool`, and at least 6 products in each official-upper-bound band: ≤5, >5–7, >7–10, and >10 ping.
+- `waterheater` stays at exactly 45: 15 gas, 15 electric, and 15 heat-pump products. Electric is exactly 8 storage plus 7 instant. Record gas type/installation/exhaust, electric circuit and safety conditions, and complete heat-pump unit/tank pairs and prices.
+- Both categories require public numeric Taiwan prices, Taiwan warranty, voltage/frequency, installation boundaries, exact model identity, ordered component dimensions, and net weight or an evidence-backed `查不到`. Never use quote-only status, packaging dimensions, gross weight, guessed dimension order, or incomplete-system prices.
+
+## Japanese Brand Review
+
+- Review Sony, Panasonic, HITACHI, Mitsubishi Electric, Daikin, GENERAL (Fujitsu General), Rinnai, Noritz, and TOTO across all 29 categories on every finalized catalog date.
+- Run `npm run review:japanese-brands -- --date=YYYY-MM-DD --baseline-ref=origin/main` after the maintenance draft. Every one of the 261 cells needs status, checked date, official sources, existing/added IDs, and a concrete reason. Keep this matrix in the committed maintenance report rather than a seventh public JSON.
+- Canonicalize `Hitachi` to `HITACHI`; accept bare Mitsubishi only after confirming Mitsubishi Electric, never Mitsubishi Heavy; accept GENERAL/Fujitsu General aliases; never conflate TOTO with TOTOLINK.
+- Existing eligible products count toward representative coverage. Add one exact Taiwan model only when coverage is zero and the brand has an eligible line; supplement to 2–3 only for a genuinely distinct type, capacity band, or price tier. Do not delete valid products merely because a brand already has more than three.
+
 ## Dimension And Weight Evidence
 
-- Keep `dimension_research.json` aligned with the eleven dimension categories: TV, soundbar, washer, dryer, washer-dryer, garment care, refrigerator, coffee machine, multifunction oven/microwave, dishwasher, and bidet. The same file also carries researched weight evidence for TV, soundbar, coffee machine, and multifunction oven/microwave.
+- Keep `dimension_research.json` aligned with the thirteen dimension categories: TV, soundbar, washer, dryer, washer-dryer, garment care, refrigerator, coffee machine, multifunction oven/microwave, dishwasher, bidet, air conditioner, and water heater. The same file carries researched weight evidence for TV, soundbar, coffee machine, multifunction oven/microwave, air conditioner, and water heater.
 - Treat `generatedAt` as the latest evidence-batch date while preserving each row's actual `checkedAt` / `weightCheckedAt`; incremental category additions must not pretend older evidence was rechecked.
 - Prefer exact-model official product/specification pages and official PDFs, then trusted retailer pages. Record product/body dimensions and net weight only; never substitute packaging dimensions, carton dimensions, or gross weight.
 - Preserve component-level values where the product has separate pieces: TV with/without stand, and soundbar main unit/subwoofer/rear speakers. Do not collapse them into an invented total.

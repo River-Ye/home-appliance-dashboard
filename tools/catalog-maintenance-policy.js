@@ -1,6 +1,7 @@
 const IDENTITY_SEPARATOR_PATTERN = /[^\p{L}\p{N}]+/gu;
 const MODEL_SEPARATOR_PATTERN = "[\\s\\p{P}\\p{S}_]*";
 const RELATED_MODEL_SUFFIX_PATTERN = /^(?:[\s\p{P}\p{S}_]*)(?:pro|plus|max|ultra|mini|lite|air|v(?:ersion)?\s*\d+|mk\s*\d+|gen(?:eration)?\s*\d+)(?=$|[^\p{L}\p{N}])/iu;
+const { OFFICIAL_SUGGESTED_PRICE_HOSTS } = require("./dashboard-contract");
 
 const EXCLUDED_LISTING_PATTERNS = [
   /(?:二手(?:品)?|中古(?:品)?|福利品|展示(?:機|品)|樣品機|拆封品|開箱品|整新品|翻新品|瑕疵品|箱損品)/iu,
@@ -119,6 +120,47 @@ function exactModelMatch(text, model) {
   return false;
 }
 
+function exactProductModelMatch(text, product) {
+  if (product?.category === "aircon" && product.modelPair) {
+    return exactModelMatch(text, product.modelPair.indoor)
+      && exactModelMatch(text, product.modelPair.outdoor);
+  }
+  if (
+    product?.category === "waterheater"
+    && product?.type === "heat_pump"
+    && Array.isArray(product.componentModels)
+    && product.componentModels.length > 1
+  ) {
+    return product.componentModels.every((model) => exactModelMatch(text, model));
+  }
+  return exactModelMatch(text, product?.model);
+}
+
+function hasOfficialSuggestedPriceSource(product) {
+  if (product?.price?.basis !== "official_suggested") return true;
+  try {
+    const hostname = new URL(product.buyUrl).hostname.toLowerCase();
+    return [...OFFICIAL_SUGGESTED_PRICE_HOSTS].some((allowed) => (
+      hostname === allowed || hostname.endsWith(`.${allowed}`)
+    ));
+  } catch (_error) {
+    return false;
+  }
+}
+
+function hasCompleteCompositeSystemIdentityAndPrice(product) {
+  const componentModels = Array.isArray(product?.componentModels) ? product.componentModels : [];
+  const normalizedComponentModels = componentModels.map((model) => normalizeIdentity(model));
+  const composite = product?.category === "waterheater"
+    && product?.type === "heat_pump"
+    && (componentModels.length > 1 || /[+＋]/u.test(String(product.model || "")));
+  if (!composite) return true;
+  return componentModels.length > 1
+    && new Set(normalizedComponentModels).size === componentModels.length
+    && componentModels.every((model) => typeof model === "string" && model.trim() && exactModelMatch(product.model, model))
+    && product.price?.scope === "complete_system";
+}
+
 function listingIdentityText(listing) {
   if (listing === null || listing === undefined) return "";
   if (typeof listing !== "object") return String(listing);
@@ -150,6 +192,9 @@ function isReviewedPchomeBinding(productId, pchomeProductId) {
 
 module.exports = {
   exactModelMatch,
+  exactProductModelMatch,
+  hasCompleteCompositeSystemIdentityAndPrice,
+  hasOfficialSuggestedPriceSource,
   isExcludedListing,
   isExplicitlyDiscontinued,
   isReviewedPchomeBinding,

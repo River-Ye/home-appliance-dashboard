@@ -97,9 +97,9 @@
     "name": "26L 8 合 1 變頻氣炸蒸烤微波爐",
     "price": {
       "currency": "TWD",
-      "amount": 18706,
-      "converted": 18706,
-      "confidence": "Yahoo購物中心 2026-07-21 頁面公開價"
+      "amount": 17766,
+      "converted": 17766,
+      "confidence": "Yahoo購物中心 2026-08-14 exact-model 公開結構化價格"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBJ02A900J1WEX/000001_1753093870.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/Whirlpool-%E6%83%A0%E8%80%8C%E6%B5%A6-26L-MWP269TMT-%E9%9B%B2%E9%9C%A7%E7%99%BD-%E8%AE%8A%E9%A0%BB%E6%B0%A3%E7%82%B8%E8%92%B8%E7%83%A4%E5%BE%AE%E6%B3%A2%E7%88%90-8%E5%90%881-Chef-12003584.html",
@@ -338,8 +338,8 @@
     "price": {
       "currency": "USD",
       "amount": 499.95,
-      "converted": 16099,
-      "confidence": "Breville 官方 2026-07-21 來源價；ExchangeRate-API 2026-08-13 匯率換算"
+      "converted": 16060,
+      "confidence": "Breville 官方 2026-07-21 來源價；ExchangeRate-API 2026-08-14 匯率換算"
     },
     "image": "https://assets.breville.com/cdn-cgi/image/width=1300,format=auto/BOV950/BOV950BSS1BUS1/pdp3.png?pdp=",
     "buyUrl": "https://www.breville.com/en-us/product/bov950",
@@ -577,8 +577,8 @@
     "name": "30L 蒸氣烘烤微波爐",
     "price": {
       "currency": "TWD",
-      "amount": 26900,
-      "converted": 26900,
+      "amount": 27900,
+      "converted": 27900,
       "confidence": "Yahoo購物中心 2026-08-14 exact-model 公開結構化價格"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBJ7P1900HCI3E/000001_1782972848.jpg",
@@ -737,8 +737,8 @@
     "name": "20L 多功能蒸氣氣炸烤箱",
     "price": {
       "currency": "TWD",
-      "amount": 10260,
-      "converted": 10260,
+      "amount": 10800,
+      "converted": 10800,
       "confidence": "PChome 2026-08-14 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBM0GA900HF91A/000001_1768545220.jpg",
@@ -1537,8 +1537,8 @@
     "name": "蒸烘烤變頻微波爐",
     "price": {
       "currency": "TWD",
-      "amount": 41724,
-      "converted": 41724,
+      "amount": 43920,
+      "converted": 43920,
       "confidence": "PChome 2026-08-14 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBM0GA900H5125/000001_1783054719.jpg",
@@ -1865,8 +1865,8 @@
     "price": {
       "currency": "USD",
       "amount": 449.99,
-      "converted": 14490,
-      "confidence": "SharkNinja 美國官方 2026-07-21 商品頁現貨價；ExchangeRate-API 2026-08-13 匯率換算"
+      "converted": 14455,
+      "confidence": "SharkNinja 美國官方 2026-07-21 商品頁現貨價；ExchangeRate-API 2026-08-14 匯率換算"
     },
     "image": "https://assets.sharkninja.com/image/upload/f_auto/q_auto/SharkNinja-NA/MW101_01.jpg",
     "buyUrl": "https://www.sharkninja.com/ninja-crispi-microwave/MW101.html",

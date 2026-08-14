@@ -21,6 +21,17 @@ const {
   HISTORICAL_LOW_STATUSES,
   HISTORICAL_LOW_SOURCE_KINDS,
   HISTORICAL_LOW_CONFIDENCE_VALUES,
+  PRICE_BASIS_VALUES,
+  INSTALLATION_STATUS_VALUES,
+  AIRCON_TYPE_COUNTS,
+  AIRCON_CAPACITY_BAND_COUNTS,
+  AIRCON_CAPACITY_BAND_LIMITS,
+  WATERHEATER_TYPE_COUNTS,
+  WATERHEATER_ELECTRIC_SUBTYPE_COUNTS,
+  AIRCON_SPEC_PREFIXES,
+  WATERHEATER_SPEC_PREFIXES,
+  JAPANESE_BRAND_ROSTER,
+  JAPANESE_BRAND_REVIEW_STATUSES,
   REQUIRED_CATEGORY_TERMS,
   CATEGORY_TEXT_MATCH_COUNTS,
   REQUIRED_FIELDS,
@@ -40,6 +51,15 @@ const {
   COFFEE_EXCLUDED_NAME_TERMS,
 } = require("./dashboard-contract");
 const { readDashboardProducts } = require("./read-dashboard-products");
+const {
+  hasCompleteCompositeSystemIdentityAndPrice,
+  hasOfficialSuggestedPriceSource,
+  normalizeIdentity,
+} = require("./catalog-maintenance-policy");
+const {
+  buildJapaneseBrandReview,
+  hasTaiwanCompatiblePower,
+} = require("./japanese-brand-audit");
 const { validateExplicitReview } = require("./mark-product-issue-review");
 const {
   canonicalWebsite,
@@ -53,6 +73,24 @@ const { CHECKED_AT } = require("./verified-product-issues");
 const ISSUE_RESEARCH_STATUSES = new Set(["common_issue", "no_common_issue"]);
 const ISSUE_RESEARCH_DATE_PATTERN = /^\d{4}-\d{2}-\d{2}$/;
 const NO_COMMON_ISSUE_SUMMARY = "截至查核日，查無達門檻的集中負評／災情";
+const REQUESTED_MODELS = new Set(["R-HW620YJ", "LEGEE-Q10 PRO", "LEGEE-Q10PRO", "NA-V170RPH-K", "AQ928"]);
+const JAPANESE_GAP_MODELS = new Set([
+  "SDM-27U9M2",
+  "TS-27GF40CTK",
+  "SC-HTB334GTK",
+  "F-P60PH",
+  "MX-HG4401",
+  "PV-XH4P",
+  "SF-170ZHV",
+  "MR-WX53C",
+  "R12A-DA",
+  "JP33ASCT-W",
+  "MC655ASCT",
+  "RDT-90-TR-W",
+  "RBO-MN22(WH)",
+  "RWP-H300",
+  "RKW-601C-SV-TR",
+]);
 
 function normalize(value) {
   return String(value || "")
@@ -368,6 +406,193 @@ function validateHistoricalPriceChecks(product, row, failures) {
   }
 }
 
+function validateOrderedSpecPrefixes(product, prefixes, failures) {
+  let previousIndex = -1;
+  for (const prefix of prefixes) {
+    const indexes = product.specs
+      .map((spec, index) => String(spec).startsWith(prefix) ? index : -1)
+      .filter((index) => index >= 0);
+    assert(indexes.length === 1, `${product.id} must include exactly one ${prefix} spec`, failures);
+    if (indexes.length !== 1) continue;
+    assert(indexes[0] > previousIndex, `${product.id} specs must keep ${prefix} in the required order`, failures);
+    previousIndex = indexes[0];
+  }
+}
+
+function measurementSegments(value) {
+  return String(value || "")
+    .split("；")
+    .map((segment) => segment.trim())
+    .filter(Boolean);
+}
+
+function hasDistinctLabeledMeasurements(value, labels, valuePattern) {
+  const segments = measurementSegments(value);
+  const indexes = labels.map((label) => segments
+    .map((segment, index) => (segment.includes(label) && valuePattern.test(segment) ? index : -1))
+    .filter((index) => index >= 0));
+  return indexes.every((matches) => matches.length === 1)
+    && new Set(indexes.map(([index]) => index)).size === labels.length;
+}
+
+function visibleRoomSizeUpperBound(value) {
+  const text = String(value || "").trim();
+  const bounded = text.match(/^(\d+(?:\.\d+)?)\s*坪(?:內|以下|以內)/u);
+  if (bounded) return Number(bounded[1]);
+  const range = text.match(/^\d+(?:\.\d+)?\s*(?:[-–—~～]|至)\s*(\d+(?:\.\d+)?)\s*坪/u);
+  return range ? Number(range[1]) : null;
+}
+
+function validatePriceAndInstallationContract(product, failures, forceRequired = false) {
+  const contractRequired = forceRequired
+    || ["aircon", "waterheater"].includes(product.category)
+    || REQUESTED_MODELS.has(product.model)
+    || JAPANESE_GAP_MODELS.has(product.model);
+  if (contractRequired) {
+    assert(Number.isFinite(product.price?.amount) && product.price.amount > 0, `${product.id} requires a positive public numeric price amount`, failures);
+    assert(product.price?.currency === "TWD", `${product.id} requires a TWD Taiwan price`, failures);
+    assert(product.price?.converted === product.price?.amount, `${product.id} TWD amount and converted price must match`, failures);
+  }
+  if (contractRequired || product.price?.basis !== undefined) {
+    assert(PRICE_BASIS_VALUES.has(product.price?.basis), `${product.id} has invalid price basis: ${product.price?.basis}`, failures);
+  }
+  if (contractRequired || product.installation !== undefined) {
+    assert(product.installation && typeof product.installation === "object" && !Array.isArray(product.installation), `${product.id} installation must be an object`, failures);
+    assert(INSTALLATION_STATUS_VALUES.has(product.installation?.status), `${product.id} has invalid installation status: ${product.installation?.status}`, failures);
+    assert(typeof product.installation?.note === "string" && product.installation.note.trim(), `${product.id} installation requires a source-faithful note`, failures);
+    assert(
+      JSON.stringify(Object.keys(product.installation || {}).sort()) === JSON.stringify(["note", "status"]),
+      `${product.id} installation must contain exactly status and note`,
+      failures,
+    );
+  }
+  if (contractRequired) {
+    const marketRisk = `${product.voltage || ""} ${product.warranty || ""}`;
+    assert(product.channel === "tw", `${product.id} new catalog entry requires a Taiwan sales channel`, failures);
+    assert(hasTaiwanCompatiblePower(product), `${product.id} requires a Taiwan-compatible power specification`, failures);
+    assert(/(?:台灣|公司貨)/u.test(String(product.warranty || "")), `${product.id} requires an explicit Taiwan warranty`, failures);
+    assert(!/(?:50\s*Hz(?![^；,，]*60\s*Hz)|日本地區保固|無台灣保固|不提供台灣|海外通路|跨境)/iu.test(marketRisk), `${product.id} cannot use a 50Hz-only or non-Taiwan warranty product`, failures);
+    assert(/^https?:\/\//u.test(String(product.image || "")), `${product.id} requires a trusted http(s) product image`, failures);
+  }
+  if (product.price?.basis === "official_suggested") {
+    assert(hasOfficialSuggestedPriceSource(product), `${product.id} official suggested price must link to an allowlisted Taiwan official host`, failures);
+    assert(/官方/.test(`${product.buyLabel} ${product.price.confidence}`), `${product.id} official suggested price requires an official source label`, failures);
+    assert(/建議售價|定價/.test(String(product.price.confidence || "")), `${product.id} official suggested price must be described as 建議售價 or 定價`, failures);
+  }
+}
+
+function validateAirconProduct(product, failures) {
+  if (product.category !== "aircon") return;
+  assert(AIRCON_TYPE_COUNTS.has(product.type), `${product.id} has invalid aircon type: ${product.type}`, failures);
+  assert(product.modelPair && typeof product.modelPair === "object" && !Array.isArray(product.modelPair), `${product.id} requires modelPair`, failures);
+  assert(typeof product.modelPair?.indoor === "string" && product.modelPair.indoor.trim(), `${product.id} requires an indoor model`, failures);
+  assert(typeof product.modelPair?.outdoor === "string" && product.modelPair.outdoor.trim(), `${product.id} requires an outdoor model`, failures);
+  assert(
+    normalizeIdentity(product.modelPair?.indoor) !== normalizeIdentity(product.modelPair?.outdoor),
+    `${product.id} indoor and outdoor models must differ after normalization`,
+    failures,
+  );
+  assert(String(product.model).includes(product.modelPair?.indoor || ""), `${product.id} display model must retain the indoor model`, failures);
+  assert(String(product.model).includes(product.modelPair?.outdoor || ""), `${product.id} display model must retain the outdoor model`, failures);
+  assert(product.price?.scope === "complete_system", `${product.id} aircon price must cover the complete indoor and outdoor system`, failures);
+  assert(Number.isFinite(product.roomSizeUpperPing) && product.roomSizeUpperPing > 0, `${product.id} requires a finite positive roomSizeUpperPing`, failures);
+  const limits = AIRCON_CAPACITY_BAND_LIMITS.get(product.capacityBand);
+  assert(limits, `${product.id} has invalid capacityBand: ${product.capacityBand}`, failures);
+  if (limits && typeof product.roomSizeUpperPing === "number") {
+    assert(
+      product.roomSizeUpperPing > limits.minExclusive && product.roomSizeUpperPing <= limits.maxInclusive,
+      `${product.id} roomSizeUpperPing does not match ${product.capacityBand}`,
+      failures,
+    );
+  }
+  assert(product.channel === "tw", `${product.id} aircon must use a Taiwan channel`, failures);
+  validateOrderedSpecPrefixes(product, AIRCON_SPEC_PREFIXES, failures);
+  const specByPrefix = (prefix) => {
+    const spec = product.specs.find((candidate) => String(candidate).startsWith(prefix));
+    return spec ? String(spec).slice(prefix.length).trim() : "";
+  };
+  const typeSpec = specByPrefix("型式：");
+  const heatSpec = specByPrefix("暖房能力：");
+  assert(/一對一/u.test(typeSpec) && /分離式/u.test(typeSpec), `${product.id} must be a residential one-to-one split system`, failures);
+  assert(!/(?:窗型|移動式|多聯式|商用)/u.test(typeSpec), `${product.id} cannot be a window, portable, multi-split, or commercial system`, failures);
+  if (product.type === "cooling_only") {
+    assert(typeSpec.includes("冷專"), `${product.id} cooling_only type must match its 型式 spec`, failures);
+    assert(/(?:無暖房|不適用|冷專)/u.test(heatSpec), `${product.id} cooling_only type must not advertise heating capacity`, failures);
+  }
+  if (product.type === "heat_cool") {
+    assert(typeSpec.includes("冷暖"), `${product.id} heat_cool type must match its 型式 spec`, failures);
+    assert(/^\d+(?:\.\d+)?\s*kW\b/iu.test(heatSpec), `${product.id} heat_cool type requires a numeric heating capacity`, failures);
+  }
+  const visibleUpperPing = visibleRoomSizeUpperBound(specByPrefix("適用坪數："));
+  assert(Number.isFinite(visibleUpperPing), `${product.id} requires a numeric visible room-size upper bound`, failures);
+  if (Number.isFinite(visibleUpperPing)) {
+    assert(visibleUpperPing === product.roomSizeUpperPing, `${product.id} roomSizeUpperPing must match its 適用坪數 spec`, failures);
+  }
+  const dimensionSpec = specByPrefix("尺寸：");
+  const weightSpec = specByPrefix("重量：");
+  assert(
+    hasDistinctLabeledMeasurements(dimensionSpec, ["室內機", "室外機"], /寬 \d+(?:\.\d+)?(?:[-–／/]\d+(?:\.\d+)?)? x 深 \d+(?:\.\d+)?(?:[-–／/]\d+(?:\.\d+)?)? x 高 \d+(?:\.\d+)?(?:[-–／/]\d+(?:\.\d+)?)? cm/iu),
+    `${product.id} requires separate indoor and outdoor dimensions`,
+    failures,
+  );
+  assert(
+    hasDistinctLabeledMeasurements(weightSpec, ["室內機", "室外機"], /(?:約 )?\d+(?:\.\d+)?(?:[-–／/]\d+(?:\.\d+)?)? kg/iu),
+    `${product.id} requires separate indoor and outdoor net weights`,
+    failures,
+  );
+}
+
+function validateWaterheaterProduct(product, failures) {
+  if (product.category !== "waterheater") return;
+  assert(WATERHEATER_TYPE_COUNTS.has(product.type), `${product.id} has invalid waterheater type: ${product.type}`, failures);
+  const specByPrefix = (prefix) => {
+    const spec = product.specs.find((candidate) => String(candidate).startsWith(prefix));
+    return spec ? String(spec).slice(prefix.length).trim() : "";
+  };
+  const typeSpec = specByPrefix("類型：");
+  if (product.type === "electric") {
+    assert(WATERHEATER_ELECTRIC_SUBTYPE_COUNTS.has(product.electricSubtype), `${product.id} electric water heater requires storage or instant subtype`, failures);
+    assert(typeSpec.includes("電熱"), `${product.id} electric structured type must match its 類型 spec`, failures);
+    const subtypeLabel = product.electricSubtype === "storage" ? "儲熱" : /(?:即熱|瞬熱)/u;
+    assert(
+      typeof subtypeLabel === "string" ? typeSpec.includes(subtypeLabel) : subtypeLabel.test(typeSpec),
+      `${product.id} electricSubtype must match its 類型 spec`,
+      failures,
+    );
+  } else {
+    assert(product.electricSubtype === undefined, `${product.id} non-electric water heater must not set electricSubtype`, failures);
+  }
+  if (product.type === "gas") {
+    assert(typeSpec.includes("瓦斯"), `${product.id} gas structured type must match its 類型 spec`, failures);
+    assert(/(?:LPG|NG\d?|液化瓦斯|天然瓦斯|桶裝瓦斯)/iu.test(specByPrefix("能源／氣源：")), `${product.id} gas product must identify LPG or natural-gas compatibility`, failures);
+    assert(/(?:屋內|屋外|室內|室外)/u.test(specByPrefix("安裝位置：")), `${product.id} gas product must identify indoor or outdoor placement`, failures);
+    assert(/排氣/u.test(specByPrefix("排氣／給排水：")), `${product.id} gas product must state its exhaust condition`, failures);
+  }
+  if (product.type === "heat_pump") {
+    assert(typeSpec.includes("熱泵"), `${product.id} heat-pump structured type must match its 類型 spec`, failures);
+  }
+  if (Array.isArray(product.componentModels) && product.componentModels.length > 1) {
+    assert(hasCompleteCompositeSystemIdentityAndPrice(product), `${product.id} composite heat-pump system requires every exact component model and a complete-system price`, failures);
+    assert(
+      hasDistinctLabeledMeasurements(specByPrefix("尺寸："), product.componentModels, /寬 \d+(?:\.\d+)?(?:[-–／/]\d+(?:\.\d+)?)? x 深 \d+(?:\.\d+)?(?:[-–／/]\d+(?:\.\d+)?)? x 高 \d+(?:\.\d+)?(?:[-–／/]\d+(?:\.\d+)?)? cm/iu),
+      `${product.id} composite heat-pump dimensions require one measurement segment per component`,
+      failures,
+    );
+    assert(
+      hasDistinctLabeledMeasurements(specByPrefix("重量："), product.componentModels, /(?:約 )?\d+(?:\.\d+)?(?:[-–／/]\d+(?:\.\d+)?)? kg/iu),
+      `${product.id} composite heat-pump weights require one measurement segment per component`,
+      failures,
+    );
+  } else if (product.price?.scope !== undefined) {
+    assert(["single_unit", "complete_system"].includes(product.price.scope), `${product.id} has invalid waterheater price scope`, failures);
+  }
+  if (product.type === "heat_pump" && /[+＋]/u.test(String(product.model || ""))) {
+    assert(hasCompleteCompositeSystemIdentityAndPrice(product), `${product.id} composite model text requires structured componentModels and a complete-system price`, failures);
+  }
+  assert(product.channel === "tw", `${product.id} waterheater must use a Taiwan channel`, failures);
+  validateOrderedSpecPrefixes(product, WATERHEATER_SPEC_PREFIXES, failures);
+}
+
 function validateProduct(product, categoryIds, failures) {
   for (const field of REQUIRED_FIELDS) {
     assert(product[field] !== undefined && product[field] !== null && product[field] !== "", `${product.id || "(missing id)"} missing ${field}`, failures);
@@ -381,6 +606,9 @@ function validateProduct(product, categoryIds, failures) {
   assert(product.price && typeof product.price.converted === "number" && product.price.converted > 0, `${product.id} must have positive TWD price`, failures);
   assert(product.buyUrl && /^https?:\/\//.test(product.buyUrl), `${product.id} buyUrl must be http(s)`, failures);
   assert(DATE_PATTERN.test(String(product.releaseDate || "")), `${product.id} releaseDate has invalid format: ${product.releaseDate}`, failures);
+  validatePriceAndInstallationContract(product, failures);
+  validateAirconProduct(product, failures);
+  validateWaterheaterProduct(product, failures);
   validateHistoricalLow(product, failures);
   validateIssueResearch(product, failures);
 
@@ -402,6 +630,14 @@ function validateProduct(product, categoryIds, failures) {
       if (NEW_DIMENSION_CATEGORIES.has(product.category)) {
         assert(normalizedDimensionSpec !== "尺寸：未標示", `${product.id} must use 尺寸：查不到 when the new lookup has no result`, failures);
       }
+      if (product.category === "waterheater" && Array.isArray(product.componentModels) && product.componentModels.length > 1) {
+        assert(normalizedDimensionSpec !== "尺寸：查不到", `${product.id} composite system requires dimensions for every component`, failures);
+        assert(
+          hasDistinctLabeledMeasurements(normalizedDimensionSpec.slice("尺寸：".length), product.componentModels, /寬 \d+(?:\.\d+)?(?:[-–／/]\d+(?:\.\d+)?)? x 深 \d+(?:\.\d+)?(?:[-–／/]\d+(?:\.\d+)?)? x 高 \d+(?:\.\d+)?(?:[-–／/]\d+(?:\.\d+)?)? cm/iu),
+          `${product.id} dimension spec must give every component its own measurement segment`,
+          failures,
+        );
+      }
     }
   }
 
@@ -412,6 +648,14 @@ function validateProduct(product, categoryIds, failures) {
       const normalizedWeightSpec = String(weightSpecs[0]).trim();
       assert(WEIGHT_PATTERN.test(normalizedWeightSpec), `${product.id} has invalid weight spec: ${weightSpecs[0]}`, failures);
       assert(normalizedWeightSpec !== "重量：未標示", `${product.id} must use 重量：查不到 when the new lookup has no result`, failures);
+      if (product.category === "waterheater" && Array.isArray(product.componentModels) && product.componentModels.length > 1) {
+        assert(normalizedWeightSpec !== "重量：查不到", `${product.id} composite system requires net weights for every component`, failures);
+        assert(
+          hasDistinctLabeledMeasurements(normalizedWeightSpec.slice("重量：".length), product.componentModels, /(?:約 )?\d+(?:\.\d+)?(?:[-–／/]\d+(?:\.\d+)?)? kg/iu),
+          `${product.id} weight spec must give every component its own measurement segment`,
+          failures,
+        );
+      }
     }
   }
 }
@@ -948,6 +1192,16 @@ function validateHistoricalPriceResearch(root, products, failures) {
     assert(row.name === product.name, `${product.id} historical price research name mismatch`, failures);
     assert(row.currentPrice === product.price.converted, `${product.id} historical price research current price mismatch`, failures);
     assert(row.currentCurrency === product.price.currency, `${product.id} historical price research current currency mismatch`, failures);
+    assert(row.priceBasis === (product.price.basis || "not_stated"), `${product.id} historical price research price basis mismatch`, failures);
+    assert(
+      row.priceLabel === (product.price.basis === "official_suggested"
+        ? "官方建議售價"
+        : product.price.basis === "retailer_current"
+          ? "通路現價"
+          : "價格基準未標示"),
+      `${product.id} historical price research price label mismatch`,
+      failures,
+    );
     assert(row.currentBuyUrl === product.buyUrl, `${product.id} historical price research buyUrl mismatch`, failures);
     assert(row.currentBuyLabel === product.buyLabel, `${product.id} historical price research buyLabel mismatch`, failures);
     assert(JSON.stringify(row.historicalLow) === JSON.stringify(product.historicalLow), `${product.id} historicalLow research mismatch`, failures);
@@ -1020,6 +1274,8 @@ function validateDimensionResearch(root, products, failures) {
     "多功能氣炸烤箱／微波爐",
     "洗碗機",
     "免治馬桶",
+    "冷氣",
+    "熱水器",
   ]) {
     assert(
       String(research.sourcePolicy || "").includes(categoryLabel),
@@ -1064,6 +1320,13 @@ function validateDimensionResearch(root, products, failures) {
     } else {
       assert(row.confidence !== "not_found", `${product.id} found dimension cannot use not_found confidence`, failures);
     }
+    if (product.category === "waterheater" && Array.isArray(product.componentModels) && product.componentModels.length > 1) {
+      assert(
+        hasDistinctLabeledMeasurements(row.evidenceSnippet, product.componentModels, /寬 \d+(?:\.\d+)?(?:[-–／/]\d+(?:\.\d+)?)? x 深 \d+(?:\.\d+)?(?:[-–／/]\d+(?:\.\d+)?)? x 高 \d+(?:\.\d+)?(?:[-–／/]\d+(?:\.\d+)?)? cm/iu),
+        `${product.id} dimension evidence must give every component its own measurement segment`,
+        failures,
+      );
+    }
 
     if (WEIGHT_CATEGORIES.has(product.category)) {
       const weightSpecs = product.specs.filter((spec) => String(spec).trim().startsWith("重量："));
@@ -1084,6 +1347,13 @@ function validateDimensionResearch(root, products, failures) {
         assert(row.weightConfidence === "not_found", `${product.id} missing weight must use not_found confidence`, failures);
       } else {
         assert(row.weightConfidence !== "not_found", `${product.id} found weight cannot use not_found confidence`, failures);
+      }
+      if (product.category === "waterheater" && Array.isArray(product.componentModels) && product.componentModels.length > 1) {
+        assert(
+          hasDistinctLabeledMeasurements(row.weightEvidenceSnippet, product.componentModels, /(?:約 )?\d+(?:\.\d+)?(?:[-–／/]\d+(?:\.\d+)?)? kg/iu),
+          `${product.id} weight evidence must give every component its own measurement segment`,
+          failures,
+        );
       }
     }
   }
@@ -1253,6 +1523,104 @@ function validateCategoryContent(products, failures) {
       failures,
     );
   }
+
+  const airconProducts = categoryProducts(products, "aircon");
+  for (const [type, minimumCount] of AIRCON_TYPE_COUNTS) {
+    const count = airconProducts.filter((product) => product.type === type).length;
+    assert(count >= minimumCount, `aircon ${type} count must be at least ${minimumCount}, got ${count}`, failures);
+  }
+  for (const [band, minimumCount] of AIRCON_CAPACITY_BAND_COUNTS) {
+    const count = airconProducts.filter((product) => product.capacityBand === band).length;
+    assert(count >= minimumCount, `aircon ${band} count must be at least ${minimumCount}, got ${count}`, failures);
+  }
+  assert(airconProducts.filter((product) => product.topPick).length === 1, "aircon must have exactly one Top Pick", failures);
+
+  const waterheaterProducts = categoryProducts(products, "waterheater");
+  for (const [type, expectedCount] of WATERHEATER_TYPE_COUNTS) {
+    const count = waterheaterProducts.filter((product) => product.type === type).length;
+    assert(count === expectedCount, `waterheater ${type} count must be ${expectedCount}, got ${count}`, failures);
+  }
+  const electricWaterheaters = waterheaterProducts.filter((product) => product.type === "electric");
+  for (const [subtype, expectedCount] of WATERHEATER_ELECTRIC_SUBTYPE_COUNTS) {
+    const count = electricWaterheaters.filter((product) => product.electricSubtype === subtype).length;
+    assert(count === expectedCount, `waterheater electric ${subtype} count must be ${expectedCount}, got ${count}`, failures);
+  }
+  assert(waterheaterProducts.filter((product) => product.topPick).length === 1, "waterheater must have exactly one Top Pick", failures);
+
+  for (const [model, category] of [
+    ["R-HW620YJ", "refrigerator"],
+    ["LEGEE-Q10 PRO", "robot"],
+    ["NA-V170RPH-K", "washerdryer"],
+    ["AQ928", "waterdispenser"],
+  ]) {
+    const matches = products.filter((product) => product.model === model && product.category === category);
+    assert(matches.length === 1, `${model} must appear exactly once in ${category}`, failures);
+  }
+}
+
+function canonicalJapaneseBrand(value) {
+  const normalized = normalize(value).replaceAll(" ", "");
+  return {
+    sony: "Sony",
+    panasonic: "Panasonic",
+    hitachi: "HITACHI",
+    mitsubishielectric: "Mitsubishi Electric",
+    daikin: "Daikin",
+    general: "GENERAL",
+    fujitsugeneral: "GENERAL",
+    rinnai: "Rinnai",
+    noritz: "Noritz",
+    toto: "TOTO",
+  }[normalized] || null;
+}
+
+function validateJapaneseBrandReview(category, row, productById, dataDate, expectedReviews, failures) {
+  const reviews = Array.isArray(row?.japaneseBrandReview) ? row.japaneseBrandReview : [];
+  assert(reviews.length === JAPANESE_BRAND_ROSTER.length, `${category.id} Japanese-brand review must contain ${JAPANESE_BRAND_ROSTER.length} rows`, failures);
+  const byBrand = new Map(reviews.map((review) => [review.brand, review]));
+  assert(byBrand.size === JAPANESE_BRAND_ROSTER.length, `${category.id} Japanese-brand review contains duplicate brands`, failures);
+
+  for (const brand of JAPANESE_BRAND_ROSTER) {
+    const review = byBrand.get(brand);
+    const expectedReview = expectedReviews.find((candidate) => candidate.brand === brand);
+    const prefix = `${category.id} ${brand} Japanese-brand review`;
+    assert(review, `${prefix} is missing`, failures);
+    if (!review) continue;
+    assert(
+      JSON.stringify(review) === JSON.stringify(expectedReview),
+      `${prefix} must match the current catalog and maintenance baseline`,
+      failures,
+    );
+    assert(JAPANESE_BRAND_REVIEW_STATUSES.has(review.status), `${prefix} has invalid status: ${review.status}`, failures);
+    assert(review.checkedAt === dataDate, `${prefix} checkedAt must equal ${dataDate}`, failures);
+    assert(Array.isArray(review.officialSources) && review.officialSources.length > 0, `${prefix} requires officialSources`, failures);
+    for (const source of review.officialSources || []) {
+      assert(isHttpUrl(source), `${prefix} has invalid official source: ${source}`, failures);
+    }
+    assert(Array.isArray(review.existingProductIds), `${prefix} existingProductIds must be an array`, failures);
+    assert(Array.isArray(review.addedProductIds), `${prefix} addedProductIds must be an array`, failures);
+    assert(typeof review.reason === "string" && review.reason.trim(), `${prefix} requires a reason`, failures);
+
+    const ids = [...(review.existingProductIds || []), ...(review.addedProductIds || [])];
+    assert(new Set(ids).size === ids.length, `${prefix} contains duplicate product IDs`, failures);
+    for (const id of ids) {
+      const product = productById.get(id);
+      assert(product, `${prefix} references unknown product ${id}`, failures);
+      if (!product) continue;
+      assert(product.category === category.id, `${prefix} references ${id} from ${product.category}`, failures);
+      assert(canonicalJapaneseBrand(product.brand) === brand, `${prefix} references ${id} with non-matching brand ${product.brand}`, failures);
+    }
+
+    if (review.status === "covered_existing") {
+      assert((review.existingProductIds || []).length > 0 && (review.addedProductIds || []).length === 0, `${prefix} covered_existing IDs are inconsistent`, failures);
+    } else if (review.status === "covered_added") {
+      assert((review.existingProductIds || []).length === 0 && (review.addedProductIds || []).length > 0, `${prefix} covered_added IDs are inconsistent`, failures);
+    } else if (review.status === "covered_supplemented") {
+      assert((review.existingProductIds || []).length > 0 && (review.addedProductIds || []).length > 0, `${prefix} covered_supplemented IDs are inconsistent`, failures);
+    } else {
+      assert(ids.length === 0, `${prefix} ${review.status} must not claim product IDs`, failures);
+    }
+  }
 }
 
 function validateMaintenanceReport(root, categories, products, dataDate, failures) {
@@ -1268,7 +1636,7 @@ function validateMaintenanceReport(root, categories, products, dataDate, failure
     .map((product) => product.id)
     .sort();
   const minimumCount = Math.min(...categories.map((category) => categoryProducts(products, category.id).length));
-  assert(report.schemaVersion === 2, "maintenance report schema version is stale", failures);
+  assert(report.schemaVersion === 3, "maintenance report schema version is stale", failures);
   assert(report.dataDate === dataDate, "maintenance report data date is stale", failures);
   assert(report.summary?.finalProducts === products.length, "maintenance report final product count is stale", failures);
   assert(report.summary?.categories === categories.length, "maintenance report category count is stale", failures);
@@ -1286,7 +1654,20 @@ function validateMaintenanceReport(root, categories, products, dataDate, failure
 
   const reportCheckedAt = Date.parse(report.checkedAt);
   assert(!Number.isNaN(reportCheckedAt), "maintenance report checkedAt is invalid", failures);
+  assert(new Set((report.categoryScan || []).map((row) => row.category)).size === categories.length, "maintenance report category scan contains duplicate categories", failures);
   const categoryScan = new Map((report.categoryScan || []).map((row) => [row.category, row]));
+  const productById = new Map(products.map((product) => [product.id, product]));
+  const addedIds = new Set([
+    ...(report.summary?.newProductsAdded || []),
+    ...(report.summary?.catalogEntriesReplaced || []).map((replacement) => replacement.afterId),
+  ]);
+  for (const id of addedIds) {
+    assert(productById.has(id), `maintenance summary references unknown added product ${id}`, failures);
+    if (productById.has(id)) validatePriceAndInstallationContract(productById.get(id), failures, true);
+  }
+  const baselineById = new Map(products
+    .filter((product) => !addedIds.has(product.id))
+    .map((product) => [product.id, product]));
   for (const category of categories) {
     const row = categoryScan.get(category.id);
     const count = categoryProducts(products, category.id).length;
@@ -1303,6 +1684,13 @@ function validateMaintenanceReport(root, categories, products, dataDate, failure
     );
     assert(row?.finalProductCount === count, `${category.id} maintenance scan product count is stale`, failures);
     assert(row?.minimumSatisfied === (count >= MIN_PRODUCTS_PER_CATEGORY), `${category.id} maintenance minimum flag is stale`, failures);
+    const expectedReviews = buildJapaneseBrandReview({
+      category,
+      products,
+      baselineById,
+      checkedAt: dataDate,
+    });
+    validateJapaneseBrandReview(category, row, productById, dataDate, expectedReviews, failures);
   }
 
   const validateCompactAudit = (name, audit, expectedIds, verifiedKey, expectedExceptionCount) => {
@@ -1463,4 +1851,10 @@ function main() {
   }, null, 2));
 }
 
-main();
+if (require.main === module) main();
+
+module.exports = {
+  validateAirconProduct,
+  validatePriceAndInstallationContract,
+  validateWaterheaterProduct,
+};

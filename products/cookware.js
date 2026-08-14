@@ -849,8 +849,8 @@
     "image": "https://cs-a.ecimg.tw/items/DEDG3BA900GQDVZ/000001_1776769920.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 1099,
-      "converted": 1099,
+      "amount": 1067,
+      "converted": 1067,
       "confidence": "Yahoo購物中心 2026-08-14 exact-model 公開結構化價格"
     },
     "channel": "tw",
@@ -2139,6 +2139,95 @@
           "query": "site:reddit.com \"IKEA HEMKOMST 605.801.00\" (problem OR issue OR defect OR negative review)",
           "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22IKEA%20HEMKOMST%20605.801.00%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
           "targetHost": "reddit.com"
+        }
+      ]
+    }
+  },
+  {
+    "id": "cookware-rinnai-rbo-mn22-wh",
+    "category": "cookware",
+    "rank": 27,
+    "topPick": false,
+    "budget": "value",
+    "channel": "tw",
+    "brand": "Rinnai",
+    "model": "RBO-MN22(WH)",
+    "name": "22cm 無水調理鍋",
+    "price": {
+      "currency": "TWD",
+      "amount": 7900,
+      "converted": 7900,
+      "confidence": "台灣林內官方 exact-model 頁公開建議售價 NT$7,900",
+      "basis": "official_suggested"
+    },
+    "image": "https://www.rinnai.com.tw/storage/product/1673338909_RBO-MN22_WH_.png",
+    "buyUrl": "https://www.rinnai.com.tw/Product/V3/378",
+    "buyLabel": "台灣林內官方資料（建議售價）",
+    "installation": {
+      "status": "not_stated",
+      "note": "鍋具不需到府安裝；官方頁未提供安裝服務，首次使用與清潔保養應依說明書。"
+    },
+    "specs": [
+      "22cm、容量 3.4L；本體直徑 22cm",
+      "尺寸：寬 28.7 x 深 10 x 高 12.6 cm；重量 1.7kg",
+      "鑄鋁鍋體、陶瓷不沾塗層",
+      "適用瓦斯爐、電陶爐與烤箱；不適用 IH",
+      "隨附蒸架與食譜"
+    ],
+    "description": "Rinnai RBO-MN22(WH) 是 3.4L 無水調理鍋，可在瓦斯、電陶爐與烤箱間使用，但不支援 IH。",
+    "pros": [
+      "1.7kg 比鑄鐵鍋輕，仍可做無水與燉煮料理",
+      "官方明列容量、尺寸、材質及適用熱源",
+      "含蒸架與食譜，料理用途多"
+    ],
+    "cons": [
+      "不支援 IH 電磁爐",
+      "陶瓷塗層需避免金屬器具與急冷急熱",
+      "官方頁是建議售價，實際成交價需另向經銷商確認"
+    ],
+    "bestFor": "使用瓦斯或電陶爐、想要較輕的無水調理鍋，且不需要 IH 相容性的人。",
+    "recommendation": "Rinnai 日系鍋具補強：不可把官方建議售價當通路現價；最大選購邊界是本款不支援 IH。",
+    "score": 84,
+    "voltage": "非電器；不適用 IH 電磁爐",
+    "warranty": "依台灣林內官方鍋具保固與使用條款",
+    "tags": [
+      "22cm",
+      "3.4L",
+      "無水調理",
+      "鑄鋁",
+      "不適用IH"
+    ],
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-08-14",
+      "note": "官方只能驗證建議售價 NT$7,900；已查 exact-model 新品價格，未找到具日期且可重現的可信通路史低。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-08-14",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"RBO-MN22(WH)\" (災情 OR 問題 OR 負評 OR 塗層)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22RBO-MN22%28WH%29%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E8%B2%A0%E8%A9%95%20OR%20%E5%A1%97%E5%B1%A4)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "PTT",
+          "query": "site:ptt.cc \"RBO-MN22(WH)\" (災情 OR 問題 OR 負評 OR 塗層)",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22RBO-MN22%28WH%29%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E8%B2%A0%E8%A9%95%20OR%20%E5%A1%97%E5%B1%A4)",
+          "targetHost": "ptt.cc"
         }
       ]
     }

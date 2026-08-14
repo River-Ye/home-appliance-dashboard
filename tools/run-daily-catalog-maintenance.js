@@ -3,7 +3,7 @@ const path = require("path");
 const vm = require("vm");
 const { execFileSync } = require("child_process");
 const {
-  exactModelMatch,
+  exactProductModelMatch,
   isExcludedListing,
   isExplicitlyDiscontinued,
   isReviewedPchomeBinding,
@@ -13,6 +13,15 @@ const {
   selectPchomeCurrentPrice,
 } = require("./pchome-product-api");
 const { normalizeExchangeDate } = require("./update-maintenance-metadata");
+const { readDashboardProducts } = require("./read-dashboard-products");
+const {
+  buildJapaneseBrandReview,
+  sameCatalogIdentity,
+} = require("./japanese-brand-audit");
+const {
+  JAPANESE_BRAND_ROSTER,
+  JAPANESE_BRAND_REVIEW_STATUSES,
+} = require("./dashboard-contract");
 
 const ROOT = path.resolve(__dirname, "..");
 const PRODUCT_DIR = path.join(ROOT, "products");
@@ -310,7 +319,7 @@ async function auditPchome(product, raw) {
       return true;
     }
     const title = [record.Name, record.Nick].filter(Boolean).join(" ").replace(/<[^>]+>/g, " ");
-    const exact = exactModelMatch(title, product.model);
+    const exact = exactProductModelMatch(title, product);
     const manualBindingApproved = isReviewedPchomeBinding(product.id, productId);
     const sourceIdentityApproved = exact || manualBindingApproved;
     const excluded = isExcludedListing(title);
@@ -341,10 +350,13 @@ async function auditPchome(product, raw) {
       apiUrl,
     });
 
-    if (status === "verified_available" && product.price.currency === "TWD" && Number(product.price.amount) !== amount) {
+    if (status === "verified_available"
+      && product.price?.basis !== "official_suggested"
+      && product.price.currency === "TWD"
+      && Number(product.price.amount) !== amount) {
       updatePrice(product, amount);
     }
-    if (status === "verified_available") {
+    if (status === "verified_available" && product.price?.basis !== "official_suggested") {
       const historicalChange = promoteCurrentHistoricalLow(product, amount, product.buyUrl, String(record.Name || product.name));
       if (historicalChange) raw.historicalLowChanges.push(historicalChange);
     }
@@ -404,7 +416,7 @@ async function auditNonPchome(product, raw) {
   let excluded = false;
   if (!page.ok) status = page.blocked ? "blocked" : "request_failed";
   else {
-    exact = exactModelMatch(`${page.title}\n${page.text}`, product.model);
+    exact = exactProductModelMatch(`${page.title}\n${page.text}`, product);
     excluded = isExcludedListing(page.title);
     status = exact && !excluded ? "verified_available" : excluded ? "excluded_listing" : "model_unverified";
   }
@@ -412,7 +424,9 @@ async function auditNonPchome(product, raw) {
   const trustedPrice = status === "verified_available"
     ? trustedStructuredPrice(product.buyUrl, priceCandidates, product.price.currency)
     : null;
-  if (trustedPrice !== null && Number(product.price.amount) !== trustedPrice) {
+  if (trustedPrice !== null
+    && product.price?.basis !== "official_suggested"
+    && Number(product.price.amount) !== trustedPrice) {
     const previous = Number(product.price.amount);
     product.price.amount = trustedPrice;
     product.price.converted = trustedPrice;
@@ -465,7 +479,7 @@ async function auditHistoricalSource(product, raw) {
   let exact = false;
   if (!page.ok) status = page.blocked ? "blocked" : "failed";
   else {
-    exact = exactModelMatch(`${page.title}\n${page.text}`, product.model);
+    exact = exactProductModelMatch(`${page.title}\n${page.text}`, product);
     status = exact ? "verified" : "model_unverified";
   }
   raw.historicalRows.push({
@@ -686,6 +700,12 @@ function syncHistoricalResearchRows(research, products) {
       name: product.name,
       currentPrice: product.price.converted,
       currentCurrency: product.price.currency,
+      priceBasis: product.price.basis || "not_stated",
+      priceLabel: product.price.basis === "official_suggested"
+        ? "官方建議售價"
+        : product.price.basis === "retailer_current"
+          ? "通路現價"
+          : "價格基準未標示",
       currentBuyUrl: product.buyUrl,
       currentBuyLabel: product.buyLabel,
       historicalLow: product.historicalLow,
@@ -721,7 +741,7 @@ function syncHistoricalResearch(products, exchange, compact) {
     .filter((change) => change.before !== null && change.after === null).length;
   research.summary = {
     checkedAt: `${MAINTENANCE_DATE}T00:00:00.000+08:00`,
-    sourcePolicy: `${MAINTENANCE_DATE} 以 ${compact.summary.baselineProducts} 筆基準清單全量查核現價、購買連結與可信新品狀態，並複核最終 ${compact.summary.finalProducts} 筆商品圖片、全部 ${compact.summary.historicalFound} 筆 found 史低來源、原廠停產訊號與同批次匯率。PChome exact-model 現貨頁有正值 Price.Low 時採公開折扣價，否則採 Price.P；Qty 0、福利品、展示機與配件不寫回。其他頁面的結構化價格差異列入人工覆核候選，阻擋、暫時錯誤與單次頁面失效只列稽核，不臆測停產或史低失效。`,
+    sourcePolicy: `${MAINTENANCE_DATE} 以 ${compact.summary.baselineProducts} 筆基準清單全量查核公開價格基準（通路現價或明示官方建議售價）、購買連結與可信新品狀態，並複核最終 ${compact.summary.finalProducts} 筆商品圖片、全部 ${compact.summary.historicalFound} 筆 found 史低來源、原廠停產訊號與同批次匯率。官方建議售價不自動寫成通路現價或史低；PChome exact-model 現貨頁有正值 Price.Low 時採公開折扣價，否則採 Price.P；Qty 0、福利品、展示機與配件不寫回。其他頁面的結構化價格差異列入人工覆核候選，阻擋、暫時錯誤與單次頁面失效只列稽核，不臆測停產或史低失效。`,
     total: products.length,
     researchedThisRun: products.length,
     found,
@@ -819,18 +839,57 @@ function readPreviousDiscontinuationReviews() {
   return new Map();
 }
 
-function maintenanceReviewReady(report, maintenanceDate) {
-  return report?.dataDate === maintenanceDate
+function maintenanceReviewReady(report, maintenanceDate, catalogContext = null) {
+  const structurallyReady = report?.dataDate === maintenanceDate
     && Array.isArray(report.categoryScan)
     && report.categoryScan.length > 0
-    && report.categoryScan.every((row) => categoryReviewReady(row, report.checkedAt));
+    && report.categoryScan.every((row) => categoryReviewReady(row, report.checkedAt, maintenanceDate));
+  if (!structurallyReady || !catalogContext) return structurallyReady;
+
+  const { categories, products, baselineById } = catalogContext;
+  if (!Array.isArray(categories) || !Array.isArray(products) || !(baselineById instanceof Map)) return false;
+  if (products.some((product) => baselineById.has(product.id) && !sameCatalogIdentity(product, baselineById.get(product.id)))) return false;
+  if (report.categoryScan.length !== categories.length) return false;
+  const scanByCategory = new Map(report.categoryScan.map((row) => [row.category, row]));
+  if (scanByCategory.size !== categories.length) return false;
+  return categories.every((category) => {
+    const row = scanByCategory.get(category.id);
+    if (!row) return false;
+    const expected = buildJapaneseBrandReview({
+      category,
+      products,
+      baselineById,
+      checkedAt: maintenanceDate,
+    });
+    return JSON.stringify(row.japaneseBrandReview) === JSON.stringify(expected);
+  });
 }
 
-function categoryReviewReady(row, maximumReviewedAt = null) {
+function japaneseBrandReviewReady(row, maintenanceDate = null) {
+  const reviews = Array.isArray(row?.japaneseBrandReview) ? row.japaneseBrandReview : [];
+  if (reviews.length !== JAPANESE_BRAND_ROSTER.length) return false;
+  const byBrand = new Map(reviews.map((review) => [review.brand, review]));
+  return JAPANESE_BRAND_ROSTER.every((brand) => {
+    const review = byBrand.get(brand);
+    return review
+      && JAPANESE_BRAND_REVIEW_STATUSES.has(review.status)
+      && /^\d{4}-\d{2}-\d{2}$/.test(review.checkedAt)
+      && (maintenanceDate === null || review.checkedAt === maintenanceDate)
+      && Array.isArray(review.officialSources)
+      && review.officialSources.length > 0
+      && Array.isArray(review.existingProductIds)
+      && Array.isArray(review.addedProductIds)
+      && typeof review.reason === "string"
+      && review.reason.trim();
+  });
+}
+
+function categoryReviewReady(row, maximumReviewedAt = null, maintenanceDate = null) {
   const ready = row?.status === "manually_reviewed"
     && typeof row.reviewedAt === "string"
     && /^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}(?:\.\d{3})?Z$/.test(row.reviewedAt)
-    && !Number.isNaN(Date.parse(row.reviewedAt));
+    && !Number.isNaN(Date.parse(row.reviewedAt))
+    && japaneseBrandReviewReady(row, maintenanceDate);
   if (!ready || maximumReviewedAt === null || maximumReviewedAt === undefined) return ready;
   const maximumTimestamp = Date.parse(maximumReviewedAt);
   return !Number.isNaN(maximumTimestamp) && Date.parse(row.reviewedAt) <= maximumTimestamp;
@@ -861,6 +920,7 @@ function currentCategoryScan(categories, previousRows, checkedAt) {
         note: "需由 AI 逐類完成官方新品與供貨證據覆核。",
         acceptedCandidates: [],
         trackedOrRejectedCandidates: [],
+        japaneseBrandReview: [],
         reviewedAt: null,
         finalProductCount: category.items.length,
         minimumSatisfied: category.items.length >= 20,
@@ -926,6 +986,12 @@ function buildCompactReport({ catalog, baselineById, raw, exchange, checkedAt, c
   const finalIds = catalog.products.map((product) => product.id).sort();
   const baselineIds = [...baselineById.keys()].sort();
   const finalById = new Map(catalog.products.map((product) => [product.id, product]));
+  const reusedIdentityIds = finalIds.filter((id) => (
+    baselineById.has(id) && !sameCatalogIdentity(finalById.get(id), baselineById.get(id))
+  ));
+  if (reusedIdentityIds.length > 0) {
+    throw new Error(`Catalog product IDs cannot be reused for a different exact model: ${reusedIdentityIds.join(", ")}`);
+  }
   const priceChanges = [];
   const linkChanges = [];
   const imageChanges = [];
@@ -933,7 +999,7 @@ function buildCompactReport({ catalog, baselineById, raw, exchange, checkedAt, c
     const before = baselineById.get(id);
     const after = finalById.get(id);
     if (Number(before.price?.amount) !== Number(after.price?.amount)) {
-      priceChanges.push({ id, before: before.price.amount, after: after.price.amount, currency: after.price.currency, source: after.buyUrl });
+      priceChanges.push({ id, before: before.price.amount, after: after.price.amount, currency: after.price.currency, basis: after.price.basis || "not_stated", source: after.buyUrl });
     }
     if (before.buyUrl !== after.buyUrl || before.buyLabel !== after.buyLabel) {
       linkChanges.push({ id, beforeUrl: before.buyUrl, afterUrl: after.buyUrl, beforeLabel: before.buyLabel, afterLabel: after.buyLabel });
@@ -996,7 +1062,7 @@ function buildCompactReport({ catalog, baselineById, raw, exchange, checkedAt, c
   );
 
   return {
-    schemaVersion: 2,
+    schemaVersion: 3,
     dataDate: MAINTENANCE_DATE,
     checkedAt,
     baselineRef: BASELINE_REF,
@@ -1084,10 +1150,11 @@ function buildCompactReport({ catalog, baselineById, raw, exchange, checkedAt, c
 async function main() {
   const catalog = loadCatalogFromDisk();
   if (catalog.products.length === 0 || catalog.categories.length === 0) throw new Error("Catalog is empty");
+  const categoryDefinitions = readDashboardProducts(ROOT).categories;
   const baselineById = loadCatalogFromGit(BASELINE_REF, catalog.categories.map((category) => category.fileName));
   const checkedAt = new Date().toISOString();
   const raw = {
-    schemaVersion: 2,
+    schemaVersion: 3,
     dataDate: MAINTENANCE_DATE,
     checkedAt,
     baselineRef: BASELINE_REF,
@@ -1122,8 +1189,12 @@ async function main() {
     categoryReviewProvenance: categoryReviewProvenance(categoryScan, previousCategoryReview.sourceCheckedAt),
     previousDiscontinuationReviews: readPreviousDiscontinuationReviews(),
   });
-  if (WRITE && categoryScan.some((row) => !categoryReviewReady(row, checkedAt))) {
-    throw new Error("Refusing to finalize: every category requires an explicit manually_reviewed new-product decision with a valid reviewedAt timestamp");
+  if (WRITE && !maintenanceReviewReady(compact, MAINTENANCE_DATE, {
+    categories: categoryDefinitions,
+    products: catalog.products,
+    baselineById,
+  })) {
+    throw new Error("Refusing to finalize: every category requires a current manually reviewed Japanese-brand matrix that matches the catalog and maintenance baseline");
   }
   if (WRITE && compact.summary.pchomeInvalidPrices + compact.summary.pchomeRequestFailures > 0) {
     throw new Error("Refusing to write with unsafe PChome audit results");

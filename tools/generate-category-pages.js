@@ -94,6 +94,18 @@ function productAnchor(productId) {
 
 function historicalLowText(product) {
   const historicalLow = product.historicalLow || {};
+  if (product.price?.basis === "official_suggested") {
+    const lowText = historicalLow.status === "found"
+      ? formatTwd(Number(historicalLow.converted))
+      : "找不到";
+    return `歷史最低價：${lowText}；目前為官方建議售價，不與通路史低計算差額。`;
+  }
+  if (product.price?.basis !== "retailer_current") {
+    const lowText = historicalLow.status === "found"
+      ? formatTwd(Number(historicalLow.converted))
+      : "找不到";
+    return `歷史最低價：${lowText}；目前價格基準未標示，不計算與通路史低的差額。`;
+  }
   if (historicalLow.status !== "found") {
     return "歷史最低價：找不到可公開驗證的同型號新品史低，不能以現價推定。";
   }
@@ -242,6 +254,32 @@ function categoryStructuredData(category, topFive, meta, description) {
 
 function productMarkup(product, index) {
   const buyUrl = safeHttpUrl(product.buyUrl);
+  const officialSuggested = product.price?.basis === "official_suggested";
+  const retailerCurrent = product.price?.basis === "retailer_current";
+  const priceHeading = officialSuggested
+    ? "官方建議售價"
+    : retailerCurrent
+      ? "查核時價格"
+      : "公開售價";
+  const priceDetail = officialSuggested
+    ? "非通路成交價；以官方資料為準"
+    : retailerCurrent
+      ? `原始售價：${formatOriginal(product.price)}`
+      : `公開數字：${formatOriginal(product.price)}；價格基準未標示，請開啟來源確認`;
+  const priceBasis = officialSuggested
+    ? "官方建議售價"
+    : retailerCurrent
+      ? "通路現價"
+      : "未標示";
+  const installationStatus = ({
+    included_basic: "含基本安裝",
+    excluded: "不含安裝",
+    not_stated: "安裝未標示",
+  })[product.installation?.status] || "依商品頁與現場條件確認";
+  const installationText = product.installation
+    ? `${installationStatus}；${product.installation.note}`
+    : installationStatus;
+  const sourceAction = officialSuggested ? "查看官方資料" : "查看價格來源";
   const pros = product.pros.map((item) => `<li>${escapeHtml(item)}</li>`).join("");
   const cons = product.cons.map((item) => `<li>${escapeHtml(item)}</li>`).join("");
   const measurementSpecs = product.specs.filter((item) => /^(尺寸|重量)：/.test(item));
@@ -263,9 +301,9 @@ function productMarkup(product, index) {
                 <h3>${escapeHtml(product.name)}</h3>
               </div>
               <div class="editorial-price">
-                <span>查核時價格</span>
+                <span>${escapeHtml(priceHeading)}</span>
                 <strong>${escapeHtml(formatTwd(product.price.converted))}</strong>
-                <small>原始售價：${escapeHtml(formatOriginal(product.price))}</small>
+                <small>${escapeHtml(priceDetail)}</small>
               </div>
             </div>
             <p class="editorial-verdict"><strong>推薦理由</strong>${escapeHtml(product.recommendation)}</p>
@@ -274,6 +312,8 @@ function productMarkup(product, index) {
               <div><dt>適合對象</dt><dd>${escapeHtml(product.bestFor)}</dd></div>
               <div><dt>上市／發售</dt><dd>${escapeHtml(product.releaseDate)}</dd></div>
               <div><dt>電壓／保固</dt><dd>${escapeHtml(`${product.voltage}；${product.warranty}`)}</dd></div>
+              <div><dt>價格基準</dt><dd>${escapeHtml(priceBasis)}</dd></div>
+              <div><dt>安裝</dt><dd>${escapeHtml(installationText)}</dd></div>
             </dl>
             <div class="editorial-evaluation">
               <div><h4>優點</h4><ul>${pros}</ul></div>
@@ -286,7 +326,7 @@ function productMarkup(product, index) {
             </div>
             <div class="editorial-actions">
               <a href="../../#category=${escapeHtml(product.category)}">在工作台比較同類商品</a>
-              ${buyUrl ? `<a class="secondary" href="${escapeHtml(buyUrl)}" target="_blank" rel="noopener noreferrer nofollow">查看 ${escapeHtml(product.buyLabel)} 原通路</a>` : ""}
+              ${buyUrl ? `<a class="secondary" href="${escapeHtml(buyUrl)}" target="_blank" rel="noopener noreferrer nofollow">${escapeHtml(sourceAction)}</a>` : ""}
             </div>
           </div>
         </article>`;
@@ -388,7 +428,7 @@ ${jsonLdStringify(structuredData).split("\n").map((line) => `      ${line}`).joi
       <section class="editorial-section" aria-labelledby="shortlistHeading">
         <div class="editorial-section-heading">
           <div><p class="editorial-kicker">Quick answer</p><h2 id="shortlistHeading">先看結論：前 5 名推薦摘要</h2></div>
-          <p>依工作台既有推薦排序呈現，不另行重算名次；價格與庫存請以原通路為準。</p>
+          <p>依工作台既有推薦排序呈現，不另行重算名次；價格基準會逐款標示為通路現價、官方建議售價或未標示，庫存請以來源頁為準。</p>
         </div>
         <div class="editorial-product-list">${topFive.map(productMarkup).join("")}
         </div>
@@ -478,7 +518,7 @@ ${description}
 
 ## 資料限制
 
-- 價格、庫存、規格與保固可能在查核後變動，實際資訊以品牌與原通路為準。
+- 價格、庫存、規格與保固可能在查核後變動；價格基準依各商品標示，實際資訊以品牌或來源頁為準。
 - 海外價格未含國際運費、進口稅，並有電壓、插頭與台灣保固風險。
 - 本站的推薦排序與比較分數是專案內部評估，不是消費者星等、專業認證或效果保證。
 - 本檔只是供機器理解網站結構的補充說明，不是正式排名標準，也不保證任何搜尋引擎或 AI 系統收錄、排名或引用。

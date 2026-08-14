@@ -5,21 +5,21 @@
   const meta = {
     dataDate: "2026-08-14",
     costcoDate: "2026-08-14",
-    expectedCategoryCount: 27,
-    expectedProductCount: 765,
-    cacheVersion: "20260814-235239-catalog",
-    exchangeSummary: "USD 1 = TWD 32.200",
+    expectedCategoryCount: 29,
+    expectedProductCount: 859,
+    cacheVersion: "20260814-044741-catalog",
+    exchangeSummary: "USD 1 = TWD 32.123",
   };
 
   const exchange = {
     source: "ExchangeRate-API",
-    date: "2026-08-13 00:02 UTC",
-    USD_TWD: 32.200243,
-    GBP_TWD: 43.48381455508426,
-    EUR_TWD: 37.138685415794434,
-    JPY_TWD: 0.20214739938485754,
-    CNY_TWD: 4.7655314082409035,
-    KRW_TWD: 0.022727998500194933,
+    date: "2026-08-14 00:02 UTC",
+    USD_TWD: 32.123012,
+    GBP_TWD: 43.33586327009391,
+    EUR_TWD: 37.04461081435148,
+    JPY_TWD: 0.20153268172776012,
+    CNY_TWD: 4.754007191611593,
+    KRW_TWD: 0.02264715341994446,
   };
 
   const categories = [
@@ -29,6 +29,7 @@
     { id: "circulator", label: "循環扇", group: "空氣環境" },
     { id: "dehumidifier", label: "除濕機", group: "空氣環境" },
     { id: "purifier", label: "空氣清淨機", group: "空氣環境" },
+    { id: "aircon", label: "冷氣", group: "空氣環境" },
     { id: "robot", label: "掃拖機器人", group: "清潔家務" },
     { id: "vacuum", label: "吸塵器", group: "清潔家務" },
     { id: "washer", label: "洗衣機", group: "洗衣家務" },
@@ -43,6 +44,7 @@
     { id: "oven", label: "多功能氣炸烤箱/微波爐", group: "廚房餐飲" },
     { id: "waterdispenser", label: "櫥下飲水機", group: "廚房餐飲" },
     { id: "dishwasher", label: "洗碗機", group: "廚房餐飲" },
+    { id: "waterheater", label: "熱水器", group: "衛浴安全" },
     { id: "bidet", label: "免治馬桶", group: "衛浴安全" },
     { id: "smartlock", label: "電子鎖", group: "衛浴安全" },
     { id: "wifi", label: "無線路由器", group: "工作網路" },
@@ -55,6 +57,7 @@
   const products = dashboard.products || [];
   const state = {
     category: "all",
+    type: "all",
     brand: "all",
     budget: "all",
     channel: "all",
@@ -68,7 +71,7 @@
   const constants = {
     initialProductLimit: 12,
     loadMoreProductCount: 40,
-    filterControlNames: ["category", "brand", "budget", "channel", "sort"],
+    filterControlNames: ["category", "type", "brand", "budget", "channel", "sort"],
     cacheVersion: meta.cacheVersion,
   };
 

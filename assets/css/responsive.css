@@ -24,7 +24,7 @@
   }
 }
 
-@media (max-width: 1080px) {
+@media (max-width: 1180px) {
   .topbar-inner {
     grid-template-columns: 1fr;
   }

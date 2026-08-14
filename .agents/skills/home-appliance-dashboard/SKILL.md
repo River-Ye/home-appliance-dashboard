@@ -18,19 +18,22 @@ Use a dedicated git worktree and short-lived `codex/` branch for repo changes un
 
 ## GEO And AI Search Workflow
 
-- The site has one generated static guide for every configured category (currently 27) at `/categories/<id>/`; do not create one thin page per product or add tracking for GEO work.
+- The site has one generated static guide for every configured category (currently 29) at `/categories/<id>/`; do not create one thin page per product or add tracking for GEO work.
 - Maintain category-level intros, three buying criteria, and three FAQs in `tools/category-guides.js`. Product facts continue to come from `assets/js/config.js` and `products/*.js`.
 - Keep the shared site name, homepage title, description, H1, and visible AI disclosure in `tools/geo-config.js`; metadata, JSON-LD, generated guides, and `llms.txt` must use the same contract.
 - After any product, category, guide, or homepage CSS source change, run `npm run generate:categories`, then `npm run check:geo`. Do not hand-edit `assets/css/app.css`, `categories/<id>/index.html`, `sitemap.xml`, `llms.txt`, or the generated GEO blocks in `index.html`.
 - Category guides must return to the interactive dashboard with `/#category=<id>` fragment state, not crawlable `index.html?category=...` links. Capture that fragment before asynchronous product loading so in-page anchors cannot discard it, and keep existing query-based shared URLs backward-compatible in `assets/js/url-state.js`.
 - Treat `llms.txt` as supplemental discovery context only; it does not guarantee indexing, ranking, or AI citation.
 - Keep all six evidence files in the Pages artifact: `release_date_research.json`, `historical_price_research.json`, `dimension_research.json`, `product_issue_research.json`, `product_issue_report_evidence.json`, and `product_issue_review_manifest.json`.
+- Keep the complete same-date 29-category × 9-brand `japaneseBrandReview` matrix in `catalog_maintenance_latest.json`; use `npm run review:japanese-brands` on the maintenance draft and do not create a seventh public evidence file.
 - IndexNow runs only after a successful Pages deployment and is non-blocking. Always inspect its workflow log and report failures accurately.
 
 ## Guardrails
 
 - Preserve `products/*.js` as the product data boundary and keep `registerProducts(categoryId, items)` compatible.
 - Keep `assets/js/config.js` `meta`, `tools/dashboard-contract.js`, README, AGENTS, and visible page dates/counts in sync.
+- Preserve exactly 30 one-to-one Taiwan residential split air-conditioner sets and exactly 45 Taiwan-market water heaters. Enforce the cold-only/heat-cool and capacity-band quotas for air conditioners, plus gas/electric/heat-pump and storage/instant quotas for water heaters.
+- For newly researched products, preserve `price.basis` (`retailer_current` or `official_suggested`) and `installation.status` (`included_basic`, `excluded`, or `not_stated`). Never present official suggested prices as retailer current prices or historical lows.
 - Start a new data date with `npm run maintain:catalog -- --draft --date=YYYY-MM-DD --baseline-ref=origin/main`; finalize with `--write` only after the same-date category and discontinuation reviews are explicit. Keep reviewed summary/exception evidence in `catalog_maintenance_latest.json`; keep `.maintenance-audit.json` and `.maintenance-draft.json` untracked or as short-lived CI artifacts.
 - After maintenance, run `npm run sync:maintenance-metadata` and `npm run generate:categories` before the checks. Never bypass pending category or official-discontinuation review gates.
 - Keep the Lighthouse budgets enforced by `npm run check:quality`: browser-throttled Performance ≥ 90, LCP ≤ 2.5s, CLS ≤ 0.1, Accessibility = 100, SEO ≥ 95, plus runner-independent Lantern TBT ≤ 200ms.

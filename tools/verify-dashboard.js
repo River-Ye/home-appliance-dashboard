@@ -8,6 +8,7 @@ const {
   runExhaustiveViewport,
   runSmokeViewport,
   runGarmentCareJourney,
+  runTypeFilterJourney,
   runDesktopJourney,
   runMobileJourney,
 } = require("./dashboard-ui-journeys");
@@ -45,6 +46,7 @@ function loadPlaywright() {
       "dashboard-garmentcare-mobile",
       { width: 390, height: 844 },
     );
+    await runTypeFilterJourney(browser);
     if (fullMode) {
       await runExhaustiveViewport(browser, "dashboard-wide-desktop", { width: 2048, height: 1152 });
       await runExhaustiveViewport(browser, "dashboard-desktop", { width: 1440, height: 1100 });

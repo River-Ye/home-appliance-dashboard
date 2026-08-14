@@ -1361,9 +1361,9 @@
     "name": "免安裝自動 6 人份洗碗機",
     "price": {
       "currency": "TWD",
-      "amount": 17999,
-      "converted": 17999,
-      "confidence": "PChome 2026-08-10 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 16560,
+      "converted": 16560,
+      "confidence": "PChome 2026-08-14 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBR17A900IHTZ3/000001_1777540146.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBR17-A900IHTZ3",
@@ -2166,6 +2166,95 @@
           "query": "site:reddit.com \"Bosch SMV6ZAX00X\" (problem OR issue OR defect OR \"negative review\")",
           "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Bosch%20SMV6ZAX00X%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
           "targetHost": "reddit.com"
+        }
+      ]
+    }
+  },
+  {
+    "id": "dishwasher-rinnai-rkw-601c-sv-tr",
+    "category": "dishwasher",
+    "rank": 27,
+    "topPick": false,
+    "budget": "premium",
+    "channel": "tw",
+    "brand": "Rinnai",
+    "model": "RKW-601C-SV-TR",
+    "name": "8 人份抽屜式洗碗機",
+    "price": {
+      "currency": "TWD",
+      "amount": 49400,
+      "converted": 49400,
+      "confidence": "momo 購物 2026-08-14 exact-model 台灣新品頁公開售價，標題明載基本安裝",
+      "basis": "retailer_current"
+    },
+    "image": "https://www.rinnai.com.tw/storage/product/1615535033_0002_RKW-601C-SV-TR_1.png",
+    "buyUrl": "https://www.momoshop.com.tw/product/13272372",
+    "buyLabel": "momo 購物（基本安裝）",
+    "installation": {
+      "status": "included_basic",
+      "note": "momo exact-model 標題明載基本安裝；櫥櫃開孔、門板／櫃體修改、遠距進排水、專用插座與額外材料不應自行視為包含，須依現場評估確認。"
+    },
+    "specs": [
+      "抽屜式、8 人份；6 種洗程",
+      "獨立乾燥／持續乾燥、加熱洗淨與風扇乾燥",
+      "尺寸：寬 59.8 x 深 63.9 x 高 45 cm",
+      "建議安裝開口：寬 60 x 深 60 x 高 45.5 cm",
+      "110V / 60Hz、1080W；需進水與排水"
+    ],
+    "description": "Rinnai RKW-601C-SV-TR 是 8 人份 110V 抽屜式洗碗機，保留獨立乾燥並適合腰部高度操作。",
+    "pros": [
+      "8 人份與抽屜式操作比小型桌上機有更大裝載彈性",
+      "110V 台灣規格，不必直接假設需 220V",
+      "官方明列本體與安裝開口尺寸，momo 標示基本安裝"
+    ],
+    "cons": [
+      "必須預留 60cm 櫃寬與足夠 63.9cm 機身深度",
+      "櫥櫃修改、長距離水電與額外材料可能另計",
+      "抽屜式單層擺放仍需依鍋具高度規劃"
+    ],
+    "bestFor": "裝修時可預留 60cm 櫃位、希望抽屜式操作與 110V 配置的 4–8 人家庭。",
+    "recommendation": "Rinnai 日系洗碗機補強：本體 63.9cm 深度不能只看 60cm 開口深；安裝前要核對櫃體、門片、進排水與插座。",
+    "score": 87,
+    "voltage": "110V / 60Hz、1080W；需接地、進水與排水",
+    "warranty": "台灣林內官方 3 年保固（依原廠登錄與條款）",
+    "tags": [
+      "8人份",
+      "抽屜式",
+      "110V",
+      "基本安裝",
+      "持續乾燥"
+    ],
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-08-14",
+      "note": "已查台灣林內、momo 與 exact-model 價格搜尋；比價頁的舊價格無法確認同一安裝範圍及可購新品原頁，因此不採為史低。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-08-14",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"RKW-601C-SV-TR\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22RKW-601C-SV-TR%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "PTT",
+          "query": "site:ptt.cc \"RKW-601C-SV-TR\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22RKW-601C-SV-TR%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "ptt.cc"
         }
       ]
     }

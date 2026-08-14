@@ -617,8 +617,8 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/1f2a33ce70-Gd-10053955.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 43563,
-      "converted": 43563,
+      "amount": 44910,
+      "converted": 44910,
       "confidence": "Yahoo購物中心 2026-08-14 exact-model 公開結構化價格"
     },
     "channel": "tw",
@@ -2236,8 +2236,8 @@
     "image": "https://pstw.panasonic.com.tw/shop/Upload/Product/20260514190222S44S2J5E.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 39512,
-      "converted": 39512,
+      "amount": 44900,
+      "converted": 44900,
       "confidence": "PChome 2026-08-14 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "channel": "tw",
@@ -2395,6 +2395,99 @@
           "platform": "PTT",
           "query": "site:ptt.cc \"LG WD-S22FHDB\" (災情 OR 問題 OR 故障 OR 負評)",
           "queryUrl": "https://search.yahoo.com/search?q=site%3Aptt.cc%20%22LG%20WD-S22FHDB%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "ptt.cc"
+        }
+      ]
+    }
+  },
+  {
+    "id": "washerdryer-panasonic-na-v170rph-k",
+    "category": "washerdryer",
+    "rank": 29,
+    "topPick": false,
+    "budget": "premium",
+    "channel": "tw",
+    "brand": "Panasonic",
+    "model": "NA-V170RPH-K",
+    "name": "17公斤 Heat Pump 智慧聯網洗脫烘（夜幕黑）",
+    "price": {
+      "currency": "TWD",
+      "amount": 54800,
+      "converted": 54800,
+      "confidence": "myfone 購物 2026-08-14 exact-model 夜幕黑新品頁公開網路價；牌價 NT$64,900",
+      "basis": "retailer_current"
+    },
+    "image": "https://www.myfone.com.tw/website_twmf/uploads_product/website_2041/036/699/ECP0204103669957_1_20458150.jpg",
+    "buyUrl": "https://www.myfone.com.tw/mfo/buy/prod/P0000203670244",
+    "buyLabel": "myfone 購物",
+    "installation": {
+      "status": "included_basic",
+      "note": "myfone exact-model 頁明載含配送、基本安裝與舊機回收；僅限台灣本島，偏遠地區、無電梯樓層與超出原廠附件的拉線／換插座等施工另計，並建議搬運通道至少比機身寬 10–15cm。"
+    },
+    "specs": [
+      "洗/乾容量：17kg / 10kg",
+      "尺寸：寬 64 x 深 77.3 x 高 103.5 cm",
+      "尺寸資料不含給／排水管；門開啟與管線空間需另留",
+      "門開啟後總深度約 130.1cm；搬運與操作空間需預留",
+      "第六代 Heat Pump 熱泵低溫除濕乾衣，最高約 65°C",
+      "智慧洗劑自動投入、溫水洗淨、nanoe X、雙效自動槽洗淨",
+      "ECONAVI 智慧節能、IoT 智慧聯網與行程通知",
+      "110V 台灣公司貨；需確認進排水、接地插座、門向與地面水平"
+    ],
+    "description": "Panasonic 17/10kg 旗艦洗脫烘，以台灣首款日規第六代 Heat Pump、nanoe X、自動投入與 IoT，提供較低溫護衣和一機完成洗乾的高階選擇。",
+    "pros": [
+      "17kg 洗衣、10kg 熱泵乾衣，適合大家庭日常洗乾整合",
+      "低溫熱泵、nanoe X、溫水洗與雙效自動槽洗淨功能完整",
+      "官方本體尺寸與開門深度明確，myfone 含基本安裝和舊機回收"
+    ],
+    "cons": [
+      "乾衣 10kg 小於洗衣 17kg，滿載洗衣時通常需分批乾燥",
+      "77.3cm 深且開門後約 130.1cm，陽台或洗衣間需先量測",
+      "全程洗烘時間與整合機維修成本通常高於單洗機，跨站覆核未找到 exact-model 集中災情"
+    ],
+    "bestFor": "需要 17kg 大容量洗衣、偏好低溫熱泵乾衣與 Panasonic 聯網自動投入，且能預留開門深度的家庭。",
+    "recommendation": "Panasonic 日系熱泵旗艦補強：NA-V170RPH-K 適合希望一機洗乾又重視護衣的人；容量比較務必以 17/10kg 分開看，滿載洗衣不能直接視為滿載乾衣。",
+    "score": 92,
+    "voltage": "110V 台灣公司貨；需依原廠條件配置接地插座、進排水並保持地面水平",
+    "warranty": "全機 1 年、控制基板與驅動組 3 年、洗衣／脫水馬達 5 年（依 Panasonic 台灣原廠條款）",
+    "tags": [
+      "洗/乾容量：17kg / 10kg",
+      "Heat Pump",
+      "nanoe X",
+      "自動投入",
+      "IoT",
+      "110V"
+    ],
+    "releaseDate": "2024",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-08-14",
+      "note": "已查 Panasonic 台灣 exact-model 官方頁、myfone、PChome 與 exact-model 價格搜尋；myfone NT$54,800 與 PChome NT$58,410 都是本輪現價，未找到同型號可公開重現且具日期的可信新品歷史價格，因此不以現價推定史低。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-08-14",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"NA-V170RPH-K\" (災情 OR 問題 OR 故障 OR 負評 OR 烘不乾)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22NA-V170RPH-K%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95%20OR%20%E7%83%98%E4%B8%8D%E4%B9%BE)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "PTT",
+          "query": "site:ptt.cc \"NA-V170RPH-K\" (災情 OR 問題 OR 故障 OR 負評 OR 烘不乾)",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22NA-V170RPH-K%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95%20OR%20%E7%83%98%E4%B8%8D%E4%B9%BE)",
           "targetHost": "ptt.cc"
         }
       ]

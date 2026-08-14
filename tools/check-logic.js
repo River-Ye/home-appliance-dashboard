@@ -4,6 +4,9 @@ const vm = require("vm");
 const { readDashboardProducts } = require("./read-dashboard-products");
 const {
   exactModelMatch,
+  exactProductModelMatch,
+  hasCompleteCompositeSystemIdentityAndPrice,
+  hasOfficialSuggestedPriceSource,
   isExcludedListing,
   isExplicitlyDiscontinued,
   isReviewedPchomeBinding,
@@ -12,12 +15,26 @@ const {
 } = require("./catalog-maintenance-policy");
 const { matchesPchomeProductId, selectPchomeCurrentPrice } = require("./pchome-product-api");
 const {
+  AIRCON_SPEC_PREFIXES,
   DIMENSION_PATTERN,
+  JAPANESE_BRAND_ROSTER,
   MEASUREMENT_PRIORITY_CATEGORIES,
   NEW_DIMENSION_CATEGORIES,
   WEIGHT_CATEGORIES,
   WEIGHT_PATTERN,
+  WATERHEATER_SPEC_PREFIXES,
 } = require("./dashboard-contract");
+const {
+  validateAirconProduct,
+  validatePriceAndInstallationContract,
+  validateWaterheaterProduct,
+} = require("./verify-data");
+const {
+  buildJapaneseBrandReview,
+  canonicalJapaneseBrand,
+  isEligibleTaiwanCoverageProduct,
+  sameCatalogIdentity,
+} = require("./japanese-brand-audit");
 const {
   normalizeExchangeDate,
   replaceMarkerBlock,
@@ -82,6 +99,33 @@ function assertThrows(callback, message) {
     threw = true;
   }
   assert(threw, message);
+}
+
+function japaneseBrandReviewFixture(checkedAt) {
+  return JAPANESE_BRAND_ROSTER.map((brand) => ({
+    brand,
+    status: "no_relevant_line",
+    checkedAt,
+    officialSources: ["https://example.test/official-catalog"],
+    existingProductIds: [],
+    addedProductIds: [],
+    reason: "Official catalog reviewed for this category.",
+  }));
+}
+
+function reviewedCategoryFixture({
+  category = "fixture",
+  dataDate,
+  reviewedAt,
+  ...overrides
+}) {
+  return {
+    category,
+    status: "manually_reviewed",
+    reviewedAt,
+    japaneseBrandReview: japaneseBrandReviewFixture(dataDate),
+    ...overrides,
+  };
 }
 
 function createClassList() {
@@ -434,6 +478,7 @@ async function main() {
   );
   assert(WEIGHT_PATTERN.test("重量：查不到"), "weight contract should accept the agreed not-found text");
   assert(WEIGHT_PATTERN.test("重量：約 15.7 kg"), "weight contract should preserve an explicit approximate qualifier");
+  assert(WEIGHT_PATTERN.test("重量：75±5 kg"), "weight contract should preserve an official plus-minus tolerance");
   assert(!WEIGHT_PATTERN.test("重量：毛重 20 kg"), "weight contract should reject gross weight");
   assert(NEW_DIMENSION_CATEGORIES.has("bidet"), "dimension contract should cover bidets");
   assert(MEASUREMENT_PRIORITY_CATEGORIES.has("garmentcare"), "measurement display contract should surface garment-care dimensions");
@@ -589,21 +634,113 @@ async function main() {
   assert(
     maintenanceReviewReady({
       dataDate: "2026-07-22",
-      categoryScan: [{ status: "manually_reviewed", reviewedAt: "2026-07-22T14:16:00.000Z" }],
+      categoryScan: [reviewedCategoryFixture({ dataDate: "2026-07-22", reviewedAt: "2026-07-22T14:16:00.000Z" })],
     }, "2026-07-22"),
     "same-date explicit category reviews should allow finalization",
+  );
+  const semanticReviewDate = "2026-07-22";
+  const semanticCategory = { id: "monitor", label: "電腦螢幕" };
+  const semanticProduct = {
+    id: "monitor-sony-semantic-fixture",
+    category: "monitor",
+    brand: "Sony",
+    model: "FIXTURE-1",
+    rank: 1,
+    channel: "tw",
+    price: { currency: "TWD", converted: 1000 },
+    voltage: "110V／60Hz",
+    warranty: "台灣保固一年",
+  };
+  const semanticBaseline = new Map([[semanticProduct.id, semanticProduct]]);
+  const semanticReview = buildJapaneseBrandReview({
+    category: semanticCategory,
+    products: [semanticProduct],
+    baselineById: semanticBaseline,
+    checkedAt: semanticReviewDate,
+  });
+  const semanticReport = {
+    dataDate: semanticReviewDate,
+    checkedAt: "2026-07-22T14:16:01.000Z",
+    categoryScan: [reviewedCategoryFixture({
+      category: semanticCategory.id,
+      dataDate: semanticReviewDate,
+      reviewedAt: "2026-07-22T14:16:00.000Z",
+      japaneseBrandReview: semanticReview,
+    })],
+  };
+  const semanticContext = {
+    categories: [semanticCategory],
+    products: [semanticProduct],
+    baselineById: semanticBaseline,
+  };
+  assert(
+    maintenanceReviewReady(semanticReport, semanticReviewDate, semanticContext),
+    "the maintenance write gate should accept a Japanese-brand matrix derived from the current catalog and baseline",
+  );
+  const changedIdentityProduct = { ...semanticProduct, model: "FIXTURE-2" };
+  assert(
+    !sameCatalogIdentity(changedIdentityProduct, semanticProduct)
+      && !maintenanceReviewReady(semanticReport, semanticReviewDate, {
+        ...semanticContext,
+        products: [changedIdentityProduct],
+      }),
+    "the maintenance write gate must reject reusing a product ID for a different exact model",
+  );
+  assert(
+    sameCatalogIdentity(
+      { ...semanticProduct, brand: "Mitsubishi Electric", model: "MJ-EHV220KX-TW" },
+      { ...semanticProduct, brand: "Mitsubishi", model: "MJ-EHV220KX-TW" },
+    ),
+    "catalog identity may preserve an exact model while upgrading the legacy Mitsubishi label to confirmed Mitsubishi Electric",
+  );
+  assert(
+    !sameCatalogIdentity(
+      { ...semanticProduct, brand: "Mitsubishi Electric", model: "MJ-EHV220KX-TW" },
+      { ...semanticProduct, brand: "Mitsubishi Heavy", model: "MJ-EHV220KX-TW" },
+    ),
+    "catalog identity must never merge Mitsubishi Heavy into Mitsubishi Electric",
+  );
+  const auditedSemanticProduct = {
+    ...semanticProduct,
+    price: { ...semanticProduct.price, converted: 900 },
+  };
+  assert(
+    maintenanceReviewReady(semanticReport, semanticReviewDate, {
+      ...semanticContext,
+      products: [auditedSemanticProduct],
+    }),
+    "the maintenance write gate must remain stable when the same-run price audit changes a representative product price",
+  );
+  assert(
+    !maintenanceReviewReady({
+      ...semanticReport,
+      categoryScan: [reviewedCategoryFixture({
+        category: semanticCategory.id,
+        dataDate: semanticReviewDate,
+        reviewedAt: "2026-07-22T14:16:00.000Z",
+      })],
+    }, semanticReviewDate, semanticContext),
+    "the maintenance write gate must reject a structurally valid but semantically false Japanese-brand matrix",
   );
   assert(
     !maintenanceReviewReady({
       dataDate: "2026-07-22",
+      checkedAt: "2026-07-22T14:16:01.000Z",
       categoryScan: [{ status: "manually_reviewed", reviewedAt: "2026-07-22T14:16:00.000Z" }],
+    }, "2026-07-22"),
+    "a category review without the complete Japanese-brand matrix must not allow finalization",
+  );
+  assert(
+    !maintenanceReviewReady({
+      dataDate: "2026-07-22",
+      categoryScan: [reviewedCategoryFixture({ dataDate: "2026-07-22", reviewedAt: "2026-07-22T14:16:00.000Z" })],
     }, "2026-07-23"),
     "a new data date should require a draft and fresh category reviews",
   );
   assert(
     !maintenanceReviewReady({
       dataDate: "2026-07-22",
-      categoryScan: [{ status: "manually_reviewed", reviewedAt: null }],
+      categoryScan: [reviewedCategoryFixture({ dataDate: "2026-07-22", reviewedAt: null })],
     }, "2026-07-22"),
     "a manual category decision without a review timestamp must not allow finalization",
   );
@@ -611,7 +748,7 @@ async function main() {
     !maintenanceReviewReady({
       dataDate: "2026-07-22",
       checkedAt: "2026-07-22T14:16:00.000Z",
-      categoryScan: [{ status: "manually_reviewed", reviewedAt: "2026-07-22T14:17:00.000Z" }],
+      categoryScan: [reviewedCategoryFixture({ dataDate: "2026-07-22", reviewedAt: "2026-07-22T14:17:00.000Z" })],
     }, "2026-07-22"),
     "a category review timestamp after the final audit checkpoint must not allow finalization",
   );
@@ -629,6 +766,89 @@ async function main() {
   assert(
     retainedCategoryReview.reviewedAt === originalCategoryReviewAt,
     "a same-date category rerun must preserve the actual manual review timestamp",
+  );
+  const japaneseReview = buildJapaneseBrandReview({
+    category: { id: "monitor", label: "電腦螢幕" },
+    products: [
+      { id: "monitor-sony-existing", category: "monitor", brand: "Sony", model: "OLD-1", rank: 2, channel: "tw", price: { currency: "TWD", converted: 32000 } },
+      {
+        id: "monitor-sony-added", category: "monitor", brand: "Sony", model: "NEW-1", rank: 1, channel: "tw",
+        price: { currency: "TWD", amount: 29000, converted: 29000, basis: "retailer_current" },
+        installation: { status: "not_stated", note: "fixture" },
+        voltage: "110V／60Hz", warranty: "台灣公司貨保固",
+      },
+    ],
+    baselineById: new Map([["monitor-sony-existing", {
+      id: "monitor-sony-existing", category: "monitor", brand: "Sony", model: "OLD-1",
+    }]]),
+    checkedAt: "2026-08-14",
+  });
+  assert(japaneseReview.length === 9, "Japanese-brand audit must create the complete 9-brand row set");
+  const sonyMonitorReview = japaneseReview.find((review) => review.brand === "Sony");
+  assert(
+    sonyMonitorReview.status === "covered_supplemented"
+      && sonyMonitorReview.existingProductIds[0] === "monitor-sony-existing"
+      && sonyMonitorReview.addedProductIds[0] === "monitor-sony-added",
+    "Japanese-brand audit must distinguish existing and supplemented representative products",
+  );
+  assert(
+    japaneseReview.find((review) => review.brand === "HITACHI")?.status === "no_relevant_line",
+    "Japanese-brand audit must record an explicit no-line decision for uncovered categories",
+  );
+  const overseasJapaneseReview = buildJapaneseBrandReview({
+    category: { id: "garmentcare", label: "電子衣櫥（衣物護理機）" },
+    products: [{
+      id: "garmentcare-panasonic-overseas",
+      category: "garmentcare",
+      brand: "Panasonic",
+      model: "HCC-R600AL-X",
+      rank: 1,
+      channel: "global",
+      price: { currency: "JPY", converted: 66442 },
+      voltage: "日本 100V／50–60Hz",
+      warranty: "日本地區保固；不提供台灣原廠保固",
+    }],
+    baselineById: new Map([["garmentcare-panasonic-overseas", {}]]),
+    checkedAt: "2026-08-14",
+  });
+  const overseasPanasonicReview = overseasJapaneseReview.find((review) => review.brand === "Panasonic");
+  assert(
+    overseasPanasonicReview.status === "no_eligible_taiwan_model"
+      && overseasPanasonicReview.existingProductIds.length === 0,
+    "Japanese-brand audit must not count an overseas reference as eligible Taiwan coverage",
+  );
+  assert(canonicalJapaneseBrand("Hitachi") === "HITACHI", "Hitachi alias must normalize to HITACHI");
+  assert(canonicalJapaneseBrand("Mitsubishi Electric") === "Mitsubishi Electric", "the full Mitsubishi Electric name must normalize");
+  assert(canonicalJapaneseBrand("Mitsubishi") === null, "bare Mitsubishi must not be assumed to mean Mitsubishi Electric");
+  assert(
+    !isEligibleTaiwanCoverageProduct({
+      channel: "tw",
+      price: { currency: "TWD", amount: 1000, converted: 1000, basis: "retailer_current" },
+      installation: { status: "not_stated", note: "fixture" },
+      voltage: "日本 100V／60Hz",
+      warranty: "台灣保固",
+    }, { requireNewContract: true }),
+    "new Japanese-brand coverage must reject a Japan-only 100V product even when its frequency is 60Hz",
+  );
+  assert(
+    !isEligibleTaiwanCoverageProduct({
+      channel: "tw",
+      price: { currency: "TWD", converted: 1000, basis: "retailer_current" },
+      installation: { status: "not_stated", note: "fixture" },
+      voltage: "110V／60Hz",
+      warranty: "台灣保固",
+    }, { requireNewContract: true }),
+    "new Japanese-brand coverage must reject a product without a numeric source price amount",
+  );
+  assert(
+    isEligibleTaiwanCoverageProduct({
+      channel: "tw",
+      price: { currency: "TWD", amount: 12900, converted: 12900, basis: "retailer_current" },
+      installation: { status: "not_stated", note: "fixture" },
+      voltage: "原廠適配器輸出 19V／3.42A；BSMI 驗證登錄 R31417",
+      warranty: "台灣公司貨保固",
+    }, { requireNewContract: true }),
+    "a BSMI-registered Taiwan product with an explicit external-adapter output must remain eligible",
   );
   const baselineProduct = {
     id: "fixture-product",
@@ -671,6 +891,25 @@ async function main() {
   assert(compactChangeFixture.summary.pchomeReviewedBindingVerified === 0, "a reviewed PChome binding must be counted only as an exact-model fallback");
   assert(compactChangeFixture.changes.links[0].afterUrl === currentProduct.buyUrl, "compact maintenance report should retain the new purchase link");
   assert(compactChangeFixture.changes.images[0].after === currentProduct.image, "compact maintenance report should retain the new image link");
+  assertThrows(
+    () => buildCompactReport({
+      catalog: {
+        products: [{ ...currentProduct, category: "monitor", brand: "Sony", model: "NEW-2" }],
+        categories: [{ items: [{ ...currentProduct, category: "monitor", brand: "Sony", model: "NEW-2" }] }],
+      },
+      baselineById: new Map([[baselineProduct.id, {
+        ...baselineProduct,
+        category: "monitor",
+        brand: "Sony",
+        model: "OLD-1",
+      }]]),
+      raw: { sourceRows: [], imageRows: [], historicalRows: [], foreignPriceChanges: [], discontinuedCandidates: [] },
+      exchange: {},
+      checkedAt: "2026-08-14T00:00:00.000Z",
+      categoryScan: [],
+    }),
+    "compact maintenance must reject reusing a product ID for a different exact model",
+  );
   const removedProduct = {
     ...baselineProduct,
     id: "officially-discontinued-product",
@@ -832,9 +1071,9 @@ async function main() {
       brand: "New",
       model: "NEW-1",
       name: "New product",
-      price: { currency: "TWD", converted: 1200 },
+      price: { basis: "official_suggested", currency: "TWD", converted: 1200 },
       buyUrl: "https://retailer.example/new",
-      buyLabel: "Retailer",
+      buyLabel: "Official catalog",
       historicalLow: {
         status: "found",
         sourceUrl: "https://history.example/new",
@@ -871,6 +1110,16 @@ async function main() {
   assert(
     historicalResearchFixture.results[1].rejectedCandidates.length === 0,
     "historical research sync should not mislabel an accepted source note as a rejected candidate",
+  );
+  assert(
+    historicalResearchFixture.results[1].priceBasis === "official_suggested"
+      && historicalResearchFixture.results[1].priceLabel === "官方建議售價",
+    "historical research sync must distinguish official suggested prices from retailer current prices",
+  );
+  assert(
+    historicalResearchFixture.results[0].priceBasis === "not_stated"
+      && historicalResearchFixture.results[0].priceLabel === "價格基準未標示",
+    "historical research sync must not infer a retailer-current basis for legacy products",
   );
   const loweredCoffeeHistoricalResearch = {
     results: [{
@@ -1195,12 +1444,12 @@ async function main() {
     {
       dataDate: "2026-08-03",
       checkedAt: "2026-08-02T22:20:23.000Z",
-      categoryScan: [{ status: "manually_reviewed", reviewedAt: "2026-08-02T22:29:03.000Z" }],
+      categoryScan: [reviewedCategoryFixture({ dataDate: "2026-08-03", reviewedAt: "2026-08-02T22:29:03.000Z" })],
     },
     {
       dataDate: "2026-08-03",
       checkedAt: "2026-08-02T22:18:00.000Z",
-      categoryScan: [{ status: "manually_reviewed", reviewedAt: "2026-08-02T22:18:00.000Z" }],
+      categoryScan: [reviewedCategoryFixture({ dataDate: "2026-08-03", reviewedAt: "2026-08-02T22:18:00.000Z" })],
     },
   ], "2026-08-03");
   assert(
@@ -1212,12 +1461,12 @@ async function main() {
     {
       dataDate: "2026-08-03",
       checkedAt: "2026-08-02T22:20:23.000Z",
-      categoryScan: [{ status: "manually_reviewed", reviewedAt: "2026-08-02T22:29:03.000Z" }],
+      categoryScan: [reviewedCategoryFixture({ dataDate: "2026-08-03", reviewedAt: "2026-08-02T22:29:03.000Z" })],
     },
     {
       dataDate: "2026-08-03",
       checkedAt: "2026-08-02T22:29:14.214Z",
-      categoryScan: [{ status: "manually_reviewed", reviewedAt: "2026-08-02T22:29:03.000Z" }],
+      categoryScan: [reviewedCategoryFixture({ dataDate: "2026-08-03", reviewedAt: "2026-08-02T22:29:03.000Z" })],
     },
   ], "2026-08-03");
   assert(
@@ -1230,16 +1479,16 @@ async function main() {
       dataDate: "2026-08-03",
       checkedAt: "2026-08-03T10:00:00.000Z",
       categoryScan: [
-        { category: "wifi", status: "manually_reviewed", decision: "updated_wifi", reviewedAt: "2026-08-03T12:10:00.000Z" },
-        { category: "tv", status: "manually_reviewed", decision: "stale_tv", reviewedAt: "2026-08-03T11:00:00.000Z" },
+        reviewedCategoryFixture({ category: "wifi", dataDate: "2026-08-03", decision: "updated_wifi", reviewedAt: "2026-08-03T12:10:00.000Z" }),
+        reviewedCategoryFixture({ category: "tv", dataDate: "2026-08-03", decision: "stale_tv", reviewedAt: "2026-08-03T11:00:00.000Z" }),
       ],
     },
     {
       dataDate: "2026-08-03",
       checkedAt: "2026-08-03T12:00:00.000Z",
       categoryScan: [
-        { category: "wifi", status: "manually_reviewed", decision: "compact_wifi", reviewedAt: "2026-08-03T11:30:00.000Z" },
-        { category: "tv", status: "manually_reviewed", decision: "newer_compact_tv", reviewedAt: "2026-08-03T11:30:00.000Z" },
+        reviewedCategoryFixture({ category: "wifi", dataDate: "2026-08-03", decision: "compact_wifi", reviewedAt: "2026-08-03T11:30:00.000Z" }),
+        reviewedCategoryFixture({ category: "tv", dataDate: "2026-08-03", decision: "newer_compact_tv", reviewedAt: "2026-08-03T11:30:00.000Z" }),
       ],
     },
   ], "2026-08-03");
@@ -1284,6 +1533,236 @@ async function main() {
     "exact-model policy should reject a longer numeric model token",
   );
   assert(!exactModelMatch("anything", ""), "exact-model policy should reject an empty model");
+  assert(
+    exactProductModelMatch("完整組 MS22IC-HS8 搭配 MA22IC-HS8", {
+      category: "aircon",
+      model: "MS22IC-HS8 / MA22IC-HS8",
+      modelPair: { indoor: "MS22IC-HS8", outdoor: "MA22IC-HS8" },
+    }),
+    "aircon exact-model policy should accept a page containing both indoor and outdoor models",
+  );
+  assert(
+    !exactProductModelMatch("MS22IC-HS8 室內機單機價", {
+      category: "aircon",
+      model: "MS22IC-HS8 / MA22IC-HS8",
+      modelPair: { indoor: "MS22IC-HS8", outdoor: "MA22IC-HS8" },
+    }),
+    "aircon exact-model policy should reject a source that names only one component",
+  );
+  assert(
+    exactProductModelMatch("主機 CHC-75WT，搭配儲槽 WT-200AWE", {
+      category: "waterheater",
+      type: "heat_pump",
+      model: "CHC-75WT + WT-200AWE",
+      componentModels: ["CHC-75WT", "WT-200AWE"],
+    }),
+    "composite heat-pump sources should match when every exact component model appears separately",
+  );
+  assert(
+    hasOfficialSuggestedPriceSource({
+      price: { basis: "official_suggested" },
+      buyUrl: "https://www.rinnai.com.tw/Product/V3/413",
+    }),
+    "official suggested prices should accept an allowlisted Taiwan official host",
+  );
+  assert(
+    hasOfficialSuggestedPriceSource({
+      price: { basis: "official_suggested" },
+      buyUrl: "https://www.homemark.com.tw/product/6",
+    }),
+    "official suggested prices should accept HMK's Taiwan official product host",
+  );
+  assert(
+    !hasOfficialSuggestedPriceSource({
+      price: { basis: "official_suggested" },
+      buyUrl: "https://retailer.invalid/item",
+      buyLabel: "官方建議售價",
+    }),
+    "official suggested prices must reject a retailer host even when its label sounds official",
+  );
+  assert(
+    !hasCompleteCompositeSystemIdentityAndPrice({
+      category: "waterheater",
+      type: "heat_pump",
+      model: "HPD-06KW + D-50S",
+      price: { scope: "single_unit" },
+    }),
+    "a composite heat-pump water heater must not pass without component identities and a complete-system price",
+  );
+  assert(
+    hasCompleteCompositeSystemIdentityAndPrice({
+      category: "waterheater",
+      type: "heat_pump",
+      model: "HPD-06KW + D-50S",
+      componentModels: ["HPD-06KW", "D-50S"],
+      price: { scope: "complete_system" },
+    }),
+    "a composite heat-pump water heater should pass with both component identities and a complete-system price",
+  );
+  assert(
+    !hasCompleteCompositeSystemIdentityAndPrice({
+      category: "waterheater",
+      type: "heat_pump",
+      model: "HPD-06KW + HPD-06KW",
+      componentModels: ["HPD-06KW", "HPD-06KW"],
+      price: { scope: "complete_system" },
+    }),
+    "a composite heat-pump water heater must use distinct component models",
+  );
+  const invalidTaiwanPriceFailures = [];
+  validatePriceAndInstallationContract({
+    id: "aircon-invalid-price-fixture",
+    category: "aircon",
+    model: "INDOOR / OUTDOOR",
+    price: { basis: "retailer_current", currency: "USD", converted: 12345 },
+    installation: { status: "excluded", note: "fixture" },
+  }, invalidTaiwanPriceFailures);
+  assert(
+    invalidTaiwanPriceFailures.some((failure) => failure.includes("positive public numeric price amount"))
+      && invalidTaiwanPriceFailures.some((failure) => failure.includes("requires a TWD Taiwan price")),
+    "new catalog contracts must reject a missing amount and non-TWD public price",
+  );
+  const invalidTaiwanFrequencyFailures = [];
+  validatePriceAndInstallationContract({
+    id: "new-product-invalid-market-fixture",
+    category: "aircon",
+    channel: "tw",
+    model: "INDOOR / OUTDOOR",
+    price: { basis: "retailer_current", currency: "TWD", amount: 12345, converted: 12345 },
+    installation: { status: "excluded", note: "fixture" },
+    voltage: "220V／50Hz",
+    warranty: "台灣公司貨保固",
+    image: "https://example.test/product.jpg",
+  }, invalidTaiwanFrequencyFailures, true);
+  assert(
+    invalidTaiwanFrequencyFailures.some((failure) => failure.includes("50Hz-only or non-Taiwan warranty")),
+    "all new products must reject a 50Hz-only fixture",
+  );
+  const invalidTaiwanWarrantyFailures = [];
+  validatePriceAndInstallationContract({
+    id: "new-product-invalid-warranty-fixture",
+    category: "aircon",
+    channel: "tw",
+    model: "INDOOR / OUTDOOR",
+    price: { basis: "retailer_current", currency: "TWD", amount: 12345, converted: 12345 },
+    installation: { status: "excluded", note: "fixture" },
+    voltage: "220V／60Hz",
+    warranty: "不提供台灣保固",
+    image: "https://example.test/product.jpg",
+  }, invalidTaiwanWarrantyFailures, true);
+  assert(
+    invalidTaiwanWarrantyFailures.some((failure) => failure.includes("50Hz-only or non-Taiwan warranty")),
+    "all new products must reject an explicitly non-Taiwan warranty fixture",
+  );
+  const infiniteRoomSizeFailures = [];
+  validateAirconProduct({
+    id: "aircon-infinite-room-size-fixture",
+    category: "aircon",
+    type: "heat_cool",
+    model: "INDOOR / OUTDOOR",
+    modelPair: { indoor: "INDOOR", outdoor: "OUTDOOR" },
+    price: { scope: "complete_system" },
+    roomSizeUpperPing: Number.POSITIVE_INFINITY,
+    capacityBand: "living_dining",
+    channel: "tw",
+    specs: AIRCON_SPEC_PREFIXES.map((prefix) => `${prefix}fixture`),
+  }, infiniteRoomSizeFailures);
+  assert(
+    infiniteRoomSizeFailures.some((failure) => failure.includes("finite positive roomSizeUpperPing")),
+    "aircon room-size bounds must reject Infinity",
+  );
+  const mismatchedAirconFailures = [];
+  const mismatchedAirconSpecs = {
+    "型式：": "一對一分離式變頻冷暖",
+    "適用坪數：": "9 坪內",
+    "暖房能力：": "3.6 kW",
+    "尺寸：": "室內機 寬 80 x 深 20 x 高 30 cm",
+    "重量：": "室內機 10 kg",
+  };
+  validateAirconProduct({
+    id: "aircon-visible-contract-mismatch",
+    category: "aircon",
+    type: "cooling_only",
+    model: "INDOOR / OUTDOOR",
+    modelPair: { indoor: "INDOOR", outdoor: "OUTDOOR" },
+    price: { scope: "complete_system" },
+    roomSizeUpperPing: 5,
+    capacityBand: "small",
+    channel: "tw",
+    specs: AIRCON_SPEC_PREFIXES.map((prefix) => `${prefix}${mismatchedAirconSpecs[prefix] || "fixture"}`),
+  }, mismatchedAirconFailures);
+  assert(
+    mismatchedAirconFailures.some((failure) => failure.includes("cooling_only type must match"))
+      && mismatchedAirconFailures.some((failure) => failure.includes("must not advertise heating capacity"))
+      && mismatchedAirconFailures.some((failure) => failure.includes("roomSizeUpperPing must match"))
+      && mismatchedAirconFailures.some((failure) => failure.includes("separate indoor and outdoor dimensions"))
+      && mismatchedAirconFailures.some((failure) => failure.includes("separate indoor and outdoor net weights")),
+    "aircon visible specs must stay aligned with type, room-size, and both physical components",
+  );
+  const invalidAirconBoundaryFailures = [];
+  const invalidAirconBoundarySpecs = {
+    "型式：": "窗型冷專商用機",
+    "適用坪數：": "5 坪以上",
+    "暖房能力：": "無暖房（冷專）",
+    "尺寸：": "室內機與室外機 寬 80 x 深 20 x 高 30 cm",
+    "重量：": "室內機與室外機 10 kg",
+  };
+  validateAirconProduct({
+    id: "aircon-invalid-scope-fixture",
+    category: "aircon",
+    type: "cooling_only",
+    model: "ABC / abc",
+    modelPair: { indoor: "ABC", outdoor: "abc" },
+    price: { scope: "complete_system" },
+    roomSizeUpperPing: 5,
+    capacityBand: "small",
+    channel: "tw",
+    specs: AIRCON_SPEC_PREFIXES.map((prefix) => `${prefix}${invalidAirconBoundarySpecs[prefix] || "fixture"}`),
+  }, invalidAirconBoundaryFailures);
+  assert(
+    invalidAirconBoundaryFailures.some((failure) => failure.includes("must differ after normalization"))
+      && invalidAirconBoundaryFailures.some((failure) => failure.includes("residential one-to-one split"))
+      && invalidAirconBoundaryFailures.some((failure) => failure.includes("window, portable, multi-split, or commercial"))
+      && invalidAirconBoundaryFailures.some((failure) => failure.includes("numeric visible room-size upper bound"))
+      && invalidAirconBoundaryFailures.some((failure) => failure.includes("separate indoor and outdoor dimensions"))
+      && invalidAirconBoundaryFailures.some((failure) => failure.includes("separate indoor and outdoor net weights")),
+    "aircon contracts must reject normalized duplicate pairs, excluded form factors, lower-bound ping text, and shared component measurements",
+  );
+  const invalidGasSafetyFailures = [];
+  validateWaterheaterProduct({
+    id: "waterheater-invalid-gas-safety-fixture",
+    category: "waterheater",
+    type: "gas",
+    channel: "tw",
+    specs: WATERHEATER_SPEC_PREFIXES.map((prefix) => `${prefix}x`),
+  }, invalidGasSafetyFailures);
+  assert(
+    invalidGasSafetyFailures.some((failure) => failure.includes("identify LPG or natural-gas compatibility"))
+      && invalidGasSafetyFailures.some((failure) => failure.includes("indoor or outdoor placement"))
+      && invalidGasSafetyFailures.some((failure) => failure.includes("state its exhaust condition")),
+    "gas water-heater contracts must reject unspecified gas, placement, and exhaust conditions",
+  );
+  const sharedCompositeMeasurementsFailures = [];
+  const sharedCompositeMeasurementsSpecs = {
+    "類型：": "熱泵複合系統",
+    "尺寸：": "CHC-75WT + WT-200AWE 寬 81 x 深 30 x 高 90 cm",
+    "重量：": "CHC-75WT + WT-200AWE 65 kg",
+  };
+  validateWaterheaterProduct({
+    id: "waterheater-shared-composite-measurement-fixture",
+    category: "waterheater",
+    type: "heat_pump",
+    channel: "tw",
+    model: "CHC-75WT + WT-200AWE",
+    componentModels: ["CHC-75WT", "WT-200AWE"],
+    price: { scope: "complete_system" },
+    specs: WATERHEATER_SPEC_PREFIXES.map((prefix) => `${prefix}${sharedCompositeMeasurementsSpecs[prefix] || "fixture"}`),
+  }, sharedCompositeMeasurementsFailures);
+  assert(
+    sharedCompositeMeasurementsFailures.some((failure) => failure.includes("dimensions require one measurement segment per component"))
+      && sharedCompositeMeasurementsFailures.some((failure) => failure.includes("weights require one measurement segment per component")),
+    "composite heat-pump contracts must reject one shared dimension or weight segment for multiple components",
+  );
 
   for (const listing of [
     "Samsung OLED TV 二手品",
@@ -1370,6 +1849,23 @@ async function main() {
   assert(!smartLockBrands.includes("ASUS"), "smart lock brands should not include router brands");
   dashboard.state.category = "all";
 
+  dashboard.state.category = "aircon";
+  const airconTypeValues = filters.filterOptions("type").map((option) => option.value);
+  assert(
+    airconTypeValues.join(",") === "all,cooling_only,heat_cool",
+    "aircon type filter must expose only cooling-only and heat-cool values",
+  );
+  dashboard.state.type = "heat_cool";
+  assert(
+    filters.filteredProducts().every((product) => product.category === "aircon" && product.type === "heat_cool"),
+    "type filtering must apply to the complete product dataset",
+  );
+  assert(filters.activeAdvancedFilterCount() === 2, "category and type must both contribute to the active mobile filter count");
+  filters.applyFilterValue("category", "monitor");
+  assert(dashboard.state.type === "all", "switching to an incompatible category must reset type");
+  assert(!filters.typeFilterAvailable(), "type filter must hide outside aircon and waterheater");
+  dashboard.state.category = "all";
+
   assert(
     utils.normalizeText("  Ｗｉ－Ｆｉ， ６５ 吋 ／ 2.5 cm  ") === "wifi 65吋 2.5cm",
     "search normalization should fold width and case, remove punctuation, collapse whitespace, and join common units",
@@ -1377,11 +1873,44 @@ async function main() {
   assert(utils.escapeHtml(`<a href="x">O'Reilly & Co</a>`) === "&lt;a href=&quot;x&quot;&gt;O&#039;Reilly &amp; Co&lt;/a&gt;", "escapeHtml should escape dangerous characters");
 
   const foundLowProduct = products.find((product) => product.historicalLow?.status === "found");
-  const missingLowProduct = products.find((product) => product.historicalLow?.status === "not_found");
+  const missingLowProduct = products.find((product) => (
+    product.price?.basis === "retailer_current" && product.historicalLow?.status === "not_found"
+  ));
   assert(foundLowProduct, "fixture should contain a found historical low product");
   assert(missingLowProduct, "fixture should contain a missing historical low product");
   assert(templates.historicalLowInfo(foundLowProduct).sourceUrl, "found historical low should expose a source URL");
   assert(templates.historicalLowInfo(missingLowProduct).label === "無法判定", "missing historical low should show unknown label");
+  const officialSuggestedProduct = products.find((product) => product.price?.basis === "official_suggested");
+  assert(officialSuggestedProduct, "catalog fixture must include at least one official suggested price");
+  assert(
+    templates.historicalLowInfo(officialSuggestedProduct).label === "待比價",
+    "official suggested prices must not be presented as retailer historical-low comparisons",
+  );
+  const officialSuggestedMarkup = templates.cardMarkup(officialSuggestedProduct);
+  assert(
+    officialSuggestedMarkup.includes("建議售價") && officialSuggestedMarkup.includes("查看官方資料"),
+    "official suggested prices must render explicit label and official-data CTA",
+  );
+  const legacyPriceProduct = {
+    ...products[0],
+    price: { ...products[0].price },
+  };
+  delete legacyPriceProduct.price.basis;
+  const legacyPriceMarkup = templates.cardMarkup(legacyPriceProduct);
+  assert(
+    legacyPriceMarkup.includes("公開售價")
+      && legacyPriceMarkup.includes("價格基準未標示")
+      && !legacyPriceMarkup.includes("台灣通路現價"),
+    "legacy products without a price basis must not be presented as retailer-current prices",
+  );
+  assert(
+    templates.historicalLowInfo(legacyPriceProduct).label === "待覆核",
+    "legacy products without a price basis must not calculate a retailer historical-low difference",
+  );
+  assert(
+    templates.compareTableMarkup([legacyPriceProduct]).includes("<td>未標示</td>"),
+    "comparison tables must disclose an unknown legacy price basis",
+  );
 
   const commonIssueProduct = {
     ...products[0],
@@ -1756,9 +2285,23 @@ async function main() {
   dashboard.urlState.syncToQuery();
   assert(context.history.lastUrl.endsWith("?q=OLED&category=monitor&brand=ASUS&sort=priceAsc"), "query sync should persist active filters only");
 
+  context.location = new URL("https://example.test/index.html?category=aircon&type=heat_cool");
+  context.history.lastUrl = "";
+  dashboard.urlState.applyFromQuery();
+  assert(dashboard.state.category === "aircon" && dashboard.state.type === "heat_cool", "query should restore a compatible type");
+  dashboard.urlState.syncToQuery();
+  assert(context.history.lastUrl.includes("category=aircon&type=heat_cool"), "query sync should persist compatible type");
+
+  context.location = new URL("https://example.test/index.html?category=monitor&type=gas");
+  context.history.lastUrl = "";
+  dashboard.urlState.applyFromQuery();
+  assert(dashboard.state.category === "monitor" && dashboard.state.type === "all", "invalid direct type must be ignored");
+  assert(!context.history.lastUrl.includes("type="), "invalid direct type must be removed from synchronized URL");
+
   Object.assign(dashboard.state, {
     search: "",
     category: "all",
+    type: "all",
     brand: "all",
     budget: "all",
     channel: "all",

@@ -15,9 +15,9 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/AC7DC27581-SP-22704432.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 9143,
-      "converted": 9143,
-      "confidence": "PChome 2026-08-01 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 9351,
+      "converted": 9351,
+      "confidence": "PChome 2026-08-14 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -434,8 +434,8 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/1178FF80D6-SP-21903027.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 31865,
-      "converted": 31865,
+      "amount": 32850,
+      "converted": 32850,
       "confidence": "Yahoo購物中心 2026-08-14 exact-model 公開結構化價格"
     },
     "channel": "tw",
@@ -1518,8 +1518,8 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/04F73DE2ED-SP-21351939.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 35055,
-      "converted": 35055,
+      "amount": 36900,
+      "converted": 36900,
       "confidence": "Yahoo購物中心 2026-08-14 exact-model 公開結構化價格"
     },
     "channel": "tw",
@@ -1834,6 +1834,96 @@
           "query": "\"Samsung DV90F20CDSTW\" (problem OR issue OR defect OR negative review)",
           "queryUrl": "https://www.reddit.com/search/?q=%22Samsung%20DV90F20CDSTW%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
           "targetHost": "reddit.com"
+        }
+      ]
+    }
+  },
+  {
+    "id": "dryer-rinnai-rdt-90-tr-w",
+    "category": "dryer",
+    "rank": 23,
+    "topPick": false,
+    "budget": "premium",
+    "channel": "tw",
+    "brand": "Rinnai",
+    "model": "RDT-90-TR-W",
+    "name": "9kg 日製瓦斯乾衣機",
+    "price": {
+      "currency": "TWD",
+      "amount": 38200,
+      "converted": 38200,
+      "confidence": "PChome 24h 2026-08-14 exact-model 台灣新品頁公開售價",
+      "basis": "retailer_current"
+    },
+    "image": "https://www.rinnai.com.tw/storage/product/1616144753_0001_RDT-90-%E6%AD%A3%E9%9D%A2.png",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DMBM5L-A900FRSMX",
+    "buyLabel": "PChome 24h購物",
+    "installation": {
+      "status": "not_stated",
+      "note": "PChome 頁說明由安裝單位聯繫並可能另收跨區、樓層與特殊施工費，但未清楚界定現價包含的基本工料；瓦斯種類、排氣管、壁掛／層架、通風與管線須先由合格人員場勘。"
+    },
+    "specs": [
+      "乾衣容量 9kg；日製瓦斯型",
+      "約 80°C 高溫乾衣、一般／厚衣／床單毛毯／節能等行程",
+      "尺寸：寬 65 x 深 64.1 x 高 68.4 cm",
+      "本體重量 33 kg",
+      "110V / 60Hz、耗電 300W",
+      "瓦斯消耗：LPG 4.47kW／天然氣 4.65kW；接續口 φ9.5mm"
+    ],
+    "description": "Rinnai RDT-90-TR-W 是小於美系機身的 9kg 日製瓦斯乾衣機，以快速高溫乾衣與架上操作為主。",
+    "pros": [
+      "9kg 容量與 65cm 寬機身兼顧家庭使用和空間",
+      "瓦斯高溫乾衣速度快，床單與厚衣行程完整",
+      "官方尺寸、重量、電力與瓦斯規格齊全"
+    ],
+    "cons": [
+      "必須有正確瓦斯種類、排氣與通風施工",
+      "不能像部分美系機種自由選多段溫度，衣物洗標要先確認",
+      "層架、壁掛、管線與特殊施工可能另計"
+    ],
+    "bestFor": "陽台具合法瓦斯與排氣條件、想縮短大量衣物乾燥時間的家庭。",
+    "recommendation": "Rinnai 日系乾衣補強：乾衣效率高，但安裝安全條件比售價更重要；務必由合格人員場勘。",
+    "score": 88,
+    "voltage": "110V / 60Hz、300W；另需符合瓦斯種類及排氣規範",
+    "warranty": "台灣林內官方 3 年保固（依原廠登錄與條款）",
+    "tags": [
+      "9kg",
+      "瓦斯乾衣",
+      "日本製",
+      "80°C",
+      "110V"
+    ],
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-08-14",
+      "note": "已查台灣林內官方、PChome 與 exact-model 價格搜尋；論壇中的推估價與含不同安裝範圍報價不可直接比較，故不推定史低。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-08-14",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"RDT-90-TR-W\" (災情 OR 問題 OR 故障 OR 負評 OR 縮水)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22RDT-90-TR-W%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95%20OR%20%E7%B8%AE%E6%B0%B4)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "PTT",
+          "query": "site:ptt.cc \"RDT-90-TR-W\" (災情 OR 問題 OR 故障 OR 負評 OR 縮水)",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22RDT-90-TR-W%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95%20OR%20%E7%B8%AE%E6%B0%B4)",
+          "targetHost": "ptt.cc"
         }
       ]
     }

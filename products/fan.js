@@ -1727,6 +1727,96 @@
         }
       ]
     }
+  },
+  {
+    "id": "fan-mitsubishi-r12a-da",
+    "category": "fan",
+    "rank": 23,
+    "topPick": false,
+    "budget": "premium",
+    "channel": "tw",
+    "brand": "Mitsubishi Electric",
+    "model": "R12A-DA",
+    "name": "12 吋 3D 擺頭 DC 兩用扇",
+    "price": {
+      "currency": "TWD",
+      "amount": 10499,
+      "converted": 10499,
+      "confidence": "Yahoo 購物中心 2026-08-14 exact canonical model 頁公開售價，IV 象牙白／MR 褐紅皆可加入購物車",
+      "basis": "retailer_current"
+    },
+    "image": "https://www.mitsubishielectric.com.tw/home/fan/images/r12adw_pd1.png",
+    "buyUrl": "https://tw.buy.yahoo.com/gdsale/gdsale.asp?gdid=p0713236680756",
+    "buyLabel": "Yahoo 購物中心",
+    "installation": {
+      "status": "not_stated",
+      "note": "Yahoo 現售頁未列到府組裝；本品為立扇／循環扇，使用者需依說明書完成底座與立柱組裝。"
+    },
+    "specs": [
+      "官方 canonical 型號 R12A-DA；IV 象牙白／MR 褐紅為顏色變體",
+      "12 吋七片扇葉、DC 直流馬達、5 段風速",
+      "3D 上下左右擺頭、最遠約 10m 集中送風",
+      "強力運轉約 30dB；立扇／循環扇兩用",
+      "尺寸：寬 37 x 深 37 x 高 58–102 cm；重量 5.8kg"
+    ],
+    "description": "Mitsubishi Electric R12A-DA 將立扇與 3D 循環扇整合，強調靜音、遠距送風與四季空氣循環。",
+    "pros": [
+      "3D 擺頭與可變高度可兼作循環扇",
+      "官方強力運轉約 30dB，適合怕噪音空間",
+      "Yahoo 台灣新品頁可選 IV／MR 顏色並直接購買"
+    ],
+    "cons": [
+      "價格明顯高於一般 12 吋 DC 立扇",
+      "只有 5 段風速，細緻度不如多段機種",
+      "12 吋風量定位偏舒適循環，不適合追求大風量者"
+    ],
+    "bestFor": "重視安靜、外觀與 3D 循環，想讓一台風扇全年搭配冷暖氣使用的人。",
+    "recommendation": "三菱電機日系電扇補強：canonical model 固定 R12A-DA，IV／MR 僅作顏色，不以顏色後綴重複列款。",
+    "score": 86,
+    "voltage": "110V／60Hz；台灣公司貨",
+    "warranty": "三菱電機台灣公司貨；依原廠與 Yahoo 購物頁條款",
+    "tags": [
+      "12吋",
+      "DC",
+      "3D擺頭",
+      "立扇循環扇兩用",
+      "IV象牙白",
+      "MR褐紅"
+    ],
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-08-14",
+      "note": "已查三菱電機台灣官方、Yahoo、甫佳與 exact-model 價格搜尋；PTT NT$8,500 候選為個人轉售且明確排除，本輪未找到可採用的具日期可信新品史低。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-08-14",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"R12A-DA\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22R12A-DA%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "Dcard",
+          "query": "site:dcard.tw \"R12A-DA\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.google.com/search?q=site%3Adcard.tw%20%22R12A-DA%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "dcard.tw"
+        }
+      ]
+    }
   }
 ]);
 })();
