@@ -270,8 +270,8 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/4455399AAF-SP-22083802.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 14500,
-      "converted": 14500,
+      "amount": 13920,
+      "converted": 13920,
       "confidence": "Yahoo購物中心 2026-08-14 exact-model 公開結構化價格"
     },
     "channel": "tw",
@@ -2145,7 +2145,7 @@
       "confidence": "雅光電器 2026-08-14 exact-model 新品頁公開售價並標示尚有庫存",
       "basis": "retailer_current"
     },
-    "image": "https://www.mitsubishielectric.com.tw/product1_list/home/refrigerator/images/mrwx53c_pd1.png?t=1728880768",
+    "image": "https://www.mitsubishielectric.com.tw/product1_list/home/refrigerator/images/mrwx53c_pd1.png",
     "buyUrl": "https://www.yk01.com.tw/products/mrwx53c",
     "buyLabel": "雅光電器",
     "installation": {

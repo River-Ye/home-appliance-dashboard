@@ -790,13 +790,14 @@ function selectPreviousCategoryReview(reports, maintenanceDate) {
   const latestReport = candidates.reduce((latest, report) => (
     reportCheckedAt(report) > reportCheckedAt(latest) ? report : latest
   ));
+  const latestCheckedAt = reportCheckedAt(latestReport);
   const selectedByCategory = new Map(latestReport.categoryScan.map((row) => [row.category, row]));
   for (const report of candidates) {
     for (const row of report.categoryScan) {
       const selected = selectedByCategory.get(row.category);
       const reviewedAt = Date.parse(row.reviewedAt);
       const selectedReviewedAt = Date.parse(selected?.reviewedAt);
-      if (!selected || (!Number.isNaN(reviewedAt)
+      if (!selected || (!Number.isNaN(reviewedAt) && reviewedAt > latestCheckedAt
         && (Number.isNaN(selectedReviewedAt) || reviewedAt > selectedReviewedAt))) {
         selectedByCategory.set(row.category, row);
       }
@@ -839,6 +840,43 @@ function readPreviousDiscontinuationReviews() {
   return new Map();
 }
 
+function sameCategoryCatalogIdentities(categoryId, products, baselineById) {
+  const currentProducts = products.filter((product) => product.category === categoryId);
+  const baselineProducts = [...baselineById.values()].filter((product) => product.category === categoryId);
+  if (currentProducts.length !== baselineProducts.length) return false;
+  const currentById = new Map(currentProducts.map((product) => [product.id, product]));
+  return baselineProducts.every((product) => sameCatalogIdentity(currentById.get(product.id), product));
+}
+
+function carriedCategoryReviewMatchesCatalog({
+  row,
+  category,
+  products,
+  baselineById,
+  maintenanceDate,
+  maximumReviewedAt,
+}) {
+  if (!categoryReviewReady(row, maximumReviewedAt, maintenanceDate)
+    || !sameCategoryCatalogIdentities(category.id, products, baselineById)) return false;
+  const acceptedIds = row.acceptedCandidates || [];
+  if (!Array.isArray(acceptedIds)) return false;
+  const categoryProductIds = new Set(products
+    .filter((product) => product.category === category.id)
+    .map((product) => product.id));
+  if (new Set(acceptedIds).size !== acceptedIds.length
+    || acceptedIds.some((id) => !categoryProductIds.has(id))) return false;
+  const carriedBaselineById = new Map(products
+    .filter((product) => !acceptedIds.includes(product.id))
+    .map((product) => [product.id, product]));
+  const expected = buildJapaneseBrandReview({
+    category,
+    products,
+    baselineById: carriedBaselineById,
+    checkedAt: maintenanceDate,
+  });
+  return JSON.stringify(row.japaneseBrandReview) === JSON.stringify(expected);
+}
+
 function maintenanceReviewReady(report, maintenanceDate, catalogContext = null) {
   const structurallyReady = report?.dataDate === maintenanceDate
     && Array.isArray(report.categoryScan)
@@ -849,9 +887,32 @@ function maintenanceReviewReady(report, maintenanceDate, catalogContext = null) 
   const { categories, products, baselineById } = catalogContext;
   if (!Array.isArray(categories) || !Array.isArray(products) || !(baselineById instanceof Map)) return false;
   if (products.some((product) => baselineById.has(product.id) && !sameCatalogIdentity(product, baselineById.get(product.id)))) return false;
+  const productById = new Map(products.map((product) => [product.id, product]));
+  const addedIds = products.filter((product) => !baselineById.has(product.id)).map((product) => product.id);
+  const removedIds = [...baselineById.keys()].filter((id) => !productById.has(id));
+  const reviewedRemovedIds = new Set([
+    ...(report.summary?.discontinuedRemoved || []).map((row) => typeof row === "string" ? row : row.id),
+    ...(report.summary?.catalogEntriesReplaced || []).map((row) => row.beforeId),
+  ]);
+  if (report.categoryScan.some((row) => !Array.isArray(row.acceptedCandidates)
+    || new Set(row.acceptedCandidates).size !== row.acceptedCandidates.length
+    || row.acceptedCandidates.some((id) => {
+      const product = productById.get(id) || baselineById.get(id);
+      return !product || product.category !== row.category
+        || (!productById.has(id) && !reviewedRemovedIds.has(id));
+    }))) return false;
+  const acceptedIds = new Set(report.categoryScan.flatMap((row) => row.acceptedCandidates || []));
+  if (addedIds.some((id) => !acceptedIds.has(id))) return false;
+  if (removedIds.some((id) => !reviewedRemovedIds.has(id))) return false;
   if (report.categoryScan.length !== categories.length) return false;
   const scanByCategory = new Map(report.categoryScan.map((row) => [row.category, row]));
   if (scanByCategory.size !== categories.length) return false;
+  const carriedForward = ["same_date_carried_forward", "mixed_current_and_carried_forward"]
+    .includes(report.categoryReviewProvenance);
+  const changedCategoryIds = new Set([
+    ...addedIds.map((id) => productById.get(id)?.category),
+    ...removedIds.map((id) => baselineById.get(id)?.category),
+  ]);
   return categories.every((category) => {
     const row = scanByCategory.get(category.id);
     if (!row) return false;
@@ -861,7 +922,16 @@ function maintenanceReviewReady(report, maintenanceDate, catalogContext = null) 
       baselineById,
       checkedAt: maintenanceDate,
     });
-    return JSON.stringify(row.japaneseBrandReview) === JSON.stringify(expected);
+    return carriedForward && !changedCategoryIds.has(category.id)
+      ? carriedCategoryReviewMatchesCatalog({
+        row,
+        category,
+        products,
+        baselineById,
+        maintenanceDate,
+        maximumReviewedAt: report.checkedAt,
+      })
+      : JSON.stringify(row.japaneseBrandReview) === JSON.stringify(expected);
   });
 }
 
@@ -901,7 +971,7 @@ function categoryReviewProvenance(categoryScan, sourceCheckedAt) {
   }
   const sourceTimestamp = Date.parse(sourceCheckedAt);
   if (Number.isNaN(sourceTimestamp)) return "current_run";
-  const currentReviewCount = categoryScan.filter((row) => Date.parse(row.reviewedAt) > sourceTimestamp).length;
+  const currentReviewCount = categoryScan.filter((row) => Date.parse(row.reviewedAt) >= sourceTimestamp).length;
   if (currentReviewCount === categoryScan.length) return "current_run";
   if (currentReviewCount === 0) return "same_date_carried_forward";
   return "mixed_current_and_carried_forward";
@@ -1238,6 +1308,7 @@ module.exports = {
   buildCompactReport,
   categoryReviewProvenance,
   currentCategoryScan,
+  carriedCategoryReviewMatchesCatalog,
   exchangeRateRequestUrl,
   exchangeRatesFromPayload,
   loadCatalogFromGit,

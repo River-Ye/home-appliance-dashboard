@@ -123,6 +123,8 @@ function reviewedCategoryFixture({
     category,
     status: "manually_reviewed",
     reviewedAt,
+    acceptedCandidates: [],
+    trackedOrRejectedCandidates: [],
     japaneseBrandReview: japaneseBrandReviewFixture(dataDate),
     ...overrides,
   };
@@ -676,6 +678,134 @@ async function main() {
   assert(
     maintenanceReviewReady(semanticReport, semanticReviewDate, semanticContext),
     "the maintenance write gate should accept a Japanese-brand matrix derived from the current catalog and baseline",
+  );
+  const carriedSemanticProduct = {
+    ...semanticProduct,
+    price: { currency: "TWD", amount: 1000, converted: 1000, basis: "retailer_current" },
+    installation: { status: "not_stated", note: "fixture" },
+  };
+  const carriedSemanticReview = buildJapaneseBrandReview({
+    category: semanticCategory,
+    products: [carriedSemanticProduct],
+    baselineById: new Map(),
+    checkedAt: semanticReviewDate,
+  });
+  const carriedSemanticReport = {
+    ...semanticReport,
+    categoryReviewProvenance: "same_date_carried_forward",
+    categoryScan: [reviewedCategoryFixture({
+      category: semanticCategory.id,
+      dataDate: semanticReviewDate,
+      reviewedAt: "2026-07-22T14:16:00.000Z",
+      acceptedCandidates: [carriedSemanticProduct.id],
+      japaneseBrandReview: carriedSemanticReview,
+    })],
+  };
+  assert(
+    carriedSemanticReview.find((review) => review.brand === "Sony")?.status === "covered_added"
+      && maintenanceReviewReady(carriedSemanticReport, semanticReviewDate, {
+        categories: [semanticCategory],
+        products: [carriedSemanticProduct],
+        baselineById: new Map([[carriedSemanticProduct.id, carriedSemanticProduct]]),
+      }),
+    "a same-date price-only rerun should preserve a valid carried-forward added-product matrix",
+  );
+  const semanticAddedProduct = {
+    ...carriedSemanticProduct,
+    id: "monitor-sony-semantic-added",
+    brand: "Dell",
+    model: "FIXTURE-2",
+    rank: 2,
+  };
+  assert(
+    !maintenanceReviewReady(carriedSemanticReport, semanticReviewDate, {
+      categories: [semanticCategory],
+      products: [carriedSemanticProduct, semanticAddedProduct],
+      baselineById: new Map([[carriedSemanticProduct.id, carriedSemanticProduct]]),
+    }),
+    "a non-Japanese catalog addition must reject a carried-forward review that omits the new product",
+  );
+  assert(
+    !maintenanceReviewReady(carriedSemanticReport, semanticReviewDate, {
+      categories: [semanticCategory],
+      products: [],
+      baselineById: new Map([[carriedSemanticProduct.id, carriedSemanticProduct]]),
+    }),
+    "a catalog removal must reject a carried-forward review without a reviewed removal",
+  );
+  const carriedTvCategory = { id: "tv", label: "電視" };
+  const carriedTvProduct = {
+    ...carriedSemanticProduct,
+    id: "tv-sony-carried-semantic-fixture",
+    category: carriedTvCategory.id,
+    model: "TV-FIXTURE-1",
+  };
+  const mixedSemanticReport = {
+    ...carriedSemanticReport,
+    categoryReviewProvenance: "mixed_current_and_carried_forward",
+    summary: { newProductsAdded: [semanticAddedProduct.id] },
+    categoryScan: [
+      reviewedCategoryFixture({
+        category: semanticCategory.id,
+        dataDate: semanticReviewDate,
+        reviewedAt: "2026-07-22T14:16:00.000Z",
+        acceptedCandidates: [carriedSemanticProduct.id, semanticAddedProduct.id],
+        japaneseBrandReview: buildJapaneseBrandReview({
+          category: semanticCategory,
+          products: [carriedSemanticProduct, semanticAddedProduct],
+          baselineById: new Map([[carriedSemanticProduct.id, carriedSemanticProduct]]),
+          checkedAt: semanticReviewDate,
+        }),
+      }),
+      reviewedCategoryFixture({
+        category: carriedTvCategory.id,
+        dataDate: semanticReviewDate,
+        reviewedAt: "2026-07-22T14:15:00.000Z",
+        acceptedCandidates: [carriedTvProduct.id],
+        japaneseBrandReview: buildJapaneseBrandReview({
+          category: carriedTvCategory,
+          products: [carriedTvProduct],
+          baselineById: new Map(),
+          checkedAt: semanticReviewDate,
+        }),
+      }),
+    ],
+  };
+  assert(
+    maintenanceReviewReady(mixedSemanticReport, semanticReviewDate, {
+      categories: [semanticCategory, carriedTvCategory],
+      products: [carriedSemanticProduct, semanticAddedProduct, carriedTvProduct],
+      baselineById: new Map([
+        [carriedSemanticProduct.id, carriedSemanticProduct],
+        [carriedTvProduct.id, carriedTvProduct],
+      ]),
+    }),
+    "a mixed report should refresh the changed category while preserving an unchanged carried category",
+  );
+  const reviewedRemovalReport = {
+    ...carriedSemanticReport,
+    categoryReviewProvenance: "mixed_current_and_carried_forward",
+    summary: { discontinuedRemoved: [carriedSemanticProduct.id] },
+    categoryScan: [reviewedCategoryFixture({
+      category: semanticCategory.id,
+      dataDate: semanticReviewDate,
+      reviewedAt: "2026-07-22T14:16:00.000Z",
+      acceptedCandidates: [carriedSemanticProduct.id],
+      japaneseBrandReview: buildJapaneseBrandReview({
+        category: semanticCategory,
+        products: [],
+        baselineById: new Map([[carriedSemanticProduct.id, carriedSemanticProduct]]),
+        checkedAt: semanticReviewDate,
+      }),
+    })],
+  };
+  assert(
+    maintenanceReviewReady(reviewedRemovalReport, semanticReviewDate, {
+      categories: [semanticCategory],
+      products: [],
+      baselineById: new Map([[carriedSemanticProduct.id, carriedSemanticProduct]]),
+    }),
+    "a reviewed removal should allow its same-date accepted candidate to remain in provenance",
   );
   const changedIdentityProduct = { ...semanticProduct, model: "FIXTURE-2" };
   assert(
@@ -1457,6 +1587,12 @@ async function main() {
       && categoryReviewProvenance(selectedCurrentReview.rows, selectedCurrentReview.sourceCheckedAt) === "current_run",
     "a review completed after the draft checkpoint must be marked as current-run provenance",
   );
+  assert(
+    categoryReviewProvenance([
+      reviewedCategoryFixture({ dataDate: "2026-08-03", reviewedAt: "2026-08-02T22:20:23.000Z" }),
+    ], "2026-08-02T22:20:23.000Z") === "current_run",
+    "a review completed at the draft checkpoint must be marked as current-run provenance",
+  );
   const selectedCarriedReview = selectPreviousCategoryReview([
     {
       dataDate: "2026-08-03",
@@ -1473,6 +1609,22 @@ async function main() {
     selectedCarriedReview.sourceCheckedAt === "2026-08-02T22:29:14.214Z"
       && categoryReviewProvenance(selectedCarriedReview.rows, selectedCarriedReview.sourceCheckedAt) === "same_date_carried_forward",
     "a finalized same-date review must be marked as carried forward on a later rerun",
+  );
+  const restoredLatestSnapshot = selectPreviousCategoryReview([
+    {
+      dataDate: "2026-08-03",
+      checkedAt: "2026-08-03T10:32:00.000Z",
+      categoryScan: [reviewedCategoryFixture({ dataDate: "2026-08-03", decision: "rewritten", reviewedAt: "2026-08-03T10:31:00.000Z" })],
+    },
+    {
+      dataDate: "2026-08-03",
+      checkedAt: "2026-08-03T11:01:00.000Z",
+      categoryScan: [reviewedCategoryFixture({ dataDate: "2026-08-03", decision: "restored", reviewedAt: "2026-08-03T04:43:00.000Z" })],
+    },
+  ], "2026-08-03");
+  assert(
+    restoredLatestSnapshot.rows[0].decision === "restored",
+    "an older report reviewed before the latest checkpoint must not override the latest snapshot",
   );
   const partiallyUpdatedStaleDraft = selectPreviousCategoryReview([
     {
