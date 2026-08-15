@@ -2376,13 +2376,13 @@
     "name": "七合一人臉/貓眼掌靜脈電子鎖",
     "price": {
       "currency": "TWD",
-      "amount": 28310,
-      "converted": 28310,
-      "confidence": "PChome 2026-07-31 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 29800,
+      "converted": 29800,
+      "confidence": "新光三越 skm online 2026-08-15 exact-model 正常新品公開價"
     },
-    "image": "https://cs-a.ecimg.tw/items/DQBS4NA900IT8YL/000001_1782961750.jpg",
-    "buyUrl": "https://24h.pchome.com.tw/prod/DQBS4N-A900IT8YL",
-    "buyLabel": "PChome",
+    "image": "https://img.skmonline.com.tw/App_Images/727/ERPItem/2026/0424/m_e3dcd67c-6ee8-42d9-8598-39477fba7f9d_8259794.webp",
+    "buyUrl": "https://online.skm.com.tw/product/862012300004117611",
+    "buyLabel": "新光三越 skm online",
     "specs": [
       "人臉/貓眼/掌靜脈",
       "指紋/卡片/密碼/鑰匙",
@@ -2392,7 +2392,7 @@
     "description": "電子鎖購買前要先確認門厚、門向、鎖體、天地栓與安裝條件；本清單僅列可信通路正常新品。",
     "pros": [
       "HITACHI 通路能見度高",
-      "PChome 正常新品頁，價格與圖片可查核"
+      "新光三越正常新品頁，價格與圖片可查核"
     ],
     "cons": [
       "安裝前需確認門型與加價項目",
@@ -2402,7 +2402,7 @@
     "recommendation": "HITACHI 高階推薦：辨識方式完整，售價偏高但品牌安心感強。",
     "score": 86,
     "voltage": "多為電池供電；需確認門厚、門向、鎖體與是否有天地栓",
-    "warranty": "依 PChome 商品頁、原廠或台灣代理保固與安裝條款",
+    "warranty": "依新光三越商品頁、原廠或台灣代理保固與安裝條款",
     "tags": [
       "人臉",
       "掌靜脈",

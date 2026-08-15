@@ -1051,8 +1051,8 @@
     "price": {
       "currency": "EUR",
       "amount": 999,
-      "converted": 37008,
-      "confidence": "Boulanger 2026-07-21 來源價；ExchangeRate-API 2026-08-14 匯率換算"
+      "converted": 36941,
+      "confidence": "Boulanger 2026-07-21 來源價；ExchangeRate-API 2026-08-15 匯率換算"
     },
     "image": "https://boulanger.scene7.com/is/image/Boulanger/6972075738536_h_f_l_0?fmt=png-alpha&wid=640&hei=640",
     "buyUrl": "https://www.boulanger.com/ref/1238998",
@@ -1129,8 +1129,8 @@
     "price": {
       "currency": "USD",
       "amount": 551.69,
-      "converted": 17722,
-      "confidence": "Geekbuying 2026-07-21 來源價；ExchangeRate-API 2026-08-14 匯率換算"
+      "converted": 17638,
+      "confidence": "Geekbuying 2026-07-21 來源價；ExchangeRate-API 2026-08-15 匯率換算"
     },
     "image": "https://img.gkbcdn.com/p/2025-04-11/Narwal-Freo-Z10-Ultra-Robot-Vacuum-with-Base-Station-Gray-528438-0._w315_.jpg",
     "buyUrl": "https://www.geekbuying.com/item/Narwal-Freo-Z10-Ultra-Robot-Vacuum-with-Base-Station-Gray-528438.html",
@@ -2093,8 +2093,8 @@
     "price": {
       "currency": "USD",
       "amount": 999.99,
-      "converted": 32123,
-      "confidence": "SharkNinja US 2026-07-21 來源價；ExchangeRate-API 2026-08-14 匯率換算"
+      "converted": 31971,
+      "confidence": "SharkNinja US 2026-07-21 來源價；ExchangeRate-API 2026-08-15 匯率換算"
     },
     "image": "https://assets.sharkninja.com/image/upload/f_auto/q_auto/SharkNinja-NA/RV2820ZE_01.jpg",
     "buyUrl": "https://www.sharkninja.com/shark-powerdetect-2-in-1-robot-vacuum-and-mop-with-nevertouch-pro-base/RV2820ZE.html",
@@ -2251,29 +2251,30 @@
     "price": {
       "currency": "USD",
       "amount": 399.99,
-      "converted": 12849,
-      "confidence": "Costco US 2026-07-21 來源價；ExchangeRate-API 2026-08-14 匯率換算"
+      "converted": 12788,
+      "confidence": "Costco US 2026-07-21 最後可驗證價；2026-08-15 exact-model 頁顯示 Unavailable；ExchangeRate-API 2026-08-15 匯率換算"
     },
     "image": "https://bfasset.costco-static.com/U447IH35/as/tkj772p4357mmh3bwz8kcq/1791272-847__1?auto=webp&format=jpg",
-    "buyUrl": "https://www.costco.com/roborock-qx-revo-robot-vacuum-and-mop-with-multifunctional-dock.product.4000233271.html",
-    "buyLabel": "Costco US",
+    "buyUrl": "https://www.costco.com/p/-/roborock-qx-revo-robot-vacuum-and-mop-with-multifunctional-dock/4000233271",
+    "buyLabel": "Costco US（目前無法購買）",
     "specs": [
       "掃拖機器人",
       "多功能基站",
-      "Costco US 2,885 則評論",
+      "Costco US exact-model 頁目前顯示 Unavailable",
       "海外購買需確認電壓、耗材與保固"
     ],
-    "description": "Costco US 上評論量很高的 Roborock 掃拖機器人，適合作為海外價格與同級台灣機種的比較參考。",
+    "description": "Roborock QX Revo 具掃拖與多功能基站；Costco US exact-model 頁目前無法購買，僅保留作海外規格與最後可驗證價格參考。",
     "pros": [
-      "Costco US 評論數高，市場口碑基礎厚",
+      "5500Pa、雙旋轉拖布與多功能基站規格完整",
       "掃拖與基站自動化完整"
     ],
     "cons": [
       "未含國際運費、進口稅與台灣保固",
-      "需自行確認電壓、插頭、耗材與 App 區域支援"
+      "需自行確認電壓、插頭、耗材與 App 區域支援",
+      "Costco US exact-model 頁目前無法購買"
     ],
     "bestFor": "可接受海外採購風險，想比較 Roborock Costco 特規價格的人。",
-    "recommendation": "好市多海外補充：QX Revo 在 Costco US 評論量高，適合對照台灣 Roborock、Dreame、Narwal 機種。",
+    "recommendation": "海外規格參考：目前無可購新品來源，不列為台灣優先選擇；待 Costco US 或原廠恢復供貨再更新。",
     "score": 86,
     "voltage": "海外版本，需確認 100-240V、插頭與變壓器需求",
     "warranty": "Costco US / 海外通路，可能無台灣保固",

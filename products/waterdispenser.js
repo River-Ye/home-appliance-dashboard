@@ -607,9 +607,9 @@
     "image": "https://cs-a.ecimg.tw/items/DMAC6RA900IUC3J/000001_1761017834.png",
     "price": {
       "currency": "TWD",
-      "amount": 28999,
-      "converted": 28999,
-      "confidence": "PChome 2026-08-14 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 26099,
+      "converted": 26099,
+      "confidence": "PChome 2026-08-15 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -690,9 +690,9 @@
     "image": "https://cs-a.ecimg.tw/items/DMCI01A900JV0NP/000001_1774843160.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 17800,
-      "converted": 17800,
-      "confidence": "PChome 2026-08-14 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 16020,
+      "converted": 16020,
+      "confidence": "PChome 2026-08-15 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -1108,9 +1108,9 @@
     "image": "https://cs-a.ecimg.tw/items/DMBM2HA900GH7MW/000001_1770018742.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 27800,
-      "converted": 27800,
-      "confidence": "PChome 2026-08-14 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 25020,
+      "converted": 25020,
+      "confidence": "PChome 2026-08-15 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -1277,9 +1277,9 @@
     "name": "櫥下型雙溫 UV 觸控飲水機",
     "price": {
       "currency": "TWD",
-      "amount": 34000,
-      "converted": 34000,
-      "confidence": "PChome 2026-08-14 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 30600,
+      "converted": 30600,
+      "confidence": "PChome 2026-08-15 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DSBE1FA900GSOLN/000001_1698896380.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMCI17-A900I6OFW",
@@ -1515,9 +1515,9 @@
     "name": "廚下 RO 雙溫觸控飲水機",
     "price": {
       "currency": "TWD",
-      "amount": 36810,
-      "converted": 36810,
-      "confidence": "PChome 2026-08-14 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 33129,
+      "converted": 33129,
+      "confidence": "PChome 2026-08-15 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMCI0OA900JT66N/000001_1773306819.png",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMCI0O-A900JI1JA",
@@ -1750,8 +1750,8 @@
     "price": {
       "currency": "USD",
       "amount": 369.99,
-      "converted": 11885,
-      "confidence": "Costco US 2026-07-21 來源價；ExchangeRate-API 2026-08-14 匯率換算"
+      "converted": 11829,
+      "confidence": "Costco US 2026-07-21 來源價；ExchangeRate-API 2026-08-15 匯率換算"
     },
     "image": "https://bfasset.costco-static.com/U447IH35/as/4xjr3phfqx7p9vvxzfhp3jp/100457228-847_chrome_1?auto=webp&format=jpg",
     "buyUrl": "https://www.costco.com/brondell-circle-reverse-osmosis-water-filtration-system.product.100457228.html",
@@ -2089,9 +2089,9 @@
     "name": "極熱 廚下五段溫控瞬熱飲水機",
     "price": {
       "currency": "TWD",
-      "amount": 28800,
-      "converted": 28800,
-      "confidence": "PChome 2026-08-14 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 25920,
+      "converted": 25920,
+      "confidence": "PChome 2026-08-15 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAWHTA900JVB6I/000001_1775031754.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAWHT-A900JVB6I",
@@ -2766,11 +2766,11 @@
       "currency": "TWD",
       "amount": 28800,
       "converted": 28800,
-      "confidence": "DECH 台灣官方商城 2026-08-08 公開價與可加入購物車／立即購買狀態"
+      "confidence": "DECH 台灣官方商城 2026-08-08 最後可驗證公開價；2026-08-15 官網網域無法解析，暫無新品購買頁"
     },
     "image": "https://attach.mobile01.com/attach/202506/mobile01-1fe83b9868f02c2244bbeba402e0c5cd.jpg",
-    "buyUrl": "https://www.dech.com.tw/shop/dech-9",
-    "buyLabel": "DECH 官方商城",
+    "buyUrl": "https://www.mobile01.com/topicdetail.php?f=168&t=7131776",
+    "buyLabel": "Mobile01 產品專題（目前無新品通路）",
     "specs": [
       "原廠明列無須儲水的瞬間加熱；約 5–7 秒達設定溫度",
       "92°C 熱水約 300–330 mL/min；需另配可生飲前端淨水",
@@ -2781,16 +2781,17 @@
     "description": "DH-1 是台灣設計製造的 110V 無儲熱槽瞬熱主機，體積小且電力條件公開，但售價不含前端濾心與安裝。",
     "pros": [
       "110V／60Hz 無儲熱槽瞬熱",
-      "官方說明書、購買與保固條件可 exact-model 對齊",
+      "官方說明書可與 DH-1 exact model 對齊",
       "主機僅 3.9 kg、適合櫥下配置"
     ],
     "cons": [
+      "2026-08-15 查無可購新品頁，僅保留產品資料參考",
       "不含濾心、前端淨水設備與安裝服務",
       "需 15A 獨立迴路、漏電斷路器與接地",
       "溫度顯示位於廚下主機而非龍頭"
     ],
     "bestFor": "想用 110V 無儲熱槽瞬熱、已有或另行規劃前端淨水，並能安排獨立迴路的家庭。",
-    "recommendation": "MIT 110V 瞬熱補充推薦：電力與保固條件透明；總成本要把濾水器、安裝、鑽孔與配電一併計入。",
+    "recommendation": "MIT 110V 瞬熱規格參考：目前查無可購新品頁；待品牌官網或可信通路恢復後再納入實際採購比較。",
     "score": 89,
     "voltage": "AC 110V／60Hz、輸入 12–15A、待機 2W；需 2.0 mm² 以上獨立三孔迴路、15A 以上漏電斷路器與接地",
     "warranty": "全機自出貨日起 13 個月（實際保固 12 個月＋寄送往來 1 個月）；濾心、外接管線、濾頭與水閥不在範圍",

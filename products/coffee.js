@@ -770,13 +770,13 @@
       "amount": 49800,
       "currency": "TWD",
       "converted": 49800,
-      "sourceUrl": "https://www.touchcafe.com.tw/magenta-prestige/",
-      "sourceTitle": "Touch Cafe GAGGIA Magenta Prestige 爵品型商品頁",
-      "evidenceSnippet": "exact-model 台灣新品頁公開特價為 49,800 元；momo 同型號公司貨亦列 49,800 元。",
+      "sourceUrl": "https://photo.sogo.com.tw/Content/Upload/02/Dm_pdf/2024/01m/24010519103344-3.pdf#page=23",
+      "sourceTitle": "SOGO 天母店 2024 甲辰祥春節官方 DM",
+      "evidenceSnippet": "SOGO 天母店官方 DM 印刷頁 22 明列「GAGGIA 全自動義式咖啡機 爵品型（義大利原裝）MAGENTA PRESTIGE」，原價 NT$75,000、活動特價 NT$49,800。",
       "sourceKind": "retailer_promo",
-      "confidence": "medium",
-      "checkedAt": "2026-08-04",
-      "note": "截至查核日，兩個台灣新品通路可重現同型號 49,800 元公開價；未取得更低且可回到可信新品原始頁的候選。"
+      "confidence": "high",
+      "checkedAt": "2026-08-15",
+      "note": "SOGO 官方 DM 活動期間為 2024-01-20 至 2024-02-14；momo 目前同型號公司貨亦列 NT$49,800，未取得更低且可回到可信新品原始頁的候選。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -1176,9 +1176,9 @@
     "name": "Saeco 半自動義式咖啡機",
     "price": {
       "currency": "TWD",
-      "amount": 4990,
-      "converted": 4990,
-      "confidence": "Yahoo購物中心 2026-08-14 exact-model 公開結構化價格"
+      "amount": 4741,
+      "converted": 4741,
+      "confidence": "Yahoo購物中心 2026-08-15 exact-model 公開結構化價格"
     },
     "image": "https://img.yec.tw/zp/MerchandiseImages/69fb8a2ae4-Gd-11322933.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/Philips-%E9%A3%9B%E5%88%A9%E6%B5%A6-Saeco%E5%8D%8A%E8%87%AA%E5%8B%95%E7%BE%A9%E5%BC%8F%E5%92%96%E5%95%A1%E6%A9%9F-EMS5110-02-11322933.html",

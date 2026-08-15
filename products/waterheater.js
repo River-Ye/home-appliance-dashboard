@@ -3107,7 +3107,7 @@
       "currency": "TWD",
       "amount": 58294,
       "converted": 58294,
-      "confidence": "泰浦樂 RECHI AT-042AI exact-model 新品含基本安裝公開價 2026-08-14 exact-model 公開新品價",
+      "confidence": "泰浦樂 2026-08-14 最後可驗證 exact-model 新品含基本安裝公開價；2026-08-15 Yahoo exact-model 頁明示已停售，僅供規格參考",
       "basis": "retailer_current",
       "scope": "single_unit"
     },
@@ -3116,8 +3116,8 @@
       "note": "通路公開價含基本安裝；偏遠、樓層、吊掛、基礎與超額配管配電另計"
     },
     "image": "https://img.yec.tw/zp/MerchandiseImages/323300CF95-SP-12269220.jpg",
-    "buyUrl": "https://www.toppurorhouse.com/product/%E7%86%B1%E6%B3%B5%E7%86%B1%E6%B0%B4%E5%99%A8/%E7%86%B1%E6%B3%B5%E7%86%B1%E6%B0%B4%E5%99%A8/%E7%91%9E%E6%99%BA%E7%9B%B4%E7%86%B1%E5%BC%8F%E7%86%B1%E6%B3%B5%E7%86%B1%E6%B0%B4%E5%99%A8-%E5%90%AB%E5%9F%BA%E6%9C%AC%E5%AE%89%E8%A3%9D-at-042ai-",
-    "buyLabel": "泰浦樂 RECHI AT-042AI exact-model 新品含基本安裝公開價",
+    "buyUrl": "https://tw.buy.yahoo.com/gdsale/Toppuror-%E6%B3%B0%E6%B5%A6%E6%A8%82-%E7%91%9E%E6%99%BA%E7%9B%B4%E7%86%B1%E5%BC%8F%E7%86%B1%E6%B3%B5%E7%86%B1%E6%B0%B4%E5%99%A8-%E5%90%AB%E5%9F%BA%E6%9C%AC%E5%AE%89%E8%A3%9D-AT-042AI-10249571.html",
+    "buyLabel": "Yahoo購物中心（已停售，僅供規格）",
     "specs": [
       "類型：一體直熱式空氣源熱泵熱水器",
       "能源／氣源：電力；R410A；內建 65 L 儲槽",
@@ -3140,11 +3140,12 @@
     ],
     "cons": [
       "初購與安裝成本高，低溫、通風及滿水承重需納入設計",
+      "2026-08-15 查無現售新品頁，Yahoo exact-model 頁已停售",
       "公開價未必包含全部管材、配線、鑽孔、樓層或吊運費",
       "尺寸或重量查不到的項目必須在下單前向原廠索取確認"
     ],
     "bestFor": "用水量較大、有屋外或半戶外空間且重視長期能耗的住宅",
-    "recommendation": "選購重點：以熱泵搬運熱能，長期用電效率通常優於純電熱；仍要由合格技師完成場勘與施工。",
+    "recommendation": "規格參考：目前查無現售新品頁，不列為優先採購；若恢復供貨，仍須由合格技師完成場勘與施工。",
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "not_found",

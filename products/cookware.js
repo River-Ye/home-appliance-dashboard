@@ -763,20 +763,20 @@
     "brand": "Fissler",
     "model": "Levital 28cm",
     "name": "Fissler Levital 28cm",
-    "image": "https://cs-a.ecimg.tw/items/DEAWEDA900HZZIP/000001_1767158620.jpg",
+    "image": "https://img.yec.tw/zp/MerchandiseImages/2693875B21-SP-18128306.jpg",
     "price": {
       "currency": "TWD",
       "amount": 2860,
       "converted": 2860,
-      "confidence": "PChome 2026-08-06 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "confidence": "Yahoo購物中心 2026-08-15 exact-model 自營新品公開價"
     },
     "channel": "tw",
-    "buyLabel": "PChome",
-    "buyUrl": "https://24h.pchome.com.tw/prod/DEAWED-A900HZZIP",
+    "buyLabel": "Yahoo購物中心",
+    "buyUrl": "https://tw.buy.yahoo.com/gdsale/Fissler-Levital-%E7%B6%93%E5%85%B8%E4%B8%8D%E6%B2%BE%E5%B9%B3%E5%BA%95%E9%8D%8B-28cm-%E4%B8%8D%E6%B2%BE%E9%8D%8B-%E7%85%8E%E9%8D%8B-%E9%9B%BB%E7%A3%81%E7%88%90-IH%E7%88%90%E5%8F%AF%E7%94%A8-11325415.html",
     "specs": [
       "鍋具：Fissler Levital 經典不沾平底鍋 28cm 不沾鍋 煎鍋 (電磁爐 IH爐可用)",
       "尺寸與材質依商品頁標示",
-      "PChome 24h 可信通路低價",
+      "Yahoo購物中心自營新品",
       "排除福利品/配件/旋鈕"
     ],
     "description": "以台灣家庭常見瓦斯爐、IH 與日常煎炒煮燉需求篩選，優先保留品牌穩定、價格合理、容易補買或維修的鍋具。",
@@ -793,7 +793,7 @@
     "bestFor": "想一次比較日常不沾鍋、湯鍋、不鏽鋼鍋與鑄鐵鍋的家庭。",
     "recommendation": "鍋具第 10 推薦：Fissler Levital 28cm 在價格、評價、品牌通路與售後取得性之間表現均衡，適合納入同類比較。",
     "voltage": "無電壓需求；IH/電磁爐相容性依商品頁與鍋底標示",
-    "warranty": "依 PChome 24h 與品牌/供應商頁面標示",
+    "warranty": "依 Yahoo購物中心與品牌/供應商頁面標示",
     "score": 85,
     "budget": "mid",
     "tags": [

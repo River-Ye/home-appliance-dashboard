@@ -6,6 +6,7 @@ const {
   exactProductModelMatch,
   isExcludedListing,
   isExplicitlyDiscontinued,
+  isExplicitlyUnavailable,
   isReviewedPchomeBinding,
 } = require("./catalog-maintenance-policy");
 const {
@@ -418,7 +419,8 @@ async function auditNonPchome(product, raw) {
   else {
     exact = exactProductModelMatch(`${page.title}\n${page.text}`, product);
     excluded = isExcludedListing(page.title);
-    status = exact && !excluded ? "verified_available" : excluded ? "excluded_listing" : "model_unverified";
+    const unavailable = exact && isExplicitlyUnavailable(visiblePageText(page.text));
+    status = excluded ? "excluded_listing" : unavailable ? "tracking_out_of_stock" : exact ? "verified_available" : "model_unverified";
   }
   const priceCandidates = page.ok && exact && !excluded ? structuredPriceCandidates(page.text) : [];
   const trustedPrice = status === "verified_available"
@@ -1165,7 +1167,7 @@ function buildCompactReport({ catalog, baselineById, raw, exchange, checkedAt, c
       pchomeExactModelVerified: raw.sourceRows.filter((row) => row.sourceKind === "pchome_api" && row.status === "verified_available" && row.exactModel).length,
       pchomeReviewedBindingVerified: raw.sourceRows.filter((row) => row.sourceKind === "pchome_api" && row.status === "verified_available" && row.manualBindingApproved && !row.exactModel).length,
       pchomeModelUnverified: raw.sourceRows.filter((row) => row.sourceKind === "pchome_api" && row.status === "model_unverified").length,
-      pchomeOutOfStockTracked: partition(raw.sourceRows, "tracking_out_of_stock").length,
+      pchomeOutOfStockTracked: raw.sourceRows.filter((row) => row.sourceKind === "pchome_api" && row.status === "tracking_out_of_stock").length,
       pchomeInvalidPrices: partition(raw.sourceRows, "invalid_price").length,
       pchomeRequestFailures: raw.sourceRows.filter((row) => row.sourceKind === "pchome_api" && row.status === "request_failed").length,
       pchomeOtherExceptions: raw.sourceRows.filter((row) => row.sourceKind === "pchome_api" && ![

@@ -11,6 +11,12 @@ const EXCLUDED_LISTING_PATTERNS = [
   /\b(?:replacement\s+(?:filter|cartridge|part)|spare\s+parts?|parts?\s+only)\b/iu,
 ];
 
+const EXPLICIT_UNAVAILABLE_LISTING_PATTERNS = [
+  /已停售/u,
+  /\bnot available for sale\b/iu,
+  /\bout of stock,?\s*coming soon\b/iu,
+];
+
 const UNCERTAIN_DISCONTINUATION_PATTERNS = [
   /(?:是否|可能|疑似|猜測|傳聞|恐怕|請問)[^。.!?]{0,24}(?:停產|停止生產|終止生產)/iu,
   /(?:停產|停止生產|終止生產)[^。.!?]{0,8}(?:嗎|呢|[?？])/iu,
@@ -179,6 +185,11 @@ function isExcludedListing(listing) {
   return text !== "" && EXCLUDED_LISTING_PATTERNS.some((pattern) => pattern.test(text));
 }
 
+function isExplicitlyUnavailable(listing) {
+  const text = foldIdentity(listingIdentityText(listing));
+  return text !== "" && EXPLICIT_UNAVAILABLE_LISTING_PATTERNS.some((pattern) => pattern.test(text));
+}
+
 function isExplicitlyDiscontinued(statement) {
   const text = foldIdentity(statement).replace(/\s+/g, " ").trim();
   if (!text) return false;
@@ -197,6 +208,7 @@ module.exports = {
   hasOfficialSuggestedPriceSource,
   isExcludedListing,
   isExplicitlyDiscontinued,
+  isExplicitlyUnavailable,
   isReviewedPchomeBinding,
   normalizeIdentity,
   tokenizedIdentity,

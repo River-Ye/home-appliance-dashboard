@@ -9,6 +9,7 @@ const {
   hasOfficialSuggestedPriceSource,
   isExcludedListing,
   isExplicitlyDiscontinued,
+  isExplicitlyUnavailable,
   isReviewedPchomeBinding,
   normalizeIdentity,
   tokenizedIdentity,
@@ -632,6 +633,11 @@ async function main() {
   assert(
     isExplicitlyDiscontinued(visiblePageText("<main><p>This model has been discontinued.</p></main>")),
     "visible official product status must still create a discontinued-product candidate",
+  );
+  assert(
+    isExplicitlyUnavailable(visiblePageText("<main><h1>AT-042AI</h1><p>已停售</p></main>"))
+      && !isExplicitlyUnavailable(visiblePageText("<main><p>目前可加入購物車</p></main>")),
+    "an explicit visible sold status must not be treated as available",
   );
   assert(
     maintenanceReviewReady({

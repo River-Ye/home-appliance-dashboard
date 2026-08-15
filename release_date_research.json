@@ -1,13 +1,13 @@
 {
   "summary": {
-    "checkedAt": "2026-08-14T00:00:00+08:00",
-    "total": 859,
+    "checkedAt": "2026-08-15T00:00:00+08:00",
+    "total": 858,
     "found": 232,
-    "missing": 627,
+    "missing": 626,
     "byConfidence": {
       "official": 121,
       "credible_article": 92,
-      "not_found": 627,
+      "not_found": 626,
       "retailer_explicit": 11,
       "medium": 4,
       "high": 4
@@ -1234,19 +1234,6 @@
       "confidence": "credible_article",
       "query": "Panasonic E10HMD release date launch announced",
       "sourceKind": "credible_article"
-    },
-    {
-      "id": "circ-iris-hd15",
-      "category": "circulator",
-      "brand": "IRIS OHYAMA",
-      "model": "PCF-HD15",
-      "name": "強力氣流循環扇",
-      "releaseDate": "找不到",
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "confidence": "not_found",
-      "query": "IRIS OHYAMA HD15 release date launch announced"
     },
     {
       "id": "circulator-extra-6-dmab3x-a900jwrup",
