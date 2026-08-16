@@ -80,15 +80,15 @@
       "checkedSources": [
         {
           "platform": "Mobile01",
-          "targetHost": "mobile01.com",
           "query": "site:mobile01.com \"Rinnai RUA-D1620WF\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://search.yahoo.com/search?q=site%3Amobile01.com%20%22Rinnai%20RUA-D1620WF%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)"
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Amobile01.com%20%22Rinnai%20RUA-D1620WF%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "targetHost": "reddit.com",
           "query": "site:reddit.com \"Rinnai RUA-D1620WF\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22Rinnai%20RUA-D1620WF%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)"
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22Rinnai%20RUA-D1620WF%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "targetHost": "reddit.com"
         }
       ]
     },
@@ -176,15 +176,15 @@
       "checkedSources": [
         {
           "platform": "Mobile01",
-          "targetHost": "mobile01.com",
           "query": "site:mobile01.com \"Rinnai RUA-UC1628WF\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://search.yahoo.com/search?q=site%3Amobile01.com%20%22Rinnai%20RUA-UC1628WF%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)"
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Amobile01.com%20%22Rinnai%20RUA-UC1628WF%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "targetHost": "reddit.com",
           "query": "site:reddit.com \"Rinnai RUA-UC1628WF\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22Rinnai%20RUA-UC1628WF%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)"
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22Rinnai%20RUA-UC1628WF%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "targetHost": "reddit.com"
         }
       ]
     },
@@ -272,15 +272,15 @@
       "checkedSources": [
         {
           "platform": "Mobile01",
-          "targetHost": "mobile01.com",
           "query": "site:mobile01.com \"Rinnai RUA-UD1620WF\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://search.yahoo.com/search?q=site%3Amobile01.com%20%22Rinnai%20RUA-UD1620WF%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)"
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Amobile01.com%20%22Rinnai%20RUA-UD1620WF%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "targetHost": "reddit.com",
           "query": "site:reddit.com \"Rinnai RUA-UD1620WF\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22Rinnai%20RUA-UD1620WF%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)"
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22Rinnai%20RUA-UD1620WF%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "targetHost": "reddit.com"
         }
       ]
     },
@@ -368,15 +368,15 @@
       "checkedSources": [
         {
           "platform": "Mobile01",
-          "targetHost": "mobile01.com",
           "query": "site:mobile01.com \"SAKURA DH1693F\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://search.yahoo.com/search?q=site%3Amobile01.com%20%22SAKURA%20DH1693F%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)"
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Amobile01.com%20%22SAKURA%20DH1693F%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "targetHost": "reddit.com",
           "query": "site:reddit.com \"SAKURA DH1693F\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22SAKURA%20DH1693F%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)"
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22SAKURA%20DH1693F%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "targetHost": "reddit.com"
         }
       ]
     },
@@ -464,15 +464,15 @@
       "checkedSources": [
         {
           "platform": "Mobile01",
-          "targetHost": "mobile01.com",
           "query": "site:mobile01.com \"SAKURA DH1670F\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://search.yahoo.com/search?q=site%3Amobile01.com%20%22SAKURA%20DH1670F%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)"
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Amobile01.com%20%22SAKURA%20DH1670F%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "targetHost": "reddit.com",
           "query": "site:reddit.com \"SAKURA DH1670F\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22SAKURA%20DH1670F%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)"
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22SAKURA%20DH1670F%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "targetHost": "reddit.com"
         }
       ]
     },
@@ -560,15 +560,15 @@
       "checkedSources": [
         {
           "platform": "Mobile01",
-          "targetHost": "mobile01.com",
           "query": "site:mobile01.com \"SAKURA DH1628\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://search.yahoo.com/search?q=site%3Amobile01.com%20%22SAKURA%20DH1628%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)"
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Amobile01.com%20%22SAKURA%20DH1628%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "targetHost": "reddit.com",
           "query": "site:reddit.com \"SAKURA DH1628\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22SAKURA%20DH1628%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)"
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22SAKURA%20DH1628%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "targetHost": "reddit.com"
         }
       ]
     },
@@ -656,15 +656,15 @@
       "checkedSources": [
         {
           "platform": "Mobile01",
-          "targetHost": "mobile01.com",
           "query": "site:mobile01.com \"HCG GH160i\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://search.yahoo.com/search?q=site%3Amobile01.com%20%22HCG%20GH160i%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)"
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Amobile01.com%20%22HCG%20GH160i%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "targetHost": "reddit.com",
           "query": "site:reddit.com \"HCG GH160i\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22HCG%20GH160i%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)"
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22HCG%20GH160i%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "targetHost": "reddit.com"
         }
       ]
     },
@@ -752,15 +752,15 @@
       "checkedSources": [
         {
           "platform": "Mobile01",
-          "targetHost": "mobile01.com",
           "query": "site:mobile01.com \"HCG GH1688B\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://search.yahoo.com/search?q=site%3Amobile01.com%20%22HCG%20GH1688B%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)"
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Amobile01.com%20%22HCG%20GH1688B%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "targetHost": "reddit.com",
           "query": "site:reddit.com \"HCG GH1688B\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22HCG%20GH1688B%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)"
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22HCG%20GH1688B%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "targetHost": "reddit.com"
         }
       ]
     },
@@ -848,15 +848,15 @@
       "checkedSources": [
         {
           "platform": "Mobile01",
-          "targetHost": "mobile01.com",
           "query": "site:mobile01.com \"HCG GH1011\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://search.yahoo.com/search?q=site%3Amobile01.com%20%22HCG%20GH1011%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)"
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Amobile01.com%20%22HCG%20GH1011%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "targetHost": "reddit.com",
           "query": "site:reddit.com \"HCG GH1011\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22HCG%20GH1011%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)"
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22HCG%20GH1011%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "targetHost": "reddit.com"
         }
       ]
     },
@@ -944,15 +944,15 @@
       "checkedSources": [
         {
           "platform": "Mobile01",
-          "targetHost": "mobile01.com",
           "query": "site:mobile01.com \"Paotien PH-2001FEL\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://search.yahoo.com/search?q=site%3Amobile01.com%20%22Paotien%20PH-2001FEL%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)"
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Amobile01.com%20%22Paotien%20PH-2001FEL%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "targetHost": "reddit.com",
           "query": "site:reddit.com \"Paotien PH-2001FEL\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22Paotien%20PH-2001FEL%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)"
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22Paotien%20PH-2001FEL%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "targetHost": "reddit.com"
         }
       ]
     },
@@ -1040,15 +1040,15 @@
       "checkedSources": [
         {
           "platform": "Mobile01",
-          "targetHost": "mobile01.com",
           "query": "site:mobile01.com \"Paotien PH-1607FELW\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://search.yahoo.com/search?q=site%3Amobile01.com%20%22Paotien%20PH-1607FELW%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)"
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Amobile01.com%20%22Paotien%20PH-1607FELW%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "targetHost": "reddit.com",
           "query": "site:reddit.com \"Paotien PH-1607FELW\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22Paotien%20PH-1607FELW%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)"
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22Paotien%20PH-1607FELW%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "targetHost": "reddit.com"
         }
       ]
     },
@@ -1136,15 +1136,15 @@
       "checkedSources": [
         {
           "platform": "Mobile01",
-          "targetHost": "mobile01.com",
           "query": "site:mobile01.com \"Paotien PH-1301FE\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://search.yahoo.com/search?q=site%3Amobile01.com%20%22Paotien%20PH-1301FE%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)"
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Amobile01.com%20%22Paotien%20PH-1301FE%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "targetHost": "reddit.com",
           "query": "site:reddit.com \"Paotien PH-1301FE\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22Paotien%20PH-1301FE%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)"
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22Paotien%20PH-1301FE%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "targetHost": "reddit.com"
         }
       ]
     },
@@ -1232,15 +1232,15 @@
       "checkedSources": [
         {
           "platform": "Mobile01",
-          "targetHost": "mobile01.com",
           "query": "site:mobile01.com \"Haier JSQ25-13E3 LPG\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://search.yahoo.com/search?q=site%3Amobile01.com%20%22Haier%20JSQ25-13E3%20LPG%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)"
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Amobile01.com%20%22Haier%20JSQ25-13E3%20LPG%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "targetHost": "reddit.com",
           "query": "site:reddit.com \"Haier JSQ25-13E3 LPG\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22Haier%20JSQ25-13E3%20LPG%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)"
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22Haier%20JSQ25-13E3%20LPG%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "targetHost": "reddit.com"
         }
       ]
     },
@@ -1328,15 +1328,15 @@
       "checkedSources": [
         {
           "platform": "Mobile01",
-          "targetHost": "mobile01.com",
           "query": "site:mobile01.com \"Haier JSQ30-16E1 LPG\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://search.yahoo.com/search?q=site%3Amobile01.com%20%22Haier%20JSQ30-16E1%20LPG%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)"
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Amobile01.com%20%22Haier%20JSQ30-16E1%20LPG%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "targetHost": "reddit.com",
           "query": "site:reddit.com \"Haier JSQ30-16E1 LPG\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22Haier%20JSQ30-16E1%20LPG%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)"
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22Haier%20JSQ30-16E1%20LPG%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "targetHost": "reddit.com"
         }
       ]
     },
@@ -1424,15 +1424,15 @@
       "checkedSources": [
         {
           "platform": "Mobile01",
-          "targetHost": "mobile01.com",
           "query": "site:mobile01.com \"Haier JSQ34-16DC3/NG1\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://search.yahoo.com/search?q=site%3Amobile01.com%20%22Haier%20JSQ34-16DC3%2FNG1%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)"
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Amobile01.com%20%22Haier%20JSQ34-16DC3%2FNG1%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "targetHost": "reddit.com",
           "query": "site:reddit.com \"Haier JSQ34-16DC3/NG1\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22Haier%20JSQ34-16DC3%2FNG1%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)"
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22Haier%20JSQ34-16DC3%2FNG1%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "targetHost": "reddit.com"
         }
       ]
     },
@@ -1521,15 +1521,15 @@
       "checkedSources": [
         {
           "platform": "Mobile01",
-          "targetHost": "mobile01.com",
           "query": "site:mobile01.com \"Rinnai REH-0856P4\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://search.yahoo.com/search?q=site%3Amobile01.com%20%22Rinnai%20REH-0856P4%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)"
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Amobile01.com%20%22Rinnai%20REH-0856P4%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "targetHost": "reddit.com",
           "query": "site:reddit.com \"Rinnai REH-0856P4\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22Rinnai%20REH-0856P4%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)"
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22Rinnai%20REH-0856P4%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "targetHost": "reddit.com"
         }
       ]
     },
@@ -1618,15 +1618,15 @@
       "checkedSources": [
         {
           "platform": "Mobile01",
-          "targetHost": "mobile01.com",
           "query": "site:mobile01.com \"Rinnai REH-1256P4\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://search.yahoo.com/search?q=site%3Amobile01.com%20%22Rinnai%20REH-1256P4%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)"
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Amobile01.com%20%22Rinnai%20REH-1256P4%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "targetHost": "reddit.com",
           "query": "site:reddit.com \"Rinnai REH-1256P4\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22Rinnai%20REH-1256P4%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)"
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22Rinnai%20REH-1256P4%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "targetHost": "reddit.com"
         }
       ]
     },
@@ -1715,15 +1715,15 @@
       "checkedSources": [
         {
           "platform": "Mobile01",
-          "targetHost": "mobile01.com",
           "query": "site:mobile01.com \"Rinnai REH-2056P4\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://search.yahoo.com/search?q=site%3Amobile01.com%20%22Rinnai%20REH-2056P4%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)"
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Amobile01.com%20%22Rinnai%20REH-2056P4%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "targetHost": "reddit.com",
           "query": "site:reddit.com \"Rinnai REH-2056P4\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22Rinnai%20REH-2056P4%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)"
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22Rinnai%20REH-2056P4%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "targetHost": "reddit.com"
         }
       ]
     },
@@ -1812,15 +1812,15 @@
       "checkedSources": [
         {
           "platform": "Mobile01",
-          "targetHost": "mobile01.com",
           "query": "site:mobile01.com \"Paotien PEH-8GS\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://search.yahoo.com/search?q=site%3Amobile01.com%20%22Paotien%20PEH-8GS%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)"
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Amobile01.com%20%22Paotien%20PEH-8GS%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "targetHost": "reddit.com",
           "query": "site:reddit.com \"Paotien PEH-8GS\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22Paotien%20PEH-8GS%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)"
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22Paotien%20PEH-8GS%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "targetHost": "reddit.com"
         }
       ]
     },
@@ -1909,15 +1909,15 @@
       "checkedSources": [
         {
           "platform": "Mobile01",
-          "targetHost": "mobile01.com",
           "query": "site:mobile01.com \"Paotien PEH-15GS\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://search.yahoo.com/search?q=site%3Amobile01.com%20%22Paotien%20PEH-15GS%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)"
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Amobile01.com%20%22Paotien%20PEH-15GS%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "targetHost": "reddit.com",
           "query": "site:reddit.com \"Paotien PEH-15GS\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22Paotien%20PEH-15GS%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)"
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22Paotien%20PEH-15GS%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "targetHost": "reddit.com"
         }
       ]
     },
@@ -2006,15 +2006,15 @@
       "checkedSources": [
         {
           "platform": "Mobile01",
-          "targetHost": "mobile01.com",
           "query": "site:mobile01.com \"Paotien PH-88\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://search.yahoo.com/search?q=site%3Amobile01.com%20%22Paotien%20PH-88%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)"
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Amobile01.com%20%22Paotien%20PH-88%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "targetHost": "reddit.com",
           "query": "site:reddit.com \"Paotien PH-88\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22Paotien%20PH-88%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)"
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22Paotien%20PH-88%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "targetHost": "reddit.com"
         }
       ]
     },
@@ -2103,15 +2103,15 @@
       "checkedSources": [
         {
           "platform": "Mobile01",
-          "targetHost": "mobile01.com",
           "query": "site:mobile01.com \"SAKURA EH0810A6\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://search.yahoo.com/search?q=site%3Amobile01.com%20%22SAKURA%20EH0810A6%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)"
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Amobile01.com%20%22SAKURA%20EH0810A6%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "targetHost": "reddit.com",
           "query": "site:reddit.com \"SAKURA EH0810A6\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22SAKURA%20EH0810A6%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)"
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22SAKURA%20EH0810A6%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "targetHost": "reddit.com"
         }
       ]
     },
@@ -2200,15 +2200,15 @@
       "checkedSources": [
         {
           "platform": "Mobile01",
-          "targetHost": "mobile01.com",
           "query": "site:mobile01.com \"SAKURA SH125\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://search.yahoo.com/search?q=site%3Amobile01.com%20%22SAKURA%20SH125%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)"
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Amobile01.com%20%22SAKURA%20SH125%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "targetHost": "reddit.com",
           "query": "site:reddit.com \"SAKURA SH125\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22SAKURA%20SH125%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)"
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22SAKURA%20SH125%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "targetHost": "reddit.com"
         }
       ]
     },
@@ -2297,15 +2297,15 @@
       "checkedSources": [
         {
           "platform": "Mobile01",
-          "targetHost": "mobile01.com",
           "query": "site:mobile01.com \"SAKURA SH186\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://search.yahoo.com/search?q=site%3Amobile01.com%20%22SAKURA%20SH186%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)"
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Amobile01.com%20%22SAKURA%20SH186%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "targetHost": "reddit.com",
           "query": "site:reddit.com \"SAKURA SH186\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22SAKURA%20SH186%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)"
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22SAKURA%20SH186%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "targetHost": "reddit.com"
         }
       ]
     },
@@ -2394,15 +2394,15 @@
       "checkedSources": [
         {
           "platform": "Mobile01",
-          "targetHost": "mobile01.com",
           "query": "site:mobile01.com \"Haier HR-ES15VSVH1\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://search.yahoo.com/search?q=site%3Amobile01.com%20%22Haier%20HR-ES15VSVH1%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)"
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Amobile01.com%20%22Haier%20HR-ES15VSVH1%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "targetHost": "reddit.com",
           "query": "site:reddit.com \"Haier HR-ES15VSVH1\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22Haier%20HR-ES15VSVH1%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)"
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22Haier%20HR-ES15VSVH1%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "targetHost": "reddit.com"
         }
       ]
     },
@@ -2491,15 +2491,15 @@
       "checkedSources": [
         {
           "platform": "Mobile01",
-          "targetHost": "mobile01.com",
           "query": "site:mobile01.com \"Haier HR-ES20HJ5D\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://search.yahoo.com/search?q=site%3Amobile01.com%20%22Haier%20HR-ES20HJ5D%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)"
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Amobile01.com%20%22Haier%20HR-ES20HJ5D%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "targetHost": "reddit.com",
           "query": "site:reddit.com \"Haier HR-ES20HJ5D\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22Haier%20HR-ES20HJ5D%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)"
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22Haier%20HR-ES20HJ5D%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "targetHost": "reddit.com"
         }
       ]
     },
@@ -2588,15 +2588,15 @@
       "checkedSources": [
         {
           "platform": "Mobile01",
-          "targetHost": "mobile01.com",
           "query": "site:mobile01.com \"Haier HR-EI65ZE1\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://search.yahoo.com/search?q=site%3Amobile01.com%20%22Haier%20HR-EI65ZE1%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)"
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Amobile01.com%20%22Haier%20HR-EI65ZE1%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "targetHost": "reddit.com",
           "query": "site:reddit.com \"Haier HR-EI65ZE1\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22Haier%20HR-EI65ZE1%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)"
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22Haier%20HR-EI65ZE1%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "targetHost": "reddit.com"
         }
       ]
     },
@@ -2685,15 +2685,15 @@
       "checkedSources": [
         {
           "platform": "Mobile01",
-          "targetHost": "mobile01.com",
           "query": "site:mobile01.com \"HCG E7122B\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://search.yahoo.com/search?q=site%3Amobile01.com%20%22HCG%20E7122B%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)"
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Amobile01.com%20%22HCG%20E7122B%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "targetHost": "reddit.com",
           "query": "site:reddit.com \"HCG E7122B\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22HCG%20E7122B%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)"
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22HCG%20E7122B%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "targetHost": "reddit.com"
         }
       ]
     },
@@ -2782,15 +2782,15 @@
       "checkedSources": [
         {
           "platform": "Mobile01",
-          "targetHost": "mobile01.com",
           "query": "site:mobile01.com \"HCG E7120W\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://search.yahoo.com/search?q=site%3Amobile01.com%20%22HCG%20E7120W%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)"
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Amobile01.com%20%22HCG%20E7120W%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "targetHost": "reddit.com",
           "query": "site:reddit.com \"HCG E7120W\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22HCG%20E7120W%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)"
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22HCG%20E7120W%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "targetHost": "reddit.com"
         }
       ]
     },
@@ -2879,15 +2879,15 @@
       "checkedSources": [
         {
           "platform": "Mobile01",
-          "targetHost": "mobile01.com",
           "query": "site:mobile01.com \"HCG EQ1020A\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://search.yahoo.com/search?q=site%3Amobile01.com%20%22HCG%20EQ1020A%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)"
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Amobile01.com%20%22HCG%20EQ1020A%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "targetHost": "reddit.com",
           "query": "site:reddit.com \"HCG EQ1020A\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22HCG%20EQ1020A%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)"
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22HCG%20EQ1020A%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "targetHost": "reddit.com"
         }
       ]
     },
@@ -2975,15 +2975,15 @@
       "checkedSources": [
         {
           "platform": "PTT",
-          "targetHost": "ptt.cc",
           "query": "site:ptt.cc \"RECHI AT-062AI11(YDLE)\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22RECHI%20AT-062AI11(YDLE)%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)"
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22RECHI%20AT-062AI11(YDLE)%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "ptt.cc"
         },
         {
           "platform": "Dcard",
-          "targetHost": "dcard.tw",
           "query": "site:dcard.tw \"RECHI AT-062AI11(YDLE)\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Adcard.tw%20%22RECHI%20AT-062AI11(YDLE)%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)"
+          "queryUrl": "https://www.google.com/search?q=site%3Adcard.tw%20%22RECHI%20AT-062AI11(YDLE)%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "dcard.tw"
         }
       ]
     },
@@ -3071,15 +3071,15 @@
       "checkedSources": [
         {
           "platform": "PTT",
-          "targetHost": "ptt.cc",
           "query": "site:ptt.cc \"HMK HMT-010200\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22HMK%20HMT-010200%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)"
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22HMK%20HMT-010200%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "ptt.cc"
         },
         {
           "platform": "Dcard",
-          "targetHost": "dcard.tw",
           "query": "site:dcard.tw \"HMK HMT-010200\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Adcard.tw%20%22HMK%20HMT-010200%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)"
+          "queryUrl": "https://www.google.com/search?q=site%3Adcard.tw%20%22HMK%20HMT-010200%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "dcard.tw"
         }
       ]
     },
@@ -3168,21 +3168,21 @@
       "checkedSources": [
         {
           "platform": "PTT",
-          "targetHost": "ptt.cc",
           "query": "site:ptt.cc \"RECHI AT-042AI\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22RECHI%20AT-042AI%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)"
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22RECHI%20AT-042AI%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "ptt.cc"
         },
         {
           "platform": "Dcard",
-          "targetHost": "dcard.tw",
           "query": "site:dcard.tw \"RECHI AT-042AI\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Adcard.tw%20%22RECHI%20AT-042AI%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)"
+          "queryUrl": "https://www.google.com/search?q=site%3Adcard.tw%20%22RECHI%20AT-042AI%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "dcard.tw"
         },
         {
           "platform": "Mobile01",
-          "targetHost": "mobile01.com",
           "query": "site:mobile01.com \"RECHI AT-042AI\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22RECHI%20AT-042AI%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)"
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22RECHI%20AT-042AI%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
         }
       ]
     },
@@ -3270,15 +3270,15 @@
       "checkedSources": [
         {
           "platform": "Mobile01",
-          "targetHost": "mobile01.com",
           "query": "site:mobile01.com \"Haier HP80M8-9\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://search.yahoo.com/search?q=site%3Amobile01.com%20%22Haier%20HP80M8-9%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)"
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Amobile01.com%20%22Haier%20HP80M8-9%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "targetHost": "reddit.com",
           "query": "site:reddit.com \"Haier HP80M8-9\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22Haier%20HP80M8-9%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)"
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22Haier%20HP80M8-9%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "targetHost": "reddit.com"
         }
       ]
     },
@@ -3366,15 +3366,15 @@
       "checkedSources": [
         {
           "platform": "Mobile01",
-          "targetHost": "mobile01.com",
           "query": "site:mobile01.com \"Haier HP110M8-9\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://search.yahoo.com/search?q=site%3Amobile01.com%20%22Haier%20HP110M8-9%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)"
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Amobile01.com%20%22Haier%20HP110M8-9%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "targetHost": "reddit.com",
           "query": "site:reddit.com \"Haier HP110M8-9\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22Haier%20HP110M8-9%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)"
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22Haier%20HP110M8-9%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "targetHost": "reddit.com"
         }
       ]
     },
@@ -3462,15 +3462,15 @@
       "checkedSources": [
         {
           "platform": "Mobile01",
-          "targetHost": "mobile01.com",
           "query": "site:mobile01.com \"Haier HP150M8-9\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://search.yahoo.com/search?q=site%3Amobile01.com%20%22Haier%20HP150M8-9%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)"
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Amobile01.com%20%22Haier%20HP150M8-9%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "targetHost": "reddit.com",
           "query": "site:reddit.com \"Haier HP150M8-9\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22Haier%20HP150M8-9%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)"
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22Haier%20HP150M8-9%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "targetHost": "reddit.com"
         }
       ]
     },
@@ -3558,15 +3558,15 @@
       "checkedSources": [
         {
           "platform": "Mobile01",
-          "targetHost": "mobile01.com",
           "query": "site:mobile01.com \"Atlantic EXP 200\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://search.yahoo.com/search?q=site%3Amobile01.com%20%22Atlantic%20EXP%20200%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)"
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Amobile01.com%20%22Atlantic%20EXP%20200%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "targetHost": "reddit.com",
           "query": "site:reddit.com \"Atlantic EXP 200\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22Atlantic%20EXP%20200%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)"
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22Atlantic%20EXP%20200%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "targetHost": "reddit.com"
         }
       ]
     },
@@ -3654,15 +3654,15 @@
       "checkedSources": [
         {
           "platform": "Mobile01",
-          "targetHost": "mobile01.com",
           "query": "site:mobile01.com \"Atlantic EXP 270\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://search.yahoo.com/search?q=site%3Amobile01.com%20%22Atlantic%20EXP%20270%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)"
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Amobile01.com%20%22Atlantic%20EXP%20270%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "targetHost": "reddit.com",
           "query": "site:reddit.com \"Atlantic EXP 270\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22Atlantic%20EXP%20270%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)"
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22Atlantic%20EXP%20270%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "targetHost": "reddit.com"
         }
       ]
     },
@@ -3750,15 +3750,15 @@
       "checkedSources": [
         {
           "platform": "Mobile01",
-          "targetHost": "mobile01.com",
           "query": "site:mobile01.com \"Atlantic EGEO 250\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://search.yahoo.com/search?q=site%3Amobile01.com%20%22Atlantic%20EGEO%20250%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)"
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Amobile01.com%20%22Atlantic%20EGEO%20250%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "targetHost": "reddit.com",
           "query": "site:reddit.com \"Atlantic EGEO 250\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22Atlantic%20EGEO%20250%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)"
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22Atlantic%20EGEO%20250%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "targetHost": "reddit.com"
         }
       ]
     },
@@ -3846,15 +3846,15 @@
       "checkedSources": [
         {
           "platform": "Mobile01",
-          "targetHost": "mobile01.com",
           "query": "site:mobile01.com \"A.O. Smith CAHP-1.5DT-80\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://search.yahoo.com/search?q=site%3Amobile01.com%20%22A.O.%20Smith%20CAHP-1.5DT-80%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)"
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Amobile01.com%20%22A.O.%20Smith%20CAHP-1.5DT-80%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "targetHost": "reddit.com",
           "query": "site:reddit.com \"A.O. Smith CAHP-1.5DT-80\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22A.O.%20Smith%20CAHP-1.5DT-80%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)"
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22A.O.%20Smith%20CAHP-1.5DT-80%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "targetHost": "reddit.com"
         }
       ]
     },
@@ -3942,15 +3942,15 @@
       "checkedSources": [
         {
           "platform": "Mobile01",
-          "targetHost": "mobile01.com",
           "query": "site:mobile01.com \"A.O. Smith CAHP-1.5DT-120\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://search.yahoo.com/search?q=site%3Amobile01.com%20%22A.O.%20Smith%20CAHP-1.5DT-120%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)"
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Amobile01.com%20%22A.O.%20Smith%20CAHP-1.5DT-120%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "targetHost": "reddit.com",
           "query": "site:reddit.com \"A.O. Smith CAHP-1.5DT-120\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22A.O.%20Smith%20CAHP-1.5DT-120%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)"
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22A.O.%20Smith%20CAHP-1.5DT-120%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "targetHost": "reddit.com"
         }
       ]
     },
@@ -4038,15 +4038,15 @@
       "checkedSources": [
         {
           "platform": "Mobile01",
-          "targetHost": "mobile01.com",
           "query": "site:mobile01.com \"SUNTECH HP-600\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://search.yahoo.com/search?q=site%3Amobile01.com%20%22SUNTECH%20HP-600%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)"
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Amobile01.com%20%22SUNTECH%20HP-600%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "targetHost": "reddit.com",
           "query": "site:reddit.com \"SUNTECH HP-600\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22SUNTECH%20HP-600%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)"
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22SUNTECH%20HP-600%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "targetHost": "reddit.com"
         }
       ]
     },
@@ -4134,21 +4134,21 @@
       "checkedSources": [
         {
           "platform": "PTT",
-          "targetHost": "ptt.cc",
           "query": "site:ptt.cc \"SAKURA SE8102\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22SAKURA%20SE8102%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)"
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22SAKURA%20SE8102%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "ptt.cc"
         },
         {
           "platform": "Dcard",
-          "targetHost": "dcard.tw",
           "query": "site:dcard.tw \"SAKURA SE8102\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Adcard.tw%20%22SAKURA%20SE8102%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)"
+          "queryUrl": "https://www.google.com/search?q=site%3Adcard.tw%20%22SAKURA%20SE8102%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "dcard.tw"
         },
         {
           "platform": "Mobile01",
-          "targetHost": "mobile01.com",
           "query": "site:mobile01.com \"SAKURA SE8102\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22SAKURA%20SE8102%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)"
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22SAKURA%20SE8102%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
         }
       ]
     },
@@ -4236,15 +4236,15 @@
       "checkedSources": [
         {
           "platform": "PTT",
-          "targetHost": "ptt.cc",
           "query": "site:ptt.cc \"Dajinan DJNHP-200L\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22Dajinan%20DJNHP-200L%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)"
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22Dajinan%20DJNHP-200L%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "ptt.cc"
         },
         {
           "platform": "Dcard",
-          "targetHost": "dcard.tw",
           "query": "site:dcard.tw \"Dajinan DJNHP-200L\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Adcard.tw%20%22Dajinan%20DJNHP-200L%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)"
+          "queryUrl": "https://www.google.com/search?q=site%3Adcard.tw%20%22Dajinan%20DJNHP-200L%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "dcard.tw"
         }
       ]
     },
@@ -4332,15 +4332,15 @@
       "checkedSources": [
         {
           "platform": "Mobile01",
-          "targetHost": "mobile01.com",
           "query": "site:mobile01.com \"A.O. Smith HPI-50D1.0BT\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://search.yahoo.com/search?q=site%3Amobile01.com%20%22A.O.%20Smith%20HPI-50D1.0BT%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)"
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Amobile01.com%20%22A.O.%20Smith%20HPI-50D1.0BT%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
         },
         {
           "platform": "Reddit",
-          "targetHost": "reddit.com",
           "query": "site:reddit.com \"A.O. Smith HPI-50D1.0BT\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22A.O.%20Smith%20HPI-50D1.0BT%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)"
+          "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22A.O.%20Smith%20HPI-50D1.0BT%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
+          "targetHost": "reddit.com"
         }
       ]
     },

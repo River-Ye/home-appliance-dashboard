@@ -68,6 +68,7 @@ const REVIEWED_PCHOME_BINDINGS = new Map([
   ["robot-ecovacs-t90-pro", "DMBL0L-A900JWVON"],
   ["robot-ecovacs-x11-pro", "DMBL0L-A900J5HJ0"],
   ["robot-ecovacs-x12-pro", "DMBL0L-A900JS61Y"],
+  ["robot-roborock-qrevo-edge-2-flow", "DMBL1C-A900K7R6R"],
   ["smartlock-panasonic-g11", "DQBS4N-A900K1WBU"],
   ["standingdesk-irocks-d01-120", "DQBJ4C-A900I9XVY"],
   ["standingdesk-irocks-d01-150", "DQBJ4C-A900HUG3C"],

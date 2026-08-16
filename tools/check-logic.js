@@ -549,6 +549,7 @@ async function main() {
       ["monitor-dell-aw3225qf", "DSABOK-A900HB1B5"],
       ["monitor-samsung-s32hg806es", "DSABSK-A900K0G32"],
       ["refrigerator-hitachi-rv469", "DPACGV-A900BFMHM"],
+      ["robot-roborock-qrevo-edge-2-flow", "DMBL1C-A900K7R6R"],
       ["smartlock-panasonic-g11", "DQBS4N-A900K1WBU"],
       ["standingdesk-irocks-d01-120", "DQBJ4C-A900I9XVY"],
       ["standingdesk-irocks-d01-150", "DQBJ4C-A900HUG3C"],

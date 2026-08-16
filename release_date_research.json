@@ -1,12 +1,12 @@
 {
   "summary": {
-    "checkedAt": "2026-08-15T00:00:00+08:00",
-    "total": 858,
-    "found": 232,
+    "checkedAt": "2026-08-16T00:00:00+08:00",
+    "total": 859,
+    "found": 233,
     "missing": 626,
     "byConfidence": {
       "official": 121,
-      "credible_article": 92,
+      "credible_article": 93,
       "not_found": 626,
       "retailer_explicit": 11,
       "medium": 4,
@@ -3113,6 +3113,21 @@
       "query": "site:shop.kenk.com.tw LEGEE-Q10 Pro 正式登場",
       "sourceKind": "official_distributor_announcement",
       "reason": "採台灣官方總代理對 exact model 的正式推出公告，不以商品上架日推定。"
+    },
+    {
+      "id": "robot-roborock-qrevo-edge-2-flow",
+      "category": "robot",
+      "brand": "Roborock",
+      "model": "Qrevo Edge 2 Flow",
+      "name": "搖滾天王超薄活水滾筒掃拖機器人",
+      "releaseDate": "2026-07-21",
+      "sourceUrl": "https://3c.ltn.com.tw/news/66905",
+      "sourceTitle": "新一代超薄滾筒活水掃拖機器人登場 深入床底、沙發下不留死角",
+      "evidenceSnippet": "自由時報 3C 科技於 2026-07-21 報導 Roborock 推出全新 Qrevo Edge 2 Flow，並列出 exact-model 規格與首賣價。",
+      "confidence": "credible_article",
+      "query": "Roborock Qrevo Edge 2 Flow 2026-07-21 推出",
+      "sourceKind": "credible_launch_article",
+      "reason": "報導日期與內文同時明確指出 exact model 推出，不以商品上架或促銷日期推定。"
     },
     {
       "id": "vac-dyson-v12",

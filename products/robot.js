@@ -1051,8 +1051,8 @@
     "price": {
       "currency": "EUR",
       "amount": 999,
-      "converted": 36941,
-      "confidence": "Boulanger 2026-07-21 來源價；ExchangeRate-API 2026-08-15 匯率換算"
+      "converted": 36953,
+      "confidence": "Boulanger 2026-07-21 來源價；ExchangeRate-API 2026-08-16 匯率換算"
     },
     "image": "https://boulanger.scene7.com/is/image/Boulanger/6972075738536_h_f_l_0?fmt=png-alpha&wid=640&hei=640",
     "buyUrl": "https://www.boulanger.com/ref/1238998",
@@ -1129,8 +1129,8 @@
     "price": {
       "currency": "USD",
       "amount": 551.69,
-      "converted": 17638,
-      "confidence": "Geekbuying 2026-07-21 來源價；ExchangeRate-API 2026-08-15 匯率換算"
+      "converted": 17647,
+      "confidence": "Geekbuying 2026-07-21 來源價；ExchangeRate-API 2026-08-16 匯率換算"
     },
     "image": "https://img.gkbcdn.com/p/2025-04-11/Narwal-Freo-Z10-Ultra-Robot-Vacuum-with-Base-Station-Gray-528438-0._w315_.jpg",
     "buyUrl": "https://www.geekbuying.com/item/Narwal-Freo-Z10-Ultra-Robot-Vacuum-with-Base-Station-Gray-528438.html",
@@ -2093,8 +2093,8 @@
     "price": {
       "currency": "USD",
       "amount": 999.99,
-      "converted": 31971,
-      "confidence": "SharkNinja US 2026-07-21 來源價；ExchangeRate-API 2026-08-15 匯率換算"
+      "converted": 31987,
+      "confidence": "SharkNinja US 2026-07-21 來源價；ExchangeRate-API 2026-08-16 匯率換算"
     },
     "image": "https://assets.sharkninja.com/image/upload/f_auto/q_auto/SharkNinja-NA/RV2820ZE_01.jpg",
     "buyUrl": "https://www.sharkninja.com/shark-powerdetect-2-in-1-robot-vacuum-and-mop-with-nevertouch-pro-base/RV2820ZE.html",
@@ -2251,8 +2251,8 @@
     "price": {
       "currency": "USD",
       "amount": 399.99,
-      "converted": 12788,
-      "confidence": "Costco US 2026-07-21 最後可驗證價；2026-08-15 exact-model 頁顯示 Unavailable；ExchangeRate-API 2026-08-15 匯率換算"
+      "converted": 12795,
+      "confidence": "Costco US 2026-07-21 最後可驗證價；2026-08-15 exact-model 頁顯示 Unavailable；ExchangeRate-API 2026-08-16 匯率換算"
     },
     "image": "https://bfasset.costco-static.com/U447IH35/as/tkj772p4357mmh3bwz8kcq/1791272-847__1?auto=webp&format=jpg",
     "buyUrl": "https://www.costco.com/p/-/roborock-qx-revo-robot-vacuum-and-mop-with-multifunctional-dock/4000233271",
@@ -2827,6 +2827,96 @@
           "platform": "Reddit",
           "query": "site:reddit.com \"LEGEE-Q10 Pro\" (problem OR issue OR defect OR \"negative review\")",
           "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22LEGEE-Q10%20Pro%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
+          "targetHost": "reddit.com"
+        }
+      ]
+    }
+  },
+  {
+    "id": "robot-roborock-qrevo-edge-2-flow",
+    "category": "robot",
+    "rank": 36,
+    "topPick": false,
+    "budget": "premium",
+    "channel": "tw",
+    "brand": "Roborock",
+    "model": "Qrevo Edge 2 Flow",
+    "name": "搖滾天王超薄活水滾筒掃拖機器人",
+    "price": {
+      "currency": "TWD",
+      "amount": 26980,
+      "converted": 26980,
+      "confidence": "PChome 2026-08-16 exact-model 公開價；Price.Low 無正值，採 Price.P",
+      "basis": "retailer_current"
+    },
+    "image": "https://cs-a.ecimg.tw/items/DMBL1CA900K7R6R/000001_1785985365.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DMBL1C-A900K7R6R",
+    "buyLabel": "PChome 24h購物",
+    "installation": {
+      "status": "not_stated",
+      "note": "PChome exact-model 頁未標示到府安裝；一體式基座需放在平坦乾燥處、靠近插座並預留主機進出與清污水箱維護空間。"
+    },
+    "specs": [
+      "SpiraFlow 2.0 活水強壓滾筒；16 個出水孔、240RPM",
+      "35,000Pa；DuoDivide 雙懸臂零纏繞主刷",
+      "8.98cm 超薄機身；RetractSense 升降 LDS",
+      "Reactive AI 可辨識超過 280 種障礙物",
+      "63°C 熱風烘乾；最長 65 天自動集塵",
+      "主機 35.2 x 35.3 x 8.98 cm；基座 40.2 x 47 x 45.1 cm"
+    ],
+    "description": "Roborock Qrevo Edge 2 Flow 以 8.98cm 超薄機身、35,000Pa 吸力與持續清洗的活水滾筒，補強低矮家具與濕黏髒污的清潔能力。",
+    "pros": [
+      "35,000Pa 與活水滾筒兼顧吸塵、濕拖",
+      "升降 LDS 讓 8.98cm 機身可深入低矮家具",
+      "台灣可信新品通路可下單，保固與 BSMI 資訊清楚"
+    ],
+    "cons": [
+      "價格高於現有 Qrevo Curv 2 Flow Top Pick",
+      "基座與污水箱仍需定期清潔",
+      "通路未標示基座輸入電壓／頻率，使用前需依銘牌確認"
+    ],
+    "bestFor": "家中低矮家具多、常有毛髮或濕黏髒污，並重視滾筒即時清洗的人。",
+    "recommendation": "新品補充：超薄升降 LDS、35,000Pa 與 SpiraFlow 2.0 是明確升級；現價仍高，重視 CP 值可優先比較既有 Top Pick。",
+    "score": 93,
+    "voltage": "5200mAh 鋰電池式主機；台灣通路列 BSMI R3C433，輸入電壓／頻率未標示，使用前依機身銘牌",
+    "warranty": "PChome 台灣新品通路標示 1 年保固",
+    "tags": [
+      "次旗艦",
+      "活水滾筒",
+      "超薄",
+      "零纏繞",
+      "台灣公司貨"
+    ],
+    "releaseDate": "2026-07-21",
+    "historicalLow": {
+      "status": "found",
+      "amount": 25980,
+      "currency": "TWD",
+      "converted": 25980,
+      "sourceUrl": "https://3c.ltn.com.tw/news/66905",
+      "sourceTitle": "新一代超薄滾筒活水掃拖機器人登場 深入床底、沙發下不留死角",
+      "evidenceSnippet": "自由時報 3C 科技於 2026-07-21 報導 exact model 推出，並明示限時優惠價 NT$25,980。",
+      "sourceKind": "retailer_promo",
+      "confidence": "medium",
+      "checkedAt": "2026-08-16",
+      "note": "採用 2026-07-21 過往 exact-model 公開限時新品價，不以本次現價推定史低；未包含會員券、信用卡、點數或非新品條件。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-08-16",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Roborock Qrevo Edge 2 Flow\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Roborock%20Qrevo%20Edge%202%20Flow%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Roborock Qrevo Edge 2 Flow\" (problem OR issue OR defect OR \"negative review\")",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Roborock%20Qrevo%20Edge%202%20Flow%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
           "targetHost": "reddit.com"
         }
       ]

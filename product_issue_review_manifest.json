@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-08-14",
+  "checkedAt": "2026-08-16",
   "methodVersion": 3,
   "policy": "每筆決策須保存 exact-model 跨站查詢與人工 attestation；每個搜尋候選須逐頁保存摘要、獨立作者數與具體排除理由，研究工具不得自行生成拒絕結論。",
   "results": [
@@ -13410,6 +13410,104 @@
         }
       ],
       "reviewerNote": "LEGEE-Q10 PRO 已於 2026-08-14 透過 Chrome 重跑 Mobile01 與 Reddit exact-model 查詢並逐頁核對型號、第一人稱與作者；決策維持 no_common_issue。",
+      "attestation": "manual_original_pages_reviewed"
+    },
+    {
+      "id": "robot-roborock-qrevo-edge-2-flow",
+      "category": "robot",
+      "brand": "Roborock",
+      "model": "Qrevo Edge 2 Flow",
+      "reviewedAt": "2026-08-16",
+      "reviewBatch": "robot",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "Mobile01",
+        "Reddit"
+      ],
+      "queries": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Roborock Qrevo Edge 2 Flow\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Roborock%20Qrevo%20Edge%202%20Flow%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Roborock Qrevo Edge 2 Flow\" (problem OR issue OR defect OR \"negative review\")",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Roborock%20Qrevo%20Edge%202%20Flow%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
+          "targetHost": "reddit.com"
+        }
+      ],
+      "candidateDisposition": "Qrevo Edge 2 Flow：已逐頁人工覆核 1 個 Mobile01 與 3 個 Reddit exact-model 原頁；均無可計入的同型號第一人稱問題回報。",
+      "representativeSources": [
+        {
+          "platform": "Mobile01",
+          "title": "Roborock 石頭科技 Qrevo Edge 2 Flow 登場｜8.98 公分超薄機身結合活水滾筒，床底、沙發底也能真正掃乾淨",
+          "url": "https://www.mobile01.com/topicdetail.php?f=728&t=7282284"
+        },
+        {
+          "platform": "Reddit",
+          "title": "Roborock's QRevo Edge 2 Flow as successor to the QRevo Curv 2 Flow with a retractable LIDAR to be 8.98cm tall",
+          "url": "https://www.reddit.com/r/RobotVacuums/comments/1utvrhf/roborocks_qrevo_edge_2_flow_as_successor_to_the/"
+        },
+        {
+          "platform": "Reddit",
+          "title": "Roborock Qrevo Edge 2 Flow — Edge 2 Flow",
+          "url": "https://www.reddit.com/r/Roborock/comments/1ubqhwu/edge_2_flow/"
+        },
+        {
+          "platform": "Reddit",
+          "title": "New Qrevo Edge 2 Flow and Qrevo 2 Pro are coming.",
+          "url": "https://www.reddit.com/r/Roborock/comments/1utrw2x/new_qrevo_edge_2_flow_and_qrevo_2_pro_are_coming/"
+        }
+      ],
+      "candidateReviews": [
+        {
+          "platform": "Mobile01",
+          "title": "Roborock 石頭科技 Qrevo Edge 2 Flow 登場｜8.98 公分超薄機身結合活水滾筒，床底、沙發底也能真正掃乾淨",
+          "url": "https://www.mobile01.com/topicdetail.php?f=728&t=7282284",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-16",
+          "sourceExcerpt": "原頁為 exact-model 新品介紹與一般留言；第二頁僅一人泛稱 Roborock 維修等待久，沒有表明持有或使用 Qrevo Edge 2 Flow。",
+          "independentAuthors": 0,
+          "specificReason": "沒有可確認為 Qrevo Edge 2 Flow 使用者的第一人稱同型號問題；品牌層級售後抱怨不能計入 exact-model 回報。"
+        },
+        {
+          "platform": "Reddit",
+          "title": "Roborock's QRevo Edge 2 Flow as successor to the QRevo Curv 2 Flow with a retractable LIDAR to be 8.98cm tall",
+          "url": "https://www.reddit.com/r/RobotVacuums/comments/1utvrhf/roborocks_qrevo_edge_2_flow_as_successor_to_the/",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-16",
+          "sourceExcerpt": "原帖逐項整理官方頁公布的新功能，回覆討論規格與其他品牌水箱設計，沒有任何人自稱已使用本型號並回報故障。",
+          "independentAuthors": 0,
+          "specificReason": "屬上市前規格討論，沒有 exact-model 第一人稱使用問題，不能把功能評論或推測算成使用者災情。"
+        },
+        {
+          "platform": "Reddit",
+          "title": "Roborock Qrevo Edge 2 Flow — Edge 2 Flow",
+          "url": "https://www.reddit.com/r/Roborock/comments/1ubqhwu/edge_2_flow/",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-16",
+          "sourceExcerpt": "原帖詢問是否為新滾筒型號；留言抱怨 Roborock 型號推出過密或評論前代功能取捨，沒有本型號實機問題回報。",
+          "independentAuthors": 0,
+          "specificReason": "抱怨品牌產品節奏與前代缺少功能不等於 Qrevo Edge 2 Flow 的第一人稱故障，exact-model 作者數為零。"
+        },
+        {
+          "platform": "Reddit",
+          "title": "New Qrevo Edge 2 Flow and Qrevo 2 Pro are coming.",
+          "url": "https://www.reddit.com/r/Roborock/comments/1utrw2x/new_qrevo_edge_2_flow_and_qrevo_2_pro_are_coming/",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-16",
+          "sourceExcerpt": "原帖比較新機公開規格；唯一自稱剛買機器者持有的是 Qrevo Curv 2 Flow，不是 Qrevo Edge 2 Flow。",
+          "independentAuthors": 0,
+          "specificReason": "頁面雖精確提到型號，但沒有 Qrevo Edge 2 Flow 持有者的第一人稱問題；相近 Curv 2 Flow 不可跨型號計數。"
+        }
+      ],
+      "reviewerNote": "Qrevo Edge 2 Flow 已人工開啟所有查得的 Mobile01／Reddit exact-model 原頁；維持 no_common_issue，不把泛品牌售後抱怨、前代問題或規格討論當作同型號證據。",
       "attestation": "manual_original_pages_reviewed"
     },
     {
