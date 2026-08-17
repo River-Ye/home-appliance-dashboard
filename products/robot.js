@@ -407,9 +407,9 @@
     "name": "無限續航滾筒洗地機器人上下水款",
     "price": {
       "currency": "TWD",
-      "amount": 24700,
-      "converted": 24700,
-      "confidence": "Yahoo購物中心 2026-08-14 exact-model 公開結構化價格"
+      "amount": 25999,
+      "converted": 25999,
+      "confidence": "Yahoo購物中心 2026-08-17 exact-model 公開結構化價格"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL0LA900JRDAS/000001_1771917633.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/ECOVACS-%E7%A7%91%E6%B2%83%E6%96%AF-DEEBOT-X11-PRO%E7%84%A1%E9%99%90%E7%BA%8C%E8%88%AA%E6%BB%BE%E7%AD%92%E6%B4%97%E5%9C%B0%E6%A9%9F%E5%99%A8%E4%BA%BA-%E6%8E%83%E5%9C%B0%E6%A9%9F%E5%99%A8%E4%BA%BA-11797803.html",
@@ -1051,8 +1051,8 @@
     "price": {
       "currency": "EUR",
       "amount": 999,
-      "converted": 36953,
-      "confidence": "Boulanger 2026-07-21 來源價；ExchangeRate-API 2026-08-16 匯率換算"
+      "converted": 36954,
+      "confidence": "Boulanger 2026-07-21 來源價；ExchangeRate-API 2026-08-17 匯率換算"
     },
     "image": "https://boulanger.scene7.com/is/image/Boulanger/6972075738536_h_f_l_0?fmt=png-alpha&wid=640&hei=640",
     "buyUrl": "https://www.boulanger.com/ref/1238998",
@@ -1129,8 +1129,8 @@
     "price": {
       "currency": "USD",
       "amount": 551.69,
-      "converted": 17647,
-      "confidence": "Geekbuying 2026-07-21 來源價；ExchangeRate-API 2026-08-16 匯率換算"
+      "converted": 17636,
+      "confidence": "Geekbuying 2026-07-21 來源價；ExchangeRate-API 2026-08-17 匯率換算"
     },
     "image": "https://img.gkbcdn.com/p/2025-04-11/Narwal-Freo-Z10-Ultra-Robot-Vacuum-with-Base-Station-Gray-528438-0._w315_.jpg",
     "buyUrl": "https://www.geekbuying.com/item/Narwal-Freo-Z10-Ultra-Robot-Vacuum-with-Base-Station-Gray-528438.html",
@@ -2093,8 +2093,8 @@
     "price": {
       "currency": "USD",
       "amount": 999.99,
-      "converted": 31987,
-      "confidence": "SharkNinja US 2026-07-21 來源價；ExchangeRate-API 2026-08-16 匯率換算"
+      "converted": 31966,
+      "confidence": "SharkNinja US 2026-07-21 來源價；ExchangeRate-API 2026-08-17 匯率換算"
     },
     "image": "https://assets.sharkninja.com/image/upload/f_auto/q_auto/SharkNinja-NA/RV2820ZE_01.jpg",
     "buyUrl": "https://www.sharkninja.com/shark-powerdetect-2-in-1-robot-vacuum-and-mop-with-nevertouch-pro-base/RV2820ZE.html",
@@ -2251,8 +2251,8 @@
     "price": {
       "currency": "USD",
       "amount": 399.99,
-      "converted": 12795,
-      "confidence": "Costco US 2026-07-21 最後可驗證價；2026-08-15 exact-model 頁顯示 Unavailable；ExchangeRate-API 2026-08-16 匯率換算"
+      "converted": 12786,
+      "confidence": "Costco US 2026-07-21 最後可驗證價；2026-08-15 exact-model 頁顯示 Unavailable；ExchangeRate-API 2026-08-17 匯率換算"
     },
     "image": "https://bfasset.costco-static.com/U447IH35/as/tkj772p4357mmh3bwz8kcq/1791272-847__1?auto=webp&format=jpg",
     "buyUrl": "https://www.costco.com/p/-/roborock-qx-revo-robot-vacuum-and-mop-with-multifunctional-dock/4000233271",
@@ -2666,9 +2666,9 @@
     "name": "Xiaomi 掃拖機器人 H50 Pro",
     "price": {
       "currency": "TWD",
-      "amount": 9975,
-      "converted": 9975,
-      "confidence": "Yahoo購物中心 2026-08-14 exact-model 公開結構化價格"
+      "amount": 10499,
+      "converted": 10499,
+      "confidence": "Yahoo購物中心 2026-08-17 exact-model 公開結構化價格"
     },
     "image": "https://img.yec.tw/zp/MerchandiseImages/DBA14833A1-SP-22450109.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/%E5%B0%8F%E7%B1%B3-Xiaomi-%E6%8E%83%E6%8B%96%E6%A9%9F%E5%99%A8%E4%BA%BA-H50-Pro-12052496.html",

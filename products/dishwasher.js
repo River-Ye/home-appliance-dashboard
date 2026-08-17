@@ -1677,9 +1677,9 @@
     "name": "45公分 獨立式洗碗機",
     "price": {
       "currency": "TWD",
-      "amount": 21598,
-      "converted": 21598,
-      "confidence": "Costco 好市多 2026-08-03 exact-model 公開結構化價格"
+      "amount": 25599,
+      "converted": 25599,
+      "confidence": "Costco 好市多 2026-08-17 exact-model 公開結構化價格"
     },
     "image": "https://www.costco.com.tw/medias/sys_master/images/h3d/h7a/66317147242526.jpg",
     "buyUrl": "https://www.costco.com.tw/Televisions-Appliances/Kitchen-Appliances/Dishwashers-Dish-Dryers/BOSCH-45-cm-Freestanding-Dishwasher-SPS2IKW00X/p/131781",
@@ -1838,9 +1838,9 @@
     "name": "60 公分 15 人份 AirDry 獨立式洗碗機",
     "price": {
       "currency": "TWD",
-      "amount": 26999,
-      "converted": 26999,
-      "confidence": "Costco 好市多 2026-07-09 查核價"
+      "amount": 21599,
+      "converted": 21599,
+      "confidence": "Costco 好市多 2026-08-17 exact-model 公開結構化價格"
     },
     "image": "https://www.costco.com.tw/medias/sys_master/images/heb/hf0/379632229416990.webp",
     "buyUrl": "https://www.costco.com.tw/Televisions-Appliances/Kitchen-Appliances/Dishwashers-Dish-Dryers/Electrolux-60cm-UltimateCare-300-AirDry-Freestanding-Dishwasher/p/155128",
@@ -1877,16 +1877,16 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 26999,
+      "amount": 21599,
       "currency": "TWD",
-      "converted": 26999,
+      "converted": 21599,
       "sourceUrl": "https://www.costco.com.tw/Televisions-Appliances/Kitchen-Appliances/Dishwashers-Dish-Dryers/Electrolux-60cm-UltimateCare-300-AirDry-Freestanding-Dishwasher/p/155128",
-      "sourceTitle": "Costco 商品頁：伊萊克斯 60公分 極淨呵護300 安心乾系列 15人份 自動開門 獨立式洗碗機 | Costco 好市多",
-      "evidenceSnippet": "Costco 商品頁 於 2026-07-10 回傳同一商品頁「伊萊克斯 60公分 極淨呵護300 安心乾系列 15人份 自動開門 獨立式洗碗機 | Costco 好市多」查核價 NT$26,999，低於原先記錄史低。",
+      "sourceTitle": "Costco 好市多：伊萊克斯 60公分 極淨呵護300 安心乾系列 15人份 自動開門 獨立式洗碗機 | Costco 好市多",
+      "evidenceSnippet": "Costco 好市多於 2026-08-17 顯示同型號可信新品公開價 NT$21,599，低於既有史低 NT$26,999。",
       "sourceKind": "retailer_page",
       "confidence": "medium",
-      "checkedAt": "2026-07-10",
-      "note": "採用可信通路同一商品頁可公開查核現價作為本次觀測到的最低價；同型號/規格並排除會員個人化折扣、信用卡回饋、點數、二手、福利品、展示機、箱損、拆封與整新品。"
+      "checkedAt": "2026-08-17",
+      "note": "採用 Costco 好市多當日可購商品的同型號新品公開價；不含會員券、點數、信用卡回饋、二手、福利、展示、拆封或整新品。"
     },
     "issueResearch": {
       "status": "no_common_issue",

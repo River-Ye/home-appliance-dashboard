@@ -285,9 +285,9 @@
     "name": "Gaggia 佳吉亞 ANIMA CMF 星耀型全自動咖啡機",
     "price": {
       "currency": "TWD",
-      "amount": 24552,
-      "converted": 24552,
-      "confidence": "PChome 2026-08-06 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 27900,
+      "converted": 27900,
+      "confidence": "PChome 2026-08-17 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://img.pchome.com.tw/cs/items/DMAT01A900GG8P0/000001_1777224847.png",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAT01-A900GG8P0",
@@ -1176,9 +1176,9 @@
     "name": "Saeco 半自動義式咖啡機",
     "price": {
       "currency": "TWD",
-      "amount": 4741,
-      "converted": 4741,
-      "confidence": "Yahoo購物中心 2026-08-15 exact-model 公開結構化價格"
+      "amount": 4990,
+      "converted": 4990,
+      "confidence": "Yahoo購物中心 2026-08-17 exact-model 公開結構化價格"
     },
     "image": "https://img.yec.tw/zp/MerchandiseImages/69fb8a2ae4-Gd-11322933.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/Philips-%E9%A3%9B%E5%88%A9%E6%B5%A6-Saeco%E5%8D%8A%E8%87%AA%E5%8B%95%E7%BE%A9%E5%BC%8F%E5%92%96%E5%95%A1%E6%A9%9F-EMS5110-02-11322933.html",

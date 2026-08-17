@@ -665,9 +665,9 @@
     "name": "17-49 吋 20KG 中柱款螢幕支架",
     "price": {
       "currency": "TWD",
-      "amount": 1499,
-      "converted": 1499,
-      "confidence": "PChome 2026-08-15 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 1454,
+      "converted": 1454,
+      "confidence": "PChome 2026-08-17 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DCBB69A900IHPC0/000001_1742812418.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DCBB69-A900IHPC0",
@@ -1750,7 +1750,7 @@
       "sourceKind": "price_history",
       "confidence": "medium",
       "checkedAt": "2026-07-24",
-      "note": "採英國市場 exact-model 公開 30 天價格歷史並依 2026-08-16 GBP/TWD 匯率換算；未含國際運費、進口稅、退換貨與台灣保固風險，不能直接視為台灣到手價。"
+      "note": "採英國市場 exact-model 公開 30 天價格歷史並依 2026-08-17 GBP/TWD 匯率換算；未含國際運費、進口稅、退換貨與台灣保固風險，不能直接視為台灣到手價。"
     },
     "issueResearch": {
       "status": "no_common_issue",
