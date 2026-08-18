@@ -3,7 +3,7 @@ const {
 } = require("./dashboard-contract");
 
 const BRAND_CATALOGS = new Map([
-  ["Sony", "https://www.sony.com.tw/zh/electronics/products"],
+  ["Sony", "https://www.sony.com.tw/zh/all-products"],
   ["Panasonic", "https://www.panasonic.com/tw/consumer.html"],
   ["HITACHI", "https://hitachi-homeappliances.com.tw/products/"],
   ["Mitsubishi Electric", "https://www.mitsubishielectric.com.tw/home/"],
@@ -38,9 +38,9 @@ const RELEVANT_CATEGORY_IDS = new Map([
 ]);
 
 const CATEGORY_SOURCES = new Map([
-  ["Sony:tv", "https://www.sony.com.tw/zh/electronics/tv/t/televisions"],
-  ["Sony:soundbar", "https://www.sony.com.tw/zh/electronics/sound-bars/t/sound-bars"],
-  ["Sony:monitor", "https://www.sony.com.tw/inzone"],
+  ["Sony:tv", "https://www.sony.com.tw/zh/bravia"],
+  ["Sony:soundbar", "https://www.sony.com.tw/zh/home-theatre-sound-bars"],
+  ["Sony:monitor", "https://www.sony.com.tw/zh/gaming-gear"],
   ["Panasonic:monitor", "https://www.panasonic.com/tw/consumer/digital-av/monitor/ts-27gf40ctk.html"],
   ["Panasonic:waterheater", "https://www.panasonic.com/tw/consumer/all-products.html"],
   ["HITACHI:waterheater", "https://www.jci-hitachi.tw/service/download/RoHS.aspx/download.aspx"],
