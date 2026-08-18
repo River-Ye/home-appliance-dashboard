@@ -157,10 +157,16 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-11",
+      "checkedAt": "2026-08-18",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Blueair BlueMax 3450i\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Blueair%20BlueMax%203450i%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Blueair BlueMax 3450i\" (災情 OR 問題 OR 故障 OR 負評)",
@@ -168,10 +174,22 @@
           "targetHost": "mobile01.com"
         },
         {
-          "platform": "Reddit",
-          "query": "site:reddit.com \"Blueair BlueMax 3450i\" (problem OR issue OR defect OR \"negative review\")",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Blueair%20BlueMax%203450i%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
-          "targetHost": "reddit.com"
+          "platform": "PTT",
+          "query": "site:ptt.cc \"Blueair BlueMax 3450i\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22Blueair%20BlueMax%203450i%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "ptt.cc"
+        },
+        {
+          "platform": "Dcard",
+          "query": "site:dcard.tw \"Blueair BlueMax 3450i\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22Blueair%20BlueMax%203450i%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "dcard.tw"
+        },
+        {
+          "platform": "YouTube",
+          "query": "\"Blueair BlueMax 3450i\" problem issue defect failure broken 災情 故障 異常",
+          "queryUrl": "https://www.youtube.com/results?search_query=%22Blueair%20BlueMax%203450i%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
+          "targetHost": "youtube.com"
         }
       ]
     }
@@ -235,10 +253,16 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-11",
+      "checkedAt": "2026-08-18",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Dyson TP11\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Dyson%20TP11%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Dyson TP11\" (災情 OR 問題 OR 故障 OR 負評)",
@@ -246,10 +270,22 @@
           "targetHost": "mobile01.com"
         },
         {
-          "platform": "Reddit",
-          "query": "site:reddit.com \"Dyson TP11\" (problem OR issue OR defect OR \"negative review\")",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Dyson%20TP11%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
-          "targetHost": "reddit.com"
+          "platform": "PTT",
+          "query": "site:ptt.cc \"Dyson TP11\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22Dyson%20TP11%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "ptt.cc"
+        },
+        {
+          "platform": "Dcard",
+          "query": "site:dcard.tw \"Dyson TP11\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22Dyson%20TP11%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "dcard.tw"
+        },
+        {
+          "platform": "YouTube",
+          "query": "\"Dyson TP11\" problem issue defect failure broken 災情 故障 異常",
+          "queryUrl": "https://www.youtube.com/results?search_query=%22Dyson%20TP11%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
+          "targetHost": "youtube.com"
         }
       ]
     }
@@ -313,10 +349,16 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-11",
+      "checkedAt": "2026-08-18",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Philips AC2936\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Philips%20AC2936%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Philips AC2936\" (災情 OR 問題 OR 故障 OR 負評)",
@@ -324,10 +366,22 @@
           "targetHost": "mobile01.com"
         },
         {
-          "platform": "Reddit",
-          "query": "site:reddit.com \"Philips AC2936\" (problem OR issue OR defect OR \"negative review\")",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Philips%20AC2936%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
-          "targetHost": "reddit.com"
+          "platform": "PTT",
+          "query": "site:ptt.cc \"Philips AC2936\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22Philips%20AC2936%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "ptt.cc"
+        },
+        {
+          "platform": "Dcard",
+          "query": "site:dcard.tw \"Philips AC2936\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22Philips%20AC2936%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "dcard.tw"
+        },
+        {
+          "platform": "YouTube",
+          "query": "\"Philips AC2936\" problem issue defect failure broken 災情 故障 異常",
+          "queryUrl": "https://www.youtube.com/results?search_query=%22Philips%20AC2936%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
+          "targetHost": "youtube.com"
         }
       ]
     }
@@ -391,10 +445,16 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-11",
+      "checkedAt": "2026-08-18",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Coway AP-2023K\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Coway%20AP-2023K%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Coway AP-2023K\" (災情 OR 問題 OR 故障 OR 負評)",
@@ -402,10 +462,22 @@
           "targetHost": "mobile01.com"
         },
         {
-          "platform": "Reddit",
-          "query": "site:reddit.com \"Coway AP-2023K\" (problem OR issue OR defect OR \"negative review\")",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Coway%20AP-2023K%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
-          "targetHost": "reddit.com"
+          "platform": "PTT",
+          "query": "site:ptt.cc \"Coway AP-2023K\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22Coway%20AP-2023K%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "ptt.cc"
+        },
+        {
+          "platform": "Dcard",
+          "query": "site:dcard.tw \"Coway AP-2023K\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22Coway%20AP-2023K%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "dcard.tw"
+        },
+        {
+          "platform": "YouTube",
+          "query": "\"Coway AP-2023K\" problem issue defect failure broken 災情 故障 異常",
+          "queryUrl": "https://www.youtube.com/results?search_query=%22Coway%20AP-2023K%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
+          "targetHost": "youtube.com"
         }
       ]
     }
@@ -469,10 +541,16 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-11",
+      "checkedAt": "2026-08-18",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Blueair ClassicPro CP9i\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Blueair%20ClassicPro%20CP9i%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Blueair ClassicPro CP9i\" (災情 OR 問題 OR 故障 OR 負評)",
@@ -480,10 +558,22 @@
           "targetHost": "mobile01.com"
         },
         {
-          "platform": "Reddit",
-          "query": "site:reddit.com \"Blueair ClassicPro CP9i\" (problem OR issue OR defect OR \"negative review\")",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Blueair%20ClassicPro%20CP9i%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
-          "targetHost": "reddit.com"
+          "platform": "PTT",
+          "query": "site:ptt.cc \"Blueair ClassicPro CP9i\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22Blueair%20ClassicPro%20CP9i%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "ptt.cc"
+        },
+        {
+          "platform": "Dcard",
+          "query": "site:dcard.tw \"Blueair ClassicPro CP9i\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22Blueair%20ClassicPro%20CP9i%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "dcard.tw"
+        },
+        {
+          "platform": "YouTube",
+          "query": "\"Blueair ClassicPro CP9i\" problem issue defect failure broken 災情 故障 異常",
+          "queryUrl": "https://www.youtube.com/results?search_query=%22Blueair%20ClassicPro%20CP9i%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
+          "targetHost": "youtube.com"
         }
       ]
     }
@@ -547,10 +637,16 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-11",
+      "checkedAt": "2026-08-18",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Blueair Blue Signature SP4i\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Blueair%20Blue%20Signature%20SP4i%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Blueair Blue Signature SP4i\" (災情 OR 問題 OR 故障 OR 負評)",
@@ -558,10 +654,22 @@
           "targetHost": "mobile01.com"
         },
         {
-          "platform": "Reddit",
-          "query": "site:reddit.com \"Blueair Blue Signature SP4i\" (problem OR issue OR defect OR \"negative review\")",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Blueair%20Blue%20Signature%20SP4i%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
-          "targetHost": "reddit.com"
+          "platform": "PTT",
+          "query": "site:ptt.cc \"Blueair Blue Signature SP4i\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22Blueair%20Blue%20Signature%20SP4i%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "ptt.cc"
+        },
+        {
+          "platform": "Dcard",
+          "query": "site:dcard.tw \"Blueair Blue Signature SP4i\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22Blueair%20Blue%20Signature%20SP4i%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "dcard.tw"
+        },
+        {
+          "platform": "YouTube",
+          "query": "\"Blueair Blue Signature SP4i\" problem issue defect failure broken 災情 故障 異常",
+          "queryUrl": "https://www.youtube.com/results?search_query=%22Blueair%20Blue%20Signature%20SP4i%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
+          "targetHost": "youtube.com"
         }
       ]
     }
@@ -625,10 +733,16 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-11",
+      "checkedAt": "2026-08-18",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Blueair BlueMax 3250i\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Blueair%20BlueMax%203250i%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Blueair BlueMax 3250i\" (災情 OR 問題 OR 故障 OR 負評)",
@@ -636,10 +750,22 @@
           "targetHost": "mobile01.com"
         },
         {
-          "platform": "Reddit",
-          "query": "site:reddit.com \"Blueair BlueMax 3250i\" (problem OR issue OR defect OR \"negative review\")",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Blueair%20BlueMax%203250i%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
-          "targetHost": "reddit.com"
+          "platform": "PTT",
+          "query": "site:ptt.cc \"Blueair BlueMax 3250i\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22Blueair%20BlueMax%203250i%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "ptt.cc"
+        },
+        {
+          "platform": "Dcard",
+          "query": "site:dcard.tw \"Blueair BlueMax 3250i\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22Blueair%20BlueMax%203250i%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "dcard.tw"
+        },
+        {
+          "platform": "YouTube",
+          "query": "\"Blueair BlueMax 3250i\" problem issue defect failure broken 災情 故障 異常",
+          "queryUrl": "https://www.youtube.com/results?search_query=%22Blueair%20BlueMax%203250i%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
+          "targetHost": "youtube.com"
         }
       ]
     }
@@ -703,10 +829,16 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-11",
+      "checkedAt": "2026-08-18",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Blueair BlueMax 3350i\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Blueair%20BlueMax%203350i%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Blueair BlueMax 3350i\" (災情 OR 問題 OR 故障 OR 負評)",
@@ -714,10 +846,22 @@
           "targetHost": "mobile01.com"
         },
         {
-          "platform": "Reddit",
-          "query": "site:reddit.com \"Blueair BlueMax 3350i\" (problem OR issue OR defect OR \"negative review\")",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Blueair%20BlueMax%203350i%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
-          "targetHost": "reddit.com"
+          "platform": "PTT",
+          "query": "site:ptt.cc \"Blueair BlueMax 3350i\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22Blueair%20BlueMax%203350i%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "ptt.cc"
+        },
+        {
+          "platform": "Dcard",
+          "query": "site:dcard.tw \"Blueair BlueMax 3350i\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22Blueair%20BlueMax%203350i%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "dcard.tw"
+        },
+        {
+          "platform": "YouTube",
+          "query": "\"Blueair BlueMax 3350i\" problem issue defect failure broken 災情 故障 異常",
+          "queryUrl": "https://www.youtube.com/results?search_query=%22Blueair%20BlueMax%203350i%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
+          "targetHost": "youtube.com"
         }
       ]
     }
@@ -781,10 +925,16 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-11",
+      "checkedAt": "2026-08-18",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Blueair ComfortPure T20i\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Blueair%20ComfortPure%20T20i%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Blueair ComfortPure T20i\" (災情 OR 問題 OR 故障 OR 負評)",
@@ -792,10 +942,22 @@
           "targetHost": "mobile01.com"
         },
         {
-          "platform": "Reddit",
-          "query": "site:reddit.com \"Blueair ComfortPure T20i\" (problem OR issue OR defect OR \"negative review\")",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Blueair%20ComfortPure%20T20i%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
-          "targetHost": "reddit.com"
+          "platform": "PTT",
+          "query": "site:ptt.cc \"Blueair ComfortPure T20i\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22Blueair%20ComfortPure%20T20i%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "ptt.cc"
+        },
+        {
+          "platform": "Dcard",
+          "query": "site:dcard.tw \"Blueair ComfortPure T20i\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22Blueair%20ComfortPure%20T20i%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "dcard.tw"
+        },
+        {
+          "platform": "YouTube",
+          "query": "\"Blueair ComfortPure T20i\" problem issue defect failure broken 災情 故障 異常",
+          "queryUrl": "https://www.youtube.com/results?search_query=%22Blueair%20ComfortPure%20T20i%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
+          "targetHost": "youtube.com"
         }
       ]
     }
@@ -859,10 +1021,16 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-11",
+      "checkedAt": "2026-08-18",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Blueair ClassicPro CP7i\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Blueair%20ClassicPro%20CP7i%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Blueair ClassicPro CP7i\" (災情 OR 問題 OR 故障 OR 負評)",
@@ -870,10 +1038,22 @@
           "targetHost": "mobile01.com"
         },
         {
-          "platform": "Reddit",
-          "query": "site:reddit.com \"Blueair ClassicPro CP7i\" (problem OR issue OR defect OR \"negative review\")",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Blueair%20ClassicPro%20CP7i%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
-          "targetHost": "reddit.com"
+          "platform": "PTT",
+          "query": "site:ptt.cc \"Blueair ClassicPro CP7i\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22Blueair%20ClassicPro%20CP7i%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "ptt.cc"
+        },
+        {
+          "platform": "Dcard",
+          "query": "site:dcard.tw \"Blueair ClassicPro CP7i\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22Blueair%20ClassicPro%20CP7i%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "dcard.tw"
+        },
+        {
+          "platform": "YouTube",
+          "query": "\"Blueair ClassicPro CP7i\" problem issue defect failure broken 災情 故障 異常",
+          "queryUrl": "https://www.youtube.com/results?search_query=%22Blueair%20ClassicPro%20CP7i%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
+          "targetHost": "youtube.com"
         }
       ]
     }
@@ -937,10 +1117,16 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-11",
+      "checkedAt": "2026-08-18",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Dyson HP12\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Dyson%20HP12%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Dyson HP12\" (災情 OR 問題 OR 故障 OR 負評)",
@@ -948,10 +1134,22 @@
           "targetHost": "mobile01.com"
         },
         {
-          "platform": "Reddit",
-          "query": "site:reddit.com \"Dyson HP12\" (problem OR issue OR defect OR \"negative review\")",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Dyson%20HP12%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
-          "targetHost": "reddit.com"
+          "platform": "PTT",
+          "query": "site:ptt.cc \"Dyson HP12\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22Dyson%20HP12%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "ptt.cc"
+        },
+        {
+          "platform": "Dcard",
+          "query": "site:dcard.tw \"Dyson HP12\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22Dyson%20HP12%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "dcard.tw"
+        },
+        {
+          "platform": "YouTube",
+          "query": "\"Dyson HP12\" problem issue defect failure broken 災情 故障 異常",
+          "queryUrl": "https://www.youtube.com/results?search_query=%22Dyson%20HP12%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
+          "targetHost": "youtube.com"
         }
       ]
     }
@@ -1015,10 +1213,16 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-11",
+      "checkedAt": "2026-08-18",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Dyson HP11\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Dyson%20HP11%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Dyson HP11\" (災情 OR 問題 OR 故障 OR 負評)",
@@ -1026,10 +1230,22 @@
           "targetHost": "mobile01.com"
         },
         {
-          "platform": "Reddit",
-          "query": "site:reddit.com \"Dyson HP11\" (problem OR issue OR defect OR \"negative review\")",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Dyson%20HP11%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
-          "targetHost": "reddit.com"
+          "platform": "PTT",
+          "query": "site:ptt.cc \"Dyson HP11\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22Dyson%20HP11%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "ptt.cc"
+        },
+        {
+          "platform": "Dcard",
+          "query": "site:dcard.tw \"Dyson HP11\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22Dyson%20HP11%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "dcard.tw"
+        },
+        {
+          "platform": "YouTube",
+          "query": "\"Dyson HP11\" problem issue defect failure broken 災情 故障 異常",
+          "queryUrl": "https://www.youtube.com/results?search_query=%22Dyson%20HP11%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
+          "targetHost": "youtube.com"
         }
       ]
     }
@@ -1093,10 +1309,16 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-11",
+      "checkedAt": "2026-08-18",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Dyson TP12\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Dyson%20TP12%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Dyson TP12\" (災情 OR 問題 OR 故障 OR 負評)",
@@ -1104,10 +1326,22 @@
           "targetHost": "mobile01.com"
         },
         {
-          "platform": "Reddit",
-          "query": "site:reddit.com \"Dyson TP12\" (problem OR issue OR defect OR \"negative review\")",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Dyson%20TP12%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
-          "targetHost": "reddit.com"
+          "platform": "PTT",
+          "query": "site:ptt.cc \"Dyson TP12\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22Dyson%20TP12%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "ptt.cc"
+        },
+        {
+          "platform": "Dcard",
+          "query": "site:dcard.tw \"Dyson TP12\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22Dyson%20TP12%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "dcard.tw"
+        },
+        {
+          "platform": "YouTube",
+          "query": "\"Dyson TP12\" problem issue defect failure broken 災情 故障 異常",
+          "queryUrl": "https://www.youtube.com/results?search_query=%22Dyson%20TP12%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
+          "targetHost": "youtube.com"
         }
       ]
     }
@@ -1171,10 +1405,16 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-11",
+      "checkedAt": "2026-08-18",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Philips MUJI AC0650\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Philips%20MUJI%20AC0650%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Philips MUJI AC0650\" (災情 OR 問題 OR 故障 OR 負評)",
@@ -1182,10 +1422,22 @@
           "targetHost": "mobile01.com"
         },
         {
-          "platform": "Reddit",
-          "query": "site:reddit.com \"Philips MUJI AC0650\" (problem OR issue OR defect OR \"negative review\")",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Philips%20MUJI%20AC0650%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
-          "targetHost": "reddit.com"
+          "platform": "PTT",
+          "query": "site:ptt.cc \"Philips MUJI AC0650\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22Philips%20MUJI%20AC0650%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "ptt.cc"
+        },
+        {
+          "platform": "Dcard",
+          "query": "site:dcard.tw \"Philips MUJI AC0650\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22Philips%20MUJI%20AC0650%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "dcard.tw"
+        },
+        {
+          "platform": "YouTube",
+          "query": "\"Philips MUJI AC0650\" problem issue defect failure broken 災情 故障 異常",
+          "queryUrl": "https://www.youtube.com/results?search_query=%22Philips%20MUJI%20AC0650%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
+          "targetHost": "youtube.com"
         }
       ]
     }
@@ -1249,10 +1501,16 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-11",
+      "checkedAt": "2026-08-18",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"POIEMA P50\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22POIEMA%20P50%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"POIEMA P50\" (災情 OR 問題 OR 故障 OR 負評)",
@@ -1260,10 +1518,22 @@
           "targetHost": "mobile01.com"
         },
         {
-          "platform": "Reddit",
-          "query": "site:reddit.com \"POIEMA P50\" (problem OR issue OR defect OR \"negative review\")",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22POIEMA%20P50%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
-          "targetHost": "reddit.com"
+          "platform": "PTT",
+          "query": "site:ptt.cc \"POIEMA P50\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22POIEMA%20P50%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "ptt.cc"
+        },
+        {
+          "platform": "Dcard",
+          "query": "site:dcard.tw \"POIEMA P50\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22POIEMA%20P50%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "dcard.tw"
+        },
+        {
+          "platform": "YouTube",
+          "query": "\"POIEMA P50\" problem issue defect failure broken 災情 故障 異常",
+          "queryUrl": "https://www.youtube.com/results?search_query=%22POIEMA%20P50%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
+          "targetHost": "youtube.com"
         }
       ]
     }
@@ -1327,10 +1597,16 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-11",
+      "checkedAt": "2026-08-18",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"POIEMA P50B\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22POIEMA%20P50B%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"POIEMA P50B\" (災情 OR 問題 OR 故障 OR 負評)",
@@ -1338,10 +1614,22 @@
           "targetHost": "mobile01.com"
         },
         {
-          "platform": "Reddit",
-          "query": "site:reddit.com \"POIEMA P50B\" (problem OR issue OR defect OR \"negative review\")",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22POIEMA%20P50B%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
-          "targetHost": "reddit.com"
+          "platform": "PTT",
+          "query": "site:ptt.cc \"POIEMA P50B\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22POIEMA%20P50B%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "ptt.cc"
+        },
+        {
+          "platform": "Dcard",
+          "query": "site:dcard.tw \"POIEMA P50B\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22POIEMA%20P50B%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "dcard.tw"
+        },
+        {
+          "platform": "YouTube",
+          "query": "\"POIEMA P50B\" problem issue defect failure broken 災情 故障 異常",
+          "queryUrl": "https://www.youtube.com/results?search_query=%22POIEMA%20P50B%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
+          "targetHost": "youtube.com"
         }
       ]
     }
@@ -1405,10 +1693,16 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-11",
+      "checkedAt": "2026-08-18",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"SHARP FU-J41T-W\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22SHARP%20FU-J41T-W%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"SHARP FU-J41T-W\" (災情 OR 問題 OR 故障 OR 負評)",
@@ -1416,10 +1710,22 @@
           "targetHost": "mobile01.com"
         },
         {
-          "platform": "Reddit",
-          "query": "site:reddit.com \"SHARP FU-J41T-W\" (problem OR issue OR defect OR \"negative review\")",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22SHARP%20FU-J41T-W%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
-          "targetHost": "reddit.com"
+          "platform": "PTT",
+          "query": "site:ptt.cc \"SHARP FU-J41T-W\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22SHARP%20FU-J41T-W%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "ptt.cc"
+        },
+        {
+          "platform": "Dcard",
+          "query": "site:dcard.tw \"SHARP FU-J41T-W\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22SHARP%20FU-J41T-W%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "dcard.tw"
+        },
+        {
+          "platform": "YouTube",
+          "query": "\"SHARP FU-J41T-W\" problem issue defect failure broken 災情 故障 異常",
+          "queryUrl": "https://www.youtube.com/results?search_query=%22SHARP%20FU-J41T-W%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
+          "targetHost": "youtube.com"
         }
       ]
     }
@@ -1483,10 +1789,16 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-11",
+      "checkedAt": "2026-08-18",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Philips AC3360/80\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Philips%20AC3360%2F80%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Philips AC3360/80\" (災情 OR 問題 OR 故障 OR 負評)",
@@ -1494,10 +1806,22 @@
           "targetHost": "mobile01.com"
         },
         {
-          "platform": "Reddit",
-          "query": "site:reddit.com \"Philips AC3360/80\" (problem OR issue OR defect OR \"negative review\")",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Philips%20AC3360%2F80%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
-          "targetHost": "reddit.com"
+          "platform": "PTT",
+          "query": "site:ptt.cc \"Philips AC3360/80\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22Philips%20AC3360%2F80%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "ptt.cc"
+        },
+        {
+          "platform": "Dcard",
+          "query": "site:dcard.tw \"Philips AC3360/80\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22Philips%20AC3360%2F80%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "dcard.tw"
+        },
+        {
+          "platform": "YouTube",
+          "query": "\"Philips AC3360/80\" problem issue defect failure broken 災情 故障 異常",
+          "queryUrl": "https://www.youtube.com/results?search_query=%22Philips%20AC3360%2F80%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
+          "targetHost": "youtube.com"
         }
       ]
     }
@@ -1561,10 +1885,16 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-11",
+      "checkedAt": "2026-08-18",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"LG AS601HWG0\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22LG%20AS601HWG0%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"LG AS601HWG0\" (災情 OR 問題 OR 故障 OR 負評)",
@@ -1572,10 +1902,22 @@
           "targetHost": "mobile01.com"
         },
         {
-          "platform": "Reddit",
-          "query": "site:reddit.com \"LG AS601HWG0\" (problem OR issue OR defect OR \"negative review\")",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22LG%20AS601HWG0%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
-          "targetHost": "reddit.com"
+          "platform": "PTT",
+          "query": "site:ptt.cc \"LG AS601HWG0\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22LG%20AS601HWG0%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "ptt.cc"
+        },
+        {
+          "platform": "Dcard",
+          "query": "site:dcard.tw \"LG AS601HWG0\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22LG%20AS601HWG0%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "dcard.tw"
+        },
+        {
+          "platform": "YouTube",
+          "query": "\"LG AS601HWG0\" problem issue defect failure broken 災情 故障 異常",
+          "queryUrl": "https://www.youtube.com/results?search_query=%22LG%20AS601HWG0%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
+          "targetHost": "youtube.com"
         }
       ]
     }
@@ -1639,10 +1981,16 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-11",
+      "checkedAt": "2026-08-18",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"LG AS651DWH0\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22LG%20AS651DWH0%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"LG AS651DWH0\" (災情 OR 問題 OR 故障 OR 負評)",
@@ -1650,10 +1998,22 @@
           "targetHost": "mobile01.com"
         },
         {
-          "platform": "Reddit",
-          "query": "site:reddit.com \"LG AS651DWH0\" (problem OR issue OR defect OR \"negative review\")",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22LG%20AS651DWH0%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
-          "targetHost": "reddit.com"
+          "platform": "PTT",
+          "query": "site:ptt.cc \"LG AS651DWH0\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22LG%20AS651DWH0%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "ptt.cc"
+        },
+        {
+          "platform": "Dcard",
+          "query": "site:dcard.tw \"LG AS651DWH0\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22LG%20AS651DWH0%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "dcard.tw"
+        },
+        {
+          "platform": "YouTube",
+          "query": "\"LG AS651DWH0\" problem issue defect failure broken 災情 故障 異常",
+          "queryUrl": "https://www.youtube.com/results?search_query=%22LG%20AS651DWH0%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
+          "targetHost": "youtube.com"
         }
       ]
     }
@@ -1720,10 +2080,16 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-11",
+      "checkedAt": "2026-08-18",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Dyson BP02\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Dyson%20BP02%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Dyson BP02\" (災情 OR 問題 OR 故障 OR 負評)",
@@ -1731,10 +2097,22 @@
           "targetHost": "mobile01.com"
         },
         {
-          "platform": "Reddit",
-          "query": "site:reddit.com \"Dyson BP02\" (problem OR issue OR defect OR \"negative review\")",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Dyson%20BP02%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
-          "targetHost": "reddit.com"
+          "platform": "PTT",
+          "query": "site:ptt.cc \"Dyson BP02\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22Dyson%20BP02%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "ptt.cc"
+        },
+        {
+          "platform": "Dcard",
+          "query": "site:dcard.tw \"Dyson BP02\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22Dyson%20BP02%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "dcard.tw"
+        },
+        {
+          "platform": "YouTube",
+          "query": "\"Dyson BP02\" problem issue defect failure broken 災情 故障 異常",
+          "queryUrl": "https://www.youtube.com/results?search_query=%22Dyson%20BP02%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
+          "targetHost": "youtube.com"
         }
       ]
     }
@@ -1792,21 +2170,39 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-22",
+      "checkedAt": "2026-08-18",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Dyson HJ10\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Dyson%20HJ10%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
+        {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Dyson HJ10\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.bing.com/search?q=site%3Amobile01.com%20%22Dyson%20HJ10%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Dyson%20HJ10%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
-          "platform": "Reddit",
-          "query": "site:reddit.com \"Dyson HJ10\" (problem OR issue OR defect OR \"negative review\")",
-          "queryUrl": "https://www.bing.com/search?q=site%3Areddit.com%20%22Dyson%20HJ10%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
-          "targetHost": "reddit.com"
+          "platform": "PTT",
+          "query": "site:ptt.cc \"Dyson HJ10\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22Dyson%20HJ10%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "ptt.cc"
+        },
+        {
+          "platform": "Dcard",
+          "query": "site:dcard.tw \"Dyson HJ10\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22Dyson%20HJ10%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "dcard.tw"
+        },
+        {
+          "platform": "YouTube",
+          "query": "\"Dyson HJ10\" problem issue defect failure broken 災情 故障 異常",
+          "queryUrl": "https://www.youtube.com/results?search_query=%22Dyson%20HJ10%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
+          "targetHost": "youtube.com"
         }
       ]
     },
@@ -1887,21 +2283,39 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-01",
+      "checkedAt": "2026-08-18",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Philips AC0921/84\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Philips%20AC0921%2F84%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
+        {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Philips AC0921/84\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Philips%20AC0921%2F84%22%20%28%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95%29",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Philips%20AC0921%2F84%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
-          "platform": "Reddit",
-          "query": "site:reddit.com \"Philips AC0921/84\" (problem OR issue OR defect OR \"negative review\")",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Philips%20AC0921%2F84%22%20%28problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22%29",
-          "targetHost": "reddit.com"
+          "platform": "PTT",
+          "query": "site:ptt.cc \"Philips AC0921/84\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22Philips%20AC0921%2F84%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "ptt.cc"
+        },
+        {
+          "platform": "Dcard",
+          "query": "site:dcard.tw \"Philips AC0921/84\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22Philips%20AC0921%2F84%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "dcard.tw"
+        },
+        {
+          "platform": "YouTube",
+          "query": "\"Philips AC0921/84\" problem issue defect failure broken 災情 故障 異常",
+          "queryUrl": "https://www.youtube.com/results?search_query=%22Philips%20AC0921%2F84%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
+          "targetHost": "youtube.com"
         }
       ]
     }
@@ -1975,21 +2389,39 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-14",
+      "checkedAt": "2026-08-18",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Panasonic F-P60PH\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Panasonic%20F-P60PH%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
+        {
           "platform": "Mobile01",
-          "query": "site:mobile01.com \"F-P60PH\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22F-P60PH%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "query": "site:mobile01.com \"Panasonic F-P60PH\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Panasonic%20F-P60PH%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "PTT",
-          "query": "site:ptt.cc \"F-P60PH\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22F-P60PH%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "query": "site:ptt.cc \"Panasonic F-P60PH\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22Panasonic%20F-P60PH%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "ptt.cc"
+        },
+        {
+          "platform": "Dcard",
+          "query": "site:dcard.tw \"Panasonic F-P60PH\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22Panasonic%20F-P60PH%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "dcard.tw"
+        },
+        {
+          "platform": "YouTube",
+          "query": "\"Panasonic F-P60PH\" problem issue defect failure broken 災情 故障 異常",
+          "queryUrl": "https://www.youtube.com/results?search_query=%22Panasonic%20F-P60PH%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
+          "targetHost": "youtube.com"
         }
       ]
     }
@@ -2064,21 +2496,39 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-14",
+      "checkedAt": "2026-08-18",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"DAIKIN MC655ASCT\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22DAIKIN%20MC655ASCT%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
+        {
           "platform": "Mobile01",
-          "query": "site:mobile01.com \"MC655ASCT\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22MC655ASCT%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "query": "site:mobile01.com \"DAIKIN MC655ASCT\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22DAIKIN%20MC655ASCT%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "PTT",
-          "query": "site:ptt.cc \"MC655ASCT\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22MC655ASCT%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "query": "site:ptt.cc \"DAIKIN MC655ASCT\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22DAIKIN%20MC655ASCT%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "ptt.cc"
+        },
+        {
+          "platform": "Dcard",
+          "query": "site:dcard.tw \"DAIKIN MC655ASCT\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22DAIKIN%20MC655ASCT%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "dcard.tw"
+        },
+        {
+          "platform": "YouTube",
+          "query": "\"DAIKIN MC655ASCT\" problem issue defect failure broken 災情 故障 異常",
+          "queryUrl": "https://www.youtube.com/results?search_query=%22DAIKIN%20MC655ASCT%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
+          "targetHost": "youtube.com"
         }
       ]
     }

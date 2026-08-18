@@ -161,10 +161,16 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-11",
+      "checkedAt": "2026-08-18",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Samsung HW-Q800H/ZW\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Samsung%20HW-Q800H%2FZW%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Samsung HW-Q800H/ZW\" (災情 OR 問題 OR 故障 OR 負評)",
@@ -172,10 +178,22 @@
           "targetHost": "mobile01.com"
         },
         {
-          "platform": "Reddit",
-          "query": "site:reddit.com \"Samsung HW-Q800H/ZW\" (problem OR issue OR defect OR \"negative review\")",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Samsung%20HW-Q800H%2FZW%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
-          "targetHost": "reddit.com"
+          "platform": "PTT",
+          "query": "site:ptt.cc \"Samsung HW-Q800H/ZW\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22Samsung%20HW-Q800H%2FZW%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "ptt.cc"
+        },
+        {
+          "platform": "Dcard",
+          "query": "site:dcard.tw \"Samsung HW-Q800H/ZW\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22Samsung%20HW-Q800H%2FZW%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "dcard.tw"
+        },
+        {
+          "platform": "YouTube",
+          "query": "\"Samsung HW-Q800H/ZW\" problem issue defect failure broken 災情 故障 異常",
+          "queryUrl": "https://www.youtube.com/results?search_query=%22Samsung%20HW-Q800H%2FZW%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
+          "targetHost": "youtube.com"
         }
       ]
     }
@@ -241,10 +259,16 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-11",
+      "checkedAt": "2026-08-18",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Sony HT-B600\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Sony%20HT-B600%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Sony HT-B600\" (災情 OR 問題 OR 故障 OR 負評)",
@@ -252,10 +276,22 @@
           "targetHost": "mobile01.com"
         },
         {
-          "platform": "Reddit",
-          "query": "site:reddit.com \"Sony HT-B600\" (problem OR issue OR defect OR \"negative review\")",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Sony%20HT-B600%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
-          "targetHost": "reddit.com"
+          "platform": "PTT",
+          "query": "site:ptt.cc \"Sony HT-B600\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22Sony%20HT-B600%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "ptt.cc"
+        },
+        {
+          "platform": "Dcard",
+          "query": "site:dcard.tw \"Sony HT-B600\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22Sony%20HT-B600%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "dcard.tw"
+        },
+        {
+          "platform": "YouTube",
+          "query": "\"Sony HT-B600\" problem issue defect failure broken 災情 故障 異常",
+          "queryUrl": "https://www.youtube.com/results?search_query=%22Sony%20HT-B600%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
+          "targetHost": "youtube.com"
         }
       ]
     }
@@ -324,10 +360,16 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-16",
+      "checkedAt": "2026-08-18",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Sony HT-A7100\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Sony%20HT-A7100%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Sony HT-A7100\" (災情 OR 問題 OR 故障 OR 負評)",
@@ -335,10 +377,22 @@
           "targetHost": "mobile01.com"
         },
         {
-          "platform": "Reddit",
-          "query": "site:reddit.com \"Sony HT-A7100\" (problem OR issue OR defect OR \"negative review\")",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Sony%20HT-A7100%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
-          "targetHost": "reddit.com"
+          "platform": "PTT",
+          "query": "site:ptt.cc \"Sony HT-A7100\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22Sony%20HT-A7100%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "ptt.cc"
+        },
+        {
+          "platform": "Dcard",
+          "query": "site:dcard.tw \"Sony HT-A7100\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22Sony%20HT-A7100%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "dcard.tw"
+        },
+        {
+          "platform": "YouTube",
+          "query": "\"Sony HT-A7100\" problem issue defect failure broken 災情 故障 異常",
+          "queryUrl": "https://www.youtube.com/results?search_query=%22Sony%20HT-A7100%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
+          "targetHost": "youtube.com"
         }
       ]
     }
@@ -493,10 +547,16 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-11",
+      "checkedAt": "2026-08-18",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"JBL BAR 500 MK2\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22JBL%20BAR%20500%20MK2%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"JBL BAR 500 MK2\" (災情 OR 問題 OR 故障 OR 負評)",
@@ -504,10 +564,22 @@
           "targetHost": "mobile01.com"
         },
         {
-          "platform": "Reddit",
-          "query": "site:reddit.com \"JBL BAR 500 MK2\" (problem OR issue OR defect OR \"negative review\")",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22JBL%20BAR%20500%20MK2%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
-          "targetHost": "reddit.com"
+          "platform": "PTT",
+          "query": "site:ptt.cc \"JBL BAR 500 MK2\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22JBL%20BAR%20500%20MK2%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "ptt.cc"
+        },
+        {
+          "platform": "Dcard",
+          "query": "site:dcard.tw \"JBL BAR 500 MK2\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22JBL%20BAR%20500%20MK2%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "dcard.tw"
+        },
+        {
+          "platform": "YouTube",
+          "query": "\"JBL BAR 500 MK2\" problem issue defect failure broken 災情 故障 異常",
+          "queryUrl": "https://www.youtube.com/results?search_query=%22JBL%20BAR%20500%20MK2%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
+          "targetHost": "youtube.com"
         }
       ]
     }
@@ -573,10 +645,16 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-11",
+      "checkedAt": "2026-08-18",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Samsung HW-Q930H/ZW\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Samsung%20HW-Q930H%2FZW%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Samsung HW-Q930H/ZW\" (災情 OR 問題 OR 故障 OR 負評)",
@@ -584,10 +662,22 @@
           "targetHost": "mobile01.com"
         },
         {
-          "platform": "Reddit",
-          "query": "site:reddit.com \"Samsung HW-Q930H/ZW\" (problem OR issue OR defect OR \"negative review\")",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Samsung%20HW-Q930H%2FZW%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
-          "targetHost": "reddit.com"
+          "platform": "PTT",
+          "query": "site:ptt.cc \"Samsung HW-Q930H/ZW\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22Samsung%20HW-Q930H%2FZW%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "ptt.cc"
+        },
+        {
+          "platform": "Dcard",
+          "query": "site:dcard.tw \"Samsung HW-Q930H/ZW\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22Samsung%20HW-Q930H%2FZW%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "dcard.tw"
+        },
+        {
+          "platform": "YouTube",
+          "query": "\"Samsung HW-Q930H/ZW\" problem issue defect failure broken 災情 故障 異常",
+          "queryUrl": "https://www.youtube.com/results?search_query=%22Samsung%20HW-Q930H%2FZW%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
+          "targetHost": "youtube.com"
         }
       ]
     }
@@ -653,10 +743,16 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-11",
+      "checkedAt": "2026-08-18",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Samsung HW-QS700F\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Samsung%20HW-QS700F%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Samsung HW-QS700F\" (災情 OR 問題 OR 故障 OR 負評)",
@@ -664,10 +760,22 @@
           "targetHost": "mobile01.com"
         },
         {
-          "platform": "Reddit",
-          "query": "site:reddit.com \"Samsung HW-QS700F\" (problem OR issue OR defect OR \"negative review\")",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Samsung%20HW-QS700F%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
-          "targetHost": "reddit.com"
+          "platform": "PTT",
+          "query": "site:ptt.cc \"Samsung HW-QS700F\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22Samsung%20HW-QS700F%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "ptt.cc"
+        },
+        {
+          "platform": "Dcard",
+          "query": "site:dcard.tw \"Samsung HW-QS700F\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22Samsung%20HW-QS700F%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "dcard.tw"
+        },
+        {
+          "platform": "YouTube",
+          "query": "\"Samsung HW-QS700F\" problem issue defect failure broken 災情 故障 異常",
+          "queryUrl": "https://www.youtube.com/results?search_query=%22Samsung%20HW-QS700F%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
+          "targetHost": "youtube.com"
         }
       ]
     }
@@ -733,10 +841,16 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-11",
+      "checkedAt": "2026-08-18",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"LG S80TR\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22LG%20S80TR%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"LG S80TR\" (災情 OR 問題 OR 故障 OR 負評)",
@@ -744,10 +858,22 @@
           "targetHost": "mobile01.com"
         },
         {
-          "platform": "Reddit",
-          "query": "site:reddit.com \"LG S80TR\" (problem OR issue OR defect OR \"negative review\")",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22LG%20S80TR%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
-          "targetHost": "reddit.com"
+          "platform": "PTT",
+          "query": "site:ptt.cc \"LG S80TR\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22LG%20S80TR%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "ptt.cc"
+        },
+        {
+          "platform": "Dcard",
+          "query": "site:dcard.tw \"LG S80TR\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22LG%20S80TR%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "dcard.tw"
+        },
+        {
+          "platform": "YouTube",
+          "query": "\"LG S80TR\" problem issue defect failure broken 災情 故障 異常",
+          "queryUrl": "https://www.youtube.com/results?search_query=%22LG%20S80TR%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
+          "targetHost": "youtube.com"
         }
       ]
     }
@@ -813,10 +939,16 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-11",
+      "checkedAt": "2026-08-18",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Samsung HW-Q990H/ZW\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Samsung%20HW-Q990H%2FZW%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Samsung HW-Q990H/ZW\" (災情 OR 問題 OR 故障 OR 負評)",
@@ -824,10 +956,22 @@
           "targetHost": "mobile01.com"
         },
         {
-          "platform": "Reddit",
-          "query": "site:reddit.com \"Samsung HW-Q990H/ZW\" (problem OR issue OR defect OR \"negative review\")",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Samsung%20HW-Q990H%2FZW%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
-          "targetHost": "reddit.com"
+          "platform": "PTT",
+          "query": "site:ptt.cc \"Samsung HW-Q990H/ZW\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22Samsung%20HW-Q990H%2FZW%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "ptt.cc"
+        },
+        {
+          "platform": "Dcard",
+          "query": "site:dcard.tw \"Samsung HW-Q990H/ZW\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22Samsung%20HW-Q990H%2FZW%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "dcard.tw"
+        },
+        {
+          "platform": "YouTube",
+          "query": "\"Samsung HW-Q990H/ZW\" problem issue defect failure broken 災情 故障 異常",
+          "queryUrl": "https://www.youtube.com/results?search_query=%22Samsung%20HW-Q990H%2FZW%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
+          "targetHost": "youtube.com"
         }
       ]
     }
@@ -893,10 +1037,16 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-11",
+      "checkedAt": "2026-08-18",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Samsung HW-QS90H/ZW\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Samsung%20HW-QS90H%2FZW%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Samsung HW-QS90H/ZW\" (災情 OR 問題 OR 故障 OR 負評)",
@@ -904,10 +1054,22 @@
           "targetHost": "mobile01.com"
         },
         {
-          "platform": "Reddit",
-          "query": "site:reddit.com \"Samsung HW-QS90H/ZW\" (problem OR issue OR defect OR \"negative review\")",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Samsung%20HW-QS90H%2FZW%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
-          "targetHost": "reddit.com"
+          "platform": "PTT",
+          "query": "site:ptt.cc \"Samsung HW-QS90H/ZW\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22Samsung%20HW-QS90H%2FZW%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "ptt.cc"
+        },
+        {
+          "platform": "Dcard",
+          "query": "site:dcard.tw \"Samsung HW-QS90H/ZW\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22Samsung%20HW-QS90H%2FZW%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "dcard.tw"
+        },
+        {
+          "platform": "YouTube",
+          "query": "\"Samsung HW-QS90H/ZW\" problem issue defect failure broken 災情 故障 異常",
+          "queryUrl": "https://www.youtube.com/results?search_query=%22Samsung%20HW-QS90H%2FZW%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
+          "targetHost": "youtube.com"
         }
       ]
     }
@@ -973,10 +1135,16 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-11",
+      "checkedAt": "2026-08-18",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Sony HT-S40R\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Sony%20HT-S40R%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Sony HT-S40R\" (災情 OR 問題 OR 故障 OR 負評)",
@@ -984,10 +1152,22 @@
           "targetHost": "mobile01.com"
         },
         {
-          "platform": "Reddit",
-          "query": "site:reddit.com \"Sony HT-S40R\" (problem OR issue OR defect OR \"negative review\")",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Sony%20HT-S40R%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
-          "targetHost": "reddit.com"
+          "platform": "PTT",
+          "query": "site:ptt.cc \"Sony HT-S40R\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22Sony%20HT-S40R%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "ptt.cc"
+        },
+        {
+          "platform": "Dcard",
+          "query": "site:dcard.tw \"Sony HT-S40R\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22Sony%20HT-S40R%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "dcard.tw"
+        },
+        {
+          "platform": "YouTube",
+          "query": "\"Sony HT-S40R\" problem issue defect failure broken 災情 故障 異常",
+          "queryUrl": "https://www.youtube.com/results?search_query=%22Sony%20HT-S40R%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
+          "targetHost": "youtube.com"
         }
       ]
     }
@@ -1053,10 +1233,16 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-11",
+      "checkedAt": "2026-08-18",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Sony HT-S100F\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Sony%20HT-S100F%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Sony HT-S100F\" (災情 OR 問題 OR 故障 OR 負評)",
@@ -1064,10 +1250,22 @@
           "targetHost": "mobile01.com"
         },
         {
-          "platform": "Reddit",
-          "query": "site:reddit.com \"Sony HT-S100F\" (problem OR issue OR defect OR \"negative review\")",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Sony%20HT-S100F%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
-          "targetHost": "reddit.com"
+          "platform": "PTT",
+          "query": "site:ptt.cc \"Sony HT-S100F\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22Sony%20HT-S100F%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "ptt.cc"
+        },
+        {
+          "platform": "Dcard",
+          "query": "site:dcard.tw \"Sony HT-S100F\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22Sony%20HT-S100F%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "dcard.tw"
+        },
+        {
+          "platform": "YouTube",
+          "query": "\"Sony HT-S100F\" problem issue defect failure broken 災情 故障 異常",
+          "queryUrl": "https://www.youtube.com/results?search_query=%22Sony%20HT-S100F%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
+          "targetHost": "youtube.com"
         }
       ]
     }
@@ -1133,10 +1331,16 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-11",
+      "checkedAt": "2026-08-18",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"JBL BAR 300 MK2\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22JBL%20BAR%20300%20MK2%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"JBL BAR 300 MK2\" (災情 OR 問題 OR 故障 OR 負評)",
@@ -1144,10 +1348,22 @@
           "targetHost": "mobile01.com"
         },
         {
-          "platform": "Reddit",
-          "query": "site:reddit.com \"JBL BAR 300 MK2\" (problem OR issue OR defect OR \"negative review\")",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22JBL%20BAR%20300%20MK2%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
-          "targetHost": "reddit.com"
+          "platform": "PTT",
+          "query": "site:ptt.cc \"JBL BAR 300 MK2\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22JBL%20BAR%20300%20MK2%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "ptt.cc"
+        },
+        {
+          "platform": "Dcard",
+          "query": "site:dcard.tw \"JBL BAR 300 MK2\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22JBL%20BAR%20300%20MK2%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "dcard.tw"
+        },
+        {
+          "platform": "YouTube",
+          "query": "\"JBL BAR 300 MK2\" problem issue defect failure broken 災情 故障 異常",
+          "queryUrl": "https://www.youtube.com/results?search_query=%22JBL%20BAR%20300%20MK2%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
+          "targetHost": "youtube.com"
         }
       ]
     }
@@ -1213,10 +1429,16 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-11",
+      "checkedAt": "2026-08-18",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"JBL BAR 800 MK2\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22JBL%20BAR%20800%20MK2%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"JBL BAR 800 MK2\" (災情 OR 問題 OR 故障 OR 負評)",
@@ -1224,10 +1446,22 @@
           "targetHost": "mobile01.com"
         },
         {
-          "platform": "Reddit",
-          "query": "site:reddit.com \"JBL BAR 800 MK2\" (problem OR issue OR defect OR \"negative review\")",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22JBL%20BAR%20800%20MK2%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
-          "targetHost": "reddit.com"
+          "platform": "PTT",
+          "query": "site:ptt.cc \"JBL BAR 800 MK2\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22JBL%20BAR%20800%20MK2%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "ptt.cc"
+        },
+        {
+          "platform": "Dcard",
+          "query": "site:dcard.tw \"JBL BAR 800 MK2\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22JBL%20BAR%20800%20MK2%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "dcard.tw"
+        },
+        {
+          "platform": "YouTube",
+          "query": "\"JBL BAR 800 MK2\" problem issue defect failure broken 災情 故障 異常",
+          "queryUrl": "https://www.youtube.com/results?search_query=%22JBL%20BAR%20800%20MK2%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
+          "targetHost": "youtube.com"
         }
       ]
     }
@@ -1293,10 +1527,16 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-11",
+      "checkedAt": "2026-08-18",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Bose Smart Soundbar 600 Ultra\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Bose%20Smart%20Soundbar%20600%20Ultra%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Bose Smart Soundbar 600 Ultra\" (災情 OR 問題 OR 故障 OR 負評)",
@@ -1304,10 +1544,22 @@
           "targetHost": "mobile01.com"
         },
         {
-          "platform": "Reddit",
-          "query": "site:reddit.com \"Bose Smart Soundbar 600 Ultra\" (problem OR issue OR defect OR \"negative review\")",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Bose%20Smart%20Soundbar%20600%20Ultra%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
-          "targetHost": "reddit.com"
+          "platform": "PTT",
+          "query": "site:ptt.cc \"Bose Smart Soundbar 600 Ultra\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22Bose%20Smart%20Soundbar%20600%20Ultra%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "ptt.cc"
+        },
+        {
+          "platform": "Dcard",
+          "query": "site:dcard.tw \"Bose Smart Soundbar 600 Ultra\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22Bose%20Smart%20Soundbar%20600%20Ultra%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "dcard.tw"
+        },
+        {
+          "platform": "YouTube",
+          "query": "\"Bose Smart Soundbar 600 Ultra\" problem issue defect failure broken 災情 故障 異常",
+          "queryUrl": "https://www.youtube.com/results?search_query=%22Bose%20Smart%20Soundbar%20600%20Ultra%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
+          "targetHost": "youtube.com"
         }
       ]
     }
@@ -1373,10 +1625,16 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-11",
+      "checkedAt": "2026-08-18",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Philips TAB4288\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Philips%20TAB4288%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Philips TAB4288\" (災情 OR 問題 OR 故障 OR 負評)",
@@ -1384,10 +1642,22 @@
           "targetHost": "mobile01.com"
         },
         {
-          "platform": "Reddit",
-          "query": "site:reddit.com \"Philips TAB4288\" (problem OR issue OR defect OR \"negative review\")",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Philips%20TAB4288%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
-          "targetHost": "reddit.com"
+          "platform": "PTT",
+          "query": "site:ptt.cc \"Philips TAB4288\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22Philips%20TAB4288%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "ptt.cc"
+        },
+        {
+          "platform": "Dcard",
+          "query": "site:dcard.tw \"Philips TAB4288\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22Philips%20TAB4288%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "dcard.tw"
+        },
+        {
+          "platform": "YouTube",
+          "query": "\"Philips TAB4288\" problem issue defect failure broken 災情 故障 異常",
+          "queryUrl": "https://www.youtube.com/results?search_query=%22Philips%20TAB4288%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
+          "targetHost": "youtube.com"
         }
       ]
     }
@@ -1453,10 +1723,16 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-11",
+      "checkedAt": "2026-08-18",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Sony HT-A8000\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Sony%20HT-A8000%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Sony HT-A8000\" (災情 OR 問題 OR 故障 OR 負評)",
@@ -1464,10 +1740,22 @@
           "targetHost": "mobile01.com"
         },
         {
-          "platform": "Reddit",
-          "query": "site:reddit.com \"Sony HT-A8000\" (problem OR issue OR defect OR \"negative review\")",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Sony%20HT-A8000%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
-          "targetHost": "reddit.com"
+          "platform": "PTT",
+          "query": "site:ptt.cc \"Sony HT-A8000\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22Sony%20HT-A8000%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "ptt.cc"
+        },
+        {
+          "platform": "Dcard",
+          "query": "site:dcard.tw \"Sony HT-A8000\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22Sony%20HT-A8000%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "dcard.tw"
+        },
+        {
+          "platform": "YouTube",
+          "query": "\"Sony HT-A8000\" problem issue defect failure broken 災情 故障 異常",
+          "queryUrl": "https://www.youtube.com/results?search_query=%22Sony%20HT-A8000%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
+          "targetHost": "youtube.com"
         }
       ]
     }
@@ -1533,10 +1821,16 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-11",
+      "checkedAt": "2026-08-18",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Sony HT-A9000\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Sony%20HT-A9000%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Sony HT-A9000\" (災情 OR 問題 OR 故障 OR 負評)",
@@ -1544,10 +1838,22 @@
           "targetHost": "mobile01.com"
         },
         {
-          "platform": "Reddit",
-          "query": "site:reddit.com \"Sony HT-A9000\" (problem OR issue OR defect OR \"negative review\")",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Sony%20HT-A9000%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
-          "targetHost": "reddit.com"
+          "platform": "PTT",
+          "query": "site:ptt.cc \"Sony HT-A9000\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22Sony%20HT-A9000%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "ptt.cc"
+        },
+        {
+          "platform": "Dcard",
+          "query": "site:dcard.tw \"Sony HT-A9000\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22Sony%20HT-A9000%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "dcard.tw"
+        },
+        {
+          "platform": "YouTube",
+          "query": "\"Sony HT-A9000\" problem issue defect failure broken 災情 故障 異常",
+          "queryUrl": "https://www.youtube.com/results?search_query=%22Sony%20HT-A9000%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
+          "targetHost": "youtube.com"
         }
       ]
     }
@@ -1613,10 +1919,16 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-11",
+      "checkedAt": "2026-08-18",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"JBL BAR 1000 MK2\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22JBL%20BAR%201000%20MK2%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"JBL BAR 1000 MK2\" (災情 OR 問題 OR 故障 OR 負評)",
@@ -1624,10 +1936,22 @@
           "targetHost": "mobile01.com"
         },
         {
-          "platform": "Reddit",
-          "query": "site:reddit.com \"JBL BAR 1000 MK2\" (problem OR issue OR defect OR \"negative review\")",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22JBL%20BAR%201000%20MK2%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
-          "targetHost": "reddit.com"
+          "platform": "PTT",
+          "query": "site:ptt.cc \"JBL BAR 1000 MK2\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22JBL%20BAR%201000%20MK2%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "ptt.cc"
+        },
+        {
+          "platform": "Dcard",
+          "query": "site:dcard.tw \"JBL BAR 1000 MK2\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22JBL%20BAR%201000%20MK2%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "dcard.tw"
+        },
+        {
+          "platform": "YouTube",
+          "query": "\"JBL BAR 1000 MK2\" problem issue defect failure broken 災情 故障 異常",
+          "queryUrl": "https://www.youtube.com/results?search_query=%22JBL%20BAR%201000%20MK2%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
+          "targetHost": "youtube.com"
         }
       ]
     }
@@ -1693,10 +2017,16 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-11",
+      "checkedAt": "2026-08-18",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Philips TAFB1/96\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Philips%20TAFB1%2F96%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Philips TAFB1/96\" (災情 OR 問題 OR 故障 OR 負評)",
@@ -1704,10 +2034,22 @@
           "targetHost": "mobile01.com"
         },
         {
-          "platform": "Reddit",
-          "query": "site:reddit.com \"Philips TAFB1/96\" (problem OR issue OR defect OR \"negative review\")",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Philips%20TAFB1%2F96%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
-          "targetHost": "reddit.com"
+          "platform": "PTT",
+          "query": "site:ptt.cc \"Philips TAFB1/96\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22Philips%20TAFB1%2F96%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "ptt.cc"
+        },
+        {
+          "platform": "Dcard",
+          "query": "site:dcard.tw \"Philips TAFB1/96\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22Philips%20TAFB1%2F96%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "dcard.tw"
+        },
+        {
+          "platform": "YouTube",
+          "query": "\"Philips TAFB1/96\" problem issue defect failure broken 災情 故障 異常",
+          "queryUrl": "https://www.youtube.com/results?search_query=%22Philips%20TAFB1%2F96%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
+          "targetHost": "youtube.com"
         }
       ]
     }
@@ -1775,10 +2117,16 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-11",
+      "checkedAt": "2026-08-18",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Marshall Heston 120\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Marshall%20Heston%20120%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Marshall Heston 120\" (災情 OR 問題 OR 故障 OR 負評)",
@@ -1786,10 +2134,22 @@
           "targetHost": "mobile01.com"
         },
         {
-          "platform": "Reddit",
-          "query": "site:reddit.com \"Marshall Heston 120\" (problem OR issue OR defect OR \"negative review\")",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Marshall%20Heston%20120%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
-          "targetHost": "reddit.com"
+          "platform": "PTT",
+          "query": "site:ptt.cc \"Marshall Heston 120\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22Marshall%20Heston%20120%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "ptt.cc"
+        },
+        {
+          "platform": "Dcard",
+          "query": "site:dcard.tw \"Marshall Heston 120\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22Marshall%20Heston%20120%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "dcard.tw"
+        },
+        {
+          "platform": "YouTube",
+          "query": "\"Marshall Heston 120\" problem issue defect failure broken 災情 故障 異常",
+          "queryUrl": "https://www.youtube.com/results?search_query=%22Marshall%20Heston%20120%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
+          "targetHost": "youtube.com"
         }
       ]
     }
@@ -1858,10 +2218,16 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-11",
+      "checkedAt": "2026-08-18",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Marshall Heston 60\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Marshall%20Heston%2060%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Marshall Heston 60\" (災情 OR 問題 OR 故障 OR 負評)",
@@ -1869,10 +2235,22 @@
           "targetHost": "mobile01.com"
         },
         {
-          "platform": "Reddit",
-          "query": "site:reddit.com \"Marshall Heston 60\" (problem OR issue OR defect OR \"negative review\")",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Marshall%20Heston%2060%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
-          "targetHost": "reddit.com"
+          "platform": "PTT",
+          "query": "site:ptt.cc \"Marshall Heston 60\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22Marshall%20Heston%2060%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "ptt.cc"
+        },
+        {
+          "platform": "Dcard",
+          "query": "site:dcard.tw \"Marshall Heston 60\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22Marshall%20Heston%2060%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "dcard.tw"
+        },
+        {
+          "platform": "YouTube",
+          "query": "\"Marshall Heston 60\" problem issue defect failure broken 災情 故障 異常",
+          "queryUrl": "https://www.youtube.com/results?search_query=%22Marshall%20Heston%2060%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
+          "targetHost": "youtube.com"
         }
       ]
     }
@@ -2035,10 +2413,16 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-11",
+      "checkedAt": "2026-08-18",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Philips TAB6309\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Philips%20TAB6309%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Philips TAB6309\" (災情 OR 問題 OR 故障 OR 負評)",
@@ -2046,10 +2430,22 @@
           "targetHost": "mobile01.com"
         },
         {
-          "platform": "Reddit",
-          "query": "site:reddit.com \"Philips TAB6309\" (problem OR issue OR defect OR \"negative review\")",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Philips%20TAB6309%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
-          "targetHost": "reddit.com"
+          "platform": "PTT",
+          "query": "site:ptt.cc \"Philips TAB6309\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22Philips%20TAB6309%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "ptt.cc"
+        },
+        {
+          "platform": "Dcard",
+          "query": "site:dcard.tw \"Philips TAB6309\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22Philips%20TAB6309%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "dcard.tw"
+        },
+        {
+          "platform": "YouTube",
+          "query": "\"Philips TAB6309\" problem issue defect failure broken 災情 故障 異常",
+          "queryUrl": "https://www.youtube.com/results?search_query=%22Philips%20TAB6309%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
+          "targetHost": "youtube.com"
         }
       ]
     }
@@ -2117,10 +2513,16 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-11",
+      "checkedAt": "2026-08-18",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Soodatek SS0220-CS2000PBK\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Soodatek%20SS0220-CS2000PBK%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Soodatek SS0220-CS2000PBK\" (災情 OR 問題 OR 故障 OR 負評)",
@@ -2128,10 +2530,22 @@
           "targetHost": "mobile01.com"
         },
         {
-          "platform": "Reddit",
-          "query": "site:reddit.com \"Soodatek SS0220-CS2000PBK\" (problem OR issue OR defect OR \"negative review\")",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Soodatek%20SS0220-CS2000PBK%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
-          "targetHost": "reddit.com"
+          "platform": "PTT",
+          "query": "site:ptt.cc \"Soodatek SS0220-CS2000PBK\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22Soodatek%20SS0220-CS2000PBK%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "ptt.cc"
+        },
+        {
+          "platform": "Dcard",
+          "query": "site:dcard.tw \"Soodatek SS0220-CS2000PBK\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22Soodatek%20SS0220-CS2000PBK%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "dcard.tw"
+        },
+        {
+          "platform": "YouTube",
+          "query": "\"Soodatek SS0220-CS2000PBK\" problem issue defect failure broken 災情 故障 異常",
+          "queryUrl": "https://www.youtube.com/results?search_query=%22Soodatek%20SS0220-CS2000PBK%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
+          "targetHost": "youtube.com"
         }
       ]
     }
@@ -2201,10 +2615,16 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-24",
+      "checkedAt": "2026-08-18",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"JBL BAR 1300MK2\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22JBL%20BAR%201300MK2%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"JBL BAR 1300MK2\" (災情 OR 問題 OR 故障 OR 負評)",
@@ -2212,10 +2632,22 @@
           "targetHost": "mobile01.com"
         },
         {
-          "platform": "Reddit",
-          "query": "site:reddit.com \"JBL BAR 1300MK2\" (problem OR issue OR defect OR \"negative review\")",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22JBL%20BAR%201300MK2%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
-          "targetHost": "reddit.com"
+          "platform": "PTT",
+          "query": "site:ptt.cc \"JBL BAR 1300MK2\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22JBL%20BAR%201300MK2%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "ptt.cc"
+        },
+        {
+          "platform": "Dcard",
+          "query": "site:dcard.tw \"JBL BAR 1300MK2\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22JBL%20BAR%201300MK2%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "dcard.tw"
+        },
+        {
+          "platform": "YouTube",
+          "query": "\"JBL BAR 1300MK2\" problem issue defect failure broken 災情 故障 異常",
+          "queryUrl": "https://www.youtube.com/results?search_query=%22JBL%20BAR%201300MK2%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
+          "targetHost": "youtube.com"
         }
       ]
     }
@@ -2290,21 +2722,39 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-14",
+      "checkedAt": "2026-08-18",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Panasonic SC-HTB334GTK\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Panasonic%20SC-HTB334GTK%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
+        {
           "platform": "Mobile01",
-          "query": "site:mobile01.com \"SC-HTB334GTK\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22SC-HTB334GTK%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "query": "site:mobile01.com \"Panasonic SC-HTB334GTK\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Panasonic%20SC-HTB334GTK%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
           "platform": "PTT",
-          "query": "site:ptt.cc \"SC-HTB334GTK\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22SC-HTB334GTK%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "query": "site:ptt.cc \"Panasonic SC-HTB334GTK\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22Panasonic%20SC-HTB334GTK%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "ptt.cc"
+        },
+        {
+          "platform": "Dcard",
+          "query": "site:dcard.tw \"Panasonic SC-HTB334GTK\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22Panasonic%20SC-HTB334GTK%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "dcard.tw"
+        },
+        {
+          "platform": "YouTube",
+          "query": "\"Panasonic SC-HTB334GTK\" problem issue defect failure broken 災情 故障 異常",
+          "queryUrl": "https://www.youtube.com/results?search_query=%22Panasonic%20SC-HTB334GTK%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
+          "targetHost": "youtube.com"
         }
       ]
     }

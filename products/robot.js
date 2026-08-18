@@ -64,10 +64,16 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-11",
+      "checkedAt": "2026-08-18",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Roborock Saros Z70\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Roborock%20Saros%20Z70%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Roborock Saros Z70\" (災情 OR 問題 OR 故障 OR 負評)",
@@ -75,10 +81,22 @@
           "targetHost": "mobile01.com"
         },
         {
-          "platform": "Reddit",
-          "query": "site:reddit.com \"Roborock Saros Z70\" (problem OR issue OR defect OR \"negative review\")",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Roborock%20Saros%20Z70%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
-          "targetHost": "reddit.com"
+          "platform": "PTT",
+          "query": "site:ptt.cc \"Roborock Saros Z70\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22Roborock%20Saros%20Z70%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "ptt.cc"
+        },
+        {
+          "platform": "Dcard",
+          "query": "site:dcard.tw \"Roborock Saros Z70\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22Roborock%20Saros%20Z70%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "dcard.tw"
+        },
+        {
+          "platform": "YouTube",
+          "query": "\"Roborock Saros Z70\" problem issue defect failure broken 災情 故障 異常",
+          "queryUrl": "https://www.youtube.com/results?search_query=%22Roborock%20Saros%20Z70%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
+          "targetHost": "youtube.com"
         }
       ]
     }
@@ -142,10 +160,16 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-11",
+      "checkedAt": "2026-08-18",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Roborock Saros 20 水立方\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Roborock%20Saros%2020%20%E6%B0%B4%E7%AB%8B%E6%96%B9%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Roborock Saros 20 水立方\" (災情 OR 問題 OR 故障 OR 負評)",
@@ -153,10 +177,22 @@
           "targetHost": "mobile01.com"
         },
         {
-          "platform": "Reddit",
-          "query": "site:reddit.com \"Roborock Saros 20 水立方\" (problem OR issue OR defect OR \"negative review\")",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Roborock%20Saros%2020%20%E6%B0%B4%E7%AB%8B%E6%96%B9%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
-          "targetHost": "reddit.com"
+          "platform": "PTT",
+          "query": "site:ptt.cc \"Roborock Saros 20 水立方\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22Roborock%20Saros%2020%20%E6%B0%B4%E7%AB%8B%E6%96%B9%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "ptt.cc"
+        },
+        {
+          "platform": "Dcard",
+          "query": "site:dcard.tw \"Roborock Saros 20 水立方\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22Roborock%20Saros%2020%20%E6%B0%B4%E7%AB%8B%E6%96%B9%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "dcard.tw"
+        },
+        {
+          "platform": "YouTube",
+          "query": "\"Roborock Saros 20 水立方\" problem issue defect failure broken 災情 故障 異常",
+          "queryUrl": "https://www.youtube.com/results?search_query=%22Roborock%20Saros%2020%20%E6%B0%B4%E7%AB%8B%E6%96%B9%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
+          "targetHost": "youtube.com"
         }
       ]
     }
@@ -220,10 +256,16 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-11",
+      "checkedAt": "2026-08-18",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Roborock Saros 20\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Roborock%20Saros%2020%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Roborock Saros 20\" (災情 OR 問題 OR 故障 OR 負評)",
@@ -231,10 +273,22 @@
           "targetHost": "mobile01.com"
         },
         {
-          "platform": "Reddit",
-          "query": "site:reddit.com \"Roborock Saros 20\" (problem OR issue OR defect OR \"negative review\")",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Roborock%20Saros%2020%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
-          "targetHost": "reddit.com"
+          "platform": "PTT",
+          "query": "site:ptt.cc \"Roborock Saros 20\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22Roborock%20Saros%2020%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "ptt.cc"
+        },
+        {
+          "platform": "Dcard",
+          "query": "site:dcard.tw \"Roborock Saros 20\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22Roborock%20Saros%2020%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "dcard.tw"
+        },
+        {
+          "platform": "YouTube",
+          "query": "\"Roborock Saros 20\" problem issue defect failure broken 災情 故障 異常",
+          "queryUrl": "https://www.youtube.com/results?search_query=%22Roborock%20Saros%2020%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
+          "targetHost": "youtube.com"
         }
       ]
     }
@@ -298,10 +352,16 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-11",
+      "checkedAt": "2026-08-18",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Roborock Qrevo Edge 2 Pro\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Roborock%20Qrevo%20Edge%202%20Pro%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Roborock Qrevo Edge 2 Pro\" (災情 OR 問題 OR 故障 OR 負評)",
@@ -309,10 +369,22 @@
           "targetHost": "mobile01.com"
         },
         {
-          "platform": "Reddit",
-          "query": "site:reddit.com \"Roborock Qrevo Edge 2 Pro\" (problem OR issue OR defect OR \"negative review\")",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Roborock%20Qrevo%20Edge%202%20Pro%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
-          "targetHost": "reddit.com"
+          "platform": "PTT",
+          "query": "site:ptt.cc \"Roborock Qrevo Edge 2 Pro\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22Roborock%20Qrevo%20Edge%202%20Pro%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "ptt.cc"
+        },
+        {
+          "platform": "Dcard",
+          "query": "site:dcard.tw \"Roborock Qrevo Edge 2 Pro\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22Roborock%20Qrevo%20Edge%202%20Pro%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "dcard.tw"
+        },
+        {
+          "platform": "YouTube",
+          "query": "\"Roborock Qrevo Edge 2 Pro\" problem issue defect failure broken 災情 故障 異常",
+          "queryUrl": "https://www.youtube.com/results?search_query=%22Roborock%20Qrevo%20Edge%202%20Pro%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
+          "targetHost": "youtube.com"
         }
       ]
     }
@@ -377,21 +449,39 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-10",
+      "checkedAt": "2026-08-18",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Roborock Qrevo Curv 2 Flow\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Roborock%20Qrevo%20Curv%202%20Flow%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
+        {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Roborock Qrevo Curv 2 Flow\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Roborock%20Qrevo%20Curv%202%20Flow%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Roborock%20Qrevo%20Curv%202%20Flow%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
-          "platform": "Reddit",
-          "query": "\"Roborock Qrevo Curv 2 Flow\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22Roborock%20Qrevo%20Curv%202%20Flow%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
-          "targetHost": "reddit.com"
+          "platform": "PTT",
+          "query": "site:ptt.cc \"Roborock Qrevo Curv 2 Flow\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22Roborock%20Qrevo%20Curv%202%20Flow%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "ptt.cc"
+        },
+        {
+          "platform": "Dcard",
+          "query": "site:dcard.tw \"Roborock Qrevo Curv 2 Flow\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22Roborock%20Qrevo%20Curv%202%20Flow%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "dcard.tw"
+        },
+        {
+          "platform": "YouTube",
+          "query": "\"Roborock Qrevo Curv 2 Flow\" problem issue defect failure broken 災情 故障 異常",
+          "queryUrl": "https://www.youtube.com/results?search_query=%22Roborock%20Qrevo%20Curv%202%20Flow%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
+          "targetHost": "youtube.com"
         }
       ]
     }
@@ -455,10 +545,16 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-11",
+      "checkedAt": "2026-08-18",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Ecovacs DEEBOT X11 PRO 上下水款\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Ecovacs%20DEEBOT%20X11%20PRO%20%E4%B8%8A%E4%B8%8B%E6%B0%B4%E6%AC%BE%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Ecovacs DEEBOT X11 PRO 上下水款\" (災情 OR 問題 OR 故障 OR 負評)",
@@ -466,10 +562,22 @@
           "targetHost": "mobile01.com"
         },
         {
-          "platform": "Reddit",
-          "query": "site:reddit.com \"Ecovacs DEEBOT X11 PRO 上下水款\" (problem OR issue OR defect OR \"negative review\")",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Ecovacs%20DEEBOT%20X11%20PRO%20%E4%B8%8A%E4%B8%8B%E6%B0%B4%E6%AC%BE%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
-          "targetHost": "reddit.com"
+          "platform": "PTT",
+          "query": "site:ptt.cc \"Ecovacs DEEBOT X11 PRO 上下水款\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22Ecovacs%20DEEBOT%20X11%20PRO%20%E4%B8%8A%E4%B8%8B%E6%B0%B4%E6%AC%BE%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "ptt.cc"
+        },
+        {
+          "platform": "Dcard",
+          "query": "site:dcard.tw \"Ecovacs DEEBOT X11 PRO 上下水款\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22Ecovacs%20DEEBOT%20X11%20PRO%20%E4%B8%8A%E4%B8%8B%E6%B0%B4%E6%AC%BE%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "dcard.tw"
+        },
+        {
+          "platform": "YouTube",
+          "query": "\"Ecovacs DEEBOT X11 PRO 上下水款\" problem issue defect failure broken 災情 故障 異常",
+          "queryUrl": "https://www.youtube.com/results?search_query=%22Ecovacs%20DEEBOT%20X11%20PRO%20%E4%B8%8A%E4%B8%8B%E6%B0%B4%E6%AC%BE%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
+          "targetHost": "youtube.com"
         }
       ]
     }
@@ -533,10 +641,16 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-11",
+      "checkedAt": "2026-08-18",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Ecovacs DEEBOT X11 PRO\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Ecovacs%20DEEBOT%20X11%20PRO%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Ecovacs DEEBOT X11 PRO\" (災情 OR 問題 OR 故障 OR 負評)",
@@ -544,10 +658,22 @@
           "targetHost": "mobile01.com"
         },
         {
-          "platform": "Reddit",
-          "query": "site:reddit.com \"Ecovacs DEEBOT X11 PRO\" (problem OR issue OR defect OR \"negative review\")",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Ecovacs%20DEEBOT%20X11%20PRO%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
-          "targetHost": "reddit.com"
+          "platform": "PTT",
+          "query": "site:ptt.cc \"Ecovacs DEEBOT X11 PRO\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22Ecovacs%20DEEBOT%20X11%20PRO%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "ptt.cc"
+        },
+        {
+          "platform": "Dcard",
+          "query": "site:dcard.tw \"Ecovacs DEEBOT X11 PRO\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22Ecovacs%20DEEBOT%20X11%20PRO%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "dcard.tw"
+        },
+        {
+          "platform": "YouTube",
+          "query": "\"Ecovacs DEEBOT X11 PRO\" problem issue defect failure broken 災情 故障 異常",
+          "queryUrl": "https://www.youtube.com/results?search_query=%22Ecovacs%20DEEBOT%20X11%20PRO%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
+          "targetHost": "youtube.com"
         }
       ]
     }
@@ -708,10 +834,16 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-11",
+      "checkedAt": "2026-08-18",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Ecovacs DEEBOT T50 PRO OMNI\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Ecovacs%20DEEBOT%20T50%20PRO%20OMNI%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Ecovacs DEEBOT T50 PRO OMNI\" (災情 OR 問題 OR 故障 OR 負評)",
@@ -719,10 +851,22 @@
           "targetHost": "mobile01.com"
         },
         {
-          "platform": "Reddit",
-          "query": "site:reddit.com \"Ecovacs DEEBOT T50 PRO OMNI\" (problem OR issue OR defect OR \"negative review\")",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Ecovacs%20DEEBOT%20T50%20PRO%20OMNI%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
-          "targetHost": "reddit.com"
+          "platform": "PTT",
+          "query": "site:ptt.cc \"Ecovacs DEEBOT T50 PRO OMNI\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22Ecovacs%20DEEBOT%20T50%20PRO%20OMNI%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "ptt.cc"
+        },
+        {
+          "platform": "Dcard",
+          "query": "site:dcard.tw \"Ecovacs DEEBOT T50 PRO OMNI\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22Ecovacs%20DEEBOT%20T50%20PRO%20OMNI%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "dcard.tw"
+        },
+        {
+          "platform": "YouTube",
+          "query": "\"Ecovacs DEEBOT T50 PRO OMNI\" problem issue defect failure broken 災情 故障 異常",
+          "queryUrl": "https://www.youtube.com/results?search_query=%22Ecovacs%20DEEBOT%20T50%20PRO%20OMNI%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
+          "targetHost": "youtube.com"
         }
       ]
     }
@@ -786,10 +930,16 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-11",
+      "checkedAt": "2026-08-18",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Ecovacs DEEBOT N50\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Ecovacs%20DEEBOT%20N50%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Ecovacs DEEBOT N50\" (災情 OR 問題 OR 故障 OR 負評)",
@@ -797,10 +947,22 @@
           "targetHost": "mobile01.com"
         },
         {
-          "platform": "Reddit",
-          "query": "site:reddit.com \"Ecovacs DEEBOT N50\" (problem OR issue OR defect OR \"negative review\")",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Ecovacs%20DEEBOT%20N50%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
-          "targetHost": "reddit.com"
+          "platform": "PTT",
+          "query": "site:ptt.cc \"Ecovacs DEEBOT N50\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22Ecovacs%20DEEBOT%20N50%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "ptt.cc"
+        },
+        {
+          "platform": "Dcard",
+          "query": "site:dcard.tw \"Ecovacs DEEBOT N50\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22Ecovacs%20DEEBOT%20N50%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "dcard.tw"
+        },
+        {
+          "platform": "YouTube",
+          "query": "\"Ecovacs DEEBOT N50\" problem issue defect failure broken 災情 故障 異常",
+          "queryUrl": "https://www.youtube.com/results?search_query=%22Ecovacs%20DEEBOT%20N50%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
+          "targetHost": "youtube.com"
         }
       ]
     }
@@ -864,10 +1026,16 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-11",
+      "checkedAt": "2026-08-18",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Dreame X60 Master\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Dreame%20X60%20Master%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Dreame X60 Master\" (災情 OR 問題 OR 故障 OR 負評)",
@@ -875,10 +1043,22 @@
           "targetHost": "mobile01.com"
         },
         {
-          "platform": "Reddit",
-          "query": "site:reddit.com \"Dreame X60 Master\" (problem OR issue OR defect OR \"negative review\")",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Dreame%20X60%20Master%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
-          "targetHost": "reddit.com"
+          "platform": "PTT",
+          "query": "site:ptt.cc \"Dreame X60 Master\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22Dreame%20X60%20Master%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "ptt.cc"
+        },
+        {
+          "platform": "Dcard",
+          "query": "site:dcard.tw \"Dreame X60 Master\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22Dreame%20X60%20Master%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "dcard.tw"
+        },
+        {
+          "platform": "YouTube",
+          "query": "\"Dreame X60 Master\" problem issue defect failure broken 災情 故障 異常",
+          "queryUrl": "https://www.youtube.com/results?search_query=%22Dreame%20X60%20Master%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
+          "targetHost": "youtube.com"
         }
       ]
     }
@@ -942,10 +1122,16 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-11",
+      "checkedAt": "2026-08-18",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Dreame D30 Ultra CE\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Dreame%20D30%20Ultra%20CE%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Dreame D30 Ultra CE\" (災情 OR 問題 OR 故障 OR 負評)",
@@ -953,10 +1139,22 @@
           "targetHost": "mobile01.com"
         },
         {
-          "platform": "Reddit",
-          "query": "site:reddit.com \"Dreame D30 Ultra CE\" (problem OR issue OR defect OR \"negative review\")",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Dreame%20D30%20Ultra%20CE%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
-          "targetHost": "reddit.com"
+          "platform": "PTT",
+          "query": "site:ptt.cc \"Dreame D30 Ultra CE\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22Dreame%20D30%20Ultra%20CE%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "ptt.cc"
+        },
+        {
+          "platform": "Dcard",
+          "query": "site:dcard.tw \"Dreame D30 Ultra CE\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22Dreame%20D30%20Ultra%20CE%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "dcard.tw"
+        },
+        {
+          "platform": "YouTube",
+          "query": "\"Dreame D30 Ultra CE\" problem issue defect failure broken 災情 故障 異常",
+          "queryUrl": "https://www.youtube.com/results?search_query=%22Dreame%20D30%20Ultra%20CE%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
+          "targetHost": "youtube.com"
         }
       ]
     }
@@ -1020,10 +1218,16 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-11",
+      "checkedAt": "2026-08-18",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Narwal Freo Z Ultra\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Narwal%20Freo%20Z%20Ultra%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Narwal Freo Z Ultra\" (災情 OR 問題 OR 故障 OR 負評)",
@@ -1031,10 +1235,22 @@
           "targetHost": "mobile01.com"
         },
         {
-          "platform": "Reddit",
-          "query": "site:reddit.com \"Narwal Freo Z Ultra\" (problem OR issue OR defect OR \"negative review\")",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Narwal%20Freo%20Z%20Ultra%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
-          "targetHost": "reddit.com"
+          "platform": "PTT",
+          "query": "site:ptt.cc \"Narwal Freo Z Ultra\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22Narwal%20Freo%20Z%20Ultra%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "ptt.cc"
+        },
+        {
+          "platform": "Dcard",
+          "query": "site:dcard.tw \"Narwal Freo Z Ultra\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22Narwal%20Freo%20Z%20Ultra%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "dcard.tw"
+        },
+        {
+          "platform": "YouTube",
+          "query": "\"Narwal Freo Z Ultra\" problem issue defect failure broken 災情 故障 異常",
+          "queryUrl": "https://www.youtube.com/results?search_query=%22Narwal%20Freo%20Z%20Ultra%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
+          "targetHost": "youtube.com"
         }
       ]
     }
@@ -1098,10 +1314,16 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-11",
+      "checkedAt": "2026-08-18",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Narwal Flow 2\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Narwal%20Flow%202%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Narwal Flow 2\" (災情 OR 問題 OR 故障 OR 負評)",
@@ -1109,10 +1331,22 @@
           "targetHost": "mobile01.com"
         },
         {
-          "platform": "Reddit",
-          "query": "site:reddit.com \"Narwal Flow 2\" (problem OR issue OR defect OR \"negative review\")",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Narwal%20Flow%202%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
-          "targetHost": "reddit.com"
+          "platform": "PTT",
+          "query": "site:ptt.cc \"Narwal Flow 2\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22Narwal%20Flow%202%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "ptt.cc"
+        },
+        {
+          "platform": "Dcard",
+          "query": "site:dcard.tw \"Narwal Flow 2\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22Narwal%20Flow%202%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "dcard.tw"
+        },
+        {
+          "platform": "YouTube",
+          "query": "\"Narwal Flow 2\" problem issue defect failure broken 災情 故障 異常",
+          "queryUrl": "https://www.youtube.com/results?search_query=%22Narwal%20Flow%202%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
+          "targetHost": "youtube.com"
         }
       ]
     }
@@ -1176,10 +1410,16 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-11",
+      "checkedAt": "2026-08-18",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Narwal Freo Z10 Ultra\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Narwal%20Freo%20Z10%20Ultra%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Narwal Freo Z10 Ultra\" (災情 OR 問題 OR 故障 OR 負評)",
@@ -1187,10 +1427,22 @@
           "targetHost": "mobile01.com"
         },
         {
-          "platform": "Reddit",
-          "query": "site:reddit.com \"Narwal Freo Z10 Ultra\" (problem OR issue OR defect OR \"negative review\")",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Narwal%20Freo%20Z10%20Ultra%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
-          "targetHost": "reddit.com"
+          "platform": "PTT",
+          "query": "site:ptt.cc \"Narwal Freo Z10 Ultra\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22Narwal%20Freo%20Z10%20Ultra%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "ptt.cc"
+        },
+        {
+          "platform": "Dcard",
+          "query": "site:dcard.tw \"Narwal Freo Z10 Ultra\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22Narwal%20Freo%20Z10%20Ultra%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "dcard.tw"
+        },
+        {
+          "platform": "YouTube",
+          "query": "\"Narwal Freo Z10 Ultra\" problem issue defect failure broken 災情 故障 異常",
+          "queryUrl": "https://www.youtube.com/results?search_query=%22Narwal%20Freo%20Z10%20Ultra%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
+          "targetHost": "youtube.com"
         }
       ]
     }
@@ -1438,10 +1690,16 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-11",
+      "checkedAt": "2026-08-18",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"iRobot Roomba Plus 405 Combo\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22iRobot%20Roomba%20Plus%20405%20Combo%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"iRobot Roomba Plus 405 Combo\" (災情 OR 問題 OR 故障 OR 負評)",
@@ -1449,10 +1707,22 @@
           "targetHost": "mobile01.com"
         },
         {
-          "platform": "Reddit",
-          "query": "site:reddit.com \"iRobot Roomba Plus 405 Combo\" (problem OR issue OR defect OR \"negative review\")",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22iRobot%20Roomba%20Plus%20405%20Combo%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
-          "targetHost": "reddit.com"
+          "platform": "PTT",
+          "query": "site:ptt.cc \"iRobot Roomba Plus 405 Combo\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22iRobot%20Roomba%20Plus%20405%20Combo%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "ptt.cc"
+        },
+        {
+          "platform": "Dcard",
+          "query": "site:dcard.tw \"iRobot Roomba Plus 405 Combo\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22iRobot%20Roomba%20Plus%20405%20Combo%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "dcard.tw"
+        },
+        {
+          "platform": "YouTube",
+          "query": "\"iRobot Roomba Plus 405 Combo\" problem issue defect failure broken 災情 故障 異常",
+          "queryUrl": "https://www.youtube.com/results?search_query=%22iRobot%20Roomba%20Plus%20405%20Combo%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
+          "targetHost": "youtube.com"
         }
       ]
     }
@@ -1516,10 +1786,16 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-11",
+      "checkedAt": "2026-08-18",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"iRobot Roomba 205 Combo\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22iRobot%20Roomba%20205%20Combo%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"iRobot Roomba 205 Combo\" (災情 OR 問題 OR 故障 OR 負評)",
@@ -1527,10 +1803,22 @@
           "targetHost": "mobile01.com"
         },
         {
-          "platform": "Reddit",
-          "query": "site:reddit.com \"iRobot Roomba 205 Combo\" (problem OR issue OR defect OR \"negative review\")",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22iRobot%20Roomba%20205%20Combo%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
-          "targetHost": "reddit.com"
+          "platform": "PTT",
+          "query": "site:ptt.cc \"iRobot Roomba 205 Combo\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22iRobot%20Roomba%20205%20Combo%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "ptt.cc"
+        },
+        {
+          "platform": "Dcard",
+          "query": "site:dcard.tw \"iRobot Roomba 205 Combo\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22iRobot%20Roomba%20205%20Combo%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "dcard.tw"
+        },
+        {
+          "platform": "YouTube",
+          "query": "\"iRobot Roomba 205 Combo\" problem issue defect failure broken 災情 故障 異常",
+          "queryUrl": "https://www.youtube.com/results?search_query=%22iRobot%20Roomba%20205%20Combo%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
+          "targetHost": "youtube.com"
         }
       ]
     }
@@ -1594,10 +1882,16 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-11",
+      "checkedAt": "2026-08-18",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"eufy Omni S2\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22eufy%20Omni%20S2%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"eufy Omni S2\" (災情 OR 問題 OR 故障 OR 負評)",
@@ -1605,10 +1899,22 @@
           "targetHost": "mobile01.com"
         },
         {
-          "platform": "Reddit",
-          "query": "site:reddit.com \"eufy Omni S2\" (problem OR issue OR defect OR \"negative review\")",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22eufy%20Omni%20S2%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
-          "targetHost": "reddit.com"
+          "platform": "PTT",
+          "query": "site:ptt.cc \"eufy Omni S2\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22eufy%20Omni%20S2%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "ptt.cc"
+        },
+        {
+          "platform": "Dcard",
+          "query": "site:dcard.tw \"eufy Omni S2\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22eufy%20Omni%20S2%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "dcard.tw"
+        },
+        {
+          "platform": "YouTube",
+          "query": "\"eufy Omni S2\" problem issue defect failure broken 災情 故障 異常",
+          "queryUrl": "https://www.youtube.com/results?search_query=%22eufy%20Omni%20S2%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
+          "targetHost": "youtube.com"
         }
       ]
     }
@@ -1672,10 +1978,16 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-11",
+      "checkedAt": "2026-08-18",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"eufy Omni E25\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22eufy%20Omni%20E25%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"eufy Omni E25\" (災情 OR 問題 OR 故障 OR 負評)",
@@ -1683,10 +1995,22 @@
           "targetHost": "mobile01.com"
         },
         {
-          "platform": "Reddit",
-          "query": "site:reddit.com \"eufy Omni E25\" (problem OR issue OR defect OR \"negative review\")",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22eufy%20Omni%20E25%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
-          "targetHost": "reddit.com"
+          "platform": "PTT",
+          "query": "site:ptt.cc \"eufy Omni E25\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22eufy%20Omni%20E25%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "ptt.cc"
+        },
+        {
+          "platform": "Dcard",
+          "query": "site:dcard.tw \"eufy Omni E25\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22eufy%20Omni%20E25%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "dcard.tw"
+        },
+        {
+          "platform": "YouTube",
+          "query": "\"eufy Omni E25\" problem issue defect failure broken 災情 故障 異常",
+          "queryUrl": "https://www.youtube.com/results?search_query=%22eufy%20Omni%20E25%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
+          "targetHost": "youtube.com"
         }
       ]
     }
@@ -1750,10 +2074,16 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-11",
+      "checkedAt": "2026-08-18",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"eufy Omni C28\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22eufy%20Omni%20C28%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"eufy Omni C28\" (災情 OR 問題 OR 故障 OR 負評)",
@@ -1761,10 +2091,22 @@
           "targetHost": "mobile01.com"
         },
         {
-          "platform": "Reddit",
-          "query": "site:reddit.com \"eufy Omni C28\" (problem OR issue OR defect OR \"negative review\")",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22eufy%20Omni%20C28%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
-          "targetHost": "reddit.com"
+          "platform": "PTT",
+          "query": "site:ptt.cc \"eufy Omni C28\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22eufy%20Omni%20C28%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "ptt.cc"
+        },
+        {
+          "platform": "Dcard",
+          "query": "site:dcard.tw \"eufy Omni C28\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22eufy%20Omni%20C28%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "dcard.tw"
+        },
+        {
+          "platform": "YouTube",
+          "query": "\"eufy Omni C28\" problem issue defect failure broken 災情 故障 異常",
+          "queryUrl": "https://www.youtube.com/results?search_query=%22eufy%20Omni%20C28%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
+          "targetHost": "youtube.com"
         }
       ]
     }
@@ -1828,10 +2170,16 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-11",
+      "checkedAt": "2026-08-18",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"MOVA S70 Ultra Roller\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22MOVA%20S70%20Ultra%20Roller%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"MOVA S70 Ultra Roller\" (災情 OR 問題 OR 故障 OR 負評)",
@@ -1839,10 +2187,22 @@
           "targetHost": "mobile01.com"
         },
         {
-          "platform": "Reddit",
-          "query": "site:reddit.com \"MOVA S70 Ultra Roller\" (problem OR issue OR defect OR \"negative review\")",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22MOVA%20S70%20Ultra%20Roller%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
-          "targetHost": "reddit.com"
+          "platform": "PTT",
+          "query": "site:ptt.cc \"MOVA S70 Ultra Roller\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22MOVA%20S70%20Ultra%20Roller%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "ptt.cc"
+        },
+        {
+          "platform": "Dcard",
+          "query": "site:dcard.tw \"MOVA S70 Ultra Roller\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22MOVA%20S70%20Ultra%20Roller%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "dcard.tw"
+        },
+        {
+          "platform": "YouTube",
+          "query": "\"MOVA S70 Ultra Roller\" problem issue defect failure broken 災情 故障 異常",
+          "queryUrl": "https://www.youtube.com/results?search_query=%22MOVA%20S70%20Ultra%20Roller%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
+          "targetHost": "youtube.com"
         }
       ]
     }
@@ -1906,10 +2266,16 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-11",
+      "checkedAt": "2026-08-18",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"MOVA S70 Roller\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22MOVA%20S70%20Roller%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"MOVA S70 Roller\" (災情 OR 問題 OR 故障 OR 負評)",
@@ -1917,10 +2283,22 @@
           "targetHost": "mobile01.com"
         },
         {
-          "platform": "Reddit",
-          "query": "site:reddit.com \"MOVA S70 Roller\" (problem OR issue OR defect OR \"negative review\")",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22MOVA%20S70%20Roller%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
-          "targetHost": "reddit.com"
+          "platform": "PTT",
+          "query": "site:ptt.cc \"MOVA S70 Roller\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22MOVA%20S70%20Roller%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "ptt.cc"
+        },
+        {
+          "platform": "Dcard",
+          "query": "site:dcard.tw \"MOVA S70 Roller\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22MOVA%20S70%20Roller%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "dcard.tw"
+        },
+        {
+          "platform": "YouTube",
+          "query": "\"MOVA S70 Roller\" problem issue defect failure broken 災情 故障 異常",
+          "queryUrl": "https://www.youtube.com/results?search_query=%22MOVA%20S70%20Roller%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
+          "targetHost": "youtube.com"
         }
       ]
     }
@@ -1984,10 +2362,16 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-11",
+      "checkedAt": "2026-08-18",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"LG R5-ULTIMATE1\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22LG%20R5-ULTIMATE1%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"LG R5-ULTIMATE1\" (災情 OR 問題 OR 故障 OR 負評)",
@@ -1995,10 +2379,22 @@
           "targetHost": "mobile01.com"
         },
         {
-          "platform": "Reddit",
-          "query": "site:reddit.com \"LG R5-ULTIMATE1\" (problem OR issue OR defect OR \"negative review\")",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22LG%20R5-ULTIMATE1%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
-          "targetHost": "reddit.com"
+          "platform": "PTT",
+          "query": "site:ptt.cc \"LG R5-ULTIMATE1\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22LG%20R5-ULTIMATE1%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "ptt.cc"
+        },
+        {
+          "platform": "Dcard",
+          "query": "site:dcard.tw \"LG R5-ULTIMATE1\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22LG%20R5-ULTIMATE1%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "dcard.tw"
+        },
+        {
+          "platform": "YouTube",
+          "query": "\"LG R5-ULTIMATE1\" problem issue defect failure broken 災情 故障 異常",
+          "queryUrl": "https://www.youtube.com/results?search_query=%22LG%20R5-ULTIMATE1%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
+          "targetHost": "youtube.com"
         }
       ]
     }
@@ -2062,10 +2458,16 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-11",
+      "checkedAt": "2026-08-18",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"LG R5-PROPLUS1\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22LG%20R5-PROPLUS1%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"LG R5-PROPLUS1\" (災情 OR 問題 OR 故障 OR 負評)",
@@ -2073,10 +2475,22 @@
           "targetHost": "mobile01.com"
         },
         {
-          "platform": "Reddit",
-          "query": "site:reddit.com \"LG R5-PROPLUS1\" (problem OR issue OR defect OR \"negative review\")",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22LG%20R5-PROPLUS1%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
-          "targetHost": "reddit.com"
+          "platform": "PTT",
+          "query": "site:ptt.cc \"LG R5-PROPLUS1\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22LG%20R5-PROPLUS1%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "ptt.cc"
+        },
+        {
+          "platform": "Dcard",
+          "query": "site:dcard.tw \"LG R5-PROPLUS1\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22LG%20R5-PROPLUS1%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "dcard.tw"
+        },
+        {
+          "platform": "YouTube",
+          "query": "\"LG R5-PROPLUS1\" problem issue defect failure broken 災情 故障 異常",
+          "queryUrl": "https://www.youtube.com/results?search_query=%22LG%20R5-PROPLUS1%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
+          "targetHost": "youtube.com"
         }
       ]
     }
@@ -2140,10 +2554,16 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-11",
+      "checkedAt": "2026-08-18",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Shark PowerDetect NeverTouch Pro RV2820ZE\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Shark%20PowerDetect%20NeverTouch%20Pro%20RV2820ZE%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Shark PowerDetect NeverTouch Pro RV2820ZE\" (災情 OR 問題 OR 故障 OR 負評)",
@@ -2151,10 +2571,22 @@
           "targetHost": "mobile01.com"
         },
         {
-          "platform": "Reddit",
-          "query": "site:reddit.com \"Shark PowerDetect NeverTouch Pro RV2820ZE\" (problem OR issue OR defect OR \"negative review\")",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Shark%20PowerDetect%20NeverTouch%20Pro%20RV2820ZE%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
-          "targetHost": "reddit.com"
+          "platform": "PTT",
+          "query": "site:ptt.cc \"Shark PowerDetect NeverTouch Pro RV2820ZE\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22Shark%20PowerDetect%20NeverTouch%20Pro%20RV2820ZE%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "ptt.cc"
+        },
+        {
+          "platform": "Dcard",
+          "query": "site:dcard.tw \"Shark PowerDetect NeverTouch Pro RV2820ZE\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22Shark%20PowerDetect%20NeverTouch%20Pro%20RV2820ZE%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "dcard.tw"
+        },
+        {
+          "platform": "YouTube",
+          "query": "\"Shark PowerDetect NeverTouch Pro RV2820ZE\" problem issue defect failure broken 災情 故障 異常",
+          "queryUrl": "https://www.youtube.com/results?search_query=%22Shark%20PowerDetect%20NeverTouch%20Pro%20RV2820ZE%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
+          "targetHost": "youtube.com"
         }
       ]
     }
@@ -2220,10 +2652,16 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-11",
+      "checkedAt": "2026-08-18",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Dyson Spot+Scrub Ai\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Dyson%20Spot%2BScrub%20Ai%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Dyson Spot+Scrub Ai\" (災情 OR 問題 OR 故障 OR 負評)",
@@ -2231,10 +2669,22 @@
           "targetHost": "mobile01.com"
         },
         {
-          "platform": "Reddit",
-          "query": "site:reddit.com \"Dyson Spot+Scrub Ai\" (problem OR issue OR defect OR \"negative review\")",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Dyson%20Spot%2BScrub%20Ai%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
-          "targetHost": "reddit.com"
+          "platform": "PTT",
+          "query": "site:ptt.cc \"Dyson Spot+Scrub Ai\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22Dyson%20Spot%2BScrub%20Ai%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "ptt.cc"
+        },
+        {
+          "platform": "Dcard",
+          "query": "site:dcard.tw \"Dyson Spot+Scrub Ai\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22Dyson%20Spot%2BScrub%20Ai%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "dcard.tw"
+        },
+        {
+          "platform": "YouTube",
+          "query": "\"Dyson Spot+Scrub Ai\" problem issue defect failure broken 災情 故障 異常",
+          "queryUrl": "https://www.youtube.com/results?search_query=%22Dyson%20Spot%2BScrub%20Ai%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
+          "targetHost": "youtube.com"
         }
       ]
     }
@@ -2384,10 +2834,16 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-11",
+      "checkedAt": "2026-08-18",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"eufy E20\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22eufy%20E20%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"eufy E20\" (災情 OR 問題 OR 故障 OR 負評)",
@@ -2395,10 +2851,22 @@
           "targetHost": "mobile01.com"
         },
         {
-          "platform": "Reddit",
-          "query": "site:reddit.com \"eufy E20\" (problem OR issue OR defect OR \"negative review\")",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22eufy%20E20%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
-          "targetHost": "reddit.com"
+          "platform": "PTT",
+          "query": "site:ptt.cc \"eufy E20\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22eufy%20E20%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "ptt.cc"
+        },
+        {
+          "platform": "Dcard",
+          "query": "site:dcard.tw \"eufy E20\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22eufy%20E20%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "dcard.tw"
+        },
+        {
+          "platform": "YouTube",
+          "query": "\"eufy E20\" problem issue defect failure broken 災情 故障 異常",
+          "queryUrl": "https://www.youtube.com/results?search_query=%22eufy%20E20%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
+          "targetHost": "youtube.com"
         }
       ]
     }
@@ -2468,10 +2936,16 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-11",
+      "checkedAt": "2026-08-18",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Xiaomi 6 Max\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Xiaomi%206%20Max%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Xiaomi 6 Max\" (災情 OR 問題 OR 故障 OR 負評)",
@@ -2479,10 +2953,22 @@
           "targetHost": "mobile01.com"
         },
         {
-          "platform": "Reddit",
-          "query": "site:reddit.com \"Xiaomi 6 Max\" (problem OR issue OR defect OR \"negative review\")",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Xiaomi%206%20Max%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
-          "targetHost": "reddit.com"
+          "platform": "PTT",
+          "query": "site:ptt.cc \"Xiaomi 6 Max\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22Xiaomi%206%20Max%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "ptt.cc"
+        },
+        {
+          "platform": "Dcard",
+          "query": "site:dcard.tw \"Xiaomi 6 Max\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22Xiaomi%206%20Max%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "dcard.tw"
+        },
+        {
+          "platform": "YouTube",
+          "query": "\"Xiaomi 6 Max\" problem issue defect failure broken 災情 故障 異常",
+          "queryUrl": "https://www.youtube.com/results?search_query=%22Xiaomi%206%20Max%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
+          "targetHost": "youtube.com"
         }
       ]
     }
@@ -2521,11 +3007,11 @@
     ],
     "cons": [
       "新品長期可靠度與耗材成本仍需追蹤",
-      "Reddit 同站已有多位使用者反映 App／建圖、跳區與導航不穩；尚未跨第二原始網站達災情門檻",
+      "Reddit 與 YouTube 已有達門檻的同型號導航／避障漏掃回報，部分需調整 AIVI、另建區域或重新建圖",
       "全能基站需預留散熱與維護空間"
     ],
     "bestFor": "想升級高吸力滾筒掃拖、重視貼邊與避障，但預算不想突破三萬元的人。",
-    "recommendation": "新品補充：T90 PRO OMNI 是 T80 之上的直接升級比較款；目前規格與台灣售價有競爭力，但單站 App／導航回報較集中，建議保留退換貨期完整測試。",
+    "recommendation": "新品補充：T90 PRO OMNI 是 T80 之上的直接升級比較款；目前規格與台灣售價有競爭力，但導航／避障漏掃已達跨站災情門檻，建議保留退換貨期完整測試。",
     "score": 92,
     "voltage": "110V 台灣官方通路；基站請使用穩定插座",
     "warranty": "依 ECOVACS 台灣與 PChome/供應商頁面",
@@ -2551,22 +3037,46 @@
       "note": "已查 BigGo、FindPrice 與 LBJ 的完整型號 ECOVACS DEEBOT T90 PRO OMNI；可信新品頁只足以驗證目前售價，未找到同型號可公開驗證的歷史價格序列，因此不以現價推定史低。"
     },
     "issueResearch": {
-      "status": "no_common_issue",
-      "checkedAt": "2026-07-11",
-      "summary": "截至查核日，查無達門檻的集中負評／災情",
-      "issues": [],
-      "checkedSources": [
+      "status": "common_issue",
+      "checkedAt": "2026-08-18",
+      "summary": "多位 DEEBOT T90 PRO OMNI 使用者跨站回報，導航／避障會跳過或拒絕清掃實際可到達的區域。",
+      "issues": [
         {
-          "platform": "Mobile01",
-          "query": "site:mobile01.com \"Ecovacs DEEBOT T90 PRO OMNI\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Ecovacs%20DEEBOT%20T90%20PRO%20OMNI%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
-          "targetHost": "mobile01.com"
-        },
-        {
-          "platform": "Reddit",
-          "query": "\"Ecovacs DEEBOT T90 PRO OMNI\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22Ecovacs%20DEEBOT%20T90%20PRO%20OMNI%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
-          "targetHost": "reddit.com"
+          "title": "導航／避障跳過可到達區域",
+          "detail": "回報包含漏掃房間邊緣、整塊地毯、局部區域與可通過的家具兩側，也有物件移走後仍繞開舊位置的情況；部分可透過調整 AIVI、另建區域或重新建圖改善。建議在退換貨期內以全屋不同地面連續測試，確認地圖與實際覆蓋範圍。",
+          "reportCount": 10,
+          "sources": [
+            {
+              "platform": "Reddit",
+              "title": "Ecovacs Deebot T90 Pro Omni skipping a lot of places",
+              "url": "https://www.reddit.com/r/ecovacs/comments/1uo11zp/ecovacs_deebot_t90_pro_omni_skipping_a_lot_of/"
+            },
+            {
+              "platform": "Reddit",
+              "title": "Qrevo Master vs T90 Pro Omni",
+              "url": "https://www.reddit.com/r/RobotVacuums/comments/1udvtrz/qrevo_master_vs_t90_pro_omni/"
+            },
+            {
+              "platform": "Reddit",
+              "title": "First time owner - any tips/tricks/info I should know",
+              "url": "https://www.reddit.com/r/RobotVacuums/comments/1us8voq/first_time_owner_any_tipstricksinfo_i_should_know/"
+            },
+            {
+              "platform": "Reddit",
+              "title": "Deebot t90 pro omni - what is this madness?",
+              "url": "https://www.reddit.com/r/ecovacs/comments/1uio4qj/deebot_t90_pro_omni_what_is_this_madness/"
+            },
+            {
+              "platform": "Reddit",
+              "title": "Please be mindful if buying a T90 Pro Omni",
+              "url": "https://www.reddit.com/r/ecovacs/comments/1ureiz8/please_be_mindful_if_buying_a_t90_pro_omni/"
+            },
+            {
+              "platform": "YouTube",
+              "title": "3 Months with a Robot Vacuum! ECOVACS T90 PRO OMNI Review",
+              "url": "https://www.youtube.com/watch?v=sprhcYrQYfI"
+            }
+          ]
         }
       ]
     }
@@ -2636,10 +3146,16 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-11",
+      "checkedAt": "2026-08-18",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Ecovacs DEEBOT X12 PRO OMNI\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Ecovacs%20DEEBOT%20X12%20PRO%20OMNI%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Ecovacs DEEBOT X12 PRO OMNI\" (災情 OR 問題 OR 故障 OR 負評)",
@@ -2647,10 +3163,22 @@
           "targetHost": "mobile01.com"
         },
         {
-          "platform": "Reddit",
-          "query": "site:reddit.com \"Ecovacs DEEBOT X12 PRO OMNI\" (problem OR issue OR defect OR \"negative review\")",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Ecovacs%20DEEBOT%20X12%20PRO%20OMNI%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
-          "targetHost": "reddit.com"
+          "platform": "PTT",
+          "query": "site:ptt.cc \"Ecovacs DEEBOT X12 PRO OMNI\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22Ecovacs%20DEEBOT%20X12%20PRO%20OMNI%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "ptt.cc"
+        },
+        {
+          "platform": "Dcard",
+          "query": "site:dcard.tw \"Ecovacs DEEBOT X12 PRO OMNI\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22Ecovacs%20DEEBOT%20X12%20PRO%20OMNI%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "dcard.tw"
+        },
+        {
+          "platform": "YouTube",
+          "query": "\"Ecovacs DEEBOT X12 PRO OMNI\" problem issue defect failure broken 災情 故障 異常",
+          "queryUrl": "https://www.youtube.com/results?search_query=%22Ecovacs%20DEEBOT%20X12%20PRO%20OMNI%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
+          "targetHost": "youtube.com"
         }
       ]
     }
@@ -2720,21 +3248,39 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-11",
+      "checkedAt": "2026-08-18",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Xiaomi H50 Pro\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Xiaomi%20H50%20Pro%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
+        {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Xiaomi H50 Pro\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Xiaomi%20H50%20Pro%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Xiaomi%20H50%20Pro%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
-          "platform": "Reddit",
-          "query": "\"Xiaomi H50 Pro\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://www.reddit.com/search/?q=%22Xiaomi%20H50%20Pro%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
-          "targetHost": "reddit.com"
+          "platform": "PTT",
+          "query": "site:ptt.cc \"Xiaomi H50 Pro\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22Xiaomi%20H50%20Pro%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "ptt.cc"
+        },
+        {
+          "platform": "Dcard",
+          "query": "site:dcard.tw \"Xiaomi H50 Pro\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22Xiaomi%20H50%20Pro%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "dcard.tw"
+        },
+        {
+          "platform": "YouTube",
+          "query": "\"Xiaomi H50 Pro\" problem issue defect failure broken 災情 故障 異常",
+          "queryUrl": "https://www.youtube.com/results?search_query=%22Xiaomi%20H50%20Pro%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
+          "targetHost": "youtube.com"
         }
       ]
     }
@@ -2813,21 +3359,39 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-14",
+      "checkedAt": "2026-08-18",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"HOBOT LEGEE-Q10 PRO\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22HOBOT%20LEGEE-Q10%20PRO%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
+        {
           "platform": "Mobile01",
-          "query": "site:mobile01.com \"LEGEE-Q10 Pro\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22LEGEE-Q10%20Pro%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "query": "site:mobile01.com \"HOBOT LEGEE-Q10 PRO\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22HOBOT%20LEGEE-Q10%20PRO%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         },
         {
-          "platform": "Reddit",
-          "query": "site:reddit.com \"LEGEE-Q10 Pro\" (problem OR issue OR defect OR \"negative review\")",
-          "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22LEGEE-Q10%20Pro%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
-          "targetHost": "reddit.com"
+          "platform": "PTT",
+          "query": "site:ptt.cc \"HOBOT LEGEE-Q10 PRO\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22HOBOT%20LEGEE-Q10%20PRO%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "ptt.cc"
+        },
+        {
+          "platform": "Dcard",
+          "query": "site:dcard.tw \"HOBOT LEGEE-Q10 PRO\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22HOBOT%20LEGEE-Q10%20PRO%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "dcard.tw"
+        },
+        {
+          "platform": "YouTube",
+          "query": "\"HOBOT LEGEE-Q10 PRO\" problem issue defect failure broken 災情 故障 異常",
+          "queryUrl": "https://www.youtube.com/results?search_query=%22HOBOT%20LEGEE-Q10%20PRO%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
+          "targetHost": "youtube.com"
         }
       ]
     }
@@ -2903,10 +3467,16 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-16",
+      "checkedAt": "2026-08-18",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Roborock Qrevo Edge 2 Flow\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Roborock%20Qrevo%20Edge%202%20Flow%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Roborock Qrevo Edge 2 Flow\" (災情 OR 問題 OR 故障 OR 負評)",
@@ -2914,10 +3484,22 @@
           "targetHost": "mobile01.com"
         },
         {
-          "platform": "Reddit",
-          "query": "site:reddit.com \"Roborock Qrevo Edge 2 Flow\" (problem OR issue OR defect OR \"negative review\")",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Roborock%20Qrevo%20Edge%202%20Flow%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
-          "targetHost": "reddit.com"
+          "platform": "PTT",
+          "query": "site:ptt.cc \"Roborock Qrevo Edge 2 Flow\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22Roborock%20Qrevo%20Edge%202%20Flow%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "ptt.cc"
+        },
+        {
+          "platform": "Dcard",
+          "query": "site:dcard.tw \"Roborock Qrevo Edge 2 Flow\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22Roborock%20Qrevo%20Edge%202%20Flow%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "dcard.tw"
+        },
+        {
+          "platform": "YouTube",
+          "query": "\"Roborock Qrevo Edge 2 Flow\" problem issue defect failure broken 災情 故障 異常",
+          "queryUrl": "https://www.youtube.com/results?search_query=%22Roborock%20Qrevo%20Edge%202%20Flow%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
+          "targetHost": "youtube.com"
         }
       ]
     }

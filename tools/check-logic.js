@@ -70,6 +70,7 @@ const {
   queryUrlMatchesRecord,
 } = require("./product-issue-validation");
 const {
+  buildResearchDocument,
   candidateMatchesExactModel,
   researchRow,
   reviewedDecision,
@@ -2286,6 +2287,13 @@ async function main() {
   };
   assert(!candidateMatchesExactModel(c5, pollutedCandidate), "different-model search result must be rejected");
   assert(candidateMatchesExactModel(c5, exactCandidate), "exact-model search result should remain a candidate");
+  assert(
+    sanitizeSearchCheck(c5, {
+      result: "candidates_unverified_by_search_only",
+      candidates: [{ ...pollutedCandidate, exactModel: true }],
+    }).resultCount === 1,
+    "an explicitly reviewed exact-model search candidate should not depend on title token order",
+  );
   const aqaraA100 = products.find((product) => product.id === "smartlock-aqara-a100");
   const concatenatedVariantQuery = {
     platform: "Reddit",
@@ -2303,6 +2311,44 @@ async function main() {
   };
   assert(!queryTargetsWebsite(deceptiveTargetQuery), "a deceptive site token must not count as the target website");
   assert(queryUrlMatchesRecord(deceptiveTargetQuery), "the deceptive-site regression query should otherwise be reproducible");
+  const youtubeQuery = {
+    platform: "YouTube",
+    query: '"LG OLED65C5PTA" problem issue defect failure',
+    queryUrl: "https://www.youtube.com/results?search_query=%22LG%20OLED65C5PTA%22%20problem%20issue%20defect%20failure",
+    targetHost: "youtube.com",
+  };
+  assert(queryTargetsProduct(youtubeQuery, c5), "a YouTube query should preserve the exact model");
+  assert(queryTargetsWebsite(youtubeQuery), "a YouTube search URL should target YouTube");
+  assert(queryUrlMatchesRecord(youtubeQuery), "a YouTube search URL should reproduce search_query");
+  assert(queryUrlMatchesRecord({
+    query: youtubeQuery.query,
+    queryUrl: `https://search.yahoo.com/search?p=${encodeURIComponent(youtubeQuery.query)}`,
+  }), "a Yahoo search URL should reproduce p");
+  const t50Pro = products.find((product) => product.id === "robot-ecovacs-t50-pro");
+  assert(
+    !candidateMatchesExactModel(t50Pro, {
+      title: "Ecovacs DEEBOT T50 PRO OMNI Gen2 troubleshooting",
+      url: "https://www.youtube.com/watch?v=model-variant",
+    }),
+    "a Gen2 product variant must not count as the base exact model",
+  );
+  const fallbackResearch = buildResearchDocument([{ id: "fallback" }], new Map([["fallback", {
+    workflowStatus: "completed",
+    issueResearch: { status: "no_common_issue", issues: [] },
+    searchChecks: [
+      { result: "search_unavailable" },
+      { result: "no_exact_model_result" },
+    ],
+  }]]));
+  assert(fallbackResearch.summary.searchUnavailable === 0, "a successful fallback search should clear search-unavailable status");
+  assert(
+    buildResearchDocument([{ id: "fallback" }], new Map([["fallback", {
+      workflowStatus: "completed",
+      issueResearch: { status: "no_common_issue", issues: [] },
+      searchChecks: [{ result: "no_exact_model_result" }],
+    }]]), { searchLimitations: [{ provider: "Google", status: "captcha_blocked" }] }).summary.searchLimitations.length === 1,
+    "research rebuild should preserve an explicit provider limitation",
+  );
   assert(
     !candidateMatchesExactModel(aqaraA100, {
       title: "Aqara A100 Pro owner issue report",
@@ -2360,6 +2406,7 @@ async function main() {
   const candidateReview = {
     url: exactCandidate.url,
     title: exactCandidate.title,
+    platform: "Reddit",
     outcome: "excluded",
     reviewedAt: c5Review.reviewedAt,
     exactModel: true,
@@ -2377,6 +2424,30 @@ async function main() {
       url: exactCandidate.url,
     }],
   };
+  const refreshedReviewWithOlderCandidate = {
+    ...completedReview,
+    reviewedAt: "2026-08-18",
+    candidateReviews: [{ ...candidateReview, reviewedAt: "2026-07-10" }],
+  };
+  validateExplicitReview(refreshedReviewWithOlderCandidate, c5);
+  assertThrows(
+    () => validateExplicitReview({
+      ...refreshedReviewWithOlderCandidate,
+      checkedPlatforms: refreshedReviewWithOlderCandidate.checkedPlatforms.filter((platform) => platform !== "Reddit"),
+    }, c5),
+    "a candidate platform must be declared in checkedPlatforms",
+  );
+  assert(
+    researchRow(c5, sanitizedSearch, new Map([[c5.id, refreshedReviewWithOlderCandidate]])).workflowStatus === "completed",
+    "a fresh product review should preserve an earlier explicit original-page candidate review",
+  );
+  assertThrows(
+    () => validateExplicitReview({
+      ...refreshedReviewWithOlderCandidate,
+      candidateReviews: [{ ...candidateReview, reviewedAt: "2026-08-19" }],
+    }, c5),
+    "a candidate review dated after the product review must be rejected",
+  );
   const noCandidateSearch = {
     ...sanitizedSearch,
     result: "no_exact_model_result",
@@ -2384,6 +2455,10 @@ async function main() {
     candidateUrls: [],
     candidates: [],
   };
+  assert(
+    researchRow(c5, noCandidateSearch, new Map([[c5.id, completedReview]])).workflowStatus === "completed",
+    "an explicitly reviewed original page may be retained even when it came from a separate manual discovery path",
+  );
   const completedFromMultipleSearches = researchRow(
     c5,
     [noCandidateSearch, sanitizedSearch],

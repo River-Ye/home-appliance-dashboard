@@ -66,10 +66,16 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-11",
+      "checkedAt": "2026-08-18",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"TOTO TCF8342TW S2\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22TOTO%20TCF8342TW%20S2%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"TOTO TCF8342TW S2\" (災情 OR 問題 OR 故障 OR 負評)",
@@ -77,10 +83,22 @@
           "targetHost": "mobile01.com"
         },
         {
-          "platform": "Reddit",
-          "query": "site:reddit.com \"TOTO TCF8342TW S2\" (problem OR issue OR defect OR \"negative review\")",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22TOTO%20TCF8342TW%20S2%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
-          "targetHost": "reddit.com"
+          "platform": "PTT",
+          "query": "site:ptt.cc \"TOTO TCF8342TW S2\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22TOTO%20TCF8342TW%20S2%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "ptt.cc"
+        },
+        {
+          "platform": "Dcard",
+          "query": "site:dcard.tw \"TOTO TCF8342TW S2\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22TOTO%20TCF8342TW%20S2%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "dcard.tw"
+        },
+        {
+          "platform": "YouTube",
+          "query": "\"TOTO TCF8342TW S2\" problem issue defect failure broken 災情 故障 異常",
+          "queryUrl": "https://www.youtube.com/results?search_query=%22TOTO%20TCF8342TW%20S2%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
+          "targetHost": "youtube.com"
         }
       ]
     }
@@ -145,10 +163,16 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-11",
+      "checkedAt": "2026-08-18",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"TOTO TCF23710ATW C2\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22TOTO%20TCF23710ATW%20C2%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"TOTO TCF23710ATW C2\" (災情 OR 問題 OR 故障 OR 負評)",
@@ -156,10 +180,22 @@
           "targetHost": "mobile01.com"
         },
         {
-          "platform": "Reddit",
-          "query": "site:reddit.com \"TOTO TCF23710ATW C2\" (problem OR issue OR defect OR \"negative review\")",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22TOTO%20TCF23710ATW%20C2%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
-          "targetHost": "reddit.com"
+          "platform": "PTT",
+          "query": "site:ptt.cc \"TOTO TCF23710ATW C2\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22TOTO%20TCF23710ATW%20C2%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "ptt.cc"
+        },
+        {
+          "platform": "Dcard",
+          "query": "site:dcard.tw \"TOTO TCF23710ATW C2\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22TOTO%20TCF23710ATW%20C2%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "dcard.tw"
+        },
+        {
+          "platform": "YouTube",
+          "query": "\"TOTO TCF23710ATW C2\" problem issue defect failure broken 災情 故障 異常",
+          "queryUrl": "https://www.youtube.com/results?search_query=%22TOTO%20TCF23710ATW%20C2%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
+          "targetHost": "youtube.com"
         }
       ]
     }
@@ -224,10 +260,16 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-11",
+      "checkedAt": "2026-08-18",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Panasonic DL-PSTK09TWW\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Panasonic%20DL-PSTK09TWW%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Panasonic DL-PSTK09TWW\" (災情 OR 問題 OR 故障 OR 負評)",
@@ -235,10 +277,22 @@
           "targetHost": "mobile01.com"
         },
         {
-          "platform": "Reddit",
-          "query": "site:reddit.com \"Panasonic DL-PSTK09TWW\" (problem OR issue OR defect OR \"negative review\")",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Panasonic%20DL-PSTK09TWW%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
-          "targetHost": "reddit.com"
+          "platform": "PTT",
+          "query": "site:ptt.cc \"Panasonic DL-PSTK09TWW\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22Panasonic%20DL-PSTK09TWW%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "ptt.cc"
+        },
+        {
+          "platform": "Dcard",
+          "query": "site:dcard.tw \"Panasonic DL-PSTK09TWW\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22Panasonic%20DL-PSTK09TWW%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "dcard.tw"
+        },
+        {
+          "platform": "YouTube",
+          "query": "\"Panasonic DL-PSTK09TWW\" problem issue defect failure broken 災情 故障 異常",
+          "queryUrl": "https://www.youtube.com/results?search_query=%22Panasonic%20DL-PSTK09TWW%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
+          "targetHost": "youtube.com"
         }
       ]
     }
@@ -303,10 +357,16 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-11",
+      "checkedAt": "2026-08-18",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"KOHLER C3-430\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22KOHLER%20C3-430%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"KOHLER C3-430\" (災情 OR 問題 OR 故障 OR 負評)",
@@ -314,10 +374,22 @@
           "targetHost": "mobile01.com"
         },
         {
-          "platform": "Reddit",
-          "query": "site:reddit.com \"KOHLER C3-430\" (problem OR issue OR defect OR \"negative review\")",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22KOHLER%20C3-430%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
-          "targetHost": "reddit.com"
+          "platform": "PTT",
+          "query": "site:ptt.cc \"KOHLER C3-430\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22KOHLER%20C3-430%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "ptt.cc"
+        },
+        {
+          "platform": "Dcard",
+          "query": "site:dcard.tw \"KOHLER C3-430\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22KOHLER%20C3-430%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "dcard.tw"
+        },
+        {
+          "platform": "YouTube",
+          "query": "\"KOHLER C3-430\" problem issue defect failure broken 災情 故障 異常",
+          "queryUrl": "https://www.youtube.com/results?search_query=%22KOHLER%20C3-430%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
+          "targetHost": "youtube.com"
         }
       ]
     }
@@ -382,10 +454,16 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-11",
+      "checkedAt": "2026-08-18",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"TOTO TCF47160GTW S7\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22TOTO%20TCF47160GTW%20S7%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"TOTO TCF47160GTW S7\" (災情 OR 問題 OR 故障 OR 負評)",
@@ -393,10 +471,22 @@
           "targetHost": "mobile01.com"
         },
         {
-          "platform": "Reddit",
-          "query": "site:reddit.com \"TOTO TCF47160GTW S7\" (problem OR issue OR defect OR \"negative review\")",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22TOTO%20TCF47160GTW%20S7%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
-          "targetHost": "reddit.com"
+          "platform": "PTT",
+          "query": "site:ptt.cc \"TOTO TCF47160GTW S7\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22TOTO%20TCF47160GTW%20S7%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "ptt.cc"
+        },
+        {
+          "platform": "Dcard",
+          "query": "site:dcard.tw \"TOTO TCF47160GTW S7\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22TOTO%20TCF47160GTW%20S7%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "dcard.tw"
+        },
+        {
+          "platform": "YouTube",
+          "query": "\"TOTO TCF47160GTW S7\" problem issue defect failure broken 災情 故障 異常",
+          "queryUrl": "https://www.youtube.com/results?search_query=%22TOTO%20TCF47160GTW%20S7%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
+          "targetHost": "youtube.com"
         }
       ]
     }
@@ -461,10 +551,16 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-11",
+      "checkedAt": "2026-08-18",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"TOTO TCF24460ATW C5\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22TOTO%20TCF24460ATW%20C5%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"TOTO TCF24460ATW C5\" (災情 OR 問題 OR 故障 OR 負評)",
@@ -472,10 +568,22 @@
           "targetHost": "mobile01.com"
         },
         {
-          "platform": "Reddit",
-          "query": "site:reddit.com \"TOTO TCF24460ATW C5\" (problem OR issue OR defect OR \"negative review\")",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22TOTO%20TCF24460ATW%20C5%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
-          "targetHost": "reddit.com"
+          "platform": "PTT",
+          "query": "site:ptt.cc \"TOTO TCF24460ATW C5\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22TOTO%20TCF24460ATW%20C5%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "ptt.cc"
+        },
+        {
+          "platform": "Dcard",
+          "query": "site:dcard.tw \"TOTO TCF24460ATW C5\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22TOTO%20TCF24460ATW%20C5%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "dcard.tw"
+        },
+        {
+          "platform": "YouTube",
+          "query": "\"TOTO TCF24460ATW C5\" problem issue defect failure broken 災情 故障 異常",
+          "queryUrl": "https://www.youtube.com/results?search_query=%22TOTO%20TCF24460ATW%20C5%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
+          "targetHost": "youtube.com"
         }
       ]
     }
@@ -540,10 +648,16 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-11",
+      "checkedAt": "2026-08-18",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"TOTO TCF34461GTW S5\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22TOTO%20TCF34461GTW%20S5%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"TOTO TCF34461GTW S5\" (災情 OR 問題 OR 故障 OR 負評)",
@@ -551,10 +665,22 @@
           "targetHost": "mobile01.com"
         },
         {
-          "platform": "Reddit",
-          "query": "site:reddit.com \"TOTO TCF34461GTW S5\" (problem OR issue OR defect OR \"negative review\")",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22TOTO%20TCF34461GTW%20S5%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
-          "targetHost": "reddit.com"
+          "platform": "PTT",
+          "query": "site:ptt.cc \"TOTO TCF34461GTW S5\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22TOTO%20TCF34461GTW%20S5%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "ptt.cc"
+        },
+        {
+          "platform": "Dcard",
+          "query": "site:dcard.tw \"TOTO TCF34461GTW S5\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22TOTO%20TCF34461GTW%20S5%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "dcard.tw"
+        },
+        {
+          "platform": "YouTube",
+          "query": "\"TOTO TCF34461GTW S5\" problem issue defect failure broken 災情 故障 異常",
+          "queryUrl": "https://www.youtube.com/results?search_query=%22TOTO%20TCF34461GTW%20S5%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
+          "targetHost": "youtube.com"
         }
       ]
     }
@@ -619,10 +745,16 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-11",
+      "checkedAt": "2026-08-18",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"TOTO TCF33161GTW S2\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22TOTO%20TCF33161GTW%20S2%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"TOTO TCF33161GTW S2\" (災情 OR 問題 OR 故障 OR 負評)",
@@ -630,10 +762,22 @@
           "targetHost": "mobile01.com"
         },
         {
-          "platform": "Reddit",
-          "query": "site:reddit.com \"TOTO TCF33161GTW S2\" (problem OR issue OR defect OR \"negative review\")",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22TOTO%20TCF33161GTW%20S2%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
-          "targetHost": "reddit.com"
+          "platform": "PTT",
+          "query": "site:ptt.cc \"TOTO TCF33161GTW S2\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22TOTO%20TCF33161GTW%20S2%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "ptt.cc"
+        },
+        {
+          "platform": "Dcard",
+          "query": "site:dcard.tw \"TOTO TCF33161GTW S2\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22TOTO%20TCF33161GTW%20S2%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "dcard.tw"
+        },
+        {
+          "platform": "YouTube",
+          "query": "\"TOTO TCF33161GTW S2\" problem issue defect failure broken 災情 故障 異常",
+          "queryUrl": "https://www.youtube.com/results?search_query=%22TOTO%20TCF33161GTW%20S2%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
+          "targetHost": "youtube.com"
         }
       ]
     }
@@ -698,10 +842,16 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-11",
+      "checkedAt": "2026-08-18",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"TOTO TCF47360GTW S7\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22TOTO%20TCF47360GTW%20S7%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"TOTO TCF47360GTW S7\" (災情 OR 問題 OR 故障 OR 負評)",
@@ -709,10 +859,22 @@
           "targetHost": "mobile01.com"
         },
         {
-          "platform": "Reddit",
-          "query": "site:reddit.com \"TOTO TCF47360GTW S7\" (problem OR issue OR defect OR \"negative review\")",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22TOTO%20TCF47360GTW%20S7%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
-          "targetHost": "reddit.com"
+          "platform": "PTT",
+          "query": "site:ptt.cc \"TOTO TCF47360GTW S7\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22TOTO%20TCF47360GTW%20S7%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "ptt.cc"
+        },
+        {
+          "platform": "Dcard",
+          "query": "site:dcard.tw \"TOTO TCF47360GTW S7\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22TOTO%20TCF47360GTW%20S7%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "dcard.tw"
+        },
+        {
+          "platform": "YouTube",
+          "query": "\"TOTO TCF47360GTW S7\" problem issue defect failure broken 災情 故障 異常",
+          "queryUrl": "https://www.youtube.com/results?search_query=%22TOTO%20TCF47360GTW%20S7%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
+          "targetHost": "youtube.com"
         }
       ]
     }
@@ -777,10 +939,16 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-11",
+      "checkedAt": "2026-08-18",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"TOTO TCF33461GTW S2\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22TOTO%20TCF33461GTW%20S2%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"TOTO TCF33461GTW S2\" (災情 OR 問題 OR 故障 OR 負評)",
@@ -788,10 +956,22 @@
           "targetHost": "mobile01.com"
         },
         {
-          "platform": "Reddit",
-          "query": "site:reddit.com \"TOTO TCF33461GTW S2\" (problem OR issue OR defect OR \"negative review\")",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22TOTO%20TCF33461GTW%20S2%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
-          "targetHost": "reddit.com"
+          "platform": "PTT",
+          "query": "site:ptt.cc \"TOTO TCF33461GTW S2\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22TOTO%20TCF33461GTW%20S2%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "ptt.cc"
+        },
+        {
+          "platform": "Dcard",
+          "query": "site:dcard.tw \"TOTO TCF33461GTW S2\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22TOTO%20TCF33461GTW%20S2%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "dcard.tw"
+        },
+        {
+          "platform": "YouTube",
+          "query": "\"TOTO TCF33461GTW S2\" problem issue defect failure broken 災情 故障 異常",
+          "queryUrl": "https://www.youtube.com/results?search_query=%22TOTO%20TCF33461GTW%20S2%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
+          "targetHost": "youtube.com"
         }
       ]
     }
@@ -856,10 +1036,16 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-11",
+      "checkedAt": "2026-08-18",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Panasonic DL-F610RTWS\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Panasonic%20DL-F610RTWS%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Panasonic DL-F610RTWS\" (災情 OR 問題 OR 故障 OR 負評)",
@@ -867,10 +1053,22 @@
           "targetHost": "mobile01.com"
         },
         {
-          "platform": "Reddit",
-          "query": "site:reddit.com \"Panasonic DL-F610RTWS\" (problem OR issue OR defect OR \"negative review\")",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Panasonic%20DL-F610RTWS%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
-          "targetHost": "reddit.com"
+          "platform": "PTT",
+          "query": "site:ptt.cc \"Panasonic DL-F610RTWS\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22Panasonic%20DL-F610RTWS%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "ptt.cc"
+        },
+        {
+          "platform": "Dcard",
+          "query": "site:dcard.tw \"Panasonic DL-F610RTWS\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22Panasonic%20DL-F610RTWS%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "dcard.tw"
+        },
+        {
+          "platform": "YouTube",
+          "query": "\"Panasonic DL-F610RTWS\" problem issue defect failure broken 災情 故障 異常",
+          "queryUrl": "https://www.youtube.com/results?search_query=%22Panasonic%20DL-F610RTWS%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
+          "targetHost": "youtube.com"
         }
       ]
     }
@@ -935,10 +1133,16 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-11",
+      "checkedAt": "2026-08-18",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Panasonic DL-RT30TWWS\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Panasonic%20DL-RT30TWWS%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Panasonic DL-RT30TWWS\" (災情 OR 問題 OR 故障 OR 負評)",
@@ -946,10 +1150,22 @@
           "targetHost": "mobile01.com"
         },
         {
-          "platform": "Reddit",
-          "query": "site:reddit.com \"Panasonic DL-RT30TWWS\" (problem OR issue OR defect OR \"negative review\")",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Panasonic%20DL-RT30TWWS%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
-          "targetHost": "reddit.com"
+          "platform": "PTT",
+          "query": "site:ptt.cc \"Panasonic DL-RT30TWWS\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22Panasonic%20DL-RT30TWWS%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "ptt.cc"
+        },
+        {
+          "platform": "Dcard",
+          "query": "site:dcard.tw \"Panasonic DL-RT30TWWS\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22Panasonic%20DL-RT30TWWS%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "dcard.tw"
+        },
+        {
+          "platform": "YouTube",
+          "query": "\"Panasonic DL-RT30TWWS\" problem issue defect failure broken 災情 故障 異常",
+          "queryUrl": "https://www.youtube.com/results?search_query=%22Panasonic%20DL-RT30TWWS%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
+          "targetHost": "youtube.com"
         }
       ]
     }
@@ -1014,10 +1230,16 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-11",
+      "checkedAt": "2026-08-18",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Panasonic DL-PU30TWWS\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Panasonic%20DL-PU30TWWS%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Panasonic DL-PU30TWWS\" (災情 OR 問題 OR 故障 OR 負評)",
@@ -1025,10 +1247,22 @@
           "targetHost": "mobile01.com"
         },
         {
-          "platform": "Reddit",
-          "query": "site:reddit.com \"Panasonic DL-PU30TWWS\" (problem OR issue OR defect OR \"negative review\")",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Panasonic%20DL-PU30TWWS%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
-          "targetHost": "reddit.com"
+          "platform": "PTT",
+          "query": "site:ptt.cc \"Panasonic DL-PU30TWWS\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22Panasonic%20DL-PU30TWWS%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "ptt.cc"
+        },
+        {
+          "platform": "Dcard",
+          "query": "site:dcard.tw \"Panasonic DL-PU30TWWS\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22Panasonic%20DL-PU30TWWS%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "dcard.tw"
+        },
+        {
+          "platform": "YouTube",
+          "query": "\"Panasonic DL-PU30TWWS\" problem issue defect failure broken 災情 故障 異常",
+          "queryUrl": "https://www.youtube.com/results?search_query=%22Panasonic%20DL-PU30TWWS%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
+          "targetHost": "youtube.com"
         }
       ]
     }
@@ -1093,10 +1327,16 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-11",
+      "checkedAt": "2026-08-18",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"KOHLER C3-150\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22KOHLER%20C3-150%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"KOHLER C3-150\" (災情 OR 問題 OR 故障 OR 負評)",
@@ -1104,10 +1344,22 @@
           "targetHost": "mobile01.com"
         },
         {
-          "platform": "Reddit",
-          "query": "site:reddit.com \"KOHLER C3-150\" (problem OR issue OR defect OR \"negative review\")",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22KOHLER%20C3-150%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
-          "targetHost": "reddit.com"
+          "platform": "PTT",
+          "query": "site:ptt.cc \"KOHLER C3-150\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22KOHLER%20C3-150%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "ptt.cc"
+        },
+        {
+          "platform": "Dcard",
+          "query": "site:dcard.tw \"KOHLER C3-150\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22KOHLER%20C3-150%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "dcard.tw"
+        },
+        {
+          "platform": "YouTube",
+          "query": "\"KOHLER C3-150\" problem issue defect failure broken 災情 故障 異常",
+          "queryUrl": "https://www.youtube.com/results?search_query=%22KOHLER%20C3-150%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
+          "targetHost": "youtube.com"
         }
       ]
     }
@@ -1172,10 +1424,16 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-11",
+      "checkedAt": "2026-08-18",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"JTAccord JT-261C\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22JTAccord%20JT-261C%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"JTAccord JT-261C\" (災情 OR 問題 OR 故障 OR 負評)",
@@ -1183,10 +1441,22 @@
           "targetHost": "mobile01.com"
         },
         {
-          "platform": "Reddit",
-          "query": "site:reddit.com \"JTAccord JT-261C\" (problem OR issue OR defect OR \"negative review\")",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22JTAccord%20JT-261C%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
-          "targetHost": "reddit.com"
+          "platform": "PTT",
+          "query": "site:ptt.cc \"JTAccord JT-261C\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22JTAccord%20JT-261C%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "ptt.cc"
+        },
+        {
+          "platform": "Dcard",
+          "query": "site:dcard.tw \"JTAccord JT-261C\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22JTAccord%20JT-261C%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "dcard.tw"
+        },
+        {
+          "platform": "YouTube",
+          "query": "\"JTAccord JT-261C\" problem issue defect failure broken 災情 故障 異常",
+          "queryUrl": "https://www.youtube.com/results?search_query=%22JTAccord%20JT-261C%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
+          "targetHost": "youtube.com"
         }
       ]
     }
@@ -1251,10 +1521,16 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-11",
+      "checkedAt": "2026-08-18",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"HEGLL HE-0535\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22HEGLL%20HE-0535%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"HEGLL HE-0535\" (災情 OR 問題 OR 故障 OR 負評)",
@@ -1262,10 +1538,22 @@
           "targetHost": "mobile01.com"
         },
         {
-          "platform": "Reddit",
-          "query": "site:reddit.com \"HEGLL HE-0535\" (problem OR issue OR defect OR \"negative review\")",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22HEGLL%20HE-0535%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
-          "targetHost": "reddit.com"
+          "platform": "PTT",
+          "query": "site:ptt.cc \"HEGLL HE-0535\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22HEGLL%20HE-0535%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "ptt.cc"
+        },
+        {
+          "platform": "Dcard",
+          "query": "site:dcard.tw \"HEGLL HE-0535\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22HEGLL%20HE-0535%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "dcard.tw"
+        },
+        {
+          "platform": "YouTube",
+          "query": "\"HEGLL HE-0535\" problem issue defect failure broken 災情 故障 異常",
+          "queryUrl": "https://www.youtube.com/results?search_query=%22HEGLL%20HE-0535%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
+          "targetHost": "youtube.com"
         }
       ]
     }
@@ -1330,10 +1618,16 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-11",
+      "checkedAt": "2026-08-18",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"HCG AF830\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22HCG%20AF830%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"HCG AF830\" (災情 OR 問題 OR 故障 OR 負評)",
@@ -1341,10 +1635,22 @@
           "targetHost": "mobile01.com"
         },
         {
-          "platform": "Reddit",
-          "query": "site:reddit.com \"HCG AF830\" (problem OR issue OR defect OR \"negative review\")",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22HCG%20AF830%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
-          "targetHost": "reddit.com"
+          "platform": "PTT",
+          "query": "site:ptt.cc \"HCG AF830\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22HCG%20AF830%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "ptt.cc"
+        },
+        {
+          "platform": "Dcard",
+          "query": "site:dcard.tw \"HCG AF830\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22HCG%20AF830%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "dcard.tw"
+        },
+        {
+          "platform": "YouTube",
+          "query": "\"HCG AF830\" problem issue defect failure broken 災情 故障 異常",
+          "queryUrl": "https://www.youtube.com/results?search_query=%22HCG%20AF830%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
+          "targetHost": "youtube.com"
         }
       ]
     }
@@ -1409,10 +1715,16 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-11",
+      "checkedAt": "2026-08-18",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"HEGLL HE-0625\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22HEGLL%20HE-0625%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"HEGLL HE-0625\" (災情 OR 問題 OR 故障 OR 負評)",
@@ -1420,10 +1732,22 @@
           "targetHost": "mobile01.com"
         },
         {
-          "platform": "Reddit",
-          "query": "site:reddit.com \"HEGLL HE-0625\" (problem OR issue OR defect OR \"negative review\")",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22HEGLL%20HE-0625%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
-          "targetHost": "reddit.com"
+          "platform": "PTT",
+          "query": "site:ptt.cc \"HEGLL HE-0625\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22HEGLL%20HE-0625%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "ptt.cc"
+        },
+        {
+          "platform": "Dcard",
+          "query": "site:dcard.tw \"HEGLL HE-0625\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22HEGLL%20HE-0625%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "dcard.tw"
+        },
+        {
+          "platform": "YouTube",
+          "query": "\"HEGLL HE-0625\" problem issue defect failure broken 災情 故障 異常",
+          "queryUrl": "https://www.youtube.com/results?search_query=%22HEGLL%20HE-0625%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
+          "targetHost": "youtube.com"
         }
       ]
     }
@@ -1488,10 +1812,16 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-11",
+      "checkedAt": "2026-08-18",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"HEGLL HE-0635\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22HEGLL%20HE-0635%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"HEGLL HE-0635\" (災情 OR 問題 OR 故障 OR 負評)",
@@ -1499,10 +1829,22 @@
           "targetHost": "mobile01.com"
         },
         {
-          "platform": "Reddit",
-          "query": "site:reddit.com \"HEGLL HE-0635\" (problem OR issue OR defect OR \"negative review\")",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22HEGLL%20HE-0635%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
-          "targetHost": "reddit.com"
+          "platform": "PTT",
+          "query": "site:ptt.cc \"HEGLL HE-0635\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22HEGLL%20HE-0635%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "ptt.cc"
+        },
+        {
+          "platform": "Dcard",
+          "query": "site:dcard.tw \"HEGLL HE-0635\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22HEGLL%20HE-0635%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "dcard.tw"
+        },
+        {
+          "platform": "YouTube",
+          "query": "\"HEGLL HE-0635\" problem issue defect failure broken 災情 故障 異常",
+          "queryUrl": "https://www.youtube.com/results?search_query=%22HEGLL%20HE-0635%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
+          "targetHost": "youtube.com"
         }
       ]
     }
@@ -1568,10 +1910,16 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-11",
+      "checkedAt": "2026-08-18",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Brondell Swash CL1700\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Brondell%20Swash%20CL1700%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
         {
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Brondell Swash CL1700\" (災情 OR 問題 OR 故障 OR 負評)",
@@ -1579,10 +1927,22 @@
           "targetHost": "mobile01.com"
         },
         {
-          "platform": "Reddit",
-          "query": "site:reddit.com \"Brondell Swash CL1700\" (problem OR issue OR defect OR \"negative review\")",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Brondell%20Swash%20CL1700%22%20(problem%20OR%20issue%20OR%20defect%20OR%20%22negative%20review%22)",
-          "targetHost": "reddit.com"
+          "platform": "PTT",
+          "query": "site:ptt.cc \"Brondell Swash CL1700\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22Brondell%20Swash%20CL1700%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "ptt.cc"
+        },
+        {
+          "platform": "Dcard",
+          "query": "site:dcard.tw \"Brondell Swash CL1700\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22Brondell%20Swash%20CL1700%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "dcard.tw"
+        },
+        {
+          "platform": "YouTube",
+          "query": "\"Brondell Swash CL1700\" problem issue defect failure broken 災情 故障 異常",
+          "queryUrl": "https://www.youtube.com/results?search_query=%22Brondell%20Swash%20CL1700%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
+          "targetHost": "youtube.com"
         }
       ]
     }

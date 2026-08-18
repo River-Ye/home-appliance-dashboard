@@ -69,21 +69,39 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-23",
+      "checkedAt": "2026-08-18",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"LG R723WG\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22LG%20R723WG%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"LG R723WG\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22LG%20R723WG%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "PTT",
+          "query": "site:ptt.cc \"LG R723WG\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22LG%20R723WG%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "ptt.cc"
+        },
+        {
           "platform": "Dcard",
           "query": "site:dcard.tw \"LG R723WG\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://search.yahoo.com/search?q=site%3Adcard.tw%20%22LG%20R723WG%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22LG%20R723WG%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "dcard.tw"
         },
         {
-          "platform": "Reddit",
-          "query": "site:reddit.com \"LG R723WG\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22LG%20R723WG%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
-          "targetHost": "reddit.com"
+          "platform": "YouTube",
+          "query": "\"LG R723WG\" problem issue defect failure broken 災情 故障 異常",
+          "queryUrl": "https://www.youtube.com/results?search_query=%22LG%20R723WG%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
+          "targetHost": "youtube.com"
         }
       ]
     },
@@ -161,21 +179,39 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-23",
+      "checkedAt": "2026-08-18",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"LG E523MW\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22LG%20E523MW%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"LG E523MW\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22LG%20E523MW%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "PTT",
+          "query": "site:ptt.cc \"LG E523MW\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22LG%20E523MW%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "ptt.cc"
+        },
+        {
           "platform": "Dcard",
           "query": "site:dcard.tw \"LG E523MW\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://search.yahoo.com/search?q=site%3Adcard.tw%20%22LG%20E523MW%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22LG%20E523MW%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "dcard.tw"
         },
         {
-          "platform": "Reddit",
-          "query": "site:reddit.com \"LG E523MW\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22LG%20E523MW%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
-          "targetHost": "reddit.com"
+          "platform": "YouTube",
+          "query": "\"LG E523MW\" problem issue defect failure broken 災情 故障 異常",
+          "queryUrl": "https://www.youtube.com/results?search_query=%22LG%20E523MW%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
+          "targetHost": "youtube.com"
         }
       ]
     },
@@ -253,21 +289,39 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-23",
+      "checkedAt": "2026-08-18",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"LG R723MB\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22LG%20R723MB%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"LG R723MB\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22LG%20R723MB%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "PTT",
+          "query": "site:ptt.cc \"LG R723MB\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22LG%20R723MB%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "ptt.cc"
+        },
+        {
           "platform": "Dcard",
           "query": "site:dcard.tw \"LG R723MB\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://search.yahoo.com/search?q=site%3Adcard.tw%20%22LG%20R723MB%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22LG%20R723MB%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "dcard.tw"
         },
         {
-          "platform": "Reddit",
-          "query": "site:reddit.com \"LG R723MB\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22LG%20R723MB%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
-          "targetHost": "reddit.com"
+          "platform": "YouTube",
+          "query": "\"LG R723MB\" problem issue defect failure broken 災情 故障 異常",
+          "queryUrl": "https://www.youtube.com/results?search_query=%22LG%20R723MB%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
+          "targetHost": "youtube.com"
         }
       ]
     },
@@ -345,21 +399,39 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-23",
+      "checkedAt": "2026-08-18",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"LG R723SB\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22LG%20R723SB%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"LG R723SB\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22LG%20R723SB%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "PTT",
+          "query": "site:ptt.cc \"LG R723SB\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22LG%20R723SB%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "ptt.cc"
+        },
+        {
           "platform": "Dcard",
           "query": "site:dcard.tw \"LG R723SB\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://search.yahoo.com/search?q=site%3Adcard.tw%20%22LG%20R723SB%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22LG%20R723SB%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "dcard.tw"
         },
         {
-          "platform": "Reddit",
-          "query": "site:reddit.com \"LG R723SB\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22LG%20R723SB%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
-          "targetHost": "reddit.com"
+          "platform": "YouTube",
+          "query": "\"LG R723SB\" problem issue defect failure broken 災情 故障 異常",
+          "queryUrl": "https://www.youtube.com/results?search_query=%22LG%20R723SB%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
+          "targetHost": "youtube.com"
         }
       ]
     },
@@ -435,21 +507,39 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-23",
+      "checkedAt": "2026-08-18",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"LG R723MG\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22LG%20R723MG%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"LG R723MG\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22LG%20R723MG%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "PTT",
+          "query": "site:ptt.cc \"LG R723MG\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22LG%20R723MG%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "ptt.cc"
+        },
+        {
           "platform": "Dcard",
           "query": "site:dcard.tw \"LG R723MG\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://search.yahoo.com/search?q=site%3Adcard.tw%20%22LG%20R723MG%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22LG%20R723MG%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "dcard.tw"
         },
         {
-          "platform": "Reddit",
-          "query": "site:reddit.com \"LG R723MG\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22LG%20R723MG%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
-          "targetHost": "reddit.com"
+          "platform": "YouTube",
+          "query": "\"LG R723MG\" problem issue defect failure broken 災情 故障 異常",
+          "queryUrl": "https://www.youtube.com/results?search_query=%22LG%20R723MG%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
+          "targetHost": "youtube.com"
         }
       ]
     },
@@ -525,21 +615,39 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-23",
+      "checkedAt": "2026-08-18",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"LG E523MR\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22LG%20E523MR%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"LG E523MR\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22LG%20E523MR%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "PTT",
+          "query": "site:ptt.cc \"LG E523MR\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22LG%20E523MR%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "ptt.cc"
+        },
+        {
           "platform": "Dcard",
           "query": "site:dcard.tw \"LG E523MR\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://search.yahoo.com/search?q=site%3Adcard.tw%20%22LG%20E523MR%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22LG%20E523MR%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "dcard.tw"
         },
         {
-          "platform": "Reddit",
-          "query": "site:reddit.com \"LG E523MR\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22LG%20E523MR%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
-          "targetHost": "reddit.com"
+          "platform": "YouTube",
+          "query": "\"LG E523MR\" problem issue defect failure broken 災情 故障 異常",
+          "queryUrl": "https://www.youtube.com/results?search_query=%22LG%20E523MR%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
+          "targetHost": "youtube.com"
         }
       ]
     },
@@ -615,21 +723,39 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-23",
+      "checkedAt": "2026-08-18",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"LG E523IR\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22LG%20E523IR%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"LG E523IR\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22LG%20E523IR%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "PTT",
+          "query": "site:ptt.cc \"LG E523IR\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22LG%20E523IR%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "ptt.cc"
+        },
+        {
           "platform": "Dcard",
           "query": "site:dcard.tw \"LG E523IR\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://search.yahoo.com/search?q=site%3Adcard.tw%20%22LG%20E523IR%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22LG%20E523IR%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "dcard.tw"
         },
         {
-          "platform": "Reddit",
-          "query": "site:reddit.com \"LG E523IR\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22LG%20E523IR%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
-          "targetHost": "reddit.com"
+          "platform": "YouTube",
+          "query": "\"LG E523IR\" problem issue defect failure broken 災情 故障 異常",
+          "queryUrl": "https://www.youtube.com/results?search_query=%22LG%20E523IR%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
+          "targetHost": "youtube.com"
         }
       ]
     },
@@ -706,21 +832,39 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-23",
+      "checkedAt": "2026-08-18",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"LG SC5GMR80H\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22LG%20SC5GMR80H%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"LG SC5GMR80H\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22LG%20SC5GMR80H%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "PTT",
+          "query": "site:ptt.cc \"LG SC5GMR80H\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22LG%20SC5GMR80H%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "ptt.cc"
+        },
+        {
           "platform": "Dcard",
           "query": "site:dcard.tw \"LG SC5GMR80H\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://search.yahoo.com/search?q=site%3Adcard.tw%20%22LG%20SC5GMR80H%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22LG%20SC5GMR80H%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "dcard.tw"
         },
         {
-          "platform": "Reddit",
-          "query": "site:reddit.com \"LG SC5GMR80H\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22LG%20SC5GMR80H%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
-          "targetHost": "reddit.com"
+          "platform": "YouTube",
+          "query": "\"LG SC5GMR80H\" problem issue defect failure broken 災情 故障 異常",
+          "queryUrl": "https://www.youtube.com/results?search_query=%22LG%20SC5GMR80H%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
+          "targetHost": "youtube.com"
         }
       ]
     },
@@ -798,21 +942,39 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-23",
+      "checkedAt": "2026-08-18",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"LG SC5MAR4G\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22LG%20SC5MAR4G%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"LG SC5MAR4G\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22LG%20SC5MAR4G%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "PTT",
+          "query": "site:ptt.cc \"LG SC5MAR4G\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22LG%20SC5MAR4G%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "ptt.cc"
+        },
+        {
           "platform": "Dcard",
           "query": "site:dcard.tw \"LG SC5MAR4G\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://search.yahoo.com/search?q=site%3Adcard.tw%20%22LG%20SC5MAR4G%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22LG%20SC5MAR4G%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "dcard.tw"
         },
         {
-          "platform": "Reddit",
-          "query": "site:reddit.com \"LG SC5MAR4G\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22LG%20SC5MAR4G%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
-          "targetHost": "reddit.com"
+          "platform": "YouTube",
+          "query": "\"LG SC5MAR4G\" problem issue defect failure broken 災情 故障 異常",
+          "queryUrl": "https://www.youtube.com/results?search_query=%22LG%20SC5MAR4G%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
+          "targetHost": "youtube.com"
         }
       ]
     },
@@ -890,21 +1052,39 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-23",
+      "checkedAt": "2026-08-18",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"LG S3MFBN\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22LG%20S3MFBN%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"LG S3MFBN\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22LG%20S3MFBN%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "PTT",
+          "query": "site:ptt.cc \"LG S3MFBN\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22LG%20S3MFBN%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "ptt.cc"
+        },
+        {
           "platform": "Dcard",
           "query": "site:dcard.tw \"LG S3MFBN\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://search.yahoo.com/search?q=site%3Adcard.tw%20%22LG%20S3MFBN%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22LG%20S3MFBN%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "dcard.tw"
         },
         {
-          "platform": "Reddit",
-          "query": "site:reddit.com \"LG S3MFBN\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22LG%20S3MFBN%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
-          "targetHost": "reddit.com"
+          "platform": "YouTube",
+          "query": "\"LG S3MFBN\" problem issue defect failure broken 災情 故障 異常",
+          "queryUrl": "https://www.youtube.com/results?search_query=%22LG%20S3MFBN%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
+          "targetHost": "youtube.com"
         }
       ]
     },
@@ -982,21 +1162,39 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-23",
+      "checkedAt": "2026-08-18",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"LG S3WFBN\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22LG%20S3WFBN%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"LG S3WFBN\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22LG%20S3WFBN%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "PTT",
+          "query": "site:ptt.cc \"LG S3WFBN\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22LG%20S3WFBN%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "ptt.cc"
+        },
+        {
           "platform": "Dcard",
           "query": "site:dcard.tw \"LG S3WFBN\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://search.yahoo.com/search?q=site%3Adcard.tw%20%22LG%20S3WFBN%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22LG%20S3WFBN%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "dcard.tw"
         },
         {
-          "platform": "Reddit",
-          "query": "site:reddit.com \"LG S3WFBN\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22LG%20S3WFBN%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
-          "targetHost": "reddit.com"
+          "platform": "YouTube",
+          "query": "\"LG S3WFBN\" problem issue defect failure broken 災情 故障 異常",
+          "queryUrl": "https://www.youtube.com/results?search_query=%22LG%20S3WFBN%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
+          "targetHost": "youtube.com"
         }
       ]
     },
@@ -1074,21 +1272,39 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-23",
+      "checkedAt": "2026-08-18",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"LG S3RFBN\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22LG%20S3RFBN%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"LG S3RFBN\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22LG%20S3RFBN%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "PTT",
+          "query": "site:ptt.cc \"LG S3RFBN\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22LG%20S3RFBN%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "ptt.cc"
+        },
+        {
           "platform": "Dcard",
           "query": "site:dcard.tw \"LG S3RFBN\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://search.yahoo.com/search?q=site%3Adcard.tw%20%22LG%20S3RFBN%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22LG%20S3RFBN%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "dcard.tw"
         },
         {
-          "platform": "Reddit",
-          "query": "site:reddit.com \"LG S3RFBN\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22LG%20S3RFBN%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
-          "targetHost": "reddit.com"
+          "platform": "YouTube",
+          "query": "\"LG S3RFBN\" problem issue defect failure broken 災情 故障 異常",
+          "queryUrl": "https://www.youtube.com/results?search_query=%22LG%20S3RFBN%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
+          "targetHost": "youtube.com"
         }
       ]
     },
@@ -1166,21 +1382,39 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-23",
+      "checkedAt": "2026-08-18",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Samsung DF90H24R5C\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Samsung%20DF90H24R5C%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Samsung DF90H24R5C\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Samsung%20DF90H24R5C%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "PTT",
+          "query": "site:ptt.cc \"Samsung DF90H24R5C\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22Samsung%20DF90H24R5C%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "ptt.cc"
+        },
+        {
           "platform": "Dcard",
           "query": "site:dcard.tw \"Samsung DF90H24R5C\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://search.yahoo.com/search?q=site%3Adcard.tw%20%22Samsung%20DF90H24R5C%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22Samsung%20DF90H24R5C%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "dcard.tw"
         },
         {
-          "platform": "Reddit",
-          "query": "site:reddit.com \"Samsung DF90H24R5C\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22Samsung%20DF90H24R5C%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
-          "targetHost": "reddit.com"
+          "platform": "YouTube",
+          "query": "\"Samsung DF90H24R5C\" problem issue defect failure broken 災情 故障 異常",
+          "queryUrl": "https://www.youtube.com/results?search_query=%22Samsung%20DF90H24R5C%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
+          "targetHost": "youtube.com"
         }
       ]
     },
@@ -1258,21 +1492,39 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-23",
+      "checkedAt": "2026-08-18",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Samsung DF90H24R4D\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Samsung%20DF90H24R4D%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Samsung DF90H24R4D\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Samsung%20DF90H24R4D%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "PTT",
+          "query": "site:ptt.cc \"Samsung DF90H24R4D\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22Samsung%20DF90H24R4D%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "ptt.cc"
+        },
+        {
           "platform": "Dcard",
           "query": "site:dcard.tw \"Samsung DF90H24R4D\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://search.yahoo.com/search?q=site%3Adcard.tw%20%22Samsung%20DF90H24R4D%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22Samsung%20DF90H24R4D%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "dcard.tw"
         },
         {
-          "platform": "Reddit",
-          "query": "site:reddit.com \"Samsung DF90H24R4D\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22Samsung%20DF90H24R4D%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
-          "targetHost": "reddit.com"
+          "platform": "YouTube",
+          "query": "\"Samsung DF90H24R4D\" problem issue defect failure broken 災情 故障 異常",
+          "queryUrl": "https://www.youtube.com/results?search_query=%22Samsung%20DF90H24R4D%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
+          "targetHost": "youtube.com"
         }
       ]
     },
@@ -1350,21 +1602,39 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-23",
+      "checkedAt": "2026-08-18",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Samsung DF90H24R4P\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Samsung%20DF90H24R4P%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Samsung DF90H24R4P\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Samsung%20DF90H24R4P%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "PTT",
+          "query": "site:ptt.cc \"Samsung DF90H24R4P\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22Samsung%20DF90H24R4P%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "ptt.cc"
+        },
+        {
           "platform": "Dcard",
           "query": "site:dcard.tw \"Samsung DF90H24R4P\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://search.yahoo.com/search?q=site%3Adcard.tw%20%22Samsung%20DF90H24R4P%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22Samsung%20DF90H24R4P%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "dcard.tw"
         },
         {
-          "platform": "Reddit",
-          "query": "site:reddit.com \"Samsung DF90H24R4P\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22Samsung%20DF90H24R4P%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
-          "targetHost": "reddit.com"
+          "platform": "YouTube",
+          "query": "\"Samsung DF90H24R4P\" problem issue defect failure broken 災情 故障 異常",
+          "queryUrl": "https://www.youtube.com/results?search_query=%22Samsung%20DF90H24R4P%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
+          "targetHost": "youtube.com"
         }
       ]
     },
@@ -1442,21 +1712,39 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-23",
+      "checkedAt": "2026-08-18",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Samsung DF90H24R4B\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Samsung%20DF90H24R4B%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Samsung DF90H24R4B\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Samsung%20DF90H24R4B%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "PTT",
+          "query": "site:ptt.cc \"Samsung DF90H24R4B\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22Samsung%20DF90H24R4B%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "ptt.cc"
+        },
+        {
           "platform": "Dcard",
           "query": "site:dcard.tw \"Samsung DF90H24R4B\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://search.yahoo.com/search?q=site%3Adcard.tw%20%22Samsung%20DF90H24R4B%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22Samsung%20DF90H24R4B%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "dcard.tw"
         },
         {
-          "platform": "Reddit",
-          "query": "site:reddit.com \"Samsung DF90H24R4B\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22Samsung%20DF90H24R4B%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
-          "targetHost": "reddit.com"
+          "platform": "YouTube",
+          "query": "\"Samsung DF90H24R4B\" problem issue defect failure broken 災情 故障 異常",
+          "queryUrl": "https://www.youtube.com/results?search_query=%22Samsung%20DF90H24R4B%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
+          "targetHost": "youtube.com"
         }
       ]
     },
@@ -1534,21 +1822,39 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-23",
+      "checkedAt": "2026-08-18",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Samsung DF80H24R1C\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Samsung%20DF80H24R1C%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Samsung DF80H24R1C\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Samsung%20DF80H24R1C%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "PTT",
+          "query": "site:ptt.cc \"Samsung DF80H24R1C\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22Samsung%20DF80H24R1C%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "ptt.cc"
+        },
+        {
           "platform": "Dcard",
           "query": "site:dcard.tw \"Samsung DF80H24R1C\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://search.yahoo.com/search?q=site%3Adcard.tw%20%22Samsung%20DF80H24R1C%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22Samsung%20DF80H24R1C%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "dcard.tw"
         },
         {
-          "platform": "Reddit",
-          "query": "site:reddit.com \"Samsung DF80H24R1C\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22Samsung%20DF80H24R1C%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
-          "targetHost": "reddit.com"
+          "platform": "YouTube",
+          "query": "\"Samsung DF80H24R1C\" problem issue defect failure broken 災情 故障 異常",
+          "queryUrl": "https://www.youtube.com/results?search_query=%22Samsung%20DF80H24R1C%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
+          "targetHost": "youtube.com"
         }
       ]
     },
@@ -1626,21 +1932,39 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-23",
+      "checkedAt": "2026-08-18",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Samsung DF80H24R1D\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Samsung%20DF80H24R1D%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Samsung DF80H24R1D\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Samsung%20DF80H24R1D%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "PTT",
+          "query": "site:ptt.cc \"Samsung DF80H24R1D\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22Samsung%20DF80H24R1D%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "ptt.cc"
+        },
+        {
           "platform": "Dcard",
           "query": "site:dcard.tw \"Samsung DF80H24R1D\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://search.yahoo.com/search?q=site%3Adcard.tw%20%22Samsung%20DF80H24R1D%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22Samsung%20DF80H24R1D%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "dcard.tw"
         },
         {
-          "platform": "Reddit",
-          "query": "site:reddit.com \"Samsung DF80H24R1D\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22Samsung%20DF80H24R1D%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
-          "targetHost": "reddit.com"
+          "platform": "YouTube",
+          "query": "\"Samsung DF80H24R1D\" problem issue defect failure broken 災情 故障 異常",
+          "queryUrl": "https://www.youtube.com/results?search_query=%22Samsung%20DF80H24R1D%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
+          "targetHost": "youtube.com"
         }
       ]
     },
@@ -1718,21 +2042,39 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-23",
+      "checkedAt": "2026-08-18",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Panasonic HCC-R600AL-X\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Panasonic%20HCC-R600AL-X%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Panasonic HCC-R600AL-X\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Panasonic%20HCC-R600AL-X%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "PTT",
+          "query": "site:ptt.cc \"Panasonic HCC-R600AL-X\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22Panasonic%20HCC-R600AL-X%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "ptt.cc"
+        },
+        {
           "platform": "Dcard",
           "query": "site:dcard.tw \"Panasonic HCC-R600AL-X\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://search.yahoo.com/search?q=site%3Adcard.tw%20%22Panasonic%20HCC-R600AL-X%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22Panasonic%20HCC-R600AL-X%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "dcard.tw"
         },
         {
-          "platform": "Reddit",
-          "query": "site:reddit.com \"Panasonic HCC-R600AL-X\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22Panasonic%20HCC-R600AL-X%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
-          "targetHost": "reddit.com"
+          "platform": "YouTube",
+          "query": "\"Panasonic HCC-R600AL-X\" problem issue defect failure broken 災情 故障 異常",
+          "queryUrl": "https://www.youtube.com/results?search_query=%22Panasonic%20HCC-R600AL-X%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
+          "targetHost": "youtube.com"
         }
       ]
     },
@@ -1811,21 +2153,39 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-07-23",
+      "checkedAt": "2026-08-18",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Panasonic HCC-R600AR-X\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Panasonic%20HCC-R600AR-X%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Panasonic HCC-R600AR-X\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Panasonic%20HCC-R600AR-X%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "PTT",
+          "query": "site:ptt.cc \"Panasonic HCC-R600AR-X\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22Panasonic%20HCC-R600AR-X%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "ptt.cc"
+        },
+        {
           "platform": "Dcard",
           "query": "site:dcard.tw \"Panasonic HCC-R600AR-X\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://search.yahoo.com/search?q=site%3Adcard.tw%20%22Panasonic%20HCC-R600AR-X%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22Panasonic%20HCC-R600AR-X%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "dcard.tw"
         },
         {
-          "platform": "Reddit",
-          "query": "site:reddit.com \"Panasonic HCC-R600AR-X\" (problem OR issue OR defect OR negative review)",
-          "queryUrl": "https://search.yahoo.com/search?q=site%3Areddit.com%20%22Panasonic%20HCC-R600AR-X%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
-          "targetHost": "reddit.com"
+          "platform": "YouTube",
+          "query": "\"Panasonic HCC-R600AR-X\" problem issue defect failure broken 災情 故障 異常",
+          "queryUrl": "https://www.youtube.com/results?search_query=%22Panasonic%20HCC-R600AR-X%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
+          "targetHost": "youtube.com"
         }
       ]
     },

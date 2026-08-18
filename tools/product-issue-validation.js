@@ -42,7 +42,7 @@ function textContainsExactModel(value, product) {
     .split(/[\s_-]+/)
     .map((part) => part.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"))
     .join("[\\s_-]*");
-  const longerVariant = new RegExp(`${pattern}[\\s_-]*(?:pro|max|plus|lite|ultra|v\\d+|x)\\b`, "i");
+  const longerVariant = new RegExp(`${pattern}[\\s_-]*(?:pro|max|plus|lite|ultra|v\\d+|gen[\\s_-]*\\d+|x)\\b`, "i");
   if (longerVariant.test(value)) return false;
   return new RegExp(`(^|[^A-Za-z0-9])${pattern}(?=$|[^A-Za-z0-9])`, "i").test(value);
 }
@@ -54,7 +54,7 @@ function queryTargetsProduct(query, product) {
 function queryUrlMatchesRecord(query) {
   try {
     const url = new URL(query.queryUrl);
-    const encodedQuery = url.searchParams.get("q");
+    const encodedQuery = url.searchParams.get("q") ?? url.searchParams.get("p") ?? url.searchParams.get("search_query");
     return encodedQuery !== null && normalize(encodedQuery) === normalize(query.query);
   } catch (_error) {
     return false;
@@ -67,6 +67,7 @@ function queryTargetsWebsite(query) {
     ["mobile01", "mobile01.com"],
     ["ptt", "ptt.cc"],
     ["reddit", "reddit.com"],
+    ["youtube", "youtube.com"],
   ]);
   const expected = expectedByPlatform.get(normalize(query?.platform));
   if (!expected || canonicalWebsite(query?.targetHost) !== expected) return false;

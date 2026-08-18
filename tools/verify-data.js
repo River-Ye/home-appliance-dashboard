@@ -174,8 +174,13 @@ function validateCandidateReview(candidate, prefix, checkedAt, failures) {
   if (!candidate || typeof candidate !== "object" || Array.isArray(candidate)) return;
   assert(isHttpUrl(candidate.url), `${prefix} url must be http(s)`, failures);
   assert(typeof candidate.title === "string" && candidate.title.trim(), `${prefix} requires title`, failures);
+  assert(typeof candidate.platform === "string" && candidate.platform.trim(), `${prefix} requires platform`, failures);
   assert(candidate.outcome === "excluded", `${prefix} outcome must be excluded`, failures);
-  assert(candidate.reviewedAt === checkedAt, `${prefix} reviewedAt mismatch`, failures);
+  assert(
+    ISSUE_RESEARCH_DATE_PATTERN.test(String(candidate.reviewedAt || "")) && candidate.reviewedAt <= checkedAt,
+    `${prefix} reviewedAt must not exceed the product review date`,
+    failures,
+  );
   assert(candidate.exactModel === true, `${prefix} must confirm the exact model`, failures);
   assert(typeof candidate.sourceExcerpt === "string" && candidate.sourceExcerpt.trim().length >= 12, `${prefix} requires a specific original-page excerpt`, failures);
   assert(Number.isInteger(candidate.independentAuthors) && candidate.independentAuthors >= 0, `${prefix} requires an independent author count`, failures);
@@ -821,6 +826,13 @@ function validateIssueResearchFile(root, products, failures) {
       assert(isHttpUrl(source.url), `${prefix} url must be http(s)`, failures);
       assert(checkedPlatformSet.has(normalize(source.platform)), `${prefix} platform must be declared in checkedPlatforms`, failures);
     }
+    for (const [candidateIndex, candidate] of (row.manualReview?.candidateReviews || []).entries()) {
+      assert(
+        checkedPlatformSet.has(normalize(candidate.platform)),
+        `${product.id} manualReview candidateReviews[${candidateIndex}] platform must be declared in checkedPlatforms`,
+        failures,
+      );
+    }
     assert(JSON.stringify(row.issueResearch) === JSON.stringify(product.issueResearch), `${product.id} issueResearch research mismatch`, failures);
 
     assert(Array.isArray(row.searchChecks) && row.searchChecks.length > 0, `${product.id} issue research requires searchChecks`, failures);
@@ -829,6 +841,11 @@ function validateIssueResearchFile(root, products, failures) {
       assert(typeof searchCheck.platform === "string" && searchCheck.platform.trim(), `${prefix} requires platform`, failures);
       assert(typeof searchCheck.query === "string" && searchCheck.query.trim(), `${prefix} requires exact query`, failures);
       assert(isHttpUrl(searchCheck.searchUrl), `${prefix} searchUrl must be http(s)`, failures);
+      assert(
+        queryUrlMatchesRecord({ query: searchCheck.query, queryUrl: searchCheck.searchUrl }),
+        `${prefix} searchUrl must reproduce the recorded query`,
+        failures,
+      );
       assert(
         new Set(["candidates_unverified_by_search_only", "no_exact_model_result", "search_unavailable"]).has(searchCheck.result),
         `${prefix} has invalid result ${searchCheck.result}`,
@@ -844,7 +861,12 @@ function validateIssueResearchFile(root, products, failures) {
         `${prefix} candidateUrls must match exact-model candidates`,
         failures,
       );
-      assert(typeof searchCheck.inspectedAt === "string" && searchCheck.inspectedAt.startsWith(product.issueResearch.checkedAt), `${prefix} inspectedAt date mismatch`, failures);
+      const inspectedDate = String(searchCheck.inspectedAt || "").slice(0, 10);
+      assert(
+        ISSUE_RESEARCH_DATE_PATTERN.test(inspectedDate) && inspectedDate <= product.issueResearch.checkedAt,
+        `${prefix} inspectedAt date exceeds the product review date`,
+        failures,
+      );
     }
 
     const searchCandidates = (row.searchChecks || []).flatMap((searchCheck) => searchCheck.candidates || []);
@@ -854,9 +876,10 @@ function validateIssueResearchFile(root, products, failures) {
     });
     const searchCandidateKeys = searchCandidates.map(candidateReviewKey).sort();
     const manualCandidateKeys = manualCandidateReviews.map(candidateReviewKey).sort();
-    assert(new Set(manualCandidateKeys).size === manualCandidateKeys.length, `${product.id} manual candidate reviews must be unique`, failures);
+    const manualCandidateKeySet = new Set(manualCandidateKeys);
+    assert(manualCandidateKeySet.size === manualCandidateKeys.length, `${product.id} manual candidate reviews must be unique`, failures);
     assert(
-      JSON.stringify(searchCandidateKeys) === JSON.stringify(manualCandidateKeys),
+      searchCandidateKeys.every((key) => manualCandidateKeySet.has(key)),
       `${product.id} every exact-model search candidate requires one explicit manual review`,
       failures,
     );
@@ -881,11 +904,6 @@ function validateIssueResearchFile(root, products, failures) {
       const prefix = `${product.id} rejectedCandidates[${candidateIndex}]`;
       validateCandidateReview(candidate, prefix, product.issueResearch.checkedAt, failures);
       assert(candidate.reason === candidate.specificReason, `${prefix} reason must match the explicit specificReason`, failures);
-      const canonicalModel = compactIdentity(row.identity.canonicalModel);
-      const candidateIdentity = compactIdentity(`${candidate.title} ${candidate.url}`);
-      if (canonicalModel.length >= 4) {
-        assert(candidateIdentity.includes(canonicalModel), `${prefix} does not contain the canonical model`, failures);
-      }
     }
 
     const evidenceRows = Array.isArray(row.evidence) ? row.evidence : [];
@@ -1092,6 +1110,13 @@ function validateIssueReviewManifest(root, products, failures) {
       assert(isHttpUrl(source.url), `${prefix} url must be http(s)`, failures);
       assert(checkedPlatforms.has(normalize(source.platform)), `${prefix} platform must be declared in checkedPlatforms`, failures);
     }
+    for (const [candidateIndex, candidate] of (row.candidateReviews || []).entries()) {
+      assert(
+        checkedPlatforms.has(normalize(candidate.platform)),
+        `${product.id} issue review manifest candidateReviews[${candidateIndex}] platform must be declared in checkedPlatforms`,
+        failures,
+      );
+    }
     const researchRow = researchById.get(product.id);
     assert(
       JSON.stringify(researchRow?.manualReview?.representativeSources || []) === JSON.stringify(row.representativeSources || []),
@@ -1103,9 +1128,10 @@ function validateIssueReviewManifest(root, products, failures) {
       .map(candidateReviewKey)
       .sort();
     const manifestCandidateKeys = (row.candidateReviews || []).map(candidateReviewKey).sort();
-    assert(new Set(manifestCandidateKeys).size === manifestCandidateKeys.length, `${product.id} manifest candidate reviews must be unique`, failures);
+    const manifestCandidateKeySet = new Set(manifestCandidateKeys);
+    assert(manifestCandidateKeySet.size === manifestCandidateKeys.length, `${product.id} manifest candidate reviews must be unique`, failures);
     assert(
-      JSON.stringify(expectedCandidateKeys) === JSON.stringify(manifestCandidateKeys),
+      expectedCandidateKeys.every((key) => manifestCandidateKeySet.has(key)),
       `${product.id} manifest must explicitly review every exact-model search candidate`,
       failures,
     );

@@ -1,7 +1,7 @@
 const reportLedger = require("../product_issue_report_evidence.json");
 const { canonicalWebsite, normalize } = require("./product-issue-validation");
 
-const CHECKED_AT = "2026-08-16";
+const CHECKED_AT = "2026-08-18";
 const DEFAULT_EVIDENCE_CHECKED_AT = "2026-07-10";
 const REVIEW_DATE_PATTERN = /^\d{4}-\d{2}-\d{2}$/;
 
@@ -1260,6 +1260,106 @@ const verifiedRows = [
         url: "https://www.mobile01.com/topicdetail.php?f=728&t=7248442",
         authors: ["chou Ernest"],
         evidenceSnippet: "同型號使用者回報使用半年後，即使有滾筒烘乾，異味仍持續造成困擾。",
+      },
+    ],
+  },
+  {
+    id: "robot-ecovacs-t90-pro",
+    checkedAt: "2026-08-18",
+    summary: "多位 DEEBOT T90 PRO OMNI 使用者跨站回報，導航／避障會跳過或拒絕清掃實際可到達的區域。",
+    title: "導航／避障跳過可到達區域",
+    detail: "回報包含漏掃房間邊緣、整塊地毯、局部區域與可通過的家具兩側，也有物件移走後仍繞開舊位置的情況；部分可透過調整 AIVI、另建區域或重新建圖改善。建議在退換貨期內以全屋不同地面連續測試，確認地圖與實際覆蓋範圍。",
+    reportCount: 10,
+    sources: [
+      {
+        platform: "Reddit",
+        title: "Ecovacs Deebot T90 Pro Omni skipping a lot of places",
+        url: "https://www.reddit.com/r/ecovacs/comments/1uo11zp/ecovacs_deebot_t90_pro_omni_skipping_a_lot_of/",
+        authors: ["amirdaraee", "Ok-Succotash4622", "HomelandersBulge"],
+        evidenceSnippet: "三位同型號使用者回報機器漏掃邊緣、房間局部或整塊地毯，需調整避障設定或另做區域清掃。",
+      },
+      {
+        platform: "Reddit",
+        title: "Qrevo Master vs T90 Pro Omni",
+        url: "https://www.reddit.com/r/RobotVacuums/comments/1udvtrz/qrevo_master_vs_t90_pro_omni/",
+        authors: ["-Maim-"],
+        evidenceSnippet: "同型號使用者回報清掃路徑不合理、會跳過區域，返回基站時也會走異常路徑。",
+      },
+      {
+        platform: "Reddit",
+        title: "First time owner - any tips/tricks/info I should know",
+        url: "https://www.reddit.com/r/RobotVacuums/comments/1us8voq/first_time_owner_any_tipstricksinfo_i_should_know/",
+        authors: ["NovercaIis"],
+        evidenceSnippet: "同型號使用者完成建圖與三次清掃後，機器仍拒絕進入實際足以通過的家具兩側。",
+      },
+      {
+        platform: "Reddit",
+        title: "Deebot t90 pro omni - what is this madness?",
+        url: "https://www.reddit.com/r/ecovacs/comments/1uio4qj/deebot_t90_pro_omni_what_is_this_madness/",
+        authors: ["scarzxxx", "Sainted_CumFarter"],
+        evidenceSnippet: "兩位同型號使用者分別回報無障礙開放空間仍隨機繞圈並漏掃，以及機器拒絕駛上實際可清掃的黑色地毯。",
+      },
+      {
+        platform: "Reddit",
+        title: "Please be mindful if buying a T90 Pro Omni",
+        url: "https://www.reddit.com/r/ecovacs/comments/1ureiz8/please_be_mindful_if_buying_a_t90_pro_omni/",
+        authors: ["Cobrachicken_iya", "BigBadJon8976"],
+        evidenceSnippet: "兩位同型號使用者分別回報物件移走後仍繞開舊位置，以及機器無法判斷繞行時會直接跳過可清掃區域。",
+      },
+      {
+        platform: "YouTube",
+        title: "3 Months with a Robot Vacuum! ECOVACS T90 PRO OMNI Review",
+        url: "https://www.youtube.com/watch?v=sprhcYrQYfI",
+        authors: ["@tx_soul88"],
+        evidenceSnippet: "同型號使用者追蹤回覆表示使用數週後仍有漏掃位置，可能需調整地圖或重新建圖。",
+      },
+    ],
+  },
+  {
+    id: "monitor-msi-271qrx",
+    checkedAt: "2026-08-18",
+    summary: "多位 MPG 271QRX 使用者跨站回報，使用中會隨機短暫黑屏，約一至數秒後自行恢復。",
+    title: "隨機短暫黑屏後自行恢復",
+    detail: "回報涵蓋不同更新率、DisplayPort 與 HDMI 情境，部分換線、更新韌體或調整系統設定後仍發生；現有證據不足以判定單一根因。建議在退換貨期內以實際顯卡、線材、HDR 與更新率長時間測試。",
+    reportCount: 9,
+    sources: [
+      {
+        platform: "Reddit",
+        title: "MSI MPG 271QRX random black screens when at 240hz",
+        url: "https://www.reddit.com/r/MSI_Gaming/comments/1b6fmgi/msi_mpg_271qrx_random_black_screens_when_at_240hz/",
+        authors: ["No-Berry-2226", "jay_em_j", "Medical_Ad_2399", "Drknight71", "infotorn"],
+        evidenceSnippet: "五位同型號使用者回報畫面隨機黑一至數秒後恢復，部分換線、更新韌體或調整系統後仍發生。",
+      },
+      {
+        platform: "MSI Forum",
+        title: "MSI MPG 271QRX display keeps going black for a sec and then turns back on",
+        url: "https://forum-en.msi.com/index.php?threads/msi-mpg-271qrx-display-keeps-going-black-for-a-sec-and-then-turns-back-on.397545/",
+        authors: ["Moheban79", "dabbidha153f02d8", "mondialr8159302ea", "ethanielUK"],
+        evidenceSnippet: "四位同型號使用者在 MSI 官方論壇回報相同的短暫黑屏後自行恢復症狀。",
+      },
+    ],
+  },
+  {
+    id: "wifi-unifi-u6-pro",
+    checkedAt: "2026-08-18",
+    summary: "多位 U6 Pro 使用者跨站回報，特定批次在屏蔽網路線或接地金屬安裝下會漏電、產生火花或斷電重啟。",
+    title: "特定批次接地／STP 造成漏電、火花或斷電重啟",
+    detail: "Ubiquiti 官方公告 2022 年 6 至 8 月製造的特定批次與 STP 網路線不相容，可能持續重啟或無法上電；使用者原頁另記錄外殼／網路線屏蔽帶電、安裝時火花及 PoE 中斷。官方稱後續製造已修正；買二手或舊庫存時仍應核對製造日期，並依現場接地與布線條件測試。",
+    reportCount: 7,
+    sources: [
+      {
+        platform: "Ubiquiti Community",
+        title: "U6 Pro Sparks and Shuts Down When Mounted to Grounded Mountpoint",
+        url: "https://community.ui.com/questions/U6-Pro-Sparks-and-Shuts-Down-When-Mounted-to-Grounded-Mountpoint/11277a7f-ff18-4a60-aecf-e2bda4fc485f",
+        authors: ["hano009", "csdsupport", "cg-itc", "MindStudio", "dread99", "decast"],
+        evidenceSnippet: "六位 U6 Pro 使用者回報接地金屬或屏蔽線情境下出現火花、帶電、斷電或重啟，涵蓋多台同批次設備。",
+      },
+      {
+        platform: "Reddit",
+        title: "Multiple Shielded Cable on USW-Lite-8-PoE Cause Issue.",
+        url: "https://www.reddit.com/r/Ubiquiti/comments/x39m35/multiple_shielded_cable_on_uswlite8poe_cause_issue/",
+        authors: ["tianrenz"],
+        evidenceSnippet: "一位獨立 U6 Pro 使用者回報兩條屏蔽線同時接入時 PoE 異常且設備重啟，改用非屏蔽線後恢復。",
       },
     ],
   },

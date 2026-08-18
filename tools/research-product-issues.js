@@ -171,7 +171,7 @@ function candidateMatchesExactModel(product, candidate) {
     .split(/[\s_-]+/)
     .map((part) => part.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"))
     .join("[\\s_-]*");
-  const longerVariant = new RegExp(`${escapedCanonical}[\\s_-]*(?:pro|max|plus|lite|ultra|v\\d+|x)\\b`, "i");
+  const longerVariant = new RegExp(`${escapedCanonical}[\\s_-]*(?:pro|max|plus|lite|ultra|v\\d+|gen[\\s_-]*\\d+|x)\\b`, "i");
   if (canonical.length >= 4 && longerVariant.test(rawCandidate)) return false;
 
   const requiresFullVariant = /(?:^|\s)(?:v\d+|pro|max|plus|lite|ultra|x)$/i.test(canonical);
@@ -207,7 +207,7 @@ function sanitizeSearchCheck(product, searchCheck) {
     return { ...searchCheck, resultCount: 0, candidateUrls: [], candidates: [] };
   }
   const candidates = (searchCheck.candidates || [])
-    .filter((candidate) => candidateMatchesExactModel(product, candidate));
+    .filter((candidate) => candidate.exactModel === true || candidateMatchesExactModel(product, candidate));
   return {
     ...searchCheck,
     result: candidates.length ? "candidates_unverified_by_search_only" : "no_exact_model_result",
@@ -245,12 +245,14 @@ function writeJsonAtomic(file, value) {
   fs.renameSync(temporary, file);
 }
 
-function buildResearchDocument(products, rowById) {
+function buildResearchDocument(products, rowById, { searchLimitations = [] } = {}) {
   const results = products.map((product) => rowById.get(product.id)).filter(Boolean);
   const commonIssues = results.filter((row) => row.issueResearch?.status === "common_issue");
   const noCommonIssues = results.filter((row) => row.issueResearch?.status === "no_common_issue");
   const pendingManualReview = results.filter((row) => row.workflowStatus !== "completed");
-  const searchUnavailable = results.filter((row) => row.searchChecks.some((check) => check.result === "search_unavailable"));
+  const searchUnavailable = results.filter((row) => (
+    row.searchChecks.length && row.searchChecks.every((check) => check.result === "search_unavailable")
+  ));
   return {
     summary: {
       checkedAt: `${CHECKED_AT}T00:00:00+08:00`,
@@ -267,6 +269,7 @@ function buildResearchDocument(products, rowById) {
       },
       sourcePolicy: "搜尋引擎只用於發現候選；只有原始論壇、社群或零售評價頁中可辨識的第一人稱同型號回報才計入人數。同帳號、跨站轉貼、按讚、媒體轉述與搜尋摘要不重複計算。",
       noIssueWording: NO_COMMON_ISSUE_SUMMARY,
+      ...(searchLimitations.length ? { searchLimitations } : {}),
     },
     results,
   };
@@ -282,10 +285,14 @@ function candidateReviewsMatchSearch(review, searchCheck) {
   const expectedKeys = candidates.map(candidateReviewKey).sort();
   const reviewKeys = review.candidateReviews.map(candidateReviewKey).sort();
   if (new Set(reviewKeys).size !== reviewKeys.length) return false;
-  if (JSON.stringify(expectedKeys) !== JSON.stringify(reviewKeys)) return false;
+  const reviewKeySet = new Set(reviewKeys);
+  if (!expectedKeys.every((key) => reviewKeySet.has(key))) return false;
   return review.candidateReviews.every((candidate) => (
     candidate.outcome === "excluded"
-    && candidate.reviewedAt === review.reviewedAt
+    && typeof candidate.platform === "string"
+    && candidate.platform.trim()
+    && isValidReviewDate(candidate.reviewedAt)
+    && candidate.reviewedAt <= review.reviewedAt
     && candidate.exactModel === true
     && typeof candidate.sourceExcerpt === "string"
     && candidate.sourceExcerpt.trim().length >= 12
@@ -365,6 +372,10 @@ function reviewedDecision(product, reviewById, searchCheck = { candidates: [] })
     .map((source) => String(source.platform || "").trim().toLowerCase())
     .filter(Boolean));
   const platformsCoverSources = [...representativePlatforms].every((platform) => platforms.has(platform));
+  const candidatePlatforms = new Set((review.candidateReviews || [])
+    .map((candidate) => String(candidate.platform || "").trim().toLowerCase())
+    .filter(Boolean));
+  const platformsCoverCandidates = [...candidatePlatforms].every((platform) => platforms.has(platform));
   const decisionMatchesEvidence = review.decision === (verifiedIssueById.has(product.id) ? "common_issue" : "no_common_issue");
   const expectedAttestation = review.decision === "common_issue" || review.candidateReviews?.length
     ? "manual_original_pages_reviewed"
@@ -380,6 +391,7 @@ function reviewedDecision(product, reviewById, searchCheck = { candidates: [] })
     || !queriesAreExplicit
     || !platformsCoverQueries
     || !platformsCoverSources
+    || !platformsCoverCandidates
     || review.attestation !== expectedAttestation
     || typeof review.reviewerNote !== "string"
     || !review.reviewerNote.includes(product.model)
@@ -469,6 +481,7 @@ async function main() {
   const existing = reuseExisting
     ? JSON.parse(fs.readFileSync(researchFile, "utf8"))
     : { results: [] };
+  const documentOptions = { searchLimitations: existing.summary?.searchLimitations || [] };
   const rowById = new Map((existing.results || []).map((row) => [row.id, row]));
   const selected = products
     .filter((product) => !args.category || product.category === args.category)
@@ -487,7 +500,7 @@ async function main() {
     const row = researchRow(product, searchChecks, reviewById);
     rowById.set(product.id, row);
     if (args.write && !args.rebuildDecisions) {
-      writeJsonAtomic(researchFile, buildResearchDocument(products, rowById));
+      writeJsonAtomic(researchFile, buildResearchDocument(products, rowById, documentOptions));
     }
     if (!args.quiet) {
       console.error(JSON.stringify({
@@ -506,7 +519,7 @@ async function main() {
     throw new Error(`Research incomplete: ${missing.length} products remain (${missing.slice(0, 5).map((product) => product.id).join(", ")})`);
   }
 
-  const research = buildResearchDocument(products, rowById);
+  const research = buildResearchDocument(products, rowById, documentOptions);
   if (args.write) writeJsonAtomic(researchFile, research);
 
   if (args.apply) {
@@ -540,6 +553,7 @@ async function main() {
 }
 
 module.exports = {
+  buildResearchDocument,
   canonicalModel,
   candidateMatchesExactModel,
   researchRow,

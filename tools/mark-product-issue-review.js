@@ -46,8 +46,16 @@ function validateCandidateReview(candidate, productId, reviewedAt) {
   if (!isHttpUrl(candidate.url) || typeof candidate.title !== "string" || !candidate.title.trim()) {
     throw new Error(`Candidate review requires URL and title: ${productId}`);
   }
-  if (candidate.outcome !== "excluded" || candidate.exactModel !== true || candidate.reviewedAt !== reviewedAt) {
-    throw new Error(`Candidate review requires explicit exclusion, exact model, and review date: ${productId}`);
+  if (typeof candidate.platform !== "string" || !candidate.platform.trim()) {
+    throw new Error(`Candidate review requires a platform: ${productId}`);
+  }
+  if (
+    candidate.outcome !== "excluded"
+    || candidate.exactModel !== true
+    || !isValidReviewDate(candidate.reviewedAt)
+    || candidate.reviewedAt > reviewedAt
+  ) {
+    throw new Error(`Candidate review requires explicit exclusion, exact model, and a review date no later than the product review: ${productId}`);
   }
   if (typeof candidate.sourceExcerpt !== "string" || candidate.sourceExcerpt.trim().length < 12) {
     throw new Error(`Candidate review requires an original-page excerpt: ${productId}`);
@@ -122,6 +130,11 @@ function validateExplicitReview(review, product) {
     }
     if (!platforms.has(String(source.platform).trim().toLowerCase())) {
       throw new Error(`Representative source platform was not declared as checked: ${review.id}`);
+    }
+  }
+  for (const candidate of review.candidateReviews) {
+    if (!platforms.has(String(candidate.platform).trim().toLowerCase())) {
+      throw new Error(`Candidate platform was not declared as checked: ${review.id}`);
     }
   }
 
