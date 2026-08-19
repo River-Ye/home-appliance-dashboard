@@ -129,7 +129,7 @@
       "converted": 14900,
       "confidence": "台灣飛利浦家電官方網站 2026-08-04 exact-model 公開新品價；台灣公司貨／原廠通路"
     },
-    "image": "https://cdn-general.cybassets.com/media/W1siZiIsIjE4NDIyL3Byb2R1Y3RzLzQ3OTU0MzY0LzE3ODQ1MzY4MTRfZWE2Mjk4ZGM3MzAwYmI3MjhlYmMuanBlZyJdLFsicCIsInRodW1iIiwiMjQweDI0MCJdXQ.jpeg?sha=b9508f33295648d9",
+    "image": "https://images.philips.com/is/image/philipsconsumer/vrs_ac10e200_8033_4a0d_a1b1306abcbc18f8?$pnglarge$",
     "buyUrl": "https://www.philips-da.com.tw/products/ep3326",
     "buyLabel": "台灣飛利浦家電官方網站",
     "specs": [
@@ -236,7 +236,7 @@
       "converted": 26900,
       "confidence": "De'Longhi Taiwan 官方網站 2026-08-04 exact-model 公開新品價；台灣公司貨／原廠通路"
     },
-    "image": "https://cdn-general.cybassets.com/media/W1siZiIsIjIwMTI5L3Byb2R1Y3RzLzUyNTQzNjI0LzE3ODY0MzY3NjVfOGM0MmZmYTY1ZGI5ZDNkMmI1MDQuanBlZyJdLFsicCIsInRodW1iIiwiMjQweDI0MCJdXQ.jpeg?sha=7d566d5833ed09aa",
+    "image": "https://i3.momoshop.com.tw/1787104171/goodsimg/0013/120/356/13120356_R4_m.webp",
     "buyUrl": "https://www.idelonghi.com.tw/id/products/ecam22022",
     "buyLabel": "De'Longhi Taiwan 官方網站",
     "specs": [
@@ -664,7 +664,7 @@
       "converted": 25900,
       "confidence": "De'Longhi Taiwan 官方網站 2026-08-04 exact-model 公開新品價；台灣公司貨／原廠通路"
     },
-    "image": "https://cdn-general.cybassets.com/media/W1siZiIsIjIwMTI5L3Byb2R1Y3RzLzQzMzY4ODY5LzE3MzQ2NzU4MjVfZGYwOGRmMjA3MDU2NGZhZWQ3MGIuanBlZyJdLFsicCIsInRodW1iIiwiMjQweDI0MCJdXQ.jpeg?sha=ef46d793ef543011",
+    "image": "https://cs-a.ecimg.tw/items/DMAT03A900GX8R8/000007_1700470715.jpg",
     "buyUrl": "https://www.idelonghi.com.tw/ja/products/ecam29043",
     "buyLabel": "De'Longhi Taiwan 官方網站",
     "specs": [
@@ -1521,7 +1521,7 @@
       "converted": 6490,
       "confidence": "De'Longhi 台灣品牌官方網站 2026-08-04 exact-model 公開新品價；台灣公司貨／原廠通路"
     },
-    "image": "https://cdn-general.cybassets.com/media/W1siZiIsIjIwMTI5L3Byb2R1Y3RzLzU3MzA3MTkzLzE3NTE4Njk0NzJfYzNhZjU5ZDY2ZWUwMmNmNTMwMDkuanBlZyJdLFsicCIsInRodW1iIiwiMjQweDI0MCJdXQ.jpeg?sha=d3321e3722bdeff2",
+    "image": "https://cs-a.ecimg.tw/items/DMAT03A900J5HMT/000007_1755771859.jpg",
     "buyUrl": "https://www.stilusa.com.tw/zh-TW/products/em450m",
     "buyLabel": "De'Longhi 台灣品牌官方網站",
     "specs": [
@@ -1628,7 +1628,7 @@
       "converted": 9999,
       "confidence": "momo購物網 2026-08-04 exact-model 公開新品價；台灣公司貨／原廠通路"
     },
-    "image": "https://cdn-general.cybassets.com/media/W1siZiIsIjE4NDIyL3Byb2R1Y3RzLzQ2NjkxOTgyLzE3ODQ1Mzc4NTdfNDkzZDM5OTEzZWMyMjIxNzg5MDkuanBlZyJdLFsicCIsInRodW1iIiwiMjQweDI0MCJdXQ.jpeg?sha=995b6ee0a82de2c9",
+    "image": "https://images.philips.com/is/image/philipsconsumer/vrs_8fcb89a37f563817f34e4329e9054edf32f33cc3?wid=700&hei=700&$pnglarge$",
     "buyUrl": "https://www.momoshop.com.tw/product/12830517",
     "buyLabel": "momo購物網",
     "specs": [
@@ -1842,7 +1842,7 @@
       "converted": 18900,
       "confidence": "PChome 24h購物 2026-08-04 exact-model 公開新品價；台灣公司貨／原廠通路"
     },
-    "image": "https://cdn-general.cybassets.com/media/W1siZiIsIjE4NDIyL3Byb2R1Y3RzLzQ1MTIzMTk1LzE3ODQ1Mzc4MjVfZTRlNGMxOGYzN2YzZGFiZjQwMzEuanBlZyJdLFsicCIsInRodW1iIiwiMjQweDI0MCJdXQ.jpeg?sha=6b35ec1eb4e0079b",
+    "image": "https://cs-a.ecimg.tw/items/DMAC4WA900H8QLE/000001_1786352320.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAC4W-A900H8QLE",
     "buyLabel": "PChome 24h購物",
     "specs": [
@@ -2164,7 +2164,7 @@
       "converted": 27900,
       "confidence": "De'Longhi 台灣總代理官方商城 2026-08-05 exact-model 結構化公開新品價與 InStock 狀態；PChome exact-model API 同價且 Qty 9"
     },
-    "image": "https://cdn-general.cybassets.com/media/W1siZiIsIjIwMTI5L3Byb2R1Y3RzLzY2NTU3MDg1LzE3NzM0MTM4NDNfZjVlZWUxZTIwYjUzYTExM2ZmZDEuanBlZyJdLFsicCIsInRodW1iIiwiNjAweDYwMCJdXQ.jpeg?sha=3f6d953c1b860ddc",
+    "image": "https://cs-a.ecimg.tw/items/DMAT03A900K4F0K/000007_1781601666.jpg",
     "buyUrl": "https://www.stilusa.com.tw/zh-TW/products/ec9255m",
     "buyLabel": "De'Longhi 台灣總代理官方商城",
     "specs": [
