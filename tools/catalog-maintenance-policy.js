@@ -13,6 +13,7 @@ const EXCLUDED_LISTING_PATTERNS = [
 
 const EXPLICIT_UNAVAILABLE_LISTING_PATTERNS = [
   /已停售/u,
+  /已售完/u,
   /\bnot available for sale\b/iu,
   /\bout of stock,?\s*coming soon\b/iu,
 ];

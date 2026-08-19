@@ -640,6 +640,7 @@ async function main() {
   );
   assert(
     isExplicitlyUnavailable(visiblePageText("<main><h1>AT-042AI</h1><p>已停售</p></main>"))
+      && isExplicitlyUnavailable(visiblePageText("<main><button>已售完，貨到通知我</button></main>"))
       && !isExplicitlyUnavailable(visiblePageText("<main><p>目前可加入購物車</p></main>")),
     "an explicit visible sold status must not be treated as available",
   );

@@ -1088,9 +1088,9 @@
     "name": "JURA ENA 4 Full Metropolitan Black (EA) 全自動咖啡機",
     "price": {
       "currency": "TWD",
-      "amount": 35010,
-      "converted": 35010,
-      "confidence": "PChome 2026-08-11 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 34232,
+      "converted": 34232,
+      "confidence": "PChome 2026-08-19 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://img.pchome.com.tw/cs/items/DMAT00A900BQG97/000001_1777222745.png",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAT00-A900BQG97",
@@ -1125,15 +1125,15 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 35010,
+      "amount": 34232,
       "currency": "TWD",
-      "converted": 35010,
+      "converted": 34232,
       "sourceUrl": "https://24h.pchome.com.tw/prod/DMAT00-A900BQG97",
       "sourceTitle": "PChome 24h 購物：Jura ENA 4 家用全自動咖啡機",
-      "evidenceSnippet": "PChome 24h 購物於 2026-08-11 顯示同型號可信新品公開價 NT$35,010，低於既有史低 NT$35,788。",
+      "evidenceSnippet": "PChome 24h 購物於 2026-08-19 顯示同型號可信新品公開價 NT$34,232，低於既有史低 NT$35,010。",
       "sourceKind": "retailer_page",
       "confidence": "medium",
-      "checkedAt": "2026-08-11",
+      "checkedAt": "2026-08-19",
       "note": "採用 PChome 24h 購物當日可購商品的同型號新品公開價；不含會員券、點數、信用卡回饋、二手、福利、展示、拆封或整新品。"
     },
     "issueResearch": {
@@ -1410,8 +1410,8 @@
     "name": "Saeco 半自動義式咖啡機",
     "price": {
       "currency": "TWD",
-      "amount": 4741,
-      "converted": 4741,
+      "amount": 4591,
+      "converted": 4591,
       "confidence": "Yahoo購物中心 2026-08-19 exact-model 公開結構化價格"
     },
     "image": "https://img.yec.tw/zp/MerchandiseImages/69fb8a2ae4-Gd-11322933.jpg",

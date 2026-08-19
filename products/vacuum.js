@@ -113,8 +113,8 @@
     "name": "自動集塵無線吸塵器",
     "price": {
       "currency": "TWD",
-      "amount": 17900,
-      "converted": 17900,
+      "amount": 16900,
+      "converted": 16900,
       "confidence": "PChome 2026-08-19 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAX8KA900HLX9W/000001_1744871467.jpg",
