@@ -1723,11 +1723,11 @@
       "currency": "TWD",
       "amount": 1185,
       "converted": 1185,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "confidence": "Momo 2026-08-19 exact-model 公開現貨價"
     },
-    "image": "https://cs-a.ecimg.tw/items/DEAGYEA900BCET2/000001_1656480680.jpg",
-    "buyUrl": "https://24h.pchome.com.tw/prod/DEAGYE-A900BCET2",
-    "buyLabel": "PChome",
+    "image": "https://i1.momoshop.com.tw/1726895174/goodsimg/0007/379/268/7379268_R_m.webp",
+    "buyUrl": "https://www.momoshop.com.tw/product/7379268",
+    "buyLabel": "Momo",
     "specs": [
       "19cm",
       "切肉刀",

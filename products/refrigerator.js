@@ -630,16 +630,16 @@
     "brand": "HITACHI",
     "model": "HRBN5366DF",
     "name": "HITACHI HRBN5366DF",
-    "image": "https://img.yec.tw/zp/MerchandiseImages/5FE01FB87C-SP-22130807.jpg",
+    "image": "https://cs-a.ecimg.tw/items/DPAC95A900HE4RJ/000001_1785552869.png",
     "price": {
       "currency": "TWD",
       "amount": 23100,
       "converted": 23100,
-      "confidence": "Yahoo購物中心 2026-07-11 頁面查核價"
+      "confidence": "PChome 2026-08-19 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "channel": "tw",
-    "buyLabel": "Yahoo購物中心",
-    "buyUrl": "https://tw.buy.yahoo.com/gdsale/HITACHI%E6%97%A5%E7%AB%8B313%E5%85%AC%E5%8D%87%E8%AE%8A%E9%A0%BB%E5%85%A9%E9%96%80%E5%86%B0%E7%AE%B1HRBN5366DF-GPWTW%E7%90%89%E7%92%83%E7%99%BD-11996787.html",
+    "buyLabel": "PChome",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DPAC95-A900HE4RJ",
     "specs": [
       "冰箱：HITACHI日立313公升變頻兩門冰箱HRBN5366DF_GPWTW琉璃白",
       "容量：313L",
@@ -647,7 +647,7 @@
       "門型：雙門",
       "變頻：有標示",
       "節能：一級能效有標示",
-      "Yahoo購物 可信通路低價；排除福利品、展示機與配件頁"
+      "PChome 可信通路低價；排除福利品、展示機與配件頁"
     ],
     "description": "聚焦台灣可信通路新品，依容量、門型、變頻節能、品牌售後與大型家電安裝便利性排序。",
     "pros": [

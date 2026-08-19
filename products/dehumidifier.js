@@ -17,8 +17,8 @@
     "name": "16 公升高效型變頻除濕機",
     "price": {
       "currency": "TWD",
-      "amount": 14027,
-      "converted": 14027,
+      "amount": 15210,
+      "converted": 15210,
       "confidence": "PChome 2026-08-19 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ3PA900J0L88/000001_1776323540.jpg",
@@ -1649,8 +1649,8 @@
     "name": "6L 除濕機",
     "price": {
       "currency": "TWD",
-      "amount": 4805,
-      "converted": 4805,
+      "amount": 5211,
+      "converted": 5211,
       "confidence": "PChome 2026-08-19 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ3PA900J9FH9/000001_1776325410.jpg",

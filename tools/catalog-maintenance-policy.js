@@ -62,6 +62,7 @@ const REVIEWED_PCHOME_BINDINGS = new Map([
   ["monitor-dell-aw3225qf", "DSABOK-A900HB1B5"],
   ["monitor-lg-45gx90sa", "DSBC1Z-A900J732D"],
   ["monitor-samsung-s32hg806es", "DSABSK-A900K0G32"],
+  ["refrigerator-hitachi-hrbn5366df", "DPAC95-A900HE4RJ"],
   ["refrigerator-hitachi-rv469", "DPACGV-A900BFMHM"],
   ["robot-ecovacs-t50-pro", "DMBL0L-A900IDIPA"],
   ["robot-ecovacs-t80-omni", "DMBL0L-A900IT3IU"],
