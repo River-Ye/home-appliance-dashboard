@@ -450,7 +450,7 @@
       "converted": 26400,
       "confidence": "全國電子｜台灣公司貨新品 2026-08-04 exact-model 公開新品價；台灣公司貨／原廠通路"
     },
-    "image": "https://cdn-general.cybassets.com/media/W1siZiIsIjE4NDIyL3Byb2R1Y3RzLzQ3OTU0Mzg2LzE3ODQ1Mzc3MjRfZDhjNjlkYTZiMjk5ODQ3NTAzNWMuanBlZyJdLFsicCIsInRodW1iIiwiMjQweDI0MCJdXQ.jpeg?sha=0b1bd6dd6446938e",
+    "image": "https://images.philips.com/is/image/philipsconsumer/vrs_635dc934_7995_4bd3_9be963f05e9b68b4?$pnglarge$",
     "buyUrl": "https://www.elifemall.com.tw/product/2149579",
     "buyLabel": "全國電子｜台灣公司貨新品",
     "specs": [
