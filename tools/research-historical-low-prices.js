@@ -2,20 +2,32 @@ const fs = require("fs");
 const path = require("path");
 const { readDashboardProducts } = require("./read-dashboard-products");
 
-const CHECKED_AT = "2026-07-11";
+const ARGS = parseArgs();
+const REQUESTED_DATE = ARGS.date || process.env.HISTORICAL_LOW_DATE;
+const CHECKED_AT = REQUESTED_DATE
+  || new Intl.DateTimeFormat("en-CA", { timeZone: "Asia/Taipei" }).format(new Date());
 const CONCURRENCY = Number(process.env.HISTORICAL_LOW_CONCURRENCY || 6);
 const QUERY_LIMIT = Number(process.env.HISTORICAL_LOW_QUERY_LIMIT || 2);
 const HISTORY_LIMIT_PER_SOURCE = Number(process.env.HISTORICAL_LOW_HISTORY_LIMIT || 3);
 const FETCH_TIMEOUT_MS = Number(process.env.HISTORICAL_LOW_FETCH_TIMEOUT_MS || 12000);
 const BIGGO_SEARCH_ORIGIN = "https://biggo.com.tw";
 const BIGGO_API_ORIGIN = "https://biggo.com.tw/api/v1/spa";
-const USD_TWD = 32.084957;
+
+if (!/^\d{4}-\d{2}-\d{2}$/.test(CHECKED_AT)) {
+  throw new Error("Historical-low date must use YYYY-MM-DD");
+}
+if ((ARGS.write || ARGS.auditNotFound) && !REQUESTED_DATE) {
+  throw new Error("--write and --audit-not-found require --date=YYYY-MM-DD or HISTORICAL_LOW_DATE");
+}
+if (ARGS.write && ARGS.auditNotFound) {
+  throw new Error("--audit-not-found is read-only and cannot be combined with --write");
+}
 
 const trustedStoreNamePattern = /PChome|PCHome|momo|Momo|Yahoo購物中心|東森|fri?day|myfone|神腦|小米|Xiaomi|環球|Costco|好市多|燦坤|全國電子|家樂福|特力|7-ELEVEN|i預購|信源|小蔡電器|LG官方|Samsung|Sony|BenQ|Dyson|Philips|Panasonic|TOTO|Yale|ASUS|Acer|Dell|Apple/i;
 const trustedNindexPattern = /^(tw_(pec|ec)_|tw_mall_shopeemall$)/;
 const auctionStorePattern = /拍賣|露天|蝦皮購物|iOPEN Mall|旋轉拍賣/i;
 const officialShopPattern = /官方|旗艦|原廠|品牌館|品牌旗艦|官方旗艦|公司貨/i;
-const excludedTitlePattern = /二手|中古|B品|福利品|展品|展示品|展示機|拆封|整新|箱損|瑕疵|零件|配件|耗材|濾心|保護貼|保護鏡|外殼|外套|收納|維修|租賃|空機|聊聊|詢價|議價|來電|訂金|預購訂金|贈品|清倉出清|分期|月繳|每期|月付|專案價|申辦|續約|搭門號/i;
+const excludedTitlePattern = /二手|中古|B品|福利品|展品|展示品|展示機|拆封|整新|箱損|瑕疵|零件|配件|耗材|濾[芯心]組|專用[^)]{0,30}濾[芯心]|RO濾[芯心]|濾菌龍頭|沐浴過濾器|保護貼|保護鏡|外殼|外套|收納|維修|租賃|空機|聊聊|私訊|詢價|議價|來電|領券|券後|訂金|預購訂金|贈品|清倉出清|分期|月繳|每期|月付|專案價|申辦|續約|搭門號/i;
 const weakModelPattern = /^(桌上型洗碗機|空氣清淨機|循環扇|電風扇|免治馬桶|電子鎖|破壁調理機|全營養調理機)$/i;
 
 const agentVerifiedHistoricalLows = new Map([
@@ -211,8 +223,9 @@ function stripTags(value) {
 }
 
 function priceNumber(value) {
-  const text = String(value || "").replace(/[^\d.]/g, "");
-  const number = Number(text);
+  const prices = String(value || "").match(/\d[\d,]*(?:\.\d+)?/g) || [];
+  if (prices.length !== 1) return null;
+  const number = Number(prices[0].replace(/,/g, ""));
   return Number.isFinite(number) ? number : null;
 }
 
@@ -247,6 +260,55 @@ function modelTokens(product) {
   if (pchomeCode) tokens.push(compactCode(pchomeCode));
 
   return unique(tokens).slice(0, 10);
+}
+
+function candidateMatchesExactModel(product, title) {
+  const model = String(product.model || "").trim();
+  const candidate = compactCode(title);
+  const fullModel = compactCode(model);
+  if (/適用(?:於)?/i.test(title) && /濾[芯心]|配件|耗材/i.test(title)) return false;
+  const normalizedModel = normalize(model);
+  if (/^[a-z][a-z0-9]*$/i.test(normalizedModel)) {
+    const escapedModel = normalizedModel.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+    const suffixedVariant = new RegExp(`(?:^|\\s)${escapedModel}\\s+(?:x|pro|max|plus|lite|ultra|v\\d+)(?=\\s|\\p{Letter})`, "iu");
+    if (suffixedVariant.test(normalize(title))) return false;
+  }
+
+  const targetPackCounts = [...`${model} ${product.name || ""} ${(product.specs || []).join(" ")}`.matchAll(/(\d+)\s*(?:入|件)(?:組)?/g)]
+    .map((match) => match[1]);
+  const candidatePackCounts = [...String(title || "").matchAll(/(\d+)\s*(?:入|件)(?:組)?/g)]
+    .map((match) => match[1]);
+  if (candidatePackCounts.some((count) => !targetPackCounts.includes(count))) return false;
+
+  const variantValues = (value) => [...String(value || "").matchAll(/(\d+(?:\.\d+)?)\s*(吋|型|kg(?![a-z])|公斤|l(?![a-z])|公升|cm(?![a-z])|mm(?![a-z]))/gi)]
+    .map((match) => ({
+      value: match[1],
+      unit: /^(吋|型)$/i.test(match[2]) ? "display-size"
+        : /^(kg|公斤)$/i.test(match[2]) ? "kg"
+          : /^(l|公升)$/i.test(match[2]) ? "liter"
+            : match[2].toLowerCase(),
+    }));
+  const targetVariants = variantValues(`${model} ${product.name || ""}`);
+  const candidateVariants = variantValues(title);
+  for (const target of targetVariants) {
+    const comparable = candidateVariants.filter((variant) => variant.unit === target.unit);
+    if (comparable.length && !comparable.some((variant) => variant.value === target.value)) return false;
+  }
+
+  if (!weakModelPattern.test(model) && fullModel.length >= 4 && candidate.includes(fullModel)) return true;
+
+  const codes = unique([...model.matchAll(/[A-Z][A-Z0-9]*(?:[-/][A-Z0-9]+)+|[A-Z][A-Z0-9]*\d[A-Z0-9]*/gi)]
+    .map((match) => compactCode(match[0]))
+    .filter((token) => token.length >= 2));
+  if (!codes.length || !codes.every((token) => candidate.includes(token))) return false;
+
+  const variants = unique([...model.matchAll(/(?:^|\s)(\d{2,4}(?:\.\d+)?)(?=\s|$|吋|型|gb|tb|kg|l)/gi)]
+    .map((match) => compactCode(match[1])));
+  return variants.every((token) => candidate.includes(token));
+}
+
+function policyCompliantHistoricalAmount(product, amount) {
+  return plausibleHistoricalLow(product, amount) && amount <= Number(product.price?.converted);
 }
 
 function searchQueries(product) {
@@ -452,7 +514,7 @@ async function fetchLbjHistory(pid, currentPrice) {
   return history ? { ...history, url } : null;
 }
 
-async function researchLbj(product) {
+async function researchLbj(product, { exactModelOnly = false } = {}) {
   const queries = searchQueries(product);
   const checked = [];
   const rejected = [];
@@ -478,6 +540,10 @@ async function researchLbj(product) {
         rejected.push(`LBJ ${query}: ${summary} 型號/規格不相符`);
         continue;
       }
+      if (exactModelOnly && !candidateMatchesExactModel(product, item.title)) {
+        rejected.push(`LBJ ${query}: ${summary} 未在標題明示完整 exact model`);
+        continue;
+      }
       if (!lbjCandidateIsTrusted(item)) {
         rejected.push(`LBJ ${query}: ${summary} 非採用通路或含排除條件`);
         continue;
@@ -495,8 +561,8 @@ async function researchLbj(product) {
         rejected.push(`LBJ ${query}: ${summary} 無可用歷史價格`);
         continue;
       }
-      if (!plausibleHistoricalLow(product, history.min.price)) {
-        rejected.push(`LBJ ${query}: ${summary} 最低價 NT$${history.min.price.toLocaleString("en-US")} 低於現價合理比例，疑似月付/配件/錯類`);
+      if (!(exactModelOnly ? policyCompliantHistoricalAmount(product, history.min.price) : plausibleHistoricalLow(product, history.min.price))) {
+        rejected.push(`LBJ ${query}: ${summary} 最低價 NT$${history.min.price.toLocaleString("en-US")} 不符合現價比例或不低於目前公開價`);
         continue;
       }
 
@@ -520,7 +586,7 @@ async function researchLbj(product) {
   return { accepted, rejected: rejected.slice(0, 8), checked: unique(checked) };
 }
 
-async function researchBigGo(product) {
+async function researchBigGo(product, { exactModelOnly = false } = {}) {
   const queries = searchQueries(product);
   const rejected = [];
   const accepted = [];
@@ -550,6 +616,10 @@ async function researchBigGo(product) {
         rejected.push(`BigGo ${query}: ${summary} 型號/規格不相符`);
         continue;
       }
+      if (exactModelOnly && !candidateMatchesExactModel(product, `${item.title || ""} ${item.multiple_top_title || ""}`)) {
+        rejected.push(`BigGo ${query}: ${summary} 未在標題明示完整 exact model`);
+        continue;
+      }
       if (!candidateIsTrusted(item)) {
         rejected.push(`BigGo ${query}: ${summary} 非採用通路或含排除條件`);
         continue;
@@ -572,8 +642,8 @@ async function researchBigGo(product) {
         rejected.push(`BigGo ${query}: ${summary} 無可用 730 天最低價`);
         continue;
       }
-      if (!plausibleHistoricalLow(product, minPrice)) {
-        rejected.push(`BigGo ${query}: ${summary} 最低價 NT$${minPrice.toLocaleString("en-US")} 低於現價合理比例，疑似月付/配件/錯類`);
+      if (!(exactModelOnly ? policyCompliantHistoricalAmount(product, minPrice) : plausibleHistoricalLow(product, minPrice))) {
+        rejected.push(`BigGo ${query}: ${summary} 最低價 NT$${minPrice.toLocaleString("en-US")} 不符合現價比例或不低於目前公開價`);
         continue;
       }
 
@@ -597,26 +667,34 @@ async function researchBigGo(product) {
   return { accepted, rejected: rejected.slice(0, 8), checked: unique(checked) };
 }
 
-async function researchProduct(product) {
-  const agentVerified = agentVerifiedHistoricalLows.get(product.id);
+async function researchProduct(product, { exactModelOnly = false } = {}) {
+  const agentVerified = exactModelOnly ? null : agentVerifiedHistoricalLows.get(product.id);
   if (agentVerified) return agentVerified;
 
   const existingFound = verifiedHistoricalLows.get(product.id) || (product.historicalLow?.status === "found" ? product.historicalLow : null);
   const [biggo, lbj, findPriceSignal] = await Promise.all([
-    researchBigGo(product),
-    researchLbj(product),
+    researchBigGo(product, { exactModelOnly }),
+    researchLbj(product, { exactModelOnly }),
     fetchFindPriceSignal(`${product.brand} ${product.model}`),
   ]);
 
-  let chosen = [
+  const policyCompliantCandidates = [
     ...lbj.accepted.map((item) => ({ ...item, source: "lbj" })),
     ...biggo.accepted.map((item) => ({ ...item, source: "biggo" })),
-  ].sort((a, b) => a.converted - b.converted || b.points - a.points)[0] || null;
+  ].sort((a, b) => a.converted - b.converted || b.points - a.points);
+  let chosen = policyCompliantCandidates[0] || null;
+  const sourceAvailability = {
+    biggo: biggo.checked.length ? "available" : "unavailable",
+    lbj: lbj.checked.length ? "available" : "unavailable",
+    findPrice: findPriceSignal.ok ? "available" : "unavailable",
+  };
   if (existingFound && (!chosen || existingFound.converted <= chosen.converted)) {
     return {
       historicalLow: existingFound,
       checkedSources: [...lbj.checked, ...biggo.checked, findPriceSignal.url],
       rejectedCandidates: [...lbj.rejected, ...biggo.rejected].slice(0, 8),
+      policyCompliantCandidates,
+      sourceAvailability,
     };
   }
 
@@ -640,6 +718,8 @@ async function researchProduct(product) {
       },
       checkedSources: [...lbj.checked, ...biggo.checked, findPriceSignal.url],
       rejectedCandidates: [...lbj.rejected, ...biggo.rejected].slice(0, 8),
+      policyCompliantCandidates,
+      sourceAvailability,
     };
   }
 
@@ -660,6 +740,8 @@ async function researchProduct(product) {
     ),
     checkedSources: [...lbj.checked, ...biggo.checked, findPriceSignal.url],
     rejectedCandidates: rejections,
+    policyCompliantCandidates,
+    sourceAvailability,
   };
 }
 
@@ -715,20 +797,89 @@ function parseArgs() {
   const args = process.argv.slice(2);
   const idsArg = args.find((arg) => arg.startsWith("--ids="));
   const limitArg = args.find((arg) => arg.startsWith("--limit="));
+  const dateArg = args.find((arg) => arg.startsWith("--date="));
+  const expectedCountArg = args.find((arg) => arg.startsWith("--expected-count="));
   return {
     write: args.includes("--write"),
+    auditNotFound: args.includes("--audit-not-found"),
+    selfCheck: args.includes("--self-check"),
     ids: idsArg ? new Set(idsArg.slice("--ids=".length).split(",").map((id) => id.trim()).filter(Boolean)) : null,
     limit: limitArg ? Number(limitArg.slice("--limit=".length)) : null,
+    date: dateArg ? dateArg.slice("--date=".length) : null,
+    expectedCount: expectedCountArg ? Number(expectedCountArg.slice("--expected-count=".length)) : null,
   };
+}
+
+function auditRow(product, details) {
+  const hasCandidate = details.historicalLow.status === "found";
+  const allSourcesUnavailable = Object.values(details.sourceAvailability).every((status) => status === "unavailable");
+  return {
+    id: product.id,
+    category: product.category,
+    brand: product.brand,
+    model: product.model,
+    name: product.name,
+    currentPrice: product.price.converted,
+    currentCurrency: product.price.currency,
+    currentBuyUrl: product.buyUrl,
+    status: hasCandidate
+      ? "tracked_policy_compliant_candidate"
+      : allSourcesUnavailable ? "search_unavailable" : "no_policy_compliant_candidate",
+    disposition: hasCandidate ? "manual_exact_model_evidence_review_required" : "retain_not_found",
+    proposedHistoricalLow: hasCandidate ? details.historicalLow : null,
+    policyCompliantCandidates: details.policyCompliantCandidates,
+    sourceAvailability: details.sourceAvailability,
+    checkedSources: details.checkedSources,
+    rejectedCandidates: details.rejectedCandidates,
+  };
+}
+
+function availabilitySummary(results) {
+  return ["biggo", "lbj", "findPrice"].reduce((summary, source) => {
+    summary[source] = results.reduce((counts, result) => {
+      counts[result.sourceAvailability[source]] += 1;
+      return counts;
+    }, { available: 0, unavailable: 0 });
+    return summary;
+  }, {});
+}
+
+function writeNotFoundAudit(root, products, results) {
+  const trackedCandidates = results.filter((result) => result.status === "tracked_policy_compliant_candidate");
+  const searchUnavailable = results.filter((result) => result.status === "search_unavailable");
+  const report = {
+    summary: {
+      checkedAt: `${CHECKED_AT}T00:00:00.000+08:00`,
+      mode: "audit_not_found_read_only",
+      totalCatalog: products.length,
+      auditedNotFound: results.length,
+      trackedCandidates: trackedCandidates.length,
+      noPolicyCompliantCandidate: results.length - trackedCandidates.length - searchUnavailable.length,
+      searchUnavailable: searchUnavailable.length,
+      sourceAvailability: availabilitySummary(results),
+      sourcePolicy: "只追蹤標題明示 exact model、可信新品通路、有公開價格歷史、不含會員券/點數/信用卡回饋/二手/福利品/展示/箱損/拆封/整新品，且史低不高於目前公開價的候選。候選仍需人工核對原頁證據後，才可寫回正式研究檔與商品資料。",
+      writePolicy: "此模式只寫入 gitignored output 稽核檔，不修改 products/*.js 或 historical_price_research.json。",
+    },
+    results,
+  };
+  const outputDir = path.join(root, "output");
+  const subsetSuffix = ARGS.ids || ARGS.limit ? "-subset" : "";
+  const outputFile = path.join(outputDir, `historical-low-not-found-audit-${CHECKED_AT}${subsetSuffix}.json`);
+  fs.mkdirSync(outputDir, { recursive: true });
+  fs.writeFileSync(outputFile, `${JSON.stringify(report, null, 2)}\n`, "utf8");
+  return { outputFile, report };
 }
 
 async function main() {
   const root = path.resolve(__dirname, "..");
-  const args = parseArgs();
-  const { categories, products } = readDashboardProducts(root);
+  const { categories, products, exchange } = readDashboardProducts(root);
   const selectedProducts = products
-    .filter((product) => !args.ids || args.ids.has(product.id))
-    .slice(0, args.limit || products.length);
+    .filter((product) => !ARGS.auditNotFound || product.historicalLow?.status === "not_found")
+    .filter((product) => !ARGS.ids || ARGS.ids.has(product.id))
+    .slice(0, ARGS.limit || products.length);
+  if (ARGS.expectedCount !== null && selectedProducts.length !== ARGS.expectedCount) {
+    throw new Error(`Expected ${ARGS.expectedCount} selected products, found ${selectedProducts.length}`);
+  }
   const detailById = new Map();
 
   console.error(JSON.stringify({
@@ -736,10 +887,11 @@ async function main() {
     selected: selectedProducts.length,
     total: products.length,
     concurrency: CONCURRENCY,
+    mode: ARGS.auditNotFound ? "audit-not-found" : ARGS.write ? "write" : "dry-run",
   }));
 
   const researched = await mapLimit(selectedProducts, CONCURRENCY, async (product, index, workerIndex) => {
-    const details = await researchProduct(product);
+    const details = await researchProduct(product, { exactModelOnly: ARGS.auditNotFound });
     detailById.set(product.id, details);
     console.error(JSON.stringify({
       worker: workerIndex + 1,
@@ -751,6 +903,21 @@ async function main() {
     }));
     return productWithHistoricalLow(product, details.historicalLow);
   });
+
+  if (ARGS.auditNotFound) {
+    const auditResults = selectedProducts.map((product) => auditRow(product, detailById.get(product.id)));
+    const { outputFile, report } = writeNotFoundAudit(root, products, auditResults);
+    console.log(JSON.stringify({
+      status: "audit-complete",
+      selected: selectedProducts.length,
+      products: products.length,
+      trackedCandidates: report.summary.trackedCandidates,
+      noPolicyCompliantCandidate: report.summary.noPolicyCompliantCandidate,
+      searchUnavailable: report.summary.searchUnavailable,
+      outputFile,
+    }, null, 2));
+    return;
+  }
 
   const researchedById = new Map(researched.map((product) => [product.id, product]));
   const updatedProducts = products.map((product) => researchedById.get(product.id) || product);
@@ -776,13 +943,13 @@ async function main() {
       missing: missing.length,
       byConfidence,
       exchange: {
-        USD_TWD,
+        USD_TWD: exchange.USD_TWD,
       },
     },
     results,
   };
 
-  if (args.write) {
+  if (ARGS.write) {
     for (const category of categories) {
       const file = path.join(root, "products", `${category.id}.js`);
       fs.writeFileSync(file, productFileMarkup(category.id, productsByCategory.get(category.id)), "utf8");
@@ -791,7 +958,7 @@ async function main() {
   }
 
   console.log(JSON.stringify({
-    status: args.write ? "updated" : "dry-run",
+    status: ARGS.write ? "updated" : "dry-run",
     selected: selectedProducts.length,
     products: updatedProducts.length,
     found: found.length,
@@ -799,7 +966,39 @@ async function main() {
   }, null, 2));
 }
 
-main().catch((error) => {
-  console.error(error);
-  process.exit(1);
-});
+function runSelfCheck() {
+  const assert = require("assert");
+  assert.strictEqual(priceNumber("12,230"), 12230);
+  assert.strictEqual(priceNumber("12,230-35,633"), null);
+  assert(candidateMatchesExactModel({ model: "HW-Q990F" }, "Samsung HW-Q990F Soundbar"));
+  assert(!candidateMatchesExactModel({ model: "HW-Q990F" }, "Samsung HW-Q990D Soundbar"));
+  assert(candidateMatchesExactModel({ model: "OLED C4 77" }, "LG OLED77C4PVA 77 吋電視"));
+  assert(!candidateMatchesExactModel({ model: "OLED C4 77" }, "LG OLED65C4PVA 65 吋電視"));
+  assert(!candidateMatchesExactModel({ model: "Enki", name: "Enki 電競椅" }, "Razer Enki X 人體工學電競椅"));
+  assert(candidateMatchesExactModel({ model: "Halo H25BE 2入", name: "二入組" }, "Halo H25BE Mesh 路由器 2入組"));
+  assert(!candidateMatchesExactModel({ model: "Halo H25BE 2入", name: "二入組" }, "Halo H25BE Mesh 路由器 2入/3入"));
+  assert(!candidateMatchesExactModel({ model: "Gourmet 17cm", name: "17cm 三德刀" }, "GOURMET 17cm 三德刀 3件組"));
+  assert(candidateMatchesExactModel({ model: "SJ-DF58G-BK", name: "575 公升四門冰箱" }, "SHARP SJ-DF58G-BK 575L 四門冰箱"));
+  assert(!candidateMatchesExactModel({ model: "SJ-DF58G-BK", name: "575 公升四門冰箱" }, "SHARP SJ-DF58G-BK 583 公升雙門冰箱"));
+  assert(candidateMatchesExactModel({ model: "JSQ25-13E3 LPG", name: "13L 熱水器" }, "Haier 13L 熱水器 JSQ25-13E3(LPG/FE式)"));
+  assert(!candidateMatchesExactModel({ model: "AUT7005", name: "RO 淨水器" }, "AUT821 RO濾芯 適用於 AUT7005"));
+  assert(excludedTitlePattern.test("AUT7005 專用濾芯"));
+  assert(!excludedTitlePattern.test("NOBLE CHP-3140N 五道濾芯淨水器"));
+  assert(excludedTitlePattern.test("原廠控價 私訊優惠"));
+  assert(policyCompliantHistoricalAmount({ price: { converted: 10000 } }, 8000));
+  assert(!policyCompliantHistoricalAmount({ price: { converted: 10000 } }, 11000));
+  console.log("historical-low audit self-check passed");
+}
+
+if (require.main === module) {
+  if (ARGS.selfCheck) {
+    runSelfCheck();
+  } else {
+    main().catch((error) => {
+      console.error(error);
+      process.exit(1);
+    });
+  }
+}
+
+module.exports = { candidateMatchesExactModel, policyCompliantHistoricalAmount };

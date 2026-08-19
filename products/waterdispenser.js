@@ -365,19 +365,6 @@
     ],
     "category": "waterdispenser",
     "releaseDate": "找不到",
-    "historicalLow": {
-      "status": "not_found",
-      "amount": null,
-      "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
-      "checkedAt": "2026-07-11",
-      "note": "既有史低證據是相容濾芯／耗材，而不是目標整機；應撤銷 found 並重新查核整機史低。 已撤銷錯誤史低；本輪重新查核仍找不到同型號、同尺寸／容量／規格且可公開驗證的可信新品整機史低。"
-    },
     "issueResearch": {
       "status": "no_common_issue",
       "checkedAt": "2026-08-18",
@@ -415,6 +402,19 @@
           "targetHost": "youtube.com"
         }
       ]
+    },
+    "historicalLow": {
+      "status": "found",
+      "amount": 7990,
+      "currency": "TWD",
+      "converted": 7990,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1274747648&cgp=7990",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：(店+)【Coway】【Coway】P-150N 奈米超淨化淨水器｜櫥下型｜0.01微米濾芯 需自行安裝",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / (店+)【Coway】【Coway】P-150N 奈米超淨化淨水器｜櫥下型｜0.01微米濾芯 需自行安裝」最低價為 NT$7,990，最低點日期 2026-08-20。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
+      "checkedAt": "2026-08-20",
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -772,19 +772,6 @@
     ],
     "category": "waterdispenser",
     "releaseDate": "找不到",
-    "historicalLow": {
-      "status": "not_found",
-      "amount": null,
-      "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
-      "checkedAt": "2026-07-11",
-      "note": "既有史低證據是相容濾芯／耗材，而不是目標整機；應撤銷 found 並重新查核整機史低。 已撤銷錯誤史低；本輪重新查核仍找不到同型號、同尺寸／容量／規格且可公開驗證的可信新品整機史低。"
-    },
     "issueResearch": {
       "status": "no_common_issue",
       "checkedAt": "2026-08-18",
@@ -822,6 +809,19 @@
           "targetHost": "youtube.com"
         }
       ]
+    },
+    "historicalLow": {
+      "status": "found",
+      "amount": 25500,
+      "currency": "TWD",
+      "converted": 25500,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1269639153&cgp=28999",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【Philips 飛利浦】RO 廚下型瞬熱淨水器(AUT7005) 限量30台",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【Philips 飛利浦】RO 廚下型瞬熱淨水器(AUT7005) 限量30台」最低價為 NT$25,500，最低點日期 2026-08-11。",
+      "sourceKind": "price_history",
+      "confidence": "high",
+      "checkedAt": "2026-08-20",
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -1139,9 +1139,9 @@
     "image": "https://cs-a.ecimg.tw/items/DMAWEMA900GDIXH/000001_1774485785.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 20900,
-      "converted": 20900,
-      "confidence": "PChome 2026-08-10 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 18810,
+      "converted": 18810,
+      "confidence": "PChome 2026-08-20 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -1484,19 +1484,6 @@
     ],
     "category": "waterdispenser",
     "releaseDate": "找不到",
-    "historicalLow": {
-      "status": "not_found",
-      "amount": null,
-      "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
-      "checkedAt": "2026-07-11",
-      "note": "未找到 NOBLE CHP-3140N 單機加原廠安裝可公開驗證的可信新品史低；已排除另含美膳雅蒸鮮鍋的不同套裝。"
-    },
     "issueResearch": {
       "status": "no_common_issue",
       "checkedAt": "2026-08-18",
@@ -1534,6 +1521,19 @@
           "targetHost": "youtube.com"
         }
       ]
+    },
+    "historicalLow": {
+      "status": "found",
+      "amount": 50830,
+      "currency": "TWD",
+      "converted": 50830,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1260180295&cgp=59800",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【Coway】櫥下型冰溫熱智慧淨濾水器(瞬冰瞬熱/五道濾芯/基本安裝/NOBLE CHP-3140N)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【Coway】櫥下型冰溫熱智慧淨濾水器(瞬冰瞬熱/五道濾芯/基本安裝/NOBLE CHP-3140N)」最低價為 NT$50,830，最低點日期 2026-06-18。",
+      "sourceKind": "price_history",
+      "confidence": "high",
+      "checkedAt": "2026-08-20",
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -2315,9 +2315,9 @@
     "name": "PREMIER 廚下冰溫瞬熱旗艦飲水機",
     "price": {
       "currency": "TWD",
-      "amount": 36800,
-      "converted": 36800,
-      "confidence": "PChome 2026-08-10 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 33120,
+      "converted": 33120,
+      "confidence": "PChome 2026-08-20 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAWI0A900ITF3M/000001_1781688918.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAWI0-A900ITF3M",

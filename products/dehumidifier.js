@@ -1025,7 +1025,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-20",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1394,19 +1394,6 @@
       "高 CP"
     ],
     "releaseDate": "2026-02-09",
-    "historicalLow": {
-      "status": "not_found",
-      "amount": null,
-      "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
-      "checkedAt": "2026-07-09",
-      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ Whirlpool WDEE20TW: Yahoo購物中心 (福利品)Whirlpool惠而浦 20L 第六感智能除濕機 WDEE20TW 高效除濕型 能效3級 非採用通路或含排除條件；LBJ Whirlpool WDEE20TW: Yahoo購物中心 Whirlpool惠而浦 福利品 20公升/日 WDEE20TW 除濕機 WDEE20TW-D 非採用通路或含排除條件；LBJ Whirlpool WDEE20TW: 樂天市場 - 北霸天 北霸天 (福利品)Whirlpool惠而浦 20L 第六感智能除濕機 WDEE20TW 高效除濕型 能效3級 非採用通路或含排除條件。"
-    },
     "issueResearch": {
       "status": "no_common_issue",
       "checkedAt": "2026-08-18",
@@ -1444,6 +1431,19 @@
           "targetHost": "youtube.com"
         }
       ]
+    },
+    "historicalLow": {
+      "status": "found",
+      "amount": 8988,
+      "currency": "TWD",
+      "converted": 8988,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=565181145&cgp=8988",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【現貨】Whirlpool惠而浦 WDEE20TW 高效除濕型 20公升 第六感智能除濕機 公司貨",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「蝦皮商城 - 集盛電器旗艦館 / 【現貨】Whirlpool惠而浦 WDEE20TW 高效除濕型 20公升 第六感智能除濕機 公司貨」最低價為 NT$8,988，最低點日期 2026-08-20。",
+      "sourceKind": "price_history",
+      "confidence": "high",
+      "checkedAt": "2026-08-20",
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -1874,19 +1874,6 @@
       "11L"
     ],
     "releaseDate": "找不到",
-    "historicalLow": {
-      "status": "not_found",
-      "amount": null,
-      "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
-      "checkedAt": "2026-07-09",
-      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ HITACHI RD-22FC: Momo富邦購物 (店+)適用Hitachi日立RD-18FC RD-22FC空氣清淨除濕機替換用HEPA濾網濾芯 型號/規格不相符；LBJ HITACHI RD-22FC: 蝦皮商城 - 怡悅健康生活館 怡悅 HEPA濾網 適用 日立除濕機 RD-18FC RD-22FC RD-14FJ RD-18FJ RD-22FJ 型號/規格不相符；LBJ HITACHI RD-22FC: 蝦皮商城 - 淨博-外銷歐美日專業空氣清淨濾網 適用Hitachi日立RD-18FC RD-22FC空氣清淨除濕機替換用HEPA濾網濾芯 型號/規格不相符。"
-    },
     "issueResearch": {
       "status": "no_common_issue",
       "checkedAt": "2026-08-18",
@@ -1924,6 +1911,19 @@
           "targetHost": "youtube.com"
         }
       ]
+    },
+    "historicalLow": {
+      "status": "found",
+      "amount": 9408,
+      "currency": "TWD",
+      "converted": 9408,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1285181764&cgp=9600",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：日立江森11公升/日空氣清淨榮耀紫除濕機RD-22FC",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Yahoo購物中心 / 日立江森11公升/日空氣清淨榮耀紫除濕機RD-22FC」最低價為 NT$9,408，最低點日期 2026-08-19。",
+      "sourceKind": "price_history",
+      "confidence": "high",
+      "checkedAt": "2026-08-20",
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {

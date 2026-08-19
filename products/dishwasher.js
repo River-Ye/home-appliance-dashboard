@@ -1093,7 +1093,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-20",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1795,7 +1795,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-20",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -2693,19 +2693,6 @@
       "持續乾燥"
     ],
     "releaseDate": "找不到",
-    "historicalLow": {
-      "status": "not_found",
-      "amount": null,
-      "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
-      "checkedAt": "2026-08-14",
-      "note": "已查台灣林內、momo 與 exact-model 價格搜尋；比價頁的舊價格無法確認同一安裝範圍及可購新品原頁，因此不採為史低。"
-    },
     "issueResearch": {
       "status": "no_common_issue",
       "checkedAt": "2026-08-18",
@@ -2743,6 +2730,19 @@
           "targetHost": "youtube.com"
         }
       ]
+    },
+    "historicalLow": {
+      "status": "found",
+      "amount": 40851,
+      "currency": "TWD",
+      "converted": 40851,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1240478394&cgp=49400",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【林內】抽屜式六段清洗流程洗碗機(RKW-601C-SV-TR基本安裝)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【林內】抽屜式六段清洗流程洗碗機(RKW-601C-SV-TR基本安裝)」最低價為 NT$40,851，最低點日期 2025-04-26。",
+      "sourceKind": "price_history",
+      "confidence": "high",
+      "checkedAt": "2026-08-20",
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   }
 ]);

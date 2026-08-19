@@ -115,9 +115,9 @@
     "name": "D01-SL-DX 電動升降桌 120x80",
     "price": {
       "currency": "TWD",
-      "amount": 14770,
-      "converted": 14770,
-      "confidence": "PChome 2026-08-15 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 14326,
+      "converted": 14326,
+      "confidence": "PChome 2026-08-20 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBJ4CA900I9XVY/000001_1773043590.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBJ4C-A900I9XVY",
@@ -213,9 +213,9 @@
     "name": "D01-SL-DX 電動升降桌 150x80",
     "price": {
       "currency": "TWD",
-      "amount": 15270,
-      "converted": 15270,
-      "confidence": "PChome 2026-08-15 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 14811,
+      "converted": 14811,
+      "confidence": "PChome 2026-08-20 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBJ4CA900HUG3C/000001_1773043903.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBJ4C-A900HUG3C",
@@ -311,9 +311,9 @@
     "name": "D01-SL-DX 電動升降桌 160x80",
     "price": {
       "currency": "TWD",
-      "amount": 15770,
-      "converted": 15770,
-      "confidence": "PChome 2026-08-15 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 15296,
+      "converted": 15296,
+      "confidence": "PChome 2026-08-20 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBJ4CA900ITV12/000001_1773043461.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBJ4C-A900ITV12",
@@ -346,19 +346,6 @@
       "雙螢幕"
     ],
     "releaseDate": "找不到",
-    "historicalLow": {
-      "status": "not_found",
-      "amount": null,
-      "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
-      "checkedAt": "2026-07-09",
-      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ iRocks D01-SL-DX 160x80: 蝦皮商城 - irocks 艾芮克官方授權網路旗艦店 irocks 160*80 公分 電動升降桌 北歐雲杉 D01-SL-DX 非採用通路或含排除條件；LBJ iRocks D01-SL-DX 160x80: 誠品線上 irocks D01-SL-DX 電動升降桌 北歐雲杉 160*80 公分 非採用通路或含排除條件；BigGo DQBJ4C-A900ITV12: 查詢失敗 429 https://biggo.com.tw/api/v1/spa/search/DQBJ4C-A900ITV12/product?p=1。"
-    },
     "issueResearch": {
       "status": "no_common_issue",
       "checkedAt": "2026-08-18",
@@ -396,6 +383,19 @@
           "targetHost": "youtube.com"
         }
       ]
+    },
+    "historicalLow": {
+      "status": "found",
+      "amount": 14661,
+      "currency": "TWD",
+      "converted": 14661,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1284800525&cgp=15990",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：irocks D01-SL-DX 電動升降桌 菸草橡木紋 160x80 公分",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「東森購物 / irocks D01-SL-DX 電動升降桌 菸草橡木紋 160x80 公分」最低價為 NT$14,661，最低點日期 2026-08-05。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
+      "checkedAt": "2026-08-20",
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -409,9 +409,9 @@
     "name": "D01-SL-DX 電動升降桌 180x80",
     "price": {
       "currency": "TWD",
-      "amount": 16470,
-      "converted": 16470,
-      "confidence": "PChome 2026-08-15 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 15975,
+      "converted": 15975,
+      "confidence": "PChome 2026-08-20 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBJ4CA900HUGSO/000001_1773043706.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBJ4C-A900HUGSO",
@@ -949,7 +949,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-20",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [

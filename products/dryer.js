@@ -54,19 +54,6 @@
     ],
     "category": "dryer",
     "releaseDate": "找不到",
-    "historicalLow": {
-      "status": "not_found",
-      "amount": null,
-      "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
-      "checkedAt": "2026-07-09",
-      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ Panasonic NH-80RZ-W: Momo富邦購物 【Panasonic 國際牌】8公斤電子式乾衣機-釉光白(NH-80RZ-W) 型號/規格不相符；LBJ Panasonic NH-80RZ-W: Momo富邦購物 【Panasonic 國際牌】8公斤電子式乾衣機 (NH-80RZ-W) 型號/規格不相符；LBJ Panasonic NH-80RZ-W: Momo富邦購物 【Panasonic 國際牌】家電快配★8公斤乾衣機-釉光白(NH-80RZ-W) 型號/規格不相符。"
-    },
     "issueResearch": {
       "status": "no_common_issue",
       "checkedAt": "2026-08-18",
@@ -104,6 +91,19 @@
           "targetHost": "youtube.com"
         }
       ]
+    },
+    "historicalLow": {
+      "status": "found",
+      "amount": 9143,
+      "currency": "TWD",
+      "converted": 9143,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=632886332&cgp=9351",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：Panasonic國際8KG電子式乾衣機NH-80RZ-W_含配送+安裝(預購)【愛買】",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「蝦皮商城 - 愛買線上購物 / Panasonic國際8KG電子式乾衣機NH-80RZ-W_含配送+安裝(預購)【愛買】」最低價為 NT$9,143，最低點日期 2026-06-07。",
+      "sourceKind": "price_history",
+      "confidence": "high",
+      "checkedAt": "2026-08-20",
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -258,19 +258,6 @@
     ],
     "category": "dryer",
     "releaseDate": "找不到",
-    "historicalLow": {
-      "status": "not_found",
-      "amount": null,
-      "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
-      "checkedAt": "2026-07-09",
-      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ Whirlpool 8TWGD5010PW: 誠品線上 【Whirlpool 惠而浦】12公斤 快烘瓦斯型乾衣機_典雅白 8TWGD5010PW 型號/規格不相符；LBJ Whirlpool 8TWGD5010PW: 生活市集 【生活市集】【Whirlpool 惠而浦】8TWGD5010PW 12公斤瓦斯型下拉門烘衣機 型號/規格不相符；LBJ Whirlpool 8TWGD5010PW: 樂天市場 - 簡單生活館 簡單生活館 【Whirlpool 惠而浦】12公斤快烘瓦斯型乾衣機 8TWGD5010PW (含標準安裝/舊機回收) 型號/規格不相符。"
-    },
     "issueResearch": {
       "status": "no_common_issue",
       "checkedAt": "2026-08-18",
@@ -308,6 +295,19 @@
           "targetHost": "youtube.com"
         }
       ]
+    },
+    "historicalLow": {
+      "status": "found",
+      "amount": 20740,
+      "currency": "TWD",
+      "converted": 20740,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1273072123&cgp=22620",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：(店+)【Whirlpool 惠而浦】8TWGD5010PW 12KG 快烘瓦斯型下拉門烘衣機(含基本安裝)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / (店+)【Whirlpool 惠而浦】8TWGD5010PW 12KG 快烘瓦斯型下拉門烘衣機(含基本安裝)」最低價為 NT$20,740，最低點日期 2026-05-20。",
+      "sourceKind": "price_history",
+      "confidence": "high",
+      "checkedAt": "2026-08-20",
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -2290,19 +2290,6 @@
       "110V"
     ],
     "releaseDate": "找不到",
-    "historicalLow": {
-      "status": "not_found",
-      "amount": null,
-      "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
-      "checkedAt": "2026-08-14",
-      "note": "已查台灣林內官方、PChome 與 exact-model 價格搜尋；論壇中的推估價與含不同安裝範圍報價不可直接比較，故不推定史低。"
-    },
     "issueResearch": {
       "status": "no_common_issue",
       "checkedAt": "2026-08-18",
@@ -2340,6 +2327,19 @@
           "targetHost": "youtube.com"
         }
       ]
+    },
+    "historicalLow": {
+      "status": "found",
+      "amount": 35020,
+      "currency": "TWD",
+      "converted": 35020,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1107025562&cgp=40788",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【林內Rinnai】RDT-90-TR-W - 瓦斯乾衣機 - 9kg容量 - 僅北北基含基本安裝",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「東森購物 / 【林內Rinnai】RDT-90-TR-W - 瓦斯乾衣機 - 9kg容量 - 僅北北基含基本安裝」最低價為 NT$35,020，最低點日期 2025-06-02。",
+      "sourceKind": "price_history",
+      "confidence": "high",
+      "checkedAt": "2026-08-20",
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   }
 ]);

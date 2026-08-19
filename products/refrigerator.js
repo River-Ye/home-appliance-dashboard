@@ -221,9 +221,9 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/5D663CB1FD-SP-22040968.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 11900,
-      "converted": 11900,
-      "confidence": "Yahoo購物中心 2026-08-10 exact-model 公開結構化價格"
+      "amount": 10900,
+      "converted": 10900,
+      "confidence": "Yahoo購物中心 2026-08-20 exact-model 公開結構化價格"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心",
@@ -2416,19 +2416,6 @@
       "110V"
     ],
     "releaseDate": "2026",
-    "historicalLow": {
-      "status": "not_found",
-      "amount": null,
-      "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
-      "checkedAt": "2026-07-24",
-      "note": "SJ-DF58G-BK 為 SHARP 台灣 2026 年新品；已查 SHARP 官方、Momo、FindPrice、BigGo、LBJ 與其他 exact-model 新品頁，僅取得本輪現價與橫向比價，未找到可公開重現的完整歷史價格曲線。NT$52,900 現價不得直接推定為史低。"
-    },
     "issueResearch": {
       "status": "no_common_issue",
       "checkedAt": "2026-08-18",
@@ -2466,6 +2453,19 @@
           "targetHost": "youtube.com"
         }
       ]
+    },
+    "historicalLow": {
+      "status": "found",
+      "amount": 48668,
+      "currency": "TWD",
+      "converted": 48668,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1273421717&cgp=52900",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：SHARP夏普575公升四門對開變頻冰箱SJ-DF58G-BK ★送7-11商品卡2100元",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Yahoo購物中心 / SHARP夏普575公升四門對開變頻冰箱SJ-DF58G-BK ★送7-11商品卡2100元」最低價為 NT$48,668，最低點日期 2026-06-19。",
+      "sourceKind": "price_history",
+      "confidence": "high",
+      "checkedAt": "2026-08-20",
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。 商品標題雖標示贈 NT$2,100 7-ELEVEN 商品卡，本史低採用未扣抵贈卡的公開標價 NT$48,668。"
     }
   },
   {

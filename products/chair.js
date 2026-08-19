@@ -633,19 +633,6 @@
       "電競"
     ],
     "releaseDate": "2023-09-21",
-    "historicalLow": {
-      "status": "not_found",
-      "amount": null,
-      "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
-      "checkedAt": "2026-07-09",
-      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ Razer Fujin: Momo富邦購物 (店+)【Razer 雷蛇】Razer 雷蛇 Fujin/Fujin Pro 風靈 人體工學電競椅 透氣網布 3D軟墊扶手 電競椅 電腦椅 辦公椅 型號/規格不相符；LBJ Razer Fujin: Momo富邦購物 (店+)【Razer 雷蛇】Razer 雷蛇 Fujin/Fujin Pro 風靈 人體工學電競椅 3D軟墊扶手 透氣網布 辦公椅 電腦椅 電競椅 型號/規格不相符；LBJ Razer Fujin: 蝦皮商城 - PCHOT 線上電競 | 3C旗艦店 Razer 雷蛇 Fujin Headrest 風靈頭枕 透氣立體支撐 人體工學 頭枕 透氣網布 3D曲線設計 型號/規格不相符。"
-    },
     "issueResearch": {
       "status": "no_common_issue",
       "checkedAt": "2026-08-18",
@@ -683,6 +670,19 @@
           "targetHost": "youtube.com"
         }
       ]
+    },
+    "historicalLow": {
+      "status": "found",
+      "amount": 11691,
+      "currency": "TWD",
+      "converted": 11691,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1272849361&cgp=12900",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【Razer 雷蛇】Fujin風靈網狀人體工學電競椅/電腦椅(RZ38-04950100-R3U1需自行安裝)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【Razer 雷蛇】Fujin風靈網狀人體工學電競椅/電腦椅(RZ38-04950100-R3U1需自行安裝)」最低價為 NT$11,691，最低點日期 2026-04-01。",
+      "sourceKind": "price_history",
+      "confidence": "high",
+      "checkedAt": "2026-08-20",
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -1018,7 +1018,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-20",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -2265,19 +2265,6 @@
       "官方通路"
     ],
     "releaseDate": "2026-07-06",
-    "historicalLow": {
-      "status": "not_found",
-      "amount": null,
-      "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
-      "checkedAt": "2026-07-24",
-      "note": "Orca 為 Backbone 於 2026-07-06 發表的新品；已查官方商品頁、BigGo、FindPrice 與 LBJ，未找到同型號可公開重現且符合可信新品條件的歷史最低價，官方現價 NT$10,800 不直接視為歷史最低價。"
-    },
     "issueResearch": {
       "status": "no_common_issue",
       "checkedAt": "2026-08-18",
@@ -2315,6 +2302,19 @@
           "targetHost": "youtube.com"
         }
       ]
+    },
+    "historicalLow": {
+      "status": "found",
+      "amount": 10800,
+      "currency": "TWD",
+      "converted": 10800,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1283993262&cgp=10800",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【Backbone】Orca 人體工學椅 (高階電腦椅/透氣全網椅/辦公椅｜無腳踏款)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【Backbone】Orca 人體工學椅 (高階電腦椅/透氣全網椅/辦公椅｜無腳踏款)」最低價為 NT$10,800，最低點日期 2026-08-20。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
+      "checkedAt": "2026-08-20",
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {

@@ -1995,7 +1995,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-20",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -2195,19 +2195,6 @@
     "bestFor": "想練習手動萃取與奶泡，同時需要內建磨豆與冷萃功能的進階家庭用戶",
     "recommendation": "半自動新品推薦：EC9255M 用約 5 分鐘冷萃、三段溫控與內建磨豆擴充飲品與調整範圍；但仍需手動填壓、奶泡與清潔。",
     "releaseDate": "2026",
-    "historicalLow": {
-      "status": "not_found",
-      "amount": null,
-      "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
-      "checkedAt": "2026-08-05",
-      "note": "已查 De'Longhi 台灣官方、PChome exact-model 原始頁與 API、FindPrice 與 BigGo；本輪只能重現 27,900–35,900 元現價，沒有附明確日期的可信新品價格曲線。另網頁中的 25,900 元候選實為 TCL 65Q6C 電視，型號不符，不採作本機史低。"
-    },
     "issueResearch": {
       "status": "no_common_issue",
       "checkedAt": "2026-08-18",
@@ -2254,7 +2241,20 @@
       "旗艦",
       "內建磨豆",
       "台灣公司貨"
-    ]
+    ],
+    "historicalLow": {
+      "status": "found",
+      "amount": 25900,
+      "currency": "TWD",
+      "converted": 25900,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1274402018&cgp=26900",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【Delonghi 迪朗奇】官方直營 EC9255M 半自動義式咖啡機 (2026新上市)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【Delonghi 迪朗奇】官方直營 EC9255M 半自動義式咖啡機 (2026新上市)」最低價為 NT$25,900，最低點日期 2026-05-20。",
+      "sourceKind": "price_history",
+      "confidence": "high",
+      "checkedAt": "2026-08-20",
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+    }
   },
   {
     "id": "coffee-breville-bes878xl",
@@ -2409,19 +2409,6 @@
     "bestFor": "願意投入磨豆機與水質管理、追求 E61 手感和連續奶咖的人",
     "recommendation": "分型建議：E61 沖煮頭與 HX 溫控模式兼顧濃縮穩定和蒸汽續航。",
     "releaseDate": "找不到",
-    "historicalLow": {
-      "status": "not_found",
-      "amount": null,
-      "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
-      "checkedAt": "2026-08-04",
-      "note": "已查台灣代理 exact-model 現價、可信新品通路與 BigGo exact-model 比價；目前只找到 43,800／44,800 元現價，沒有可重現日期或價格曲線，因此不以現價推定史低。"
-    },
     "issueResearch": {
       "status": "no_common_issue",
       "checkedAt": "2026-08-18",
@@ -2468,7 +2455,20 @@
       "旗艦",
       "外接磨豆",
       "台灣公司貨"
-    ]
+    ],
+    "historicalLow": {
+      "status": "found",
+      "amount": 43800,
+      "currency": "TWD",
+      "converted": 43800,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1248177666&cgp=43800",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【LELIT】MARAX 半自動義式咖啡機-PL62X V2(家用110V)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【LELIT】MARAX 半自動義式咖啡機-PL62X V2(家用110V)」最低價為 NT$43,800，最低點日期 2026-08-20。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
+      "checkedAt": "2026-08-20",
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+    }
   },
   {
     "id": "coffee-rancilio-silvia-pro-x",

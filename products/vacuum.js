@@ -161,7 +161,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-20",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1202,19 +1202,6 @@
       "小宅"
     ],
     "releaseDate": "找不到",
-    "historicalLow": {
-      "status": "not_found",
-      "amount": null,
-      "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
-      "checkedAt": "2026-07-09",
-      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ Siroca SV-SP3710: 博客來 日本 Siroca 超輕量無線吸塵器 SV-SP3710 白 型號/規格不相符；LBJ Siroca SV-SP3710: Momo富邦購物 【Siroca】官方直營 SV-SP3710超輕量無線吸塵器(無線吸塵器) 型號/規格不相符；LBJ Siroca SV-SP3710: Momo富邦購物 (店+)【Siroca】超輕量無線吸塵器 SV-SP3710 型號/規格不相符。"
-    },
     "issueResearch": {
       "status": "no_common_issue",
       "checkedAt": "2026-08-18",
@@ -1252,6 +1239,19 @@
           "targetHost": "youtube.com"
         }
       ]
+    },
+    "historicalLow": {
+      "status": "found",
+      "amount": 2699,
+      "currency": "TWD",
+      "converted": 2699,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1267673255&cgp=2966",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【Siroca】官方直營 SV-SP3710超輕量無線吸塵器(無線吸塵器)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【Siroca】官方直營 SV-SP3710超輕量無線吸塵器(無線吸塵器)」最低價為 NT$2,699，最低點日期 2026-03-12。",
+      "sourceKind": "price_history",
+      "confidence": "high",
+      "checkedAt": "2026-08-20",
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -1298,19 +1298,6 @@
       "設計"
     ],
     "releaseDate": "找不到",
-    "historicalLow": {
-      "status": "not_found",
-      "amount": null,
-      "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
-      "checkedAt": "2026-07-09",
-      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：BigGo DSBE1A-A900J8H81: 查詢失敗 429 https://biggo.com.tw/api/v1/spa/search/DSBE1A-A900J8H81/product?p=1；BigGo Plus Minus Zero XJC-Y011: 查詢失敗 429 https://biggo.com.tw/api/v1/spa/search/Plus%20Minus%20Zero%20XJC-Y011/product?p=1。"
-    },
     "issueResearch": {
       "status": "no_common_issue",
       "checkedAt": "2026-08-18",
@@ -1348,6 +1335,19 @@
           "targetHost": "youtube.com"
         }
       ]
+    },
+    "historicalLow": {
+      "status": "found",
+      "amount": 3512,
+      "currency": "TWD",
+      "converted": 3512,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1258656426&cgp=3591",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【±0正負零】XJC-Y011 無線吸塵器",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Yahoo購物中心 / 【±0正負零】XJC-Y011 無線吸塵器」最低價為 NT$3,512，最低點日期 2026-06-18。",
+      "sourceKind": "price_history",
+      "confidence": "high",
+      "checkedAt": "2026-08-20",
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -1505,7 +1505,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-20",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1586,19 +1586,6 @@
       "筆型"
     ],
     "releaseDate": "2025",
-    "historicalLow": {
-      "status": "not_found",
-      "amount": null,
-      "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
-      "checkedAt": "2026-07-09",
-      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ Dyson SV50: 蝦皮商城 - 瘋旅遊 Crazy Travel 適用Dyson吸塵器 Pencilvac Fluffycones SV50 濾網 鉛筆濾網 濾網 過濾芯 戴森濾網 最低價 NT$285 低於現價合理比例，疑似月付/配件/錯類；LBJ Dyson SV50: 蝦皮商城 - 愛濾屋-清淨專家 濾網領航 台灣製造 品質出眾 適用Dyson戴森Pencilvac Fluffycones SV50 SV50FF筆型/鉛筆吸塵器HEPA集塵濾網芯 最低價 NT$325 低於現價合理比例，疑似月付/配件/錯類；LBJ Dyson SV50: Momo富邦購物 (店+)適用Dyson戴森Pencilvac Fluffycones SV50 SV50FF筆型吸塵器HEPA集塵濾網芯 最低價 NT$350 低於現價合理比例，疑似月付/配件/錯類。"
-    },
     "issueResearch": {
       "status": "no_common_issue",
       "checkedAt": "2026-08-18",
@@ -1636,6 +1623,19 @@
           "targetHost": "youtube.com"
         }
       ]
+    },
+    "historicalLow": {
+      "status": "found",
+      "amount": 17900,
+      "currency": "TWD",
+      "converted": 17900,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=604061122&cgp=19900",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：Dyson PencilVac™ Fluffycones SV50 筆型/鉛筆吸塵器 超輕量 360度靈活吸頭 全新上市",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「蝦皮商城 - dyson戴森｜恆隆行官方旗艦館 / Dyson PencilVac™ Fluffycones SV50 筆型/鉛筆吸塵器 超輕量 360度靈活吸頭 全新上市」最低價為 NT$17,900，最低點日期 2026-08-10。",
+      "sourceKind": "price_history",
+      "confidence": "high",
+      "checkedAt": "2026-08-20",
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -1874,19 +1874,6 @@
       "Panasonic"
     ],
     "releaseDate": "找不到",
-    "historicalLow": {
-      "status": "not_found",
-      "amount": null,
-      "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
-      "checkedAt": "2026-07-09",
-      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ Panasonic MC-SBR70: 樂天市場 - Panasonic授權台北中山佳麗寶電器 Panasonic授權台北中山佳麗寶電器 【Panasonic】極淨光吸塵器 (MC-SBR70) 型號/規格不相符；LBJ Panasonic MC-SBR70: 樂天市場 - Panasonic授權新店達澄電器行 Panasonic授權新店達澄電器行 【Panasonic】極淨光吸塵器 (MC-SBR70) 型號/規格不相符；LBJ Panasonic MC-SBR70: 樂天市場 - Panasonic授權高雄梓官協福電器 Panasonic授權高雄梓官協福電器 【Panasonic】極淨光吸塵器 (MC-SBR70) 型號/規格不相符。"
-    },
     "issueResearch": {
       "status": "no_common_issue",
       "checkedAt": "2026-08-18",
@@ -1924,6 +1911,19 @@
           "targetHost": "youtube.com"
         }
       ]
+    },
+    "historicalLow": {
+      "status": "found",
+      "amount": 11670,
+      "currency": "TWD",
+      "converted": 11670,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1282767017&cgp=11760",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【Panasonic 國際牌】極淨光吸塵器 MC-SBR70-K",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【Panasonic 國際牌】極淨光吸塵器 MC-SBR70-K」最低價為 NT$11,670，最低點日期 2026-06-16。",
+      "sourceKind": "price_history",
+      "confidence": "high",
+      "checkedAt": "2026-08-20",
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {

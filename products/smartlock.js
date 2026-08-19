@@ -65,7 +65,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-20",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1121,7 +1121,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-20",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1409,7 +1409,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-20",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -2448,7 +2448,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-20",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -2736,7 +2736,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-20",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -2913,19 +2913,6 @@
       "HITACHI"
     ],
     "releaseDate": "找不到",
-    "historicalLow": {
-      "status": "not_found",
-      "amount": null,
-      "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
-      "checkedAt": "2026-07-09",
-      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ HITACHI HIT-FH10-T: 博客來 HITACHI 日立 HIT-FH10-T 古銅色 七合一人臉掌靜脈電子鎖 三年保固 古銅色 型號/規格不相符；LBJ HITACHI HIT-FH10-T: Momo富邦購物 (店+)【HITACHI 日立】【HITACHI】HIT-FH10-T日立全功能智慧鎖 型號/規格不相符；LBJ HITACHI HIT-FH10-T: Momo富邦購物 (店+)【HITACHI 日立】日立HITACHI 含安裝 HIT-FH10-T悅 人臉辨識/掌靜脈/電子貓眼/指紋/卡片/密碼/鑰匙/遠端 型號/規格不相符。"
-    },
     "issueResearch": {
       "status": "no_common_issue",
       "checkedAt": "2026-08-18",
@@ -2963,6 +2950,19 @@
           "targetHost": "youtube.com"
         }
       ]
+    },
+    "historicalLow": {
+      "status": "found",
+      "amount": 29800,
+      "currency": "TWD",
+      "converted": 29800,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1269025482&cgp=29800",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：(店+)【HITACHI 日立】日立HITACHI 含安裝 HIT-FH10-T悅 人臉辨識/掌靜脈/電子貓眼/指紋/卡片/密碼/鑰匙/遠端",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / (店+)【HITACHI 日立】日立HITACHI 含安裝 HIT-FH10-T悅 人臉辨識/掌靜脈/電子貓眼/指紋/卡片/密碼/鑰匙/遠端」最低價為 NT$29,800，最低點日期 2026-08-20。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
+      "checkedAt": "2026-08-20",
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -3408,7 +3408,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-20",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -3489,19 +3489,6 @@
       "指紋"
     ],
     "releaseDate": "找不到",
-    "historicalLow": {
-      "status": "not_found",
-      "amount": null,
-      "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
-      "checkedAt": "2026-07-11",
-      "note": "未找到 Panasonic G-11 可公開驗證的可信新品史低；2026-07-27 PChome 公開商品頁已人工確認 exact model 與現價 NT$11,800，但單一當日現價不作為歷史最低價，故維持 not_found。"
-    },
     "issueResearch": {
       "status": "no_common_issue",
       "checkedAt": "2026-08-18",
@@ -3539,6 +3526,19 @@
           "targetHost": "youtube.com"
         }
       ]
+    },
+    "historicalLow": {
+      "status": "found",
+      "amount": 9800,
+      "currency": "TWD",
+      "converted": 9800,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1282559191&cgp=11800",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：Panasonic 國際牌 G-11指紋密碼電子鎖",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「PCHome購物 / Panasonic 國際牌 G-11指紋密碼電子鎖」最低價為 NT$9,800，最低點日期 2026-07-20。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
+      "checkedAt": "2026-08-20",
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -4176,7 +4176,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-20",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -4566,7 +4566,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-20",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [

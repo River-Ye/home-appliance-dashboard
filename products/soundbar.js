@@ -52,19 +52,6 @@
       "旗艦"
     ],
     "releaseDate": "2025",
-    "historicalLow": {
-      "status": "not_found",
-      "amount": null,
-      "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
-      "checkedAt": "2026-07-14",
-      "note": "原記錄的 PChome HW-Q990F 商品 API 已不再回傳商品資料；本輪重新查核後找不到可公開重現 NT$42,914 的可信新品來源，因此不再保留無法驗證的 found 判定。"
-    },
     "issueResearch": {
       "status": "common_issue",
       "checkedAt": "2026-07-10",
@@ -98,6 +85,19 @@
           ]
         }
       ]
+    },
+    "historicalLow": {
+      "status": "found",
+      "amount": 42655,
+      "currency": "TWD",
+      "converted": 42655,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1251959744&cgp=44900",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：三星 HW-Q990F SoundBar重低音與後環繞喇叭 11.1.4聲道",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Yahoo購物中心 / 三星 HW-Q990F SoundBar重低音與後環繞喇叭 11.1.4聲道」最低價為 NT$42,655，最低點日期 2026-08-13。",
+      "sourceKind": "price_history",
+      "confidence": "high",
+      "checkedAt": "2026-08-20",
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -259,7 +259,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-20",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -547,7 +547,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-20",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -595,9 +595,9 @@
     "name": "Q 系列 9.1.4 聲道 Soundbar 家庭劇院",
     "price": {
       "currency": "TWD",
-      "amount": 49900,
-      "converted": 49900,
-      "confidence": "PChome 2026-08-19 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 42886,
+      "converted": 42886,
+      "confidence": "PChome 2026-08-20 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAAODA900K3QSM/000001_1782969828.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAAOD-A900K3QSM",
@@ -743,7 +743,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-20",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -841,7 +841,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-20",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1135,7 +1135,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-20",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1233,7 +1233,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-20",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1429,7 +1429,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-20",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -2117,7 +2117,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-20",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -2218,7 +2218,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-20",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -2615,7 +2615,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-20",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -2669,7 +2669,7 @@
       "confidence": "雅光電器 2026-08-14 exact-model 新品頁公開售價並標示尚有庫存",
       "basis": "retailer_current"
     },
-    "image": "https://panasonic.com/content/dam/panasonic/tw/zh/pim/dam/SC/SC-HTB/SC-HTB334GTK/ast-3076015.jpg",
+    "image": "https://img.yk01.com.tw/product/SC-HTB334GTK-2.png",
     "buyUrl": "https://www.yk01.com.tw/products/schtb334gtk",
     "buyLabel": "雅光電器",
     "installation": {

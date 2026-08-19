@@ -53,19 +53,6 @@
       "電影"
     ],
     "releaseDate": "2025-03-11",
-    "historicalLow": {
-      "status": "not_found",
-      "amount": null,
-      "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
-      "checkedAt": "2026-07-11",
-      "note": "未找到台灣型號 OLED65C5PTA 可公開驗證的可信新品史低；已排除 Amazon 美國版 65 吋 C5，因區域 SKU 並非完全相同型號。"
-    },
     "issueResearch": {
       "status": "no_common_issue",
       "checkedAt": "2026-08-18",
@@ -103,6 +90,19 @@
           "targetHost": "youtube.com"
         }
       ]
+    },
+    "historicalLow": {
+      "status": "found",
+      "amount": 48626,
+      "currency": "TWD",
+      "converted": 48626,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1270239534&cgp=49618",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：LG 樂金 65吋 OLED evo AI 4K 智慧顯示器 OLED65C5PTA(含基本安裝)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Yahoo購物中心 / LG 樂金 65吋 OLED evo AI 4K 智慧顯示器 OLED65C5PTA(含基本安裝)」最低價為 NT$48,626，最低點日期 2026-08-16。",
+      "sourceKind": "price_history",
+      "confidence": "high",
+      "checkedAt": "2026-08-20",
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -152,19 +152,6 @@
       "遊戲"
     ],
     "releaseDate": "2025",
-    "historicalLow": {
-      "status": "not_found",
-      "amount": null,
-      "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
-      "checkedAt": "2026-07-11",
-      "note": "未找到台灣型號 QA65S90FAEXZW 可公開驗證的可信新品史低；已排除 Amazon 美國版 S90F，因來源只證明同系列 65 吋而非完全相同區域 SKU。"
-    },
     "issueResearch": {
       "status": "no_common_issue",
       "checkedAt": "2026-08-18",
@@ -202,6 +189,19 @@
           "targetHost": "youtube.com"
         }
       ]
+    },
+    "historicalLow": {
+      "status": "found",
+      "amount": 47900,
+      "currency": "TWD",
+      "converted": 47900,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1250744439&cgp=50900",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【Samsung 三星】65型 4K 144Hz OLED AI智慧顯示器 65S90F 壁掛安裝(QA65S90FAEXZW)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【Samsung 三星】65型 4K 144Hz OLED AI智慧顯示器 65S90F 壁掛安裝(QA65S90FAEXZW)」最低價為 NT$47,900，最低點日期 2026-04-10。",
+      "sourceKind": "price_history",
+      "confidence": "high",
+      "checkedAt": "2026-08-20",
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -666,7 +666,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-20",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1755,7 +1755,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-20",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1839,19 +1839,6 @@
       "CP 值"
     ],
     "releaseDate": "找不到",
-    "historicalLow": {
-      "status": "not_found",
-      "amount": null,
-      "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
-      "checkedAt": "2026-07-11",
-      "note": "未找到 65U8040 可公開驗證的可信新品史低；原 NT$13,511 候選明確標示特價 B 品，依資料契約排除。"
-    },
     "issueResearch": {
       "status": "no_common_issue",
       "checkedAt": "2026-08-18",
@@ -1889,6 +1876,19 @@
           "targetHost": "youtube.com"
         }
       ]
+    },
+    "historicalLow": {
+      "status": "found",
+      "amount": 13999,
+      "currency": "TWD",
+      "converted": 13999,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1265602616&cgp=13999",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：AOC 65型 4K QLED Google TV 雙杜比認證 量子點智慧顯示器 含無線HDMI傳輸器 (65U8040)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「PCHome購物 / AOC 65型 4K QLED Google TV 雙杜比認證 量子點智慧顯示器 含無線HDMI傳輸器 (65U8040)」最低價為 NT$13,999，最低點日期 2026-08-20。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
+      "checkedAt": "2026-08-20",
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -2638,19 +2638,6 @@
       "旗艦"
     ],
     "releaseDate": "2026-06-08",
-    "historicalLow": {
-      "status": "not_found",
-      "amount": null,
-      "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
-      "checkedAt": "2026-07-18",
-      "note": "MRA65R95HAXXZW 於 2026-06-08 在台新上市；查核 exact-model 價格歷史與比價來源僅見 PChome 等可信通路上市現價 NT$106,900，未找到可公開驗證的可信新品歷史最低價。上市現價不得直接推定為史低；FindPrice 的更低候選為一般賣家或附最低購買量等不合規條件，均未採用。"
-    },
     "issueResearch": {
       "status": "no_common_issue",
       "checkedAt": "2026-08-18",
@@ -2688,6 +2675,19 @@
           "targetHost": "youtube.com"
         }
       ]
+    },
+    "historicalLow": {
+      "status": "found",
+      "amount": 106900,
+      "currency": "TWD",
+      "converted": 106900,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1282776794&cgp=106900",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：(店+)【Samsung 三星】【贈壁掛安裝服務】65吋 Micro RGB R95H 智慧顯示器 MRA65R95HAXXZW 液晶電視 台灣公司貨",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / (店+)【Samsung 三星】【贈壁掛安裝服務】65吋 Micro RGB R95H 智慧顯示器 MRA65R95HAXXZW 液晶電視 台灣公司貨」最低價為 NT$106,900，最低點日期 2026-08-20。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
+      "checkedAt": "2026-08-20",
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -2741,19 +2741,6 @@
       "高CP值"
     ],
     "releaseDate": "找不到",
-    "historicalLow": {
-      "status": "not_found",
-      "amount": null,
-      "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
-      "checkedAt": "2026-07-26",
-      "note": "已查 PChome、BigGo、FindPrice 與 Mobile01 exact-model 資料；NT$16,999 為本次現價，未找到可公開重現且符合可信新品條件的歷史最低價紀錄，未以現價推定史低。"
-    },
     "issueResearch": {
       "status": "no_common_issue",
       "checkedAt": "2026-08-18",
@@ -2791,6 +2778,19 @@
           "targetHost": "youtube.com"
         }
       ]
+    },
+    "historicalLow": {
+      "status": "found",
+      "amount": 16999,
+      "currency": "TWD",
+      "converted": 16999,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1259105630&cgp=16999",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【AOC】70型 4K QLED Google TV 智慧顯示器(70U8040)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【AOC】70型 4K QLED Google TV 智慧顯示器(70U8040)」最低價為 NT$16,999，最低點日期 2026-08-20。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
+      "checkedAt": "2026-08-20",
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -2844,19 +2844,6 @@
       "三年保固"
     ],
     "releaseDate": "找不到",
-    "historicalLow": {
-      "status": "not_found",
-      "amount": null,
-      "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
-      "checkedAt": "2026-07-26",
-      "note": "已查 PChome、BigGo、FindPrice 與 JVC 台灣 exact-model 資料；NT$18,888 為本次現價，未找到可公開重現且符合可信新品條件的歷史最低價紀錄，未以現價或點數回饋推定史低。"
-    },
     "issueResearch": {
       "status": "no_common_issue",
       "checkedAt": "2026-08-18",
@@ -2894,6 +2881,19 @@
           "targetHost": "youtube.com"
         }
       ]
+    },
+    "historicalLow": {
+      "status": "found",
+      "amount": 16729,
+      "currency": "TWD",
+      "converted": 16729,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1237926459&cgp=18888",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【JVC】70型 Apple認證AirPlay2 4K HDR 飛輪體感連網液晶顯示器(70TG2)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【JVC】70型 Apple認證AirPlay2 4K HDR 飛輪體感連網液晶顯示器(70TG2)」最低價為 NT$16,729，最低點日期 2025-11-09。",
+      "sourceKind": "price_history",
+      "confidence": "high",
+      "checkedAt": "2026-08-20",
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -2947,19 +2947,6 @@
       "32GB"
     ],
     "releaseDate": "找不到",
-    "historicalLow": {
-      "status": "not_found",
-      "amount": null,
-      "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
-      "checkedAt": "2026-07-26",
-      "note": "已查 PChome、Yahoo、BigGo、FindPrice 與 Philips exact-model 資料；NT$22,999 為本次現價，未找到可公開重現且符合可信新品條件的歷史最低價紀錄，未以現價推定史低。"
-    },
     "issueResearch": {
       "status": "no_common_issue",
       "checkedAt": "2026-08-18",
@@ -2997,6 +2984,19 @@
           "targetHost": "youtube.com"
         }
       ]
+    },
+    "historicalLow": {
+      "status": "found",
+      "amount": 21999,
+      "currency": "TWD",
+      "converted": 21999,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1265967186&cgp=24999",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：PHILIPS 飛利浦 70型4K QLED Google TV 智慧顯示器 70PQT8169/96",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「PCHome購物 / PHILIPS 飛利浦 70型4K QLED Google TV 智慧顯示器 70PQT8169/96」最低價為 NT$21,999，最低點日期 2026-04-10。",
+      "sourceKind": "price_history",
+      "confidence": "high",
+      "checkedAt": "2026-08-20",
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -3050,19 +3050,6 @@
       "同價備選"
     ],
     "releaseDate": "找不到",
-    "historicalLow": {
-      "status": "not_found",
-      "amount": null,
-      "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
-      "checkedAt": "2026-07-26",
-      "note": "已查 PChome、Yahoo、BigGo、FindPrice 與 Philips exact-model 資料；NT$22,999 為本次現價，未找到可公開重現且符合可信新品條件的歷史最低價紀錄，未以現價推定史低。"
-    },
     "issueResearch": {
       "status": "no_common_issue",
       "checkedAt": "2026-08-18",
@@ -3100,6 +3087,19 @@
           "targetHost": "youtube.com"
         }
       ]
+    },
+    "historicalLow": {
+      "status": "found",
+      "amount": 22999,
+      "currency": "TWD",
+      "converted": 22999,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1275100008&cgp=22999",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：PHILIPS 飛利浦 70型 4K QLED Google TV智慧顯示器70PQT8159",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「PCHome購物 / PHILIPS 飛利浦 70型 4K QLED Google TV智慧顯示器70PQT8159」最低價為 NT$22,999，最低點日期 2026-08-20。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
+      "checkedAt": "2026-08-20",
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -3270,7 +3270,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-20",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -3359,19 +3359,6 @@
       "壁掛"
     ],
     "releaseDate": "2026-07-08",
-    "historicalLow": {
-      "status": "not_found",
-      "amount": null,
-      "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
-      "checkedAt": "2026-08-06",
-      "note": "已查 LG 台灣官方、全聯全電商、BigGo 與 FindPrice exact-model 頁；NT$299,000 只證明本輪公開現價，沒有可重現的可信新品歷史價格曲線或明確最低點日期，因此不以現價推定史低。"
-    },
     "issueResearch": {
       "status": "no_common_issue",
       "checkedAt": "2026-08-18",
@@ -3409,6 +3396,19 @@
           "targetHost": "youtube.com"
         }
       ]
+    },
+    "historicalLow": {
+      "status": "found",
+      "amount": 284050,
+      "currency": "TWD",
+      "converted": 284050,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1282359272&cgp=284050",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：LG樂金 83吋OLED 4K連網智慧顯示器OLED83W6PTA 含壁掛安裝+附原廠壁掛架",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Yahoo購物中心 / LG樂金 83吋OLED 4K連網智慧顯示器OLED83W6PTA 含壁掛安裝+附原廠壁掛架」最低價為 NT$284,050，最低點日期 2026-08-20。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
+      "checkedAt": "2026-08-20",
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   }
 ]);

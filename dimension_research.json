@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-14",
+  "generatedAt": "2026-08-20",
   "sourcePolicy": "電視、Soundbar、洗衣機、烘衣機、洗烘衣機、電子衣櫥、冰箱、咖啡機、多功能氣炸烤箱／微波爐、洗碗機、免治馬桶、冷氣與熱水器共 13 類尺寸，以及電視、Soundbar、咖啡機、多功能氣炸烤箱／微波爐、冷氣與熱水器共 6 類重量研究，皆優先採 exact-model 官方產品頁、官方規格表或官方 PDF，其次為可信新品通路。只採本體／機身／明確組件的尺寸與淨重，排除包裝、外箱尺寸與毛重；來源沒有明示寬／深／高順序時不自行推定。冷氣分列室內機與室外機，熱泵複合熱水器必須分列主機與儲槽；既有各類研究列仍沿用相同 exact-model 邊界。",
   "results": [
     {
@@ -10,14 +10,14 @@
       "evidenceSnippet": "官方規格列出不含底座 1441 x 826 x 45.1 mm，含底座 1441 x 880 x 230 mm。",
       "confidence": "high",
       "isOfficialSource": true,
-      "checkedAt": "2026-08-01",
+      "checkedAt": "2026-08-20",
       "weight": "重量：不含底座 16.6 kg；含底座 18.5 kg",
       "weightSourceUrl": "https://www.lg.com/tw/tv-soundbars/oled-evo/oled65c5pta/",
       "weightSourceTitle": "LG OLED evo AI C5 65 吋智慧顯示器 OLED65C5PTA | LG 台灣",
       "weightEvidenceSnippet": "官方規格列出不含底座 16.6 kg，含底座 18.5 kg。",
       "weightConfidence": "high",
       "weightIsOfficialSource": true,
-      "weightCheckedAt": "2026-08-01"
+      "weightCheckedAt": "2026-08-20"
     },
     {
       "id": "tv-samsung-s90f-65",
@@ -27,14 +27,14 @@
       "evidenceSnippet": "官方尺寸欄列出不含底座 1444.3 x 831.7 x 39.9 mm，含底座 1444.3 x 896.7 x 265.2 mm。",
       "confidence": "high",
       "isOfficialSource": true,
-      "checkedAt": "2026-08-01",
+      "checkedAt": "2026-08-20",
       "weight": "重量：不含底座 19.1 kg；含底座 20.4 kg",
       "weightSourceUrl": "https://www.samsung.com/tw/tvs/oled-tv/s90f-65-inch-oled-4k-smart-tv-qa65s90faexzw/",
       "weightSourceTitle": "65 型 OLED S90F 4K 智慧顯示器 QA65S90FAEXZW | Samsung 台灣",
       "weightEvidenceSnippet": "官方重量欄列出機身不含底座 19.1 kg，機身包含底座 20.40 kg。",
       "weightConfidence": "high",
       "weightIsOfficialSource": true,
-      "weightCheckedAt": "2026-08-01"
+      "weightCheckedAt": "2026-08-20"
     },
     {
       "id": "tv-sony-bravia7-65",
@@ -44,14 +44,14 @@
       "evidenceSnippet": "官方規格列出不含底座約 1445 x 832 x 57 mm，含底座標準位置約 1445 x 856 x 345 mm。",
       "confidence": "high",
       "isOfficialSource": true,
-      "checkedAt": "2026-08-01",
+      "checkedAt": "2026-08-20",
       "weight": "重量：不含底座 約 27.1 kg；含底座 約 28.3 kg",
       "weightSourceUrl": "https://www.sony.com.tw/zh/electronics/support/televisions-projectors-monitors/y-65xr70/specifications",
       "weightSourceTitle": "Y-65XR70 規格 | Sony TW",
       "weightEvidenceSnippet": "官方規格列出不含底座架重量約 27.1 kg，附底座電視重量約 28.3 kg。",
       "weightConfidence": "high",
       "weightIsOfficialSource": true,
-      "weightCheckedAt": "2026-08-01"
+      "weightCheckedAt": "2026-08-20"
     },
     {
       "id": "tv-lg-c6-65",
@@ -61,14 +61,14 @@
       "evidenceSnippet": "官方規格列出不含底座 1441 x 826 x 45.1 mm，含底座 1441 x 880 x 230 mm。",
       "confidence": "high",
       "isOfficialSource": true,
-      "checkedAt": "2026-08-01",
+      "checkedAt": "2026-08-20",
       "weight": "重量：不含底座 16.6 kg；含底座 18.4 kg",
       "weightSourceUrl": "https://www.lg.com/tw/tv-soundbars/oled-evo/oled65c6pta/",
       "weightSourceTitle": "LG OLED evo AI C6 65 吋智慧顯示器 OLED65C6PTA | LG 台灣",
       "weightEvidenceSnippet": "官方規格列出不含底座 16.6 kg，含底座 18.4 kg。",
       "weightConfidence": "high",
       "weightIsOfficialSource": true,
-      "weightCheckedAt": "2026-08-01"
+      "weightCheckedAt": "2026-08-20"
     },
     {
       "id": "tv-sony-xr90m2-65",
@@ -95,14 +95,14 @@
       "evidenceSnippet": "官方尺寸欄列出不含底座 1509.5 x 894.9 x 26.4 mm，含底座 1509.5 x 933.7 x 256.8 mm。",
       "confidence": "high",
       "isOfficialSource": true,
-      "checkedAt": "2026-08-01",
+      "checkedAt": "2026-08-20",
       "weight": "重量：不含底座 20.9 kg；含底座 21.3 kg",
       "weightSourceUrl": "https://www.samsung.com/tw/tvs/oled-tv/s95h-65-inch-4k-smart-tv-qa65s95haxxzw/",
       "weightSourceTitle": "65 型 OLED S95H 4K 智慧顯示器 QA65S95HAXXZW | Samsung 台灣",
       "weightEvidenceSnippet": "官方重量欄列出機身不含底座 20.9 kg，機身包含底座 21.3 kg。",
       "weightConfidence": "high",
       "weightIsOfficialSource": true,
-      "weightCheckedAt": "2026-08-01"
+      "weightCheckedAt": "2026-08-20"
     },
     {
       "id": "tv-hisense-u7n-65",
@@ -129,14 +129,14 @@
       "evidenceSnippet": "官方規格列出不含底座 1445.3 x 837.4 x 90.8 mm，含底座 1445.3 x 894.7 x 300.9 mm。",
       "confidence": "high",
       "isOfficialSource": true,
-      "checkedAt": "2026-08-01",
+      "checkedAt": "2026-08-20",
       "weight": "重量：不含底座 15.3 kg；含底座 15.6 kg",
       "weightSourceUrl": "https://www.benq.com/zh-tw/tv/4k-uhd/e65-760/spec.html",
       "weightSourceTitle": "E65-760 規格 | BenQ 台灣",
       "weightEvidenceSnippet": "官方規格列出不含底座 15.3 kg，含底座 15.6 kg。",
       "weightConfidence": "high",
       "weightIsOfficialSource": true,
-      "weightCheckedAt": "2026-08-01"
+      "weightCheckedAt": "2026-08-20"
     },
     {
       "id": "tv-extra-6-dpad06-a900hlbjo",
@@ -163,14 +163,14 @@
       "evidenceSnippet": "官方規格列出不含底座 1441 x 826 x 24.3 mm，含底座 1441 x 865／910 x 263 mm。",
       "confidence": "high",
       "isOfficialSource": true,
-      "checkedAt": "2026-08-01",
+      "checkedAt": "2026-08-20",
       "weight": "重量：不含底座 22 kg；含底座 26.6 kg",
       "weightSourceUrl": "https://www.lg.com/tw/tv-soundbars/oled-evo/oled65g5pta/",
       "weightSourceTitle": "LG OLED evo AI G5 65 吋智慧顯示器 OLED65G5PTA | LG 台灣",
       "weightEvidenceSnippet": "官方規格列出不含底座 22 kg，含底座 26.6 kg。",
       "weightConfidence": "high",
       "weightIsOfficialSource": true,
-      "weightCheckedAt": "2026-08-01"
+      "weightCheckedAt": "2026-08-20"
     },
     {
       "id": "tv-extra-8-dpad09-a900j9faz",
@@ -197,14 +197,14 @@
       "evidenceSnippet": "官方尺寸欄列出機身 1444 x 830 x 68 mm，含底座 1444 x 896 x 280 mm。",
       "confidence": "high",
       "isOfficialSource": true,
-      "checkedAt": "2026-08-01",
+      "checkedAt": "2026-08-20",
       "weight": "重量：不含底座 23 kg；含底座 28 kg",
       "weightSourceUrl": "https://www.philips.com.tw/c-p/65OLED809_96/oled-4k-ambilight-display",
       "weightSourceTitle": "65OLED809/96 OLED 4K Ambilight 顯示器 | Philips 台灣",
       "weightEvidenceSnippet": "官方重量欄列出機身 23 kg，含底座 28 kg。",
       "weightConfidence": "high",
       "weightIsOfficialSource": true,
-      "weightCheckedAt": "2026-08-01"
+      "weightCheckedAt": "2026-08-20"
     },
     {
       "id": "tv-extra-10-dmbm10-a900ixjzg",
@@ -214,14 +214,14 @@
       "evidenceSnippet": "官方尺寸欄列出不含底座 1443.5 x 829.4 x 11.0 mm，含底座 1443.5 x 894.4 x 267.9 mm。",
       "confidence": "high",
       "isOfficialSource": true,
-      "checkedAt": "2026-08-01",
+      "checkedAt": "2026-08-20",
       "weight": "重量：不含底座 18.9 kg；含底座 29 kg",
       "weightSourceUrl": "https://www.samsung.com/tw/tvs/oled-tv/s95f-65-inch-oled-4k-smart-tv-qa65s95faxxzw/",
       "weightSourceTitle": "65 型 OLED S95F 4K 智慧顯示器 QA65S95FAXXZW | Samsung 台灣",
       "weightEvidenceSnippet": "官方重量欄列出機身不含底座 18.9 kg，機身包含底座 29.0 kg。",
       "weightConfidence": "high",
       "weightIsOfficialSource": true,
-      "weightCheckedAt": "2026-08-01"
+      "weightCheckedAt": "2026-08-20"
     },
     {
       "id": "tv-extra-11-dpadzm-a900k3904",
@@ -282,14 +282,14 @@
       "evidenceSnippet": "官方尺寸欄列出不含底座 1455.3 x 830.3 x 37.8 mm，含底座 1455.3 x 867.4 x 256.8 mm。",
       "confidence": "high",
       "isOfficialSource": true,
-      "checkedAt": "2026-08-01",
+      "checkedAt": "2026-08-20",
       "weight": "重量：不含底座 25.5 kg；含底座 25.9 kg",
       "weightSourceUrl": "https://www.samsung.com/tw/tvs/qled-tv/qn900f-65-inch-neo-qled-8k-mini-led-smart-tv-qa65qn900fxxzw/",
       "weightSourceTitle": "65 型 Neo QLED 8K QN900F 智慧顯示器 QA65QN900FXXZW | Samsung 台灣",
       "weightEvidenceSnippet": "官方重量欄列出機身不含底座 25.5 kg，機身包含底座 25.9 kg。",
       "weightConfidence": "high",
       "weightIsOfficialSource": true,
-      "weightCheckedAt": "2026-08-01"
+      "weightCheckedAt": "2026-08-20"
     },
     {
       "id": "tv-extra-15-dpad0o-1900jl0z8",
@@ -299,14 +299,14 @@
       "evidenceSnippet": "官方產品規格列出不含底座 1445.3 x 843 x 66.2 mm，含底座 1445.3 x 898.4 x 299.2 mm。",
       "confidence": "high",
       "isOfficialSource": true,
-      "checkedAt": "2026-08-01",
+      "checkedAt": "2026-08-20",
       "weight": "重量：不含底座 19.45 kg；含底座 19.75 kg",
       "weightSourceUrl": "https://www.benq.com/zh-tw/tv/miniled/j65-770/spec.html",
       "weightSourceTitle": "J65-770 規格 | BenQ 台灣",
       "weightEvidenceSnippet": "官方規格列出不含底座 19.45 kg，含底座 19.75 kg。",
       "weightConfidence": "high",
       "weightIsOfficialSource": true,
-      "weightCheckedAt": "2026-08-01"
+      "weightCheckedAt": "2026-08-20"
     },
     {
       "id": "tv-extra-16-dpadb2a900jgkqb",
@@ -350,7 +350,7 @@
       "evidenceSnippet": "品牌官方產品頁列出不含腳座 1445.3 x 831.5 x 67.3 mm，含腳座 1445.3 x 890 x 277 mm。",
       "confidence": "high",
       "isOfficialSource": true,
-      "checkedAt": "2026-08-01",
+      "checkedAt": "2026-08-20",
       "weight": "重量：查不到",
       "weightSourceUrl": "https://www.heran.com.tw/product/cq-65qx250/",
       "weightSourceTitle": "CQ-65QX250 | 禾聯家電",
@@ -367,7 +367,7 @@
       "evidenceSnippet": "官方頁列出不含底座 1445.3 x 831.9 x 91.7 mm，含底座 1445.3 x 894.7 x 300.9 mm。",
       "confidence": "high",
       "isOfficialSource": true,
-      "checkedAt": "2026-08-01",
+      "checkedAt": "2026-08-20",
       "weight": "重量：查不到",
       "weightSourceUrl": "https://www.tecohome.com.tw/tw/Products/Items/925",
       "weightSourceTitle": "4K + Google TV QU1 系列 TL65QU1TRE | TECO 東元",
@@ -435,14 +435,14 @@
       "evidenceSnippet": "exact-model 商品規格列出不含底座寬 167.3 x 深 7.9 x 高 96 cm，含底座寬 167.3 x 深 37 x 高 104.3 cm。",
       "confidence": "medium",
       "isOfficialSource": false,
-      "checkedAt": "2026-08-01",
+      "checkedAt": "2026-08-20",
       "weight": "重量：不含底座 28.9 kg；含底座 29.3 kg",
       "weightSourceUrl": "https://www.costco.com.tw/Televisions-Appliances/TV-Home-Entertainment/Televisions-TV-Accessories/70-79-TVs/Hisense-75-inch-4K-144Hz-HSR240-Full-Array-QLED-with-Dolby-VisionDolby-Atmos-VIDDA-Smart-Monitor-75Q7N/p/151005",
       "weightSourceTitle": "Hisense 75 吋 QLED 75Q7N | Costco 好市多",
       "weightEvidenceSnippet": "exact-model 商品規格列出不含底座 28.9 kg，含底座 29.3 kg。",
       "weightConfidence": "medium",
       "weightIsOfficialSource": false,
-      "weightCheckedAt": "2026-08-01"
+      "weightCheckedAt": "2026-08-20"
     },
     {
       "id": "tv-samsung-r95h-65",
@@ -459,7 +459,7 @@
       "weightEvidenceSnippet": "官方重量欄列出機身不含底座 22.4 kg，機身包含底座 23.8 kg。",
       "weightConfidence": "high",
       "weightIsOfficialSource": true,
-      "weightCheckedAt": "2026-08-01"
+      "weightCheckedAt": "2026-08-20"
     },
     {
       "id": "tv-aoc-70u8040",
@@ -554,14 +554,14 @@
       "evidenceSnippet": "官方規格列出不含底座 1441 x 826 x 24.3 mm，含底座 1441 x 865／910 x 263 mm。",
       "confidence": "high",
       "isOfficialSource": true,
-      "checkedAt": "2026-08-01",
+      "checkedAt": "2026-08-20",
       "weight": "重量：不含底座 22 kg；含底座 27.3 kg",
       "weightSourceUrl": "https://www.lg.com/tw/tv-soundbars/oled-evo/oled65g6pta/",
       "weightSourceTitle": "LG OLED evo AI G6 65 吋智慧顯示器 OLED65G6PTA | LG 台灣",
       "weightEvidenceSnippet": "官方規格列出不含底座 22 kg，含底座 27.3 kg。",
       "weightConfidence": "high",
       "weightIsOfficialSource": true,
-      "weightCheckedAt": "2026-08-01"
+      "weightCheckedAt": "2026-08-20"
     },
     {
       "id": "tv-lg-w6-83",
@@ -571,14 +571,14 @@
       "evidenceSnippet": "LG 官方 exact-model 規格列電視不含底座 1844 x 1061 x 9.95 mm，真無線影音盒 245 x 245 x 69.8 mm；底座欄為「-」，未自行補出含底座尺寸。",
       "confidence": "high",
       "isOfficialSource": true,
-      "checkedAt": "2026-08-06",
+      "checkedAt": "2026-08-20",
       "weight": "重量：不含底座 22.5 kg",
       "weightSourceUrl": "https://www.lg.com/tw/tv-soundbars/oled-evo/oled83w6pta/",
       "weightSourceTitle": "83 吋 Wallpaper TV LG OLED evo AI W6 OLED83W6PTA | LG 台灣",
       "weightEvidenceSnippet": "LG 官方 exact-model 規格列電視不含底座重量 22.5 kg；未提供真無線影音盒淨重，故不推算也不採包裝重量。",
       "weightConfidence": "high",
       "weightIsOfficialSource": true,
-      "weightCheckedAt": "2026-08-06"
+      "weightCheckedAt": "2026-08-20"
     },
     {
       "id": "soundbar-samsung-q990f",
@@ -588,14 +588,14 @@
       "evidenceSnippet": "官方規格列主機 1232 x 70.8 x 138 mm、後環繞 129.5 x 201.3 x 140.4 mm、重低音 249 x 251.8 x 249 mm（寬 x 高 x 深）。",
       "confidence": "high",
       "isOfficialSource": true,
-      "checkedAt": "2026-08-01",
+      "checkedAt": "2026-08-20",
       "weight": "重量：主機 7.3 kg；後環繞喇叭 3.4 kg；重低音 8.3 kg",
       "weightSourceUrl": "https://www.samsung.com/uk/business/audio-devices/soundbar/q990f-q-series-soundbar-with-subwoofer-and-rear-speakers-black-hw-q990f-xu/",
       "weightSourceTitle": "HW-Q990F Q-Series Soundbar - Samsung UK",
       "weightEvidenceSnippet": "官方規格列主機淨重 7.3 kg、後環繞喇叭 3.4 kg、重低音 8.3 kg。",
       "weightConfidence": "high",
       "weightIsOfficialSource": true,
-      "weightCheckedAt": "2026-08-01"
+      "weightCheckedAt": "2026-08-20"
     },
     {
       "id": "soundbar-samsung-q800h",
@@ -707,14 +707,14 @@
       "evidenceSnippet": "官方規格列主機 1160 x 51 x 120 mm、重低音 249 x 252 x 249 mm（寬 x 高 x 深）。",
       "confidence": "high",
       "isOfficialSource": true,
-      "checkedAt": "2026-08-01",
+      "checkedAt": "2026-08-20",
       "weight": "重量：主機 4.4 kg；重低音 4.8 kg",
       "weightSourceUrl": "https://www.samsung.com/cl/audio-devices/soundbar/qs700f-black-hw-qs700f-zs/",
       "weightSourceTitle": "HW-QS700F Q-Series Soundbar - Samsung Chile",
       "weightEvidenceSnippet": "官方規格列主機淨重 4.4 kg、重低音淨重 4.8 kg。",
       "weightConfidence": "high",
       "weightIsOfficialSource": true,
-      "weightCheckedAt": "2026-08-01"
+      "weightCheckedAt": "2026-08-20"
     },
     {
       "id": "soundbar-extra-8-dmbm1d-a900j5jaz",
@@ -724,14 +724,14 @@
       "evidenceSnippet": "官方規格列主機 1000 x 63 x 135 mm、後環繞 100 x 176.5 x 120 mm、重低音 201.7 x 407 x 403 mm（寬 x 高 x 深）。",
       "confidence": "high",
       "isOfficialSource": true,
-      "checkedAt": "2026-08-01",
+      "checkedAt": "2026-08-20",
       "weight": "重量：主機 4.3 kg；後環繞喇叭（2 只） 2.34 kg；重低音 10 kg",
       "weightSourceUrl": "https://www.lg.com/sa_en/small-medium-business/tv-soundbars/soundbars/s80tr/",
       "weightSourceTitle": "LG S80TR Soundbar - LG Saudi Arabia",
       "weightEvidenceSnippet": "官方規格列主機 4.3 kg、後環繞喇叭兩只 2.34 kg、重低音 10 kg。",
       "weightConfidence": "high",
       "weightIsOfficialSource": true,
-      "weightCheckedAt": "2026-08-01"
+      "weightCheckedAt": "2026-08-20"
     },
     {
       "id": "soundbar-extra-9-dpado2-a900k5vut",
@@ -775,14 +775,14 @@
       "evidenceSnippet": "官方規格列主機 900 x 52 x 74.5 mm、後環繞 83 x 180 x 74.5 mm、無線擴大器 160 x 52 x 160 mm、重低音 192 x 387 x 366 mm（寬 x 高 x 深）。",
       "confidence": "high",
       "isOfficialSource": true,
-      "checkedAt": "2026-08-01",
+      "checkedAt": "2026-08-20",
       "weight": "重量：主機 2 kg；無線擴大器 0.8 kg；重低音 7.8 kg",
       "weightSourceUrl": "https://www.sony.com.tw/en/electronics/sound-bars/ht-s40r/specifications",
       "weightSourceTitle": "HT-S40R Specifications - Sony Taiwan",
       "weightEvidenceSnippet": "官方規格明列主機 2 kg、無線擴大器 0.8 kg、重低音 7.8 kg；後環繞未在重量欄標示。",
       "weightConfidence": "high",
       "weightIsOfficialSource": true,
-      "weightCheckedAt": "2026-08-01"
+      "weightCheckedAt": "2026-08-20"
     },
     {
       "id": "soundbar-extra-12-dmaamt-a900i5hho",
@@ -792,7 +792,7 @@
       "evidenceSnippet": "官方 exact-model 規格列主機尺寸 900 x 64 x 88 mm（寬 x 高 x 深）。",
       "confidence": "high",
       "isOfficialSource": true,
-      "checkedAt": "2026-08-01",
+      "checkedAt": "2026-08-20",
       "weight": "重量：主機 2.4 kg",
       "weightSourceUrl": "https://www.sony.jp/home-theater/products/HT-S100F/spec.html",
       "weightSourceTitle": "HT-S100F 主な仕様 - Sony 日本",
@@ -860,14 +860,14 @@
       "evidenceSnippet": "官方 exact-model 規格列主機尺寸 1100 x 67 x 88 mm（寬 x 高 x 深）。",
       "confidence": "high",
       "isOfficialSource": true,
-      "checkedAt": "2026-08-01",
+      "checkedAt": "2026-08-20",
       "weight": "重量：主機 2.3 kg",
       "weightSourceUrl": "https://www.philips.com.tw/c-p/TAB4288_96/soundbar-20",
       "weightSourceTitle": "TAB4288/96 Soundbar 2.0 - Philips 台灣",
       "weightEvidenceSnippet": "官方 exact-model 規格列主機重量 2.3 kg。",
       "weightConfidence": "high",
       "weightIsOfficialSource": true,
-      "weightCheckedAt": "2026-08-01"
+      "weightCheckedAt": "2026-08-20"
     },
     {
       "id": "soundbar-extra-17-dmbm1da900hpuxn",
@@ -877,14 +877,14 @@
       "evidenceSnippet": "官方 exact-model 規格列主機尺寸 1100 x 64 x 113 mm（寬 x 高 x 深）。",
       "confidence": "high",
       "isOfficialSource": true,
-      "checkedAt": "2026-08-01",
+      "checkedAt": "2026-08-20",
       "weight": "重量：主機 4.7 kg",
       "weightSourceUrl": "https://www.sony.com.tw/zh/electronics/support/sound-bars-home-theater-systems-sound-bars-surround-speakers/ht-a8000/specifications",
       "weightSourceTitle": "HT-A8000 規格 - Sony 台灣",
       "weightEvidenceSnippet": "官方 exact-model 規格列主機重量 4.7 kg。",
       "weightConfidence": "high",
       "weightIsOfficialSource": true,
-      "weightCheckedAt": "2026-08-01"
+      "weightCheckedAt": "2026-08-20"
     },
     {
       "id": "soundbar-extra-18-dmbm1da900iuzuj",
@@ -928,14 +928,14 @@
       "evidenceSnippet": "官方 exact-model 規格列主機尺寸 1200 x 73 x 125 mm（寬 x 高 x 深）。",
       "confidence": "high",
       "isOfficialSource": true,
-      "checkedAt": "2026-08-01",
+      "checkedAt": "2026-08-20",
       "weight": "重量：主機 7.2 kg",
       "weightSourceUrl": "https://www.philips.com.tw/c-p/TAFB1_96/fidelio-soundbar-7.1.2-with-integrated-subwoofer",
       "weightSourceTitle": "TAFB1/96 Fidelio Soundbar - Philips 台灣",
       "weightEvidenceSnippet": "官方 exact-model 規格列主機重量 7.2 kg。",
       "weightConfidence": "high",
       "weightIsOfficialSource": true,
-      "weightCheckedAt": "2026-08-01"
+      "weightCheckedAt": "2026-08-20"
     },
     {
       "id": "soundbar-marshall-heston-120",
@@ -945,14 +945,14 @@
       "evidenceSnippet": "官方 exact-model 技術規格列寬 1100 mm、高 76 mm、深 145 mm。",
       "confidence": "high",
       "isOfficialSource": true,
-      "checkedAt": "2026-08-01",
+      "checkedAt": "2026-08-20",
       "weight": "重量：主機 7.04 kg",
       "weightSourceUrl": "https://www.marshall.com/gb/en/product/heston-120",
       "weightSourceTitle": "Heston 120 TV Soundbar - Marshall 官方網站",
       "weightEvidenceSnippet": "官方 exact-model 技術規格列主機重量 7.04 kg。",
       "weightConfidence": "high",
       "weightIsOfficialSource": true,
-      "weightCheckedAt": "2026-08-01"
+      "weightCheckedAt": "2026-08-20"
     },
     {
       "id": "soundbar-marshall-heston-60",
@@ -962,14 +962,14 @@
       "evidenceSnippet": "官方 exact-model 技術規格列寬 730 mm、高 68 mm、深 124 mm。",
       "confidence": "high",
       "isOfficialSource": true,
-      "checkedAt": "2026-08-01",
+      "checkedAt": "2026-08-20",
       "weight": "重量：主機 2.76 kg",
       "weightSourceUrl": "https://www.marshall.com/us/en/product/heston-60?pid=1008950",
       "weightSourceTitle": "Heston 60 TV Soundbar - Marshall 官方網站",
       "weightEvidenceSnippet": "官方 exact-model 技術規格列主機重量 2.76 kg。",
       "weightConfidence": "high",
       "weightIsOfficialSource": true,
-      "weightCheckedAt": "2026-08-01"
+      "weightCheckedAt": "2026-08-20"
     },
     {
       "id": "soundbar-costco-denon-dht-s517",
@@ -979,7 +979,7 @@
       "evidenceSnippet": "官方規格列主機 1050 x 60 x 95 mm、重低音 172 x 370 x 290 mm（寬 x 高 x 深）。",
       "confidence": "high",
       "isOfficialSource": true,
-      "checkedAt": "2026-08-01",
+      "checkedAt": "2026-08-20",
       "weight": "重量：主機 2.5 kg；重低音 4.3 kg",
       "weightSourceUrl": "https://www.denon.com/ja-jp/product/sound-bars/dht-s517/DHTS517JP.html",
       "weightSourceTitle": "DHT-S517 Soundbar - Denon 日本",
@@ -996,14 +996,14 @@
       "evidenceSnippet": "官方規格列主機 811 x 37 x 42 mm、重低音 155 x 391 x 161 mm（寬 x 高 x 深）。",
       "confidence": "high",
       "isOfficialSource": true,
-      "checkedAt": "2026-08-01",
+      "checkedAt": "2026-08-20",
       "weight": "重量：主機 0.61 kg；重低音 3.69 kg",
       "weightSourceUrl": "https://www.philips.com.tw/c-p/TAB6309_96/soundbar-21",
       "weightSourceTitle": "TAB6309/96 Soundbar 2.1 - Philips 台灣",
       "weightEvidenceSnippet": "官方規格列主機重量 0.61 kg、重低音重量 3.69 kg。",
       "weightConfidence": "high",
       "weightIsOfficialSource": true,
-      "weightCheckedAt": "2026-08-01"
+      "weightCheckedAt": "2026-08-20"
     },
     {
       "id": "soundbar-costco-soodatek-ss0220",
@@ -1030,7 +1030,7 @@
       "evidenceSnippet": "官方規格表列主機 1030 x 58 x 136 mm、每只後環繞 202 x 58 x 136 mm、重低音 315 x 277 x 275 mm（寬 x 高 x 深）。",
       "confidence": "high",
       "isOfficialSource": true,
-      "checkedAt": "2026-08-01",
+      "checkedAt": "2026-08-20",
       "weight": "重量：主機 5.93 kg；後環繞喇叭每只 1.3 kg；重低音 12 kg",
       "weightSourceUrl": "https://support.jbl.com/on/demandware.static/-/Sites-masterCatalog_Harman/default/dwfd85926a/pdfs/JBL_BAR_1300MK2_Specsheet_EN.pdf",
       "weightSourceTitle": "JBL BAR 1300MK2 Specification Sheet",
@@ -1586,7 +1586,7 @@
       "evidenceSnippet": "Yahoo購物中心規格表列出「型號 WT-VDN12HM」與「尺寸 寬540*深560*高945 mm」。",
       "confidence": "medium",
       "isOfficialSource": false,
-      "checkedAt": "2026-07-09"
+      "checkedAt": "2026-08-20"
     },
     {
       "id": "washer-lg-wt-td16hw",
@@ -1596,7 +1596,7 @@
       "evidenceSnippet": "Yahoo購物中心規格表列出「型號 WT-TD16HW」與「尺寸 651x680x1060 mm」。",
       "confidence": "medium",
       "isOfficialSource": false,
-      "checkedAt": "2026-07-09"
+      "checkedAt": "2026-08-20"
     },
     {
       "id": "washer-lg-wt-td18ob",
@@ -1606,7 +1606,7 @@
       "evidenceSnippet": "Yahoo購物中心規格表列出「型號 WT-TD18OB」與「尺寸 651x680x1060 mm」。",
       "confidence": "medium",
       "isOfficialSource": false,
-      "checkedAt": "2026-07-09"
+      "checkedAt": "2026-08-20"
     },
     {
       "id": "washer-panasonic-na-v190mt-pn",
@@ -1636,7 +1636,7 @@
       "evidenceSnippet": "Yahoo購物中心規格表列出「型號 NA-V130LB-L」與「尺寸 554x640x1015mm」；Panasonic 官方站內搜尋 NA-V130LB 未找到相符項目。",
       "confidence": "medium",
       "isOfficialSource": false,
-      "checkedAt": "2026-07-09"
+      "checkedAt": "2026-08-20"
     },
     {
       "id": "washer-lg-wd-s13vbw",
@@ -1646,7 +1646,7 @@
       "evidenceSnippet": "Yahoo購物中心規格表列出「型號 WD-S13VBW」與「尺寸 600 x 850 x 615 mm」；依滾筒機常見寬高深標示換算為寬60、深61.5、高85cm。",
       "confidence": "medium",
       "isOfficialSource": false,
-      "checkedAt": "2026-07-09"
+      "checkedAt": "2026-08-20"
     },
     {
       "id": "washer-sampo-wm-md10",
@@ -1656,7 +1656,7 @@
       "evidenceSnippet": "Yahoo購物中心規格表列出「型號 WM-MD10」與「尺寸 595*1035*607(mm)」；依直立機高度判讀為寬高深並換算成寬深高。",
       "confidence": "medium",
       "isOfficialSource": false,
-      "checkedAt": "2026-07-09"
+      "checkedAt": "2026-08-20"
     },
     {
       "id": "washer-panasonic-na-90eb-w",
@@ -1676,7 +1676,7 @@
       "evidenceSnippet": "Yahoo 規格表列「尺寸：540*930*562 mm」；依洗衣機常見 W*H*D 順序換算並重排為寬/深/高。",
       "confidence": "medium",
       "isOfficialSource": false,
-      "checkedAt": "2026-07-09"
+      "checkedAt": "2026-08-20"
     },
     {
       "id": "washer-whirlpool-wm07pw",
@@ -1686,7 +1686,7 @@
       "evidenceSnippet": "Yahoo 規格表列「尺寸：500 x 895 x 535 mm」；依洗衣機常見 W*H*D 順序換算並重排為寬/深/高。",
       "confidence": "medium",
       "isOfficialSource": false,
-      "checkedAt": "2026-07-09"
+      "checkedAt": "2026-08-20"
     },
     {
       "id": "washer-heran-hwm-1061v",
@@ -1696,7 +1696,7 @@
       "evidenceSnippet": "HERAN 官方商品規格列「機體尺寸」與「寬550*高940*深582(㎜)」。",
       "confidence": "high",
       "isOfficialSource": true,
-      "checkedAt": "2026-07-09"
+      "checkedAt": "2026-08-20"
     },
     {
       "id": "washer-sampo-es-k10df",
@@ -1706,7 +1706,7 @@
       "evidenceSnippet": "Yahoo 規格表列「尺寸：595*1035*607(mm)」；依洗衣機常見 W*H*D 順序換算並重排為寬/深/高。",
       "confidence": "medium",
       "isOfficialSource": false,
-      "checkedAt": "2026-07-09"
+      "checkedAt": "2026-08-20"
     },
     {
       "id": "washer-sampo-wm-md13",
@@ -1716,7 +1716,7 @@
       "evidenceSnippet": "Yahoo 規格表列「機體尺寸：(寬)606* (高)1015 * (深)620mm」。",
       "confidence": "high",
       "isOfficialSource": false,
-      "checkedAt": "2026-07-09"
+      "checkedAt": "2026-08-20"
     },
     {
       "id": "washer-sampo-es-b13f",
@@ -1726,7 +1726,7 @@
       "evidenceSnippet": "Yahoo 規格表列「尺寸：601*990*611mm(寬*高*深)」。",
       "confidence": "high",
       "isOfficialSource": false,
-      "checkedAt": "2026-07-09"
+      "checkedAt": "2026-08-20"
     },
     {
       "id": "washer-whirlpool-wm10gn",
@@ -1736,7 +1736,7 @@
       "evidenceSnippet": "Yahoo 規格表列「尺寸：570 x 950 x 592 mm」；依洗衣機常見 W*H*D 順序換算並重排為寬/深/高。",
       "confidence": "medium",
       "isOfficialSource": false,
-      "checkedAt": "2026-07-09"
+      "checkedAt": "2026-08-20"
     },
     {
       "id": "washer-sanlux-sw-13dvgs",
@@ -1746,7 +1746,7 @@
       "evidenceSnippet": "Yahoo 規格表列「尺寸：寬550x深615x高1030mm」。",
       "confidence": "high",
       "isOfficialSource": false,
-      "checkedAt": "2026-07-09"
+      "checkedAt": "2026-08-20"
     },
     {
       "id": "washer-heran-hwm-0691",
@@ -1756,7 +1756,7 @@
       "evidenceSnippet": "HERAN 官方商品規格列「機體尺寸」與「寬510*高860*深510(㎜)」。",
       "confidence": "high",
       "isOfficialSource": true,
-      "checkedAt": "2026-07-09"
+      "checkedAt": "2026-08-20"
     },
     {
       "id": "washer-samsung-ww12bb744dgbtw",
@@ -1766,7 +1766,7 @@
       "evidenceSnippet": "實體規格標示為「淨寬 X 淨高 X 淨深」600 x 850 x 695 mm，已換算為 cm。",
       "confidence": "high",
       "isOfficialSource": true,
-      "checkedAt": "2026-07-09"
+      "checkedAt": "2026-08-20"
     },
     {
       "id": "washer-sanlux-sw-v15n",
@@ -1776,7 +1776,7 @@
       "evidenceSnippet": "詳細規格列「外型尺寸(mm)：寬598x深658x高1030」；包裝箱尺寸另列，未採用。",
       "confidence": "high",
       "isOfficialSource": true,
-      "checkedAt": "2026-07-09"
+      "checkedAt": "2026-08-20"
     },
     {
       "id": "washer-costco-sharp-es-asf10t",
@@ -1786,7 +1786,7 @@
       "evidenceSnippet": "規格參數列「本體尺寸 (cm)--(不含軟管)：55.5x59.5x89.5」；外箱尺寸另列，未採用。",
       "confidence": "high",
       "isOfficialSource": true,
-      "checkedAt": "2026-07-09"
+      "checkedAt": "2026-08-20"
     },
     {
       "id": "washer-costco-samsung-wa80f13s5ltw",
@@ -1796,7 +1796,7 @@
       "evidenceSnippet": "實體規格標示為「淨寬 X 淨高 X 淨深」610 x 1089 x 675 mm，已換算並重排為寬深高。",
       "confidence": "high",
       "isOfficialSource": true,
-      "checkedAt": "2026-07-09"
+      "checkedAt": "2026-08-20"
     },
     {
       "id": "washer-costco-panasonic-na-v120hw",
@@ -1806,7 +1806,7 @@
       "evidenceSnippet": "商品規格列「商品尺寸 寬 59.5公分 X 深 59.5公分 X 高 85公分」；外箱尺寸另列，未採用。",
       "confidence": "high",
       "isOfficialSource": false,
-      "checkedAt": "2026-07-09"
+      "checkedAt": "2026-08-20"
     },
     {
       "id": "washer-samsung-wa80f16b9btw",
@@ -1816,7 +1816,7 @@
       "evidenceSnippet": "Samsung 官方 exact-model 規格列實體規格（淨寬 x 淨高 x 淨深）637 x 1093 x 701 mm；本列依欄位名稱轉為寬 x 深 x 高 cm，未採包裝尺寸。",
       "confidence": "high",
       "isOfficialSource": true,
-      "checkedAt": "2026-08-06"
+      "checkedAt": "2026-08-20"
     },
     {
       "id": "washer-hitachi-sf-170zhv",
@@ -1836,7 +1836,7 @@
       "evidenceSnippet": "規格表列「尺寸：長600x寬595x高740mm」，已將長視為深度並換算為 cm。",
       "confidence": "high",
       "isOfficialSource": false,
-      "checkedAt": "2026-07-09"
+      "checkedAt": "2026-08-20"
     },
     {
       "id": "dryer-panasonic-nh-70g-l",
@@ -1846,7 +1846,7 @@
       "evidenceSnippet": "規格表列「尺寸：600mm X 545mm X 800mm」；來源未標寬深高，依乾衣機本體規格慣例解讀為寬x深x高。",
       "confidence": "medium",
       "isOfficialSource": false,
-      "checkedAt": "2026-07-09"
+      "checkedAt": "2026-08-20"
     },
     {
       "id": "dryer-whirlpool-8twgd5010pw",
@@ -1856,7 +1856,7 @@
       "evidenceSnippet": "規格表列「尺寸：737 x 1029x 721 mm」；來源未標欄位，依乾衣機規格解讀為寬x高x深。",
       "confidence": "medium",
       "isOfficialSource": false,
-      "checkedAt": "2026-07-09"
+      "checkedAt": "2026-08-20"
     },
     {
       "id": "dryer-whirlpool-8twgd5050pw",
@@ -1866,7 +1866,7 @@
       "evidenceSnippet": "規格表列「尺寸：737 x 1029x 721 mm」；來源未標欄位，依乾衣機規格解讀為寬x高x深。",
       "confidence": "medium",
       "isOfficialSource": false,
-      "checkedAt": "2026-07-09"
+      "checkedAt": "2026-08-20"
     },
     {
       "id": "dryer-whirlpool-8twgd8620hw",
@@ -1896,7 +1896,7 @@
       "evidenceSnippet": "官方詳細規格列：外型尺寸(mm) 寬600x深473x高834；另有包裝箱尺寸但未採用。",
       "confidence": "high",
       "isOfficialSource": true,
-      "checkedAt": "2026-07-09"
+      "checkedAt": "2026-08-20"
     },
     {
       "id": "dryer-sanlux-sd-85ua",
@@ -1906,7 +1906,7 @@
       "evidenceSnippet": "官方詳細規格列：外型尺寸(mm) 寬660x深590x高740；另有包裝箱尺寸但未採用。",
       "confidence": "high",
       "isOfficialSource": true,
-      "checkedAt": "2026-07-09"
+      "checkedAt": "2026-08-20"
     },
     {
       "id": "dryer-sanlux-sd-88u",
@@ -1926,7 +1926,7 @@
       "evidenceSnippet": "Yahoo 商品詳細規格列：本體尺寸：寬596×深667×高845(mm)；同段另列外箱尺寸，未採用。Panasonic 官方頁查詢受 403 阻擋。",
       "confidence": "medium",
       "isOfficialSource": false,
-      "checkedAt": "2026-07-09"
+      "checkedAt": "2026-08-20"
     },
     {
       "id": "dryer-whirlpool-8twgd6622hw",
@@ -1946,7 +1946,7 @@
       "evidenceSnippet": "官方規格列：外觀尺寸(寬*高*深)mm 595 * 685 * 510；已調整為寬x深x高。",
       "confidence": "high",
       "isOfficialSource": true,
-      "checkedAt": "2026-07-09"
+      "checkedAt": "2026-08-20"
     },
     {
       "id": "dryer-hitachi-td120xfvem",
@@ -1976,7 +1976,7 @@
       "evidenceSnippet": "商品圖規格表標示：機體尺寸 600(寬)x820(高)x545(深)mm；另列外包裝尺寸但未採用。",
       "confidence": "high",
       "isOfficialSource": false,
-      "checkedAt": "2026-07-09"
+      "checkedAt": "2026-08-20"
     },
     {
       "id": "dryer-tatung-taw-d60t",
@@ -1986,7 +1986,7 @@
       "evidenceSnippet": "商品規格圖標示 TAW-D60T 機身寬 600mm、高 690mm、深 480mm；換算為寬60、深48、高69 cm。",
       "confidence": "high",
       "isOfficialSource": false,
-      "checkedAt": "2026-07-09"
+      "checkedAt": "2026-08-20"
     },
     {
       "id": "dryer-heran-hdm-0841",
@@ -2066,7 +2066,7 @@
       "evidenceSnippet": "LG 官方規格列出產品尺寸 (WxHxD mm) 600 x 850 x 615；換算並重排為寬60、深61.5、高85 cm。",
       "confidence": "high",
       "isOfficialSource": true,
-      "checkedAt": "2026-07-09"
+      "checkedAt": "2026-08-20"
     },
     {
       "id": "washerdryer-whirlpool-wweb10701bs",
@@ -2086,7 +2086,7 @@
       "evidenceSnippet": "商品詳情列出 BD-D1054HVO 商品規格：外觀尺寸：寬600 x 深635 x 高850 mm；另列安裝尺寸與包裝尺寸，因此取外觀尺寸。",
       "confidence": "medium",
       "isOfficialSource": false,
-      "checkedAt": "2026-07-09"
+      "checkedAt": "2026-08-20"
     },
     {
       "id": "washerdryer-whirlpool-wehc10bbs",
@@ -2096,7 +2096,7 @@
       "evidenceSnippet": "Yahoo 結構化規格表標示型號 WEHC10BBS、尺寸 600 x 850 x 635mm；同型號通路規格標示產品尺寸為寬x高x深，故轉為寬600 x 深635 x 高850 mm。",
       "confidence": "medium",
       "isOfficialSource": false,
-      "checkedAt": "2026-07-09"
+      "checkedAt": "2026-08-20"
     },
     {
       "id": "washerdryer-samsung-wd12t504dbn-tw",
@@ -2106,7 +2106,7 @@
       "evidenceSnippet": "官方規格「實體規格」標示：實體規格（淨寬 X 淨高 X 淨深）600 x 850 x 650 mm；包裝箱尺寸另列，未採用包裝尺寸。",
       "confidence": "high",
       "isOfficialSource": true,
-      "checkedAt": "2026-07-09"
+      "checkedAt": "2026-08-20"
     },
     {
       "id": "washerdryer-panasonic-na-v170mdh-w",
@@ -2126,7 +2126,7 @@
       "evidenceSnippet": "官方主要規格與所有規格標示：產品尺寸 (WxHxD mm) 600 x 850 x 615。",
       "confidence": "high",
       "isOfficialSource": true,
-      "checkedAt": "2026-07-09"
+      "checkedAt": "2026-08-20"
     },
     {
       "id": "washerdryer-whirlpool-8twfc6820lw",
@@ -2156,7 +2156,7 @@
       "evidenceSnippet": "官方主要規格與所有規格標示：產品尺寸 (WxHxD mm) 650x950x780，故轉為寬650 x 深780 x 高950 mm。",
       "confidence": "high",
       "isOfficialSource": true,
-      "checkedAt": "2026-07-09"
+      "checkedAt": "2026-08-20"
     },
     {
       "id": "washerdryer-samsung-wd12db9b84gntw",
@@ -2166,7 +2166,7 @@
       "evidenceSnippet": "官方規格列「實體規格 (淨寬 X 淨高 X 淨深) 600 x 850 x 550 mm」，已轉為寬/深/高。",
       "confidence": "high",
       "isOfficialSource": true,
-      "checkedAt": "2026-07-09"
+      "checkedAt": "2026-08-20"
     },
     {
       "id": "washerdryer-samsung-wd12db9b84gdtw",
@@ -2176,7 +2176,7 @@
       "evidenceSnippet": "官方規格列「實體規格 (淨寬 X 淨高 X 淨深) 600 x 850 x 550 mm」，已轉為寬/深/高。",
       "confidence": "high",
       "isOfficialSource": true,
-      "checkedAt": "2026-07-09"
+      "checkedAt": "2026-08-20"
     },
     {
       "id": "washerdryer-panasonic-na-v120hdh",
@@ -2186,7 +2186,7 @@
       "evidenceSnippet": "通路頁規格列「機體尺寸：595x595x850mm」；同頁另列外箱尺寸 675x720x860mm，已排除外箱。",
       "confidence": "medium",
       "isOfficialSource": false,
-      "checkedAt": "2026-07-09"
+      "checkedAt": "2026-08-20"
     },
     {
       "id": "washerdryer-lg-wd-s18vdw",
@@ -2196,7 +2196,7 @@
       "evidenceSnippet": "LG 台灣官方主要規格標示產品尺寸（寬x高x深 mm）700 x 990 x 770，已轉為寬 70 x 深 77 x 高 99 cm。",
       "confidence": "high",
       "isOfficialSource": true,
-      "checkedAt": "2026-07-11"
+      "checkedAt": "2026-08-20"
     },
     {
       "id": "washerdryer-whirlpool-8twfc6810lw",
@@ -2206,7 +2206,7 @@
       "evidenceSnippet": "通路頁規格表列「尺寸 686 x 982 x 802mm」；依滾筒洗衣機常見規格順序判讀為寬 x 高 x 深，已轉為寬/深/高。",
       "confidence": "medium",
       "isOfficialSource": false,
-      "checkedAt": "2026-07-09"
+      "checkedAt": "2026-08-20"
     },
     {
       "id": "washerdryer-toshiba-twd-bj130m4g",
@@ -2216,7 +2216,7 @@
       "evidenceSnippet": "官方規格列「尺寸 寬x深x高(mm) 595 x 645 x 850」；另有 680 x 725 x 875 為含箱尺寸，已排除。",
       "confidence": "high",
       "isOfficialSource": true,
-      "checkedAt": "2026-07-09"
+      "checkedAt": "2026-08-20"
     },
     {
       "id": "washerdryer-panasonic-na-v150mdh",
@@ -2226,7 +2226,7 @@
       "evidenceSnippet": "通路頁列「商品尺寸(寬*深*高)：640*773*1035mm」；同頁外箱尺寸 775*880*1160mm 已排除。",
       "confidence": "medium",
       "isOfficialSource": false,
-      "checkedAt": "2026-07-09"
+      "checkedAt": "2026-08-20"
     },
     {
       "id": "washerdryer-sanlux-awd-1260ka",
@@ -2236,7 +2236,7 @@
       "evidenceSnippet": "官方規格列「尺寸(mm) 寬600x深610(含門深度630)x高850」；另有寬700x深720x高890為外箱尺寸，已排除。",
       "confidence": "high",
       "isOfficialSource": true,
-      "checkedAt": "2026-07-09"
+      "checkedAt": "2026-08-20"
     },
     {
       "id": "washerdryer-sanlux-awd-1390ha",
@@ -2246,7 +2246,7 @@
       "evidenceSnippet": "官方規格列「尺寸(mm) 寬600x深631x高850」；另有寬690x深730x高890為外箱尺寸，已排除。",
       "confidence": "high",
       "isOfficialSource": true,
-      "checkedAt": "2026-07-09"
+      "checkedAt": "2026-08-20"
     },
     {
       "id": "washerdryer-sampo-es-nd10dh",
@@ -2256,7 +2256,7 @@
       "evidenceSnippet": "Yahoo 商品規格表列品牌 SAMPO聲寶、型號 ES-ND10DH、尺寸 595*845*610mm、重量 75kg；已查 SAMPO 官網常見 product/search/sitemap URL 未找到官方頁，依滾筒洗衣機常見寬x高x深順序轉為寬/深/高。",
       "confidence": "medium",
       "isOfficialSource": false,
-      "checkedAt": "2026-07-09"
+      "checkedAt": "2026-08-20"
     },
     {
       "id": "washerdryer-costco-electrolux-eww1243r7wc",
@@ -2266,7 +2266,7 @@
       "evidenceSnippet": "官方規格列：機體寬度 600 mm、機體深度 659 mm、機體高度 850 mm。",
       "confidence": "high",
       "isOfficialSource": true,
-      "checkedAt": "2026-07-09"
+      "checkedAt": "2026-08-20"
     },
     {
       "id": "washerdryer-costco-sharp-es-fd13bt",
@@ -2276,7 +2276,7 @@
       "evidenceSnippet": "SHARP 官方頁列本體尺寸(不含軟管) 600x664x857；同型號 Costco 規格表列商品尺寸長 66.4公分 X 寬 60公分 X 高 85.7公分，據此轉為寬/深/高。",
       "confidence": "high",
       "isOfficialSource": true,
-      "checkedAt": "2026-07-09"
+      "checkedAt": "2026-08-20"
     },
     {
       "id": "washerdryer-costco-electrolux-eww1123p5wc",
@@ -2286,7 +2286,7 @@
       "evidenceSnippet": "官方規格列：機體寬度 600 mm、機體深度 659 mm、機體高度 850 mm。",
       "confidence": "high",
       "isOfficialSource": true,
-      "checkedAt": "2026-07-09"
+      "checkedAt": "2026-08-20"
     },
     {
       "id": "washerdryer-lg-wd-s1818pb",
@@ -2296,7 +2296,7 @@
       "evidenceSnippet": "LG 台灣官方規格列產品尺寸（寬 x 高 x 深）642 x 1850 x 777 mm，已轉為寬／深／高公分。",
       "confidence": "high",
       "isOfficialSource": true,
-      "checkedAt": "2026-07-18"
+      "checkedAt": "2026-08-20"
     },
     {
       "id": "washerdryer-lg-wd-s2220b",
@@ -2306,7 +2306,7 @@
       "evidenceSnippet": "LG 台灣官方主要規格列出產品尺寸 (WxHxD mm) 為 700x1890x830；重排為寬、深、高並換算為 70 x 83 x 189 cm。",
       "confidence": "high",
       "isOfficialSource": true,
-      "checkedAt": "2026-07-22"
+      "checkedAt": "2026-08-20"
     },
     {
       "id": "washerdryer-samsung-wd90h22ahstw",
@@ -2316,7 +2316,7 @@
       "evidenceSnippet": "Samsung 台灣官方規格表列型號 WD90H22AHSTW，產品尺寸（WxHxD）為 686 x 1110 x 875 mm；本列依專案格式轉為寬 x 深 x 高 cm。",
       "confidence": "high",
       "isOfficialSource": true,
-      "checkedAt": "2026-07-24"
+      "checkedAt": "2026-08-20"
     },
     {
       "id": "washerdryer-panasonic-na-sd10tb",
@@ -2336,7 +2336,7 @@
       "evidenceSnippet": "LG 台灣官方 exact-model 新聞稿與產品頁均列產品尺寸（WxHxD）為 700 x 990 x 840 mm；本列依專案格式重排並換算為寬 70 x 深 84 x 高 99 cm，未使用包裝尺寸。",
       "confidence": "high",
       "isOfficialSource": true,
-      "checkedAt": "2026-08-05"
+      "checkedAt": "2026-08-20"
     },
     {
       "id": "washerdryer-panasonic-na-v170rph-k",
@@ -2576,7 +2576,7 @@
       "evidenceSnippet": "LG 官方 structured data 列：尺寸和重量 - 產品尺寸（寬x高x深，mm）= 555 x 1445 x 637。",
       "confidence": "high",
       "isOfficialSource": true,
-      "checkedAt": "2026-07-09"
+      "checkedAt": "2026-08-20"
     },
     {
       "id": "refrigerator-lg-gn-l266svn",
@@ -2586,7 +2586,7 @@
       "evidenceSnippet": "LG 官方 structured data 列：尺寸和重量 - 產品尺寸（寬x高x深，mm）= 555 x 1680 x 637。",
       "confidence": "high",
       "isOfficialSource": true,
-      "checkedAt": "2026-07-09"
+      "checkedAt": "2026-08-20"
     },
     {
       "id": "refrigerator-panasonic-nr-c505xv-w",
@@ -2646,7 +2646,7 @@
       "evidenceSnippet": "官方規格列「淨寬 555 mm」、「淨高(含門軸) 1545 mm」、「淨深(含把手) 637 mm」；未採包裝箱尺寸。",
       "confidence": "high",
       "isOfficialSource": true,
-      "checkedAt": "2026-07-09"
+      "checkedAt": "2026-08-20"
     },
     {
       "id": "refrigerator-sampo-sr-f12gd",
@@ -2656,7 +2656,7 @@
       "evidenceSnippet": "官方規格頁列「外觀尺寸(寬*高*深)mm」為「470(寬)*1140(高)*497(深)」，換算並重排為寬47、深49.7、高114cm。",
       "confidence": "high",
       "isOfficialSource": true,
-      "checkedAt": "2026-07-09"
+      "checkedAt": "2026-08-20"
     },
     {
       "id": "refrigerator-sanlux-sr-v430b",
@@ -2686,7 +2686,7 @@
       "evidenceSnippet": "官方產品頁列「外型尺寸 : 寬 480X 深 580 X 高1292mm」，規格表亦列寬480、深580、高1292。",
       "confidence": "high",
       "isOfficialSource": true,
-      "checkedAt": "2026-07-09"
+      "checkedAt": "2026-08-20"
     },
     {
       "id": "refrigerator-sanlux-sr-c192bv1",
@@ -2696,7 +2696,7 @@
       "evidenceSnippet": "Yahoo 商品圖標示「寬545X深623X高1345mm」；三洋官方現行分類頁未列 SR-C192BV1。",
       "confidence": "medium",
       "isOfficialSource": false,
-      "checkedAt": "2026-07-09"
+      "checkedAt": "2026-08-20"
     },
     {
       "id": "refrigerator-hitachi-rv469",
@@ -2716,7 +2716,7 @@
       "evidenceSnippet": "官方尺寸區標示：寬度 700 mm、高度 1825 mm、深度 717 mm。",
       "confidence": "high",
       "isOfficialSource": true,
-      "checkedAt": "2026-07-09"
+      "checkedAt": "2026-08-20"
     },
     {
       "id": "refrigerator-sampo-sr-c35gd",
@@ -2726,7 +2726,7 @@
       "evidenceSnippet": "官方規格表標示「外觀尺寸(寬*高*深)mm：595(寬)*1850(高)*660(深)」。",
       "confidence": "high",
       "isOfficialSource": true,
-      "checkedAt": "2026-07-09"
+      "checkedAt": "2026-08-20"
     },
     {
       "id": "refrigerator-sampo-sr-c37d",
@@ -2756,7 +2756,7 @@
       "evidenceSnippet": "夏普官方規格參數列出「本體尺寸(cm)：54.5 x 62.5 x 170」。",
       "confidence": "high",
       "isOfficialSource": true,
-      "checkedAt": "2026-07-09"
+      "checkedAt": "2026-08-20"
     },
     {
       "id": "refrigerator-costco-samsung-rt35cg562cb1tw",
@@ -2766,7 +2766,7 @@
       "evidenceSnippet": "官方尺寸區標示：寬度 600 mm、高度 1715 mm、深度 709 mm。",
       "confidence": "high",
       "isOfficialSource": true,
-      "checkedAt": "2026-07-09"
+      "checkedAt": "2026-08-20"
     },
     {
       "id": "refrigerator-costco-panasonic-nr-b65cv-s",
@@ -2786,7 +2786,7 @@
       "evidenceSnippet": "SHARP 台灣 exact-model 規格頁列本體尺寸為寬 89.2 x 深 76.8 x 高 183.0 cm；同頁另列外箱尺寸，本列採本體而非包裝尺寸。",
       "confidence": "high",
       "isOfficialSource": true,
-      "checkedAt": "2026-07-24"
+      "checkedAt": "2026-08-20"
     },
     {
       "id": "refrigerator-hitachi-r-hw620yj",
@@ -3044,7 +3044,7 @@
       "weightEvidenceSnippet": "exact-model 規格明列淨重 5.3 kg、總重 7.1 kg；本列只採淨重，未使用總重。",
       "weightConfidence": "medium",
       "weightIsOfficialSource": false,
-      "weightCheckedAt": "2026-08-04"
+      "weightCheckedAt": "2026-08-20"
     },
     {
       "id": "coffee-delonghi-em450-m",
@@ -3156,14 +3156,14 @@
       "evidenceSnippet": "台灣總代理 exact-model 官方產品規格列「尺寸(cm)：寬28.5 x 深36.5 x 高40」；本列直接採機身尺寸，未使用包裝或外箱尺寸。",
       "confidence": "high",
       "isOfficialSource": true,
-      "checkedAt": "2026-08-05",
+      "checkedAt": "2026-08-20",
       "weight": "重量：9.3 kg",
       "weightSourceUrl": "https://www.stilusa.com.tw/zh-TW/products/ec9255m",
       "weightSourceTitle": "De'Longhi EC9255M 台灣總代理官方產品頁",
       "weightEvidenceSnippet": "台灣總代理 exact-model 官方產品規格列重量 9.3kg；本列採用產品本體重量，未使用包裝毛重。",
       "weightConfidence": "high",
       "weightIsOfficialSource": true,
-      "weightCheckedAt": "2026-08-05"
+      "weightCheckedAt": "2026-08-20"
     },
     {
       "id": "coffee-breville-bes878xl",
@@ -3224,14 +3224,14 @@
       "evidenceSnippet": "官方尺寸和重量欄列高 347 mm、寬 500 mm、深 456 mm，並註明顯示尺寸為約略值。",
       "confidence": "high",
       "isOfficialSource": true,
-      "checkedAt": "2026-08-01",
+      "checkedAt": "2026-08-20",
       "weight": "重量：約 15.7 kg",
       "weightSourceUrl": "https://www.panasonic.com/tw/consumer/kitchen/microwave/nn-bs607.html",
       "weightSourceTitle": "微波爐 蒸烘烤微波爐 NN-BS607 - Panasonic 台灣",
       "weightEvidenceSnippet": "官方尺寸和重量欄列重量 15.7 kg，並註明顯示重量為約略值。",
       "weightConfidence": "high",
       "weightIsOfficialSource": true,
-      "weightCheckedAt": "2026-08-01"
+      "weightCheckedAt": "2026-08-20"
     },
     {
       "id": "oven-whirlpool-mwp269",
@@ -3241,14 +3241,14 @@
       "evidenceSnippet": "可信經銷頁的 exact-model 規格列商品尺寸含把手寬 x 高 x 深為 450 x 367 x 498 mm。",
       "confidence": "medium",
       "isOfficialSource": false,
-      "checkedAt": "2026-08-01",
+      "checkedAt": "2026-08-20",
       "weight": "重量：19 kg",
       "weightSourceUrl": "https://www.keshop.com.tw/products/whirlpool-mwp269tmt",
       "weightSourceTitle": "Whirlpool 惠而浦 MWP269TMT 26公升 8合1變頻氣炸蒸烤微波爐 - 嘉儀家品",
       "weightEvidenceSnippet": "可信經銷頁的 exact-model 規格列商品重量為 19 kg。",
       "weightConfidence": "medium",
       "weightIsOfficialSource": false,
-      "weightCheckedAt": "2026-08-01"
+      "weightCheckedAt": "2026-08-20"
     },
     {
       "id": "oven-panasonic-bs807",
@@ -3258,14 +3258,14 @@
       "evidenceSnippet": "官方尺寸和重量欄列高 370 mm、寬 494 mm、深 479 mm，並註明顯示尺寸為約略值。",
       "confidence": "high",
       "isOfficialSource": true,
-      "checkedAt": "2026-08-01",
+      "checkedAt": "2026-08-20",
       "weight": "重量：約 20.3 kg",
       "weightSourceUrl": "https://www.panasonic.com/tw/consumer/kitchen/microwave/nn-bs807.html",
       "weightSourceTitle": "微波爐 蒸烘烤微波爐 NN-BS807 - Panasonic 台灣",
       "weightEvidenceSnippet": "官方尺寸和重量欄列重量 20.3 kg，並註明顯示重量為約略值。",
       "weightConfidence": "high",
       "weightIsOfficialSource": true,
-      "weightCheckedAt": "2026-08-01"
+      "weightCheckedAt": "2026-08-20"
     },
     {
       "id": "oven-sharp-xp10",
@@ -3275,14 +3275,14 @@
       "evidenceSnippet": "官方基本規格列本體尺寸為 50(W) x 46.5(D) x 42(H) cm。",
       "confidence": "high",
       "isOfficialSource": true,
-      "checkedAt": "2026-08-01",
+      "checkedAt": "2026-08-20",
       "weight": "重量：23 kg",
       "weightSourceUrl": "https://tw.sharp/products/ax-xp10t",
       "weightSourceTitle": "全新 HEALSIO 炙燒水波爐 AX-XP10T - SHARP Taiwan",
       "weightEvidenceSnippet": "官方基本規格列 AX-XP10T 本體重量為 23 kg。",
       "weightConfidence": "high",
       "weightIsOfficialSource": true,
-      "weightCheckedAt": "2026-08-01"
+      "weightCheckedAt": "2026-08-20"
     },
     {
       "id": "oven-breville-joule",
@@ -3299,7 +3299,7 @@
       "weightEvidenceSnippet": "品牌官方 exact-model 頁明確列示產品重量 38.89 lb，換算約 17.6 kg。",
       "weightConfidence": "high",
       "weightIsOfficialSource": true,
-      "weightCheckedAt": "2026-08-01"
+      "weightCheckedAt": "2026-08-20"
     },
     {
       "id": "oven-extra-6-dmbj02-a900i9lq2",
@@ -3343,14 +3343,14 @@
       "evidenceSnippet": "官方尺寸和重量欄列高 370 mm、寬 494 mm、深 486 mm，並註明顯示尺寸為約略值。",
       "confidence": "high",
       "isOfficialSource": true,
-      "checkedAt": "2026-08-01",
+      "checkedAt": "2026-08-20",
       "weight": "重量：約 20.4 kg",
       "weightSourceUrl": "https://www.panasonic.com/tw/consumer/kitchen/microwave/nn-bs1700.html",
       "weightSourceTitle": "微波爐 蒸烘烤微波爐 NN-BS1700 - Panasonic 台灣",
       "weightEvidenceSnippet": "官方尺寸和重量欄列重量 20.4 kg，並註明顯示重量為約略值。",
       "weightConfidence": "high",
       "weightIsOfficialSource": true,
-      "weightCheckedAt": "2026-08-01"
+      "weightCheckedAt": "2026-08-20"
     },
     {
       "id": "oven-extra-9-dmbj03-a900iyx0l",
@@ -3360,14 +3360,14 @@
       "evidenceSnippet": "可信經銷頁 exact-model 規格列寬 x 高 x 深為 487 x 382 x 533 mm。",
       "confidence": "medium",
       "isOfficialSource": false,
-      "checkedAt": "2026-08-01",
+      "checkedAt": "2026-08-20",
       "weight": "重量：23.8 kg",
       "weightSourceUrl": "https://www.keshop.com.tw/products/whirlpool-mwp329tst",
       "weightSourceTitle": "Whirlpool 惠而浦 MWP329TST 32公升變頻氣炸烤微波爐 - 嘉儀家品",
       "weightEvidenceSnippet": "可信經銷頁 exact-model 規格列商品重量為 23.8 kg。",
       "weightConfidence": "medium",
       "weightIsOfficialSource": false,
-      "weightCheckedAt": "2026-08-01"
+      "weightCheckedAt": "2026-08-20"
     },
     {
       "id": "oven-extra-10-dmbm0g-a900hf91a",
@@ -3411,14 +3411,14 @@
       "evidenceSnippet": "官方基本規格列本體尺寸為 50(W) x 46.5(D) x 42(H) cm。",
       "confidence": "high",
       "isOfficialSource": true,
-      "checkedAt": "2026-08-01",
+      "checkedAt": "2026-08-20",
       "weight": "重量：23 kg",
       "weightSourceUrl": "https://tw.sharp/products/ax-xw10t",
       "weightSourceTitle": "旗艦系列 AIoT 智慧連網水波爐 AX-XW10T - SHARP Taiwan",
       "weightEvidenceSnippet": "官方基本規格列 AX-XW10T 本體重量為 23 kg。",
       "weightConfidence": "high",
       "weightIsOfficialSource": true,
-      "weightCheckedAt": "2026-08-01"
+      "weightCheckedAt": "2026-08-20"
     },
     {
       "id": "oven-extra-13-dmbj7p-1900hcm99",
@@ -3428,14 +3428,14 @@
       "evidenceSnippet": "官方尺寸和重量欄列高 376 mm、寬 404 mm、深 438 mm，並註明顯示尺寸為約略值。",
       "confidence": "high",
       "isOfficialSource": true,
-      "checkedAt": "2026-08-01",
+      "checkedAt": "2026-08-20",
       "weight": "重量：約 13.6 kg",
       "weightSourceUrl": "https://www.panasonic.com/tw/consumer/kitchen/oven/steam-oven-cubie/nu-sc180b.html",
       "weightSourceTitle": "蒸氣烘烤爐 NU-SC180B - Panasonic 台灣",
       "weightEvidenceSnippet": "官方尺寸和重量欄列重量 13.6 kg，並註明顯示重量為約略值。",
       "weightConfidence": "high",
       "weightIsOfficialSource": true,
-      "weightCheckedAt": "2026-08-01"
+      "weightCheckedAt": "2026-08-20"
     },
     {
       "id": "oven-extra-14-dmbj0r-a900jt4zv",
@@ -3445,14 +3445,14 @@
       "evidenceSnippet": "官方規格列本體尺寸寬 500 x 深 475 x 高 420 mm。",
       "confidence": "high",
       "isOfficialSource": true,
-      "checkedAt": "2026-08-01",
+      "checkedAt": "2026-08-20",
       "weight": "重量：23 kg",
       "weightSourceUrl": "https://tw.sharp/products/ax-xs10t",
       "weightSourceTitle": "AX-XS10T 水波爐 - SHARP Taiwan",
       "weightEvidenceSnippet": "官方規格列 AX-XS10T 本體重量為 23 kg。",
       "weightConfidence": "high",
       "weightIsOfficialSource": true,
-      "weightCheckedAt": "2026-08-01"
+      "weightCheckedAt": "2026-08-20"
     },
     {
       "id": "oven-extra-15-dmbj6q-a900eo9m8",
@@ -3479,14 +3479,14 @@
       "evidenceSnippet": "官方規格列產品尺寸 W x H x D 為 544 x 327 x 525 mm。",
       "confidence": "high",
       "isOfficialSource": true,
-      "checkedAt": "2026-08-01",
+      "checkedAt": "2026-08-20",
       "weight": "重量：15 kg",
       "weightSourceUrl": "https://www.lg.com/tw/cooking-appliances/microwave-ovens/mj3965bcp/",
       "weightSourceTitle": "39公升 NeoChef Objet Collection 微波爐 MJ3965BCP - LG 台灣",
       "weightEvidenceSnippet": "品牌官方 exact-model 規格列產品重量為 15.0 kg。",
       "weightConfidence": "high",
       "weightIsOfficialSource": true,
-      "weightCheckedAt": "2026-08-01"
+      "weightCheckedAt": "2026-08-20"
     },
     {
       "id": "oven-extra-17-dmbj0fa900aex9t",
@@ -3547,7 +3547,7 @@
       "evidenceSnippet": "品牌官方 exact-model 規格列機體尺寸寬 595 x 深 495 x 高 457 mm。",
       "confidence": "high",
       "isOfficialSource": true,
-      "checkedAt": "2026-08-01",
+      "checkedAt": "2026-08-20",
       "weight": "重量：查不到",
       "weightSourceUrl": "https://www.svago-kitchens.com.tw/Product/View/81491",
       "weightSourceTitle": "蒸烘烤微波爐 VE8966 - svago",
@@ -3581,14 +3581,14 @@
       "evidenceSnippet": "可信通路 exact-model 規格明列產品尺寸 D387 x W297 x H292 mm，並另列包裝尺寸；本欄只採產品本體尺寸。",
       "confidence": "medium",
       "isOfficialSource": false,
-      "checkedAt": "2026-08-01",
+      "checkedAt": "2026-08-20",
       "weight": "重量：約 5.6 kg",
       "weightSourceUrl": "https://www.costco.com.tw/Televisions-Appliances/Kitchen-Appliances/Cookers-Oven-Microwaves-Food-Waste-Machine/Gourmia-Digital-Air-Fryer-GAF858/p/6232432",
       "weightSourceTitle": "Gourmia 數位氣炸鍋 GAF858 - Costco 好市多",
       "weightEvidenceSnippet": "可信通路 exact-model 規格列商品重量約 5.6 kg，非包裝毛重。",
       "weightConfidence": "medium",
       "weightIsOfficialSource": false,
-      "weightCheckedAt": "2026-08-01"
+      "weightCheckedAt": "2026-08-20"
     },
     {
       "id": "oven-costco-sharp-ax-as10t",
@@ -3632,14 +3632,14 @@
       "evidenceSnippet": "可信台灣實體家電通路的 exact-model 商品欄列 33H x 40W x 37D cm；本列依明示方向轉為寬 x 深 x 高，未使用包裝尺寸。",
       "confidence": "medium",
       "isOfficialSource": false,
-      "checkedAt": "2026-08-06",
+      "checkedAt": "2026-08-20",
       "weight": "重量：10.5 kg",
       "weightSourceUrl": "https://sharkninja.tw/products/combi-sfp701tw",
       "weightSourceTitle": "NINJA Combi SFP701TW 14 合 1 蒸烤箱 | SharkNinja Taiwan",
       "weightEvidenceSnippet": "SharkNinja 台灣官方 exact-model 規格明列產品重量 10.5 kg；未使用包裝毛重。",
       "weightConfidence": "high",
       "weightIsOfficialSource": true,
-      "weightCheckedAt": "2026-08-06"
+      "weightCheckedAt": "2026-08-20"
     },
     {
       "id": "dishwasher-panasonic-np-k1ywhr2tw",
@@ -3649,7 +3649,7 @@
       "evidenceSnippet": "品牌官方 exact-model 尺寸和重量欄分別明列寬 550 mm、深 344 mm、高 598 mm。",
       "confidence": "high",
       "isOfficialSource": true,
-      "checkedAt": "2026-08-01"
+      "checkedAt": "2026-08-20"
     },
     {
       "id": "dishwasher-teco-xyfyw-5001cbw",
@@ -3679,7 +3679,7 @@
       "evidenceSnippet": "可信通路 exact-model 規格列產品尺寸寬 550 x 深 345 x 高 500 mm；未採用含水管的延伸深度。",
       "confidence": "medium",
       "isOfficialSource": false,
-      "checkedAt": "2026-08-01"
+      "checkedAt": "2026-08-20"
     },
     {
       "id": "dishwasher-bosch-sms2iti06x",
@@ -3689,7 +3689,7 @@
       "evidenceSnippet": "品牌官方 exact-model 技術規格明列機體尺寸（高 x 寬 x 深）845 x 600 x 600 mm。",
       "confidence": "high",
       "isOfficialSource": true,
-      "checkedAt": "2026-08-01"
+      "checkedAt": "2026-08-20"
     },
     {
       "id": "dishwasher-electrolux-eff3360vwb",
@@ -3699,7 +3699,7 @@
       "evidenceSnippet": "品牌官方 exact-model 規格列產品寬度 598 mm、深度 598 mm、高度 850 mm。",
       "confidence": "high",
       "isOfficialSource": true,
-      "checkedAt": "2026-08-01"
+      "checkedAt": "2026-08-20"
     },
     {
       "id": "dishwasher-lg-dfb533fw",
@@ -3709,7 +3709,7 @@
       "evidenceSnippet": "品牌官方 exact-model 規格明列產品尺寸（寬 x 高 x 深）600 x 850 x 600 mm。",
       "confidence": "high",
       "isOfficialSource": true,
-      "checkedAt": "2026-08-01"
+      "checkedAt": "2026-08-20"
     },
     {
       "id": "dishwasher-whirlpool-wdfs2r4pwetw",
@@ -3729,7 +3729,7 @@
       "evidenceSnippet": "可信通路的 exact-model 商品頁明確列示尺寸（寬 x 深 x 高）為 598 x 600 x 850 mm。",
       "confidence": "medium",
       "isOfficialSource": false,
-      "checkedAt": "2026-08-01"
+      "checkedAt": "2026-08-20"
     },
     {
       "id": "dishwasher-sakura-e-7682",
@@ -3739,7 +3739,7 @@
       "evidenceSnippet": "可信通路 exact-model 規格列機體尺寸寬 598 x 深 570 x 高 815 mm，採機體尺寸而非櫥櫃開孔。",
       "confidence": "medium",
       "isOfficialSource": false,
-      "checkedAt": "2026-08-01"
+      "checkedAt": "2026-08-20"
     },
     {
       "id": "dishwasher-bosch-sju4ekw00w",
@@ -3749,7 +3749,7 @@
       "evidenceSnippet": "品牌官方 exact-model 技術規格明列機體尺寸（高 x 寬 x 深）775 x 598 x 573 mm。",
       "confidence": "high",
       "isOfficialSource": true,
-      "checkedAt": "2026-08-01"
+      "checkedAt": "2026-08-20"
     },
     {
       "id": "dishwasher-fisher-paykel-dd60shi9",
@@ -3759,7 +3759,7 @@
       "evidenceSnippet": "品牌官方 exact-model 尺寸欄列高度 410 mm、寬度 599 mm、深度 553 mm。",
       "confidence": "high",
       "isOfficialSource": true,
-      "checkedAt": "2026-08-01"
+      "checkedAt": "2026-08-20"
     },
     {
       "id": "dishwasher-lg-dfb335hs",
@@ -3769,7 +3769,7 @@
       "evidenceSnippet": "品牌官方 exact-model 規格明列產品尺寸（寬 x 高 x 深）600 x 850 x 600 mm。",
       "confidence": "high",
       "isOfficialSource": true,
-      "checkedAt": "2026-08-01"
+      "checkedAt": "2026-08-20"
     },
     {
       "id": "dishwasher-asko-dbi544id-w-tw",
@@ -3799,7 +3799,7 @@
       "evidenceSnippet": "品牌官方產品頁的 KDW-156W 規格明確列示尺寸為寬 44.5 x 深 47.5 x 高 47.6 cm。",
       "confidence": "high",
       "isOfficialSource": true,
-      "checkedAt": "2026-08-01"
+      "checkedAt": "2026-08-20"
     },
     {
       "id": "dishwasher-extra-17-dmbr17a900ihtz3",
@@ -3819,7 +3819,7 @@
       "evidenceSnippet": "品牌官方 exact-model 規格明列機體尺寸（寬 x 深 x 高）55 x 36 x 50 cm。",
       "confidence": "high",
       "isOfficialSource": true,
-      "checkedAt": "2026-08-01"
+      "checkedAt": "2026-08-20"
     },
     {
       "id": "dishwasher-extra-19-dmbr0pa900iamac",
@@ -3839,7 +3839,7 @@
       "evidenceSnippet": "品牌官方台灣規格頁列產品尺寸為寬 550 x 高 598 x 深 350 mm，換算後按寬深高呈現。",
       "confidence": "high",
       "isOfficialSource": true,
-      "checkedAt": "2026-08-01"
+      "checkedAt": "2026-08-20"
     },
     {
       "id": "dishwasher-costco-bosch-sps2ikw00x",
@@ -3849,7 +3849,7 @@
       "evidenceSnippet": "品牌官方 exact-model 技術規格明列機體尺寸（高 x 寬 x 深）845 x 450 x 600 mm。",
       "confidence": "high",
       "isOfficialSource": true,
-      "checkedAt": "2026-08-01"
+      "checkedAt": "2026-08-20"
     },
     {
       "id": "dishwasher-costco-bosch-sms4itw00x",
@@ -3859,7 +3859,7 @@
       "evidenceSnippet": "品牌官方 exact-model 技術規格明列機體尺寸（高 x 寬 x 深）845 x 600 x 600 mm。",
       "confidence": "high",
       "isOfficialSource": true,
-      "checkedAt": "2026-08-01"
+      "checkedAt": "2026-08-20"
     },
     {
       "id": "dishwasher-costco-electrolux-eff3560vxb",
@@ -3869,7 +3869,7 @@
       "evidenceSnippet": "品牌官方 exact-model 規格列產品寬度 598 mm、深度 598 mm、高度 850 mm。",
       "confidence": "high",
       "isOfficialSource": true,
-      "checkedAt": "2026-08-01"
+      "checkedAt": "2026-08-20"
     },
     {
       "id": "dishwasher-panasonic-np-2ktbgr1tw",
@@ -3899,7 +3899,7 @@
       "evidenceSnippet": "Bosch 台灣官方 exact-model 規格列機體尺寸（高 x 寬 x 深）815 x 598 x 550 mm，另列包裝尺寸 880 x 660 x 670 mm；本資料只採機體尺寸，轉為寬 59.8 x 深 55 x 高 81.5 cm。",
       "confidence": "high",
       "isOfficialSource": true,
-      "checkedAt": "2026-08-11"
+      "checkedAt": "2026-08-20"
     },
     {
       "id": "dishwasher-rinnai-rkw-601c-sv-tr",
@@ -4429,14 +4429,14 @@
       "evidenceSnippet": "RECHI 官方 AT-062AI11(YDLE) 規格明示機體高 1678、寬 560、深 560 mm；換算為寬 56 x 深 56 x 高 167.8 cm，採本體尺寸，非包裝尺寸。",
       "confidence": "high",
       "isOfficialSource": true,
-      "checkedAt": "2026-08-14",
+      "checkedAt": "2026-08-20",
       "weight": "重量：107 kg",
       "weightSourceUrl": "https://www.rechi.com/chn/Product/heat_pump",
       "weightSourceTitle": "RECHI 瑞智官方空氣能熱水器 AT-062AI11(YDLE) 規格",
       "weightEvidenceSnippet": "RECHI 官方 AT-062AI11(YDLE) 規格明示空機重量 107 kg；採空機本體重量，非滿水重量、毛重或包裝重量。",
       "weightConfidence": "high",
       "weightIsOfficialSource": true,
-      "weightCheckedAt": "2026-08-14"
+      "weightCheckedAt": "2026-08-20"
     },
     {
       "id": "waterheater-hmk-hmt-010200",
@@ -4684,7 +4684,7 @@
       "evidenceSnippet": "官方規格列產品型號 TCF8342TW，尺寸 W462 x D531 x H131 mm。",
       "confidence": "high",
       "isOfficialSource": true,
-      "checkedAt": "2026-08-01"
+      "checkedAt": "2026-08-20"
     },
     {
       "id": "bidet-toto-c2",
@@ -4694,7 +4694,7 @@
       "evidenceSnippet": "官方規格列產品型號 TCF23710ATW，尺寸 W473 x D531 x H168 mm。",
       "confidence": "high",
       "isOfficialSource": true,
-      "checkedAt": "2026-08-01"
+      "checkedAt": "2026-08-20"
     },
     {
       "id": "bidet-panasonic-pstk09",
@@ -4704,7 +4704,7 @@
       "evidenceSnippet": "官方 exact-model 規格分欄明列高 112 mm、寬 465 mm、深 517 mm。",
       "confidence": "high",
       "isOfficialSource": true,
-      "checkedAt": "2026-08-01"
+      "checkedAt": "2026-08-20"
     },
     {
       "id": "bidet-kohler-c3430",
@@ -4724,7 +4724,7 @@
       "evidenceSnippet": "官方 exact-model 產品頁規格列尺寸 W383 x D530 x H103 mm。",
       "confidence": "high",
       "isOfficialSource": true,
-      "checkedAt": "2026-08-01"
+      "checkedAt": "2026-08-20"
     },
     {
       "id": "bidet-extra-7-dmal6i-a900jewps",
@@ -4744,7 +4744,7 @@
       "evidenceSnippet": "官方 exact-model 產品頁規格列尺寸 W382 x D533 x H139 mm。",
       "confidence": "high",
       "isOfficialSource": true,
-      "checkedAt": "2026-08-01"
+      "checkedAt": "2026-08-20"
     },
     {
       "id": "bidet-extra-9-dmal6w-a900jw0lw",
@@ -4754,7 +4754,7 @@
       "evidenceSnippet": "官方 exact-model 產品頁規格列尺寸 W469 x D533 x H139 mm。",
       "confidence": "high",
       "isOfficialSource": true,
-      "checkedAt": "2026-08-01"
+      "checkedAt": "2026-08-20"
     },
     {
       "id": "bidet-extra-10-dmal6i-a900jekad",
@@ -4764,7 +4764,7 @@
       "evidenceSnippet": "官方 exact-model 產品頁規格列尺寸 W383 x D530 x H103 mm。",
       "confidence": "high",
       "isOfficialSource": true,
-      "checkedAt": "2026-08-01"
+      "checkedAt": "2026-08-20"
     },
     {
       "id": "bidet-extra-11-dmal6w-a900jvwi8",
@@ -4774,7 +4774,7 @@
       "evidenceSnippet": "官方 exact-model 產品頁規格列尺寸 W469 x D533 x H139 mm。",
       "confidence": "high",
       "isOfficialSource": true,
-      "checkedAt": "2026-08-01"
+      "checkedAt": "2026-08-20"
     },
     {
       "id": "bidet-extra-12-dmal8l-a900gh6f4",
@@ -4784,7 +4784,7 @@
       "evidenceSnippet": "官方 exact-model 規格分欄明列高 159 mm、寬 474 mm、深 515 mm。",
       "confidence": "high",
       "isOfficialSource": true,
-      "checkedAt": "2026-08-01"
+      "checkedAt": "2026-08-20"
     },
     {
       "id": "bidet-extra-13-dmal6w-a900i0l73",
@@ -4794,7 +4794,7 @@
       "evidenceSnippet": "官方 exact-model 規格分欄明列高 112 mm、寬 400 mm、深 517 mm。",
       "confidence": "high",
       "isOfficialSource": true,
-      "checkedAt": "2026-08-01"
+      "checkedAt": "2026-08-20"
     },
     {
       "id": "bidet-extra-14-dmal6w-a900jeeze",
@@ -4804,7 +4804,7 @@
       "evidenceSnippet": "官方 exact-model 規格分欄明列高 112 mm、寬 465 mm、深 517 mm。",
       "confidence": "high",
       "isOfficialSource": true,
-      "checkedAt": "2026-08-01"
+      "checkedAt": "2026-08-20"
     },
     {
       "id": "bidet-extra-15-dmale4-a900fw2kj",
@@ -4876,5 +4876,36 @@
       "isOfficialSource": true,
       "checkedAt": "2026-08-01"
     }
-  ]
+  ],
+  "lastRecheck": {
+    "checkedAt": "2026-08-20",
+    "scope": {
+      "dimension": 356,
+      "weight": 186,
+      "supplementalDimension": 32
+    },
+    "results": {
+      "dimension": {
+        "verified": 137,
+        "candidate": 91,
+        "blocked": 128
+      },
+      "weight": {
+        "verified": 41,
+        "candidate": 48,
+        "blocked": 97
+      },
+      "supplementalDimension": {
+        "verified": 4,
+        "candidate": 9,
+        "blocked": 19
+      }
+    },
+    "originalSources": {
+      "unique": 380,
+      "reached": 293,
+      "blocked": 87
+    },
+    "policy": "只有 exact-model 原始頁面同時重現全部核心尺寸／重量數值（允許明確 mm、cm 單位換算，並排除型號數字）與語義時才列為 verified；搜尋只用於發現候選，絕不修改商品事實。"
+  }
 }

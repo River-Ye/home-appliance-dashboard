@@ -245,7 +245,7 @@ function writeJsonAtomic(file, value) {
   fs.renameSync(temporary, file);
 }
 
-function buildResearchDocument(products, rowById, { searchLimitations = [] } = {}) {
+function buildResearchDocument(products, rowById, { lastRecheck = null, searchLimitations = [] } = {}) {
   const results = products.map((product) => rowById.get(product.id)).filter(Boolean);
   const commonIssues = results.filter((row) => row.issueResearch?.status === "common_issue");
   const noCommonIssues = results.filter((row) => row.issueResearch?.status === "no_common_issue");
@@ -254,6 +254,7 @@ function buildResearchDocument(products, rowById, { searchLimitations = [] } = {
     row.searchChecks.length && row.searchChecks.every((check) => check.result === "search_unavailable")
   ));
   return {
+    ...(lastRecheck ? { lastRecheck } : {}),
     summary: {
       checkedAt: `${CHECKED_AT}T00:00:00+08:00`,
       total: results.length,
@@ -481,7 +482,10 @@ async function main() {
   const existing = reuseExisting
     ? JSON.parse(fs.readFileSync(researchFile, "utf8"))
     : { results: [] };
-  const documentOptions = { searchLimitations: existing.summary?.searchLimitations || [] };
+  const documentOptions = {
+    lastRecheck: existing.lastRecheck || null,
+    searchLimitations: existing.summary?.searchLimitations || [],
+  };
   const rowById = new Map((existing.results || []).map((row) => [row.id, row]));
   const selected = products
     .filter((product) => !args.category || product.category === args.category)
