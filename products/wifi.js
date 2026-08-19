@@ -697,9 +697,9 @@
     "name": "Wi-Fi 6E 三頻無線網狀路由器一入",
     "price": {
       "currency": "TWD",
-      "amount": 2990,
-      "converted": 2990,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 2840,
+      "converted": 2840,
+      "confidence": "PChome 2026-08-20 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAFL7A900IJMF6/000001_1744352670.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DRAFL7-A900IJMF6",
@@ -733,16 +733,16 @@
     "releaseDate": "2023-07-16",
     "historicalLow": {
       "status": "found",
-      "amount": 2990,
+      "amount": 2840,
       "currency": "TWD",
-      "converted": 2990,
+      "converted": 2840,
       "sourceUrl": "https://24h.pchome.com.tw/prod/DRAFL7-A900IJMF6",
-      "sourceTitle": "PChome 商品 API：Linksys Velop Pro AXE5400 WiFi 6E 三頻 無線網狀路由器(一入) / 原廠貨，品質有保障 _ Linksys 知名美國品牌 網路安保的最佳選擇 MX6201-AH",
-      "evidenceSnippet": "PChome 商品 API 於 2026-07-10 回傳同一商品頁「Linksys Velop Pro AXE5400 WiFi 6E 三頻 無線網狀路由器(一入) / 原廠貨，品質有保障 _ Linksys 知名美國品牌 網路安保的最佳選擇 MX6201-AH」查核價 NT$2,990，低於原先記錄史低。",
+      "sourceTitle": "PChome 24h 購物：Linksys Velop Pro AXE5400 WiFi 6E 三頻 無線網狀路由器(一入)",
+      "evidenceSnippet": "PChome 24h 購物於 2026-08-20 顯示同型號可信新品公開價 NT$2,840，低於既有史低 NT$2,990。",
       "sourceKind": "retailer_page",
       "confidence": "medium",
-      "checkedAt": "2026-07-10",
-      "note": "採用可信通路同一商品頁可公開查核現價作為本次觀測到的最低價；同型號/規格並排除會員個人化折扣、信用卡回饋、點數、二手、福利品、展示機、箱損、拆封與整新品。"
+      "checkedAt": "2026-08-20",
+      "note": "採用 PChome 24h 購物當日可購商品的同型號新品公開價；不含會員券、點數、信用卡回饋、二手、福利、展示、拆封或整新品。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -1832,9 +1832,9 @@
     "name": "BE15000 三頻 Wi-Fi 7 10G 路由器",
     "price": {
       "currency": "TWD",
-      "amount": 5999,
-      "converted": 5999,
-      "confidence": "PChome 2026-08-13 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 7999,
+      "converted": 7999,
+      "confidence": "PChome 2026-08-20 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAFJBA900I4F5A/000001_1780372394.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DRAFJB-A900I4F5A",
@@ -3465,9 +3465,9 @@
     "name": "Wi-Fi 6E 三頻電競路由器",
     "price": {
       "currency": "TWD",
-      "amount": 7990,
-      "converted": 7990,
-      "confidence": "PChome 2026-08-07 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 7590,
+      "converted": 7590,
+      "confidence": "PChome 2026-08-20 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAFKSA900HEQVN/000001_1713512948.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DRAFKS-A900HEQVN",
@@ -3839,9 +3839,9 @@
     "name": "Wi-Fi 6 雙 10GbE SD-WAN 路由器",
     "price": {
       "currency": "TWD",
-      "amount": 7990,
-      "converted": 7990,
-      "confidence": "PChome 2026-08-07 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 7590,
+      "converted": 7590,
+      "confidence": "PChome 2026-08-20 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAG6JA900AUW3D/000001_1626400932.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DRAG6J-A900AUW3D",
