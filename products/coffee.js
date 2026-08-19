@@ -557,7 +557,7 @@
       "converted": 33900,
       "confidence": "台灣飛利浦家電官方網站 2026-08-04 exact-model 公開新品價；台灣公司貨／原廠通路"
     },
-    "image": "https://cdn-general.cybassets.com/media/W1siZiIsIjE4NDIyL3Byb2R1Y3RzLzU0MDUxNzE0LzE3ODQyNzIxNDVfNzliM2I5ZmU3OWM0OTYwZTAwY2IuanBlZyJdLFsicCIsInRodW1iIiwiMjQweDI0MCJdXQ.jpeg?sha=86441169b27c4b33",
+    "image": "https://images.philips.com/is/image/philipsconsumer/vrs_8236e6d7_84b6_4a40_a27587047fae427e?$pnglarge$",
     "buyUrl": "https://www.philips-da.com.tw/products/ep554790",
     "buyLabel": "台灣飛利浦家電官方網站",
     "specs": [
