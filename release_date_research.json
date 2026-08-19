@@ -12055,5 +12055,25 @@
       "sourceKind": "not_found_after_official_review",
       "reason": "Taiwan Access 與 Backbone 官方 exact-model 頁可確認現售商品、SKU 與規格，但均未提供正式上市／發售日期；頁面修改時間與搜尋索引日期不作為 releaseDate。"
     }
-  ]
+  ],
+  "lastRecheck": {
+    "checkedAt": "2026-08-20",
+    "scope": {
+      "release": 859
+    },
+    "results": {
+      "release": {
+        "verified": 59,
+        "searchedNoCandidate": 20,
+        "candidate": 6,
+        "blocked": 774
+      }
+    },
+    "originalSources": {
+      "unique": 233,
+      "reached": 198,
+      "blocked": 35
+    },
+    "policy": "只有 exact-model 原始頁面同時重現既有日期與上市／發售語義時才列為 verified；20 筆只完成 exact-model 搜尋但沒有日期候選者另列 searchedNoCandidate，搜尋結果不直接修改商品事實。"
+  }
 }

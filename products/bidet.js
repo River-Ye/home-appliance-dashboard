@@ -924,19 +924,6 @@
       "除臭"
     ],
     "releaseDate": "找不到",
-    "historicalLow": {
-      "status": "not_found",
-      "amount": null,
-      "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
-      "checkedAt": "2026-07-09",
-      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ TOTO TCF33461GTW S2: Momo富邦購物 【TOTO】S2 進階款 除菌溫水洗淨便座 TCF33461GTW(電解除菌水/強力除臭/暖風烘乾/WASHLET/免治馬桶座) 型號/規格不相符；LBJ TOTO TCF33461GTW S2: Homebox好博家 【Homebox 好博家】TOTO瞬熱式免治馬桶座 暖風烘乾 電解除菌水 S2/TCF33461GTW 桃竹苗提供安裝服務 型號/規格不相符；LBJ TOTO TCF33461GTW S2: PCHome購物 TOTO S2 進階款 除菌溫水洗淨便座 TCF33461GTW(電解除菌水/強力除臭/暖風烘乾/WASHLET/免治馬桶座) 型號/規格不相符。"
-    },
     "issueResearch": {
       "status": "no_common_issue",
       "checkedAt": "2026-08-18",
@@ -974,6 +961,19 @@
           "targetHost": "youtube.com"
         }
       ]
+    },
+    "historicalLow": {
+      "status": "found",
+      "amount": 14900,
+      "currency": "TWD",
+      "converted": 14900,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1267962268&cgp=14900",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【TOTO】S2 進階款 除菌溫水洗淨便座 TCF33461GTW(電解除菌水/強力除臭/暖風烘乾/WASHLET/免治馬桶座)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【TOTO】S2 進階款 除菌溫水洗淨便座 TCF33461GTW(電解除菌水/強力除臭/暖風烘乾/WASHLET/免治馬桶座)」最低價為 NT$14,900，最低點日期 2026-08-20。",
+      "sourceKind": "price_history",
+      "confidence": "high",
+      "checkedAt": "2026-08-20",
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -1312,19 +1312,6 @@
       "衛浴品牌"
     ],
     "releaseDate": "找不到",
-    "historicalLow": {
-      "status": "not_found",
-      "amount": null,
-      "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
-      "checkedAt": "2026-07-09",
-      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ KOHLER C3-150: Yahoo購物中心 【麗室衛浴】美國 KOHLER K8297 C3-150 電腦馬桶蓋專用零件固定板1240758-SP 型號/規格不相符；LBJ KOHLER C3-150: Momo富邦購物 (店+)【KOHLER】✦築昂✦美國KOHLER C3-150電腦馬桶蓋 K-8297TW-0 型號/規格不相符；LBJ KOHLER C3-150: Yahoo購物中心 【 麗室衛浴】美國 KOHLER K-8297 電腦馬桶蓋 C3-150 (110V/60HZ) 型號/規格不相符。"
-    },
     "issueResearch": {
       "status": "no_common_issue",
       "checkedAt": "2026-08-18",
@@ -1362,6 +1349,19 @@
           "targetHost": "youtube.com"
         }
       ]
+    },
+    "historicalLow": {
+      "status": "found",
+      "amount": 13410,
+      "currency": "TWD",
+      "converted": 13410,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1286067123&cgp=13410",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【KOHLER】瞬熱式電腦免治馬桶蓋 C3-150 標準型(五檔溫控 溫座烘乾 免治馬桶座)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【KOHLER】瞬熱式電腦免治馬桶蓋 C3-150 標準型(五檔溫控 溫座烘乾 免治馬桶座)」最低價為 NT$13,410，最低點日期 2026-08-20。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
+      "checkedAt": "2026-08-20",
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {

@@ -65,7 +65,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-20",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -353,7 +353,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-20",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -722,19 +722,6 @@
       "租屋"
     ],
     "releaseDate": "找不到",
-    "historicalLow": {
-      "status": "not_found",
-      "amount": null,
-      "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
-      "checkedAt": "2026-07-16",
-      "note": "原 momo 史低頁已不再呈現 F-S14KM 商品與價格，逐型號重查 LBJ、FindPrice、PChome、Yahoo 與 momo 後仍找不到可公開重現的同型號可信新品史低；因此撤銷原 NT$1,319 證據，不以現價推定史低。"
-    },
     "issueResearch": {
       "status": "no_common_issue",
       "checkedAt": "2026-08-18",
@@ -772,6 +759,19 @@
           "targetHost": "youtube.com"
         }
       ]
+    },
+    "historicalLow": {
+      "status": "found",
+      "amount": 1349,
+      "currency": "TWD",
+      "converted": 1349,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1272082365&cgp=1349",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：(店+)【Panasonic 國際牌】Panasonic國際牌 14吋微電腦DC直流電風扇 F-S14KM (無遙控)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / (店+)【Panasonic 國際牌】Panasonic國際牌 14吋微電腦DC直流電風扇 F-S14KM (無遙控)」最低價為 NT$1,349，最低點日期 2026-08-20。",
+      "sourceKind": "price_history",
+      "confidence": "high",
+      "checkedAt": "2026-08-20",
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -1394,22 +1394,9 @@
       "預算"
     ],
     "releaseDate": "找不到",
-    "historicalLow": {
-      "status": "not_found",
-      "amount": null,
-      "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
-      "checkedAt": "2026-07-09",
-      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ Philips ACR2142SF: Momo富邦購物 (店+)【Philips 飛利浦】PHILIPS 12吋 窄邊框時尚風扇 【百年匠心系列】 電風扇 涼風扇 遙控風扇 循環扇 循環風扇 ACR2142SF 型號/規格不相符；LBJ Philips ACR2142SF: 蝦皮商城 - 萬家福線上購物 PHILIPS 12吋時尚美型風扇ACR2142SF 1台【萬家福】 型號/規格不相符；LBJ Philips ACR2142SF: 家樂福線上購物網 【Philips 飛利浦】12吋時尚美型風扇 ACR2142SF 型號/規格不相符。"
-    },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-20",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1444,6 +1431,19 @@
           "targetHost": "youtube.com"
         }
       ]
+    },
+    "historicalLow": {
+      "status": "found",
+      "amount": 918,
+      "currency": "TWD",
+      "converted": 918,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1274112757&cgp=1150",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【Philips 飛利浦】12吋 7片扇葉 可定時窄邊框時尚美型風扇(ACR2142SF)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【Philips 飛利浦】12吋 7片扇葉 可定時窄邊框時尚美型風扇(ACR2142SF)」最低價為 NT$918，最低點日期 2026-07-24。",
+      "sourceKind": "price_history",
+      "confidence": "high",
+      "checkedAt": "2026-08-20",
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -1490,19 +1490,6 @@
       "循環"
     ],
     "releaseDate": "2026-03-17",
-    "historicalLow": {
-      "status": "not_found",
-      "amount": null,
-      "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
-      "checkedAt": "2026-07-09",
-      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ Philips ACR3142CF: Momo富邦購物 (店+)【Philips 飛利浦】【PHILIPS飛利浦】ACR3142CF-DC立式循環扇 型號/規格不相符；LBJ Philips ACR3142CF: Momo富邦購物 (店+)【Philips 飛利浦】【PHILIPS 飛利浦】ACR3142CF PHILIPS 飛利浦 DC 立式循環扇 型號/規格不相符；LBJ Philips ACR3142CF: HOTAI購 【HOTAI購】【PHILIPS飛利浦】ACR3142CF-DC立式循環扇 型號/規格不相符。"
-    },
     "issueResearch": {
       "status": "no_common_issue",
       "checkedAt": "2026-08-18",
@@ -1540,6 +1527,19 @@
           "targetHost": "youtube.com"
         }
       ]
+    },
+    "historicalLow": {
+      "status": "found",
+      "amount": 2167,
+      "currency": "TWD",
+      "converted": 2167,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1215431560&cgp=2542",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【PHILIPS 飛利浦】直立式DC渦流循環扇 液晶觸控LED 遠距離遙控設計-ACR3142CF",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Yahoo購物中心 / 【PHILIPS 飛利浦】直立式DC渦流循環扇 液晶觸控LED 遠距離遙控設計-ACR3142CF」最低價為 NT$2,167，最低點日期 2025-09-06。",
+      "sourceKind": "price_history",
+      "confidence": "high",
+      "checkedAt": "2026-08-20",
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -1601,7 +1601,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-20",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1682,19 +1682,6 @@
       "省空間"
     ],
     "releaseDate": "2026-03-17",
-    "historicalLow": {
-      "status": "not_found",
-      "amount": null,
-      "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
-      "checkedAt": "2026-07-09",
-      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ Philips ACR3144WTF: Momo富邦購物 【Philips 飛利浦】負離子淨化DC直流塔式風扇 定時大廈扇 液晶觸控顯示-可遙控(ACR3144WTF) 型號/規格不相符；LBJ Philips ACR3144WTF: 蝦皮商城 - 綠風潮網路商城 飛利浦ACR3144WTF DC塔式風扇- 綠風潮 型號/規格不相符；LBJ Philips ACR3144WTF: Yahoo購物中心 【PHILIPS 飛利浦】DC塔式風扇 LED顯示 24H 定時調節 低噪音 遠距離遙控-ACR3144WTF 型號/規格不相符。"
-    },
     "issueResearch": {
       "status": "no_common_issue",
       "checkedAt": "2026-08-18",
@@ -1732,6 +1719,19 @@
           "targetHost": "youtube.com"
         }
       ]
+    },
+    "historicalLow": {
+      "status": "found",
+      "amount": 2863,
+      "currency": "TWD",
+      "converted": 2863,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1129483467&cgp=3476",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【Philips 飛利浦】負離子淨化DC直流塔式風扇 定時大廈扇 液晶觸控顯示-可遙控(ACR3144WTF)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【Philips 飛利浦】負離子淨化DC直流塔式風扇 定時大廈扇 液晶觸控顯示-可遙控(ACR3144WTF)」最低價為 NT$2,863，最低點日期 2026-08-09。",
+      "sourceKind": "price_history",
+      "confidence": "high",
+      "checkedAt": "2026-08-20",
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -1778,22 +1778,9 @@
       "冷暖"
     ],
     "releaseDate": "找不到",
-    "historicalLow": {
-      "status": "not_found",
-      "amount": null,
-      "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
-      "checkedAt": "2026-07-09",
-      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ Philips AHR5164FD: 百利市購物中心 【百利市購物中心】飛利浦 DC冷暖兩用無扇葉風扇冷暖風扇無葉風扇電暖器【AHR5164FD】 型號/規格不相符；LBJ Philips AHR5164FD: HOTAI購 【HOTAI購】飛利浦【AHR5164FD】DC冷暖兩用無扇葉風扇冷暖風扇無葉風扇電暖器 型號/規格不相符；LBJ Philips AHR5164FD: 樂天市場 - 兆眾 兆眾 【APP 4%點數】【Philips 飛利浦】 DC冷暖兩用無扇葉風扇AHR5164FD 全新未拆封 台灣公司貨 此商品沒有7天鑑賞期 沒有辦法退貨 都是走維修保固 您可以在下單 型號/規格不相符。"
-    },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-20",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1828,6 +1815,19 @@
           "targetHost": "youtube.com"
         }
       ]
+    },
+    "historicalLow": {
+      "status": "found",
+      "amount": 7286,
+      "currency": "TWD",
+      "converted": 7286,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1178218395&cgp=8415",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【Philips 飛利浦】DC冷暖兩用無扇葉風扇 暖風機 電暖器 定時 液晶觸控顯示-可遙控(AHR5164FD)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【Philips 飛利浦】DC冷暖兩用無扇葉風扇 暖風機 電暖器 定時 液晶觸控顯示-可遙控(AHR5164FD)」最低價為 NT$7,286，最低點日期 2025-03-20。",
+      "sourceKind": "price_history",
+      "confidence": "high",
+      "checkedAt": "2026-08-20",
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -2180,19 +2180,6 @@
       "MR褐紅"
     ],
     "releaseDate": "找不到",
-    "historicalLow": {
-      "status": "not_found",
-      "amount": null,
-      "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
-      "checkedAt": "2026-08-14",
-      "note": "已查三菱電機台灣官方、Yahoo、甫佳與 exact-model 價格搜尋；PTT NT$8,500 候選為個人轉售且明確排除，本輪未找到可採用的具日期可信新品史低。"
-    },
     "issueResearch": {
       "status": "no_common_issue",
       "checkedAt": "2026-08-18",
@@ -2230,6 +2217,19 @@
           "targetHost": "youtube.com"
         }
       ]
+    },
+    "historicalLow": {
+      "status": "found",
+      "amount": 10499,
+      "currency": "TWD",
+      "converted": 10499,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1270950304&cgp=10499",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：(店+)【MITSUBISHI 三菱電機】12吋 5段速微電腦遙控3D擺頭DC直流電風扇 R12A-DA IV象牙白/MR褐紅",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / (店+)【MITSUBISHI 三菱電機】12吋 5段速微電腦遙控3D擺頭DC直流電風扇 R12A-DA IV象牙白/MR褐紅」最低價為 NT$10,499，最低點日期 2026-08-20。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
+      "checkedAt": "2026-08-20",
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   }
 ]);

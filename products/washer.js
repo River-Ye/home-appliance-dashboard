@@ -2542,19 +2542,6 @@
       "槽自動清潔"
     ],
     "releaseDate": "找不到",
-    "historicalLow": {
-      "status": "not_found",
-      "amount": null,
-      "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
-      "checkedAt": "2026-08-14",
-      "note": "已查 HITACHI 台灣官方頁、PChome 與 exact-model 價格搜尋；只能重現本輪 NT$19,770，未找到具日期的可信新品史低。"
-    },
     "issueResearch": {
       "status": "no_common_issue",
       "checkedAt": "2026-08-18",
@@ -2592,6 +2579,19 @@
           "targetHost": "youtube.com"
         }
       ]
+    },
+    "historicalLow": {
+      "status": "found",
+      "amount": 19770,
+      "currency": "TWD",
+      "converted": 19770,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1278964290&cgp=19770",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【HITACHI 日立】17KG 三段溫控變頻直立式洗衣機(SF-170ZHV-GG)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【HITACHI 日立】17KG 三段溫控變頻直立式洗衣機(SF-170ZHV-GG)」最低價為 NT$19,770，最低點日期 2026-08-20。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
+      "checkedAt": "2026-08-20",
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   }
 ]);

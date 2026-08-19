@@ -191,6 +191,7 @@ function main() {
   for (const review of reviews) byId.set(review.id, review);
   const productOrder = new Map(products.map((product, index) => [product.id, index]));
   const manifest = {
+    ...(existing.lastRecheck ? { lastRecheck: existing.lastRecheck } : {}),
     checkedAt: CHECKED_AT,
     methodVersion: 3,
     policy: "每筆決策須保存 exact-model 跨站查詢與人工 attestation；每個搜尋候選須逐頁保存摘要、獨立作者數與具體排除理由，研究工具不得自行生成拒絕結論。",

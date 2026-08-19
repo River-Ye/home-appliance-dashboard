@@ -708,19 +708,6 @@
     "bestFor": "空間有限、以少量制服、西裝或外套日常護理為主的人。",
     "recommendation": "亞麻紋象牙白 3 件款，適合偏好非鏡面門板且可使用 Costco 新品通路的人。",
     "releaseDate": "2021-02",
-    "historicalLow": {
-      "status": "not_found",
-      "amount": null,
-      "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
-      "checkedAt": "2026-07-23",
-      "note": "已查核 E523IR 的官方產品頁、可信新品通路與公開比價入口；未找到可重現、符合 exact-model 且排除會員個人化折扣、信用卡回饋、點數、福利品、展示機、拆封品、二手及整新品的歷史最低價，因此不以本輪現價推定史低。"
-    },
     "issueResearch": {
       "status": "no_common_issue",
       "checkedAt": "2026-08-18",
@@ -766,7 +753,20 @@
       "3 件",
       "亞麻紋",
       "褲管護理"
-    ]
+    ],
+    "historicalLow": {
+      "status": "found",
+      "amount": 29799,
+      "currency": "TWD",
+      "converted": 29799,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1241027019&cgp=37799",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【Costco好市多】LG WiFi Styler 蒸氣電子衣櫥 E523IR LG WiFi Styler Smart Enabled Steam Closet E523IR",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Costco好市多 / 【Costco好市多】LG WiFi Styler 蒸氣電子衣櫥 E523IR LG WiFi Styler Smart Enabled Steam Closet E523IR」最低價為 NT$29,799，最低點日期 2026-05-20。",
+      "sourceKind": "price_history",
+      "confidence": "high",
+      "checkedAt": "2026-08-20",
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+    }
   },
   {
     "id": "garmentcare-lg-sc5gmr80h",

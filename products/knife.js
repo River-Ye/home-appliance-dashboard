@@ -662,19 +662,6 @@
     ],
     "category": "knife",
     "releaseDate": "找不到",
-    "historicalLow": {
-      "status": "not_found",
-      "amount": null,
-      "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
-      "checkedAt": "2026-07-11",
-      "note": "既有史低證據是 3 件組，目標商品是單品，套裝條件不一致。 已撤銷錯誤史低；本輪重新查核仍找不到同型號、同尺寸／容量／規格且可公開驗證的可信新品整機史低。"
-    },
     "issueResearch": {
       "status": "no_common_issue",
       "checkedAt": "2026-08-18",
@@ -712,6 +699,19 @@
           "targetHost": "youtube.com"
         }
       ]
+    },
+    "historicalLow": {
+      "status": "found",
+      "amount": 2356,
+      "currency": "TWD",
+      "converted": 2356,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1159547005&cgp=4288",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【WUSTHOF 三叉】德國三叉牌 GOURMET 17cm 三德刀(德國製刀具 日式廚刀)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【WUSTHOF 三叉】德國三叉牌 GOURMET 17cm 三德刀(德國製刀具 日式廚刀)」最低價為 NT$2,356，最低點日期 2024-06-09。",
+      "sourceKind": "price_history",
+      "confidence": "high",
+      "checkedAt": "2026-08-20",
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {

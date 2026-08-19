@@ -774,6 +774,7 @@ function syncHistoricalResearch(products, exchange, compact) {
     discontinuedRemovalNotes: removedIds,
     catalogEntriesRemoved: removedIds.length,
     catalogRemovalNotes: removedIds,
+    ...(research.summary?.notFoundRecheck ? { notFoundRecheck: research.summary.notFoundRecheck } : {}),
   };
   fs.writeFileSync(filePath, `${JSON.stringify(research, null, 2)}\n`);
 }

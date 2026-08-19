@@ -342,19 +342,6 @@
       "ASUS"
     ],
     "releaseDate": "找不到",
-    "historicalLow": {
-      "status": "not_found",
-      "amount": null,
-      "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
-      "checkedAt": "2026-07-09",
-      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ ASUS RT-BE58U V2: Momo富邦購物 (店+)【ASUS 華碩】RT-BE58U V2 BE3600 雙頻 Wi-Fi 7 可擴充式路由器 型號/規格不相符；LBJ ASUS RT-BE58U V2: 蝦皮商城 - 三井3C購物網 【ASUS 華碩】RT-BE58U V2 BE3600 雙頻 Wi-Fi 7 可擴充式路由器 型號/規格不相符；LBJ ASUS RT-BE58U V2: 百利市購物中心 【百利市購物中心】【ASUS 華碩】RT-BE58U V2 BE3600 雙頻 Wi-Fi 7 可擴充式路由器 型號/規格不相符。"
-    },
     "issueResearch": {
       "status": "no_common_issue",
       "checkedAt": "2026-08-18",
@@ -392,6 +379,19 @@
           "targetHost": "youtube.com"
         }
       ]
+    },
+    "historicalLow": {
+      "status": "found",
+      "amount": 3299,
+      "currency": "TWD",
+      "converted": 3299,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1275055660&cgp=3699",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：(店+)【ASUS 華碩】RT-BE58U-V2 BE3600 雙頻 WiFi7 AiMesh 可擴充路由器",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / (店+)【ASUS 華碩】RT-BE58U-V2 BE3600 雙頻 WiFi7 AiMesh 可擴充路由器」最低價為 NT$3,299，最低點日期 2026-06-03。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
+      "checkedAt": "2026-08-20",
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -649,7 +649,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-20",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -697,9 +697,9 @@
     "name": "Wi-Fi 6E 三頻無線網狀路由器一入",
     "price": {
       "currency": "TWD",
-      "amount": 2990,
-      "converted": 2990,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 2840,
+      "converted": 2840,
+      "confidence": "PChome 2026-08-20 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAFL7A900IJMF6/000001_1744352670.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DRAFL7-A900IJMF6",
@@ -733,16 +733,16 @@
     "releaseDate": "2023-07-16",
     "historicalLow": {
       "status": "found",
-      "amount": 2990,
+      "amount": 2840,
       "currency": "TWD",
-      "converted": 2990,
+      "converted": 2840,
       "sourceUrl": "https://24h.pchome.com.tw/prod/DRAFL7-A900IJMF6",
-      "sourceTitle": "PChome 商品 API：Linksys Velop Pro AXE5400 WiFi 6E 三頻 無線網狀路由器(一入) / 原廠貨，品質有保障 _ Linksys 知名美國品牌 網路安保的最佳選擇 MX6201-AH",
-      "evidenceSnippet": "PChome 商品 API 於 2026-07-10 回傳同一商品頁「Linksys Velop Pro AXE5400 WiFi 6E 三頻 無線網狀路由器(一入) / 原廠貨，品質有保障 _ Linksys 知名美國品牌 網路安保的最佳選擇 MX6201-AH」查核價 NT$2,990，低於原先記錄史低。",
+      "sourceTitle": "PChome 24h 購物：Linksys Velop Pro AXE5400 WiFi 6E 三頻 無線網狀路由器(一入)",
+      "evidenceSnippet": "PChome 24h 購物於 2026-08-20 顯示同型號可信新品公開價 NT$2,840，低於既有史低 NT$2,990。",
       "sourceKind": "retailer_page",
       "confidence": "medium",
-      "checkedAt": "2026-07-10",
-      "note": "採用可信通路同一商品頁可公開查核現價作為本次觀測到的最低價；同型號/規格並排除會員個人化折扣、信用卡回饋、點數、二手、福利品、展示機、箱損、拆封與整新品。"
+      "checkedAt": "2026-08-20",
+      "note": "採用 PChome 24h 購物當日可購商品的同型號新品公開價；不含會員券、點數、信用卡回饋、二手、福利、展示、拆封或整新品。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -828,19 +828,6 @@
       "2.5G"
     ],
     "releaseDate": "2022-11-02",
-    "historicalLow": {
-      "status": "not_found",
-      "amount": null,
-      "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
-      "checkedAt": "2026-07-09",
-      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ Synology WRX560: Momo富邦購物 【Synology 群暉科技】WRX560 雙頻 WiFi 6 Mesh 路由器/分享器 型號/規格不相符；LBJ Synology WRX560: 樂天市場 - 昌運監視器官方旗艦店 昌運監視器 Synology群暉 WRX560路由器 5.9GHz 雙頻 Wi-Fi 6 2.5GbE高速傳輸 型號/規格不相符；LBJ Synology WRX560: 家樂福線上購物網 昌運監視器 Synology群暉 WRX560路由器 5.9GHz 雙頻 Wi-Fi 6 2.5GbE高速傳輸 型號/規格不相符。"
-    },
     "issueResearch": {
       "status": "common_issue",
       "checkedAt": "2026-07-10",
@@ -874,6 +861,19 @@
           ]
         }
       ]
+    },
+    "historicalLow": {
+      "status": "found",
+      "amount": 6899,
+      "currency": "TWD",
+      "converted": 6899,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1273681476&cgp=6899",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【Synology 群暉科技】WRX560 雙頻 WiFi 6 Mesh 路由器/分享器",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【Synology 群暉科技】WRX560 雙頻 WiFi 6 Mesh 路由器/分享器」最低價為 NT$6,899，最低點日期 2026-08-20。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
+      "checkedAt": "2026-08-20",
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -1769,19 +1769,6 @@
       "Wi-Fi 7"
     ],
     "releaseDate": "2025-04-30",
-    "historicalLow": {
-      "status": "not_found",
-      "amount": null,
-      "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
-      "checkedAt": "2026-07-09",
-      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ ASUS RT-BE82U: Momo富邦購物 (店+)【ASUS 華碩】RT-BE82U BE6500 雙頻 WiFi 7 AiMesh 路由器 分享器 型號/規格不相符；LBJ ASUS RT-BE82U: 蝦皮商城 - 蝦皮直營 - 3C家電館 ASUS 華碩 RT-BE82U 路由器 WiFi 7 Ai Mesh 6500Mbps 分享器 廠商直送 型號/規格不相符；LBJ ASUS RT-BE82U: 蝦皮商城 - ROG 華碩授權店 | 電競周邊館 ASUS 華碩 RT-BE82U 路由器 WiFi 7 雙頻 AiMesh 分享器 Wifi分享器 網路交換器 型號/規格不相符。"
-    },
     "issueResearch": {
       "status": "no_common_issue",
       "checkedAt": "2026-08-18",
@@ -1819,6 +1806,19 @@
           "targetHost": "youtube.com"
         }
       ]
+    },
+    "historicalLow": {
+      "status": "found",
+      "amount": 3988,
+      "currency": "TWD",
+      "converted": 3988,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1261039160&cgp=4990",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：ASUS 華碩 RT-BE82U WiFi 7 雙頻 BE6500 路由器/分享器",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Yahoo購物中心 / ASUS 華碩 RT-BE82U WiFi 7 雙頻 BE6500 路由器/分享器」最低價為 NT$3,988，最低點日期 2026-03-11。",
+      "sourceKind": "price_history",
+      "confidence": "high",
+      "checkedAt": "2026-08-20",
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -1832,9 +1832,9 @@
     "name": "BE15000 三頻 Wi-Fi 7 10G 路由器",
     "price": {
       "currency": "TWD",
-      "amount": 5999,
-      "converted": 5999,
-      "confidence": "PChome 2026-08-13 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 7999,
+      "converted": 7999,
+      "confidence": "PChome 2026-08-20 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAFJBA900I4F5A/000001_1780372394.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DRAFJB-A900I4F5A",
@@ -2449,7 +2449,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-20",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -3465,9 +3465,9 @@
     "name": "Wi-Fi 6E 三頻電競路由器",
     "price": {
       "currency": "TWD",
-      "amount": 7990,
-      "converted": 7990,
-      "confidence": "PChome 2026-08-07 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 7590,
+      "converted": 7590,
+      "confidence": "PChome 2026-08-20 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAFKSA900HEQVN/000001_1713512948.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DRAFKS-A900HEQVN",
@@ -3839,9 +3839,9 @@
     "name": "Wi-Fi 6 雙 10GbE SD-WAN 路由器",
     "price": {
       "currency": "TWD",
-      "amount": 7990,
-      "converted": 7990,
-      "confidence": "PChome 2026-08-07 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 7590,
+      "converted": 7590,
+      "confidence": "PChome 2026-08-20 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAG6JA900AUW3D/000001_1626400932.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DRAG6J-A900AUW3D",
@@ -4358,22 +4358,9 @@
       "Mercusys"
     ],
     "releaseDate": "找不到",
-    "historicalLow": {
-      "status": "not_found",
-      "amount": null,
-      "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
-      "checkedAt": "2026-07-11",
-      "note": "既有史低證據同頁混列 2／3 入規格，無法確認最低價屬於目標 2 入套裝；應撤銷 found 並重新查核相同套裝史低。 已撤銷錯誤史低；本輪重新查核仍找不到同型號、同尺寸／容量／規格且可公開驗證的可信新品整機史低。"
-    },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-20",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -4408,6 +4395,19 @@
           "targetHost": "youtube.com"
         }
       ]
+    },
+    "historicalLow": {
+      "status": "found",
+      "amount": 2999,
+      "currency": "TWD",
+      "converted": 2999,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1255208707&cgp=4699",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：Mercusys 水星 (2入組) Halo H25BE Wi-Fi 7 雙頻 BE3600 全1G埠 真Mesh路由器 wifi分享器 全屋網狀",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「PCHome購物 / Mercusys 水星 (2入組) Halo H25BE Wi-Fi 7 雙頻 BE3600 全1G埠 真Mesh路由器 wifi分享器 全屋網狀」最低價為 NT$2,999，最低點日期 2026-02-20。",
+      "sourceKind": "price_history",
+      "confidence": "high",
+      "checkedAt": "2026-08-20",
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -4746,22 +4746,9 @@
       "雙 10G"
     ],
     "releaseDate": "2026-03-18",
-    "historicalLow": {
-      "status": "not_found",
-      "amount": null,
-      "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
-      "checkedAt": "2026-08-05",
-      "note": "已查 Yahoo購物中心、momo、FindPrice 與 BigGo 的 ROG Rapture GT-BE19000AI exact-model 頁；只取得本輪 NT$26,871 至 NT$27,990 現價，沒有可重現的可信新品歷史曲線與最低點日期。FindPrice 的 NT$20,999 候選標題僅寫四頻 Rapture、未含 GT-BE19000AI，與本款三頻 exact model 不符，已排除。"
-    },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-20",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -4796,6 +4783,19 @@
           "targetHost": "youtube.com"
         }
       ]
+    },
+    "historicalLow": {
+      "status": "found",
+      "amount": 25219,
+      "currency": "TWD",
+      "converted": 25219,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=564386105&cgp=27990",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：華碩 ROG Rapture GT-BE19000AI 無線 路由器 ASUS WiFi 7 三頻 廠商直送",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「蝦皮商城 - 蝦皮直營 - 3C家電館 / 華碩 ROG Rapture GT-BE19000AI 無線 路由器 ASUS WiFi 7 三頻 廠商直送」最低價為 NT$25,219，最低點日期 2026-08-08。",
+      "sourceKind": "price_history",
+      "confidence": "high",
+      "checkedAt": "2026-08-20",
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {

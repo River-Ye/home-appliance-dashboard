@@ -238,19 +238,6 @@
       "設計"
     ],
     "releaseDate": "2025-03-12",
-    "historicalLow": {
-      "status": "not_found",
-      "amount": null,
-      "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
-      "checkedAt": "2026-07-09",
-      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ Dyson TP11: Momo富邦購物 【dyson 戴森】限量福利品 TP11 Purifier Cool 二合一涼風智能空氣清淨機(新機上市) 型號/規格不相符；LBJ Dyson TP11: 誠品線上 【超值福利品】dyson Purifier Cool 二合一涼風智能空氣清淨機TP11 型號/規格不相符；LBJ Dyson TP11: Momo富邦購物 【dyson 戴森】TP11 Purifier Cool 二合一涼風智能空氣清淨機(黑色) 型號/規格不相符。"
-    },
     "issueResearch": {
       "status": "no_common_issue",
       "checkedAt": "2026-08-18",
@@ -288,6 +275,19 @@
           "targetHost": "youtube.com"
         }
       ]
+    },
+    "historicalLow": {
+      "status": "found",
+      "amount": 9999,
+      "currency": "TWD",
+      "converted": 9999,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=580991988&cgp=11900",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：Dyson TP11 WIFI智能二合一涼風空氣清淨機/循環扇 白色/黑色 過敏協會認證【TP10 WIFI升級款】",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「蝦皮商城 - dyson戴森｜恆隆行官方旗艦館 / Dyson TP11 WIFI智能二合一涼風空氣清淨機/循環扇 白色/黑色 過敏協會認證【TP10 WIFI升級款】」最低價為 NT$9,999，最低點日期 2025-11-29。",
+      "sourceKind": "price_history",
+      "confidence": "high",
+      "checkedAt": "2026-08-20",
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -1102,19 +1102,6 @@
       "旗艦"
     ],
     "releaseDate": "找不到",
-    "historicalLow": {
-      "status": "not_found",
-      "amount": null,
-      "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
-      "checkedAt": "2026-07-09",
-      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ Dyson HP12: Momo富邦購物 【dyson 戴森】限量福利品 HP12 Purifier Hot+Cool De-NOx三合一甲醛NOx偵測涼暖空氣清淨機(白金色) 型號/規格不相符；LBJ Dyson HP12: 蝦皮商城 - dyson戴森｜恆隆行官方旗艦館 Dyson Purifier Hot+Cool HP12 De-NOx 甲醛NOx偵測涼暖清淨機【限量福利品】1年保固 型號/規格不相符；LBJ Dyson HP12: 誠品線上 【超值福利品】dyson Purifier Hot+Cool De-NOx​甲醛NOx偵測涼暖空氣清淨機HP12​ 白金色 型號/規格不相符。"
-    },
     "issueResearch": {
       "status": "no_common_issue",
       "checkedAt": "2026-08-18",
@@ -1152,6 +1139,19 @@
           "targetHost": "youtube.com"
         }
       ]
+    },
+    "historicalLow": {
+      "status": "found",
+      "amount": 22111,
+      "currency": "TWD",
+      "converted": 22111,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=571740787&cgp=25900",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：Dyson Purifier Hot+Cool HP12 De-NOx 甲醛NOx偵測涼暖空氣清淨機 公司貨 2年保固",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「蝦皮商城 - dyson戴森｜恆隆行官方旗艦館 / Dyson Purifier Hot+Cool HP12 De-NOx 甲醛NOx偵測涼暖空氣清淨機 公司貨 2年保固」最低價為 NT$22,111，最低點日期 2025-12-12。",
+      "sourceKind": "price_history",
+      "confidence": "high",
+      "checkedAt": "2026-08-20",
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -1294,19 +1294,6 @@
       "客廳"
     ],
     "releaseDate": "找不到",
-    "historicalLow": {
-      "status": "not_found",
-      "amount": null,
-      "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
-      "checkedAt": "2026-07-09",
-      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ Dyson TP12: 蝦皮商城 - dyson戴森｜恆隆行官方旗艦館 Dyson Purifier Cool TP12 De-NOx 甲醛NOx偵測涼風空氣清淨機 原廠公司2年保固 型號/規格不相符；LBJ Dyson TP12: Momo富邦購物 【dyson 戴森】TP12 Purifier Cool De-NOx 二合一甲醛NOx偵測涼風空氣清淨機(鎳金色) 型號/規格不相符；LBJ Dyson TP12: Momo富邦購物 【dyson 戴森】TP12 Purifier Cool De-NOx 二合一甲醛NOx偵測涼風空氣清淨機(白金色) 型號/規格不相符。"
-    },
     "issueResearch": {
       "status": "no_common_issue",
       "checkedAt": "2026-08-18",
@@ -1344,6 +1331,19 @@
           "targetHost": "youtube.com"
         }
       ]
+    },
+    "historicalLow": {
+      "status": "found",
+      "amount": 19900,
+      "currency": "TWD",
+      "converted": 19900,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=571741241&cgp=20900",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：Dyson Purifier Cool TP12 De-NOx 甲醛NOx偵測涼風空氣清淨機 原廠公司2年保固",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「蝦皮商城 - dyson戴森｜恆隆行官方旗艦館 / Dyson Purifier Cool TP12 De-NOx 甲醛NOx偵測涼風空氣清淨機 原廠公司2年保固」最低價為 NT$19,900，最低點日期 2026-06-18。",
+      "sourceKind": "price_history",
+      "confidence": "high",
+      "checkedAt": "2026-08-20",
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -1405,7 +1405,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-20",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1885,7 +1885,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-20",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -2065,19 +2065,6 @@
       "濾網組"
     ],
     "releaseDate": "找不到",
-    "historicalLow": {
-      "status": "not_found",
-      "amount": null,
-      "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
-      "checkedAt": "2026-07-09",
-      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ Dyson BP02: 蝦皮商城 - 怡悅健康生活館 怡悅 適用 Dyson 戴森 BP02 BP03 BP04 BP06 甲醛 空氣清淨機 抗病毒 HEPA 活性碳 濾網 最低價 NT$1,850 低於現價合理比例，疑似月付/配件/錯類；LBJ Dyson BP02: 蝦皮商城 - 淨博-外銷歐美日專業空氣清淨濾網 適用Dyson戴森Big+Quiet BP03 BP04 BP06 BP02甲醛偵測空氣清淨機HEPA&活性碳濾網濾芯 最低價 NT$2,080 低於現價合理比例，疑似月付/配件/錯類；LBJ Dyson BP02: 蝦皮商城 - Renza Filtration 濾網專家 適用 Dyson 戴森 BP02 BP03 BP04 BP06 強效極靜甲醛偵測空氣清淨機 HEPA+活性碳 濾網 濾芯 最低價 NT$1,980 低於現價合理比例，疑似月付/配件/錯類。"
-    },
     "issueResearch": {
       "status": "no_common_issue",
       "checkedAt": "2026-08-18",
@@ -2115,6 +2102,19 @@
           "targetHost": "youtube.com"
         }
       ]
+    },
+    "historicalLow": {
+      "status": "found",
+      "amount": 15717,
+      "currency": "TWD",
+      "converted": 15717,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1271266676&cgp=16900",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【dyson 戴森】BP02 Purifier Big+Quiet 強效極靜抗敏空氣清淨機(白色及柔霧銀 適用30坪)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【dyson 戴森】BP02 Purifier Big+Quiet 強效極靜抗敏空氣清淨機(白色及柔霧銀 適用30坪)」最低價為 NT$15,717，最低點日期 2026-07-19。",
+      "sourceKind": "price_history",
+      "confidence": "high",
+      "checkedAt": "2026-08-20",
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {

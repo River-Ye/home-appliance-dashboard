@@ -64,7 +64,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-20",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -337,19 +337,6 @@
       "熱水洗拖"
     ],
     "releaseDate": "2026-02-17",
-    "historicalLow": {
-      "status": "not_found",
-      "amount": null,
-      "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
-      "checkedAt": "2026-07-09",
-      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ Roborock Qrevo Edge 2 Pro: 蝦皮商城 - Roborock 石頭科技官方旗艦店 Roborock石頭科技Saros 20、G20S Ultra、Qrevo Edge 2 Pro 水洗濾網 型號/規格不相符；LBJ Roborock Qrevo Edge 2 Pro: Momo富邦購物 【Roborock 石頭科技】Qrevo Edge 2 Pro白馬王子 (100度熱水洗/3+1cm越障/25000Pa/7.98超薄機身/零纏繞) 型號/規格不相符；LBJ Roborock Qrevo Edge 2 Pro: Momo富邦購物 【Roborock 石頭科技】Qrevo Edge 2 Pro白馬王子-清潔組(100度熱水洗/3+1cm越障/2.5萬Pa/零纏繞) 型號/規格不相符。"
-    },
     "issueResearch": {
       "status": "no_common_issue",
       "checkedAt": "2026-08-18",
@@ -387,6 +374,19 @@
           "targetHost": "youtube.com"
         }
       ]
+    },
+    "historicalLow": {
+      "status": "found",
+      "amount": 26980,
+      "currency": "TWD",
+      "converted": 26980,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1270241015&cgp=26980",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：Roborock 石頭科技 Qrevo Edge 2 Pro 白馬王子掃拖機器人(7.98cm超薄機身/25000Pa/100度熱水洗/雙門檻越障3+1cm)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「PCHome購物 / Roborock 石頭科技 Qrevo Edge 2 Pro 白馬王子掃拖機器人(7.98cm超薄機身/25000Pa/100度熱水洗/雙門檻越障3+1cm)」最低價為 NT$26,980，最低點日期 2026-08-20。",
+      "sourceKind": "price_history",
+      "confidence": "high",
+      "checkedAt": "2026-08-20",
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -401,9 +401,9 @@
     "name": "滾筒全自動洗拖烘掃地機器人",
     "price": {
       "currency": "TWD",
-      "amount": 19999,
-      "converted": 19999,
-      "confidence": "PChome 2026-08-18 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 18999,
+      "converted": 18999,
+      "confidence": "PChome 2026-08-20 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL1CA900JA04J/000001_1783562731.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBL1C-A900JA04J",
@@ -449,7 +449,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-20",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -530,19 +530,6 @@
       "滾筒洗地"
     ],
     "releaseDate": "2025-09",
-    "historicalLow": {
-      "status": "not_found",
-      "amount": null,
-      "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
-      "checkedAt": "2026-07-09",
-      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ Ecovacs DEEBOT X11 PRO 上下水款: Yahoo購物中心 【ECOVACS 科沃斯】DEEBOT X11 PRO 上下水款 無限續航滾筒洗地機器人(滾筒恆壓洗地/超能基站/掃地機器人/自動上下水) 型號/規格不相符；LBJ Ecovacs DEEBOT X11 PRO 上下水款: 蝦皮商城 - 蝦皮直營 - 3C家電館 ECOVACS 科沃斯 DEEBOT X11 PRO 上下水款 無限續航滾筒洗地機器人 廠商直送 型號/規格不相符；LBJ Ecovacs DEEBOT X11 PRO 上下水款: 蝦皮商城 - Beutii質感家電選品 ECOVACS 科沃斯 DEEBOT X11 PRO 上下水款 無限續航滾筒洗地機器人 超能基站 Beutii 型號/規格不相符。"
-    },
     "issueResearch": {
       "status": "no_common_issue",
       "checkedAt": "2026-08-18",
@@ -580,6 +567,19 @@
           "targetHost": "youtube.com"
         }
       ]
+    },
+    "historicalLow": {
+      "status": "found",
+      "amount": 22999,
+      "currency": "TWD",
+      "converted": 22999,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=516630890&cgp=22999",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：ECOVACS 科沃斯 全新旗艦DEEBOT X11 PRO 上下水款 無限續航滾筒洗地機器人(拒絕水電焦慮/超能基站)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「蝦皮商城 - ECOVACS 科沃斯 官方旗艦店 / ECOVACS 科沃斯 全新旗艦DEEBOT X11 PRO 上下水款 無限續航滾筒洗地機器人(拒絕水電焦慮/超能基站)」最低價為 NT$22,999，最低點日期 2026-08-20。",
+      "sourceKind": "price_history",
+      "confidence": "high",
+      "checkedAt": "2026-08-20",
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -2059,19 +2059,6 @@
       "自清潔"
     ],
     "releaseDate": "2026-02-06",
-    "historicalLow": {
-      "status": "not_found",
-      "amount": null,
-      "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
-      "checkedAt": "2026-07-09",
-      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ eufy Omni C28: 蝦皮商城 - Renza Filtration 濾網專家 適用 eufy 悠飛 Omni C28 自清潔掃拖一體全能機器人 掃拖機器人 耗材 配件 主刷 邊刷 集塵 型號/規格不相符；LBJ eufy Omni C28: Yahoo購物中心 eufy Omni C28全能機器人配件包 型號/規格不相符；LBJ eufy Omni C28: Momo富邦購物 【eufy】Omni C28全能機器人配件包 型號/規格不相符。"
-    },
     "issueResearch": {
       "status": "no_common_issue",
       "checkedAt": "2026-08-18",
@@ -2109,6 +2096,19 @@
           "targetHost": "youtube.com"
         }
       ]
+    },
+    "historicalLow": {
+      "status": "found",
+      "amount": 12244,
+      "currency": "TWD",
+      "converted": 12244,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1273838537&cgp=12244",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：eufy Omni C28 自清潔掃拖一體全能機器人-黑",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Yahoo購物中心 / eufy Omni C28 自清潔掃拖一體全能機器人-黑」最低價為 NT$12,244，最低點日期 2026-08-20。",
+      "sourceKind": "price_history",
+      "confidence": "high",
+      "checkedAt": "2026-08-20",
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -2554,7 +2554,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-20",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -3344,19 +3344,6 @@
       "台灣公司貨"
     ],
     "releaseDate": "2025-07-11",
-    "historicalLow": {
-      "status": "not_found",
-      "amount": null,
-      "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
-      "checkedAt": "2026-08-14",
-      "note": "已查 HOBOT 台灣官方規格、和康總代理上市與 exact-model 商品頁、PChome 及 exact-model 價格搜尋；PChome NT$19,800 與官方商城 NT$20,800 都是本輪現價，未找到可公開重現且具日期的可信新品歷史曲線，因此不推定史低。"
-    },
     "issueResearch": {
       "status": "no_common_issue",
       "checkedAt": "2026-08-18",
@@ -3394,6 +3381,19 @@
           "targetHost": "youtube.com"
         }
       ]
+    },
+    "historicalLow": {
+      "status": "found",
+      "amount": 17800,
+      "currency": "TWD",
+      "converted": 17800,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1251253062&cgp=18900",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【HOBOT 玻妞】雷姬環保壓縮掃拖地機器人旗艦版LEGEE-Q10 PRO(熱風直烘/自動充電補水/語音聲控)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【HOBOT 玻妞】雷姬環保壓縮掃拖地機器人旗艦版LEGEE-Q10 PRO(熱風直烘/自動充電補水/語音聲控)」最低價為 NT$17,800，最低點日期 2026-05-20。",
+      "sourceKind": "price_history",
+      "confidence": "high",
+      "checkedAt": "2026-08-20",
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {

@@ -325,19 +325,6 @@
       "Vornado"
     ],
     "releaseDate": "找不到",
-    "historicalLow": {
-      "status": "not_found",
-      "amount": null,
-      "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
-      "checkedAt": "2026-07-09",
-      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ Vornado 52-TW: 蝦皮商城 - 雯麗國際百貨家電官方旗艦店 【VORNADO】三段風速 3-5坪｜52-TW｜渦流空氣循環扇 非採用通路或含排除條件；LBJ Vornado 52-TW: 百利市購物中心 【百利市購物中心】【美國 VORNADO 沃拿多】三段風速 渦流空氣循環扇 52-TW 黑/白 非採用通路或含排除條件；LBJ Vornado 52-TW: 博客來 VORNADO 沃拿多 52-TW 渦流空氣循環扇 非採用通路或含排除條件。"
-    },
     "issueResearch": {
       "status": "no_common_issue",
       "checkedAt": "2026-08-18",
@@ -375,6 +362,19 @@
           "targetHost": "youtube.com"
         }
       ]
+    },
+    "historicalLow": {
+      "status": "found",
+      "amount": 2390,
+      "currency": "TWD",
+      "converted": 2390,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1246011466&cgp=2534",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【VORNADO 沃拿多】52-TW(渦流空氣循環扇)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【VORNADO 沃拿多】52-TW(渦流空氣循環扇)」最低價為 NT$2,390，最低點日期 2026-08-06。",
+      "sourceKind": "price_history",
+      "confidence": "high",
+      "checkedAt": "2026-08-20",
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -532,7 +532,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-20",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1953,19 +1953,6 @@
       "官方通路"
     ],
     "releaseDate": "2026",
-    "historicalLow": {
-      "status": "not_found",
-      "amount": null,
-      "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
-      "checkedAt": "2026-07-19",
-      "note": "PCF-CDP18TEC 為台灣官方標示的 2026 新品；已查官方商品頁、BigGo、FindPrice 與 LBJ，未找到同型號可公開重現且符合可信新品條件的歷史最低價，官方現價 NT$3,990 不直接視為歷史最低價。"
-    },
     "issueResearch": {
       "status": "no_common_issue",
       "checkedAt": "2026-08-18",
@@ -2003,6 +1990,19 @@
           "targetHost": "youtube.com"
         }
       ]
+    },
+    "historicalLow": {
+      "status": "found",
+      "amount": 3512,
+      "currency": "TWD",
+      "converted": 3512,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1281928361&cgp=3990",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：IRIS PCF-CDP18TEC 360度美型空氣循環扇",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Yahoo購物中心 / IRIS PCF-CDP18TEC 360度美型空氣循環扇」最低價為 NT$3,512，最低點日期 2026-06-28。",
+      "sourceKind": "price_history",
+      "confidence": "high",
+      "checkedAt": "2026-08-20",
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {

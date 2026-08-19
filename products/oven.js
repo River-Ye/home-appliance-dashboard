@@ -949,7 +949,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-20",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1145,7 +1145,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-20",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
@@ -1228,19 +1228,6 @@
       "省空間"
     ],
     "releaseDate": "找不到",
-    "historicalLow": {
-      "status": "not_found",
-      "amount": null,
-      "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
-      "checkedAt": "2026-07-09",
-      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ Panasonic NU-SC180B: 樂天市場 - Panasonic授權新北新莊淯麒電器 Panasonic授權新北新莊淯麒電器 現貨領券獨家最高9折 Panasonic 蒸氣烘烤爐NU-SC180B 型號/規格不相符；LBJ Panasonic NU-SC180B: Momo富邦購物 (店+)【Panasonic 國際牌】Panasonic國際牌20公升蒸氣烘烤爐NU-SC180B 型號/規格不相符；LBJ Panasonic NU-SC180B: 樂天市場 - Panasonic授權新竹東區誼鴻電器 Panasonic授權新竹東區誼鴻電器 Panasonic 蒸氣烘烤爐NU-SC180B 型號/規格不相符。"
-    },
     "issueResearch": {
       "status": "no_common_issue",
       "checkedAt": "2026-08-18",
@@ -1278,6 +1265,19 @@
           "targetHost": "youtube.com"
         }
       ]
+    },
+    "historicalLow": {
+      "status": "found",
+      "amount": 9499,
+      "currency": "TWD",
+      "converted": 9499,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1250397092&cgp=10490",
+      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【Panasonic 國際牌】20L蒸氣烘烤爐(NU-SC180B)",
+      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【Panasonic 國際牌】20L蒸氣烘烤爐(NU-SC180B)」最低價為 NT$9,499，最低點日期 2026-06-19。",
+      "sourceKind": "price_history",
+      "confidence": "high",
+      "checkedAt": "2026-08-20",
+      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
     }
   },
   {
@@ -1635,7 +1635,7 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
+      "checkedAt": "2026-08-20",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
