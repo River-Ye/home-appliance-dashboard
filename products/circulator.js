@@ -2210,6 +2210,96 @@
         }
       ]
     }
+  },
+  {
+    "id": "circulator-balmuda-egf-3300-wk",
+    "category": "circulator",
+    "rank": 25,
+    "topPick": false,
+    "budget": "premium",
+    "channel": "tw",
+    "brand": "BALMUDA",
+    "model": "EGF-3300-WK",
+    "name": "GreenFan Cirq 綠化循環扇",
+    "price": {
+      "currency": "TWD",
+      "amount": 4990,
+      "converted": 4990,
+      "confidence": "BALMUDA 台灣官方商城於 2026-08-20 的 exact-model 可購公開售價 NT$4,990",
+      "basis": "retailer_current"
+    },
+    "installation": {
+      "status": "not_stated",
+      "note": "台灣官方商城價格為可自行擺放使用的循環扇商品價，未標示含到府安裝；隨附交流電源線與遙控器。"
+    },
+    "image": "https://www.balmuda.com.tw/upload/products/b_2509151128590000001.jpg",
+    "buyUrl": "https://www.balmuda.com.tw/shop.php?cID=4",
+    "buyLabel": "BALMUDA 台灣官方商城 exact-model 新品",
+    "specs": [
+      "雙層 14 葉片 GreenFan 結構；4 段風量",
+      "最大風量 52 m³/min；官方標示最遠送風 15m",
+      "手動仰角 0–90°；附遙控器",
+      "尺寸：寬 34 x 深 25.6 x 高 36 cm",
+      "淨重：約 2.5 kg；消費電力 3–20W",
+      "本體額定 DC 12V；隨附台灣版交流電源線／專用變壓器"
+    ],
+    "description": "以 15 公尺遠距送風和 3–20W 低耗電補上設計家電品牌 BALMUDA，適合比較小機身、遠距循環與造型質感的差異。",
+    "pros": [
+      "最大 52 m³/min、15m 送風，適合配合冷暖氣循環",
+      "34 x 25.6 cm 佔地與 2.5 kg 重量都容易移動",
+      "台灣官方 exact-model 規格、支援與直營現售頁完整"
+    ],
+    "cons": [
+      "仰角為手動調整，沒有左右自動 3D 擺頭",
+      "四段風量比平價 DC 循環扇的多段細調少",
+      "品牌與設計溢價仍高於一般桌上循環扇"
+    ],
+    "bestFor": "重視遠距送風、低功耗與外觀，想搭配空調做固定方向室內循環的客廳或工作室。",
+    "recommendation": "設計與遠距送風推薦：以 15m 送風、低耗電和緊湊機身形成差異，並誠實揭露沒有 3D 自動擺頭。",
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-08-20",
+      "note": "已查 BALMUDA 台灣官方商城、BigGo 與 FindPrice exact-model 價格入口；NT$4,990 為查核日現價，未取得帶日期且可公開重現的可信新品史低，未以現價或劃線價推定。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-08-20",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"BALMUDA EGF-3300-WK\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22BALMUDA%20EGF-3300-WK%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"BALMUDA EGF-3300-WK\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22BALMUDA%20EGF-3300-WK%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        }
+      ]
+    },
+    "score": 88,
+    "voltage": "台灣官方版交流輸入 100–240V／50–60Hz 專用變壓器；本體 DC 12V",
+    "warranty": "BALMUDA 台灣官方公司貨；官方包裝含產品保證書，期間與範圍依保證書及台灣代理商規定",
+    "tags": [
+      "15m送風",
+      "DC",
+      "低耗電",
+      "遙控",
+      "設計家電"
+    ]
   }
 ]);
 })();

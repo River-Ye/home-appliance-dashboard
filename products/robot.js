@@ -1074,9 +1074,9 @@
     "name": "全能掃拖機器人",
     "price": {
       "currency": "TWD",
-      "amount": 8999,
-      "converted": 8999,
-      "confidence": "PChome 2026-08-19 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 9999,
+      "converted": 9999,
+      "confidence": "PChome 2026-08-20 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL3EA900JY4G0/000001_1780033612.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBL3E-A900JY4G0",
@@ -1267,8 +1267,8 @@
     "price": {
       "currency": "EUR",
       "amount": 999,
-      "converted": 36881,
-      "confidence": "Boulanger 2026-07-21 來源價；ExchangeRate-API 2026-08-19 匯率換算"
+      "converted": 37017,
+      "confidence": "Boulanger 2026-07-21 來源價；ExchangeRate-API 2026-08-20 匯率換算"
     },
     "image": "https://boulanger.scene7.com/is/image/Boulanger/6972075738536_h_f_l_0?fmt=png-alpha&wid=640&hei=640",
     "buyUrl": "https://www.boulanger.com/ref/1238998",
@@ -1363,8 +1363,8 @@
     "price": {
       "currency": "USD",
       "amount": 551.69,
-      "converted": 17595,
-      "confidence": "Geekbuying 2026-07-21 來源價；ExchangeRate-API 2026-08-19 匯率換算"
+      "converted": 17548,
+      "confidence": "Geekbuying 2026-07-21 來源價；ExchangeRate-API 2026-08-20 匯率換算"
     },
     "image": "https://img.gkbcdn.com/p/2025-04-11/Narwal-Freo-Z10-Ultra-Robot-Vacuum-with-Base-Station-Gray-528438-0._w315_.jpg",
     "buyUrl": "https://www.geekbuying.com/item/Narwal-Freo-Z10-Ultra-Robot-Vacuum-with-Base-Station-Gray-528438.html",
@@ -1458,9 +1458,9 @@
     "name": "全能滾筒旗艦機皇掃拖機器人",
     "price": {
       "currency": "TWD",
-      "amount": 28692,
-      "converted": 28692,
-      "confidence": "PChome 2026-08-19 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 29292,
+      "converted": 29292,
+      "confidence": "PChome 2026-08-20 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL0JA900JCCJT/000001_1782802020.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBL0J-A900JCCJT",
@@ -1642,9 +1642,9 @@
     "name": "旋風全能掃拖機器人",
     "price": {
       "currency": "TWD",
-      "amount": 15192,
-      "converted": 15192,
-      "confidence": "PChome 2026-08-19 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 15292,
+      "converted": 15292,
+      "confidence": "PChome 2026-08-20 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL0JA900ITF88/000001_1782803241.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBL0J-A900ITF88",
@@ -2122,9 +2122,9 @@
     "name": "極薄滾筒掃拖機器人旗艦版",
     "price": {
       "currency": "TWD",
-      "amount": 24681,
-      "converted": 24681,
-      "confidence": "PChome 2026-08-19 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 25980,
+      "converted": 25980,
+      "confidence": "PChome 2026-08-20 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL5WA900JXBY3/000001_1776393356.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBL5W-A900JXBY3",
@@ -2507,8 +2507,8 @@
     "price": {
       "currency": "USD",
       "amount": 999.99,
-      "converted": 31892,
-      "confidence": "SharkNinja US 2026-07-21 來源價；ExchangeRate-API 2026-08-19 匯率換算"
+      "converted": 31808,
+      "confidence": "SharkNinja US 2026-07-21 來源價；ExchangeRate-API 2026-08-20 匯率換算"
     },
     "image": "https://assets.sharkninja.com/image/upload/f_auto/q_auto/SharkNinja-NA/RV2820ZE_01.jpg",
     "buyUrl": "https://www.sharkninja.com/shark-powerdetect-2-in-1-robot-vacuum-and-mop-with-nevertouch-pro-base/RV2820ZE.html",
@@ -2701,8 +2701,8 @@
     "price": {
       "currency": "USD",
       "amount": 399.99,
-      "converted": 12757,
-      "confidence": "Costco US 2026-07-21 最後可驗證價；2026-08-15 exact-model 頁顯示 Unavailable；ExchangeRate-API 2026-08-19 匯率換算"
+      "converted": 12723,
+      "confidence": "Costco US 2026-07-21 最後可驗證價；2026-08-15 exact-model 頁顯示 Unavailable；ExchangeRate-API 2026-08-20 匯率換算"
     },
     "image": "https://bfasset.costco-static.com/U447IH35/as/tkj772p4357mmh3bwz8kcq/1791272-847__1?auto=webp&format=jpg",
     "buyUrl": "https://www.costco.com/p/-/roborock-qx-revo-robot-vacuum-and-mop-with-multifunctional-dock/4000233271",
@@ -3503,6 +3503,97 @@
         }
       ]
     }
+  },
+  {
+    "id": "robot-tplink-tapo-rv30-max-plus",
+    "category": "robot",
+    "rank": 37,
+    "topPick": false,
+    "budget": "value",
+    "channel": "tw",
+    "brand": "TP-Link",
+    "model": "Tapo RV30 Max Plus",
+    "name": "5300Pa LiDAR 自動集塵掃拖機器人",
+    "price": {
+      "currency": "TWD",
+      "amount": 6888,
+      "converted": 6888,
+      "confidence": "momo 購物網於 2026-08-20 的 exact-model 台灣公司貨新品頁公開價 NT$6,888",
+      "basis": "retailer_current"
+    },
+    "installation": {
+      "status": "not_stated",
+      "note": "momo 商品價含掃拖主機與 Plus 自動集塵座，未標示含到府設定；需自行安置集塵座、連接 Tapo App、整理地面線材並建立地圖。"
+    },
+    "image": "https://i4.momoshop.com.tw/1769046836/goodsimg/0013/838/076/13838076_R_m.webp",
+    "buyUrl": "https://www.momoshop.com.tw/product/13838076",
+    "buyLabel": "momo exact-model 台灣公司貨新品",
+    "specs": [
+      "最大吸力 5300Pa；LiDAR + IMU 導航",
+      "Plus 自動集塵座 3L 集塵袋；集塵吸力 17000Pa",
+      "機器人集塵盒 300ml；水箱 300ml；H11 濾網",
+      "機身尺寸：直徑 33 x 高 10 cm；集塵座：寬 22.8 x 深 16.4 x 高 33 cm",
+      "2600mAh 電池；最長約 150 分鐘；充電約 4 小時",
+      "機器人最大功率 45W；集塵座最大功率 650W",
+      "支援 Tapo App、多樓層地圖、禁區、房間與排程清掃"
+    ],
+    "description": "不到七千元把 5300Pa、LiDAR 與 3L 自動集塵帶進比較，補上 TP-Link／Tapo 智慧家庭生態系與高 CP 入門自集塵路線。",
+    "pros": [
+      "5300Pa、LiDAR 與自動集塵在價格帶內規格突出",
+      "3L 集塵袋減少日常倒塵頻率",
+      "可與既有 Tapo 智慧家庭 App 共用，台灣官方保固政策明確"
+    ],
+    "cons": [
+      "沒有洗拖布、烘乾或自動補排水等高階基座功能",
+      "避障以 LiDAR／感測器為主，線材、襪子與窗簾仍應先整理",
+      "Reddit exact-model 曾出現少數地圖、拖地導航或回座候選，但同症狀未達 6 人且只集中單一網站；建議到貨後完整測試地圖與回座"
+    ],
+    "bestFor": "想用入門預算取得 LiDAR 與自動集塵，家中已有 Tapo 裝置且願意自行整理線材、定期清洗拖布的使用者。",
+    "recommendation": "自動集塵 CP 推薦：用低價補上 5300Pa、LiDAR 與 3L 集塵，適合和高階全能基座清楚比較功能取捨。",
+    "releaseDate": "2024-11-14",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-08-20",
+      "note": "已查 momo exact-model 台灣新品頁、TP-Link 台灣 2025 公開促銷頁與比價入口；現價 NT$6,888 低於舊促銷價不等同已驗證史低，未找到完整價格時間軸，故不推定。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-08-20",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"TP-Link Tapo RV30 Max Plus\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22TP-Link%20Tapo%20RV30%20Max%20Plus%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"TP-Link Tapo RV30 Max Plus\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22TP-Link%20Tapo%20RV30%20Max%20Plus%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        }
+      ]
+    },
+    "score": 87,
+    "voltage": "台灣授權通路版本集塵座 AC 100–120V／50–60Hz；不可與 220–240V 海外版集塵座跨區混用",
+    "warranty": "TP-Link 台灣公司貨；Tapo 掃地機器人主機 1 年、電源供應器 3 個月，耗材不保固，依台灣官方政策",
+    "tags": [
+      "5300Pa",
+      "LiDAR",
+      "自動集塵",
+      "3L集塵袋",
+      "Tapo App"
+    ]
   }
 ]);
 })();

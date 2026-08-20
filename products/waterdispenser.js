@@ -733,9 +733,9 @@
     "image": "https://cs-a.ecimg.tw/items/DMAC6RA900IUC3J/000001_1761017834.png",
     "price": {
       "currency": "TWD",
-      "amount": 26999,
-      "converted": 26999,
-      "confidence": "PChome 2026-08-19 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 29999,
+      "converted": 29999,
+      "confidence": "PChome 2026-08-20 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -834,9 +834,9 @@
     "image": "https://cs-a.ecimg.tw/items/DMCI01A900JV0NP/000001_1774843160.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 16020,
-      "converted": 16020,
-      "confidence": "PChome 2026-08-19 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 17800,
+      "converted": 17800,
+      "confidence": "PChome 2026-08-20 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -1139,8 +1139,8 @@
     "image": "https://cs-a.ecimg.tw/items/DMAWEMA900GDIXH/000001_1774485785.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 18810,
-      "converted": 18810,
+      "amount": 20900,
+      "converted": 20900,
       "confidence": "PChome 2026-08-20 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "channel": "tw",
@@ -1342,9 +1342,9 @@
     "image": "https://cs-a.ecimg.tw/items/DMBM2HA900GH7MW/000001_1770018742.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 25020,
-      "converted": 25020,
-      "confidence": "PChome 2026-08-19 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 27800,
+      "converted": 27800,
+      "confidence": "PChome 2026-08-20 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -1547,9 +1547,9 @@
     "name": "櫥下型雙溫 UV 觸控飲水機",
     "price": {
       "currency": "TWD",
-      "amount": 30600,
-      "converted": 30600,
-      "confidence": "PChome 2026-08-19 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 34000,
+      "converted": 34000,
+      "confidence": "PChome 2026-08-20 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DSBE1FA900GSOLN/000001_1698896380.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMCI17-A900I6OFW",
@@ -1643,9 +1643,9 @@
     "name": "聲控櫥下 RO 瞬熱飲水機",
     "price": {
       "currency": "TWD",
-      "amount": 41220,
-      "converted": 41220,
-      "confidence": "PChome 2026-08-19 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 45800,
+      "converted": 45800,
+      "confidence": "PChome 2026-08-20 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMCI2FA900JBNK6/000001_1782095017.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMCI2F-A900JBNK6",
@@ -1839,9 +1839,9 @@
     "name": "廚下 RO 雙溫觸控飲水機",
     "price": {
       "currency": "TWD",
-      "amount": 33129,
-      "converted": 33129,
-      "confidence": "PChome 2026-08-19 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 36810,
+      "converted": 36810,
+      "confidence": "PChome 2026-08-20 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMCI0OA900JT66N/000001_1773306819.png",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMCI0O-A900JI1JA",
@@ -2128,8 +2128,8 @@
     "price": {
       "currency": "USD",
       "amount": 369.99,
-      "converted": 11800,
-      "confidence": "Costco US 2026-07-21 來源價；ExchangeRate-API 2026-08-19 匯率換算"
+      "converted": 11769,
+      "confidence": "Costco US 2026-07-21 來源價；ExchangeRate-API 2026-08-20 匯率換算"
     },
     "image": "https://bfasset.costco-static.com/U447IH35/as/4xjr3phfqx7p9vvxzfhp3jp/100457228-847_chrome_1?auto=webp&format=jpg",
     "buyUrl": "https://www.costco.com/brondell-circle-reverse-osmosis-water-filtration-system.product.100457228.html",
@@ -2315,8 +2315,8 @@
     "name": "PREMIER 廚下冰溫瞬熱旗艦飲水機",
     "price": {
       "currency": "TWD",
-      "amount": 33120,
-      "converted": 33120,
+      "amount": 36800,
+      "converted": 36800,
       "confidence": "PChome 2026-08-20 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAWI0A900ITF3M/000001_1781688918.jpg",
@@ -2521,9 +2521,9 @@
     "name": "極熱 廚下五段溫控瞬熱飲水機",
     "price": {
       "currency": "TWD",
-      "amount": 25920,
-      "converted": 25920,
-      "confidence": "PChome 2026-08-19 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 28800,
+      "converted": 28800,
+      "confidence": "PChome 2026-08-20 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAWHTA900JVB6I/000001_1775031754.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAWHT-A900JVB6I",
@@ -3962,6 +3962,99 @@
           "query": "\"Rinnai RWP-H300\" problem issue defect failure broken 災情 故障 異常",
           "queryUrl": "https://www.youtube.com/results?search_query=%22Rinnai%20RWP-H300%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
           "targetHost": "youtube.com"
+        }
+      ]
+    }
+  },
+  {
+    "id": "waterdispenser-buder-bd-3006bf-ro",
+    "category": "waterdispenser",
+    "rank": 40,
+    "topPick": false,
+    "budget": "premium",
+    "channel": "tw",
+    "brand": "Buder",
+    "model": "BD-3006BF-RO",
+    "name": "BD-3006BF 冷水煮沸飲水機＋RO-2604 逆滲透系統",
+    "price": {
+      "currency": "TWD",
+      "amount": 49680,
+      "converted": 49680,
+      "confidence": "PChome 24h 2026-08-20 exact-model 新品頁與 SKU API 現價",
+      "basis": "retailer_current"
+    },
+    "image": "https://cs-a.ecimg.tw/items/DMAWFHA900F2DDI/000001_1692262957.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DMAWFH-A900F2DDI",
+    "buyLabel": "PChome 24h",
+    "installation": {
+      "status": "included_basic",
+      "note": "PChome exact-model 頁明載免費標準安裝；水源、電源與排水需在 3m 內，建議水壓 2–3 kg/cm²，偏遠地區、特殊樓層或超出標準施工範圍可能加價，離島不提供安裝。"
+    },
+    "specs": [
+      "櫥下型／五道 RO 逆滲透過濾；冷水為煮沸後冷卻",
+      "熱水槽 3.6L；溫水槽 3.6L",
+      "加熱器尺寸：寬 20 x 深 42 x 高 44.5 cm（±1%）",
+      "四合一龍頭尺寸：寬 15.5 x 深 4.5 x 高 31.5 cm；旋轉半徑 22 cm",
+      "RO 主機尺寸：寬 26 x 深 20 x 高 47 cm；壓力桶直徑 28 x 高 40 cm",
+      "重量：查不到",
+      "AC 110V／750W；安裝前需確認水源、排水、插座與 2–3 kg/cm² 水壓"
+    ],
+    "description": "普德 BD-3006BF-RO 把 RO-2604 逆滲透、熱水、溫水與煮沸後冷水整合在櫥下，PChome 公司貨頁並明列兩年保固與免費標準安裝。",
+    "pros": [
+      "補足站內缺少的台灣老牌 Buder，exact model、公開現價與新品庫存可重現",
+      "冷水先煮沸再冷卻，並整合 3.6L 熱水與 3.6L 溫水槽",
+      "110V、兩年原廠保固及標準安裝邊界公開"
+    ],
+    "cons": [
+      "主機、RO 系統與壓力桶共占多個櫥下空間，需先依分件尺寸丈量",
+      "有儲水槽與壓力桶，不是無桶瞬熱型；濾芯更換與槽體清潔需列入長期成本",
+      "來源未公開淨重；偏遠、特殊樓層或超過 3m 的水電排水施工可能加價"
+    ],
+    "bestFor": "希望以 110V 櫥下系統整合 RO、熱水、溫水與煮沸冷水，並重視台灣品牌安裝與售後的家庭。",
+    "recommendation": "Buder 品牌補充推薦：資料完整度足以比較，但下單前仍應以分件尺寸確認櫥下空間、壓力桶位置、水壓及免費標準安裝範圍。",
+    "score": 88,
+    "voltage": "AC 110V／750W；需就近安全插座，並依安裝頁確認水源、排水與水壓",
+    "warranty": "原廠保固 2 年；以 PChome exact-model 公司貨頁及原廠保固條款為準",
+    "tags": [
+      "Buder",
+      "RO逆滲透",
+      "冷水煮沸",
+      "三溫",
+      "110V",
+      "含標準安裝",
+      "櫥下型"
+    ],
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-08-20",
+      "note": "已查 PChome exact-model 新品頁與 SKU API、BigGo、FindPrice、LBJ 的 BD-3006BF-RO exact-model 查詢；PChome 現價 NT$49,680 只證明本次通路現價，未取得具日期且可重現的同型號可信新品歷史最低點，因此不以現價推定史低。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-08-20",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"BD-3006BF-RO\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22BD-3006BF-RO%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"BD-3006BF-RO\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22BD-3006BF-RO%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
         }
       ]
     }

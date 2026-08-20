@@ -2200,6 +2200,95 @@
         }
       ]
     }
+  },
+  {
+    "id": "knife-zwilling-pro-38401-201",
+    "category": "knife",
+    "rank": 23,
+    "topPick": false,
+    "budget": "premium",
+    "channel": "tw",
+    "brand": "ZWILLING",
+    "model": "38401-201",
+    "name": "PRO 西式主廚刀 20cm",
+    "price": {
+      "currency": "TWD",
+      "amount": 8183,
+      "converted": 8183,
+      "confidence": "ZWILLING 台灣官方 2026-08-20 exact-model 新品頁公開優惠價",
+      "basis": "retailer_current"
+    },
+    "image": "https://cdn-general.cybassets.com/media/W1siZiIsIjI5NjAzL3Byb2R1Y3RzLzUzMTI2MDA1LzE3MzcwMTg5MTdfNmRjNmM5NDFjMGZiZDVjNTkwOTUuanBlZyJdLFsicCIsInRodW1iIiwiNDgweDQ4MCJdXQ.jpeg?sha=0cd518c4a2d18c0d",
+    "buyUrl": "https://www.zwilling.com.tw/products/38401-201",
+    "buyLabel": "ZWILLING 台灣官方",
+    "installation": {
+      "status": "not_stated",
+      "note": "廚刀不需到府安裝；需搭配穩固砧板、正確磨刀方式與防護刀鞘／刀座安全收納。"
+    },
+    "specs": [
+      "西式主廚刀；刀刃長 20cm、全長 33cm",
+      "刀柄長 13cm、刀柄寬 2cm；產品高 5cm",
+      "重量 0.25kg",
+      "德國特殊配方鋼、冷鍛製程與弧形刀枕",
+      "德國製；三鉚釘人體工學刀柄"
+    ],
+    "description": "ZWILLING PRO 38401-201 是德製 20cm 西式主廚刀，以弧形刀枕和三鉚釘握柄補足高階經典廚刀帶。",
+    "pros": [
+      "20cm 刃長兼顧多數家庭砧板與備料用途",
+      "弧形刀枕利於捏握，三鉚釘刀柄穩定",
+      "台灣官方 exact-model 頁可核對尺寸、重量與德國製"
+    ],
+    "cons": [
+      "優惠價仍高於多數入門主廚刀",
+      "需定期磨刀並避免洗碗機、硬骨與冷凍食材",
+      "0.25kg 手感需實際試握，偏好輕刀者可能覺得厚重"
+    ],
+    "bestFor": "重視德國製、經典西式主廚刀手感與售後，願意正確手洗及磨刀的人。",
+    "recommendation": "ZWILLING 品牌補強：20cm 規格通用且做工成熟；價格之外應把握持、刀枕偏好與後續磨刀納入比較。",
+    "score": 90,
+    "voltage": "不適用（非電器；需注意刃口保養、磨刀方式與安全收納）",
+    "warranty": "依 ZWILLING 台灣官方產品保證與使用條款",
+    "tags": [
+      "20cm主廚刀",
+      "德國製",
+      "冷鍛",
+      "弧形刀枕",
+      "三鉚釘"
+    ],
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-08-20",
+      "note": "已查 ZWILLING 台灣官方與 exact-model 價格搜尋；NT$8,183 是本輪優惠現價，沒有可重現日期歷程，故不把目前折扣推定為歷史最低價。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-08-20",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"ZWILLING PRO 38401-201\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22ZWILLING%20PRO%2038401-201%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"ZWILLING PRO 38401-201\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22ZWILLING%20PRO%2038401-201%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        }
+      ]
+    }
   }
 ]);
 })();

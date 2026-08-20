@@ -1,51 +1,51 @@
 const EXPECTED_CATEGORY_COUNT = 29;
-const EXPECTED_PRODUCT_COUNT = 859;
+const EXPECTED_PRODUCT_COUNT = 878;
 const MIN_PRODUCTS_PER_CATEGORY = 20;
 const EXPECTED_CATEGORY_PRODUCT_COUNTS = new Map([
-  ["tv", 34],
-  ["soundbar", 28],
-  ["fan", 23],
-  ["circulator", 23],
-  ["dehumidifier", 25],
-  ["purifier", 26],
+  ["tv", 35],
+  ["soundbar", 29],
+  ["fan", 24],
+  ["circulator", 24],
+  ["dehumidifier", 26],
+  ["purifier", 27],
   ["aircon", 30],
-  ["robot", 36],
-  ["vacuum", 27],
-  ["washer", 25],
-  ["dryer", 23],
-  ["washerdryer", 29],
+  ["robot", 37],
+  ["vacuum", 28],
+  ["washer", 26],
+  ["dryer", 24],
+  ["washerdryer", 30],
   ["garmentcare", 20],
   ["refrigerator", 26],
-  ["cookware", 27],
-  ["knife", 22],
+  ["cookware", 28],
+  ["knife", 23],
   ["blender", 25],
   ["coffee", 24],
   ["oven", 25],
-  ["waterdispenser", 39],
+  ["waterdispenser", 40],
   ["dishwasher", 27],
   ["waterheater", 45],
-  ["bidet", 20],
+  ["bidet", 21],
   ["smartlock", 48],
   ["wifi", 51],
-  ["standingdesk", 26],
-  ["chair", 26],
-  ["monitor", 56],
-  ["monitorarm", 23],
+  ["standingdesk", 27],
+  ["chair", 27],
+  ["monitor", 57],
+  ["monitorarm", 24],
 ]);
 const DATE_PATTERN = /^(找不到|\d{4}(?:[-/.]\d{1,2}(?:[-/.]\d{1,2})?)?)$/;
 const WASHER_DRYER_CAPACITY_PATTERN = /^洗\/乾容量：\d+(?:\.\d+)?kg \/ \d+(?:\.\d+)?kg$/;
 const DIMENSION_CATEGORY_COUNTS = new Map([
-  ["tv", 34],
-  ["soundbar", 28],
-  ["washer", 25],
-  ["dryer", 23],
-  ["washerdryer", 29],
+  ["tv", 35],
+  ["soundbar", 29],
+  ["washer", 26],
+  ["dryer", 24],
+  ["washerdryer", 30],
   ["garmentcare", 20],
   ["refrigerator", 26],
   ["coffee", 24],
   ["oven", 25],
   ["dishwasher", 27],
-  ["bidet", 20],
+  ["bidet", 21],
   ["aircon", 30],
   ["waterheater", 45],
 ]);
@@ -60,8 +60,8 @@ const FORBIDDEN_MEASUREMENT_LABEL_PATTERN = "(?!.*(?:包裝|外箱|紙箱|毛重
 const DIMENSION_PATTERN = new RegExp(`^尺寸：${FORBIDDEN_MEASUREMENT_LABEL_PATTERN}(未標示|查不到|${DIMENSION_SEGMENT_PATTERN}(?:；${DIMENSION_SEGMENT_PATTERN})*)$`, "i");
 const DIMENSION_CONFIDENCE_VALUES = new Set(["high", "medium", "low", "not_found"]);
 const WEIGHT_CATEGORY_COUNTS = new Map([
-  ["tv", 34],
-  ["soundbar", 28],
+  ["tv", 35],
+  ["soundbar", 29],
   ["coffee", 24],
   ["oven", 25],
   ["aircon", 30],
@@ -249,7 +249,7 @@ const GARMENTCARE_MODELS = new Set([
   "DF80H24R1C",
   "DF80H24R1D",
   "HCC-R600AL-X",
-  "HCC-R600AR-X",
+  "N-RGB1R-W",
 ]);
 const GARMENTCARE_BRAND_COUNTS = new Map([
   ["LG", 12],
@@ -257,8 +257,8 @@ const GARMENTCARE_BRAND_COUNTS = new Map([
   ["Panasonic", 2],
 ]);
 const GARMENTCARE_CHANNEL_COUNTS = new Map([
-  ["tw", 7],
-  ["global", 13],
+  ["tw", 8],
+  ["global", 12],
 ]);
 const GARMENTCARE_SPEC_PREFIXES = [
   "容量：",

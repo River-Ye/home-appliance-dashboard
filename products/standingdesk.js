@@ -2575,6 +2575,114 @@
         }
       ]
     }
+  },
+  {
+    "id": "standingdesk-funte-force-200x90",
+    "category": "standingdesk",
+    "rank": 27,
+    "topPick": false,
+    "budget": "premium",
+    "channel": "tw",
+    "brand": "FUNTE",
+    "model": "Force 200x90",
+    "name": "Force 200 x 90 cm 四柱四馬達大型電動升降桌",
+    "price": {
+      "currency": "TWD",
+      "amount": 31300,
+      "converted": 31300,
+      "confidence": "momo 2026-08-20 品號 13206513 公開促銷價，頁面可直接購買並選擇桌板及桌腳顏色",
+      "basis": "retailer_current"
+    },
+    "image": "https://i2.momoshop.com.tw/1776874802/goodsimg/0013/206/513/13206513_R_m.webp",
+    "buyUrl": "https://www.momoshop.com.tw/product/13206513",
+    "buyLabel": "momo購物網",
+    "installation": {
+      "status": "excluded",
+      "note": "FUNTE 官方頁將 Force 列為自行組裝，到府安裝需另加購，重型桌安裝服務為 NT$2,500 起；上樓費與特殊搬運另計。"
+    },
+    "specs": [
+      "桌面：寬 200 x 深 90 cm；桌板厚度：2.5 cm",
+      "四柱四馬達；momo 品號 13206513 標示耐重 200 kg",
+      "桌架升降範圍：60.5-125.5 cm（不含桌板）",
+      "四段高度記憶、上下限設定、按鍵鎖定與安全防夾",
+      "附藏線掛布；200 x 90 cm 屬訂製尺寸，官方標示約 35 天"
+    ],
+    "description": "FUNTE Force 以四柱四馬達、200 x 90 cm 大桌面與高承重，補進多螢幕、重型工作站、會議桌或中島桌需要的台灣品牌大型升降桌選項。",
+    "pros": [
+      "四柱四馬達與高承重較適合大型桌面及重型設備",
+      "60.5-125.5 cm 桌架高度兼顧較低坐姿與站姿",
+      "FUNTE 台灣官方提供五年保固與付費到府安裝"
+    ],
+    "cons": [
+      "200 x 90 cm 需要大空間，門寬、電梯與搬運動線要先確認",
+      "此尺寸通常需訂製約 35 天，不屬快速到貨款",
+      "四柱結構可能壓縮腿部活動範圍，購買前最好實際確認常用坐姿高度"
+    ],
+    "bestFor": "需要 200 cm 大桌面、四柱穩定性與多螢幕／重型設備承載能力的工作室、會議空間或高階桌面配置。",
+    "recommendation": "大型四柱補強推薦：承重與桌面尺寸有明確差異，但一般雙螢幕與筆電使用不必為 200 kg 規格多花空間和預算；先量門寬、桌下腿部淨空與電源位置。",
+    "score": 89,
+    "voltage": "AC 110V、50/60Hz；FUNTE 官方 Force 說明書第 18 頁",
+    "warranty": "FUNTE 台灣官方標示桌架與馬達五年保固",
+    "tags": [
+      "200x90cm",
+      "四柱四馬達",
+      "200kg",
+      "2.5cm桌板",
+      "台灣品牌",
+      "大型工作站"
+    ],
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-08-20",
+      "note": "已查 FUNTE 官方 Force 頁、momo 品號 13206513、Fin Shop 與 exact-model 價格搜尋；不同桌板材質及尺寸不可互比，本輪未找到具日期且可重現的 200 x 90 cm 蜂巢板可信新品歷史低點。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-08-20",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"FUNTE Force 200x90\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22FUNTE%20Force%20200x90%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"FUNTE Force 200x90\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22FUNTE%20Force%20200x90%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "PTT",
+          "query": "site:ptt.cc \"FUNTE Force 200x90\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22FUNTE%20Force%20200x90%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "ptt.cc"
+        },
+        {
+          "platform": "Dcard",
+          "query": "site:dcard.tw \"FUNTE Force 200x90\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22FUNTE%20Force%20200x90%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "dcard.tw"
+        },
+        {
+          "platform": "YouTube",
+          "query": "\"FUNTE Force 200x90\" problem issue defect failure broken 災情 故障 異常",
+          "queryUrl": "https://www.youtube.com/results?search_query=%22FUNTE%20Force%20200x90%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
+          "targetHost": "youtube.com"
+        }
+      ]
+    }
   }
 ]);
 })();

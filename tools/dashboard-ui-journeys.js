@@ -341,13 +341,13 @@ async function assertGarmentCareJourney(page, name) {
   }
 
   await selectComboboxOption(page, "#channelInput", '#channelOptions [data-value="tw"]', "台灣");
-  await waitForVisibleCount(page, 7);
-  await waitForProductCards(page, 7);
+  await waitForVisibleCount(page, 8);
+  await waitForProductCards(page, 8);
   await selectComboboxOption(page, "#channelInput", '#channelOptions [data-value="global"]', "海外");
-  await waitForVisibleCount(page, 13);
+  await waitForVisibleCount(page, 12);
   await loadAllVisibleProducts(page);
   const overseasCards = await page.$$eval(".product-card", (cards) => cards.map((card) => card.textContent || ""));
-  if (overseasCards.length !== 13) throw new Error(`${name}: garmentcare overseas count should be 13`);
+  if (overseasCards.length !== 12) throw new Error(`${name}: garmentcare overseas count should be 12`);
   for (const [index, text] of overseasCards.entries()) {
     for (const warning of ["國際運費", "進口稅", "台灣保固"]) {
       if (!text.includes(warning)) throw new Error(`${name}: garmentcare overseas card ${index + 1} missing ${warning}`);

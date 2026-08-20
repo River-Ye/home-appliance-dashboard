@@ -1,9 +1,9 @@
 {
   "summary": {
-    "checkedAt": "2026-08-18T00:00:00+08:00",
-    "total": 859,
+    "checkedAt": "2026-08-20T00:00:00+08:00",
+    "total": 878,
     "commonIssueProducts": 39,
-    "noCommonIssueProducts": 820,
+    "noCommonIssueProducts": 839,
     "pendingManualReview": 0,
     "commonIssues": 39,
     "searchUnavailable": 0,
@@ -5557,6 +5557,164 @@
       "rejectedCandidates": []
     },
     {
+      "id": "tv-sharp-4t-c65hu8500x",
+      "category": "tv",
+      "brand": "SHARP",
+      "model": "4T-C65HU8500X",
+      "name": "65 型 Xtreme Mini LED 144Hz Google TV 顯示器",
+      "identity": {
+        "canonicalModel": "4T-C65HU8500X",
+        "lookupLabel": "SHARP 4T-C65HU8500X",
+        "aliases": [
+          "4T-C65HU8500X",
+          "SHARP 4T-C65HU8500X"
+        ],
+        "evidenceUrl": "https://24h.pchome.com.tw/prod/DPADO2-A900JNY07"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "status": "completed",
+        "decision": "no_common_issue",
+        "reviewedAt": "2026-08-20",
+        "checkedPlatforms": [
+          "Reddit",
+          "Mobile01",
+          "PTT",
+          "Dcard",
+          "YouTube"
+        ],
+        "queries": [
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"SHARP 4T-C65HU8500X\" (problem OR issue OR defect OR failure)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22SHARP%204T-C65HU8500X%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+            "targetHost": "reddit.com"
+          },
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"SHARP 4T-C65HU8500X\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22SHARP%204T-C65HU8500X%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "mobile01.com"
+          },
+          {
+            "platform": "PTT",
+            "query": "site:ptt.cc \"SHARP 4T-C65HU8500X\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22SHARP%204T-C65HU8500X%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "ptt.cc"
+          },
+          {
+            "platform": "Dcard",
+            "query": "site:dcard.tw \"SHARP 4T-C65HU8500X\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22SHARP%204T-C65HU8500X%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "dcard.tw"
+          },
+          {
+            "platform": "YouTube",
+            "query": "\"SHARP 4T-C65HU8500X\" problem issue defect failure broken 災情 故障 異常",
+            "queryUrl": "https://www.youtube.com/results?search_query=%22SHARP%204T-C65HU8500X%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
+            "targetHost": "youtube.com"
+          }
+        ],
+        "candidateDisposition": "4T-C65HU8500X：逐站人工覆核 Reddit、Mobile01、PTT、Dcard 與 YouTube exact-model 查詢，沒有發現可回到原始頁計數的同型號候選，未達同症狀 6 人／2 站。",
+        "representativeSources": [],
+        "candidateReviews": [],
+        "reviewerNote": "4T-C65HU8500X：逐站人工覆核 Reddit、Mobile01、PTT、Dcard 與 YouTube exact-model 查詢，沒有發現可回到原始頁計數的同型號候選，未達同症狀 6 人／2 站。",
+        "attestation": "manual_cross_site_search_reviewed_no_candidate"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-08-20",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"SHARP 4T-C65HU8500X\" (problem OR issue OR defect OR failure)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22SHARP%204T-C65HU8500X%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+            "targetHost": "reddit.com"
+          },
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"SHARP 4T-C65HU8500X\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22SHARP%204T-C65HU8500X%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "mobile01.com"
+          },
+          {
+            "platform": "PTT",
+            "query": "site:ptt.cc \"SHARP 4T-C65HU8500X\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22SHARP%204T-C65HU8500X%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "ptt.cc"
+          },
+          {
+            "platform": "Dcard",
+            "query": "site:dcard.tw \"SHARP 4T-C65HU8500X\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22SHARP%204T-C65HU8500X%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "dcard.tw"
+          },
+          {
+            "platform": "YouTube",
+            "query": "\"SHARP 4T-C65HU8500X\" problem issue defect failure broken 災情 故障 異常",
+            "queryUrl": "https://www.youtube.com/results?search_query=%22SHARP%204T-C65HU8500X%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
+            "targetHost": "youtube.com"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "Bing Search → Reddit",
+          "query": "site:reddit.com \"SHARP 4T-C65HU8500X\" (problem OR issue OR defect OR failure)",
+          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22SHARP%204T-C65HU8500X%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-08-20T00:00:00+08:00"
+        },
+        {
+          "platform": "Bing Search → Mobile01",
+          "query": "site:mobile01.com \"SHARP 4T-C65HU8500X\" (災情 OR 問題 OR 故障 OR 負評)",
+          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22SHARP%204T-C65HU8500X%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-08-20T00:00:00+08:00"
+        },
+        {
+          "platform": "Bing Search → PTT",
+          "query": "site:ptt.cc \"SHARP 4T-C65HU8500X\" (災情 OR 問題 OR 故障 OR 負評)",
+          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22SHARP%204T-C65HU8500X%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-08-20T00:00:00+08:00"
+        },
+        {
+          "platform": "Bing Search → Dcard",
+          "query": "site:dcard.tw \"SHARP 4T-C65HU8500X\" (災情 OR 問題 OR 故障 OR 負評)",
+          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22SHARP%204T-C65HU8500X%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-08-20T00:00:00+08:00"
+        },
+        {
+          "platform": "YouTube Search",
+          "query": "\"SHARP 4T-C65HU8500X\" problem issue defect failure broken 災情 故障 異常",
+          "searchUrl": "https://www.youtube.com/results?search_query=%22SHARP%204T-C65HU8500X%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-08-20T00:00:00+08:00"
+        }
+      ],
+      "evidence": [],
+      "rejectedCandidates": []
+    },
+    {
       "id": "soundbar-samsung-q990f",
       "category": "soundbar",
       "brand": "Samsung",
@@ -10856,6 +11014,305 @@
       ]
     },
     {
+      "id": "soundbar-sennheiser-ambeo-mini",
+      "category": "soundbar",
+      "brand": "Sennheiser",
+      "model": "AMBEO Soundbar Mini",
+      "name": "AMBEO Soundbar Mini 7.1.4 虛擬聲道 Dolby Atmos 聲霸",
+      "identity": {
+        "canonicalModel": "AMBEO Soundbar Mini",
+        "lookupLabel": "Sennheiser AMBEO Soundbar Mini",
+        "aliases": [
+          "AMBEO Soundbar Mini",
+          "Sennheiser AMBEO Soundbar Mini"
+        ],
+        "evidenceUrl": "https://tw.sennheiser-hearing.com/zh-tw/products/ambeo-soundbar-mini"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "status": "completed",
+        "decision": "no_common_issue",
+        "reviewedAt": "2026-08-20",
+        "checkedPlatforms": [
+          "Reddit",
+          "Mobile01",
+          "PTT",
+          "Dcard",
+          "YouTube"
+        ],
+        "queries": [
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"Sennheiser AMBEO Soundbar Mini\" (problem OR issue OR defect OR failure)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Sennheiser%20AMBEO%20Soundbar%20Mini%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+            "targetHost": "reddit.com"
+          },
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"Sennheiser AMBEO Soundbar Mini\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Sennheiser%20AMBEO%20Soundbar%20Mini%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "mobile01.com"
+          },
+          {
+            "platform": "PTT",
+            "query": "site:ptt.cc \"Sennheiser AMBEO Soundbar Mini\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22Sennheiser%20AMBEO%20Soundbar%20Mini%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "ptt.cc"
+          },
+          {
+            "platform": "Dcard",
+            "query": "site:dcard.tw \"Sennheiser AMBEO Soundbar Mini\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22Sennheiser%20AMBEO%20Soundbar%20Mini%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "dcard.tw"
+          },
+          {
+            "platform": "YouTube",
+            "query": "\"Sennheiser AMBEO Soundbar Mini\" problem issue defect failure broken 災情 故障 異常",
+            "queryUrl": "https://www.youtube.com/results?search_query=%22Sennheiser%20AMBEO%20Soundbar%20Mini%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
+            "targetHost": "youtube.com"
+          }
+        ],
+        "candidateDisposition": "AMBEO Soundbar Mini：人工回看 4 個 Reddit exact-model 原頁；HDMI 無聲、喚醒延遲、閒置後需重啟與 CEC 切換並非完全同一症狀，且即使個別作者相加仍只有 Reddit 一站，未達同症狀 6 人／2 站。",
+        "representativeSources": [
+          {
+            "platform": "Reddit",
+            "title": "Help with Sennheiser Ambeo Soundbar Mini",
+            "url": "https://www.reddit.com/r/Soundbars/comments/1i8dmbf/"
+          },
+          {
+            "platform": "Reddit",
+            "title": "AMBEO Mini misses short UI sounds (Wake-up delay) via eARC",
+            "url": "https://www.reddit.com/r/sennheiser/comments/1qxxx3v/ambeo_mini_misses_short_ui_sounds_wakeup_delay/"
+          },
+          {
+            "platform": "Reddit",
+            "title": "Ambeo Soundbar Mini doesn't play after some hours idling",
+            "url": "https://www.reddit.com/r/sennheiser/comments/1qsm0bd/ambeo_soundbar_mini_doesnt_play_after_some_hours/"
+          },
+          {
+            "platform": "Reddit",
+            "title": "TV audio output channel keeps reverting to the HDMI eARC port where the AMBEO mini is connected",
+            "url": "https://www.reddit.com/r/sennheiser/comments/1hlhx5w/tv_audio_output_channel_keeps_reverting_to_the/"
+          }
+        ],
+        "candidateReviews": [
+          {
+            "platform": "Reddit",
+            "url": "https://www.reddit.com/r/Soundbars/comments/1i8dmbf/",
+            "title": "Help with Sennheiser Ambeo Soundbar Mini",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-08-20",
+            "sourceExcerpt": "原頁樓主回報兩台 AMBEO Soundbar Mini 皆無法由 HDMI eARC 輸出，後續另有兩位 exact-model 使用者表示相同情況。",
+            "independentAuthors": 3,
+            "specificReason": "此頁同一 HDMI 無聲問題可辨識 3 位獨立使用者；雖是 exact model 第一人稱候選，仍未達 6 人，且只有 Reddit 一個原始網站。"
+          },
+          {
+            "platform": "Reddit",
+            "url": "https://www.reddit.com/r/sennheiser/comments/1qxxx3v/ambeo_mini_misses_short_ui_sounds_wakeup_delay/",
+            "title": "AMBEO Mini misses short UI sounds (Wake-up delay) via eARC",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-08-20",
+            "sourceExcerpt": "樓主描述靜音後短促 UI 音效被 eARC 喚醒延遲截斷，後續兩位 exact-model 使用者表示也遇到相同現象。",
+            "independentAuthors": 3,
+            "specificReason": "此頁可辨識 3 位 AMBEO Mini 使用者，但症狀是短音效喚醒延遲，與完全無聲不完全等同，且所有回報仍只來自 Reddit。"
+          },
+          {
+            "platform": "Reddit",
+            "url": "https://www.reddit.com/r/sennheiser/comments/1qsm0bd/ambeo_soundbar_mini_doesnt_play_after_some_hours/",
+            "title": "Ambeo Soundbar Mini doesn't play after some hours idling",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-08-20",
+            "sourceExcerpt": "單一樓主回報 AMBEO Soundbar Mini 閒置數小時後 HDMI 沒有聲音，必須拔插電源才能恢復。",
+            "independentAuthors": 1,
+            "specificReason": "只有 1 位 exact-model 第一人稱作者，未形成 6 位同症狀使用者；也沒有第二個原始網站可以交叉成立集中災情。"
+          },
+          {
+            "platform": "Reddit",
+            "url": "https://www.reddit.com/r/sennheiser/comments/1hlhx5w/tv_audio_output_channel_keeps_reverting_to_the/",
+            "title": "TV audio output channel keeps reverting to the HDMI eARC port where the AMBEO mini is connected",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-08-20",
+            "sourceExcerpt": "樓主與一位回覆者使用 AMBEO Mini 搭配 LG TV 時，音訊輸出會自動切回 HDMI eARC；討論亦指出可能涉及 TV 的 CEC 行為。",
+            "independentAuthors": 2,
+            "specificReason": "可辨識的 exact-model AMBEO Mini 作者只有 2 位，且 CEC 主從責任仍未釐清；其餘回覆多為 Plus／Max 等不同型號，不能合併計數。"
+          }
+        ],
+        "reviewerNote": "AMBEO Soundbar Mini：人工回看 4 個 Reddit exact-model 原頁；HDMI 無聲、喚醒延遲、閒置後需重啟與 CEC 切換並非完全同一症狀，且即使個別作者相加仍只有 Reddit 一站，未達同症狀 6 人／2 站。",
+        "attestation": "manual_original_pages_reviewed"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-08-20",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"Sennheiser AMBEO Soundbar Mini\" (problem OR issue OR defect OR failure)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Sennheiser%20AMBEO%20Soundbar%20Mini%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+            "targetHost": "reddit.com"
+          },
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"Sennheiser AMBEO Soundbar Mini\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Sennheiser%20AMBEO%20Soundbar%20Mini%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "mobile01.com"
+          },
+          {
+            "platform": "PTT",
+            "query": "site:ptt.cc \"Sennheiser AMBEO Soundbar Mini\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22Sennheiser%20AMBEO%20Soundbar%20Mini%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "ptt.cc"
+          },
+          {
+            "platform": "Dcard",
+            "query": "site:dcard.tw \"Sennheiser AMBEO Soundbar Mini\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22Sennheiser%20AMBEO%20Soundbar%20Mini%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "dcard.tw"
+          },
+          {
+            "platform": "YouTube",
+            "query": "\"Sennheiser AMBEO Soundbar Mini\" problem issue defect failure broken 災情 故障 異常",
+            "queryUrl": "https://www.youtube.com/results?search_query=%22Sennheiser%20AMBEO%20Soundbar%20Mini%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
+            "targetHost": "youtube.com"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "Bing Search → Reddit",
+          "query": "site:reddit.com \"Sennheiser AMBEO Soundbar Mini\" (problem OR issue OR defect OR failure)",
+          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Sennheiser%20AMBEO%20Soundbar%20Mini%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "result": "candidates_unverified_by_search_only",
+          "resultCount": 4,
+          "candidateUrls": [
+            "https://www.reddit.com/r/Soundbars/comments/1i8dmbf/",
+            "https://www.reddit.com/r/sennheiser/comments/1qxxx3v/ambeo_mini_misses_short_ui_sounds_wakeup_delay/",
+            "https://www.reddit.com/r/sennheiser/comments/1qsm0bd/ambeo_soundbar_mini_doesnt_play_after_some_hours/",
+            "https://www.reddit.com/r/sennheiser/comments/1hlhx5w/tv_audio_output_channel_keeps_reverting_to_the/"
+          ],
+          "candidates": [
+            {
+              "url": "https://www.reddit.com/r/Soundbars/comments/1i8dmbf/",
+              "title": "Help with Sennheiser Ambeo Soundbar Mini",
+              "exactModel": true
+            },
+            {
+              "url": "https://www.reddit.com/r/sennheiser/comments/1qxxx3v/ambeo_mini_misses_short_ui_sounds_wakeup_delay/",
+              "title": "AMBEO Mini misses short UI sounds (Wake-up delay) via eARC",
+              "exactModel": true
+            },
+            {
+              "url": "https://www.reddit.com/r/sennheiser/comments/1qsm0bd/ambeo_soundbar_mini_doesnt_play_after_some_hours/",
+              "title": "Ambeo Soundbar Mini doesn't play after some hours idling",
+              "exactModel": true
+            },
+            {
+              "url": "https://www.reddit.com/r/sennheiser/comments/1hlhx5w/tv_audio_output_channel_keeps_reverting_to_the/",
+              "title": "TV audio output channel keeps reverting to the HDMI eARC port where the AMBEO mini is connected",
+              "exactModel": true
+            }
+          ],
+          "inspectedAt": "2026-08-20T00:00:00+08:00"
+        },
+        {
+          "platform": "Bing Search → Mobile01",
+          "query": "site:mobile01.com \"Sennheiser AMBEO Soundbar Mini\" (災情 OR 問題 OR 故障 OR 負評)",
+          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Sennheiser%20AMBEO%20Soundbar%20Mini%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-08-20T00:00:00+08:00"
+        },
+        {
+          "platform": "Bing Search → PTT",
+          "query": "site:ptt.cc \"Sennheiser AMBEO Soundbar Mini\" (災情 OR 問題 OR 故障 OR 負評)",
+          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22Sennheiser%20AMBEO%20Soundbar%20Mini%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-08-20T00:00:00+08:00"
+        },
+        {
+          "platform": "Bing Search → Dcard",
+          "query": "site:dcard.tw \"Sennheiser AMBEO Soundbar Mini\" (災情 OR 問題 OR 故障 OR 負評)",
+          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22Sennheiser%20AMBEO%20Soundbar%20Mini%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-08-20T00:00:00+08:00"
+        },
+        {
+          "platform": "YouTube Search",
+          "query": "\"Sennheiser AMBEO Soundbar Mini\" problem issue defect failure broken 災情 故障 異常",
+          "searchUrl": "https://www.youtube.com/results?search_query=%22Sennheiser%20AMBEO%20Soundbar%20Mini%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-08-20T00:00:00+08:00"
+        }
+      ],
+      "evidence": [],
+      "rejectedCandidates": [
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/Soundbars/comments/1i8dmbf/",
+          "title": "Help with Sennheiser Ambeo Soundbar Mini",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-20",
+          "sourceExcerpt": "原頁樓主回報兩台 AMBEO Soundbar Mini 皆無法由 HDMI eARC 輸出，後續另有兩位 exact-model 使用者表示相同情況。",
+          "independentAuthors": 3,
+          "specificReason": "此頁同一 HDMI 無聲問題可辨識 3 位獨立使用者；雖是 exact model 第一人稱候選，仍未達 6 人，且只有 Reddit 一個原始網站。",
+          "reason": "此頁同一 HDMI 無聲問題可辨識 3 位獨立使用者；雖是 exact model 第一人稱候選，仍未達 6 人，且只有 Reddit 一個原始網站。"
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/sennheiser/comments/1qxxx3v/ambeo_mini_misses_short_ui_sounds_wakeup_delay/",
+          "title": "AMBEO Mini misses short UI sounds (Wake-up delay) via eARC",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-20",
+          "sourceExcerpt": "樓主描述靜音後短促 UI 音效被 eARC 喚醒延遲截斷，後續兩位 exact-model 使用者表示也遇到相同現象。",
+          "independentAuthors": 3,
+          "specificReason": "此頁可辨識 3 位 AMBEO Mini 使用者，但症狀是短音效喚醒延遲，與完全無聲不完全等同，且所有回報仍只來自 Reddit。",
+          "reason": "此頁可辨識 3 位 AMBEO Mini 使用者，但症狀是短音效喚醒延遲，與完全無聲不完全等同，且所有回報仍只來自 Reddit。"
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/sennheiser/comments/1qsm0bd/ambeo_soundbar_mini_doesnt_play_after_some_hours/",
+          "title": "Ambeo Soundbar Mini doesn't play after some hours idling",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-20",
+          "sourceExcerpt": "單一樓主回報 AMBEO Soundbar Mini 閒置數小時後 HDMI 沒有聲音，必須拔插電源才能恢復。",
+          "independentAuthors": 1,
+          "specificReason": "只有 1 位 exact-model 第一人稱作者，未形成 6 位同症狀使用者；也沒有第二個原始網站可以交叉成立集中災情。",
+          "reason": "只有 1 位 exact-model 第一人稱作者，未形成 6 位同症狀使用者；也沒有第二個原始網站可以交叉成立集中災情。"
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/sennheiser/comments/1hlhx5w/tv_audio_output_channel_keeps_reverting_to_the/",
+          "title": "TV audio output channel keeps reverting to the HDMI eARC port where the AMBEO mini is connected",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-20",
+          "sourceExcerpt": "樓主與一位回覆者使用 AMBEO Mini 搭配 LG TV 時，音訊輸出會自動切回 HDMI eARC；討論亦指出可能涉及 TV 的 CEC 行為。",
+          "independentAuthors": 2,
+          "specificReason": "可辨識的 exact-model AMBEO Mini 作者只有 2 位，且 CEC 主從責任仍未釐清；其餘回覆多為 Plus／Max 等不同型號，不能合併計數。",
+          "reason": "可辨識的 exact-model AMBEO Mini 作者只有 2 位，且 CEC 主從責任仍未釐清；其餘回覆多為 Plus／Max 等不同型號，不能合併計數。"
+        }
+      ]
+    },
+    {
       "id": "fan-panasonic-fh16",
       "category": "fan",
       "brand": "Panasonic",
@@ -14560,6 +15017,146 @@
           "reason": "正面使用心得。；人工覆核後仍不符合六位獨立使用者且跨兩個原始網站的成立門檻。"
         }
       ]
+    },
+    {
+      "id": "fan-tatung-tf-l14d7t",
+      "category": "fan",
+      "brand": "TATUNG",
+      "model": "TF-L14D7T",
+      "name": "14 吋 7 葉片 DC 遙控立扇",
+      "identity": {
+        "canonicalModel": "TF-L14D7T",
+        "lookupLabel": "TATUNG TF-L14D7T",
+        "aliases": [
+          "TF-L14D7T",
+          "TATUNG TF-L14D7T"
+        ],
+        "evidenceUrl": "https://24h.pchome.com.tw/prod/DMABHZ-A900IH4WH"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "status": "completed",
+        "decision": "no_common_issue",
+        "reviewedAt": "2026-08-20",
+        "checkedPlatforms": [
+          "Reddit",
+          "Mobile01",
+          "PTT",
+          "Dcard",
+          "YouTube"
+        ],
+        "queries": [
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"TATUNG TF-L14D7T\" (problem OR issue OR defect OR failure)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22TATUNG%20TF-L14D7T%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+            "targetHost": "reddit.com"
+          },
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"TATUNG TF-L14D7T\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22TATUNG%20TF-L14D7T%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "mobile01.com"
+          },
+          {
+            "platform": "PTT",
+            "query": "site:ptt.cc \"TATUNG TF-L14D7T\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22TATUNG%20TF-L14D7T%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "ptt.cc"
+          },
+          {
+            "platform": "Dcard",
+            "query": "site:dcard.tw \"TATUNG TF-L14D7T\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22TATUNG%20TF-L14D7T%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "dcard.tw"
+          },
+          {
+            "platform": "YouTube",
+            "query": "\"TATUNG TF-L14D7T\" problem issue defect failure broken 災情 故障 異常",
+            "queryUrl": "https://www.youtube.com/results?search_query=%22TATUNG%20TF-L14D7T%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
+            "targetHost": "youtube.com"
+          }
+        ],
+        "candidateDisposition": "TF-L14D7T：逐站人工覆核 Reddit、Mobile01、PTT、Dcard 與 YouTube exact-model 查詢，沒有發現可回到原始頁計數的同型號候選，未達同症狀 6 人／2 站。",
+        "representativeSources": [],
+        "candidateReviews": [],
+        "reviewerNote": "TF-L14D7T：逐站人工覆核 Reddit、Mobile01、PTT、Dcard 與 YouTube exact-model 查詢，沒有發現可回到原始頁計數的同型號候選，未達同症狀 6 人／2 站。",
+        "attestation": "manual_cross_site_search_reviewed_no_candidate"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-08-20",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"TATUNG TF-L14D7T\" (problem OR issue OR defect OR failure)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22TATUNG%20TF-L14D7T%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+            "targetHost": "reddit.com"
+          },
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"TATUNG TF-L14D7T\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22TATUNG%20TF-L14D7T%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "mobile01.com"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "Bing Search → Reddit",
+          "query": "site:reddit.com \"TATUNG TF-L14D7T\" (problem OR issue OR defect OR failure)",
+          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22TATUNG%20TF-L14D7T%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-08-20T00:00:00+08:00"
+        },
+        {
+          "platform": "Bing Search → Mobile01",
+          "query": "site:mobile01.com \"TATUNG TF-L14D7T\" (災情 OR 問題 OR 故障 OR 負評)",
+          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22TATUNG%20TF-L14D7T%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-08-20T00:00:00+08:00"
+        },
+        {
+          "platform": "Bing Search → PTT",
+          "query": "site:ptt.cc \"TATUNG TF-L14D7T\" (災情 OR 問題 OR 故障 OR 負評)",
+          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22TATUNG%20TF-L14D7T%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-08-20T00:00:00+08:00"
+        },
+        {
+          "platform": "Bing Search → Dcard",
+          "query": "site:dcard.tw \"TATUNG TF-L14D7T\" (災情 OR 問題 OR 故障 OR 負評)",
+          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22TATUNG%20TF-L14D7T%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-08-20T00:00:00+08:00"
+        },
+        {
+          "platform": "YouTube Search",
+          "query": "\"TATUNG TF-L14D7T\" problem issue defect failure broken 災情 故障 異常",
+          "searchUrl": "https://www.youtube.com/results?search_query=%22TATUNG%20TF-L14D7T%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-08-20T00:00:00+08:00"
+        }
+      ],
+      "evidence": [],
+      "rejectedCandidates": []
     },
     {
       "id": "circ-vornado-660",
@@ -18722,6 +19319,146 @@
           "candidateUrls": [],
           "candidates": [],
           "inspectedAt": "2026-08-18T00:00:00+08:00"
+        }
+      ],
+      "evidence": [],
+      "rejectedCandidates": []
+    },
+    {
+      "id": "circulator-balmuda-egf-3300-wk",
+      "category": "circulator",
+      "brand": "BALMUDA",
+      "model": "EGF-3300-WK",
+      "name": "GreenFan Cirq 綠化循環扇",
+      "identity": {
+        "canonicalModel": "EGF-3300-WK",
+        "lookupLabel": "BALMUDA EGF-3300-WK",
+        "aliases": [
+          "EGF-3300-WK",
+          "BALMUDA EGF-3300-WK"
+        ],
+        "evidenceUrl": "https://www.balmuda.com.tw/shop.php?cID=4"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "status": "completed",
+        "decision": "no_common_issue",
+        "reviewedAt": "2026-08-20",
+        "checkedPlatforms": [
+          "Reddit",
+          "Mobile01",
+          "PTT",
+          "Dcard",
+          "YouTube"
+        ],
+        "queries": [
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"BALMUDA EGF-3300-WK\" (problem OR issue OR defect OR failure)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22BALMUDA%20EGF-3300-WK%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+            "targetHost": "reddit.com"
+          },
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"BALMUDA EGF-3300-WK\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22BALMUDA%20EGF-3300-WK%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "mobile01.com"
+          },
+          {
+            "platform": "PTT",
+            "query": "site:ptt.cc \"BALMUDA EGF-3300-WK\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22BALMUDA%20EGF-3300-WK%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "ptt.cc"
+          },
+          {
+            "platform": "Dcard",
+            "query": "site:dcard.tw \"BALMUDA EGF-3300-WK\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22BALMUDA%20EGF-3300-WK%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "dcard.tw"
+          },
+          {
+            "platform": "YouTube",
+            "query": "\"BALMUDA EGF-3300-WK\" problem issue defect failure broken 災情 故障 異常",
+            "queryUrl": "https://www.youtube.com/results?search_query=%22BALMUDA%20EGF-3300-WK%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
+            "targetHost": "youtube.com"
+          }
+        ],
+        "candidateDisposition": "EGF-3300-WK：逐站人工覆核 Reddit、Mobile01、PTT、Dcard 與 YouTube exact-model 查詢，沒有發現可回到原始頁計數的同型號候選，未達同症狀 6 人／2 站。",
+        "representativeSources": [],
+        "candidateReviews": [],
+        "reviewerNote": "EGF-3300-WK：逐站人工覆核 Reddit、Mobile01、PTT、Dcard 與 YouTube exact-model 查詢，沒有發現可回到原始頁計數的同型號候選，未達同症狀 6 人／2 站。",
+        "attestation": "manual_cross_site_search_reviewed_no_candidate"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-08-20",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"BALMUDA EGF-3300-WK\" (problem OR issue OR defect OR failure)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22BALMUDA%20EGF-3300-WK%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+            "targetHost": "reddit.com"
+          },
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"BALMUDA EGF-3300-WK\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22BALMUDA%20EGF-3300-WK%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "mobile01.com"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "Bing Search → Reddit",
+          "query": "site:reddit.com \"BALMUDA EGF-3300-WK\" (problem OR issue OR defect OR failure)",
+          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22BALMUDA%20EGF-3300-WK%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-08-20T00:00:00+08:00"
+        },
+        {
+          "platform": "Bing Search → Mobile01",
+          "query": "site:mobile01.com \"BALMUDA EGF-3300-WK\" (災情 OR 問題 OR 故障 OR 負評)",
+          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22BALMUDA%20EGF-3300-WK%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-08-20T00:00:00+08:00"
+        },
+        {
+          "platform": "Bing Search → PTT",
+          "query": "site:ptt.cc \"BALMUDA EGF-3300-WK\" (災情 OR 問題 OR 故障 OR 負評)",
+          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22BALMUDA%20EGF-3300-WK%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-08-20T00:00:00+08:00"
+        },
+        {
+          "platform": "Bing Search → Dcard",
+          "query": "site:dcard.tw \"BALMUDA EGF-3300-WK\" (災情 OR 問題 OR 故障 OR 負評)",
+          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22BALMUDA%20EGF-3300-WK%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-08-20T00:00:00+08:00"
+        },
+        {
+          "platform": "YouTube Search",
+          "query": "\"BALMUDA EGF-3300-WK\" problem issue defect failure broken 災情 故障 異常",
+          "searchUrl": "https://www.youtube.com/results?search_query=%22BALMUDA%20EGF-3300-WK%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-08-20T00:00:00+08:00"
         }
       ],
       "evidence": [],
@@ -23172,6 +23909,221 @@
       ]
     },
     {
+      "id": "dehumidifier-electrolux-ed1031wd",
+      "category": "dehumidifier",
+      "brand": "Electrolux",
+      "model": "ED1031WD",
+      "name": "UltimateHome 300 10L 清淨除濕機",
+      "identity": {
+        "canonicalModel": "ED1031WD",
+        "lookupLabel": "Electrolux ED1031WD",
+        "aliases": [
+          "ED1031WD",
+          "Electrolux ED1031WD"
+        ],
+        "evidenceUrl": "https://www.electrolux.com.tw/appliances/dehumidifier/ed1031wd/"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "status": "completed",
+        "decision": "no_common_issue",
+        "reviewedAt": "2026-08-20",
+        "checkedPlatforms": [
+          "Reddit",
+          "Mobile01",
+          "PTT",
+          "Dcard",
+          "YouTube"
+        ],
+        "queries": [
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"Electrolux ED1031WD\" (problem OR issue OR defect OR failure)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Electrolux%20ED1031WD%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+            "targetHost": "reddit.com"
+          },
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"Electrolux ED1031WD\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Electrolux%20ED1031WD%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "mobile01.com"
+          },
+          {
+            "platform": "PTT",
+            "query": "site:ptt.cc \"Electrolux ED1031WD\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22Electrolux%20ED1031WD%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "ptt.cc"
+          },
+          {
+            "platform": "Dcard",
+            "query": "site:dcard.tw \"Electrolux ED1031WD\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22Electrolux%20ED1031WD%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "dcard.tw"
+          },
+          {
+            "platform": "YouTube",
+            "query": "\"Electrolux ED1031WD\" problem issue defect failure broken 災情 故障 異常",
+            "queryUrl": "https://www.youtube.com/results?search_query=%22Electrolux%20ED1031WD%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
+            "targetHost": "youtube.com"
+          }
+        ],
+        "candidateDisposition": "ED1031WD：人工回看 Dcard 購前詢問與 PTT 系列促銷討論；兩頁都沒有可計入的 ED1031WD 第一人稱同型號負評作者，未達同症狀 6 人／2 站。",
+        "representativeSources": [
+          {
+            "platform": "Dcard",
+            "title": "Electrolux ED1031WD 使用心得詢問",
+            "url": "https://www.dcard.tw/f/talk/p/260519888"
+          },
+          {
+            "platform": "PTT",
+            "title": "Electrolux 除濕機優惠討論",
+            "url": "https://www.ptt.cc/bbs/Lifeismoney/M.1775210945.A.27F.html"
+          }
+        ],
+        "candidateReviews": [
+          {
+            "platform": "Dcard",
+            "url": "https://www.dcard.tw/f/talk/p/260519888",
+            "title": "Electrolux ED1031WD 使用心得詢問",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-08-20",
+            "sourceExcerpt": "原頁以 ED1031WD exact model 詢問是否有使用心得與除濕效果，沒有可辨識的第一人稱故障或負評回報。",
+            "independentAuthors": 0,
+            "specificReason": "頁面是購前詢問，不是實際持有者的同型號問題回報；可計入負評作者為 0，無法用來成立任何集中災情。"
+          },
+          {
+            "platform": "PTT",
+            "url": "https://www.ptt.cc/bbs/Lifeismoney/M.1775210945.A.27F.html",
+            "title": "Electrolux 除濕機優惠討論",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-08-20",
+            "sourceExcerpt": "討論主體為另一系列清淨除濕機促銷，回覆只把 ED1031WD 稱為升級選項；泛稱品牌負評沒有指向 ED1031WD 第一人稱故障。",
+            "independentAuthors": 0,
+            "specificReason": "雖頁內出現 exact model，候選內容不是 ED1031WD 持有者的具體同型號問題；品牌泛稱與不同型號不得合併計數。"
+          }
+        ],
+        "reviewerNote": "ED1031WD：人工回看 Dcard 購前詢問與 PTT 系列促銷討論；兩頁都沒有可計入的 ED1031WD 第一人稱同型號負評作者，未達同症狀 6 人／2 站。",
+        "attestation": "manual_original_pages_reviewed"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-08-20",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "PTT",
+            "query": "site:ptt.cc \"Electrolux ED1031WD\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22Electrolux%20ED1031WD%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "ptt.cc"
+          },
+          {
+            "platform": "Dcard",
+            "query": "site:dcard.tw \"Electrolux ED1031WD\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22Electrolux%20ED1031WD%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "dcard.tw"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "Bing Search → Reddit",
+          "query": "site:reddit.com \"Electrolux ED1031WD\" (problem OR issue OR defect OR failure)",
+          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Electrolux%20ED1031WD%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-08-20T00:00:00+08:00"
+        },
+        {
+          "platform": "Bing Search → Mobile01",
+          "query": "site:mobile01.com \"Electrolux ED1031WD\" (災情 OR 問題 OR 故障 OR 負評)",
+          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Electrolux%20ED1031WD%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-08-20T00:00:00+08:00"
+        },
+        {
+          "platform": "Bing Search → PTT",
+          "query": "site:ptt.cc \"Electrolux ED1031WD\" (災情 OR 問題 OR 故障 OR 負評)",
+          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22Electrolux%20ED1031WD%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "result": "candidates_unverified_by_search_only",
+          "resultCount": 1,
+          "candidateUrls": [
+            "https://www.ptt.cc/bbs/Lifeismoney/M.1775210945.A.27F.html"
+          ],
+          "candidates": [
+            {
+              "url": "https://www.ptt.cc/bbs/Lifeismoney/M.1775210945.A.27F.html",
+              "title": "Electrolux 除濕機優惠討論",
+              "exactModel": true
+            }
+          ],
+          "inspectedAt": "2026-08-20T00:00:00+08:00"
+        },
+        {
+          "platform": "Bing Search → Dcard",
+          "query": "site:dcard.tw \"Electrolux ED1031WD\" (災情 OR 問題 OR 故障 OR 負評)",
+          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22Electrolux%20ED1031WD%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "result": "candidates_unverified_by_search_only",
+          "resultCount": 1,
+          "candidateUrls": [
+            "https://www.dcard.tw/f/talk/p/260519888"
+          ],
+          "candidates": [
+            {
+              "url": "https://www.dcard.tw/f/talk/p/260519888",
+              "title": "Electrolux ED1031WD 使用心得詢問",
+              "exactModel": true
+            }
+          ],
+          "inspectedAt": "2026-08-20T00:00:00+08:00"
+        },
+        {
+          "platform": "YouTube Search",
+          "query": "\"Electrolux ED1031WD\" problem issue defect failure broken 災情 故障 異常",
+          "searchUrl": "https://www.youtube.com/results?search_query=%22Electrolux%20ED1031WD%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-08-20T00:00:00+08:00"
+        }
+      ],
+      "evidence": [],
+      "rejectedCandidates": [
+        {
+          "platform": "Dcard",
+          "url": "https://www.dcard.tw/f/talk/p/260519888",
+          "title": "Electrolux ED1031WD 使用心得詢問",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-20",
+          "sourceExcerpt": "原頁以 ED1031WD exact model 詢問是否有使用心得與除濕效果，沒有可辨識的第一人稱故障或負評回報。",
+          "independentAuthors": 0,
+          "specificReason": "頁面是購前詢問，不是實際持有者的同型號問題回報；可計入負評作者為 0，無法用來成立任何集中災情。",
+          "reason": "頁面是購前詢問，不是實際持有者的同型號問題回報；可計入負評作者為 0，無法用來成立任何集中災情。"
+        },
+        {
+          "platform": "PTT",
+          "url": "https://www.ptt.cc/bbs/Lifeismoney/M.1775210945.A.27F.html",
+          "title": "Electrolux 除濕機優惠討論",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-20",
+          "sourceExcerpt": "討論主體為另一系列清淨除濕機促銷，回覆只把 ED1031WD 稱為升級選項；泛稱品牌負評沒有指向 ED1031WD 第一人稱故障。",
+          "independentAuthors": 0,
+          "specificReason": "雖頁內出現 exact model，候選內容不是 ED1031WD 持有者的具體同型號問題；品牌泛稱與不同型號不得合併計數。",
+          "reason": "雖頁內出現 exact model，候選內容不是 ED1031WD 持有者的具體同型號問題；品牌泛稱與不同型號不得合併計數。"
+        }
+      ]
+    },
+    {
       "id": "ap-coway-ap1019",
       "category": "purifier",
       "brand": "Coway",
@@ -27531,6 +28483,289 @@
       ]
     },
     {
+      "id": "purifier-honeywell-hpa-100aptw",
+      "category": "purifier",
+      "brand": "Honeywell",
+      "model": "HPA-100APTW",
+      "name": "4–8 坪抗敏系列空氣清淨機",
+      "identity": {
+        "canonicalModel": "HPA-100APTW",
+        "lookupLabel": "Honeywell HPA-100APTW",
+        "aliases": [
+          "HPA-100APTW",
+          "Honeywell HPA-100APTW"
+        ],
+        "evidenceUrl": "https://24h.pchome.com.tw/prod/DMAU00-A77331975"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "status": "completed",
+        "decision": "no_common_issue",
+        "reviewedAt": "2026-08-20",
+        "checkedPlatforms": [
+          "Reddit",
+          "Mobile01",
+          "PTT",
+          "Dcard",
+          "YouTube"
+        ],
+        "queries": [
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"Honeywell HPA-100APTW\" (problem OR issue OR defect OR failure)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Honeywell%20HPA-100APTW%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+            "targetHost": "reddit.com"
+          },
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"Honeywell HPA-100APTW\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Honeywell%20HPA-100APTW%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "mobile01.com"
+          },
+          {
+            "platform": "PTT",
+            "query": "site:ptt.cc \"Honeywell HPA-100APTW\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22Honeywell%20HPA-100APTW%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "ptt.cc"
+          },
+          {
+            "platform": "Dcard",
+            "query": "site:dcard.tw \"Honeywell HPA-100APTW\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22Honeywell%20HPA-100APTW%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "dcard.tw"
+          },
+          {
+            "platform": "YouTube",
+            "query": "\"Honeywell HPA-100APTW\" problem issue defect failure broken 災情 故障 異常",
+            "queryUrl": "https://www.youtube.com/results?search_query=%22Honeywell%20HPA-100APTW%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
+            "targetHost": "youtube.com"
+          }
+        ],
+        "candidateDisposition": "HPA-100APTW：人工回看 Mobile01 與 PTT 的氣味、濾網密合及面板按壓候選；單一症狀最多 2 位獨立作者，未達同症狀 6 人／2 站。",
+        "representativeSources": [
+          {
+            "platform": "Mobile01",
+            "title": "Honeywell HPA-100APTW 濾網酸味討論",
+            "url": "https://m.mobile01.com/topicdetail.php?f=731&t=5337823"
+          },
+          {
+            "platform": "Mobile01",
+            "title": "Honeywell HPA-100APTW 長期使用與濾網密合討論",
+            "url": "https://www.mobile01.com/topicdetail.php?f=731&t=4524787"
+          },
+          {
+            "platform": "PTT",
+            "title": "Honeywell HPA-100APTW 面板按鍵操作討論",
+            "url": "https://www.ptt.cc/bbs/E-appliance/M.1521123339.A.4C1.html"
+          },
+          {
+            "platform": "PTT",
+            "title": "Honeywell HPA 系列氣味討論",
+            "url": "https://www.ptt.cc/bbs/E-appliance/M.1506768512.A.A7F.html"
+          }
+        ],
+        "candidateReviews": [
+          {
+            "platform": "Mobile01",
+            "url": "https://m.mobile01.com/topicdetail.php?f=731&t=5337823",
+            "title": "Honeywell HPA-100APTW 濾網酸味討論",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-08-20",
+            "sourceExcerpt": "一位持有兩台 HPA-100APTW 的使用者描述更換濾網後出現酸味，討論焦點偏向耗材批次與氣味。",
+            "independentAuthors": 1,
+            "specificReason": "同一位作者持有兩台仍只算 1 位獨立使用者；單站單人濾網氣味候選遠低於 6 人與兩個原始網站門檻。"
+          },
+          {
+            "platform": "Mobile01",
+            "url": "https://www.mobile01.com/topicdetail.php?f=731&t=4524787",
+            "title": "Honeywell HPA-100APTW 長期使用與濾網密合討論",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-08-20",
+            "sourceExcerpt": "一位 exact-model 使用者在長期心得中提及濾網安裝密合疑慮，沒有其他獨立作者回報相同問題。",
+            "independentAuthors": 1,
+            "specificReason": "只有 1 位同型號作者提及濾網密合疑慮，未達同症狀 6 人；亦不足以把一般濾網維護問題標成機器集中故障。"
+          },
+          {
+            "platform": "PTT",
+            "url": "https://www.ptt.cc/bbs/E-appliance/M.1521123339.A.4C1.html",
+            "title": "Honeywell HPA-100APTW 面板按鍵操作討論",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-08-20",
+            "sourceExcerpt": "樓主回報面板較難按，另有一位回覆者表示難按；其餘使用者表示正常或認為是按壓位置技巧。",
+            "independentAuthors": 2,
+            "specificReason": "面板按壓候選只有 2 位獨立作者且只在 PTT，一頁內也有相反使用經驗；未達 6 人與兩站門檻。"
+          },
+          {
+            "platform": "PTT",
+            "url": "https://www.ptt.cc/bbs/E-appliance/M.1506768512.A.A7F.html",
+            "title": "Honeywell HPA 系列氣味討論",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-08-20",
+            "sourceExcerpt": "主文為 HPA200，回覆中只有一位 HPA-100APTW 使用者描述氣味，不能把 HPA200 作者或其他系列一起計入。",
+            "independentAuthors": 1,
+            "specificReason": "只有 1 位 exact-model 作者；主文與多數回覆屬 HPA200 或其他系列，依型號邊界排除後未達集中災情門檻。"
+          }
+        ],
+        "reviewerNote": "HPA-100APTW：人工回看 Mobile01 與 PTT 的氣味、濾網密合及面板按壓候選；單一症狀最多 2 位獨立作者，未達同症狀 6 人／2 站。",
+        "attestation": "manual_original_pages_reviewed"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-08-20",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"Honeywell HPA-100APTW\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Honeywell%20HPA-100APTW%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "mobile01.com"
+          },
+          {
+            "platform": "PTT",
+            "query": "site:ptt.cc \"Honeywell HPA-100APTW\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22Honeywell%20HPA-100APTW%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "ptt.cc"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "Bing Search → Reddit",
+          "query": "site:reddit.com \"Honeywell HPA-100APTW\" (problem OR issue OR defect OR failure)",
+          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Honeywell%20HPA-100APTW%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-08-20T00:00:00+08:00"
+        },
+        {
+          "platform": "Bing Search → Mobile01",
+          "query": "site:mobile01.com \"Honeywell HPA-100APTW\" (災情 OR 問題 OR 故障 OR 負評)",
+          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Honeywell%20HPA-100APTW%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "result": "candidates_unverified_by_search_only",
+          "resultCount": 2,
+          "candidateUrls": [
+            "https://m.mobile01.com/topicdetail.php?f=731&t=5337823",
+            "https://www.mobile01.com/topicdetail.php?f=731&t=4524787"
+          ],
+          "candidates": [
+            {
+              "url": "https://m.mobile01.com/topicdetail.php?f=731&t=5337823",
+              "title": "Honeywell HPA-100APTW 濾網酸味討論",
+              "exactModel": true
+            },
+            {
+              "url": "https://www.mobile01.com/topicdetail.php?f=731&t=4524787",
+              "title": "Honeywell HPA-100APTW 長期使用與濾網密合討論",
+              "exactModel": true
+            }
+          ],
+          "inspectedAt": "2026-08-20T00:00:00+08:00"
+        },
+        {
+          "platform": "Bing Search → PTT",
+          "query": "site:ptt.cc \"Honeywell HPA-100APTW\" (災情 OR 問題 OR 故障 OR 負評)",
+          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22Honeywell%20HPA-100APTW%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "result": "candidates_unverified_by_search_only",
+          "resultCount": 2,
+          "candidateUrls": [
+            "https://www.ptt.cc/bbs/E-appliance/M.1521123339.A.4C1.html",
+            "https://www.ptt.cc/bbs/E-appliance/M.1506768512.A.A7F.html"
+          ],
+          "candidates": [
+            {
+              "url": "https://www.ptt.cc/bbs/E-appliance/M.1521123339.A.4C1.html",
+              "title": "Honeywell HPA-100APTW 面板按鍵操作討論",
+              "exactModel": true
+            },
+            {
+              "url": "https://www.ptt.cc/bbs/E-appliance/M.1506768512.A.A7F.html",
+              "title": "Honeywell HPA 系列氣味討論",
+              "exactModel": true
+            }
+          ],
+          "inspectedAt": "2026-08-20T00:00:00+08:00"
+        },
+        {
+          "platform": "Bing Search → Dcard",
+          "query": "site:dcard.tw \"Honeywell HPA-100APTW\" (災情 OR 問題 OR 故障 OR 負評)",
+          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22Honeywell%20HPA-100APTW%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-08-20T00:00:00+08:00"
+        },
+        {
+          "platform": "YouTube Search",
+          "query": "\"Honeywell HPA-100APTW\" problem issue defect failure broken 災情 故障 異常",
+          "searchUrl": "https://www.youtube.com/results?search_query=%22Honeywell%20HPA-100APTW%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-08-20T00:00:00+08:00"
+        }
+      ],
+      "evidence": [],
+      "rejectedCandidates": [
+        {
+          "platform": "Mobile01",
+          "url": "https://m.mobile01.com/topicdetail.php?f=731&t=5337823",
+          "title": "Honeywell HPA-100APTW 濾網酸味討論",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-20",
+          "sourceExcerpt": "一位持有兩台 HPA-100APTW 的使用者描述更換濾網後出現酸味，討論焦點偏向耗材批次與氣味。",
+          "independentAuthors": 1,
+          "specificReason": "同一位作者持有兩台仍只算 1 位獨立使用者；單站單人濾網氣味候選遠低於 6 人與兩個原始網站門檻。",
+          "reason": "同一位作者持有兩台仍只算 1 位獨立使用者；單站單人濾網氣味候選遠低於 6 人與兩個原始網站門檻。"
+        },
+        {
+          "platform": "Mobile01",
+          "url": "https://www.mobile01.com/topicdetail.php?f=731&t=4524787",
+          "title": "Honeywell HPA-100APTW 長期使用與濾網密合討論",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-20",
+          "sourceExcerpt": "一位 exact-model 使用者在長期心得中提及濾網安裝密合疑慮，沒有其他獨立作者回報相同問題。",
+          "independentAuthors": 1,
+          "specificReason": "只有 1 位同型號作者提及濾網密合疑慮，未達同症狀 6 人；亦不足以把一般濾網維護問題標成機器集中故障。",
+          "reason": "只有 1 位同型號作者提及濾網密合疑慮，未達同症狀 6 人；亦不足以把一般濾網維護問題標成機器集中故障。"
+        },
+        {
+          "platform": "PTT",
+          "url": "https://www.ptt.cc/bbs/E-appliance/M.1521123339.A.4C1.html",
+          "title": "Honeywell HPA-100APTW 面板按鍵操作討論",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-20",
+          "sourceExcerpt": "樓主回報面板較難按，另有一位回覆者表示難按；其餘使用者表示正常或認為是按壓位置技巧。",
+          "independentAuthors": 2,
+          "specificReason": "面板按壓候選只有 2 位獨立作者且只在 PTT，一頁內也有相反使用經驗；未達 6 人與兩站門檻。",
+          "reason": "面板按壓候選只有 2 位獨立作者且只在 PTT，一頁內也有相反使用經驗；未達 6 人與兩站門檻。"
+        },
+        {
+          "platform": "PTT",
+          "url": "https://www.ptt.cc/bbs/E-appliance/M.1506768512.A.A7F.html",
+          "title": "Honeywell HPA 系列氣味討論",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-20",
+          "sourceExcerpt": "主文為 HPA200，回覆中只有一位 HPA-100APTW 使用者描述氣味，不能把 HPA200 作者或其他系列一起計入。",
+          "independentAuthors": 1,
+          "specificReason": "只有 1 位 exact-model 作者；主文與多數回覆屬 HPA200 或其他系列，依型號邊界排除後未達集中災情門檻。",
+          "reason": "只有 1 位 exact-model 作者；主文與多數回覆屬 HPA200 或其他系列，依型號邊界排除後未達集中災情門檻。"
+        }
+      ]
+    },
+    {
       "id": "aircon-hitachi-ras-22ntb-rac-22np",
       "category": "aircon",
       "brand": "HITACHI",
@@ -30929,26 +32164,25 @@
       "rejectedCandidates": []
     },
     {
-      "id": "aircon-lg-lsn28ddhs-lsu28dhs",
+      "id": "aircon-sharp-ay-28zamh-w-ae-28zamh",
       "category": "aircon",
-      "brand": "LG",
-      "model": "LSN28DDHS / LSU28DHS",
-      "name": "LG LSN28DDHS / LSU28DHS 一對一分離式變頻冷暖",
+      "brand": "SHARP",
+      "model": "AY-28ZAMH-W / AE-28ZAMH",
+      "name": "SHARP AY-28ZAMH-W / AE-28ZAMH 一對一分離式變頻冷暖",
       "identity": {
-        "canonicalModel": "LSN28DDHS / LSU28DHS",
-        "lookupLabel": "LG LSN28DDHS / LSU28DHS",
+        "canonicalModel": "AY-28ZAMH-W / AE-28ZAMH",
+        "lookupLabel": "SHARP AY-28ZAMH-W / AE-28ZAMH",
         "aliases": [
-          "LG LSN28DDHS / LSU28DHS",
-          "LG LSN28DDHS",
-          "LG LSU28DHS"
+          "AY-28ZAMH-W / AE-28ZAMH",
+          "SHARP AY-28ZAMH-W / AE-28ZAMH"
         ],
-        "evidenceUrl": "https://www.3uo.tw/ecommerce/LSN28DDHS/"
+        "evidenceUrl": "https://24h.pchome.com.tw/prod/DPAF0W-A900JIYV8"
       },
       "workflowStatus": "completed",
       "manualReview": {
         "status": "completed",
         "decision": "no_common_issue",
-        "reviewedAt": "2026-08-18",
+        "reviewedAt": "2026-08-20",
         "checkedPlatforms": [
           "Reddit",
           "Mobile01",
@@ -30959,129 +32193,111 @@
         "queries": [
           {
             "platform": "Reddit",
-            "query": "site:reddit.com \"LG LSN28DDHS / LSU28DHS\" (problem OR issue OR defect OR failure)",
-            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22LG%20LSN28DDHS%20%2F%20LSU28DHS%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+            "query": "site:reddit.com \"SHARP AY-28ZAMH-W / AE-28ZAMH\" (problem OR issue OR defect OR failure)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22SHARP%20AY-28ZAMH-W%20%2F%20AE-28ZAMH%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
             "targetHost": "reddit.com"
           },
           {
             "platform": "Mobile01",
-            "query": "site:mobile01.com \"LG LSN28DDHS / LSU28DHS\" (災情 OR 問題 OR 故障 OR 負評)",
-            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22LG%20LSN28DDHS%20%2F%20LSU28DHS%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "query": "site:mobile01.com \"SHARP AY-28ZAMH-W / AE-28ZAMH\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22SHARP%20AY-28ZAMH-W%20%2F%20AE-28ZAMH%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
             "targetHost": "mobile01.com"
           },
           {
             "platform": "PTT",
-            "query": "site:ptt.cc \"LG LSN28DDHS / LSU28DHS\" (災情 OR 問題 OR 故障 OR 負評)",
-            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22LG%20LSN28DDHS%20%2F%20LSU28DHS%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "query": "site:ptt.cc \"SHARP AY-28ZAMH-W / AE-28ZAMH\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22SHARP%20AY-28ZAMH-W%20%2F%20AE-28ZAMH%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
             "targetHost": "ptt.cc"
           },
           {
             "platform": "Dcard",
-            "query": "site:dcard.tw \"LG LSN28DDHS / LSU28DHS\" (災情 OR 問題 OR 故障 OR 負評)",
-            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22LG%20LSN28DDHS%20%2F%20LSU28DHS%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "query": "site:dcard.tw \"SHARP AY-28ZAMH-W / AE-28ZAMH\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22SHARP%20AY-28ZAMH-W%20%2F%20AE-28ZAMH%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
             "targetHost": "dcard.tw"
           },
           {
             "platform": "YouTube",
-            "query": "\"LG LSN28DDHS / LSU28DHS\" problem issue defect failure broken 災情 故障 異常",
-            "queryUrl": "https://www.youtube.com/results?search_query=%22LG%20LSN28DDHS%20%2F%20LSU28DHS%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
+            "query": "\"SHARP AY-28ZAMH-W / AE-28ZAMH\" problem issue defect failure broken 災情 故障 異常",
+            "queryUrl": "https://www.youtube.com/results?search_query=%22SHARP%20AY-28ZAMH-W%20%2F%20AE-28ZAMH%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
             "targetHost": "youtube.com"
           }
         ],
-        "candidateDisposition": "LSN28DDHS / LSU28DHS：人工逐讀 Reddit、Mobile01、PTT、Dcard 四站與 YouTube exact-model 查詢，均無原頁候選；未見同症狀達 6 位且跨 2 網站。",
+        "candidateDisposition": "AY-28ZAMH-W / AE-28ZAMH：逐站人工覆核 Reddit、Mobile01、PTT、Dcard 與 YouTube exact-model 查詢，沒有發現可回到原始頁計數的同型號候選，未達同症狀 6 人／2 站。",
         "representativeSources": [],
         "candidateReviews": [],
-        "reviewerNote": "LSN28DDHS / LSU28DHS：人工逐讀 Reddit、Mobile01、PTT、Dcard 四站與 YouTube exact-model 查詢，均無原頁候選；未見同症狀達 6 位且跨 2 網站。",
+        "reviewerNote": "AY-28ZAMH-W / AE-28ZAMH：逐站人工覆核 Reddit、Mobile01、PTT、Dcard 與 YouTube exact-model 查詢，沒有發現可回到原始頁計數的同型號候選，未達同症狀 6 人／2 站。",
         "attestation": "manual_cross_site_search_reviewed_no_candidate"
       },
       "issueResearch": {
         "status": "no_common_issue",
-        "checkedAt": "2026-08-18",
+        "checkedAt": "2026-08-20",
         "summary": "截至查核日，查無達門檻的集中負評／災情",
         "issues": [],
         "checkedSources": [
           {
             "platform": "Reddit",
-            "query": "site:reddit.com \"LG LSN28DDHS / LSU28DHS\" (problem OR issue OR defect OR failure)",
-            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22LG%20LSN28DDHS%20%2F%20LSU28DHS%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+            "query": "site:reddit.com \"SHARP AY-28ZAMH-W / AE-28ZAMH\" (problem OR issue OR defect OR failure)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22SHARP%20AY-28ZAMH-W%20%2F%20AE-28ZAMH%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
             "targetHost": "reddit.com"
           },
           {
             "platform": "Mobile01",
-            "query": "site:mobile01.com \"LG LSN28DDHS / LSU28DHS\" (災情 OR 問題 OR 故障 OR 負評)",
-            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22LG%20LSN28DDHS%20%2F%20LSU28DHS%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "query": "site:mobile01.com \"SHARP AY-28ZAMH-W / AE-28ZAMH\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22SHARP%20AY-28ZAMH-W%20%2F%20AE-28ZAMH%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
             "targetHost": "mobile01.com"
-          },
-          {
-            "platform": "PTT",
-            "query": "site:ptt.cc \"LG LSN28DDHS / LSU28DHS\" (災情 OR 問題 OR 故障 OR 負評)",
-            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22LG%20LSN28DDHS%20%2F%20LSU28DHS%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
-            "targetHost": "ptt.cc"
-          },
-          {
-            "platform": "Dcard",
-            "query": "site:dcard.tw \"LG LSN28DDHS / LSU28DHS\" (災情 OR 問題 OR 故障 OR 負評)",
-            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22LG%20LSN28DDHS%20%2F%20LSU28DHS%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
-            "targetHost": "dcard.tw"
-          },
-          {
-            "platform": "YouTube",
-            "query": "\"LG LSN28DDHS / LSU28DHS\" problem issue defect failure broken 災情 故障 異常",
-            "queryUrl": "https://www.youtube.com/results?search_query=%22LG%20LSN28DDHS%20%2F%20LSU28DHS%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
-            "targetHost": "youtube.com"
           }
         ]
       },
       "searchChecks": [
         {
           "platform": "Bing Search → Reddit",
-          "query": "site:reddit.com \"LG LSN28DDHS / LSU28DHS\" (problem OR issue OR defect OR failure)",
-          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22LG%20LSN28DDHS%20%2F%20LSU28DHS%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "query": "site:reddit.com \"SHARP AY-28ZAMH-W / AE-28ZAMH\" (problem OR issue OR defect OR failure)",
+          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22SHARP%20AY-28ZAMH-W%20%2F%20AE-28ZAMH%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
           "result": "no_exact_model_result",
           "resultCount": 0,
           "candidateUrls": [],
           "candidates": [],
-          "inspectedAt": "2026-08-18T00:00:00+08:00"
+          "inspectedAt": "2026-08-20T00:00:00+08:00"
         },
         {
           "platform": "Bing Search → Mobile01",
-          "query": "site:mobile01.com \"LG LSN28DDHS / LSU28DHS\" (災情 OR 問題 OR 故障 OR 負評)",
-          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22LG%20LSN28DDHS%20%2F%20LSU28DHS%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "query": "site:mobile01.com \"SHARP AY-28ZAMH-W / AE-28ZAMH\" (災情 OR 問題 OR 故障 OR 負評)",
+          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22SHARP%20AY-28ZAMH-W%20%2F%20AE-28ZAMH%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "result": "no_exact_model_result",
           "resultCount": 0,
           "candidateUrls": [],
           "candidates": [],
-          "inspectedAt": "2026-08-18T00:00:00+08:00"
+          "inspectedAt": "2026-08-20T00:00:00+08:00"
         },
         {
           "platform": "Bing Search → PTT",
-          "query": "site:ptt.cc \"LG LSN28DDHS / LSU28DHS\" (災情 OR 問題 OR 故障 OR 負評)",
-          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22LG%20LSN28DDHS%20%2F%20LSU28DHS%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "query": "site:ptt.cc \"SHARP AY-28ZAMH-W / AE-28ZAMH\" (災情 OR 問題 OR 故障 OR 負評)",
+          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22SHARP%20AY-28ZAMH-W%20%2F%20AE-28ZAMH%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "result": "no_exact_model_result",
           "resultCount": 0,
           "candidateUrls": [],
           "candidates": [],
-          "inspectedAt": "2026-08-18T00:00:00+08:00"
+          "inspectedAt": "2026-08-20T00:00:00+08:00"
         },
         {
           "platform": "Bing Search → Dcard",
-          "query": "site:dcard.tw \"LG LSN28DDHS / LSU28DHS\" (災情 OR 問題 OR 故障 OR 負評)",
-          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22LG%20LSN28DDHS%20%2F%20LSU28DHS%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "query": "site:dcard.tw \"SHARP AY-28ZAMH-W / AE-28ZAMH\" (災情 OR 問題 OR 故障 OR 負評)",
+          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22SHARP%20AY-28ZAMH-W%20%2F%20AE-28ZAMH%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "result": "no_exact_model_result",
           "resultCount": 0,
           "candidateUrls": [],
           "candidates": [],
-          "inspectedAt": "2026-08-18T00:00:00+08:00"
+          "inspectedAt": "2026-08-20T00:00:00+08:00"
         },
         {
           "platform": "YouTube Search",
-          "query": "\"LG LSN28DDHS / LSU28DHS\" problem issue defect failure broken 災情 故障 異常",
-          "searchUrl": "https://www.youtube.com/results?search_query=%22LG%20LSN28DDHS%20%2F%20LSU28DHS%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
+          "query": "\"SHARP AY-28ZAMH-W / AE-28ZAMH\" problem issue defect failure broken 災情 故障 異常",
+          "searchUrl": "https://www.youtube.com/results?search_query=%22SHARP%20AY-28ZAMH-W%20%2F%20AE-28ZAMH%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
           "result": "no_exact_model_result",
           "resultCount": 0,
           "candidateUrls": [],
           "candidates": [],
-          "inspectedAt": "2026-08-18T00:00:00+08:00"
+          "inspectedAt": "2026-08-20T00:00:00+08:00"
         }
       ],
       "evidence": [],
@@ -40667,6 +41883,321 @@
       ]
     },
     {
+      "id": "robot-tplink-tapo-rv30-max-plus",
+      "category": "robot",
+      "brand": "TP-Link",
+      "model": "Tapo RV30 Max Plus",
+      "name": "5300Pa LiDAR 自動集塵掃拖機器人",
+      "identity": {
+        "canonicalModel": "Tapo RV30 Max Plus",
+        "lookupLabel": "TP-Link Tapo RV30 Max Plus",
+        "aliases": [
+          "Tapo RV30 Max Plus",
+          "TP-Link Tapo RV30 Max Plus"
+        ],
+        "evidenceUrl": "https://www.momoshop.com.tw/product/13838076"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "status": "completed",
+        "decision": "no_common_issue",
+        "reviewedAt": "2026-08-20",
+        "checkedPlatforms": [
+          "Reddit",
+          "Mobile01",
+          "PTT",
+          "Dcard",
+          "YouTube"
+        ],
+        "queries": [
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"TP-Link Tapo RV30 Max Plus\" (problem OR issue OR defect OR failure)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22TP-Link%20Tapo%20RV30%20Max%20Plus%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+            "targetHost": "reddit.com"
+          },
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"TP-Link Tapo RV30 Max Plus\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22TP-Link%20Tapo%20RV30%20Max%20Plus%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "mobile01.com"
+          },
+          {
+            "platform": "PTT",
+            "query": "site:ptt.cc \"TP-Link Tapo RV30 Max Plus\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22TP-Link%20Tapo%20RV30%20Max%20Plus%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "ptt.cc"
+          },
+          {
+            "platform": "Dcard",
+            "query": "site:dcard.tw \"TP-Link Tapo RV30 Max Plus\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22TP-Link%20Tapo%20RV30%20Max%20Plus%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "dcard.tw"
+          },
+          {
+            "platform": "YouTube",
+            "query": "\"TP-Link Tapo RV30 Max Plus\" problem issue defect failure broken 災情 故障 異常",
+            "queryUrl": "https://www.youtube.com/results?search_query=%22TP-Link%20Tapo%20RV30%20Max%20Plus%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
+            "targetHost": "youtube.com"
+          }
+        ],
+        "candidateDisposition": "Tapo RV30 Max Plus：人工回看 5 個 Reddit exact-model 原頁；導航、回座、電池、窗簾與噪音症狀各自分離，單一症狀最多 4 位且只有 Reddit 一站，未達 6 人／2 站。",
+        "representativeSources": [
+          {
+            "platform": "Reddit",
+            "title": "Tapo RV30 Max Plus mapping and mopping navigation discussion",
+            "url": "https://www.reddit.com/r/Tapo/comments/1igm83v/"
+          },
+          {
+            "platform": "Reddit",
+            "title": "Tapo RV30 Max Plus dock navigation issue",
+            "url": "https://www.reddit.com/r/Tapo/comments/1upsw96/"
+          },
+          {
+            "platform": "Reddit",
+            "title": "Tapo discussion containing an RV30 Max Plus battery report",
+            "url": "https://www.reddit.com/r/Tapo/comments/1mcts9i/"
+          },
+          {
+            "platform": "Reddit",
+            "title": "Tapo RV30 Max Plus curtain navigation discussion",
+            "url": "https://www.reddit.com/r/Tapo/comments/1lx1l1w/"
+          },
+          {
+            "platform": "Reddit",
+            "title": "Tapo RV30 Max Plus operating noise discussion",
+            "url": "https://www.reddit.com/r/RobotVacuums/comments/1kr1q09/"
+          }
+        ],
+        "candidateReviews": [
+          {
+            "platform": "Reddit",
+            "url": "https://www.reddit.com/r/Tapo/comments/1igm83v/",
+            "title": "Tapo RV30 Max Plus mapping and mopping navigation discussion",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-08-20",
+            "sourceExcerpt": "原頁有數位 RV30 Max Plus 使用者描述拖地時卡住、地圖或禁區設定問題，部分回覆以重建地圖或禁區改善。",
+            "independentAuthors": 4,
+            "specificReason": "頁內最多可辨識 4 位 exact-model 作者，症狀也涵蓋不同導航情境；未達同一問題 6 人，且所有回報只在 Reddit。"
+          },
+          {
+            "platform": "Reddit",
+            "url": "https://www.reddit.com/r/Tapo/comments/1upsw96/",
+            "title": "Tapo RV30 Max Plus dock navigation issue",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-08-20",
+            "sourceExcerpt": "樓主回報 RV30 Max Plus 尋找集塵座路徑異常，另一位 exact-model 使用者表示遇到相同狀況。",
+            "independentAuthors": 2,
+            "specificReason": "回座導航候選僅 2 位獨立使用者，未達 6 人；同時沒有 Reddit 以外第二個原始網站的 exact-model 同症狀回報。"
+          },
+          {
+            "platform": "Reddit",
+            "url": "https://www.reddit.com/r/Tapo/comments/1mcts9i/",
+            "title": "Tapo discussion containing an RV30 Max Plus battery report",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-08-20",
+            "sourceExcerpt": "不同主題的討論中只有一位 RV30 Max Plus 使用者提到韌體更新後的電池問題，沒有更多同型號作者。",
+            "independentAuthors": 1,
+            "specificReason": "只有 1 位 exact-model 第一人稱作者，且原主題不是此機器人；無法與其他導航或噪音症狀混成同一集中問題。"
+          },
+          {
+            "platform": "Reddit",
+            "url": "https://www.reddit.com/r/Tapo/comments/1lx1l1w/",
+            "title": "Tapo RV30 Max Plus curtain navigation discussion",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-08-20",
+            "sourceExcerpt": "一位 RV30 Max Plus 使用者描述窗簾附近的導航行為，沒有第二位獨立作者確認相同情境。",
+            "independentAuthors": 1,
+            "specificReason": "單一作者的特定窗簾環境導航候選不足 6 人，也沒有第二個原始網站；不能外推為普遍避障災情。"
+          },
+          {
+            "platform": "Reddit",
+            "url": "https://www.reddit.com/r/RobotVacuums/comments/1kr1q09/",
+            "title": "Tapo RV30 Max Plus operating noise discussion",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-08-20",
+            "sourceExcerpt": "樓主與另一位使用者比較 RV30 Max Plus 運轉聲，討論結論傾向多台表現一致、可能屬正常機械聲。",
+            "independentAuthors": 2,
+            "specificReason": "只有 2 位 exact-model 作者且原頁未確認故障；主觀聲音比較不能與導航候選合併，亦未跨第二個原始網站。"
+          }
+        ],
+        "reviewerNote": "Tapo RV30 Max Plus：人工回看 5 個 Reddit exact-model 原頁；導航、回座、電池、窗簾與噪音症狀各自分離，單一症狀最多 4 位且只有 Reddit 一站，未達 6 人／2 站。",
+        "attestation": "manual_original_pages_reviewed"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-08-20",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"TP-Link Tapo RV30 Max Plus\" (problem OR issue OR defect OR failure)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22TP-Link%20Tapo%20RV30%20Max%20Plus%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+            "targetHost": "reddit.com"
+          },
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"TP-Link Tapo RV30 Max Plus\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22TP-Link%20Tapo%20RV30%20Max%20Plus%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "mobile01.com"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "Bing Search → Reddit",
+          "query": "site:reddit.com \"TP-Link Tapo RV30 Max Plus\" (problem OR issue OR defect OR failure)",
+          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22TP-Link%20Tapo%20RV30%20Max%20Plus%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "result": "candidates_unverified_by_search_only",
+          "resultCount": 5,
+          "candidateUrls": [
+            "https://www.reddit.com/r/Tapo/comments/1igm83v/",
+            "https://www.reddit.com/r/Tapo/comments/1upsw96/",
+            "https://www.reddit.com/r/Tapo/comments/1mcts9i/",
+            "https://www.reddit.com/r/Tapo/comments/1lx1l1w/",
+            "https://www.reddit.com/r/RobotVacuums/comments/1kr1q09/"
+          ],
+          "candidates": [
+            {
+              "url": "https://www.reddit.com/r/Tapo/comments/1igm83v/",
+              "title": "Tapo RV30 Max Plus mapping and mopping navigation discussion",
+              "exactModel": true
+            },
+            {
+              "url": "https://www.reddit.com/r/Tapo/comments/1upsw96/",
+              "title": "Tapo RV30 Max Plus dock navigation issue",
+              "exactModel": true
+            },
+            {
+              "url": "https://www.reddit.com/r/Tapo/comments/1mcts9i/",
+              "title": "Tapo discussion containing an RV30 Max Plus battery report",
+              "exactModel": true
+            },
+            {
+              "url": "https://www.reddit.com/r/Tapo/comments/1lx1l1w/",
+              "title": "Tapo RV30 Max Plus curtain navigation discussion",
+              "exactModel": true
+            },
+            {
+              "url": "https://www.reddit.com/r/RobotVacuums/comments/1kr1q09/",
+              "title": "Tapo RV30 Max Plus operating noise discussion",
+              "exactModel": true
+            }
+          ],
+          "inspectedAt": "2026-08-20T00:00:00+08:00"
+        },
+        {
+          "platform": "Bing Search → Mobile01",
+          "query": "site:mobile01.com \"TP-Link Tapo RV30 Max Plus\" (災情 OR 問題 OR 故障 OR 負評)",
+          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22TP-Link%20Tapo%20RV30%20Max%20Plus%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-08-20T00:00:00+08:00"
+        },
+        {
+          "platform": "Bing Search → PTT",
+          "query": "site:ptt.cc \"TP-Link Tapo RV30 Max Plus\" (災情 OR 問題 OR 故障 OR 負評)",
+          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22TP-Link%20Tapo%20RV30%20Max%20Plus%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-08-20T00:00:00+08:00"
+        },
+        {
+          "platform": "Bing Search → Dcard",
+          "query": "site:dcard.tw \"TP-Link Tapo RV30 Max Plus\" (災情 OR 問題 OR 故障 OR 負評)",
+          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22TP-Link%20Tapo%20RV30%20Max%20Plus%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-08-20T00:00:00+08:00"
+        },
+        {
+          "platform": "YouTube Search",
+          "query": "\"TP-Link Tapo RV30 Max Plus\" problem issue defect failure broken 災情 故障 異常",
+          "searchUrl": "https://www.youtube.com/results?search_query=%22TP-Link%20Tapo%20RV30%20Max%20Plus%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-08-20T00:00:00+08:00"
+        }
+      ],
+      "evidence": [],
+      "rejectedCandidates": [
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/Tapo/comments/1igm83v/",
+          "title": "Tapo RV30 Max Plus mapping and mopping navigation discussion",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-20",
+          "sourceExcerpt": "原頁有數位 RV30 Max Plus 使用者描述拖地時卡住、地圖或禁區設定問題，部分回覆以重建地圖或禁區改善。",
+          "independentAuthors": 4,
+          "specificReason": "頁內最多可辨識 4 位 exact-model 作者，症狀也涵蓋不同導航情境；未達同一問題 6 人，且所有回報只在 Reddit。",
+          "reason": "頁內最多可辨識 4 位 exact-model 作者，症狀也涵蓋不同導航情境；未達同一問題 6 人，且所有回報只在 Reddit。"
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/Tapo/comments/1upsw96/",
+          "title": "Tapo RV30 Max Plus dock navigation issue",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-20",
+          "sourceExcerpt": "樓主回報 RV30 Max Plus 尋找集塵座路徑異常，另一位 exact-model 使用者表示遇到相同狀況。",
+          "independentAuthors": 2,
+          "specificReason": "回座導航候選僅 2 位獨立使用者，未達 6 人；同時沒有 Reddit 以外第二個原始網站的 exact-model 同症狀回報。",
+          "reason": "回座導航候選僅 2 位獨立使用者，未達 6 人；同時沒有 Reddit 以外第二個原始網站的 exact-model 同症狀回報。"
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/Tapo/comments/1mcts9i/",
+          "title": "Tapo discussion containing an RV30 Max Plus battery report",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-20",
+          "sourceExcerpt": "不同主題的討論中只有一位 RV30 Max Plus 使用者提到韌體更新後的電池問題，沒有更多同型號作者。",
+          "independentAuthors": 1,
+          "specificReason": "只有 1 位 exact-model 第一人稱作者，且原主題不是此機器人；無法與其他導航或噪音症狀混成同一集中問題。",
+          "reason": "只有 1 位 exact-model 第一人稱作者，且原主題不是此機器人；無法與其他導航或噪音症狀混成同一集中問題。"
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/Tapo/comments/1lx1l1w/",
+          "title": "Tapo RV30 Max Plus curtain navigation discussion",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-20",
+          "sourceExcerpt": "一位 RV30 Max Plus 使用者描述窗簾附近的導航行為，沒有第二位獨立作者確認相同情境。",
+          "independentAuthors": 1,
+          "specificReason": "單一作者的特定窗簾環境導航候選不足 6 人，也沒有第二個原始網站；不能外推為普遍避障災情。",
+          "reason": "單一作者的特定窗簾環境導航候選不足 6 人，也沒有第二個原始網站；不能外推為普遍避障災情。"
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/RobotVacuums/comments/1kr1q09/",
+          "title": "Tapo RV30 Max Plus operating noise discussion",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-20",
+          "sourceExcerpt": "樓主與另一位使用者比較 RV30 Max Plus 運轉聲，討論結論傾向多台表現一致、可能屬正常機械聲。",
+          "independentAuthors": 2,
+          "specificReason": "只有 2 位 exact-model 作者且原頁未確認故障；主觀聲音比較不能與導航候選合併，亦未跨第二個原始網站。",
+          "reason": "只有 2 位 exact-model 作者且原頁未確認故障；主觀聲音比較不能與導航候選合併，亦未跨第二個原始網站。"
+        }
+      ]
+    },
+    {
       "id": "vac-dyson-v12",
       "category": "vacuum",
       "brand": "Dyson",
@@ -44920,6 +46451,95 @@
       "rejectedCandidates": []
     },
     {
+      "id": "vacuum-samsung-vs70h18gzg-tw",
+      "category": "vacuum",
+      "brand": "Samsung",
+      "model": "VS70H18GZG/TW",
+      "name": "Jet Fit 180W 輕量無線吸塵器",
+      "identity": {
+        "canonicalModel": "VS70H18GZG/TW",
+        "lookupLabel": "Samsung VS70H18GZG/TW",
+        "aliases": [
+          "Samsung VS70H18GZG/TW",
+          "VS70H18GZG/TW"
+        ],
+        "evidenceUrl": "https://www.samsung.com/tw/vacuum-cleaners/stick/vs70h-stick-vc-with-super-lightweight-powerful-jet-fit-180w-satin-greige-vs70h18gzg-tw/"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "status": "completed",
+        "decision": "no_common_issue",
+        "reviewedAt": "2026-08-20",
+        "checkedPlatforms": [
+          "Reddit",
+          "Mobile01"
+        ],
+        "queries": [
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"Samsung VS70H18GZG/TW\" (problem OR issue OR defect OR failure)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Samsung%20VS70H18GZG%2FTW%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+            "targetHost": "reddit.com"
+          },
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"Samsung VS70H18GZG/TW\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Samsung%20VS70H18GZG%2FTW%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "mobile01.com"
+          }
+        ],
+        "candidateDisposition": "VS70H18GZG/TW：逐列覆核 Reddit 與 Mobile01 exact-model 搜尋，兩站沒有可計入的 exact-model 原頁候選，未達 6 人／2 個原始網站門檻。",
+        "representativeSources": [],
+        "candidateReviews": [],
+        "reviewerNote": "VS70H18GZG/TW：已人工查看兩組 exact-model 搜尋結果；沒有原頁候選，no_common_issue 只代表查無達門檻的集中負評，不代表完全沒有個別負評。",
+        "attestation": "manual_cross_site_search_reviewed_no_candidate"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-08-20",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"Samsung VS70H18GZG/TW\" (problem OR issue OR defect OR failure)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Samsung%20VS70H18GZG%2FTW%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+            "targetHost": "reddit.com"
+          },
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"Samsung VS70H18GZG/TW\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Samsung%20VS70H18GZG%2FTW%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "mobile01.com"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "Bing Search → Reddit",
+          "query": "site:reddit.com \"Samsung VS70H18GZG/TW\" (problem OR issue OR defect OR failure)",
+          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Samsung%20VS70H18GZG%2FTW%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-08-20T00:00:00+08:00"
+        },
+        {
+          "platform": "Bing Search → Mobile01",
+          "query": "site:mobile01.com \"Samsung VS70H18GZG/TW\" (災情 OR 問題 OR 故障 OR 負評)",
+          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Samsung%20VS70H18GZG%2FTW%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-08-20T00:00:00+08:00"
+        }
+      ],
+      "evidence": [],
+      "rejectedCandidates": []
+    },
+    {
       "id": "washer-lg-wt-vdn12hm",
       "category": "washer",
       "brand": "LG",
@@ -48943,6 +50563,95 @@
       "rejectedCandidates": []
     },
     {
+      "id": "washer-toshiba-aw-t26d1600xta-mg",
+      "category": "washer",
+      "brand": "Toshiba",
+      "model": "AW-T26D1600XTA(MG)",
+      "name": "15kg DDM 變頻直立式洗衣機",
+      "identity": {
+        "canonicalModel": "AW-T26D1600XTA(MG)",
+        "lookupLabel": "Toshiba AW-T26D1600XTA(MG)",
+        "aliases": [
+          "Toshiba AW-T26D1600XTA(MG)",
+          "AW-T26D1600XTA(MG)"
+        ],
+        "evidenceUrl": "https://www.toshiba-lifestyle.com/tw/laundries/top-load-washer/aw-t26d1600xta-mg"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "status": "completed",
+        "decision": "no_common_issue",
+        "reviewedAt": "2026-08-20",
+        "checkedPlatforms": [
+          "Reddit",
+          "Mobile01"
+        ],
+        "queries": [
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"Toshiba AW-T26D1600XTA(MG)\" (problem OR issue OR defect OR failure)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Toshiba%20AW-T26D1600XTA(MG)%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+            "targetHost": "reddit.com"
+          },
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"Toshiba AW-T26D1600XTA(MG)\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Toshiba%20AW-T26D1600XTA(MG)%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "mobile01.com"
+          }
+        ],
+        "candidateDisposition": "AW-T26D1600XTA(MG)：逐列覆核 Reddit 與 Mobile01 exact-model 搜尋，兩站沒有可計入的 exact-model 原頁候選，未達 6 人／2 個原始網站門檻。",
+        "representativeSources": [],
+        "candidateReviews": [],
+        "reviewerNote": "AW-T26D1600XTA(MG)：已人工查看兩組 exact-model 搜尋結果；沒有原頁候選，no_common_issue 只代表查無達門檻的集中負評，不代表完全沒有個別負評。",
+        "attestation": "manual_cross_site_search_reviewed_no_candidate"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-08-20",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"Toshiba AW-T26D1600XTA(MG)\" (problem OR issue OR defect OR failure)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Toshiba%20AW-T26D1600XTA(MG)%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+            "targetHost": "reddit.com"
+          },
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"Toshiba AW-T26D1600XTA(MG)\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Toshiba%20AW-T26D1600XTA(MG)%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "mobile01.com"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "Bing Search → Reddit",
+          "query": "site:reddit.com \"Toshiba AW-T26D1600XTA(MG)\" (problem OR issue OR defect OR failure)",
+          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Toshiba%20AW-T26D1600XTA(MG)%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-08-20T00:00:00+08:00"
+        },
+        {
+          "platform": "Bing Search → Mobile01",
+          "query": "site:mobile01.com \"Toshiba AW-T26D1600XTA(MG)\" (災情 OR 問題 OR 故障 OR 負評)",
+          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Toshiba%20AW-T26D1600XTA(MG)%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-08-20T00:00:00+08:00"
+        }
+      ],
+      "evidence": [],
+      "rejectedCandidates": []
+    },
+    {
       "id": "dryer-panasonic-nh-80rz-w",
       "category": "dryer",
       "brand": "Panasonic",
@@ -52788,6 +54497,134 @@
           "reviewedAt": "2026-08-18",
           "outcome": "excluded",
           "reason": "頁面只提供 exact-model 商品資料，沒有可辨識作者、第一人稱使用經驗或具體故障內容，因此作者數為零。"
+        }
+      ]
+    },
+    {
+      "id": "dryer-lg-wr-20dw",
+      "category": "dryer",
+      "brand": "LG",
+      "model": "WR-20DW",
+      "name": "20kg AI Heat Pump 免曬衣乾衣機",
+      "identity": {
+        "canonicalModel": "WR-20DW",
+        "lookupLabel": "LG WR-20DW",
+        "aliases": [
+          "LG WR-20DW",
+          "WR-20DW"
+        ],
+        "evidenceUrl": "https://www.lg.com/tw/washer-dryers/dryers/wr-20dw/"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "status": "completed",
+        "decision": "no_common_issue",
+        "reviewedAt": "2026-08-20",
+        "checkedPlatforms": [
+          "Reddit",
+          "Mobile01"
+        ],
+        "queries": [
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"LG WR-20DW\" (problem OR issue OR defect OR failure)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22LG%20WR-20DW%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+            "targetHost": "reddit.com"
+          },
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"LG WR-20DW\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22LG%20WR-20DW%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "mobile01.com"
+          }
+        ],
+        "candidateDisposition": "WR-20DW：逐頁覆核 1 個原頁候選；沒有同一問題達 6 位獨立使用者且跨 2 個原始網站，維持 no_common_issue。",
+        "representativeSources": [
+          {
+            "platform": "Mobile01",
+            "title": "LG 洗衣機 WD-S22FW + 免曬衣 WR-20DW 簡易使用分享",
+            "url": "https://www.mobile01.com/topicdetail.php?f=730&t=7080149"
+          }
+        ],
+        "candidateReviews": [
+          {
+            "url": "https://www.mobile01.com/topicdetail.php?f=730&t=7080149",
+            "title": "LG 洗衣機 WD-S22FW + 免曬衣 WR-20DW 簡易使用分享",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-08-20",
+            "sourceExcerpt": "同一討論串同時涵蓋 WD-S22FW 洗衣機與 WR-20DW 乾衣機；一名留言者稱購機後漏水並更換橡膠圈，但未說明是哪一台設備。",
+            "independentAuthors": 1,
+            "specificReason": "漏水留言未能歸因到 WR-20DW 乾衣機，且只有 Mobile01 一位作者，不能計為 exact-model 同一問題的跨站集中回報。",
+            "platform": "Mobile01"
+          }
+        ],
+        "reviewerNote": "WR-20DW：候選均已回到原頁人工判讀並留下排除理由；no_common_issue 只代表查無達門檻的集中負評，不代表完全沒有個別負評。",
+        "attestation": "manual_original_pages_reviewed"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-08-20",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"LG WR-20DW\" (problem OR issue OR defect OR failure)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22LG%20WR-20DW%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+            "targetHost": "reddit.com"
+          },
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"LG WR-20DW\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22LG%20WR-20DW%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "mobile01.com"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "Bing Search → Reddit",
+          "query": "site:reddit.com \"LG WR-20DW\" (problem OR issue OR defect OR failure)",
+          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22LG%20WR-20DW%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-08-20T00:00:00+08:00"
+        },
+        {
+          "platform": "Bing Search → Mobile01",
+          "query": "site:mobile01.com \"LG WR-20DW\" (災情 OR 問題 OR 故障 OR 負評)",
+          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22LG%20WR-20DW%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "result": "candidates_unverified_by_search_only",
+          "resultCount": 1,
+          "candidateUrls": [
+            "https://www.mobile01.com/topicdetail.php?f=730&t=7080149"
+          ],
+          "candidates": [
+            {
+              "url": "https://www.mobile01.com/topicdetail.php?f=730&t=7080149",
+              "title": "LG 洗衣機 WD-S22FW + 免曬衣 WR-20DW 簡易使用分享",
+              "exactModel": true
+            }
+          ],
+          "inspectedAt": "2026-08-20T00:00:00+08:00"
+        }
+      ],
+      "evidence": [],
+      "rejectedCandidates": [
+        {
+          "url": "https://www.mobile01.com/topicdetail.php?f=730&t=7080149",
+          "title": "LG 洗衣機 WD-S22FW + 免曬衣 WR-20DW 簡易使用分享",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-20",
+          "sourceExcerpt": "同一討論串同時涵蓋 WD-S22FW 洗衣機與 WR-20DW 乾衣機；一名留言者稱購機後漏水並更換橡膠圈，但未說明是哪一台設備。",
+          "independentAuthors": 1,
+          "specificReason": "漏水留言未能歸因到 WR-20DW 乾衣機，且只有 Mobile01 一位作者，不能計為 exact-model 同一問題的跨站集中回報。",
+          "platform": "Mobile01",
+          "reason": "漏水留言未能歸因到 WR-20DW 乾衣機，且只有 Mobile01 一位作者，不能計為 exact-model 同一問題的跨站集中回報。"
         }
       ]
     },
@@ -58247,6 +60084,236 @@
       ]
     },
     {
+      "id": "washerdryer-bosch-wnc554a0tc",
+      "category": "washerdryer",
+      "brand": "Bosch",
+      "model": "WNC554A0TC",
+      "name": "10/7kg i-DOS 智慧聯網洗脫烘",
+      "identity": {
+        "canonicalModel": "WNC554A0TC",
+        "lookupLabel": "Bosch WNC554A0TC",
+        "aliases": [
+          "Bosch WNC554A0TC",
+          "WNC554A0TC"
+        ],
+        "evidenceUrl": "https://www.bosch-home.com.tw/zh/mkt-product/washers-dryers/washer-dryers/washerdryers2/WNC554A0TC"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "status": "completed",
+        "decision": "no_common_issue",
+        "reviewedAt": "2026-08-20",
+        "checkedPlatforms": [
+          "Reddit",
+          "Mobile01"
+        ],
+        "queries": [
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"Bosch WNC554A0TC\" (problem OR issue OR defect OR failure)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Bosch%20WNC554A0TC%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+            "targetHost": "reddit.com"
+          },
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"Bosch WNC554A0TC\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Bosch%20WNC554A0TC%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "mobile01.com"
+          }
+        ],
+        "candidateDisposition": "WNC554A0TC：逐頁覆核 4 個原頁候選；沒有同一問題達 6 位獨立使用者且跨 2 個原始網站，維持 no_common_issue。",
+        "representativeSources": [
+          {
+            "platform": "Mobile01",
+            "title": "Bosch洗脫烘WNC554A0TC評價？",
+            "url": "https://www.mobile01.com/topicdetail.php?f=730&t=6947453"
+          },
+          {
+            "platform": "Mobile01",
+            "title": "洗脫烘 歐規比較BOSCH和Electrolux選擇 (第10頁)",
+            "url": "https://www.mobile01.com/topicdetail.php?f=730&p=10&t=6049281"
+          },
+          {
+            "platform": "Mobile01",
+            "title": "洗烘脫選擇⋯⋯LX128 v.s WNC554A0TC",
+            "url": "https://www.mobile01.com/topicdetail.php?f=730&t=7012249"
+          },
+          {
+            "platform": "Mobile01",
+            "title": "小陽臺救星-洗脫烘就是你了-BOSCH洗脫烘",
+            "url": "https://www.mobile01.com/topicdetail.php?f=730&t=7106372"
+          }
+        ],
+        "candidateReviews": [
+          {
+            "url": "https://www.mobile01.com/topicdetail.php?f=730&t=6947453",
+            "title": "Bosch洗脫烘WNC554A0TC評價？",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-08-20",
+            "sourceExcerpt": "一名使用者表示使用兩週後衣物很熱且很乾，另一名使用者分享少量衣物乾燥正常；原頁沒有同一故障的集中第一人稱回報。",
+            "independentAuthors": 2,
+            "specificReason": "頁面主要是使用感與乾燥程度討論，兩位作者未形成相同故障，且只有 Mobile01 一個原始網站。",
+            "platform": "Mobile01"
+          },
+          {
+            "url": "https://www.mobile01.com/topicdetail.php?f=730&p=10&t=6049281",
+            "title": "洗脫烘 歐規比較BOSCH和Electrolux選擇 (第10頁)",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-08-20",
+            "sourceExcerpt": "頁面出現 WNC554A0TC 排水方式的提問，但沒有可辨識的同型號第一人稱故障經驗或多人相同問題。",
+            "independentAuthors": 1,
+            "specificReason": "只有排水疑問，沒有可計入的 exact-model 故障回報，也沒有第二個原始網站的獨立作者。",
+            "platform": "Mobile01"
+          },
+          {
+            "url": "https://www.mobile01.com/topicdetail.php?f=730&t=7012249",
+            "title": "洗烘脫選擇⋯⋯LX128 v.s WNC554A0TC",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-08-20",
+            "sourceExcerpt": "原頁比較兩款洗脫烘的購買選擇與規格，沒有 WNC554A0TC 使用後故障的第一人稱內容。",
+            "independentAuthors": 0,
+            "specificReason": "這是購前選擇討論，沒有可計數的第一人稱故障作者，不能當成產品災情證據。",
+            "platform": "Mobile01"
+          },
+          {
+            "url": "https://www.mobile01.com/topicdetail.php?f=730&t=7106372",
+            "title": "小陽臺救星-洗脫烘就是你了-BOSCH洗脫烘",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-08-20",
+            "sourceExcerpt": "原頁是 WNC554A0TC 的正向使用分享，描述小陽台配置與洗烘體驗，沒有同型號故障回報。",
+            "independentAuthors": 1,
+            "specificReason": "單一正向使用者沒有回報故障；原頁不構成負評候選，更未達六人與跨兩站門檻。",
+            "platform": "Mobile01"
+          }
+        ],
+        "reviewerNote": "WNC554A0TC：候選均已回到原頁人工判讀並留下排除理由；no_common_issue 只代表查無達門檻的集中負評，不代表完全沒有個別負評。",
+        "attestation": "manual_original_pages_reviewed"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-08-20",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"Bosch WNC554A0TC\" (problem OR issue OR defect OR failure)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Bosch%20WNC554A0TC%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+            "targetHost": "reddit.com"
+          },
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"Bosch WNC554A0TC\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Bosch%20WNC554A0TC%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "mobile01.com"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "Bing Search → Reddit",
+          "query": "site:reddit.com \"Bosch WNC554A0TC\" (problem OR issue OR defect OR failure)",
+          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Bosch%20WNC554A0TC%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-08-20T00:00:00+08:00"
+        },
+        {
+          "platform": "Bing Search → Mobile01",
+          "query": "site:mobile01.com \"Bosch WNC554A0TC\" (災情 OR 問題 OR 故障 OR 負評)",
+          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Bosch%20WNC554A0TC%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "result": "candidates_unverified_by_search_only",
+          "resultCount": 4,
+          "candidateUrls": [
+            "https://www.mobile01.com/topicdetail.php?f=730&t=6947453",
+            "https://www.mobile01.com/topicdetail.php?f=730&p=10&t=6049281",
+            "https://www.mobile01.com/topicdetail.php?f=730&t=7012249",
+            "https://www.mobile01.com/topicdetail.php?f=730&t=7106372"
+          ],
+          "candidates": [
+            {
+              "url": "https://www.mobile01.com/topicdetail.php?f=730&t=6947453",
+              "title": "Bosch洗脫烘WNC554A0TC評價？",
+              "exactModel": true
+            },
+            {
+              "url": "https://www.mobile01.com/topicdetail.php?f=730&p=10&t=6049281",
+              "title": "洗脫烘 歐規比較BOSCH和Electrolux選擇 (第10頁)",
+              "exactModel": true
+            },
+            {
+              "url": "https://www.mobile01.com/topicdetail.php?f=730&t=7012249",
+              "title": "洗烘脫選擇⋯⋯LX128 v.s WNC554A0TC",
+              "exactModel": true
+            },
+            {
+              "url": "https://www.mobile01.com/topicdetail.php?f=730&t=7106372",
+              "title": "小陽臺救星-洗脫烘就是你了-BOSCH洗脫烘",
+              "exactModel": true
+            }
+          ],
+          "inspectedAt": "2026-08-20T00:00:00+08:00"
+        }
+      ],
+      "evidence": [],
+      "rejectedCandidates": [
+        {
+          "url": "https://www.mobile01.com/topicdetail.php?f=730&t=6947453",
+          "title": "Bosch洗脫烘WNC554A0TC評價？",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-20",
+          "sourceExcerpt": "一名使用者表示使用兩週後衣物很熱且很乾，另一名使用者分享少量衣物乾燥正常；原頁沒有同一故障的集中第一人稱回報。",
+          "independentAuthors": 2,
+          "specificReason": "頁面主要是使用感與乾燥程度討論，兩位作者未形成相同故障，且只有 Mobile01 一個原始網站。",
+          "platform": "Mobile01",
+          "reason": "頁面主要是使用感與乾燥程度討論，兩位作者未形成相同故障，且只有 Mobile01 一個原始網站。"
+        },
+        {
+          "url": "https://www.mobile01.com/topicdetail.php?f=730&p=10&t=6049281",
+          "title": "洗脫烘 歐規比較BOSCH和Electrolux選擇 (第10頁)",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-20",
+          "sourceExcerpt": "頁面出現 WNC554A0TC 排水方式的提問，但沒有可辨識的同型號第一人稱故障經驗或多人相同問題。",
+          "independentAuthors": 1,
+          "specificReason": "只有排水疑問，沒有可計入的 exact-model 故障回報，也沒有第二個原始網站的獨立作者。",
+          "platform": "Mobile01",
+          "reason": "只有排水疑問，沒有可計入的 exact-model 故障回報，也沒有第二個原始網站的獨立作者。"
+        },
+        {
+          "url": "https://www.mobile01.com/topicdetail.php?f=730&t=7012249",
+          "title": "洗烘脫選擇⋯⋯LX128 v.s WNC554A0TC",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-20",
+          "sourceExcerpt": "原頁比較兩款洗脫烘的購買選擇與規格，沒有 WNC554A0TC 使用後故障的第一人稱內容。",
+          "independentAuthors": 0,
+          "specificReason": "這是購前選擇討論，沒有可計數的第一人稱故障作者，不能當成產品災情證據。",
+          "platform": "Mobile01",
+          "reason": "這是購前選擇討論，沒有可計數的第一人稱故障作者，不能當成產品災情證據。"
+        },
+        {
+          "url": "https://www.mobile01.com/topicdetail.php?f=730&t=7106372",
+          "title": "小陽臺救星-洗脫烘就是你了-BOSCH洗脫烘",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-20",
+          "sourceExcerpt": "原頁是 WNC554A0TC 的正向使用分享，描述小陽台配置與洗烘體驗，沒有同型號故障回報。",
+          "independentAuthors": 1,
+          "specificReason": "單一正向使用者沒有回報故障；原頁不構成負評候選，更未達六人與跨兩站門檻。",
+          "platform": "Mobile01",
+          "reason": "單一正向使用者沒有回報故障；原頁不構成負評候選，更未達六人與跨兩站門檻。"
+        }
+      ]
+    },
+    {
       "id": "garmentcare-lg-r723wg",
       "category": "garmentcare",
       "brand": "LG",
@@ -61230,161 +63297,235 @@
       "rejectedCandidates": []
     },
     {
-      "id": "garmentcare-panasonic-hcc-r600ar-x",
+      "id": "garmentcare-panasonic-n-rgb1r-w",
       "category": "garmentcare",
       "brand": "Panasonic",
-      "model": "HCC-R600AR-X",
-      "name": "Panasonic Smart Closet 右開門",
+      "model": "N-RGB1R-W",
+      "name": "電子衣櫥（晶亮白）",
       "identity": {
-        "canonicalModel": "HCC-R600AR-X",
-        "lookupLabel": "Panasonic HCC-R600AR-X",
+        "canonicalModel": "N-RGB1R-W",
+        "lookupLabel": "Panasonic N-RGB1R-W",
         "aliases": [
-          "Panasonic HCC-R600AR-X"
+          "Panasonic N-RGB1R-W",
+          "N-RGB1R-W",
+          "N-RGB1R"
         ],
-        "evidenceUrl": "https://www.biccamera.com/bc/item/11581816/"
+        "evidenceUrl": "https://www.panasonic.com/tw/consumer/washing-machine/e-wardrobe/n-rgb1r.html"
       },
       "workflowStatus": "completed",
       "manualReview": {
         "status": "completed",
         "decision": "no_common_issue",
-        "reviewedAt": "2026-08-18",
+        "reviewedAt": "2026-08-20",
         "checkedPlatforms": [
           "Reddit",
-          "Mobile01",
-          "PTT",
-          "Dcard",
-          "YouTube"
+          "Mobile01"
         ],
         "queries": [
           {
             "platform": "Reddit",
-            "query": "site:reddit.com \"Panasonic HCC-R600AR-X\" (problem OR issue OR defect OR failure)",
-            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Panasonic%20HCC-R600AR-X%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+            "query": "site:reddit.com \"Panasonic N-RGB1R-W\" (problem OR issue OR defect OR failure)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Panasonic%20N-RGB1R-W%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
             "targetHost": "reddit.com"
           },
           {
             "platform": "Mobile01",
-            "query": "site:mobile01.com \"Panasonic HCC-R600AR-X\" (災情 OR 問題 OR 故障 OR 負評)",
-            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Panasonic%20HCC-R600AR-X%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "query": "site:mobile01.com \"Panasonic N-RGB1R-W\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Panasonic%20N-RGB1R-W%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
             "targetHost": "mobile01.com"
-          },
-          {
-            "platform": "PTT",
-            "query": "site:ptt.cc \"Panasonic HCC-R600AR-X\" (災情 OR 問題 OR 故障 OR 負評)",
-            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22Panasonic%20HCC-R600AR-X%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
-            "targetHost": "ptt.cc"
-          },
-          {
-            "platform": "Dcard",
-            "query": "site:dcard.tw \"Panasonic HCC-R600AR-X\" (災情 OR 問題 OR 故障 OR 負評)",
-            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22Panasonic%20HCC-R600AR-X%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
-            "targetHost": "dcard.tw"
-          },
-          {
-            "platform": "YouTube",
-            "query": "\"Panasonic HCC-R600AR-X\" problem issue defect failure broken 災情 故障 異常",
-            "queryUrl": "https://www.youtube.com/results?search_query=%22Panasonic%20HCC-R600AR-X%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
-            "targetHost": "youtube.com"
           }
         ],
-        "candidateDisposition": "HCC-R600AR-X：逐列覆核 Reddit、Mobile01、PTT、Dcard 與 YouTube exact-model 查詢；五站均無 exact-model 原頁候選，可計數作者 0、原始網站 0，未達同症狀 6 人／2 canonical websites 門檻（不代表完全沒有負評）。",
-        "representativeSources": [],
-        "candidateReviews": [],
-        "reviewerNote": "HCC-R600AR-X：逐列覆核 Reddit、Mobile01、PTT、Dcard 與 YouTube exact-model 查詢；五站均無 exact-model 原頁候選，可計數作者 0、原始網站 0，未達同症狀 6 人／2 canonical websites 門檻（不代表完全沒有負評）。",
-        "attestation": "manual_cross_site_search_reviewed_no_candidate"
+        "candidateDisposition": "N-RGB1R-W：逐頁覆核 4 個原頁候選；沒有同一問題達 6 位獨立使用者且跨 2 個原始網站，維持 no_common_issue。",
+        "representativeSources": [
+          {
+            "platform": "Mobile01",
+            "title": "人生電子衣櫥初體驗，Panasonic N-RGB1R開箱雙重除菌的健康護衣體驗",
+            "url": "https://www.mobile01.com/topicdetail.php?f=730&t=6613639"
+          },
+          {
+            "platform": "Mobile01",
+            "title": "2021 Panasonic 秋季新品登場 以更多貼心提升生活質感",
+            "url": "https://www.mobile01.com/topicdetail.php?f=168&t=6475413"
+          },
+          {
+            "platform": "Mobile01",
+            "title": "Panasonic 2021秋季新品發表會為你提供健康智慧生活提案",
+            "url": "https://www.mobile01.com/topicdetail.php?f=168&t=6476943"
+          },
+          {
+            "platform": "Mobile01",
+            "title": "各品牌洗乾衣機 四月份最優惠資訊整理 精華版",
+            "url": "https://www.mobile01.com/topicdetail.php?f=730&t=6770911"
+          }
+        ],
+        "candidateReviews": [
+          {
+            "url": "https://www.mobile01.com/topicdetail.php?f=730&t=6613639",
+            "title": "人生電子衣櫥初體驗，Panasonic N-RGB1R開箱雙重除菌的健康護衣體驗",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-08-20",
+            "sourceExcerpt": "N-RGB1R 台灣機的開箱使用內容以除菌、除味與護衣體驗為主，沒有第一人稱故障或相同問題群聚。",
+            "independentAuthors": 1,
+            "specificReason": "這是單一正向使用分享，沒有故障回報；-W 色別可辨識但仍不構成負評證據。",
+            "platform": "Mobile01"
+          },
+          {
+            "url": "https://www.mobile01.com/topicdetail.php?f=168&t=6475413",
+            "title": "2021 Panasonic 秋季新品登場 以更多貼心提升生活質感",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-08-20",
+            "sourceExcerpt": "報導記錄 Panasonic 台灣首度引進 N-RGB1R 的新品發表與功能，並非消費者第一人稱故障回報。",
+            "independentAuthors": 0,
+            "specificReason": "媒體新品報導不是獨立使用者原始負評，作者不能計入災情人數。",
+            "platform": "Mobile01"
+          },
+          {
+            "url": "https://www.mobile01.com/topicdetail.php?f=168&t=6476943",
+            "title": "Panasonic 2021秋季新品發表會為你提供健康智慧生活提案",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-08-20",
+            "sourceExcerpt": "原頁是 Panasonic 2021 秋季新品發表的深度報導，內容介紹 N-RGB1R 功能，沒有使用後故障作者。",
+            "independentAuthors": 0,
+            "specificReason": "發布會報導不是第一人稱使用者回報，不能計入 exact-model 負評作者。",
+            "platform": "Mobile01"
+          },
+          {
+            "url": "https://www.mobile01.com/topicdetail.php?f=730&t=6770911",
+            "title": "各品牌洗乾衣機 四月份最優惠資訊整理 精華版",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-08-20",
+            "sourceExcerpt": "頁面只整理 N-RGB1R 的通路優惠與價格資訊，沒有產品故障、異常或第一人稱使用經驗。",
+            "independentAuthors": 0,
+            "specificReason": "價格整理頁不是原始使用者負評，也沒有可計入的同問題作者。",
+            "platform": "Mobile01"
+          }
+        ],
+        "reviewerNote": "N-RGB1R-W：候選均已回到原頁人工判讀並留下排除理由；no_common_issue 只代表查無達門檻的集中負評，不代表完全沒有個別負評。",
+        "attestation": "manual_original_pages_reviewed"
       },
       "issueResearch": {
         "status": "no_common_issue",
-        "checkedAt": "2026-08-18",
+        "checkedAt": "2026-08-20",
         "summary": "截至查核日，查無達門檻的集中負評／災情",
         "issues": [],
         "checkedSources": [
           {
             "platform": "Reddit",
-            "query": "site:reddit.com \"Panasonic HCC-R600AR-X\" (problem OR issue OR defect OR failure)",
-            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Panasonic%20HCC-R600AR-X%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+            "query": "site:reddit.com \"Panasonic N-RGB1R-W\" (problem OR issue OR defect OR failure)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Panasonic%20N-RGB1R-W%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
             "targetHost": "reddit.com"
           },
           {
             "platform": "Mobile01",
-            "query": "site:mobile01.com \"Panasonic HCC-R600AR-X\" (災情 OR 問題 OR 故障 OR 負評)",
-            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Panasonic%20HCC-R600AR-X%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "query": "site:mobile01.com \"Panasonic N-RGB1R-W\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Panasonic%20N-RGB1R-W%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
             "targetHost": "mobile01.com"
-          },
-          {
-            "platform": "PTT",
-            "query": "site:ptt.cc \"Panasonic HCC-R600AR-X\" (災情 OR 問題 OR 故障 OR 負評)",
-            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22Panasonic%20HCC-R600AR-X%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
-            "targetHost": "ptt.cc"
-          },
-          {
-            "platform": "Dcard",
-            "query": "site:dcard.tw \"Panasonic HCC-R600AR-X\" (災情 OR 問題 OR 故障 OR 負評)",
-            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22Panasonic%20HCC-R600AR-X%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
-            "targetHost": "dcard.tw"
-          },
-          {
-            "platform": "YouTube",
-            "query": "\"Panasonic HCC-R600AR-X\" problem issue defect failure broken 災情 故障 異常",
-            "queryUrl": "https://www.youtube.com/results?search_query=%22Panasonic%20HCC-R600AR-X%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
-            "targetHost": "youtube.com"
           }
         ]
       },
       "searchChecks": [
         {
           "platform": "Bing Search → Reddit",
-          "query": "site:reddit.com \"Panasonic HCC-R600AR-X\" (problem OR issue OR defect OR failure)",
-          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Panasonic%20HCC-R600AR-X%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "query": "site:reddit.com \"Panasonic N-RGB1R-W\" (problem OR issue OR defect OR failure)",
+          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Panasonic%20N-RGB1R-W%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
           "result": "no_exact_model_result",
           "resultCount": 0,
           "candidateUrls": [],
           "candidates": [],
-          "inspectedAt": "2026-08-18T00:00:00+08:00"
+          "inspectedAt": "2026-08-20T00:00:00+08:00"
         },
         {
           "platform": "Bing Search → Mobile01",
-          "query": "site:mobile01.com \"Panasonic HCC-R600AR-X\" (災情 OR 問題 OR 故障 OR 負評)",
-          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Panasonic%20HCC-R600AR-X%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
-          "result": "no_exact_model_result",
-          "resultCount": 0,
-          "candidateUrls": [],
-          "candidates": [],
-          "inspectedAt": "2026-08-18T00:00:00+08:00"
-        },
-        {
-          "platform": "Bing Search → PTT",
-          "query": "site:ptt.cc \"Panasonic HCC-R600AR-X\" (災情 OR 問題 OR 故障 OR 負評)",
-          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22Panasonic%20HCC-R600AR-X%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
-          "result": "no_exact_model_result",
-          "resultCount": 0,
-          "candidateUrls": [],
-          "candidates": [],
-          "inspectedAt": "2026-08-18T00:00:00+08:00"
-        },
-        {
-          "platform": "Bing Search → Dcard",
-          "query": "site:dcard.tw \"Panasonic HCC-R600AR-X\" (災情 OR 問題 OR 故障 OR 負評)",
-          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22Panasonic%20HCC-R600AR-X%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
-          "result": "no_exact_model_result",
-          "resultCount": 0,
-          "candidateUrls": [],
-          "candidates": [],
-          "inspectedAt": "2026-08-18T00:00:00+08:00"
-        },
-        {
-          "platform": "YouTube Search",
-          "query": "\"Panasonic HCC-R600AR-X\" problem issue defect failure broken 災情 故障 異常",
-          "searchUrl": "https://www.youtube.com/results?search_query=%22Panasonic%20HCC-R600AR-X%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
-          "result": "no_exact_model_result",
-          "resultCount": 0,
-          "candidateUrls": [],
-          "candidates": [],
-          "inspectedAt": "2026-08-18T00:00:00+08:00"
+          "query": "site:mobile01.com \"Panasonic N-RGB1R-W\" (災情 OR 問題 OR 故障 OR 負評)",
+          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Panasonic%20N-RGB1R-W%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "result": "candidates_unverified_by_search_only",
+          "resultCount": 4,
+          "candidateUrls": [
+            "https://www.mobile01.com/topicdetail.php?f=730&t=6613639",
+            "https://www.mobile01.com/topicdetail.php?f=168&t=6475413",
+            "https://www.mobile01.com/topicdetail.php?f=168&t=6476943",
+            "https://www.mobile01.com/topicdetail.php?f=730&t=6770911"
+          ],
+          "candidates": [
+            {
+              "url": "https://www.mobile01.com/topicdetail.php?f=730&t=6613639",
+              "title": "人生電子衣櫥初體驗，Panasonic N-RGB1R開箱雙重除菌的健康護衣體驗",
+              "exactModel": true
+            },
+            {
+              "url": "https://www.mobile01.com/topicdetail.php?f=168&t=6475413",
+              "title": "2021 Panasonic 秋季新品登場 以更多貼心提升生活質感",
+              "exactModel": true
+            },
+            {
+              "url": "https://www.mobile01.com/topicdetail.php?f=168&t=6476943",
+              "title": "Panasonic 2021秋季新品發表會為你提供健康智慧生活提案",
+              "exactModel": true
+            },
+            {
+              "url": "https://www.mobile01.com/topicdetail.php?f=730&t=6770911",
+              "title": "各品牌洗乾衣機 四月份最優惠資訊整理 精華版",
+              "exactModel": true
+            }
+          ],
+          "inspectedAt": "2026-08-20T00:00:00+08:00"
         }
       ],
       "evidence": [],
-      "rejectedCandidates": []
+      "rejectedCandidates": [
+        {
+          "url": "https://www.mobile01.com/topicdetail.php?f=730&t=6613639",
+          "title": "人生電子衣櫥初體驗，Panasonic N-RGB1R開箱雙重除菌的健康護衣體驗",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-20",
+          "sourceExcerpt": "N-RGB1R 台灣機的開箱使用內容以除菌、除味與護衣體驗為主，沒有第一人稱故障或相同問題群聚。",
+          "independentAuthors": 1,
+          "specificReason": "這是單一正向使用分享，沒有故障回報；-W 色別可辨識但仍不構成負評證據。",
+          "platform": "Mobile01",
+          "reason": "這是單一正向使用分享，沒有故障回報；-W 色別可辨識但仍不構成負評證據。"
+        },
+        {
+          "url": "https://www.mobile01.com/topicdetail.php?f=168&t=6475413",
+          "title": "2021 Panasonic 秋季新品登場 以更多貼心提升生活質感",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-20",
+          "sourceExcerpt": "報導記錄 Panasonic 台灣首度引進 N-RGB1R 的新品發表與功能，並非消費者第一人稱故障回報。",
+          "independentAuthors": 0,
+          "specificReason": "媒體新品報導不是獨立使用者原始負評，作者不能計入災情人數。",
+          "platform": "Mobile01",
+          "reason": "媒體新品報導不是獨立使用者原始負評，作者不能計入災情人數。"
+        },
+        {
+          "url": "https://www.mobile01.com/topicdetail.php?f=168&t=6476943",
+          "title": "Panasonic 2021秋季新品發表會為你提供健康智慧生活提案",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-20",
+          "sourceExcerpt": "原頁是 Panasonic 2021 秋季新品發表的深度報導，內容介紹 N-RGB1R 功能，沒有使用後故障作者。",
+          "independentAuthors": 0,
+          "specificReason": "發布會報導不是第一人稱使用者回報，不能計入 exact-model 負評作者。",
+          "platform": "Mobile01",
+          "reason": "發布會報導不是第一人稱使用者回報，不能計入 exact-model 負評作者。"
+        },
+        {
+          "url": "https://www.mobile01.com/topicdetail.php?f=730&t=6770911",
+          "title": "各品牌洗乾衣機 四月份最優惠資訊整理 精華版",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-20",
+          "sourceExcerpt": "頁面只整理 N-RGB1R 的通路優惠與價格資訊，沒有產品故障、異常或第一人稱使用經驗。",
+          "independentAuthors": 0,
+          "specificReason": "價格整理頁不是原始使用者負評，也沒有可計入的同問題作者。",
+          "platform": "Mobile01",
+          "reason": "價格整理頁不是原始使用者負評，也沒有可計入的同問題作者。"
+        }
+      ]
     },
     {
       "id": "refrigerator-panasonic-nr-b271tv-s1",
@@ -69873,6 +72014,96 @@
       "rejectedCandidates": []
     },
     {
+      "id": "cookware-debuyer-5214-28",
+      "category": "cookware",
+      "brand": "de Buyer",
+      "model": "5214.28",
+      "name": "BLUE CARBON 28cm 深型鄉村煎鍋",
+      "identity": {
+        "canonicalModel": "5214.28",
+        "lookupLabel": "de Buyer 5214.28",
+        "aliases": [
+          "de Buyer 5214.28",
+          "5214.28",
+          "10-521428"
+        ],
+        "evidenceUrl": "https://www.debuyer.com.tw/zh-hant/products/new-blue-steel-country-frypan"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "status": "completed",
+        "decision": "no_common_issue",
+        "reviewedAt": "2026-08-20",
+        "checkedPlatforms": [
+          "Reddit",
+          "Mobile01"
+        ],
+        "queries": [
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"de Buyer 5214.28\" (problem OR issue OR defect OR failure)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22de%20Buyer%205214.28%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+            "targetHost": "reddit.com"
+          },
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"de Buyer 5214.28\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22de%20Buyer%205214.28%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "mobile01.com"
+          }
+        ],
+        "candidateDisposition": "5214.28：逐列覆核 Reddit 與 Mobile01 exact-model 搜尋，兩站沒有可計入的 exact-model 原頁候選；另有只含數字 5214.28 的 SSD benchmark 偽陽性，因品牌與品類不符已在型號邊界排除，未達 6 人／2 個原始網站門檻。",
+        "representativeSources": [],
+        "candidateReviews": [],
+        "reviewerNote": "5214.28：已人工查看兩組 exact-model 搜尋結果；沒有原頁候選，no_common_issue 只代表查無達門檻的集中負評，不代表完全沒有個別負評。",
+        "attestation": "manual_cross_site_search_reviewed_no_candidate"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-08-20",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"de Buyer 5214.28\" (problem OR issue OR defect OR failure)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22de%20Buyer%205214.28%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+            "targetHost": "reddit.com"
+          },
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"de Buyer 5214.28\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22de%20Buyer%205214.28%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "mobile01.com"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "Bing Search → Reddit",
+          "query": "site:reddit.com \"de Buyer 5214.28\" (problem OR issue OR defect OR failure)",
+          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22de%20Buyer%205214.28%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-08-20T00:00:00+08:00"
+        },
+        {
+          "platform": "Bing Search → Mobile01",
+          "query": "site:mobile01.com \"de Buyer 5214.28\" (災情 OR 問題 OR 故障 OR 負評)",
+          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22de%20Buyer%205214.28%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-08-20T00:00:00+08:00"
+        }
+      ],
+      "evidence": [],
+      "rejectedCandidates": []
+    },
+    {
       "id": "knife-tojiro-dp-f-808-210mm",
       "category": "knife",
       "brand": "TOJIRO",
@@ -73324,6 +75555,96 @@
           "candidateUrls": [],
           "candidates": [],
           "inspectedAt": "2026-08-18T00:00:00+08:00"
+        }
+      ],
+      "evidence": [],
+      "rejectedCandidates": []
+    },
+    {
+      "id": "knife-zwilling-pro-38401-201",
+      "category": "knife",
+      "brand": "ZWILLING",
+      "model": "38401-201",
+      "name": "PRO 西式主廚刀 20cm",
+      "identity": {
+        "canonicalModel": "38401-201",
+        "lookupLabel": "ZWILLING 38401-201",
+        "aliases": [
+          "ZWILLING PRO 38401-201",
+          "ZWILLING 38401-201",
+          "38401-201"
+        ],
+        "evidenceUrl": "https://www.zwilling.com.tw/products/38401-201"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "status": "completed",
+        "decision": "no_common_issue",
+        "reviewedAt": "2026-08-20",
+        "checkedPlatforms": [
+          "Reddit",
+          "Mobile01"
+        ],
+        "queries": [
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"ZWILLING PRO 38401-201\" (problem OR issue OR defect OR failure)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22ZWILLING%20PRO%2038401-201%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+            "targetHost": "reddit.com"
+          },
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"ZWILLING PRO 38401-201\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22ZWILLING%20PRO%2038401-201%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "mobile01.com"
+          }
+        ],
+        "candidateDisposition": "38401-201：逐列覆核 Reddit 與 Mobile01 exact-model 搜尋，兩站沒有可計入的 exact-model 原頁候選，未達 6 人／2 個原始網站門檻。",
+        "representativeSources": [],
+        "candidateReviews": [],
+        "reviewerNote": "38401-201：已人工查看兩組 exact-model 搜尋結果；沒有原頁候選，no_common_issue 只代表查無達門檻的集中負評，不代表完全沒有個別負評。",
+        "attestation": "manual_cross_site_search_reviewed_no_candidate"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-08-20",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"ZWILLING PRO 38401-201\" (problem OR issue OR defect OR failure)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22ZWILLING%20PRO%2038401-201%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+            "targetHost": "reddit.com"
+          },
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"ZWILLING PRO 38401-201\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22ZWILLING%20PRO%2038401-201%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "mobile01.com"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "Bing Search → Reddit",
+          "query": "site:reddit.com \"ZWILLING PRO 38401-201\" (problem OR issue OR defect OR failure)",
+          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22ZWILLING%20PRO%2038401-201%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-08-20T00:00:00+08:00"
+        },
+        {
+          "platform": "Bing Search → Mobile01",
+          "query": "site:mobile01.com \"ZWILLING PRO 38401-201\" (災情 OR 問題 OR 故障 OR 負評)",
+          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22ZWILLING%20PRO%2038401-201%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-08-20T00:00:00+08:00"
         }
       ],
       "evidence": [],
@@ -93281,6 +95602,96 @@
       ]
     },
     {
+      "id": "waterdispenser-buder-bd-3006bf-ro",
+      "category": "waterdispenser",
+      "brand": "Buder",
+      "model": "BD-3006BF-RO",
+      "name": "BD-3006BF 冷水煮沸飲水機＋RO-2604 逆滲透系統",
+      "identity": {
+        "canonicalModel": "BD-3006BF-RO",
+        "lookupLabel": "Buder BD-3006BF-RO",
+        "aliases": [
+          "Buder BD-3006BF-RO",
+          "普德 BD-3006BF-RO",
+          "BD-3006BF-RO"
+        ],
+        "evidenceUrl": "https://24h.pchome.com.tw/prod/DMAWFH-A900F2DDI"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "status": "completed",
+        "decision": "no_common_issue",
+        "reviewedAt": "2026-08-20",
+        "checkedPlatforms": [
+          "Mobile01",
+          "Reddit"
+        ],
+        "queries": [
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"BD-3006BF-RO\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22BD-3006BF-RO%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "mobile01.com"
+          },
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"BD-3006BF-RO\" (problem OR issue OR defect OR failure)",
+            "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22BD-3006BF-RO%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+            "targetHost": "reddit.com"
+          }
+        ],
+        "candidateDisposition": "BD-3006BF-RO：逐列覆核 Mobile01 與 Reddit exact-model 搜尋結果，兩站均沒有 exact-model 原頁候選，因此沒有可計入或需排除的作者，未達 6 人／2 個原始網站門檻。",
+        "representativeSources": [],
+        "candidateReviews": [],
+        "reviewerNote": "BD-3006BF-RO：已人工查看兩組 exact-model 搜尋結果；沒有原頁候選，no_common_issue 只代表查無達門檻的集中負評，不代表完全沒有個別負評。",
+        "attestation": "manual_cross_site_search_reviewed_no_candidate"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-08-20",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"BD-3006BF-RO\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22BD-3006BF-RO%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "mobile01.com"
+          },
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"BD-3006BF-RO\" (problem OR issue OR defect OR failure)",
+            "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22BD-3006BF-RO%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+            "targetHost": "reddit.com"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "Google Search → Mobile01",
+          "query": "site:mobile01.com \"BD-3006BF-RO\" (災情 OR 問題 OR 故障 OR 負評)",
+          "searchUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22BD-3006BF-RO%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-08-20T00:00:00+08:00"
+        },
+        {
+          "platform": "Google Search → Reddit",
+          "query": "site:reddit.com \"BD-3006BF-RO\" (problem OR issue OR defect OR failure)",
+          "searchUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22BD-3006BF-RO%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-08-20T00:00:00+08:00"
+        }
+      ],
+      "evidence": [],
+      "rejectedCandidates": []
+    },
+    {
       "id": "dishwasher-panasonic-np-k1ywhr2tw",
       "category": "dishwasher",
       "brand": "Panasonic",
@@ -108669,6 +111080,96 @@
           "candidateUrls": [],
           "candidates": [],
           "inspectedAt": "2026-08-18T00:00:00+08:00"
+        }
+      ],
+      "evidence": [],
+      "rejectedCandidates": []
+    },
+    {
+      "id": "bidet-inax-cw-rl31-tw-bw1",
+      "category": "bidet",
+      "brand": "INAX",
+      "model": "CW-RL31-TW/BW1",
+      "name": "E-Bidet 微電腦洗淨便座（除臭／烘乾）",
+      "identity": {
+        "canonicalModel": "CW-RL31-TW/BW1",
+        "lookupLabel": "INAX CW-RL31-TW/BW1",
+        "aliases": [
+          "INAX CW-RL31-TW/BW1",
+          "CW-RL31-TW/BW1",
+          "INAX CW-RL31-TW"
+        ],
+        "evidenceUrl": "https://tw.inax.com/zh-hant/products/shower-toilet/cw-rl31-tw/"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "status": "completed",
+        "decision": "no_common_issue",
+        "reviewedAt": "2026-08-20",
+        "checkedPlatforms": [
+          "Mobile01",
+          "Reddit"
+        ],
+        "queries": [
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"CW-RL31-TW/BW1\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22CW-RL31-TW%2FBW1%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "mobile01.com"
+          },
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"CW-RL31-TW/BW1\" (problem OR issue OR defect OR failure)",
+            "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22CW-RL31-TW%2FBW1%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+            "targetHost": "reddit.com"
+          }
+        ],
+        "candidateDisposition": "CW-RL31-TW/BW1：逐列覆核 Mobile01 與 Reddit exact-model 搜尋結果，兩站均沒有 exact-model 原頁候選，因此沒有可計入或需排除的作者，未達 6 人／2 個原始網站門檻。",
+        "representativeSources": [],
+        "candidateReviews": [],
+        "reviewerNote": "CW-RL31-TW/BW1：已人工查看兩組 exact-model 搜尋結果；沒有原頁候選，no_common_issue 只代表查無達門檻的集中負評，不代表完全沒有個別負評。",
+        "attestation": "manual_cross_site_search_reviewed_no_candidate"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-08-20",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"CW-RL31-TW/BW1\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22CW-RL31-TW%2FBW1%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "mobile01.com"
+          },
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"CW-RL31-TW/BW1\" (problem OR issue OR defect OR failure)",
+            "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22CW-RL31-TW%2FBW1%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+            "targetHost": "reddit.com"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "Google Search → Mobile01",
+          "query": "site:mobile01.com \"CW-RL31-TW/BW1\" (災情 OR 問題 OR 故障 OR 負評)",
+          "searchUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22CW-RL31-TW%2FBW1%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-08-20T00:00:00+08:00"
+        },
+        {
+          "platform": "Google Search → Reddit",
+          "query": "site:reddit.com \"CW-RL31-TW/BW1\" (problem OR issue OR defect OR failure)",
+          "searchUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22CW-RL31-TW%2FBW1%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-08-20T00:00:00+08:00"
         }
       ],
       "evidence": [],
@@ -131523,6 +134024,164 @@
       ]
     },
     {
+      "id": "standingdesk-funte-force-200x90",
+      "category": "standingdesk",
+      "brand": "FUNTE",
+      "model": "Force 200x90",
+      "name": "Force 200 x 90 cm 四柱四馬達大型電動升降桌",
+      "identity": {
+        "canonicalModel": "Force 200x90",
+        "lookupLabel": "FUNTE Force 200x90",
+        "aliases": [
+          "FUNTE Force 200x90",
+          "Force 200x90"
+        ],
+        "evidenceUrl": "https://www.momoshop.com.tw/product/13206513"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "status": "completed",
+        "decision": "no_common_issue",
+        "reviewedAt": "2026-08-20",
+        "checkedPlatforms": [
+          "Reddit",
+          "Mobile01",
+          "PTT",
+          "Dcard",
+          "YouTube"
+        ],
+        "queries": [
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"FUNTE Force 200x90\" (problem OR issue OR defect OR failure)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22FUNTE%20Force%20200x90%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+            "targetHost": "reddit.com"
+          },
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"FUNTE Force 200x90\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22FUNTE%20Force%20200x90%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "mobile01.com"
+          },
+          {
+            "platform": "PTT",
+            "query": "site:ptt.cc \"FUNTE Force 200x90\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22FUNTE%20Force%20200x90%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "ptt.cc"
+          },
+          {
+            "platform": "Dcard",
+            "query": "site:dcard.tw \"FUNTE Force 200x90\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22FUNTE%20Force%20200x90%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "dcard.tw"
+          },
+          {
+            "platform": "YouTube",
+            "query": "\"FUNTE Force 200x90\" problem issue defect failure broken 災情 故障 異常",
+            "queryUrl": "https://www.youtube.com/results?search_query=%22FUNTE%20Force%20200x90%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
+            "targetHost": "youtube.com"
+          }
+        ],
+        "candidateDisposition": "Force 200x90：已完成 Reddit、Mobile01、PTT、Dcard 與 YouTube exact-model 查詢，沒有找到可進入逐頁判讀的購買後原始問題候選。",
+        "representativeSources": [],
+        "candidateReviews": [],
+        "reviewerNote": "Force 200x90：已完成 Reddit、Mobile01、PTT、Dcard 與 YouTube exact-model 查詢，沒有找到可進入逐頁判讀的購買後原始問題候選。",
+        "attestation": "manual_cross_site_search_reviewed_no_candidate"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-08-20",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"FUNTE Force 200x90\" (problem OR issue OR defect OR failure)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22FUNTE%20Force%20200x90%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+            "targetHost": "reddit.com"
+          },
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"FUNTE Force 200x90\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22FUNTE%20Force%20200x90%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "mobile01.com"
+          },
+          {
+            "platform": "PTT",
+            "query": "site:ptt.cc \"FUNTE Force 200x90\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22FUNTE%20Force%20200x90%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "ptt.cc"
+          },
+          {
+            "platform": "Dcard",
+            "query": "site:dcard.tw \"FUNTE Force 200x90\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22FUNTE%20Force%20200x90%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "dcard.tw"
+          },
+          {
+            "platform": "YouTube",
+            "query": "\"FUNTE Force 200x90\" problem issue defect failure broken 災情 故障 異常",
+            "queryUrl": "https://www.youtube.com/results?search_query=%22FUNTE%20Force%20200x90%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
+            "targetHost": "youtube.com"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "Bing Search → Reddit",
+          "query": "site:reddit.com \"FUNTE Force 200x90\" (problem OR issue OR defect OR failure)",
+          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22FUNTE%20Force%20200x90%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-08-20T00:00:00+08:00"
+        },
+        {
+          "platform": "Bing Search → Mobile01",
+          "query": "site:mobile01.com \"FUNTE Force 200x90\" (災情 OR 問題 OR 故障 OR 負評)",
+          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22FUNTE%20Force%20200x90%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-08-20T00:00:00+08:00"
+        },
+        {
+          "platform": "Bing Search → PTT",
+          "query": "site:ptt.cc \"FUNTE Force 200x90\" (災情 OR 問題 OR 故障 OR 負評)",
+          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22FUNTE%20Force%20200x90%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-08-20T00:00:00+08:00"
+        },
+        {
+          "platform": "Bing Search → Dcard",
+          "query": "site:dcard.tw \"FUNTE Force 200x90\" (災情 OR 問題 OR 故障 OR 負評)",
+          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22FUNTE%20Force%20200x90%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-08-20T00:00:00+08:00"
+        },
+        {
+          "platform": "Bing Search → YouTube",
+          "query": "\"FUNTE Force 200x90\" problem issue defect failure broken 災情 故障 異常",
+          "searchUrl": "https://www.youtube.com/results?search_query=%22FUNTE%20Force%20200x90%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-08-20T00:00:00+08:00"
+        }
+      ],
+      "evidence": [],
+      "rejectedCandidates": []
+    },
+    {
       "id": "chair-irocks-t07-plus",
       "category": "chair",
       "brand": "iRocks",
@@ -135959,6 +138618,339 @@
       ],
       "evidence": [],
       "rejectedCandidates": []
+    },
+    {
+      "id": "chair-sidiz-t50",
+      "category": "chair",
+      "brand": "SIDIZ",
+      "model": "T50",
+      "name": "T50 高階人體工學椅",
+      "identity": {
+        "canonicalModel": "T50",
+        "lookupLabel": "SIDIZ T50",
+        "aliases": [
+          "SIDIZ T50",
+          "T50"
+        ],
+        "evidenceUrl": "https://www.sidiz.com.tw/products/sidiz-t50"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "status": "completed",
+        "decision": "no_common_issue",
+        "reviewedAt": "2026-08-20",
+        "checkedPlatforms": [
+          "Reddit",
+          "Mobile01",
+          "PTT",
+          "Dcard",
+          "YouTube"
+        ],
+        "queries": [
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"SIDIZ T50\" (problem OR issue OR defect OR failure)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22SIDIZ%20T50%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+            "targetHost": "reddit.com"
+          },
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"SIDIZ T50\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22SIDIZ%20T50%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "mobile01.com"
+          },
+          {
+            "platform": "PTT",
+            "query": "site:ptt.cc \"SIDIZ T50\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22SIDIZ%20T50%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "ptt.cc"
+          },
+          {
+            "platform": "Dcard",
+            "query": "site:dcard.tw \"SIDIZ T50\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22SIDIZ%20T50%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "dcard.tw"
+          },
+          {
+            "platform": "YouTube",
+            "query": "\"SIDIZ T50\" problem issue defect failure broken 災情 故障 異常",
+            "queryUrl": "https://www.youtube.com/results?search_query=%22SIDIZ%20T50%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
+            "targetHost": "youtube.com"
+          }
+        ],
+        "candidateDisposition": "T50：已逐頁覆核 5 個 exact-model 原頁候選；同一問題未達 6 位獨立使用者且跨 2 個原始網站，因此維持 no_common_issue。",
+        "representativeSources": [
+          {
+            "platform": "Reddit",
+            "title": "Sidiz T50 owners - anyone experiencing some seat wobble?",
+            "url": "https://www.reddit.com/r/OfficeChairs/comments/ynuryb/sidiz_t50_owners_anyone_experiencing_some_seat/"
+          },
+          {
+            "platform": "Reddit",
+            "title": "Ergovision iTrek vs Sidiz T50",
+            "url": "https://www.reddit.com/r/OfficeChairs/comments/qbdik1/ergovision_itrek_vs_sidiz_t50/"
+          },
+          {
+            "platform": "Reddit",
+            "title": "Opinions on Sidiz T50 series?",
+            "url": "https://www.reddit.com/r/OfficeChairs/comments/ry5lgc/opinions_on_sidiz_t50_series/"
+          },
+          {
+            "platform": "Reddit",
+            "title": "Sidiz T50 tension knob",
+            "url": "https://www.reddit.com/r/OfficeChairs/comments/1sap93i/sidiz_t50_tension_knob/"
+          },
+          {
+            "platform": "Reddit",
+            "title": "Looking for a chair to sit on about 8-10 hours a day",
+            "url": "https://www.reddit.com/r/OfficeChairs/comments/lh4lve/looking_for_a_chair_to_sit_on_about_810_hours_a/"
+          }
+        ],
+        "candidateReviews": [
+          {
+            "url": "https://www.reddit.com/r/OfficeChairs/comments/ynuryb/sidiz_t50_owners_anyone_experiencing_some_seat/",
+            "title": "Sidiz T50 owners - anyone experiencing some seat wobble?",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-08-20",
+            "sourceExcerpt": "原作者與三位不同留言者回報 T50 座盤有左右晃動或伴隨異音，均在同一 Reddit 討論串。",
+            "independentAuthors": 4,
+            "specificReason": "同一座盤晃動現象只有 4 位可辨識使用者且全部來自 Reddit，未達同一問題 6 人並跨 2 個原始網站的門檻。",
+            "platform": "Reddit"
+          },
+          {
+            "url": "https://www.reddit.com/r/OfficeChairs/comments/qbdik1/ergovision_itrek_vs_sidiz_t50/",
+            "title": "Ergovision iTrek vs Sidiz T50",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-08-20",
+            "sourceExcerpt": "一位 T50 使用者在追蹤心得中提到座墊偏薄、頭枕對高個不合，並出現些微座盤晃動。",
+            "independentAuthors": 1,
+            "specificReason": "只有 1 位第一人稱作者，且座墊、頭枕與晃動是不同現象；無法與其他頁合併成同一問題 6 人 2 站。",
+            "platform": "Reddit"
+          },
+          {
+            "url": "https://www.reddit.com/r/OfficeChairs/comments/ry5lgc/opinions_on_sidiz_t50_series/",
+            "title": "Opinions on Sidiz T50 series?",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-08-20",
+            "sourceExcerpt": "一位 T50 使用者描述頭枕、扶手與後仰張力不合身，但沒有同型號故障群聚證據。",
+            "independentAuthors": 1,
+            "specificReason": "只有 1 位第一人稱作者，內容主要是人體工學適配與主觀使用感，且來源仍只有 Reddit。",
+            "platform": "Reddit"
+          },
+          {
+            "url": "https://www.reddit.com/r/OfficeChairs/comments/1sap93i/sidiz_t50_tension_knob/",
+            "title": "Sidiz T50 tension knob",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-08-20",
+            "sourceExcerpt": "一位 T50 使用者詢問已損壞的後仰張力旋鈕機構如何修復或鎖定。",
+            "independentAuthors": 1,
+            "specificReason": "張力旋鈕故障只有 1 位作者，與座盤晃動不是同一問題，也沒有第二個原始網站的獨立回報。",
+            "platform": "Reddit"
+          },
+          {
+            "url": "https://www.reddit.com/r/OfficeChairs/comments/lh4lve/looking_for_a_chair_to_sit_on_about_810_hours_a/",
+            "title": "Looking for a chair to sit on about 8-10 hours a day",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-08-20",
+            "sourceExcerpt": "一位 T50 兩年使用者表示座墊耐久度不如預期，沒有提供同問題的其他獨立作者。",
+            "independentAuthors": 1,
+            "specificReason": "只有 1 位第一人稱作者且問題是座墊耐久，不可與座盤晃動或張力旋鈕合併計數；來源仍為單一網站。",
+            "platform": "Reddit"
+          }
+        ],
+        "reviewerNote": "T50：已逐頁覆核 5 個 exact-model 原頁候選；同一問題未達 6 位獨立使用者且跨 2 個原始網站，因此維持 no_common_issue。",
+        "attestation": "manual_original_pages_reviewed"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-08-20",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"SIDIZ T50\" (problem OR issue OR defect OR failure)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22SIDIZ%20T50%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+            "targetHost": "reddit.com"
+          },
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"SIDIZ T50\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22SIDIZ%20T50%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "mobile01.com"
+          },
+          {
+            "platform": "PTT",
+            "query": "site:ptt.cc \"SIDIZ T50\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22SIDIZ%20T50%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "ptt.cc"
+          },
+          {
+            "platform": "Dcard",
+            "query": "site:dcard.tw \"SIDIZ T50\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22SIDIZ%20T50%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "dcard.tw"
+          },
+          {
+            "platform": "YouTube",
+            "query": "\"SIDIZ T50\" problem issue defect failure broken 災情 故障 異常",
+            "queryUrl": "https://www.youtube.com/results?search_query=%22SIDIZ%20T50%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
+            "targetHost": "youtube.com"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "Bing Search → Reddit",
+          "query": "site:reddit.com \"SIDIZ T50\" (problem OR issue OR defect OR failure)",
+          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22SIDIZ%20T50%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "result": "candidates_unverified_by_search_only",
+          "resultCount": 5,
+          "candidateUrls": [
+            "https://www.reddit.com/r/OfficeChairs/comments/ynuryb/sidiz_t50_owners_anyone_experiencing_some_seat/",
+            "https://www.reddit.com/r/OfficeChairs/comments/qbdik1/ergovision_itrek_vs_sidiz_t50/",
+            "https://www.reddit.com/r/OfficeChairs/comments/ry5lgc/opinions_on_sidiz_t50_series/",
+            "https://www.reddit.com/r/OfficeChairs/comments/1sap93i/sidiz_t50_tension_knob/",
+            "https://www.reddit.com/r/OfficeChairs/comments/lh4lve/looking_for_a_chair_to_sit_on_about_810_hours_a/"
+          ],
+          "candidates": [
+            {
+              "url": "https://www.reddit.com/r/OfficeChairs/comments/ynuryb/sidiz_t50_owners_anyone_experiencing_some_seat/",
+              "title": "Sidiz T50 owners - anyone experiencing some seat wobble?",
+              "exactModel": true
+            },
+            {
+              "url": "https://www.reddit.com/r/OfficeChairs/comments/qbdik1/ergovision_itrek_vs_sidiz_t50/",
+              "title": "Ergovision iTrek vs Sidiz T50",
+              "exactModel": true
+            },
+            {
+              "url": "https://www.reddit.com/r/OfficeChairs/comments/ry5lgc/opinions_on_sidiz_t50_series/",
+              "title": "Opinions on Sidiz T50 series?",
+              "exactModel": true
+            },
+            {
+              "url": "https://www.reddit.com/r/OfficeChairs/comments/1sap93i/sidiz_t50_tension_knob/",
+              "title": "Sidiz T50 tension knob",
+              "exactModel": true
+            },
+            {
+              "url": "https://www.reddit.com/r/OfficeChairs/comments/lh4lve/looking_for_a_chair_to_sit_on_about_810_hours_a/",
+              "title": "Looking for a chair to sit on about 8-10 hours a day",
+              "exactModel": true
+            }
+          ],
+          "inspectedAt": "2026-08-20T00:00:00+08:00"
+        },
+        {
+          "platform": "Bing Search → Mobile01",
+          "query": "site:mobile01.com \"SIDIZ T50\" (災情 OR 問題 OR 故障 OR 負評)",
+          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22SIDIZ%20T50%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-08-20T00:00:00+08:00"
+        },
+        {
+          "platform": "Bing Search → PTT",
+          "query": "site:ptt.cc \"SIDIZ T50\" (災情 OR 問題 OR 故障 OR 負評)",
+          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22SIDIZ%20T50%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-08-20T00:00:00+08:00"
+        },
+        {
+          "platform": "Bing Search → Dcard",
+          "query": "site:dcard.tw \"SIDIZ T50\" (災情 OR 問題 OR 故障 OR 負評)",
+          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22SIDIZ%20T50%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-08-20T00:00:00+08:00"
+        },
+        {
+          "platform": "Bing Search → YouTube",
+          "query": "\"SIDIZ T50\" problem issue defect failure broken 災情 故障 異常",
+          "searchUrl": "https://www.youtube.com/results?search_query=%22SIDIZ%20T50%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-08-20T00:00:00+08:00"
+        }
+      ],
+      "evidence": [],
+      "rejectedCandidates": [
+        {
+          "url": "https://www.reddit.com/r/OfficeChairs/comments/ynuryb/sidiz_t50_owners_anyone_experiencing_some_seat/",
+          "title": "Sidiz T50 owners - anyone experiencing some seat wobble?",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-20",
+          "sourceExcerpt": "原作者與三位不同留言者回報 T50 座盤有左右晃動或伴隨異音，均在同一 Reddit 討論串。",
+          "independentAuthors": 4,
+          "specificReason": "同一座盤晃動現象只有 4 位可辨識使用者且全部來自 Reddit，未達同一問題 6 人並跨 2 個原始網站的門檻。",
+          "platform": "Reddit",
+          "reason": "同一座盤晃動現象只有 4 位可辨識使用者且全部來自 Reddit，未達同一問題 6 人並跨 2 個原始網站的門檻。"
+        },
+        {
+          "url": "https://www.reddit.com/r/OfficeChairs/comments/qbdik1/ergovision_itrek_vs_sidiz_t50/",
+          "title": "Ergovision iTrek vs Sidiz T50",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-20",
+          "sourceExcerpt": "一位 T50 使用者在追蹤心得中提到座墊偏薄、頭枕對高個不合，並出現些微座盤晃動。",
+          "independentAuthors": 1,
+          "specificReason": "只有 1 位第一人稱作者，且座墊、頭枕與晃動是不同現象；無法與其他頁合併成同一問題 6 人 2 站。",
+          "platform": "Reddit",
+          "reason": "只有 1 位第一人稱作者，且座墊、頭枕與晃動是不同現象；無法與其他頁合併成同一問題 6 人 2 站。"
+        },
+        {
+          "url": "https://www.reddit.com/r/OfficeChairs/comments/ry5lgc/opinions_on_sidiz_t50_series/",
+          "title": "Opinions on Sidiz T50 series?",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-20",
+          "sourceExcerpt": "一位 T50 使用者描述頭枕、扶手與後仰張力不合身，但沒有同型號故障群聚證據。",
+          "independentAuthors": 1,
+          "specificReason": "只有 1 位第一人稱作者，內容主要是人體工學適配與主觀使用感，且來源仍只有 Reddit。",
+          "platform": "Reddit",
+          "reason": "只有 1 位第一人稱作者，內容主要是人體工學適配與主觀使用感，且來源仍只有 Reddit。"
+        },
+        {
+          "url": "https://www.reddit.com/r/OfficeChairs/comments/1sap93i/sidiz_t50_tension_knob/",
+          "title": "Sidiz T50 tension knob",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-20",
+          "sourceExcerpt": "一位 T50 使用者詢問已損壞的後仰張力旋鈕機構如何修復或鎖定。",
+          "independentAuthors": 1,
+          "specificReason": "張力旋鈕故障只有 1 位作者，與座盤晃動不是同一問題，也沒有第二個原始網站的獨立回報。",
+          "platform": "Reddit",
+          "reason": "張力旋鈕故障只有 1 位作者，與座盤晃動不是同一問題，也沒有第二個原始網站的獨立回報。"
+        },
+        {
+          "url": "https://www.reddit.com/r/OfficeChairs/comments/lh4lve/looking_for_a_chair_to_sit_on_about_810_hours_a/",
+          "title": "Looking for a chair to sit on about 8-10 hours a day",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-20",
+          "sourceExcerpt": "一位 T50 兩年使用者表示座墊耐久度不如預期，沒有提供同問題的其他獨立作者。",
+          "independentAuthors": 1,
+          "specificReason": "只有 1 位第一人稱作者且問題是座墊耐久，不可與座盤晃動或張力旋鈕合併計數；來源仍為單一網站。",
+          "platform": "Reddit",
+          "reason": "只有 1 位第一人稱作者且問題是座墊耐久，不可與座盤晃動或張力旋鈕合併計數；來源仍為單一網站。"
+        }
+      ]
     },
     {
       "id": "monitor-asus-xg27acs",
@@ -145852,6 +148844,203 @@
       ]
     },
     {
+      "id": "monitor-lenovo-loq-27q-10",
+      "category": "monitor",
+      "brand": "Lenovo",
+      "model": "LOQ 27Q-10",
+      "name": "LOQ 27Q-10 27 吋 QHD 180Hz Fast IPS 電競螢幕",
+      "identity": {
+        "canonicalModel": "LOQ 27Q-10",
+        "lookupLabel": "Lenovo LOQ 27Q-10",
+        "aliases": [
+          "Lenovo LOQ 27Q-10",
+          "LOQ 27Q-10"
+        ],
+        "evidenceUrl": "https://www.lenovo.com/tw/zh/p/accessories-and-software/monitors/gaming/68f3gacbtw"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "status": "completed",
+        "decision": "no_common_issue",
+        "reviewedAt": "2026-08-20",
+        "checkedPlatforms": [
+          "Reddit",
+          "Mobile01",
+          "PTT",
+          "Dcard",
+          "YouTube"
+        ],
+        "queries": [
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"Lenovo LOQ 27Q-10\" (problem OR issue OR defect OR failure)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Lenovo%20LOQ%2027Q-10%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+            "targetHost": "reddit.com"
+          },
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"Lenovo LOQ 27Q-10\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Lenovo%20LOQ%2027Q-10%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "mobile01.com"
+          },
+          {
+            "platform": "PTT",
+            "query": "site:ptt.cc \"Lenovo LOQ 27Q-10\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22Lenovo%20LOQ%2027Q-10%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "ptt.cc"
+          },
+          {
+            "platform": "Dcard",
+            "query": "site:dcard.tw \"Lenovo LOQ 27Q-10\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22Lenovo%20LOQ%2027Q-10%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "dcard.tw"
+          },
+          {
+            "platform": "YouTube",
+            "query": "\"Lenovo LOQ 27Q-10\" problem issue defect failure broken 災情 故障 異常",
+            "queryUrl": "https://www.youtube.com/results?search_query=%22Lenovo%20LOQ%2027Q-10%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
+            "targetHost": "youtube.com"
+          }
+        ],
+        "candidateDisposition": "LOQ 27Q-10：已逐頁覆核 1 個 exact-model 原頁候選；同一問題未達 6 位獨立使用者且跨 2 個原始網站，因此維持 no_common_issue。",
+        "representativeSources": [
+          {
+            "platform": "Reddit",
+            "title": "Vale a pena o Lenovo LOQ 27Q-10 (QHD, 180 Hz, IPS)?",
+            "url": "https://www.reddit.com/r/gamingportugal/comments/1uz9sld/vale_a_pena_o_lenovo_loq_27q10_qhd_180_hz_ips_por/"
+          }
+        ],
+        "candidateReviews": [
+          {
+            "url": "https://www.reddit.com/r/gamingportugal/comments/1uz9sld/vale_a_pena_o_lenovo_loq_27q10_qhd_180_hz_ips_por/",
+            "title": "Vale a pena o Lenovo LOQ 27Q-10 (QHD, 180 Hz, IPS)?",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-08-20",
+            "sourceExcerpt": "原頁是購買前詢問與規格討論，沒有可計入的 LOQ 27Q-10 第一人稱故障或負評作者。",
+            "independentAuthors": 0,
+            "specificReason": "雖為 exact-model 原頁，但內容只有購買前提問與一般規格意見，沒有購買後第一人稱問題回報。",
+            "platform": "Reddit"
+          }
+        ],
+        "reviewerNote": "LOQ 27Q-10：已逐頁覆核 1 個 exact-model 原頁候選；同一問題未達 6 位獨立使用者且跨 2 個原始網站，因此維持 no_common_issue。",
+        "attestation": "manual_original_pages_reviewed"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-08-20",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"Lenovo LOQ 27Q-10\" (problem OR issue OR defect OR failure)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Lenovo%20LOQ%2027Q-10%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+            "targetHost": "reddit.com"
+          },
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"Lenovo LOQ 27Q-10\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Lenovo%20LOQ%2027Q-10%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "mobile01.com"
+          },
+          {
+            "platform": "PTT",
+            "query": "site:ptt.cc \"Lenovo LOQ 27Q-10\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22Lenovo%20LOQ%2027Q-10%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "ptt.cc"
+          },
+          {
+            "platform": "Dcard",
+            "query": "site:dcard.tw \"Lenovo LOQ 27Q-10\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22Lenovo%20LOQ%2027Q-10%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "dcard.tw"
+          },
+          {
+            "platform": "YouTube",
+            "query": "\"Lenovo LOQ 27Q-10\" problem issue defect failure broken 災情 故障 異常",
+            "queryUrl": "https://www.youtube.com/results?search_query=%22Lenovo%20LOQ%2027Q-10%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
+            "targetHost": "youtube.com"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "Bing Search → Reddit",
+          "query": "site:reddit.com \"Lenovo LOQ 27Q-10\" (problem OR issue OR defect OR failure)",
+          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Lenovo%20LOQ%2027Q-10%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "result": "candidates_unverified_by_search_only",
+          "resultCount": 1,
+          "candidateUrls": [
+            "https://www.reddit.com/r/gamingportugal/comments/1uz9sld/vale_a_pena_o_lenovo_loq_27q10_qhd_180_hz_ips_por/"
+          ],
+          "candidates": [
+            {
+              "url": "https://www.reddit.com/r/gamingportugal/comments/1uz9sld/vale_a_pena_o_lenovo_loq_27q10_qhd_180_hz_ips_por/",
+              "title": "Vale a pena o Lenovo LOQ 27Q-10 (QHD, 180 Hz, IPS)?",
+              "exactModel": true
+            }
+          ],
+          "inspectedAt": "2026-08-20T00:00:00+08:00"
+        },
+        {
+          "platform": "Bing Search → Mobile01",
+          "query": "site:mobile01.com \"Lenovo LOQ 27Q-10\" (災情 OR 問題 OR 故障 OR 負評)",
+          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Lenovo%20LOQ%2027Q-10%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-08-20T00:00:00+08:00"
+        },
+        {
+          "platform": "Bing Search → PTT",
+          "query": "site:ptt.cc \"Lenovo LOQ 27Q-10\" (災情 OR 問題 OR 故障 OR 負評)",
+          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22Lenovo%20LOQ%2027Q-10%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-08-20T00:00:00+08:00"
+        },
+        {
+          "platform": "Bing Search → Dcard",
+          "query": "site:dcard.tw \"Lenovo LOQ 27Q-10\" (災情 OR 問題 OR 故障 OR 負評)",
+          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22Lenovo%20LOQ%2027Q-10%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-08-20T00:00:00+08:00"
+        },
+        {
+          "platform": "Bing Search → YouTube",
+          "query": "\"Lenovo LOQ 27Q-10\" problem issue defect failure broken 災情 故障 異常",
+          "searchUrl": "https://www.youtube.com/results?search_query=%22Lenovo%20LOQ%2027Q-10%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-08-20T00:00:00+08:00"
+        }
+      ],
+      "evidence": [],
+      "rejectedCandidates": [
+        {
+          "url": "https://www.reddit.com/r/gamingportugal/comments/1uz9sld/vale_a_pena_o_lenovo_loq_27q10_qhd_180_hz_ips_por/",
+          "title": "Vale a pena o Lenovo LOQ 27Q-10 (QHD, 180 Hz, IPS)?",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-20",
+          "sourceExcerpt": "原頁是購買前詢問與規格討論，沒有可計入的 LOQ 27Q-10 第一人稱故障或負評作者。",
+          "independentAuthors": 0,
+          "specificReason": "雖為 exact-model 原頁，但內容只有購買前提問與一般規格意見，沒有購買後第一人稱問題回報。",
+          "platform": "Reddit",
+          "reason": "雖為 exact-model 原頁，但內容只有購買前提問與一般規格意見，沒有購買後第一人稱問題回報。"
+        }
+      ]
+    },
+    {
       "id": "monitorarm-raymii-ls116m1",
       "category": "monitorarm",
       "brand": "Raymii",
@@ -149543,6 +152732,164 @@
           "candidateUrls": [],
           "candidates": [],
           "inspectedAt": "2026-08-18T00:00:00+08:00"
+        }
+      ],
+      "evidence": [],
+      "rejectedCandidates": []
+    },
+    {
+      "id": "monitorarm-north-bayou-g50",
+      "category": "monitorarm",
+      "brand": "North Bayou",
+      "model": "G50",
+      "name": "G50 27-45 吋 16kg 高承重單螢幕支架",
+      "identity": {
+        "canonicalModel": "G50",
+        "lookupLabel": "North Bayou G50",
+        "aliases": [
+          "North Bayou G50",
+          "G50"
+        ],
+        "evidenceUrl": "https://24h.pchome.com.tw/prod/DPADWE-A900HHYU2"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "status": "completed",
+        "decision": "no_common_issue",
+        "reviewedAt": "2026-08-20",
+        "checkedPlatforms": [
+          "Reddit",
+          "Mobile01",
+          "PTT",
+          "Dcard",
+          "YouTube"
+        ],
+        "queries": [
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"North Bayou G50\" (problem OR issue OR defect OR failure)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22North%20Bayou%20G50%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+            "targetHost": "reddit.com"
+          },
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"North Bayou G50\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22North%20Bayou%20G50%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "mobile01.com"
+          },
+          {
+            "platform": "PTT",
+            "query": "site:ptt.cc \"North Bayou G50\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22North%20Bayou%20G50%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "ptt.cc"
+          },
+          {
+            "platform": "Dcard",
+            "query": "site:dcard.tw \"North Bayou G50\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22North%20Bayou%20G50%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "dcard.tw"
+          },
+          {
+            "platform": "YouTube",
+            "query": "\"North Bayou G50\" problem issue defect failure broken 災情 故障 異常",
+            "queryUrl": "https://www.youtube.com/results?search_query=%22North%20Bayou%20G50%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
+            "targetHost": "youtube.com"
+          }
+        ],
+        "candidateDisposition": "G50：已完成 Reddit、Mobile01、PTT、Dcard 與 YouTube exact-model 查詢，沒有找到可進入逐頁判讀的購買後原始問題候選。",
+        "representativeSources": [],
+        "candidateReviews": [],
+        "reviewerNote": "G50：已完成 Reddit、Mobile01、PTT、Dcard 與 YouTube exact-model 查詢，沒有找到可進入逐頁判讀的購買後原始問題候選。",
+        "attestation": "manual_cross_site_search_reviewed_no_candidate"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-08-20",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"North Bayou G50\" (problem OR issue OR defect OR failure)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22North%20Bayou%20G50%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+            "targetHost": "reddit.com"
+          },
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"North Bayou G50\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22North%20Bayou%20G50%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "mobile01.com"
+          },
+          {
+            "platform": "PTT",
+            "query": "site:ptt.cc \"North Bayou G50\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22North%20Bayou%20G50%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "ptt.cc"
+          },
+          {
+            "platform": "Dcard",
+            "query": "site:dcard.tw \"North Bayou G50\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22North%20Bayou%20G50%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "dcard.tw"
+          },
+          {
+            "platform": "YouTube",
+            "query": "\"North Bayou G50\" problem issue defect failure broken 災情 故障 異常",
+            "queryUrl": "https://www.youtube.com/results?search_query=%22North%20Bayou%20G50%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
+            "targetHost": "youtube.com"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "Bing Search → Reddit",
+          "query": "site:reddit.com \"North Bayou G50\" (problem OR issue OR defect OR failure)",
+          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22North%20Bayou%20G50%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-08-20T00:00:00+08:00"
+        },
+        {
+          "platform": "Bing Search → Mobile01",
+          "query": "site:mobile01.com \"North Bayou G50\" (災情 OR 問題 OR 故障 OR 負評)",
+          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22North%20Bayou%20G50%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-08-20T00:00:00+08:00"
+        },
+        {
+          "platform": "Bing Search → PTT",
+          "query": "site:ptt.cc \"North Bayou G50\" (災情 OR 問題 OR 故障 OR 負評)",
+          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22North%20Bayou%20G50%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-08-20T00:00:00+08:00"
+        },
+        {
+          "platform": "Bing Search → Dcard",
+          "query": "site:dcard.tw \"North Bayou G50\" (災情 OR 問題 OR 故障 OR 負評)",
+          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22North%20Bayou%20G50%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-08-20T00:00:00+08:00"
+        },
+        {
+          "platform": "Bing Search → YouTube",
+          "query": "\"North Bayou G50\" problem issue defect failure broken 災情 故障 異常",
+          "searchUrl": "https://www.youtube.com/results?search_query=%22North%20Bayou%20G50%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-08-20T00:00:00+08:00"
         }
       ],
       "evidence": [],

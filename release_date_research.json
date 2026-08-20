@@ -1,16 +1,16 @@
 {
   "summary": {
-    "checkedAt": "2026-08-16T00:00:00+08:00",
-    "total": 859,
-    "found": 233,
-    "missing": 626,
+    "checkedAt": "2026-08-20T00:00:00+08:00",
+    "total": 878,
+    "found": 238,
+    "missing": 640,
     "byConfidence": {
-      "official": 121,
+      "official": 123,
       "credible_article": 93,
-      "not_found": 626,
+      "not_found": 640,
       "retailer_explicit": 11,
-      "medium": 4,
-      "high": 4
+      "medium": 6,
+      "high": 5
     }
   },
   "results": [
@@ -490,6 +490,20 @@
       "reason": "採 LG 台灣官方新品發表日期，並以 exact-model 官方產品頁交叉核對；未使用通路上架日或型號年份推定。"
     },
     {
+      "id": "tv-sharp-4t-c65hu8500x",
+      "category": "tv",
+      "brand": "SHARP",
+      "model": "4T-C65HU8500X",
+      "name": "65 型 Xtreme Mini LED 144Hz Google TV 顯示器",
+      "releaseDate": "2025",
+      "sourceUrl": "https://tw.sharp/event/sharp-exhibition_2025_product03",
+      "sourceTitle": "2025 SHARP 新品發表會 All for Life－HU8500X series",
+      "evidenceSnippet": "SHARP 台灣 2025 新品發表會頁將 HU8500X series 列為新品系列；exact-model 官方產品頁另確認 4T-C65HU8500X 屬該系列，故只記可信的 2025 年，不自行補月日。",
+      "confidence": "official",
+      "query": "site:tw.sharp \"4T-C65HU8500X\" 新品 發表 上市",
+      "sourceKind": "official_announcement"
+    },
+    {
       "id": "soundbar-samsung-q990f",
       "category": "soundbar",
       "brand": "Samsung",
@@ -885,6 +899,20 @@
       "reason": "已查台灣官方 exact-model 頁、可信新品通路與上市關鍵字；未找到明確上市／發售日期，不以素材日期、上架日、促銷日或型號年份猜測。"
     },
     {
+      "id": "soundbar-sennheiser-ambeo-mini",
+      "category": "soundbar",
+      "brand": "Sennheiser",
+      "model": "AMBEO Soundbar Mini",
+      "name": "AMBEO Soundbar Mini 7.1.4 虛擬聲道 Dolby Atmos 聲霸",
+      "releaseDate": "2023-09-01",
+      "sourceUrl": "https://newsroom.sennheiser.com/finally-the-perfect-roommate-2dnavx",
+      "sourceTitle": "Finally, the perfect roommate: Sennheiser introduces the AMBEO Soundbar Mini",
+      "evidenceSnippet": "Sennheiser 官方新聞稿於 2023-08-30 發表 AMBEO Soundbar Mini，並明示 2023-09-01 起開放訂購。",
+      "confidence": "official",
+      "query": "site:newsroom.sennheiser.com \"AMBEO Soundbar Mini\" September 1 2023",
+      "sourceKind": "official_announcement"
+    },
+    {
       "id": "fan-panasonic-fh16",
       "category": "fan",
       "brand": "Panasonic",
@@ -1191,6 +1219,20 @@
       "query": "\"R12A-DA\" (上市 OR 發售 OR 新品 OR launch OR release)",
       "sourceKind": "not_found",
       "reason": "已查台灣官方 exact-model 頁、可信新品通路與上市關鍵字；未找到明確上市／發售日期，不以素材日期、上架日、促銷日或型號年份猜測。"
+    },
+    {
+      "id": "fan-tatung-tf-l14d7t",
+      "category": "fan",
+      "brand": "TATUNG",
+      "model": "TF-L14D7T",
+      "name": "14 吋 7 葉片 DC 遙控立扇",
+      "releaseDate": "找不到",
+      "sourceUrl": "https://www.tatung.com/Product/Consumer/4950",
+      "sourceTitle": "大同 14 吋 7 葉片 DC 遙控立扇 TF-L14D7T 官方產品頁",
+      "evidenceSnippet": "已查大同官方 exact-model 產品頁與可信台灣新品通路，未明示上市／發售日期；未以頁面更新日、促銷日或型號年份推定。",
+      "confidence": "not_found",
+      "query": "site:tatung.com \"TF-L14D7T\" 上市 發售 日期",
+      "sourceKind": "not_found"
     },
     {
       "id": "circ-vornado-660",
@@ -1503,6 +1545,20 @@
       "query": "site:irisplaza.com.tw \"KSF-SDC151TEC\" \"2026新品\"",
       "sourceKind": "manual_research",
       "reason": "採 IRIS 台灣官方 exact-model 頁明確標示的 2026 新品年份；未使用日本 -W 色號發售日或零售上架日補推更精確日期。"
+    },
+    {
+      "id": "circulator-balmuda-egf-3300-wk",
+      "category": "circulator",
+      "brand": "BALMUDA",
+      "model": "EGF-3300-WK",
+      "name": "GreenFan Cirq 綠化循環扇",
+      "releaseDate": "找不到",
+      "sourceUrl": "https://www.balmuda.com.tw/greenfan-cirq/specs.php",
+      "sourceTitle": "BALMUDA Taiwan GreenFan Cirq EGF-3300-WK 官方規格頁",
+      "evidenceSnippet": "已查 BALMUDA 台灣 exact-model 規格、支援與現售頁，未找到可信官方上市／發售日期；未採海外資料庫年份或文件日期。",
+      "confidence": "not_found",
+      "query": "site:balmuda.com.tw \"EGF-3300-WK\" 上市 發售 日期",
+      "sourceKind": "not_found"
     },
     {
       "id": "dh-panasonic-yv32nn",
@@ -1844,6 +1900,20 @@
       "query": "\"JP33ASCT-W\" (上市 OR 發售 OR 新品 OR launch OR release)",
       "sourceKind": "not_found",
       "reason": "已查台灣官方 exact-model 頁、可信新品通路與上市關鍵字；未找到明確上市／發售日期，不以素材日期、上架日、促銷日或型號年份猜測。"
+    },
+    {
+      "id": "dehumidifier-electrolux-ed1031wd",
+      "category": "dehumidifier",
+      "brand": "Electrolux",
+      "model": "ED1031WD",
+      "name": "UltimateHome 300 10L 清淨除濕機",
+      "releaseDate": "找不到",
+      "sourceUrl": "https://www.electrolux.com.tw/appliances/dehumidifier/ed1031wd/",
+      "sourceTitle": "Electrolux 台灣 UltimateHome 300 ED1031WD 官方產品頁",
+      "evidenceSnippet": "已查 Electrolux 台灣 exact-model 產品頁、規格 PDF、說明書與可信通路，未明示上市／發售日期；規格文件日期不當成上市日。",
+      "confidence": "not_found",
+      "query": "site:electrolux.com.tw \"ED1031WD\" 上市 發售 日期",
+      "sourceKind": "not_found"
     },
     {
       "id": "ap-coway-ap1019",
@@ -2201,6 +2271,20 @@
       "reason": "採 exact-model 明確上市／在台預購文字；未使用素材日期、促銷日或型號年份推定。"
     },
     {
+      "id": "purifier-honeywell-hpa-100aptw",
+      "category": "purifier",
+      "brand": "Honeywell",
+      "model": "HPA-100APTW",
+      "name": "4–8 坪抗敏系列空氣清淨機",
+      "releaseDate": "找不到",
+      "sourceUrl": "https://shop.hengstyle.com/SalePage/Index/8168308",
+      "sourceTitle": "恆隆行 Honeywell HPA-100APTW 台灣授權通路 exact-model 頁",
+      "evidenceSnippet": "已查台灣授權通路、PChome exact-model 新品頁與 Honeywell HPA100 系列官方說明書，未取得可確認台灣型號上市／發售日期的官方文字。",
+      "confidence": "not_found",
+      "query": "\"HPA-100APTW\" 上市 發售 日期 Honeywell",
+      "sourceKind": "not_found"
+    },
+    {
       "id": "aircon-hitachi-ras-22ntb-rac-22np",
       "category": "aircon",
       "brand": "HITACHI",
@@ -2495,17 +2579,17 @@
       "sourceKind": "not_found"
     },
     {
-      "id": "aircon-lg-lsn28ddhs-lsu28dhs",
+      "id": "aircon-sharp-ay-28zamh-w-ae-28zamh",
       "category": "aircon",
-      "brand": "LG",
-      "model": "LSN28DDHS / LSU28DHS",
-      "name": "LG LSN28DDHS / LSU28DHS 一對一分離式變頻冷暖",
+      "brand": "SHARP",
+      "model": "AY-28ZAMH-W / AE-28ZAMH",
+      "name": "SHARP AY-28ZAMH-W / AE-28ZAMH 一對一分離式變頻冷暖",
       "releaseDate": "找不到",
-      "sourceUrl": "https://www.lg.com/tw/residential-air-conditioners/single-split-inverter-air-conditioners/ls-28ddhs/",
-      "sourceTitle": "LG 台灣 exact-model LSN28DDHS / LSU28DHS 官方產品頁",
-      "evidenceSnippet": "已查品牌台灣官方 exact-model 產品頁、規格圖或官方型錄，未明示上市／發售日期；未以型號年、型錄年、頁面更新日、促銷日或文件日期推定。",
+      "sourceUrl": "https://www.tw.sharp/products/ae-28zamh",
+      "sourceTitle": "SHARP 台灣 AY-28ZAMH-W／AE-28ZAMH 官方產品頁",
+      "evidenceSnippet": "已查 SHARP 台灣 exact-model 產品頁、官方使用說明書與可信 exact-pair 新品通路，未明示上市／發售日期；未以說明書或素材年份推定。",
       "confidence": "not_found",
-      "query": "LG \"LSN28DDHS\" \"LSU28DHS\" 上市 發售 日期",
+      "query": "site:tw.sharp \"AY-28ZAMH-W\" \"AE-28ZAMH\" 上市 發售",
       "sourceKind": "not_found"
     },
     {
@@ -3130,6 +3214,20 @@
       "reason": "報導日期與內文同時明確指出 exact model 推出，不以商品上架或促銷日期推定。"
     },
     {
+      "id": "robot-tplink-tapo-rv30-max-plus",
+      "category": "robot",
+      "brand": "TP-Link",
+      "model": "Tapo RV30 Max Plus",
+      "name": "5300Pa LiDAR 自動集塵掃拖機器人",
+      "releaseDate": "2024-11-14",
+      "sourceUrl": "https://www.tp-link.com/us/press/news/21467/",
+      "sourceTitle": "TP-Link Expands Smart Home Lineup with Tapo RV30 Max Plus",
+      "evidenceSnippet": "TP-Link 官方新聞稿明示 Tapo RV30 Max Plus 自 2024-11-14 起可購；台灣官方 exact-model 頁另確認同完整型號。",
+      "confidence": "official",
+      "query": "site:tp-link.com \"Tapo RV30 Max Plus\" available November 14",
+      "sourceKind": "official_announcement"
+    },
+    {
       "id": "vac-dyson-v12",
       "category": "vacuum",
       "brand": "Dyson",
@@ -3503,6 +3601,25 @@
       "reason": "已查台灣官方 exact-model 頁、可信新品通路與上市關鍵字；未找到明確上市／發售日期，不以素材日期、上架日、促銷日或型號年份猜測。"
     },
     {
+      "id": "vacuum-samsung-vs70h18gzg-tw",
+      "category": "vacuum",
+      "brand": "Samsung",
+      "model": "VS70H18GZG/TW",
+      "name": "Jet Fit 180W 輕量無線吸塵器",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "query": "\"VS70H18GZG/TW\" release launch 上市 發售",
+      "sourceKind": "not_found_after_manual_review",
+      "checkedSources": [
+        "https://www.samsung.com/tw/vacuum-cleaners/stick/vs70h-stick-vc-with-super-lightweight-powerful-jet-fit-180w-satin-greige-vs70h18gzg-tw/",
+        "https://online.skm.com.tw/product/863012300004104123"
+      ],
+      "reason": "Samsung 台灣官方 exact-model 產品頁與 skm online 新品頁沒有明確上市／發售文字；官方支援頁的 2026-02-11 說明書日期是文件日期，不作為上市日。"
+    },
+    {
       "id": "washer-lg-wt-vdn12hm",
       "category": "washer",
       "brand": "LG",
@@ -3850,6 +3967,25 @@
       "reason": "已查台灣官方 exact-model 頁、可信新品通路與上市關鍵字；未找到明確上市／發售日期，不以素材日期、上架日、促銷日或型號年份猜測。"
     },
     {
+      "id": "washer-toshiba-aw-t26d1600xta-mg",
+      "category": "washer",
+      "brand": "Toshiba",
+      "model": "AW-T26D1600XTA(MG)",
+      "name": "15kg DDM 變頻直立式洗衣機",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "query": "\"AW-T26D1600XTA(MG)\" 上市 發售 日期",
+      "sourceKind": "not_found_after_manual_review",
+      "checkedSources": [
+        "https://www.toshiba-lifestyle.com/tw/laundries/top-load-washer/aw-t26d1600xta-mg",
+        "https://24h.pchome.com.tw/prod/DPAI1G-A900K9EPD"
+      ],
+      "reason": "Toshiba 台灣官方 exact-model 產品頁與 PChome 新品頁未提供明確上市／發售文字；說明書發布日 2026-06-22 是文件日期，不當作上市日。"
+    },
+    {
       "id": "dryer-panasonic-nh-80rz-w",
       "category": "dryer",
       "brand": "Panasonic",
@@ -4171,6 +4307,25 @@
       "query": "\"RDT-90-TR-W\" (上市 OR 發售 OR 新品 OR launch OR release)",
       "sourceKind": "not_found",
       "reason": "已查台灣官方 exact-model 頁、可信新品通路與上市關鍵字；未找到明確上市／發售日期，不以素材日期、上架日、促銷日或型號年份猜測。"
+    },
+    {
+      "id": "dryer-lg-wr-20dw",
+      "category": "dryer",
+      "brand": "LG",
+      "model": "WR-20DW",
+      "name": "20kg AI Heat Pump 免曬衣乾衣機",
+      "releaseDate": "2024-09-12",
+      "sourceUrl": "https://www.lg.com/tw/about-lg/press-and-media/ai-dryer-new-launch-20240912/",
+      "sourceTitle": "LG 全新 AI 免曬衣乾衣機 20公斤登場",
+      "evidenceSnippet": "LG 台灣 2024-09-12 官方新聞稿明確宣布全新 20kg AI 免曬衣乾衣機登場，文內連結 exact model WR-20DW。",
+      "confidence": "high",
+      "query": "site:lg.com/tw \"WR-20DW\" 全新 登場",
+      "sourceKind": "official_launch",
+      "checkedSources": [
+        "https://www.lg.com/tw/about-lg/press-and-media/ai-dryer-new-launch-20240912/",
+        "https://www.lg.com/tw/washer-dryers/dryers/wr-20dw/"
+      ],
+      "reason": "採 LG 台灣官方發表新聞日期；不是通路上架日或說明書日期。"
     },
     {
       "id": "washerdryer-lg-wd-s90vdw",
@@ -4579,6 +4734,26 @@
       "reason": "官方只明確提供推出年份，因此保留 YYYY 精度，不自行補月份或日期。"
     },
     {
+      "id": "washerdryer-bosch-wnc554a0tc",
+      "category": "washerdryer",
+      "brand": "Bosch",
+      "model": "WNC554A0TC",
+      "name": "10/7kg i-DOS 智慧聯網洗脫烘",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "query": "\"WNC554A0TC\" release launch 上市 發售",
+      "sourceKind": "not_found_after_manual_review",
+      "checkedSources": [
+        "https://www.bosch-home.com.tw/zh/mkt-product/washers-dryers/washer-dryers/washerdryers2/WNC554A0TC",
+        "https://media3.bosch-home.com/Documents/26131748_BOSCH_laundry_brochure_Feb2025.pdf",
+        "https://tw.buy.yahoo.com/gdsale/BOSCH%E5%8D%9A%E4%B8%96-10-7%E5%85%AC%E6%96%A4%E9%AB%98%E6%95%88%E6%99%BA%E6%85%A7%E6%BB%BE%E7%AD%92%E6%B4%97%E8%84%AB%E7%83%98-%E5%90%AB%E5%9F%BA%E6%9C%AC%E5%AE%89%E8%A3%9D-220V%E6%8B%89%E9%9B%BB-WNC554A0TC-11546320.html"
+      ],
+      "reason": "Bosch 台灣 exact-model 頁、官方型錄與 Yahoo 新品頁皆未出現明確上市／發售敘述；型錄月份只代表文件版本，不推定產品上市日。"
+    },
+    {
       "id": "garmentcare-lg-r723wg",
       "category": "garmentcare",
       "brand": "LG",
@@ -4838,18 +5013,24 @@
       "sourceKind": "official_page"
     },
     {
-      "id": "garmentcare-panasonic-hcc-r600ar-x",
+      "id": "garmentcare-panasonic-n-rgb1r-w",
       "category": "garmentcare",
       "brand": "Panasonic",
-      "model": "HCC-R600AR-X",
-      "name": "Panasonic Smart Closet 右開門",
-      "releaseDate": "2023-08",
-      "sourceUrl": "https://panasonic.jp/smartcloset/products/HCC-R600AR.html",
-      "sourceTitle": "Panasonic Smart Closet HCC-R600AL／R600AR",
-      "evidenceSnippet": "Panasonic 日本官方產品頁明確寫 HCC-R600AL／R600AR 於 2023 年 8 月上市，因此不以比價站日期補成日級日期。",
-      "confidence": "official",
-      "query": "Panasonic HCC-R600AR-X release date launch 上市 發售",
-      "sourceKind": "official_page"
+      "model": "N-RGB1R-W",
+      "name": "電子衣櫥（晶亮白）",
+      "releaseDate": "2021-10-19",
+      "sourceUrl": "https://www.mobile01.com/topicdetail.php?f=168&t=6475413",
+      "sourceTitle": "2021 Panasonic 秋季新品登場 以更多貼心提升生活質感",
+      "evidenceSnippet": "Mobile01 對 Panasonic 台灣秋季新品活動的報導於 2021-10-19 明確寫出首度引進全新電子衣櫥 N-RGB1R；-W 為台灣晶亮白 exact variant。",
+      "confidence": "medium",
+      "query": "\"N-RGB1R-W\" OR \"N-RGB1R\" 首度 引進 全新",
+      "sourceKind": "trusted_media_launch",
+      "checkedSources": [
+        "https://www.mobile01.com/topicdetail.php?f=168&t=6475413",
+        "https://www.panasonic.com/tw/consumer/washing-machine/e-wardrobe/n-rgb1r.html",
+        "https://pmst.panasonic.com.tw/Shop/product/detail/R5P9ESMPPRGMDA2IK9MN"
+      ],
+      "reason": "採台灣新品發表活動的明確首度引進文字與報導日期；不是說明書、促銷或通路上架日期。"
     },
     {
       "id": "refrigerator-panasonic-nr-b271tv-s1",
@@ -5592,6 +5773,26 @@
       "reason": "已查台灣官方 exact-model 頁、可信新品通路與上市關鍵字；未找到明確上市／發售日期，不以素材日期、上架日、促銷日或型號年份猜測。"
     },
     {
+      "id": "cookware-debuyer-5214-28",
+      "category": "cookware",
+      "brand": "de Buyer",
+      "model": "5214.28",
+      "name": "BLUE CARBON 28cm 深型鄉村煎鍋",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "query": "\"de Buyer\" \"5214.28\" release launch 上市",
+      "sourceKind": "not_found_after_manual_review",
+      "checkedSources": [
+        "https://www.debuyer.com.tw/zh-hant/products/new-blue-steel-country-frypan",
+        "https://www.debuyer.com/en/sauteuse-paysanne-tole-blue-ca-4188.html",
+        "https://www.tw.coupang.com/products/de-Buyer-%E7%95%A2%E8%80%B6-%E8%BC%95%E7%A4%A6%E8%97%8D%E9%90%B5%E7%B3%BB%E5%88%97-%E5%96%AE%E6%9F%84%E6%B7%B1%E7%85%8E%E7%82%92%E9%8D%8B-5214.28-1960g%2C-28cm%2C-1%E5%80%8B-466833169661956?itemId=466833169694727&vendorItemId=466833169678337"
+      ],
+      "reason": "de Buyer 台灣／全球官方 exact-reference 頁與 Coupang exact-model 5214.28 新品頁未提供明確上市／發售文字；不以網站更新或通路上架時間推定。"
+    },
+    {
       "id": "knife-tojiro-dp-f-808-210mm",
       "category": "knife",
       "brand": "TOJIRO",
@@ -5901,6 +6102,25 @@
       "query": "site:ikea.com.tw \"006.314.66\" (上市 OR 發售 OR 發表 OR 新品)",
       "sourceKind": "not_found_after_official_review",
       "reason": "IKEA 台灣 exact-article 頁明示「新品」，但沒有正式上市／發售日期；raw ecommerce payload 的 start_sale_date=2026-07-01 是網站販售／上架 metadata，不能依規則代替 releaseDate。已查 IKEA 台灣、日本、香港與馬來西亞官方頁，仍沒有明確 launch announcement。"
+    },
+    {
+      "id": "knife-zwilling-pro-38401-201",
+      "category": "knife",
+      "brand": "ZWILLING",
+      "model": "38401-201",
+      "name": "PRO 西式主廚刀 20cm",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "query": "\"38401-201\" ZWILLING release launch 上市",
+      "sourceKind": "not_found_after_manual_review",
+      "checkedSources": [
+        "https://www.zwilling.com.tw/products/38401-201",
+        "https://www.google.com/search?q=%2238401-201%22%20ZWILLING%20release%20launch%20%E4%B8%8A%E5%B8%82"
+      ],
+      "reason": "ZWILLING 台灣官方 exact-model 新品頁與 exact-model 搜尋沒有明確上市／發售敘述；目前優惠與頁面時間不作為上市日。"
     },
     {
       "id": "blender-vitamix-a3500i",
@@ -7484,6 +7704,25 @@
       "reason": "已查台灣官方 exact-model 頁、可信新品通路與上市關鍵字；未找到明確上市／發售日期，不以素材日期、上架日、促銷日或型號年份猜測。"
     },
     {
+      "id": "waterdispenser-buder-bd-3006bf-ro",
+      "category": "waterdispenser",
+      "brand": "Buder",
+      "model": "BD-3006BF-RO",
+      "name": "BD-3006BF 冷水煮沸飲水機＋RO-2604 逆滲透系統",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "query": "\"BD-3006BF-RO\" 上市 發售 日期",
+      "sourceKind": "not_found_after_manual_review",
+      "checkedSources": [
+        "https://24h.pchome.com.tw/prod/DMAWFH-A900F2DDI",
+        "https://www.google.com/search?q=%22BD-3006BF-RO%22%20%E4%B8%8A%E5%B8%82%20%E7%99%BC%E5%94%AE%20%E6%97%A5%E6%9C%9F"
+      ],
+      "reason": "PChome exact-model 新品頁與 exact-model 搜尋均未提供明確上市／發售文字；頁面上架、圖片或促銷時間不當作上市日。"
+    },
+    {
       "id": "dishwasher-panasonic-np-k1ywhr2tw",
       "category": "dishwasher",
       "brand": "Panasonic",
@@ -8772,6 +9011,26 @@
       "confidence": "not_found",
       "query": "Brondell Swash CL1700 release date launch announced 上市 發售",
       "sourceKind": "not_found_after_costco_update"
+    },
+    {
+      "id": "bidet-inax-cw-rl31-tw-bw1",
+      "category": "bidet",
+      "brand": "INAX",
+      "model": "CW-RL31-TW/BW1",
+      "name": "E-Bidet 微電腦洗淨便座（除臭／烘乾）",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "query": "\"CW-RL31-TW/BW1\" 上市 發售 日期",
+      "sourceKind": "not_found_after_manual_review",
+      "checkedSources": [
+        "https://tw.inax.com/zh-hant/products/shower-toilet/cw-rl31-tw/",
+        "https://www.momoshop.com.tw/product/14229297",
+        "https://www.google.com/search?q=%22CW-RL31-TW%2FBW1%22%20%E4%B8%8A%E5%B8%82%20%E7%99%BC%E5%94%AE%20%E6%97%A5%E6%9C%9F"
+      ],
+      "reason": "INAX 台灣官方 exact-model 頁、momo 新品頁與 exact-model 搜尋均沒有明確上市／發售文字；不以網站年份或通路上架時間推定。"
     },
     {
       "id": "smartlock-yale-ymf40a",
@@ -10550,6 +10809,20 @@
       "reason": "品牌官方發表頁同時提供 exact product name、明確的正式亮相文字、文章日期與夜霧檀棕色名，可支持完整上市日。"
     },
     {
+      "id": "standingdesk-funte-force-200x90",
+      "category": "standingdesk",
+      "brand": "FUNTE",
+      "model": "Force 200x90",
+      "name": "Force 200 x 90 cm 四柱四馬達大型電動升降桌",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "query": "\"FUNTE Force 200x90\" (上市 OR 發售 OR 新品 OR launch OR release)",
+      "reason": "已查 FUNTE 官方商品頁、型錄與通路頁，未找到可證明首次上市的明確日期；不以活動日、型錄更新日或文章日期推定。"
+    },
+    {
       "id": "chair-irocks-t07-plus",
       "category": "chair",
       "brand": "iRocks",
@@ -10917,6 +11190,20 @@
       "query": "site:cougargaming.com Stryder introduced August 2025",
       "sourceKind": "official_press_release",
       "reason": "採 COUGAR 官方產品發表日期；台灣 exact-model 與現貨狀態另由台灣官方規格及 PChome 核對。"
+    },
+    {
+      "id": "chair-sidiz-t50",
+      "category": "chair",
+      "brand": "SIDIZ",
+      "model": "T50",
+      "name": "T50 高階人體工學椅",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "query": "\"SIDIZ T50\" (上市 OR 發售 OR 新品 OR launch OR release)",
+      "reason": "已查 SIDIZ 台灣、韓國及國際官方頁與舊型錄，未找到可安全對應台灣現售版本的首次上市日期；不以型錄或促銷日期推定。"
     },
     {
       "id": "monitor-asus-xg27acs",
@@ -11730,6 +12017,21 @@
       "reason": "採 exact-model 明確上市／在台預購文字；未使用素材日期、促銷日或型號年份推定。"
     },
     {
+      "id": "monitor-lenovo-loq-27q-10",
+      "category": "monitor",
+      "brand": "Lenovo",
+      "model": "LOQ 27Q-10",
+      "name": "LOQ 27Q-10 27 吋 QHD 180Hz Fast IPS 電競螢幕",
+      "releaseDate": "2026-03-24",
+      "sourceUrl": "https://www.cnet.co.kr/view/?no=20260324164942",
+      "sourceTitle": "CNET Korea：Lenovo 發表 LOQ 電競螢幕三款新品",
+      "evidenceSnippet": "2026-03-24 報導明列新產品陣容包含 LOQ 27Q-10，並說明 Fast IPS 與高刷新定位。",
+      "confidence": "medium",
+      "sourceKind": "media_launch_report",
+      "query": "\"LOQ 27Q-10\" (launch OR release OR 발표 OR 新品)",
+      "reason": "採可信科技媒體對 exact model 的明確發表日期；未使用 PSREF 修改日、驅動日期或促銷日期。"
+    },
+    {
       "id": "monitorarm-raymii-ls116m1",
       "category": "monitorarm",
       "brand": "Raymii",
@@ -12054,6 +12356,20 @@
       "query": "site:backbone.tw \"WB-AC-025-111\" (上市 OR 發售 OR 發表 OR 新品)",
       "sourceKind": "not_found_after_official_review",
       "reason": "Taiwan Access 與 Backbone 官方 exact-model 頁可確認現售商品、SKU 與規格，但均未提供正式上市／發售日期；頁面修改時間與搜尋索引日期不作為 releaseDate。"
+    },
+    {
+      "id": "monitorarm-north-bayou-g50",
+      "category": "monitorarm",
+      "brand": "North Bayou",
+      "model": "G50",
+      "name": "G50 27-45 吋 16kg 高承重單螢幕支架",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "query": "\"North Bayou G50\" (上市 OR 發售 OR 新品 OR launch OR release)",
+      "reason": "已查品牌資料、台灣通路及使用手冊，未找到可信的首次上市日期；不以手冊上架或通路頁日期推定。"
     }
   ]
 }

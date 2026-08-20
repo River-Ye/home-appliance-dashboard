@@ -2231,6 +2231,96 @@
         }
       ]
     }
+  },
+  {
+    "id": "fan-tatung-tf-l14d7t",
+    "category": "fan",
+    "rank": 24,
+    "topPick": false,
+    "budget": "value",
+    "channel": "tw",
+    "brand": "TATUNG",
+    "model": "TF-L14D7T",
+    "name": "14 吋 7 葉片 DC 遙控立扇",
+    "price": {
+      "currency": "TWD",
+      "amount": 2690,
+      "converted": 2690,
+      "confidence": "PChome 24h 於 2026-08-20 的 exact-model 新品頁公開價 NT$2,690，庫存數量為正",
+      "basis": "retailer_current"
+    },
+    "installation": {
+      "status": "not_stated",
+      "note": "通路頁為箱裝立扇商品價，未標示含到府組裝；消費者需依說明書自行組裝底座與扇葉護網。"
+    },
+    "image": "https://cs-a.ecimg.tw/items/DMABHZA900IH4WH/000001_1742354251.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DMABHZ-A900IH4WH",
+    "buyLabel": "PChome 24h exact-model 台灣公司貨新品",
+    "specs": [
+      "14 吋 7 葉片；DC 馬達",
+      "24 段風速；水平自動擺頭、垂直手動調整",
+      "最長 15 小時預約開機／關機",
+      "尺寸：寬 38.5 x 深 35.4 x 高 90–105 cm",
+      "淨重：3.5 kg；額定消耗功率 30W",
+      "BSMI：R63999"
+    ],
+    "description": "以台灣老牌大同補足兩千元級 DC 立扇，24 段風速、遙控與 7 葉片規格兼顧臥室細調和日常售後。",
+    "pros": [
+      "24 段風速比同價位常見三至十二段更細",
+      "30W DC 馬達適合長時間使用",
+      "exact-model 台灣官方與即時有庫存新品通路可交叉核對"
+    ],
+    "cons": [
+      "垂直角度需手動調整，不是完整 3D 自動擺頭",
+      "通路未標示含組裝服務",
+      "未找到可公開重現的可信同型號史低"
+    ],
+    "bestFor": "想在三千元內選台灣品牌、需要細緻風速與遙控定時的臥室或小客廳。",
+    "recommendation": "台灣品牌入門推薦：不是以造型取勝，而是用 24 段 DC 風速、低功耗與較容易取得的在地售後補足比較帶。",
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-08-20",
+      "note": "已查 PChome exact-model 現售頁、BigGo 與 FindPrice 價格入口；沒有取得可公開重現、帶日期且排除會員券、點數、福利品、展示機的可信新品史低，未以現價推定史低。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-08-20",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"TATUNG TF-L14D7T\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22TATUNG%20TF-L14D7T%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"TATUNG TF-L14D7T\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22TATUNG%20TF-L14D7T%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        }
+      ]
+    },
+    "score": 86,
+    "voltage": "110V／60Hz 台灣公司貨；額定消耗功率 30W",
+    "warranty": "TATUNG 台灣公司貨；PChome exact-model 新品頁標示原廠 1 年保固",
+    "tags": [
+      "14吋",
+      "DC",
+      "24段風速",
+      "遙控",
+      "台灣品牌"
+    ]
   }
 ]);
 })();

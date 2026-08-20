@@ -414,9 +414,9 @@
     "name": "BRAVIA 9 II 65 型 RGB LED 4K Google TV",
     "price": {
       "currency": "TWD",
-      "amount": 108323,
-      "converted": 108323,
-      "confidence": "Yahoo購物中心 2026-08-15 exact-model 公開結構化價格"
+      "amount": 110533,
+      "converted": 110533,
+      "confidence": "Yahoo購物中心 2026-08-20 exact-model 公開結構化價格"
     },
     "image": "https://img.yec.tw/zp/MerchandiseImages/F326F9F0C5-SP-23019953.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/%E5%90%AB%E6%A8%99%E6%BA%96%E5%AE%89%E8%A3%9D-SONY%E7%B4%A2%E5%B0%BC65%E5%90%8B%E5%90%8BRGB-4K%E9%80%A3%E7%B6%B2%E6%99%BA%E6%85%A7%E9%A1%AF%E7%A4%BA%E5%99%A8Y-65XR90M2-12159450.html",
@@ -2001,9 +2001,9 @@
     "name": "65型 4K QLED 120Hz Google TV",
     "price": {
       "currency": "TWD",
-      "amount": 12591,
-      "converted": 12591,
-      "confidence": "PChome 2026-08-15 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 13990,
+      "converted": 13990,
+      "confidence": "PChome 2026-08-20 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DPADTOA900JNE73/000001_1768523868.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DPADTO-A900JNMOP",
@@ -3410,6 +3410,117 @@
         }
       ]
     }
+  },
+  {
+    "id": "tv-sharp-4t-c65hu8500x",
+    "category": "tv",
+    "rank": 35,
+    "topPick": false,
+    "budget": "balanced",
+    "channel": "tw",
+    "brand": "SHARP",
+    "model": "4T-C65HU8500X",
+    "name": "65 型 Xtreme Mini LED 144Hz Google TV 顯示器",
+    "price": {
+      "currency": "TWD",
+      "amount": 42900,
+      "converted": 42900,
+      "confidence": "PChome 24h 於 2026-08-20 的 exact-model 新品頁公開價 NT$42,900，庫存數量為正",
+      "basis": "retailer_current"
+    },
+    "installation": {
+      "status": "included_basic",
+      "note": "PChome exact-model 新品頁標示含標準桌上型基本安裝與舊機回收；壁掛架、壁掛施工、特殊牆面、偏遠地區及吊車等另計。"
+    },
+    "image": "https://cs-a.ecimg.tw/items/DPADO2A900JNY07/000001_1778569654.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DPADO2-A900JNY07",
+    "buyLabel": "PChome 24h exact-model 台灣公司貨新品",
+    "specs": [
+      "65 吋 4K（3840 x 2160）Xtreme Mini LED",
+      "原生 144Hz；X7 AI 影像處理器與 Deep Chroma QD",
+      "HDR10、HLG、Dolby Vision IQ",
+      "Google TV；手機投影：Google Cast（Chromecast built-in）、Miracast",
+      "HDMI x 4（含 eARC）；喇叭輸出 40W",
+      "尺寸：不含底座 寬 144.78 x 深 6.96 x 高 83.5 cm；含底座 寬 144.78 x 深 33 x 高 89.3 cm",
+      "重量：不含底座 21.3 kg；含底座 26.8 kg",
+      "額定消耗功率：315W"
+    ],
+    "description": "補上 SHARP 在台灣現售的 65 吋 Mini LED 代表款，兼具 144Hz、高階分區背光與 Google TV，讓同尺寸比較不只集中在韓系與中國品牌。",
+    "pros": [
+      "Xtreme Mini LED、量子點廣色域與 144Hz 規格完整",
+      "Google Cast 與 Miracast 都有官方明示，手機投影選擇完整",
+      "台灣官方 exact-model 規格、公司貨活動與新品通路可交叉核對"
+    ],
+    "cons": [
+      "機身含底座 26.8 kg，搬運與壁掛應至少兩人並核對牆體承重",
+      "壁掛架與特殊施工不在標準基本安裝範圍",
+      "本輪未找到可公開重現的可信同型號史低"
+    ],
+    "bestFor": "想在 65 吋級距比較 Mini LED、144Hz 遊戲與 Google TV，並重視台灣公司貨安裝售後的客廳使用者。",
+    "recommendation": "Mini LED 品牌補足推薦：在 SHARP 既有色彩與日本品牌偏好之外，補上高刷新與雙手機投影協定的實質比較差異。",
+    "releaseDate": "2025",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-08-20",
+      "note": "已查 exact model 的 PChome 現售頁、FindPrice 與 BigGo／LBJ 價格入口；沒有取得可公開重現、帶日期且排除會員券、點數、福利品與展示機的可信新品史低，未以現價推定史低。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-08-20",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"SHARP 4T-C65HU8500X\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22SHARP%204T-C65HU8500X%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"SHARP 4T-C65HU8500X\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22SHARP%204T-C65HU8500X%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "PTT",
+          "query": "site:ptt.cc \"SHARP 4T-C65HU8500X\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22SHARP%204T-C65HU8500X%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "ptt.cc"
+        },
+        {
+          "platform": "Dcard",
+          "query": "site:dcard.tw \"SHARP 4T-C65HU8500X\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22SHARP%204T-C65HU8500X%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "dcard.tw"
+        },
+        {
+          "platform": "YouTube",
+          "query": "\"SHARP 4T-C65HU8500X\" problem issue defect failure broken 災情 故障 異常",
+          "queryUrl": "https://www.youtube.com/results?search_query=%22SHARP%204T-C65HU8500X%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
+          "targetHost": "youtube.com"
+        }
+      ]
+    },
+    "score": 91,
+    "voltage": "110V／60Hz 台灣公司貨；額定消耗功率 315W",
+    "warranty": "SHARP 台灣公司貨；PChome exact-model 新品頁標示全機 3 年保固，依原廠保證書與登錄條件",
+    "tags": [
+      "65吋",
+      "Mini LED",
+      "144Hz",
+      "Google TV",
+      "Chromecast",
+      "Miracast"
+    ]
   }
 ]);
 })();

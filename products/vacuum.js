@@ -113,9 +113,9 @@
     "name": "自動集塵無線吸塵器",
     "price": {
       "currency": "TWD",
-      "amount": 16900,
-      "converted": 16900,
-      "confidence": "PChome 2026-08-19 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 17900,
+      "converted": 17900,
+      "confidence": "PChome 2026-08-20 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAX8KA900HLX9W/000001_1744871467.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAX8K-A900HLX9W",
@@ -2231,8 +2231,8 @@
     "price": {
       "currency": "USD",
       "amount": 679.99,
-      "converted": 21686,
-      "confidence": "Dreame Vacuum Mop US 2026-07-21 原廠公開特價；ExchangeRate-API 2026-08-19 匯率換算"
+      "converted": 21629,
+      "confidence": "Dreame Vacuum Mop US 2026-07-21 原廠公開特價；ExchangeRate-API 2026-08-20 匯率換算"
     },
     "image": "https://m.media-amazon.com/images/I/61Yuy5vtWFL._AC_SL1500_.jpg",
     "buyUrl": "https://vacuummop.dreametech.com/products/aero-ultra-steam-wet-dry-vacuum",
@@ -2271,14 +2271,14 @@
       "status": "found",
       "amount": 679.99,
       "currency": "USD",
-      "converted": 21686,
+      "converted": 21629,
       "sourceUrl": "https://vacuummop.dreametech.com/products/aero-ultra-steam-wet-dry-vacuum",
       "sourceTitle": "Dreame Aero Ultra Steam Wet Dry Vacuum – Dreame Vacuum Mop",
       "evidenceSnippet": "Dreame 原廠美國商品頁於 2026-07-16 公開顯示特價 US$679.99、原價 US$799.99，且可 Add to Cart / Buy It Now。",
       "sourceKind": "official_sale",
       "confidence": "high",
       "checkedAt": "2026-07-16",
-      "note": "新上市商品目前可公開驗證的最低售價；未套用會員碼、信用卡、點數或個人化折扣，且未含國際運費、進口稅、插頭／供電與台灣保固風險；依 2026-08-19 USD/TWD 匯率換算。"
+      "note": "新上市商品目前可公開驗證的最低售價；未套用會員碼、信用卡、點數或個人化折扣，且未含國際運費、進口稅、插頭／供電與台灣保固風險；依 2026-08-20 USD/TWD 匯率換算。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -2626,6 +2626,96 @@
           "query": "\"HITACHI PV-XH4P\" problem issue defect failure broken 災情 故障 異常",
           "queryUrl": "https://www.youtube.com/results?search_query=%22HITACHI%20PV-XH4P%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
           "targetHost": "youtube.com"
+        }
+      ]
+    }
+  },
+  {
+    "id": "vacuum-samsung-vs70h18gzg-tw",
+    "category": "vacuum",
+    "rank": 28,
+    "topPick": false,
+    "budget": "balanced",
+    "channel": "tw",
+    "brand": "Samsung",
+    "model": "VS70H18GZG/TW",
+    "name": "Jet Fit 180W 輕量無線吸塵器",
+    "price": {
+      "currency": "TWD",
+      "amount": 13900,
+      "converted": 13900,
+      "confidence": "新光三越 skm online 2026-08-20 exact-model 台灣新品頁公開售價",
+      "basis": "retailer_current"
+    },
+    "image": "https://images.samsung.com/is/image/samsung/p6pim/tw/vs70h18gzg-tw/gallery/tw-jet-fit-stick-vs70h18gzg-tw-550961394?$624_468_PNG$",
+    "buyUrl": "https://online.skm.com.tw/product/863012300004104123",
+    "buyLabel": "新光三越 skm online",
+    "installation": {
+      "status": "not_stated",
+      "note": "通路未列到府安裝；本品為無線直立／手持吸塵器，充電座、配件與充電位置由使用者依原廠說明完成。"
+    },
+    "specs": [
+      "最大吸力 180W；HexaJet Motor",
+      "最長約 50 分鐘（最低功率搭配非電動工具）；Jet 模式約 6 分鐘",
+      "整機 1.96kg、手持 1.18kg；集塵容量 0.35L",
+      "尺寸：本體寬 25 x 深 18.1 x 高 104 cm；含集塵筒寬 28.2 x 深 26.9 x 高 108.5 cm",
+      "18V、2400mAh 可拆電池；充電約 210 分鐘",
+      "99.999% 多層過濾、可水洗集塵筒、LCD 顯示與智慧待機"
+    ],
+    "description": "Samsung VS70H18GZG/TW 以 1.96kg、180W 與可拆電池，補進韓系輕量無線吸塵器帶。",
+    "pros": [
+      "1.96kg 整機與 1.18kg 手持重量適合樓梯及高處清潔",
+      "180W 吸力、99.999% 多層過濾與可水洗集塵筒規格完整",
+      "可拆式電池、LCD 與智慧待機便於日常管理"
+    ],
+    "cons": [
+      "Jet 模式續航約 6 分鐘，50 分鐘是最低功率條件",
+      "0.35L 集塵筒清理頻率較高",
+      "替換電池、濾網與電動吸頭價格需另查"
+    ],
+    "bestFor": "重視輕量操控、韓系售後與可拆電池，主要清潔中小坪數硬地板的家庭。",
+    "recommendation": "Samsung 品牌補強：重量、吸力與台灣公司貨平衡，但續航比較要使用相同檔位與吸頭條件。",
+    "score": 88,
+    "voltage": "18V 電池系統；原廠充電設備供台灣公司貨使用",
+    "warranty": "Samsung 台灣公司貨；電池依原廠條款 2 年，HexaJet Motor 零件依條款 10 年（不含工資）",
+    "tags": [
+      "180W",
+      "1.96kg",
+      "可拆電池",
+      "多層過濾",
+      "LCD"
+    ],
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-08-20",
+      "note": "已查 Samsung 台灣官方、skm online 與 exact-model 價格搜尋；只能確認本輪 NT$13,900 新品現價，未找到具日期且可重現的可信新品史低。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-08-20",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Samsung VS70H18GZG/TW\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Samsung%20VS70H18GZG%2FTW%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Samsung VS70H18GZG/TW\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Samsung%20VS70H18GZG%2FTW%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
         }
       ]
     }

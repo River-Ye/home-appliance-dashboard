@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-14",
+  "generatedAt": "2026-08-20",
   "sourcePolicy": "電視、Soundbar、洗衣機、烘衣機、洗烘衣機、電子衣櫥、冰箱、咖啡機、多功能氣炸烤箱／微波爐、洗碗機、免治馬桶、冷氣與熱水器共 13 類尺寸，以及電視、Soundbar、咖啡機、多功能氣炸烤箱／微波爐、冷氣與熱水器共 6 類重量研究，皆優先採 exact-model 官方產品頁、官方規格表或官方 PDF，其次為可信新品通路。只採本體／機身／明確組件的尺寸與淨重，排除包裝、外箱尺寸與毛重；來源沒有明示寬／深／高順序時不自行推定。冷氣分列室內機與室外機，熱泵複合熱水器必須分列主機與儲槽；既有各類研究列仍沿用相同 exact-model 邊界。",
   "results": [
     {
@@ -581,6 +581,23 @@
       "weightCheckedAt": "2026-08-06"
     },
     {
+      "id": "tv-sharp-4t-c65hu8500x",
+      "dimension": "尺寸：不含底座 寬 144.78 x 深 6.96 x 高 83.5 cm；含底座 寬 144.78 x 深 33 x 高 89.3 cm",
+      "sourceUrl": "https://tw.sharp/products/4t-c65hu8500x",
+      "sourceTitle": "SHARP 台灣 4T-C65HU8500X 官方產品規格",
+      "evidenceSnippet": "官方 exact-model 規格列出不含底座 1447.8 x 835 x 69.6 mm、含底座 1447.8 x 893 x 330 mm；依官方寬高深順序轉為網站寬深高格式。",
+      "confidence": "high",
+      "isOfficialSource": true,
+      "checkedAt": "2026-08-20",
+      "weight": "重量：不含底座 21.3 kg；含底座 26.8 kg",
+      "weightSourceUrl": "https://tw.sharp/products/4t-c65hu8500x",
+      "weightSourceTitle": "SHARP 台灣 4T-C65HU8500X 官方產品規格",
+      "weightEvidenceSnippet": "官方 exact-model 規格列出不含底座 21.3 kg、含底座 26.8 kg，未採包裝毛重。",
+      "weightConfidence": "high",
+      "weightIsOfficialSource": true,
+      "weightCheckedAt": "2026-08-20"
+    },
+    {
       "id": "soundbar-samsung-q990f",
       "dimension": "尺寸：主機 寬 123.2 x 深 13.8 x 高 7.08 cm；後環繞喇叭 寬 12.95 x 深 14.04 x 高 20.13 cm；重低音 寬 24.9 x 深 24.9 x 高 25.18 cm",
       "sourceUrl": "https://www.samsung.com/uk/business/audio-devices/soundbar/q990f-q-series-soundbar-with-subwoofer-and-rear-speakers-black-hw-q990f-xu/",
@@ -1057,6 +1074,23 @@
       "weightCheckedAt": "2026-08-14"
     },
     {
+      "id": "soundbar-sennheiser-ambeo-mini",
+      "dimension": "尺寸：不含腳墊 寬 70 x 深 10.1 x 高 6.7 cm；含腳墊 寬 70 x 深 10.1 x 高 6.9 cm",
+      "sourceUrl": "https://tw.sennheiser-hearing.com/zh-tw/products/ambeo-soundbar-mini",
+      "sourceTitle": "Sennheiser 台灣 AMBEO Soundbar Mini 官方產品規格",
+      "evidenceSnippet": "台灣官方 exact-model 規格列出含腳墊 70 x 6.9 x 10.1 cm、不含腳墊 70 x 6.7 x 10.1 cm；依官方寬高深順序轉為網站寬深高格式。",
+      "confidence": "high",
+      "isOfficialSource": true,
+      "checkedAt": "2026-08-20",
+      "weight": "重量：主機 3.3 kg",
+      "weightSourceUrl": "https://tw.sennheiser-hearing.com/zh-tw/products/ambeo-soundbar-mini",
+      "weightSourceTitle": "Sennheiser 台灣 AMBEO Soundbar Mini 官方產品規格",
+      "weightEvidenceSnippet": "台灣官方 exact-model 規格列主機重量 3.3 kg，未合計包裝或不存在的外接重低音。",
+      "weightConfidence": "high",
+      "weightIsOfficialSource": true,
+      "weightCheckedAt": "2026-08-20"
+    },
+    {
       "id": "aircon-hitachi-ras-22ntb-rac-22np",
       "dimension": "尺寸：室內機 寬 84 x 深 27 x 高 31.5 cm；室外機 寬 73 x 深 29 x 高 60 cm",
       "sourceUrl": "https://www.hitachiaircon.com/tw/ranges/home-use-ac/honor-series-nt",
@@ -1414,23 +1448,21 @@
       "weightCheckedAt": "2026-08-14"
     },
     {
-      "id": "aircon-lg-lsn28ddhs-lsu28dhs",
-      "dimension": "尺寸：室內機 寬 89.5 x 深 23.5 x 高 30.7 cm；室外機 寬 77 x 深 28.8 x 高 54.5 cm",
-      "sourceUrl": "https://www.3uo.tw/ecommerce/LSN28DDHS/",
-      "sourceTitle": "玉明電器 exact-pair LSN28DDHS / LSU28DHS 規格頁",
-      "evidenceSnippet": "exact-model／官方系列規格明列室內機與室外機寬、深、高；已換算為 cm，未採外箱尺寸。",
+      "id": "aircon-sharp-ay-28zamh-w-ae-28zamh",
+      "dimension": "尺寸：室內機 寬 87.9 x 深 22.9 x 高 28.9 cm；室外機 寬 78 x 深 26.9 x 高 54 cm",
+      "sourceUrl": "https://www.tw.sharp/products/ae-28zamh",
+      "sourceTitle": "SHARP 台灣 AY-28ZAMH-W／AE-28ZAMH 官方產品規格",
+      "evidenceSnippet": "官方規格列室內機 879 x 289 x 229 mm、室外機 780 x 540 x 269 mm；官方使用說明書封面與通路 exact pair 確認室外機為 AE-28ZAMH，依寬高深轉為網站寬深高格式。",
       "confidence": "high",
-      "isOfficialSource": false,
-      "checkedAt": "2026-08-14",
-      "weight": "重量：室內機 11 kg；室外機 32.8 kg",
-      "weightSourceUrl": "https://www.3uo.tw/ecommerce/LSN28DDHS/",
-      "weightSourceTitle": "玉明電器 exact-pair LSN28DDHS / LSU28DHS 規格頁",
-      "weightEvidenceSnippet": "exact-model／官方系列規格明列室內機與室外機淨重；未採外箱毛重或自行推算。",
+      "isOfficialSource": true,
+      "checkedAt": "2026-08-20",
+      "weight": "重量：室內機 9 kg；室外機 30 kg",
+      "weightSourceUrl": "https://www.tw.sharp/products/ae-28zamh",
+      "weightSourceTitle": "SHARP 台灣 AY-28ZAMH-W／AE-28ZAMH 官方產品規格",
+      "weightEvidenceSnippet": "官方規格列室內機淨重 9 kg、室外機淨重 30 kg，未採包裝毛重。",
       "weightConfidence": "high",
-      "weightIsOfficialSource": false,
-      "weightCheckedAt": "2026-08-14",
-      "officialSpecSourceUrl": "https://www.lg.com/tw/residential-air-conditioners/single-split-inverter-air-conditioners/ls-28ddhs/",
-      "officialSpecSourceTitle": "LG 台灣 exact-model LSN28DDHS / LSU28DHS 官方產品頁"
+      "weightIsOfficialSource": true,
+      "weightCheckedAt": "2026-08-20"
     },
     {
       "id": "aircon-lg-lsn50ddhst-lsu50dhst",
@@ -1829,6 +1861,16 @@
       "checkedAt": "2026-08-14"
     },
     {
+      "id": "washer-toshiba-aw-t26d1600xta-mg",
+      "dimension": "尺寸：寬 59.9 x 深 64 x 高 106.9 cm",
+      "sourceUrl": "https://www.toshiba-lifestyle.com/tw/laundries/top-load-washer/aw-t26d1600xta-mg",
+      "sourceTitle": "AW-T26D1600XTA(MG) - Toshiba Lifestyle Taiwan",
+      "evidenceSnippet": "Toshiba 台灣 exact-model 官方規格表明列外觀尺寸（寬x深x高）599 x 640 x 1069 mm；換算為寬 59.9 x 深 64 x 高 106.9 cm，未採外箱 660 x 700 x 1130 mm。",
+      "confidence": "high",
+      "isOfficialSource": true,
+      "checkedAt": "2026-08-20"
+    },
+    {
       "id": "dryer-panasonic-nh-80rz-w",
       "dimension": "尺寸：寬 59.5 x 深 60 x 高 74 cm",
       "sourceUrl": "https://tw.buy.yahoo.com/gdsale/Panasonic國際牌8公斤乾衣機NH-80RZ-W-12105618.html",
@@ -2057,6 +2099,16 @@
       "confidence": "high",
       "isOfficialSource": true,
       "checkedAt": "2026-08-14"
+    },
+    {
+      "id": "dryer-lg-wr-20dw",
+      "dimension": "尺寸：寬 70 x 深 82 x 高 99 cm",
+      "sourceUrl": "https://www.lg.com/tw/washer-dryers/dryers/wr-20dw/",
+      "sourceTitle": "20公斤 AI 免曬衣乾衣機 WR-20DW - LG 台灣",
+      "evidenceSnippet": "LG 台灣 exact-model 官方規格明列產品尺寸 W x H x D 為 700 x 990 x 820 mm；依來源軸序轉為寬 70 x 深 82 x 高 99 cm，未使用包裝尺寸。",
+      "confidence": "high",
+      "isOfficialSource": true,
+      "checkedAt": "2026-08-20"
     },
     {
       "id": "washerdryer-lg-wd-s90vdw",
@@ -2349,6 +2401,16 @@
       "checkedAt": "2026-08-14"
     },
     {
+      "id": "washerdryer-bosch-wnc554a0tc",
+      "dimension": "尺寸：寬 59.8 x 深 61.6 x 高 84.8 cm",
+      "sourceUrl": "https://www.bosch-home.com.tw/zh/mkt-product/washers-dryers/washer-dryers/washerdryers2/WNC554A0TC",
+      "sourceTitle": "Serie 6 洗脫烘衣機 WNC554A0TC - Bosch 台灣",
+      "evidenceSnippet": "Bosch 台灣 exact-model 官方資料明列 H x W x D 為 848 x 598 x 616 mm；依來源軸序轉為寬 59.8 x 深 61.6 x 高 84.8 cm，未採包裝尺寸。",
+      "confidence": "high",
+      "isOfficialSource": true,
+      "checkedAt": "2026-08-20"
+    },
+    {
       "id": "garmentcare-lg-r723wg",
       "dimension": "尺寸：寬 60 x 深 62 x 高 196.5 cm",
       "sourceUrl": "https://www.lg.com/tw/washer-dryers/styler/r723wg/",
@@ -2539,14 +2601,14 @@
       "checkedAt": "2026-07-23"
     },
     {
-      "id": "garmentcare-panasonic-hcc-r600ar-x",
-      "dimension": "尺寸：寬 45 x 深 61.3 x 高 173.4 cm",
-      "sourceUrl": "https://panasonic.jp/smartcloset/products/HCC-R600AR/spec.html",
-      "sourceTitle": "Panasonic HCC-R600AR-X 官方產品／規格頁",
-      "evidenceSnippet": "HCC-R600AR-X 官方規格列出機身尺寸；本列轉為「寬 x 深 x 高 cm」格式，未使用包裝或外箱尺寸。",
+      "id": "garmentcare-panasonic-n-rgb1r-w",
+      "dimension": "尺寸：寬 34 x 深 58 x 高 175 cm",
+      "sourceUrl": "https://www.panasonic.com/tw/consumer/washing-machine/e-wardrobe/n-rgb1r.html",
+      "sourceTitle": "電子衣櫥 N-RGB1R - Panasonic 台灣",
+      "evidenceSnippet": "Panasonic 台灣 exact-model 官方規格明列本體 W340 x D580 x H1750 mm；換算為寬 34 x 深 58 x 高 175 cm，未使用包裝尺寸。",
       "confidence": "high",
       "isOfficialSource": true,
-      "checkedAt": "2026-07-23"
+      "checkedAt": "2026-08-20"
     },
     {
       "id": "refrigerator-panasonic-nr-b271tv-s1",
@@ -4875,6 +4937,23 @@
       "confidence": "not_found",
       "isOfficialSource": true,
       "checkedAt": "2026-08-01"
+    },
+    {
+      "id": "bidet-inax-cw-rl31-tw-bw1",
+      "dimension": "尺寸：寬 47.4 x 深 55.4 x 高 14.9 cm",
+      "sourceUrl": "https://tw.inax.com/zh-hant/products/shower-toilet/cw-rl31-tw/",
+      "sourceTitle": "CW-RL31-TW - INAX 台灣微電腦洗淨便座",
+      "evidenceSnippet": "INAX 台灣 exact-model 官方頁明列產品尺寸 W474 x D554 x H149 mm；換算為寬 47.4 x 深 55.4 x 高 14.9 cm，未使用包裝尺寸。",
+      "confidence": "high",
+      "isOfficialSource": true,
+      "checkedAt": "2026-08-20",
+      "weight": "重量：約 4.1 kg",
+      "weightSourceUrl": "https://tw.inax.com/wp-content/uploads/2025-%E9%9B%BB%E8%85%A6%E4%BE%BF%E5%BA%A7%E5%9E%8B%E9%8C%84_%E7%B6%B2%E9%A0%81%E7%89%88.pdf",
+      "weightSourceTitle": "2025 INAX 電腦便座型錄",
+      "weightEvidenceSnippet": "INAX 台灣 2025 官方型錄第 8 頁機能規格表，在 CW-RL31-TW/BW1 欄明列商品重量約 4.1kg。",
+      "weightConfidence": "high",
+      "weightIsOfficialSource": true,
+      "weightCheckedAt": "2026-08-20"
     }
   ]
 }

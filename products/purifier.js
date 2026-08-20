@@ -205,9 +205,9 @@
     "name": "Purifier Cool 二合一涼風智能空氣清淨機",
     "price": {
       "currency": "TWD",
-      "amount": 11662,
-      "converted": 11662,
-      "confidence": "Yahoo購物中心 2026-08-18 exact-model 公開結構化價格"
+      "amount": 11900,
+      "converted": 11900,
+      "confidence": "Yahoo購物中心 2026-08-20 exact-model 公開結構化價格"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAU3CA900K0T3T/000001_1779087672.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/Dyson-%E6%88%B4%E6%A3%AE-Purifier-Cool-%E4%BA%8C%E5%90%88%E4%B8%80%E6%B6%BC%E9%A2%A8%E6%99%BA%E8%83%BD%E7%A9%BA%E6%B0%A3%E6%B8%85%E6%B7%A8%E6%A9%9FTP11-%E7%99%BD%E8%89%B2-12000846.html",
@@ -1069,9 +1069,9 @@
     "name": "Purifier Hot+Cool De-NOx 甲醛 NOx 偵測涼暖空氣清淨機",
     "price": {
       "currency": "TWD",
-      "amount": 25382,
-      "converted": 25382,
-      "confidence": "Yahoo購物中心 2026-08-18 exact-model 公開結構化價格"
+      "amount": 25900,
+      "converted": 25900,
+      "confidence": "Yahoo購物中心 2026-08-20 exact-model 公開結構化價格"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAU3CA900I7ORK/000001_1782810487.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/Dyson-Purifier-Hot-Cool-De-NOx-%E7%94%B2%E9%86%9BNOx-%E5%81%B5%E6%B8%AC%E6%B6%BC%E6%9A%96%E7%A9%BA%E6%B0%A3%E6%B8%85%E6%B7%A8%E6%A9%9F-HP1-12000848.html",
@@ -1165,9 +1165,9 @@
     "name": "Purifier Hot+Cool 三合一涼暖智能空氣清淨機",
     "price": {
       "currency": "TWD",
-      "amount": 14602,
-      "converted": 14602,
-      "confidence": "Yahoo購物中心 2026-08-18 exact-model 公開結構化價格"
+      "amount": 14900,
+      "converted": 14900,
+      "confidence": "Yahoo購物中心 2026-08-20 exact-model 公開結構化價格"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAU3CA900J2MV6/000001_1767758338.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/Dyson%E6%88%B4%E6%A3%AE-Purifier-Hot-Cool-%E4%B8%89%E5%90%88%E4%B8%80%E6%B6%BC%E6%9A%96%E6%99%BA%E8%83%BD%E7%A9%BA%E6%B0%A3%E6%B8%85%E6%B7%A8%E6%A9%9F-HP11-%E7%99%BD%E8%89%B2-%E8%B4%88%E7%BE%8E%E9%AB%AE-11937837.html",
@@ -1261,9 +1261,9 @@
     "name": "Purifier Cool De-NOx 甲醛 NOx 偵測涼風空氣清淨機",
     "price": {
       "currency": "TWD",
-      "amount": 20482,
-      "converted": 20482,
-      "confidence": "Yahoo購物中心 2026-08-18 exact-model 公開結構化價格"
+      "amount": 20900,
+      "converted": 20900,
+      "confidence": "Yahoo購物中心 2026-08-20 exact-model 公開結構化價格"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAU3CA900HTKRG/000001_1767758629.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/Dyson-%E6%88%B4%E6%A3%AE-Purifier-Cool-%E7%94%B2%E9%86%9BNOx-%E5%81%B5%E6%B8%AC%E6%B6%BC%E9%A2%A8%E7%A9%BA%E6%B0%A3%E6%B8%85%E6%B7%A8%E6%A9%9FTP12-%E4%BA%8C%E8%89%B2%E5%8F%AF%E9%81%B8-11903396.html",
@@ -1357,9 +1357,9 @@
     "name": "奈米級空氣清淨機 MUJI AC0650",
     "price": {
       "currency": "TWD",
-      "amount": 4590,
-      "converted": 4590,
-      "confidence": "PChome 2026-08-19 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 4640,
+      "converted": 4640,
+      "confidence": "PChome 2026-08-20 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAC2OA900GD1ZV/000001_1781800174.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAC2O-A900GD1ZV",
@@ -1741,9 +1741,9 @@
     "name": "寵物抗敏空氣清淨機輕量版",
     "price": {
       "currency": "TWD",
-      "amount": 10110,
-      "converted": 10110,
-      "confidence": "PChome 2026-08-19 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 10220,
+      "converted": 10220,
+      "confidence": "PChome 2026-08-20 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAC2OA900J7SBO/000001_1781799851.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAC2O-A900J7SBO",
@@ -1837,9 +1837,9 @@
     "name": "PuriCare 超淨化大白空氣清淨機",
     "price": {
       "currency": "TWD",
-      "amount": 6810,
-      "converted": 6810,
-      "confidence": "PChome 2026-08-19 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 7399,
+      "converted": 7399,
+      "confidence": "PChome 2026-08-20 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAU0BA900GI0Q1/000001_1763349087.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAU0B-A900GI0Q1",
@@ -2228,9 +2228,9 @@
     "name": "迷你奈抗敏奈米級空氣清淨機",
     "price": {
       "currency": "TWD",
-      "amount": 7350,
-      "converted": 7350,
-      "confidence": "PChome 2026-08-19 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 7430,
+      "converted": 7430,
+      "confidence": "PChome 2026-08-20 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://img.pchome.com.tw/cs/items/DMAUFVA900JZR3M/000001_1785203322.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAUFV-A900JZR3M",
@@ -2532,6 +2532,96 @@
         }
       ]
     }
+  },
+  {
+    "id": "purifier-honeywell-hpa-100aptw",
+    "category": "purifier",
+    "rank": 27,
+    "topPick": false,
+    "budget": "value",
+    "channel": "tw",
+    "brand": "Honeywell",
+    "model": "HPA-100APTW",
+    "name": "4–8 坪抗敏系列空氣清淨機",
+    "price": {
+      "currency": "TWD",
+      "amount": 3540,
+      "converted": 3540,
+      "confidence": "PChome 2026-08-20 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "basis": "retailer_current"
+    },
+    "installation": {
+      "status": "not_stated",
+      "note": "通路價格為免施工的直立式空氣清淨機商品價，未標示含到府安裝；首次使用須拆除濾網包裝並保留進出風空間。"
+    },
+    "image": "https://cs-a.ecimg.tw/items/DMAU00A77331975/000001_1747044686.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DMAU00-A77331975",
+    "buyLabel": "PChome 24h exact-model 台灣公司貨新品",
+    "specs": [
+      "適用坪數：約 4–8 坪；CADR 100 cfm（約 170 m³/h）",
+      "True HEPA 濾網搭配活性碳前置濾網",
+      "四段風速含 Turbo；最低運轉音約 38 dB",
+      "尺寸：寬 34.4 x 深 22.6 x 高 35.4 cm",
+      "淨重：約 3.51 kg；額定消耗功率 49W",
+      "相容濾網：HRF-R1；前置濾網 HRF-APP1"
+    ],
+    "description": "以 Honeywell 經典抗敏系列補上四千元內、小房間 True HEPA 與耗材型號清楚的國際品牌選項。",
+    "pros": [
+      "4–8 坪定位清楚，100 cfm CADR 適合小臥室",
+      "機身僅約 3.51 kg，房間間移動容易",
+      "HRF-R1 與 HRF-APP1 耗材型號明確，台灣授權通路仍可取得"
+    ],
+    "cons": [
+      "屬較早期機型，沒有 App、PM2.5 數值顯示或自動聯網功能",
+      "高風速噪音與濾網長期成本需納入比較",
+      "原始討論中的面板按壓、濾網氣味或密合候選各自僅少數作者，未達同症狀 6 人且跨 2 站門檻"
+    ],
+    "bestFor": "預算四千元左右、房間約 4–8 坪，優先要 True HEPA 與容易理解的實體按鍵而不需要智慧聯網者。",
+    "recommendation": "小房間經典款推薦：規格不新潮，但品牌、CADR 與耗材型號都清楚，能補足低預算可靠基礎清淨的比較帶。",
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-08-20",
+      "note": "已查 PChome 與恆隆行 exact-model 台灣新品頁、BigGo 及 FindPrice；沒有取得帶日期、可公開重現且排除會員券、點數與福利展示品的可信新品史低，未以查核日現價或低價欄位推定。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-08-20",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Honeywell HPA-100APTW\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Honeywell%20HPA-100APTW%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "PTT",
+          "query": "site:ptt.cc \"Honeywell HPA-100APTW\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22Honeywell%20HPA-100APTW%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "ptt.cc"
+        }
+      ]
+    },
+    "score": 83,
+    "voltage": "110V／60Hz 台灣公司貨；額定消耗功率 49W",
+    "warranty": "Honeywell 台灣公司貨；主機零件 1 年，授權通路登錄馬達 5 年，依代理商登錄與保固條件",
+    "tags": [
+      "4-8坪",
+      "True HEPA",
+      "CADR 100 cfm",
+      "小房間",
+      "平價"
+    ]
   }
 ]);
 })();

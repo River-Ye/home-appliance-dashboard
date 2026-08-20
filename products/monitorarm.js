@@ -2121,14 +2121,14 @@
       "status": "found",
       "amount": 288.15,
       "currency": "GBP",
-      "converted": 12438,
+      "converted": 12456,
       "sourceUrl": "https://pricespy.co.uk/product.php?p=16273588",
       "sourceTitle": "PriceSpy UK：Dell HDA26 Single Monitor Arm",
       "evidenceSnippet": "PriceSpy exact-model 頁的 Price History 明示 30 天最低價 £288.15，且商品名稱、品牌與 GTIN 對應 Dell HDA26。",
       "sourceKind": "price_history",
       "confidence": "medium",
       "checkedAt": "2026-07-24",
-      "note": "採英國市場 exact-model 公開 30 天價格歷史並依 2026-08-19 GBP/TWD 匯率換算；未含國際運費、進口稅、退換貨與台灣保固風險，不能直接視為台灣到手價。"
+      "note": "採英國市場 exact-model 公開 30 天價格歷史並依 2026-08-20 GBP/TWD 匯率換算；未含國際運費、進口稅、退換貨與台灣保固風險，不能直接視為台灣到手價。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -2264,6 +2264,114 @@
           "platform": "YouTube",
           "query": "\"Backbone WB-AC-025-111\" problem issue defect failure broken 災情 故障 異常",
           "queryUrl": "https://www.youtube.com/results?search_query=%22Backbone%20WB-AC-025-111%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
+          "targetHost": "youtube.com"
+        }
+      ]
+    }
+  },
+  {
+    "id": "monitorarm-north-bayou-g50",
+    "category": "monitorarm",
+    "rank": 24,
+    "topPick": false,
+    "budget": "mid",
+    "channel": "tw",
+    "brand": "North Bayou",
+    "model": "G50",
+    "name": "G50 27-45 吋 16kg 高承重單螢幕支架",
+    "price": {
+      "currency": "TWD",
+      "amount": 3830,
+      "converted": 3830,
+      "confidence": "PChome 2026-08-20 exact product DPADWE-A900HHYU2 公開價，SKU API Qty 3 且可加入購物車",
+      "basis": "retailer_current"
+    },
+    "image": "https://img.pchome.com.tw/cs/items/DPADWEA900HHYU2/000001_1716357187.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DPADWE-A900HHYU2",
+    "buyLabel": "PChome 24h購物",
+    "installation": {
+      "status": "not_stated",
+      "note": "PChome 商品頁提供夾桌與穿桌零件，但未把到府安裝列入售價；大型螢幕需自行核對桌板、VESA、曲率重心並建議兩人安裝。"
+    },
+    "specs": [
+      "支援 27-45 吋平面或曲面螢幕",
+      "承重範圍：5-16 kg",
+      "VESA 75 x 75／100 x 100 mm",
+      "夾桌或穿桌安裝；桌板厚度 20-80 mm",
+      "俯仰 -60° 至 +15°、旋轉 360°；高度調整範圍約 28.5 cm"
+    ],
+    "description": "North Bayou G50 以 16kg 承重與 27-45 吋支援，補進台灣常見 NB 品牌的中價位大型曲面／超寬螢幕支架。",
+    "pros": [
+      "5-16kg 承重涵蓋多數 34-45 吋大型螢幕",
+      "同時支援夾桌與穿桌，桌板厚度範圍明確",
+      "PChome 現貨與一年保固比跨境購買更容易處理售後"
+    ],
+    "cons": [
+      "16kg 上限不適合 57 吋或超過承重的重型螢幕",
+      "45 吋只代表尺寸邊界，深曲面機仍要核對重心與力矩",
+      "俯仰上仰角度只有 +15°，調整範圍不如部分高階支架"
+    ],
+    "bestFor": "使用 34-45 吋、5-16kg、VESA 75／100 的大型或曲面螢幕，想找台灣現貨中價位支架的人。",
+    "recommendation": "NB 品牌補強：適合 34-45 吋中大型螢幕，但不能只看吋數；購買前必須核對不含腳架重量、VESA、曲面重心與桌板厚度，49／57 吋請改選明確支援的更高承重款。",
+    "score": 84,
+    "voltage": "非電器；市電不適用；被動式機械支架",
+    "warranty": "PChome 台灣公司貨商品頁標示原廠一年保固",
+    "tags": [
+      "16kg",
+      "45吋",
+      "曲面螢幕",
+      "夾桌／穿桌",
+      "VESA100",
+      "高承重"
+    ],
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-08-20",
+      "note": "已查 PChome exact SKU、momo、Coupang、FindPrice、BigGo 與 exact-model 價格搜尋；搜尋摘要中的更低數字缺乏具日期可重現新品原頁，未採為歷史最低價。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-08-20",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"North Bayou G50\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22North%20Bayou%20G50%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"North Bayou G50\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22North%20Bayou%20G50%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "PTT",
+          "query": "site:ptt.cc \"North Bayou G50\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22North%20Bayou%20G50%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "ptt.cc"
+        },
+        {
+          "platform": "Dcard",
+          "query": "site:dcard.tw \"North Bayou G50\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22North%20Bayou%20G50%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "dcard.tw"
+        },
+        {
+          "platform": "YouTube",
+          "query": "\"North Bayou G50\" problem issue defect failure broken 災情 故障 異常",
+          "queryUrl": "https://www.youtube.com/results?search_query=%22North%20Bayou%20G50%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
           "targetHost": "youtube.com"
         }
       ]

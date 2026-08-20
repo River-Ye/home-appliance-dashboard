@@ -17,8 +17,8 @@
     "name": "27 型 2K 180Hz IPS USB-C 電競螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 5068,
-      "converted": 5068,
+      "amount": 5218,
+      "converted": 5218,
       "confidence": "PChome 2026-08-20 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABKBA900JZ3CV/000001_1777866944.jpg",
@@ -2277,9 +2277,9 @@
     "name": "27 型 WQHD 360Hz QD-OLED 電競螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 17955,
-      "converted": 17955,
-      "confidence": "Yahoo購物中心 2026-08-19 exact-model 公開結構化價格"
+      "amount": 18900,
+      "converted": 18900,
+      "confidence": "Yahoo購物中心 2026-08-20 exact-model 公開結構化價格"
     },
     "image": "https://cs-a.ecimg.tw/items/DSBC1ZA900HE04M/000001_1757303897.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/MSI%E5%BE%AE%E6%98%9F-MPG-271QRX-QD-OLED-27%E5%9E%8B-2K-360Hz-HDR%E9%9B%BB%E7%AB%B6%E8%9E%A2%E5%B9%95-10958143.html",
@@ -3928,9 +3928,9 @@
     "name": "49 型 Odyssey OLED G9 Dual QHD 240Hz 曲面螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 34999,
-      "converted": 34999,
-      "confidence": "PChome 2026-08-19 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 36900,
+      "converted": 36900,
+      "confidence": "PChome 2026-08-20 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBM10A900HZCPE/000001_1781766568.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBM10-A900HZCPE",
@@ -4228,9 +4228,9 @@
     "name": "57 型 Odyssey Neo G9 Dual UHD 240Hz Mini LED 曲面螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 66500,
-      "converted": 66500,
-      "confidence": "PChome 2026-08-19 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 69900,
+      "converted": 69900,
+      "confidence": "PChome 2026-08-20 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBM10A900GQLSE/000001_1783054239.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBM10-A900GQLSE",
@@ -5553,6 +5553,115 @@
           "platform": "YouTube",
           "query": "\"Panasonic TS-27GF40CTK\" problem issue defect failure broken 災情 故障 異常",
           "queryUrl": "https://www.youtube.com/results?search_query=%22Panasonic%20TS-27GF40CTK%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
+          "targetHost": "youtube.com"
+        }
+      ]
+    }
+  },
+  {
+    "id": "monitor-lenovo-loq-27q-10",
+    "category": "monitor",
+    "rank": 61,
+    "topPick": false,
+    "budget": "value",
+    "channel": "tw",
+    "brand": "Lenovo",
+    "model": "LOQ 27Q-10",
+    "name": "LOQ 27Q-10 27 吋 QHD 180Hz Fast IPS 電競螢幕",
+    "price": {
+      "currency": "TWD",
+      "amount": 4191,
+      "converted": 4191,
+      "confidence": "Lenovo 台灣官方商城 2026-08-20 exact part 68F3GACBTW 公開價，頁面可加入購物車並顯示預估 6-9 天出貨",
+      "basis": "retailer_current"
+    },
+    "image": "https://p2-ofp.static.pub/ShareResource/ww/visuals/LOQ-10series/LOQ-27Q-10-list.png?width=584&height=584",
+    "buyUrl": "https://www.lenovo.com/tw/zh/p/accessories-and-software/monitors/gaming/68f3gacbtw",
+    "buyLabel": "Lenovo 台灣官方商城",
+    "installation": {
+      "status": "not_stated",
+      "note": "Lenovo 台灣官方商城提供宅配，未把桌面組裝或 VESA 壁掛施工列入售價；改用螢幕支架時需自行核對 VESA、承重與桌板。"
+    },
+    "specs": [
+      "27 吋 QHD 2560 x 1440 Fast IPS；最高 180Hz",
+      "0.5ms MPRT／1ms GtG、99% sRGB、HDR10",
+      "AMD FreeSync Premium、VESA Adaptive Sync",
+      "HDMI 2.1 TMDS x2、DisplayPort 1.4 x1；VESA 100 x 100 mm",
+      "尺寸：不含底座寬 61.3 x 深 4.6 x 高 36.73 cm；含底座寬 61.3 x 深 21.6 x 高 45.16 cm",
+      "重量：不含底座 4.1 kg；含底座 4.5 kg"
+    ],
+    "description": "Lenovo LOQ 27Q-10 以四千元級官方價提供 QHD 180Hz Fast IPS、雙 HDMI 與三年保固，補進主流品牌的入門 2K 高刷新帶。",
+    "pros": [
+      "QHD 180Hz、FreeSync Premium 與 1ms GtG 規格完整",
+      "99% sRGB、雙 HDMI 及 DisplayPort 適合 PC 與主機共用",
+      "Lenovo 台灣官方直售並提供三年保固"
+    ],
+    "cons": [
+      "HDR10 只代表訊號相容，非 Mini LED 或高階 HDR 顯示",
+      "底座調整以傾斜為主，沒有 USB-C 或 USB Hub",
+      "新款上市時間短，長期使用回報仍少"
+    ],
+    "bestFor": "預算五千元內，希望從 FHD 升級到 27 吋 QHD 高刷新，並重視官方直售與三年保固的人。",
+    "recommendation": "入門 QHD 高刷新補強：官方價與規格很有競爭力，但不把 HDR10 標籤等同高階 HDR；購買前確認顯示卡能否在 QHD 下穩定輸出目標幀率。",
+    "score": 89,
+    "voltage": "AC 100-240V、50/60Hz；台灣官方商城公司貨",
+    "warranty": "Lenovo 台灣官方頁明載三年保固",
+    "tags": [
+      "27吋",
+      "QHD",
+      "180Hz",
+      "Fast IPS",
+      "FreeSync Premium",
+      "平價電競"
+    ],
+    "releaseDate": "2026-03-24",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-08-20",
+      "note": "已查 Lenovo 台灣官方商城、PSREF、FindPrice、BigGo、LBJ 與 exact-model 價格搜尋；官方頁當下 NT$4,191 是現價而非具日期歷史曲線，未以現價推定史低。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-08-20",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Lenovo LOQ 27Q-10\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Lenovo%20LOQ%2027Q-10%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Lenovo LOQ 27Q-10\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Lenovo%20LOQ%2027Q-10%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "PTT",
+          "query": "site:ptt.cc \"Lenovo LOQ 27Q-10\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22Lenovo%20LOQ%2027Q-10%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "ptt.cc"
+        },
+        {
+          "platform": "Dcard",
+          "query": "site:dcard.tw \"Lenovo LOQ 27Q-10\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22Lenovo%20LOQ%2027Q-10%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "dcard.tw"
+        },
+        {
+          "platform": "YouTube",
+          "query": "\"Lenovo LOQ 27Q-10\" problem issue defect failure broken 災情 故障 異常",
+          "queryUrl": "https://www.youtube.com/results?search_query=%22Lenovo%20LOQ%2027Q-10%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
           "targetHost": "youtube.com"
         }
       ]

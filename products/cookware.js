@@ -2717,6 +2717,96 @@
         }
       ]
     }
+  },
+  {
+    "id": "cookware-debuyer-5214-28",
+    "category": "cookware",
+    "rank": 28,
+    "topPick": false,
+    "budget": "balanced",
+    "channel": "tw",
+    "brand": "de Buyer",
+    "model": "5214.28",
+    "name": "BLUE CARBON 28cm 深型鄉村煎鍋",
+    "price": {
+      "currency": "TWD",
+      "amount": 2552,
+      "converted": 2552,
+      "confidence": "Coupang 酷澎 2026-08-20 exact-model 5214.28 公開新品價 NT$2,552，頁面顯示 8 件",
+      "basis": "retailer_current"
+    },
+    "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/492x492ex/image/retail/images/772459132424242-86a3f0c9-b0b5-49df-bd77-11459011362f.jpg",
+    "buyUrl": "https://www.tw.coupang.com/products/de-Buyer-%E7%95%A2%E8%80%B6-%E8%BC%95%E7%A4%A6%E8%97%8D%E9%90%B5%E7%B3%BB%E5%88%97-%E5%96%AE%E6%9F%84%E6%B7%B1%E7%85%8E%E7%82%92%E9%8D%8B-5214.28-1960g%2C-28cm%2C-1%E5%80%8B-466833169661956?itemId=466833169694727&vendorItemId=466833169678337",
+    "buyLabel": "Coupang 酷澎",
+    "installation": {
+      "status": "not_stated",
+      "note": "鍋具不需到府安裝；初次開鍋、養鍋、清潔與熱源使用需依 de Buyer 官方說明。"
+    },
+    "specs": [
+      "28cm BLUE CARBON 藍碳鋼深型鄉村煎鍋；可用容量 4L",
+      "鍋高 7cm；總長 51.5cm、直徑 28cm",
+      "重量 1.96kg；IH 接觸底徑 20cm",
+      "適用瓦斯、電爐、電陶爐、IH 與烤箱",
+      "法國製、無化學不沾塗層；需開鍋養鍋"
+    ],
+    "description": "de Buyer 5214.28 是法製 28cm 藍碳鋼深型鍋，以 4L 容量、IH 相容與可養鍋表面補足無塗層鐵鍋帶。",
+    "pros": [
+      "28cm、4L 深型鍋身可煎、炒、燉與烤箱料理",
+      "無化學塗層且適用包含 IH 的多種熱源",
+      "台灣官方 exact-model 頁可核對尺寸、1.96kg 重量與法國製"
+    ],
+    "cons": [
+      "必須開鍋與持續養鍋，洗後需立即擦乾防鏽",
+      "不適合洗碗機與長時間接觸酸性食材",
+      "1.96kg 加上食材後偏重，單手拋鍋負擔較高"
+    ],
+    "bestFor": "願意養鍋、需要 IH 相容的 28cm 深型無塗層鐵鍋，並重視法國製造的人。",
+    "recommendation": "de Buyer 品牌與無塗層碳鋼補強：耐用且熱源相容廣，但保養成本和重量比不沾鍋高。",
+    "score": 88,
+    "voltage": "不適用（非電器；可用 IH、瓦斯、電爐、電陶爐與烤箱）",
+    "warranty": "全球官方頁標示終身保固；台灣申請與排除條件依 de Buyer 台灣代理／銷售條款",
+    "tags": [
+      "28cm",
+      "4L",
+      "藍碳鋼",
+      "法國製",
+      "IH",
+      "無塗層"
+    ],
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-08-20",
+      "note": "已查 de Buyer 台灣／全球官方、Coupang exact-model 5214.28 新品頁與價格搜尋；NT$2,552 是本輪公開現價，無日期歷程可證明為可信新品史低。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-08-20",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"de Buyer 5214.28\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22de%20Buyer%205214.28%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"de Buyer 5214.28\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22de%20Buyer%205214.28%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        }
+      ]
+    }
   }
 ]);
 })();

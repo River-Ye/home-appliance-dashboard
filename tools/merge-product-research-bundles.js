@@ -3,7 +3,7 @@ const path = require("path");
 const { readDashboardProducts } = require("./read-dashboard-products");
 
 const ROOT = path.resolve(__dirname, "..");
-const CHECKED_AT = "2026-08-14";
+const CHECKED_AT = "2026-08-20";
 const bundlePaths = process.argv.slice(2).map((file) => path.resolve(file));
 
 if (bundlePaths.length === 0) {

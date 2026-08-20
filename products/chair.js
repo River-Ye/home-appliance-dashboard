@@ -2520,6 +2520,114 @@
         }
       ]
     }
+  },
+  {
+    "id": "chair-sidiz-t50",
+    "category": "chair",
+    "rank": 27,
+    "topPick": false,
+    "budget": "balanced",
+    "channel": "tw",
+    "brand": "SIDIZ",
+    "model": "T50",
+    "name": "T50 高階人體工學椅",
+    "price": {
+      "currency": "TWD",
+      "amount": 8999,
+      "converted": 8999,
+      "confidence": "SIDIZ 台灣官方網站 2026-08-20 公開售價，頁面可選色並加入購物車",
+      "basis": "retailer_current"
+    },
+    "image": "https://www.sidiz.com.tw/cdn/shop/files/SIDIZ_MOMO_T50_5_1200x1200.jpg?v=1699345664",
+    "buyUrl": "https://www.sidiz.com.tw/products/sidiz-t50",
+    "buyLabel": "SIDIZ 台灣官方網站",
+    "installation": {
+      "status": "excluded",
+      "note": "SIDIZ 台灣官方頁提供組裝說明，商品需自行組裝；已組裝商品會影響退貨權益，頁面未把到府組裝列入售價。"
+    },
+    "specs": [
+      "網布椅背、布面泡棉座墊與 S 形背靠",
+      "可調頭枕、腰靠、3D 扶手、座深與座墊傾角",
+      "同步傾仰、多段後傾鎖定與後仰阻力調整",
+      "尺寸：寬 73.5 x 深 48-55 x 高 116-131 cm",
+      "承重：120 kg"
+    ],
+    "description": "SIDIZ T50 是韓國長銷的多調整人體工學椅，補進九千元級、具座深與座墊傾角調整的非電競椅選項。",
+    "pros": [
+      "頭枕、腰靠、扶手、座深與傾仰可調範圍完整",
+      "網背搭配泡棉座墊，兼顧背部通風與坐墊支撐",
+      "台灣官方商城現售並提供五年原廠保固"
+    ],
+    "cons": [
+      "座墊軟硬、腰靠位置與頭枕角度對身形差異敏感，建議先試坐",
+      "需自行組裝，組裝後會影響退貨權益",
+      "人工覆核找到少量 T50 座盤左右晃動與張力旋鈕回報，但只集中於 Reddit，未達跨兩站六位使用者門檻"
+    ],
+    "bestFor": "預算約一萬元，希望有完整座深、腰靠、扶手與同步傾仰調整，並願意先試坐確認身形適配的人。",
+    "recommendation": "中階人體工學品牌補強：調整機能完整且台灣官方現售；不能只看規格下單，最好實際確認座墊、腰靠、頭枕與後仰張力是否適合。",
+    "score": 88,
+    "voltage": "非電器；市電不適用",
+    "warranty": "SIDIZ 台灣官方／官方旗艦店標示五年原廠保固，實際涵蓋零件依保固條款",
+    "tags": [
+      "人體工學椅",
+      "3D扶手",
+      "座深調整",
+      "同步傾仰",
+      "120kg",
+      "韓國品牌"
+    ],
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-08-20",
+      "note": "已查 SIDIZ 台灣官方商城、官方蝦皮旗艦店、PChome、momo 活動資料與 exact-model 價格搜尋；搜尋到的優惠價缺乏可重現的活動日期或涉及平台即時折扣，未採為可信歷史最低價。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-08-20",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"SIDIZ T50\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22SIDIZ%20T50%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"SIDIZ T50\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22SIDIZ%20T50%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "PTT",
+          "query": "site:ptt.cc \"SIDIZ T50\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22SIDIZ%20T50%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "ptt.cc"
+        },
+        {
+          "platform": "Dcard",
+          "query": "site:dcard.tw \"SIDIZ T50\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22SIDIZ%20T50%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "dcard.tw"
+        },
+        {
+          "platform": "YouTube",
+          "query": "\"SIDIZ T50\" problem issue defect failure broken 災情 故障 異常",
+          "queryUrl": "https://www.youtube.com/results?search_query=%22SIDIZ%20T50%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
+          "targetHost": "youtube.com"
+        }
+      ]
+    }
   }
 ]);
 })();

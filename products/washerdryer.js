@@ -743,9 +743,9 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/1f2a33ce70-Gd-10053955.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 43563,
-      "converted": 43563,
-      "confidence": "Yahoo購物中心 2026-08-19 exact-model 公開結構化價格"
+      "amount": 44910,
+      "converted": 44910,
+      "confidence": "Yahoo購物中心 2026-08-20 exact-model 公開結構化價格"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心",
@@ -1679,9 +1679,9 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/41046DB844-SP-12334280.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 33976,
-      "converted": 33976,
-      "confidence": "Yahoo購物中心 2026-08-18 exact-model 公開結構化價格"
+      "amount": 36930,
+      "converted": 36930,
+      "confidence": "Yahoo購物中心 2026-08-20 exact-model 公開結構化價格"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心",
@@ -2704,9 +2704,9 @@
     "image": "https://pstw.panasonic.com.tw/shop/Upload/Product/20260514190222S44S2J5E.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 39512,
-      "converted": 39512,
-      "confidence": "PChome 2026-08-19 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 44900,
+      "converted": 44900,
+      "confidence": "PChome 2026-08-20 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -3011,6 +3011,96 @@
           "query": "\"Panasonic NA-V170RPH-K\" problem issue defect failure broken 災情 故障 異常",
           "queryUrl": "https://www.youtube.com/results?search_query=%22Panasonic%20NA-V170RPH-K%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
           "targetHost": "youtube.com"
+        }
+      ]
+    }
+  },
+  {
+    "id": "washerdryer-bosch-wnc554a0tc",
+    "category": "washerdryer",
+    "rank": 30,
+    "topPick": false,
+    "budget": "premium",
+    "channel": "tw",
+    "brand": "Bosch",
+    "model": "WNC554A0TC",
+    "name": "10/7kg i-DOS 智慧聯網洗脫烘",
+    "price": {
+      "currency": "TWD",
+      "amount": 46000,
+      "converted": 46000,
+      "confidence": "Yahoo購物中心 2026-08-20 exact-model 台灣新品頁公開售價",
+      "basis": "retailer_current"
+    },
+    "image": "https://img.pchome.com.tw/cs/items/DPAID7A900IHEVX/000001_1776657918.jpg",
+    "buyUrl": "https://tw.buy.yahoo.com/gdsale/BOSCH%E5%8D%9A%E4%B8%96-10-7%E5%85%AC%E6%96%A4%E9%AB%98%E6%95%88%E6%99%BA%E6%85%A7%E6%BB%BE%E7%AD%92%E6%B4%97%E8%84%AB%E7%83%98-%E5%90%AB%E5%9F%BA%E6%9C%AC%E5%AE%89%E8%A3%9D-220V%E6%8B%89%E9%9B%BB-WNC554A0TC-11546320.html",
+    "buyLabel": "Yahoo購物中心",
+    "installation": {
+      "status": "included_basic",
+      "note": "Yahoo exact-model 頁標示含基本安裝與 220V 拉電；Bosch 當期活動的拉線範圍為 10m，超距、換配電、鑽孔、無電梯樓層與特殊進排水施工另計，須先確認單相 220V 接地迴路。"
+    },
+    "specs": [
+      "洗/乾容量：10kg / 7kg",
+      "最高脫水轉速 1400 rpm；AutoDry 濕度感測",
+      "i-DOS 智慧洗劑自動投入、Home Connect 與少量衣物 45 分鐘洗烘",
+      "尺寸：寬 59.8 x 深 61.6 x 高 84.8 cm",
+      "左鉸鏈門、不可改門向；Aqua Secure 進水防護",
+      "單相 220V / 60Hz、2000W、10A"
+    ],
+    "description": "Bosch WNC554A0TC 是 10/7kg 歐規洗脫烘，以 i-DOS、AutoDry、Home Connect 與 220V 基本拉電方案補足智慧洗乾帶。",
+    "pros": [
+      "10/7kg 容量、1400rpm 與 AutoDry 規格清楚",
+      "i-DOS 自動投入、Home Connect 與 45 分鐘少量洗烘實用",
+      "官方尺寸、電力與不可改門向資訊完整，通路標示含基本安裝"
+    ],
+    "cons": [
+      "乾衣 7kg 小於洗衣 10kg，滿載洗衣時需分批乾燥",
+      "必須使用單相 220V 接地迴路，超出基本拉線範圍會加價",
+      "全程洗烘時間與整合機維修成本通常高於單洗、單烘組合"
+    ],
+    "bestFor": "可配置 220V、重視自動投入與遠端管理，且能接受 10/7kg 洗乾容量差的家庭。",
+    "recommendation": "Bosch 220V 歐規補強：功能與尺寸完整；採購前先核對 10m 拉線邊界、插座、進排水、左開門與維修空間。",
+    "score": 89,
+    "voltage": "單相 220V / 60Hz、2000W、10A；需獨立接地迴路並由合格人員施工",
+    "warranty": "Bosch 台灣公司貨；全機 2 年、EcoSilence Drive 無刷馬達 10 年（依原廠登錄與條款）",
+    "tags": [
+      "洗/乾容量：10kg / 7kg",
+      "i-DOS",
+      "AutoDry",
+      "Home Connect",
+      "220V"
+    ],
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-08-20",
+      "note": "已查 Bosch 台灣官方、Yahoo、PChome 與 exact-model 價格搜尋；本輪 NT$46,000 為新品現價，未找到同型號具日期且可重現的可信新品史低。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-08-20",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Bosch WNC554A0TC\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Bosch%20WNC554A0TC%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Bosch WNC554A0TC\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Bosch%20WNC554A0TC%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
         }
       ]
     }

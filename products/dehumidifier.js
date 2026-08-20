@@ -1745,9 +1745,9 @@
     "name": "12公升 PCI 自動除菌離子除濕機",
     "price": {
       "currency": "TWD",
-      "amount": 7999,
-      "converted": 7999,
-      "confidence": "PChome 2026-08-19 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 9499,
+      "converted": 9499,
+      "confidence": "PChome 2026-08-20 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ08A900JPCL1/000001_1770962000.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBQ08-A900JPCL1",
@@ -2431,6 +2431,97 @@
         }
       ]
     }
+  },
+  {
+    "id": "dehumidifier-electrolux-ed1031wd",
+    "category": "dehumidifier",
+    "rank": 26,
+    "topPick": false,
+    "budget": "balanced",
+    "channel": "tw",
+    "brand": "Electrolux",
+    "model": "ED1031WD",
+    "name": "UltimateHome 300 10L 清淨除濕機",
+    "price": {
+      "currency": "TWD",
+      "amount": 10900,
+      "converted": 10900,
+      "confidence": "Electrolux 台灣官方商城於 2026-08-20 的 exact-model 可購公開售價 NT$10,900",
+      "basis": "retailer_current"
+    },
+    "installation": {
+      "status": "not_stated",
+      "note": "台灣官方商城價格為直立式除濕機商品價，未標示含到府安裝；一般水箱使用可自行就位，連續排水需另備合適排水管與落差。"
+    },
+    "image": "https://cs-a.ecimg.tw/items/DMBH1IA900JEGA9/000001_1766458713.jpg",
+    "buyUrl": "https://www.electrolux.com.tw/appliances/dehumidifier/ed1031wd/",
+    "buyLabel": "Electrolux 台灣官方商城 exact-model 新品",
+    "specs": [
+      "除濕能力：10 L／日；除濕適用約 13 坪",
+      "清淨適用約 12 坪；搭配濾網空氣清淨",
+      "水箱 4.8L；能源因數值 2.74 L/kWh；能源效率第 1 級",
+      "運轉音 35–39 dB；R290 環保冷媒",
+      "尺寸：寬 37 x 深 27.6 x 高 60 cm",
+      "淨重：16.6 kg；額定消耗功率 152W",
+      "支援連續排水，排水管與場地落差需自行確認"
+    ],
+    "description": "10L／日除濕結合約 12 坪空氣清淨與 4.8L 水箱，補上 Electrolux 在中小宅清淨除濕二合一的品牌與功能帶。",
+    "pros": [
+      "一級能效、2.74 L/kWh，規格透明",
+      "35–39 dB 與 4.8L 水箱兼顧臥室和日常減少倒水",
+      "台灣官方 exact-model 頁、規格 PDF、說明書與新品現售可交叉驗證"
+    ],
+    "cons": [
+      "16.6 kg 機身跨樓層搬動仍吃力",
+      "空氣清淨濾網屬後續耗材成本",
+      "找到的 exact-model 原始討論為購前詢問或系列泛稱，沒有形成同症狀 6 人且跨 2 站的災情"
+    ],
+    "bestFor": "約 6–13 坪房間，希望一台兼顧梅雨除濕、衣物乾燥與基礎空氣清淨的家庭。",
+    "recommendation": "清淨除濕平衡推薦：以一級能效、大水箱和低速運轉音形成比較價值，適合不想另擺一台清淨機的小宅。",
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-08-20",
+      "note": "已查 Electrolux 台灣官方商城、PChome exact-model 新品頁、BigGo 與 FindPrice；未取得可公開重現、帶日期且排除會員券、點數與福利展示品的可信新品史低，未以查核日現價推定。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-08-20",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "PTT",
+          "query": "site:ptt.cc \"Electrolux ED1031WD\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22Electrolux%20ED1031WD%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "ptt.cc"
+        },
+        {
+          "platform": "Dcard",
+          "query": "site:dcard.tw \"Electrolux ED1031WD\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22Electrolux%20ED1031WD%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "dcard.tw"
+        }
+      ]
+    },
+    "score": 88,
+    "voltage": "110V／60Hz 台灣公司貨；額定消耗功率 152W",
+    "warranty": "Electrolux 台灣公司貨；全機 3 年、壓縮機 5 年保固，依原廠登錄與保證書條件",
+    "tags": [
+      "10L",
+      "一級能效",
+      "清淨除濕",
+      "4.8L水箱",
+      "低噪音"
+    ]
   }
 ]);
 })();
