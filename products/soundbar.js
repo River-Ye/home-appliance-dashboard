@@ -19,7 +19,7 @@
       "currency": "TWD",
       "amount": 44900,
       "converted": 44900,
-      "confidence": "Yahoo購物中心 2026-08-20 exact-model 公開結構化價格"
+      "confidence": "Yahoo購物中心 2026-08-21 exact-model 公開結構化價格"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAAODA900JMDR5/000001_1773978957.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/Samsung-%E4%B8%89%E6%98%9F-11-1-4%E8%81%B2%E9%81%93-%E8%97%8D%E7%89%99%E8%81%B2%E9%9C%B8-HW-Q990F-ZW-11688500.html",
@@ -309,7 +309,7 @@
       "currency": "TWD",
       "amount": 21755,
       "converted": 21755,
-      "confidence": "PChome 2026-08-20 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "confidence": "PChome 2026-08-21 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://img.pchome.com.tw/cs/items/DMAAN8A900K0Y8L/000001_1779181877.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAAN8-A900K0Y8L",
@@ -891,7 +891,7 @@
       "currency": "TWD",
       "amount": 59900,
       "converted": 59900,
-      "confidence": "Yahoo購物中心 2026-08-20 exact-model 公開結構化價格"
+      "confidence": "Yahoo購物中心 2026-08-21 exact-model 公開結構化價格"
     },
     "image": "https://cs-a.ecimg.tw/items/DPADO2A900K5VUT/000001_1782993730.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/Samsung%E4%B8%89%E6%98%9F-11-1-4%E8%81%B2%E9%81%93-%E8%97%8D%E7%89%99%E8%81%B2%E9%9C%B8-HW-Q990H-ZW-12124621.html",
@@ -989,7 +989,7 @@
       "currency": "TWD",
       "amount": 36900,
       "converted": 36900,
-      "confidence": "Yahoo購物中心 2026-08-20 exact-model 公開結構化價格"
+      "confidence": "Yahoo購物中心 2026-08-21 exact-model 公開結構化價格"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAAODA900K5489/000001_1782988490.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/Samsung%E4%B8%89%E6%98%9F-7-1-2%E8%81%B2%E9%81%93-%E8%97%8D%E7%89%99%E8%81%B2%E9%9C%B8-HW-QS90H-ZW-12124562.html",
@@ -1087,7 +1087,7 @@
       "currency": "TWD",
       "amount": 9016,
       "converted": 9016,
-      "confidence": "Yahoo購物中心 2026-08-20 exact-model 公開結構化價格"
+      "confidence": "Yahoo購物中心 2026-08-21 exact-model 公開結構化價格"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBM1DA900GHTFE/000001_1776774078.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/SONY-%E7%B4%A2%E5%B0%BC-5-1-%E8%81%B2%E9%81%93-SOUNDBAR-%E5%AE%B6%E5%BA%AD%E5%8A%87%E9%99%A2%E7%B5%84-HT-S40R-10067449.html",
@@ -1381,7 +1381,7 @@
       "currency": "TWD",
       "amount": 28590,
       "converted": 28590,
-      "confidence": "Yahoo購物中心 2026-08-20 exact-model 公開結構化價格"
+      "confidence": "Yahoo購物中心 2026-08-21 exact-model 公開結構化價格"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAAHGA900J56OK/000001_1755250707.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/JBL-BAR800-MK2-7-1%E8%81%B2%E9%81%93%E5%AE%B6%E5%BA%AD%E5%8A%87%E9%99%A2%E5%96%87%E5%8F%AD-%E8%8B%B1%E5%A4%A7%E5%85%AC%E5%8F%B8%E8%B2%A8%E4%B8%80%E5%B9%B4%E4%BF%9D%E5%9B%BA-12156647.html",
@@ -2066,8 +2066,8 @@
     "price": {
       "currency": "USD",
       "amount": 1299.99,
-      "converted": 41351,
-      "confidence": "Marshall US 2026-07-21 來源價；ExchangeRate-API 2026-08-20 匯率換算"
+      "converted": 41421,
+      "confidence": "Marshall US 2026-07-21 來源價；ExchangeRate-API 2026-08-21 匯率換算"
     },
     "image": "https://images.ctfassets.net/javen7msabdh/2C2sn9CKoKFdIyd94Gm9z5/f3019d4e721511167ebe5c229bf490dd/heston-120_plp.jpg",
     "buyUrl": "https://www.marshall.com/us/en/product/heston-120",
@@ -2166,8 +2166,8 @@
     "price": {
       "currency": "USD",
       "amount": 699.99,
-      "converted": 22266,
-      "confidence": "Marshall US 官方 2026-07-21 現貨價；ExchangeRate-API 2026-08-20 匯率換算"
+      "converted": 22303,
+      "confidence": "Marshall US 官方 2026-07-21 現貨價；ExchangeRate-API 2026-08-21 匯率換算"
     },
     "image": "https://images.ctfassets.net/javen7msabdh/3yitHqjPBTgQk5qRE72PSn/2788206646aa153f71f2c0ebefaff580/Heston-60-black_plp_800x800-v3.jpeg",
     "buyUrl": "https://www.marshall.com/us/en/product/heston-60?pid=1008949",
@@ -2463,7 +2463,7 @@
       "currency": "TWD",
       "amount": 633,
       "converted": 633,
-      "confidence": "Yahoo購物中心 2026-08-20 exact-model 公開結構化價格"
+      "confidence": "Yahoo購物中心 2026-08-21 exact-model 公開結構化價格"
     },
     "image": "https://www.costco.com.tw/medias/sys_master/images/h21/hac/367883491278878.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/Soodatek-2-0%E8%81%B2%E9%81%93%E4%BA%8C%E5%90%88%E4%B8%80Soundbar-SS0220-CS2000PBK-11633433.html",
@@ -2604,14 +2604,14 @@
       "status": "found",
       "amount": 176107,
       "currency": "JPY",
-      "converted": 35331,
+      "converted": 35329,
       "sourceUrl": "https://kakaku.com/item/K0001712395/pricehistory/",
       "sourceTitle": "価格.com：JBL BAR 1300MK2 [ブラック] 価格推移",
       "evidenceSnippet": "価格.com 日別價格歷史顯示 exact-model「JBL BAR 1300MK2 [ブラック]」於 2026-06-22、2026-06-23 的新品最低價為 ¥176,107；2025-10 初始價格為 ¥205,306。",
       "sourceKind": "price_history",
       "confidence": "medium",
       "checkedAt": "2026-07-24",
-      "note": "採日本市場 exact-model 公開價格歷史並依 2026-08-20 JPY/TWD 匯率換算；未含國際運費、進口稅、插頭／電壓確認與台灣保固風險。官方規格雖為 100-240V，海外購入仍非台灣公司貨。"
+      "note": "採日本市場 exact-model 公開價格歷史並依 2026-08-21 JPY/TWD 匯率換算；未含國際運費、進口稅、插頭／電壓確認與台灣保固風險。官方規格雖為 100-240V，海外購入仍非台灣公司貨。"
     },
     "issueResearch": {
       "status": "no_common_issue",

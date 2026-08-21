@@ -398,8 +398,8 @@
     "price": {
       "currency": "USD",
       "amount": 119.99,
-      "converted": 3817,
-      "confidence": "SharkNinja 官方 2026-07-21 來源價；ExchangeRate-API 2026-08-20 匯率換算"
+      "converted": 3823,
+      "confidence": "SharkNinja 官方 2026-07-21 來源價；ExchangeRate-API 2026-08-21 匯率換算"
     },
     "image": "https://ak1.ostkcdn.com/images/products/is/images/direct/d1c25153baa2aa99eae7831be826d2a51d87c485/Ninja-BN701-Professional-Plus-Blender-with-Auto-iQ.jpg",
     "buyUrl": "https://www.sharkninja.com/ninja-professional-plus-blender-with-auto-iq/BN701.html",
@@ -484,9 +484,9 @@
     "name": "VITA PREP 2.3 匹馬力生機調理機",
     "price": {
       "currency": "TWD",
-      "amount": 23980,
-      "converted": 23980,
-      "confidence": "PChome 2026-07-24 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 22500,
+      "converted": 22500,
+      "confidence": "PChome 2026-08-21 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/QBAO0FA9008QMG3/000001_1782719707.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/QBAO0F-A9008QMG3",
@@ -1741,7 +1741,7 @@
       "currency": "TWD",
       "amount": 11490,
       "converted": 11490,
-      "confidence": "PChome 2026-08-20 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "confidence": "PChome 2026-08-21 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAY4YA900I3ILD/000001_1783328441.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAY4Y-A900I3ILD",

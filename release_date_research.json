@@ -1,13 +1,13 @@
 {
   "summary": {
-    "checkedAt": "2026-08-20T00:00:00+08:00",
-    "total": 878,
+    "checkedAt": "2026-08-21T00:00:00+08:00",
+    "total": 876,
     "found": 238,
-    "missing": 640,
+    "missing": 638,
     "byConfidence": {
       "official": 123,
       "credible_article": 93,
-      "not_found": 640,
+      "not_found": 638,
       "retailer_explicit": 11,
       "medium": 6,
       "high": 5
@@ -1382,19 +1382,6 @@
       "evidenceSnippet": "",
       "confidence": "not_found",
       "query": "Vornado EXO61HD release date launch announced"
-    },
-    {
-      "id": "circulator-extra-15-dmbm3g-a900fhkj2",
-      "category": "circulator",
-      "brand": "IRIS OHYAMA",
-      "model": "PCF-HM23W",
-      "name": "擺動式循環扇 10 坪專用",
-      "releaseDate": "找不到",
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "confidence": "not_found",
-      "query": "IRIS OHYAMA HM23W release date launch announced"
     },
     {
       "id": "circulator-extra-16-dmablya900jx0yj",
@@ -3513,19 +3500,6 @@
       "confidence": "not_found",
       "query": "Electrolux WQ71-2BSWF release date launch announced 上市 發售",
       "sourceKind": "not_found_after_costco_update"
-    },
-    {
-      "id": "vacuum-costco-iris-ic-h50",
-      "category": "vacuum",
-      "brand": "IRIS OHYAMA",
-      "model": "IC-H50",
-      "name": "手持式充電吸塵器",
-      "releaseDate": "找不到",
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "confidence": "not_found",
-      "query": "IRIS OHYAMA IC-H50 release date launch announced 上市 發售"
     },
     {
       "id": "vacuum-costco-iris-hcd-22mw",

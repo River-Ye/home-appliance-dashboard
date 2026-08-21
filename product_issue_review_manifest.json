@@ -5690,59 +5690,6 @@
       "candidateReviews": []
     },
     {
-      "id": "circulator-extra-15-dmbm3g-a900fhkj2",
-      "category": "circulator",
-      "brand": "IRIS OHYAMA",
-      "model": "PCF-HM23W",
-      "reviewedAt": "2026-08-18",
-      "reviewBatch": "circulator",
-      "decision": "no_common_issue",
-      "checkedPlatforms": [
-        "Reddit",
-        "Mobile01",
-        "PTT",
-        "Dcard",
-        "YouTube"
-      ],
-      "queries": [
-        {
-          "platform": "Reddit",
-          "query": "site:reddit.com \"IRIS OHYAMA PCF-HM23W\" (problem OR issue OR defect OR failure)",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22IRIS%20OHYAMA%20PCF-HM23W%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
-          "targetHost": "reddit.com"
-        },
-        {
-          "platform": "Mobile01",
-          "query": "site:mobile01.com \"IRIS OHYAMA PCF-HM23W\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22IRIS%20OHYAMA%20PCF-HM23W%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
-          "targetHost": "mobile01.com"
-        },
-        {
-          "platform": "PTT",
-          "query": "site:ptt.cc \"IRIS OHYAMA PCF-HM23W\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22IRIS%20OHYAMA%20PCF-HM23W%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
-          "targetHost": "ptt.cc"
-        },
-        {
-          "platform": "Dcard",
-          "query": "site:dcard.tw \"IRIS OHYAMA PCF-HM23W\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22IRIS%20OHYAMA%20PCF-HM23W%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
-          "targetHost": "dcard.tw"
-        },
-        {
-          "platform": "YouTube",
-          "query": "\"IRIS OHYAMA PCF-HM23W\" problem issue defect failure broken 災情 故障 異常",
-          "queryUrl": "https://www.youtube.com/results?search_query=%22IRIS%20OHYAMA%20PCF-HM23W%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
-          "targetHost": "youtube.com"
-        }
-      ],
-      "candidateDisposition": "PCF-HM23W：逐列覆核 Reddit、Mobile01、PTT、Dcard 與 YouTube exact-model 查詢；五站均無 exact-model 原頁候選，可計數作者 0、原始網站 0，未達同症狀 6 人／2 站門檻（不代表完全沒有負評）。",
-      "representativeSources": [],
-      "reviewerNote": "PCF-HM23W：逐列覆核 Reddit、Mobile01、PTT、Dcard 與 YouTube exact-model 查詢；五站均無 exact-model 原頁候選，可計數作者 0、原始網站 0，未達同症狀 6 人／2 站門檻（不代表完全沒有負評）。",
-      "attestation": "manual_cross_site_search_reviewed_no_candidate",
-      "candidateReviews": []
-    },
-    {
       "id": "circulator-extra-16-dmablya900jx0yj",
       "category": "circulator",
       "brand": "TECO",
@@ -15345,59 +15292,6 @@
       "candidateDisposition": "WQ71-2BSWF：逐列核對 Reddit、Mobile01、PTT、Dcard 四組 exact-model 結果與 YouTube，五站均無原頁候選；baseline manifest 與本輪人工 candidate 暫存也無候選，因此維持 no_common_issue，未達 6 人／2 canonical websites。",
       "representativeSources": [],
       "reviewerNote": "WQ71-2BSWF：逐列核對 Reddit、Mobile01、PTT、Dcard 四組 exact-model 結果與 YouTube，五站均無原頁候選；baseline manifest 與本輪人工 candidate 暫存也無候選，因此維持 no_common_issue，未達 6 人／2 canonical websites。",
-      "attestation": "manual_cross_site_search_reviewed_no_candidate",
-      "candidateReviews": []
-    },
-    {
-      "id": "vacuum-costco-iris-ic-h50",
-      "category": "vacuum",
-      "brand": "IRIS OHYAMA",
-      "model": "IC-H50",
-      "reviewedAt": "2026-08-18",
-      "reviewBatch": "vacuum",
-      "decision": "no_common_issue",
-      "checkedPlatforms": [
-        "Reddit",
-        "Mobile01",
-        "PTT",
-        "Dcard",
-        "YouTube"
-      ],
-      "queries": [
-        {
-          "platform": "Reddit",
-          "query": "site:reddit.com \"IRIS OHYAMA IC-H50\" (problem OR issue OR defect OR failure)",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22IRIS%20OHYAMA%20IC-H50%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
-          "targetHost": "reddit.com"
-        },
-        {
-          "platform": "Mobile01",
-          "query": "site:mobile01.com \"IRIS OHYAMA IC-H50\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22IRIS%20OHYAMA%20IC-H50%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
-          "targetHost": "mobile01.com"
-        },
-        {
-          "platform": "PTT",
-          "query": "site:ptt.cc \"IRIS OHYAMA IC-H50\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22IRIS%20OHYAMA%20IC-H50%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
-          "targetHost": "ptt.cc"
-        },
-        {
-          "platform": "Dcard",
-          "query": "site:dcard.tw \"IRIS OHYAMA IC-H50\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22IRIS%20OHYAMA%20IC-H50%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
-          "targetHost": "dcard.tw"
-        },
-        {
-          "platform": "YouTube",
-          "query": "\"IRIS OHYAMA IC-H50\" problem issue defect failure broken 災情 故障 異常",
-          "queryUrl": "https://www.youtube.com/results?search_query=%22IRIS%20OHYAMA%20IC-H50%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
-          "targetHost": "youtube.com"
-        }
-      ],
-      "candidateDisposition": "IC-H50：逐列核對 Reddit、Mobile01、PTT、Dcard 四組 exact-model 結果與 YouTube，五站均無原頁候選；baseline manifest 與本輪人工 candidate 暫存也無候選，因此維持 no_common_issue，未達 6 人／2 canonical websites。",
-      "representativeSources": [],
-      "reviewerNote": "IC-H50：逐列核對 Reddit、Mobile01、PTT、Dcard 四組 exact-model 結果與 YouTube，五站均無原頁候選；baseline manifest 與本輪人工 candidate 暫存也無候選，因此維持 no_common_issue，未達 6 人／2 canonical websites。",
       "attestation": "manual_cross_site_search_reviewed_no_candidate",
       "candidateReviews": []
     },

@@ -68,7 +68,7 @@
 
 ## GEO / AI 搜尋規則
 
-- 網站由現有 29 類資料產生 29 個 `/categories/<id>/` 靜態分類指南頁；不建立 878 個重複商品事實的薄內容頁。
+- 網站由現有 29 類資料產生 29 個 `/categories/<id>/` 靜態分類指南頁；不建立 876 個重複商品事實的薄內容頁。
 - `tools/category-guides.js` 只維護分類層級的繁中導讀、3 項選購條件與 3 組 FAQ；商品名稱、價格、排名、規格、史低與負評仍從既有商品資料產生，避免第二套事實來源。
 - 站名、首頁 title、description、H1 與 AI 揭露集中在 `tools/geo-config.js`；首頁 metadata、JSON-LD、分類頁與 `llms.txt` 必須共用此契約。首頁與分類頁首屏皆需可見 AI 協作、資料日期、查核方法與 GitHub 原始碼。
 - 修改 `assets/js/config.js` 的分類、`products/*.js` 商品或 `tools/category-guides.js` 後，必須執行 `npm run generate:categories`，再以 `npm run check:geo` 驗證產物與 contract。
@@ -80,7 +80,7 @@
 
 ## 目前資料規模
 
-- 共 29 類、878 筆商品。
+- 共 29 類、876 筆商品。
 - 所有分類每類至少 20 筆；新增分類或補資料時不可讓任何分類低於 20 筆。
 - 特殊分類目前數量：
   - `電視`：35 筆，其中 5 筆為 exact 70 吋，需涵蓋主流顯示技術與可信台灣新品通路。
@@ -95,7 +95,7 @@
   - `電子衣櫥（衣物護理機）`：20 筆，只收以吊掛衣物為核心、具除味／除皺／抑菌／柔護乾燥功能的封閉式櫃體設備；排除烘衣機、洗脫烘、除濕機、手持掛燙機、布罩烘衣櫃、配件與停產機種。
   - `空氣清淨機`：27 筆，已補入 POIEMA 新氣几系列與 Philips AC0921/84；後續若替換資料，除非無可信新品通路，需保留 POIEMA 候選。
   - `電風扇`：24 筆，已補入 Philips 風扇/循環扇/塔扇/無葉片款；後續若替換資料，除非無可信新品通路，需保留 Philips 候選。
-  - `循環扇`：24 筆，已納入有台灣官方現貨、上市年份與 exact-model 查核證據的 IRIS PCF-CDP18TEC、IRIS KSF-SDC151TEC 與 SHARP PK-18S03T。
+  - `循環扇`：23 筆，已納入有台灣官方現貨、上市年份與 exact-model 查核證據的 IRIS PCF-CDP18TEC、IRIS KSF-SDC151TEC 與 SHARP PK-18S03T。
   - `咖啡機`：24 筆，只收台灣現售全自動與半自動義式機，各 12 筆；各類型入門／均衡／旗艦各 4 筆，半自動含內建磨豆與需外接磨豆各 6 筆。
   - `冷氣`：30 筆，只收台灣住宅完整一對一分離式室內／室外機組；冷專、冷暖各至少 12 組，四個坪數帶各至少 6 組。
   - `熱水器`：45 筆，瓦斯、電熱、熱泵各 15 筆；電熱固定儲熱式 8 筆、瞬熱式 7 筆。
@@ -347,10 +347,10 @@
 ## 價格與匯率
 
 <!-- catalog-maintenance-summary:start -->
-- 2026-08-20 11:06（台灣時間）完成 878 筆商品、29 類全量查核；437 筆 PChome SKU API 已完成（267 筆 exact model、45 筆人工 SKU 綁定可寫入，84 筆型號未自動確認），更新 51 筆公開價格（0 筆下修、51 筆上修），28 筆 Qty 0 只列追蹤。
-- 本次增量新增 bidet-inax-cw-rl31-tw-bw1、chair-sidiz-t50、circulator-balmuda-egf-3300-wk、cookware-debuyer-5214-28、dehumidifier-electrolux-ed1031wd、dryer-lg-wr-20dw、fan-tatung-tf-l14d7t、knife-zwilling-pro-38401-201、monitor-lenovo-loq-27q-10、monitorarm-north-bayou-g50、purifier-honeywell-hpa-100aptw、robot-tplink-tapo-rv30-max-plus、soundbar-sennheiser-ambeo-mini、standingdesk-funte-force-200x90、tv-sharp-4t-c65hu8500x、vacuum-samsung-vs70h18gzg-tw、washer-toshiba-aw-t26d1600xta-mg、washerdryer-bosch-wnc554a0tc、waterdispenser-buder-bd-3006bf-ro；本次增量沒有移除停產產品；品質替換 aircon-lg-lsn28ddhs-lsu28dhs → aircon-sharp-ay-28zamh-w-ae-28zamh、garmentcare-panasonic-hcc-r600ar-x → garmentcare-panasonic-n-rgb1r-w。沿用本資料日已完成的逐類人工新品覆核（原覆核時間保留），所有分類至少 20 筆；停產只採品牌官方明確證據，缺貨、反爬或單次連線錯誤不作為刪除依據。
-- 圖片查核覆蓋 878 筆；651 筆來源可由 exact model 或人工 SKU 綁定確認，230 筆來源／圖片例外保留原資料。史低為 468 筆 `found`、410 筆 `not_found`，本輪其他更正 3 筆；70 筆來源可自動重現，其餘保留原逐筆證據且未臆測失效。
-- ExchangeRate-API 最新批次為 2026-08-20 00:02 UTC，USD/TWD 31.808514；29 筆外幣商品已重算。完整摘要與例外保存在 `catalog_maintenance_latest.json`。
+- 2026-08-21 08:07（台灣時間）完成 876 筆商品、29 類全量查核；436 筆 PChome SKU API 已完成（264 筆 exact model、44 筆人工 SKU 綁定可寫入，84 筆型號未自動確認），更新 36 筆公開價格（22 筆下修、14 筆上修），31 筆 Qty 0 只列追蹤。
+- 本次增量沒有納入新產品；本次增量移除 circulator-extra-15-dmbm3g-a900fhkj2、vacuum-costco-iris-ic-h50。沿用本資料日已完成的逐類人工新品覆核（原覆核時間保留），所有分類至少 20 筆；停產只採品牌官方明確證據，缺貨、反爬或單次連線錯誤不作為刪除依據。
+- 圖片查核覆蓋 876 筆；643 筆來源可由 exact model 或人工 SKU 綁定確認，236 筆來源／圖片例外保留原資料。史低為 468 筆 `found`、408 筆 `not_found`，本輪下修 2 筆、其他更正 3 筆；73 筆來源可自動重現，其餘保留原逐筆證據且未臆測失效。
+- ExchangeRate-API 最新批次為 2026-08-21 00:02 UTC，USD/TWD 31.862233；29 筆外幣商品已重算。完整摘要與例外保存在 `catalog_maintenance_latest.json`。
 <!-- catalog-maintenance-summary:end -->
 
 ## 驗證清單

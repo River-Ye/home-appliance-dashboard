@@ -410,8 +410,8 @@
     "price": {
       "currency": "USD",
       "amount": 499.95,
-      "converted": 15903,
-      "confidence": "Breville 官方 2026-07-21 來源價；ExchangeRate-API 2026-08-20 匯率換算"
+      "converted": 15930,
+      "confidence": "Breville 官方 2026-07-21 來源價；ExchangeRate-API 2026-08-21 匯率換算"
     },
     "image": "https://assets.breville.com/cdn-cgi/image/width=1300,format=auto/BOV950/BOV950BSS1BUS1/pdp3.png?pdp=",
     "buyUrl": "https://www.breville.com/en-us/product/bov950",
@@ -1881,7 +1881,7 @@
       "currency": "TWD",
       "amount": 43920,
       "converted": 43920,
-      "confidence": "PChome 2026-08-20 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "confidence": "PChome 2026-08-21 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBM0GA900H5125/000001_1783054719.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBM0G-A900H5125",
@@ -2279,8 +2279,8 @@
     "price": {
       "currency": "USD",
       "amount": 449.99,
-      "converted": 14314,
-      "confidence": "SharkNinja 美國官方 2026-07-21 商品頁現貨價；ExchangeRate-API 2026-08-20 匯率換算"
+      "converted": 14338,
+      "confidence": "SharkNinja 美國官方 2026-07-21 商品頁現貨價；ExchangeRate-API 2026-08-21 匯率換算"
     },
     "image": "https://assets.sharkninja.com/image/upload/f_auto/q_auto/SharkNinja-NA/MW101_01.jpg",
     "buyUrl": "https://www.sharkninja.com/ninja-crispi-microwave/MW101.html",

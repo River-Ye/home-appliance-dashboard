@@ -113,9 +113,9 @@
     "name": "自動集塵無線吸塵器",
     "price": {
       "currency": "TWD",
-      "amount": 17900,
-      "converted": 17900,
-      "confidence": "PChome 2026-08-20 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 16900,
+      "converted": 16900,
+      "confidence": "PChome 2026-08-21 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAX8KA900HLX9W/000001_1744871467.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAX8K-A900HLX9W",
@@ -2022,105 +2022,6 @@
     }
   },
   {
-    "id": "vacuum-costco-iris-ic-h50",
-    "category": "vacuum",
-    "rank": 22,
-    "budget": "value",
-    "channel": "tw",
-    "brand": "IRIS OHYAMA",
-    "model": "IC-H50",
-    "name": "手持式充電吸塵器",
-    "price": {
-      "currency": "TWD",
-      "amount": 1959,
-      "converted": 1959,
-      "confidence": "Costco 好市多 2026-07-11 頁面查核價"
-    },
-    "image": "https://www.costco.com.tw/medias/sys_master/images/h13/he5/220050298077214.jpg",
-    "buyUrl": "https://www.costco.com.tw/Televisions-Appliances/Small-Appliances/Vacuums-Floor-Care/IRIS-OHYAMA-Handy-Rechargeable-Cleaner-IC-H50/p/144463",
-    "buyLabel": "Costco 好市多",
-    "specs": [
-      "手持充電式",
-      "重量：約500公克",
-      "110V 充電",
-      "含充電座與縫隙吸頭",
-      "Costco 評價 4.8 / 94 則"
-    ],
-    "description": "Costco 評價不錯的吸塵器候選，補進手持與輕量清潔比較池。",
-    "pros": [
-      "價格親民",
-      "小空間與局部清潔方便"
-    ],
-    "cons": [
-      "不適合作為大坪數主力機",
-      "續航與吸力需依小型機期待"
-    ],
-    "bestFor": "租屋、車內、桌面或局部快速清潔的人",
-    "recommendation": "好市多補充推薦：手持式充電吸塵器 評價不錯，補進吸塵器分類作為 Costco 候選比較。",
-    "score": 87,
-    "voltage": "110V 充電",
-    "warranty": "依 Costco 好市多商品頁與品牌 1 年保固標示",
-    "tags": [
-      "Costco",
-      "好市多",
-      "手持",
-      "輕量",
-      "小空間"
-    ],
-    "releaseDate": "找不到",
-    "historicalLow": {
-      "status": "not_found",
-      "amount": null,
-      "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
-      "checkedAt": "2026-07-09",
-      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ IRIS OHYAMA IC-H50: Momo富邦購物 (店+)【D+ 滴家】IRIS Ohyama IC-H50 無線車用手持式 吸塵器 HEPA 濾網 濾心 IC-HH50 ICH50 (副廠) 非採用通路或含排除條件；LBJ IRIS OHYAMA IC-H50: 蝦皮商城 - Renza Filtration 濾網專家 適用 IRIS OHYAMA 愛麗思歐雅瑪 IC-H50 攜帶式充電吸塵器 HEPA濾網 濾芯 濾心 非採用通路或含排除條件；LBJ IRIS OHYAMA IC-H50: 蝦皮商城 - 淨博-外銷歐美日專業空氣清淨濾網 適用Iris Ohyama 無線車用手持式吸塵器IC-H50 (costco款)替換用HEPA微塵濾網濾心IC-HH50 非採用通路或含排除條件。"
-    },
-    "issueResearch": {
-      "status": "no_common_issue",
-      "checkedAt": "2026-08-18",
-      "summary": "截至查核日，查無達門檻的集中負評／災情",
-      "issues": [],
-      "checkedSources": [
-        {
-          "platform": "Reddit",
-          "query": "site:reddit.com \"IRIS OHYAMA IC-H50\" (problem OR issue OR defect OR failure)",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22IRIS%20OHYAMA%20IC-H50%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
-          "targetHost": "reddit.com"
-        },
-        {
-          "platform": "Mobile01",
-          "query": "site:mobile01.com \"IRIS OHYAMA IC-H50\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22IRIS%20OHYAMA%20IC-H50%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
-          "targetHost": "mobile01.com"
-        },
-        {
-          "platform": "PTT",
-          "query": "site:ptt.cc \"IRIS OHYAMA IC-H50\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22IRIS%20OHYAMA%20IC-H50%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
-          "targetHost": "ptt.cc"
-        },
-        {
-          "platform": "Dcard",
-          "query": "site:dcard.tw \"IRIS OHYAMA IC-H50\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22IRIS%20OHYAMA%20IC-H50%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
-          "targetHost": "dcard.tw"
-        },
-        {
-          "platform": "YouTube",
-          "query": "\"IRIS OHYAMA IC-H50\" problem issue defect failure broken 災情 故障 異常",
-          "queryUrl": "https://www.youtube.com/results?search_query=%22IRIS%20OHYAMA%20IC-H50%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
-          "targetHost": "youtube.com"
-        }
-      ]
-    }
-  },
-  {
     "id": "vacuum-costco-iris-hcd-22mw",
     "category": "vacuum",
     "rank": 23,
@@ -2231,8 +2132,8 @@
     "price": {
       "currency": "USD",
       "amount": 679.99,
-      "converted": 21629,
-      "confidence": "Dreame Vacuum Mop US 2026-07-21 原廠公開特價；ExchangeRate-API 2026-08-20 匯率換算"
+      "converted": 21666,
+      "confidence": "Dreame Vacuum Mop US 2026-07-21 原廠公開特價；ExchangeRate-API 2026-08-21 匯率換算"
     },
     "image": "https://m.media-amazon.com/images/I/61Yuy5vtWFL._AC_SL1500_.jpg",
     "buyUrl": "https://vacuummop.dreametech.com/products/aero-ultra-steam-wet-dry-vacuum",
@@ -2271,14 +2172,14 @@
       "status": "found",
       "amount": 679.99,
       "currency": "USD",
-      "converted": 21629,
+      "converted": 21666,
       "sourceUrl": "https://vacuummop.dreametech.com/products/aero-ultra-steam-wet-dry-vacuum",
       "sourceTitle": "Dreame Aero Ultra Steam Wet Dry Vacuum – Dreame Vacuum Mop",
       "evidenceSnippet": "Dreame 原廠美國商品頁於 2026-07-16 公開顯示特價 US$679.99、原價 US$799.99，且可 Add to Cart / Buy It Now。",
       "sourceKind": "official_sale",
       "confidence": "high",
       "checkedAt": "2026-07-16",
-      "note": "新上市商品目前可公開驗證的最低售價；未套用會員碼、信用卡、點數或個人化折扣，且未含國際運費、進口稅、插頭／供電與台灣保固風險；依 2026-08-20 USD/TWD 匯率換算。"
+      "note": "新上市商品目前可公開驗證的最低售價；未套用會員碼、信用卡、點數或個人化折扣，且未含國際運費、進口稅、插頭／供電與台灣保固風險；依 2026-08-21 USD/TWD 匯率換算。"
     },
     "issueResearch": {
       "status": "no_common_issue",

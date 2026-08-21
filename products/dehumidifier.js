@@ -1265,9 +1265,9 @@
     "name": "18 公升一級能效 PuriCare 雙變頻除濕機",
     "price": {
       "currency": "TWD",
-      "amount": 17542,
-      "converted": 17542,
-      "confidence": "Yahoo購物中心 2026-08-19 exact-model 公開結構化價格"
+      "amount": 16856,
+      "converted": 16856,
+      "confidence": "Yahoo購物中心 2026-08-21 exact-model 公開結構化價格"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ4NA900JCHFZ/000001_1783342859.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/LG%E6%A8%82%E9%87%91-PuriCare-18%E5%85%AC%E5%8D%87%E9%9B%99%E8%AE%8A%E9%A0%BB%E9%99%A4%E6%BF%95%E6%A9%9F-%E7%99%BD%E8%89%B2-DD181MWE0-11971018.html",
@@ -1300,16 +1300,16 @@
     "releaseDate": "2025-10-29",
     "historicalLow": {
       "status": "found",
-      "amount": 17005,
+      "amount": 16856,
       "currency": "TWD",
-      "converted": 17005,
-      "sourceUrl": "https://tw.buy.yahoo.com/gdsale/LG樂金-PuriCare-18公升雙變頻除濕機-白色-DD181MWE0-11971018.html",
-      "sourceTitle": "Yahoo 購物中心：LG PuriCare 18公升雙變頻除濕機 DD181MWE0",
-      "evidenceSnippet": "Yahoo 購物中心同型號新品頁於 2026-07-11 顯示滿 1 件 95 折，結構資料實付 NT$17,005、庫存正常；活動至 2026-07-13 09:59。",
-      "sourceKind": "retailer_promo",
-      "confidence": "high",
-      "checkedAt": "2026-07-11",
-      "note": "採用同型號 Yahoo 新品頁公開、無會員資格前提的 95 折活動價；排除信用卡回饋、點數、二手、福利品、展示、箱損、拆封與整新品。"
+      "converted": 16856,
+      "sourceUrl": "https://tw.buy.yahoo.com/gdsale/LG%E6%A8%82%E9%87%91-PuriCare-18%E5%85%AC%E5%8D%87%E9%9B%99%E8%AE%8A%E9%A0%BB%E9%99%A4%E6%BF%95%E6%A9%9F-%E7%99%BD%E8%89%B2-DD181MWE0-11971018.html",
+      "sourceTitle": "Yahoo購物中心：LG 樂金 PuriCare 18公升雙變頻除濕機 白色 DD181MWE0 | 14.1L以上 | Yahoo購物中心",
+      "evidenceSnippet": "Yahoo購物中心於 2026-08-21 顯示同型號可信新品公開價 NT$16,856，低於既有史低 NT$17,005。",
+      "sourceKind": "retailer_page",
+      "confidence": "medium",
+      "checkedAt": "2026-08-21",
+      "note": "採用 Yahoo購物中心當日可購商品的同型號新品公開價；不含會員券、點數、信用卡回饋、二手、福利、展示、拆封或整新品。"
     },
     "issueResearch": {
       "status": "no_common_issue",
