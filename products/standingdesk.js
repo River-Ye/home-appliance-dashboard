@@ -2071,9 +2071,9 @@
     "name": "GET156E 140 x 70 公分電動升降桌",
     "price": {
       "currency": "TWD",
-      "amount": 4289,
-      "converted": 4289,
-      "confidence": "Costco 好市多 2026-08-03 exact-model 公開結構化價格"
+      "amount": 5489,
+      "converted": 5489,
+      "confidence": "Costco 好市多 2026-08-21 exact-model 公開結構化價格"
     },
     "image": "https://www.costco.com.tw/medias/sys_master/images/h8a/h61/386020263100446.jpg",
     "buyUrl": "https://www.costco.com.tw/Furniture-Kitchen/Furniture/Computer-Desk-Chair-Sets/FlexiSpot-Adjustable-Desk-GET156E-14070/p/156015",

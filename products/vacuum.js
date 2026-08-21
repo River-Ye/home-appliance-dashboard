@@ -1841,9 +1841,9 @@
     "name": "微塵感知極淨光無線吸塵器",
     "price": {
       "currency": "TWD",
-      "amount": 11815,
-      "converted": 11815,
-      "confidence": "Yahoo購物中心 2026-07-11 頁面查核價"
+      "amount": 11713,
+      "converted": 11713,
+      "confidence": "Yahoo購物中心 2026-08-21 exact-model 公開結構化價格"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAX0ZA900K4IQZ/000001_1781668428.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/Panasonic-%E5%9C%8B%E9%9A%9B%E7%89%8C-%E7%84%A1%E7%B7%9A%E7%9B%B4%E7%AB%8B-%E6%89%8B%E6%8C%81%E5%BC%8F%E5%BE%AE%E5%A1%B5%E6%84%9F%E7%9F%A5%E6%A5%B5%E6%B7%A8%E5%85%89%E5%90%B8%E5%A1%B5%E5%99%A8-MC-SBR70-12134025.html",

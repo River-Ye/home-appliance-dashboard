@@ -15,8 +15,8 @@
     "image": "https://cs-a.ecimg.tw/items/DAANBRA900ASZRJ/000001_1758695631.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 9190,
-      "converted": 9190,
+      "amount": 8087,
+      "converted": 8087,
       "confidence": "PChome 2026-08-21 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "channel": "tw",
@@ -733,8 +733,8 @@
     "image": "https://cs-a.ecimg.tw/items/DMAC6RA900IUC3J/000001_1761017834.png",
     "price": {
       "currency": "TWD",
-      "amount": 29999,
-      "converted": 29999,
+      "amount": 26399,
+      "converted": 26399,
       "confidence": "PChome 2026-08-21 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "channel": "tw",
@@ -834,8 +834,8 @@
     "image": "https://cs-a.ecimg.tw/items/DMCI01A900JV0NP/000001_1774843160.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 17800,
-      "converted": 17800,
+      "amount": 15664,
+      "converted": 15664,
       "confidence": "PChome 2026-08-21 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "channel": "tw",
@@ -1342,8 +1342,8 @@
     "image": "https://cs-a.ecimg.tw/items/DMBM2HA900GH7MW/000001_1770018742.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 27800,
-      "converted": 27800,
+      "amount": 24464,
+      "converted": 24464,
       "confidence": "PChome 2026-08-21 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "channel": "tw",
@@ -1383,16 +1383,16 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 25020,
+      "amount": 24464,
       "currency": "TWD",
-      "converted": 25020,
-      "sourceUrl": "https://24h.pchome.com.tw/prod/DMBM2H-A900GH7MW",
-      "sourceTitle": "PChome 商品 API：SAKURA櫻花 廚下觸控式熱飲機 P0563 / 【南紡購物中心】 ★送5%P幣★SAKURA櫻花 廚下觸控式熱飲機 P0563",
-      "evidenceSnippet": "PChome 商品 API 於 2026-07-10 回傳同一商品頁「SAKURA櫻花 廚下觸控式熱飲機 P0563 / 【南紡購物中心】 ★送5%P幣★SAKURA櫻花 廚下觸控式熱飲機 P0563」查核價 NT$25,020，低於原先記錄史低。",
+      "converted": 24464,
+      "sourceUrl": "https://24h.pchome.com.tw/prod/DMAWFM-A900H55UK",
+      "sourceTitle": "PChome 24h 購物：SAKURA 櫻花 廚下觸控式熱飲機(P0563)",
+      "evidenceSnippet": "PChome 24h 購物於 2026-08-21 顯示同型號可信新品公開價 NT$24,464，低於既有史低 NT$25,020。",
       "sourceKind": "retailer_page",
       "confidence": "medium",
-      "checkedAt": "2026-07-10",
-      "note": "採用可信通路同一商品頁可公開查核現價作為本次觀測到的最低價；同型號/規格並排除會員個人化折扣、信用卡回饋、點數、二手、福利品、展示機、箱損、拆封與整新品。"
+      "checkedAt": "2026-08-21",
+      "note": "採用 PChome 24h 購物當日可購商品的同型號新品公開價；不含會員券、點數、信用卡回饋、二手、福利、展示、拆封或整新品。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -1547,8 +1547,8 @@
     "name": "櫥下型雙溫 UV 觸控飲水機",
     "price": {
       "currency": "TWD",
-      "amount": 34000,
-      "converted": 34000,
+      "amount": 29920,
+      "converted": 29920,
       "confidence": "PChome 2026-08-21 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DSBE1FA900GSOLN/000001_1698896380.jpg",
@@ -1839,8 +1839,8 @@
     "name": "廚下 RO 雙溫觸控飲水機",
     "price": {
       "currency": "TWD",
-      "amount": 36810,
-      "converted": 36810,
+      "amount": 32392,
+      "converted": 32392,
       "confidence": "PChome 2026-08-21 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMCI0OA900JT66N/000001_1773306819.png",
@@ -2521,8 +2521,8 @@
     "name": "極熱 廚下五段溫控瞬熱飲水機",
     "price": {
       "currency": "TWD",
-      "amount": 28800,
-      "converted": 28800,
+      "amount": 25344,
+      "converted": 25344,
       "confidence": "PChome 2026-08-21 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAWHTA900JVB6I/000001_1775031754.jpg",
@@ -3978,8 +3978,8 @@
     "name": "BD-3006BF 冷水煮沸飲水機＋RO-2604 逆滲透系統",
     "price": {
       "currency": "TWD",
-      "amount": 49680,
-      "converted": 49680,
+      "amount": 43718,
+      "converted": 43718,
       "confidence": "PChome 2026-08-21 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
       "basis": "retailer_current"
     },
