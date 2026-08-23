@@ -15,9 +15,9 @@
     "image": "https://cs-a.ecimg.tw/items/DEES01A900ILXUX/000001_1779237227.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 999,
-      "converted": 999,
-      "confidence": "PChome 2026-07-13 頁面與 API 查核價"
+      "amount": 799,
+      "converted": 799,
+      "confidence": "PChome 2026-08-23 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -219,9 +219,9 @@
     "image": "https://cs-a.ecimg.tw/items/DEAWMWA900JMZB6/000001_1768290450.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 1399,
-      "converted": 1399,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 1259,
+      "converted": 1259,
+      "confidence": "PChome 2026-08-23 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -261,16 +261,16 @@
     "releaseDate": "2023",
     "historicalLow": {
       "status": "found",
-      "amount": 1299,
+      "amount": 1259,
       "currency": "TWD",
-      "converted": 1299,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1268723556&cgp=1299",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：(店+)【THERMOS 膳魔師】新一代厚鑄耐摩不沾鍋單柄深煎鍋30cm(KFM-030D R)",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / (店+)【THERMOS 膳魔師】新一代厚鑄耐摩不沾鍋單柄深煎鍋30cm(KFM-030D R)」最低價為 NT$1,299，最低點日期 2026-07-09。",
-      "sourceKind": "price_history",
+      "converted": 1259,
+      "sourceUrl": "https://24h.pchome.com.tw/prod/DEAWMW-A900JMZB6",
+      "sourceTitle": "PChome 24h 購物：新一代厚鑄耐摩不沾鍋單柄深煎鍋30cm(KFM-030D-R)",
+      "evidenceSnippet": "PChome 24h 購物於 2026-08-23 顯示同型號可信新品公開價 NT$1,259，低於既有史低 NT$1,299。",
+      "sourceKind": "retailer_page",
       "confidence": "medium",
-      "checkedAt": "2026-07-09",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+      "checkedAt": "2026-08-23",
+      "note": "採用 PChome 24h 購物當日可購商品的同型號新品公開價；不含會員券、點數、信用卡回饋、二手、福利、展示、拆封或整新品。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -422,9 +422,9 @@
     "image": "https://cs-a.ecimg.tw/items/DEAWN3A900JSN52/000001_1772965996.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 2490,
-      "converted": 2490,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 2116,
+      "converted": 2116,
+      "confidence": "PChome 2026-08-23 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -1233,9 +1233,9 @@
     "image": "https://cs-a.ecimg.tw/items/DEAW03A900BSUA7/000001_1632301011.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 6042,
-      "converted": 6042,
-      "confidence": "PChome 2026-07-18 API 公開價"
+      "amount": 6360,
+      "converted": 6360,
+      "confidence": "PChome 2026-08-23 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "channel": "tw",
     "buyLabel": "PChome",

@@ -8,6 +8,7 @@ const {
   isExplicitlyDiscontinued,
   isExplicitlyUnavailable,
   isReviewedPchomeBinding,
+  tokenizedIdentity,
 } = require("./catalog-maintenance-policy");
 const {
   matchesPchomeProductId,
@@ -275,6 +276,19 @@ function pchomeQuantity(record) {
   return Number.isFinite(quantity) ? quantity : null;
 }
 
+function pchomeEvidenceTitle(record, product) {
+  const clean = (value) => String(value || "").replace(/<[^>]+>/g, " ").replace(/\s+/g, " ").trim();
+  const titles = [record?.Name, record?.Nick].map(clean).filter(Boolean);
+  const modelTokens = [product?.model, product?.modelPair?.indoor, product?.modelPair?.outdoor, ...(product?.componentModels || [])]
+    .flatMap(tokenizedIdentity)
+    .filter((token) => token.length > 1);
+  const score = (title) => {
+    const titleTokens = new Set(tokenizedIdentity(title));
+    return modelTokens.filter((token) => titleTokens.has(token)).length;
+  };
+  return titles.reduce((best, title) => (score(title) > score(best) ? title : best), titles[0] || clean(product?.name));
+}
+
 function updatePrice(product, amount) {
   const previous = Number(product.price.amount);
   product.price.amount = amount;
@@ -358,7 +372,7 @@ async function auditPchome(product, raw) {
       updatePrice(product, amount);
     }
     if (status === "verified_available" && product.price?.basis !== "official_suggested") {
-      const historicalChange = promoteCurrentHistoricalLow(product, amount, product.buyUrl, String(record.Name || product.name));
+      const historicalChange = promoteCurrentHistoricalLow(product, amount, product.buyUrl, pchomeEvidenceTitle(record, product));
       if (historicalChange) raw.historicalLowChanges.push(historicalChange);
     }
     return true;
@@ -1317,6 +1331,7 @@ module.exports = {
   maintenanceCacheVersion,
   maintenanceReviewReady,
   mergeDiscontinuationReviews,
+  pchomeEvidenceTitle,
   pchomeProductId,
   selectPreviousCategoryReview,
   structuredPriceCandidates,

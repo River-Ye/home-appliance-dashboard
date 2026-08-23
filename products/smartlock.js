@@ -1457,9 +1457,9 @@
     "name": "A100 智能門鎖",
     "price": {
       "currency": "TWD",
-      "amount": 13599,
-      "converted": 13599,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 13327,
+      "converted": 13327,
+      "confidence": "PChome 2026-08-23 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBS4NA900I8573/000001_1749627194.png",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBS4N-A900I8573",
@@ -2784,9 +2784,9 @@
     "name": "FB90 築韻掌靜脈貓眼電子門鎖",
     "price": {
       "currency": "TWD",
-      "amount": 42000,
-      "converted": 42000,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 39900,
+      "converted": 39900,
+      "confidence": "PChome 2026-08-23 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBS4NA900J43AP/000001_1764829802.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBS4N-A900J43AP",

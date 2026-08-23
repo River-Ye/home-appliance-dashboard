@@ -1170,9 +1170,9 @@
     "name": "真雙目 AI 掃拖機器人",
     "price": {
       "currency": "TWD",
-      "amount": 23888,
-      "converted": 23888,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 15900,
+      "converted": 15900,
+      "confidence": "PChome 2026-08-23 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL4UA900JA072/000001_1766479545.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBL4U-A900JA072",

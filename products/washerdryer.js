@@ -2496,9 +2496,9 @@
     "image": "https://img.pchome.com.tw/cs/items/DPAI1LA900IXKBU/000007_1752484626.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 92900,
-      "converted": 92900,
-      "confidence": "PChome 2026-07-22 exact-model 新品公開價"
+      "amount": 89900,
+      "converted": 89900,
+      "confidence": "PChome 2026-08-23 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "channel": "tw",
     "buyLabel": "PChome",

@@ -53,6 +53,7 @@ const {
   maintenanceCacheVersion,
   maintenanceReviewReady,
   mergeDiscontinuationReviews,
+  pchomeEvidenceTitle,
   pchomeProductId,
   selectPreviousCategoryReview,
   structuredPriceCandidates,
@@ -524,6 +525,26 @@ async function main() {
     "daily maintenance should reject non-PChome product URLs",
   );
   assert(
+    pchomeEvidenceTitle(
+      {
+        Name: "膳魔師新一代厚鑄耐摩不沾鍋單柄深煎鍋30cm(KFH-030D-R)",
+        Nick: "新一代厚鑄耐摩不沾鍋單柄深煎鍋30cm(KFM-030D-R)",
+      },
+      { model: "KFM-030D-R 30cm", name: "THERMOS KFM-030D-R 30cm" },
+    ).includes("KFM-030D-R"),
+    "historical-low evidence should prefer the PChome title that matches the exact model",
+  );
+  assert(
+    pchomeEvidenceTitle(
+      {
+        Name: "Blueair ClassicPro CP9i 空氣清淨機",
+        Nick: "手術室級紫藍光 定義空氣新淨",
+      },
+      { model: "ClassicPro CP9i", name: "ClassicPro CP9i 空氣清淨機" },
+    ).includes("CP9i"),
+    "historical-low evidence should reject a promotional Nick when Name has the exact model",
+  );
+  assert(
     isReviewedPchomeBinding("robot-ecovacs-x11-pro", "DMBL0L-A900J5HJ0"),
     "manually reviewed PChome source bindings should allow the exact approved product ID",
   );
@@ -568,6 +589,33 @@ async function main() {
       ["wifi-asus-zenwifi-bd5-2pack", "DSBC0Z-A900I6OJ2"],
     ].every(([productId, pchomeProductId]) => isReviewedPchomeBinding(productId, pchomeProductId)),
     "manually verified exact-model PChome pages should keep their approved product bindings",
+  );
+  assert(
+    [
+      ["chair-irocks-t05-plus", "QABD80-A900AS2SD"],
+      ["cookware-fissler-cianmic-28cm", "DEAWN3-A900JSN52"],
+      ["cookware-sambonet-titan-28cm", "DEAW03-A900BSUA7"],
+      ["cookware-tefal-daisy-28cm-ih", "DEES01-A900ILXUX"],
+      ["cookware-thermos-kfm-030d-r-30cm", "DEAWMW-A900JMZB6"],
+      ["dehumidifier-extra-9-dmbq00-a900jb38a", "DMBQ00-A900JB38A"],
+      ["fan-extra-10-dmab30-a900eoq5x", "DMAB30-A900EOQ5X"],
+      ["knife-kai-16-5cm", "DEAGRW-A900JUUQL"],
+      ["knife-kai-18cm", "DEAGRW-A900GMT17"],
+      ["knife-tefal-ice-force-15cm", "DEES09-A900HK440"],
+      ["oven-extra-6-dmbj02-a900i9lq2", "DMBJ02-A900I9LQ2"],
+      ["purifier-extra-6-dmaue4-a900ijcap", "DMAUE4-A900IJCAP"],
+      ["purifier-extra-9-dmaue4-a900i7dn1", "DMAUE4-A900I7DN1"],
+      ["robot-narwal-freo-z-ultra", "DMBL4U-A900JA072"],
+      ["smartlock-aqara-a100", "DQBS4N-A900I8573"],
+      ["smartlock-fibre-fb90", "DQBS4N-A900J43AP"],
+      ["vacuum-extra-10-dmax8k-a900hlxaq", "DMAX8K-A900HLXAQ"],
+      ["washer-heran-hwm-1061v", "DPAIB6-A900IM3H3"],
+      ["washer-panasonic-na-90eb-w", "DPAI1H-A900ALPGU"],
+      ["washerdryer-lg-wd-s2220b", "DPAI1L-A900IXKBU"],
+      ["wifi-mercusys-halo-h25be-2pack", "DRAFLT-A900K123M"],
+      ["wifi-mercusys-halo-h80x-3pack", "DRAFEM-A900F9H1Y"],
+    ].every(([productId, pchomeProductId]) => isReviewedPchomeBinding(productId, pchomeProductId)),
+    "newly reviewed exact-model PChome pages should keep their approved product bindings",
   );
   assert(
     [

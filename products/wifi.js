@@ -2123,9 +2123,9 @@
     "name": "AX3000 Wi-Fi 6 Mesh 網狀路由器三入組",
     "price": {
       "currency": "TWD",
-      "amount": 4199,
-      "converted": 4199,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 5499,
+      "converted": 5499,
+      "confidence": "PChome 2026-08-23 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAFEMA900F9H1Y/000001_1774858877.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DRAFEM-A900F9H1Y",
@@ -4324,9 +4324,9 @@
     "name": "BE3600 雙頻真 Mesh Wi-Fi 7 路由器二入組",
     "price": {
       "currency": "TWD",
-      "amount": 3499,
-      "converted": 3499,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 4699,
+      "converted": 4699,
+      "confidence": "PChome 2026-08-23 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAFJ9A900IZ7Y3/000001_1753463373.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DRAFLT-A900K123M",
