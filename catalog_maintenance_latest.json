@@ -33,7 +33,7 @@
     "priceDrops": 18,
     "priceRises": 0,
     "linkChanges": 0,
-    "imageChanges": 0,
+    "imageChanges": 1,
     "historicalLowChanges": 0,
     "historicalLowPriceChanges": 0,
     "historicalFound": 468,
@@ -3715,7 +3715,13 @@
       }
     ],
     "links": [],
-    "images": [],
+    "images": [
+      {
+        "id": "coffee-rancilio-silvia-pro-x",
+        "before": "https://www.tiamo-cafe.com.tw/rwd1627/Store/bImages/b_HG6477_600(1).jpg",
+        "after": "https://www.ranciliogroup.com/app/uploads/2019/09/Silvia-Pro-X.png"
+      }
+    ],
     "historicalLows": [],
     "foreignConversions": [
       {
