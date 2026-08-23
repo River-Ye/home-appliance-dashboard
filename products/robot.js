@@ -1074,9 +1074,9 @@
     "name": "全能掃拖機器人",
     "price": {
       "currency": "TWD",
-      "amount": 9980,
-      "converted": 9980,
-      "confidence": "PChome 2026-08-21 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 9999,
+      "converted": 9999,
+      "confidence": "PChome 2026-08-23 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL3EA900JY4G0/000001_1780033612.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBL3E-A900JY4G0",
@@ -1267,8 +1267,8 @@
     "price": {
       "currency": "EUR",
       "amount": 999,
-      "converted": 37126,
-      "confidence": "Boulanger 2026-07-21 來源價；ExchangeRate-API 2026-08-22 匯率換算"
+      "converted": 37137,
+      "confidence": "Boulanger 2026-07-21 來源價；ExchangeRate-API 2026-08-23 匯率換算"
     },
     "image": "https://boulanger.scene7.com/is/image/Boulanger/6972075738536_h_f_l_0?fmt=png-alpha&wid=640&hei=640",
     "buyUrl": "https://www.boulanger.com/ref/1238998",
@@ -1363,8 +1363,8 @@
     "price": {
       "currency": "USD",
       "amount": 551.69,
-      "converted": 17551,
-      "confidence": "Geekbuying 2026-07-21 來源價；ExchangeRate-API 2026-08-22 匯率換算"
+      "converted": 17556,
+      "confidence": "Geekbuying 2026-07-21 來源價；ExchangeRate-API 2026-08-23 匯率換算"
     },
     "image": "https://img.gkbcdn.com/p/2025-04-11/Narwal-Freo-Z10-Ultra-Robot-Vacuum-with-Base-Station-Gray-528438-0._w315_.jpg",
     "buyUrl": "https://www.geekbuying.com/item/Narwal-Freo-Z10-Ultra-Robot-Vacuum-with-Base-Station-Gray-528438.html",
@@ -2507,8 +2507,8 @@
     "price": {
       "currency": "USD",
       "amount": 999.99,
-      "converted": 31812,
-      "confidence": "SharkNinja US 2026-07-21 來源價；ExchangeRate-API 2026-08-22 匯率換算"
+      "converted": 31822,
+      "confidence": "SharkNinja US 2026-07-21 來源價；ExchangeRate-API 2026-08-23 匯率換算"
     },
     "image": "https://assets.sharkninja.com/image/upload/f_auto/q_auto/SharkNinja-NA/RV2820ZE_01.jpg",
     "buyUrl": "https://www.sharkninja.com/shark-powerdetect-2-in-1-robot-vacuum-and-mop-with-nevertouch-pro-base/RV2820ZE.html",
@@ -2701,8 +2701,8 @@
     "price": {
       "currency": "USD",
       "amount": 399.99,
-      "converted": 12725,
-      "confidence": "Costco US 2026-07-21 最後可驗證價；2026-08-15 exact-model 頁顯示 Unavailable；ExchangeRate-API 2026-08-22 匯率換算"
+      "converted": 12729,
+      "confidence": "Costco US 2026-07-21 最後可驗證價；2026-08-15 exact-model 頁顯示 Unavailable；ExchangeRate-API 2026-08-23 匯率換算"
     },
     "image": "https://bfasset.costco-static.com/U447IH35/as/tkj772p4357mmh3bwz8kcq/1791272-847__1?auto=webp&format=jpg",
     "buyUrl": "https://www.costco.com/p/-/roborock-qx-revo-robot-vacuum-and-mop-with-multifunctional-dock/4000233271",

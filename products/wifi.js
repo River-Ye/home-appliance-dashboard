@@ -887,8 +887,8 @@
     "price": {
       "currency": "USD",
       "amount": 189,
-      "converted": 6013,
-      "confidence": "Ubiquiti Store 2026-07-21 來源價；ExchangeRate-API 2026-08-22 匯率換算"
+      "converted": 6014,
+      "confidence": "Ubiquiti Store 2026-07-21 來源價；ExchangeRate-API 2026-08-23 匯率換算"
     },
     "image": "https://cdn.ecomm.ui.com/products/fa8dd4e4-36c8-4c79-a928-22c7bff2ce29/ab5bc8a4-6135-402e-a695-e3ea5e16d3e6.png",
     "buyUrl": "https://store.ui.com/us/en/category/all-wifi/products/u7-pro",
@@ -976,8 +976,8 @@
     "price": {
       "currency": "USD",
       "amount": 159,
-      "converted": 5058,
-      "confidence": "Ubiquiti Store 2026-07-21 來源價；ExchangeRate-API 2026-08-22 匯率換算"
+      "converted": 5060,
+      "confidence": "Ubiquiti Store 2026-07-21 來源價；ExchangeRate-API 2026-08-23 匯率換算"
     },
     "image": "https://cdn.ecomm.ui.com/products/8e88b222-7a55-4cf0-8677-ae9b6347fe84/e16aa122-b5e5-4ffb-9f1a-27ee14d9ab3d.png",
     "buyUrl": "https://store.ui.com/us/en/category/all-wifi/products/u6-pro",
@@ -1061,8 +1061,8 @@
     "price": {
       "currency": "USD",
       "amount": 99,
-      "converted": 3149,
-      "confidence": "Ubiquiti Store 2026-07-21 來源價；ExchangeRate-API 2026-08-22 匯率換算"
+      "converted": 3150,
+      "confidence": "Ubiquiti Store 2026-07-21 來源價；ExchangeRate-API 2026-08-23 匯率換算"
     },
     "image": "https://cdn.ecomm.ui.com/products/253cc208-4b09-4b2e-9d1a-7aa1e8f93507/49241c96-878f-4e40-8541-c2e89c1c5e6e.png",
     "buyUrl": "https://store.ui.com/us/en/category/all-wifi/products/u7-lite",
@@ -1537,8 +1537,8 @@
     "price": {
       "currency": "USD",
       "amount": 129,
-      "converted": 4104,
-      "confidence": "Ubiquiti Store 2026-07-21 來源價；ExchangeRate-API 2026-08-22 匯率換算"
+      "converted": 4105,
+      "confidence": "Ubiquiti Store 2026-07-21 來源價；ExchangeRate-API 2026-08-23 匯率換算"
     },
     "image": "https://cdn.ecomm.ui.com/products/6d5c6141-e2e9-416a-b789-53e59416bb1a/853bc73b-f65b-4e59-a171-75c9a4a4615e.png",
     "buyUrl": "https://store.ui.com/us/en/category/all-wifi/products/u6-plus",
@@ -1641,8 +1641,8 @@
     "price": {
       "currency": "USD",
       "amount": 279,
-      "converted": 8876,
-      "confidence": "Ubiquiti Store 2026-07-21 來源價；ExchangeRate-API 2026-08-22 匯率換算"
+      "converted": 8878,
+      "confidence": "Ubiquiti Store 2026-07-21 來源價；ExchangeRate-API 2026-08-23 匯率換算"
     },
     "image": "https://cdn.ecomm.ui.com/products/350070a0-ae43-431b-b052-8e849c3b0a75/bad94693-bc54-4ab4-b060-9b972401941c.png",
     "buyUrl": "https://store.ui.com/us/en/category/all-wifi/products/u7-pro-max",
@@ -2887,11 +2887,11 @@
       "currency": "TWD",
       "amount": 9999,
       "converted": 9999,
-      "confidence": "Yahoo購物中心 2026-08-22 exact-model 公開結構化價格"
+      "confidence": "PChome 2026-08-23 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBS4VA900JIQU0/000001_1764896894.jpg",
-    "buyUrl": "https://tw.buy.yahoo.com/gdsale/%E6%98%8C%E9%81%8B%E7%9B%A3%E8%A6%96%E5%99%A8-Synology%E7%BE%A4%E6%9A%89-RT6600AX-%E4%B8%89%E9%A0%BB-Wi-Fi-6-Router-%E7%84%A1%E7%B7%9A%E8%B7%AF%E7%94%B1%E5%99%A8-11898475.html",
-    "buyLabel": "Yahoo購物中心",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DQBS4V-A900JIQU0",
+    "buyLabel": "PChome",
     "specs": [
       "Wi-Fi 6",
       "AX6600 三頻",
