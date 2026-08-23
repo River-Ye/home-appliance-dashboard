@@ -36,7 +36,7 @@
 - `tools/category-guides.js`：29 類導讀、選購條件與 FAQ 的人工維護來源，不放即時商品事實。
 - `tools/geo-config.js`：站名、首頁 title、description、H1、AI 揭露與 GEO 共用文案契約。
 - `tools/generate-category-pages.js`：依分類、商品、指南與 CSS 來源產生 `assets/css/app.css`、`categories/<id>/index.html`、`sitemap.xml`、`llms.txt` 與首頁 GEO 區塊。
-- `categories/<id>/index.html`：29 個可直接閱讀與索引的靜態分類指南頁，屬產生結果。
+- `categories/<id>/index.html`：29 個可直接閱讀與索引的靜態分類指南頁，含前 5 名詳細推薦與該類全部型號的無 JavaScript 索引，屬產生結果。
 - `tools/dashboard-contract.js`：商品數、分類數、必要欄位與資料品質規則常數。
 - `tools/run-daily-catalog-maintenance.js`：永久維護入口，重查現價、來源、圖片、史低來源、匯率與停產候選；原始逐筆稽核只寫入 gitignored `.maintenance-audit.json`。
 - `tools/catalog-maintenance-policy.js`：exact-model、排除品與官方停產文字的純邏輯規則。
@@ -69,6 +69,7 @@
 ## GEO / AI 搜尋規則
 
 - 網站由現有 29 類資料產生 29 個 `/categories/<id>/` 靜態分類指南頁；不建立 876 個重複商品事實的薄內容頁。
+- 每個分類指南的初始 HTML 必須含該類全部商品的品牌、完整型號、名稱、參考價、價格基準、上市／發售日期與摘要；前 5 名繼續顯示完整評估卡。
 - `tools/category-guides.js` 只維護分類層級的繁中導讀、3 項選購條件與 3 組 FAQ；商品名稱、價格、排名、規格、史低與負評仍從既有商品資料產生，避免第二套事實來源。
 - 站名、首頁 title、description、H1 與 AI 揭露集中在 `tools/geo-config.js`；首頁 metadata、JSON-LD、分類頁與 `llms.txt` 必須共用此契約。首頁與分類頁首屏皆需可見 AI 協作、資料日期、查核方法與 GitHub 原始碼。
 - 修改 `assets/js/config.js` 的分類、`products/*.js` 商品或 `tools/category-guides.js` 後，必須執行 `npm run generate:categories`，再以 `npm run check:geo` 驗證產物與 contract。
@@ -361,7 +362,7 @@
 - `npm run check:logic`：純邏輯回歸，涵蓋排序、品牌依分類限制、史低／負評文案、問題摘要搜尋、來源 URL 安全、HTML escape 與 product-loader URL/錯誤。
 - `npm run check:data`：商品總數、分類數、必要欄位、日期格式、負評逐型號人工覆核、逐位反映者與研究檔對齊、重複 URL 與重複型號檢查通過。
 - `npm run check:docs`：README、AGENTS、index/config 的商品數、分類數、日期與 cache version 不漂移。
-- `npm run check:geo`：29 個分類頁、metadata、結構化資料、首頁分類入口、sitemap、llms、六份公開證據檔、Pages artifact、30 個 canonical URL 的 IndexNow contract 與產生結果均無漂移。
+- `npm run check:geo`：29 個分類頁、876 款靜態型號索引、metadata、結構化資料、首頁分類入口、sitemap、llms、六份公開證據檔、Pages artifact、30 個 canonical URL 的 IndexNow contract 與產生結果均無漂移。
 - `npm run check:ui`：桌機與手機版主要互動流程通過。
 - `npm run check:quality`：Lighthouse 的 Performance、LCP、CLS、Accessibility 與 SEO 採瀏覽器行動 throttling，TBT 採 Lantern 標準化模擬；首頁 Performance ≥ 90、LCP ≤ 2.5s、CLS ≤ 0.1、TBT ≤ 200ms、Accessibility = 100、SEO ≥ 95；代表分類頁 Performance、Accessibility、SEO 均 ≥ 95。
 - 商品總數仍符合 README 與分類 tab 顯示。

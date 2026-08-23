@@ -139,6 +139,10 @@ function visibleText(markup) {
     .trim();
 }
 
+function formatTwd(value) {
+  return `NT$${new Intl.NumberFormat("zh-TW", { maximumFractionDigits: 0 }).format(Math.round(value))}`;
+}
+
 function jsonLdDocuments(markup) {
   return elements(markup, "script")
     .filter((tag) => attributeValueOf(tag, "type") === "application/ld+json")
@@ -358,7 +362,7 @@ function assertCategoryPageContracts(categories, products, meta) {
     assert(/研究方法|查核方法/.test(text), `${file} research method is missing`);
     assert((text.match(/[？?]/g) || []).length >= 2, `${file} should contain at least two non-empty FAQ questions`);
     assert(new RegExp(`${categoryProducts.length}\\s*筆`).test(text), `${file} should show ${categoryProducts.length} products in the category`);
-    for (const anchor of ["#shortlistHeading", "#buyingGuideHeading", "#faqHeading", "#methodHeading"]) {
+    for (const anchor of ["#shortlistHeading", "#catalogHeading", "#buyingGuideHeading", "#faqHeading", "#methodHeading"]) {
       assert(hrefs.includes(anchor), `${file} page navigation is missing ${anchor}`);
     }
     assert(hrefs.includes(REPO_URL), `${file} hero/footer should link to the GitHub source`);
@@ -400,16 +404,16 @@ function assertCategoryPageContracts(categories, products, meta) {
       assert(text.includes(label), `${file} recommended product summaries are missing ${label}`);
     }
     assert(topFive.length === 5, `${file} cannot derive five recommendations from source products`);
-    const normalizedText = text.replace(/[,，]/g, "");
     for (const product of topFive) {
       const productAnchorId = `product-${String(product.id).replace(/[^a-zA-Z0-9_-]/g, "-")}`;
       const productArticle = markup.match(new RegExp(`<article id="${productAnchorId}"[\\s\\S]*?</article>`, "i"))?.[0] || "";
       const productArticleText = visibleText(productArticle);
+      const normalizedProductArticleText = productArticleText.replace(/[,，]/g, "");
       assert(productArticleText, `${file} is missing the editorial card for ${product.id}`);
       for (const value of [product.brand, product.model, product.bestFor, product.recommendation, product.pros[0], product.cons[0]]) {
-        assert(normalizedText.includes(String(value).replace(/[,，]/g, "")), `${file} is missing source-backed content for ${product.id}: ${value}`);
+        assert(normalizedProductArticleText.includes(String(value).replace(/[,，]/g, "")), `${file} is missing source-backed content for ${product.id}: ${value}`);
       }
-      assert(normalizedText.includes(String(product.price.amount)), `${file} is missing the source price for ${product.id}`);
+      assert(normalizedProductArticleText.includes(String(product.price.amount)), `${file} is missing the source price for ${product.id}`);
       if (product.price?.basis === "official_suggested") {
         assert(productArticleText.includes("官方建議售價"), `${file} must label ${product.id} as an official suggested price`);
         assert(productArticleText.includes("非通路成交價"), `${file} must disclose that ${product.id} is not a retailer transaction price`);
@@ -429,9 +433,33 @@ function assertCategoryPageContracts(categories, products, meta) {
         const measurementSpecs = product.specs.filter((spec) => /^(尺寸|重量)：/.test(spec));
         assert(measurementSpecs.some((spec) => spec.startsWith("尺寸：")), `${file} source product ${product.id} is missing its dimension spec`);
         for (const measurementSpec of measurementSpecs) {
-          assert(normalizedText.includes(measurementSpec.replace(/[,，]/g, "")), `${file} should expose ${measurementSpec} for ${product.id}`);
+          assert(normalizedProductArticleText.includes(measurementSpec.replace(/[,，]/g, "")), `${file} should expose ${measurementSpec} for ${product.id}`);
         }
       }
+    }
+
+    assert(text.includes(`完整型號索引：${categoryProducts.length} 款 ${category.label}`), `${file} complete model index heading mismatch`);
+    assert(text.includes("不需執行 JavaScript"), `${file} should explain that the complete model index is in the initial HTML`);
+    const catalogItems = [...markup.matchAll(/<li id="(catalog-product-[^"]+)" class="editorial-catalog-item">/g)];
+    assert(catalogItems.length === categoryProducts.length, `${file} should contain one static catalog item per product`);
+    assert(new Set(catalogItems.map((match) => match[1])).size === categoryProducts.length, `${file} static catalog item anchors should be unique`);
+    for (const [index, product] of categoryProducts.entries()) {
+      const catalogAnchorId = `catalog-product-${String(product.id).replace(/[^a-zA-Z0-9_-]/g, "-")}`;
+      assert(catalogItems[index]?.[1] === catalogAnchorId, `${file} static catalog order should identify ${product.id} at position ${index + 1}`);
+      const start = catalogItems[index].index;
+      const end = catalogItems[index + 1]?.index || markup.indexOf("\n        </ol>", start);
+      assert(end > start, `${file} cannot isolate the static catalog item for ${product.id}`);
+      const catalogItemText = visibleText(markup.slice(start, end));
+      for (const value of [product.brand, product.model, product.name, product.description, product.releaseDate]) {
+        assert(catalogItemText.includes(String(value)), `${file} catalog item ${product.id} is missing source-backed content: ${value}`);
+      }
+      const priceBasis = product.price?.basis === "official_suggested"
+        ? "官方建議售價"
+        : product.price?.basis === "retailer_current"
+          ? "通路現價"
+          : "價格基準未標示";
+      assert(catalogItemText.includes(formatTwd(product.price.converted)), `${file} catalog item ${product.id} reference price mismatch`);
+      assert(catalogItemText.includes(priceBasis), `${file} catalog item ${product.id} price basis mismatch`);
     }
 
     const categoryStateLinks = hrefs.filter((href) => {
@@ -471,18 +499,22 @@ function assertCategoryPageContracts(categories, products, meta) {
       assert(nodes.some((node) => typeIncludes(node, type)), `${file} JSON-LD is missing ${type}`);
     }
     const itemList = nodes.find((node) => typeIncludes(node, "ItemList"));
-    assert(itemList.itemListElement?.length === 5, `${file} ItemList should contain exactly five recommendations`);
+    assert(itemList.itemListElement?.length === categoryProducts.length, `${file} ItemList should contain the complete category catalog`);
+    assert(itemList.numberOfItems === categoryProducts.length, `${file} ItemList numberOfItems should match the complete category catalog`);
     itemList.itemListElement.forEach((item, index) => {
-      const product = topFive[index];
-      assert(item.position === index + 1, `${file} ItemList positions should be 1 through 5`);
+      const product = categoryProducts[index];
+      assert(item.position === index + 1, `${file} ItemList positions should follow the complete recommendation order`);
       assert(JSON.stringify(item).includes(product.model), `${file} ItemList position ${index + 1} should identify ${product.model}`);
       assert(item.item?.["@type"] === "Thing", `${file} ${product.id} should remain a generic list item on a multi-product guide`);
+      assert(item.item?.identifier === product.model, `${file} ItemList should expose the exact model identifier for ${product.id}`);
+      assert(item.item?.url === `${canonical}#catalog-product-${String(product.id).replace(/[^a-zA-Z0-9_-]/g, "-")}`, `${file} ItemList URL should target the visible catalog item for ${product.id}`);
     });
     for (const forbiddenType of ["Product", "Offer", "Review", "AggregateRating"]) {
       assert(!documents.some((document) => treeContainsType(document, forbiddenType)), `${file} must not add unverifiable ${forbiddenType} structured data`);
     }
     const collectionPage = nodes.find((node) => typeIncludes(node, "CollectionPage"));
     assert(collectionPage?.name === expectedHeading, `${file} CollectionPage name should match visible H1`);
+    assert(collectionPage?.mainEntity?.["@id"] === itemList["@id"], `${file} CollectionPage mainEntity should target the complete catalog ItemList`);
     assertSafePublicMarkup(markup, file);
 
     assert(!titles.has(title), `${file} title duplicates another category page`);
