@@ -50,16 +50,22 @@ https://ecapi-cdn.pchome.com.tw/ecshop/prodapi/v2/prod?id=<PID>&fields=Id,Name,N
 - `waterheater` stays at exactly 45: 15 gas, 15 electric, and 15 heat-pump products. Electric is exactly 8 storage plus 7 instant. Record gas type/installation/exhaust, electric circuit and safety conditions, and complete heat-pump unit/tank pairs and prices.
 - Both categories require public numeric Taiwan prices, Taiwan warranty, voltage/frequency, installation boundaries, exact model identity, ordered component dimensions, and net weight or an evidence-backed `查不到`. Never use quote-only status, packaging dimensions, gross weight, guessed dimension order, or incomplete-system prices.
 
+## Network Switch Scope
+
+- `network-switch` contains exactly 20 Taiwan-company-goods, TWD-priced, non-PoE switches with metal enclosures and exactly 8 primary copper RJ45 ports; dedicated SFP+ or combo uplinks are recorded separately.
+- Keep at least 4 products in each `1g`, `2_5g`, and `10g` tier. Require official evidence for common primary-port speeds, cooling, maximum power, operating-temperature maximum of at least 40°C, dimensions, and enclosure material.
+- Rank a sealed, unventilated weak-current cabinet conservatively: lower power, higher temperature ceiling, longer Taiwan warranty, and lower fan-maintenance risk first. Every 10G model must warn that cabinet ventilation needs improvement; D-Link DMS-108 remains the only Top Pick.
+
 ## Japanese Brand Review
 
-- Review Sony, Panasonic, HITACHI, Mitsubishi Electric, Daikin, GENERAL (Fujitsu General), Rinnai, Noritz, and TOTO across all 29 categories on every finalized catalog date.
-- Run `npm run review:japanese-brands -- --date=YYYY-MM-DD --baseline-ref=origin/main` after the maintenance draft. Every one of the 261 cells needs status, checked date, official sources, existing/added IDs, and a concrete reason. Keep this matrix in the committed maintenance report rather than a seventh public JSON.
+- Review Sony, Panasonic, HITACHI, Mitsubishi Electric, Daikin, GENERAL (Fujitsu General), Rinnai, Noritz, and TOTO across all 30 categories on every finalized catalog date.
+- Run `npm run review:japanese-brands -- --date=YYYY-MM-DD --baseline-ref=origin/main` after the maintenance draft. Every one of the 270 cells needs status, checked date, official sources, existing/added IDs, and a concrete reason. Keep this matrix in the committed maintenance report rather than a seventh public JSON.
 - Canonicalize `Hitachi` to `HITACHI`; accept bare Mitsubishi only after confirming Mitsubishi Electric, never Mitsubishi Heavy; accept GENERAL/Fujitsu General aliases; never conflate TOTO with TOTOLINK.
 - Existing eligible products count toward representative coverage. Add one exact Taiwan model only when coverage is zero and the brand has an eligible line; supplement to 2–3 only for a genuinely distinct type, capacity band, or price tier. Do not delete valid products merely because a brand already has more than three.
 
 ## Dimension And Weight Evidence
 
-- Keep `dimension_research.json` aligned with the thirteen dimension categories: TV, soundbar, washer, dryer, washer-dryer, garment care, refrigerator, coffee machine, multifunction oven/microwave, dishwasher, bidet, air conditioner, and water heater. The same file carries researched weight evidence for TV, soundbar, coffee machine, multifunction oven/microwave, air conditioner, and water heater.
+- Keep `dimension_research.json` aligned with the fourteen dimension categories: TV, soundbar, washer, dryer, washer-dryer, garment care, refrigerator, coffee machine, multifunction oven/microwave, dishwasher, bidet, air conditioner, water heater, and network switch. The same file carries researched weight evidence for TV, soundbar, coffee machine, multifunction oven/microwave, air conditioner, and water heater.
 - Treat `generatedAt` as the latest evidence-batch date while preserving each row's actual `checkedAt` / `weightCheckedAt`; incremental category additions must not pretend older evidence was rechecked.
 - Prefer exact-model official product/specification pages and official PDFs, then trusted retailer pages. Record product/body dimensions and net weight only; never substitute packaging dimensions, carton dimensions, or gross weight.
 - Preserve component-level values where the product has separate pieces: TV with/without stand, and soundbar main unit/subwoofer/rear speakers. Do not collapse them into an invented total.

@@ -5,9 +5,9 @@
   const meta = {
     dataDate: "2026-08-24",
     costcoDate: "2026-08-24",
-    expectedCategoryCount: 29,
-    expectedProductCount: 879,
-    cacheVersion: "20260824-001427-catalog",
+    expectedCategoryCount: 30,
+    expectedProductCount: 899,
+    cacheVersion: "20260824-101914-catalog",
     exchangeSummary: "USD 1 = TWD 31.798",
   };
 
@@ -48,6 +48,7 @@
     { id: "bidet", label: "免治馬桶", group: "衛浴安全" },
     { id: "smartlock", label: "電子鎖", group: "衛浴安全" },
     { id: "wifi", label: "無線路由器", group: "工作網路" },
+    { id: "network-switch", label: "網路交換器", group: "工作網路" },
     { id: "standingdesk", label: "升降桌", group: "工作網路" },
     { id: "chair", label: "電腦椅", group: "工作網路" },
     { id: "monitor", label: "電腦螢幕", group: "工作網路" },

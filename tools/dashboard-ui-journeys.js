@@ -49,6 +49,7 @@ const EXPECTED_FAN_COUNT = EXPECTED_CATEGORY_PRODUCT_COUNTS.get("fan");
 const EXPECTED_ROBOT_COUNT = EXPECTED_CATEGORY_PRODUCT_COUNTS.get("robot");
 const EXPECTED_SMARTLOCK_COUNT = EXPECTED_CATEGORY_PRODUCT_COUNTS.get("smartlock");
 const EXPECTED_WIFI_COUNT = EXPECTED_CATEGORY_PRODUCT_COUNTS.get("wifi");
+const EXPECTED_NETWORK_SWITCH_COUNT = EXPECTED_CATEGORY_PRODUCT_COUNTS.get("network-switch");
 const EXPECTED_KNIFE_COUNT = EXPECTED_CATEGORY_PRODUCT_COUNTS.get("knife");
 const EXPECTED_WATER_DISPENSER_COUNT = EXPECTED_CATEGORY_PRODUCT_COUNTS.get("waterdispenser");
 const EXPECTED_DISHWASHER_COUNT = EXPECTED_CATEGORY_PRODUCT_COUNTS.get("dishwasher");
@@ -65,6 +66,11 @@ const OFFICIAL_SUGGESTED_PRODUCT = DASHBOARD_PRODUCTS.find((product) => (
 const COFFEE_PRODUCTS = DASHBOARD_PRODUCTS.filter((product) => product.category === "coffee");
 const COFFEE_BRANDS = [...new Set(COFFEE_PRODUCTS.map((product) => product.brand))].sort();
 const COFFEE_TOP_PICK = COFFEE_PRODUCTS.find((product) => product.topPick);
+const NETWORK_SWITCH_PRODUCTS = DASHBOARD_PRODUCTS.filter((product) => product.category === "network-switch");
+const NETWORK_SWITCH_TOP_PICK = NETWORK_SWITCH_PRODUCTS.find((product) => product.topPick);
+const EXPECTED_NETWORK_SWITCH_1G_COUNT = NETWORK_SWITCH_PRODUCTS.filter((product) => product.type === "1g").length;
+const EXPECTED_NETWORK_SWITCH_25G_COUNT = NETWORK_SWITCH_PRODUCTS.filter((product) => product.type === "2_5g").length;
+const EXPECTED_NETWORK_SWITCH_10G_COUNT = NETWORK_SWITCH_PRODUCTS.filter((product) => product.type === "10g").length;
 
 function attachRuntimeIssueCollector(page) {
   const issues = [];
@@ -1062,11 +1068,45 @@ async function runTypeFilterJourney(browser) {
     }
     await assertNoHorizontalOverflow(page, `${name}-1100px`);
 
+    for (const { type, label, count } of [
+      { type: "1g", label: "1G（8 埠）", count: EXPECTED_NETWORK_SWITCH_1G_COUNT },
+      { type: "2_5g", label: "2.5G（8 埠）", count: EXPECTED_NETWORK_SWITCH_25G_COUNT },
+      { type: "10g", label: "10G（8 埠）", count: EXPECTED_NETWORK_SWITCH_10G_COUNT },
+    ]) {
+      await page.goto(`${fileUrl}?category=network-switch&type=${type}`, { waitUntil: "domcontentloaded" });
+      await page.waitForSelector(".product-card");
+      await page.waitForFunction((expected) => document.querySelector("#typeInput")?.value === expected, label);
+      await waitForVisibleCount(page, count);
+      if (!page.url().includes(`type=${type}`)) throw new Error(`${name}: switch speed query ${type} was not retained`);
+      if (!await page.locator('#activeFilterChips [data-clear-filter="type"]', { hasText: `型態：${label}` }).count()) {
+        throw new Error(`${name}: switch speed active chip ${type} is missing`);
+      }
+    }
+    await page.goto(`${fileUrl}?category=aircon&type=heat_cool`, { waitUntil: "domcontentloaded" });
+    await page.goto(`${fileUrl}?category=network-switch&type=2_5g`, { waitUntil: "domcontentloaded" });
+    await page.waitForSelector(".product-card");
+    await page.waitForFunction(() => document.querySelector("#typeInput")?.value === "2.5G（8 埠）");
+    await waitForVisibleCount(page, EXPECTED_NETWORK_SWITCH_25G_COUNT);
+    if (!NETWORK_SWITCH_TOP_PICK || !await page.locator(`#topPicks [data-focus-product="${NETWORK_SWITCH_TOP_PICK.id}"]`).count()) {
+      throw new Error(`${name}: network-switch Top Pick is missing`);
+    }
+    await page.locator(".product-card .compare-button").first().click();
+    const comparison = page.locator("#compareTable .compare-table");
+    if (!await comparison.count() || !await comparison.getByText(NETWORK_SWITCH_TOP_PICK.model, { exact: false }).count()) {
+      throw new Error(`${name}: network-switch comparison did not render the selected model`);
+    }
+    await assertNoHorizontalOverflow(page, `${name}-switch-1100px`);
+
     await page.goto(`${fileUrl}?category=monitor&type=gas`, { waitUntil: "domcontentloaded" });
     await page.waitForSelector(".product-card");
     await page.waitForFunction(() => document.querySelector("#categoryInput")?.value === "電腦螢幕");
     if (!await page.locator("#typeFilterField").isHidden()) throw new Error(`${name}: incompatible category displayed type filter`);
     if (page.url().includes("type=")) throw new Error(`${name}: invalid direct type value remained in URL`);
+
+    await page.goBack({ waitUntil: "domcontentloaded" });
+    await page.waitForSelector(".product-card");
+    await page.waitForFunction(() => document.querySelector("#typeInput")?.value === "2.5G（8 埠）");
+    await waitForVisibleCount(page, EXPECTED_NETWORK_SWITCH_25G_COUNT);
 
     await page.goBack({ waitUntil: "domcontentloaded" });
     await page.waitForSelector(".product-card");
@@ -1116,6 +1156,14 @@ async function runTypeFilterJourney(browser) {
     await mobile.waitForFunction(() => document.querySelector("#typeFilterField")?.hidden === false);
     if (await mobile.locator("#typeInput").inputValue() !== "冷暖") throw new Error(`${mobileName}: mobile type value is stale`);
     await assertNoHorizontalOverflow(mobile, mobileName);
+
+    await mobile.goto(`${fileUrl}?category=network-switch&type=10g`, { waitUntil: "domcontentloaded" });
+    await mobile.waitForSelector(".product-card");
+    await mobile.waitForFunction(() => document.querySelector("#typeInput")?.value === "10G（8 埠）");
+    await waitForVisibleCount(mobile, EXPECTED_NETWORK_SWITCH_10G_COUNT);
+    if (await mobile.locator("#typeInput").inputValue() !== "10G（8 埠）") throw new Error(`${mobileName}: mobile switch speed is stale`);
+    if (EXPECTED_NETWORK_SWITCH_COUNT !== 20) throw new Error(`${mobileName}: network-switch fixture count is stale`);
+    await assertNoHorizontalOverflow(mobile, `${mobileName}-switch`);
     assertNoRuntimeIssues(mobile, mobileName);
   } finally {
     await mobile.close();

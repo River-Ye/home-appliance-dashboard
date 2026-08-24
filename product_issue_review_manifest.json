@@ -14183,6 +14183,132 @@
       ]
     },
     {
+      "id": "robot-electrolux-efr81223",
+      "category": "robot",
+      "brand": "Electrolux",
+      "model": "EFR81223",
+      "reviewedAt": "2026-08-24",
+      "reviewBatch": "robot",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "Reddit",
+        "Mobile01",
+        "PTT",
+        "Dcard",
+        "YouTube",
+        "Electrolux/TestFreaks",
+        "PChome",
+        "Zeczec"
+      ],
+      "queries": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Electrolux EFR81223\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Electrolux%20EFR81223%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Electrolux EFR81223\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Electrolux%20EFR81223%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "PTT",
+          "query": "site:ptt.cc \"Electrolux EFR81223\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22Electrolux%20EFR81223%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "ptt.cc"
+        },
+        {
+          "platform": "Dcard",
+          "query": "site:dcard.tw \"Electrolux EFR81223\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22Electrolux%20EFR81223%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "dcard.tw"
+        },
+        {
+          "platform": "YouTube",
+          "query": "\"Electrolux EFR81223\" problem issue defect failure broken 災情 故障 異常",
+          "queryUrl": "https://www.youtube.com/results?search_query=%22Electrolux%20EFR81223%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
+          "targetHost": "youtube.com"
+        }
+      ],
+      "candidateDisposition": "EFR81223：人工跨站搜尋未見 Reddit、Mobile01、PTT、Dcard 或 YouTube 的 exact-model 問題頁；人工讀取 Electrolux 官方頁使用的 TestFreaks feed（52 ratings／42 則文字）後，NA、oo、莊家豪、Lena、Yuh ting Chen 共 5 位集中提到拖布／集水盤積水或誤報，但只在單一原始評論 feed；App 行為約 4 位且症狀不完全相同，PChome 另僅 1 位語音／紀錄候選，Zeczec 無可辨識作者，均未達同一問題 6 人且跨 2 個原始網站。",
+      "representativeSources": [
+        {
+          "platform": "Electrolux/TestFreaks",
+          "title": "Electrolux EFR81223 官方評論 feed：拖布盤積水或誤報候選",
+          "url": "https://www.electrolux.com.tw/appliances/robot-vacuums/efr81223/"
+        },
+        {
+          "platform": "Electrolux/TestFreaks",
+          "title": "Electrolux EFR81223 官方評論：App 行為候選",
+          "url": "https://www.electrolux.com.tw/appliances/robot-vacuums/efr81223/#reviews"
+        },
+        {
+          "platform": "PChome",
+          "title": "Electrolux EFR81223 PChome 購買者評價",
+          "url": "https://24h.pchome.com.tw/prod/DMBL5X-A900K8CTK"
+        },
+        {
+          "platform": "Zeczec",
+          "title": "Electrolux EFR81223 App 4.21 更新說明",
+          "url": "https://www.zeczec.com/projects/electrolux-800-EFR81223/updates/62374"
+        }
+      ],
+      "reviewerNote": "EFR81223：人工覆核 Electrolux 官方 TestFreaks feed 的 author、date、score、extract；拖布／集水盤候選為 NA（07-22，1星）、oo（07-02，1星）、莊家豪（06-17，1星）、Lena（06-17，3星）、Yuh ting Chen（06-06，1星）共 5 人但只有單一原始 feed。App 候選為柏全、Jason、oo、Yuh ting Chen 約 4 人且行為不同；PChome 馮**（08-22，3星）為另一種語音／紀錄落差，故維持 no_common_issue。",
+      "attestation": "manual_original_pages_reviewed",
+      "candidateReviews": [
+        {
+          "platform": "Electrolux/TestFreaks",
+          "url": "https://www.electrolux.com.tw/appliances/robot-vacuums/efr81223/",
+          "title": "Electrolux EFR81223 官方評論 feed：拖布盤積水或誤報候選",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-24",
+          "sourceExcerpt": "官方 EFR81223 評論 feed：NA（2026-07-22，1/5）稱每次都報拖布盤積水；oo（2026-07-02，1/5）稱抹布盤每天積水；莊家豪（2026-06-17，1/5）稱清潔一輪即誤報托盤已滿；Lena（2026-06-17，3/5）稱每次洗拖布後都顯示集水盤積水；Yuh ting Chen（2026-06-06，1/5）稱同時掃拖回站必報積水但拆開未見積水。",
+          "independentAuthors": 5,
+          "specificReason": "同一拖布／集水盤問題可辨識 5 位 exact-model 作者，但全部來自 Electrolux 官方頁所使用的同一 TestFreaks 原始評論 feed；未跨第二個獨立原始網站，因此不得標為 common_issue。",
+          "reproducibleSourceUrl": "https://cr.testfreaks.com/reviews/page.json?client_id=electrolux.com.tw&limit=100&mapping_ids%5B%5D=14847778&sort=date",
+          "sourceLocator": "TestFreaks mapping_id 14847778；依 author、date、score 與 extract 重現，不宣稱 feedback_url 為永久連結。"
+        },
+        {
+          "platform": "Electrolux/TestFreaks",
+          "url": "https://www.electrolux.com.tw/appliances/robot-vacuums/efr81223/#reviews",
+          "title": "Electrolux EFR81223 官方評論：App 行為候選",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-24",
+          "sourceExcerpt": "官方 EFR81223 評論 feed：柏全（2026-08-07，2/5）稱透過 App 或按鈕都曾無法停止；Jason（2026-07-04，1/5）稱 App 時常當機；oo（2026-07-02，1/5）稱機器狀態與 App 通知不同步；Yuh ting Chen（2026-06-06，1/5）稱 App 當機、設定跳回與分區變全掃，四人的 App 行為並非完全相同。",
+          "independentAuthors": 4,
+          "specificReason": "可辨識約 4 位作者涉及不同 App 行為，仍少於同一問題 6 人；官方頁與 TestFreaks API 是同一評論 feed，不能算成兩站，PChome 作者的語音／紀錄落差也不能與各種 App 症狀直接合併。",
+          "reproducibleSourceUrl": "https://cr.testfreaks.com/reviews/page.json?client_id=electrolux.com.tw&limit=100&mapping_ids%5B%5D=14847778&sort=date",
+          "sourceLocator": "TestFreaks mapping_id 14847778；依 author、date、score 與 extract 重現，不宣稱 feedback_url 為永久連結。"
+        },
+        {
+          "platform": "PChome",
+          "url": "https://24h.pchome.com.tw/prod/DMBL5X-A900K8CTK",
+          "title": "Electrolux EFR81223 PChome 購買者評價",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-24",
+          "sourceExcerpt": "PChome 作者馮**（2026-08-22，3/5）表示 App 介面與功能設定不直覺，曾遇到語音動作和實際動作不同、清掃紀錄未記錄，但也明載最後完成清掃且打掃乾淨。",
+          "independentAuthors": 1,
+          "specificReason": "只有 1 位可辨識的 exact-model 第一人稱作者，且同頁沒有其他獨立購買者確認相同 App 症狀；此人的語音／紀錄落差也不是官方 feed 五人集中提到的拖布盤問題。"
+        },
+        {
+          "platform": "Zeczec",
+          "url": "https://www.zeczec.com/projects/electrolux-800-EFR81223/updates/62374",
+          "title": "Electrolux EFR81223 App 4.21 更新說明",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-24",
+          "sourceExcerpt": "品牌專案更新表示部分消費者反映 App 連線速度較慢或無法使用，並說明 2026-05-06 上線的 App 4.21 已修正連線與反應問題。",
+          "independentAuthors": 0,
+          "specificReason": "這是品牌對未具名集合回饋的修正公告，沒有作者、permalink 或可去重第一人稱原文，不能把「部分消費者」推算為人數；也不能與各自不同的官方評論及 PChome 症狀合併。"
+        }
+      ]
+    },
+    {
       "id": "vac-dyson-v12",
       "category": "vacuum",
       "brand": "Dyson",
@@ -33956,6 +34082,112 @@
       ]
     },
     {
+      "id": "dishwasher-bosch-smi4ecs00x",
+      "category": "dishwasher",
+      "brand": "Bosch",
+      "model": "SMI4ECS00X",
+      "reviewedAt": "2026-08-24",
+      "reviewBatch": "dishwasher",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "Reddit",
+        "Mobile01",
+        "PTT",
+        "Dcard",
+        "YouTube"
+      ],
+      "queries": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Bosch SMI4ECS00X\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Bosch%20SMI4ECS00X%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Bosch SMI4ECS00X\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Bosch%20SMI4ECS00X%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "PTT",
+          "query": "site:ptt.cc \"Bosch SMI4ECS00X\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22Bosch%20SMI4ECS00X%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "ptt.cc"
+        },
+        {
+          "platform": "Dcard",
+          "query": "site:dcard.tw \"Bosch SMI4ECS00X\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22Bosch%20SMI4ECS00X%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "dcard.tw"
+        },
+        {
+          "platform": "YouTube",
+          "query": "\"Bosch SMI4ECS00X\" problem issue defect failure broken 災情 故障 異常",
+          "queryUrl": "https://www.youtube.com/results?search_query=%22Bosch%20SMI4ECS00X%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
+          "targetHost": "youtube.com"
+        }
+      ],
+      "candidateDisposition": "SMI4ECS00X：已逐一人工檢視 Reddit、Mobile01、PTT、Dcard exact-model site 查詢與 YouTube exact-model 查詢，結果只有官方產品、商城、手冊或安裝資訊，沒有可進入逐頁判讀的購買後原始問題候選。",
+      "representativeSources": [],
+      "reviewerNote": "SMI4ECS00X：跨五個平台的 exact-model 查詢沒有找到第一人稱問題候選；相近 Bosch 4 系列、說明書故障排除與通路商品頁均未外推成此完整型號災情。",
+      "attestation": "manual_cross_site_search_reviewed_no_candidate",
+      "candidateReviews": []
+    },
+    {
+      "id": "dishwasher-bosch-smv4ecx00x",
+      "category": "dishwasher",
+      "brand": "Bosch",
+      "model": "SMV4ECX00X",
+      "reviewedAt": "2026-08-24",
+      "reviewBatch": "dishwasher",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "Reddit",
+        "Mobile01",
+        "PTT",
+        "Dcard",
+        "YouTube"
+      ],
+      "queries": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Bosch SMV4ECX00X\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Bosch%20SMV4ECX00X%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Bosch SMV4ECX00X\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Bosch%20SMV4ECX00X%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "PTT",
+          "query": "site:ptt.cc \"Bosch SMV4ECX00X\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22Bosch%20SMV4ECX00X%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "ptt.cc"
+        },
+        {
+          "platform": "Dcard",
+          "query": "site:dcard.tw \"Bosch SMV4ECX00X\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22Bosch%20SMV4ECX00X%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "dcard.tw"
+        },
+        {
+          "platform": "YouTube",
+          "query": "\"Bosch SMV4ECX00X\" problem issue defect failure broken 災情 故障 異常",
+          "queryUrl": "https://www.youtube.com/results?search_query=%22Bosch%20SMV4ECX00X%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
+          "targetHost": "youtube.com"
+        }
+      ],
+      "candidateDisposition": "SMV4ECX00X：已逐一人工檢視 Reddit、Mobile01、PTT、Dcard exact-model site 查詢與 YouTube exact-model 查詢；結果只有 Bosch 官方支援、手冊、安裝資訊及商品頁，沒有可進入逐頁判讀的購買後原始問題候選。",
+      "representativeSources": [],
+      "reviewerNote": "SMV4ECX00X：跨五個平台的 exact-model 查詢沒有找到第一人稱問題候選；搜尋命中的官方故障排除手冊是一般操作文件，不能當成使用者災情。",
+      "attestation": "manual_cross_site_search_reviewed_no_candidate",
+      "candidateReviews": []
+    },
+    {
       "id": "waterheater-rinnai-rua-d1620wf",
       "category": "waterheater",
       "brand": "Rinnai",
@@ -43581,6 +43813,1143 @@
       ]
     },
     {
+      "id": "network-switch-dlink-dms-108",
+      "category": "network-switch",
+      "brand": "D-Link",
+      "model": "DMS-108",
+      "reviewedAt": "2026-08-24",
+      "reviewBatch": "network-switch",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "Reddit",
+        "Mobile01"
+      ],
+      "queries": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"DMS-108\" issue",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22DMS-108%22%20issue",
+          "targetHost": "reddit.com"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"DMS-108\" 問題",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22DMS-108%22%20%E5%95%8F%E9%A1%8C",
+          "targetHost": "mobile01.com"
+        }
+      ],
+      "candidateDisposition": "DMS-108：人工覆核 Reddit 與 Mobile01 的 exact-model 查詢；兩站均無可計入的 exact-model 原頁候選，可辨識獨立使用者 0、原始網站 0，未達同症狀 6 人／2 站門檻（不代表完全沒有負評）。",
+      "representativeSources": [],
+      "reviewerNote": "DMS-108：人工覆核 Reddit 與 Mobile01 的 exact-model 查詢；兩站均無可計入的 exact-model 原頁候選，可辨識獨立使用者 0、原始網站 0，未達同症狀 6 人／2 站門檻（不代表完全沒有負評）。",
+      "attestation": "manual_cross_site_search_reviewed_no_candidate",
+      "candidateReviews": []
+    },
+    {
+      "id": "network-switch-netgear-gs308",
+      "category": "network-switch",
+      "brand": "NETGEAR",
+      "model": "GS308",
+      "reviewedAt": "2026-08-24",
+      "reviewBatch": "network-switch",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "Reddit",
+        "Mobile01"
+      ],
+      "queries": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com v3 \"GS308\" issue",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20v3%20%22GS308%22%20issue",
+          "targetHost": "reddit.com"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com v3 \"GS308\" 問題",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20v3%20%22GS308%22%20%E5%95%8F%E9%A1%8C",
+          "targetHost": "mobile01.com"
+        }
+      ],
+      "candidateDisposition": "GS308：人工覆核 Reddit 與 Mobile01 的 exact-model 查詢；兩站均無可計入的 exact-model 原頁候選，可辨識獨立使用者 0、原始網站 0，未達同症狀 6 人／2 站門檻（不代表完全沒有負評）。",
+      "representativeSources": [],
+      "reviewerNote": "GS308：人工覆核 Reddit 與 Mobile01 的 exact-model 查詢；兩站均無可計入的 exact-model 原頁候選，可辨識獨立使用者 0、原始網站 0，未達同症狀 6 人／2 站門檻（不代表完全沒有負評）。",
+      "attestation": "manual_cross_site_search_reviewed_no_candidate",
+      "candidateReviews": []
+    },
+    {
+      "id": "network-switch-tplink-tl-sg108",
+      "category": "network-switch",
+      "brand": "TP-Link",
+      "model": "TL-SG108",
+      "reviewedAt": "2026-08-24",
+      "reviewBatch": "network-switch",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "Reddit",
+        "Mobile01"
+      ],
+      "queries": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"TL-SG108\" issue",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22TL-SG108%22%20issue",
+          "targetHost": "reddit.com"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"TL-SG108\" 問題",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22TL-SG108%22%20%E5%95%8F%E9%A1%8C",
+          "targetHost": "mobile01.com"
+        }
+      ],
+      "candidateDisposition": "TL-SG108：人工回看 Reddit 與 Mobile01 exact-model 查詢中的 4 個原頁候選；逐頁區分故障、設定／互通限制、未確認歸因與交叉貼文後，沒有任一相同問題達到 6 位獨立使用者且跨 2 個原始網站（不代表完全沒有負評）。",
+      "representativeSources": [
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/TpLink/comments/1cyxhbi",
+          "title": "TL-SG108 無法開機個案"
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/techsupport/comments/y0rfip",
+          "title": "TL-SG108 連線只協商 100Mbps 個案"
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/homelab/comments/mhrnzp",
+          "title": "TL-SG108 埠逐漸只剩 100Mbps 個案"
+        },
+        {
+          "platform": "Mobile01",
+          "url": "https://www.mobile01.com/topicdetail.php?f=110&t=7231186",
+          "title": "TL-SG108 與 XE75 拓樸斷線討論"
+        }
+      ],
+      "reviewerNote": "TL-SG108：人工回看 Reddit 與 Mobile01 exact-model 查詢中的 4 個原頁候選；逐頁區分故障、設定／互通限制、未確認歸因與交叉貼文後，沒有任一相同問題達到 6 位獨立使用者且跨 2 個原始網站（不代表完全沒有負評）。",
+      "attestation": "manual_original_pages_reviewed",
+      "candidateReviews": [
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/TpLink/comments/1cyxhbi",
+          "title": "TL-SG108 無法開機個案",
+          "sourceExcerpt": "原頁樓主回報 TL-SG108 完全無法開機，留言另有一位同型號使用者描述類似失效。",
+          "independentAuthors": 2,
+          "specificReason": "無法開機僅能辨識 2 位獨立作者，且沒有第二個原始網站的同症回報，未達 6 人／2 站門檻。",
+          "outcome": "excluded",
+          "reviewedAt": "2026-08-24",
+          "exactModel": true
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/techsupport/comments/y0rfip",
+          "title": "TL-SG108 連線只協商 100Mbps 個案",
+          "sourceExcerpt": "原頁一位 TL-SG108 擁有者描述原本的 Gigabit 連線降為 100Mbps。",
+          "independentAuthors": 1,
+          "specificReason": "此頁只有 1 位可辨識作者，線材與端點變因也未完全排除；同症累計仍少於 6 人且未跨兩站。",
+          "outcome": "excluded",
+          "reviewedAt": "2026-08-24",
+          "exactModel": true
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/homelab/comments/mhrnzp",
+          "title": "TL-SG108 埠逐漸只剩 100Mbps 個案",
+          "sourceExcerpt": "原頁一位使用者描述 TL-SG108 的部分埠逐漸只能協商到 100Mbps。",
+          "independentAuthors": 1,
+          "specificReason": "只有 1 位原頁作者，且沒有第二站足量同症使用者；與其他頁合併後仍未達 6 人／2 站。",
+          "outcome": "excluded",
+          "reviewedAt": "2026-08-24",
+          "exactModel": true
+        },
+        {
+          "platform": "Mobile01",
+          "url": "https://www.mobile01.com/topicdetail.php?f=110&t=7231186",
+          "title": "TL-SG108 與 XE75 拓樸斷線討論",
+          "sourceExcerpt": "原頁在 XE75 與 TL-SG108 串接拓樸下描述斷線，但同時存在 Mesh 模式與線路等變因。",
+          "independentAuthors": 1,
+          "specificReason": "原頁未隔離 XE75、線材與拓樸變因，不能將斷線確定歸因於 TL-SG108；也沒有 6 位跨站同症作者。",
+          "outcome": "excluded",
+          "reviewedAt": "2026-08-24",
+          "exactModel": true
+        }
+      ]
+    },
+    {
+      "id": "network-switch-tplink-ls108g",
+      "category": "network-switch",
+      "brand": "TP-Link",
+      "model": "LS108G",
+      "reviewedAt": "2026-08-24",
+      "reviewBatch": "network-switch",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "Reddit",
+        "Mobile01"
+      ],
+      "queries": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"LS108G\" issue",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22LS108G%22%20issue",
+          "targetHost": "reddit.com"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"LS108G\" 問題",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22LS108G%22%20%E5%95%8F%E9%A1%8C",
+          "targetHost": "mobile01.com"
+        }
+      ],
+      "candidateDisposition": "LS108G：人工回看 Reddit 與 Mobile01 exact-model 查詢中的 1 個原頁候選；逐頁區分故障、設定／互通限制、未確認歸因與交叉貼文後，沒有任一相同問題達到 6 位獨立使用者且跨 2 個原始網站（不代表完全沒有負評）。",
+      "representativeSources": [
+        {
+          "platform": "Mobile01",
+          "url": "https://www.mobile01.com/topicdetail.php?f=110&t=6695252",
+          "title": "LS108G 有線回程不穩討論"
+        }
+      ],
+      "reviewerNote": "LS108G：人工回看 Reddit 與 Mobile01 exact-model 查詢中的 1 個原頁候選；逐頁區分故障、設定／互通限制、未確認歸因與交叉貼文後，沒有任一相同問題達到 6 位獨立使用者且跨 2 個原始網站（不代表完全沒有負評）。",
+      "attestation": "manual_original_pages_reviewed",
+      "candidateReviews": [
+        {
+          "platform": "Mobile01",
+          "url": "https://www.mobile01.com/topicdetail.php?f=110&t=6695252",
+          "title": "LS108G 有線回程不穩討論",
+          "sourceExcerpt": "原頁為 TOTOLINK 有線回程不穩案例，回覆者推測 LS108G 可能熱當，但樓主未確認根因。",
+          "independentAuthors": 0,
+          "specificReason": "只有回覆者推測交換器熱當，沒有 LS108G 擁有者確認根因，且拓樸仍有其他變因，因此不計入使用者人數。",
+          "outcome": "excluded",
+          "reviewedAt": "2026-08-24",
+          "exactModel": true
+        }
+      ]
+    },
+    {
+      "id": "network-switch-zyxel-gs-108b-v5",
+      "category": "network-switch",
+      "brand": "Zyxel",
+      "model": "GS-108B v5",
+      "reviewedAt": "2026-08-24",
+      "reviewBatch": "network-switch",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "Reddit",
+        "Mobile01"
+      ],
+      "queries": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"GS-108B v5\" issue",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22GS-108B%20v5%22%20issue",
+          "targetHost": "reddit.com"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"GS-108B v5\" 問題",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22GS-108B%20v5%22%20%E5%95%8F%E9%A1%8C",
+          "targetHost": "mobile01.com"
+        }
+      ],
+      "candidateDisposition": "GS-108B v5：人工覆核 Reddit 與 Mobile01 的 exact-model 查詢；兩站均無可計入的 exact-model 原頁候選，可辨識獨立使用者 0、原始網站 0，未達同症狀 6 人／2 站門檻（不代表完全沒有負評）。",
+      "representativeSources": [],
+      "reviewerNote": "GS-108B v5：人工覆核 Reddit 與 Mobile01 的 exact-model 查詢；兩站均無可計入的 exact-model 原頁候選，可辨識獨立使用者 0、原始網站 0，未達同症狀 6 人／2 站門檻（不代表完全沒有負評）。",
+      "attestation": "manual_cross_site_search_reviewed_no_candidate",
+      "candidateReviews": []
+    },
+    {
+      "id": "network-switch-dlink-dgs-108",
+      "category": "network-switch",
+      "brand": "D-Link",
+      "model": "DGS-108",
+      "reviewedAt": "2026-08-24",
+      "reviewBatch": "network-switch",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "Reddit",
+        "Mobile01"
+      ],
+      "queries": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"DGS-108\" issue",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22DGS-108%22%20issue",
+          "targetHost": "reddit.com"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"DGS-108\" 問題",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22DGS-108%22%20%E5%95%8F%E9%A1%8C",
+          "targetHost": "mobile01.com"
+        }
+      ],
+      "candidateDisposition": "DGS-108：人工回看 Reddit 與 Mobile01 exact-model 查詢中的 1 個原頁候選；逐頁區分故障、設定／互通限制、未確認歸因與交叉貼文後，沒有任一相同問題達到 6 位獨立使用者且跨 2 個原始網站（不代表完全沒有負評）。",
+      "representativeSources": [
+        {
+          "platform": "Mobile01",
+          "url": "https://www.mobile01.com/topicdetail.php?f=110&t=7031976",
+          "title": "DGS-108 僅協商 100Mbps 個案"
+        }
+      ],
+      "reviewerNote": "DGS-108：人工回看 Reddit 與 Mobile01 exact-model 查詢中的 1 個原頁候選；逐頁區分故障、設定／互通限制、未確認歸因與交叉貼文後，沒有任一相同問題達到 6 位獨立使用者且跨 2 個原始網站（不代表完全沒有負評）。",
+      "attestation": "manual_original_pages_reviewed",
+      "candidateReviews": [
+        {
+          "platform": "Mobile01",
+          "url": "https://www.mobile01.com/topicdetail.php?f=110&t=7031976",
+          "title": "DGS-108 僅協商 100Mbps 個案",
+          "sourceExcerpt": "原頁一位 DGS-108 擁有者回報連線只能跑 100Mbps，回覆者推測可能為晶片故障。",
+          "independentAuthors": 1,
+          "specificReason": "只有 1 位第一人稱作者，故障原因仍屬推測，且沒有第二站同症回報，未達 6 人／2 站。",
+          "outcome": "excluded",
+          "reviewedAt": "2026-08-24",
+          "exactModel": true
+        }
+      ]
+    },
+    {
+      "id": "network-switch-tplink-tl-sg108-m2",
+      "category": "network-switch",
+      "brand": "TP-Link",
+      "model": "TL-SG108-M2",
+      "reviewedAt": "2026-08-24",
+      "reviewBatch": "network-switch",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "Reddit",
+        "Mobile01"
+      ],
+      "queries": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"TL-SG108-M2\" issue",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22TL-SG108-M2%22%20issue",
+          "targetHost": "reddit.com"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"TL-SG108-M2\" 問題",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22TL-SG108-M2%22%20%E5%95%8F%E9%A1%8C",
+          "targetHost": "mobile01.com"
+        }
+      ],
+      "candidateDisposition": "TL-SG108-M2：人工回看 Reddit 與 Mobile01 exact-model 查詢中的 4 個原頁候選；逐頁區分故障、設定／互通限制、未確認歸因與交叉貼文後，沒有任一相同問題達到 6 位獨立使用者且跨 2 個原始網站（不代表完全沒有負評）。",
+      "representativeSources": [
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/TpLink/comments/15rg0kc",
+          "title": "TL-SG108-M2 快速故障回報"
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/HomeNetworking/comments/15rg1r8",
+          "title": "TL-SG108-M2 快速故障交叉貼文"
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/TpLink/comments/196zrhg",
+          "title": "TL-SG108-M2 2.5G 降至 1G 個案"
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/eero/comments/vlz3oa",
+          "title": "TL-SG108-M2 與 Eero 互通個案"
+        }
+      ],
+      "reviewerNote": "TL-SG108-M2：人工回看 Reddit 與 Mobile01 exact-model 查詢中的 4 個原頁候選；逐頁區分故障、設定／互通限制、未確認歸因與交叉貼文後，沒有任一相同問題達到 6 位獨立使用者且跨 2 個原始網站（不代表完全沒有負評）。",
+      "attestation": "manual_original_pages_reviewed",
+      "candidateReviews": [
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/TpLink/comments/15rg0kc",
+          "title": "TL-SG108-M2 快速故障回報",
+          "sourceExcerpt": "原頁樓主回報 TL-SG108-M2 短期內失效；留言另有一位作者表示兩台在半年內故障。",
+          "independentAuthors": 2,
+          "specificReason": "此頁可辨識 2 位作者／3 台，但仍少於 6 人，且 Mobile01、PTT、Dcard 查無同症原頁，未跨兩站。",
+          "outcome": "excluded",
+          "reviewedAt": "2026-08-24",
+          "exactModel": true
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/HomeNetworking/comments/15rg1r8",
+          "title": "TL-SG108-M2 快速故障交叉貼文",
+          "sourceExcerpt": "原頁內容與 TpLink 子版快速故障貼文為同一作者的交叉貼文，不是新增獨立使用者。",
+          "independentAuthors": 1,
+          "specificReason": "與另一 Reddit 原頁為同一作者／同一內容，需以同一 crossPostKey 去重，不能重複增加人數。",
+          "outcome": "excluded",
+          "reviewedAt": "2026-08-24",
+          "exactModel": true
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/TpLink/comments/196zrhg",
+          "title": "TL-SG108-M2 2.5G 降至 1G 個案",
+          "sourceExcerpt": "原頁一位 TL-SG108-M2 使用者描述 2.5G 連線只協商到 1G。",
+          "independentAuthors": 1,
+          "specificReason": "只有 1 位作者，且此降速問題不同於快速故障；未形成 6 位跨兩站的相同問題。",
+          "outcome": "excluded",
+          "reviewedAt": "2026-08-24",
+          "exactModel": true
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/eero/comments/vlz3oa",
+          "title": "TL-SG108-M2 與 Eero 互通個案",
+          "sourceExcerpt": "原頁一位使用者描述 TL-SG108-M2 與 Eero 串接的互通問題。",
+          "independentAuthors": 1,
+          "specificReason": "屬單一跨品牌互通案例，與快速故障或降速不是同一問題，且沒有第二站同症。",
+          "outcome": "excluded",
+          "reviewedAt": "2026-08-24",
+          "exactModel": true
+        }
+      ]
+    },
+    {
+      "id": "network-switch-tplink-tl-sg108e",
+      "category": "network-switch",
+      "brand": "TP-Link",
+      "model": "TL-SG108E",
+      "reviewedAt": "2026-08-24",
+      "reviewBatch": "network-switch",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "Reddit",
+        "Mobile01"
+      ],
+      "queries": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"TL-SG108E\" issue",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22TL-SG108E%22%20issue",
+          "targetHost": "reddit.com"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"TL-SG108E\" 問題",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22TL-SG108E%22%20%E5%95%8F%E9%A1%8C",
+          "targetHost": "mobile01.com"
+        }
+      ],
+      "candidateDisposition": "TL-SG108E：人工回看 Reddit 與 Mobile01 exact-model 查詢中的 3 個原頁候選；逐頁區分故障、設定／互通限制、未確認歸因與交叉貼文後，沒有任一相同問題達到 6 位獨立使用者且跨 2 個原始網站（不代表完全沒有負評）。",
+      "representativeSources": [
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/HomeNetworking/comments/1ay7r30",
+          "title": "TL-SG108E 間歇斷線個案"
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/TpLink/comments/108gi68",
+          "title": "TL-SG108E 韌體更新後管理介面個案"
+        },
+        {
+          "platform": "Mobile01",
+          "url": "https://www.mobile01.com/topicdetail.php?f=110&t=7189138",
+          "title": "TL-SG108E 舊機埠降為 100Mbps 個案"
+        }
+      ],
+      "reviewerNote": "TL-SG108E：人工回看 Reddit 與 Mobile01 exact-model 查詢中的 3 個原頁候選；逐頁區分故障、設定／互通限制、未確認歸因與交叉貼文後，沒有任一相同問題達到 6 位獨立使用者且跨 2 個原始網站（不代表完全沒有負評）。",
+      "attestation": "manual_original_pages_reviewed",
+      "candidateReviews": [
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/HomeNetworking/comments/1ay7r30",
+          "title": "TL-SG108E 間歇斷線個案",
+          "sourceExcerpt": "原頁一位 TL-SG108E 使用者描述連線間歇中斷，未形成同型號多人聚集。",
+          "independentAuthors": 1,
+          "specificReason": "僅 1 位可辨識作者，且未與其他頁形成同一已確認根因的問題；未達 6 人／2 站。",
+          "outcome": "excluded",
+          "reviewedAt": "2026-08-24",
+          "exactModel": true
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/TpLink/comments/108gi68",
+          "title": "TL-SG108E 韌體更新後管理介面個案",
+          "sourceExcerpt": "原頁一位使用者描述 TL-SG108E 更新韌體後無法正常使用管理介面。",
+          "independentAuthors": 1,
+          "specificReason": "屬單一韌體／管理介面個案，與硬體斷線或降速不是同一問題，且只有 1 位作者。",
+          "outcome": "excluded",
+          "reviewedAt": "2026-08-24",
+          "exactModel": true
+        },
+        {
+          "platform": "Mobile01",
+          "url": "https://www.mobile01.com/topicdetail.php?f=110&t=7189138",
+          "title": "TL-SG108E 舊機埠降為 100Mbps 個案",
+          "sourceExcerpt": "原頁一位長期使用者描述老化的 TL-SG108E 單埠只剩 100Mbps。",
+          "independentAuthors": 1,
+          "specificReason": "只有 1 位作者且為老機單埠案例；各站候選問題與硬體版號不同，未形成 6 位跨站同症。",
+          "outcome": "excluded",
+          "reviewedAt": "2026-08-24",
+          "exactModel": true
+        }
+      ]
+    },
+    {
+      "id": "network-switch-dlink-dgs-1100-08v2",
+      "category": "network-switch",
+      "brand": "D-Link",
+      "model": "DGS-1100-08V2",
+      "reviewedAt": "2026-08-24",
+      "reviewBatch": "network-switch",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "Reddit",
+        "Mobile01"
+      ],
+      "queries": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"DGS-1100-08V2\" issue",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22DGS-1100-08V2%22%20issue",
+          "targetHost": "reddit.com"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"DGS-1100-08V2\" 問題",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22DGS-1100-08V2%22%20%E5%95%8F%E9%A1%8C",
+          "targetHost": "mobile01.com"
+        }
+      ],
+      "candidateDisposition": "DGS-1100-08V2：人工回看 Reddit 與 Mobile01 exact-model 查詢中的 1 個原頁候選；逐頁區分故障、設定／互通限制、未確認歸因與交叉貼文後，沒有任一相同問題達到 6 位獨立使用者且跨 2 個原始網站（不代表完全沒有負評）。",
+      "representativeSources": [
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/Comcast_Xfinity/comments/1r92mdc",
+          "title": "DGS-1100-08V2 封包重排／重傳個案"
+        }
+      ],
+      "reviewerNote": "DGS-1100-08V2：人工回看 Reddit 與 Mobile01 exact-model 查詢中的 1 個原頁候選；逐頁區分故障、設定／互通限制、未確認歸因與交叉貼文後，沒有任一相同問題達到 6 位獨立使用者且跨 2 個原始網站（不代表完全沒有負評）。",
+      "attestation": "manual_original_pages_reviewed",
+      "candidateReviews": [
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/Comcast_Xfinity/comments/1r92mdc",
+          "title": "DGS-1100-08V2 封包重排／重傳個案",
+          "sourceExcerpt": "原頁一位作者懷疑 DGS-1100-08V2 造成封包重排與重傳，但大樓 MAC 綁定使其無法繞過交換器比對。",
+          "independentAuthors": 1,
+          "specificReason": "只有 1 位作者且無法以繞過交換器的對照測試確認根因，沒有第二站同症，未達門檻。",
+          "outcome": "excluded",
+          "reviewedAt": "2026-08-24",
+          "exactModel": true
+        }
+      ]
+    },
+    {
+      "id": "network-switch-zyxel-gs1200-8",
+      "category": "network-switch",
+      "brand": "Zyxel",
+      "model": "GS1200-8",
+      "reviewedAt": "2026-08-24",
+      "reviewBatch": "network-switch",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "Reddit",
+        "Mobile01"
+      ],
+      "queries": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"GS1200-8\" issue",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22GS1200-8%22%20issue",
+          "targetHost": "reddit.com"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"GS1200-8\" 問題",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22GS1200-8%22%20%E5%95%8F%E9%A1%8C",
+          "targetHost": "mobile01.com"
+        }
+      ],
+      "candidateDisposition": "GS1200-8：人工回看 Reddit 與 Mobile01 exact-model 查詢中的 2 個原頁候選；逐頁區分故障、設定／互通限制、未確認歸因與交叉貼文後，沒有任一相同問題達到 6 位獨立使用者且跨 2 個原始網站（不代表完全沒有負評）。",
+      "representativeSources": [
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/complaints/comments/1efu37o",
+          "title": "GS1200-8 PoE+ 名稱誤解抱怨"
+        },
+        {
+          "platform": "Mobile01",
+          "url": "https://www.mobile01.com/topicdetail.php?f=110&t=6665363",
+          "title": "GS1200-8 VLAN／100Mbps 設定討論"
+        }
+      ],
+      "reviewerNote": "GS1200-8：人工回看 Reddit 與 Mobile01 exact-model 查詢中的 2 個原頁候選；逐頁區分故障、設定／互通限制、未確認歸因與交叉貼文後，沒有任一相同問題達到 6 位獨立使用者且跨 2 個原始網站（不代表完全沒有負評）。",
+      "attestation": "manual_original_pages_reviewed",
+      "candidateReviews": [
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/complaints/comments/1efu37o",
+          "title": "GS1200-8 PoE+ 名稱誤解抱怨",
+          "sourceExcerpt": "原頁抱怨 GS1200-8 名稱與 PoE+ 期待不符，內容不是同型號的耐用性或故障回報。",
+          "independentAuthors": 1,
+          "specificReason": "候選是產品命名／PoE 功能誤解，不是交換器故障或耐用問題，不能併入任何集中災情計數。",
+          "outcome": "excluded",
+          "reviewedAt": "2026-08-24",
+          "exactModel": true
+        },
+        {
+          "platform": "Mobile01",
+          "url": "https://www.mobile01.com/topicdetail.php?f=110&t=6665363",
+          "title": "GS1200-8 VLAN／100Mbps 設定討論",
+          "sourceExcerpt": "原頁描述 GS1200-8 的 VLAN 與 100Mbps 現象，設定方式及線材仍未完成排除。",
+          "independentAuthors": 1,
+          "specificReason": "設定與線材變因尚未隔離，只有 1 位作者，也沒有第二站足量同症回報，未達門檻。",
+          "outcome": "excluded",
+          "reviewedAt": "2026-08-24",
+          "exactModel": true
+        }
+      ]
+    },
+    {
+      "id": "network-switch-netgear-gs108e",
+      "category": "network-switch",
+      "brand": "NETGEAR",
+      "model": "GS108E",
+      "reviewedAt": "2026-08-24",
+      "reviewBatch": "network-switch",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "Reddit",
+        "Mobile01"
+      ],
+      "queries": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com v3 \"GS108E\" issue",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20v3%20%22GS108E%22%20issue",
+          "targetHost": "reddit.com"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com v3 \"GS108E\" 問題",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20v3%20%22GS108E%22%20%E5%95%8F%E9%A1%8C",
+          "targetHost": "mobile01.com"
+        }
+      ],
+      "candidateDisposition": "GS108E：人工回看 Reddit 與 Mobile01 exact-model 查詢中的 2 個原頁候選；逐頁區分故障、設定／互通限制、未確認歸因與交叉貼文後，沒有任一相同問題達到 6 位獨立使用者且跨 2 個原始網站（不代表完全沒有負評）。",
+      "representativeSources": [
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/NETGEAR/comments/hqiu7a",
+          "title": "GS108E v3 management VLAN 限制討論"
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/UNIFI/comments/1ikk82i",
+          "title": "GS108E v3 在 UniFi 下的 VLAN／管理 IP 討論"
+        }
+      ],
+      "reviewerNote": "GS108E：人工回看 Reddit 與 Mobile01 exact-model 查詢中的 2 個原頁候選；逐頁區分故障、設定／互通限制、未確認歸因與交叉貼文後，沒有任一相同問題達到 6 位獨立使用者且跨 2 個原始網站（不代表完全沒有負評）。",
+      "attestation": "manual_original_pages_reviewed",
+      "candidateReviews": [
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/NETGEAR/comments/hqiu7a",
+          "title": "GS108E v3 management VLAN 限制討論",
+          "sourceExcerpt": "原頁一位 GS108E v3 使用者描述 management VLAN 無法依期待跨 tagged trunk。",
+          "independentAuthors": 1,
+          "specificReason": "屬 Plus 系列管理功能／設定限制而非硬體集中故障，只有 1 位作者且沒有第二站同症。",
+          "outcome": "excluded",
+          "reviewedAt": "2026-08-24",
+          "exactModel": true
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/UNIFI/comments/1ikk82i",
+          "title": "GS108E v3 在 UniFi 下的 VLAN／管理 IP 討論",
+          "sourceExcerpt": "原頁一位使用者描述 GS108E v3 與 UniFi 搭配時的 VLAN 及管理 IP 問題。",
+          "independentAuthors": 1,
+          "specificReason": "屬設定與跨品牌互通個案，與另一頁也未形成 6 位作者，且沒有第二個原始網站的同症。",
+          "outcome": "excluded",
+          "reviewedAt": "2026-08-24",
+          "exactModel": true
+        }
+      ]
+    },
+    {
+      "id": "network-switch-tplink-es208g",
+      "category": "network-switch",
+      "brand": "TP-Link",
+      "model": "ES208G",
+      "reviewedAt": "2026-08-24",
+      "reviewBatch": "network-switch",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "TP-Link Community",
+        "Reddit",
+        "YouTube"
+      ],
+      "queries": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"ES208G\" (issue OR problem OR bug)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22ES208G%22%20(issue%20OR%20problem%20OR%20bug)",
+          "targetHost": "reddit.com"
+        },
+        {
+          "platform": "YouTube",
+          "query": "\"ES208G\" issue problem bug",
+          "queryUrl": "https://www.youtube.com/results?search_query=%22ES208G%22%20issue%20problem%20bug",
+          "targetHost": "youtube.com"
+        }
+      ],
+      "candidateDisposition": "ES208G：人工覆核 TP-Link Community 兩個 exact-model 原頁，分別只有 1 位同型號第一人稱回報，且問題不同；Reddit 與 YouTube 未找到可形成第二原始網站門檻的 exact-model 候選，未達同症狀 6 人／2 站門檻。",
+      "representativeSources": [
+        {
+          "platform": "TP-Link Community",
+          "title": "ES208G Switch count traffic on wrong mac address.",
+          "url": "https://community.tp-link.com/en/business/forum/topic/840804"
+        },
+        {
+          "platform": "TP-Link Community",
+          "title": "ES208G v1.0 (NEW PRODUCT) - IP addresses not display against clients in Omada Software Controller",
+          "url": "https://community.tp-link.com/en/business/forum/topic/856380"
+        }
+      ],
+      "reviewerNote": "ES208G 已人工回到 TP-Link Community 兩個原頁並覆核 Reddit、YouTube；可辨識同型號第一人稱候選分屬不同症狀且僅在同一網站，決策為 no_common_issue。",
+      "attestation": "manual_original_pages_reviewed",
+      "candidateReviews": [
+        {
+          "url": "https://community.tp-link.com/en/business/forum/topic/840804",
+          "title": "ES208G Switch count traffic on wrong mac address.",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-24",
+          "sourceExcerpt": "Suvi 回報 ES208G 在 Omada Cloud 的流量會歸到錯誤 MAC；官方覆核網路拓樸後判定為下游 Xiaomi NAT 彙整流量的預期行為。",
+          "independentAuthors": 1,
+          "specificReason": "只有一位同型號持有者，且官方原頁結論指向下游 NAT 拓樸造成的流量歸屬，不是 ES208G 硬體故障；單一網站亦未達門檻。",
+          "platform": "TP-Link Community"
+        },
+        {
+          "url": "https://community.tp-link.com/en/business/forum/topic/856380",
+          "title": "ES208G v1.0 (NEW PRODUCT) - IP addresses not display against clients in Omada Software Controller",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-24",
+          "sourceExcerpt": "AlexPdx007 回報 ES208G v1.0 在 Omada Controller 中不顯示連接客戶端 IP 與 Health 資料；官方說明將於後續韌體規劃顯示。",
+          "independentAuthors": 1,
+          "specificReason": "同型號第一人稱回報僅一位，內容屬 Layer 2／Controller 功能限制；其餘回覆未提供獨立 ES208G 持有證據，且仍是同一網站，未達 6 人／2 站。",
+          "platform": "TP-Link Community"
+        }
+      ]
+    },
+    {
+      "id": "network-switch-netgear-ms308",
+      "category": "network-switch",
+      "brand": "NETGEAR",
+      "model": "MS308",
+      "reviewedAt": "2026-08-24",
+      "reviewBatch": "network-switch",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "Reddit",
+        "Mobile01"
+      ],
+      "queries": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"MS308\" issue",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22MS308%22%20issue",
+          "targetHost": "reddit.com"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"MS308\" 問題",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22MS308%22%20%E5%95%8F%E9%A1%8C",
+          "targetHost": "mobile01.com"
+        }
+      ],
+      "candidateDisposition": "MS308：人工回看 Reddit 與 Mobile01 exact-model 查詢中的 2 個原頁候選；逐頁區分故障、設定／互通限制、未確認歸因與交叉貼文後，沒有任一相同問題達到 6 位獨立使用者且跨 2 個原始網站（不代表完全沒有負評）。",
+      "representativeSources": [
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/orbi/comments/1ij6yb5",
+          "title": "MS308 與 Orbi 每日異常個案"
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/NETGEAR/comments/1jqolox",
+          "title": "MS308 僅協商 1G 個案"
+        }
+      ],
+      "reviewerNote": "MS308：人工回看 Reddit 與 Mobile01 exact-model 查詢中的 2 個原頁候選；逐頁區分故障、設定／互通限制、未確認歸因與交叉貼文後，沒有任一相同問題達到 6 位獨立使用者且跨 2 個原始網站（不代表完全沒有負評）。",
+      "attestation": "manual_original_pages_reviewed",
+      "candidateReviews": [
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/orbi/comments/1ij6yb5",
+          "title": "MS308 與 Orbi 每日異常個案",
+          "sourceExcerpt": "原頁一位使用者描述接入 MS308 後 Orbi 無線每日異常，但改用 GS108 仍能重現。",
+          "independentAuthors": 1,
+          "specificReason": "更換為 GS108 後仍能重現，較像 Orbi 或拓樸問題，不能歸因於 MS308；也僅 1 位作者。",
+          "outcome": "excluded",
+          "reviewedAt": "2026-08-24",
+          "exactModel": true
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/NETGEAR/comments/1jqolox",
+          "title": "MS308 僅協商 1G 個案",
+          "sourceExcerpt": "原頁一位 MS308 使用者描述多 Gigabit 連線只協商至 1G。",
+          "independentAuthors": 1,
+          "specificReason": "只有 1 位作者，與 Orbi 異常不是同一問題，且 Mobile01 查無同症候選，未達門檻。",
+          "outcome": "excluded",
+          "reviewedAt": "2026-08-24",
+          "exactModel": true
+        }
+      ]
+    },
+    {
+      "id": "network-switch-zyxel-xmg-108",
+      "category": "network-switch",
+      "brand": "Zyxel",
+      "model": "XMG-108",
+      "reviewedAt": "2026-08-24",
+      "reviewBatch": "network-switch",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "Reddit",
+        "Mobile01"
+      ],
+      "queries": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"XMG-108\" issue",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22XMG-108%22%20issue",
+          "targetHost": "reddit.com"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"XMG-108\" 問題",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22XMG-108%22%20%E5%95%8F%E9%A1%8C",
+          "targetHost": "mobile01.com"
+        }
+      ],
+      "candidateDisposition": "XMG-108：人工覆核 Reddit 與 Mobile01 的 exact-model 查詢；兩站均無可計入的 exact-model 原頁候選，可辨識獨立使用者 0、原始網站 0，未達同症狀 6 人／2 站門檻（不代表完全沒有負評）。",
+      "representativeSources": [],
+      "reviewerNote": "XMG-108：人工覆核 Reddit 與 Mobile01 的 exact-model 查詢；兩站均無可計入的 exact-model 原頁候選，可辨識獨立使用者 0、原始網站 0，未達同症狀 6 人／2 站門檻（不代表完全沒有負評）。",
+      "attestation": "manual_cross_site_search_reviewed_no_candidate",
+      "candidateReviews": []
+    },
+    {
+      "id": "network-switch-netgear-ms308e",
+      "category": "network-switch",
+      "brand": "NETGEAR",
+      "model": "MS308E",
+      "reviewedAt": "2026-08-24",
+      "reviewBatch": "network-switch",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "Reddit",
+        "Mobile01"
+      ],
+      "queries": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"MS308E\" issue",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22MS308E%22%20issue",
+          "targetHost": "reddit.com"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"MS308E\" 問題",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22MS308E%22%20%E5%95%8F%E9%A1%8C",
+          "targetHost": "mobile01.com"
+        }
+      ],
+      "candidateDisposition": "MS308E：人工覆核 Reddit 與 Mobile01 的 exact-model 查詢；兩站均無可計入的 exact-model 原頁候選，可辨識獨立使用者 0、原始網站 0，未達同症狀 6 人／2 站門檻（不代表完全沒有負評）。",
+      "representativeSources": [],
+      "reviewerNote": "MS308E：人工覆核 Reddit 與 Mobile01 的 exact-model 查詢；兩站均無可計入的 exact-model 原頁候選，可辨識獨立使用者 0、原始網站 0，未達同症狀 6 人／2 站門檻（不代表完全沒有負評）。",
+      "attestation": "manual_cross_site_search_reviewed_no_candidate",
+      "candidateReviews": []
+    },
+    {
+      "id": "network-switch-tplink-sg3210x-m2",
+      "category": "network-switch",
+      "brand": "TP-Link",
+      "model": "SG3210X-M2",
+      "reviewedAt": "2026-08-24",
+      "reviewBatch": "network-switch",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "Reddit",
+        "Mobile01"
+      ],
+      "queries": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"SG3210X-M2\" issue",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22SG3210X-M2%22%20issue",
+          "targetHost": "reddit.com"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"SG3210X-M2\" 問題",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22SG3210X-M2%22%20%E5%95%8F%E9%A1%8C",
+          "targetHost": "mobile01.com"
+        }
+      ],
+      "candidateDisposition": "SG3210X-M2：人工回看 Reddit 與 Mobile01 exact-model 查詢中的 1 個原頁候選；逐頁區分故障、設定／互通限制、未確認歸因與交叉貼文後，沒有任一相同問題達到 6 位獨立使用者且跨 2 個原始網站（不代表完全沒有負評）。",
+      "representativeSources": [
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/TPLink_Omada/comments/1b1ch88",
+          "title": "SG3210X-M2 新 MAC 裝置接入後埠停止工作個案"
+        }
+      ],
+      "reviewerNote": "SG3210X-M2：人工回看 Reddit 與 Mobile01 exact-model 查詢中的 1 個原頁候選；逐頁區分故障、設定／互通限制、未確認歸因與交叉貼文後，沒有任一相同問題達到 6 位獨立使用者且跨 2 個原始網站（不代表完全沒有負評）。",
+      "attestation": "manual_original_pages_reviewed",
+      "candidateReviews": [
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/TPLink_Omada/comments/1b1ch88",
+          "title": "SG3210X-M2 新 MAC 裝置接入後埠停止工作個案",
+          "sourceExcerpt": "原頁一位 SG3210X-M2 使用者描述新 MAC 裝置插入後 port 停止工作；同串其他擁有者回報穩定。",
+          "independentAuthors": 1,
+          "specificReason": "只有 1 位 exact-model 作者，同串 XHP-M2 為不同 PoE 型號且其他擁有者回報穩定，沒有跨站同症。",
+          "outcome": "excluded",
+          "reviewedAt": "2026-08-24",
+          "exactModel": true
+        }
+      ]
+    },
+    {
+      "id": "network-switch-qnap-qsw-l3208-2c6t",
+      "category": "network-switch",
+      "brand": "QNAP",
+      "model": "QSW-L3208-2C6T",
+      "reviewedAt": "2026-08-24",
+      "reviewBatch": "network-switch",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "Reddit",
+        "Mobile01"
+      ],
+      "queries": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"QSW-L3208-2C6T\" issue",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22QSW-L3208-2C6T%22%20issue",
+          "targetHost": "reddit.com"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"QSW-L3208-2C6T\" 問題",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22QSW-L3208-2C6T%22%20%E5%95%8F%E9%A1%8C",
+          "targetHost": "mobile01.com"
+        }
+      ],
+      "candidateDisposition": "QSW-L3208-2C6T：人工回看 Reddit 與 Mobile01 exact-model 查詢中的 1 個原頁候選；逐頁區分故障、設定／互通限制、未確認歸因與交叉貼文後，沒有任一相同問題達到 6 位獨立使用者且跨 2 個原始網站（不代表完全沒有負評）。",
+      "representativeSources": [
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/qnap/comments/1poeq7z",
+          "title": "QSW-L3208-2C6T management VLAN 限制個案"
+        }
+      ],
+      "reviewerNote": "QSW-L3208-2C6T：人工回看 Reddit 與 Mobile01 exact-model 查詢中的 1 個原頁候選；逐頁區分故障、設定／互通限制、未確認歸因與交叉貼文後，沒有任一相同問題達到 6 位獨立使用者且跨 2 個原始網站（不代表完全沒有負評）。",
+      "attestation": "manual_original_pages_reviewed",
+      "candidateReviews": [
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/qnap/comments/1poeq7z",
+          "title": "QSW-L3208-2C6T management VLAN 限制個案",
+          "sourceExcerpt": "原頁一位使用者描述 QSW-L3208-2C6T 無法把 management VLAN 改為 VLAN 10。",
+          "independentAuthors": 1,
+          "specificReason": "屬單一管理功能限制個案，Mobile01 exact-model 使用分享沒有同症，未形成 6 位跨站回報。",
+          "outcome": "excluded",
+          "reviewedAt": "2026-08-24",
+          "exactModel": true
+        }
+      ]
+    },
+    {
+      "id": "network-switch-netgear-xs508tm",
+      "category": "network-switch",
+      "brand": "NETGEAR",
+      "model": "XS508TM",
+      "reviewedAt": "2026-08-24",
+      "reviewBatch": "network-switch",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "Reddit",
+        "Mobile01"
+      ],
+      "queries": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"XS508TM\" issue",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22XS508TM%22%20issue",
+          "targetHost": "reddit.com"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"XS508TM\" 問題",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22XS508TM%22%20%E5%95%8F%E9%A1%8C",
+          "targetHost": "mobile01.com"
+        }
+      ],
+      "candidateDisposition": "XS508TM：人工覆核 Reddit 與 Mobile01 的 exact-model 查詢；兩站均無可計入的 exact-model 原頁候選，可辨識獨立使用者 0、原始網站 0，未達同症狀 6 人／2 站門檻（不代表完全沒有負評）。",
+      "representativeSources": [],
+      "reviewerNote": "XS508TM：人工覆核 Reddit 與 Mobile01 的 exact-model 查詢；兩站均無可計入的 exact-model 原頁候選，可辨識獨立使用者 0、原始網站 0，未達同症狀 6 人／2 站門檻（不代表完全沒有負評）。",
+      "attestation": "manual_cross_site_search_reviewed_no_candidate",
+      "candidateReviews": []
+    },
+    {
+      "id": "network-switch-tplink-tl-sx1008",
+      "category": "network-switch",
+      "brand": "TP-Link",
+      "model": "TL-SX1008",
+      "reviewedAt": "2026-08-24",
+      "reviewBatch": "network-switch",
+      "decision": "common_issue",
+      "checkedPlatforms": [
+        "TP-Link Community",
+        "Reddit",
+        "YouTube"
+      ],
+      "queries": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"TL-SX1008\" fan noise",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22TL-SX1008%22%20fan%20noise",
+          "targetHost": "reddit.com"
+        },
+        {
+          "platform": "YouTube",
+          "query": "\"TL-SX1008\" fan noise",
+          "queryUrl": "https://www.youtube.com/results?search_query=%22TL-SX1008%22%20fan%20noise",
+          "targetHost": "youtube.com"
+        }
+      ],
+      "candidateDisposition": "TL-SX1008：人工覆核 TP-Link Community 與 Reddit 四個 exact-model 原頁；風扇噪音／轉速週期性升降共有 6 位可辨識獨立使用者、2 個原始網站，達既有門檻。",
+      "representativeSources": [
+        {
+          "platform": "TP-Link Community",
+          "title": "TL-SX1008 loud fan noise",
+          "url": "https://community.tp-link.com/en/smart-home/forum/topic/264056"
+        },
+        {
+          "platform": "TP-Link Community",
+          "title": "TL-SX1008 Fan Issue",
+          "url": "https://community.tp-link.com/en/business/forum/topic/601442"
+        },
+        {
+          "platform": "Reddit",
+          "title": "10G Switch TL-SX1008",
+          "url": "https://www.reddit.com/r/TpLink/comments/nfzpg9/10g_switch_tlsx1008/"
+        },
+        {
+          "platform": "Reddit",
+          "title": "Netgear XS505M noise level?",
+          "url": "https://www.reddit.com/r/homelab/comments/vsix9e/netgear_xs505m_noise_level/"
+        }
+      ],
+      "reviewerNote": "TL-SX1008 已人工回到四個原始頁逐位核對 exact model、第一人稱持有經驗與作者；6 位獨立使用者跨 TP-Link Community、Reddit，決策為 common_issue。",
+      "attestation": "manual_original_pages_reviewed",
+      "candidateReviews": []
+    },
+    {
+      "id": "network-switch-qnap-qsw-m3216r-8s8t",
+      "category": "network-switch",
+      "brand": "QNAP",
+      "model": "QSW-M3216R-8S8T",
+      "reviewedAt": "2026-08-24",
+      "reviewBatch": "network-switch",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "Reddit",
+        "Mobile01"
+      ],
+      "queries": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"QSW-M3216R-8S8T\" issue",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22QSW-M3216R-8S8T%22%20issue",
+          "targetHost": "reddit.com"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"QSW-M3216R-8S8T\" 問題",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22QSW-M3216R-8S8T%22%20%E5%95%8F%E9%A1%8C",
+          "targetHost": "mobile01.com"
+        }
+      ],
+      "candidateDisposition": "QSW-M3216R-8S8T：人工回看 Reddit 與 Mobile01 exact-model 查詢中的 4 個原頁候選；逐頁區分故障、設定／互通限制、未確認歸因與交叉貼文後，沒有任一相同問題達到 6 位獨立使用者且跨 2 個原始網站（不代表完全沒有負評）。",
+      "representativeSources": [
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/qnap/comments/1irzxo0",
+          "title": "QSW-M3216R-8S8T 重置後找不到 GUI 個案"
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/qnap/comments/1cu2hcj",
+          "title": "QSW-M3216R-8S8T 缺少 SNMP 討論一"
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/qnap/comments/1ayfctq",
+          "title": "QSW-M3216R-8S8T 缺少 SNMP 討論二"
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/qnap/comments/1b1rk8g",
+          "title": "QSW-M3216R-8S8T 韌體更新誤判討論"
+        }
+      ],
+      "reviewerNote": "QSW-M3216R-8S8T：人工回看 Reddit 與 Mobile01 exact-model 查詢中的 4 個原頁候選；逐頁區分故障、設定／互通限制、未確認歸因與交叉貼文後，沒有任一相同問題達到 6 位獨立使用者且跨 2 個原始網站（不代表完全沒有負評）。",
+      "attestation": "manual_original_pages_reviewed",
+      "candidateReviews": [
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/qnap/comments/1irzxo0",
+          "title": "QSW-M3216R-8S8T 重置後找不到 GUI 個案",
+          "sourceExcerpt": "原頁一位使用者重置後找不到管理介面，後續以約 30 秒重置程序解決。",
+          "independentAuthors": 1,
+          "specificReason": "問題以正確重置程序解決，屬單一操作個案，不是持續硬體故障，也沒有第二站同症。",
+          "outcome": "excluded",
+          "reviewedAt": "2026-08-24",
+          "exactModel": true
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/qnap/comments/1cu2hcj",
+          "title": "QSW-M3216R-8S8T 缺少 SNMP 討論一",
+          "sourceExcerpt": "原頁一位擁有者指出 QSW-M3216R-8S8T 缺少預期的 SNMP 管理功能。",
+          "independentAuthors": 1,
+          "specificReason": "SNMP 是公開功能缺項／產品定位限制，不是耐用或故障回報；同站作者數也不足 6 人。",
+          "outcome": "excluded",
+          "reviewedAt": "2026-08-24",
+          "exactModel": true
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/qnap/comments/1ayfctq",
+          "title": "QSW-M3216R-8S8T 缺少 SNMP 討論二",
+          "sourceExcerpt": "原頁另一位使用者詢問 QSW-M3216R-8S8T 的 SNMP 能力與管理限制。",
+          "independentAuthors": 1,
+          "specificReason": "仍屬規格／功能限制而非同一硬體故障，且全部集中於 Reddit，沒有第二原始網站。",
+          "outcome": "excluded",
+          "reviewedAt": "2026-08-24",
+          "exactModel": true
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/qnap/comments/1b1rk8g",
+          "title": "QSW-M3216R-8S8T 韌體更新誤判討論",
+          "sourceExcerpt": "原頁一位使用者對 QSW-M3216R-8S8T 韌體更新狀態產生誤判，未證明硬體故障。",
+          "independentAuthors": 1,
+          "specificReason": "屬韌體版本／操作理解個案，沒有相同故障的 6 位使用者，也未跨兩個原始網站。",
+          "outcome": "excluded",
+          "reviewedAt": "2026-08-24",
+          "exactModel": true
+        }
+      ]
+    },
+    {
       "id": "standingdesk-loctek-f2-120",
       "category": "standingdesk",
       "brand": "Loctek",
@@ -51202,238 +52571,6 @@
       "candidateDisposition": "G50：已完成 Reddit、Mobile01、PTT、Dcard 與 YouTube exact-model 查詢，沒有找到可進入逐頁判讀的購買後原始問題候選。",
       "representativeSources": [],
       "reviewerNote": "G50：已完成 Reddit、Mobile01、PTT、Dcard 與 YouTube exact-model 查詢，沒有找到可進入逐頁判讀的購買後原始問題候選。",
-      "attestation": "manual_cross_site_search_reviewed_no_candidate",
-      "candidateReviews": []
-    },
-    {
-      "id": "robot-electrolux-efr81223",
-      "category": "robot",
-      "brand": "Electrolux",
-      "model": "EFR81223",
-      "reviewedAt": "2026-08-24",
-      "reviewBatch": "robot",
-      "decision": "no_common_issue",
-      "checkedPlatforms": [
-        "Reddit",
-        "Mobile01",
-        "PTT",
-        "Dcard",
-        "YouTube",
-        "Electrolux/TestFreaks",
-        "PChome",
-        "Zeczec"
-      ],
-      "queries": [
-        {
-          "platform": "Reddit",
-          "query": "site:reddit.com \"Electrolux EFR81223\" (problem OR issue OR defect OR failure)",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Electrolux%20EFR81223%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
-          "targetHost": "reddit.com"
-        },
-        {
-          "platform": "Mobile01",
-          "query": "site:mobile01.com \"Electrolux EFR81223\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Electrolux%20EFR81223%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
-          "targetHost": "mobile01.com"
-        },
-        {
-          "platform": "PTT",
-          "query": "site:ptt.cc \"Electrolux EFR81223\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22Electrolux%20EFR81223%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
-          "targetHost": "ptt.cc"
-        },
-        {
-          "platform": "Dcard",
-          "query": "site:dcard.tw \"Electrolux EFR81223\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22Electrolux%20EFR81223%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
-          "targetHost": "dcard.tw"
-        },
-        {
-          "platform": "YouTube",
-          "query": "\"Electrolux EFR81223\" problem issue defect failure broken 災情 故障 異常",
-          "queryUrl": "https://www.youtube.com/results?search_query=%22Electrolux%20EFR81223%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
-          "targetHost": "youtube.com"
-        }
-      ],
-      "candidateDisposition": "EFR81223：人工跨站搜尋未見 Reddit、Mobile01、PTT、Dcard 或 YouTube 的 exact-model 問題頁；人工讀取 Electrolux 官方頁使用的 TestFreaks feed（52 ratings／42 則文字）後，NA、oo、莊家豪、Lena、Yuh ting Chen 共 5 位集中提到拖布／集水盤積水或誤報，但只在單一原始評論 feed；App 行為約 4 位且症狀不完全相同，PChome 另僅 1 位語音／紀錄候選，Zeczec 無可辨識作者，均未達同一問題 6 人且跨 2 個原始網站。",
-      "representativeSources": [
-        {
-          "platform": "Electrolux/TestFreaks",
-          "title": "Electrolux EFR81223 官方評論 feed：拖布盤積水或誤報候選",
-          "url": "https://www.electrolux.com.tw/appliances/robot-vacuums/efr81223/"
-        },
-        {
-          "platform": "Electrolux/TestFreaks",
-          "title": "Electrolux EFR81223 官方評論：App 行為候選",
-          "url": "https://www.electrolux.com.tw/appliances/robot-vacuums/efr81223/#reviews"
-        },
-        {
-          "platform": "PChome",
-          "title": "Electrolux EFR81223 PChome 購買者評價",
-          "url": "https://24h.pchome.com.tw/prod/DMBL5X-A900K8CTK"
-        },
-        {
-          "platform": "Zeczec",
-          "title": "Electrolux EFR81223 App 4.21 更新說明",
-          "url": "https://www.zeczec.com/projects/electrolux-800-EFR81223/updates/62374"
-        }
-      ],
-      "reviewerNote": "EFR81223：人工覆核 Electrolux 官方 TestFreaks feed 的 author、date、score、extract；拖布／集水盤候選為 NA（07-22，1星）、oo（07-02，1星）、莊家豪（06-17，1星）、Lena（06-17，3星）、Yuh ting Chen（06-06，1星）共 5 人但只有單一原始 feed。App 候選為柏全、Jason、oo、Yuh ting Chen 約 4 人且行為不同；PChome 馮**（08-22，3星）為另一種語音／紀錄落差，故維持 no_common_issue。",
-      "attestation": "manual_original_pages_reviewed",
-      "candidateReviews": [
-        {
-          "platform": "Electrolux/TestFreaks",
-          "url": "https://www.electrolux.com.tw/appliances/robot-vacuums/efr81223/",
-          "title": "Electrolux EFR81223 官方評論 feed：拖布盤積水或誤報候選",
-          "outcome": "excluded",
-          "exactModel": true,
-          "reviewedAt": "2026-08-24",
-          "sourceExcerpt": "官方 EFR81223 評論 feed：NA（2026-07-22，1/5）稱每次都報拖布盤積水；oo（2026-07-02，1/5）稱抹布盤每天積水；莊家豪（2026-06-17，1/5）稱清潔一輪即誤報托盤已滿；Lena（2026-06-17，3/5）稱每次洗拖布後都顯示集水盤積水；Yuh ting Chen（2026-06-06，1/5）稱同時掃拖回站必報積水但拆開未見積水。",
-          "independentAuthors": 5,
-          "specificReason": "同一拖布／集水盤問題可辨識 5 位 exact-model 作者，但全部來自 Electrolux 官方頁所使用的同一 TestFreaks 原始評論 feed；未跨第二個獨立原始網站，因此不得標為 common_issue。",
-          "reproducibleSourceUrl": "https://cr.testfreaks.com/reviews/page.json?client_id=electrolux.com.tw&limit=100&mapping_ids%5B%5D=14847778&sort=date",
-          "sourceLocator": "TestFreaks mapping_id 14847778；依 author、date、score 與 extract 重現，不宣稱 feedback_url 為永久連結。"
-        },
-        {
-          "platform": "Electrolux/TestFreaks",
-          "url": "https://www.electrolux.com.tw/appliances/robot-vacuums/efr81223/#reviews",
-          "title": "Electrolux EFR81223 官方評論：App 行為候選",
-          "outcome": "excluded",
-          "exactModel": true,
-          "reviewedAt": "2026-08-24",
-          "sourceExcerpt": "官方 EFR81223 評論 feed：柏全（2026-08-07，2/5）稱透過 App 或按鈕都曾無法停止；Jason（2026-07-04，1/5）稱 App 時常當機；oo（2026-07-02，1/5）稱機器狀態與 App 通知不同步；Yuh ting Chen（2026-06-06，1/5）稱 App 當機、設定跳回與分區變全掃，四人的 App 行為並非完全相同。",
-          "independentAuthors": 4,
-          "specificReason": "可辨識約 4 位作者涉及不同 App 行為，仍少於同一問題 6 人；官方頁與 TestFreaks API 是同一評論 feed，不能算成兩站，PChome 作者的語音／紀錄落差也不能與各種 App 症狀直接合併。",
-          "reproducibleSourceUrl": "https://cr.testfreaks.com/reviews/page.json?client_id=electrolux.com.tw&limit=100&mapping_ids%5B%5D=14847778&sort=date",
-          "sourceLocator": "TestFreaks mapping_id 14847778；依 author、date、score 與 extract 重現，不宣稱 feedback_url 為永久連結。"
-        },
-        {
-          "platform": "PChome",
-          "url": "https://24h.pchome.com.tw/prod/DMBL5X-A900K8CTK",
-          "title": "Electrolux EFR81223 PChome 購買者評價",
-          "outcome": "excluded",
-          "exactModel": true,
-          "reviewedAt": "2026-08-24",
-          "sourceExcerpt": "PChome 作者馮**（2026-08-22，3/5）表示 App 介面與功能設定不直覺，曾遇到語音動作和實際動作不同、清掃紀錄未記錄，但也明載最後完成清掃且打掃乾淨。",
-          "independentAuthors": 1,
-          "specificReason": "只有 1 位可辨識的 exact-model 第一人稱作者，且同頁沒有其他獨立購買者確認相同 App 症狀；此人的語音／紀錄落差也不是官方 feed 五人集中提到的拖布盤問題。"
-        },
-        {
-          "platform": "Zeczec",
-          "url": "https://www.zeczec.com/projects/electrolux-800-EFR81223/updates/62374",
-          "title": "Electrolux EFR81223 App 4.21 更新說明",
-          "outcome": "excluded",
-          "exactModel": true,
-          "reviewedAt": "2026-08-24",
-          "sourceExcerpt": "品牌專案更新表示部分消費者反映 App 連線速度較慢或無法使用，並說明 2026-05-06 上線的 App 4.21 已修正連線與反應問題。",
-          "independentAuthors": 0,
-          "specificReason": "這是品牌對未具名集合回饋的修正公告，沒有作者、permalink 或可去重第一人稱原文，不能把「部分消費者」推算為人數；也不能與各自不同的官方評論及 PChome 症狀合併。"
-        }
-      ]
-    },
-    {
-      "id": "dishwasher-bosch-smi4ecs00x",
-      "category": "dishwasher",
-      "brand": "Bosch",
-      "model": "SMI4ECS00X",
-      "reviewedAt": "2026-08-24",
-      "reviewBatch": "dishwasher",
-      "decision": "no_common_issue",
-      "checkedPlatforms": [
-        "Reddit",
-        "Mobile01",
-        "PTT",
-        "Dcard",
-        "YouTube"
-      ],
-      "queries": [
-        {
-          "platform": "Reddit",
-          "query": "site:reddit.com \"Bosch SMI4ECS00X\" (problem OR issue OR defect OR failure)",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Bosch%20SMI4ECS00X%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
-          "targetHost": "reddit.com"
-        },
-        {
-          "platform": "Mobile01",
-          "query": "site:mobile01.com \"Bosch SMI4ECS00X\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Bosch%20SMI4ECS00X%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
-          "targetHost": "mobile01.com"
-        },
-        {
-          "platform": "PTT",
-          "query": "site:ptt.cc \"Bosch SMI4ECS00X\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22Bosch%20SMI4ECS00X%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
-          "targetHost": "ptt.cc"
-        },
-        {
-          "platform": "Dcard",
-          "query": "site:dcard.tw \"Bosch SMI4ECS00X\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22Bosch%20SMI4ECS00X%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
-          "targetHost": "dcard.tw"
-        },
-        {
-          "platform": "YouTube",
-          "query": "\"Bosch SMI4ECS00X\" problem issue defect failure broken 災情 故障 異常",
-          "queryUrl": "https://www.youtube.com/results?search_query=%22Bosch%20SMI4ECS00X%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
-          "targetHost": "youtube.com"
-        }
-      ],
-      "candidateDisposition": "SMI4ECS00X：已逐一人工檢視 Reddit、Mobile01、PTT、Dcard exact-model site 查詢與 YouTube exact-model 查詢，結果只有官方產品、商城、手冊或安裝資訊，沒有可進入逐頁判讀的購買後原始問題候選。",
-      "representativeSources": [],
-      "reviewerNote": "SMI4ECS00X：跨五個平台的 exact-model 查詢沒有找到第一人稱問題候選；相近 Bosch 4 系列、說明書故障排除與通路商品頁均未外推成此完整型號災情。",
-      "attestation": "manual_cross_site_search_reviewed_no_candidate",
-      "candidateReviews": []
-    },
-    {
-      "id": "dishwasher-bosch-smv4ecx00x",
-      "category": "dishwasher",
-      "brand": "Bosch",
-      "model": "SMV4ECX00X",
-      "reviewedAt": "2026-08-24",
-      "reviewBatch": "dishwasher",
-      "decision": "no_common_issue",
-      "checkedPlatforms": [
-        "Reddit",
-        "Mobile01",
-        "PTT",
-        "Dcard",
-        "YouTube"
-      ],
-      "queries": [
-        {
-          "platform": "Reddit",
-          "query": "site:reddit.com \"Bosch SMV4ECX00X\" (problem OR issue OR defect OR failure)",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Bosch%20SMV4ECX00X%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
-          "targetHost": "reddit.com"
-        },
-        {
-          "platform": "Mobile01",
-          "query": "site:mobile01.com \"Bosch SMV4ECX00X\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Bosch%20SMV4ECX00X%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
-          "targetHost": "mobile01.com"
-        },
-        {
-          "platform": "PTT",
-          "query": "site:ptt.cc \"Bosch SMV4ECX00X\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22Bosch%20SMV4ECX00X%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
-          "targetHost": "ptt.cc"
-        },
-        {
-          "platform": "Dcard",
-          "query": "site:dcard.tw \"Bosch SMV4ECX00X\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22Bosch%20SMV4ECX00X%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
-          "targetHost": "dcard.tw"
-        },
-        {
-          "platform": "YouTube",
-          "query": "\"Bosch SMV4ECX00X\" problem issue defect failure broken 災情 故障 異常",
-          "queryUrl": "https://www.youtube.com/results?search_query=%22Bosch%20SMV4ECX00X%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
-          "targetHost": "youtube.com"
-        }
-      ],
-      "candidateDisposition": "SMV4ECX00X：已逐一人工檢視 Reddit、Mobile01、PTT、Dcard exact-model site 查詢與 YouTube exact-model 查詢；結果只有 Bosch 官方支援、手冊、安裝資訊及商品頁，沒有可進入逐頁判讀的購買後原始問題候選。",
-      "representativeSources": [],
-      "reviewerNote": "SMV4ECX00X：跨五個平台的 exact-model 查詢沒有找到第一人稱問題候選；搜尋命中的官方故障排除手冊是一般操作文件，不能當成使用者災情。",
       "attestation": "manual_cross_site_search_reviewed_no_candidate",
       "candidateReviews": []
     }

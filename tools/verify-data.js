@@ -28,6 +28,11 @@ const {
   AIRCON_CAPACITY_BAND_LIMITS,
   WATERHEATER_TYPE_COUNTS,
   WATERHEATER_ELECTRIC_SUBTYPE_COUNTS,
+  NETWORK_SWITCH_TYPE_MIN_COUNTS,
+  NETWORK_SWITCH_MANAGEMENT_VALUES,
+  NETWORK_SWITCH_COOLING_VALUES,
+  NETWORK_SWITCH_TOP_PICK_MODEL,
+  NETWORK_SWITCH_SPEC_PREFIXES,
   AIRCON_SPEC_PREFIXES,
   WATERHEATER_SPEC_PREFIXES,
   JAPANESE_BRAND_ROSTER,
@@ -74,6 +79,14 @@ const { CHECKED_AT } = require("./verified-product-issues");
 const ISSUE_RESEARCH_STATUSES = new Set(["common_issue", "no_common_issue"]);
 const ISSUE_RESEARCH_DATE_PATTERN = /^\d{4}-\d{2}-\d{2}$/;
 const NO_COMMON_ISSUE_SUMMARY = "截至查核日，查無達門檻的集中負評／災情";
+const NETWORK_SWITCH_OFFICIAL_DOMAINS = new Map([
+  ["D-Link", ["dlink.com"]],
+  ["TP-Link", ["tp-link.com"]],
+  ["Mercusys", ["mercusys.com"]],
+  ["Zyxel", ["zyxel.com"]],
+  ["NETGEAR", ["netgear.com"]],
+  ["QNAP", ["qnap.com"]],
+]);
 const REQUESTED_MODELS = new Set(["R-HW620YJ", "LEGEE-Q10 PRO", "LEGEE-Q10PRO", "NA-V170RPH-K", "AQ928"]);
 const JAPANESE_GAP_MODELS = new Set([
   "SDM-27U9M2",
@@ -140,6 +153,17 @@ function isHttpUrl(value) {
   try {
     const parsed = new URL(value);
     return parsed.protocol === "http:" || parsed.protocol === "https:";
+  } catch (_error) {
+    return false;
+  }
+}
+
+function isOfficialNetworkSwitchSpecSource(product) {
+  try {
+    const parsed = new URL(product.switchProfile?.specSourceUrl);
+    const domains = NETWORK_SWITCH_OFFICIAL_DOMAINS.get(product.brand) || [];
+    return parsed.protocol === "https:"
+      && domains.some((domain) => parsed.hostname === domain || parsed.hostname.endsWith(`.${domain}`));
   } catch (_error) {
     return false;
   }
@@ -599,6 +623,82 @@ function validateWaterheaterProduct(product, failures) {
   validateOrderedSpecPrefixes(product, WATERHEATER_SPEC_PREFIXES, failures);
 }
 
+function validateNetworkSwitchProduct(product, failures) {
+  if (product.category !== "network-switch") return;
+
+  validatePriceAndInstallationContract(product, failures, true);
+  assert(NETWORK_SWITCH_TYPE_MIN_COUNTS.has(product.type), `${product.id} has invalid network-switch type: ${product.type}`, failures);
+  const profile = product.switchProfile;
+  assert(profile && typeof profile === "object" && !Array.isArray(profile), `${product.id} requires switchProfile`, failures);
+  if (!profile || typeof profile !== "object" || Array.isArray(profile)) return;
+
+  const expectedKeys = [
+    "cooling",
+    "dimensionsCm",
+    "enclosure",
+    "extraUplinks",
+    "management",
+    "maxPowerW",
+    "mounting",
+    "operatingTemperatureC",
+    "poe",
+    "primaryPortSpeedsGbps",
+    "rj45PortCount",
+    "specSourceUrl",
+    "speedTier",
+  ];
+  assert(
+    JSON.stringify(Object.keys(profile).sort()) === JSON.stringify(expectedKeys),
+    `${product.id} switchProfile keys do not match the contract`,
+    failures,
+  );
+  assert(profile.rj45PortCount === 8, `${product.id} must have exactly 8 primary RJ45 ports`, failures);
+  assert(profile.speedTier === product.type, `${product.id} speedTier must match type`, failures);
+  assert(
+    Array.isArray(profile.primaryPortSpeedsGbps)
+      && profile.primaryPortSpeedsGbps.length > 0
+      && profile.primaryPortSpeedsGbps.every((speed) => Number.isFinite(speed) && speed > 0),
+    `${product.id} requires numeric primary port speeds`,
+    failures,
+  );
+  const requiredTierSpeed = { "1g": 1, "2_5g": 2.5, "10g": 10 }[product.type];
+  assert(profile.primaryPortSpeedsGbps?.includes(requiredTierSpeed), `${product.id} primary ports do not support ${requiredTierSpeed}G`, failures);
+  if (product.type === "10g") {
+    for (const speed of [1, 2.5, 10]) {
+      assert(profile.primaryPortSpeedsGbps.includes(speed), `${product.id} 10G primary ports must also support ${speed}G`, failures);
+    }
+  }
+  assert(Array.isArray(profile.extraUplinks), `${product.id} extraUplinks must be an array`, failures);
+  for (const uplink of profile.extraUplinks || []) {
+    assert(Number.isInteger(uplink?.count) && uplink.count > 0, `${product.id} uplink count must be positive`, failures);
+    assert(typeof uplink?.media === "string" && uplink.media.trim(), `${product.id} uplink media is required`, failures);
+    assert(Array.isArray(uplink?.speedsGbps) && uplink.speedsGbps.length > 0, `${product.id} uplink speeds are required`, failures);
+  }
+  assert(NETWORK_SWITCH_MANAGEMENT_VALUES.has(profile.management), `${product.id} has invalid management type`, failures);
+  assert(profile.poe === false, `${product.id} must not support PoE`, failures);
+  assert(profile.enclosure === "metal", `${product.id} must use a metal enclosure`, failures);
+  assert(NETWORK_SWITCH_COOLING_VALUES.has(profile.cooling), `${product.id} has invalid cooling type`, failures);
+  assert(Number.isFinite(profile.maxPowerW) && profile.maxPowerW > 0, `${product.id} requires positive max power`, failures);
+  assert(
+    Number.isFinite(profile.operatingTemperatureC?.min)
+      && Number.isFinite(profile.operatingTemperatureC?.max)
+      && profile.operatingTemperatureC.max >= 40,
+    `${product.id} requires an official operating-temperature maximum of at least 40C`,
+    failures,
+  );
+  assert(
+    ["width", "depth", "height"].every((key) => Number.isFinite(profile.dimensionsCm?.[key]) && profile.dimensionsCm[key] > 0),
+    `${product.id} requires positive width/depth/height dimensions`,
+    failures,
+  );
+  assert(Array.isArray(profile.mounting) && profile.mounting.length > 0, `${product.id} mounting options are required`, failures);
+  assert(isOfficialNetworkSwitchSpecSource(product), `${product.id} requires an official brand specSourceUrl`, failures);
+  validateOrderedSpecPrefixes(product, NETWORK_SWITCH_SPEC_PREFIXES, failures);
+  assert(product.specs.includes("PoE：不支援"), `${product.id} must disclose that PoE is unsupported`, failures);
+  assert(product.specs.includes("外殼：金屬"), `${product.id} must disclose its metal enclosure`, failures);
+  assert(/台灣|公司貨/u.test(String(product.warranty || "")) && /保固/u.test(String(product.warranty || "")), `${product.id} must state Taiwan warranty`, failures);
+}
+
 function validateProduct(product, categoryIds, failures) {
   for (const field of REQUIRED_FIELDS) {
     assert(product[field] !== undefined && product[field] !== null && product[field] !== "", `${product.id || "(missing id)"} missing ${field}`, failures);
@@ -615,6 +715,7 @@ function validateProduct(product, categoryIds, failures) {
   validatePriceAndInstallationContract(product, failures);
   validateAirconProduct(product, failures);
   validateWaterheaterProduct(product, failures);
+  validateNetworkSwitchProduct(product, failures);
   validateHistoricalLow(product, failures);
   validateIssueResearch(product, failures);
 
@@ -1303,6 +1404,7 @@ function validateDimensionResearch(root, products, failures) {
     "免治馬桶",
     "冷氣",
     "熱水器",
+    "網路交換器",
   ]) {
     assert(
       String(research.sourcePolicy || "").includes(categoryLabel),
@@ -1409,6 +1511,19 @@ function validateCategoryContent(products, failures) {
   for (const product of categoryProducts(products, "wifi")) {
     assert(/wi-fi (6|6e|7)/.test(productText(product)), `${product.id} router missing Wi-Fi 6+ standard`, failures);
   }
+
+  const networkSwitchProducts = categoryProducts(products, "network-switch");
+  assert(networkSwitchProducts.length === 20, `network-switch must contain exactly 20 products, got ${networkSwitchProducts.length}`, failures);
+  for (const [type, minimumCount] of NETWORK_SWITCH_TYPE_MIN_COUNTS) {
+    const count = networkSwitchProducts.filter((product) => product.type === type).length;
+    assert(count >= minimumCount, `network-switch ${type} count must be at least ${minimumCount}, got ${count}`, failures);
+  }
+  const networkSwitchTopPicks = networkSwitchProducts.filter((product) => product.topPick);
+  assert(
+    networkSwitchTopPicks.length === 1 && networkSwitchTopPicks[0].model === NETWORK_SWITCH_TOP_PICK_MODEL,
+    `network-switch Top Pick must be ${NETWORK_SWITCH_TOP_PICK_MODEL}`,
+    failures,
+  );
 
   for (const product of categoryProducts(products, "tv")) {
     assert(productText(product).includes("手機投影："), `${product.id} TV missing mobile casting spec`, failures);
@@ -1899,6 +2014,7 @@ if (require.main === module) main();
 
 module.exports = {
   validateAirconProduct,
+  validateNetworkSwitchProduct,
   validatePriceAndInstallationContract,
   validateWaterheaterProduct,
 };

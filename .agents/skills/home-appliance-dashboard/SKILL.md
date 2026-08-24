@@ -18,7 +18,7 @@ Use a dedicated git worktree and short-lived `codex/` branch for repo changes un
 
 ## GEO And AI Search Workflow
 
-- The site has one generated static guide for every configured category (currently 29) at `/categories/<id>/`; do not create one thin page per product or add tracking for GEO work.
+- The site has one generated static guide for every configured category (currently 30) at `/categories/<id>/`; do not create one thin page per product or add tracking for GEO work.
 - Keep every product discoverable without JavaScript: each generated category guide must include its top-five detailed recommendations plus a compact initial-HTML index of every exact model in that category.
 - Maintain category-level intros, three buying criteria, and three FAQs in `tools/category-guides.js`. Product facts continue to come from `assets/js/config.js` and `products/*.js`.
 - Keep the shared site name, homepage title, description, H1, and visible AI disclosure in `tools/geo-config.js`; metadata, JSON-LD, generated guides, and `llms.txt` must use the same contract.
@@ -26,7 +26,7 @@ Use a dedicated git worktree and short-lived `codex/` branch for repo changes un
 - Category guides must return to the interactive dashboard with `/#category=<id>` fragment state, not crawlable `index.html?category=...` links. Capture that fragment before asynchronous product loading so in-page anchors cannot discard it, and keep existing query-based shared URLs backward-compatible in `assets/js/url-state.js`.
 - Treat `llms.txt` as supplemental discovery context only; it does not guarantee indexing, ranking, or AI citation.
 - Keep all six evidence files in the Pages artifact: `release_date_research.json`, `historical_price_research.json`, `dimension_research.json`, `product_issue_research.json`, `product_issue_report_evidence.json`, and `product_issue_review_manifest.json`.
-- Keep the complete same-date 29-category × 9-brand `japaneseBrandReview` matrix in `catalog_maintenance_latest.json`; use `npm run review:japanese-brands` on the maintenance draft and do not create a seventh public evidence file.
+- Keep the complete same-date 30-category × 9-brand `japaneseBrandReview` matrix in `catalog_maintenance_latest.json`; use `npm run review:japanese-brands` on the maintenance draft and do not create a seventh public evidence file.
 - IndexNow runs only after a successful Pages deployment and is non-blocking. Always inspect its workflow log and report failures accurately.
 
 ## Guardrails

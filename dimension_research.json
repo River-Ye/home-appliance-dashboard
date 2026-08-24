@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-08-24",
-  "sourcePolicy": "電視、Soundbar、洗衣機、烘衣機、洗烘衣機、電子衣櫥、冰箱、咖啡機、多功能氣炸烤箱／微波爐、洗碗機、免治馬桶、冷氣與熱水器共 13 類尺寸，以及電視、Soundbar、咖啡機、多功能氣炸烤箱／微波爐、冷氣與熱水器共 6 類重量研究，皆優先採 exact-model 官方產品頁、官方規格表或官方 PDF，其次為可信新品通路。只採本體／機身／明確組件的尺寸與淨重，排除包裝、外箱尺寸與毛重；來源沒有明示寬／深／高順序時不自行推定。冷氣分列室內機與室外機，熱泵複合熱水器必須分列主機與儲槽；既有各類研究列仍沿用相同 exact-model 邊界。",
+  "sourcePolicy": "電視、Soundbar、洗衣機、烘衣機、洗烘衣機、電子衣櫥、冰箱、咖啡機、多功能氣炸烤箱／微波爐、洗碗機、免治馬桶、冷氣、熱水器與網路交換器共 14 類尺寸，以及電視、Soundbar、咖啡機、多功能氣炸烤箱／微波爐、冷氣與熱水器共 6 類重量研究，皆優先採 exact-model 官方產品頁、官方規格表或官方 PDF，其次為可信新品通路。只採本體／機身／明確組件的尺寸與淨重，排除包裝、外箱尺寸與毛重；來源沒有明示寬／深／高順序時不自行推定。冷氣分列室內機與室外機，熱泵複合熱水器必須分列主機與儲槽；既有各類研究列仍沿用相同 exact-model 邊界。",
   "results": [
     {
       "id": "tv-lg-c5-65",
@@ -3974,6 +3974,26 @@
       "checkedAt": "2026-08-14"
     },
     {
+      "id": "dishwasher-bosch-smi4ecs00x",
+      "dimension": "尺寸：寬 59.8 x 深 57.3 x 高 81.5 cm",
+      "sourceUrl": "https://www.bosch-home.com.tw/zh/mkt-product/dishwashers/built-in-dishwashers/bisemidishwashers60width/SMI4ECS00X",
+      "sourceTitle": "SMI4ECS00X 半嵌式洗碗機 | BOSCH TW",
+      "evidenceSnippet": "Bosch 台灣 exact-model 官方頁明列機體尺寸 HxWxD 815 x 598 x 573 mm；依來源標示順序換寫為寬 59.8 x 深 57.3 x 高 81.5 cm，未使用包裝尺寸。",
+      "confidence": "high",
+      "isOfficialSource": true,
+      "checkedAt": "2026-08-24"
+    },
+    {
+      "id": "dishwasher-bosch-smv4ecx00x",
+      "dimension": "尺寸：寬 59.8 x 深 55 x 高 81.5 cm",
+      "sourceUrl": "https://www.bosch-home.com.tw/zh/mkt-product/dishwashers/built-in-dishwashers/bifulldishwashers60width/SMV4ECX00X",
+      "sourceTitle": "SMV4ECX00X 全嵌式洗碗機 | BOSCH TW",
+      "evidenceSnippet": "Bosch 台灣 exact-model 官方頁明列機體尺寸 HxWxD 815 x 598 x 550 mm；依來源標示順序換寫為寬 59.8 x 深 55 x 高 81.5 cm，未使用包裝尺寸。",
+      "confidence": "high",
+      "isOfficialSource": true,
+      "checkedAt": "2026-08-24"
+    },
+    {
       "id": "waterheater-rinnai-rua-d1620wf",
       "dimension": "尺寸：寬 33 x 深 20 x 高 57.2 cm",
       "sourceUrl": "https://www.rinnai.com.tw/Product/V3/413",
@@ -4956,21 +4976,201 @@
       "weightCheckedAt": "2026-08-20"
     },
     {
-      "id": "dishwasher-bosch-smi4ecs00x",
-      "dimension": "尺寸：寬 59.8 x 深 57.3 x 高 81.5 cm",
-      "sourceUrl": "https://www.bosch-home.com.tw/zh/mkt-product/dishwashers/built-in-dishwashers/bisemidishwashers60width/SMI4ECS00X",
-      "sourceTitle": "SMI4ECS00X 半嵌式洗碗機 | BOSCH TW",
-      "evidenceSnippet": "Bosch 台灣 exact-model 官方頁明列機體尺寸 HxWxD 815 x 598 x 573 mm；依來源標示順序換寫為寬 59.8 x 深 57.3 x 高 81.5 cm，未使用包裝尺寸。",
+      "id": "network-switch-dlink-dms-108",
+      "dimension": "尺寸：寬 14.5 x 深 8.2 x 高 2.8 cm",
+      "sourceUrl": "https://www.dlink.com/tw/zh/products/dms-108",
+      "sourceTitle": "D-Link DMS-108 官方規格",
+      "evidenceSnippet": "DMS-108 官方規格列出機身尺寸 14.5 × 8.2 × 2.8 cm（寬 × 深 × 高）。",
       "confidence": "high",
       "isOfficialSource": true,
       "checkedAt": "2026-08-24"
     },
     {
-      "id": "dishwasher-bosch-smv4ecx00x",
-      "dimension": "尺寸：寬 59.8 x 深 55 x 高 81.5 cm",
-      "sourceUrl": "https://www.bosch-home.com.tw/zh/mkt-product/dishwashers/built-in-dishwashers/bifulldishwashers60width/SMV4ECX00X",
-      "sourceTitle": "SMV4ECX00X 全嵌式洗碗機 | BOSCH TW",
-      "evidenceSnippet": "Bosch 台灣 exact-model 官方頁明列機體尺寸 HxWxD 815 x 598 x 550 mm；依來源標示順序換寫為寬 59.8 x 深 55 x 高 81.5 cm，未使用包裝尺寸。",
+      "id": "network-switch-netgear-gs308",
+      "dimension": "尺寸：寬 15.8 x 深 10.1 x 高 2.9 cm",
+      "sourceUrl": "https://www.netgear.com/business/wired/switches/unmanaged/gs308/",
+      "sourceTitle": "NETGEAR GS308 官方規格",
+      "evidenceSnippet": "GS308 官方規格列出機身尺寸 15.8 × 10.1 × 2.9 cm（寬 × 深 × 高）。",
+      "confidence": "high",
+      "isOfficialSource": true,
+      "checkedAt": "2026-08-24"
+    },
+    {
+      "id": "network-switch-tplink-tl-sg108",
+      "dimension": "尺寸：寬 15.8 x 深 10.1 x 高 2.5 cm",
+      "sourceUrl": "https://www.tp-link.com/tw/business-networking/soho-switch-unmanaged/tl-sg108/v4/?app=t",
+      "sourceTitle": "TP-Link TL-SG108 官方規格",
+      "evidenceSnippet": "TL-SG108 官方規格列出機身尺寸 15.8 × 10.1 × 2.5 cm（寬 × 深 × 高）。",
+      "confidence": "high",
+      "isOfficialSource": true,
+      "checkedAt": "2026-08-24"
+    },
+    {
+      "id": "network-switch-tplink-ls108g",
+      "dimension": "尺寸：寬 15.8 x 深 9.91 x 高 2.5 cm",
+      "sourceUrl": "https://www.tp-link.com/tw/home-networking/soho-switch/ls108g/",
+      "sourceTitle": "TP-Link LS108G 官方規格",
+      "evidenceSnippet": "LS108G 官方規格列出機身尺寸 15.8 × 9.91 × 2.5 cm（寬 × 深 × 高）。",
+      "confidence": "high",
+      "isOfficialSource": true,
+      "checkedAt": "2026-08-24"
+    },
+    {
+      "id": "network-switch-zyxel-gs-108b-v5",
+      "dimension": "尺寸：寬 12.6 x 深 5.18 x 高 2.4 cm",
+      "sourceUrl": "https://www.zyxel.com/us/en-us/products/switch/5-port-8-port-unmanaged-switch-gs-100-series/specifications",
+      "sourceTitle": "Zyxel GS-108B v5 官方規格",
+      "evidenceSnippet": "GS-108B v5 官方規格列出機身尺寸 12.6 × 5.18 × 2.4 cm（寬 × 深 × 高）。",
+      "confidence": "high",
+      "isOfficialSource": true,
+      "checkedAt": "2026-08-24"
+    },
+    {
+      "id": "network-switch-dlink-dgs-108",
+      "dimension": "尺寸：寬 13.865 x 深 8.5 x 高 2.24 cm",
+      "sourceUrl": "https://support.dlink.com/resource/products/DGS-105/REVE/DGS-105-DGS-108_REVE_DATASHEET_1.00_EN.PDF",
+      "sourceTitle": "D-Link DGS-108 官方規格",
+      "evidenceSnippet": "DGS-108 官方規格列出機身尺寸 13.865 × 8.5 × 2.24 cm（寬 × 深 × 高）。",
+      "confidence": "high",
+      "isOfficialSource": true,
+      "checkedAt": "2026-08-24"
+    },
+    {
+      "id": "network-switch-tplink-tl-sg108-m2",
+      "dimension": "尺寸：寬 22.6 x 深 13.1 x 高 3.5 cm",
+      "sourceUrl": "https://www.tp-link.com/tw/home-networking/soho-switch/tl-sg108-m2/",
+      "sourceTitle": "TP-Link TL-SG108-M2 官方規格",
+      "evidenceSnippet": "TL-SG108-M2 官方規格列出機身尺寸 22.6 × 13.1 × 3.5 cm（寬 × 深 × 高）。",
+      "confidence": "high",
+      "isOfficialSource": true,
+      "checkedAt": "2026-08-24"
+    },
+    {
+      "id": "network-switch-tplink-tl-sg108e",
+      "dimension": "尺寸：寬 15.8 x 深 10.1 x 高 2.5 cm",
+      "sourceUrl": "https://www.tp-link.com/tw/home-networking/soho-switch/tl-sg108e/",
+      "sourceTitle": "TP-Link TL-SG108E 官方規格",
+      "evidenceSnippet": "TL-SG108E 官方規格列出機身尺寸 15.8 × 10.1 × 2.5 cm（寬 × 深 × 高）。",
+      "confidence": "high",
+      "isOfficialSource": true,
+      "checkedAt": "2026-08-24"
+    },
+    {
+      "id": "network-switch-dlink-dgs-1100-08v2",
+      "dimension": "尺寸：寬 17.1 x 深 9.8 x 高 2.9 cm",
+      "sourceUrl": "https://www.dlink.com/tw/zh/products/dgs-1100-08v2-8-port-gigabit-smart-managed-switch",
+      "sourceTitle": "D-Link DGS-1100-08V2 官方規格",
+      "evidenceSnippet": "DGS-1100-08V2 官方規格列出機身尺寸 17.1 × 9.8 × 2.9 cm（寬 × 深 × 高）。",
+      "confidence": "high",
+      "isOfficialSource": true,
+      "checkedAt": "2026-08-24"
+    },
+    {
+      "id": "network-switch-zyxel-gs1200-8",
+      "dimension": "尺寸：寬 15.5 x 深 8.5 x 高 2.6 cm",
+      "sourceUrl": "https://www.zyxel.com/tw/zh/products/switch/5-port-8-port-web-managed-gigabit-switch-gs1200-series/specifications",
+      "sourceTitle": "Zyxel GS1200-8 官方規格",
+      "evidenceSnippet": "GS1200-8 官方規格列出機身尺寸 15.5 × 8.5 × 2.6 cm（寬 × 深 × 高）。",
+      "confidence": "high",
+      "isOfficialSource": true,
+      "checkedAt": "2026-08-24"
+    },
+    {
+      "id": "network-switch-netgear-gs108e",
+      "dimension": "尺寸：寬 15.8 x 深 10.1 x 高 2.9 cm",
+      "sourceUrl": "https://www.downloads.netgear.com/files/GDC/Plus_Switches/Gigabit_Ethernet_Plus_Switches_DS.pdf",
+      "sourceTitle": "NETGEAR GS108E 官方規格",
+      "evidenceSnippet": "GS108E 官方規格列出機身尺寸 15.8 × 10.1 × 2.9 cm（寬 × 深 × 高）。",
+      "confidence": "high",
+      "isOfficialSource": true,
+      "checkedAt": "2026-08-24"
+    },
+    {
+      "id": "network-switch-tplink-es208g",
+      "dimension": "尺寸：寬 15.8 x 深 10.07 x 高 2.54 cm",
+      "sourceUrl": "https://static.tp-link.com/upload/product-overview/2024/202412/20241231/Datasheet_ES208G%28UN%291.0.pdf",
+      "sourceTitle": "TP-Link ES208G 官方 Datasheet",
+      "evidenceSnippet": "ES208G 官方 datasheet 列出機身尺寸 158 × 100.7 × 25.4 mm（寬 × 深 × 高）。",
+      "confidence": "high",
+      "isOfficialSource": true,
+      "checkedAt": "2026-08-24"
+    },
+    {
+      "id": "network-switch-netgear-ms308",
+      "dimension": "尺寸：寬 15.8 x 深 10.1 x 高 2.7 cm",
+      "sourceUrl": "https://www.netgear.com/business/wired/switches/unmanaged/ms308/",
+      "sourceTitle": "NETGEAR MS308 官方規格",
+      "evidenceSnippet": "MS308 官方規格列出機身尺寸 15.8 × 10.1 × 2.7 cm（寬 × 深 × 高）。",
+      "confidence": "high",
+      "isOfficialSource": true,
+      "checkedAt": "2026-08-24"
+    },
+    {
+      "id": "network-switch-zyxel-xmg-108",
+      "dimension": "尺寸：寬 24 x 深 10.5 x 高 2.7 cm",
+      "sourceUrl": "https://static.us.zyxel.com/pdf/2024/switch/ds_XMG-108.pdf",
+      "sourceTitle": "Zyxel XMG-108 官方規格",
+      "evidenceSnippet": "XMG-108 官方規格列出機身尺寸 24 × 10.5 × 2.7 cm（寬 × 深 × 高）。",
+      "confidence": "high",
+      "isOfficialSource": true,
+      "checkedAt": "2026-08-24"
+    },
+    {
+      "id": "network-switch-netgear-ms308e",
+      "dimension": "尺寸：寬 15.8 x 深 10.1 x 高 2.7 cm",
+      "sourceUrl": "https://www.netgear.com/business/wired/switches/easy-smart/ms308e/",
+      "sourceTitle": "NETGEAR MS308E 官方規格",
+      "evidenceSnippet": "MS308E 官方規格列出機身尺寸 15.8 × 10.1 × 2.7 cm（寬 × 深 × 高）。",
+      "confidence": "high",
+      "isOfficialSource": true,
+      "checkedAt": "2026-08-24"
+    },
+    {
+      "id": "network-switch-tplink-sg3210x-m2",
+      "dimension": "尺寸：寬 29.4 x 深 18 x 高 4.4 cm",
+      "sourceUrl": "https://static.tp-link.com/upload/product-overview/2025/202512/20251224/SG3210X-M2%28UN%29%201.20_datasheet.pdf",
+      "sourceTitle": "TP-Link SG3210X-M2 官方規格",
+      "evidenceSnippet": "SG3210X-M2 官方規格列出機身尺寸 29.4 × 18 × 4.4 cm（寬 × 深 × 高）。",
+      "confidence": "high",
+      "isOfficialSource": true,
+      "checkedAt": "2026-08-24"
+    },
+    {
+      "id": "network-switch-qnap-qsw-l3208-2c6t",
+      "dimension": "尺寸：寬 21 x 深 16 x 高 4.4 cm",
+      "sourceUrl": "https://www.qnap.com/zh-tw/product/qsw-l3208-2c6t",
+      "sourceTitle": "QNAP QSW-L3208-2C6T 官方規格",
+      "evidenceSnippet": "QSW-L3208-2C6T 官方規格列出機身尺寸 21 × 16 × 4.4 cm（寬 × 深 × 高）。",
+      "confidence": "high",
+      "isOfficialSource": true,
+      "checkedAt": "2026-08-24"
+    },
+    {
+      "id": "network-switch-netgear-xs508tm",
+      "dimension": "尺寸：寬 33 x 深 20.6 x 高 4.32 cm",
+      "sourceUrl": "https://www.netgear.com/in/business/wired/switches/smart-cloud/xs508tm/",
+      "sourceTitle": "NETGEAR XS508TM 官方規格",
+      "evidenceSnippet": "XS508TM 官方規格列出機身尺寸 33 × 20.6 × 4.32 cm（寬 × 深 × 高）。",
+      "confidence": "high",
+      "isOfficialSource": true,
+      "checkedAt": "2026-08-24"
+    },
+    {
+      "id": "network-switch-tplink-tl-sx1008",
+      "dimension": "尺寸：寬 29.4 x 深 18 x 高 4.4 cm",
+      "sourceUrl": "https://www.tp-link.com/tw/business-networking/soho-switch-unmanaged/tl-sx1008/",
+      "sourceTitle": "TP-Link TL-SX1008 台灣官方規格",
+      "evidenceSnippet": "TL-SX1008 官方規格列出機身尺寸 294 × 180 × 44 mm（寬 × 深 × 高）。",
+      "confidence": "high",
+      "isOfficialSource": true,
+      "checkedAt": "2026-08-24"
+    },
+    {
+      "id": "network-switch-qnap-qsw-m3216r-8s8t",
+      "dimension": "尺寸：寬 20.7 x 深 19.95 x 高 4.33 cm",
+      "sourceUrl": "https://www.qnap.com/zh-tw/product/qsw-m3216r-8s8t",
+      "sourceTitle": "QNAP QSW-M3216R-8S8T 官方規格",
+      "evidenceSnippet": "QSW-M3216R-8S8T 官方規格列出機身尺寸 20.7 × 19.95 × 4.33 cm（寬 × 深 × 高）。",
       "confidence": "high",
       "isOfficialSource": true,
       "checkedAt": "2026-08-24"

@@ -12,6 +12,11 @@
       { value: "electric", label: "電熱", keywords: "electric 電熱 儲熱 瞬熱" },
       { value: "heat_pump", label: "熱泵", keywords: "heat pump 熱泵" },
     ],
+    "network-switch": [
+      { value: "1g", label: "1G（8 埠）", keywords: "1g gigabit 1000mbps 八埠 8 port" },
+      { value: "2_5g", label: "2.5G（8 埠）", keywords: "2.5g multi gig multigig 八埠 8 port" },
+      { value: "10g", label: "10G（8 埠）", keywords: "10g 10gbe multi gig multigig 八埠 8 port" },
+    ],
   };
 
   function defaultSortCompare(a, b) {

@@ -1,14 +1,14 @@
 {
   "summary": {
     "checkedAt": "2026-08-24T00:00:00.000+08:00",
-    "sourcePolicy": "2026-08-24 以 876 筆基準清單全量查核公開價格基準（通路現價或明示官方建議售價）、購買連結與可信新品狀態，並複核最終 879 筆商品圖片、全部 468 筆 found 史低來源、原廠停產訊號與同批次匯率。官方建議售價不自動寫成通路現價或史低；PChome exact-model 現貨頁有正值 Price.Low 時採公開折扣價，否則採 Price.P；Qty 0、福利品、展示機與配件不寫回。其他頁面的結構化價格差異列入人工覆核候選，阻擋、暫時錯誤與單次頁面失效只列稽核，不臆測停產或史低失效。",
-    "total": 879,
-    "researchedThisRun": 879,
-    "found": 468,
-    "missing": 411,
+    "sourcePolicy": "2026-08-24 以 879 筆基準清單全量查核公開價格基準（通路現價或明示官方建議售價）、購買連結與可信新品狀態，並複核最終 899 筆商品圖片、全部 486 筆 found 史低來源、原廠停產訊號與同批次匯率。官方建議售價不自動寫成通路現價或史低；PChome exact-model 現貨頁有正值 Price.Low 時採公開折扣價，否則採 Price.P；Qty 0、福利品、展示機與配件不寫回。其他頁面的結構化價格差異列入人工覆核候選，阻擋、暫時錯誤與單次頁面失效只列稽核，不臆測停產或史低失效。",
+    "total": 899,
+    "researchedThisRun": 899,
+    "found": 486,
+    "missing": 413,
     "byConfidence": {
-      "not_found": 411,
-      "high": 305,
+      "not_found": 413,
+      "high": 323,
       "medium": 163
     },
     "exchange": {
@@ -20,19 +20,19 @@
       "CNY_TWD": 4.725470990683172,
       "KRW_TWD": 0.022951075371115584
     },
-    "lastMaintenanceCheckAt": "2026-08-24T00:14:27.219Z",
-    "currentPriceChanged": 67,
+    "lastMaintenanceCheckAt": "2026-08-24T10:19:14.570Z",
+    "currentPriceChanged": 0,
     "currentBuyLinkChanged": 0,
-    "currentPriceDrops": 17,
-    "currentPriceRises": 50,
+    "currentPriceDrops": 0,
+    "currentPriceRises": 0,
     "currentPriceFallbacks": 0,
     "historicalLowUpdated": 0,
     "historicalLowInvalidated": 0,
     "catalogEntriesReplaced": 0,
     "catalogReplacementNotes": [],
-    "currentImageChanged": 1,
+    "currentImageChanged": 0,
     "discontinuedRemoved": 0,
-    "newProductsAdded": 3,
+    "newProductsAdded": 20,
     "discontinuedRemovalNotes": [],
     "catalogEntriesRemoved": 0,
     "catalogRemovalNotes": []
@@ -10991,6 +10991,60 @@
       ],
       "rejectedCandidates": [
         "排除現價冒充史低、會員個人化優惠、信用卡回饋、點數、二手、福利品、展示機、拆封品、整新品、配件與非 exact model；冷氣另排除單一室內機／室外機或安裝範圍不同的價格。"
+      ],
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價"
+    },
+    {
+      "id": "robot-electrolux-efr81223",
+      "category": "robot",
+      "brand": "Electrolux",
+      "model": "EFR81223",
+      "name": "安心管家 800 全能掃拖機器人",
+      "currentPrice": 16900,
+      "currentCurrency": "TWD",
+      "currentBuyUrl": "https://24h.pchome.com.tw/prod/DMBL5X-A900K8CTK",
+      "currentBuyLabel": "PChome 24h exact-model 現貨新品",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "TWD",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-08-24",
+        "note": "已查伊萊克斯官方 exact-model 現價 NT$21,900、PChome 24h exact-model 現價 NT$16,900，以及嘖嘖 2026-03-05 至 2026-06-08 的 NT$16,900 預購回饋；嘖嘖方案包含 EFR81223＋ERK7 耗材組，商品內容不同，未找到單機同條件的可重現歷史價格時間軸，故不推定史低。"
+      },
+      "checkedSources": [
+        "https://www.electrolux.com.tw/appliances/robot-vacuums/efr81223/",
+        "https://24h.pchome.com.tw/prod/DMBL5X-A900K8CTK",
+        "https://www.zeczec.com/projects/electrolux-800-EFR81223"
+      ],
+      "priceChecks": [
+        {
+          "kind": "official_current_exact_model_page",
+          "url": "https://www.electrolux.com.tw/appliances/robot-vacuums/efr81223/",
+          "query": "Electrolux EFR81223",
+          "outcome": "2026-08-24 官方 exact-model 頁標示有現貨 NT$21,900；只能證明查核日官方價格。"
+        },
+        {
+          "kind": "retailer_current_exact_model_page",
+          "url": "https://24h.pchome.com.tw/prod/DMBL5X-A900K8CTK",
+          "query": "Electrolux EFR81223",
+          "outcome": "2026-08-24 PChome exact-model 新品頁與 API 顯示 NT$16,900、Qty 20；沒有價格歷史日期，未當作史低。"
+        },
+        {
+          "kind": "different_bundle_preorder_reward_excluded",
+          "url": "https://www.zeczec.com/projects/electrolux-800-EFR81223",
+          "query": "Electrolux EFR81223 ERK7 嘖嘖 NT$16,900",
+          "outcome": "嘖嘖 2026-03-05 至 2026-06-08 的 NT$16,900 是 EFR81223 與 ERK7 耗材組預購回饋；組合內容與單機現售頁不同，排除為單機史低證據。"
+        }
+      ],
+      "rejectedCandidates": [
+        "不以 2026-08-24 查核當下最低可購價冒充史低；嘖嘖 NT$16,900 因包含 ERK7 耗材組且屬預購回饋而排除，會員券、信用卡、點數、福利、展示、拆封與二手均不採。"
       ],
       "priceBasis": "retailer_current",
       "priceLabel": "通路現價"
@@ -26303,6 +26357,114 @@
       ]
     },
     {
+      "id": "dishwasher-bosch-smi4ecs00x",
+      "category": "dishwasher",
+      "brand": "Bosch",
+      "model": "SMI4ECS00X",
+      "name": "4 系列 14 人份半嵌式洗碗機",
+      "currentPrice": 44030,
+      "currentCurrency": "TWD",
+      "currentBuyUrl": "https://kitchenworld.com.tw/product/2606081629271/BOSCHSMI4ECS00X4%E7%B3%BB%E5%88%97AirDry%2B%E8%87%AA%E5%8B%95",
+      "currentBuyLabel": "KW 廚房世界 exact-model 現貨新品（限定區域基本安裝）",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "TWD",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-08-24",
+        "note": "已查 Bosch 台灣官方商城現價 NT$51,800、KW 廚房世界 exact-model 現貨價 NT$44,030 與 momo exact-model 新品頁；這些頁面只證明查核日價格，未提供帶日期的完整歷史曲線，故不以目前最低觀察價推定史低。"
+      },
+      "checkedSources": [
+        "https://www.bosch-home-shop.com.tw/products/smi4ecs00x",
+        "https://kitchenworld.com.tw/product/2606081629271/BOSCHSMI4ECS00X4%E7%B3%BB%E5%88%97AirDry%2B%E8%87%AA%E5%8B%95",
+        "https://www.momoshop.com.tw/TP/TP0007793/goodsDetail/TP00077930000904"
+      ],
+      "priceChecks": [
+        {
+          "kind": "official_current_exact_model_page",
+          "url": "https://www.bosch-home-shop.com.tw/products/smi4ecs00x",
+          "query": "Bosch SMI4ECS00X",
+          "outcome": "2026-08-24 官方商城 exact-model 頁可加入購物車並標價 NT$51,800；只能證明查核日官方價格。"
+        },
+        {
+          "kind": "retailer_current_exact_model_page",
+          "url": "https://kitchenworld.com.tw/product/2606081629271/BOSCHSMI4ECS00X4%E7%B3%BB%E5%88%97AirDry%2B%E8%87%AA%E5%8B%95",
+          "query": "Bosch SMI4ECS00X",
+          "outcome": "2026-08-24 KW exact-model 新品頁結構化資料標示 InStock、NT$44,030、庫存 8；未提供帶日期歷史曲線。"
+        },
+        {
+          "kind": "retailer_exact_model_cross_check",
+          "url": "https://www.momoshop.com.tw/TP/TP0007793/goodsDetail/TP00077930000904",
+          "query": "Bosch SMI4ECS00X",
+          "outcome": "momo exact-model 台灣新品頁用於跨站確認型號與現售狀態；未取得可重現的歷史最低點。"
+        }
+      ],
+      "rejectedCandidates": [
+        "KW NT$44,030 為 2026-08-24 公開現貨價，不因低於官方商城 NT$51,800 就直接當作史低；排除會員券、信用卡、點數、展示、福利、拆封與安裝範圍不同的價格。"
+      ],
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價"
+    },
+    {
+      "id": "dishwasher-bosch-smv4ecx00x",
+      "category": "dishwasher",
+      "brand": "Bosch",
+      "model": "SMV4ECX00X",
+      "name": "4 系列 14 人份全嵌式洗碗機",
+      "currentPrice": 44030,
+      "currentCurrency": "TWD",
+      "currentBuyUrl": "https://kitchenworld.com.tw/product/260610125117/BOSCHSMV4ECX00X4%E7%B3%BB%E5%88%97%E5%85%A8%E5%B5%8C%E5%BC%8F%E6%B4%97%E7%A2%97%E6%A9%9F60",
+      "currentBuyLabel": "KW 廚房世界 exact-model 現貨新品（限定區域基本安裝）",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "TWD",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-08-24",
+        "note": "已查 Bosch 台灣官方商城建議售價 NT$51,800（查核時已售完）、KW 廚房世界 exact-model 現貨價 NT$44,030 與 momo exact-model 預購頁；這些頁面未提供帶日期的完整歷史曲線，故不以目前最低觀察價推定史低。"
+      },
+      "checkedSources": [
+        "https://www.bosch-home-shop.com.tw/products/smv4ecx00x",
+        "https://kitchenworld.com.tw/product/260610125117/BOSCHSMV4ECX00X4%E7%B3%BB%E5%88%97%E5%85%A8%E5%B5%8C%E5%BC%8F%E6%B4%97%E7%A2%97%E6%A9%9F60",
+        "https://www.momoshop.com.tw/TP/TP0007793/goodsDetail/TP00077930000906"
+      ],
+      "priceChecks": [
+        {
+          "kind": "official_exact_model_page_sold_out",
+          "url": "https://www.bosch-home-shop.com.tw/products/smv4ecx00x",
+          "query": "Bosch SMV4ECX00X",
+          "outcome": "2026-08-24 官方商城 exact-model 頁標示 NT$51,800 但已售完；不作為目前購買連結，也不能證明歷史最低。"
+        },
+        {
+          "kind": "retailer_current_exact_model_page",
+          "url": "https://kitchenworld.com.tw/product/260610125117/BOSCHSMV4ECX00X4%E7%B3%BB%E5%88%97%E5%85%A8%E5%B5%8C%E5%BC%8F%E6%B4%97%E7%A2%97%E6%A9%9F60",
+          "query": "Bosch SMV4ECX00X",
+          "outcome": "2026-08-24 KW exact-model 新品頁結構化資料標示 InStock、NT$44,030、庫存 1；未提供帶日期歷史曲線。"
+        },
+        {
+          "kind": "preorder_current_page_excluded",
+          "url": "https://www.momoshop.com.tw/TP/TP0007793/goodsDetail/TP00077930000906",
+          "query": "Bosch SMV4ECX00X",
+          "outcome": "momo exact-model 頁為預購，用於跨站身分與價格查核，不取代可立即購買的 KW 現貨頁，也不當作史低。"
+        }
+      ],
+      "rejectedCandidates": [
+        "KW NT$44,030 為 2026-08-24 公開現貨價，不因低於官方建議售價就直接當作史低；官方售完與 momo 預購頁不取代目前現貨連結，並排除會員券、點數、展示、福利、拆封及安裝範圍不同價格。"
+      ],
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價"
+    },
+    {
       "id": "waterheater-rinnai-rua-d1620wf",
       "category": "waterheater",
       "brand": "Rinnai",
@@ -34067,6 +34229,648 @@
       "priceLabel": "價格基準未標示"
     },
     {
+      "id": "network-switch-dlink-dms-108",
+      "category": "network-switch",
+      "brand": "D-Link",
+      "model": "DMS-108",
+      "name": "D-Link DMS-108 8 埠 2.5G 無網管交換器",
+      "currentPrice": 2399,
+      "currentCurrency": "TWD",
+      "currentBuyUrl": "https://dshop.dlink.com.tw/goods/details/14585",
+      "currentBuyLabel": "D-Link DShop 官方商城",
+      "historicalLow": {
+        "status": "found",
+        "amount": 1999,
+        "currency": "TWD",
+        "converted": 1999,
+        "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1254373888&cgp=2399",
+        "sourceTitle": "LBJ 歷史價格：D-Link DMS-108 8埠 100M／1G／2.5G",
+        "evidenceSnippet": "LBJ price_data 對 DMS-108 exact listing 記錄 NT$1,999，日期範圍 2026-06-17（查核 2026-08-24）。",
+        "sourceKind": "price_history",
+        "confidence": "high",
+        "checkedAt": "2026-08-24",
+        "note": "採用同型號、同埠數與同速率的台灣新品公開價格曲線；排除 NT$1、多選項、平台券、會員／信用卡回饋、點數、福利品、展示機、拆封品、二手、整新與詢價資料。"
+      },
+      "checkedSources": [
+        "https://dshop.dlink.com.tw/goods/details/14585",
+        "https://www.dlink.com/tw/zh/products/dms-108",
+        "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1254373888&cgp=2399"
+      ],
+      "rejectedCandidates": [],
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價"
+    },
+    {
+      "id": "network-switch-netgear-gs308",
+      "category": "network-switch",
+      "brand": "NETGEAR",
+      "model": "GS308",
+      "name": "NETGEAR GS308 8 埠 Gigabit 無網管交換器",
+      "currentPrice": 1260,
+      "currentCurrency": "TWD",
+      "currentBuyUrl": "https://24h.pchome.com.tw/prod/DRAF4H-A9008XMTH",
+      "currentBuyLabel": "PChome 24h",
+      "historicalLow": {
+        "status": "found",
+        "amount": 999,
+        "currency": "TWD",
+        "converted": 999,
+        "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1282775652&cgp=999",
+        "sourceTitle": "LBJ 歷史價格：NETGEAR GS308 8埠 Gigabit 無網管金屬殼",
+        "evidenceSnippet": "LBJ price_data 對 GS308 exact listing 記錄 NT$999，日期範圍 2026-07-24–2026-08-24（查核 2026-08-24）。",
+        "sourceKind": "price_history",
+        "confidence": "high",
+        "checkedAt": "2026-08-24",
+        "note": "採用同型號、同埠數與同速率的台灣新品公開價格曲線；排除 NT$1、多選項、平台券、會員／信用卡回饋、點數、福利品、展示機、拆封品、二手、整新與詢價資料。"
+      },
+      "checkedSources": [
+        "https://24h.pchome.com.tw/prod/DRAF4H-A9008XMTH",
+        "https://www.netgear.com/business/wired/switches/unmanaged/gs308/",
+        "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1282775652&cgp=999"
+      ],
+      "rejectedCandidates": [],
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價"
+    },
+    {
+      "id": "network-switch-tplink-tl-sg108",
+      "category": "network-switch",
+      "brand": "TP-Link",
+      "model": "TL-SG108",
+      "name": "TP-Link TL-SG108 8 埠 Gigabit 無網管交換器",
+      "currentPrice": 699,
+      "currentCurrency": "TWD",
+      "currentBuyUrl": "https://24h.pchome.com.tw/prod/DRAF2J-A75089227",
+      "currentBuyLabel": "PChome 24h",
+      "historicalLow": {
+        "status": "found",
+        "amount": 669,
+        "currency": "TWD",
+        "converted": 669,
+        "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1136957911&cgp=699",
+        "sourceTitle": "LBJ 歷史價格：【TP-Link】8埠 Gigabit 鋼殼 TL-SG108",
+        "evidenceSnippet": "LBJ price_data 對 TL-SG108 exact listing 記錄 NT$669，日期範圍 2025-07-10–2026-02-24（查核 2026-08-24）。",
+        "sourceKind": "price_history",
+        "confidence": "high",
+        "checkedAt": "2026-08-24",
+        "note": "採用同型號、同埠數與同速率的台灣新品公開價格曲線；排除 NT$1、多選項、平台券、會員／信用卡回饋、點數、福利品、展示機、拆封品、二手、整新與詢價資料。"
+      },
+      "checkedSources": [
+        "https://24h.pchome.com.tw/prod/DRAF2J-A75089227",
+        "https://www.tp-link.com/tw/business-networking/easy-smart-switch/tl-sg108/",
+        "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1136957911&cgp=699"
+      ],
+      "rejectedCandidates": [],
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價"
+    },
+    {
+      "id": "network-switch-tplink-ls108g",
+      "category": "network-switch",
+      "brand": "TP-Link",
+      "model": "LS108G",
+      "name": "TP-Link LiteWave LS108G 8 埠 Gigabit 無網管交換器",
+      "currentPrice": 649,
+      "currentCurrency": "TWD",
+      "currentBuyUrl": "https://24h.pchome.com.tw/prod/DRAN25-A900AN2BW",
+      "currentBuyLabel": "PChome 24h",
+      "historicalLow": {
+        "status": "found",
+        "amount": 549,
+        "currency": "TWD",
+        "converted": 549,
+        "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1131783562&cgp=649",
+        "sourceTitle": "LBJ 歷史價格：TP-Link LS108G 8埠",
+        "evidenceSnippet": "LBJ price_data 對 LS108G exact listing 記錄 NT$549，日期範圍 2026-02-04–2026-04-15（查核 2026-08-24）。",
+        "sourceKind": "price_history",
+        "confidence": "high",
+        "checkedAt": "2026-08-24",
+        "note": "採用同型號、同埠數與同速率的台灣新品公開價格曲線；排除 NT$1、多選項、平台券、會員／信用卡回饋、點數、福利品、展示機、拆封品、二手、整新與詢價資料。"
+      },
+      "checkedSources": [
+        "https://24h.pchome.com.tw/prod/DRAN25-A900AN2BW",
+        "https://www.tp-link.com/tw/home-networking/soho-switch/ls108g/",
+        "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1131783562&cgp=649"
+      ],
+      "rejectedCandidates": [],
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價"
+    },
+    {
+      "id": "network-switch-zyxel-gs-108b-v5",
+      "category": "network-switch",
+      "brand": "Zyxel",
+      "model": "GS-108B v5",
+      "name": "Zyxel GS-108B v5 8 埠 Gigabit 無網管交換器",
+      "currentPrice": 604,
+      "currentCurrency": "TWD",
+      "currentBuyUrl": "https://24h.pchome.com.tw/prod/DRAF0I-A900I2J5V",
+      "currentBuyLabel": "PChome 24h",
+      "historicalLow": {
+        "status": "found",
+        "amount": 549,
+        "currency": "TWD",
+        "converted": 549,
+        "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1254374047&cgp=604",
+        "sourceTitle": "LBJ 歷史價格：Zyxel GS-108B v5 金屬殼",
+        "evidenceSnippet": "LBJ price_data 對 GS-108B v5 exact listing 記錄 NT$549，日期範圍 2026-01-08–2026-02-24（查核 2026-08-24）。",
+        "sourceKind": "price_history",
+        "confidence": "high",
+        "checkedAt": "2026-08-24",
+        "note": "採用同型號、同埠數與同速率的台灣新品公開價格曲線；排除 NT$1、多選項、平台券、會員／信用卡回饋、點數、福利品、展示機、拆封品、二手、整新與詢價資料。"
+      },
+      "checkedSources": [
+        "https://24h.pchome.com.tw/prod/DRAF0I-A900I2J5V",
+        "https://www.zyxel.com/us/en-us/products/switch/5-port-8-port-unmanaged-switch-gs-100-series/specifications",
+        "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1254374047&cgp=604"
+      ],
+      "rejectedCandidates": [],
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價"
+    },
+    {
+      "id": "network-switch-dlink-dgs-108",
+      "category": "network-switch",
+      "brand": "D-Link",
+      "model": "DGS-108",
+      "name": "D-Link DGS-108 8 埠 Gigabit 無網管交換器",
+      "currentPrice": 699,
+      "currentCurrency": "TWD",
+      "currentBuyUrl": "https://24h.pchome.com.tw/prod/DRAJ34-A9006KACN",
+      "currentBuyLabel": "PChome 24h",
+      "historicalLow": {
+        "status": "found",
+        "amount": 629,
+        "currency": "TWD",
+        "converted": 629,
+        "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1234384540&cgp=909",
+        "sourceTitle": "LBJ 歷史價格：D-Link DGS-108 8埠 Gigabit",
+        "evidenceSnippet": "LBJ price_data 對 DGS-108 exact listing 記錄 NT$629，日期範圍 2025-09-10（查核 2026-08-24）。",
+        "sourceKind": "price_history",
+        "confidence": "high",
+        "checkedAt": "2026-08-24",
+        "note": "採用同型號、同埠數與同速率的台灣新品公開價格曲線；排除 NT$1、多選項、平台券、會員／信用卡回饋、點數、福利品、展示機、拆封品、二手、整新與詢價資料。"
+      },
+      "checkedSources": [
+        "https://24h.pchome.com.tw/prod/DRAFIP-A900IAEQE",
+        "https://www.dlink.com/tw/zh/products/dgs-108-8-port-gigabit-ethernet-switch",
+        "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1234384540&cgp=909"
+      ],
+      "rejectedCandidates": [],
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價"
+    },
+    {
+      "id": "network-switch-tplink-tl-sg108-m2",
+      "category": "network-switch",
+      "brand": "TP-Link",
+      "model": "TL-SG108-M2",
+      "name": "TP-Link TL-SG108-M2 8 埠 2.5G 無網管交換器",
+      "currentPrice": 2999,
+      "currentCurrency": "TWD",
+      "currentBuyUrl": "https://24h.pchome.com.tw/prod/DRAN3C-A900BI9V0",
+      "currentBuyLabel": "PChome 24h",
+      "historicalLow": {
+        "status": "found",
+        "amount": 1699,
+        "currency": "TWD",
+        "converted": 1699,
+        "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1228841173&cgp=1999",
+        "sourceTitle": "LBJ 歷史價格：TP-Link TL-SG108-M2 8埠 2.5G",
+        "evidenceSnippet": "LBJ price_data 對 TL-SG108-M2 exact listing 記錄 NT$1,699，日期範圍 2026-06-01（查核 2026-08-24）。",
+        "sourceKind": "price_history",
+        "confidence": "high",
+        "checkedAt": "2026-08-24",
+        "note": "採用同型號、同埠數與同速率的台灣新品公開價格曲線；排除 NT$1、多選項、平台券、會員／信用卡回饋、點數、福利品、展示機、拆封品、二手、整新與詢價資料。"
+      },
+      "checkedSources": [
+        "https://24h.pchome.com.tw/prod/DRAN3C-A900BI9V0",
+        "https://www.tp-link.com/tw/home-networking/soho-switch/tl-sg108-m2/",
+        "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1228841173&cgp=1999"
+      ],
+      "rejectedCandidates": [],
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價"
+    },
+    {
+      "id": "network-switch-tplink-tl-sg108e",
+      "category": "network-switch",
+      "brand": "TP-Link",
+      "model": "TL-SG108E",
+      "name": "TP-Link TL-SG108E 8 埠 Gigabit Easy Smart 交換器",
+      "currentPrice": 1290,
+      "currentCurrency": "TWD",
+      "currentBuyUrl": "https://24h.pchome.com.tw/prod/DRAF07-A90081FBV",
+      "currentBuyLabel": "PChome 24h",
+      "historicalLow": {
+        "status": "found",
+        "amount": 1161,
+        "currency": "TWD",
+        "converted": 1161,
+        "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1273613102&cgp=1260",
+        "sourceTitle": "LBJ 歷史價格：TP-Link TL-SG108E 8埠",
+        "evidenceSnippet": "LBJ price_data 對 TL-SG108E exact listing 記錄 NT$1,161，日期範圍 2026-02-24–2026-06-06（查核 2026-08-24）。",
+        "sourceKind": "price_history",
+        "confidence": "high",
+        "checkedAt": "2026-08-24",
+        "note": "採用同型號、同埠數與同速率的台灣新品公開價格曲線；排除 NT$1、多選項、平台券、會員／信用卡回饋、點數、福利品、展示機、拆封品、二手、整新與詢價資料。"
+      },
+      "checkedSources": [
+        "https://24h.pchome.com.tw/prod/DRAF07-A90081FBV",
+        "https://www.tp-link.com/tw/business-networking/easy-smart-switch/tl-sg108e/",
+        "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1273613102&cgp=1260"
+      ],
+      "rejectedCandidates": [],
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價"
+    },
+    {
+      "id": "network-switch-dlink-dgs-1100-08v2",
+      "category": "network-switch",
+      "brand": "D-Link",
+      "model": "DGS-1100-08V2",
+      "name": "D-Link DGS-1100-08V2 8 埠 Gigabit Smart Managed 交換器",
+      "currentPrice": 1199,
+      "currentCurrency": "TWD",
+      "currentBuyUrl": "https://24h.pchome.com.tw/prod/DRAF09-A900B2TML",
+      "currentBuyLabel": "PChome 24h",
+      "historicalLow": {
+        "status": "found",
+        "amount": 1049,
+        "currency": "TWD",
+        "converted": 1049,
+        "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1237947814&cgp=1199",
+        "sourceTitle": "LBJ 歷史價格：D-Link DGS-1100-08V2 8埠金屬外殼",
+        "evidenceSnippet": "LBJ price_data 對 DGS-1100-08V2 exact listing 記錄 NT$1,049，日期範圍 2026-05-19（查核 2026-08-24）。",
+        "sourceKind": "price_history",
+        "confidence": "high",
+        "checkedAt": "2026-08-24",
+        "note": "採用同型號、同埠數與同速率的台灣新品公開價格曲線；排除 NT$1、多選項、平台券、會員／信用卡回饋、點數、福利品、展示機、拆封品、二手、整新與詢價資料。"
+      },
+      "checkedSources": [
+        "https://24h.pchome.com.tw/prod/DRAF09-A900B2TML",
+        "https://www.dlink.com/tw/zh/products/dgs-1100-08v2-8-port-gigabit-smart-managed-switch",
+        "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1237947814&cgp=1199"
+      ],
+      "rejectedCandidates": [],
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價"
+    },
+    {
+      "id": "network-switch-zyxel-gs1200-8",
+      "category": "network-switch",
+      "brand": "Zyxel",
+      "model": "GS1200-8",
+      "name": "Zyxel GS1200-8 8 埠 Gigabit Web Managed 交換器",
+      "currentPrice": 1530,
+      "currentCurrency": "TWD",
+      "currentBuyUrl": "https://24h.pchome.com.tw/prod/DRAF0I-A9008UQ9A",
+      "currentBuyLabel": "PChome 24h",
+      "historicalLow": {
+        "status": "found",
+        "amount": 943,
+        "currency": "TWD",
+        "converted": 943,
+        "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1211538861&cgp=1450",
+        "sourceTitle": "LBJ 歷史價格：Zyxel GS1200-8 8埠 GbE 網頁式管理交換器",
+        "evidenceSnippet": "LBJ price_data 對 GS1200-8 exact listing 記錄 NT$943，日期範圍 2025-12-02–2025-12-09（查核 2026-08-24）。",
+        "sourceKind": "price_history",
+        "confidence": "high",
+        "checkedAt": "2026-08-24",
+        "note": "採用同型號、同埠數與同速率的台灣新品公開價格曲線；排除 NT$1、多選項、平台券、會員／信用卡回饋、點數、福利品、展示機、拆封品、二手、整新與詢價資料。"
+      },
+      "checkedSources": [
+        "https://24h.pchome.com.tw/prod/DRAF0I-A9008UQ9A",
+        "https://www.zyxel.com/tw/zh/products/switch/5-port-8-port-web-managed-gigabit-switch-gs1200-series/specifications",
+        "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1211538861&cgp=1450"
+      ],
+      "rejectedCandidates": [],
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價"
+    },
+    {
+      "id": "network-switch-netgear-gs108e",
+      "category": "network-switch",
+      "brand": "NETGEAR",
+      "model": "GS108E",
+      "name": "NETGEAR GS108E v3 8 埠 Gigabit Plus 交換器",
+      "currentPrice": 2520,
+      "currentCurrency": "TWD",
+      "currentBuyUrl": "https://www.netgearstore.com.tw/products/gs108ev3",
+      "currentBuyLabel": "NETGEAR 台灣旗艦店",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "TWD",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-08-24",
+        "note": "已查核 GS108Ev3 的 LBJ、BigGo 與飛比 exact-revision 搜尋；可信台灣歷史只寫 GS108E，無法證明 v3，其他結果為拍賣、進口、二手、故障或詢價，因此不以未標 revision 的價格推定史低。"
+      },
+      "checkedSources": [
+        "https://www.netgearstore.com.tw/products/gs108ev3",
+        "https://www.netgear.com/images/pdf/NETGEAR_Catalog_V5-25.pdf",
+        "https://www.lbj.tw/BJ/Query.aspx?k=GS108Ev3"
+      ],
+      "rejectedCandidates": [],
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價"
+    },
+    {
+      "id": "network-switch-tplink-es208g",
+      "category": "network-switch",
+      "brand": "TP-Link",
+      "model": "ES208G",
+      "name": "TP-Link Omada ES208G 8 埠 Gigabit 簡易管理型交換器",
+      "currentPrice": 2999,
+      "currentCurrency": "TWD",
+      "currentBuyUrl": "https://24h.pchome.com.tw/prod/DRAN3C-A900JMZD8",
+      "currentBuyLabel": "PChome 24h",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "TWD",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-08-24",
+        "note": "已查核 ES208G 的 LBJ、BigGo、飛比與台灣原廠保固新品現售頁；未找到具日期、可重現且排除個人化優惠的 exact-model 歷史價格曲線，因此不以現價推定史低。"
+      },
+      "checkedSources": [
+        "https://24h.pchome.com.tw/prod/DRAN3C-A900JMZD8",
+        "https://www.tp-link.com/tw/business-networking/omada-switch-agile/es208g/",
+        "https://www.lbj.tw/BJ/Query.aspx?k=TP-Link%20ES208G",
+        "https://biggo.com.tw/s/ES208G/",
+        "https://feebee.com.tw/all/ES208G/"
+      ],
+      "rejectedCandidates": [],
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價"
+    },
+    {
+      "id": "network-switch-netgear-ms308",
+      "category": "network-switch",
+      "brand": "NETGEAR",
+      "model": "MS308",
+      "name": "NETGEAR MS308 8 埠 2.5G 無網管交換器",
+      "currentPrice": 9660,
+      "currentCurrency": "TWD",
+      "currentBuyUrl": "https://24h.pchome.com.tw/prod/DRAFJA-A900HY46J",
+      "currentBuyLabel": "PChome 24h",
+      "historicalLow": {
+        "status": "found",
+        "amount": 5040,
+        "currency": "TWD",
+        "converted": 5040,
+        "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1282228403&cgp=9660",
+        "sourceTitle": "LBJ 歷史價格：NETGEAR MS308 8埠 1G／2.5G",
+        "evidenceSnippet": "LBJ price_data 對 MS308 exact listing 記錄 NT$5,040，日期範圍 2026-06-15（查核 2026-08-24）。",
+        "sourceKind": "price_history",
+        "confidence": "high",
+        "checkedAt": "2026-08-24",
+        "note": "採用同型號、同埠數與同速率的台灣新品公開價格曲線；排除 NT$1、多選項、平台券、會員／信用卡回饋、點數、福利品、展示機、拆封品、二手、整新與詢價資料。"
+      },
+      "checkedSources": [
+        "https://24h.pchome.com.tw/prod/DRAFJA-A900HY46J",
+        "https://www.netgear.com/business/wired/switches/unmanaged/ms308/",
+        "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1282228403&cgp=9660"
+      ],
+      "rejectedCandidates": [],
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價"
+    },
+    {
+      "id": "network-switch-zyxel-xmg-108",
+      "category": "network-switch",
+      "brand": "Zyxel",
+      "model": "XMG-108",
+      "name": "Zyxel XMG-108 8 埠 2.5G＋10G SFP+ 交換器",
+      "currentPrice": 3265,
+      "currentCurrency": "TWD",
+      "currentBuyUrl": "https://24h.pchome.com.tw/prod/DRAF0I-A900H07T7",
+      "currentBuyLabel": "PChome 24h",
+      "historicalLow": {
+        "status": "found",
+        "amount": 2810,
+        "currency": "TWD",
+        "converted": 2810,
+        "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1229657022&cgp=3595",
+        "sourceTitle": "LBJ 歷史價格：Zyxel XMG-108 8埠 2.5GbE",
+        "evidenceSnippet": "LBJ price_data 對 XMG-108 exact listing 記錄 NT$2,810，日期範圍 2026-05-15–2026-08-01（查核 2026-08-24）。",
+        "sourceKind": "price_history",
+        "confidence": "high",
+        "checkedAt": "2026-08-24",
+        "note": "採用同型號、同埠數與同速率的台灣新品公開價格曲線；排除 NT$1、多選項、平台券、會員／信用卡回饋、點數、福利品、展示機、拆封品、二手、整新與詢價資料。"
+      },
+      "checkedSources": [
+        "https://24h.pchome.com.tw/prod/DRAF0I-A900H07T7",
+        "https://static.us.zyxel.com/pdf/2024/switch/ds_XMG-108.pdf",
+        "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1229657022&cgp=3595"
+      ],
+      "rejectedCandidates": [],
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價"
+    },
+    {
+      "id": "network-switch-netgear-ms308e",
+      "category": "network-switch",
+      "brand": "NETGEAR",
+      "model": "MS308E",
+      "name": "NETGEAR MS308E 8 埠 2.5G Easy Smart 交換器",
+      "currentPrice": 11025,
+      "currentCurrency": "TWD",
+      "currentBuyUrl": "https://24h.pchome.com.tw/prod/DRAFJA-A900HYYPE",
+      "currentBuyLabel": "PChome 24h",
+      "historicalLow": {
+        "status": "found",
+        "amount": 6300,
+        "currency": "TWD",
+        "converted": 6300,
+        "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1233883340&cgp=11025",
+        "sourceTitle": "LBJ 歷史價格：NETGEAR MS308E 8埠 1G／2.5G",
+        "evidenceSnippet": "LBJ price_data 對 MS308E exact listing 記錄 NT$6,300，日期範圍 2026-06-15（查核 2026-08-24）。",
+        "sourceKind": "price_history",
+        "confidence": "high",
+        "checkedAt": "2026-08-24",
+        "note": "採用同型號、同埠數與同速率的台灣新品公開價格曲線；排除 NT$1、多選項、平台券、會員／信用卡回饋、點數、福利品、展示機、拆封品、二手、整新與詢價資料。"
+      },
+      "checkedSources": [
+        "https://24h.pchome.com.tw/prod/DRAFJA-A900HYYPE",
+        "https://www.netgear.com/business/wired/switches/easy-smart/ms308e/",
+        "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1233883340&cgp=11025"
+      ],
+      "rejectedCandidates": [],
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價"
+    },
+    {
+      "id": "network-switch-tplink-sg3210x-m2",
+      "category": "network-switch",
+      "brand": "TP-Link",
+      "model": "SG3210X-M2",
+      "name": "TP-Link Omada SG3210X-M2 8 埠 2.5G 管理型交換器",
+      "currentPrice": 13999,
+      "currentCurrency": "TWD",
+      "currentBuyUrl": "https://24h.pchome.com.tw/prod/DRAN4X-A900JA0J0",
+      "currentBuyLabel": "PChome 24h",
+      "historicalLow": {
+        "status": "found",
+        "amount": 12599,
+        "currency": "TWD",
+        "converted": 12599,
+        "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1222249837&cgp=12599",
+        "sourceTitle": "LBJ 歷史價格：TP-Link SG3210X-M2 Omada 8埠",
+        "evidenceSnippet": "LBJ price_data 對 SG3210X-M2 exact listing 記錄 NT$12,599，日期範圍 2026-01-23–2026-08-24（查核 2026-08-24）。",
+        "sourceKind": "price_history",
+        "confidence": "high",
+        "checkedAt": "2026-08-24",
+        "note": "採用同型號、同埠數與同速率的台灣新品公開價格曲線；排除 NT$1、多選項、平台券、會員／信用卡回饋、點數、福利品、展示機、拆封品、二手、整新與詢價資料。"
+      },
+      "checkedSources": [
+        "https://24h.pchome.com.tw/prod/DRAN4X-A900JA0J0",
+        "https://static.tp-link.com/upload/product-overview/2025/202512/20251224/SG3210X-M2%28UN%29%201.20_datasheet.pdf",
+        "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1222249837&cgp=12599"
+      ],
+      "rejectedCandidates": [],
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價"
+    },
+    {
+      "id": "network-switch-qnap-qsw-l3208-2c6t",
+      "category": "network-switch",
+      "brand": "QNAP",
+      "model": "QSW-L3208-2C6T",
+      "name": "QNAP QSW-L3208-2C6T 8 埠 10G Lite Managed 交換器",
+      "currentPrice": 12590,
+      "currentCurrency": "TWD",
+      "currentBuyUrl": "https://store.qnap.com.tw/products/qsw-l3208-2c6t?variant=43967567069321",
+      "currentBuyLabel": "QNAP 台灣官方商店",
+      "historicalLow": {
+        "status": "found",
+        "amount": 12590,
+        "currency": "TWD",
+        "converted": 12590,
+        "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1259988047&cgp=16990",
+        "sourceTitle": "LBJ 歷史價格：QNAP QSW-L3208-2C6T 8埠",
+        "evidenceSnippet": "LBJ price_data 對 QSW-L3208-2C6T exact listing 記錄 NT$12,590，日期範圍 2025-11-06–2026-02-24（查核 2026-08-24）。",
+        "sourceKind": "price_history",
+        "confidence": "high",
+        "checkedAt": "2026-08-24",
+        "note": "採用同型號、同埠數與同速率的台灣新品公開價格曲線；排除 NT$1、多選項、平台券、會員／信用卡回饋、點數、福利品、展示機、拆封品、二手、整新與詢價資料。"
+      },
+      "checkedSources": [
+        "https://store.qnap.com.tw/products/qsw-l3208-2c6t?variant=43967567069321",
+        "https://www.qnap.com/zh-tw/product/qsw-l3208-2c6t",
+        "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1259988047&cgp=16990"
+      ],
+      "rejectedCandidates": [],
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價"
+    },
+    {
+      "id": "network-switch-netgear-xs508tm",
+      "category": "network-switch",
+      "brand": "NETGEAR",
+      "model": "XS508TM",
+      "name": "NETGEAR XS508TM 8 埠 10G Smart Managed 交換器",
+      "currentPrice": 47985,
+      "currentCurrency": "TWD",
+      "currentBuyUrl": "https://store.netbridgetech.com.tw/products/xs508tm",
+      "currentBuyLabel": "NetBridge 台灣代理商城",
+      "historicalLow": {
+        "status": "found",
+        "amount": 44100,
+        "currency": "TWD",
+        "converted": 44100,
+        "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1219040820&cgp=47985",
+        "sourceTitle": "LBJ 歷史價格：NETGEAR XS508TM 8埠",
+        "evidenceSnippet": "LBJ price_data 對 XS508TM exact listing 記錄 NT$44,100，日期範圍 2023-08-24–2025-08-24（查核 2026-08-24）。",
+        "sourceKind": "price_history",
+        "confidence": "high",
+        "checkedAt": "2026-08-24",
+        "note": "採用同型號、同埠數與同速率的台灣新品公開價格曲線；排除 NT$1、多選項、平台券、會員／信用卡回饋、點數、福利品、展示機、拆封品、二手、整新與詢價資料。"
+      },
+      "checkedSources": [
+        "https://store.netbridgetech.com.tw/products/xs508tm",
+        "https://www.downloads.netgear.com/files/netgear/pdfs/NETGEAR-Interactive-Catalog.pdf",
+        "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1219040820&cgp=47985"
+      ],
+      "rejectedCandidates": [],
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價"
+    },
+    {
+      "id": "network-switch-tplink-tl-sx1008",
+      "category": "network-switch",
+      "brand": "TP-Link",
+      "model": "TL-SX1008",
+      "name": "TP-Link TL-SX1008 8 埠 10G 無網管交換器",
+      "currentPrice": 9999,
+      "currentCurrency": "TWD",
+      "currentBuyUrl": "https://24h.pchome.com.tw/prod/DRAN3C-A900BJC72",
+      "currentBuyLabel": "PChome 24h",
+      "historicalLow": {
+        "status": "found",
+        "amount": 9999,
+        "currency": "TWD",
+        "converted": 9999,
+        "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1219257946&cgp=9999",
+        "sourceTitle": "LBJ 歷史價格：TP-Link TL-SX1008 8 埠 10G 交換器",
+        "evidenceSnippet": "LBJ price_data 對 TL-SX1008 exact listing 於 2026-07-24 與 2026-08-24 記錄 NT$9,999。",
+        "sourceKind": "price_history",
+        "confidence": "high",
+        "checkedAt": "2026-08-24",
+        "note": "採用同型號台灣新品公開價格曲線；排除平台券、會員／信用卡回饋、點數、福利品、展示機、拆封品、二手、整新與詢價資料。"
+      },
+      "checkedSources": [
+        "https://24h.pchome.com.tw/prod/DRAN3C-A900BJC72",
+        "https://www.tp-link.com/tw/business-networking/soho-switch-unmanaged/tl-sx1008/",
+        "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1219257946&cgp=9999"
+      ],
+      "rejectedCandidates": [],
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價"
+    },
+    {
+      "id": "network-switch-qnap-qsw-m3216r-8s8t",
+      "category": "network-switch",
+      "brand": "QNAP",
+      "model": "QSW-M3216R-8S8T",
+      "name": "QNAP QSW-M3216R-8S8T 8 埠 10G 管理型交換器",
+      "currentPrice": 22500,
+      "currentCurrency": "TWD",
+      "currentBuyUrl": "https://store.qnap.com.tw/qsw-m3216r-8s8t.html",
+      "currentBuyLabel": "QNAP 台灣官方商店",
+      "historicalLow": {
+        "status": "found",
+        "amount": 20480,
+        "currency": "TWD",
+        "converted": 20480,
+        "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1259975449&cgp=24897",
+        "sourceTitle": "LBJ 歷史價格：QNAP QSW-M3216R-8S8T",
+        "evidenceSnippet": "LBJ price_data 對 QSW-M3216R-8S8T exact listing 記錄 NT$20,480，日期範圍 2026-02-06–2026-02-24（查核 2026-08-24）。",
+        "sourceKind": "price_history",
+        "confidence": "high",
+        "checkedAt": "2026-08-24",
+        "note": "採用同型號、同埠數與同速率的台灣新品公開價格曲線；排除 NT$1、多選項、平台券、會員／信用卡回饋、點數、福利品、展示機、拆封品、二手、整新與詢價資料。"
+      },
+      "checkedSources": [
+        "https://store.qnap.com.tw/qsw-m3216r-8s8t.html",
+        "https://www.qnap.com/zh-tw/product/qsw-m3216r-8s8t",
+        "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1259975449&cgp=24897"
+      ],
+      "rejectedCandidates": [],
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價"
+    },
+    {
       "id": "standingdesk-loctek-f2-120",
       "category": "standingdesk",
       "brand": "Loctek",
@@ -39993,168 +40797,6 @@
         "本輪通路現價只代表查核當下，沒有具日期價格歷史時不直接當作史低。",
         "排除會員個人券、信用卡回饋、點數、二手、福利品、展示機、拆封品、整新品、配件與近似型號。"
       ]
-    },
-    {
-      "id": "robot-electrolux-efr81223",
-      "category": "robot",
-      "brand": "Electrolux",
-      "model": "EFR81223",
-      "name": "安心管家 800 全能掃拖機器人",
-      "currentPrice": 16900,
-      "currentCurrency": "TWD",
-      "currentBuyUrl": "https://24h.pchome.com.tw/prod/DMBL5X-A900K8CTK",
-      "currentBuyLabel": "PChome 24h exact-model 現貨新品",
-      "historicalLow": {
-        "status": "not_found",
-        "amount": null,
-        "currency": "TWD",
-        "converted": null,
-        "sourceUrl": "",
-        "sourceTitle": "",
-        "evidenceSnippet": "",
-        "sourceKind": "not_found",
-        "confidence": "not_found",
-        "checkedAt": "2026-08-24",
-        "note": "已查伊萊克斯官方 exact-model 現價 NT$21,900、PChome 24h exact-model 現價 NT$16,900，以及嘖嘖 2026-03-05 至 2026-06-08 的 NT$16,900 預購回饋；嘖嘖方案包含 EFR81223＋ERK7 耗材組，商品內容不同，未找到單機同條件的可重現歷史價格時間軸，故不推定史低。"
-      },
-      "checkedSources": [
-        "https://www.electrolux.com.tw/appliances/robot-vacuums/efr81223/",
-        "https://24h.pchome.com.tw/prod/DMBL5X-A900K8CTK",
-        "https://www.zeczec.com/projects/electrolux-800-EFR81223"
-      ],
-      "priceChecks": [
-        {
-          "kind": "official_current_exact_model_page",
-          "url": "https://www.electrolux.com.tw/appliances/robot-vacuums/efr81223/",
-          "query": "Electrolux EFR81223",
-          "outcome": "2026-08-24 官方 exact-model 頁標示有現貨 NT$21,900；只能證明查核日官方價格。"
-        },
-        {
-          "kind": "retailer_current_exact_model_page",
-          "url": "https://24h.pchome.com.tw/prod/DMBL5X-A900K8CTK",
-          "query": "Electrolux EFR81223",
-          "outcome": "2026-08-24 PChome exact-model 新品頁與 API 顯示 NT$16,900、Qty 20；沒有價格歷史日期，未當作史低。"
-        },
-        {
-          "kind": "different_bundle_preorder_reward_excluded",
-          "url": "https://www.zeczec.com/projects/electrolux-800-EFR81223",
-          "query": "Electrolux EFR81223 ERK7 嘖嘖 NT$16,900",
-          "outcome": "嘖嘖 2026-03-05 至 2026-06-08 的 NT$16,900 是 EFR81223 與 ERK7 耗材組預購回饋；組合內容與單機現售頁不同，排除為單機史低證據。"
-        }
-      ],
-      "rejectedCandidates": [
-        "不以 2026-08-24 查核當下最低可購價冒充史低；嘖嘖 NT$16,900 因包含 ERK7 耗材組且屬預購回饋而排除，會員券、信用卡、點數、福利、展示、拆封與二手均不採。"
-      ],
-      "priceBasis": "retailer_current",
-      "priceLabel": "通路現價"
-    },
-    {
-      "id": "dishwasher-bosch-smi4ecs00x",
-      "category": "dishwasher",
-      "brand": "Bosch",
-      "model": "SMI4ECS00X",
-      "name": "4 系列 14 人份半嵌式洗碗機",
-      "currentPrice": 44030,
-      "currentCurrency": "TWD",
-      "currentBuyUrl": "https://kitchenworld.com.tw/product/2606081629271/BOSCHSMI4ECS00X4%E7%B3%BB%E5%88%97AirDry%2B%E8%87%AA%E5%8B%95",
-      "currentBuyLabel": "KW 廚房世界 exact-model 現貨新品（限定區域基本安裝）",
-      "historicalLow": {
-        "status": "not_found",
-        "amount": null,
-        "currency": "TWD",
-        "converted": null,
-        "sourceUrl": "",
-        "sourceTitle": "",
-        "evidenceSnippet": "",
-        "sourceKind": "not_found",
-        "confidence": "not_found",
-        "checkedAt": "2026-08-24",
-        "note": "已查 Bosch 台灣官方商城現價 NT$51,800、KW 廚房世界 exact-model 現貨價 NT$44,030 與 momo exact-model 新品頁；這些頁面只證明查核日價格，未提供帶日期的完整歷史曲線，故不以目前最低觀察價推定史低。"
-      },
-      "checkedSources": [
-        "https://www.bosch-home-shop.com.tw/products/smi4ecs00x",
-        "https://kitchenworld.com.tw/product/2606081629271/BOSCHSMI4ECS00X4%E7%B3%BB%E5%88%97AirDry%2B%E8%87%AA%E5%8B%95",
-        "https://www.momoshop.com.tw/TP/TP0007793/goodsDetail/TP00077930000904"
-      ],
-      "priceChecks": [
-        {
-          "kind": "official_current_exact_model_page",
-          "url": "https://www.bosch-home-shop.com.tw/products/smi4ecs00x",
-          "query": "Bosch SMI4ECS00X",
-          "outcome": "2026-08-24 官方商城 exact-model 頁可加入購物車並標價 NT$51,800；只能證明查核日官方價格。"
-        },
-        {
-          "kind": "retailer_current_exact_model_page",
-          "url": "https://kitchenworld.com.tw/product/2606081629271/BOSCHSMI4ECS00X4%E7%B3%BB%E5%88%97AirDry%2B%E8%87%AA%E5%8B%95",
-          "query": "Bosch SMI4ECS00X",
-          "outcome": "2026-08-24 KW exact-model 新品頁結構化資料標示 InStock、NT$44,030、庫存 8；未提供帶日期歷史曲線。"
-        },
-        {
-          "kind": "retailer_exact_model_cross_check",
-          "url": "https://www.momoshop.com.tw/TP/TP0007793/goodsDetail/TP00077930000904",
-          "query": "Bosch SMI4ECS00X",
-          "outcome": "momo exact-model 台灣新品頁用於跨站確認型號與現售狀態；未取得可重現的歷史最低點。"
-        }
-      ],
-      "rejectedCandidates": [
-        "KW NT$44,030 為 2026-08-24 公開現貨價，不因低於官方商城 NT$51,800 就直接當作史低；排除會員券、信用卡、點數、展示、福利、拆封與安裝範圍不同的價格。"
-      ],
-      "priceBasis": "retailer_current",
-      "priceLabel": "通路現價"
-    },
-    {
-      "id": "dishwasher-bosch-smv4ecx00x",
-      "category": "dishwasher",
-      "brand": "Bosch",
-      "model": "SMV4ECX00X",
-      "name": "4 系列 14 人份全嵌式洗碗機",
-      "currentPrice": 44030,
-      "currentCurrency": "TWD",
-      "currentBuyUrl": "https://kitchenworld.com.tw/product/260610125117/BOSCHSMV4ECX00X4%E7%B3%BB%E5%88%97%E5%85%A8%E5%B5%8C%E5%BC%8F%E6%B4%97%E7%A2%97%E6%A9%9F60",
-      "currentBuyLabel": "KW 廚房世界 exact-model 現貨新品（限定區域基本安裝）",
-      "historicalLow": {
-        "status": "not_found",
-        "amount": null,
-        "currency": "TWD",
-        "converted": null,
-        "sourceUrl": "",
-        "sourceTitle": "",
-        "evidenceSnippet": "",
-        "sourceKind": "not_found",
-        "confidence": "not_found",
-        "checkedAt": "2026-08-24",
-        "note": "已查 Bosch 台灣官方商城建議售價 NT$51,800（查核時已售完）、KW 廚房世界 exact-model 現貨價 NT$44,030 與 momo exact-model 預購頁；這些頁面未提供帶日期的完整歷史曲線，故不以目前最低觀察價推定史低。"
-      },
-      "checkedSources": [
-        "https://www.bosch-home-shop.com.tw/products/smv4ecx00x",
-        "https://kitchenworld.com.tw/product/260610125117/BOSCHSMV4ECX00X4%E7%B3%BB%E5%88%97%E5%85%A8%E5%B5%8C%E5%BC%8F%E6%B4%97%E7%A2%97%E6%A9%9F60",
-        "https://www.momoshop.com.tw/TP/TP0007793/goodsDetail/TP00077930000906"
-      ],
-      "priceChecks": [
-        {
-          "kind": "official_exact_model_page_sold_out",
-          "url": "https://www.bosch-home-shop.com.tw/products/smv4ecx00x",
-          "query": "Bosch SMV4ECX00X",
-          "outcome": "2026-08-24 官方商城 exact-model 頁標示 NT$51,800 但已售完；不作為目前購買連結，也不能證明歷史最低。"
-        },
-        {
-          "kind": "retailer_current_exact_model_page",
-          "url": "https://kitchenworld.com.tw/product/260610125117/BOSCHSMV4ECX00X4%E7%B3%BB%E5%88%97%E5%85%A8%E5%B5%8C%E5%BC%8F%E6%B4%97%E7%A2%97%E6%A9%9F60",
-          "query": "Bosch SMV4ECX00X",
-          "outcome": "2026-08-24 KW exact-model 新品頁結構化資料標示 InStock、NT$44,030、庫存 1；未提供帶日期歷史曲線。"
-        },
-        {
-          "kind": "preorder_current_page_excluded",
-          "url": "https://www.momoshop.com.tw/TP/TP0007793/goodsDetail/TP00077930000906",
-          "query": "Bosch SMV4ECX00X",
-          "outcome": "momo exact-model 頁為預購，用於跨站身分與價格查核，不取代可立即購買的 KW 現貨頁，也不當作史低。"
-        }
-      ],
-      "rejectedCandidates": [
-        "KW NT$44,030 為 2026-08-24 公開現貨價，不因低於官方建議售價就直接當作史低；官方售完與 momo 預購頁不取代目前現貨連結，並排除會員券、點數、展示、福利、拆封及安裝範圍不同價格。"
-      ],
-      "priceBasis": "retailer_current",
-      "priceLabel": "通路現價"
     }
   ]
 }

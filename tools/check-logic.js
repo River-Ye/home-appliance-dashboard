@@ -20,6 +20,7 @@ const {
   DIMENSION_PATTERN,
   JAPANESE_BRAND_ROSTER,
   MEASUREMENT_PRIORITY_CATEGORIES,
+  NETWORK_SWITCH_SPEC_PREFIXES,
   NEW_DIMENSION_CATEGORIES,
   WEIGHT_CATEGORIES,
   WEIGHT_PATTERN,
@@ -27,6 +28,7 @@ const {
 } = require("./dashboard-contract");
 const {
   validateAirconProduct,
+  validateNetworkSwitchProduct,
   validatePriceAndInstallationContract,
   validateWaterheaterProduct,
 } = require("./verify-data");
@@ -1865,6 +1867,60 @@ async function main() {
     invalidTaiwanWarrantyFailures.some((failure) => failure.includes("50Hz-only or non-Taiwan warranty")),
     "all new products must reject an explicitly non-Taiwan warranty fixture",
   );
+  const validNetworkSwitchFixture = {
+    id: "network-switch-fixture",
+    category: "network-switch",
+    brand: "TP-Link",
+    type: "2_5g",
+    channel: "tw",
+    model: "SWITCH-8",
+    price: { basis: "retailer_current", currency: "TWD", amount: 2999, converted: 2999 },
+    installation: { status: "not_stated", note: "桌上或壁掛；弱電箱需保留通風空間" },
+    voltage: "100–240V／50–60Hz 變壓器",
+    warranty: "台灣公司貨 3 年保固",
+    image: "https://example.test/switch.jpg",
+    switchProfile: {
+      rj45PortCount: 8,
+      speedTier: "2_5g",
+      primaryPortSpeedsGbps: [0.1, 1, 2.5],
+      extraUplinks: [],
+      management: "unmanaged",
+      poe: false,
+      enclosure: "metal",
+      cooling: "fanless",
+      maxPowerW: 8,
+      operatingTemperatureC: { min: 0, max: 40 },
+      dimensionsCm: { width: 16, depth: 10, height: 2.5 },
+      mounting: ["desktop", "wall"],
+      specSourceUrl: "https://www.tp-link.com/tw/spec",
+    },
+    specs: NETWORK_SWITCH_SPEC_PREFIXES.map((prefix) => ({
+      "PoE：": "PoE：不支援",
+      "外殼：": "外殼：金屬",
+    })[prefix] || `${prefix}fixture`),
+  };
+  const validNetworkSwitchFailures = [];
+  validateNetworkSwitchProduct(validNetworkSwitchFixture, validNetworkSwitchFailures);
+  assert(validNetworkSwitchFailures.length === 0, `valid network-switch fixture failed: ${validNetworkSwitchFailures.join(", ")}`);
+  const invalidNetworkSwitchFailures = [];
+  validateNetworkSwitchProduct({
+    ...validNetworkSwitchFixture,
+    switchProfile: { ...validNetworkSwitchFixture.switchProfile, rj45PortCount: 7, poe: true },
+  }, invalidNetworkSwitchFailures);
+  assert(
+    invalidNetworkSwitchFailures.some((failure) => failure.includes("exactly 8 primary RJ45"))
+      && invalidNetworkSwitchFailures.some((failure) => failure.includes("must not support PoE")),
+    "network-switch contract must reject non-eight-port or PoE-capable models",
+  );
+  const invalidNetworkSwitchSourceFailures = [];
+  validateNetworkSwitchProduct({
+    ...validNetworkSwitchFixture,
+    switchProfile: { ...validNetworkSwitchFixture.switchProfile, specSourceUrl: "https://example.test/spec" },
+  }, invalidNetworkSwitchSourceFailures);
+  assert(
+    invalidNetworkSwitchSourceFailures.some((failure) => failure.includes("official brand specSourceUrl")),
+    "network-switch contract must reject a non-brand spec source",
+  );
   const infiniteRoomSizeFailures = [];
   validateAirconProduct({
     id: "aircon-infinite-room-size-fixture",
@@ -2074,7 +2130,20 @@ async function main() {
   assert(filters.activeAdvancedFilterCount() === 2, "category and type must both contribute to the active mobile filter count");
   filters.applyFilterValue("category", "monitor");
   assert(dashboard.state.type === "all", "switching to an incompatible category must reset type");
-  assert(!filters.typeFilterAvailable(), "type filter must hide outside aircon and waterheater");
+  assert(!filters.typeFilterAvailable(), "type filter must hide outside aircon, waterheater, and network-switch");
+  dashboard.state.category = "network-switch";
+  const networkSwitchTypeValues = filters.filterOptions("type").map((option) => option.value);
+  assert(
+    networkSwitchTypeValues.join(",") === "all,1g,2_5g,10g",
+    "network-switch type filter must expose the three approved speed tiers",
+  );
+  dashboard.state.type = "2_5g";
+  assert(
+    filters.filteredProducts().every((product) => product.category === "network-switch" && product.type === "2_5g"),
+    "network-switch speed filtering must apply to the complete product dataset",
+  );
+  filters.applyFilterValue("category", "wifi");
+  assert(dashboard.state.type === "all", "switching from network-switch to wifi must clear the speed tier");
   dashboard.state.category = "all";
 
   assert(
@@ -2577,11 +2646,25 @@ async function main() {
   dashboard.urlState.syncToQuery();
   assert(context.history.lastUrl.includes("category=aircon&type=heat_cool"), "query sync should persist compatible type");
 
+  for (const type of ["1g", "2_5g", "10g"]) {
+    context.location = new URL(`https://example.test/index.html?category=network-switch&type=${type}`);
+    context.history.lastUrl = "";
+    dashboard.urlState.applyFromQuery();
+    assert(dashboard.state.category === "network-switch" && dashboard.state.type === type, `query should restore switch speed tier ${type}`);
+    dashboard.urlState.syncToQuery();
+    assert(context.history.lastUrl.includes(`category=network-switch&type=${type}`), `query sync should persist switch speed tier ${type}`);
+  }
+
   context.location = new URL("https://example.test/index.html?category=monitor&type=gas");
   context.history.lastUrl = "";
   dashboard.urlState.applyFromQuery();
   assert(dashboard.state.category === "monitor" && dashboard.state.type === "all", "invalid direct type must be ignored");
   assert(!context.history.lastUrl.includes("type="), "invalid direct type must be removed from synchronized URL");
+
+  const mergeResearchSource = fs.readFileSync(path.join(root, "tools/merge-product-research-bundles.js"), "utf8");
+  assert(mergeResearchSource.includes("--date=YYYY-MM-DD"), "research bundle merger must require an explicit date");
+  assert(!mergeResearchSource.includes('const CHECKED_AT = "2026-08-20"'), "research bundle merger must not retain a hardcoded date");
+  assert(mergeResearchSource.includes("網路交換器共 14 類尺寸"), "research bundle merger must preserve the 14-category dimension policy");
 
   Object.assign(dashboard.state, {
     search: "",

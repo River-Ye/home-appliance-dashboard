@@ -96,10 +96,10 @@ function main() {
     readme.includes(`檢查 ${categories.length} 類、${products.length} 筆、必要欄位`),
     "README check:data contract count is stale",
   );
-  assert(readme.includes("13 類尺寸與 6 類新增重量規格／證據對齊"), "README dimension/weight coverage is stale");
+  assert(readme.includes("14 類尺寸與 6 類新增重量規格／證據對齊"), "README dimension/weight coverage is stale");
   assert(index.includes("家電尺寸／重量查核證據"), "homepage dimension/weight evidence label is stale");
   assert(
-    agents.includes("`dimension_research.json` 同步保存 13 類商品的機身／組件尺寸證據"),
+    agents.includes("`dimension_research.json` 同步保存 14 類商品的機身／組件尺寸證據"),
     "AGENTS dimension evidence coverage is stale",
   );
   assert(agents.includes("主機、重低音與後環繞需依官方明確資料分列"), "AGENTS soundbar component rule is missing");
@@ -117,6 +117,7 @@ function main() {
     ["soundbar", "Soundbar"],
     ["robot", "掃拖機器人"],
     ["wifi", "無線路由器"],
+    ["network-switch", "網路交換器"],
     ["monitor", "電腦螢幕"],
     ["monitorarm", "懸臂支架"],
     ["smartlock", "電子鎖"],

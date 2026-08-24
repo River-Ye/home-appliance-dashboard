@@ -3,11 +3,15 @@ const path = require("path");
 const { readDashboardProducts } = require("./read-dashboard-products");
 
 const ROOT = path.resolve(__dirname, "..");
-const CHECKED_AT = "2026-08-20";
-const bundlePaths = process.argv.slice(2).map((file) => path.resolve(file));
+const args = process.argv.slice(2);
+const dateArgument = args.find((argument) => argument.startsWith("--date="));
+const CHECKED_AT = dateArgument?.slice("--date=".length);
+const bundlePaths = args
+  .filter((argument) => !argument.startsWith("--date="))
+  .map((file) => path.resolve(file));
 
-if (bundlePaths.length === 0) {
-  throw new Error("Usage: node tools/merge-product-research-bundles.js <bundle.json> [...]");
+if (!/^\d{4}-\d{2}-\d{2}$/.test(String(CHECKED_AT || "")) || bundlePaths.length === 0) {
+  throw new Error("Usage: node tools/merge-product-research-bundles.js --date=YYYY-MM-DD <bundle.json> [...]");
 }
 
 const TARGETS = [
@@ -104,7 +108,7 @@ function refreshMetadata(file, document, products) {
 
   if (file === "dimension_research.json") {
     document.generatedAt = CHECKED_AT;
-    document.sourcePolicy = "電視、Soundbar、洗衣機、烘衣機、洗烘衣機、電子衣櫥、冰箱、咖啡機、多功能氣炸烤箱／微波爐、洗碗機、免治馬桶、冷氣與熱水器共 13 類尺寸，以及電視、Soundbar、咖啡機、多功能氣炸烤箱／微波爐、冷氣與熱水器共 6 類重量研究，皆優先採 exact-model 官方產品頁、官方規格表或官方 PDF，其次為可信新品通路。只採本體／機身／明確組件的尺寸與淨重，排除包裝、外箱尺寸與毛重；來源沒有明示寬／深／高順序時不自行推定。冷氣分列室內機與室外機，熱泵複合熱水器必須分列主機與儲槽；既有各類研究列仍沿用相同 exact-model 邊界。";
+    document.sourcePolicy = "電視、Soundbar、洗衣機、烘衣機、洗烘衣機、電子衣櫥、冰箱、咖啡機、多功能氣炸烤箱／微波爐、洗碗機、免治馬桶、冷氣、熱水器與網路交換器共 14 類尺寸，以及電視、Soundbar、咖啡機、多功能氣炸烤箱／微波爐、冷氣與熱水器共 6 類重量研究，皆優先採 exact-model 官方產品頁、官方規格表或官方 PDF，其次為可信新品通路。只採本體／機身／明確組件的尺寸與淨重，排除包裝、外箱尺寸與毛重；來源沒有明示寬／深／高順序時不自行推定。冷氣分列室內機與室外機，熱泵複合熱水器必須分列主機與儲槽；既有各類研究列仍沿用相同 exact-model 邊界。";
   }
 
   if (file === "product_issue_research.json") {

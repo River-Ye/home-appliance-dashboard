@@ -1,5 +1,5 @@
-const EXPECTED_CATEGORY_COUNT = 29;
-const EXPECTED_PRODUCT_COUNT = 879;
+const EXPECTED_CATEGORY_COUNT = 30;
+const EXPECTED_PRODUCT_COUNT = 899;
 const MIN_PRODUCTS_PER_CATEGORY = 20;
 const EXPECTED_CATEGORY_PRODUCT_COUNTS = new Map([
   ["tv", 35],
@@ -27,6 +27,7 @@ const EXPECTED_CATEGORY_PRODUCT_COUNTS = new Map([
   ["bidet", 21],
   ["smartlock", 48],
   ["wifi", 51],
+  ["network-switch", 20],
   ["standingdesk", 27],
   ["chair", 27],
   ["monitor", 57],
@@ -48,12 +49,13 @@ const DIMENSION_CATEGORY_COUNTS = new Map([
   ["bidet", 21],
   ["aircon", 30],
   ["waterheater", 45],
+  ["network-switch", 20],
 ]);
 const DIMENSION_CATEGORIES = new Set(DIMENSION_CATEGORY_COUNTS.keys());
 const EXPECTED_DIMENSION_PRODUCT_COUNT = [...DIMENSION_CATEGORY_COUNTS.values()]
   .reduce((sum, count) => sum + count, 0);
-const NEW_DIMENSION_CATEGORIES = new Set(["tv", "soundbar", "coffee", "oven", "dishwasher", "bidet", "aircon", "waterheater"]);
-const MEASUREMENT_PRIORITY_CATEGORIES = new Set(["tv", "soundbar", "garmentcare", "coffee", "oven", "dishwasher", "bidet", "aircon", "waterheater"]);
+const NEW_DIMENSION_CATEGORIES = new Set(["tv", "soundbar", "coffee", "oven", "dishwasher", "bidet", "aircon", "waterheater", "network-switch"]);
+const MEASUREMENT_PRIORITY_CATEGORIES = new Set(["tv", "soundbar", "garmentcare", "coffee", "oven", "dishwasher", "bidet", "aircon", "waterheater", "network-switch"]);
 const MEASUREMENT_VALUE_PATTERN = "\\d+(?:\\.\\d+)?(?:[-–／/]\\d+(?:\\.\\d+)?)?";
 const DIMENSION_SEGMENT_PATTERN = `(?:[^；]+ )?寬 ${MEASUREMENT_VALUE_PATTERN} x 深 ${MEASUREMENT_VALUE_PATTERN} x 高 ${MEASUREMENT_VALUE_PATTERN} cm`;
 const FORBIDDEN_MEASUREMENT_LABEL_PATTERN = "(?!.*(?:包裝|外箱|紙箱|毛重|gross|carton))";
@@ -124,6 +126,28 @@ const WATERHEATER_ELECTRIC_SUBTYPE_COUNTS = new Map([
   ["storage", 8],
   ["instant", 7],
 ]);
+const NETWORK_SWITCH_TYPE_MIN_COUNTS = new Map([
+  ["1g", 4],
+  ["2_5g", 4],
+  ["10g", 4],
+]);
+const NETWORK_SWITCH_MANAGEMENT_VALUES = new Set(["unmanaged", "easy_managed", "managed"]);
+const NETWORK_SWITCH_COOLING_VALUES = new Set(["fanless", "active_fan", "smart_fan"]);
+const NETWORK_SWITCH_TOP_PICK_MODEL = "DMS-108";
+const NETWORK_SWITCH_SPEC_PREFIXES = [
+  "主連接埠：",
+  "速率等級：",
+  "額外 uplink：",
+  "管理方式：",
+  "PoE：",
+  "外殼：",
+  "散熱：",
+  "最大功耗：",
+  "操作溫度：",
+  "尺寸：",
+  "安裝方式：",
+  "弱電箱提醒：",
+];
 const AIRCON_SPEC_PREFIXES = [
   "型式：",
   "組合型號：",
@@ -354,6 +378,11 @@ module.exports = {
   AIRCON_CAPACITY_BAND_LIMITS,
   WATERHEATER_TYPE_COUNTS,
   WATERHEATER_ELECTRIC_SUBTYPE_COUNTS,
+  NETWORK_SWITCH_TYPE_MIN_COUNTS,
+  NETWORK_SWITCH_MANAGEMENT_VALUES,
+  NETWORK_SWITCH_COOLING_VALUES,
+  NETWORK_SWITCH_TOP_PICK_MODEL,
+  NETWORK_SWITCH_SPEC_PREFIXES,
   AIRCON_SPEC_PREFIXES,
   WATERHEATER_SPEC_PREFIXES,
   JAPANESE_BRAND_ROSTER,

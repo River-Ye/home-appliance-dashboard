@@ -33,10 +33,10 @@
 - `assets/js/product-loader.js`：依 `categories` 自動載入 `products/<category>.js?v=<cacheVersion>`。
 - `assets/js/main.js`：DOMContentLoaded、商品載入、事件綁定與初始 render。
 - `products/*.js`：每個商品分類一個檔案，只放該分類商品資料，透過 `globalThis.applianceDashboard.registerProducts(categoryId, items)` 註冊。
-- `tools/category-guides.js`：29 類導讀、選購條件與 FAQ 的人工維護來源，不放即時商品事實。
+- `tools/category-guides.js`：30 類導讀、選購條件與 FAQ 的人工維護來源，不放即時商品事實。
 - `tools/geo-config.js`：站名、首頁 title、description、H1、AI 揭露與 GEO 共用文案契約。
 - `tools/generate-category-pages.js`：依分類、商品、指南與 CSS 來源產生 `assets/css/app.css`、`categories/<id>/index.html`、`sitemap.xml`、`llms.txt` 與首頁 GEO 區塊。
-- `categories/<id>/index.html`：29 個可直接閱讀與索引的靜態分類指南頁，含前 5 名詳細推薦與該類全部型號的無 JavaScript 索引，屬產生結果。
+- `categories/<id>/index.html`：30 個可直接閱讀與索引的靜態分類指南頁，含前 5 名詳細推薦與該類全部型號的無 JavaScript 索引，屬產生結果。
 - `tools/dashboard-contract.js`：商品數、分類數、必要欄位與資料品質規則常數。
 - `tools/run-daily-catalog-maintenance.js`：永久維護入口，重查現價、來源、圖片、史低來源、匯率與停產候選；原始逐筆稽核只寫入 gitignored `.maintenance-audit.json`。
 - `tools/catalog-maintenance-policy.js`：exact-model、排除品與官方停產文字的純邏輯規則。
@@ -68,7 +68,7 @@
 
 ## GEO / AI 搜尋規則
 
-- 網站由現有 29 類資料產生 29 個 `/categories/<id>/` 靜態分類指南頁；不建立 879 個重複商品事實的薄內容頁。
+- 網站由現有 30 類資料產生 30 個 `/categories/<id>/` 靜態分類指南頁；不建立 899 個重複商品事實的薄內容頁。
 - 每個分類指南的初始 HTML 必須含該類全部商品的品牌、完整型號、名稱、參考價、價格基準、上市／發售日期與摘要；前 5 名繼續顯示完整評估卡。
 - `tools/category-guides.js` 只維護分類層級的繁中導讀、3 項選購條件與 3 組 FAQ；商品名稱、價格、排名、規格、史低與負評仍從既有商品資料產生，避免第二套事實來源。
 - 站名、首頁 title、description、H1 與 AI 揭露集中在 `tools/geo-config.js`；首頁 metadata、JSON-LD、分類頁與 `llms.txt` 必須共用此契約。首頁與分類頁首屏皆需可見 AI 協作、資料日期、查核方法與 GitHub 原始碼。
@@ -81,13 +81,14 @@
 
 ## 目前資料規模
 
-- 共 29 類、879 筆商品。
+- 共 30 類、899 筆商品。
 - 所有分類每類至少 20 筆；新增分類或補資料時不可讓任何分類低於 20 筆。
 - 特殊分類目前數量：
   - `電視`：35 筆，其中 5 筆為 exact 70 吋，需涵蓋主流顯示技術與可信台灣新品通路。
   - `Soundbar`：29 筆，需涵蓋不同聲道、擴充方式與空間需求。
   - `掃拖機器人`：38 筆，需涵蓋知名品牌旗艦與次旗艦。
   - `無線路由器`：51 筆，只收 Wi-Fi 6 以上，Mesh/多 AP/商用管理支援要寫清楚。
+  - `網路交換器`：20 筆，固定 8 個主要 RJ45 埠，1G／2.5G／10G 各至少 4 款；只收台灣公司貨、金屬外殼與非 PoE 型號。
   - `電腦螢幕`：57 筆，需涵蓋主流品牌、不同用途帶與 34/40/45/49/57 吋寬螢幕。
   - `懸臂支架`：24 筆，需標示支援尺寸、承重重量與是否適合 49/57 吋大寬螢幕。
   - `電子鎖`：48 筆，需涵蓋知名品牌且注意安裝條件。
@@ -148,6 +149,7 @@
 工作網路：
 
 - 無線路由器
+- 網路交換器
 - 升降桌
 - 電腦椅
 - 電腦螢幕
@@ -192,13 +194,13 @@
 - 電壓明顯不適合台灣者不可列為 Top Pick。
 - 使用者曾要求「全網最低價」，實作上要以可信通路與同型號可查低價為準；不要為了低價改放不可信網站或非新品頁。
 - 新增商品的 `price.basis` 只允許 `retailer_current` 或 `official_suggested`；後者必須顯示「建議售價／查看官方資料」，不可被卡片、史低或 maintenance 文案稱為通路現價。`installation.status` 只允許 `included_basic`、`excluded`、`not_stated`，並須用 `installation.note` 說明邊界與可能加價。
-- 日系品牌固定盤點 Sony、Panasonic、HITACHI、Mitsubishi Electric、Daikin、GENERAL、Rinnai、Noritz、TOTO；`Hitachi` 統一為 `HITACHI`，`Mitsubishi` 只在確認為 Mitsubishi Electric 時收錄，GENERAL 可接受 Fujitsu General alias，TOTO 不得誤中 TOTOLINK。29 類 × 9 品牌的完整 `japaneseBrandReview` 保存在 `catalog_maintenance_latest.json`，不新增第七份公開 audit JSON。
+- 日系品牌固定盤點 Sony、Panasonic、HITACHI、Mitsubishi Electric、Daikin、GENERAL、Rinnai、Noritz、TOTO；`Hitachi` 統一為 `HITACHI`，`Mitsubishi` 只在確認為 Mitsubishi Electric 時收錄，GENERAL 可接受 Fujitsu General alias，TOTO 不得誤中 TOTOLINK。30 類 × 9 品牌的完整 `japaneseBrandReview` 保存在 `catalog_maintenance_latest.json`，不新增第七份公開 audit JSON。
 - 商品內容若有「排除福利/展示/拆封品」等說明文字是允許的，但商品名稱、型號與購買頁本身不能是這類商品。
 - 每筆商品都必須標示 `releaseDate`，代表上市/發售日期；若可信通路或品牌頁找不到明確日期，需填「找不到」，不要用評論日期、促銷日期、上架日或型號年份猜測。
 - 日期查核需保留 `release_date_research.json` 證據檔；非「找不到」項目必須有 `sourceUrl`、`sourceTitle`、`evidenceSnippet` 與 `confidence`，且 `releaseDate` 只能使用 `YYYY-MM-DD`、`YYYY-MM`、`YYYY`。
 - 補查上市/發售日時，優先官方新聞稿、官方產品發表頁、官方上市/發售公告；其次才使用可信媒體/評測明確寫出的 release/launch/上市/發售文字。不可把 Google/Bing 生成式摘要、支援頁的說明書/韌體/驅動 release date、文章發布日、促銷期間、上架日、保固文件日期、購買頁庫存日期或型號年份當作上市日。
 - 若搜尋結果只找到「released in 2024」這類明確年份，可填 `YYYY`；只寫月份則填 `YYYY-MM`。不要自行補月份或日期。
-- `dimension_research.json` 同步保存 13 類商品的機身／組件尺寸證據，以及電視、Soundbar、咖啡機、多功能氣炸烤箱／微波爐、冷氣、熱水器 6 類商品重量證據；商品規格與研究列必須逐筆對齊。
+- `dimension_research.json` 同步保存 14 類商品的機身／組件尺寸證據，以及電視、Soundbar、咖啡機、多功能氣炸烤箱／微波爐、冷氣、熱水器 6 類商品重量證據；商品規格與研究列必須逐筆對齊。
 - 尺寸與重量優先採品牌官方 exact-model 產品頁、官方規格表或官方 PDF，其次才使用可信通路。只採本體／機身尺寸與淨重，不可使用包裝、外箱尺寸或毛重；來源沒有明確標示寬／深／高順序時不得自行推定。
 - 新增查核的電視、Soundbar、咖啡機、多功能氣炸烤箱／微波爐、洗碗機與免治馬桶若仍無法確認，規格文字固定使用「尺寸：查不到」／「重量：查不到」，並在研究列保留實際查過的代表性頁面與找不到原因；既有大型家電的「未標示」契約不回溯改寫。
 - 每筆商品都必須標示 `historicalLow`，代表同型號、同尺寸/容量/規格在可信新品通路可驗證的歷史最低價與入手時機判斷；若找不到可靠來源，需填 `status: "not_found"`，不要以現價推定史低。
@@ -241,6 +243,15 @@
 - Aruba Instant On、UniFi 等商用/Prosumer AP 可以納入，但必須明確寫出它們不是一般家用一體式 NAT 分享器，通常需既有 Gateway/路由器、PoE 供電與品牌控制器/管理 App。
 - 使用者預期可能買 2-3 台串接，所以 Mesh 套組與單台 Mesh 擴充能力都要好比較。
 - 不要把網卡、延伸器、中繼器、交換器誤列為路由器。
+
+### 網路交換器
+
+- 固定 20 款，每款必須有 8 個主要銅纜 RJ45 埠；額外 SFP+ 或 combo uplink 可收錄，但不得算進八個主要埠。
+- 1G、2.5G、10G 三個速率級距各至少 4 款；10G 主要埠需同時支援 1G、2.5G 與 10G 自動協商。
+- 只收台灣公司貨、公開 TWD 售價、台灣保固、金屬外殼與非 PoE 型號；任何具 PoE 功能的型號都排除。
+- 官方來源必須明示散熱方式、最大功耗、最高操作溫度至少 40°C、機身尺寸與八埠速率；不得以通路或推測補官方材質／散熱證據。
+- 密閉且無主動散熱的弱電箱以低功耗、高操作溫度上限、較長保固優先；10G 機種必須明示改善箱體進排風，不得描述為無條件適用密閉箱。
+- 無網管、簡易網管與網管型皆可，但必須明確標示；D-Link DMS-108 固定為唯一 Top Pick。
 
 ### 電視
 
@@ -329,7 +340,7 @@
 - 最上方 header 內容需與 body 主內容同寬對齊，不可滿版貼邊後和下方錯位。
 - 搜尋與篩選控制要支援手動 key 關鍵字找選項，避免選項太多難找。
 - 選擇「分類」後，「品牌」選項只顯示該分類實際存在的品牌，不可顯示無關品牌。
-- 型態篩選只在冷氣與熱水器顯示，URL 使用 `type=cooling_only|heat_cool|gas|electric|heat_pump`；切換到不相容分類時清除 type，無效直連值要忽略並從同步 URL 移除，桌機、手機、active chip、篩選數量、重設與分享網址須一致。
+- 型態篩選只在冷氣、熱水器與網路交換器顯示，URL 使用 `type=cooling_only|heat_cool|gas|electric|heat_pump|1g|2_5g|10g`；切換到不相容分類時清除 type，無效直連值要忽略並從同步 URL 移除，桌機、手機、active chip、篩選數量、重設與分享網址須一致。
 - 排序控制必須支援推薦排序、價格升冪/降冪、分數升冪/降冪、`上市 / 發售日期` 升冪/降冪；日期找不到的商品在日期排序時應排在最後。
 - 分類 tabs 需把相關品類放在一起；目前分為影音、空氣環境、清潔家務、洗衣家務、廚房餐飲、衛浴安全、工作網路。
 - 手機版進階篩選區必須可收合，避免搜尋列表占太多空間。
@@ -348,9 +359,9 @@
 ## 價格與匯率
 
 <!-- catalog-maintenance-summary:start -->
-- 2026-08-24 08:14（台灣時間）完成 879 筆商品、29 類全量查核；438 筆 PChome SKU API 已完成（264 筆 exact model、66 筆人工 SKU 綁定可寫入，61 筆型號未自動確認），更新 67 筆公開價格（17 筆下修、50 筆上修），33 筆 Qty 0 只列追蹤。
-- 本次增量新增 dishwasher-bosch-smi4ecs00x、dishwasher-bosch-smv4ecx00x、robot-electrolux-efr81223；本次增量沒有移除停產產品。沿用本資料日已完成的逐類人工新品覆核（原覆核時間保留），所有分類至少 20 筆；停產只採品牌官方明確證據，缺貨、反爬或單次連線錯誤不作為刪除依據。
-- 圖片查核覆蓋 879 筆；664 筆來源可由 exact model 或人工 SKU 綁定確認，215 筆來源例外與 2 筆圖片例外保留原資料。史低為 468 筆 `found`、411 筆 `not_found`，本輪其他更正 3 筆；71 筆來源可自動重現，其餘保留原逐筆證據且未臆測失效。
+- 2026-08-24 18:19（台灣時間）完成 899 筆商品、30 類全量查核；454 筆 PChome SKU API 已完成（280 筆 exact model、65 筆人工 SKU 綁定可寫入，62 筆型號未自動確認），更新 0 筆公開價格（0 筆下修、0 筆上修），33 筆 Qty 0 只列追蹤。
+- 本次增量新增 network-switch-dlink-dgs-108、network-switch-dlink-dgs-1100-08v2、network-switch-dlink-dms-108、network-switch-netgear-gs108e、network-switch-netgear-gs308、network-switch-netgear-ms308、network-switch-netgear-ms308e、network-switch-tplink-tl-sx1008、network-switch-netgear-xs508tm、network-switch-qnap-qsw-l3208-2c6t、network-switch-qnap-qsw-m3216r-8s8t、network-switch-tplink-ls108g、network-switch-tplink-sg3210x-m2、network-switch-tplink-tl-sg108、network-switch-tplink-tl-sg108-m2、network-switch-tplink-tl-sg108e、network-switch-zyxel-gs-108b-v5、network-switch-zyxel-gs1200-8、network-switch-tplink-es208g、network-switch-zyxel-xmg-108；本次增量沒有移除停產產品。逐類人工新品覆核已完成，所有分類至少 20 筆；停產只採品牌官方明確證據，缺貨、反爬或單次連線錯誤不作為刪除依據。
+- 圖片查核覆蓋 899 筆；677 筆來源可由 exact model 或人工 SKU 綁定確認，222 筆來源例外與 4 筆圖片例外保留原資料。史低為 486 筆 `found`、413 筆 `not_found`，本輪異動 0 筆；70 筆來源可自動重現，其餘保留原逐筆證據且未臆測失效。
 - ExchangeRate-API 最新批次為 2026-08-24 00:02 UTC，USD/TWD 31.798233；29 筆外幣商品已重算。完整摘要與例外保存在 `catalog_maintenance_latest.json`。
 <!-- catalog-maintenance-summary:end -->
 
@@ -362,7 +373,7 @@
 - `npm run check:logic`：純邏輯回歸，涵蓋排序、品牌依分類限制、史低／負評文案、問題摘要搜尋、來源 URL 安全、HTML escape 與 product-loader URL/錯誤。
 - `npm run check:data`：商品總數、分類數、必要欄位、日期格式、負評逐型號人工覆核、逐位反映者與研究檔對齊、重複 URL 與重複型號檢查通過。
 - `npm run check:docs`：README、AGENTS、index/config 的商品數、分類數、日期與 cache version 不漂移。
-- `npm run check:geo`：29 個分類頁、879 款靜態型號索引、metadata、結構化資料、首頁分類入口、sitemap、llms、六份公開證據檔、Pages artifact、30 個 canonical URL 的 IndexNow contract 與產生結果均無漂移。
+- `npm run check:geo`：30 個分類頁、899 款靜態型號索引、metadata、結構化資料、首頁分類入口、sitemap、llms、六份公開證據檔、Pages artifact、31 個 canonical URL 的 IndexNow contract 與產生結果均無漂移。
 - `npm run check:ui`：桌機與手機版主要互動流程通過。
 - `npm run check:quality`：Lighthouse 的 Performance、LCP、CLS、Accessibility 與 SEO 採瀏覽器行動 throttling，TBT 採 Lantern 標準化模擬；首頁 Performance ≥ 90、LCP ≤ 2.5s、CLS ≤ 0.1、TBT ≤ 200ms、Accessibility = 100、SEO ≥ 95；代表分類頁 Performance、Accessibility、SEO 均 ≥ 95。
 - 商品總數仍符合 README 與分類 tab 顯示。
