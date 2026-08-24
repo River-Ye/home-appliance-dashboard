@@ -1,13 +1,13 @@
 {
   "summary": {
-    "checkedAt": "2026-08-21T00:00:00+08:00",
-    "total": 876,
-    "found": 238,
-    "missing": 638,
+    "checkedAt": "2026-08-24T00:00:00+08:00",
+    "total": 879,
+    "found": 239,
+    "missing": 640,
     "byConfidence": {
       "official": 123,
-      "credible_article": 93,
-      "not_found": 638,
+      "credible_article": 94,
+      "not_found": 640,
       "retailer_explicit": 11,
       "medium": 6,
       "high": 5
@@ -12344,6 +12344,50 @@
       "confidence": "not_found",
       "query": "\"North Bayou G50\" (上市 OR 發售 OR 新品 OR launch OR release)",
       "reason": "已查品牌資料、台灣通路及使用手冊，未找到可信的首次上市日期；不以手冊上架或通路頁日期推定。"
+    },
+    {
+      "id": "robot-electrolux-efr81223",
+      "category": "robot",
+      "brand": "Electrolux",
+      "model": "EFR81223",
+      "name": "安心管家 800 全能掃拖機器人",
+      "releaseDate": "2026-03",
+      "sourceUrl": "https://www.stufftaiwan.com/2026/01/06/%E4%BC%8A%E8%90%8A%E5%85%8B%E6%96%AF800%E5%85%A8%E8%83%BD%E6%8E%83%E6%8B%96%E6%A9%9F%E5%99%A8%E4%BA%BA%E9%81%B5%E5%BE%AA%E6%AD%90%E7%9B%9Fgdpr%E9%9A%B1%E7%A7%81%E8%A6%8F%E7%AF%84%EF%BC%8C%E4%BA%94/",
+      "sourceTitle": "伊萊克斯 800 全能掃拖機器人遵循歐盟 GDPR 隱私規範",
+      "evidenceSnippet": "Stuff Taiwan 的 EFR81223 新品報導規格表明列「上市時間｜2026年3月」；伊萊克斯台灣官方 exact-model 頁另標示新上市，故只採報導明示到月份的 2026-03，不自行補日期。",
+      "confidence": "credible_article",
+      "query": "\"EFR81223\" 上市時間 2026年3月",
+      "sourceKind": "credible_media_explicit_release"
+    },
+    {
+      "id": "dishwasher-bosch-smi4ecs00x",
+      "category": "dishwasher",
+      "brand": "Bosch",
+      "model": "SMI4ECS00X",
+      "name": "4 系列 14 人份半嵌式洗碗機",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "query": "site:bosch-home.com.tw \"SMI4ECS00X\" (上市 OR 發售 OR 發表 OR 新品)",
+      "sourceKind": "not_found_after_official_review",
+      "reason": "已查 Bosch 台灣 exact-model 官方產品頁、官方商城與官方文件；商城的預計到貨月份只代表庫存批次，不是上市／發售日，未找到官方公告或可信媒體明示首次上市日期。"
+    },
+    {
+      "id": "dishwasher-bosch-smv4ecx00x",
+      "category": "dishwasher",
+      "brand": "Bosch",
+      "model": "SMV4ECX00X",
+      "name": "4 系列 14 人份全嵌式洗碗機",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "query": "site:bosch-home.com.tw \"SMV4ECX00X\" (上市 OR 發售 OR 發表 OR 新品)",
+      "sourceKind": "not_found_after_official_review",
+      "reason": "已查 Bosch 台灣 exact-model 官方產品頁、官方商城與官方文件；通路標示 2026 新款及庫存到貨資訊都不足以證明首次上市日，未找到官方公告或可信媒體明示日期。"
     }
   ]
 }

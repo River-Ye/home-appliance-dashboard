@@ -1746,9 +1746,9 @@
     "name": "VORTEX KW1 桌上型全自動洗碗機",
     "price": {
       "currency": "TWD",
-      "amount": 15990,
-      "converted": 15990,
-      "confidence": "PChome 2026-08-18 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 16990,
+      "converted": 16990,
+      "confidence": "PChome 2026-08-24 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBR25A900J5BGP/000001_1782112645.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBR25-A900J5BGP",
@@ -2740,6 +2740,224 @@
           "platform": "YouTube",
           "query": "\"Rinnai RKW-601C-SV-TR\" problem issue defect failure broken 災情 故障 異常",
           "queryUrl": "https://www.youtube.com/results?search_query=%22Rinnai%20RKW-601C-SV-TR%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
+          "targetHost": "youtube.com"
+        }
+      ]
+    }
+  },
+  {
+    "id": "dishwasher-bosch-smi4ecs00x",
+    "category": "dishwasher",
+    "rank": 28,
+    "topPick": false,
+    "budget": "premium",
+    "channel": "tw",
+    "brand": "Bosch",
+    "model": "SMI4ECS00X",
+    "name": "4 系列 14 人份半嵌式洗碗機",
+    "price": {
+      "currency": "TWD",
+      "amount": 44030,
+      "converted": 44030,
+      "confidence": "KW 廚房世界於 2026-08-24 的 exact-model 台灣新品頁公開特價 NT$44,030，結構化資料標示 InStock、頁面庫存 8",
+      "basis": "retailer_current"
+    },
+    "image": "https://media3.bsh-group.com/Product_Shots/27963852_SMI4ECS00X_STP_def.webp",
+    "buyUrl": "https://kitchenworld.com.tw/product/2606081629271/BOSCHSMI4ECS00X4%E7%B3%BB%E5%88%97AirDry%2B%E8%87%AA%E5%8B%95",
+    "buyLabel": "KW 廚房世界 exact-model 現貨新品（限定區域基本安裝）",
+    "installation": {
+      "status": "included_basic",
+      "note": "KW exact-model 頁明示售價含限定區域基本安裝，限台北市、新北市、桃園市、台中市、台南市、高雄市與屏東市，偏遠及山區除外；材料、櫥櫃／門板修改、遠距進排水與電路施工另計。"
+    },
+    "specs": [
+      "4 系列半嵌式 60cm；14 人份；Flex 碗籃與刀叉抽屜",
+      "AirDry+ 節能自動開門、熱能交換裝置；AquaStop 防漏水",
+      "經濟程序耗水 9.5L；運轉噪音 46dB",
+      "Home Connect 智慧物聯、超省時與加強烘乾",
+      "尺寸：寬 59.8 x 深 57.3 x 高 81.5 cm",
+      "110V / 60Hz、1100W / 10A；需接地、進水與排水"
+    ],
+    "description": "SMI4ECS00X 以外露操作面板的半嵌式設計，提供 14 人份、AirDry+ 自動開門與 Home Connect，補足 Bosch 4 系列中比全嵌式更直覺操作的台灣現售選項。",
+    "pros": [
+      "半嵌式面板不必開門即可操作與查看狀態",
+      "14 人份、9.5L 經濟程序、AirDry+ 與 46dB 規格完整",
+      "KW exact-model 現貨價低於 Bosch 官方商城 NT$51,800，且有限定區域基本安裝"
+    ],
+    "cons": [
+      "半嵌式仍需 60cm 櫃位、門板與現場進排水規劃",
+      "基本安裝有限定縣市，材料、櫃體修改與長距離水電可能加價",
+      "未找到可信的 exact-model 上市日期或可重現歷史價格時間軸"
+    ],
+    "bestFor": "裝修時可預留 60cm 櫃位、偏好外露操作面板，並重視 110V、AirDry+ 與智慧連線的 4–8 人家庭。",
+    "recommendation": "4 系列半嵌式比較款：操作面板可直接看見，與同價全嵌式的外觀完整性形成清楚取捨；下單前先取得櫥櫃、門板與水電加價明細。",
+    "score": 88,
+    "voltage": "Bosch 台灣官方規格 110V / 60Hz、1100W / 10A；嵌入式安裝需專用接地插座並確認進排水",
+    "warranty": "Bosch 台灣官方商城規格明列全機 2 年；實際保固資格應保留購買發票並以機身序號向 Bosch 台灣確認，安裝與耗材依原廠條款",
+    "tags": [
+      "14人份",
+      "60cm",
+      "半嵌式",
+      "AirDry+",
+      "Home Connect",
+      "110V"
+    ],
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-08-24",
+      "note": "已查 Bosch 台灣官方商城現價 NT$51,800、KW 廚房世界 exact-model 現貨價 NT$44,030 與 momo exact-model 新品頁；這些頁面只證明查核日價格，未提供帶日期的完整歷史曲線，故不以目前最低觀察價推定史低。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-08-24",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Bosch SMI4ECS00X\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Bosch%20SMI4ECS00X%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Bosch SMI4ECS00X\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Bosch%20SMI4ECS00X%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "PTT",
+          "query": "site:ptt.cc \"Bosch SMI4ECS00X\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22Bosch%20SMI4ECS00X%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "ptt.cc"
+        },
+        {
+          "platform": "Dcard",
+          "query": "site:dcard.tw \"Bosch SMI4ECS00X\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22Bosch%20SMI4ECS00X%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "dcard.tw"
+        },
+        {
+          "platform": "YouTube",
+          "query": "\"Bosch SMI4ECS00X\" problem issue defect failure broken 災情 故障 異常",
+          "queryUrl": "https://www.youtube.com/results?search_query=%22Bosch%20SMI4ECS00X%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
+          "targetHost": "youtube.com"
+        }
+      ]
+    }
+  },
+  {
+    "id": "dishwasher-bosch-smv4ecx00x",
+    "category": "dishwasher",
+    "rank": 29,
+    "topPick": false,
+    "budget": "premium",
+    "channel": "tw",
+    "brand": "Bosch",
+    "model": "SMV4ECX00X",
+    "name": "4 系列 14 人份全嵌式洗碗機",
+    "price": {
+      "currency": "TWD",
+      "amount": 44030,
+      "converted": 44030,
+      "confidence": "KW 廚房世界於 2026-08-24 的 exact-model 台灣新品頁公開特價 NT$44,030，結構化資料標示 InStock、頁面庫存 1",
+      "basis": "retailer_current"
+    },
+    "image": "https://media3.bsh-group.com/Product_Shots/27963856_SMV4ECX00X_STP_def.webp",
+    "buyUrl": "https://kitchenworld.com.tw/product/260610125117/BOSCHSMV4ECX00X4%E7%B3%BB%E5%88%97%E5%85%A8%E5%B5%8C%E5%BC%8F%E6%B4%97%E7%A2%97%E6%A9%9F60",
+    "buyLabel": "KW 廚房世界 exact-model 現貨新品（限定區域基本安裝）",
+    "installation": {
+      "status": "included_basic",
+      "note": "KW exact-model 頁明示售價含限定區域基本安裝，限台北市、新北市、桃園市、台中市、台南市、高雄市與屏東市，偏遠及山區除外；材料、櫥櫃／門板修改、遠距進排水與電路施工另計。"
+    },
+    "specs": [
+      "4 系列全嵌式 60cm；14 人份；Flex 碗籃與刀叉抽屜",
+      "AirDry+ 節能自動開門、熱能交換裝置；AquaStop 防漏水",
+      "經濟程序耗水 9.5L；運轉噪音 46dB",
+      "Home Connect 智慧物聯；InfoLight 投影燈顯示運行狀態",
+      "尺寸：寬 59.8 x 深 55 x 高 81.5 cm",
+      "110V / 60Hz、1100W / 10A；需接地、進水與排水"
+    ],
+    "description": "SMV4ECX00X 是 14 人份 4 系列全嵌式款，以家具門板保持廚房立面完整，並用 InfoLight、AirDry+ 與 Home Connect 補足關門後的狀態辨識與遠端操作。",
+    "pros": [
+      "全嵌式外觀完整，InfoLight 可在門板關閉時提示洗程運行",
+      "14 人份、9.5L 經濟程序、AirDry+ 與 46dB 規格完整",
+      "KW exact-model 現貨價低於 Bosch 官方建議售價 NT$51,800，且有限定區域基本安裝"
+    ],
+    "cons": [
+      "全嵌式必須另行核對家具門板尺寸、重量、鉸鏈與櫥櫃施工",
+      "KW 查核時只剩 1 台現貨，庫存與基本安裝服務區域可能快速變動",
+      "未找到可信的 exact-model 上市日期或可重現歷史價格時間軸"
+    ],
+    "bestFor": "裝修時可完整規劃 60cm 櫃位與家具門板，重視廚房立面一致性、110V 與自動開門乾燥的 4–8 人家庭。",
+    "recommendation": "4 系列全嵌式比較款：同價換取更完整立面與 InfoLight；下單前務必讓櫥櫃、門板、插座及進排水由安裝方共同確認。",
+    "score": 87,
+    "voltage": "Bosch 台灣官方規格 110V / 60Hz、1100W / 10A；嵌入式安裝需專用接地插座並確認進排水",
+    "warranty": "Bosch 台灣官方商城規格明列全機 2 年；實際保固資格應保留購買發票並以機身序號向 Bosch 台灣確認，安裝與耗材依原廠條款",
+    "tags": [
+      "14人份",
+      "60cm",
+      "全嵌式",
+      "AirDry+",
+      "InfoLight",
+      "110V"
+    ],
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-08-24",
+      "note": "已查 Bosch 台灣官方商城建議售價 NT$51,800（查核時已售完）、KW 廚房世界 exact-model 現貨價 NT$44,030 與 momo exact-model 預購頁；這些頁面未提供帶日期的完整歷史曲線，故不以目前最低觀察價推定史低。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-08-24",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Bosch SMV4ECX00X\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Bosch%20SMV4ECX00X%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Bosch SMV4ECX00X\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Bosch%20SMV4ECX00X%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "PTT",
+          "query": "site:ptt.cc \"Bosch SMV4ECX00X\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22Bosch%20SMV4ECX00X%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "ptt.cc"
+        },
+        {
+          "platform": "Dcard",
+          "query": "site:dcard.tw \"Bosch SMV4ECX00X\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22Bosch%20SMV4ECX00X%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "dcard.tw"
+        },
+        {
+          "platform": "YouTube",
+          "query": "\"Bosch SMV4ECX00X\" problem issue defect failure broken 災情 故障 異常",
+          "queryUrl": "https://www.youtube.com/results?search_query=%22Bosch%20SMV4ECX00X%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
           "targetHost": "youtube.com"
         }
       ]

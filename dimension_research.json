@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-20",
+  "generatedAt": "2026-08-24",
   "sourcePolicy": "電視、Soundbar、洗衣機、烘衣機、洗烘衣機、電子衣櫥、冰箱、咖啡機、多功能氣炸烤箱／微波爐、洗碗機、免治馬桶、冷氣與熱水器共 13 類尺寸，以及電視、Soundbar、咖啡機、多功能氣炸烤箱／微波爐、冷氣與熱水器共 6 類重量研究，皆優先採 exact-model 官方產品頁、官方規格表或官方 PDF，其次為可信新品通路。只採本體／機身／明確組件的尺寸與淨重，排除包裝、外箱尺寸與毛重；來源沒有明示寬／深／高順序時不自行推定。冷氣分列室內機與室外機，熱泵複合熱水器必須分列主機與儲槽；既有各類研究列仍沿用相同 exact-model 邊界。",
   "results": [
     {
@@ -4954,6 +4954,26 @@
       "weightConfidence": "high",
       "weightIsOfficialSource": true,
       "weightCheckedAt": "2026-08-20"
+    },
+    {
+      "id": "dishwasher-bosch-smi4ecs00x",
+      "dimension": "尺寸：寬 59.8 x 深 57.3 x 高 81.5 cm",
+      "sourceUrl": "https://www.bosch-home.com.tw/zh/mkt-product/dishwashers/built-in-dishwashers/bisemidishwashers60width/SMI4ECS00X",
+      "sourceTitle": "SMI4ECS00X 半嵌式洗碗機 | BOSCH TW",
+      "evidenceSnippet": "Bosch 台灣 exact-model 官方頁明列機體尺寸 HxWxD 815 x 598 x 573 mm；依來源標示順序換寫為寬 59.8 x 深 57.3 x 高 81.5 cm，未使用包裝尺寸。",
+      "confidence": "high",
+      "isOfficialSource": true,
+      "checkedAt": "2026-08-24"
+    },
+    {
+      "id": "dishwasher-bosch-smv4ecx00x",
+      "dimension": "尺寸：寬 59.8 x 深 55 x 高 81.5 cm",
+      "sourceUrl": "https://www.bosch-home.com.tw/zh/mkt-product/dishwashers/built-in-dishwashers/bifulldishwashers60width/SMV4ECX00X",
+      "sourceTitle": "SMV4ECX00X 全嵌式洗碗機 | BOSCH TW",
+      "evidenceSnippet": "Bosch 台灣 exact-model 官方頁明列機體尺寸 HxWxD 815 x 598 x 550 mm；依來源標示順序換寫為寬 59.8 x 深 55 x 高 81.5 cm，未使用包裝尺寸。",
+      "confidence": "high",
+      "isOfficialSource": true,
+      "checkedAt": "2026-08-24"
     }
   ]
 }

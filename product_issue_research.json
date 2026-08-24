@@ -1,9 +1,9 @@
 {
   "summary": {
-    "checkedAt": "2026-08-20T00:00:00+08:00",
-    "total": 876,
+    "checkedAt": "2026-08-24T00:00:00+08:00",
+    "total": 879,
     "commonIssueProducts": 39,
-    "noCommonIssueProducts": 837,
+    "noCommonIssueProducts": 840,
     "pendingManualReview": 0,
     "commonIssues": 39,
     "searchUnavailable": 0,
@@ -152576,6 +152576,603 @@
           "candidateUrls": [],
           "candidates": [],
           "inspectedAt": "2026-08-20T00:00:00+08:00"
+        }
+      ],
+      "evidence": [],
+      "rejectedCandidates": []
+    },
+    {
+      "id": "robot-electrolux-efr81223",
+      "category": "robot",
+      "brand": "Electrolux",
+      "model": "EFR81223",
+      "name": "安心管家 800 全能掃拖機器人",
+      "identity": {
+        "canonicalModel": "EFR81223",
+        "lookupLabel": "Electrolux EFR81223",
+        "aliases": [
+          "Electrolux EFR81223"
+        ],
+        "evidenceUrl": "https://24h.pchome.com.tw/prod/DMBL5X-A900K8CTK"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "status": "completed",
+        "decision": "no_common_issue",
+        "reviewedAt": "2026-08-24",
+        "checkedPlatforms": [
+          "Reddit",
+          "Mobile01",
+          "PTT",
+          "Dcard",
+          "YouTube",
+          "Electrolux/TestFreaks",
+          "PChome",
+          "Zeczec"
+        ],
+        "queries": [
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"Electrolux EFR81223\" (problem OR issue OR defect OR failure)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Electrolux%20EFR81223%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+            "targetHost": "reddit.com"
+          },
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"Electrolux EFR81223\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Electrolux%20EFR81223%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "mobile01.com"
+          },
+          {
+            "platform": "PTT",
+            "query": "site:ptt.cc \"Electrolux EFR81223\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22Electrolux%20EFR81223%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "ptt.cc"
+          },
+          {
+            "platform": "Dcard",
+            "query": "site:dcard.tw \"Electrolux EFR81223\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22Electrolux%20EFR81223%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "dcard.tw"
+          },
+          {
+            "platform": "YouTube",
+            "query": "\"Electrolux EFR81223\" problem issue defect failure broken 災情 故障 異常",
+            "queryUrl": "https://www.youtube.com/results?search_query=%22Electrolux%20EFR81223%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
+            "targetHost": "youtube.com"
+          }
+        ],
+        "candidateDisposition": "EFR81223：人工跨站搜尋未見 Reddit、Mobile01、PTT、Dcard 或 YouTube 的 exact-model 問題頁；人工讀取 Electrolux 官方頁使用的 TestFreaks feed（52 ratings／42 則文字）後，NA、oo、莊家豪、Lena、Yuh ting Chen 共 5 位集中提到拖布／集水盤積水或誤報，但只在單一原始評論 feed；App 行為約 4 位且症狀不完全相同，PChome 另僅 1 位語音／紀錄候選，Zeczec 無可辨識作者，均未達同一問題 6 人且跨 2 個原始網站。",
+        "representativeSources": [
+          {
+            "platform": "Electrolux/TestFreaks",
+            "title": "Electrolux EFR81223 官方評論 feed：拖布盤積水或誤報候選",
+            "url": "https://www.electrolux.com.tw/appliances/robot-vacuums/efr81223/"
+          },
+          {
+            "platform": "Electrolux/TestFreaks",
+            "title": "Electrolux EFR81223 官方評論：App 行為候選",
+            "url": "https://www.electrolux.com.tw/appliances/robot-vacuums/efr81223/#reviews"
+          },
+          {
+            "platform": "PChome",
+            "title": "Electrolux EFR81223 PChome 購買者評價",
+            "url": "https://24h.pchome.com.tw/prod/DMBL5X-A900K8CTK"
+          },
+          {
+            "platform": "Zeczec",
+            "title": "Electrolux EFR81223 App 4.21 更新說明",
+            "url": "https://www.zeczec.com/projects/electrolux-800-EFR81223/updates/62374"
+          }
+        ],
+        "candidateReviews": [
+          {
+            "platform": "Electrolux/TestFreaks",
+            "url": "https://www.electrolux.com.tw/appliances/robot-vacuums/efr81223/",
+            "title": "Electrolux EFR81223 官方評論 feed：拖布盤積水或誤報候選",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-08-24",
+            "sourceExcerpt": "官方 EFR81223 評論 feed：NA（2026-07-22，1/5）稱每次都報拖布盤積水；oo（2026-07-02，1/5）稱抹布盤每天積水；莊家豪（2026-06-17，1/5）稱清潔一輪即誤報托盤已滿；Lena（2026-06-17，3/5）稱每次洗拖布後都顯示集水盤積水；Yuh ting Chen（2026-06-06，1/5）稱同時掃拖回站必報積水但拆開未見積水。",
+            "independentAuthors": 5,
+            "specificReason": "同一拖布／集水盤問題可辨識 5 位 exact-model 作者，但全部來自 Electrolux 官方頁所使用的同一 TestFreaks 原始評論 feed；未跨第二個獨立原始網站，因此不得標為 common_issue。",
+            "reproducibleSourceUrl": "https://cr.testfreaks.com/reviews/page.json?client_id=electrolux.com.tw&limit=100&mapping_ids%5B%5D=14847778&sort=date",
+            "sourceLocator": "TestFreaks mapping_id 14847778；依 author、date、score 與 extract 重現，不宣稱 feedback_url 為永久連結。"
+          },
+          {
+            "platform": "Electrolux/TestFreaks",
+            "url": "https://www.electrolux.com.tw/appliances/robot-vacuums/efr81223/#reviews",
+            "title": "Electrolux EFR81223 官方評論：App 行為候選",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-08-24",
+            "sourceExcerpt": "官方 EFR81223 評論 feed：柏全（2026-08-07，2/5）稱透過 App 或按鈕都曾無法停止；Jason（2026-07-04，1/5）稱 App 時常當機；oo（2026-07-02，1/5）稱機器狀態與 App 通知不同步；Yuh ting Chen（2026-06-06，1/5）稱 App 當機、設定跳回與分區變全掃，四人的 App 行為並非完全相同。",
+            "independentAuthors": 4,
+            "specificReason": "可辨識約 4 位作者涉及不同 App 行為，仍少於同一問題 6 人；官方頁與 TestFreaks API 是同一評論 feed，不能算成兩站，PChome 作者的語音／紀錄落差也不能與各種 App 症狀直接合併。",
+            "reproducibleSourceUrl": "https://cr.testfreaks.com/reviews/page.json?client_id=electrolux.com.tw&limit=100&mapping_ids%5B%5D=14847778&sort=date",
+            "sourceLocator": "TestFreaks mapping_id 14847778；依 author、date、score 與 extract 重現，不宣稱 feedback_url 為永久連結。"
+          },
+          {
+            "platform": "PChome",
+            "url": "https://24h.pchome.com.tw/prod/DMBL5X-A900K8CTK",
+            "title": "Electrolux EFR81223 PChome 購買者評價",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-08-24",
+            "sourceExcerpt": "PChome 作者馮**（2026-08-22，3/5）表示 App 介面與功能設定不直覺，曾遇到語音動作和實際動作不同、清掃紀錄未記錄，但也明載最後完成清掃且打掃乾淨。",
+            "independentAuthors": 1,
+            "specificReason": "只有 1 位可辨識的 exact-model 第一人稱作者，且同頁沒有其他獨立購買者確認相同 App 症狀；此人的語音／紀錄落差也不是官方 feed 五人集中提到的拖布盤問題。"
+          },
+          {
+            "platform": "Zeczec",
+            "url": "https://www.zeczec.com/projects/electrolux-800-EFR81223/updates/62374",
+            "title": "Electrolux EFR81223 App 4.21 更新說明",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-08-24",
+            "sourceExcerpt": "品牌專案更新表示部分消費者反映 App 連線速度較慢或無法使用，並說明 2026-05-06 上線的 App 4.21 已修正連線與反應問題。",
+            "independentAuthors": 0,
+            "specificReason": "這是品牌對未具名集合回饋的修正公告，沒有作者、permalink 或可去重第一人稱原文，不能把「部分消費者」推算為人數；也不能與各自不同的官方評論及 PChome 症狀合併。"
+          }
+        ],
+        "reviewerNote": "EFR81223：人工覆核 Electrolux 官方 TestFreaks feed 的 author、date、score、extract；拖布／集水盤候選為 NA（07-22，1星）、oo（07-02，1星）、莊家豪（06-17，1星）、Lena（06-17，3星）、Yuh ting Chen（06-06，1星）共 5 人但只有單一原始 feed。App 候選為柏全、Jason、oo、Yuh ting Chen 約 4 人且行為不同；PChome 馮**（08-22，3星）為另一種語音／紀錄落差，故維持 no_common_issue。",
+        "attestation": "manual_original_pages_reviewed"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-08-24",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"Electrolux EFR81223\" (problem OR issue OR defect OR failure)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Electrolux%20EFR81223%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+            "targetHost": "reddit.com"
+          },
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"Electrolux EFR81223\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Electrolux%20EFR81223%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "mobile01.com"
+          },
+          {
+            "platform": "PTT",
+            "query": "site:ptt.cc \"Electrolux EFR81223\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22Electrolux%20EFR81223%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "ptt.cc"
+          },
+          {
+            "platform": "Dcard",
+            "query": "site:dcard.tw \"Electrolux EFR81223\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22Electrolux%20EFR81223%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "dcard.tw"
+          },
+          {
+            "platform": "YouTube",
+            "query": "\"Electrolux EFR81223\" problem issue defect failure broken 災情 故障 異常",
+            "queryUrl": "https://www.youtube.com/results?search_query=%22Electrolux%20EFR81223%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
+            "targetHost": "youtube.com"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "Bing Search → Reddit",
+          "query": "site:reddit.com \"Electrolux EFR81223\" (problem OR issue OR defect OR failure)",
+          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Electrolux%20EFR81223%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-08-24T00:00:00+08:00"
+        },
+        {
+          "platform": "Bing Search → Mobile01",
+          "query": "site:mobile01.com \"Electrolux EFR81223\" (災情 OR 問題 OR 故障 OR 負評)",
+          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Electrolux%20EFR81223%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-08-24T00:00:00+08:00"
+        },
+        {
+          "platform": "Bing Search → PTT",
+          "query": "site:ptt.cc \"Electrolux EFR81223\" (災情 OR 問題 OR 故障 OR 負評)",
+          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22Electrolux%20EFR81223%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-08-24T00:00:00+08:00"
+        },
+        {
+          "platform": "Bing Search → Dcard",
+          "query": "site:dcard.tw \"Electrolux EFR81223\" (災情 OR 問題 OR 故障 OR 負評)",
+          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22Electrolux%20EFR81223%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-08-24T00:00:00+08:00"
+        },
+        {
+          "platform": "YouTube Search",
+          "query": "\"Electrolux EFR81223\" problem issue defect failure broken 災情 故障 異常",
+          "searchUrl": "https://www.youtube.com/results?search_query=%22Electrolux%20EFR81223%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-08-24T00:00:00+08:00"
+        }
+      ],
+      "evidence": [],
+      "rejectedCandidates": [
+        {
+          "platform": "Electrolux/TestFreaks",
+          "url": "https://www.electrolux.com.tw/appliances/robot-vacuums/efr81223/",
+          "title": "Electrolux EFR81223 官方評論 feed：拖布盤積水或誤報候選",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-24",
+          "sourceExcerpt": "官方 EFR81223 評論 feed：NA（2026-07-22，1/5）稱每次都報拖布盤積水；oo（2026-07-02，1/5）稱抹布盤每天積水；莊家豪（2026-06-17，1/5）稱清潔一輪即誤報托盤已滿；Lena（2026-06-17，3/5）稱每次洗拖布後都顯示集水盤積水；Yuh ting Chen（2026-06-06，1/5）稱同時掃拖回站必報積水但拆開未見積水。",
+          "independentAuthors": 5,
+          "specificReason": "同一拖布／集水盤問題可辨識 5 位 exact-model 作者，但全部來自 Electrolux 官方頁所使用的同一 TestFreaks 原始評論 feed；未跨第二個獨立原始網站，因此不得標為 common_issue。",
+          "reproducibleSourceUrl": "https://cr.testfreaks.com/reviews/page.json?client_id=electrolux.com.tw&limit=100&mapping_ids%5B%5D=14847778&sort=date",
+          "sourceLocator": "TestFreaks mapping_id 14847778；依 author、date、score 與 extract 重現，不宣稱 feedback_url 為永久連結。",
+          "reason": "同一拖布／集水盤問題可辨識 5 位 exact-model 作者，但全部來自 Electrolux 官方頁所使用的同一 TestFreaks 原始評論 feed；未跨第二個獨立原始網站，因此不得標為 common_issue。"
+        },
+        {
+          "platform": "Electrolux/TestFreaks",
+          "url": "https://www.electrolux.com.tw/appliances/robot-vacuums/efr81223/#reviews",
+          "title": "Electrolux EFR81223 官方評論：App 行為候選",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-24",
+          "sourceExcerpt": "官方 EFR81223 評論 feed：柏全（2026-08-07，2/5）稱透過 App 或按鈕都曾無法停止；Jason（2026-07-04，1/5）稱 App 時常當機；oo（2026-07-02，1/5）稱機器狀態與 App 通知不同步；Yuh ting Chen（2026-06-06，1/5）稱 App 當機、設定跳回與分區變全掃，四人的 App 行為並非完全相同。",
+          "independentAuthors": 4,
+          "specificReason": "可辨識約 4 位作者涉及不同 App 行為，仍少於同一問題 6 人；官方頁與 TestFreaks API 是同一評論 feed，不能算成兩站，PChome 作者的語音／紀錄落差也不能與各種 App 症狀直接合併。",
+          "reproducibleSourceUrl": "https://cr.testfreaks.com/reviews/page.json?client_id=electrolux.com.tw&limit=100&mapping_ids%5B%5D=14847778&sort=date",
+          "sourceLocator": "TestFreaks mapping_id 14847778；依 author、date、score 與 extract 重現，不宣稱 feedback_url 為永久連結。",
+          "reason": "可辨識約 4 位作者涉及不同 App 行為，仍少於同一問題 6 人；官方頁與 TestFreaks API 是同一評論 feed，不能算成兩站，PChome 作者的語音／紀錄落差也不能與各種 App 症狀直接合併。"
+        },
+        {
+          "platform": "PChome",
+          "url": "https://24h.pchome.com.tw/prod/DMBL5X-A900K8CTK",
+          "title": "Electrolux EFR81223 PChome 購買者評價",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-24",
+          "sourceExcerpt": "PChome 作者馮**（2026-08-22，3/5）表示 App 介面與功能設定不直覺，曾遇到語音動作和實際動作不同、清掃紀錄未記錄，但也明載最後完成清掃且打掃乾淨。",
+          "independentAuthors": 1,
+          "specificReason": "只有 1 位可辨識的 exact-model 第一人稱作者，且同頁沒有其他獨立購買者確認相同 App 症狀；此人的語音／紀錄落差也不是官方 feed 五人集中提到的拖布盤問題。",
+          "reason": "只有 1 位可辨識的 exact-model 第一人稱作者，且同頁沒有其他獨立購買者確認相同 App 症狀；此人的語音／紀錄落差也不是官方 feed 五人集中提到的拖布盤問題。"
+        },
+        {
+          "platform": "Zeczec",
+          "url": "https://www.zeczec.com/projects/electrolux-800-EFR81223/updates/62374",
+          "title": "Electrolux EFR81223 App 4.21 更新說明",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-24",
+          "sourceExcerpt": "品牌專案更新表示部分消費者反映 App 連線速度較慢或無法使用，並說明 2026-05-06 上線的 App 4.21 已修正連線與反應問題。",
+          "independentAuthors": 0,
+          "specificReason": "這是品牌對未具名集合回饋的修正公告，沒有作者、permalink 或可去重第一人稱原文，不能把「部分消費者」推算為人數；也不能與各自不同的官方評論及 PChome 症狀合併。",
+          "reason": "這是品牌對未具名集合回饋的修正公告，沒有作者、permalink 或可去重第一人稱原文，不能把「部分消費者」推算為人數；也不能與各自不同的官方評論及 PChome 症狀合併。"
+        }
+      ]
+    },
+    {
+      "id": "dishwasher-bosch-smi4ecs00x",
+      "category": "dishwasher",
+      "brand": "Bosch",
+      "model": "SMI4ECS00X",
+      "name": "4 系列 14 人份半嵌式洗碗機",
+      "identity": {
+        "canonicalModel": "SMI4ECS00X",
+        "lookupLabel": "Bosch SMI4ECS00X",
+        "aliases": [
+          "Bosch SMI4ECS00X"
+        ],
+        "evidenceUrl": "https://kitchenworld.com.tw/product/2606081629271/BOSCHSMI4ECS00X4%E7%B3%BB%E5%88%97AirDry%2B%E8%87%AA%E5%8B%95"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "status": "completed",
+        "decision": "no_common_issue",
+        "reviewedAt": "2026-08-24",
+        "checkedPlatforms": [
+          "Reddit",
+          "Mobile01",
+          "PTT",
+          "Dcard",
+          "YouTube"
+        ],
+        "queries": [
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"Bosch SMI4ECS00X\" (problem OR issue OR defect OR failure)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Bosch%20SMI4ECS00X%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+            "targetHost": "reddit.com"
+          },
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"Bosch SMI4ECS00X\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Bosch%20SMI4ECS00X%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "mobile01.com"
+          },
+          {
+            "platform": "PTT",
+            "query": "site:ptt.cc \"Bosch SMI4ECS00X\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22Bosch%20SMI4ECS00X%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "ptt.cc"
+          },
+          {
+            "platform": "Dcard",
+            "query": "site:dcard.tw \"Bosch SMI4ECS00X\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22Bosch%20SMI4ECS00X%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "dcard.tw"
+          },
+          {
+            "platform": "YouTube",
+            "query": "\"Bosch SMI4ECS00X\" problem issue defect failure broken 災情 故障 異常",
+            "queryUrl": "https://www.youtube.com/results?search_query=%22Bosch%20SMI4ECS00X%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
+            "targetHost": "youtube.com"
+          }
+        ],
+        "candidateDisposition": "SMI4ECS00X：已逐一人工檢視 Reddit、Mobile01、PTT、Dcard exact-model site 查詢與 YouTube exact-model 查詢，結果只有官方產品、商城、手冊或安裝資訊，沒有可進入逐頁判讀的購買後原始問題候選。",
+        "representativeSources": [],
+        "candidateReviews": [],
+        "reviewerNote": "SMI4ECS00X：跨五個平台的 exact-model 查詢沒有找到第一人稱問題候選；相近 Bosch 4 系列、說明書故障排除與通路商品頁均未外推成此完整型號災情。",
+        "attestation": "manual_cross_site_search_reviewed_no_candidate"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-08-24",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"Bosch SMI4ECS00X\" (problem OR issue OR defect OR failure)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Bosch%20SMI4ECS00X%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+            "targetHost": "reddit.com"
+          },
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"Bosch SMI4ECS00X\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Bosch%20SMI4ECS00X%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "mobile01.com"
+          },
+          {
+            "platform": "PTT",
+            "query": "site:ptt.cc \"Bosch SMI4ECS00X\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22Bosch%20SMI4ECS00X%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "ptt.cc"
+          },
+          {
+            "platform": "Dcard",
+            "query": "site:dcard.tw \"Bosch SMI4ECS00X\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22Bosch%20SMI4ECS00X%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "dcard.tw"
+          },
+          {
+            "platform": "YouTube",
+            "query": "\"Bosch SMI4ECS00X\" problem issue defect failure broken 災情 故障 異常",
+            "queryUrl": "https://www.youtube.com/results?search_query=%22Bosch%20SMI4ECS00X%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
+            "targetHost": "youtube.com"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "Bing Search → Reddit",
+          "query": "site:reddit.com \"Bosch SMI4ECS00X\" (problem OR issue OR defect OR failure)",
+          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Bosch%20SMI4ECS00X%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-08-24T00:00:00+08:00"
+        },
+        {
+          "platform": "Bing Search → Mobile01",
+          "query": "site:mobile01.com \"Bosch SMI4ECS00X\" (災情 OR 問題 OR 故障 OR 負評)",
+          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Bosch%20SMI4ECS00X%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-08-24T00:00:00+08:00"
+        },
+        {
+          "platform": "Bing Search → PTT",
+          "query": "site:ptt.cc \"Bosch SMI4ECS00X\" (災情 OR 問題 OR 故障 OR 負評)",
+          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22Bosch%20SMI4ECS00X%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-08-24T00:00:00+08:00"
+        },
+        {
+          "platform": "Bing Search → Dcard",
+          "query": "site:dcard.tw \"Bosch SMI4ECS00X\" (災情 OR 問題 OR 故障 OR 負評)",
+          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22Bosch%20SMI4ECS00X%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-08-24T00:00:00+08:00"
+        },
+        {
+          "platform": "YouTube Search",
+          "query": "\"Bosch SMI4ECS00X\" problem issue defect failure broken 災情 故障 異常",
+          "searchUrl": "https://www.youtube.com/results?search_query=%22Bosch%20SMI4ECS00X%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-08-24T00:00:00+08:00"
+        }
+      ],
+      "evidence": [],
+      "rejectedCandidates": []
+    },
+    {
+      "id": "dishwasher-bosch-smv4ecx00x",
+      "category": "dishwasher",
+      "brand": "Bosch",
+      "model": "SMV4ECX00X",
+      "name": "4 系列 14 人份全嵌式洗碗機",
+      "identity": {
+        "canonicalModel": "SMV4ECX00X",
+        "lookupLabel": "Bosch SMV4ECX00X",
+        "aliases": [
+          "Bosch SMV4ECX00X"
+        ],
+        "evidenceUrl": "https://kitchenworld.com.tw/product/260610125117/BOSCHSMV4ECX00X4%E7%B3%BB%E5%88%97%E5%85%A8%E5%B5%8C%E5%BC%8F%E6%B4%97%E7%A2%97%E6%A9%9F60"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "status": "completed",
+        "decision": "no_common_issue",
+        "reviewedAt": "2026-08-24",
+        "checkedPlatforms": [
+          "Reddit",
+          "Mobile01",
+          "PTT",
+          "Dcard",
+          "YouTube"
+        ],
+        "queries": [
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"Bosch SMV4ECX00X\" (problem OR issue OR defect OR failure)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Bosch%20SMV4ECX00X%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+            "targetHost": "reddit.com"
+          },
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"Bosch SMV4ECX00X\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Bosch%20SMV4ECX00X%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "mobile01.com"
+          },
+          {
+            "platform": "PTT",
+            "query": "site:ptt.cc \"Bosch SMV4ECX00X\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22Bosch%20SMV4ECX00X%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "ptt.cc"
+          },
+          {
+            "platform": "Dcard",
+            "query": "site:dcard.tw \"Bosch SMV4ECX00X\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22Bosch%20SMV4ECX00X%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "dcard.tw"
+          },
+          {
+            "platform": "YouTube",
+            "query": "\"Bosch SMV4ECX00X\" problem issue defect failure broken 災情 故障 異常",
+            "queryUrl": "https://www.youtube.com/results?search_query=%22Bosch%20SMV4ECX00X%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
+            "targetHost": "youtube.com"
+          }
+        ],
+        "candidateDisposition": "SMV4ECX00X：已逐一人工檢視 Reddit、Mobile01、PTT、Dcard exact-model site 查詢與 YouTube exact-model 查詢；結果只有 Bosch 官方支援、手冊、安裝資訊及商品頁，沒有可進入逐頁判讀的購買後原始問題候選。",
+        "representativeSources": [],
+        "candidateReviews": [],
+        "reviewerNote": "SMV4ECX00X：跨五個平台的 exact-model 查詢沒有找到第一人稱問題候選；搜尋命中的官方故障排除手冊是一般操作文件，不能當成使用者災情。",
+        "attestation": "manual_cross_site_search_reviewed_no_candidate"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-08-24",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"Bosch SMV4ECX00X\" (problem OR issue OR defect OR failure)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Bosch%20SMV4ECX00X%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+            "targetHost": "reddit.com"
+          },
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"Bosch SMV4ECX00X\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Bosch%20SMV4ECX00X%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "mobile01.com"
+          },
+          {
+            "platform": "PTT",
+            "query": "site:ptt.cc \"Bosch SMV4ECX00X\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22Bosch%20SMV4ECX00X%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "ptt.cc"
+          },
+          {
+            "platform": "Dcard",
+            "query": "site:dcard.tw \"Bosch SMV4ECX00X\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22Bosch%20SMV4ECX00X%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "dcard.tw"
+          },
+          {
+            "platform": "YouTube",
+            "query": "\"Bosch SMV4ECX00X\" problem issue defect failure broken 災情 故障 異常",
+            "queryUrl": "https://www.youtube.com/results?search_query=%22Bosch%20SMV4ECX00X%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
+            "targetHost": "youtube.com"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "Bing Search → Reddit",
+          "query": "site:reddit.com \"Bosch SMV4ECX00X\" (problem OR issue OR defect OR failure)",
+          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Bosch%20SMV4ECX00X%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-08-24T00:00:00+08:00"
+        },
+        {
+          "platform": "Bing Search → Mobile01",
+          "query": "site:mobile01.com \"Bosch SMV4ECX00X\" (災情 OR 問題 OR 故障 OR 負評)",
+          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Bosch%20SMV4ECX00X%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-08-24T00:00:00+08:00"
+        },
+        {
+          "platform": "Bing Search → PTT",
+          "query": "site:ptt.cc \"Bosch SMV4ECX00X\" (災情 OR 問題 OR 故障 OR 負評)",
+          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22Bosch%20SMV4ECX00X%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-08-24T00:00:00+08:00"
+        },
+        {
+          "platform": "Bing Search → Dcard",
+          "query": "site:dcard.tw \"Bosch SMV4ECX00X\" (災情 OR 問題 OR 故障 OR 負評)",
+          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22Bosch%20SMV4ECX00X%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-08-24T00:00:00+08:00"
+        },
+        {
+          "platform": "YouTube Search",
+          "query": "\"Bosch SMV4ECX00X\" problem issue defect failure broken 災情 故障 異常",
+          "searchUrl": "https://www.youtube.com/results?search_query=%22Bosch%20SMV4ECX00X%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-08-24T00:00:00+08:00"
         }
       ],
       "evidence": [],

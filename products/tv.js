@@ -17,9 +17,9 @@
     "name": "65 型 OLED evo C5 4K 智慧顯示器",
     "price": {
       "currency": "TWD",
-      "amount": 52900,
-      "converted": 52900,
-      "confidence": "PChome 2026-08-22 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 49900,
+      "converted": 49900,
+      "confidence": "PChome 2026-08-24 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DPADYE1900JG394/000001_1762971547.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DPADYE-A900JC4MY",
@@ -1011,9 +1011,9 @@
     "name": "65 型 OLED 智慧聯網顯示器",
     "price": {
       "currency": "TWD",
-      "amount": 67977,
-      "converted": 67977,
-      "confidence": "PChome 2026-08-21 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 72072,
+      "converted": 72072,
+      "confidence": "PChome 2026-08-24 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DPAD09A900J9FAZ/000001_1761888394.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DPAD09-A900J9FAZ",

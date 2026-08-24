@@ -1937,9 +1937,9 @@
     "name": "40 公分鼓風扇",
     "price": {
       "currency": "TWD",
-      "amount": 2399,
-      "converted": 2399,
-      "confidence": "Costco 好市多 2026-08-10 exact-model 公開結構化價格"
+      "amount": 2999,
+      "converted": 2999,
+      "confidence": "Costco 好市多 2026-08-24 exact-model 公開結構化價格"
     },
     "image": "https://www.costco.com.tw/medias/sys_master/images/hc9/h49/348867521806366.webp",
     "buyUrl": "https://www.costco.com.tw/Televisions-Appliances/Cooling-Heating-Air-Treatment/Heating-Cooling/DeWALT-40-cm-Drum-Fan/p/9631000",

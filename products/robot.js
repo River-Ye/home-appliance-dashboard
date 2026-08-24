@@ -980,7 +980,7 @@
       "currency": "TWD",
       "amount": 31980,
       "converted": 31980,
-      "confidence": "PChome 2026-08-21 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "confidence": "PChome 2026-08-24 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL3EA900JZ3SP/000001_1780033309.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBL3E-A900JZ3SP",
@@ -1076,7 +1076,7 @@
       "currency": "TWD",
       "amount": 9999,
       "converted": 9999,
-      "confidence": "PChome 2026-08-23 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "confidence": "PChome 2026-08-24 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL3EA900JY4G0/000001_1780033612.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBL3E-A900JY4G0",
@@ -1267,8 +1267,8 @@
     "price": {
       "currency": "EUR",
       "amount": 999,
-      "converted": 37137,
-      "confidence": "Boulanger 2026-07-21 來源價；ExchangeRate-API 2026-08-23 匯率換算"
+      "converted": 37103,
+      "confidence": "Boulanger 2026-07-21 來源價；ExchangeRate-API 2026-08-24 匯率換算"
     },
     "image": "https://boulanger.scene7.com/is/image/Boulanger/6972075738536_h_f_l_0?fmt=png-alpha&wid=640&hei=640",
     "buyUrl": "https://www.boulanger.com/ref/1238998",
@@ -1363,8 +1363,8 @@
     "price": {
       "currency": "USD",
       "amount": 551.69,
-      "converted": 17556,
-      "confidence": "Geekbuying 2026-07-21 來源價；ExchangeRate-API 2026-08-23 匯率換算"
+      "converted": 17543,
+      "confidence": "Geekbuying 2026-07-21 來源價；ExchangeRate-API 2026-08-24 匯率換算"
     },
     "image": "https://img.gkbcdn.com/p/2025-04-11/Narwal-Freo-Z10-Ultra-Robot-Vacuum-with-Base-Station-Gray-528438-0._w315_.jpg",
     "buyUrl": "https://www.geekbuying.com/item/Narwal-Freo-Z10-Ultra-Robot-Vacuum-with-Base-Station-Gray-528438.html",
@@ -1460,7 +1460,7 @@
       "currency": "TWD",
       "amount": 29292,
       "converted": 29292,
-      "confidence": "PChome 2026-08-22 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "confidence": "PChome 2026-08-24 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL0JA900JCCJT/000001_1782802020.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBL0J-A900JCCJT",
@@ -1644,7 +1644,7 @@
       "currency": "TWD",
       "amount": 15292,
       "converted": 15292,
-      "confidence": "PChome 2026-08-22 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "confidence": "PChome 2026-08-24 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL0JA900ITF88/000001_1782803241.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBL0J-A900ITF88",
@@ -2124,7 +2124,7 @@
       "currency": "TWD",
       "amount": 25980,
       "converted": 25980,
-      "confidence": "PChome 2026-08-22 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "confidence": "PChome 2026-08-24 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL5WA900JXBY3/000001_1776393356.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBL5W-A900JXBY3",
@@ -2507,8 +2507,8 @@
     "price": {
       "currency": "USD",
       "amount": 999.99,
-      "converted": 31822,
-      "confidence": "SharkNinja US 2026-07-21 來源價；ExchangeRate-API 2026-08-23 匯率換算"
+      "converted": 31798,
+      "confidence": "SharkNinja US 2026-07-21 來源價；ExchangeRate-API 2026-08-24 匯率換算"
     },
     "image": "https://assets.sharkninja.com/image/upload/f_auto/q_auto/SharkNinja-NA/RV2820ZE_01.jpg",
     "buyUrl": "https://www.sharkninja.com/shark-powerdetect-2-in-1-robot-vacuum-and-mop-with-nevertouch-pro-base/RV2820ZE.html",
@@ -2701,8 +2701,8 @@
     "price": {
       "currency": "USD",
       "amount": 399.99,
-      "converted": 12729,
-      "confidence": "Costco US 2026-07-21 最後可驗證價；2026-08-15 exact-model 頁顯示 Unavailable；ExchangeRate-API 2026-08-23 匯率換算"
+      "converted": 12719,
+      "confidence": "Costco US 2026-07-21 最後可驗證價；2026-08-15 exact-model 頁顯示 Unavailable；ExchangeRate-API 2026-08-24 匯率換算"
     },
     "image": "https://bfasset.costco-static.com/U447IH35/as/tkj772p4357mmh3bwz8kcq/1791272-847__1?auto=webp&format=jpg",
     "buyUrl": "https://www.costco.com/p/-/roborock-qx-revo-robot-vacuum-and-mop-with-multifunctional-dock/4000233271",
@@ -3594,6 +3594,114 @@
       "3L集塵袋",
       "Tapo App"
     ]
+  },
+  {
+    "id": "robot-electrolux-efr81223",
+    "category": "robot",
+    "rank": 38,
+    "topPick": false,
+    "budget": "mid",
+    "channel": "tw",
+    "brand": "Electrolux",
+    "model": "EFR81223",
+    "name": "安心管家 800 全能掃拖機器人",
+    "price": {
+      "currency": "TWD",
+      "amount": 16900,
+      "converted": 16900,
+      "confidence": "PChome 24h 於 2026-08-24 的 exact-model 台灣新品頁公開價 NT$16,900，結構化資料標示 InStock，API 顯示 Qty 20",
+      "basis": "retailer_current"
+    },
+    "installation": {
+      "status": "not_stated",
+      "note": "PChome 與伊萊克斯官方頁均未標示含到府設定；水箱式基座不需固定給排水，但仍須預留平坦乾燥位置、110V 接地插座與基座前方回充空間。"
+    },
+    "image": "https://cs-a.ecimg.tw/items/DMBL5XA900K8CTK/000001_1787109949.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DMBL5X-A900K8CTK",
+    "buyLabel": "PChome 24h exact-model 現貨新品",
+    "specs": [
+      "一體式基座：自動集塵、自動補水、自動添加清潔劑與污水回收",
+      "ThermoWash 65°C 熱水洗拖布；60°C 熱風烘乾",
+      "LiDAR、雙線雷射與 AI 攝影鏡頭避障；多樓層地圖；最高跨越 20mm 門檻",
+      "雙旋轉拖布 180rpm；地毯感應抬升 10mm；FlexReach 延伸拖布",
+      "機器人尺寸：寬 35 x 深 35.2 x 高 11 cm；基座：寬 31 x 深 46.8 x 高 60.1 cm",
+      "機器人集塵盒 0.3L、水箱 0.1L；110V / 60Hz、CNS 690 接地插頭"
+    ],
+    "description": "EFR81223 是 Electrolux 台灣 2026 年推出的全能基座代表款，以 65°C 熱水洗布、60°C 烘乾、AI 避障與延伸拖布，補上不同於既有中國掃拖品牌的台灣官方售後比較。",
+    "pros": [
+      "官方現貨、110V / 60Hz 與掃地機器人 2 年保固均有明確台灣證據",
+      "自動集塵、補水、加清潔劑、洗布與烘乾整合完整",
+      "LiDAR、雙線雷射、AI 攝影鏡頭與 20mm 越障兼顧導航和避障"
+    ],
+    "cons": [
+      "11cm 機身與 60.1cm 高基座需要先核對床底、櫃下與擺放空間",
+      "只有水箱式基座，仍須人工換清水、倒污水與補充耗材",
+      "官方評論 feed 有 5 位 exact-model 作者提到拖布／集水盤積水或誤報，但只在單一原始評論網站；App 候選亦不足 6 位且症狀不完全相同，未達跨站集中災情門檻，仍建議到貨優先驗收"
+    ],
+    "bestFor": "重視台灣官方售後、想要完整自清潔基座與 AI 避障，又不打算施作固定給排水的家庭。",
+    "recommendation": "台灣售後差異化推薦：功能完整且有 110V 與 2 年保固證據；到貨後應優先驗收 App 連線、地圖、排程與清掃紀錄。",
+    "score": 89,
+    "voltage": "台灣官方規格 110V / 60Hz；CNS 690 C4012、12A 125V 雙極接地插頭",
+    "warranty": "伊萊克斯台灣官方保固資訊：掃地機器人全機 2 年；耗材與非正常使用依原廠條款",
+    "tags": [
+      "65°C熱水洗布",
+      "60°C熱風烘乾",
+      "AI避障",
+      "自動集塵補水",
+      "台灣2年保固"
+    ],
+    "releaseDate": "2026-03",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-08-24",
+      "note": "已查伊萊克斯官方 exact-model 現價 NT$21,900、PChome 24h exact-model 現價 NT$16,900，以及嘖嘖 2026-03-05 至 2026-06-08 的 NT$16,900 預購回饋；嘖嘖方案包含 EFR81223＋ERK7 耗材組，商品內容不同，未找到單機同條件的可重現歷史價格時間軸，故不推定史低。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-08-24",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Electrolux EFR81223\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Electrolux%20EFR81223%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Electrolux EFR81223\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Electrolux%20EFR81223%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "PTT",
+          "query": "site:ptt.cc \"Electrolux EFR81223\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22Electrolux%20EFR81223%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "ptt.cc"
+        },
+        {
+          "platform": "Dcard",
+          "query": "site:dcard.tw \"Electrolux EFR81223\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22Electrolux%20EFR81223%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "dcard.tw"
+        },
+        {
+          "platform": "YouTube",
+          "query": "\"Electrolux EFR81223\" problem issue defect failure broken 災情 故障 異常",
+          "queryUrl": "https://www.youtube.com/results?search_query=%22Electrolux%20EFR81223%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
+          "targetHost": "youtube.com"
+        }
+      ]
+    }
   }
 ]);
 })();
