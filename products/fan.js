@@ -785,9 +785,9 @@
     "name": "16 吋 DC 變頻高級型溫感遙控電風扇",
     "price": {
       "currency": "TWD",
-      "amount": 3590,
-      "converted": 3590,
-      "confidence": "PChome 2026-08-23 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 3090,
+      "converted": 3090,
+      "confidence": "PChome 2026-08-26 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAB30A900EOQ5X/000001_1693793932.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAB30-A900EOQ5X",
@@ -820,16 +820,16 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 3231,
+      "amount": 3090,
       "currency": "TWD",
-      "converted": 3231,
+      "converted": 3090,
       "sourceUrl": "https://24h.pchome.com.tw/prod/DMAB30-A900EOQ5X",
-      "sourceTitle": "PChome 商品頁：Panasonic國際牌 16吋DC變頻高級型溫感遙控立扇F-L16GMD / Panasonic國際牌 16吋DC變頻高級型溫感遙控立扇F-L16GMD",
-      "evidenceSnippet": "PChome 商品 API 於 2026-07-10 回傳同一商品頁「Panasonic國際牌 16吋DC變頻高級型溫感遙控立扇F-L16GMD / Panasonic國際牌 16吋DC變頻高級型溫感遙控立扇F-L16GMD」查核價 NT$3,231，低於原先記錄史低。",
+      "sourceTitle": "PChome 24h 購物：Panasonic國際牌 16吋DC變頻高級型溫感遙控立扇F-L16GMD",
+      "evidenceSnippet": "PChome 24h 購物於 2026-08-26 顯示同型號可信新品公開價 NT$3,090，低於既有史低 NT$3,231。",
       "sourceKind": "retailer_page",
       "confidence": "medium",
-      "checkedAt": "2026-07-10",
-      "note": "採用 PChome 24h 同一商品頁可公開查核現價作為本次觀測到的最低價；同型號/規格並排除會員個人化折扣、信用卡回饋、點數、二手、福利品、展示機、箱損、拆封與整新品。"
+      "checkedAt": "2026-08-26",
+      "note": "採用 PChome 24h 購物當日可購商品的同型號新品公開價；不含會員券、點數、信用卡回饋、二手、福利、展示、拆封或整新品。"
     },
     "issueResearch": {
       "status": "no_common_issue",

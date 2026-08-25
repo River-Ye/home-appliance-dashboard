@@ -427,9 +427,9 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/554C25E292-SP-18069150.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 35061,
-      "converted": 35061,
-      "confidence": "Yahoo購物中心 2026-08-05 exact-model 公開結構化價格"
+      "amount": 35464,
+      "converted": 35464,
+      "confidence": "Yahoo購物中心 2026-08-26 exact-model 公開結構化價格"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心",
