@@ -775,9 +775,9 @@
     "type": "2_5g",
     "price": {
       "currency": "TWD",
-      "amount": 2999,
-      "converted": 2999,
-      "confidence": "PChome 24h 2026-08-24 exact-model 台灣原廠保固新品公開價",
+      "amount": 2899,
+      "converted": 2899,
+      "confidence": "PChome 2026-08-25 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
       "basis": "retailer_current"
     },
     "installation": {
@@ -901,9 +901,9 @@
     "type": "1g",
     "price": {
       "currency": "TWD",
-      "amount": 1290,
-      "converted": 1290,
-      "confidence": "PChome 24h 2026-08-24 exact-model 台灣原廠保固新品公開價",
+      "amount": 1190,
+      "converted": 1190,
+      "confidence": "PChome 2026-08-25 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
       "basis": "retailer_current"
     },
     "installation": {
@@ -1142,28 +1142,28 @@
     ]
   },
   {
-    "id": "network-switch-zyxel-gs1200-8",
+    "id": "network-switch-tplink-sg3210",
     "category": "network-switch",
     "rank": 10,
     "budget": "mid",
     "channel": "tw",
-    "brand": "Zyxel",
-    "model": "GS1200-8",
-    "name": "Zyxel GS1200-8 8 埠 Gigabit Web Managed 交換器",
+    "brand": "TP-Link",
+    "model": "SG3210",
+    "name": "TP-Link Omada SG3210 8 埠 Gigabit L2+ 管理型交換器",
     "type": "1g",
     "price": {
       "currency": "TWD",
-      "amount": 1530,
-      "converted": 1530,
-      "confidence": "PChome 24h 2026-08-24 exact-model 台灣原廠保固新品公開價",
+      "amount": 5899,
+      "converted": 5899,
+      "confidence": "PChome 24h 2026-08-25 exact-model 台灣原廠 5 年保固新品公開折扣價",
       "basis": "retailer_current"
     },
     "installation": {
       "status": "excluded",
       "note": "通路價格只含交換器本體，不含弱電箱施工、機架固定、網路配線、插座增設或通風改造。"
     },
-    "image": "https://cs-a.ecimg.tw/items/DRAF0IA9008UQ9A/000001_1747897442.jpg",
-    "buyUrl": "https://24h.pchome.com.tw/prod/DRAF0I-A9008UQ9A",
+    "image": "https://static.tp-link.com/upload/image-line/SG3210_UN_3.2_01_large_20240204114650o.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DRAN46-A900JUOV3",
     "buyLabel": "PChome 24h",
     "switchProfile": {
       "rj45PortCount": 8,
@@ -1173,98 +1173,108 @@
         0.1,
         1
       ],
-      "extraUplinks": [],
-      "management": "easy_managed",
+      "extraUplinks": [
+        {
+          "count": 2,
+          "media": "SFP",
+          "speedsGbps": [
+            0.1,
+            1
+          ]
+        }
+      ],
+      "management": "managed",
       "poe": false,
       "enclosure": "metal",
       "cooling": "fanless",
-      "maxPowerW": 4.48,
+      "maxPowerW": 6.84,
       "operatingTemperatureC": {
         "min": 0,
-        "max": 40
+        "max": 45
       },
       "dimensionsCm": {
-        "width": 15.5,
-        "depth": 8.5,
-        "height": 2.6
+        "width": 29.4,
+        "depth": 18,
+        "height": 4.4
       },
       "mounting": [
         "桌面",
-        "壁掛"
+        "機架"
       ],
-      "specSourceUrl": "https://www.zyxel.com/tw/zh/products/switch/5-port-8-port-web-managed-gigabit-switch-gs1200-series/specifications"
+      "specSourceUrl": "https://www.tp-link.com/tw/business-networking/omada-switch-l3-l2-managed/sg3210/v3.20/"
     },
     "specs": [
       "主連接埠：8 個 10M／100M／1G RJ45",
       "速率等級：1G；八個主要 RJ45 皆支援此等級",
-      "額外 uplink：無",
-      "管理方式：Web Managed（VLAN／QoS／IGMP Snooping）",
+      "額外 uplink：2 個獨立 100M／1G SFP",
+      "管理方式：Omada L2+（VLAN／LACP／STP／ACL／靜態路由）",
       "PoE：不支援",
       "外殼：金屬",
       "散熱：無風扇",
-      "最大功耗：4.48 W",
-      "操作溫度：0–40°C",
-      "尺寸：寬 15.5 x 深 8.5 x 高 2.6 cm",
-      "安裝方式：桌面／壁掛；需預留接頭與線材彎折空間",
+      "最大功耗：6.84 W（220V／50Hz）",
+      "操作溫度：0–45°C",
+      "尺寸：寬 29.4 x 深 18 x 高 4.4 cm",
+      "安裝方式：桌面／機架；需預留接頭、SFP 模組與線材彎折空間",
       "弱電箱提醒：優先維持箱體對流並避開電源供應器疊放；無風扇不等於可在完全密閉箱體中長期運作。"
     ],
-    "description": "台灣原廠保固新品 8 埠 1G 非 PoE 網路交換器；官方資料明示金屬外殼、無風扇、最大功耗 4.48 W、操作上限 40°C 與機身尺寸。具網路管理功能，設定前應先規劃 VLAN、迴路保護與管理密碼。",
+    "description": "台灣原廠 5 年保固新品 8 埠 1G 非 PoE 網路交換器；官方資料明示金屬外殼、無風扇、最大功耗 6.84 W、操作上限 45°C 與機身尺寸。具 Omada L2+ 管理與兩個獨立 SFP uplink，設定前應先規劃 VLAN、迴路保護與管理密碼。",
     "pros": [
       "八個主要 RJ45 全部支援 1G",
-      "金屬外殼、無風扇，官方最大功耗 4.48 W",
-      "40°C 操作溫度上限與台灣原廠保固均有來源"
+      "金屬外殼、無風扇，官方最大功耗 6.84 W",
+      "45°C 操作上限、雙 SFP uplink 與台灣原廠 5 年保固均有來源"
     ],
     "cons": [
       "弱電箱若完全密閉，仍可能累積熱量並縮短壽命",
       "管理功能需要初始設定、韌體維護與管理密碼",
-      "沒有獨立高速 uplink，所有流量共用八個 RJ45"
+      "機身接近 1U 寬度，小型弱電箱需先量測可用空間",
+      "官方社群有少數 V3.20 韌體更新後控制器離線回報，更新前應先確認版本公告"
     ],
-    "bestFor": "以 1G 網路為主、重視低功耗與長期穩定的弱電箱。",
-    "recommendation": "Web 網管推薦：體積小、無風扇，適合需要 VLAN 與 IPTV multicast 控制的 1G 弱電箱。",
+    "bestFor": "需要 VLAN、LACP、靜態路由、Omada 集中管理與獨立光纖 uplink 的 1G 網路。",
+    "recommendation": "L2+ 管理推薦：八個 1G RJ45 加雙 SFP、無風扇金屬機身與 45°C 上限，功能完整但機身較寬。",
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "found",
-      "amount": 943,
+      "status": "not_found",
+      "amount": null,
       "currency": "TWD",
-      "converted": 943,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1211538861&cgp=1450",
-      "sourceTitle": "LBJ 歷史價格：Zyxel GS1200-8 8埠 GbE 網頁式管理交換器",
-      "evidenceSnippet": "LBJ price_data 對 GS1200-8 exact listing 記錄 NT$943，日期範圍 2025-12-02–2025-12-09（查核 2026-08-24）。",
-      "sourceKind": "price_history",
-      "confidence": "high",
-      "checkedAt": "2026-08-24",
-      "note": "採用同型號、同埠數與同速率的台灣新品公開價格曲線；排除 NT$1、多選項、平台券、會員／信用卡回饋、點數、福利品、展示機、拆封品、二手、整新與詢價資料。"
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-08-25",
+      "note": "已查核 SG3210 V3.20 的 PChome exact SKU、LBJ、BigGo、飛比與 TP-Link 台灣官方頁；可見現售價格但找不到具日期、可重現且排除個人化優惠的 exact-model 歷史價格曲線，因此不以現價推定史低。"
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-24",
+      "checkedAt": "2026-08-25",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Reddit",
-          "query": "site:reddit.com \"GS1200-8\" issue",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22GS1200-8%22%20issue",
+          "query": "site:reddit.com/r/TPLink_Omada \"SG3210\" (problem OR issue OR disconnect)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%2Fr%2FTPLink_Omada%20%22SG3210%22%20%28problem%20OR%20issue%20OR%20disconnect%29",
           "targetHost": "reddit.com"
         },
         {
           "platform": "Mobile01",
-          "query": "site:mobile01.com \"GS1200-8\" 問題",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22GS1200-8%22%20%E5%95%8F%E9%A1%8C",
+          "query": "site:mobile01.com \"SG3210\" 問題",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22SG3210%22%20%E5%95%8F%E9%A1%8C",
           "targetHost": "mobile01.com"
         }
       ]
     },
-    "score": 87,
+    "score": 83,
     "voltage": "台灣通路版本；原廠電源輸入支援 100–240 V AC、50/60Hz，實際插頭與電源線以台灣出貨為準",
-    "warranty": "台灣通路現售；原廠 3 年保固；保固範圍與送修方式依品牌台灣公告及購買憑證。",
+    "warranty": "台灣公司貨現售；TP-Link 台灣商用 Omada 交換器原廠 5 年保固；保固範圍與送修方式依品牌公告及購買憑證。",
     "tags": [
       "1G 8 埠",
-      "Web Managed",
+      "Omada L2+",
       "非 PoE",
       "金屬外殼",
       "無風扇",
-      "3 年保固"
+      "5 年保固"
     ]
   },
   {
@@ -1917,9 +1927,9 @@
     "type": "2_5g",
     "price": {
       "currency": "TWD",
-      "amount": 13999,
-      "converted": 13999,
-      "confidence": "PChome 24h 2026-08-24 exact-model 台灣原廠保固新品公開價",
+      "amount": 13899,
+      "converted": 13899,
+      "confidence": "PChome 2026-08-25 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
       "basis": "retailer_current"
     },
     "installation": {
@@ -2315,9 +2325,9 @@
     "type": "10g",
     "price": {
       "currency": "TWD",
-      "amount": 9999,
-      "converted": 9999,
-      "confidence": "PChome 24h 2026-08-24 exact-model 台灣原廠 3 年保固新品公開價",
+      "amount": 9899,
+      "converted": 9899,
+      "confidence": "PChome 2026-08-25 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
       "basis": "retailer_current"
     },
     "installation": {
@@ -2388,16 +2398,16 @@
     "releaseDate": "2021-03-12",
     "historicalLow": {
       "status": "found",
-      "amount": 9999,
+      "amount": 9899,
       "currency": "TWD",
-      "converted": 9999,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1219257946&cgp=9999",
-      "sourceTitle": "LBJ 歷史價格：TP-Link TL-SX1008 8 埠 10G 交換器",
-      "evidenceSnippet": "LBJ price_data 對 TL-SX1008 exact listing 於 2026-07-24 與 2026-08-24 記錄 NT$9,999。",
-      "sourceKind": "price_history",
-      "confidence": "high",
-      "checkedAt": "2026-08-24",
-      "note": "採用同型號台灣新品公開價格曲線；排除平台券、會員／信用卡回饋、點數、福利品、展示機、拆封品、二手、整新與詢價資料。"
+      "converted": 9899,
+      "sourceUrl": "https://24h.pchome.com.tw/prod/DRAN3C-A900BJC72",
+      "sourceTitle": "PChome 24h 購物：TP-Link TL-SX1008 8埠100Mbps/1Gbps/10Gbps Gigabit桌上/機架型交換器 乙太網路switch hub",
+      "evidenceSnippet": "PChome 24h 購物於 2026-08-25 顯示同型號可信新品公開價 NT$9,899，低於既有史低 NT$9,999。",
+      "sourceKind": "retailer_page",
+      "confidence": "medium",
+      "checkedAt": "2026-08-25",
+      "note": "採用 PChome 24h 購物當日可購商品的同型號新品公開價；不含會員券、點數、信用卡回饋、二手、福利、展示、拆封或整新品。"
     },
     "issueResearch": {
       "status": "common_issue",

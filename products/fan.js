@@ -689,9 +689,9 @@
     "name": "14 吋微電腦 DC 直流電風扇",
     "price": {
       "currency": "TWD",
-      "amount": 1350,
-      "converted": 1350,
-      "confidence": "PChome 2026-08-21 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 1320,
+      "converted": 1320,
+      "confidence": "PChome 2026-08-25 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAB1FA900EZLVB/000001_1685607577.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAB1F-A900EZLVB",

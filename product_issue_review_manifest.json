@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-08-24",
+  "checkedAt": "2026-08-25",
   "methodVersion": 3,
   "policy": "每筆決策須保存 exact-model 跨站查詢與人工 attestation；每個搜尋候選須逐頁保存摘要、獨立作者數與具體排除理由，研究工具不得自行生成拒絕結論。",
   "results": [
@@ -11448,6 +11448,136 @@
       "reviewerNote": "Saros 20 水立方：逐列核對 Reddit、Mobile01、PTT、Dcard 四組 exact-model 結果與 YouTube，五站均無原頁候選；baseline manifest 與本輪人工 candidate 暫存也無候選，因此維持 no_common_issue，未達 6 人／2 canonical websites。",
       "attestation": "manual_cross_site_search_reviewed_no_candidate",
       "candidateReviews": []
+    },
+    {
+      "id": "robot-roborock-saros-20-sonic",
+      "category": "robot",
+      "brand": "Roborock",
+      "model": "Saros 20 Sonic",
+      "reviewedAt": "2026-08-25",
+      "reviewBatch": "robot",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "Reddit",
+        "Mobile01"
+      ],
+      "queries": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com/r/Roborock \"Saros 20 Sonic\" (problem OR issue OR error OR unresponsive)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%2Fr%2FRoborock%20%22Saros%2020%20Sonic%22%20%28problem%20OR%20issue%20OR%20error%20OR%20unresponsive%29",
+          "targetHost": "reddit.com"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Saros 20 Sonic\" (問題 OR 災情 OR 使用)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Saros%2020%20Sonic%22%20%28%E5%95%8F%E9%A1%8C%20OR%20%E7%81%BD%E6%83%85%20OR%20%E4%BD%BF%E7%94%A8%29",
+          "targetHost": "mobile01.com"
+        }
+      ],
+      "candidateDisposition": "Saros 20 Sonic：人工回看 Reddit 與 Mobile01 的 6 個 exact-model 原頁候選；無回應、171 錯誤、自訂行程與拖地痕跡分屬不同症狀，且負評皆集中於 Reddit，沒有同一問題達 6 位獨立使用者且跨 2 個原始網站（不代表完全沒有負評）。",
+      "representativeSources": [
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/Roborock/comments/1vl9azc/saros_20_sonic_unresponsive/",
+          "title": "Saros 20 Sonic 無回應個案"
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/Roborock/comments/1vjkvxl/saros_20_sonic_1712_error/",
+          "title": "Saros 20 Sonic 171-2／171-3 錯誤碼個案"
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/Roborock/comments/1vo3qbd/",
+          "title": "Saros 20 Sonic 導航與拖地不滿意個案"
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/Roborock/comments/1u799qs/",
+          "title": "Saros 20 Sonic 自訂行程與殘留任務個案"
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/Roborock/comments/1salvcs/",
+          "title": "Saros 20 Sonic 拖地條紋與中央偏乾個案"
+        },
+        {
+          "platform": "Mobile01",
+          "url": "https://www.mobile01.com/topicdetail.php?f=728&t=7267079",
+          "title": "Saros 20 Sonic 台灣使用分享"
+        }
+      ],
+      "reviewerNote": "Saros 20 Sonic：人工回看 Reddit 與 Mobile01 的 6 個 exact-model 原頁候選；無回應、171 錯誤、自訂行程與拖地痕跡分屬不同症狀，且負評皆集中於 Reddit，沒有同一問題達 6 位獨立使用者且跨 2 個原始網站（不代表完全沒有負評）。",
+      "attestation": "manual_original_pages_reviewed",
+      "candidateReviews": [
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/Roborock/comments/1vl9azc/saros_20_sonic_unresponsive/",
+          "title": "Saros 20 Sonic 無回應個案",
+          "sourceExcerpt": "原頁兩位作者分別描述 Saros 20 Sonic 在韌體更新後或使用數日後無回應，但沒有第二個原始網站確認同症。",
+          "independentAuthors": 2,
+          "specificReason": "相同頁面可辨識 2 位作者，但全部來自 Reddit 單一網站，且無回應情境不同；未達 6 人與跨 2 站門檻。",
+          "outcome": "excluded",
+          "reviewedAt": "2026-08-25",
+          "exactModel": true
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/Roborock/comments/1vjkvxl/saros_20_sonic_1712_error/",
+          "title": "Saros 20 Sonic 171-2／171-3 錯誤碼個案",
+          "sourceExcerpt": "原頁三位作者提到 Saros 20 Sonic 的 171-2 或 171-3 錯誤碼，但回報仍集中於同一 Reddit 討論。",
+          "independentAuthors": 3,
+          "specificReason": "同頁約 3 位作者、仍低於 6 人且只在 Reddit 單一原始網站；未找到 Mobile01 同型號同錯誤碼回報。",
+          "outcome": "excluded",
+          "reviewedAt": "2026-08-25",
+          "exactModel": true
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/Roborock/comments/1vo3qbd/",
+          "title": "Saros 20 Sonic 導航與拖地不滿意個案",
+          "sourceExcerpt": "原頁一位作者描述 Saros 20 Sonic 導航與拖地表現不如預期，留言另有不同使用者提供正向經驗。",
+          "independentAuthors": 1,
+          "specificReason": "只有 1 位作者提出導航與拖地綜合不滿，症狀未與錯誤碼或無回應候選相同，也未跨第二站。",
+          "outcome": "excluded",
+          "reviewedAt": "2026-08-25",
+          "exactModel": true
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/Roborock/comments/1u799qs/",
+          "title": "Saros 20 Sonic 自訂行程與殘留任務個案",
+          "sourceExcerpt": "原頁兩位作者提到自訂行程或殘留任務狀態異常，屬 App／任務設定情境，未見跨站同症回報。",
+          "independentAuthors": 2,
+          "specificReason": "只有 Reddit 單站約 2 位作者，且自訂行程與殘留任務不等同 171 錯誤或機器無回應，不能合併湊門檻。",
+          "outcome": "excluded",
+          "reviewedAt": "2026-08-25",
+          "exactModel": true
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/Roborock/comments/1salvcs/",
+          "title": "Saros 20 Sonic 拖地條紋與中央偏乾個案",
+          "sourceExcerpt": "原頁兩位作者討論聲波拖布留下條紋或中央偏乾，屬拖地結果個案，未見第二個原始網站同型號集中回報。",
+          "independentAuthors": 2,
+          "specificReason": "只有 Reddit 單一網站約 2 位作者，未達 6 人；拖地痕跡也不能與無回應、錯誤碼或 App 任務問題合併。",
+          "outcome": "excluded",
+          "reviewedAt": "2026-08-25",
+          "exactModel": true
+        },
+        {
+          "platform": "Mobile01",
+          "url": "https://www.mobile01.com/topicdetail.php?f=728&t=7267079",
+          "title": "Saros 20 Sonic 台灣使用分享",
+          "sourceExcerpt": "原頁兩位 Saros 20 Sonic 使用者描述目前運作正常或滿意，沒有提出可與 Reddit 候選合併的相同負評症狀。",
+          "independentAuthors": 2,
+          "specificReason": "這是台灣使用者的正向經驗，沒有共同故障症狀；無法拿來補足 Reddit 單站個案的跨站門檻。",
+          "outcome": "excluded",
+          "reviewedAt": "2026-08-25",
+          "exactModel": true
+        }
+      ]
     },
     {
       "id": "robot-roborock-saros-20",
@@ -44337,67 +44467,116 @@
       ]
     },
     {
-      "id": "network-switch-zyxel-gs1200-8",
+      "id": "network-switch-tplink-sg3210",
       "category": "network-switch",
-      "brand": "Zyxel",
-      "model": "GS1200-8",
-      "reviewedAt": "2026-08-24",
+      "brand": "TP-Link",
+      "model": "SG3210",
+      "reviewedAt": "2026-08-25",
       "reviewBatch": "network-switch",
       "decision": "no_common_issue",
       "checkedPlatforms": [
         "Reddit",
-        "Mobile01"
+        "Mobile01",
+        "TP-Link Community"
       ],
       "queries": [
         {
           "platform": "Reddit",
-          "query": "site:reddit.com \"GS1200-8\" issue",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22GS1200-8%22%20issue",
+          "query": "site:reddit.com/r/TPLink_Omada \"SG3210\" (problem OR issue OR disconnect)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%2Fr%2FTPLink_Omada%20%22SG3210%22%20%28problem%20OR%20issue%20OR%20disconnect%29",
           "targetHost": "reddit.com"
         },
         {
           "platform": "Mobile01",
-          "query": "site:mobile01.com \"GS1200-8\" 問題",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22GS1200-8%22%20%E5%95%8F%E9%A1%8C",
+          "query": "site:mobile01.com \"SG3210\" 問題",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22SG3210%22%20%E5%95%8F%E9%A1%8C",
           "targetHost": "mobile01.com"
         }
       ],
-      "candidateDisposition": "GS1200-8：人工回看 Reddit 與 Mobile01 exact-model 查詢中的 2 個原頁候選；逐頁區分故障、設定／互通限制、未確認歸因與交叉貼文後，沒有任一相同問題達到 6 位獨立使用者且跨 2 個原始網站（不代表完全沒有負評）。",
+      "candidateDisposition": "SG3210：人工回看 TP-Link Community、Reddit 與 Mobile01 的 5 個 exact-model 原頁候選；韌體後離線約 2 人、其他設定或規格討論各自不足，Mobile01 為正向使用回饋，沒有同一問題達 6 位獨立使用者且跨 2 個原始網站（不代表完全沒有負評）。",
       "representativeSources": [
         {
+          "platform": "TP-Link Community",
+          "url": "https://community.tp-link.com/en/business/forum/topic/865390?moduleId=3",
+          "title": "SG3210 V3.20 韌體更新後 Omada 控制器離線候選"
+        },
+        {
+          "platform": "TP-Link Community",
+          "url": "https://community.tp-link.com/en/business/forum/topic/711452",
+          "title": "SG3210 下游 AP 離線與網路拓樸候選"
+        },
+        {
           "platform": "Reddit",
-          "url": "https://www.reddit.com/r/complaints/comments/1efu37o",
-          "title": "GS1200-8 PoE+ 名稱誤解抱怨"
+          "url": "https://www.reddit.com/r/TPLink_Omada/comments/1kln2nk/",
+          "title": "SG3210 網路中的 VLAN 連線排查候選"
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/TPLink_Omada/comments/1jgufu3/",
+          "title": "SG3210 採購與內建電源討論"
         },
         {
           "platform": "Mobile01",
-          "url": "https://www.mobile01.com/topicdetail.php?f=110&t=6665363",
-          "title": "GS1200-8 VLAN／100Mbps 設定討論"
+          "url": "https://www.mobile01.com/topicdetail.php?f=110&t=4545257",
+          "title": "TL-SG3210 LACP 與 VLAN 長期使用回饋"
         }
       ],
-      "reviewerNote": "GS1200-8：人工回看 Reddit 與 Mobile01 exact-model 查詢中的 2 個原頁候選；逐頁區分故障、設定／互通限制、未確認歸因與交叉貼文後，沒有任一相同問題達到 6 位獨立使用者且跨 2 個原始網站（不代表完全沒有負評）。",
+      "reviewerNote": "SG3210：人工回看 TP-Link Community、Reddit 與 Mobile01 的 5 個 exact-model 原頁候選；韌體後離線約 2 人、其他設定或規格討論各自不足，Mobile01 為正向使用回饋，沒有同一問題達 6 位獨立使用者且跨 2 個原始網站（不代表完全沒有負評）。",
       "attestation": "manual_original_pages_reviewed",
       "candidateReviews": [
         {
-          "platform": "Reddit",
-          "url": "https://www.reddit.com/r/complaints/comments/1efu37o",
-          "title": "GS1200-8 PoE+ 名稱誤解抱怨",
-          "sourceExcerpt": "原頁抱怨 GS1200-8 名稱與 PoE+ 期待不符，內容不是同型號的耐用性或故障回報。",
-          "independentAuthors": 1,
-          "specificReason": "候選是產品命名／PoE 功能誤解，不是交換器故障或耐用問題，不能併入任何集中災情計數。",
+          "platform": "TP-Link Community",
+          "url": "https://community.tp-link.com/en/business/forum/topic/865390?moduleId=3",
+          "title": "SG3210 V3.20 韌體更新後 Omada 控制器離線候選",
+          "sourceExcerpt": "原頁 MantonL 與 Sco_T 兩位作者提到 SG3210 V3.20 更新或重啟後，SFP／Omada 控制器連線異常。",
+          "independentAuthors": 2,
+          "specificReason": "只有 TP-Link Community 單一原始網站的 2 位作者，且情境集中在特定韌體與重啟流程，未跨第二站也未達 6 人。",
           "outcome": "excluded",
-          "reviewedAt": "2026-08-24",
+          "reviewedAt": "2026-08-25",
+          "exactModel": true
+        },
+        {
+          "platform": "TP-Link Community",
+          "url": "https://community.tp-link.com/en/business/forum/topic/711452",
+          "title": "SG3210 下游 AP 離線與網路拓樸候選",
+          "sourceExcerpt": "原頁一位作者回報 SG3210 下游 AP 離線；官方支援回覆要求排查迴路、拓樸與另一台 SG608E，未確認交換器硬體故障。",
+          "independentAuthors": 1,
+          "specificReason": "只有 1 位作者，且原頁尚未排除網路迴路、拓樸與另一台交換器的影響，不能確認為 SG3210 的共同缺陷。",
+          "outcome": "excluded",
+          "reviewedAt": "2026-08-25",
+          "exactModel": true
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/TPLink_Omada/comments/1kln2nk/",
+          "title": "SG3210 網路中的 VLAN 連線排查候選",
+          "sourceExcerpt": "原頁一位作者在含 SG3210 的 Omada 網路排查 VLAN 問題，討論同時指向 ES205G 與設定，未鎖定 SG3210 故障。",
+          "independentAuthors": 1,
+          "specificReason": "只有 1 位作者，且問題歸因在 VLAN 設定與另一台 ES205G 間尚未釐清，沒有第二站同症，未達門檻。",
+          "outcome": "excluded",
+          "reviewedAt": "2026-08-25",
+          "exactModel": true
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/TPLink_Omada/comments/1jgufu3/",
+          "title": "SG3210 採購與內建電源討論",
+          "sourceExcerpt": "原頁討論 SG3210 的內建電源、SFP 與價格取捨，沒有可辨識使用者回報同型號故障或負評症狀。",
+          "independentAuthors": 0,
+          "specificReason": "這是採購與規格取捨討論，沒有第一人稱故障回報，也沒有可計入集中災情門檻的獨立作者。",
+          "outcome": "excluded",
+          "reviewedAt": "2026-08-25",
           "exactModel": true
         },
         {
           "platform": "Mobile01",
-          "url": "https://www.mobile01.com/topicdetail.php?f=110&t=6665363",
-          "title": "GS1200-8 VLAN／100Mbps 設定討論",
-          "sourceExcerpt": "原頁描述 GS1200-8 的 VLAN 與 100Mbps 現象，設定方式及線材仍未完成排除。",
+          "url": "https://www.mobile01.com/topicdetail.php?f=110&t=4545257",
+          "title": "TL-SG3210 LACP 與 VLAN 長期使用回饋",
+          "sourceExcerpt": "原頁一位使用者表示 TL-SG3210 的 LACP 與 VLAN 使用沒有問題，屬正向經驗而非負評候選。",
           "independentAuthors": 1,
-          "specificReason": "設定與線材變因尚未隔離，只有 1 位作者，也沒有第二站足量同症回報，未達門檻。",
+          "specificReason": "原頁是單一作者的正向使用經驗，未形成故障症狀；也不能與其他網站的設定排查或韌體個案合併計數。",
           "outcome": "excluded",
-          "reviewedAt": "2026-08-24",
+          "reviewedAt": "2026-08-25",
           "exactModel": true
         }
       ]

@@ -198,9 +198,97 @@
     }
   },
   {
-    "id": "robot-roborock-saros-20",
+    "id": "robot-roborock-saros-20-sonic",
     "category": "robot",
     "rank": 4,
+    "budget": "premium",
+    "channel": "tw",
+    "brand": "Roborock",
+    "model": "Saros 20 Sonic",
+    "name": "Saros 20 Sonic 聲波拖地旗艦掃拖機器人",
+    "price": {
+      "currency": "TWD",
+      "amount": 34980,
+      "converted": 34980,
+      "confidence": "Momo 2026-08-25 exact-model 台灣公司貨新品公開價",
+      "basis": "retailer_current"
+    },
+    "installation": {
+      "status": "excluded",
+      "note": "通路價格只含機器人與基站，不含到府網路設定、家具移動、門檻改造、固定給排水或電源施工。"
+    },
+    "image": "https://taiwan.roborock.com/cdn/shop/files/Saros20_Sonic_album_pic1_asia_web.jpg",
+    "buyUrl": "https://www.momoshop.com.tw/product/15103194",
+    "buyLabel": "Momo 購物網",
+    "specs": [
+      "36000Pa HyperForce 吸力",
+      "VibraRise 5.0 聲波拖地：每分鐘 4000 次、14N 下壓力",
+      "100°C 熱水洗拖布、55°C 暖風烘乾",
+      "最小通過高度 7.95 cm（本體高 7.98 cm）；最高跨越 8.8 cm 雙層門檻",
+      "機器人尺寸：寬 35 x 深 35.3 x 高 7.98 cm",
+      "基站尺寸：寬 44 x 深 40.9 x 高 47 cm"
+    ],
+    "description": "Roborock Saros 20 Sonic 是台灣現售的聲波拖地旗艦，與採旋轉拖布／水立方基站的 Saros 20 變體不同；主打 36000Pa、VibraRise 5.0 與高溫洗烘基站。",
+    "pros": [
+      "聲波拖布可升降與伸縮，較適合需要反覆刷洗的硬質地板",
+      "最小通過高度 7.95 cm 與 8.8 cm 雙門檻越障兼顧低矮家具與複雜動線",
+      "台灣官方、通路、120V／60Hz 手冊與一年保固資料完整"
+    ],
+    "cons": [
+      "旗艦價格高，耗材與大型基站空間仍需預留",
+      "聲波拖布和旋轉拖布手感不同，建議依地板材質選擇",
+      "Reddit 有少量無回應、錯誤碼與拖地痕跡個案，但尚未達跨站集中災情門檻"
+    ],
+    "bestFor": "想要高吸力、超薄機身與聲波擦洗，且家中有多層門檻或低矮家具的使用者。",
+    "recommendation": "聲波拖地旗艦候選：與 Saros 20 水立方版形成不同拖地路線；重視硬地刷洗可優先比較此款。",
+    "score": 94,
+    "voltage": "台灣公司貨；官方 FCC 手冊明載 120V AC、60Hz",
+    "warranty": "台灣公司貨 1 年保固；範圍與送修方式依 Roborock 台灣及 Momo 購買憑證",
+    "tags": [
+      "旗艦",
+      "聲波拖地",
+      "36000Pa",
+      "超薄越障"
+    ],
+    "releaseDate": "2026-04-15",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-08-25",
+      "note": "已查 Roborock 台灣官方、Momo exact-model 現售頁及公開比價／價格搜尋；可確認查核日通路價，但找不到具日期、可重現且排除個人化優惠的 exact-model 歷史價格曲線，因此不以現價推定史低。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-08-25",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com/r/Roborock \"Saros 20 Sonic\" (problem OR issue OR error OR unresponsive)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%2Fr%2FRoborock%20%22Saros%2020%20Sonic%22%20%28problem%20OR%20issue%20OR%20error%20OR%20unresponsive%29",
+          "targetHost": "reddit.com"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Saros 20 Sonic\" (問題 OR 災情 OR 使用)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Saros%2020%20Sonic%22%20%28%E5%95%8F%E9%A1%8C%20OR%20%E7%81%BD%E6%83%85%20OR%20%E4%BD%BF%E7%94%A8%29",
+          "targetHost": "mobile01.com"
+        }
+      ]
+    }
+  },
+  {
+    "id": "robot-roborock-saros-20",
+    "category": "robot",
+    "rank": 5,
     "budget": "premium",
     "channel": "tw",
     "brand": "Roborock",
@@ -296,7 +384,7 @@
   {
     "id": "robot-roborock-qrevo-edge-2-pro",
     "category": "robot",
-    "rank": 5,
+    "rank": 6,
     "budget": "mid",
     "channel": "tw",
     "brand": "Roborock",
@@ -489,7 +577,7 @@
   {
     "id": "robot-ecovacs-x11-pro-plumbed",
     "category": "robot",
-    "rank": 6,
+    "rank": 7,
     "budget": "premium",
     "channel": "tw",
     "brand": "Ecovacs",
@@ -585,7 +673,7 @@
   {
     "id": "robot-ecovacs-x11-pro",
     "category": "robot",
-    "rank": 7,
+    "rank": 8,
     "budget": "premium",
     "channel": "tw",
     "brand": "Ecovacs",
@@ -681,7 +769,7 @@
   {
     "id": "robot-ecovacs-t80-omni",
     "category": "robot",
-    "rank": 10,
+    "rank": 11,
     "budget": "mid",
     "channel": "tw",
     "brand": "Ecovacs",
@@ -778,7 +866,7 @@
   {
     "id": "robot-ecovacs-t50-pro",
     "category": "robot",
-    "rank": 11,
+    "rank": 12,
     "budget": "mid",
     "channel": "tw",
     "brand": "Ecovacs",
@@ -874,7 +962,7 @@
   {
     "id": "robot-ecovacs-n50",
     "category": "robot",
-    "rank": 12,
+    "rank": 13,
     "budget": "mid",
     "channel": "tw",
     "brand": "Ecovacs",
@@ -970,7 +1058,7 @@
   {
     "id": "robot-dreame-x60-master",
     "category": "robot",
-    "rank": 13,
+    "rank": 14,
     "budget": "premium",
     "channel": "tw",
     "brand": "Dreame",
@@ -1066,7 +1154,7 @@
   {
     "id": "robot-dreame-d30-ultra-ce",
     "category": "robot",
-    "rank": 14,
+    "rank": 15,
     "budget": "mid",
     "channel": "tw",
     "brand": "Dreame",
@@ -1162,7 +1250,7 @@
   {
     "id": "robot-narwal-freo-z-ultra",
     "category": "robot",
-    "rank": 15,
+    "rank": 16,
     "budget": "premium",
     "channel": "tw",
     "brand": "Narwal",
@@ -1258,7 +1346,7 @@
   {
     "id": "robot-narwal-flow-2",
     "category": "robot",
-    "rank": 16,
+    "rank": 17,
     "budget": "premium",
     "channel": "global",
     "brand": "Narwal",
@@ -1267,8 +1355,8 @@
     "price": {
       "currency": "EUR",
       "amount": 999,
-      "converted": 37103,
-      "confidence": "Boulanger 2026-07-21 來源價；ExchangeRate-API 2026-08-24 匯率換算"
+      "converted": 37072,
+      "confidence": "Boulanger 2026-07-21 來源價；ExchangeRate-API 2026-08-25 匯率換算"
     },
     "image": "https://boulanger.scene7.com/is/image/Boulanger/6972075738536_h_f_l_0?fmt=png-alpha&wid=640&hei=640",
     "buyUrl": "https://www.boulanger.com/ref/1238998",
@@ -1354,7 +1442,7 @@
   {
     "id": "robot-narwal-freo-z10-ultra",
     "category": "robot",
-    "rank": 17,
+    "rank": 18,
     "budget": "mid",
     "channel": "global",
     "brand": "Narwal",
@@ -1363,8 +1451,8 @@
     "price": {
       "currency": "USD",
       "amount": 551.69,
-      "converted": 17543,
-      "confidence": "Geekbuying 2026-07-21 來源價；ExchangeRate-API 2026-08-24 匯率換算"
+      "converted": 17550,
+      "confidence": "Geekbuying 2026-07-21 來源價；ExchangeRate-API 2026-08-25 匯率換算"
     },
     "image": "https://img.gkbcdn.com/p/2025-04-11/Narwal-Freo-Z10-Ultra-Robot-Vacuum-with-Base-Station-Gray-528438-0._w315_.jpg",
     "buyUrl": "https://www.geekbuying.com/item/Narwal-Freo-Z10-Ultra-Robot-Vacuum-with-Base-Station-Gray-528438.html",
@@ -1450,7 +1538,7 @@
   {
     "id": "robot-irobot-max-705",
     "category": "robot",
-    "rank": 18,
+    "rank": 19,
     "budget": "premium",
     "channel": "tw",
     "brand": "iRobot",
@@ -1547,7 +1635,7 @@
   {
     "id": "robot-irobot-plus-505",
     "category": "robot",
-    "rank": 19,
+    "rank": 20,
     "budget": "mid",
     "channel": "tw",
     "brand": "iRobot",
@@ -1634,7 +1722,7 @@
   {
     "id": "robot-irobot-plus-405",
     "category": "robot",
-    "rank": 20,
+    "rank": 21,
     "budget": "mid",
     "channel": "tw",
     "brand": "iRobot",
@@ -1730,7 +1818,7 @@
   {
     "id": "robot-irobot-205-combo",
     "category": "robot",
-    "rank": 21,
+    "rank": 22,
     "budget": "mid",
     "channel": "tw",
     "brand": "iRobot",
@@ -1826,7 +1914,7 @@
   {
     "id": "robot-eufy-omni-s2",
     "category": "robot",
-    "rank": 22,
+    "rank": 23,
     "budget": "premium",
     "channel": "tw",
     "brand": "eufy",
@@ -1922,7 +2010,7 @@
   {
     "id": "robot-eufy-omni-e25",
     "category": "robot",
-    "rank": 23,
+    "rank": 24,
     "budget": "mid",
     "channel": "tw",
     "brand": "eufy",
@@ -2018,7 +2106,7 @@
   {
     "id": "robot-eufy-omni-c28",
     "category": "robot",
-    "rank": 24,
+    "rank": 25,
     "budget": "mid",
     "channel": "tw",
     "brand": "eufy",
@@ -2026,9 +2114,9 @@
     "name": "自清潔掃拖一體全能機器人",
     "price": {
       "currency": "TWD",
-      "amount": 12244,
-      "converted": 12244,
-      "confidence": "Yahoo購物中心 2026-08-18 exact-model 公開結構化價格"
+      "amount": 12888,
+      "converted": 12888,
+      "confidence": "Yahoo購物中心 2026-08-25 exact-model 公開結構化價格"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL2DA900K13C9/000001_1782120164.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/eufy-Omni-C28-%E8%87%AA%E6%B8%85%E6%BD%94%E6%8E%83%E6%8B%96%E4%B8%80%E9%AB%94%E5%85%A8%E8%83%BD%E6%A9%9F%E5%99%A8%E4%BA%BA-%E9%BB%91-11990604.html",
@@ -2114,7 +2202,7 @@
   {
     "id": "robot-mova-s70-ultra-roller",
     "category": "robot",
-    "rank": 25,
+    "rank": 26,
     "budget": "premium",
     "channel": "tw",
     "brand": "MOVA",
@@ -2210,7 +2298,7 @@
   {
     "id": "robot-mova-s70-roller",
     "category": "robot",
-    "rank": 26,
+    "rank": 27,
     "budget": "mid",
     "channel": "tw",
     "brand": "MOVA",
@@ -2306,7 +2394,7 @@
   {
     "id": "robot-lg-r5t-ultimate",
     "category": "robot",
-    "rank": 27,
+    "rank": 28,
     "budget": "mid",
     "channel": "tw",
     "brand": "LG",
@@ -2402,7 +2490,7 @@
   {
     "id": "robot-lg-r5-proplus",
     "category": "robot",
-    "rank": 28,
+    "rank": 29,
     "budget": "mid",
     "channel": "tw",
     "brand": "LG",
@@ -2498,7 +2586,7 @@
   {
     "id": "robot-shark-powerdetect-nevertouch-pro",
     "category": "robot",
-    "rank": 29,
+    "rank": 30,
     "budget": "premium",
     "channel": "global",
     "brand": "Shark",
@@ -2507,8 +2595,8 @@
     "price": {
       "currency": "USD",
       "amount": 999.99,
-      "converted": 31798,
-      "confidence": "SharkNinja US 2026-07-21 來源價；ExchangeRate-API 2026-08-24 匯率換算"
+      "converted": 31810,
+      "confidence": "SharkNinja US 2026-07-21 來源價；ExchangeRate-API 2026-08-25 匯率換算"
     },
     "image": "https://assets.sharkninja.com/image/upload/f_auto/q_auto/SharkNinja-NA/RV2820ZE_01.jpg",
     "buyUrl": "https://www.sharkninja.com/shark-powerdetect-2-in-1-robot-vacuum-and-mop-with-nevertouch-pro-base/RV2820ZE.html",
@@ -2594,7 +2682,7 @@
   {
     "id": "robot-dyson-spot-scrub-ai",
     "category": "robot",
-    "rank": 30,
+    "rank": 31,
     "budget": "premium",
     "channel": "tw",
     "brand": "Dyson",
@@ -2692,7 +2780,7 @@
   {
     "id": "robot-costco-us-roborock-qx-revo",
     "category": "robot",
-    "rank": 31,
+    "rank": 32,
     "budget": "mid",
     "channel": "global",
     "brand": "Roborock",
@@ -2701,8 +2789,8 @@
     "price": {
       "currency": "USD",
       "amount": 399.99,
-      "converted": 12719,
-      "confidence": "Costco US 2026-07-21 最後可驗證價；2026-08-15 exact-model 頁顯示 Unavailable；ExchangeRate-API 2026-08-24 匯率換算"
+      "converted": 12724,
+      "confidence": "Costco US 2026-07-21 最後可驗證價；2026-08-15 exact-model 頁顯示 Unavailable；ExchangeRate-API 2026-08-25 匯率換算"
     },
     "image": "https://bfasset.costco-static.com/U447IH35/as/tkj772p4357mmh3bwz8kcq/1791272-847__1?auto=webp&format=jpg",
     "buyUrl": "https://www.costco.com/p/-/roborock-qx-revo-robot-vacuum-and-mop-with-multifunctional-dock/4000233271",
@@ -2775,7 +2863,7 @@
   {
     "id": "robot-costco-eufy-e20",
     "category": "robot",
-    "rank": 32,
+    "rank": 33,
     "budget": "mid",
     "channel": "tw",
     "brand": "eufy",
@@ -2874,7 +2962,7 @@
   {
     "id": "robot-xiaomi-vacuum-6-max",
     "category": "robot",
-    "rank": 33,
+    "rank": 34,
     "budget": "premium",
     "channel": "tw",
     "brand": "Xiaomi",
@@ -2976,7 +3064,7 @@
   {
     "id": "robot-ecovacs-t90-pro",
     "category": "robot",
-    "rank": 9,
+    "rank": 10,
     "budget": "premium",
     "channel": "tw",
     "brand": "Ecovacs",
@@ -3084,7 +3172,7 @@
   {
     "id": "robot-ecovacs-x12-pro",
     "category": "robot",
-    "rank": 8,
+    "rank": 9,
     "budget": "premium",
     "channel": "tw",
     "brand": "Ecovacs",
@@ -3186,7 +3274,7 @@
   {
     "id": "robot-xiaomi-h50-pro",
     "category": "robot",
-    "rank": 34,
+    "rank": 35,
     "budget": "mid",
     "channel": "tw",
     "brand": "Xiaomi",
@@ -3288,7 +3376,7 @@
   {
     "id": "robot-hobot-legee-q10-pro",
     "category": "robot",
-    "rank": 35,
+    "rank": 36,
     "topPick": false,
     "budget": "premium",
     "channel": "tw",
@@ -3399,7 +3487,7 @@
   {
     "id": "robot-roborock-qrevo-edge-2-flow",
     "category": "robot",
-    "rank": 36,
+    "rank": 37,
     "topPick": false,
     "budget": "premium",
     "channel": "tw",
@@ -3507,7 +3595,7 @@
   {
     "id": "robot-tplink-tapo-rv30-max-plus",
     "category": "robot",
-    "rank": 37,
+    "rank": 38,
     "topPick": false,
     "budget": "value",
     "channel": "tw",
@@ -3598,7 +3686,7 @@
   {
     "id": "robot-electrolux-efr81223",
     "category": "robot",
-    "rank": 38,
+    "rank": 39,
     "topPick": false,
     "budget": "mid",
     "channel": "tw",

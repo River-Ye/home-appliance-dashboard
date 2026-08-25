@@ -1046,9 +1046,9 @@
     "name": "11吋智能聲控 DC 3D 循環扇",
     "price": {
       "currency": "TWD",
-      "amount": 1607,
-      "converted": 1607,
-      "confidence": "Yahoo購物中心 2026-08-01 exact-model 公開結構化價格"
+      "amount": 1890,
+      "converted": 1890,
+      "confidence": "Yahoo購物中心 2026-08-25 exact-model 公開結構化價格"
     },
     "image": "https://cs-a.ecimg.tw/items/DSBE18A900K5EJK/000001_1782367256.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/TECO%E6%9D%B1%E5%85%83-11%E5%90%8B%E6%99%BA%E8%83%BD%E8%81%B2%E6%8E%A7DC%E9%A6%AC%E9%81%943D%E5%BE%AA%E7%92%B0%E6%89%87-XYFXA1101CB-12063164.html",
@@ -1526,9 +1526,9 @@
     "name": "9吋 DC 直流馬達空氣循環扇",
     "price": {
       "currency": "TWD",
-      "amount": 3029,
-      "converted": 3029,
-      "confidence": "Costco 好市多 2026-08-11 exact-model 公開結構化價格"
+      "amount": 3799,
+      "converted": 3799,
+      "confidence": "Costco 好市多 2026-08-25 exact-model 公開結構化價格"
     },
     "image": "https://www.costco.com.tw/medias/sys_master/images/h4c/h76/333377583546398.jpg",
     "buyUrl": "https://www.costco.com.tw/Televisions-Appliances/Cooling-Heating-Air-Treatment/Heating-Cooling/Airmate-9-inch-DC-Inverter-Air-Circulator-FB2393DR/p/149328",

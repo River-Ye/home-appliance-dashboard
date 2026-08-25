@@ -1403,9 +1403,9 @@
     "name": "17-32 吋 2-9KG 人體工學螢幕支架",
     "price": {
       "currency": "TWD",
-      "amount": 800,
-      "converted": 800,
-      "confidence": "Yahoo購物中心 2026-08-14 exact-model 公開結構化價格"
+      "amount": 770,
+      "converted": 770,
+      "confidence": "Yahoo購物中心 2026-08-25 exact-model 公開結構化價格"
     },
     "image": "https://cs-a.ecimg.tw/items/DCAGQ5A900JUC1W/000001_1774344481.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/%E6%A8%82%E6%AD%8CLoctek-%E4%BA%BA%E9%AB%94%E5%B7%A5%E5%AD%B8-%E8%9E%A2%E5%B9%95%E6%94%AF%E6%9E%B6D5S-12033991.html",
@@ -1502,9 +1502,9 @@
     "name": "45吋 20KG 氣壓式螢幕支架",
     "price": {
       "currency": "TWD",
-      "amount": 2999,
-      "converted": 2999,
-      "confidence": "PChome 2026-08-20 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 3250,
+      "converted": 3250,
+      "confidence": "PChome 2026-08-25 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DCAGU1A900I6WCY/000001_1754374453.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DCAGU1-A900I6WCY",
@@ -2119,16 +2119,16 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 288.15,
+      "amount": 282,
       "currency": "GBP",
-      "converted": 12501,
+      "converted": 12230,
       "sourceUrl": "https://pricespy.co.uk/product.php?p=16273588",
       "sourceTitle": "PriceSpy UK：Dell HDA26 Single Monitor Arm",
-      "evidenceSnippet": "PriceSpy exact-model 頁的 Price History 明示 30 天最低價 £288.15，且商品名稱、品牌與 GTIN 對應 Dell HDA26。",
+      "evidenceSnippet": "PriceSpy exact-model 頁的 Price History 明示新品最低價 £282，且商品名稱、品牌與 GTIN 對應 Dell HDA26。",
       "sourceKind": "price_history",
       "confidence": "medium",
-      "checkedAt": "2026-07-24",
-      "note": "採英國市場 exact-model 公開 30 天價格歷史並依 2026-08-24 GBP/TWD 匯率換算；未含國際運費、進口稅、退換貨與台灣保固風險，不能直接視為台灣到手價。"
+      "checkedAt": "2026-08-25",
+      "note": "採英國市場 exact-model 公開價格歷史並依 2026-08-25 GBP/TWD 匯率換算；未含國際運費、進口稅、退換貨與台灣保固風險，不能直接視為台灣到手價。"
     },
     "issueResearch": {
       "status": "no_common_issue",

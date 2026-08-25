@@ -301,9 +301,9 @@
     "name": "17 坪 360 度高效過濾空氣清淨機",
     "price": {
       "currency": "TWD",
-      "amount": 7110,
-      "converted": 7110,
-      "confidence": "PChome 2026-08-24 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 7359,
+      "converted": 7359,
+      "confidence": "PChome 2026-08-25 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAC2OA900GH5RL/000001_1781800112.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAC2O-A900GH5RL",
@@ -1357,9 +1357,9 @@
     "name": "奈米級空氣清淨機 MUJI AC0650",
     "price": {
       "currency": "TWD",
-      "amount": 4640,
-      "converted": 4640,
-      "confidence": "PChome 2026-08-24 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 4590,
+      "converted": 4590,
+      "confidence": "PChome 2026-08-25 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAC2OA900GD1ZV/000001_1781800174.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAC2O-A900GD1ZV",
@@ -1645,9 +1645,9 @@
     "name": "10坪圓嘟嘟空氣清淨機",
     "price": {
       "currency": "TWD",
-      "amount": 5288,
-      "converted": 5288,
-      "confidence": "PChome 2026-08-14 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 4999,
+      "converted": 4999,
+      "confidence": "PChome 2026-08-25 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAU6TA900IVWE0/000001_1748922662.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAU6T-A900IVWE0",
@@ -1680,15 +1680,15 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 5288,
+      "amount": 4999,
       "currency": "TWD",
-      "converted": 5288,
+      "converted": 4999,
       "sourceUrl": "https://24h.pchome.com.tw/prod/DMAU6T-A900IVWE0",
       "sourceTitle": "PChome 24h 購物：SHARP 夏普 10坪圓嘟嘟空氣清淨機 雞蛋白 FU-J41T-W",
-      "evidenceSnippet": "PChome 24h 購物於 2026-08-14 顯示同型號可信新品公開價 NT$5,288，低於既有史低 NT$5,688。",
+      "evidenceSnippet": "PChome 24h 購物於 2026-08-25 顯示同型號可信新品公開價 NT$4,999，低於既有史低 NT$5,288。",
       "sourceKind": "retailer_page",
       "confidence": "medium",
-      "checkedAt": "2026-08-14",
+      "checkedAt": "2026-08-25",
       "note": "採用 PChome 24h 購物當日可購商品的同型號新品公開價；不含會員券、點數、信用卡回饋、二手、福利、展示、拆封或整新品。"
     },
     "issueResearch": {
@@ -2228,9 +2228,9 @@
     "name": "迷你奈抗敏奈米級空氣清淨機",
     "price": {
       "currency": "TWD",
-      "amount": 7430,
-      "converted": 7430,
-      "confidence": "PChome 2026-08-24 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 7350,
+      "converted": 7350,
+      "confidence": "PChome 2026-08-25 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://img.pchome.com.tw/cs/items/DMAUFVA900JZR3M/000001_1785203322.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAUFV-A900JZR3M",

@@ -832,9 +832,9 @@
     "image": "https://cs-a.ecimg.tw/items/DMBR25A900IUNDB/000001_1747970581.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 24320,
-      "converted": 24320,
-      "confidence": "PChome 2026-08-21 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 25600,
+      "converted": 25600,
+      "confidence": "PChome 2026-08-25 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "channel": "tw",
     "buyLabel": "PChome",

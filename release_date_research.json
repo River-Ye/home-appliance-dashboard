@@ -1,14 +1,14 @@
 {
   "summary": {
-    "checkedAt": "2026-08-24T00:00:00+08:00",
-    "total": 899,
-    "found": 252,
+    "checkedAt": "2026-08-25T00:00:00+08:00",
+    "total": 900,
+    "found": 253,
     "missing": 647,
     "byConfidence": {
       "official": 123,
       "credible_article": 94,
       "not_found": 647,
-      "retailer_explicit": 11,
+      "retailer_explicit": 12,
       "medium": 7,
       "high": 17
     }
@@ -2718,6 +2718,20 @@
       "confidence": "credible_article",
       "query": "Roborock Saros20 release date launch announced",
       "sourceKind": "bing_result_block"
+    },
+    {
+      "id": "robot-roborock-saros-20-sonic",
+      "category": "robot",
+      "brand": "Roborock",
+      "model": "Saros 20 Sonic",
+      "name": "Saros 20 Sonic 聲波拖地旗艦掃拖機器人",
+      "releaseDate": "2026-04-15",
+      "sourceUrl": "https://www.momoshop.com.tw/product/15103194",
+      "sourceTitle": "Momo 購物網：Roborock Saros 20 Sonic",
+      "evidenceSnippet": "Momo exact-model 商品頁明載「4/15 首發獨家開賣」；同頁與台灣官方連結確認為 Saros 20 Sonic，故採 2026-04-15，不以活動起日 4/10 取代首發日。",
+      "confidence": "retailer_explicit",
+      "query": "Roborock Saros 20 Sonic 4/15 首發",
+      "sourceKind": "retailer_explicit_release"
     },
     {
       "id": "robot-roborock-saros-20",
@@ -10588,19 +10602,19 @@
       "sourceKind": "official_press_release"
     },
     {
-      "id": "network-switch-zyxel-gs1200-8",
+      "id": "network-switch-tplink-sg3210",
       "category": "network-switch",
-      "brand": "Zyxel",
-      "model": "GS1200-8",
-      "name": "Zyxel GS1200-8 8 埠 Gigabit Web Managed 交換器",
+      "brand": "TP-Link",
+      "model": "SG3210",
+      "name": "TP-Link Omada SG3210 8 埠 Gigabit L2+ 管理型交換器",
       "releaseDate": "找不到",
       "sourceUrl": "",
       "sourceTitle": "",
       "evidenceSnippet": "",
       "confidence": "not_found",
-      "query": "Zyxel GS1200-8 official launch release 上市 發售",
+      "query": "TP-Link SG3210 official launch release 上市 發售",
       "sourceKind": "not_found",
-      "reason": "官方 2016 與 2018 發表資料只涵蓋 GS1200-5HP／8HP PoE 型號，不能套用到非 PoE GS1200-8；產品頁與手冊日期亦不是上市日。"
+      "note": "已查 TP-Link 台灣 exact-model 官方產品頁、支援頁與 PChome 現售頁，未見可採用的上市／發售日期；不以硬體版本、韌體日期或通路上架日推定。"
     },
     {
       "id": "network-switch-netgear-gs108e",

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24",
+  "generatedAt": "2026-08-25",
   "sourcePolicy": "電視、Soundbar、洗衣機、烘衣機、洗烘衣機、電子衣櫥、冰箱、咖啡機、多功能氣炸烤箱／微波爐、洗碗機、免治馬桶、冷氣、熱水器與網路交換器共 14 類尺寸，以及電視、Soundbar、咖啡機、多功能氣炸烤箱／微波爐、冷氣與熱水器共 6 類重量研究，皆優先採 exact-model 官方產品頁、官方規格表或官方 PDF，其次為可信新品通路。只採本體／機身／明確組件的尺寸與淨重，排除包裝、外箱尺寸與毛重；來源沒有明示寬／深／高順序時不自行推定。冷氣分列室內機與室外機，熱泵複合熱水器必須分列主機與儲槽；既有各類研究列仍沿用相同 exact-model 邊界。",
   "results": [
     {
@@ -5066,14 +5066,14 @@
       "checkedAt": "2026-08-24"
     },
     {
-      "id": "network-switch-zyxel-gs1200-8",
-      "dimension": "尺寸：寬 15.5 x 深 8.5 x 高 2.6 cm",
-      "sourceUrl": "https://www.zyxel.com/tw/zh/products/switch/5-port-8-port-web-managed-gigabit-switch-gs1200-series/specifications",
-      "sourceTitle": "Zyxel GS1200-8 官方規格",
-      "evidenceSnippet": "GS1200-8 官方規格列出機身尺寸 15.5 × 8.5 × 2.6 cm（寬 × 深 × 高）。",
+      "id": "network-switch-tplink-sg3210",
+      "dimension": "尺寸：寬 29.4 x 深 18 x 高 4.4 cm",
+      "sourceUrl": "https://www.tp-link.com/tw/business-networking/omada-switch-l3-l2-managed/sg3210/v3.20/",
+      "sourceTitle": "TP-Link 台灣 SG3210 V3.20 官方規格",
+      "evidenceSnippet": "官方規格明列 SG3210 機身尺寸 294 × 180 × 44 mm（寬 × 深 × 高）。",
       "confidence": "high",
       "isOfficialSource": true,
-      "checkedAt": "2026-08-24"
+      "checkedAt": "2026-08-25"
     },
     {
       "id": "network-switch-netgear-gs108e",
