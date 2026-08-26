@@ -15,8 +15,8 @@
     "image": "https://cs-a.ecimg.tw/items/DAANBRA900ASZRJ/000001_1758695631.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 8087,
-      "converted": 8087,
+      "amount": 9190,
+      "converted": 9190,
       "confidence": "PChome 2026-08-26 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "channel": "tw",
@@ -221,8 +221,8 @@
     "image": "https://cs-a.ecimg.tw/items/DMAW25A900G453U/000001_1781668075.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 8590,
-      "converted": 8590,
+      "amount": 8333,
+      "converted": 8333,
       "confidence": "Yahoo購物中心 2026-08-26 exact-model 公開結構化價格"
     },
     "channel": "tw",
@@ -324,8 +324,8 @@
     "image": "https://cs-a.ecimg.tw/items/DMCI1NA900HIJUW/000001_1782095197.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 9900,
-      "converted": 9900,
+      "amount": 9108,
+      "converted": 9108,
       "confidence": "Yahoo購物中心 2026-08-26 exact-model 公開結構化價格"
     },
     "channel": "tw",
@@ -733,8 +733,8 @@
     "image": "https://cs-a.ecimg.tw/items/DMAC6RA900IUC3J/000001_1761017834.png",
     "price": {
       "currency": "TWD",
-      "amount": 29700,
-      "converted": 29700,
+      "amount": 29999,
+      "converted": 29999,
       "confidence": "PChome 2026-08-26 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "channel": "tw",
@@ -834,8 +834,8 @@
     "image": "https://cs-a.ecimg.tw/items/DMCI01A900JV0NP/000001_1774843160.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 16020,
-      "converted": 16020,
+      "amount": 17800,
+      "converted": 17800,
       "confidence": "PChome 2026-08-26 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "channel": "tw",
@@ -1342,8 +1342,8 @@
     "image": "https://cs-a.ecimg.tw/items/DMBM2HA900GH7MW/000001_1770018742.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 25020,
-      "converted": 25020,
+      "amount": 27800,
+      "converted": 27800,
       "confidence": "PChome 2026-08-26 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "channel": "tw",
@@ -1547,8 +1547,8 @@
     "name": "櫥下型雙溫 UV 觸控飲水機",
     "price": {
       "currency": "TWD",
-      "amount": 30600,
-      "converted": 30600,
+      "amount": 34000,
+      "converted": 34000,
       "confidence": "PChome 2026-08-26 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DSBE1FA900GSOLN/000001_1698896380.jpg",
@@ -1839,8 +1839,8 @@
     "name": "廚下 RO 雙溫觸控飲水機",
     "price": {
       "currency": "TWD",
-      "amount": 33129,
-      "converted": 33129,
+      "amount": 36810,
+      "converted": 36810,
       "confidence": "PChome 2026-08-26 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMCI0OA900JT66N/000001_1773306819.png",
@@ -2031,8 +2031,8 @@
     "name": "廚下型飲用水加熱器",
     "price": {
       "currency": "TWD",
-      "amount": 23500,
-      "converted": 23500,
+      "amount": 21150,
+      "converted": 21150,
       "confidence": "Yahoo購物中心 2026-08-26 exact-model 公開結構化價格"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAWB8A900BVEOG/000001_1760685693.jpg",
@@ -2128,8 +2128,8 @@
     "price": {
       "currency": "USD",
       "amount": 369.99,
-      "converted": 11770,
-      "confidence": "Costco US 2026-07-21 來源價；ExchangeRate-API 2026-08-25 匯率換算"
+      "converted": 11783,
+      "confidence": "Costco US 2026-07-21 來源價；ExchangeRate-API 2026-08-26 匯率換算"
     },
     "image": "https://bfasset.costco-static.com/U447IH35/as/4xjr3phfqx7p9vvxzfhp3jp/100457228-847_chrome_1?auto=webp&format=jpg",
     "buyUrl": "https://www.costco.com/brondell-circle-reverse-osmosis-water-filtration-system.product.100457228.html",
@@ -2521,8 +2521,8 @@
     "name": "極熱 廚下五段溫控瞬熱飲水機",
     "price": {
       "currency": "TWD",
-      "amount": 25920,
-      "converted": 25920,
+      "amount": 28800,
+      "converted": 28800,
       "confidence": "PChome 2026-08-26 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAWHTA900JVB6I/000001_1775031754.jpg",
@@ -3978,8 +3978,8 @@
     "name": "BD-3006BF 冷水煮沸飲水機＋RO-2604 逆滲透系統",
     "price": {
       "currency": "TWD",
-      "amount": 44712,
-      "converted": 44712,
+      "amount": 49680,
+      "converted": 49680,
       "confidence": "PChome 2026-08-26 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
       "basis": "retailer_current"
     },

@@ -2277,8 +2277,8 @@
     "name": "27 型 WQHD 360Hz QD-OLED 電競螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 18333,
-      "converted": 18333,
+      "amount": 18900,
+      "converted": 18900,
       "confidence": "Yahoo購物中心 2026-08-26 exact-model 公開結構化價格"
     },
     "image": "https://cs-a.ecimg.tw/items/DSBC1ZA900HE04M/000001_1757303897.jpg",

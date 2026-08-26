@@ -17,8 +17,8 @@
     "name": "11.1.4 聲道旗艦 Soundbar",
     "price": {
       "currency": "TWD",
-      "amount": 42655,
-      "converted": 42655,
+      "amount": 44900,
+      "converted": 44900,
       "confidence": "Yahoo購物中心 2026-08-26 exact-model 公開結構化價格"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAAODA900JMDR5/000001_1773978957.jpg",
@@ -307,8 +307,8 @@
     "name": "BRAVIA Theatre Bar 7 5.0.2 聲道 Soundbar",
     "price": {
       "currency": "TWD",
-      "amount": 20610,
-      "converted": 20610,
+      "amount": 21755,
+      "converted": 21755,
       "confidence": "PChome 2026-08-26 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://img.pchome.com.tw/cs/items/DMAAN8A900K0Y8L/000001_1779181877.jpg",
@@ -889,8 +889,8 @@
     "name": "Q 系列 11.1.4 聲道 Soundbar 家庭劇院",
     "price": {
       "currency": "TWD",
-      "amount": 56905,
-      "converted": 56905,
+      "amount": 59900,
+      "converted": 59900,
       "confidence": "Yahoo購物中心 2026-08-26 exact-model 公開結構化價格"
     },
     "image": "https://cs-a.ecimg.tw/items/DPADO2A900K5VUT/000001_1782993730.jpg",
@@ -987,8 +987,8 @@
     "name": "Q 系列 7.1.2 聲道 Soundbar",
     "price": {
       "currency": "TWD",
-      "amount": 35055,
-      "converted": 35055,
+      "amount": 36900,
+      "converted": 36900,
       "confidence": "Yahoo購物中心 2026-08-26 exact-model 公開結構化價格"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAAODA900K5489/000001_1782988490.jpg",
@@ -1085,8 +1085,8 @@
     "name": "5.1 聲道 Soundbar 家庭劇院組",
     "price": {
       "currency": "TWD",
-      "amount": 8541,
-      "converted": 8541,
+      "amount": 9016,
+      "converted": 9016,
       "confidence": "Yahoo購物中心 2026-08-26 exact-model 公開結構化價格"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBM1DA900GHTFE/000001_1776774078.jpg",
@@ -1379,8 +1379,8 @@
     "name": "7.1 聲道家庭劇院喇叭",
     "price": {
       "currency": "TWD",
-      "amount": 27161,
-      "converted": 27161,
+      "amount": 28590,
+      "converted": 28590,
       "confidence": "Yahoo購物中心 2026-08-26 exact-model 公開結構化價格"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAAHGA900J56OK/000001_1755250707.jpg",
@@ -2066,8 +2066,8 @@
     "price": {
       "currency": "USD",
       "amount": 1299.99,
-      "converted": 41353,
-      "confidence": "Marshall US 2026-07-21 來源價；ExchangeRate-API 2026-08-25 匯率換算"
+      "converted": 41402,
+      "confidence": "Marshall US 2026-07-21 來源價；ExchangeRate-API 2026-08-26 匯率換算"
     },
     "image": "https://images.ctfassets.net/javen7msabdh/2C2sn9CKoKFdIyd94Gm9z5/f3019d4e721511167ebe5c229bf490dd/heston-120_plp.jpg",
     "buyUrl": "https://www.marshall.com/us/en/product/heston-120",
@@ -2166,8 +2166,8 @@
     "price": {
       "currency": "USD",
       "amount": 699.99,
-      "converted": 22267,
-      "confidence": "Marshall US 官方 2026-07-21 現貨價；ExchangeRate-API 2026-08-25 匯率換算"
+      "converted": 22293,
+      "confidence": "Marshall US 官方 2026-07-21 現貨價；ExchangeRate-API 2026-08-26 匯率換算"
     },
     "image": "https://images.ctfassets.net/javen7msabdh/3yitHqjPBTgQk5qRE72PSn/2788206646aa153f71f2c0ebefaff580/Heston-60-black_plp_800x800-v3.jpeg",
     "buyUrl": "https://www.marshall.com/us/en/product/heston-60?pid=1008949",
@@ -2461,8 +2461,8 @@
     "name": "2.0 聲道二合一分離式聲霸",
     "price": {
       "currency": "TWD",
-      "amount": 602,
-      "converted": 602,
+      "amount": 633,
+      "converted": 633,
       "confidence": "Yahoo購物中心 2026-08-26 exact-model 公開結構化價格"
     },
     "image": "https://www.costco.com.tw/medias/sys_master/images/h21/hac/367883491278878.jpg",
@@ -2604,14 +2604,14 @@
       "status": "found",
       "amount": 176091,
       "currency": "JPY",
-      "converted": 35202,
+      "converted": 35216,
       "sourceUrl": "https://kakaku.com/item/K0001712395/pricehistory/",
       "sourceTitle": "価格.com：JBL BAR 1300MK2 [ブラック] 価格推移",
       "evidenceSnippet": "価格.com 日別價格歷史顯示 exact-model「JBL BAR 1300MK2 [ブラック]」於 2026-06-17 的新品最低價為 ¥176,091；2025-10 初始價格為 ¥205,306。",
       "sourceKind": "price_history",
       "confidence": "medium",
       "checkedAt": "2026-08-25",
-      "note": "採日本市場 exact-model 公開價格歷史並依 2026-08-25 JPY/TWD 匯率換算；未含國際運費、進口稅、插頭／電壓確認與台灣保固風險。官方規格雖為 100-240V，海外購入仍非台灣公司貨。"
+      "note": "採日本市場 exact-model 公開價格歷史並依 2026-08-26 JPY/TWD 匯率換算；未含國際運費、進口稅、插頭／電壓確認與台灣保固風險。官方規格雖為 100-240V，海外購入仍非台灣公司貨。"
     },
     "issueResearch": {
       "status": "no_common_issue",

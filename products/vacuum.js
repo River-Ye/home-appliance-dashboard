@@ -2132,8 +2132,8 @@
     "price": {
       "currency": "USD",
       "amount": 679.99,
-      "converted": 21631,
-      "confidence": "Dreame Vacuum Mop US 2026-07-21 原廠公開特價；ExchangeRate-API 2026-08-25 匯率換算"
+      "converted": 21656,
+      "confidence": "Dreame Vacuum Mop US 2026-07-21 原廠公開特價；ExchangeRate-API 2026-08-26 匯率換算"
     },
     "image": "https://m.media-amazon.com/images/I/61Yuy5vtWFL._AC_SL1500_.jpg",
     "buyUrl": "https://vacuummop.dreametech.com/products/aero-ultra-steam-wet-dry-vacuum",
@@ -2172,14 +2172,14 @@
       "status": "found",
       "amount": 679.99,
       "currency": "USD",
-      "converted": 21631,
+      "converted": 21656,
       "sourceUrl": "https://vacuummop.dreametech.com/products/aero-ultra-steam-wet-dry-vacuum",
       "sourceTitle": "Dreame Aero Ultra Steam Wet Dry Vacuum – Dreame Vacuum Mop",
       "evidenceSnippet": "Dreame 原廠美國商品頁於 2026-07-16 公開顯示特價 US$679.99、原價 US$799.99，且可 Add to Cart / Buy It Now。",
       "sourceKind": "official_sale",
       "confidence": "high",
       "checkedAt": "2026-07-16",
-      "note": "新上市商品目前可公開驗證的最低售價；未套用會員碼、信用卡、點數或個人化折扣，且未含國際運費、進口稅、插頭／供電與台灣保固風險；依 2026-08-25 USD/TWD 匯率換算。"
+      "note": "新上市商品目前可公開驗證的最低售價；未套用會員碼、信用卡、點數或個人化折扣，且未含國際運費、進口稅、插頭／供電與台灣保固風險；依 2026-08-26 USD/TWD 匯率換算。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -2616,6 +2616,97 @@
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Samsung VS70H18GZG/TW\" (災情 OR 問題 OR 故障 OR 負評)",
           "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Samsung%20VS70H18GZG%2FTW%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        }
+      ]
+    }
+  },
+  {
+    "id": "vacuum-roborock-f25-ace-pro-wd5m14a",
+    "category": "vacuum",
+    "rank": 29,
+    "topPick": false,
+    "budget": "premium",
+    "channel": "tw",
+    "brand": "Roborock",
+    "model": "WD5M14A",
+    "name": "F25 ACE Pro 石沫吸泡沫洗地機",
+    "price": {
+      "currency": "TWD",
+      "amount": 14888,
+      "converted": 14888,
+      "confidence": "Roborock 台灣官網 2026-08-26 exact-model Shopify SKU WD5M14A 公開價；available=true 且可立即購買",
+      "basis": "retailer_current"
+    },
+    "image": "https://taiwan.roborock.com/cdn/shop/files/F25_ACE_Pro_1_1200x1200.jpg?v=1787311249",
+    "buyUrl": "https://taiwan.roborock.com/products/roborock-f25-ace-pro",
+    "buyLabel": "Roborock 台灣官網",
+    "installation": {
+      "status": "not_stated",
+      "note": "台灣官方與通路未列到府安裝；本品為手持洗地機，使用者需依原廠說明放置充電座、注水並清潔污水箱。"
+    },
+    "specs": [
+      "JetFoaming 超微能量泡沫洗；1ml 清潔液可產生 1.67 億個微米級泡沫",
+      "25,000Pa 吸力、30N 對地壓力、430RPM 滾刷；三側 0mm 貼邊",
+      "180° FlatReach 2.0 平躺；平躺機身高度 12.5cm；SlideTech 2.0 雙輪助力",
+      "95°C 滾刷高溫自清潔；95°C 熱風 5 分鐘速烘或 30 分鐘靜音烘乾",
+      "Eco 模式最長約 60 分鐘；4000mAh 電池；清水箱 1,000ml、污水箱 720ml",
+      "尺寸：主機寬 26.5 x 深 25 x 高 110cm；含充電座寬 31.6 x 深 35.3 x 高 116.5cm；淨重 5.1kg",
+      "Roborock App、語音提示、自動清潔液投放；配件含充電座、滾刷、濾網與泡沫清潔液"
+    ],
+    "description": "台灣正式上市的泡沫洗地旗艦款，以 JetFoaming、25,000Pa、三側貼邊與 95°C 洗烘補足既有洗地機缺少的定點泡沫去污方案。",
+    "pros": [
+      "泡沫可先包覆油污與食物殘渣，和蒸氣／單純清水洗地形成明確差異",
+      "25,000Pa、三側貼邊、180° 平躺與雙輪助力兼顧吸洗效率和低處操控",
+      "1L 清水箱、最長 60 分鐘續航與 95°C 洗烘，適合較大硬地板空間"
+    ],
+    "cons": [
+      "5.1kg 機身與含座 116.5cm 高度需要固定收納空間，搬樓層不算輕巧",
+      "泡沫清潔液與滾刷屬持續耗材，使用後仍需倒污水並清理固液分離件",
+      "台灣通路標 110V／60Hz，原廠 FCC 手冊的 MDS29LRR 座充標 120V／60Hz；到貨後應核對銘牌"
+    ],
+    "bestFor": "硬地板油污、寵物或幼兒食物污漬較多，重視泡沫去污、平躺貼邊與高溫洗烘的家庭。",
+    "recommendation": "值得納入但不取代乾式吸塵器；差異化在泡沫去污與 95°C 自清潔／烘乾，購買前要確認 5.1kg 重量、耗材與座充銘牌。",
+    "score": 91,
+    "voltage": "台灣燦坤 exact-model WD5M14A 頁標 110V／60Hz、400W；Roborock FCC 手冊將 WD5M14A 配對 MDS29LRR 並標座充 120V／60Hz，實際以台灣公司貨銘牌為準",
+    "warranty": "Roborock 台灣原廠保固 1 年；台灣官方商城與燦坤 exact-model 頁均有公開保固資訊",
+    "tags": [
+      "JetFoaming",
+      "25,000Pa",
+      "95°C 洗烘",
+      "180° 平躺",
+      "三側貼邊"
+    ],
+    "releaseDate": "2026",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-08-26",
+      "note": "已查 Roborock 台灣官網、燦坤、FindPrice 與飛比 exact-model WD5M14A；只能確認現價／比價快照，沒有具日期且可重現的可信新品歷史曲線。飛比的 Coupang NT$14,788 候選未在原頁同時核對 exact model 與最低點日期，現價也不直接推定為史低。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-08-26",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Roborock WD5M14A\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Roborock%20WD5M14A%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Roborock WD5M14A\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Roborock%20WD5M14A%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         }
       ]

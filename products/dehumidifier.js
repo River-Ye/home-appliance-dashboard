@@ -17,9 +17,9 @@
     "name": "16 公升高效型變頻除濕機",
     "price": {
       "currency": "TWD",
-      "amount": 15210,
-      "converted": 15210,
-      "confidence": "PChome 2026-08-25 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 14365,
+      "converted": 14365,
+      "confidence": "PChome 2026-08-26 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ3PA900J0L88/000001_1776323540.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBQ3P-A900J0L88",
@@ -305,9 +305,9 @@
     "name": "19.6 公升 PuriCare 雙變頻除濕機",
     "price": {
       "currency": "TWD",
-      "amount": 19458,
-      "converted": 19458,
-      "confidence": "Yahoo購物中心 2026-08-04 exact-model 公開結構化價格"
+      "amount": 20700,
+      "converted": 20700,
+      "confidence": "Yahoo購物中心 2026-08-26 exact-model 公開結構化價格"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ4OA900JX7GH/000001_1783563034.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/LG%E6%A8%82%E9%87%91-DD201MEE0-19-6%E5%85%AC%E5%8D%87-PuriCare-%E9%9B%99%E8%AE%8A%E9%A0%BB%E9%99%A4%E6%BF%95%E6%A9%9F-11884613.html",
@@ -689,9 +689,9 @@
     "name": "8 公升清淨除濕機",
     "price": {
       "currency": "TWD",
-      "amount": 10898,
-      "converted": 10898,
-      "confidence": "Yahoo購物中心 2026-08-25 exact-model 公開結構化價格"
+      "amount": 11696,
+      "converted": 11696,
+      "confidence": "Yahoo購物中心 2026-08-26 exact-model 公開結構化價格"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAU0FA900B1HPU/000001_1782813379.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/Panasonic-%E5%9C%8B%E9%9A%9B%E7%89%8C-8L-HEPA%E6%B8%85%E6%B7%A8%E9%99%A4%E6%BF%95-7996517.html",
@@ -785,9 +785,9 @@
     "name": "9 公升除濕機",
     "price": {
       "currency": "TWD",
-      "amount": 8451,
-      "converted": 8451,
-      "confidence": "PChome 2026-08-25 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 7981,
+      "converted": 7981,
+      "confidence": "PChome 2026-08-26 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ00A900JB38A/000001_1776329911.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBQ00-A900JB38A",
@@ -977,9 +977,9 @@
     "name": "PuriCare 12 公升雙變頻除濕機",
     "price": {
       "currency": "TWD",
-      "amount": 11656,
-      "converted": 11656,
-      "confidence": "Yahoo購物中心 2026-08-04 exact-model 公開結構化價格"
+      "amount": 12596,
+      "converted": 12596,
+      "confidence": "Yahoo購物中心 2026-08-26 exact-model 公開結構化價格"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ4NA900JF9HP/000001_1778165423.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/LG%E6%A8%82%E9%87%91-12%E5%85%AC%E5%8D%87-%E6%97%A5UV%E6%AE%BA%E8%8F%8C%E9%9B%99%E8%AE%8A%E9%A0%BB%E9%99%A4%E6%BF%95%E6%A9%9FDD121QWE0-11864251.html",
@@ -1361,9 +1361,9 @@
     "name": "20L 第六感智能除濕機",
     "price": {
       "currency": "TWD",
-      "amount": 8991,
-      "converted": 8991,
-      "confidence": "Yahoo購物中心 2026-07-18 商品頁公開價"
+      "amount": 9191,
+      "converted": 9191,
+      "confidence": "Yahoo購物中心 2026-08-26 exact-model 公開結構化價格"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ3SA900K13ZR/000001_1779265654.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/Whirlpool%E6%83%A0%E8%80%8C%E6%B5%A6-WDEE20TW-20L-%E7%AC%AC%E5%85%AD%E6%84%9F%E6%99%BA%E8%83%BD%E9%99%A4%E6%BF%95%E6%A9%9F-12132430.html",
@@ -1649,9 +1649,9 @@
     "name": "6L 除濕機",
     "price": {
       "currency": "TWD",
-      "amount": 5211,
-      "converted": 5211,
-      "confidence": "PChome 2026-08-25 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 4921,
+      "converted": 4921,
+      "confidence": "PChome 2026-08-26 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ3PA900J9FH9/000001_1776325410.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBQ3P-A900J9FH9",
