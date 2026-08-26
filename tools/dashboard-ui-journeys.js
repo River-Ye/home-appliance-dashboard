@@ -1083,6 +1083,7 @@ async function runTypeFilterJourney(browser) {
       }
     }
     await page.goto(`${fileUrl}?category=aircon&type=heat_cool`, { waitUntil: "domcontentloaded" });
+    await page.waitForSelector(".product-card");
     await page.goto(`${fileUrl}?category=network-switch&type=2_5g`, { waitUntil: "domcontentloaded" });
     await page.waitForSelector(".product-card");
     await page.waitForFunction(() => document.querySelector("#typeInput")?.value === "2.5G（8 埠）");
