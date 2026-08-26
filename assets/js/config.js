@@ -6,8 +6,8 @@
     dataDate: "2026-08-26",
     costcoDate: "2026-08-26",
     expectedCategoryCount: 30,
-    expectedProductCount: 901,
-    cacheVersion: "20260826-110213-catalog",
+    expectedProductCount: 902,
+    cacheVersion: "20260826-134713-bowers-wilkins",
     exchangeSummary: "USD 1 = TWD 31.848",
   };
 

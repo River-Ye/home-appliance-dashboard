@@ -1,15 +1,15 @@
 {
   "summary": {
     "checkedAt": "2026-08-26T00:00:00.000+08:00",
-    "sourcePolicy": "2026-08-26 以 901 筆清單全量查核公開價格基準（通路現價或明示官方建議售價）、購買連結與可信新品狀態，並複核全部商品圖片、485 筆 found 史低來源、原廠停產訊號與同批次匯率。官方建議售價不自動寫成通路現價或史低；PChome exact-model 現貨頁有正值 Price.Low 時採公開折扣價，否則採 Price.P；Qty 0、福利品、展示機與配件不寫回。其他頁面的結構化價格差異列入人工覆核候選，阻擋、暫時錯誤與單次頁面失效只列稽核，不臆測停產或史低失效。",
-    "total": 901,
-    "researchedThisRun": 901,
-    "found": 485,
+    "sourcePolicy": "2026-08-26 合併新增 exact-model 研究；每筆明確區分通路現價與官方建議售價，官方建議售價不得被當成通路現價或史低。史低只接受具日期、同型號且可公開重現的可信新品來源；會員個人化折扣、點數、二手、福利品、展示機、拆封、整新、配件與耗材均排除。",
+    "total": 902,
+    "researchedThisRun": 902,
+    "found": 486,
     "missing": 416,
     "byConfidence": {
       "not_found": 416,
       "high": 321,
-      "medium": 164
+      "medium": 165
     },
     "exchange": {
       "USD_TWD": 31.847672,
@@ -20,7 +20,7 @@
       "CNY_TWD": 4.727269596669859,
       "KRW_TWD": 0.023026005889349187
     },
-    "lastMaintenanceCheckAt": "2026-08-26T11:02:13.789Z",
+    "lastMaintenanceCheckAt": "2026-08-26T13:47:13.000Z",
     "currentPriceChanged": 57,
     "currentBuyLinkChanged": 0,
     "currentPriceDrops": 10,
@@ -32,7 +32,7 @@
     "catalogReplacementNotes": [],
     "currentImageChanged": 0,
     "discontinuedRemoved": 0,
-    "newProductsAdded": 1,
+    "newProductsAdded": 2,
     "discontinuedRemovalNotes": [],
     "catalogEntriesRemoved": 0,
     "catalogRemovalNotes": []
@@ -2907,6 +2907,60 @@
       ],
       "rejectedCandidates": [
         "排除現價冒充史低、會員個人化優惠、信用卡回饋、點數、二手、福利品、展示機、拆封品、整新品、配件與非 exact model；冷氣另排除單一室內機／室外機或安裝範圍不同的價格。"
+      ],
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價"
+    },
+    {
+      "id": "soundbar-bowers-wilkins-panorama-3",
+      "category": "soundbar",
+      "brand": "Bowers & Wilkins",
+      "model": "Panorama 3",
+      "name": "Panorama 3 3.1.2 聲道 Dolby Atmos 聲霸",
+      "currentPrice": 35900,
+      "currentCurrency": "TWD",
+      "currentBuyUrl": "https://www.pincha.com.tw/products/bowers-wilkins-panorama-3-dolby-atmos-soundbar",
+      "currentBuyLabel": "品嘉音響 exact-model 新品",
+      "historicalLow": {
+        "status": "found",
+        "amount": 199.99,
+        "currency": "USD",
+        "converted": 6369,
+        "sourceUrl": "https://www.bestbuy.com/product/bowers-wilkins-panorama-3-atmos-soundbar-with-built-in-subwoofer-black/JXT7VJQYRV/sku/6498858/reviews",
+        "sourceTitle": "Bowers & Wilkins Panorama 3 Atmos Soundbar with Built-In Subwoofer - Black",
+        "evidenceSnippet": "Best Buy exact-model SKU 6498858 顯示 Clearance US$199.99、比較價 US$999.99，查核時已 unavailable。",
+        "sourceKind": "retailer_promo",
+        "confidence": "medium",
+        "checkedAt": "2026-08-26",
+        "note": "Best Buy 清倉價僅作可驗證史低參考，未含國際運費、進口稅、插頭／供電與台灣保固風險；查核時已無法購買。"
+      },
+      "checkedSources": [
+        "https://www.pincha.com.tw/products/bowers-wilkins-panorama-3-dolby-atmos-soundbar",
+        "https://www.bestbuy.com/product/bowers-wilkins-panorama-3-atmos-soundbar-with-built-in-subwoofer-black/JXT7VJQYRV/sku/6498858/reviews",
+        "https://www.whathifi.com/news/yep-black-friday-dolby-atmos-soundbar-deals-are-slim-but-pound500-off-this-bowers-and-wilkins-makes-up-for-it"
+      ],
+      "priceChecks": [
+        {
+          "kind": "current_exact_model_page",
+          "url": "https://www.pincha.com.tw/products/bowers-wilkins-panorama-3-dolby-atmos-soundbar",
+          "query": "Bowers & Wilkins Panorama 3",
+          "outcome": "2026-08-26 核對台灣 exact-model 新品現價 NT$35,900；此頁只證明查核日可購價格，不冒充歷史最低價。"
+        },
+        {
+          "kind": "historical_exact_model_page",
+          "url": "https://www.bestbuy.com/product/bowers-wilkins-panorama-3-atmos-soundbar-with-built-in-subwoofer-black/JXT7VJQYRV/sku/6498858/reviews",
+          "query": "Bowers & Wilkins Panorama 3 SKU 6498858 clearance",
+          "outcome": "採用 Best Buy exact-model Clearance US$199.99；頁面查核時 unavailable，因此只作已發生史低，不作現價或可購承諾。"
+        },
+        {
+          "kind": "historical_price_article",
+          "url": "https://www.whathifi.com/news/yep-black-friday-dolby-atmos-soundbar-deals-are-slim-but-pound500-off-this-bowers-and-wilkins-makes-up-for-it",
+          "query": "Bowers & Wilkins Panorama 3 Black Friday price",
+          "outcome": "What Hi-Fi 記錄 Amazon 與 Peter Tyson 新品 £399，作跨站歷史價格交叉查核；金額高於 Best Buy US$199.99，未採為最低。"
+        }
+      ],
+      "rejectedCandidates": [
+        "排除 Richer Sounds £349 refurbished 整新品價格；會員個人化折扣、點數、二手、福利品、展示機、拆封品、配件與非 exact model 亦不採計。"
       ],
       "priceBasis": "retailer_current",
       "priceLabel": "通路現價"
@@ -12273,6 +12327,43 @@
       ],
       "priceBasis": "retailer_current",
       "priceLabel": "通路現價"
+    },
+    {
+      "id": "vacuum-roborock-f25-ace-pro-wd5m14a",
+      "category": "vacuum",
+      "brand": "Roborock",
+      "model": "WD5M14A",
+      "name": "F25 ACE Pro 石沫吸泡沫洗地機",
+      "currentPrice": 14888,
+      "currentCurrency": "TWD",
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價",
+      "currentBuyUrl": "https://taiwan.roborock.com/products/roborock-f25-ace-pro",
+      "currentBuyLabel": "Roborock 台灣官網",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "TWD",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-08-26",
+        "note": "已查 Roborock 台灣官網、燦坤、FindPrice 與飛比 exact-model WD5M14A；只能確認現價／比價快照，沒有具日期且可重現的可信新品歷史曲線。飛比的 Coupang NT$14,788 候選未在原頁同時核對 exact model 與最低點日期，現價也不直接推定為史低。"
+      },
+      "checkedSources": [
+        "https://taiwan.roborock.com/products/roborock-f25-ace-pro",
+        "https://www.tk3c.com/product/265652",
+        "https://www.findprice.com.tw/g/f25%20roborock",
+        "https://feebee.com.tw/all/roborock%20f25%20ace%20pro/"
+      ],
+      "rejectedCandidates": [
+        "Roborock 台灣官網 NT$14,888 與燦坤 NT$15,888 只證明本輪 exact-model 現價，沒有歷史最低點日期。",
+        "飛比顯示 Coupang NT$14,788 候選，但未從原始頁同時核對 WD5M14A、新品狀態與最低點日期，不採作史低。",
+        "FindPrice 與飛比舊快照多列 NT$32,900 或當期價格，不能形成可重現的 exact-model 歷史曲線。"
+      ]
     },
     {
       "id": "washer-lg-wt-vdn12hm",
@@ -40835,43 +40926,6 @@
       "rejectedCandidates": [
         "本輪通路現價只代表查核當下，沒有具日期價格歷史時不直接當作史低。",
         "排除會員個人券、信用卡回饋、點數、二手、福利品、展示機、拆封品、整新品、配件與近似型號。"
-      ]
-    },
-    {
-      "id": "vacuum-roborock-f25-ace-pro-wd5m14a",
-      "category": "vacuum",
-      "brand": "Roborock",
-      "model": "WD5M14A",
-      "name": "F25 ACE Pro 石沫吸泡沫洗地機",
-      "currentPrice": 14888,
-      "currentCurrency": "TWD",
-      "priceBasis": "retailer_current",
-      "priceLabel": "通路現價",
-      "currentBuyUrl": "https://taiwan.roborock.com/products/roborock-f25-ace-pro",
-      "currentBuyLabel": "Roborock 台灣官網",
-      "historicalLow": {
-        "status": "not_found",
-        "amount": null,
-        "currency": "TWD",
-        "converted": null,
-        "sourceUrl": "",
-        "sourceTitle": "",
-        "evidenceSnippet": "",
-        "sourceKind": "not_found",
-        "confidence": "not_found",
-        "checkedAt": "2026-08-26",
-        "note": "已查 Roborock 台灣官網、燦坤、FindPrice 與飛比 exact-model WD5M14A；只能確認現價／比價快照，沒有具日期且可重現的可信新品歷史曲線。飛比的 Coupang NT$14,788 候選未在原頁同時核對 exact model 與最低點日期，現價也不直接推定為史低。"
-      },
-      "checkedSources": [
-        "https://taiwan.roborock.com/products/roborock-f25-ace-pro",
-        "https://www.tk3c.com/product/265652",
-        "https://www.findprice.com.tw/g/f25%20roborock",
-        "https://feebee.com.tw/all/roborock%20f25%20ace%20pro/"
-      ],
-      "rejectedCandidates": [
-        "Roborock 台灣官網 NT$14,888 與燦坤 NT$15,888 只證明本輪 exact-model 現價，沒有歷史最低點日期。",
-        "飛比顯示 Coupang NT$14,788 候選，但未從原始頁同時核對 WD5M14A、新品狀態與最低點日期，不採作史低。",
-        "FindPrice 與飛比舊快照多列 NT$32,900 或當期價格，不能形成可重現的 exact-model 歷史曲線。"
       ]
     }
   ]

@@ -1,11 +1,11 @@
 {
   "summary": {
     "checkedAt": "2026-08-26T00:00:00+08:00",
-    "total": 901,
-    "commonIssueProducts": 40,
+    "total": 902,
+    "commonIssueProducts": 41,
     "noCommonIssueProducts": 861,
     "pendingManualReview": 0,
-    "commonIssues": 40,
+    "commonIssues": 41,
     "searchUnavailable": 0,
     "threshold": {
       "minimumDistinctUsers": 6,
@@ -11309,6 +11309,273 @@
           "independentAuthors": 2,
           "specificReason": "可辨識的 exact-model AMBEO Mini 作者只有 2 位，且 CEC 主從責任仍未釐清；其餘回覆多為 Plus／Max 等不同型號，不能合併計數。",
           "reason": "可辨識的 exact-model AMBEO Mini 作者只有 2 位，且 CEC 主從責任仍未釐清；其餘回覆多為 Plus／Max 等不同型號，不能合併計數。"
+        }
+      ]
+    },
+    {
+      "id": "soundbar-bowers-wilkins-panorama-3",
+      "category": "soundbar",
+      "brand": "Bowers & Wilkins",
+      "model": "Panorama 3",
+      "name": "Panorama 3 3.1.2 聲道 Dolby Atmos 聲霸",
+      "identity": {
+        "canonicalModel": "Panorama 3",
+        "lookupLabel": "Bowers & Wilkins Panorama 3",
+        "aliases": [
+          "Bowers & Wilkins Panorama 3",
+          "B&W Panorama 3"
+        ],
+        "evidenceUrl": "https://www.pincha.com.tw/products/bowers-wilkins-panorama-3-dolby-atmos-soundbar"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "status": "completed",
+        "decision": "common_issue",
+        "reviewedAt": "2026-08-26",
+        "checkedPlatforms": [
+          "Reddit",
+          "Best Buy",
+          "AVForums",
+          "YouTube"
+        ],
+        "queries": [
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"Bowers & Wilkins Panorama 3\" (bass OR \"low end\" OR subwoofer)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Bowers%20%26%20Wilkins%20Panorama%203%22%20(bass%20OR%20%22low%20end%22%20OR%20subwoofer)",
+            "targetHost": "reddit.com"
+          },
+          {
+            "platform": "YouTube",
+            "query": "\"Bowers & Wilkins Panorama 3\" problem issue defect failure broken",
+            "queryUrl": "https://www.youtube.com/results?search_query=%22Bowers%20%26%20Wilkins%20Panorama%203%22%20problem%20issue%20defect%20failure%20broken",
+            "targetHost": "youtube.com"
+          }
+        ],
+        "candidateDisposition": "Panorama 3：已逐頁人工核對 Reddit 與 Best Buy 原始頁，低頻量感與延伸不足共有 6 位 exact-model 第一人稱作者並跨 2 個網站；AVForums 的 Atmos／eARC 無聲頁只有 1 位作者且症狀不同，已逐頁排除，爆音與 Wi-Fi 等其他症狀亦未混入計數。",
+        "representativeSources": [
+          {
+            "platform": "Reddit",
+            "title": "Thoughts on Bowers & Wilkins Panorama 3",
+            "url": "https://www.reddit.com/r/Soundbars/comments/1fywwa7/thoughts_on_bowers_wilkins_panorama_3/"
+          },
+          {
+            "platform": "Reddit",
+            "title": "B&W Panorama 3 vs Bose 900?",
+            "url": "https://www.reddit.com/r/Soundbars/comments/tqy09k/bw_panorama_3_vs_bose_900/"
+          },
+          {
+            "platform": "Best Buy",
+            "title": "Bowers & Wilkins Panorama 3 customer reviews",
+            "url": "https://www.bestbuy.com/product/bowers-wilkins-panorama-3-atmos-soundbar-with-built-in-subwoofer-black/JXT7VJQYRV/sku/6498858/reviews"
+          }
+        ],
+        "candidateReviews": [
+          {
+            "url": "https://www.avforums.com/threads/panorama-3-atmos-issue-over-earc-soundbar-shows-atmos-but-no-sound.2533162/",
+            "title": "Panorama 3 Atmos issue over eARC - soundbar shows Atmos but no sound",
+            "outcome": "excluded",
+            "reviewedAt": "2026-08-26",
+            "exactModel": true,
+            "sourceExcerpt": "gc25610 回報 Panorama 3 經 Hisense TV 的 HDMI eARC 播放 Atmos 時，App 顯示已接收 Atmos 卻完全無聲；從 B&W Music App 重新啟動聲霸後暫時恢復。",
+            "independentAuthors": 1,
+            "specificReason": "原頁只有 gc25610 一位 exact-model 第一人稱作者，症狀是 Atmos／eARC 無聲，與本次成立的低頻量感與延伸不足不同；不可合併湊入 6 人／2 站門檻。",
+            "platform": "AVForums"
+          }
+        ],
+        "reviewerNote": "Panorama 3 已人工覆核 Reddit、Best Buy 與 AVForums 原始頁；低頻量感與延伸不足逐位核對 exact model 與第一人稱，AVForums 的單一 Atmos／eARC 無聲候選則因症狀不同而明確排除。",
+        "attestation": "manual_original_pages_reviewed"
+      },
+      "issueResearch": {
+        "status": "common_issue",
+        "checkedAt": "2026-08-26",
+        "summary": "多位 Panorama 3 使用者或實際試聽者反映低頻量感與延伸不足，部分認為內建低音單體仍需獨立重低音補強。",
+        "issues": [
+          {
+            "title": "低頻量感與延伸不足",
+            "detail": "回報包含低頻幾乎沒有、最高 bass 設定仍不足、內建低音單體不夠，以及希望能另加重低音。這是受空間、擺位與個人聽感影響的聲音限制，不代表每台產品故障。",
+            "reportCount": 6,
+            "sources": [
+              {
+                "platform": "Reddit",
+                "title": "Thoughts on Bowers & Wilkins Panorama 3",
+                "url": "https://www.reddit.com/r/Soundbars/comments/1fywwa7/thoughts_on_bowers_wilkins_panorama_3/"
+              },
+              {
+                "platform": "Reddit",
+                "title": "B&W Panorama 3 vs Bose 900?",
+                "url": "https://www.reddit.com/r/Soundbars/comments/tqy09k/bw_panorama_3_vs_bose_900/"
+              },
+              {
+                "platform": "Best Buy",
+                "title": "Bowers & Wilkins Panorama 3 customer reviews",
+                "url": "https://www.bestbuy.com/product/bowers-wilkins-panorama-3-atmos-soundbar-with-built-in-subwoofer-black/JXT7VJQYRV/sku/6498858/reviews"
+              }
+            ]
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "YouTube Search",
+          "query": "\"Bowers & Wilkins Panorama 3\" problem issue defect failure broken",
+          "searchUrl": "https://www.youtube.com/results?search_query=%22Bowers%20%26%20Wilkins%20Panorama%203%22%20problem%20issue%20defect%20failure%20broken",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-08-26T00:00:00+08:00"
+        },
+        {
+          "platform": "Bing Search → AVForums",
+          "query": "site:avforums.com \"Bowers & Wilkins Panorama 3\" (problem OR issue OR firmware OR sound)",
+          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Aavforums.com%20%22Bowers%20%26%20Wilkins%20Panorama%203%22%20(problem%20OR%20issue%20OR%20firmware%20OR%20sound)",
+          "result": "candidates_unverified_by_search_only",
+          "resultCount": 1,
+          "candidateUrls": [
+            "https://www.avforums.com/threads/panorama-3-atmos-issue-over-earc-soundbar-shows-atmos-but-no-sound.2533162/"
+          ],
+          "candidates": [
+            {
+              "url": "https://www.avforums.com/threads/panorama-3-atmos-issue-over-earc-soundbar-shows-atmos-but-no-sound.2533162/",
+              "title": "Panorama 3 Atmos issue over eARC - soundbar shows Atmos but no sound",
+              "exactModel": true
+            }
+          ],
+          "inspectedAt": "2026-08-26T00:00:00+08:00"
+        }
+      ],
+      "evidence": [
+        {
+          "issueTitle": "低頻量感與延伸不足",
+          "platform": "Reddit",
+          "title": "Thoughts on Bowers & Wilkins Panorama 3",
+          "url": "https://www.reddit.com/r/Soundbars/comments/1fywwa7/thoughts_on_bowers_wilkins_panorama_3/",
+          "evidenceSnippet": "三位 Panorama 3 持有者分別指出低頻缺乏、低頻延伸不及 Panorama 2，或迫切需要獨立重低音。",
+          "authors": [
+            "Tsuraraa",
+            "larrysaysrelax",
+            "dogdaysindurham"
+          ],
+          "distinctReportCount": 3,
+          "checkedAt": "2026-08-26",
+          "reports": [
+            {
+              "author": "Tsuraraa",
+              "permalink": "https://www.reddit.com/r/Soundbars/comments/1fywwa7/comment/lqyjxaq/",
+              "locator": "Tsuraraa + middle and high range / nothing in the low range",
+              "evidenceExcerpt": "Tsuraraa 表示自己的 Panorama 3 中高音表現尚可，但低頻幾乎沒有，若能搭配重低音會更好。",
+              "auditNote": "人工原頁覆核：Tsuraraa 表示自己的 Panorama 3 中高音表現尚可，但低頻幾乎沒有，若能搭配重低音會更好。",
+              "exactModel": true,
+              "firstPerson": true,
+              "crossPostKey": null,
+              "reviewBasis": "manual_original_page",
+              "reviewedAt": "2026-08-26"
+            },
+            {
+              "author": "larrysaysrelax",
+              "permalink": "https://www.reddit.com/r/Soundbars/comments/1fywwa7/comment/luywn3y/",
+              "locator": "larrysaysrelax + low end nowhere near Panorama 2 / really needs a sub",
+              "evidenceExcerpt": "larrysaysrelax 表示已購入 Panorama 3，低頻與延伸不及 Panorama 2，並認為確實需要獨立重低音。",
+              "auditNote": "人工原頁覆核：larrysaysrelax 表示已購入 Panorama 3，低頻與延伸不及 Panorama 2，並認為確實需要獨立重低音。",
+              "exactModel": true,
+              "firstPerson": true,
+              "crossPostKey": null,
+              "reviewBasis": "manual_original_page",
+              "reviewedAt": "2026-08-26"
+            },
+            {
+              "author": "dogdaysindurham",
+              "permalink": "https://www.reddit.com/r/Soundbars/comments/1fywwa7/comment/mehbf4i/",
+              "locator": "dogdaysindurham + desperately needs a sub",
+              "evidenceExcerpt": "dogdaysindurham 表示自己的 Panorama 3 即使正常運作時仍迫切需要獨立重低音補足低頻。",
+              "auditNote": "人工原頁覆核：dogdaysindurham 表示自己的 Panorama 3 即使正常運作時仍迫切需要獨立重低音補足低頻。",
+              "exactModel": true,
+              "firstPerson": true,
+              "crossPostKey": null,
+              "reviewBasis": "manual_original_page",
+              "reviewedAt": "2026-08-26"
+            }
+          ]
+        },
+        {
+          "issueTitle": "低頻量感與延伸不足",
+          "platform": "Reddit",
+          "title": "B&W Panorama 3 vs Bose 900?",
+          "url": "https://www.reddit.com/r/Soundbars/comments/tqy09k/bw_panorama_3_vs_bose_900/",
+          "evidenceSnippet": "一位實際試聽者把 bass 調到最高仍認為低頻幾乎沒有，並在隔日退貨。",
+          "authors": [
+            "Beginning_Ad6254"
+          ],
+          "distinctReportCount": 1,
+          "checkedAt": "2026-08-26",
+          "reports": [
+            {
+              "author": "Beginning_Ad6254",
+              "permalink": "https://www.reddit.com/r/Soundbars/comments/tqy09k/comment/i2pgev7/",
+              "locator": "Beginning_Ad6254 + bass all the way up / next to no bass",
+              "evidenceExcerpt": "Beginning_Ad6254 實際試聽 Panorama 3，將 bass 調至最高仍覺得幾乎沒有低頻，隔日便退貨。",
+              "auditNote": "人工原頁覆核：Beginning_Ad6254 實際試聽 Panorama 3，將 bass 調至最高仍覺得幾乎沒有低頻，隔日便退貨。",
+              "exactModel": true,
+              "firstPerson": true,
+              "crossPostKey": null,
+              "reviewBasis": "manual_original_page",
+              "reviewedAt": "2026-08-26"
+            }
+          ]
+        },
+        {
+          "issueTitle": "低頻量感與延伸不足",
+          "platform": "Best Buy",
+          "title": "Bowers & Wilkins Panorama 3 customer reviews",
+          "url": "https://www.bestbuy.com/product/bowers-wilkins-panorama-3-atmos-soundbar-with-built-in-subwoofer-black/JXT7VJQYRV/sku/6498858/reviews",
+          "evidenceSnippet": "兩位 Verified Purchaser 分別指出內建低音不足、希望可外接重低音，或只有少量低頻。",
+          "authors": [
+            "Bummed",
+            "Socaluser"
+          ],
+          "distinctReportCount": 2,
+          "checkedAt": "2026-08-26",
+          "reports": [
+            {
+              "author": "Bummed",
+              "permalink": "https://www.bestbuy.com/product/bowers-wilkins-panorama-3-atmos-soundbar-with-built-in-subwoofer-black/JXT7VJQYRV/sku/6498858/reviews",
+              "locator": "review 277297560 + Bummed",
+              "evidenceExcerpt": "Bummed 的 Verified Purchaser 評價表示 Panorama 3 內建低音單體不足，若能外接重低音才會保留。",
+              "auditNote": "人工原頁覆核：Bummed 的 Verified Purchaser 評價表示 Panorama 3 內建低音單體不足，若能外接重低音才會保留。",
+              "exactModel": true,
+              "firstPerson": true,
+              "crossPostKey": null,
+              "reviewBasis": "manual_original_page",
+              "reviewedAt": "2026-08-26"
+            },
+            {
+              "author": "Socaluser",
+              "permalink": "https://www.bestbuy.com/product/bowers-wilkins-panorama-3-atmos-soundbar-with-built-in-subwoofer-black/JXT7VJQYRV/sku/6498858/reviews",
+              "locator": "review 287371869 + Socaluser",
+              "evidenceExcerpt": "Socaluser 的 Verified Purchaser 評價表示使用兩週後仍只有少量低頻，甚至認為電視內建喇叭較好。",
+              "auditNote": "人工原頁覆核：Socaluser 的 Verified Purchaser 評價表示使用兩週後仍只有少量低頻，甚至認為電視內建喇叭較好。",
+              "exactModel": true,
+              "firstPerson": true,
+              "crossPostKey": null,
+              "reviewBasis": "manual_original_page",
+              "reviewedAt": "2026-08-26"
+            }
+          ]
+        }
+      ],
+      "rejectedCandidates": [
+        {
+          "url": "https://www.avforums.com/threads/panorama-3-atmos-issue-over-earc-soundbar-shows-atmos-but-no-sound.2533162/",
+          "title": "Panorama 3 Atmos issue over eARC - soundbar shows Atmos but no sound",
+          "outcome": "excluded",
+          "reviewedAt": "2026-08-26",
+          "exactModel": true,
+          "sourceExcerpt": "gc25610 回報 Panorama 3 經 Hisense TV 的 HDMI eARC 播放 Atmos 時，App 顯示已接收 Atmos 卻完全無聲；從 B&W Music App 重新啟動聲霸後暫時恢復。",
+          "independentAuthors": 1,
+          "specificReason": "原頁只有 gc25610 一位 exact-model 第一人稱作者，症狀是 Atmos／eARC 無聲，與本次成立的低頻量感與延伸不足不同；不可合併湊入 6 人／2 站門檻。",
+          "platform": "AVForums",
+          "reason": "原頁只有 gc25610 一位 exact-model 第一人稱作者，症狀是 Atmos／eARC 無聲，與本次成立的低頻量感與延伸不足不同；不可合併湊入 6 人／2 站門檻。"
         }
       ]
     },
@@ -46801,6 +47068,95 @@
           "candidateUrls": [],
           "candidates": [],
           "inspectedAt": "2026-08-20T00:00:00+08:00"
+        }
+      ],
+      "evidence": [],
+      "rejectedCandidates": []
+    },
+    {
+      "id": "vacuum-roborock-f25-ace-pro-wd5m14a",
+      "category": "vacuum",
+      "brand": "Roborock",
+      "model": "WD5M14A",
+      "name": "F25 ACE Pro 石沫吸泡沫洗地機",
+      "identity": {
+        "canonicalModel": "WD5M14A",
+        "lookupLabel": "Roborock WD5M14A",
+        "aliases": [
+          "Roborock WD5M14A",
+          "WD5M14A"
+        ],
+        "evidenceUrl": "https://www.tk3c.com/product/265652"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "status": "completed",
+        "decision": "no_common_issue",
+        "reviewedAt": "2026-08-26",
+        "checkedPlatforms": [
+          "Reddit",
+          "Mobile01"
+        ],
+        "queries": [
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"Roborock WD5M14A\" (problem OR issue OR defect OR failure)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Roborock%20WD5M14A%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+            "targetHost": "reddit.com"
+          },
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"Roborock WD5M14A\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Roborock%20WD5M14A%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "mobile01.com"
+          }
+        ],
+        "candidateDisposition": "WD5M14A：逐列覆核 Reddit 與 Mobile01 兩組 exact-model 搜尋，兩站均無可回到原頁的 WD5M14A 負面候選，未達同一問題 6 人／2 個原始網站。",
+        "representativeSources": [],
+        "candidateReviews": [],
+        "reviewerNote": "WD5M14A：已人工查看兩組 exact-model 搜尋結果；沒有原頁候選，no_common_issue 只代表查無達門檻的集中負評，不代表完全沒有個別負評。",
+        "attestation": "manual_cross_site_search_reviewed_no_candidate"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-08-26",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"Roborock WD5M14A\" (problem OR issue OR defect OR failure)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Roborock%20WD5M14A%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+            "targetHost": "reddit.com"
+          },
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"Roborock WD5M14A\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Roborock%20WD5M14A%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "mobile01.com"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "Bing Search → Reddit",
+          "query": "site:reddit.com \"Roborock WD5M14A\" (problem OR issue OR defect OR failure)",
+          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Roborock%20WD5M14A%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-08-26T00:00:00+08:00"
+        },
+        {
+          "platform": "Bing Search → Mobile01",
+          "query": "site:mobile01.com \"Roborock WD5M14A\" (災情 OR 問題 OR 故障 OR 負評)",
+          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Roborock%20WD5M14A%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-08-26T00:00:00+08:00"
         }
       ],
       "evidence": [],
@@ -156503,95 +156859,6 @@
           "candidateUrls": [],
           "candidates": [],
           "inspectedAt": "2026-08-20T00:00:00+08:00"
-        }
-      ],
-      "evidence": [],
-      "rejectedCandidates": []
-    },
-    {
-      "id": "vacuum-roborock-f25-ace-pro-wd5m14a",
-      "category": "vacuum",
-      "brand": "Roborock",
-      "model": "WD5M14A",
-      "name": "F25 ACE Pro 石沫吸泡沫洗地機",
-      "identity": {
-        "canonicalModel": "WD5M14A",
-        "lookupLabel": "Roborock WD5M14A",
-        "aliases": [
-          "Roborock WD5M14A",
-          "WD5M14A"
-        ],
-        "evidenceUrl": "https://www.tk3c.com/product/265652"
-      },
-      "workflowStatus": "completed",
-      "manualReview": {
-        "status": "completed",
-        "decision": "no_common_issue",
-        "reviewedAt": "2026-08-26",
-        "checkedPlatforms": [
-          "Reddit",
-          "Mobile01"
-        ],
-        "queries": [
-          {
-            "platform": "Reddit",
-            "query": "site:reddit.com \"Roborock WD5M14A\" (problem OR issue OR defect OR failure)",
-            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Roborock%20WD5M14A%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
-            "targetHost": "reddit.com"
-          },
-          {
-            "platform": "Mobile01",
-            "query": "site:mobile01.com \"Roborock WD5M14A\" (災情 OR 問題 OR 故障 OR 負評)",
-            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Roborock%20WD5M14A%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
-            "targetHost": "mobile01.com"
-          }
-        ],
-        "candidateDisposition": "WD5M14A：逐列覆核 Reddit 與 Mobile01 兩組 exact-model 搜尋，兩站均無可回到原頁的 WD5M14A 負面候選，未達同一問題 6 人／2 個原始網站。",
-        "representativeSources": [],
-        "candidateReviews": [],
-        "reviewerNote": "WD5M14A：已人工查看兩組 exact-model 搜尋結果；沒有原頁候選，no_common_issue 只代表查無達門檻的集中負評，不代表完全沒有個別負評。",
-        "attestation": "manual_cross_site_search_reviewed_no_candidate"
-      },
-      "issueResearch": {
-        "status": "no_common_issue",
-        "checkedAt": "2026-08-26",
-        "summary": "截至查核日，查無達門檻的集中負評／災情",
-        "issues": [],
-        "checkedSources": [
-          {
-            "platform": "Reddit",
-            "query": "site:reddit.com \"Roborock WD5M14A\" (problem OR issue OR defect OR failure)",
-            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Roborock%20WD5M14A%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
-            "targetHost": "reddit.com"
-          },
-          {
-            "platform": "Mobile01",
-            "query": "site:mobile01.com \"Roborock WD5M14A\" (災情 OR 問題 OR 故障 OR 負評)",
-            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Roborock%20WD5M14A%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
-            "targetHost": "mobile01.com"
-          }
-        ]
-      },
-      "searchChecks": [
-        {
-          "platform": "Bing Search → Reddit",
-          "query": "site:reddit.com \"Roborock WD5M14A\" (problem OR issue OR defect OR failure)",
-          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Roborock%20WD5M14A%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
-          "result": "no_exact_model_result",
-          "resultCount": 0,
-          "candidateUrls": [],
-          "candidates": [],
-          "inspectedAt": "2026-08-26T00:00:00+08:00"
-        },
-        {
-          "platform": "Bing Search → Mobile01",
-          "query": "site:mobile01.com \"Roborock WD5M14A\" (災情 OR 問題 OR 故障 OR 負評)",
-          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Roborock%20WD5M14A%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
-          "result": "no_exact_model_result",
-          "resultCount": 0,
-          "candidateUrls": [],
-          "candidates": [],
-          "inspectedAt": "2026-08-26T00:00:00+08:00"
         }
       ],
       "evidence": [],

@@ -1,7 +1,7 @@
 {
   "schemaVersion": 3,
   "dataDate": "2026-08-26",
-  "checkedAt": "2026-08-26T11:02:13.789Z",
+  "checkedAt": "2026-08-26T13:47:13.000Z",
   "baselineRef": "origin/main",
   "policy": {
     "exactModelOrReviewedSourceBindingOnly": true,
@@ -24,11 +24,12 @@
   },
   "summary": {
     "baselineProducts": 900,
-    "finalProducts": 901,
+    "finalProducts": 902,
     "categories": 30,
     "minimumProductsPerCategory": 20,
     "newProductsAdded": [
-      "vacuum-roborock-f25-ace-pro-wd5m14a"
+      "vacuum-roborock-f25-ace-pro-wd5m14a",
+      "soundbar-bowers-wilkins-panorama-3"
     ],
     "catalogEntriesReplaced": [],
     "priceChanges": 57,
@@ -38,7 +39,7 @@
     "imageChanges": 0,
     "historicalLowChanges": 3,
     "historicalLowPriceChanges": 0,
-    "historicalFound": 485,
+    "historicalFound": 486,
     "historicalMissing": 416,
     "pchomeAudited": 454,
     "pchomeExactModelVerified": 280,
@@ -48,14 +49,14 @@
     "pchomeInvalidPrices": 0,
     "pchomeRequestFailures": 0,
     "pchomeOtherExceptions": 17,
-    "sourcesAudited": 901,
-    "sourcesVerifiedAvailable": 644,
+    "sourcesAudited": 902,
+    "sourcesVerifiedAvailable": 645,
     "sourcesModelUnverified": 165,
     "sourceExceptions": 257,
-    "imagesAudited": 901,
+    "imagesAudited": 902,
     "imageExceptions": 2,
-    "historicalSourcesAudited": 485,
-    "historicalSourcesVerified": 63,
+    "historicalSourcesAudited": 486,
+    "historicalSourcesVerified": 64,
     "historicalSourcesBlocked": 62,
     "historicalSourcesModelUnverified": 360,
     "historicalSourceExceptions": 422,
@@ -2604,9 +2605,11 @@
       "category": "soundbar",
       "cutoff": "2026-08-26",
       "status": "manually_reviewed",
-      "decision": "no_change",
-      "note": "已逐類核對官方產品線；WiiM Bar 仍為預購，尚未符合正式現售契約，日系 9 品牌矩陣同步完成。",
-      "acceptedCandidates": [],
+      "decision": "added_verified_models",
+      "note": "新增 Bowers & Wilkins Panorama 3：品嘉音響與台北音響仍有 exact-model 台灣新品可購頁；全球官方頁已標示 Archived，因此只列品牌比較款並明示庫存與售後風險，不列 Top Pick。WiiM Bar 仍維持預購追蹤。",
+      "acceptedCandidates": [
+        "soundbar-bowers-wilkins-panorama-3"
+      ],
       "trackedOrRejectedCandidates": [
         {
           "id": "WiiM Bar BAR001",
@@ -2722,8 +2725,8 @@
           "reason": "2026-08-26 核對 TOTO 官方產品目錄；未見與Soundbar收錄邊界相符的台灣產品線，因此不以相近品、配件或海外型號補數。"
         }
       ],
-      "reviewedAt": "2026-08-25T23:10:45.585Z",
-      "finalProductCount": 29,
+      "reviewedAt": "2026-08-26T13:47:13.000Z",
+      "finalProductCount": 30,
       "minimumSatisfied": true
     },
     {
@@ -5021,6 +5024,7 @@
       "smartlock-yale-ymf30a",
       "smartlock-yale-ymf40a",
       "smartlock-zigbang-shp-p52",
+      "soundbar-bowers-wilkins-panorama-3",
       "soundbar-costco-denon-dht-s517",
       "soundbar-costco-philips-tab6309",
       "soundbar-costco-soodatek-ss0220",
@@ -5764,6 +5768,7 @@
       "smartlock-yale-ymf30a",
       "smartlock-yale-ymf40a",
       "smartlock-zigbang-shp-p52",
+      "soundbar-bowers-wilkins-panorama-3",
       "soundbar-costco-soodatek-ss0220",
       "soundbar-extra-10-dmaaod-a900k5489",
       "soundbar-extra-11-dmbm1d-a900ghtfe",
@@ -9275,6 +9280,7 @@
       "smartlock-yale-ymf30a",
       "smartlock-yale-ymf40a",
       "smartlock-zigbang-shp-p52",
+      "soundbar-bowers-wilkins-panorama-3",
       "soundbar-costco-denon-dht-s517",
       "soundbar-costco-philips-tab6309",
       "soundbar-costco-soodatek-ss0220",
@@ -10177,6 +10183,7 @@
       "smartlock-yale-ymf30a",
       "smartlock-yale-ymf40a",
       "smartlock-zigbang-shp-p52",
+      "soundbar-bowers-wilkins-panorama-3",
       "soundbar-costco-denon-dht-s517",
       "soundbar-costco-philips-tab6309",
       "soundbar-costco-soodatek-ss0220",
@@ -10847,6 +10854,7 @@
       "smartlock-yale-ymf30a",
       "smartlock-yale-ymf40a",
       "smartlock-zigbang-shp-p52",
+      "soundbar-bowers-wilkins-panorama-3",
       "soundbar-costco-denon-dht-s517",
       "soundbar-costco-soodatek-ss0220",
       "soundbar-extra-10-dmaaod-a900k5489",
@@ -11044,6 +11052,7 @@
       "refrigerator-samsung-rt22m4015s8tw",
       "refrigerator-samsung-rt47cg662as9",
       "robot-roborock-qrevo-edge-2-flow",
+      "soundbar-bowers-wilkins-panorama-3",
       "soundbar-jbl-bar-1300-mk2",
       "soundbar-sonos-arc-ultra",
       "tv-lg-c6-65",

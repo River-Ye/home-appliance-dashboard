@@ -156,6 +156,37 @@ const verifiedRows = [
     ],
   },
   {
+    id: "soundbar-bowers-wilkins-panorama-3",
+    checkedAt: "2026-08-26",
+    summary: "多位 Panorama 3 使用者或實際試聽者反映低頻量感與延伸不足，部分認為內建低音單體仍需獨立重低音補強。",
+    title: "低頻量感與延伸不足",
+    detail: "回報包含低頻幾乎沒有、最高 bass 設定仍不足、內建低音單體不夠，以及希望能另加重低音。這是受空間、擺位與個人聽感影響的聲音限制，不代表每台產品故障。",
+    reportCount: 6,
+    sources: [
+      {
+        platform: "Reddit",
+        title: "Thoughts on Bowers & Wilkins Panorama 3",
+        url: "https://www.reddit.com/r/Soundbars/comments/1fywwa7/thoughts_on_bowers_wilkins_panorama_3/",
+        authors: ["Tsuraraa", "larrysaysrelax", "dogdaysindurham"],
+        evidenceSnippet: "三位 Panorama 3 持有者分別指出低頻缺乏、低頻延伸不及 Panorama 2，或迫切需要獨立重低音。",
+      },
+      {
+        platform: "Reddit",
+        title: "B&W Panorama 3 vs Bose 900?",
+        url: "https://www.reddit.com/r/Soundbars/comments/tqy09k/bw_panorama_3_vs_bose_900/",
+        authors: ["Beginning_Ad6254"],
+        evidenceSnippet: "一位實際試聽者把 bass 調到最高仍認為低頻幾乎沒有，並在隔日退貨。",
+      },
+      {
+        platform: "Best Buy",
+        title: "Bowers & Wilkins Panorama 3 customer reviews",
+        url: "https://www.bestbuy.com/product/bowers-wilkins-panorama-3-atmos-soundbar-with-built-in-subwoofer-black/JXT7VJQYRV/sku/6498858/reviews",
+        authors: ["Bummed", "Socaluser"],
+        evidenceSnippet: "兩位 Verified Purchaser 分別指出內建低音不足、希望可外接重低音，或只有少量低頻。",
+      },
+    ],
+  },
+  {
     id: "soundbar-samsung-q990f",
     summary: "多位 HW-Q990F 使用者回報播放途中會隨機斷音，部分同時凍結、重置或必須重新啟動才能恢復。",
     title: "隨機斷音、凍結或自行重置",

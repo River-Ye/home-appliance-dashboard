@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-25",
+  "generatedAt": "2026-08-26",
   "sourcePolicy": "電視、Soundbar、洗衣機、烘衣機、洗烘衣機、電子衣櫥、冰箱、咖啡機、多功能氣炸烤箱／微波爐、洗碗機、免治馬桶、冷氣、熱水器與網路交換器共 14 類尺寸，以及電視、Soundbar、咖啡機、多功能氣炸烤箱／微波爐、冷氣與熱水器共 6 類重量研究，皆優先採 exact-model 官方產品頁、官方規格表或官方 PDF，其次為可信新品通路。只採本體／機身／明確組件的尺寸與淨重，排除包裝、外箱尺寸與毛重；來源沒有明示寬／深／高順序時不自行推定。冷氣分列室內機與室外機，熱泵複合熱水器必須分列主機與儲槽；既有各類研究列仍沿用相同 exact-model 邊界。",
   "results": [
     {
@@ -1089,6 +1089,23 @@
       "weightConfidence": "high",
       "weightIsOfficialSource": true,
       "weightCheckedAt": "2026-08-20"
+    },
+    {
+      "id": "soundbar-bowers-wilkins-panorama-3",
+      "dimension": "尺寸：主機 寬 121 x 深 14 x 高 6.5 cm",
+      "sourceUrl": "https://www.bowerswilkins.com/en/product/sound-bars/panorama-3/FP42277P.html",
+      "sourceTitle": "Bowers & Wilkins Panorama 3 official product specifications",
+      "evidenceSnippet": "B&W 官方 exact-model 規格列 Height 65 mm、Width 1210 mm、Depth 140 mm；依官方欄位轉為網站寬深高格式。",
+      "confidence": "high",
+      "isOfficialSource": true,
+      "checkedAt": "2026-08-26",
+      "weight": "重量：主機 6.5 kg",
+      "weightSourceUrl": "https://www.bowerswilkins.com/en/product/sound-bars/panorama-3/FP42277P.html",
+      "weightSourceTitle": "Bowers & Wilkins Panorama 3 official product specifications",
+      "weightEvidenceSnippet": "B&W 官方 exact-model 規格列 Net weight 6.5kg，只採主機淨重，不含包裝。",
+      "weightConfidence": "high",
+      "weightIsOfficialSource": true,
+      "weightCheckedAt": "2026-08-26"
     },
     {
       "id": "aircon-hitachi-ras-22ntb-rac-22np",
