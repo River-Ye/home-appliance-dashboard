@@ -1142,222 +1142,233 @@
     ]
   },
   {
-    "id": "network-switch-tplink-sg3210",
+    "id": "network-switch-qnap-qsw-l2110-2s8t",
     "category": "network-switch",
     "rank": 10,
     "budget": "mid",
     "channel": "tw",
-    "brand": "TP-Link",
-    "model": "SG3210",
-    "name": "TP-Link Omada SG3210 8 埠 Gigabit L2+ 管理型交換器",
-    "type": "1g",
+    "brand": "QNAP",
+    "model": "QSW-L2110-2S8T",
+    "name": "QNAP QSW-L2110-2S8T 8 埠 2.5GbE Lite 管理型交換器",
+    "type": "2_5g",
     "price": {
       "currency": "TWD",
-      "amount": 5899,
-      "converted": 5899,
-      "confidence": "PChome 24h 2026-08-25 exact-model 台灣原廠 5 年保固新品公開折扣價",
+      "amount": 6900,
+      "converted": 6900,
+      "confidence": "PChome 2026-08-27 exact-model 台灣新品公開折扣價；API Qty 20",
       "basis": "retailer_current"
     },
     "installation": {
       "status": "excluded",
       "note": "通路價格只含交換器本體，不含弱電箱施工、機架固定、網路配線、插座增設或通風改造。"
     },
-    "image": "https://static.tp-link.com/upload/image-line/SG3210_UN_3.2_01_large_20240204114650o.jpg",
-    "buyUrl": "https://24h.pchome.com.tw/prod/DRAN46-A900JUOV3",
+    "image": "https://www.qnap.com/i/_attach_file/product/photo/1000_625/838_1774843000_QSW-L2110-2S8T_Front.png",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DRAF9S-A900K8WTX",
     "buyLabel": "PChome 24h",
     "switchProfile": {
       "rj45PortCount": 8,
-      "speedTier": "1g",
+      "speedTier": "2_5g",
       "primaryPortSpeedsGbps": [
-        0.01,
         0.1,
-        1
+        1,
+        2.5
       ],
       "extraUplinks": [
         {
           "count": 2,
-          "media": "SFP",
+          "media": "SFP+",
+          "speedsGbps": [
+            1,
+            10
+          ]
+        }
+      ],
+      "management": "easy_managed",
+      "poe": false,
+      "enclosure": "metal",
+      "cooling": "fanless",
+      "maxPowerW": 12,
+      "operatingTemperatureC": {
+        "min": 0,
+        "max": 40
+      },
+      "dimensionsCm": {
+        "width": 24,
+        "depth": 10.5,
+        "height": 2.7
+      },
+      "mounting": [
+        "桌面"
+      ],
+      "specSourceUrl": "https://www.qnap.com/zh-tw/product/qsw-l2110-2s8t/specs/hardware"
+    },
+    "specs": [
+      "主連接埠：8 個 100M／1G／2.5G RJ45",
+      "速率等級：2.5G；八個主要 RJ45 皆支援此等級",
+      "額外 uplink：2 個獨立 1G／10G SFP+",
+      "管理方式：QSS Lite（VLAN／LACP／QoS／IGMP Snooping／埠映象）",
+      "PoE：不支援",
+      "外殼：金屬",
+      "散熱：無風扇",
+      "最大功耗：12 W",
+      "操作溫度：0–40°C",
+      "尺寸：寬 24 x 深 10.5 x 高 2.7 cm",
+      "安裝方式：桌面；需預留 SFP+ 模組、接頭與線材彎折空間",
+      "弱電箱提醒：無風扇不等於可在完全密閉箱體中長期運作；使用 10G SFP+ 時應改善箱體進排風。"
+    ],
+    "description": "台灣設計製造的 8 埠 2.5G 非 PoE Lite 管理型交換器；官方資料明示全金屬機殼、無風扇、最高 12 W、操作上限 40°C 與兩個 10G SFP+ uplink。設定前應先規劃 VLAN、迴路保護與管理密碼。",
+    "pros": [
+      "八個主要 RJ45 全部支援 2.5G，另有雙 10G SFP+ uplink",
+      "全金屬無風扇機身，官方最高功耗 12 W",
+      "台灣設計製造、BSMI 與原廠 2 年保固均有來源"
+    ],
+    "cons": [
+      "弱電箱若完全密閉，仍可能累積熱量並縮短壽命",
+      "Lite 管理不含完整 L2 交換器的 ACL、RSTP、SNMP 等進階功能",
+      "10G uplink 為 SFP+，若要接銅纜需另購相容模組並評估熱量"
+    ],
+    "bestFor": "需要八個 2.5G 端點埠、10G 光纖骨幹與基礎 VLAN／QoS 管理的家庭工作室或 SMB。",
+    "recommendation": "新款 2.5G／10G 均衡推薦：12 W 無風扇全金屬機身、雙 SFP+ 與 Lite 管理，價格低於多數完整 L2 同級機。",
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-08-27",
+      "note": "已查核 QSW-L2110-2S8T 的 PChome exact SKU、QNAP 台灣官方頁、LBJ、BigGo 與飛比；新款可見現售價格但找不到具日期、可重現且排除個人化優惠的 exact-model 歷史價格曲線，因此不以現價推定史低。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-08-27",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"QSW-L2110-2S8T\" (problem OR issue OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22QSW-L2110-2S8T%22%20%28problem%20OR%20issue%20OR%20failure%29",
+          "targetHost": "reddit.com"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"QSW-L2110-2S8T\" 問題",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22QSW-L2110-2S8T%22%20%E5%95%8F%E9%A1%8C",
+          "targetHost": "mobile01.com"
+        }
+      ]
+    },
+    "score": 88,
+    "voltage": "台灣通路版本；機身輸入為 DC 12V／1A，隨附通過 BSMI 驗證的變壓器；AC 輸入範圍與插頭以台灣出貨標示為準",
+    "warranty": "台灣通路現售；QNAP 官方規格明列原廠 2 年保固；延長保固、配件與送修範圍依品牌公告及購買憑證。",
+    "tags": [
+      "2.5G 8 埠",
+      "雙 10G SFP+",
+      "QSS Lite",
+      "非 PoE",
+      "全金屬",
+      "無風扇",
+      "2 年保固"
+    ]
+  },
+  {
+    "id": "network-switch-qnap-qsw-m2108r-2c",
+    "category": "network-switch",
+    "rank": 11,
+    "budget": "high",
+    "channel": "tw",
+    "brand": "QNAP",
+    "model": "QSW-M2108R-2C",
+    "name": "QNAP QSW-M2108R-2C 8 埠 2.5GbE L2 管理型交換器",
+    "type": "2_5g",
+    "price": {
+      "currency": "TWD",
+      "amount": 14800,
+      "converted": 14800,
+      "confidence": "QNAP 台灣官方商城 2026-08-27 exact-model 公開價；頁面顯示有庫存、可加入購物車，預計 2 至 4 週內出貨",
+      "basis": "retailer_current"
+    },
+    "installation": {
+      "status": "excluded",
+      "note": "通路價格只含交換器本體，不含弱電箱施工、機架固定、網路配線、插座增設或通風改造。"
+    },
+    "image": "https://www.qnap.com/i/_attach_file/product/photo/1000_625/526_1611813498_E794A2E59381E59C96_QSW-M2108R-2C_1SET_without20supportpsd_front.png",
+    "buyUrl": "https://store.qnap.com.tw/products/qsw-m2108r-2c",
+    "buyLabel": "QNAP 台灣官方商城",
+    "switchProfile": {
+      "rj45PortCount": 8,
+      "speedTier": "2_5g",
+      "primaryPortSpeedsGbps": [
+        0.1,
+        1,
+        2.5
+      ],
+      "extraUplinks": [
+        {
+          "count": 2,
+          "media": "SFP+/RJ45 combo",
           "speedsGbps": [
             0.1,
-            1
+            1,
+            2.5,
+            5,
+            10
           ]
         }
       ],
       "management": "managed",
       "poe": false,
       "enclosure": "metal",
-      "cooling": "fanless",
-      "maxPowerW": 6.84,
-      "operatingTemperatureC": {
-        "min": 0,
-        "max": 45
-      },
-      "dimensionsCm": {
-        "width": 29.4,
-        "depth": 18,
-        "height": 4.4
-      },
-      "mounting": [
-        "桌面",
-        "機架"
-      ],
-      "specSourceUrl": "https://www.tp-link.com/tw/business-networking/omada-switch-l3-l2-managed/sg3210/v3.20/"
-    },
-    "specs": [
-      "主連接埠：8 個 10M／100M／1G RJ45",
-      "速率等級：1G；八個主要 RJ45 皆支援此等級",
-      "額外 uplink：2 個獨立 100M／1G SFP",
-      "管理方式：Omada L2+（VLAN／LACP／STP／ACL／靜態路由）",
-      "PoE：不支援",
-      "外殼：金屬",
-      "散熱：無風扇",
-      "最大功耗：6.84 W（220V／50Hz）",
-      "操作溫度：0–45°C",
-      "尺寸：寬 29.4 x 深 18 x 高 4.4 cm",
-      "安裝方式：桌面／機架；需預留接頭、SFP 模組與線材彎折空間",
-      "弱電箱提醒：優先維持箱體對流並避開電源供應器疊放；無風扇不等於可在完全密閉箱體中長期運作。"
-    ],
-    "description": "台灣原廠 5 年保固新品 8 埠 1G 非 PoE 網路交換器；官方資料明示金屬外殼、無風扇、最大功耗 6.84 W、操作上限 45°C 與機身尺寸。具 Omada L2+ 管理與兩個獨立 SFP uplink，設定前應先規劃 VLAN、迴路保護與管理密碼。",
-    "pros": [
-      "八個主要 RJ45 全部支援 1G",
-      "金屬外殼、無風扇，官方最大功耗 6.84 W",
-      "45°C 操作上限、雙 SFP uplink 與台灣原廠 5 年保固均有來源"
-    ],
-    "cons": [
-      "弱電箱若完全密閉，仍可能累積熱量並縮短壽命",
-      "管理功能需要初始設定、韌體維護與管理密碼",
-      "機身接近 1U 寬度，小型弱電箱需先量測可用空間",
-      "官方社群有少數 V3.20 韌體更新後控制器離線回報，更新前應先確認版本公告"
-    ],
-    "bestFor": "需要 VLAN、LACP、靜態路由、Omada 集中管理與獨立光纖 uplink 的 1G 網路。",
-    "recommendation": "L2+ 管理推薦：八個 1G RJ45 加雙 SFP、無風扇金屬機身與 45°C 上限，功能完整但機身較寬。",
-    "releaseDate": "找不到",
-    "historicalLow": {
-      "status": "not_found",
-      "amount": null,
-      "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
-      "checkedAt": "2026-08-25",
-      "note": "已查核 SG3210 V3.20 的 PChome exact SKU、LBJ、BigGo、飛比與 TP-Link 台灣官方頁；可見現售價格但找不到具日期、可重現且排除個人化優惠的 exact-model 歷史價格曲線，因此不以現價推定史低。"
-    },
-    "issueResearch": {
-      "status": "no_common_issue",
-      "checkedAt": "2026-08-25",
-      "summary": "截至查核日，查無達門檻的集中負評／災情",
-      "issues": [],
-      "checkedSources": [
-        {
-          "platform": "Reddit",
-          "query": "site:reddit.com/r/TPLink_Omada \"SG3210\" (problem OR issue OR disconnect)",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%2Fr%2FTPLink_Omada%20%22SG3210%22%20%28problem%20OR%20issue%20OR%20disconnect%29",
-          "targetHost": "reddit.com"
-        },
-        {
-          "platform": "Mobile01",
-          "query": "site:mobile01.com \"SG3210\" 問題",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22SG3210%22%20%E5%95%8F%E9%A1%8C",
-          "targetHost": "mobile01.com"
-        }
-      ]
-    },
-    "score": 83,
-    "voltage": "台灣通路版本；原廠電源輸入支援 100–240 V AC、50/60Hz，實際插頭與電源線以台灣出貨為準",
-    "warranty": "台灣公司貨現售；TP-Link 台灣商用 Omada 交換器原廠 5 年保固；保固範圍與送修方式依品牌公告及購買憑證。",
-    "tags": [
-      "1G 8 埠",
-      "Omada L2+",
-      "非 PoE",
-      "金屬外殼",
-      "無風扇",
-      "5 年保固"
-    ]
-  },
-  {
-    "id": "network-switch-netgear-gs108e",
-    "category": "network-switch",
-    "rank": 11,
-    "budget": "mid",
-    "channel": "tw",
-    "brand": "NETGEAR",
-    "model": "GS108E",
-    "name": "NETGEAR GS108E v3 8 埠 Gigabit Plus 交換器",
-    "type": "1g",
-    "price": {
-      "currency": "TWD",
-      "amount": 2520,
-      "converted": 2520,
-      "confidence": "NETGEAR 台灣旗艦店 2026-08-24 exact-model 台灣原廠保固新品公開價",
-      "basis": "retailer_current"
-    },
-    "installation": {
-      "status": "excluded",
-      "note": "通路價格只含交換器本體，不含弱電箱施工、機架固定、網路配線、插座增設或通風改造。"
-    },
-    "image": "https://img.shoplineapp.com/media/image_clips/69a9035bfe072b23df5f02c5/original.jpg?1772684122=&owner_id=5d57a5c1ec3a6d0001849512",
-    "buyUrl": "https://www.netgearstore.com.tw/products/gs108ev3",
-    "buyLabel": "NETGEAR 台灣旗艦店",
-    "switchProfile": {
-      "rj45PortCount": 8,
-      "speedTier": "1g",
-      "primaryPortSpeedsGbps": [
-        0.01,
-        0.1,
-        1
-      ],
-      "extraUplinks": [],
-      "management": "easy_managed",
-      "poe": false,
-      "enclosure": "metal",
-      "cooling": "fanless",
-      "maxPowerW": 4.5,
+      "cooling": "active_fan",
+      "maxPowerW": 36,
       "operatingTemperatureC": {
         "min": 0,
         "max": 40
       },
       "dimensionsCm": {
-        "width": 15.8,
-        "depth": 10.1,
-        "height": 2.9
+        "width": 20.7,
+        "depth": 19.95,
+        "height": 4.33
       },
       "mounting": [
         "桌面",
-        "壁掛"
+        "機架"
       ],
-      "specSourceUrl": "https://www.netgear.com/images/pdf/NETGEAR_Catalog_V5-25.pdf"
+      "specSourceUrl": "https://www.qnap.com/zh-tw/product/qsw-m2108r-2c"
     },
     "specs": [
-      "主連接埠：8 個 10M／100M／1G RJ45",
-      "速率等級：1G；八個主要 RJ45 皆支援此等級",
-      "額外 uplink：無",
-      "管理方式：Plus／Easy Smart（VLAN／QoS／監控）",
+      "主連接埠：8 個 100M／1G／2.5G RJ45",
+      "速率等級：2.5G；八個主要 RJ45 皆支援此等級",
+      "額外 uplink：2 個 100M／1G／2.5G／5G／10G RJ45 或 1G／10G SFP+ 複合埠",
+      "管理方式：QSS L2 Web（VLAN／LACP／ACL／RSTP／QoS）",
       "PoE：不支援",
       "外殼：金屬",
-      "散熱：無風扇（0 dBA）",
-      "最大功耗：4.5 W（v3）",
+      "散熱：智慧型散熱系統，內建 1 個 PWM 雙滾珠軸承風扇",
+      "最大功耗：36 W",
       "操作溫度：0–40°C",
-      "尺寸：寬 15.8 x 深 10.1 x 高 2.9 cm",
-      "安裝方式：桌面／壁掛；需預留接頭與線材彎折空間",
-      "弱電箱提醒：優先維持箱體對流並避開電源供應器疊放；無風扇不等於可在完全密閉箱體中長期運作。"
+      "尺寸：寬 20.7 x 深 19.95 x 高 4.33 cm",
+      "安裝方式：桌面／半機架；雙機 1U 機架套件需另購，並預留風扇、模組與線材空間",
+      "弱電箱提醒：36 W 且有主動風扇，不建議放入無進排風的密閉弱電箱；使用前應改善箱體對流。"
     ],
-    "description": "台灣原廠保固新品 8 埠 1G 非 PoE 網路交換器；官方資料明示金屬外殼、無風扇（0 dBA）、最大功耗 4.5 W（v3）、操作上限 40°C 與機身尺寸。具網路管理功能，設定前應先規劃 VLAN、迴路保護與管理密碼。",
+    "description": "台灣製造的 8 埠 2.5G 非 PoE L2 Web 管理型交換器；官方產品頁與硬體規格明示金屬外殼、PWM 風扇、最高 36 W、操作上限 40°C 與兩個 10G SFP+/RJ45 複合埠。適合工作室或機櫃，不建議塞入無通風弱電箱。",
     "pros": [
-      "八個主要 RJ45 全部支援 1G",
-      "金屬外殼、無風扇（0 dBA），官方最大功耗 4.5 W（v3）",
-      "40°C 操作溫度上限與台灣原廠保固均有來源"
+      "八個主要 RJ45 全部支援 2.5G，另有雙 10G SFP+/RJ45 複合埠",
+      "QSS 提供 L2 Web 管理、ACL、RSTP、VLAN 與 LACP",
+      "台灣製造、BSMI 與原廠 2 年保固均有來源"
     ],
     "cons": [
-      "弱電箱若完全密閉，仍可能累積熱量並縮短壽命",
+      "36 W 且有主動風扇，不適合無進排風的密閉弱電箱",
       "管理功能需要初始設定、韌體維護與管理密碼",
-      "沒有獨立高速 uplink，所有流量共用八個 RJ45"
+      "雙機 1U 安裝需另購專用機架套件；複合埠同一埠只能擇一介面使用"
     ],
-    "bestFor": "以 1G 網路為主、重視低功耗與長期穩定的弱電箱。",
-    "recommendation": "長保固 1G 推薦：台灣代理五年保固、無風扇與簡易網管，適合重視長期售後的人。",
-    "releaseDate": "找不到",
+    "bestFor": "需要八個 2.5G 端點埠、雙 10G 光纖骨幹與完整 L2 Web 管理的工作室或 SMB 機櫃。",
+    "recommendation": "完整 L2 管理選擇：八個 2.5G 加雙 10G SFP+/RJ45 複合埠，功能比 Lite 管理完整，但必須為風扇與 36 W 熱量留通風。",
+    "releaseDate": "2021-02-23",
     "historicalLow": {
       "status": "not_found",
       "amount": null,
@@ -1368,39 +1379,40 @@
       "evidenceSnippet": "",
       "sourceKind": "not_found",
       "confidence": "not_found",
-      "checkedAt": "2026-08-24",
-      "note": "已查核 GS108Ev3 的 LBJ、BigGo 與飛比 exact-revision 搜尋；可信台灣歷史只寫 GS108E，無法證明 v3，其他結果為拍賣、進口、二手、故障或詢價，因此不以未標 revision 的價格推定史低。"
+      "checkedAt": "2026-08-27",
+      "note": "已查核 QSW-M2108R-2C 的 QNAP 台灣官方商城、PChome exact SKU、雅閣科技、BigGo 與飛比；可見現售價格但找不到具日期、可重現且排除個人化優惠的 exact-model 歷史價格曲線，因此不以現價推定史低。"
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-24",
+      "checkedAt": "2026-08-27",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Reddit",
-          "query": "site:reddit.com v3 \"GS108E\" issue",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20v3%20%22GS108E%22%20issue",
+          "query": "site:reddit.com \"QSW-M2108R-2C\" (problem OR issue OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22QSW-M2108R-2C%22%20%28problem%20OR%20issue%20OR%20failure%29",
           "targetHost": "reddit.com"
         },
         {
           "platform": "Mobile01",
-          "query": "site:mobile01.com v3 \"GS108E\" 問題",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20v3%20%22GS108E%22%20%E5%95%8F%E9%A1%8C",
+          "query": "site:mobile01.com \"QSW-M2108R-2C\" 問題",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22QSW-M2108R-2C%22%20%E5%95%8F%E9%A1%8C",
           "targetHost": "mobile01.com"
         }
       ]
     },
-    "score": 86,
-    "voltage": "台灣通路版本；原廠電源輸入支援 100–240 V AC、50/60Hz，實際插頭與電源線以台灣出貨為準",
-    "warranty": "台灣通路現售；原廠 5 年保固；保固範圍與送修方式依品牌台灣公告及購買憑證。",
+    "score": 84,
+    "voltage": "台灣官方商城版本；內建電源支援 100–240 V AC、50/60Hz，通過 BSMI；實際電源線以台灣出貨為準",
+    "warranty": "台灣官方商城現售；QNAP 官方規格明列原廠 2 年保固；配件與送修範圍依品牌公告及購買憑證。",
     "tags": [
-      "1G 8 埠",
-      "Plus／Easy Smart",
+      "2.5G 8 埠",
+      "雙 10G 複合埠",
+      "QSS L2",
       "非 PoE",
       "金屬外殼",
-      "無風扇（0 dBA）",
-      "5 年保固"
+      "PWM 風扇",
+      "2 年保固"
     ]
   },
   {

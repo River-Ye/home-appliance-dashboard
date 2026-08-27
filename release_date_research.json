@@ -1,12 +1,12 @@
 {
   "summary": {
-    "checkedAt": "2026-08-26T00:00:00+08:00",
-    "total": 902,
-    "found": 255,
+    "checkedAt": "2026-08-27T00:00:00+08:00",
+    "total": 901,
+    "found": 254,
     "missing": 647,
     "byConfidence": {
       "official": 124,
-      "credible_article": 95,
+      "credible_article": 94,
       "not_found": 647,
       "retailer_explicit": 12,
       "medium": 7,
@@ -911,20 +911,6 @@
       "confidence": "official",
       "query": "site:newsroom.sennheiser.com \"AMBEO Soundbar Mini\" September 1 2023",
       "sourceKind": "official_announcement"
-    },
-    {
-      "id": "soundbar-bowers-wilkins-panorama-3",
-      "category": "soundbar",
-      "brand": "Bowers & Wilkins",
-      "model": "Panorama 3",
-      "name": "Panorama 3 3.1.2 聲道 Dolby Atmos 聲霸",
-      "releaseDate": "2022-03-03",
-      "sourceUrl": "https://www.whathifi.com/news/bowers-and-wilkins-panorama-3-takes-on-the-sonos-arc-as-a-single-solution-dolby-atmos-soundbar",
-      "sourceTitle": "Bowers & Wilkins Panorama 3 takes on the Sonos Arc as a single-solution Dolby Atmos soundbar",
-      "evidenceSnippet": "What Hi-Fi 於 2022-03-03 的 exact-model 報導明示 Panorama 3 available from today, 3rd March。",
-      "confidence": "credible_article",
-      "query": "Bowers & Wilkins Panorama 3 available from today 3rd March 2022",
-      "sourceKind": "credible_article"
     },
     {
       "id": "fan-panasonic-fh16",
@@ -3634,21 +3620,6 @@
         "https://online.skm.com.tw/product/863012300004104123"
       ],
       "reason": "Samsung 台灣官方 exact-model 產品頁與 skm online 新品頁沒有明確上市／發售文字；官方支援頁的 2026-02-11 說明書日期是文件日期，不作為上市日。"
-    },
-    {
-      "id": "vacuum-roborock-f25-ace-pro-wd5m14a",
-      "category": "vacuum",
-      "brand": "Roborock",
-      "model": "WD5M14A",
-      "name": "F25 ACE Pro 石沫吸泡沫洗地機",
-      "releaseDate": "2026",
-      "sourceUrl": "https://taiwan.roborock.com/blogs/roborock-taiwan/ces2026",
-      "sourceTitle": "全球首款「輪足式」掃地機器人問世！Roborock 石頭科技 CES 2026 發表旗艦掃地機全新技術",
-      "evidenceSnippet": "Roborock 台灣官方品牌快訊寫明 F25 ACE Pro 於 CES 2026 同場亮相、台灣同步上市，並於本週起正式在台灣市場販售；未提供精確販售日。",
-      "confidence": "official",
-      "query": "site:taiwan.roborock.com F25 ACE Pro 台灣 正式 販售 2026",
-      "sourceKind": "official_press_release",
-      "reason": "只採官方內文明示的 2026 年上市資訊；不把文章發布日或 Shopify 建檔、上架、素材日期當作精確上市日。"
     },
     {
       "id": "washer-lg-wt-vdn12hm",
@@ -10631,34 +10602,33 @@
       "sourceKind": "official_press_release"
     },
     {
-      "id": "network-switch-tplink-sg3210",
+      "id": "network-switch-qnap-qsw-l2110-2s8t",
       "category": "network-switch",
-      "brand": "TP-Link",
-      "model": "SG3210",
-      "name": "TP-Link Omada SG3210 8 埠 Gigabit L2+ 管理型交換器",
+      "brand": "QNAP",
+      "model": "QSW-L2110-2S8T",
+      "name": "QNAP QSW-L2110-2S8T 8 埠 2.5GbE Lite 管理型交換器",
       "releaseDate": "找不到",
       "sourceUrl": "",
       "sourceTitle": "",
       "evidenceSnippet": "",
       "confidence": "not_found",
-      "query": "TP-Link SG3210 official launch release 上市 發售",
+      "query": "QNAP QSW-L2110-2S8T official launch release 上市 發售",
       "sourceKind": "not_found",
-      "note": "已查 TP-Link 台灣 exact-model 官方產品頁、支援頁與 PChome 現售頁，未見可採用的上市／發售日期；不以硬體版本、韌體日期或通路上架日推定。"
+      "note": "已查 QNAP 台灣 exact-model 官方產品頁、硬體規格、行銷素材、QSS 支援清單與 PChome 現售頁，未見可採用的上市／發售公告；不以行銷素材發布日、韌體支援日或通路上架日推定。"
     },
     {
-      "id": "network-switch-netgear-gs108e",
+      "id": "network-switch-qnap-qsw-m2108r-2c",
       "category": "network-switch",
-      "brand": "NETGEAR",
-      "model": "GS108E",
-      "name": "NETGEAR GS108E v3 8 埠 Gigabit Plus 交換器",
-      "releaseDate": "找不到",
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "confidence": "not_found",
-      "query": "NETGEAR GS108E official launch release 上市 發售",
-      "sourceKind": "not_found",
-      "reason": "官方舊款發表是 GS108E-100JPS；2018 的 GS108E-300JPS／v3 資料是韌體公告，不是 v3 發售日。"
+      "brand": "QNAP",
+      "model": "QSW-M2108R-2C",
+      "name": "QNAP QSW-M2108R-2C 8 埠 2.5GbE L2 管理型交換器",
+      "releaseDate": "2021-02-23",
+      "sourceUrl": "https://www.qnap.com/zh-tw/news/2021/%E5%A8%81%E8%81%AF%E9%80%9A%E6%8E%A8%E5%87%BA-qsw-m2108r-2c-l2-%E7%B6%B2%E7%AE%A1%E5%9E%8B-2-5gbe-%E8%88%87-10gbe-%E4%BA%A4%E6%8F%9B%E5%99%A8%E5%8D%8A%E6%A9%9F%E6%9E%B6%E5%AF%AC%E5%BA%A6%E8%A8%AD%E8%A8%88%E7%82%BA%E4%B8%AD%E5%B0%8F%E5%9E%8B%E4%BC%81%E6%A5%AD%E4%BD%88%E5%BB%BA%E6%A9%9F%E6%88%BF%E9%A6%96%E9%81%B8",
+      "sourceTitle": "威聯通推出 QSW-M2108R-2C L2 網管型 2.5GbE 與 10GbE 交換器",
+      "evidenceSnippet": "QNAP 台灣官方新聞稿標示 2021-02-23，並寫明當日宣布推出新款 QSW-M2108R-2C。",
+      "confidence": "high",
+      "query": "QNAP QSW-M2108R-2C official launch release 上市 發售",
+      "sourceKind": "official_press_release"
     },
     {
       "id": "network-switch-tplink-es208g",
@@ -12718,6 +12688,21 @@
       "confidence": "not_found",
       "query": "\"North Bayou G50\" (上市 OR 發售 OR 新品 OR launch OR release)",
       "reason": "已查品牌資料、台灣通路及使用手冊，未找到可信的首次上市日期；不以手冊上架或通路頁日期推定。"
+    },
+    {
+      "id": "vacuum-roborock-f25-ace-pro-wd5m14a",
+      "category": "vacuum",
+      "brand": "Roborock",
+      "model": "WD5M14A",
+      "name": "F25 ACE Pro 石沫吸泡沫洗地機",
+      "releaseDate": "2026",
+      "sourceUrl": "https://taiwan.roborock.com/blogs/roborock-taiwan/ces2026",
+      "sourceTitle": "全球首款「輪足式」掃地機器人問世！Roborock 石頭科技 CES 2026 發表旗艦掃地機全新技術",
+      "evidenceSnippet": "Roborock 台灣官方品牌快訊寫明 F25 ACE Pro 於 CES 2026 同場亮相、台灣同步上市，並於本週起正式在台灣市場販售；未提供精確販售日。",
+      "confidence": "official",
+      "query": "site:taiwan.roborock.com F25 ACE Pro 台灣 正式 販售 2026",
+      "sourceKind": "official_press_release",
+      "reason": "只採官方內文明示的 2026 年上市資訊；不把文章發布日或 Shopify 建檔、上架、素材日期當作精確上市日。"
     }
   ]
 }

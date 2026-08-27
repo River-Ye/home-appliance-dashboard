@@ -17,9 +17,9 @@
     "name": "16 公升高效型變頻除濕機",
     "price": {
       "currency": "TWD",
-      "amount": 14365,
-      "converted": 14365,
-      "confidence": "PChome 2026-08-26 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 14872,
+      "converted": 14872,
+      "confidence": "PChome 2026-08-27 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ3PA900J0L88/000001_1776323540.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBQ3P-A900J0L88",
@@ -305,9 +305,9 @@
     "name": "19.6 公升 PuriCare 雙變頻除濕機",
     "price": {
       "currency": "TWD",
-      "amount": 20700,
-      "converted": 20700,
-      "confidence": "Yahoo購物中心 2026-08-26 exact-model 公開結構化價格"
+      "amount": 19646,
+      "converted": 19646,
+      "confidence": "Yahoo購物中心 2026-08-27 exact-model 公開結構化價格"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ4OA900JX7GH/000001_1783563034.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/LG%E6%A8%82%E9%87%91-DD201MEE0-19-6%E5%85%AC%E5%8D%87-PuriCare-%E9%9B%99%E8%AE%8A%E9%A0%BB%E9%99%A4%E6%BF%95%E6%A9%9F-11884613.html",
@@ -785,9 +785,9 @@
     "name": "9 公升除濕機",
     "price": {
       "currency": "TWD",
-      "amount": 7981,
-      "converted": 7981,
-      "confidence": "PChome 2026-08-26 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 8263,
+      "converted": 8263,
+      "confidence": "PChome 2026-08-27 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ00A900JB38A/000001_1776329911.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBQ00-A900JB38A",
@@ -1649,9 +1649,9 @@
     "name": "6L 除濕機",
     "price": {
       "currency": "TWD",
-      "amount": 4921,
-      "converted": 4921,
-      "confidence": "PChome 2026-08-26 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 5095,
+      "converted": 5095,
+      "confidence": "PChome 2026-08-27 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ3PA900J9FH9/000001_1776325410.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBQ3P-A900J9FH9",

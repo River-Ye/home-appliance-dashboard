@@ -2066,8 +2066,8 @@
     "price": {
       "currency": "USD",
       "amount": 1299.99,
-      "converted": 41402,
-      "confidence": "Marshall US 2026-07-21 來源價；ExchangeRate-API 2026-08-26 匯率換算"
+      "converted": 41373,
+      "confidence": "Marshall US 2026-07-21 來源價；ExchangeRate-API 2026-08-27 匯率換算"
     },
     "image": "https://images.ctfassets.net/javen7msabdh/2C2sn9CKoKFdIyd94Gm9z5/f3019d4e721511167ebe5c229bf490dd/heston-120_plp.jpg",
     "buyUrl": "https://www.marshall.com/us/en/product/heston-120",
@@ -2166,8 +2166,8 @@
     "price": {
       "currency": "USD",
       "amount": 699.99,
-      "converted": 22293,
-      "confidence": "Marshall US 官方 2026-07-21 現貨價；ExchangeRate-API 2026-08-26 匯率換算"
+      "converted": 22278,
+      "confidence": "Marshall US 官方 2026-07-21 現貨價；ExchangeRate-API 2026-08-27 匯率換算"
     },
     "image": "https://images.ctfassets.net/javen7msabdh/3yitHqjPBTgQk5qRE72PSn/2788206646aa153f71f2c0ebefaff580/Heston-60-black_plp_800x800-v3.jpeg",
     "buyUrl": "https://www.marshall.com/us/en/product/heston-60?pid=1008949",
@@ -2604,14 +2604,14 @@
       "status": "found",
       "amount": 176091,
       "currency": "JPY",
-      "converted": 35216,
+      "converted": 35195,
       "sourceUrl": "https://kakaku.com/item/K0001712395/pricehistory/",
       "sourceTitle": "価格.com：JBL BAR 1300MK2 [ブラック] 価格推移",
       "evidenceSnippet": "価格.com 日別價格歷史顯示 exact-model「JBL BAR 1300MK2 [ブラック]」於 2026-06-17 的新品最低價為 ¥176,091；2025-10 初始價格為 ¥205,306。",
       "sourceKind": "price_history",
       "confidence": "medium",
       "checkedAt": "2026-08-25",
-      "note": "採日本市場 exact-model 公開價格歷史並依 2026-08-26 JPY/TWD 匯率換算；未含國際運費、進口稅、插頭／電壓確認與台灣保固風險。官方規格雖為 100-240V，海外購入仍非台灣公司貨。"
+      "note": "採日本市場 exact-model 公開價格歷史並依 2026-08-27 JPY/TWD 匯率換算；未含國際運費、進口稅、插頭／電壓確認與台灣保固風險。官方規格雖為 100-240V，海外購入仍非台灣公司貨。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -2867,107 +2867,6 @@
       "HDMI eARC",
       "AirPlay 2",
       "Chromecast"
-    ]
-  },
-  {
-    "id": "soundbar-bowers-wilkins-panorama-3",
-    "category": "soundbar",
-    "rank": 30,
-    "topPick": false,
-    "budget": "premium",
-    "channel": "tw",
-    "brand": "Bowers & Wilkins",
-    "model": "Panorama 3",
-    "name": "Panorama 3 3.1.2 聲道 Dolby Atmos 聲霸",
-    "price": {
-      "currency": "TWD",
-      "amount": 35900,
-      "converted": 35900,
-      "confidence": "品嘉音響於 2026-08-26 的 exact-model 可購公開售價 NT$35,900；台北音響同價交叉確認",
-      "basis": "retailer_current"
-    },
-    "installation": {
-      "status": "not_stated",
-      "note": "通路價格為主機商品價，未標示含到府或壁掛安裝；原廠隨附壁掛架，牆面鑽孔、走線與施工費需另行確認。"
-    },
-    "image": "https://www.bowerswilkins.com/dw/image/v2/BGJH_PRD/on/demandware.static/-/Sites-master-catalog-soundunited/default/dwb13c986f/bowers/PDP/Panorama/Panorama_Black/Panorama-Black_Image_1.png?sw=1280",
-    "buyUrl": "https://www.pincha.com.tw/products/bowers-wilkins-panorama-3-dolby-atmos-soundbar",
-    "buyLabel": "品嘉音響 exact-model 新品",
-    "specs": [
-      "3.1.2 聲道、13 組單體、總輸出 400W；Dolby Atmos、Dolby TrueHD",
-      "HDMI eARC、光纖、RJ45 Ethernet；Wi-Fi、AirPlay 2、Spotify Connect、B&W Music App",
-      "Bluetooth 5，支援 aptX Adaptive、AAC、SBC",
-      "尺寸：主機 寬 121 x 深 14 x 高 6.5 cm",
-      "重量：主機 6.5 kg",
-      "100–240V AC／50–60Hz；原廠隨附壁掛架",
-      "單件式設計，不支援外接重低音或後環繞擴充"
-    ],
-    "description": "B&W 的單件式 3.1.2 聲道 Atmos 聲霸，主打 13 組單體、400W 輸出與 AirPlay 2；台灣仍有 exact-model 新品通路，但全球官方頁已標示 Archived。",
-    "pros": [
-      "單機整合 3.1.2 聲道與 Dolby Atmos，不需另擺重低音或後環繞",
-      "HDMI eARC、光纖、AirPlay 2、Spotify Connect 與 aptX Adaptive 齊全",
-      "100–240V／50–60Hz 可直接配合台灣供電"
-    ],
-    "cons": [
-      "全球官方產品頁已標示 Archived，台灣可購頁可能屬剩餘庫存，購買前應確認現貨與售後",
-      "6 位跨 Reddit 與 Best Buy 的使用者或實際試聽者反映低頻量感與延伸不足；此為受空間、擺位與聽感影響的聲音限制，不代表每台故障",
-      "不能另接重低音或實體後環繞，後續擴充彈性低"
-    ],
-    "bestFor": "重視 B&W 音色、希望以單件式聲霸完成 Atmos 與音樂串流，且願意先實際試聽低頻表現的中型客廳。",
-    "recommendation": "B&W 品牌比較款：台灣仍有可購新品頁，但因官方已封存且無法外接重低音，不列 Top Pick；建議只在可確認公司貨、退換期與現貨時納入選擇。",
-    "releaseDate": "2022-03-03",
-    "historicalLow": {
-      "status": "found",
-      "amount": 199.99,
-      "currency": "USD",
-      "converted": 6369,
-      "sourceUrl": "https://www.bestbuy.com/product/bowers-wilkins-panorama-3-atmos-soundbar-with-built-in-subwoofer-black/JXT7VJQYRV/sku/6498858/reviews",
-      "sourceTitle": "Bowers & Wilkins Panorama 3 Atmos Soundbar with Built-In Subwoofer - Black",
-      "evidenceSnippet": "Best Buy exact-model SKU 6498858 顯示 Clearance US$199.99、比較價 US$999.99，查核時已 unavailable。",
-      "sourceKind": "retailer_promo",
-      "confidence": "medium",
-      "checkedAt": "2026-08-26",
-      "note": "Best Buy 清倉價僅作可驗證史低參考，未含國際運費、進口稅、插頭／供電與台灣保固風險；查核時已無法購買。"
-    },
-    "issueResearch": {
-      "status": "common_issue",
-      "checkedAt": "2026-08-26",
-      "summary": "多位 Panorama 3 使用者或實際試聽者反映低頻量感與延伸不足，部分認為內建低音單體仍需獨立重低音補強。",
-      "issues": [
-        {
-          "title": "低頻量感與延伸不足",
-          "detail": "回報包含低頻幾乎沒有、最高 bass 設定仍不足、內建低音單體不夠，以及希望能另加重低音。這是受空間、擺位與個人聽感影響的聲音限制，不代表每台產品故障。",
-          "reportCount": 6,
-          "sources": [
-            {
-              "platform": "Reddit",
-              "title": "Thoughts on Bowers & Wilkins Panorama 3",
-              "url": "https://www.reddit.com/r/Soundbars/comments/1fywwa7/thoughts_on_bowers_wilkins_panorama_3/"
-            },
-            {
-              "platform": "Reddit",
-              "title": "B&W Panorama 3 vs Bose 900?",
-              "url": "https://www.reddit.com/r/Soundbars/comments/tqy09k/bw_panorama_3_vs_bose_900/"
-            },
-            {
-              "platform": "Best Buy",
-              "title": "Bowers & Wilkins Panorama 3 customer reviews",
-              "url": "https://www.bestbuy.com/product/bowers-wilkins-panorama-3-atmos-soundbar-with-built-in-subwoofer-black/JXT7VJQYRV/sku/6498858/reviews"
-            }
-          ]
-        }
-      ]
-    },
-    "score": 88,
-    "voltage": "100–240V AC／50–60Hz；適用台灣 110V／60Hz",
-    "warranty": "台灣公司貨通路頁標示 2 年保固；品嘉購買前仍應確認授權代理、購買證明與保固起算",
-    "tags": [
-      "B&W",
-      "3.1.2聲道",
-      "Dolby Atmos",
-      "HDMI eARC",
-      "AirPlay 2",
-      "單件式"
     ]
   }
 ]);

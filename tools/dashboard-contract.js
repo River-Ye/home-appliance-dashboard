@@ -1,9 +1,9 @@
 const EXPECTED_CATEGORY_COUNT = 30;
-const EXPECTED_PRODUCT_COUNT = 902;
+const EXPECTED_PRODUCT_COUNT = 901;
 const MIN_PRODUCTS_PER_CATEGORY = 20;
 const EXPECTED_CATEGORY_PRODUCT_COUNTS = new Map([
   ["tv", 35],
-  ["soundbar", 30],
+  ["soundbar", 29],
   ["fan", 24],
   ["circulator", 23],
   ["dehumidifier", 26],
@@ -37,7 +37,7 @@ const DATE_PATTERN = /^(找不到|\d{4}(?:[-/.]\d{1,2}(?:[-/.]\d{1,2})?)?)$/;
 const WASHER_DRYER_CAPACITY_PATTERN = /^洗\/乾容量：\d+(?:\.\d+)?kg \/ \d+(?:\.\d+)?kg$/;
 const DIMENSION_CATEGORY_COUNTS = new Map([
   ["tv", 35],
-  ["soundbar", 30],
+  ["soundbar", 29],
   ["washer", 26],
   ["dryer", 24],
   ["washerdryer", 30],
@@ -63,7 +63,7 @@ const DIMENSION_PATTERN = new RegExp(`^尺寸：${FORBIDDEN_MEASUREMENT_LABEL_PA
 const DIMENSION_CONFIDENCE_VALUES = new Set(["high", "medium", "low", "not_found"]);
 const WEIGHT_CATEGORY_COUNTS = new Map([
   ["tv", 35],
-  ["soundbar", 30],
+  ["soundbar", 29],
   ["coffee", 24],
   ["oven", 25],
   ["aircon", 30],
@@ -211,7 +211,6 @@ const REQUIRED_CATEGORY_TERMS = new Map([
   ["garmentcare", ["LG", "Samsung", "Panasonic"]],
 ]);
 const CATEGORY_TEXT_MATCH_COUNTS = [
-  { category: "soundbar", term: "Bowers & Wilkins", min: 1 },
   { category: "soundbar", term: "Marshall", exact: 2 },
   { category: "fan", term: "Philips", min: 5 },
   { category: "purifier", term: "POIEMA", min: 2 },

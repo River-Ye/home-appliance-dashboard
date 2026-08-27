@@ -3,23 +3,23 @@
   const dashboard = root.applianceDashboard || {};
 
   const meta = {
-    dataDate: "2026-08-26",
-    costcoDate: "2026-08-26",
+    dataDate: "2026-08-27",
+    costcoDate: "2026-08-27",
     expectedCategoryCount: 30,
-    expectedProductCount: 902,
-    cacheVersion: "20260826-134713-bowers-wilkins",
-    exchangeSummary: "USD 1 = TWD 31.848",
+    expectedProductCount: 901,
+    cacheVersion: "20260827-001811-catalog",
+    exchangeSummary: "USD 1 = TWD 31.826",
   };
 
   const exchange = {
     source: "ExchangeRate-API",
-    date: "2026-08-26 00:02 UTC",
-    USD_TWD: 31.847672,
-    GBP_TWD: 43.44477744689733,
-    EUR_TWD: 37.16580076274232,
-    JPY_TWD: 0.19998969522513718,
-    CNY_TWD: 4.727269596669859,
-    KRW_TWD: 0.023026005889349187,
+    date: "2026-08-27 00:02 UTC",
+    USD_TWD: 31.825974,
+    GBP_TWD: 43.29398881532499,
+    EUR_TWD: 37.10138247236279,
+    JPY_TWD: 0.19986802268976794,
+    CNY_TWD: 4.723485176799129,
+    KRW_TWD: 0.022985548538470325,
   };
 
   const categories = [

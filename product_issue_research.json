@@ -1,11 +1,11 @@
 {
   "summary": {
-    "checkedAt": "2026-08-26T00:00:00+08:00",
-    "total": 902,
-    "commonIssueProducts": 41,
+    "checkedAt": "2026-08-27T00:00:00+08:00",
+    "total": 901,
+    "commonIssueProducts": 40,
     "noCommonIssueProducts": 861,
     "pendingManualReview": 0,
-    "commonIssues": 41,
+    "commonIssues": 40,
     "searchUnavailable": 0,
     "threshold": {
       "minimumDistinctUsers": 6,
@@ -11309,273 +11309,6 @@
           "independentAuthors": 2,
           "specificReason": "可辨識的 exact-model AMBEO Mini 作者只有 2 位，且 CEC 主從責任仍未釐清；其餘回覆多為 Plus／Max 等不同型號，不能合併計數。",
           "reason": "可辨識的 exact-model AMBEO Mini 作者只有 2 位，且 CEC 主從責任仍未釐清；其餘回覆多為 Plus／Max 等不同型號，不能合併計數。"
-        }
-      ]
-    },
-    {
-      "id": "soundbar-bowers-wilkins-panorama-3",
-      "category": "soundbar",
-      "brand": "Bowers & Wilkins",
-      "model": "Panorama 3",
-      "name": "Panorama 3 3.1.2 聲道 Dolby Atmos 聲霸",
-      "identity": {
-        "canonicalModel": "Panorama 3",
-        "lookupLabel": "Bowers & Wilkins Panorama 3",
-        "aliases": [
-          "Bowers & Wilkins Panorama 3",
-          "B&W Panorama 3"
-        ],
-        "evidenceUrl": "https://www.pincha.com.tw/products/bowers-wilkins-panorama-3-dolby-atmos-soundbar"
-      },
-      "workflowStatus": "completed",
-      "manualReview": {
-        "status": "completed",
-        "decision": "common_issue",
-        "reviewedAt": "2026-08-26",
-        "checkedPlatforms": [
-          "Reddit",
-          "Best Buy",
-          "AVForums",
-          "YouTube"
-        ],
-        "queries": [
-          {
-            "platform": "Reddit",
-            "query": "site:reddit.com \"Bowers & Wilkins Panorama 3\" (bass OR \"low end\" OR subwoofer)",
-            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Bowers%20%26%20Wilkins%20Panorama%203%22%20(bass%20OR%20%22low%20end%22%20OR%20subwoofer)",
-            "targetHost": "reddit.com"
-          },
-          {
-            "platform": "YouTube",
-            "query": "\"Bowers & Wilkins Panorama 3\" problem issue defect failure broken",
-            "queryUrl": "https://www.youtube.com/results?search_query=%22Bowers%20%26%20Wilkins%20Panorama%203%22%20problem%20issue%20defect%20failure%20broken",
-            "targetHost": "youtube.com"
-          }
-        ],
-        "candidateDisposition": "Panorama 3：已逐頁人工核對 Reddit 與 Best Buy 原始頁，低頻量感與延伸不足共有 6 位 exact-model 第一人稱作者並跨 2 個網站；AVForums 的 Atmos／eARC 無聲頁只有 1 位作者且症狀不同，已逐頁排除，爆音與 Wi-Fi 等其他症狀亦未混入計數。",
-        "representativeSources": [
-          {
-            "platform": "Reddit",
-            "title": "Thoughts on Bowers & Wilkins Panorama 3",
-            "url": "https://www.reddit.com/r/Soundbars/comments/1fywwa7/thoughts_on_bowers_wilkins_panorama_3/"
-          },
-          {
-            "platform": "Reddit",
-            "title": "B&W Panorama 3 vs Bose 900?",
-            "url": "https://www.reddit.com/r/Soundbars/comments/tqy09k/bw_panorama_3_vs_bose_900/"
-          },
-          {
-            "platform": "Best Buy",
-            "title": "Bowers & Wilkins Panorama 3 customer reviews",
-            "url": "https://www.bestbuy.com/product/bowers-wilkins-panorama-3-atmos-soundbar-with-built-in-subwoofer-black/JXT7VJQYRV/sku/6498858/reviews"
-          }
-        ],
-        "candidateReviews": [
-          {
-            "url": "https://www.avforums.com/threads/panorama-3-atmos-issue-over-earc-soundbar-shows-atmos-but-no-sound.2533162/",
-            "title": "Panorama 3 Atmos issue over eARC - soundbar shows Atmos but no sound",
-            "outcome": "excluded",
-            "reviewedAt": "2026-08-26",
-            "exactModel": true,
-            "sourceExcerpt": "gc25610 回報 Panorama 3 經 Hisense TV 的 HDMI eARC 播放 Atmos 時，App 顯示已接收 Atmos 卻完全無聲；從 B&W Music App 重新啟動聲霸後暫時恢復。",
-            "independentAuthors": 1,
-            "specificReason": "原頁只有 gc25610 一位 exact-model 第一人稱作者，症狀是 Atmos／eARC 無聲，與本次成立的低頻量感與延伸不足不同；不可合併湊入 6 人／2 站門檻。",
-            "platform": "AVForums"
-          }
-        ],
-        "reviewerNote": "Panorama 3 已人工覆核 Reddit、Best Buy 與 AVForums 原始頁；低頻量感與延伸不足逐位核對 exact model 與第一人稱，AVForums 的單一 Atmos／eARC 無聲候選則因症狀不同而明確排除。",
-        "attestation": "manual_original_pages_reviewed"
-      },
-      "issueResearch": {
-        "status": "common_issue",
-        "checkedAt": "2026-08-26",
-        "summary": "多位 Panorama 3 使用者或實際試聽者反映低頻量感與延伸不足，部分認為內建低音單體仍需獨立重低音補強。",
-        "issues": [
-          {
-            "title": "低頻量感與延伸不足",
-            "detail": "回報包含低頻幾乎沒有、最高 bass 設定仍不足、內建低音單體不夠，以及希望能另加重低音。這是受空間、擺位與個人聽感影響的聲音限制，不代表每台產品故障。",
-            "reportCount": 6,
-            "sources": [
-              {
-                "platform": "Reddit",
-                "title": "Thoughts on Bowers & Wilkins Panorama 3",
-                "url": "https://www.reddit.com/r/Soundbars/comments/1fywwa7/thoughts_on_bowers_wilkins_panorama_3/"
-              },
-              {
-                "platform": "Reddit",
-                "title": "B&W Panorama 3 vs Bose 900?",
-                "url": "https://www.reddit.com/r/Soundbars/comments/tqy09k/bw_panorama_3_vs_bose_900/"
-              },
-              {
-                "platform": "Best Buy",
-                "title": "Bowers & Wilkins Panorama 3 customer reviews",
-                "url": "https://www.bestbuy.com/product/bowers-wilkins-panorama-3-atmos-soundbar-with-built-in-subwoofer-black/JXT7VJQYRV/sku/6498858/reviews"
-              }
-            ]
-          }
-        ]
-      },
-      "searchChecks": [
-        {
-          "platform": "YouTube Search",
-          "query": "\"Bowers & Wilkins Panorama 3\" problem issue defect failure broken",
-          "searchUrl": "https://www.youtube.com/results?search_query=%22Bowers%20%26%20Wilkins%20Panorama%203%22%20problem%20issue%20defect%20failure%20broken",
-          "result": "no_exact_model_result",
-          "resultCount": 0,
-          "candidateUrls": [],
-          "candidates": [],
-          "inspectedAt": "2026-08-26T00:00:00+08:00"
-        },
-        {
-          "platform": "Bing Search → AVForums",
-          "query": "site:avforums.com \"Bowers & Wilkins Panorama 3\" (problem OR issue OR firmware OR sound)",
-          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Aavforums.com%20%22Bowers%20%26%20Wilkins%20Panorama%203%22%20(problem%20OR%20issue%20OR%20firmware%20OR%20sound)",
-          "result": "candidates_unverified_by_search_only",
-          "resultCount": 1,
-          "candidateUrls": [
-            "https://www.avforums.com/threads/panorama-3-atmos-issue-over-earc-soundbar-shows-atmos-but-no-sound.2533162/"
-          ],
-          "candidates": [
-            {
-              "url": "https://www.avforums.com/threads/panorama-3-atmos-issue-over-earc-soundbar-shows-atmos-but-no-sound.2533162/",
-              "title": "Panorama 3 Atmos issue over eARC - soundbar shows Atmos but no sound",
-              "exactModel": true
-            }
-          ],
-          "inspectedAt": "2026-08-26T00:00:00+08:00"
-        }
-      ],
-      "evidence": [
-        {
-          "issueTitle": "低頻量感與延伸不足",
-          "platform": "Reddit",
-          "title": "Thoughts on Bowers & Wilkins Panorama 3",
-          "url": "https://www.reddit.com/r/Soundbars/comments/1fywwa7/thoughts_on_bowers_wilkins_panorama_3/",
-          "evidenceSnippet": "三位 Panorama 3 持有者分別指出低頻缺乏、低頻延伸不及 Panorama 2，或迫切需要獨立重低音。",
-          "authors": [
-            "Tsuraraa",
-            "larrysaysrelax",
-            "dogdaysindurham"
-          ],
-          "distinctReportCount": 3,
-          "checkedAt": "2026-08-26",
-          "reports": [
-            {
-              "author": "Tsuraraa",
-              "permalink": "https://www.reddit.com/r/Soundbars/comments/1fywwa7/comment/lqyjxaq/",
-              "locator": "Tsuraraa + middle and high range / nothing in the low range",
-              "evidenceExcerpt": "Tsuraraa 表示自己的 Panorama 3 中高音表現尚可，但低頻幾乎沒有，若能搭配重低音會更好。",
-              "auditNote": "人工原頁覆核：Tsuraraa 表示自己的 Panorama 3 中高音表現尚可，但低頻幾乎沒有，若能搭配重低音會更好。",
-              "exactModel": true,
-              "firstPerson": true,
-              "crossPostKey": null,
-              "reviewBasis": "manual_original_page",
-              "reviewedAt": "2026-08-26"
-            },
-            {
-              "author": "larrysaysrelax",
-              "permalink": "https://www.reddit.com/r/Soundbars/comments/1fywwa7/comment/luywn3y/",
-              "locator": "larrysaysrelax + low end nowhere near Panorama 2 / really needs a sub",
-              "evidenceExcerpt": "larrysaysrelax 表示已購入 Panorama 3，低頻與延伸不及 Panorama 2，並認為確實需要獨立重低音。",
-              "auditNote": "人工原頁覆核：larrysaysrelax 表示已購入 Panorama 3，低頻與延伸不及 Panorama 2，並認為確實需要獨立重低音。",
-              "exactModel": true,
-              "firstPerson": true,
-              "crossPostKey": null,
-              "reviewBasis": "manual_original_page",
-              "reviewedAt": "2026-08-26"
-            },
-            {
-              "author": "dogdaysindurham",
-              "permalink": "https://www.reddit.com/r/Soundbars/comments/1fywwa7/comment/mehbf4i/",
-              "locator": "dogdaysindurham + desperately needs a sub",
-              "evidenceExcerpt": "dogdaysindurham 表示自己的 Panorama 3 即使正常運作時仍迫切需要獨立重低音補足低頻。",
-              "auditNote": "人工原頁覆核：dogdaysindurham 表示自己的 Panorama 3 即使正常運作時仍迫切需要獨立重低音補足低頻。",
-              "exactModel": true,
-              "firstPerson": true,
-              "crossPostKey": null,
-              "reviewBasis": "manual_original_page",
-              "reviewedAt": "2026-08-26"
-            }
-          ]
-        },
-        {
-          "issueTitle": "低頻量感與延伸不足",
-          "platform": "Reddit",
-          "title": "B&W Panorama 3 vs Bose 900?",
-          "url": "https://www.reddit.com/r/Soundbars/comments/tqy09k/bw_panorama_3_vs_bose_900/",
-          "evidenceSnippet": "一位實際試聽者把 bass 調到最高仍認為低頻幾乎沒有，並在隔日退貨。",
-          "authors": [
-            "Beginning_Ad6254"
-          ],
-          "distinctReportCount": 1,
-          "checkedAt": "2026-08-26",
-          "reports": [
-            {
-              "author": "Beginning_Ad6254",
-              "permalink": "https://www.reddit.com/r/Soundbars/comments/tqy09k/comment/i2pgev7/",
-              "locator": "Beginning_Ad6254 + bass all the way up / next to no bass",
-              "evidenceExcerpt": "Beginning_Ad6254 實際試聽 Panorama 3，將 bass 調至最高仍覺得幾乎沒有低頻，隔日便退貨。",
-              "auditNote": "人工原頁覆核：Beginning_Ad6254 實際試聽 Panorama 3，將 bass 調至最高仍覺得幾乎沒有低頻，隔日便退貨。",
-              "exactModel": true,
-              "firstPerson": true,
-              "crossPostKey": null,
-              "reviewBasis": "manual_original_page",
-              "reviewedAt": "2026-08-26"
-            }
-          ]
-        },
-        {
-          "issueTitle": "低頻量感與延伸不足",
-          "platform": "Best Buy",
-          "title": "Bowers & Wilkins Panorama 3 customer reviews",
-          "url": "https://www.bestbuy.com/product/bowers-wilkins-panorama-3-atmos-soundbar-with-built-in-subwoofer-black/JXT7VJQYRV/sku/6498858/reviews",
-          "evidenceSnippet": "兩位 Verified Purchaser 分別指出內建低音不足、希望可外接重低音，或只有少量低頻。",
-          "authors": [
-            "Bummed",
-            "Socaluser"
-          ],
-          "distinctReportCount": 2,
-          "checkedAt": "2026-08-26",
-          "reports": [
-            {
-              "author": "Bummed",
-              "permalink": "https://www.bestbuy.com/product/bowers-wilkins-panorama-3-atmos-soundbar-with-built-in-subwoofer-black/JXT7VJQYRV/sku/6498858/reviews",
-              "locator": "review 277297560 + Bummed",
-              "evidenceExcerpt": "Bummed 的 Verified Purchaser 評價表示 Panorama 3 內建低音單體不足，若能外接重低音才會保留。",
-              "auditNote": "人工原頁覆核：Bummed 的 Verified Purchaser 評價表示 Panorama 3 內建低音單體不足，若能外接重低音才會保留。",
-              "exactModel": true,
-              "firstPerson": true,
-              "crossPostKey": null,
-              "reviewBasis": "manual_original_page",
-              "reviewedAt": "2026-08-26"
-            },
-            {
-              "author": "Socaluser",
-              "permalink": "https://www.bestbuy.com/product/bowers-wilkins-panorama-3-atmos-soundbar-with-built-in-subwoofer-black/JXT7VJQYRV/sku/6498858/reviews",
-              "locator": "review 287371869 + Socaluser",
-              "evidenceExcerpt": "Socaluser 的 Verified Purchaser 評價表示使用兩週後仍只有少量低頻，甚至認為電視內建喇叭較好。",
-              "auditNote": "人工原頁覆核：Socaluser 的 Verified Purchaser 評價表示使用兩週後仍只有少量低頻，甚至認為電視內建喇叭較好。",
-              "exactModel": true,
-              "firstPerson": true,
-              "crossPostKey": null,
-              "reviewBasis": "manual_original_page",
-              "reviewedAt": "2026-08-26"
-            }
-          ]
-        }
-      ],
-      "rejectedCandidates": [
-        {
-          "url": "https://www.avforums.com/threads/panorama-3-atmos-issue-over-earc-soundbar-shows-atmos-but-no-sound.2533162/",
-          "title": "Panorama 3 Atmos issue over eARC - soundbar shows Atmos but no sound",
-          "outcome": "excluded",
-          "reviewedAt": "2026-08-26",
-          "exactModel": true,
-          "sourceExcerpt": "gc25610 回報 Panorama 3 經 Hisense TV 的 HDMI eARC 播放 Atmos 時，App 顯示已接收 Atmos 卻完全無聲；從 B&W Music App 重新啟動聲霸後暫時恢復。",
-          "independentAuthors": 1,
-          "specificReason": "原頁只有 gc25610 一位 exact-model 第一人稱作者，症狀是 Atmos／eARC 無聲，與本次成立的低頻量感與延伸不足不同；不可合併湊入 6 人／2 站門檻。",
-          "platform": "AVForums",
-          "reason": "原頁只有 gc25610 一位 exact-model 第一人稱作者，症狀是 Atmos／eARC 無聲，與本次成立的低頻量感與延伸不足不同；不可合併湊入 6 人／2 站門檻。"
         }
       ]
     },
@@ -47068,95 +46801,6 @@
           "candidateUrls": [],
           "candidates": [],
           "inspectedAt": "2026-08-20T00:00:00+08:00"
-        }
-      ],
-      "evidence": [],
-      "rejectedCandidates": []
-    },
-    {
-      "id": "vacuum-roborock-f25-ace-pro-wd5m14a",
-      "category": "vacuum",
-      "brand": "Roborock",
-      "model": "WD5M14A",
-      "name": "F25 ACE Pro 石沫吸泡沫洗地機",
-      "identity": {
-        "canonicalModel": "WD5M14A",
-        "lookupLabel": "Roborock WD5M14A",
-        "aliases": [
-          "Roborock WD5M14A",
-          "WD5M14A"
-        ],
-        "evidenceUrl": "https://www.tk3c.com/product/265652"
-      },
-      "workflowStatus": "completed",
-      "manualReview": {
-        "status": "completed",
-        "decision": "no_common_issue",
-        "reviewedAt": "2026-08-26",
-        "checkedPlatforms": [
-          "Reddit",
-          "Mobile01"
-        ],
-        "queries": [
-          {
-            "platform": "Reddit",
-            "query": "site:reddit.com \"Roborock WD5M14A\" (problem OR issue OR defect OR failure)",
-            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Roborock%20WD5M14A%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
-            "targetHost": "reddit.com"
-          },
-          {
-            "platform": "Mobile01",
-            "query": "site:mobile01.com \"Roborock WD5M14A\" (災情 OR 問題 OR 故障 OR 負評)",
-            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Roborock%20WD5M14A%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
-            "targetHost": "mobile01.com"
-          }
-        ],
-        "candidateDisposition": "WD5M14A：逐列覆核 Reddit 與 Mobile01 兩組 exact-model 搜尋，兩站均無可回到原頁的 WD5M14A 負面候選，未達同一問題 6 人／2 個原始網站。",
-        "representativeSources": [],
-        "candidateReviews": [],
-        "reviewerNote": "WD5M14A：已人工查看兩組 exact-model 搜尋結果；沒有原頁候選，no_common_issue 只代表查無達門檻的集中負評，不代表完全沒有個別負評。",
-        "attestation": "manual_cross_site_search_reviewed_no_candidate"
-      },
-      "issueResearch": {
-        "status": "no_common_issue",
-        "checkedAt": "2026-08-26",
-        "summary": "截至查核日，查無達門檻的集中負評／災情",
-        "issues": [],
-        "checkedSources": [
-          {
-            "platform": "Reddit",
-            "query": "site:reddit.com \"Roborock WD5M14A\" (problem OR issue OR defect OR failure)",
-            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Roborock%20WD5M14A%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
-            "targetHost": "reddit.com"
-          },
-          {
-            "platform": "Mobile01",
-            "query": "site:mobile01.com \"Roborock WD5M14A\" (災情 OR 問題 OR 故障 OR 負評)",
-            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Roborock%20WD5M14A%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
-            "targetHost": "mobile01.com"
-          }
-        ]
-      },
-      "searchChecks": [
-        {
-          "platform": "Bing Search → Reddit",
-          "query": "site:reddit.com \"Roborock WD5M14A\" (problem OR issue OR defect OR failure)",
-          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Roborock%20WD5M14A%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
-          "result": "no_exact_model_result",
-          "resultCount": 0,
-          "candidateUrls": [],
-          "candidates": [],
-          "inspectedAt": "2026-08-26T00:00:00+08:00"
-        },
-        {
-          "platform": "Bing Search → Mobile01",
-          "query": "site:mobile01.com \"Roborock WD5M14A\" (災情 OR 問題 OR 故障 OR 負評)",
-          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Roborock%20WD5M14A%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
-          "result": "no_exact_model_result",
-          "resultCount": 0,
-          "candidateUrls": [],
-          "candidates": [],
-          "inspectedAt": "2026-08-26T00:00:00+08:00"
         }
       ],
       "evidence": [],
@@ -132078,276 +131722,23 @@
       ]
     },
     {
-      "id": "network-switch-tplink-sg3210",
+      "id": "network-switch-qnap-qsw-l2110-2s8t",
       "category": "network-switch",
-      "brand": "TP-Link",
-      "model": "SG3210",
-      "name": "TP-Link Omada SG3210 8 埠 Gigabit L2+ 管理型交換器",
+      "brand": "QNAP",
+      "model": "QSW-L2110-2S8T",
+      "name": "QNAP QSW-L2110-2S8T 8 埠 2.5GbE Lite 管理型交換器",
       "identity": {
-        "canonicalModel": "SG3210",
+        "canonicalModel": "QSW-L2110-2S8T",
         "aliases": [
-          "SG3210"
+          "QSW-L2110-2S8T"
         ],
-        "evidenceUrl": "https://www.tp-link.com/tw/business-networking/omada-switch-l3-l2-managed/sg3210/v3.20/"
+        "evidenceUrl": "https://www.qnap.com/zh-tw/product/qsw-l2110-2s8t"
       },
       "workflowStatus": "completed",
       "manualReview": {
         "status": "completed",
         "decision": "no_common_issue",
-        "reviewedAt": "2026-08-25",
-        "checkedPlatforms": [
-          "Reddit",
-          "Mobile01",
-          "TP-Link Community"
-        ],
-        "queries": [
-          {
-            "platform": "Reddit",
-            "query": "site:reddit.com/r/TPLink_Omada \"SG3210\" (problem OR issue OR disconnect)",
-            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%2Fr%2FTPLink_Omada%20%22SG3210%22%20%28problem%20OR%20issue%20OR%20disconnect%29",
-            "targetHost": "reddit.com"
-          },
-          {
-            "platform": "Mobile01",
-            "query": "site:mobile01.com \"SG3210\" 問題",
-            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22SG3210%22%20%E5%95%8F%E9%A1%8C",
-            "targetHost": "mobile01.com"
-          }
-        ],
-        "candidateDisposition": "SG3210：人工回看 TP-Link Community、Reddit 與 Mobile01 的 5 個 exact-model 原頁候選；韌體後離線約 2 人、其他設定或規格討論各自不足，Mobile01 為正向使用回饋，沒有同一問題達 6 位獨立使用者且跨 2 個原始網站（不代表完全沒有負評）。",
-        "representativeSources": [
-          {
-            "platform": "TP-Link Community",
-            "url": "https://community.tp-link.com/en/business/forum/topic/865390?moduleId=3",
-            "title": "SG3210 V3.20 韌體更新後 Omada 控制器離線候選"
-          },
-          {
-            "platform": "TP-Link Community",
-            "url": "https://community.tp-link.com/en/business/forum/topic/711452",
-            "title": "SG3210 下游 AP 離線與網路拓樸候選"
-          },
-          {
-            "platform": "Reddit",
-            "url": "https://www.reddit.com/r/TPLink_Omada/comments/1kln2nk/",
-            "title": "SG3210 網路中的 VLAN 連線排查候選"
-          },
-          {
-            "platform": "Reddit",
-            "url": "https://www.reddit.com/r/TPLink_Omada/comments/1jgufu3/",
-            "title": "SG3210 採購與內建電源討論"
-          },
-          {
-            "platform": "Mobile01",
-            "url": "https://www.mobile01.com/topicdetail.php?f=110&t=4545257",
-            "title": "TL-SG3210 LACP 與 VLAN 長期使用回饋"
-          }
-        ],
-        "reviewerNote": "SG3210：人工回看 TP-Link Community、Reddit 與 Mobile01 的 5 個 exact-model 原頁候選；韌體後離線約 2 人、其他設定或規格討論各自不足，Mobile01 為正向使用回饋，沒有同一問題達 6 位獨立使用者且跨 2 個原始網站（不代表完全沒有負評）。",
-        "attestation": "manual_original_pages_reviewed",
-        "candidateReviews": [
-          {
-            "platform": "TP-Link Community",
-            "url": "https://community.tp-link.com/en/business/forum/topic/865390?moduleId=3",
-            "title": "SG3210 V3.20 韌體更新後 Omada 控制器離線候選",
-            "sourceExcerpt": "原頁 MantonL 與 Sco_T 兩位作者提到 SG3210 V3.20 更新或重啟後，SFP／Omada 控制器連線異常。",
-            "independentAuthors": 2,
-            "specificReason": "只有 TP-Link Community 單一原始網站的 2 位作者，且情境集中在特定韌體與重啟流程，未跨第二站也未達 6 人。",
-            "outcome": "excluded",
-            "reviewedAt": "2026-08-25",
-            "exactModel": true
-          },
-          {
-            "platform": "TP-Link Community",
-            "url": "https://community.tp-link.com/en/business/forum/topic/711452",
-            "title": "SG3210 下游 AP 離線與網路拓樸候選",
-            "sourceExcerpt": "原頁一位作者回報 SG3210 下游 AP 離線；官方支援回覆要求排查迴路、拓樸與另一台 SG608E，未確認交換器硬體故障。",
-            "independentAuthors": 1,
-            "specificReason": "只有 1 位作者，且原頁尚未排除網路迴路、拓樸與另一台交換器的影響，不能確認為 SG3210 的共同缺陷。",
-            "outcome": "excluded",
-            "reviewedAt": "2026-08-25",
-            "exactModel": true
-          },
-          {
-            "platform": "Reddit",
-            "url": "https://www.reddit.com/r/TPLink_Omada/comments/1kln2nk/",
-            "title": "SG3210 網路中的 VLAN 連線排查候選",
-            "sourceExcerpt": "原頁一位作者在含 SG3210 的 Omada 網路排查 VLAN 問題，討論同時指向 ES205G 與設定，未鎖定 SG3210 故障。",
-            "independentAuthors": 1,
-            "specificReason": "只有 1 位作者，且問題歸因在 VLAN 設定與另一台 ES205G 間尚未釐清，沒有第二站同症，未達門檻。",
-            "outcome": "excluded",
-            "reviewedAt": "2026-08-25",
-            "exactModel": true
-          },
-          {
-            "platform": "Reddit",
-            "url": "https://www.reddit.com/r/TPLink_Omada/comments/1jgufu3/",
-            "title": "SG3210 採購與內建電源討論",
-            "sourceExcerpt": "原頁討論 SG3210 的內建電源、SFP 與價格取捨，沒有可辨識使用者回報同型號故障或負評症狀。",
-            "independentAuthors": 0,
-            "specificReason": "這是採購與規格取捨討論，沒有第一人稱故障回報，也沒有可計入集中災情門檻的獨立作者。",
-            "outcome": "excluded",
-            "reviewedAt": "2026-08-25",
-            "exactModel": true
-          },
-          {
-            "platform": "Mobile01",
-            "url": "https://www.mobile01.com/topicdetail.php?f=110&t=4545257",
-            "title": "TL-SG3210 LACP 與 VLAN 長期使用回饋",
-            "sourceExcerpt": "原頁一位使用者表示 TL-SG3210 的 LACP 與 VLAN 使用沒有問題，屬正向經驗而非負評候選。",
-            "independentAuthors": 1,
-            "specificReason": "原頁是單一作者的正向使用經驗，未形成故障症狀；也不能與其他網站的設定排查或韌體個案合併計數。",
-            "outcome": "excluded",
-            "reviewedAt": "2026-08-25",
-            "exactModel": true
-          }
-        ]
-      },
-      "issueResearch": {
-        "status": "no_common_issue",
-        "checkedAt": "2026-08-25",
-        "summary": "截至查核日，查無達門檻的集中負評／災情",
-        "issues": [],
-        "checkedSources": [
-          {
-            "platform": "Reddit",
-            "query": "site:reddit.com/r/TPLink_Omada \"SG3210\" (problem OR issue OR disconnect)",
-            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%2Fr%2FTPLink_Omada%20%22SG3210%22%20%28problem%20OR%20issue%20OR%20disconnect%29",
-            "targetHost": "reddit.com"
-          },
-          {
-            "platform": "Mobile01",
-            "query": "site:mobile01.com \"SG3210\" 問題",
-            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22SG3210%22%20%E5%95%8F%E9%A1%8C",
-            "targetHost": "mobile01.com"
-          }
-        ]
-      },
-      "searchChecks": [
-        {
-          "platform": "Reddit",
-          "query": "site:reddit.com/r/TPLink_Omada \"SG3210\" (problem OR issue OR disconnect)",
-          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%2Fr%2FTPLink_Omada%20%22SG3210%22%20%28problem%20OR%20issue%20OR%20disconnect%29",
-          "result": "candidates_unverified_by_search_only",
-          "resultCount": 2,
-          "candidateUrls": [
-            "https://www.reddit.com/r/TPLink_Omada/comments/1kln2nk/",
-            "https://www.reddit.com/r/TPLink_Omada/comments/1jgufu3/"
-          ],
-          "candidates": [
-            {
-              "url": "https://www.reddit.com/r/TPLink_Omada/comments/1kln2nk/",
-              "title": "SG3210 網路中的 VLAN 連線排查候選",
-              "platform": "Reddit"
-            },
-            {
-              "url": "https://www.reddit.com/r/TPLink_Omada/comments/1jgufu3/",
-              "title": "SG3210 採購與內建電源討論",
-              "platform": "Reddit"
-            }
-          ],
-          "inspectedAt": "2026-08-25T00:00:00+08:00"
-        },
-        {
-          "platform": "Mobile01",
-          "query": "site:mobile01.com \"SG3210\" 問題",
-          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22SG3210%22%20%E5%95%8F%E9%A1%8C",
-          "result": "candidates_unverified_by_search_only",
-          "resultCount": 1,
-          "candidateUrls": [
-            "https://www.mobile01.com/topicdetail.php?f=110&t=4545257"
-          ],
-          "candidates": [
-            {
-              "url": "https://www.mobile01.com/topicdetail.php?f=110&t=4545257",
-              "title": "TL-SG3210 LACP 與 VLAN 長期使用回饋",
-              "platform": "Mobile01"
-            }
-          ],
-          "inspectedAt": "2026-08-25T00:00:00+08:00"
-        }
-      ],
-      "evidence": [],
-      "rejectedCandidates": [
-        {
-          "platform": "TP-Link Community",
-          "url": "https://community.tp-link.com/en/business/forum/topic/865390?moduleId=3",
-          "title": "SG3210 V3.20 韌體更新後 Omada 控制器離線候選",
-          "sourceExcerpt": "原頁 MantonL 與 Sco_T 兩位作者提到 SG3210 V3.20 更新或重啟後，SFP／Omada 控制器連線異常。",
-          "independentAuthors": 2,
-          "specificReason": "只有 TP-Link Community 單一原始網站的 2 位作者，且情境集中在特定韌體與重啟流程，未跨第二站也未達 6 人。",
-          "outcome": "excluded",
-          "reviewedAt": "2026-08-25",
-          "exactModel": true,
-          "reason": "只有 TP-Link Community 單一原始網站的 2 位作者，且情境集中在特定韌體與重啟流程，未跨第二站也未達 6 人。"
-        },
-        {
-          "platform": "TP-Link Community",
-          "url": "https://community.tp-link.com/en/business/forum/topic/711452",
-          "title": "SG3210 下游 AP 離線與網路拓樸候選",
-          "sourceExcerpt": "原頁一位作者回報 SG3210 下游 AP 離線；官方支援回覆要求排查迴路、拓樸與另一台 SG608E，未確認交換器硬體故障。",
-          "independentAuthors": 1,
-          "specificReason": "只有 1 位作者，且原頁尚未排除網路迴路、拓樸與另一台交換器的影響，不能確認為 SG3210 的共同缺陷。",
-          "outcome": "excluded",
-          "reviewedAt": "2026-08-25",
-          "exactModel": true,
-          "reason": "只有 1 位作者，且原頁尚未排除網路迴路、拓樸與另一台交換器的影響，不能確認為 SG3210 的共同缺陷。"
-        },
-        {
-          "platform": "Reddit",
-          "url": "https://www.reddit.com/r/TPLink_Omada/comments/1kln2nk/",
-          "title": "SG3210 網路中的 VLAN 連線排查候選",
-          "sourceExcerpt": "原頁一位作者在含 SG3210 的 Omada 網路排查 VLAN 問題，討論同時指向 ES205G 與設定，未鎖定 SG3210 故障。",
-          "independentAuthors": 1,
-          "specificReason": "只有 1 位作者，且問題歸因在 VLAN 設定與另一台 ES205G 間尚未釐清，沒有第二站同症，未達門檻。",
-          "outcome": "excluded",
-          "reviewedAt": "2026-08-25",
-          "exactModel": true,
-          "reason": "只有 1 位作者，且問題歸因在 VLAN 設定與另一台 ES205G 間尚未釐清，沒有第二站同症，未達門檻。"
-        },
-        {
-          "platform": "Reddit",
-          "url": "https://www.reddit.com/r/TPLink_Omada/comments/1jgufu3/",
-          "title": "SG3210 採購與內建電源討論",
-          "sourceExcerpt": "原頁討論 SG3210 的內建電源、SFP 與價格取捨，沒有可辨識使用者回報同型號故障或負評症狀。",
-          "independentAuthors": 0,
-          "specificReason": "這是採購與規格取捨討論，沒有第一人稱故障回報，也沒有可計入集中災情門檻的獨立作者。",
-          "outcome": "excluded",
-          "reviewedAt": "2026-08-25",
-          "exactModel": true,
-          "reason": "這是採購與規格取捨討論，沒有第一人稱故障回報，也沒有可計入集中災情門檻的獨立作者。"
-        },
-        {
-          "platform": "Mobile01",
-          "url": "https://www.mobile01.com/topicdetail.php?f=110&t=4545257",
-          "title": "TL-SG3210 LACP 與 VLAN 長期使用回饋",
-          "sourceExcerpt": "原頁一位使用者表示 TL-SG3210 的 LACP 與 VLAN 使用沒有問題，屬正向經驗而非負評候選。",
-          "independentAuthors": 1,
-          "specificReason": "原頁是單一作者的正向使用經驗，未形成故障症狀；也不能與其他網站的設定排查或韌體個案合併計數。",
-          "outcome": "excluded",
-          "reviewedAt": "2026-08-25",
-          "exactModel": true,
-          "reason": "原頁是單一作者的正向使用經驗，未形成故障症狀；也不能與其他網站的設定排查或韌體個案合併計數。"
-        }
-      ]
-    },
-    {
-      "id": "network-switch-netgear-gs108e",
-      "category": "network-switch",
-      "brand": "NETGEAR",
-      "model": "GS108E",
-      "name": "NETGEAR GS108E v3 8 埠 Gigabit Plus 交換器",
-      "identity": {
-        "canonicalModel": "GS108E",
-        "aliases": [
-          "GS108E"
-        ],
-        "evidenceUrl": "https://www.downloads.netgear.com/files/GDC/Plus_Switches/Gigabit_Ethernet_Plus_Switches_DS.pdf"
-      },
-      "workflowStatus": "completed",
-      "manualReview": {
-        "status": "completed",
-        "decision": "no_common_issue",
-        "reviewedAt": "2026-08-24",
+        "reviewedAt": "2026-08-27",
         "checkedPlatforms": [
           "Reddit",
           "Mobile01"
@@ -132355,73 +131746,39 @@
         "queries": [
           {
             "platform": "Reddit",
-            "query": "site:reddit.com v3 \"GS108E\" issue",
-            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20v3%20%22GS108E%22%20issue",
+            "query": "site:reddit.com \"QSW-L2110-2S8T\" (problem OR issue OR failure)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22QSW-L2110-2S8T%22%20%28problem%20OR%20issue%20OR%20failure%29",
             "targetHost": "reddit.com"
           },
           {
             "platform": "Mobile01",
-            "query": "site:mobile01.com v3 \"GS108E\" 問題",
-            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20v3%20%22GS108E%22%20%E5%95%8F%E9%A1%8C",
+            "query": "site:mobile01.com \"QSW-L2110-2S8T\" 問題",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22QSW-L2110-2S8T%22%20%E5%95%8F%E9%A1%8C",
             "targetHost": "mobile01.com"
           }
         ],
-        "candidateDisposition": "GS108E：人工回看 Reddit 與 Mobile01 exact-model 查詢中的 2 個原頁候選；逐頁區分故障、設定／互通限制、未確認歸因與交叉貼文後，沒有任一相同問題達到 6 位獨立使用者且跨 2 個原始網站（不代表完全沒有負評）。",
-        "representativeSources": [
-          {
-            "platform": "Reddit",
-            "url": "https://www.reddit.com/r/NETGEAR/comments/hqiu7a",
-            "title": "GS108E v3 management VLAN 限制討論"
-          },
-          {
-            "platform": "Reddit",
-            "url": "https://www.reddit.com/r/UNIFI/comments/1ikk82i",
-            "title": "GS108E v3 在 UniFi 下的 VLAN／管理 IP 討論"
-          }
-        ],
-        "reviewerNote": "GS108E：人工回看 Reddit 與 Mobile01 exact-model 查詢中的 2 個原頁候選；逐頁區分故障、設定／互通限制、未確認歸因與交叉貼文後，沒有任一相同問題達到 6 位獨立使用者且跨 2 個原始網站（不代表完全沒有負評）。",
-        "attestation": "manual_original_pages_reviewed",
-        "candidateReviews": [
-          {
-            "platform": "Reddit",
-            "url": "https://www.reddit.com/r/NETGEAR/comments/hqiu7a",
-            "title": "GS108E v3 management VLAN 限制討論",
-            "sourceExcerpt": "原頁一位 GS108E v3 使用者描述 management VLAN 無法依期待跨 tagged trunk。",
-            "independentAuthors": 1,
-            "specificReason": "屬 Plus 系列管理功能／設定限制而非硬體集中故障，只有 1 位作者且沒有第二站同症。",
-            "outcome": "excluded",
-            "reviewedAt": "2026-08-24",
-            "exactModel": true
-          },
-          {
-            "platform": "Reddit",
-            "url": "https://www.reddit.com/r/UNIFI/comments/1ikk82i",
-            "title": "GS108E v3 在 UniFi 下的 VLAN／管理 IP 討論",
-            "sourceExcerpt": "原頁一位使用者描述 GS108E v3 與 UniFi 搭配時的 VLAN 及管理 IP 問題。",
-            "independentAuthors": 1,
-            "specificReason": "屬設定與跨品牌互通個案，與另一頁也未形成 6 位作者，且沒有第二個原始網站的同症。",
-            "outcome": "excluded",
-            "reviewedAt": "2026-08-24",
-            "exactModel": true
-          }
-        ]
+        "candidateDisposition": "QSW-L2110-2S8T：人工覆核 Reddit 與 Mobile01 的 exact-model 查詢；兩站均無可計入的 exact-model 原頁候選，可辨識獨立使用者 0、原始網站 0，未達同症狀 6 人／2 站門檻（不代表完全沒有負評）。",
+        "representativeSources": [],
+        "reviewerNote": "QSW-L2110-2S8T：人工覆核 Reddit 與 Mobile01 的 exact-model 查詢；兩站均無可計入的 exact-model 原頁候選，可辨識獨立使用者 0、原始網站 0，未達同症狀 6 人／2 站門檻（不代表完全沒有負評）。",
+        "attestation": "manual_cross_site_search_reviewed_no_candidate",
+        "candidateReviews": []
       },
       "issueResearch": {
         "status": "no_common_issue",
-        "checkedAt": "2026-08-24",
+        "checkedAt": "2026-08-27",
         "summary": "截至查核日，查無達門檻的集中負評／災情",
         "issues": [],
         "checkedSources": [
           {
             "platform": "Reddit",
-            "query": "site:reddit.com v3 \"GS108E\" issue",
-            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20v3%20%22GS108E%22%20issue",
+            "query": "site:reddit.com \"QSW-L2110-2S8T\" (problem OR issue OR failure)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22QSW-L2110-2S8T%22%20%28problem%20OR%20issue%20OR%20failure%29",
             "targetHost": "reddit.com"
           },
           {
             "platform": "Mobile01",
-            "query": "site:mobile01.com v3 \"GS108E\" 問題",
-            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20v3%20%22GS108E%22%20%E5%95%8F%E9%A1%8C",
+            "query": "site:mobile01.com \"QSW-L2110-2S8T\" 問題",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22QSW-L2110-2S8T%22%20%E5%95%8F%E9%A1%8C",
             "targetHost": "mobile01.com"
           }
         ]
@@ -132429,64 +131786,221 @@
       "searchChecks": [
         {
           "platform": "Reddit",
-          "query": "site:reddit.com v3 \"GS108E\" issue",
-          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20v3%20%22GS108E%22%20issue",
-          "result": "candidates_unverified_by_search_only",
-          "resultCount": 2,
-          "candidateUrls": [
-            "https://www.reddit.com/r/NETGEAR/comments/hqiu7a",
-            "https://www.reddit.com/r/UNIFI/comments/1ikk82i"
-          ],
-          "candidates": [
-            {
-              "url": "https://www.reddit.com/r/NETGEAR/comments/hqiu7a",
-              "title": "GS108E v3 management VLAN 限制討論",
-              "platform": "Reddit"
-            },
-            {
-              "url": "https://www.reddit.com/r/UNIFI/comments/1ikk82i",
-              "title": "GS108E v3 在 UniFi 下的 VLAN／管理 IP 討論",
-              "platform": "Reddit"
-            }
-          ],
-          "inspectedAt": "2026-08-24T00:00:00+08:00"
-        },
-        {
-          "platform": "Mobile01",
-          "query": "site:mobile01.com v3 \"GS108E\" 問題",
-          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20v3%20%22GS108E%22%20%E5%95%8F%E9%A1%8C",
+          "query": "site:reddit.com \"QSW-L2110-2S8T\" (problem OR issue OR failure)",
+          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22QSW-L2110-2S8T%22%20%28problem%20OR%20issue%20OR%20failure%29",
           "result": "no_exact_model_result",
           "resultCount": 0,
           "candidateUrls": [],
           "candidates": [],
-          "inspectedAt": "2026-08-24T00:00:00+08:00"
+          "inspectedAt": "2026-08-27T00:00:00+08:00"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"QSW-L2110-2S8T\" 問題",
+          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22QSW-L2110-2S8T%22%20%E5%95%8F%E9%A1%8C",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-08-27T00:00:00+08:00"
+        }
+      ],
+      "evidence": [],
+      "rejectedCandidates": []
+    },
+    {
+      "id": "network-switch-qnap-qsw-m2108r-2c",
+      "category": "network-switch",
+      "brand": "QNAP",
+      "model": "QSW-M2108R-2C",
+      "name": "QNAP QSW-M2108R-2C 8 埠 2.5GbE L2 管理型交換器",
+      "identity": {
+        "canonicalModel": "QSW-M2108R-2C",
+        "aliases": [
+          "QSW-M2108R-2C"
+        ],
+        "evidenceUrl": "https://www.qnap.com/zh-tw/product/qsw-m2108r-2c"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "status": "completed",
+        "decision": "no_common_issue",
+        "reviewedAt": "2026-08-27",
+        "checkedPlatforms": [
+          "Reddit",
+          "Mobile01"
+        ],
+        "queries": [
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"QSW-M2108R-2C\" (problem OR issue OR failure)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22QSW-M2108R-2C%22%20%28problem%20OR%20issue%20OR%20failure%29",
+            "targetHost": "reddit.com"
+          },
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"QSW-M2108R-2C\" 問題",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22QSW-M2108R-2C%22%20%E5%95%8F%E9%A1%8C",
+            "targetHost": "mobile01.com"
+          }
+        ],
+        "candidateDisposition": "QSW-M2108R-2C：人工覆核 Reddit 與 Mobile01 查詢中的 3 個 exact-model 原頁；另有 1 個系列韌體結果未通過型號邊界。CPU、SMB 斷線與穩定性討論均未形成同症狀 6 位獨立使用者且跨 2 個原始網站（不代表完全沒有負評）。",
+        "representativeSources": [
+          {
+            "platform": "Reddit",
+            "title": "100% CPU usage on QSW-M2108R-2C switch",
+            "url": "https://www.reddit.com/r/qnap/comments/1ueejce/100_cpu_usage_on_qswm2108r2c_switch/"
+          },
+          {
+            "platform": "Reddit",
+            "title": "Mac Pro laptops intermittently disconnecting from TS-435XeE when under heavy load",
+            "url": "https://www.reddit.com/r/qnap/comments/10atlge"
+          },
+          {
+            "platform": "Mobile01",
+            "title": "ASUSTOR AS6704T 開箱評測討論",
+            "url": "https://www.mobile01.com/topicdetail.php?f=494&p=2&t=6593408"
+          }
+        ],
+        "reviewerNote": "QSW-M2108R-2C 逐頁確認 3 個 exact-model 候選：Reddit 只有個別且歸因未確定的回報，Mobile01 只有詢問穩定度；另排除未確認持有 QSW-M2108R-2C 的系列韌體搜尋結果，無任一同症狀達 6 人／2 站門檻。",
+        "attestation": "manual_original_pages_reviewed",
+        "candidateReviews": [
+          {
+            "url": "https://www.reddit.com/r/qnap/comments/1ueejce/100_cpu_usage_on_qswm2108r2c_switch/",
+            "title": "100% CPU usage on QSW-M2108R-2C switch",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-08-27",
+            "sourceExcerpt": "樓主回報狀態燈偶爾變紅、機身偏熱且管理 CPU 顯示滿載；另一位同型號持有者表示相同 CPU 行為屬預期，但未回報同一故障。",
+            "independentAuthors": 2,
+            "specificReason": "只有一位第一人稱負面回報，第二位持有者將 CPU 行為視為預期；且只有 Reddit 單一原始網站，未達 6 人／2 站。",
+            "platform": "Reddit"
+          },
+          {
+            "url": "https://www.reddit.com/r/qnap/comments/10atlge",
+            "title": "Mac Pro laptops intermittently disconnecting from TS-435XeE when under heavy load",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-08-27",
+            "sourceExcerpt": "兩位使用者描述高負載 SMB 斷線，但鏈路同時包含 NAS、Mac 與多款轉接器；其中一位直連 NAS 仍重現。",
+            "independentAuthors": 2,
+            "specificReason": "兩位回報都在同一 Reddit 原頁，且直連 NAS 仍發生使交換器歸因不成立；未達 6 人／2 站。",
+            "platform": "Reddit"
+          },
+          {
+            "url": "https://www.mobile01.com/topicdetail.php?f=494&p=2&t=6593408",
+            "title": "ASUSTOR AS6704T 開箱評測討論",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-08-27",
+            "sourceExcerpt": "兩位作者從照片辨識 QSW-M2108R-2C，分別詢問 10GbE 效能判斷與長期穩定性，沒有第一人稱故障敘述。",
+            "independentAuthors": 2,
+            "specificReason": "原頁只是型號辨識與購前詢問，沒有同型號持有者的第一人稱問題回報。",
+            "platform": "Mobile01"
+          }
+        ]
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-08-27",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"QSW-M2108R-2C\" (problem OR issue OR failure)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22QSW-M2108R-2C%22%20%28problem%20OR%20issue%20OR%20failure%29",
+            "targetHost": "reddit.com"
+          },
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"QSW-M2108R-2C\" 問題",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22QSW-M2108R-2C%22%20%E5%95%8F%E9%A1%8C",
+            "targetHost": "mobile01.com"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"QSW-M2108R-2C\" (problem OR issue OR failure)",
+          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22QSW-M2108R-2C%22%20%28problem%20OR%20issue%20OR%20failure%29",
+          "result": "candidates_unverified_by_search_only",
+          "resultCount": 2,
+          "candidateUrls": [
+            "https://www.reddit.com/r/qnap/comments/1ueejce/100_cpu_usage_on_qswm2108r2c_switch/",
+            "https://www.reddit.com/r/qnap/comments/10atlge"
+          ],
+          "candidates": [
+            {
+              "url": "https://www.reddit.com/r/qnap/comments/1ueejce/100_cpu_usage_on_qswm2108r2c_switch/",
+              "title": "100% CPU usage on QSW-M2108R-2C switch",
+              "exactModel": true
+            },
+            {
+              "url": "https://www.reddit.com/r/qnap/comments/10atlge",
+              "title": "Mac Pro laptops intermittently disconnecting from TS-435XeE when under heavy load",
+              "exactModel": true
+            }
+          ],
+          "inspectedAt": "2026-08-27T00:00:00+08:00"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"QSW-M2108R-2C\" 問題",
+          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22QSW-M2108R-2C%22%20%E5%95%8F%E9%A1%8C",
+          "result": "candidates_unverified_by_search_only",
+          "resultCount": 1,
+          "candidateUrls": [
+            "https://www.mobile01.com/topicdetail.php?f=494&p=2&t=6593408"
+          ],
+          "candidates": [
+            {
+              "url": "https://www.mobile01.com/topicdetail.php?f=494&p=2&t=6593408",
+              "title": "ASUSTOR AS6704T 開箱評測討論",
+              "exactModel": true
+            }
+          ],
+          "inspectedAt": "2026-08-27T00:00:00+08:00"
         }
       ],
       "evidence": [],
       "rejectedCandidates": [
         {
-          "platform": "Reddit",
-          "url": "https://www.reddit.com/r/NETGEAR/comments/hqiu7a",
-          "title": "GS108E v3 management VLAN 限制討論",
-          "sourceExcerpt": "原頁一位 GS108E v3 使用者描述 management VLAN 無法依期待跨 tagged trunk。",
-          "independentAuthors": 1,
-          "specificReason": "屬 Plus 系列管理功能／設定限制而非硬體集中故障，只有 1 位作者且沒有第二站同症。",
+          "url": "https://www.reddit.com/r/qnap/comments/1ueejce/100_cpu_usage_on_qswm2108r2c_switch/",
+          "title": "100% CPU usage on QSW-M2108R-2C switch",
           "outcome": "excluded",
-          "reviewedAt": "2026-08-24",
           "exactModel": true,
-          "reason": "屬 Plus 系列管理功能／設定限制而非硬體集中故障，只有 1 位作者且沒有第二站同症。"
+          "reviewedAt": "2026-08-27",
+          "sourceExcerpt": "樓主回報狀態燈偶爾變紅、機身偏熱且管理 CPU 顯示滿載；另一位同型號持有者表示相同 CPU 行為屬預期，但未回報同一故障。",
+          "independentAuthors": 2,
+          "specificReason": "只有一位第一人稱負面回報，第二位持有者將 CPU 行為視為預期；且只有 Reddit 單一原始網站，未達 6 人／2 站。",
+          "platform": "Reddit",
+          "reason": "只有一位第一人稱負面回報，第二位持有者將 CPU 行為視為預期；且只有 Reddit 單一原始網站，未達 6 人／2 站。"
         },
         {
-          "platform": "Reddit",
-          "url": "https://www.reddit.com/r/UNIFI/comments/1ikk82i",
-          "title": "GS108E v3 在 UniFi 下的 VLAN／管理 IP 討論",
-          "sourceExcerpt": "原頁一位使用者描述 GS108E v3 與 UniFi 搭配時的 VLAN 及管理 IP 問題。",
-          "independentAuthors": 1,
-          "specificReason": "屬設定與跨品牌互通個案，與另一頁也未形成 6 位作者，且沒有第二個原始網站的同症。",
+          "url": "https://www.reddit.com/r/qnap/comments/10atlge",
+          "title": "Mac Pro laptops intermittently disconnecting from TS-435XeE when under heavy load",
           "outcome": "excluded",
-          "reviewedAt": "2026-08-24",
           "exactModel": true,
-          "reason": "屬設定與跨品牌互通個案，與另一頁也未形成 6 位作者，且沒有第二個原始網站的同症。"
+          "reviewedAt": "2026-08-27",
+          "sourceExcerpt": "兩位使用者描述高負載 SMB 斷線，但鏈路同時包含 NAS、Mac 與多款轉接器；其中一位直連 NAS 仍重現。",
+          "independentAuthors": 2,
+          "specificReason": "兩位回報都在同一 Reddit 原頁，且直連 NAS 仍發生使交換器歸因不成立；未達 6 人／2 站。",
+          "platform": "Reddit",
+          "reason": "兩位回報都在同一 Reddit 原頁，且直連 NAS 仍發生使交換器歸因不成立；未達 6 人／2 站。"
+        },
+        {
+          "url": "https://www.mobile01.com/topicdetail.php?f=494&p=2&t=6593408",
+          "title": "ASUSTOR AS6704T 開箱評測討論",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-27",
+          "sourceExcerpt": "兩位作者從照片辨識 QSW-M2108R-2C，分別詢問 10GbE 效能判斷與長期穩定性，沒有第一人稱故障敘述。",
+          "independentAuthors": 2,
+          "specificReason": "原頁只是型號辨識與購前詢問，沒有同型號持有者的第一人稱問題回報。",
+          "platform": "Mobile01",
+          "reason": "原頁只是型號辨識與購前詢問，沒有同型號持有者的第一人稱問題回報。"
         }
       ]
     },
@@ -156859,6 +156373,95 @@
           "candidateUrls": [],
           "candidates": [],
           "inspectedAt": "2026-08-20T00:00:00+08:00"
+        }
+      ],
+      "evidence": [],
+      "rejectedCandidates": []
+    },
+    {
+      "id": "vacuum-roborock-f25-ace-pro-wd5m14a",
+      "category": "vacuum",
+      "brand": "Roborock",
+      "model": "WD5M14A",
+      "name": "F25 ACE Pro 石沫吸泡沫洗地機",
+      "identity": {
+        "canonicalModel": "WD5M14A",
+        "lookupLabel": "Roborock WD5M14A",
+        "aliases": [
+          "Roborock WD5M14A",
+          "WD5M14A"
+        ],
+        "evidenceUrl": "https://www.tk3c.com/product/265652"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "status": "completed",
+        "decision": "no_common_issue",
+        "reviewedAt": "2026-08-26",
+        "checkedPlatforms": [
+          "Reddit",
+          "Mobile01"
+        ],
+        "queries": [
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"Roborock WD5M14A\" (problem OR issue OR defect OR failure)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Roborock%20WD5M14A%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+            "targetHost": "reddit.com"
+          },
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"Roborock WD5M14A\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Roborock%20WD5M14A%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "mobile01.com"
+          }
+        ],
+        "candidateDisposition": "WD5M14A：逐列覆核 Reddit 與 Mobile01 兩組 exact-model 搜尋，兩站均無可回到原頁的 WD5M14A 負面候選，未達同一問題 6 人／2 個原始網站。",
+        "representativeSources": [],
+        "candidateReviews": [],
+        "reviewerNote": "WD5M14A：已人工查看兩組 exact-model 搜尋結果；沒有原頁候選，no_common_issue 只代表查無達門檻的集中負評，不代表完全沒有個別負評。",
+        "attestation": "manual_cross_site_search_reviewed_no_candidate"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-08-26",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"Roborock WD5M14A\" (problem OR issue OR defect OR failure)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Roborock%20WD5M14A%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+            "targetHost": "reddit.com"
+          },
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"Roborock WD5M14A\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Roborock%20WD5M14A%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "mobile01.com"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "Bing Search → Reddit",
+          "query": "site:reddit.com \"Roborock WD5M14A\" (problem OR issue OR defect OR failure)",
+          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Roborock%20WD5M14A%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-08-26T00:00:00+08:00"
+        },
+        {
+          "platform": "Bing Search → Mobile01",
+          "query": "site:mobile01.com \"Roborock WD5M14A\" (災情 OR 問題 OR 故障 OR 負評)",
+          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Roborock%20WD5M14A%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-08-26T00:00:00+08:00"
         }
       ],
       "evidence": [],

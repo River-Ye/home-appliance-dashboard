@@ -221,9 +221,9 @@
     "image": "https://cs-a.ecimg.tw/items/DMAW25A900G453U/000001_1781668075.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 8333,
-      "converted": 8333,
-      "confidence": "Yahoo購物中心 2026-08-26 exact-model 公開結構化價格"
+      "amount": 8590,
+      "converted": 8590,
+      "confidence": "Yahoo購物中心 2026-08-27 exact-model 公開結構化價格"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心",
@@ -324,9 +324,9 @@
     "image": "https://cs-a.ecimg.tw/items/DMCI1NA900HIJUW/000001_1782095197.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 9108,
-      "converted": 9108,
-      "confidence": "Yahoo購物中心 2026-08-26 exact-model 公開結構化價格"
+      "amount": 9900,
+      "converted": 9900,
+      "confidence": "Yahoo購物中心 2026-08-27 exact-model 公開結構化價格"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心",
@@ -2128,8 +2128,8 @@
     "price": {
       "currency": "USD",
       "amount": 369.99,
-      "converted": 11783,
-      "confidence": "Costco US 2026-07-21 來源價；ExchangeRate-API 2026-08-26 匯率換算"
+      "converted": 11775,
+      "confidence": "Costco US 2026-07-21 來源價；ExchangeRate-API 2026-08-27 匯率換算"
     },
     "image": "https://bfasset.costco-static.com/U447IH35/as/4xjr3phfqx7p9vvxzfhp3jp/100457228-847_chrome_1?auto=webp&format=jpg",
     "buyUrl": "https://www.costco.com/brondell-circle-reverse-osmosis-water-filtration-system.product.100457228.html",
