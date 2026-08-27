@@ -74,6 +74,7 @@ const REVIEWED_PCHOME_BINDINGS = new Map([
   ["monitor-lg-45gx90sa", "DSBC1Z-A900J732D"],
   ["monitor-samsung-s32hg806es", "DSABSK-A900K0G32"],
   ["network-switch-qnap-qsw-l2110-2s8t", "DRAF9S-A900K8WTX"],
+  ["network-switch-qnap-qsw-3216r-8s8t", "DRAFE2-A900JCMNO"],
   ["oven-extra-6-dmbj02-a900i9lq2", "DMBJ02-A900I9LQ2"],
   ["purifier-extra-6-dmaue4-a900ijcap", "DMAUE4-A900IJCAP"],
   ["purifier-extra-9-dmaue4-a900i7dn1", "DMAUE4-A900I7DN1"],

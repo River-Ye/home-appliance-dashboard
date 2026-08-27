@@ -890,28 +890,28 @@
     ]
   },
   {
-    "id": "network-switch-tplink-tl-sg108e",
+    "id": "network-switch-netgear-gs108x",
     "category": "network-switch",
     "rank": 8,
-    "budget": "value",
+    "budget": "mid",
     "channel": "tw",
-    "brand": "TP-Link",
-    "model": "TL-SG108E",
-    "name": "TP-Link TL-SG108E 8 埠 Gigabit Easy Smart 交換器",
+    "brand": "NETGEAR",
+    "model": "GS108X",
+    "name": "NETGEAR GS108X 8 埠 Gigabit 無網管交換器",
     "type": "1g",
     "price": {
       "currency": "TWD",
-      "amount": 1190,
-      "converted": 1190,
-      "confidence": "PChome 2026-08-25 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "amount": 4620,
+      "converted": 4620,
+      "confidence": "PChome 2026-08-27 exact-model 公開價；Price.Low 無正值，採 Price.P",
       "basis": "retailer_current"
     },
     "installation": {
       "status": "excluded",
-      "note": "通路價格只含交換器本體，不含弱電箱施工、機架固定、網路配線、插座增設或通風改造。"
+      "note": "通路價格只含交換器本體，不含弱電箱施工、機架固定、SFP+ 模組、光纖／DAC 線材、插座增設或通風改造。"
     },
-    "image": "https://cs-a.ecimg.tw/items/DRAF07A90081FBV/000001_1772689699.jpg",
-    "buyUrl": "https://24h.pchome.com.tw/prod/DRAF07-A90081FBV",
+    "image": "https://cs-a.ecimg.tw/items/DRAFBYA900HAYMQ/000001_1713495603.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DRAFBY-A900HAYMQ",
     "buyLabel": "PChome 24h",
     "switchProfile": {
       "rj45PortCount": 8,
@@ -921,98 +921,108 @@
         0.1,
         1
       ],
-      "extraUplinks": [],
-      "management": "easy_managed",
+      "extraUplinks": [
+        {
+          "count": 1,
+          "media": "SFP+",
+          "speedsGbps": [
+            1,
+            10
+          ]
+        }
+      ],
+      "management": "unmanaged",
       "poe": false,
       "enclosure": "metal",
       "cooling": "fanless",
-      "maxPowerW": 3.68,
+      "maxPowerW": 5.7,
       "operatingTemperatureC": {
         "min": 0,
         "max": 40
       },
       "dimensionsCm": {
-        "width": 15.8,
+        "width": 23.6,
         "depth": 10.1,
-        "height": 2.5
+        "height": 2.7
       },
       "mounting": [
         "桌面",
         "壁掛"
       ],
-      "specSourceUrl": "https://www.tp-link.com/tw/business-networking/easy-smart-switch/tl-sg108e/"
+      "specSourceUrl": "https://www.netgear.com/business/wired/switches/unmanaged/gs108x/"
     },
     "specs": [
       "主連接埠：8 個 10M／100M／1G RJ45",
       "速率等級：1G；八個主要 RJ45 皆支援此等級",
-      "額外 uplink：無",
-      "管理方式：Easy Smart（VLAN／QoS／監控）",
+      "額外 uplink：1 個獨立 1G／10G SFP+",
+      "管理方式：無網管",
       "PoE：不支援",
       "外殼：金屬",
       "散熱：無風扇",
-      "最大功耗：3.68 W",
+      "最大功耗：5.7 W",
       "操作溫度：0–40°C",
-      "尺寸：寬 15.8 x 深 10.1 x 高 2.5 cm",
-      "安裝方式：桌面／壁掛；需預留接頭與線材彎折空間",
+      "尺寸：寬 23.6 x 深 10.1 x 高 2.7 cm",
+      "安裝方式：桌面／壁掛；需預留 SFP+ 模組與線材彎折空間",
       "弱電箱提醒：優先維持箱體對流並避開電源供應器疊放；無風扇不等於可在完全密閉箱體中長期運作。"
     ],
-    "description": "台灣原廠保固新品 8 埠 1G 非 PoE 網路交換器；官方資料明示金屬外殼、無風扇、最大功耗 3.68 W、操作上限 40°C 與機身尺寸。具網路管理功能，設定前應先規劃 VLAN、迴路保護與管理密碼。",
+    "description": "台灣公司貨 8 埠 1G 非 PoE 網路交換器；另有 1 個 10G SFP+ uplink。官方資料明示金屬外殼、無風扇、最大功耗 5.7 W、操作上限 40°C 與機身尺寸。",
     "pros": [
-      "八個主要 RJ45 全部支援 1G",
-      "金屬外殼、無風扇，官方最大功耗 3.68 W",
-      "40°C 操作溫度上限與台灣原廠保固均有來源"
+      "八個主要 RJ45 全部支援 1G，並有獨立 10G SFP+ uplink",
+      "金屬外殼、無風扇，官方最大功耗僅 5.7 W",
+      "40°C 操作上限與台灣公司貨 5 年保固均有來源"
     ],
     "cons": [
-      "弱電箱若完全密閉，仍可能累積熱量並縮短壽命",
-      "管理功能需要初始設定、韌體維護與管理密碼",
-      "沒有獨立高速 uplink，所有流量共用八個 RJ45"
+      "10G uplink 需另購相容 SFP+ 模組、光纖或 DAC 線材",
+      "無 VLAN、LACP、STP 等管理功能",
+      "弱電箱若完全密閉，仍可能累積熱量並縮短壽命"
     ],
-    "bestFor": "以 1G 網路為主、重視低功耗與長期穩定的弱電箱。",
-    "recommendation": "1G 簡易網管推薦：低功耗下提供 VLAN、QoS 與流量監控，適合分隔 IoT 或 AP 網段。",
-    "releaseDate": "2014-04-09",
+    "bestFor": "以 1G 終端為主、需要一條 10G 光纖／DAC 上行，且重視無風扇與低功耗的弱電箱。",
+    "recommendation": "1G 高速上行推薦：八個 1G RJ45 搭配獨立 10G SFP+，適合把弱電箱接回 10G 核心交換器。",
+    "releaseDate": "2023-10-31",
     "historicalLow": {
-      "status": "found",
-      "amount": 1161,
+      "status": "not_found",
+      "amount": null,
       "currency": "TWD",
-      "converted": 1161,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1273613102&cgp=1260",
-      "sourceTitle": "LBJ 歷史價格：TP-Link TL-SG108E 8埠",
-      "evidenceSnippet": "LBJ price_data 對 TL-SG108E exact listing 記錄 NT$1,161，日期範圍 2026-02-24–2026-06-06（查核 2026-08-24）。",
-      "sourceKind": "price_history",
-      "confidence": "high",
-      "checkedAt": "2026-08-24",
-      "note": "採用同型號、同埠數與同速率的台灣新品公開價格曲線；排除 NT$1、多選項、平台券、會員／信用卡回饋、點數、福利品、展示機、拆封品、二手、整新與詢價資料。"
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-08-27",
+      "note": "已查 PChome exact SKU、NETGEAR 官方／台灣代理頁、BigGo 與飛比；找不到具日期、可重現且排除個人化優惠的 exact-model 歷史價格曲線，不以現價推定史低。"
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-24",
+      "checkedAt": "2026-08-27",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Reddit",
-          "query": "site:reddit.com \"TL-SG108E\" issue",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22TL-SG108E%22%20issue",
+          "query": "site:reddit.com \"GS108X\" (problem OR issue OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22GS108X%22%20%28problem%20OR%20issue%20OR%20failure%29",
           "targetHost": "reddit.com"
         },
         {
-          "platform": "Mobile01",
-          "query": "site:mobile01.com \"TL-SG108E\" 問題",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22TL-SG108E%22%20%E5%95%8F%E9%A1%8C",
-          "targetHost": "mobile01.com"
+          "platform": "YouTube",
+          "query": "\"GS108X\" problem issue failure",
+          "queryUrl": "https://www.youtube.com/results?search_query=%22GS108X%22%20problem%20issue%20failure",
+          "targetHost": "youtube.com"
         }
       ]
     },
     "score": 89,
-    "voltage": "台灣通路版本；原廠電源輸入支援 100–240 V AC、50/60Hz，實際插頭與電源線以台灣出貨為準",
-    "warranty": "台灣通路現售；原廠 3 年保固；保固範圍與送修方式依品牌台灣公告及購買憑證。",
+    "voltage": "台灣公司貨；原廠外接電源供應器支援 100–240 V AC、50/60Hz，實際插頭與電源線以台灣出貨為準",
+    "warranty": "台灣公司貨；代理商瀚錸科技明示 5 年保固；保固範圍與送修方式依代理商公告及購買憑證。",
     "tags": [
       "1G 8 埠",
-      "Easy Smart",
+      "10G SFP+ uplink",
+      "無網管",
       "非 PoE",
       "金屬外殼",
       "無風扇",
-      "3 年保固"
+      "5 年保固"
     ]
   },
   {
@@ -2326,28 +2336,28 @@
     ]
   },
   {
-    "id": "network-switch-tplink-tl-sx1008",
+    "id": "network-switch-qnap-qsw-3216r-8s8t",
     "category": "network-switch",
     "rank": 19,
     "budget": "premium",
     "channel": "tw",
-    "brand": "TP-Link",
-    "model": "TL-SX1008",
-    "name": "TP-Link TL-SX1008 8 埠 10G 無網管交換器",
+    "brand": "QNAP",
+    "model": "QSW-3216R-8S8T",
+    "name": "QNAP QSW-3216R-8S8T 8 埠 10G 無網管交換器",
     "type": "10g",
     "price": {
       "currency": "TWD",
-      "amount": 9899,
-      "converted": 9899,
-      "confidence": "PChome 2026-08-25 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "amount": 19500,
+      "converted": 19500,
+      "confidence": "PChome 2026-08-27 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
       "basis": "retailer_current"
     },
     "installation": {
       "status": "excluded",
-      "note": "通路價格只含交換器本體，不含弱電箱施工、機架固定、Cat 6A 配線、插座增設或主動通風改造。"
+      "note": "通路價格只含交換器本體，不含弱電箱施工、機架固定、Cat 6A 配線、SFP+ 模組、光纖／DAC 線材、插座增設或主動通風改造。"
     },
-    "image": "https://img.pchome.com.tw/cs/items/DRAN3CA900BJC72/000001_1625547737.jpg",
-    "buyUrl": "https://24h.pchome.com.tw/prod/DRAN3C-A900BJC72",
+    "image": "https://cs-a.ecimg.tw/items/DRAFE2A900JCMNO/000001_1760585227.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DRAFE2-A900JCMNO",
     "buyLabel": "PChome 24h",
     "switchProfile": {
       "rj45PortCount": 8,
@@ -2359,113 +2369,108 @@
         5,
         10
       ],
-      "extraUplinks": [],
+      "extraUplinks": [
+        {
+          "count": 8,
+          "media": "SFP+",
+          "speedsGbps": [
+            1,
+            10
+          ]
+        }
+      ],
       "management": "unmanaged",
       "poe": false,
       "enclosure": "metal",
       "cooling": "smart_fan",
-      "maxPowerW": 31.2,
+      "maxPowerW": 48.632,
       "operatingTemperatureC": {
         "min": 0,
-        "max": 50
+        "max": 40
       },
       "dimensionsCm": {
-        "width": 29.4,
-        "depth": 18,
-        "height": 4.4
+        "width": 20.7,
+        "depth": 19.95,
+        "height": 4.33
       },
       "mounting": [
         "桌面",
         "機架"
       ],
-      "specSourceUrl": "https://www.tp-link.com/tw/business-networking/soho-switch-unmanaged/tl-sx1008/"
+      "specSourceUrl": "https://www.qnap.com/zh-tw/product/qsw-3216r-8s8t"
     },
     "specs": [
       "主連接埠：8 個 100M／1G／2.5G／5G／10G RJ45",
       "速率等級：10G；八個主要 RJ45 皆支援此等級",
-      "額外 uplink：無",
-      "管理方式：無網管",
+      "額外 uplink：8 個獨立 1G／10G SFP+",
+      "管理方式：無網管；具迴圈偵測與阻擋",
       "PoE：不支援",
       "外殼：金屬",
-      "散熱：智慧單風扇",
-      "最大功耗：31.2 W",
-      "操作溫度：0–50°C",
-      "尺寸：寬 29.4 x 深 18 x 高 4.4 cm",
-      "安裝方式：桌面／機架；需預留前後線材與風道空間",
-      "弱電箱提醒：10G、31.2 W 且有主動風扇，不適合密閉無換氣箱體；應配置進排氣或移至開放機櫃。"
+      "散熱：2 個 PWM VAPO 智慧風扇",
+      "最大功耗：48.632 W",
+      "操作溫度：0–40°C",
+      "尺寸：寬 20.7 x 深 19.95 x 高 4.33 cm",
+      "安裝方式：桌面／半機架；需預留前後線材與風道空間",
+      "弱電箱提醒：10G 機種為高熱源，必須改善進排風並監看箱內溫度，不可放入完全密閉、無主動散熱的箱體。"
     ],
-    "description": "台灣原廠 3 年保固新品 8 埠 10G 非 PoE 網路交換器；官方資料明示金屬外殼、智慧單風扇、31.2 W 最大功耗、50°C 操作上限與機身尺寸。八個 RJ45 均支援五速自動協商。",
+    "description": "台灣原廠保固新品 8 埠 10G 非 PoE 網路交換器；另有 8 個 10G SFP+。官方資料明示金屬外殼、2 個 PWM VAPO 智慧風扇、最大功耗 48.632 W、操作上限 40°C 與機身尺寸。",
     "pros": [
       "八個主要 RJ45 全部支援 100M／1G／2.5G／5G／10G",
-      "金屬外殼、50°C 操作上限與 31.2 W 最大功耗均有官方來源",
-      "台灣現貨價格低於多數八埠全 10G 管理型產品"
+      "另有八個 1G／10G SFP+，銅纜與光纖可彈性混接",
+      "金屬外殼、40°C 操作上限與台灣原廠保固均有來源"
     ],
     "cons": [
-      "六位使用者跨 TP-Link Community 與 Reddit 回報風扇偏吵或轉速週期性升降",
-      "10G 滿載熱量高，密閉弱電箱必須改善通風",
-      "無 VLAN、LACP、STP 等管理功能"
+      "10G 滿載與 48.632 W 最大功耗使弱電箱必須加強主動進排風",
+      "無 VLAN、LACP、STP 等網管功能",
+      "SFP+ 模組、光纖或 DAC 線材需另購並確認相容性"
     ],
-    "bestFor": "已有 Cat 6A 配線、可改善箱體通風，且需要八台 NAS、伺服器或工作站直上 10G 的環境。",
-    "recommendation": "10G 價格推薦：八埠五速 10G 與台灣原廠保固價格有優勢；但因風扇集中回報與 31.2 W 熱量，排序低於更適合弱電箱的低功耗機種。",
-    "releaseDate": "2021-03-12",
+    "bestFor": "已有 Cat 6A 與主動通風，並需要大量 10G 銅纜／光纖連接 NAS、伺服器或工作站的環境。",
+    "recommendation": "10G 高密度推薦：八個五速 RJ45 加八個 SFP+，以無網管隨插即用降低部署門檻；高熱量環境務必強制通風。",
+    "releaseDate": "2023-10-12",
     "historicalLow": {
       "status": "found",
-      "amount": 9899,
+      "amount": 19500,
       "currency": "TWD",
-      "converted": 9899,
-      "sourceUrl": "https://24h.pchome.com.tw/prod/DRAN3C-A900BJC72",
-      "sourceTitle": "PChome 24h 購物：TP-Link TL-SX1008 8埠100Mbps/1Gbps/10Gbps Gigabit桌上/機架型交換器 乙太網路switch hub",
-      "evidenceSnippet": "PChome 24h 購物於 2026-08-25 顯示同型號可信新品公開價 NT$9,899，低於既有史低 NT$9,999。",
+      "converted": 19500,
+      "sourceUrl": "https://24h.pchome.com.tw/prod/DRAFE2-A900JCMNO",
+      "sourceTitle": "PChome 24h：QNAP QSW-3216R-8S8T",
+      "evidenceSnippet": "PChome exact-model API 於 2026-08-27 回傳 Price.Low NT$19,500、Price.P NT$20,500、Qty 1；低於 LBJ 同一 PChome SKU 於 2026-05-20／05-27 記錄的 NT$19,578。",
       "sourceKind": "retailer_page",
       "confidence": "medium",
-      "checkedAt": "2026-08-25",
-      "note": "採用 PChome 24h 購物當日可購商品的同型號新品公開價；不含會員券、點數、信用卡回饋、二手、福利、展示、拆封或整新品。"
+      "checkedAt": "2026-08-27",
+      "note": "採用 PChome 當日可購 exact-model 新品公開價；不含會員券、點數、信用卡回饋、二手、福利、展示、拆封或整新品。"
     },
     "issueResearch": {
-      "status": "common_issue",
-      "checkedAt": "2026-08-24",
-      "summary": "六位 TL-SX1008 使用者跨 TP-Link Community 與 Reddit 回報風扇持續偏吵、轉速週期性升降，待機或通風良好時仍可明顯聽見；多數回報來自較早硬體版本。",
-      "issues": [
+      "status": "no_common_issue",
+      "checkedAt": "2026-08-27",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
         {
-          "title": "風扇噪音偏高或轉速週期性升降",
-          "detail": "回報包含待機與通風良好時仍可聽見風扇、轉速每 3–7 秒週期性升降，且多數來自較早硬體版本；弱電箱應改善進排風並接受風扇維護風險，不建議自行改風扇，以免影響保固與原廠散熱設計。",
-          "reportCount": 6,
-          "sources": [
-            {
-              "platform": "TP-Link Community",
-              "title": "TL-SX1008 loud fan noise",
-              "url": "https://community.tp-link.com/en/smart-home/forum/topic/264056"
-            },
-            {
-              "platform": "TP-Link Community",
-              "title": "TL-SX1008 Fan Issue",
-              "url": "https://community.tp-link.com/en/business/forum/topic/601442"
-            },
-            {
-              "platform": "Reddit",
-              "title": "10G Switch TL-SX1008",
-              "url": "https://www.reddit.com/r/TpLink/comments/nfzpg9/10g_switch_tlsx1008/"
-            },
-            {
-              "platform": "Reddit",
-              "title": "Netgear XS505M noise level?",
-              "url": "https://www.reddit.com/r/homelab/comments/vsix9e/netgear_xs505m_noise_level/"
-            }
-          ]
+          "platform": "Reddit",
+          "query": "site:reddit.com \"QSW-3216R-8S8T\" issue",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22QSW-3216R-8S8T%22%20issue",
+          "targetHost": "reddit.com"
+        },
+        {
+          "platform": "YouTube",
+          "query": "\"QSW-3216R-8S8T\" problem issue failure",
+          "queryUrl": "https://www.youtube.com/results?search_query=%22QSW-3216R-8S8T%22%20problem%20issue%20failure",
+          "targetHost": "youtube.com"
         }
       ]
     },
-    "score": 76,
-    "voltage": "台灣 110V／60Hz 通路新品；原廠外接電源供應器，實際插頭與電源線以台灣出貨為準",
-    "warranty": "台灣通路現售；原廠 3 年保固（一年換新）；保固範圍與送修方式依 TP-Link 台灣公告及購買憑證。",
+    "score": 82,
+    "voltage": "台灣通路版本；原廠內建電源供應器支援 100–240 V AC、50/60Hz，實際電源線以台灣出貨為準",
+    "warranty": "台灣通路現售；原廠 2 年保固；保固範圍與送修方式依 QNAP 台灣公告及購買憑證。",
     "tags": [
       "10G 8 埠",
-      "五速 RJ45",
+      "8 個 SFP+",
       "無網管",
       "非 PoE",
       "金屬外殼",
-      "智慧單風扇",
-      "3 年保固"
+      "2 個 PWM VAPO 智慧風扇",
+      "2 年保固"
     ]
   },
   {

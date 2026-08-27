@@ -51,6 +51,7 @@ const {
   currentCategoryScan,
   exchangeRateRequestUrl,
   exchangeRatesFromPayload,
+  fetchPage,
   loadCatalogFromGit,
   maintenanceCacheVersion,
   maintenanceReviewReady,
@@ -572,6 +573,7 @@ async function main() {
       ["knife-wmf-18cm", "DEAWRU-A900HDL2T"],
       ["monitor-dell-aw3225qf", "DSABOK-A900HB1B5"],
       ["monitor-samsung-s32hg806es", "DSABSK-A900K0G32"],
+      ["network-switch-qnap-qsw-3216r-8s8t", "DRAFE2-A900JCMNO"],
       ["refrigerator-hitachi-hrbn5366df", "DPAC95-A900HE4RJ"],
       ["refrigerator-hitachi-rv469", "DPACGV-A900BFMHM"],
       ["robot-roborock-qrevo-edge-2-flow", "DMBL1C-A900K7R6R"],
@@ -663,6 +665,29 @@ async function main() {
     ) === null,
     "daily maintenance should not auto-write structured prices from unapproved hosts",
   );
+  const originalFetch = global.fetch;
+  try {
+    global.fetch = async (_url, options) => {
+      const amount = new Headers(options.headers).has("range") ? 11900 : 11662;
+      return new Response(`
+        <title>Dyson TP11</title>
+        <script type="application/ld+json">
+          {"@type":"Product","offers":{"price":"${amount}","priceCurrency":"TWD"}}
+        </script>
+      `, { status: 200, headers: { "content-type": "text/html" } });
+    };
+    const yahooPage = await fetchPage("https://tw.buy.yahoo.com/gdsale/dyson-tp11-12000846.html");
+    assert(
+      trustedStructuredPrice(
+        yahooPage.finalUrl,
+        structuredPriceCandidates(yahooPage.text),
+        "TWD",
+      ) === 11662,
+      "daily maintenance must use Yahoo's full HTML representation instead of the Range variant's secondary price",
+    );
+  } finally {
+    global.fetch = originalFetch;
+  }
   const retainedDiscontinuationReview = mergeDiscontinuationReviews(
     [{ id: "oven-breville-joule", url: "https://www.breville.com/en-us/product/bov950", disposition: "manual_official_evidence_required" }],
     new Map([["oven-breville-joule", {

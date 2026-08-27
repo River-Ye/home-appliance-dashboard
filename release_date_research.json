@@ -10574,17 +10574,17 @@
       "sourceKind": "official_press_release"
     },
     {
-      "id": "network-switch-tplink-tl-sg108e",
+      "id": "network-switch-netgear-gs108x",
       "category": "network-switch",
-      "brand": "TP-Link",
-      "model": "TL-SG108E",
-      "name": "TP-Link TL-SG108E 8 埠 Gigabit Easy Smart 交換器",
-      "releaseDate": "2014-04-09",
-      "sourceUrl": "https://www.tp-link.com/es/press/news/10731/",
-      "sourceTitle": "TP-Link completa su familia easy smart switch con TL-SG108E",
-      "evidenceSnippet": "TP-Link 於 2014-04-09 公告 TL-SG108E，並明示當時已經上市供應。",
+      "brand": "NETGEAR",
+      "model": "GS108X",
+      "name": "NETGEAR GS108X 8 埠 Gigabit 無網管交換器",
+      "releaseDate": "2023-10-31",
+      "sourceUrl": "https://www.netgear.com/hub/business/enterprise-it/introducing-gs108x/",
+      "sourceTitle": "Introducing GS108X 8-Port Gigabit Switch w/SFP+ 10Gb Uplink",
+      "evidenceSnippet": "NETGEAR 官方文章 datePublished 為 2023-10-31，並明示已推出最新 GS108X、當日可於官網購買。",
       "confidence": "high",
-      "query": "TP-Link TL-SG108E official launch release 上市 發售",
+      "query": "NETGEAR GS108X official launch release",
       "sourceKind": "official_press_release"
     },
     {
@@ -10733,17 +10733,17 @@
       "sourceKind": "official_press_release"
     },
     {
-      "id": "network-switch-tplink-tl-sx1008",
+      "id": "network-switch-qnap-qsw-3216r-8s8t",
       "category": "network-switch",
-      "brand": "TP-Link",
-      "model": "TL-SX1008",
-      "name": "TP-Link TL-SX1008 8 埠 10G 無網管交換器",
-      "releaseDate": "2021-03-12",
-      "sourceUrl": "https://www.tp-link.com/jp/press/news/19426/",
-      "sourceTitle": "全ポート10G対応 マルチギガビット アンマネージスイッチ「TL-SX105」「TL-SX1008」3月12日（金）発売",
-      "evidenceSnippet": "TP-Link 日本官方公告 TL-SX1008 自 2021-03-12 開始販售。",
+      "brand": "QNAP",
+      "model": "QSW-3216R-8S8T",
+      "name": "QNAP QSW-3216R-8S8T 8 埠 10G 無網管交換器",
+      "releaseDate": "2023-10-12",
+      "sourceUrl": "https://www.qnap.com/zh-tw/news/2023/qnap-%E6%96%B0%E6%AC%BE%E5%8D%8A%E6%A9%9F%E6%9E%B6%E5%BC%8F-16-%E5%9F%A0%E5%85%A8-10gbe-l2-%E7%B6%B2%E7%AE%A1%E5%9E%8B-%E9%9D%9E%E7%B6%B2%E7%AE%A1%E5%9E%8B%E4%BA%A4%E6%8F%9B%E5%99%A8-qsw-m3216r-8s8t-%E8%88%87-qsw-3216r-8s8t%E8%83%8C%E6%9D%BF%E9%A0%BB%E5%AF%AC%E9%AB%98%E9%81%94-320gbps",
+      "sourceTitle": "QNAP 新款半機架式 16 埠全 10GbE L2 網管型／非網管型交換器",
+      "evidenceSnippet": "QNAP 台灣官方新聞稿於 2023-10-12 明示推出 QSW-M3216R-8S8T 與非網管型 QSW-3216R-8S8T。",
       "confidence": "high",
-      "query": "TP-Link TL-SX1008 official launch release 上市 發售",
+      "query": "QNAP QSW-3216R-8S8T official launch release",
       "sourceKind": "official_press_release"
     },
     {

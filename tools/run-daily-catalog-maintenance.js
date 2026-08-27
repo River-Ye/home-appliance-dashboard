@@ -184,7 +184,6 @@ async function fetchPage(url) {
     const response = await fetchWithTimeout(url, {
       headers: {
         accept: "text/html,application/xhtml+xml,application/json;q=0.9,*/*;q=0.5",
-        range: `bytes=0-${TEXT_LIMIT_BYTES - 1}`,
       },
     });
     const contentType = response.headers.get("content-type") || "";
@@ -1327,6 +1326,7 @@ module.exports = {
   carriedCategoryReviewMatchesCatalog,
   exchangeRateRequestUrl,
   exchangeRatesFromPayload,
+  fetchPage,
   loadCatalogFromGit,
   maintenanceCacheVersion,
   maintenanceReviewReady,

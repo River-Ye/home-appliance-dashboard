@@ -1645,9 +1645,9 @@
     "name": "10坪圓嘟嘟空氣清淨機",
     "price": {
       "currency": "TWD",
-      "amount": 4288,
-      "converted": 4288,
-      "confidence": "PChome 2026-08-26 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 4999,
+      "converted": 4999,
+      "confidence": "PChome 2026-08-27 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAU6TA900IVWE0/000001_1748922662.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAU6T-A900IVWE0",

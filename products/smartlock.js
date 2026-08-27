@@ -4320,9 +4320,9 @@
     "name": "AI 智慧 A90 頂級電子門鎖",
     "price": {
       "currency": "TWD",
-      "amount": 32110,
-      "converted": 32110,
-      "confidence": "PChome 2026-08-24 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 31800,
+      "converted": 31800,
+      "confidence": "PChome 2026-08-27 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBS4NA900K2STR/000001_1783309040.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBS4N-A900K2STR",

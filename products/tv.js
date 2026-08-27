@@ -215,8 +215,8 @@
     "name": "BRAVIA 7 65 型 Mini LED 4K Google TV",
     "price": {
       "currency": "TWD",
-      "amount": 53910,
-      "converted": 53910,
+      "amount": 56900,
+      "converted": 56900,
       "confidence": "PChome 2026-08-27 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DPADFNA900K7VQ8/000001_1784011502.jpg",
@@ -813,8 +813,8 @@
     "name": "BRAVIA 8 65 型 XR OLED 4K HDR Google TV 顯示器",
     "price": {
       "currency": "TWD",
-      "amount": 84510,
-      "converted": 84510,
+      "amount": 93900,
+      "converted": 93900,
       "confidence": "PChome 2026-08-27 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DPAD06A900HLBJO/000001_1776334113.jpg",
@@ -1011,8 +1011,8 @@
     "name": "65 型 OLED 智慧聯網顯示器",
     "price": {
       "currency": "TWD",
-      "amount": 72072,
-      "converted": 72072,
+      "amount": 67977,
+      "converted": 67977,
       "confidence": "PChome 2026-08-27 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DPAD09A900J9FAZ/000001_1761888394.jpg",

@@ -359,9 +359,9 @@
 ## 價格與匯率
 
 <!-- catalog-maintenance-summary:start -->
-- 2026-08-27 08:18（台灣時間）完成 901 筆商品、30 類全量查核；454 筆 PChome SKU API 已完成（277 筆 exact model、65 筆人工 SKU 綁定可寫入，61 筆型號未自動確認），更新 27 筆公開價格（15 筆下修、12 筆上修），34 筆 Qty 0 只列追蹤。
-- 本次增量新增 network-switch-qnap-qsw-l2110-2s8t、network-switch-qnap-qsw-m2108r-2c；本次增量移除 network-switch-netgear-gs108e、network-switch-tplink-sg3210、soundbar-bowers-wilkins-panorama-3。沿用本資料日已完成的逐類人工新品覆核（原覆核時間保留），所有分類至少 20 筆；停產只採品牌官方明確證據，缺貨、反爬或單次連線錯誤不作為刪除依據。
-- 圖片查核覆蓋 901 筆；647 筆來源可由 exact model 或人工 SKU 綁定確認，254 筆來源例外與 4 筆圖片例外保留原資料。史低為 485 筆 `found`、416 筆 `not_found`，本輪其他更正 3 筆；65 筆來源可自動重現，其餘保留原逐筆證據且未臆測失效。
+- 2026-08-27 20:42（台灣時間）完成 901 筆商品、30 類全量查核；454 筆 PChome SKU API 已完成（274 筆 exact model、66 筆人工 SKU 綁定可寫入，61 筆型號未自動確認），更新 34 筆公開價格（28 筆下修、6 筆上修），35 筆 Qty 0 只列追蹤。
+- 本次增量新增 network-switch-netgear-gs108x、network-switch-qnap-qsw-3216r-8s8t；本次增量移除 network-switch-tplink-tl-sg108e、network-switch-tplink-tl-sx1008。沿用本資料日既有逐類人工新品覆核，並補查部分分類（原覆核時間保留），所有分類至少 20 筆；停產只採品牌官方明確證據，缺貨、反爬或單次連線錯誤不作為刪除依據。
+- 圖片查核覆蓋 901 筆；667 筆來源可由 exact model 或人工 SKU 綁定確認，234 筆來源例外與 2 筆圖片例外保留原資料。史低為 484 筆 `found`、417 筆 `not_found`，本輪異動 0 筆；74 筆來源可自動重現，其餘保留原逐筆證據且未臆測失效。
 - ExchangeRate-API 最新批次為 2026-08-27 00:02 UTC，USD/TWD 31.825974；29 筆外幣商品已重算。完整摘要與例外保存在 `catalog_maintenance_latest.json`。
 <!-- catalog-maintenance-summary:end -->
 

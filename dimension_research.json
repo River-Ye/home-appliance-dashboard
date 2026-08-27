@@ -5046,14 +5046,14 @@
       "checkedAt": "2026-08-24"
     },
     {
-      "id": "network-switch-tplink-tl-sg108e",
-      "dimension": "尺寸：寬 15.8 x 深 10.1 x 高 2.5 cm",
-      "sourceUrl": "https://www.tp-link.com/tw/home-networking/soho-switch/tl-sg108e/",
-      "sourceTitle": "TP-Link TL-SG108E 官方規格",
-      "evidenceSnippet": "TL-SG108E 官方規格列出機身尺寸 15.8 × 10.1 × 2.5 cm（寬 × 深 × 高）。",
+      "id": "network-switch-netgear-gs108x",
+      "dimension": "尺寸：寬 23.6 x 深 10.1 x 高 2.7 cm",
+      "sourceUrl": "https://www.netgear.com/business/wired/switches/unmanaged/gs108x/",
+      "sourceTitle": "NETGEAR GS108X 官方技術規格",
+      "evidenceSnippet": "NETGEAR 官方規格列尺寸 Width 236 mm、Depth 101 mm、Height 27 mm，即寬 23.6 × 深 10.1 × 高 2.7 cm；淨重 0.58 kg。",
       "confidence": "high",
       "isOfficialSource": true,
-      "checkedAt": "2026-08-24"
+      "checkedAt": "2026-08-27"
     },
     {
       "id": "network-switch-dlink-dgs-1100-08v2",
@@ -5156,14 +5156,14 @@
       "checkedAt": "2026-08-24"
     },
     {
-      "id": "network-switch-tplink-tl-sx1008",
-      "dimension": "尺寸：寬 29.4 x 深 18 x 高 4.4 cm",
-      "sourceUrl": "https://www.tp-link.com/tw/business-networking/soho-switch-unmanaged/tl-sx1008/",
-      "sourceTitle": "TP-Link TL-SX1008 台灣官方規格",
-      "evidenceSnippet": "TL-SX1008 官方規格列出機身尺寸 294 × 180 × 44 mm（寬 × 深 × 高）。",
+      "id": "network-switch-qnap-qsw-3216r-8s8t",
+      "dimension": "尺寸：寬 20.7 x 深 19.95 x 高 4.33 cm",
+      "sourceUrl": "https://www.qnap.com/zh-tw/product/qsw-3216r-8s8t/specs/hardware/QSW-3216R-8S8T.pdf",
+      "sourceTitle": "QNAP QSW-3216R-8S8T 官方硬體規格",
+      "evidenceSnippet": "QNAP 官方規格列尺寸（高 × 寬 × 深）43.3 × 207 × 199.5 mm，即寬 20.7 × 深 19.95 × 高 4.33 cm。",
       "confidence": "high",
       "isOfficialSource": true,
-      "checkedAt": "2026-08-24"
+      "checkedAt": "2026-08-27"
     },
     {
       "id": "network-switch-qnap-qsw-m3216r-8s8t",

@@ -44335,83 +44335,68 @@
       ]
     },
     {
-      "id": "network-switch-tplink-tl-sg108e",
+      "id": "network-switch-netgear-gs108x",
       "category": "network-switch",
-      "brand": "TP-Link",
-      "model": "TL-SG108E",
-      "reviewedAt": "2026-08-24",
+      "brand": "NETGEAR",
+      "model": "GS108X",
+      "reviewedAt": "2026-08-27",
       "reviewBatch": "network-switch",
       "decision": "no_common_issue",
       "checkedPlatforms": [
         "Reddit",
-        "Mobile01"
+        "YouTube",
+        "NETGEAR Community"
       ],
       "queries": [
         {
           "platform": "Reddit",
-          "query": "site:reddit.com \"TL-SG108E\" issue",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22TL-SG108E%22%20issue",
+          "query": "site:reddit.com \"GS108X\" (problem OR issue OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22GS108X%22%20%28problem%20OR%20issue%20OR%20failure%29",
           "targetHost": "reddit.com"
         },
         {
-          "platform": "Mobile01",
-          "query": "site:mobile01.com \"TL-SG108E\" 問題",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22TL-SG108E%22%20%E5%95%8F%E9%A1%8C",
-          "targetHost": "mobile01.com"
+          "platform": "YouTube",
+          "query": "\"GS108X\" problem issue failure",
+          "queryUrl": "https://www.youtube.com/results?search_query=%22GS108X%22%20problem%20issue%20failure",
+          "targetHost": "youtube.com"
         }
       ],
-      "candidateDisposition": "TL-SG108E：人工回看 Reddit 與 Mobile01 exact-model 查詢中的 3 個原頁候選；逐頁區分故障、設定／互通限制、未確認歸因與交叉貼文後，沒有任一相同問題達到 6 位獨立使用者且跨 2 個原始網站（不代表完全沒有負評）。",
+      "candidateDisposition": "GS108X：人工覆核 Reddit 與 NETGEAR Community 的 exact-model 原頁候選；候選為規格詢問、機架配件與 DAC 相容性個案，沒有相同問題達到 6 位獨立使用者且跨 2 個原始網站（不代表完全沒有負評）。",
       "representativeSources": [
         {
           "platform": "Reddit",
-          "url": "https://www.reddit.com/r/HomeNetworking/comments/1ay7r30",
-          "title": "TL-SG108E 間歇斷線個案"
+          "url": "https://www.reddit.com/r/HomeNetworking/comments/1ccsgnq",
+          "title": "GS108 與 GS108X 規格差異詢問"
         },
         {
-          "platform": "Reddit",
-          "url": "https://www.reddit.com/r/TpLink/comments/108gi68",
-          "title": "TL-SG108E 韌體更新後管理介面個案"
-        },
-        {
-          "platform": "Mobile01",
-          "url": "https://www.mobile01.com/topicdetail.php?f=110&t=7189138",
-          "title": "TL-SG108E 舊機埠降為 100Mbps 個案"
+          "platform": "NETGEAR Community",
+          "url": "https://community.netgear.com/discussions/business-unmanaged-switches/gs108x-rack-mounting/2459223",
+          "title": "GS108X Rack Mounting?"
         }
       ],
-      "reviewerNote": "TL-SG108E：人工回看 Reddit 與 Mobile01 exact-model 查詢中的 3 個原頁候選；逐頁區分故障、設定／互通限制、未確認歸因與交叉貼文後，沒有任一相同問題達到 6 位獨立使用者且跨 2 個原始網站（不代表完全沒有負評）。",
+      "reviewerNote": "GS108X：人工覆核 Reddit 與 NETGEAR Community 的 exact-model 原頁候選；候選為規格詢問、機架配件與 DAC 相容性個案，沒有相同問題達到 6 位獨立使用者且跨 2 個原始網站（不代表完全沒有負評）。",
       "attestation": "manual_original_pages_reviewed",
       "candidateReviews": [
         {
           "platform": "Reddit",
-          "url": "https://www.reddit.com/r/HomeNetworking/comments/1ay7r30",
-          "title": "TL-SG108E 間歇斷線個案",
-          "sourceExcerpt": "原頁一位 TL-SG108E 使用者描述連線間歇中斷，未形成同型號多人聚集。",
+          "url": "https://www.reddit.com/r/HomeNetworking/comments/1ccsgnq",
+          "title": "GS108 與 GS108X 規格差異詢問",
+          "sourceExcerpt": "原頁詢問 GS108 與 GS108X 的 1G 銅纜埠差異及 10G SFP+ uplink 用途，未描述故障或第一人稱使用異常。",
           "independentAuthors": 1,
-          "specificReason": "僅 1 位可辨識作者，且未與其他頁形成同一已確認根因的問題；未達 6 人／2 站。",
+          "specificReason": "屬規格／相容性詢問，不是第一人稱故障回報；未達 6 人／2 站。",
           "outcome": "excluded",
-          "reviewedAt": "2026-08-24",
+          "reviewedAt": "2026-08-27",
           "exactModel": true
         },
         {
-          "platform": "Reddit",
-          "url": "https://www.reddit.com/r/TpLink/comments/108gi68",
-          "title": "TL-SG108E 韌體更新後管理介面個案",
-          "sourceExcerpt": "原頁一位使用者描述 TL-SG108E 更新韌體後無法正常使用管理介面。",
+          "platform": "NETGEAR Community",
+          "url": "https://community.netgear.com/discussions/business-unmanaged-switches/gs108x-rack-mounting/2459223",
+          "title": "GS108X Rack Mounting?",
+          "sourceExcerpt": "原頁一位使用者詢問機架耳並描述 DAC 僅連到 1G；更換為相容 NETGEAR AXC761 後即恢復 10G。",
           "independentAuthors": 1,
-          "specificReason": "屬單一韌體／管理介面個案，與硬體斷線或降速不是同一問題，且只有 1 位作者。",
+          "specificReason": "屬安裝配件與 DAC 相容性個案，已以相容線材排除，未形成同型號集中故障。",
           "outcome": "excluded",
-          "reviewedAt": "2026-08-24",
-          "exactModel": true
-        },
-        {
-          "platform": "Mobile01",
-          "url": "https://www.mobile01.com/topicdetail.php?f=110&t=7189138",
-          "title": "TL-SG108E 舊機埠降為 100Mbps 個案",
-          "sourceExcerpt": "原頁一位長期使用者描述老化的 TL-SG108E 單埠只剩 100Mbps。",
-          "independentAuthors": 1,
-          "specificReason": "只有 1 位作者且為老機單埠案例；各站候選問題與硬體版號不同，未形成 6 位跨站同症。",
-          "outcome": "excluded",
-          "reviewedAt": "2026-08-24",
+          "reviewedAt": "2026-08-27",
           "exactModel": true
         }
       ]
@@ -44910,58 +44895,71 @@
       "candidateReviews": []
     },
     {
-      "id": "network-switch-tplink-tl-sx1008",
+      "id": "network-switch-qnap-qsw-3216r-8s8t",
       "category": "network-switch",
-      "brand": "TP-Link",
-      "model": "TL-SX1008",
-      "reviewedAt": "2026-08-24",
+      "brand": "QNAP",
+      "model": "QSW-3216R-8S8T",
+      "reviewedAt": "2026-08-27",
       "reviewBatch": "network-switch",
-      "decision": "common_issue",
+      "decision": "no_common_issue",
       "checkedPlatforms": [
-        "TP-Link Community",
         "Reddit",
-        "YouTube"
+        "YouTube",
+        "Amazon"
       ],
       "queries": [
         {
           "platform": "Reddit",
-          "query": "site:reddit.com \"TL-SX1008\" fan noise",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22TL-SX1008%22%20fan%20noise",
+          "query": "site:reddit.com \"QSW-3216R-8S8T\" issue",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22QSW-3216R-8S8T%22%20issue",
           "targetHost": "reddit.com"
         },
         {
           "platform": "YouTube",
-          "query": "\"TL-SX1008\" fan noise",
-          "queryUrl": "https://www.youtube.com/results?search_query=%22TL-SX1008%22%20fan%20noise",
+          "query": "\"QSW-3216R-8S8T\" problem issue failure",
+          "queryUrl": "https://www.youtube.com/results?search_query=%22QSW-3216R-8S8T%22%20problem%20issue%20failure",
           "targetHost": "youtube.com"
         }
       ],
-      "candidateDisposition": "TL-SX1008：人工覆核 TP-Link Community 與 Reddit 四個 exact-model 原頁；風扇噪音／轉速週期性升降共有 6 位可辨識獨立使用者、2 個原始網站，達既有門檻。",
+      "candidateDisposition": "QSW-3216R-8S8T：人工覆核 Amazon 與 Reddit exact-model 原頁；loop-detection／互通限制僅 Amazon 2 位獨立作者，Reddit 候選為管理型態辨識，沒有相同問題達到 6 位且跨 2 個原始網站（不代表完全沒有負評）。",
       "representativeSources": [
         {
-          "platform": "TP-Link Community",
-          "title": "TL-SX1008 loud fan noise",
-          "url": "https://community.tp-link.com/en/smart-home/forum/topic/264056"
-        },
-        {
-          "platform": "TP-Link Community",
-          "title": "TL-SX1008 Fan Issue",
-          "url": "https://community.tp-link.com/en/business/forum/topic/601442"
+          "platform": "Amazon",
+          "url": "https://www.amazon.com/dp/B0CJ44SV3N?th=1#customerReviews",
+          "title": "QSW-3216R-8S8T verified-purchase loop-detection reviews"
         },
         {
           "platform": "Reddit",
-          "title": "10G Switch TL-SX1008",
-          "url": "https://www.reddit.com/r/TpLink/comments/nfzpg9/10g_switch_tlsx1008/"
-        },
-        {
-          "platform": "Reddit",
-          "title": "Netgear XS505M noise level?",
-          "url": "https://www.reddit.com/r/homelab/comments/vsix9e/netgear_xs505m_noise_level/"
+          "url": "https://www.reddit.com/r/qnap/comments/1nwvcfe/qsw3216r8s8t_is_it_manged_or_unmanaged/",
+          "title": "QSW-3216R-8S8T is it managed or unmanaged?"
         }
       ],
-      "reviewerNote": "TL-SX1008 已人工回到四個原始頁逐位核對 exact model、第一人稱持有經驗與作者；6 位獨立使用者跨 TP-Link Community、Reddit，決策為 common_issue。",
+      "reviewerNote": "QSW-3216R-8S8T：人工覆核 Amazon 與 Reddit exact-model 原頁；loop-detection／互通限制僅 Amazon 2 位獨立作者，Reddit 候選為管理型態辨識，沒有相同問題達到 6 位且跨 2 個原始網站（不代表完全沒有負評）。",
       "attestation": "manual_original_pages_reviewed",
-      "candidateReviews": []
+      "candidateReviews": [
+        {
+          "platform": "Amazon",
+          "url": "https://www.amazon.com/dp/B0CJ44SV3N?th=1#customerReviews",
+          "title": "QSW-3216R-8S8T verified-purchase loop-detection reviews",
+          "sourceExcerpt": "Robin R. Ainscough 與 Benjamin R 兩位已驗證買家分別描述 ISP modem 與有線 Nest Wifi Pro AP 觸發不可關閉的 loop detection。",
+          "independentAuthors": 2,
+          "specificReason": "廣義 loop-detection／互通限制僅 2 位獨立作者且只在 Amazon 一站，未達 6 人且未跨 2 個原始網站。",
+          "outcome": "excluded",
+          "reviewedAt": "2026-08-27",
+          "exactModel": true
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/qnap/comments/1nwvcfe/qsw3216r8s8t_is_it_manged_or_unmanaged/",
+          "title": "QSW-3216R-8S8T is it managed or unmanaged?",
+          "sourceExcerpt": "原頁擁有者因機身標籤含 MAC、default IP 與帳密而詢問管理型態；討論確認此 exact model 為無網管型。",
+          "independentAuthors": 1,
+          "specificReason": "屬標籤／管理型態辨識，不是故障，也不是 Amazon 的 loop-detection 症狀。",
+          "outcome": "excluded",
+          "reviewedAt": "2026-08-27",
+          "exactModel": true
+        }
+      ]
     },
     {
       "id": "network-switch-qnap-qsw-m3216r-8s8t",

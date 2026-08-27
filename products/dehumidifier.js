@@ -305,8 +305,8 @@
     "name": "19.6 公升 PuriCare 雙變頻除濕機",
     "price": {
       "currency": "TWD",
-      "amount": 19646,
-      "converted": 19646,
+      "amount": 19855,
+      "converted": 19855,
       "confidence": "Yahoo購物中心 2026-08-27 exact-model 公開結構化價格"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ4OA900JX7GH/000001_1783563034.jpg",
@@ -977,9 +977,9 @@
     "name": "PuriCare 12 公升雙變頻除濕機",
     "price": {
       "currency": "TWD",
-      "amount": 12596,
-      "converted": 12596,
-      "confidence": "Yahoo購物中心 2026-08-26 exact-model 公開結構化價格"
+      "amount": 12730,
+      "converted": 12730,
+      "confidence": "Yahoo購物中心 2026-08-27 exact-model 公開結構化價格"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ4NA900JF9HP/000001_1778165423.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/LG%E6%A8%82%E9%87%91-12%E5%85%AC%E5%8D%87-%E6%97%A5UV%E6%AE%BA%E8%8F%8C%E9%9B%99%E8%AE%8A%E9%A0%BB%E9%99%A4%E6%BF%95%E6%A9%9FDD121QWE0-11864251.html",

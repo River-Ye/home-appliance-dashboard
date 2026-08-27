@@ -1363,44 +1363,6 @@ const verifiedRows = [
       },
     ],
   },
-  {
-    id: "network-switch-tplink-tl-sx1008",
-    checkedAt: "2026-08-24",
-    summary: "六位 TL-SX1008 使用者跨 TP-Link Community 與 Reddit 回報風扇持續偏吵、轉速週期性升降，待機或通風良好時仍可明顯聽見；多數回報來自較早硬體版本。",
-    title: "風扇噪音偏高或轉速週期性升降",
-    detail: "回報包含待機與通風良好時仍可聽見風扇、轉速每 3–7 秒週期性升降，且多數來自較早硬體版本；弱電箱應改善進排風並接受風扇維護風險，不建議自行改風扇，以免影響保固與原廠散熱設計。",
-    reportCount: 6,
-    sources: [
-      {
-        platform: "TP-Link Community",
-        title: "TL-SX1008 loud fan noise",
-        url: "https://community.tp-link.com/en/smart-home/forum/topic/264056",
-        authors: ["therealthings", "Jarrod9000"],
-        evidenceSnippet: "兩位 TL-SX1008 持有者回報待機或通風良好時仍可持續聽見原廠風扇。",
-      },
-      {
-        platform: "TP-Link Community",
-        title: "TL-SX1008 Fan Issue",
-        url: "https://community.tp-link.com/en/business/forum/topic/601442",
-        authors: ["Zyxian", "jzchen"],
-        evidenceSnippet: "兩位 TL-SX1008 持有者回報風扇會週期性加速與減速，插電或閒置時仍會發生。",
-      },
-      {
-        platform: "Reddit",
-        title: "10G Switch TL-SX1008",
-        url: "https://www.reddit.com/r/TpLink/comments/nfzpg9/10g_switch_tlsx1008/",
-        authors: ["vesoljc"],
-        evidenceSnippet: "購買者回報 40 mm 風扇高轉速噪音大到無法將交換器放在附近。",
-      },
-      {
-        platform: "Reddit",
-        title: "Netgear XS505M noise level?",
-        url: "https://www.reddit.com/r/homelab/comments/vsix9e/netgear_xs505m_noise_level/",
-        authors: ["BestMixTape"],
-        evidenceSnippet: "購買者回報 TL-SX1008 即使隔兩個房間仍影響入睡，因而立即退貨。",
-      },
-    ],
-  },
 ];
 
 if (new Set(verifiedRows.map((row) => row.id)).size !== verifiedRows.length) {
