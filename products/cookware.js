@@ -258,7 +258,7 @@
       "台灣通路"
     ],
     "category": "cookware",
-    "releaseDate": "2023",
+    "releaseDate": "2024-02-21",
     "historicalLow": {
       "status": "found",
       "amount": 1259,
@@ -2349,7 +2349,7 @@
       "18/10不鏽鋼",
       "電磁爐"
     ],
-    "releaseDate": "2026-07-17",
+    "releaseDate": "找不到",
     "historicalLow": {
       "status": "not_found",
       "amount": null,
@@ -2454,7 +2454,7 @@
       "再生鋁",
       "電磁爐"
     ],
-    "releaseDate": "2026-07",
+    "releaseDate": "找不到",
     "historicalLow": {
       "status": "not_found",
       "amount": null,
@@ -2665,7 +2665,7 @@
       "鑄鋁",
       "不適用IH"
     ],
-    "releaseDate": "找不到",
+    "releaseDate": "2022-02-01",
     "historicalLow": {
       "status": "not_found",
       "amount": null,

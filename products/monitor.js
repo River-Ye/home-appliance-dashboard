@@ -237,7 +237,7 @@
       "USB-C",
       "文書"
     ],
-    "releaseDate": "找不到",
+    "releaseDate": "2025-02",
     "historicalLow": {
       "status": "found",
       "amount": 3781,
@@ -534,7 +534,7 @@
       "210Hz",
       "CP 值"
     ],
-    "releaseDate": "找不到",
+    "releaseDate": "2026-08-20",
     "historicalLow": {
       "status": "found",
       "amount": 4488,
@@ -1029,7 +1029,7 @@
       "120Hz",
       "低價"
     ],
-    "releaseDate": "找不到",
+    "releaseDate": "2026-02-24",
     "historicalLow": {
       "status": "found",
       "amount": 3499,
@@ -1227,7 +1227,7 @@
       "160Hz",
       "USB-C"
     ],
-    "releaseDate": "2024-11",
+    "releaseDate": "2024-11-22",
     "historicalLow": {
       "status": "found",
       "amount": 7980,
@@ -1623,7 +1623,7 @@
       "雙模",
       "KVM"
     ],
-    "releaseDate": "2025-10-24",
+    "releaseDate": "2025-06-12",
     "historicalLow": {
       "status": "found",
       "amount": 8540,
@@ -1722,7 +1722,7 @@
       "4K",
       "USB-C"
     ],
-    "releaseDate": "2026-02-15",
+    "releaseDate": "2024-09-27",
     "historicalLow": {
       "status": "found",
       "amount": 14144,
@@ -1821,7 +1821,7 @@
       "4K",
       "USB-C"
     ],
-    "releaseDate": "找不到",
+    "releaseDate": "2025-03-05",
     "historicalLow": {
       "status": "found",
       "amount": 14144,
@@ -2114,7 +2114,7 @@
       "32吋",
       "ASUS"
     ],
-    "releaseDate": "找不到",
+    "releaseDate": "2025-10-31",
     "historicalLow": {
       "status": "found",
       "amount": 20888,
@@ -2213,7 +2213,7 @@
       "240Hz",
       "ROG"
     ],
-    "releaseDate": "找不到",
+    "releaseDate": "2026-07-24",
     "historicalLow": {
       "status": "not_found",
       "amount": null,
@@ -2313,7 +2313,7 @@
       "360Hz",
       "MSI"
     ],
-    "releaseDate": "找不到",
+    "releaseDate": "2024-03-21",
     "historicalLow": {
       "status": "found",
       "amount": 17955,
@@ -2497,7 +2497,7 @@
       "USB-C",
       "人體工學"
     ],
-    "releaseDate": "找不到",
+    "releaseDate": "2026-07",
     "historicalLow": {
       "status": "found",
       "amount": 6890,
@@ -2695,7 +2695,7 @@
       "260Hz",
       "Philips"
     ],
-    "releaseDate": "找不到",
+    "releaseDate": "2025-11",
     "historicalLow": {
       "status": "found",
       "amount": 4833,
@@ -2794,7 +2794,7 @@
       "2K",
       "HDR"
     ],
-    "releaseDate": "找不到",
+    "releaseDate": "2025-04-17",
     "historicalLow": {
       "status": "found",
       "amount": 7208,
@@ -2879,7 +2879,7 @@
       "500Hz",
       "旗艦"
     ],
-    "releaseDate": "2025-08-13",
+    "releaseDate": "2025-08-12",
     "historicalLow": {
       "status": "found",
       "amount": 19900,
@@ -3164,7 +3164,7 @@
       "WQHD",
       "曲面"
     ],
-    "releaseDate": "找不到",
+    "releaseDate": "2025-08-22",
     "historicalLow": {
       "status": "found",
       "amount": 5990,
@@ -3464,7 +3464,7 @@
       "200Hz",
       "電競"
     ],
-    "releaseDate": "找不到",
+    "releaseDate": "2026-07-09",
     "historicalLow": {
       "status": "found",
       "amount": 5499,
@@ -3564,7 +3564,7 @@
       "280Hz",
       "USB-C"
     ],
-    "releaseDate": "2026-05-07",
+    "releaseDate": "2026-07-24",
     "historicalLow": {
       "status": "found",
       "amount": 25543,
@@ -3764,7 +3764,7 @@
       "240Hz",
       "設計"
     ],
-    "releaseDate": "找不到",
+    "releaseDate": "2024-09-18",
     "historicalLow": {
       "status": "found",
       "amount": 28488,
@@ -4164,7 +4164,7 @@
       "OLED",
       "智慧聯網"
     ],
-    "releaseDate": "找不到",
+    "releaseDate": "2025-04-03",
     "historicalLow": {
       "status": "found",
       "amount": 37900,
@@ -4969,7 +4969,7 @@
       "KVM",
       "專業色彩"
     ],
-    "releaseDate": "2026-07",
+    "releaseDate": "2026-07-22",
     "historicalLow": {
       "status": "found",
       "amount": 25544,
@@ -5289,7 +5289,7 @@
       "DisplayPort 2.1",
       "HDR10+ Gaming"
     ],
-    "releaseDate": "2026-05-18",
+    "releaseDate": "2026-05",
     "historicalLow": {
       "status": "found",
       "amount": 28405,
@@ -5397,7 +5397,7 @@
       "HDMI 2.1",
       "PS5"
     ],
-    "releaseDate": "2024-10-08",
+    "releaseDate": "2024-10-25",
     "historicalLow": {
       "status": "not_found",
       "amount": null,

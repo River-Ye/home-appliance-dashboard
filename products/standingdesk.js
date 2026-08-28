@@ -2208,7 +2208,7 @@
       "120kg承重",
       "到府安裝"
     ],
-    "releaseDate": "2026-04-17",
+    "releaseDate": "2026",
     "historicalLow": {
       "status": "not_found",
       "amount": null,
@@ -2523,7 +2523,7 @@
       "靜態100kg",
       "桌板厚1.8cm"
     ],
-    "releaseDate": "2023-08-18",
+    "releaseDate": "2023",
     "historicalLow": {
       "status": "found",
       "amount": 8900,

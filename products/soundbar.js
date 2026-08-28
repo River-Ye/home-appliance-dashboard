@@ -51,7 +51,7 @@
       "後環繞",
       "旗艦"
     ],
-    "releaseDate": "2025",
+    "releaseDate": "2025-03-26",
     "historicalLow": {
       "status": "not_found",
       "amount": null,
@@ -145,7 +145,7 @@
       "均衡",
       "後環繞"
     ],
-    "releaseDate": "2026",
+    "releaseDate": "2026-04",
     "historicalLow": {
       "status": "found",
       "amount": 31255,
@@ -243,7 +243,7 @@
       "重低音",
       "對白"
     ],
-    "releaseDate": "2025",
+    "releaseDate": "2026-01-06",
     "historicalLow": {
       "status": "found",
       "amount": 10700,
@@ -442,7 +442,7 @@
       "音樂",
       "Wi-Fi"
     ],
-    "releaseDate": "2024-10-15",
+    "releaseDate": "2024-10-29",
     "historicalLow": {
       "status": "found",
       "amount": 37710,
@@ -531,7 +531,7 @@
       "電影",
       "中價位"
     ],
-    "releaseDate": "2023",
+    "releaseDate": "2025-06",
     "historicalLow": {
       "status": "found",
       "amount": 20899,
@@ -727,7 +727,7 @@
       "中階",
       "電視搭配"
     ],
-    "releaseDate": "2025-01-15",
+    "releaseDate": "2025-04-09",
     "historicalLow": {
       "status": "found",
       "amount": 17900,
@@ -923,7 +923,7 @@
       "旗艦",
       "劇院"
     ],
-    "releaseDate": "2026",
+    "releaseDate": "2026-04",
     "historicalLow": {
       "status": "found",
       "amount": 56905,
@@ -1021,7 +1021,7 @@
       "客廳",
       "均衡"
     ],
-    "releaseDate": "2026-04-02",
+    "releaseDate": "2026-04",
     "historicalLow": {
       "status": "found",
       "amount": 35055,
@@ -1119,7 +1119,7 @@
       "入門劇院",
       "Sony"
     ],
-    "releaseDate": "2025",
+    "releaseDate": "2021-05",
     "historicalLow": {
       "status": "found",
       "amount": 7751,
@@ -1315,7 +1315,7 @@
       "小客廳",
       "均衡"
     ],
-    "releaseDate": "2026",
+    "releaseDate": "2025-06",
     "historicalLow": {
       "status": "found",
       "amount": 13261,
@@ -1413,7 +1413,7 @@
       "後環繞",
       "客廳"
     ],
-    "releaseDate": "2022",
+    "releaseDate": "2025-06",
     "historicalLow": {
       "status": "found",
       "amount": 27161,
@@ -1511,7 +1511,7 @@
       "音樂",
       "簡潔"
     ],
-    "releaseDate": "2022-10-10",
+    "releaseDate": "找不到",
     "historicalLow": {
       "status": "not_found",
       "amount": null,
@@ -1707,7 +1707,7 @@
       "Sony",
       "高階"
     ],
-    "releaseDate": "2026",
+    "releaseDate": "2024-06-01",
     "historicalLow": {
       "status": "found",
       "amount": 20900,
@@ -1805,7 +1805,7 @@
       "Atmos",
       "Sony"
     ],
-    "releaseDate": "2024-04-17",
+    "releaseDate": "2024-06-01",
     "historicalLow": {
       "status": "found",
       "amount": 27900,
@@ -1903,7 +1903,7 @@
       "可拆環繞",
       "重低音"
     ],
-    "releaseDate": "2025-06-12",
+    "releaseDate": "2025-06",
     "historicalLow": {
       "status": "found",
       "amount": 40755,
@@ -2300,7 +2300,7 @@
       "Atmos",
       "重低音"
     ],
-    "releaseDate": "找不到",
+    "releaseDate": "2022-01",
     "historicalLow": {
       "status": "found",
       "amount": 11599,
@@ -2397,7 +2397,7 @@
       "Atmos",
       "重低音"
     ],
-    "releaseDate": "找不到",
+    "releaseDate": "2024-06",
     "historicalLow": {
       "status": "not_found",
       "amount": null,

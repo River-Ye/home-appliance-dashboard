@@ -241,7 +241,7 @@
       "Yale",
       "指紋"
     ],
-    "releaseDate": "找不到",
+    "releaseDate": "2025",
     "historicalLow": {
       "status": "found",
       "amount": 21589,
@@ -337,7 +337,7 @@
       "高階",
       "Yale"
     ],
-    "releaseDate": "找不到",
+    "releaseDate": "2025",
     "historicalLow": {
       "status": "found",
       "amount": 25000,
@@ -913,7 +913,7 @@
       "貓眼",
       "旗艦"
     ],
-    "releaseDate": "找不到",
+    "releaseDate": "2025",
     "historicalLow": {
       "status": "found",
       "amount": 25000,
@@ -1489,7 +1489,7 @@
       "Aqara",
       "指紋"
     ],
-    "releaseDate": "2022-03",
+    "releaseDate": "2022",
     "historicalLow": {
       "status": "found",
       "amount": 11699,
@@ -2029,7 +2029,7 @@
       "隔空充電",
       "海外參考"
     ],
-    "releaseDate": "2026-01",
+    "releaseDate": "2026",
     "historicalLow": {
       "status": "not_found",
       "amount": null,

@@ -1631,7 +1631,7 @@
     ],
     "bestFor": "需要 2.5G NAS、Wi-Fi 6／7 AP 有線回程與多台高速裝置的弱電箱。",
     "recommendation": "低功耗 2.5G 推薦：7.98W、無風扇與小機身適合箱內空間有限，但售價明顯較高。",
-    "releaseDate": "找不到",
+    "releaseDate": "2024-06-03",
     "historicalLow": {
       "status": "found",
       "amount": 5040,
@@ -1891,7 +1891,7 @@
     ],
     "bestFor": "需要 2.5G NAS、Wi-Fi 6／7 AP 有線回程與多台高速裝置的弱電箱。",
     "recommendation": "長保固 2.5G 網管推薦：無風扇、五年保固並提供 VLAN 與 QoS，但價格偏高。",
-    "releaseDate": "找不到",
+    "releaseDate": "2024",
     "historicalLow": {
       "status": "found",
       "amount": 6300,
@@ -2564,7 +2564,7 @@
     ],
     "bestFor": "已規劃主動通風，並需要 10G NAS、工作站或核心匯聚的弱電箱。",
     "recommendation": "高密度 10G 推薦：八個多速 RJ45 加八個 SFP+ 適合集中匯聚；48.632W 為本榜最高，弱電箱需強制通風。",
-    "releaseDate": "2023-11-01",
+    "releaseDate": "2023-10-12",
     "historicalLow": {
       "status": "found",
       "amount": 20480,

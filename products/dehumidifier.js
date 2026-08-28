@@ -145,7 +145,7 @@
       "變頻",
       "智慧"
     ],
-    "releaseDate": "2025-12-18",
+    "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
       "amount": 19999,
@@ -241,7 +241,7 @@
       "清淨",
       "旗艦"
     ],
-    "releaseDate": "2026",
+    "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
       "amount": 26116,
@@ -529,7 +529,7 @@
       "變頻",
       "節能"
     ],
-    "releaseDate": "2026-04-10",
+    "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
       "amount": 14747,
@@ -721,7 +721,7 @@
       "小坪數",
       "清淨"
     ],
-    "releaseDate": "2025-01-08",
+    "releaseDate": "找不到",
     "historicalLow": {
       "status": "not_found",
       "amount": null,
@@ -913,7 +913,7 @@
       "WiFi",
       "16L"
     ],
-    "releaseDate": "2026",
+    "releaseDate": "找不到",
     "historicalLow": {
       "status": "not_found",
       "amount": null,
@@ -1009,7 +1009,7 @@
       "12L",
       "變頻"
     ],
-    "releaseDate": "2026-04-03",
+    "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
       "amount": 11656,
@@ -1105,7 +1105,7 @@
       "變頻",
       "均衡"
     ],
-    "releaseDate": "2026-03-04",
+    "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
       "amount": 14220,
@@ -1201,7 +1201,7 @@
       "大容量",
       "高階"
     ],
-    "releaseDate": "2026-03-05",
+    "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
       "amount": 17955,
@@ -1393,7 +1393,7 @@
       "20L",
       "高 CP"
     ],
-    "releaseDate": "2026-02-09",
+    "releaseDate": "找不到",
     "historicalLow": {
       "status": "not_found",
       "amount": null,
@@ -1489,7 +1489,7 @@
       "節能",
       "預算"
     ],
-    "releaseDate": "2026-02-09",
+    "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
       "amount": 3511,
@@ -1585,7 +1585,7 @@
       "衣物乾燥",
       "SHARP"
     ],
-    "releaseDate": "2026-02-10",
+    "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
       "amount": 3990,
@@ -1777,7 +1777,7 @@
       "PCI",
       "中坪數"
     ],
-    "releaseDate": "2026",
+    "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
       "amount": 7999,

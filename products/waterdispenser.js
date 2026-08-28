@@ -2456,7 +2456,7 @@
       "窄機身",
       "220V"
     ],
-    "releaseDate": "2024-09-01",
+    "releaseDate": "找不到",
     "historicalLow": {
       "status": "not_found",
       "amount": null,
@@ -3378,7 +3378,7 @@
       "MIT",
       "需搭淨水器"
     ],
-    "releaseDate": "2025-06-05",
+    "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
       "amount": 24999,
@@ -3483,7 +3483,7 @@
       "非RO",
       "櫥下型"
     ],
-    "releaseDate": "2023-05-12",
+    "releaseDate": "找不到",
     "historicalLow": {
       "status": "not_found",
       "amount": null,
@@ -3695,7 +3695,7 @@
       "PF-207",
       "廚下型"
     ],
-    "releaseDate": "2026-04-01",
+    "releaseDate": "找不到",
     "historicalLow": {
       "status": "not_found",
       "amount": null,
@@ -3806,7 +3806,7 @@
       "110V",
       "櫥下型"
     ],
-    "releaseDate": "2026-03-02",
+    "releaseDate": "找不到",
     "historicalLow": {
       "status": "not_found",
       "amount": null,

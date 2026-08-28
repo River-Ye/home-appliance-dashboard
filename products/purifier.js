@@ -141,7 +141,7 @@
       "低噪",
       "Wi-Fi"
     ],
-    "releaseDate": "2023-09-25",
+    "releaseDate": "2023",
     "historicalLow": {
       "status": "not_found",
       "amount": null,
@@ -333,7 +333,7 @@
       "360 度",
       "安全牌"
     ],
-    "releaseDate": "2021-12-16",
+    "releaseDate": "找不到",
     "historicalLow": {
       "status": "not_found",
       "amount": null,
@@ -621,7 +621,7 @@
       "Blueair",
       "設計"
     ],
-    "releaseDate": "2025-06-26",
+    "releaseDate": "2025-08-08",
     "historicalLow": {
       "status": "not_found",
       "amount": null,
@@ -717,7 +717,7 @@
       "WiFi",
       "CP 值"
     ],
-    "releaseDate": "2023-09-25",
+    "releaseDate": "2023",
     "historicalLow": {
       "status": "not_found",
       "amount": null,
@@ -813,7 +813,7 @@
       "WiFi",
       "均衡"
     ],
-    "releaseDate": "2023-09-25",
+    "releaseDate": "2023",
     "historicalLow": {
       "status": "not_found",
       "amount": null,
@@ -1389,7 +1389,7 @@
       "低價",
       "簡約"
     ],
-    "releaseDate": "2023-04-20",
+    "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
       "amount": 4111,
@@ -1869,7 +1869,7 @@
       "PuriCare",
       "中坪數"
     ],
-    "releaseDate": "2026",
+    "releaseDate": "找不到",
     "historicalLow": {
       "status": "not_found",
       "amount": null,

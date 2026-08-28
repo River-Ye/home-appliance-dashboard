@@ -535,7 +535,7 @@
       "人體工學",
       "台灣品牌"
     ],
-    "releaseDate": "找不到",
+    "releaseDate": "2024-01-25",
     "historicalLow": {
       "status": "not_found",
       "amount": null,
@@ -1002,7 +1002,7 @@
       "Steelcase",
       "辦公椅"
     ],
-    "releaseDate": "找不到",
+    "releaseDate": "2023-04-25",
     "historicalLow": {
       "status": "found",
       "amount": 62605,
@@ -2264,7 +2264,7 @@
       "3D扶手",
       "官方通路"
     ],
-    "releaseDate": "2026-07-06",
+    "releaseDate": "2026",
     "historicalLow": {
       "status": "not_found",
       "amount": null,
@@ -2364,7 +2364,7 @@
       "4D扶手",
       "可調座深"
     ],
-    "releaseDate": "2026-07-01",
+    "releaseDate": "2026",
     "historicalLow": {
       "status": "not_found",
       "amount": null,
@@ -2468,7 +2468,7 @@
       "Class 4",
       "居家工作"
     ],
-    "releaseDate": "2025-08-26",
+    "releaseDate": "2025-10",
     "historicalLow": {
       "status": "not_found",
       "amount": null,

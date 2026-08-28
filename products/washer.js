@@ -2229,7 +2229,7 @@
       "直立式",
       "AI"
     ],
-    "releaseDate": "找不到",
+    "releaseDate": "2025-05-27",
     "historicalLow": {
       "status": "found",
       "amount": 12799,

@@ -433,7 +433,7 @@
       "16 吋",
       "CP 值"
     ],
-    "releaseDate": "2025-05-13",
+    "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
       "amount": 2111,
@@ -1489,7 +1489,7 @@
       "DC",
       "循環"
     ],
-    "releaseDate": "2026-03-17",
+    "releaseDate": "找不到",
     "historicalLow": {
       "status": "not_found",
       "amount": null,
@@ -1585,7 +1585,7 @@
       "DC",
       "冷氣搭配"
     ],
-    "releaseDate": "2026-03-17",
+    "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
       "amount": 2106,
@@ -1681,7 +1681,7 @@
       "塔扇",
       "省空間"
     ],
-    "releaseDate": "2026-03-17",
+    "releaseDate": "找不到",
     "historicalLow": {
       "status": "not_found",
       "amount": null,

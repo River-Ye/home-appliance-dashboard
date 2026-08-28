@@ -147,7 +147,7 @@
       "CP 值",
       "TP-Link"
     ],
-    "releaseDate": "2024-08-30",
+    "releaseDate": "2024-09",
     "historicalLow": {
       "status": "not_found",
       "amount": null,
@@ -341,7 +341,7 @@
       "CP 值",
       "ASUS"
     ],
-    "releaseDate": "找不到",
+    "releaseDate": "2026-03",
     "historicalLow": {
       "status": "not_found",
       "amount": null,
@@ -921,7 +921,7 @@
       "商用 AP"
     ],
     "rank": 10,
-    "releaseDate": "找不到",
+    "releaseDate": "2024-01-08",
     "historicalLow": {
       "status": "not_found",
       "amount": null,
@@ -1095,7 +1095,7 @@
       "低價 AP"
     ],
     "rank": 12,
-    "releaseDate": "找不到",
+    "releaseDate": "2025-02-27",
     "historicalLow": {
       "status": "not_found",
       "amount": null,
@@ -1675,7 +1675,7 @@
       "旗艦 AP"
     ],
     "rank": 18,
-    "releaseDate": "找不到",
+    "releaseDate": "2024",
     "historicalLow": {
       "status": "not_found",
       "amount": null,
@@ -1962,7 +1962,7 @@
       "D-Link",
       "2.5G"
     ],
-    "releaseDate": "2026-04-16",
+    "releaseDate": "2025-07-03",
     "historicalLow": {
       "status": "found",
       "amount": 4599,
@@ -2059,7 +2059,7 @@
       "Acer",
       "三頻"
     ],
-    "releaseDate": "2024-01-08",
+    "releaseDate": "2024-08",
     "historicalLow": {
       "status": "found",
       "amount": 5290,
@@ -2156,7 +2156,7 @@
       "Wi-Fi 6",
       "低價"
     ],
-    "releaseDate": "找不到",
+    "releaseDate": "2022-07-14",
     "historicalLow": {
       "status": "found",
       "amount": 2799,
@@ -2433,7 +2433,7 @@
       "EasyMesh",
       "Mercusys"
     ],
-    "releaseDate": "找不到",
+    "releaseDate": "2024-11",
     "historicalLow": {
       "status": "found",
       "amount": 1399,
@@ -2821,7 +2821,7 @@
       "Linksys",
       "Wi-Fi 6"
     ],
-    "releaseDate": "2021-12",
+    "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
       "amount": 9680,
@@ -3015,7 +3015,7 @@
       "ASUS",
       "多埠"
     ],
-    "releaseDate": "2024-03-27",
+    "releaseDate": "2024-04-01",
     "historicalLow": {
       "status": "found",
       "amount": 8111,
@@ -3112,7 +3112,7 @@
       "TP-Link",
       "旗艦"
     ],
-    "releaseDate": "2024-08-30",
+    "releaseDate": "2024-09",
     "historicalLow": {
       "status": "found",
       "amount": 8388,
@@ -3200,7 +3200,7 @@
       "旗艦",
       "TP-Link"
     ],
-    "releaseDate": "2022-12-31",
+    "releaseDate": "2023-04-17",
     "historicalLow": {
       "status": "not_found",
       "amount": null,
@@ -3303,7 +3303,7 @@
       "單台",
       "高階"
     ],
-    "releaseDate": "2024-06-19",
+    "releaseDate": "2024-06-11",
     "historicalLow": {
       "status": "found",
       "amount": 5990,
@@ -3401,7 +3401,7 @@
       "小辦公",
       "Wi-Fi 6"
     ],
-    "releaseDate": "找不到",
+    "releaseDate": "2024-06-03",
     "historicalLow": {
       "status": "found",
       "amount": 5661,
@@ -4454,7 +4454,7 @@
       "Wi-Fi 6",
       "Mesh"
     ],
-    "releaseDate": "找不到",
+    "releaseDate": "2022-01-12",
     "historicalLow": {
       "status": "found",
       "amount": 1999,
@@ -4554,7 +4554,7 @@
       "BE3600",
       "單台路由器"
     ],
-    "releaseDate": "找不到",
+    "releaseDate": "2024-11-14",
     "historicalLow": {
       "status": "found",
       "amount": 1639,
@@ -4653,7 +4653,7 @@
       "BE9300",
       "三頻"
     ],
-    "releaseDate": "找不到",
+    "releaseDate": "2024-03-28",
     "historicalLow": {
       "status": "found",
       "amount": 3999,
@@ -4850,7 +4850,7 @@
       "EasyMesh",
       "MLO"
     ],
-    "releaseDate": "2026-03-03",
+    "releaseDate": "2025-05-20",
     "historicalLow": {
       "status": "found",
       "amount": 5499,

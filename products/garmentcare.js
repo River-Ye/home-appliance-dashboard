@@ -1586,7 +1586,7 @@
     ],
     "bestFor": "只作韓國大容量 AirDresser 規格與價格參考，且能自行處理 220V、跨境運送與售後的人。",
     "recommendation": "DF90H24R4P 為韓國 Soapstone Platinum exact-model；不列台灣 Top Pick，購買前先解決 220V 與跨境保固。",
-    "releaseDate": "找不到",
+    "releaseDate": "2026-03",
     "historicalLow": {
       "status": "not_found",
       "amount": null,
@@ -2153,7 +2153,7 @@
       "Heat Pump",
       "110V"
     ],
-    "releaseDate": "2021-10-19",
+    "releaseDate": "2021",
     "historicalLow": {
       "status": "not_found",
       "amount": null,

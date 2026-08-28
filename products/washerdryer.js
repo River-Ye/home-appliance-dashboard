@@ -1096,7 +1096,7 @@
       "多功能"
     ],
     "category": "washerdryer",
-    "releaseDate": "找不到",
+    "releaseDate": "2024-10",
     "historicalLow": {
       "status": "found",
       "amount": 31960,
@@ -1200,7 +1200,7 @@
       "多功能"
     ],
     "category": "washerdryer",
-    "releaseDate": "找不到",
+    "releaseDate": "2024-10",
     "historicalLow": {
       "status": "found",
       "amount": 24900,
@@ -3162,7 +3162,7 @@
       "米家 App",
       "110–120V"
     ],
-    "releaseDate": "2026-08-28",
+    "releaseDate": "找不到",
     "historicalLow": {
       "status": "not_found",
       "amount": null,

@@ -48,7 +48,7 @@
       "機械手臂",
       "零纏繞"
     ],
-    "releaseDate": "2025",
+    "releaseDate": "2025-05-09",
     "historicalLow": {
       "status": "not_found",
       "amount": null,
@@ -144,7 +144,7 @@
       "熱水洗拖",
       "越障"
     ],
-    "releaseDate": "2026-04-06",
+    "releaseDate": "找不到",
     "historicalLow": {
       "status": "not_found",
       "amount": null,
@@ -328,7 +328,7 @@
       "越障",
       "寵物毛"
     ],
-    "releaseDate": "2026-01-06",
+    "releaseDate": "2026-03-23",
     "historicalLow": {
       "status": "found",
       "amount": 29682,
@@ -521,7 +521,7 @@
       "滾筒拖地",
       "自動洗烘"
     ],
-    "releaseDate": "2026-01-06",
+    "releaseDate": "2026-01-19",
     "historicalLow": {
       "status": "found",
       "amount": 18388,
@@ -617,7 +617,7 @@
       "上下水",
       "滾筒洗地"
     ],
-    "releaseDate": "2025-09",
+    "releaseDate": "找不到",
     "historicalLow": {
       "status": "not_found",
       "amount": null,
@@ -906,7 +906,7 @@
       "超薄",
       "沿邊清潔"
     ],
-    "releaseDate": "2025-03-19",
+    "releaseDate": "找不到",
     "historicalLow": {
       "status": "not_found",
       "amount": null,
@@ -1002,7 +1002,7 @@
       "CP 值",
       "全能基站"
     ],
-    "releaseDate": "2026-03-05",
+    "releaseDate": "找不到",
     "historicalLow": {
       "status": "not_found",
       "amount": null,
@@ -1098,7 +1098,7 @@
       "超薄",
       "AI 辨識"
     ],
-    "releaseDate": "2026",
+    "releaseDate": "找不到",
     "historicalLow": {
       "status": "not_found",
       "amount": null,
@@ -1387,7 +1387,7 @@
       "海外參考",
       "滾筒洗地"
     ],
-    "releaseDate": "2026",
+    "releaseDate": "2026-04-20",
     "historicalLow": {
       "status": "not_found",
       "amount": null,
@@ -1483,7 +1483,7 @@
       "海外參考",
       "熱水洗拖"
     ],
-    "releaseDate": "2026-05-12",
+    "releaseDate": "2025-04-15",
     "historicalLow": {
       "status": "not_found",
       "amount": null,
@@ -1579,7 +1579,7 @@
       "滾筒",
       "Roomba"
     ],
-    "releaseDate": "2025-07-22",
+    "releaseDate": "找不到",
     "historicalLow": {
       "status": "not_found",
       "amount": null,
@@ -1763,7 +1763,7 @@
       "Roomba",
       "均衡"
     ],
-    "releaseDate": "2025-03",
+    "releaseDate": "2025-03-23",
     "historicalLow": {
       "status": "not_found",
       "amount": null,
@@ -1955,7 +1955,7 @@
       "AI 掃拖",
       "自清潔"
     ],
-    "releaseDate": "2025",
+    "releaseDate": "找不到",
     "historicalLow": {
       "status": "not_found",
       "amount": null,
@@ -2051,7 +2051,7 @@
       "活水洗地",
       "零纏繞"
     ],
-    "releaseDate": "2025-11-13",
+    "releaseDate": "2025-05-27",
     "historicalLow": {
       "status": "not_found",
       "amount": null,
@@ -2147,7 +2147,7 @@
       "CP 值",
       "自清潔"
     ],
-    "releaseDate": "2026-02-06",
+    "releaseDate": "2026-02",
     "historicalLow": {
       "status": "not_found",
       "amount": null,
@@ -2243,7 +2243,7 @@
       "極薄",
       "滾筒洗地"
     ],
-    "releaseDate": "2026-04-08",
+    "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
       "amount": 24681,
@@ -2435,7 +2435,7 @@
       "LG 生態",
       "濕拖"
     ],
-    "releaseDate": "2025",
+    "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
       "amount": 12816,
@@ -2531,7 +2531,7 @@
       "CP 值",
       "濕拖"
     ],
-    "releaseDate": "2025-03-11",
+    "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
       "amount": 7999,
@@ -2627,7 +2627,7 @@
       "海外參考",
       "自動洗烘"
     ],
-    "releaseDate": "2024-10-05",
+    "releaseDate": "2024",
     "historicalLow": {
       "status": "not_found",
       "amount": null,
@@ -2907,7 +2907,7 @@
       "集塵",
       "中階"
     ],
-    "releaseDate": "找不到",
+    "releaseDate": "2025-02",
     "historicalLow": {
       "status": "not_found",
       "amount": null,
@@ -3009,7 +3009,7 @@
       "35,000Pa",
       "6cm 越障"
     ],
-    "releaseDate": "2026-06-16",
+    "releaseDate": "找不到",
     "historicalLow": {
       "status": "not_found",
       "amount": null,
@@ -3540,7 +3540,7 @@
       "零纏繞",
       "台灣公司貨"
     ],
-    "releaseDate": "2026-07-21",
+    "releaseDate": "2026-07-22",
     "historicalLow": {
       "status": "found",
       "amount": 25980,

@@ -3413,7 +3413,7 @@
     ],
     "bestFor": "小房間或書房，且能先確認 220V 專用迴路、排水、室外機位置與配管路徑的台灣住宅",
     "recommendation": "冷專推薦：完整組價與安裝邊界清楚；實際能力仍應由合格空調技師依熱負載場勘。",
-    "releaseDate": "2024-06-01",
+    "releaseDate": "找不到",
     "historicalLow": {
       "status": "not_found",
       "amount": null,
@@ -3537,7 +3537,7 @@
     ],
     "bestFor": "大客廳、開放式客餐廳或高熱負載空間，且能先確認 220V 專用迴路、排水、室外機位置與配管路徑的台灣住宅",
     "recommendation": "冷專推薦：完整組價與安裝邊界清楚；實際能力仍應由合格空調技師依熱負載場勘。",
-    "releaseDate": "2024-06-01",
+    "releaseDate": "找不到",
     "historicalLow": {
       "status": "not_found",
       "amount": null,
@@ -3661,7 +3661,7 @@
     ],
     "bestFor": "大客廳、開放式客餐廳或高熱負載空間，且能先確認 220V 專用迴路、排水、室外機位置與配管路徑的台灣住宅",
     "recommendation": "冷專推薦：完整組價與安裝邊界清楚；實際能力仍應由合格空調技師依熱負載場勘。",
-    "releaseDate": "2024-06-01",
+    "releaseDate": "找不到",
     "historicalLow": {
       "status": "not_found",
       "amount": null,

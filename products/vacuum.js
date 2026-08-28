@@ -49,7 +49,7 @@
       "顯塵",
       "乾吸"
     ],
-    "releaseDate": "2022-06-22",
+    "releaseDate": "2024-04-10",
     "historicalLow": {
       "status": "found",
       "amount": 15900,
@@ -337,7 +337,7 @@
       "熱水洗",
       "寵物"
     ],
-    "releaseDate": "2024",
+    "releaseDate": "2025",
     "historicalLow": {
       "status": "found",
       "amount": 17559,
@@ -529,7 +529,7 @@
       "輕量",
       "無線"
     ],
-    "releaseDate": "2021-05",
+    "releaseDate": "2024-04-10",
     "historicalLow": {
       "status": "found",
       "amount": 16044,
@@ -625,7 +625,7 @@
       "Dyson",
       "寵物"
     ],
-    "releaseDate": "2025-11",
+    "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
       "amount": 15888,
@@ -721,7 +721,7 @@
       "Dyson",
       "高吸力"
     ],
-    "releaseDate": "2021",
+    "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
       "amount": 17363,
@@ -913,7 +913,7 @@
       "蒸氣",
       "LG"
     ],
-    "releaseDate": "找不到",
+    "releaseDate": "2024-06-11",
     "historicalLow": {
       "status": "not_found",
       "amount": null,
@@ -1009,7 +1009,7 @@
       "輕量",
       "低價"
     ],
-    "releaseDate": "找不到",
+    "releaseDate": "2024-06-11",
     "historicalLow": {
       "status": "not_found",
       "amount": null,
@@ -1105,7 +1105,7 @@
       "輕量",
       "均衡"
     ],
-    "releaseDate": "2018-12-18",
+    "releaseDate": "2024-06-11",
     "historicalLow": {
       "status": "found",
       "amount": 6966,
@@ -1681,7 +1681,7 @@
       "AI",
       "平躺"
     ],
-    "releaseDate": "2025",
+    "releaseDate": "2025-07-17",
     "historicalLow": {
       "status": "found",
       "amount": 13618,
@@ -2067,7 +2067,7 @@
       "延長管",
       "輕量"
     ],
-    "releaseDate": "找不到",
+    "releaseDate": "2023-09-29",
     "historicalLow": {
       "status": "not_found",
       "amount": null,
@@ -2269,7 +2269,7 @@
       "Fluffy Optic",
       "寵物家庭"
     ],
-    "releaseDate": "2025-09-04",
+    "releaseDate": "2026",
     "historicalLow": {
       "status": "not_found",
       "amount": null,
@@ -2586,7 +2586,7 @@
       "多層過濾",
       "LCD"
     ],
-    "releaseDate": "找不到",
+    "releaseDate": "2026-01",
     "historicalLow": {
       "status": "not_found",
       "amount": null,

@@ -52,7 +52,7 @@
       "遊戲",
       "電影"
     ],
-    "releaseDate": "2025-03-11",
+    "releaseDate": "2025",
     "historicalLow": {
       "status": "not_found",
       "amount": null,
@@ -151,7 +151,7 @@
       "CP 值",
       "遊戲"
     ],
-    "releaseDate": "2025",
+    "releaseDate": "找不到",
     "historicalLow": {
       "status": "not_found",
       "amount": null,
@@ -650,7 +650,7 @@
       "CP 值",
       "144Hz"
     ],
-    "releaseDate": "2024",
+    "releaseDate": "2024-05",
     "historicalLow": {
       "status": "found",
       "amount": 28159,
@@ -947,7 +947,7 @@
       "藝廊",
       "旗艦"
     ],
-    "releaseDate": "2025-01",
+    "releaseDate": "2025",
     "historicalLow": {
       "status": "found",
       "amount": 62521,
@@ -1046,7 +1046,7 @@
       "電影",
       "均衡"
     ],
-    "releaseDate": "2025",
+    "releaseDate": "2025-06",
     "historicalLow": {
       "status": "found",
       "amount": 65032,
@@ -1145,7 +1145,7 @@
       "遊戲",
       "Google TV"
     ],
-    "releaseDate": "2024",
+    "releaseDate": "2024-05",
     "historicalLow": {
       "status": "found",
       "amount": 74900,
@@ -1244,7 +1244,7 @@
       "高亮度",
       "旗艦"
     ],
-    "releaseDate": "2025-04-10",
+    "releaseDate": "2025-04-09",
     "historicalLow": {
       "status": "found",
       "amount": 79360,
@@ -1343,7 +1343,7 @@
       "Google TV",
       "客廳"
     ],
-    "releaseDate": "2026-05-05",
+    "releaseDate": "2026-05-13",
     "historicalLow": {
       "status": "found",
       "amount": 52000,
@@ -1541,7 +1541,7 @@
       "遊戲",
       "CP 值"
     ],
-    "releaseDate": "找不到",
+    "releaseDate": "2025-09-26",
     "historicalLow": {
       "status": "found",
       "amount": 20999,
@@ -1640,7 +1640,7 @@
       "Mini LED",
       "旗艦"
     ],
-    "releaseDate": "2025",
+    "releaseDate": "2025-03-26",
     "historicalLow": {
       "status": "found",
       "amount": 59800,
@@ -1937,7 +1937,7 @@
       "QLED",
       "REGZA"
     ],
-    "releaseDate": "找不到",
+    "releaseDate": "2024",
     "historicalLow": {
       "status": "found",
       "amount": 17900,
@@ -2434,7 +2434,7 @@
       "Google TV",
       "65吋"
     ],
-    "releaseDate": "找不到",
+    "releaseDate": "2025-05-20",
     "historicalLow": {
       "status": "found",
       "amount": 39900,
@@ -3458,7 +3458,7 @@
     ],
     "bestFor": "想在 65 吋級距比較 Mini LED、144Hz 遊戲與 Google TV，並重視台灣公司貨安裝售後的客廳使用者。",
     "recommendation": "Mini LED 品牌補足推薦：在 SHARP 既有色彩與日本品牌偏好之外，補上高刷新與雙手機投影協定的實質比較差異。",
-    "releaseDate": "2025",
+    "releaseDate": "找不到",
     "historicalLow": {
       "status": "not_found",
       "amount": null,
@@ -3568,7 +3568,7 @@
     ],
     "bestFor": "同時接遊戲主機與電競 PC、重視 4K 144Hz、多 HDMI、AirPlay／Google Cast，又不想承擔 OLED 烙印疑慮的家庭。",
     "recommendation": "65 吋 Mini LED 遊戲平衡推薦：四組 144Hz HDMI 與完整投影協定形成明確比較價值；接近 NT$43,866 史低時更值得入手。",
-    "releaseDate": "2026-06",
+    "releaseDate": "2026-06-08",
     "historicalLow": {
       "status": "found",
       "amount": 43866,
