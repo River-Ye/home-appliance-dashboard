@@ -94,15 +94,22 @@ function canonicalModel(product) {
     .trim();
 }
 
+function requiresFullVariantModel(model) {
+  return /(?:^|\s)(?:v\d+|pro|max|plus|lite|ultra|x|edition\s+\d+)$/i.test(model);
+}
+
 function modelAliases(product) {
   const normalizedModel = String(product.model || "").replace(/\s+/g, " ").trim();
   const withoutPack = canonicalModel(product);
   const skuTokens = (normalizedModel.match(/[A-Z][A-Z0-9]*(?:-[A-Z0-9]+)+|[A-Z]{1,}[A-Z0-9]{2,}/gi) || [])
     .filter((token) => /\d/.test(token));
+  const skuAliases = requiresFullVariantModel(withoutPack)
+    ? []
+    : skuTokens.map((token) => `${product.brand} ${token}`);
   return [...new Set([
     `${product.brand} ${normalizedModel}`,
     `${product.brand} ${withoutPack}`,
-    ...skuTokens.map((token) => `${product.brand} ${token}`),
+    ...skuAliases,
   ].map((value) => value.replace(/\s+/g, " ").trim()).filter(Boolean))];
 }
 
@@ -174,7 +181,7 @@ function candidateMatchesExactModel(product, candidate) {
   const longerVariant = new RegExp(`${escapedCanonical}[\\s_-]*(?:pro|max|plus|lite|ultra|v\\d+|gen[\\s_-]*\\d+|x)\\b`, "i");
   if (canonical.length >= 4 && longerVariant.test(rawCandidate)) return false;
 
-  const requiresFullVariant = /(?:^|\s)(?:v\d+|pro|max|plus|lite|ultra|x)$/i.test(canonical);
+  const requiresFullVariant = requiresFullVariantModel(canonical);
   const escapedBrand = String(product.brand || "")
     .split(/[\s_-]+/)
     .map((part) => part.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"))

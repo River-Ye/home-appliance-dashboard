@@ -1633,13 +1633,13 @@
     "name": "陶晶壺型鍋 1.7L",
     "price": {
       "currency": "TWD",
-      "amount": 6630,
-      "converted": 6630,
-      "confidence": "PChome 2026-08-11 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 6864,
+      "converted": 6864,
+      "confidence": "Yahoo購物中心 2026-08-28 自營 exact-model 新品頁公開價"
     },
     "image": "https://cs-a.ecimg.tw/items/DEAWMJA900JMZA5/000001_1768290148.jpg",
-    "buyUrl": "https://24h.pchome.com.tw/prod/DEAWMJ-A900JMZA5",
-    "buyLabel": "PChome",
+    "buyUrl": "https://tw.buy.yahoo.com/gdsale/WMF%E5%BE%B7%E5%9C%8B%E8%A3%BDFusiontecMineral%E5%A3%BA%E5%9E%8B%E9%8D%8B12-5cm1-7L%E9%89%91%E9%87%91%E8%89%B2%E9%99%B6%E6%99%B6%E9%8D%8B-11964316.html",
+    "buyLabel": "Yahoo購物中心自營",
     "specs": [
       "12.5cm",
       "1.7L",
@@ -1825,9 +1825,9 @@
     "name": "醇火系列不沾炒鍋",
     "price": {
       "currency": "TWD",
-      "amount": 1439,
-      "converted": 1439,
-      "confidence": "PChome 2026-08-20 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 1599,
+      "converted": 1599,
+      "confidence": "PChome 2026-08-28 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DEES01A900IQ6X3/000001_1764832269.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DEES01-A900IQ6X3",

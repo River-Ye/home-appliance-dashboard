@@ -1068,7 +1068,7 @@
       "currency": "TWD",
       "amount": 31980,
       "converted": 31980,
-      "confidence": "PChome 2026-08-26 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "confidence": "PChome 2026-08-28 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL3EA900JZ3SP/000001_1780033309.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBL3E-A900JZ3SP",
@@ -1164,7 +1164,7 @@
       "currency": "TWD",
       "amount": 9980,
       "converted": 9980,
-      "confidence": "PChome 2026-08-27 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "confidence": "PChome 2026-08-28 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL3EA900JY4G0/000001_1780033612.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBL3E-A900JY4G0",
@@ -1197,16 +1197,16 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 8999,
+      "amount": 8982,
       "currency": "TWD",
-      "converted": 8999,
+      "converted": 8982,
       "sourceUrl": "https://24h.pchome.com.tw/prod/DMBL3E-A900JY4G0",
-      "sourceTitle": "PChome 商品頁：【Dreame 追覓科技】D30 Ultra CE 全能掃拖機器人 / 【Dreame 追覓科技】D30 Ultra CE 全能掃拖機器人",
-      "evidenceSnippet": "PChome 商品 API 於 2026-07-10 回傳同一商品頁「【Dreame 追覓科技】D30 Ultra CE 全能掃拖機器人 / 【Dreame 追覓科技】D30 Ultra CE 全能掃拖機器人」查核價 NT$8,999，低於原先記錄史低。",
+      "sourceTitle": "PChome 24h 購物：【Dreame 追覓科技】D30 Ultra CE 全能掃拖機器人",
+      "evidenceSnippet": "PChome 24h 購物於 2026-08-28 顯示同型號可信新品公開價 NT$8,982，低於既有史低 NT$8,999。",
       "sourceKind": "retailer_page",
       "confidence": "medium",
-      "checkedAt": "2026-07-10",
-      "note": "採用 PChome 24h 同一商品頁可公開查核現價作為本次觀測到的最低價；同型號/規格並排除會員個人化折扣、信用卡回饋、點數、二手、福利品、展示機、箱損、拆封與整新品。"
+      "checkedAt": "2026-08-28",
+      "note": "採用 PChome 24h 購物當日可購商品的同型號新品公開價；不含會員券、點數、信用卡回饋、二手、福利、展示、拆封或整新品。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -1354,13 +1354,13 @@
     "name": "滾筒洗地旗艦掃拖機器人",
     "price": {
       "currency": "EUR",
-      "amount": 999,
-      "converted": 37064,
-      "confidence": "Boulanger 2026-07-21 來源價；ExchangeRate-API 2026-08-27 匯率換算"
+      "amount": 1099,
+      "converted": 40564,
+      "confidence": "Narwal 德國官方 2026-08-28 exact-model 標準套裝公開價 €1,099，目前所有變體售罄；ExchangeRate-API 2026-08-28 匯率換算"
     },
-    "image": "https://boulanger.scene7.com/is/image/Boulanger/6972075738536_h_f_l_0?fmt=png-alpha&wid=640&hei=640",
-    "buyUrl": "https://www.boulanger.com/ref/1238998",
-    "buyLabel": "Boulanger",
+    "image": "https://de.narwal.com/cdn/shop/files/narwal-flow-2-saugroboter-mit-selbstreinigung-9224922_1200x1200.png?v=1781597108",
+    "buyUrl": "https://de.narwal.com/products/narwal-flow-2-saugroboter-mit-selbstreinigung?variant=52366680523028",
+    "buyLabel": "Narwal 德國官方 exact-model 標準套裝（目前售罄）",
     "specs": [
       "31000Pa",
       "60 度熱水洗",
@@ -1373,6 +1373,7 @@
       "避障、拖地或基站通常是品牌當代主力"
     ],
     "cons": [
+      "官方頁目前所有變體售罄，無法立即購買",
       "海外購買價格波動大",
       "需確認電壓、插頭、耗材與台灣保固"
     ],
@@ -1397,8 +1398,8 @@
       "evidenceSnippet": "",
       "sourceKind": "not_found",
       "confidence": "not_found",
-      "checkedAt": "2026-07-09",
-      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ Flow 2: iHerb 【iHerb】WishGarden Herbs, Flow Stopper Lingering Cycle，2 液量盎司（59 毫升） 型號/規格不相符；LBJ Flow 2: iHerb 【iHerb】WishGarden Herbs, Happy Ducts Free The Flow，2 液量盎司（59 毫升） 非採用通路或含排除條件；LBJ Flow 2: Momo富邦購物 【Insta360】Flow 2 Pro / Flow 2 收納包(原廠公司貨) 非採用通路或含排除條件。"
+      "checkedAt": "2026-08-28",
+      "note": "已查 Narwal 德國官方 exact-model 標準套裝、BigGo、FindPrice 與 LBJ；官方頁可重現本輪 €1,099 標價，但所有變體目前售罄，且未取得帶日期的可信新品歷史低點，未以現價推定史低。原 Boulanger 頁現已改由第三方 techzedeal 販售且價格 €1,299.99，故不再作現價來源。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -1451,8 +1452,8 @@
     "price": {
       "currency": "USD",
       "amount": 551.69,
-      "converted": 17558,
-      "confidence": "Geekbuying 2026-07-21 來源價；ExchangeRate-API 2026-08-27 匯率換算"
+      "converted": 17477,
+      "confidence": "Geekbuying 2026-07-21 來源價；ExchangeRate-API 2026-08-28 匯率換算"
     },
     "image": "https://img.gkbcdn.com/p/2025-04-11/Narwal-Freo-Z10-Ultra-Robot-Vacuum-with-Base-Station-Gray-528438-0._w315_.jpg",
     "buyUrl": "https://www.geekbuying.com/item/Narwal-Freo-Z10-Ultra-Robot-Vacuum-with-Base-Station-Gray-528438.html",
@@ -1548,7 +1549,7 @@
       "currency": "TWD",
       "amount": 29292,
       "converted": 29292,
-      "confidence": "PChome 2026-08-26 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "confidence": "PChome 2026-08-28 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL0JA900JCCJT/000001_1782802020.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBL0J-A900JCCJT",
@@ -1732,7 +1733,7 @@
       "currency": "TWD",
       "amount": 15292,
       "converted": 15292,
-      "confidence": "PChome 2026-08-26 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "confidence": "PChome 2026-08-28 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL0JA900ITF88/000001_1782803241.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBL0J-A900ITF88",
@@ -2212,7 +2213,7 @@
       "currency": "TWD",
       "amount": 25980,
       "converted": 25980,
-      "confidence": "PChome 2026-08-26 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "confidence": "PChome 2026-08-28 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL5WA900JXBY3/000001_1776393356.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBL5W-A900JXBY3",
@@ -2595,8 +2596,8 @@
     "price": {
       "currency": "USD",
       "amount": 999.99,
-      "converted": 31826,
-      "confidence": "SharkNinja US 2026-07-21 來源價；ExchangeRate-API 2026-08-27 匯率換算"
+      "converted": 31678,
+      "confidence": "SharkNinja US 2026-07-21 來源價；ExchangeRate-API 2026-08-28 匯率換算"
     },
     "image": "https://assets.sharkninja.com/image/upload/f_auto/q_auto/SharkNinja-NA/RV2820ZE_01.jpg",
     "buyUrl": "https://www.sharkninja.com/shark-powerdetect-2-in-1-robot-vacuum-and-mop-with-nevertouch-pro-base/RV2820ZE.html",
@@ -2789,8 +2790,8 @@
     "price": {
       "currency": "USD",
       "amount": 399.99,
-      "converted": 12730,
-      "confidence": "Costco US 2026-07-21 最後可驗證價；2026-08-15 exact-model 頁顯示 Unavailable；ExchangeRate-API 2026-08-27 匯率換算"
+      "converted": 12671,
+      "confidence": "Costco US 2026-07-21 最後可驗證價；2026-08-15 exact-model 頁顯示 Unavailable；ExchangeRate-API 2026-08-28 匯率換算"
     },
     "image": "https://bfasset.costco-static.com/U447IH35/as/tkj772p4357mmh3bwz8kcq/1791272-847__1?auto=webp&format=jpg",
     "buyUrl": "https://www.costco.com/p/-/roborock-qx-revo-robot-vacuum-and-mop-with-multifunctional-dock/4000233271",
@@ -3790,6 +3791,188 @@
         }
       ]
     }
+  },
+  {
+    "id": "robot-xiaomi-vacuum-6-pv32gl",
+    "category": "robot",
+    "rank": 40,
+    "topPick": false,
+    "budget": "balanced",
+    "channel": "tw",
+    "brand": "Xiaomi",
+    "model": "PV32GL",
+    "name": "Xiaomi 掃拖機器人 6",
+    "price": {
+      "currency": "TWD",
+      "amount": 15999,
+      "converted": 15999,
+      "confidence": "PChome 24h 於 2026-08-28 的 exact-model 新品公開價",
+      "basis": "retailer_current"
+    },
+    "installation": {
+      "status": "not_stated",
+      "note": "台灣通路未標示含到府設定；水箱式全功能底座不需固定給排水，仍須預留平坦乾燥位置、100–120V／50–60Hz 接地插座與基座前方回充空間。"
+    },
+    "image": "https://i02.appmifile.com/518_operatorx_operatorx_xm/01/06/2026/2f6dd7e2204db8a3e0090a511888fff7.png",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DMBL53-A900KAFM1",
+    "buyLabel": "PChome 24h exact-model 新品",
+    "specs": [
+      "吸力：30,000Pa；主動活水滾筒拖布",
+      "AI 避障可辨識 220 種以上物體；機身高度 9cm",
+      "雙段式越障最高 4cm；基座 80°C 熱水洗布、45°C 熱風烘乾",
+      "機器人尺寸：直徑 35 x 高 9 cm；淨重 5.2 kg",
+      "基座尺寸：寬 34.7 x 深 28.8 x 高 55 cm；含延伸板深 47 cm",
+      "電池額定 4,800mAh、標稱 5,200mAh；最長約 75 天免倒垃圾",
+      "基座輸入 100–120V／50–60Hz；集塵 600W、熱水洗布 1,250W、烘乾充電 145W"
+    ],
+    "description": "Xiaomi 2026 年台灣現售的次旗艦滾筒掃拖款，以 30,000Pa、活水滾筒、9cm 薄型機身與 4cm 越障補進較低於 Pro 的完整基座價位帶。",
+    "pros": [
+      "活水滾筒持續刮洗，比傳統旋轉拖布更強調污水即時分離",
+      "9cm 薄型機身與 4cm 雙段越障兼顧低矮家具和門檻",
+      "台灣官方 exact-model 規格、110V 相容電力與可信通路現貨均可核對"
+    ],
+    "cons": [
+      "不含 Pro 的污漬辨識、遠端鏡頭與更高溫基座洗烘",
+      "水箱式基座仍須人工補清水、倒污水與更換集塵袋",
+      "新上市型號的長期耗材成本與可靠度仍待累積"
+    ],
+    "bestFor": "想以約一萬六千元取得活水滾筒、熱水洗烘與超薄越障機身，但不需要遠端看家鏡頭的家庭。",
+    "recommendation": "活水滾筒均衡推薦：相較同系列 Pro 保留主要清潔與越障能力，以較低價格提供清楚的功能分層。",
+    "releaseDate": "2026",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-08-28",
+      "note": "已查 PChome、Momo 小米官方旗艦店、LBJ 與 FindPrice 的 exact-model PV32GL；PChome 與 Momo 的 NT$15,999 只能證明本輪現價，LBJ 結果為相容耗材而非主機，未找到具日期且可重現的可信新品歷史價格曲線，故不以現價推定史低。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-08-28",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Xiaomi PV32GL\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Xiaomi%20PV32GL%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Xiaomi PV32GL\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Xiaomi%20PV32GL%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        }
+      ]
+    },
+    "score": 92,
+    "voltage": "機器人 14.4V DC；基座輸入 100–120V／50–60Hz，適用台灣 110V／60Hz",
+    "warranty": "台灣公司貨；Momo 小米官方旗艦店 exact-model 頁標示主機 1 年保固，耗材不在保固範圍",
+    "tags": [
+      "30,000Pa",
+      "活水滾筒",
+      "9cm薄型",
+      "4cm越障",
+      "80°C熱水洗布"
+    ]
+  },
+  {
+    "id": "robot-xiaomi-vacuum-6-pro-pv21gl",
+    "category": "robot",
+    "rank": 41,
+    "topPick": false,
+    "budget": "premium",
+    "channel": "tw",
+    "brand": "Xiaomi",
+    "model": "PV21GL",
+    "name": "Xiaomi 掃拖機器人 6 Pro",
+    "price": {
+      "currency": "TWD",
+      "amount": 20999,
+      "converted": 20999,
+      "confidence": "PChome 2026-08-28 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "basis": "retailer_current"
+    },
+    "installation": {
+      "status": "not_stated",
+      "note": "台灣通路未標示含到府設定；水箱式全功能底座不需固定給排水，仍須預留平坦乾燥位置、100–120V／50–60Hz 接地插座與基座前方回充空間。"
+    },
+    "image": "https://img.pchome.com.tw/cs/items/DMBL53A900KAFL2/000001_1786094362.png",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DMBL53-A900KAFL2",
+    "buyLabel": "PChome 24h exact-model 新品",
+    "specs": [
+      "吸力：30,000Pa；主動活水滾筒拖布",
+      "AI 可辨識 47 種污漬與 280 種以上障礙物，支援污漬複拖與遠端鏡頭",
+      "升降式雷達收起後機身高度 9cm；雙段式越障最高 4cm",
+      "基座 85°C 熱水洗布、50°C 熱風烘乾與自動集塵",
+      "機器人尺寸：直徑 35 x 高 9 cm；官方只列含配件總淨重 15 kg，未列機器人單機淨重",
+      "基座尺寸：寬 36 x 深 28.9 x 高 58.2 cm；含延伸板深 47 cm",
+      "基座輸入 100–120V／50–60Hz；集塵 650W、熱水洗布 1,200W、烘乾充電 120W"
+    ],
+    "description": "Xiaomi 2026 年台灣現售高階滾筒掃拖款，以污漬辨識、主動複拖、遠端鏡頭和升降雷達，形成介於標準版 6 與既有 6 Max 間的功能比較。",
+    "pros": [
+      "可辨識污漬並決定複拖，讓滾筒洗地不只依固定路徑運作",
+      "升降雷達維持 9cm 薄型機身，並保留 4cm 雙段越障",
+      "85°C 洗布、50°C 烘乾與遠端鏡頭補足標準版 6 的功能缺口"
+    ],
+    "cons": [
+      "遠端鏡頭涉及居家隱私，應設定帳號安全與依需求關閉",
+      "官方未分列機器人單機淨重，只能保守標示含配件總淨重",
+      "新上市型號的長期維修、耗材成本與可靠度仍待累積"
+    ],
+    "bestFor": "有寵物、餐桌污漬或複雜低矮家具，重視主動污漬處理、遠端查看與完整熱水洗烘的家庭。",
+    "recommendation": "污漬辨識進階推薦：用約兩萬元補上主動複拖、鏡頭與升降雷達，和標準版及 6 Max 形成清楚的三級比較。",
+    "releaseDate": "2026",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-08-28",
+      "note": "已查 PChome、Momo、小米蝦皮官方旗艦店、LBJ 與 FindPrice 的 exact-model PV21GL；NT$19,949／20,999 均只證明本輪現價，LBJ 結果為相容耗材而非主機，未找到具日期且可重現的可信新品歷史價格曲線，故不以現價推定史低。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-08-28",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Xiaomi PV21GL\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Xiaomi%20PV21GL%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Xiaomi PV21GL\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Xiaomi%20PV21GL%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        }
+      ]
+    },
+    "score": 94,
+    "voltage": "機器人 14.4V DC；基座輸入 100–120V／50–60Hz，適用台灣 110V／60Hz",
+    "warranty": "台灣公司貨；小米蝦皮官方旗艦店 exact-model 頁標示主機與充電座 1 年保固，耗材不在保固範圍",
+    "tags": [
+      "污漬辨識",
+      "活水滾筒",
+      "遠端鏡頭",
+      "4cm越障",
+      "85°C熱水洗布"
+    ]
   }
 ]);
 })();

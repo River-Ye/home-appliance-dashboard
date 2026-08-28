@@ -809,9 +809,9 @@
     "name": "17-49 吋 20KG 中柱款螢幕支架",
     "price": {
       "currency": "TWD",
-      "amount": 1454,
-      "converted": 1454,
-      "confidence": "PChome 2026-08-27 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 1499,
+      "converted": 1499,
+      "confidence": "PChome 2026-08-28 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DCBB69A900IHPC0/000001_1742812418.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DCBB69-A900IHPC0",
@@ -1502,9 +1502,9 @@
     "name": "45吋 20KG 氣壓式螢幕支架",
     "price": {
       "currency": "TWD",
-      "amount": 3250,
-      "converted": 3250,
-      "confidence": "PChome 2026-08-25 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 2999,
+      "converted": 2999,
+      "confidence": "PChome 2026-08-28 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DCAGU1A900I6WCY/000001_1754374453.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DCAGU1-A900I6WCY",
@@ -2121,14 +2121,14 @@
       "status": "found",
       "amount": 282,
       "currency": "GBP",
-      "converted": 12209,
+      "converted": 12141,
       "sourceUrl": "https://pricespy.co.uk/product.php?p=16273588",
       "sourceTitle": "PriceSpy UK：Dell HDA26 Single Monitor Arm",
       "evidenceSnippet": "PriceSpy exact-model 頁的 Price History 明示新品最低價 £282，且商品名稱、品牌與 GTIN 對應 Dell HDA26。",
       "sourceKind": "price_history",
       "confidence": "medium",
       "checkedAt": "2026-08-25",
-      "note": "採英國市場 exact-model 公開價格歷史並依 2026-08-27 GBP/TWD 匯率換算；未含國際運費、進口稅、退換貨與台灣保固風險，不能直接視為台灣到手價。"
+      "note": "採英國市場 exact-model 公開價格歷史並依 2026-08-28 GBP/TWD 匯率換算；未含國際運費、進口稅、退換貨與台灣保固風險，不能直接視為台灣到手價。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -2373,6 +2373,96 @@
           "query": "\"North Bayou G50\" problem issue defect failure broken 災情 故障 異常",
           "queryUrl": "https://www.youtube.com/results?search_query=%22North%20Bayou%20G50%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
           "targetHost": "youtube.com"
+        }
+      ]
+    }
+  },
+  {
+    "id": "monitorarm-asus-rog-ergo-aas01r",
+    "category": "monitorarm",
+    "rank": 25,
+    "topPick": false,
+    "budget": "premium",
+    "channel": "tw",
+    "brand": "ASUS",
+    "model": "ROG Ergo Monitor Arm AAS01R",
+    "name": "49 吋 13.5kg 雙軸機械彈簧螢幕支架",
+    "price": {
+      "currency": "TWD",
+      "amount": 5990,
+      "converted": 5990,
+      "confidence": "欣亞購物網 2026-08-28 exact-model 公開價且可加入購物車",
+      "basis": "retailer_current"
+    },
+    "image": "https://dlcdnwebimgs.asus.com/gain/BB9364DD-2E84-41A8-B533-24BEFCE681DC",
+    "buyUrl": "https://www.sinya.com.tw/prod/226165",
+    "buyLabel": "欣亞購物網",
+    "installation": {
+      "status": "not_stated",
+      "note": "售價為支架本體與原廠夾桌／穿桌配件，不含到府安裝；安裝前需核對 VESA、桌板厚度與螢幕不含腳架重量。"
+    },
+    "specs": [
+      "支援平面螢幕 3-13.5 kg；曲面螢幕 3-10.5 kg",
+      "最大支援 49 吋；VESA 100 x 100 mm",
+      "雙軸機械彈簧；夾桌適用桌板厚度 10-80 mm，穿桌適用 10-45 mm",
+      "尺寸：寬 57.8 x 深 15.4 x 高 65.6 cm",
+      "支架淨重：5.1 kg"
+    ],
+    "description": "AAS01R 是 ROG 2026 新款雙軸機械彈簧支架，補進主流品牌、49 吋與平面 13.5kg／曲面 10.5kg 分開標示的中高承重比較。",
+    "pros": [
+      "官方分列平面與曲面螢幕承重，選型邊界清楚",
+      "最大 49 吋並支援夾桌／穿桌兩種安裝",
+      "隱藏式走線與機械彈簧適合電競桌面"
+    ],
+    "cons": [
+      "曲面螢幕上限只有 10.5kg，不適合多數重型 49 吋或 57 吋超寬螢幕",
+      "價格高於多款 15-20kg 級台灣品牌支架",
+      "官方台灣產品頁未明載保固年限，兩年資訊來自欣亞商品頁"
+    ],
+    "bestFor": "使用 34-49 吋但重量仍在平面 13.5kg／曲面 10.5kg 內，重視 ROG 外觀與原廠走線設計的人。",
+    "recommendation": "品牌 49 吋支架補強：購買前逐一核對 VESA、桌板厚度與螢幕實際不含腳架重量；曲面螢幕要以 10.5kg 上限判斷，重型大螢幕應改選更高承重款並由兩人安裝。",
+    "score": 86,
+    "voltage": "非電器；市電不適用，台灣通路",
+    "warranty": "欣亞 exact-model 商品頁標示兩年保固；ASUS 台灣官方頁未公開本型號保固年限",
+    "tags": [
+      "懸臂支架",
+      "49吋",
+      "13.5kg",
+      "曲面10.5kg",
+      "夾桌",
+      "穿桌"
+    ],
+    "releaseDate": "2026-04-24",
+    "historicalLow": {
+      "status": "found",
+      "amount": 5990,
+      "currency": "TWD",
+      "converted": 5990,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=564727556&cgp=5990",
+      "sourceTitle": "LBJ 比價撿便宜歷史價格：ASUS ROG Ergo AAS01R 螢幕支架",
+      "evidenceSnippet": "LBJ 的 eclife 良興蝦皮商城 exact-model 歷史曲線在 2026-05-28、06-18、07-28、08-28 均記錄 NT$5,990。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
+      "checkedAt": "2026-08-28",
+      "note": "排除曲線中 2026-07-29 的 NT$1 異常值，該值明顯不是完整 AAS01R 新品售價；可信最低價為 NT$5,990。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-08-28",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"ROG Ergo Monitor Arm AAS01R\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22ROG%20Ergo%20Monitor%20Arm%20AAS01R%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"ROG Ergo Monitor Arm AAS01R\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22ROG%20Ergo%20Monitor%20Arm%20AAS01R%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
         }
       ]
     }

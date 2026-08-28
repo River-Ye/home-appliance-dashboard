@@ -1860,24 +1860,24 @@
     "name": "Bidet Toilet Seat",
     "price": {
       "currency": "USD",
-      "amount": 399.99,
-      "converted": 12730,
-      "confidence": "Costco US 2026-07-21 來源價；ExchangeRate-API 2026-08-27 匯率換算"
+      "amount": 383.99,
+      "converted": 12164,
+      "confidence": "Brondell US 官方 2026-08-28 exact-model 公開特價；ExchangeRate-API 2026-08-28 匯率換算"
     },
     "image": "https://bfasset.costco-static.com/U447IH35/as/k83n76pfjhvqcf9gfrz74sx/1432187-847__1?auto=webp&format=jpg",
-    "buyUrl": "https://www.costco.com/brondell-swash-cl1700-bidet-toilet-seat.product.100648788.html",
-    "buyLabel": "Costco US",
+    "buyUrl": "https://www.brondell.com/swash-cl1700-advanced-bidet-seat/",
+    "buyLabel": "Brondell US 官方",
     "specs": [
       "溫水洗淨便座",
       "遙控/電動式",
       "美規 elongated 座型",
-      "Costco US 3,994 則評論",
+      "Brondell US 官方 exact-model 現售",
       "需確認 120V、馬桶尺寸與安裝",
       "尺寸：查不到"
     ],
-    "description": "台灣 Costco 未找到明確免治馬桶新品頁，故補入 Costco US 高評論的 Brondell Swash CL1700 作海外參考。",
+    "description": "台灣通路未找到明確新品頁，故補入 Brondell US 官方現售 Swash CL1700 作海外參考。",
     "pros": [
-      "Costco US 評論量非常高",
+      "Brondell US 官方 exact-model 頁可直接核對價格與規格",
       "價格相對 TOTO 高階款低"
     ],
     "cons": [
@@ -1885,28 +1885,28 @@
       "未含國際運費、進口稅與台灣保固"
     ],
     "bestFor": "可自行確認尺寸、電壓與保固風險的海外採購使用者。",
-    "recommendation": "好市多海外補充：CL1700 評論量高，可作為 Costco US 免治便座價格參考，不建議未確認尺寸就直接下單。",
+    "recommendation": "Brondell 海外補充：CL1700 可作美規免治便座價格參考，不建議未確認尺寸、電壓與保固就直接下單。",
     "score": 84,
     "voltage": "美規 120V；需確認台灣插座、接地與馬桶尺寸",
-    "warranty": "Costco US / 海外通路，可能無台灣保固",
+    "warranty": "Brondell US 官方 1 年有限保固；海外購買無台灣保固",
     "tags": [
-      "Costco US",
+      "Brondell US",
       "免治",
       "海外參考"
     ],
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 383.99,
       "currency": "USD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
-      "checkedAt": "2026-07-09",
-      "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：BigGo Brondell Swash CL1700: 查詢失敗 429 https://biggo.com.tw/api/v1/spa/search/Brondell%20Swash%20CL1700/product?p=1；BigGo Swash CL1700: 查詢失敗 429 https://biggo.com.tw/api/v1/spa/search/Swash%20CL1700/product?p=1。"
+      "converted": 12164,
+      "sourceUrl": "https://www.brondell.com/swash-cl1700-advanced-bidet-seat/",
+      "sourceTitle": "Brondell US：Swash CL1700 Advanced Bidet Seat",
+      "evidenceSnippet": "Brondell US 官方 exact-model 頁於 2026-08-28 顯示 Swash CL1700 sale price US$383.99。",
+      "sourceKind": "official_sale",
+      "confidence": "medium",
+      "checkedAt": "2026-08-28",
+      "note": "採品牌官方公開特價作為本次可重現最低觀測價；同頁 US$299.99 為 Open-Box 開箱品，依規則排除。未含國際運費、進口稅、美規 elongated 尺寸、120V 插座與台灣保固風險；依 2026-08-28 USD/TWD 匯率換算。"
     },
     "issueResearch": {
       "status": "no_common_issue",

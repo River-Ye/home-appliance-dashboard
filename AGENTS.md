@@ -68,7 +68,7 @@
 
 ## GEO / AI 搜尋規則
 
-- 網站由現有 30 類資料產生 30 個 `/categories/<id>/` 靜態分類指南頁；不建立 901 個重複商品事實的薄內容頁。
+- 網站由現有 30 類資料產生 30 個 `/categories/<id>/` 靜態分類指南頁；不建立 910 個重複商品事實的薄內容頁。
 - 每個分類指南的初始 HTML 必須含該類全部商品的品牌、完整型號、名稱、參考價、價格基準、上市／發售日期與摘要；前 5 名繼續顯示完整評估卡。
 - `tools/category-guides.js` 只維護分類層級的繁中導讀、3 項選購條件與 3 組 FAQ；商品名稱、價格、排名、規格、史低與負評仍從既有商品資料產生，避免第二套事實來源。
 - 站名、首頁 title、description、H1 與 AI 揭露集中在 `tools/geo-config.js`；首頁 metadata、JSON-LD、分類頁與 `llms.txt` 必須共用此契約。首頁與分類頁首屏皆需可見 AI 協作、資料日期、查核方法與 GitHub 原始碼。
@@ -81,16 +81,16 @@
 
 ## 目前資料規模
 
-- 共 30 類、901 筆商品。
+- 共 30 類、910 筆商品。
 - 所有分類每類至少 20 筆；新增分類或補資料時不可讓任何分類低於 20 筆。
 - 特殊分類目前數量：
-  - `電視`：35 筆，其中 5 筆為 exact 70 吋，需涵蓋主流顯示技術與可信台灣新品通路。
+  - `電視`：36 筆，其中 5 筆為 exact 70 吋，需涵蓋主流顯示技術與可信台灣新品通路。
   - `Soundbar`：29 筆，需涵蓋不同聲道、擴充方式與空間需求。
-  - `掃拖機器人`：39 筆，需涵蓋知名品牌旗艦與次旗艦。
-  - `無線路由器`：51 筆，只收 Wi-Fi 6 以上，Mesh/多 AP/商用管理支援要寫清楚。
+  - `掃拖機器人`：41 筆，需涵蓋知名品牌旗艦與次旗艦。
+  - `無線路由器`：52 筆，只收 Wi-Fi 6 以上，Mesh/多 AP/商用管理支援要寫清楚。
   - `網路交換器`：20 筆，固定 8 個主要 RJ45 埠，1G／2.5G／10G 各至少 4 款；只收台灣公司貨、金屬外殼與非 PoE 型號。
-  - `電腦螢幕`：57 筆，需涵蓋主流品牌、不同用途帶與 34/40/45/49/57 吋寬螢幕。
-  - `懸臂支架`：24 筆，需標示支援尺寸、承重重量與是否適合 49/57 吋大寬螢幕。
+  - `電腦螢幕`：60 筆，需涵蓋主流品牌、不同用途帶與 34/40/45/49/57 吋寬螢幕。
+  - `懸臂支架`：25 筆，需標示支援尺寸、承重重量與是否適合 49/57 吋大寬螢幕。
   - `電子鎖`：48 筆，需涵蓋知名品牌且注意安裝條件。
   - `鍋具`：28 筆、`刀具`：23 筆、`櫥下飲水機`：40 筆、`洗碗機`：29 筆，需排除配件、耗材、桌上/直立誤判、福利品與展示機。
   - `冰箱`：26 筆、`洗衣機`：26 筆、`烘衣機`：24 筆、`洗烘衣機(多功能型)`：30 筆，需排除配件、耗材、福利品、展示機、箱損品、組合包誤判與單功能錯類，且每筆需標示機身尺寸。
@@ -359,10 +359,10 @@
 ## 價格與匯率
 
 <!-- catalog-maintenance-summary:start -->
-- 2026-08-27 20:42（台灣時間）完成 901 筆商品、30 類全量查核；454 筆 PChome SKU API 已完成（274 筆 exact model、66 筆人工 SKU 綁定可寫入，61 筆型號未自動確認），更新 34 筆公開價格（28 筆下修、6 筆上修），35 筆 Qty 0 只列追蹤。
-- 本次增量新增 network-switch-netgear-gs108x、network-switch-qnap-qsw-3216r-8s8t；本次增量移除 network-switch-tplink-tl-sg108e、network-switch-tplink-tl-sx1008。沿用本資料日既有逐類人工新品覆核，並補查部分分類（原覆核時間保留），所有分類至少 20 筆；停產只採品牌官方明確證據，缺貨、反爬或單次連線錯誤不作為刪除依據。
-- 圖片查核覆蓋 901 筆；667 筆來源可由 exact model 或人工 SKU 綁定確認，234 筆來源例外與 2 筆圖片例外保留原資料。史低為 484 筆 `found`、417 筆 `not_found`，本輪異動 0 筆；74 筆來源可自動重現，其餘保留原逐筆證據且未臆測失效。
-- ExchangeRate-API 最新批次為 2026-08-27 00:02 UTC，USD/TWD 31.825974；29 筆外幣商品已重算。完整摘要與例外保存在 `catalog_maintenance_latest.json`。
+- 2026-08-28 08:26（台灣時間）完成 910 筆商品、30 類全量查核；458 筆 PChome SKU API 已完成（274 筆 exact model、69 筆人工 SKU 綁定可寫入，58 筆型號未自動確認），更新 45 筆公開價格（9 筆下修、36 筆上修），39 筆 Qty 0 只列追蹤。
+- 本次增量新增 dehumidifier-sharp-dw-uw25ht-w、monitor-apple-studio-display-xdr-mfel4ta-a、monitor-asus-rog-strix-xg27jcg、monitor-samsung-odyssey-g80hf-ls27hg806efxzw、monitorarm-asus-rog-ergo-aas01r、robot-xiaomi-vacuum-6-pro-pv21gl、robot-xiaomi-vacuum-6-pv32gl、tv-samsung-qn80h-65、wifi-asus-rog-gt-be25000-edition-20；本次增量沒有移除停產產品。沿用本資料日已完成的逐類人工新品覆核（原覆核時間保留），所有分類至少 20 筆；停產只採品牌官方明確證據，缺貨、反爬或單次連線錯誤不作為刪除依據。
+- 圖片查核覆蓋 910 筆；680 筆來源可由 exact model 或人工 SKU 綁定確認，230 筆來源例外與 0 筆圖片例外保留原資料。史低為 493 筆 `found`、417 筆 `not_found`，本輪下修 1 筆、其他更正 6 筆；70 筆來源可自動重現，其餘保留原逐筆證據且未臆測失效。
+- ExchangeRate-API 最新批次為 2026-08-28 00:02 UTC，USD/TWD 31.678539；29 筆外幣商品已重算。完整摘要與例外保存在 `catalog_maintenance_latest.json`。
 <!-- catalog-maintenance-summary:end -->
 
 ## 驗證清單
@@ -373,7 +373,7 @@
 - `npm run check:logic`：純邏輯回歸，涵蓋排序、品牌依分類限制、史低／負評文案、問題摘要搜尋、來源 URL 安全、HTML escape 與 product-loader URL/錯誤。
 - `npm run check:data`：商品總數、分類數、必要欄位、日期格式、負評逐型號人工覆核、逐位反映者與研究檔對齊、重複 URL 與重複型號檢查通過。
 - `npm run check:docs`：README、AGENTS、index/config 的商品數、分類數、日期與 cache version 不漂移。
-- `npm run check:geo`：30 個分類頁、901 款靜態型號索引、metadata、結構化資料、首頁分類入口、sitemap、llms、六份公開證據檔、Pages artifact、31 個 canonical URL 的 IndexNow contract 與產生結果均無漂移。
+- `npm run check:geo`：30 個分類頁、910 款靜態型號索引、metadata、結構化資料、首頁分類入口、sitemap、llms、六份公開證據檔、Pages artifact、31 個 canonical URL 的 IndexNow contract 與產生結果均無漂移。
 - `npm run check:ui`：桌機與手機版主要互動流程通過。
 - `npm run check:quality`：Lighthouse 的 Performance、LCP、CLS、Accessibility 與 SEO 採瀏覽器行動 throttling，TBT 採 Lantern 標準化模擬；首頁 Performance ≥ 90、LCP ≤ 2.5s、CLS ≤ 0.1、TBT ≤ 200ms、Accessibility = 100、SEO ≥ 95；代表分類頁 Performance、Accessibility、SEO 均 ≥ 95。
 - 商品總數仍符合 README 與分類 tab 顯示。

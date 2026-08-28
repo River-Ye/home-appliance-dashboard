@@ -2522,6 +2522,97 @@
       "4.8L水箱",
       "低噪音"
     ]
+  },
+  {
+    "id": "dehumidifier-sharp-dw-uw25ht-w",
+    "category": "dehumidifier",
+    "rank": 27,
+    "topPick": false,
+    "budget": "premium",
+    "channel": "tw",
+    "brand": "SHARP",
+    "model": "DW-UW25HT-W",
+    "name": "乾淨方 Pro 雙氣流變頻美學 25L 除濕機",
+    "price": {
+      "currency": "TWD",
+      "amount": 20700,
+      "converted": 20700,
+      "confidence": "HOTAI購於 2026-08-28 的 exact-model 現貨公開價",
+      "basis": "retailer_current"
+    },
+    "installation": {
+      "status": "not_stated",
+      "note": "HOTAI購未標示含到府安裝；水箱使用可自行就位於平坦乾燥處，連續排水需另備合適排水管並確認向下坡度與排水位置。"
+    },
+    "image": "https://tw.sharp/sites/default/files/2026-04/DW-UW25HT-W_1.png",
+    "buyUrl": "https://www.hotaigo.com.tw/productdetail/hotai1785980593-4550556198233.html",
+    "buyLabel": "HOTAI購 exact-model 現貨新品",
+    "specs": [
+      "除濕能力：25 L／日；官方標示適用約 31 坪",
+      "雙變頻壓縮機與風扇；Plasmacluster PCI 25000 淨化離子",
+      "水箱 5.8L；支援連續排水；四輪萬向移動",
+      "能源效率第 1 級（2026）；能源因數值 3.06 L/kWh、年耗電量 184 kWh",
+      "尺寸：寬 37.4 x 深 31.5 x 高 69.3 cm；淨重 18.8 kg",
+      "弱運轉音 38 dB；額定消耗功率 340W",
+      "電源：110V／60Hz"
+    ],
+    "description": "SHARP 2026 年台灣現售的大坪數乾淨方 Pro，以 25L、雙變頻、5.8L 水箱、PCI 25000 與一級能效，補上 20L 以上客廳／全室除濕的日系旗艦比較。",
+    "pros": [
+      "25L、約 31 坪與 5.8L 大水箱適合大客廳或連續梅雨",
+      "雙變頻、一級能效與 38dB 弱運轉兼顧效率和低速噪音",
+      "台灣官方 exact-model 尺寸、淨重、110V／60Hz 與延長保固條件均可核對"
+    ],
+    "cons": [
+      "18.8 kg 且高度 69.3 cm，跨樓層搬動與收納負擔較大",
+      "PCI 淨化不等同完整 HEPA 空氣清淨機，過敏需求仍需另評估",
+      "本輪只找到 2026 新品陣容與促銷活動，未找到 exact-model 正式上市日期"
+    ],
+    "bestFor": "約 15–31 坪客餐廳、開放式空間或梅雨期需大量除濕，並偏好日系公司貨長保固的家庭。",
+    "recommendation": "大坪數日系變頻推薦：25L、高能源因數與大水箱提供明確比較價值；若只用於小臥室，可改選體積與價格更低的 10–14L 機型。",
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "found",
+      "amount": 20700,
+      "currency": "TWD",
+      "converted": 20700,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1286065599&cgp=20700",
+      "sourceTitle": "LBJ 歷史價格：HOTAI購 SHARP DW-UW25HT-W 25L 除濕機",
+      "evidenceSnippet": "LBJ 的 HOTAI購 exact-model 新品價格歷史於 2026-07-28、08-06 與 08-28 均記錄 NT$20,700。",
+      "sourceKind": "price_history",
+      "confidence": "high",
+      "checkedAt": "2026-08-28",
+      "note": "採完全相同台灣型號、HOTAI購現貨新品的公開歷史曲線；未扣除信用卡、點數或會員個人化回饋。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-08-28",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"SHARP DW-UW25HT-W\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22SHARP%20DW-UW25HT-W%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"SHARP DW-UW25HT-W\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22SHARP%20DW-UW25HT-W%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        }
+      ]
+    },
+    "score": 91,
+    "voltage": "110V／60Hz 台灣公司貨；額定消耗功率 340W",
+    "warranty": "SHARP 台灣公司貨；本體 3 年、壓縮機 5 年，DW-UW25HT-W 完成官方登錄後壓縮機可延長至 10 年，依活動條款",
+    "tags": [
+      "25L",
+      "雙變頻",
+      "一級能效",
+      "5.8L水箱",
+      "PCI 25000"
+    ]
   }
 ]);
 })();

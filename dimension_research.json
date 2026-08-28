@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-27",
+  "generatedAt": "2026-08-28",
   "sourcePolicy": "電視、Soundbar、洗衣機、烘衣機、洗烘衣機、電子衣櫥、冰箱、咖啡機、多功能氣炸烤箱／微波爐、洗碗機、免治馬桶、冷氣、熱水器與網路交換器共 14 類尺寸，以及電視、Soundbar、咖啡機、多功能氣炸烤箱／微波爐、冷氣與熱水器共 6 類重量研究，皆優先採 exact-model 官方產品頁、官方規格表或官方 PDF，其次為可信新品通路。只採本體／機身／明確組件的尺寸與淨重，排除包裝、外箱尺寸與毛重；來源沒有明示寬／深／高順序時不自行推定。冷氣分列室內機與室外機，熱泵複合熱水器必須分列主機與儲槽；既有各類研究列仍沿用相同 exact-model 邊界。",
   "results": [
     {
@@ -5174,6 +5174,23 @@
       "confidence": "high",
       "isOfficialSource": true,
       "checkedAt": "2026-08-24"
+    },
+    {
+      "id": "tv-samsung-qn80h-65",
+      "dimension": "尺寸：不含底座 寬 144.29 x 深 5.2 x 高 83.12 cm；含底座 寬 144.29 x 深 25.68 x 高 86.71 cm",
+      "sourceUrl": "https://www.samsung.com/tw/tvs/qled-tv/qn80h-65-inch-neo-qled-4k-mini-led-smart-tv-qa65qn80haxxzw/",
+      "sourceTitle": "65 型 Neo QLED QN80H 4K Mini LED 智慧顯示器 QA65QN80HAXXZW | Samsung 台灣",
+      "evidenceSnippet": "Samsung 台灣官方尺寸欄列出不含底座 1442.9 x 831.2 x 52 mm，含底座 1442.9 x 867.1 x 256.8 mm（寬 x 高 x 深）。",
+      "confidence": "high",
+      "isOfficialSource": true,
+      "checkedAt": "2026-08-28",
+      "weight": "重量：不含底座 17.2 kg；含底座 17.6 kg",
+      "weightSourceUrl": "https://www.samsung.com/tw/tvs/qled-tv/qn80h-65-inch-neo-qled-4k-mini-led-smart-tv-qa65qn80haxxzw/",
+      "weightSourceTitle": "65 型 Neo QLED QN80H 4K Mini LED 智慧顯示器 QA65QN80HAXXZW | Samsung 台灣",
+      "weightEvidenceSnippet": "Samsung 台灣官方重量欄列出機身不含底座 17.2 kg，機身包含底座 17.6 kg；未採包裝重量 23.6 kg。",
+      "weightConfidence": "high",
+      "weightIsOfficialSource": true,
+      "weightCheckedAt": "2026-08-28"
     }
   ]
 }

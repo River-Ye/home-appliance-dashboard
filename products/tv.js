@@ -215,9 +215,9 @@
     "name": "BRAVIA 7 65 型 Mini LED 4K Google TV",
     "price": {
       "currency": "TWD",
-      "amount": 56900,
-      "converted": 56900,
-      "confidence": "PChome 2026-08-27 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 53910,
+      "converted": 53910,
+      "confidence": "PChome 2026-08-28 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DPADFNA900K7VQ8/000001_1784011502.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DPADFN-A900K7VQ8",
@@ -813,9 +813,9 @@
     "name": "BRAVIA 8 65 型 XR OLED 4K HDR Google TV 顯示器",
     "price": {
       "currency": "TWD",
-      "amount": 93900,
-      "converted": 93900,
-      "confidence": "PChome 2026-08-27 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 84510,
+      "converted": 84510,
+      "confidence": "PChome 2026-08-28 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DPAD06A900HLBJO/000001_1776334113.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DPAD06-A900HLBJO",
@@ -1011,9 +1011,9 @@
     "name": "65 型 OLED 智慧聯網顯示器",
     "price": {
       "currency": "TWD",
-      "amount": 67977,
-      "converted": 67977,
-      "confidence": "PChome 2026-08-27 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 72072,
+      "converted": 72072,
+      "confidence": "PChome 2026-08-28 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DPAD09A900J9FAZ/000001_1761888394.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DPAD09-A900J9FAZ",
@@ -3520,6 +3520,98 @@
       "Google TV",
       "Chromecast",
       "Miracast"
+    ]
+  },
+  {
+    "id": "tv-samsung-qn80h-65",
+    "category": "tv",
+    "rank": 36,
+    "topPick": false,
+    "budget": "premium",
+    "channel": "tw",
+    "brand": "Samsung",
+    "model": "QA65QN80HAXXZW",
+    "name": "65 型 QN80H Neo QLED 4K Vision AI 智慧顯示器",
+    "price": {
+      "currency": "TWD",
+      "amount": 48900,
+      "converted": 48900,
+      "confidence": "PChome 24h 於 2026-08-28 的 exact-model 新品公開價",
+      "basis": "retailer_current"
+    },
+    "installation": {
+      "status": "included_basic",
+      "note": "PChome exact-model 頁明示含基本安裝與舊機回收；壁掛架、特殊牆面、偏遠地區、樓層搬運或吊車等追加施工未由頁面完整說明，應於下單前確認。"
+    },
+    "image": "https://images.samsung.com/is/image/samsung/p6pim/tw/qa65qn80haxxzw/gallery/tw-qled-tv-qa65qn80haxxzw-----neo-qled-qn--h--k-samsung-vision-ai--------------titanium-black-552632420?$1164_776_PNG$",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DPADO2-A900K4NKW",
+    "buyLabel": "PChome exact-model 新品含基本安裝",
+    "specs": [
+      "65 吋 Neo QLED Mini LED；4K 解析度、最高 144Hz",
+      "HDMI 4 組皆支援 4K 144Hz；含 eARC、USB-A 2 組",
+      "Wi-Fi 6E、Bluetooth 5.3；手機投影：Apple AirPlay、Google Cast",
+      "尺寸：不含底座 寬 144.29 x 深 5.2 x 高 83.12 cm；含底座 寬 144.29 x 深 25.68 x 高 86.71 cm",
+      "重量：不含底座 17.2 kg；含底座 17.6 kg",
+      "VESA：400 x 300 mm；寬／窄兩種桌架間距可調",
+      "電源：AC 100–240V／50–60Hz"
+    ],
+    "description": "Samsung 2026 年在台 Neo QLED Mini LED 中階 65 吋款，以四組 4K 144Hz HDMI、Wi-Fi 6E 與雙手機投影協定補上 OLED 與更高價旗艦之外的遊戲／客廳平衡選項。",
+    "pros": [
+      "四組 HDMI 全數支援 4K 144Hz，多主機與電競 PC 接線彈性高",
+      "Apple AirPlay、Google Cast、Wi-Fi 6E 與 eARC 連線規格完整",
+      "台灣官方 exact-model 尺寸、重量、電力與官方在台發表日期證據齊全"
+    ],
+    "cons": [
+      "Mini LED 光暈與黑位表現仍須依觀影環境實機比較，不能等同 OLED",
+      "現價高於可驗證的 NT$43,866 歷史最低點",
+      "壁掛與特殊施工不在已證明的基本安裝範圍"
+    ],
+    "bestFor": "同時接遊戲主機與電競 PC、重視 4K 144Hz、多 HDMI、AirPlay／Google Cast，又不想承擔 OLED 烙印疑慮的家庭。",
+    "recommendation": "65 吋 Mini LED 遊戲平衡推薦：四組 144Hz HDMI 與完整投影協定形成明確比較價值；接近 NT$43,866 史低時更值得入手。",
+    "releaseDate": "2026-06",
+    "historicalLow": {
+      "status": "found",
+      "amount": 43866,
+      "currency": "TWD",
+      "converted": 43866,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1282767496&cgp=43866",
+      "sourceTitle": "LBJ 歷史價格：Samsung QA65QN80HAXXZW 65 型 Neo QLED 4K AI 智慧顯示器",
+      "evidenceSnippet": "LBJ 的 exact-model 新品價格歷史於 2026-08-07、08-12 與 08-28 記錄 NT$43,866；2026-05-28、06-12、07-28、08-10 可見節點為 NT$48,900。",
+      "sourceKind": "price_history",
+      "confidence": "high",
+      "checkedAt": "2026-08-28",
+      "note": "採完全相同台灣型號、含桌放基本安裝與舊機回收的可信新品公開歷史曲線；未扣除信用卡、點數或會員個人化回饋。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-08-28",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Samsung QA65QN80HAXXZW\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Samsung%20QA65QN80HAXXZW%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Samsung QA65QN80HAXXZW\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Samsung%20QA65QN80HAXXZW%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        }
+      ]
+    },
+    "score": 92,
+    "voltage": "官方規格 AC 100–240V／50–60Hz，適用台灣 110V／60Hz",
+    "warranty": "Samsung 台灣公司貨；PChome exact-model 新品頁標示原廠 2 年保固，依原廠條款與保證書",
+    "tags": [
+      "65吋",
+      "Neo QLED",
+      "Mini LED",
+      "144Hz",
+      "AirPlay",
+      "Google Cast"
     ]
   }
 ]);

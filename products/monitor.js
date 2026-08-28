@@ -3928,9 +3928,9 @@
     "name": "49 型 Odyssey OLED G9 Dual QHD 240Hz 曲面螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 34900,
-      "converted": 34900,
-      "confidence": "PChome 2026-08-27 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 36900,
+      "converted": 36900,
+      "confidence": "PChome 2026-08-28 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBM10A900HZCPE/000001_1781766568.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBM10-A900HZCPE",
@@ -4228,9 +4228,9 @@
     "name": "57 型 Odyssey Neo G9 Dual UHD 240Hz Mini LED 曲面螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 66500,
-      "converted": 66500,
-      "confidence": "PChome 2026-08-27 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 69900,
+      "converted": 69900,
+      "confidence": "PChome 2026-08-28 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBM10A900GQLSE/000001_1783054239.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBM10-A900GQLSE",
@@ -5467,8 +5467,8 @@
       "confidence": "Panasonic 台灣官方商城 2026-08-14 gaming monitor 分類頁公開會員優惠價",
       "basis": "retailer_current"
     },
-    "image": "https://panasonic.com/content/dam/panasonic/tw/zh/pim/dam/TS/TS-27G/TS-27GF40CTK/ast-3334250.png",
-    "buyUrl": "https://pstw.panasonic.com.tw/Shop/Product/gamingmonitor?Ordery=MAXPRICE",
+    "image": "https://pstw.panasonic.com.tw/shop/Upload/Product/20260528094209UW0X8VGU.jpg",
+    "buyUrl": "https://pstw.panasonic.com.tw/Shop/product/detail/GNYAUT3ACIGK79EA4TIT/TS-27GF40CTK",
     "buyLabel": "Panasonic 台灣官方商城會員價",
     "installation": {
       "status": "not_stated",
@@ -5663,6 +5663,276 @@
           "query": "\"Lenovo LOQ 27Q-10\" problem issue defect failure broken 災情 故障 異常",
           "queryUrl": "https://www.youtube.com/results?search_query=%22Lenovo%20LOQ%2027Q-10%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
           "targetHost": "youtube.com"
+        }
+      ]
+    }
+  },
+  {
+    "id": "monitor-apple-studio-display-xdr-mfel4ta-a",
+    "category": "monitor",
+    "rank": 62,
+    "topPick": false,
+    "budget": "premium",
+    "channel": "tw",
+    "brand": "Apple",
+    "model": "Studio Display XDR MFEL4TA/A",
+    "name": "27 吋 5K 120Hz Mini LED 顯示器（標準玻璃／可調高度支架）",
+    "price": {
+      "currency": "TWD",
+      "amount": 106603,
+      "converted": 106603,
+      "confidence": "momo 2026-08-28 exact part MFEL4TA/A 公開限時 97 折價；活動原價 NT$109,900，活動截止後需重查",
+      "basis": "retailer_current"
+    },
+    "image": "https://www.apple.com/v/studio-display-xdr/b/images/meta/studio_display_xdr__dvvwjvcv36uu_og.png?202607062342",
+    "buyUrl": "https://www.momoshop.com.tw/product/15103887",
+    "buyLabel": "momo購物網",
+    "installation": {
+      "status": "not_stated",
+      "note": "通路售價為標準玻璃與可調整斜度／高度支架的完整顯示器；桌面擺放不含 VESA 壁掛或懸臂施工。"
+    },
+    "specs": [
+      "27 吋 5120 x 2880 5K Retina XDR；Mini LED 2,304 分區",
+      "最高 120Hz、SDR 1,000 nits、HDR 峰值 2,000 nits",
+      "Thunderbolt 5 x2、USB-C x2；內建 12MP Center Stage 相機與六揚聲器",
+      "尺寸：寬 62.3 x 深 21.4 x 高 47.8-58.3 cm（可調整斜度與高度支架）",
+      "重量：8.5 kg"
+    ],
+    "description": "2026 Studio Display XDR 把 5K、120Hz 與 2,304 分區 Mini LED 整合在 27 吋 Mac 桌面顯示器中，是現有清單少見的高亮度 5K HDR 參考選項。",
+    "pros": [
+      "27 吋 5K、120Hz 與 Mini LED 分區背光兼顧細緻度和 HDR",
+      "Thunderbolt 5、相機、麥克風與六揚聲器對 Mac 使用者整合度高",
+      "標準玻璃加可調高度支架是可直接桌面使用的完整配置"
+    ],
+    "cons": [
+      "價格遠高於一般 27 吋 4K／5K 螢幕",
+      "沒有 HDMI 或 DisplayPort，非 Mac 裝置相容性需另行確認",
+      "Mini LED 仍可能出現光暈，且不是 OLED 的像素級控光"
+    ],
+    "bestFor": "需要 5K 文字細緻度、120Hz、HDR 高亮度與 Mac 單線整合的影音、設計及 Apple 生態系使用者。",
+    "recommendation": "高階 Mac 5K HDR 補強：規格獨特但價格極高；購買前確認 Thunderbolt 相容性，並把它和專業 OLED／Mini LED 顯示器的色彩、介面與保固成本一起比較。",
+    "score": 90,
+    "voltage": "AC 100-240V、50-60Hz；台灣電力可用",
+    "warranty": "Apple 台灣一年有限保固；momo exact-model 頁亦標示一年保固",
+    "tags": [
+      "27吋",
+      "5K",
+      "120Hz",
+      "Mini LED",
+      "Thunderbolt 5",
+      "Mac"
+    ],
+    "releaseDate": "2026",
+    "historicalLow": {
+      "status": "found",
+      "amount": 105504,
+      "currency": "TWD",
+      "converted": 105504,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1286686070&cgp=105504",
+      "sourceTitle": "LBJ 比價撿便宜歷史價格：Studio Display XDR 標準玻璃／可調整斜度與高度支架",
+      "evidenceSnippet": "LBJ 的 PChome exact-configuration 歷史曲線在 2026-07-28、08-19、08-28 均記錄 NT$105,504。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
+      "checkedAt": "2026-08-28",
+      "note": "採同尺寸、標準玻璃與可調整斜度／高度支架的完整新品配置；排除奈米紋理玻璃、固定斜度支架、二手與個人化回饋。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-08-28",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Studio Display XDR MFEL4TA/A\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Studio%20Display%20XDR%20MFEL4TA%2FA%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Studio Display XDR MFEL4TA/A\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Studio%20Display%20XDR%20MFEL4TA%2FA%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        }
+      ]
+    }
+  },
+  {
+    "id": "monitor-samsung-odyssey-g80hf-ls27hg806efxzw",
+    "category": "monitor",
+    "rank": 63,
+    "topPick": false,
+    "budget": "premium",
+    "channel": "tw",
+    "brand": "Samsung",
+    "model": "Odyssey G8 G80HF LS27HG806EFXZW",
+    "name": "27 吋 5K 180Hz／QHD 360Hz 雙模式電競螢幕",
+    "price": {
+      "currency": "TWD",
+      "amount": 19900,
+      "converted": 19900,
+      "confidence": "PChome 2026-08-28 exact-model S27HG806EF 公開價且可加入購物車",
+      "basis": "retailer_current"
+    },
+    "image": "https://images.samsung.com/is/image/samsung/p6pim/tw/ls27hg806efxzw/gallery/tw-odyssey-g8-g80hf-ls27hg806efxzw-551950593?$1164_776_PNG$",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DSABON-A900K2NJE",
+    "buyLabel": "PChome 24h購物",
+    "installation": {
+      "status": "not_stated",
+      "note": "通路售價為螢幕與原廠底座；桌面組裝、VESA 壁掛或懸臂支架施工未列入售價。"
+    },
+    "specs": [
+      "27 吋 Fast IPS；5K 5120 x 2880 最高 180Hz",
+      "雙模式切換 QHD 2560 x 1440 最高 360Hz；1ms GtG",
+      "峰值亮度 400 cd/㎡；HDR10、HDR10+ Gaming、AMD FreeSync Premium、CoreSync",
+      "尺寸：不含底座寬 61.41 x 深 5.96 x 高 36.51 cm；含底座寬 61.41 x 深 26.39 x 高 56.66 cm",
+      "重量：不含底座 3.7 kg；含底座 6.2 kg"
+    ],
+    "description": "Odyssey G80HF 讓使用者在原生 5K 180Hz 的細緻度與 QHD 360Hz 的競技更新率間切換，補上現有 32 吋 6K G80HS 之外更偏電競的 27 吋選項。",
+    "pros": [
+      "5K 180Hz 與 QHD 360Hz 雙模式涵蓋高畫質和競技需求",
+      "HDR10+ Gaming、FreeSync Premium 與完整人體工學底座",
+      "台灣三星正式型號與三年螢幕保固"
+    ],
+    "cons": [
+      "5K 180Hz 對顯示卡與傳輸介面要求高",
+      "不是 Mini LED 或 OLED，HDR 黑位不及像素級控光",
+      "切換 QHD 會犧牲原生 5K 的文字細緻度"
+    ],
+    "bestFor": "同一台螢幕要兼顧 5K 工作桌面與 360Hz 競技遊戲，且願意搭配高階顯示卡的人。",
+    "recommendation": "5K／360Hz 雙模式推薦：用 NT$2 萬級補進少見的 5K 高刷新選擇；先確認顯示卡、線材和接口能否輸出 5K 180Hz。",
+    "score": 92,
+    "voltage": "AC 100-240V、50/60Hz 外接變壓器；台灣官方型號",
+    "warranty": "Samsung 台灣顯示器主機與變壓器 36 個月保固",
+    "tags": [
+      "27吋",
+      "5K",
+      "180Hz",
+      "QHD 360Hz",
+      "雙模式",
+      "HDR10+ Gaming"
+    ],
+    "releaseDate": "2026-05",
+    "historicalLow": {
+      "status": "found",
+      "amount": 17900,
+      "currency": "TWD",
+      "converted": 17900,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1282228385&cgp=18900",
+      "sourceTitle": "LBJ 比價撿便宜歷史價格：Samsung S27HG806EF Odyssey G8 G80HF",
+      "evidenceSnippet": "LBJ 的 momo exact-model 歷史曲線記錄 2026-08-18 與 08-23 最低 NT$17,900。",
+      "sourceKind": "price_history",
+      "confidence": "high",
+      "checkedAt": "2026-08-28",
+      "note": "採台灣 S27HG806EF／LS27HG806EFXZW 同型號新品公開價；未計聊天議價、信用卡回饋、點數或贈品折現。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-08-28",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Odyssey G8 G80HF LS27HG806EFXZW\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Odyssey%20G8%20G80HF%20LS27HG806EFXZW%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Odyssey G8 G80HF LS27HG806EFXZW\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Odyssey%20G8%20G80HF%20LS27HG806EFXZW%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        }
+      ]
+    }
+  },
+  {
+    "id": "monitor-asus-rog-strix-xg27jcg",
+    "category": "monitor",
+    "rank": 64,
+    "topPick": false,
+    "budget": "premium",
+    "channel": "tw",
+    "brand": "ASUS",
+    "model": "ROG Strix 5K XG27JCG",
+    "name": "27 吋 5K 180Hz／QHD 330Hz 雙模式電競螢幕",
+    "price": {
+      "currency": "TWD",
+      "amount": 19888,
+      "converted": 19888,
+      "confidence": "PChome 2026-08-28 exact-model 公開價且可加入購物車",
+      "basis": "retailer_current"
+    },
+    "image": "https://dlcdnwebimgs.asus.com/gain/8A87687D-B574-4D77-A9E2-D14D960EBE84",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DSABKB-A900JO7QP",
+    "buyLabel": "PChome 24h購物",
+    "installation": {
+      "status": "not_stated",
+      "note": "通路售價為螢幕與原廠底座；桌面組裝、VESA 壁掛或懸臂支架施工未列入售價。"
+    },
+    "specs": [
+      "27 吋 Fast IPS；5K 5120 x 2880 最高 180Hz",
+      "雙模式切換 QHD 2560 x 1440 最高 330Hz；0.3ms",
+      "VESA DisplayHDR 600、ELMB 2、USB-C 顯示與供電",
+      "尺寸：不含底座寬 61.4 x 深 9.0 x 高 36.7 cm；含底座寬 61.4 x 深 21.9 x 高 51.0 cm",
+      "重量：不含底座 4.8 kg；含底座 6.9 kg"
+    ],
+    "description": "XG27JCG 是 ASUS 首批 27 吋 5K 雙模式電競螢幕，以 5K 180Hz、QHD 330Hz、HDR600 和 USB-C 對打同級 Samsung G80HF。",
+    "pros": [
+      "5K 180Hz／QHD 330Hz 雙模式兼顧工作與競技遊戲",
+      "DisplayHDR 600、ELMB 2 與 USB-C 規格完整",
+      "台灣通路現貨與 ASUS 三年螢幕保固"
+    ],
+    "cons": [
+      "5K 180Hz 需要高階顯示卡與正確介面／線材",
+      "Fast IPS 黑位與 HDR 控光不及 OLED 或 Mini LED",
+      "部分新機個案回報 DOA 或 ELMB 拖影，仍未形成跨站集中問題"
+    ],
+    "bestFor": "希望一台螢幕同時提供 5K 生產力、300Hz 以上競技模式與 USB-C 的 PC 使用者。",
+    "recommendation": "5K 雙模式補強：與 Samsung G80HF 同價位但更新率、USB-C 與電競功能取向不同；收到後應在退換期內測試 5K 高刷新、ELMB 與休眠喚醒。",
+    "score": 91,
+    "voltage": "AC 100-240V、50/60Hz；台灣公司貨",
+    "warranty": "ASUS 台灣 LCD 顯示器 36 個月保固；PChome exact-model 頁標示原廠三年保固",
+    "tags": [
+      "27吋",
+      "5K",
+      "180Hz",
+      "QHD 330Hz",
+      "雙模式",
+      "USB-C"
+    ],
+    "releaseDate": "2026",
+    "historicalLow": {
+      "status": "found",
+      "amount": 17800,
+      "currency": "TWD",
+      "converted": 17800,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=585700558&cgp=17800",
+      "sourceTitle": "LBJ 比價撿便宜歷史價格：ASUS ROG Strix 5K XG27JCG",
+      "evidenceSnippet": "LBJ 的 eclife 良興蝦皮商城 exact-model 歷史曲線在 2026-07-28、08-08、08-28 均記錄 NT$17,800。",
+      "sourceKind": "price_history",
+      "confidence": "high",
+      "checkedAt": "2026-08-28",
+      "note": "排除 ASUS 授權店 NT$17,500 候選，因同一商品頁混有福利品／已拆封選項；採良興新品 exact-model 歷史。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-08-28",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"ROG Strix 5K XG27JCG\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22ROG%20Strix%205K%20XG27JCG%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"ROG Strix 5K XG27JCG\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22ROG%20Strix%205K%20XG27JCG%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
         }
       ]
     }

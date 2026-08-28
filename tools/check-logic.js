@@ -607,9 +607,14 @@ async function main() {
       ["knife-kai-18cm", "DEAGRW-A900GMT17"],
       ["knife-tefal-ice-force-15cm", "DEES09-A900HK440"],
       ["oven-extra-6-dmbj02-a900i9lq2", "DMBJ02-A900I9LQ2"],
+      ["ap-blueair-3450i", "DMAUE4-A900I5SSZ"],
       ["purifier-extra-6-dmaue4-a900ijcap", "DMAUE4-A900IJCAP"],
+      ["purifier-extra-7-dmaue4-a900j9knk", "DMAUE4-A900J9KNK"],
+      ["purifier-extra-8-dmaue4-a900i7dj1", "DMAUE4-A900I7DJ1"],
       ["purifier-extra-9-dmaue4-a900i7dn1", "DMAUE4-A900I7DN1"],
+      ["purifier-extra-10-dmaue4-a900j40ne", "DMAUE4-A900J40NE"],
       ["robot-narwal-freo-z-ultra", "DMBL4U-A900JA072"],
+      ["robot-xiaomi-vacuum-6-pro-pv21gl", "DMBL53-A900KAFL2"],
       ["smartlock-aqara-a100", "DQBS4N-A900I8573"],
       ["smartlock-fibre-fb90", "DQBS4N-A900J43AP"],
       ["vacuum-extra-10-dmax8k-a900hlxaq", "DMAX8K-A900HLXAQ"],
@@ -2529,6 +2534,34 @@ async function main() {
       url: "https://www.reddit.com/r/LGOLED/comments/example/c55/",
     }),
     "a longer numeric model token must not count as the exact model",
+  );
+  assert(
+    !candidateMatchesExactModel({ brand: "ASUS", model: "ROG Rapture GT-BE25000 Edition 20" }, {
+      title: "ASUS GT-BE25000 firmware discussion",
+      url: "https://www.snbforums.com/threads/asus-gt-be25000-firmware.12345/",
+    }),
+    "a base model must not count as a numbered edition variant",
+  );
+  const editionResearchRow = researchRow({
+    id: "wifi-asus-rog-gt-be25000-edition-20",
+    category: "wifi",
+    brand: "ASUS",
+    model: "ROG Rapture GT-BE25000 Edition 20",
+    name: "Edition 20 router",
+    buyUrl: "https://example.com/edition-20",
+  }, {
+    platform: "Yahoo Search",
+    query: "edition 20 exact-model query",
+    searchUrl: "https://search.yahoo.com/search?p=edition-20",
+    result: "no_exact_model_result",
+    resultCount: 0,
+    candidateUrls: [],
+    candidates: [],
+    inspectedAt: "2026-08-28T00:00:00+08:00",
+  }, new Map());
+  assert(
+    JSON.stringify(editionResearchRow.identity.aliases) === JSON.stringify(["ASUS ROG Rapture GT-BE25000 Edition 20"]),
+    "a numbered edition research query must not include the base-model SKU alias",
   );
   const sanitizedSearch = sanitizeSearchCheck(c5, {
     platform: "Yahoo Search",

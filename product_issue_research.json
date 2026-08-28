@@ -1,12 +1,12 @@
 {
   "summary": {
-    "checkedAt": "2026-08-27T00:00:00+08:00",
-    "total": 901,
-    "commonIssueProducts": 40,
-    "noCommonIssueProducts": 861,
+    "checkedAt": "2026-08-28T00:00:00+08:00",
+    "total": 910,
+    "commonIssueProducts": 39,
+    "noCommonIssueProducts": 871,
     "pendingManualReview": 0,
-    "commonIssues": 40,
-    "searchUnavailable": 0,
+    "commonIssues": 39,
+    "searchUnavailable": 1,
     "threshold": {
       "minimumDistinctUsers": 6,
       "minimumPlatforms": 2,
@@ -5709,6 +5709,85 @@
           "candidateUrls": [],
           "candidates": [],
           "inspectedAt": "2026-08-20T00:00:00+08:00"
+        }
+      ],
+      "evidence": [],
+      "rejectedCandidates": []
+    },
+    {
+      "id": "tv-samsung-qn80h-65",
+      "category": "tv",
+      "brand": "Samsung",
+      "model": "QA65QN80HAXXZW",
+      "name": "65 型 QN80H Neo QLED 4K Vision AI 智慧顯示器",
+      "identity": {
+        "canonicalModel": "QA65QN80HAXXZW",
+        "lookupLabel": "Samsung QA65QN80HAXXZW",
+        "aliases": [
+          "Samsung QA65QN80HAXXZW"
+        ],
+        "evidenceUrl": "https://24h.pchome.com.tw/prod/DPADO2-A900K4NKW"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "status": "completed",
+        "decision": "no_common_issue",
+        "reviewedAt": "2026-08-28",
+        "checkedPlatforms": [
+          "Reddit",
+          "Mobile01"
+        ],
+        "queries": [
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"Samsung QA65QN80HAXXZW\" (problem OR issue OR defect OR failure)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Samsung%20QA65QN80HAXXZW%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+            "targetHost": "reddit.com"
+          },
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"Samsung QA65QN80HAXXZW\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Samsung%20QA65QN80HAXXZW%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "mobile01.com"
+          }
+        ],
+        "candidateDisposition": "QA65QN80HAXXZW：兩站 exact-model 查詢均無候選。人工回看的 Reddit 65QN80H 購前升頻詢問、55 吋 QN80H 詢問與編輯型購買指南，以及 Mobile01 美國 2026 系列討論，都未含完整台灣 SKU QA65QN80HAXXZW，且不是同型號第一人稱故障群聚，於型號邊界前排除。",
+        "representativeSources": [],
+        "candidateReviews": [],
+        "reviewerNote": "QA65QN80HAXXZW：已人工回看 Reddit 與 Mobile01 的 exact-model 搜尋及家族型號發現頁；沒有完整台灣 SKU 的原始問題候選，未達同一問題 6 人／2 個網站門檻。",
+        "attestation": "manual_cross_site_search_reviewed_no_candidate"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-08-28",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"Samsung QA65QN80HAXXZW\" (problem OR issue OR defect OR failure)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Samsung%20QA65QN80HAXXZW%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+            "targetHost": "reddit.com"
+          },
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"Samsung QA65QN80HAXXZW\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Samsung%20QA65QN80HAXXZW%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "mobile01.com"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "Yahoo Search",
+          "query": "(\"Samsung QA65QN80HAXXZW\") (problem OR issue OR defect OR failure OR 災情 OR 故障 OR 負評) (site:mobile01.com OR site:dcard.tw OR site:ptt.cc OR site:reddit.com OR site:snbforums.com OR site:52asus.com)",
+          "searchUrl": "https://search.yahoo.com/search?p=(%22Samsung%20QA65QN80HAXXZW%22)%20(problem%20OR%20issue%20OR%20defect%20OR%20failure%20OR%20%E7%81%BD%E6%83%85%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)%20(site%3Amobile01.com%20OR%20site%3Adcard.tw%20OR%20site%3Aptt.cc%20OR%20site%3Areddit.com%20OR%20site%3Asnbforums.com%20OR%20site%3A52asus.com)",
+          "result": "search_unavailable",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-08-28T00:00:00+08:00",
+          "error": "fetch failed"
         }
       ],
       "evidence": [],
@@ -23965,6 +24044,84 @@
           "reason": "雖頁內出現 exact model，候選內容不是 ED1031WD 持有者的具體同型號問題；品牌泛稱與不同型號不得合併計數。"
         }
       ]
+    },
+    {
+      "id": "dehumidifier-sharp-dw-uw25ht-w",
+      "category": "dehumidifier",
+      "brand": "SHARP",
+      "model": "DW-UW25HT-W",
+      "name": "乾淨方 Pro 雙氣流變頻美學 25L 除濕機",
+      "identity": {
+        "canonicalModel": "DW-UW25HT-W",
+        "lookupLabel": "SHARP DW-UW25HT-W",
+        "aliases": [
+          "SHARP DW-UW25HT-W"
+        ],
+        "evidenceUrl": "https://www.hotaigo.com.tw/productdetail/hotai1785980593-4550556198233.html"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "status": "completed",
+        "decision": "no_common_issue",
+        "reviewedAt": "2026-08-28",
+        "checkedPlatforms": [
+          "Reddit",
+          "Mobile01"
+        ],
+        "queries": [
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"SHARP DW-UW25HT-W\" (problem OR issue OR defect OR failure)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22SHARP%20DW-UW25HT-W%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+            "targetHost": "reddit.com"
+          },
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"SHARP DW-UW25HT-W\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22SHARP%20DW-UW25HT-W%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "mobile01.com"
+          }
+        ],
+        "candidateDisposition": "DW-UW25HT-W：逐列覆核 Reddit 與 Mobile01 兩組 exact-model 搜尋，兩站均無可回到原頁的 DW-UW25HT-W 負面候選；搜尋發現的通路與官方頁不是使用者問題原頁，於候選邊界前排除。",
+        "representativeSources": [],
+        "candidateReviews": [],
+        "reviewerNote": "DW-UW25HT-W：已人工查看兩組 exact-model 搜尋結果，沒有原頁候選；no_common_issue 只代表查無達門檻的集中負評，不代表完全沒有個別負評。",
+        "attestation": "manual_cross_site_search_reviewed_no_candidate"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-08-28",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"SHARP DW-UW25HT-W\" (problem OR issue OR defect OR failure)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22SHARP%20DW-UW25HT-W%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+            "targetHost": "reddit.com"
+          },
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"SHARP DW-UW25HT-W\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22SHARP%20DW-UW25HT-W%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "mobile01.com"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "Yahoo Search",
+          "query": "(\"SHARP DW-UW25HT-W\") (problem OR issue OR defect OR failure OR 災情 OR 故障 OR 負評) (site:mobile01.com OR site:dcard.tw OR site:ptt.cc OR site:reddit.com OR site:snbforums.com OR site:52asus.com)",
+          "searchUrl": "https://search.yahoo.com/search?p=(%22SHARP%20DW-UW25HT-W%22)%20(problem%20OR%20issue%20OR%20defect%20OR%20failure%20OR%20%E7%81%BD%E6%83%85%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)%20(site%3Amobile01.com%20OR%20site%3Adcard.tw%20OR%20site%3Aptt.cc%20OR%20site%3Areddit.com%20OR%20site%3Asnbforums.com%20OR%20site%3A52asus.com)",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-08-28T00:00:00+08:00"
+        }
+      ],
+      "evidence": [],
+      "rejectedCandidates": []
     },
     {
       "id": "ap-coway-ap1019",
@@ -42622,6 +42779,162 @@
       ]
     },
     {
+      "id": "robot-xiaomi-vacuum-6-pv32gl",
+      "category": "robot",
+      "brand": "Xiaomi",
+      "model": "PV32GL",
+      "name": "Xiaomi 掃拖機器人 6",
+      "identity": {
+        "canonicalModel": "PV32GL",
+        "lookupLabel": "Xiaomi PV32GL",
+        "aliases": [
+          "Xiaomi PV32GL"
+        ],
+        "evidenceUrl": "https://24h.pchome.com.tw/prod/DMBL53-A900KAFM1"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "status": "completed",
+        "decision": "no_common_issue",
+        "reviewedAt": "2026-08-28",
+        "checkedPlatforms": [
+          "Reddit",
+          "Mobile01"
+        ],
+        "queries": [
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"Xiaomi PV32GL\" (problem OR issue OR defect OR failure)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Xiaomi%20PV32GL%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+            "targetHost": "reddit.com"
+          },
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"Xiaomi PV32GL\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Xiaomi%20PV32GL%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "mobile01.com"
+          }
+        ],
+        "candidateDisposition": "PV32GL：逐列覆核 Reddit 與 Mobile01 兩組 exact-model 搜尋，均無可回到原頁的 PV32GL 候選。Reddit 的 6／6 Pro／6 Max 滾筒耗材差異文未寫 PV32GL 且不是故障；Mobile01 推薦文只談 X20 Max、X10+ 等舊款，均在型號邊界前排除。",
+        "representativeSources": [],
+        "candidateReviews": [],
+        "reviewerNote": "PV32GL：人工檢查兩站 exact-model 查詢與搜尋發現頁，沒有完全相同型號的第一人稱問題原頁；no_common_issue 只代表查無達門檻的集中負評，不代表完全沒有個別負評。",
+        "attestation": "manual_cross_site_search_reviewed_no_candidate"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-08-28",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"Xiaomi PV32GL\" (problem OR issue OR defect OR failure)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Xiaomi%20PV32GL%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+            "targetHost": "reddit.com"
+          },
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"Xiaomi PV32GL\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Xiaomi%20PV32GL%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "mobile01.com"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "Yahoo Search",
+          "query": "(\"Xiaomi PV32GL\") (problem OR issue OR defect OR failure OR 災情 OR 故障 OR 負評) (site:mobile01.com OR site:dcard.tw OR site:ptt.cc OR site:reddit.com OR site:snbforums.com OR site:52asus.com)",
+          "searchUrl": "https://search.yahoo.com/search?p=(%22Xiaomi%20PV32GL%22)%20(problem%20OR%20issue%20OR%20defect%20OR%20failure%20OR%20%E7%81%BD%E6%83%85%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)%20(site%3Amobile01.com%20OR%20site%3Adcard.tw%20OR%20site%3Aptt.cc%20OR%20site%3Areddit.com%20OR%20site%3Asnbforums.com%20OR%20site%3A52asus.com)",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-08-28T00:00:00+08:00"
+        }
+      ],
+      "evidence": [],
+      "rejectedCandidates": []
+    },
+    {
+      "id": "robot-xiaomi-vacuum-6-pro-pv21gl",
+      "category": "robot",
+      "brand": "Xiaomi",
+      "model": "PV21GL",
+      "name": "Xiaomi 掃拖機器人 6 Pro",
+      "identity": {
+        "canonicalModel": "PV21GL",
+        "lookupLabel": "Xiaomi PV21GL",
+        "aliases": [
+          "Xiaomi PV21GL"
+        ],
+        "evidenceUrl": "https://24h.pchome.com.tw/prod/DMBL53-A900KAFL2"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "status": "completed",
+        "decision": "no_common_issue",
+        "reviewedAt": "2026-08-28",
+        "checkedPlatforms": [
+          "Reddit",
+          "Mobile01"
+        ],
+        "queries": [
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"Xiaomi PV21GL\" (problem OR issue OR defect OR failure)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Xiaomi%20PV21GL%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+            "targetHost": "reddit.com"
+          },
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"Xiaomi PV21GL\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Xiaomi%20PV21GL%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "mobile01.com"
+          }
+        ],
+        "candidateDisposition": "PV21GL：逐列覆核 Reddit 與 Mobile01 兩組 exact-model 搜尋，均無可回到原頁的 PV21GL 候選。Reddit 的 6／6 Pro／6 Max 滾筒耗材差異文未寫 PV21GL 且不是故障；Mobile01 推薦文只談 X20 Max、X10+ 等舊款，均在型號邊界前排除。",
+        "representativeSources": [],
+        "candidateReviews": [],
+        "reviewerNote": "PV21GL：人工檢查兩站 exact-model 查詢與搜尋發現頁，沒有完全相同型號的第一人稱問題原頁；no_common_issue 只代表查無達門檻的集中負評，不代表完全沒有個別負評。",
+        "attestation": "manual_cross_site_search_reviewed_no_candidate"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-08-28",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"Xiaomi PV21GL\" (problem OR issue OR defect OR failure)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Xiaomi%20PV21GL%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+            "targetHost": "reddit.com"
+          },
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"Xiaomi PV21GL\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Xiaomi%20PV21GL%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "mobile01.com"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "Yahoo Search",
+          "query": "(\"Xiaomi PV21GL\") (problem OR issue OR defect OR failure OR 災情 OR 故障 OR 負評) (site:mobile01.com OR site:dcard.tw OR site:ptt.cc OR site:reddit.com OR site:snbforums.com OR site:52asus.com)",
+          "searchUrl": "https://search.yahoo.com/search?p=(%22Xiaomi%20PV21GL%22)%20(problem%20OR%20issue%20OR%20defect%20OR%20failure%20OR%20%E7%81%BD%E6%83%85%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)%20(site%3Amobile01.com%20OR%20site%3Adcard.tw%20OR%20site%3Aptt.cc%20OR%20site%3Areddit.com%20OR%20site%3Asnbforums.com%20OR%20site%3A52asus.com)",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-08-28T00:00:00+08:00"
+        }
+      ],
+      "evidence": [],
+      "rejectedCandidates": []
+    },
+    {
       "id": "vac-dyson-v12",
       "category": "vacuum",
       "brand": "Dyson",
@@ -46801,6 +47114,95 @@
           "candidateUrls": [],
           "candidates": [],
           "inspectedAt": "2026-08-20T00:00:00+08:00"
+        }
+      ],
+      "evidence": [],
+      "rejectedCandidates": []
+    },
+    {
+      "id": "vacuum-roborock-f25-ace-pro-wd5m14a",
+      "category": "vacuum",
+      "brand": "Roborock",
+      "model": "WD5M14A",
+      "name": "F25 ACE Pro 石沫吸泡沫洗地機",
+      "identity": {
+        "canonicalModel": "WD5M14A",
+        "lookupLabel": "Roborock WD5M14A",
+        "aliases": [
+          "Roborock WD5M14A",
+          "WD5M14A"
+        ],
+        "evidenceUrl": "https://www.tk3c.com/product/265652"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "status": "completed",
+        "decision": "no_common_issue",
+        "reviewedAt": "2026-08-26",
+        "checkedPlatforms": [
+          "Reddit",
+          "Mobile01"
+        ],
+        "queries": [
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"Roborock WD5M14A\" (problem OR issue OR defect OR failure)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Roborock%20WD5M14A%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+            "targetHost": "reddit.com"
+          },
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"Roborock WD5M14A\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Roborock%20WD5M14A%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "mobile01.com"
+          }
+        ],
+        "candidateDisposition": "WD5M14A：逐列覆核 Reddit 與 Mobile01 兩組 exact-model 搜尋，兩站均無可回到原頁的 WD5M14A 負面候選，未達同一問題 6 人／2 個原始網站。",
+        "representativeSources": [],
+        "candidateReviews": [],
+        "reviewerNote": "WD5M14A：已人工查看兩組 exact-model 搜尋結果；沒有原頁候選，no_common_issue 只代表查無達門檻的集中負評，不代表完全沒有個別負評。",
+        "attestation": "manual_cross_site_search_reviewed_no_candidate"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-08-26",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"Roborock WD5M14A\" (problem OR issue OR defect OR failure)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Roborock%20WD5M14A%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+            "targetHost": "reddit.com"
+          },
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"Roborock WD5M14A\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Roborock%20WD5M14A%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "mobile01.com"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "Bing Search → Reddit",
+          "query": "site:reddit.com \"Roborock WD5M14A\" (problem OR issue OR defect OR failure)",
+          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Roborock%20WD5M14A%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-08-26T00:00:00+08:00"
+        },
+        {
+          "platform": "Bing Search → Mobile01",
+          "query": "site:mobile01.com \"Roborock WD5M14A\" (災情 OR 問題 OR 故障 OR 負評)",
+          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Roborock%20WD5M14A%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-08-26T00:00:00+08:00"
         }
       ],
       "evidence": [],
@@ -130429,6 +130831,85 @@
       ]
     },
     {
+      "id": "wifi-asus-rog-gt-be25000-edition-20",
+      "category": "wifi",
+      "brand": "ASUS",
+      "model": "ROG Rapture GT-BE25000 Edition 20",
+      "name": "BE25000 四頻 Wi-Fi 7 20 週年電競路由器",
+      "identity": {
+        "canonicalModel": "ROG Rapture GT-BE25000 Edition 20",
+        "lookupLabel": "ASUS ROG Rapture GT-BE25000 Edition 20",
+        "aliases": [
+          "ASUS ROG Rapture GT-BE25000 Edition 20"
+        ],
+        "evidenceUrl": "https://shopee.tw/ASUS-%E8%8F%AF%E7%A2%A9-ROG-Rapture-GT-BE25000-Edition-20-WiFi7%E8%B7%AF%E7%94%B1%E5%99%A8-i.28706135.43232449392"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "status": "completed",
+        "decision": "no_common_issue",
+        "reviewedAt": "2026-08-28",
+        "checkedPlatforms": [
+          "Reddit",
+          "Mobile01",
+          "SNBForums"
+        ],
+        "queries": [
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"ROG Rapture GT-BE25000 Edition 20\" (problem OR issue OR defect OR failure)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22ROG%20Rapture%20GT-BE25000%20Edition%2020%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+            "targetHost": "reddit.com"
+          },
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"ROG Rapture GT-BE25000 Edition 20\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22ROG%20Rapture%20GT-BE25000%20Edition%2020%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "mobile01.com"
+          }
+        ],
+        "candidateDisposition": "ROG Rapture GT-BE25000 Edition 20：Reddit 與 Mobile01 完整週年款查詢無原頁候選；Yahoo 的 3 個 SNBForums 命中經原頁覆核後均屬 2024 基礎 GT-BE25000 或其他 ROG 路由器，經 exact-model 邊界過濾後沒有 Edition 20 候選。",
+        "representativeSources": [],
+        "candidateReviews": [],
+        "reviewerNote": "ROG Rapture GT-BE25000 Edition 20：已逐頁區分 Edition 20、2024 基礎 GT-BE25000、GT-BE98／GT-BE98 Pro 與 GT-BE19000AI；exact-model 邊界過濾後候選為 0。",
+        "attestation": "manual_cross_site_search_reviewed_no_candidate"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-08-28",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"ROG Rapture GT-BE25000 Edition 20\" (problem OR issue OR defect OR failure)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22ROG%20Rapture%20GT-BE25000%20Edition%2020%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+            "targetHost": "reddit.com"
+          },
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"ROG Rapture GT-BE25000 Edition 20\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22ROG%20Rapture%20GT-BE25000%20Edition%2020%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "mobile01.com"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "Yahoo Search",
+          "query": "(\"ASUS ROG Rapture GT-BE25000 Edition 20\") (problem OR issue OR defect OR failure OR 災情 OR 故障 OR 負評) (site:mobile01.com OR site:dcard.tw OR site:ptt.cc OR site:reddit.com OR site:snbforums.com OR site:52asus.com)",
+          "searchUrl": "https://search.yahoo.com/search?p=(%22ASUS%20ROG%20Rapture%20GT-BE25000%20Edition%2020%22)%20(problem%20OR%20issue%20OR%20defect%20OR%20failure%20OR%20%E7%81%BD%E6%83%85%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)%20(site%3Amobile01.com%20OR%20site%3Adcard.tw%20OR%20site%3Aptt.cc%20OR%20site%3Areddit.com%20OR%20site%3Asnbforums.com%20OR%20site%3A52asus.com)",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-08-28T00:00:00+08:00"
+        }
+      ],
+      "evidence": [],
+      "rejectedCandidates": []
+    },
+    {
       "id": "network-switch-dlink-dms-108",
       "category": "network-switch",
       "brand": "D-Link",
@@ -152384,6 +152865,331 @@
       ]
     },
     {
+      "id": "monitor-apple-studio-display-xdr-mfel4ta-a",
+      "category": "monitor",
+      "brand": "Apple",
+      "model": "Studio Display XDR MFEL4TA/A",
+      "name": "27 吋 5K 120Hz Mini LED 顯示器（標準玻璃／可調高度支架）",
+      "identity": {
+        "canonicalModel": "Studio Display XDR MFEL4TA/A",
+        "lookupLabel": "Apple Studio Display XDR MFEL4TA/A",
+        "aliases": [
+          "Apple Studio Display XDR MFEL4TA/A",
+          "Apple MFEL4TA"
+        ],
+        "evidenceUrl": "https://www.momoshop.com.tw/product/15103887"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "status": "completed",
+        "decision": "no_common_issue",
+        "reviewedAt": "2026-08-28",
+        "checkedPlatforms": [
+          "Reddit",
+          "Mobile01"
+        ],
+        "queries": [
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"Studio Display XDR MFEL4TA/A\" (problem OR issue OR defect OR failure)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Studio%20Display%20XDR%20MFEL4TA%2FA%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+            "targetHost": "reddit.com"
+          },
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"Studio Display XDR MFEL4TA/A\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Studio%20Display%20XDR%20MFEL4TA%2FA%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "mobile01.com"
+          }
+        ],
+        "candidateDisposition": "Studio Display XDR MFEL4TA/A：Reddit 與 Mobile01 的完整 part-number 查詢均無 exact-model 原頁候選；只寫 Studio Display XDR 而沒有 MFEL4TA/A 的跨配置討論不計入。",
+        "representativeSources": [],
+        "candidateReviews": [],
+        "reviewerNote": "Studio Display XDR MFEL4TA/A：已人工覆核兩站完整型號查詢；no_common_issue 只表示未找到同一 exact model 達 6 人／2 站門檻的集中回報。",
+        "attestation": "manual_cross_site_search_reviewed_no_candidate"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-08-28",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"Studio Display XDR MFEL4TA/A\" (problem OR issue OR defect OR failure)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Studio%20Display%20XDR%20MFEL4TA%2FA%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+            "targetHost": "reddit.com"
+          },
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"Studio Display XDR MFEL4TA/A\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Studio%20Display%20XDR%20MFEL4TA%2FA%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "mobile01.com"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "Yahoo Search",
+          "query": "(\"Apple Studio Display XDR MFEL4TA/A\" OR \"Apple MFEL4TA\") (problem OR issue OR defect OR failure OR 災情 OR 故障 OR 負評) (site:mobile01.com OR site:dcard.tw OR site:ptt.cc OR site:reddit.com OR site:snbforums.com OR site:52asus.com)",
+          "searchUrl": "https://search.yahoo.com/search?p=(%22Apple%20Studio%20Display%20XDR%20MFEL4TA%2FA%22%20OR%20%22Apple%20MFEL4TA%22)%20(problem%20OR%20issue%20OR%20defect%20OR%20failure%20OR%20%E7%81%BD%E6%83%85%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)%20(site%3Amobile01.com%20OR%20site%3Adcard.tw%20OR%20site%3Aptt.cc%20OR%20site%3Areddit.com%20OR%20site%3Asnbforums.com%20OR%20site%3A52asus.com)",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-08-28T00:00:00+08:00"
+        }
+      ],
+      "evidence": [],
+      "rejectedCandidates": []
+    },
+    {
+      "id": "monitor-samsung-odyssey-g80hf-ls27hg806efxzw",
+      "category": "monitor",
+      "brand": "Samsung",
+      "model": "Odyssey G8 G80HF LS27HG806EFXZW",
+      "name": "27 吋 5K 180Hz／QHD 360Hz 雙模式電競螢幕",
+      "identity": {
+        "canonicalModel": "Odyssey G8 G80HF LS27HG806EFXZW",
+        "lookupLabel": "Samsung Odyssey G8 G80HF LS27HG806EFXZW",
+        "aliases": [
+          "Samsung Odyssey G8 G80HF LS27HG806EFXZW",
+          "Samsung G80HF",
+          "Samsung LS27HG806EFXZW"
+        ],
+        "evidenceUrl": "https://24h.pchome.com.tw/prod/DSABON-A900K2NJE"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "status": "completed",
+        "decision": "no_common_issue",
+        "reviewedAt": "2026-08-28",
+        "checkedPlatforms": [
+          "Reddit",
+          "Mobile01"
+        ],
+        "queries": [
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"Odyssey G8 G80HF LS27HG806EFXZW\" (problem OR issue OR defect OR failure)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Odyssey%20G8%20G80HF%20LS27HG806EFXZW%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+            "targetHost": "reddit.com"
+          },
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"Odyssey G8 G80HF LS27HG806EFXZW\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Odyssey%20G8%20G80HF%20LS27HG806EFXZW%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "mobile01.com"
+          }
+        ],
+        "candidateDisposition": "Odyssey G8 G80HF LS27HG806EFXZW：兩站完整台灣 SKU 查詢均無 exact-model 原頁候選；美國 LS27HG802EFXZA 與只寫 G80HF 的討論不跨區域 SKU 計數。",
+        "representativeSources": [],
+        "candidateReviews": [],
+        "reviewerNote": "Odyssey G8 G80HF LS27HG806EFXZW：已人工覆核 Reddit 與 Mobile01；沒有同一台灣 SKU 可計入的跨站集中回報。",
+        "attestation": "manual_cross_site_search_reviewed_no_candidate"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-08-28",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"Odyssey G8 G80HF LS27HG806EFXZW\" (problem OR issue OR defect OR failure)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Odyssey%20G8%20G80HF%20LS27HG806EFXZW%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+            "targetHost": "reddit.com"
+          },
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"Odyssey G8 G80HF LS27HG806EFXZW\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Odyssey%20G8%20G80HF%20LS27HG806EFXZW%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "mobile01.com"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "Yahoo Search",
+          "query": "(\"Samsung Odyssey G8 G80HF LS27HG806EFXZW\" OR \"Samsung G80HF\" OR \"Samsung LS27HG806EFXZW\") (problem OR issue OR defect OR failure OR 災情 OR 故障 OR 負評) (site:mobile01.com OR site:dcard.tw OR site:ptt.cc OR site:reddit.com OR site:snbforums.com OR site:52asus.com)",
+          "searchUrl": "https://search.yahoo.com/search?p=(%22Samsung%20Odyssey%20G8%20G80HF%20LS27HG806EFXZW%22%20OR%20%22Samsung%20G80HF%22%20OR%20%22Samsung%20LS27HG806EFXZW%22)%20(problem%20OR%20issue%20OR%20defect%20OR%20failure%20OR%20%E7%81%BD%E6%83%85%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)%20(site%3Amobile01.com%20OR%20site%3Adcard.tw%20OR%20site%3Aptt.cc%20OR%20site%3Areddit.com%20OR%20site%3Asnbforums.com%20OR%20site%3A52asus.com)",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-08-28T00:00:00+08:00"
+        }
+      ],
+      "evidence": [],
+      "rejectedCandidates": []
+    },
+    {
+      "id": "monitor-asus-rog-strix-xg27jcg",
+      "category": "monitor",
+      "brand": "ASUS",
+      "model": "ROG Strix 5K XG27JCG",
+      "name": "27 吋 5K 180Hz／QHD 330Hz 雙模式電競螢幕",
+      "identity": {
+        "canonicalModel": "ROG Strix 5K XG27JCG",
+        "lookupLabel": "ASUS ROG Strix 5K XG27JCG",
+        "aliases": [
+          "ASUS ROG Strix 5K XG27JCG",
+          "ASUS XG27JCG"
+        ],
+        "evidenceUrl": "https://24h.pchome.com.tw/prod/DSABKB-A900JO7QP"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "status": "completed",
+        "decision": "no_common_issue",
+        "reviewedAt": "2026-08-28",
+        "checkedPlatforms": [
+          "Reddit",
+          "Mobile01"
+        ],
+        "queries": [
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"ROG Strix 5K XG27JCG\" (problem OR issue OR defect OR failure)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22ROG%20Strix%205K%20XG27JCG%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+            "targetHost": "reddit.com"
+          },
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"ROG Strix 5K XG27JCG\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22ROG%20Strix%205K%20XG27JCG%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "mobile01.com"
+          }
+        ],
+        "candidateDisposition": "ROG Strix 5K XG27JCG：Reddit 找到 3 個 exact-model 原頁候選，各僅 1 名獨立使用者且症狀不一致；Mobile01 無可確認的 exact-model 第一人稱問題頁，未達同一問題 6 人／2 站。",
+        "representativeSources": [
+          {
+            "platform": "Reddit",
+            "title": "ASUS XG27JCG 5K monitor dead on arrival",
+            "url": "https://www.reddit.com/r/Monitors/comments/1r98ke9/asus_xg27jcg_5k_monitor_dead_on_arrival/"
+          },
+          {
+            "platform": "Reddit",
+            "title": "ASUS Strix 5K XG27JCG issue",
+            "url": "https://www.reddit.com/r/HiDPI_monitors/comments/1tbyckd/asus_strix_5k_xg27jcg_issue/"
+          },
+          {
+            "platform": "Reddit",
+            "title": "ASUS ROG Strix XG27JCG dual-mode 180/330Hz 5K",
+            "url": "https://www.reddit.com/r/HiDPI_monitors/comments/1sxddhz/asus_rog_strix_xg27jcg_dualmode_180330hz_5k/"
+          }
+        ],
+        "candidateReviews": [
+          {
+            "url": "https://www.reddit.com/r/Monitors/comments/1r98ke9/asus_xg27jcg_5k_monitor_dead_on_arrival/",
+            "title": "ASUS XG27JCG 5K monitor dead on arrival",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-08-28",
+            "sourceExcerpt": "樓主回報一台全新 XG27JCG 到貨即無法正常顯示，屬單一使用者的 DOA 經驗。",
+            "independentAuthors": 1,
+            "specificReason": "只有 1 名可辨識的 exact-model 第一人稱使用者，且沒有第二個原始網站的同症狀回報，未達 6 人／2 站門檻。",
+            "platform": "Reddit"
+          },
+          {
+            "url": "https://www.reddit.com/r/HiDPI_monitors/comments/1tbyckd/asus_strix_5k_xg27jcg_issue/",
+            "title": "ASUS Strix 5K XG27JCG issue",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-08-28",
+            "sourceExcerpt": "樓主表示購入的是 refurbished XG27JCG，畫面短暫出現線條異常後又消失。",
+            "independentAuthors": 1,
+            "specificReason": "候選是 1 台整新品／refurbished 個案，商品資料規則本來就排除整新品，且沒有跨站同症狀群聚，不計為新品集中災情。",
+            "platform": "Reddit"
+          },
+          {
+            "url": "https://www.reddit.com/r/HiDPI_monitors/comments/1sxddhz/asus_rog_strix_xg27jcg_dualmode_180330hz_5k/",
+            "title": "ASUS ROG Strix XG27JCG dual-mode 180/330Hz 5K",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-08-28",
+            "sourceExcerpt": "單一使用者分享 XG27JCG 使用感受，提到 ELMB 下可見拖影／過衝取捨。",
+            "independentAuthors": 1,
+            "specificReason": "這是 1 名使用者的功能取捨回報，與 DOA、線條異常不是同一問題，也沒有 Mobile01 等第二原始網站的 6 人群聚。",
+            "platform": "Reddit"
+          }
+        ],
+        "reviewerNote": "ROG Strix 5K XG27JCG：已逐頁查看三個 Reddit 候選並檢查 Mobile01；候選彼此不是同一問題且總數不足門檻。",
+        "attestation": "manual_original_pages_reviewed"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-08-28",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"ROG Strix 5K XG27JCG\" (problem OR issue OR defect OR failure)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22ROG%20Strix%205K%20XG27JCG%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+            "targetHost": "reddit.com"
+          },
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"ROG Strix 5K XG27JCG\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22ROG%20Strix%205K%20XG27JCG%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "mobile01.com"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "Yahoo Search",
+          "query": "(\"ASUS ROG Strix 5K XG27JCG\" OR \"ASUS XG27JCG\") (problem OR issue OR defect OR failure OR 災情 OR 故障 OR 負評) (site:mobile01.com OR site:dcard.tw OR site:ptt.cc OR site:reddit.com OR site:snbforums.com OR site:52asus.com)",
+          "searchUrl": "https://search.yahoo.com/search?p=(%22ASUS%20ROG%20Strix%205K%20XG27JCG%22%20OR%20%22ASUS%20XG27JCG%22)%20(problem%20OR%20issue%20OR%20defect%20OR%20failure%20OR%20%E7%81%BD%E6%83%85%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)%20(site%3Amobile01.com%20OR%20site%3Adcard.tw%20OR%20site%3Aptt.cc%20OR%20site%3Areddit.com%20OR%20site%3Asnbforums.com%20OR%20site%3A52asus.com)",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-08-28T00:00:00+08:00"
+        }
+      ],
+      "evidence": [],
+      "rejectedCandidates": [
+        {
+          "url": "https://www.reddit.com/r/Monitors/comments/1r98ke9/asus_xg27jcg_5k_monitor_dead_on_arrival/",
+          "title": "ASUS XG27JCG 5K monitor dead on arrival",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-28",
+          "sourceExcerpt": "樓主回報一台全新 XG27JCG 到貨即無法正常顯示，屬單一使用者的 DOA 經驗。",
+          "independentAuthors": 1,
+          "specificReason": "只有 1 名可辨識的 exact-model 第一人稱使用者，且沒有第二個原始網站的同症狀回報，未達 6 人／2 站門檻。",
+          "platform": "Reddit",
+          "reason": "只有 1 名可辨識的 exact-model 第一人稱使用者，且沒有第二個原始網站的同症狀回報，未達 6 人／2 站門檻。"
+        },
+        {
+          "url": "https://www.reddit.com/r/HiDPI_monitors/comments/1tbyckd/asus_strix_5k_xg27jcg_issue/",
+          "title": "ASUS Strix 5K XG27JCG issue",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-28",
+          "sourceExcerpt": "樓主表示購入的是 refurbished XG27JCG，畫面短暫出現線條異常後又消失。",
+          "independentAuthors": 1,
+          "specificReason": "候選是 1 台整新品／refurbished 個案，商品資料規則本來就排除整新品，且沒有跨站同症狀群聚，不計為新品集中災情。",
+          "platform": "Reddit",
+          "reason": "候選是 1 台整新品／refurbished 個案，商品資料規則本來就排除整新品，且沒有跨站同症狀群聚，不計為新品集中災情。"
+        },
+        {
+          "url": "https://www.reddit.com/r/HiDPI_monitors/comments/1sxddhz/asus_rog_strix_xg27jcg_dualmode_180330hz_5k/",
+          "title": "ASUS ROG Strix XG27JCG dual-mode 180/330Hz 5K",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-28",
+          "sourceExcerpt": "單一使用者分享 XG27JCG 使用感受，提到 ELMB 下可見拖影／過衝取捨。",
+          "independentAuthors": 1,
+          "specificReason": "這是 1 名使用者的功能取捨回報，與 DOA、線條異常不是同一問題，也沒有 Mobile01 等第二原始網站的 6 人群聚。",
+          "platform": "Reddit",
+          "reason": "這是 1 名使用者的功能取捨回報，與 DOA、線條異常不是同一問題，也沒有 Mobile01 等第二原始網站的 6 人群聚。"
+        }
+      ]
+    },
+    {
       "id": "monitorarm-raymii-ls116m1",
       "category": "monitorarm",
       "brand": "Raymii",
@@ -156239,25 +157045,25 @@
       "rejectedCandidates": []
     },
     {
-      "id": "vacuum-roborock-f25-ace-pro-wd5m14a",
-      "category": "vacuum",
-      "brand": "Roborock",
-      "model": "WD5M14A",
-      "name": "F25 ACE Pro 石沫吸泡沫洗地機",
+      "id": "monitorarm-asus-rog-ergo-aas01r",
+      "category": "monitorarm",
+      "brand": "ASUS",
+      "model": "ROG Ergo Monitor Arm AAS01R",
+      "name": "49 吋 13.5kg 雙軸機械彈簧螢幕支架",
       "identity": {
-        "canonicalModel": "WD5M14A",
-        "lookupLabel": "Roborock WD5M14A",
+        "canonicalModel": "ROG Ergo Monitor Arm AAS01R",
+        "lookupLabel": "ASUS ROG Ergo Monitor Arm AAS01R",
         "aliases": [
-          "Roborock WD5M14A",
-          "WD5M14A"
+          "ASUS ROG Ergo Monitor Arm AAS01R",
+          "ASUS AAS01R"
         ],
-        "evidenceUrl": "https://www.tk3c.com/product/265652"
+        "evidenceUrl": "https://www.sinya.com.tw/prod/226165"
       },
       "workflowStatus": "completed",
       "manualReview": {
         "status": "completed",
         "decision": "no_common_issue",
-        "reviewedAt": "2026-08-26",
+        "reviewedAt": "2026-08-28",
         "checkedPlatforms": [
           "Reddit",
           "Mobile01"
@@ -156265,63 +157071,53 @@
         "queries": [
           {
             "platform": "Reddit",
-            "query": "site:reddit.com \"Roborock WD5M14A\" (problem OR issue OR defect OR failure)",
-            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Roborock%20WD5M14A%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+            "query": "site:reddit.com \"ROG Ergo Monitor Arm AAS01R\" (problem OR issue OR defect OR failure)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22ROG%20Ergo%20Monitor%20Arm%20AAS01R%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
             "targetHost": "reddit.com"
           },
           {
             "platform": "Mobile01",
-            "query": "site:mobile01.com \"Roborock WD5M14A\" (災情 OR 問題 OR 故障 OR 負評)",
-            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Roborock%20WD5M14A%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "query": "site:mobile01.com \"ROG Ergo Monitor Arm AAS01R\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22ROG%20Ergo%20Monitor%20Arm%20AAS01R%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
             "targetHost": "mobile01.com"
           }
         ],
-        "candidateDisposition": "WD5M14A：逐列覆核 Reddit 與 Mobile01 兩組 exact-model 搜尋，兩站均無可回到原頁的 WD5M14A 負面候選，未達同一問題 6 人／2 個原始網站。",
+        "candidateDisposition": "ROG Ergo Monitor Arm AAS01R：Reddit 與 Mobile01 完整型號查詢均無負面原頁候選；AAS01 舊款、開箱與一般 ROG 桌面照片均不是 AAS01R 災情。",
         "representativeSources": [],
         "candidateReviews": [],
-        "reviewerNote": "WD5M14A：已人工查看兩組 exact-model 搜尋結果；沒有原頁候選，no_common_issue 只代表查無達門檻的集中負評，不代表完全沒有個別負評。",
+        "reviewerNote": "ROG Ergo Monitor Arm AAS01R：兩站 exact-model 搜尋均已人工查看，未發現可計入的第一人稱故障候選。",
         "attestation": "manual_cross_site_search_reviewed_no_candidate"
       },
       "issueResearch": {
         "status": "no_common_issue",
-        "checkedAt": "2026-08-26",
+        "checkedAt": "2026-08-28",
         "summary": "截至查核日，查無達門檻的集中負評／災情",
         "issues": [],
         "checkedSources": [
           {
             "platform": "Reddit",
-            "query": "site:reddit.com \"Roborock WD5M14A\" (problem OR issue OR defect OR failure)",
-            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Roborock%20WD5M14A%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+            "query": "site:reddit.com \"ROG Ergo Monitor Arm AAS01R\" (problem OR issue OR defect OR failure)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22ROG%20Ergo%20Monitor%20Arm%20AAS01R%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
             "targetHost": "reddit.com"
           },
           {
             "platform": "Mobile01",
-            "query": "site:mobile01.com \"Roborock WD5M14A\" (災情 OR 問題 OR 故障 OR 負評)",
-            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Roborock%20WD5M14A%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "query": "site:mobile01.com \"ROG Ergo Monitor Arm AAS01R\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22ROG%20Ergo%20Monitor%20Arm%20AAS01R%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
             "targetHost": "mobile01.com"
           }
         ]
       },
       "searchChecks": [
         {
-          "platform": "Bing Search → Reddit",
-          "query": "site:reddit.com \"Roborock WD5M14A\" (problem OR issue OR defect OR failure)",
-          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Roborock%20WD5M14A%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "platform": "Yahoo Search",
+          "query": "(\"ASUS ROG Ergo Monitor Arm AAS01R\" OR \"ASUS AAS01R\") (problem OR issue OR defect OR failure OR 災情 OR 故障 OR 負評) (site:mobile01.com OR site:dcard.tw OR site:ptt.cc OR site:reddit.com OR site:snbforums.com OR site:52asus.com)",
+          "searchUrl": "https://search.yahoo.com/search?p=(%22ASUS%20ROG%20Ergo%20Monitor%20Arm%20AAS01R%22%20OR%20%22ASUS%20AAS01R%22)%20(problem%20OR%20issue%20OR%20defect%20OR%20failure%20OR%20%E7%81%BD%E6%83%85%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)%20(site%3Amobile01.com%20OR%20site%3Adcard.tw%20OR%20site%3Aptt.cc%20OR%20site%3Areddit.com%20OR%20site%3Asnbforums.com%20OR%20site%3A52asus.com)",
           "result": "no_exact_model_result",
           "resultCount": 0,
           "candidateUrls": [],
           "candidates": [],
-          "inspectedAt": "2026-08-26T00:00:00+08:00"
-        },
-        {
-          "platform": "Bing Search → Mobile01",
-          "query": "site:mobile01.com \"Roborock WD5M14A\" (災情 OR 問題 OR 故障 OR 負評)",
-          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Roborock%20WD5M14A%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
-          "result": "no_exact_model_result",
-          "resultCount": 0,
-          "candidateUrls": [],
-          "candidates": [],
-          "inspectedAt": "2026-08-26T00:00:00+08:00"
+          "inspectedAt": "2026-08-28T00:00:00+08:00"
         }
       ],
       "evidence": [],

@@ -308,9 +308,9 @@
     "name": "BE3600 雙頻 Wi-Fi 7 AiMesh 可擴充路由器",
     "price": {
       "currency": "TWD",
-      "amount": 3515,
-      "converted": 3515,
-      "confidence": "Yahoo購物中心 2026-08-27 exact-model 公開結構化價格"
+      "amount": 3699,
+      "converted": 3699,
+      "confidence": "Yahoo購物中心 2026-08-28 exact-model 公開結構化價格"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAFLPA900JKWXK/000001_1783555436.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/ASUS-%E8%8F%AF%E7%A2%A9-RT-BE58U-V2-BE3600-%E9%9B%99%E9%A0%BB-Wi-Fi-7-%E5%8F%AF%E6%93%B4%E5%85%85%E5%BC%8F%E8%B7%AF%E7%94%B1%E5%99%A8-12005854.html",
@@ -887,8 +887,8 @@
     "price": {
       "currency": "USD",
       "amount": 189,
-      "converted": 6015,
-      "confidence": "Ubiquiti Store 2026-07-21 來源價；ExchangeRate-API 2026-08-27 匯率換算"
+      "converted": 5987,
+      "confidence": "Ubiquiti Store 2026-07-21 來源價；ExchangeRate-API 2026-08-28 匯率換算"
     },
     "image": "https://cdn.ecomm.ui.com/products/fa8dd4e4-36c8-4c79-a928-22c7bff2ce29/ab5bc8a4-6135-402e-a695-e3ea5e16d3e6.png",
     "buyUrl": "https://store.ui.com/us/en/category/all-wifi/products/u7-pro",
@@ -976,8 +976,8 @@
     "price": {
       "currency": "USD",
       "amount": 159,
-      "converted": 5060,
-      "confidence": "Ubiquiti Store 2026-07-21 來源價；ExchangeRate-API 2026-08-27 匯率換算"
+      "converted": 5037,
+      "confidence": "Ubiquiti Store 2026-07-21 來源價；ExchangeRate-API 2026-08-28 匯率換算"
     },
     "image": "https://cdn.ecomm.ui.com/products/8e88b222-7a55-4cf0-8677-ae9b6347fe84/e16aa122-b5e5-4ffb-9f1a-27ee14d9ab3d.png",
     "buyUrl": "https://store.ui.com/us/en/category/all-wifi/products/u6-pro",
@@ -1061,8 +1061,8 @@
     "price": {
       "currency": "USD",
       "amount": 99,
-      "converted": 3151,
-      "confidence": "Ubiquiti Store 2026-07-21 來源價；ExchangeRate-API 2026-08-27 匯率換算"
+      "converted": 3136,
+      "confidence": "Ubiquiti Store 2026-07-21 來源價；ExchangeRate-API 2026-08-28 匯率換算"
     },
     "image": "https://cdn.ecomm.ui.com/products/253cc208-4b09-4b2e-9d1a-7aa1e8f93507/49241c96-878f-4e40-8541-c2e89c1c5e6e.png",
     "buyUrl": "https://store.ui.com/us/en/category/all-wifi/products/u7-lite",
@@ -1537,8 +1537,8 @@
     "price": {
       "currency": "USD",
       "amount": 129,
-      "converted": 4106,
-      "confidence": "Ubiquiti Store 2026-07-21 來源價；ExchangeRate-API 2026-08-27 匯率換算"
+      "converted": 4087,
+      "confidence": "Ubiquiti Store 2026-07-21 來源價；ExchangeRate-API 2026-08-28 匯率換算"
     },
     "image": "https://cdn.ecomm.ui.com/products/6d5c6141-e2e9-416a-b789-53e59416bb1a/853bc73b-f65b-4e59-a171-75c9a4a4615e.png",
     "buyUrl": "https://store.ui.com/us/en/category/all-wifi/products/u6-plus",
@@ -1641,8 +1641,8 @@
     "price": {
       "currency": "USD",
       "amount": 279,
-      "converted": 8879,
-      "confidence": "Ubiquiti Store 2026-07-21 來源價；ExchangeRate-API 2026-08-27 匯率換算"
+      "converted": 8838,
+      "confidence": "Ubiquiti Store 2026-07-21 來源價；ExchangeRate-API 2026-08-28 匯率換算"
     },
     "image": "https://cdn.ecomm.ui.com/products/350070a0-ae43-431b-b052-8e849c3b0a75/bad94693-bc54-4ab4-b060-9b972401941c.png",
     "buyUrl": "https://store.ui.com/us/en/category/all-wifi/products/u7-pro-max",
@@ -1735,9 +1735,9 @@
     "name": "BE6500 雙頻 Wi-Fi 7 路由器",
     "price": {
       "currency": "TWD",
-      "amount": 4741,
-      "converted": 4741,
-      "confidence": "Yahoo購物中心 2026-08-27 exact-model 公開結構化價格"
+      "amount": 4990,
+      "converted": 4990,
+      "confidence": "Yahoo購物中心 2026-08-28 exact-model 公開結構化價格"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAFLPA900IV4B6/000001_1783556530.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/ASUS-%E8%8F%AF%E7%A2%A9-RT-BE82U-WiFi-7-%E9%9B%99%E9%A0%BB-BE6500-%E8%B7%AF%E7%94%B1%E5%99%A8-%E5%88%86%E4%BA%AB%E5%99%A8-11798654.html",
@@ -4703,9 +4703,9 @@
     "name": "BE19000 三頻 Wi-Fi 7 AI 電競路由器",
     "price": {
       "currency": "TWD",
-      "amount": 26591,
-      "converted": 26591,
-      "confidence": "Yahoo購物中心 2026-08-27 exact-model 公開結構化價格"
+      "amount": 27990,
+      "converted": 27990,
+      "confidence": "Yahoo購物中心 2026-08-28 exact-model 公開結構化價格"
     },
     "image": "https://dlcdnwebimgs.asus.com/gain/FF5DB299-9708-4259-ABF9-167FDC7166BD",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/%E6%98%8C%E9%81%8B%E7%9B%A3%E8%A6%96%E5%99%A8-ASUS-%E8%8F%AF%E7%A2%A9-ROG-Rapture-GT-BE19000AI-WiFi-7-%E4%B8%89%E9%A0%BB%E9%9B%BB%E7%AB%B6-12032656.html",
@@ -4899,6 +4899,97 @@
           "query": "\"TP-Link Archer BE600\" problem issue defect failure broken 災情 故障 異常",
           "queryUrl": "https://www.youtube.com/results?search_query=%22TP-Link%20Archer%20BE600%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
           "targetHost": "youtube.com"
+        }
+      ]
+    }
+  },
+  {
+    "id": "wifi-asus-rog-gt-be25000-edition-20",
+    "category": "wifi",
+    "rank": 52,
+    "topPick": false,
+    "budget": "premium",
+    "channel": "tw",
+    "brand": "ASUS",
+    "model": "ROG Rapture GT-BE25000 Edition 20",
+    "name": "BE25000 四頻 Wi-Fi 7 20 週年電競路由器",
+    "price": {
+      "currency": "TWD",
+      "amount": 25888,
+      "converted": 25888,
+      "confidence": "eclife 良興蝦皮商城 2026-08-28 exact-model 公開價，頁面顯示現貨數量",
+      "basis": "retailer_current"
+    },
+    "image": "https://dlcdnwebimgs.asus.com/gain/FA249918-389C-497B-9E90-71E3E88A2E99",
+    "buyUrl": "https://shopee.tw/ASUS-%E8%8F%AF%E7%A2%A9-ROG-Rapture-GT-BE25000-Edition-20-WiFi7%E8%B7%AF%E7%94%B1%E5%99%A8-i.28706135.43232449392",
+    "buyLabel": "eclife 良興蝦皮商城",
+    "installation": {
+      "status": "not_stated",
+      "note": "售價為單台路由器與原廠變壓器；不含網路佈線、10GbE 交換器、到府設定或額外 AiMesh 節點。"
+    },
+    "specs": [
+      "Wi-Fi 7 / BE25000 四頻（2.4GHz、雙 5GHz、6GHz），支援 MLO 與 320MHz",
+      "Mesh：支援 AiMesh，可作主路由、節點或 AP",
+      "有線：10G WAN/LAN x1、2.5G WAN/LAN x1、10G LAN x1、2.5G LAN x3、1G LAN x1",
+      "八支外接天線、Gaming Network、Guest Network Pro 與 AiProtection",
+      "尺寸：350.41 x 350.41 x 220.6 mm；重量：2 kg"
+    ],
+    "description": "GT-BE25000 Edition 20 是 ROG 20 週年四頻 Wi-Fi 7 旗艦，以雙 10GbE、四個 2.5GbE、AiMesh 和透明機構設計補進收藏型高階路由器比較。",
+    "pros": [
+      "四頻 Wi-Fi 7、雙 10GbE 與四個 2.5GbE 適合高速 NAS 和多 Gigabit 網路",
+      "支援 AiMesh、MLO、320MHz 與完整 ROG 遊戲網路功能",
+      "台灣正式上市且主機三年保固"
+    ],
+    "cons": [
+      "NT$25,888 定位很高，週年外觀溢價明顯",
+      "機身寬深皆約 35cm，不適合狹小弱電箱或隱藏擺放",
+      "基礎 GT-BE25000／海外 GT-BE98 有零星 2.4GHz 與 IoT 連線回報，Edition 20 尚未形成 exact-model 集中問題"
+    ],
+    "bestFor": "需要四頻 Wi-Fi 7、雙 10GbE、AiMesh 與多台 2.5GbE 設備，也重視 ROG 20 週年收藏外觀的進階玩家。",
+    "recommendation": "週年旗艦補強：效能與高速埠完整，但不是一般家庭的 CP 值選擇；部署後應針對 2.4GHz IoT、MLO、漫遊和長時間穩定性逐一壓測。",
+    "score": 87,
+    "voltage": "AC 110-240V、50-60Hz；DC 19.5V/3.33A 或 12V/5A，台灣電力可用",
+    "warranty": "ASUS 台灣網通產品主機 36 個月；變壓器、電源線與天線 12 個月",
+    "tags": [
+      "Wi-Fi 7",
+      "BE25000",
+      "四頻",
+      "AiMesh",
+      "雙10G",
+      "2.5G",
+      "20週年"
+    ],
+    "releaseDate": "2026-06-26",
+    "historicalLow": {
+      "status": "found",
+      "amount": 25888,
+      "currency": "TWD",
+      "converted": 25888,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=588834401&cgp=25888",
+      "sourceTitle": "LBJ 比價撿便宜歷史價格：ASUS ROG Rapture GT-BE25000 Edition 20",
+      "evidenceSnippet": "LBJ 的 eclife 良興蝦皮商城 exact-model 歷史曲線在 2026-07-28、08-17、08-28 均記錄 NT$25,888。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
+      "checkedAt": "2026-08-28",
+      "note": "新品上市時間短，目前可信公開歷史曲線最低仍為建議售價 NT$25,888；未計聊聊議價、折價券、蝦幣或信用卡回饋。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-08-28",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"ROG Rapture GT-BE25000 Edition 20\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22ROG%20Rapture%20GT-BE25000%20Edition%2020%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"ROG Rapture GT-BE25000 Edition 20\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22ROG%20Rapture%20GT-BE25000%20Edition%2020%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
         }
       ]
     }
