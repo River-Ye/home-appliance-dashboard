@@ -743,9 +743,9 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/1f2a33ce70-Gd-10053955.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 43563,
-      "converted": 43563,
-      "confidence": "Yahoo購物中心 2026-08-26 exact-model 公開結構化價格"
+      "amount": 44910,
+      "converted": 44910,
+      "confidence": "Yahoo購物中心 2026-08-28 exact-model 公開結構化價格"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心",
@@ -3100,6 +3100,98 @@
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Bosch WNC554A0TC\" (災情 OR 問題 OR 故障 OR 負評)",
           "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Bosch%20WNC554A0TC%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        }
+      ]
+    }
+  },
+  {
+    "id": "washerdryer-xiaomi-wd125mja12tw",
+    "category": "washerdryer",
+    "rank": 31,
+    "topPick": false,
+    "budget": "value",
+    "channel": "tw",
+    "brand": "Xiaomi",
+    "model": "WD125MJA12TW",
+    "name": "米家智慧滾筒洗衣機 Pro 洗脫烘 12.5kg",
+    "price": {
+      "currency": "TWD",
+      "amount": 16999,
+      "converted": 16999,
+      "confidence": "小米台灣官方商城 2026-08-28 exact-model 現售頁公開售價；頁面可直接選購",
+      "basis": "retailer_current"
+    },
+    "image": "https://i02.appmifile.com/848_item_tw/10/08/2026/71e821007cadfa79a8a0ff484e14242a!600x600!85.png",
+    "buyUrl": "https://www.mi.com/tw/buy/product/mijia-front-load-washer-dryer-pro-12-5-kg",
+    "buyLabel": "小米台灣官方商城",
+    "installation": {
+      "status": "not_stated",
+      "note": "小米台灣另有洗衣機授權到府安裝服務與收費條款，但 exact-model 購買頁未明示基本安裝是否包含；樓層搬運、舊機拆卸、進排水、插座與特殊施工費用需於下單前確認。"
+    },
+    "specs": [
+      "洗/乾容量：12.5kg / 8kg",
+      "尺寸：寬 59.8 x 深 61 x 高 85 cm",
+      "淨重 71kg；最高脫水轉速 1400 rpm",
+      "雙重智慧投放、智慧注水、90°C 高溫蒸氣與清新防皺",
+      "3D 智慧柔烘與衣乾即停；少量 300g 洗烘最快 59 分鐘",
+      "米家 App 遠端控制、AI 洗衣專家與 OTA 行程更新",
+      "110–120V / 60Hz；洗滌與烘乾額定輸入功率各 950W",
+      "官方建議頂部至少 2cm、左右各 1.5cm、後方 3cm，另留門開、進排水與搬運空間"
+    ],
+    "description": "Xiaomi 首款台灣正式上市洗脫烘，以 12.5/8kg、雙重自動投入、蒸氣、濕度感測烘乾與米家 App，切入兩萬元內的大容量智慧洗乾帶。",
+    "pros": [
+      "NT$16,999 即有 12.5/8kg、1400rpm 與自動投入，規格價格比突出",
+      "3D 濕度感測、蒸氣、清新防皺與 App 遠端控制功能完整",
+      "台灣官方商城現售，整機 2 年、直驅馬達 12 年原廠保固"
+    ],
+    "cons": [
+      "乾衣 8kg 小於洗衣 12.5kg，滿載洗衣時通常需分批乾燥",
+      "2026-08-28 才在台灣首發，尚缺長期在地使用與維修經驗",
+      "淨重 71kg，購買頁未明示基本安裝是否包含，搬運與施工邊界要先確認"
+    ],
+    "bestFor": "預算約兩萬元、需要大容量洗衣與中容量乾衣，且已使用米家生態系的家庭。",
+    "recommendation": "新品高 CP 候選：WD125MJA12TW 的容量、智慧功能與原廠保固很有競爭力；因台灣首發且長期口碑仍待累積，先不取代既有 Top Pick。",
+    "score": 90,
+    "voltage": "110–120V / 60Hz；需確認接地插座、進排水、地面水平、門開與散熱空間",
+    "warranty": "整機 2 年、直驅馬達 12 年（依小米台灣官方產品頁與保固條款）",
+    "tags": [
+      "洗/乾容量：12.5kg / 8kg",
+      "雙重自動投入",
+      "3D 智慧柔烘",
+      "米家 App",
+      "110–120V"
+    ],
+    "releaseDate": "2026-08-28",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-08-28",
+      "note": "本機 2026-08-28 才正式發售；小米官方與 PChome NT$16,999 只證明首發現價。BigGo exact-model 查無結果、FindPrice 無符合商品、LBJ 無符合商品與歷史 pid，未找到具日期可重現的可信新品歷史價格，故不以首發現價推定史低。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-08-28",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Xiaomi WD125MJA12TW\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Xiaomi%20WD125MJA12TW%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Xiaomi WD125MJA12TW\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Xiaomi%20WD125MJA12TW%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         }
       ]

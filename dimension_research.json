@@ -598,6 +598,23 @@
       "weightCheckedAt": "2026-08-20"
     },
     {
+      "id": "tv-samsung-qn80h-65",
+      "dimension": "尺寸：不含底座 寬 144.29 x 深 5.2 x 高 83.12 cm；含底座 寬 144.29 x 深 25.68 x 高 86.71 cm",
+      "sourceUrl": "https://www.samsung.com/tw/tvs/qled-tv/qn80h-65-inch-neo-qled-4k-mini-led-smart-tv-qa65qn80haxxzw/",
+      "sourceTitle": "65 型 Neo QLED QN80H 4K Mini LED 智慧顯示器 QA65QN80HAXXZW | Samsung 台灣",
+      "evidenceSnippet": "Samsung 台灣官方尺寸欄列出不含底座 1442.9 x 831.2 x 52 mm，含底座 1442.9 x 867.1 x 256.8 mm（寬 x 高 x 深）。",
+      "confidence": "high",
+      "isOfficialSource": true,
+      "checkedAt": "2026-08-28",
+      "weight": "重量：不含底座 17.2 kg；含底座 17.6 kg",
+      "weightSourceUrl": "https://www.samsung.com/tw/tvs/qled-tv/qn80h-65-inch-neo-qled-4k-mini-led-smart-tv-qa65qn80haxxzw/",
+      "weightSourceTitle": "65 型 Neo QLED QN80H 4K Mini LED 智慧顯示器 QA65QN80HAXXZW | Samsung 台灣",
+      "weightEvidenceSnippet": "Samsung 台灣官方重量欄列出機身不含底座 17.2 kg，機身包含底座 17.6 kg；未採包裝重量 23.6 kg。",
+      "weightConfidence": "high",
+      "weightIsOfficialSource": true,
+      "weightCheckedAt": "2026-08-28"
+    },
+    {
       "id": "soundbar-samsung-q990f",
       "dimension": "尺寸：主機 寬 123.2 x 深 13.8 x 高 7.08 cm；後環繞喇叭 寬 12.95 x 深 14.04 x 高 20.13 cm；重低音 寬 24.9 x 深 24.9 x 高 25.18 cm",
       "sourceUrl": "https://www.samsung.com/uk/business/audio-devices/soundbar/q990f-q-series-soundbar-with-subwoofer-and-rear-speakers-black-hw-q990f-xu/",
@@ -2409,6 +2426,16 @@
       "confidence": "high",
       "isOfficialSource": true,
       "checkedAt": "2026-08-20"
+    },
+    {
+      "id": "washerdryer-xiaomi-wd125mja12tw",
+      "dimension": "尺寸：寬 59.8 x 深 61 x 高 85 cm",
+      "sourceUrl": "https://www.mi.com/tw/product/mijia-front-load-washer-dryer-pro-12-5-kg/specs/",
+      "sourceTitle": "米家智慧滾筒洗衣機 Pro 洗脫烘 12.5kg 規格｜小米台灣",
+      "evidenceSnippet": "小米台灣 exact-model 官方規格頁列出產品尺寸 598 x 610 x 850mm，並以寬、深、高順序標示；未採包裝尺寸。",
+      "confidence": "high",
+      "isOfficialSource": true,
+      "checkedAt": "2026-08-28"
     },
     {
       "id": "garmentcare-lg-r723wg",
@@ -5174,23 +5201,6 @@
       "confidence": "high",
       "isOfficialSource": true,
       "checkedAt": "2026-08-24"
-    },
-    {
-      "id": "tv-samsung-qn80h-65",
-      "dimension": "尺寸：不含底座 寬 144.29 x 深 5.2 x 高 83.12 cm；含底座 寬 144.29 x 深 25.68 x 高 86.71 cm",
-      "sourceUrl": "https://www.samsung.com/tw/tvs/qled-tv/qn80h-65-inch-neo-qled-4k-mini-led-smart-tv-qa65qn80haxxzw/",
-      "sourceTitle": "65 型 Neo QLED QN80H 4K Mini LED 智慧顯示器 QA65QN80HAXXZW | Samsung 台灣",
-      "evidenceSnippet": "Samsung 台灣官方尺寸欄列出不含底座 1442.9 x 831.2 x 52 mm，含底座 1442.9 x 867.1 x 256.8 mm（寬 x 高 x 深）。",
-      "confidence": "high",
-      "isOfficialSource": true,
-      "checkedAt": "2026-08-28",
-      "weight": "重量：不含底座 17.2 kg；含底座 17.6 kg",
-      "weightSourceUrl": "https://www.samsung.com/tw/tvs/qled-tv/qn80h-65-inch-neo-qled-4k-mini-led-smart-tv-qa65qn80haxxzw/",
-      "weightSourceTitle": "65 型 Neo QLED QN80H 4K Mini LED 智慧顯示器 QA65QN80HAXXZW | Samsung 台灣",
-      "weightEvidenceSnippet": "Samsung 台灣官方重量欄列出機身不含底座 17.2 kg，機身包含底座 17.6 kg；未採包裝重量 23.6 kg。",
-      "weightConfidence": "high",
-      "weightIsOfficialSource": true,
-      "weightCheckedAt": "2026-08-28"
     }
   ]
 }

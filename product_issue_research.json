@@ -1,9 +1,9 @@
 {
   "summary": {
     "checkedAt": "2026-08-28T00:00:00+08:00",
-    "total": 910,
+    "total": 911,
     "commonIssueProducts": 39,
-    "noCommonIssueProducts": 871,
+    "noCommonIssueProducts": 872,
     "pendingManualReview": 0,
     "commonIssues": 39,
     "searchUnavailable": 1,
@@ -60979,6 +60979,134 @@
           "specificReason": "單一正向使用者沒有回報故障；原頁不構成負評候選，更未達六人與跨兩站門檻。",
           "platform": "Mobile01",
           "reason": "單一正向使用者沒有回報故障；原頁不構成負評候選，更未達六人與跨兩站門檻。"
+        }
+      ]
+    },
+    {
+      "id": "washerdryer-xiaomi-wd125mja12tw",
+      "category": "washerdryer",
+      "brand": "Xiaomi",
+      "model": "WD125MJA12TW",
+      "name": "米家智慧滾筒洗衣機 Pro 洗脫烘 12.5kg",
+      "identity": {
+        "canonicalModel": "WD125MJA12TW",
+        "lookupLabel": "Xiaomi WD125MJA12TW",
+        "aliases": [
+          "Xiaomi WD125MJA12TW",
+          "米家智慧滾筒洗衣機 Pro 洗脫烘 12.5kg"
+        ],
+        "evidenceUrl": "https://www.mi.com/tw/product/mijia-front-load-washer-dryer-pro-12-5-kg/specs/"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "status": "completed",
+        "decision": "no_common_issue",
+        "reviewedAt": "2026-08-28",
+        "checkedPlatforms": [
+          "Reddit",
+          "Mobile01"
+        ],
+        "queries": [
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"Xiaomi WD125MJA12TW\" (problem OR issue OR defect OR failure)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Xiaomi%20WD125MJA12TW%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+            "targetHost": "reddit.com"
+          },
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"Xiaomi WD125MJA12TW\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Xiaomi%20WD125MJA12TW%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "mobile01.com"
+          }
+        ],
+        "candidateDisposition": "WD125MJA12TW：Reddit exact-model 查詢沒有原頁候選；Mobile01 原頁是上市前產品介紹與購前討論，逐頁查看至第 5 頁未見 first-person 使用故障回報，未達同症狀 6 人／2 個原始網站門檻。",
+        "representativeSources": [
+          {
+            "platform": "Mobile01",
+            "title": "小米正式進軍台灣洗衣機市場！米家智慧滾筒洗衣機 Pro 12.5kg 登場，將於 8/28 開賣 - Mobile01",
+            "url": "https://www.mobile01.com/topicdetail.php?f=730&t=7292320"
+          }
+        ],
+        "candidateReviews": [
+          {
+            "url": "https://www.mobile01.com/topicdetail.php?f=730&t=7292320",
+            "title": "小米正式進軍台灣洗衣機市場！米家智慧滾筒洗衣機 Pro 12.5kg 登場，將於 8/28 開賣 - Mobile01",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-08-28",
+            "sourceExcerpt": "原文介紹 WD125MJA12TW 於 8 月 28 日正式開賣、12.5kg 洗衣與 8kg 烘衣等規格；回覆以價格、品牌與購前意見為主。",
+            "independentAuthors": 0,
+            "specificReason": "原頁及五頁回覆都不是 WD125MJA12TW 上市後第一人稱故障回報；可計入同一問題的獨立使用者為 0，且只有 Mobile01 一個原始網站。",
+            "platform": "Mobile01"
+          }
+        ],
+        "reviewerNote": "WD125MJA12TW：已人工核對 Reddit 與 Mobile01 完整型號查詢；唯一 Mobile01 原頁為產品介紹和購前意見，沒有可計入的第一人稱使用故障作者。",
+        "attestation": "manual_original_pages_reviewed"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-08-28",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"Xiaomi WD125MJA12TW\" (problem OR issue OR defect OR failure)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Xiaomi%20WD125MJA12TW%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+            "targetHost": "reddit.com"
+          },
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"Xiaomi WD125MJA12TW\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Xiaomi%20WD125MJA12TW%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "mobile01.com"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "Bing Search → Reddit",
+          "query": "site:reddit.com \"Xiaomi WD125MJA12TW\" (problem OR issue OR defect OR failure)",
+          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Xiaomi%20WD125MJA12TW%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-08-28T00:00:00+08:00"
+        },
+        {
+          "platform": "Bing Search → Mobile01",
+          "query": "site:mobile01.com \"米家智慧滾筒洗衣機 Pro 洗脫烘 12.5kg\" (災情 OR 問題 OR 故障 OR 負評)",
+          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22%E7%B1%B3%E5%AE%B6%E6%99%BA%E6%85%A7%E6%BB%BE%E7%AD%92%E6%B4%97%E8%A1%A3%E6%A9%9F%20Pro%20%E6%B4%97%E8%84%AB%E7%83%98%2012.5kg%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "result": "candidates_unverified_by_search_only",
+          "resultCount": 1,
+          "candidateUrls": [
+            "https://www.mobile01.com/topicdetail.php?f=730&t=7292320"
+          ],
+          "candidates": [
+            {
+              "url": "https://www.mobile01.com/topicdetail.php?f=730&t=7292320",
+              "title": "小米正式進軍台灣洗衣機市場！米家智慧滾筒洗衣機 Pro 12.5kg 登場，將於 8/28 開賣 - Mobile01",
+              "exactModel": true
+            }
+          ],
+          "inspectedAt": "2026-08-28T00:00:00+08:00"
+        }
+      ],
+      "evidence": [],
+      "rejectedCandidates": [
+        {
+          "url": "https://www.mobile01.com/topicdetail.php?f=730&t=7292320",
+          "title": "小米正式進軍台灣洗衣機市場！米家智慧滾筒洗衣機 Pro 12.5kg 登場，將於 8/28 開賣 - Mobile01",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-28",
+          "sourceExcerpt": "原文介紹 WD125MJA12TW 於 8 月 28 日正式開賣、12.5kg 洗衣與 8kg 烘衣等規格；回覆以價格、品牌與購前意見為主。",
+          "independentAuthors": 0,
+          "specificReason": "原頁及五頁回覆都不是 WD125MJA12TW 上市後第一人稱故障回報；可計入同一問題的獨立使用者為 0，且只有 Mobile01 一個原始網站。",
+          "platform": "Mobile01",
+          "reason": "原頁及五頁回覆都不是 WD125MJA12TW 上市後第一人稱故障回報；可計入同一問題的獨立使用者為 0，且只有 Mobile01 一個原始網站。"
         }
       ]
     },

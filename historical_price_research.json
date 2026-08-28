@@ -1,13 +1,13 @@
 {
   "summary": {
     "checkedAt": "2026-08-28T00:00:00.000+08:00",
-    "sourcePolicy": "2026-08-28 以 901 筆基準清單全量查核公開價格基準（通路現價或明示官方建議售價）、購買連結與可信新品狀態，並複核最終 910 筆商品圖片、全部 493 筆 found 史低來源、原廠停產訊號與同批次匯率。官方建議售價不自動寫成通路現價或史低；PChome exact-model 現貨頁有正值 Price.Low 時採公開折扣價，否則採 Price.P；Qty 0、福利品、展示機與配件不寫回。其他頁面的結構化價格差異列入人工覆核候選，阻擋、暫時錯誤與單次頁面失效只列稽核，不臆測停產或史低失效。",
-    "total": 910,
-    "researchedThisRun": 910,
+    "sourcePolicy": "2026-08-28 以 910 筆基準清單全量查核公開價格基準（通路現價或明示官方建議售價）、購買連結與可信新品狀態，並複核最終 911 筆商品圖片、全部 493 筆 found 史低來源、原廠停產訊號與同批次匯率。官方建議售價不自動寫成通路現價或史低；PChome exact-model 現貨頁有正值 Price.Low 時採公開折扣價，否則採 Price.P；Qty 0、福利品、展示機與配件不寫回。其他頁面的結構化價格差異列入人工覆核候選，阻擋、暫時錯誤與單次頁面失效只列稽核，不臆測停產或史低失效。",
+    "total": 911,
+    "researchedThisRun": 911,
     "found": 493,
-    "missing": 417,
+    "missing": 418,
     "byConfidence": {
-      "not_found": 417,
+      "not_found": 418,
       "high": 324,
       "medium": 169
     },
@@ -20,19 +20,19 @@
       "CNY_TWD": 4.702051483307392,
       "KRW_TWD": 0.022929421103000232
     },
-    "lastMaintenanceCheckAt": "2026-08-28T00:26:07.547Z",
-    "currentPriceChanged": 45,
-    "currentBuyLinkChanged": 5,
-    "currentPriceDrops": 9,
-    "currentPriceRises": 36,
+    "lastMaintenanceCheckAt": "2026-08-28T09:01:40.681Z",
+    "currentPriceChanged": 15,
+    "currentBuyLinkChanged": 0,
+    "currentPriceDrops": 2,
+    "currentPriceRises": 13,
     "currentPriceFallbacks": 0,
-    "historicalLowUpdated": 3,
+    "historicalLowUpdated": 0,
     "historicalLowInvalidated": 0,
     "catalogEntriesReplaced": 0,
     "catalogReplacementNotes": [],
-    "currentImageChanged": 3,
+    "currentImageChanged": 0,
     "discontinuedRemoved": 0,
-    "newProductsAdded": 9,
+    "newProductsAdded": 1,
     "discontinuedRemovalNotes": [],
     "catalogEntriesRemoved": 0,
     "catalogRemovalNotes": []
@@ -140,7 +140,7 @@
       "brand": "Sony",
       "model": "Y-65XR70",
       "name": "BRAVIA 7 65 型 Mini LED 4K Google TV",
-      "currentPrice": 53910,
+      "currentPrice": 56900,
       "currentCurrency": "TWD",
       "currentBuyUrl": "https://24h.pchome.com.tw/prod/DPADFN-A900K7VQ8",
       "currentBuyLabel": "PChome",
@@ -230,7 +230,7 @@
       "brand": "Sony",
       "model": "Y-65XR90M2",
       "name": "BRAVIA 9 II 65 型 RGB LED 4K Google TV",
-      "currentPrice": 108323,
+      "currentPrice": 110533,
       "currentCurrency": "TWD",
       "currentBuyUrl": "https://tw.buy.yahoo.com/gdsale/%E5%90%AB%E6%A8%99%E6%BA%96%E5%AE%89%E8%A3%9D-SONY%E7%B4%A2%E5%B0%BC65%E5%90%8B%E5%90%8BRGB-4K%E9%80%A3%E7%B6%B2%E6%99%BA%E6%85%A7%E9%A1%AF%E7%A4%BA%E5%99%A8Y-65XR90M2-12159450.html",
       "currentBuyLabel": "Yahoo購物中心",
@@ -387,7 +387,7 @@
       "brand": "Sony",
       "model": "Y-65XR80",
       "name": "BRAVIA 8 65 型 XR OLED 4K HDR Google TV 顯示器",
-      "currentPrice": 84510,
+      "currentPrice": 93900,
       "currentCurrency": "TWD",
       "currentBuyUrl": "https://24h.pchome.com.tw/prod/DPAD06-A900HLBJO",
       "currentBuyLabel": "PChome",
@@ -922,7 +922,7 @@
       "brand": "CHiQ",
       "model": "CQ-65QX250",
       "name": "65型 4K QLED 120Hz Google TV",
-      "currentPrice": 12591,
+      "currentPrice": 13990,
       "currentCurrency": "TWD",
       "currentBuyUrl": "https://24h.pchome.com.tw/prod/DPADTO-A900JNMOP",
       "currentBuyLabel": "PChome",
@@ -1536,6 +1536,40 @@
       ],
       "priceBasis": "retailer_current",
       "priceLabel": "通路現價"
+    },
+    {
+      "id": "tv-samsung-qn80h-65",
+      "category": "tv",
+      "brand": "Samsung",
+      "model": "QA65QN80HAXXZW",
+      "name": "65 型 QN80H Neo QLED 4K Vision AI 智慧顯示器",
+      "currentPrice": 48900,
+      "currentCurrency": "TWD",
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價",
+      "currentBuyUrl": "https://24h.pchome.com.tw/prod/DPADO2-A900K4NKW",
+      "currentBuyLabel": "PChome exact-model 新品含基本安裝",
+      "historicalLow": {
+        "status": "found",
+        "amount": 43866,
+        "currency": "TWD",
+        "converted": 43866,
+        "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1282767496&cgp=43866",
+        "sourceTitle": "LBJ 歷史價格：Samsung QA65QN80HAXXZW 65 型 Neo QLED 4K AI 智慧顯示器",
+        "evidenceSnippet": "LBJ 的 exact-model 新品價格歷史於 2026-08-07、08-12 與 08-28 記錄 NT$43,866；2026-05-28、06-12、07-28、08-10 可見節點為 NT$48,900。",
+        "sourceKind": "price_history",
+        "confidence": "high",
+        "checkedAt": "2026-08-28",
+        "note": "採完全相同台灣型號、含桌放基本安裝與舊機回收的可信新品公開歷史曲線；未扣除信用卡、點數或會員個人化回饋。"
+      },
+      "checkedSources": [
+        "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1282767496&cgp=43866",
+        "https://24h.pchome.com.tw/prod/DPADO2-A900K4NKW",
+        "https://www.samsung.com/tw/tvs/qled-tv/qn80h-65-inch-neo-qled-4k-mini-led-smart-tv-qa65qn80haxxzw/"
+      ],
+      "rejectedCandidates": [
+        "只採 QA65QN80HAXXZW 同型號新品歷史曲線；排除其他尺寸／區域碼、會員私訊價、信用卡回饋、點數、福利品、展示機與拆封品。"
+      ]
     },
     {
       "id": "soundbar-samsung-q990f",
@@ -5396,7 +5430,7 @@
       "brand": "LG",
       "model": "DD201MEE0",
       "name": "19.6 公升 PuriCare 雙變頻除濕機",
-      "currentPrice": 19855,
+      "currentPrice": 19499,
       "currentCurrency": "TWD",
       "currentBuyUrl": "https://tw.buy.yahoo.com/gdsale/LG%E6%A8%82%E9%87%91-DD201MEE0-19-6%E5%85%AC%E5%8D%87-PuriCare-%E9%9B%99%E8%AE%8A%E9%A0%BB%E9%99%A4%E6%BF%95%E6%A9%9F-11884613.html",
       "currentBuyLabel": "Yahoo購物中心",
@@ -6562,6 +6596,40 @@
       "priceLabel": "通路現價"
     },
     {
+      "id": "dehumidifier-sharp-dw-uw25ht-w",
+      "category": "dehumidifier",
+      "brand": "SHARP",
+      "model": "DW-UW25HT-W",
+      "name": "乾淨方 Pro 雙氣流變頻美學 25L 除濕機",
+      "currentPrice": 20700,
+      "currentCurrency": "TWD",
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價",
+      "currentBuyUrl": "https://www.hotaigo.com.tw/productdetail/hotai1785980593-4550556198233.html",
+      "currentBuyLabel": "HOTAI購 exact-model 現貨新品",
+      "historicalLow": {
+        "status": "found",
+        "amount": 20700,
+        "currency": "TWD",
+        "converted": 20700,
+        "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1286065599&cgp=20700",
+        "sourceTitle": "LBJ 歷史價格：HOTAI購 SHARP DW-UW25HT-W 25L 除濕機",
+        "evidenceSnippet": "LBJ 的 HOTAI購 exact-model 新品價格歷史於 2026-07-28、08-06 與 08-28 均記錄 NT$20,700。",
+        "sourceKind": "price_history",
+        "confidence": "high",
+        "checkedAt": "2026-08-28",
+        "note": "採完全相同台灣型號、HOTAI購現貨新品的公開歷史曲線；未扣除信用卡、點數或會員個人化回饋。"
+      },
+      "checkedSources": [
+        "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1286065599&cgp=20700",
+        "https://www.hotaigo.com.tw/productdetail/hotai1785980593-4550556198233.html",
+        "https://tw.sharp/products/dw-uw25ht-w"
+      ],
+      "rejectedCandidates": [
+        "只採 DW-UW25HT-W 同型號現貨新品歷史曲線；排除會員券、信用卡回饋、點數、福利品、展示機、拆封品與相近容量型號。"
+      ]
+    },
+    {
       "id": "ap-coway-ap1019",
       "category": "purifier",
       "brand": "Coway",
@@ -6666,7 +6734,7 @@
       "brand": "Dyson",
       "model": "TP11",
       "name": "Purifier Cool 二合一涼風智能空氣清淨機",
-      "currentPrice": 11662,
+      "currentPrice": 11900,
       "currentCurrency": "TWD",
       "currentBuyUrl": "https://tw.buy.yahoo.com/gdsale/Dyson-%E6%88%B4%E6%A3%AE-Purifier-Cool-%E4%BA%8C%E5%90%88%E4%B8%80%E6%B6%BC%E9%A2%A8%E6%99%BA%E8%83%BD%E7%A9%BA%E6%B0%A3%E6%B8%85%E6%B7%A8%E6%A9%9FTP11-%E7%99%BD%E8%89%B2-12000846.html",
       "currentBuyLabel": "Yahoo購物中心",
@@ -7102,7 +7170,7 @@
       "brand": "Dyson",
       "model": "HP12",
       "name": "Purifier Hot+Cool De-NOx 甲醛 NOx 偵測涼暖空氣清淨機",
-      "currentPrice": 25382,
+      "currentPrice": 25900,
       "currentCurrency": "TWD",
       "currentBuyUrl": "https://tw.buy.yahoo.com/gdsale/Dyson-Purifier-Hot-Cool-De-NOx-%E7%94%B2%E9%86%9BNOx-%E5%81%B5%E6%B8%AC%E6%B6%BC%E6%9A%96%E7%A9%BA%E6%B0%A3%E6%B8%85%E6%B7%A8%E6%A9%9F-HP1-12000848.html",
       "currentBuyLabel": "Yahoo購物中心",
@@ -7159,7 +7227,7 @@
       "brand": "Dyson",
       "model": "HP11",
       "name": "Purifier Hot+Cool 三合一涼暖智能空氣清淨機",
-      "currentPrice": 14602,
+      "currentPrice": 14900,
       "currentCurrency": "TWD",
       "currentBuyUrl": "https://tw.buy.yahoo.com/gdsale/Dyson%E6%88%B4%E6%A3%AE-Purifier-Hot-Cool-%E4%B8%89%E5%90%88%E4%B8%80%E6%B6%BC%E6%9A%96%E6%99%BA%E8%83%BD%E7%A9%BA%E6%B0%A3%E6%B8%85%E6%B7%A8%E6%A9%9F-HP11-%E7%99%BD%E8%89%B2-%E8%B4%88%E7%BE%8E%E9%AB%AE-11937837.html",
       "currentBuyLabel": "Yahoo購物中心",
@@ -7217,7 +7285,7 @@
       "brand": "Dyson",
       "model": "TP12",
       "name": "Purifier Cool De-NOx 甲醛 NOx 偵測涼風空氣清淨機",
-      "currentPrice": 20482,
+      "currentPrice": 20900,
       "currentCurrency": "TWD",
       "currentBuyUrl": "https://tw.buy.yahoo.com/gdsale/Dyson-%E6%88%B4%E6%A3%AE-Purifier-Cool-%E7%94%B2%E9%86%9BNOx-%E5%81%B5%E6%B8%AC%E6%B6%BC%E9%A2%A8%E7%A9%BA%E6%B0%A3%E6%B8%85%E6%B7%A8%E6%A9%9FTP12-%E4%BA%8C%E8%89%B2%E5%8F%AF%E9%81%B8-11903396.html",
       "currentBuyLabel": "Yahoo購物中心",
@@ -11085,6 +11153,81 @@
       "priceLabel": "通路現價"
     },
     {
+      "id": "robot-xiaomi-vacuum-6-pv32gl",
+      "category": "robot",
+      "brand": "Xiaomi",
+      "model": "PV32GL",
+      "name": "Xiaomi 掃拖機器人 6",
+      "currentPrice": 15999,
+      "currentCurrency": "TWD",
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價",
+      "currentBuyUrl": "https://24h.pchome.com.tw/prod/DMBL53-A900KAFM1",
+      "currentBuyLabel": "PChome 24h exact-model 新品",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "TWD",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-08-28",
+        "note": "已查 PChome、Momo 小米官方旗艦店、LBJ 與 FindPrice 的 exact-model PV32GL；PChome 與 Momo 的 NT$15,999 只能證明本輪現價，LBJ 結果為相容耗材而非主機，未找到具日期且可重現的可信新品歷史價格曲線，故不以現價推定史低。"
+      },
+      "checkedSources": [
+        "https://24h.pchome.com.tw/prod/DMBL53-A900KAFM1",
+        "https://www.momoshop.com.tw/product/15559310",
+        "https://www.lbj.tw/BJ/Query.aspx?k=PV32GL",
+        "https://www.findprice.com.tw/g/PV32GL"
+      ],
+      "rejectedCandidates": [
+        "PChome 與 Momo 的 NT$15,999 只證明 2026-08-28 查核當下現價，沒有可重現的歷史最低點日期。",
+        "LBJ exact-model 查詢只命中 NT$100–496 的相容滾筒／濾網耗材，不是 PV32GL 主機，依規則排除。",
+        "未採會員券、信用卡回饋、點數、二手、福利品、展示機、拆封品、整新品、配件或相近型號。"
+      ]
+    },
+    {
+      "id": "robot-xiaomi-vacuum-6-pro-pv21gl",
+      "category": "robot",
+      "brand": "Xiaomi",
+      "model": "PV21GL",
+      "name": "Xiaomi 掃拖機器人 6 Pro",
+      "currentPrice": 20999,
+      "currentCurrency": "TWD",
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價",
+      "currentBuyUrl": "https://24h.pchome.com.tw/prod/DMBL53-A900KAFL2",
+      "currentBuyLabel": "PChome 24h exact-model 新品",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "TWD",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-08-28",
+        "note": "已查 PChome、Momo、小米蝦皮官方旗艦店、LBJ 與 FindPrice 的 exact-model PV21GL；NT$19,949／20,999 均只證明本輪現價，LBJ 結果為相容耗材而非主機，未找到具日期且可重現的可信新品歷史價格曲線，故不以現價推定史低。"
+      },
+      "checkedSources": [
+        "https://24h.pchome.com.tw/prod/DMBL53-A900KAFL2",
+        "https://www.momoshop.com.tw/product/15559309",
+        "https://shopee.tw/Xiaomi-%E6%8E%83%E6%8B%96%E6%A9%9F%E5%99%A8%E4%BA%BA-6-Pro%E3%80%90%E5%B0%8F%E7%B1%B3%E5%AE%98%E6%96%B9%E6%97%97%E8%89%A6%E5%BA%97%E3%80%91%E5%B0%8F%E7%B1%B3-%E6%BB%BE%E7%AD%92%E6%8E%83%E6%8B%96-AI-%E8%AD%98%E9%AB%92%E8%A4%87%E6%8B%96-%E9%B9%B0%E7%9C%BC%E7%B4%9A%E9%81%BF%E9%9A%9C-30000Pa%E5%90%B8%E5%8A%9B-i.15199365.45264164648",
+        "https://www.lbj.tw/BJ/Query.aspx?k=PV21GL",
+        "https://www.findprice.com.tw/g/PV21GL"
+      ],
+      "rejectedCandidates": [
+        "PChome NT$19,949、Momo／蝦皮官方 NT$20,999 只證明 2026-08-28 查核當下現價，沒有可重現的歷史最低點日期。",
+        "LBJ exact-model 查詢只命中相容滾筒／濾網耗材，不是 PV21GL 主機，依規則排除。",
+        "未採會員券、信用卡回饋、點數、二手、福利品、展示機、拆封品、整新品、配件或相近型號。"
+      ]
+    },
+    {
       "id": "vac-dyson-v12",
       "category": "vacuum",
       "brand": "Dyson",
@@ -12275,6 +12418,43 @@
       "priceLabel": "通路現價"
     },
     {
+      "id": "vacuum-roborock-f25-ace-pro-wd5m14a",
+      "category": "vacuum",
+      "brand": "Roborock",
+      "model": "WD5M14A",
+      "name": "F25 ACE Pro 石沫吸泡沫洗地機",
+      "currentPrice": 14888,
+      "currentCurrency": "TWD",
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價",
+      "currentBuyUrl": "https://taiwan.roborock.com/products/roborock-f25-ace-pro",
+      "currentBuyLabel": "Roborock 台灣官網",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "TWD",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-08-26",
+        "note": "已查 Roborock 台灣官網、燦坤、FindPrice 與飛比 exact-model WD5M14A；只能確認現價／比價快照，沒有具日期且可重現的可信新品歷史曲線。飛比的 Coupang NT$14,788 候選未在原頁同時核對 exact model 與最低點日期，現價也不直接推定為史低。"
+      },
+      "checkedSources": [
+        "https://taiwan.roborock.com/products/roborock-f25-ace-pro",
+        "https://www.tk3c.com/product/265652",
+        "https://www.findprice.com.tw/g/f25%20roborock",
+        "https://feebee.com.tw/all/roborock%20f25%20ace%20pro/"
+      ],
+      "rejectedCandidates": [
+        "Roborock 台灣官網 NT$14,888 與燦坤 NT$15,888 只證明本輪 exact-model 現價，沒有歷史最低點日期。",
+        "飛比顯示 Coupang NT$14,788 候選，但未從原始頁同時核對 WD5M14A、新品狀態與最低點日期，不採作史低。",
+        "FindPrice 與飛比舊快照多列 NT$32,900 或當期價格，不能形成可重現的 exact-model 歷史曲線。"
+      ]
+    },
+    {
       "id": "washer-lg-wt-vdn12hm",
       "category": "washer",
       "brand": "LG",
@@ -12330,7 +12510,7 @@
       "brand": "LG",
       "model": "WT-TD16HW",
       "name": "LG WT-TD16HW",
-      "currentPrice": 19104,
+      "currentPrice": 19900,
       "currentCurrency": "TWD",
       "currentBuyUrl": "https://tw.buy.yahoo.com/gdsale/LG-%E6%A8%82%E9%87%91-16%E5%85%AC%E6%96%A4-AI-DD-%E8%92%B8%E6%B0%A3%E7%9B%B4%E9%A9%85%E8%AE%8A%E9%A0%BB%E6%B4%97%E8%A1%A3%E6%A9%9F-%E9%9B%B2%E6%9C%B5%E7%99%BD-WT-TD16HW-11981704.html",
       "currentBuyLabel": "Yahoo購物中心",
@@ -13686,7 +13866,7 @@
       "brand": "Whirlpool",
       "model": "8TWGD5620HW",
       "name": "Whirlpool 8TWGD5620HW",
-      "currentPrice": 31865,
+      "currentPrice": 32850,
       "currentCurrency": "TWD",
       "currentBuyUrl": "https://tw.buy.yahoo.com/gdsale/Whirlpool%E6%83%A0%E8%80%8C%E6%B5%A6-16%E5%85%AC%E6%96%A4-%E5%BF%AB%E7%83%98%E7%93%A6%E6%96%AF%E5%9E%8B%E6%BB%BE%E7%AD%92%E4%B9%BE%E8%A1%A3%E6%A9%9F-8TWGD5620HW-%E6%A1%B6%E8%A3%9D%E7%93%A6%E6%96%AF-10509173.html",
       "currentBuyLabel": "Yahoo購物中心",
@@ -14903,7 +15083,7 @@
       "brand": "Whirlpool",
       "model": "8TWFC6820LW",
       "name": "Whirlpool 8TWFC6820LW",
-      "currentPrice": 43563,
+      "currentPrice": 44910,
       "currentCurrency": "TWD",
       "currentBuyUrl": "https://tw.buy.yahoo.com/gdsale/%E6%83%A0%E8%80%8C%E6%B5%A6Whirlpool-8TWFC6820LW-17-10kg-%E6%BB%BE%E7%AD%92%E6%B4%97%E8%A1%A3%E6%A9%9F-%E6%B4%97%E8%84%AB%E7%83%98-10053955.html",
       "currentBuyLabel": "Yahoo購物中心",
@@ -15897,6 +16077,43 @@
       "priceLabel": "通路現價"
     },
     {
+      "id": "washerdryer-xiaomi-wd125mja12tw",
+      "category": "washerdryer",
+      "brand": "Xiaomi",
+      "model": "WD125MJA12TW",
+      "name": "米家智慧滾筒洗衣機 Pro 洗脫烘 12.5kg",
+      "currentPrice": 16999,
+      "currentCurrency": "TWD",
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價",
+      "currentBuyUrl": "https://www.mi.com/tw/buy/product/mijia-front-load-washer-dryer-pro-12-5-kg",
+      "currentBuyLabel": "小米台灣官方商城",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "TWD",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-08-28",
+        "note": "本機 2026-08-28 才正式發售；小米官方與 PChome NT$16,999 只證明首發現價。BigGo exact-model 查無結果、FindPrice 無符合商品、LBJ 無符合商品與歷史 pid，未找到具日期可重現的可信新品歷史價格，故不以首發現價推定史低。"
+      },
+      "checkedSources": [
+        "https://www.mi.com/tw/buy/product/mijia-front-load-washer-dryer-pro-12-5-kg",
+        "https://24h.pchome.com.tw/prod/DPAI1R-A900KCT9U",
+        "https://biggo.com.tw/s/WD125MJA12TW/",
+        "https://www.findprice.com.tw/g/WD125MJA12TW",
+        "https://www.lbj.tw/BJ/Query.aspx?k=WD125MJA12TW"
+      ],
+      "rejectedCandidates": [
+        "小米官方與 PChome 的 NT$16,999 是首發現價，不是具日期序列的歷史最低價證據。",
+        "PChome 舊頁 DPAI1L-A900KCKL5 的 NT$99,999 與尚未開賣狀態是預售 sentinel，排除不用。"
+      ]
+    },
+    {
       "id": "garmentcare-lg-r723wg",
       "category": "garmentcare",
       "brand": "LG",
@@ -16715,7 +16932,7 @@
       "brand": "LG",
       "model": "GN-L266SVN",
       "name": "LG GN-L266SVN",
-      "currentPrice": 13920,
+      "currentPrice": 14500,
       "currentCurrency": "TWD",
       "currentBuyUrl": "https://tw.buy.yahoo.com/gdsale/LG-%E6%A8%82%E9%87%91-266%E5%85%AC%E5%8D%87-%E4%B8%80%E7%B4%9A%E8%83%BD%E6%95%88-%E6%99%BA%E6%85%A7%E8%AE%8A%E9%A0%BB%E9%9B%99%E9%96%80%E5%86%B0%E7%AE%B1-%E6%98%9F%E8%BE%B0%E9%8A%80-GN-L266SVN-%E9%80%81%E5%9F%BA%E6%9C%AC%E5%AE%89%E8%A3%9D-11988613.html",
       "currentBuyLabel": "Yahoo購物中心",
@@ -19979,7 +20196,7 @@
       "brand": "Joyoung",
       "model": "DJ12M-K8S",
       "name": "免清洗多功能破壁調理機",
-      "currentPrice": 10115,
+      "currentPrice": 12900,
       "currentCurrency": "TWD",
       "currentBuyUrl": "https://24h.pchome.com.tw/prod/DMAY4Y-A900HB8CN",
       "currentBuyLabel": "PChome",
@@ -34268,6 +34485,42 @@
       "priceLabel": "價格基準未標示"
     },
     {
+      "id": "wifi-asus-rog-gt-be25000-edition-20",
+      "category": "wifi",
+      "brand": "ASUS",
+      "model": "ROG Rapture GT-BE25000 Edition 20",
+      "name": "BE25000 四頻 Wi-Fi 7 20 週年電競路由器",
+      "currentPrice": 25888,
+      "currentCurrency": "TWD",
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價",
+      "currentBuyUrl": "https://shopee.tw/ASUS-%E8%8F%AF%E7%A2%A9-ROG-Rapture-GT-BE25000-Edition-20-WiFi7%E8%B7%AF%E7%94%B1%E5%99%A8-i.28706135.43232449392",
+      "currentBuyLabel": "eclife 良興蝦皮商城",
+      "historicalLow": {
+        "status": "found",
+        "amount": 25888,
+        "currency": "TWD",
+        "converted": 25888,
+        "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=588834401&cgp=25888",
+        "sourceTitle": "LBJ 比價撿便宜歷史價格：ASUS ROG Rapture GT-BE25000 Edition 20",
+        "evidenceSnippet": "LBJ 的 eclife 良興蝦皮商城 exact-model 歷史曲線在 2026-07-28、08-17、08-28 均記錄 NT$25,888。",
+        "sourceKind": "price_history",
+        "confidence": "medium",
+        "checkedAt": "2026-08-28",
+        "note": "新品上市時間短，目前可信公開歷史曲線最低仍為建議售價 NT$25,888；未計聊聊議價、折價券、蝦幣或信用卡回饋。"
+      },
+      "checkedSources": [
+        "https://shopee.tw/ASUS-%E8%8F%AF%E7%A2%A9-ROG-Rapture-GT-BE25000-Edition-20-WiFi7%E8%B7%AF%E7%94%B1%E5%99%A8-i.28706135.43232449392",
+        "https://www.lbj.tw/BJ/Query.aspx?k=GT-BE25000%20Edition%2020",
+        "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=588834401&cgp=25888"
+      ],
+      "rejectedCandidates": [
+        "GT-BE98、GT-BE98 Pro、GT-BE25000 非 Edition 20 版本與週年款不是同一商業 SKU，不混算價格。",
+        "原價屋與 Yahoo 同為 NT$25,888，未低於採用值。",
+        "聊聊議價、會員券、蝦幣與信用卡回饋均不計入史低。"
+      ]
+    },
+    {
       "id": "network-switch-dlink-dms-108",
       "category": "network-switch",
       "brand": "D-Link",
@@ -36057,7 +36310,7 @@
       "brand": "Ergohuman",
       "model": "特仕版 2.0",
       "name": "特仕版 2.0 人體工學椅",
-      "currentPrice": 11900,
+      "currentPrice": 10900,
       "currentCurrency": "TWD",
       "currentBuyUrl": "https://24h.pchome.com.tw/prod/DCAKHP-A900HEQ4H",
       "currentBuyLabel": "PChome",
@@ -39862,6 +40115,114 @@
       ]
     },
     {
+      "id": "monitor-apple-studio-display-xdr-mfel4ta-a",
+      "category": "monitor",
+      "brand": "Apple",
+      "model": "Studio Display XDR MFEL4TA/A",
+      "name": "27 吋 5K 120Hz Mini LED 顯示器（標準玻璃／可調高度支架）",
+      "currentPrice": 106603,
+      "currentCurrency": "TWD",
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價",
+      "currentBuyUrl": "https://www.momoshop.com.tw/product/15103887",
+      "currentBuyLabel": "momo購物網",
+      "historicalLow": {
+        "status": "found",
+        "amount": 105504,
+        "currency": "TWD",
+        "converted": 105504,
+        "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1286686070&cgp=105504",
+        "sourceTitle": "LBJ 比價撿便宜歷史價格：Studio Display XDR 標準玻璃／可調整斜度與高度支架",
+        "evidenceSnippet": "LBJ 的 PChome exact-configuration 歷史曲線在 2026-07-28、08-19、08-28 均記錄 NT$105,504。",
+        "sourceKind": "price_history",
+        "confidence": "medium",
+        "checkedAt": "2026-08-28",
+        "note": "採同尺寸、標準玻璃與可調整斜度／高度支架的完整新品配置；排除奈米紋理玻璃、固定斜度支架、二手與個人化回饋。"
+      },
+      "checkedSources": [
+        "https://www.momoshop.com.tw/product/15103887",
+        "https://www.lbj.tw/BJ/Query.aspx?k=Studio%20Display%20XDR",
+        "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1286686070&cgp=105504"
+      ],
+      "rejectedCandidates": [
+        "Apple 官方 NT$109,900 是建議售價，不直接推定為史低。",
+        "奈米紋理玻璃 MFEP4TA/A、固定斜度支架與 VESA 版本為不同配置，全部排除。",
+        "momo NT$106,603 是 2026-08-28 限時公開 97 折現價；史低仍採可重現的跨日期 LBJ 曲線。"
+      ]
+    },
+    {
+      "id": "monitor-samsung-odyssey-g80hf-ls27hg806efxzw",
+      "category": "monitor",
+      "brand": "Samsung",
+      "model": "Odyssey G8 G80HF LS27HG806EFXZW",
+      "name": "27 吋 5K 180Hz／QHD 360Hz 雙模式電競螢幕",
+      "currentPrice": 19900,
+      "currentCurrency": "TWD",
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價",
+      "currentBuyUrl": "https://24h.pchome.com.tw/prod/DSABON-A900K2NJE",
+      "currentBuyLabel": "PChome 24h購物",
+      "historicalLow": {
+        "status": "found",
+        "amount": 17900,
+        "currency": "TWD",
+        "converted": 17900,
+        "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1282228385&cgp=18900",
+        "sourceTitle": "LBJ 比價撿便宜歷史價格：Samsung S27HG806EF Odyssey G8 G80HF",
+        "evidenceSnippet": "LBJ 的 momo exact-model 歷史曲線記錄 2026-08-18 與 08-23 最低 NT$17,900。",
+        "sourceKind": "price_history",
+        "confidence": "high",
+        "checkedAt": "2026-08-28",
+        "note": "採台灣 S27HG806EF／LS27HG806EFXZW 同型號新品公開價；未計聊天議價、信用卡回饋、點數或贈品折現。"
+      },
+      "checkedSources": [
+        "https://24h.pchome.com.tw/prod/DSABON-A900K2NJE",
+        "https://www.lbj.tw/BJ/Query.aspx?k=S27HG806EF",
+        "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1282228385&cgp=18900"
+      ],
+      "rejectedCandidates": [
+        "Q 哥蝦皮商城 NT$19,400-19,900 為區間價且未能從原頁確認最低選項必為完整新品，不採。",
+        "聊聊再折、蝦幣 10% 回饋、登錄贈 Steam 點卡均不折算為史低。",
+        "美國 LS27HG802EFXZA 等區域 SKU 不與台灣 LS27HG806EFXZW 混算。"
+      ]
+    },
+    {
+      "id": "monitor-asus-rog-strix-xg27jcg",
+      "category": "monitor",
+      "brand": "ASUS",
+      "model": "ROG Strix 5K XG27JCG",
+      "name": "27 吋 5K 180Hz／QHD 330Hz 雙模式電競螢幕",
+      "currentPrice": 19888,
+      "currentCurrency": "TWD",
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價",
+      "currentBuyUrl": "https://24h.pchome.com.tw/prod/DSABKB-A900JO7QP",
+      "currentBuyLabel": "PChome 24h購物",
+      "historicalLow": {
+        "status": "found",
+        "amount": 17800,
+        "currency": "TWD",
+        "converted": 17800,
+        "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=585700558&cgp=17800",
+        "sourceTitle": "LBJ 比價撿便宜歷史價格：ASUS ROG Strix 5K XG27JCG",
+        "evidenceSnippet": "LBJ 的 eclife 良興蝦皮商城 exact-model 歷史曲線在 2026-07-28、08-08、08-28 均記錄 NT$17,800。",
+        "sourceKind": "price_history",
+        "confidence": "high",
+        "checkedAt": "2026-08-28",
+        "note": "排除 ASUS 授權店 NT$17,500 候選，因同一商品頁混有福利品／已拆封選項；採良興新品 exact-model 歷史。"
+      },
+      "checkedSources": [
+        "https://24h.pchome.com.tw/prod/DSABKB-A900JO7QP",
+        "https://www.lbj.tw/BJ/Query.aspx?k=XG27JCG",
+        "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=585700558&cgp=17800"
+      ],
+      "rejectedCandidates": [
+        "ROG 華碩授權店 NT$17,500-19,878 商品頁同時混列福利品／已拆封選項，最低值排除。",
+        "螢幕保護鏡與海外露天代購不是完整台灣公司貨螢幕，排除。",
+        "採 eclife 良興商城明確完整新品 exact-model NT$17,800 曲線。"
+      ]
+    },
+    {
       "id": "monitorarm-raymii-ls116m1",
       "category": "monitorarm",
       "brand": "Raymii",
@@ -40856,151 +41217,6 @@
       ]
     },
     {
-      "id": "vacuum-roborock-f25-ace-pro-wd5m14a",
-      "category": "vacuum",
-      "brand": "Roborock",
-      "model": "WD5M14A",
-      "name": "F25 ACE Pro 石沫吸泡沫洗地機",
-      "currentPrice": 14888,
-      "currentCurrency": "TWD",
-      "priceBasis": "retailer_current",
-      "priceLabel": "通路現價",
-      "currentBuyUrl": "https://taiwan.roborock.com/products/roborock-f25-ace-pro",
-      "currentBuyLabel": "Roborock 台灣官網",
-      "historicalLow": {
-        "status": "not_found",
-        "amount": null,
-        "currency": "TWD",
-        "converted": null,
-        "sourceUrl": "",
-        "sourceTitle": "",
-        "evidenceSnippet": "",
-        "sourceKind": "not_found",
-        "confidence": "not_found",
-        "checkedAt": "2026-08-26",
-        "note": "已查 Roborock 台灣官網、燦坤、FindPrice 與飛比 exact-model WD5M14A；只能確認現價／比價快照，沒有具日期且可重現的可信新品歷史曲線。飛比的 Coupang NT$14,788 候選未在原頁同時核對 exact model 與最低點日期，現價也不直接推定為史低。"
-      },
-      "checkedSources": [
-        "https://taiwan.roborock.com/products/roborock-f25-ace-pro",
-        "https://www.tk3c.com/product/265652",
-        "https://www.findprice.com.tw/g/f25%20roborock",
-        "https://feebee.com.tw/all/roborock%20f25%20ace%20pro/"
-      ],
-      "rejectedCandidates": [
-        "Roborock 台灣官網 NT$14,888 與燦坤 NT$15,888 只證明本輪 exact-model 現價，沒有歷史最低點日期。",
-        "飛比顯示 Coupang NT$14,788 候選，但未從原始頁同時核對 WD5M14A、新品狀態與最低點日期，不採作史低。",
-        "FindPrice 與飛比舊快照多列 NT$32,900 或當期價格，不能形成可重現的 exact-model 歷史曲線。"
-      ]
-    },
-    {
-      "id": "monitor-apple-studio-display-xdr-mfel4ta-a",
-      "category": "monitor",
-      "brand": "Apple",
-      "model": "Studio Display XDR MFEL4TA/A",
-      "name": "27 吋 5K 120Hz Mini LED 顯示器（標準玻璃／可調高度支架）",
-      "currentPrice": 106603,
-      "currentCurrency": "TWD",
-      "priceBasis": "retailer_current",
-      "priceLabel": "通路現價",
-      "currentBuyUrl": "https://www.momoshop.com.tw/product/15103887",
-      "currentBuyLabel": "momo購物網",
-      "historicalLow": {
-        "status": "found",
-        "amount": 105504,
-        "currency": "TWD",
-        "converted": 105504,
-        "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1286686070&cgp=105504",
-        "sourceTitle": "LBJ 比價撿便宜歷史價格：Studio Display XDR 標準玻璃／可調整斜度與高度支架",
-        "evidenceSnippet": "LBJ 的 PChome exact-configuration 歷史曲線在 2026-07-28、08-19、08-28 均記錄 NT$105,504。",
-        "sourceKind": "price_history",
-        "confidence": "medium",
-        "checkedAt": "2026-08-28",
-        "note": "採同尺寸、標準玻璃與可調整斜度／高度支架的完整新品配置；排除奈米紋理玻璃、固定斜度支架、二手與個人化回饋。"
-      },
-      "checkedSources": [
-        "https://www.momoshop.com.tw/product/15103887",
-        "https://www.lbj.tw/BJ/Query.aspx?k=Studio%20Display%20XDR",
-        "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1286686070&cgp=105504"
-      ],
-      "rejectedCandidates": [
-        "Apple 官方 NT$109,900 是建議售價，不直接推定為史低。",
-        "奈米紋理玻璃 MFEP4TA/A、固定斜度支架與 VESA 版本為不同配置，全部排除。",
-        "momo NT$106,603 是 2026-08-28 限時公開 97 折現價；史低仍採可重現的跨日期 LBJ 曲線。"
-      ]
-    },
-    {
-      "id": "monitor-samsung-odyssey-g80hf-ls27hg806efxzw",
-      "category": "monitor",
-      "brand": "Samsung",
-      "model": "Odyssey G8 G80HF LS27HG806EFXZW",
-      "name": "27 吋 5K 180Hz／QHD 360Hz 雙模式電競螢幕",
-      "currentPrice": 19900,
-      "currentCurrency": "TWD",
-      "priceBasis": "retailer_current",
-      "priceLabel": "通路現價",
-      "currentBuyUrl": "https://24h.pchome.com.tw/prod/DSABON-A900K2NJE",
-      "currentBuyLabel": "PChome 24h購物",
-      "historicalLow": {
-        "status": "found",
-        "amount": 17900,
-        "currency": "TWD",
-        "converted": 17900,
-        "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1282228385&cgp=18900",
-        "sourceTitle": "LBJ 比價撿便宜歷史價格：Samsung S27HG806EF Odyssey G8 G80HF",
-        "evidenceSnippet": "LBJ 的 momo exact-model 歷史曲線記錄 2026-08-18 與 08-23 最低 NT$17,900。",
-        "sourceKind": "price_history",
-        "confidence": "high",
-        "checkedAt": "2026-08-28",
-        "note": "採台灣 S27HG806EF／LS27HG806EFXZW 同型號新品公開價；未計聊天議價、信用卡回饋、點數或贈品折現。"
-      },
-      "checkedSources": [
-        "https://24h.pchome.com.tw/prod/DSABON-A900K2NJE",
-        "https://www.lbj.tw/BJ/Query.aspx?k=S27HG806EF",
-        "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1282228385&cgp=18900"
-      ],
-      "rejectedCandidates": [
-        "Q 哥蝦皮商城 NT$19,400-19,900 為區間價且未能從原頁確認最低選項必為完整新品，不採。",
-        "聊聊再折、蝦幣 10% 回饋、登錄贈 Steam 點卡均不折算為史低。",
-        "美國 LS27HG802EFXZA 等區域 SKU 不與台灣 LS27HG806EFXZW 混算。"
-      ]
-    },
-    {
-      "id": "monitor-asus-rog-strix-xg27jcg",
-      "category": "monitor",
-      "brand": "ASUS",
-      "model": "ROG Strix 5K XG27JCG",
-      "name": "27 吋 5K 180Hz／QHD 330Hz 雙模式電競螢幕",
-      "currentPrice": 19888,
-      "currentCurrency": "TWD",
-      "priceBasis": "retailer_current",
-      "priceLabel": "通路現價",
-      "currentBuyUrl": "https://24h.pchome.com.tw/prod/DSABKB-A900JO7QP",
-      "currentBuyLabel": "PChome 24h購物",
-      "historicalLow": {
-        "status": "found",
-        "amount": 17800,
-        "currency": "TWD",
-        "converted": 17800,
-        "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=585700558&cgp=17800",
-        "sourceTitle": "LBJ 比價撿便宜歷史價格：ASUS ROG Strix 5K XG27JCG",
-        "evidenceSnippet": "LBJ 的 eclife 良興蝦皮商城 exact-model 歷史曲線在 2026-07-28、08-08、08-28 均記錄 NT$17,800。",
-        "sourceKind": "price_history",
-        "confidence": "high",
-        "checkedAt": "2026-08-28",
-        "note": "排除 ASUS 授權店 NT$17,500 候選，因同一商品頁混有福利品／已拆封選項；採良興新品 exact-model 歷史。"
-      },
-      "checkedSources": [
-        "https://24h.pchome.com.tw/prod/DSABKB-A900JO7QP",
-        "https://www.lbj.tw/BJ/Query.aspx?k=XG27JCG",
-        "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=585700558&cgp=17800"
-      ],
-      "rejectedCandidates": [
-        "ROG 華碩授權店 NT$17,500-19,878 商品頁同時混列福利品／已拆封選項，最低值排除。",
-        "螢幕保護鏡與海外露天代購不是完整台灣公司貨螢幕，排除。",
-        "採 eclife 良興商城明確完整新品 exact-model NT$17,800 曲線。"
-      ]
-    },
-    {
       "id": "monitorarm-asus-rog-ergo-aas01r",
       "category": "monitorarm",
       "brand": "ASUS",
@@ -41034,185 +41250,6 @@
         "LBJ 曲線 2026-07-29 的 NT$1 明顯為爬取或價格標記異常，不是完整支架售價。",
         "ROG Ergo Monitor Arm AAS01 舊款不是 AAS01R，未混入比價。",
         "樂天滿額折、momo 折價券與信用卡回饋均不計入史低。"
-      ]
-    },
-    {
-      "id": "wifi-asus-rog-gt-be25000-edition-20",
-      "category": "wifi",
-      "brand": "ASUS",
-      "model": "ROG Rapture GT-BE25000 Edition 20",
-      "name": "BE25000 四頻 Wi-Fi 7 20 週年電競路由器",
-      "currentPrice": 25888,
-      "currentCurrency": "TWD",
-      "priceBasis": "retailer_current",
-      "priceLabel": "通路現價",
-      "currentBuyUrl": "https://shopee.tw/ASUS-%E8%8F%AF%E7%A2%A9-ROG-Rapture-GT-BE25000-Edition-20-WiFi7%E8%B7%AF%E7%94%B1%E5%99%A8-i.28706135.43232449392",
-      "currentBuyLabel": "eclife 良興蝦皮商城",
-      "historicalLow": {
-        "status": "found",
-        "amount": 25888,
-        "currency": "TWD",
-        "converted": 25888,
-        "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=588834401&cgp=25888",
-        "sourceTitle": "LBJ 比價撿便宜歷史價格：ASUS ROG Rapture GT-BE25000 Edition 20",
-        "evidenceSnippet": "LBJ 的 eclife 良興蝦皮商城 exact-model 歷史曲線在 2026-07-28、08-17、08-28 均記錄 NT$25,888。",
-        "sourceKind": "price_history",
-        "confidence": "medium",
-        "checkedAt": "2026-08-28",
-        "note": "新品上市時間短，目前可信公開歷史曲線最低仍為建議售價 NT$25,888；未計聊聊議價、折價券、蝦幣或信用卡回饋。"
-      },
-      "checkedSources": [
-        "https://shopee.tw/ASUS-%E8%8F%AF%E7%A2%A9-ROG-Rapture-GT-BE25000-Edition-20-WiFi7%E8%B7%AF%E7%94%B1%E5%99%A8-i.28706135.43232449392",
-        "https://www.lbj.tw/BJ/Query.aspx?k=GT-BE25000%20Edition%2020",
-        "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=588834401&cgp=25888"
-      ],
-      "rejectedCandidates": [
-        "GT-BE98、GT-BE98 Pro、GT-BE25000 非 Edition 20 版本與週年款不是同一商業 SKU，不混算價格。",
-        "原價屋與 Yahoo 同為 NT$25,888，未低於採用值。",
-        "聊聊議價、會員券、蝦幣與信用卡回饋均不計入史低。"
-      ]
-    },
-    {
-      "id": "robot-xiaomi-vacuum-6-pv32gl",
-      "category": "robot",
-      "brand": "Xiaomi",
-      "model": "PV32GL",
-      "name": "Xiaomi 掃拖機器人 6",
-      "currentPrice": 15999,
-      "currentCurrency": "TWD",
-      "priceBasis": "retailer_current",
-      "priceLabel": "通路現價",
-      "currentBuyUrl": "https://24h.pchome.com.tw/prod/DMBL53-A900KAFM1",
-      "currentBuyLabel": "PChome 24h exact-model 新品",
-      "historicalLow": {
-        "status": "not_found",
-        "amount": null,
-        "currency": "TWD",
-        "converted": null,
-        "sourceUrl": "",
-        "sourceTitle": "",
-        "evidenceSnippet": "",
-        "sourceKind": "not_found",
-        "confidence": "not_found",
-        "checkedAt": "2026-08-28",
-        "note": "已查 PChome、Momo 小米官方旗艦店、LBJ 與 FindPrice 的 exact-model PV32GL；PChome 與 Momo 的 NT$15,999 只能證明本輪現價，LBJ 結果為相容耗材而非主機，未找到具日期且可重現的可信新品歷史價格曲線，故不以現價推定史低。"
-      },
-      "checkedSources": [
-        "https://24h.pchome.com.tw/prod/DMBL53-A900KAFM1",
-        "https://www.momoshop.com.tw/product/15559310",
-        "https://www.lbj.tw/BJ/Query.aspx?k=PV32GL",
-        "https://www.findprice.com.tw/g/PV32GL"
-      ],
-      "rejectedCandidates": [
-        "PChome 與 Momo 的 NT$15,999 只證明 2026-08-28 查核當下現價，沒有可重現的歷史最低點日期。",
-        "LBJ exact-model 查詢只命中 NT$100–496 的相容滾筒／濾網耗材，不是 PV32GL 主機，依規則排除。",
-        "未採會員券、信用卡回饋、點數、二手、福利品、展示機、拆封品、整新品、配件或相近型號。"
-      ]
-    },
-    {
-      "id": "robot-xiaomi-vacuum-6-pro-pv21gl",
-      "category": "robot",
-      "brand": "Xiaomi",
-      "model": "PV21GL",
-      "name": "Xiaomi 掃拖機器人 6 Pro",
-      "currentPrice": 20999,
-      "currentCurrency": "TWD",
-      "priceBasis": "retailer_current",
-      "priceLabel": "通路現價",
-      "currentBuyUrl": "https://24h.pchome.com.tw/prod/DMBL53-A900KAFL2",
-      "currentBuyLabel": "PChome 24h exact-model 新品",
-      "historicalLow": {
-        "status": "not_found",
-        "amount": null,
-        "currency": "TWD",
-        "converted": null,
-        "sourceUrl": "",
-        "sourceTitle": "",
-        "evidenceSnippet": "",
-        "sourceKind": "not_found",
-        "confidence": "not_found",
-        "checkedAt": "2026-08-28",
-        "note": "已查 PChome、Momo、小米蝦皮官方旗艦店、LBJ 與 FindPrice 的 exact-model PV21GL；NT$19,949／20,999 均只證明本輪現價，LBJ 結果為相容耗材而非主機，未找到具日期且可重現的可信新品歷史價格曲線，故不以現價推定史低。"
-      },
-      "checkedSources": [
-        "https://24h.pchome.com.tw/prod/DMBL53-A900KAFL2",
-        "https://www.momoshop.com.tw/product/15559309",
-        "https://shopee.tw/Xiaomi-%E6%8E%83%E6%8B%96%E6%A9%9F%E5%99%A8%E4%BA%BA-6-Pro%E3%80%90%E5%B0%8F%E7%B1%B3%E5%AE%98%E6%96%B9%E6%97%97%E8%89%A6%E5%BA%97%E3%80%91%E5%B0%8F%E7%B1%B3-%E6%BB%BE%E7%AD%92%E6%8E%83%E6%8B%96-AI-%E8%AD%98%E9%AB%92%E8%A4%87%E6%8B%96-%E9%B9%B0%E7%9C%BC%E7%B4%9A%E9%81%BF%E9%9A%9C-30000Pa%E5%90%B8%E5%8A%9B-i.15199365.45264164648",
-        "https://www.lbj.tw/BJ/Query.aspx?k=PV21GL",
-        "https://www.findprice.com.tw/g/PV21GL"
-      ],
-      "rejectedCandidates": [
-        "PChome NT$19,949、Momo／蝦皮官方 NT$20,999 只證明 2026-08-28 查核當下現價，沒有可重現的歷史最低點日期。",
-        "LBJ exact-model 查詢只命中相容滾筒／濾網耗材，不是 PV21GL 主機，依規則排除。",
-        "未採會員券、信用卡回饋、點數、二手、福利品、展示機、拆封品、整新品、配件或相近型號。"
-      ]
-    },
-    {
-      "id": "tv-samsung-qn80h-65",
-      "category": "tv",
-      "brand": "Samsung",
-      "model": "QA65QN80HAXXZW",
-      "name": "65 型 QN80H Neo QLED 4K Vision AI 智慧顯示器",
-      "currentPrice": 48900,
-      "currentCurrency": "TWD",
-      "priceBasis": "retailer_current",
-      "priceLabel": "通路現價",
-      "currentBuyUrl": "https://24h.pchome.com.tw/prod/DPADO2-A900K4NKW",
-      "currentBuyLabel": "PChome exact-model 新品含基本安裝",
-      "historicalLow": {
-        "status": "found",
-        "amount": 43866,
-        "currency": "TWD",
-        "converted": 43866,
-        "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1282767496&cgp=43866",
-        "sourceTitle": "LBJ 歷史價格：Samsung QA65QN80HAXXZW 65 型 Neo QLED 4K AI 智慧顯示器",
-        "evidenceSnippet": "LBJ 的 exact-model 新品價格歷史於 2026-08-07、08-12 與 08-28 記錄 NT$43,866；2026-05-28、06-12、07-28、08-10 可見節點為 NT$48,900。",
-        "sourceKind": "price_history",
-        "confidence": "high",
-        "checkedAt": "2026-08-28",
-        "note": "採完全相同台灣型號、含桌放基本安裝與舊機回收的可信新品公開歷史曲線；未扣除信用卡、點數或會員個人化回饋。"
-      },
-      "checkedSources": [
-        "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1282767496&cgp=43866",
-        "https://24h.pchome.com.tw/prod/DPADO2-A900K4NKW",
-        "https://www.samsung.com/tw/tvs/qled-tv/qn80h-65-inch-neo-qled-4k-mini-led-smart-tv-qa65qn80haxxzw/"
-      ],
-      "rejectedCandidates": [
-        "只採 QA65QN80HAXXZW 同型號新品歷史曲線；排除其他尺寸／區域碼、會員私訊價、信用卡回饋、點數、福利品、展示機與拆封品。"
-      ]
-    },
-    {
-      "id": "dehumidifier-sharp-dw-uw25ht-w",
-      "category": "dehumidifier",
-      "brand": "SHARP",
-      "model": "DW-UW25HT-W",
-      "name": "乾淨方 Pro 雙氣流變頻美學 25L 除濕機",
-      "currentPrice": 20700,
-      "currentCurrency": "TWD",
-      "priceBasis": "retailer_current",
-      "priceLabel": "通路現價",
-      "currentBuyUrl": "https://www.hotaigo.com.tw/productdetail/hotai1785980593-4550556198233.html",
-      "currentBuyLabel": "HOTAI購 exact-model 現貨新品",
-      "historicalLow": {
-        "status": "found",
-        "amount": 20700,
-        "currency": "TWD",
-        "converted": 20700,
-        "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1286065599&cgp=20700",
-        "sourceTitle": "LBJ 歷史價格：HOTAI購 SHARP DW-UW25HT-W 25L 除濕機",
-        "evidenceSnippet": "LBJ 的 HOTAI購 exact-model 新品價格歷史於 2026-07-28、08-06 與 08-28 均記錄 NT$20,700。",
-        "sourceKind": "price_history",
-        "confidence": "high",
-        "checkedAt": "2026-08-28",
-        "note": "採完全相同台灣型號、HOTAI購現貨新品的公開歷史曲線；未扣除信用卡、點數或會員個人化回饋。"
-      },
-      "checkedSources": [
-        "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1286065599&cgp=20700",
-        "https://www.hotaigo.com.tw/productdetail/hotai1785980593-4550556198233.html",
-        "https://tw.sharp/products/dw-uw25ht-w"
-      ],
-      "rejectedCandidates": [
-        "只採 DW-UW25HT-W 同型號現貨新品歷史曲線；排除會員券、信用卡回饋、點數、福利品、展示機、拆封品與相近容量型號。"
       ]
     }
   ]
