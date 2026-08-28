@@ -6,8 +6,8 @@
     dataDate: "2026-08-28",
     costcoDate: "2026-08-28",
     expectedCategoryCount: 30,
-    expectedProductCount: 911,
-    cacheVersion: "20260828-090140-catalog",
+    expectedProductCount: 914,
+    cacheVersion: "20260828-143943-catalog",
     exchangeSummary: "USD 1 = TWD 31.679",
   };
 
@@ -19,6 +19,7 @@
     EUR_TWD: 36.909931186834854,
     JPY_TWD: 0.1988268960826483,
     CNY_TWD: 4.702051483307392,
+    HKD_TWD: 4.041106247726135,
     KRW_TWD: 0.022929421103000232,
   };
 

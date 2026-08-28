@@ -1,13 +1,13 @@
 {
   "summary": {
     "checkedAt": "2026-08-28T00:00:00+08:00",
-    "total": 911,
-    "found": 264,
-    "missing": 647,
+    "total": 914,
+    "found": 265,
+    "missing": 649,
     "byConfidence": {
-      "official": 131,
+      "official": 132,
       "credible_article": 96,
-      "not_found": 647,
+      "not_found": 649,
       "retailer_explicit": 12,
       "medium": 7,
       "high": 18
@@ -9419,6 +9419,51 @@
       "confidence": "not_found",
       "query": "Lockin Halo release date launch announced 上市 發售",
       "sourceKind": "not_found_after_available_search"
+    },
+    {
+      "id": "smartlock-lockin-v5-max",
+      "category": "smartlock",
+      "brand": "Lockin",
+      "model": "V5 Max",
+      "name": "V5 Max 掌靜脈人臉辨識電子鎖（星際銀）",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "query": "site:lockin.tw \"V5 Max\" (上市 OR 發售 OR 發表)",
+      "sourceKind": "not_found_after_official_review",
+      "reason": "Lockin 台灣商品頁可確認現售規格與價格，但未明示上市或發售日期；未以商品頁更新日或型號年份推定。"
+    },
+    {
+      "id": "smartlock-lockin-v6-max",
+      "category": "smartlock",
+      "brand": "Lockin",
+      "model": "V6 Max",
+      "name": "V6 Max AI 掌靜脈人臉電子鎖（標準安裝）",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "query": "\"Lockin V6 Max\" (上市 OR 發售 OR 發表)",
+      "sourceKind": "not_found_after_official_review",
+      "reason": "已查台灣 exact-model 通路頁與 Lockin 官方頁，皆未明示上市或發售日期；未以通路上架日或型號年份推定。"
+    },
+    {
+      "id": "smartlock-lockin-v7-max",
+      "category": "smartlock",
+      "brand": "Lockin",
+      "model": "V7 Max",
+      "name": "V7 Max 真 AI 掌靜脈電子鎖（香港行貨）",
+      "releaseDate": "2026-01",
+      "sourceUrl": "https://lockin.com/blogs/articles/lockin-at-ces-2026-the-future-of-the-front-door",
+      "sourceTitle": "Lockin at CES 2026: The Future of the Front Door",
+      "evidenceSnippet": "Lockin 官方 CES 2026 回顧明示 V7 Max 於 CES 2026 首度亮相，並介紹 AuraCharge、三重生物辨識、三鏡頭、雙 5 吋螢幕與 Matter。",
+      "confidence": "official",
+      "query": "site:lockin.com \"V7 Max\" CES 2026 debuted",
+      "sourceKind": "official_launch_announcement",
+      "reason": "採品牌官方文章明示的 CES 2026 首度亮相月份；未把文章發布日直接當作產品發售日。"
     },
     {
       "id": "smartlock-zigbang-shp-p52",

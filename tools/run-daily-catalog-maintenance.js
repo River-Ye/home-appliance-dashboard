@@ -511,7 +511,7 @@ async function auditHistoricalSource(product, raw) {
 function exchangeRatesFromPayload(payload) {
   if (payload.result !== "success") throw new Error("Exchange rate payload is incomplete");
   const rates = payload.rates;
-  for (const currency of ["TWD", "GBP", "EUR", "JPY", "CNY", "KRW"]) {
+  for (const currency of ["TWD", "GBP", "EUR", "JPY", "CNY", "HKD", "KRW"]) {
     if (!Number.isFinite(Number(rates?.[currency])) || Number(rates[currency]) <= 0) {
       throw new Error(`Exchange rate payload is missing a positive ${currency} rate`);
     }
@@ -525,6 +525,7 @@ function exchangeRatesFromPayload(payload) {
     EUR_TWD: Number(rates.TWD) / Number(rates.EUR),
     JPY_TWD: Number(rates.TWD) / Number(rates.JPY),
     CNY_TWD: Number(rates.TWD) / Number(rates.CNY),
+    HKD_TWD: Number(rates.TWD) / Number(rates.HKD),
     KRW_TWD: Number(rates.TWD) / Number(rates.KRW),
   };
 }
@@ -568,6 +569,7 @@ function applyExchangeRates(products, exchange, raw, baselineById = new Map()) {
     EUR: exchange.EUR_TWD,
     JPY: exchange.JPY_TWD,
     CNY: exchange.CNY_TWD,
+    HKD: exchange.HKD_TWD,
     KRW: exchange.KRW_TWD,
   };
   for (const product of products) {
@@ -628,6 +630,7 @@ function updateConfig(exchange, productCount, categoryCount, checkedAt) {
     .replace(/EUR_TWD: [^,]+,/, `EUR_TWD: ${exchange.EUR_TWD},`)
     .replace(/JPY_TWD: [^,]+,/, `JPY_TWD: ${exchange.JPY_TWD},`)
     .replace(/CNY_TWD: [^,]+,/, `CNY_TWD: ${exchange.CNY_TWD},`)
+    .replace(/HKD_TWD: [^,]+,/, `HKD_TWD: ${exchange.HKD_TWD},`)
     .replace(/KRW_TWD: [^,]+,/, `KRW_TWD: ${exchange.KRW_TWD},`);
   fs.writeFileSync(filePath, source);
 }
@@ -769,6 +772,7 @@ function syncHistoricalResearch(products, exchange, compact) {
       EUR_TWD: exchange.EUR_TWD,
       JPY_TWD: exchange.JPY_TWD,
       CNY_TWD: exchange.CNY_TWD,
+      HKD_TWD: exchange.HKD_TWD,
       KRW_TWD: exchange.KRW_TWD,
     },
     lastMaintenanceCheckAt: compact.checkedAt,

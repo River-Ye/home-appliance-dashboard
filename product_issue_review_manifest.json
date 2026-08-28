@@ -39304,6 +39304,154 @@
       "candidateReviews": []
     },
     {
+      "id": "smartlock-lockin-v5-max",
+      "category": "smartlock",
+      "brand": "Lockin",
+      "model": "V5 Max",
+      "reviewedAt": "2026-08-28",
+      "reviewBatch": "smartlock",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "Reddit",
+        "Mobile01"
+      ],
+      "queries": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Lockin V5 Max\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.google.com/search?q=site%3Areddit.com+%22Lockin+V5+Max%22+%28problem+OR+issue+OR+defect+OR+failure%29",
+          "targetHost": "reddit.com"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Lockin V5 Max\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com+%22Lockin+V5+Max%22+%28%E7%81%BD%E6%83%85+OR+%E5%95%8F%E9%A1%8C+OR+%E6%95%85%E9%9A%9C+OR+%E8%B2%A0%E8%A9%95%29",
+          "targetHost": "mobile01.com"
+        }
+      ],
+      "candidateDisposition": "V5 Max：Reddit 原頁的故障對象是 Philips Easykey 9300，V5 Max 是替換後的正向選擇；Mobile01 原頁主題為 V6 Max，V5 Max 只出現在購前比較，均不是 V5 Max 第一人稱故障回報。",
+      "representativeSources": [
+        {
+          "platform": "Reddit",
+          "title": "Easykey 9300 unable to lock or unlock : r/Philips",
+          "url": "https://www.reddit.com/r/Philips/comments/1tev2c5/easykey_9300_unable_to_lock_or_unlock/"
+        },
+        {
+          "platform": "Mobile01",
+          "title": "[開箱]陸版 鹿客LOCKIN V6 max電子鎖",
+          "url": "https://www.mobile01.com/topicdetail.php?f=168&t=7250632"
+        }
+      ],
+      "reviewerNote": "V5 Max：已人工回到 Reddit 與 Mobile01 原頁核對 exact model；兩個候選都不是 V5 Max 使用後負面回報，未達同症狀 6 人且跨 2 個原始網站門檻。",
+      "attestation": "manual_original_pages_reviewed",
+      "candidateReviews": [
+        {
+          "url": "https://www.reddit.com/r/Philips/comments/1tev2c5/easykey_9300_unable_to_lock_or_unlock/",
+          "title": "Easykey 9300 unable to lock or unlock : r/Philips",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-28",
+          "sourceExcerpt": "發文者描述 Philips Easykey 9300 無法上鎖，後續改裝 Lockin V5 Max 並肯定孔位相容與電池配置。",
+          "independentAuthors": 1,
+          "specificReason": "故障回報明確屬於 Philips Easykey 9300；V5 Max 是替換後的正向使用敘述，不能計為 V5 Max 災情。",
+          "platform": "Reddit"
+        },
+        {
+          "url": "https://www.mobile01.com/topicdetail.php?f=168&t=7250632",
+          "title": "[開箱]陸版 鹿客LOCKIN V6 max電子鎖",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-28",
+          "sourceExcerpt": "原頁以 V6 Max 開箱與使用經驗為主，V5 Max 只在購買選擇與型號比較脈絡中出現。",
+          "independentAuthors": 1,
+          "specificReason": "頁面主體與使用經驗均屬 V6 Max；V5 Max 沒有第一人稱故障敘述，不能跨型號計入負評門檻。",
+          "platform": "Mobile01"
+        }
+      ]
+    },
+    {
+      "id": "smartlock-lockin-v6-max",
+      "category": "smartlock",
+      "brand": "Lockin",
+      "model": "V6 Max",
+      "reviewedAt": "2026-08-28",
+      "reviewBatch": "smartlock",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "Reddit",
+        "Mobile01"
+      ],
+      "queries": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Lockin V6 Max\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.google.com/search?q=site%3Areddit.com+%22Lockin+V6+Max%22+%28problem+OR+issue+OR+defect+OR+failure%29",
+          "targetHost": "reddit.com"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Lockin V6 Max\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com+%22Lockin+V6+Max%22+%28%E7%81%BD%E6%83%85+OR+%E5%95%8F%E9%A1%8C+OR+%E6%95%85%E9%9A%9C+OR+%E8%B2%A0%E8%A9%95%29",
+          "targetHost": "mobile01.com"
+        }
+      ],
+      "candidateDisposition": "V6 Max：Reddit exact-model 查詢無原頁候選；Mobile01 原頁是實機開箱，發文者回報近四個月使用正常且電池各充電一次，屬正向經驗而非故障。",
+      "representativeSources": [
+        {
+          "platform": "Mobile01",
+          "title": "[開箱]陸版 鹿客LOCKIN V6 max電子鎖",
+          "url": "https://www.mobile01.com/topicdetail.php?f=168&t=7250632"
+        }
+      ],
+      "reviewerNote": "V6 Max：已人工核對 Reddit 與 Mobile01 exact-model 結果；唯一原頁候選是正向使用經驗，未形成可計數負面作者，更未達 6 人／2 站門檻。",
+      "attestation": "manual_original_pages_reviewed",
+      "candidateReviews": [
+        {
+          "url": "https://www.mobile01.com/topicdetail.php?f=168&t=7250632",
+          "title": "[開箱]陸版 鹿客LOCKIN V6 max電子鎖",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-28",
+          "sourceExcerpt": "發文者更新近四個月使用狀況，表示目前沒有問題，兩顆電池各只充電一次。",
+          "independentAuthors": 1,
+          "specificReason": "這是 V6 Max 實機使用後的正向回報，沒有故障或負面症狀，不能計入集中負評作者數。",
+          "platform": "Mobile01"
+        }
+      ]
+    },
+    {
+      "id": "smartlock-lockin-v7-max",
+      "category": "smartlock",
+      "brand": "Lockin",
+      "model": "V7 Max",
+      "reviewedAt": "2026-08-28",
+      "reviewBatch": "smartlock",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "Reddit",
+        "Mobile01"
+      ],
+      "queries": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Lockin V7 Max\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.google.com/search?q=site%3Areddit.com+%22Lockin+V7+Max%22+%28problem+OR+issue+OR+defect+OR+failure%29",
+          "targetHost": "reddit.com"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Lockin V7 Max\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com+%22Lockin+V7+Max%22+%28%E7%81%BD%E6%83%85+OR+%E5%95%8F%E9%A1%8C+OR+%E6%95%85%E9%9A%9C+OR+%E8%B2%A0%E8%A9%95%29",
+          "targetHost": "mobile01.com"
+        }
+      ],
+      "candidateDisposition": "V7 Max：Reddit 與 Mobile01 exact-model 查詢均沒有可回到原頁的候選，未發現可計數的第一人稱同型號問題回報。",
+      "representativeSources": [],
+      "reviewerNote": "V7 Max：兩站 exact-model 搜尋均已人工查看，沒有原頁候選，未達同症狀 6 人且跨 2 個原始網站門檻。",
+      "attestation": "manual_cross_site_search_reviewed_no_candidate",
+      "candidateReviews": []
+    },
+    {
       "id": "smartlock-zigbang-shp-p52",
       "category": "smartlock",
       "brand": "Zigbang",

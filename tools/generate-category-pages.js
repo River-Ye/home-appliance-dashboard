@@ -343,13 +343,16 @@ function catalogProductMarkup(product, index) {
     : product.price?.basis === "retailer_current"
       ? "通路現價"
       : "價格基準未標示";
+  const priceDetail = product.price.currency === "TWD"
+    ? priceBasis
+    : `${formatOriginal(product.price)} 換算 · ${priceBasis}`;
   return `
               <li id="${escapeHtml(catalogProductAnchor(product.id))}" class="editorial-catalog-item">
                 <span class="editorial-catalog-rank" aria-label="第 ${index + 1} 名">${String(index + 1).padStart(2, "0")}</span>
                 <div class="editorial-catalog-body">
                   <h3><span translate="no">${escapeHtml(`${product.brand} ${product.model}`)}</span></h3>
                   <p class="editorial-catalog-name">${escapeHtml(product.name)}</p>
-                  <p class="editorial-catalog-meta"><strong>${escapeHtml(formatTwd(product.price.converted))}</strong><span>${escapeHtml(priceBasis)}</span><span>上市／發售 ${escapeHtml(product.releaseDate)}</span></p>
+                  <p class="editorial-catalog-meta"><strong>${escapeHtml(formatTwd(product.price.converted))}</strong><span>${escapeHtml(priceDetail)}</span><span>上市／發售 ${escapeHtml(product.releaseDate)}</span></p>
                   <p class="editorial-catalog-description">${escapeHtml(product.description)}</p>
                 </div>
               </li>`;

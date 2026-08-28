@@ -460,6 +460,10 @@ function assertCategoryPageContracts(categories, products, meta) {
           : "價格基準未標示";
       assert(catalogItemText.includes(formatTwd(product.price.converted)), `${file} catalog item ${product.id} reference price mismatch`);
       assert(catalogItemText.includes(priceBasis), `${file} catalog item ${product.id} price basis mismatch`);
+      if (product.price.currency !== "TWD") {
+        const originalPrice = `${product.price.currency} ${new Intl.NumberFormat("en-US", { maximumFractionDigits: 2 }).format(product.price.amount)}`;
+        assert(catalogItemText.includes(`${originalPrice} 換算`), `${file} catalog item ${product.id} must label its source-currency conversion`);
+      }
     }
 
     const categoryStateLinks = hrefs.filter((href) => {

@@ -1457,7 +1457,7 @@ async function main() {
     result: "success",
     time_last_update_utc: "Wed, 22 Jul 2026 00:02:31 +0000",
     time_last_update_unix: 1784678551,
-    rates: { TWD: 32, USD: 1, GBP: 0.8, EUR: 0.9, JPY: 160, CNY: 7.2, KRW: 1280 },
+    rates: { TWD: 32, USD: 1, GBP: 0.8, EUR: 0.9, JPY: 160, CNY: 7.2, HKD: 8, KRW: 1280 },
   });
   const firstExchangeRequest = exchangeRateRequestUrl("2026-07-30", 1785370200000);
   const retryExchangeRequest = exchangeRateRequestUrl("2026-07-30", 1785370260000);
@@ -1478,6 +1478,7 @@ async function main() {
     "exchange-rate request cache nonces must be finite timestamps",
   );
   assert(krwExchange.KRW_TWD === 0.025, "exchange-rate parser should derive KRW/TWD from the USD base");
+  assert(krwExchange.HKD_TWD === 4, "exchange-rate parser should derive HKD/TWD from the USD base");
   const krwProduct = {
     id: "garmentcare-samsung-fixture",
     price: {
@@ -1896,6 +1897,33 @@ async function main() {
   assert(
     invalidTaiwanWarrantyFailures.some((failure) => failure.includes("50Hz-only or non-Taiwan warranty")),
     "all new products must reject an explicitly non-Taiwan warranty fixture",
+  );
+  const globalFixture = {
+    id: "new-global-product-fixture",
+    category: "smartlock",
+    channel: "global",
+    model: "GLOBAL-1",
+    price: { basis: "retailer_current", currency: "HKD", amount: 100, converted: 999 },
+    installation: { status: "excluded", note: "台灣不含安裝" },
+    description: "未含國際運費、進口稅；台灣保固、電壓與插頭須確認",
+    voltage: "電壓與插頭須確認",
+    warranty: "無台灣保固",
+    image: "https://example.test/global.jpg",
+  };
+  const invalidGlobalConversionFailures = [];
+  validatePriceAndInstallationContract(globalFixture, invalidGlobalConversionFailures, true, { HKD_TWD: 4 });
+  assert(
+    invalidGlobalConversionFailures.some((failure) => failure.includes("conversion must match")),
+    "global catalog contracts must reject an incorrect TWD conversion",
+  );
+  const unsupportedGlobalCurrencyFailures = [];
+  validatePriceAndInstallationContract({
+    ...globalFixture,
+    price: { ...globalFixture.price, currency: "AUD", converted: 2000 },
+  }, unsupportedGlobalCurrencyFailures, true, { HKD_TWD: 4 });
+  assert(
+    unsupportedGlobalCurrencyFailures.some((failure) => failure.includes("supported exchange rate")),
+    "global catalog contracts must reject an unsupported source currency",
   );
   const validNetworkSwitchFixture = {
     id: "network-switch-fixture",

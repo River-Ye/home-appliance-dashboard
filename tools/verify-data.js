@@ -473,15 +473,28 @@ function visibleRoomSizeUpperBound(value) {
   return range ? Number(range[1]) : null;
 }
 
-function validatePriceAndInstallationContract(product, failures, forceRequired = false) {
-  const contractRequired = forceRequired
-    || ["aircon", "waterheater"].includes(product.category)
+function validatePriceAndInstallationContract(product, failures, forceRequired = false, exchange = {}) {
+  const taiwanRequired = ["aircon", "waterheater", "network-switch"].includes(product.category)
     || REQUESTED_MODELS.has(product.model)
     || JAPANESE_GAP_MODELS.has(product.model);
+  const contractRequired = forceRequired || taiwanRequired;
+  const globalCatalogEntry = forceRequired && !taiwanRequired && product.channel === "global";
   if (contractRequired) {
     assert(Number.isFinite(product.price?.amount) && product.price.amount > 0, `${product.id} requires a positive public numeric price amount`, failures);
-    assert(product.price?.currency === "TWD", `${product.id} requires a TWD Taiwan price`, failures);
-    assert(product.price?.converted === product.price?.amount, `${product.id} TWD amount and converted price must match`, failures);
+    if (globalCatalogEntry) {
+      assert(product.price?.currency && product.price.currency !== "TWD", `${product.id} global entry requires its source currency`, failures);
+      const rate = exchange[`${product.price?.currency}_TWD`];
+      assert(Number.isFinite(rate) && rate > 0, `${product.id} global entry requires a supported exchange rate`, failures);
+      assert(
+        Number.isFinite(product.price?.converted)
+          && product.price.converted === Math.round(product.price.amount * rate),
+        `${product.id} global entry TWD conversion must match the source amount and exchange rate`,
+        failures,
+      );
+    } else {
+      assert(product.price?.currency === "TWD", `${product.id} requires a TWD Taiwan price`, failures);
+      assert(product.price?.converted === product.price?.amount, `${product.id} TWD amount and converted price must match`, failures);
+    }
   }
   if (contractRequired || product.price?.basis !== undefined) {
     assert(PRICE_BASIS_VALUES.has(product.price?.basis), `${product.id} has invalid price basis: ${product.price?.basis}`, failures);
@@ -498,10 +511,17 @@ function validatePriceAndInstallationContract(product, failures, forceRequired =
   }
   if (contractRequired) {
     const marketRisk = `${product.voltage || ""} ${product.warranty || ""}`;
-    assert(product.channel === "tw", `${product.id} new catalog entry requires a Taiwan sales channel`, failures);
-    assert(hasTaiwanCompatiblePower(product), `${product.id} requires a Taiwan-compatible power specification`, failures);
-    assert(/(?:台灣|公司貨)/u.test(String(product.warranty || "")), `${product.id} requires an explicit Taiwan warranty`, failures);
-    assert(!/(?:50\s*Hz(?![^；,，]*60\s*Hz)|日本地區保固|無台灣保固|不提供台灣|海外通路|跨境)/iu.test(marketRisk), `${product.id} cannot use a 50Hz-only or non-Taiwan warranty product`, failures);
+    if (globalCatalogEntry) {
+      const disclosure = `${product.description || ""} ${(product.cons || []).join(" ")} ${product.installation?.note || ""} ${marketRisk}`;
+      for (const term of ["國際運費", "進口稅", "台灣保固", "電壓", "插頭"]) {
+        assert(disclosure.includes(term), `${product.id} global entry must disclose ${term} risk`, failures);
+      }
+    } else {
+      assert(product.channel === "tw", `${product.id} new catalog entry requires a Taiwan sales channel`, failures);
+      assert(hasTaiwanCompatiblePower(product), `${product.id} requires a Taiwan-compatible power specification`, failures);
+      assert(/(?:台灣|公司貨)/u.test(String(product.warranty || "")), `${product.id} requires an explicit Taiwan warranty`, failures);
+      assert(!/(?:50\s*Hz(?![^；,，]*60\s*Hz)|日本地區保固|無台灣保固|不提供台灣|海外通路|跨境)/iu.test(marketRisk), `${product.id} cannot use a 50Hz-only or non-Taiwan warranty product`, failures);
+    }
     assert(/^https?:\/\//u.test(String(product.image || "")), `${product.id} requires a trusted http(s) product image`, failures);
   }
   if (product.price?.basis === "official_suggested") {
@@ -1764,7 +1784,7 @@ function validateJapaneseBrandReview(category, row, productById, dataDate, expec
   }
 }
 
-function validateMaintenanceReport(root, categories, products, dataDate, failures) {
+function validateMaintenanceReport(root, categories, products, dataDate, exchange, failures) {
   const reportFile = path.join(root, "catalog_maintenance_latest.json");
   assert(fs.existsSync(reportFile), `missing maintenance report for ${dataDate}`, failures);
   if (!fs.existsSync(reportFile)) return;
@@ -1804,7 +1824,7 @@ function validateMaintenanceReport(root, categories, products, dataDate, failure
   ]);
   for (const id of addedIds) {
     assert(productById.has(id), `maintenance summary references unknown added product ${id}`, failures);
-    if (productById.has(id)) validatePriceAndInstallationContract(productById.get(id), failures, true);
+    if (productById.has(id)) validatePriceAndInstallationContract(productById.get(id), failures, true, exchange);
   }
   const baselineById = new Map(products
     .filter((product) => !addedIds.has(product.id))
@@ -1911,7 +1931,7 @@ function validateMaintenanceReport(root, categories, products, dataDate, failure
 function main() {
   const root = path.resolve(__dirname, "..");
   const failures = [];
-  const { categories, products, meta } = readDashboardProducts(root);
+  const { categories, products, exchange, meta } = readDashboardProducts(root);
   const categoryIds = new Set(categories.map((category) => category.id));
 
   assert(categories.length === EXPECTED_CATEGORY_COUNT, `expected ${EXPECTED_CATEGORY_COUNT} categories, got ${categories.length}`, failures);
@@ -1993,7 +2013,7 @@ function main() {
   validateIssueReviewManifest(root, products, failures);
   validateIssueResearchFile(root, products, failures);
   validateCategoryContent(products, failures);
-  validateMaintenanceReport(root, categories, products, meta.dataDate, failures);
+  validateMaintenanceReport(root, categories, products, meta.dataDate, exchange, failures);
 
   if (failures.length) {
     console.error(failures.map((failure) => `- ${failure}`).join("\n"));

@@ -1,7 +1,7 @@
 {
   "schemaVersion": 3,
   "dataDate": "2026-08-28",
-  "checkedAt": "2026-08-28T09:01:40.681Z",
+  "checkedAt": "2026-08-28T14:39:43.768Z",
   "baselineRef": "origin/main",
   "policy": {
     "exactModelOrReviewedSourceBindingOnly": true,
@@ -24,11 +24,14 @@
   },
   "summary": {
     "baselineProducts": 910,
-    "finalProducts": 911,
+    "finalProducts": 914,
     "categories": 30,
     "minimumProductsPerCategory": 20,
     "newProductsAdded": [
-      "washerdryer-xiaomi-wd125mja12tw"
+      "washerdryer-xiaomi-wd125mja12tw",
+      "smartlock-lockin-v5-max",
+      "smartlock-lockin-v6-max",
+      "smartlock-lockin-v7-max"
     ],
     "catalogEntriesReplaced": [],
     "priceChanges": 15,
@@ -39,7 +42,7 @@
     "historicalLowChanges": 0,
     "historicalLowPriceChanges": 0,
     "historicalFound": 493,
-    "historicalMissing": 418,
+    "historicalMissing": 421,
     "pchomeAudited": 458,
     "pchomeExactModelVerified": 270,
     "pchomeReviewedBindingVerified": 69,
@@ -48,18 +51,18 @@
     "pchomeInvalidPrices": 0,
     "pchomeRequestFailures": 0,
     "pchomeOtherExceptions": 22,
-    "sourcesAudited": 911,
-    "sourcesVerifiedAvailable": 678,
+    "sourcesAudited": 914,
+    "sourcesVerifiedAvailable": 681,
     "sourcesModelUnverified": 126,
     "sourceExceptions": 233,
-    "imagesAudited": 911,
+    "imagesAudited": 914,
     "imageExceptions": 0,
     "historicalSourcesAudited": 493,
     "historicalSourcesVerified": 70,
     "historicalSourcesBlocked": 62,
     "historicalSourcesModelUnverified": 360,
     "historicalSourceExceptions": 423,
-    "foreignPricesRecomputed": 29,
+    "foreignPricesRecomputed": 30,
     "officialDiscontinuedCandidates": 0,
     "officialDiscontinuedPendingReview": 0,
     "officialDiscontinuedFalsePositives": 0,
@@ -74,9 +77,10 @@
     "EUR_TWD": 36.909931186834854,
     "JPY_TWD": 0.1988268960826483,
     "CNY_TWD": 4.702051483307392,
-    "KRW_TWD": 0.022929421103000232
+    "KRW_TWD": 0.022929421103000232,
+    "HKD_TWD": 4.041106247726135
   },
-  "categoryReviewProvenance": "current_run",
+  "categoryReviewProvenance": "mixed_current_and_carried_forward",
   "categoryScan": [
     {
       "category": "aircon",
@@ -2478,9 +2482,13 @@
       "category": "smartlock",
       "cutoff": "2026-08-28",
       "status": "manually_reviewed",
-      "decision": "no_change",
-      "note": "已逐類核對官方產品線；本類無需新增其他符合完整證據契約的商品，日系 9 品牌矩陣同步完成。",
-      "acceptedCandidates": [],
+      "decision": "added_verified_models",
+      "note": "已新增 Lockin V5 Max、V6 Max 與 V7 Max：V5/V6 依台灣來源收錄，V7 明確標示香港行貨與跨境安裝、保固風險；日系 9 品牌矩陣不受影響。",
+      "acceptedCandidates": [
+        "smartlock-lockin-v5-max",
+        "smartlock-lockin-v6-max",
+        "smartlock-lockin-v7-max"
+      ],
       "trackedOrRejectedCandidates": [],
       "japaneseBrandReview": [
         {
@@ -2589,8 +2597,8 @@
           "reason": "2026-08-28 核對 TOTO 官方產品目錄；未見與電子鎖收錄邊界相符的台灣產品線，因此不以相近品、配件或海外型號補數。"
         }
       ],
-      "reviewedAt": "2026-08-28T08:57:25.208Z",
-      "finalProductCount": 48,
+      "reviewedAt": "2026-08-28T14:39:43.768Z",
+      "finalProductCount": 51,
       "minimumSatisfied": true
     },
     {
@@ -4034,6 +4042,14 @@
         "before": 8838,
         "after": 8838,
         "rate": 31.678539
+      },
+      {
+        "id": "smartlock-lockin-v7-max",
+        "currency": "HKD",
+        "amount": 9638,
+        "before": null,
+        "after": 38948,
+        "rate": 4.041106247726135
       }
     ]
   },
@@ -4614,6 +4630,9 @@
       "smartlock-kaadas-q9-fvp",
       "smartlock-kingnet-djs-sk07",
       "smartlock-lockin-halo",
+      "smartlock-lockin-v5-max",
+      "smartlock-lockin-v6-max",
+      "smartlock-lockin-v7-max",
       "smartlock-lockin-x9",
       "smartlock-lockly-latch-plus",
       "smartlock-milre-mdl510f",
@@ -5388,6 +5407,9 @@
       "smartlock-kaadas-q3",
       "smartlock-kaadas-q9-fvp",
       "smartlock-lockin-halo",
+      "smartlock-lockin-v5-max",
+      "smartlock-lockin-v6-max",
+      "smartlock-lockin-v7-max",
       "smartlock-lockin-x9",
       "smartlock-lockly-latch-plus",
       "smartlock-milre-mdl510f",
@@ -8738,6 +8760,9 @@
       "smartlock-kaadas-q9-fvp",
       "smartlock-kingnet-djs-sk07",
       "smartlock-lockin-halo",
+      "smartlock-lockin-v5-max",
+      "smartlock-lockin-v6-max",
+      "smartlock-lockin-v7-max",
       "smartlock-lockin-x9",
       "smartlock-lockly-latch-plus",
       "smartlock-milre-mdl510f",
@@ -9651,6 +9676,9 @@
       "smartlock-kaadas-q9-fvp",
       "smartlock-kingnet-djs-sk07",
       "smartlock-lockin-halo",
+      "smartlock-lockin-v5-max",
+      "smartlock-lockin-v6-max",
+      "smartlock-lockin-v7-max",
       "smartlock-lockin-x9",
       "smartlock-lockly-latch-plus",
       "smartlock-milre-mdl510f",

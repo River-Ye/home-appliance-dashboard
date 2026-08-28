@@ -1,13 +1,13 @@
 {
   "summary": {
     "checkedAt": "2026-08-28T00:00:00.000+08:00",
-    "sourcePolicy": "2026-08-28 以 910 筆基準清單全量查核公開價格基準（通路現價或明示官方建議售價）、購買連結與可信新品狀態，並複核最終 911 筆商品圖片、全部 493 筆 found 史低來源、原廠停產訊號與同批次匯率。官方建議售價不自動寫成通路現價或史低；PChome exact-model 現貨頁有正值 Price.Low 時採公開折扣價，否則採 Price.P；Qty 0、福利品、展示機與配件不寫回。其他頁面的結構化價格差異列入人工覆核候選，阻擋、暫時錯誤與單次頁面失效只列稽核，不臆測停產或史低失效。",
-    "total": 911,
-    "researchedThisRun": 911,
+    "sourcePolicy": "2026-08-28 以 910 筆基準清單全量查核公開價格基準（通路現價或明示官方建議售價）、購買連結與可信新品狀態，並複核最終 914 筆商品圖片、全部 493 筆 found 史低來源、原廠停產訊號與同批次匯率。官方建議售價不自動寫成通路現價或史低；PChome exact-model 現貨頁有正值 Price.Low 時採公開折扣價，否則採 Price.P；Qty 0、福利品、展示機與配件不寫回。其他頁面的結構化價格差異列入人工覆核候選，阻擋、暫時錯誤與單次頁面失效只列稽核，不臆測停產或史低失效。",
+    "total": 914,
+    "researchedThisRun": 914,
     "found": 493,
-    "missing": 418,
+    "missing": 421,
     "byConfidence": {
-      "not_found": 418,
+      "not_found": 421,
       "high": 324,
       "medium": 169
     },
@@ -18,9 +18,10 @@
       "EUR_TWD": 36.909931186834854,
       "JPY_TWD": 0.1988268960826483,
       "CNY_TWD": 4.702051483307392,
-      "KRW_TWD": 0.022929421103000232
+      "KRW_TWD": 0.022929421103000232,
+      "HKD_TWD": 4.041106247726135
     },
-    "lastMaintenanceCheckAt": "2026-08-28T09:01:40.681Z",
+    "lastMaintenanceCheckAt": "2026-08-28T14:39:43.768Z",
     "currentPriceChanged": 15,
     "currentBuyLinkChanged": 0,
     "currentPriceDrops": 2,
@@ -32,7 +33,7 @@
     "catalogReplacementNotes": [],
     "currentImageChanged": 0,
     "discontinuedRemoved": 0,
-    "newProductsAdded": 1,
+    "newProductsAdded": 4,
     "discontinuedRemovalNotes": [],
     "catalogEntriesRemoved": 0,
     "catalogRemovalNotes": []
@@ -30904,6 +30905,106 @@
       ],
       "priceBasis": "not_stated",
       "priceLabel": "價格基準未標示"
+    },
+    {
+      "id": "smartlock-lockin-v5-max",
+      "category": "smartlock",
+      "brand": "Lockin",
+      "model": "V5 Max",
+      "name": "V5 Max 掌靜脈人臉辨識電子鎖（星際銀）",
+      "currentPrice": 28500,
+      "currentCurrency": "TWD",
+      "currentBuyUrl": "https://www.lockin.tw/tw/product-detail/v5max-s",
+      "currentBuyLabel": "Lockin 台灣官網",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "TWD",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-08-28",
+        "note": "已查 Lockin 台灣官網與 FindPrice exact-model 比價；前者僅提供當期優惠價，後者僅列當期通路價，均無可公開重現的歷史價格曲線或歷史最低點。"
+      },
+      "checkedSources": [
+        "https://www.lockin.tw/tw/product-detail/v5max-s",
+        "https://www.findprice.com.tw/g/Lockin%20V5%20Max"
+      ],
+      "rejectedCandidates": [
+        "Lockin 台灣官網與 FindPrice 僅顯示當期公開價格，沒有可公開重現的 V5 Max 歷史價格曲線或歷史最低點。"
+      ],
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價"
+    },
+    {
+      "id": "smartlock-lockin-v6-max",
+      "category": "smartlock",
+      "brand": "Lockin",
+      "model": "V6 Max",
+      "name": "V6 Max AI 掌靜脈人臉電子鎖（標準安裝）",
+      "currentPrice": 27900,
+      "currentCurrency": "TWD",
+      "currentBuyUrl": "https://www.myfone.com.tw/mfo/buy/prod/P0000203764459",
+      "currentBuyLabel": "myfone",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "TWD",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-08-28",
+        "note": "已查 myfone、Kamera 與 FindPrice exact-model 頁；可確認當期公開價與不同安裝／保固條件，但沒有可公開重現的同條件歷史價格曲線或歷史最低點。"
+      },
+      "checkedSources": [
+        "https://www.myfone.com.tw/mfo/buy/prod/P0000203764459",
+        "https://www.kamera.com.tw/products/liflocdrlai001",
+        "https://www.findprice.com.tw/g/Lockin%20V6%20Max"
+      ],
+      "rejectedCandidates": [
+        "myfone、Kamera 與 FindPrice 僅能交叉確認 V6 Max 當期價格；安裝／保固條件不同，且沒有可公開重現的同條件歷史最低點。"
+      ],
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價"
+    },
+    {
+      "id": "smartlock-lockin-v7-max",
+      "category": "smartlock",
+      "brand": "Lockin",
+      "model": "V7 Max",
+      "name": "V7 Max 真 AI 掌靜脈電子鎖（香港行貨）",
+      "currentPrice": 38948,
+      "currentCurrency": "HKD",
+      "currentBuyUrl": "https://easylock.com.hk/products/lockin-v7-max-gy",
+      "currentBuyLabel": "EasyLock 香港",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "HKD",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-08-28",
+        "note": "已查 EasyLock 香港 exact-model 現價與 FindPrice；EasyLock 未提供歷史價格曲線，FindPrice 的 V7 Max 查詢結果均為 V5/V6 或無關商品，故無可採用的同型號香港行貨史低。"
+      },
+      "checkedSources": [
+        "https://easylock.com.hk/products/lockin-v7-max-gy",
+        "https://www.findprice.com.tw/g/Lockin%20V7%20Max"
+      ],
+      "rejectedCandidates": [
+        "FindPrice 的 Lockin V7 Max 搜尋結果為 V5/V6 或無關商品；EasyLock 只有當期 HKD 現價，無可採用的 exact-model 歷史價格曲線。"
+      ],
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價"
     },
     {
       "id": "smartlock-zigbang-shp-p52",

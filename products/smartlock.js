@@ -1813,9 +1813,261 @@
     }
   },
   {
-    "id": "smartlock-zigbang-shp-p52",
+    "id": "smartlock-lockin-v5-max",
     "category": "smartlock",
     "rank": 20,
+    "budget": "premium",
+    "channel": "tw",
+    "brand": "Lockin",
+    "model": "V5 Max",
+    "name": "V5 Max 掌靜脈人臉辨識電子鎖（星際銀）",
+    "price": {
+      "currency": "TWD",
+      "amount": 28500,
+      "converted": 28500,
+      "basis": "retailer_current",
+      "confidence": "Lockin 台灣官網 2026-08-28 exact-model 公開優惠價"
+    },
+    "installation": {
+      "status": "not_stated",
+      "note": "台灣官網要求由專業人員安裝，但商品價未明示是否含基本安裝；購買前須提供門厚、門向、鎖體與天地栓照片確認並詢問加價。"
+    },
+    "image": "https://www.lockin.tw/upload/product/202603101347580.png",
+    "buyUrl": "https://www.lockin.tw/tw/product-detail/v5max-s",
+    "buyLabel": "Lockin 台灣官網",
+    "specs": [
+      "掌靜脈/3D 人臉/指紋",
+      "4 吋 800×480 螢幕 / 2K 貓眼",
+      "雙鋰電池 5000+2250mAh",
+      "門厚 4–10cm / NCC CCAJ24LP1210T0"
+    ],
+    "description": "台灣總代理現售的 V5 Max 星際銀，整合掌靜脈、人臉、指紋、密碼、NFC、遠端密碼與機械鑰匙；下單前仍須先確認門體與安裝條件。",
+    "pros": [
+      "台灣官方公開價與 2 年保固",
+      "雙電池可輪替充電，並有 Type-C 緊急供電"
+    ],
+    "cons": [
+      "售價未明示是否含基本安裝",
+      "門厚、門向、鎖體與天地栓需先由安裝方評估"
+    ],
+    "bestFor": "要在台灣購買 Lockin 掌靜脈旗艦、並重視官方保固的人。",
+    "recommendation": "Lockin 台灣旗艦推薦：辨識方式完整、官方來源清楚；先取得書面安裝報價再下單。",
+    "score": 88,
+    "voltage": "5000mAh 7.4V＋2250mAh 7.4V 鋰電池；Type-C USB 緊急供電",
+    "warranty": "Lockin 台灣總代理原廠保固 2 年",
+    "tags": [
+      "掌靜脈",
+      "3D 人臉",
+      "台灣官方",
+      "雙電池"
+    ],
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-08-28",
+      "note": "已查 Lockin 台灣官網與 FindPrice exact-model 比價；前者僅提供當期優惠價，後者僅列當期通路價，均無可公開重現的歷史價格曲線或歷史最低點。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-08-28",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Lockin V5 Max\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.google.com/search?q=site%3Areddit.com+%22Lockin+V5+Max%22+%28problem+OR+issue+OR+defect+OR+failure%29",
+          "targetHost": "reddit.com"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Lockin V5 Max\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com+%22Lockin+V5+Max%22+%28%E7%81%BD%E6%83%85+OR+%E5%95%8F%E9%A1%8C+OR+%E6%95%85%E9%9A%9C+OR+%E8%B2%A0%E8%A9%95%29",
+          "targetHost": "mobile01.com"
+        }
+      ]
+    }
+  },
+  {
+    "id": "smartlock-lockin-v6-max",
+    "category": "smartlock",
+    "rank": 21,
+    "budget": "premium",
+    "channel": "tw",
+    "brand": "Lockin",
+    "model": "V6 Max",
+    "name": "V6 Max AI 掌靜脈人臉電子鎖（標準安裝）",
+    "price": {
+      "currency": "TWD",
+      "amount": 27900,
+      "converted": 27900,
+      "basis": "retailer_current",
+      "confidence": "myfone 2026-08-28 exact-model 公開現價，商品標題明示標準安裝"
+    },
+    "installation": {
+      "status": "included_basic",
+      "note": "myfone 商品頁含標準安裝與到府教學；特殊門款、額外材料或偏遠地區可能加價，需先上傳門厚、鎖體、天地栓與門框照片評估。"
+    },
+    "image": "https://www.myfone.com.tw/website_twmf/uploads_product/website_356/037/643/ECP0035603764379_1_21061328.jpg",
+    "buyUrl": "https://www.myfone.com.tw/mfo/buy/prod/P0000203764459",
+    "buyLabel": "myfone",
+    "specs": [
+      "掌靜脈/指靜脈/3D 人臉",
+      "5 吋螢幕 / HomeKit / Siri",
+      "6735+2250mAh 雙鋰電池",
+      "NCC CCAJ25LPAWQ0T7"
+    ],
+    "description": "台灣通路現售的 V6 Max（XFCL517），支援掌靜脈、指靜脈、3D 人臉、密碼、App、Siri、HomeKit 與機械鑰匙，商品價含標準安裝。",
+    "pros": [
+      "台灣公開現價並含標準安裝",
+      "5 吋螢幕、雙電池與多種生物辨識"
+    ],
+    "cons": [
+      "商品頁未標示保固年限",
+      "特殊門款、材料與偏遠地區可能另計費"
+    ],
+    "bestFor": "希望用台灣通路購買 V6 Max，並需要標準安裝與 Apple HomeKit 的家庭。",
+    "recommendation": "Lockin 智慧家庭推薦：功能比 V5 Max 新，但保固年限要在下單前向通路書面確認。",
+    "score": 87,
+    "voltage": "6735mAh 7.6V＋2250mAh 7.4V 鋰電池；Type-C 5V/0.5A 緊急供電",
+    "warranty": "台灣通路由 Kamera 團隊提供安裝教學與保固；商品頁未標示保固年限，購前確認",
+    "tags": [
+      "掌靜脈",
+      "指靜脈",
+      "HomeKit",
+      "含標準安裝"
+    ],
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-08-28",
+      "note": "已查 myfone、Kamera 與 FindPrice exact-model 頁；可確認當期公開價與不同安裝／保固條件，但沒有可公開重現的同條件歷史價格曲線或歷史最低點。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-08-28",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Lockin V6 Max\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.google.com/search?q=site%3Areddit.com+%22Lockin+V6+Max%22+%28problem+OR+issue+OR+defect+OR+failure%29",
+          "targetHost": "reddit.com"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Lockin V6 Max\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com+%22Lockin+V6+Max%22+%28%E7%81%BD%E6%83%85+OR+%E5%95%8F%E9%A1%8C+OR+%E6%95%85%E9%9A%9C+OR+%E8%B2%A0%E8%A9%95%29",
+          "targetHost": "mobile01.com"
+        }
+      ]
+    }
+  },
+  {
+    "id": "smartlock-lockin-v7-max",
+    "category": "smartlock",
+    "rank": 22,
+    "budget": "premium",
+    "channel": "global",
+    "brand": "Lockin",
+    "model": "V7 Max",
+    "name": "V7 Max 真 AI 掌靜脈電子鎖（香港行貨）",
+    "price": {
+      "currency": "HKD",
+      "amount": 9638,
+      "converted": 38948,
+      "basis": "retailer_current",
+      "confidence": "EasyLock 香港 2026-08-28 exact-model 公開促銷價；ExchangeRate-API 2026-08-28 匯率換算"
+    },
+    "installation": {
+      "status": "included_basic",
+      "note": "EasyLock 促銷頁標示免費基本安裝，但服務限香港境內且偏遠地區可能加價；台灣買家不可視為含安裝，須另找願意承作的技師並先確認門型。"
+    },
+    "image": "https://easylock.com.hk/cdn/shop/files/Lockin-V7-Max-726x726.webp?v=1782731439&width=700",
+    "buyUrl": "https://easylock.com.hk/products/lockin-v7-max-gy",
+    "buyLabel": "EasyLock 香港",
+    "specs": [
+      "掌靜脈/指靜脈/3D 人臉",
+      "三鏡頭 / 內外雙 5 吋螢幕",
+      "AuraCharge 隔空充電 / Matter",
+      "6735+2500mAh 雙鋰電池"
+    ],
+    "description": "Lockin 於 CES 2026 發表的 V7 Max，加入 AuraCharge 隔空充電、三重生物辨識、雙 5 吋觸控螢幕與 Matter；目前僅以香港行貨作海外參考，香港安裝不適用台灣，換算價未含國際運費、進口稅，AuraCharge 發射器插頭／電壓與台灣保固也須另行確認。",
+    "pros": [
+      "官方確認支援 Matter、三鏡頭與三重生物辨識",
+      "香港授權通路有公開現貨與 HKD 售價"
+    ],
+    "cons": [
+      "香港安裝服務不適用台灣，門鎖與發射器須另找技師確認",
+      "未含國際運費、進口稅、台灣保固與跨境退換維修成本"
+    ],
+    "bestFor": "想追蹤最新 Lockin 旗艦技術、能承擔跨境安裝與售後風險的人。",
+    "recommendation": "海外旗艦參考：功能最前沿，但台灣安裝與保固尚未成立，不列台灣低門檻推薦。",
+    "score": 82,
+    "voltage": "6735mAh 7.4V＋2500mAh 7.4V 鋰電池；AuraCharge 發射器的台灣電壓／插頭相容性未標示，購前確認",
+    "warranty": "香港行貨依 EasyLock 保養條款；無台灣原廠保固，跨境維修與退換貨風險自負",
+    "tags": [
+      "掌靜脈",
+      "Matter",
+      "隔空充電",
+      "海外參考"
+    ],
+    "releaseDate": "2026-01",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "HKD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-08-28",
+      "note": "已查 EasyLock 香港 exact-model 現價與 FindPrice；EasyLock 未提供歷史價格曲線，FindPrice 的 V7 Max 查詢結果均為 V5/V6 或無關商品，故無可採用的同型號香港行貨史低。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-08-28",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Lockin V7 Max\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.google.com/search?q=site%3Areddit.com+%22Lockin+V7+Max%22+%28problem+OR+issue+OR+defect+OR+failure%29",
+          "targetHost": "reddit.com"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Lockin V7 Max\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com+%22Lockin+V7+Max%22+%28%E7%81%BD%E6%83%85+OR+%E5%95%8F%E9%A1%8C+OR+%E6%95%85%E9%9A%9C+OR+%E8%B2%A0%E8%A9%95%29",
+          "targetHost": "mobile01.com"
+        }
+      ]
+    }
+  },
+  {
+    "id": "smartlock-zigbang-shp-p52",
+    "category": "smartlock",
+    "rank": 23,
     "budget": "mid",
     "channel": "tw",
     "brand": "Zigbang",
@@ -1911,7 +2163,7 @@
   {
     "id": "smartlock-dormakaba-rl360",
     "category": "smartlock",
-    "rank": 21,
+    "rank": 24,
     "budget": "value",
     "channel": "tw",
     "brand": "dormakaba",
@@ -2007,7 +2259,7 @@
   {
     "id": "smartlock-dormakaba-ml660",
     "category": "smartlock",
-    "rank": 22,
+    "rank": 25,
     "budget": "mid",
     "channel": "tw",
     "brand": "dormakaba",
@@ -2103,7 +2355,7 @@
   {
     "id": "smartlock-dormakaba-ml770",
     "category": "smartlock",
-    "rank": 23,
+    "rank": 26,
     "budget": "mid",
     "channel": "tw",
     "brand": "dormakaba",
@@ -2200,7 +2452,7 @@
   {
     "id": "smartlock-dormakaba-fa9000",
     "category": "smartlock",
-    "rank": 24,
+    "rank": 27,
     "budget": "premium",
     "channel": "tw",
     "brand": "dormakaba",
@@ -2296,7 +2548,7 @@
   {
     "id": "smartlock-milre-mdl510f",
     "category": "smartlock",
-    "rank": 25,
+    "rank": 28,
     "budget": "value",
     "channel": "tw",
     "brand": "Milre",
@@ -2392,7 +2644,7 @@
   {
     "id": "smartlock-milre-mi6450",
     "category": "smartlock",
-    "rank": 26,
+    "rank": 29,
     "budget": "mid",
     "channel": "tw",
     "brand": "Milre",
@@ -2488,7 +2740,7 @@
   {
     "id": "smartlock-milre-mi7150",
     "category": "smartlock",
-    "rank": 27,
+    "rank": 30,
     "budget": "mid",
     "channel": "tw",
     "brand": "Milre",
@@ -2584,7 +2836,7 @@
   {
     "id": "smartlock-fibre-fb63m",
     "category": "smartlock",
-    "rank": 28,
+    "rank": 31,
     "budget": "mid",
     "channel": "tw",
     "brand": "FIBRE",
@@ -2680,7 +2932,7 @@
   {
     "id": "smartlock-fibre-fb70x",
     "category": "smartlock",
-    "rank": 29,
+    "rank": 32,
     "budget": "mid",
     "channel": "tw",
     "brand": "FIBRE",
@@ -2776,7 +3028,7 @@
   {
     "id": "smartlock-fibre-fb90",
     "category": "smartlock",
-    "rank": 30,
+    "rank": 33,
     "budget": "premium",
     "channel": "tw",
     "brand": "FIBRE",
@@ -2872,7 +3124,7 @@
   {
     "id": "smartlock-hitachi-fh10t",
     "category": "smartlock",
-    "rank": 31,
+    "rank": 34,
     "budget": "premium",
     "channel": "tw",
     "brand": "HITACHI",
@@ -2968,7 +3220,7 @@
   {
     "id": "smartlock-hitachi-fv70t",
     "category": "smartlock",
-    "rank": 32,
+    "rank": 35,
     "budget": "mid",
     "channel": "tw",
     "brand": "HITACHI",
@@ -3064,7 +3316,7 @@
   {
     "id": "smartlock-hitachi-fy10t",
     "category": "smartlock",
-    "rank": 33,
+    "rank": 36,
     "budget": "premium",
     "channel": "tw",
     "brand": "HITACHI",
@@ -3160,7 +3412,7 @@
   {
     "id": "smartlock-lockly-latch-plus",
     "category": "smartlock",
-    "rank": 34,
+    "rank": 37,
     "budget": "mid",
     "channel": "tw",
     "brand": "Lockly",
@@ -3256,7 +3508,7 @@
   {
     "id": "smartlock-waferlock-d310",
     "category": "smartlock",
-    "rank": 35,
+    "rank": 38,
     "budget": "value",
     "channel": "tw",
     "brand": "WAFERLOCK",
@@ -3352,7 +3604,7 @@
   {
     "id": "smartlock-sharp-tiko-one",
     "category": "smartlock",
-    "rank": 36,
+    "rank": 39,
     "budget": "mid",
     "channel": "tw",
     "brand": "SHARP",
@@ -3448,7 +3700,7 @@
   {
     "id": "smartlock-panasonic-g11",
     "category": "smartlock",
-    "rank": 37,
+    "rank": 40,
     "budget": "value",
     "channel": "tw",
     "brand": "Panasonic",
@@ -3544,7 +3796,7 @@
   {
     "id": "smartlock-hyundai-hdl1100s",
     "category": "smartlock",
-    "rank": 38,
+    "rank": 41,
     "budget": "value",
     "channel": "tw",
     "brand": "HYUNDAI",
@@ -3640,7 +3892,7 @@
   {
     "id": "smartlock-3e-z",
     "category": "smartlock",
-    "rank": 39,
+    "rank": 42,
     "budget": "value",
     "channel": "tw",
     "brand": "3E",
@@ -3736,7 +3988,7 @@
   {
     "id": "smartlock-3e-t9-plus",
     "category": "smartlock",
-    "rank": 40,
+    "rank": 43,
     "budget": "mid",
     "channel": "tw",
     "brand": "3E",
@@ -3832,7 +4084,7 @@
   {
     "id": "smartlock-3e-tk",
     "category": "smartlock",
-    "rank": 41,
+    "rank": 44,
     "budget": "premium",
     "channel": "tw",
     "brand": "3E",
@@ -3928,7 +4180,7 @@
   {
     "id": "smartlock-moorgen-t12",
     "category": "smartlock",
-    "rank": 42,
+    "rank": 45,
     "budget": "mid",
     "channel": "tw",
     "brand": "moorgen",
@@ -4024,7 +4276,7 @@
   {
     "id": "smartlock-kingnet-djs-sk07",
     "category": "smartlock",
-    "rank": 43,
+    "rank": 46,
     "budget": "mid",
     "channel": "tw",
     "brand": "KingNet",
@@ -4120,7 +4372,7 @@
   {
     "id": "smartlock-arpha-z2",
     "category": "smartlock",
-    "rank": 44,
+    "rank": 47,
     "budget": "premium",
     "channel": "tw",
     "brand": "arpha",
@@ -4216,7 +4468,7 @@
   {
     "id": "smartlock-chatlock-a50",
     "category": "smartlock",
-    "rank": 45,
+    "rank": 48,
     "budget": "premium",
     "channel": "tw",
     "brand": "Chatlock",
@@ -4312,7 +4564,7 @@
   {
     "id": "smartlock-chatlock-a90",
     "category": "smartlock",
-    "rank": 46,
+    "rank": 49,
     "budget": "premium",
     "channel": "tw",
     "brand": "Chatlock",
@@ -4408,7 +4660,7 @@
   {
     "id": "smartlock-costco-dormakaba-as701",
     "category": "smartlock",
-    "rank": 47,
+    "rank": 50,
     "budget": "premium",
     "channel": "tw",
     "brand": "dormakaba",
@@ -4507,7 +4759,7 @@
   {
     "id": "smartlock-costco-dormakaba-as901",
     "category": "smartlock",
-    "rank": 48,
+    "rank": 51,
     "budget": "premium",
     "channel": "tw",
     "brand": "dormakaba",
