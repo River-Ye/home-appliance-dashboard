@@ -1,12 +1,12 @@
 {
   "summary": {
     "checkedAt": "2026-08-29T00:00:00+08:00",
-    "total": 916,
+    "total": 919,
     "commonIssueProducts": 40,
-    "noCommonIssueProducts": 876,
+    "noCommonIssueProducts": 879,
     "pendingManualReview": 0,
     "commonIssues": 41,
-    "searchUnavailable": 618,
+    "searchUnavailable": 621,
     "threshold": {
       "minimumDistinctUsers": 6,
       "minimumPlatforms": 2,
@@ -8771,6 +8771,448 @@
           "independentAuthors": 2,
           "specificReason": "可辨識的 exact-model AMBEO Mini 作者只有 2 位，且 CEC 主從責任仍未釐清；其餘回覆多為 Plus／Max 等不同型號，不能合併計數。",
           "reason": "可辨識的 exact-model AMBEO Mini 作者只有 2 位，且 CEC 主從責任仍未釐清；其餘回覆多為 Plus／Max 等不同型號，不能合併計數。"
+        }
+      ]
+    },
+    {
+      "id": "soundbar-klipsch-flexus-core-200",
+      "category": "soundbar",
+      "brand": "Klipsch",
+      "model": "Flexus Core 200",
+      "name": "Flexus Core 200 3.1.2 聲道 Dolby Atmos 聲霸",
+      "identity": {
+        "canonicalModel": "Flexus Core 200",
+        "lookupLabel": "Klipsch Flexus Core 200",
+        "aliases": [
+          "Klipsch Flexus Core 200"
+        ],
+        "evidenceUrl": "https://www.costco.com.tw/Televisions-Appliances/TV-Home-Entertainment/Soundbars-Home-Theater/Klipsch-Flexus-312-Channel-Dolby-Atmos-SoundBar-Core-200/p/148021"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "status": "completed",
+        "decision": "no_common_issue",
+        "reviewedAt": "2026-08-29",
+        "checkedPlatforms": [
+          "Reddit",
+          "Mobile01"
+        ],
+        "queries": [
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"Klipsch Flexus Core 200\" (problem OR issue OR defect OR failure)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Klipsch%20Flexus%20Core%20200%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+            "targetHost": "reddit.com"
+          },
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"Klipsch Flexus Core 200\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Klipsch%20Flexus%20Core%20200%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "mobile01.com"
+          }
+        ],
+        "candidateDisposition": "Flexus Core 200：有線重低音輸出爆音候選可辨識超過 6 位使用者，但只來自 Reddit；Mobile01 候選是不同的中置聲道症狀，因此同一問題未跨 2 個原始網站。",
+        "representativeSources": [
+          {
+            "platform": "Reddit",
+            "title": "Clicks and pops come from Flexus Core 200 after connecting subwoofer via RCA",
+            "url": "https://www.reddit.com/r/Klipsch/comments/1hx317y/clicks_and_pops_come_from_flexus_core_200_after/"
+          },
+          {
+            "platform": "Reddit",
+            "title": "Klipsch Flexus Core 200 popping noises from sub",
+            "url": "https://www.reddit.com/r/Soundbars/comments/1sjzegp/klipsch_flexus_core_200_popping_noises_from_sub/"
+          },
+          {
+            "platform": "Mobile01",
+            "title": "Klipsch Flexus Core 200 使用問題",
+            "url": "https://www.mobile01.com/topicdetail.php?f=348&t=7207167"
+          }
+        ],
+        "candidateReviews": [
+          {
+            "platform": "Reddit",
+            "url": "https://www.reddit.com/r/Klipsch/comments/1hx317y/clicks_and_pops_come_from_flexus_core_200_after/",
+            "title": "Clicks and pops come from Flexus Core 200 after connecting subwoofer via RCA",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-08-29",
+            "sourceExcerpt": "原頁樓主與多位 Flexus Core 200 使用者回報，使用 RCA 有線重低音輸出時會出現 click、pop 或 thump 聲。",
+            "independentAuthors": 11,
+            "specificReason": "可辨識 11 位 exact-model 使用者，但所有同一爆音症狀都在 Reddit 這一個原始網站，未達跨 2 個網站門檻。"
+          },
+          {
+            "platform": "Reddit",
+            "url": "https://www.reddit.com/r/Soundbars/comments/1sjzegp/klipsch_flexus_core_200_popping_noises_from_sub/",
+            "title": "Klipsch Flexus Core 200 popping noises from sub",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-08-29",
+            "sourceExcerpt": "另一篇原頁有 4 位 Flexus Core 200 使用者談到重低音爆音，其中至少一位也出現在前一篇討論。",
+            "independentAuthors": 4,
+            "specificReason": "候選仍只來自 Reddit，且與前一篇存在跨文重複作者；去重後也沒有第二個原始網站支持同一症狀。"
+          },
+          {
+            "platform": "Mobile01",
+            "url": "https://www.mobile01.com/topicdetail.php?f=348&t=7207167",
+            "title": "Klipsch Flexus Core 200 使用問題",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-08-29",
+            "sourceExcerpt": "Mobile01 一位 Core 200 使用者回報 Dolby Digital Plus 時中置聲道沒有聲音，切換模式或藍牙後可恢復。",
+            "independentAuthors": 1,
+            "specificReason": "這是單一作者的中置聲道／格式相容候選，與 Reddit 的 RCA 重低音爆音不是同一問題，不能合併計數。"
+          }
+        ],
+        "reviewerNote": "Flexus Core 200：已人工覆核 Reddit 與 Mobile01 原頁；同一問題仍未同時達 6 位獨立使用者及 2 個原始網站門檻。",
+        "attestation": "manual_original_pages_reviewed"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-08-29",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"Klipsch Flexus Core 200\" (problem OR issue OR defect OR failure)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Klipsch%20Flexus%20Core%20200%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+            "targetHost": "reddit.com"
+          },
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"Klipsch Flexus Core 200\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Klipsch%20Flexus%20Core%20200%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "mobile01.com"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "Yahoo Search",
+          "query": "(\"Klipsch Flexus Core 200\") (problem OR issue OR defect OR failure OR 災情 OR 故障 OR 負評) (site:mobile01.com OR site:dcard.tw OR site:ptt.cc OR site:reddit.com OR site:snbforums.com OR site:52asus.com)",
+          "searchUrl": "https://search.yahoo.com/search?p=(%22Klipsch%20Flexus%20Core%20200%22)%20(problem%20OR%20issue%20OR%20defect%20OR%20failure%20OR%20%E7%81%BD%E6%83%85%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)%20(site%3Amobile01.com%20OR%20site%3Adcard.tw%20OR%20site%3Aptt.cc%20OR%20site%3Areddit.com%20OR%20site%3Asnbforums.com%20OR%20site%3A52asus.com)",
+          "result": "search_unavailable",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-08-29T00:00:00+08:00",
+          "error": "HTTP 500"
+        }
+      ],
+      "evidence": [],
+      "rejectedCandidates": [
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/Klipsch/comments/1hx317y/clicks_and_pops_come_from_flexus_core_200_after/",
+          "title": "Clicks and pops come from Flexus Core 200 after connecting subwoofer via RCA",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-29",
+          "sourceExcerpt": "原頁樓主與多位 Flexus Core 200 使用者回報，使用 RCA 有線重低音輸出時會出現 click、pop 或 thump 聲。",
+          "independentAuthors": 11,
+          "specificReason": "可辨識 11 位 exact-model 使用者，但所有同一爆音症狀都在 Reddit 這一個原始網站，未達跨 2 個網站門檻。",
+          "reason": "可辨識 11 位 exact-model 使用者，但所有同一爆音症狀都在 Reddit 這一個原始網站，未達跨 2 個網站門檻。"
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/Soundbars/comments/1sjzegp/klipsch_flexus_core_200_popping_noises_from_sub/",
+          "title": "Klipsch Flexus Core 200 popping noises from sub",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-29",
+          "sourceExcerpt": "另一篇原頁有 4 位 Flexus Core 200 使用者談到重低音爆音，其中至少一位也出現在前一篇討論。",
+          "independentAuthors": 4,
+          "specificReason": "候選仍只來自 Reddit，且與前一篇存在跨文重複作者；去重後也沒有第二個原始網站支持同一症狀。",
+          "reason": "候選仍只來自 Reddit，且與前一篇存在跨文重複作者；去重後也沒有第二個原始網站支持同一症狀。"
+        },
+        {
+          "platform": "Mobile01",
+          "url": "https://www.mobile01.com/topicdetail.php?f=348&t=7207167",
+          "title": "Klipsch Flexus Core 200 使用問題",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-29",
+          "sourceExcerpt": "Mobile01 一位 Core 200 使用者回報 Dolby Digital Plus 時中置聲道沒有聲音，切換模式或藍牙後可恢復。",
+          "independentAuthors": 1,
+          "specificReason": "這是單一作者的中置聲道／格式相容候選，與 Reddit 的 RCA 重低音爆音不是同一問題，不能合併計數。",
+          "reason": "這是單一作者的中置聲道／格式相容候選，與 Reddit 的 RCA 重低音爆音不是同一問題，不能合併計數。"
+        }
+      ]
+    },
+    {
+      "id": "soundbar-klipsch-flexus-core-100",
+      "category": "soundbar",
+      "brand": "Klipsch",
+      "model": "Flexus Core 100",
+      "name": "Flexus Core 100 2.1 聲道虛擬 Dolby Atmos 聲霸",
+      "identity": {
+        "canonicalModel": "Flexus Core 100",
+        "lookupLabel": "Klipsch Flexus Core 100",
+        "aliases": [
+          "Klipsch Flexus Core 100"
+        ],
+        "evidenceUrl": "https://www.momoshop.com.tw/product/12737009"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "status": "completed",
+        "decision": "no_common_issue",
+        "reviewedAt": "2026-08-29",
+        "checkedPlatforms": [
+          "Reddit",
+          "Mobile01"
+        ],
+        "queries": [
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"Klipsch Flexus Core 100\" (problem OR issue OR defect OR failure)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Klipsch%20Flexus%20Core%20100%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+            "targetHost": "reddit.com"
+          },
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"Klipsch Flexus Core 100\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Klipsch%20Flexus%20Core%20100%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "mobile01.com"
+          }
+        ],
+        "candidateDisposition": "Flexus Core 100：Reddit 與 Mobile01 各有一位使用者提出主觀音色或複雜內容細節取捨，合計仍遠低於同一問題 6 人門檻。",
+        "representativeSources": [
+          {
+            "platform": "Reddit",
+            "title": "Klipsch Flexus Core 100 - my thoughts",
+            "url": "https://www.reddit.com/r/Soundbars/comments/1ugl3ft/klipsch_flexus_core_100_my_thoughts/"
+          },
+          {
+            "platform": "Mobile01",
+            "title": "Klipsch Flexus Core 100 心得",
+            "url": "https://www.mobile01.com/topicdetail.php?f=348&t=6952165"
+          }
+        ],
+        "candidateReviews": [
+          {
+            "platform": "Reddit",
+            "url": "https://www.reddit.com/r/Soundbars/comments/1ugl3ft/klipsch_flexus_core_100_my_thoughts/",
+            "title": "Klipsch Flexus Core 100 - my thoughts",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-08-29",
+            "sourceExcerpt": "一位 Core 100 使用者認為音色偏平、音樂高頻與細節較弱，屬於個人聽感評價。",
+            "independentAuthors": 1,
+            "specificReason": "只有 1 位 exact-model 使用者，且內容屬主觀調音偏好，不足以成立 6 位使用者的集中硬體或韌體問題。"
+          },
+          {
+            "platform": "Mobile01",
+            "url": "https://www.mobile01.com/topicdetail.php?f=348&t=6952165",
+            "title": "Klipsch Flexus Core 100 心得",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-08-29",
+            "sourceExcerpt": "一位 Mobile01 使用者認為複雜內容的細節不如傳統喇叭系統，但整體評價仍超過八十分。",
+            "independentAuthors": 1,
+            "specificReason": "只有 1 位 exact-model 評測者，描述的是系統取捨而非明確故障；跨站合計也未達 6 位同一問題使用者。"
+          }
+        ],
+        "reviewerNote": "Flexus Core 100：已人工覆核 Reddit 與 Mobile01 原頁；只見少數主觀取捨，未達同一問題 6 人門檻。",
+        "attestation": "manual_original_pages_reviewed"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-08-29",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"Klipsch Flexus Core 100\" (problem OR issue OR defect OR failure)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Klipsch%20Flexus%20Core%20100%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+            "targetHost": "reddit.com"
+          },
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"Klipsch Flexus Core 100\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Klipsch%20Flexus%20Core%20100%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "mobile01.com"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "Yahoo Search",
+          "query": "(\"Klipsch Flexus Core 100\") (problem OR issue OR defect OR failure OR 災情 OR 故障 OR 負評) (site:mobile01.com OR site:dcard.tw OR site:ptt.cc OR site:reddit.com OR site:snbforums.com OR site:52asus.com)",
+          "searchUrl": "https://search.yahoo.com/search?p=(%22Klipsch%20Flexus%20Core%20100%22)%20(problem%20OR%20issue%20OR%20defect%20OR%20failure%20OR%20%E7%81%BD%E6%83%85%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)%20(site%3Amobile01.com%20OR%20site%3Adcard.tw%20OR%20site%3Aptt.cc%20OR%20site%3Areddit.com%20OR%20site%3Asnbforums.com%20OR%20site%3A52asus.com)",
+          "result": "search_unavailable",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-08-29T00:00:00+08:00",
+          "error": "HTTP 500"
+        }
+      ],
+      "evidence": [],
+      "rejectedCandidates": [
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/Soundbars/comments/1ugl3ft/klipsch_flexus_core_100_my_thoughts/",
+          "title": "Klipsch Flexus Core 100 - my thoughts",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-29",
+          "sourceExcerpt": "一位 Core 100 使用者認為音色偏平、音樂高頻與細節較弱，屬於個人聽感評價。",
+          "independentAuthors": 1,
+          "specificReason": "只有 1 位 exact-model 使用者，且內容屬主觀調音偏好，不足以成立 6 位使用者的集中硬體或韌體問題。",
+          "reason": "只有 1 位 exact-model 使用者，且內容屬主觀調音偏好，不足以成立 6 位使用者的集中硬體或韌體問題。"
+        },
+        {
+          "platform": "Mobile01",
+          "url": "https://www.mobile01.com/topicdetail.php?f=348&t=6952165",
+          "title": "Klipsch Flexus Core 100 心得",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-29",
+          "sourceExcerpt": "一位 Mobile01 使用者認為複雜內容的細節不如傳統喇叭系統，但整體評價仍超過八十分。",
+          "independentAuthors": 1,
+          "specificReason": "只有 1 位 exact-model 評測者，描述的是系統取捨而非明確故障；跨站合計也未達 6 位同一問題使用者。",
+          "reason": "只有 1 位 exact-model 評測者，描述的是系統取捨而非明確故障；跨站合計也未達 6 位同一問題使用者。"
+        }
+      ]
+    },
+    {
+      "id": "soundbar-klipsch-flexus-core-300",
+      "category": "soundbar",
+      "brand": "Klipsch",
+      "model": "Flexus Core 300",
+      "name": "Flexus Core 300 5.1.2 聲道 Dirac Live Dolby Atmos 聲霸",
+      "identity": {
+        "canonicalModel": "Flexus Core 300",
+        "lookupLabel": "Klipsch Flexus Core 300",
+        "aliases": [
+          "Klipsch Flexus Core 300"
+        ],
+        "evidenceUrl": "https://www.momoshop.com.tw/product/14043582"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "status": "completed",
+        "decision": "no_common_issue",
+        "reviewedAt": "2026-08-29",
+        "checkedPlatforms": [
+          "Reddit",
+          "Mobile01"
+        ],
+        "queries": [
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"Klipsch Flexus Core 300\" (problem OR issue OR defect OR failure)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Klipsch%20Flexus%20Core%20300%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+            "targetHost": "reddit.com"
+          },
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"Klipsch Flexus Core 300\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Klipsch%20Flexus%20Core%20300%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "mobile01.com"
+          }
+        ],
+        "candidateDisposition": "Flexus Core 300：Reddit 只見少數 CEC 電源連動或早期連線候選，Mobile01 查詢未找到第二個原始網站的同症狀回報。",
+        "representativeSources": [
+          {
+            "platform": "Reddit",
+            "title": "Apple TV 4K and Klipsch Flexus Core 300 power on issue",
+            "url": "https://www.reddit.com/r/Soundbars/comments/1v99hjr/apple_tv_4k_and_klipsch_flexus_core_300_power_on/"
+          },
+          {
+            "platform": "Reddit",
+            "title": "Klipsch Flexus Core 300 - 2nd try",
+            "url": "https://www.reddit.com/r/Soundbars/comments/1qxplqp/klipsch_flexus_core_300_2nd_try/"
+          }
+        ],
+        "candidateReviews": [
+          {
+            "platform": "Reddit",
+            "url": "https://www.reddit.com/r/Soundbars/comments/1v99hjr/apple_tv_4k_and_klipsch_flexus_core_300_power_on/",
+            "title": "Apple TV 4K and Klipsch Flexus Core 300 power on issue",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-08-29",
+            "sourceExcerpt": "原頁有 2 位 Core 300 使用者談到 Apple TV／電視開機時的 HDMI CEC 電源連動問題。",
+            "independentAuthors": 2,
+            "specificReason": "只有 2 位 exact-model 使用者，且候選全部來自 Reddit；沒有第二個原始網站可支持同一 CEC 症狀。"
+          },
+          {
+            "platform": "Reddit",
+            "url": "https://www.reddit.com/r/Soundbars/comments/1qxplqp/klipsch_flexus_core_300_2nd_try/",
+            "title": "Klipsch Flexus Core 300 - 2nd try",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-08-29",
+            "sourceExcerpt": "一位 Core 300 使用者提到先前機器有連線問題，換機與韌體更新後第二次嘗試已改善。",
+            "independentAuthors": 1,
+            "specificReason": "只有 1 位 exact-model 使用者，且描述的早期連線問題已在換機或更新後改善；仍未跨第二個原始網站。"
+          }
+        ],
+        "reviewerNote": "Flexus Core 300：已人工覆核 Reddit 候選並完成 Mobile01 跨站查詢；未達同一問題 6 人及 2 個原始網站門檻。",
+        "attestation": "manual_original_pages_reviewed"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-08-29",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"Klipsch Flexus Core 300\" (problem OR issue OR defect OR failure)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Klipsch%20Flexus%20Core%20300%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+            "targetHost": "reddit.com"
+          },
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"Klipsch Flexus Core 300\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Klipsch%20Flexus%20Core%20300%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "mobile01.com"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "Yahoo Search",
+          "query": "(\"Klipsch Flexus Core 300\") (problem OR issue OR defect OR failure OR 災情 OR 故障 OR 負評) (site:mobile01.com OR site:dcard.tw OR site:ptt.cc OR site:reddit.com OR site:snbforums.com OR site:52asus.com)",
+          "searchUrl": "https://search.yahoo.com/search?p=(%22Klipsch%20Flexus%20Core%20300%22)%20(problem%20OR%20issue%20OR%20defect%20OR%20failure%20OR%20%E7%81%BD%E6%83%85%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)%20(site%3Amobile01.com%20OR%20site%3Adcard.tw%20OR%20site%3Aptt.cc%20OR%20site%3Areddit.com%20OR%20site%3Asnbforums.com%20OR%20site%3A52asus.com)",
+          "result": "search_unavailable",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-08-29T00:00:00+08:00",
+          "error": "HTTP 500"
+        }
+      ],
+      "evidence": [],
+      "rejectedCandidates": [
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/Soundbars/comments/1v99hjr/apple_tv_4k_and_klipsch_flexus_core_300_power_on/",
+          "title": "Apple TV 4K and Klipsch Flexus Core 300 power on issue",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-29",
+          "sourceExcerpt": "原頁有 2 位 Core 300 使用者談到 Apple TV／電視開機時的 HDMI CEC 電源連動問題。",
+          "independentAuthors": 2,
+          "specificReason": "只有 2 位 exact-model 使用者，且候選全部來自 Reddit；沒有第二個原始網站可支持同一 CEC 症狀。",
+          "reason": "只有 2 位 exact-model 使用者，且候選全部來自 Reddit；沒有第二個原始網站可支持同一 CEC 症狀。"
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/Soundbars/comments/1qxplqp/klipsch_flexus_core_300_2nd_try/",
+          "title": "Klipsch Flexus Core 300 - 2nd try",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-29",
+          "sourceExcerpt": "一位 Core 300 使用者提到先前機器有連線問題，換機與韌體更新後第二次嘗試已改善。",
+          "independentAuthors": 1,
+          "specificReason": "只有 1 位 exact-model 使用者，且描述的早期連線問題已在換機或更新後改善；仍未跨第二個原始網站。",
+          "reason": "只有 1 位 exact-model 使用者，且描述的早期連線問題已在換機或更新後改善；仍未跨第二個原始網站。"
         }
       ]
     },

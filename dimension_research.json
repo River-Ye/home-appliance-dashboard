@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-28",
+  "generatedAt": "2026-08-29",
   "sourcePolicy": "電視、Soundbar、洗衣機、烘衣機、洗烘衣機、電子衣櫥、冰箱、咖啡機、多功能氣炸烤箱／微波爐、洗碗機、免治馬桶、冷氣、熱水器與網路交換器共 14 類尺寸，以及電視、Soundbar、咖啡機、多功能氣炸烤箱／微波爐、冷氣與熱水器共 6 類重量研究，皆優先採 exact-model 官方產品頁、官方規格表或官方 PDF，其次為可信新品通路。只採本體／機身／明確組件的尺寸與淨重，排除包裝、外箱尺寸與毛重；來源沒有明示寬／深／高順序時不自行推定。冷氣分列室內機與室外機，熱泵複合熱水器必須分列主機與儲槽；既有各類研究列仍沿用相同 exact-model 邊界。",
   "results": [
     {
@@ -1106,6 +1106,57 @@
       "weightConfidence": "high",
       "weightIsOfficialSource": true,
       "weightCheckedAt": "2026-08-20"
+    },
+    {
+      "id": "soundbar-klipsch-flexus-core-200",
+      "dimension": "尺寸：主機 寬 111.8 x 深 12.6 x 高 7.8 cm",
+      "sourceUrl": "https://assets.klipsch.com/product-specsheets/Flexus-Core-200-Spec-Sheet-v08.pdf",
+      "sourceTitle": "Klipsch Flexus Core 200 Official Spec Sheet v08",
+      "evidenceSnippet": "官方 exact-model 規格表列 H 7.8 x W 111.8 x D 12.6 cm；依官方標示轉為網站寬、深、高格式，未採外箱尺寸。",
+      "confidence": "high",
+      "isOfficialSource": true,
+      "checkedAt": "2026-08-29",
+      "weight": "重量：主機 8.5 kg",
+      "weightSourceUrl": "https://assets.klipsch.com/product-specsheets/Flexus-Core-200-Spec-Sheet-v08.pdf",
+      "weightSourceTitle": "Klipsch Flexus Core 200 Official Spec Sheet v08",
+      "weightEvidenceSnippet": "官方 exact-model 規格表列主機重量 8.5 kg；未採包裝或毛重。",
+      "weightConfidence": "high",
+      "weightIsOfficialSource": true,
+      "weightCheckedAt": "2026-08-29"
+    },
+    {
+      "id": "soundbar-klipsch-flexus-core-100",
+      "dimension": "尺寸：主機 寬 71.1 x 深 12.7 x 高 7.6 cm",
+      "sourceUrl": "https://d2um2qdswy1tb0.cloudfront.net/spec-sheets/Flexus-Core-100-Spec-Sheet-v10b.pdf",
+      "sourceTitle": "Klipsch Flexus Core 100 Official Spec Sheet v10b",
+      "evidenceSnippet": "官方 exact-model 規格表列 H 76 x W 711 x D 127 mm；換算為 cm 並依官方標示轉為網站寬、深、高格式，未採外箱尺寸。",
+      "confidence": "high",
+      "isOfficialSource": true,
+      "checkedAt": "2026-08-29",
+      "weight": "重量：主機 4.54 kg",
+      "weightSourceUrl": "https://d2um2qdswy1tb0.cloudfront.net/spec-sheets/Flexus-Core-100-Spec-Sheet-v10b.pdf",
+      "weightSourceTitle": "Klipsch Flexus Core 100 Official Spec Sheet v10b",
+      "weightEvidenceSnippet": "官方 exact-model 規格表列主機重量 4.54 kg；未採包裝或毛重。",
+      "weightConfidence": "high",
+      "weightIsOfficialSource": true,
+      "weightCheckedAt": "2026-08-29"
+    },
+    {
+      "id": "soundbar-klipsch-flexus-core-300",
+      "dimension": "尺寸：主機 寬 137.2 x 深 12.6 x 高 7.8 cm",
+      "sourceUrl": "https://d2um2qdswy1tb0.cloudfront.net/spec-sheets/Flexus-Core-300-Spec-Sheet-v08.pdf",
+      "sourceTitle": "Klipsch Flexus Core 300 Official Spec Sheet v08",
+      "evidenceSnippet": "官方 exact-model v08 規格表列 H 7.8 x W 137.2 x D 12.6 cm；依官方標示轉為網站寬、深、高格式，未採早期發表資料或外箱尺寸。",
+      "confidence": "high",
+      "isOfficialSource": true,
+      "checkedAt": "2026-08-29",
+      "weight": "重量：主機 8.5 kg",
+      "weightSourceUrl": "https://d2um2qdswy1tb0.cloudfront.net/spec-sheets/Flexus-Core-300-Spec-Sheet-v08.pdf",
+      "weightSourceTitle": "Klipsch Flexus Core 300 Official Spec Sheet v08",
+      "weightEvidenceSnippet": "官方 exact-model v08 規格表列主機重量 8.5 kg；未採早期初步規格、包裝或毛重。",
+      "weightConfidence": "high",
+      "weightIsOfficialSource": true,
+      "weightCheckedAt": "2026-08-29"
     },
     {
       "id": "aircon-hitachi-ras-22ntb-rac-22np",

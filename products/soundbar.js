@@ -2868,6 +2868,277 @@
       "AirPlay 2",
       "Chromecast"
     ]
+  },
+  {
+    "id": "soundbar-klipsch-flexus-core-200",
+    "category": "soundbar",
+    "rank": 30,
+    "topPick": false,
+    "budget": "mid",
+    "channel": "tw",
+    "brand": "Klipsch",
+    "model": "Flexus Core 200",
+    "name": "Flexus Core 200 3.1.2 聲道 Dolby Atmos 聲霸",
+    "price": {
+      "currency": "TWD",
+      "amount": 14399,
+      "converted": 14399,
+      "confidence": "Costco 好市多台灣於 2026-08-29 的 exact-model 可購公開售價 NT$14,399",
+      "basis": "retailer_current"
+    },
+    "installation": {
+      "status": "not_stated",
+      "note": "Costco 商品價只含聲霸主機；原廠規格表明列隨附 L 型壁掛支架與安裝五金，但到府與壁掛施工未包含，Flexus 重低音與後環繞需另購。"
+    },
+    "image": "https://klipsch.imgix.net/product-images/Klipsch-Flexus-CORE-200-Hero_2000x2000.png?crop=focalpoint&domain=klipsch.imgix.net&fit=crop&fm=webp&fp-x=0.5&fp-y=0.5&h=1000&ixlib=php-3.3.1&q=90&w=1000",
+    "buyUrl": "https://www.costco.com.tw/Televisions-Appliances/TV-Home-Entertainment/Soundbars-Home-Theater/Klipsch-Flexus-312-Channel-Dolby-Atmos-SoundBar-Core-200/p/148021",
+    "buyLabel": "Costco 好市多台灣 exact-model 新品",
+    "specs": [
+      "3.1.2 聲道；Dolby Atmos；Klipsch 號角中置高音與 2 組天空聲道單體",
+      "185W RMS；頻率響應 43Hz–20kHz；內建 2 組 4 吋低音單體",
+      "HDMI eARC、光纖、USB-C、Bluetooth、RCA Sub Out；沒有額外 HDMI 輸入",
+      "尺寸：主機 寬 111.8 x 深 12.6 x 高 7.8 cm",
+      "重量：主機 8.5 kg",
+      "可加購 Flexus SUB 100／200 與 SURR 100／200；目前價格不含重低音或後環繞"
+    ],
+    "description": "Klipsch 與 Onkyo 合作的模組化 3.1.2 聲道主機，以實體中置、天空聲道和內建雙低音補上品牌缺口，也能日後擴充 Flexus 重低音與後環繞。",
+    "pros": [
+      "實體中置與號角高音有利於電影對白清晰度",
+      "主機內建雙 4 吋低音，未加購重低音也能先使用",
+      "Flexus 同系列重低音與後環繞可分階段擴充"
+    ],
+    "cons": [
+      "沒有額外 HDMI 輸入，訊源需接電視再由 eARC 回傳",
+      "Costco 現價不含重低音與後環繞，完整環繞系統總價會提高",
+      "有線 RCA 重低音爆音候選在 Reddit 可辨識多位 exact-model 使用者，但未跨第二個原始網站，未達集中災情門檻；建議在退換期測試"
+    ],
+    "bestFor": "中型客廳、重視電影對白與 Atmos 高度感，並希望先買主機、日後再加重低音或後環繞的使用者。",
+    "recommendation": "Klipsch 模組化推薦：Core 200 是三款中價格、實體天空聲道與擴充性最均衡的起點。",
+    "releaseDate": "2024-04-08",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-08-29",
+      "note": "已查 Costco、PChome 與台灣 exact-model 比價入口；目前 NT$14,399 為可購現價，未找到帶日期、可公開重現且排除會員個人化優惠的可信新品史低，故不把現價冒充史低。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-08-29",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Klipsch Flexus Core 200\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Klipsch%20Flexus%20Core%20200%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Klipsch Flexus Core 200\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Klipsch%20Flexus%20Core%20200%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        }
+      ]
+    },
+    "score": 90,
+    "voltage": "AC 100–240V／50–60Hz；Costco 台灣現售規格可直接使用台灣 110V／60Hz",
+    "warranty": "Costco 台灣頁標示 1 年保固；代理商與送修流程以賣場資訊為準",
+    "tags": [
+      "3.1.2聲道",
+      "Dolby Atmos",
+      "HDMI eARC",
+      "模組化擴充",
+      "內建雙低音"
+    ]
+  },
+  {
+    "id": "soundbar-klipsch-flexus-core-100",
+    "category": "soundbar",
+    "rank": 31,
+    "topPick": false,
+    "budget": "value",
+    "channel": "tw",
+    "brand": "Klipsch",
+    "model": "Flexus Core 100",
+    "name": "Flexus Core 100 2.1 聲道虛擬 Dolby Atmos 聲霸",
+    "price": {
+      "currency": "TWD",
+      "amount": 9399,
+      "converted": 9399,
+      "confidence": "momo 購物網於 2026-08-29 的 exact-model 頁顯示公開滿 1 件 94 折價 NT$9,399，並標示特惠商品不適用折價券",
+      "basis": "retailer_current"
+    },
+    "installation": {
+      "status": "not_stated",
+      "note": "momo 商品價只含聲霸主機；原廠規格表明列隨附 L 型壁掛支架與安裝五金，但到府與壁掛施工未包含，Flexus 重低音與後環繞需另購。"
+    },
+    "image": "https://klipsch.imgix.net/product-images/Klipsch-Flexus-CORE-100-Hero_2000x2000.png?crop=focalpoint&domain=klipsch.imgix.net&fit=crop&fm=webp&fp-x=0.5&fp-y=0.5&h=1000&ixlib=php-3.3.1&q=90&w=1000",
+    "buyUrl": "https://www.momoshop.com.tw/product/12737009",
+    "buyLabel": "momo 購物網 exact-model 新品",
+    "specs": [
+      "2.1 聲道；Virtualized Dolby Atmos",
+      "100W RMS；頻率響應 45Hz–20kHz；內建 2 組 4 吋低音單體",
+      "HDMI eARC、光纖、USB-C、Bluetooth、RCA Sub Out",
+      "尺寸：主機 寬 71.1 x 深 12.7 x 高 7.6 cm",
+      "重量：主機 4.54 kg",
+      "可加購 Flexus SUB 100／200 與 SURR 100／200；目前價格不含重低音或後環繞"
+    ],
+    "description": "71.1 公分短機身的 Flexus 入門款，以內建雙 4 吋低音和虛擬 Atmos 提供簡潔起步方案，仍保留同系列重低音與後環繞擴充路線。",
+    "pros": [
+      "短機身適合空間有限的電視櫃",
+      "內建雙 4 吋低音，萬元價位即可先建立完整單機系統",
+      "保留 HDMI eARC、藍牙與 Flexus 配件擴充能力"
+    ],
+    "cons": [
+      "虛擬 Atmos 且沒有上射單體，高度感較依賴數位處理與空間反射",
+      "沒有獨立中置聲道，對白定位不如 Core 200／300",
+      "跨 Reddit 與 Mobile01 僅見少數主觀音色或複雜內容細節評論，未達集中災情門檻"
+    ],
+    "bestFor": "小型客廳、臥室或電視櫃寬度有限，想以較低預算進入 Klipsch Flexus 系統的使用者。",
+    "recommendation": "Klipsch 入門推薦：萬元現價換得短機身、內建雙低音與可擴充架構，但不是實體天空聲道方案。",
+    "releaseDate": "2024-04-08",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-08-29",
+      "note": "已查 momo、Yahoo 自營、Costco、PChome 與台灣 exact-model 比價入口；目前公開自動折扣 NT$9,399 為可購現價，未找到帶日期、可公開重現且排除會員個人化優惠的可信新品史低，故不把現價冒充史低。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-08-29",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Klipsch Flexus Core 100\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Klipsch%20Flexus%20Core%20100%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Klipsch Flexus Core 100\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Klipsch%20Flexus%20Core%20100%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        }
+      ]
+    },
+    "score": 86,
+    "voltage": "AC 100–240V／50–60Hz；Costco 台灣現售規格可直接使用台灣 110V／60Hz",
+    "warranty": "momo 台灣頁標示 1 年保固",
+    "tags": [
+      "2.1聲道",
+      "虛擬Dolby Atmos",
+      "HDMI eARC",
+      "短機身",
+      "模組化擴充"
+    ]
+  },
+  {
+    "id": "soundbar-klipsch-flexus-core-300",
+    "category": "soundbar",
+    "rank": 32,
+    "topPick": false,
+    "budget": "premium",
+    "channel": "tw",
+    "brand": "Klipsch",
+    "model": "Flexus Core 300",
+    "name": "Flexus Core 300 5.1.2 聲道 Dirac Live Dolby Atmos 聲霸",
+    "price": {
+      "currency": "TWD",
+      "amount": 42048,
+      "converted": 42048,
+      "confidence": "momo 購物網於 2026-08-29 的 exact-model 釪環公司貨頁顯示公開滿 1 件 96 折價 NT$42,048，並標示特惠商品不適用折價券",
+      "basis": "retailer_current"
+    },
+    "installation": {
+      "status": "not_stated",
+      "note": "momo 商品價只含聲霸主機，未標示含到府或壁掛安裝；原廠 Core 300 壁掛支架、Flexus 重低音、後環繞與施工均需另購或另行確認。"
+    },
+    "image": "https://klipsch.imgix.net/product-images/Klipsch-Flexus-CORE_300-Hero_2000x2000.png?crop=focalpoint&domain=klipsch.imgix.net&fit=crop&fm=webp&fp-x=0.5&fp-y=0.5&h=1000&ixlib=php-3.3.1&q=90&w=1000",
+    "buyUrl": "https://www.momoshop.com.tw/product/14043582",
+    "buyLabel": "momo 購物網釪環公司貨 exact-model 新品",
+    "specs": [
+      "5.1.2 聲道；Dolby Atmos；Dirac Live 房間校正；共 13 組單體",
+      "4 組內建 4 吋低音單體；頻率響應 43Hz–20kHz",
+      "HDMI 2.1 輸入直通與 HDMI eARC；Wi-Fi、AirPlay、Google Cast、Spotify Connect、TIDAL Connect、Bluetooth、光纖、USB-C、RCA Sub Out",
+      "尺寸：主機 寬 137.2 x 深 12.6 x 高 7.8 cm",
+      "重量：主機 8.5 kg",
+      "可加購 Flexus SUB 100／200 與 SURR 100／200；目前價格不含重低音或後環繞"
+    ],
+    "description": "Flexus 旗艦主機以 5.1.2 聲道、側向單體、四組內建低音與 Dirac Live 校正提高單機包圍感，並加入 HDMI 輸入與網路串流。",
+    "pros": [
+      "Dirac Live 可依房間量測修正頻率與時間響應",
+      "13 組單體、側向聲道與四組內建低音提供三款中最完整的單機規格",
+      "額外 HDMI 輸入與 Wi-Fi 串流比 Core 100／200 完整"
+    ],
+    "cons": [
+      "137.2 公分機身需先確認電視櫃寬度，且可能遮擋低腳座電視",
+      "NT$42,048 現價仍不含實體後環繞與獨立重低音",
+      "目前只在 Reddit 找到少數 exact-model CEC／連線候選，未跨第二個原始網站，未達集中災情門檻；建議在退換期測試 HDMI 連動"
+    ],
+    "bestFor": "較大客廳、願意為房間校正、完整單機聲場與網路串流付費，並可能日後擴充實體後環繞的使用者。",
+    "recommendation": "Klipsch 旗艦推薦：Core 300 適合重視 Dirac 與單機聲場者；若只需要對白與 Atmos，Core 200 的價格更容易平衡。",
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-08-29",
+      "note": "已查 momo、Yahoo 自營、PChome、台灣 exact-model 比價入口與套裝頁；目前公開自動折扣 NT$42,048 為可購現價，未找到帶日期、可公開重現且排除會員個人化優惠與套裝差異的可信新品史低，故不把現價冒充史低。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-08-29",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Klipsch Flexus Core 300\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Klipsch%20Flexus%20Core%20300%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Klipsch Flexus Core 300\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Klipsch%20Flexus%20Core%20300%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        }
+      ]
+    },
+    "score": 92,
+    "voltage": "AC 100–240V／50–60Hz；台灣釪環公司貨可直接使用台灣 110V／60Hz",
+    "warranty": "釪環台灣公司貨 1 年保固",
+    "tags": [
+      "5.1.2聲道",
+      "Dolby Atmos",
+      "Dirac Live",
+      "HDMI 2.1輸入",
+      "AirPlay",
+      "Google Cast"
+    ]
   }
 ]);
 })();

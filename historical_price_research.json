@@ -1,13 +1,13 @@
 {
   "summary": {
     "checkedAt": "2026-08-29T00:00:00.000+08:00",
-    "sourcePolicy": "2026-08-29 以 916 筆基準清單全量查核公開價格基準（通路現價或明示官方建議售價）、購買連結與可信新品狀態，並複核最終 916 筆商品圖片、全部 493 筆 found 史低來源、原廠停產訊號與同批次匯率。官方建議售價不自動寫成通路現價或史低；PChome exact-model 現貨頁有正值 Price.Low 時採公開折扣價，否則採 Price.P；Qty 0、福利品、展示機與配件不寫回。其他頁面的結構化價格差異列入人工覆核候選，阻擋、暫時錯誤與單次頁面失效只列稽核，不臆測停產或史低失效。",
-    "total": 916,
-    "researchedThisRun": 916,
+    "sourcePolicy": "2026-08-29 以 916 筆基準清單全量查核公開價格基準（通路現價或明示官方建議售價）、購買連結與可信新品狀態，並複核最終 919 筆商品圖片、全部 493 筆 found 史低來源、原廠停產訊號與同批次匯率。官方建議售價不自動寫成通路現價或史低；PChome exact-model 現貨頁有正值 Price.Low 時採公開折扣價，否則採 Price.P；Qty 0、福利品、展示機與配件不寫回。其他頁面的結構化價格差異列入人工覆核候選，阻擋、暫時錯誤與單次頁面失效只列稽核，不臆測停產或史低失效。",
+    "total": 919,
+    "researchedThisRun": 919,
     "found": 493,
-    "missing": 423,
+    "missing": 426,
     "byConfidence": {
-      "not_found": 423,
+      "not_found": 426,
       "high": 324,
       "medium": 169
     },
@@ -21,11 +21,11 @@
       "HKD_TWD": 4.037598648527136,
       "KRW_TWD": 0.022973478508428694
     },
-    "lastMaintenanceCheckAt": "2026-08-29T03:48:34.905Z",
-    "currentPriceChanged": 6,
+    "lastMaintenanceCheckAt": "2026-08-29T07:18:10.782Z",
+    "currentPriceChanged": 0,
     "currentBuyLinkChanged": 0,
     "currentPriceDrops": 0,
-    "currentPriceRises": 6,
+    "currentPriceRises": 0,
     "currentPriceFallbacks": 0,
     "historicalLowUpdated": 0,
     "historicalLowInvalidated": 0,
@@ -33,7 +33,7 @@
     "catalogReplacementNotes": [],
     "currentImageChanged": 0,
     "discontinuedRemoved": 0,
-    "newProductsAdded": 0,
+    "newProductsAdded": 3,
     "discontinuedRemovalNotes": [],
     "catalogEntriesRemoved": 0,
     "catalogRemovalNotes": []
@@ -2942,6 +2942,115 @@
       ],
       "rejectedCandidates": [
         "排除現價冒充史低、會員個人化優惠、信用卡回饋、點數、二手、福利品、展示機、拆封品、整新品、配件與非 exact model；冷氣另排除單一室內機／室外機或安裝範圍不同的價格。"
+      ],
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價"
+    },
+    {
+      "id": "soundbar-klipsch-flexus-core-200",
+      "category": "soundbar",
+      "brand": "Klipsch",
+      "model": "Flexus Core 200",
+      "name": "Flexus Core 200 3.1.2 聲道 Dolby Atmos 聲霸",
+      "currentPrice": 14399,
+      "currentCurrency": "TWD",
+      "currentBuyUrl": "https://www.costco.com.tw/Televisions-Appliances/TV-Home-Entertainment/Soundbars-Home-Theater/Klipsch-Flexus-312-Channel-Dolby-Atmos-SoundBar-Core-200/p/148021",
+      "currentBuyLabel": "Costco 好市多台灣 exact-model 新品",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "TWD",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-08-29",
+        "note": "已查 Costco、PChome 與台灣 exact-model 比價入口；目前 NT$14,399 為可購現價，未找到帶日期、可公開重現且排除會員個人化優惠的可信新品史低，故不把現價冒充史低。"
+      },
+      "checkedSources": [
+        "https://www.costco.com.tw/Televisions-Appliances/TV-Home-Entertainment/Soundbars-Home-Theater/Klipsch-Flexus-312-Channel-Dolby-Atmos-SoundBar-Core-200/p/148021",
+        "https://24h.pchome.com.tw/prod/DMAAO3-A900IJNK7",
+        "https://www.findprice.com.tw/g/Klipsch%20Flexus%20Core%20200"
+      ],
+      "rejectedCandidates": [
+        "Costco 與 PChome 查核日現價只證明目前可購，未提供可重現的日期價格曲線，因此不冒充史低。",
+        "排除會員個人券、信用卡回饋、點數、二手、福利品、展示機、拆封品、整新品、配件、Core 210 套裝與近似型號。"
+      ],
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價"
+    },
+    {
+      "id": "soundbar-klipsch-flexus-core-100",
+      "category": "soundbar",
+      "brand": "Klipsch",
+      "model": "Flexus Core 100",
+      "name": "Flexus Core 100 2.1 聲道虛擬 Dolby Atmos 聲霸",
+      "currentPrice": 9399,
+      "currentCurrency": "TWD",
+      "currentBuyUrl": "https://www.momoshop.com.tw/product/12737009",
+      "currentBuyLabel": "momo 購物網 exact-model 新品",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "TWD",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-08-29",
+        "note": "已查 momo、Yahoo 自營、Costco、PChome 與台灣 exact-model 比價入口；目前公開自動折扣 NT$9,399 為可購現價，未找到帶日期、可公開重現且排除會員個人化優惠的可信新品史低，故不把現價冒充史低。"
+      },
+      "checkedSources": [
+        "https://www.momoshop.com.tw/product/12737009",
+        "https://tw.buy.yahoo.com/gdsale/Klipsch-Flexus-Core-100-2-1%E8%81%B2%E9%81%93Dolby-Atmos%E6%A8%A1%E6%93%AC%E8%81%B2%E9%9C%B8-11015729.html",
+        "https://www.costco.com.tw/Televisions-Appliances/TV-Home-Entertainment/Soundbars-Home-Theater/Klipsch-Flexus-Soundbar-Core-100/p/148022",
+        "https://24h.pchome.com.tw/prod/DMAFP9-A900HDUVY",
+        "https://www.findprice.com.tw/g/Klipsch%20Flexus%20Core%20100"
+      ],
+      "rejectedCandidates": [
+        "momo 公開自動折扣、Yahoo 自營、Costco 與 PChome 查核日現價只證明目前可購，未提供可重現的日期價格曲線，因此不冒充史低。",
+        "排除會員個人券、信用卡回饋、點數、二手、福利品、展示機、拆封品、整新品、配件與近似型號。"
+      ],
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價"
+    },
+    {
+      "id": "soundbar-klipsch-flexus-core-300",
+      "category": "soundbar",
+      "brand": "Klipsch",
+      "model": "Flexus Core 300",
+      "name": "Flexus Core 300 5.1.2 聲道 Dirac Live Dolby Atmos 聲霸",
+      "currentPrice": 42048,
+      "currentCurrency": "TWD",
+      "currentBuyUrl": "https://www.momoshop.com.tw/product/14043582",
+      "currentBuyLabel": "momo 購物網釪環公司貨 exact-model 新品",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "TWD",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-08-29",
+        "note": "已查 momo、Yahoo 自營、PChome、台灣 exact-model 比價入口與套裝頁；目前公開自動折扣 NT$42,048 為可購現價，未找到帶日期、可公開重現且排除會員個人化優惠與套裝差異的可信新品史低，故不把現價冒充史低。"
+      },
+      "checkedSources": [
+        "https://www.momoshop.com.tw/product/14043582",
+        "https://tw.buy.yahoo.com/gdsale/Klipsch-Flexus-Core-300-5-1-2%E8%81%B2%E9%81%93%E5%A4%A9%E7%A9%BA%E8%81%B2%E9%9C%B8-%E9%87%AA%E7%92%B0%E5%85%AC%E5%8F%B8%E8%B2%A8-11629400.html",
+        "https://24h.pchome.com.tw/prod/DMAAOJ-A900IUJQ7",
+        "https://www.findprice.com.tw/g/Klipsch%20Flexus%20Core%20300",
+        "https://www.feebee.com.tw/s/Klipsch%20Flexus%20Core%20300/"
+      ],
+      "rejectedCandidates": [
+        "momo 公開自動折扣、Yahoo 自營與 PChome 查核日現價只證明目前可購，未提供可重現的日期價格曲線，因此不冒充史低。",
+        "排除會員個人券、信用卡回饋、點數、二手、福利品、展示機、拆封品、整新品、SUB／SURR 配件、套裝與近似型號。"
       ],
       "priceBasis": "retailer_current",
       "priceLabel": "通路現價"

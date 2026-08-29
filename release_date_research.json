@@ -1,12 +1,12 @@
 {
   "summary": {
-    "checkedAt": "2026-08-29T08:53:39+08:00",
-    "total": 916,
-    "found": 265,
-    "missing": 651,
+    "checkedAt": "2026-08-29T14:42:38.021+08:00",
+    "total": 919,
+    "found": 267,
+    "missing": 652,
     "byConfidence": {
-      "official": 177,
-      "not_found": 651,
+      "official": 179,
+      "not_found": 652,
       "retailer_explicit": 22,
       "credible_article": 52,
       "high": 12,
@@ -1716,6 +1716,84 @@
       "reason": "Official exact-model availability date.",
       "checkedAt": "2026-08-28",
       "auditDisposition": "retained"
+    },
+    {
+      "id": "soundbar-klipsch-flexus-core-200",
+      "category": "soundbar",
+      "brand": "Klipsch",
+      "model": "Flexus Core 200",
+      "name": "Flexus Core 200 3.1.2 聲道 Dolby Atmos 聲霸",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "2024-04-08",
+      "sourceUrl": "https://cms.klipsch.com/news/klipschs-first-collab-with-onkyo-wins-multiple-awards-introducing-klipsch-flexus-sound-system",
+      "sourceTitle": "Klipsch's First Collab with Onkyo Wins Multiple Awards: Introducing Klipsch Flexus Sound System",
+      "evidenceSnippet": "Klipsch 官方於 2024-04-08 公告 Flexus Sound System 正式推出，並明載 Flexus Core 100 與 Core 200 已可購買。",
+      "confidence": "official",
+      "query": "Klipsch Flexus Core 200 launch available April 8 2024",
+      "auditQueries": [
+        "\"Klipsch Flexus Core 200\" release date launch launched available",
+        "\"Klipsch Flexus Core 200\" 上市 發售 開賣 推出"
+      ],
+      "sourceKind": "official_launch_announcement",
+      "reason": "Official exact-model launch announcement and availability statement.",
+      "checkedAt": "2026-08-29",
+      "auditDisposition": "added"
+    },
+    {
+      "id": "soundbar-klipsch-flexus-core-100",
+      "category": "soundbar",
+      "brand": "Klipsch",
+      "model": "Flexus Core 100",
+      "name": "Flexus Core 100 2.1 聲道虛擬 Dolby Atmos 聲霸",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "2024-04-08",
+      "sourceUrl": "https://cms.klipsch.com/news/klipschs-first-collab-with-onkyo-wins-multiple-awards-introducing-klipsch-flexus-sound-system",
+      "sourceTitle": "Klipsch's First Collab with Onkyo Wins Multiple Awards: Introducing Klipsch Flexus Sound System",
+      "evidenceSnippet": "Klipsch 官方於 2024-04-08 公告 Flexus Sound System 正式推出，並明載 Flexus Core 100 與 Core 200 已可購買。",
+      "confidence": "official",
+      "query": "Klipsch Flexus Core 100 launch available April 8 2024",
+      "auditQueries": [
+        "\"Klipsch Flexus Core 100\" release date launch launched available",
+        "\"Klipsch Flexus Core 100\" 上市 發售 開賣 推出"
+      ],
+      "sourceKind": "official_launch_announcement",
+      "reason": "Official exact-model launch announcement and availability statement.",
+      "checkedAt": "2026-08-29",
+      "auditDisposition": "added"
+    },
+    {
+      "id": "soundbar-klipsch-flexus-core-300",
+      "category": "soundbar",
+      "brand": "Klipsch",
+      "model": "Flexus Core 300",
+      "name": "Flexus Core 300 5.1.2 聲道 Dirac Live Dolby Atmos 聲霸",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "query": "\"Klipsch Flexus Core 300\" release date launch launched available 上市 發售 開賣 推出",
+      "auditQueries": [
+        "\"Klipsch Flexus Core 300\" release date launch launched available",
+        "\"Klipsch Flexus Core 300\" 上市 發售 開賣 推出"
+      ],
+      "sourceKind": "not_found",
+      "reason": "The official 2024-09-03 announcement introduces Core 300 but explicitly says availability was planned for winter; the publication/announcement date is therefore not used as the release date. Current Taiwan retailer pages confirm the exact model but provide no admissible first-sale date.",
+      "checkedAt": "2026-08-29",
+      "auditDisposition": "confirmed_not_found",
+      "checkedSources": [
+        {
+          "url": "https://cms.klipsch.com/news/klipsch-launches-worlds-first-sound-bar-with-dirac-live-room-correction-technology",
+          "title": "Klipsch Launches World's First Sound Bar with Dirac Live Room Correction Technology",
+          "outcome": "The official announcement is dated 2024-09-03 but says Core 300 would be available in winter, so the article date was excluded as the actual release date."
+        },
+        {
+          "url": "https://tw.buy.yahoo.com/gdsale/Klipsch-Flexus-Core-300-5-1-2%E8%81%B2%E9%81%93%E5%A4%A9%E7%A9%BA%E8%81%B2%E9%9C%B8-%E9%87%AA%E7%92%B0%E5%85%AC%E5%8F%B8%E8%B2%A8-11629400.html",
+          "title": "Yahoo 購物中心：Klipsch Flexus Core 300",
+          "outcome": "The current trusted exact-model Taiwan retail page confirms the product but provides no explicit launch or first-sale statement; listing and promotion dates were excluded."
+        }
+      ]
     },
     {
       "id": "fan-panasonic-fh16",

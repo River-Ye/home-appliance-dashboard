@@ -1,9 +1,9 @@
 const EXPECTED_CATEGORY_COUNT = 30;
-const EXPECTED_PRODUCT_COUNT = 916;
+const EXPECTED_PRODUCT_COUNT = 919;
 const MIN_PRODUCTS_PER_CATEGORY = 20;
 const EXPECTED_CATEGORY_PRODUCT_COUNTS = new Map([
   ["tv", 36],
-  ["soundbar", 29],
+  ["soundbar", 32],
   ["fan", 24],
   ["circulator", 23],
   ["dehumidifier", 27],
@@ -37,7 +37,7 @@ const DATE_PATTERN = /^(找不到|\d{4}(?:[-/.]\d{1,2}(?:[-/.]\d{1,2})?)?)$/;
 const WASHER_DRYER_CAPACITY_PATTERN = /^洗\/乾容量：\d+(?:\.\d+)?kg \/ \d+(?:\.\d+)?kg$/;
 const DIMENSION_CATEGORY_COUNTS = new Map([
   ["tv", 36],
-  ["soundbar", 29],
+  ["soundbar", 32],
   ["washer", 26],
   ["dryer", 24],
   ["washerdryer", 31],
@@ -63,7 +63,7 @@ const DIMENSION_PATTERN = new RegExp(`^尺寸：${FORBIDDEN_MEASUREMENT_LABEL_PA
 const DIMENSION_CONFIDENCE_VALUES = new Set(["high", "medium", "low", "not_found"]);
 const WEIGHT_CATEGORY_COUNTS = new Map([
   ["tv", 36],
-  ["soundbar", 29],
+  ["soundbar", 32],
   ["coffee", 24],
   ["oven", 25],
   ["aircon", 30],
