@@ -205,9 +205,9 @@
     "name": "Purifier Cool 二合一涼風智能空氣清淨機",
     "price": {
       "currency": "TWD",
-      "amount": 11900,
-      "converted": 11900,
-      "confidence": "Yahoo購物中心 2026-08-28 exact-model 公開結構化價格"
+      "amount": 11662,
+      "converted": 11662,
+      "confidence": "Yahoo購物中心 2026-08-29 exact-model 公開結構化價格"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAU3CA900K0T3T/000001_1779087672.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/Dyson-%E6%88%B4%E6%A3%AE-Purifier-Cool-%E4%BA%8C%E5%90%88%E4%B8%80%E6%B6%BC%E9%A2%A8%E6%99%BA%E8%83%BD%E7%A9%BA%E6%B0%A3%E6%B8%85%E6%B7%A8%E6%A9%9FTP11-%E7%99%BD%E8%89%B2-12000846.html",
@@ -301,9 +301,9 @@
     "name": "17 坪 360 度高效過濾空氣清淨機",
     "price": {
       "currency": "TWD",
-      "amount": 8888,
-      "converted": 8888,
-      "confidence": "PChome 2026-08-28 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 8176,
+      "converted": 8176,
+      "confidence": "PChome 2026-08-29 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAC2OA900GH5RL/000001_1781800112.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAC2O-A900GH5RL",
@@ -1069,9 +1069,9 @@
     "name": "Purifier Hot+Cool De-NOx 甲醛 NOx 偵測涼暖空氣清淨機",
     "price": {
       "currency": "TWD",
-      "amount": 25900,
-      "converted": 25900,
-      "confidence": "Yahoo購物中心 2026-08-28 exact-model 公開結構化價格"
+      "amount": 25382,
+      "converted": 25382,
+      "confidence": "Yahoo購物中心 2026-08-29 exact-model 公開結構化價格"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAU3CA900I7ORK/000001_1782810487.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/Dyson-Purifier-Hot-Cool-De-NOx-%E7%94%B2%E9%86%9BNOx-%E5%81%B5%E6%B8%AC%E6%B6%BC%E6%9A%96%E7%A9%BA%E6%B0%A3%E6%B8%85%E6%B7%A8%E6%A9%9F-HP1-12000848.html",
@@ -1165,9 +1165,9 @@
     "name": "Purifier Hot+Cool 三合一涼暖智能空氣清淨機",
     "price": {
       "currency": "TWD",
-      "amount": 14900,
-      "converted": 14900,
-      "confidence": "Yahoo購物中心 2026-08-28 exact-model 公開結構化價格"
+      "amount": 14602,
+      "converted": 14602,
+      "confidence": "Yahoo購物中心 2026-08-29 exact-model 公開結構化價格"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAU3CA900J2MV6/000001_1767758338.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/Dyson%E6%88%B4%E6%A3%AE-Purifier-Hot-Cool-%E4%B8%89%E5%90%88%E4%B8%80%E6%B6%BC%E6%9A%96%E6%99%BA%E8%83%BD%E7%A9%BA%E6%B0%A3%E6%B8%85%E6%B7%A8%E6%A9%9F-HP11-%E7%99%BD%E8%89%B2-%E8%B4%88%E7%BE%8E%E9%AB%AE-11937837.html",
@@ -1261,9 +1261,9 @@
     "name": "Purifier Cool De-NOx 甲醛 NOx 偵測涼風空氣清淨機",
     "price": {
       "currency": "TWD",
-      "amount": 20900,
-      "converted": 20900,
-      "confidence": "Yahoo購物中心 2026-08-28 exact-model 公開結構化價格"
+      "amount": 20482,
+      "converted": 20482,
+      "confidence": "Yahoo購物中心 2026-08-29 exact-model 公開結構化價格"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAU3CA900HTKRG/000001_1767758629.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/Dyson-%E6%88%B4%E6%A3%AE-Purifier-Cool-%E7%94%B2%E9%86%9BNOx-%E5%81%B5%E6%B8%AC%E6%B6%BC%E9%A2%A8%E7%A9%BA%E6%B0%A3%E6%B8%85%E6%B7%A8%E6%A9%9FTP12-%E4%BA%8C%E8%89%B2%E5%8F%AF%E9%81%B8-11903396.html",
@@ -1357,9 +1357,9 @@
     "name": "奈米級空氣清淨機 MUJI AC0650",
     "price": {
       "currency": "TWD",
-      "amount": 4990,
-      "converted": 4990,
-      "confidence": "PChome 2026-08-28 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 4590,
+      "converted": 4590,
+      "confidence": "PChome 2026-08-29 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAC2OA900GD1ZV/000001_1781800174.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAC2O-A900GD1ZV",
@@ -1741,9 +1741,9 @@
     "name": "寵物抗敏空氣清淨機輕量版",
     "price": {
       "currency": "TWD",
-      "amount": 10990,
-      "converted": 10990,
-      "confidence": "PChome 2026-08-28 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 10110,
+      "converted": 10110,
+      "confidence": "PChome 2026-08-29 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAC2OA900J7SBO/000001_1781799851.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAC2O-A900J7SBO",
@@ -2228,9 +2228,9 @@
     "name": "迷你奈抗敏奈米級空氣清淨機",
     "price": {
       "currency": "TWD",
-      "amount": 7990,
-      "converted": 7990,
-      "confidence": "PChome 2026-08-28 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 7350,
+      "converted": 7350,
+      "confidence": "PChome 2026-08-29 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://img.pchome.com.tw/cs/items/DMAUFVA900JZR3M/000001_1785203322.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAUFV-A900JZR3M",
@@ -2545,9 +2545,9 @@
     "name": "4–8 坪抗敏系列空氣清淨機",
     "price": {
       "currency": "TWD",
-      "amount": 3240,
-      "converted": 3240,
-      "confidence": "PChome 2026-08-28 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
+      "amount": 3670,
+      "converted": 3670,
+      "confidence": "PChome 2026-08-29 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
       "basis": "retailer_current"
     },
     "installation": {

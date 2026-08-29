@@ -1,12 +1,12 @@
 {
   "summary": {
-    "checkedAt": "2026-08-28T23:59:00+08:00",
-    "total": 914,
-    "found": 264,
-    "missing": 650,
+    "checkedAt": "2026-08-29T08:53:39+08:00",
+    "total": 916,
+    "found": 265,
+    "missing": 651,
     "byConfidence": {
-      "official": 176,
-      "not_found": 650,
+      "official": 177,
+      "not_found": 651,
       "retailer_explicit": 22,
       "credible_article": 52,
       "high": 12,
@@ -7830,6 +7830,84 @@
       "auditQueries": [
         "\"Roborock WD5M14A\" (release OR launch OR 上市 OR 發售)",
         "site:roborock.com \"WD5M14A\" (release OR launch OR 上市 OR 發售)"
+      ]
+    },
+    {
+      "id": "vacuum-xiaomi-mijia-wet-dry-vacuum-5-pro-f302hw",
+      "category": "vacuum",
+      "brand": "Xiaomi",
+      "model": "F302HW",
+      "name": "米家無線洗地機 5 Pro",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "query": "\"Xiaomi F302HW\" (release OR launch OR 上市 OR 發售)",
+      "sourceKind": "not_found_after_full_recheck",
+      "reason": "已以 exact model F302HW 查核 Xiaomi 台灣產品頁與台灣新品活動頁，並交叉查看 momo 小米官方旗艦館同名商品原頁；官方頁可確認型號與規格，momo 可確認同名商品現售但未明示型號，所有來源皆沒有明示 exact-model 上市／發售日期。momo 先前的 2026-08-26 是預計出貨日，不是上市日，依政策排除。",
+      "checkedAt": "2026-08-29",
+      "auditDisposition": "confirmed_not_found",
+      "auditQueries": [
+        "\"Xiaomi F302HW\" (release OR launch OR 上市 OR 發售)",
+        "site:mi.com/tw \"F302HW\" (release OR launch OR 上市 OR 發售)"
+      ],
+      "checkedSources": [
+        {
+          "url": "https://www.mi.com/tw/product/mijia-wireless-wet-dry-vacuum-5-pro/",
+          "title": "米家無線洗地機 5 Pro — Xiaomi 台灣官方產品頁",
+          "outcome": "台灣官方頁可確認商品與功能，但未明示 exact model F302HW 的上市／發售日期。"
+        },
+        {
+          "url": "https://www.mi.com/tw/launch/redmi-note-17-series/",
+          "title": "Xiaomi 台灣新品活動頁",
+          "outcome": "活動頁將本品列在全新吸塵器與洗地機區塊，但沒有把特定日期明確歸屬於 F302HW。"
+        },
+        {
+          "url": "https://www.momoshop.com.tw/product/15540464",
+          "title": "米家無線洗地機 5 Pro — momo 小米官方旗艦館",
+          "outcome": "可確認同名商品與現售資訊，但原頁未明示 F302HW；先前顯示的 2026-08-26 為預計出貨日，依政策不得作為上市日。"
+        }
+      ]
+    },
+    {
+      "id": "vacuum-dyson-pencilwash-wr04-a",
+      "category": "vacuum",
+      "brand": "Dyson",
+      "model": "WR04-A",
+      "name": "PencilWash 鉛筆洗地機",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "2026-02-19",
+      "sourceUrl": "https://www.dyson.com/discover/news/latest/introducing-pencilwash",
+      "sourceTitle": "Introducing Dyson PencilWash — Dyson official news",
+      "evidenceSnippet": "Dyson 官方新聞稿以 London, England - February 19, 2026 為發布標頭並正式發表 PencilWash；台灣官方商城與中華電信 exact-model 頁再確認 WR04-A 為同一正式產品。",
+      "confidence": "official",
+      "query": "\"Dyson PencilWash WR04-A\" (release OR launch OR 上市 OR 發售)",
+      "sourceKind": "official_press_release",
+      "reason": "Dyson 官方新聞稿明確在 2026-02-19 發表 PencilWash；台灣官方商品 SKU 637244-01 與台灣 exact model WR04-A 原頁確認產品身分。此日期代表全球正式發表，不外推為台灣首賣日。",
+      "checkedAt": "2026-08-29",
+      "auditDisposition": "new_found",
+      "auditQueries": [
+        "\"Dyson PencilWash WR04-A\" (release OR launch OR 上市 OR 發售)",
+        "site:dyson.com \"PencilWash\" (release OR launch OR available)"
+      ],
+      "checkedSources": [
+        {
+          "url": "https://www.dyson.com/discover/news/latest/introducing-pencilwash",
+          "title": "Introducing Dyson PencilWash — Dyson official news",
+          "outcome": "官方新聞稿明示 2026-02-19 正式發表 PencilWash，採為全球 release date。"
+        },
+        {
+          "url": "https://shop.dyson.tw/vacuums/wet-and-dry-vacuums/dyson-pencilwash-637244-01",
+          "title": "Dyson PencilWash 637244-01 — Dyson 台灣官方商城",
+          "outcome": "台灣官方商品頁可確認 PencilWash 正式商品身分與現售狀態，但未另列台灣上市日。"
+        },
+        {
+          "url": "https://www.cht.com.tw/home/consumer/mobservice/device/smart-home/000900007030",
+          "title": "Dyson PencilWash WR04-A 970A TW/PH Co — 中華電信",
+          "outcome": "台灣可信通路明示完整 exact model WR04-A 970A TW/PH Co，作為台灣型號身分佐證。"
+        }
       ]
     },
     {

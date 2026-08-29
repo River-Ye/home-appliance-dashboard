@@ -689,9 +689,9 @@
     "name": "8 公升清淨除濕機",
     "price": {
       "currency": "TWD",
-      "amount": 11696,
-      "converted": 11696,
-      "confidence": "Yahoo購物中心 2026-08-26 exact-model 公開結構化價格"
+      "amount": 10899,
+      "converted": 10899,
+      "confidence": "Yahoo購物中心 2026-08-29 exact-model 公開結構化價格"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAU0FA900B1HPU/000001_1782813379.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/Panasonic-%E5%9C%8B%E9%9A%9B%E7%89%8C-8L-HEPA%E6%B8%85%E6%B7%A8%E9%99%A4%E6%BF%95-7996517.html",

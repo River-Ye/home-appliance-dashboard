@@ -17,9 +17,9 @@
     "name": "27 型 2K 180Hz IPS USB-C 電競螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 5218,
-      "converted": 5218,
-      "confidence": "PChome 2026-08-24 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 5068,
+      "converted": 5068,
+      "confidence": "PChome 2026-08-29 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABKBA900JZ3CV/000001_1777866944.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DSABKB-A900JZ3CV",
@@ -400,9 +400,9 @@
     "name": "27 型 FHD 144Hz IPS 電競螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 2990,
-      "converted": 2990,
-      "confidence": "PChome 2026-08-24 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 2840,
+      "converted": 2840,
+      "confidence": "PChome 2026-08-29 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABPDA900JTLEG/000001_1773715062.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DSABPD-A900JTLEG",
@@ -895,9 +895,9 @@
     "name": "27 型 4K USB-C 70W 商務螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 29900,
-      "converted": 29900,
-      "confidence": "PChome 2026-08-24 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 28900,
+      "converted": 28900,
+      "confidence": "PChome 2026-08-29 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABGVA900JG58D/000001_1763013340.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DSABGV-A900JG58D",
@@ -1984,9 +1984,9 @@
     "name": "27 型 4K Thunderbolt USB-C UltraSharp 螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 27888,
-      "converted": 27888,
-      "confidence": "PChome 2026-08-24 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 26888,
+      "converted": 26888,
+      "confidence": "PChome 2026-08-29 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABOLA900IIFQG/000001_1744702043.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DSABOL-A900IIFQG",
@@ -2277,9 +2277,9 @@
     "name": "27 型 WQHD 360Hz QD-OLED 電競螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 18900,
-      "converted": 18900,
-      "confidence": "Yahoo購物中心 2026-08-26 exact-model 公開結構化價格"
+      "amount": 18333,
+      "converted": 18333,
+      "confidence": "Yahoo購物中心 2026-08-29 exact-model 公開結構化價格"
     },
     "image": "https://cs-a.ecimg.tw/items/DSBC1ZA900HE04M/000001_1757303897.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/MSI%E5%BE%AE%E6%98%9F-MPG-271QRX-QD-OLED-27%E5%9E%8B-2K-360Hz-HDR%E9%9B%BB%E7%AB%B6%E8%9E%A2%E5%B9%95-10958143.html",
@@ -2462,9 +2462,9 @@
     "name": "27 型 4K IPS USB-C 人體工學螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 7999,
-      "converted": 7999,
-      "confidence": "PChome 2026-08-21 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 7599,
+      "converted": 7599,
+      "confidence": "PChome 2026-08-29 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABEZA900K1N6R/000001_1782816950.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DSABEZ-A900K1N6R",
@@ -2561,9 +2561,9 @@
     "name": "27 型 4K 160Hz IPS 雙模電競螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 8999,
-      "converted": 8999,
-      "confidence": "PChome 2026-08-24 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 8599,
+      "converted": 8599,
+      "confidence": "PChome 2026-08-29 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABOIA900K129O/000001_1779250013.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DSABOI-A900K129O",
@@ -2943,9 +2943,9 @@
     "name": "32 型 4K 240Hz OLED Alienware 電競螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 33888,
-      "converted": 33888,
-      "confidence": "PChome 2026-08-24 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 32888,
+      "converted": 32888,
+      "confidence": "PChome 2026-08-29 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABOKA900HB1B5/000001_1710325731.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DSABOK-A900HB1B5",
@@ -3328,9 +3328,9 @@
     "name": "34 型 WQHD 180Hz 1500R 曲面電競螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 6888,
-      "converted": 6888,
-      "confidence": "PChome 2026-08-07 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 6488,
+      "converted": 6488,
+      "confidence": "PChome 2026-08-29 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABQRA900JPRWC/000001_1770367990.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DSABQR-A900JPRWC",
@@ -3728,9 +3728,9 @@
     "name": "34 型 Porsche Design 240Hz QD-OLED 曲面螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 31988,
-      "converted": 31988,
-      "confidence": "PChome 2026-08-24 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 30988,
+      "converted": 30988,
+      "confidence": "PChome 2026-08-29 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABQRA900K5BI4/000001_1782298311.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DSABQR-A900K5BI4",
@@ -4428,9 +4428,9 @@
     "name": "49 型 DQHD QD-OLED 144Hz Type-C 曲面螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 32900,
-      "converted": 32900,
-      "confidence": "PChome 2026-08-24 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 31900,
+      "converted": 31900,
+      "confidence": "PChome 2026-08-29 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABPDA900H9PEB/000001_1709257135.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DSABPD-A900H9PEB",
@@ -5248,9 +5248,9 @@
     "name": "32 型 Odyssey G8 G80HS 6K 165Hz／3K 330Hz 電競螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 29900,
-      "converted": 29900,
-      "confidence": "PChome 2026-08-24 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 28900,
+      "converted": 28900,
+      "confidence": "PChome 2026-08-29 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABSKA900K0G32/000001_1778746645.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DSABSK-A900K0G32",

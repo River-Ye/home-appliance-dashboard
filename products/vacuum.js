@@ -2132,8 +2132,8 @@
     "price": {
       "currency": "USD",
       "amount": 679.99,
-      "converted": 21541,
-      "confidence": "Dreame Vacuum Mop US 2026-07-21 原廠公開特價；ExchangeRate-API 2026-08-28 匯率換算"
+      "converted": 21526,
+      "confidence": "Dreame Vacuum Mop US 2026-07-21 原廠公開特價；ExchangeRate-API 2026-08-29 匯率換算"
     },
     "image": "https://m.media-amazon.com/images/I/61Yuy5vtWFL._AC_SL1500_.jpg",
     "buyUrl": "https://vacuummop.dreametech.com/products/aero-ultra-steam-wet-dry-vacuum",
@@ -2172,14 +2172,14 @@
       "status": "found",
       "amount": 679.99,
       "currency": "USD",
-      "converted": 21541,
+      "converted": 21526,
       "sourceUrl": "https://vacuummop.dreametech.com/products/aero-ultra-steam-wet-dry-vacuum",
       "sourceTitle": "Dreame Aero Ultra Steam Wet Dry Vacuum – Dreame Vacuum Mop",
       "evidenceSnippet": "Dreame 原廠美國商品頁於 2026-07-16 公開顯示特價 US$679.99、原價 US$799.99，且可 Add to Cart / Buy It Now。",
       "sourceKind": "official_sale",
       "confidence": "high",
       "checkedAt": "2026-07-16",
-      "note": "新上市商品目前可公開驗證的最低售價；未套用會員碼、信用卡、點數或個人化折扣，且未含國際運費、進口稅、插頭／供電與台灣保固風險；依 2026-08-28 USD/TWD 匯率換算。"
+      "note": "新上市商品目前可公開驗證的最低售價；未套用會員碼、信用卡、點數或個人化折扣，且未含國際運費、進口稅、插頭／供電與台灣保固風險；依 2026-08-29 USD/TWD 匯率換算。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -2707,6 +2707,189 @@
           "platform": "Mobile01",
           "query": "site:mobile01.com \"Roborock WD5M14A\" (災情 OR 問題 OR 故障 OR 負評)",
           "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Roborock%20WD5M14A%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        }
+      ]
+    }
+  },
+  {
+    "id": "vacuum-xiaomi-mijia-wet-dry-vacuum-5-pro-f302hw",
+    "category": "vacuum",
+    "rank": 30,
+    "topPick": false,
+    "budget": "balanced",
+    "channel": "tw",
+    "brand": "Xiaomi",
+    "model": "F302HW",
+    "name": "米家無線洗地機 5 Pro",
+    "price": {
+      "currency": "TWD",
+      "amount": 11499,
+      "converted": 11499,
+      "confidence": "Xiaomi 台灣官方規格頁將米家無線洗地機 5 Pro 綁定 F302HW；momo 小米官方旗艦館同名台灣新品頁於 2026-08-29 顯示 NT$11,499、in stock，通路原頁未明示型號",
+      "basis": "retailer_current"
+    },
+    "image": "https://i4.momoshop.com.tw/1786613003/goodsimg/0015/540/464/15540464_R_m.webp",
+    "buyUrl": "https://www.momoshop.com.tw/product/15540464",
+    "buyLabel": "momo購物（小米官方旗艦館）",
+    "installation": {
+      "status": "not_stated",
+      "note": "官方與通路未列到府安裝；本品為手持洗地機，使用者需依原廠說明放置 F302HW-JZ 清潔基座、注水，並於每次使用後清理污水箱與固液分離件。"
+    },
+    "specs": [
+      "類型：無線乾濕兩用蒸氣洗地機",
+      "26,000Pa 吸力、400RPM 滾刷；鍋爐出口蒸氣最高 160°C",
+      "標準／蒸氣／吸水／強勁四模式；吸水模式最長約 40 分鐘",
+      "100°C 熱水自清潔；5 分鐘快速高溫烘乾；標準烘乾噪音不高於 45dB(A)",
+      "清水箱 1,000mL、污水箱 700mL；固液分離、雙側貼邊與 PPA 防纏繞",
+      "180° 平躺；機身尺寸 292 x 265 x 1,140mm；淨重 6.1kg",
+      "主機 F302HW 額定功率 400W；清潔基座 F302HW-JZ 輸入 110–120V、50/60Hz，額定功率 1,000W"
+    ],
+    "description": "米家台灣正式款蒸氣洗地機，以 26,000Pa、160°C 鍋爐出口蒸氣、100°C 熱洗與快速烘乾，補進現有目錄缺少的萬元級高規格蒸氣洗地選項。",
+    "pros": [
+      "NT$11,499 即有 26,000Pa、蒸氣、100°C 熱水自清潔與快速烘乾，規格價格比突出",
+      "1L 清水箱、最長 40 分鐘、雙側貼邊與防纏設計適合較大硬地板空間",
+      "台灣官方規格明示 110–120V／50–60Hz，並有台灣售後保固"
+    ],
+    "cons": [
+      "主機 6.1kg、基座 2.3kg，搬樓層與固定收納負擔明顯",
+      "官方 FAQ 說明蒸氣約需 40 秒預熱且輸出會逐步減少，較適合局部頑垢而非全屋連續蒸氣",
+      "污水箱、固液分離件與滾刷仍需每次清理；滾刷、濾網屬持續耗材",
+      "台灣主機／清潔基座保固僅 1 年，且新品尚缺長期價格與使用者口碑"
+    ],
+    "bestFor": "硬地板比例高、家有寵物或幼兒、常處理油污與黏性污漬，且能接受較重機身與每次清潔維護的家庭。",
+    "recommendation": "蒸氣洗地 CP 值推薦：NT$11,499 提供 26,000Pa、160°C 蒸氣、100°C 熱洗與快速烘乾；但 6.1kg、1 年保固與新機長期口碑空白，先不列 Top Pick。",
+    "score": 88,
+    "voltage": "清潔基座 F302HW-JZ 輸入 110–120V、50/60Hz；台灣官方規格與公司貨通路均可核對",
+    "warranty": "Xiaomi 台灣保固：主機 F302HW／清潔基座 F302HW-JZ 1 年、電源線 6 個月；滾刷與濾網等耗材不保固",
+    "tags": [
+      "26,000Pa",
+      "160°C 蒸氣",
+      "100°C 熱洗",
+      "快速烘乾",
+      "180° 平躺"
+    ],
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-08-29",
+      "note": "已查 Xiaomi 台灣 F302HW 官方規格頁、momo 官方旗艦館同名現售頁、LBJ exact-model 查詢、FindPrice 與 Yahoo 購物；只能以官方型號頁與同名通路頁交叉確認 NT$11,499 當期公開價，沒有具日期且可重現的可信新品歷史曲線。momo 先前標示的 2026-08-26 是預計出貨日，不是價格最低點日期，現價不得推定為史低。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-08-29",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Xiaomi F302HW\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Xiaomi%20F302HW%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Xiaomi F302HW\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Xiaomi%20F302HW%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        }
+      ]
+    }
+  },
+  {
+    "id": "vacuum-dyson-pencilwash-wr04-a",
+    "category": "vacuum",
+    "rank": 31,
+    "topPick": false,
+    "budget": "balanced",
+    "channel": "tw",
+    "brand": "Dyson",
+    "model": "WR04-A",
+    "name": "PencilWash 鉛筆洗地機",
+    "price": {
+      "currency": "TWD",
+      "amount": 12900,
+      "converted": 12900,
+      "confidence": "Dyson 台灣官方商城 2026-08-29 exact product/SKU 637244-01 顯示單購 NT$12,900、全新現貨並可加入購物車",
+      "basis": "retailer_current"
+    },
+    "image": "https://dysonshop.blob.core.windows.net/products/dyson-pencilwash/hero-1780482874-480x480.jpg",
+    "buyUrl": "https://shop.dyson.tw/vacuums/wet-and-dry-vacuums/dyson-pencilwash-637244-01",
+    "buyLabel": "Dyson 台灣官方商城",
+    "installation": {
+      "status": "not_stated",
+      "note": "官方商城未列到府安裝；本品為手持硬地板洗地機，使用者需依說明書組裝握把、放置充電座，並於每次使用後清洗水箱、吸頭與滾筒。"
+    },
+    "specs": [
+      "類型：硬質地板乾濕洗地機；以滾筒帶走髒污，不是乾式真空吸塵器",
+      "每平方公分 64,000 根高密度纖維滾筒；自動／強效兩種供水模式",
+      "最長約 30 分鐘；清水箱 300mL、污水箱 340mL；單箱約可清潔 100m²（約 30 坪）",
+      "38mm 窄握把、可 170° 平躺；手持負重約 380g",
+      "機身尺寸 267 x 198 x 1,155mm；淨重 2.2kg；充電約 3.5 小時",
+      "台灣 exact model WR04-A（通路完整標示 WR04-A 970A TW/PH Co）；110V、BSMI R31692"
+    ],
+    "description": "Dyson 台灣正式款超輕量硬地板洗地機，以 2.2kg、約 380g 手持負重、38mm 窄握把與 170° 平躺，補進現有洗地機缺少的低操作負擔專用選項。",
+    "pros": [
+      "2.2kg 機身、約 380g 手持負重，和現有 5–6kg 洗地機形成明確差異",
+      "38mm 窄握把與 170° 平躺適合小宅、低矮家具與窄小收納",
+      "台灣官方現貨、110V exact model 與 2 年原廠服務資料完整",
+      "清水持續供應滾筒，可同時處理硬地板上的輕量乾濕髒污"
+    ],
+    "cons": [
+      "不是有真空吸力的乾式吸塵器，僅適用硬質地板，不能取代家中乾吸主力機",
+      "未提供自清潔或熱風烘乾行程，使用後需拆洗吸頭、滾筒並充分風乾",
+      "300／340mL 水箱與 30 分鐘續航較適合日常小範圍清潔，不是大坪數深度清潔首選"
+    ],
+    "bestFor": "已擁有乾式吸塵器、硬地板為主的小宅，重視低手持負擔與窄小收納，並願意每次手動清洗滾筒的人。",
+    "recommendation": "輕量專用洗地推薦：適合已有乾式吸塵器、把低手持負擔與窄小收納擺第一順位的家庭；它不是有吸力的全能洗地吸塵器，也沒有自清潔烘乾，因此不列 Top Pick。",
+    "score": 83,
+    "voltage": "110V 台灣公司貨；中華電信 exact-model 頁明示 WR04-A 970A TW/PH Co、110V 與 BSMI R31692",
+    "warranty": "Dyson 台灣原廠 2 年服務保固，官方條款明示包含零件與人工",
+    "tags": [
+      "2.2kg",
+      "380g 手持負重",
+      "170° 平躺",
+      "硬地板洗地",
+      "小宅收納"
+    ],
+    "releaseDate": "2026-02-19",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-08-29",
+      "note": "已查 Dyson 台灣官方商城、momo exact product/SKU、LBJ exact-model 與 FindPrice；Dyson、momo 與可信比價只證明本輪 NT$12,900 現價，沒有可重現的最低點日期。排除一般個人賣場 NT$9,800 與中華電信綁約方案價，現價不得推定為史低。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-08-29",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Dyson WR04-A\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Dyson%20WR04-A%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Dyson WR04-A\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Dyson%20WR04-A%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
         }
       ]

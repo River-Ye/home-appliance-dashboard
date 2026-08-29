@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-08-28",
+  "checkedAt": "2026-08-29",
   "methodVersion": 3,
   "policy": "每筆決策須保存 exact-model 跨站查詢與人工 attestation；每個搜尋候選須逐頁保存摘要、獨立作者數與具體排除理由，研究工具不得自行生成拒絕結論。",
   "results": [
@@ -16005,6 +16005,70 @@
       "candidateDisposition": "WD5M14A：逐列覆核 Reddit 與 Mobile01 兩組 exact-model 搜尋，兩站均無可回到原頁的 WD5M14A 負面候選，未達同一問題 6 人／2 個原始網站。",
       "representativeSources": [],
       "reviewerNote": "WD5M14A：已人工查看兩組 exact-model 搜尋結果；沒有原頁候選，no_common_issue 只代表查無達門檻的集中負評，不代表完全沒有個別負評。",
+      "attestation": "manual_cross_site_search_reviewed_no_candidate",
+      "candidateReviews": []
+    },
+    {
+      "id": "vacuum-xiaomi-mijia-wet-dry-vacuum-5-pro-f302hw",
+      "category": "vacuum",
+      "brand": "Xiaomi",
+      "model": "F302HW",
+      "reviewedAt": "2026-08-29",
+      "reviewBatch": "vacuum",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "Reddit",
+        "Mobile01"
+      ],
+      "queries": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Xiaomi F302HW\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Xiaomi%20F302HW%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Xiaomi F302HW\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Xiaomi%20F302HW%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        }
+      ],
+      "candidateDisposition": "F302HW：Reddit 與 Mobile01 exact-model 查詢均無可回到原頁的第一人稱問題候選；Price.com.hk exact-model 頁顯示使用者評論 0，Xiaomi 官方 FAQ 的水痕、噪音、重量與偵測排解屬廠商支援內容而非使用者回報，均不計入 6 人／2 站門檻。",
+      "representativeSources": [],
+      "reviewerNote": "F302HW：已人工查看 Reddit 與 Mobile01 兩組 exact-model 搜尋，未發現可計入的原始使用者候選；no_common_issue 只表示查無達門檻的集中負評，不代表完全沒有個別問題。",
+      "attestation": "manual_cross_site_search_reviewed_no_candidate",
+      "candidateReviews": []
+    },
+    {
+      "id": "vacuum-dyson-pencilwash-wr04-a",
+      "category": "vacuum",
+      "brand": "Dyson",
+      "model": "WR04-A",
+      "reviewedAt": "2026-08-29",
+      "reviewBatch": "vacuum",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "Reddit",
+        "Mobile01"
+      ],
+      "queries": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Dyson WR04-A\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Dyson%20WR04-A%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Dyson WR04-A\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Dyson%20WR04-A%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        }
+      ],
+      "candidateDisposition": "WR04-A：Reddit 與 Mobile01 exact-model 查詢均無可計入的 WR04-A 原頁候選；同名海外討論未證實台灣 exact model，於型號邊界排除，不計入 6 人／2 個原始網站門檻。",
+      "representativeSources": [],
+      "reviewerNote": "WR04-A：已人工查看 Reddit 與 Mobile01 兩組 exact-model 搜尋，沒有可計入的台灣 exact-model 原頁候選；型號未確認的同名海外討論不形成 common_issue。",
       "attestation": "manual_cross_site_search_reviewed_no_candidate",
       "candidateReviews": []
     },

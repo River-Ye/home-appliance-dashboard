@@ -1085,9 +1085,9 @@
     "name": "5.1 聲道 Soundbar 家庭劇院組",
     "price": {
       "currency": "TWD",
-      "amount": 9016,
-      "converted": 9016,
-      "confidence": "Yahoo購物中心 2026-08-28 exact-model 公開結構化價格"
+      "amount": 8541,
+      "converted": 8541,
+      "confidence": "Yahoo購物中心 2026-08-29 exact-model 公開結構化價格"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBM1DA900GHTFE/000001_1776774078.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/SONY-%E7%B4%A2%E5%B0%BC-5-1-%E8%81%B2%E9%81%93-SOUNDBAR-%E5%AE%B6%E5%BA%AD%E5%8A%87%E9%99%A2%E7%B5%84-HT-S40R-10067449.html",
@@ -1967,9 +1967,9 @@
     "name": "Fidelio 7.1.2 Dolby Atmos 旗艦聲霸",
     "price": {
       "currency": "TWD",
-      "amount": 38900,
-      "converted": 38900,
-      "confidence": "PChome 2026-07-31 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 34930,
+      "converted": 34930,
+      "confidence": "PChome 2026-08-29 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAF02A900H2G5R/000001_1704612188.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAF02-A900H2G5R",
@@ -2004,16 +2004,16 @@
     "releaseDate": "2022",
     "historicalLow": {
       "status": "found",
-      "amount": 35010,
+      "amount": 34930,
       "currency": "TWD",
-      "converted": 35010,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1277745007&cgp=35010",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：PHILIPS飛利浦 7.1.2聲道 重低音聲霸喇叭 TAFB1/96 天空聲道",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Yahoo購物中心 / PHILIPS飛利浦 7.1.2聲道 重低音聲霸喇叭 TAFB1/96 天空聲道」最低價為 NT$35,010，最低點日期 2026-07-09。",
-      "sourceKind": "price_history",
+      "converted": 34930,
+      "sourceUrl": "https://24h.pchome.com.tw/prod/DMAF02-A900H2G5R",
+      "sourceTitle": "PChome 24h 購物：飛利浦 PHILIPS TAFB1/96 Fidelio Soundbar 7.1.2聲道Dolby Atmos IMAX 無線家庭劇院旗艦級聲霸音響",
+      "evidenceSnippet": "PChome 24h 購物於 2026-08-29 顯示同型號可信新品公開價 NT$34,930，低於既有史低 NT$35,010。",
+      "sourceKind": "retailer_page",
       "confidence": "medium",
-      "checkedAt": "2026-07-09",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+      "checkedAt": "2026-08-29",
+      "note": "採用 PChome 24h 購物當日可購商品的同型號新品公開價；不含會員券、點數、信用卡回饋、二手、福利、展示、拆封或整新品。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -2066,8 +2066,8 @@
     "price": {
       "currency": "USD",
       "amount": 1299.99,
-      "converted": 41182,
-      "confidence": "Marshall US 2026-07-21 來源價；ExchangeRate-API 2026-08-28 匯率換算"
+      "converted": 41153,
+      "confidence": "Marshall US 2026-07-21 來源價；ExchangeRate-API 2026-08-29 匯率換算"
     },
     "image": "https://images.ctfassets.net/javen7msabdh/2C2sn9CKoKFdIyd94Gm9z5/f3019d4e721511167ebe5c229bf490dd/heston-120_plp.jpg",
     "buyUrl": "https://www.marshall.com/us/en/product/heston-120",
@@ -2166,8 +2166,8 @@
     "price": {
       "currency": "USD",
       "amount": 699.99,
-      "converted": 22175,
-      "confidence": "Marshall US 官方 2026-07-21 現貨價；ExchangeRate-API 2026-08-28 匯率換算"
+      "converted": 22159,
+      "confidence": "Marshall US 官方 2026-07-21 現貨價；ExchangeRate-API 2026-08-29 匯率換算"
     },
     "image": "https://images.ctfassets.net/javen7msabdh/3yitHqjPBTgQk5qRE72PSn/2788206646aa153f71f2c0ebefaff580/Heston-60-black_plp_800x800-v3.jpeg",
     "buyUrl": "https://www.marshall.com/us/en/product/heston-60?pid=1008949",
@@ -2604,14 +2604,14 @@
       "status": "found",
       "amount": 176091,
       "currency": "JPY",
-      "converted": 35012,
+      "converted": 34856,
       "sourceUrl": "https://kakaku.com/item/K0001712395/pricehistory/",
       "sourceTitle": "価格.com：JBL BAR 1300MK2 [ブラック] 価格推移",
       "evidenceSnippet": "価格.com 日別價格歷史顯示 exact-model「JBL BAR 1300MK2 [ブラック]」於 2026-06-17 的新品最低價為 ¥176,091；2025-10 初始價格為 ¥205,306。",
       "sourceKind": "price_history",
       "confidence": "medium",
       "checkedAt": "2026-08-25",
-      "note": "採日本市場 exact-model 公開價格歷史並依 2026-08-28 JPY/TWD 匯率換算；未含國際運費、進口稅、插頭／電壓確認與台灣保固風險。官方規格雖為 100-240V，海外購入仍非台灣公司貨。"
+      "note": "採日本市場 exact-model 公開價格歷史並依 2026-08-29 JPY/TWD 匯率換算；未含國際運費、進口稅、插頭／電壓確認與台灣保固風險。官方規格雖為 100-240V，海外購入仍非台灣公司貨。"
     },
     "issueResearch": {
       "status": "no_common_issue",

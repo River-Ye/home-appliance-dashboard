@@ -1,9 +1,9 @@
 {
   "summary": {
-    "checkedAt": "2026-08-28T00:00:00+08:00",
-    "total": 914,
+    "checkedAt": "2026-08-29T08:53:39+08:00",
+    "total": 916,
     "commonIssueProducts": 39,
-    "noCommonIssueProducts": 875,
+    "noCommonIssueProducts": 877,
     "pendingManualReview": 0,
     "commonIssues": 39,
     "searchUnavailable": 1,
@@ -47203,6 +47203,186 @@
           "candidateUrls": [],
           "candidates": [],
           "inspectedAt": "2026-08-26T00:00:00+08:00"
+        }
+      ],
+      "evidence": [],
+      "rejectedCandidates": []
+    },
+    {
+      "id": "vacuum-xiaomi-mijia-wet-dry-vacuum-5-pro-f302hw",
+      "category": "vacuum",
+      "brand": "Xiaomi",
+      "model": "F302HW",
+      "name": "米家無線洗地機 5 Pro",
+      "identity": {
+        "canonicalModel": "F302HW",
+        "lookupLabel": "Xiaomi F302HW",
+        "aliases": [
+          "Xiaomi F302HW",
+          "F302HW",
+          "米家無線洗地機 5 Pro"
+        ],
+        "evidenceUrl": "https://www.mi.com/tw/product/mijia-wireless-wet-dry-vacuum-5-pro/specs/"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "status": "completed",
+        "decision": "no_common_issue",
+        "reviewedAt": "2026-08-29",
+        "checkedPlatforms": [
+          "Reddit",
+          "Mobile01"
+        ],
+        "queries": [
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"Xiaomi F302HW\" (problem OR issue OR defect OR failure)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Xiaomi%20F302HW%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+            "targetHost": "reddit.com"
+          },
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"Xiaomi F302HW\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Xiaomi%20F302HW%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "mobile01.com"
+          }
+        ],
+        "candidateDisposition": "F302HW：Reddit 與 Mobile01 exact-model 查詢均無可回到原頁的第一人稱問題候選；Price.com.hk exact-model 頁顯示使用者評論 0，Xiaomi 官方 FAQ 的水痕、噪音、重量與偵測排解屬廠商支援內容而非使用者回報，均不計入 6 人／2 站門檻。",
+        "representativeSources": [],
+        "candidateReviews": [],
+        "reviewerNote": "F302HW：已人工查看 Reddit 與 Mobile01 兩組 exact-model 搜尋，未發現可計入的原始使用者候選；no_common_issue 只表示查無達門檻的集中負評，不代表完全沒有個別問題。",
+        "attestation": "manual_cross_site_search_reviewed_no_candidate"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-08-29",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"Xiaomi F302HW\" (problem OR issue OR defect OR failure)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Xiaomi%20F302HW%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+            "targetHost": "reddit.com"
+          },
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"Xiaomi F302HW\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Xiaomi%20F302HW%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "mobile01.com"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "Bing Search → Reddit",
+          "query": "site:reddit.com \"Xiaomi F302HW\" (problem OR issue OR defect OR failure)",
+          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Xiaomi%20F302HW%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-08-29T08:53:39+08:00"
+        },
+        {
+          "platform": "Bing Search → Mobile01",
+          "query": "site:mobile01.com \"Xiaomi F302HW\" (災情 OR 問題 OR 故障 OR 負評)",
+          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Xiaomi%20F302HW%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-08-29T08:53:39+08:00"
+        }
+      ],
+      "evidence": [],
+      "rejectedCandidates": []
+    },
+    {
+      "id": "vacuum-dyson-pencilwash-wr04-a",
+      "category": "vacuum",
+      "brand": "Dyson",
+      "model": "WR04-A",
+      "name": "PencilWash 鉛筆洗地機",
+      "identity": {
+        "canonicalModel": "WR04-A",
+        "lookupLabel": "Dyson WR04-A",
+        "aliases": [
+          "Dyson WR04-A",
+          "WR04-A",
+          "Dyson PencilWash"
+        ],
+        "evidenceUrl": "https://www.cht.com.tw/home/consumer/mobservice/device/smart-home/000900007030"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "status": "completed",
+        "decision": "no_common_issue",
+        "reviewedAt": "2026-08-29",
+        "checkedPlatforms": [
+          "Reddit",
+          "Mobile01"
+        ],
+        "queries": [
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"Dyson WR04-A\" (problem OR issue OR defect OR failure)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Dyson%20WR04-A%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+            "targetHost": "reddit.com"
+          },
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"Dyson WR04-A\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Dyson%20WR04-A%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "mobile01.com"
+          }
+        ],
+        "candidateDisposition": "WR04-A：Reddit 與 Mobile01 exact-model 查詢均無可計入的 WR04-A 原頁候選；同名海外討論未證實台灣 exact model，於型號邊界排除，不計入 6 人／2 個原始網站門檻。",
+        "representativeSources": [],
+        "candidateReviews": [],
+        "reviewerNote": "WR04-A：已人工查看 Reddit 與 Mobile01 兩組 exact-model 搜尋，沒有可計入的台灣 exact-model 原頁候選；型號未確認的同名海外討論不形成 common_issue。",
+        "attestation": "manual_cross_site_search_reviewed_no_candidate"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-08-29",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"Dyson WR04-A\" (problem OR issue OR defect OR failure)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Dyson%20WR04-A%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+            "targetHost": "reddit.com"
+          },
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"Dyson WR04-A\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Dyson%20WR04-A%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "mobile01.com"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "Bing Search → Reddit",
+          "query": "site:reddit.com \"Dyson WR04-A\" (problem OR issue OR defect OR failure)",
+          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Dyson%20WR04-A%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-08-29T08:53:39+08:00"
+        },
+        {
+          "platform": "Bing Search → Mobile01",
+          "query": "site:mobile01.com \"Dyson WR04-A\" (災情 OR 問題 OR 故障 OR 負評)",
+          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Dyson%20WR04-A%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-08-29T08:53:39+08:00"
         }
       ],
       "evidence": [],
