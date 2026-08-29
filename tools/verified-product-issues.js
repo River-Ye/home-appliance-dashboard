@@ -2,7 +2,7 @@ const reportLedger = require("../product_issue_report_evidence.json");
 const { canonicalWebsite, normalize } = require("./product-issue-validation");
 
 const CHECKED_AT = "2026-08-29";
-const DEFAULT_EVIDENCE_CHECKED_AT = "2026-07-10";
+const DEFAULT_EVIDENCE_CHECKED_AT = "2026-08-29";
 const REVIEW_DATE_PATTERN = /^\d{4}-\d{2}-\d{2}$/;
 
 function isValidReviewDate(value) {
@@ -464,6 +464,30 @@ const verifiedRows = [
         url: "https://community.synology.com/enu/forum/2/post/163298",
         authors: ["straso78", "mably", "jerboa", "luckylukelondon"],
         evidenceSnippet: "四位 WRX560 使用者回報頻繁斷線、錯誤密碼或 Wi-Fi 服務失效，重啟只能短暫改善。",
+      },
+    ],
+  },
+  {
+    id: "wifi-synology-rt6600ax",
+    checkedAt: "2026-08-29",
+    summary: "多位 RT6600ax 使用者回報 5GHz 無線涵蓋與吞吐異常偏低，近距離或隔一面牆即大幅降速，部分甚至掉線。",
+    title: "5GHz 無線涵蓋與吞吐異常偏低",
+    detail: "回報集中在 2022 年早期韌體；Synology 曾提供小型修補，部分案例改善、另有使用者表示未改善。建議先更新最新穩定 SRM，並在退換貨期以 5GHz-1／5GHz-2、隔牆與遠距離實測。",
+    reportCount: 6,
+    sources: [
+      {
+        platform: "Reddit",
+        title: "RT6600ax HORRIBLE wireless performance compared with RT2600ac",
+        url: "https://www.reddit.com/r/synology/comments/vom2ch/rt6600ax_horrible_wireless_performance_compared/",
+        authors: ["d0cx", "Appropriate_Map_3572", "crismasjay", "PNWalpha", "VoltPug"],
+        evidenceSnippet: "五位 RT6600ax 使用者回報 5GHz 涵蓋與吞吐明顯偏低，部分隔牆或短距離即大幅降速或掉線。",
+      },
+      {
+        platform: "SNBForums",
+        title: "Synology RT6600AX",
+        url: "https://www.snbforums.com/threads/synology-rt6600ax.78823/",
+        authors: ["hyelton"],
+        evidenceSnippet: "使用者比較 RT6600ax 與既有路由器後，回報 5GHz 遠距離涵蓋明顯較弱、難以維持連線。",
       },
     ],
   },
@@ -1220,7 +1244,7 @@ const verifiedRows = [
   },
   {
     id: "robot-ecovacs-t80-omni",
-    checkedAt: "2026-07-11",
+    checkedAt: "2026-08-29",
     summary: "多位 DEEBOT T80 OMNI 使用者跨站回報，拖地後滾筒、機內污水箱或水路容易產生明顯異味，需要頻繁清洗與晾乾。",
     title: "拖地後滾筒／污水路徑異味",
     detail: "回報涵蓋滾筒拖布、機內污水箱與清潔縫隙；部分可藉由清洗、晾乾或清潔錠暫時改善，也有污水未正常排空而送修仍未解決的案例。若對異味敏感，應在退換貨期內連續測試拖地、基站排水與烘乾，並依原廠方式清潔水路。",
@@ -1265,7 +1289,7 @@ const verifiedRows = [
   },
   {
     id: "robot-ecovacs-t90-pro",
-    checkedAt: "2026-08-18",
+    checkedAt: "2026-08-29",
     summary: "多位 DEEBOT T90 PRO OMNI 使用者跨站回報，導航／避障會跳過或拒絕清掃實際可到達的區域。",
     title: "導航／避障跳過可到達區域",
     detail: "回報包含漏掃房間邊緣、整塊地毯、局部區域與可通過的家具兩側，也有物件移走後仍繞開舊位置的情況；部分可透過調整 AIVI、另建區域或重新建圖改善。建議在退換貨期內以全屋不同地面連續測試，確認地圖與實際覆蓋範圍。",
@@ -1317,7 +1341,7 @@ const verifiedRows = [
   },
   {
     id: "monitor-msi-271qrx",
-    checkedAt: "2026-08-18",
+    checkedAt: "2026-08-29",
     summary: "多位 MPG 271QRX 使用者跨站回報，使用中會隨機短暫黑屏，約一至數秒後自行恢復。",
     title: "隨機短暫黑屏後自行恢復",
     detail: "回報涵蓋不同更新率、DisplayPort 與 HDMI 情境，部分換線、更新韌體或調整系統設定後仍發生；現有證據不足以判定單一根因。建議在退換貨期內以實際顯卡、線材、HDR 與更新率長時間測試。",
@@ -1341,7 +1365,7 @@ const verifiedRows = [
   },
   {
     id: "wifi-unifi-u6-pro",
-    checkedAt: "2026-08-18",
+    checkedAt: "2026-08-29",
     summary: "多位 U6 Pro 使用者跨站回報，特定批次在屏蔽網路線或接地金屬安裝下會漏電、產生火花或斷電重啟。",
     title: "特定批次接地／STP 造成漏電、火花或斷電重啟",
     detail: "Ubiquiti 官方公告 2022 年 6 至 8 月製造的特定批次與 STP 網路線不相容，可能持續重啟或無法上電；使用者原頁另記錄外殼／網路線屏蔽帶電、安裝時火花及 PoE 中斷。官方稱後續製造已修正；買二手或舊庫存時仍應核對製造日期，並依現場接地與布線條件測試。",
@@ -1363,10 +1387,55 @@ const verifiedRows = [
       },
     ],
   },
+  {
+    id: "wifi-unifi-u6-pro",
+    checkedAt: "2026-08-29",
+    summary: "多位 U6 Pro 使用者跨站回報，中央燈環蓋會在未受外力時自行脫落，常見固定卡榫或塑膠柱斷裂。",
+    title: "中央蓋／卡榫自行脫落",
+    detail: "回報涵蓋吊頂後約一年半至三年的設備，部分中央蓋落下時砸到人；若仍在保固期應優先申請 RMA，過保設備則需檢查卡榫、避免蓋板再度墜落，並留意自行黏合可能影響後續維修。",
+    reportCount: 8,
+    sources: [
+      {
+        platform: "Reddit",
+        title: "U6-Pro lids falling off — Is this a widespread manufacturing defect?",
+        url: "https://www.reddit.com/r/UNIFI/comments/1qayv1k/u6pro_lids_falling_off_is_this_a_widespread/",
+        authors: ["gregstrawberries", "ArchimedesMP"],
+        evidenceSnippet: "兩位 U6 Pro 使用者回報吊頂且沒有外力的設備中央蓋自行落下，其中一人已有兩台先後發生。",
+      },
+      {
+        platform: "Reddit",
+        title: "Center cap fell out of my U6-Pro",
+        url: "https://www.reddit.com/r/UNIFI/comments/1f4ao57/center_cap_fell_out_of_my_u6pro/",
+        authors: ["JimmyReagan", "scotty83"],
+        evidenceSnippet: "兩位 U6 Pro 使用者回報設備安裝後未再碰觸，中央卡榫仍自行碎裂並讓蓋板脫落。",
+      },
+      {
+        platform: "Reddit",
+        title: "U6 Access Point Cap Broken",
+        url: "https://www.reddit.com/r/Ubiquiti/comments/14mq3bx/u6_access_point_cap_broken/",
+        authors: ["TrevorPerth", "outie2k"],
+        evidenceSnippet: "兩位 U6 Pro 使用者回報固定卡榫無外力斷裂，中央蓋自行掉落，其中一例砸到使用者頭部。",
+      },
+      {
+        platform: "Ubiquiti Community",
+        title: "Unifi U6-Pro Falling Apart",
+        url: "https://community.ui.com/questions/Unifi-U6-Pro-Falling-Apart/f080c0df-d004-47be-8724-d52494b58f5b",
+        authors: ["Statecowboy"],
+        evidenceSnippet: "使用者回報客廳天花板上的 U6 Pro 中央燈環蓋自行掉落，設備剛過保固。",
+      },
+      {
+        platform: "Ubiquiti Community",
+        title: "U6 Pro Cap Broken - COMPLAINT",
+        url: "https://community.ui.com/questions/U6-Pro-Cap-Broken-COMPLAINT/0682ca4d-645b-49db-ac47-5571ffeca795",
+        authors: ["thpap"],
+        evidenceSnippet: "使用者回報 U6 Pro 中央蓋自行從天花板落下，塑膠固定柱已斷裂，過保後 RMA 未獲受理。",
+      },
+    ],
+  },
 ];
 
-if (new Set(verifiedRows.map((row) => row.id)).size !== verifiedRows.length) {
-  throw new Error("Duplicate product IDs in verified product issue evidence");
+if (new Set(verifiedRows.map((row) => `${row.id}\n${row.title}`)).size !== verifiedRows.length) {
+  throw new Error("Duplicate product issue rows in verified product issue evidence");
 }
 
 function verifiedRowCheckedAt(row) {
@@ -1377,18 +1446,23 @@ function verifiedRowCheckedAt(row) {
   return checkedAt;
 }
 
-const verifiedIssueById = new Map(verifiedRows.map((row) => [row.id, {
+const verifiedRowsById = new Map();
+for (const row of verifiedRows) {
+  const rows = verifiedRowsById.get(row.id) || [];
+  rows.push(row);
+  verifiedRowsById.set(row.id, rows);
+}
+
+const verifiedIssueById = new Map([...verifiedRowsById].map(([id, rows]) => [id, {
   status: "common_issue",
-  checkedAt: verifiedRowCheckedAt(row),
-  summary: row.summary,
-  issues: [
-    {
-      title: row.title,
-      detail: row.detail,
-      reportCount: row.reportCount,
-      sources: row.sources.map(({ platform, title, url }) => ({ platform, title, url })),
-    },
-  ],
+  checkedAt: rows.map(verifiedRowCheckedAt).sort().at(-1),
+  summary: rows.map((row) => row.summary).join(""),
+  issues: rows.map((row) => ({
+    title: row.title,
+    detail: row.detail,
+    reportCount: row.reportCount,
+    sources: row.sources.map(({ platform, title, url }) => ({ platform, title, url })),
+  })),
 }]));
 
 if (reportLedger.checkedAt !== CHECKED_AT || !Array.isArray(reportLedger.reports)) {
@@ -1498,7 +1572,7 @@ function sourceReports(row, source) {
   }));
 }
 
-const evidenceById = new Map(verifiedRows.map((row) => [row.id, row.sources.map((source) => {
+const evidenceRowsByRow = new Map(verifiedRows.map((row) => [row, row.sources.map((source) => {
   const reports = sourceReports(row, source);
   return {
     issueTitle: row.title,
@@ -1513,8 +1587,13 @@ const evidenceById = new Map(verifiedRows.map((row) => [row.id, row.sources.map(
   };
 })]));
 
+const evidenceById = new Map();
 for (const row of verifiedRows) {
-  const evidenceRows = evidenceById.get(row.id) || [];
+  evidenceById.set(row.id, [...(evidenceById.get(row.id) || []), ...evidenceRowsByRow.get(row)]);
+}
+
+for (const row of verifiedRows) {
+  const evidenceRows = evidenceRowsByRow.get(row) || [];
   const websites = new Set(evidenceRows.map((evidence) => canonicalWebsite(evidence.url)).filter(Boolean));
   if (websites.size < 2) throw new Error(`Verified issue does not span two independent websites: ${row.id}`);
 
