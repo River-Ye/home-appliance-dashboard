@@ -17,9 +17,9 @@
     "name": "16 公升高效型變頻除濕機",
     "price": {
       "currency": "TWD",
-      "amount": 14872,
-      "converted": 14872,
-      "confidence": "PChome 2026-08-27 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 15210,
+      "converted": 15210,
+      "confidence": "PChome 2026-08-30 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ3PA900J0L88/000001_1776323540.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBQ3P-A900J0L88",
@@ -785,9 +785,9 @@
     "name": "9 公升除濕機",
     "price": {
       "currency": "TWD",
-      "amount": 8263,
-      "converted": 8263,
-      "confidence": "PChome 2026-08-27 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 8451,
+      "converted": 8451,
+      "confidence": "PChome 2026-08-30 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ00A900JB38A/000001_1776329911.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBQ00-A900JB38A",
@@ -881,9 +881,9 @@
     "name": "PuriCare WiFi 變頻除濕機粉紅 16 公升",
     "price": {
       "currency": "TWD",
-      "amount": 14111,
-      "converted": 14111,
-      "confidence": "PChome 2026-08-06 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 14900,
+      "converted": 14900,
+      "confidence": "PChome 2026-08-30 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ07A900HQ3L5/000001_1761827365.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBQ07-A900HQ3L5",
@@ -1649,9 +1649,9 @@
     "name": "6L 除濕機",
     "price": {
       "currency": "TWD",
-      "amount": 5095,
-      "converted": 5095,
-      "confidence": "PChome 2026-08-27 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 5211,
+      "converted": 5211,
+      "confidence": "PChome 2026-08-30 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ3PA900J9FH9/000001_1776325410.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBQ3P-A900J9FH9",

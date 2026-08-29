@@ -205,9 +205,9 @@
     "name": "Purifier Cool 二合一涼風智能空氣清淨機",
     "price": {
       "currency": "TWD",
-      "amount": 11900,
-      "converted": 11900,
-      "confidence": "Yahoo購物中心 2026-08-29 exact-model 公開結構化價格"
+      "amount": 11662,
+      "converted": 11662,
+      "confidence": "Yahoo購物中心 2026-08-30 exact-model 公開結構化價格"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAU3CA900K0T3T/000001_1779087672.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/Dyson-%E6%88%B4%E6%A3%AE-Purifier-Cool-%E4%BA%8C%E5%90%88%E4%B8%80%E6%B6%BC%E9%A2%A8%E6%99%BA%E8%83%BD%E7%A9%BA%E6%B0%A3%E6%B8%85%E6%B7%A8%E6%A9%9FTP11-%E7%99%BD%E8%89%B2-12000846.html",
@@ -1069,9 +1069,9 @@
     "name": "Purifier Hot+Cool De-NOx 甲醛 NOx 偵測涼暖空氣清淨機",
     "price": {
       "currency": "TWD",
-      "amount": 25900,
-      "converted": 25900,
-      "confidence": "Yahoo購物中心 2026-08-29 exact-model 公開結構化價格"
+      "amount": 25382,
+      "converted": 25382,
+      "confidence": "Yahoo購物中心 2026-08-30 exact-model 公開結構化價格"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAU3CA900I7ORK/000001_1782810487.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/Dyson-Purifier-Hot-Cool-De-NOx-%E7%94%B2%E9%86%9BNOx-%E5%81%B5%E6%B8%AC%E6%B6%BC%E6%9A%96%E7%A9%BA%E6%B0%A3%E6%B8%85%E6%B7%A8%E6%A9%9F-HP1-12000848.html",
@@ -1165,9 +1165,9 @@
     "name": "Purifier Hot+Cool 三合一涼暖智能空氣清淨機",
     "price": {
       "currency": "TWD",
-      "amount": 14900,
-      "converted": 14900,
-      "confidence": "Yahoo購物中心 2026-08-29 exact-model 公開結構化價格"
+      "amount": 14602,
+      "converted": 14602,
+      "confidence": "Yahoo購物中心 2026-08-30 exact-model 公開結構化價格"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAU3CA900J2MV6/000001_1767758338.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/Dyson%E6%88%B4%E6%A3%AE-Purifier-Hot-Cool-%E4%B8%89%E5%90%88%E4%B8%80%E6%B6%BC%E6%9A%96%E6%99%BA%E8%83%BD%E7%A9%BA%E6%B0%A3%E6%B8%85%E6%B7%A8%E6%A9%9F-HP11-%E7%99%BD%E8%89%B2-%E8%B4%88%E7%BE%8E%E9%AB%AE-11937837.html",
@@ -1261,9 +1261,9 @@
     "name": "Purifier Cool De-NOx 甲醛 NOx 偵測涼風空氣清淨機",
     "price": {
       "currency": "TWD",
-      "amount": 20900,
-      "converted": 20900,
-      "confidence": "Yahoo購物中心 2026-08-29 exact-model 公開結構化價格"
+      "amount": 20482,
+      "converted": 20482,
+      "confidence": "Yahoo購物中心 2026-08-30 exact-model 公開結構化價格"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAU3CA900HTKRG/000001_1767758629.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/Dyson-%E6%88%B4%E6%A3%AE-Purifier-Cool-%E7%94%B2%E9%86%9BNOx-%E5%81%B5%E6%B8%AC%E6%B6%BC%E9%A2%A8%E7%A9%BA%E6%B0%A3%E6%B8%85%E6%B7%A8%E6%A9%9FTP12-%E4%BA%8C%E8%89%B2%E5%8F%AF%E9%81%B8-11903396.html",
@@ -2640,6 +2640,97 @@
       "小房間",
       "平價"
     ]
+  },
+  {
+    "id": "purifier-xiaomi-ac-m25-sc",
+    "category": "purifier",
+    "rank": 28,
+    "topPick": false,
+    "budget": "value",
+    "channel": "tw",
+    "brand": "Xiaomi",
+    "model": "AC-M25-SC",
+    "name": "米家智慧空氣清淨機 6",
+    "price": {
+      "currency": "TWD",
+      "amount": 5580,
+      "converted": 5580,
+      "confidence": "momo 小米官方授權代理頁 2026-08-30 明列 AC-M25-SC、新品現貨、NT$5,580 與一年保固",
+      "basis": "retailer_current"
+    },
+    "image": "https://i1.momoshop.com.tw/1786110782/goodsimg/0015/189/670/15189670_R_m.webp",
+    "buyUrl": "https://www.momoshop.com.tw/product/15189670",
+    "buyLabel": "momo 小米官方授權代理新品",
+    "installation": {
+      "status": "not_stated",
+      "note": "momo exact-model 頁未列到府安裝；本品為可移動式清淨機，首次使用需拆除濾芯包裝、保留進出風空間並核對台灣公司貨機身銘牌。"
+    },
+    "specs": [
+      "台灣通路標示適用 10–15 坪；Xiaomi 全球頁標示有效涵蓋 29–50 m²",
+      "顆粒 CADR：測試值 443 m³/h（Xiaomi 全球頁與 momo 台灣頁）；多語說明書額定 PCADR 420 m³/h",
+      "PM1、PM2.5、粗顆粒、溫度與濕度五感測系統；LCD 彩色顯示",
+      "五層複合淨化：初效、高效濾芯、活性碳、UVC 紫外線與負離子",
+      "Xiaomi Home App、2.4GHz Wi-Fi、Alexa／Google Assistant（視區域與語言可用性）",
+      "尺寸：寬 25 x 深 25 x 高 55.5 cm；淨重約 5.2 kg；額定功率 40W；睡眠模式約 32 dB(A)",
+      "100–240V／50–60Hz（多語含繁中說明書）；Xiaomi 全球規格頁另列 200–240V，購買後應核對台灣公司貨銘牌"
+    ],
+    "description": "AC-M25-SC 用高風量、五感測、UVC 與負離子補進六千元內智慧清淨機；但 Xiaomi 區域文件的輸入電壓不一致，台灣購入後須以實機銘牌為準。",
+    "pros": [
+      "443 m³/h 測試 CADR 與 29–50 m² 有效涵蓋對中型空間有價格競爭力",
+      "PM1／PM2.5／粗顆粒加溫濕度感測，能用彩色螢幕與 App 查看狀態",
+      "UVC、負離子與活性碳比單純顆粒過濾的功能完整"
+    ],
+    "cons": [
+      "多語含繁中說明書列 100–240V，Xiaomi 全球規格頁卻列 200–240V，必須核對台灣機身銘牌",
+      "濾芯 6–12 個月建議週期會受粉塵、寵物與運轉時數影響，長期耗材要另編預算",
+      "AC-M25-SC 在部分海外頁面稱空氣淨化器 5，跨區價格、電壓與評論不能直接等同台灣版清淨機 6"
+    ],
+    "bestFor": "預算約六千元、空間約 10–15 坪，想把顆粒感測、App、UVC 與負離子整合在同一台機器的家庭。",
+    "recommendation": "新品高 CP 候選：AC-M25-SC 的風量與感測功能完整，但台灣長期口碑尚少且區域電壓文件有差異，先不取代既有 Top Pick。",
+    "score": 88,
+    "voltage": "100–240V／50–60Hz（多語含繁中說明書；全球規格頁另列 200–240V，購買後核對台灣公司貨銘牌）",
+    "warranty": "台灣 momo 小米官方授權代理新品頁明列一年保固；實際送修與耗材條件依代理商保證書",
+    "tags": [
+      "10-15坪",
+      "CADR測試值443",
+      "PM1感測",
+      "UVC",
+      "Xiaomi Home"
+    ],
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-08-30",
+      "note": "已查 momo exact-model 台灣公司貨新品頁、momo 8/28 開賣活動頁、FindPrice、BigGo 與 LBJ exact-model 入口。momo NT$5,580 和活動頁 NT$6,999 只能證明查核時現價，FindPrice 又混入部分海外／中國市場的米家淨化器 5。未取得可公開重現、具日期且同為台灣保固新品的歷史曲線，故不以現價推定史低。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-08-30",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Xiaomi AC-M25-SC\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Xiaomi%20AC-M25-SC%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Xiaomi AC-M25-SC\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Xiaomi%20AC-M25-SC%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        }
+      ]
+    }
   }
 ]);
 })();

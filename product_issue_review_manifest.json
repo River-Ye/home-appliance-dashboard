@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-08-29",
+  "checkedAt": "2026-08-30",
   "methodVersion": 3,
   "policy": "每筆決策須保存 exact-model 跨站查詢與人工 attestation；每個搜尋候選須逐頁保存摘要、獨立作者數與具體排除理由，研究工具不得自行生成拒絕結論。",
   "results": [
@@ -9847,6 +9847,38 @@
           "specificReason": "只有 1 位 exact-model 作者；主文與多數回覆屬 HPA200 或其他系列，依型號邊界排除後未達集中災情門檻。"
         }
       ]
+    },
+  {
+    "id": "purifier-xiaomi-ac-m25-sc",
+      "category": "purifier",
+      "brand": "Xiaomi",
+      "model": "AC-M25-SC",
+    "reviewedAt": "2026-08-30",
+      "reviewBatch": "purifier",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "Reddit",
+        "Mobile01"
+      ],
+      "queries": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Xiaomi AC-M25-SC\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Xiaomi%20AC-M25-SC%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Xiaomi AC-M25-SC\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Xiaomi%20AC-M25-SC%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        }
+      ],
+      "candidateDisposition": "AC-M25-SC：已以 Reddit 與 Mobile01 的 exact-model 查詢逐項覆核；未發現可確認的台灣版清淨機 6 原頁候選，未達同一問題至少 6 人／2 個原始網站門檻（不代表完全沒有負評）。",
+      "representativeSources": [],
+      "candidateReviews": [],
+      "reviewerNote": "AC-M25-SC：跨站 exact-model 查詢只出現不可採的跨區聚合資料，Reddit 與 Mobile01 無可確認的原始第一人稱故障候選，故保守標記查無達門檻的集中負評／災情。",
+      "attestation": "manual_cross_site_search_reviewed_no_candidate"
     },
     {
       "id": "aircon-hitachi-ras-22ntb-rac-22np",

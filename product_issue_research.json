@@ -1,9 +1,9 @@
 {
   "summary": {
-    "checkedAt": "2026-08-29T00:00:00+08:00",
-    "total": 919,
+    "checkedAt": "2026-08-30T00:00:00+08:00",
+    "total": 920,
     "commonIssueProducts": 40,
-    "noCommonIssueProducts": 879,
+    "noCommonIssueProducts": 880,
     "pendingManualReview": 0,
     "commonIssues": 41,
     "searchUnavailable": 621,
@@ -22449,6 +22449,85 @@
           "reason": "只有 1 位 exact-model 作者；主文與多數回覆屬 HPA200 或其他系列，依型號邊界排除後未達集中災情門檻。"
         }
       ]
+    },
+  {
+    "id": "purifier-xiaomi-ac-m25-sc",
+      "category": "purifier",
+      "brand": "Xiaomi",
+      "model": "AC-M25-SC",
+      "name": "米家智慧空氣清淨機 6",
+      "identity": {
+        "canonicalModel": "AC-M25-SC",
+        "lookupLabel": "Xiaomi AC-M25-SC",
+        "aliases": [
+          "Xiaomi AC-M25-SC",
+          "米家智慧空氣清淨機 6 AC-M25-SC"
+        ],
+        "evidenceUrl": "https://www.momoshop.com.tw/product/15189670"
+      },
+      "workflowStatus": "completed",
+    "manualReview": {
+      "status": "completed",
+      "decision": "no_common_issue",
+      "reviewedAt": "2026-08-30",
+        "checkedPlatforms": [
+          "Reddit",
+          "Mobile01"
+        ],
+        "queries": [
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"Xiaomi AC-M25-SC\" (problem OR issue OR defect OR failure)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Xiaomi%20AC-M25-SC%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+            "targetHost": "reddit.com"
+          },
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"Xiaomi AC-M25-SC\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Xiaomi%20AC-M25-SC%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "mobile01.com"
+          }
+        ],
+        "candidateDisposition": "AC-M25-SC：已以 Reddit 與 Mobile01 的 exact-model 查詢逐項覆核；未發現可確認的台灣版清淨機 6 原頁候選，未達同一問題至少 6 人／2 個原始網站門檻（不代表完全沒有負評）。",
+        "representativeSources": [],
+        "candidateReviews": [],
+        "reviewerNote": "AC-M25-SC：跨站 exact-model 查詢只出現不可採的跨區聚合資料，Reddit 與 Mobile01 無可確認的原始第一人稱故障候選，故保守標記查無達門檻的集中負評／災情。",
+        "attestation": "manual_cross_site_search_reviewed_no_candidate"
+      },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-08-30",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"Xiaomi AC-M25-SC\" (problem OR issue OR defect OR failure)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Xiaomi%20AC-M25-SC%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+            "targetHost": "reddit.com"
+          },
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"Xiaomi AC-M25-SC\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Xiaomi%20AC-M25-SC%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "mobile01.com"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "Bing Search",
+          "query": "(\"Xiaomi AC-M25-SC\" OR \"米家智慧空氣清淨機 6 AC-M25-SC\") (problem OR issue OR defect OR failure OR 災情 OR 故障 OR 負評) (site:mobile01.com OR site:reddit.com)",
+          "searchUrl": "https://www.bing.com/search?format=rss&q=(%22Xiaomi%20AC-M25-SC%22%20OR%20%22%E7%B1%B3%E5%AE%B6%E6%99%BA%E6%85%A7%E7%A9%BA%E6%B0%A3%E6%B8%85%E6%B7%A8%E6%A9%9F%206%20AC-M25-SC%22)%20(problem%20OR%20issue%20OR%20defect%20OR%20failure%20OR%20%E7%81%BD%E6%83%85%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)%20(site%3Amobile01.com%20OR%20site%3Areddit.com)",
+          "result": "no_exact_model_result",
+          "resultCount": 0,
+          "candidateUrls": [],
+          "candidates": [],
+          "inspectedAt": "2026-08-29T00:00:00+08:00"
+        }
+      ],
+      "evidence": [],
+      "rejectedCandidates": []
     },
     {
       "id": "aircon-hitachi-ras-22ntb-rac-22np",

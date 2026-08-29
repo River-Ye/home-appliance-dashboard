@@ -2108,6 +2108,30 @@ async function main() {
     !isExcludedListing("POIEMA P50 空氣清淨機（無耗材、水洗濾網）"),
     "catalog policy should not treat an explicit no-consumables benefit as a consumable listing",
   );
+  assert(
+    !isExcludedListing("ASUS ROG Ergo Monitor Arm AAS01R 螢幕支架（快拆式底座／雙面理線槽）"),
+    "catalog policy should not treat an included quick-release base as an accessory listing",
+  );
+  assert(
+    !isExcludedListing("LG OLED65C5PTA 電視（含原廠底座）"),
+    "catalog policy should keep a complete TV that includes its original base",
+  );
+  assert(
+    !isExcludedListing("ASUS ROG 螢幕附原廠底座與電源線"),
+    "catalog policy should keep a complete monitor that includes its original base",
+  );
+  assert(
+    isExcludedListing("LG 洗衣機專用底座 WD100CV"),
+    "catalog policy should still exclude a standalone appliance base accessory",
+  );
+  assert(
+    isExcludedListing("LG 原廠底座 單售"),
+    "catalog policy should still exclude a standalone original base",
+  );
+  assert(
+    isExcludedListing("ASUS AAS01R 螢幕支架替換底座 單售"),
+    "catalog policy should still exclude a replacement stand accessory",
+  );
 
   for (const statement of [
     "本產品已停產。",

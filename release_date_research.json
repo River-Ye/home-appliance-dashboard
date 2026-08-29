@@ -1,12 +1,12 @@
 {
   "summary": {
-    "checkedAt": "2026-08-29T14:42:38.021+08:00",
-    "total": 919,
+    "checkedAt": "2026-08-30T00:00:00+08:00",
+    "total": 920,
     "found": 267,
-    "missing": 652,
+    "missing": 653,
     "byConfidence": {
       "official": 179,
-      "not_found": 652,
+      "not_found": 653,
       "retailer_explicit": 22,
       "credible_article": 52,
       "high": 12,
@@ -18,7 +18,7 @@
       "previouslyMissingResearched": 649,
       "unchanged": 752,
       "correctedExistingDates": 69,
-      "newlyFound": 46,
+      "newlyFound": 48,
       "downgradedToNotFound": 47,
       "excludedDateKinds": [
         "preorder",
@@ -31,7 +31,7 @@
         "search_summary"
       ],
       "minimumQueriesPerProduct": 2,
-      "queriesRecorded": 1961
+      "queriesRecorded": 1967
     }
   },
   "results": [
@@ -5034,6 +5034,45 @@
           "url": "https://shop.hengstyle.com/SalePage/Index/8168308",
           "title": "Honeywell HPA-100APTW exact-model retailer/price page",
           "outcome": "Re-opened this trusted retailer or price-comparison page for the exact model. It did not contain an admissible explicit launch/release statement; listing and price-history dates were excluded."
+        }
+      ]
+    },
+    {
+      "id": "purifier-xiaomi-ac-m25-sc",
+      "category": "purifier",
+      "brand": "Xiaomi",
+      "model": "AC-M25-SC",
+      "name": "米家智慧空氣清淨機 6",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "query": "\"Xiaomi AC-M25-SC\" release date launch launched available 上市 發售 開賣 推出",
+      "auditQueries": [
+        "\"Xiaomi AC-M25-SC\" release date launch launched available",
+        "\"Xiaomi AC-M25-SC\" 上市 發售 開賣 推出"
+      ],
+      "sourceKind": "not_found_after_full_recheck",
+      "reason": "momo 活動頁對同一商品編號 15189670 明列「8/28 開賣」，exact-model 商品頁另確認 AC-M25-SC；但開賣句未明示年份，不從當前年、活動檔期或網頁資產路徑補推 2026，因此保守維持找不到。",
+      "checkedAt": "2026-08-30",
+      "auditDisposition": "confirmed_not_found",
+      "checkedSources": [
+        {
+          "url": "https://www.momoshop.com.tw/edm/cmmedm.jsp?ctype=B&lpn=O7wU7SpzpGq",
+          "title": "momo 家電集購：米家空氣清淨機 6",
+          "outcome": "同 SKU 15189670 活動卡明列「8/28開賣」，但句子未明示年份，不自行補年。"
+        },
+        {
+          "url": "https://www.momoshop.com.tw/product/15189670",
+          "title": "momo：Xiaomi 米家空氣清淨機 6 AC-M25-SC",
+          "outcome": "台灣新品頁確認商品編號 15189670、exact model AC-M25-SC、現貨與一年保固，未給出含年份的明確發售日。"
+        },
+        {
+          "url": "https://www.mi.com/global/product/mijia-smart-air-purifier-6/specs/",
+          "title": "Xiaomi Global: Mijia Smart Air Purifier 6 Specs",
+          "outcome": "官方規格頁確認 AC-M25-SC 的完整型號與規格，但沒有明確上市／發售陳述。"
         }
       ]
     },

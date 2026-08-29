@@ -5,7 +5,8 @@ const { OFFICIAL_SUGGESTED_PRICE_HOSTS } = require("./dashboard-contract");
 
 const EXCLUDED_LISTING_PATTERNS = [
   /(?:二手(?:品)?|中古(?:品)?|福利品|展示(?:機|品)|樣品機|拆封品|開箱品|整新品|翻新品|瑕疵品|箱損品)/iu,
-  /(?:配件(?:專用)?|耗材(?:組)?|替換(?:用)?(?:濾心|濾網)|(?:濾心|濾網)(?:組|耗材|替換)|刀架|磨刀器|底座|疊架)/iu,
+  /(?:配件(?:專用)?|耗材(?:組)?|替換(?:用)?(?:濾心|濾網)|(?:濾心|濾網)(?:組|耗材|替換)|刀架|磨刀器|疊架)/iu,
+  /(?:(?:專用|替換(?:用)?|另購|加購|單售|另售|增高|移動|萬用)\s*底座|(?:洗衣機|烘衣機|冰箱|電視|螢幕|顯示器|家電)\s*(?:原廠|專用|增高|移動|萬用)?\s*底座|底座\s*(?:配件|專用|替換(?:用)?|另購|加購|單售|另售|組))/iu,
   /\b(?:used|pre[\s-]?owned|refurbished|renewed|open[\s-]?box|accessor(?:y|ies)|consumables?)\b/iu,
   /\b(?:display|floor|demo)\s+(?:model|unit)\b/iu,
   /\b(?:replacement\s+(?:filter|cartridge|part)|spare\s+parts?|parts?\s+only)\b/iu,
