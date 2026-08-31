@@ -308,9 +308,11 @@
     "name": "BE3600 雙頻 Wi-Fi 7 AiMesh 可擴充路由器",
     "price": {
       "currency": "TWD",
-      "amount": 3699,
-      "converted": 3699,
-      "confidence": "Yahoo購物中心 2026-08-31 exact-model 公開結構化價格"
+      "amount": 3515,
+      "converted": 3515,
+      "confidence": "Yahoo購物中心 2026-08-31 exact-model 公開結構化價格",
+      "basis": "retailer_current",
+      "note": "2026-08-31 Chrome核對Yahoo同SKU公開滿1件享95折折後價；促銷至2026-09-01 08:00（台灣時間），未扣點數或信用卡回饋，結帳前再確認。"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAFLPA900JKWXK/000001_1783555436.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/ASUS-%E8%8F%AF%E7%A2%A9-RT-BE58U-V2-BE3600-%E9%9B%99%E9%A0%BB-Wi-Fi-7-%E5%8F%AF%E6%93%B4%E5%85%85%E5%BC%8F%E8%B7%AF%E7%94%B1%E5%99%A8-12005854.html",
@@ -936,31 +938,22 @@
       "note": "已逐筆查 BigGo 730 天價格歷史、FindPrice僅作現價/比價查核、LBJ 有查詢並嘗試讀取歷史價格但未取得可採用同型號可信新品史低；未找到同型號/同尺寸/同規格且屬可信新品通路的可公開驗證歷史最低價；排除候選：LBJ UniFi U7 Pro: 蝦皮購物 - NE Technologies UniFi U6 Lite/PLUS/Pro/LR/U7 PRO XGS倒置AP托架桌面支架收納架 非採用通路或含排除條件；LBJ UniFi U7 Pro: iOPEN Mall - MikroTik 台灣代理 (284人次購買) UniFi U6+ U6-Pro U7-Pro 專用造型檯燈座 非採用通路或含排除條件；LBJ UniFi U7 Pro: 蝦皮購物 - MikroTik 台灣代理 UniFi U6+ U6-Pro U7-Pro 專用造型檯燈座 非採用通路或含排除條件。"
     },
     "issueResearch": {
-      "status": "common_issue",
-      "checkedAt": "2026-08-29",
-      "summary": "多位同型號使用者回報 2.4GHz IoT 裝置會頻繁斷線、無法連網或反覆重連。",
-      "issues": [
+      "status": "no_common_issue",
+      "checkedAt": "2026-08-31",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
         {
-          "title": "2.4GHz IoT 裝置斷線與相容性不穩",
-          "detail": "問題常集中在 2.4GHz 智慧家電，且可能受韌體版本影響；部署前應先更新穩定韌體，並用實際 IoT 裝置測試連線與漫遊。",
-          "reportCount": 9,
-          "sources": [
-            {
-              "platform": "Ubiquiti Community",
-              "title": "U7-Pro 2.4ghz issues",
-              "url": "https://community.ui.com/questions/U7-Pro-2-4ghz-issues/4dff7816-5c14-4686-9f9a-ab99f9b93700"
-            },
-            {
-              "platform": "Reddit",
-              "title": "U7 pro iot issue explained",
-              "url": "https://www.reddit.com/r/Ubiquiti/comments/1g1funp/u7_pro_iot_issue_explained/"
-            },
-            {
-              "platform": "Reddit",
-              "title": "2.4GHz IoT device constant disconnect",
-              "url": "https://www.reddit.com/r/Ubiquiti/comments/1h600kz/24ghz_iot_device_constant_disconnect_5_6ghz_wifi/"
-            }
-          ]
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"U7 Pro\" \"問題\"",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22U7%20Pro%22%20%22%E5%95%8F%E9%A1%8C%22",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"U7 Pro\" \"IoT\" \"fixed\"",
+          "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22U7%20Pro%22%20%22IoT%22%20%22fixed%22",
+          "targetHost": "reddit.com"
         }
       ]
     }
@@ -1242,11 +1235,11 @@
     "issueResearch": {
       "status": "common_issue",
       "checkedAt": "2026-08-29",
-      "summary": "多位 AP22 使用者回報舊版 3.0.0 韌體會使 iPhone 或 Android 掉線、拒絕重連或顯示密碼錯誤；後續 hotfix 已針對此問題修正。",
+      "summary": "多位 AP22 使用者回報舊版 3.0.0 韌體會使 iPhone 或 Android 掉線、拒絕重連或顯示密碼錯誤；官方已發布後續修補，但不宜視為所有環境均已解決。",
       "issues": [
         {
           "title": "舊版 3.0.0 韌體造成行動裝置斷線與錯誤密碼",
-          "detail": "這是 2024 年 3.0.0 版本的歷史韌體災情；HPE 已於 2024-08-23 發布 3.0.0.1 hotfix。購買或部署後應先確認已升級修正版，不代表目前最新版仍必然發生。",
+          "detail": "這是 2024 年 3.0.0 的歷史韌體事件。2026-08-31 補核 HPE 公告：3.0.0.1 後仍於 2024-10-14 公告 3.0.0.2，針對 WPA3 異常框架重啟與記憶體洩漏再修補；同串 AP22 使用者仍有不同結果。保留原六人證據日期，不將舊版災情推定為目前最新版必然發生，也不宣稱全面修復。",
           "reportCount": 6,
           "sources": [
             {
@@ -1723,13 +1716,13 @@
     },
     "issueResearch": {
       "status": "common_issue",
-      "checkedAt": "2026-08-29",
-      "summary": "多位同型號使用者回報 2.4GHz IoT 裝置會出現 DHCP／DNS timeout、高封包遺失或斷線重連。",
+      "checkedAt": "2026-08-31",
+      "summary": "多位 U7 Pro Max 使用者曾回報 2.4GHz IoT 裝置 DHCP／DNS timeout、封包遺失或斷線重連；後續改善程度需依韌體與實際裝置確認。",
       "issues": [
         {
           "title": "2.4GHz IoT 連線、DHCP／DNS 與封包遺失問題",
-          "detail": "智慧家電可能在連上後很快掉線，或出現嚴重封包遺失；建議先以目前穩定韌體及獨立 IoT SSID 實測，再決定大量部署。",
-          "reportCount": 8,
+          "detail": "2026-08-31 以 6 位型號明確的獨立使用者重核歷史回報。部分後續使用者表示韌體改善，但不能用 U7 Pro 的更新結果代替 Pro Max；官方 7.0.95 公告更明文排除 U7 Pro Max。先確認 Pro Max 適用的穩定韌體，以獨立 IoT SSID 及實際家電測試數日，再決定大量部署。",
+          "reportCount": 6,
           "sources": [
             {
               "platform": "Ubiquiti Community",
@@ -1767,9 +1760,11 @@
     "name": "BE6500 雙頻 Wi-Fi 7 路由器",
     "price": {
       "currency": "TWD",
-      "amount": 4990,
-      "converted": 4990,
-      "confidence": "Yahoo購物中心 2026-08-31 exact-model 公開結構化價格"
+      "amount": 4741,
+      "converted": 4741,
+      "confidence": "Yahoo購物中心 2026-08-31 exact-model 公開結構化價格",
+      "basis": "retailer_current",
+      "note": "2026-08-31 Chrome核對Yahoo同SKU公開滿1件享95折折後價；促銷至2026-09-01 08:00（台灣時間），未扣點數或信用卡回饋，結帳前再確認。"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAFLPA900IV4B6/000001_1783556530.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/ASUS-%E8%8F%AF%E7%A2%A9-RT-BE82U-WiFi-7-%E9%9B%99%E9%A0%BB-BE6500-%E8%B7%AF%E7%94%B1%E5%99%A8-%E5%88%86%E4%BA%AB%E5%99%A8-11798654.html",
@@ -4721,9 +4716,11 @@
     "name": "BE19000 三頻 Wi-Fi 7 AI 電競路由器",
     "price": {
       "currency": "TWD",
-      "amount": 27990,
-      "converted": 27990,
-      "confidence": "Yahoo購物中心 2026-08-31 exact-model 公開結構化價格"
+      "amount": 26591,
+      "converted": 26591,
+      "confidence": "Yahoo購物中心 2026-08-31 exact-model 公開結構化價格",
+      "basis": "retailer_current",
+      "note": "2026-08-31 Chrome核對Yahoo同SKU公開滿1件享95折折後價；促銷至2026-09-01 08:00（台灣時間），未扣點數或信用卡回饋，結帳前再確認。"
     },
     "image": "https://dlcdnwebimgs.asus.com/gain/FF5DB299-9708-4259-ABF9-167FDC7166BD",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/%E6%98%8C%E9%81%8B%E7%9B%A3%E8%A6%96%E5%99%A8-ASUS-%E8%8F%AF%E7%A2%A9-ROG-Rapture-GT-BE19000AI-WiFi-7-%E4%B8%89%E9%A0%BB%E9%9B%BB%E7%AB%B6-12032656.html",

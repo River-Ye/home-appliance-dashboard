@@ -13,6 +13,39 @@ function isValidReviewDate(value) {
 
 const verifiedRows = [
   {
+    "id": "soundbar-klipsch-flexus-core-200",
+    "checkedAt": "2026-08-31",
+    "summary": "多位 Flexus Core 200 使用者回報有線重低音輸出出現間歇爆音或敲擊聲；部分換機後改善，也有換機後復發的回報。",
+    "title": "有線重低音輸出間歇爆音／敲擊聲",
+    "detail": "2026-08-31 逐人覆核 Reddit 5 位與 Best Buy 2 位獨立使用者，共 7 人回報 Core 200 有線重低音輸出異常。有人更換線材或不同重低音仍重現；部分保固換機後改善，另有復發案例。這是同型號症狀回報，不能據此推定故障率、所有批次都受影響或已確定內部故障零件。購前確認退換貨及保固，若要外接有線重低音，需用實際訊源長時間測試。",
+    "reportCount": 7,
+    "sources": [
+      {
+        "platform": "Reddit",
+        "title": "Clicks and pops come from Flexus Core 200 after connecting rear satellites via wireless",
+        "url": "https://www.reddit.com/r/Klipsch/comments/1hx317y/clicks_and_pops_come_from_flexus_core_200_after/",
+        "authors": [
+          "Strong_Salt000",
+          "pelletjunky",
+          "First-Independent671",
+          "PracticalGovernment4",
+          "homagcncguy"
+        ],
+        "evidenceSnippet": "五位作者皆明確回報 Core 200 的有線重低音爆音；沒有把樓主的數位啁啾、無線重低音及後環繞症狀混入。"
+      },
+      {
+        "platform": "Best Buy",
+        "title": "Klipsch Flexus CORE 200 3.1.2 Soundbar customer reviews",
+        "url": "https://www.bestbuy.com/product/klipsch-flexus-core-200-3-1-2-soundbar-black/JX44FCZPQ7/sku/6580304/reviews",
+        "authors": [
+          "JOHND",
+          "Alex"
+        ],
+        "evidenceSnippet": "Chrome 在 exact Core 200 SKU 6580304 的 Search Reviews 搜尋 popping，親讀 JOHND 與 Alex 的兩則原始購買者回報；兩人皆標示 Verified Purchaser／Incentivized。"
+      }
+    ]
+  },
+  {
     "id": "soundbar-asus-rog-gjallar",
     "checkedAt": "2026-08-31",
     "summary": "多位 ROG Gjallar 使用者回報無線重低音會間歇斷線、低頻消失後重新連線；官方已提供更新工具，仍須確認個別設備改善。",
@@ -61,41 +94,12 @@ const verifiedRows = [
     ]
   },
   {
-    id: "wifi-unifi-u7-pro",
-    summary: "多位同型號使用者回報 2.4GHz IoT 裝置會頻繁斷線、無法連網或反覆重連。",
-    title: "2.4GHz IoT 裝置斷線與相容性不穩",
-    detail: "問題常集中在 2.4GHz 智慧家電，且可能受韌體版本影響；部署前應先更新穩定韌體，並用實際 IoT 裝置測試連線與漫遊。",
-    reportCount: 9,
-    sources: [
-      {
-        platform: "Ubiquiti Community",
-        title: "U7-Pro 2.4ghz issues",
-        url: "https://community.ui.com/questions/U7-Pro-2-4ghz-issues/4dff7816-5c14-4686-9f9a-ab99f9b93700",
-        authors: ["Kurisu112", "DUDL3Y"],
-        evidenceSnippet: "兩位 U7 Pro 使用者回報 2.4GHz IoT 裝置持續掉線或同樣異常。",
-      },
-      {
-        platform: "Reddit",
-        title: "U7 pro iot issue explained",
-        url: "https://www.reddit.com/r/Ubiquiti/comments/1g1funp/u7_pro_iot_issue_explained/",
-        authors: ["Capt_shadab", "jrd2me", "Confucius_said", "m4c1n0", "Sp1cedaddy", "Vertigo103"],
-        evidenceSnippet: "六位同型號使用者描述 IoT 裝置短暫斷線後重連或無法穩定使用。",
-      },
-      {
-        platform: "Reddit",
-        title: "2.4GHz IoT device constant disconnect",
-        url: "https://www.reddit.com/r/Ubiquiti/comments/1h600kz/24ghz_iot_device_constant_disconnect_5_6ghz_wifi/",
-        authors: ["Mattycee2K15"],
-        evidenceSnippet: "原發文者明確回報 U7 Pro 的 IoT 裝置每天多次斷線。",
-      },
-    ],
-  },
-  {
     id: "wifi-unifi-u7-pro-max",
-    summary: "多位同型號使用者回報 2.4GHz IoT 裝置會出現 DHCP／DNS timeout、高封包遺失或斷線重連。",
+    checkedAt: "2026-08-31",
+    summary: "多位 U7 Pro Max 使用者曾回報 2.4GHz IoT 裝置 DHCP／DNS timeout、封包遺失或斷線重連；後續改善程度需依韌體與實際裝置確認。",
     title: "2.4GHz IoT 連線、DHCP／DNS 與封包遺失問題",
-    detail: "智慧家電可能在連上後很快掉線，或出現嚴重封包遺失；建議先以目前穩定韌體及獨立 IoT SSID 實測，再決定大量部署。",
-    reportCount: 8,
+    detail: "2026-08-31 以 6 位型號明確的獨立使用者重核歷史回報。部分後續使用者表示韌體改善，但不能用 U7 Pro 的更新結果代替 Pro Max；官方 7.0.95 公告更明文排除 U7 Pro Max。先確認 Pro Max 適用的穩定韌體，以獨立 IoT SSID 及實際家電測試數日，再決定大量部署。",
+    reportCount: 6,
     sources: [
       {
         platform: "Ubiquiti Community",
@@ -108,15 +112,15 @@ const verifiedRows = [
         platform: "Reddit",
         title: "IoT 2GHz issues on new U7 Pro Max",
         url: "https://www.reddit.com/r/Ubiquiti/comments/1d9peae/iot_2ghz_issues_on_new_u7_pro_max/",
-        authors: ["Spaceman_Splff", "BluThunder2k", "aladd04"],
-        evidenceSnippet: "三位同型號使用者描述 2.4GHz IoT 連線異常，其中一例約有 95% 封包遺失。",
+        authors: ["Spaceman_Splff", "BluThunder2k"],
+        evidenceSnippet: "兩位明確使用 U7 Pro Max／7PM 的作者回報 IoT 斷線；Spaceman_Splff 約有 95% 封包遺失，並撤回早先誤以為更新已修好的判斷。",
       },
       {
         platform: "Reddit",
         title: "IoT devices won't connect to WiFi",
         url: "https://www.reddit.com/r/Ubiquiti/comments/1fnsctj/new_and_some_old_iot_devices_wont_connect_to_wifi/",
-        authors: ["VampireSix", "spford", "Capt_shadab"],
-        evidenceSnippet: "三位使用者回報 IoT 裝置只能短暫連線、隨即斷線或完全無法加入。",
+        authors: ["VampireSix", "Capt_shadab"],
+        evidenceSnippet: "VampireSix 與 Capt_shadab 皆明確寫出自用 U7 Pro Max，回報 IoT 裝置連線後隨即斷開或不能完成設定。",
       },
       {
         platform: "Reddit",
@@ -585,9 +589,9 @@ const verifiedRows = [
   },
   {
     id: "wifi-aruba-ap22",
-    summary: "多位 AP22 使用者回報舊版 3.0.0 韌體會使 iPhone 或 Android 掉線、拒絕重連或顯示密碼錯誤；後續 hotfix 已針對此問題修正。",
+    summary: "多位 AP22 使用者回報舊版 3.0.0 韌體會使 iPhone 或 Android 掉線、拒絕重連或顯示密碼錯誤；官方已發布後續修補，但不宜視為所有環境均已解決。",
     title: "舊版 3.0.0 韌體造成行動裝置斷線與錯誤密碼",
-    detail: "這是 2024 年 3.0.0 版本的歷史韌體災情；HPE 已於 2024-08-23 發布 3.0.0.1 hotfix。購買或部署後應先確認已升級修正版，不代表目前最新版仍必然發生。",
+    detail: "這是 2024 年 3.0.0 的歷史韌體事件。2026-08-31 補核 HPE 公告：3.0.0.1 後仍於 2024-10-14 公告 3.0.0.2，針對 WPA3 異常框架重啟與記憶體洩漏再修補；同串 AP22 使用者仍有不同結果。保留原六人證據日期，不將舊版災情推定為目前最新版必然發生，也不宣稱全面修復。",
     reportCount: 6,
     sources: [
       {
@@ -610,7 +614,7 @@ const verifiedRows = [
     id: "monitor-dell-aw3225qf",
     summary: "多位 AW3225QF 使用者回報早期包裝保護材會摩擦 OLED 面板，開箱即出現污痕、蜂巢壓痕或微刮痕。",
     title: "包裝保護材造成面板污痕或微刮痕",
-    detail: "部分痕跡無法完全擦除且換貨後仍可能出現；收貨時應在強光下立即檢查整片面板，發現刮痕便在退換貨期內處理。",
+    detail: "這是早期包裝的歷史回報。2026-08-31 補核 Dell 官方 KB 000321630，已明確記載後期 AW3225QF 的可撕保護膜；另有 2024 年 5 月買家確認收到有膜且完好的機器。官方 KB 說明的是撕膜聲音，不能據此推定所有批次刮痕均已排除。保留原逐人證據日期，收貨仍應立即檢查面板並在退換貨期內處理異常。",
     reportCount: 11,
     sources: [
       {

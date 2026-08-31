@@ -6,7 +6,7 @@
     "noCommonIssueProducts": 902,
     "pendingManualReview": 0,
     "commonIssues": 42,
-    "searchUnavailable": 621,
+    "searchUnavailable": 614,
     "threshold": {
       "minimumDistinctUsers": 6,
       "minimumPlatforms": 2,
@@ -15,16 +15,8 @@
     "sourcePolicy": "搜尋引擎只用於發現候選；只有原始論壇、社群或零售評價頁中可辨識的第一人稱同型號回報才計入人數。同帳號、跨站轉貼、按讚、媒體轉述與搜尋摘要不重複計算。",
     "noIssueWording": "截至查核日，查無達門檻的集中負評／災情",
     "searchLimitations": [
-      {
-        "provider": "Yahoo Search",
-        "checkedAt": "2026-08-29",
-        "status": "search_unavailable",
-        "affectedProducts": 618,
-        "residualInaccessibleOriginalPages": 0,
-        "note": "Yahoo Search 本輪發生 HTTP 500 或連線中止；已改以獨立網頁索引逐一重跑 618 筆 exact-model 查詢，並人工覆核所有候選原頁。"
-      }
-    ],
-    "researchedThisRun": 20
+      "本輪定向覆核7款既有商品（Flexus Core 100/200/300、U7 Pro、U7 Pro Max、AP22、AW3225QF），另研究Mobius 60候選但因台灣電力證據不足未正式納入。其餘逐型人工負評查核沿用既有日期；AP22及AW3225QF原逐人證據保留，本輪只補修正背景，不表示943款皆重新閱讀原始評價。"
+    ]
   },
   "results": [
     {
@@ -8675,152 +8667,508 @@
       "workflowStatus": "completed",
       "manualReview": {
         "status": "completed",
-        "decision": "no_common_issue",
-        "reviewedAt": "2026-08-29",
+        "decision": "common_issue",
+        "reviewedAt": "2026-08-31",
         "checkedPlatforms": [
           "Reddit",
-          "Mobile01"
+          "Mobile01",
+          "Best Buy",
+          "Adorama"
         ],
         "queries": [
           {
             "platform": "Reddit",
-            "query": "site:reddit.com \"Klipsch Flexus Core 200\" (problem OR issue OR defect OR failure)",
-            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Klipsch%20Flexus%20Core%20200%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+            "query": "site:reddit.com \"Flexus Core 200\" problem issue",
+            "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22Flexus%20Core%20200%22%20problem%20issue",
             "targetHost": "reddit.com"
           },
           {
             "platform": "Mobile01",
-            "query": "site:mobile01.com \"Klipsch Flexus Core 200\" (災情 OR 問題 OR 故障 OR 負評)",
-            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Klipsch%20Flexus%20Core%20200%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "query": "site:mobile01.com \"Flexus Core 200\" 問題 故障",
+            "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Flexus%20Core%20200%22%20%E5%95%8F%E9%A1%8C%20%E6%95%85%E9%9A%9C",
             "targetHost": "mobile01.com"
           }
         ],
-        "candidateDisposition": "Flexus Core 200：有線重低音輸出爆音候選可辨識超過 6 位使用者，但只來自 Reddit；Mobile01 候選是不同的中置聲道症狀，因此同一問題未跨 2 個原始網站。",
+        "candidateDisposition": "Flexus Core 200：有線重低音爆音已由 Reddit 五位與 Best Buy 兩位共七名獨立作者確認；其他配件／格式症狀不混計。",
         "representativeSources": [
           {
             "platform": "Reddit",
-            "title": "Clicks and pops come from Flexus Core 200 after connecting subwoofer via RCA",
+            "title": "Clicks and pops come from Flexus Core 200 after connecting rear satellites via wireless",
             "url": "https://www.reddit.com/r/Klipsch/comments/1hx317y/clicks_and_pops_come_from_flexus_core_200_after/"
           },
           {
-            "platform": "Reddit",
-            "title": "Klipsch Flexus Core 200 popping noises from sub",
-            "url": "https://www.reddit.com/r/Soundbars/comments/1sjzegp/klipsch_flexus_core_200_popping_noises_from_sub/"
-          },
-          {
-            "platform": "Mobile01",
-            "title": "Klipsch Flexus Core 200 使用問題",
-            "url": "https://www.mobile01.com/topicdetail.php?f=348&t=7207167"
+            "platform": "Best Buy",
+            "title": "Klipsch Flexus CORE 200 3.1.2 Soundbar customer reviews",
+            "url": "https://www.bestbuy.com/product/klipsch-flexus-core-200-3-1-2-soundbar-black/JX44FCZPQ7/sku/6580304/reviews"
           }
         ],
         "candidateReviews": [
           {
-            "platform": "Reddit",
-            "url": "https://www.reddit.com/r/Klipsch/comments/1hx317y/clicks_and_pops_come_from_flexus_core_200_after/",
-            "title": "Clicks and pops come from Flexus Core 200 after connecting subwoofer via RCA",
+            "platform": "Mobile01",
+            "url": "https://www.mobile01.com/topicdetail.php?f=348&t=7207167",
+            "title": "Klipsch flexus core 200中央聲道失聲？？？",
             "outcome": "excluded",
             "exactModel": true,
-            "reviewedAt": "2026-08-29",
-            "sourceExcerpt": "原頁樓主與多位 Flexus Core 200 使用者回報，使用 RCA 有線重低音輸出時會出現 click、pop 或 thump 聲。",
-            "independentAuthors": 11,
-            "specificReason": "可辨識 11 位 exact-model 使用者，但所有同一爆音症狀都在 Reddit 這一個原始網站，未達跨 2 個網站門檻。"
-          },
-          {
-            "platform": "Reddit",
-            "url": "https://www.reddit.com/r/Soundbars/comments/1sjzegp/klipsch_flexus_core_200_popping_noises_from_sub/",
-            "title": "Klipsch Flexus Core 200 popping noises from sub",
-            "outcome": "excluded",
-            "exactModel": true,
-            "reviewedAt": "2026-08-29",
-            "sourceExcerpt": "另一篇原頁有 4 位 Flexus Core 200 使用者談到重低音爆音，其中至少一位也出現在前一篇討論。",
-            "independentAuthors": 4,
-            "specificReason": "候選仍只來自 Reddit，且與前一篇存在跨文重複作者；去重後也沒有第二個原始網站支持同一症狀。"
+            "reviewedAt": "2026-08-31",
+            "sourceExcerpt": "米糕控 的 Aiwa 電視輸出 Dolby Digital Plus 時中置無聲，切格式或藍牙後恢復。",
+            "independentAuthors": 1,
+            "specificReason": "單一中置／格式案例與有線重低音爆音不是同一問題，未加入成立問題的人數。"
           },
           {
             "platform": "Mobile01",
-            "url": "https://www.mobile01.com/topicdetail.php?f=348&t=7207167",
-            "title": "Klipsch Flexus Core 200 使用問題",
+            "url": "https://www.mobile01.com/topicdetail.php?f=348&p=3&t=6957809",
+            "title": "【盲狙先生傳72】FLEXUS CORE 200（第3頁）",
             "outcome": "excluded",
             "exactModel": true,
-            "reviewedAt": "2026-08-29",
-            "sourceExcerpt": "Mobile01 一位 Core 200 使用者回報 Dolby Digital Plus 時中置聲道沒有聲音，切換模式或藍牙後可恢復。",
+            "reviewedAt": "2026-08-31",
+            "sourceExcerpt": "wonly 是後環繞單邊變小；Mr.Trouble 是對話增強時特定 YouTube 片段爆音。",
+            "independentAuthors": 2,
+            "specificReason": "後環繞音量、聲霸人聲增強爆音與 RCA 有線重低音輸出是不同症狀；smdavid 換訊源正常也不算同一故障。"
+          },
+          {
+            "platform": "Mobile01",
+            "url": "https://www.mobile01.com/topicdetail.php?f=348&p=2&t=6957809",
+            "title": "【盲狙先生傳72】FLEXUS CORE 200（第2頁）",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-08-31",
+            "sourceExcerpt": "在陸地生活的魚詢問未有外接配件選項；廖家派說後環繞太小聲。",
             "independentAuthors": 1,
-            "specificReason": "這是單一作者的中置聲道／格式相容候選，與 Reddit 的 RCA 重低音爆音不是同一問題，不能合併計數。"
+            "specificReason": "配件設定疑問不是輸出故障；後環繞太小聲也不能加入有線重低音爆音人數。"
+          },
+          {
+            "platform": "Mobile01",
+            "url": "https://www.mobile01.com/topicdetail.php?f=348&t=7010264",
+            "title": "Klipsch flexus core200 無法點燈Dolby Atmos?",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-08-31",
+            "sourceExcerpt": "wrigley 用 Philips 65OLED706 經 eARC 接 Core 200，只顯示 5.1 而沒有 Atmos。",
+            "independentAuthors": 1,
+            "specificReason": "格式協商問題不同於 RCA 重低音爆音，其他回覆是設定建議，不作獨立故障作者。"
+          },
+          {
+            "platform": "Reddit",
+            "url": "https://www.reddit.com/r/Klipsch/comments/1sb1g5s/flexus_core_200_surr_100_issue_left_surround_is/",
+            "title": "Flexus Core 200 + Surr 100 Issue: Left Surround is silent",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-08-31",
+            "sourceExcerpt": "sixfootpointo 左後環繞無聲；換 Core 200 未解決，換 Surr 100 後才正常。",
+            "independentAuthors": 1,
+            "specificReason": "作者更新將問題定位到 Surr 100 配件，不能把此回報作 Core 200 聲霸故障或 RCA 爆音。"
+          },
+          {
+            "platform": "Mobile01",
+            "url": "https://www.mobile01.com/topicdetail.php?f=348&t=7004639",
+            "title": "「使用後心得」古力奇 Klipsch Core 200 大全配",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-08-31",
+            "sourceExcerpt": "作者描述 Core 200 全套使用一個月的音場提升，並列出購買前的舊設備痛點。",
+            "independentAuthors": 0,
+            "specificReason": "購買前痛點不是 Core 200 故障，正面試聽也不能推定沒有負評；本次不計作者。"
+          },
+          {
+            "platform": "Mobile01",
+            "url": "https://www.mobile01.com/topicdetail.php?f=348&t=7187584",
+            "title": "小客廳適合什麼 Soundbar？",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-08-31",
+            "sourceExcerpt": "wonly 推薦 Core 200 加購無線後環繞，其他回覆比較兩聲道喇叭與聲霸。",
+            "independentAuthors": 0,
+            "specificReason": "沒有本人同型號輸出故障，泛談聲霸耐用性不能當作具體型號的獨立回報。"
+          },
+          {
+            "platform": "Mobile01",
+            "url": "https://www.mobile01.com/topicdetail.php?f=348&t=7199044",
+            "title": "請問房間4到6坪聲霸推薦",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-08-31",
+            "sourceExcerpt": "wonly 提醒 Core 200 只有 HDMI eARC、光纖及藍牙，Core 300 連接較完整。",
+            "independentAuthors": 0,
+            "specificReason": "這是規格取捨而非失效；樓主只是選購，無法加入故障作者人數。"
+          },
+          {
+            "platform": "Mobile01",
+            "url": "https://www.mobile01.com/topicdetail.php?f=348&t=6969101",
+            "title": "【盲狙先生傳74】FLEXUS CORE 200 評測下篇",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-08-31",
+            "sourceExcerpt": "評測比較 MUSIC 與 MOVIE 音場及遙控器配對，並推測未推出的 Core 300。",
+            "independentAuthors": 0,
+            "specificReason": "音場差異及操作指引不是輸出爆音故障；當年 Core 300 猜測也不採作型號證據。"
+          },
+          {
+            "platform": "Adorama",
+            "url": "https://www.adorama.com/klipsch-flexus-core-200-312-channel-dolby-atmos-soundbar/p/kp1071983",
+            "title": "Klipsch Flexus Core 200 user reviews（Klipsch轉載）",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-08-31",
+            "sourceExcerpt": "cesarr 與 Mister R. 提到有線重低音爆音，頁面均標示原發於 Klipsch。",
+            "independentAuthors": 0,
+            "specificReason": "親讀 Adorama 但未取得 Klipsch 原始評價；這兩位及 Target／Walmart 的同文轉載均不計入成立樣本與網站數。"
           }
         ],
-        "reviewerNote": "Flexus Core 200：已人工覆核 Reddit 與 Mobile01 原頁；同一問題仍未同時達 6 位獨立使用者及 2 個原始網站門檻。",
+        "reviewerNote": "Flexus Core 200：Chrome 親讀 Best Buy 原始評價，配合 Reddit 明確型號作者，首次補足第二個原始網站。保守採七人；Target／Walmart／Adorama 的 Klipsch 轉載不計，內部故障零件推測也不採。",
         "attestation": "manual_original_pages_reviewed"
       },
       "issueResearch": {
-        "status": "no_common_issue",
-        "checkedAt": "2026-08-29",
-        "summary": "截至查核日，查無達門檻的集中負評／災情",
-        "issues": [],
-        "checkedSources": [
+        "status": "common_issue",
+        "checkedAt": "2026-08-31",
+        "summary": "多位 Flexus Core 200 使用者回報有線重低音輸出出現間歇爆音或敲擊聲；部分換機後改善，也有換機後復發的回報。",
+        "issues": [
           {
-            "platform": "Reddit",
-            "query": "site:reddit.com \"Klipsch Flexus Core 200\" (problem OR issue OR defect OR failure)",
-            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Klipsch%20Flexus%20Core%20200%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
-            "targetHost": "reddit.com"
-          },
-          {
-            "platform": "Mobile01",
-            "query": "site:mobile01.com \"Klipsch Flexus Core 200\" (災情 OR 問題 OR 故障 OR 負評)",
-            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Klipsch%20Flexus%20Core%20200%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
-            "targetHost": "mobile01.com"
+            "title": "有線重低音輸出間歇爆音／敲擊聲",
+            "detail": "2026-08-31 逐人覆核 Reddit 5 位與 Best Buy 2 位獨立使用者，共 7 人回報 Core 200 有線重低音輸出異常。有人更換線材或不同重低音仍重現；部分保固換機後改善，另有復發案例。這是同型號症狀回報，不能據此推定故障率、所有批次都受影響或已確定內部故障零件。購前確認退換貨及保固，若要外接有線重低音，需用實際訊源長時間測試。",
+            "reportCount": 7,
+            "sources": [
+              {
+                "platform": "Reddit",
+                "title": "Clicks and pops come from Flexus Core 200 after connecting rear satellites via wireless",
+                "url": "https://www.reddit.com/r/Klipsch/comments/1hx317y/clicks_and_pops_come_from_flexus_core_200_after/"
+              },
+              {
+                "platform": "Best Buy",
+                "title": "Klipsch Flexus CORE 200 3.1.2 Soundbar customer reviews",
+                "url": "https://www.bestbuy.com/product/klipsch-flexus-core-200-3-1-2-soundbar-black/JX44FCZPQ7/sku/6580304/reviews"
+              }
+            ]
           }
         ]
       },
       "searchChecks": [
         {
-          "platform": "Yahoo Search",
-          "query": "(\"Klipsch Flexus Core 200\") (problem OR issue OR defect OR failure OR 災情 OR 故障 OR 負評) (site:mobile01.com OR site:dcard.tw OR site:ptt.cc OR site:reddit.com OR site:snbforums.com OR site:52asus.com)",
-          "searchUrl": "https://search.yahoo.com/search?p=(%22Klipsch%20Flexus%20Core%20200%22)%20(problem%20OR%20issue%20OR%20defect%20OR%20failure%20OR%20%E7%81%BD%E6%83%85%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)%20(site%3Amobile01.com%20OR%20site%3Adcard.tw%20OR%20site%3Aptt.cc%20OR%20site%3Areddit.com%20OR%20site%3Asnbforums.com%20OR%20site%3A52asus.com)",
-          "result": "search_unavailable",
-          "resultCount": 0,
-          "candidateUrls": [],
-          "candidates": [],
-          "inspectedAt": "2026-08-29T00:00:00+08:00",
-          "error": "HTTP 500"
-        }
-      ],
-      "evidence": [],
-      "rejectedCandidates": [
-        {
           "platform": "Reddit",
-          "url": "https://www.reddit.com/r/Klipsch/comments/1hx317y/clicks_and_pops_come_from_flexus_core_200_after/",
-          "title": "Clicks and pops come from Flexus Core 200 after connecting subwoofer via RCA",
-          "outcome": "excluded",
-          "exactModel": true,
-          "reviewedAt": "2026-08-29",
-          "sourceExcerpt": "原頁樓主與多位 Flexus Core 200 使用者回報，使用 RCA 有線重低音輸出時會出現 click、pop 或 thump 聲。",
-          "independentAuthors": 11,
-          "specificReason": "可辨識 11 位 exact-model 使用者，但所有同一爆音症狀都在 Reddit 這一個原始網站，未達跨 2 個網站門檻。",
-          "reason": "可辨識 11 位 exact-model 使用者，但所有同一爆音症狀都在 Reddit 這一個原始網站，未達跨 2 個網站門檻。"
-        },
-        {
-          "platform": "Reddit",
-          "url": "https://www.reddit.com/r/Soundbars/comments/1sjzegp/klipsch_flexus_core_200_popping_noises_from_sub/",
-          "title": "Klipsch Flexus Core 200 popping noises from sub",
-          "outcome": "excluded",
-          "exactModel": true,
-          "reviewedAt": "2026-08-29",
-          "sourceExcerpt": "另一篇原頁有 4 位 Flexus Core 200 使用者談到重低音爆音，其中至少一位也出現在前一篇討論。",
-          "independentAuthors": 4,
-          "specificReason": "候選仍只來自 Reddit，且與前一篇存在跨文重複作者；去重後也沒有第二個原始網站支持同一症狀。",
-          "reason": "候選仍只來自 Reddit，且與前一篇存在跨文重複作者；去重後也沒有第二個原始網站支持同一症狀。"
+          "query": "site:reddit.com \"Flexus Core 200\" problem issue",
+          "searchUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22Flexus%20Core%20200%22%20problem%20issue",
+          "result": "candidates_unverified_by_search_only",
+          "inspectedAt": "2026-08-31T00:00:00+08:00",
+          "candidates": [
+            {
+              "title": "Flexus Core 200 + Surr 100 Issue: Left Surround is silent",
+              "url": "https://www.reddit.com/r/Klipsch/comments/1sb1g5s/flexus_core_200_surr_100_issue_left_surround_is/",
+              "snippet": "sixfootpointo 左後環繞無聲；換 Core 200 未解決，換 Surr 100 後才正常。",
+              "exactModel": true
+            }
+          ],
+          "resultCount": 1,
+          "candidateUrls": [
+            "https://www.reddit.com/r/Klipsch/comments/1sb1g5s/flexus_core_200_surr_100_issue_left_surround_is/"
+          ]
         },
         {
           "platform": "Mobile01",
+          "query": "site:mobile01.com \"Flexus Core 200\" 問題 故障",
+          "searchUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Flexus%20Core%20200%22%20%E5%95%8F%E9%A1%8C%20%E6%95%85%E9%9A%9C",
+          "result": "candidates_unverified_by_search_only",
+          "inspectedAt": "2026-08-31T00:00:00+08:00",
+          "candidates": [
+            {
+              "title": "Klipsch flexus core 200中央聲道失聲？？？",
+              "url": "https://www.mobile01.com/topicdetail.php?f=348&t=7207167",
+              "snippet": "米糕控 的 Aiwa 電視輸出 Dolby Digital Plus 時中置無聲，切格式或藍牙後恢復。",
+              "exactModel": true
+            },
+            {
+              "title": "【盲狙先生傳72】FLEXUS CORE 200（第3頁）",
+              "url": "https://www.mobile01.com/topicdetail.php?f=348&p=3&t=6957809",
+              "snippet": "wonly 是後環繞單邊變小；Mr.Trouble 是對話增強時特定 YouTube 片段爆音。",
+              "exactModel": true
+            },
+            {
+              "title": "【盲狙先生傳72】FLEXUS CORE 200（第2頁）",
+              "url": "https://www.mobile01.com/topicdetail.php?f=348&p=2&t=6957809",
+              "snippet": "在陸地生活的魚詢問未有外接配件選項；廖家派說後環繞太小聲。",
+              "exactModel": true
+            },
+            {
+              "title": "Klipsch flexus core200 無法點燈Dolby Atmos?",
+              "url": "https://www.mobile01.com/topicdetail.php?f=348&t=7010264",
+              "snippet": "wrigley 用 Philips 65OLED706 經 eARC 接 Core 200，只顯示 5.1 而沒有 Atmos。",
+              "exactModel": true
+            },
+            {
+              "title": "「使用後心得」古力奇 Klipsch Core 200 大全配",
+              "url": "https://www.mobile01.com/topicdetail.php?f=348&t=7004639",
+              "snippet": "作者描述 Core 200 全套使用一個月的音場提升，並列出購買前的舊設備痛點。",
+              "exactModel": true
+            },
+            {
+              "title": "小客廳適合什麼 Soundbar？",
+              "url": "https://www.mobile01.com/topicdetail.php?f=348&t=7187584",
+              "snippet": "wonly 推薦 Core 200 加購無線後環繞，其他回覆比較兩聲道喇叭與聲霸。",
+              "exactModel": true
+            },
+            {
+              "title": "請問房間4到6坪聲霸推薦",
+              "url": "https://www.mobile01.com/topicdetail.php?f=348&t=7199044",
+              "snippet": "wonly 提醒 Core 200 只有 HDMI eARC、光纖及藍牙，Core 300 連接較完整。",
+              "exactModel": true
+            },
+            {
+              "title": "【盲狙先生傳74】FLEXUS CORE 200 評測下篇",
+              "url": "https://www.mobile01.com/topicdetail.php?f=348&t=6969101",
+              "snippet": "評測比較 MUSIC 與 MOVIE 音場及遙控器配對，並推測未推出的 Core 300。",
+              "exactModel": true
+            }
+          ],
+          "resultCount": 8,
+          "candidateUrls": [
+            "https://www.mobile01.com/topicdetail.php?f=348&t=7207167",
+            "https://www.mobile01.com/topicdetail.php?f=348&p=3&t=6957809",
+            "https://www.mobile01.com/topicdetail.php?f=348&p=2&t=6957809",
+            "https://www.mobile01.com/topicdetail.php?f=348&t=7010264",
+            "https://www.mobile01.com/topicdetail.php?f=348&t=7004639",
+            "https://www.mobile01.com/topicdetail.php?f=348&t=7187584",
+            "https://www.mobile01.com/topicdetail.php?f=348&t=7199044",
+            "https://www.mobile01.com/topicdetail.php?f=348&t=6969101"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "issueTitle": "有線重低音輸出間歇爆音／敲擊聲",
+          "platform": "Reddit",
+          "title": "Clicks and pops come from Flexus Core 200 after connecting rear satellites via wireless",
+          "url": "https://www.reddit.com/r/Klipsch/comments/1hx317y/clicks_and_pops_come_from_flexus_core_200_after/",
+          "evidenceSnippet": "五位作者皆明確回報 Core 200 的有線重低音爆音；沒有把樓主的數位啁啾、無線重低音及後環繞症狀混入。",
+          "authors": [
+            "Strong_Salt000",
+            "pelletjunky",
+            "First-Independent671",
+            "PracticalGovernment4",
+            "homagcncguy"
+          ],
+          "distinctReportCount": 5,
+          "checkedAt": "2026-08-31",
+          "reports": [
+            {
+              "author": "Strong_Salt000",
+              "permalink": "https://www.reddit.com/r/Klipsch/comments/1hx317y/comment/mqlwpol/",
+              "locator": "Strong_Salt000: I got my Flexus core 200 in January",
+              "evidenceExcerpt": "自述 Core 200 的外接重低音隨機爆音，更換重低音與線材仍重現。",
+              "auditNote": "原串親讀：明寫 Core 200，換成另一顆 SVS 及新線仍爆音；只計本人一次。 逐人採用摘錄：自述 Core 200 的外接重低音隨機爆音，更換重低音與線材仍重現。",
+              "exactModel": true,
+              "firstPerson": true,
+              "crossPostKey": null,
+              "reviewBasis": "manual_original_page",
+              "reviewedAt": "2026-08-31"
+            },
+            {
+              "author": "pelletjunky",
+              "permalink": "https://www.reddit.com/r/Klipsch/comments/1hx317y/comment/mrllp4y/",
+              "locator": "pelletjunky: I have had the 200 since Sept last year; RSL 10E",
+              "evidenceExcerpt": "自述 200 重低音約每半小時敲擊，換 RSL 10E 與新線仍發生。",
+              "auditNote": "原串及留言頁親讀：自有 200，換 RSL 10E 和新線仍有相同爆音；後續換機改善不作全面修復證明。 逐人採用摘錄：自述 200 重低音約每半小時敲擊，換 RSL 10E 與新線仍發生。",
+              "exactModel": true,
+              "firstPerson": true,
+              "crossPostKey": null,
+              "reviewBasis": "manual_original_page",
+              "reviewedAt": "2026-08-31"
+            },
+            {
+              "author": "First-Independent671",
+              "permalink": "https://www.reddit.com/r/Klipsch/comments/1hx317y/clicks_and_pops_come_from_flexus_core_200_after/",
+              "locator": "First-Independent671: Core 200 + wired R-120SW makes random popping sounds",
+              "evidenceExcerpt": "Core 200 配有線 R-120SW 隨機爆音；其換機約半年後也復發。",
+              "auditNote": "親讀原串明示 Core 200 與有線 R-120SW；六個月後同作者說換機也復發，仍只計一人。 逐人採用摘錄：Core 200 配有線 R-120SW 隨機爆音；其換機約半年後也復發。",
+              "exactModel": true,
+              "firstPerson": true,
+              "crossPostKey": null,
+              "reviewBasis": "manual_original_page",
+              "reviewedAt": "2026-08-31"
+            },
+            {
+              "author": "PracticalGovernment4",
+              "permalink": "https://www.reddit.com/r/Klipsch/comments/1hx317y/comment/nwdfs0i/",
+              "locator": "PracticalGovernment4: 200 core; two Klipsch r100sw; subs bump",
+              "evidenceExcerpt": "Core 200 連兩顆有線 r100sw 敲擊作響，換到電視輸出後正常。",
+              "auditNote": "親讀明示 Core 200、兩個有線 r100sw，換到電視 RCA 後異音消失；別串重複回報不再計數。 逐人採用摘錄：Core 200 連兩顆有線 r100sw 敲擊作響，換到電視輸出後正常。",
+              "exactModel": true,
+              "firstPerson": true,
+              "crossPostKey": null,
+              "reviewBasis": "manual_original_page",
+              "reviewedAt": "2026-08-31"
+            },
+            {
+              "author": "homagcncguy",
+              "permalink": "https://www.reddit.com/r/Klipsch/comments/1hx317y/comment/nwmzcsg/",
+              "locator": "homagcncguy: wired Klipsch sub popping; new core 200",
+              "evidenceExcerpt": "有線 Klipsch 重低音爆音，客服安排新 Core 200；另串說換機後改善。",
+              "auditNote": "親讀明示有線 Klipsch sub 爆音與 Core 200 換機；同作者跨串後續改善僅作追蹤，不增加回報人數。 逐人採用摘錄：有線 Klipsch 重低音爆音，客服安排新 Core 200；另串說換機後改善。",
+              "exactModel": true,
+              "firstPerson": true,
+              "crossPostKey": null,
+              "reviewBasis": "manual_original_page",
+              "reviewedAt": "2026-08-31"
+            }
+          ]
+        },
+        {
+          "issueTitle": "有線重低音輸出間歇爆音／敲擊聲",
+          "platform": "Best Buy",
+          "title": "Klipsch Flexus CORE 200 3.1.2 Soundbar customer reviews",
+          "url": "https://www.bestbuy.com/product/klipsch-flexus-core-200-3-1-2-soundbar-black/JX44FCZPQ7/sku/6580304/reviews",
+          "evidenceSnippet": "Chrome 在 exact Core 200 SKU 6580304 的 Search Reviews 搜尋 popping，親讀 JOHND 與 Alex 的兩則原始購買者回報；兩人皆標示 Verified Purchaser／Incentivized。",
+          "authors": [
+            "JOHND",
+            "Alex"
+          ],
+          "distinctReportCount": 2,
+          "checkedAt": "2026-08-31",
+          "reports": [
+            {
+              "author": "JOHND",
+              "permalink": "https://www.bestbuy.com/product/klipsch-flexus-core-200-3-1-2-soundbar-black/JX44FCZPQ7/sku/6580304/reviews",
+              "locator": "Search Reviews = popping; JOHND; Good until it wasnt; 2026-08-01; review 434628895",
+              "evidenceExcerpt": "JOHND 自述有線重低音爆音，換過重低音擴大機仍認為聲霸輸出異常。",
+              "auditNote": "Chrome 親讀原零售評價，SKU6580304 明示 Core 200；Verified Purchaser 且標示 Incentivized。更換 sub 擴大機仍異常，非品牌轉載及非廠商回覆。 逐人採用摘錄：JOHND 自述有線重低音爆音，換過重低音擴大機仍認為聲霸輸出異常。",
+              "exactModel": true,
+              "firstPerson": true,
+              "crossPostKey": null,
+              "reviewBasis": "manual_original_page",
+              "reviewedAt": "2026-08-31"
+            },
+            {
+              "author": "Alex",
+              "permalink": "https://www.bestbuy.com/product/klipsch-flexus-core-200-3-1-2-soundbar-black/JX44FCZPQ7/sku/6580304/reviews",
+              "locator": "Search Reviews = popping; Alex; Known Issue with Subwoofer Output; 2026-08-17; review 437133563",
+              "evidenceExcerpt": "Alex 自用 Core 200 分別配 SVS PC12-NSD 與 SB5000，兩者皆出現爆音。",
+              "auditNote": "Chrome 親讀原零售評價，正文明確 Core 200；Verified Purchaser／Incentivized。兩款 SVS 皆爆音；作者的硬體原因猜測不採為工程結論。 逐人採用摘錄：Alex 自用 Core 200 分別配 SVS PC12-NSD 與 SB5000，兩者皆出現爆音。",
+              "exactModel": true,
+              "firstPerson": true,
+              "crossPostKey": null,
+              "reviewBasis": "manual_original_page",
+              "reviewedAt": "2026-08-31"
+            }
+          ]
+        }
+      ],
+      "rejectedCandidates": [
+        {
+          "platform": "Mobile01",
           "url": "https://www.mobile01.com/topicdetail.php?f=348&t=7207167",
-          "title": "Klipsch Flexus Core 200 使用問題",
+          "title": "Klipsch flexus core 200中央聲道失聲？？？",
           "outcome": "excluded",
           "exactModel": true,
-          "reviewedAt": "2026-08-29",
-          "sourceExcerpt": "Mobile01 一位 Core 200 使用者回報 Dolby Digital Plus 時中置聲道沒有聲音，切換模式或藍牙後可恢復。",
+          "reviewedAt": "2026-08-31",
+          "sourceExcerpt": "米糕控 的 Aiwa 電視輸出 Dolby Digital Plus 時中置無聲，切格式或藍牙後恢復。",
           "independentAuthors": 1,
-          "specificReason": "這是單一作者的中置聲道／格式相容候選，與 Reddit 的 RCA 重低音爆音不是同一問題，不能合併計數。",
-          "reason": "這是單一作者的中置聲道／格式相容候選，與 Reddit 的 RCA 重低音爆音不是同一問題，不能合併計數。"
+          "specificReason": "單一中置／格式案例與有線重低音爆音不是同一問題，未加入成立問題的人數。",
+          "reason": "單一中置／格式案例與有線重低音爆音不是同一問題，未加入成立問題的人數。"
+        },
+        {
+          "platform": "Mobile01",
+          "url": "https://www.mobile01.com/topicdetail.php?f=348&p=3&t=6957809",
+          "title": "【盲狙先生傳72】FLEXUS CORE 200（第3頁）",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-31",
+          "sourceExcerpt": "wonly 是後環繞單邊變小；Mr.Trouble 是對話增強時特定 YouTube 片段爆音。",
+          "independentAuthors": 2,
+          "specificReason": "後環繞音量、聲霸人聲增強爆音與 RCA 有線重低音輸出是不同症狀；smdavid 換訊源正常也不算同一故障。",
+          "reason": "後環繞音量、聲霸人聲增強爆音與 RCA 有線重低音輸出是不同症狀；smdavid 換訊源正常也不算同一故障。"
+        },
+        {
+          "platform": "Mobile01",
+          "url": "https://www.mobile01.com/topicdetail.php?f=348&p=2&t=6957809",
+          "title": "【盲狙先生傳72】FLEXUS CORE 200（第2頁）",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-31",
+          "sourceExcerpt": "在陸地生活的魚詢問未有外接配件選項；廖家派說後環繞太小聲。",
+          "independentAuthors": 1,
+          "specificReason": "配件設定疑問不是輸出故障；後環繞太小聲也不能加入有線重低音爆音人數。",
+          "reason": "配件設定疑問不是輸出故障；後環繞太小聲也不能加入有線重低音爆音人數。"
+        },
+        {
+          "platform": "Mobile01",
+          "url": "https://www.mobile01.com/topicdetail.php?f=348&t=7010264",
+          "title": "Klipsch flexus core200 無法點燈Dolby Atmos?",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-31",
+          "sourceExcerpt": "wrigley 用 Philips 65OLED706 經 eARC 接 Core 200，只顯示 5.1 而沒有 Atmos。",
+          "independentAuthors": 1,
+          "specificReason": "格式協商問題不同於 RCA 重低音爆音，其他回覆是設定建議，不作獨立故障作者。",
+          "reason": "格式協商問題不同於 RCA 重低音爆音，其他回覆是設定建議，不作獨立故障作者。"
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/Klipsch/comments/1sb1g5s/flexus_core_200_surr_100_issue_left_surround_is/",
+          "title": "Flexus Core 200 + Surr 100 Issue: Left Surround is silent",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-31",
+          "sourceExcerpt": "sixfootpointo 左後環繞無聲；換 Core 200 未解決，換 Surr 100 後才正常。",
+          "independentAuthors": 1,
+          "specificReason": "作者更新將問題定位到 Surr 100 配件，不能把此回報作 Core 200 聲霸故障或 RCA 爆音。",
+          "reason": "作者更新將問題定位到 Surr 100 配件，不能把此回報作 Core 200 聲霸故障或 RCA 爆音。"
+        },
+        {
+          "platform": "Mobile01",
+          "url": "https://www.mobile01.com/topicdetail.php?f=348&t=7004639",
+          "title": "「使用後心得」古力奇 Klipsch Core 200 大全配",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-31",
+          "sourceExcerpt": "作者描述 Core 200 全套使用一個月的音場提升，並列出購買前的舊設備痛點。",
+          "independentAuthors": 0,
+          "specificReason": "購買前痛點不是 Core 200 故障，正面試聽也不能推定沒有負評；本次不計作者。",
+          "reason": "購買前痛點不是 Core 200 故障，正面試聽也不能推定沒有負評；本次不計作者。"
+        },
+        {
+          "platform": "Mobile01",
+          "url": "https://www.mobile01.com/topicdetail.php?f=348&t=7187584",
+          "title": "小客廳適合什麼 Soundbar？",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-31",
+          "sourceExcerpt": "wonly 推薦 Core 200 加購無線後環繞，其他回覆比較兩聲道喇叭與聲霸。",
+          "independentAuthors": 0,
+          "specificReason": "沒有本人同型號輸出故障，泛談聲霸耐用性不能當作具體型號的獨立回報。",
+          "reason": "沒有本人同型號輸出故障，泛談聲霸耐用性不能當作具體型號的獨立回報。"
+        },
+        {
+          "platform": "Mobile01",
+          "url": "https://www.mobile01.com/topicdetail.php?f=348&t=7199044",
+          "title": "請問房間4到6坪聲霸推薦",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-31",
+          "sourceExcerpt": "wonly 提醒 Core 200 只有 HDMI eARC、光纖及藍牙，Core 300 連接較完整。",
+          "independentAuthors": 0,
+          "specificReason": "這是規格取捨而非失效；樓主只是選購，無法加入故障作者人數。",
+          "reason": "這是規格取捨而非失效；樓主只是選購，無法加入故障作者人數。"
+        },
+        {
+          "platform": "Mobile01",
+          "url": "https://www.mobile01.com/topicdetail.php?f=348&t=6969101",
+          "title": "【盲狙先生傳74】FLEXUS CORE 200 評測下篇",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-31",
+          "sourceExcerpt": "評測比較 MUSIC 與 MOVIE 音場及遙控器配對，並推測未推出的 Core 300。",
+          "independentAuthors": 0,
+          "specificReason": "音場差異及操作指引不是輸出爆音故障；當年 Core 300 猜測也不採作型號證據。",
+          "reason": "音場差異及操作指引不是輸出爆音故障；當年 Core 300 猜測也不採作型號證據。"
+        },
+        {
+          "platform": "Adorama",
+          "url": "https://www.adorama.com/klipsch-flexus-core-200-312-channel-dolby-atmos-soundbar/p/kp1071983",
+          "title": "Klipsch Flexus Core 200 user reviews（Klipsch轉載）",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-31",
+          "sourceExcerpt": "cesarr 與 Mister R. 提到有線重低音爆音，頁面均標示原發於 Klipsch。",
+          "independentAuthors": 0,
+          "specificReason": "親讀 Adorama 但未取得 Klipsch 原始評價；這兩位及 Target／Walmart 的同文轉載均不計入成立樣本與網站數。",
+          "reason": "親讀 Adorama 但未取得 Klipsch 原始評價；這兩位及 Target／Walmart 的同文轉載均不計入成立樣本與網站數。"
         }
       ]
     },
@@ -8842,7 +9190,7 @@
       "manualReview": {
         "status": "completed",
         "decision": "no_common_issue",
-        "reviewedAt": "2026-08-29",
+        "reviewedAt": "2026-08-31",
         "checkedPlatforms": [
           "Reddit",
           "Mobile01"
@@ -8850,88 +9198,161 @@
         "queries": [
           {
             "platform": "Reddit",
-            "query": "site:reddit.com \"Klipsch Flexus Core 100\" (problem OR issue OR defect OR failure)",
-            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Klipsch%20Flexus%20Core%20100%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+            "query": "site:reddit.com \"Flexus Core 100\" problem issue",
+            "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22Flexus%20Core%20100%22%20problem%20issue",
             "targetHost": "reddit.com"
           },
           {
             "platform": "Mobile01",
-            "query": "site:mobile01.com \"Klipsch Flexus Core 100\" (災情 OR 問題 OR 故障 OR 負評)",
-            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Klipsch%20Flexus%20Core%20100%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "query": "site:mobile01.com \"Flexus Core 100\" 問題 故障",
+            "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Flexus%20Core%20100%22%20%E5%95%8F%E9%A1%8C%20%E6%95%85%E9%9A%9C",
             "targetHost": "mobile01.com"
           }
         ],
-        "candidateDisposition": "Flexus Core 100：Reddit 與 Mobile01 各有一位使用者提出主觀音色或複雜內容細節取捨，合計仍遠低於同一問題 6 人門檻。",
+        "candidateDisposition": "Flexus Core 100：音色取捨各一名，另有一名 Xiaomi 電視 Disney+ 格式疑問；沒有同一問題六人。",
         "representativeSources": [
           {
             "platform": "Reddit",
-            "title": "Klipsch Flexus Core 100 - my thoughts",
+            "title": "Klipsch Flexus Core 100.. My thoughts",
             "url": "https://www.reddit.com/r/Soundbars/comments/1ugl3ft/klipsch_flexus_core_100_my_thoughts/"
           },
           {
             "platform": "Mobile01",
-            "title": "Klipsch Flexus Core 100 心得",
+            "title": "【聲霸開箱】Klipsch Flexus Soundbar Core 100",
             "url": "https://www.mobile01.com/topicdetail.php?f=348&t=6952165"
+          },
+          {
+            "platform": "Mobile01",
+            "title": "小米S Pro Mini LED 2026 Disney+ 音效問題",
+            "url": "https://www.mobile01.com/topicdetail.php?f=347&t=7274651"
+          },
+          {
+            "platform": "Mobile01",
+            "title": "【盲狙先生傳71】Klipsch FLEXUS CORE 100 4.1全配評測",
+            "url": "https://www.mobile01.com/topicdetail.php?f=348&t=6953486"
           }
         ],
         "candidateReviews": [
           {
             "platform": "Reddit",
             "url": "https://www.reddit.com/r/Soundbars/comments/1ugl3ft/klipsch_flexus_core_100_my_thoughts/",
-            "title": "Klipsch Flexus Core 100 - my thoughts",
+            "title": "Klipsch Flexus Core 100.. My thoughts",
             "outcome": "excluded",
             "exactModel": true,
-            "reviewedAt": "2026-08-29",
-            "sourceExcerpt": "一位 Core 100 使用者認為音色偏平、音樂高頻與細節較弱，屬於個人聽感評價。",
+            "reviewedAt": "2026-08-31",
+            "sourceExcerpt": "whitieiii 覺得 Core 100 音樂高低頻偏平；其他留言是選購提問或正面體驗。",
             "independentAuthors": 1,
-            "specificReason": "只有 1 位 exact-model 使用者，且內容屬主觀調音偏好，不足以成立 6 位使用者的集中硬體或韌體問題。"
+            "specificReason": "一位使用者的音色偏好，沒有六位同問題作者；不把詢問者計入負評。"
           },
           {
             "platform": "Mobile01",
             "url": "https://www.mobile01.com/topicdetail.php?f=348&t=6952165",
-            "title": "Klipsch Flexus Core 100 心得",
+            "title": "【聲霸開箱】Klipsch Flexus Soundbar Core 100",
             "outcome": "excluded",
             "exactModel": true,
-            "reviewedAt": "2026-08-29",
-            "sourceExcerpt": "一位 Mobile01 使用者認為複雜內容的細節不如傳統喇叭系統，但整體評價仍超過八十分。",
+            "reviewedAt": "2026-08-31",
+            "sourceExcerpt": "我叫小賀0111 認為易留指紋、複雜音樂細節不如傳統音響；單機尚未加購後環繞。",
             "independentAuthors": 1,
-            "specificReason": "只有 1 位 exact-model 評測者，描述的是系統取捨而非明確故障；跨站合計也未達 6 位同一問題使用者。"
+            "specificReason": "一位實際開箱者描述音色及表面取捨；未安裝後環繞不能使用該功能不當成故障。"
+          },
+          {
+            "platform": "Mobile01",
+            "url": "https://www.mobile01.com/topicdetail.php?f=347&t=7274651",
+            "title": "小米S Pro Mini LED 2026 Disney+ 音效問題",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-08-31",
+            "sourceExcerpt": "Nick_Nick 使用 Core 100，Disney+ 連電視內建喇叭與聲霸都不能顯示 Atmos。",
+            "independentAuthors": 1,
+            "specificReason": "僅一位作者且電視內建喇叭也有相同現象，不能據此認定 Core 100 缺陷或與 Core 200 症狀相加。"
+          },
+          {
+            "platform": "Mobile01",
+            "url": "https://www.mobile01.com/topicdetail.php?f=348&t=6953486",
+            "title": "【盲狙先生傳71】Klipsch FLEXUS CORE 100 4.1全配評測",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-08-31",
+            "sourceExcerpt": "原文試用 Core 100 與 SURR 100，描述低音、App 及配對方法，整體為正面評測。",
+            "independentAuthors": 0,
+            "specificReason": "當下核閱相關段落沒有第一人稱同症狀故障；規格介紹及正面試聽不能計入集中負評。"
           }
         ],
-        "reviewerNote": "Flexus Core 100：已人工覆核 Reddit 與 Mobile01 原頁；只見少數主觀取捨，未達同一問題 6 人門檻。",
+        "reviewerNote": "Flexus Core 100：親讀 Reddit 與 Mobile01 原頁；分類看待主觀音色、缺少外接配件及電視訊源問題，沒有把它們合併成災情。",
         "attestation": "manual_original_pages_reviewed"
       },
       "issueResearch": {
         "status": "no_common_issue",
-        "checkedAt": "2026-08-29",
+        "checkedAt": "2026-08-31",
         "summary": "截至查核日，查無達門檻的集中負評／災情",
         "issues": [],
         "checkedSources": [
           {
             "platform": "Reddit",
-            "query": "site:reddit.com \"Klipsch Flexus Core 100\" (problem OR issue OR defect OR failure)",
-            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Klipsch%20Flexus%20Core%20100%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+            "query": "site:reddit.com \"Flexus Core 100\" problem issue",
+            "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22Flexus%20Core%20100%22%20problem%20issue",
             "targetHost": "reddit.com"
           },
           {
             "platform": "Mobile01",
-            "query": "site:mobile01.com \"Klipsch Flexus Core 100\" (災情 OR 問題 OR 故障 OR 負評)",
-            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Klipsch%20Flexus%20Core%20100%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "query": "site:mobile01.com \"Flexus Core 100\" 問題 故障",
+            "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Flexus%20Core%20100%22%20%E5%95%8F%E9%A1%8C%20%E6%95%85%E9%9A%9C",
             "targetHost": "mobile01.com"
           }
         ]
       },
       "searchChecks": [
         {
-          "platform": "Yahoo Search",
-          "query": "(\"Klipsch Flexus Core 100\") (problem OR issue OR defect OR failure OR 災情 OR 故障 OR 負評) (site:mobile01.com OR site:dcard.tw OR site:ptt.cc OR site:reddit.com OR site:snbforums.com OR site:52asus.com)",
-          "searchUrl": "https://search.yahoo.com/search?p=(%22Klipsch%20Flexus%20Core%20100%22)%20(problem%20OR%20issue%20OR%20defect%20OR%20failure%20OR%20%E7%81%BD%E6%83%85%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)%20(site%3Amobile01.com%20OR%20site%3Adcard.tw%20OR%20site%3Aptt.cc%20OR%20site%3Areddit.com%20OR%20site%3Asnbforums.com%20OR%20site%3A52asus.com)",
-          "result": "search_unavailable",
-          "resultCount": 0,
-          "candidateUrls": [],
-          "candidates": [],
-          "inspectedAt": "2026-08-29T00:00:00+08:00",
-          "error": "HTTP 500"
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Flexus Core 100\" problem issue",
+          "searchUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22Flexus%20Core%20100%22%20problem%20issue",
+          "result": "candidates_unverified_by_search_only",
+          "inspectedAt": "2026-08-31T00:00:00+08:00",
+          "candidates": [
+            {
+              "title": "Klipsch Flexus Core 100.. My thoughts",
+              "url": "https://www.reddit.com/r/Soundbars/comments/1ugl3ft/klipsch_flexus_core_100_my_thoughts/",
+              "snippet": "whitieiii 覺得 Core 100 音樂高低頻偏平；其他留言是選購提問或正面體驗。",
+              "exactModel": true
+            }
+          ],
+          "resultCount": 1,
+          "candidateUrls": [
+            "https://www.reddit.com/r/Soundbars/comments/1ugl3ft/klipsch_flexus_core_100_my_thoughts/"
+          ]
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Flexus Core 100\" 問題 故障",
+          "searchUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Flexus%20Core%20100%22%20%E5%95%8F%E9%A1%8C%20%E6%95%85%E9%9A%9C",
+          "result": "candidates_unverified_by_search_only",
+          "inspectedAt": "2026-08-31T00:00:00+08:00",
+          "candidates": [
+            {
+              "title": "【聲霸開箱】Klipsch Flexus Soundbar Core 100",
+              "url": "https://www.mobile01.com/topicdetail.php?f=348&t=6952165",
+              "snippet": "我叫小賀0111 認為易留指紋、複雜音樂細節不如傳統音響；單機尚未加購後環繞。",
+              "exactModel": true
+            },
+            {
+              "title": "小米S Pro Mini LED 2026 Disney+ 音效問題",
+              "url": "https://www.mobile01.com/topicdetail.php?f=347&t=7274651",
+              "snippet": "Nick_Nick 使用 Core 100，Disney+ 連電視內建喇叭與聲霸都不能顯示 Atmos。",
+              "exactModel": true
+            },
+            {
+              "title": "【盲狙先生傳71】Klipsch FLEXUS CORE 100 4.1全配評測",
+              "url": "https://www.mobile01.com/topicdetail.php?f=348&t=6953486",
+              "snippet": "原文試用 Core 100 與 SURR 100，描述低音、App 及配對方法，整體為正面評測。",
+              "exactModel": true
+            }
+          ],
+          "resultCount": 3,
+          "candidateUrls": [
+            "https://www.mobile01.com/topicdetail.php?f=348&t=6952165",
+            "https://www.mobile01.com/topicdetail.php?f=347&t=7274651",
+            "https://www.mobile01.com/topicdetail.php?f=348&t=6953486"
+          ]
         }
       ],
       "evidence": [],
@@ -8939,26 +9360,50 @@
         {
           "platform": "Reddit",
           "url": "https://www.reddit.com/r/Soundbars/comments/1ugl3ft/klipsch_flexus_core_100_my_thoughts/",
-          "title": "Klipsch Flexus Core 100 - my thoughts",
+          "title": "Klipsch Flexus Core 100.. My thoughts",
           "outcome": "excluded",
           "exactModel": true,
-          "reviewedAt": "2026-08-29",
-          "sourceExcerpt": "一位 Core 100 使用者認為音色偏平、音樂高頻與細節較弱，屬於個人聽感評價。",
+          "reviewedAt": "2026-08-31",
+          "sourceExcerpt": "whitieiii 覺得 Core 100 音樂高低頻偏平；其他留言是選購提問或正面體驗。",
           "independentAuthors": 1,
-          "specificReason": "只有 1 位 exact-model 使用者，且內容屬主觀調音偏好，不足以成立 6 位使用者的集中硬體或韌體問題。",
-          "reason": "只有 1 位 exact-model 使用者，且內容屬主觀調音偏好，不足以成立 6 位使用者的集中硬體或韌體問題。"
+          "specificReason": "一位使用者的音色偏好，沒有六位同問題作者；不把詢問者計入負評。",
+          "reason": "一位使用者的音色偏好，沒有六位同問題作者；不把詢問者計入負評。"
         },
         {
           "platform": "Mobile01",
           "url": "https://www.mobile01.com/topicdetail.php?f=348&t=6952165",
-          "title": "Klipsch Flexus Core 100 心得",
+          "title": "【聲霸開箱】Klipsch Flexus Soundbar Core 100",
           "outcome": "excluded",
           "exactModel": true,
-          "reviewedAt": "2026-08-29",
-          "sourceExcerpt": "一位 Mobile01 使用者認為複雜內容的細節不如傳統喇叭系統，但整體評價仍超過八十分。",
+          "reviewedAt": "2026-08-31",
+          "sourceExcerpt": "我叫小賀0111 認為易留指紋、複雜音樂細節不如傳統音響；單機尚未加購後環繞。",
           "independentAuthors": 1,
-          "specificReason": "只有 1 位 exact-model 評測者，描述的是系統取捨而非明確故障；跨站合計也未達 6 位同一問題使用者。",
-          "reason": "只有 1 位 exact-model 評測者，描述的是系統取捨而非明確故障；跨站合計也未達 6 位同一問題使用者。"
+          "specificReason": "一位實際開箱者描述音色及表面取捨；未安裝後環繞不能使用該功能不當成故障。",
+          "reason": "一位實際開箱者描述音色及表面取捨；未安裝後環繞不能使用該功能不當成故障。"
+        },
+        {
+          "platform": "Mobile01",
+          "url": "https://www.mobile01.com/topicdetail.php?f=347&t=7274651",
+          "title": "小米S Pro Mini LED 2026 Disney+ 音效問題",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-31",
+          "sourceExcerpt": "Nick_Nick 使用 Core 100，Disney+ 連電視內建喇叭與聲霸都不能顯示 Atmos。",
+          "independentAuthors": 1,
+          "specificReason": "僅一位作者且電視內建喇叭也有相同現象，不能據此認定 Core 100 缺陷或與 Core 200 症狀相加。",
+          "reason": "僅一位作者且電視內建喇叭也有相同現象，不能據此認定 Core 100 缺陷或與 Core 200 症狀相加。"
+        },
+        {
+          "platform": "Mobile01",
+          "url": "https://www.mobile01.com/topicdetail.php?f=348&t=6953486",
+          "title": "【盲狙先生傳71】Klipsch FLEXUS CORE 100 4.1全配評測",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-31",
+          "sourceExcerpt": "原文試用 Core 100 與 SURR 100，描述低音、App 及配對方法，整體為正面評測。",
+          "independentAuthors": 0,
+          "specificReason": "當下核閱相關段落沒有第一人稱同症狀故障；規格介紹及正面試聽不能計入集中負評。",
+          "reason": "當下核閱相關段落沒有第一人稱同症狀故障；規格介紹及正面試聽不能計入集中負評。"
         }
       ]
     },
@@ -8980,96 +9425,462 @@
       "manualReview": {
         "status": "completed",
         "decision": "no_common_issue",
-        "reviewedAt": "2026-08-29",
+        "reviewedAt": "2026-08-31",
         "checkedPlatforms": [
           "Reddit",
-          "Mobile01"
+          "Mobile01",
+          "RTINGS"
         ],
         "queries": [
           {
             "platform": "Reddit",
-            "query": "site:reddit.com \"Klipsch Flexus Core 300\" (problem OR issue OR defect OR failure)",
-            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Klipsch%20Flexus%20Core%20300%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+            "query": "site:reddit.com \"Flexus Core 300\" problem issue",
+            "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22Flexus%20Core%20300%22%20problem%20issue",
             "targetHost": "reddit.com"
           },
           {
             "platform": "Mobile01",
-            "query": "site:mobile01.com \"Klipsch Flexus Core 300\" (災情 OR 問題 OR 故障 OR 負評)",
-            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Klipsch%20Flexus%20Core%20300%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "query": "site:mobile01.com \"Flexus Core 300\" 問題 故障",
+            "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Flexus%20Core%20300%22%20%E5%95%8F%E9%A1%8C%20%E6%95%85%E9%9A%9C",
             "targetHost": "mobile01.com"
           }
         ],
-        "candidateDisposition": "Flexus Core 300：Reddit 只見少數 CEC 電源連動或早期連線候選，Mobile01 查詢未找到第二個原始網站的同症狀回報。",
+        "candidateDisposition": "Flexus Core 300：CEC、首次 Wi-Fi 設定、App 斷連、低音異音、音量及格式顯示分開覆核，各症狀均未取得六位跨站獨立作者。",
         "representativeSources": [
           {
             "platform": "Reddit",
-            "title": "Apple TV 4K and Klipsch Flexus Core 300 power on issue",
+            "title": "Apple TV 4K and Klipsch Flexus Core 300 Power On Issues",
             "url": "https://www.reddit.com/r/Soundbars/comments/1v99hjr/apple_tv_4k_and_klipsch_flexus_core_300_power_on/"
           },
           {
             "platform": "Reddit",
-            "title": "Klipsch Flexus Core 300 - 2nd try",
+            "title": "Klipsch Flexus Core 300 2nd Try",
             "url": "https://www.reddit.com/r/Soundbars/comments/1qxplqp/klipsch_flexus_core_300_2nd_try/"
+          },
+          {
+            "platform": "Reddit",
+            "title": "Flexes Core 300 help",
+            "url": "https://www.reddit.com/r/Soundbars/comments/1vhya2u/flexes_core_300_help/"
+          },
+          {
+            "platform": "Reddit",
+            "title": "Klipsch Flexus Core 300 Sounds Amazing... But Its Bass Drivers Rattle",
+            "url": "https://www.reddit.com/r/Soundbars/comments/1nrfzan/klipsch_flexus_core_300_sounds_amazing_but_its/"
+          },
+          {
+            "platform": "Reddit",
+            "title": "Flexus 300 Core Love",
+            "url": "https://www.reddit.com/r/Klipsch/comments/1q7rgby/flexus_300_core_love/"
+          },
+          {
+            "platform": "Reddit",
+            "title": "Klipsch Flexus wireless connectivity issues?",
+            "url": "https://www.reddit.com/r/Soundbars/comments/1qa686i/klipsch_flexus_wireless_connectivity_issues/"
+          },
+          {
+            "platform": "Mobile01",
+            "title": "TCL C8K 韌體更新教學（第3頁）",
+            "url": "https://www.mobile01.com/topicdetail.php?f=347&p=3&t=7235106"
+          },
+          {
+            "platform": "Mobile01",
+            "title": "全球首發．Klipsch Flexus Core 300（第4頁）",
+            "url": "https://www.mobile01.com/topicdetail.php?f=348&p=4&t=7034212"
+          },
+          {
+            "platform": "Mobile01",
+            "title": "兩組價位差不多的聲霸 如何選擇?",
+            "url": "https://www.mobile01.com/topicdetail.php?f=348&t=7206023"
+          },
+          {
+            "platform": "Mobile01",
+            "title": "2024 12月份台北國際音響大展（第8頁）",
+            "url": "https://www.mobile01.com/topicdetail.php?f=348&p=8&t=7056775"
+          },
+          {
+            "platform": "Mobile01",
+            "title": "最後一次的圓山音響展...? 小分享",
+            "url": "https://www.mobile01.com/topicdetail.php?f=348&t=7197727"
+          },
+          {
+            "platform": "Mobile01",
+            "title": "全球首發．Klipsch Flexus Core 300",
+            "url": "https://www.mobile01.com/topicdetail.php?f=348&t=7034212"
+          },
+          {
+            "platform": "Mobile01",
+            "title": "【盲狙速評】Klipsch FLEXUS CORE 300 7.2.4超全配初體驗",
+            "url": "https://www.mobile01.com/topicdetail.php?f=348&t=7052464"
+          },
+          {
+            "platform": "Mobile01",
+            "title": "【Klipsch Flexus Core 300】Dirac Live加持，真正展現實力的家庭劇院核心",
+            "url": "https://www.mobile01.com/topicdetail.php?f=348&t=7125029"
+          },
+          {
+            "platform": "Mobile01",
+            "title": "新客廳問一下建議soundbar 或劇院組",
+            "url": "https://www.mobile01.com/topicdetail.php?f=348&t=7162821"
+          },
+          {
+            "platform": "Mobile01",
+            "title": "請問房間4到6坪聲霸推薦",
+            "url": "https://www.mobile01.com/topicdetail.php?f=348&t=7199044"
+          },
+          {
+            "platform": "RTINGS",
+            "title": "Klipsch Flexus Core 300 Review",
+            "url": "https://www.rtings.com/soundbar/reviews/klipsch/flexus-core-300"
           }
         ],
         "candidateReviews": [
           {
             "platform": "Reddit",
             "url": "https://www.reddit.com/r/Soundbars/comments/1v99hjr/apple_tv_4k_and_klipsch_flexus_core_300_power_on/",
-            "title": "Apple TV 4K and Klipsch Flexus Core 300 power on issue",
+            "title": "Apple TV 4K and Klipsch Flexus Core 300 Power On Issues",
             "outcome": "excluded",
             "exactModel": true,
-            "reviewedAt": "2026-08-29",
-            "sourceExcerpt": "原頁有 2 位 Core 300 使用者談到 Apple TV／電視開機時的 HDMI CEC 電源連動問題。",
+            "reviewedAt": "2026-08-31",
+            "sourceExcerpt": "CAS30 與 KylanXaimless 自述 Apple TV 無法喚醒 Core 300；另兩名使用者表示正常。",
             "independentAuthors": 2,
-            "specificReason": "只有 2 位 exact-model 使用者，且候選全部來自 Reddit；沒有第二個原始網站可支持同一 CEC 症狀。"
+            "specificReason": "兩位 CEC 開機作者只在 Reddit；正常回報不計入，同樣也不能與音量突然變大等不同症狀混計。"
           },
           {
             "platform": "Reddit",
             "url": "https://www.reddit.com/r/Soundbars/comments/1qxplqp/klipsch_flexus_core_300_2nd_try/",
-            "title": "Klipsch Flexus Core 300 - 2nd try",
+            "title": "Klipsch Flexus Core 300 2nd Try",
             "outcome": "excluded",
             "exactModel": true,
-            "reviewedAt": "2026-08-29",
-            "sourceExcerpt": "一位 Core 300 使用者提到先前機器有連線問題，換機與韌體更新後第二次嘗試已改善。",
+            "reviewedAt": "2026-08-31",
+            "sourceExcerpt": "GuitarOk7360 說早期 Core 300 連線不穩，第二台搭配一月底更新後近兩週沒有斷連。",
             "independentAuthors": 1,
-            "specificReason": "只有 1 位 exact-model 使用者，且描述的早期連線問題已在換機或更新後改善；仍未跨第二個原始網站。"
+            "specificReason": "只有一名連線作者，與其 Core Love 及 wireless connectivity 討論為同帳號重複，且保留改善結果。"
+          },
+          {
+            "platform": "Reddit",
+            "url": "https://www.reddit.com/r/Soundbars/comments/1vhya2u/flexes_core_300_help/",
+            "title": "Flexes Core 300 help",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-08-31",
+            "sourceExcerpt": "Accomplished-Use-175 無法完成 Wi-Fi 設定；I_am_INTJ 也遇到困難，簡化密碼後成功。",
+            "independentAuthors": 2,
+            "specificReason": "兩位首次 Wi-Fi 設定案例，未達六人；十字元限制只是提問，特殊字元原因也是使用者推測。"
+          },
+          {
+            "platform": "Reddit",
+            "url": "https://www.reddit.com/r/Soundbars/comments/1nrfzan/klipsch_flexus_core_300_sounds_amazing_but_its/",
+            "title": "Klipsch Flexus Core 300 Sounds Amazing... But Its Bass Drivers Rattle",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-08-31",
+            "sourceExcerpt": "sorelydisappointed 與 xShadowBlitz117 回報低音異音；後者換新後異音改善但偶爾仍到底。",
+            "independentAuthors": 2,
+            "specificReason": "兩位同型號低音作者；媒體測試不計為額外多名使用者，不能與 Core 200 有線輸出爆音合併。"
+          },
+          {
+            "platform": "Reddit",
+            "url": "https://www.reddit.com/r/Klipsch/comments/1q7rgby/flexus_300_core_love/",
+            "title": "Flexus 300 Core Love",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-08-31",
+            "sourceExcerpt": "GuitarOk7360 描述 App 反覆斷連；Fit_Television8398 說 iOS App 凍結經三月更新改善。",
+            "independentAuthors": 1,
+            "specificReason": "GuitarOk7360 與另外兩串是同人；Fit_Television8398 沒明確自述主機型號，不納 exact-model 人數。"
+          },
+          {
+            "platform": "Reddit",
+            "url": "https://www.reddit.com/r/Soundbars/comments/1qa686i/klipsch_flexus_wireless_connectivity_issues/",
+            "title": "Klipsch Flexus wireless connectivity issues?",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-08-31",
+            "sourceExcerpt": "GuitarOk7360 的 Core 300 是 App 斷連；Brutini 說 Core 300 後環繞數小時後斷連。",
+            "independentAuthors": 2,
+            "specificReason": "App 連線與後環繞音訊斷連分別只有一位，GuitarOk7360 必須跨串去重；Core 200 留言全部排除。"
+          },
+          {
+            "platform": "Mobile01",
+            "url": "https://www.mobile01.com/topicdetail.php?f=347&p=3&t=7235106",
+            "title": "TCL C8K 韌體更新教學（第3頁）",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-08-31",
+            "sourceExcerpt": "第28樓 joe7182 自述 eARC Core 300 曾音量突然變大，換遙控器電池後仍在觀察。",
+            "independentAuthors": 1,
+            "specificReason": "一位音量案例、原因未明，不等同 Reddit 的 CEC 喚醒、Wi-Fi 設定或低音異音問題。"
+          },
+          {
+            "platform": "Mobile01",
+            "url": "https://www.mobile01.com/topicdetail.php?f=348&p=4&t=7034212",
+            "title": "全球首發．Klipsch Flexus Core 300（第4頁）",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-08-31",
+            "sourceExcerpt": "ronaless 表示五月 App 已可連；anygod 的 App 顯示 Atmos 但機身沒有持續亮燈。",
+            "independentAuthors": 2,
+            "specificReason": "先前 App 尚未支援與持續顯示期待是不同情境；回覆指出格式只短暫顯示，不把此文湊入六人斷連。"
+          },
+          {
+            "platform": "Mobile01",
+            "url": "https://www.mobile01.com/topicdetail.php?f=348&t=7206023",
+            "title": "兩組價位差不多的聲霸 如何選擇?",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-08-31",
+            "sourceExcerpt": "tamama2015tw 說古力奇災情不少，但實際連結是 Cinema 800 主機板故障。",
+            "independentAuthors": 0,
+            "specificReason": "只有選購建議與另一型號 Cinema 800 的轉述，沒有本人 Core 300 故障，禁止系列混算。"
+          },
+          {
+            "platform": "Mobile01",
+            "url": "https://www.mobile01.com/topicdetail.php?f=348&p=8&t=7056775",
+            "title": "2024 12月份台北國際音響大展（第8頁）",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-08-31",
+            "sourceExcerpt": "參展者抱怨 Klipsch 攤位一直介紹卡拉 OK 而未提供 Core 300 試聽。",
+            "independentAuthors": 0,
+            "specificReason": "這是展場接待體驗，並非購買使用 Core 300 後的產品故障，不計入同症狀人數。"
+          },
+          {
+            "platform": "Mobile01",
+            "url": "https://www.mobile01.com/topicdetail.php?f=348&t=7197727",
+            "title": "最後一次的圓山音響展...? 小分享",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-08-31",
+            "sourceExcerpt": "Vicky224 說朋友多次要求試聽 Core 300，但攤位一直推卡拉 OK。",
+            "independentAuthors": 0,
+            "specificReason": "屬展場未能試聽的服務經驗，沒有本人 Core 300 故障，也不能把同行朋友當獨立故障作者。"
+          },
+          {
+            "platform": "Mobile01",
+            "url": "https://www.mobile01.com/topicdetail.php?f=348&t=7034212",
+            "title": "全球首發．Klipsch Flexus Core 300",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-08-31",
+            "sourceExcerpt": "早期開箱說台灣總代理尚未發行，並說明 Dirac 把各重低音視為一個低音通道。",
+            "independentAuthors": 0,
+            "specificReason": "樣機開箱與規格使用說明沒有同症狀故障作者；後續使用疑問另在第4頁逐項覆核。"
+          },
+          {
+            "platform": "Mobile01",
+            "url": "https://www.mobile01.com/topicdetail.php?f=348&t=7052464",
+            "title": "【盲狙速評】Klipsch FLEXUS CORE 300 7.2.4超全配初體驗",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-08-31",
+            "sourceExcerpt": "早期試聽文說當時 Connect Plus 尚未更新，因此手機暫不能使用串流功能。",
+            "independentAuthors": 0,
+            "specificReason": "上市前軟體尚未開放不能直接算作現售機 App 斷連故障；不與後期使用者的不同連線問題湊數。"
+          },
+          {
+            "platform": "Mobile01",
+            "url": "https://www.mobile01.com/topicdetail.php?f=348&t=7125029",
+            "title": "【Klipsch Flexus Core 300】Dirac Live加持，真正展現實力的家庭劇院核心",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-08-31",
+            "sourceExcerpt": "原頁相關段落描述 Dirac Live 調整與開啟後的聽感，屬正面體驗。",
+            "independentAuthors": 0,
+            "specificReason": "已核閱的相關段落没有第一人稱故障，不能以評測中的「問題」字眼轉成集中負評作者。"
+          },
+          {
+            "platform": "Mobile01",
+            "url": "https://www.mobile01.com/topicdetail.php?f=348&t=7162821",
+            "title": "新客廳問一下建議soundbar 或劇院組",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-08-31",
+            "sourceExcerpt": "回覆推薦 Core 300 的 Dirac，並討論另購無線後環繞。",
+            "independentAuthors": 0,
+            "specificReason": "選購推薦及擴充能力討論，沒有自用 Core 300 同症狀故障；不從推薦句推断可靠度。"
+          },
+          {
+            "platform": "Mobile01",
+            "url": "https://www.mobile01.com/topicdetail.php?f=348&t=7199044",
+            "title": "請問房間4到6坪聲霸推薦",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-08-31",
+            "sourceExcerpt": "樓主覺得 Core 300 超預算，其他回覆比較 Core 200 與 300 的連接選項。",
+            "independentAuthors": 0,
+            "specificReason": "預算與規格比較不是故障回報，提到 Samsung 更新災情也不能歸給 Klipsch。"
+          },
+          {
+            "platform": "RTINGS",
+            "url": "https://www.rtings.com/soundbar/reviews/klipsch/flexus-core-300",
+            "title": "Klipsch Flexus Core 300 Review",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-08-31",
+            "sourceExcerpt": "RTINGS 的 Core 300 測試指出高音量低頻可能異音，同時說明單機低頻與音量限制。",
+            "independentAuthors": 0,
+            "specificReason": "專業媒體測試提供購前注意，但不是六位可辨識獨立消費者，不把三位署名者各算一台故障。"
           }
         ],
-        "reviewerNote": "Flexus Core 300：已人工覆核 Reddit 候選並完成 Mobile01 跨站查詢；未達同一問題 6 人及 2 個原始網站門檻。",
+        "reviewerNote": "Flexus Core 300：親讀 Reddit 與 Mobile01 候選。GuitarOk7360 跨三串只計一位；Wi-Fi 設定不可混入 CEC、後環繞或聲音異常；早期未開放 App 的樣機文不作現售故障。",
         "attestation": "manual_original_pages_reviewed"
       },
       "issueResearch": {
         "status": "no_common_issue",
-        "checkedAt": "2026-08-29",
+        "checkedAt": "2026-08-31",
         "summary": "截至查核日，查無達門檻的集中負評／災情",
         "issues": [],
         "checkedSources": [
           {
             "platform": "Reddit",
-            "query": "site:reddit.com \"Klipsch Flexus Core 300\" (problem OR issue OR defect OR failure)",
-            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Klipsch%20Flexus%20Core%20300%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+            "query": "site:reddit.com \"Flexus Core 300\" problem issue",
+            "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22Flexus%20Core%20300%22%20problem%20issue",
             "targetHost": "reddit.com"
           },
           {
             "platform": "Mobile01",
-            "query": "site:mobile01.com \"Klipsch Flexus Core 300\" (災情 OR 問題 OR 故障 OR 負評)",
-            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Klipsch%20Flexus%20Core%20300%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "query": "site:mobile01.com \"Flexus Core 300\" 問題 故障",
+            "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Flexus%20Core%20300%22%20%E5%95%8F%E9%A1%8C%20%E6%95%85%E9%9A%9C",
             "targetHost": "mobile01.com"
           }
         ]
       },
       "searchChecks": [
         {
-          "platform": "Yahoo Search",
-          "query": "(\"Klipsch Flexus Core 300\") (problem OR issue OR defect OR failure OR 災情 OR 故障 OR 負評) (site:mobile01.com OR site:dcard.tw OR site:ptt.cc OR site:reddit.com OR site:snbforums.com OR site:52asus.com)",
-          "searchUrl": "https://search.yahoo.com/search?p=(%22Klipsch%20Flexus%20Core%20300%22)%20(problem%20OR%20issue%20OR%20defect%20OR%20failure%20OR%20%E7%81%BD%E6%83%85%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)%20(site%3Amobile01.com%20OR%20site%3Adcard.tw%20OR%20site%3Aptt.cc%20OR%20site%3Areddit.com%20OR%20site%3Asnbforums.com%20OR%20site%3A52asus.com)",
-          "result": "search_unavailable",
-          "resultCount": 0,
-          "candidateUrls": [],
-          "candidates": [],
-          "inspectedAt": "2026-08-29T00:00:00+08:00",
-          "error": "HTTP 500"
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Flexus Core 300\" problem issue",
+          "searchUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22Flexus%20Core%20300%22%20problem%20issue",
+          "result": "candidates_unverified_by_search_only",
+          "inspectedAt": "2026-08-31T00:00:00+08:00",
+          "candidates": [
+            {
+              "title": "Apple TV 4K and Klipsch Flexus Core 300 Power On Issues",
+              "url": "https://www.reddit.com/r/Soundbars/comments/1v99hjr/apple_tv_4k_and_klipsch_flexus_core_300_power_on/",
+              "snippet": "CAS30 與 KylanXaimless 自述 Apple TV 無法喚醒 Core 300；另兩名使用者表示正常。",
+              "exactModel": true
+            },
+            {
+              "title": "Klipsch Flexus Core 300 2nd Try",
+              "url": "https://www.reddit.com/r/Soundbars/comments/1qxplqp/klipsch_flexus_core_300_2nd_try/",
+              "snippet": "GuitarOk7360 說早期 Core 300 連線不穩，第二台搭配一月底更新後近兩週沒有斷連。",
+              "exactModel": true
+            },
+            {
+              "title": "Flexes Core 300 help",
+              "url": "https://www.reddit.com/r/Soundbars/comments/1vhya2u/flexes_core_300_help/",
+              "snippet": "Accomplished-Use-175 無法完成 Wi-Fi 設定；I_am_INTJ 也遇到困難，簡化密碼後成功。",
+              "exactModel": true
+            },
+            {
+              "title": "Klipsch Flexus Core 300 Sounds Amazing... But Its Bass Drivers Rattle",
+              "url": "https://www.reddit.com/r/Soundbars/comments/1nrfzan/klipsch_flexus_core_300_sounds_amazing_but_its/",
+              "snippet": "sorelydisappointed 與 xShadowBlitz117 回報低音異音；後者換新後異音改善但偶爾仍到底。",
+              "exactModel": true
+            },
+            {
+              "title": "Flexus 300 Core Love",
+              "url": "https://www.reddit.com/r/Klipsch/comments/1q7rgby/flexus_300_core_love/",
+              "snippet": "GuitarOk7360 描述 App 反覆斷連；Fit_Television8398 說 iOS App 凍結經三月更新改善。",
+              "exactModel": true
+            },
+            {
+              "title": "Klipsch Flexus wireless connectivity issues?",
+              "url": "https://www.reddit.com/r/Soundbars/comments/1qa686i/klipsch_flexus_wireless_connectivity_issues/",
+              "snippet": "GuitarOk7360 的 Core 300 是 App 斷連；Brutini 說 Core 300 後環繞數小時後斷連。",
+              "exactModel": true
+            }
+          ],
+          "resultCount": 6,
+          "candidateUrls": [
+            "https://www.reddit.com/r/Soundbars/comments/1v99hjr/apple_tv_4k_and_klipsch_flexus_core_300_power_on/",
+            "https://www.reddit.com/r/Soundbars/comments/1qxplqp/klipsch_flexus_core_300_2nd_try/",
+            "https://www.reddit.com/r/Soundbars/comments/1vhya2u/flexes_core_300_help/",
+            "https://www.reddit.com/r/Soundbars/comments/1nrfzan/klipsch_flexus_core_300_sounds_amazing_but_its/",
+            "https://www.reddit.com/r/Klipsch/comments/1q7rgby/flexus_300_core_love/",
+            "https://www.reddit.com/r/Soundbars/comments/1qa686i/klipsch_flexus_wireless_connectivity_issues/"
+          ]
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Flexus Core 300\" 問題 故障",
+          "searchUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Flexus%20Core%20300%22%20%E5%95%8F%E9%A1%8C%20%E6%95%85%E9%9A%9C",
+          "result": "candidates_unverified_by_search_only",
+          "inspectedAt": "2026-08-31T00:00:00+08:00",
+          "candidates": [
+            {
+              "title": "TCL C8K 韌體更新教學（第3頁）",
+              "url": "https://www.mobile01.com/topicdetail.php?f=347&p=3&t=7235106",
+              "snippet": "第28樓 joe7182 自述 eARC Core 300 曾音量突然變大，換遙控器電池後仍在觀察。",
+              "exactModel": true
+            },
+            {
+              "title": "全球首發．Klipsch Flexus Core 300（第4頁）",
+              "url": "https://www.mobile01.com/topicdetail.php?f=348&p=4&t=7034212",
+              "snippet": "ronaless 表示五月 App 已可連；anygod 的 App 顯示 Atmos 但機身沒有持續亮燈。",
+              "exactModel": true
+            },
+            {
+              "title": "兩組價位差不多的聲霸 如何選擇?",
+              "url": "https://www.mobile01.com/topicdetail.php?f=348&t=7206023",
+              "snippet": "tamama2015tw 說古力奇災情不少，但實際連結是 Cinema 800 主機板故障。",
+              "exactModel": true
+            },
+            {
+              "title": "2024 12月份台北國際音響大展（第8頁）",
+              "url": "https://www.mobile01.com/topicdetail.php?f=348&p=8&t=7056775",
+              "snippet": "參展者抱怨 Klipsch 攤位一直介紹卡拉 OK 而未提供 Core 300 試聽。",
+              "exactModel": true
+            },
+            {
+              "title": "最後一次的圓山音響展...? 小分享",
+              "url": "https://www.mobile01.com/topicdetail.php?f=348&t=7197727",
+              "snippet": "Vicky224 說朋友多次要求試聽 Core 300，但攤位一直推卡拉 OK。",
+              "exactModel": true
+            },
+            {
+              "title": "全球首發．Klipsch Flexus Core 300",
+              "url": "https://www.mobile01.com/topicdetail.php?f=348&t=7034212",
+              "snippet": "早期開箱說台灣總代理尚未發行，並說明 Dirac 把各重低音視為一個低音通道。",
+              "exactModel": true
+            },
+            {
+              "title": "【盲狙速評】Klipsch FLEXUS CORE 300 7.2.4超全配初體驗",
+              "url": "https://www.mobile01.com/topicdetail.php?f=348&t=7052464",
+              "snippet": "早期試聽文說當時 Connect Plus 尚未更新，因此手機暫不能使用串流功能。",
+              "exactModel": true
+            },
+            {
+              "title": "【Klipsch Flexus Core 300】Dirac Live加持，真正展現實力的家庭劇院核心",
+              "url": "https://www.mobile01.com/topicdetail.php?f=348&t=7125029",
+              "snippet": "原頁相關段落描述 Dirac Live 調整與開啟後的聽感，屬正面體驗。",
+              "exactModel": true
+            },
+            {
+              "title": "新客廳問一下建議soundbar 或劇院組",
+              "url": "https://www.mobile01.com/topicdetail.php?f=348&t=7162821",
+              "snippet": "回覆推薦 Core 300 的 Dirac，並討論另購無線後環繞。",
+              "exactModel": true
+            },
+            {
+              "title": "請問房間4到6坪聲霸推薦",
+              "url": "https://www.mobile01.com/topicdetail.php?f=348&t=7199044",
+              "snippet": "樓主覺得 Core 300 超預算，其他回覆比較 Core 200 與 300 的連接選項。",
+              "exactModel": true
+            }
+          ],
+          "resultCount": 10,
+          "candidateUrls": [
+            "https://www.mobile01.com/topicdetail.php?f=347&p=3&t=7235106",
+            "https://www.mobile01.com/topicdetail.php?f=348&p=4&t=7034212",
+            "https://www.mobile01.com/topicdetail.php?f=348&t=7206023",
+            "https://www.mobile01.com/topicdetail.php?f=348&p=8&t=7056775",
+            "https://www.mobile01.com/topicdetail.php?f=348&t=7197727",
+            "https://www.mobile01.com/topicdetail.php?f=348&t=7034212",
+            "https://www.mobile01.com/topicdetail.php?f=348&t=7052464",
+            "https://www.mobile01.com/topicdetail.php?f=348&t=7125029",
+            "https://www.mobile01.com/topicdetail.php?f=348&t=7162821",
+            "https://www.mobile01.com/topicdetail.php?f=348&t=7199044"
+          ]
         }
       ],
       "evidence": [],
@@ -9077,26 +9888,206 @@
         {
           "platform": "Reddit",
           "url": "https://www.reddit.com/r/Soundbars/comments/1v99hjr/apple_tv_4k_and_klipsch_flexus_core_300_power_on/",
-          "title": "Apple TV 4K and Klipsch Flexus Core 300 power on issue",
+          "title": "Apple TV 4K and Klipsch Flexus Core 300 Power On Issues",
           "outcome": "excluded",
           "exactModel": true,
-          "reviewedAt": "2026-08-29",
-          "sourceExcerpt": "原頁有 2 位 Core 300 使用者談到 Apple TV／電視開機時的 HDMI CEC 電源連動問題。",
+          "reviewedAt": "2026-08-31",
+          "sourceExcerpt": "CAS30 與 KylanXaimless 自述 Apple TV 無法喚醒 Core 300；另兩名使用者表示正常。",
           "independentAuthors": 2,
-          "specificReason": "只有 2 位 exact-model 使用者，且候選全部來自 Reddit；沒有第二個原始網站可支持同一 CEC 症狀。",
-          "reason": "只有 2 位 exact-model 使用者，且候選全部來自 Reddit；沒有第二個原始網站可支持同一 CEC 症狀。"
+          "specificReason": "兩位 CEC 開機作者只在 Reddit；正常回報不計入，同樣也不能與音量突然變大等不同症狀混計。",
+          "reason": "兩位 CEC 開機作者只在 Reddit；正常回報不計入，同樣也不能與音量突然變大等不同症狀混計。"
         },
         {
           "platform": "Reddit",
           "url": "https://www.reddit.com/r/Soundbars/comments/1qxplqp/klipsch_flexus_core_300_2nd_try/",
-          "title": "Klipsch Flexus Core 300 - 2nd try",
+          "title": "Klipsch Flexus Core 300 2nd Try",
           "outcome": "excluded",
           "exactModel": true,
-          "reviewedAt": "2026-08-29",
-          "sourceExcerpt": "一位 Core 300 使用者提到先前機器有連線問題，換機與韌體更新後第二次嘗試已改善。",
+          "reviewedAt": "2026-08-31",
+          "sourceExcerpt": "GuitarOk7360 說早期 Core 300 連線不穩，第二台搭配一月底更新後近兩週沒有斷連。",
           "independentAuthors": 1,
-          "specificReason": "只有 1 位 exact-model 使用者，且描述的早期連線問題已在換機或更新後改善；仍未跨第二個原始網站。",
-          "reason": "只有 1 位 exact-model 使用者，且描述的早期連線問題已在換機或更新後改善；仍未跨第二個原始網站。"
+          "specificReason": "只有一名連線作者，與其 Core Love 及 wireless connectivity 討論為同帳號重複，且保留改善結果。",
+          "reason": "只有一名連線作者，與其 Core Love 及 wireless connectivity 討論為同帳號重複，且保留改善結果。"
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/Soundbars/comments/1vhya2u/flexes_core_300_help/",
+          "title": "Flexes Core 300 help",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-31",
+          "sourceExcerpt": "Accomplished-Use-175 無法完成 Wi-Fi 設定；I_am_INTJ 也遇到困難，簡化密碼後成功。",
+          "independentAuthors": 2,
+          "specificReason": "兩位首次 Wi-Fi 設定案例，未達六人；十字元限制只是提問，特殊字元原因也是使用者推測。",
+          "reason": "兩位首次 Wi-Fi 設定案例，未達六人；十字元限制只是提問，特殊字元原因也是使用者推測。"
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/Soundbars/comments/1nrfzan/klipsch_flexus_core_300_sounds_amazing_but_its/",
+          "title": "Klipsch Flexus Core 300 Sounds Amazing... But Its Bass Drivers Rattle",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-31",
+          "sourceExcerpt": "sorelydisappointed 與 xShadowBlitz117 回報低音異音；後者換新後異音改善但偶爾仍到底。",
+          "independentAuthors": 2,
+          "specificReason": "兩位同型號低音作者；媒體測試不計為額外多名使用者，不能與 Core 200 有線輸出爆音合併。",
+          "reason": "兩位同型號低音作者；媒體測試不計為額外多名使用者，不能與 Core 200 有線輸出爆音合併。"
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/Klipsch/comments/1q7rgby/flexus_300_core_love/",
+          "title": "Flexus 300 Core Love",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-31",
+          "sourceExcerpt": "GuitarOk7360 描述 App 反覆斷連；Fit_Television8398 說 iOS App 凍結經三月更新改善。",
+          "independentAuthors": 1,
+          "specificReason": "GuitarOk7360 與另外兩串是同人；Fit_Television8398 沒明確自述主機型號，不納 exact-model 人數。",
+          "reason": "GuitarOk7360 與另外兩串是同人；Fit_Television8398 沒明確自述主機型號，不納 exact-model 人數。"
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/Soundbars/comments/1qa686i/klipsch_flexus_wireless_connectivity_issues/",
+          "title": "Klipsch Flexus wireless connectivity issues?",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-31",
+          "sourceExcerpt": "GuitarOk7360 的 Core 300 是 App 斷連；Brutini 說 Core 300 後環繞數小時後斷連。",
+          "independentAuthors": 2,
+          "specificReason": "App 連線與後環繞音訊斷連分別只有一位，GuitarOk7360 必須跨串去重；Core 200 留言全部排除。",
+          "reason": "App 連線與後環繞音訊斷連分別只有一位，GuitarOk7360 必須跨串去重；Core 200 留言全部排除。"
+        },
+        {
+          "platform": "Mobile01",
+          "url": "https://www.mobile01.com/topicdetail.php?f=347&p=3&t=7235106",
+          "title": "TCL C8K 韌體更新教學（第3頁）",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-31",
+          "sourceExcerpt": "第28樓 joe7182 自述 eARC Core 300 曾音量突然變大，換遙控器電池後仍在觀察。",
+          "independentAuthors": 1,
+          "specificReason": "一位音量案例、原因未明，不等同 Reddit 的 CEC 喚醒、Wi-Fi 設定或低音異音問題。",
+          "reason": "一位音量案例、原因未明，不等同 Reddit 的 CEC 喚醒、Wi-Fi 設定或低音異音問題。"
+        },
+        {
+          "platform": "Mobile01",
+          "url": "https://www.mobile01.com/topicdetail.php?f=348&p=4&t=7034212",
+          "title": "全球首發．Klipsch Flexus Core 300（第4頁）",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-31",
+          "sourceExcerpt": "ronaless 表示五月 App 已可連；anygod 的 App 顯示 Atmos 但機身沒有持續亮燈。",
+          "independentAuthors": 2,
+          "specificReason": "先前 App 尚未支援與持續顯示期待是不同情境；回覆指出格式只短暫顯示，不把此文湊入六人斷連。",
+          "reason": "先前 App 尚未支援與持續顯示期待是不同情境；回覆指出格式只短暫顯示，不把此文湊入六人斷連。"
+        },
+        {
+          "platform": "Mobile01",
+          "url": "https://www.mobile01.com/topicdetail.php?f=348&t=7206023",
+          "title": "兩組價位差不多的聲霸 如何選擇?",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-31",
+          "sourceExcerpt": "tamama2015tw 說古力奇災情不少，但實際連結是 Cinema 800 主機板故障。",
+          "independentAuthors": 0,
+          "specificReason": "只有選購建議與另一型號 Cinema 800 的轉述，沒有本人 Core 300 故障，禁止系列混算。",
+          "reason": "只有選購建議與另一型號 Cinema 800 的轉述，沒有本人 Core 300 故障，禁止系列混算。"
+        },
+        {
+          "platform": "Mobile01",
+          "url": "https://www.mobile01.com/topicdetail.php?f=348&p=8&t=7056775",
+          "title": "2024 12月份台北國際音響大展（第8頁）",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-31",
+          "sourceExcerpt": "參展者抱怨 Klipsch 攤位一直介紹卡拉 OK 而未提供 Core 300 試聽。",
+          "independentAuthors": 0,
+          "specificReason": "這是展場接待體驗，並非購買使用 Core 300 後的產品故障，不計入同症狀人數。",
+          "reason": "這是展場接待體驗，並非購買使用 Core 300 後的產品故障，不計入同症狀人數。"
+        },
+        {
+          "platform": "Mobile01",
+          "url": "https://www.mobile01.com/topicdetail.php?f=348&t=7197727",
+          "title": "最後一次的圓山音響展...? 小分享",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-31",
+          "sourceExcerpt": "Vicky224 說朋友多次要求試聽 Core 300，但攤位一直推卡拉 OK。",
+          "independentAuthors": 0,
+          "specificReason": "屬展場未能試聽的服務經驗，沒有本人 Core 300 故障，也不能把同行朋友當獨立故障作者。",
+          "reason": "屬展場未能試聽的服務經驗，沒有本人 Core 300 故障，也不能把同行朋友當獨立故障作者。"
+        },
+        {
+          "platform": "Mobile01",
+          "url": "https://www.mobile01.com/topicdetail.php?f=348&t=7034212",
+          "title": "全球首發．Klipsch Flexus Core 300",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-31",
+          "sourceExcerpt": "早期開箱說台灣總代理尚未發行，並說明 Dirac 把各重低音視為一個低音通道。",
+          "independentAuthors": 0,
+          "specificReason": "樣機開箱與規格使用說明沒有同症狀故障作者；後續使用疑問另在第4頁逐項覆核。",
+          "reason": "樣機開箱與規格使用說明沒有同症狀故障作者；後續使用疑問另在第4頁逐項覆核。"
+        },
+        {
+          "platform": "Mobile01",
+          "url": "https://www.mobile01.com/topicdetail.php?f=348&t=7052464",
+          "title": "【盲狙速評】Klipsch FLEXUS CORE 300 7.2.4超全配初體驗",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-31",
+          "sourceExcerpt": "早期試聽文說當時 Connect Plus 尚未更新，因此手機暫不能使用串流功能。",
+          "independentAuthors": 0,
+          "specificReason": "上市前軟體尚未開放不能直接算作現售機 App 斷連故障；不與後期使用者的不同連線問題湊數。",
+          "reason": "上市前軟體尚未開放不能直接算作現售機 App 斷連故障；不與後期使用者的不同連線問題湊數。"
+        },
+        {
+          "platform": "Mobile01",
+          "url": "https://www.mobile01.com/topicdetail.php?f=348&t=7125029",
+          "title": "【Klipsch Flexus Core 300】Dirac Live加持，真正展現實力的家庭劇院核心",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-31",
+          "sourceExcerpt": "原頁相關段落描述 Dirac Live 調整與開啟後的聽感，屬正面體驗。",
+          "independentAuthors": 0,
+          "specificReason": "已核閱的相關段落没有第一人稱故障，不能以評測中的「問題」字眼轉成集中負評作者。",
+          "reason": "已核閱的相關段落没有第一人稱故障，不能以評測中的「問題」字眼轉成集中負評作者。"
+        },
+        {
+          "platform": "Mobile01",
+          "url": "https://www.mobile01.com/topicdetail.php?f=348&t=7162821",
+          "title": "新客廳問一下建議soundbar 或劇院組",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-31",
+          "sourceExcerpt": "回覆推薦 Core 300 的 Dirac，並討論另購無線後環繞。",
+          "independentAuthors": 0,
+          "specificReason": "選購推薦及擴充能力討論，沒有自用 Core 300 同症狀故障；不從推薦句推断可靠度。",
+          "reason": "選購推薦及擴充能力討論，沒有自用 Core 300 同症狀故障；不從推薦句推断可靠度。"
+        },
+        {
+          "platform": "Mobile01",
+          "url": "https://www.mobile01.com/topicdetail.php?f=348&t=7199044",
+          "title": "請問房間4到6坪聲霸推薦",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-31",
+          "sourceExcerpt": "樓主覺得 Core 300 超預算，其他回覆比較 Core 200 與 300 的連接選項。",
+          "independentAuthors": 0,
+          "specificReason": "預算與規格比較不是故障回報，提到 Samsung 更新災情也不能歸給 Klipsch。",
+          "reason": "預算與規格比較不是故障回報，提到 Samsung 更新災情也不能歸給 Klipsch。"
+        },
+        {
+          "platform": "RTINGS",
+          "url": "https://www.rtings.com/soundbar/reviews/klipsch/flexus-core-300",
+          "title": "Klipsch Flexus Core 300 Review",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-31",
+          "sourceExcerpt": "RTINGS 的 Core 300 測試指出高音量低頻可能異音，同時說明單機低頻與音量限制。",
+          "independentAuthors": 0,
+          "specificReason": "專業媒體測試提供購前注意，但不是六位可辨識獨立消費者，不把三位署名者各算一台故障。",
+          "reason": "專業媒體測試提供購前注意，但不是六位可辨識獨立消費者，不把三位署名者各算一台故障。"
         }
       ]
     },
@@ -98947,8 +99938,8 @@
       "workflowStatus": "completed",
       "manualReview": {
         "status": "completed",
-        "decision": "common_issue",
-        "reviewedAt": "2026-08-29",
+        "decision": "no_common_issue",
+        "reviewedAt": "2026-08-31",
         "checkedPlatforms": [
           "Mobile01",
           "Reddit",
@@ -98958,19 +99949,64 @@
         "queries": [
           {
             "platform": "Mobile01",
-            "query": "site:mobile01.com \"UniFi U7 Pro\" (災情 OR 問題 OR 故障 OR 負評)",
-            "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22UniFi%20U7%20Pro%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
-            "targetHost": "mobile01.com"
+            "targetHost": "mobile01.com",
+            "query": "site:mobile01.com \"U7 Pro\" \"問題\"",
+            "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22U7%20Pro%22%20%22%E5%95%8F%E9%A1%8C%22"
           },
           {
             "platform": "Reddit",
-            "query": "\"UniFi U7 Pro\" (problem OR issue OR defect OR negative review)",
-            "queryUrl": "https://www.reddit.com/search/?q=%22UniFi%20U7%20Pro%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
-            "targetHost": "reddit.com"
+            "targetHost": "reddit.com",
+            "query": "site:reddit.com \"U7 Pro\" \"IoT\" \"fixed\"",
+            "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22U7%20Pro%22%20%22IoT%22%20%22fixed%22"
           }
         ],
-        "candidateDisposition": "U7 Pro：Yahoo Search 本輪回應失敗，已改以獨立網頁索引重跑 exact-model 查詢；逐人原頁 ledger 達同一問題至少 6 人／2 個原始網站，判定 common_issue，證據日期與修補狀態依原頁保留。",
+        "candidateDisposition": "U7 Pro：2026-08-31 人工重核原始頁後撤回 common_issue。m4c1n0 僅回報熱泵 App／HA 離線，未標明 2.4GHz 或 Wi-Fi 斷線，且本人尚待換 AP 排除熱泵因素；Vertigo103 僅說裝置已連線而無 Internet，未指明 2.4GHz、IoT 或頻繁重連。不得由串題或其他作者的頻段描述補足這兩人的症狀，也不放寬問題定義以湊人數。其餘 Kurisu112、Sp1cedaddy、Mattycee2K15、elektrinis 合計最多四位相關症狀候選，雖跨 Reddit 與 Ubiquiti Community，仍不足六人，故判定 no_common_issue。原六筆逐人紀錄轉為 supplementalHistoricalReports 保存，不列入已成立 ledger。此前已排除的 Pro Max 或型號不明回覆仍不採計；本日 Mobile01、Reddit exact-model 查詢及候選處置保留。官方 7.0.95 的改善公告只作歷史上下文，不等於故障率或全面修復證據。",
         "representativeSources": [
+          {
+            "platform": "Reddit",
+            "title": "U7 Pro slow wifi connection : r/Ubiquiti - Reddit",
+            "url": "https://www.reddit.com/r/Ubiquiti/comments/1d6jlbp/u7_pro_slow_wifi_connection/"
+          },
+          {
+            "platform": "SNBForums",
+            "title": "Wifi Coverage - Asus AX86U v UniFi U7 Pro | SNBForums",
+            "url": "https://www.snbforums.com/threads/wifi-coverage-asus-ax86u-v-unifi-u7-pro.89198/"
+          },
+          {
+            "platform": "Reddit",
+            "title": "U7 Pro coverage seems weak. Normal or setup issue?",
+            "url": "https://www.reddit.com/r/Ubiquiti/comments/1u3643k/u7_pro_coverage_seems_weak_normal_or_setup_issue/"
+          },
+          {
+            "platform": "Reddit",
+            "title": "U7 Pro issues",
+            "url": "https://www.reddit.com/r/Ubiquiti/comments/1hpb4cc/u7_pro_issues/"
+          },
+          {
+            "platform": "Ubiquiti Community",
+            "title": "UniFi Access Point 7.0.95",
+            "url": "https://community.ui.com/releases/UniFi-Access-Point-7-0-95/e2aa5440-1995-4ef5-b5ef-7706d8e39b61"
+          },
+          {
+            "platform": "Mobile01",
+            "title": "家中網路架構詢問",
+            "url": "https://www.mobile01.com/topicdetail.php?f=110&t=7111529"
+          },
+          {
+            "platform": "Mobile01",
+            "title": "[請益] Unifi 搭Asus Mesh or Unifi全家桶 ?",
+            "url": "https://www.mobile01.com/topicdetail.php?f=110&t=7047776"
+          },
+          {
+            "platform": "Mobile01",
+            "title": "三層透天UniFi建置規劃疑問",
+            "url": "https://www.mobile01.com/topicdetail.php?f=110&t=7170693"
+          },
+          {
+            "platform": "Mobile01",
+            "title": "三房家用網路建議",
+            "url": "https://www.mobile01.com/topicdetail.php?f=110&t=7252926"
+          },
           {
             "platform": "Ubiquiti Community",
             "title": "U7-Pro 2.4ghz issues",
@@ -98985,6 +100021,21 @@
             "platform": "Reddit",
             "title": "2.4GHz IoT device constant disconnect",
             "url": "https://www.reddit.com/r/Ubiquiti/comments/1h600kz/24ghz_iot_device_constant_disconnect_5_6ghz_wifi/"
+          },
+          {
+            "platform": "Reddit",
+            "title": "U7 IoT issues update, it's fairly fixed.",
+            "url": "https://www.reddit.com/r/Ubiquiti/comments/1i547ov/u7_iot_issues_update_its_fairly_fixed/"
+          },
+          {
+            "platform": "Reddit",
+            "title": "m4c1n0：U7 Pro 熱泵 App／HA 離線回覆",
+            "url": "https://www.reddit.com/r/Ubiquiti/comments/1g1funp/comment/lrgdcn0/"
+          },
+          {
+            "platform": "Reddit",
+            "title": "Vertigo103：U7 Pro 裝置連線但無 Internet 回覆",
+            "url": "https://www.reddit.com/r/Ubiquiti/comments/1g1funp/comment/lrhhbnk/"
           }
         ],
         "candidateReviews": [
@@ -98996,7 +100047,7 @@
             "exactModel": true,
             "sourceExcerpt": "發文者表示 U7 Pro 的 5GHz 約 300 Mbps，而 ISP 路由器約 800 Mbps、有線約 950 Mbps。",
             "independentAuthors": 1,
-            "specificReason": "單一作者的吞吐量／調校問題，與已成立的 2.4GHz IoT 斷線問題不同；未達六人且未跨站。",
+            "specificReason": "單一作者的吞吐量／調校問題，與本次覆核的 2.4GHz IoT 斷線症狀不同；未達六人且未跨站。",
             "platform": "Reddit"
           },
           {
@@ -99031,211 +100082,263 @@
             "specificReason": "原頁僅一位 U7 Pro 使用者描述跨頻段不穩，沒有可辨識的同問題其他作者，且仍只有 Reddit 一站。",
             "reviewedAt": "2026-08-29",
             "outcome": "excluded"
+          },
+          {
+            "url": "https://community.ui.com/releases/UniFi-Access-Point-7-0-95/e2aa5440-1995-4ef5-b5ef-7706d8e39b61",
+            "title": "UniFi Access Point 7.0.95",
+            "platform": "Ubiquiti Community",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-08-31",
+            "sourceExcerpt": "官方穩定韌體公告列出改善 2.4GHz 連線穩定性；公告同时明文列出此版本不提供 U7 Pro Max。",
+            "independentAuthors": 0,
+            "specificReason": "官方修補公告不是可辨識使用者的第一人稱故障回報，不能計入人數；只用於 U7 Pro 歷史問題的後續改善上下文，不代表所有裝置均已恢復。"
+          },
+          {
+            "url": "https://www.mobile01.com/topicdetail.php?f=110&t=7111529",
+            "title": "家中網路架構詢問",
+            "platform": "Mobile01",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-08-31",
+            "sourceExcerpt": "發文者規劃 26 坪住家，詢問中間只裝一台 U7 Pro 的涵蓋，回覆討論線路及擺位。",
+            "independentAuthors": 0,
+            "specificReason": "屬尚未實裝的拓樸與覆蓋規劃，沒有使用者自述 U7 Pro 的 IoT 故障，不計入災情。"
+          },
+          {
+            "url": "https://www.mobile01.com/topicdetail.php?f=110&t=7047776",
+            "title": "[請益] Unifi 搭Asus Mesh or Unifi全家桶 ?",
+            "platform": "Mobile01",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-08-31",
+            "sourceExcerpt": "現有網路問題發生於 Vigor2925、RT-AC68U 及 ZenWifi AX，U7 Pro 是候選替換方案。",
+            "independentAuthors": 0,
+            "specificReason": "故障主體是其他品牌舊設備，U7 Pro 僅為購買規劃；不能把既有網路問題移轉為 U7 Pro 回報。"
+          },
+          {
+            "url": "https://www.mobile01.com/topicdetail.php?f=110&t=7170693",
+            "title": "三層透天UniFi建置規劃疑問",
+            "platform": "Mobile01",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-08-31",
+            "sourceExcerpt": "發文者尚在規劃 UniFi 全棟部署，詢問 U6 Pro 或 U7 Pro 放在桌面是否影響效能。",
+            "independentAuthors": 0,
+            "specificReason": "是擺放條件與採購規劃，沒有已購 U7 Pro 的第一人稱故障，無人可計入既有問題。"
+          },
+          {
+            "url": "https://www.mobile01.com/topicdetail.php?f=110&t=7252926",
+            "title": "三房家用網路建議",
+            "platform": "Mobile01",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-08-31",
+            "sourceExcerpt": "asd1478507 比較 U7 Pro 與 ASUS BT10 的建置方案，主要擔憂是聽說 Cloud Gateway Ultra 發熱。",
+            "independentAuthors": 0,
+            "specificReason": "Chrome 重開原頁確認是購前方案討論；發熱對象為 Gateway，並非自有 U7 Pro 故障。"
+          },
+          {
+            "url": "https://community.ui.com/questions/U7-Pro-2-4ghz-issues/4dff7816-5c14-4686-9f9a-ab99f9b93700",
+            "title": "U7-Pro 2.4ghz issues",
+            "platform": "Ubiquiti Community",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-08-31",
+            "sourceExcerpt": "Kurisu112 明確自述兩台 U7 Pro、韌體 7.0.47 的 TP-Link 智慧插座、燈泡及攝影機反覆掉線，暫時換回 UAP-LR。",
+            "independentAuthors": 1,
+            "specificReason": "本原頁只保留 Kurisu112 一位型號與症狀明確作者；和另外三位 Reddit 候選合計最多四人，雖跨兩站仍未達六人，不能成立集中負評。"
+          },
+          {
+            "url": "https://www.reddit.com/r/Ubiquiti/comments/1g1funp/u7_pro_iot_issue_explained/",
+            "title": "U7 pro iot issue explained",
+            "platform": "Reddit",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-08-31",
+            "sourceExcerpt": "Sp1cedaddy 明確自述 U7 Pro 的兩台 2.4GHz Wyze Cam V3 不斷掉線，更新 7.1.18 beta 後改善；另兩位只描述熱泵離線或一般無 Internet。",
+            "independentAuthors": 1,
+            "specificReason": "只有 Sp1cedaddy 可作本串相同症狀候選；m4c1n0 與 Vertigo103 缺少本人頻段及同症狀確認，排除明細另存。四原頁合計最多四人，未達六人門檻。"
+          },
+          {
+            "url": "https://www.reddit.com/r/Ubiquiti/comments/1h600kz/24ghz_iot_device_constant_disconnect_5_6ghz_wifi/",
+            "title": "2.4GHz IoT device constant disconnect",
+            "platform": "Reddit",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-08-31",
+            "sourceExcerpt": "Mattycee2K15 自述三台有線回程 U7-Pro 的 IoT 每天多次斷線，調整通道與獨立 IoT VLAN／Wi-Fi 仍發生。",
+            "independentAuthors": 1,
+            "specificReason": "本串保留原作者一位相關症狀候選，不將 Pro Max 或未明型號回覆混入；和其他原頁合計最多四位，未達六人門檻。"
+          },
+          {
+            "url": "https://www.reddit.com/r/Ubiquiti/comments/1i547ov/u7_iot_issues_update_its_fairly_fixed/",
+            "title": "U7 IoT issues update, it's fairly fixed.",
+            "platform": "Reddit",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-08-31",
+            "sourceExcerpt": "elektrinis 表示單台 U7 Pro 在 2025 年 7 月仍有 IoT 反覆掉線及 ESP32 串流問題；原發文者同時有改善經驗。",
+            "independentAuthors": 1,
+            "specificReason": "同作者兩則留言只算一人，未提供 latest firmware 的版本；和另三位候選合計最多四人，不足六人。不能將改善與泛稱 U7 的留言充作新增負評作者。"
+          },
+          {
+            "url": "https://www.reddit.com/r/Ubiquiti/comments/1g1funp/comment/lrgdcn0/",
+            "title": "m4c1n0：U7 Pro 熱泵 App／HA 離線回覆",
+            "platform": "Reddit",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-08-31",
+            "sourceExcerpt": "m4c1n0 使用 U7 Pro，唯一長期連線設備為熱泵；App 約半數時間顯示離線，HA 圖表缺漏，作者尚待換 AP 查明原因。",
+            "independentAuthors": 0,
+            "specificReason": "作者未明示 2.4GHz 或 Wi-Fi 反覆斷線，且尚未排除熱泵因素；不得用論壇主題或其他留言補上同一症狀，因此不計入本次 2.4GHz IoT 門檻。"
+          },
+          {
+            "url": "https://www.reddit.com/r/Ubiquiti/comments/1g1funp/comment/lrhhbnk/",
+            "title": "Vertigo103：U7 Pro 裝置連線但無 Internet 回覆",
+            "platform": "Reddit",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-08-31",
+            "sourceExcerpt": "Vertigo103 明確稱自己的 U7 Pro 出現裝置已連線但沒有 Internet 存取；本人留言沒有進一步描述頻段或裝置類型。",
+            "independentAuthors": 0,
+            "specificReason": "留言未明示 2.4GHz、IoT 或反覆重連，只有泛用的 Internet 存取異常；不能把串題或別人症狀移轉到此作者，不計入同一問題門檻。"
           }
         ],
-        "reviewerNote": "U7 Pro：Yahoo Search 本輪回應失敗，已改以獨立網頁索引重跑 exact-model 查詢；逐人原頁 ledger 達同一問題至少 6 人／2 個原始網站，判定 common_issue，證據日期與修補狀態依原頁保留。",
+        "reviewerNote": "U7 Pro：2026-08-31 人工重核原始頁後撤回 common_issue。m4c1n0 僅回報熱泵 App／HA 離線，未標明 2.4GHz 或 Wi-Fi 斷線，且本人尚待換 AP 排除熱泵因素；Vertigo103 僅說裝置已連線而無 Internet，未指明 2.4GHz、IoT 或頻繁重連。不得由串題或其他作者的頻段描述補足這兩人的症狀，也不放寬問題定義以湊人數。其餘 Kurisu112、Sp1cedaddy、Mattycee2K15、elektrinis 合計最多四位相關症狀候選，雖跨 Reddit 與 Ubiquiti Community，仍不足六人，故判定 no_common_issue。原六筆逐人紀錄轉為 supplementalHistoricalReports 保存，不列入已成立 ledger。此前已排除的 Pro Max 或型號不明回覆仍不採計；本日 Mobile01、Reddit exact-model 查詢及候選處置保留。官方 7.0.95 的改善公告只作歷史上下文，不等於故障率或全面修復證據。",
         "attestation": "manual_original_pages_reviewed"
       },
       "issueResearch": {
-        "status": "common_issue",
-        "checkedAt": "2026-08-29",
-        "summary": "多位同型號使用者回報 2.4GHz IoT 裝置會頻繁斷線、無法連網或反覆重連。",
-        "issues": [
+        "status": "no_common_issue",
+        "checkedAt": "2026-08-31",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
           {
-            "title": "2.4GHz IoT 裝置斷線與相容性不穩",
-            "detail": "問題常集中在 2.4GHz 智慧家電，且可能受韌體版本影響；部署前應先更新穩定韌體，並用實際 IoT 裝置測試連線與漫遊。",
-            "reportCount": 9,
-            "sources": [
-              {
-                "platform": "Ubiquiti Community",
-                "title": "U7-Pro 2.4ghz issues",
-                "url": "https://community.ui.com/questions/U7-Pro-2-4ghz-issues/4dff7816-5c14-4686-9f9a-ab99f9b93700"
-              },
-              {
-                "platform": "Reddit",
-                "title": "U7 pro iot issue explained",
-                "url": "https://www.reddit.com/r/Ubiquiti/comments/1g1funp/u7_pro_iot_issue_explained/"
-              },
-              {
-                "platform": "Reddit",
-                "title": "2.4GHz IoT device constant disconnect",
-                "url": "https://www.reddit.com/r/Ubiquiti/comments/1h600kz/24ghz_iot_device_constant_disconnect_5_6ghz_wifi/"
-              }
-            ]
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"U7 Pro\" \"問題\"",
+            "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22U7%20Pro%22%20%22%E5%95%8F%E9%A1%8C%22",
+            "targetHost": "mobile01.com"
+          },
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"U7 Pro\" \"IoT\" \"fixed\"",
+            "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22U7%20Pro%22%20%22IoT%22%20%22fixed%22",
+            "targetHost": "reddit.com"
           }
         ]
       },
       "searchChecks": [
         {
-          "platform": "Yahoo Search",
-          "query": "(\"UniFi U7 Pro\") (problem OR issue OR defect OR failure OR 災情 OR 故障 OR 負評) (site:mobile01.com OR site:dcard.tw OR site:ptt.cc OR site:reddit.com OR site:snbforums.com OR site:52asus.com)",
-          "searchUrl": "https://search.yahoo.com/search?p=(%22UniFi%20U7%20Pro%22)%20(problem%20OR%20issue%20OR%20defect%20OR%20failure%20OR%20%E7%81%BD%E6%83%85%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)%20(site%3Amobile01.com%20OR%20site%3Adcard.tw%20OR%20site%3Aptt.cc%20OR%20site%3Areddit.com%20OR%20site%3Asnbforums.com%20OR%20site%3A52asus.com)",
-          "result": "search_unavailable",
-          "resultCount": 0,
-          "candidateUrls": [],
-          "candidates": [],
-          "inspectedAt": "2026-08-29T00:00:00+08:00",
-          "error": "fetch failed"
-        }
-      ],
-      "evidence": [
-        {
-          "issueTitle": "2.4GHz IoT 裝置斷線與相容性不穩",
-          "platform": "Ubiquiti Community",
-          "title": "U7-Pro 2.4ghz issues",
-          "url": "https://community.ui.com/questions/U7-Pro-2-4ghz-issues/4dff7816-5c14-4686-9f9a-ab99f9b93700",
-          "evidenceSnippet": "兩位 U7 Pro 使用者回報 2.4GHz IoT 裝置持續掉線或同樣異常。",
-          "authors": [
-            "DUDL3Y",
-            "Kurisu112"
-          ],
-          "distinctReportCount": 2,
-          "checkedAt": "2026-08-29",
-          "reports": [
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"U7 Pro\" \"問題\"",
+          "searchUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22U7%20Pro%22%20%22%E5%95%8F%E9%A1%8C%22",
+          "result": "candidates_unverified_by_search_only",
+          "inspectedAt": "2026-08-31T00:00:00+08:00",
+          "candidates": [
             {
-              "author": "DUDL3Y",
-              "permalink": "https://community.ui.com/questions/U7-Pro-2-4ghz-issues/4dff7816-5c14-4686-9f9a-ab99f9b93700",
-              "locator": "DUDL3Y — U7-Pro 2.4ghz issues",
-              "evidenceExcerpt": "DUDL3Y 在同一 U7 Pro 討論中回覆自己也遇到相同的 2.4GHz 連線問題。",
-              "auditNote": "人工原頁覆核：DUDL3Y 在同一 U7 Pro 討論中回覆自己也遇到相同的 2.4GHz 連線問題。",
-              "exactModel": true,
-              "firstPerson": true,
-              "crossPostKey": null,
-              "reviewBasis": "manual_original_page",
-              "reviewedAt": "2026-08-29"
+              "title": "家中網路架構詢問",
+              "url": "https://www.mobile01.com/topicdetail.php?f=110&t=7111529",
+              "snippet": "發文者規劃 26 坪住家，詢問中間只裝一台 U7 Pro 的涵蓋，回覆討論線路及擺位。",
+              "exactModel": true
             },
             {
-              "author": "Kurisu112",
-              "permalink": "https://community.ui.com/questions/U7-Pro-2-4ghz-issues/4dff7816-5c14-4686-9f9a-ab99f9b93700",
-              "locator": "Kurisu112 — U7-Pro 2.4ghz issues",
-              "evidenceExcerpt": "Kurisu112 在「U7-Pro 2.4ghz issues」原始討論中表示，自用 U7 Pro 的 2.4GHz 用戶端會斷線且連線不穩。",
-              "auditNote": "人工原頁覆核：Kurisu112 在「U7-Pro 2.4ghz issues」原始討論中表示，自用 U7 Pro 的 2.4GHz 用戶端會斷線且連線不穩。",
-              "exactModel": true,
-              "firstPerson": true,
-              "crossPostKey": null,
-              "reviewBasis": "manual_original_page",
-              "reviewedAt": "2026-08-29"
+              "title": "[請益] Unifi 搭Asus Mesh or Unifi全家桶 ?",
+              "url": "https://www.mobile01.com/topicdetail.php?f=110&t=7047776",
+              "snippet": "現有網路問題發生於 Vigor2925、RT-AC68U 及 ZenWifi AX，U7 Pro 是候選替換方案。",
+              "exactModel": true
+            },
+            {
+              "title": "三層透天UniFi建置規劃疑問",
+              "url": "https://www.mobile01.com/topicdetail.php?f=110&t=7170693",
+              "snippet": "發文者尚在規劃 UniFi 全棟部署，詢問 U6 Pro 或 U7 Pro 放在桌面是否影響效能。",
+              "exactModel": true
+            },
+            {
+              "title": "三房家用網路建議",
+              "url": "https://www.mobile01.com/topicdetail.php?f=110&t=7252926",
+              "snippet": "asd1478507 比較 U7 Pro 與 ASUS BT10 的建置方案，主要擔憂是聽說 Cloud Gateway Ultra 發熱。",
+              "exactModel": true
             }
+          ],
+          "resultCount": 4,
+          "candidateUrls": [
+            "https://www.mobile01.com/topicdetail.php?f=110&t=7111529",
+            "https://www.mobile01.com/topicdetail.php?f=110&t=7047776",
+            "https://www.mobile01.com/topicdetail.php?f=110&t=7170693",
+            "https://www.mobile01.com/topicdetail.php?f=110&t=7252926"
           ]
         },
         {
-          "issueTitle": "2.4GHz IoT 裝置斷線與相容性不穩",
           "platform": "Reddit",
-          "title": "U7 pro iot issue explained",
-          "url": "https://www.reddit.com/r/Ubiquiti/comments/1g1funp/u7_pro_iot_issue_explained/",
-          "evidenceSnippet": "六位同型號使用者描述 IoT 裝置短暫斷線後重連或無法穩定使用。",
-          "authors": [
-            "Capt_shadab",
-            "Confucius_said",
-            "jrd2me",
-            "m4c1n0",
-            "Sp1cedaddy",
-            "Vertigo103"
-          ],
-          "distinctReportCount": 6,
-          "checkedAt": "2026-08-29",
-          "reports": [
+          "query": "site:reddit.com \"U7 Pro\" \"IoT\" \"fixed\"",
+          "searchUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22U7%20Pro%22%20%22IoT%22%20%22fixed%22",
+          "result": "candidates_unverified_by_search_only",
+          "inspectedAt": "2026-08-31T00:00:00+08:00",
+          "candidates": [
             {
-              "author": "Capt_shadab",
-              "permalink": "https://www.reddit.com/r/Ubiquiti/comments/1g1funp/comment/lrjkmyr/",
-              "locator": "Capt_shadab — “Same here. It's a mess on 2.4 ghz”",
-              "evidenceExcerpt": "Capt_shadab 以自用 U7 Pro 回覆「Same here. It's a mess on 2.4 ghz」，明確指向 2.4GHz 問題。",
-              "auditNote": "人工原頁覆核：Capt_shadab 以自用 U7 Pro 回覆「Same here. It's a mess on 2.4 ghz」，明確指向 2.4GHz 問題。",
-              "exactModel": true,
-              "firstPerson": true,
-              "crossPostKey": null,
-              "reviewBasis": "manual_original_page",
-              "reviewedAt": "2026-08-29"
+              "title": "U7 Pro slow wifi connection : r/Ubiquiti - Reddit",
+              "url": "https://www.reddit.com/r/Ubiquiti/comments/1d6jlbp/u7_pro_slow_wifi_connection/",
+              "snippet": "發文者表示 U7 Pro 的 5GHz 約 300 Mbps，而 ISP 路由器約 800 Mbps、有線約 950 Mbps。",
+              "exactModel": true
             },
             {
-              "author": "Confucius_said",
-              "permalink": "https://www.reddit.com/r/Ubiquiti/comments/1g1funp/comment/lt460h8/",
-              "locator": "Confucius_said — “elgato and owlet always disconnects”",
-              "evidenceExcerpt": "Confucius_said 表示 Elgato 與 Owlet 裝置一直斷線，只能暫時加一台 bridge mode 的 eero 繞過 U7 Pro 問題。",
-              "auditNote": "人工原頁覆核：Confucius_said 表示 Elgato 與 Owlet 裝置一直斷線，只能暫時加一台 bridge mode 的 eero 繞過 U7 Pro 問題。",
-              "exactModel": true,
-              "firstPerson": true,
-              "crossPostKey": null,
-              "reviewBasis": "manual_original_page",
-              "reviewedAt": "2026-08-29"
+              "title": "U7 Pro coverage seems weak. Normal or setup issue?",
+              "url": "https://www.reddit.com/r/Ubiquiti/comments/1u3643k/u7_pro_coverage_seems_weak_normal_or_setup_issue/",
+              "snippet": "Wi-Fi becomes very weak",
+              "exactModel": true
             },
             {
-              "author": "jrd2me",
-              "permalink": "https://www.reddit.com/r/Ubiquiti/comments/1g1funp/comment/lrjaihu/",
-              "locator": "jrd2me — “all kinds of issues with IOT devices with U7 APs”",
-              "evidenceExcerpt": "jrd2me 表示 U7 AP 的 IoT 裝置有各種連線問題；即使另建 2.4GHz、WPA2 的 IoT SSID 仍會掉線，最後改用 UK Ultra 承接 IoT。",
-              "auditNote": "人工原頁覆核：jrd2me 表示 U7 AP 的 IoT 裝置有各種連線問題；即使另建 2.4GHz、WPA2 的 IoT SSID 仍會掉線，最後改用 UK Ultra 承接 IoT。",
-              "exactModel": true,
-              "firstPerson": true,
-              "crossPostKey": null,
-              "reviewBasis": "manual_original_page",
-              "reviewedAt": "2026-08-29"
+              "title": "U7 Pro issues",
+              "url": "https://www.reddit.com/r/Ubiquiti/comments/1hpb4cc/u7_pro_issues/",
+              "snippet": "connection overall on all the bands seems somewhat unstable",
+              "exactModel": true
             },
             {
-              "author": "m4c1n0",
-              "permalink": "https://www.reddit.com/r/Ubiquiti/comments/1g1funp/comment/lrgdcn0/",
-              "locator": "m4c1n0 — 停用 6GHz 後問題停止",
-              "evidenceExcerpt": "m4c1n0 表示其中一個 U7 Pro 安裝點反覆出問題；停用 6GHz 後該處連線才恢復穩定。",
-              "auditNote": "人工原頁覆核：m4c1n0 表示其中一個 U7 Pro 安裝點反覆出問題；停用 6GHz 後該處連線才恢復穩定。",
-              "exactModel": true,
-              "firstPerson": true,
-              "crossPostKey": null,
-              "reviewBasis": "manual_original_page",
-              "reviewedAt": "2026-08-29"
+              "title": "U7 pro iot issue explained",
+              "url": "https://www.reddit.com/r/Ubiquiti/comments/1g1funp/u7_pro_iot_issue_explained/",
+              "snippet": "Sp1cedaddy 明確自述 U7 Pro 的兩台 2.4GHz Wyze Cam V3 不斷掉線，更新 7.1.18 beta 後改善；另兩位只描述熱泵離線或一般無 Internet。",
+              "exactModel": true
             },
             {
-              "author": "Sp1cedaddy",
-              "permalink": "https://www.reddit.com/r/Ubiquiti/comments/1g1funp/comment/lrgh7mp/",
-              "locator": "Sp1cedaddy — 兩台 Wyze Cam V3 不停斷線",
-              "evidenceExcerpt": "Sp1cedaddy 表示兩台 2.4GHz Wyze Cam V3 在 U7 Pro 上不停斷線，直到測試 7.1.18 beta 才改善。",
-              "auditNote": "人工原頁覆核：Sp1cedaddy 表示兩台 2.4GHz Wyze Cam V3 在 U7 Pro 上不停斷線，直到測試 7.1.18 beta 才改善。",
-              "exactModel": true,
-              "firstPerson": true,
-              "crossPostKey": null,
-              "reviewBasis": "manual_original_page",
-              "reviewedAt": "2026-08-29"
+              "title": "2.4GHz IoT device constant disconnect",
+              "url": "https://www.reddit.com/r/Ubiquiti/comments/1h600kz/24ghz_iot_device_constant_disconnect_5_6ghz_wifi/",
+              "snippet": "Mattycee2K15 自述三台有線回程 U7-Pro 的 IoT 每天多次斷線，調整通道與獨立 IoT VLAN／Wi-Fi 仍發生。",
+              "exactModel": true
             },
             {
-              "author": "Vertigo103",
-              "permalink": "https://www.reddit.com/r/Ubiquiti/comments/1g1funp/comment/lrhhbnk/",
-              "locator": "Vertigo103 — 裝置已連線但沒有 Internet",
-              "evidenceExcerpt": "Vertigo103 表示自用 U7 Pro 會出現裝置顯示已連線、實際卻無法上網的情況。",
-              "auditNote": "人工原頁覆核：Vertigo103 表示自用 U7 Pro 會出現裝置顯示已連線、實際卻無法上網的情況。",
-              "exactModel": true,
-              "firstPerson": true,
-              "crossPostKey": null,
-              "reviewBasis": "manual_original_page",
-              "reviewedAt": "2026-08-29"
+              "title": "U7 IoT issues update, it's fairly fixed.",
+              "url": "https://www.reddit.com/r/Ubiquiti/comments/1i547ov/u7_iot_issues_update_its_fairly_fixed/",
+              "snippet": "elektrinis 表示單台 U7 Pro 在 2025 年 7 月仍有 IoT 反覆掉線及 ESP32 串流問題；原發文者同時有改善經驗。",
+              "exactModel": true
+            },
+            {
+              "title": "m4c1n0：U7 Pro 熱泵 App／HA 離線回覆",
+              "url": "https://www.reddit.com/r/Ubiquiti/comments/1g1funp/comment/lrgdcn0/",
+              "snippet": "m4c1n0 使用 U7 Pro，唯一長期連線設備為熱泵；App 約半數時間顯示離線，HA 圖表缺漏，作者尚待換 AP 查明原因。",
+              "exactModel": true
+            },
+            {
+              "title": "Vertigo103：U7 Pro 裝置連線但無 Internet 回覆",
+              "url": "https://www.reddit.com/r/Ubiquiti/comments/1g1funp/comment/lrhhbnk/",
+              "snippet": "Vertigo103 明確稱自己的 U7 Pro 出現裝置已連線但沒有 Internet 存取；本人留言沒有進一步描述頻段或裝置類型。",
+              "exactModel": true
             }
-          ]
-        },
-        {
-          "issueTitle": "2.4GHz IoT 裝置斷線與相容性不穩",
-          "platform": "Reddit",
-          "title": "2.4GHz IoT device constant disconnect",
-          "url": "https://www.reddit.com/r/Ubiquiti/comments/1h600kz/24ghz_iot_device_constant_disconnect_5_6ghz_wifi/",
-          "evidenceSnippet": "原發文者明確回報 U7 Pro 的 IoT 裝置每天多次斷線。",
-          "authors": [
-            "Mattycee2K15"
           ],
-          "distinctReportCount": 1,
-          "checkedAt": "2026-08-29",
-          "reports": [
-            {
-              "author": "Mattycee2K15",
-              "permalink": "https://www.reddit.com/r/Ubiquiti/comments/1h600kz/24ghz_iot_device_constant_disconnect_5_6ghz_wifi/",
-              "locator": "Mattycee2K15 — 2.4GHz IoT device constant disconnect",
-              "evidenceExcerpt": "Mattycee2K15 的 U7 Pro 讓 2.4GHz IoT 裝置每天多次斷線，但 5GHz／6GHz 裝置維持正常。",
-              "auditNote": "人工原頁覆核：Mattycee2K15 的 U7 Pro 讓 2.4GHz IoT 裝置每天多次斷線，但 5GHz／6GHz 裝置維持正常。",
-              "exactModel": true,
-              "firstPerson": true,
-              "crossPostKey": null,
-              "reviewBasis": "manual_original_page",
-              "reviewedAt": "2026-08-29"
-            }
+          "resultCount": 8,
+          "candidateUrls": [
+            "https://www.reddit.com/r/Ubiquiti/comments/1d6jlbp/u7_pro_slow_wifi_connection/",
+            "https://www.reddit.com/r/Ubiquiti/comments/1u3643k/u7_pro_coverage_seems_weak_normal_or_setup_issue/",
+            "https://www.reddit.com/r/Ubiquiti/comments/1hpb4cc/u7_pro_issues/",
+            "https://www.reddit.com/r/Ubiquiti/comments/1g1funp/u7_pro_iot_issue_explained/",
+            "https://www.reddit.com/r/Ubiquiti/comments/1h600kz/24ghz_iot_device_constant_disconnect_5_6ghz_wifi/",
+            "https://www.reddit.com/r/Ubiquiti/comments/1i547ov/u7_iot_issues_update_its_fairly_fixed/",
+            "https://www.reddit.com/r/Ubiquiti/comments/1g1funp/comment/lrgdcn0/",
+            "https://www.reddit.com/r/Ubiquiti/comments/1g1funp/comment/lrhhbnk/"
           ]
         }
       ],
+      "evidence": [],
       "rejectedCandidates": [
         {
           "url": "https://www.reddit.com/r/Ubiquiti/comments/1d6jlbp/u7_pro_slow_wifi_connection/",
@@ -99245,9 +100348,9 @@
           "exactModel": true,
           "sourceExcerpt": "發文者表示 U7 Pro 的 5GHz 約 300 Mbps，而 ISP 路由器約 800 Mbps、有線約 950 Mbps。",
           "independentAuthors": 1,
-          "specificReason": "單一作者的吞吐量／調校問題，與已成立的 2.4GHz IoT 斷線問題不同；未達六人且未跨站。",
+          "specificReason": "單一作者的吞吐量／調校問題，與本次覆核的 2.4GHz IoT 斷線症狀不同；未達六人且未跨站。",
           "platform": "Reddit",
-          "reason": "單一作者的吞吐量／調校問題，與已成立的 2.4GHz IoT 斷線問題不同；未達六人且未跨站。"
+          "reason": "單一作者的吞吐量／調校問題，與本次覆核的 2.4GHz IoT 斷線症狀不同；未達六人且未跨站。"
         },
         {
           "url": "https://www.snbforums.com/threads/wifi-coverage-asus-ax86u-v-unifi-u7-pro.89198/",
@@ -99284,8 +100387,271 @@
           "reviewedAt": "2026-08-29",
           "outcome": "excluded",
           "reason": "原頁僅一位 U7 Pro 使用者描述跨頻段不穩，沒有可辨識的同問題其他作者，且仍只有 Reddit 一站。"
+        },
+        {
+          "url": "https://community.ui.com/releases/UniFi-Access-Point-7-0-95/e2aa5440-1995-4ef5-b5ef-7706d8e39b61",
+          "title": "UniFi Access Point 7.0.95",
+          "platform": "Ubiquiti Community",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-31",
+          "sourceExcerpt": "官方穩定韌體公告列出改善 2.4GHz 連線穩定性；公告同时明文列出此版本不提供 U7 Pro Max。",
+          "independentAuthors": 0,
+          "specificReason": "官方修補公告不是可辨識使用者的第一人稱故障回報，不能計入人數；只用於 U7 Pro 歷史問題的後續改善上下文，不代表所有裝置均已恢復。",
+          "reason": "官方修補公告不是可辨識使用者的第一人稱故障回報，不能計入人數；只用於 U7 Pro 歷史問題的後續改善上下文，不代表所有裝置均已恢復。"
+        },
+        {
+          "url": "https://www.mobile01.com/topicdetail.php?f=110&t=7111529",
+          "title": "家中網路架構詢問",
+          "platform": "Mobile01",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-31",
+          "sourceExcerpt": "發文者規劃 26 坪住家，詢問中間只裝一台 U7 Pro 的涵蓋，回覆討論線路及擺位。",
+          "independentAuthors": 0,
+          "specificReason": "屬尚未實裝的拓樸與覆蓋規劃，沒有使用者自述 U7 Pro 的 IoT 故障，不計入災情。",
+          "reason": "屬尚未實裝的拓樸與覆蓋規劃，沒有使用者自述 U7 Pro 的 IoT 故障，不計入災情。"
+        },
+        {
+          "url": "https://www.mobile01.com/topicdetail.php?f=110&t=7047776",
+          "title": "[請益] Unifi 搭Asus Mesh or Unifi全家桶 ?",
+          "platform": "Mobile01",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-31",
+          "sourceExcerpt": "現有網路問題發生於 Vigor2925、RT-AC68U 及 ZenWifi AX，U7 Pro 是候選替換方案。",
+          "independentAuthors": 0,
+          "specificReason": "故障主體是其他品牌舊設備，U7 Pro 僅為購買規劃；不能把既有網路問題移轉為 U7 Pro 回報。",
+          "reason": "故障主體是其他品牌舊設備，U7 Pro 僅為購買規劃；不能把既有網路問題移轉為 U7 Pro 回報。"
+        },
+        {
+          "url": "https://www.mobile01.com/topicdetail.php?f=110&t=7170693",
+          "title": "三層透天UniFi建置規劃疑問",
+          "platform": "Mobile01",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-31",
+          "sourceExcerpt": "發文者尚在規劃 UniFi 全棟部署，詢問 U6 Pro 或 U7 Pro 放在桌面是否影響效能。",
+          "independentAuthors": 0,
+          "specificReason": "是擺放條件與採購規劃，沒有已購 U7 Pro 的第一人稱故障，無人可計入既有問題。",
+          "reason": "是擺放條件與採購規劃，沒有已購 U7 Pro 的第一人稱故障，無人可計入既有問題。"
+        },
+        {
+          "url": "https://www.mobile01.com/topicdetail.php?f=110&t=7252926",
+          "title": "三房家用網路建議",
+          "platform": "Mobile01",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-31",
+          "sourceExcerpt": "asd1478507 比較 U7 Pro 與 ASUS BT10 的建置方案，主要擔憂是聽說 Cloud Gateway Ultra 發熱。",
+          "independentAuthors": 0,
+          "specificReason": "Chrome 重開原頁確認是購前方案討論；發熱對象為 Gateway，並非自有 U7 Pro 故障。",
+          "reason": "Chrome 重開原頁確認是購前方案討論；發熱對象為 Gateway，並非自有 U7 Pro 故障。"
+        },
+        {
+          "url": "https://community.ui.com/questions/U7-Pro-2-4ghz-issues/4dff7816-5c14-4686-9f9a-ab99f9b93700",
+          "title": "U7-Pro 2.4ghz issues",
+          "platform": "Ubiquiti Community",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-31",
+          "sourceExcerpt": "Kurisu112 明確自述兩台 U7 Pro、韌體 7.0.47 的 TP-Link 智慧插座、燈泡及攝影機反覆掉線，暫時換回 UAP-LR。",
+          "independentAuthors": 1,
+          "specificReason": "本原頁只保留 Kurisu112 一位型號與症狀明確作者；和另外三位 Reddit 候選合計最多四人，雖跨兩站仍未達六人，不能成立集中負評。",
+          "reason": "本原頁只保留 Kurisu112 一位型號與症狀明確作者；和另外三位 Reddit 候選合計最多四人，雖跨兩站仍未達六人，不能成立集中負評。"
+        },
+        {
+          "url": "https://www.reddit.com/r/Ubiquiti/comments/1g1funp/u7_pro_iot_issue_explained/",
+          "title": "U7 pro iot issue explained",
+          "platform": "Reddit",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-31",
+          "sourceExcerpt": "Sp1cedaddy 明確自述 U7 Pro 的兩台 2.4GHz Wyze Cam V3 不斷掉線，更新 7.1.18 beta 後改善；另兩位只描述熱泵離線或一般無 Internet。",
+          "independentAuthors": 1,
+          "specificReason": "只有 Sp1cedaddy 可作本串相同症狀候選；m4c1n0 與 Vertigo103 缺少本人頻段及同症狀確認，排除明細另存。四原頁合計最多四人，未達六人門檻。",
+          "reason": "只有 Sp1cedaddy 可作本串相同症狀候選；m4c1n0 與 Vertigo103 缺少本人頻段及同症狀確認，排除明細另存。四原頁合計最多四人，未達六人門檻。"
+        },
+        {
+          "url": "https://www.reddit.com/r/Ubiquiti/comments/1h600kz/24ghz_iot_device_constant_disconnect_5_6ghz_wifi/",
+          "title": "2.4GHz IoT device constant disconnect",
+          "platform": "Reddit",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-31",
+          "sourceExcerpt": "Mattycee2K15 自述三台有線回程 U7-Pro 的 IoT 每天多次斷線，調整通道與獨立 IoT VLAN／Wi-Fi 仍發生。",
+          "independentAuthors": 1,
+          "specificReason": "本串保留原作者一位相關症狀候選，不將 Pro Max 或未明型號回覆混入；和其他原頁合計最多四位，未達六人門檻。",
+          "reason": "本串保留原作者一位相關症狀候選，不將 Pro Max 或未明型號回覆混入；和其他原頁合計最多四位，未達六人門檻。"
+        },
+        {
+          "url": "https://www.reddit.com/r/Ubiquiti/comments/1i547ov/u7_iot_issues_update_its_fairly_fixed/",
+          "title": "U7 IoT issues update, it's fairly fixed.",
+          "platform": "Reddit",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-31",
+          "sourceExcerpt": "elektrinis 表示單台 U7 Pro 在 2025 年 7 月仍有 IoT 反覆掉線及 ESP32 串流問題；原發文者同時有改善經驗。",
+          "independentAuthors": 1,
+          "specificReason": "同作者兩則留言只算一人，未提供 latest firmware 的版本；和另三位候選合計最多四人，不足六人。不能將改善與泛稱 U7 的留言充作新增負評作者。",
+          "reason": "同作者兩則留言只算一人，未提供 latest firmware 的版本；和另三位候選合計最多四人，不足六人。不能將改善與泛稱 U7 的留言充作新增負評作者。"
+        },
+        {
+          "url": "https://www.reddit.com/r/Ubiquiti/comments/1g1funp/comment/lrgdcn0/",
+          "title": "m4c1n0：U7 Pro 熱泵 App／HA 離線回覆",
+          "platform": "Reddit",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-31",
+          "sourceExcerpt": "m4c1n0 使用 U7 Pro，唯一長期連線設備為熱泵；App 約半數時間顯示離線，HA 圖表缺漏，作者尚待換 AP 查明原因。",
+          "independentAuthors": 0,
+          "specificReason": "作者未明示 2.4GHz 或 Wi-Fi 反覆斷線，且尚未排除熱泵因素；不得用論壇主題或其他留言補上同一症狀，因此不計入本次 2.4GHz IoT 門檻。",
+          "reason": "作者未明示 2.4GHz 或 Wi-Fi 反覆斷線，且尚未排除熱泵因素；不得用論壇主題或其他留言補上同一症狀，因此不計入本次 2.4GHz IoT 門檻。"
+        },
+        {
+          "url": "https://www.reddit.com/r/Ubiquiti/comments/1g1funp/comment/lrhhbnk/",
+          "title": "Vertigo103：U7 Pro 裝置連線但無 Internet 回覆",
+          "platform": "Reddit",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-31",
+          "sourceExcerpt": "Vertigo103 明確稱自己的 U7 Pro 出現裝置已連線但沒有 Internet 存取；本人留言沒有進一步描述頻段或裝置類型。",
+          "independentAuthors": 0,
+          "specificReason": "留言未明示 2.4GHz、IoT 或反覆重連，只有泛用的 Internet 存取異常；不能把串題或別人症狀移轉到此作者，不計入同一問題門檻。",
+          "reason": "留言未明示 2.4GHz、IoT 或反覆重連，只有泛用的 Internet 存取異常；不能把串題或別人症狀移轉到此作者，不計入同一問題門檻。"
         }
-      ]
+      ],
+      "supplementalHistoricalReports": [
+        {
+          "productId": "wifi-unifi-u7-pro",
+          "issueTitle": "2.4GHz IoT 裝置斷線與相容性不穩",
+          "platform": "Reddit",
+          "sourceTitle": "U7 pro iot issue explained",
+          "sourceUrl": "https://www.reddit.com/r/Ubiquiti/comments/1g1funp/u7_pro_iot_issue_explained/",
+          "author": "m4c1n0",
+          "permalink": "https://www.reddit.com/r/Ubiquiti/comments/1g1funp/comment/lrgdcn0/",
+          "locator": "m4c1n0 — I have one location with a U7 Pro / Heat-pump / About 50%",
+          "auditNote": "2026-08-31 人工重開原頁，核對作者與原文：m4c1n0 明確表示一處安裝 U7 Pro，唯一長期連線的熱泵約一半時間在 App 顯示離線、Home Assistant 圖表缺漏；作者尚待以另一台 AP 排除熱泵因素，沒有說關閉 6GHz 已改善。",
+          "exactModel": true,
+          "firstPerson": true,
+          "crossPostKey": null,
+          "reviewBasis": "manual_original_page",
+          "reviewedAt": "2026-08-31",
+          "evidenceExcerpt": "m4c1n0 明確表示一處安裝 U7 Pro，唯一長期連線的熱泵約一半時間在 App 顯示離線、Home Assistant 圖表缺漏；作者尚待以另一台 AP 排除熱泵因素，沒有說關閉 6GHz 已改善。"
+        },
+        {
+          "productId": "wifi-unifi-u7-pro",
+          "issueTitle": "2.4GHz IoT 裝置斷線與相容性不穩",
+          "platform": "Reddit",
+          "sourceTitle": "2.4GHz IoT device constant disconnect",
+          "sourceUrl": "https://www.reddit.com/r/Ubiquiti/comments/1h600kz/24ghz_iot_device_constant_disconnect_5_6ghz_wifi/",
+          "author": "Mattycee2K15",
+          "permalink": "https://www.reddit.com/r/Ubiquiti/comments/1h600kz/24ghz_iot_device_constant_disconnect_5_6ghz_wifi/",
+          "locator": "Mattycee2K15，首樓 3 wired backhaul U7-Pro、disconnecting multiple times per day",
+          "auditNote": "2026-08-31 人工重開原頁，核對作者與原文：Mattycee2K15 明確列出三台有線回程 U7-Pro，IoT 每天多次斷線，即使改通道與獨立 IoT VLAN/Wi-Fi 仍發生；原文另說 5/6GHz 速度偏低，並非兩頻段完全正常。",
+          "exactModel": true,
+          "firstPerson": true,
+          "crossPostKey": null,
+          "reviewBasis": "manual_original_page",
+          "reviewedAt": "2026-08-31",
+          "evidenceExcerpt": "Mattycee2K15 明確列出三台有線回程 U7-Pro，IoT 每天多次斷線，即使改通道與獨立 IoT VLAN/Wi-Fi 仍發生；原文另說 5/6GHz 速度偏低，並非兩頻段完全正常。"
+        },
+        {
+          "productId": "wifi-unifi-u7-pro",
+          "issueTitle": "2.4GHz IoT 裝置斷線與相容性不穩",
+          "platform": "Reddit",
+          "sourceTitle": "U7 pro iot issue explained",
+          "sourceUrl": "https://www.reddit.com/r/Ubiquiti/comments/1g1funp/u7_pro_iot_issue_explained/",
+          "author": "Sp1cedaddy",
+          "permalink": "https://www.reddit.com/r/Ubiquiti/comments/1g1funp/comment/lrgh7mp/",
+          "locator": "Sp1cedaddy — I have U7 Pro at home / 2x Wyze Cam V3 / 7.1.18",
+          "auditNote": "2026-08-31 人工重開原頁，核對作者與原文：Sp1cedaddy 明確寫出家中 U7 Pro，兩台 2.4GHz Wyze Cam V3 持續斷線，直到更新 7.1.18 beta 才改善；此為有改善結果的歷史問題，不能描述為目前必然未修好。",
+          "exactModel": true,
+          "firstPerson": true,
+          "crossPostKey": null,
+          "reviewBasis": "manual_original_page",
+          "reviewedAt": "2026-08-31",
+          "evidenceExcerpt": "Sp1cedaddy 明確寫出家中 U7 Pro，兩台 2.4GHz Wyze Cam V3 持續斷線，直到更新 7.1.18 beta 才改善；此為有改善結果的歷史問題，不能描述為目前必然未修好。"
+        },
+        {
+          "productId": "wifi-unifi-u7-pro",
+          "issueTitle": "2.4GHz IoT 裝置斷線與相容性不穩",
+          "platform": "Reddit",
+          "sourceTitle": "U7 pro iot issue explained",
+          "sourceUrl": "https://www.reddit.com/r/Ubiquiti/comments/1g1funp/u7_pro_iot_issue_explained/",
+          "author": "Vertigo103",
+          "permalink": "https://www.reddit.com/r/Ubiquiti/comments/1g1funp/comment/lrhhbnk/",
+          "locator": "Vertigo103 — My u7 Pro has connectivity issues",
+          "auditNote": "2026-08-31 人工重開原頁，核對作者與原文：Vertigo103 明確以 My u7 Pro 描述裝置雖顯示連線，卻沒有 Internet 存取；原文沒有提供韌體版本與故障率，不能自行補寫。",
+          "exactModel": true,
+          "firstPerson": true,
+          "crossPostKey": null,
+          "reviewBasis": "manual_original_page",
+          "reviewedAt": "2026-08-31",
+          "evidenceExcerpt": "Vertigo103 明確以 My u7 Pro 描述裝置雖顯示連線，卻沒有 Internet 存取；原文沒有提供韌體版本與故障率，不能自行補寫。"
+        },
+        {
+          "productId": "wifi-unifi-u7-pro",
+          "issueTitle": "2.4GHz IoT 裝置斷線與相容性不穩",
+          "platform": "Ubiquiti Community",
+          "sourceTitle": "U7-Pro 2.4ghz issues",
+          "sourceUrl": "https://community.ui.com/questions/U7-Pro-2-4ghz-issues/4dff7816-5c14-4686-9f9a-ab99f9b93700",
+          "author": "Kurisu112",
+          "permalink": "https://community.ui.com/questions/U7-Pro-2-4ghz-issues/4dff7816-5c14-4686-9f9a-ab99f9b93700",
+          "locator": "Kurisu112，首樓 2x U7-Pro、7.0.47、TP-Link smart plugs/bulbs/cctv",
+          "auditNote": "2026-08-31 人工重開原頁，核對作者與原文：Kurisu112 明確表示自用兩台 U7-Pro、韌體 7.0.47；TP-Link 智慧插座、燈泡與攝影機雖顯示連線，仍反覆掉線，只能暫時恢復舊 UAP-LR。",
+          "exactModel": true,
+          "firstPerson": true,
+          "crossPostKey": null,
+          "reviewBasis": "manual_original_page",
+          "reviewedAt": "2026-08-31",
+          "evidenceExcerpt": "Kurisu112 明確表示自用兩台 U7-Pro、韌體 7.0.47；TP-Link 智慧插座、燈泡與攝影機雖顯示連線，仍反覆掉線，只能暫時恢復舊 UAP-LR。"
+        },
+        {
+          "productId": "wifi-unifi-u7-pro",
+          "issueTitle": "2.4GHz IoT 裝置斷線與相容性不穩",
+          "platform": "Reddit",
+          "sourceTitle": "U7 IoT issues update, it's fairly fixed.",
+          "sourceUrl": "https://www.reddit.com/r/Ubiquiti/comments/1i547ov/u7_iot_issues_update_its_fairly_fixed/",
+          "author": "elektrinis",
+          "permalink": "https://www.reddit.com/r/Ubiquiti/comments/1i547ov/u7_iot_issues_update_its_fairly_fixed/",
+          "locator": "elektrinis — I have a single U7 pro. Still, as of july 2025 / ESP32",
+          "auditNote": "2026-08-31 人工核對原頁：作者明確標示單台 U7 Pro、2025 年 7 月與 IoT 持續掉線；同作者兩則留言只計一人。其所稱 latest fw 未提供版本，不解讀為本輪最新版。elektrinis 表示單台 U7 Pro 在 2025 年 7 月仍有裝置反覆掉線、部分 IoT 無法維持連線，並以 ESP32 音樂串流距離約兩公尺就失常為例；只計此作者一人。",
+          "exactModel": true,
+          "firstPerson": true,
+          "crossPostKey": null,
+          "reviewBasis": "manual_original_page",
+          "reviewedAt": "2026-08-31",
+          "evidenceExcerpt": "elektrinis 表示單台 U7 Pro 在 2025 年 7 月仍有裝置反覆掉線、部分 IoT 無法維持連線，並以 ESP32 音樂串流距離約兩公尺就失常為例；只計此作者一人。"
+        }
+      ],
+      "supplementalHistoricalAssessment": {
+        "reviewedAt": "2026-08-31",
+        "previousDecision": "common_issue",
+        "decision": "no_common_issue",
+        "previousReportCount": 6,
+        "maximumSameSymptomCandidates": 4,
+        "independentWebsites": 2,
+        "countedForCommonIssue": false,
+        "retainedCandidateAuthors": [
+          "Kurisu112",
+          "Sp1cedaddy",
+          "Mattycee2K15",
+          "elektrinis"
+        ],
+        "excludedAuthors": [
+          {
+            "author": "m4c1n0",
+            "permalink": "https://www.reddit.com/r/Ubiquiti/comments/1g1funp/comment/lrgdcn0/",
+            "reason": "exact U7 Pro 與第一人稱成立，但未明示 2.4GHz 或 Wi-Fi 斷線；熱泵 App／HA 離線尚待換 AP 排除熱泵因素，不能計為相同症狀。"
+          },
+          {
+            "author": "Vertigo103",
+            "permalink": "https://www.reddit.com/r/Ubiquiti/comments/1g1funp/comment/lrhhbnk/",
+            "reason": "exact U7 Pro 與第一人稱成立，但只有已連線而無 Internet 的泛用描述，未標示 2.4GHz、IoT 或反覆重連；串題與相鄰留言不能代替本人說明。"
+          }
+        ]
+      }
     },
     {
       "id": "wifi-unifi-u6-pro",
@@ -100043,11 +101409,11 @@
       "issueResearch": {
         "status": "common_issue",
         "checkedAt": "2026-08-29",
-        "summary": "多位 AP22 使用者回報舊版 3.0.0 韌體會使 iPhone 或 Android 掉線、拒絕重連或顯示密碼錯誤；後續 hotfix 已針對此問題修正。",
+        "summary": "多位 AP22 使用者回報舊版 3.0.0 韌體會使 iPhone 或 Android 掉線、拒絕重連或顯示密碼錯誤；官方已發布後續修補，但不宜視為所有環境均已解決。",
         "issues": [
           {
             "title": "舊版 3.0.0 韌體造成行動裝置斷線與錯誤密碼",
-            "detail": "這是 2024 年 3.0.0 版本的歷史韌體災情；HPE 已於 2024-08-23 發布 3.0.0.1 hotfix。購買或部署後應先確認已升級修正版，不代表目前最新版仍必然發生。",
+            "detail": "這是 2024 年 3.0.0 的歷史韌體事件。2026-08-31 補核 HPE 公告：3.0.0.1 後仍於 2024-10-14 公告 3.0.0.2，針對 WPA3 異常框架重啟與記憶體洩漏再修補；同串 AP22 使用者仍有不同結果。保留原六人證據日期，不將舊版災情推定為目前最新版必然發生，也不宣稱全面修復。",
             "reportCount": 6,
             "sources": [
               {
@@ -100196,7 +101562,182 @@
           "outcome": "excluded",
           "reason": "可保守辨識兩位 AP22 使用者回報需重開或狀態不穩，但只有 Reddit 原站且人數遠低於六人。"
         }
-      ]
+      ],
+      "supplementalReview": {
+        "id": "wifi-aruba-ap22",
+        "category": "wifi",
+        "brand": "Aruba",
+        "model": "Instant On AP22",
+        "reviewedAt": "2026-08-31",
+        "reviewBatch": "wifi",
+        "decision": "common_issue",
+        "checkedPlatforms": [
+          "Mobile01",
+          "Reddit",
+          "HPE Instant On Community"
+        ],
+        "queries": [
+          {
+            "platform": "Mobile01",
+            "targetHost": "mobile01.com",
+            "query": "site:mobile01.com \"Instant On AP22\" \"問題\"",
+            "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Instant%20On%20AP22%22%20%22%E5%95%8F%E9%A1%8C%22"
+          },
+          {
+            "platform": "Reddit",
+            "targetHost": "reddit.com",
+            "query": "site:reddit.com \"Instant On AP22\" \"3.0.0\"",
+            "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22Instant%20On%20AP22%22%20%223.0.0%22"
+          }
+        ],
+        "candidateDisposition": "Instant On AP22：2026-08-31 實際回看原始 3.0.0 討論及跨站後續修補候選；保留六位既有回報與 2026-08-29 逐人證據日期，本輪不是全六人重新認證。HPE 先發布 3.0.0.1，再於 2024-10-14 公告 3.0.0.2 針對 WPA3 異常框架重啟與記憶體洩漏修补；同串後續 AP22 使用者結果仍不一致。新候選沒有形成另一組六人兩站同症狀，不宣稱最新版必然有舊版問題或已全面修復。 另於本日補跑 Mobile01 exact-model 查詢並回到候選原頁，逐筆保留購前規劃、正向回覆及單人問題的排除原因。",
+        "representativeSources": [
+          {
+            "platform": "HPE Instant On Community",
+            "title": "After update to 3.0.0 firmware: connection problems with iPhones to AP22",
+            "url": "https://community.instant-on.hpe.com/discussion/after-update-to-300-firmware-connection-problems-with-iphones-to-ap22"
+          },
+          {
+            "platform": "Reddit",
+            "title": "Issues since firmware 3.0.0",
+            "url": "https://www.reddit.com/r/ArubaInstantOn/comments/1eiarrp/issues_since_firmware_300/"
+          }
+        ],
+        "reviewerNote": "Instant On AP22：2026-08-31 實際回看原始 3.0.0 討論及跨站後續修補候選；保留六位既有回報與 2026-08-29 逐人證據日期，本輪不是全六人重新認證。HPE 先發布 3.0.0.1，再於 2024-10-14 公告 3.0.0.2 針對 WPA3 異常框架重啟與記憶體洩漏修补；同串後續 AP22 使用者結果仍不一致。新候選沒有形成另一組六人兩站同症狀，不宣稱最新版必然有舊版問題或已全面修復。 另於本日補跑 Mobile01 exact-model 查詢並回到候選原頁，逐筆保留購前規劃、正向回覆及單人問題的排除原因。",
+        "attestation": "manual_original_pages_reviewed",
+        "candidateReviews": [
+          {
+            "url": "https://www.reddit.com/r/ArubaInstantOn/comments/1eda40d/software_ap_3_aruba_ap_22_problems/",
+            "title": "Software AP 3 Aruba AP 22 problems",
+            "platform": "Reddit",
+            "exactModel": true,
+            "sourceExcerpt": "manually reset them one by one every few hours",
+            "independentAuthors": 2,
+            "specificReason": "可保守辨識兩位 AP22 使用者回報需重開或狀態不穩，但只有 Reddit 原站且人數遠低於六人。",
+            "reviewedAt": "2026-08-29",
+            "outcome": "excluded"
+          },
+          {
+            "url": "https://community.instant-on.hpe.com/discussion/instant-on-3002-ap-software-release",
+            "title": "Instant On 3.0.0.2 AP Software release",
+            "platform": "HPE Instant On Community",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-08-31",
+            "sourceExcerpt": "HPE 員工 DP70 於 2024-10-14 公告 3.0.0.2 修補 WPA3 異常框架造成重啟及記憶體洩漏；TJ16、diegoeb、Raketenmeyer 後續明確提到 AP22 延遲或 2.4GHz 流量異常。",
+            "independentAuthors": 3,
+            "specificReason": "官方公告本身不計人；三位 AP22 回覆的後續症狀仍只有此一網站，且不能將 AP22D、AP25 或未明型號回報混入，不足建立新的六人兩站問題。"
+          },
+          {
+            "url": "https://www.reddit.com/r/ArubaInstantOn/comments/1gerduh/v3002_still_unstable_and_near_unusable/",
+            "title": "v3.0.0.2 still unstable and near unusable",
+            "platform": "Reddit",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-08-31",
+            "sourceExcerpt": "signalpower 使用兩台 AP22 與 FortiSwitch 124E，描述回應慢、下載異常；後續移除 AP22 連接埠的 multicast 設定與 STP 後表示改善。",
+            "independentAuthors": 1,
+            "specificReason": "只有 signalpower 明確自述 AP22；其他回覆型號不明或為 AP12。且網路設定變更會影響結果，不能據此計成全 AP22 新韌體災情或宣稱全面修復。"
+          },
+          {
+            "url": "https://www.mobile01.com/topicdetail.php?f=110&t=7024348",
+            "title": "墾求高手相助。mikrotik. RB5009與Aruba AP22的網路延遲感",
+            "platform": "Mobile01",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-08-31",
+            "sourceExcerpt": "小興哥表示 RB5009 與 AP22 換裝後測速正常但 App 連線頓挫；kendrv 提醒可能 PPPoE 與 DHCP 路由設定錯誤。",
+            "independentAuthors": 1,
+            "specificReason": "Chrome 原頁只一名問題作者，未標韌體，尚未排除 RB5009 路由設定；不能當作 3.0.0 的相同原因或新六人兩站災情。"
+          },
+          {
+            "url": "https://www.mobile01.com/topicdetail.php?f=110&t=7083764",
+            "title": "〖心得〗各種用過的路由器分享",
+            "platform": "Mobile01",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-08-31",
+            "sourceExcerpt": "lessTowns 明列 Aruba Instant On AP22 為其使用過的設備，表示多裝置環境穩定、基本不斷網。",
+            "independentAuthors": 0,
+            "specificReason": "這是正向個人經驗，沒有第一人稱 AP22 問題，不能计入負評，也不能因此推定全部部署沒有問題。"
+          },
+          {
+            "url": "https://www.mobile01.com/topicdetail.php?f=110&t=7067968",
+            "title": "無線路由器請益推薦",
+            "platform": "Mobile01",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-08-31",
+            "sourceExcerpt": "發文者尚未購買，將 AP22、Deco BE65 和 Xiaomi AX3000 列為三個採購選手，詢問穩定性。",
+            "independentAuthors": 0,
+            "specificReason": "屬購前推薦提問，尚未持有 AP22；對既有其他設備的憂慮不可算作 AP22 第一人稱故障。"
+          },
+          {
+            "url": "https://www.mobile01.com/topicdetail.php?f=110&t=6543851",
+            "title": "求推薦 高階WiFi6 Mesh 四層樓用",
+            "platform": "Mobile01",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-08-31",
+            "sourceExcerpt": "luckyboy741852 表示自家網路穩定並推薦 Aruba Instant On AP22；討論核心是四層樓的有線回程。",
+            "independentAuthors": 0,
+            "specificReason": "為建置建議及正向使用敘述，沒有可核對的 AP22 負面故障作者，不納入問題人數。"
+          },
+          {
+            "url": "https://www.mobile01.com/topicdetail.php?f=507&p=2&t=6576567",
+            "title": "請問小型辦公室的網路推薦 (第2頁)",
+            "platform": "Mobile01",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-08-31",
+            "sourceExcerpt": "k62000 表示公司從 FortiAP 換成 Aruba AP22，對目前使用經驗滿意，並附官方頁。",
+            "independentAuthors": 0,
+            "specificReason": "此回覆為正向公司部署經驗；上文對中華電信服務的不滿不是 AP22 故障，不可移轉計入。"
+          },
+          {
+            "url": "https://www.mobile01.com/topicdetail.php?f=507&t=6529748",
+            "title": "中高價位無線路由器挑選(有選手)",
+            "platform": "Mobile01",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-08-31",
+            "sourceExcerpt": "發文者把 Aruba Instant On AP22、Zyxel NWA210AX 與 ASUS RT-AX82U 作購前比較；留言討論管理功能差異。",
+            "independentAuthors": 0,
+            "specificReason": "原文的不穩發生於尚未更換的舊路由器，AP22 是待購選手；功能偏好與價格取捨不屬第一人稱故障。"
+          },
+          {
+            "url": "https://www.mobile01.com/topicdetail.php?f=110&t=6611601",
+            "title": "網路設備升級詢問 (增加交換器請益)",
+            "platform": "Mobile01",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-08-31",
+            "sourceExcerpt": "發文者將 Aruba Instant On 1930 與 AP22 列為購買方案，並比較中華電信租賃服務。",
+            "independentAuthors": 0,
+            "specificReason": "AP22 尚未購入，現有網路問題和租賃服務評價不能當作 AP22 第一人稱問題證據。"
+          },
+          {
+            "url": "https://www.mobile01.com/topicdetail.php?f=110&t=7197529",
+            "title": "4樓透天用aruba mesh",
+            "platform": "Mobile01",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-08-31",
+            "sourceExcerpt": "晴羽真列出混合 AP32、AP25 及 AP22 的網路，表示穩定漫遊良好，另討論價格、雲端管理及系列限制。",
+            "independentAuthors": 0,
+            "specificReason": "沒有具體 AP22 故障；混合型號的泛用限制不能移轉到 exact AP22，更不能將市場前景猜测視為實際災情。"
+          }
+        ],
+        "supplementaryQueries": [
+          {
+            "platform": "HPE Instant On Community",
+            "targetHost": "community.instant-on.hpe.com",
+            "query": "site:community.instant-on.hpe.com \"Instant On AP22\" \"3.0.0.2\"",
+            "queryUrl": "https://www.google.com/search?q=site%3Acommunity.instant-on.hpe.com%20%22Instant%20On%20AP22%22%20%223.0.0.2%22"
+          }
+        ]
+      },
+      "supplementalReviewPolicy": "2026-08-31補查修補／包裝改善背景與新候選；未逐人重查原有成立回報，主決策與逐人證據日期保留2026-08-29。"
     },
     {
       "id": "wifi-aruba-ap25",
@@ -100890,7 +102431,7 @@
       "manualReview": {
         "status": "completed",
         "decision": "common_issue",
-        "reviewedAt": "2026-08-29",
+        "reviewedAt": "2026-08-31",
         "checkedPlatforms": [
           "Mobile01",
           "Reddit",
@@ -100900,18 +102441,18 @@
         "queries": [
           {
             "platform": "Mobile01",
-            "query": "site:mobile01.com \"UniFi U7 Pro Max\" (災情 OR 問題 OR 故障 OR 負評)",
-            "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22UniFi%20U7%20Pro%20Max%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
-            "targetHost": "mobile01.com"
+            "targetHost": "mobile01.com",
+            "query": "site:mobile01.com \"U7 Pro Max\" \"問題\"",
+            "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22U7%20Pro%20Max%22%20%22%E5%95%8F%E9%A1%8C%22"
           },
           {
             "platform": "Reddit",
-            "query": "\"UniFi U7 Pro Max\" (problem OR issue OR defect OR negative review)",
-            "queryUrl": "https://www.reddit.com/search/?q=%22UniFi%20U7%20Pro%20Max%22%20(problem%20OR%20issue%20OR%20defect%20OR%20negative%20review)",
-            "targetHost": "reddit.com"
+            "targetHost": "reddit.com",
+            "query": "site:reddit.com \"U7 Pro Max\" \"IoT\" \"fixed\"",
+            "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22U7%20Pro%20Max%22%20%22IoT%22%20%22fixed%22"
           }
         ],
-        "candidateDisposition": "U7 Pro Max：Yahoo Search 本輪回應失敗，已改以獨立網頁索引重跑 exact-model 查詢；逐人原頁 ledger 達同一問題至少 6 人／2 個原始網站，判定 common_issue，證據日期與修補狀態依原頁保留。",
+        "candidateDisposition": "U7 Pro Max：2026-08-31 重開原頁逐人核對六位型號明確的獨立作者，保留跨 Reddit 與 Ubiquiti Community 的 common_issue；排除 aladd04 與 spford，因回覆未清楚確認本人 exact Pro Max。Spaceman_Splff 曾把舊 AP 連線誤認為韌體修好，後續已撤回，不能引用為全面修復。新增改善查詢僅作上下文；官方 7.0.95 明文排除 U7 Pro Max，絕不可套用 U7 Pro 的修補版本。舊候選處置保留各自日期。 另於本日補跑 Mobile01 exact-model 查詢，本次索引未返回此 exact 型號候選，不將零結果解讀為沒有負評。",
         "representativeSources": [
           {
             "platform": "Ubiquiti Community",
@@ -100967,20 +102508,42 @@
             "specificReason": "同串可保守確認兩位 exact-model 使用者回報 2.4GHz 異常，其餘為 U7 系列泛稱；只有一站且不足六人。",
             "reviewedAt": "2026-08-29",
             "outcome": "excluded"
+          },
+          {
+            "url": "https://community.ui.com/releases/UniFi-Access-Point-7-0-95/e2aa5440-1995-4ef5-b5ef-7706d8e39b61",
+            "title": "UniFi Access Point 7.0.95",
+            "platform": "Ubiquiti Community",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-08-31",
+            "sourceExcerpt": "官方 7.0.95 公告列有 2.4GHz 穩定性改善，但在版本適用限制明確寫出 U7 Pro Max 不提供此版本。",
+            "independentAuthors": 0,
+            "specificReason": "這份官方公告雖提及 exact U7 Pro Max，卻明確排除該型號；不是此型號已修復的證據，也不是可計數的使用者回報。"
+          },
+          {
+            "url": "https://www.reddit.com/r/Ubiquiti/comments/1i547ov/u7_iot_issues_update_its_fairly_fixed/",
+            "title": "U7 IoT issues update, it's fairly fixed.",
+            "platform": "Reddit",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-08-31",
+            "sourceExcerpt": "原作者描述逾百台 IoT 裝置在其環境已穩定數週，並區分 Pro 的 7.0.100 與 Pro Max 的 7.2.13；其他回覆仍有不同經驗。",
+            "independentAuthors": 0,
+            "specificReason": "這是個人改善經驗而非新的 Pro Max 集中故障證據；不能把單一環境的結果視為官方全面修復，也不可把同串 Pro 回報計為 Pro Max。"
           }
         ],
-        "reviewerNote": "U7 Pro Max：Yahoo Search 本輪回應失敗，已改以獨立網頁索引重跑 exact-model 查詢；逐人原頁 ledger 達同一問題至少 6 人／2 個原始網站，判定 common_issue，證據日期與修補狀態依原頁保留。",
+        "reviewerNote": "U7 Pro Max：2026-08-31 重開原頁逐人核對六位型號明確的獨立作者，保留跨 Reddit 與 Ubiquiti Community 的 common_issue；排除 aladd04 與 spford，因回覆未清楚確認本人 exact Pro Max。Spaceman_Splff 曾把舊 AP 連線誤認為韌體修好，後續已撤回，不能引用為全面修復。新增改善查詢僅作上下文；官方 7.0.95 明文排除 U7 Pro Max，絕不可套用 U7 Pro 的修補版本。舊候選處置保留各自日期。 另於本日補跑 Mobile01 exact-model 查詢，本次索引未返回此 exact 型號候選，不將零結果解讀為沒有負評。",
         "attestation": "manual_original_pages_reviewed"
       },
       "issueResearch": {
         "status": "common_issue",
-        "checkedAt": "2026-08-29",
-        "summary": "多位同型號使用者回報 2.4GHz IoT 裝置會出現 DHCP／DNS timeout、高封包遺失或斷線重連。",
+        "checkedAt": "2026-08-31",
+        "summary": "多位 U7 Pro Max 使用者曾回報 2.4GHz IoT 裝置 DHCP／DNS timeout、封包遺失或斷線重連；後續改善程度需依韌體與實際裝置確認。",
         "issues": [
           {
             "title": "2.4GHz IoT 連線、DHCP／DNS 與封包遺失問題",
-            "detail": "智慧家電可能在連上後很快掉線，或出現嚴重封包遺失；建議先以目前穩定韌體及獨立 IoT SSID 實測，再決定大量部署。",
-            "reportCount": 8,
+            "detail": "2026-08-31 以 6 位型號明確的獨立使用者重核歷史回報。部分後續使用者表示韌體改善，但不能用 U7 Pro 的更新結果代替 Pro Max；官方 7.0.95 公告更明文排除 U7 Pro Max。先確認 Pro Max 適用的穩定韌體，以獨立 IoT SSID 及實際家電測試數日，再決定大量部署。",
+            "reportCount": 6,
             "sources": [
               {
                 "platform": "Ubiquiti Community",
@@ -101008,15 +102571,47 @@
       },
       "searchChecks": [
         {
-          "platform": "Yahoo Search",
-          "query": "(\"UniFi U7 Pro Max\") (problem OR issue OR defect OR failure OR 災情 OR 故障 OR 負評) (site:mobile01.com OR site:dcard.tw OR site:ptt.cc OR site:reddit.com OR site:snbforums.com OR site:52asus.com)",
-          "searchUrl": "https://search.yahoo.com/search?p=(%22UniFi%20U7%20Pro%20Max%22)%20(problem%20OR%20issue%20OR%20defect%20OR%20failure%20OR%20%E7%81%BD%E6%83%85%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)%20(site%3Amobile01.com%20OR%20site%3Adcard.tw%20OR%20site%3Aptt.cc%20OR%20site%3Areddit.com%20OR%20site%3Asnbforums.com%20OR%20site%3A52asus.com)",
-          "result": "search_unavailable",
-          "resultCount": 0,
-          "candidateUrls": [],
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"U7 Pro Max\" \"問題\"",
+          "searchUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22U7%20Pro%20Max%22%20%22%E5%95%8F%E9%A1%8C%22",
+          "result": "no_exact_model_result",
+          "inspectedAt": "2026-08-31T00:00:00+08:00",
           "candidates": [],
-          "inspectedAt": "2026-08-29T00:00:00+08:00",
-          "error": "fetch failed"
+          "resultCount": 0,
+          "candidateUrls": []
+        },
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"U7 Pro Max\" \"IoT\" \"fixed\"",
+          "searchUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22U7%20Pro%20Max%22%20%22IoT%22%20%22fixed%22",
+          "result": "candidates_unverified_by_search_only",
+          "inspectedAt": "2026-08-31T00:00:00+08:00",
+          "candidates": [
+            {
+              "title": "Shouldn't U7 Pro Max++ Wi-Fi 7 generation devices ... - Reddit",
+              "url": "https://www.reddit.com/r/Ubiquiti/comments/1d4clls/shouldnt_u7_pro_max_wifi_7_generation_devices/",
+              "snippet": "討論焦點是 U7 Pro Max 為何只配 2.5GbE uplink，而不是 10GbE，屬規格設計討論。",
+              "exactModel": true
+            },
+            {
+              "title": "All devices disconnecting from 2.4GHz band simultaneously overnight - U7 Pro Max",
+              "url": "https://www.reddit.com/r/UNIFI/comments/1gra1lo/all_devices_disconnecting_from_24ghz_band_simultaneously_overnight_u7_pro_max/",
+              "snippet": "ALL of my client devices connected to the 2.4ghz band disconnect simultaneously, and won't reconnect until I reboot the U7 Pro Max.",
+              "exactModel": true
+            },
+            {
+              "title": "U7 IoT issues update, it's fairly fixed.",
+              "url": "https://www.reddit.com/r/Ubiquiti/comments/1i547ov/u7_iot_issues_update_its_fairly_fixed/",
+              "snippet": "原作者描述逾百台 IoT 裝置在其環境已穩定數週，並區分 Pro 的 7.0.100 與 Pro Max 的 7.2.13；其他回覆仍有不同經驗。",
+              "exactModel": true
+            }
+          ],
+          "resultCount": 3,
+          "candidateUrls": [
+            "https://www.reddit.com/r/Ubiquiti/comments/1d4clls/shouldnt_u7_pro_max_wifi_7_generation_devices/",
+            "https://www.reddit.com/r/UNIFI/comments/1gra1lo/all_devices_disconnecting_from_24ghz_band_simultaneously_overnight_u7_pro_max/",
+            "https://www.reddit.com/r/Ubiquiti/comments/1i547ov/u7_iot_issues_update_its_fairly_fixed/"
+          ]
         }
       ],
       "evidence": [
@@ -101030,19 +102625,19 @@
             "bmikiano"
           ],
           "distinctReportCount": 1,
-          "checkedAt": "2026-08-29",
+          "checkedAt": "2026-08-31",
           "reports": [
             {
               "author": "bmikiano",
               "permalink": "https://community.ui.com/questions/U7-Pro-Max-connection-issues-with-IoT-devices/79f46435-0180-4216-b19a-524ddf92ba11",
-              "locator": "bmikiano — U7 Pro Max connection issues with IoT devices",
-              "evidenceExcerpt": "bmikiano 表示 U7 Pro Max 上的 IoT 裝置會反覆斷線再重連，問題集中在 2.4GHz 用戶端。",
-              "auditNote": "人工原頁覆核：bmikiano 表示 U7 Pro Max 上的 IoT 裝置會反覆斷線再重連，問題集中在 2.4GHz 用戶端。",
+              "locator": "bmikiano，首樓 U7 Pro Max on firmware 7.0.66；末則 Band Steering disabled",
+              "evidenceExcerpt": "bmikiano 明確使用 U7 Pro Max、7.0.66，Roborock 與 Tapo IoT 反覆斷線；獨立 2.4GHz SSID、WPA2 及停用 band steering 仍無效，改舊 Netgear AP 才能使用。",
+              "auditNote": "2026-08-31 人工重開原頁，核對作者與原文：bmikiano 明確使用 U7 Pro Max、7.0.66，Roborock 與 Tapo IoT 反覆斷線；獨立 2.4GHz SSID、WPA2 及停用 band steering 仍無效，改舊 Netgear AP 才能使用。",
               "exactModel": true,
               "firstPerson": true,
               "crossPostKey": null,
               "reviewBasis": "manual_original_page",
-              "reviewedAt": "2026-08-29"
+              "reviewedAt": "2026-08-31"
             }
           ]
         },
@@ -101051,50 +102646,37 @@
           "platform": "Reddit",
           "title": "IoT 2GHz issues on new U7 Pro Max",
           "url": "https://www.reddit.com/r/Ubiquiti/comments/1d9peae/iot_2ghz_issues_on_new_u7_pro_max/",
-          "evidenceSnippet": "三位同型號使用者描述 2.4GHz IoT 連線異常，其中一例約有 95% 封包遺失。",
+          "evidenceSnippet": "兩位明確使用 U7 Pro Max／7PM 的作者回報 IoT 斷線；Spaceman_Splff 約有 95% 封包遺失，並撤回早先誤以為更新已修好的判斷。",
           "authors": [
-            "aladd04",
             "BluThunder2k",
             "Spaceman_Splff"
           ],
-          "distinctReportCount": 3,
-          "checkedAt": "2026-08-29",
+          "distinctReportCount": 2,
+          "checkedAt": "2026-08-31",
           "reports": [
-            {
-              "author": "aladd04",
-              "permalink": "https://www.reddit.com/r/Ubiquiti/comments/1d9peae/iot_2ghz_issues_on_new_u7_pro_max/",
-              "locator": "aladd04 — IoT 2GHz issues on new U7 Pro Max",
-              "evidenceExcerpt": "aladd04 回報 U7 Pro Max 的 2.4GHz IoT 連線同樣異常，並嘗試靠韌體與無線設定調整暫時處理。",
-              "auditNote": "人工原頁覆核：aladd04 回報 U7 Pro Max 的 2.4GHz IoT 連線同樣異常，並嘗試靠韌體與無線設定調整暫時處理。",
-              "exactModel": true,
-              "firstPerson": true,
-              "crossPostKey": null,
-              "reviewBasis": "manual_original_page",
-              "reviewedAt": "2026-08-29"
-            },
             {
               "author": "BluThunder2k",
               "permalink": "https://www.reddit.com/r/Ubiquiti/comments/1d9peae/iot_2ghz_issues_on_new_u7_pro_max/",
-              "locator": "BluThunder2k — IoT 2GHz issues on new U7 Pro Max",
-              "evidenceExcerpt": "BluThunder2k 表示自用 U7 Pro Max 的 2.4GHz IoT 連線不穩，因此保留舊 AP 專門服務 IoT 裝置。",
-              "auditNote": "人工原頁覆核：BluThunder2k 表示自用 U7 Pro Max 的 2.4GHz IoT 連線不穩，因此保留舊 AP 專門服務 IoT 裝置。",
+              "locator": "BluThunder2k — 7PM / ESP32 / Ecobee / 7.0.56",
+              "evidenceExcerpt": "BluThunder2k 表示 7PM 在 7.0.56 先讓 ESP32/ESPHOME 掉線，再影響 Ecobee 恆溫器；U6E 原本正常且已有支援案件，原文沒有聲稱保留舊 AP 專門服務 IoT。",
+              "auditNote": "2026-08-31 人工重開原頁，核對作者與原文：BluThunder2k 表示 7PM 在 7.0.56 先讓 ESP32/ESPHOME 掉線，再影響 Ecobee 恆溫器；U6E 原本正常且已有支援案件，原文沒有聲稱保留舊 AP 專門服務 IoT。",
               "exactModel": true,
               "firstPerson": true,
               "crossPostKey": null,
               "reviewBasis": "manual_original_page",
-              "reviewedAt": "2026-08-29"
+              "reviewedAt": "2026-08-31"
             },
             {
               "author": "Spaceman_Splff",
               "permalink": "https://www.reddit.com/r/Ubiquiti/comments/1d9peae/iot_2ghz_issues_on_new_u7_pro_max/",
-              "locator": "Spaceman_Splff — IoT 2GHz issues on new U7 Pro Max",
-              "evidenceExcerpt": "Spaceman_Splff 換成 U7 Pro Max 後，多個 2.4GHz IoT 裝置出現 DHCP／DNS timeout；即使訊號約 -45 dBm，封包遺失仍接近 95%。",
-              "auditNote": "人工原頁覆核：Spaceman_Splff 換成 U7 Pro Max 後，多個 2.4GHz IoT 裝置出現 DHCP／DNS timeout；即使訊號約 -45 dBm，封包遺失仍接近 95%。",
+              "locator": "Spaceman_Splff，首樓 U7 Pro-Maxs / 95% packetloss / Edit2: NVM, still broken",
+              "evidenceExcerpt": "Spaceman_Splff 從 U7 Pro 換成 Pro Max 後出現 IoT DHCP/DNS timeout 與約 95% 封包遺失；他已撤回 7.0.58 改善判斷，因發現裝置其實仍鎖在原 U7 Pro。",
+              "auditNote": "2026-08-31 人工重開原頁，核對作者與原文：Spaceman_Splff 從 U7 Pro 換成 Pro Max 後出現 IoT DHCP/DNS timeout 與約 95% 封包遺失；他已撤回 7.0.58 改善判斷，因發現裝置其實仍鎖在原 U7 Pro。",
               "exactModel": true,
               "firstPerson": true,
               "crossPostKey": null,
               "reviewBasis": "manual_original_page",
-              "reviewedAt": "2026-08-29"
+              "reviewedAt": "2026-08-31"
             }
           ]
         },
@@ -101103,50 +102685,37 @@
           "platform": "Reddit",
           "title": "IoT devices won't connect to WiFi",
           "url": "https://www.reddit.com/r/Ubiquiti/comments/1fnsctj/new_and_some_old_iot_devices_wont_connect_to_wifi/",
-          "evidenceSnippet": "三位使用者回報 IoT 裝置只能短暫連線、隨即斷線或完全無法加入。",
+          "evidenceSnippet": "VampireSix 與 Capt_shadab 皆明確寫出自用 U7 Pro Max，回報 IoT 裝置連線後隨即斷開或不能完成設定。",
           "authors": [
             "Capt_shadab",
-            "spford",
             "VampireSix"
           ],
-          "distinctReportCount": 3,
-          "checkedAt": "2026-08-29",
+          "distinctReportCount": 2,
+          "checkedAt": "2026-08-31",
           "reports": [
             {
               "author": "Capt_shadab",
               "permalink": "https://www.reddit.com/r/Ubiquiti/comments/1fnsctj/new_and_some_old_iot_devices_wont_connect_to_wifi/",
-              "locator": "Capt_shadab — IoT devices won't connect to WiFi",
-              "evidenceExcerpt": "Capt_shadab 在該串明確說明自己的 U7 Pro Max 也有 2.4GHz IoT 裝置持續斷線問題。",
-              "auditNote": "人工原頁覆核：Capt_shadab 在該串明確說明自己的 U7 Pro Max 也有 2.4GHz IoT 裝置持續斷線問題。",
+              "locator": "Capt_shadab — i have couple of u7pro max / same iot disconnection issue",
+              "evidenceExcerpt": "Capt_shadab 明確說有數台 u7pro max，亦遇到 IoT 斷線，且沒有 VLAN；這筆支持 Pro Max，不能挪為 U7 Pro 的同型號回報。",
+              "auditNote": "2026-08-31 人工重開原頁，核對作者與原文：Capt_shadab 明確說有數台 u7pro max，亦遇到 IoT 斷線，且沒有 VLAN；這筆支持 Pro Max，不能挪為 U7 Pro 的同型號回報。",
               "exactModel": true,
               "firstPerson": true,
               "crossPostKey": null,
               "reviewBasis": "manual_original_page",
-              "reviewedAt": "2026-08-29"
-            },
-            {
-              "author": "spford",
-              "permalink": "https://www.reddit.com/r/Ubiquiti/comments/1fnsctj/new_and_some_old_iot_devices_wont_connect_to_wifi/",
-              "locator": "spford — IoT devices won't connect to WiFi",
-              "evidenceExcerpt": "spford 表示自用 U7 Pro Max 的 2.4GHz IoT 裝置只能短暫連上，隨後便從網路掉落。",
-              "auditNote": "人工原頁覆核：spford 表示自用 U7 Pro Max 的 2.4GHz IoT 裝置只能短暫連上，隨後便從網路掉落。",
-              "exactModel": true,
-              "firstPerson": true,
-              "crossPostKey": null,
-              "reviewBasis": "manual_original_page",
-              "reviewedAt": "2026-08-29"
+              "reviewedAt": "2026-08-31"
             },
             {
               "author": "VampireSix",
               "permalink": "https://www.reddit.com/r/Ubiquiti/comments/1fnsctj/new_and_some_old_iot_devices_wont_connect_to_wifi/",
-              "locator": "VampireSix — IoT devices won't connect to WiFi",
-              "evidenceExcerpt": "VampireSix 表示 U7 Pro Max 上的 IoT 裝置加入網路後會掉線，之後又拒絕重新連接。",
-              "auditNote": "人工原頁覆核：VampireSix 表示 U7 Pro Max 上的 IoT 裝置加入網路後會掉線，之後又拒絕重新連接。",
+              "locator": "VampireSix，首樓 single U7 Pro Max AP / disconnect before initial setup is complete",
+              "evidenceExcerpt": "VampireSix 明確區分早先 U6 Enterprise 與目前單台 U7 Pro Max；本次計入後者的新 IoT 裝置在初始設定完成前斷線，舊 ASUS 路由器則可用，不混算舊 AP 症狀。",
+              "auditNote": "2026-08-31 人工重開原頁，核對作者與原文：VampireSix 明確區分早先 U6 Enterprise 與目前單台 U7 Pro Max；本次計入後者的新 IoT 裝置在初始設定完成前斷線，舊 ASUS 路由器則可用，不混算舊 AP 症狀。",
               "exactModel": true,
               "firstPerson": true,
               "crossPostKey": null,
               "reviewBasis": "manual_original_page",
-              "reviewedAt": "2026-08-29"
+              "reviewedAt": "2026-08-31"
             }
           ]
         },
@@ -101160,19 +102729,19 @@
             "jtiz88"
           ],
           "distinctReportCount": 1,
-          "checkedAt": "2026-08-29",
+          "checkedAt": "2026-08-31",
           "reports": [
             {
               "author": "jtiz88",
               "permalink": "https://www.reddit.com/r/Ubiquiti/comments/1gra06l/all_devices_disconnecting_from_24ghz_band/",
-              "locator": "jtiz88 — All devices disconnecting from 2.4GHz band",
-              "evidenceExcerpt": "jtiz88 表示自用 U7 Pro Max 的全部 2.4GHz 用戶端會同時斷線，重啟 AP 後才會暫時恢復。",
-              "auditNote": "人工原頁覆核：jtiz88 表示自用 U7 Pro Max 的全部 2.4GHz 用戶端會同時斷線，重啟 AP 後才會暫時恢復。",
+              "locator": "jtiz88，首樓 Cloud Gateway Max + U7 Pro Max / ALL of my client devices",
+              "evidenceExcerpt": "jtiz88 明確使用 Cloud Gateway Max 與 U7 Pro Max，2.4GHz 全部用戶端夜間一同掉線、重啟 AP 才恢復；5/6GHz 仍正常，且已停用通道最佳化、啟用 IoT 相容設定。",
+              "auditNote": "2026-08-31 人工重開原頁，核對作者與原文：jtiz88 明確使用 Cloud Gateway Max 與 U7 Pro Max，2.4GHz 全部用戶端夜間一同掉線、重啟 AP 才恢復；5/6GHz 仍正常，且已停用通道最佳化、啟用 IoT 相容設定。",
               "exactModel": true,
               "firstPerson": true,
               "crossPostKey": null,
               "reviewBasis": "manual_original_page",
-              "reviewedAt": "2026-08-29"
+              "reviewedAt": "2026-08-31"
             }
           ]
         }
@@ -101213,6 +102782,30 @@
           "reviewedAt": "2026-08-29",
           "outcome": "excluded",
           "reason": "同串可保守確認兩位 exact-model 使用者回報 2.4GHz 異常，其餘為 U7 系列泛稱；只有一站且不足六人。"
+        },
+        {
+          "url": "https://community.ui.com/releases/UniFi-Access-Point-7-0-95/e2aa5440-1995-4ef5-b5ef-7706d8e39b61",
+          "title": "UniFi Access Point 7.0.95",
+          "platform": "Ubiquiti Community",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-31",
+          "sourceExcerpt": "官方 7.0.95 公告列有 2.4GHz 穩定性改善，但在版本適用限制明確寫出 U7 Pro Max 不提供此版本。",
+          "independentAuthors": 0,
+          "specificReason": "這份官方公告雖提及 exact U7 Pro Max，卻明確排除該型號；不是此型號已修復的證據，也不是可計數的使用者回報。",
+          "reason": "這份官方公告雖提及 exact U7 Pro Max，卻明確排除該型號；不是此型號已修復的證據，也不是可計數的使用者回報。"
+        },
+        {
+          "url": "https://www.reddit.com/r/Ubiquiti/comments/1i547ov/u7_iot_issues_update_its_fairly_fixed/",
+          "title": "U7 IoT issues update, it's fairly fixed.",
+          "platform": "Reddit",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-31",
+          "sourceExcerpt": "原作者描述逾百台 IoT 裝置在其環境已穩定數週，並區分 Pro 的 7.0.100 與 Pro Max 的 7.2.13；其他回覆仍有不同經驗。",
+          "independentAuthors": 0,
+          "specificReason": "這是個人改善經驗而非新的 Pro Max 集中故障證據；不能把單一環境的結果視為官方全面修復，也不可把同串 Pro 回報計為 Pro Max。",
+          "reason": "這是個人改善經驗而非新的 Pro Max 集中故障證據；不能把單一環境的結果視為官方全面修復，也不可把同串 Pro 回報計為 Pro Max。"
         }
       ]
     },
@@ -123711,7 +125304,7 @@
         "issues": [
           {
             "title": "包裝保護材造成面板污痕或微刮痕",
-            "detail": "部分痕跡無法完全擦除且換貨後仍可能出現；收貨時應在強光下立即檢查整片面板，發現刮痕便在退換貨期內處理。",
+            "detail": "這是早期包裝的歷史回報。2026-08-31 補核 Dell 官方 KB 000321630，已明確記載後期 AW3225QF 的可撕保護膜；另有 2024 年 5 月買家確認收到有膜且完好的機器。官方 KB 說明的是撕膜聲音，不能據此推定所有批次刮痕均已排除。保留原逐人證據日期，收貨仍應立即檢查面板並在退換貨期內處理異常。",
             "reportCount": 11,
             "sources": [
               {
@@ -123973,7 +125566,151 @@
           "outcome": "excluded",
           "reason": "只有原作者一位明確以 AW3225QF 回報強制 DSC 導致 DSR／DLDSR 不可用；這是功能限制，且其他含糊回覆未明示型號，不能嚴格計入。"
         }
-      ]
+      ],
+      "supplementalReview": {
+        "id": "monitor-dell-aw3225qf",
+        "category": "monitor",
+        "brand": "Dell",
+        "model": "Alienware AW3225QF",
+        "reviewedAt": "2026-08-31",
+        "reviewBatch": "monitor",
+        "decision": "common_issue",
+        "checkedPlatforms": [
+          "Mobile01",
+          "Reddit",
+          "Dell Community",
+          "Dell",
+          "Dell Support"
+        ],
+        "queries": [
+          {
+            "platform": "Mobile01",
+            "targetHost": "mobile01.com",
+            "query": "site:mobile01.com \"Alienware AW3225QF\" \"刮痕\"",
+            "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Alienware%20AW3225QF%22%20%22%E5%88%AE%E7%97%95%22"
+          },
+          {
+            "platform": "Reddit",
+            "targetHost": "reddit.com",
+            "query": "site:reddit.com \"Alienware AW3225QF\" \"packaging\" \"film\"",
+            "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22Alienware%20AW3225QF%22%20%22packaging%22%20%22film%22"
+          }
+        ],
+        "candidateDisposition": "Alienware AW3225QF：2026-08-31 本輪補核官方保護膜文件與跨站收貨、瑕疵候選；保留既有十一人歷史包裝回報及 2026-08-29 逐人證據日期，不聲稱本輪全數重開十一人原頁。Dell KB 確认後期 AW3225QF 有可撕保護膜；2024-05 已有買家收到有膜且完好機器。KB 討論撕膜聲音，不足證明所有批次刮痕已消除；2025 單一買家多種瑕疵回報亦不足建立另一新災情。 另於本日補跑 Mobile01 exact-model 查詢，本次索引未返回此 exact 型號候選，不將零結果解讀為沒有負評。",
+        "representativeSources": [
+          {
+            "platform": "Reddit",
+            "title": "Poll: Does Your New Alienware AW3225QF Have Micro scratches / Smudges due to Bubble Wrap Packaging?",
+            "url": "https://old.reddit.com/r/OLED_Gaming/comments/1au0vt8/poll_does_your_new_alienware_aw3225qf_have_micro/"
+          },
+          {
+            "platform": "Dell Community",
+            "title": "AW3225QF, screen scratches",
+            "url": "https://www.dell.com/community/en/conversations/alienware-desktops/aw3225qf-screen-scratches/65cfe5920217a51eb1a3fde2"
+          }
+        ],
+        "reviewerNote": "Alienware AW3225QF：2026-08-31 本輪補核官方保護膜文件與跨站收貨、瑕疵候選；保留既有十一人歷史包裝回報及 2026-08-29 逐人證據日期，不聲稱本輪全數重開十一人原頁。Dell KB 確认後期 AW3225QF 有可撕保護膜；2024-05 已有買家收到有膜且完好機器。KB 討論撕膜聲音，不足證明所有批次刮痕已消除；2025 單一買家多種瑕疵回報亦不足建立另一新災情。 另於本日補跑 Mobile01 exact-model 查詢，本次索引未返回此 exact 型號候選，不將零結果解讀為沒有負評。",
+        "attestation": "manual_original_pages_reviewed",
+        "candidateReviews": [
+          {
+            "url": "https://www.reddit.com/r/Monitors/comments/1b35zya/4k_240hz_qdoled_but_curved_dell_alienware/",
+            "title": "4K 240Hz QD-OLED, But Curved! - Dell Alienware AW3225QF ...",
+            "outcome": "excluded",
+            "reviewedAt": "2026-07-10",
+            "exactModel": true,
+            "sourceExcerpt": "這是 AW3225QF 影片評測討論，回覆集中在曲面、4K、240Hz、VRR 與線材；原頁搜尋不到 scratch、bubble 或 smudge 的包材損傷回報。",
+            "independentAuthors": 0,
+            "specificReason": "頁面雖為完全相同型號，但沒有任何可辨識作者回報包裝保護材造成的面板污痕或微刮痕；一般評測與規格討論不能計入本次成立問題的人數。",
+            "platform": "Reddit"
+          },
+          {
+            "url": "https://www.reddit.com/r/OLED_Gaming/comments/1djyuq2/aw3225qf_mac_vrr_issue/",
+            "title": "AW3225QF mac VRR issue",
+            "platform": "Reddit",
+            "exactModel": true,
+            "sourceExcerpt": "its suddenly only showing a VRR of \"Varibale (48-120 Hertz)\". But I can still choose 240Hz without VRR.",
+            "independentAuthors": 1,
+            "specificReason": "只有一位 AW3225QF 與 Mac 使用者回報 VRR 上限異常；其他候選原頁逾時，未以搜尋摘要補作者。",
+            "reviewedAt": "2026-08-29",
+            "outcome": "excluded"
+          },
+          {
+            "url": "https://www.reddit.com/r/Indiangamers/comments/1rsnvye/please_dont_buy_a_aw3225qf_dell_monitor/",
+            "title": "Please dont buy a AW3225QF Dell monitor if you are in India. They are unsure if the available stock is working or not",
+            "platform": "Reddit",
+            "exactModel": true,
+            "sourceExcerpt": "the monitor stopped working within a day. A clear DOA (Dead on Arrival) case.",
+            "independentAuthors": 1,
+            "specificReason": "只有原作者一位回報 AW3225QF 一日內故障；同作者在 r/Dell 的相同貼文已去重，另有留言者明確表示自己的同型號正常。",
+            "reviewedAt": "2026-08-29",
+            "outcome": "excluded"
+          },
+          {
+            "url": "https://www.reddit.com/r/OLED_Gaming/comments/1aedaqr/how_disappointed_or_not_are_you_with_alienware_aw3225qf/",
+            "title": "How disappointed (or not) are you with Alienware AW3225QF",
+            "platform": "Reddit",
+            "exactModel": true,
+            "sourceExcerpt": "The monitor goes black from time to time.",
+            "independentAuthors": 1,
+            "specificReason": "只有原作者一位明確以 AW3225QF 回報 DP 與 HDMI 間歇黑屏；相似留言只說另一台螢幕而未給型號，未納入 exact-model 人數。",
+            "reviewedAt": "2026-08-29",
+            "outcome": "excluded"
+          },
+          {
+            "url": "https://www.reddit.com/r/Alienware/comments/1abhnc8/why_im_returning_my_alienware_aw3225qf/",
+            "title": "Why I'm returning my Alienware AW3225QF 4K 240Hz QD OLED",
+            "platform": "Reddit",
+            "exactModel": true,
+            "sourceExcerpt": "The problem is that DSC disables DSR/DLDSR.",
+            "independentAuthors": 1,
+            "specificReason": "只有原作者一位明確以 AW3225QF 回報強制 DSC 導致 DSR／DLDSR 不可用；這是功能限制，且其他含糊回覆未明示型號，不能嚴格計入。",
+            "reviewedAt": "2026-08-29",
+            "outcome": "excluded"
+          },
+          {
+            "url": "https://www.dell.com/support/kbdoc/en-in/000321630/clapping-noise-heard-when-removing-film-from-aw2725df-and-aw3225qf-monitors",
+            "title": "Tearing Noise Heard When Removing Film From Alienware AW2725DF or AW3225QF Monitors",
+            "platform": "Dell Support",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-08-31",
+            "sourceExcerpt": "Dell KB 000321630 說明 AW3225QF 可撕保護膜与下邊框重疊處在撕除時可能發出聲音，屬正常現象，不會因此損害螢幕。",
+            "independentAuthors": 0,
+            "specificReason": "官方 KB 不是消費者故障回報；內容處理撕膜聲音，不能拿來證明全部批次刮痕已消失，也不能推定該文件所述日期就是首次改用保護膜的日期。"
+          },
+          {
+            "url": "https://www.reddit.com/r/OLED_Gaming/comments/1cpfuih/au_its_finally_here_aw3225qf/",
+            "title": "(AU) It's finally here - AW3225QF",
+            "platform": "Reddit",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-08-31",
+            "sourceExcerpt": "DukenottheDuke 於 2024-05 描述收到自己的 AW3225QF，包裝完好、螢幕貼有塑膠保護膜並表示機器完美。",
+            "independentAuthors": 0,
+            "specificReason": "這位使用者提供正向收貨與包裝證據，不是可計入的故障作者；單一完好收貨不能代表所有出貨批次均已沒有刮痕。"
+          },
+          {
+            "url": "https://www.dell.com/community/en/conversations/alienware-desktops/aw3225qf-multiple-defects-dell-brazil-denies-warranty-after-admitting-manufacturing-defect/689614caa81c772c3df3192e",
+            "title": "AW3225QF, multiple defects, Dell Brazil denies warranty after admitting manufacturing defect",
+            "platform": "Dell Community",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-08-31",
+            "sourceExcerpt": "AndreyF.Lima 於 2025-08-08 自述 AW3225QF 有微刮痕、暫時氣泡、韌體更新失敗與搖桿凍結，原頁沒有其他回覆。",
+            "independentAuthors": 1,
+            "specificReason": "只有一位第一人稱作者，未達六人兩站；原作者對 Dell 人員承認製造缺陷的說法未經獨立確認，也無法確認所有症狀與早期包裝成因相同。"
+          }
+        ],
+        "supplementaryQueries": [
+          {
+            "platform": "Dell",
+            "targetHost": "dell.com",
+            "query": "site:dell.com \"Alienware AW3225QF\" \"scratches\"",
+            "queryUrl": "https://www.google.com/search?q=site%3Adell.com%20%22Alienware%20AW3225QF%22%20%22scratches%22"
+          }
+        ]
+      },
+      "supplementalReviewPolicy": "2026-08-31補查修補／包裝改善背景與新候選；未逐人重查原有成立回報，主決策與逐人證據日期保留2026-08-29。"
     },
     {
       "id": "monitor-acer-ed343cur-j0",

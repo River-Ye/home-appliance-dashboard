@@ -2930,22 +2930,26 @@
       "note": "已查 Costco、PChome 與台灣 exact-model 比價入口；目前 NT$14,399 為可購現價，未找到帶日期、可公開重現且排除會員個人化優惠的可信新品史低，故不把現價冒充史低。"
     },
     "issueResearch": {
-      "status": "no_common_issue",
-      "checkedAt": "2026-08-29",
-      "summary": "截至查核日，查無達門檻的集中負評／災情",
-      "issues": [],
-      "checkedSources": [
+      "status": "common_issue",
+      "checkedAt": "2026-08-31",
+      "summary": "多位 Flexus Core 200 使用者回報有線重低音輸出出現間歇爆音或敲擊聲；部分換機後改善，也有換機後復發的回報。",
+      "issues": [
         {
-          "platform": "Reddit",
-          "query": "site:reddit.com \"Klipsch Flexus Core 200\" (problem OR issue OR defect OR failure)",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Klipsch%20Flexus%20Core%20200%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
-          "targetHost": "reddit.com"
-        },
-        {
-          "platform": "Mobile01",
-          "query": "site:mobile01.com \"Klipsch Flexus Core 200\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Klipsch%20Flexus%20Core%20200%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
-          "targetHost": "mobile01.com"
+          "title": "有線重低音輸出間歇爆音／敲擊聲",
+          "detail": "2026-08-31 逐人覆核 Reddit 5 位與 Best Buy 2 位獨立使用者，共 7 人回報 Core 200 有線重低音輸出異常。有人更換線材或不同重低音仍重現；部分保固換機後改善，另有復發案例。這是同型號症狀回報，不能據此推定故障率、所有批次都受影響或已確定內部故障零件。購前確認退換貨及保固，若要外接有線重低音，需用實際訊源長時間測試。",
+          "reportCount": 7,
+          "sources": [
+            {
+              "platform": "Reddit",
+              "title": "Clicks and pops come from Flexus Core 200 after connecting rear satellites via wireless",
+              "url": "https://www.reddit.com/r/Klipsch/comments/1hx317y/clicks_and_pops_come_from_flexus_core_200_after/"
+            },
+            {
+              "platform": "Best Buy",
+              "title": "Klipsch Flexus CORE 200 3.1.2 Soundbar customer reviews",
+              "url": "https://www.bestbuy.com/product/klipsch-flexus-core-200-3-1-2-soundbar-black/JX44FCZPQ7/sku/6580304/reviews"
+            }
+          ]
         }
       ]
     },
@@ -3021,20 +3025,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-29",
+      "checkedAt": "2026-08-31",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Reddit",
-          "query": "site:reddit.com \"Klipsch Flexus Core 100\" (problem OR issue OR defect OR failure)",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Klipsch%20Flexus%20Core%20100%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "query": "site:reddit.com \"Flexus Core 100\" problem issue",
+          "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22Flexus%20Core%20100%22%20problem%20issue",
           "targetHost": "reddit.com"
         },
         {
           "platform": "Mobile01",
-          "query": "site:mobile01.com \"Klipsch Flexus Core 100\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Klipsch%20Flexus%20Core%20100%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "query": "site:mobile01.com \"Flexus Core 100\" 問題 故障",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Flexus%20Core%20100%22%20%E5%95%8F%E9%A1%8C%20%E6%95%85%E9%9A%9C",
           "targetHost": "mobile01.com"
         }
       ]
@@ -3111,20 +3115,20 @@
     },
     "issueResearch": {
       "status": "no_common_issue",
-      "checkedAt": "2026-08-29",
+      "checkedAt": "2026-08-31",
       "summary": "截至查核日，查無達門檻的集中負評／災情",
       "issues": [],
       "checkedSources": [
         {
           "platform": "Reddit",
-          "query": "site:reddit.com \"Klipsch Flexus Core 300\" (problem OR issue OR defect OR failure)",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Klipsch%20Flexus%20Core%20300%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "query": "site:reddit.com \"Flexus Core 300\" problem issue",
+          "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22Flexus%20Core%20300%22%20problem%20issue",
           "targetHost": "reddit.com"
         },
         {
           "platform": "Mobile01",
-          "query": "site:mobile01.com \"Klipsch Flexus Core 300\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Klipsch%20Flexus%20Core%20300%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "query": "site:mobile01.com \"Flexus Core 300\" 問題 故障",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Flexus%20Core%20300%22%20%E5%95%8F%E9%A1%8C%20%E6%95%85%E9%9A%9C",
           "targetHost": "mobile01.com"
         }
       ]

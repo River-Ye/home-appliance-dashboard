@@ -14,7 +14,7 @@
 
 - 共 31 類商品，每種商品至少 20 個，共 943 筆。
 - 另由現有分類與商品資料產生 31 個可獨立索引的 `/categories/<id>/` 選購指南頁；每頁的初始 HTML 均含前 5 名詳細推薦與該類全部型號索引，不為 943 筆商品建立重複、薄內容的獨立頁面。
-- 螢幕燈精選 20 款桌機掛燈，台灣通路優先、可信海外通路補充；排除一般檯燈、筆電燈、單純氣氛燈與配件，不以顏色或套組重複湊數。本次僅新增這 20 款，原 923 款商品與逐筆研究證據沿用固定基準版本，不重查、不改價。
+- 螢幕燈精選 20 款桌機掛燈，台灣通路優先、可信海外通路補充；排除一般檯燈、筆電燈、單純氣氛燈與配件，不以顏色或套組重複湊數。該次螢幕燈擴充僅新增 20 款，原 923 款沿用固定基準版本；後續全量維護另依最新摘要記錄。
 - 掃拖機器人共 43 款，包含 HITACHI RV-X20P 台灣入門雷射掃拖款；無自動集塵、洗布或烘布，不列 Top Pick，保固年限需於購前確認。
 - 新增 HITACHI RV-X20DPA，配備 4L 自動集塵座，但拖布仍需手洗；購前須電話確認，保固年限未明。
 - Soundbar 共 33 款，新增 ASUS ROG Gjallar，非 Top Pick；6 位獨立使用者跨 2 個原始網站回報重低音斷線，官方已提供更新，但未保證全部解決。
@@ -28,11 +28,15 @@
 - 針對桌機與手機操作最佳化，包含群組化分類列、sticky 分類列、手機快速操作列、收合式商品細節與重設篩選。
 - 15 類尺寸與 7 類新增重量規格／證據對齊，含螢幕燈的燈體尺寸與淨重；冷氣分列室內／室外機，熱泵複合系統分列主機／儲槽。新補查欄位若可信來源仍無法確認，會明確標示「查不到」，不使用包裝資料或猜測寬深高順序。
 <!-- catalog-maintenance-summary:start -->
-- 2026-08-31 18:11（台灣時間）完成 20 款新增商品查核；目前共 31 類、943 筆商品，原 923 筆沿用 2026-08-31 的證據，沒有重新查價或修改舊商品。
-- 本次增量新增 monitor-light-asus-alb01、monitor-light-benq-iscreenbar、monitor-light-benq-screenbar、monitor-light-benq-screenbar-halo2、monitor-light-benq-screenbar-pro、monitor-light-elesense-e1129、monitor-light-elesense-e1132、monitor-light-elesense-e1133、monitor-light-kinyo-pced-805、monitor-light-kinyo-pced-855、monitor-light-philips-pd052、monitor-light-quntis-f45bk、monitor-light-quntis-f51bk、monitor-light-quntis-fr52gy、monitor-light-quntis-g66bk、monitor-light-quntis-i51gy、monitor-light-quntis-i66bk、monitor-light-quntis-ims45bk、monitor-light-xiaomi-mjgjd01yl、monitor-light-yeelight-yltd003；沒有移除或替換商品。既有逐類與日系品牌覆核保留原內容及日期，只補查新增分類；所有分類至少 20 筆。
-- 本輪來源與圖片查核限新增 20 款；累積來源／圖片覆蓋 943／943 筆，包含沿用的舊查核與例外。史低累積 493 筆 `found`、450 筆 `not_found`；既有逐筆證據與查核日期保留，累積覆蓋不代表本輪重新查核。
-- 匯率沿用 ExchangeRate-API 2026-08-31 00:02 UTC，USD/TWD 31.649299；本輪未重抓匯率，既有外幣價格未重算，新增海外款使用同一保留匯率換算。完整摘要、不可變基準與例外保存在 `catalog_maintenance_latest.json`。
+- 2026-08-31 19:05（台灣時間）完成 943 筆商品、31 類全量查核；460 筆 PChome SKU API 已完成（271 筆 exact model、67 筆人工 SKU 綁定可寫入，59 筆型號未自動確認），更新 10 筆公開價格（10 筆下修、0 筆上修），38 筆 Qty 0 只列追蹤。
+- 本次增量沒有納入新產品；本次增量沒有移除停產產品。沿用本資料日已完成的逐類人工新品覆核（原覆核時間保留），所有分類至少 20 筆；停產只採品牌官方明確證據，缺貨、反爬或單次連線錯誤不作為刪除依據。
+- 圖片查核覆蓋 943 筆；697 筆來源可由 exact model 或人工 SKU 綁定確認，246 筆來源例外與 0 筆圖片例外保留原資料。史低為 493 筆 `found`、450 筆 `not_found`，本輪異動 0 筆；70 筆來源可自動重現，其餘保留原逐筆證據且未臆測失效。
+- ExchangeRate-API 最新批次為 2026-08-31 00:02 UTC，USD/TWD 31.649299；38 筆外幣商品已重算。完整摘要與例外保存在 `catalog_maintenance_latest.json`。
 <!-- catalog-maintenance-summary:end -->
+
+2026-08-31 晚間另定向覆核 7 款既有商品的負評：Flexus Core 200 有線重低音輸出爆音新增為集中回報（Reddit 5 人、Best Buy 2 人）；U7 Pro 排除症狀不明的作者後低於 6 人門檻，撤回集中負評標示。AP22 與 AW3225QF 只補修補／包裝改善背景，原逐人證據日期保留。本輪不是 943 款負評全部重查。
+
+新品候選另掃描掃拖機器人、吸塵器、電腦螢幕、無線路由器、空氣清淨機與電視。MOVA Mobius 60 已核對台灣新品 NT$28,888、兩年保固及個別負評，但缺台灣基站 AC 額定證據，暫不正式納入；Dreame X60 Track 仍為預購，其餘候選與未完成項目保留於維護摘要，不將預購或證據未齊商品當成現貨推薦。
 
 ## 使用
 

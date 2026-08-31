@@ -7,7 +7,7 @@
     costcoDate: "2026-08-31",
     expectedCategoryCount: 31,
     expectedProductCount: 943,
-    cacheVersion: "20260831-monitor-light",
+    cacheVersion: "20260831-110509-catalog",
     exchangeSummary: "USD 1 = TWD 31.649",
   };
 

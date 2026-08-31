@@ -119,9 +119,11 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/2E9A754FA4-SP-22052141.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 19900,
-      "converted": 19900,
-      "confidence": "Yahoo購物中心 2026-08-31 exact-model 公開結構化價格"
+      "amount": 19104,
+      "converted": 19104,
+      "confidence": "Yahoo購物中心 2026-08-31 exact-model 公開結構化價格",
+      "basis": "retailer_current",
+      "note": "2026-08-31 Chrome核對Yahoo同SKU公開滿1件享96折折後價；促銷至2026-09-01 08:29（台灣時間），未扣點數或信用卡回饋，結帳前再確認。"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心",
@@ -223,9 +225,11 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/7A7EBA14D6-SP-22052251.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 20900,
-      "converted": 20900,
-      "confidence": "Yahoo購物中心 2026-08-31 exact-model 公開結構化價格"
+      "amount": 20064,
+      "converted": 20064,
+      "confidence": "Yahoo購物中心 2026-08-31 exact-model 公開結構化價格",
+      "basis": "retailer_current",
+      "note": "2026-08-31 Chrome核對Yahoo同SKU公開滿1件享96折折後價；促銷至2026-09-01 08:29（台灣時間），未扣點數或信用卡回饋，結帳前再確認。"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心",

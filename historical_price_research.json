@@ -1,9 +1,9 @@
 {
   "summary": {
     "checkedAt": "2026-08-31T00:00:00.000+08:00",
-    "sourcePolicy": "2026-08-31 合併 20 款新增 exact-model 研究，既有逐筆證據及查核日期沿用、不表示重新查核。每筆明確區分通路現價與官方建議售價，官方建議售價不得被當成通路現價或史低。史低只接受具日期、同型號且可公開重現的可信新品來源；會員個人化折扣、點數、二手、福利品、展示機、拆封、整新、配件與耗材均排除。",
+    "sourcePolicy": "2026-08-31 以 943 筆基準清單全量查核公開價格基準（通路現價或明示官方建議售價）、購買連結與可信新品狀態，並複核最終 943 筆商品圖片、全部 493 筆 found 史低來源、原廠停產訊號與同批次匯率。官方建議售價不自動寫成通路現價或史低；PChome exact-model 現貨頁有正值 Price.Low 時採公開折扣價，否則採 Price.P；Qty 0、福利品、展示機與配件不寫回。其他頁面的結構化價格差異列入人工覆核候選，阻擋、暫時錯誤與單次頁面失效只列稽核，不臆測停產或史低失效。",
     "total": 943,
-    "researchedThisRun": 20,
+    "researchedThisRun": 943,
     "found": 493,
     "missing": 450,
     "byConfidence": {
@@ -12,22 +12,19 @@
       "medium": 170
     },
     "exchange": {
-      "source": "ExchangeRate-API",
-      "date": "2026-08-31 00:02 UTC",
-      "timeLastUpdateUnix": 1788134551,
       "USD_TWD": 31.649299,
+      "currentUSD_TWD": 31.649299,
       "GBP_TWD": 42.87076447106599,
       "EUR_TWD": 36.70356316573794,
       "JPY_TWD": 0.19775241807359173,
       "CNY_TWD": 4.698696851031383,
       "HKD_TWD": 4.036684131717434,
-      "KRW_TWD": 0.022990974312124667,
-      "currentUSD_TWD": 31.649299
+      "KRW_TWD": 0.022990974312124667
     },
-    "lastMaintenanceCheckAt": "2026-08-31T10:11:25.170Z",
-    "currentPriceChanged": 0,
+    "lastMaintenanceCheckAt": "2026-08-31T11:05:09.784Z",
+    "currentPriceChanged": 10,
     "currentBuyLinkChanged": 0,
-    "currentPriceDrops": 0,
+    "currentPriceDrops": 10,
     "currentPriceRises": 0,
     "currentPriceFallbacks": 0,
     "historicalLowUpdated": 0,
@@ -36,7 +33,7 @@
     "catalogReplacementNotes": [],
     "currentImageChanged": 0,
     "discontinuedRemoved": 0,
-    "newProductsAdded": 20,
+    "newProductsAdded": 0,
     "discontinuedRemovalNotes": [],
     "catalogEntriesRemoved": 0,
     "catalogRemovalNotes": []
@@ -12987,7 +12984,7 @@
       "brand": "LG",
       "model": "WT-TD16HW",
       "name": "LG WT-TD16HW",
-      "currentPrice": 19900,
+      "currentPrice": 19104,
       "currentCurrency": "TWD",
       "currentBuyUrl": "https://tw.buy.yahoo.com/gdsale/LG-%E6%A8%82%E9%87%91-16%E5%85%AC%E6%96%A4-AI-DD-%E8%92%B8%E6%B0%A3%E7%9B%B4%E9%A9%85%E8%AE%8A%E9%A0%BB%E6%B4%97%E8%A1%A3%E6%A9%9F-%E9%9B%B2%E6%9C%B5%E7%99%BD-WT-TD16HW-11981704.html",
       "currentBuyLabel": "Yahoo購物中心",
@@ -13022,8 +13019,8 @@
         "LBJ LG WT-TD16HW: Momo富邦購物 (店+)【LG 樂金】16公斤蒸氣直驅變頻直立洗衣機 WT-TD16HW (雲朵白) 型號/規格不相符",
         "LBJ LG WT-TD16HW: 誠品線上 【LG樂金】16公斤◆AI DD™蒸氣直驅變頻洗衣機 ◆雲朵白(WT-TD16HW) 型號/規格不相符"
       ],
-      "priceBasis": "not_stated",
-      "priceLabel": "價格基準未標示"
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價"
     },
     {
       "id": "washer-lg-wt-td18ob",
@@ -13031,7 +13028,7 @@
       "brand": "LG",
       "model": "WT-TD18OB",
       "name": "LG WT-TD18OB",
-      "currentPrice": 20900,
+      "currentPrice": 20064,
       "currentCurrency": "TWD",
       "currentBuyUrl": "https://tw.buy.yahoo.com/gdsale/LG-%E6%A8%82%E9%87%91-18%E5%85%AC%E6%96%A4-AI-DD-%E7%9B%B4%E9%A9%85%E8%AE%8A%E9%A0%BB%E6%B4%97%E8%A1%A3%E6%A9%9F-%E7%91%AA%E7%91%99%E9%BB%91-WT-TD18OB-11981706.html",
       "currentBuyLabel": "Yahoo購物中心",
@@ -13067,8 +13064,8 @@
         "LBJ LG WT-TD18OB: 誠品線上 【LG樂金】18公斤◆AI DD™直驅變頻洗衣機 ◆瑪瑙黑(WT-TD18OB) 型號/規格不相符",
         "LBJ LG WT-TD18OB: 蝦皮商城 - LG旗艦館 LG樂金WT-TD18OB AIDD直驅變頻直立式洗衣機 18公斤 型號/規格不相符"
       ],
-      "priceBasis": "not_stated",
-      "priceLabel": "價格基準未標示"
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價"
     },
     {
       "id": "washer-panasonic-na-v190mt-pn",
@@ -14343,7 +14340,7 @@
       "brand": "Whirlpool",
       "model": "8TWGD5620HW",
       "name": "Whirlpool 8TWGD5620HW",
-      "currentPrice": 32850,
+      "currentPrice": 31865,
       "currentCurrency": "TWD",
       "currentBuyUrl": "https://tw.buy.yahoo.com/gdsale/Whirlpool%E6%83%A0%E8%80%8C%E6%B5%A6-16%E5%85%AC%E6%96%A4-%E5%BF%AB%E7%83%98%E7%93%A6%E6%96%AF%E5%9E%8B%E6%BB%BE%E7%AD%92%E4%B9%BE%E8%A1%A3%E6%A9%9F-8TWGD5620HW-%E6%A1%B6%E8%A3%9D%E7%93%A6%E6%96%AF-10509173.html",
       "currentBuyLabel": "Yahoo購物中心",
@@ -14385,8 +14382,8 @@
         "[2026-07-11] PChome search candidate product API：瓦斯規格不同：原商品為桶裝瓦斯，候選為天然瓦斯；Whirlpool惠而浦 16公斤 快烘瓦斯型滾筒乾衣機(天然瓦斯) 8TWGD5620HW / Whirlpool惠而浦 16公斤 快烘瓦斯型滾筒乾衣機(天然瓦斯) 8TWGD5620HW https://24h.pchome.com.tw/prod/DPAI1P-A900AW2RY",
         "[2026-07-11] Yahoo search candidate product page：瓦斯規格不同：原商品為桶裝瓦斯，候選為天然瓦斯；Whirlpool惠而浦 16公斤 快烘瓦斯型滾筒乾衣機 8TWGD5620HW-天然瓦斯 | 脫水/乾衣機 | Yahoo購物中心 https://tw.buy.yahoo.com/gdsale/%E6%83%A0%E8%80%8C%E6%B5%A616%E5%85%AC%E6%96%A4-%E5%BF%AB%E7%83%98%E7%93%A6%E6%96%AF%E5%9E%8B%E6%BB%BE%E7%AD%92%E4%B9%BE%E8%A1%A3%E6%A9%9F-8TWGD5-8547320.html"
       ],
-      "priceBasis": "not_stated",
-      "priceLabel": "價格基準未標示"
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價"
     },
     {
       "id": "dryer-sanlux-sd-66u8a",
@@ -15560,7 +15557,7 @@
       "brand": "Whirlpool",
       "model": "8TWFC6820LW",
       "name": "Whirlpool 8TWFC6820LW",
-      "currentPrice": 44910,
+      "currentPrice": 43563,
       "currentCurrency": "TWD",
       "currentBuyUrl": "https://tw.buy.yahoo.com/gdsale/%E6%83%A0%E8%80%8C%E6%B5%A6Whirlpool-8TWFC6820LW-17-10kg-%E6%BB%BE%E7%AD%92%E6%B4%97%E8%A1%A3%E6%A9%9F-%E6%B4%97%E8%84%AB%E7%83%98-10053955.html",
       "currentBuyLabel": "Yahoo購物中心",
@@ -15599,8 +15596,8 @@
         "BigGo Whirlpool 8TWFC6820LW: 查詢失敗 429 https://biggo.com.tw/api/v1/spa/search/Whirlpool%208TWFC6820LW/product?p=1",
         "BigGo 8TWFC6820LW: 查詢失敗 429 https://biggo.com.tw/api/v1/spa/search/8TWFC6820LW/product?p=1"
       ],
-      "priceBasis": "not_stated",
-      "priceLabel": "價格基準未標示"
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價"
     },
     {
       "id": "washerdryer-hitachi-bwdv100ej",
@@ -17409,7 +17406,7 @@
       "brand": "LG",
       "model": "GN-L266SVN",
       "name": "LG GN-L266SVN",
-      "currentPrice": 14500,
+      "currentPrice": 13920,
       "currentCurrency": "TWD",
       "currentBuyUrl": "https://tw.buy.yahoo.com/gdsale/LG-%E6%A8%82%E9%87%91-266%E5%85%AC%E5%8D%87-%E4%B8%80%E7%B4%9A%E8%83%BD%E6%95%88-%E6%99%BA%E6%85%A7%E8%AE%8A%E9%A0%BB%E9%9B%99%E9%96%80%E5%86%B0%E7%AE%B1-%E6%98%9F%E8%BE%B0%E9%8A%80-GN-L266SVN-%E9%80%81%E5%9F%BA%E6%9C%AC%E5%AE%89%E8%A3%9D-11988613.html",
       "currentBuyLabel": "Yahoo購物中心",
@@ -17451,8 +17448,8 @@
         "[2026-07-11] HOTAI購：LBJ candidate is not a trusted PChome/Yahoo/momo/Costco/official source；【HOTAI購】LG樂金【GN-L266SVN】266公升與雙門變頻冰箱(含標準安裝) https://www.lbj.tw/BJ/rd.ashx?ck=DcnJDQAxCATBlMCADU%2BuyT%2Bk3U%2BrpE4mRXXxmmMVdNrLwDANxJ%2B7PkJz1%2Bi3RJ8EXzlnDg69rkul4JJpxESS06Zc1ip%2BHi7%2FZ3uCKom8rdCNAp6ZSxWFQ%2B6z3kOSk9x5Jwex6%2Fo8Pw%3D%3D",
         "[2026-07-11] Yahoo購物中心：fetch failed；LG 樂金 266公升 一級能效 智慧變頻雙門冰箱-星辰銀(GN-L266SVN)(送基本安裝) https://www.lbj.tw/BJ/rd.ashx?ck=DY65AcBADMJW8u%2B49Lv%2FSLmOAiQSQa66cPW7laM48g%2Fua3NMD3UJOOtzc%2FUM8L3QEC7V3RqzpWGaD%2BL1fIiimcLziEZhDsNlCF%2F2mxM85bQiWwysHrX8pAkkd%2B9QRlG5tr3sGQDW0piBfRnp4r6b5Nnxz0izma%2Fi%2Fc1FiZEJxUdFhTcbWeFnA7RsU2WYnh8%3D"
       ],
-      "priceBasis": "not_stated",
-      "priceLabel": "價格基準未標示"
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價"
     },
     {
       "id": "refrigerator-panasonic-nr-c505xv-w",
@@ -23215,7 +23212,7 @@
       "brand": "only",
       "model": "OM27-M54",
       "name": "微波大師 27L 氣炸烤箱微波爐",
-      "currentPrice": 8990,
+      "currentPrice": 8630,
       "currentCurrency": "TWD",
       "currentBuyUrl": "https://24h.pchome.com.tw/prod/DMBJ02-A900I9LQ2",
       "currentBuyLabel": "PChome",
@@ -23252,8 +23249,8 @@
         "[2026-07-11] 東森購物：exact-model candidate is an auction, marketplace, or non-trusted seller；贈變頻小縫扇~only微波大師27L氣炸烤箱微波爐OM27-M54黑(節能標章/乾果/舒肥/優格/氣炸鍋贈品市價1990) https://www.etmall.com.tw/i/7740393",
         "[2026-07-11] momo購物網：authoritative page price could not be verified；【only】微波大師27L氣炸烤箱微波爐OM27-M54質感黑(節能標章27公升/乾果/舒肥/優格/氣炸鍋) https://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=13623356"
       ],
-      "priceBasis": "not_stated",
-      "priceLabel": "價格基準未標示"
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價"
     },
     {
       "id": "oven-extra-7-dmbj6g-a900j947g",
@@ -24010,7 +24007,7 @@
       "brand": "Svago",
       "model": "VE8966",
       "name": "蒸烘烤變頻微波爐",
-      "currentPrice": 43920,
+      "currentPrice": 41724,
       "currentCurrency": "TWD",
       "currentBuyUrl": "https://24h.pchome.com.tw/prod/DMBM0G-A900H5125",
       "currentBuyLabel": "PChome",
@@ -24056,8 +24053,8 @@
         "[2026-07-11] 蝦皮商城：exact-model candidate is an auction, marketplace, or non-trusted seller；Svago【VE8966】蒸烘烤變頻微波爐(全省安裝)(登記送7-11商品卡2200元) 歡迎議價 https://shopee.tw/product/513318354/18193950565",
         "[2026-07-11] 樂天市場：exact-model candidate is an auction, marketplace, or non-trusted seller；含基本安裝【義大利 SVAGO】32(L) 嵌入式蒸烘烤變頻微波爐 VE8966 https://www.rakuten.com.tw/shop/tamsuieasylife/product/ve8966/"
       ],
-      "priceBasis": "not_stated",
-      "priceLabel": "價格基準未標示"
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價"
     },
     {
       "id": "oven-costco-bruno-bxm301",
@@ -32963,7 +32960,7 @@
       "brand": "ASUS",
       "model": "RT-BE58U V2",
       "name": "BE3600 雙頻 Wi-Fi 7 AiMesh 可擴充路由器",
-      "currentPrice": 3699,
+      "currentPrice": 3515,
       "currentCurrency": "TWD",
       "currentBuyUrl": "https://tw.buy.yahoo.com/gdsale/ASUS-%E8%8F%AF%E7%A2%A9-RT-BE58U-V2-BE3600-%E9%9B%99%E9%A0%BB-Wi-Fi-7-%E5%8F%AF%E6%93%B4%E5%85%85%E5%BC%8F%E8%B7%AF%E7%94%B1%E5%99%A8-12005854.html",
       "currentBuyLabel": "Yahoo購物中心",
@@ -33001,8 +32998,8 @@
         "LBJ ASUS RT-BE58U V2: Yahoo購物中心 ASUS 華碩 RT-BE58U V2 BE3600 雙頻 Wi-Fi 7 可擴充式路由器 型號/規格不相符",
         "LBJ ASUS RT-BE58U V2: 蝦皮商城 - 綠風潮網路商城 ASUS 華碩 RT-BE58U-V2 BE3600 AiMesh 雙頻WiFi 7分享器 綠風潮 型號/規格不相符"
       ],
-      "priceBasis": "not_stated",
-      "priceLabel": "價格基準未標示"
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價"
     },
     {
       "id": "wifi-tplink-deco-be65-2pack",
@@ -33602,7 +33599,7 @@
       "brand": "ASUS",
       "model": "RT-BE82U",
       "name": "BE6500 雙頻 Wi-Fi 7 路由器",
-      "currentPrice": 4990,
+      "currentPrice": 4741,
       "currentCurrency": "TWD",
       "currentBuyUrl": "https://tw.buy.yahoo.com/gdsale/ASUS-%E8%8F%AF%E7%A2%A9-RT-BE82U-WiFi-7-%E9%9B%99%E9%A0%BB-BE6500-%E8%B7%AF%E7%94%B1%E5%99%A8-%E5%88%86%E4%BA%AB%E5%99%A8-11798654.html",
       "currentBuyLabel": "Yahoo購物中心",
@@ -33640,8 +33637,8 @@
         "LBJ ASUS RT-BE82U: Yahoo購物中心 昌運監視器 ASUS華碩 RT-BE82U WIFI 7 BE6500 雙頻路由器 型號/規格不相符",
         "LBJ ASUS RT-BE82U: Yahoo購物中心 ASUS 華碩 RT-BE82U WiFi 7 雙頻 BE6500 路由器/分享器 型號/規格不相符"
       ],
-      "priceBasis": "not_stated",
-      "priceLabel": "價格基準未標示"
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價"
     },
     {
       "id": "wifi-tplink-archer-be700",
@@ -35073,7 +35070,7 @@
       "brand": "ASUS",
       "model": "ROG Rapture GT-BE19000AI",
       "name": "BE19000 三頻 Wi-Fi 7 AI 電競路由器",
-      "currentPrice": 27990,
+      "currentPrice": 26591,
       "currentCurrency": "TWD",
       "currentBuyUrl": "https://tw.buy.yahoo.com/gdsale/%E6%98%8C%E9%81%8B%E7%9B%A3%E8%A6%96%E5%99%A8-ASUS-%E8%8F%AF%E7%A2%A9-ROG-Rapture-GT-BE19000AI-WiFi-7-%E4%B8%89%E9%A0%BB%E9%9B%BB%E7%AB%B6-12032656.html",
       "currentBuyLabel": "Yahoo購物中心",
@@ -35100,8 +35097,8 @@
         "FindPrice 顯示的 NT$20,999 候選標題只有四頻 Rapture，未含 GT-BE19000AI；本款為三頻 exact model，不能視為同型號史低。",
         "Yahoo、momo、FindPrice 與 BigGo 的 NT$26,871 至 NT$27,990 均只證明本輪現價；沒有公開可重現的歷史日期或價格曲線，未推定為史低。"
       ],
-      "priceBasis": "not_stated",
-      "priceLabel": "價格基準未標示"
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價"
     },
     {
       "id": "wifi-tplink-archer-be600",

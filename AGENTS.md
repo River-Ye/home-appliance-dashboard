@@ -373,15 +373,15 @@
 - 原商品、逐筆研究、分類覆核列及來源／圖片／史低 audit 的已確認與例外狀態都須原樣承接；完整 checked ID sets 表示目前證據覆蓋，本輪查核集合由 `newProductsAdded` 推導，不新增第二套大型 audit schema。
 - `meta.dataDate` 與 aggregate 日期表示最新研究批次；新增分類日系矩陣使用本輪真實日期，沿用分類必須與固定基準逐列相同，保留舊 `checkedAt`、`reviewedAt` 與 cutoff。`historical_price_research.json` 的 `researchedThisRun` 只計本輪新增款。
 - 僅新增模式不得執行全目錄 `maintain:catalog`；保留既有匯率與日期，新海外款依該批次換算並明示時效，不重算原商品。文件摘要需區分「本輪新增查核」與「沿用既有證據」，不得把合併後總數稱為本輪全量查核。
-- 本次螢幕燈擴充只新增 20 款，原 923 款不重查、不改價；缺少基準、舊證據被改、日期不實、ID 差集不符或新款證據未齊時停止處理，不得自行擴張為全量維護。
+- 螢幕燈擴充當次只新增 20 款，原 923 款不重查、不改價；此限制適用該次新增任務，後續明確要求全量維護時依全量流程；缺少基準、舊證據被改、日期不實、ID 差集不符或新款證據未齊時停止處理，不得自行擴張為全量維護。
 
 ## 價格與匯率
 
 <!-- catalog-maintenance-summary:start -->
-- 2026-08-31 18:11（台灣時間）完成 20 款新增商品查核；目前共 31 類、943 筆商品，原 923 筆沿用 2026-08-31 的證據，沒有重新查價或修改舊商品。
-- 本次增量新增 monitor-light-asus-alb01、monitor-light-benq-iscreenbar、monitor-light-benq-screenbar、monitor-light-benq-screenbar-halo2、monitor-light-benq-screenbar-pro、monitor-light-elesense-e1129、monitor-light-elesense-e1132、monitor-light-elesense-e1133、monitor-light-kinyo-pced-805、monitor-light-kinyo-pced-855、monitor-light-philips-pd052、monitor-light-quntis-f45bk、monitor-light-quntis-f51bk、monitor-light-quntis-fr52gy、monitor-light-quntis-g66bk、monitor-light-quntis-i51gy、monitor-light-quntis-i66bk、monitor-light-quntis-ims45bk、monitor-light-xiaomi-mjgjd01yl、monitor-light-yeelight-yltd003；沒有移除或替換商品。既有逐類與日系品牌覆核保留原內容及日期，只補查新增分類；所有分類至少 20 筆。
-- 本輪來源與圖片查核限新增 20 款；累積來源／圖片覆蓋 943／943 筆，包含沿用的舊查核與例外。史低累積 493 筆 `found`、450 筆 `not_found`；既有逐筆證據與查核日期保留，累積覆蓋不代表本輪重新查核。
-- 匯率沿用 ExchangeRate-API 2026-08-31 00:02 UTC，USD/TWD 31.649299；本輪未重抓匯率，既有外幣價格未重算，新增海外款使用同一保留匯率換算。完整摘要、不可變基準與例外保存在 `catalog_maintenance_latest.json`。
+- 2026-08-31 19:05（台灣時間）完成 943 筆商品、31 類全量查核；460 筆 PChome SKU API 已完成（271 筆 exact model、67 筆人工 SKU 綁定可寫入，59 筆型號未自動確認），更新 10 筆公開價格（10 筆下修、0 筆上修），38 筆 Qty 0 只列追蹤。
+- 本次增量沒有納入新產品；本次增量沒有移除停產產品。沿用本資料日已完成的逐類人工新品覆核（原覆核時間保留），所有分類至少 20 筆；停產只採品牌官方明確證據，缺貨、反爬或單次連線錯誤不作為刪除依據。
+- 圖片查核覆蓋 943 筆；697 筆來源可由 exact model 或人工 SKU 綁定確認，246 筆來源例外與 0 筆圖片例外保留原資料。史低為 493 筆 `found`、450 筆 `not_found`，本輪異動 0 筆；70 筆來源可自動重現，其餘保留原逐筆證據且未臆測失效。
+- ExchangeRate-API 最新批次為 2026-08-31 00:02 UTC，USD/TWD 31.649299；38 筆外幣商品已重算。完整摘要與例外保存在 `catalog_maintenance_latest.json`。
 <!-- catalog-maintenance-summary:end -->
 
 ## 驗證清單
