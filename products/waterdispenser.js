@@ -735,6 +735,7 @@
       "currency": "TWD",
       "amount": 28999,
       "converted": 28999,
+      "basis": "retailer_current",
       "confidence": "PChome 2026-08-31 exact-model API 與 Chrome 同 SKU AUT7005 整機公開單件價 NT$28,999（08/31–09/30），主購買控制可用。"
     },
     "channel": "tw",

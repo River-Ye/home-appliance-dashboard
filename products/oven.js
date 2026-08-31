@@ -1000,6 +1000,7 @@
       "currency": "TWD",
       "amount": 9500,
       "converted": 9500,
+      "basis": "retailer_current",
       "confidence": "2026-08-31 16:32 台灣時間人工核對Yahoo同SKU9918063 WSO2500B，公開95折主價NT$9,500（原NT$9,999），單台達滿699門檻；活動浮層至2026-09-15 09:59，立即購買與加入購物車可用。排除點數、贈品及銀行回饋。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBJ6QA900EO5DH/000001_1704094465.jpg",
@@ -1686,6 +1687,7 @@
       "currency": "TWD",
       "amount": 21763,
       "converted": 21763,
+      "basis": "retailer_current",
       "confidence": "Yahoo購物中心 2026-08-31 下午人工核對 MROS800AT 公開95折現價 NT$21,763，單台達滿699門檻；活動至2026-09-15 09:59，未扣點數或銀行回饋。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBJ031900I80DM/000001_1778655849.jpg",
@@ -1784,6 +1786,7 @@
       "currency": "TWD",
       "amount": 46235,
       "converted": 46235,
+      "basis": "retailer_current",
       "confidence": "Yahoo購物中心 2026-08-31 下午人工核對 MROBK5000AT 公開95折現價 NT$46,235，單台達滿699門檻；活動至2026-09-15 09:59，未扣點數或銀行回饋。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBJ5PA900GN8PM/000001_1750840663.jpg",

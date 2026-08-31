@@ -115,6 +115,7 @@
       "currency": "TWD",
       "amount": 3890,
       "converted": 3890,
+      "basis": "retailer_current",
       "confidence": "PChome 2026-08-31 exact-model API 與 Chrome 主商品公開現價 NT$3,890，主購買控制可用。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMABPEA900JYOWP/000001_1779868844.jpg",

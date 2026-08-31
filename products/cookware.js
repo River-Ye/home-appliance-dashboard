@@ -1031,6 +1031,7 @@
       "currency": "TWD",
       "amount": 1099,
       "converted": 1099,
+      "basis": "retailer_current",
       "confidence": "2026-08-31 16:33 台灣時間人工核對Yahoo同SKU10238240饗樂四件組，公開主價NT$1,099、立即購買及加入購物車可用；本頁未見另套95折活動，滿額贈品與銀行回饋不折抵。"
     },
     "channel": "tw",

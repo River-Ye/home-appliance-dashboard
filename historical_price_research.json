@@ -3155,8 +3155,8 @@
         "BigGo DMABPE-A900JYOWP: 查詢失敗 429 https://biggo.com.tw/api/v1/spa/search/DMABPE-A900JYOWP/product?p=1",
         "BigGo SHARP PJ-PV16AT-W: 查詢失敗 429 https://biggo.com.tw/api/v1/spa/search/SHARP%20PJ-PV16AT-W/product?p=1"
       ],
-      "priceBasis": "not_stated",
-      "priceLabel": "價格基準未標示"
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價"
     },
     {
       "id": "fan-dyson-am12",
@@ -18933,8 +18933,8 @@
         "BigGo DEDG3B-A900GQDVZ: 查詢失敗 429 https://biggo.com.tw/api/v1/spa/search/DEDG3B-A900GQDVZ/product?p=1",
         "BigGo Tefal 饗樂系列不沾鍋具4件組: 查詢失敗 429 https://biggo.com.tw/api/v1/spa/search/Tefal%20%E9%A5%97%E6%A8%82%E7%B3%BB%E5%88%97%E4%B8%8D%E6%B2%BE%E9%8D%8B%E5%85%B74%E4%BB%B6%E7%B5%84/product?p=1"
       ],
-      "priceBasis": "not_stated",
-      "priceLabel": "價格基準未標示"
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價"
     },
     {
       "id": "cookware-buffalo-18cm",
@@ -23532,8 +23532,8 @@
         "[2026-07-11] Yahoo拍賣：exact-model candidate is an auction, marketplace, or non-trusted seller；可議價【信源電器】25公升 【Whirlpool惠而浦 】獨立式全能蒸氣烘烤箱 WSO2500B https://tw.bid.yahoo.com/item/101318419710",
         "[2026-07-11] Yahoo拍賣：exact-model candidate is an auction, marketplace, or non-trusted seller；@惠增電器@惠而浦Whirlpool 獨立式25公升全功能旋風蒸烤箱蒸烤爐 WSO2500B@限時大特價 https://tw.bid.yahoo.com/item/101381965134"
       ],
-      "priceBasis": "not_stated",
-      "priceLabel": "價格基準未標示"
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價"
     },
     {
       "id": "oven-extra-12-dmbm0g-a900g41cw",
@@ -23937,8 +23937,8 @@
         "[2026-07-11] 蝦皮商城：exact-model candidate is an auction, marketplace, or non-trusted seller；【HITACHI 日立】31L過熱水蒸氣烘烤微波爐(MROS800AT) https://shopee.tw/product/2142012/15498926783",
         "[2026-07-11] 蝦皮商城：exact-model candidate is an auction, marketplace, or non-trusted seller；日立MROS800AT烘烤微波爐31L(白色) x 1【萬家福】 https://shopee.tw/product/390025330/40173214830"
       ],
-      "priceBasis": "not_stated",
-      "priceLabel": "價格基準未標示"
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價"
     },
     {
       "id": "oven-extra-19-dmbj5pa900gn8pm",
@@ -23998,8 +23998,8 @@
         "[2026-07-11] 環球Online：exact-model candidate is an auction, marketplace, or non-trusted seller；【HITACHI 日立】日本原裝過熱水蒸氣烘培微波爐MROBK5000AT https://gmonline.twglobalmall.com/product/2A20320150000001",
         "[2026-07-11] 老王電器：exact-model candidate is an auction, marketplace, or non-trusted seller；【HITACHI 日立】33L 過熱水蒸氣烘烤微波爐 珍珠白 MROBK5000AT https://www.unbox.tw/product/%e3%80%90hitachi-%e6%97%a5%e7%ab%8b%e3%80%91%e9%81%8e%e7%86%b1%e6%b0%b4%e8%92%b8%e6%b0%a3%e7%83%98%e7%83%a4%e5%be%ae%e6%b3%a2%e7%88%90-%e7%8f%8d%e7%8f%a0%e7%99%bd-mrobk5000at"
       ],
-      "priceBasis": "not_stated",
-      "priceLabel": "價格基準未標示"
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價"
     },
     {
       "id": "oven-extra-20-dmbm0ga900h5125",
@@ -24655,8 +24655,8 @@
         "[2026-07-11] 撤銷錯誤史低：既有史低證據是相容濾芯／耗材，而不是目標整機；應撤銷 found 並重新查核整機史低。 https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1281366826&cgp=17193",
         "[2026-08-31] 再核對 pid1281366826 仍為 AUT821/AUT822/AUT823 相容濾芯，不與完整 AUT7005 主機 pid1269639153 的歷史序列混用。"
       ],
-      "priceBasis": "not_stated",
-      "priceLabel": "價格基準未標示",
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價",
       "manualHistoricalReview": {
         "checkedAt": "2026-08-31T08:45:12.152Z",
         "queryUrl": "https://www.lbj.tw/BJ/Query.aspx?k=Philips%20AUT7005",
