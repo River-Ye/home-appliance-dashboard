@@ -1,8 +1,8 @@
 {
   "schemaVersion": 3,
-  "dataDate": "2026-08-31",
-  "checkedAt": "2026-08-31T11:05:09.784Z",
-  "baselineRef": "c361f29cb0d5c32b79436b52e0d9c250abc8ea68",
+  "dataDate": "2026-09-01",
+  "checkedAt": "2026-08-31T17:56:41.403Z",
+  "baselineRef": "ae7d82af88e554cf032ccaa80651524810eba728",
   "policy": {
     "exactModelOrReviewedSourceBindingOnly": true,
     "trustedNewProductsOnly": true,
@@ -24,20 +24,111 @@
   },
   "summary": {
     "baselineProducts": 943,
-    "finalProducts": 943,
-    "categories": 31,
+    "finalProducts": 1033,
+    "categories": 34,
     "minimumProductsPerCategory": 20,
-    "newProductsAdded": [],
+    "newProductsAdded": [
+      "keyboard-asus-rog-azoth-extreme",
+      "keyboard-asus-tuf-k3-gen-ii",
+      "keyboard-corsair-k70-core-mlx-red",
+      "keyboard-ducky-tinker-75",
+      "keyboard-hyperx-alloy-rise-75",
+      "keyboard-keychron-b1-pro",
+      "keyboard-keychron-k2-he-special-black",
+      "keyboard-keychron-k3-max",
+      "keyboard-keychron-v6-max",
+      "keyboard-logitech-alto-k98m",
+      "keyboard-logitech-g515-lightspeed-tkl-tactile",
+      "keyboard-logitech-g915-x-wired-tactile",
+      "keyboard-logitech-k120",
+      "keyboard-logitech-k250",
+      "keyboard-logitech-k380s",
+      "keyboard-logitech-k580",
+      "keyboard-logitech-mx-keys-mini",
+      "keyboard-logitech-mx-keys-s",
+      "keyboard-logitech-mx-mechanical-tactile",
+      "keyboard-logitech-pop-icon-keys",
+      "keyboard-logitech-pro-x-tkl-rapid",
+      "keyboard-logitech-signature-k650",
+      "keyboard-logitech-wave-keys",
+      "keyboard-msi-gk41-dusk-lr-tc",
+      "keyboard-nuphy-air75-v3-brown",
+      "keyboard-razer-huntsman-v3-pro-tkl",
+      "keyboard-razer-ornata-v3-x",
+      "keyboard-sony-kbd-g900",
+      "keyboard-steelseries-apex-pro-tkl-gen3",
+      "keyboard-wooting-80he-l60-v2",
+      "mouse-logitech-ergo-m575s",
+      "mouse-logitech-g102-lightsync",
+      "mouse-logitech-g304",
+      "mouse-logitech-g309",
+      "mouse-logitech-g403-hero",
+      "mouse-logitech-g502-hero",
+      "mouse-logitech-g502-x-lightspeed",
+      "mouse-logitech-g703-hero",
+      "mouse-logitech-lift",
+      "mouse-logitech-m185",
+      "mouse-logitech-m190",
+      "mouse-logitech-m240",
+      "mouse-logitech-m331",
+      "mouse-logitech-m350s",
+      "mouse-logitech-m650",
+      "mouse-logitech-m720",
+      "mouse-logitech-m750",
+      "mouse-logitech-mx-anywhere-3s",
+      "mouse-logitech-mx-ergo-s",
+      "mouse-logitech-mx-master-4",
+      "mouse-logitech-mx-vertical",
+      "mouse-logitech-pop-mouse",
+      "mouse-logitech-pro-x-superlight-2",
+      "mouse-logitech-pro-x-superlight-2-dex",
+      "mouse-razer-basilisk-v3",
+      "mouse-razer-basilisk-v3-pro-35k",
+      "mouse-razer-cobra",
+      "mouse-razer-deathadder-v4-pro",
+      "mouse-razer-viper-v3-pro",
+      "mouse-sony-mse-g500",
+      "mousepad-asus-hone-control-ace-l",
+      "mousepad-asus-moonstone-ace-l",
+      "mousepad-asus-scabbard-ii-xxl",
+      "mousepad-asus-sheath-ii-xxl",
+      "mousepad-asus-strix-slice",
+      "mousepad-darkflash-dmp300",
+      "mousepad-elecom-mp-lmwbk",
+      "mousepad-hp-205",
+      "mousepad-ikea-blaskata",
+      "mousepad-kinyo-mp30",
+      "mousepad-logitech-aurora",
+      "mousepad-logitech-desk-mat-studio",
+      "mousepad-logitech-g240",
+      "mousepad-logitech-g440",
+      "mousepad-logitech-g640",
+      "mousepad-logitech-g740",
+      "mousepad-logitech-g840",
+      "mousepad-logitech-mouse-pad-studio",
+      "mousepad-razer-atlas",
+      "mousepad-razer-firefly-v2-pro",
+      "mousepad-razer-gigantus-v2-xxl",
+      "mousepad-razer-pro-glide",
+      "mousepad-razer-pro-glide-xxl",
+      "mousepad-razer-strider-chroma",
+      "mousepad-sony-mpd-d700",
+      "mousepad-sony-mpd-f900",
+      "mousepad-steelseries-qck-heavy-xxl",
+      "mousepad-steelseries-qck-performance-speed-l",
+      "mousepad-zowie-g-sr-iii",
+      "mousepad-zowie-g-sr-se-rouge-ii"
+    ],
     "catalogEntriesReplaced": [],
-    "priceChanges": 10,
-    "priceDrops": 10,
+    "priceChanges": 0,
+    "priceDrops": 0,
     "priceRises": 0,
     "linkChanges": 0,
     "imageChanges": 0,
     "historicalLowChanges": 0,
     "historicalLowPriceChanges": 0,
-    "historicalFound": 493,
-    "historicalMissing": 450,
+    "historicalFound": 502,
+    "historicalMissing": 531,
     "pchomeAudited": 460,
     "pchomeExactModelVerified": 271,
     "pchomeReviewedBindingVerified": 67,
@@ -46,18 +137,18 @@
     "pchomeInvalidPrices": 0,
     "pchomeRequestFailures": 0,
     "pchomeOtherExceptions": 25,
-    "sourcesAudited": 943,
-    "sourcesVerifiedAvailable": 697,
+    "sourcesAudited": 1033,
+    "sourcesVerifiedAvailable": 787,
     "sourcesModelUnverified": 131,
     "sourceExceptions": 246,
-    "imagesAudited": 943,
+    "imagesAudited": 1033,
     "imageExceptions": 0,
-    "historicalSourcesAudited": 493,
-    "historicalSourcesVerified": 70,
+    "historicalSourcesAudited": 502,
+    "historicalSourcesVerified": 79,
     "historicalSourcesBlocked": 63,
     "historicalSourcesModelUnverified": 359,
     "historicalSourceExceptions": 423,
-    "foreignPricesRecomputed": 38,
+    "foreignPricesRecomputed": 0,
     "officialDiscontinuedCandidates": 0,
     "officialDiscontinuedPendingReview": 0,
     "officialDiscontinuedFalsePositives": 0,
@@ -75,7 +166,7 @@
     "HKD_TWD": 4.036684131717434,
     "KRW_TWD": 0.022990974312124667
   },
-  "categoryReviewProvenance": "same_date_carried_forward",
+  "categoryReviewProvenance": "mixed_current_and_carried_forward",
   "categoryScan": [
     {
       "category": "aircon",
@@ -7328,400 +7419,451 @@
         "scope": "targeted_new_product_incremental_review",
         "previousFullReviewAt": "2026-08-30T23:50:41.414Z"
       }
+    },
+    {
+      "category": "mouse",
+      "cutoff": "2026-09-01",
+      "status": "manually_reviewed",
+      "decision": "added",
+      "note": "新增30款，value／mid／premium固定6／12／12；逐款核對完整成品、選定版本、可信新品售價、圖片、尺寸淨重、上市日、史低與跨站原始負評。未知數據明示查不到；同系列不同硬體版本不共用故障人數，顏色與語言差異不重複計數。原31類、943款及279格日系覆核原樣保留。",
+      "acceptedCandidates": [
+        "mouse-logitech-g502-x-lightspeed",
+        "mouse-logitech-pro-x-superlight-2",
+        "mouse-logitech-pro-x-superlight-2-dex",
+        "mouse-razer-basilisk-v3-pro-35k",
+        "mouse-logitech-g703-hero",
+        "mouse-razer-deathadder-v4-pro",
+        "mouse-razer-viper-v3-pro",
+        "mouse-logitech-g309",
+        "mouse-logitech-m350s",
+        "mouse-logitech-pop-mouse",
+        "mouse-razer-cobra",
+        "mouse-razer-basilisk-v3",
+        "mouse-logitech-mx-anywhere-3s",
+        "mouse-logitech-g403-hero",
+        "mouse-logitech-m185",
+        "mouse-logitech-m331",
+        "mouse-logitech-m650",
+        "mouse-logitech-m720",
+        "mouse-logitech-g502-hero",
+        "mouse-logitech-g304",
+        "mouse-logitech-g102-lightsync",
+        "mouse-logitech-mx-vertical",
+        "mouse-logitech-lift",
+        "mouse-logitech-m240",
+        "mouse-logitech-m190",
+        "mouse-logitech-m750",
+        "mouse-logitech-mx-ergo-s",
+        "mouse-logitech-ergo-m575s",
+        "mouse-logitech-mx-master-4",
+        "mouse-sony-mse-g500"
+      ],
+      "trackedOrRejectedCandidates": [],
+      "japaneseBrandReview": [
+        {
+          "brand": "Sony",
+          "status": "covered_added",
+          "checkedAt": "2026-09-01",
+          "officialSources": [
+            "https://store.sony.com.tw/product/MSE-G500/B",
+            "https://www.sony.com.tw/corporate/home/NewsCenter/Detail/INZONESERIES"
+          ],
+          "existingProductIds": [],
+          "addedProductIds": [
+            "mouse-sony-mse-g500"
+          ],
+          "reason": "2026-09-01 核對 Sony 官方產品目錄；滑鼠 原為零覆蓋，本次新增 mouse-sony-mse-g500（MSE-G500／standard），且逐款具台灣現售、公開數字價格、適用電壓與台灣保固。"
+        },
+        {
+          "brand": "Panasonic",
+          "status": "no_relevant_line",
+          "checkedAt": "2026-09-01",
+          "officialSources": [
+            "https://www.panasonic.com/tw/consumer/all-products.html"
+          ],
+          "existingProductIds": [],
+          "addedProductIds": [],
+          "reason": "2026-09-01 核對 Panasonic 官方產品目錄；已讀台灣全部商品目錄，列影音通訊、空調、大家電、廚房、美容及住宅用品，未見獨立成品滑鼠、鍵盤或滑鼠墊；電視說明書的 USB／藍牙輸入支援不是販售鍵鼠。"
+        },
+        {
+          "brand": "HITACHI",
+          "status": "no_relevant_line",
+          "checkedAt": "2026-09-01",
+          "officialSources": [
+            "https://hitachi-homeappliances.com.tw/products/"
+          ],
+          "existingProductIds": [],
+          "addedProductIds": [],
+          "reason": "2026-09-01 核對 HITACHI 官方產品目錄；已讀台灣產品情報，現列冰箱、洗衣機、吸塵器、多功能料理爐與洗碗機，未見本次三類獨立鍵鼠周邊。"
+        },
+        {
+          "brand": "Mitsubishi Electric",
+          "status": "no_relevant_line",
+          "checkedAt": "2026-09-01",
+          "officialSources": [
+            "https://www.mitsubishielectric.com.tw/home/"
+          ],
+          "existingProductIds": [],
+          "addedProductIds": [],
+          "reason": "2026-09-01 核對 Mitsubishi Electric 官方產品目錄；已讀台灣家電全產品選單，列冰箱／冷凍櫃、除濕機、風扇、烘被機與空調；CNC 文件的螢幕軟體鍵盤不是完整實體電腦鍵盤，亦非滑鼠或滑鼠墊。"
+        },
+        {
+          "brand": "Daikin",
+          "status": "no_relevant_line",
+          "checkedAt": "2026-09-01",
+          "officialSources": [
+            "https://www.hotaidev.com.tw/web/product/3.html"
+          ],
+          "existingProductIds": [],
+          "addedProductIds": [],
+          "reason": "2026-09-01 核對 Daikin 官方產品目錄；已讀和泰大金完整家用／商用產品選單，涵蓋空調、清淨、除濕、冰水機、換氣及智能控制；控制器不是電腦鍵鼠，未見本次三類產品線。"
+        },
+        {
+          "brand": "GENERAL",
+          "status": "no_relevant_line",
+          "checkedAt": "2026-09-01",
+          "officialSources": [
+            "https://www.generalww.com/tw/products/index.html"
+          ],
+          "existingProductIds": [],
+          "addedProductIds": [],
+          "reason": "2026-09-01 核對 GENERAL 官方產品目錄；已讀將軍台灣產品目錄，只有變頻分離式、一對多與 VRF 空調；排除富士通電腦的鍵鼠保固文件，不能以不同企業的 Fujitsu 電腦周邊當 GENERAL 空調品牌。"
+        },
+        {
+          "brand": "Rinnai",
+          "status": "no_relevant_line",
+          "checkedAt": "2026-09-01",
+          "officialSources": [
+            "https://www.rinnai.tw/"
+          ],
+          "existingProductIds": [],
+          "addedProductIds": [],
+          "reason": "2026-09-01 核對 Rinnai 官方產品目錄；已讀台灣產品入口，列熱水器、瓦斯爐、排油煙機、烘碗機、洗碗機、無水鍋、乾衣機及商用設備，未見獨立電腦鍵鼠或滑鼠墊。"
+        },
+        {
+          "brand": "Noritz",
+          "status": "no_relevant_line",
+          "checkedAt": "2026-09-01",
+          "officialSources": [
+            "https://www.noritz.co.jp/product/"
+          ],
+          "existingProductIds": [],
+          "addedProductIds": [],
+          "reason": "2026-09-01 核對 Noritz 官方產品目錄；已讀日本官方商品目錄，涵蓋給湯、浴室、廚房與暖房；面板按鍵及遙控器不屬本次完整電腦鍵盤，也未見滑鼠或滑鼠墊產品線。"
+        },
+        {
+          "brand": "TOTO",
+          "status": "no_relevant_line",
+          "checkedAt": "2026-09-01",
+          "officialSources": [
+            "https://www.twtoto.com.tw/"
+          ],
+          "existingProductIds": [],
+          "addedProductIds": [],
+          "reason": "2026-09-01 核對 TOTO 官方產品目錄；已讀台灣全商品分類，涵蓋馬桶、便座、臉盆、龍頭、浴缸、暖房、烘手機及浴室配件，未見本次電腦鍵鼠周邊；不把 TOTOLINK 視為 TOTO。"
+        }
+      ],
+      "reviewedAt": "2026-08-31T17:56:41.403Z",
+      "finalProductCount": 30,
+      "minimumSatisfied": true
+    },
+    {
+      "category": "keyboard",
+      "cutoff": "2026-09-01",
+      "status": "manually_reviewed",
+      "decision": "added",
+      "note": "新增30款，value／mid／premium固定6／12／12；逐款核對完整成品、選定版本、可信新品售價、圖片、尺寸淨重、上市日、史低與跨站原始負評。未知數據明示查不到；同系列不同硬體版本不共用故障人數，顏色與語言差異不重複計數。原31類、943款及279格日系覆核原樣保留。",
+      "acceptedCandidates": [
+        "keyboard-sony-kbd-g900",
+        "keyboard-logitech-alto-k98m",
+        "keyboard-logitech-k120",
+        "keyboard-logitech-k250",
+        "keyboard-logitech-k380s",
+        "keyboard-logitech-k580",
+        "keyboard-logitech-pop-icon-keys",
+        "keyboard-razer-huntsman-v3-pro-tkl",
+        "keyboard-keychron-v6-max",
+        "keyboard-hyperx-alloy-rise-75",
+        "keyboard-ducky-tinker-75",
+        "keyboard-steelseries-apex-pro-tkl-gen3",
+        "keyboard-asus-rog-azoth-extreme",
+        "keyboard-keychron-b1-pro",
+        "keyboard-razer-ornata-v3-x",
+        "keyboard-logitech-signature-k650",
+        "keyboard-logitech-mx-keys-s",
+        "keyboard-msi-gk41-dusk-lr-tc",
+        "keyboard-corsair-k70-core-mlx-red",
+        "keyboard-nuphy-air75-v3-brown",
+        "keyboard-wooting-80he-l60-v2",
+        "keyboard-logitech-wave-keys",
+        "keyboard-logitech-mx-keys-mini",
+        "keyboard-keychron-k3-max",
+        "keyboard-asus-tuf-k3-gen-ii",
+        "keyboard-logitech-mx-mechanical-tactile",
+        "keyboard-logitech-g915-x-wired-tactile",
+        "keyboard-logitech-pro-x-tkl-rapid",
+        "keyboard-logitech-g515-lightspeed-tkl-tactile",
+        "keyboard-keychron-k2-he-special-black"
+      ],
+      "trackedOrRejectedCandidates": [],
+      "japaneseBrandReview": [
+        {
+          "brand": "Sony",
+          "status": "no_eligible_taiwan_model",
+          "checkedAt": "2026-09-01",
+          "officialSources": [
+            "https://store.sony.com.tw/product/KBD-G900/B",
+            "https://www.sony.com.tw/corporate/home/NewsCenter/Detail/INZONESERIES"
+          ],
+          "existingProductIds": [],
+          "addedProductIds": [],
+          "reason": "台灣 Sony Store 現售 KBD-G900/B 完整成品鍵盤，具公開新台幣售價及台灣保固；官方資料確認 USB 有線供電但未明示電壓／電流，不推定額定值，因此可收錄比較，尚不列為符合嚴格供電查核的日系覆蓋代表。"
+        },
+        {
+          "brand": "Panasonic",
+          "status": "no_relevant_line",
+          "checkedAt": "2026-09-01",
+          "officialSources": [
+            "https://www.panasonic.com/tw/consumer/all-products.html"
+          ],
+          "existingProductIds": [],
+          "addedProductIds": [],
+          "reason": "2026-09-01 核對 Panasonic 官方產品目錄；已讀台灣全部商品目錄，列影音通訊、空調、大家電、廚房、美容及住宅用品，未見獨立成品滑鼠、鍵盤或滑鼠墊；電視說明書的 USB／藍牙輸入支援不是販售鍵鼠。"
+        },
+        {
+          "brand": "HITACHI",
+          "status": "no_relevant_line",
+          "checkedAt": "2026-09-01",
+          "officialSources": [
+            "https://hitachi-homeappliances.com.tw/products/"
+          ],
+          "existingProductIds": [],
+          "addedProductIds": [],
+          "reason": "2026-09-01 核對 HITACHI 官方產品目錄；已讀台灣產品情報，現列冰箱、洗衣機、吸塵器、多功能料理爐與洗碗機，未見本次三類獨立鍵鼠周邊。"
+        },
+        {
+          "brand": "Mitsubishi Electric",
+          "status": "no_relevant_line",
+          "checkedAt": "2026-09-01",
+          "officialSources": [
+            "https://www.mitsubishielectric.com.tw/home/"
+          ],
+          "existingProductIds": [],
+          "addedProductIds": [],
+          "reason": "2026-09-01 核對 Mitsubishi Electric 官方產品目錄；已讀台灣家電全產品選單，列冰箱／冷凍櫃、除濕機、風扇、烘被機與空調；CNC 文件的螢幕軟體鍵盤不是完整實體電腦鍵盤，亦非滑鼠或滑鼠墊。"
+        },
+        {
+          "brand": "Daikin",
+          "status": "no_relevant_line",
+          "checkedAt": "2026-09-01",
+          "officialSources": [
+            "https://www.hotaidev.com.tw/web/product/3.html"
+          ],
+          "existingProductIds": [],
+          "addedProductIds": [],
+          "reason": "2026-09-01 核對 Daikin 官方產品目錄；已讀和泰大金完整家用／商用產品選單，涵蓋空調、清淨、除濕、冰水機、換氣及智能控制；控制器不是電腦鍵鼠，未見本次三類產品線。"
+        },
+        {
+          "brand": "GENERAL",
+          "status": "no_relevant_line",
+          "checkedAt": "2026-09-01",
+          "officialSources": [
+            "https://www.generalww.com/tw/products/index.html"
+          ],
+          "existingProductIds": [],
+          "addedProductIds": [],
+          "reason": "2026-09-01 核對 GENERAL 官方產品目錄；已讀將軍台灣產品目錄，只有變頻分離式、一對多與 VRF 空調；排除富士通電腦的鍵鼠保固文件，不能以不同企業的 Fujitsu 電腦周邊當 GENERAL 空調品牌。"
+        },
+        {
+          "brand": "Rinnai",
+          "status": "no_relevant_line",
+          "checkedAt": "2026-09-01",
+          "officialSources": [
+            "https://www.rinnai.tw/"
+          ],
+          "existingProductIds": [],
+          "addedProductIds": [],
+          "reason": "2026-09-01 核對 Rinnai 官方產品目錄；已讀台灣產品入口，列熱水器、瓦斯爐、排油煙機、烘碗機、洗碗機、無水鍋、乾衣機及商用設備，未見獨立電腦鍵鼠或滑鼠墊。"
+        },
+        {
+          "brand": "Noritz",
+          "status": "no_relevant_line",
+          "checkedAt": "2026-09-01",
+          "officialSources": [
+            "https://www.noritz.co.jp/product/"
+          ],
+          "existingProductIds": [],
+          "addedProductIds": [],
+          "reason": "2026-09-01 核對 Noritz 官方產品目錄；已讀日本官方商品目錄，涵蓋給湯、浴室、廚房與暖房；面板按鍵及遙控器不屬本次完整電腦鍵盤，也未見滑鼠或滑鼠墊產品線。"
+        },
+        {
+          "brand": "TOTO",
+          "status": "no_relevant_line",
+          "checkedAt": "2026-09-01",
+          "officialSources": [
+            "https://www.twtoto.com.tw/"
+          ],
+          "existingProductIds": [],
+          "addedProductIds": [],
+          "reason": "2026-09-01 核對 TOTO 官方產品目錄；已讀台灣全商品分類，涵蓋馬桶、便座、臉盆、龍頭、浴缸、暖房、烘手機及浴室配件，未見本次電腦鍵鼠周邊；不把 TOTOLINK 視為 TOTO。"
+        }
+      ],
+      "reviewedAt": "2026-08-31T17:56:41.403Z",
+      "finalProductCount": 30,
+      "minimumSatisfied": true
+    },
+    {
+      "category": "mousepad",
+      "cutoff": "2026-09-01",
+      "status": "manually_reviewed",
+      "decision": "added",
+      "note": "新增30款，value／mid／premium固定6／12／12；逐款核對完整成品、選定版本、可信新品售價、圖片、尺寸淨重、上市日、史低與跨站原始負評。未知數據明示查不到；同系列不同硬體版本不共用故障人數，顏色與語言差異不重複計數。原31類、943款及279格日系覆核原樣保留。",
+      "acceptedCandidates": [
+        "mousepad-logitech-desk-mat-studio",
+        "mousepad-logitech-g740",
+        "mousepad-logitech-g840",
+        "mousepad-logitech-g440",
+        "mousepad-logitech-g640",
+        "mousepad-logitech-mouse-pad-studio",
+        "mousepad-logitech-aurora",
+        "mousepad-sony-mpd-f900",
+        "mousepad-sony-mpd-d700",
+        "mousepad-logitech-g240",
+        "mousepad-razer-pro-glide",
+        "mousepad-razer-atlas",
+        "mousepad-razer-strider-chroma",
+        "mousepad-razer-pro-glide-xxl",
+        "mousepad-razer-gigantus-v2-xxl",
+        "mousepad-asus-strix-slice",
+        "mousepad-asus-sheath-ii-xxl",
+        "mousepad-asus-scabbard-ii-xxl",
+        "mousepad-asus-hone-control-ace-l",
+        "mousepad-razer-firefly-v2-pro",
+        "mousepad-asus-moonstone-ace-l",
+        "mousepad-elecom-mp-lmwbk",
+        "mousepad-kinyo-mp30",
+        "mousepad-hp-205",
+        "mousepad-ikea-blaskata",
+        "mousepad-darkflash-dmp300",
+        "mousepad-zowie-g-sr-iii",
+        "mousepad-zowie-g-sr-se-rouge-ii",
+        "mousepad-steelseries-qck-heavy-xxl",
+        "mousepad-steelseries-qck-performance-speed-l"
+      ],
+      "trackedOrRejectedCandidates": [],
+      "japaneseBrandReview": [
+        {
+          "brand": "Sony",
+          "status": "no_eligible_taiwan_model",
+          "checkedAt": "2026-09-01",
+          "officialSources": [
+            "https://store.sony.com.tw/product/MPD-F900/B",
+            "https://www.sony.com.tw/corporate/home/NewsCenter/Detail/INZONESERIES"
+          ],
+          "existingProductIds": [],
+          "addedProductIds": [],
+          "reason": "台灣 Sony Store 有 MPD-F900/B 與 MPD-D700/Z 正式新品滑鼠墊，但原商品頁明示本商品無保固；可作無保固比較參考，不冒充具台灣保固的日系覆蓋代表或 Top Pick。"
+        },
+        {
+          "brand": "Panasonic",
+          "status": "no_relevant_line",
+          "checkedAt": "2026-09-01",
+          "officialSources": [
+            "https://www.panasonic.com/tw/consumer/all-products.html"
+          ],
+          "existingProductIds": [],
+          "addedProductIds": [],
+          "reason": "2026-09-01 核對 Panasonic 官方產品目錄；已讀台灣全部商品目錄，列影音通訊、空調、大家電、廚房、美容及住宅用品，未見獨立成品滑鼠、鍵盤或滑鼠墊；電視說明書的 USB／藍牙輸入支援不是販售鍵鼠。"
+        },
+        {
+          "brand": "HITACHI",
+          "status": "no_relevant_line",
+          "checkedAt": "2026-09-01",
+          "officialSources": [
+            "https://hitachi-homeappliances.com.tw/products/"
+          ],
+          "existingProductIds": [],
+          "addedProductIds": [],
+          "reason": "2026-09-01 核對 HITACHI 官方產品目錄；已讀台灣產品情報，現列冰箱、洗衣機、吸塵器、多功能料理爐與洗碗機，未見本次三類獨立鍵鼠周邊。"
+        },
+        {
+          "brand": "Mitsubishi Electric",
+          "status": "no_relevant_line",
+          "checkedAt": "2026-09-01",
+          "officialSources": [
+            "https://www.mitsubishielectric.com.tw/home/"
+          ],
+          "existingProductIds": [],
+          "addedProductIds": [],
+          "reason": "2026-09-01 核對 Mitsubishi Electric 官方產品目錄；已讀台灣家電全產品選單，列冰箱／冷凍櫃、除濕機、風扇、烘被機與空調；CNC 文件的螢幕軟體鍵盤不是完整實體電腦鍵盤，亦非滑鼠或滑鼠墊。"
+        },
+        {
+          "brand": "Daikin",
+          "status": "no_relevant_line",
+          "checkedAt": "2026-09-01",
+          "officialSources": [
+            "https://www.hotaidev.com.tw/web/product/3.html"
+          ],
+          "existingProductIds": [],
+          "addedProductIds": [],
+          "reason": "2026-09-01 核對 Daikin 官方產品目錄；已讀和泰大金完整家用／商用產品選單，涵蓋空調、清淨、除濕、冰水機、換氣及智能控制；控制器不是電腦鍵鼠，未見本次三類產品線。"
+        },
+        {
+          "brand": "GENERAL",
+          "status": "no_relevant_line",
+          "checkedAt": "2026-09-01",
+          "officialSources": [
+            "https://www.generalww.com/tw/products/index.html"
+          ],
+          "existingProductIds": [],
+          "addedProductIds": [],
+          "reason": "2026-09-01 核對 GENERAL 官方產品目錄；已讀將軍台灣產品目錄，只有變頻分離式、一對多與 VRF 空調；排除富士通電腦的鍵鼠保固文件，不能以不同企業的 Fujitsu 電腦周邊當 GENERAL 空調品牌。"
+        },
+        {
+          "brand": "Rinnai",
+          "status": "no_relevant_line",
+          "checkedAt": "2026-09-01",
+          "officialSources": [
+            "https://www.rinnai.tw/"
+          ],
+          "existingProductIds": [],
+          "addedProductIds": [],
+          "reason": "2026-09-01 核對 Rinnai 官方產品目錄；已讀台灣產品入口，列熱水器、瓦斯爐、排油煙機、烘碗機、洗碗機、無水鍋、乾衣機及商用設備，未見獨立電腦鍵鼠或滑鼠墊。"
+        },
+        {
+          "brand": "Noritz",
+          "status": "no_relevant_line",
+          "checkedAt": "2026-09-01",
+          "officialSources": [
+            "https://www.noritz.co.jp/product/"
+          ],
+          "existingProductIds": [],
+          "addedProductIds": [],
+          "reason": "2026-09-01 核對 Noritz 官方產品目錄；已讀日本官方商品目錄，涵蓋給湯、浴室、廚房與暖房；面板按鍵及遙控器不屬本次完整電腦鍵盤，也未見滑鼠或滑鼠墊產品線。"
+        },
+        {
+          "brand": "TOTO",
+          "status": "no_relevant_line",
+          "checkedAt": "2026-09-01",
+          "officialSources": [
+            "https://www.twtoto.com.tw/"
+          ],
+          "existingProductIds": [],
+          "addedProductIds": [],
+          "reason": "2026-09-01 核對 TOTO 官方產品目錄；已讀台灣全商品分類，涵蓋馬桶、便座、臉盆、龍頭、浴缸、暖房、烘手機及浴室配件，未見本次電腦鍵鼠周邊；不把 TOTOLINK 視為 TOTO。"
+        }
+      ],
+      "reviewedAt": "2026-08-31T17:56:41.403Z",
+      "finalProductCount": 30,
+      "minimumSatisfied": true
     }
   ],
   "changes": {
-    "prices": [
-      {
-        "id": "dryer-whirlpool-8twgd5620hw",
-        "before": 32850,
-        "after": 31865,
-        "currency": "TWD",
-        "basis": "retailer_current",
-        "source": "https://tw.buy.yahoo.com/gdsale/Whirlpool%E6%83%A0%E8%80%8C%E6%B5%A6-16%E5%85%AC%E6%96%A4-%E5%BF%AB%E7%83%98%E7%93%A6%E6%96%AF%E5%9E%8B%E6%BB%BE%E7%AD%92%E4%B9%BE%E8%A1%A3%E6%A9%9F-8TWGD5620HW-%E6%A1%B6%E8%A3%9D%E7%93%A6%E6%96%AF-10509173.html"
-      },
-      {
-        "id": "oven-extra-20-dmbm0ga900h5125",
-        "before": 43920,
-        "after": 41724,
-        "currency": "TWD",
-        "basis": "retailer_current",
-        "source": "https://24h.pchome.com.tw/prod/DMBM0G-A900H5125"
-      },
-      {
-        "id": "oven-extra-6-dmbj02-a900i9lq2",
-        "before": 8990,
-        "after": 8630,
-        "currency": "TWD",
-        "basis": "retailer_current",
-        "source": "https://24h.pchome.com.tw/prod/DMBJ02-A900I9LQ2"
-      },
-      {
-        "id": "refrigerator-lg-gn-l266svn",
-        "before": 14500,
-        "after": 13920,
-        "currency": "TWD",
-        "basis": "retailer_current",
-        "source": "https://tw.buy.yahoo.com/gdsale/LG-%E6%A8%82%E9%87%91-266%E5%85%AC%E5%8D%87-%E4%B8%80%E7%B4%9A%E8%83%BD%E6%95%88-%E6%99%BA%E6%85%A7%E8%AE%8A%E9%A0%BB%E9%9B%99%E9%96%80%E5%86%B0%E7%AE%B1-%E6%98%9F%E8%BE%B0%E9%8A%80-GN-L266SVN-%E9%80%81%E5%9F%BA%E6%9C%AC%E5%AE%89%E8%A3%9D-11988613.html"
-      },
-      {
-        "id": "washer-lg-wt-td16hw",
-        "before": 19900,
-        "after": 19104,
-        "currency": "TWD",
-        "basis": "retailer_current",
-        "source": "https://tw.buy.yahoo.com/gdsale/LG-%E6%A8%82%E9%87%91-16%E5%85%AC%E6%96%A4-AI-DD-%E8%92%B8%E6%B0%A3%E7%9B%B4%E9%A9%85%E8%AE%8A%E9%A0%BB%E6%B4%97%E8%A1%A3%E6%A9%9F-%E9%9B%B2%E6%9C%B5%E7%99%BD-WT-TD16HW-11981704.html"
-      },
-      {
-        "id": "washer-lg-wt-td18ob",
-        "before": 20900,
-        "after": 20064,
-        "currency": "TWD",
-        "basis": "retailer_current",
-        "source": "https://tw.buy.yahoo.com/gdsale/LG-%E6%A8%82%E9%87%91-18%E5%85%AC%E6%96%A4-AI-DD-%E7%9B%B4%E9%A9%85%E8%AE%8A%E9%A0%BB%E6%B4%97%E8%A1%A3%E6%A9%9F-%E7%91%AA%E7%91%99%E9%BB%91-WT-TD18OB-11981706.html"
-      },
-      {
-        "id": "washerdryer-whirlpool-8twfc6820lw",
-        "before": 44910,
-        "after": 43563,
-        "currency": "TWD",
-        "basis": "retailer_current",
-        "source": "https://tw.buy.yahoo.com/gdsale/%E6%83%A0%E8%80%8C%E6%B5%A6Whirlpool-8TWFC6820LW-17-10kg-%E6%BB%BE%E7%AD%92%E6%B4%97%E8%A1%A3%E6%A9%9F-%E6%B4%97%E8%84%AB%E7%83%98-10053955.html"
-      },
-      {
-        "id": "wifi-asus-rog-gt-be19000ai",
-        "before": 27990,
-        "after": 26591,
-        "currency": "TWD",
-        "basis": "retailer_current",
-        "source": "https://tw.buy.yahoo.com/gdsale/%E6%98%8C%E9%81%8B%E7%9B%A3%E8%A6%96%E5%99%A8-ASUS-%E8%8F%AF%E7%A2%A9-ROG-Rapture-GT-BE19000AI-WiFi-7-%E4%B8%89%E9%A0%BB%E9%9B%BB%E7%AB%B6-12032656.html"
-      },
-      {
-        "id": "wifi-asus-rt-be58u-v2",
-        "before": 3699,
-        "after": 3515,
-        "currency": "TWD",
-        "basis": "retailer_current",
-        "source": "https://tw.buy.yahoo.com/gdsale/ASUS-%E8%8F%AF%E7%A2%A9-RT-BE58U-V2-BE3600-%E9%9B%99%E9%A0%BB-Wi-Fi-7-%E5%8F%AF%E6%93%B4%E5%85%85%E5%BC%8F%E8%B7%AF%E7%94%B1%E5%99%A8-12005854.html"
-      },
-      {
-        "id": "wifi-asus-rt-be82u",
-        "before": 4990,
-        "after": 4741,
-        "currency": "TWD",
-        "basis": "retailer_current",
-        "source": "https://tw.buy.yahoo.com/gdsale/ASUS-%E8%8F%AF%E7%A2%A9-RT-BE82U-WiFi-7-%E9%9B%99%E9%A0%BB-BE6500-%E8%B7%AF%E7%94%B1%E5%99%A8-%E5%88%86%E4%BA%AB%E5%99%A8-11798654.html"
-      }
-    ],
+    "prices": [],
     "links": [],
     "images": [],
     "historicalLows": [],
-    "foreignConversions": [
-      {
-        "id": "bidet-costco-us-brondell-cl1700",
-        "currency": "USD",
-        "amount": 383.99,
-        "before": 12153,
-        "after": 12153,
-        "rate": 31.649299
-      },
-      {
-        "id": "blender-ninja-bn701",
-        "currency": "USD",
-        "amount": 99.98,
-        "before": 3164,
-        "after": 3164,
-        "rate": 31.649299
-      },
-      {
-        "id": "garmentcare-lg-sc5gmr80h",
-        "currency": "USD",
-        "amount": 2199,
-        "before": 69597,
-        "after": 69597,
-        "rate": 31.649299
-      },
-      {
-        "id": "garmentcare-lg-sc5mar4g",
-        "currency": "USD",
-        "amount": 1799,
-        "before": 56937,
-        "after": 56937,
-        "rate": 31.649299
-      },
-      {
-        "id": "garmentcare-lg-s3mfbn",
-        "currency": "USD",
-        "amount": 1699,
-        "before": 53772,
-        "after": 53772,
-        "rate": 31.649299
-      },
-      {
-        "id": "garmentcare-lg-s3wfbn",
-        "currency": "USD",
-        "amount": 1499,
-        "before": 47442,
-        "after": 47442,
-        "rate": 31.649299
-      },
-      {
-        "id": "garmentcare-lg-s3rfbn",
-        "currency": "USD",
-        "amount": 1499,
-        "before": 47442,
-        "after": 47442,
-        "rate": 31.649299
-      },
-      {
-        "id": "garmentcare-samsung-df90h24r5c",
-        "currency": "KRW",
-        "amount": 2443730,
-        "before": 56184,
-        "after": 56184,
-        "rate": 0.022990974312124667
-      },
-      {
-        "id": "garmentcare-samsung-df90h24r4d",
-        "currency": "KRW",
-        "amount": 2172430,
-        "before": 49946,
-        "after": 49946,
-        "rate": 0.022990974312124667
-      },
-      {
-        "id": "garmentcare-samsung-df90h24r4p",
-        "currency": "KRW",
-        "amount": 2203310,
-        "before": 50656,
-        "after": 50656,
-        "rate": 0.022990974312124667
-      },
-      {
-        "id": "garmentcare-samsung-df90h24r4b",
-        "currency": "KRW",
-        "amount": 2017980,
-        "before": 46395,
-        "after": 46395,
-        "rate": 0.022990974312124667
-      },
-      {
-        "id": "garmentcare-samsung-df80h24r1c",
-        "currency": "KRW",
-        "amount": 2018400,
-        "before": 46405,
-        "after": 46405,
-        "rate": 0.022990974312124667
-      },
-      {
-        "id": "garmentcare-samsung-df80h24r1d",
-        "currency": "KRW",
-        "amount": 1791170,
-        "before": 41181,
-        "after": 41181,
-        "rate": 0.022990974312124667
-      },
-      {
-        "id": "garmentcare-panasonic-hcc-r600al-x",
-        "currency": "JPY",
-        "amount": 328680,
-        "before": 64997,
-        "after": 64997,
-        "rate": 0.19775241807359173
-      },
-      {
-        "id": "monitor-light-yeelight-yltd003",
-        "currency": "USD",
-        "amount": 103.99,
-        "before": 3291,
-        "after": 3291,
-        "rate": 31.649299
-      },
-      {
-        "id": "monitor-light-quntis-f51bk",
-        "currency": "USD",
-        "amount": 79.99,
-        "before": 2532,
-        "after": 2532,
-        "rate": 31.649299
-      },
-      {
-        "id": "monitor-light-quntis-fr52gy",
-        "currency": "USD",
-        "amount": 75.99,
-        "before": 2405,
-        "after": 2405,
-        "rate": 31.649299
-      },
-      {
-        "id": "monitor-light-quntis-f45bk",
-        "currency": "USD",
-        "amount": 72.99,
-        "before": 2310,
-        "after": 2310,
-        "rate": 31.649299
-      },
-      {
-        "id": "monitor-light-quntis-i51gy",
-        "currency": "USD",
-        "amount": 66.99,
-        "before": 2120,
-        "after": 2120,
-        "rate": 31.649299
-      },
-      {
-        "id": "monitor-light-quntis-g66bk",
-        "currency": "USD",
-        "amount": 75.99,
-        "before": 2405,
-        "after": 2405,
-        "rate": 31.649299
-      },
-      {
-        "id": "monitor-light-quntis-i66bk",
-        "currency": "USD",
-        "amount": 75.99,
-        "before": 2405,
-        "after": 2405,
-        "rate": 31.649299
-      },
-      {
-        "id": "monitor-light-quntis-ims45bk",
-        "currency": "USD",
-        "amount": 79.99,
-        "before": 2532,
-        "after": 2532,
-        "rate": 31.649299
-      },
-      {
-        "id": "oven-breville-joule",
-        "currency": "USD",
-        "amount": 499.95,
-        "before": 15823,
-        "after": 15823,
-        "rate": 31.649299
-      },
-      {
-        "id": "oven-ninja-crispi-mw101",
-        "currency": "USD",
-        "amount": 399.99,
-        "before": 12659,
-        "after": 12659,
-        "rate": 31.649299
-      },
-      {
-        "id": "robot-narwal-flow-2",
-        "currency": "EUR",
-        "amount": 1099,
-        "before": 40337,
-        "after": 40337,
-        "rate": 36.70356316573794
-      },
-      {
-        "id": "robot-narwal-freo-z10-ultra",
-        "currency": "USD",
-        "amount": 551.69,
-        "before": 17461,
-        "after": 17461,
-        "rate": 31.649299
-      },
-      {
-        "id": "robot-shark-powerdetect-nevertouch-pro",
-        "currency": "USD",
-        "amount": 999.99,
-        "before": 31649,
-        "after": 31649,
-        "rate": 31.649299
-      },
-      {
-        "id": "robot-costco-us-roborock-qx-revo",
-        "currency": "USD",
-        "amount": 399.99,
-        "before": 12659,
-        "after": 12659,
-        "rate": 31.649299
-      },
-      {
-        "id": "smartlock-lockin-v7-max",
-        "currency": "HKD",
-        "amount": 9638,
-        "before": 38906,
-        "after": 38906,
-        "rate": 4.036684131717434
-      },
-      {
-        "id": "soundbar-marshall-heston-120",
-        "currency": "USD",
-        "amount": 1299.99,
-        "before": 41144,
-        "after": 41144,
-        "rate": 31.649299
-      },
-      {
-        "id": "soundbar-marshall-heston-60",
-        "currency": "USD",
-        "amount": 549.99,
-        "before": 17407,
-        "after": 17407,
-        "rate": 31.649299
-      },
-      {
-        "id": "vacuum-dreame-aero-ultra-steam",
-        "currency": "USD",
-        "amount": 679.99,
-        "before": 21521,
-        "after": 21521,
-        "rate": 31.649299
-      },
-      {
-        "id": "waterdispenser-costco-us-brondell-circle",
-        "currency": "USD",
-        "amount": 289.99,
-        "before": 9178,
-        "after": 9178,
-        "rate": 31.649299
-      },
-      {
-        "id": "wifi-unifi-u7-pro",
-        "currency": "USD",
-        "amount": 189,
-        "before": 5982,
-        "after": 5982,
-        "rate": 31.649299
-      },
-      {
-        "id": "wifi-unifi-u6-pro",
-        "currency": "USD",
-        "amount": 159,
-        "before": 5032,
-        "after": 5032,
-        "rate": 31.649299
-      },
-      {
-        "id": "wifi-unifi-u7-lite",
-        "currency": "USD",
-        "amount": 99,
-        "before": 3133,
-        "after": 3133,
-        "rate": 31.649299
-      },
-      {
-        "id": "wifi-unifi-u6-plus",
-        "currency": "USD",
-        "amount": 129,
-        "before": 4083,
-        "after": 4083,
-        "rate": 31.649299
-      },
-      {
-        "id": "wifi-unifi-u7-pro-max",
-        "currency": "USD",
-        "amount": 279,
-        "before": 8830,
-        "after": 8830,
-        "rate": 31.649299
-      }
-    ]
+    "foreignConversions": []
   },
   "sourceAudit": {
     "checkedProductIds": [
@@ -8667,7 +8809,97 @@
       "wifi-unifi-u7-pro-max",
       "wifi-xiaomi-ax3000-1pack",
       "wifi-xiaomi-ax3000-2pack",
-      "wifi-zyxel-usg-lite-60ax"
+      "wifi-zyxel-usg-lite-60ax",
+      "keyboard-asus-rog-azoth-extreme",
+      "keyboard-asus-tuf-k3-gen-ii",
+      "keyboard-corsair-k70-core-mlx-red",
+      "keyboard-ducky-tinker-75",
+      "keyboard-hyperx-alloy-rise-75",
+      "keyboard-keychron-b1-pro",
+      "keyboard-keychron-k2-he-special-black",
+      "keyboard-keychron-k3-max",
+      "keyboard-keychron-v6-max",
+      "keyboard-logitech-alto-k98m",
+      "keyboard-logitech-g515-lightspeed-tkl-tactile",
+      "keyboard-logitech-g915-x-wired-tactile",
+      "keyboard-logitech-k120",
+      "keyboard-logitech-k250",
+      "keyboard-logitech-k380s",
+      "keyboard-logitech-k580",
+      "keyboard-logitech-mx-keys-mini",
+      "keyboard-logitech-mx-keys-s",
+      "keyboard-logitech-mx-mechanical-tactile",
+      "keyboard-logitech-pop-icon-keys",
+      "keyboard-logitech-pro-x-tkl-rapid",
+      "keyboard-logitech-signature-k650",
+      "keyboard-logitech-wave-keys",
+      "keyboard-msi-gk41-dusk-lr-tc",
+      "keyboard-nuphy-air75-v3-brown",
+      "keyboard-razer-huntsman-v3-pro-tkl",
+      "keyboard-razer-ornata-v3-x",
+      "keyboard-sony-kbd-g900",
+      "keyboard-steelseries-apex-pro-tkl-gen3",
+      "keyboard-wooting-80he-l60-v2",
+      "mouse-logitech-ergo-m575s",
+      "mouse-logitech-g102-lightsync",
+      "mouse-logitech-g304",
+      "mouse-logitech-g309",
+      "mouse-logitech-g403-hero",
+      "mouse-logitech-g502-hero",
+      "mouse-logitech-g502-x-lightspeed",
+      "mouse-logitech-g703-hero",
+      "mouse-logitech-lift",
+      "mouse-logitech-m185",
+      "mouse-logitech-m190",
+      "mouse-logitech-m240",
+      "mouse-logitech-m331",
+      "mouse-logitech-m350s",
+      "mouse-logitech-m650",
+      "mouse-logitech-m720",
+      "mouse-logitech-m750",
+      "mouse-logitech-mx-anywhere-3s",
+      "mouse-logitech-mx-ergo-s",
+      "mouse-logitech-mx-master-4",
+      "mouse-logitech-mx-vertical",
+      "mouse-logitech-pop-mouse",
+      "mouse-logitech-pro-x-superlight-2",
+      "mouse-logitech-pro-x-superlight-2-dex",
+      "mouse-razer-basilisk-v3",
+      "mouse-razer-basilisk-v3-pro-35k",
+      "mouse-razer-cobra",
+      "mouse-razer-deathadder-v4-pro",
+      "mouse-razer-viper-v3-pro",
+      "mouse-sony-mse-g500",
+      "mousepad-asus-hone-control-ace-l",
+      "mousepad-asus-moonstone-ace-l",
+      "mousepad-asus-scabbard-ii-xxl",
+      "mousepad-asus-sheath-ii-xxl",
+      "mousepad-asus-strix-slice",
+      "mousepad-darkflash-dmp300",
+      "mousepad-elecom-mp-lmwbk",
+      "mousepad-hp-205",
+      "mousepad-ikea-blaskata",
+      "mousepad-kinyo-mp30",
+      "mousepad-logitech-aurora",
+      "mousepad-logitech-desk-mat-studio",
+      "mousepad-logitech-g240",
+      "mousepad-logitech-g440",
+      "mousepad-logitech-g640",
+      "mousepad-logitech-g740",
+      "mousepad-logitech-g840",
+      "mousepad-logitech-mouse-pad-studio",
+      "mousepad-razer-atlas",
+      "mousepad-razer-firefly-v2-pro",
+      "mousepad-razer-gigantus-v2-xxl",
+      "mousepad-razer-pro-glide",
+      "mousepad-razer-pro-glide-xxl",
+      "mousepad-razer-strider-chroma",
+      "mousepad-sony-mpd-d700",
+      "mousepad-sony-mpd-f900",
+      "mousepad-steelseries-qck-heavy-xxl",
+      "mousepad-steelseries-qck-performance-speed-l",
+      "mousepad-zowie-g-sr-iii",
+      "mousepad-zowie-g-sr-se-rouge-ii"
     ],
     "verifiedAvailableIds": [
       "aircon-daikin-ftxm36zvlt-rxm36zvlt",
@@ -9366,7 +9598,97 @@
       "wifi-unifi-u7-lite",
       "wifi-unifi-u7-pro",
       "wifi-unifi-u7-pro-max",
-      "wifi-zyxel-usg-lite-60ax"
+      "wifi-zyxel-usg-lite-60ax",
+      "keyboard-asus-rog-azoth-extreme",
+      "keyboard-asus-tuf-k3-gen-ii",
+      "keyboard-corsair-k70-core-mlx-red",
+      "keyboard-ducky-tinker-75",
+      "keyboard-hyperx-alloy-rise-75",
+      "keyboard-keychron-b1-pro",
+      "keyboard-keychron-k2-he-special-black",
+      "keyboard-keychron-k3-max",
+      "keyboard-keychron-v6-max",
+      "keyboard-logitech-alto-k98m",
+      "keyboard-logitech-g515-lightspeed-tkl-tactile",
+      "keyboard-logitech-g915-x-wired-tactile",
+      "keyboard-logitech-k120",
+      "keyboard-logitech-k250",
+      "keyboard-logitech-k380s",
+      "keyboard-logitech-k580",
+      "keyboard-logitech-mx-keys-mini",
+      "keyboard-logitech-mx-keys-s",
+      "keyboard-logitech-mx-mechanical-tactile",
+      "keyboard-logitech-pop-icon-keys",
+      "keyboard-logitech-pro-x-tkl-rapid",
+      "keyboard-logitech-signature-k650",
+      "keyboard-logitech-wave-keys",
+      "keyboard-msi-gk41-dusk-lr-tc",
+      "keyboard-nuphy-air75-v3-brown",
+      "keyboard-razer-huntsman-v3-pro-tkl",
+      "keyboard-razer-ornata-v3-x",
+      "keyboard-sony-kbd-g900",
+      "keyboard-steelseries-apex-pro-tkl-gen3",
+      "keyboard-wooting-80he-l60-v2",
+      "mouse-logitech-ergo-m575s",
+      "mouse-logitech-g102-lightsync",
+      "mouse-logitech-g304",
+      "mouse-logitech-g309",
+      "mouse-logitech-g403-hero",
+      "mouse-logitech-g502-hero",
+      "mouse-logitech-g502-x-lightspeed",
+      "mouse-logitech-g703-hero",
+      "mouse-logitech-lift",
+      "mouse-logitech-m185",
+      "mouse-logitech-m190",
+      "mouse-logitech-m240",
+      "mouse-logitech-m331",
+      "mouse-logitech-m350s",
+      "mouse-logitech-m650",
+      "mouse-logitech-m720",
+      "mouse-logitech-m750",
+      "mouse-logitech-mx-anywhere-3s",
+      "mouse-logitech-mx-ergo-s",
+      "mouse-logitech-mx-master-4",
+      "mouse-logitech-mx-vertical",
+      "mouse-logitech-pop-mouse",
+      "mouse-logitech-pro-x-superlight-2",
+      "mouse-logitech-pro-x-superlight-2-dex",
+      "mouse-razer-basilisk-v3",
+      "mouse-razer-basilisk-v3-pro-35k",
+      "mouse-razer-cobra",
+      "mouse-razer-deathadder-v4-pro",
+      "mouse-razer-viper-v3-pro",
+      "mouse-sony-mse-g500",
+      "mousepad-asus-hone-control-ace-l",
+      "mousepad-asus-moonstone-ace-l",
+      "mousepad-asus-scabbard-ii-xxl",
+      "mousepad-asus-sheath-ii-xxl",
+      "mousepad-asus-strix-slice",
+      "mousepad-darkflash-dmp300",
+      "mousepad-elecom-mp-lmwbk",
+      "mousepad-hp-205",
+      "mousepad-ikea-blaskata",
+      "mousepad-kinyo-mp30",
+      "mousepad-logitech-aurora",
+      "mousepad-logitech-desk-mat-studio",
+      "mousepad-logitech-g240",
+      "mousepad-logitech-g440",
+      "mousepad-logitech-g640",
+      "mousepad-logitech-g740",
+      "mousepad-logitech-g840",
+      "mousepad-logitech-mouse-pad-studio",
+      "mousepad-razer-atlas",
+      "mousepad-razer-firefly-v2-pro",
+      "mousepad-razer-gigantus-v2-xxl",
+      "mousepad-razer-pro-glide",
+      "mousepad-razer-pro-glide-xxl",
+      "mousepad-razer-strider-chroma",
+      "mousepad-sony-mpd-d700",
+      "mousepad-sony-mpd-f900",
+      "mousepad-steelseries-qck-heavy-xxl",
+      "mousepad-steelseries-qck-performance-speed-l",
+      "mousepad-zowie-g-sr-iii",
+      "mousepad-zowie-g-sr-se-rouge-ii"
     ],
     "exceptions": [
       {
@@ -12942,7 +13264,97 @@
       "wifi-unifi-u7-pro-max",
       "wifi-xiaomi-ax3000-1pack",
       "wifi-xiaomi-ax3000-2pack",
-      "wifi-zyxel-usg-lite-60ax"
+      "wifi-zyxel-usg-lite-60ax",
+      "keyboard-asus-rog-azoth-extreme",
+      "keyboard-asus-tuf-k3-gen-ii",
+      "keyboard-corsair-k70-core-mlx-red",
+      "keyboard-ducky-tinker-75",
+      "keyboard-hyperx-alloy-rise-75",
+      "keyboard-keychron-b1-pro",
+      "keyboard-keychron-k2-he-special-black",
+      "keyboard-keychron-k3-max",
+      "keyboard-keychron-v6-max",
+      "keyboard-logitech-alto-k98m",
+      "keyboard-logitech-g515-lightspeed-tkl-tactile",
+      "keyboard-logitech-g915-x-wired-tactile",
+      "keyboard-logitech-k120",
+      "keyboard-logitech-k250",
+      "keyboard-logitech-k380s",
+      "keyboard-logitech-k580",
+      "keyboard-logitech-mx-keys-mini",
+      "keyboard-logitech-mx-keys-s",
+      "keyboard-logitech-mx-mechanical-tactile",
+      "keyboard-logitech-pop-icon-keys",
+      "keyboard-logitech-pro-x-tkl-rapid",
+      "keyboard-logitech-signature-k650",
+      "keyboard-logitech-wave-keys",
+      "keyboard-msi-gk41-dusk-lr-tc",
+      "keyboard-nuphy-air75-v3-brown",
+      "keyboard-razer-huntsman-v3-pro-tkl",
+      "keyboard-razer-ornata-v3-x",
+      "keyboard-sony-kbd-g900",
+      "keyboard-steelseries-apex-pro-tkl-gen3",
+      "keyboard-wooting-80he-l60-v2",
+      "mouse-logitech-ergo-m575s",
+      "mouse-logitech-g102-lightsync",
+      "mouse-logitech-g304",
+      "mouse-logitech-g309",
+      "mouse-logitech-g403-hero",
+      "mouse-logitech-g502-hero",
+      "mouse-logitech-g502-x-lightspeed",
+      "mouse-logitech-g703-hero",
+      "mouse-logitech-lift",
+      "mouse-logitech-m185",
+      "mouse-logitech-m190",
+      "mouse-logitech-m240",
+      "mouse-logitech-m331",
+      "mouse-logitech-m350s",
+      "mouse-logitech-m650",
+      "mouse-logitech-m720",
+      "mouse-logitech-m750",
+      "mouse-logitech-mx-anywhere-3s",
+      "mouse-logitech-mx-ergo-s",
+      "mouse-logitech-mx-master-4",
+      "mouse-logitech-mx-vertical",
+      "mouse-logitech-pop-mouse",
+      "mouse-logitech-pro-x-superlight-2",
+      "mouse-logitech-pro-x-superlight-2-dex",
+      "mouse-razer-basilisk-v3",
+      "mouse-razer-basilisk-v3-pro-35k",
+      "mouse-razer-cobra",
+      "mouse-razer-deathadder-v4-pro",
+      "mouse-razer-viper-v3-pro",
+      "mouse-sony-mse-g500",
+      "mousepad-asus-hone-control-ace-l",
+      "mousepad-asus-moonstone-ace-l",
+      "mousepad-asus-scabbard-ii-xxl",
+      "mousepad-asus-sheath-ii-xxl",
+      "mousepad-asus-strix-slice",
+      "mousepad-darkflash-dmp300",
+      "mousepad-elecom-mp-lmwbk",
+      "mousepad-hp-205",
+      "mousepad-ikea-blaskata",
+      "mousepad-kinyo-mp30",
+      "mousepad-logitech-aurora",
+      "mousepad-logitech-desk-mat-studio",
+      "mousepad-logitech-g240",
+      "mousepad-logitech-g440",
+      "mousepad-logitech-g640",
+      "mousepad-logitech-g740",
+      "mousepad-logitech-g840",
+      "mousepad-logitech-mouse-pad-studio",
+      "mousepad-razer-atlas",
+      "mousepad-razer-firefly-v2-pro",
+      "mousepad-razer-gigantus-v2-xxl",
+      "mousepad-razer-pro-glide",
+      "mousepad-razer-pro-glide-xxl",
+      "mousepad-razer-strider-chroma",
+      "mousepad-sony-mpd-d700",
+      "mousepad-sony-mpd-f900",
+      "mousepad-steelseries-qck-heavy-xxl",
+      "mousepad-steelseries-qck-performance-speed-l",
+      "mousepad-zowie-g-sr-iii",
+      "mousepad-zowie-g-sr-se-rouge-ii"
     ],
     "verifiedIds": [
       "aircon-daikin-ftxm36zvlt-rxm36zvlt",
@@ -13887,7 +14299,97 @@
       "wifi-unifi-u7-pro-max",
       "wifi-xiaomi-ax3000-1pack",
       "wifi-xiaomi-ax3000-2pack",
-      "wifi-zyxel-usg-lite-60ax"
+      "wifi-zyxel-usg-lite-60ax",
+      "keyboard-asus-rog-azoth-extreme",
+      "keyboard-asus-tuf-k3-gen-ii",
+      "keyboard-corsair-k70-core-mlx-red",
+      "keyboard-ducky-tinker-75",
+      "keyboard-hyperx-alloy-rise-75",
+      "keyboard-keychron-b1-pro",
+      "keyboard-keychron-k2-he-special-black",
+      "keyboard-keychron-k3-max",
+      "keyboard-keychron-v6-max",
+      "keyboard-logitech-alto-k98m",
+      "keyboard-logitech-g515-lightspeed-tkl-tactile",
+      "keyboard-logitech-g915-x-wired-tactile",
+      "keyboard-logitech-k120",
+      "keyboard-logitech-k250",
+      "keyboard-logitech-k380s",
+      "keyboard-logitech-k580",
+      "keyboard-logitech-mx-keys-mini",
+      "keyboard-logitech-mx-keys-s",
+      "keyboard-logitech-mx-mechanical-tactile",
+      "keyboard-logitech-pop-icon-keys",
+      "keyboard-logitech-pro-x-tkl-rapid",
+      "keyboard-logitech-signature-k650",
+      "keyboard-logitech-wave-keys",
+      "keyboard-msi-gk41-dusk-lr-tc",
+      "keyboard-nuphy-air75-v3-brown",
+      "keyboard-razer-huntsman-v3-pro-tkl",
+      "keyboard-razer-ornata-v3-x",
+      "keyboard-sony-kbd-g900",
+      "keyboard-steelseries-apex-pro-tkl-gen3",
+      "keyboard-wooting-80he-l60-v2",
+      "mouse-logitech-ergo-m575s",
+      "mouse-logitech-g102-lightsync",
+      "mouse-logitech-g304",
+      "mouse-logitech-g309",
+      "mouse-logitech-g403-hero",
+      "mouse-logitech-g502-hero",
+      "mouse-logitech-g502-x-lightspeed",
+      "mouse-logitech-g703-hero",
+      "mouse-logitech-lift",
+      "mouse-logitech-m185",
+      "mouse-logitech-m190",
+      "mouse-logitech-m240",
+      "mouse-logitech-m331",
+      "mouse-logitech-m350s",
+      "mouse-logitech-m650",
+      "mouse-logitech-m720",
+      "mouse-logitech-m750",
+      "mouse-logitech-mx-anywhere-3s",
+      "mouse-logitech-mx-ergo-s",
+      "mouse-logitech-mx-master-4",
+      "mouse-logitech-mx-vertical",
+      "mouse-logitech-pop-mouse",
+      "mouse-logitech-pro-x-superlight-2",
+      "mouse-logitech-pro-x-superlight-2-dex",
+      "mouse-razer-basilisk-v3",
+      "mouse-razer-basilisk-v3-pro-35k",
+      "mouse-razer-cobra",
+      "mouse-razer-deathadder-v4-pro",
+      "mouse-razer-viper-v3-pro",
+      "mouse-sony-mse-g500",
+      "mousepad-asus-hone-control-ace-l",
+      "mousepad-asus-moonstone-ace-l",
+      "mousepad-asus-scabbard-ii-xxl",
+      "mousepad-asus-sheath-ii-xxl",
+      "mousepad-asus-strix-slice",
+      "mousepad-darkflash-dmp300",
+      "mousepad-elecom-mp-lmwbk",
+      "mousepad-hp-205",
+      "mousepad-ikea-blaskata",
+      "mousepad-kinyo-mp30",
+      "mousepad-logitech-aurora",
+      "mousepad-logitech-desk-mat-studio",
+      "mousepad-logitech-g240",
+      "mousepad-logitech-g440",
+      "mousepad-logitech-g640",
+      "mousepad-logitech-g740",
+      "mousepad-logitech-g840",
+      "mousepad-logitech-mouse-pad-studio",
+      "mousepad-razer-atlas",
+      "mousepad-razer-firefly-v2-pro",
+      "mousepad-razer-gigantus-v2-xxl",
+      "mousepad-razer-pro-glide",
+      "mousepad-razer-pro-glide-xxl",
+      "mousepad-razer-strider-chroma",
+      "mousepad-sony-mpd-d700",
+      "mousepad-sony-mpd-f900",
+      "mousepad-steelseries-qck-heavy-xxl",
+      "mousepad-steelseries-qck-performance-speed-l",
+      "mousepad-zowie-g-sr-iii",
+      "mousepad-zowie-g-sr-se-rouge-ii"
     ],
     "exceptions": []
   },
@@ -14385,7 +14887,16 @@
       "wifi-tplink-deco-be77",
       "wifi-xiaomi-ax3000-1pack",
       "wifi-xiaomi-ax3000-2pack",
-      "wifi-zyxel-usg-lite-60ax"
+      "wifi-zyxel-usg-lite-60ax",
+      "keyboard-logitech-k250",
+      "keyboard-logitech-k380s",
+      "keyboard-logitech-k580",
+      "keyboard-logitech-pop-icon-keys",
+      "keyboard-razer-huntsman-v3-pro-tkl",
+      "keyboard-sony-kbd-g900",
+      "mouse-logitech-pro-x-superlight-2",
+      "mousepad-razer-pro-glide",
+      "mousepad-razer-strider-chroma"
     ],
     "verifiedIds": [
       "ap-dyson-hj10",
@@ -14457,7 +14968,16 @@
       "washerdryer-sampo-es-nd10dh",
       "washerdryer-sanlux-awd-1390ha",
       "wifi-costco-tplink-archer-be3600",
-      "wifi-tplink-archer-be600"
+      "wifi-tplink-archer-be600",
+      "keyboard-logitech-k250",
+      "keyboard-logitech-k380s",
+      "keyboard-logitech-k580",
+      "keyboard-logitech-pop-icon-keys",
+      "keyboard-razer-huntsman-v3-pro-tkl",
+      "keyboard-sony-kbd-g900",
+      "mouse-logitech-pro-x-superlight-2",
+      "mousepad-razer-pro-glide",
+      "mousepad-razer-strider-chroma"
     ],
     "exceptions": [
       {
@@ -18244,6 +18764,2567 @@
         "purchaseEvidence": "原頁顯示立即購買及加入購物車按鈕，無disabled標示；未點擊購買、加入購物車或進入結帳。",
         "promotionUrl": "https://tw.buy.yahoo.com/activity/onsale?actid=783769",
         "evidenceExcerpt": "賣場編號11798654／商品編號38536447；ASUS 華碩 RT-BE82U WiFi 7 雙頻 BE6500 路由器/分享器；$4,741（活動折後），原$4,990；【網路設備】精選品牌★快閃95折、滿1件享95折；立即購買／加入購物車。"
+      }
+    ]
+  },
+  "auditScope": "added_products_only",
+  "addedProductReview": {
+    "scope": "added_products_only",
+    "checkedAt": "2026-08-31T17:56:41.403Z",
+    "baselineRef": "ae7d82af88e554cf032ccaa80651524810eba728",
+    "note": "只查核本次90款。各列保留實際來源與圖片查核日，報告日期不是全部來源重新查價時間；舊943款、匯率、31類及279格日系證據皆沿用。Chrome核對購買頁選定版本與圖片naturalWidth；現價不當史低。",
+    "rows": [
+      {
+        "id": "mouse-logitech-mx-master-4",
+        "category": "mouse",
+        "brand": "Logitech",
+        "model": "MX Master 4",
+        "name": "MX Master 4 石墨灰 910-007567 無線智能滑鼠",
+        "buyUrl": "https://store.logitech.tw/products/master4?variant=43460457988119",
+        "price": {
+          "currency": "TWD",
+          "amount": 3690,
+          "converted": 3690,
+          "basis": "retailer_current",
+          "confidence": "Chrome 原頁顯示 910-007567、Logitech MX Master 4 無線智能滑鼠、石墨灰已選取；原價4190，公開Sale3690，加入購物車可用。未採會員或加購價格。 查核日期 2026-08-31"
+        },
+        "image": "https://store.logitech.tw/cdn/shop/files/Low_Resolution_JPG-MX_Master_4_Graphite_TOP_DOWN_c9419bcd-31a8-4692-b7e3-11cba448ef64.jpg?v=1770953056&width=1220",
+        "naturalWidth": 500,
+        "checkedAt": "2026-08-31",
+        "chromeSourceReviewed": true,
+        "sourceEvidence": "Chrome 原頁顯示 910-007567、Logitech MX Master 4 無線智能滑鼠、石墨灰已選取；原價4190，公開Sale3690，加入購物車可用。未採會員或加購價格。",
+        "sourceAuditDateBasis": "商品原始price.confidence明列查核日；未以合併日期代替"
+      },
+      {
+        "id": "mouse-logitech-mx-ergo-s",
+        "category": "mouse",
+        "brand": "Logitech",
+        "model": "MX Ergo S",
+        "name": "MX Ergo S 910-007262 右手拇指無線軌跡球",
+        "buyUrl": "https://store.logitech.tw/products/ergos?variant=41655899422743",
+        "price": {
+          "currency": "TWD",
+          "amount": 3290,
+          "converted": 3290,
+          "basis": "retailer_current",
+          "confidence": "2026-08-31 Chrome 核對台灣旗艦店 MX ERGO S、SKU 910-007262、公開價3290與可加入購物車；單品非 Plus／套裝。"
+        },
+        "image": "https://store.logitech.tw/cdn/shop/files/ERGOs_01.jpg?v=1770260024&width=1220",
+        "naturalWidth": 500,
+        "checkedAt": "2026-08-31",
+        "chromeSourceReviewed": true,
+        "sourceEvidence": "2026-08-31 Chrome 核對台灣旗艦店 MX ERGO S、SKU 910-007262、公開價3290與可加入購物車；單品非 Plus／套裝。 Chrome店頁單品910-007262，與官規同SKU；非Plus",
+        "sourceAuditDateBasis": "原始sourceAudit逐筆查核日"
+      },
+      {
+        "id": "mouse-logitech-ergo-m575s",
+        "category": "mouse",
+        "brand": "Logitech",
+        "model": "ERGO M575S",
+        "name": "ERGO M575S 石墨灰 910-007033 無線軌跡球",
+        "buyUrl": "https://store.logitech.tw/products/m575s?variant=41655872323607",
+        "price": {
+          "currency": "TWD",
+          "amount": 1490,
+          "converted": 1490,
+          "basis": "retailer_current",
+          "confidence": "2026-08-31 Chrome 核對官方規格頁導向台灣旗艦店 M575S，石墨灰已選、SKU 910-007033、公開價1490且加入購物車可用；不採頁尾其他滑鼠起價。"
+        },
+        "image": "https://store.logitech.tw/cdn/shop/files/High_Resolution_JPG-ERGO_M575S_Graphite_Blue_Ball_TOP_DOWN.jpg?v=1770260254&width=1220",
+        "naturalWidth": 610,
+        "checkedAt": "2026-08-31",
+        "chromeSourceReviewed": true,
+        "sourceEvidence": "2026-08-31 Chrome 核對官方規格頁導向台灣旗艦店 M575S，石墨灰已選、SKU 910-007033、公開價1490且加入購物車可用；不採頁尾其他滑鼠起價。 Chrome官方產品頁直接購買連結至台灣旗艦店已選石墨灰910-007033，官規頁族名ERGO M575S（頁面SKU031）；不製造參數及不增算顏色",
+        "sourceAuditDateBasis": "原始sourceAudit逐筆查核日"
+      },
+      {
+        "id": "mouse-logitech-m750",
+        "category": "mouse",
+        "brand": "Logitech",
+        "model": "M750",
+        "name": "Signature Plus M750 石墨黑 910-007440 一般尺寸多工靜音滑鼠",
+        "buyUrl": "https://store.logitech.tw/products/m750",
+        "price": {
+          "currency": "TWD",
+          "amount": 1490,
+          "converted": 1490,
+          "basis": "retailer_current",
+          "confidence": "2026-08-31 Chrome核對台灣旗艦店M750，一般版石墨黑已選、SKU910-007440、公開價1490及加入購物車；沒有採用旁邊M750 L或其他推薦商品價格。"
+        },
+        "image": "https://store.logitech.tw/cdn/shop/files/High_Resolution_PNG-M750_Medium_Graphite_Top-1.png?v=1761498454&width=1220",
+        "naturalWidth": 610,
+        "checkedAt": "2026-08-31",
+        "chromeSourceReviewed": true,
+        "sourceEvidence": "2026-08-31 Chrome核對台灣旗艦店M750，一般版石墨黑已選、SKU910-007440、公開價1490及加入購物車；沒有採用旁邊M750 L或其他推薦商品價格。 Chrome直接開店頁預設黑7440，一般版；官方另明443為L，不改參數湊版",
+        "sourceAuditDateBasis": "原始sourceAudit逐筆查核日"
+      },
+      {
+        "id": "mouse-logitech-m190",
+        "category": "mouse",
+        "brand": "Logitech",
+        "model": "M190",
+        "name": "M190 木炭黑 910-005916 全尺寸無線滑鼠",
+        "buyUrl": "https://store.logitech.tw/products/m190?variant=40018414206999",
+        "price": {
+          "currency": "TWD",
+          "amount": 399,
+          "converted": 399,
+          "basis": "retailer_current",
+          "confidence": "2026-08-31 Chrome核對台灣旗艦店已選黑色、SKU910-005916、399及加入購物車；原連結已實際轉址/products/m190，圖片naturalWidth500。"
+        },
+        "image": "https://store.logitech.tw/cdn/shop/products/m190-666692.jpg?v=1705570757&width=1220",
+        "naturalWidth": 500,
+        "checkedAt": "2026-08-31",
+        "chromeSourceReviewed": true,
+        "sourceEvidence": "2026-08-31 Chrome核對台灣旗艦店已選黑色、SKU910-005916、399及加入購物車；原連結已實際轉址/products/m190，圖片naturalWidth500。 Chrome轉址後選黑色5916，官規同頁列5916對應木炭黑；不採藍色5920或紅5921價格",
+        "sourceAuditDateBasis": "原始sourceAudit逐筆查核日"
+      },
+      {
+        "id": "mouse-logitech-m240",
+        "category": "mouse",
+        "brand": "Logitech",
+        "model": "M240",
+        "name": "M240 珍珠白 910-007126 靜音藍牙滑鼠（不附接收器）",
+        "buyUrl": "https://store.logitech.tw/products/m240?variant=40584388280343",
+        "price": {
+          "currency": "TWD",
+          "amount": 629,
+          "converted": 629,
+          "basis": "retailer_current",
+          "confidence": "2026-08-31 Chrome已核對台灣旗艦店選定珍珠白、910-007126、629與加入購物車。搜尋快取599不採為現價。"
+        },
+        "image": "https://store.logitech.tw/cdn/shop/products/m240-432654.jpg?v=1729181288&width=1220",
+        "naturalWidth": 500,
+        "checkedAt": "2026-08-31",
+        "chromeSourceReviewed": true,
+        "sourceEvidence": "2026-08-31 Chrome已核對台灣旗艦店選定珍珠白、910-007126、629與加入購物車。搜尋快取599不採為現價。 官方白色7126直連官店variant40584388280343，Chrome實際白色已選、SKU7126、629與可加入購物車；不採快取599。",
+        "sourceAuditDateBasis": "原始sourceAudit逐筆查核日"
+      },
+      {
+        "id": "mouse-logitech-lift",
+        "category": "mouse",
+        "brand": "Logitech",
+        "model": "Lift",
+        "name": "Lift 珍珠白 910-006483 右手人體工學垂直滑鼠",
+        "buyUrl": "https://store.logitech.tw/products/lift?variant=40213292711959",
+        "price": {
+          "currency": "TWD",
+          "amount": 2490,
+          "converted": 2490,
+          "basis": "retailer_current",
+          "confidence": "2026-08-31 Chrome核對台灣旗艦店珍珠白右手版910-006483、2490及加入購物車。"
+        },
+        "image": "https://store.logitech.tw/cdn/shop/files/Lift_FOB_Top_Off_White.png?v=1773626475&width=1220",
+        "naturalWidth": 610,
+        "checkedAt": "2026-08-31",
+        "chromeSourceReviewed": true,
+        "sourceEvidence": "2026-08-31 Chrome核對台灣旗艦店珍珠白右手版910-006483、2490及加入購物車。 Chrome珍珠白已選、SKU6483與右手版，variant40213292711959可還原，圖片為白色本體610px。",
+        "sourceAuditDateBasis": "原始sourceAudit逐筆查核日"
+      },
+      {
+        "id": "mouse-logitech-mx-vertical",
+        "category": "mouse",
+        "brand": "Logitech",
+        "model": "MX Vertical",
+        "name": "MX Vertical 石墨灰 910-005450 充電式垂直滑鼠",
+        "buyUrl": "https://store.logitech.tw/products/vertical",
+        "price": {
+          "currency": "TWD",
+          "amount": 2990,
+          "converted": 2990,
+          "basis": "retailer_current",
+          "confidence": "2026-08-31 Chrome台灣旗艦店MX Vertical單一石墨灰910-005450頁2990，可加入購物車。"
+        },
+        "image": "https://store.logitech.tw/cdn/shop/files/Vertical_01.jpg?v=1770260291&width=1220",
+        "naturalWidth": 500,
+        "checkedAt": "2026-08-31",
+        "chromeSourceReviewed": true,
+        "sourceEvidence": "2026-08-31 Chrome台灣旗艦店MX Vertical單一石墨灰910-005450頁2990，可加入購物車。 Chrome確認單一石墨灰5450與2990可購；官方全球資料表對照地域料號，未添加規避重複的URL參數。",
+        "sourceAuditDateBasis": "原始sourceAudit逐筆查核日"
+      },
+      {
+        "id": "mouse-logitech-g102-lightsync",
+        "category": "mouse",
+        "brand": "Logitech",
+        "model": "G102",
+        "name": "G102 LIGHTSYNC 第二代 莫蘭紫 910-005856 有線滑鼠",
+        "buyUrl": "https://store.logitech.tw/products/g102?variant=40018407653399",
+        "price": {
+          "currency": "TWD",
+          "amount": 499,
+          "converted": 499,
+          "basis": "retailer_current",
+          "confidence": "2026-08-31 Chrome已選莫蘭紫910-005856，旗艦店499、可加入購物車。"
+        },
+        "image": "https://store.logitech.tw/cdn/shop/products/g102-rgb-650925.jpg?v=1737302398&width=1220",
+        "naturalWidth": 500,
+        "checkedAt": "2026-08-31",
+        "chromeSourceReviewed": true,
+        "sourceEvidence": "2026-08-31 Chrome已選莫蘭紫910-005856，旗艦店499、可加入購物車。 Chrome莫蘭紫5856已選，variant40018407653399經官店實際導到/products/g102；不是自造參數，圖片500px。",
+        "sourceAuditDateBasis": "原始sourceAudit逐筆查核日"
+      },
+      {
+        "id": "mouse-logitech-g304",
+        "category": "mouse",
+        "brand": "Logitech",
+        "model": "G304",
+        "name": "G304 LIGHTSPEED 白色 910-005294 無線滑鼠",
+        "buyUrl": "https://store.logitech.tw/products/g304?variant=40018407981079",
+        "price": {
+          "currency": "TWD",
+          "amount": 799,
+          "converted": 799,
+          "basis": "retailer_current",
+          "confidence": "2026-08-31 Chrome官店選白色910-005294，當頁799元且加入購物車可用；不沿用搜尋摘要990元。"
+        },
+        "image": "https://store.logitech.tw/cdn/shop/products/g304-lightspeed-623471.jpg?v=1748793663&width=1220",
+        "naturalWidth": 500,
+        "checkedAt": "2026-08-31",
+        "chromeSourceReviewed": true,
+        "sourceEvidence": "2026-08-31 Chrome官店選白色910-005294，當頁799元且加入購物車可用；不沿用搜尋摘要990元。 Chrome選白色及910-005294後URL自帶variant40018407981079，當頁799且購物車按鈕可用，主圖500px；不自製參數、不用黑5285價。",
+        "sourceAuditDateBasis": "原始sourceAudit逐筆查核日"
+      },
+      {
+        "id": "mouse-logitech-g502-hero",
+        "category": "mouse",
+        "brand": "Logitech",
+        "model": "G502 HERO",
+        "name": "G502 HERO 黑色 910-005473 有線滑鼠",
+        "buyUrl": "https://store.logitech.tw/products/g502hero?variant=40018409127959",
+        "price": {
+          "currency": "TWD",
+          "amount": 1290,
+          "converted": 1290,
+          "basis": "retailer_current",
+          "confidence": "2026-08-31 Chrome原頁明列910-005473、1290元及可加入購物車；商品特色說明目前塑料線。"
+        },
+        "image": "https://store.logitech.tw/cdn/shop/files/G502LIGHTSPEED_EC_-1.jpg?v=1770259313",
+        "naturalWidth": 1040,
+        "checkedAt": "2026-08-31",
+        "chromeSourceReviewed": true,
+        "sourceEvidence": "2026-08-31 Chrome原頁明列910-005473、1290元及可加入購物車；商品特色說明目前塑料線。 Chrome官店選定5473/1290可購；商品特色明示線材已改塑料。主圖檔名雖含LIGHTSPEED，但實際打開1040px並視覺確認為有線塑料線G502圖片；排除較舊編織線商品圖。",
+        "sourceAuditDateBasis": "原始sourceAudit逐筆查核日"
+      },
+      {
+        "id": "mouse-logitech-m720",
+        "category": "mouse",
+        "brand": "Logitech",
+        "model": "M720",
+        "name": "M720 Triathlon 黑色 910-004793 多工無線滑鼠",
+        "buyUrl": "https://24h.pchome.com.tw/prod/DSAR0S-1900HRWXS",
+        "price": {
+          "currency": "TWD",
+          "amount": 888,
+          "converted": 888,
+          "basis": "retailer_current",
+          "confidence": "2026-08-31 Chrome重新開啟獨立單品DSAR0S-1900HRWXS，主商品網路价888/1990，數量1、加入購物車與立即購買可用，PChome倉出24小時；主商品沒有加購條件，相關鍵盤套裝1880/2380/4580另列。不扣滿2000折200或銀行回饋。舊搜尋摘要1790不是目前原頁價。"
+        },
+        "image": "https://img.pchome.com.tw/cs/items/DSAR0S1900HRWXS/000001_1787591611.jpg",
+        "naturalWidth": 640,
+        "checkedAt": "2026-08-31",
+        "chromeSourceReviewed": true,
+        "sourceEvidence": "2026-08-31 Chrome重新開啟獨立單品DSAR0S-1900HRWXS，主商品網路价888/1990，數量1、加入購物車與立即購買可用，PChome倉出24小時；主商品沒有加購條件，相關鍵盤套裝1880/2380/4580另列。不扣滿2000折200或銀行回饋。舊搜尋摘要1790不是目前原頁價。 2026-08-31 Chrome重新開啟獨立單品DSAR0S-1900HRWXS，主商品網路价888/1990，數量1、加入購物車與立即購買可用，PChome倉出24小時；主商品沒有加購條件，相關鍵盤套裝1880/2380/4580另列。不扣滿2000折200或銀行回饋。舊搜尋摘要1790不是目前原頁價。 另頁主標加購45折，雖888且有購買按鈕，先排除條件疑慮；最終非加購獨立单品原頁也實查888。順發222138原頁多次逾時，不採其搜尋摘要現價。",
+        "sourceAuditDateBasis": "原始sourceAudit逐筆查核日"
+      },
+      {
+        "id": "mouse-logitech-m650",
+        "category": "mouse",
+        "brand": "Logitech",
+        "model": "M650",
+        "name": "Signature M650 石墨灰 910-006259 標準尺寸靜音滑鼠",
+        "buyUrl": "https://store.logitech.tw/products/m650",
+        "price": {
+          "currency": "TWD",
+          "amount": 990,
+          "converted": 990,
+          "basis": "retailer_current",
+          "confidence": "2026-08-31 Chrome原頁預設黑色910-006259，990元及加入購物車可用；搜尋摘要1090已不符當前畫面。"
+        },
+        "image": "https://store.logitech.tw/cdn/shop/products/m650-611461.jpg?v=1761498503&width=1220",
+        "naturalWidth": 500,
+        "checkedAt": "2026-08-31",
+        "chromeSourceReviewed": true,
+        "sourceEvidence": "2026-08-31 Chrome原頁預設黑色910-006259，990元及加入購物車可用；搜尋摘要1090已不符當前畫面。 Chrome預設黑色6259／990且加入購物車可用，主圖500px；以實際主商品為準，不套搜索快照1090、L大型或白色價。",
+        "sourceAuditDateBasis": "原始sourceAudit逐筆查核日"
+      },
+      {
+        "id": "mouse-logitech-m331",
+        "category": "mouse",
+        "brand": "Logitech",
+        "model": "M331",
+        "name": "M331 SILENT PLUS 黑色 910-004917 靜音滑鼠",
+        "buyUrl": "https://store.logitech.tw/products/m331",
+        "price": {
+          "currency": "TWD",
+          "amount": 699,
+          "converted": 699,
+          "basis": "retailer_current",
+          "confidence": "2026-08-31 Chrome官店黑色4917、699元、加入購物車可用；未承諾特定NCC出貨批次。"
+        },
+        "image": "https://store.logitech.tw/cdn/shop/files/Low_Resolution_JPG-M330_M331_M280_M275_Black_TOP.jpg?v=1787824341&width=1220",
+        "naturalWidth": 500,
+        "checkedAt": "2026-08-31",
+        "chromeSourceReviewed": true,
+        "sourceEvidence": "2026-08-31 Chrome官店黑色4917、699元、加入購物車可用；未承諾特定NCC出貨批次。 Chrome黑4917/699/可加購主商品；主圖500px已目視為黑logi無燈款，但官店NCC並列兩批次，不能由外觀保證出貨硬體。",
+        "sourceAuditDateBasis": "原始sourceAudit逐筆查核日"
+      },
+      {
+        "id": "mouse-logitech-m185",
+        "category": "mouse",
+        "brand": "Logitech",
+        "model": "M185",
+        "name": "M185 灰色 910-002258 三鍵無線滑鼠",
+        "buyUrl": "https://www.tk3c.com/product/117872",
+        "price": {
+          "currency": "TWD",
+          "amount": 649,
+          "converted": 649,
+          "basis": "retailer_current",
+          "confidence": "2026-08-31 Chrome燦坤117872明列910-002258，市價與會員價同為649，可加入購物車。"
+        },
+        "image": "https://www.cdn-tkec.tw/image/product/201107/117872_M.jpg?t=20251201161001",
+        "naturalWidth": 1000,
+        "checkedAt": "2026-08-31",
+        "chromeSourceReviewed": true,
+        "sourceEvidence": "2026-08-31 Chrome燦坤117872明列910-002258，市價與會員價同為649，可加入購物車。 Chrome燦坤117872列910-002258，649市價與會員價一致，可加購且3年保固；圖片1000px。官方灰色SKU對應明確，但M/N出貨批次未鎖。",
+        "sourceAuditDateBasis": "原始sourceAudit逐筆查核日"
+      },
+      {
+        "id": "mouse-logitech-g403-hero",
+        "category": "mouse",
+        "brand": "Logitech",
+        "model": "G403 HERO",
+        "name": "G403 HERO 黑色 910-005635 有線電競滑鼠",
+        "buyUrl": "https://store.logitech.tw/products/g403",
+        "price": {
+          "currency": "TWD",
+          "amount": 1490,
+          "converted": 1490,
+          "basis": "retailer_current",
+          "confidence": "2026-08-31 Chrome官店單品910-005635／1490元／加入購物車，未計推薦配件。"
+        },
+        "image": "https://store.logitech.tw/cdn/shop/products/g403-hero-488438.jpg?v=1729179172&width=1220",
+        "naturalWidth": 432,
+        "checkedAt": "2026-08-31",
+        "chromeSourceReviewed": true,
+        "sourceEvidence": "2026-08-31 Chrome官店單品910-005635／1490元／加入購物車，未計推薦配件。 Chrome官店單品910-005635／1490元／可加入購物車，主圖alt為G403 HERO且naturalWidth432；不選旁邊G703推薦品。",
+        "sourceAuditDateBasis": "原始sourceAudit逐筆查核日"
+      },
+      {
+        "id": "mouse-logitech-mx-anywhere-3s",
+        "category": "mouse",
+        "brand": "Logitech",
+        "model": "MX Anywhere 3S",
+        "name": "MX Anywhere 3S 石墨灰 910-006935 無線滑鼠",
+        "buyUrl": "https://store.logitech.tw/products/anywhere3s",
+        "price": {
+          "currency": "TWD",
+          "amount": 2490,
+          "converted": 2490,
+          "basis": "retailer_current",
+          "confidence": "2026-09-01 Chrome官店預設石墨灰910-006935、2490元、加入購物車；非推薦品或套裝。"
+        },
+        "image": "https://store.logitech.tw/cdn/shop/products/mx-anywhere-3s-472144.jpg?v=1770130977&width=1220",
+        "naturalWidth": 500,
+        "checkedAt": "2026-09-01",
+        "chromeSourceReviewed": true,
+        "sourceEvidence": "2026-09-01 Chrome官店預設石墨灰910-006935、2490元、加入購物車；非推薦品或套裝。 Chrome預設石墨灰910-006935/2490/加入購物車與主圖500確認；不選for Mac、商務版或推薦配件。",
+        "sourceAuditDateBasis": "原始sourceAudit逐筆查核日"
+      },
+      {
+        "id": "mouse-razer-cobra",
+        "category": "mouse",
+        "brand": "Razer",
+        "model": "RZ01-04650100-R3M1",
+        "name": "Cobra 有線電競滑鼠 黑色 RZ01-04650100-R3M1",
+        "buyUrl": "https://www.inpad.com.tw/product.php?act=view&id=9420",
+        "price": {
+          "currency": "TWD",
+          "amount": 1088,
+          "converted": 1088,
+          "basis": "retailer_current",
+          "confidence": "Chrome 2026-09-01查明黑色標準有線Cobra完整RZ01-04650100-R3M1，單品1088，qty/cart可用，未選加購。momo11921709實際無展售故不用。"
+        },
+        "image": "https://www.inpad.com.tw/data/goods/gallery/202306/1688111238816486497.jpg",
+        "naturalWidth": 500,
+        "checkedAt": "2026-09-01",
+        "chromeSourceReviewed": true,
+        "sourceEvidence": "Chrome 2026-09-01查明黑色標準有線Cobra完整RZ01-04650100-R3M1，單品1088，qty/cart可用，未選加購。momo11921709實際無展售故不用。 Chrome 2026-09-01查明黑色標準有線Cobra完整RZ01-04650100-R3M1，單品1088，qty/cart可用，未選加購。momo11921709實際無展售故不用。",
+        "sourceAuditDateBasis": "原始sourceAudit逐筆查核日"
+      },
+      {
+        "id": "mouse-razer-basilisk-v3",
+        "category": "mouse",
+        "brand": "Razer",
+        "model": "RZ01-04000100-R3M1",
+        "name": "Basilisk V3 有線 26K 黑色 RZ01-04000100-R3M1",
+        "buyUrl": "https://www.inpad.com.tw/product.php?act=view&id=6575",
+        "price": {
+          "currency": "TWD",
+          "amount": 1488,
+          "converted": 1488,
+          "basis": "retailer_current",
+          "confidence": "Chrome於2026-09-01確認黑色RZ01-04000100-R3M1單品1488（2099劃線）、可選數量與加入購物車、原圖500px。不採35K、Pro、X HyperSpeed或加購。"
+        },
+        "image": "https://www.inpad.com.tw/data/goods/gallery/202109/1632477983357778020.jpg",
+        "naturalWidth": 500,
+        "checkedAt": "2026-09-01",
+        "chromeSourceReviewed": true,
+        "sourceEvidence": "Chrome於2026-09-01確認黑色RZ01-04000100-R3M1單品1488（2099劃線）、可選數量與加入購物車、原圖500px。不採35K、Pro、X HyperSpeed或加購。 Chrome於2026-09-01確認黑色RZ01-04000100-R3M1單品1488（2099劃線）、可選數量與加入購物車、原圖500px。不採35K、Pro、X HyperSpeed或加購。",
+        "sourceAuditDateBasis": "原始sourceAudit逐筆查核日"
+      },
+      {
+        "id": "mouse-logitech-m350s",
+        "category": "mouse",
+        "brand": "Logitech",
+        "model": "M350S",
+        "name": "Pebble Mouse 2 M350S 玫瑰粉 910-006996 藍牙滑鼠",
+        "buyUrl": "https://www.tk3c.com/product/245490",
+        "price": {
+          "currency": "TWD",
+          "amount": 699,
+          "converted": 699,
+          "basis": "retailer_current",
+          "confidence": "2026-09-01 Chrome燦坤245490：玫瑰粉910-006996、公開促銷699、可加入購物車。"
+        },
+        "image": "https://www.cdn-tkec.tw/image/product/202401/245490_M.jpg?t=20250513174631",
+        "naturalWidth": 1000,
+        "checkedAt": "2026-09-01",
+        "chromeSourceReviewed": true,
+        "sourceEvidence": "2026-09-01 Chrome燦坤245490：玫瑰粉910-006996、公開促銷699、可加入購物車。 Chrome燦坤245490獨立玫瑰粉6996、699元、主圖naturalWidth1000；史低584圖片選的是石墨灰及折券，確實排除跨色證據。",
+        "sourceAuditDateBasis": "原始sourceAudit逐筆查核日"
+      },
+      {
+        "id": "mouse-logitech-pop-mouse",
+        "category": "mouse",
+        "brand": "Logitech",
+        "model": "POP Mouse",
+        "name": "POP Mouse 石墨黑 910-007163 四鍵藍牙滑鼠（2024配色）",
+        "buyUrl": "https://store.logitech.tw/products/popmouse",
+        "price": {
+          "currency": "TWD",
+          "amount": 990,
+          "converted": 990,
+          "basis": "retailer_current",
+          "confidence": "2026-09-01 Chrome官店預設石墨黑910-007163、990元、可加入購物車；非鍵鼠套装。"
+        },
+        "image": "https://store.logitech.tw/cdn/shop/files/Low_Resolution_JPG-POPMouseTOPGraphite.jpg?v=1757668267&width=1220",
+        "naturalWidth": 500,
+        "checkedAt": "2026-09-01",
+        "chromeSourceReviewed": true,
+        "sourceEvidence": "2026-09-01 Chrome官店預設石墨黑910-007163、990元、可加入購物車；非鍵鼠套装。 Chrome官店預設石墨黑910-007163、990元、圖500且視覺黑色本體；標準包裝不含Bolt，促銷限量贈接收器不得變永久標配。",
+        "sourceAuditDateBasis": "原始sourceAudit逐筆查核日"
+      },
+      {
+        "id": "mouse-logitech-g309",
+        "category": "mouse",
+        "brand": "Logitech",
+        "model": "G309",
+        "name": "G309 LIGHTSPEED 黑色 910-007202 雙模電競滑鼠",
+        "buyUrl": "https://store.logitech.tw/products/g309-lightspeed",
+        "price": {
+          "currency": "TWD",
+          "amount": 2190,
+          "converted": 2190,
+          "basis": "retailer_current",
+          "confidence": "2026-09-01 Chrome官店預設黑色910-007202、2190元、加入購物車可用；不是POWERPLAY套裝。"
+        },
+        "image": "https://store.logitech.tw/cdn/shop/files/Low_Resolution_JPG-G309LIGHTSPEEDBTYOpenBlack.jpg?v=1761494816",
+        "naturalWidth": 1000,
+        "checkedAt": "2026-09-01",
+        "chromeSourceReviewed": true,
+        "sourceEvidence": "2026-09-01 Chrome官店預設黑色910-007202、2190元、加入購物車可用；不是POWERPLAY套裝。 Chrome官店直接URL預設黑7202/2190可購；黑色獨立本體開蓋圖1000px已目視核對。",
+        "sourceAuditDateBasis": "原始sourceAudit逐筆查核日"
+      },
+      {
+        "id": "mouse-razer-deathadder-v4-pro",
+        "category": "mouse",
+        "brand": "Razer",
+        "model": "RZ01-05330100-R3A1",
+        "name": "DeathAdder V4 Pro 黑色",
+        "buyUrl": "https://www.mren.com.tw/product/show.php?id=040471802140",
+        "price": {
+          "currency": "TWD",
+          "amount": 4990,
+          "converted": 4990,
+          "basis": "retailer_current",
+          "confidence": "2026-09-01 Chrome重新直接開啟名人3C獨立商品頁，畫面確認黑色RZ01-05330100-R3A1、4990、促銷至9/30及購買按鈕；不需重選顏色。原INPAD12802重開會清掉黑色選取，改名人3C還原選定版本。三井MAR101黑色6290非此次可驗低價；PChome DCBF01-A900IZY50黑白禁選、有貨通知，排除現售連結。图片保留已Chrome視覺確認黑色本體的INPAD500px。名人頁框DOM落在左欄，採整頁Chrome截圖人工確認售價與SKU，不聲稱從錯誤frame擷取。"
+        },
+        "image": "https://www.inpad.com.tw/data/goods/gallery/202508/1754894482151200184.jpg",
+        "naturalWidth": 500,
+        "checkedAt": "2026-09-01",
+        "chromeSourceReviewed": true,
+        "sourceEvidence": "2026-09-01 Chrome重新直接開啟名人3C獨立商品頁，畫面確認黑色RZ01-05330100-R3A1、4990、促銷至9/30及購買按鈕；不需重選顏色。原INPAD12802重開會清掉黑色選取，改名人3C還原選定版本。三井MAR101黑色6290非此次可驗低價；PChome DCBF01-A900IZY50黑白禁選、有貨通知，排除現售連結。图片保留已Chrome視覺確認黑色本體的INPAD500px。名人頁框DOM落在左欄，採整頁Chrome截圖人工確認售價與SKU，不聲稱從錯誤frame擷取。 2026-09-01 Chrome重新直接開啟名人3C獨立商品頁，畫面確認黑色RZ01-05330100-R3A1、4990、促銷至9/30及購買按鈕；不需重選顏色。原INPAD12802重開會清掉黑色選取，改名人3C還原選定版本。三井MAR101黑色6290非此次可驗低價；PChome DCBF01-A900IZY50黑白禁選、有貨通知，排除現售連結。图片保留已Chrome視覺確認黑色本體的INPAD500px。名人頁框DOM落在左欄，採整頁Chrome截圖人工確認售價與SKU，不聲稱從錯誤frame擷取。",
+        "sourceAuditDateBasis": "原始sourceAudit逐筆查核日"
+      },
+      {
+        "id": "mouse-razer-viper-v3-pro",
+        "category": "mouse",
+        "brand": "Razer",
+        "model": "RZ01-05120100-R3A1",
+        "name": "Viper V3 Pro 黑色 35K 非SE",
+        "buyUrl": "https://www.mren.com.tw/product/show.php?id=040471802127",
+        "price": {
+          "currency": "TWD",
+          "amount": 3690,
+          "converted": 3690,
+          "basis": "retailer_current",
+          "confidence": "2026-09-01 Chrome重新直接開啟名人3C獨立頁，整頁截圖可見黑色RZ01-05120100-R3A1、3690、促銷至9/30及購買按鈕，重開不需選色。名人框架DOM只落在左欄，採Chrome截圖人工確認。web索引3990/3月促銷為舊快取，不採作目前價格。PChome DCBF01-A900IUNKQ現價3690但黑白未預選，不能當黑色直連；myfone P0000203749303錯植30K/95g/MMO/藍牙，不採。momo15133565未展售；舊88%折扣已過期。"
+        },
+        "image": "https://www.mren.com.tw/product/pic/04/04/040471802127b.jpg",
+        "naturalWidth": 150,
+        "checkedAt": "2026-09-01",
+        "chromeSourceReviewed": true,
+        "sourceEvidence": "2026-09-01 Chrome重新直接開啟名人3C獨立頁，整頁截圖可見黑色RZ01-05120100-R3A1、3690、促銷至9/30及購買按鈕，重開不需選色。名人框架DOM只落在左欄，採Chrome截圖人工確認。web索引3990/3月促銷為舊快取，不採作目前價格。PChome DCBF01-A900IUNKQ現價3690但黑白未預選，不能當黑色直連；myfone P0000203749303錯植30K/95g/MMO/藍牙，不採。momo15133565未展售；舊88%折扣已過期。 2026-09-01 Chrome重新直接開啟名人3C獨立頁，整頁截圖可見黑色RZ01-05120100-R3A1、3690、促銷至9/30及購買按鈕，重開不需選色。名人框架DOM只落在左欄，採Chrome截圖人工確認。web索引3990/3月促銷為舊快取，不採作目前價格。PChome DCBF01-A900IUNKQ現價3690但黑白未預選，不能當黑色直連；myfone P0000203749303錯植30K/95g/MMO/藍牙，不採。momo15133565未展售；舊88%折扣已過期。",
+        "sourceAuditDateBasis": "原始sourceAudit逐筆查核日"
+      },
+      {
+        "id": "mouse-logitech-g703-hero",
+        "category": "mouse",
+        "brand": "Logitech",
+        "model": "910-005643",
+        "name": "G703 HERO 黑色 910-005643 無線電競滑鼠",
+        "buyUrl": "https://store.logitech.tw/products/g703",
+        "price": {
+          "currency": "TWD",
+          "amount": 2490,
+          "converted": 2490,
+          "basis": "retailer_current",
+          "confidence": "2026-09-01 Chrome重新開台灣羅技官店獨立商品頁，型號910-005643、2490元及可加入購物車，單一黑色不需再選版本。Chrome直接開同頁原圖確認1000x787及黑色本體；不採比價搜尋快取的2290、2176或個人拍賣。"
+        },
+        "image": "https://store.logitech.tw/cdn/shop/products/g703-753065.jpg?v=1748793885",
+        "naturalWidth": 1000,
+        "checkedAt": "2026-09-01",
+        "chromeSourceReviewed": true,
+        "sourceEvidence": "2026-09-01 Chrome重新開台灣羅技官店獨立商品頁，型號910-005643、2490元及可加入購物車，單一黑色不需再選版本。Chrome直接開同頁原圖確認1000x787及黑色本體；不採比價搜尋快取的2290、2176或個人拍賣。 2026-09-01 Chrome重新開台灣羅技官店獨立商品頁，型號910-005643、2490元及可加入購物車，單一黑色不需再選版本。Chrome直接開同頁原圖確認1000x787及黑色本體；不採比價搜尋快取的2290、2176或個人拍賣。",
+        "sourceAuditDateBasis": "原始sourceAudit逐筆查核日"
+      },
+      {
+        "id": "mouse-sony-mse-g500",
+        "category": "mouse",
+        "brand": "Sony",
+        "model": "MSE-G500",
+        "name": "INZONE Mouse-A MSE-G500/B 黑色無線電競滑鼠",
+        "buyUrl": "https://store.sony.com.tw/product/MSE-G500/B",
+        "price": {
+          "currency": "TWD",
+          "amount": 3990,
+          "converted": 3990,
+          "basis": "retailer_current",
+          "confidence": "2026-08-31 Chrome 人工核對 Sony Store MSE-G500/B 黑色單品限時優惠价 NT$3,990、加入購物車按鈕可用；未扣註冊贈品或組合折扣。"
+        },
+        "image": "https://store.sony.com.tw/resource/file/product_files/MSE-G500-B/01_d207e5452.jpg",
+        "naturalWidth": 2000,
+        "checkedAt": "2026-08-31",
+        "chromeSourceReviewed": true,
+        "sourceEvidence": "2026-08-31 Chrome 人工核對 Sony Store MSE-G500/B 黑色單品限時優惠价 NT$3,990、加入購物車按鈕可用；未扣註冊贈品或組合折扣。",
+        "sourceAuditDateBasis": "原始price.confidence明列2026-08-31；sonyObservation保留實際Sony Store正文及圖片尺寸"
+      },
+      {
+        "id": "mouse-logitech-g502-x-lightspeed",
+        "category": "mouse",
+        "brand": "Logitech",
+        "model": "G502 X LIGHTSPEED",
+        "name": "G502 X LIGHTSPEED 白色 910-006226 無線電競滑鼠",
+        "buyUrl": "https://store.logitech.tw/products/g502xlightspeed?variant=40325534384151",
+        "price": {
+          "currency": "TWD",
+          "amount": 3490,
+          "converted": 3490,
+          "basis": "retailer_current",
+          "confidence": "2026-09-01 Chrome已查核：官店白色910-006226，原生variant網址重新直開仍還原白色；3490元並可加入購物車。"
+        },
+        "image": "https://store.logitech.tw/cdn/shop/products/g502-x-lightspeed-766213.jpg?v=1770259311",
+        "naturalWidth": 1000,
+        "checkedAt": "2026-09-01",
+        "chromeSourceReviewed": true,
+        "sourceEvidence": "https://store.logitech.tw/products/g502xlightspeed?variant=40325534384151 — 2026-09-01 Chrome已查核：官店白色910-006226，原生variant網址重新直開仍還原白色；3490元並可加入購物車。；https://www.logitech.com/zh-tw/shop/p/g502-x-wireless-lightforce.910-006226 — 已以Chrome選定官方完整版本，讀取規格及尺寸重量；完整摘錄保存在bundle研究列。；https://store.logitech.tw/cdn/shop/products/g502-x-lightspeed-766213.jpg?v=1770259311 — Chrome直接圖頁naturalWidth=1000，畫面已確認為選定白／黑滑鼠本體。"
+      },
+      {
+        "id": "mouse-logitech-pro-x-superlight-2",
+        "category": "mouse",
+        "brand": "Logitech",
+        "model": "910-006641",
+        "name": "PRO X SUPERLIGHT 2 白色 910-006641 無線電競滑鼠",
+        "buyUrl": "https://store.logitech.tw/products/superlight2?variant=40632667013143",
+        "price": {
+          "currency": "TWD",
+          "amount": 3690,
+          "converted": 3690,
+          "basis": "retailer_current",
+          "confidence": "2026-09-01 Chrome已查核：官店白色910-006641，原生variant網址重新直開仍還原普通SUPERLIGHT2白色；3690元可加入購物車，非DEX/SE/2C。"
+        },
+        "image": "https://store.logitech.tw/cdn/shop/products/pro-x-superlight-2-463287.jpg?v=1770258821",
+        "naturalWidth": 1000,
+        "checkedAt": "2026-09-01",
+        "chromeSourceReviewed": true,
+        "sourceEvidence": "https://store.logitech.tw/products/superlight2?variant=40632667013143 — 2026-09-01 Chrome已查核：官店白色910-006641，原生variant網址重新直開仍還原普通SUPERLIGHT2白色；3690元可加入購物車，非DEX/SE/2C。；https://www.logitech.com/zh-tw/shop/p/pro-x2-superlight-wireless-mouse.910-006641 — 已以Chrome選定官方完整版本，讀取規格及尺寸重量；完整摘錄保存在bundle研究列。；https://store.logitech.tw/cdn/shop/products/pro-x-superlight-2-463287.jpg?v=1770258821 — Chrome直接圖頁naturalWidth=1000，畫面已確認為選定白／黑滑鼠本體。",
+        "historicalSourceReviewed": true,
+        "historicalSourceUrl": "https://biggo.com.tw/s/PRO%20X%20SUPERLIGHT%202%20%E7%99%BD",
+        "historicalSourceCheckedAt": "2026-08-31"
+      },
+      {
+        "id": "mouse-logitech-pro-x-superlight-2-dex",
+        "category": "mouse",
+        "brand": "Logitech",
+        "model": "910-007360",
+        "name": "PRO X SUPERLIGHT 2 DEX 黑色 910-007360 無線電競滑鼠",
+        "buyUrl": "https://store.logitech.tw/products/superlight2dex",
+        "price": {
+          "currency": "TWD",
+          "amount": 3990,
+          "converted": 3990,
+          "basis": "retailer_current",
+          "confidence": "2026-09-01 Chrome已查核：官店獨立商品頁預設黑色910-007360，3990元可加入購物車；並由官方黑色產品頁連結對應此商品。"
+        },
+        "image": "https://store.logitech.tw/cdn/shop/files/High_Resolution_JPG-PROXSUPERLIGHT2DEXTOPBlack.jpg?v=1770258964",
+        "naturalWidth": 4000,
+        "checkedAt": "2026-09-01",
+        "chromeSourceReviewed": true,
+        "sourceEvidence": "https://store.logitech.tw/products/superlight2dex — 2026-09-01 Chrome已查核：官店獨立商品頁預設黑色910-007360，3990元可加入購物車；並由官方黑色產品頁連結對應此商品。；https://www.logitech.com/zh-tw/shop/p/pro-x-superlight-2-dex.910-007360 — 已以Chrome選定官方完整版本，讀取規格及尺寸重量；完整摘錄保存在bundle研究列。；https://store.logitech.tw/cdn/shop/files/High_Resolution_JPG-PROXSUPERLIGHT2DEXTOPBlack.jpg?v=1770258964 — Chrome直接圖頁naturalWidth=4000，畫面已確認為選定白／黑滑鼠本體。"
+      },
+      {
+        "id": "mouse-razer-basilisk-v3-pro-35k",
+        "category": "mouse",
+        "brand": "Razer",
+        "model": "RZ01-05240100-R3A1",
+        "name": "Basilisk V3 Pro 35K 黑色 RZ01-05240100-R3A1 無線電競滑鼠",
+        "buyUrl": "https://www.razer.com/tw-zh/gaming-mice/razer-basilisk-v3-pro-35k/RZ01-05240100-R3A1",
+        "price": {
+          "currency": "TWD",
+          "amount": 5690,
+          "converted": 5690,
+          "basis": "retailer_current",
+          "confidence": "2026-09-01 Chrome已查核：Razer台灣官站exact黑色SKU獨立URL，單滑鼠5690元可加入購物車；非Dock/Puck套裝。INPAD4290需選色且URL不還原、新亞4290缺貨，未用作此筆可直接購買版本。"
+        },
+        "image": "https://assets3.razerzone.com/e_Wgt84QExereiAe4BgOEYV8IVs=/1500x1000/https%3A%2F%2Fmedias-p1.phoenix.razer.com%2Fsys-master-phoenix-images-container%2Fh8b%2Fhf1%2F9821719822366%2F241001-basilisk-v3-pro-35k-1500x1000-1.jpg",
+        "naturalWidth": 1500,
+        "checkedAt": "2026-09-01",
+        "chromeSourceReviewed": true,
+        "sourceEvidence": "https://www.razer.com/tw-zh/gaming-mice/razer-basilisk-v3-pro-35k/RZ01-05240100-R3A1 — 2026-09-01 Chrome已查核：Razer台灣官站exact黑色SKU獨立URL，單滑鼠5690元可加入購物車；非Dock/Puck套裝。INPAD4290需選色且URL不還原、新亞4290缺貨，未用作此筆可直接購買版本。；https://www.razer.com/tw-zh/gaming-mice/razer-basilisk-v3-pro-35k/RZ01-05240100-R3A1 — 已以Chrome選定官方完整版本，讀取規格及尺寸重量；完整摘錄保存在bundle研究列。；https://assets3.razerzone.com/e_Wgt84QExereiAe4BgOEYV8IVs=/1500x1000/https%3A%2F%2Fmedias-p1.phoenix.razer.com%2Fsys-master-phoenix-images-container%2Fh8b%2Fhf1%2F9821719822366%2F241001-basilisk-v3-pro-35k-1500x1000-1.jpg — Chrome直接圖頁naturalWidth=1500，畫面已確認為選定白／黑滑鼠本體。"
+      },
+      {
+        "id": "keyboard-sony-kbd-g900",
+        "category": "keyboard",
+        "brand": "Sony",
+        "model": "KBD-G900",
+        "name": "INZONE KBD-H75 霍爾磁軸75%有線電競鍵盤（英文）",
+        "buyUrl": "https://store.sony.com.tw/product/KBD-G900/B",
+        "price": {
+          "currency": "TWD",
+          "amount": 6990,
+          "converted": 6990,
+          "basis": "retailer_current",
+          "confidence": "2026-08-31 Chrome人工核對Sony Store台灣黑色KBD-G900/B限時優惠價6990、原價8990及加入購物車按鈕；未扣個人化優惠。"
+        },
+        "image": "https://store.sony.com.tw/resource/file/product_files/KBD-G900-B/01_f1d911817.jpg",
+        "naturalWidth": 2000,
+        "checkedAt": "2026-08-31",
+        "chromeSourceReviewed": true,
+        "sourceEvidence": "KBD-G900為官方完整機種；/B黑色色碼不增加版本數。品牌官方同頁直接辨識英文無注音與正常新品販售。",
+        "sourcePages": [
+          {
+            "url": "https://store.sony.com.tw/product/KBD-G900/B",
+            "title": "INZONE KBD-H75 | Sony Store",
+            "checkedAt": "2026-08-31",
+            "reviewBasis": "manual_chrome_original_page",
+            "priceEvidence": "原頁明列機型KBD-G900/B；限時優惠價$6990（原價8990）；加入購物車按鈕可見，未操作購物車。",
+            "specEvidence": "明示無注音符號；75%配置、0.1–3.4mm可調觸發、雙色注塑PBT鍵帽、CNC鋁殼、INZONE Hub可用安裝軟體或網頁；保固12個月、註冊延長12個月。附件USB-A對USB-C線。",
+            "imageUrl": "https://store.sony.com.tw/resource/file/product_files/KBD-G900-B/01_f1d911817.jpg",
+            "imageNaturalWidth": 2000,
+            "imageEvidence": "原頁具備RGB背光KBD-H75俯視圖currentSrc與naturalWidth=2000，實際載入。"
+          },
+          {
+            "url": "https://store.sony.com.tw/product/spec/8a818bc398bb03830198e004b17e1d90",
+            "title": "INZONE KBD-H75 產品規格 | Sony Store",
+            "checkedAt": "2026-08-31",
+            "reviewBasis": "manual_chrome_original_page",
+            "specEvidence": "鍵盤軸體磁性開關（霍爾效應）；觸發及快速觸發0.1–3.4mm；8000Hz；75%(TKL)；所有按鍵無衝突；Windows10+；INZONE Hub；有線；雙色PBT鍵帽。",
+            "dimensionEvidence": "高度約37.5mm、寬度約318.8mm、深度約132.3mm，保留官方標籤。",
+            "weightEvidence": "重量約810g（不含連接線）。",
+            "boxContentsEvidence": "USB-C充電線(USB-A對USB-C)、文件。"
+          },
+          {
+            "url": "https://www.sony.com.tw/corporate/home/NewsCenter/Detail/INZONESERIES",
+            "title": "Sony 全新INZONE系列推出完整配備開創遊戲新局",
+            "checkedAt": "2026-08-31",
+            "reviewBasis": "manual_chrome_original_page",
+            "releaseEvidence": "2025-09-16官方稿明示KBD-H75(KBD-G900)，周邊於明日9/17正式在台上市；文內連結直達KBD-G900/B。"
+          }
+        ],
+        "historicalSourceReviewed": true,
+        "historicalSourceUrl": "https://biggo.com.tw/s/kbd-g900",
+        "historicalSourceCheckedAt": "2026-08-31",
+        "historicalSourceEvidence": "Sony原研究已記Chrome開PChome一年歷史，6372與2026-05-25及6月多日期；並讀回DCAHZN-A900J97J0核對KBD-G900新品。"
+      },
+      {
+        "id": "keyboard-logitech-alto-k98m",
+        "category": "keyboard",
+        "brand": "Logitech",
+        "model": "K98M",
+        "name": "ALTO KEYS K98M 大理石線性軸注音無線機械鍵盤（石墨黑）",
+        "buyUrl": "https://store.logitech.tw/products/k98m?variant=43052241354775",
+        "price": {
+          "currency": "TWD",
+          "amount": 2690,
+          "converted": 2690,
+          "basis": "retailer_current",
+          "confidence": "2026-08-31 Chrome人工核對台灣羅技旗艦店石墨黑920-013578、2690元與加入購物車；不計會員或刷卡折扣。"
+        },
+        "image": "https://store.logitech.tw/cdn/shop/files/Low_Resolution_JPG-ALTOKEYSK98MGraphite3QTRLCHT.jpg?v=1761497810",
+        "naturalWidth": 1000,
+        "checkedAt": "2026-08-31",
+        "chromeSourceReviewed": true,
+        "sourceEvidence": "台灣官方SKU920-013578與真實石墨黑variantURL對齊；原生注音Marble線性軸，非額外顏色計數。",
+        "sourcePages": [
+          {
+            "url": "https://store.logitech.tw/products/k98m",
+            "title": "Logitech ALTO KEYS K98M 機械式無線鍵盤 – 羅技 Logi 網路旗艦店",
+            "checkedAt": "2026-08-31",
+            "reviewBasis": "manual_chrome_original_page",
+            "selectedVariant": "石墨黑；920-013578",
+            "priceEvidence": "Chrome 可見頁顯示 920-013578、$2,690，石墨黑單選為 checked，加入購物車按鈕存在。未點擊購買或購物車。",
+            "specEvidence": "展開商品特色：最多三個裝置配對；Type C充電、關閉背光一次可用超過12個月（依實際使用情況）；Gasket雲感緩震；獨家大理石線性軸；軸體與鍵帽可更換。",
+            "imageUrl": "https://store.logitech.tw/cdn/shop/files/Low_Resolution_JPG-ALTOKEYSK98MGraphite3QTRLCHT.jpg?v=1761497810",
+            "imageEvidence": "2026-08-31 Chrome直接開啟商品Zoom連結官方原圖，DOM naturalWidth=1000、naturalHeight=1000，來源真實載入。",
+            "imageNaturalWidth": 1000,
+            "imageVerificationUrl": "https://store.logitech.tw/cdn/shop/files/Low_Resolution_JPG-ALTOKEYSK98MGraphite3QTRLCHT.jpg?v=1761497810"
+          },
+          {
+            "url": "https://www.logitech.com/zh-tw/shop/p/alto-keys-k98m",
+            "title": "Alto Keys K98M – Logitech 台灣",
+            "checkedAt": "2026-08-31",
+            "reviewBasis": "manual_chrome_original_page",
+            "identityEvidence": "原廠規格與相容性面板列石墨灰 中文注音(QWERTY)：920-013578；官方旗艦店按鈕href為https://store.logitech.tw/products/k98m?variant=43052241354775。",
+            "specEvidence": "98鍵；白色背光；3個可自訂功能鍵；可充電，關閉背光長達12個月；最多3裝置；Bluetooth及Logi Bolt USB接收器；Logi Options+限Windows/macOS，自訂功能之外可使用基本功能；1年有限硬體保固。",
+            "dimensionEvidence": "原廠台灣面板明列高度147公釐、寬401公釐、深度39.6公釐；以來源原序保留高／寬／深，不自行交換軸序。",
+            "weightEvidence": "原廠規格面板明列重量1100公克。",
+            "boxContentsEvidence": "包裝內容面板：鍵盤、Logi Bolt USB接收器、USB-C、IID、保固卡（適用於中國）。不將USB-C一詞擴寫為額定供電規格。"
+          }
+        ]
+      },
+      {
+        "id": "keyboard-logitech-k120",
+        "category": "keyboard",
+        "brand": "Logitech",
+        "model": "K120",
+        "name": "K120 USB全尺寸薄膜鍵盤（中文注音）",
+        "buyUrl": "https://store.logitech.tw/products/k120",
+        "price": {
+          "currency": "TWD",
+          "amount": 349,
+          "converted": 349,
+          "basis": "retailer_current",
+          "confidence": "2026-08-31 Chrome人工核對Logi台灣旗艦店SKU920-002584公開349元、正常新品與加入購物車按鈕；未計信用卡或個人化優惠。"
+        },
+        "image": "https://store.logitech.tw/cdn/shop/products/k120-675611.jpg?v=1729179335&width=1220",
+        "naturalWidth": 500,
+        "checkedAt": "2026-08-31",
+        "chromeSourceReviewed": true,
+        "sourceEvidence": "只收台灣584完整中文鍵盤，不是MK120鍵鼠套装，外國SKU規格異常不套用。",
+        "sourcePages": [
+          {
+            "url": "https://store.logitech.tw/products/k120",
+            "title": "Logitech K120 有線鍵盤 – 羅技 Logi 網路旗艦店",
+            "checkedAt": "2026-08-31",
+            "reviewBasis": "manual_chrome_original_page",
+            "priceEvidence": "原頁顯示SKU920-002584、$349、加入購物車按鈕。未加入購物車。",
+            "specEvidence": "展開商品特色：USB即插即用、全尺寸含數字鍵盤、抗磨損鍵帽、靜音鍵位、防水結構。未標明軸機構、額定供電、尺寸、重量或鍵帽材料。",
+            "imageUrl": "https://store.logitech.tw/cdn/shop/products/k120-675611.jpg?v=1729179335&width=1220",
+            "imageEvidence": "原頁DOM的K120主圖currentSrc與naturalWidth=500，已實際載入。",
+            "imageNaturalWidth": 500
+          },
+          {
+            "url": "https://www.logitech.com/en-us/shop/p/k120-usb-standard-computer",
+            "title": "Keyboard K120 – Logitech US",
+            "checkedAt": "2026-08-31",
+            "reviewBasis": "manual_chrome_original_page",
+            "specEvidence": "官方頁規格面板：Height155mm、Width450mm、Depth23.5mm；重量列50g；USB、deep-profile、Windows10/11及之後、3年有限硬體保固。",
+            "exclusionReason": "原頁列美國英文SKU920-002478，與台灣SKU920-002584不同；重量50g亦有明顯異常。未將此尺寸、重量、保固直接套用台灣版，待台灣exact-SKU資料。"
+          },
+          {
+            "url": "https://www.9x9.tw/mod/product/index.php?REQUEST_ID=55a65ce32a0f9d7015e5755b7e11e3b50d7b756b4eec5e024f5b15901041c4fc73e9f32a95f91e9dc19afd84fe08e583",
+            "title": "羅技 USB 有線鍵盤 K120 - 九乘九購物網",
+            "reviewBasis": "manual_web_original_page",
+            "checkedAt": "2026-08-31",
+            "identityEvidence": "原頁SKU920-002584，EAN0978550671042，商品220487456021。",
+            "dimensionEvidence": "商品規格高度155公釐、寬度450公釐、深度23.5公釐，保留原序。",
+            "weightEvidence": "商品規格重量550公克；未稱包裝／外箱或毛重。",
+            "specEvidence": "線長150cm、深凹式按鍵、數字區、防潑水；尺寸以同SKU台灣可信通路補足，未引用US頁50g或混入無線電池資料的支援頁。"
+          },
+          {
+            "url": "https://www.teksource.com.tw/products-detail/羅技-K120-USB有線鍵盤-%2A現貨-i.22922",
+            "title": "創捷 K120 920-002584",
+            "reviewBasis": "manual_web_original_page",
+            "specEvidence": "明示薄膜式、USB1.5m、1年有限硬體保固；詢價不作buyUrl。"
+          },
+          {
+            "url": "https://www.logitechclub.com/products/k120-%E5%85%A8%E5%B0%BA%E5%AF%B8%E9%8D%B5%E7%9B%A4",
+            "title": "Logitechclub K120 全尺寸鍵盤",
+            "reviewBasis": "manual_web_original_page_by_root",
+            "specEvidence": "中文注音920-002584；只核語言，售罄HK69不作現價或史低。"
+          }
+        ]
+      },
+      {
+        "id": "keyboard-logitech-k250",
+        "category": "keyboard",
+        "brand": "Logitech",
+        "model": "920-013497",
+        "name": "K250 藍牙薄膜鍵盤（中文注音，2025款）",
+        "buyUrl": "https://store.logitech.tw/products/k250",
+        "price": {
+          "currency": "TWD",
+          "amount": 799,
+          "converted": 799,
+          "basis": "retailer_current",
+          "confidence": "2026-08-31 Chrome核對官方旗艦店SKU920-013497公開799元、加入購物車按鈕；無使用首購券或點數。"
+        },
+        "image": "https://store.logitech.tw/cdn/shop/files/K250.jpg?v=1761497811",
+        "naturalWidth": 1000,
+        "checkedAt": "2026-08-31",
+        "chromeSourceReviewed": true,
+        "sourceEvidence": "台灣官方497原生中文注音純藍牙款，NCC YR0107與Coupang台灣直售薄膜資料核對；沒有以首購折扣、舊USB款或組合包充數。",
+        "sourcePages": [
+          {
+            "url": "https://store.logitech.tw/products/k250",
+            "title": "Logitech K250 無線鍵盤 – 羅技 Logi 網路旗艦店",
+            "checkedAt": "2026-08-31",
+            "reviewBasis": "manual_chrome_original_page",
+            "priceEvidence": "SKU920-013497，799元，加入購物車可見；未選套組或加購。",
+            "specEvidence": "展開商品特色：純藍牙無需接收器、最長12月、防潑水、7度腳架、Mac键位。 web原頁NCC欄明列型號YR0107、CCAI25LP0150T1，與SKU920-013497同頁。",
+            "imageUrl": "https://store.logitech.tw/cdn/shop/files/K250.jpg?v=1761497811",
+            "imageVerification": "manual_chrome_direct_original_image",
+            "imageNaturalWidth": 1000,
+            "imageEvidence": "Chrome直接開商品Zoom官方圖，1000x1000，naturalWidth=1000。"
+          },
+          {
+            "url": "https://www.tw.coupang.com/products/logitech-%E7%BE%85%E6%8A%80-%E7%84%A1%E7%B7%9A%E8%97%8D%E7%89%99%E9%8D%B5%E7%9B%A4-K250-666425249103963?categoryId=571383&itemId=666425249103964&sourceType=CATEGORY&vendorItemId=666425248989256",
+            "title": "Logitech K250 Wireless 藍牙薄膜式鍵盤 YR0107 – Coupang台灣直售",
+            "reviewBasis": "manual_web_original_page",
+            "checkedAt": "2026-08-31",
+            "identityEvidence": "台灣官方旗艦店同一原頁列SKU920-013497及NCC型號YR0107；Coupang台灣直售YR0107、GTIN00097855204622與English/Traditional Chinese，因此採薄膜機構資料，未沿用2009年同名K250。",
+            "specEvidence": "商品主規格明列Membrane薄膜、有數字區、無背光；只作機構交叉核對，不取首購553促銷價。"
+          },
+          {
+            "url": "https://www.logitech.com/zh-tw/shop/p/k250.920-013497",
+            "title": "K250 藍牙鍵盤 – Logitech 台灣規格與相容性",
+            "checkedAt": "2026-08-31",
+            "reviewBasis": "manual_chrome_original_page",
+            "identityEvidence": "石墨灰 中文注音QWERTY K250，零件編號920-013497；官方連往旗艦店variant42313248473111。",
+            "specEvidence": "高136.9寬369.9深22.8mm、380g；含數字區精簡配置、7度腳架、BLE10m、2AAA隨附、12月依使用、1年有限硬體保固；Win10/11/macOS12/ChromeOS/Linux/iPadOS15/iOS15/Android12或更新。",
+            "dimension": "尺寸：高 136.9 x 寬 369.9 x 深 22.8 mm",
+            "weight": "重量：380 g（含電池）",
+            "weightNote": "台灣面板380g；官方YR0107支援表明380g為含電池、355g不含電池。",
+            "boxContentsEvidence": "Chrome包裝內容：鍵盤含2AAA預裝、使用者文件，快速指南印於包裝。"
+          },
+          {
+            "url": "https://support.logi.com/hc/en-150/articles/30221100986775-Specification-K250",
+            "title": "Specification K250 – Logitech Support",
+            "checkedAt": "2026-08-31",
+            "reviewBasis": "manual_web_original_page",
+            "specEvidence": "官方YR0107尺寸、380g含電池/355g不含電池與2AAA；台灣497原頁NCC映射確認，只採相符欄位。"
+          }
+        ],
+        "historicalSourceReviewed": true,
+        "historicalSourceUrl": "https://biggo.com.tw/s/Logitech%20K250",
+        "historicalSourceCheckedAt": "2026-08-31",
+        "historicalSourceEvidence": "keyboard-launch-history-notes.md第34–35行：Chrome東森價格歷史759／799及原通路7935840藍牙石墨黑新品；保留未直接列SKU的映射限制。"
+      },
+      {
+        "id": "keyboard-logitech-k380s",
+        "category": "keyboard",
+        "brand": "Logitech",
+        "model": "K380S",
+        "name": "Pebble K380S 跨平台剪刀腳鍵盤（石墨灰中文注音）",
+        "buyUrl": "https://store.logitech.tw/products/k380s",
+        "price": {
+          "currency": "TWD",
+          "amount": 990,
+          "converted": 990,
+          "basis": "retailer_current",
+          "confidence": "2026-08-31 Chrome原頁選石墨灰920-011745，公開990元、加入購物車可見。"
+        },
+        "image": "https://store.logitech.tw/cdn/shop/products/pebble-k380s-841620.jpg?v=1761497815",
+        "naturalWidth": 1000,
+        "checkedAt": "2026-08-31",
+        "chromeSourceReviewed": true,
+        "sourceEvidence": "台灣745石墨灰原生中文注音；尺寸採品牌台灣SKU，重量與剪刀腳以Y-R0091支援表相符欄位；旗艦店24月與支援頁>50月矛盾不採，官方台灣面板36月作準。",
+        "sourcePages": [
+          {
+            "url": "https://store.logitech.tw/products/k380s",
+            "title": "Logitech Pebble K380S 跨平台藍牙鍵盤 – 羅技 Logi 網路旗艦店",
+            "checkedAt": "2026-08-31",
+            "reviewBasis": "manual_chrome_original_page",
+            "priceEvidence": "920-011745／石墨灰checked，990元原1090，可加入購物車，未加購。",
+            "specEvidence": "展開商品特色：Windows/macOS/iOS/Android、Bluetooth、多設備切換、頁稱24個月電池（須與官方規格交叉核對K380S而非舊K380）。",
+            "imageUrl": "https://store.logitech.tw/cdn/shop/products/pebble-k380s-841620.jpg?v=1761497815",
+            "imageVerification": "manual_chrome_direct_original_image",
+            "imageNaturalWidth": 1000,
+            "imageEvidence": "Chrome直接開商品Zoom官方圖，1000x1000，naturalWidth=1000。"
+          },
+          {
+            "url": "https://www.logitech.com/zh-tw/shop/p/pebble-keys-2.920-011745",
+            "title": "Pebble K380S 跨平台藍牙鍵盤 | Logitech 台灣",
+            "reviewBasis": "manual_chrome_original_page",
+            "checkedAt": "2026-08-31",
+            "identityEvidence": "石墨灰中文注音(QWERTY)920-011745；購買連結官方店真實variant40721802330135。",
+            "specEvidence": "規格面板明確3裝置、Logi Options+ Windows/macOS、2AAA鹼性電池、36月依使用條件、藍牙低耗電，Bolt接收器相容但未隨附；Windows10/11+、macOS11+、iPadOS/iOS14+、Android9+、ChromeOS/Linux基本功能。1年有限硬體保固。",
+            "dimensionEvidence": "原序高度124、寬279、深度16公釐。",
+            "weightEvidence": "本體重量415公克；本頁未附含電池字樣，先保留原文。",
+            "boxContentsEvidence": "包裝面板：鍵盤、已預裝2AAA鹼性電池、使用者文件、IID；沒有Bolt接收器。",
+            "conflictResolution": "旗艦店商品特色寫24月，採exact-SKU品牌官方規格面板明示36月，並保留差異；不把頁面其他區塊Pebble 2 Combo for Mac文案視為本SKU的套裝。"
+          },
+          {
+            "url": "https://support.logi.com/hc/en-au/articles/16170852473751-Specification-Pebble-Keys-2-K380s",
+            "title": "Specification - Pebble Keys 2 K380s – Logitech Support",
+            "reviewBasis": "manual_web_original_page",
+            "checkedAt": "2026-08-31",
+            "specEvidence": "Y-R0091、Scissor Keyboard、總行程1.5±0.3mm、60±10gf；415g含電池。",
+            "conflictResolution": "支援頁續航>50月與電池不可更換同已核台灣官方36月／2AAA矛盾，不採用該頁電池列；尺寸僅台灣exact-SKU官方面板。"
+          }
+        ],
+        "historicalSourceReviewed": true,
+        "historicalSourceUrl": "https://biggo.com.tw/s/Logitech%20K380s",
+        "historicalSourceCheckedAt": "2026-08-31",
+        "historicalSourceEvidence": "keyboard-launch-history-notes.md第44行：Chrome PChome石墨灰價格歷史2025-08-31 21:32=990與DCBE2G-A900GZG05新品中文原頁；保留只有區間邊界一點、未直接列745的限制。"
+      },
+      {
+        "id": "keyboard-logitech-k580",
+        "category": "keyboard",
+        "brand": "Logitech",
+        "model": "K580",
+        "name": "K580 超薄跨平台剪刀腳鍵盤（石墨灰中文）",
+        "buyUrl": "https://store.logitech.tw/products/k580",
+        "price": {
+          "currency": "TWD",
+          "amount": 1090,
+          "converted": 1090,
+          "basis": "retailer_current",
+          "confidence": "2026-08-31 Chrome旗艦店原頁選920-009212黑色，公開1090元，可加入購物車。"
+        },
+        "image": "https://store.logitech.tw/cdn/shop/products/k580-874993.jpg?v=1761497820",
+        "naturalWidth": 1000,
+        "checkedAt": "2026-08-31",
+        "chromeSourceReviewed": true,
+        "sourceEvidence": "台灣212現價及圖Chrome已核，兩裝置24月；本體規格採明示同SKU可信通路，排除同名ChromeOS版衝突。",
+        "sourcePages": [
+          {
+            "url": "https://store.logitech.tw/products/k580",
+            "title": "Logitech K580 超薄跨平台藍牙鍵盤 – 羅技 Logi 網路旗艦店",
+            "checkedAt": "2026-08-31",
+            "reviewBasis": "manual_chrome_original_page",
+            "priceEvidence": "920-009212／黑checked，1090元原1290，可加入購物車，未加購。",
+            "specEvidence": "展開商品特色：2設備配對、Bluetooth、Windows/macOS/iOS/Android、電池長達2年；不可混ChromeOS版3設備規格。",
+            "imageUrl": "https://store.logitech.tw/cdn/shop/products/k580-874993.jpg?v=1761497820",
+            "imageVerification": "manual_chrome_direct_original_image",
+            "imageNaturalWidth": 1000,
+            "imageEvidence": "Chrome直接開商品Zoom官方圖，1000x1000，naturalWidth=1000。"
+          },
+          {
+            "url": "https://support.logi.com/hc/zh-tw/articles/360042909814-K580-%E6%8A%80%E8%A1%93%E8%A6%8F%E6%A0%BC",
+            "title": "K580 技術規格 – Logitech 支援",
+            "reviewBasis": "manual_web_original_page",
+            "checkedAt": "2026-08-31",
+            "specEvidence": "同名產品官方明示剪刀腳主鍵區+數字區、1.8mm行程、ABS/聚酯薄膜（未說特指鍵帽）；USB回報50Hz(20ms)為接收器模式。",
+            "conflictResolution": "頁列36月與台灣購買頁24月不同，且尺寸高寬與台灣通路相反、接收器表同時稱Unifying及非Unifying；不採36月與爭議欄位，待台灣exact-SKU交叉核對。"
+          },
+          {
+            "url": "https://www.yohohongkong.com/en-us/product/35598-%E7%BE%85%E6%8A%80-Logitech-K580-Slim-%E5%A4%9A%E5%B7%A5%E8%97%8D%E7%89%99%E9%8D%B5%E7%9B%A4-%E4%B8%AD%E6%96%87%E7%89%88-%E9%BB%91%E8%89%B2-920-009213-%E9%A6%99%E6%B8%AF%E8%A1%8C%E8%B2%A8",
+            "title": "YOHO K580 920-009212 Black Chinese",
+            "reviewBasis": "manual_web_original_page",
+            "checkedAt": "2026-08-31",
+            "identityEvidence": "現頁標題與PN212；slug殘留213不作身分依據。",
+            "specEvidence": "2装置、Unifying與BLE、2AAA24月；規格明示鍵盤高143.9寬373.5深21.3mm及含電池558g；包裝鍵盤、預装2AAA、Unifying接收器。台灣保固另以台灣頁為準。"
+          }
+        ],
+        "historicalSourceReviewed": true,
+        "historicalSourceUrl": "https://biggo.com.tw/s/Logitech%20K580",
+        "historicalSourceCheckedAt": "2026-08-31",
+        "historicalSourceEvidence": "keyboard-launch-history-notes.md第53–54行：Chrome momo石墨灰13143970最近一年1090–1290，2026-05-04與06-01均1090；已讀新品頁，保留未直接列212的映射限制。"
+      },
+      {
+        "id": "keyboard-logitech-pop-icon-keys",
+        "category": "keyboard",
+        "brand": "Logitech",
+        "model": "POP ICON KEYS",
+        "name": "POP ICON KEYS 剪刀腳鍵盤（潮玩黑中文注音）",
+        "buyUrl": "https://store.logitech.tw/products/popiconkeys",
+        "price": {
+          "currency": "TWD",
+          "amount": 1290,
+          "converted": 1290,
+          "basis": "retailer_current",
+          "confidence": "2026-08-31 Chrome旗艦店原頁選920-013091潮玩黑，公開1290元，可加入購物車。"
+        },
+        "image": "https://store.logitech.tw/cdn/shop/files/POPIconKeysGraphiteGreenFOBCHT.jpg?v=1761497811",
+        "naturalWidth": 1000,
+        "checkedAt": "2026-08-31",
+        "chromeSourceReviewed": true,
+        "sourceEvidence": "台灣091原生中文注音；尺寸重量取官方台灣頁，機構取同名Y-R0101支援表。英文US優惠不套繁中價格。",
+        "sourcePages": [
+          {
+            "url": "https://store.logitech.tw/products/popiconkeys",
+            "title": "Logitech POP ICON KEYS 無線藍牙鍵盤 – 羅技 Logi 網路旗艦店",
+            "checkedAt": "2026-08-31",
+            "reviewBasis": "manual_chrome_original_page",
+            "priceEvidence": "920-013091／潮玩黑checked，1290元原1990，可加入購物車，未加購。",
+            "imageUrl": "https://store.logitech.tw/cdn/shop/files/POPIconKeysGraphiteGreenFOBCHT.jpg?v=1761497811",
+            "imageVerification": "manual_chrome_direct_original_image",
+            "specEvidence": "展開商品特色：鍵盤有注音標示、無單純英文版；相容Bolt但接收器需另購；Easy-Switch多裝置；Windows/macOS/iPadOS/iOS/Android；2個AAA電池隨附；相容Flow滑鼠。",
+            "imageNaturalWidth": 1000,
+            "imageEvidence": "Chrome直接開商品Zoom官方圖，1000x1000，naturalWidth=1000。"
+          },
+          {
+            "url": "https://www.logitech.com/zh-tw/shop/p/pop-icon-keys",
+            "title": "POP Icon Keys藍牙鍵盤 | 羅技",
+            "reviewBasis": "manual_web_original_page",
+            "checkedAt": "2026-08-31",
+            "identityEvidence": "原頁台灣SKU表石墨灰與綠 中文注音920-013091。",
+            "specEvidence": "最多3裝置、4自訂Action Keys、Options+Win/mac、2AAA最長36月；1年有限硬體保固。",
+            "dimensionEvidence": "原頁高度136.96、寬度324.51、深度22mm。",
+            "weightEvidence": "重量含電池530g。",
+            "boxContentsEvidence": "鍵盤、已安裝2AAA、使用者文件、貼紙；日本保固卡不推定台灣隨附。"
+          },
+          {
+            "url": "https://support.logi.com/hc/en-ca/articles/24839020168087-Specification-POP-Icon-Keys",
+            "title": "Specification - POP Icon Keys – Logitech Support",
+            "reviewBasis": "manual_web_original_page",
+            "checkedAt": "2026-08-31",
+            "specEvidence": "官方同名產品規格明示Y-R0101、Scissor Keyboard、60±10gf、1.8±0.3mm總行程、2AAA不可充電。僅用於機構；尺寸與台灣版SKU以台灣官方產品頁為準，無另收語言版。"
+          }
+        ],
+        "historicalSourceReviewed": true,
+        "historicalSourceUrl": "https://biggo.com.tw/s/POP%20ICON%20KEYS",
+        "historicalSourceCheckedAt": "2026-08-31",
+        "historicalSourceEvidence": "keyboard-launch-history-notes.md第62行：Chrome博客來N001843563潮玩黑繁中90天歷史，2026-06-30=1290及06-02=1990，原頁新品可售；英文US Coupang882已排除。"
+      },
+      {
+        "id": "keyboard-razer-huntsman-v3-pro-tkl",
+        "category": "keyboard",
+        "brand": "Razer",
+        "model": "RZ03-04981500-R3T1",
+        "name": "Huntsman V3 Pro Tenkeyless 第二代類比光軸鍵盤（中文黑色，非8K）",
+        "buyUrl": "https://24h.pchome.com.tw/prod/DCBF02-A900GQNOQ",
+        "price": {
+          "currency": "TWD",
+          "amount": 5190,
+          "converted": 5190,
+          "basis": "retailer_current",
+          "confidence": "2026-08-31 Chrome核對PChome中文黑色非8K成品5190元，原8490刪線；未扣下單折200、會員回饋。"
+        },
+        "image": "https://img.pchome.com.tw/cs/items/DCBF02A900GQNOQ/000001_1762272212.jpg",
+        "naturalWidth": 640,
+        "checkedAt": "2026-08-31",
+        "chromeSourceReviewed": true,
+        "sourceEvidence": "只一款中文非8K；4位Reddit軟體案例未達跨站六位。保固官方键盘2年，沒有承諾本地無條件換新。",
+        "sourcePages": [
+          {
+            "url": "https://24h.pchome.com.tw/prod/DCBF02-A900GQNOQ",
+            "title": "PChome Razer Huntsman V3 Pro Tenkeyless中文黑",
+            "checkedAt": "2026-08-31",
+            "reviewBasis": "manual_chrome_original_page",
+            "priceEvidence": "根代理Chrome核對中文黑色非8K、5190元、PChome倉庫可售；不扣另列200。",
+            "specEvidence": "台灣中文完整光軸TKL而非Mini/全尺寸；RZ03-04981500-R3T1由原價屋報價映射。",
+            "imageUrl": "https://img.pchome.com.tw/cs/items/DCBF02A900GQNOQ/000001_1762272212.jpg",
+            "imageNaturalWidth": 640,
+            "imageEvidence": "原商品主圖currentSrc與naturalWidth640；不是YouTube縮圖。"
+          },
+          {
+            "url": "https://mysupport.razer.com/app/answers/detail/a_id/13672/kw/deathadder%20v3%20pro",
+            "title": "Razer RZ03-0498官方規格與保固",
+            "checkedAt": "2026-08-31",
+            "reviewBasis": "manual_web_original_page",
+            "specEvidence": "AnalogOpticalGen2、PBT、1000Hz、Synapse4、0.1–4.0mm、可拆USB-C、磁吸護腕墊；完整SKU對應TKL機種。",
+            "dimensionEvidence": "不含護腕363x139x39、含護腕363x224x39mm，L/W/H明列。",
+            "weightEvidence": "不含719.5g、含護腕933g。"
+          }
+        ],
+        "historicalSourceReviewed": true,
+        "historicalSourceUrl": "https://www.coolpc.com.tw/tw/shop/misc/razer-gamingall-251106/",
+        "historicalSourceCheckedAt": "2026-08-31",
+        "historicalSourceEvidence": "原價屋2025-11-06公告列RZ03-04981500-R3T1、Huntsman V3 Pro Tenkeyless中文光軸8490降5211，活動10/24–11/16／售完止，原價屋全通路；Chrome原頁已核。"
+      },
+      {
+        "id": "keyboard-keychron-v6-max",
+        "category": "keyboard",
+        "brand": "Keychron",
+        "model": "KBKCV6MR1",
+        "name": "V6 Max QMK/VIA 全尺寸三模機械鍵盤（復古注音木星紅軸）",
+        "buyUrl": "https://www.keychron.com.tw/products/keychron-v6-max-qmk-via-wireless-custom-mechanical-keyboard?variant=46398770544899",
+        "price": {
+          "currency": "TWD",
+          "amount": 2990,
+          "converted": 2990,
+          "basis": "retailer_current",
+          "confidence": "2026-08-31 Chrome核對台灣官方復古注音木星紅軸KBKCV6MR1、2990元及可加入購物車；真實variant網址可還原，不採靜音紅或茶軸圖片。"
+        },
+        "image": "https://www.keychron.com.tw/cdn/shop/files/V6MR1.jpg?v=1748841113&width=1214",
+        "naturalWidth": 800,
+        "checkedAt": "2026-08-31",
+        "chromeSourceReviewed": true,
+        "sourceEvidence": "SKU、圖片及真實variant綁同一木星紅版本；尺寸只揭露已標注的不含鍵帽機殼，不自行加腳墊或鍵帽高度。",
+        "sourcePages": [
+          {
+            "url": "https://www.keychron.com.tw/products/keychron-v6-max-qmk-via-wireless-custom-mechanical-keyboard?variant=46398770544899",
+            "title": "Keychron Taiwan V6 Max復古注音木星紅",
+            "checkedAt": "2026-08-31",
+            "reviewBasis": "manual_chrome_original_page",
+            "priceEvidence": "根代理Chrome由茶軸切紅軸取得variant46398770544899可還原；SKU KBKCV6MR1、2990元與加入購物車。",
+            "specEvidence": "100%完整成品、原生注音、木星紅；非裸套／靜音紅／茶軸。",
+            "imageUrl": "https://www.keychron.com.tw/cdn/shop/files/V6MR1.jpg?v=1748841113&width=1214",
+            "imageNaturalWidth": 800,
+            "imageEvidence": "V6MR1圖實際載入naturalWidth800，未採V6MR3茶軸圖。"
+          },
+          {
+            "url": "https://www.keychron.com.tw/products/keychron-v6-max-qmk-via-wireless-custom-mechanical-keyboard",
+            "title": "V6 Max官方規格與完整成品說明",
+            "checkedAt": "2026-08-31",
+            "reviewBasis": "manual_web_original_page",
+            "specEvidence": "ABS/PC/Gasket、PBT、3/5pinMX、BT5.1三裝置、有線2.4G1000Hz/Bluetooth90Hz；4000mAh關燈225h低RGB100h，未列額定USB電力。",
+            "dimensionEvidence": "447.9長149寬、前23.6後32.5mm不含鍵帽；整機含鍵帽高度查不到。",
+            "weightEvidence": "完全組裝版1110±10g。"
+          },
+          {
+            "url": "https://www.keychron.com.tw/pages/warranty",
+            "title": "Keychron Taiwan保固",
+            "checkedAt": "2026-08-31",
+            "reviewBasis": "manual_web_original_page",
+            "specEvidence": "一年/12個月；V系列製造缺陷通常更換故障零件，非授權拆改不保。"
+          }
+        ]
+      },
+      {
+        "id": "keyboard-hyperx-alloy-rise-75",
+        "category": "keyboard",
+        "brand": "HyperX",
+        "model": "7G7A4AA#ABA",
+        "name": "Alloy Rise 75 有線機械鍵盤（英文 HyperX紅軸）",
+        "buyUrl": "https://www.qek888.com/products/hpx018",
+        "price": {
+          "currency": "TWD",
+          "amount": 2790,
+          "converted": 2790,
+          "basis": "retailer_current",
+          "confidence": "2026-08-31 根代理Chrome重開Q哥網址核對預設英文7G7A4AA#ABA完整成品2790元；中文切換不能由URL還原，因此只收此英文版本。"
+        },
+        "image": "https://shoplineimg.com/55c37526e37ec6fc5d000002/6672731bd47f6dae77ea0094/800x.webp?source_format=jpg",
+        "naturalWidth": 800,
+        "checkedAt": "2026-08-31",
+        "chromeSourceReviewed": true,
+        "sourceEvidence": "只收可還原的英文ABA；不套中文AB0上市日或無線版續航。含線943g是已明示使用組件重，非包裝毛重。",
+        "sourcePages": [
+          {
+            "url": "https://www.qek888.com/products/hpx018",
+            "title": "Q哥HyperX Alloy Rise75",
+            "checkedAt": "2026-08-31",
+            "reviewBasis": "manual_chrome_original_page",
+            "priceEvidence": "根代理Chrome重開本網址預設英文ABA2790，公司貨2年；中文選項無URL還原，只收英文。",
+            "specEvidence": "英文75%有線HyperX紅軸完整成品，汎雲公司資訊與實體店可核。",
+            "imageUrl": "https://shoplineimg.com/55c37526e37ec6fc5d000002/6672731bd47f6dae77ea0094/800x.webp?source_format=jpg",
+            "imageNaturalWidth": 800,
+            "imageEvidence": "根代理Chrome原商品主圖naturalWidth800。"
+          },
+          {
+            "url": "https://hyperx.com/products/hyperx-alloy-rise-75-mechanical-gaming-keyboard",
+            "title": "HyperX US Alloy Rise75",
+            "checkedAt": "2026-08-31",
+            "reviewBasis": "manual_web_original_page",
+            "specEvidence": "7G7A4AA#ABA US English，PBT/HyperX線性紅軸/8K/Gasket/10profiles/PCPSXbox，附USB線拔鍵拔軸器。",
+            "dimensionEvidence": "Width330.8Depth142.2Height48.9mm。"
+          },
+          {
+            "url": "https://www.hp.com/za-en/products/accessories/product-details/product-specifications/2101619002",
+            "title": "HP官方Alloy Rise75規格",
+            "checkedAt": "2026-08-31",
+            "reviewBasis": "manual_web_original_page",
+            "weightEvidence": "with cable943g，未單列裸鍵盤；保留含線標示。"
+          }
+        ]
+      },
+      {
+        "id": "keyboard-ducky-tinker-75",
+        "category": "keyboard",
+        "brand": "Ducky",
+        "model": "PKTI2383AST-CPTWPDOECLAAW1",
+        "name": "ProjectD Tinker75 經典黑機械鍵盤（中文 Cherry銀軸）",
+        "buyUrl": "https://www.tw.coupang.com/products/Ducky-ProjectD-Tinker-75%25-%E7%B6%93%E5%85%B8%E9%BB%91-%E5%AE%A2%E8%A3%BD%E5%8C%96%E6%A9%9F%E6%A2%B0%E5%BC%8F%E9%8D%B5%E7%9B%A4-RGB-%E7%86%B1%E6%8F%92%E6%8B%94-Cherry-%E9%8A%80%E8%BB%B8-%E4%B8%AD%E6%96%87-502360094769153",
+        "price": {
+          "currency": "TWD",
+          "amount": 3690,
+          "converted": 3690,
+          "basis": "retailer_current",
+          "confidence": "2026-08-31 根代理Chrome確認銀軸中文獨立SKU可售。採頁面未折3690；先前3321九折及另頁3490首購價無法跨狀態還原為通用優惠，不採銀行/會員回饋。"
+        },
+        "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/492x492ex/image/retail/images/366051495817619-f43c9a51-867a-4f86-b890-f6382efcf810.jpg",
+        "naturalWidth": 492,
+        "checkedAt": "2026-08-31",
+        "chromeSourceReviewed": true,
+        "sourceEvidence": "商品身份與主圖可核；未折基準3690，折價条件差异已揭露；保固與尺寸重量不跨版本補數。",
+        "sourcePages": [
+          {
+            "url": "https://www.tw.coupang.com/products/Ducky-ProjectD-Tinker-75%25-%E7%B6%93%E5%85%B8%E9%BB%91-%E5%AE%A2%E8%A3%BD%E5%8C%96%E6%A9%9F%E6%A2%B0%E5%BC%8F%E9%8D%B5%E7%9B%A4-RGB-%E7%86%B1%E6%8F%92%E6%8B%94-Cherry-%E9%8A%80%E8%BB%B8-%E4%B8%AD%E6%96%87-502360094769153",
+            "title": "酷澎Ducky Tinker75銀軸中文",
+            "checkedAt": "2026-08-31",
+            "reviewBasis": "manual_chrome_original_page",
+            "priceEvidence": "根代理Chrome確認銀軸PKTI2383AST-CPTWPDOECLAAW1／GTIN04711394392492及可購；採未折3690，3321限時9折不能跨狀態還原且另有首購價，均不套。",
+            "specEvidence": "完整成品、Cherry銀軸與中文；非預設缺貨紅軸、裸套或單買軸體。",
+            "imageUrl": "https://thumbnail.coupangcdn.com/thumbnails/remote/492x492ex/image/retail/images/366051495817619-f43c9a51-867a-4f86-b890-f6382efcf810.jpg",
+            "imageNaturalWidth": 492,
+            "imageEvidence": "根代理Chrome主圖naturalWidth492。"
+          },
+          {
+            "url": "https://cdn.shopify.com/s/files/1/0728/4382/1295/files/ProjectD_Tinker_75_usermanual_20231031.pdf?v=1761534964",
+            "title": "Ducky官方Tinker75手冊",
+            "checkedAt": "2026-08-31",
+            "reviewBasis": "manual_web_original_page",
+            "specEvidence": "Gasket/機械熱插拔/QMKVIA/TypeC。鍵帽材質/印刷依區域不同，標準一年保固限官方供應商，不能承諾本通路。",
+            "dimensionEvidence": "三軸未標序且與通路不一致，不採。",
+            "weightEvidence": "590g與同父通路802g衝突，未對應本銀SKU不採。"
+          }
+        ]
+      },
+      {
+        "id": "keyboard-steelseries-apex-pro-tkl-gen3",
+        "category": "keyboard",
+        "brand": "SteelSeries",
+        "model": "64740",
+        "name": "Apex Pro TKL Gen 3 有線磁軸鍵盤（黑色英文）",
+        "buyUrl": "https://www.pcparty.com.tw/products/steelseries-apex-pro-tkl-gen-3-gaming-keyboard",
+        "price": {
+          "currency": "TWD",
+          "amount": 6690,
+          "converted": 6690,
+          "basis": "retailer_current",
+          "confidence": "2026-08-31 根代理Chrome重開PCParty核黑色英文64740，8/1–8/31公開促銷6690；限時價格，逾期以通路結帳前為準。"
+        },
+        "image": "https://shoplineimg.com/58463ef36170691735790100/6708c69b2298b273d806157e/800x.webp?source_format=png",
+        "naturalWidth": 800,
+        "checkedAt": "2026-08-31",
+        "chromeSourceReviewed": true,
+        "sourceEvidence": "現价為8/31截至活動；型號与尺寸來自選定TKL，不跨Wireless。",
+        "sourcePages": [
+          {
+            "url": "https://www.pcparty.com.tw/products/steelseries-apex-pro-tkl-gen-3-gaming-keyboard",
+            "title": "PCParty Apex Pro TKL Gen3 64740",
+            "checkedAt": "2026-08-31",
+            "reviewBasis": "manual_chrome_original_page",
+            "priceEvidence": "2026-08-31 根代理Chrome重開PCParty核黑色英文64740，8/1–8/31公開促銷6690；限時價格，逾期以通路結帳前為準。",
+            "specEvidence": "根代理核型號64740、黑英文、有線、OmniPoint3與1年保固。",
+            "imageUrl": "https://shoplineimg.com/58463ef36170691735790100/6708c69b2298b273d806157e/800x.webp?source_format=png",
+            "imageNaturalWidth": 800,
+            "imageEvidence": "根代理Chrome完整商品主圖naturalWidth800。"
+          },
+          {
+            "url": "https://steelseries.com/gaming-keyboards/apex-pro-gen-3?color=black&connectivityType=wired&keyboardLanguage=english&keyboardSize=tkl",
+            "title": "SteelSeries官方黑英文有線TKL",
+            "checkedAt": "2026-08-31",
+            "reviewBasis": "manual_chrome_original_page",
+            "specEvidence": "本代理Chrome展開Technical/Design/BoxContent；0.1–4.0mm、45g、5profile、W355D129H42、974g；附CtoA編織線/拔鍵器/延長轉接/腕托。0.7ms是ResponseTime，不推回報率。"
+          }
+        ]
+      },
+      {
+        "id": "keyboard-asus-rog-azoth-extreme",
+        "category": "keyboard",
+        "brand": "ASUS",
+        "model": "90MP03MA-BKTA01",
+        "name": "ROG Azoth Extreme 三模機械鍵盤（中文PBT NX雪軸）",
+        "buyUrl": "https://24h.pchome.com.tw/prod/DCAHH2-A900HOOKK",
+        "price": {
+          "currency": "TWD",
+          "amount": 16490,
+          "converted": 16490,
+          "basis": "retailer_current",
+          "confidence": "2026-08-31 根代理Chrome核PChome雪軸中文單品16490；不自扣滿額200，贈Sheath桌墊不當第二個型號或優惠史低。"
+        },
+        "image": "https://img.pchome.com.tw/cs/items/DCAHH2A900HOOKK/000001_1780889092.png",
+        "naturalWidth": 1000,
+        "checkedAt": "2026-08-31",
+        "chromeSourceReviewed": true,
+        "sourceEvidence": "台灣雪軸SKU由3CTown90MP03MA-BKTA01与PChome所選版本交叉核；尺寸未知與含腕托邊界明示。",
+        "sourcePages": [
+          {
+            "url": "https://24h.pchome.com.tw/prod/DCAHH2-A900HOOKK",
+            "title": "PChome Azoth Extreme雪中文",
+            "checkedAt": "2026-08-31",
+            "reviewBasis": "manual_chrome_original_page",
+            "priceEvidence": "2026-08-31 根代理Chrome核PChome雪軸中文單品16490；不自扣滿額200，贈Sheath桌墊不當第二個型號或優惠史低。",
+            "specEvidence": "根代理Chrome選定雪軸中文完整單品，不是20週年或額外加價桌墊組。",
+            "imageUrl": "https://img.pchome.com.tw/cs/items/DCAHH2A900HOOKK/000001_1780889092.png",
+            "imageNaturalWidth": 1000,
+            "imageEvidence": "根代理Chrome主圖naturalWidth1000；排除同頁YouTube縮圖。"
+          },
+          {
+            "url": "https://rog.asus.com/keyboards/keyboards/pbt-keycaps/rog-azoth-extreme/",
+            "title": "ASUS ROG Azoth Extreme官方產品",
+            "checkedAt": "2026-08-31",
+            "reviewBasis": "manual_web_original_page",
+            "specEvidence": "三模、8K需Booster、關RGB及OLED2.4逾1600h、預潤NXSnow/Storm；所選SKU台灣零售映射Snow/PBT。"
+          },
+          {
+            "url": "https://rog.asus.com/keyboards/keyboards/pbt-keycaps/rog-azoth-extreme/spec/",
+            "title": "ASUS官方規格與配件",
+            "checkedAt": "2026-08-31",
+            "reviewBasis": "manual_web_original_page",
+            "specEvidence": "Win11/Mac10.11、2m線、5.1BT、含腕托2200g、33213940未標序；附Booster/腳架/腕托/2備軸等。"
+          }
+        ]
+      },
+      {
+        "id": "keyboard-keychron-b1-pro",
+        "category": "keyboard",
+        "brand": "Keychron",
+        "model": "KBKCB1PK1",
+        "name": "B1 Pro 75% 薄型三模鍵盤（深空灰中文注音）",
+        "buyUrl": "https://www.keychron.com.tw/products/keychron-b1-pro-ultra-slim-wireless-keyboard",
+        "price": {
+          "currency": "TWD",
+          "amount": 1290,
+          "converted": 1290,
+          "basis": "retailer_current",
+          "confidence": "2026-08-31根代理Chrome核對注音深空灰KBKCB1PK1現價1290與可加入購物車；頁尾988其他版本最低價不採。"
+        },
+        "image": "https://www.keychron.com.tw/cdn/shop/files/B1PK1.jpg?v=1733471480&width=1214",
+        "naturalWidth": 800,
+        "checkedAt": "2026-08-31",
+        "chromeSourceReviewed": true,
+        "sourceEvidence": "canonical SKU跨兩站未出exact-SKU候選，擴大B1 Pro別名找到大量原始回報，逐頁覆核。官方firmware頁要求核對VID/PID且ANSI有0711/071a/0714三組目標；無法把回報者的PID/批次與現售KBKCB1PK1對齊，不跨硬體版本合計為集中災情；並非因顏色或語言不同一概排除。產品cons務必保留快速複鍵漏字風險、下單前確認版本，不能宣稱沒負評。",
+        "sourcePages": [
+          {
+            "url": "https://www.keychron.com.tw/products/keychron-b1-pro-ultra-slim-wireless-keyboard",
+            "title": "Keychron B1 Pro 台灣官方深空灰注音",
+            "checkedAt": "2026-08-31",
+            "reviewBasis": "manual_chrome_original_page",
+            "priceEvidence": "Chrome實際初始選中注音版本/深空灰、KBKCB1PK1，顯示1290且加入購物車可用；頁尾988是未還原的其他版本最低價，不採。未加入購物車。",
+            "specEvidence": "77鍵/75% ANSI；ABS機殼與鍵帽；無背光；2.4GHz及USB-C有線1000Hz、Bluetooth5.2為90Hz；800mAh鋰聚合物電池、約2.5小時充電、官方實驗條件最長1200小時/每天5小時約8月；macOS/Windows/Linux；Launcher改鍵，軟體功能依硬體版本確認。",
+            "dimensionEvidence": "台灣官方列296 x 130 mm但未標兩軸順序，不自行判為長寬；另明列正面高5.2/後部高14.5mm可保留在人體工學規格。",
+            "weightEvidence": "重量：425 g",
+            "imageUrl": "https://www.keychron.com.tw/cdn/shop/files/B1PK1.jpg?v=1733471480&width=1214",
+            "imageNaturalWidth": 800,
+            "imageEvidence": "根代理Chrome核對主圖原生注音及naturalWidth800"
+          },
+          {
+            "url": "https://www.keychron.com/collections/keychron-b-pro-series",
+            "title": "Keychron B Pro series official scissor mechanism",
+            "checkedAt": "2026-08-31",
+            "reviewBasis": "manual_parent_original_page",
+            "specEvidence": "B Pro系列剪刀腳；不當作MX機械熱插拔"
+          },
+          {
+            "url": "https://www.keychron.com.tw/pages/warranty",
+            "title": "Keychron Taiwan保固",
+            "checkedAt": "2026-08-31",
+            "reviewBasis": "manual_parent_original_page",
+            "specEvidence": "台灣官方1年；鍵帽及手托等易磨損品3個月，保留購買證明，非工廠改裝/誤用除外。"
+          }
+        ]
+      },
+      {
+        "id": "keyboard-razer-ornata-v3-x",
+        "category": "keyboard",
+        "brand": "Razer",
+        "model": "RZ03-04471600-R3T1",
+        "name": "Ornata V3 X 薄膜電競鍵盤（中文黑色）",
+        "buyUrl": "https://www.3ctown.com.tw/product_show.php?product_code=0000000090637",
+        "price": {
+          "currency": "TWD",
+          "amount": 1215,
+          "converted": 1215,
+          "basis": "retailer_current",
+          "confidence": "2026-08-31根代理Chrome核對名人電腦RZ03-04471600-R3T1中文現價1215元、可立即購買，未下單。"
+        },
+        "image": "https://www.3ctown.com.tw/pimages/pic/04/04/040471801056y.jpg",
+        "naturalWidth": 250,
+        "checkedAt": "2026-08-31",
+        "chromeSourceReviewed": true,
+        "sourceEvidence": "保守不宣稱完整防鬼鍵；通路PVC／機械薄膜誤植優先依官方。尺寸／重量來源矛盾保留查不到。",
+        "sourcePages": [
+          {
+            "url": "https://www.3ctown.com.tw/product_show.php?product_code=0000000090637",
+            "title": "名人電腦 Ornata V3 X中文",
+            "checkedAt": "2026-08-31",
+            "reviewBasis": "manual_chrome_original_page",
+            "priceEvidence": "Chrome原頁型號RZ03-04471600-R3T1中文，售價1215，數量1與立即購買可用；名人電腦股份有限公司具實體新竹門市及台灣售後。未購買。",
+            "specEvidence": "中文、黑色、全尺寸、靜音薄膜完整鍵盤，非Ornata V3混合軸",
+            "imageUrl": "https://www.3ctown.com.tw/pimages/pic/04/04/040471801056y.jpg",
+            "imageNaturalWidth": 250,
+            "imageEvidence": "根代理Chrome核對主圖naturalWidth250"
+          },
+          {
+            "url": "https://mysupport.razer.com/app/answers/detail/a_id/6071/~/razer-ornata-v3-x-%7C-rz03-0447x-support-%26-faqs",
+            "title": "Ornata V3 X 官方支援技術表",
+            "checkedAt": "2026-08-31",
+            "reviewBasis": "manual_parent_original_page",
+            "specEvidence": "原廠Chrome明列靜音薄膜、單區ChromaRGB、1000Hz、隨附可拆塑料護腕；官方支援表Membrane/無Anti-Ghosting及KeyRoll-over、固定PVC線、UV鍍膜ABS；Synapse4/SnapTap需軟體。通路有一欄誤植機械薄膜且編織線，與官方主功能/技術表衝突，採官方薄膜/PVC。 繁中manual第4頁：PC閒置USB，Synapse3限Windows10 64bit以上；不把支援表夾雜的wireless updater通用教學當無線功能。鍵盤USB固定有線供電，V/A未標、無電池。當前官方技術表：無anti-ghosting/key-rollover，且Razer.Aero於2023-09-05官方社群確認不支援，故不採manual泛型6KRO文案。",
+            "dimensionEvidence": "當前官方支援技術表約長443/寬144/高31mm、760g；繁中官方manual第5頁約長443.1/寬229.4/高31.4mm、916.8g，兩者未標清含/不含護腕的組合。不可自猜手托差重、外箱或淨重，保留兩來源原數據待官方確認。",
+            "weightEvidence": "當前官方支援技術表約長443/寬144/高31mm、760g；繁中官方manual第5頁約長443.1/寬229.4/高31.4mm、916.8g，兩者未標清含/不含護腕的組合。不可自猜手托差重、外箱或淨重，保留兩來源原數據待官方確認。"
+          },
+          {
+            "url": "https://dl.razerzone.com/master-guides/RazerSynapse3/ORNATAV3X-00000660-zh-TW.pdf",
+            "title": "Ornata V3 X繁中官方manual",
+            "checkedAt": "2026-08-31",
+            "reviewBasis": "manual_parent_original_page",
+            "specEvidence": "PC USB及Windows10 64bit；尺寸重量與當前技術表未明含護腕組合"
+          }
+        ]
+      },
+      {
+        "id": "keyboard-logitech-signature-k650",
+        "category": "keyboard",
+        "brand": "Logitech",
+        "model": "920-010953",
+        "name": "Signature K650 全尺寸無線鍵盤（石墨灰中文注音）",
+        "buyUrl": "https://store.logitech.tw/products/k650",
+        "price": {
+          "currency": "TWD",
+          "amount": 1490,
+          "converted": 1490,
+          "basis": "retailer_current",
+          "confidence": "2026-08-31根代理Chrome核對Logi台灣官方黑色920-010953為1490元，可加入購物車。"
+        },
+        "image": "https://store.logitech.tw/cdn/shop/products/k650-723523.jpg?v=1729180264&width=1220",
+        "naturalWidth": 500,
+        "checkedAt": "2026-08-31",
+        "chromeSourceReviewed": true,
+        "sourceEvidence": "僅單一連線記憶，BT與Bolt切換可能需重配，不適合頻繁多機切換；不是NKRO遊戲鍵盤；軟體進階功能依Windows/macOS。",
+        "sourcePages": [
+          {
+            "url": "https://store.logitech.tw/products/k650",
+            "title": "Logi台灣官方K650石墨灰",
+            "checkedAt": "2026-08-31",
+            "reviewBasis": "manual_chrome_original_page",
+            "priceEvidence": "Chrome原頁預設黑色、可見920-010953、1490與加入購物車；同頁白色為另一色，未另計數。不使用搜尋索引隱藏variant id。",
+            "specEvidence": "黑/石墨灰、繁體中文注音、完整全尺寸薄膜鍵盤",
+            "imageUrl": "https://store.logitech.tw/cdn/shop/products/k650-723523.jpg?v=1729180264&width=1220",
+            "imageNaturalWidth": 500,
+            "imageEvidence": "根代理Chrome主圖naturalWidth500"
+          },
+          {
+            "url": "https://www.logi.com/zh-tw/shop/p/k650-signature-wireless-keyboard.920-010985",
+            "title": "K650台灣官方規格及零件編號",
+            "checkedAt": "2026-08-31",
+            "reviewBasis": "manual_parent_original_page",
+            "specEvidence": "整合柔軟手托、深度緩衝薄膜鍵；Bluetooth5.1或隨附LogiBolt接收器；2顆AA最長36月依使用而異；Options+限Win/mac；USB接收器Windows10/11、macOS10.15、Linux，BT另ChromeOS/iPadOS14/iOS14/Android8；防潑濺非防浸水；官方膜式FAQ明列K650可能複鍵ghosting，不假設NKRO。回報率與熱插拔支援未明列。；官方頁預設珍珠白，但零件編號明列石墨灰繁中920-010953與珍珠白繁中920-010985，兩者共用表中規格，不套用MK650商務套組。",
+            "dimensionEvidence": "尺寸：高 193.5 x 寬 457.3 x 深 24 mm",
+            "weightEvidence": "重量：700.23 g（含兩顆電池；不含接收器）"
+          },
+          {
+            "url": "https://support.logi.com/hc/en-001/articles/4408098727575-Keystroke-ghosting-on-Logitech-membrane-keyboards",
+            "title": "Logitech薄膜鍵盤ghosting FAQ",
+            "checkedAt": "2026-08-31",
+            "reviewBasis": "manual_parent_original_page",
+            "specEvidence": "官方FAQ明列K650薄膜與多鍵衝突，不宣稱NKRO"
+          }
+        ]
+      },
+      {
+        "id": "keyboard-logitech-mx-keys-s",
+        "category": "keyboard",
+        "brand": "Logitech",
+        "model": "920-011596",
+        "name": "MX Keys S 全尺寸智能背光鍵盤（石墨灰中文注音）",
+        "buyUrl": "https://store.logitech.tw/products/keys-s",
+        "price": {
+          "currency": "TWD",
+          "amount": 3390,
+          "converted": 3390,
+          "basis": "retailer_current",
+          "confidence": "2026-08-31根代理Chrome核對台灣官方石墨灰920-011596為3390元，購買按鈕可用。"
+        },
+        "image": "https://store.logitech.tw/cdn/shop/products/mx-keys-s-561389.jpg?v=1770260681&width=1220",
+        "naturalWidth": 500,
+        "checkedAt": "2026-08-31",
+        "chromeSourceReviewed": true,
+        "sourceEvidence": "根代理Chrome原頁核對預設石墨灰920-011596、中文完整鍵盤、3390元及購買按鈕可用，未加入購物車；不採店頁未經原廠規格支持的防水設計文字。不是Mini、for Mac或Combo。",
+        "sourcePages": [
+          "https://store.logitech.tw/products/keys-s"
+        ]
+      },
+      {
+        "id": "keyboard-msi-gk41-dusk-lr-tc",
+        "category": "keyboard",
+        "brand": "MSI",
+        "model": "VIGOR GK41 DUSK LR TC",
+        "name": "VIGOR GK41 DUSK LR TC 中文 Kailh 紅軸完整鍵盤",
+        "buyUrl": "https://24h.pchome.com.tw/prod/DSBC1T-A900GRO89",
+        "price": {
+          "amount": 2790,
+          "currency": "TWD",
+          "converted": 2790,
+          "basis": "retailer_current",
+          "confidence": "2026-09-01 Chrome核對選定版本完整新品公開售價，不扣個人折價券、信用卡、點數或加購。"
+        },
+        "image": "https://img.pchome.com.tw/cs/items/DSBC1TA900GRO89/000001_1776233490.jpg",
+        "naturalWidth": 1000,
+        "checkedAt": "2026-09-01",
+        "chromeSourceReviewed": true,
+        "sourceEvidence": "Chrome核對南紡購物中心PChome正式LR TC線性紅軸單品，可加入購物車；2790未扣折價券；陳**2026/04/01一則5星無文字。GZ9JW舊頁只顯示替代推薦，已改可還原確切版本GRO89。",
+        "sourcePages": [
+          "https://24h.pchome.com.tw/prod/DSBC1T-A900GRO89"
+        ]
+      },
+      {
+        "id": "keyboard-corsair-k70-core-mlx-red",
+        "category": "keyboard",
+        "brand": "Corsair",
+        "model": "CH-910971E-TW",
+        "name": "K70 CORE 黑色 MLX Red 紅軸繁體中文完整鍵盤（不含掌托）",
+        "buyUrl": "https://24h.pchome.com.tw/prod/DCAHIR-A900GQBDJ",
+        "price": {
+          "amount": 2690,
+          "currency": "TWD",
+          "converted": 2690,
+          "basis": "retailer_current",
+          "confidence": "2026-09-01 Chrome核對選定版本完整新品公開售價，不扣個人折價券、信用卡、點數或加購。"
+        },
+        "image": "https://img.pchome.com.tw/cs/items/DCAHIRA900GQBDJ/000001_1697164205.jpg",
+        "naturalWidth": 1000,
+        "checkedAt": "2026-09-01",
+        "chromeSourceReviewed": true,
+        "sourceEvidence": "Chrome所選中文全尺寸紅軸完整新品，2690未扣折價券，主頁可購買。18則4.9星，最低分排序吳**2024/07/28無文字；接續柏**2026/07/05與方**2025/12/24均無文字，不當故障人數。",
+        "sourcePages": [
+          "https://24h.pchome.com.tw/prod/DCAHIR-A900GQBDJ"
+        ]
+      },
+      {
+        "id": "keyboard-nuphy-air75-v3-brown",
+        "category": "keyboard",
+        "brand": "NuPhy",
+        "model": "Air75 V3",
+        "name": "Air75 V3 白色 Brown Nano 茶軸英文完整鍵盤",
+        "buyUrl": "https://24h.pchome.com.tw/prod/DCAHGY-A900K64PQ",
+        "price": {
+          "amount": 4290,
+          "currency": "TWD",
+          "converted": 4290,
+          "basis": "retailer_current",
+          "confidence": "2026-09-01 Chrome核對選定版本完整新品公開售價，不扣個人折價券、信用卡、點數或加購。"
+        },
+        "image": "https://img.pchome.com.tw/cs/items/DCAHGYA900K64PQ/000001_1787190471.jpg",
+        "naturalWidth": 1000,
+        "checkedAt": "2026-09-01",
+        "chromeSourceReviewed": true,
+        "sourceEvidence": "Chrome主頁所選白色／茶軸英文完整84鍵成品，可加入購物車；4290為未扣95折券售價；保固1年。王** 2026/08/27一則5星無文字，非問題回報。通路360*180*40未標軸且與官網數字不同，不採機身尺寸。",
+        "sourcePages": [
+          "https://24h.pchome.com.tw/prod/DCAHGY-A900K64PQ"
+        ]
+      },
+      {
+        "id": "keyboard-wooting-80he-l60-v2",
+        "category": "keyboard",
+        "brand": "Wooting",
+        "model": "80HE",
+        "name": "80HE ANSI US 黑色 PCR ABS／Lekker L60 v2／預裝黑色 PBT 完整鍵盤",
+        "buyUrl": "https://wooting.io/configurator/wooting-80he?keycaps=none",
+        "price": {
+          "amount": 6437,
+          "currency": "TWD",
+          "converted": 6437,
+          "basis": "retailer_current",
+          "confidence": "2026-09-01 Chrome台灣地區官方海外商店直接報價TWD6437，非外幣換算；ANSI US／Black PCR ABS／預裝PBT成品可售，不含國際運費與進口稅，不扣個人優惠。"
+        },
+        "image": "https://wooting.io/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F1008%2F0269%2F1355%2Ffiles%2FW80HE-PCR-Black-ANSI-US-PBT-Black.png%3Fv%3D1772142866&w=3840&q=75",
+        "naturalWidth": 840,
+        "checkedAt": "2026-09-01",
+        "chromeSourceReviewed": true,
+        "sourceEvidence": "Chrome新站以台灣地區TWD顯示，非匯率自行换算；配置器Summary逐項列ANSI US、JustBlack PBT Pre-installed、BraidedUSB-CtoC、USB-CtoA dongle、BlackPCRABSCase、6437、In stock。keycaps=none意為無額外鍵帽，ANSI本體已預裝，不是Module。主頁LekkerL60V2、PCR本體790g；346x142無軸序，高僅前緣no-keycap19.4/含鍵帽28.4不能充完整機身。4年保固不含LED，國際稅另收。",
+        "sourcePages": [
+          "https://wooting.io/configurator/wooting-80he?keycaps=none"
+        ]
+      },
+      {
+        "id": "keyboard-logitech-wave-keys",
+        "category": "keyboard",
+        "brand": "Logitech",
+        "model": "920-012313",
+        "name": "Wave Keys 人體工學鍵盤（石墨灰中文注音）",
+        "buyUrl": "https://store.logitech.tw/collections/%E7%84%A1%E7%B7%9A%E9%8D%B5%E7%9B%A4/products/wavekeys",
+        "price": {
+          "currency": "TWD",
+          "amount": 1990,
+          "converted": 1990,
+          "basis": "retailer_current",
+          "confidence": "2026-08-31 Chrome已核台灣官店920-012313原生注音石墨灰現1990元、可加入購物車。"
+        },
+        "image": "https://store.logitech.tw/cdn/shop/products/wave-keys-625900.jpg?v=1773593106&width=1220",
+        "naturalWidth": 500,
+        "checkedAt": "2026-08-31",
+        "chromeSourceReviewed": true,
+        "sourceEvidence": "Chrome預設石墨黑920-012313現1990（原2490）、加入購物車可用，主圖500px；不採搜尋舊價2490",
+        "sourcePages": [
+          "https://store.logitech.tw/collections/%E7%84%A1%E7%B7%9A%E9%8D%B5%E7%9B%A4/products/wavekeys"
+        ]
+      },
+      {
+        "id": "keyboard-logitech-mx-keys-mini",
+        "category": "keyboard",
+        "brand": "Logitech",
+        "model": "920-010508",
+        "name": "MX Keys Mini 石墨灰中文注音鍵盤",
+        "buyUrl": "https://store.logitech.tw/products/keysmini",
+        "price": {
+          "currency": "TWD",
+          "amount": 2990,
+          "converted": 2990,
+          "basis": "retailer_current",
+          "confidence": "2026-08-31 Chrome已核台灣官店石墨灰920-010508、2990元及可加入購物車。"
+        },
+        "image": "https://store.logitech.tw/cdn/shop/products/mx-keys-mini-368363.jpg?v=1770130977&width=1220",
+        "naturalWidth": 500,
+        "checkedAt": "2026-08-31",
+        "chromeSourceReviewed": true,
+        "sourceEvidence": "Chrome預設石墨灰920-010508現2990、加入購物車可用；主圖已載500px",
+        "sourcePages": [
+          "https://store.logitech.tw/products/keysmini"
+        ]
+      },
+      {
+        "id": "keyboard-keychron-k3-max",
+        "category": "keyboard",
+        "brand": "Keychron",
+        "model": "KBKCK3MQ1T",
+        "name": "K3 Max 復古白光熱插拔矮紅軸注音鍵盤",
+        "buyUrl": "https://www.keychron.com.tw/products/keychron-k3-max-qmk-via-wireless-custom-mechanical-keyboard?variant=46960807969027",
+        "price": {
+          "currency": "TWD",
+          "amount": 3088,
+          "converted": 3088,
+          "basis": "retailer_current",
+          "confidence": "Chrome黑色SoldOut，選復古白背光熱插拔矮紅軸；先茶再紅取得真實variant46960807969027，SKU1T3088可加入購物車；主圖1T800px。白背光熱插拔選項與舊正文僅RGB可熱插拔矛盾，明示按選定SKU並保留疑義。"
+        },
+        "image": "https://www.keychron.com.tw/cdn/shop/files/K3MQ1T-CN_81247ba9-f27d-4648-ac31-240993019826.jpg?v=1750833069&width=1214",
+        "naturalWidth": 800,
+        "checkedAt": "2026-09-01",
+        "chromeSourceReviewed": true,
+        "sourceEvidence": "Chrome黑色SoldOut，選復古白背光熱插拔矮紅軸；先茶再紅取得真實variant46960807969027，SKU1T3088可加入購物車；主圖1T800px。白背光熱插拔選項與舊正文僅RGB可熱插拔矛盾，明示按選定SKU並保留疑義。",
+        "sourcePages": [
+          "https://www.keychron.com.tw/products/keychron-k3-max-qmk-via-wireless-custom-mechanical-keyboard?variant=46960807969027"
+        ]
+      },
+      {
+        "id": "keyboard-asus-tuf-k3-gen-ii",
+        "category": "keyboard",
+        "brand": "ASUS",
+        "model": "TUF GAMING K3 Gen II",
+        "name": "TUF Gaming K3 Gen II 光學青軸鍵盤（黑色中文）",
+        "buyUrl": "https://24h.pchome.com.tw/prod/DCBE2G-A900HGRK6",
+        "price": {
+          "currency": "TWD",
+          "amount": 2490,
+          "converted": 2490,
+          "basis": "retailer_current",
+          "confidence": "2026-08-31 Chrome核對PChome中文光學青軸新品2490元可購；紅軸舊頁售完，不以myfone1950摘要取代當前2490。"
+        },
+        "image": "https://img.pchome.com.tw/cs/items/DCBE2GA900HGRK6/000001_1787184716.jpg",
+        "naturalWidth": 1000,
+        "checkedAt": "2026-08-31",
+        "chromeSourceReviewed": true,
+        "sourceEvidence": "原紅軸頁售完，改同家族唯一代表光學青軸中文ABS、97鍵96%、黑色完整成品。PChome廠商出貨2490、無適用券、有加入購物車/立即購買；2年原廠双向收送0800093456，主圖1000。只收本一版，以官方完整model而非私造SKU。",
+        "sourcePages": [
+          "https://24h.pchome.com.tw/prod/DCBE2G-A900HGRK6"
+        ]
+      },
+      {
+        "id": "keyboard-logitech-mx-mechanical-tactile",
+        "category": "keyboard",
+        "brand": "Logitech",
+        "model": "920-010763",
+        "name": "MX Mechanical 全尺寸石墨灰中文靜音觸感鍵盤",
+        "buyUrl": "https://store.logitech.tw/products/mechanical",
+        "price": {
+          "currency": "TWD",
+          "amount": 3990,
+          "converted": 3990,
+          "basis": "retailer_current",
+          "confidence": "2026-09-01 Chrome官方台灣網路旗艦館，同頁920-010763現3990（舊4990）、加入購物車可用，選自然載入產品圖500px非活動圖；此頁單一商品無軸/語言選項，需官方規格另核對中文靜音觸感。"
+        },
+        "image": "https://store.logitech.tw/cdn/shop/products/mx-mechanical-776971.jpg?v=1770953055&width=1220",
+        "naturalWidth": 500,
+        "checkedAt": "2026-09-01",
+        "chromeSourceReviewed": true,
+        "sourceEvidence": "2026-09-01 Chrome官方台灣網路旗艦館，同頁920-010763現3990（舊4990）、加入購物車可用，選自然載入產品圖500px非活動圖；此頁單一商品無軸/語言選項，需官方規格另核對中文靜音觸感。",
+        "sourcePages": [
+          "https://store.logitech.tw/products/mechanical"
+        ]
+      },
+      {
+        "id": "keyboard-logitech-g915-x-wired-tactile",
+        "category": "keyboard",
+        "brand": "Logitech",
+        "model": "920-012948",
+        "name": "G915 X 有線黑色觸感軸中文鍵盤",
+        "buyUrl": "https://store.logitech.tw/products/g915x-wired",
+        "price": {
+          "currency": "TWD",
+          "amount": 3990,
+          "converted": 3990,
+          "basis": "retailer_current",
+          "confidence": "2026-09-01 Chrome官店有線觸感軸920-0129483990（舊5490）加入購物車可用，切線性再回觸感SKU還原但URL仍父頁；本家族只收預設觸感一版，不依顏色或其他軸湊數。中文CHT主圖自然500px。"
+        },
+        "image": "https://store.logitech.tw/cdn/shop/files/Low_Resolution_JPG-G915XCordedTOPCarbonCHT.jpg?v=1761494813&width=1220",
+        "naturalWidth": 500,
+        "checkedAt": "2026-09-01",
+        "chromeSourceReviewed": true,
+        "sourceEvidence": "2026-09-01 Chrome官店有線觸感軸920-0129483990（舊5490）加入購物車可用，切線性再回觸感SKU還原但URL仍父頁；本家族只收預設觸感一版，不依顏色或其他軸湊數。中文CHT主圖自然500px。",
+        "sourcePages": [
+          "https://store.logitech.tw/products/g915x-wired"
+        ]
+      },
+      {
+        "id": "keyboard-logitech-pro-x-tkl-rapid",
+        "category": "keyboard",
+        "brand": "Logitech",
+        "model": "920-013257",
+        "name": "PRO X TKL RAPID 桃紅磁軸中文鍵盤",
+        "buyUrl": "https://store.logitech.tw/products/proxtklrapid?country=TW&currency=TWD&variant=41831729889303",
+        "price": {
+          "currency": "TWD",
+          "amount": 4490,
+          "converted": 4490,
+          "basis": "retailer_current",
+          "confidence": "2026-09-01 Chrome官店真實variant41831729889303還原桃紅920-013257，中文CHT商品圖500px，現4490舊6490，加入購物車可用；贈腕托限送完不當標準隨附，不收其他色湊数。"
+        },
+        "image": "https://store.logitech.tw/cdn/shop/files/Low_Resolution_JPG-ProXTKLRAPIDMAGENTAFOBCHT.jpg?v=1761494813&width=1220",
+        "naturalWidth": 500,
+        "checkedAt": "2026-09-01",
+        "chromeSourceReviewed": true,
+        "sourceEvidence": "2026-09-01 Chrome官店真實variant41831729889303還原桃紅920-013257，中文CHT商品圖500px，現4490舊6490，加入購物車可用；贈腕托限送完不當標準隨附，不收其他色湊数。",
+        "sourcePages": [
+          "https://store.logitech.tw/products/proxtklrapid?country=TW&currency=TWD&variant=41831729889303"
+        ]
+      },
+      {
+        "id": "keyboard-logitech-g515-lightspeed-tkl-tactile",
+        "category": "keyboard",
+        "brand": "Logitech",
+        "model": "920-012578",
+        "name": "G515 LIGHTSPEED TKL 黑色中文 GL 茶軸完整鍵盤",
+        "buyUrl": "https://store.logitech.tw/products/g515-lightspeed-tkl",
+        "price": {
+          "amount": 3290,
+          "currency": "TWD",
+          "converted": 3290,
+          "basis": "retailer_current",
+          "confidence": "2026-09-01 Chrome核對選定版本完整新品公開售價，不扣個人折價券、信用卡、點數或加購。"
+        },
+        "image": "https://store.logitech.tw/cdn/shop/files/Low_Resolution_JPG-G515LightspeedTKLTOPMidnightBlackCHT.jpg?v=1773646374",
+        "naturalWidth": 1000,
+        "checkedAt": "2026-09-01",
+        "chromeSourceReviewed": true,
+        "sourceEvidence": "Chrome兩次直接開正確商品頁皆還原黑色、920-012578與3290元，可加入購物車；先確認主圖currentSrc載入，另開頁面已觀測原圖URL實測1000×1000。未加入購物車或結帳。官方技術頁鏈結的舊slug g515lightspeedtkl?variant=41525774745623 實讀404，因此不使用那條失效購買連結，也不編造替代參數。",
+        "sourcePages": [
+          "https://store.logitech.tw/products/g515-lightspeed-tkl"
+        ]
+      },
+      {
+        "id": "keyboard-keychron-k2-he-special-black",
+        "category": "keyboard",
+        "brand": "Keychron",
+        "model": "KBKCK2HF1",
+        "name": "K2 HE 黑木特仕版英文星雲磁軸鍵盤",
+        "buyUrl": "https://www.keychron.com.tw/products/keychron-k2-he-wireless-magnetic-switch-keyboard?variant=46813890674947",
+        "price": {
+          "currency": "TWD",
+          "amount": 4490,
+          "converted": 4490,
+          "basis": "retailer_current",
+          "confidence": "2026-09-01 Chrome官方標準鋁框SoldOut，選唯一代表特仕木飾黑星雲軸4490（舊4990）、英文原鍵帽可索貼紙不等同注音；切白再黑取得真實variant46813890674947，SKU KBKCK2HF1，可加入購物車，主圖800。與全木TMR新版HF1W不同。"
+        },
+        "image": "https://www.keychron.com.tw/cdn/shop/files/Keychron-K2-HE-75-Percent-Layout-Wireless-Magnetic-Switch-Custom-Keyboard-Special-Edition-Wooden-Black-RGB-Backlight-Double-Shot-PBT-Keycaps.jpg?v=1760595199&width=1214",
+        "naturalWidth": 800,
+        "checkedAt": "2026-09-01",
+        "chromeSourceReviewed": true,
+        "sourceEvidence": "2026-09-01 Chrome官方標準鋁框SoldOut，選唯一代表特仕木飾黑星雲軸4490（舊4990）、英文原鍵帽可索貼紙不等同注音；切白再黑取得真實variant46813890674947，SKU KBKCK2HF1，可加入購物車，主圖800。與全木TMR新版HF1W不同。",
+        "sourcePages": [
+          "https://www.keychron.com.tw/products/keychron-k2-he-wireless-magnetic-switch-keyboard?variant=46813890674947"
+        ]
+      },
+      {
+        "id": "mousepad-logitech-desk-mat-studio",
+        "category": "mousepad",
+        "brand": "Logitech",
+        "model": "DESK MAT - Studio Series",
+        "name": "DESK MAT Studio Series 長桌墊（玫瑰粉 956-000045）",
+        "buyUrl": "https://store.logitech.tw/collections/%E6%BB%91%E9%BC%A0%E5%A2%8A%E5%92%8C%E6%A1%8C%E5%A2%8A/products/deskmat",
+        "price": {
+          "amount": 499,
+          "currency": "TWD",
+          "converted": 499,
+          "basis": "retailer_current",
+          "confidence": "2026-08-31 Chrome 原頁核對所選台灣新品版本公開售價；不扣會員、信用卡、點數或加購優惠。"
+        },
+        "image": "https://store.logitech.tw/cdn/shop/products/desk-mat-709232.jpg?v=1752142078&width=1220",
+        "naturalWidth": 500,
+        "checkedAt": "2026-08-31",
+        "chromeSourceReviewed": true,
+        "sourceEvidence": "商城原頁預設玫瑰粉、SKU956-000045、499元；可選玫瑰粉/沉穩灰，不能以顏色重複計數。",
+        "sourceAuditDateBasis": "滑鼠墊bundle原始現售/圖片查核日；不隨後續尺寸與issue查核補查改寫",
+        "matchesProduct": {
+          "buyUrl": true,
+          "amount": true,
+          "image": true
+        }
+      },
+      {
+        "id": "mousepad-logitech-g740",
+        "category": "mousepad",
+        "brand": "Logitech",
+        "model": "G740",
+        "name": "G740 5 mm 厚布面滑鼠墊（943-000809）",
+        "buyUrl": "https://store.logitech.tw/products/g740",
+        "price": {
+          "amount": 999,
+          "currency": "TWD",
+          "converted": 999,
+          "basis": "retailer_current",
+          "confidence": "2026-08-31 Chrome 原頁核對所選台灣 SKU 的新品公開售價；不扣會員、信用卡、點數或加購優惠。"
+        },
+        "image": "https://store.logitech.tw/cdn/shop/products/g740-565556.jpg?v=1729180675&width=1220",
+        "naturalWidth": 500,
+        "checkedAt": "2026-08-31",
+        "chromeSourceReviewed": true,
+        "sourceEvidence": "Chrome實見SKU943-000809、999、加入購物車；主圖naturalWidth500。",
+        "sourceAuditDateBasis": "滑鼠墊bundle原始現售/圖片查核日；不隨後續尺寸與issue查核補查改寫",
+        "matchesProduct": {
+          "buyUrl": true,
+          "amount": true,
+          "image": true
+        }
+      },
+      {
+        "id": "mousepad-logitech-g840",
+        "category": "mousepad",
+        "brand": "Logitech",
+        "model": "G840",
+        "name": "G840 XL 900 mm 長桌墊（黑色 943-000781）",
+        "buyUrl": "https://store.logitech.tw/collections/%E9%81%8A%E6%88%B2%E6%BB%91%E9%BC%A0%E5%A2%8A/products/g840",
+        "price": {
+          "amount": 1190,
+          "currency": "TWD",
+          "converted": 1190,
+          "basis": "retailer_current",
+          "confidence": "2026-08-31 Chrome 原頁核對所選台灣 SKU 的新品公開售價；不扣會員、信用卡、點數或加購優惠。"
+        },
+        "image": "https://store.logitech.tw/cdn/shop/products/g840-455396.jpg?v=1729180679&width=1220",
+        "naturalWidth": 500,
+        "checkedAt": "2026-08-31",
+        "chromeSourceReviewed": true,
+        "sourceEvidence": "Chrome實見SKU943-000781、1190、加入購物車；主圖naturalWidth500。",
+        "sourceAuditDateBasis": "滑鼠墊bundle原始現售/圖片查核日；不隨後續尺寸與issue查核補查改寫",
+        "matchesProduct": {
+          "buyUrl": true,
+          "amount": true,
+          "image": true
+        }
+      },
+      {
+        "id": "mousepad-logitech-g440",
+        "category": "mousepad",
+        "brand": "Logitech",
+        "model": "G440",
+        "name": "G440 硬質滑鼠墊（943-000795）",
+        "buyUrl": "https://store.logitech.tw/collections/%E9%81%8A%E6%88%B2%E6%BB%91%E9%BC%A0%E5%A2%8A/products/g440",
+        "price": {
+          "amount": 599,
+          "currency": "TWD",
+          "converted": 599,
+          "basis": "retailer_current",
+          "confidence": "2026-08-31 Chrome 原頁核對所選台灣新品版本公開售價；不扣會員、信用卡、點數或加購優惠。"
+        },
+        "image": "https://store.logitech.tw/cdn/shop/products/g440-631509.jpg?v=1729179198&width=1220",
+        "naturalWidth": 500,
+        "checkedAt": "2026-08-31",
+        "chromeSourceReviewed": true,
+        "sourceEvidence": "Chrome原頁943-000795、NT599、加入購物車；官方规格側欄核對高280×寬340×深3mm、229g與1年保固；商品主圖naturalWidth=500。",
+        "sourceAuditDateBasis": "滑鼠墊bundle原始現售/圖片查核日；不隨後續尺寸與issue查核補查改寫",
+        "matchesProduct": {
+          "buyUrl": true,
+          "amount": true,
+          "image": true
+        }
+      },
+      {
+        "id": "mousepad-logitech-g640",
+        "category": "mousepad",
+        "brand": "Logitech",
+        "model": "G640",
+        "name": "G640 大型布面滑鼠墊（943-000802）",
+        "buyUrl": "https://store.logitech.tw/collections/%E9%81%8A%E6%88%B2%E6%BB%91%E9%BC%A0%E5%A2%8A/products/g640",
+        "price": {
+          "amount": 899,
+          "currency": "TWD",
+          "converted": 899,
+          "basis": "retailer_current",
+          "confidence": "2026-08-31 Chrome 原頁核對所選台灣新品版本公開售價；不扣會員、信用卡、點數或加購優惠。"
+        },
+        "image": "https://store.logitech.tw/cdn/shop/products/g640-454660.jpg?v=1729179250&width=1220",
+        "naturalWidth": 500,
+        "checkedAt": "2026-08-31",
+        "chromeSourceReviewed": true,
+        "sourceEvidence": "Chrome商城原頁899、加入購物車、943-000802，主圖naturalWidth500。",
+        "sourceAuditDateBasis": "滑鼠墊bundle原始現售/圖片查核日；不隨後續尺寸與issue查核補查改寫",
+        "matchesProduct": {
+          "buyUrl": true,
+          "amount": true,
+          "image": true
+        }
+      },
+      {
+        "id": "mousepad-logitech-mouse-pad-studio",
+        "category": "mousepad",
+        "brand": "Logitech",
+        "model": "MOUSE PAD - Studio Series",
+        "name": "MOUSE PAD Studio Series 小滑鼠墊（石墨黑 956-000031）",
+        "buyUrl": "https://store.logitech.tw/collections/%E6%BB%91%E9%BC%A0%E5%A2%8A%E5%92%8C%E6%A1%8C%E5%A2%8A/products/mousepad",
+        "price": {
+          "amount": 199,
+          "currency": "TWD",
+          "converted": 199,
+          "basis": "retailer_current",
+          "confidence": "2026-08-31 Chrome 原頁核對所選台灣新品版本公開售價；不扣會員、信用卡、點數或加購優惠。"
+        },
+        "image": "https://store.logitech.tw/cdn/shop/products/mouse-pad-988065.jpg?v=1729179550&width=1220",
+        "naturalWidth": 500,
+        "checkedAt": "2026-08-31",
+        "chromeSourceReviewed": true,
+        "sourceEvidence": "商城原頁預設石墨黑、SKU956-000031、199元；另兩色不增加款數。",
+        "sourceAuditDateBasis": "滑鼠墊bundle原始現售/圖片查核日；不隨後續尺寸與issue查核補查改寫",
+        "matchesProduct": {
+          "buyUrl": true,
+          "amount": true,
+          "image": true
+        }
+      },
+      {
+        "id": "mousepad-logitech-aurora",
+        "category": "mousepad",
+        "brand": "Logitech",
+        "model": "943-000735",
+        "name": "Aurora 玩色大型滑鼠墊（粉色 943-000735）",
+        "buyUrl": "https://store.logitech.tw/products/largemousepad",
+        "price": {
+          "amount": 1190,
+          "currency": "TWD",
+          "converted": 1190,
+          "basis": "retailer_current",
+          "confidence": "2026-08-31 Chrome 原頁核對所選台灣新品版本公開售價；不扣會員、信用卡、點數或加購優惠。"
+        },
+        "image": "https://store.logitech.tw/cdn/shop/products/product-233626.jpg?v=1729180193&width=1220",
+        "naturalWidth": 500,
+        "checkedAt": "2026-08-31",
+        "chromeSourceReviewed": true,
+        "sourceEvidence": "Chrome原頁預設粉色，SKU943-000735、1190、加入購物車。僅收1個實體尺寸，不把白綠湊數。",
+        "sourceAuditDateBasis": "滑鼠墊bundle原始現售/圖片查核日；不隨後續尺寸與issue查核補查改寫",
+        "matchesProduct": {
+          "buyUrl": true,
+          "amount": true,
+          "image": true
+        }
+      },
+      {
+        "id": "mousepad-sony-mpd-f900",
+        "category": "mousepad",
+        "brand": "Sony",
+        "model": "MPD-F900/B",
+        "name": "INZONE Mat-F 控制型布面滑鼠墊（MPD-F900/B 黑色）",
+        "buyUrl": "https://store.sony.com.tw/product/MPD-F900/B",
+        "price": {
+          "amount": 1990,
+          "currency": "TWD",
+          "converted": 1990,
+          "basis": "retailer_current",
+          "confidence": "2026-08-31 Chrome 原頁核對所選台灣新品版本公開售價；不扣會員、信用卡、點數或加購優惠。"
+        },
+        "image": "https://store.sony.com.tw/resource/file/product_files/MPD-F900-B/01_100eb3620.jpg",
+        "naturalWidth": 2000,
+        "checkedAt": "2026-08-31",
+        "chromeSourceReviewed": true,
+        "sourceEvidence": "Chrome Sony台灣原頁顯示MPD-F900/B、1990元、加入購物車；本商品無保固；主圖2000px。",
+        "sourceAuditDateBasis": "滑鼠墊bundle原始現售/圖片查核日；不隨後續尺寸與issue查核補查改寫",
+        "matchesProduct": {
+          "buyUrl": true,
+          "amount": true,
+          "image": true
+        }
+      },
+      {
+        "id": "mousepad-sony-mpd-d700",
+        "category": "mousepad",
+        "brand": "Sony",
+        "model": "MPD-D700/Z",
+        "name": "INZONE Mat-D 速度型布面滑鼠墊（MPD-D700/Z 紫黑色）",
+        "buyUrl": "https://store.sony.com.tw/product/MPD-D700/Z",
+        "price": {
+          "amount": 1190,
+          "currency": "TWD",
+          "converted": 1190,
+          "basis": "retailer_current",
+          "confidence": "2026-08-31 Chrome 原頁核對所選台灣新品版本公開售價；不扣會員、信用卡、點數或加購優惠。"
+        },
+        "image": "https://store.sony.com.tw/resource/file/product_files/MPD-D700-Z/01_6054f3124.jpg",
+        "naturalWidth": 2000,
+        "checkedAt": "2026-08-31",
+        "chromeSourceReviewed": true,
+        "sourceEvidence": "Chrome Sony台灣原頁顯示MPD-D700/Z、1190元、加入購物車；本商品無保固；主圖2000px。",
+        "sourceAuditDateBasis": "滑鼠墊bundle原始現售/圖片查核日；不隨後續尺寸與issue查核補查改寫",
+        "matchesProduct": {
+          "buyUrl": true,
+          "amount": true,
+          "image": true
+        }
+      },
+      {
+        "id": "mousepad-logitech-g240",
+        "category": "mousepad",
+        "brand": "Logitech",
+        "model": "G240",
+        "name": "G240 薄型布面滑鼠墊（943-000788）",
+        "buyUrl": "https://store.logitech.tw/collections/%E9%81%8A%E6%88%B2%E6%BB%91%E9%BC%A0%E5%A2%8A/products/g240",
+        "price": {
+          "amount": 399,
+          "currency": "TWD",
+          "converted": 399,
+          "basis": "retailer_current",
+          "confidence": "2026-08-31 Chrome 原頁核對所選台灣SKU新品公開售價；不扣會員、點數與信用卡優惠。"
+        },
+        "image": "https://store.logitech.tw/cdn/shop/products/g240-855027.jpg?v=1729179111",
+        "naturalWidth": 1000,
+        "checkedAt": "2026-08-31",
+        "chromeSourceReviewed": true,
+        "sourceEvidence": "Chrome原頁商品標題G240、SKU943-000788、399元與加入購物車均可見；Zoom圖片URL直接取自該原頁。",
+        "sourceAuditDateBasis": "滑鼠墊bundle原始現售/圖片查核日；不隨後續尺寸與issue查核補查改寫",
+        "matchesProduct": {
+          "buyUrl": true,
+          "amount": true,
+          "image": true
+        }
+      },
+      {
+        "id": "mousepad-razer-pro-glide",
+        "historicalSourceReviewed": true,
+        "historicalSourceUrl": "https://biggo.com.tw/s/Razer%20Pro%20Glide",
+        "historicalSourceCheckedAt": "2026-08-31",
+        "category": "mousepad",
+        "brand": "Razer",
+        "model": "Pro Glide",
+        "name": "Pro Glide M 灰色布面滑鼠墊（360 × 275 × 3 mm）",
+        "buyUrl": "https://24h.pchome.com.tw/prod/DCBF0P-1900JSQH3",
+        "price": {
+          "amount": 330,
+          "currency": "TWD",
+          "converted": 330,
+          "basis": "retailer_current",
+          "confidence": "2026-08-31 Chrome選定PChome單張M新品公開330元，不扣會員、信用卡或滿額優惠。"
+        },
+        "image": "https://img.pchome.com.tw/cs/items/DCBF0P1900JSQH3/000001_1773050971.jpg",
+        "naturalWidth": 640,
+        "checkedAt": "2026-08-31",
+        "chromeSourceReviewed": true,
+        "sourceEvidence": "Chrome新品頁330元、白色(官方称灰色)、加入購物車、5則評價；完整圖文為360×275×3mm布面/高密度橡膠/防滑底。開頭0.5mm聚碳酸酯是錯置文案不採，待官方SKU核對。 2026-09-01另以web原文補查Razer香港M/XXL官方對照表，M列明示長360、深275、厚3mm；現價、圖及所選版本Chrome證據仍保留8/31，不聲稱同日重查。",
+        "sourceAuditDateBasis": "滑鼠墊bundle原始現售/圖片查核日；不隨後續尺寸與issue查核補查改寫",
+        "matchesProduct": {
+          "buyUrl": true,
+          "amount": true,
+          "image": true
+        }
+      },
+      {
+        "id": "mousepad-razer-atlas",
+        "category": "mousepad",
+        "brand": "Razer",
+        "model": "RZ02-04890100-R3M1",
+        "name": "Atlas 黑色強化玻璃滑鼠墊（RZ02-04890100-R3M1）",
+        "buyUrl": "https://24h.pchome.com.tw/prod/DCBF0P-A900HJZTL",
+        "price": {
+          "amount": 3390,
+          "currency": "TWD",
+          "converted": 3390,
+          "basis": "retailer_current",
+          "confidence": "2026-08-31 Chrome實際選定台灣新品版本公開售價；不扣會員、信用卡、點數或滿額優惠。"
+        },
+        "image": "https://img.pchome.com.tw/cs/items/DCBF0PA900HJZTL/000001_1718096079.jpg",
+        "naturalWidth": 640,
+        "checkedAt": "2026-08-31",
+        "chromeSourceReviewed": true,
+        "sourceEvidence": "Chrome黑色選项已點選，URL原樣可還原此款，3390元，不扣滿額下單折扣；規格RZ02-04890100-R3M1黑色、450長×400寬mm、厚5mm，強化玻璃2μm微蝕刻、CNC圓邊、防滑橡膠底、溫水濕布清潔、推薦原廠或同規格PTFE腳貼；非所有感測器保證相容。",
+        "sourceAuditDateBasis": "滑鼠墊bundle原始現售/圖片查核日；不隨後續尺寸與issue查核補查改寫",
+        "matchesProduct": {
+          "buyUrl": true,
+          "amount": true,
+          "image": true
+        }
+      },
+      {
+        "id": "mousepad-razer-strider-chroma",
+        "historicalSourceReviewed": true,
+        "historicalSourceUrl": "https://biggo.com.tw/s/Razer%20Strider%20Chroma",
+        "historicalSourceCheckedAt": "2026-08-31",
+        "category": "mousepad",
+        "brand": "Razer",
+        "model": "RZ02-04490100-R3M1",
+        "name": "Strider Chroma 19區RGB混合布面長桌墊（RZ02-04490100-R3M1）",
+        "buyUrl": "https://24h.pchome.com.tw/prod/DCBF0P-A900FPCZJ",
+        "price": {
+          "amount": 4390,
+          "currency": "TWD",
+          "converted": 4390,
+          "basis": "retailer_current",
+          "confidence": "2026-08-31 Chrome實際選定台灣新品版本公開售價；不扣會員、信用卡、點數或滿額優惠。"
+        },
+        "image": "https://img.pchome.com.tw/cs/items/DCBF0PA900FPCZJ/000001_1667290550.jpg",
+        "naturalWidth": 640,
+        "checkedAt": "2026-08-31",
+        "chromeSourceReviewed": true,
+        "sourceEvidence": "Chrome4390、加入購物車，同SKU；聚酯纖維混合布面、19區RGB、4mm、無縫邊、防水、防滑溝槽、1年公司貨。開頭940×410、規格末端900×370矛盾，尺寸待官方，不任選。",
+        "sourceAuditDateBasis": "滑鼠墊bundle原始現售/圖片查核日；不隨後續尺寸與issue查核補查改寫",
+        "matchesProduct": {
+          "buyUrl": true,
+          "amount": true,
+          "image": true
+        }
+      },
+      {
+        "id": "mousepad-razer-pro-glide-xxl",
+        "category": "mousepad",
+        "brand": "Razer",
+        "model": "RZ02-03332300-R3M1",
+        "name": "Pro Glide XXL 灰色布面長桌墊（RZ02-03332300-R3M1）",
+        "buyUrl": "https://24h.pchome.com.tw/prod/DCBF0P-A900C1ABF",
+        "price": {
+          "amount": 899,
+          "currency": "TWD",
+          "converted": 899,
+          "basis": "retailer_current",
+          "confidence": "2026-08-31 Chrome實際選定台灣新品版本公開售價；不扣會員、信用卡、點數或滿額優惠。"
+        },
+        "image": "https://img.pchome.com.tw/cs/items/DCBF0PA900C1ABF/000001_1639473258.jpg",
+        "naturalWidth": 640,
+        "checkedAt": "2026-08-31",
+        "chromeSourceReviewed": true,
+        "sourceEvidence": "Chrome899元、加入購物車、商品規格明列RZ02-03332300-R3M1與XXL、長940×寬410×高4mm、厚4mm布質。圖文M版3mm不套入XXL。",
+        "sourceAuditDateBasis": "滑鼠墊bundle原始現售/圖片查核日；不隨後續尺寸與issue查核補查改寫",
+        "matchesProduct": {
+          "buyUrl": true,
+          "amount": true,
+          "image": true
+        }
+      },
+      {
+        "id": "mousepad-razer-gigantus-v2-xxl",
+        "category": "mousepad",
+        "brand": "Razer",
+        "model": "RZ02-03330400-R3M1",
+        "name": "Gigantus V2 XXL 黑綠布面長桌墊（RZ02-03330400-R3M1）",
+        "buyUrl": "https://24h.pchome.com.tw/prod/DCBF0P-A900HPP42",
+        "price": {
+          "amount": 990,
+          "currency": "TWD",
+          "converted": 990,
+          "basis": "retailer_current",
+          "confidence": "2026-08-31 Chrome實際選定台灣新品版本公開售價；不扣會員、信用卡、點數或滿額優惠。"
+        },
+        "image": "https://img.pchome.com.tw/cs/items/DCBF0PA900HPP42/000001_1722929979.jpg",
+        "naturalWidth": 640,
+        "checkedAt": "2026-08-31",
+        "chromeSourceReviewed": true,
+        "sourceEvidence": "Chrome990元、加入購物車、型號RZ02-03330400-R3M1、XXL特大、940×410×4mm但文字未列軸序；編織布面、高密度橡膠泡棉、防滑底、一年公司貨。",
+        "sourceAuditDateBasis": "滑鼠墊bundle原始現售/圖片查核日；不隨後續尺寸與issue查核補查改寫",
+        "matchesProduct": {
+          "buyUrl": true,
+          "amount": true,
+          "image": true
+        }
+      },
+      {
+        "id": "mousepad-asus-strix-slice",
+        "category": "mousepad",
+        "brand": "ASUS",
+        "model": "ROG Strix Slice",
+        "name": "ROG Strix Slice 超薄硬質滑鼠墊（黑面／夜光標誌）",
+        "buyUrl": "https://24h.pchome.com.tw/prod/DSBC0X-A900BY2DP",
+        "price": {
+          "amount": 690,
+          "currency": "TWD",
+          "converted": 690,
+          "basis": "retailer_current",
+          "confidence": "2026-08-31 Chrome實際選定台灣新品版本公開售價；不扣會員、信用卡、點數或滿額優惠。"
+        },
+        "image": "https://img.pchome.com.tw/cs/items/DSBC0XA900BY2DP/000001_1635933389.jpg",
+        "naturalWidth": 640,
+        "checkedAt": "2026-08-31",
+        "chromeSourceReviewed": true,
+        "sourceEvidence": "Chrome南紡新品頁690元、加入購物車；低摩擦硬表面、超薄、夜光ROG標誌、易清潔、防滑矽膠底，原廠保固。詳細尺寸淨重待官方。",
+        "sourceAuditDateBasis": "滑鼠墊bundle原始現售/圖片查核日；不隨後續尺寸與issue查核補查改寫",
+        "matchesProduct": {
+          "buyUrl": true,
+          "amount": true,
+          "image": true
+        }
+      },
+      {
+        "id": "mousepad-asus-sheath-ii-xxl",
+        "category": "mousepad",
+        "brand": "ASUS",
+        "model": "ROG Sheath II XXL",
+        "name": "ROG Sheath II XXL 散熱纖維長桌墊（黑色）",
+        "buyUrl": "https://24h.pchome.com.tw/prod/DSBC0X-A900J2M18",
+        "price": {
+          "amount": 1290,
+          "currency": "TWD",
+          "converted": 1290,
+          "basis": "retailer_current",
+          "confidence": "2026-08-31 Chrome實際選定台灣新品版本公開售價；不扣會員、信用卡、點數或滿額優惠。"
+        },
+        "image": "https://img.pchome.com.tw/cs/items/DSBC0XA900J2M18/000001_1784019335.jpg",
+        "naturalWidth": 1000,
+        "checkedAt": "2026-08-31",
+        "chromeSourceReviewed": true,
+        "sourceEvidence": "Chrome南紡頁1290元、唯一主商品_XXL、加入購物車；柔軟散熱纖維布面、耐磨平縫邊緣、長桌墊；不扣95折券。詳細尺寸淨重待官方。",
+        "sourceAuditDateBasis": "滑鼠墊bundle原始現售/圖片查核日；不隨後續尺寸與issue查核補查改寫",
+        "matchesProduct": {
+          "buyUrl": true,
+          "amount": true,
+          "image": true
+        }
+      },
+      {
+        "id": "mousepad-asus-scabbard-ii-xxl",
+        "category": "mousepad",
+        "brand": "ASUS",
+        "model": "ROG Scabbard II Arctic Gray XXL",
+        "name": "ROG Scabbard II Arctic Gray XXL 防護塗層長桌墊（灰白）",
+        "buyUrl": "https://24h.pchome.com.tw/prod/DSBC0X-A900IOI5R",
+        "price": {
+          "amount": 990,
+          "currency": "TWD",
+          "converted": 990,
+          "basis": "retailer_current",
+          "confidence": "2026-08-31 Chrome實際選定台灣新品版本公開售價；不扣會員、信用卡、點數或滿額優惠。"
+        },
+        "image": "https://img.pchome.com.tw/cs/items/DSBC0XA900IOI5R/000001_1784019311.jpg",
+        "naturalWidth": 1000,
+        "checkedAt": "2026-08-31",
+        "chromeSourceReviewed": true,
+        "sourceEvidence": "Chrome南紡灰白XXL新品頁990元、唯一主商品_無、加入購物車；防水油塵塗層、布質編織面、抗磨平縫邊；不扣95折券。詳細尺寸淨重待官方同灰白版。",
+        "sourceAuditDateBasis": "滑鼠墊bundle原始現售/圖片查核日；不隨後續尺寸與issue查核補查改寫",
+        "matchesProduct": {
+          "buyUrl": true,
+          "amount": true,
+          "image": true
+        }
+      },
+      {
+        "id": "mousepad-asus-hone-control-ace-l",
+        "category": "mousepad",
+        "brand": "ASUS",
+        "model": "ROG Hone Control Ace L Vitality Edition",
+        "name": "ROG Hone Control Ace L Vitality Edition 控制型布墊（黃色）",
+        "buyUrl": "https://24h.pchome.com.tw/prod/DCANCA-A900K5SPD",
+        "price": {
+          "amount": 1790,
+          "currency": "TWD",
+          "converted": 1790,
+          "basis": "retailer_current",
+          "confidence": "2026-08-31 Chrome實際選定台灣新品版本公開售價；不扣會員、信用卡、點數或滿額優惠。"
+        },
+        "image": "https://img.pchome.com.tw/cs/items/DCANCAA900K5SPD/000001_1782730349.jpg",
+        "naturalWidth": 1000,
+        "checkedAt": "2026-08-31",
+        "chromeSourceReviewed": true,
+        "sourceEvidence": "Chrome原頁明示南紡新品ROG Hone Control Ace L Vitality、主商品單一規格、1790元、加入購物車。95折券不扣入價格。楊**2026/08/11唯一五星無文字。",
+        "sourceAuditDateBasis": "滑鼠墊bundle原始現售/圖片查核日；不隨後續尺寸與issue查核補查改寫",
+        "matchesProduct": {
+          "buyUrl": true,
+          "amount": true,
+          "image": true
+        }
+      },
+      {
+        "id": "mousepad-razer-firefly-v2-pro",
+        "category": "mousepad",
+        "brand": "Razer",
+        "model": "Firefly V2 Pro",
+        "name": "Firefly V2 Pro 全板背光硬質滑鼠墊（黑色原款）",
+        "buyUrl": "https://24h.pchome.com.tw/prod/DCBF0P-A900HEDG3",
+        "price": {
+          "amount": 3399,
+          "currency": "TWD",
+          "converted": 3399,
+          "basis": "retailer_current",
+          "confidence": "2026-08-31 Chrome實際選定台灣新品版本公開售價；不扣會員、信用卡、點數或滿額優惠。"
+        },
+        "image": "https://img.pchome.com.tw/cs/items/DCBF0PA900HEDG3/000001_1755496431.jpg",
+        "naturalWidth": 640,
+        "checkedAt": "2026-08-31",
+        "chromeSourceReviewed": true,
+        "sourceEvidence": "Chrome本頁僅黑色規格、3399元，不扣下單折扣；無邊框背光、15個Chroma區域、USB2.0連接埠。當頁無詳細材質尺寸文字，待官方規格補充。",
+        "sourceAuditDateBasis": "滑鼠墊bundle原始現售/圖片查核日；不隨後續尺寸與issue查核補查改寫",
+        "matchesProduct": {
+          "buyUrl": true,
+          "amount": true,
+          "image": true
+        }
+      },
+      {
+        "id": "mousepad-asus-moonstone-ace-l",
+        "category": "mousepad",
+        "brand": "ASUS",
+        "model": "ROG Moonstone Ace L",
+        "name": "ROG Moonstone Ace L 9H鋼化玻璃滑鼠墊（黑色）",
+        "buyUrl": "https://24h.pchome.com.tw/prod/DCANCA-A900GL0RG",
+        "price": {
+          "amount": 2990,
+          "currency": "TWD",
+          "converted": 2990,
+          "basis": "retailer_current",
+          "confidence": "2026-08-31 Chrome實際選定台灣新品版本公開售價；不扣會員、信用卡、點數或滿額優惠。"
+        },
+        "image": "https://img.pchome.com.tw/cs/items/DCANCAA900GL0RG/000001_1786959815.jpg",
+        "naturalWidth": 1000,
+        "checkedAt": "2026-08-31",
+        "chromeSourceReviewed": true,
+        "sourceEvidence": "Chrome明示2990元、黑色選項已點選、URL保留；鋼化玻璃、防滑矽膠底；500(L)×400(W)×4(H)mm。圖片自然寬1000，不以縮圖或已選白色價格湊數。",
+        "sourceAuditDateBasis": "滑鼠墊bundle原始現售/圖片查核日；不隨後續尺寸與issue查核補查改寫",
+        "matchesProduct": {
+          "buyUrl": true,
+          "amount": true,
+          "image": true
+        }
+      },
+      {
+        "id": "mousepad-elecom-mp-lmwbk",
+        "category": "mousepad",
+        "brand": "ELECOM",
+        "model": "MP-LMWBK",
+        "name": "ELECOM MP-LMWBK 抗菌防潑水布面滑鼠墊（純黑）",
+        "buyUrl": "https://24h.pchome.com.tw/prod/DCAN3C-A900JLLIO",
+        "price": {
+          "amount": 247,
+          "currency": "TWD",
+          "converted": 247,
+          "basis": "retailer_current",
+          "confidence": "2026-08-31 Chrome實際選定台灣新品版本公開售價；不扣會員、信用卡、點數或滿額優惠。"
+        },
+        "image": "https://img.pchome.com.tw/cs/items/DCAN3CA900JLLIO/000001_1767161587.jpg",
+        "naturalWidth": 1000,
+        "checkedAt": "2026-08-31",
+        "chromeSourceReviewed": true,
+        "sourceEvidence": "Chrome PChome原頁選黑按鈕後247元、新品加入購物車，圖片1000px；布面聚酯、天然橡膠背、W235D205H2mm、約65g、抗菌、包邊，感測器仍有個體差異警語。唯一評價邱**2026/08/30屬水玉黑且無文字，不混入純黑。",
+        "sourceAuditDateBasis": "滑鼠墊bundle原始現售/圖片查核日；不隨後續尺寸與issue查核補查改寫",
+        "matchesProduct": {
+          "buyUrl": true,
+          "amount": true,
+          "image": true
+        }
+      },
+      {
+        "id": "mousepad-kinyo-mp30",
+        "category": "mousepad",
+        "brand": "KINYO",
+        "model": "MP-30",
+        "name": "MP-30 台灣製布面滑鼠墊（180×220mm）",
+        "buyUrl": "https://24h.pchome.com.tw/prod/DCANVI-A900G2F36",
+        "price": {
+          "amount": 99,
+          "currency": "TWD",
+          "converted": 99,
+          "basis": "retailer_current",
+          "confidence": "2026-08-31 Chrome原頁核對所選版本新品公開售價；不扣會員、信用卡、點數或加購優惠。"
+        },
+        "image": "https://img.pchome.com.tw/cs/items/DCANVIA900G2F36/000001_1676964337.jpg",
+        "naturalWidth": 1000,
+        "checkedAt": "2026-08-31",
+        "chromeSourceReviewed": true,
+        "sourceEvidence": "Chrome PChome99元、新品加入購物車、MP-30，圖1000px。佳績布/橡膠、W180H220D3mm、3mm天然橡膠底、產品重量76.3g，包裝W195H255D6另列不可用；先前規格圖83g疑義需官方核對。87則評價99%5星/1%4星，可見賴**08/25、黃**08/24、王**08/16正面。",
+        "sourceAuditDateBasis": "滑鼠墊bundle原始現售/圖片查核日；不隨後續尺寸與issue查核補查改寫",
+        "matchesProduct": {
+          "buyUrl": true,
+          "amount": true,
+          "image": true
+        }
+      },
+      {
+        "id": "mousepad-hp-205",
+        "category": "mousepad",
+        "brand": "HP",
+        "model": "8X597AA",
+        "name": "HP 205 Sanitizable Desk Mat 可擦拭桌墊（8X597AA，灰面黑底）",
+        "buyUrl": "https://24h.pchome.com.tw/prod/DCBANW-A900HACFX",
+        "price": {
+          "amount": 1099,
+          "currency": "TWD",
+          "converted": 1099,
+          "basis": "retailer_current",
+          "confidence": "2026-08-31 Chrome原頁核對所選版本新品公開售價；不扣會員、信用卡、點數或加購優惠。"
+        },
+        "image": "https://img.pchome.com.tw/cs/items/DCBANWA900HACFX/000001_1709718759.jpg",
+        "naturalWidth": 1000,
+        "checkedAt": "2026-08-31",
+        "chromeSourceReviewed": true,
+        "sourceEvidence": "Chrome單品8X597AA灰面黑底、1099元、無適用折價券、加入購物車及廠商出貨可見；不採其他頁推薦979元。原頁rPET聚酯/天然橡膠、四邊防磨縫線。",
+        "sourceAuditDateBasis": "滑鼠墊bundle原始現售/圖片查核日；不隨後續尺寸與issue查核補查改寫",
+        "matchesProduct": {
+          "buyUrl": true,
+          "amount": true,
+          "image": true
+        }
+      },
+      {
+        "id": "mousepad-ikea-blaskata",
+        "category": "mousepad",
+        "brand": "IKEA",
+        "model": "BLÅSKATA 405.695.23",
+        "name": "BLÅSKATA 布面長桌墊（405.695.23，黑灰圖案40×80cm）",
+        "buyUrl": "https://www.ikea.com.tw/en/products/children%27s-small-furniture-eat---study/children%27s-study-furniture---accessories/blaskata-art-40569523",
+        "price": {
+          "amount": 399,
+          "currency": "TWD",
+          "converted": 399,
+          "basis": "retailer_current",
+          "confidence": "2026-08-31 Chrome原頁核對所選版本新品公開售價；不扣會員、信用卡、點數或加購優惠。"
+        },
+        "image": "https://www.ikea.com.tw/dairyfarm/tw/images/982/1198278_PE904000_S4.webp",
+        "naturalWidth": 500,
+        "checkedAt": "2026-08-31",
+        "chromeSourceReviewed": true,
+        "sourceEvidence": "Chrome原頁BLÅSKATA黑灰圖案40x80cm、405.695.23、有線上庫存3件及加入購物車；329明示IKEA Family會員价，不採；記錄一般Normal price399元。原頁無評論，並非零負評推論。",
+        "sourceAuditDateBasis": "滑鼠墊bundle原始現售/圖片查核日；不隨後續尺寸與issue查核補查改寫",
+        "matchesProduct": {
+          "buyUrl": true,
+          "amount": true,
+          "image": true
+        }
+      },
+      {
+        "id": "mousepad-darkflash-dmp300",
+        "category": "mousepad",
+        "brand": "darkFlash",
+        "model": "DMP300",
+        "name": "DMP300 玻璃滑鼠墊（曜石黑，300×250mm標示版）",
+        "buyUrl": "https://24h.pchome.com.tw/prod/DCANY8-A900K3QVK",
+        "price": {
+          "amount": 999,
+          "currency": "TWD",
+          "converted": 999,
+          "basis": "retailer_current",
+          "confidence": "2026-08-31 Chrome原頁核對所選版本新品公開售價；不扣會員、信用卡、點數或加購優惠。"
+        },
+        "image": "https://img.pchome.com.tw/cs/items/DCANY8A900K3QVK/000001_1781182181.jpg",
+        "naturalWidth": 1000,
+        "checkedAt": "2026-08-31",
+        "chromeSourceReviewed": true,
+        "sourceEvidence": "Chrome PChome南紡DMP300、999元，已選曜石黑，冰透白不計第二款；圖片1000px。規格圖強化玻璃微蝕刻、矽膠蜂巢底、圓弧拋光邊、疏水疏油擦拭、厚4mm、產品重585±2g。300x250x4mm未標軸序；不能靠圖方位推定長寬，先保留查不到。",
+        "sourceAuditDateBasis": "滑鼠墊bundle原始現售/圖片查核日；不隨後續尺寸與issue查核補查改寫",
+        "matchesProduct": {
+          "buyUrl": true,
+          "amount": true,
+          "image": true
+        }
+      },
+      {
+        "id": "mousepad-zowie-g-sr-iii",
+        "category": "mousepad",
+        "brand": "ZOWIE",
+        "model": "G-SR III",
+        "name": "G-SR III 控制型布面滑鼠墊（L，470×390mm標示版）",
+        "buyUrl": "https://24h.pchome.com.tw/prod/DSBC0X-A900I3UV4",
+        "price": {
+          "amount": 1150,
+          "currency": "TWD",
+          "converted": 1150,
+          "basis": "retailer_current",
+          "confidence": "2026-08-31 Chrome原頁核對所選版本新品公開售價；不扣會員、信用卡、點數或加購優惠。"
+        },
+        "image": "https://img.pchome.com.tw/cs/items/DSBC0XA900I3UV4/000001_1782373479.jpg",
+        "naturalWidth": 1000,
+        "checkedAt": "2026-08-31",
+        "chromeSourceReviewed": true,
+        "sourceEvidence": "Chrome PChome南紡只列G-SR III主商品_，1150元、加入購物車，主圖1000px。3則5星：鄭**2026/08/19、李**07/25、潘**03/25無文字；規格寫抗潮、縫邊、防滑底，完整尺寸/淨重另補官方。",
+        "sourceAuditDateBasis": "滑鼠墊bundle原始現售/圖片查核日；不隨後續尺寸與issue查核補查改寫",
+        "matchesProduct": {
+          "buyUrl": true,
+          "amount": true,
+          "image": true
+        }
+      },
+      {
+        "id": "mousepad-zowie-g-sr-se-rouge-ii",
+        "category": "mousepad",
+        "brand": "ZOWIE",
+        "model": "G-SR-SE Rouge II",
+        "name": "G-SR-SE Rouge II 平衡型布面滑鼠墊（L，深紅色）",
+        "buyUrl": "https://24h.pchome.com.tw/prod/DCAN33-A900I3E5M",
+        "price": {
+          "amount": 1150,
+          "currency": "TWD",
+          "converted": 1150,
+          "basis": "retailer_current",
+          "confidence": "2026-08-31 Chrome原頁核對所選版本新品公開售價；不扣會員、信用卡、點數或加購優惠。"
+        },
+        "image": "https://img.pchome.com.tw/cs/items/DCAN33A900I3E5M/000001_1776047902.jpg",
+        "naturalWidth": 1000,
+        "checkedAt": "2026-08-31",
+        "chromeSourceReviewed": true,
+        "sourceEvidence": "Chrome PChome当前Rouge II 1150元；站上100元滿額折另列，不先減；canonical原頁已讀無p=2參數。只有此版本，24則全5星，湯**2025/03/05寫超好，其餘可見楊**2026/08/26唐**08/15無文字。文字明示抗潮、無縫邊、防滑底，7日新品故障換貨；不當延長保固。",
+        "sourceAuditDateBasis": "滑鼠墊bundle原始現售/圖片查核日；不隨後續尺寸與issue查核補查改寫",
+        "matchesProduct": {
+          "buyUrl": true,
+          "amount": true,
+          "image": true
+        }
+      },
+      {
+        "id": "mousepad-steelseries-qck-heavy-xxl",
+        "category": "mousepad",
+        "brand": "SteelSeries",
+        "model": "QcK Heavy XXL",
+        "name": "QcK Heavy XXL 大型微織布桌墊（67500，黑色）",
+        "buyUrl": "https://24h.pchome.com.tw/prod/DSBC0X-A900BQ9CG",
+        "price": {
+          "amount": 1088,
+          "currency": "TWD",
+          "converted": 1088,
+          "basis": "retailer_current",
+          "confidence": "2026-08-31 Chrome原頁核對所選版本新品公開售價；不扣會員、信用卡、點數或加購優惠。"
+        },
+        "image": "https://img.pchome.com.tw/cs/items/DSBC0XA900BQ9CG/000001_1770817342.jpg",
+        "naturalWidth": 640,
+        "checkedAt": "2026-08-31",
+        "chromeSourceReviewed": true,
+        "sourceEvidence": "Chrome PChome南紡QCK HEAVY選項尺寸-XXL_，1088元、新品加入購物車；主圖640px。原頁明寫QcK微織布料、可水洗、加厚橡膠底；完整尺寸與淨重待官方補。 已於跨日前補讀官方Black XXL清潔FAQ與MaxGaming同67500寬900／深400／厚4mm；PB Tech 0.943kg明示運送重量，不作淨重。",
+        "sourceAuditDateBasis": "滑鼠墊bundle原始現售/圖片查核日；不隨後續尺寸與issue查核補查改寫",
+        "matchesProduct": {
+          "buyUrl": true,
+          "amount": true,
+          "image": true
+        }
+      },
+      {
+        "id": "mousepad-steelseries-qck-performance-speed-l",
+        "category": "mousepad",
+        "brand": "SteelSeries",
+        "model": "QcK Performance Speed L",
+        "name": "QcK Performance Speed L 尼龍混紡滑鼠墊（63430，黑色）",
+        "buyUrl": "https://24h.pchome.com.tw/prod/DSBC0X-A900IHN91",
+        "price": {
+          "amount": 1390,
+          "currency": "TWD",
+          "converted": 1390,
+          "basis": "retailer_current",
+          "confidence": "2026-08-31 Chrome原頁核對所選版本新品公開售價；不扣會員、信用卡、點數或加購優惠。"
+        },
+        "image": "https://img.pchome.com.tw/cs/items/DSBC0XA900IHN91/000001_1782733003.jpg",
+        "naturalWidth": 1000,
+        "checkedAt": "2026-08-31",
+        "chromeSourceReviewed": true,
+        "sourceEvidence": "Chrome PChome南紡Speed L原頁1390元（非web舊1490；95折券另列未減），主商品_、加入購物車，圖1000px；一則常**2026/02/01五星無文字。頁寫精密低邊縫合、柔軟表面、氯丁橡膠底；尺寸淨重待官方。 已於跨日前Chrome選定官方Large、Speed；真實網址mousepadSize=large&model=Speed，尼龍混紡／氯丁橡膠泡棉／3.5mm、避免肥皂清潔。MaxGaming同63430明列寬490／深420mm；重量候選矛盾，未當淨重。",
+        "sourceAuditDateBasis": "滑鼠墊bundle原始現售/圖片查核日；不隨後續尺寸與issue查核補查改寫",
+        "matchesProduct": {
+          "buyUrl": true,
+          "amount": true,
+          "image": true
+        }
       }
     ]
   }

@@ -11,6 +11,7 @@ const {
   queryTargetsProduct,
   queryTargetsWebsite,
   queryUrlMatchesRecord,
+  reviewedCandidateKeySet,
 } = require("./product-issue-validation");
 
 const SEARCH_CONCURRENCY = 3;
@@ -286,13 +287,13 @@ function candidateReviewKey(candidate) {
   return `${candidate.url}\n${candidate.title}`;
 }
 
-function candidateReviewsMatchSearch(review, searchCheck) {
+function candidateReviewsMatchSearch(review, searchCheck, issueEvidence) {
   if (!Array.isArray(review.candidateReviews)) return false;
   const candidates = searchCheck.candidates || [];
   const expectedKeys = candidates.map(candidateReviewKey).sort();
   const reviewKeys = review.candidateReviews.map(candidateReviewKey).sort();
   if (new Set(reviewKeys).size !== reviewKeys.length) return false;
-  const reviewKeySet = new Set(reviewKeys);
+  const reviewKeySet = reviewedCandidateKeySet(review, issueEvidence);
   if (!expectedKeys.every((key) => reviewKeySet.has(key))) return false;
   return review.candidateReviews.every((candidate) => (
     candidate.outcome === "excluded"
@@ -300,7 +301,7 @@ function candidateReviewsMatchSearch(review, searchCheck) {
     && candidate.platform.trim()
     && isValidReviewDate(candidate.reviewedAt)
     && candidate.reviewedAt <= review.reviewedAt
-    && candidate.exactModel === true
+    && typeof candidate.exactModel === "boolean"
     && typeof candidate.sourceExcerpt === "string"
     && candidate.sourceExcerpt.trim().length >= 12
     && Number.isInteger(candidate.independentAuthors)
@@ -405,7 +406,7 @@ function reviewedDecision(product, reviewById, searchCheck = { candidates: [] })
     || typeof review.candidateDisposition !== "string"
     || !review.candidateDisposition.includes(product.model)
     || !Array.isArray(review.representativeSources)
-    || !candidateReviewsMatchSearch(review, searchCheck)
+    || !candidateReviewsMatchSearch(review, searchCheck, verifiedIssueById.get(product.id))
     || !representativeSourcesMatchReview(review, product)
     || !decisionMatchesEvidence
   ) return null;

@@ -691,7 +691,9 @@ async function assertNoHorizontalOverflow(page, name) {
 }
 
 async function resetFilters(page) {
-  await page.getByRole("button", { name: "重設篩選" }).click();
+  const reset = page.getByRole("button", { name: "重設篩選" });
+  if (!await reset.isVisible()) await page.getByRole("button", { name: /^篩選/ }).click();
+  await reset.click();
   await page.waitForFunction((expected) => {
     return document.querySelector("#visibleCount")?.textContent?.trim() === expected;
   }, EXPECTED_PRODUCT_COUNT_TEXT);

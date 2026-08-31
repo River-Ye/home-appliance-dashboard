@@ -3,6 +3,7 @@ const path = require("path");
 const vm = require("vm");
 const { readDashboardProducts } = require("./read-dashboard-products");
 const { checkIncrementalCatalogAudit } = require("./check-incremental-catalog-audit");
+const { checkPeripherals } = require("./check-peripherals");
 const {
   exactModelMatch,
   exactProductModelMatch,
@@ -469,6 +470,7 @@ async function assertRejects(promise, pattern) {
 
 async function main() {
   checkIncrementalCatalogAudit();
+  checkPeripherals();
   assert(
     DIMENSION_PATTERN.test("尺寸：不含底座 寬 144.1 x 深 4.5 x 高 82.6 cm；含底座 寬 144.1 x 深 26.7 x 高 89.6 cm"),
     "dimension contract should accept separate TV stand configurations",
@@ -2010,6 +2012,27 @@ async function main() {
     unsupportedGlobalCurrencyFailures.some((failure) => failure.includes("supported exchange rate")),
     "global catalog contracts must reject an unsupported source currency",
   );
+  const globalTwdFixture = {
+    ...globalFixture,
+    price: { ...globalFixture.price, currency: "TWD", amount: 6437, converted: 6437 },
+  };
+  const globalTwdFailures = [];
+  validatePriceAndInstallationContract(globalTwdFixture, globalTwdFailures, true);
+  assert(globalTwdFailures.length === 0, "overseas stores may quote TWD directly without invented exchange rates");
+  validatePriceAndInstallationContract({ ...globalTwdFixture, price: { ...globalTwdFixture.price, converted: 6400 } }, globalTwdFailures, true);
+  assert(globalTwdFailures.some((failure) => failure.includes("must match")), "direct TWD quotes must preserve the source amount");
+  const usbPeripheralFixture = {
+    ...globalTwdFixture, category: "keyboard", channel: "tw",
+    voltage: "USB 有線供電；電壓與電流未標示", warranty: "台灣公司貨兩年保固",
+  };
+  const peripheralPowerFailures = [];
+  validatePriceAndInstallationContract(usbPeripheralFixture, peripheralPowerFailures, true);
+  assert(peripheralPowerFailures.length === 0, "non-Top-Pick peripherals may truthfully disclose unknown USB ratings");
+  validatePriceAndInstallationContract({ ...usbPeripheralFixture, category: "monitor-light" }, peripheralPowerFailures, true);
+  assert(peripheralPowerFailures.some((failure) => failure.includes("power specification")), "peripheral exception must not weaken appliance power requirements");
+  const unsafePeripheralFailures = [];
+  validatePriceAndInstallationContract({ ...usbPeripheralFixture, voltage: "220V／50Hz" }, unsafePeripheralFailures, true);
+  assert(unsafePeripheralFailures.some((failure) => failure.includes("50Hz-only")), "peripherals must still reject incompatible mains power");
   const validNetworkSwitchFixture = {
     id: "network-switch-fixture",
     category: "network-switch",
@@ -2334,6 +2357,7 @@ async function main() {
     "official suggested prices must not be presented as retailer historical-low comparisons",
   );
   const officialSuggestedMarkup = templates.cardMarkup(officialSuggestedProduct);
+  assert(officialSuggestedMarkup.includes('referrerpolicy="no-referrer"'), "external product images must omit the page referrer so brand images can load without disclosing the shared search URL");
   assert(
     officialSuggestedMarkup.includes("建議售價") && officialSuggestedMarkup.includes("查看官方資料"),
     "official suggested prices must render explicit label and official-data CTA",
@@ -2342,6 +2366,11 @@ async function main() {
     ...products[0],
     price: { ...products[0].price },
   };
+  const globalTwdMarkup = templates.cardMarkup({
+    ...products[0], channel: "global",
+    price: { ...products[0].price, basis: "retailer_current", currency: "TWD", amount: 6437, converted: 6437 },
+  });
+  assert(globalTwdMarkup.includes("海外通路新台幣報價") && !globalTwdMarkup.includes("台灣通路現價"), "direct TWD prices must not mislabel an overseas seller as a Taiwan channel");
   delete legacyPriceProduct.price.basis;
   const legacyPriceMarkup = templates.cardMarkup(legacyPriceProduct);
   assert(
@@ -2606,6 +2635,10 @@ async function main() {
   };
   assert(queryTargetsProduct(youtubeQuery, c5), "a YouTube query should preserve the exact model");
   assert(queryTargetsWebsite(youtubeQuery), "a YouTube search URL should target YouTube");
+  const insiderQuery = { platform: "Razer Insider", targetHost: "insider.razer.com", query: 'site:insider.razer.com "RZ01-04000100-R3M1"', queryUrl: "https://www.google.com/search?q=site%3Ainsider.razer.com%20%22RZ01-04000100-R3M1%22" };
+  assert(queryTargetsWebsite(insiderQuery), "Razer Insider must count as the Razer website");
+  assert(!queryTargetsWebsite({ ...insiderQuery, targetHost: "mobile01.com" }), "Razer Insider cannot claim a different target website");
+  assert(!queryTargetsWebsite({ ...insiderQuery, query: 'site:insider.razer.com.evil.example "RZ01-04000100-R3M1"' }), "deceptive Insider host must not count");
   assert(queryUrlMatchesRecord(youtubeQuery), "a YouTube search URL should reproduce search_query");
   assert(queryUrlMatchesRecord({
     query: youtubeQuery.query,
@@ -2745,6 +2778,19 @@ async function main() {
     candidateReviews: [{ ...candidateReview, reviewedAt: "2026-07-10" }],
   };
   validateExplicitReview(refreshedReviewWithOlderCandidate, c5);
+  const differentVersionReview = {
+    ...completedReview,
+    candidateReviews: [{ ...candidateReview, exactModel: false, independentAuthors: 0,
+      sourceExcerpt: "原頁標題提及 OLED65C5PTA，但第一人稱回報明確屬其他尺寸版本。",
+      specificReason: "原頁實際使用的是其他尺寸版本，不能將該位作者列入收錄型號的相同問題人數。" }],
+  };
+  validateExplicitReview(differentVersionReview, c5);
+  assert(researchRow(c5, sanitizedSearch, new Map([[c5.id, differentVersionReview]])).workflowStatus === "completed",
+    "an original-page review excluding a different version must remain a completed manual decision");
+  assertThrows(
+    () => validateExplicitReview({ ...completedReview, candidateReviews: [{ ...candidateReview, exactModel: undefined }] }, c5),
+    "an excluded candidate must still explicitly record its model-match decision",
+  );
   assertThrows(
     () => validateExplicitReview({
       ...refreshedReviewWithOlderCandidate,
@@ -2859,7 +2905,7 @@ async function main() {
   const mergeResearchSource = fs.readFileSync(path.join(root, "tools/merge-product-research-bundles.js"), "utf8");
   assert(mergeResearchSource.includes("--date=YYYY-MM-DD"), "research bundle merger must require an explicit date");
   assert(!mergeResearchSource.includes('const CHECKED_AT = "2026-08-20"'), "research bundle merger must not retain a hardcoded date");
-  assert(mergeResearchSource.includes("網路交換器與螢幕燈共 15 類尺寸"), "research bundle merger must include the 15-category dimension policy");
+  assert(mergeResearchSource.includes("${dimensionCategoryCount} 類尺寸、${weightCategoryCount} 類重量"), "research bundle merger must derive measurement category counts from the actual catalog");
 
   Object.assign(dashboard.state, {
     search: "",

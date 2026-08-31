@@ -67,6 +67,7 @@ function queryTargetsWebsite(query) {
     ["mobile01", "mobile01.com"],
     ["ptt", "ptt.cc"],
     ["reddit", "reddit.com"],
+    ["razer insider", "razer.com"],
     ["youtube", "youtube.com"],
   ]);
   const expected = expectedByPlatform.get(normalize(query?.platform));
@@ -75,6 +76,13 @@ function queryTargetsWebsite(query) {
   const siteTargets = [...String(query?.query || "").matchAll(/(?:^|\s)site:([^\s()]+)/gi)]
     .map((match) => canonicalWebsite(match[1]));
   return siteTargets.includes(expected);
+}
+
+function reviewedCandidateKeySet(review, issueResearch) {
+  const accepted = review?.decision === "common_issue" && issueResearch?.status === "common_issue"
+    ? (issueResearch.issues || []).flatMap((issue) => issue.sources || []) : [];
+  return new Set([...(review?.candidateReviews || []), ...accepted]
+    .map((source) => `${source.url || ""}\n${source.title || ""}`));
 }
 
 module.exports = {
@@ -86,5 +94,6 @@ module.exports = {
   queryTargetsProduct,
   queryTargetsWebsite,
   queryUrlMatchesRecord,
+  reviewedCandidateKeySet,
   textContainsExactModel,
 };

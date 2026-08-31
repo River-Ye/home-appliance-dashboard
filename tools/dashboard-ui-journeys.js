@@ -4,6 +4,7 @@ const {
   EXPECTED_CATEGORY_COUNT,
   EXPECTED_PRODUCT_COUNT,
   EXPECTED_CATEGORY_PRODUCT_COUNTS,
+  PERIPHERAL_TYPES,
 } = require("./dashboard-contract");
 const { readDashboardProducts } = require("./read-dashboard-products");
 const {
@@ -1052,6 +1053,46 @@ async function assertUrlHashRestore(page, name) {
   await resetFilters(page);
 }
 
+async function assertPeripheralTypeFilters(page, name, mobile = false) {
+  for (const [category, types] of Object.entries(PERIPHERAL_TYPES)) {
+    const products = DASHBOARD_PRODUCTS.filter((product) => product.category === category);
+    for (const type of mobile ? types.slice(0, 1) : types) {
+      const count = products.filter((product) => product.type === type).length;
+      if (!count) throw new Error(`${name}: missing ${category}/${type} fixture`);
+      await page.goto(`${fileUrl}?category=${category}&type=${type}`, { waitUntil: "domcontentloaded" });
+      await waitForVisibleCount(page, count);
+      await page.waitForFunction(() => document.querySelector("#activeFilterCount")?.textContent.trim() === "2");
+      if (mobile) await page.getByRole("button", { name: /^篩選/ }).click();
+      if (!await page.locator("#typeInput").isVisible()) throw new Error(`${name}: ${category} type filter not visible`);
+      if (!await page.locator('#activeFilterChips [data-clear-filter="type"]').count()) throw new Error(`${name}: ${category} type chip missing`);
+      if (new URL(page.url()).searchParams.get("type") !== type) throw new Error(`${name}: ${type} missing from share URL`);
+      await assertNoHorizontalOverflow(page, `${name}-${category}-${type}`);
+      await page.locator("#brandInput").click();
+      const actualBrands = await page.locator('#brandOptions [data-value]:not([data-value="all"])').evaluateAll((nodes) => nodes.map((node) => node.dataset.value).sort());
+      const expectedBrands = [...new Set(products.map((product) => product.brand))].sort();
+      if (JSON.stringify(actualBrands) !== JSON.stringify(expectedBrands)) throw new Error(`${name}: ${category} leaked unrelated brands`);
+      await page.locator("#searchInput").click();
+    }
+    await selectComboboxOption(page, "#categoryInput", '#categoryOptions [data-value="monitor"]', "電腦螢幕");
+    if (new URL(page.url()).searchParams.has("type")) throw new Error(`${name}: ${category} type survived category switch`);
+    await page.goto(`${fileUrl}?category=${category}&type=gas`, { waitUntil: "domcontentloaded" });
+    await waitForVisibleCount(page, 30);
+    if (new URL(page.url()).searchParams.has("type")) throw new Error(`${name}: ${category} invalid type survived`);
+    const topPick = products.find((product) => product.topPick);
+    if (!topPick) throw new Error(`${name}: ${category} Top Pick missing`);
+    await page.locator(`#topPicks [data-focus-product="${topPick.id}"]`).click();
+    const target = page.locator(`.product-card[data-product-id="${topPick.id}"]`);
+    await page.waitForSelector(".product-card.is-targeted");
+    await target.locator(".compare-button").click();
+    if (!await page.locator("#compareTable").getByText(topPick.model, { exact: false }).count()) throw new Error(`${name}: ${category} comparison missing selected SKU`);
+    // Full-text search also matches related model names in descriptions; the selected version name is unique.
+    await page.fill("#searchInput", topPick.name);
+    await waitForVisibleCount(page, 1);
+    await resetFilters(page);
+    if (new URL(page.url()).searchParams.has("type")) throw new Error(`${name}: reset retained type`);
+  }
+}
+
 async function runTypeFilterJourney(browser) {
   const name = "dashboard-type-filter";
   const page = await browser.newPage({ viewport: { width: 1100, height: 900 } });
@@ -1140,6 +1181,7 @@ async function runTypeFilterJourney(browser) {
     if (!await basisRow.getByText("官方建議售價", { exact: true }).count()) throw new Error(`${name}: comparison price basis is missing`);
     const installationRow = page.locator("#compareTable tr", { has: page.getByRole("rowheader", { name: "安裝" }) });
     if (!await installationRow.locator("td").count()) throw new Error(`${name}: comparison installation disclosure is missing`);
+    await assertPeripheralTypeFilters(page, name);
     assertNoRuntimeIssues(page, name);
   } finally {
     await page.close();
@@ -1165,6 +1207,7 @@ async function runTypeFilterJourney(browser) {
     if (await mobile.locator("#typeInput").inputValue() !== "10G（8 埠）") throw new Error(`${mobileName}: mobile switch speed is stale`);
     if (EXPECTED_NETWORK_SWITCH_COUNT !== 20) throw new Error(`${mobileName}: network-switch fixture count is stale`);
     await assertNoHorizontalOverflow(mobile, `${mobileName}-switch`);
+    await assertPeripheralTypeFilters(mobile, mobileName, true);
     assertNoRuntimeIssues(mobile, mobileName);
   } finally {
     await mobile.close();

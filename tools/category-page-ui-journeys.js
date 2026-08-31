@@ -9,6 +9,9 @@ const editorialTeam = "家電推薦比較工作台專案編輯團隊";
 const representativeCategories = [
   { id: "tv", label: "電視" },
   { id: "monitor", label: "電腦螢幕" },
+  { id: "mouse", label: "滑鼠" },
+  { id: "keyboard", label: "鍵盤" },
+  { id: "mousepad", label: "滑鼠墊" },
 ];
 const viewports = [
   { name: "category-desktop", viewport: { width: 1440, height: 1100 } },

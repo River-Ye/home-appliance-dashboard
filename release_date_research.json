@@ -1,17 +1,18 @@
 {
   "summary": {
-    "checkedAt": "2026-08-31T00:00:00+08:00",
-    "total": 943,
-    "researchedThisRun": 20,
-    "found": 272,
-    "missing": 671,
+    "checkedAt": "2026-09-01T00:00:00+08:00",
+    "total": 1033,
+    "researchedThisRun": 90,
+    "found": 329,
+    "missing": 704,
     "byConfidence": {
       "official": 179,
-      "not_found": 671,
+      "not_found": 701,
       "retailer_explicit": 22,
       "credible_article": 52,
-      "high": 17,
-      "medium": 2
+      "high": 60,
+      "medium": 16,
+      "unknown": 3
     }
   },
   "results": [
@@ -29001,6 +29002,2586 @@
         "https://www.quntis.com/de/blogs/support-manuals/user-manual-quntis-curved-monitor-light-bar-im-music-sync-45-cm-17-7-inch-black",
         "https://www.quntis.com/products/quntis-monitor-light-bar-with-dual-control-adjustable-brightness-color-temperature-11-rgb-modes",
         "https://www.google.com/search?q=%22Quntis%20IMS45BK%22%20release%20launch"
+      ]
+    },
+    {
+      "id": "mouse-sony-mse-g500",
+      "category": "mouse",
+      "brand": "Sony",
+      "model": "MSE-G500",
+      "name": "INZONE Mouse-A MSE-G500/B 黑色無線電競滑鼠",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "2025-09-17",
+      "sourceUrl": "https://www.sony.com.tw/corporate/home/NewsCenter/Detail/INZONESERIES",
+      "sourceTitle": "Sony 全新 INZONE 系列推出完整配備開創遊戲新局",
+      "evidenceSnippet": "2025-09-16 官方新聞稿末段明示 INZONE 周邊將於明日(9/17)正式在台上市，並列 Mouse-A 無線電競滑鼠 NT$4,990；前文將 Mouse-A 與 MSE-G500 對應。",
+      "confidence": "high",
+      "sourceKind": "official_launch",
+      "reason": "Chrome 原頁明示在台上市日，不採文章日期或耳機10月上市日。",
+      "query": "\"Sony\" \"MSE-G500\" 上市 發售",
+      "auditQueries": [
+        "\"Sony\" \"MSE-G500\" 上市 發售"
+      ],
+      "checkedAt": "2026-08-31",
+      "auditDisposition": "confirmed_found",
+      "checkedSources": [
+        {
+          "url": "https://store.sony.com.tw/product/MSE-G500/B",
+          "title": "INZONE Mouse-A MSE-G500/B 黑色無線電競滑鼠",
+          "outcome": "核對黑色MSE-G500/B完整產品；與新聞原文連結一致。"
+        },
+        {
+          "url": "https://www.sony.com.tw/corporate/home/NewsCenter/Detail/INZONESERIES",
+          "title": "Sony INZONE 台灣上市公告",
+          "outcome": "明列2025-09-17上市。"
+        }
+      ]
+    },
+    {
+      "id": "mouse-logitech-mx-master-4",
+      "category": "mouse",
+      "brand": "Logitech",
+      "model": "MX Master 4",
+      "name": "MX Master 4 石墨灰 910-007567 無線智能滑鼠",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "2025-09-30",
+      "sourceUrl": "https://news.logitech.com/press-releases/news-details/2025/Remastering-an-Icon-Introducing-Logitech-MX-Master-4/default.aspx",
+      "sourceTitle": "Remastering an Icon: Introducing Logitech MX Master 4",
+      "evidenceSnippet": "官方新聞 2025-09-30 正文 today unveiled MX Master 4，列一般版 Graphite/Pale Grey 與 for Mac/Business 的不同版本；記錄正式推出日，不宣稱台灣到貨日。",
+      "confidence": "high",
+      "sourceKind": "official_announcement",
+      "reason": "官方正式推出一般版 MX Master 4；非支援頁檔案時間。",
+      "query": "Logitech \"MX Master 4\" launch release",
+      "auditQueries": [
+        "Logitech \"MX Master 4\" launch release"
+      ],
+      "checkedAt": "2026-08-31",
+      "auditDisposition": "confirmed",
+      "checkedSources": [
+        {
+          "url": "https://news.logitech.com/press-releases/news-details/2025/Remastering-an-Icon-Introducing-Logitech-MX-Master-4/default.aspx",
+          "title": "Remastering an Icon: Introducing Logitech MX Master 4",
+          "result": "官方 today unveiled 對應 2025-09-30"
+        }
+      ]
+    },
+    {
+      "id": "mouse-logitech-mx-ergo-s",
+      "category": "mouse",
+      "brand": "Logitech",
+      "model": "MX Ergo S",
+      "name": "MX Ergo S 910-007262 右手拇指無線軌跡球",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "2024-09-13",
+      "sourceUrl": "https://www.logitech.com/blog/2024/09/13/work-in-your-comfort-zone-with-logitechs-upgraded-wireless-trackballs/",
+      "sourceTitle": "Work In Your Comfort Zone with Logitech’s Upgraded Wireless Trackballs",
+      "evidenceSnippet": "Logitech 2024-09-13 官方正文 today introduces ERGO M575S and MX Ergo S，並明示 available now on Logitech.com and at retailers globally。採全球正式推出日，不聲稱台灣到貨日；Plus 加墊版本另列為北美限定，未套用。",
+      "confidence": "high",
+      "sourceKind": "official_announcement",
+      "reason": "官方明示兩個新 S 型號當日發表並可購買，非舊款或支援文件日期。",
+      "query": "MX Ergo S release launch Logitech",
+      "checkedAt": "2026-08-31",
+      "auditDisposition": "confirmed",
+      "checkedSources": [
+        {
+          "url": "https://www.logitech.com/blog/2024/09/13/work-in-your-comfort-zone-with-logitechs-upgraded-wireless-trackballs/",
+          "title": "Logitech upgraded wireless trackballs",
+          "result": "2024-09-13 introduces and available now"
+        }
+      ]
+    },
+    {
+      "id": "mouse-logitech-ergo-m575s",
+      "category": "mouse",
+      "brand": "Logitech",
+      "model": "ERGO M575S",
+      "name": "ERGO M575S 石墨灰 910-007033 無線軌跡球",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "2024-09-13",
+      "sourceUrl": "https://www.logitech.com/blog/2024/09/13/work-in-your-comfort-zone-with-logitechs-upgraded-wireless-trackballs/",
+      "sourceTitle": "Work In Your Comfort Zone with Logitech’s Upgraded Wireless Trackballs",
+      "evidenceSnippet": "Logitech 2024-09-13 官方正文 today introduces ERGO M575S and MX Ergo S，並明示 available now on Logitech.com and at retailers globally。採全球正式推出日，不聲稱台灣到貨日；Plus 加墊版本另列為北美限定，未套用。",
+      "confidence": "high",
+      "sourceKind": "official_announcement",
+      "reason": "官方明示兩個新 S 型號當日發表並可購買，非舊款或支援文件日期。",
+      "query": "ERGO M575S release launch Logitech",
+      "checkedAt": "2026-08-31",
+      "auditDisposition": "confirmed",
+      "checkedSources": [
+        {
+          "url": "https://www.logitech.com/blog/2024/09/13/work-in-your-comfort-zone-with-logitechs-upgraded-wireless-trackballs/",
+          "title": "Logitech upgraded wireless trackballs",
+          "result": "2024-09-13 introduces and available now"
+        }
+      ]
+    },
+    {
+      "id": "mouse-logitech-m750",
+      "category": "mouse",
+      "brand": "Logitech",
+      "model": "M750",
+      "name": "Signature Plus M750 石墨黑 910-007440 一般尺寸多工靜音滑鼠",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "sourceKind": "not_found",
+      "query": "\"M750\" \"910-007440\" 上市 發售",
+      "auditQueries": [
+        "Logitech M750 910-007440 release launch 上市",
+        "\"Logitech M750\" 台灣 上市 2024 2025"
+      ],
+      "reason": "已讀官方台灣規格與店頁未明示上市日；日本2022-11-24正式公告對應910-006919等日版，且尺寸重量與本筆台灣7440不同，不能跨版採用。MK950 Combo及AI Edition的發表時間亦不是本單品版本。",
+      "checkedAt": "2026-08-31",
+      "auditDisposition": "not_found",
+      "checkedSources": [
+        {
+          "url": "https://www.logitech.com/zh-tw/shop/p/m750-signature-plus-wireless-mouse",
+          "title": "Logitech Signature Plus M750 台灣規格",
+          "outcome": "確認7440一般尺寸，未標正式上市／發售日"
+        },
+        {
+          "url": "https://store.logitech.tw/products/m750",
+          "title": "台灣旗艦店 M750",
+          "outcome": "未標上市日，不使用上架/圖片時間"
+        },
+        {
+          "url": "https://press.logicool.co.jp/ja-jp/m750m650m550/",
+          "title": "日本SIGNATURE新定番系列公告",
+          "outcome": "2022-11-24為不同日版SKU，排除"
+        }
+      ]
+    },
+    {
+      "id": "mouse-logitech-m190",
+      "category": "mouse",
+      "brand": "Logitech",
+      "model": "M190",
+      "name": "M190 木炭黑 910-005916 全尺寸無線滑鼠",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "sourceKind": "not_found",
+      "query": "\"Logitech M190\" 台灣 上市 2020 910-005916",
+      "auditQueries": [
+        "Logitech M190 release launch September 2020"
+      ],
+      "reason": "官方德文2020-08-24公告明列德國市場2020-08-28開賣，未對應台灣910-005916；日本和中國又有不同市場日期。台灣官規/店頁未標明此SKU上市日，避免跨區版日期與NCC/文件日期代填。",
+      "checkedAt": "2026-08-31",
+      "auditDisposition": "not_found",
+      "checkedSources": [
+        {
+          "url": "https://www.logitech.com/zh-tw/shop/p/m190-wireless-mouse.910-005920",
+          "title": "M190台灣官方規格",
+          "outcome": "明列木炭黑5916，但未明示上市日"
+        },
+        {
+          "url": "https://store.logitech.tw/products/m190?variant=40018414206999",
+          "title": "M190台灣旗艦店",
+          "outcome": "未標上市日"
+        },
+        {
+          "url": "https://press.logitech.eu/de-de/produktives-arbeiten-bei-hohem-komfort-logitech-stellt-kabellose-maus-m190-vor/",
+          "title": "Logitech M190德國官方發表",
+          "outcome": "2020-08-28為德國開售，未確認台灣SKU，未採"
+        }
+      ]
+    },
+    {
+      "id": "mouse-logitech-m240",
+      "category": "mouse",
+      "brand": "Logitech",
+      "model": "M240",
+      "name": "M240 珍珠白 910-007126 靜音藍牙滑鼠（不附接收器）",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "2023-05-12",
+      "sourceUrl": "https://www.logitech.com/blog/2023/05/12/effortlessly-connect-with-the-logitech-m240-silent-bluetooth-mouse/",
+      "sourceTitle": "Effortlessly Connect with the Logitech M240 Silent Bluetooth Mouse",
+      "evidenceSnippet": "Logitech 2023-05-12原始公告明列一般版M240的graphite/off-white/rose並寫now available for purchase，Chrome讀取原頁。台灣白色SKU另由當前官規與選定店頁核對；不是後來附接收器Business版本。",
+      "confidence": "high",
+      "sourceKind": "official_announcement",
+      "checkedAt": "2026-08-31",
+      "reason": "採白色一般版全球正式發售公告日，不宣稱台灣到貨日；日本6月1日與中國通路2023-06區域日期不套用。",
+      "query": "\"M240\" Logitech launch May 2023",
+      "auditQueries": [
+        "\"M240\" \"910-007126\" 上市",
+        "\"M240\" Logitech launch May 2023",
+        "\"Effortlessly Connect with the Logitech M240\""
+      ],
+      "auditDisposition": "confirmed",
+      "checkedSources": [
+        {
+          "url": "https://www.logitech.com/zh-tw/shop/p/m240-silent-bluetooth-mouse.910-007126",
+          "title": "Logitech台灣M240白色7126規格",
+          "result": "選定版型號與規格"
+        },
+        {
+          "url": "https://www.logitech.com/blog/2023/05/12/effortlessly-connect-with-the-logitech-m240-silent-bluetooth-mouse/",
+          "title": "M240全球發售公告",
+          "result": "2023-05-12 now available，列白色一般版"
+        },
+        {
+          "url": "https://press.logitech.eu/de-de/im-handumdrehen-verbunden-mit-der-neuen-logitech-m240-silent-bluetooth-maus/",
+          "title": "歐洲官方M240公告",
+          "result": "同日即日起供貨，僅補充全球公告而非台灣日期"
+        }
+      ]
+    },
+    {
+      "id": "mouse-logitech-lift",
+      "category": "mouse",
+      "brand": "Logitech",
+      "model": "Lift",
+      "name": "Lift 珍珠白 910-006483 右手人體工學垂直滑鼠",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "2022-04",
+      "sourceUrl": "https://news.logitech.com/press-releases/news-details/2022/Meet-Lift-Logitechs-New-Vertical-Ergonomic-Mouse/default.aspx",
+      "sourceTitle": "Meet Lift, Logitech’s New Vertical Ergonomic Mouse",
+      "evidenceSnippet": "Chrome讀取2022-04-19官方原文，白色／粉色／灰色一般Lift列於本次發表，Pricing and Availability明定2022年4月於官方及全球通路供應。",
+      "confidence": "high",
+      "sourceKind": "official_announcement",
+      "checkedAt": "2026-08-31",
+      "reason": "採明示全球發售月份2022-04，不把4月19日發表日補成台灣上市日；排除另述Business版。",
+      "query": "Logitech \"Lift\" release April 2022",
+      "checkedSources": [
+        {
+          "url": "https://www.logitech.com/zh-tw/shop/p/lift-vertical-ergonomic-mouse.910-006483",
+          "title": "Lift台灣白色6483規格",
+          "result": "所选版本"
+        },
+        {
+          "url": "https://news.logitech.com/press-releases/news-details/2022/Meet-Lift-Logitechs-New-Vertical-Ergonomic-Mouse/default.aspx",
+          "title": "Lift官方發售公告",
+          "result": "白色一般版2022-04全球發售"
+        }
+      ]
+    },
+    {
+      "id": "mouse-logitech-mx-vertical",
+      "category": "mouse",
+      "brand": "Logitech",
+      "model": "MX Vertical",
+      "name": "MX Vertical 石墨灰 910-005450 充電式垂直滑鼠",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "2018-09",
+      "sourceUrl": "https://ir.logitech.com/news/news-details/2018/Logitech-Goes-Vertical-With-Its-Most-Advanced-Ergonomic-Mouse/default.aspx",
+      "sourceTitle": "Logitech Goes Vertical With Its Most Advanced Ergonomic Mouse",
+      "evidenceSnippet": "官方2018-08-20新聞稿Pricing and Availability明示select retail stores於9月供應，8月20日僅開始預購。",
+      "confidence": "high",
+      "sourceKind": "official_announcement",
+      "checkedAt": "2026-08-31",
+      "reason": "採官方明示零售供應月份2018-09；非台灣獨立上市日，不將發表或預購日代替發售日。",
+      "query": "Logitech \"MX Vertical\" release 2018",
+      "checkedSources": [
+        {
+          "url": "https://www.logitech.com/zh-tw/shop/p/mx-vertical-ergonomic-mouse.910-005450",
+          "title": "台灣MX Vertical石墨灰5450",
+          "result": "確定所選版本"
+        },
+        {
+          "url": "https://www.logitech.com/content/dam/logitech/zh/business/pdf/mx-vertical-advanced-ergo-mouse-data-sheet.pdf",
+          "title": "MX Vertical官方全球資料表",
+          "result": "區域料號5447/5448/5449/5450皆同名石墨灰款"
+        },
+        {
+          "url": "https://ir.logitech.com/news/news-details/2018/Logitech-Goes-Vertical-With-Its-Most-Advanced-Ergonomic-Mouse/default.aspx",
+          "title": "官方發售公告",
+          "result": "2018-09零售供應"
+        }
+      ]
+    },
+    {
+      "id": "mouse-logitech-g102-lightsync",
+      "category": "mouse",
+      "brand": "Logitech",
+      "model": "G102",
+      "name": "G102 LIGHTSYNC 第二代 莫蘭紫 910-005856 有線滑鼠",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "https://gnn.gamer.com.tw/detail.php?sn=203569",
+      "sourceTitle": "Logitech G 推出玩色系列（GNN廠商提供資料）",
+      "evidenceSnippet": "Chrome原文2020-09-21『今（21）日宣布推出』明列G102莫蘭紫；末段只說『全系列將於官方限定通路開賣』，未標開賣日期。",
+      "confidence": "not_found",
+      "sourceKind": "not_found",
+      "checkedAt": "2026-08-31",
+      "reason": "9月21日只證明發表，不能當開賣；4月黑白初代色與G203全球地域型號未獨立完成上市映射，不套本筆紫色確切發售日。",
+      "query": "\"G102\" \"莫蘭紫\" \"上市\"",
+      "checkedSources": [
+        {
+          "url": "https://www.logitech.com/zh-tw/shop/p/g203-lightsync-rgb-gaming-mouse.910-005856",
+          "title": "台灣G102官方5856",
+          "result": "紫色型號確認，無發售日期"
+        },
+        {
+          "url": "https://gnn.gamer.com.tw/detail.php?sn=203569",
+          "title": "2020-09-21玩色系列廠商公告",
+          "result": "宣布推出及將開賣，未寫開始供貨日"
+        },
+        {
+          "url": "https://www.thebest.com.tw/product_d.php?id=2591&lang=tw&tb=1",
+          "title": "祥豪G102第二代",
+          "result": "確認紫5856，不提供上市日"
+        }
+      ]
+    },
+    {
+      "id": "mouse-logitech-g304",
+      "category": "mouse",
+      "brand": "Logitech",
+      "model": "G304",
+      "name": "G304 LIGHTSPEED 白色 910-005294 無線滑鼠",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "2018-05",
+      "sourceUrl": "https://www.review33.com/news/news.php?news_id=20180606010551",
+      "sourceTitle": "Logitech G推出全新無線遊戲滑鼠（Logitech HK供稿）",
+      "evidenceSnippet": "原文作者Logitech HK，G304黑白兩色；Pricing and Availability明示『2018年5月全球各大零售商發售』。2018-06-06是頁面發布日，不當成上市日。",
+      "confidence": "high",
+      "sourceKind": "official_announcement",
+      "checkedAt": "2026-08-31",
+      "reason": "採原始G304黑白同時推出的全球發售月份，不推定台灣獨立通路到貨日。",
+      "checkedSources": [
+        {
+          "url": "https://www.logitech.com/zh-tw/shop/p/g305-lightspeed-wireless-gaming-mouse.910-005294",
+          "title": "G304白5294台灣官方",
+          "result": "確認原版黑白型號及規格，無上市日"
+        },
+        {
+          "url": "https://www.review33.com/news/news.php?news_id=20180606010551",
+          "title": "Logitech HK原廠供稿",
+          "result": "明確2018年5月全球黑白發售；root Chrome與本agent原頁覆核"
+        }
+      ]
+    },
+    {
+      "id": "mouse-logitech-g502-hero",
+      "category": "mouse",
+      "brand": "Logitech",
+      "model": "G502 HERO",
+      "name": "G502 HERO 黑色 910-005473 有線滑鼠",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "2018-10",
+      "sourceUrl": "https://news.logitech.com/press-releases/news-details/2018/Award-Winning-Logitech-G502-Gaming-Mouse-Gets-an-Upgrade/default.aspx",
+      "sourceTitle": "Award-Winning Logitech G502 Gaming Mouse Gets an Upgrade",
+      "evidenceSnippet": "Logitech 2018-08-30原廠公告的Pricing and Availability明列新G502 HERO預計2018年10月全球零售上市；不是直接把公告日當發售日。",
+      "confidence": "high",
+      "sourceKind": "official_announcement",
+      "checkedAt": "2026-08-31",
+      "reason": "採同商業型號首次全球發售月份；現行塑料線批次引入日查不到，不以2020年HERO25K軟體更新重設上市日。",
+      "checkedSources": [
+        {
+          "url": "https://www.logitech.com/zh-tw/shop/p/g502-hero-gaming-mouse.910-005473",
+          "title": "台灣官方黑色5473",
+          "result": "核對目前完整型號與25K規格"
+        },
+        {
+          "url": "https://news.logitech.com/press-releases/news-details/2018/Award-Winning-Logitech-G502-Gaming-Mouse-Gets-an-Upgrade/default.aspx",
+          "title": "Logitech官方2018上市公告",
+          "result": "明確2018年10月零售發售"
+        },
+        {
+          "url": "https://www.logitech.com/blog/2020/09/15/logitech-g-introduces-hero-25k-sensor-the-industrys-highest-performing-dpi-offering/",
+          "title": "Logitech官方HERO25K更新",
+          "result": "明列G502 HERO為免費軟體升級，不是新硬體上市"
+        }
+      ]
+    },
+    {
+      "id": "mouse-logitech-m720",
+      "category": "mouse",
+      "brand": "Logitech",
+      "model": "M720",
+      "name": "M720 Triathlon 黑色 910-004793 多工無線滑鼠",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "2016-09-28",
+      "sourceUrl": "https://gnn.gamer.com.tw/detail.php?sn=137797",
+      "sourceTitle": "羅技旗下多工無線滑鼠 M720 於 28 日上市",
+      "evidenceSnippet": "2016-09-23 GNN所載廠商提供資料原文末段，明列M720多工無線滑鼠將於9月28日正式上市。首段也明示在台正式上市，非9月23日新聞刊登日。",
+      "confidence": "high",
+      "sourceKind": "official_announcement",
+      "checkedAt": "2026-08-31",
+      "reason": "web擷取403後用Chrome完整讀主文，核對M720名稱及廠商原文標記；CTimes9月30日再述28日上市作發現線索，但CTimes原頁timeout未充作親讀證據。",
+      "checkedSources": [
+        {
+          "url": "https://www.logitech.com/zh-tw/shop/p/m720-triathlon.910-004793",
+          "title": "台灣官方M720",
+          "result": "確認黑色4793與規格；無上市日"
+        },
+        {
+          "url": "https://gnn.gamer.com.tw/detail.php?sn=137797",
+          "title": "羅技旗下多工無線滑鼠 M720 於 28 日上市",
+          "result": "root Chrome完整閱讀廠商原稿，明示9月28日在台上市"
+        }
+      ]
+    },
+    {
+      "id": "mouse-logitech-m650",
+      "category": "mouse",
+      "brand": "Logitech",
+      "model": "M650",
+      "name": "Signature M650 石墨灰 910-006259 標準尺寸靜音滑鼠",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "2022-01",
+      "sourceUrl": "https://news.logitech.com/press-releases/news-details/2022/Logitech-Signature-M650-Mouse-Offers-a-More-Personalized-Experience-and-a-Left-Handed-Option/default.aspx",
+      "sourceTitle": "Logitech Signature M650 Mouse Offers a More Personalized Experience and a Left-Handed Option",
+      "evidenceSnippet": "2022-01-11官方新聞Pricing and Availability明示M650滑鼠於2022年1月在Logitech.com及全球零售販售，正文含標準M650與石墨灰；不是把公告日當發售日。",
+      "confidence": "high",
+      "sourceKind": "official_announcement",
+      "checkedAt": "2026-08-31",
+      "reason": "採全球發售月份；台灣獨立發售日未找到，M750或驅動更新日期不可替代。",
+      "checkedSources": [
+        {
+          "url": "https://www.logitech.com/zh-tw/shop/p/m650-signature-wireless-mouse",
+          "title": "台灣官方M650",
+          "result": "精確標準尺寸6259、無發售日"
+        },
+        {
+          "url": "https://news.logitech.com/press-releases/news-details/2022/Logitech-Signature-M650-Mouse-Offers-a-More-Personalized-Experience-and-a-Left-Handed-Option/default.aspx",
+          "title": "Logitech原廠上市公告",
+          "result": "明示2022年1月零售發售"
+        }
+      ]
+    },
+    {
+      "id": "mouse-logitech-m331",
+      "category": "mouse",
+      "brand": "Logitech",
+      "model": "M331",
+      "name": "M331 SILENT PLUS 黑色 910-004917 靜音滑鼠",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "sourceKind": "not_found",
+      "checkedAt": "2026-08-31",
+      "reason": "台灣官頁與黑4917官店未列發售日；2016-09-23為日本旧版M331BK等料號的上市，現官店並列兩NCC型號且已刷新外觀，未查得此現售批次独立日期，不用型號年代或認證日猜測。",
+      "checkedSources": [
+        {
+          "url": "https://www.logitech.com/zh-tw/shop/p/m330-silent-plus-mouse.910-004917",
+          "title": "台灣官方M331 4917",
+          "result": "無上市日，現規78g/18月"
+        },
+        {
+          "url": "https://store.logitech.tw/products/m331",
+          "title": "台灣官店M331 4917",
+          "result": "無上市日、出貨批次未鎖定"
+        },
+        {
+          "url": "https://press.logicool.co.jp/ja-jp/rozikuru-JingYinmausu4JiZhongwo9Yue23RiniFaMaiKaiShim220m221m330m331iyoiyo9Yue15RiniFaMaiKaiShi/",
+          "title": "日本官方2016靜音滑鼠上市公告",
+          "result": "日本旧90g型號，不採作現售刷新批次日期"
+        }
+      ]
+    },
+    {
+      "id": "mouse-logitech-m185",
+      "category": "mouse",
+      "brand": "Logitech",
+      "model": "M185",
+      "name": "M185 灰色 910-002258 三鍵無線滑鼠",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "sourceKind": "not_found",
+      "checkedAt": "2026-08-31",
+      "reason": "2011-08-10自由電子報原文明確即日起開賣三色M185，僅能確立首代商業型號；官方支援今列六種硬體M/N，燦坤2258未鎖出貨批次，未找到當前批次獨立發售日期，不把首代日套刷新硬體。",
+      "checkedSources": [
+        {
+          "url": "https://www.logitech.com/zh-tw/shop/p/m185-wireless-mouse.910-002501",
+          "title": "台灣官方M185規格／灰色2258映射",
+          "result": "未列上市日"
+        },
+        {
+          "url": "https://support.logi.com/hc/en-us/articles/360023302074-M185-Technical-Specifications",
+          "title": "M185 Technical Specifications",
+          "result": "六種M/N規格不同，非單一硬體"
+        },
+        {
+          "url": "https://3c.ltn.com.tw/news/2440",
+          "title": "羅技M185台灣上市新聞",
+          "result": "2011-08-10即日起開賣，僅首代日期"
+        }
+      ]
+    },
+    {
+      "id": "mouse-logitech-g403-hero",
+      "category": "mouse",
+      "brand": "Logitech",
+      "model": "G403 HERO",
+      "name": "G403 HERO 黑色 910-005635 有線電競滑鼠",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "2019-06",
+      "sourceUrl": "https://news.logitech.com/press-releases/news-details/2019/Logitech-G-Expands-HERO-16K-Sensor-to-New-Line-Up-of-Gaming-Mice/default.aspx",
+      "sourceTitle": "Logitech G Expands HERO 16K Sensor to New Line-Up of Gaming Mice",
+      "evidenceSnippet": "官方2019-06-11新聞明列G403 HERO、G703與G903 HERO，並明示global retail availability in June 2019；採月份，不把發表日填成開賣日。後續25K為韌體升級而非新商業型號。",
+      "confidence": "high",
+      "sourceKind": "official_press_release",
+      "checkedAt": "2026-08-31",
+      "reason": "HERO版正式全球發售月份；不套用Prodigy/3366發售日。"
+    },
+    {
+      "id": "mouse-logitech-mx-anywhere-3s",
+      "category": "mouse",
+      "brand": "Logitech",
+      "model": "MX Anywhere 3S",
+      "name": "MX Anywhere 3S 石墨灰 910-006935 無線滑鼠",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "2023-06-28",
+      "sourceUrl": "https://3c.ltn.com.tw/news/53782",
+      "sourceTitle": "羅技MX Anywhere 3S 無線「靜音」行動滑鼠！一秒滾動千行、省時省力",
+      "evidenceSnippet": "自由時報2023-06-19原文明列MX Anywhere 3S灰、白、粉三色2990元，並明示預計6月28日全面在台上市。採正式全通路上市日，不將文章發布日或MX Keys S日期直接移用。",
+      "confidence": "medium",
+      "sourceKind": "credible_media_release_report",
+      "checkedAt": "2026-09-01",
+      "reason": "台灣全面上市公告，與全球發表時間或單一通路先售區別。"
+    },
+    {
+      "id": "mouse-razer-cobra",
+      "category": "mouse",
+      "brand": "Razer",
+      "model": "RZ01-04650100-R3M1",
+      "name": "Cobra 有線電競滑鼠 黑色 RZ01-04650100-R3M1",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "2023-06-29",
+      "sourceUrl": "https://press.razer.com/product-news/the-razer-cobra-pro-and-razer-cobra-emerge-a-distinct-new-mouse-line-thats-perfect-for-play/",
+      "sourceTitle": "Cobra 有線電競滑鼠 黑色 官方上市公告",
+      "evidenceSnippet": "官方原文明示 Cobra 及 Cobra Pro 當日可購入；分別售39.99/129.99美元，本筆僅採標準有線 Cobra，不套Pro規格。",
+      "confidence": "high",
+      "sourceKind": "official_press_release",
+      "checkedAt": "2026-09-01",
+      "reason": "只採原版完整有線機型，全球上市日期並非台灣SKU首賣證明。"
+    },
+    {
+      "id": "mouse-razer-basilisk-v3",
+      "category": "mouse",
+      "brand": "Razer",
+      "model": "RZ01-04000100-R3M1",
+      "name": "Basilisk V3 有線 26K 黑色 RZ01-04000100-R3M1",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "2021-09-08",
+      "sourceUrl": "https://press.razer.com/product-news/the-new-razer-basilisk-v3-everything-a-gamer-wants-in-a-customizable-gaming-mouse/",
+      "sourceTitle": "Basilisk V3 有線 26K 黑色 官方上市公告",
+      "evidenceSnippet": "官方正文WHERE/WHEN明确Razer.com及全球授權商2021-09-08可售；非35K及無線Pro後繼機。",
+      "confidence": "high",
+      "sourceKind": "official_press_release",
+      "checkedAt": "2026-09-01",
+      "reason": "只採原版完整有線機型，全球上市日期並非台灣SKU首賣證明。"
+    },
+    {
+      "id": "mouse-logitech-m350s",
+      "category": "mouse",
+      "brand": "Logitech",
+      "model": "M350S",
+      "name": "Pebble Mouse 2 M350S 玫瑰粉 910-006996 藍牙滑鼠",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "2023-09-06",
+      "sourceUrl": "https://www.logitech.com/blog/2023/09/06/make-your-statement-with-logitechs-pebble-2-collection/",
+      "sourceTitle": "Make Your Statement with Logitech’s Pebble 2 Collection",
+      "evidenceSnippet": "Logitech官方2023-09-06公告具名Pebble Mouse 2 M350s及Tonal Rose，末段明示系列available now。保留全球上市範圍，地區配色可異，不推定台灣首賣日。",
+      "confidence": "high",
+      "sourceKind": "official_press_release",
+      "checkedAt": "2026-09-01",
+      "reason": "Logitech官方2023-09-06公告具名Pebble Mouse 2 M350s及Tonal Rose，末段明示系列available now。保留全球上市範圍，地區配色可異，不推定台灣首賣日。"
+    },
+    {
+      "id": "mouse-logitech-pop-mouse",
+      "category": "mouse",
+      "brand": "Logitech",
+      "model": "POP Mouse",
+      "name": "POP Mouse 石墨黑 910-007163 四鍵藍牙滑鼠（2024配色）",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "2024-12-06",
+      "sourceUrl": "https://tw.news.yahoo.com/logitech-pop-icon-2024-tw-price-094704663.html",
+      "sourceTitle": "Logitech POP ICON 無線藍牙鍵鼠即日起登台！鍵鼠組合價免 3 千元",
+      "evidenceSnippet": "Yahoo/壹哥的科技生活2024-12-04報導，末段明寫Logitech POP MOUSE石墨黑、珍珠白、玫瑰粉、薰衣紫四款，同樣於12月6日上市、990元。Chrome完整原文快照已核，未套2021旧配色日期或鍵盤預售。",
+      "confidence": "medium",
+      "sourceKind": "credible_media_release_report",
+      "checkedAt": "2026-09-01",
+      "reason": "Yahoo/壹哥的科技生活2024-12-04報導，末段明寫Logitech POP MOUSE石墨黑、珍珠白、玫瑰粉、薰衣紫四款，同樣於12月6日上市、990元。Chrome完整原文快照已核，未套2021旧配色日期或鍵盤預售。"
+    },
+    {
+      "id": "mouse-logitech-g309",
+      "category": "mouse",
+      "brand": "Logitech",
+      "model": "G309",
+      "name": "G309 LIGHTSPEED 黑色 910-007202 雙模電競滑鼠",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "2024-07-25",
+      "sourceUrl": "https://www.nova.com.tw/article/ff/content/66a34f1238513",
+      "sourceTitle": "羅技 G309 LIGHTSPEED 雙模無線遊戲滑鼠台灣上市",
+      "evidenceSnippet": "NOVA2024年7月原稿明示7月25日指定通路率先販售、8月1日全通路，黑白兩色。另官方全球2024-07-09公告為全球首發，未套全球日作台灣日。",
+      "confidence": "medium",
+      "sourceKind": "credible_media_release_report",
+      "checkedAt": "2026-09-01",
+      "reason": "以原稿明示首賣日期，非文章7/26日期。"
+    },
+    {
+      "id": "mouse-razer-deathadder-v4-pro",
+      "category": "mouse",
+      "brand": "Razer",
+      "model": "RZ01-05330100-R3A1",
+      "name": "DeathAdder V4 Pro 黑色",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "2025-07-10",
+      "sourceUrl": "https://press.razer.com/product-news/razer-unveils-the-ultra-lightweight-deathadder-v4-pro/",
+      "sourceTitle": "DeathAdder V4 Pro 黑色 官方發表公告",
+      "evidenceSnippet": "官方2025-07-10正文宣告launch DeathAdder V4 Pro，不使用驅動/韌體日期；海外官方發表非台灣SKU首賣證明。",
+      "confidence": "high",
+      "sourceKind": "official_release_announcement",
+      "checkedAt": "2026-09-01",
+      "reason": "官方2025-07-10正文宣告launch DeathAdder V4 Pro，不使用驅動/韌體日期；海外官方發表非台灣SKU首賣證明。"
+    },
+    {
+      "id": "mouse-razer-viper-v3-pro",
+      "category": "mouse",
+      "brand": "Razer",
+      "model": "RZ01-05120100-R3A1",
+      "name": "Viper V3 Pro 黑色 35K 非SE",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "2024-04-23",
+      "sourceUrl": "https://press.razer.com/product-news/reshaping-esports-dominance-introducing-the-razer-viper-v3-pro-the-mouse-of-champions/",
+      "sourceTitle": "Viper V3 Pro 黑色 35K 非SE 官方發表公告",
+      "evidenceSnippet": "Razer官方發表正文明示April23,2024於官方及授權商黑白版可售；非SE、Faker或其他後來特別版本，韌體更新日不當上市日期。",
+      "confidence": "high",
+      "sourceKind": "official_release_announcement",
+      "checkedAt": "2026-09-01",
+      "reason": "Razer官方發表正文明示April23,2024於官方及授權商黑白版可售；非SE、Faker或其他後來特別版本，韌體更新日不當上市日期。"
+    },
+    {
+      "id": "mouse-logitech-g703-hero",
+      "category": "mouse",
+      "brand": "Logitech",
+      "model": "910-005643",
+      "name": "G703 HERO 黑色 910-005643 無線電競滑鼠",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "2019-06",
+      "sourceUrl": "https://news.logitech.com/press-releases/news-details/2019/Logitech-G-Expands-HERO-16K-Sensor-to-New-Line-Up-of-Gaming-Mice/default.aspx",
+      "sourceTitle": "Logitech G Expands HERO 16K Sensor to New Line-Up of Gaming Mice",
+      "evidenceSnippet": "官方2019-06-11公告G703 HERO新版本並明確預期2019年6月全球開賣，只採月份，不把公告日推為上市日；最早HERO16K後續韌體升至25K，不採前代無HERO G703上市日。",
+      "confidence": "high",
+      "sourceKind": "official_press_release",
+      "checkedAt": "2026-09-01",
+      "reason": "官方2019-06-11公告G703 HERO新版本並明確預期2019年6月全球開賣，只採月份，不把公告日推為上市日；最早HERO16K後續韌體升至25K，不採前代無HERO G703上市日。"
+    },
+    {
+      "id": "mouse-logitech-g502-x-lightspeed",
+      "category": "mouse",
+      "brand": "Logitech",
+      "model": "G502 X LIGHTSPEED",
+      "name": "G502 X LIGHTSPEED 白色 910-006226 無線電競滑鼠",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "2022-10-05",
+      "sourceUrl": "https://www.nova.com.tw/article/ff/content/6317fd48d1fcc",
+      "sourceTitle": "羅技G502 X系列全新上市",
+      "evidenceSnippet": "台灣原稿明示G502 X系列10月5日全通路正式開賣，黑白LIGHTSPEED在內；9月29只有PLUS先在指定店開賣，其他是預購，不移植PLUS日期。",
+      "confidence": "high",
+      "sourceKind": "manufacturer_provided_news",
+      "checkedAt": "2026-08-31",
+      "reason": "台灣原稿明示G502 X系列10月5日全通路正式開賣，黑白LIGHTSPEED在內；9月29只有PLUS先在指定店開賣，其他是預購，不移植PLUS日期。"
+    },
+    {
+      "id": "mouse-logitech-pro-x-superlight-2",
+      "category": "mouse",
+      "brand": "Logitech",
+      "model": "910-006641",
+      "name": "PRO X SUPERLIGHT 2 白色 910-006641 無線電競滑鼠",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "2023-09-18",
+      "sourceUrl": "https://gnn.gamer.com.tw/detail.php?sn=256269",
+      "sourceTitle": "羅技 PRO X SUPERLIGHT 2 電競滑鼠及 PRO X TKL LIGHTSPEED 鍵盤今日上市",
+      "evidenceSnippet": "2023-09-18廠商提供原文寫今日上市，普通SUPERLIGHT2含黑白桃色當日指定通路首賣、9/28全通路；此白色6641由當前官方映射，不採DEX/SE或新色日期。",
+      "confidence": "high",
+      "sourceKind": "manufacturer_provided_news",
+      "checkedAt": "2026-08-31",
+      "reason": "2023-09-18廠商提供原文寫今日上市，普通SUPERLIGHT2含黑白桃色當日指定通路首賣、9/28全通路；此白色6641由當前官方映射，不採DEX/SE或新色日期。"
+    },
+    {
+      "id": "mouse-logitech-pro-x-superlight-2-dex",
+      "category": "mouse",
+      "brand": "Logitech",
+      "model": "910-007360",
+      "name": "PRO X SUPERLIGHT 2 DEX 黑色 910-007360 無線電競滑鼠",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "2024-09-24",
+      "sourceUrl": "https://www.cio.com.tw/logitech-g-pro-x-superlight-2-dex-pro-2-lightspeed-and-g915-x-series-all-of-taiwans-new-listing-pro-winner-rally-calls-for-all-of-taiwans-fans-to-keep-a-good-gift/",
+      "sourceTitle": "Logitech G PRO X SUPERLIGHT 2 DEX、PRO 2 LIGHTSPEED和G915 X系列全台新上市",
+      "evidenceSnippet": "CIO刊載文／Logitech，2024-09-24正文明确今日推出並全台新上市DEX黑白桃色；不是拿單純文章時間或優惠期間推上市，也不同於全球9/17。",
+      "confidence": "high",
+      "sourceKind": "manufacturer_provided_news",
+      "checkedAt": "2026-09-01",
+      "reason": "CIO刊載文／Logitech，2024-09-24正文明确今日推出並全台新上市DEX黑白桃色；不是拿單純文章時間或優惠期間推上市，也不同於全球9/17。"
+    },
+    {
+      "id": "mouse-razer-basilisk-v3-pro-35k",
+      "category": "mouse",
+      "brand": "Razer",
+      "model": "RZ01-05240100-R3A1",
+      "name": "Basilisk V3 Pro 35K 黑色 RZ01-05240100-R3A1 無線電競滑鼠",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "2024-10-01",
+      "sourceUrl": "https://gamingtrend.com/news/razer-launches-the-basilisk-v3-pro-35k-wireless-gaming-mouse/",
+      "sourceTitle": "Razer launches the Basilisk V3 Pro 35K wireless gaming mouse",
+      "evidenceSnippet": "2024-10-01原文載Razer當日發布的新品公告，35K Pro含黑白並寫現已於Razer.com/RazerStore/指定零售商販售；採全球發售日，台灣首售日未獨立確認，不採2025Phantom或支援韌體日期。",
+      "confidence": "high",
+      "sourceKind": "manufacturer_provided_news",
+      "checkedAt": "2026-09-01",
+      "reason": "2024-10-01原文載Razer當日發布的新品公告，35K Pro含黑白並寫現已於Razer.com/RazerStore/指定零售商販售；採全球發售日，台灣首售日未獨立確認，不採2025Phantom或支援韌體日期。"
+    },
+    {
+      "id": "keyboard-sony-kbd-g900",
+      "category": "keyboard",
+      "brand": "Sony",
+      "model": "KBD-G900",
+      "name": "INZONE KBD-H75 霍爾磁軸75%有線電競鍵盤（英文）",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "2025-09-17",
+      "sourceUrl": "https://www.sony.com.tw/corporate/home/NewsCenter/Detail/INZONESERIES",
+      "sourceTitle": "Sony 全新INZONE系列推出完整配備開創遊戲新局",
+      "evidenceSnippet": "2025-09-16官方稿明示KBD-H75(KBD-G900)，周邊於明日9/17正式在台上市；文內連結直達KBD-G900/B。",
+      "confidence": "high",
+      "sourceKind": "official_explicit_launch",
+      "reason": "2025-09-16官方稿在同一型號段落明寫明日9/17在台上市；採明確上市日期，而非文章日期、韌體日期或型號年份。",
+      "query": "Sony KBD-G900 KBD-H75 上市",
+      "auditQueries": [
+        "Sony KBD-G900 KBD-H75 上市"
+      ],
+      "checkedAt": "2026-08-31",
+      "auditDisposition": "confirmed_found",
+      "checkedSources": [
+        {
+          "url": "https://www.sony.com.tw/corporate/home/NewsCenter/Detail/INZONESERIES",
+          "title": "Sony 全新INZONE系列推出完整配備開創遊戲新局",
+          "outcome": "官方明確上市公告並連至KBD-G900/B。"
+        },
+        {
+          "url": "https://store.sony.com.tw/product/KBD-G900/B",
+          "title": "INZONE KBD-H75 | Sony Store",
+          "outcome": "核對台灣黑色英文成品身分；不把現價活動日期当上市。"
+        }
+      ]
+    },
+    {
+      "id": "keyboard-logitech-alto-k98m",
+      "category": "keyboard",
+      "brand": "Logitech",
+      "model": "K98M",
+      "name": "ALTO KEYS K98M 大理石線性軸注音無線機械鍵盤（石墨黑）",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "2025-09-09",
+      "sourceUrl": "https://www.mobile01.com/topicdetail.php?f=351&t=7167345",
+      "sourceTitle": "羅技宣布推出 ALTO KEYS K98M 機械式無線鍵盤 在輕柔時尚外觀下提供省力與降躁兼具的敲擊手感",
+      "evidenceSnippet": "2025-09-08原刊明寫K98M將於明日9月9日上市，建議售價2690元；不是把文章日期當上市日。",
+      "confidence": "high",
+      "reviewBasis": "manual_chrome_original_page",
+      "sourceKind": "media_explicit_launch",
+      "reason": "2025-09-08原刊明寫K98M將於明日9月9日上市，建議售價2690元；不是把文章日期當上市日。",
+      "query": "Logitech K98M 上市",
+      "auditQueries": [
+        "Logitech K98M 上市"
+      ],
+      "checkedAt": "2026-08-31",
+      "auditDisposition": "confirmed_found",
+      "checkedSources": [
+        {
+          "url": "https://www.mobile01.com/topicdetail.php?f=351&t=7167345",
+          "title": "羅技宣布推出 ALTO KEYS K98M 機械式無線鍵盤 在輕柔時尚外觀下提供省力與降躁兼具的敲擊手感",
+          "outcome": "明確將於9月9日上市；同文介紹台灣注音版及2690元。"
+        }
+      ]
+    },
+    {
+      "id": "keyboard-logitech-k120",
+      "category": "keyboard",
+      "brand": "Logitech",
+      "model": "K120",
+      "name": "K120 USB全尺寸薄膜鍵盤（中文注音）",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "https://www.unitech.com.tw/brand.aspx?ID=22&keys=b&type1_Id=0&type2_Id=0",
+      "sourceTitle": "羅技代理商品資料 – K120 920-002584",
+      "evidenceSnippet": "台灣代理商將K120 920-002584與MK120套裝分列，但沒有上市/發售日期；金盤同SKU頁亦無日期。",
+      "confidence": "not_found",
+      "sourceKind": "not_found",
+      "reason": "已查官方news與台灣SKU；產品頁/驅動/符合性文件日期不是上市日期，海外同名不同SKU不能補猜。",
+      "query": "\"Logitech\" \"K120\" \"920-002584\" 上市",
+      "auditQueries": [
+        "\"Logitech\" \"K120\" \"920-002584\" 上市",
+        "\"Logitech K120\" \"release\" site:news.logitech.com",
+        "\"羅技\" \"K120\" \"上市\""
+      ],
+      "checkedAt": "2026-08-31",
+      "auditDisposition": "confirmed_not_found",
+      "checkedSources": [
+        {
+          "url": "https://www.unitech.com.tw/brand.aspx?ID=22&keys=b&type1_Id=0&type2_Id=0",
+          "title": "Unitech K120 920-002584",
+          "outcome": "同SKU商品資料無上市日"
+        },
+        {
+          "url": "https://www.ktnet.com.tw/Product.aspx?pid=LOGK120",
+          "title": "金盤 K120 920-002584",
+          "outcome": "同SKU資料無明確上市日"
+        }
+      ]
+    },
+    {
+      "id": "keyboard-logitech-k250",
+      "category": "keyboard",
+      "brand": "Logitech",
+      "model": "920-013497",
+      "name": "K250 藍牙薄膜鍵盤（中文注音，2025款）",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "https://press.logicool.co.jp/ja-jp/k250-mk250/",
+      "sourceTitle": "Logicool K250/MK250 日本發售公告（不同SKU，排除）",
+      "evidenceSnippet": "日本官方2025-07-24公告列JIS103鍵、920-013506/504/503，與台灣920-013497不同。台灣商品頁未提供明確發售公告。",
+      "confidence": "not_found",
+      "sourceKind": "not_found",
+      "reason": "不把日本發售日、露天上架日2025-07-21或2009舊K250發布當成台灣497上市。",
+      "query": "Logitech K250 920-013497 上市 2025",
+      "auditQueries": [
+        "Logitech K250 920-013497 上市 2025",
+        "\"K250\" \"920-013497\" \"發售\""
+      ],
+      "checkedAt": "2026-08-31",
+      "auditDisposition": "confirmed_not_found",
+      "checkedSources": [
+        {
+          "url": "https://press.logicool.co.jp/ja-jp/k250-mk250/",
+          "title": "K250/MK250 日本公告",
+          "outcome": "明確日期屬日本不同SKU，排除"
+        },
+        {
+          "url": "https://store.logitech.tw/products/k250",
+          "title": "Logi台灣K250 920-013497",
+          "outcome": "完整台灣SKU無上市日"
+        }
+      ]
+    },
+    {
+      "id": "keyboard-logitech-k380s",
+      "category": "keyboard",
+      "brand": "Logitech",
+      "model": "K380S",
+      "name": "Pebble K380S 跨平台剪刀腳鍵盤（石墨灰中文注音）",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "2023-09",
+      "sourceUrl": "https://enn.tw/437920/",
+      "sourceTitle": "Logitech Pebble 2在台上市報導",
+      "evidenceSnippet": "台灣九月上市報導明確介紹Pebble K380S／Pebble M350S在台推出；僅採可確認的2023年9月，沒有把報導日當精確開賣日。",
+      "confidence": "medium",
+      "sourceKind": "media_explicit_launch",
+      "reason": "台灣版本上市月份可確認；海外9月6日公告與日本10月19日JIS版不作台灣SKU日級證據。",
+      "query": "Logitech Pebble K380S 台灣 上市 2023",
+      "auditQueries": [
+        "Logitech Pebble K380S 台灣 上市 2023"
+      ],
+      "checkedAt": "2026-08-31",
+      "auditDisposition": "confirmed_found",
+      "checkedSources": [
+        {
+          "url": "https://enn.tw/437920/",
+          "title": "台灣Pebble 2上市報導",
+          "outcome": "明確台灣2023年9月上市，採月份精度"
+        },
+        {
+          "url": "https://tw.news.yahoo.com/logitech-launches-pebble-2-combo-wireless-keyboard-and-mouse-set-in-taiwan-which-is-thin-and-light-with-lively-color-design-and-simultaneously-launches-brio-100-network-camera-161105998.html",
+          "title": "Logitech在台推出Pebble 2",
+          "outcome": "台灣九月上市佐證，不把文章日直接視為開賣日"
+        }
+      ]
+    },
+    {
+      "id": "keyboard-logitech-k580",
+      "category": "keyboard",
+      "brand": "Logitech",
+      "model": "K580",
+      "name": "K580 超薄跨平台剪刀腳鍵盤（石墨灰中文）",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "2019-08-14",
+      "sourceUrl": "https://www.saydigi.com/2019/08/449931.html",
+      "sourceTitle": "台灣羅技K580品牌供稿上市報導",
+      "evidenceSnippet": "2019-08-15報導正文明確今(14)推出並全通路開賣，石墨灰／珍珠白、兩裝置與24個月續航，對應台灣212版本。",
+      "confidence": "high",
+      "sourceKind": "media_explicit_launch",
+      "reason": "採正文明确開賣日而非文章發布日；全球2019-10 ChromeOS Edition三裝置36月為不同版本。",
+      "query": "\"K580\" \"920-009212\" 上市",
+      "auditQueries": [
+        "\"K580\" \"920-009212\" 上市"
+      ],
+      "checkedAt": "2026-08-31",
+      "auditDisposition": "confirmed_found",
+      "checkedSources": [
+        {
+          "url": "https://www.saydigi.com/2019/08/449931.html",
+          "title": "K580台灣品牌供稿",
+          "outcome": "明確2019-08-14台灣全通路開賣，採用"
+        },
+        {
+          "url": "https://news.logitech.com/press-releases/news-details/2019/Logitech-Introduces-New-Keyboard-and-Mouse-Made-for-Google/default.aspx",
+          "title": "Made for Google K580 ChromeOS Edition",
+          "outcome": "排除：海外ChromeOS版三裝置36月不是本次台灣212"
+        }
+      ]
+    },
+    {
+      "id": "keyboard-logitech-pop-icon-keys",
+      "category": "keyboard",
+      "brand": "Logitech",
+      "model": "POP ICON KEYS",
+      "name": "POP ICON KEYS 剪刀腳鍵盤（潮玩黑中文注音）",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "2024-12-06",
+      "sourceUrl": "https://www.mobile01.com/topicdetail.php?f=351&t=7052575",
+      "sourceTitle": "Mobile01 Logitech POP ICON KEYS台灣發表會採訪",
+      "evidenceSnippet": "陳拔2024-12-03發表會採訪明確12月6日上市，四配色含潮玩黑；採明示開賣日不取報導日。",
+      "confidence": "high",
+      "sourceKind": "media_explicit_launch",
+      "reason": "原始台灣發表會清楚說明12月6日；全球10月上市與2021機械POP KEYS不混用。",
+      "query": "\"POP ICON KEYS\" \"920-013091\" 上市",
+      "auditQueries": [
+        "\"POP ICON KEYS\" \"920-013091\" 上市"
+      ],
+      "checkedAt": "2026-08-31",
+      "auditDisposition": "confirmed_found",
+      "checkedSources": [
+        {
+          "url": "https://www.mobile01.com/topicdetail.php?f=351&t=7052575",
+          "title": "POP ICON台灣採訪",
+          "outcome": "明確2024-12-06台灣上市，採用"
+        }
+      ]
+    },
+    {
+      "id": "keyboard-razer-huntsman-v3-pro-tkl",
+      "category": "keyboard",
+      "brand": "Razer",
+      "model": "RZ03-04981500-R3T1",
+      "name": "Huntsman V3 Pro Tenkeyless 第二代類比光軸鍵盤（中文黑色，非8K）",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "2023-10",
+      "sourceUrl": "https://www.razer.com/newsroom/product-news/razercon-2023-lights-up-the-global-gaming-community-with-groundbreaking-announcements-exclusive-partnerships",
+      "sourceTitle": "RazerCon 2023 – Huntsman V3 Pro availability",
+      "evidenceSnippet": "Razer官方公告分列Huntsman V3 Pro Tenkeyless，正式供貨寫Starting October 2023；9月發布／預購與2024年7月SnapTap更新均不是一般供貨日期。",
+      "confidence": "medium",
+      "sourceKind": "official_explicit_launch",
+      "reason": "採全球同型TKL正式供貨月份2023-10，未找到台灣中文SKU獨立上市日，不自行補日。",
+      "query": "Razer Huntsman V3 Pro Tenkeyless launch October 2023",
+      "auditQueries": [
+        "Razer Huntsman V3 Pro Tenkeyless launch October 2023",
+        "\"RZ03-04981500-R3T1\" 上市"
+      ],
+      "checkedAt": "2026-08-31",
+      "auditDisposition": "confirmed_found",
+      "checkedSources": [
+        {
+          "url": "https://www.razer.com/newsroom/product-news/razercon-2023-lights-up-the-global-gaming-community-with-groundbreaking-announcements-exclusive-partnerships",
+          "title": "Razer官方供貨公告",
+          "outcome": "明確TKL全球正式供貨月；台灣中文獨立日未找到。"
+        }
+      ]
+    },
+    {
+      "id": "keyboard-keychron-v6-max",
+      "category": "keyboard",
+      "brand": "Keychron",
+      "model": "KBKCV6MR1",
+      "name": "V6 Max QMK/VIA 全尺寸三模機械鍵盤（復古注音木星紅軸）",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "https://www.keychron.com.tw/products/keychron-v6-max-qmk-via-wireless-custom-mechanical-keyboard",
+      "sourceTitle": "Keychron Taiwan V6 Max復古注音木星紅",
+      "evidenceSnippet": "台灣官方商品頁顯示KBKCV6MR1及版本，但未列此版上市／發售日期。",
+      "confidence": "not_found",
+      "reason": "官方影片2024-03-21是上傳日期；IT之家2024-05-07指中國區全系列发布，不等於台灣復古注音紅版上市；不猜月份。",
+      "query": "\"Keychron V6 Max\" \"上市\" \"注音\"",
+      "auditQueries": [
+        "\"Keychron V6 Max\" \"上市\" \"注音\"",
+        "\"Keychron V6 Max\" \"March\" \"2024\" launch"
+      ],
+      "checkedAt": "2026-08-31",
+      "auditDisposition": "confirmed_not_found",
+      "checkedSources": [
+        {
+          "url": "https://www.keychron.com.tw/products/keychron-v6-max-qmk-via-wireless-custom-mechanical-keyboard",
+          "title": "Keychron Taiwan V6 Max",
+          "outcome": "商品完整版本可確認但無明確上市日。"
+        },
+        {
+          "url": "https://www.youtube.com/live/67MvNa6VAFs",
+          "title": "Keychron V6 Max官方影片",
+          "outcome": "2024-03-21為影片發布，不當上市日。"
+        },
+        {
+          "url": "https://www.ithome.com/0/766/303.htm",
+          "title": "IT之家Keychron V Max中國區發布",
+          "outcome": "中國區發布與台灣復古注音紅版本不同，不套日期。"
+        }
+      ]
+    },
+    {
+      "id": "keyboard-hyperx-alloy-rise-75",
+      "category": "keyboard",
+      "brand": "HyperX",
+      "model": "7G7A4AA#ABA",
+      "name": "Alloy Rise 75 有線機械鍵盤（英文 HyperX紅軸）",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "https://hyperx.com/products/hyperx-alloy-rise-75-mechanical-gaming-keyboard",
+      "sourceTitle": "HyperX Alloy Rise 75官方英文ABA商品",
+      "evidenceSnippet": "官方US頁列7G7A4AA#ABA與US English，但未標明實際發售日。",
+      "confidence": "not_found",
+      "reason": "HP CES2024原文僅預期Spring2024供貨；原價屋2024-05-24上市公告限定7G7A4AA#AB0中文，不轉用為ABA發售日。",
+      "query": "\"HyperX Alloy Rise 75\" release",
+      "checkedAt": "2026-08-31",
+      "auditDisposition": "confirmed_not_found",
+      "checkedSources": [
+        {
+          "url": "https://www.hp.com/us-en/newsroom/press-releases/2024/hpatces-play.html",
+          "title": "HP at CES2024",
+          "outcome": "Spring2024是預期供貨，不代表確定上市日。"
+        },
+        {
+          "url": "https://www.coolpc.com.tw/tw/shop/keyboard/hyperx-alloyrise-240524/",
+          "title": "原價屋Alloy Rise上市公告",
+          "outcome": "2024-05-24為AB0中文，不適用英文ABA。"
+        }
+      ]
+    },
+    {
+      "id": "keyboard-ducky-tinker-75",
+      "category": "keyboard",
+      "brand": "Ducky",
+      "model": "PKTI2383AST-CPTWPDOECLAAW1",
+      "name": "ProjectD Tinker75 經典黑機械鍵盤（中文 Cherry銀軸）",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "https://cdn.shopify.com/s/files/1/0728/4382/1295/files/ProjectD_Tinker_75_usermanual_20231031.pdf?v=1761534964",
+      "sourceTitle": "Ducky官方ProjectD Tinker75手冊",
+      "evidenceSnippet": "官方下載頁可核Tinker75／PKTI2383產品家族；20231031僅手冊檔名日期，未說銀軸中文SKU發售日。",
+      "confidence": "not_found",
+      "reason": "本次經典黑中文銀軸無明確上市日；官方手冊檔案日期、Fallout/OSRS聯名日期與其他軸體不能代替。",
+      "query": "\"PKTI2383AST-CPTWPDOECLAAW1\" \"release\"",
+      "auditQueries": [
+        "\"Ducky Tinker 75\" \"上市\"",
+        "\"PKTI2383AST-CPTWPDOECLAAW1\" \"release\""
+      ],
+      "checkedAt": "2026-08-31",
+      "auditDisposition": "confirmed_not_found",
+      "checkedSources": [
+        {
+          "url": "https://cdn.shopify.com/s/files/1/0728/4382/1295/files/ProjectD_Tinker_75_usermanual_20231031.pdf?v=1761534964",
+          "title": "Tinker75官方手冊",
+          "outcome": "手冊日期非發售日。"
+        },
+        {
+          "url": "https://www.tw.coupang.com/products/Ducky-ProjectD-Tinker-75%25-%E7%B6%93%E5%85%B8%E9%BB%91-%E5%AE%A2%E8%A3%BD%E5%8C%96%E6%A9%9F%E6%A2%B0%E5%BC%8F%E9%8D%B5%E7%9B%A4-RGB-%E7%86%B1%E6%8F%92%E6%8B%94-Cherry-%E9%8A%80%E8%BB%B8-%E4%B8%AD%E6%96%87-502360094769153",
+          "title": "酷澎銀軸中文SKU",
+          "outcome": "现售版本可確認，沒有明確上市文字。"
+        }
+      ]
+    },
+    {
+      "id": "keyboard-steelseries-apex-pro-tkl-gen3",
+      "category": "keyboard",
+      "brand": "SteelSeries",
+      "model": "64740",
+      "name": "Apex Pro TKL Gen 3 有線磁軸鍵盤（黑色英文）",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "2024-09-24",
+      "sourceUrl": "https://steelseries.com/press/149-steelseries-take-the-worlds-fastest-keyboards-to-the-next-level-with-the",
+      "sourceTitle": "SteelSeries Apex Pro Gen3 now available",
+      "evidenceSnippet": "官方新聞正文Chicago September24,2024並明列Apex Pro TKL wired立即上市；頁尾September20元資料不代替正文日期。",
+      "confidence": "high",
+      "sourceKind": "official_explicit_launch",
+      "reason": "採全球黑英文有線TKL型號上市日期，非台灣獨立供貨公告。",
+      "query": "SteelSeries Apex Pro TKL Gen 3 launch September 2024",
+      "checkedAt": "2026-08-31",
+      "auditDisposition": "confirmed_found",
+      "checkedSources": [
+        {
+          "url": "https://steelseries.com/press/149-steelseries-take-the-worlds-fastest-keyboards-to-the-next-level-with-the",
+          "title": "SteelSeries官方全球上市新聞",
+          "outcome": "根代理實讀正文nowavailable並分列TKL wired。"
+        }
+      ]
+    },
+    {
+      "id": "keyboard-asus-rog-azoth-extreme",
+      "category": "keyboard",
+      "brand": "ASUS",
+      "model": "90MP03MA-BKTA01",
+      "name": "ROG Azoth Extreme 三模機械鍵盤（中文PBT NX雪軸）",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "2024-07-31",
+      "sourceUrl": "https://rog.asus.com/tw/articles/gaming-keyboards-gaming-mice/09951c95-3c52-442c-811d-f8f9676e5b10/",
+      "sourceTitle": "ROG首款鋁合金鍵盤Azoth Extreme競化上市",
+      "evidenceSnippet": "官方台灣2024-07-31正文明示Azoth Extreme在台上市，預潤NX機械軸、三模與建議價16490；不是COMPUTEX展示日或20週年版。",
+      "confidence": "high",
+      "sourceKind": "official_explicit_launch",
+      "reason": "採官方台灣正式上市公告，不用同頁後續新品新聞日期。",
+      "query": "ROG Azoth Extreme 台灣 上市",
+      "checkedAt": "2026-08-31",
+      "auditDisposition": "confirmed_found",
+      "checkedSources": [
+        {
+          "url": "https://rog.asus.com/tw/articles/gaming-keyboards-gaming-mice/09951c95-3c52-442c-811d-f8f9676e5b10/",
+          "title": "ROG台灣官方上市新聞",
+          "outcome": "根代理与本代理原文覆核明確在台上市文字。"
+        }
+      ]
+    },
+    {
+      "id": "keyboard-keychron-b1-pro",
+      "category": "keyboard",
+      "brand": "Keychron",
+      "model": "KBKCB1PK1",
+      "name": "B1 Pro 75% 薄型三模鍵盤（深空灰中文注音）",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "https://www.keychron.com.tw/products/keychron-b1-pro-ultra-slim-wireless-keyboard",
+      "sourceTitle": "Keychron Taiwan B1 Pro 注音官方產品頁",
+      "evidenceSnippet": "已檢查台灣官方KBKCB1PK1產品頁、全球B1 Pro官方頁及型號上市查詢；海外2024年發表/日本上市不能證明此台灣注音SKU發售，Mobile01開箱日與韌體日期均不採。",
+      "confidence": "unknown",
+      "sourceKind": "official_product_page",
+      "reason": "已檢查台灣官方KBKCB1PK1產品頁、全球B1 Pro官方頁及型號上市查詢；海外2024年發表/日本上市不能證明此台灣注音SKU發售，Mobile01開箱日與韌體日期均不採。",
+      "checkedAt": "2026-08-31",
+      "auditDisposition": "confirmed_not_found",
+      "checkedSources": [
+        {
+          "url": "https://www.keychron.com.tw/products/keychron-b1-pro-ultra-slim-wireless-keyboard",
+          "title": "台灣B1 Pro KBKCB1PK1",
+          "outcome": "無明確台灣發售日，不用海外上市/開箱/韌體日期替代"
+        },
+        {
+          "url": "https://www.google.com/search?q=%22Keychron%20B1%20Pro%22%20site%3Akeychron.com.tw%20%E4%B8%8A%E5%B8%82",
+          "title": "B1 Pro台灣官方上市查詢",
+          "outcome": "實際返回台灣產品及動態促銷、K2 JIS韌體導航與AU頁均無本SKU明確上市日"
+        }
+      ],
+      "query": "\"KBKCB1PK1\" 上市 發售",
+      "auditQueries": [
+        "\"KBKCB1PK1\" 上市 發售",
+        "\"Keychron B1 Pro\" site:keychron.com.tw 上市"
+      ]
+    },
+    {
+      "id": "keyboard-logitech-signature-k650",
+      "category": "keyboard",
+      "brand": "Logitech",
+      "model": "920-010953",
+      "name": "Signature K650 全尺寸無線鍵盤（石墨灰中文注音）",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "2022-08-17",
+      "sourceUrl": "https://www.logitech.com/blog/2022/08/17/get-the-comfort-and-performance-you-deserve-with-the-logitech-signature-k650-wireless-comfort-keyboard/",
+      "sourceTitle": "Get the Comfort and Performance You Deserve with the Logitech Signature K650 Wireless Comfort Keyboard",
+      "evidenceSnippet": "Don’t wait any longer to upgrade your desk with the Signature K650 Wireless Comfort Keyboard, available for purchase today on Logitech.com.",
+      "confidence": "high",
+      "sourceKind": "official_announcement",
+      "reason": "官方原文2022-08-17明示即日起可購入Signature K650；這是海外官方上市日，不宣稱台灣920-010953首賣日。日本JIS 9月8日、MK650商務套組日期不採。",
+      "checkedAt": "2026-08-31",
+      "auditDisposition": "confirmed_found",
+      "checkedSources": [
+        {
+          "url": "https://www.logitech.com/blog/2022/08/17/get-the-comfort-and-performance-you-deserve-with-the-logitech-signature-k650-wireless-comfort-keyboard/",
+          "title": "Get the Comfort and Performance You Deserve with the Logitech Signature K650 Wireless Comfort Keyboard",
+          "outcome": "官方原文2022-08-17明示即日起可購入Signature K650；這是海外官方上市日，不宣稱台灣920-010953首賣日。日本JIS 9月8日、MK650商務套組日期不採。"
+        }
+      ]
+    },
+    {
+      "id": "keyboard-razer-ornata-v3-x",
+      "category": "keyboard",
+      "brand": "Razer",
+      "model": "RZ03-04471600-R3T1",
+      "name": "Ornata V3 X 薄膜電競鍵盤（中文黑色）",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "https://www.razer.com/tw-zh/gaming-keyboards/razer-ornata-v3-x",
+      "sourceTitle": "Razer Ornata V3 X 官方產品與支援",
+      "evidenceSnippet": "回查Razer官頁/支援/手冊與官方社群2022-06-24 Ornata V3 announcement；社群主體V3而X為留言、海外媒體2022-06-27表示V3X可購但無此繁中SKU確切發售；不以文章/韌體發布日取代上市。",
+      "confidence": "unknown",
+      "sourceKind": "official_product_page",
+      "reason": "回查Razer官頁/支援/手冊與官方社群2022-06-24 Ornata V3 announcement；社群主體V3而X為留言、海外媒體2022-06-27表示V3X可購但無此繁中SKU確切發售；不以文章/韌體發布日取代上市。",
+      "checkedAt": "2026-08-31",
+      "query": "\"RZ03-04471600-R3T1\" 發售 歷史價格",
+      "auditQueries": [
+        "\"RZ03-04471600-R3T1\" 發售 歷史價格",
+        "Razer Ornata V3 X launch June 2022",
+        "Razer launches Ornata V3 X June 2022 site:razer.com"
+      ],
+      "auditDisposition": "confirmed_not_found",
+      "checkedSources": [
+        {
+          "url": "https://www.razer.com/tw-zh/gaming-keyboards/razer-ornata-v3-x",
+          "title": "Ornata V3 X官頁",
+          "outcome": "未列此繁中SKU發售日"
+        },
+        {
+          "url": "https://mysupport.razer.com/app/answers/detail/a_id/6071/~/razer-ornata-v3-x-%7C-rz03-0447x-support-%26-faqs",
+          "title": "Ornata V3 X官方支援",
+          "outcome": "不採韌體與文件時間作上市日"
+        }
+      ]
+    },
+    {
+      "id": "keyboard-logitech-mx-keys-s",
+      "category": "keyboard",
+      "brand": "Logitech",
+      "model": "920-011596",
+      "name": "MX Keys S 全尺寸智能背光鍵盤（石墨灰中文注音）",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "2023-06-19",
+      "sourceUrl": "https://www.stufftaiwan.com/2023/06/19/羅技推出logitech-mx-高階商務鍵鼠-mx-keys-s-新色登場、mx-anywhere-3s-靜音升/",
+      "sourceTitle": "史塔夫科技事務所 羅技推出Logitech MX高階商務鍵鼠",
+      "evidenceSnippet": "6/19台灣搶先首賣，PChome獨家石墨灰MX Keys S；6/28才是全通路上市，與6/21的Combo套裝不同。",
+      "confidence": "high",
+      "sourceKind": "media_release_report",
+      "scope": "台灣石墨灰完整單鍵盤首賣，不是文章日期推定；原文明確給日期與通路。",
+      "checkedSources": [
+        {
+          "url": "https://ir.logitech.com/news/news-details/2023/Logitech-Offers-First-Ever-MX-Keyboard-Combo-with-New-Software-to-Increase-Flow-and-Productivity/default.aspx",
+          "outcome": "官方2023-05-31新聞僅全球early June開賣，不將5/31新聞日當上市日。"
+        },
+        {
+          "url": "https://www.stufftaiwan.com/2023/06/19/羅技推出logitech-mx-高階商務鍵鼠-mx-keys-s-新色登場、mx-anywhere-3s-靜音升/",
+          "outcome": "原文兩段明示6/19台灣PChome石墨灰首賣，可採2023-06-19。"
+        }
+      ],
+      "queries": [
+        "\"MX Keys S\" 上市 台灣 2023",
+        "\"MX Keys S\" site:logitech.com May 2023 available"
+      ],
+      "reason": "台灣石墨灰完整單鍵盤首賣，不是文章日期推定；原文明確給日期與通路。",
+      "checkedAt": "2026-08-31",
+      "auditDisposition": "confirmed_found"
+    },
+    {
+      "id": "keyboard-logitech-wave-keys",
+      "category": "keyboard",
+      "brand": "Logitech",
+      "model": "920-012313",
+      "name": "Wave Keys 人體工學鍵盤（石墨灰中文注音）",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "2023-11-28",
+      "sourceUrl": "https://www.nova.com.tw/article/ek/content/655da3a31ffde",
+      "sourceTitle": "羅技 Wave Keys 人體工學鍵盤上市消息",
+      "evidenceSnippet": "原文明確列石墨灰及珍珠白於2023/11/28中午12點在羅技官方旗艦館搶先首賣，12/6才全通路上市。採台灣搶先首賣日，不採11/22文章發布日。",
+      "confidence": "high",
+      "sourceKind": "media_launch_report",
+      "reason": "原文明確列石墨灰及珍珠白於2023/11/28中午12點在羅技官方旗艦館搶先首賣，12/6才全通路上市。採台灣搶先首賣日，不採11/22文章發布日。",
+      "checkedAt": "2026-09-01",
+      "auditDisposition": "confirmed_found",
+      "checkedSources": [
+        {
+          "url": "https://gnn.gamer.com.tw/detail.php?sn=260113",
+          "outcome": "12/6為全通路上市，晚於官方旗艦館11/28首賣。"
+        },
+        {
+          "url": "https://3c.ltn.com.tw/news/55990",
+          "outcome": "11/22文章提12/6全通路，不把報導日當上市日。"
+        }
+      ]
+    },
+    {
+      "id": "keyboard-asus-tuf-k3-gen-ii",
+      "category": "keyboard",
+      "brand": "ASUS",
+      "model": "TUF GAMING K3 Gen II",
+      "name": "TUF Gaming K3 Gen II 光學青軸鍵盤（黑色中文）",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "https://www.asus.com/us/accessories/keyboards/tuf-gaming/tuf-gaming-k3-gen-ii/helpdesk_manual?model2Name=TUF-Gaming-K3-Gen-II",
+      "sourceTitle": "TUF Gaming K3 Gen II 官方手冊與產品支援",
+      "evidenceSnippet": "官方只有指南與保固文件日期，未取得本中文光學青軸明確上市／發售公告。",
+      "confidence": "unknown",
+      "sourceKind": "official_product_page",
+      "reason": "只有2024/3/29快速指南與保固文件日期，不是上市公告；搜尋沒有本中文光學青軸明確上市日。；官方指南文件時間不採為上市；初音聯名版與其他配列不能代入本版。",
+      "checkedAt": "2026-09-01",
+      "auditDisposition": "confirmed_not_found",
+      "checkedSources": [
+        {
+          "url": "https://www.asus.com/us/accessories/keyboards/tuf-gaming/tuf-gaming-k3-gen-ii/helpdesk_manual?model2Name=TUF-Gaming-K3-Gen-II",
+          "outcome": "只有2024/3/29快速指南與保固文件日期，不是上市公告；搜尋沒有本中文光學青軸明確上市日。"
+        },
+        {
+          "url": "https://dlcdnets.asus.com/pub/ASUS/Accessory/Keyboard/TUF_Gaming_K3_Gen_II/Q23272_RA07_TUF_Gaming_K3_Gen_II_QSG_WEB.pdf?model=TUF+Gaming+K3+Gen+II",
+          "outcome": "官方指南文件時間不採為上市；初音聯名版與其他配列不能代入本版。"
+        }
+      ]
+    },
+    {
+      "id": "keyboard-msi-gk41-dusk-lr-tc",
+      "category": "keyboard",
+      "brand": "MSI",
+      "model": "VIGOR GK41 DUSK LR TC",
+      "name": "VIGOR GK41 DUSK LR TC 中文 Kailh 紅軸完整鍵盤",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "sourceKind": "not_found",
+      "reason": "官方2023-10-17文章明確發表GK41與DUSK，但只寫introduces而沒有開始販售日期，也未列LR TC出貨時間；所選台灣單品頁沒有上市日，不把新聞發布日當上市。",
+      "query": "site:msi.com \"VIGOR GK41 DUSK\" \"2023\"",
+      "auditQueries": [
+        "site:msi.com \"VIGOR GK41 DUSK\" \"2023\""
+      ],
+      "checkedAt": "2026-09-01",
+      "auditDisposition": "not_found_after_review",
+      "checkedSources": [
+        {
+          "url": "https://www.msi.com/news/detail/MSI-Unveils-the-Latest-Gaming-Keyboards--VIGOR-GK41-Series-142638",
+          "title": "MSI Unveils the Latest Gaming Keyboards: VIGOR GK41 Series",
+          "outcome": "官方2023-10-17文章明確發表GK41與DUSK，但只寫introduces而沒有開始販售日期，也未列LR TC出貨時間；所選台灣單品頁沒有上市日，不把新聞發布日當上市。"
+        },
+        {
+          "url": "https://24h.pchome.com.tw/prod/DSBC1T-A900GRO89",
+          "title": "南紡 GK41 DUSK LR TC 單品頁",
+          "outcome": "可售單品未標示明確發售日期。"
+        }
+      ]
+    },
+    {
+      "id": "keyboard-nuphy-air75-v3-brown",
+      "category": "keyboard",
+      "brand": "NuPhy",
+      "model": "Air75 V3",
+      "name": "Air75 V3 白色 Brown Nano 茶軸英文完整鍵盤",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "sourceKind": "not_found",
+      "reason": "台灣正式產品頁及所選白色茶軸通路未列上市日期；全球搜尋出現預購/estimated shipping候選，但全球原頁本輪403/無法讀取，未用搜尋摘要的預購或預計寄貨日當正式發售。",
+      "query": "site:nuphy.com \"Air75 V3\" \"June\" \"2025\"",
+      "auditQueries": [
+        "site:nuphy.com \"Air75 V3\" \"June\" \"2025\""
+      ],
+      "checkedAt": "2026-09-01",
+      "auditDisposition": "not_found_after_review",
+      "checkedSources": [
+        {
+          "url": "https://nuphy.com.tw/products/nuphy-air75-v3-wireless-low-profile-mechanical-keyboard",
+          "title": "NuPhy Taiwan Air75 V3 正式產品頁",
+          "outcome": "台灣正式產品頁及所選白色茶軸通路未列上市日期；全球搜尋出現預購/estimated shipping候選，但全球原頁本輪403/無法讀取，未用搜尋摘要的預購或預計寄貨日當正式發售。"
+        },
+        {
+          "url": "https://nuphy.com/products/nuphy-air75-v3",
+          "title": "NuPhy 全球 Air75 V3 產品頁",
+          "outcome": "原頁403；不能用預購/預計出貨搜尋摘要驗證白色Brown Nano實際發售。"
+        }
+      ]
+    },
+    {
+      "id": "keyboard-logitech-mx-keys-mini",
+      "category": "keyboard",
+      "brand": "Logitech",
+      "model": "920-010508",
+      "name": "MX Keys Mini 石墨灰中文注音鍵盤",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "2021-11-01",
+      "sourceUrl": "https://www.nova.com.tw/article/ek/content/6177b316a9efd",
+      "sourceTitle": "羅技 MX Keys Mini 智能無線鍵盤上市消息",
+      "evidenceSnippet": "原文明確列2021/11/1至11/14於羅技官方旗艦館獨家首賣，提供石墨灰及簡約白；採台灣首賣起日，非10/26文章日或後續11/23報導日。",
+      "confidence": "high",
+      "sourceKind": "media_launch_report",
+      "reason": "原文明確列2021/11/1至11/14於羅技官方旗艦館獨家首賣，提供石墨灰及簡約白；採台灣首賣起日，非10/26文章日或後續11/23報導日。",
+      "checkedAt": "2026-09-01",
+      "auditDisposition": "confirmed_found",
+      "checkedSources": [
+        {
+          "url": "https://www.nova.com.tw/article/ek/content/6177b316a9efd",
+          "outcome": "原文明確列2021/11/1至11/14於羅技官方旗艦館獨家首賣，提供石墨灰及簡約白；採台灣首賣起日，非10/26文章日或後續11/23報導日。"
+        },
+        {
+          "url": "https://tech.udn.com/tech/story/123151/5909420",
+          "outcome": "11/23報導晚於已明示的11/1官方搶先首賣；不以文章時間覆寫首賣。"
+        }
+      ]
+    },
+    {
+      "id": "keyboard-corsair-k70-core-mlx-red",
+      "category": "keyboard",
+      "brand": "Corsair",
+      "model": "CH-910971E-TW",
+      "name": "K70 CORE 黑色 MLX Red 紅軸繁體中文完整鍵盤（不含掌托）",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "sourceKind": "not_found",
+      "reason": "官方2023-10-10稿寫K70 CORE全球即刻供應，但未分列CH-910971E-TW；文中雙色鍵帽與本TW非北美塗裝ABS有版本差異，故不逕認TW版當日發售。SKU型錄July2023與10/1 embargo也不是發售日。",
+      "query": "site:corsair.com \"K70 CORE\" \"available\" \"October\" \"2023\"",
+      "auditQueries": [
+        "site:corsair.com \"K70 CORE\" \"available\" \"October\" \"2023\""
+      ],
+      "checkedAt": "2026-09-01",
+      "auditDisposition": "not_found_after_review",
+      "checkedSources": [
+        {
+          "url": "https://www.corsair.com/newsroom/press-release/corsair-launches-k70-core-the-new-standard-for-mainstream-gaming-keyboards",
+          "title": "CORSAIR Launches K70 CORE, The New Standard for Mainstream Gaming Keyboards.",
+          "outcome": "官方2023-10-10稿寫K70 CORE全球即刻供應，但未分列CH-910971E-TW；文中雙色鍵帽與本TW非北美塗裝ABS有版本差異，故不逕認TW版當日發售。SKU型錄July2023與10/1 embargo也不是發售日。"
+        },
+        {
+          "url": "https://pimcontent1.ingrammicro.com/pe/assets/media/brochure/000000000006150102_6150102.pdf",
+          "title": "CORSAIR K70 CORE 原廠型錄／完整SKU表",
+          "outcome": "型錄列CH-910971E-TW但embargo不是上市日期；不以文件日期補值。"
+        },
+        {
+          "url": "https://24h.pchome.com.tw/prod/DCAHIR-A900GQBDJ",
+          "title": "PChome K70 CORE中文新品頁",
+          "outcome": "可確認目前售價與版本，未標示台灣SKU實際上市日。"
+        }
+      ]
+    },
+    {
+      "id": "keyboard-wooting-80he-l60-v2",
+      "category": "keyboard",
+      "brand": "Wooting",
+      "model": "80HE",
+      "name": "80HE ANSI US 黑色 PCR ABS／Lekker L60 v2／預裝黑色 PBT 完整鍵盤",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "sourceKind": "not_found",
+      "reason": "官方2024回顧區分2023年底發表、Founders預購與量產，稱9月團隊聚會後首批準備運送，但未明示此Black PCR ABS／ANSI US／L60 v2預裝版的實際發售日期。韌體更新、首批ready-to-ship及評論到貨日期不充作正式上市日。",
+      "query": "site:wooting.io \"80HE\" \"September\" \"2024\" launch",
+      "auditQueries": [
+        "site:wooting.io \"80HE\" \"released\" \"2024\"",
+        "site:wooting.io \"80HE\" \"September\" \"2024\" launch",
+        "\"Wooting 80HE\" \"release date\" site:wooting.io"
+      ],
+      "checkedAt": "2026-09-01",
+      "auditDisposition": "not_found_after_review",
+      "checkedSources": [
+        {
+          "url": "https://wooting.io/ja/post/2024-recap",
+          "title": "Wooting官方2024 Recap",
+          "outcome": "官方2024回顧區分2023年底發表、Founders預購與量產，稱9月團隊聚會後首批準備運送，但未明示此Black PCR ABS／ANSI US／L60 v2預裝版的實際發售日期。韌體更新、首批ready-to-ship及評論到貨日期不充作正式上市日。"
+        },
+        {
+          "url": "https://wooting.io/wooting-80he",
+          "title": "80HE官方產品页",
+          "outcome": "現售產品可確認L60 v2成品配置，沒有該配置明確上市日。"
+        },
+        {
+          "url": "https://wooting.io/quickstart/keyboard/wooting-80he/prebuilt",
+          "title": "80HE Prebuilt官方快速指南",
+          "outcome": "2026/07/28為指南更新時間，不是鍵盤發售日期。"
+        }
+      ]
+    },
+    {
+      "id": "keyboard-keychron-k3-max",
+      "category": "keyboard",
+      "brand": "Keychron",
+      "model": "KBKCK3MQ1T",
+      "name": "K3 Max 復古白光熱插拔矮紅軸注音鍵盤",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "reason": "未取得此復古白光熱插拔矮紅中文SKU明確上市日期；不套黑RGB初發、評論或出貨標題日期。",
+      "checkedAt": "2026-09-01",
+      "auditDisposition": "confirmed_not_found",
+      "checkedSources": [
+        {
+          "url": "https://www.keychron.com.tw/collections/keychron-wireless-keyboards/products/keychron-k3-max-qmk-via-wireless-custom-mechanical-keyboard",
+          "decision": "官方TW選項已列本版本及SKU，但未明示該復古白光熱插拔矮紅版的上市日。"
+        },
+        {
+          "url": "https://keychron.jp/products/keychron-k3-max-qmk-via-wireless-custom-mechanical-keyboard-us-ansi-layout?page=1",
+          "decision": "官方日本產品頁無本台灣注音版本明確上市日期，不能挪用黑色RGB首發。"
+        },
+        {
+          "url": "https://www.keychron.com/products/keychron-k3-max-qmk-via-wireless-custom-mechanical-keyboard?variant=42524417917017",
+          "decision": "海外已選白色白光茶軸，不是本矮紅中文SKU，亦未得本版本明確上市日。"
+        }
+      ]
+    },
+    {
+      "id": "keyboard-logitech-g915-x-wired-tactile",
+      "category": "keyboard",
+      "brand": "Logitech",
+      "model": "920-012948",
+      "name": "G915 X 有線黑色觸感軸中文鍵盤",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "2024-09-17",
+      "sourceUrl": "https://news.logitech.com/press-releases/news-details/2024/Logitech-G-Introduces-the-G915-X-Series---The-Most-Advanced-Low-Profile-Gaming-Keyboard-Ever-Built/default.aspx",
+      "sourceTitle": "Logitech G Introduces the G915 X Series",
+      "evidenceSnippet": "品牌原公告的PricingandAvailability逐列有線G915X黑色linear/tactile並明示2024/9/17可購；採全球有線機種發售，非台灣注音SKU首次販售。台灣9/24報導明列的是LIGHTSPEED兩款不能套有線。",
+      "confidence": "high",
+      "sourceKind": "official_release_announcement",
+      "reason": "品牌原公告的PricingandAvailability逐列有線G915X黑色linear/tactile並明示2024/9/17可購；採全球有線機種發售，非台灣注音SKU首次販售。台灣9/24報導明列的是LIGHTSPEED兩款不能套有線。",
+      "checkedAt": "2026-09-01",
+      "auditDisposition": "confirmed_found",
+      "checkedSources": [
+        {
+          "url": "https://news.logitech.com/press-releases/news-details/2024/Logitech-G-Introduces-the-G915-X-Series---The-Most-Advanced-Low-Profile-Gaming-Keyboard-Ever-Built/default.aspx",
+          "outcome": "品牌原公告的PricingandAvailability逐列有線G915X黑色linear/tactile並明示2024/9/17可購；採全球有線機種發售，非台灣注音SKU首次販售。台灣9/24報導明列的是LIGHTSPEED兩款不能套有線。"
+        }
+      ]
+    },
+    {
+      "id": "keyboard-logitech-pro-x-tkl-rapid",
+      "category": "keyboard",
+      "brand": "Logitech",
+      "model": "920-013257",
+      "name": "PRO X TKL RAPID 桃紅磁軸中文鍵盤",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "2024-12-17",
+      "sourceUrl": "https://game.udn.com/game/story/122089/8434083",
+      "sourceTitle": "Logitech G首支類比磁軸電競鍵盤PRO X TKL RAPID強勢登場",
+      "evidenceSnippet": "原文2024/12/18報導明示12/17在台發表並正式上市，官店/GAME首波獨賣，黑白桃三色；非用文章12/18當上市。",
+      "confidence": "high",
+      "sourceKind": "media_launch_report",
+      "reason": "原文2024/12/18報導明示12/17在台發表並正式上市，官店/GAME首波獨賣，黑白桃三色；非用文章12/18當上市。",
+      "checkedAt": "2026-09-01",
+      "auditDisposition": "confirmed_found",
+      "checkedSources": [
+        {
+          "url": "https://game.udn.com/game/story/122089/8434083",
+          "outcome": "原文2024/12/18報導明示12/17在台發表並正式上市，官店/GAME首波獨賣，黑白桃三色；非用文章12/18當上市。"
+        }
+      ]
+    },
+    {
+      "id": "keyboard-logitech-mx-mechanical-tactile",
+      "category": "keyboard",
+      "brand": "Logitech",
+      "model": "920-010763",
+      "name": "MX Mechanical 全尺寸石墨灰中文靜音觸感鍵盤",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "2022-07-06",
+      "sourceUrl": "https://store.logitech.tw/blogs/news/logitech-mx%E9%AB%98%E9%9A%8E%E5%95%86%E5%8B%99%E9%8D%B5%E9%BC%A0%E6%96%B0%E5%93%81%E9%A0%82%E5%B0%96%E8%A6%8F%E6%A0%BC%E5%86%8D%E9%80%B2%E5%8C%96%F0%9F%8E%87",
+      "sourceTitle": "Logitech MX高階商務鍵鼠新品頂尖規格再進化",
+      "evidenceSnippet": "2022/6/22官方台灣旗艦店公告列全尺寸MXMechanical皆茶軸；6/28中午12為『預購開賣』，7/6全台網路實體通路『全面正式販售』，採7/6而非文章日/全球5/24或日本延期6/30。",
+      "confidence": "high",
+      "sourceKind": "official_release_announcement",
+      "reason": "2022/6/22官方台灣旗艦店公告列全尺寸MXMechanical皆茶軸；6/28中午12為『預購開賣』，7/6全台網路實體通路『全面正式販售』，採7/6而非文章日/全球5/24或日本延期6/30。",
+      "checkedAt": "2026-09-01",
+      "auditDisposition": "confirmed_found",
+      "checkedSources": [
+        {
+          "url": "https://store.logitech.tw/blogs/news/logitech-mx%E9%AB%98%E9%9A%8E%E5%95%86%E5%8B%99%E9%8D%B5%E9%BC%A0%E6%96%B0%E5%93%81%E9%A0%82%E5%B0%96%E8%A6%8F%E6%A0%BC%E5%86%8D%E9%80%B2%E5%8C%96%F0%9F%8E%87",
+          "outcome": "2022/6/22官方台灣旗艦店公告列全尺寸MXMechanical皆茶軸；6/28中午12為『預購開賣』，7/6全台網路實體通路『全面正式販售』，採7/6而非文章日/全球5/24或日本延期6/30。"
+        }
+      ]
+    },
+    {
+      "id": "keyboard-logitech-g515-lightspeed-tkl-tactile",
+      "category": "keyboard",
+      "brand": "Logitech",
+      "model": "920-012578",
+      "name": "G515 LIGHTSPEED TKL 黑色中文 GL 茶軸完整鍵盤",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "2024-07-25",
+      "sourceUrl": "https://www.nova.com.tw/article/ff/content/66a34f1238513",
+      "sourceTitle": "Logitech G 全新G515 LIGHTSPEED TKL 與 G309 LIGHTSPEED 無線遊戲鍵鼠正式開賣",
+      "evidenceSnippet": "NOVA 2024-07-26 原文寫7月25日起指定台灣通路首賣、8月1日全通路，並明示G515 LIGHTSPEED茶軸與黑白兩色4490。Chrome台灣官方頁明列黑色中文注音觸感920-012578，補齊SKU映射。本日期只稱台灣首賣，非文章日期、日本JIS或全球首發。",
+      "confidence": "high",
+      "sourceKind": "media",
+      "reason": "NOVA 2024-07-26 原文寫7月25日起指定台灣通路首賣、8月1日全通路，並明示G515 LIGHTSPEED茶軸與黑白兩色4490。Chrome台灣官方頁明列黑色中文注音觸感920-012578，補齊SKU映射。本日期只稱台灣首賣，非文章日期、日本JIS或全球首發。",
+      "query": "\"920-012578\" 上市",
+      "auditQueries": [
+        "\"920-012578\" 上市",
+        "\"G515 LIGHTSPEED TKL\" \"7月25\""
+      ],
+      "checkedAt": "2026-09-01",
+      "auditDisposition": "found_after_review",
+      "checkedSources": [
+        {
+          "url": "https://www.nova.com.tw/article/ff/content/66a34f1238513",
+          "title": "Logitech G 全新G515 LIGHTSPEED TKL 與 G309 LIGHTSPEED 無線遊戲鍵鼠正式開賣",
+          "outcome": "NOVA 2024-07-26 原文寫7月25日起指定台灣通路首賣、8月1日全通路，並明示G515 LIGHTSPEED茶軸與黑白兩色4490。Chrome台灣官方頁明列黑色中文注音觸感920-012578，補齊SKU映射。本日期只稱台灣首賣，非文章日期、日本JIS或全球首發。"
+        },
+        {
+          "url": "https://www.logitechg.com/zh-tw/shop/p/g515-tkl-wireless-keyboard.920-012578",
+          "title": "G515 LIGHTSPEED TKL 台灣官方規格與零件編號",
+          "outcome": "Chrome展開規格明列黑色中文注音(QWERTY)觸感920-012578；與NOVA台灣黑白茶軸首賣公告對照，排除日本JIS與純有線版本。"
+        },
+        {
+          "url": "https://www.gh3c.com.tw/index.php?app=goods&id=39671",
+          "title": "G515 LIGHTSPEED TKL 台灣型號對照",
+          "outcome": "原頁明列黑色中文繁體觸感920-012578與白色920-012579，確認選版；不是用零件頁發布日期推上市。"
+        }
+      ]
+    },
+    {
+      "id": "keyboard-keychron-k2-he-special-black",
+      "category": "keyboard",
+      "brand": "Keychron",
+      "model": "KBKCK2HF1",
+      "name": "K2 HE 黑木特仕版英文星雲磁軸鍵盤",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "sourceKind": "not_found",
+      "reason": "官方產品頁與嘖嘖預購landing無明確零售上市日，官方YouTube搜尋2025-04-01火熱上市仍連嘖嘖預購，原片webthrottled未採用；2024全球募資不可當TW此SKU首賣。",
+      "checkedAt": "2026-09-01",
+      "auditDisposition": "confirmed_not_found",
+      "auditQueries": [
+        "\"KBKCK2HF1\" 上市 發售",
+        "\"Keychron K2 HE\" site:keychron.com.tw 上市",
+        "\"Keychron K2 HE\" 台灣 發售"
+      ],
+      "checkedSources": [
+        {
+          "url": "https://www.keychron.com.tw/products/keychron-k2-he-wireless-magnetic-switch-keyboard?variant=46813890674947",
+          "outcome": "選定SKU商品頁沒有明確台灣零售發售日。"
+        },
+        {
+          "url": "https://www.keychron.com.tw/pages/keychron-k2-he-%E5%98%96%E5%98%96",
+          "outcome": "官方募資／預購入口沒有明確此SKU零售上市日，不把2024全球募資當台灣首賣。"
+        }
+      ]
+    },
+    {
+      "id": "mousepad-logitech-g740",
+      "category": "mousepad",
+      "brand": "Logitech",
+      "model": "G740",
+      "name": "G740 5 mm 厚布面滑鼠墊（943-000809）",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "sourceKind": "not_found",
+      "reason": "已查台灣現售同SKU與上市搜尋；Pangoly對應美國943-000804，且首次可得時間附非正式上市警語，不能套給943-000809。",
+      "query": "\"G740\" \"943-000809\" release launch",
+      "auditQueries": [
+        "\"G740\" \"943-000809\" release launch"
+      ],
+      "checkedAt": "2026-08-31",
+      "auditDisposition": "not_found_after_review",
+      "checkedSources": [
+        {
+          "url": "https://store.logitech.tw/products/g740",
+          "title": "Logitech 台灣官方商城 G740",
+          "outcome": "同SKU現售頁未提供明確上市文字。"
+        },
+        {
+          "url": "https://pangoly.com/en/product/logitech-g740",
+          "title": "Pangoly G740 產品識別",
+          "outcome": "對應943-000804而非943-000809；October 2022是首次可得時間，不是已證實本SKU上市日。"
+        }
+      ]
+    },
+    {
+      "id": "mousepad-logitech-g840",
+      "category": "mousepad",
+      "brand": "Logitech",
+      "model": "G840",
+      "name": "G840 XL 900 mm 長桌墊（黑色 943-000781）",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "sourceKind": "not_found",
+      "reason": "2017-09僅能證明G840家族首發；官方新聞未識別当前943-000781，且新舊底材版待區分，不直接套給本SKU。",
+      "query": "\"943-000781\" \"歷史\"",
+      "auditQueries": [
+        "\"943-000781\" \"歷史\"",
+        "Logitech G840 943-000781 價格"
+      ],
+      "checkedAt": "2026-08-31",
+      "auditDisposition": "not_found_after_review",
+      "checkedSources": [
+        {
+          "url": "https://store.logitech.tw/products/g840",
+          "title": "Logitech 台灣官方商城 G840",
+          "outcome": "當前943-000781现售頁未見獨立發售日。"
+        },
+        {
+          "url": "https://ir.logitech.com/press-releases/press-release-details/2017/Logitech-G-Unveils-New-LIGHTSPEED-Wireless-Mechanical-Keyboard-and-Next-Generation-Wireless-Gaming-Mouse/default.aspx",
+          "title": "Logitech G 2017 LIGHTSPEED／G840 官方發表",
+          "outcome": "官方2017-08-30公告G840預定2017-09全球零售，但未列當前943-000781且未解決新舊底材版映射。"
+        }
+      ]
+    },
+    {
+      "id": "mousepad-logitech-g440",
+      "category": "mousepad",
+      "brand": "Logitech",
+      "model": "G440",
+      "name": "G440 硬質滑鼠墊（943-000795）",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "sourceKind": "not_found",
+      "reason": "查同SKU官方台灣頁及Pangoly產品資料；後者為943-000049而非943-000795，September 2014是可能首次可得時間，不能當當前SKU上市日。",
+      "query": "\"G440\" \"943-000795\" release launch",
+      "auditQueries": [
+        "\"G440\" \"943-000795\" release launch"
+      ],
+      "checkedAt": "2026-08-31",
+      "auditDisposition": "not_found_after_review",
+      "checkedSources": [
+        {
+          "url": "https://store.logitech.tw/products/g440",
+          "title": "Logitech 台灣 G440 新品頁",
+          "outcome": "同SKU現售頁沒有明確上市日期。"
+        },
+        {
+          "url": "https://pangoly.com/en/product/logitech-g440",
+          "title": "Pangoly G440 型號識別",
+          "outcome": "943-000049舊SKU；首次可得時間不是正式上市日。"
+        }
+      ]
+    },
+    {
+      "id": "mousepad-logitech-g640",
+      "category": "mousepad",
+      "brand": "Logitech",
+      "model": "G640",
+      "name": "G640 大型布面滑鼠墊（943-000802）",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "sourceKind": "not_found",
+      "reason": "台灣官方頁沒有明確上市文字；完整G640+943-000802上市查詢未取得可對應此SKU的公告，不用促銷或競拍日期推定。",
+      "query": "\"G640\" \"943-000802\" release launch",
+      "auditQueries": [
+        "\"G640\" \"943-000802\" release launch"
+      ],
+      "checkedAt": "2026-08-31",
+      "auditDisposition": "not_found_after_review",
+      "checkedSources": [
+        {
+          "url": "https://store.logitech.tw/products/g640",
+          "title": "Logitech 台灣 G640",
+          "outcome": "同SKU現售頁無明確發售日。"
+        },
+        {
+          "url": "https://fast.tk3c.com/product/258602",
+          "title": "燦坤 G640 943-000802",
+          "outcome": "899元促銷頁沒有獨立上市日期。"
+        }
+      ]
+    },
+    {
+      "id": "mousepad-logitech-desk-mat-studio",
+      "category": "mousepad",
+      "brand": "Logitech",
+      "model": "DESK MAT - Studio Series",
+      "name": "DESK MAT Studio Series 長桌墊（玫瑰粉 956-000045）",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "sourceKind": "not_found",
+      "reason": "2021-11-09官方新聞明示Desk Mat家族將於2021-11全球上市，但未列玫瑰粉956-000045；尚無獨立SKU映射，不把家族月份套入。",
+      "query": "\"956-000045\" 上市",
+      "auditQueries": [
+        "\"956-000045\" 上市",
+        "Logitech Studio Series mouse pad desk mat launched 2021"
+      ],
+      "checkedAt": "2026-08-31",
+      "auditDisposition": "not_found_after_review",
+      "checkedSources": [
+        {
+          "url": "https://news.logitech.com/press-releases/news-details/2021/Personality-Pops-with-new-Studio-Series-Keyboard-and-Mouse-from-Logitech/default.aspx",
+          "title": "Logitech Studio Series 2021 官方新品公告",
+          "outcome": "Desk Mat家族2021-11上市，未列956-000045。"
+        }
+      ]
+    },
+    {
+      "id": "mousepad-logitech-mouse-pad-studio",
+      "category": "mousepad",
+      "brand": "Logitech",
+      "model": "MOUSE PAD - Studio Series",
+      "name": "MOUSE PAD Studio Series 小滑鼠墊（石墨黑 956-000031）",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "sourceKind": "not_found",
+      "reason": "官方永續報告僅說Studio Series Mouse Pad／Desk Pad在FY22推出；財年不等於曆年，未取得石墨黑956-000031獨立發售年月日。",
+      "query": "\"956-000031\" 上市",
+      "auditQueries": [
+        "\"956-000031\" 上市",
+        "Logitech Studio Series mouse pad desk mat launched 2021"
+      ],
+      "checkedAt": "2026-08-31",
+      "auditDisposition": "not_found_after_review",
+      "checkedSources": [
+        {
+          "url": "https://secure.logitech.com/content/dam/logitech/en/sustainability/pdf/resources/fy22-impact-report-portrait.pdf",
+          "title": "Logitech FY22 Impact Report",
+          "outcome": "只有FY22財年，不是本SKU可採曆年上市日。"
+        }
+      ]
+    },
+    {
+      "id": "mousepad-logitech-aurora",
+      "category": "mousepad",
+      "brand": "Logitech",
+      "model": "943-000735",
+      "name": "Aurora 玩色大型滑鼠墊（粉色 943-000735）",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "sourceKind": "not_found",
+      "reason": "2022-07-26官方發表Aurora時提到mouse pad配件及系列可購，但未列粉色943-000735個別發售日；不能依家族或其他顏色推定。",
+      "query": "\"943-000735\" 上市",
+      "auditQueries": [
+        "\"943-000735\" 上市",
+        "羅技 Aurora 滑鼠墊 2022 上市 1190"
+      ],
+      "checkedAt": "2026-08-31",
+      "auditDisposition": "not_found_after_review",
+      "checkedSources": [
+        {
+          "url": "https://news.logitech.com/press-releases/news-details/2022/Welcome-to-a-New-Age-of-Play-with-the-Aurora-Collection-by-Logitech-G/default.aspx",
+          "title": "Logitech G Aurora Collection 官方發表",
+          "outcome": "新聞為Aurora全系列，未識別粉色943-000735發售日。"
+        },
+        {
+          "url": "https://store.logitech.tw/products/largemousepad",
+          "title": "Logitech 台灣 玩色大型滑鼠墊",
+          "outcome": "目前粉色SKU現價1190元，無獨立發售年月日。"
+        }
+      ]
+    },
+    {
+      "id": "mousepad-sony-mpd-f900",
+      "category": "mousepad",
+      "brand": "Sony",
+      "model": "MPD-F900/B",
+      "name": "INZONE Mat-F 控制型布面滑鼠墊（MPD-F900/B 黑色）",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "2025-09-17",
+      "sourceUrl": "https://www.sony.com.tw/corporate/home/NewsCenter/Detail/INZONESERIES",
+      "sourceTitle": "Sony INZONE 全新電競周邊台灣上市公告",
+      "evidenceSnippet": "2025-09-16正文列MPD-F900、連/B購買頁並明示明日9/17上市。",
+      "confidence": "high",
+      "sourceKind": "official_launch",
+      "reason": "2025-09-16 Sony台灣官方新聞直接連結MPD-F900/B並明示周邊明日9/17正式在台上市，採2025-09-17。",
+      "query": "\"MPD-F900\" 歷史價格",
+      "auditQueries": [
+        "\"MPD-F900\" 歷史價格",
+        "SONY MPD-F900 價格"
+      ],
+      "checkedAt": "2026-08-31",
+      "auditDisposition": "confirmed_found",
+      "checkedSources": [
+        {
+          "url": "https://www.sony.com.tw/corporate/home/NewsCenter/Detail/INZONESERIES",
+          "title": "Sony INZONE 全新電競周邊台灣上市公告",
+          "outcome": "2025-09-16正文列MPD-F900、連/B購買頁並明示明日9/17上市。"
+        }
+      ]
+    },
+    {
+      "id": "mousepad-sony-mpd-d700",
+      "category": "mousepad",
+      "brand": "Sony",
+      "model": "MPD-D700/Z",
+      "name": "INZONE Mat-D 速度型布面滑鼠墊（MPD-D700/Z 紫黑色）",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "2025-09-17",
+      "sourceUrl": "https://www.sony.com.tw/corporate/home/NewsCenter/Detail/INZONESERIES",
+      "sourceTitle": "Sony INZONE 全新電競周邊台灣上市公告",
+      "evidenceSnippet": "2025-09-16正文列MPD-D700並連到/Z，明示明日9/17上市。",
+      "confidence": "high",
+      "sourceKind": "official_launch",
+      "reason": "2025-09-16 Sony台灣官方新聞直接連結MPD-D700/Z，並明示周邊明日9/17正式在台上市，採2025-09-17。",
+      "query": "\"MPD-D700\" 歷史價格",
+      "auditQueries": [
+        "\"MPD-D700\" 歷史價格",
+        "SONY MPD-D700 價格"
+      ],
+      "checkedAt": "2026-08-31",
+      "auditDisposition": "confirmed_found",
+      "checkedSources": [
+        {
+          "url": "https://www.sony.com.tw/corporate/home/NewsCenter/Detail/INZONESERIES",
+          "title": "Sony INZONE 全新電競周邊台灣上市公告",
+          "outcome": "2025-09-16正文列MPD-D700並連到/Z，明示明日9/17上市。"
+        }
+      ]
+    },
+    {
+      "id": "mousepad-logitech-g240",
+      "category": "mousepad",
+      "brand": "Logitech",
+      "model": "G240",
+      "name": "G240 薄型布面滑鼠墊（943-000788）",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "sourceKind": "not_found",
+      "reason": "台灣同SKU販售頁未列上市日。Pangoly為943-000043／943000093舊SKU，September 2014附首次可得不等於上市的警語，不能用於943-000788。",
+      "query": "\"Logitech G240\" \"943-000788\" release launch",
+      "auditQueries": [
+        "\"Logitech G240\" \"943-000788\" release launch"
+      ],
+      "checkedAt": "2026-08-31",
+      "auditDisposition": "not_found_after_review",
+      "checkedSources": [
+        {
+          "url": "https://store.logitech.tw/products/g240",
+          "title": "Logitech 台灣官方商城 G240",
+          "outcome": "同SKU399元現售頁，未找到明確上市日期。"
+        },
+        {
+          "url": "https://pangoly.com/en/product/logitech-g240",
+          "title": "Pangoly G240 產品身份",
+          "outcome": "943-000043／943000093，不是943-000788；首次可得時間不作正式發售日。"
+        }
+      ]
+    },
+    {
+      "id": "mousepad-razer-pro-glide",
+      "category": "mousepad",
+      "brand": "Razer",
+      "model": "Pro Glide",
+      "name": "Pro Glide M 灰色布面滑鼠墊（360 × 275 × 3 mm）",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "2020-08-20",
+      "sourceUrl": "https://www.razer.com/newsroom?p=3637",
+      "sourceTitle": "The Razer Productivity Suite brings performance, durability and comfort to the workspace",
+      "evidenceSnippet": "官方公告的 Pro Glide 為360×275×3mm布面；PRICE & AVAILABILITY 明示 Razer.com 20th August 2020、授權通路27th August 2020。",
+      "confidence": "high",
+      "sourceKind": "official_announcement",
+      "reason": "採同款M版全球Razer.com首發日，不宣稱台灣通路同日開賣；不同XXL不沿用。",
+      "query": "\"Pro Glide\" release launch 360 275 3",
+      "auditQueries": [
+        "\"Pro Glide\" release launch 360 275 3"
+      ],
+      "checkedAt": "2026-08-31",
+      "auditDisposition": "found_after_review",
+      "checkedSources": [
+        {
+          "url": "https://www.razer.com/newsroom?p=3637",
+          "title": "Razer 2020 Productivity Suite 原始公告",
+          "outcome": "同M尺寸與明確開售日期。"
+        }
+      ]
+    },
+    {
+      "id": "mousepad-razer-atlas",
+      "category": "mousepad",
+      "brand": "Razer",
+      "model": "RZ02-04890100-R3M1",
+      "name": "Atlas 黑色強化玻璃滑鼠墊（RZ02-04890100-R3M1）",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "2023-03-16",
+      "sourceUrl": "https://www.gamespress.com/pt/MEDIA-ALERT-EXPERIENCE-PURE-POLISHED-PRECISION-WITH-THE-RAZER-ATLAS-TE",
+      "sourceTitle": "Razer Atlas tempered glass mouse mat – Razer 原始新聞稿",
+      "evidenceSnippet": "Razer 撰寫之 Gamespress 原分發稿於2023-03-16發布，WHEN明示即日起可購，含黑白兩色的原版Atlas。",
+      "confidence": "medium",
+      "sourceKind": "manufacturer_press_release",
+      "reason": "此為原版Atlas黑色全球開售日，不宣稱台灣M1同日開賣；不沿用Atlas Pro或其他尺寸。",
+      "query": "Razer Atlas launch March 16 2023",
+      "auditQueries": [
+        "Razer Atlas launch March 16 2023"
+      ],
+      "checkedAt": "2026-08-31",
+      "auditDisposition": "found_after_review",
+      "checkedSources": [
+        {
+          "url": "https://www.gamespress.com/pt/MEDIA-ALERT-EXPERIENCE-PURE-POLISHED-PRECISION-WITH-THE-RAZER-ATLAS-TE",
+          "title": "Razer Atlas tempered glass mouse mat – Razer 原始新聞稿",
+          "outcome": "此為原版Atlas黑色全球開售日，不宣稱台灣M1同日開賣；不沿用Atlas Pro或其他尺寸。"
+        }
+      ]
+    },
+    {
+      "id": "mousepad-razer-strider-chroma",
+      "category": "mousepad",
+      "brand": "Razer",
+      "model": "RZ02-04490100-R3M1",
+      "name": "Strider Chroma 19區RGB混合布面長桌墊（RZ02-04490100-R3M1）",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "2022-08",
+      "sourceUrl": "https://insider.razer.com/mice-and-surfaces-9/strider-chroma-outshine-all-others-38517",
+      "sourceTitle": "Strider Chroma – Outshine All Others 官方新品發表",
+      "evidenceSnippet": "Razer官方staff dekades於2022-08-04發表19區RGB Strider Chroma新品；保留可核發表月份，不補台灣區域上市日。",
+      "confidence": "medium",
+      "sourceKind": "official_announcement",
+      "reason": "原版單一19區Chroma型號發表月份；M1地區開賣日未確證，官方及通路尺寸歧異另保留，無不同尺寸重複收錄。",
+      "query": "Razer Strider Chroma launch August 2022",
+      "auditQueries": [
+        "Razer Strider Chroma launch August 2022"
+      ],
+      "checkedAt": "2026-08-31",
+      "auditDisposition": "found_after_review",
+      "checkedSources": [
+        {
+          "url": "https://insider.razer.com/mice-and-surfaces-9/strider-chroma-outshine-all-others-38517",
+          "title": "Strider Chroma – Outshine All Others 官方新品發表",
+          "outcome": "原版單一19區Chroma型號發表月份；M1地區開賣日未確證，官方及通路尺寸歧異另保留，無不同尺寸重複收錄。"
+        }
+      ]
+    },
+    {
+      "id": "mousepad-razer-pro-glide-xxl",
+      "category": "mousepad",
+      "brand": "Razer",
+      "model": "RZ02-03332300-R3M1",
+      "name": "Pro Glide XXL 灰色布面長桌墊（RZ02-03332300-R3M1）",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "https://www.razer.com/newsroom/product-news/win-at-work-with-razers-next-generation-productivity-suite",
+      "sourceTitle": "Win at work with Razer’s next-generation productivity suite",
+      "evidenceSnippet": "2021-11-02官方公告寫Pro Glide XXL當天上市、940×410×3mm，但現售M1頁厚度4mm；本批未能證實是否同版誤植或修訂，不把首發日期套成現售版本已確認上市日。",
+      "confidence": "not_found",
+      "sourceKind": "official_announcement",
+      "reason": "2021-11-02官方公告寫Pro Glide XXL當天上市、940×410×3mm，但現售M1頁厚度4mm；本批未能證實是否同版誤植或修訂，不把首發日期套成現售版本已確認上市日。",
+      "query": "Razer Pro Glide XXL launch November 2021",
+      "auditQueries": [
+        "Razer Pro Glide XXL launch November 2021"
+      ],
+      "checkedAt": "2026-08-31",
+      "auditDisposition": "not_found_after_review",
+      "checkedSources": [
+        {
+          "url": "https://www.razer.com/newsroom/product-news/win-at-work-with-razers-next-generation-productivity-suite",
+          "title": "Win at work with Razer’s next-generation productivity suite",
+          "outcome": "2021-11-02官方公告寫Pro Glide XXL當天上市、940×410×3mm，但現售M1頁厚度4mm；本批未能證實是否同版誤植或修訂，不把首發日期套成現售版本已確認上市日。"
+        }
+      ]
+    },
+    {
+      "id": "mousepad-razer-gigantus-v2-xxl",
+      "category": "mousepad",
+      "brand": "Razer",
+      "model": "RZ02-03330400-R3M1",
+      "name": "Gigantus V2 XXL 黑綠布面長桌墊（RZ02-03330400-R3M1）",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "2020-05",
+      "sourceUrl": "https://insider.razer.com/mice-and-surfaces-9/gigantus-v2-bigger-surface-for-bigger-wins-11176",
+      "sourceTitle": "Gigantus V2 - Bigger Surface For Bigger Wins",
+      "evidenceSnippet": "Razer官方staff dekades於2020-05-26 introducing Gigantus V2多尺寸新品；同日原hands-on明示當天announced並實收四尺寸，XXL940×410×4mm。保留全球原款新品月份，不補台灣M1開賣日。",
+      "confidence": "medium",
+      "sourceKind": "official_announcement",
+      "reason": "Razer官方staff dekades於2020-05-26 introducing Gigantus V2多尺寸新品；同日原hands-on明示當天announced並實收四尺寸，XXL940×410×4mm。保留全球原款新品月份，不補台灣M1開賣日。",
+      "query": "Razer Gigantus V2 XXL launch May 2020",
+      "auditQueries": [
+        "Razer Gigantus V2 XXL launch May 2020"
+      ],
+      "checkedAt": "2026-08-31",
+      "auditDisposition": "found_after_review",
+      "checkedSources": [
+        {
+          "url": "https://insider.razer.com/mice-and-surfaces-9/gigantus-v2-bigger-surface-for-bigger-wins-11176",
+          "title": "Gigantus V2 - Bigger Surface For Bigger Wins",
+          "outcome": "Razer官方staff dekades於2020-05-26 introducing Gigantus V2多尺寸新品；同日原hands-on明示當天announced並實收四尺寸，XXL940×410×4mm。保留全球原款新品月份，不補台灣M1開賣日。"
+        }
+      ]
+    },
+    {
+      "id": "mousepad-asus-strix-slice",
+      "category": "mousepad",
+      "brand": "ASUS",
+      "model": "ROG Strix Slice",
+      "name": "ROG Strix Slice 超薄硬質滑鼠墊（黑面／夜光標誌）",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "https://rog.asus.com/tw/mice-mouse-pads/mouse-pads/rog-strix-slice-mousepad-model/",
+      "sourceTitle": "ROG Strix Slice 官方產品頁",
+      "evidenceSnippet": "所查官方產品頁未列明確發售日；日文官方新聞https://www.asus.com/jp/news/yudbsb3rhpusipnk/原頁回傳讀取錯誤，未以搜尋摘要或2019年Mobile01開箱日期代替上市日。",
+      "confidence": "not_found",
+      "sourceKind": "official_product_page",
+      "reason": "所查官方產品頁未列明確發售日；日文官方新聞https://www.asus.com/jp/news/yudbsb3rhpusipnk/原頁回傳讀取錯誤，未以搜尋摘要或2019年Mobile01開箱日期代替上市日。",
+      "query": "\"ROG Strix Slice\" launch release 2019",
+      "auditQueries": [
+        "\"ROG Strix Slice\" launch release 2019",
+        "site:rog.asus.com/tw \"ROG Strix Slice\" 上市",
+        "\"ROG Strix Slice\" \"2019年12月20日発売\""
+      ],
+      "checkedAt": "2026-08-31",
+      "auditDisposition": "not_found_after_review",
+      "checkedSources": [
+        {
+          "url": "https://rog.asus.com/tw/mice-mouse-pads/mouse-pads/rog-strix-slice-mousepad-model/",
+          "title": "ROG Strix Slice 官方產品頁",
+          "outcome": "所查官方產品頁未列明確發售日；日文官方新聞https://www.asus.com/jp/news/yudbsb3rhpusipnk/原頁回傳讀取錯誤，未以搜尋摘要或2019年Mobile01開箱日期代替上市日。"
+        }
+      ]
+    },
+    {
+      "id": "mousepad-asus-sheath-ii-xxl",
+      "category": "mousepad",
+      "brand": "ASUS",
+      "model": "ROG Sheath II XXL",
+      "name": "ROG Sheath II XXL 散熱纖維長桌墊（黑色）",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "2025-07-11",
+      "sourceUrl": "https://www.gdm.or.jp/pressrelease/2025/0711/595679",
+      "sourceTitle": "ASUS ROG Sheath II XXL 日本市場販售公告",
+      "evidenceSnippet": "原文明确ASUS JAPAN於2025-07-11開始日本市場新規供貨、Amazon專賣即日販売開始，並逐款列2025年7月11日発売；這是日本發售日，不宣稱台灣首賣日或全球最早上市日。官方2025-05-19 Computex新聞只作發表背景，不將其日期當開賣日。",
+      "confidence": "medium",
+      "sourceKind": "trusted_media",
+      "reason": "原文明确ASUS JAPAN於2025-07-11開始日本市場新規供貨、Amazon專賣即日販売開始，並逐款列2025年7月11日発売；這是日本發售日，不宣稱台灣首賣日或全球最早上市日。官方2025-05-19 Computex新聞只作發表背景，不將其日期當開賣日。",
+      "query": "\"ROG Sheath II XXL\" launch release date",
+      "auditQueries": [
+        "\"ROG Sheath II XXL\" launch release date",
+        "\"ROG Sheath II XXL\" site:asus.com/jp/news 2025 7 11"
+      ],
+      "checkedAt": "2026-08-31",
+      "auditDisposition": "found_after_review",
+      "checkedSources": [
+        {
+          "url": "https://www.gdm.or.jp/pressrelease/2025/0711/595679",
+          "title": "ASUS ROG Sheath II XXL 日本市場販售公告",
+          "outcome": "原文明确ASUS JAPAN於2025-07-11開始日本市場新規供貨、Amazon專賣即日販売開始，並逐款列2025年7月11日発売；這是日本發售日，不宣稱台灣首賣日或全球最早上市日。官方2025-05-19 Computex新聞只作發表背景，不將其日期當開賣日。"
+        }
+      ]
+    },
+    {
+      "id": "mousepad-asus-scabbard-ii-xxl",
+      "category": "mousepad",
+      "brand": "ASUS",
+      "model": "ROG Scabbard II Arctic Gray XXL",
+      "name": "ROG Scabbard II Arctic Gray XXL 防護塗層長桌墊（灰白）",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "2025-06-06",
+      "sourceUrl": "https://game.watch.impress.co.jp/docs/news/2020461.html",
+      "sourceTitle": "ASUS Scabbard II Arctic Gray XXL 日本Amazon發售",
+      "evidenceSnippet": "GAME Watch原文明確記錄ASUS JAPAN自2025年6月6日開始在Amazon販售完整Arctic Gray XXL，價格7480JPY；採已核日本發售日，不宣稱台灣首賣或全球最早。官方4/12公告為新品發表，Mobile01 5/6採訪並未列本款開賣日。",
+      "confidence": "medium",
+      "sourceKind": "trusted_media",
+      "reason": "GAME Watch原文明確記錄ASUS JAPAN自2025年6月6日開始在Amazon販售完整Arctic Gray XXL，價格7480JPY；採已核日本發售日，不宣稱台灣首賣或全球最早。官方4/12公告為新品發表，Mobile01 5/6採訪並未列本款開賣日。",
+      "query": "\"ROG Scabbard II Arctic Gray XXL\" 上市 ASUS 2025",
+      "auditQueries": [
+        "\"ROG Scabbard II Arctic Gray XXL\" 上市 ASUS 2025",
+        "\"ROG SCABBARD II ARCTIC GRAY XXL\" site:asus.com/jp/news 2025 6 6"
+      ],
+      "checkedAt": "2026-08-31",
+      "auditDisposition": "found_after_review",
+      "checkedSources": [
+        {
+          "url": "https://game.watch.impress.co.jp/docs/news/2020461.html",
+          "title": "ASUS Scabbard II Arctic Gray XXL 日本Amazon發售",
+          "outcome": "GAME Watch原文明確記錄ASUS JAPAN自2025年6月6日開始在Amazon販售完整Arctic Gray XXL，價格7480JPY；採已核日本發售日，不宣稱台灣首賣或全球最早。官方4/12公告為新品發表，Mobile01 5/6採訪並未列本款開賣日。"
+        }
+      ]
+    },
+    {
+      "id": "mousepad-asus-hone-control-ace-l",
+      "category": "mousepad",
+      "brand": "ASUS",
+      "model": "ROG Hone Control Ace L Vitality Edition",
+      "name": "ROG Hone Control Ace L Vitality Edition 控制型布墊（黃色）",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "2026-06-01",
+      "sourceUrl": "https://press.asus.com/news/press-releases/asus-rog-computex-2026-ace-esports-gear-partnerships/",
+      "sourceTitle": "ASUS ROG Computex 2026 Ace電競新品發布",
+      "evidenceSnippet": "官方原文日期2026-06-01，導言明示today與new product launches，具名ROG Hone Control Ace L Vitality Edition並描述4mm控制型布面；採全球新品發布日，不宣稱台灣通路首賣日。另查ASUS JAPAN8/28官方稿，日本9/4發售為較晚市場日期，不取代全球6/1發布。",
+      "confidence": "medium",
+      "sourceKind": "official_announcement",
+      "reason": "官方原文日期2026-06-01，導言明示today與new product launches，具名ROG Hone Control Ace L Vitality Edition並描述4mm控制型布面；採全球新品發布日，不宣稱台灣通路首賣日。另查ASUS JAPAN8/28官方稿，日本9/4發售為較晚市場日期，不取代全球6/1發布。",
+      "query": "\"ROG Hone Control Ace L Vitality Edition\" launch release",
+      "auditQueries": [
+        "\"ROG Hone Control Ace L Vitality Edition\" launch release"
+      ],
+      "checkedAt": "2026-08-31",
+      "auditDisposition": "found_after_review",
+      "checkedSources": [
+        {
+          "url": "https://press.asus.com/news/press-releases/asus-rog-computex-2026-ace-esports-gear-partnerships/",
+          "title": "ASUS ROG Computex 2026 Ace電競新品發布",
+          "outcome": "官方原文日期2026-06-01，導言明示today與new product launches，具名ROG Hone Control Ace L Vitality Edition並描述4mm控制型布面；採全球新品發布日，不宣稱台灣通路首賣日。另查ASUS JAPAN8/28官方稿，日本9/4發售為較晚市場日期，不取代全球6/1發布。"
+        }
+      ]
+    },
+    {
+      "id": "mousepad-razer-firefly-v2-pro",
+      "category": "mousepad",
+      "brand": "Razer",
+      "model": "Firefly V2 Pro",
+      "name": "Firefly V2 Pro 全板背光硬質滑鼠墊（黑色原款）",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "2024-04-16",
+      "sourceUrl": "https://9to5toys.com/2024/04/16/razer-just-unveiled-firefly-v2-pro-the-worlds-first-fully-illuminated-led-backlit-gaming-mouse-mat/",
+      "sourceTitle": "Razer launches Firefly V2 Pro fully illuminated mouse mat",
+      "evidenceSnippet": "原媒體報導明示Razer當天launching、now available，並敘述收到當日新聞稿；規格15區、278×360×4.6mm對應黑色原款。採全球原款上市日，不宣稱台灣區域SKU同日首賣；官方支援頁更新日期不當上市日。",
+      "confidence": "medium",
+      "sourceKind": "media_launch_report",
+      "reason": "原媒體報導明示Razer當天launching、now available，並敘述收到當日新聞稿；規格15區、278×360×4.6mm對應黑色原款。採全球原款上市日，不宣稱台灣區域SKU同日首賣；官方支援頁更新日期不當上市日。",
+      "query": "\"Firefly V2 Pro\" launch release",
+      "auditQueries": [
+        "\"Firefly V2 Pro\" launch release"
+      ],
+      "checkedAt": "2026-08-31",
+      "auditDisposition": "found_after_review",
+      "checkedSources": [
+        {
+          "url": "https://9to5toys.com/2024/04/16/razer-just-unveiled-firefly-v2-pro-the-worlds-first-fully-illuminated-led-backlit-gaming-mouse-mat/",
+          "title": "Razer launches Firefly V2 Pro fully illuminated mouse mat",
+          "outcome": "原媒體報導明示Razer當天launching、now available，並敘述收到當日新聞稿；規格15區、278×360×4.6mm對應黑色原款。採全球原款上市日，不宣稱台灣區域SKU同日首賣；官方支援頁更新日期不當上市日。"
+        }
+      ]
+    },
+    {
+      "id": "mousepad-asus-moonstone-ace-l",
+      "category": "mousepad",
+      "brand": "ASUS",
+      "model": "ROG Moonstone Ace L",
+      "name": "ROG Moonstone Ace L 9H鋼化玻璃滑鼠墊（黑色）",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "2023-11-10",
+      "sourceUrl": "https://www.gdm.or.jp/pressrelease/2023/1102/512663",
+      "sourceTitle": "ASUS ROG Moonstone Ace L 日本發售公告報導",
+      "evidenceSnippet": "原報導明示ASUS JAPAN於2023-11-02公布，11月10日開始販售，具名Black及Moonlight White與500×400×4mm；採可核的日本黑色原款發售日，不宣稱台灣或全球最早首賣。官方2023-08-22只列展示，沒有滑鼠墊發售日，不能挪用同文螢幕上市日期。",
+      "confidence": "medium",
+      "sourceKind": "media_launch_report",
+      "reason": "原報導明示ASUS JAPAN於2023-11-02公布，11月10日開始販售，具名Black及Moonlight White與500×400×4mm；採可核的日本黑色原款發售日，不宣稱台灣或全球最早首賣。官方2023-08-22只列展示，沒有滑鼠墊發售日，不能挪用同文螢幕上市日期。",
+      "query": "\"ROG Moonstone Ace L\" launch release",
+      "auditQueries": [
+        "\"ROG Moonstone Ace L\" launch release",
+        "\"ROG Moonstone Ace L\" 上市"
+      ],
+      "checkedAt": "2026-08-31",
+      "auditDisposition": "found_after_review",
+      "checkedSources": [
+        {
+          "url": "https://www.gdm.or.jp/pressrelease/2023/1102/512663",
+          "title": "ASUS ROG Moonstone Ace L 日本發售公告報導",
+          "outcome": "原報導明示ASUS JAPAN於2023-11-02公布，11月10日開始販售，具名Black及Moonlight White與500×400×4mm；採可核的日本黑色原款發售日，不宣稱台灣或全球最早首賣。官方2023-08-22只列展示，沒有滑鼠墊發售日，不能挪用同文螢幕上市日期。"
+        },
+        {
+          "url": "https://press.asus.com/tw/news/press-releases/asus-rog-launches-new-products-during-the-gamescon-2023-event-never-stop-gaming",
+          "title": "ASUS Gamescom 2023官方展示原稿",
+          "outcome": "Moonstone只在展示產品段落，没有發售日；排除新聞發布日及其他商品日期。"
+        }
+      ]
+    },
+    {
+      "id": "mousepad-elecom-mp-lmwbk",
+      "category": "mousepad",
+      "brand": "ELECOM",
+      "model": "MP-LMWBK",
+      "name": "ELECOM MP-LMWBK 抗菌防潑水布面滑鼠墊（純黑）",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "2025-10",
+      "sourceUrl": "https://www.elecom.co.jp/news/new/20251014-03/",
+      "sourceTitle": "ELECOM 抗菌防潑水MP-LMW系列新品公告（EL41-177）",
+      "evidenceSnippet": "Chrome官方2025-10-14公告明示10月中旬起新発売，表格單列MP-LMWBK純黑與條碼4549550408509。採2025-10月份，不把新聞發布日10/14猜成首賣日；此為日本原款上市月份，非台灣首售日。",
+      "confidence": "high",
+      "sourceKind": "official_announcement",
+      "reason": "Chrome官方2025-10-14公告明示10月中旬起新発売，表格單列MP-LMWBK純黑與條碼4549550408509。採2025-10月份，不把新聞發布日10/14猜成首賣日；此為日本原款上市月份，非台灣首售日。",
+      "query": "\"MP-LMWBK\" 発売",
+      "auditQueries": [
+        "\"MP-LMWBK\" 発売"
+      ],
+      "checkedAt": "2026-08-31",
+      "auditDisposition": "found_after_review",
+      "checkedSources": [
+        {
+          "url": "https://www.elecom.co.jp/news/new/20251014-03/",
+          "title": "ELECOM 抗菌防潑水MP-LMW系列新品公告（EL41-177）",
+          "outcome": "Chrome官方2025-10-14公告明示10月中旬起新発売，表格單列MP-LMWBK純黑與條碼4549550408509。採2025-10月份，不把新聞發布日10/14猜成首賣日；此為日本原款上市月份，非台灣首售日。"
+        }
+      ]
+    },
+    {
+      "id": "mousepad-kinyo-mp30",
+      "category": "mousepad",
+      "brand": "KINYO",
+      "model": "MP-30",
+      "name": "MP-30 台灣製布面滑鼠墊（180×220mm）",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "sourceKind": "not_found",
+      "reason": "官方MP-30頁與同型號上市查詢未找到明確發售日期；網站copyright年份、通路圖片檔名與評論日期不當作上市日。",
+      "query": "\"MP-30\" KINYO 上市",
+      "auditQueries": [
+        "\"MP-30\" KINYO 上市"
+      ],
+      "checkedAt": "2026-08-31",
+      "auditDisposition": "not_found_after_review",
+      "checkedSources": [
+        {
+          "url": "https://www.nakay.com.tw/productdetail_tw.php?id=1787",
+          "title": "KINYO MP-30 官方產品頁",
+          "outcome": "官方MP-30頁與同型號上市查詢未找到明確發售日期；網站copyright年份、通路圖片檔名與評論日期不當作上市日。"
+        }
+      ]
+    },
+    {
+      "id": "mousepad-hp-205",
+      "category": "mousepad",
+      "brand": "HP",
+      "model": "8X597AA",
+      "name": "HP 205 Sanitizable Desk Mat 可擦拭桌墊（8X597AA，灰面黑底）",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "sourceKind": "not_found",
+      "reason": "實查同8X597AA官方datasheet與授權頁沒有明確上市文字；datasheet版權日期不等於發售。搜尋的Galaxus catalog Release date未獨立還原為品牌上市，未採用。",
+      "query": "\"8X597AA\" launch release date",
+      "auditQueries": [
+        "\"8X597AA\" launch release date",
+        "\"8X597AA\" \"発売\""
+      ],
+      "checkedAt": "2026-08-31",
+      "auditDisposition": "not_found_after_review",
+      "checkedSources": [
+        {
+          "url": "https://www.hp-store.com.tw/products/hp-205-sanitizable-desk-mat-%E6%A1%8C%E5%A2%8A%E6%BB%91%E9%BC%A0%E5%A2%8A-8x597aa",
+          "title": "HP台灣授權品牌體驗店 8X597AA",
+          "outcome": "實查同8X597AA官方datasheet與授權頁沒有明確上市文字；datasheet版權日期不等於發售。搜尋的Galaxus catalog Release date未獨立還原為品牌上市，未採用。"
+        }
+      ]
+    },
+    {
+      "id": "mousepad-ikea-blaskata",
+      "category": "mousepad",
+      "brand": "IKEA",
+      "model": "BLÅSKATA 405.695.23",
+      "name": "BLÅSKATA 布面長桌墊（405.695.23，黑灰圖案40×80cm）",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "2024-01",
+      "sourceUrl": "https://www.ikea.com/kr/ko/p/blaskata-gaming-mouse-pad-black-grey-patterned-40569523/",
+      "sourceTitle": "IKEA韓國 BLÅSKATA 405.695.23 同型號上市年月",
+      "evidenceSnippet": "韓國官方同405.695.23黑灰40×80cm頁在「同一型號的上市年月」欄列1/1/2024。因欄義是年／月，只採2024-01，不把格式中的1日當獨立日級證據；此為韓國上市年月，不宣稱台灣或全球首次發售。",
+      "confidence": "medium",
+      "sourceKind": "official_product_page",
+      "reason": "韓國官方同405.695.23黑灰40×80cm頁在「同一型號的上市年月」欄列1/1/2024。因欄義是年／月，只採2024-01，不把格式中的1日當獨立日級證據；此為韓國上市年月，不宣稱台灣或全球首次發售。",
+      "query": "\"BLÅSKATA\" \"405.695.23\" release",
+      "auditQueries": [
+        "\"BLÅSKATA\" \"405.695.23\" release"
+      ],
+      "checkedAt": "2026-08-31",
+      "auditDisposition": "found_after_review",
+      "checkedSources": [
+        {
+          "url": "https://www.ikea.com/kr/ko/p/blaskata-gaming-mouse-pad-black-grey-patterned-40569523/",
+          "title": "IKEA韓國 BLÅSKATA 405.695.23 同型號上市年月",
+          "outcome": "韓國官方同405.695.23黑灰40×80cm頁在「同一型號的上市年月」欄列1/1/2024。因欄義是年／月，只採2024-01，不把格式中的1日當獨立日級證據；此為韓國上市年月，不宣稱台灣或全球首次發售。"
+        }
+      ]
+    },
+    {
+      "id": "mousepad-darkflash-dmp300",
+      "category": "mousepad",
+      "brand": "darkFlash",
+      "model": "DMP300",
+      "name": "DMP300 玻璃滑鼠墊（曜石黑，300×250mm標示版）",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "sourceKind": "not_found",
+      "reason": "官方同款頁未寫明發售日期；Mobile01開箱只說近期上市，不能把文章日期2026-05-01或圖片日期當作選定曜石黑版上市日。",
+      "query": "\"DMP300\" darkFlash 上市 發售",
+      "auditQueries": [
+        "\"DMP300\" darkFlash 上市 發售",
+        "\"DMP300\" launch release date"
+      ],
+      "checkedAt": "2026-08-31",
+      "auditDisposition": "not_found_after_review",
+      "checkedSources": [
+        {
+          "url": "https://www.darkflash.tw/product/dmp300-mouse-pads",
+          "title": "darkFlash台灣 DMP300 官方產品頁",
+          "outcome": "官方同款頁未寫明發售日期；Mobile01開箱只說近期上市，不能把文章日期2026-05-01或圖片日期當作選定曜石黑版上市日。"
+        }
+      ]
+    },
+    {
+      "id": "mousepad-zowie-g-sr-iii",
+      "category": "mousepad",
+      "brand": "ZOWIE",
+      "model": "G-SR III",
+      "name": "G-SR III 控制型布面滑鼠墊（L，470×390mm標示版）",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "2025-02-06",
+      "sourceUrl": "https://zowie.benq.com/ja-jp/news/2025/sr-se-ii-sr-iii.html",
+      "sourceTitle": "ZOWIE日本 G-SR III／G-SR-SE Rouge II 等系列正式發售公告",
+      "evidenceSnippet": "日本官方2025-01-30公告明確寫2025年2月6日正午於BenQ Direct Shop發售G-SR III等四款；採日本市場正式發售日，不宣稱全球或台灣首發。US 2024-11-07官方原文宣布新陣容但沒有明確起售日，2024-12台灣開箱也不直接當上市日期。",
+      "confidence": "high",
+      "sourceKind": "official",
+      "reason": "日本官方2025-01-30公告明確寫2025年2月6日正午於BenQ Direct Shop發售G-SR III等四款；採日本市場正式發售日，不宣稱全球或台灣首發。US 2024-11-07官方原文宣布新陣容但沒有明確起售日，2024-12台灣開箱也不直接當上市日期。",
+      "query": "\"G-SR III\" release launch date",
+      "auditQueries": [
+        "\"G-SR III\" release launch date",
+        "site:zowie.benq.com \"G-SR III\" \"2024\" \"launch\"",
+        "\"G-SR III\" \"上市\""
+      ],
+      "checkedAt": "2026-08-31",
+      "auditDisposition": "found_after_review",
+      "checkedSources": [
+        {
+          "url": "https://zowie.benq.com/ja-jp/news/2025/sr-se-ii-sr-iii.html",
+          "title": "ZOWIE日本 G-SR III／G-SR-SE Rouge II 等系列正式發售公告",
+          "outcome": "日本官方2025-01-30公告明確寫2025年2月6日正午於BenQ Direct Shop發售G-SR III等四款；採日本市場正式發售日，不宣稱全球或台灣首發。US 2024-11-07官方原文宣布新陣容但沒有明確起售日，2024-12台灣開箱也不直接當上市日期。"
+        },
+        {
+          "url": "https://zowie.benq.com/en-us/news/2024/zowie-new-mousepad-release.html",
+          "title": "New ZOWIE Mouse Pads: Engineered for FPS Gaming Success",
+          "outcome": "實讀2024-11-07原文announces lineup與as part of this launch，G-SR III列名；只證明當日發表，未把新聞日期自動轉成起售日。"
+        },
+        {
+          "url": "https://zowie.benq.com/ja-jp/mouse-pad/g-sr-iii.html",
+          "title": "日本官方 G-SR III L 商品規格",
+          "outcome": "日本原頁同完整型號G-SR III、L、470×390mm±10mm及3.5mm、縫邊，與台灣官方同版相符；非日本獨占型號或H-SR大尺寸。"
+        }
+      ]
+    },
+    {
+      "id": "mousepad-zowie-g-sr-se-rouge-ii",
+      "category": "mousepad",
+      "brand": "ZOWIE",
+      "model": "G-SR-SE Rouge II",
+      "name": "G-SR-SE Rouge II 平衡型布面滑鼠墊（L，深紅色）",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "2025-02-06",
+      "sourceUrl": "https://zowie.benq.com/ja-jp/news/2025/sr-se-ii-sr-iii.html",
+      "sourceTitle": "ZOWIE日本 G-SR-SE ROUGE II／G-SR III 正式發售公告",
+      "evidenceSnippet": "日本官方明示2025年2月6日正午於BenQ Direct Shop發售G-SR-SE ROUGE II；採此市場明確起售日，不宣稱台灣或全球首發。日本商品頁同為G版470×390mm±10mm、3.5mm及無縫邊，與台灣官方及所選深紅L版本對應；未套用H版或第一代Rouge。",
+      "confidence": "high",
+      "sourceKind": "official",
+      "reason": "日本官方明示2025年2月6日正午於BenQ Direct Shop發售G-SR-SE ROUGE II；採此市場明確起售日，不宣稱台灣或全球首發。日本商品頁同為G版470×390mm±10mm、3.5mm及無縫邊，與台灣官方及所選深紅L版本對應；未套用H版或第一代Rouge。",
+      "query": "\"G-SR-SE Rouge II\" launch release date",
+      "auditQueries": [
+        "\"G-SR-SE Rouge II\" launch release date",
+        "site:zowie.benq.com \"G-SR-SE ROUGE II\" 発売",
+        "\"G-SR-SE Rouge II\" \"上市\""
+      ],
+      "checkedAt": "2026-08-31",
+      "auditDisposition": "found_after_review",
+      "checkedSources": [
+        {
+          "url": "https://zowie.benq.com/ja-jp/news/2025/sr-se-ii-sr-iii.html",
+          "title": "ZOWIE日本 G-SR-SE ROUGE II／G-SR III 正式發售公告",
+          "outcome": "日本官方明示2025年2月6日正午於BenQ Direct Shop發售G-SR-SE ROUGE II；採此市場明確起售日，不宣稱台灣或全球首發。日本商品頁同為G版470×390mm±10mm、3.5mm及無縫邊，與台灣官方及所選深紅L版本對應；未套用H版或第一代Rouge。"
+        },
+        {
+          "url": "https://zowie.benq.com/ja-jp/mouse-pad/g-sr-se-rouge-ii.html",
+          "title": "ZOWIE日本 G-SR-SE ROUGE II L 官方規格",
+          "outcome": "實讀同L版470×390mm±10mm、厚度3.5mm、無縫邊，型號與台灣所選版本相符，非日本獨占型號。"
+        },
+        {
+          "url": "https://zowie.benq.com/en-us/news/2024/zowie-new-mousepad-release.html",
+          "title": "ZOWIE US 2024-11-07 新鼠墊陣容發表",
+          "outcome": "原文明列G-SR-SE Rouge II但屬新陣容發表，沒有明確起售時間；不把文章日期自動當台灣上市日。"
+        }
+      ]
+    },
+    {
+      "id": "mousepad-steelseries-qck-heavy-xxl",
+      "category": "mousepad",
+      "brand": "SteelSeries",
+      "model": "QcK Heavy XXL",
+      "name": "QcK Heavy XXL 大型微織布桌墊（67500，黑色）",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "sourceKind": "not_found",
+      "reason": "官方2018-10-30公告只說既有QcK XXL改名QcK Heavy XXL及更新標誌；明確新品販售段落是Edge／Prism／Hard，不把公告日當現版Heavy XXL起售日。Bic同67500列2015-12-26メーカー発売日，但早於更名，無法確定是否現行標誌版首售，亦未套用2026白色或洋紅色版發售日。",
+      "query": "\"QcK Heavy XXL\" release launch",
+      "auditQueries": [
+        "\"QcK Heavy XXL\" release launch",
+        "site:steelseries.com/press \"Qck\" \"2018\" \"XXL\""
+      ],
+      "checkedAt": "2026-08-31",
+      "auditDisposition": "not_found_after_review",
+      "checkedSources": [
+        {
+          "url": "https://steelseries.com/press/55-steelseries-expands-best-selling-qck-family-offer-most-diverse-line-gaming",
+          "title": "SteelSeries 2018 QcK系列擴充與舊QcK XXL更名公告",
+          "outcome": "官方2018-10-30公告只說既有QcK XXL改名QcK Heavy XXL及更新標誌；明確新品販售段落是Edge／Prism／Hard，不把公告日當現版Heavy XXL起售日。Bic同67500列2015-12-26メーカー発売日，但早於更名，無法確定是否現行標誌版首售，亦未套用2026白色或洋紅色版發售日。"
+        },
+        {
+          "url": "https://www.biccamera.com/bc/item/3484435/",
+          "title": "BicCamera QcK Heavy XXL 67500 黑色商品頁",
+          "outcome": "實際同67500、900×400×4mm，但2015-12-26日期早於2018更名與標誌更新，未作現行版本的確定上市日期。"
+        }
+      ]
+    },
+    {
+      "id": "mousepad-steelseries-qck-performance-speed-l",
+      "category": "mousepad",
+      "brand": "SteelSeries",
+      "model": "QcK Performance Speed L",
+      "name": "QcK Performance Speed L 尼龍混紡滑鼠墊（63430，黑色）",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "2025-03-11",
+      "sourceUrl": "https://steelseries.com/press/151-precision-is-made-personal-for-the-first-time-in-mousepads-with-the-innovative",
+      "sourceTitle": "SteelSeries QcK Performance 系列正式上市新聞稿",
+      "evidenceSnippet": "2025-03-11官方新聞稿同時明列Speed、Control、Balance三種表面與L／XL兩尺寸，並表示當時已於SteelSeries.com及全球零售通路販售，L為39.99美元。採此明確全球上市日；不是PB Tech商品上架日期或零售資料庫日期。",
+      "confidence": "high",
+      "sourceKind": "official",
+      "reason": "2025-03-11官方新聞稿同時明列Speed、Control、Balance三種表面與L／XL兩尺寸，並表示當時已於SteelSeries.com及全球零售通路販售，L為39.99美元。採此明確全球上市日；不是PB Tech商品上架日期或零售資料庫日期。",
+      "query": "\"QcK Performance Speed L\" release launch",
+      "auditQueries": [
+        "\"QcK Performance Speed L\" release launch",
+        "site:steelseries.com \"QcK Performance\" \"March\" 2025"
+      ],
+      "checkedAt": "2026-08-31",
+      "auditDisposition": "found_after_review",
+      "checkedSources": [
+        {
+          "url": "https://steelseries.com/press/151-precision-is-made-personal-for-the-first-time-in-mousepads-with-the-innovative",
+          "title": "SteelSeries QcK Performance 系列正式上市新聞稿",
+          "outcome": "2025-03-11官方新聞稿同時明列Speed、Control、Balance三種表面與L／XL兩尺寸，並表示當時已於SteelSeries.com及全球零售通路販售，L為39.99美元。採此明確全球上市日；不是PB Tech商品上架日期或零售資料庫日期。"
+        },
+        {
+          "url": "https://steelseries.com/gaming-mousepads/qck-performance?mousepadSize=large&model=Speed",
+          "title": "SteelSeries QcK Performance L-Speed 官方選定版本",
+          "outcome": "Chrome實際選Large與Speed，原頁型態、尺寸490×420×3.5mm、尼龍混紡與低輪廓縫邊對應63430；未借用Balance或XL。"
+        }
       ]
     }
   ]

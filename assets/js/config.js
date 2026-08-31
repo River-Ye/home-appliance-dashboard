@@ -3,11 +3,11 @@
   const dashboard = root.applianceDashboard || {};
 
   const meta = {
-    dataDate: "2026-08-31",
+    dataDate: "2026-09-01",
     costcoDate: "2026-08-31",
-    expectedCategoryCount: 31,
-    expectedProductCount: 943,
-    cacheVersion: "20260831-110509-catalog",
+    expectedCategoryCount: 34,
+    expectedProductCount: 1033,
+    cacheVersion: "20260901-peripherals",
     exchangeSummary: "USD 1 = TWD 31.649",
   };
 
@@ -55,6 +55,9 @@
     { id: "monitor", label: "電腦螢幕", group: "工作網路" },
     { id: "monitor-light", label: "螢幕燈", group: "工作網路" },
     { id: "monitorarm", label: "懸臂支架", group: "工作網路" },
+    { id: "mouse", label: "滑鼠", group: "工作網路" },
+    { id: "keyboard", label: "鍵盤", group: "工作網路" },
+    { id: "mousepad", label: "滑鼠墊", group: "工作網路" },
   ];
 
   const products = dashboard.products || [];

@@ -33,10 +33,10 @@
 - `assets/js/product-loader.js`：依 `categories` 自動載入 `products/<category>.js?v=<cacheVersion>`。
 - `assets/js/main.js`：DOMContentLoaded、商品載入、事件綁定與初始 render。
 - `products/*.js`：每個商品分類一個檔案，只放該分類商品資料，透過 `globalThis.applianceDashboard.registerProducts(categoryId, items)` 註冊。
-- `tools/category-guides.js`：31 類導讀、選購條件與 FAQ 的人工維護來源，不放即時商品事實。
+- `tools/category-guides.js`：34 類導讀、選購條件與 FAQ 的人工維護來源，不放即時商品事實。
 - `tools/geo-config.js`：站名、首頁 title、description、H1、AI 揭露與 GEO 共用文案契約。
 - `tools/generate-category-pages.js`：依分類、商品、指南與 CSS 來源產生 `assets/css/app.css`、`categories/<id>/index.html`、`sitemap.xml`、`llms.txt` 與首頁 GEO 區塊。
-- `categories/<id>/index.html`：31 個可直接閱讀與索引的靜態分類指南頁，含前 5 名詳細推薦與該類全部型號的無 JavaScript 索引，屬產生結果。
+- `categories/<id>/index.html`：34 個可直接閱讀與索引的靜態分類指南頁，含前 5 名詳細推薦與該類全部型號的無 JavaScript 索引，屬產生結果。
 - `tools/dashboard-contract.js`：商品數、分類數、必要欄位與資料品質規則常數。
 - `tools/run-daily-catalog-maintenance.js`：永久維護入口，重查現價、來源、圖片、史低來源、匯率與停產候選；原始逐筆稽核只寫入 gitignored `.maintenance-audit.json`。
 - `tools/catalog-maintenance-policy.js`：exact-model、排除品與官方停產文字的純邏輯規則。
@@ -68,7 +68,7 @@
 
 ## GEO / AI 搜尋規則
 
-- 網站由現有 31 類資料產生 31 個 `/categories/<id>/` 靜態分類指南頁；不建立 943 個重複商品事實的薄內容頁。
+- 網站由現有 34 類資料產生 34 個 `/categories/<id>/` 靜態分類指南頁；不建立 1033 個重複商品事實的薄內容頁。
 - 每個分類指南的初始 HTML 必須含該類全部商品的品牌、完整型號、名稱、參考價、價格基準、上市／發售日期與摘要；前 5 名繼續顯示完整評估卡。
 - `tools/category-guides.js` 只維護分類層級的繁中導讀、3 項選購條件與 3 組 FAQ；商品名稱、價格、排名、規格、史低與負評仍從既有商品資料產生，避免第二套事實來源。
 - 站名、首頁 title、description、H1 與 AI 揭露集中在 `tools/geo-config.js`；首頁 metadata、JSON-LD、分類頁與 `llms.txt` 必須共用此契約。首頁與分類頁首屏皆需可見 AI 協作、資料日期、查核方法與 GitHub 原始碼。
@@ -81,7 +81,7 @@
 
 ## 目前資料規模
 
-- 共 31 類、943 筆商品。
+- 共 34 類、1033 筆商品。
 - 所有分類每類至少 20 筆；新增分類或補資料時不可讓任何分類低於 20 筆。
 - 特殊分類目前數量：
   - `電視`：35 筆，其中 5 筆為 exact 70 吋，需涵蓋主流顯示技術與可信台灣新品通路。
@@ -92,6 +92,7 @@
   - `電腦螢幕`：60 筆，需涵蓋主流品牌、不同用途帶與 34/40/45/49/57 吋寬螢幕。
   - `螢幕燈`：20 筆，只收桌機螢幕掛燈，台灣通路優先、可信海外通路補充；需核對夾具厚度、曲面限制、配光、供電、燈體尺寸與淨重。
   - `懸臂支架`：25 筆，需標示支援尺寸、承重重量與是否適合 49/57 吋大寬螢幕。
+  - `滑鼠`：30 筆、`鍵盤`：30 筆、`滑鼠墊`：30 筆，各類選購定位固定 6／12／12，辦公與電競並重，型態與版本規則見下方特別分類規則。
   - `電子鎖`：51 筆，需涵蓋知名品牌且注意安裝條件。
   - `鍋具`：28 筆、`刀具`：23 筆、`櫥下飲水機`：40 筆、`洗碗機`：30 筆，需排除配件、耗材、桌上/直立誤判、福利品與展示機。
   - `冰箱`：26 筆、`洗衣機`：26 筆、`烘衣機`：24 筆、`洗烘衣機(多功能型)`：31 筆，需排除配件、耗材、福利品、展示機、箱損品、組合包誤判與單功能錯類，且每筆需標示機身尺寸。
@@ -156,6 +157,9 @@
 - 電腦螢幕
 - 螢幕燈
 - 懸臂支架
+- 滑鼠
+- 鍵盤
+- 滑鼠墊
 
 ## 商品資料規則
 
@@ -196,13 +200,13 @@
 - 電壓明顯不適合台灣者不可列為 Top Pick。
 - 使用者曾要求「全網最低價」，實作上要以可信通路與同型號可查低價為準；不要為了低價改放不可信網站或非新品頁。
 - 新增商品的 `price.basis` 只允許 `retailer_current` 或 `official_suggested`；後者必須顯示「建議售價／查看官方資料」，不可被卡片、史低或 maintenance 文案稱為通路現價。`installation.status` 只允許 `included_basic`、`excluded`、`not_stated`，並須用 `installation.note` 說明邊界與可能加價。
-- 日系品牌固定盤點 Sony、Panasonic、HITACHI、Mitsubishi Electric、Daikin、GENERAL、Rinnai、Noritz、TOTO；`Hitachi` 統一為 `HITACHI`，`Mitsubishi` 只在確認為 Mitsubishi Electric 時收錄，GENERAL 可接受 Fujitsu General alias，TOTO 不得誤中 TOTOLINK。31 類 × 9 品牌的完整 `japaneseBrandReview` 保存在 `catalog_maintenance_latest.json`，不新增第七份公開 audit JSON；僅新增模式保留原分類日期，不宣稱 279 格於本輪同日重查。
+- 日系品牌固定盤點 Sony、Panasonic、HITACHI、Mitsubishi Electric、Daikin、GENERAL、Rinnai、Noritz、TOTO；`Hitachi` 統一為 `HITACHI`，`Mitsubishi` 只在確認為 Mitsubishi Electric 時收錄，GENERAL 可接受 Fujitsu General alias，TOTO 不得誤中 TOTOLINK。34 類 × 9 品牌的完整 `japaneseBrandReview` 保存在 `catalog_maintenance_latest.json`，不新增第七份公開 audit JSON；本次只新增 27 格，原 279 格與日期原樣承接，不宣稱 306 格同日重查，也不把未知分類的預設值當研究結論。
 - 商品內容若有「排除福利/展示/拆封品」等說明文字是允許的，但商品名稱、型號與購買頁本身不能是這類商品。
 - 每筆商品都必須標示 `releaseDate`，代表上市/發售日期；若可信通路或品牌頁找不到明確日期，需填「找不到」，不要用評論日期、促銷日期、上架日或型號年份猜測。
 - 日期查核需保留 `release_date_research.json` 證據檔；非「找不到」項目必須有 `sourceUrl`、`sourceTitle`、`evidenceSnippet` 與 `confidence`，且 `releaseDate` 只能使用 `YYYY-MM-DD`、`YYYY-MM`、`YYYY`。
 - 補查上市/發售日時，優先官方新聞稿、官方產品發表頁、官方上市/發售公告；其次才使用可信媒體/評測明確寫出的 release/launch/上市/發售文字。不可把 Google/Bing 生成式摘要、支援頁的說明書/韌體/驅動 release date、文章發布日、促銷期間、上架日、保固文件日期、購買頁庫存日期或型號年份當作上市日。
 - 若搜尋結果只找到「released in 2024」這類明確年份，可填 `YYYY`；只寫月份則填 `YYYY-MM`。不要自行補月份或日期。
-- `dimension_research.json` 同步保存 15 類商品的機身／組件尺寸證據，以及電視、Soundbar、咖啡機、多功能氣炸烤箱／微波爐、冷氣、熱水器、螢幕燈 7 類商品重量證據；商品規格與研究列必須逐筆對齊。
+- `dimension_research.json` 同步保存 18 類商品的機身／組件尺寸證據，以及電視、Soundbar、咖啡機、多功能氣炸烤箱／微波爐、冷氣、熱水器、螢幕燈、滑鼠、鍵盤、滑鼠墊 10 類商品重量證據；商品規格與研究列必須逐筆對齊。既有家電維持 cm／kg，三類周邊使用 mm／g、保留來源明示軸序，不推定包裝尺寸、毛重或缺漏資訊；滑鼠墊厚度另列。
 - 尺寸與重量優先採品牌官方 exact-model 產品頁、官方規格表或官方 PDF，其次才使用可信通路。只採本體／機身尺寸與淨重，不可使用包裝、外箱尺寸或毛重；來源沒有明確標示寬／深／高順序時不得自行推定。
 - 新增查核的電視、Soundbar、咖啡機、多功能氣炸烤箱／微波爐、洗碗機、免治馬桶與螢幕燈若仍無法確認，規格文字固定使用「尺寸：查不到」／「重量：查不到」，並在研究列保留實際查過的代表性頁面與找不到原因；既有大型家電的「未標示」契約不回溯改寫。
 - 每筆商品都必須標示 `historicalLow`，代表同型號、同尺寸/容量/規格在可信新品通路可驗證的歷史最低價與入手時機判斷；若找不到可靠來源，需填 `status: "not_found"`，不要以現價推定史低。
@@ -314,6 +318,19 @@
 - 低承重款，例如 8kg 或 9kg，一定要註明不建議用於 34 吋以上寬螢幕或 49/57 吋超寬大螢幕。
 - 推薦理由要提醒 VESA 規格、桌板厚度、夾桌/穿桌、實際螢幕重量不含腳架、以及大型螢幕安裝最好兩人操作。
 
+### 滑鼠 / 鍵盤 / 滑鼠墊
+
+- `mouse`、`keyboard`、`mousepad` 放在工作網路群組的懸臂支架之後，各固定 30 款，`value / mid / premium` 各為 6／12／12。辦公與電競並重，台灣可信新品通路優先、海外補充；每類恰好一款具台灣售後保固的 Top Pick，另標辦公／電競推薦。海外或原廠明示無保固者不作 Top Pick，無保固不得冒充具台灣保固的日系代表。
+- 滑鼠 `type` 為 `standard|vertical|trackball`；依序提供類型、握型／慣用手、連線、感測器／解析度、回報率、按鍵／滾輪、供電／續航、系統／軟體、尺寸、重量、隨附配件。
+- 鍵盤 `type` 為 `membrane|scissor|mechanical|magnetic|optical`；只收完整成品，原生中文鍵帽優先、英文版可收，另附貼紙不當原生中文。依序提供類型、配列、鍵帽語言／材質、軸體、熱插拔、連線、回報率、供電／續航、系統／軟體、尺寸、重量、隨附配件。
+- 滑鼠墊 `type` 為 `cloth|hard|glass`，硬質不含玻璃；適合滑鼠操作的長桌墊以規格與標籤表示。依序提供類型、表面材質、表面特性、底材／防滑、尺寸、厚度、重量、邊緣處理、清潔保養、供電／功能、隨附配件。
+- 鍵盤與滑鼠墊必填 `variantFamily`，僅供同款分組與重複檢查。同款最多三版，鍵盤只因軸體不同、滑鼠墊只因平面尺寸不同而分列；顏色、語言、背光、厚度或套裝不增加款數。多尺寸鼠墊必須有來源明示的兩個平面尺寸，厚度另列；不能自行由無軸序的三數字推定。
+- 鍵盤「軸體：」第一段固定為完整官方軸體名稱／型號，手感、觸發力、語言等補充放在分號之後；重複軸體驗證只取第一段，不讓附註差異變成新版本。
+- `model` 必須是可核實的完整官方型號／SKU，`name` 與 `specs` 明示版本，`buyUrl` 能實際還原選定版本；不可製造參數、改寫型號或拼湊網址規避重複檢查。無法獨立核對時改查可信通路或只收一版。
+- 排除裸套、單獨鍵帽／軸體、數字鍵盤、觸控板、替換配件及非新品。每筆獨立查核價格、圖片、購買連結、上市、史低與負評，不跨軸體／尺寸版本套用證據；集中問題仍須同一版本、至少六名獨立使用者、跨兩個原始網站。
+- 周邊尺寸與淨重逐筆納入 `dimension_research.json`，新研究列的 `category`、`brand`、`model`、`name` 必須與商品完全相符；缺少可信數據時使用「尺寸：查不到」「重量：查不到」，鼠墊厚度不明用「厚度：查不到」，並記錄實際來源與原因。單位、軸序與商品／研究列由同一規則驗證，不改寫既有家電契約。
+- 排除候選的 `candidateReviews[].exactModel` 必須明確為布林值：回到原頁發現不同版本時記 `false` 並寫明排除理由，不得為通過驗證改成 `true`。成立災情的逐人 `reports[].exactModel` 與 `firstPerson` 仍必須為 `true`；沒有成立災情的研究批次應保留顯式空 `reports: []`，不捏造回報。
+
 ### 鍋具 / 刀具 / 櫥下飲水機 / 洗碗機
 
 - 每類至少 20 筆；若未來擴充，仍需維持可信通路新品。
@@ -351,7 +368,7 @@
 - 最上方 header 內容需與 body 主內容同寬對齊，不可滿版貼邊後和下方錯位。
 - 搜尋與篩選控制要支援手動 key 關鍵字找選項，避免選項太多難找。
 - 選擇「分類」後，「品牌」選項只顯示該分類實際存在的品牌，不可顯示無關品牌。
-- 型態篩選只在冷氣、熱水器與網路交換器顯示，URL 使用 `type=cooling_only|heat_cool|gas|electric|heat_pump|1g|2_5g|10g`；切換到不相容分類時清除 type，無效直連值要忽略並從同步 URL 移除，桌機、手機、active chip、篩選數量、重設與分享網址須一致。
+- 型態篩選只在冷氣、熱水器、網路交換器、滑鼠、鍵盤與滑鼠墊顯示，URL 使用 `type=cooling_only|heat_cool|gas|electric|heat_pump|1g|2_5g|10g|standard|vertical|trackball|membrane|scissor|mechanical|magnetic|optical|cloth|hard|glass`；切換到不相容分類時清除 type，無效直連值要忽略並從同步 URL 移除，桌機、手機、active chip、篩選數量、重設與分享網址須一致。
 - 排序控制必須支援推薦排序、價格升冪/降冪、分數升冪/降冪、`上市 / 發售日期` 升冪/降冪；日期找不到的商品在日期排序時應排在最後。
 - 分類 tabs 需把相關品類放在一起；目前分為影音、空氣環境、清潔家務、洗衣家務、廚房餐飲、衛浴安全、工作網路。
 - 手機版進階篩選區必須可收合，避免搜尋列表占太多空間。
@@ -378,10 +395,10 @@
 ## 價格與匯率
 
 <!-- catalog-maintenance-summary:start -->
-- 2026-08-31 19:05（台灣時間）完成 943 筆商品、31 類全量查核；460 筆 PChome SKU API 已完成（271 筆 exact model、67 筆人工 SKU 綁定可寫入，59 筆型號未自動確認），更新 10 筆公開價格（10 筆下修、0 筆上修），38 筆 Qty 0 只列追蹤。
-- 本次增量沒有納入新產品；本次增量沒有移除停產產品。沿用本資料日已完成的逐類人工新品覆核（原覆核時間保留），所有分類至少 20 筆；停產只採品牌官方明確證據，缺貨、反爬或單次連線錯誤不作為刪除依據。
-- 圖片查核覆蓋 943 筆；697 筆來源可由 exact model 或人工 SKU 綁定確認，246 筆來源例外與 0 筆圖片例外保留原資料。史低為 493 筆 `found`、450 筆 `not_found`，本輪異動 0 筆；70 筆來源可自動重現，其餘保留原逐筆證據且未臆測失效。
-- ExchangeRate-API 最新批次為 2026-08-31 00:02 UTC，USD/TWD 31.649299；38 筆外幣商品已重算。完整摘要與例外保存在 `catalog_maintenance_latest.json`。
+- 2026-09-01 01:56（台灣時間）完成 90 款新增商品查核；目前共 34 類、1033 筆商品，原 943 筆沿用 2026-08-31 的證據，沒有重新查價或修改舊商品。
+- 本次增量新增 keyboard-asus-rog-azoth-extreme、keyboard-asus-tuf-k3-gen-ii、keyboard-corsair-k70-core-mlx-red、keyboard-ducky-tinker-75、keyboard-hyperx-alloy-rise-75、keyboard-keychron-b1-pro、keyboard-keychron-k2-he-special-black、keyboard-keychron-k3-max、keyboard-keychron-v6-max、keyboard-logitech-alto-k98m、keyboard-logitech-g515-lightspeed-tkl-tactile、keyboard-logitech-g915-x-wired-tactile、keyboard-logitech-k120、keyboard-logitech-k250、keyboard-logitech-k380s、keyboard-logitech-k580、keyboard-logitech-mx-keys-mini、keyboard-logitech-mx-keys-s、keyboard-logitech-mx-mechanical-tactile、keyboard-logitech-pop-icon-keys、keyboard-logitech-pro-x-tkl-rapid、keyboard-logitech-signature-k650、keyboard-logitech-wave-keys、keyboard-msi-gk41-dusk-lr-tc、keyboard-nuphy-air75-v3-brown、keyboard-razer-huntsman-v3-pro-tkl、keyboard-razer-ornata-v3-x、keyboard-sony-kbd-g900、keyboard-steelseries-apex-pro-tkl-gen3、keyboard-wooting-80he-l60-v2、mouse-logitech-ergo-m575s、mouse-logitech-g102-lightsync、mouse-logitech-g304、mouse-logitech-g309、mouse-logitech-g403-hero、mouse-logitech-g502-hero、mouse-logitech-g502-x-lightspeed、mouse-logitech-g703-hero、mouse-logitech-lift、mouse-logitech-m185、mouse-logitech-m190、mouse-logitech-m240、mouse-logitech-m331、mouse-logitech-m350s、mouse-logitech-m650、mouse-logitech-m720、mouse-logitech-m750、mouse-logitech-mx-anywhere-3s、mouse-logitech-mx-ergo-s、mouse-logitech-mx-master-4、mouse-logitech-mx-vertical、mouse-logitech-pop-mouse、mouse-logitech-pro-x-superlight-2、mouse-logitech-pro-x-superlight-2-dex、mouse-razer-basilisk-v3、mouse-razer-basilisk-v3-pro-35k、mouse-razer-cobra、mouse-razer-deathadder-v4-pro、mouse-razer-viper-v3-pro、mouse-sony-mse-g500、mousepad-asus-hone-control-ace-l、mousepad-asus-moonstone-ace-l、mousepad-asus-scabbard-ii-xxl、mousepad-asus-sheath-ii-xxl、mousepad-asus-strix-slice、mousepad-darkflash-dmp300、mousepad-elecom-mp-lmwbk、mousepad-hp-205、mousepad-ikea-blaskata、mousepad-kinyo-mp30、mousepad-logitech-aurora、mousepad-logitech-desk-mat-studio、mousepad-logitech-g240、mousepad-logitech-g440、mousepad-logitech-g640、mousepad-logitech-g740、mousepad-logitech-g840、mousepad-logitech-mouse-pad-studio、mousepad-razer-atlas、mousepad-razer-firefly-v2-pro、mousepad-razer-gigantus-v2-xxl、mousepad-razer-pro-glide、mousepad-razer-pro-glide-xxl、mousepad-razer-strider-chroma、mousepad-sony-mpd-d700、mousepad-sony-mpd-f900、mousepad-steelseries-qck-heavy-xxl、mousepad-steelseries-qck-performance-speed-l、mousepad-zowie-g-sr-iii、mousepad-zowie-g-sr-se-rouge-ii；沒有移除或替換商品。既有逐類與日系品牌覆核保留原內容及日期，只補查新增分類；所有分類至少 20 筆。
+- 本輪來源與圖片查核限新增 90 款；累積來源／圖片覆蓋 1033／1033 筆，包含沿用的舊查核與例外。史低累積 502 筆 `found`、531 筆 `not_found`；既有逐筆證據與查核日期保留，累積覆蓋不代表本輪重新查核。
+- 匯率沿用 ExchangeRate-API 2026-08-31 00:02 UTC，USD/TWD 31.649299；本輪未重抓匯率，既有外幣價格未重算，新增海外款使用同一保留匯率換算。完整摘要、不可變基準與例外保存在 `catalog_maintenance_latest.json`。
 <!-- catalog-maintenance-summary:end -->
 
 ## 驗證清單
@@ -392,7 +409,7 @@
 - `npm run check:logic`：純邏輯回歸，涵蓋排序、品牌依分類限制、史低／負評文案、問題摘要搜尋、來源 URL 安全、HTML escape 與 product-loader URL/錯誤。
 - `npm run check:data`：商品總數、分類數、必要欄位、日期格式、負評逐型號人工覆核、逐位反映者與研究檔對齊、重複 URL 與重複型號檢查通過。
 - `npm run check:docs`：README、AGENTS、index/config 的商品數、分類數、日期與 cache version 不漂移。
-- `npm run check:geo`：31 個分類頁、943 款靜態型號索引、metadata、結構化資料、首頁分類入口、sitemap、llms、六份公開證據檔、Pages artifact、32 個 canonical URL 的 IndexNow contract 與產生結果均無漂移。
+- `npm run check:geo`：34 個分類頁、1033 款靜態型號索引、metadata、結構化資料、首頁分類入口、sitemap、llms、六份公開證據檔、Pages artifact、35 個 canonical URL 的 IndexNow contract 與產生結果均無漂移。
 - `npm run check:ui`：桌機與手機版主要互動流程通過。
 - `npm run check:quality`：Lighthouse 的 Performance、LCP、CLS、Accessibility 與 SEO 採瀏覽器行動 throttling，TBT 採 Lantern 標準化模擬；首頁 Performance ≥ 90、LCP ≤ 2.5s、CLS ≤ 0.1、TBT ≤ 200ms、Accessibility = 100、SEO ≥ 95；代表分類頁 Performance、Accessibility、SEO 均 ≥ 95。
 - 商品總數仍符合 README 與分類 tab 顯示。

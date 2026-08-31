@@ -1,7 +1,7 @@
 const reportLedger = require("../product_issue_report_evidence.json");
 const { canonicalWebsite, normalize } = require("./product-issue-validation");
 
-const CHECKED_AT = "2026-08-31";
+const CHECKED_AT = "2026-09-01";
 const DEFAULT_EVIDENCE_CHECKED_AT = "2026-08-29";
 const REVIEW_DATE_PATTERN = /^\d{4}-\d{2}-\d{2}$/;
 
@@ -12,6 +12,529 @@ function isValidReviewDate(value) {
 }
 
 const verifiedRows = [
+  {
+    "id": "mouse-logitech-mx-vertical",
+    "checkedAt": "2026-08-31",
+    "summary": "MX Vertical 有跨 Reddit、iFixit 的六位独立使用者回報左鍵異常連點或持續拖曳時自行鬆開。",
+    "title": "左鍵異常連點或拖曳中斷",
+    "detail": "已核對六位第一人稱同型號回報；部分作者更換滑鼠或微動後改善，也有人替換機再次出現。這是回報集合而非故障率估算，不推定所有新品或地域批次都會發生。建議在退換貨期間測試持續選取、拖曳和單擊，異常時優先向台灣售後處理，勿因網路教學自行拆焊影響保固。",
+    "reportCount": 6,
+    "sources": [
+      {
+        "platform": "Reddit",
+        "title": "MX Vertical mouse issues",
+        "url": "https://www.reddit.com/r/logitech/comments/148fo27/mx_vertical_mouse_issues/",
+        "authors": [
+          "PolymathUX"
+        ],
+        "evidenceSnippet": "PolymathUX 自述 MX Vertical 持續按住左鍵拖動時會自行釋放，有時選取檔案反而直接開啟。"
+      },
+      {
+        "platform": "Reddit",
+        "title": "Logitech MX Vertical Mouse Intermittent Left",
+        "url": "https://www.reddit.com/r/logitech/comments/17av6vm/logitech_mx_vertical_mouse_intermittent_left/",
+        "authors": [
+          "Smosh962"
+        ],
+        "evidenceSnippet": "Smosh962 的 MX Vertical 左鍵維持按住時會間歇斷開，跨裝置仍出現；原帖更新換保固新品後恢復。"
+      },
+      {
+        "platform": "Reddit",
+        "title": "Logi MX Vertical Mouse Left Click Acting Weird",
+        "url": "https://www.reddit.com/r/LogitechG/comments/ql05u5/logi_mx_vertical_mouse_left_click_acting_weird/",
+        "authors": [
+          "Haitsmelol",
+          "tmkang"
+        ],
+        "evidenceSnippet": "Haitsmelol 說 MX Vertical 拖曳會提早放開或被當成双擊；改Windows設定一度以為改善但又復發，替換機約一年後同樣出現。 tmkang 明寫兩支 MX Vertical 各使用約一年後，左鍵按住卻無法維持；自行拆焊換微動後恢復正常。"
+      },
+      {
+        "platform": "Reddit",
+        "title": "Do not buy MX Vertical",
+        "url": "https://www.reddit.com/r/logitech/comments/1ja2xsx/do_not_buy_mx_vertical/",
+        "authors": [
+          "Maximum_Molasses_433"
+        ],
+        "evidenceSnippet": "Maximum_Molasses_433 自述自己的 MX Vertical 使用不多，卻開始出現左鍵額外點擊、拖曳保持不住；文中的Master 2S是另一款正常對照機。"
+      },
+      {
+        "platform": "iFixit",
+        "title": "Logitech MX Vertical Left and Right Mouse Button Microswitch Replacement",
+        "url": "https://www.ifixit.com/Guide/Logitech+MX+Vertical+Left+and+Right+Mouse+Button+Microswitch+Replacement/138168",
+        "authors": [
+          "May D"
+        ],
+        "evidenceSnippet": "May D 在原創維修指南介紹自述 MX Vertical 約用一年後，左鍵出現非預期双擊，於過保後拆開更換微動。"
+      }
+    ]
+  },
+  {
+    "id": "mouse-logitech-g304",
+    "checkedAt": "2026-08-31",
+    "summary": "G304 有跨 PTT 與 Reddit 的六位獨立使用者回報按鍵異常連點；替換機及同一人多支不重複計數。",
+    "title": "按鍵異常連點",
+    "detail": "保守採六位獨立使用者的原始G304第一人稱回報，替換機與同一人多支只算一次。這不是故障率估算；斷線、休眠、電池套筒及滾輪老化不合併。建議保留購買憑證，在退換貨期間測試單擊及拖曳，出現異常優先走原廠售後；不把網友噴油、吹氣或自行拆焊作為通用安全修復建議。",
+    "reportCount": 6,
+    "sources": [
+      {
+        "platform": "PTT",
+        "title": "[閒聊] 羅技G304滑鼠常常瞬斷的問題",
+        "url": "https://www.ptt.cc/bbs/Key_Mou_Pad/M.1709636091.A.5A3.html",
+        "authors": [
+          "qqq15963"
+        ],
+        "evidenceSnippet": "qqq15963 自述目前用第三支 G304，前兩支皆因連點退役；第三支的瞬斷是另外症狀。"
+      },
+      {
+        "platform": "PTT",
+        "title": "Re: [滑鼠] 羅技 G304 首發拆解 & 改裝",
+        "url": "https://www.ptt.cc/bbs/Key_Mou_Pad/M.1609601887.A.17E.html",
+        "authors": [
+          "shomie"
+        ],
+        "evidenceSnippet": "shomie 自述自己的 G304 右鍵開始連點、估計約70%觸發率，因而拆解更換微動。"
+      },
+      {
+        "platform": "PTT",
+        "title": "[心得] G304滑鼠連點，不用換微動開關，WD40搞定",
+        "url": "https://www.ptt.cc/bbs/PC_Shopping/M.1689938296.A.A0C.html",
+        "authors": [
+          "kcboy123"
+        ],
+        "evidenceSnippet": "kcboy123 的 G304 最近出現左鍵連點，自述清潔微動後當下恢復，並說會再回報可維持多久。"
+      },
+      {
+        "platform": "PTT",
+        "title": "[心得] 羅技G304 RMA完整心得 ft. SSR客服 (圖多",
+        "url": "https://www.ptt.cc/bbs/PC_Shopping/M.1676135808.A.1F4.html",
+        "authors": [
+          "E7lijah"
+        ],
+        "evidenceSnippet": "E7lijah 自述 G304 於2022年6月左右出現連點，經官方線上客服保固流程後獲替換產品。"
+      },
+      {
+        "platform": "Reddit",
+        "title": "~200 Rs. DIY Fix for Double click issue",
+        "url": "https://www.reddit.com/r/IndianGaming/comments/1h0e70g/200_rs_diy_fix_for_double_click_issue/",
+        "authors": [
+          "crystalMaxi"
+        ],
+        "evidenceSnippet": "crystalMaxi 的 G304 在一年內連點，保固替換機又於一年半後連點，後來送店更換微動。"
+      },
+      {
+        "platform": "Reddit",
+        "title": "Double click issue on Logitech G304 wireless",
+        "url": "https://www.reddit.com/r/IndianGaming/comments/p59d12/double_click_issue_on_logitech_g304_wireless/",
+        "authors": [
+          "Kirito_5"
+        ],
+        "evidenceSnippet": "Kirito_5 自述購入三個月的 G304 經常誤觸雙擊，仍在保固內並準備送保固。"
+      }
+    ]
+  },
+  {
+    "id": "mouse-logitech-g502-hero",
+    "checkedAt": "2026-08-31",
+    "summary": "G502 HERO 有跨 PTT 與 Reddit 的六位獨立使用者回報按鍵異常連點或按住時中斷。",
+    "title": "按鍵異常連點或保持中斷",
+    "detail": "保守採六位同型號第一人稱回報，保固替換品與同人多次留言只計一次。現售官店已改塑料線，但回報者的線材／生產批次未逐筆確認，不能推定目前批次故障率；2020年的25K更新屬官方軟體升級。退換貨期間宜測單擊、拖曳與長按；異常優先找台灣售後，不把敲擊或自行拆焊當通用修復方法。",
+    "reportCount": 6,
+    "sources": [
+      {
+        "platform": "PTT",
+        "title": "[問題] 江子翠附近修滑鼠微動",
+        "url": "https://www.ptt.cc/bbs/BigBanciao/M.1636585555.A.62D.html",
+        "authors": [
+          "midgrad"
+        ],
+        "evidenceSnippet": "midgrad 自述 G502 HERO 左鍵開始連點，正在找可當日取回的微動維修店。"
+      },
+      {
+        "platform": "PTT",
+        "title": "[公告] 公關帳號水桶",
+        "url": "https://www.ptt.cc/bbs/PC_Shopping/M.1729069800.A.DAF.html",
+        "authors": [
+          "leo255112"
+        ],
+        "evidenceSnippet": "leo255112 明寫自己的 G502 HERO 微動時好時壞，連點發作時機隨機，但仍喜歡握感。"
+      },
+      {
+        "platform": "Reddit",
+        "title": "G502 Hero Double Click issue",
+        "url": "https://www.reddit.com/r/LogitechG/comments/cxm3vh/g502_hero_double_click_issue/",
+        "authors": [
+          "SladetheUnlucky"
+        ],
+        "evidenceSnippet": "SladetheUnlucky 自述替換取得的 G502 HERO 使用四個月後左鍵連點，換USB埠與另一台電腦仍重現。"
+      },
+      {
+        "platform": "Reddit",
+        "title": "G502 Hero double clicking issue",
+        "url": "https://www.reddit.com/r/LogitechG/comments/hg2woh/g502_hero_double_clicking_issue/",
+        "authors": [
+          "CESARBC"
+        ],
+        "evidenceSnippet": "CESARBC 的 G502 HERO 使用約八個月後，左鍵一次輸入兩次，有時需更大力才反應。"
+      },
+      {
+        "platform": "Reddit",
+        "title": "Logitech G502 Hero double-click issue",
+        "url": "https://www.reddit.com/r/LogitechG/comments/kng7no/logitech_g502_hero_doubleclick_issue/",
+        "authors": [
+          "ImminentFallout"
+        ],
+        "evidenceSnippet": "ImminentFallout 自述 G502 HERO 第三個月開始連點並惡化，按住左右鍵在遊戲中仍會中斷，右鍵特別明顯。"
+      },
+      {
+        "platform": "Reddit",
+        "title": "G502 Hero Double-click issue",
+        "url": "https://www.reddit.com/r/LogitechG/comments/15f4fea/g502_hero_doubleclick_issue/",
+        "authors": [
+          "j0kep0ke"
+        ],
+        "evidenceSnippet": "j0kep0ke 自述 G502 HERO 右鍵反覆連點／瞄準中斷，清潔只短暫改善；更新說更換微動後恢復。"
+      }
+    ]
+  },
+  {
+    "id": "mouse-logitech-m720",
+    "checkedAt": "2026-08-31",
+    "summary": "M720 有跨 Reddit、Mobile01 的八位獨立使用者回報左鍵異常連點或持續拖曳時無法保持。",
+    "title": "左鍵異常連點或拖曳中斷",
+    "detail": "八位第一人稱回報來自四個原始討論頁、兩個網站，已逐人核對。部分在使用多年後出現，有人清理或維修後改善，不代表全部新品會故障，也不能由自選網路回報估算故障率。退換貨期宜測單擊、持續選取與拖曳，異常優先使用台灣售後，不建議因論壇教學自行拆焊影響保固。",
+    "reportCount": 8,
+    "sources": [
+      {
+        "platform": "Mobile01",
+        "title": "羅技M720滑鼠連點 DIY換微動開關",
+        "url": "https://www.mobile01.com/topicdetail.php?f=497&t=6406235",
+        "authors": [
+          "therb"
+        ],
+        "evidenceSnippet": "therb 描述自己的M720用數年後左鍵連點，並記錄拆修。其他回覆的零件問答、換開關但未述症狀、M705/G502均不增算。"
+      },
+      {
+        "platform": "Mobile01",
+        "title": "請問有可以快速切換配對裝置的藍芽滑鼠嗎？",
+        "url": "https://www.mobile01.com/topicdetail.php?f=497&t=5769430",
+        "authors": [
+          "一個怪人"
+        ],
+        "evidenceSnippet": "一個怪人回覆自己使用M720两年后左鍵連點，並說明側邊切換鍵的方便性；樓主只是問購不計入。"
+      },
+      {
+        "platform": "Reddit",
+        "title": "Two and a half years: a normal life span for a M720 mouse?",
+        "url": "https://www.reddit.com/r/logitech/comments/1aydrnj/two_and_a_half_years_a_normal_life_span_for_a/",
+        "authors": [
+          "Fernando1dois3",
+          "erolmacc",
+          "iFrog42",
+          "TemporaryAd1061"
+        ],
+        "evidenceSnippet": "Fernando1dois3、erolmacc、iFrog42及TemporaryAd1061各自描述M720左鍵連點或拖曳失常；後兩人的清理／維修改善也保留，不當成持續未解決故障。"
+      },
+      {
+        "platform": "Reddit",
+        "title": "M720 Click Issue. Recommendations?",
+        "url": "https://www.reddit.com/r/logitech/comments/pdhoi6/m720_click_issue_recommendations/",
+        "authors": [
+          "leakywaterjug",
+          "real_justindra"
+        ],
+        "evidenceSnippet": "leakywaterjug與real_justindra本人M720在按住拖曳時變多次點擊、拖放無法保持；客服排錯與其他中鍵問題不當作者人數。"
+      }
+    ]
+  },
+  {
+    "id": "mouse-razer-cobra",
+    "checkedAt": "2026-09-01",
+    "summary": "Cobra 有線電競滑鼠 黑色有六位跨Reddit與Razer Insider的獨立使用者回報「滾輪跳動或滾動異常」。",
+    "title": "滾輪跳動或滾動異常",
+    "detail": "逐人採標準有線Cobra，不混入Pro、HyperSpeed或Viper Mini。 本批保守六位、跨Reddit與Razer Insider兩原始網站；自選網路回報不能推算故障率，也不代表所有現售批次同一根因，異常宜走台灣售後。",
+    "reportCount": 6,
+    "sources": [
+      {
+        "platform": "Reddit",
+        "title": "bought RAZOR COBRA.",
+        "url": "https://www.reddit.com/r/mkindia/comments/1tgpvxl/bought_razor_cobra/",
+        "authors": [
+          "Pure_Bed_6357",
+          "ayushraj_real"
+        ],
+        "evidenceSnippet": "自述此有線Cobra使用約1.5年，光學按鍵仍好，但滾輪開始表現異常。 在有線Cobra購買文中自述買鼠後四個月內出現滾輪問題。"
+      },
+      {
+        "platform": "Reddit",
+        "title": "Unpopular opinion: Razer Cobras are great!",
+        "url": "https://www.reddit.com/r/MouseReview/comments/1rzf0gc/unpopular_opinion_razer_cobras_are_great/",
+        "authors": [
+          "KhajiitWithCoin",
+          "IX199xmnl"
+        ],
+        "evidenceSnippet": "My Razer Cobra 使用未滿一年，滾輪開始跳動，之後改買G203。 自己Cobra有相同滾輪跳動，拆開看到輪側纏狗毛，清理後指出毛髮造成干擾。"
+      },
+      {
+        "platform": "Razer Insider",
+        "title": "Mouse scroll wheel jumps up and down",
+        "url": "https://insider.razer.com/razer-support-45/mouse-scroll-wheel-jumps-up-and-down-69357",
+        "authors": [
+          "erhank10"
+        ],
+        "evidenceSnippet": "2024-10-27自述兩隻Cobra都遇到滾輪上下跳動，第二隻2024-07-16購於Amazon。"
+      },
+      {
+        "platform": "Razer Insider",
+        "title": "What mice has the most durable scrollwheel and side buttons",
+        "url": "https://insider.razer.com/mice-and-surfaces-9/what-mice-has-the-most-durable-scrollwheel-and-side-buttons-85764?postid=276890",
+        "authors": [
+          "alleySaffronurban937"
+        ],
+        "evidenceSnippet": "2026-01-21自述Cobra用約1.5年，滾輪隨機上下跳，吹氣只能暫時改善。"
+      }
+    ]
+  },
+  {
+    "id": "mouse-razer-basilisk-v3",
+    "checkedAt": "2026-09-01",
+    "summary": "Basilisk V3 有線 26K 黑色有六位跨Reddit與Razer Insider的獨立使用者回報「USB反覆斷接、短暫亮燈後失去辨識」。",
+    "title": "USB反覆斷接、短暫亮燈後失去辨識",
+    "detail": "5位Insider加1位Reddit本人原文；同頁引用原文不重計。只描述供電/辨識症狀，不斷言全部由同一硬體根因造成；自行拆切線材的回覆僅保留已恢復的結果，不轉述為操作建議。 本批保守六位、跨Reddit與Razer Insider兩原始網站；自選網路回報不能推算故障率，也不代表所有現售批次同一根因，異常宜走台灣售後。",
+    "reportCount": 6,
+    "sources": [
+      {
+        "platform": "Razer Insider",
+        "title": "Basilisk V3 Wired RZ01-0400 blinking, can't update or do anything",
+        "url": "https://insider.razer.com/razer-support-45/basilisk-v3-wired-rz01-0400-blinking-can-t-update-or-do-anything-64500?sort=mostRecentFirst",
+        "authors": [
+          "danluckner"
+        ],
+        "evidenceSnippet": "本人RZ01-0400每秒亮滅與USB斷接；換無Synapse電腦初恢復，韌體更新後又反覆斷接。"
+      },
+      {
+        "platform": "Razer Insider",
+        "title": "Basilisk V3 Wired RZ01-0400 blinking and not detected on any device",
+        "url": "https://insider.razer.com/razer-support-45/basilisk-v3-wired-rz01-0400-blinking-and-not-detected-on-any-device-61916",
+        "authors": [
+          "storysmartQueenBlue665"
+        ],
+        "evidenceSnippet": "2024-05-07自述RZ01-0400持續閃燈、短暫連接立即斷線，重装Synapse及驅動仍無效。"
+      },
+      {
+        "platform": "Razer Insider",
+        "title": "Razer Basilisk V3 stopped working completely",
+        "url": "https://insider.razer.com/razer-support-45/razer-basilisk-v3-stopped-working-completely-48689?postid=240700",
+        "authors": [
+          "lpachecs",
+          "sillysausa9e",
+          "JohnR0ck"
+        ],
+        "evidenceSnippet": "2024-08-14自述RZ01-0400用2.5年後亮約一秒即滅、USB不能正常使用；改動滾輪線路後恢復但失去自由滾動功能。 2025-02-12引用處理法之後另以本人說明其wired Basilisk V3也有相同故障，測試滾輪連線後鼠恢復供電。 2025-03-03自述Basilisk V3開機LED亮一秒、游標暫動後凍結；重置後進Bootloader且無LED/游標，更新中斷。"
+      },
+      {
+        "platform": "Reddit",
+        "title": "Basilisk V3 bug glitch",
+        "url": "https://www.reddit.com/r/razer/comments/1uct5ue/basilisk_v3_bug_glitch/",
+        "authors": [
+          "zyadamini"
+        ],
+        "evidenceSnippet": "本人原版有線Basilisk V3多年後出現連接/斷接循環；回覆明說mine is wired，另一電腦也相同。"
+      }
+    ]
+  },
+  {
+    "id": "mouse-razer-deathadder-v4-pro",
+    "checkedAt": "2026-09-01",
+    "summary": "DeathAdder V4 Pro 黑色有六位跨Reddit與Razer Insider的獨立使用者回報「無線接收器無法連線、間歇失去辨識或需反覆重插」。",
+    "title": "無線接收器無法連線、間歇失去辨識或需反覆重插",
+    "detail": "逐頁覆核一般零售DeathAdder V4 Pro回報，採4位Insider及2位Reddit可辨識原作者。跨板AirSuch2770去重；三隻換貨也只一人。不同症狀（滾輪異音、回彈黏、USB慢充、完全死機、睡眠短暫凍結）不併入本問題；非零售電競隊版本及明示其他型號/白綠外觀候選不作本筆計數。此為使用者歷史回報，不能推定新批次必然故障或共同根因。 本批保守六位，網路自選回報不代表故障率或已證實共同根因。",
+    "reportCount": 6,
+    "sources": [
+      {
+        "platform": "Razer Insider",
+        "title": "DeathAdder V4 Pro 黑色 — Im_in_YourWalls 原始回報",
+        "url": "https://insider.razer.com/razer-support-45/deathadder-v4-pro-dongle-stopped-working-randomly-89502",
+        "authors": [
+          "Im_in_YourWalls"
+        ],
+        "evidenceSnippet": "充至100%後接回接收器毫無反應，有線與Synapse正常；換USB、另一PC、重裝驅動及配對工具仍無線失效。"
+      },
+      {
+        "platform": "Razer Insider",
+        "title": "DeathAdder V4 Pro 黑色 — Nesmohten 原始回報",
+        "url": "https://insider.razer.com/razer-support-45/razer-deathadder-v4-pro-dongle-doesnt-turn-on-85831",
+        "authors": [
+          "Nesmohten"
+        ],
+        "evidenceSnippet": "使用1.5月有四次開機接收器不亮，電池全滿，换埠線及重啟無效；有線正常，反覆插拔接收器十餘次後恢復。"
+      },
+      {
+        "platform": "Razer Insider",
+        "title": "DeathAdder V4 Pro 黑色 — Anxu211 原始回報",
+        "url": "https://insider.razer.com/razer-support-45/razer-deathadder-v4-pro-dongle-doesn-t-work-83468",
+        "authors": [
+          "Anxu211"
+        ],
+        "evidenceSnippet": "新買DeathAdder V4 Pro已註冊Synapse，有線能用；接收器LED不亮，不同電腦同樣無線不能用。"
+      },
+      {
+        "platform": "Razer Insider",
+        "title": "DeathAdder V4 Pro 黑色 — fnord0 原始回報",
+        "url": "https://insider.razer.com/razer-support-45/deathadder-v4-pro-defective-dongle-less-than-1-week-old-86141",
+        "authors": [
+          "fnord0"
+        ],
+        "evidenceSnippet": "Amazon購買未滿一週接收器全滅失去無線；改有線五分鐘再插接收器才恢復，兩日後暫無復發。"
+      },
+      {
+        "platform": "Reddit",
+        "title": "DeathAdder V4 Pro 黑色 — AirSuch2770 原始回報",
+        "url": "https://www.reddit.com/r/razer/comments/1radofd/razer_deathadder_v4_pro_issuesrecommendations/",
+        "authors": [
+          "AirSuch2770"
+        ],
+        "evidenceSnippet": "自己換三隻DeathAdder V4 Pro，2025第38週兩隻/31週一隻，皆偶爾接不上dongle並短暫斷線。"
+      },
+      {
+        "platform": "Reddit",
+        "title": "DeathAdder V4 Pro 黑色 — NunoSM 原始回報",
+        "url": "https://www.reddit.com/r/razer/comments/1q39nqw/deathadder_v4_pro_problem/",
+        "authors": [
+          "NunoSM"
+        ],
+        "evidenceSnippet": "自己的DeathAdder V4 Pro開機不工作，重插鼠與接收器才恢復；另一次充電後卻低電，需要再做相同插拔程序。"
+      }
+    ]
+  },
+  {
+    "id": "mouse-razer-viper-v3-pro",
+    "checkedAt": "2026-09-01",
+    "summary": "Viper V3 Pro 黑色 35K 非SE有六位跨Reddit與Razer Insider的獨立使用者回報「連線中斷或接收器失去辨識」。",
+    "title": "連線中斷或接收器失去辨識",
+    "detail": "原版Viper V3 Pro非V3 HyperSpeed／V2／SE；顏色不是獨立收錄變體，但回報未都寫區域SKU或顏色，不宣稱已確認黑色特定批次或共同硬體根因。四位Insider加兩位Reddit，僅集中相同連線/辨識症狀，不混入追蹤、按鍵、充電或其他世代以湊數。 本批保守六位，網路自選回報不代表故障率或已證實共同根因。",
+    "reportCount": 6,
+    "sources": [
+      {
+        "platform": "Razer Insider",
+        "title": "Viper V3 Pro 黑色 35K 非SE — TownPablo 原始回報",
+        "url": "https://insider.razer.com/razer-support-45/mouse-randomly-stop-working-razer-viper-v3-pro-87204",
+        "authors": [
+          "TownPablo"
+        ],
+        "evidenceSnippet": "2026-03-15自述Viper V3 Pro約每十分鐘斷線；後續接收器可被Windows識別但鼠不連線、有線也未即時識別，等待數分鐘恢復且電量90%，換USB口及韌體更新仍持續。"
+      },
+      {
+        "platform": "Razer Insider",
+        "title": "Viper V3 Pro 黑色 35K 非SE — autoZaffrenexus116 原始回報",
+        "url": "https://insider.razer.com/razer-support-45/issue-viper-v3-pro-wireless-mode-87233",
+        "authors": [
+          "autoZaffrenexus116"
+        ],
+        "evidenceSnippet": "2026-03-16自述無線模式週期性短暫關閉數毫秒，明顯干擾操作；客服次日確認其Viper V3 Pro dongle連線問題。"
+      },
+      {
+        "platform": "Razer Insider",
+        "title": "Viper V3 Pro 黑色 35K 非SE — miztersex 原始回報",
+        "url": "https://insider.razer.com/razer-support-45/viper-v3-pro-issue-disconnecting-66740",
+        "authors": [
+          "miztersex"
+        ],
+        "evidenceSnippet": "2024-08-25明說自己全新約三天的Viper V3 Pro頻繁斷接或停止工作，更新韌體沒有解決。"
+      },
+      {
+        "platform": "Razer Insider",
+        "title": "Viper V3 Pro 黑色 35K 非SE — the_yutman 原始回報",
+        "url": "https://insider.razer.com/razer-support-45/razer-viper-v3-pro-keeps-disconnecting-85434",
+        "authors": [
+          "the_yutman"
+        ],
+        "evidenceSnippet": "2026-01-07自述買兩週的Viper V3 Pro原本正常，數日前開始隨機斷線2至30秒，頻率持續增加。"
+      },
+      {
+        "platform": "Reddit",
+        "title": "Viper V3 Pro 黑色 35K 非SE — JayThaPistola 原始回報",
+        "url": "https://www.reddit.com/r/razer/comments/1q39nqw/deathadder_v4_pro_problem/",
+        "authors": [
+          "JayThaPistola"
+        ],
+        "evidenceSnippet": "在DeathAdder討論下明確另說自己擁有Viper V3 Pro，電量幾乎滿時仍在遊戲隨機斷線。"
+      },
+      {
+        "platform": "Reddit",
+        "title": "Viper V3 Pro 黑色 35K 非SE — Omrops40 原始回報",
+        "url": "https://www.reddit.com/r/MouseReview/comments/1rocxui/",
+        "authors": [
+          "Omrops40"
+        ],
+        "evidenceSnippet": "本人V3 Pro用了六個月正常，HyperPolling接收器突然不被PC識別，換另一電腦仍相同，目前只能有線使用。"
+      }
+    ]
+  },
+  {
+    "id": "keyboard-razer-ornata-v3-x",
+    "checkedAt": "2026-08-31",
+    "summary": "已核對同款 Ornata V3 X 薄膜完整版至少7位獨立使用者、跨Reddit與Razer Insider回報，涉及WASD、Space、Caps Lock等特定複鍵組合；官方亦明示無key rollover。這是功能限制與使用風險，不宣稱所有鍵都不能三鍵同按，也不把V3非X、清潔後連發或軟體Alt問題混算。",
+    "title": "特定複鍵組合漏輸入／按鍵衝突",
+    "detail": "人工逐人確認Reddit 2位與Razer Insider 5位均明說自用Ornata V3 X完整薄膜版，特定WASD／Space／Caps Lock組合的輸入會遺漏；不併V3非X或清潔後連發。官方技術表與客服亦明示無key rollover，是遊戲組合鍵能力限制而非所有三鍵都必失效，不能據此推定每批故障率。重視複雜同按操作者宜改選具明確KRO能力的鍵盤。",
+    "reportCount": 7,
+    "sources": [
+      {
+        "platform": "Reddit",
+        "title": "Razer Ornata V3 X ghosting for 3-keys",
+        "url": "https://www.reddit.com/r/razer/comments/x034bi/razer_ornata_v3_x_ghosting_for_3keys/",
+        "authors": [
+          "encee222"
+        ],
+        "evidenceSnippet": "正文明确本人V3 X，Windows/Linux及Space+W+Q漏輸入，後續回覆同人不重計。"
+      },
+      {
+        "platform": "Reddit",
+        "title": "Ornata V3 X",
+        "url": "https://www.reddit.com/r/razer/comments/17m1rps/ornata_v3_x/",
+        "authors": [
+          "killerskrr"
+        ],
+        "evidenceSnippet": "原評論明確V3 X、比較WA+N失效而WD+N可，結尾本人退貨。comment獨立URLwebtimeout但全文在父原頁可見，非搜尋摘要。"
+      },
+      {
+        "platform": "Razer Insider",
+        "title": "Pressing more than 3 keys simultaneously is not supported on the Razer Ornata V3 X",
+        "url": "https://insider.razer.com/razer-support-45/pressing-more-than-3-keys-simultaneously-is-not-supported-on-the-razer-ornata-v3-x-87379",
+        "authors": [
+          "Timaus"
+        ],
+        "evidenceSnippet": "標題與tag明確Ornata V3 X，自己Dota2/CS2/Arma3使用三鍵後第四鍵失效並說替代鍵盤沒問題，非轉述。"
+      },
+      {
+        "platform": "Razer Insider",
+        "title": "Razer Ornata V3 X keyboard issue",
+        "url": "https://insider.razer.com/razer-support-45/razer-ornata-v3-x-keyboard-issue-49656",
+        "authors": [
+          "infoheadTealGreen951"
+        ],
+        "evidenceSnippet": "原PO標題V3 X、自己Fifa複鍵L不認；DeezNutez失效/拔插是不同症狀不併算，客服不計。"
+      },
+      {
+        "platform": "Razer Insider",
+        "title": "The most ridicilous defect with Razer Ornata V3X",
+        "url": "https://insider.razer.com/razer-support-45/the-most-ridicilous-defect-with-razer-ornata-v3x-50443",
+        "authors": [
+          "Inchwormhomehead563"
+        ],
+        "evidenceSnippet": "正文明确自己Razer Ornata V3 X及QW第三鍵失效；官方Razer.Aero隔日說no key rollover是預期行為，客服不計入作者。"
+      },
+      {
+        "platform": "Razer Insider",
+        "title": "Razer Ornata V3 ghosting",
+        "url": "https://insider.razer.com/keyboards-8/razer-ornata-v3-ghosting-39028",
+        "authors": [
+          "emay_",
+          "Jigsaw_Actual"
+        ],
+        "evidenceSnippet": "混V3論壇中只採此明說自購V3X者，列TABWR及AWE不動，不用其他V3非X多數留言。；明說自購V3X，CapsLock單鍵正常而按住時其他鍵失效；兩筆電多USB且關Synapse仍重現，沒有液體或髒污；同作者長文只算一人。"
+      }
+    ]
+  },
   {
     "id": "soundbar-klipsch-flexus-core-200",
     "checkedAt": "2026-08-31",

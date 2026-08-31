@@ -14,6 +14,7 @@ const {
 } = require("./incremental-catalog-audit");
 const { prepareResearchMerge, mergeResearchBundles } = require("./merge-product-research-bundles");
 const { CHECKED_AT } = require("./verified-product-issues");
+const { reviewedDecision } = require("./research-product-issues");
 const { hasTaiwanCompatiblePower } = require("./japanese-brand-audit");
 const { maintenanceReviewReady, selectPreviousCategoryReview } = require("./run-daily-catalog-maintenance");
 const { renderMaintenanceSummary } = require("./update-maintenance-metadata");
@@ -58,7 +59,7 @@ function fixture() {
   return { report, catalog, baseline, documents };
 }
 
-function researchMergeFixture() {
+function researchMergeFixture({ newCommonIssue = false } = {}) {
   // Reuse two real, complete research records; only their test identity/category changes.
   const root = path.resolve(__dirname, "..");
   const products = [];
@@ -68,17 +69,19 @@ function researchMergeFixture() {
     }, { timeout: 1000 });
   }
   const oldSource = products.find((product) => product.issueResearch.status === "common_issue");
-  const newSource = products.find((product) => product.category === "tv" && product.issueResearch.status === "no_common_issue");
+  const newSource = newCommonIssue ? oldSource : products.find((product) => product.category === "tv" && product.issueResearch.status === "no_common_issue");
   assert(oldSource && newSource, "merge fixture requires complete common/no-common examples");
   const value = JSON.parse(JSON.stringify(fixture(), (_key, item) => item === "old" ? oldSource.id : item));
   const oldProduct = clone(oldSource);
-  const addedProduct = { ...clone(newSource), id: "added", category: "monitor-light" };
+  const addedProduct = { ...clone(newSource), id: "added", category: "mouse" };
+  addedProduct.specs = addedProduct.specs.map((spec) => spec.startsWith("尺寸：") ? "尺寸：高 120 x 寬 70 x 深 40 mm" : spec.startsWith("重量：") ? "重量：淨重 80 g" : spec);
   value.baseline.products = [oldProduct];
-  value.baseline.categories = [{ id: oldProduct.category, label: "Existing category" }];
+  value.baseline.categories = [{ id: oldProduct.category, label: oldProduct.category === "soundbar" ? "Soundbar" : "電視" }];
   value.baseline.report.categoryScan[0].category = oldProduct.category;
   value.report.categoryScan[0].category = oldProduct.category;
+  value.report.categoryScan[1].category = addedProduct.category;
   value.catalog.products = [clone(oldProduct), addedProduct];
-  value.catalog.categories = [...clone(value.baseline.categories), { id: "monitor-light", label: "螢幕燈" }];
+  value.catalog.categories = [...clone(value.baseline.categories), { id: "mouse", label: "滑鼠" }];
   value.bundle = {};
   const documents = readEvidenceDocuments(root);
   for (const { file, keys, collection } of EVIDENCE_TARGETS) {
@@ -91,6 +94,11 @@ function researchMergeFixture() {
       }));
     value.baseline.documents[file] = { ...clone(document), [collection]: copyRows(oldSource, oldProduct) };
     value.bundle[keys[0]] = copyRows(newSource, addedProduct);
+    if (file === "dimension_research.json") Object.assign(value.bundle[keys[0]][0], {
+      brand: addedProduct.brand, model: addedProduct.model, name: addedProduct.name,
+      dimension: addedProduct.specs.find((spec) => spec.startsWith("尺寸：")),
+      weight: addedProduct.specs.find((spec) => spec.startsWith("重量：")),
+    });
   }
   return value;
 }
@@ -179,6 +187,38 @@ function checkIncrementalCatalogAudit() {
   assert.doesNotMatch(summary, /全量查核|外幣商品已重算/);
 
   const mergeFixture = researchMergeFixture();
+  const commonFixture = researchMergeFixture({ newCommonIssue: true });
+  const commonResearch = commonFixture.bundle.product_issue_research[0];
+  const acceptedSource = commonResearch.evidence[0];
+  const knownProduct = commonFixture.baseline.products[0];
+  const knownReview = commonFixture.baseline.documents["product_issue_review_manifest.json"].results[0];
+  assert(reviewedDecision(knownProduct, new Map([[knownProduct.id, knownReview]]), {
+    candidates: [{ url: acceptedSource.url, title: acceptedSource.title }],
+  }), "the research apply gate also accepts a verified source without inventing an exclusion");
+  assert.equal(reviewedDecision(knownProduct, new Map([[knownProduct.id, knownReview]]), {
+    candidates: [{ url: "https://reddit.com/r/test/comments/unreviewed/", title: "Unreviewed original" }],
+  }), null, "the research apply gate still blocks an unreviewed original page");
+  commonResearch.searchChecks[0].candidates.push({ url: acceptedSource.url, title: acceptedSource.title });
+  commonResearch.searchChecks[0].candidateUrls.push(acceptedSource.url);
+  commonResearch.searchChecks[0].resultCount++;
+  commonResearch.searchChecks[0].result = "candidates_unverified_by_search_only";
+  const commonOptions = {
+    catalog: commonFixture.catalog, documents: clone(commonFixture.baseline.documents),
+    bundles: [commonFixture.bundle], checkedAt: CHECKED_AT,
+  };
+  assert.doesNotThrow(() => prepareResearchMerge(commonOptions), "a new common issue uses its pending six-document evidence, including accepted original-page candidates");
+  for (const mutate of [
+    (x) => { x.bundles[0].product_issue_research[0].searchChecks[0].candidates[0] = { title: "Unreviewed original", url: "https://reddit.com/r/test/comments/unreviewed/" }; x.bundles[0].product_issue_research[0].searchChecks[0].candidateUrls[0] = "https://reddit.com/r/test/comments/unreviewed/"; },
+    (x) => { x.bundles[0].product_issue_report_evidence.pop(); },
+    (x) => { x.catalog.products[1].issueResearch.issues[0].reportCount = 5; },
+    (x) => { x.catalog.products[1].issueResearch.issues[0].sources.forEach((source) => { source.url = "https://old.reddit.com/r/test/"; }); },
+  ]) {
+    const invalid = clone(commonOptions);
+    mutate(invalid);
+    const attemptedWrites = [];
+    assert.throws(() => mergeResearchBundles(invalid, (file) => attemptedWrites.push(file)));
+    assert.deepEqual(attemptedWrites, [], "accepted candidates cannot bypass source coverage, reporter counts, independent websites or the ledger");
+  }
   const { bundle } = mergeFixture;
   const options = {
     catalog: mergeFixture.catalog, documents: clone(mergeFixture.baseline.documents), bundles: [bundle],
@@ -186,6 +226,7 @@ function checkIncrementalCatalogAudit() {
   };
   const writes = [];
   const merged = mergeResearchBundles(options, (file) => writes.push(file));
+  assert.match(merged["dimension_research.json"].sourcePolicy, /共 2 類尺寸、2 類重量/);
   assert.deepEqual(writes.sort(), EVIDENCE_TARGETS.map(({ file }) => file).sort(), "a complete valid batch writes all six targets");
   const carried = {
     report: { dataDate: "2026-09-02", baselineRef: "b".repeat(40) },
@@ -217,7 +258,7 @@ function checkIncrementalCatalogAudit() {
     mutate(invalid);
     assert.throws(() => assertCarriedIssueEvidence(invalid), /Incremental audit:/);
   }
-  assert.throws(() => resolveIssueEvidenceDate("unused", { ...carried.report, baselineRef: "HEAD" }, carried.products, carried.documents, CHECKED_AT), /immutable full commit SHA/);
+  assert.throws(() => resolveIssueEvidenceDate("unused", { ...carried.report, baselineRef: "HEAD" }, carried.products, carried.documents, "2026-08-29"), /immutable full commit SHA/);
   const researchSummaryFiles = ["release_date_research.json", "historical_price_research.json", "product_issue_research.json"];
   for (const file of researchSummaryFiles) {
     assert.equal(merged[file].summary.researchedThisRun, 1, `${file} counts only the added product as researched this run`);
@@ -226,6 +267,18 @@ function checkIncrementalCatalogAudit() {
   const fullMerged = prepareResearchMerge({ catalog: mergeFixture.catalog, documents: clone(mergeFixture.baseline.documents), bundles: [bundle], checkedAt: CHECKED_AT });
   for (const file of researchSummaryFiles) {
     assert.equal(fullMerged[file].summary.researchedThisRun, 2, `${file} retains full-mode coverage`);
+  }
+  const addedOnlyDocuments = clone(fullMerged);
+  for (const { file, collection } of EVIDENCE_TARGETS) {
+    addedOnlyDocuments[file][collection] = addedOnlyDocuments[file][collection].filter((row) => (row.id || row.productId) === "added");
+  }
+  const addedOnlyCatalog = { products: [mergeFixture.catalog.products[1]], categories: [mergeFixture.catalog.categories[1]] };
+  const addedOnlyMerged = prepareResearchMerge({ catalog: addedOnlyCatalog, documents: addedOnlyDocuments, bundles: [], checkedAt: CHECKED_AT });
+  assert.deepEqual(addedOnlyMerged["product_issue_report_evidence.json"].reports, [], "a no-common-issue-only batch has an explicit empty report ledger");
+  for (const { file, collection } of EVIDENCE_TARGETS.filter((target) => target.collection === "results")) {
+    const differentVersion = clone(addedOnlyDocuments);
+    differentVersion[file][collection][0].model = "DIFFERENT-VARIANT-SKU";
+    assert.throws(() => prepareResearchMerge({ catalog: addedOnlyCatalog, documents: differentVersion, bundles: [], checkedAt: CHECKED_AT }), /mismatch/, `${file} must reject cross-version evidence`);
   }
   assert.deepEqual(merged["historical_price_research.json"].results[0], mergeFixture.baseline.documents["historical_price_research.json"].results[0]);
   for (const brokenBundle of [

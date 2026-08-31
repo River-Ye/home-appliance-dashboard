@@ -1,7 +1,7 @@
 const fs = require("fs");
 const path = require("path");
 const { readDashboardProducts } = require("./read-dashboard-products");
-const { DIMENSION_CATEGORIES } = require("./dashboard-contract");
+const { DIMENSION_CATEGORIES, WEIGHT_CATEGORIES } = require("./dashboard-contract");
 const { validateResearchDocuments } = require("./verify-data");
 const {
   ADDED_PRODUCTS_SCOPE, EVIDENCE_TARGETS, assertIncrementalBaselinePreserved, assertResearchRowsPreserved,
@@ -35,7 +35,8 @@ function countsBy(rows, valueFor) {
   }, {});
 }
 
-function refreshMetadata(file, document, products, checkedAt, researchedIds, report) {
+function refreshMetadata(file, document, catalog, checkedAt, researchedIds, report) {
+  const { products, categories } = catalog;
   if (file === "release_date_research.json") {
     const found = document.results.filter((row) => row.releaseDate !== "找不到").length;
     document.summary = {
@@ -72,9 +73,10 @@ function refreshMetadata(file, document, products, checkedAt, researchedIds, rep
   }
   if (file === "dimension_research.json") {
     document.generatedAt = checkedAt;
-    if (products.some((product) => product.category === "monitor-light")) {
-      document.sourcePolicy = "電視、Soundbar、洗衣機、烘衣機、洗烘衣機、電子衣櫥、冰箱、咖啡機、多功能氣炸烤箱／微波爐、洗碗機、免治馬桶、冷氣、熱水器、網路交換器與螢幕燈共 15 類尺寸，以及電視、Soundbar、咖啡機、多功能氣炸烤箱／微波爐、冷氣、熱水器與螢幕燈共 7 類重量研究，優先採 exact-model 官方產品頁、官方規格表或官方 PDF，其次為可信新品通路。只採本體／機身／明確組件的尺寸與淨重，排除包裝、外箱尺寸與毛重；來源沒有明示寬／深／高順序時不自行推定。冷氣分列室內機與室外機，熱泵複合熱水器分列主機與儲槽。generatedAt 為最新證據批次日期，既有逐筆 checkedAt 與 weightCheckedAt 保留原查核日期，不表示重新查核。";
-    }
+    const dimensionCategoryCount = new Set(products.filter((product) => DIMENSION_CATEGORIES.has(product.category)).map((product) => product.category)).size;
+    const weightCategoryCount = new Set(products.filter((product) => WEIGHT_CATEGORIES.has(product.category)).map((product) => product.category)).size;
+    const labels = categories.filter((category) => DIMENSION_CATEGORIES.has(category.id)).map((category) => category.label.replaceAll("/", "／")).join("、");
+    document.sourcePolicy = `本站共 ${dimensionCategoryCount} 類尺寸、${weightCategoryCount} 類重量研究，尺寸涵蓋 ${labels}。優先採 exact-model／相同版本的官方產品頁、官方規格表或官方 PDF，其次為可信新品通路。只採本體／機身／明確組件的尺寸與淨重，排除包裝、外箱尺寸與毛重；來源沒有明示軸序時不自行推定。既有家電維持 cm／kg，滑鼠、鍵盤與滑鼠墊使用 mm／g 並保留來源軸序，滑鼠墊厚度另列。冷氣分列室內機與室外機，熱泵複合熱水器分列主機與儲槽。generatedAt 為最新證據批次日期，既有逐筆 checkedAt 與 weightCheckedAt 保留原查核日期，不表示重新查核。`;
   }
   if (file === "product_issue_research.json") {
     const common = document.results.filter((row) => row.issueResearch?.status === "common_issue").length;
@@ -114,7 +116,7 @@ function prepareResearchMerge({ catalog, documents, bundles, checkedAt, baseline
     const byKey = new Map(existing.map((row) => [target.rowKey(row), row]));
     for (const row of incoming) byKey.set(target.rowKey(row), row);
     document[target.collection] = [...byKey.values()].filter((row) => productIds.has(row.id || row.productId));
-    refreshMetadata(target.file, document, products, checkedAt, researchedIds, report);
+    refreshMetadata(target.file, document, catalog, checkedAt, researchedIds, report);
     if (target.collection === "results") {
       const rows = document.results;
       const expectedIds = products.filter((product) => target.file !== "dimension_research.json" || DIMENSION_CATEGORIES.has(product.category)).map((product) => product.id).sort();

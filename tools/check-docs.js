@@ -53,6 +53,10 @@ function main() {
   assert(readme.includes("螢幕燈精選 20 款桌機掛燈"), "README monitor-light scope is missing");
   assert(agents.includes("### 螢幕燈"), "AGENTS monitor-light scope is missing");
   assert(repoSkill.includes("added_products_only"), "repo skill incremental maintenance scope is missing");
+  for (const phrase of ["variantFamily", "6／12／12", "滑鼠 / 鍵盤 / 滑鼠墊"]) {
+    assert(agents.includes(phrase), `AGENTS peripheral contract missing: ${phrase}`);
+  }
+  assert(repoSkill.includes("PERIPHERAL_SPEC_PREFIXES"), "repo skill peripheral specification contract missing");
   const packageJson = JSON.parse(read("package.json"));
   assertFileExists("CNAME");
   assertFileExists("robots.txt");
@@ -134,6 +138,9 @@ function main() {
     ["monitor", "電腦螢幕"],
     ["monitor-light", "螢幕燈"],
     ["monitorarm", "懸臂支架"],
+    ["mouse", "滑鼠"],
+    ["keyboard", "鍵盤"],
+    ["mousepad", "滑鼠墊"],
     ["smartlock", "電子鎖"],
     ["cookware", "鍋具"],
     ["knife", "刀具"],

@@ -1,5 +1,5 @@
-const EXPECTED_CATEGORY_COUNT = 31;
-const EXPECTED_PRODUCT_COUNT = 943;
+const EXPECTED_CATEGORY_COUNT = 34;
+const EXPECTED_PRODUCT_COUNT = 1033;
 const MIN_PRODUCTS_PER_CATEGORY = 20;
 const EXPECTED_CATEGORY_PRODUCT_COUNTS = new Map([
   ["tv", 35],
@@ -33,6 +33,9 @@ const EXPECTED_CATEGORY_PRODUCT_COUNTS = new Map([
   ["monitor", 60],
   ["monitor-light", 20],
   ["monitorarm", 25],
+  ["mouse", 30],
+  ["keyboard", 30],
+  ["mousepad", 30],
 ]);
 const DATE_PATTERN = /^(找不到|\d{4}(?:[-/.]\d{1,2}(?:[-/.]\d{1,2})?)?)$/;
 const WASHER_DRYER_CAPACITY_PATTERN = /^洗\/乾容量：\d+(?:\.\d+)?kg \/ \d+(?:\.\d+)?kg$/;
@@ -52,11 +55,14 @@ const DIMENSION_CATEGORY_COUNTS = new Map([
   ["waterheater", 45],
   ["network-switch", 20],
   ["monitor-light", 20],
+  ["mouse", 30],
+  ["keyboard", 30],
+  ["mousepad", 30],
 ]);
 const DIMENSION_CATEGORIES = new Set(DIMENSION_CATEGORY_COUNTS.keys());
 const EXPECTED_DIMENSION_PRODUCT_COUNT = [...DIMENSION_CATEGORY_COUNTS.values()]
   .reduce((sum, count) => sum + count, 0);
-const NEW_DIMENSION_CATEGORIES = new Set(["tv", "soundbar", "coffee", "oven", "dishwasher", "bidet", "aircon", "waterheater", "network-switch", "monitor-light"]);
+const NEW_DIMENSION_CATEGORIES = new Set(["tv", "soundbar", "coffee", "oven", "dishwasher", "bidet", "aircon", "waterheater", "network-switch", "monitor-light", "mouse", "keyboard", "mousepad"]);
 const MEASUREMENT_PRIORITY_CATEGORIES = new Set(["tv", "soundbar", "garmentcare", "coffee", "oven", "dishwasher", "bidet", "aircon", "waterheater", "network-switch"]);
 const MEASUREMENT_VALUE_PATTERN = "\\d+(?:\\.\\d+)?(?:[-–／/]\\d+(?:\\.\\d+)?)?";
 const DIMENSION_SEGMENT_PATTERN = `(?:[^；]+ )?寬 ${MEASUREMENT_VALUE_PATTERN} x 深 ${MEASUREMENT_VALUE_PATTERN} x 高 ${MEASUREMENT_VALUE_PATTERN} cm`;
@@ -71,6 +77,9 @@ const WEIGHT_CATEGORY_COUNTS = new Map([
   ["aircon", 30],
   ["waterheater", 45],
   ["monitor-light", 20],
+  ["mouse", 30],
+  ["keyboard", 30],
+  ["mousepad", 30],
 ]);
 const WEIGHT_CATEGORIES = new Set(WEIGHT_CATEGORY_COUNTS.keys());
 const EXPECTED_WEIGHT_PRODUCT_COUNT = [...WEIGHT_CATEGORY_COUNTS.values()]
@@ -78,6 +87,36 @@ const EXPECTED_WEIGHT_PRODUCT_COUNT = [...WEIGHT_CATEGORY_COUNTS.values()]
 const WEIGHT_MEASUREMENT_VALUE_PATTERN = `(?:${MEASUREMENT_VALUE_PATTERN}|\\d+(?:\\.\\d+)?\\s*±\\s*\\d+(?:\\.\\d+)?)`;
 const WEIGHT_SEGMENT_PATTERN = `(?:[^；]+ )?(?:約 )?${WEIGHT_MEASUREMENT_VALUE_PATTERN} kg`;
 const WEIGHT_PATTERN = new RegExp(`^重量：${FORBIDDEN_MEASUREMENT_LABEL_PATTERN}(未標示|查不到|${WEIGHT_SEGMENT_PATTERN}(?:；${WEIGHT_SEGMENT_PATTERN})*)$`, "i");
+const PERIPHERAL_TYPES = {
+  mouse: ["standard", "vertical", "trackball"],
+  keyboard: ["membrane", "scissor", "mechanical", "magnetic", "optical"],
+  mousepad: ["cloth", "hard", "glass"],
+};
+const PERIPHERAL_BUDGET_COUNTS = new Map([["value", 6], ["mid", 12], ["premium", 12]]);
+const PERIPHERAL_SPEC_PREFIXES = {
+  mouse: ["類型：", "握型／慣用手：", "連線：", "感測器／解析度：", "回報率：", "按鍵／滾輪：", "供電／續航：", "系統／軟體：", "尺寸：", "重量：", "隨附配件："],
+  keyboard: ["類型：", "配列：", "鍵帽語言／材質：", "軸體：", "熱插拔：", "連線：", "回報率：", "供電／續航：", "系統／軟體：", "尺寸：", "重量：", "隨附配件："],
+  mousepad: ["類型：", "表面材質：", "表面特性：", "底材／防滑：", "尺寸：", "厚度：", "重量：", "邊緣處理：", "清潔保養：", "供電／功能：", "隨附配件："],
+};
+const PERIPHERAL_TWO_AXES = `(?:握持(?=寬))?(?<axis1>[長寬深高]) ${MEASUREMENT_VALUE_PATTERN} x (?:握持(?=寬))?(?!\\k<axis1>)(?<axis2>[長寬深高]) ${MEASUREMENT_VALUE_PATTERN}`;
+const PERIPHERAL_THIRD_AXIS = ` x (?:握持(?=寬))?(?!\\k<axis1>|\\k<axis2>)[長寬深高] ${MEASUREMENT_VALUE_PATTERN}`;
+const PERIPHERAL_MEASUREMENT_NOTE = "(?:（[^（）0-9]*）)?";
+const PERIPHERAL_DIMENSION_SEGMENT = `(?:[^0-9；]+?)?${PERIPHERAL_TWO_AXES}`;
+const PERIPHERAL_DIMENSION_END = ` mm${PERIPHERAL_MEASUREMENT_NOTE}(?:；前高 ${MEASUREMENT_VALUE_PATTERN} mm)?(?:；(?=.)|$)`;
+// Repeat one capture group so each component independently checks its own axis labels.
+const PERIPHERAL_DIMENSION_PATTERN = new RegExp(`^尺寸：${FORBIDDEN_MEASUREMENT_LABEL_PATTERN}(查不到|(?:${PERIPHERAL_DIMENSION_SEGMENT}${PERIPHERAL_THIRD_AXIS}${PERIPHERAL_DIMENSION_END})+)$`, "iu");
+const MOUSEPAD_DIMENSION_PATTERN = new RegExp(`^尺寸：${FORBIDDEN_MEASUREMENT_LABEL_PATTERN}(查不到|(?:${PERIPHERAL_DIMENSION_SEGMENT}(?:${PERIPHERAL_THIRD_AXIS})?${PERIPHERAL_DIMENSION_END})+)$`, "iu");
+const PERIPHERAL_WEIGHT_SEGMENT_PATTERN = WEIGHT_SEGMENT_PATTERN.replace(/ kg$/, ` g${PERIPHERAL_MEASUREMENT_NOTE}`);
+const PERIPHERAL_WEIGHT_PATTERN = new RegExp(`^重量：${FORBIDDEN_MEASUREMENT_LABEL_PATTERN}(查不到|${PERIPHERAL_WEIGHT_SEGMENT_PATTERN}(?:；${PERIPHERAL_WEIGHT_SEGMENT_PATTERN})*)$`, "i");
+
+function dimensionPatternForCategory(category) {
+  if (category === "mousepad") return MOUSEPAD_DIMENSION_PATTERN;
+  return Object.hasOwn(PERIPHERAL_TYPES, category) ? PERIPHERAL_DIMENSION_PATTERN : DIMENSION_PATTERN;
+}
+
+function weightPatternForCategory(category) {
+  return Object.hasOwn(PERIPHERAL_TYPES, category) ? PERIPHERAL_WEIGHT_PATTERN : WEIGHT_PATTERN;
+}
 const WEIGHT_CONFIDENCE_VALUES = new Set(["high", "medium", "low", "not_found"]);
 const HISTORICAL_LOW_STATUSES = new Set(["found", "not_found"]);
 const HISTORICAL_LOW_SOURCE_KINDS = new Set([
@@ -380,6 +419,11 @@ module.exports = {
   WEIGHT_CATEGORIES,
   EXPECTED_WEIGHT_PRODUCT_COUNT,
   WEIGHT_PATTERN,
+  PERIPHERAL_TYPES,
+  PERIPHERAL_BUDGET_COUNTS,
+  PERIPHERAL_SPEC_PREFIXES,
+  dimensionPatternForCategory,
+  weightPatternForCategory,
   WEIGHT_CONFIDENCE_VALUES,
   HISTORICAL_LOW_STATUSES,
   HISTORICAL_LOW_SOURCE_KINDS,
