@@ -120,10 +120,18 @@ function updateIndexMetadata(source, meta, report = null) {
 }
 
 function updateReadmeMetadata(source, meta) {
-  return source.replace(
-    /整理 \d{4}-\d{2}-\d{2} 查核的家電推薦清單/,
-    `整理 ${meta.dataDate} 查核的家電推薦清單`,
-  );
+  return source
+    .replace(
+      /整理 \d{4}-\d{2}-\d{2} 查核的家電推薦清單/,
+      `整理 ${meta.dataDate} 查核的家電推薦清單`,
+    )
+    .replace(/共 \d+ 類商品，每種商品至少 20 個，共 \d+ 筆。/, `共 ${meta.expectedCategoryCount} 類商品，每種商品至少 20 個，共 ${meta.expectedProductCount} 筆。`)
+    .replace(/不為 \d+ 筆商品建立重複、薄內容的獨立頁面。/, `不為 ${meta.expectedProductCount} 筆商品建立重複、薄內容的獨立頁面。`)
+    .replace(/全部 \d+ 款的品牌、型號、名稱、參考價、上市日期與摘要。/, `全部 ${meta.expectedProductCount} 款的品牌、型號、名稱、參考價、上市日期與摘要。`)
+    .replace(/檢查 \d+ 類、\d+ 筆、必要欄位/, `檢查 ${meta.expectedCategoryCount} 類、${meta.expectedProductCount} 筆、必要欄位`)
+    .replace(/(`npm run check:geo`：(?:檢查 )?)\d+ 個分類頁、\d+ 款/, `$1${meta.expectedCategoryCount} 個分類頁、${meta.expectedProductCount} 款`)
+    .replace(/不建立 \d+ 個重複商品事實的薄內容頁。/, `不建立 ${meta.expectedProductCount} 個重複商品事實的薄內容頁。`)
+    .replace(/- 共 \d+ 類、\d+ 筆商品。/, `- 共 ${meta.expectedCategoryCount} 類、${meta.expectedProductCount} 筆商品。`);
 }
 
 function main() {
@@ -144,10 +152,7 @@ function main() {
     const filePath = path.join(ROOT, file);
     const source = fs.readFileSync(filePath, "utf8");
     const withSummary = replaceMarkerBlock(source, SUMMARY_MARKER, summary);
-    fs.writeFileSync(
-      filePath,
-      file === "README.md" ? updateReadmeMetadata(withSummary, meta) : withSummary,
-    );
+    fs.writeFileSync(filePath, updateReadmeMetadata(withSummary, meta));
   }
 
   const indexPath = path.join(ROOT, "index.html");

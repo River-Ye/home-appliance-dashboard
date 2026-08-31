@@ -1,12 +1,12 @@
 {
   "summary": {
     "checkedAt": "2026-09-01T00:00:00+08:00",
-    "total": 1033,
-    "researchedThisRun": 90,
-    "found": 329,
+    "total": 1035,
+    "researchedThisRun": 2,
+    "found": 331,
     "missing": 704,
     "byConfidence": {
-      "official": 179,
+      "official": 181,
       "not_found": 701,
       "retailer_explicit": 22,
       "credible_article": 52,
@@ -7859,6 +7859,45 @@
           "url": "https://24h.pchome.com.tw/prod/DMBH01-A900I8NBF",
           "title": "Electrolux WQ71-2BSWF exact-model original page — 24h.pchome.com.tw",
           "outcome": "可信新品通路的 exact-model 原頁可確認商品；頁面未明示上市／發售日期，且未採上架、庫存或促銷日期。"
+        }
+      ]
+    },
+    {
+      "id": "vacuum-dyson-v8-cyclone-sv55",
+      "category": "vacuum",
+      "brand": "Dyson",
+      "model": "V8 Cyclone SV55",
+      "name": "V8 Cyclone 無線吸塵器",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "2025-09-05",
+      "sourceUrl": "https://id-prod.commerce.dyson.com/events/unveiled-2025",
+      "sourceTitle": "Dyson Unveiled 2025 — official launch event",
+      "evidenceSnippet": "Dyson 官方 Unveiled 2025 頁說明新品於 2025 年 9 月 5 日柏林 launch event／YouTube 首播發表，並將 V8 Cyclone 列為本次正式公布的新款吸塵器。",
+      "confidence": "official",
+      "query": "\"Dyson V8 Cyclone SV55\" (release OR launch OR 上市 OR 發售)",
+      "sourceKind": "official_launch_event",
+      "reason": "Dyson 官方 Unveiled 2025 活動頁明示 9 月 5 日 launch event，且同頁將 V8 Cyclone 列為本次公布的新產品；採 2025-09-05 作全球正式發表日。台灣官方商城 exact-model SV55／SKU 630933-01 只用來確認台灣型號身分與現售狀態，不外推為台灣首賣日。",
+      "checkedAt": "2026-09-01",
+      "auditDisposition": "new_found",
+      "auditQueries": [
+        "\"Dyson V8 Cyclone SV55\" (release OR launch OR 上市 OR 發售)",
+        "site:dyson.com \"V8 Cyclone\" (launch OR unveiled OR available)"
+      ],
+      "checkedSources": [
+        {
+          "url": "https://id-prod.commerce.dyson.com/events/unveiled-2025",
+          "title": "Dyson Unveiled 2025 — official launch event",
+          "outcome": "官方活動頁明示 2025 年 9 月 5 日 launch event，並將 V8 Cyclone 列為同場正式公布的新款吸塵器。"
+        },
+        {
+          "url": "https://www.dyson.com/discover/news/latest/james-dyson-unveils-problem-solving-products-in-berlin",
+          "title": "James Dyson unveils problem-solving products in Berlin — Dyson official news",
+          "outcome": "官方新聞原頁介紹升級版 V8 Cyclone 與其 150AW、60 分鐘等產品定位，作為同一發表產品身分佐證。"
+        },
+        {
+          "url": "https://shop.dyson.tw/vacuums/cordless-vacuums/dyson-v8-cyclone-sv55-vacuum-sale-630933-01",
+          "title": "Dyson V8 Cyclone SV55 630933-01 — Dyson 台灣官方商城",
+          "outcome": "台灣官方頁明示 exact model SV55 與商品 SKU 630933-01，可確認台灣正式商品身分，但未另列台灣上市日。"
         }
       ]
     },
@@ -31581,6 +31620,40 @@
           "url": "https://steelseries.com/gaming-mousepads/qck-performance?mousepadSize=large&model=Speed",
           "title": "SteelSeries QcK Performance L-Speed 官方選定版本",
           "outcome": "Chrome實際選Large與Speed，原頁型態、尺寸490×420×3.5mm、尼龍混紡與低輪廓縫邊對應63430；未借用Balance或XL。"
+        }
+      ]
+    },
+    {
+      "id": "tv-sony-xr80m2-65",
+      "category": "tv",
+      "brand": "Sony",
+      "model": "Y-65XR80M2",
+      "name": "BRAVIA 8 II 65 型 QD-OLED 4K Google TV 顯示器",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "2025",
+      "sourceUrl": "https://www.sony.co.uk/presscentre/cinema-is-coming-home-sony-expands-its-bravia-tv-line-up-for-the-most-authentic-cinematic-experience-at-home",
+      "sourceTitle": "Cinema is coming home: Sony expands its BRAVIA TV line-up for the most authentic cinematic experience at home",
+      "evidenceSnippet": "Sony Europe 於 2025-04-02 公告 2025 BRAVIA 陣容，明確介紹 BRAVIA 8 II 與 65 吋 QD-OLED 版本；公告沒有證明台灣 Y-65XR80M2 的實際開賣日，因此只採 2025 年。",
+      "confidence": "official",
+      "query": "Sony BRAVIA 8 II 65 official announcement 2025",
+      "auditQueries": [
+        "\"Sony Y-65XR80M2\" release date launch launched available",
+        "\"Sony Y-65XR80M2\" 上市 發售 開賣 推出"
+      ],
+      "sourceKind": "official_launch_announcement",
+      "reason": "官方公告明確涵蓋 BRAVIA 8 II 與 65 吋版本，但未給台灣 Y 後綴型號的當地實際開賣日；保守保留 YYYY 精度，不把公告日、支援頁或 Sony Store 上架日當成台灣上市日。",
+      "checkedAt": "2026-09-01",
+      "auditDisposition": "added",
+      "checkedSources": [
+        {
+          "url": "https://www.sony.co.uk/presscentre/cinema-is-coming-home-sony-expands-its-bravia-tv-line-up-for-the-most-authentic-cinematic-experience-at-home",
+          "title": "Sony 2025 BRAVIA 官方發表公告",
+          "outcome": "官方於 2025-04-02 發表 BRAVIA 8 II 並明列 65 吋 QD-OLED；只證明 2025 年產品陣容，不延伸為台灣 exact-SKU 的 4 月 2 日開賣。"
+        },
+        {
+          "url": "https://store.sony.com.tw/product/Y-65XR80M2",
+          "title": "Sony Store 台灣 Y-65XR80M2 官方現售頁",
+          "outcome": "原頁確認台灣 exact model、現售與保固，但沒有上市／發售日期；僅用於區域型號對照，不把促銷、上架或查核日期當上市日。"
         }
       ]
     }

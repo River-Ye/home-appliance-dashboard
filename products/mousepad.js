@@ -3,6 +3,7 @@
   if (!dashboard || typeof dashboard.registerProducts !== "function") {
     throw new Error("appliance dashboard registry is not ready");
   }
+
   dashboard.registerProducts("mousepad", [
   {
     "id": "mousepad-logitech-desk-mat-studio",

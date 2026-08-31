@@ -17,9 +17,9 @@
     "name": "65 型 OLED evo C5 4K 智慧顯示器",
     "price": {
       "currency": "TWD",
-      "amount": 52900,
-      "converted": 52900,
-      "confidence": "PChome 2026-08-25 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 49900,
+      "converted": 49900,
+      "confidence": "PChome 2026-09-01 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DPADYE1900JG394/000001_1762971547.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DPADYE-A900JC4MY",
@@ -215,9 +215,9 @@
     "name": "BRAVIA 7 65 型 Mini LED 4K Google TV",
     "price": {
       "currency": "TWD",
-      "amount": 56900,
-      "converted": 56900,
-      "confidence": "PChome 2026-08-31 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 53910,
+      "converted": 53910,
+      "confidence": "PChome 2026-09-01 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DPADFNA900K7VQ8/000001_1784011502.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DPADFN-A900K7VQ8",
@@ -414,9 +414,9 @@
     "name": "BRAVIA 9 II 65 型 RGB LED 4K Google TV",
     "price": {
       "currency": "TWD",
-      "amount": 110533,
-      "converted": 110533,
-      "confidence": "Yahoo購物中心 2026-08-31 exact-model 公開結構化價格"
+      "amount": 108323,
+      "converted": 108323,
+      "confidence": "Yahoo購物中心 2026-09-01 exact-model 公開結構化價格"
     },
     "image": "https://img.yec.tw/zp/MerchandiseImages/F326F9F0C5-SP-23019953.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/%E5%90%AB%E6%A8%99%E6%BA%96%E5%AE%89%E8%A3%9D-SONY%E7%B4%A2%E5%B0%BC65%E5%90%8B%E5%90%8BRGB-4K%E9%80%A3%E7%B6%B2%E6%99%BA%E6%85%A7%E9%A1%AF%E7%A4%BA%E5%99%A8Y-65XR90M2-12159450.html",
@@ -813,9 +813,9 @@
     "name": "BRAVIA 8 65 型 XR OLED 4K HDR Google TV 顯示器",
     "price": {
       "currency": "TWD",
-      "amount": 93900,
-      "converted": 93900,
-      "confidence": "PChome 2026-08-31 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 84510,
+      "converted": 84510,
+      "confidence": "PChome 2026-09-01 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DPAD06A900HLBJO/000001_1776334113.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DPAD06-A900HLBJO",
@@ -1902,9 +1902,9 @@
     "name": "65型 4K QLED 120Hz Google TV",
     "price": {
       "currency": "TWD",
-      "amount": 13990,
-      "converted": 13990,
-      "confidence": "PChome 2026-08-31 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 12591,
+      "converted": 12591,
+      "confidence": "PChome 2026-09-01 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DPADTOA900JNE73/000001_1768523868.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DPADTO-A900JNMOP",
@@ -2199,9 +2199,9 @@
     "name": "Regza 75型 4K QLED 144Hz 全陣列背光智慧顯示器",
     "price": {
       "currency": "TWD",
-      "amount": 39999,
-      "converted": 39999,
-      "confidence": "Costco 好市多 2026-07-13 頁面查核價"
+      "amount": 38299,
+      "converted": 38299,
+      "confidence": "Costco 好市多 2026-09-01 exact-model 公開結構化價格"
     },
     "image": "https://www.costco.com.tw/medias/sys_master/images/hfe/ha8/438072160518174.jpg",
     "buyUrl": "https://www.costco.com.tw/Televisions-Appliances/TV-Home-Entertainment/Televisions-TV-Accessories/70-79-TVs/Toshiba-Regza-75-inch-Full-Array-4K-QLED-144Hz-Smart-Monitor-75Z670NT/p/152535",
@@ -3514,6 +3514,106 @@
       "144Hz",
       "AirPlay",
       "Google Cast"
+    ]
+  },
+  {
+    "id": "tv-sony-xr80m2-65",
+    "category": "tv",
+    "rank": 37,
+    "topPick": false,
+    "budget": "premium",
+    "channel": "tw",
+    "brand": "Sony",
+    "model": "Y-65XR80M2",
+    "name": "BRAVIA 8 II 65 型 QD-OLED 4K Google TV 顯示器",
+    "price": {
+      "currency": "TWD",
+      "amount": 119900,
+      "converted": 119900,
+      "confidence": "Sony Store 台灣官方購物網站於 2026-09-01 的 exact-model 公開可購價",
+      "basis": "retailer_current"
+    },
+    "installation": {
+      "status": "included_basic",
+      "note": "Sony Store exact-model 頁連到全系列電視精緻安裝說明，包含專人約送、開箱定位、隨附配件安裝／連接、頻道設定、功能測試、操作說明、包材與舊機回收；不含壁掛等特殊安裝方式。"
+    },
+    "image": "https://store.sony.com.tw/resource/product_files/Y-65XR80M2/Y-65XR80M2_pi.jpg",
+    "buyUrl": "https://store.sony.com.tw/product/Y-65XR80M2",
+    "buyLabel": "Sony Store 台灣官方購物網站",
+    "specs": [
+      "65 吋 QD-OLED；4K（3840 x 2160）、原生 120Hz",
+      "XR 認知智慧處理器；XR TRILUMINOS Max、XR Contrast Booster 25",
+      "HDR10、HLG、Dolby Vision；IMAX Enhanced 與 Studio Calibrated 模式",
+      "HDMI 4 組；HDMI 3／4 支援 4K120／VRR／ALLM，eARC 僅 HDMI 3；支援 SBTM",
+      "Google TV；手機投影：Apple AirPlay、Chromecast built-in",
+      "尺寸：不含底座 約 寬 144.3 x 深 3.4 x 高 83.0 cm；含底座（外部）約 寬 144.3 x 深 33.9 x 高 84.4 cm",
+      "重量：不含底座 約 22.9 kg；含底座 約 24.2 kg",
+      "電源：AC 110V／60Hz；待機耗電 0.5W"
+    ],
+    "description": "Sony BRAVIA 8 II 以 QD-OLED、XR 影像處理、Dolby Vision 與螢幕發聲補上台灣 65 吋高階 OLED 比較；Sony Store 已有 exact-model 官方現貨購買頁與 24 個月保固。",
+    "pros": [
+      "QD-OLED、XR 原色顯示 Max 與 XR 對比增強 25 兼顧黑位、色彩體積與電影調校",
+      "Dolby Vision、Apple AirPlay、Chromecast built-in 與 Wi-Fi 6E 規格完整",
+      "台灣官方 exact-model 現售、110V／60Hz、尺寸重量與 24 個月保固證據齊全"
+    ],
+    "cons": [
+      "官方現價 NT$119,900，65 吋入手門檻高",
+      "VRR 集中於 HDMI 3／4，多台高頻寬遊戲設備需先規劃連接埠",
+      "本輪未找到可公開重現、帶日期且條件清楚的可信新品史低"
+    ],
+    "bestFor": "重視電影色彩、OLED 黑位、Sony 影像處理與台灣官方售後，且可接受高階 65 吋預算的家庭劇院使用者。",
+    "recommendation": "高階 QD-OLED 補充推薦：相較既有 BRAVIA 8，8 II 的 QD-OLED 與更新 XR 調校形成實質差異；若不急，因目前沒有可信史低可比，宜先觀察後續公開降價。",
+    "releaseDate": "2025",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-09-01",
+      "note": "已查 Sony Store 台灣官方 exact-model 現售頁、FindPrice、LBJ 與 BigGo exact-model 價格入口；只取得查核日現價或無日期的比價結果，沒有可公開重現、帶日期且能排除會員券、點數、信用卡回饋、福利品、展示機與拆封品的可信新品史低，未以現價推定史低。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-09-01",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Sony Y-65XR80M2\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Sony%20Y-65XR80M2%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Sony Y-65XR80M2\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Sony%20Y-65XR80M2%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "PTT",
+          "query": "site:ptt.cc \"Sony Y-65XR80M2\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22Sony%20Y-65XR80M2%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "ptt.cc"
+        }
+      ]
+    },
+    "score": 93,
+    "voltage": "Sony 台灣官方規格明示 AC 110V／60Hz",
+    "warranty": "Sony Store 台灣官方購物網站標示保固 24 個月",
+    "tags": [
+      "65吋",
+      "QD-OLED",
+      "120Hz",
+      "Dolby Vision",
+      "Google TV",
+      "AirPlay",
+      "Chromecast"
     ]
   }
 ]);

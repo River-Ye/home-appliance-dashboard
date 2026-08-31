@@ -4,10 +4,10 @@
 
   const meta = {
     dataDate: "2026-09-01",
-    costcoDate: "2026-08-31",
+    costcoDate: "2026-09-01",
     expectedCategoryCount: 34,
-    expectedProductCount: 1033,
-    cacheVersion: "20260901-peripherals",
+    expectedProductCount: 1035,
+    cacheVersion: "20260901-230541-catalog",
     exchangeSummary: "USD 1 = TWD 31.649",
   };
 

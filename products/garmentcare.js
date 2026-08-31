@@ -17,9 +17,9 @@
     "name": "LG Styler 第二代蒸氣電子衣櫥 雲霧白",
     "price": {
       "currency": "TWD",
-      "amount": 44010,
-      "converted": 44010,
-      "confidence": "PChome 24h 2026-07-23 exact-model API 公開價，Qty 3"
+      "amount": 43900,
+      "converted": 43900,
+      "confidence": "PChome 2026-09-01 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DPAI1LA900HWRUQ/000001_1762826055.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DPAI1L-A900HWRUQ",
@@ -347,9 +347,9 @@
     "name": "LG Styler 第二代蒸氣電子衣櫥 雪霧白（HandySteamer）",
     "price": {
       "currency": "TWD",
-      "amount": 53010,
-      "converted": 53010,
-      "confidence": "PChome 24h 2026-07-23 exact-model API 公開價"
+      "amount": 52900,
+      "converted": 52900,
+      "confidence": "PChome 2026-09-01 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DPAI1LA900HWRRX/000001_1762826053.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DPAI1L-A900HWRRX",
@@ -563,9 +563,9 @@
     "name": "LG Styler 蒸氣電子衣櫥 奢華鏡面",
     "price": {
       "currency": "TWD",
-      "amount": 39900,
-      "converted": 39900,
-      "confidence": "PChome 2026-08-10 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 37900,
+      "converted": 37900,
+      "confidence": "PChome 2026-09-01 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DPAI1LA900AMBO4/000001_1762826021.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DPAI1L-A900AMBO4",

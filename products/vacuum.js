@@ -113,9 +113,9 @@
     "name": "自動集塵無線吸塵器",
     "price": {
       "currency": "TWD",
-      "amount": 16900,
-      "converted": 16900,
-      "confidence": "PChome 2026-08-21 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 17900,
+      "converted": 17900,
+      "confidence": "PChome 2026-09-01 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAX8KA900HLX9W/000001_1744871467.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAX8K-A900HLX9W",
@@ -882,9 +882,9 @@
     "name": "CordZero A9X 蒸氣濕拖自動集塵無線吸塵器",
     "price": {
       "currency": "TWD",
-      "amount": 25900,
-      "converted": 25900,
-      "confidence": "PChome 2026-08-23 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 26900,
+      "converted": 26900,
+      "confidence": "PChome 2026-09-01 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAX8KA900HLXAQ/000001_1744871444.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAX8K-A900HLXAQ",
@@ -2019,6 +2019,99 @@
           "query": "\"Electrolux WQ71-2BSWF\" problem issue defect failure broken 災情 故障 異常",
           "queryUrl": "https://www.youtube.com/results?search_query=%22Electrolux%20WQ71-2BSWF%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
           "targetHost": "youtube.com"
+        }
+      ]
+    }
+  },
+  {
+    "id": "vacuum-dyson-v8-cyclone-sv55",
+    "category": "vacuum",
+    "rank": 22,
+    "topPick": false,
+    "budget": "balanced",
+    "channel": "tw",
+    "brand": "Dyson",
+    "model": "V8 Cyclone SV55",
+    "name": "V8 Cyclone 無線吸塵器",
+    "price": {
+      "currency": "TWD",
+      "amount": 9900,
+      "converted": 9900,
+      "confidence": "Dyson 台灣官方商城 2026-09-01 exact-model SV55／商品 SKU 630933-01 頁面顯示原價 NT$14,900、特價 NT$9,900、InStock 並可加入購物車；贈品價值不抵減現價",
+      "basis": "retailer_current"
+    },
+    "image": "https://dysonshop.blob.core.windows.net/products/dyson-v8-cyclone-sv55-vacuum-sale/hero-1787682803-480x480.jpg",
+    "buyUrl": "https://shop.dyson.tw/vacuums/cordless-vacuums/dyson-v8-cyclone-sv55-vacuum-sale-630933-01",
+    "buyLabel": "Dyson 台灣官方商城",
+    "installation": {
+      "status": "not_stated",
+      "note": "官方商城未列到府安裝；本品為無線直立／手持吸塵器，使用者需依說明書裝妥吸頭、壁掛充電座並定期清潔集塵筒與濾網。"
+    },
+    "specs": [
+      "類型：乾式無線直立／手持吸塵器；台灣 exact model SV55、Dyson 商品 SKU 630933-01",
+      "最大吸力 150AW；節能／中／強效三段吸力；單鍵電源控制",
+      "最長約 60 分鐘續航；充電最長約 4 小時；電池可拆換",
+      "全機密封過濾系統可捕捉 99.99% 小至 0.3 微米微塵；15 個雙層多圓錐氣旋",
+      "集塵筒 0.54L；機身尺寸 1,150 x 250 x 210mm；淨重 2.37kg",
+      "包裝含 Fluffy 軟絨毛滾筒吸頭、迷你電動吸頭、隙縫清潔吸頭、壁掛架與充電器；2026-09-01 官方頁另贈多功能置物架"
+    ],
+    "description": "V8 Cyclone SV55 是新版 V8 乾式無線主力，將吸力提升至 150AW、續航延長至最長 60 分鐘，並改為單鍵啟動與可換電池；台灣官方現售 Fluffy 組適合想壓在萬元內兼顧硬地板、床墊與寵物毛髮的人。",
+    "pros": [
+      "150AW、最長 60 分鐘與三段模式，比舊 V8 更適合完整居家乾吸",
+      "2.37kg 機身、單鍵啟動與可換電池兼顧操作負擔和續航彈性",
+      "Fluffy 主吸頭與迷你電動吸頭可分別處理硬地板、床墊與寵物毛髮",
+      "台灣官方現貨、110–220V 電力標示、BSMI 與原廠 2 年保固證據完整"
+    ],
+    "cons": [
+      "沒有雷射顯塵、灰塵數量顯示或自動吸力調節等 V12／V15 智慧功能",
+      "官方 NT$9,900 組合只有 Fluffy 主吸頭，沒有電動碳纖維地毯主吸頭",
+      "0.54L 集塵筒仍需手動倒塵，壁掛座也沒有自動集塵",
+      "強效模式續航遠短於 60 分鐘標稱值，實際時間會隨吸頭與地面類型變動",
+      "官網贈品與組合內容可能隨檔期變動，購買前需重新核對"
+    ],
+    "bestFor": "預算約一萬元、以硬地板乾式清潔為主，想要 Dyson 吸力、可換電池與床墊用迷你電動吸頭，但不需要雷射顯塵或自動集塵的家庭。",
+    "recommendation": "萬元內乾吸補強：SV55 以 150AW、最長 60 分鐘和 Fluffy 組補上舊 V8 與 V12 之間的價位帶；沒有地毯主吸頭、智慧偵測與自動集塵，因此不取代目前綜合 Top Pick。",
+    "score": 88,
+    "voltage": "Yahoo購物中心 exact-model SV55 台灣新品頁明示 110–220V、BSMI R31692；以台灣公司貨隨附充電器銘牌為準",
+    "warranty": "Dyson 台灣原廠 2 年保固，官方商城明示包含零件與人工；Yahoo exact-model 新品頁亦標示原廠 2 年保固",
+    "tags": [
+      "150AW",
+      "60 分鐘",
+      "可換電池",
+      "Fluffy 吸頭",
+      "台灣公司貨"
+    ],
+    "releaseDate": "2025-09-05",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-09-01",
+      "note": "已查 Dyson 台灣官方商城、momo、PChome、Yahoo購物中心、LINE 購物與飛比 exact-model SV55；官方 Fluffy 組只能確認本輪 NT$9,900 公開特價，頁面未列可重現的最低點日期。排除 momo 滿件折 NT$1,000、Yahoo 券／會員價、遠傳門號方案價、福利品 NT$8,999 與不同吸頭／贈品組，現價不得直接推定為史低。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-09-01",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Dyson V8 Cyclone SV55\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Dyson%20V8%20Cyclone%20SV55%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Dyson V8 Cyclone SV55\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Dyson%20V8%20Cyclone%20SV55%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
         }
       ]
     }

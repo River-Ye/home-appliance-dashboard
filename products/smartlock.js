@@ -1457,9 +1457,9 @@
     "name": "A100 智能門鎖",
     "price": {
       "currency": "TWD",
-      "amount": 13327,
-      "converted": 13327,
-      "confidence": "PChome 2026-08-23 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 13599,
+      "converted": 13599,
+      "confidence": "PChome 2026-09-01 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBS4NA900I8573/000001_1749627194.png",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBS4N-A900I8573",

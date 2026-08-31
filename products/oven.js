@@ -17,9 +17,9 @@
     "name": "27L 蒸烘烤微波爐",
     "price": {
       "currency": "TWD",
-      "amount": 14000,
-      "converted": 14000,
-      "confidence": "PChome 2026-08-02 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 14310,
+      "converted": 14310,
+      "confidence": "PChome 2026-09-01 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBJ02A900G62BM/000001_1756899692.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBJ02-A900G62BM",
@@ -706,9 +706,9 @@
     "name": "30L 蒸氣烘烤微波爐",
     "price": {
       "currency": "TWD",
-      "amount": 27342,
-      "converted": 27342,
-      "confidence": "PChome 24h 2026-08-26 exact-model 公開折扣價"
+      "amount": 29610,
+      "converted": 29610,
+      "confidence": "PChome 2026-09-01 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBJ7P1900HCI3E/000001_1782972848.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBJ02-A900FP6N8",

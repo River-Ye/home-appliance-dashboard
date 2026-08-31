@@ -68,7 +68,7 @@
 
 ## GEO / AI 搜尋規則
 
-- 網站由現有 34 類資料產生 34 個 `/categories/<id>/` 靜態分類指南頁；不建立 1033 個重複商品事實的薄內容頁。
+- 網站由現有 34 類資料產生 34 個 `/categories/<id>/` 靜態分類指南頁；不建立 1035 個重複商品事實的薄內容頁。
 - 每個分類指南的初始 HTML 必須含該類全部商品的品牌、完整型號、名稱、參考價、價格基準、上市／發售日期與摘要；前 5 名繼續顯示完整評估卡。
 - `tools/category-guides.js` 只維護分類層級的繁中導讀、3 項選購條件與 3 組 FAQ；商品名稱、價格、排名、規格、史低與負評仍從既有商品資料產生，避免第二套事實來源。
 - 站名、首頁 title、description、H1 與 AI 揭露集中在 `tools/geo-config.js`；首頁 metadata、JSON-LD、分類頁與 `llms.txt` 必須共用此契約。首頁與分類頁首屏皆需可見 AI 協作、資料日期、查核方法與 GitHub 原始碼。
@@ -81,10 +81,10 @@
 
 ## 目前資料規模
 
-- 共 34 類、1033 筆商品。
+- 共 34 類、1035 筆商品。
 - 所有分類每類至少 20 筆；新增分類或補資料時不可讓任何分類低於 20 筆。
 - 特殊分類目前數量：
-  - `電視`：35 筆，其中 5 筆為 exact 70 吋，需涵蓋主流顯示技術與可信台灣新品通路。
+  - `電視`：36 筆，其中 5 筆為 exact 70 吋，需涵蓋主流顯示技術與可信台灣新品通路。
   - `Soundbar`：33 筆，需涵蓋不同聲道、擴充方式與空間需求。
   - `掃拖機器人`：43 筆，需涵蓋知名品牌旗艦與次旗艦。
   - `無線路由器`：52 筆，只收 Wi-Fi 6 以上，Mesh/多 AP/商用管理支援要寫清楚。
@@ -200,7 +200,7 @@
 - 電壓明顯不適合台灣者不可列為 Top Pick。
 - 使用者曾要求「全網最低價」，實作上要以可信通路與同型號可查低價為準；不要為了低價改放不可信網站或非新品頁。
 - 新增商品的 `price.basis` 只允許 `retailer_current` 或 `official_suggested`；後者必須顯示「建議售價／查看官方資料」，不可被卡片、史低或 maintenance 文案稱為通路現價。`installation.status` 只允許 `included_basic`、`excluded`、`not_stated`，並須用 `installation.note` 說明邊界與可能加價。
-- 日系品牌固定盤點 Sony、Panasonic、HITACHI、Mitsubishi Electric、Daikin、GENERAL、Rinnai、Noritz、TOTO；`Hitachi` 統一為 `HITACHI`，`Mitsubishi` 只在確認為 Mitsubishi Electric 時收錄，GENERAL 可接受 Fujitsu General alias，TOTO 不得誤中 TOTOLINK。34 類 × 9 品牌的完整 `japaneseBrandReview` 保存在 `catalog_maintenance_latest.json`，不新增第七份公開 audit JSON；本次只新增 27 格，原 279 格與日期原樣承接，不宣稱 306 格同日重查，也不把未知分類的預設值當研究結論。
+- 日系品牌固定盤點 Sony、Panasonic、HITACHI、Mitsubishi Electric、Daikin、GENERAL、Rinnai、Noritz、TOTO；`Hitachi` 統一為 `HITACHI`，`Mitsubishi` 只在確認為 Mitsubishi Electric 時收錄，GENERAL 可接受 Fujitsu General alias，TOTO 不得誤中 TOTOLINK。34 類 × 9 品牌的完整 `japaneseBrandReview` 保存在 `catalog_maintenance_latest.json`，不新增第七份公開 audit JSON。2026-09-01 01:56 的周邊增量批次只新增 27 格、原 279 格與日期原樣承接；只有完成全量逐類核對的批次才可將 306 格標為同日，不把未知分類的預設值當研究結論。
 - 商品內容若有「排除福利/展示/拆封品」等說明文字是允許的，但商品名稱、型號與購買頁本身不能是這類商品。
 - 每筆商品都必須標示 `releaseDate`，代表上市/發售日期；若可信通路或品牌頁找不到明確日期，需填「找不到」，不要用評論日期、促銷日期、上架日或型號年份猜測。
 - 日期查核需保留 `release_date_research.json` 證據檔；非「找不到」項目必須有 `sourceUrl`、`sourceTitle`、`evidenceSnippet` 與 `confidence`，且 `releaseDate` 只能使用 `YYYY-MM-DD`、`YYYY-MM`、`YYYY`。
@@ -395,10 +395,10 @@
 ## 價格與匯率
 
 <!-- catalog-maintenance-summary:start -->
-- 2026-09-01 01:56（台灣時間）完成 90 款新增商品查核；目前共 34 類、1033 筆商品，原 943 筆沿用 2026-08-31 的證據，沒有重新查價或修改舊商品。
-- 本次增量新增 keyboard-asus-rog-azoth-extreme、keyboard-asus-tuf-k3-gen-ii、keyboard-corsair-k70-core-mlx-red、keyboard-ducky-tinker-75、keyboard-hyperx-alloy-rise-75、keyboard-keychron-b1-pro、keyboard-keychron-k2-he-special-black、keyboard-keychron-k3-max、keyboard-keychron-v6-max、keyboard-logitech-alto-k98m、keyboard-logitech-g515-lightspeed-tkl-tactile、keyboard-logitech-g915-x-wired-tactile、keyboard-logitech-k120、keyboard-logitech-k250、keyboard-logitech-k380s、keyboard-logitech-k580、keyboard-logitech-mx-keys-mini、keyboard-logitech-mx-keys-s、keyboard-logitech-mx-mechanical-tactile、keyboard-logitech-pop-icon-keys、keyboard-logitech-pro-x-tkl-rapid、keyboard-logitech-signature-k650、keyboard-logitech-wave-keys、keyboard-msi-gk41-dusk-lr-tc、keyboard-nuphy-air75-v3-brown、keyboard-razer-huntsman-v3-pro-tkl、keyboard-razer-ornata-v3-x、keyboard-sony-kbd-g900、keyboard-steelseries-apex-pro-tkl-gen3、keyboard-wooting-80he-l60-v2、mouse-logitech-ergo-m575s、mouse-logitech-g102-lightsync、mouse-logitech-g304、mouse-logitech-g309、mouse-logitech-g403-hero、mouse-logitech-g502-hero、mouse-logitech-g502-x-lightspeed、mouse-logitech-g703-hero、mouse-logitech-lift、mouse-logitech-m185、mouse-logitech-m190、mouse-logitech-m240、mouse-logitech-m331、mouse-logitech-m350s、mouse-logitech-m650、mouse-logitech-m720、mouse-logitech-m750、mouse-logitech-mx-anywhere-3s、mouse-logitech-mx-ergo-s、mouse-logitech-mx-master-4、mouse-logitech-mx-vertical、mouse-logitech-pop-mouse、mouse-logitech-pro-x-superlight-2、mouse-logitech-pro-x-superlight-2-dex、mouse-razer-basilisk-v3、mouse-razer-basilisk-v3-pro-35k、mouse-razer-cobra、mouse-razer-deathadder-v4-pro、mouse-razer-viper-v3-pro、mouse-sony-mse-g500、mousepad-asus-hone-control-ace-l、mousepad-asus-moonstone-ace-l、mousepad-asus-scabbard-ii-xxl、mousepad-asus-sheath-ii-xxl、mousepad-asus-strix-slice、mousepad-darkflash-dmp300、mousepad-elecom-mp-lmwbk、mousepad-hp-205、mousepad-ikea-blaskata、mousepad-kinyo-mp30、mousepad-logitech-aurora、mousepad-logitech-desk-mat-studio、mousepad-logitech-g240、mousepad-logitech-g440、mousepad-logitech-g640、mousepad-logitech-g740、mousepad-logitech-g840、mousepad-logitech-mouse-pad-studio、mousepad-razer-atlas、mousepad-razer-firefly-v2-pro、mousepad-razer-gigantus-v2-xxl、mousepad-razer-pro-glide、mousepad-razer-pro-glide-xxl、mousepad-razer-strider-chroma、mousepad-sony-mpd-d700、mousepad-sony-mpd-f900、mousepad-steelseries-qck-heavy-xxl、mousepad-steelseries-qck-performance-speed-l、mousepad-zowie-g-sr-iii、mousepad-zowie-g-sr-se-rouge-ii；沒有移除或替換商品。既有逐類與日系品牌覆核保留原內容及日期，只補查新增分類；所有分類至少 20 筆。
-- 本輪來源與圖片查核限新增 90 款；累積來源／圖片覆蓋 1033／1033 筆，包含沿用的舊查核與例外。史低累積 502 筆 `found`、531 筆 `not_found`；既有逐筆證據與查核日期保留，累積覆蓋不代表本輪重新查核。
-- 匯率沿用 ExchangeRate-API 2026-08-31 00:02 UTC，USD/TWD 31.649299；本輪未重抓匯率，既有外幣價格未重算，新增海外款使用同一保留匯率換算。完整摘要、不可變基準與例外保存在 `catalog_maintenance_latest.json`。
+- 2026-09-01 07:05（台灣時間）完成 1035 筆商品、34 類全量查核；486 筆 PChome SKU API 已完成（277 筆 exact model、67 筆人工 SKU 綁定可寫入，65 筆型號未自動確認），更新 116 筆公開價格（81 筆下修、35 筆上修），52 筆 Qty 0 只列追蹤。
+- 本次增量新增 tv-sony-xr80m2-65、vacuum-dyson-v8-cyclone-sv55；本次增量沒有移除停產產品。逐類人工新品覆核已完成，所有分類至少 20 筆；停產只採品牌官方明確證據，缺貨、反爬或單次連線錯誤不作為刪除依據。
+- 圖片查核覆蓋 1035 筆；761 筆來源可由 exact model 或人工 SKU 綁定確認，274 筆來源例外與 0 筆圖片例外保留原資料。史低為 502 筆 `found`、533 筆 `not_found`，本輪下修 3 筆；135 筆來源可自動重現，其餘保留原逐筆證據且未臆測失效。
+- ExchangeRate-API 最新批次為 2026-08-31 00:02 UTC，USD/TWD 31.649299；38 筆外幣商品已重算。完整摘要與例外保存在 `catalog_maintenance_latest.json`。
 <!-- catalog-maintenance-summary:end -->
 
 ## 驗證清單
@@ -409,7 +409,7 @@
 - `npm run check:logic`：純邏輯回歸，涵蓋排序、品牌依分類限制、史低／負評文案、問題摘要搜尋、來源 URL 安全、HTML escape 與 product-loader URL/錯誤。
 - `npm run check:data`：商品總數、分類數、必要欄位、日期格式、負評逐型號人工覆核、逐位反映者與研究檔對齊、重複 URL 與重複型號檢查通過。
 - `npm run check:docs`：README、AGENTS、index/config 的商品數、分類數、日期與 cache version 不漂移。
-- `npm run check:geo`：34 個分類頁、1033 款靜態型號索引、metadata、結構化資料、首頁分類入口、sitemap、llms、六份公開證據檔、Pages artifact、35 個 canonical URL 的 IndexNow contract 與產生結果均無漂移。
+- `npm run check:geo`：34 個分類頁、1035 款靜態型號索引、metadata、結構化資料、首頁分類入口、sitemap、llms、六份公開證據檔、Pages artifact、35 個 canonical URL 的 IndexNow contract 與產生結果均無漂移。
 - `npm run check:ui`：桌機與手機版主要互動流程通過。
 - `npm run check:quality`：Lighthouse 的 Performance、LCP、CLS、Accessibility 與 SEO 採瀏覽器行動 throttling，TBT 採 Lantern 標準化模擬；首頁 Performance ≥ 90、LCP ≤ 2.5s、CLS ≤ 0.1、TBT ≤ 200ms、Accessibility = 100、SEO ≥ 95；代表分類頁 Performance、Accessibility、SEO 均 ≥ 95。
 - 商品總數仍符合 README 與分類 tab 顯示。

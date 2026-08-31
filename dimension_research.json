@@ -7609,6 +7609,23 @@
       "weightConfidence": "not_found",
       "weightIsOfficialSource": false,
       "weightCheckedAt": "2026-08-31"
+    },
+    {
+      "id": "tv-sony-xr80m2-65",
+      "dimension": "尺寸：不含底座 約 寬 144.3 x 深 3.4 x 高 83.0 cm；含底座（外部）約 寬 144.3 x 深 33.9 x 高 84.4 cm",
+      "sourceUrl": "https://www.sony.com.tw/zh/electronics/support/televisions-projectors-monitors/y-65xr80m2/specifications",
+      "sourceTitle": "Y-65XR80M2 規格 | Sony TW",
+      "evidenceSnippet": "Sony 台灣官方規格列出不含底座約 1443 x 830 x 34 mm，含底座外部位置約 1443 x 844 x 339 mm（寬 x 高 x 深）；未採包裝尺寸。",
+      "confidence": "high",
+      "isOfficialSource": true,
+      "checkedAt": "2026-09-01",
+      "weight": "重量：不含底座 約 22.9 kg；含底座 約 24.2 kg",
+      "weightSourceUrl": "https://www.sony.com.tw/zh/electronics/support/televisions-projectors-monitors/y-65xr80m2/specifications",
+      "weightSourceTitle": "Y-65XR80M2 規格 | Sony TW",
+      "weightEvidenceSnippet": "Sony 台灣官方規格列出不含底座架約 22.9 kg、附底座電視約 24.2 kg；未採包裝紙箱重量約 32 kg。",
+      "weightConfidence": "high",
+      "weightIsOfficialSource": true,
+      "weightCheckedAt": "2026-09-01"
     }
   ]
 }

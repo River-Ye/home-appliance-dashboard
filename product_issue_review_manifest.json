@@ -16447,6 +16447,57 @@
       "candidateReviews": []
     },
     {
+      "id": "vacuum-dyson-v8-cyclone-sv55",
+      "category": "vacuum",
+      "brand": "Dyson",
+      "model": "V8 Cyclone SV55",
+      "reviewedAt": "2026-09-01",
+      "reviewBatch": "vacuum",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "Reddit",
+        "Mobile01",
+        "Yahoo購物中心"
+      ],
+      "queries": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Dyson V8 Cyclone SV55\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Dyson%20V8%20Cyclone%20SV55%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Dyson V8 Cyclone SV55\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Dyson%20V8%20Cyclone%20SV55%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        }
+      ],
+      "candidateDisposition": "V8 Cyclone SV55：2026-09-01 逐頁開啟 Yahoo購物中心 exact-model 評價，4 位評價身分中只有 1 位留下到貨機體刮傷文字；Reddit、Mobile01 查詢未發現其他可確認原頁，未達同一問題至少 6 人且跨 2 個原始網站門檻（不代表完全沒有負評）。",
+      "representativeSources": [
+        {
+          "platform": "Yahoo購物中心",
+          "title": "Dyson 戴森 V8 Cyclone SV55 無線吸塵器 贈副廠架+電動地毯吸頭 | Yahoo購物中心",
+          "url": "https://tw.buy.yahoo.com/gdsale/Dyson-%E6%88%B4%E6%A3%AE-V8-Cyclone-SV55-%E7%84%A1%E7%B7%9A%E5%90%B8%E5%A1%B5%E5%99%A8-%E8%B4%88%E5%89%AF%E5%BB%A0%E6%9E%B6-%E5%BA%8A%E5%A2%8A%E5%90%B8%E9%A0%AD-11978619.html"
+        }
+      ],
+      "reviewerNote": "V8 Cyclone SV55：2026-09-01 逐頁開啟 Yahoo購物中心 exact-model 評價，4 位評價身分中只有 1 位留下到貨機體刮傷文字；Reddit、Mobile01 查詢未發現其他可確認原頁，未達同一問題至少 6 人且跨 2 個原始網站門檻（不代表完全沒有負評）。",
+      "attestation": "manual_original_pages_reviewed",
+      "candidateReviews": [
+        {
+          "url": "https://tw.buy.yahoo.com/gdsale/Dyson-%E6%88%B4%E6%A3%AE-V8-Cyclone-SV55-%E7%84%A1%E7%B7%9A%E5%90%B8%E5%A1%B5%E5%99%A8-%E8%B4%88%E5%89%AF%E5%BB%A0%E6%9E%B6-%E5%BA%8A%E5%A2%8A%E5%90%B8%E9%A0%AD-11978619.html",
+          "title": "Dyson 戴森 V8 Cyclone SV55 無線吸塵器 贈副廠架+電動地毯吸頭 | Yahoo購物中心",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-09-01",
+          "sourceExcerpt": "Yahoo exact-model SV55 原頁的作者「雅」於 2026/02/13 留下第一人稱文字「機體有刮傷！！！」，廠商回覆請聯絡客服；其餘可見評價沒有同一刮傷文字回報。",
+          "independentAuthors": 1,
+          "specificReason": "原頁只有 1 位可辨識作者回報到貨機體刮傷，未形成同一問題至少 6 位獨立使用者，且沒有第二個原始網站的同問題回報。",
+          "platform": "Yahoo購物中心"
+        }
+      ]
+    },
+    {
       "id": "vacuum-costco-iris-hcd-22mw",
       "category": "vacuum",
       "brand": "IRIS OHYAMA",
@@ -79759,6 +79810,79 @@
         }
       ],
       "reviewBatch": "mousepad"
+    },
+    {
+      "id": "tv-sony-xr80m2-65",
+      "category": "tv",
+      "brand": "Sony",
+      "model": "Y-65XR80M2",
+      "reviewedAt": "2026-09-01",
+      "reviewBatch": "tv",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "Reddit",
+        "Mobile01",
+        "PTT"
+      ],
+      "queries": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Sony Y-65XR80M2\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Sony%20Y-65XR80M2%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Sony Y-65XR80M2\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Sony%20Y-65XR80M2%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "PTT",
+          "query": "site:ptt.cc \"Sony Y-65XR80M2\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22Sony%20Y-65XR80M2%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "ptt.cc"
+        }
+      ],
+      "candidateDisposition": "Y-65XR80M2：完成 Reddit、Mobile01、PTT exact-model 查詢並回到兩個候選原頁人工覆核；Mobile01 是評測／價格與上市討論，PTT 是業代現售清單，均無第一人稱故障回報，未形成同一問題至少 6 人且跨 2 個原始網站門檻（不代表完全沒有負評）。",
+      "representativeSources": [
+        {
+          "url": "https://www.mobile01.com/topicdetail.php?f=347&t=7126530",
+          "title": "Rtings SONY BRAVIA 8 II Review發布 - Mobile01",
+          "platform": "Mobile01"
+        },
+        {
+          "url": "https://www.ptt.cc/bbs/Digitalhome/M.1782915983.A.508.html",
+          "title": "[業代] LG電視家電 SONY電視 - PTT Digitalhome",
+          "platform": "PTT"
+        }
+      ],
+      "reviewerNote": "Y-65XR80M2：完成 Reddit、Mobile01、PTT exact-model 查詢並回到兩個候選原頁人工覆核；Mobile01 是評測／價格與上市討論，PTT 是業代現售清單，均無第一人稱故障回報，未形成同一問題至少 6 人且跨 2 個原始網站門檻（不代表完全沒有負評）。",
+      "attestation": "manual_original_pages_reviewed",
+      "candidateReviews": [
+        {
+          "url": "https://www.mobile01.com/topicdetail.php?f=347&t=7126530",
+          "title": "Rtings SONY BRAVIA 8 II Review發布 - Mobile01",
+          "platform": "Mobile01",
+          "exactModel": true,
+          "independentAuthors": 0,
+          "sourceExcerpt": "原串討論 RTINGS 對 BRAVIA 8 II 的測試、SDR／HDR 亮度、價格與台灣是否上市；留言提到 Sony 台灣支援頁的 Y-65XR80M2，但沒有作者自述持有該台灣型號後發生故障。",
+          "specificReason": "雖能確認 exact Taiwan model 在原頁出現，內容屬評測、價格與上市資訊討論，沒有可計入的 Y-65XR80M2 第一人稱故障回報。",
+          "outcome": "excluded",
+          "reviewedAt": "2026-09-01"
+        },
+        {
+          "url": "https://www.ptt.cc/bbs/Digitalhome/M.1782915983.A.508.html",
+          "title": "[業代] LG電視家電 SONY電視 - PTT Digitalhome",
+          "platform": "PTT",
+          "exactModel": true,
+          "independentAuthors": 0,
+          "sourceExcerpt": "boma3958 的業代文列出 Y-65XR80M2 NT$119,900、原廠公司貨全機保固 2 年與到府安裝後付款，全文沒有使用後問題或故障敘述。",
+          "specificReason": "原頁是 exact-model 銷售清單，不是使用者問題回報；沒有可計入的第一人稱故障作者，也不能以在售或保固資訊推定完全沒有負評。",
+          "outcome": "excluded",
+          "reviewedAt": "2026-09-01"
+        }
+      ]
     }
   ]
 }

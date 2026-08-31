@@ -1655,10 +1655,10 @@ async function main() {
   );
   assert(
     updateReadmeMetadata(
-      "純前端靜態頁面，整理 2026-07-22 查核的家電推薦清單。",
-      { dataDate: "2026-07-23" },
-    ) === "純前端靜態頁面，整理 2026-07-23 查核的家電推薦清單。",
-    "maintenance metadata sync should refresh the README overview date",
+      "純前端靜態頁面，整理 2026-07-22 查核的家電推薦清單。\n- 共 26 類商品，每種商品至少 20 個，共 707 筆。\n不為 707 筆商品建立重複、薄內容的獨立頁面。",
+      { dataDate: "2026-07-23", expectedCategoryCount: 27, expectedProductCount: 729 },
+    ) === "純前端靜態頁面，整理 2026-07-23 查核的家電推薦清單。\n- 共 27 類商品，每種商品至少 20 個，共 729 筆。\n不為 729 筆商品建立重複、薄內容的獨立頁面。",
+    "maintenance metadata sync should refresh the README date and catalog counts",
   );
   assert(
     renderMaintenanceSummary({

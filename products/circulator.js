@@ -388,9 +388,9 @@
     "name": "62-TW 黑色渦流空氣循環扇",
     "price": {
       "currency": "TWD",
-      "amount": 3880,
-      "converted": 3880,
-      "confidence": "PChome 2026-07-23 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 3414,
+      "converted": 3414,
+      "confidence": "PChome 2026-09-01 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAB3XA900IIGO1/000001_1765272569.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAB3X-A900IIGO1",
@@ -676,9 +676,9 @@
     "name": "FLYMAX-TW 破風渦流空氣循環扇",
     "price": {
       "currency": "TWD",
-      "amount": 5922,
-      "converted": 5922,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 5211,
+      "converted": 5211,
+      "confidence": "PChome 2026-09-01 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAB3XA900JY5I9/000001_1777019492.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAB3X-A900JY5I9",
@@ -711,16 +711,16 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 5329,
+      "amount": 5211,
       "currency": "TWD",
-      "converted": 5329,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1274404632&cgp=5625",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：【VORNADO 沃拿多】VORNADO沃拿多美國 FLYMAX-TW 破風渦流空氣循環扇",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / 【VORNADO 沃拿多】VORNADO沃拿多美國 FLYMAX-TW 破風渦流空氣循環扇」最低價為 NT$5,329，最低點日期 2026-06-18。",
-      "sourceKind": "price_history",
-      "confidence": "high",
-      "checkedAt": "2026-07-09",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+      "converted": 5211,
+      "sourceUrl": "https://24h.pchome.com.tw/prod/DMAB3X-A900JY5I9",
+      "sourceTitle": "PChome 24h 購物：美國VORNADO沃拿多 FLYMAX-TW 破風渦流空氣循環扇",
+      "evidenceSnippet": "PChome 24h 購物於 2026-09-01 顯示同型號可信新品公開價 NT$5,211，低於既有史低 NT$5,329。",
+      "sourceKind": "retailer_page",
+      "confidence": "medium",
+      "checkedAt": "2026-09-01",
+      "note": "採用 PChome 24h 購物當日可購商品的同型號新品公開價；不含會員券、點數、信用卡回饋、二手、福利、展示、拆封或整新品。"
     },
     "issueResearch": {
       "status": "no_common_issue",
