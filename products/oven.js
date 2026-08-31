@@ -115,10 +115,10 @@
     "name": "26L 8 合 1 變頻氣炸蒸烤微波爐",
     "price": {
       "currency": "TWD",
-      "amount": 17766,
-      "converted": 17766,
+      "amount": 17955,
+      "converted": 17955,
       "basis": "retailer_current",
-      "confidence": "Yahoo購物中心 2026-08-31 10:33 人工核對賣場11705976、MWP269TMT雲霧白新品；公開滿888享94折，單件達門檻，活動折後NT$17,766，活動細則至2026-08-31 11:59截止。未扣點數、信用卡或個人化回饋；促銷結束後需重新確認。"
+      "confidence": "2026-08-31 16:38 台灣時間人工核對Yahoo同SKU11705976雲霧白MWP269TMT，公開95折主價NT$17,955（原NT$18,900），單台達滿699門檻；活動浮層至2026-09-15 09:59，立即購買與加入購物車可用。排除已到期94折、點數及銀行回饋。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBJ02A900J1WEX/000001_1753093870.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/Whirlpool%E6%83%A0%E8%80%8C%E6%B5%A6-Coloris%E7%B3%BB%E5%88%97-26%E5%85%AC%E5%8D%878%E5%90%88%E4%B8%80%E5%85%A8%E8%83%BD%E8%AE%8A%E9%A0%BB%E6%B0%A3%E7%82%B8%E8%92%B8%E7%83%A4%E5%BE%AE%E6%B3%A2%E7%88%90-%E9%9B%B2%E9%9C%A7%E7%99%BD-MWP2-11705976.html",
@@ -998,9 +998,9 @@
     "name": "25 公升獨立式蒸烤爐",
     "price": {
       "currency": "TWD",
-      "amount": 9400,
-      "converted": 9400,
-      "confidence": "Yahoo購物中心 2026-07-21 頁面公開價"
+      "amount": 9500,
+      "converted": 9500,
+      "confidence": "2026-08-31 16:32 台灣時間人工核對Yahoo同SKU9918063 WSO2500B，公開95折主價NT$9,500（原NT$9,999），單台達滿699門檻；活動浮層至2026-09-15 09:59，立即購買與加入購物車可用。排除點數、贈品及銀行回饋。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBJ6QA900EO5DH/000001_1704094465.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/Whirlpool%E6%83%A0%E8%80%8C%E6%B5%A6-25%E5%85%AC%E5%8D%87%E7%8D%A8%E7%AB%8B%E5%BC%8F%E8%92%B8%E7%83%A4%E7%88%90-WSO2500B-9918063.html",
@@ -1684,9 +1684,9 @@
     "name": "過熱水蒸氣烘烤微波爐",
     "price": {
       "currency": "TWD",
-      "amount": 22908,
-      "converted": 22908,
-      "confidence": "Yahoo購物中心 2026-08-31 exact-model 公開結構化價格"
+      "amount": 21763,
+      "converted": 21763,
+      "confidence": "Yahoo購物中心 2026-08-31 下午人工核對 MROS800AT 公開95折現價 NT$21,763，單台達滿699門檻；活動至2026-09-15 09:59，未扣點數或銀行回饋。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBJ031900I80DM/000001_1778655849.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/HITACHI-%E6%97%A5%E7%AB%8B-%E9%81%8E%E7%86%B1%E6%B0%B4%E8%92%B8%E6%B0%A3%E7%83%98%E7%83%A4%E5%BE%AE%E6%B3%A2%E7%88%90-%E7%88%B5%E8%89%B2%E9%BB%91-MROS800AT-11995105.html",
@@ -1782,9 +1782,9 @@
     "name": "過熱水蒸氣烘烤微波爐",
     "price": {
       "currency": "TWD",
-      "amount": 48668,
-      "converted": 48668,
-      "confidence": "Yahoo購物中心 2026-08-31 exact-model 公開結構化價格"
+      "amount": 46235,
+      "converted": 46235,
+      "confidence": "Yahoo購物中心 2026-08-31 下午人工核對 MROBK5000AT 公開95折現價 NT$46,235，單台達滿699門檻；活動至2026-09-15 09:59，未扣點數或銀行回饋。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBJ5PA900GN8PM/000001_1750840663.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/HITACHI-%E6%97%A5%E7%AB%8B-%E9%81%8E%E7%86%B1%E6%B0%B4%E8%92%B8%E6%B0%A3%E7%83%98%E7%83%A4%E5%BE%AE%E6%B3%A2%E7%88%90-MROBK5000AT-11995474.html",

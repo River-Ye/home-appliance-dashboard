@@ -113,9 +113,9 @@
     "name": "16 吋自動除菌離子 DC 電風扇",
     "price": {
       "currency": "TWD",
-      "amount": 3125,
-      "converted": 3125,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 3890,
+      "converted": 3890,
+      "confidence": "PChome 2026-08-31 exact-model API 與 Chrome 主商品公開現價 NT$3,890，主購買控制可用。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMABPEA900JYOWP/000001_1779868844.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMABPM-A900K2ITT",

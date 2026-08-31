@@ -1,37 +1,16 @@
 {
   "summary": {
     "checkedAt": "2026-08-31T00:00:00+08:00",
-    "total": 921,
-    "found": 266,
-    "missing": 655,
+    "total": 923,
+    "found": 267,
+    "missing": 656,
     "byConfidence": {
-      "official": 178,
-      "not_found": 655,
+      "official": 179,
+      "not_found": 656,
       "retailer_explicit": 22,
       "credible_article": 52,
       "high": 12,
       "medium": 2
-    },
-    "fullRecheck": {
-      "productsReviewed": 914,
-      "existingDatedRechecked": 265,
-      "previouslyMissingResearched": 649,
-      "unchanged": 752,
-      "correctedExistingDates": 69,
-      "newlyFound": 48,
-      "downgradedToNotFound": 47,
-      "excludedDateKinds": [
-        "preorder",
-        "listing_or_stock",
-        "promotion",
-        "article_publication_without_release_statement",
-        "support_manual_firmware_or_driver",
-        "certification",
-        "model_year_inference",
-        "search_summary"
-      ],
-      "minimumQueriesPerProduct": 2,
-      "queriesRecorded": 1967
     }
   },
   "results": [
@@ -1772,6 +1751,28 @@
           "outcome": "The current trusted exact-model Taiwan retail page confirms the product but provides no explicit launch or first-sale statement; listing and promotion dates were excluded."
         }
       ]
+    },
+    {
+      "id": "soundbar-asus-rog-gjallar",
+      "category": "soundbar",
+      "brand": "ASUS",
+      "model": "ROG Gjallar",
+      "name": "ROG Gjallar 2.1.2 聲道電競 Soundbar 與無線重低音",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "2026-07",
+      "sourceUrl": "https://rog.asus.com/tw/articles/product-news/4cec56f8-2f9d-40b8-8e35-29489f9d7f81/",
+      "sourceTitle": "YBSG！ROG旗艦Soundbar、搖桿勁勢登台 解鎖地表最強物理外掛！",
+      "evidenceSnippet": "2026年7月的台灣官方發表稿明示ROG Gjallar預計本月下旬於全台通路同步上市，因此僅採2026-07、不採文章Jul10或活動Jul9為上市日。當前PChome已可購，Mobile01原開箱亦述七月底剛上市作交叉核對。",
+      "confidence": "official",
+      "sourceKind": "official_launch_announcement",
+      "query": "\"ROG Gjallar\" 上市 發售 開賣",
+      "auditQueries": [
+        "\"ROG Gjallar\" release date launch available",
+        "\"ROG Gjallar\" 上市 發售 開賣"
+      ],
+      "reason": "官方明示台灣上市月份；日期精度只保留YYYY-MM，不使用文章日、手冊日期或通路上架日。",
+      "checkedAt": "2026-08-31",
+      "auditDisposition": "added"
     },
     {
       "id": "fan-panasonic-fh16",
@@ -7126,6 +7127,104 @@
       "reason": "Credible exact-name launch report plus official regional-model mapping supports the year only.",
       "checkedAt": "2026-08-28",
       "auditDisposition": "retained"
+    },
+    {
+      "id": "robot-hitachi-rv-x20p",
+      "category": "robot",
+      "brand": "HITACHI",
+      "model": "RV-X20P",
+      "name": "LDS 雷射濕拖掃地機器人（香檳金／無自動集塵）",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "query": "\"RV-X20P\" \"上市\"",
+      "sourceKind": "not_found_after_manual_review",
+      "reason": "已查日立台灣 exact-model 產品／規格及官方說明書，並搜尋明確上市或發售公告。官方頁未明載發售日；說明書檔名240828、2025年目錄、Mobile01開箱發布或擁有日期、通路上架／新品標籤都不是正式上市證據，不推定年月。",
+      "checkedAt": "2026-08-31",
+      "auditDisposition": "confirmed_not_found",
+      "checkedSources": [
+        {
+          "url": "https://hitachi-homeappliances.com.tw/products/products_feature.php?pid=RVX20P",
+          "title": "HITACHI 台灣 RV-X20P 產品特色與規格",
+          "outcome": "確認現行 exact model、配件及功能；未明載上市日期。"
+        },
+        {
+          "url": "https://hitachi-homeappliances.com.tw/products/products_compare.php?gid=B05&prod=RVX20P",
+          "title": "HITACHI 台灣 RV-X20P 規格比較",
+          "outcome": "確認規格及建議售價，不把現行產品列示視為發售公告。"
+        },
+        {
+          "url": "https://hitachi-homeappliances.com.tw/image/hsct/service/download/manual/RV-X20P%20%28EN-TW%29_240828.pdf",
+          "title": "HITACHI RV-X20P 官方中英文說明書",
+          "outcome": "下載、文字核對並渲染第46–47頁；檔名日期不可當上市日。"
+        },
+        {
+          "url": "https://www.3cu.com.tw/products/rvx20prvx20p",
+          "title": "信源電器 RV-X20P/RVX20P exact-model 商品頁",
+          "outcome": "確認公開NT$6,099及現貨香檳金變體3件；售完為止只是售罄截止描述，沒有正式上市日期。"
+        },
+        {
+          "url": "https://www.rakuten.com.tw/shop/ss3c/product/RV-X20P/",
+          "title": "樂天秀翔 RV-X20P exact SKU",
+          "outcome": "確認現售新品價格與庫存，並無可採用上市日期。"
+        },
+        {
+          "url": "https://www.mobile01.com/topicdetail.php?f=728&t=7134766",
+          "title": "日立掃地機器人RV-X20P開箱",
+          "outcome": "2025-06-20開箱及一個多月使用敘述只能證明當時持有，不作上市日。"
+        }
+      ],
+      "auditQueries": [
+        "\"HITACHI\" \"RV-X20P\" 上市 發售",
+        "\"RV-X20P\" \"上市\" \"日立\""
+      ]
+    },
+    {
+      "id": "robot-hitachi-rv-x20dpa",
+      "category": "robot",
+      "brand": "HITACHI",
+      "model": "RV-X20DPA",
+      "name": "LDS 雷射自動集塵濕拖掃地機器人（香檳金／4L 集塵站）",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "query": "\"RV-X20DPA\" 上市 發售",
+      "sourceKind": "not_found_after_manual_review",
+      "reason": "已核對台灣官方產品、官方比較、RV-X20DPA說明書、2025型錄、雅光與Mobile01原始討論；未找到品牌或可信媒體明確的上市／發售日期。手冊檔名240828、型錄年份、雅光圖片建立時間及論壇發帖日均不作上市日。",
+      "checkedAt": "2026-08-31",
+      "auditDisposition": "confirmed_not_found",
+      "checkedSources": [
+        {
+          "url": "https://hitachi-homeappliances.com.tw/products/products_feature.php?pid=RVX20DPA",
+          "outcome": "no_explicit_release_date"
+        },
+        {
+          "url": "https://hitachi-homeappliances.com.tw/products/products_compare.php?gid=B05&prod=RVX20DPA",
+          "outcome": "no_explicit_release_date"
+        },
+        {
+          "url": "https://hitachi-homeappliances.com.tw/image/hsct/service/download/manual/RV-X20DPA_%28EN_TW%29_240828.pdf",
+          "outcome": "no_explicit_release_date"
+        },
+        {
+          "url": "https://www.yk01.com.tw/products/rvx20dpabkcg",
+          "outcome": "no_explicit_release_date"
+        },
+        {
+          "url": "https://www.mobile01.com/topicdetail.php?f=728&t=7077088",
+          "outcome": "no_explicit_release_date"
+        }
+      ],
+      "auditQueries": [
+        "\"RV-X20DPA\" 上市 發售",
+        "site:hitachi-homeappliances.com.tw \"RV-X20DPA\""
+      ]
     },
     {
       "id": "vac-dyson-v12",
@@ -19408,6 +19507,45 @@
       ]
     },
     {
+      "id": "dishwasher-hitachi-hdff168cvgb",
+      "category": "dishwasher",
+      "brand": "HITACHI",
+      "model": "HDFF168CVGB",
+      "name": "16 人份獨立式洗碗機（琉璃黑）",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "query": "\"HDFF168CV\" \"上市\"",
+      "sourceKind": "not_found_after_manual_review",
+      "reason": "開啟日立台灣產品與規格頁並查 exact-model 上市／新聞；官方影片發布日、說明書檔案日期及通路「新品上市」未提供可確認之實際上市日期，不推定年月。",
+      "checkedAt": "2026-08-31",
+      "auditDisposition": "confirmed_not_found",
+      "checkedSources": [
+        {
+          "url": "https://hitachi-homeappliances.com.tw/products/products_03.php?pid=HDFF168CV",
+          "title": "日立 HDFF168CV 台灣官方產品頁",
+          "outcome": "確認16人份現行產品；未明示上市日期。"
+        },
+        {
+          "url": "https://hitachi-homeappliances.com.tw/products/products_feature.php?pid=HDFF168CV",
+          "title": "日立 HDFF168CV 官方規格及特色",
+          "outcome": "確認 X／GB 兩色與120V/60Hz；未明示上市日期。"
+        },
+        {
+          "url": "https://24h.pchome.com.tw/prod/DMBR0N-A900JXF2E",
+          "title": "PChome HDFF168CVGB 琉璃黑",
+          "outcome": "確認現售新品；不得以上架、庫存或促銷日期代替上市日。"
+        }
+      ],
+      "auditQueries": [
+        "\"HDFF168CV\" \"上市\"",
+        "site:hitachi-homeappliances.com.tw \"HDFF168CV\" 新聞"
+      ]
+    },
+    {
       "id": "waterheater-rinnai-rua-d1620wf",
       "category": "waterheater",
       "brand": "Rinnai",
@@ -28260,99 +28398,6 @@
       "reason": "Rechecked the exact model with two independent query forms and reopened the cited source. The source still supports 2026-04-24 under the launch/release evidence policy.",
       "checkedAt": "2026-08-28",
       "auditDisposition": "retained"
-    },
-    {
-      "id": "dishwasher-hitachi-hdff168cvgb",
-      "category": "dishwasher",
-      "brand": "HITACHI",
-      "model": "HDFF168CVGB",
-      "name": "16 人份獨立式洗碗機（琉璃黑）",
-      "previousReleaseDate": "找不到",
-      "releaseDate": "找不到",
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "confidence": "not_found",
-      "query": "\"HDFF168CV\" \"上市\"",
-      "sourceKind": "not_found_after_manual_review",
-      "reason": "開啟日立台灣產品與規格頁並查 exact-model 上市／新聞；官方影片發布日、說明書檔案日期及通路「新品上市」未提供可確認之實際上市日期，不推定年月。",
-      "checkedAt": "2026-08-31",
-      "auditDisposition": "confirmed_not_found",
-      "checkedSources": [
-        {
-          "url": "https://hitachi-homeappliances.com.tw/products/products_03.php?pid=HDFF168CV",
-          "title": "日立 HDFF168CV 台灣官方產品頁",
-          "outcome": "確認16人份現行產品；未明示上市日期。"
-        },
-        {
-          "url": "https://hitachi-homeappliances.com.tw/products/products_feature.php?pid=HDFF168CV",
-          "title": "日立 HDFF168CV 官方規格及特色",
-          "outcome": "確認 X／GB 兩色與120V/60Hz；未明示上市日期。"
-        },
-        {
-          "url": "https://24h.pchome.com.tw/prod/DMBR0N-A900JXF2E",
-          "title": "PChome HDFF168CVGB 琉璃黑",
-          "outcome": "確認現售新品；不得以上架、庫存或促銷日期代替上市日。"
-        }
-      ],
-      "auditQueries": [
-        "\"HDFF168CV\" \"上市\"",
-        "site:hitachi-homeappliances.com.tw \"HDFF168CV\" 新聞"
-      ]
-    },
-    {
-      "id": "robot-hitachi-rv-x20p",
-      "category": "robot",
-      "brand": "HITACHI",
-      "model": "RV-X20P",
-      "name": "LDS 雷射濕拖掃地機器人（香檳金／無自動集塵）",
-      "previousReleaseDate": "找不到",
-      "releaseDate": "找不到",
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "confidence": "not_found",
-      "query": "\"RV-X20P\" \"上市\"",
-      "sourceKind": "not_found_after_manual_review",
-      "reason": "已查日立台灣 exact-model 產品／規格及官方說明書，並搜尋明確上市或發售公告。官方頁未明載發售日；說明書檔名240828、2025年目錄、Mobile01開箱發布或擁有日期、通路上架／新品標籤都不是正式上市證據，不推定年月。",
-      "checkedAt": "2026-08-31",
-      "auditDisposition": "confirmed_not_found",
-      "checkedSources": [
-        {
-          "url": "https://hitachi-homeappliances.com.tw/products/products_feature.php?pid=RVX20P",
-          "title": "HITACHI 台灣 RV-X20P 產品特色與規格",
-          "outcome": "確認現行 exact model、配件及功能；未明載上市日期。"
-        },
-        {
-          "url": "https://hitachi-homeappliances.com.tw/products/products_compare.php?gid=B05&prod=RVX20P",
-          "title": "HITACHI 台灣 RV-X20P 規格比較",
-          "outcome": "確認規格及建議售價，不把現行產品列示視為發售公告。"
-        },
-        {
-          "url": "https://hitachi-homeappliances.com.tw/image/hsct/service/download/manual/RV-X20P%20%28EN-TW%29_240828.pdf",
-          "title": "HITACHI RV-X20P 官方中英文說明書",
-          "outcome": "下載、文字核對並渲染第46–47頁；檔名日期不可當上市日。"
-        },
-        {
-          "url": "https://www.3cu.com.tw/products/rvx20prvx20p",
-          "title": "信源電器 RV-X20P/RVX20P exact-model 商品頁",
-          "outcome": "確認公開NT$6,099及現貨香檳金變體3件；售完為止只是售罄截止描述，沒有正式上市日期。"
-        },
-        {
-          "url": "https://www.rakuten.com.tw/shop/ss3c/product/RV-X20P/",
-          "title": "樂天秀翔 RV-X20P exact SKU",
-          "outcome": "確認現售新品價格與庫存，並無可採用上市日期。"
-        },
-        {
-          "url": "https://www.mobile01.com/topicdetail.php?f=728&t=7134766",
-          "title": "日立掃地機器人RV-X20P開箱",
-          "outcome": "2025-06-20開箱及一個多月使用敘述只能證明當時持有，不作上市日。"
-        }
-      ],
-      "auditQueries": [
-        "\"HITACHI\" \"RV-X20P\" 上市 發售",
-        "\"RV-X20P\" \"上市\" \"日立\""
-      ]
     }
   ]
 }

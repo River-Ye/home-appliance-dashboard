@@ -1,15 +1,15 @@
 {
   "summary": {
     "checkedAt": "2026-08-31T00:00:00.000+08:00",
-    "sourcePolicy": "2026-08-31 以 920 筆基準清單全量查核公開價格基準（通路現價或明示官方建議售價）、購買連結與可信新品狀態，並複核最終 921 筆商品圖片、全部 492 筆 found 史低來源、原廠停產訊號與同批次匯率。官方建議售價不自動寫成通路現價或史低；PChome exact-model 現貨頁有正值 Price.Low 時採公開折扣價，否則採 Price.P；Qty 0、福利品、展示機與配件不寫回。其他頁面的結構化價格差異列入人工覆核候選，阻擋、暫時錯誤與單次頁面失效只列稽核，不臆測停產或史低失效。",
-    "total": 921,
-    "researchedThisRun": 921,
-    "found": 492,
-    "missing": 429,
+    "sourcePolicy": "2026-08-31 以 921 筆基準清單全量查核公開價格基準（通路現價或明示官方建議售價）、購買連結與可信新品狀態，並複核最終 923 筆商品圖片、全部 493 筆 found 史低來源、原廠停產訊號與同批次匯率。官方建議售價不自動寫成通路現價或史低；PChome exact-model 現貨頁有正值 Price.Low 時採公開折扣價，否則採 Price.P；Qty 0、福利品、展示機與配件不寫回。其他頁面的結構化價格差異列入人工覆核候選，阻擋、暫時錯誤與單次頁面失效只列稽核，不臆測停產或史低失效。",
+    "total": 923,
+    "researchedThisRun": 923,
+    "found": 493,
+    "missing": 430,
     "byConfidence": {
-      "not_found": 429,
+      "not_found": 430,
       "high": 323,
-      "medium": 169
+      "medium": 170
     },
     "exchange": {
       "USD_TWD": 31.649299,
@@ -21,19 +21,19 @@
       "HKD_TWD": 4.036684131717434,
       "KRW_TWD": 0.022990974312124667
     },
-    "lastMaintenanceCheckAt": "2026-08-31T02:20:39.900Z",
-    "currentPriceChanged": 55,
-    "currentBuyLinkChanged": 1,
-    "currentPriceDrops": 12,
-    "currentPriceRises": 43,
+    "lastMaintenanceCheckAt": "2026-08-31T08:55:01.455Z",
+    "currentPriceChanged": 7,
+    "currentBuyLinkChanged": 0,
+    "currentPriceDrops": 3,
+    "currentPriceRises": 4,
     "currentPriceFallbacks": 0,
-    "historicalLowUpdated": 0,
+    "historicalLowUpdated": 1,
     "historicalLowInvalidated": 0,
     "catalogEntriesReplaced": 0,
     "catalogReplacementNotes": [],
     "currentImageChanged": 0,
     "discontinuedRemoved": 0,
-    "newProductsAdded": 1,
+    "newProductsAdded": 2,
     "discontinuedRemovalNotes": [],
     "catalogEntriesRemoved": 0,
     "catalogRemovalNotes": []
@@ -3009,6 +3009,63 @@
       "priceLabel": "通路現價"
     },
     {
+      "id": "soundbar-asus-rog-gjallar",
+      "category": "soundbar",
+      "brand": "ASUS",
+      "model": "ROG Gjallar",
+      "name": "ROG Gjallar 2.1.2 聲道電競 Soundbar 與無線重低音",
+      "currentPrice": 17300,
+      "currentCurrency": "TWD",
+      "currentBuyUrl": "https://24h.pchome.com.tw/prod/DCAIAM-A900K9HQX",
+      "currentBuyLabel": "PChome 24h exact-model 台灣新品",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "TWD",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-08-31",
+        "note": "已查ROG Gjallar官方台灣公告、PChome兩個exact-model新品SKU與飛比/BigGo價格搜尋；現價NT$17,300及其他頁的NT$17,900均未提供可重現的歷史價格曲線。飛比及BigGo原搜尋頁讀取失敗，搜尋摘要僅作發現線索；不把現價、會員券、卡片回饋或二手價格冒充史低。"
+      },
+      "checkedSources": [
+        "https://24h.pchome.com.tw/prod/DCAIAM-A900K9HQX",
+        "https://24h.pchome.com.tw/prod/DCAIEF-A900KASX8",
+        "https://rog.asus.com/tw/articles/product-news/4cec56f8-2f9d-40b8-8e35-29489f9d7f81/",
+        "https://feebee.com.tw/s/rog%20gjallar/",
+        "https://biggo.com.tw/s/rog+gjallar/"
+      ],
+      "rejectedCandidates": [
+        "PChome公開折扣17300是查核日現價、不是有日期曲線的史低。",
+        "官方17900是上市建議售價；飛比摘要亦僅當期通路價，BigGo/飛比原搜尋頁未成功讀取，均不足證明史低。"
+      ],
+      "priceChecks": [
+        {
+          "query": "\"ROG Gjallar\" (\"歷史\" OR \"史低\")",
+          "sourceUrl": "https://www.google.com/search?q=%22ROG%20Gjallar%22%20(%22%E6%AD%B7%E5%8F%B2%22%20OR%20%22%E5%8F%B2%E4%BD%8E%22)",
+          "purpose": "exact-model price-history discovery",
+          "result": "未見可驗證新品歷史低價來源；不可由現價推定。"
+        },
+        {
+          "query": "\"ROG Gjallar\" site:feebee.com.tw",
+          "sourceUrl": "https://feebee.com.tw/s/rog%20gjallar/",
+          "purpose": "價格比較",
+          "result": "搜尋摘要有Yahoo/東森17900，原頁讀取失敗；未採摘要價格為史低。"
+        },
+        {
+          "query": "\"ROG Gjallar\" site:biggo.com.tw",
+          "sourceUrl": "https://biggo.com.tw/s/rog+gjallar/",
+          "purpose": "價格比較/歷史",
+          "result": "原搜尋頁無法讀取，未取得日期化exact-model歷史價。"
+        }
+      ],
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價"
+    },
+    {
       "id": "fan-panasonic-fh16",
       "category": "fan",
       "brand": "Panasonic",
@@ -3059,7 +3116,7 @@
       "brand": "SHARP",
       "model": "PJ-PV16AT-W",
       "name": "16 吋自動除菌離子 DC 電風扇",
-      "currentPrice": 3125,
+      "currentPrice": 3890,
       "currentCurrency": "TWD",
       "currentBuyUrl": "https://24h.pchome.com.tw/prod/DMABPM-A900K2ITT",
       "currentBuyLabel": "PChome",
@@ -11360,6 +11417,216 @@
       ]
     },
     {
+      "id": "robot-hitachi-rv-x20p",
+      "category": "robot",
+      "brand": "HITACHI",
+      "model": "RV-X20P",
+      "name": "LDS 雷射濕拖掃地機器人（香檳金／無自動集塵）",
+      "currentPrice": 6099,
+      "currentCurrency": "TWD",
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價",
+      "currentBuyUrl": "https://www.3cu.com.tw/products/rvx20prvx20p",
+      "currentBuyLabel": "信源電器（台灣原廠授權通路）",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "TWD",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-08-31",
+        "note": "已查信源電器 RV-X20P exact-model NT$6,099 現價、樂天秀翔 NT$6,480 及 FindPrice、BigGo、比價撿便宜的同型號比價／歷史入口。比較頁混有 RV-X20DPA、耗材及拍賣，搜尋舊快照與相對時間降價敘述不能證明可重現的同型號新品歷史最低價；未取得具日期的可靠歷史價格序列，不以 NT$6,099 現價推定史低。"
+      },
+      "checkedSources": [
+        "https://www.3cu.com.tw/products/rvx20prvx20p",
+        "https://www.rakuten.com.tw/shop/ss3c/product/RV-X20P/",
+        "https://www.findprice.com.tw/g/rv-x20p",
+        "https://biggo.com.tw/s/rv%20x20p",
+        "https://www.lbj.tw/BJ/Query.aspx?k=RV-X20P"
+      ],
+      "priceChecks": [
+        {
+          "query": "RV-X20P/RVX20P",
+          "sourceUrl": "https://www.3cu.com.tw/products/rvx20prvx20p",
+          "purpose": "exact-model 較低公開現價及庫存",
+          "outcome": "accepted_current_only",
+          "note": "2026-08-31T02:12:29.558Z liveHTTP200：公開6,099、JSON-LD InStock、香檳金變體quantity3、total_orderable_quantity3、is_preorder=false、sold_out=false；不扣LINE會員購物金。標題售完為止不是已售完，模板隱藏售完文字不作庫存判定。此價只當本輪現價，不推定史低。"
+        },
+        {
+          "query": "RV-X20P",
+          "sourceUrl": "https://www.rakuten.com.tw/shop/ss3c/product/RV-X20P/",
+          "purpose": "exact-model 現價及庫存",
+          "outcome": "verified_higher_current_alternative",
+          "note": "公開價6,480、同SKU InStock且quantity=1，只作查核當時現價；沒有把商品評價日期、priceValidUntil或庫存時間當歷史價格日期。"
+        },
+        {
+          "query": "RV-X20P",
+          "sourceUrl": "https://www.findprice.com.tw/g/rv-x20p",
+          "purpose": "跨站同型號比價",
+          "outcome": "rejected_as_historical_low",
+          "note": "2026-08-31T02:06:18.325Z live HTTP 200，可見樂天6,480、信源6,099、百利市6,990及耗材248等現行列表；無具體歷史日期序列，低價耗材排除。"
+        },
+        {
+          "query": "RV-X20P 歷史 最低價",
+          "sourceUrl": "https://biggo.com.tw/s/rv%20x20p",
+          "purpose": "同型號價格歷史入口",
+          "outcome": "history_not_verified",
+          "note": "2026-08-31T02:06:19.316Z live HTTP 200；列表混合主機、DPA與耗材，雖有歷史入口但未取得可重現且日期明確的可信新品同型號最低價，不用搜尋舊快照推定史低。"
+        },
+        {
+          "query": "RV-X20P",
+          "sourceUrl": "https://www.lbj.tw/BJ/Query.aspx?k=RV-X20P",
+          "purpose": "價格歷史與跨站比價",
+          "outcome": "history_not_verified",
+          "note": "2026-08-31T02:06:19.643Z live HTTP 200；AggregateOffer最低499為混合列表而非RV-X20P主機歷史價，未取得日期序列，不能採用。"
+        }
+      ],
+      "rejectedCandidates": [
+        "相容濾網、邊刷、拖布等248／399／499元耗材不是主機。",
+        "RV-X20DPA 自動集塵款、minimaru 舊機與其他品牌不併入 RV-X20P。",
+        "個人拍賣、請先詢價及未核對原頁的比較價格不能直接當購買現價或史低。",
+        "Feebee舊搜尋快照的相對2小時降價文字未提供可重現完整日期，不能當可驗證史低。"
+      ]
+    },
+    {
+      "id": "robot-hitachi-rv-x20dpa",
+      "category": "robot",
+      "brand": "HITACHI",
+      "model": "RV-X20DPA",
+      "name": "LDS 雷射自動集塵濕拖掃地機器人（香檳金／4L 集塵站）",
+      "currentPrice": 10500,
+      "currentCurrency": "TWD",
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價",
+      "currentBuyUrl": "https://www.yk01.com.tw/products/rvx20dpabkcg",
+      "currentBuyLabel": "雅光電器（購前電話確認庫存）",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "TWD",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-08-31",
+        "note": "已查雅光 RV-X20DPA NT$10,500 現價、Yahoo 同型頁、玉明電器及 BigGo／FindPrice／比價撿便宜的同型號價格入口。比價頁混有耗材與非新品拍賣，搜尋快取舊價格與目前售價缺少可重現的日期價格序列；未取得同型號可信新品的具日期史低證據，不以 NT$10,500 現價推定史低。"
+      },
+      "checkedSources": [
+        "https://www.yk01.com.tw/products/rvx20dpabkcg",
+        "https://tw.buy.yahoo.com/gdsale/gdsale.asp?gdid=11998609",
+        "https://www.3uo.tw/ecommerce/RV-X20DPA/",
+        "https://biggo.com.tw/s/RV-X20DPA/",
+        "https://www.findprice.com.tw/a/RV-X20DPA",
+        "https://www.lbj.tw/BJ/Query.aspx?k=RV-X20DPA",
+        "https://www.momoshop.com.tw/product/13669767",
+        "https://www.momoshop.com.tw/TP/TP0003321/goodsDetail/TP00033210000465"
+      ],
+      "priceChecks": [
+        {
+          "query": "\"RV-X20DPA\" 雅光 價格",
+          "url": "https://www.yk01.com.tw/products/rvx20dpabkcg",
+          "sourcePurpose": "retailer_current",
+          "amount": 10500,
+          "currency": "TWD",
+          "outcome": "current_price_only",
+          "reason": "Chrome exact SKU顯示主價10500及庫存1，頁首圖片要求電話確認共用庫存；不是歷史序列。"
+        },
+        {
+          "query": "\"RV-X20DPA\" Yahoo 價格",
+          "url": "https://tw.buy.yahoo.com/gdsale/gdsale.asp?gdid=11998609",
+          "sourcePurpose": "retailer_current",
+          "amount": 11275,
+          "currency": "TWD",
+          "outcome": "excluded_out_of_stock",
+          "reason": "原頁顯示已售完／貨到通知我；不採為現貨，也不能用它證明史低。"
+        },
+        {
+          "query": "\"RV-X20DPA\" 玉明 價格",
+          "url": "https://www.3uo.tw/ecommerce/RV-X20DPA/",
+          "sourcePurpose": "retailer_current",
+          "amount": 12900,
+          "currency": "TWD",
+          "outcome": "excluded_requires_stock_confirmation",
+          "reason": "即時原頁12900不同於搜尋快取9800，且要求下單前LINE或電話確認貨源價格；不採快取價格。"
+        },
+        {
+          "query": "\"RV-X20DPA\" BigGo 歷史價格",
+          "url": "https://biggo.com.tw/s/RV-X20DPA/",
+          "sourcePurpose": "comparison_price_history",
+          "outcome": "no_dated_history_found",
+          "reason": "原頁含現價聚合與耗材、拍賣，未取得可重現的dated新品價格序列；不把聚合最低數字當史低。"
+        },
+        {
+          "query": "\"RV-X20DPA\" FindPrice 歷史價格",
+          "url": "https://www.findprice.com.tw/a/RV-X20DPA",
+          "sourcePurpose": "comparison_price_history",
+          "outcome": "fetch_failed",
+          "reason": "原頁讀取失敗；搜尋聚合與拍賣結果不具可靠歷史日期證據。"
+        },
+        {
+          "query": "\"RV-X20DPA\" 比價撿便宜 歷史價格",
+          "url": "https://www.lbj.tw/BJ/Query.aspx?k=RV-X20DPA",
+          "sourcePurpose": "comparison_price_history",
+          "outcome": "fetch_failed",
+          "reason": "原頁讀取失敗，搜尋結果中的現價與歷史按鈕不能替代實際可見日期序列。"
+        },
+        {
+          "query": "\"RV-X20DPA\" momo",
+          "url": "https://www.momoshop.com.tw/product/13669767",
+          "sourcePurpose": "retailer_current",
+          "outcome": "excluded_unavailable_live",
+          "reason": "搜尋快取11868／一年保固，但Chrome即時頁顯示商品目前無展售或網頁不存在；不採為現貨或本次購買通路保固。"
+        },
+        {
+          "query": "\"RV-X20DPA\" momo",
+          "url": "https://www.momoshop.com.tw/TP/TP0003321/goodsDetail/TP00033210000465",
+          "sourcePurpose": "retailer_current",
+          "outcome": "excluded_unavailable_live",
+          "reason": "搜尋快取10711／一年保固／庫存低於1，但Chrome即時原頁查無商品資料、商品不存在或已下架；不採快取購買狀態。"
+        }
+      ],
+      "rejectedCandidates": [
+        {
+          "query": "\"RV-X20DPA\" Yahoo 價格",
+          "url": "https://tw.buy.yahoo.com/gdsale/gdsale.asp?gdid=11998609",
+          "sourcePurpose": "retailer_current",
+          "amount": 11275,
+          "currency": "TWD",
+          "outcome": "excluded_out_of_stock",
+          "reason": "原頁顯示已售完／貨到通知我；不採為現貨，也不能用它證明史低。"
+        },
+        {
+          "query": "\"RV-X20DPA\" 玉明 價格",
+          "url": "https://www.3uo.tw/ecommerce/RV-X20DPA/",
+          "sourcePurpose": "retailer_current",
+          "amount": 12900,
+          "currency": "TWD",
+          "outcome": "excluded_requires_stock_confirmation",
+          "reason": "即時原頁12900不同於搜尋快取9800，且要求下單前LINE或電話確認貨源價格；不採快取價格。"
+        },
+        {
+          "query": "\"RV-X20DPA\" momo",
+          "url": "https://www.momoshop.com.tw/product/13669767",
+          "sourcePurpose": "retailer_current",
+          "outcome": "excluded_unavailable_live",
+          "reason": "搜尋快取11868／一年保固，但Chrome即時頁顯示商品目前無展售或網頁不存在；不採為現貨或本次購買通路保固。"
+        },
+        {
+          "query": "\"RV-X20DPA\" momo",
+          "url": "https://www.momoshop.com.tw/TP/TP0003321/goodsDetail/TP00033210000465",
+          "sourcePurpose": "retailer_current",
+          "outcome": "excluded_unavailable_live",
+          "reason": "搜尋快取10711／一年保固／庫存低於1，但Chrome即時原頁查無商品資料、商品不存在或已下架；不採快取購買狀態。"
+        }
+      ]
+    },
+    {
       "id": "vac-dyson-v12",
       "category": "vacuum",
       "brand": "Dyson",
@@ -18631,7 +18898,7 @@
       "brand": "Tefal",
       "model": "饗樂系列不沾鍋具4件組",
       "name": "Tefal 饗樂系列不沾鍋具4件組",
-      "currentPrice": 990,
+      "currentPrice": 1099,
       "currentCurrency": "TWD",
       "currentBuyUrl": "https://tw.buy.yahoo.com/gdsale/Tefal%E6%B3%95%E5%9C%8B%E7%89%B9%E7%A6%8F-%E9%A5%97%E6%A8%82%E7%B3%BB%E5%88%97%E4%B8%8D%E6%B2%BE%E9%8D%8B%E5%85%B74%E4%BB%B6%E7%B5%84-28cm%E7%82%92%E9%8D%8B-16cm%E6%B9%AF%E9%8D%8B-16cm%E9%8D%8B%E8%93%8B-%E9%8D%8B%E9%8F%9F-10238240.html",
       "currentBuyLabel": "Yahoo購物中心",
@@ -22731,7 +22998,7 @@
       "brand": "Whirlpool",
       "model": "MWP269TMT",
       "name": "26L 8 合 1 變頻氣炸蒸烤微波爐",
-      "currentPrice": 17766,
+      "currentPrice": 17955,
       "currentCurrency": "TWD",
       "currentBuyUrl": "https://tw.buy.yahoo.com/gdsale/Whirlpool%E6%83%A0%E8%80%8C%E6%B5%A6-Coloris%E7%B3%BB%E5%88%97-26%E5%85%AC%E5%8D%878%E5%90%88%E4%B8%80%E5%85%A8%E8%83%BD%E8%AE%8A%E9%A0%BB%E6%B0%A3%E7%82%B8%E8%92%B8%E7%83%A4%E5%BE%AE%E6%B3%A2%E7%88%90-%E9%9B%B2%E9%9C%A7%E7%99%BD-MWP2-11705976.html",
       "currentBuyLabel": "Yahoo購物中心",
@@ -23216,7 +23483,7 @@
       "brand": "Whirlpool",
       "model": "WSO2500B",
       "name": "25 公升獨立式蒸烤爐",
-      "currentPrice": 9400,
+      "currentPrice": 9500,
       "currentCurrency": "TWD",
       "currentBuyUrl": "https://tw.buy.yahoo.com/gdsale/Whirlpool%E6%83%A0%E8%80%8C%E6%B5%A6-25%E5%85%AC%E5%8D%87%E7%8D%A8%E7%AB%8B%E5%BC%8F%E8%92%B8%E7%83%A4%E7%88%90-WSO2500B-9918063.html",
       "currentBuyLabel": "Yahoo購物中心",
@@ -23621,7 +23888,7 @@
       "brand": "HITACHI",
       "model": "MROS800AT",
       "name": "過熱水蒸氣烘烤微波爐",
-      "currentPrice": 22908,
+      "currentPrice": 21763,
       "currentCurrency": "TWD",
       "currentBuyUrl": "https://tw.buy.yahoo.com/gdsale/HITACHI-%E6%97%A5%E7%AB%8B-%E9%81%8E%E7%86%B1%E6%B0%B4%E8%92%B8%E6%B0%A3%E7%83%98%E7%83%A4%E5%BE%AE%E6%B3%A2%E7%88%90-%E7%88%B5%E8%89%B2%E9%BB%91-MROS800AT-11995105.html",
       "currentBuyLabel": "Yahoo購物中心",
@@ -23679,7 +23946,7 @@
       "brand": "HITACHI",
       "model": "MROBK5000AT",
       "name": "過熱水蒸氣烘烤微波爐",
-      "currentPrice": 48668,
+      "currentPrice": 46235,
       "currentCurrency": "TWD",
       "currentBuyUrl": "https://tw.buy.yahoo.com/gdsale/HITACHI-%E6%97%A5%E7%AB%8B-%E9%81%8E%E7%86%B1%E6%B0%B4%E8%92%B8%E6%B0%A3%E7%83%98%E7%83%A4%E5%BE%AE%E6%B3%A2%E7%88%90-MROBK5000AT-11995474.html",
       "currentBuyLabel": "Yahoo購物中心",
@@ -24351,22 +24618,22 @@
       "brand": "Philips",
       "model": "AUT7005",
       "name": "Philips AUT7005",
-      "currentPrice": 29999,
+      "currentPrice": 28999,
       "currentCurrency": "TWD",
       "currentBuyUrl": "https://24h.pchome.com.tw/prod/DMAC6R-A900IUC3J",
       "currentBuyLabel": "PChome",
       "historicalLow": {
-        "status": "not_found",
-        "amount": null,
+        "status": "found",
+        "amount": 25500,
         "currency": "TWD",
-        "converted": null,
-        "sourceUrl": "",
-        "sourceTitle": "",
-        "evidenceSnippet": "",
-        "sourceKind": "not_found",
-        "confidence": "not_found",
-        "checkedAt": "2026-07-11",
-        "note": "既有史低證據是相容濾芯／耗材，而不是目標整機；應撤銷 found 並重新查核整機史低。 已撤銷錯誤史低；本輪重新查核仍找不到同型號、同尺寸／容量／規格且可公開驗證的可信新品整機史低。"
+        "converted": 25500,
+        "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1269639153&cgp=28999",
+        "sourceTitle": "比價撿便宜：Momo Philips AUT7005 RO 廚下型瞬熱淨水器完整主機價格歷史",
+        "evidenceSnippet": "2026-08-31 以 Philips AUT7005 查詢，卡片1269639153明確對應 Momo RO廚下型瞬熱淨水器(AUT7005)完整主機，轉往Momo14917456；13筆歷史價格點中2026-08-11為NT$25,500，Chrome同卡片歷史圖亦可見此低點。不是相容濾芯，也不是cgp=28999所帶入的查核現價。",
+        "sourceKind": "price_history",
+        "confidence": "medium",
+        "checkedAt": "2026-08-31",
+        "note": "採可驗證的Momo同型號完整新品追蹤低點，不保證涵蓋全網或終身最低價；未計信用卡、點數或個人化優惠。限量30台是被追蹤賣場名稱，不代表目前仍有該低價庫存。AUT821/AUT822/AUT823濾芯pid1281366826仍排除，現價另依PChome公開頁。"
       },
       "checkedSources": [
         "https://www.lbj.tw/BJ/Query.aspx?k=DMAC6R-A900IUC3J",
@@ -24374,7 +24641,9 @@
         "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1281366826&cgp=17193",
         "https://www.findprice.com.tw/g/Philips%20AUT7005",
         "https://24h.pchome.com.tw/prod/DMAC6R-A900IUC3J",
-        "https://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=14917456&Area=search&mdiv=403&oid=1_1&cid=index&kw=Philips+AUT7005&ecTagNos="
+        "https://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=14917456&Area=search&mdiv=403&oid=1_1&cid=index&kw=Philips+AUT7005&ecTagNos=",
+        "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1269639153&cgp=28999",
+        "https://www.momoshop.com.tw/product/14917456"
       ],
       "rejectedCandidates": [
         "LBJ Philips AUT7005: 蝦皮商城 - SWEETCOM思維康淨水設備旗艦店 【SWEETCOM思維康淨水】Philips 飛利浦 AUT821 822 823 組合優惠濾心 適AUT7005 非採用通路或含排除條件",
@@ -24383,10 +24652,26 @@
         "LBJ Philips AUT7005: 蝦皮商城 - SWEETCOM思維康淨水設備旗艦店 【SWEETCOM思維康】Philips 飛利浦 AUT7005 三年份 小瞬靜 RO櫥下式即熱淨水器 瞬熱 小淨靈 最低價 NT$12,230 低於現價合理比例，疑似月付/配件/錯類",
         "BigGo DMAC6R-A900IUC3J: 查詢失敗 429 https://biggo.com.tw/api/v1/spa/search/DMAC6R-A900IUC3J/product?p=1",
         "BigGo Philips AUT7005: 查詢失敗 429 https://biggo.com.tw/api/v1/spa/search/Philips%20AUT7005/product?p=1",
-        "[2026-07-11] 撤銷錯誤史低：既有史低證據是相容濾芯／耗材，而不是目標整機；應撤銷 found 並重新查核整機史低。 https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1281366826&cgp=17193"
+        "[2026-07-11] 撤銷錯誤史低：既有史低證據是相容濾芯／耗材，而不是目標整機；應撤銷 found 並重新查核整機史低。 https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1281366826&cgp=17193",
+        "[2026-08-31] 再核對 pid1281366826 仍為 AUT821/AUT822/AUT823 相容濾芯，不與完整 AUT7005 主機 pid1269639153 的歷史序列混用。"
       ],
       "priceBasis": "not_stated",
-      "priceLabel": "價格基準未標示"
+      "priceLabel": "價格基準未標示",
+      "manualHistoricalReview": {
+        "checkedAt": "2026-08-31T08:45:12.152Z",
+        "queryUrl": "https://www.lbj.tw/BJ/Query.aspx?k=Philips%20AUT7005",
+        "retailerProductUrl": "https://www.momoshop.com.tw/product/14917456",
+        "historyProductId": "1269639153",
+        "trackedPointCount": 13,
+        "minimumDate": "2026-08-11",
+        "minimumAmount": 25500,
+        "currentPriceParameter": 28999,
+        "exactModelConfirmed": true,
+        "wholeProductConfirmed": true,
+        "browserChartConfirmed": true,
+        "independentReviewConfirmed": true,
+        "reviewerNote": "兩名代理分別核對Query卡片、歷史pid、實際Momo整機重導與13筆序列；Chrome視覺核對同卡片標題和25,500低點。未把URL的cgp參數當歷史證據。"
+      }
     },
     {
       "id": "waterdispenser-brita-mypure-gr1000",
@@ -26924,6 +27209,64 @@
       ],
       "priceBasis": "retailer_current",
       "priceLabel": "通路現價"
+    },
+    {
+      "id": "dishwasher-hitachi-hdff168cvgb",
+      "category": "dishwasher",
+      "brand": "HITACHI",
+      "model": "HDFF168CVGB",
+      "name": "16 人份獨立式洗碗機（琉璃黑）",
+      "currentPrice": 39468,
+      "currentCurrency": "TWD",
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價",
+      "currentBuyUrl": "https://24h.pchome.com.tw/prod/DMBR0N-A900JXF2E",
+      "currentBuyLabel": "PChome 24h（含運／拆箱定位）",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "TWD",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-08-31",
+        "note": "已查 PChome exact-model 現價、FindPrice 同型號比價及比價撿便宜價格搜尋；搜尋所列 Yahoo 37,100 元是舊活動頁，混合銀色 X／黑色 GB 的最低起價與會員、折價券、回饋不能當琉璃黑史低。未找到可追溯日期且同型號同安裝範圍的歷史紀錄，現價不推定為史低。"
+      },
+      "checkedSources": [
+        "https://24h.pchome.com.tw/prod/DMBR0N-A900JXF2E",
+        "https://www.findprice.com.tw/g/hdff168cv",
+        "https://www.lbj.tw/BJ/Query.aspx?k=HDFF168CVGB"
+      ],
+      "priceChecks": [
+        {
+          "query": "HDFF168CVGB",
+          "sourceUrl": "https://24h.pchome.com.tw/prod/DMBR0N-A900JXF2E",
+          "purpose": "exact-model 現價及庫存",
+          "outcome": "accepted_current_only",
+          "note": "公開價39,468；API Qty5。現價不直接作史低。"
+        },
+        {
+          "query": "HDFF168CVGB",
+          "sourceUrl": "https://www.findprice.com.tw/g/hdff168cv",
+          "purpose": "跨站同型號比價",
+          "outcome": "rejected_as_historical_low",
+          "note": "混列 HDFF168CVX、GB 與舊 Yahoo 活動價；未具日期且完全相同變體及安裝範圍的歷史證據。"
+        },
+        {
+          "query": "HDFF168CVGB 歷史 價格",
+          "sourceUrl": "https://www.lbj.tw/BJ/Query.aspx?k=HDFF168CVGB",
+          "purpose": "價格歷史入口",
+          "outcome": "history_not_verified",
+          "note": "搜尋可見價格歷史按鈕與39,468報價，但 exact query 原頁讀取失敗，未取得可驗證的日期序列。"
+        }
+      ],
+      "rejectedCandidates": [
+        "銀色 HDFF168CVX 的低价及X/GB混合起價不套用到琉璃黑。",
+        "會員個人券、信用卡、點數與回饋不可計入史低。"
+      ]
     },
     {
       "id": "waterheater-rinnai-rua-d1620wf",
@@ -41557,140 +41900,6 @@
         "LBJ 曲線 2026-07-29 的 NT$1 明顯為爬取或價格標記異常，不是完整支架售價。",
         "ROG Ergo Monitor Arm AAS01 舊款不是 AAS01R，未混入比價。",
         "樂天滿額折、momo 折價券與信用卡回饋均不計入史低。"
-      ]
-    },
-    {
-      "id": "dishwasher-hitachi-hdff168cvgb",
-      "category": "dishwasher",
-      "brand": "HITACHI",
-      "model": "HDFF168CVGB",
-      "name": "16 人份獨立式洗碗機（琉璃黑）",
-      "currentPrice": 39468,
-      "currentCurrency": "TWD",
-      "priceBasis": "retailer_current",
-      "priceLabel": "通路現價",
-      "currentBuyUrl": "https://24h.pchome.com.tw/prod/DMBR0N-A900JXF2E",
-      "currentBuyLabel": "PChome 24h（含運／拆箱定位）",
-      "historicalLow": {
-        "status": "not_found",
-        "amount": null,
-        "currency": "TWD",
-        "converted": null,
-        "sourceUrl": "",
-        "sourceTitle": "",
-        "evidenceSnippet": "",
-        "sourceKind": "not_found",
-        "confidence": "not_found",
-        "checkedAt": "2026-08-31",
-        "note": "已查 PChome exact-model 現價、FindPrice 同型號比價及比價撿便宜價格搜尋；搜尋所列 Yahoo 37,100 元是舊活動頁，混合銀色 X／黑色 GB 的最低起價與會員、折價券、回饋不能當琉璃黑史低。未找到可追溯日期且同型號同安裝範圍的歷史紀錄，現價不推定為史低。"
-      },
-      "checkedSources": [
-        "https://24h.pchome.com.tw/prod/DMBR0N-A900JXF2E",
-        "https://www.findprice.com.tw/g/hdff168cv",
-        "https://www.lbj.tw/BJ/Query.aspx?k=HDFF168CVGB"
-      ],
-      "priceChecks": [
-        {
-          "query": "HDFF168CVGB",
-          "sourceUrl": "https://24h.pchome.com.tw/prod/DMBR0N-A900JXF2E",
-          "purpose": "exact-model 現價及庫存",
-          "outcome": "accepted_current_only",
-          "note": "公開價39,468；API Qty5。現價不直接作史低。"
-        },
-        {
-          "query": "HDFF168CVGB",
-          "sourceUrl": "https://www.findprice.com.tw/g/hdff168cv",
-          "purpose": "跨站同型號比價",
-          "outcome": "rejected_as_historical_low",
-          "note": "混列 HDFF168CVX、GB 與舊 Yahoo 活動價；未具日期且完全相同變體及安裝範圍的歷史證據。"
-        },
-        {
-          "query": "HDFF168CVGB 歷史 價格",
-          "sourceUrl": "https://www.lbj.tw/BJ/Query.aspx?k=HDFF168CVGB",
-          "purpose": "價格歷史入口",
-          "outcome": "history_not_verified",
-          "note": "搜尋可見價格歷史按鈕與39,468報價，但 exact query 原頁讀取失敗，未取得可驗證的日期序列。"
-        }
-      ],
-      "rejectedCandidates": [
-        "銀色 HDFF168CVX 的低价及X/GB混合起價不套用到琉璃黑。",
-        "會員個人券、信用卡、點數與回饋不可計入史低。"
-      ]
-    },
-    {
-      "id": "robot-hitachi-rv-x20p",
-      "category": "robot",
-      "brand": "HITACHI",
-      "model": "RV-X20P",
-      "name": "LDS 雷射濕拖掃地機器人（香檳金／無自動集塵）",
-      "currentPrice": 6099,
-      "currentCurrency": "TWD",
-      "priceBasis": "retailer_current",
-      "priceLabel": "通路現價",
-      "currentBuyUrl": "https://www.3cu.com.tw/products/rvx20prvx20p",
-      "currentBuyLabel": "信源電器（台灣原廠授權通路）",
-      "historicalLow": {
-        "status": "not_found",
-        "amount": null,
-        "currency": "TWD",
-        "converted": null,
-        "sourceUrl": "",
-        "sourceTitle": "",
-        "evidenceSnippet": "",
-        "sourceKind": "not_found",
-        "confidence": "not_found",
-        "checkedAt": "2026-08-31",
-        "note": "已查信源電器 RV-X20P exact-model NT$6,099 現價、樂天秀翔 NT$6,480 及 FindPrice、BigGo、比價撿便宜的同型號比價／歷史入口。比較頁混有 RV-X20DPA、耗材及拍賣，搜尋舊快照與相對時間降價敘述不能證明可重現的同型號新品歷史最低價；未取得具日期的可靠歷史價格序列，不以 NT$6,099 現價推定史低。"
-      },
-      "checkedSources": [
-        "https://www.3cu.com.tw/products/rvx20prvx20p",
-        "https://www.rakuten.com.tw/shop/ss3c/product/RV-X20P/",
-        "https://www.findprice.com.tw/g/rv-x20p",
-        "https://biggo.com.tw/s/rv%20x20p",
-        "https://www.lbj.tw/BJ/Query.aspx?k=RV-X20P"
-      ],
-      "priceChecks": [
-        {
-          "query": "RV-X20P/RVX20P",
-          "sourceUrl": "https://www.3cu.com.tw/products/rvx20prvx20p",
-          "purpose": "exact-model 較低公開現價及庫存",
-          "outcome": "accepted_current_only",
-          "note": "2026-08-31T02:12:29.558Z liveHTTP200：公開6,099、JSON-LD InStock、香檳金變體quantity3、total_orderable_quantity3、is_preorder=false、sold_out=false；不扣LINE會員購物金。標題售完為止不是已售完，模板隱藏售完文字不作庫存判定。此價只當本輪現價，不推定史低。"
-        },
-        {
-          "query": "RV-X20P",
-          "sourceUrl": "https://www.rakuten.com.tw/shop/ss3c/product/RV-X20P/",
-          "purpose": "exact-model 現價及庫存",
-          "outcome": "verified_higher_current_alternative",
-          "note": "公開價6,480、同SKU InStock且quantity=1，只作查核當時現價；沒有把商品評價日期、priceValidUntil或庫存時間當歷史價格日期。"
-        },
-        {
-          "query": "RV-X20P",
-          "sourceUrl": "https://www.findprice.com.tw/g/rv-x20p",
-          "purpose": "跨站同型號比價",
-          "outcome": "rejected_as_historical_low",
-          "note": "2026-08-31T02:06:18.325Z live HTTP 200，可見樂天6,480、信源6,099、百利市6,990及耗材248等現行列表；無具體歷史日期序列，低價耗材排除。"
-        },
-        {
-          "query": "RV-X20P 歷史 最低價",
-          "sourceUrl": "https://biggo.com.tw/s/rv%20x20p",
-          "purpose": "同型號價格歷史入口",
-          "outcome": "history_not_verified",
-          "note": "2026-08-31T02:06:19.316Z live HTTP 200；列表混合主機、DPA與耗材，雖有歷史入口但未取得可重現且日期明確的可信新品同型號最低價，不用搜尋舊快照推定史低。"
-        },
-        {
-          "query": "RV-X20P",
-          "sourceUrl": "https://www.lbj.tw/BJ/Query.aspx?k=RV-X20P",
-          "purpose": "價格歷史與跨站比價",
-          "outcome": "history_not_verified",
-          "note": "2026-08-31T02:06:19.643Z live HTTP 200；AggregateOffer最低499為混合列表而非RV-X20P主機歷史價，未取得日期序列，不能採用。"
-        }
-      ],
-      "rejectedCandidates": [
-        "相容濾網、邊刷、拖布等248／399／499元耗材不是主機。",
-        "RV-X20DPA 自動集塵款、minimaru 舊機與其他品牌不併入 RV-X20P。",
-        "個人拍賣、請先詢價及未核對原頁的比較價格不能直接當購買現價或史低。",
-        "Feebee舊搜尋快照的相對2小時降價文字未提供可重現完整日期，不能當可驗證史低。"
       ]
     }
   ]

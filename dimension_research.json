@@ -1142,6 +1142,31 @@
       "weightCheckedAt": "2026-08-29"
     },
     {
+      "id": "soundbar-asus-rog-gjallar",
+      "dimension": "尺寸：主機 寬 60.7 x 深 9.2 x 高 8.2 cm",
+      "note": "只採主機已確認的寬深高；重低音、控制中樞未明軸序，另列商品其他組件附註，不以未註順序數字推定。",
+      "sourceUrl": "https://www.galaxus.ch/en/s1/product/asus-rog-gjallar-soundbar-212-channel-sound-bars-74675928",
+      "sourceTitle": "ASUS Rog Gjallar Soundbar — Galaxus product dimensions",
+      "evidenceSnippet": "Galaxus exact-model頁明列Width60.70cm、Depth9.20cm、Height8.20cm；與ASUS官方主機607x92x82mm一致。官方另列低音箱125x315x356mm、控制器90x82x37mm但未標軸序，未擅自轉為寬深高；外箱674x178x547mm已排除。",
+      "confidence": "medium",
+      "isOfficialSource": false,
+      "checkedAt": "2026-08-31",
+      "checkedSources": [
+        "https://press.asus.com/news/press-releases/asus-rog-gjallar-gaming-soundbar/",
+        "https://rog.asus.com/tw/headsets-audio/gaming-speakers/rog-gjallar-gaming-soundbar/spec/",
+        "https://rog.asus.com/tw/headsets-audio/gaming-speakers/rog-gjallar-gaming-soundbar/helpdesk_manual/",
+        "https://www.galaxus.ch/en/s1/product/asus-rog-gjallar-soundbar-212-channel-sound-bars-74675928",
+        "https://24h.pchome.com.tw/prod/DCAIAM-A900K9HQX"
+      ],
+      "weight": "重量：主機 2.4 kg；重低音 5.7 kg；控制中樞 0.191 kg",
+      "weightSourceUrl": "https://rog.asus.com/tw/headsets-audio/gaming-speakers/rog-gjallar-gaming-soundbar/spec/",
+      "weightSourceTitle": "ROG Gjallar 電競 Soundbar｜ROG 台灣 — 技術規格",
+      "weightEvidenceSnippet": "官方規格分列Soundbar2.4kg、Subwoofer5.7kg、Control Hub0.191kg；未以通路8.29kg合計或包裝重量取代組件淨重。",
+      "weightConfidence": "high",
+      "weightIsOfficialSource": true,
+      "weightCheckedAt": "2026-08-31"
+    },
+    {
       "id": "aircon-hitachi-ras-22ntb-rac-22np",
       "dimension": "尺寸：室內機 寬 84 x 深 27 x 高 31.5 cm；室外機 寬 73 x 深 29 x 高 60 cm",
       "sourceUrl": "https://www.hitachiaircon.com/tw/ranges/home-use-ac/honor-series-nt",
@@ -4055,6 +4080,18 @@
       "checkedAt": "2026-08-24"
     },
     {
+      "id": "dishwasher-hitachi-hdff168cvgb",
+      "dimension": "尺寸：寬 59.8 x 深 60 x 高 85 cm",
+      "sourceUrl": "https://hitachi-homeappliances.com.tw/products/products_feature.php?pid=HDFF168CV",
+      "sourceTitle": "日立 HDFF168CV 規格功能表（不鏽鋼銀 X／琉璃黑 GB）",
+      "evidenceSnippet": "官方產品尺寸寬x深x高(mm)為598*600*850(含上蓋30)；開門598*1150*850、包裝657*674*897另列，未混用包裝尺寸。",
+      "installationSourceUrl": "https://hitachi-homeappliances.com.tw/upload/products/pgroup24302602025911.jpg",
+      "installationNote": "官方商品尺寸及安裝須知圖分別標示開門機身最大深度1150mm；嵌入櫥櫃預留深63cm、寬至少60cm，門全開需預留120cm。安裝淨空不可用機身開門尺寸代替，實際依現場丈量評估。",
+      "confidence": "high",
+      "isOfficialSource": true,
+      "checkedAt": "2026-08-31"
+    },
+    {
       "id": "waterheater-rinnai-rua-d1620wf",
       "dimension": "尺寸：寬 33 x 深 20 x 高 57.2 cm",
       "sourceUrl": "https://www.rinnai.com.tw/Product/V3/413",
@@ -5235,18 +5272,6 @@
       "confidence": "high",
       "isOfficialSource": true,
       "checkedAt": "2026-08-24"
-    },
-    {
-      "id": "dishwasher-hitachi-hdff168cvgb",
-      "dimension": "尺寸：寬 59.8 x 深 60 x 高 85 cm",
-      "sourceUrl": "https://hitachi-homeappliances.com.tw/products/products_feature.php?pid=HDFF168CV",
-      "sourceTitle": "日立 HDFF168CV 規格功能表（不鏽鋼銀 X／琉璃黑 GB）",
-      "evidenceSnippet": "官方產品尺寸寬x深x高(mm)為598*600*850(含上蓋30)；開門598*1150*850、包裝657*674*897另列，未混用包裝尺寸。",
-      "installationSourceUrl": "https://hitachi-homeappliances.com.tw/upload/products/pgroup24302602025911.jpg",
-      "installationNote": "官方商品尺寸及安裝須知圖分別標示開門機身最大深度1150mm；嵌入櫥櫃預留深63cm、寬至少60cm，門全開需預留120cm。安裝淨空不可用機身開門尺寸代替，實際依現場丈量評估。",
-      "confidence": "high",
-      "isOfficialSource": true,
-      "checkedAt": "2026-08-31"
     }
   ]
 }

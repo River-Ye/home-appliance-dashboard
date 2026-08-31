@@ -3988,6 +3988,271 @@
       "attestation": "manual_original_pages_reviewed"
     },
     {
+      "id": "soundbar-asus-rog-gjallar",
+      "category": "soundbar",
+      "brand": "ASUS",
+      "model": "ROG Gjallar",
+      "reviewBatch": "soundbar",
+      "reviewedAt": "2026-08-31",
+      "decision": "common_issue",
+      "checkedPlatforms": [
+        "Reddit",
+        "Mobile01",
+        "ASUS ZenTalk",
+        "Yi-Feng Xie's Blog"
+      ],
+      "queries": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"ROG Gjallar\" (problem OR issue OR defect OR failure)",
+          "targetHost": "reddit.com",
+          "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22ROG%20Gjallar%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"ROG Gjallar\" (災情 OR 問題 OR 故障 OR 負評)",
+          "targetHost": "mobile01.com",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22ROG%20Gjallar%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)"
+        }
+      ],
+      "candidateDisposition": "ROG Gjallar：無線重低音斷線已以6位獨立使用者、Mobile01與ASUS ZenTalk兩站逐人覆核成立common_issue；此為保守採樣人數而非整串總人數。其他HDMI/CEC/滑鼠問題分開排除；同帳號、分頁重複、0x101部落格跨貼與身份未能確認的jiean不重計。",
+      "representativeSources": [
+        {
+          "platform": "Mobile01",
+          "title": "【開箱】ROG Gjallar電競soundbar",
+          "url": "https://www.mobile01.com/topicdetail.php?f=348&t=7285601"
+        },
+        {
+          "platform": "Mobile01",
+          "title": "【開箱】ROG Gjallar電競soundbar（第2頁）",
+          "url": "https://www.mobile01.com/topicdetail.php?f=348&p=2&t=7285601"
+        },
+        {
+          "platform": "ASUS ZenTalk",
+          "title": "Rog gjallar",
+          "url": "https://zentalk.asus.com/t5/%E9%9F%B3%E6%95%88%E5%8D%A1-dac/rog-gjallar/td-p/510259"
+        },
+        {
+          "platform": "ASUS ZenTalk",
+          "title": "Rog gjallar（第2頁）",
+          "url": "https://zentalk.asus.com/t5/%E9%9F%B3%E6%95%88%E5%8D%A1-dac/rog-gjallar/m-p/510334/highlight/true"
+        }
+      ],
+      "candidateReviews": [
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/ASUSROG/comments/1vv4ore/asus_rog_gjallar_soundbar_thoughts/",
+          "title": "ASUS ROG Gjallar Soundbar Thoughts",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-31",
+          "sourceExcerpt": "Wilson-theVolleyball 在 HDMI IN 連接 Xbox、UB420 與 PC 時只能得到立體聲，但 HDMI OUT eARC 可播放 Atmos，4K120直通也正常。",
+          "independentAuthors": 1,
+          "specificReason": "這是1位使用者的HDMI輸入Atmos問題，與已成立的無線重低音斷線不同，不能合併湊足同一問題6人；未宣稱HDMI問題已被解決。"
+        },
+        {
+          "platform": "Mobile01",
+          "url": "https://www.mobile01.com/topicdetail.php?f=348&p=3&t=7285601",
+          "title": "【開箱】ROG Gjallar電競soundbar（第3頁）",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-31",
+          "sourceExcerpt": "ioriex描述PS5 CEC不轉發與USB訊源跳回eARC；bin12描述Ark顯示器喚醒與訊源切換；ROGYES後續說測試韌體改善低音斷連。",
+          "independentAuthors": 2,
+          "specificReason": "兩名訊源/CEC回報者的問題不同，未達獨立6人2站門檻；ROGYES已在第2頁計入，後續改善只作狀態追蹤不重複計數。"
+        },
+        {
+          "platform": "ASUS ZenTalk",
+          "url": "https://zentalk.asus.com/t5/%E9%9F%B3%E6%95%88%E5%8D%A1-dac/rog-gjallar/m-p/511029",
+          "title": "Rog gjallar — 官方已接受解決方案",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-31",
+          "sourceExcerpt": "Aureliannn_ASUS宣布正式Firmware Update Tool v1.00.15已上架，請更新後再確認；同頁Hnok606反映更新後藍牙滑鼠偶爾不順。",
+          "independentAuthors": 1,
+          "specificReason": "官方版主不是使用者回報者；Hnok606的滑鼠干擾不是同一低音斷線問題，單人不足新集中問題。上架通知只證明有更新，不能推定全部解決。"
+        },
+        {
+          "platform": "Yi-Feng Xie's Blog",
+          "url": "https://yfxie.com/rog-gjallar/",
+          "title": "ROG Gjallar 開箱 - 災情 先不要買！",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-31",
+          "sourceExcerpt": "作者描述一首歌低音消失數次、10秒後重新連線，並明載同樣測試已回報ZenTalk；ZenTalk 0x101原帖反向連回此文。",
+          "independentAuthors": 1,
+          "specificReason": "已確認與ZenTalk 0x101屬跨站相同回報，不把個人部落格當新增第二原始平台；本輪保守6人樣本未採這個跨站作者，因此無需創造孤立crossPostKey。"
+        },
+        {
+          "platform": "ASUS ZenTalk",
+          "url": "https://zentalk.asus.com/t5/%E9%9F%B3%E6%95%88%E5%8D%A1-dac/rog-gjallar/td-p/510259/page/5",
+          "title": "Rog gjallar（第5頁）",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-31",
+          "sourceExcerpt": "0x101貼出與其yfxie部落格相同的USB、藍牙、距離與重配對測試；jiean亦回報每分鐘斷線，Dean恩追蹤送修進度。",
+          "independentAuthors": 3,
+          "specificReason": "這頁僅作補充與去重，不加入已逐人建檔的6人樣本：0x101與部落格互鏈；jiean與Mobile01 jiean111的身份無法確實排重；Dean恩這頁主要為送修追蹤。"
+        },
+        {
+          "platform": "ASUS ZenTalk",
+          "url": "https://zentalk.asus.com/t5/%E9%9F%B3%E6%95%88%E5%8D%A1-dac/rog-gjallar/td-p/510259/page/4",
+          "title": "Rog gjallar（第4頁）",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-31",
+          "sourceExcerpt": "董_明述ROG Gjallar聲霸與低音喇叭反覆重連；jiean及0x101的內容在第5頁重複出現；zza與老詹9981是既有作者的後續。",
+          "independentAuthors": 1,
+          "specificReason": "保留董_作同一問題的額外支持但未納入保守6人計數，不表示其回報無效；其他作者與已看過的分頁重複，且跨站jiean身份未確證。"
+        },
+        {
+          "platform": "ASUS ZenTalk",
+          "url": "https://zentalk.asus.com/t5/%E9%9F%B3%E6%95%88%E5%8D%A1-dac/rog-gjallar/td-p/510259/page/11",
+          "title": "Rog gjallar（第11頁）",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-31",
+          "sourceExcerpt": "ALIN1022自述購買後一直斷線並索取更新；嘰嘰歪歪只索取檔案；dc6679表示更新後測試一小時正常。",
+          "independentAuthors": 1,
+          "specificReason": "ALIN1022僅列補充支持、不擴大已完成逐人紀錄的6人樣本；索檔本身不等於故障回報，短時間正常亦非全機種問題已解決的證據。"
+        },
+        {
+          "platform": "Mobile01",
+          "url": "https://www.mobile01.com/topicdetail.php?f=348&t=7285601",
+          "title": "【開箱】ROG Gjallar電競soundbar",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-31",
+          "sourceExcerpt": "第5樓老何自述重低音連線斷斷續續；開箱首樓寫七月底上市，ROGYES於本頁轉述別人換新，不能將該轉述另計。",
+          "independentAuthors": 1,
+          "specificReason": "老何的有效斷線回報已納入verified evidence；此搜尋命中是同來源重複，excluded僅排除再次計入作者／人數，不否定已成立的災情。"
+        },
+        {
+          "platform": "Mobile01",
+          "url": "https://www.mobile01.com/topicdetail.php?f=348&p=1&t=7285601",
+          "title": "【開箱】ROG Gjallar電競soundbar（第1頁網址）",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-31",
+          "sourceExcerpt": "p=1網址為同一開箱首頁，老何在第5樓描述自己的重低音間歇斷線；並非另一位機主或另一個原始網站。",
+          "independentAuthors": 1,
+          "specificReason": "老何已由不含p=1的原頁URL納入verified evidence；此命中只排除同頁URL別名造成的重複計數，有效災情仍採用。"
+        },
+        {
+          "platform": "Mobile01",
+          "url": "https://www.mobile01.com/topicdetail.php?f=348&p=2&t=7285601",
+          "title": "【開箱】ROG Gjallar電競soundbar（第2頁）",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-31",
+          "sourceExcerpt": "LuIsAnDrUw描述每分鐘斷線、拔鍵鼠接收器仍無效；ROGYES在第17樓下自述只用手機藍牙也斷線；jiean111另留言重低音斷續。",
+          "independentAuthors": 3,
+          "specificReason": "LuIsAnDrUw與ROGYES的有效回報已納入verified evidence，本搜尋命中不再新增兩人；jiean111與ZenTalk jiean身份尚無法排重，保留其回報但不加入保守6人樣本。"
+        },
+        {
+          "platform": "Mobile01",
+          "url": "https://www.mobile01.com/topicdetail.php?f=348&p=4&t=7284706",
+          "title": "〖開箱｜心得〗ROG首款聲霸喇叭，搭載杜比全景聲及AEC智慧麥克風｜ROG GJALLAR（第4頁）",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-31",
+          "sourceExcerpt": "第31至35樓獵頭薩滿、夏君佾、Yxuannn、atang000000與min__0408僅稱外觀炫、天花板、帥、讚或好燒。",
+          "independentAuthors": 0,
+          "specificReason": "原頁這五則為外观或正面短評，未包含本人故障經驗；independentAuthors記可採計問題作者0人，不把留言數或按讚數當災情人數。"
+        },
+        {
+          "platform": "Mobile01",
+          "url": "https://www.mobile01.com/topicdetail.php?f=348&t=7285192",
+          "title": "〖 8/1台中英格藍一日店長Ru' 味春捲〗 ROG Gjallar 電競Soundbar | 電競喇叭",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-31",
+          "sourceExcerpt": "阿洪開箱中介紹8月1日首賣體驗會、闖關、規格與展示空間，並附折扣碼；所讀首樓不是長期持有後的故障回報。",
+          "independentAuthors": 0,
+          "specificReason": "此搜尋命中為首賣活動與商品介紹，沒有可採計的第一人稱故障作者；僅就實際讀取的原頁內容排除，不能由現場展示或體驗推論長期穩定性。"
+        },
+        {
+          "platform": "Mobile01",
+          "url": "https://www.mobile01.com/topicdetail.php?f=500&t=7278923",
+          "title": "補完桌面信仰拼圖！ROG 推出 Gjallar 旗艦電競 Sound Bar 與 Raikiri II Pro PC 控制器",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-31",
+          "sourceExcerpt": "陳拔首樓為Gjallar與Raikiri II Pro發表介紹，列17900元與預計本月下旬上市；所見回覆主要討論售價、外觀與整套購入。",
+          "independentAuthors": 0,
+          "specificReason": "原文是新品發表報導，所見回覆未提供可採計的同款第一人稱故障經驗；不把媒體介紹或上市前期待加入6人災情樣本。"
+        },
+        {
+          "platform": "ASUS ZenTalk",
+          "url": "https://zentalk.asus.com/t5/%E9%9F%B3%E6%95%88%E5%8D%A1-dac/rog-gjallar/m-p/510770/highlight/true",
+          "title": "Rog gjallar（訊息510770）",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-31",
+          "sourceExcerpt": "原頁jiean回報每分鐘斷連；0x101列USB、藍牙、距離與重新配對測試並連向yfxie部落格；Dean恩追蹤送修與等待換機。",
+          "independentAuthors": 3,
+          "specificReason": "此為已覆核第5頁的搜尋命中別名；0x101與部落格跨貼、jiean跨站身份未確證、Dean恩為送修追蹤，均不重複加入既有6人保守樣本，並非認定回報無效。"
+        },
+        {
+          "platform": "ASUS ZenTalk",
+          "url": "https://zentalk.asus.com/t5/%E9%9F%B3%E6%95%88%E5%8D%A1-dac/rog-gjallar/m-p/510742/highlight/true",
+          "title": "Rog gjallar（訊息510742）",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-31",
+          "sourceExcerpt": "搜尋曾顯示第4頁，但原頁定位為同串訊息510742，包含jiean與0x101相同斷線回報；URL分頁文字會隨論壇呈現改變。",
+          "independentAuthors": 2,
+          "specificReason": "此命中是既有第4／5頁回報的URL別名；0x101已確認部落格跨貼，jiean身份尚待排重，因此只排除重複／未確證獨立計數，不否定低音斷線現象。"
+        },
+        {
+          "platform": "ASUS ZenTalk",
+          "url": "https://zentalk.asus.com/t5/%E9%9F%B3%E6%95%88%E5%8D%A1-dac/rog-gjallar/m-p/510259",
+          "title": "Rog gjallar（主帖訊息510259）",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-31",
+          "sourceExcerpt": "zza描述紅燈與重低音斷開一兩秒；jacoblin3067260自述依FAQ操作仍會中斷，重低音維持藍燈而Soundbar閃紅後重連。",
+          "independentAuthors": 2,
+          "specificReason": "zza與jacoblin3067260的有效災情已由同串td-p/510259納入verified evidence；此搜尋命中為同來源URL別名，excluded只排除再次增加兩位作者。"
+        },
+        {
+          "platform": "ASUS ZenTalk",
+          "url": "https://zentalk.asus.com/t5/%E9%9F%B3%E6%95%88%E5%8D%A1-dac/rog-gjallar/m-p/510259/highlight/true",
+          "title": "Rog gjallar（主帖訊息510259反白網址）",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-31",
+          "sourceExcerpt": "反白網址仍顯示zza的低音炮斷開重連與jacoblin3067260依FAQ無效的自述，並有官方要求錄影及提供序號的回覆。",
+          "independentAuthors": 2,
+          "specificReason": "兩位原始回報已納入verified evidence，highlight/true並非新增回報或獨立網站；僅排除此別名的重複計數，有效災情仍完整保留。"
+        },
+        {
+          "platform": "ASUS ZenTalk",
+          "url": "https://zentalk.asus.com/t5/%E9%9F%B3%E6%95%88%E5%8D%A1-dac/rog-gjallar/m-p/510390/highlight/true",
+          "title": "Rog gjallar（訊息510390）",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-31",
+          "sourceExcerpt": "邱育村描述測試韌體後仍約55秒低音斷連及USB隔夜無法隨PC喚醒；jo61325869另自述同樣斷連；頁首重複顯示zza主帖。",
+          "independentAuthors": 2,
+          "specificReason": "兩位為同一低音問題的補充支持，本輪不擴大已逐人建檔的6人保守樣本；zza為頁首重複不能重計。USB隔夜喚醒僅邱育村一人、屬另一問題，未成立新common_issue。"
+        },
+        {
+          "platform": "ASUS ZenTalk",
+          "url": "https://zentalk.asus.com/t5/%E9%9F%B3%E6%95%88%E5%8D%A1-dac/rog-gjallar/m-p/510417/highlight/true",
+          "title": "Rog gjallar（訊息510417）",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-31",
+          "sourceExcerpt": "此第3頁反白網址同樣列出邱育村USB休眠喚醒與約55秒低音重連測試，以及jo61325869的斷連自述。",
+          "independentAuthors": 2,
+          "specificReason": "與訊息510390網址顯示相同第3頁作者，故排除重複計數；仍保留兩名補充回報，不把USB喚醒與無線低音斷連合併為新的六人問題。"
+        }
+      ],
+      "reviewerNote": "ROG Gjallar：人工讀取Mobile01三頁及ZenTalk首頁、第2/4/5/11頁與官方接受解決方案、Reddit原評測和部落格。六位採計者各自描述使用與斷連，原頁permalink與具體定位均已保存；不由作者陣列推定第一人稱。官方更新工具與部分改善回報保留為後續狀態，不宣稱災情全部消失。 搜尋命中與站內瀏覽分開保存；已採用來源的excluded僅指排除重複計數，不否定有效災情。09:04 UTC增量重查命中的活動、發表頁及同串別名亦逐頁處置。",
+      "attestation": "manual_original_pages_reviewed"
+    },
+    {
       "id": "fan-panasonic-fh16",
       "category": "fan",
       "brand": "Panasonic",
@@ -14605,6 +14870,63 @@
         }
       ],
       "reviewerNote": "RV-X20P：2026-08-31 重新以完整 canonical model 跨 Mobile01、PTT、Reddit 查詢，人工閱讀可辨識候選兩串三頁及回覆。沒有符合本型號同問題、6位獨立使用者且跨2個原始網站的集中故障證據。no_common_issue 不代表完全沒有負評；代工或品牌耐用印象不作產品可靠度保證。",
+      "attestation": "manual_original_pages_reviewed"
+    },
+    {
+      "id": "robot-hitachi-rv-x20dpa",
+      "category": "robot",
+      "brand": "HITACHI",
+      "model": "RV-X20DPA",
+      "reviewedAt": "2026-08-31",
+      "reviewBatch": "robot",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "Mobile01",
+        "PTT",
+        "Reddit"
+      ],
+      "queries": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"RV-X20DPA\" (災情 OR 問題 OR 故障 OR 負評)",
+          "targetHost": "mobile01.com",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22RV-X20DPA%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)"
+        },
+        {
+          "platform": "PTT",
+          "query": "site:ptt.cc \"RV-X20DPA\"",
+          "targetHost": "ptt.cc",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22RV-X20DPA%22"
+        },
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"RV-X20DPA\"",
+          "targetHost": "reddit.com",
+          "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22RV-X20DPA%22"
+        }
+      ],
+      "candidateDisposition": "RV-X20DPA：Mobile01原頁只有1名可辨識持有者Eyou提出App分房與耗材資訊疑慮，同作者兩則帖子去重。PTT與Reddit完整型號跨站搜尋無候選，未達同一問題至少6位獨立使用者且跨2原始網站的門檻。",
+      "representativeSources": [
+        {
+          "platform": "Mobile01",
+          "title": "[請益]日立濕拖掃地機器人RV-X20DPA好不好用？",
+          "url": "https://www.mobile01.com/topicdetail.php?f=728&t=7077088"
+        }
+      ],
+      "candidateReviews": [
+        {
+          "url": "https://www.mobile01.com/topicdetail.php?f=728&t=7077088",
+          "title": "[請益]日立濕拖掃地機器人RV-X20DPA好不好用？",
+          "platform": "Mobile01",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-31",
+          "sourceExcerpt": "Eyou 先詢問RV-X20DPA，後於第4樓說已購入、App分房不知如何操作及找不到耗材資訊；第6樓同一作者補充掃拖效果滿意，但仍不清楚集塵袋重用與購買方式。其他留言多為選購疑問、品牌印象或RV-X20P。",
+          "independentAuthors": 1,
+          "specificReason": "已人工逐則閱讀1至9樓及附屬回文。Eyou在第4樓（文章91176237）與第6樓（91349161）是同一名RV-X20DPA持有者，只計1位；App分房與耗材資訊疑慮不足以成立6人跨2站同一問題。首文舊機缺陷是RVDX1T，眉似月火及Anteros.W談RV-X20P，天才黃月英談追覓X50，不能套用DPA；其餘提問或代工猜測不計入故障作者。"
+        }
+      ],
+      "reviewerNote": "RV-X20DPA：2026-08-31人工重查Mobile01、PTT、Reddit exact-model入口，閱讀Mobile01全串9樓與回覆。保留Eyou兩則第一人稱觀察但只算1位，不把RV-X20P、RVDX1T、追覓X50或選購問題計入本型。no_common_issue僅表示未達集中負評門檻，並非完全沒有負評。",
       "attestation": "manual_original_pages_reviewed"
     },
     {

@@ -13,6 +13,54 @@ function isValidReviewDate(value) {
 
 const verifiedRows = [
   {
+    "id": "soundbar-asus-rog-gjallar",
+    "checkedAt": "2026-08-31",
+    "summary": "多位 ROG Gjallar 使用者回報無線重低音會間歇斷線、低頻消失後重新連線；官方已提供更新工具，仍須確認個別設備改善。",
+    "title": "無線重低音間歇斷線與重連",
+    "detail": "以 Mobile01 與 ASUS ZenTalk 6 位逐人覆核的獨立使用者為保守樣本。官方已提供 Firmware Update Tool v1.00.15，2026-08-20 FAQ 亦要求更新韌體；部分使用者表示改善，但不能推定所有批次、訊源與環境均已解決。購買前確認更新與退換貨條件，到貨後測試低音連線穩定性。",
+    "reportCount": 6,
+    "sources": [
+      {
+        "platform": "Mobile01",
+        "title": "【開箱】ROG Gjallar電競soundbar",
+        "url": "https://www.mobile01.com/topicdetail.php?f=348&t=7285601",
+        "authors": [
+          "老何"
+        ],
+        "evidenceSnippet": "第5樓老何描述自己的重低音連線間歇中斷。"
+      },
+      {
+        "platform": "Mobile01",
+        "title": "【開箱】ROG Gjallar電競soundbar（第2頁）",
+        "url": "https://www.mobile01.com/topicdetail.php?f=348&p=2&t=7285601",
+        "authors": [
+          "LuIsAnDrUw",
+          "ROGYES"
+        ],
+        "evidenceSnippet": "第17樓及其留言兩位獨立使用者描述重低音反覆斷線，並各自測試移除鍵鼠接收器或僅用手機藍牙。"
+      },
+      {
+        "platform": "ASUS ZenTalk",
+        "title": "Rog gjallar",
+        "url": "https://zentalk.asus.com/t5/%E9%9F%B3%E6%95%88%E5%8D%A1-dac/rog-gjallar/td-p/510259",
+        "authors": [
+          "zza",
+          "jacoblin3067260"
+        ],
+        "evidenceSnippet": "首樓zza與jacoblin3067260分別描述重低音斷開重連、紅藍燈狀態與FAQ無法排除的情形。"
+      },
+      {
+        "platform": "ASUS ZenTalk",
+        "title": "Rog gjallar（第2頁）",
+        "url": "https://zentalk.asus.com/t5/%E9%9F%B3%E6%95%88%E5%8D%A1-dac/rog-gjallar/m-p/510334/highlight/true",
+        "authors": [
+          "老詹9981"
+        ],
+        "evidenceSnippet": "老詹9981移動路由器、只留2.4GHz仍重現相同低音斷連。"
+      }
+    ]
+  },
+  {
     id: "wifi-unifi-u7-pro",
     summary: "多位同型號使用者回報 2.4GHz IoT 裝置會頻繁斷線、無法連網或反覆重連。",
     title: "2.4GHz IoT 裝置斷線與相容性不穩",

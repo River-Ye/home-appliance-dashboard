@@ -733,9 +733,9 @@
     "image": "https://cs-a.ecimg.tw/items/DMAC6RA900IUC3J/000001_1761017834.png",
     "price": {
       "currency": "TWD",
-      "amount": 29999,
-      "converted": 29999,
-      "confidence": "PChome 2026-08-28 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 28999,
+      "converted": 28999,
+      "confidence": "PChome 2026-08-31 exact-model API 與 Chrome 同 SKU AUT7005 整機公開單件價 NT$28,999（08/31–09/30），主購買控制可用。"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -773,17 +773,17 @@
     "category": "waterdispenser",
     "releaseDate": "找不到",
     "historicalLow": {
-      "status": "not_found",
-      "amount": null,
+      "status": "found",
+      "amount": 25500,
       "currency": "TWD",
-      "converted": null,
-      "sourceUrl": "",
-      "sourceTitle": "",
-      "evidenceSnippet": "",
-      "sourceKind": "not_found",
-      "confidence": "not_found",
-      "checkedAt": "2026-07-11",
-      "note": "既有史低證據是相容濾芯／耗材，而不是目標整機；應撤銷 found 並重新查核整機史低。 已撤銷錯誤史低；本輪重新查核仍找不到同型號、同尺寸／容量／規格且可公開驗證的可信新品整機史低。"
+      "converted": 25500,
+      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1269639153&cgp=28999",
+      "sourceTitle": "比價撿便宜：Momo Philips AUT7005 RO 廚下型瞬熱淨水器完整主機價格歷史",
+      "evidenceSnippet": "2026-08-31 以 Philips AUT7005 查詢，卡片1269639153明確對應 Momo RO廚下型瞬熱淨水器(AUT7005)完整主機，轉往Momo14917456；13筆歷史價格點中2026-08-11為NT$25,500，Chrome同卡片歷史圖亦可見此低點。不是相容濾芯，也不是cgp=28999所帶入的查核現價。",
+      "sourceKind": "price_history",
+      "confidence": "medium",
+      "checkedAt": "2026-08-31",
+      "note": "採可驗證的Momo同型號完整新品追蹤低點，不保證涵蓋全網或終身最低價；未計信用卡、點數或個人化優惠。限量30台是被追蹤賣場名稱，不代表目前仍有該低價庫存。AUT821/AUT822/AUT823濾芯pid1281366826仍排除，現價另依PChome公開頁。"
     },
     "issueResearch": {
       "status": "no_common_issue",

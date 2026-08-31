@@ -3140,6 +3140,129 @@
       "AirPlay",
       "Google Cast"
     ]
+  },
+  {
+    "id": "soundbar-asus-rog-gjallar",
+    "category": "soundbar",
+    "rank": 33,
+    "topPick": false,
+    "budget": "mid",
+    "channel": "tw",
+    "brand": "ASUS",
+    "model": "ROG Gjallar",
+    "name": "ROG Gjallar 2.1.2 聲道電競 Soundbar 與無線重低音",
+    "price": {
+      "currency": "TWD",
+      "amount": 17300,
+      "converted": 17300,
+      "confidence": "2026-08-31 人工查核：PChome DCAIAM-A900K9HQX 新品網路價NT$17,900，08/24–08/31公開滿額折扣後NT$17,300；實際商品頁『下單再折』對話框顯示此金額且加入購物車按鈕可用。API Low=17300、Qty=10；未計會員券、信用卡或P幣。",
+      "basis": "retailer_current"
+    },
+    "installation": {
+      "status": "not_stated",
+      "note": "商品包含Soundbar主機、5GHz無線重低音與控制中樞；原廠列隨附可拆式腳墊、變壓器和兩條AC線。需自行擺放接線；到府、壁掛施工未標示包含。"
+    },
+    "image": "https://img.pchome.com.tw/cs/items/DCAIAMA900K9HQX/000001_1785489874.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DCAIAM-A900K9HQX",
+    "buyLabel": "PChome 24h exact-model 台灣新品",
+    "specs": [
+      "2.1.2 聲道 Dolby Atmos；左右聲道、上射式天空聲道與獨立無線重低音；不含實體後環繞",
+      "4 x 50mm 全音域、2 x 27mm 高音；6.5吋（165mm）65W重低音，以5GHz無線連接",
+      "HDMI IN、HDMI OUT eARC、USB-C、光纖、AUX、Bluetooth 5.3；最高4K@120Hz影像直通",
+      "LCD控制中樞、AEC麥克風、Gear Link EQ與RGB設定；麥克風只支援USB或Bluetooth模式",
+      "PC Dolby Atmos需HDMI及相容軟體/內容；雙USB-A集線器需主機USB-C連接電腦才可使用",
+      "尺寸：主機 寬 60.7 x 深 9.2 x 高 8.2 cm",
+      "其他組件：重低音、控制中樞的寬深高順序查不到",
+      "重量：主機 2.4 kg；重低音 5.7 kg；控制中樞 0.191 kg",
+      "供電：主機使用隨附變壓器接DC輸入、重低音獨立AC供電；需預留兩個插座，額定AC電壓與頻率未標示"
+    ],
+    "description": "以PC桌面為主的60.7公分Soundbar，將實體上射聲道、無線重低音、LCD控制中樞與USB集線器合為一套；適合在PC與遊戲主機間切換，但上市初期有跨站重低音斷線回報。",
+    "pros": [
+      "完整套裝含5GHz無線重低音，不必另購低音箱",
+      "短機身仍有HDMI 2.1輸入/eARC及4K120直通，方便PC與遊戲主機共用",
+      "可在桌邊切換訊源、調EQ，USB/藍牙模式可用AEC麥克風"
+    ],
+    "cons": [
+      "無線重低音間歇斷線已達6位獨立使用者、2個原始網站門檻；官方更新工具已提供，不能推定各批次均已解決",
+      "2.1.2不含獨立中置與後環繞，不能取代實體包圍系統",
+      "內建麥克風不支援HDMI模式，PC Atmos與語音需求須先確認接法；另有少數HDMI/CEC相容性回報"
+    ],
+    "bestFor": "桌面空間有限、希望PC與遊戲主機共用聲霸，且願意先更新韌體並在退換貨期實測的玩家。",
+    "recommendation": "桌面電競比較候選，非Top Pick：接口與完整2.1.2套裝有特色，但先確認正式韌體、退換貨及電源規格，再以實際訊源測試重低音與HDMI穩定性；追求低維護成本或實體後環繞者宜優先比較其他成熟方案。",
+    "releaseDate": "2026-07",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-08-31",
+      "note": "已查ROG Gjallar官方台灣公告、PChome兩個exact-model新品SKU與飛比/BigGo價格搜尋；現價NT$17,300及其他頁的NT$17,900均未提供可重現的歷史價格曲線。飛比及BigGo原搜尋頁讀取失敗，搜尋摘要僅作發現線索；不把現價、會員券、卡片回饋或二手價格冒充史低。"
+    },
+    "issueResearch": {
+      "status": "common_issue",
+      "checkedAt": "2026-08-31",
+      "summary": "多位 ROG Gjallar 使用者回報無線重低音會間歇斷線、低頻消失後重新連線；官方已提供更新工具，仍須確認個別設備改善。",
+      "issues": [
+        {
+          "title": "無線重低音間歇斷線與重連",
+          "detail": "以 Mobile01 與 ASUS ZenTalk 6 位逐人覆核的獨立使用者為保守樣本。官方已提供 Firmware Update Tool v1.00.15，2026-08-20 FAQ 亦要求更新韌體；部分使用者表示改善，但不能推定所有批次、訊源與環境均已解決。購買前確認更新與退換貨條件，到貨後測試低音連線穩定性。",
+          "reportCount": 6,
+          "sources": [
+            {
+              "platform": "Mobile01",
+              "title": "【開箱】ROG Gjallar電競soundbar",
+              "url": "https://www.mobile01.com/topicdetail.php?f=348&t=7285601"
+            },
+            {
+              "platform": "Mobile01",
+              "title": "【開箱】ROG Gjallar電競soundbar（第2頁）",
+              "url": "https://www.mobile01.com/topicdetail.php?f=348&p=2&t=7285601"
+            },
+            {
+              "platform": "ASUS ZenTalk",
+              "title": "Rog gjallar",
+              "url": "https://zentalk.asus.com/t5/%E9%9F%B3%E6%95%88%E5%8D%A1-dac/rog-gjallar/td-p/510259"
+            },
+            {
+              "platform": "ASUS ZenTalk",
+              "title": "Rog gjallar（第2頁）",
+              "url": "https://zentalk.asus.com/t5/%E9%9F%B3%E6%95%88%E5%8D%A1-dac/rog-gjallar/m-p/510334/highlight/true"
+            }
+          ]
+        }
+      ],
+      "checkedSources": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"ROG Gjallar\" (problem OR issue OR defect OR failure)",
+          "targetHost": "reddit.com",
+          "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22ROG%20Gjallar%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"ROG Gjallar\" (災情 OR 問題 OR 故障 OR 負評)",
+          "targetHost": "mobile01.com",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22ROG%20Gjallar%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)"
+        }
+      ]
+    },
+    "score": 74,
+    "voltage": "台灣公司貨；原廠Q28387手冊確認主機由隨附變壓器供電、重低音獨立AC供電，共兩條AC電源線。官方台灣規格頁、快速手冊與選定通路未列額定AC電壓/頻率，請依隨附電源銘牌確認，勿以USB供電或通用100–240V推定。",
+    "warranty": "選定PChome SKU明列2年保固、雙向到府收送；其他通路保固標示不同，下單前確認適用條件與台灣維修。",
+    "tags": [
+      "2.1.2聲道",
+      "Dolby Atmos",
+      "HDMI 2.1",
+      "4K120直通",
+      "PC桌面",
+      "無線重低音",
+      "韌體風險"
+    ]
   }
 ]);
 })();

@@ -1029,9 +1029,9 @@
     "image": "https://cs-a.ecimg.tw/items/DEDG3BA900GQDVZ/000001_1776769920.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 990,
-      "converted": 990,
-      "confidence": "Yahoo購物中心 2026-08-26 exact-model 公開結構化價格"
+      "amount": 1099,
+      "converted": 1099,
+      "confidence": "2026-08-31 16:33 台灣時間人工核對Yahoo同SKU10238240饗樂四件組，公開主價NT$1,099、立即購買及加入購物車可用；本頁未見另套95折活動，滿額贈品與銀行回饋不折抵。"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心",

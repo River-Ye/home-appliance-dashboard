@@ -4089,6 +4089,105 @@
       "手動集塵",
       "基礎濕拖"
     ]
+  },
+  {
+    "id": "robot-hitachi-rv-x20dpa",
+    "category": "robot",
+    "brand": "HITACHI",
+    "model": "RV-X20DPA",
+    "name": "LDS 雷射自動集塵濕拖掃地機器人（香檳金／4L 集塵站）",
+    "rank": 43,
+    "topPick": false,
+    "budget": "value",
+    "channel": "tw",
+    "price": {
+      "currency": "TWD",
+      "amount": 10500,
+      "converted": 10500,
+      "basis": "retailer_current",
+      "confidence": "2026-08-31 Chrome 人工核對雅光 exact SKU RVX20DPABKCG 公開主價 NT$10,500、頁面庫存1及可用購買控制；NT$12,900 是刪除線原價。未扣會員、信用卡或點數回饋。頁首圖片另要求購前電話確認，與門市共用庫存，不保證立即出貨。",
+      "note": "雅光頁面標示尚有庫存1；與門市共用庫存，下單前須致電(02)2796-5866確認，實際出貨以通路確認為準。"
+    },
+    "installation": {
+      "status": "not_stated",
+      "note": "附自動集塵與充電站；通路未明載到府設定服務。底座放於硬質水平地面，前方保留1.5m、左右各0.5m，依台灣說明書使用獨立110V插座，不用延長線；水箱與拖布須手動維護。"
+    },
+    "image": "https://cdn1-next.cybassets.com/media/W1siZiIsIjI3Njc0L3Byb2R1Y3RzLzU4MDIxNDA0LzE3NTM5NDk5NzNfZWUyODg4NmIxYTg2Y2FhODAzM2MucG5nIl0sWyJwIiwidGh1bWIiLCI2MDB4NjAwIl1d.png?sha=5790e10d1db1f9b6",
+    "buyUrl": "https://www.yk01.com.tw/products/rvx20dpabkcg",
+    "buyLabel": "雅光電器（購前電話確認庫存）",
+    "specs": [
+      "LDS 雷射導航；HomeDirect App，最多保存5張地圖",
+      "最高吸力5,000Pa、4段吸力；App 調整水量，越障最高2cm",
+      "集塵盒0.4L、水箱0.3L、4L自動集塵站；沒有拖布自清潔，須手動清洗",
+      "電池14.4V／5Ah；安靜模式最長250分鐘、標準180分鐘、強力120分鐘、超強65分鐘",
+      "充電6–7.5小時；Wi-Fi 2.4GHz，802.11b/g/n",
+      "集塵站尺寸：寬22.6 x 深18.5 x 高38.3cm；官方本體僅列342 x 94.5mm，未明示完整三軸順序與淨重",
+      "附自動集塵與充電站、拖地工具、拖布x2、邊刷x2、濾網x2、清潔刷與集塵袋x3",
+      "集塵座輸入100–120V／50–60Hz，充電狀態0.6A、集塵狀態9A，輸出24V DC／1.5A；台灣說明書指定獨立110V插座"
+    ],
+    "description": "HITACHI RV-X20DPA 是台灣官方仍列示的自動集塵雷射掃拖款，以4L集塵站與既有無自動集塵的RV-X20P區隔；不是2026新發表，也不具自動洗布或烘布。雅光公開頁標示庫存1，但與實體門市共用庫存，頁首要求購前電話確認，不能當成保證立即出貨。",
+    "pros": [
+      "自動回收集塵盒灰塵，可減少手動倒塵頻率",
+      "LDS 地圖、分區及App吸力／水量調整適合基本日常掃拖",
+      "台灣官方 exact-model 說明書可核對集塵站電力、使用限制及維修據點"
+    ],
+    "cons": [
+      "仍需自行加水、拆洗拖布；拖地後應即時移除濕拖布，不在地毯上拖地",
+      "最高250分鐘僅是安靜模式，超強模式約65分鐘；集塵袋仍是消耗品",
+      "通路要求購前電話確認庫存，且未單列本型保固年限；耗材型號與供應也應先問清楚"
+    ],
+    "bestFor": "偏好日立台灣公司貨、希望減少倒塵但可接受手洗拖布，且可先向門市確認供貨與保固的家庭。",
+    "recommendation": "日系自動集塵比較款，不列Top Pick。購前致電雅光確認與門市共用的庫存、原廠保證書及耗材供應；NT$10,500為查核時頁面主價，不代表保留庫存或保證出貨。重視拖地自動化者應同時比較洗布／烘布型。",
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-08-31",
+      "note": "已查雅光 RV-X20DPA NT$10,500 現價、Yahoo 同型頁、玉明電器及 BigGo／FindPrice／比價撿便宜的同型號價格入口。比價頁混有耗材與非新品拍賣，搜尋快取舊價格與目前售價缺少可重現的日期價格序列；未取得同型號可信新品的具日期史低證據，不以 NT$10,500 現價推定史低。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-08-31",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"RV-X20DPA\" (災情 OR 問題 OR 故障 OR 負評)",
+          "targetHost": "mobile01.com",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22RV-X20DPA%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)"
+        },
+        {
+          "platform": "PTT",
+          "query": "site:ptt.cc \"RV-X20DPA\"",
+          "targetHost": "ptt.cc",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22RV-X20DPA%22"
+        },
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"RV-X20DPA\"",
+          "targetHost": "reddit.com",
+          "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22RV-X20DPA%22"
+        }
+      ]
+    },
+    "score": 82,
+    "voltage": "集塵座100–120V／50–60Hz，充電0.6A／集塵9A，輸出24V DC／1.5A；台灣說明書指定獨立110V插座",
+    "warranty": "雅光台灣原廠公司貨；依隨附原廠保證書，商品頁未明載本型號保固年限，下單前須確認",
+    "tags": [
+      "日系品牌",
+      "LDS雷射導航",
+      "台灣公司貨",
+      "自動集塵",
+      "手洗拖布"
+    ]
   }
 ]);
 })();
