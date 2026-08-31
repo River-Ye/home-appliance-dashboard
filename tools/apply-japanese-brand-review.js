@@ -20,6 +20,9 @@ if (!expectedDate || !/^\d{4}-\d{2}-\d{2}$/.test(expectedDate)) {
 if (!fs.existsSync(reportPath)) throw new Error(`Missing maintenance report: ${reportPath}`);
 
 const report = JSON.parse(fs.readFileSync(reportPath, "utf8"));
+if (report.auditScope !== undefined) {
+  throw new Error("Full Japanese-brand review cannot relabel an incremental audit; prepare a fresh full maintenance draft");
+}
 if (report.dataDate !== expectedDate || !Array.isArray(report.categoryScan)) {
   throw new Error(`Maintenance report must contain categoryScan for ${expectedDate}`);
 }

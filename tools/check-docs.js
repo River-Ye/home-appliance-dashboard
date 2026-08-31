@@ -1,6 +1,9 @@
 const fs = require("fs");
 const path = require("path");
 const { readDashboardProducts } = require("./read-dashboard-products");
+const { DIMENSION_CATEGORY_COUNTS, WEIGHT_CATEGORY_COUNTS } = require("./dashboard-contract");
+const { renderMaintenanceSummary, replaceMarkerBlock, updateIndexMetadata } = require("./update-maintenance-metadata");
+const { ADDED_PRODUCTS_SCOPE, loadIncrementalBaseline } = require("./incremental-catalog-audit");
 const {
   SITE_URL,
   SITE_NAME,
@@ -47,6 +50,9 @@ function main() {
   const readme = read("README.md");
   const agents = read("AGENTS.md");
   const repoSkill = read(".agents/skills/home-appliance-dashboard/SKILL.md");
+  assert(readme.includes("螢幕燈精選 20 款桌機掛燈"), "README monitor-light scope is missing");
+  assert(agents.includes("### 螢幕燈"), "AGENTS monitor-light scope is missing");
+  assert(repoSkill.includes("added_products_only"), "repo skill incremental maintenance scope is missing");
   const packageJson = JSON.parse(read("package.json"));
   assertFileExists("CNAME");
   assertFileExists("robots.txt");
@@ -75,6 +81,12 @@ function main() {
   const meta = Function(`return ${metaMatch[1]}`)();
   assert(meta.expectedCategoryCount === categories.length, "meta expectedCategoryCount mismatch");
   assert(meta.expectedProductCount === products.length, "meta expectedProductCount mismatch");
+  const maintenanceReport = JSON.parse(read("catalog_maintenance_latest.json"));
+  const baselineReport = maintenanceReport.auditScope === ADDED_PRODUCTS_SCOPE
+    ? loadIncrementalBaseline(root, maintenanceReport.baselineRef).report
+    : null;
+  const maintenanceSummary = renderMaintenanceSummary(maintenanceReport, baselineReport);
+  assert(updateIndexMetadata(index, meta, maintenanceReport) === index, "homepage audit scope or metadata is stale");
 
   for (const file of ["README.md", "AGENTS.md"]) {
     const text = file === "README.md" ? readme : agents;
@@ -82,6 +94,7 @@ function main() {
     assert(text.includes(`${meta.expectedProductCount} 筆`), `${file} product count is stale`);
     assert(text.includes(meta.dataDate), `${file} data date is stale`);
     assert(text.includes(exchange.date), `${file} exchange date is stale`);
+    assert(replaceMarkerBlock(text, "catalog-maintenance-summary", maintenanceSummary) === text, `${file} maintenance summary does not match its audit scope and baseline`);
   }
 
   assert(
@@ -96,10 +109,10 @@ function main() {
     readme.includes(`檢查 ${categories.length} 類、${products.length} 筆、必要欄位`),
     "README check:data contract count is stale",
   );
-  assert(readme.includes("14 類尺寸與 6 類新增重量規格／證據對齊"), "README dimension/weight coverage is stale");
+  assert(readme.includes(`${DIMENSION_CATEGORY_COUNTS.size} 類尺寸與 ${WEIGHT_CATEGORY_COUNTS.size} 類新增重量規格／證據對齊`), "README dimension/weight coverage is stale");
   assert(index.includes("家電尺寸／重量查核證據"), "homepage dimension/weight evidence label is stale");
   assert(
-    agents.includes("`dimension_research.json` 同步保存 14 類商品的機身／組件尺寸證據"),
+    agents.includes(`\`dimension_research.json\` 同步保存 ${DIMENSION_CATEGORY_COUNTS.size} 類商品的機身／組件尺寸證據`),
     "AGENTS dimension evidence coverage is stale",
   );
   assert(agents.includes("主機、重低音與後環繞需依官方明確資料分列"), "AGENTS soundbar component rule is missing");
@@ -119,6 +132,7 @@ function main() {
     ["wifi", "無線路由器"],
     ["network-switch", "網路交換器"],
     ["monitor", "電腦螢幕"],
+    ["monitor-light", "螢幕燈"],
     ["monitorarm", "懸臂支架"],
     ["smartlock", "電子鎖"],
     ["cookware", "鍋具"],

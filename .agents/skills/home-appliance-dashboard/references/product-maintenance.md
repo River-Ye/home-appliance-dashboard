@@ -58,18 +58,18 @@ https://ecapi-cdn.pchome.com.tw/ecshop/prodapi/v2/prod?id=<PID>&fields=Id,Name,N
 
 ## Japanese Brand Review
 
-- Review Sony, Panasonic, HITACHI, Mitsubishi Electric, Daikin, GENERAL (Fujitsu General), Rinnai, Noritz, and TOTO across all 30 categories on every finalized catalog date.
-- Run `npm run review:japanese-brands -- --date=YYYY-MM-DD --baseline-ref=origin/main` after the maintenance draft. Every one of the 270 cells needs status, checked date, official sources, existing/added IDs, and a concrete reason. Keep this matrix in the committed maintenance report rather than a seventh public JSON.
+- Review Sony, Panasonic, HITACHI, Mitsubishi Electric, Daikin, GENERAL (Fujitsu General), Rinnai, Noritz, and TOTO across all 31 categories on every finalized full-maintenance date.
+- Run `npm run review:japanese-brands -- --date=YYYY-MM-DD --baseline-ref=origin/main` after the full-maintenance draft. Every one of the 279 cells needs status, checked date, official sources, existing/added IDs, and a concrete reason. Under `added_products_only`, preserve unchanged baseline category rows and their original dates; never let a fallback regenerate all categories. Keep this matrix in the committed maintenance report rather than a seventh public JSON.
 - Canonicalize `Hitachi` to `HITACHI`; accept bare Mitsubishi only after confirming Mitsubishi Electric, never Mitsubishi Heavy; accept GENERAL/Fujitsu General aliases; never conflate TOTO with TOTOLINK.
 - Existing eligible products count toward representative coverage. Add one exact Taiwan model only when coverage is zero and the brand has an eligible line; supplement to 2–3 only for a genuinely distinct type, capacity band, or price tier. Do not delete valid products merely because a brand already has more than three.
 
 ## Dimension And Weight Evidence
 
-- Keep `dimension_research.json` aligned with the fourteen dimension categories: TV, soundbar, washer, dryer, washer-dryer, garment care, refrigerator, coffee machine, multifunction oven/microwave, dishwasher, bidet, air conditioner, water heater, and network switch. The same file carries researched weight evidence for TV, soundbar, coffee machine, multifunction oven/microwave, air conditioner, and water heater.
+- Keep `dimension_research.json` aligned with the fifteen dimension categories: TV, soundbar, washer, dryer, washer-dryer, garment care, refrigerator, coffee machine, multifunction oven/microwave, dishwasher, bidet, air conditioner, water heater, network switch, and monitor light. The same file carries researched weight evidence for TV, soundbar, coffee machine, multifunction oven/microwave, air conditioner, water heater, and monitor light.
 - Treat `generatedAt` as the latest evidence-batch date while preserving each row's actual `checkedAt` / `weightCheckedAt`; incremental category additions must not pretend older evidence was rechecked.
 - Prefer exact-model official product/specification pages and official PDFs, then trusted retailer pages. Record product/body dimensions and net weight only; never substitute packaging dimensions, carton dimensions, or gross weight.
 - Preserve component-level values where the product has separate pieces: TV with/without stand, and soundbar main unit/subwoofer/rear speakers. Do not collapse them into an invented total.
-- Never infer width/depth/height order from three unlabeled numbers. For the newly researched TV, soundbar, coffee machine, oven, dishwasher, and bidet fields, use the literal `尺寸：查不到` or `重量：查不到` after credible sources are exhausted, and retain the checked page plus the specific reason in the evidence row.
+- Never infer width/depth/height order from three unlabeled numbers. For the newly researched TV, soundbar, coffee machine, oven, dishwasher, bidet, and monitor-light fields, use the literal `尺寸：查不到` or `重量：查不到` after credible sources are exhausted, and retain the checked page plus the specific reason in the evidence row.
 
 ## Release Dates And Historical Lows
 
@@ -85,6 +85,20 @@ https://ecapi-cdn.pchome.com.tw/ecshop/prodapi/v2/prod?id=<PID>&fields=Id,Name,N
 - `catalog_maintenance_latest.json` is the committed compact contract: counts, category decisions, changes, exact checked ID sets, exceptions, exchange rates, and manually reviewed discontinuation candidates.
 - `.maintenance-audit.json` is the verbose per-request evidence and `.maintenance-draft.json` is the pending compact decision surface. Keep both out of git and upload them only as short-lived CI artifacts when useful.
 - After the report is final, run `npm run sync:maintenance-metadata`; do not hand-maintain dated log histories in README or AGENTS.
+
+## Additions-Only Batches
+
+- Use `auditScope: "added_products_only"` only for explicitly scoped additions. Keep schema version 3, pin `baselineRef` to the complete pre-addition commit SHA, and require `summary.newProductsAdded` to equal the catalog ID difference. Missing scope retains the existing full-maintenance behavior.
+- Preserve all baseline product objects, per-item research, category review rows, and verified/exception audit states. Append evidence for new IDs to the existing complete audit sets; those sets represent cumulative coverage, not a fresh full-catalog check. Reject baseline changes, removals, replacements, unreadable baseline commits, or incomplete new evidence.
+- Set the aggregate data date to the completed new batch, retaining every carried row's true checked/reviewed date. The historical summary's `researchedThisRun` is the number of additions, while totals and found/missing counts cover the full catalog. Update issue aggregate dates together without restamping old reports.
+- Do not run `maintain:catalog`, refresh exchange rates, or reprice existing products in this mode. Use the retained, disclosed exchange batch for new foreign prices. Summaries must state current-batch additions separately from carried evidence and must not claim the final catalog was fully rechecked.
+
+## Monitor Light Scope
+
+- `monitor-light` contains exactly 20 desktop monitor-mounted lamps. Prefer trusted Taiwan new-product channels and use eligible overseas listings only as comparison references. Exclude ordinary desk lamps, laptop lights, ambient-only lights, light strips, accessories, discontinued models, and duplicate colors/bundles.
+- Use the 13 ordered `MONITOR_LIGHT_SPEC_PREFIXES`: type, light distribution, illuminance, color temperature, color rendering, dimming/control, automatic sensing, backlight, mounting compatibility, power, dimensions, weight, and included accessories. Dimming/control includes smart connectivity; mounting compatibility includes clamp thickness and curved-screen limits, with unknowns explicitly marked rather than inferred.
+- Preserve illuminance measurement conditions and exact-model power requirements. Verify supplied cables, adapter, and controller separately; USB connector shape alone does not prove adequate power or mains compatibility. Body dimensions/net weight belong in the existing dimension evidence file.
+- Keep exactly one Taiwan Top Pick with evidence-backed mounting compatibility, suitable power, a trusted new-product channel, and Taiwan service. Overseas references must disclose original currency, TWD conversion date, shipping, import tax, plug/power, and Taiwan warranty risks.
 
 ## Product Issue And Complaint Research
 

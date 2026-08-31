@@ -128,7 +128,10 @@ function hasTaiwanCompatiblePower(product) {
   const certifiedExternalAdapter = /(?:BSMI|驗證登錄)/iu.test(voltage)
     && /(?:適配器|變壓器)/u.test(voltage)
     && /\b(?:DC\s*)?\d+(?:\.\d+)?\s*V\b/iu.test(voltage);
-  return explicitMainsVoltage || certifiedExternalAdapter;
+  const ratedUsbPower = /USB/iu.test(voltage)
+    && /(?:\bDC\s*5\s*V\b|\b5\s*V\s*DC\b)/iu.test(voltage)
+    && [...voltage.matchAll(/\b(\d+(?:\.\d+)?)\s*(?:m?A|W)\b/giu)].some((match) => Number(match[1]) > 0);
+  return explicitMainsVoltage || certifiedExternalAdapter || ratedUsbPower;
 }
 
 function isEligibleTaiwanCoverageProduct(product, options = {}) {

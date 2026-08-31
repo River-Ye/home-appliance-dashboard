@@ -1,39 +1,42 @@
 {
   "summary": {
     "checkedAt": "2026-08-31T00:00:00.000+08:00",
-    "sourcePolicy": "2026-08-31 以 921 筆基準清單全量查核公開價格基準（通路現價或明示官方建議售價）、購買連結與可信新品狀態，並複核最終 923 筆商品圖片、全部 493 筆 found 史低來源、原廠停產訊號與同批次匯率。官方建議售價不自動寫成通路現價或史低；PChome exact-model 現貨頁有正值 Price.Low 時採公開折扣價，否則採 Price.P；Qty 0、福利品、展示機與配件不寫回。其他頁面的結構化價格差異列入人工覆核候選，阻擋、暫時錯誤與單次頁面失效只列稽核，不臆測停產或史低失效。",
-    "total": 923,
-    "researchedThisRun": 923,
+    "sourcePolicy": "2026-08-31 合併 20 款新增 exact-model 研究，既有逐筆證據及查核日期沿用、不表示重新查核。每筆明確區分通路現價與官方建議售價，官方建議售價不得被當成通路現價或史低。史低只接受具日期、同型號且可公開重現的可信新品來源；會員個人化折扣、點數、二手、福利品、展示機、拆封、整新、配件與耗材均排除。",
+    "total": 943,
+    "researchedThisRun": 20,
     "found": 493,
-    "missing": 430,
+    "missing": 450,
     "byConfidence": {
-      "not_found": 430,
+      "not_found": 450,
       "high": 323,
       "medium": 170
     },
     "exchange": {
+      "source": "ExchangeRate-API",
+      "date": "2026-08-31 00:02 UTC",
+      "timeLastUpdateUnix": 1788134551,
       "USD_TWD": 31.649299,
-      "currentUSD_TWD": 31.649299,
       "GBP_TWD": 42.87076447106599,
       "EUR_TWD": 36.70356316573794,
       "JPY_TWD": 0.19775241807359173,
       "CNY_TWD": 4.698696851031383,
       "HKD_TWD": 4.036684131717434,
-      "KRW_TWD": 0.022990974312124667
+      "KRW_TWD": 0.022990974312124667,
+      "currentUSD_TWD": 31.649299
     },
-    "lastMaintenanceCheckAt": "2026-08-31T08:55:01.455Z",
-    "currentPriceChanged": 7,
+    "lastMaintenanceCheckAt": "2026-08-31T10:11:25.170Z",
+    "currentPriceChanged": 0,
     "currentBuyLinkChanged": 0,
-    "currentPriceDrops": 3,
-    "currentPriceRises": 4,
+    "currentPriceDrops": 0,
+    "currentPriceRises": 0,
     "currentPriceFallbacks": 0,
-    "historicalLowUpdated": 1,
+    "historicalLowUpdated": 0,
     "historicalLowInvalidated": 0,
     "catalogEntriesReplaced": 0,
     "catalogReplacementNotes": [],
     "currentImageChanged": 0,
     "discontinuedRemoved": 0,
-    "newProductsAdded": 2,
+    "newProductsAdded": 20,
     "discontinuedRemovalNotes": [],
     "catalogEntriesRemoved": 0,
     "catalogRemovalNotes": []
@@ -41900,6 +41903,976 @@
         "LBJ 曲線 2026-07-29 的 NT$1 明顯為爬取或價格標記異常，不是完整支架售價。",
         "ROG Ergo Monitor Arm AAS01 舊款不是 AAS01R，未混入比價。",
         "樂天滿額折、momo 折價券與信用卡回饋均不計入史低。"
+      ]
+    },
+    {
+      "id": "monitor-light-benq-screenbar-pro",
+      "brand": "BenQ",
+      "model": "ScreenBar Pro",
+      "name": "ScreenBar Pro 入席偵測螢幕掛燈",
+      "currentPrice": 4290,
+      "currentBuyUrl": "https://www.benq.com/zh-tw/lighting/monitor-light/screenbar-pro/buy.html",
+      "currentBuyLabel": "BenQ 台灣官方商城",
+      "category": "monitor-light",
+      "currentCurrency": "TWD",
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "TWD",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-08-31",
+        "note": "2026-08-31 跨站核對 PriceSpy、Preissuchmaschine、PTT 歷史促銷與其 PChome／Yahoo 型號頁。海外最低點未完整綁定台灣相同規格、顏色與日期／店家；台灣論壇低價含折價券或僅留文字，短網址／歷史截圖未能重現完整成交條件。保留候選但未確認可信新品歷史最低點，不把 NT$4,290 現價、券後留言或禮券折算當史低。"
+      },
+      "checkedSources": [
+        "https://pricespy.co.uk/product.php?p=13791464",
+        "https://www.preissuchmaschine.de/in-Monitor/Monitor-Zubehoer/BenQ-ScreenBar-Pro-LED-Monitorlampe.html",
+        "https://www.ptt.cc/bbs/Lifeismoney/M.1762843477.A.841.html",
+        "https://www.ptt.cc/bbs/Lifeismoney/M.1724155875.A.381.html",
+        "https://24h.pchome.com.tw/prod/DQBP1A-A900HFL4C"
+      ],
+      "priceChecks": [
+        {
+          "kind": "price_history",
+          "url": "https://pricespy.co.uk/product.php?p=13791464",
+          "query": "site:pricespy.co.uk \"ScreenBar Pro\" price history",
+          "outcome": "排除：原頁三個月最低 £95，明示歷史圖跨當時最便宜變體；未提供該最低點確切日期／店家，亦未確認與台灣收錄黑色版本完全相同。"
+        },
+        {
+          "kind": "price_history",
+          "url": "https://www.preissuchmaschine.de/in-Monitor/Monitor-Zubehoer/BenQ-ScreenBar-Pro-LED-Monitorlampe.html",
+          "query": "site:preissuchmaschine.de \"ScreenBar Pro\" preisverlauf",
+          "outcome": "排除：原頁六個月低點 €114.99，但本文未列低點日期與對應商家；含銀／黑版本，歐洲規格欄與台灣來源亦有差異，不直接套用。"
+        },
+        {
+          "kind": "search_query",
+          "url": "https://www.ptt.cc/bbs/Lifeismoney/M.1762843477.A.841.html",
+          "query": "site:ptt.cc/bbs/Lifeismoney \"ScreenBar Pro\"",
+          "outcome": "排除：2025-11-11 原文區分結帳 NT$3,311 與領券後 NT$3,161；短網址原購買頁未能開啟，留言 NT$2,938 也未附完整券條件及型號截圖，未將其當已核實史低。"
+        },
+        {
+          "kind": "search_query",
+          "url": "https://www.ptt.cc/bbs/Lifeismoney/M.1724155875.A.381.html",
+          "query": "site:ptt.cc/bbs/Lifeismoney \"ScreenBar Pro\"",
+          "outcome": "排除：2024-08-20 標題記黑色 NT$3,790，原 PChome 型號頁可開啟，但未取得可重現的歷史價格截圖；留言 NT$3,290 明示有帳號有券、另一些帳號無券，排除個人化折扣。"
+        },
+        {
+          "kind": "retailer_price",
+          "url": "https://24h.pchome.com.tw/prod/DQBP1A-A900HFL4C",
+          "query": "BenQ ScreenBar Pro 黑色 價格",
+          "outcome": "現價用途：由原始 PTT 促銷文連至 PChome exact-model 現行頁，僅核對商品身分；現行頁未提供 2024-08-20 的歷史價格，不回推。"
+        }
+      ],
+      "rejectedCandidates": [
+        "PriceSpy £95／Preissuchmaschine €114.99 未完整綁定台灣收錄版本與歷史點。",
+        "PTT 的 NT$3,161／2,938／3,290 券價、NT$3,311 短網址及 NT$3,790 未能重現之歷史截圖僅列候選，不偽裝成原通路歷史證據。"
+      ]
+    },
+    {
+      "id": "monitor-light-benq-screenbar-halo2",
+      "brand": "BenQ",
+      "model": "ScreenBar Halo 2",
+      "name": "ScreenBar Halo 2 無線旋鈕雙光源螢幕掛燈",
+      "currentPrice": 5290,
+      "currentBuyUrl": "https://www.benq.com/zh-tw/lighting/monitor-light/screenbar-halo2/buy.html",
+      "currentBuyLabel": "BenQ 台灣官方商城",
+      "category": "monitor-light",
+      "currentCurrency": "TWD",
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "TWD",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-08-31",
+        "note": "2026-08-31 查過台灣 BigGo、法國 MagicPrices 與丹麥 Prisjagt 的 ScreenBar Halo 2 價格資料。海外序列雖列低點，但未把該點的商家、品況及台灣版本完整綁定；台灣搜尋只見即時列價且原頁開啟失敗。第一代 Halo 及翻新品報價均排除，不以 NT$5,290 現價或現行折扣幅度推定史低。"
+      },
+      "checkedSources": [
+        "https://magicprices.fr/prix/4917553/benq-screenbar-halo-2-lumiere-du-moniteur-gris",
+        "https://prisjagt.dk/product.php?p=14829925",
+        "https://biggo.com.tw/s/screenbar%20halo%202%20%E8%9E%A2%E5%B9%95%E6%99%BA%E8%83%BD%E6%8E%9B%E7%87%88"
+      ],
+      "priceChecks": [
+        {
+          "kind": "price_history",
+          "url": "https://magicprices.fr/prix/4917553/benq-screenbar-halo-2-lumiere-du-moniteur-gris",
+          "query": "site:magicprices.fr \"ScreenBar Halo 2\" historique",
+          "outcome": "排除：原頁歷史表於 2026-06-06／10 列 €166；同頁分列新品與二手／翻新品並有多商家，未把歷史點明確綁定賣家、品況與台灣版本。未採 AI 產生的市場分析作證據。"
+        },
+        {
+          "kind": "price_history",
+          "url": "https://prisjagt.dk/product.php?p=14829925",
+          "query": "site:prisjagt.dk \"ScreenBar Halo 2\" prishistorik",
+          "outcome": "排除：查詢發現並開啟 exact Halo 2 原頁，三個月最低 DKK1,257；歷史圖可跨不同變體，沒有該最低點日期與店家，不能直接作台灣收錄版本史低。"
+        },
+        {
+          "kind": "price_comparison",
+          "url": "https://biggo.com.tw/s/screenbar%20halo%202%20%E8%9E%A2%E5%B9%95%E6%99%BA%E8%83%BD%E6%8E%9B%E7%87%88",
+          "query": "\"ScreenBar Halo 2\" 價格 site:biggo.com.tw",
+          "outcome": "未確認：搜尋結果可見各通路即時報價與價格下降提示，也混第一代 Halo；原比價頁 web open 失敗，未將搜尋快照日期／降價幅度當作歷史最低點。"
+        }
+      ],
+      "rejectedCandidates": [
+        "MagicPrices €166 的歷史點未綁定品況、店家與台灣版本；Prisjagt DKK1,257 缺確切歷史日／商家且可混變體。",
+        "台灣即時比價及第一代 Halo、翻新品價格不可當 Halo 2 新品史低。"
+      ]
+    },
+    {
+      "id": "monitor-light-benq-screenbar",
+      "brand": "BenQ",
+      "model": "ScreenBar",
+      "name": "ScreenBar 經典螢幕掛燈",
+      "currentPrice": 2990,
+      "currentBuyUrl": "https://www.benq.com/zh-tw/lighting/monitor-light/screenbar/buy.html",
+      "currentBuyLabel": "BenQ 台灣官方商城",
+      "category": "monitor-light",
+      "currentCurrency": "TWD",
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "TWD",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-08-31",
+        "note": "2026-08-31 查過 PriceHistory.app、Prisjagt 與台灣 PTT 歷史促銷。Amazon ASIN B076VNFZJG 的 2018 年低價有日期，但舊品況、當年規格及台灣版本尚未完整核實；台灣 NT$2,689／2,590 等候選缺原活動截圖或完整券條件，未取得可重現的可信新品史低證據。不將 NT$2,990 現價、信用卡／導購回饋當史低。"
+      },
+      "checkedSources": [
+        "https://pricehistory.app/p/benq-screenbar-e-reading-led-task-lamp-kEKcTBSj",
+        "https://prisjagt.dk/product.php?p=6218907",
+        "https://www.ptt.cc/bbs/Lifeismoney/M.1716111490.A.DD2.html",
+        "https://www.ptt.cc/bbs/Lifeismoney/M.1699334873.A.DA5.html"
+      ],
+      "priceChecks": [
+        {
+          "kind": "price_history",
+          "url": "https://pricehistory.app/p/benq-screenbar-e-reading-led-task-lamp-kEKcTBSj",
+          "query": "site:pricehistory.app \"BenQ ScreenBar\" \"lowest\" -Plus -Pro -Halo -Lite",
+          "outcome": "排除：原頁將 Amazon.com ASIN B076VNFZJG（ScreenBar 黑色）列為 2018-09-22 US$79.99，另列 2018-04-23 Offer US$71；未核實當年新品品況／版本及 offer 附加條件，故不把海外舊紀錄直接套到台灣現行款。"
+        },
+        {
+          "kind": "price_history",
+          "url": "https://prisjagt.dk/product.php?p=6218907",
+          "query": "site:prisjagt.dk \"Benq ScreenBar\" prishistorik",
+          "outcome": "排除：原頁為 ScreenBar 價格比較／歷史入口，圖表說明可跨最便宜變體；沒有可核實的台灣同版本歷史商家、日期與成交點，現行最低價不作史低。"
+        },
+        {
+          "kind": "search_query",
+          "url": "https://www.ptt.cc/bbs/Lifeismoney/M.1716111490.A.DD2.html",
+          "query": "site:ptt.cc/bbs/Lifeismoney \"ScreenBar\" -Halo -Pro -Plus -Lite",
+          "outcome": "排除：原文 2024-05-19 明示基礎 ScreenBar 在 PChome 折 NT$300 後 NT$2,689；短網址原活動頁無法重現，沒有確認折扣適用規則及原通路歷史價格快照。"
+        },
+        {
+          "kind": "search_query",
+          "url": "https://www.ptt.cc/bbs/Lifeismoney/M.1699334873.A.DA5.html",
+          "query": "site:ptt.cc/bbs/Lifeismoney \"ScreenBar\" -Halo -Pro -Plus -Lite",
+          "outcome": "排除：搜尋發現 momo NT$2,590 優惠券候選；原文及連結已開啟，但價格截圖重導失敗，無法驗明券的資格與使用規則，未把券後值作公開新品史低。"
+        }
+      ],
+      "rejectedCandidates": [
+        "PriceHistory.app 的 US$79.99／US$71 缺當年新品品況與台灣版本對應，不回填為台灣史低。",
+        "PTT NT$2,689 活動原頁／NT$2,590 券價截圖無法重現；導購與信用卡折算也排除。"
+      ]
+    },
+    {
+      "id": "monitor-light-benq-iscreenbar",
+      "brand": "BenQ",
+      "model": "iScreenBar",
+      "name": "iScreenBar 24吋 iMac 專用磁吸掛燈",
+      "currentPrice": 5690,
+      "currentBuyUrl": "https://www.benq.com/zh-tw/lighting/monitor-light/iscreenbar/buy.html",
+      "currentBuyLabel": "BenQ 台灣官方商城",
+      "category": "monitor-light",
+      "currentCurrency": "TWD",
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "TWD",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-08-31",
+        "note": "2026-08-31 實際搜尋 iScreenBar 在 BigGo、FindPrice、BenQ 與 B&H 的價格資料。僅確認新上市官方商品頁與 B&H 美國 US$189 預購列價，沒有已發生的可信新品價格歷史；同名 macOS App 免費價格不是硬體。台灣 NT$5,690 是本輪商品研究現價，不作史低。"
+      },
+      "checkedSources": [
+        "https://biggo.com.tw/s/iScreenBar",
+        "https://www.findprice.com.tw/g/iscreenbar",
+        "https://www.bhphotovideo.com/c/product/1986703-REG/benq_9h_w4wwt_as1_iscreenbar_monitor_light_silver.html",
+        "https://www.benq.com/en-us/lighting/monitor-light/iscreenbar/buy.html"
+      ],
+      "priceChecks": [
+        {
+          "kind": "search_query",
+          "url": "https://biggo.com.tw/s/iScreenBar",
+          "query": "site:biggo.com.tw \"iScreenBar\" 價格",
+          "outcome": "未找到：實際 exact-model 價格搜尋未取得可採歷史候選，直接比價入口開啟失敗；不宣稱平台沒有此商品。"
+        },
+        {
+          "kind": "search_query",
+          "url": "https://www.findprice.com.tw/g/iscreenbar",
+          "query": "site:findprice.com.tw \"iScreenBar\" 價格",
+          "outcome": "未找到：實際 exact-model 價格搜尋未取得可採歷史候選，直接入口開啟失敗；未以搜尋未命中推斷停產或缺貨。"
+        },
+        {
+          "kind": "retailer_price",
+          "url": "https://www.bhphotovideo.com/c/product/1986703-REG/benq_9h_w4wwt_as1_iscreenbar_monitor_light_silver.html",
+          "query": "site:bhphotovideo.com \"iScreenBar\" price",
+          "outcome": "現價用途：原頁 exact iScreenBar 銀色、9H.W4WWT.AS1，US$189，New Item／Coming Soon／Preorder；這是美國預購列價，不是過去最低成交價。"
+        },
+        {
+          "kind": "official_price",
+          "url": "https://www.benq.com/en-us/lighting/monitor-light/iscreenbar/buy.html",
+          "query": "\"iScreenBar\" \"price\" history",
+          "outcome": "現價用途：核對官方美國 iScreenBar 新品購買頁，頁面沒有可採用的已發生價格歷史；不把官網新上市／定價資訊或同名 App 價格當硬體史低。"
+        }
+      ],
+      "rejectedCandidates": [
+        "B&H US$189 是預購新品列價，不能當歷史最低；同名 macOS iScreenBar App 免費價格是不同商品。",
+        "台灣官網 NT$5,690 沿用本輪商品研究的現價，只作比較基準。"
+      ]
+    },
+    {
+      "id": "monitor-light-elesense-e1129",
+      "brand": "Elesense",
+      "model": "E1129",
+      "name": "Uni-Light 無線控制螢幕掛燈（單燈）",
+      "currentPrice": 2290,
+      "currentBuyUrl": "https://www.witsper.com/products/elesense-uni-light-e1129",
+      "currentBuyLabel": "智選家（請選單掛燈）",
+      "category": "monitor-light",
+      "currentCurrency": "TWD",
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "TWD",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-08-31",
+        "note": "2026-08-31 查過 E1129 飛比跨通路價格及 TechTeller 原始評測活動。飛比混單燈、雙燈與個人拍賣；2023 年評測雖列 NT$2,490 及 TTUNI 折 NT$300，但未提供能重現的同一單燈成交基準、活動期間與歷史低點。台灣單燈現價 NT$2,290 不等於史低，不減新客券、點數或回饋。"
+      },
+      "checkedSources": [
+        "https://feebee.com.tw/all/elesense%20e1129/",
+        "https://techteller.com/review/elesense-uni-light-review/"
+      ],
+      "priceChecks": [
+        {
+          "kind": "price_comparison",
+          "url": "https://feebee.com.tw/all/elesense%20e1129/",
+          "query": "site:feebee.com.tw \"E1129\" 價格",
+          "outcome": "排除：原比價頁混有個人拍賣、單燈與雙掛燈套組、各通路即時列價，沒有帶日期的同單燈新品歷史最低點；不採個人拍賣 NT$1,300／1,800。"
+        },
+        {
+          "kind": "search_query",
+          "url": "https://techteller.com/review/elesense-uni-light-review/",
+          "query": "site:techteller.com \"E1129\" 折扣",
+          "outcome": "排除：2023-03-15 發布、04-07 更新的原文有 E1129、比較表 NT$2,490 與 TTUNI 現折 NT$300；文內同時評測單／雙掛燈，未明示折扣生效期間與同一單燈成交價，不自行計算 NT$2,190 為史低。"
+        }
+      ],
+      "rejectedCandidates": [
+        "TechTeller NT$2,490 與 TTUNI 折 NT$300 缺可重現單燈成交／期間，不自行相減。",
+        "雙燈組、個人拍賣、新客與即時比價不能作單燈新品史低。"
+      ]
+    },
+    {
+      "id": "monitor-light-elesense-e1132",
+      "brand": "Elesense",
+      "model": "E1132",
+      "name": "Gemini-Light 前後補光螢幕掛燈",
+      "currentPrice": 2490,
+      "currentBuyUrl": "https://www.witsper.com/products/elesense-gemini-light-e1132",
+      "currentBuyLabel": "智選家台灣公司貨",
+      "category": "monitor-light",
+      "currentCurrency": "TWD",
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "TWD",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-08-31",
+        "note": "2026-08-31 跨 FindPrice、飛比、Geizhals 與 momo 查詢 E1132 價格。結果有通路即時列價及優惠券標示，未取得同規格新品帶日期、可排除個人優惠的歷史最低點；海外單筆報價也不是台灣歷史價格。保留本輪 NT$2,490 現價，不減首購券、信用卡或購物金。"
+      },
+      "checkedSources": [
+        "https://www.findprice.com.tw/g/elesense",
+        "https://feebee.com.tw/all/%E8%9E%A2%E5%B9%95%E6%8E%9B%E7%87%88elesense/",
+        "https://geizhals.at/elesense-e1132-monitorleuchte-a3323581.html",
+        "https://www.momoshop.com.tw/product/11876388"
+      ],
+      "priceChecks": [
+        {
+          "kind": "price_comparison",
+          "url": "https://www.findprice.com.tw/g/elesense",
+          "query": "site:findprice.com.tw \"E1132\" 價格",
+          "outcome": "排除：搜尋結果列 E1132 即時價與可使用折價券提示，頁面讀取不穩；無已核實的帶日期歷史點與完整折扣條件，不把搜尋頁標題月份當價格日。"
+        },
+        {
+          "kind": "price_comparison",
+          "url": "https://feebee.com.tw/all/%E8%9E%A2%E5%B9%95%E6%8E%9B%E7%87%88elesense/",
+          "query": "\"Elesense E1132\" 價格 比價",
+          "outcome": "排除：原頁可見 E1132 各通路即時列價及新客免運／折扣訊息，也有 E1129／E1133 與配件；未提供相同 E1132 的可重現歷史最低點。"
+        },
+        {
+          "kind": "price_comparison",
+          "url": "https://geizhals.at/elesense-e1132-monitorleuchte-a3323581.html",
+          "query": "site:geizhals.at \"E1132\" Preisvergleich",
+          "outcome": "未確認：找到並嘗試讀取 E1132 奧地利比價頁，回應不穩，未取得可驗明日期、店家、同版本與新品條件的歷史低點，海外當時列價不作史低。"
+        },
+        {
+          "kind": "retailer_price",
+          "url": "https://www.momoshop.com.tw/product/11876388",
+          "query": "\"Elesense E1132\" 價格 比價",
+          "outcome": "現價用途：核對 momo E1132 商品頁；頁面主要價格需動態載入，沒有已發生的價格歷史，未用搜尋快照補造史低。"
+        }
+      ],
+      "rejectedCandidates": [
+        "FindPrice／飛比列價是即時比價而非歷史點，新客或資格不明折價券均排除。",
+        "Geizhals 海外當時報價缺台灣同版本及可核實歷史條件。"
+      ]
+    },
+    {
+      "id": "monitor-light-elesense-e1133",
+      "brand": "Elesense",
+      "model": "E1133",
+      "name": "Gemini-Light Ultra 自適應雙光源螢幕掛燈",
+      "currentPrice": 3490,
+      "currentBuyUrl": "https://www.witsper.com/products/elesense-gemini-light-ultra-e1133",
+      "currentBuyLabel": "智選家（掛燈單品）",
+      "category": "monitor-light",
+      "currentCurrency": "TWD",
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "TWD",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-08-31",
+        "note": "2026-08-31 查過 E1133 的飛比比價、Mobile01 阿飛與多尼原始活動文。FLY8 八折及 DONI33 折 NT$300 沒有可重現的同套裝結帳基準；不能把文中 NT$3,490 直接乘八折，也不能扣贈品或購物金。飛比混福利品、充電底座與即時價，未確認可信新品歷史最低點；NT$3,490 只為本輪現價。"
+      },
+      "checkedSources": [
+        "https://www.mobile01.com/topicdetail.php?f=350&t=7101016",
+        "https://www.mobile01.com/topicdetail.php?f=168&t=7041526",
+        "https://feebee.com.tw/s/elesense%20e1133/"
+      ],
+      "priceChecks": [
+        {
+          "kind": "search_query",
+          "url": "https://www.mobile01.com/topicdetail.php?f=350&t=7101016",
+          "query": "site:mobile01.com \"E1133\" 售價 折扣",
+          "outcome": "排除：阿飛 2025-03-28 原文列不含控制器供電底座 NT$3,490、FLY8 於 3/28–5/31 原價八折，另贈行動電源／購物金；未把八折基準綁定該 NT$3,490 套裝，不計算 NT$2,792 或扣贈品價。"
+        },
+        {
+          "kind": "search_query",
+          "url": "https://www.mobile01.com/topicdetail.php?f=168&t=7041526",
+          "query": "site:mobile01.com \"E1133\" 售價 折扣",
+          "outcome": "排除：多尼 2024-11-10 原文有 DONI33、2025-01-17 前折 NT$300，但未給完整單件基準價與結帳結果，不由後來 NT$3,490 現價反推舊促銷價。"
+        },
+        {
+          "kind": "price_comparison",
+          "url": "https://feebee.com.tw/s/elesense%20e1133/",
+          "query": "site:feebee.com.tw \"E1133\" 價格",
+          "outcome": "排除：原比價頁有各通路現價、好禮組合及控制器供電底座；搜尋還混福利品。NT$1,999 福利品與 NT$490 配件不屬所收錄完整新品，其他即時列價沒有歷史日期證據。"
+        }
+      ],
+      "rejectedCandidates": [
+        "FLY8 原價八折、DONI33 折 NT$300 缺同套裝基準／結帳結果；贈品與購物金不扣價。",
+        "福利品、專用底座配件、組合及即時比價不作完整 E1133 新品史低。"
+      ]
+    },
+    {
+      "id": "monitor-light-kinyo-pced-805",
+      "category": "monitor-light",
+      "brand": "KINYO",
+      "model": "PCED-805",
+      "name": "40cm 螢幕掛燈",
+      "currentPrice": 990,
+      "currentCurrency": "TWD",
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價",
+      "currentBuyUrl": "https://www.kinyo.tw/products/pced-805",
+      "currentBuyLabel": "KINYO 台灣官方商城",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "TWD",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-08-31",
+        "note": "2026-08-31 人工核對 KINYO 台灣官方商城 PCED-805 公開單件 NT$990，以及 BigGo KINYO 40cm 比價頁。比價混有 PLED-7183、福利品及不同通路現價，價格持平／降價幅度沒有形成已核實日期的新品歷史最低點；不以 NT$990 現價、會員金或多件折扣推定史低。"
+      },
+      "checkedSources": [
+        "https://www.kinyo.tw/products/pced-805",
+        "https://biggo.com.tw/s/KINYO%2040cm"
+      ],
+      "priceChecks": [
+        {
+          "query": "KINYO PCED-805",
+          "sourceUrl": "https://www.kinyo.tw/products/pced-805",
+          "purpose": "同型號台灣官方商城公開現價",
+          "outcome": "accepted_current_only",
+          "note": "可見NT$990與加入購物車；不採NT$1,190劃線價、會員金或多件優惠為現價。"
+        },
+        {
+          "query": "\"PCED-805\" 歷史最低價",
+          "sourceUrl": "https://biggo.com.tw/s/KINYO%2040cm",
+          "purpose": "跨通路比價及歷史來源",
+          "outcome": "history_not_verified",
+          "note": "實際讀取頁面；混有PLED-7183與福利品，现行最低列價及降價幅度沒有已核實日期的價格序列，不採作史低。"
+        }
+      ],
+      "rejectedCandidates": [
+        "現行比價清單、未附核實歷史日期的降價幅度、個人拍賣與福利／換新品不作可信新品史低。"
+      ]
+    },
+    {
+      "id": "monitor-light-kinyo-pced-855",
+      "category": "monitor-light",
+      "brand": "KINYO",
+      "model": "PCED-855",
+      "name": "46cm 自動感光螢幕掛燈",
+      "currentPrice": 1180,
+      "currentCurrency": "TWD",
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價",
+      "currentBuyUrl": "https://www.kinyo.tw/products/pced855",
+      "currentBuyLabel": "KINYO 台灣官方商城",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "TWD",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-08-31",
+        "note": "2026-08-31 人工核對 KINYO 台灣官方商城 PCED-855 公開單件 NT$1,180，以及 BigGo exact-model 比價頁。列表含不同通路現價、已下架個人拍賣與保固換新品，未取得可重現的可信新品歷史低價日期與條件；不以 NT$1,180 現價、降價幅度或拍賣價格推定史低。"
+      },
+      "checkedSources": [
+        "https://www.kinyo.tw/products/pced855",
+        "https://biggo.com.tw/s/KINYO%20PCED-855"
+      ],
+      "priceChecks": [
+        {
+          "query": "KINYO PCED-855",
+          "sourceUrl": "https://www.kinyo.tw/products/pced855",
+          "purpose": "同型號台灣官方商城公開現價",
+          "outcome": "accepted_current_only",
+          "note": "可見NT$1,180與加入購物車；不採NT$1,380劃線價、會員金或多件優惠為現價。"
+        },
+        {
+          "query": "\"PCED-855\" 歷史最低價",
+          "sourceUrl": "https://biggo.com.tw/s/KINYO%20PCED-855",
+          "purpose": "exact-model比價及歷史來源",
+          "outcome": "history_not_verified",
+          "note": "實際讀取頁面；列表為通路現價、拍賣及保固換新品。歷史入口未形成已核實可信新品價格日期，不採個人拍賣450／500元與折扣幅度作史低。"
+        }
+      ],
+      "rejectedCandidates": [
+        "現行比價清單、未附核實歷史日期的降價幅度、個人拍賣與福利／換新品不作可信新品史低。"
+      ]
+    },
+    {
+      "id": "monitor-light-xiaomi-mjgjd01yl",
+      "category": "monitor-light",
+      "brand": "Xiaomi",
+      "model": "MJGJD01YL",
+      "name": "米家螢幕掛燈",
+      "currentPrice": 1049,
+      "currentCurrency": "TWD",
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價",
+      "currentBuyUrl": "https://www.mi.com/tw/product/mi-computer-monitor-light-bar/buy/",
+      "currentBuyLabel": "小米台灣官方商城",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "TWD",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-08-31",
+        "note": "2026-08-31 人工核對小米台灣 MJGJD01YL 公開現價 NT$1,049，並以完整型號搜尋歷史最低價。Mobile01 2021 年台灣開賣報導的 NT$995 只是當時發售價，不能證明歷史最低；PTT 2024 年 NT$450 為過保二手交易，排除。什么值得买價格頁顯示安全檢測，未能核實促銷條件，不將搜尋摘要、現價或二手價補成史低。"
+      },
+      "checkedSources": [
+        "https://www.mi.com/tw/product/mi-computer-monitor-light-bar/buy/",
+        "https://www.mobile01.com/topicdetail.php?f=116&t=6286025",
+        "https://www.ptt.cc/bbs/HardwareSale/M.1721971816.A.6E8.html",
+        "https://wiki.smzdm.com/p/prpqjo1/"
+      ],
+      "priceChecks": [
+        {
+          "query": "MJGJD01YL 米家螢幕掛燈",
+          "sourceUrl": "https://www.mi.com/tw/product/mi-computer-monitor-light-bar/buy/",
+          "purpose": "台灣官方商城公開現價",
+          "outcome": "accepted_current_only",
+          "note": "可見NT$1,049、分期NT$349.67與可用加到購物車；取單件總價，不取分期金額。"
+        },
+        {
+          "query": "\"MJGJD01YL\" 上市 發售",
+          "sourceUrl": "https://www.mobile01.com/topicdetail.php?f=116&t=6286025",
+          "purpose": "核對發售時價格但不推定史低",
+          "outcome": "rejected_as_historical_low",
+          "note": "2021-01-19台灣開卖文記錄NT$995，為發售參考價，未宣告歷史最低；不填成史低。"
+        },
+        {
+          "query": "\"MJGJD01YL\" 歷史最低價",
+          "sourceUrl": "https://wiki.smzdm.com/p/prpqjo1/",
+          "purpose": "同型號價格歷史候選",
+          "outcome": "history_not_verified",
+          "note": "Chrome原頁顯示安全檢測中，未讀取有效歷史價格或優惠條件；不繞過，不採搜尋生成摘要。"
+        },
+        {
+          "query": "site:ptt.cc \"MJGJD01YL\"",
+          "sourceUrl": "https://www.ptt.cc/bbs/HardwareSale/M.1721971816.A.6E8.html",
+          "purpose": "排除搜尋發現的二手價格",
+          "outcome": "rejected_as_historical_low",
+          "note": "作者寫2022年購入、過保、功能正常，450元為二手售出，不是可信新品價格。"
+        }
+      ],
+      "rejectedCandidates": [
+        "二手過保交易450元排除；發售時995元不是歷史最低證明；安全檢測未讀到的資料與AI摘要不採用。"
+      ]
+    },
+    {
+      "id": "monitor-light-asus-alb01",
+      "category": "monitor-light",
+      "brand": "ASUS",
+      "model": "ALB01",
+      "name": "ROG Aura 非對稱 RGB 螢幕掛燈",
+      "currentPrice": 4688,
+      "currentCurrency": "TWD",
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價",
+      "currentBuyUrl": "https://24h.pchome.com.tw/prod/DSBC1T-A900I27TY",
+      "currentBuyLabel": "PChome",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "TWD",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-08-31",
+        "note": "已查exact-model價格搜尋及PriceHistory.app Amazon ASIN B0CTJ1DRKW紀錄；海外美元紀錄與本次台灣新品來源的地區／保固條件不同，未驗證同條件台灣史低。箱損低價排除，現價NT$4,688不推定為史低。"
+      },
+      "checkedSources": [
+        "https://24h.pchome.com.tw/prod/DSBC1T-A900I27TY",
+        "https://www.google.com/search?q=%22ASUS%20ALB01%22%20%E6%AD%B7%E5%8F%B2%20%E5%83%B9%E6%A0%BC%20%E6%9C%80%E4%BD%8E",
+        "https://pricehistory.app/p/asus-rog-aura-monitor-light-bar-alb01-B56I4z2h"
+      ],
+      "queries": [
+        "\"ASUS ALB01\" 歷史 價格 最低"
+      ],
+      "rejectedCandidates": [
+        {
+          "reason": "已查exact-model價格搜尋及PriceHistory.app Amazon ASIN B0CTJ1DRKW紀錄；海外美元紀錄與本次台灣新品來源的地區／保固條件不同，未驗證同條件台灣史低。箱損低價排除，現價NT$4,688不推定為史低。",
+          "sourceUrl": "https://pricehistory.app/p/asus-rog-aura-monitor-light-bar-alb01-B56I4z2h"
+        }
+      ]
+    },
+    {
+      "id": "monitor-light-philips-pd052",
+      "category": "monitor-light",
+      "brand": "Philips",
+      "model": "PD052",
+      "name": "66219 品笛二代 iD Pro 手勢感應螢幕掛燈",
+      "currentPrice": 1700,
+      "currentCurrency": "TWD",
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價",
+      "currentBuyUrl": "https://www.gh-3c.com/products/philips-66219-pindi-pro-pd052-auto-sensing-asymmetrical-led-eye-care-monitor-light-bar",
+      "currentBuyLabel": "國揚電腦",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "TWD",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-08-31",
+        "note": "已查飛比PD052比較頁及中英文exact-model歷史價搜尋；頁面為當前多通路價，未提供可確認同型號新品的歷史最低價日期。拆封福利品1,490元排除，現價與會員／門市現金折扣不當史低。"
+      },
+      "checkedSources": [
+        "https://www.gh-3c.com/products/philips-66219-pindi-pro-pd052-auto-sensing-asymmetrical-led-eye-care-monitor-light-bar",
+        "https://www.google.com/search?q=%22Philips%20PD052%22%20%E6%AD%B7%E5%8F%B2%20%E5%83%B9%E6%A0%BC%20%E6%9C%80%E4%BD%8E",
+        "https://www.google.com/search?q=%22Philips%20PD052%22%20price%20history%20lowest",
+        "https://feebee.com.tw/s/philips%20pd052/"
+      ],
+      "queries": [
+        "\"Philips PD052\" 歷史 價格 最低",
+        "\"Philips PD052\" price history lowest"
+      ],
+      "rejectedCandidates": [
+        {
+          "reason": "已查飛比PD052比較頁及中英文exact-model歷史價搜尋；頁面為當前多通路價，未提供可確認同型號新品的歷史最低價日期。拆封福利品1,490元排除，現價與會員／門市現金折扣不當史低。",
+          "sourceUrl": "https://feebee.com.tw/s/philips%20pd052/"
+        }
+      ]
+    },
+    {
+      "id": "monitor-light-yeelight-yltd003",
+      "category": "monitor-light",
+      "brand": "Yeelight",
+      "model": "YLTD003",
+      "name": "Monitor Light Bar Pro 智慧 RGB 螢幕掛燈（美國版）",
+      "currentPrice": 3291,
+      "currentCurrency": "USD",
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價",
+      "currentBuyUrl": "https://store.yeelight.com/products/yeelight-monitor-light-bar-pro-flagship-edition",
+      "currentBuyLabel": "Yeelight 美國官方商店",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "USD",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-08-31",
+        "note": "已查YLTD003 exact-model價格歷史搜尋；命中多為歐洲地區Banggood折扣轉貼、優惠碼／未確認相同美國版與供電配件，不能採作本次美國官方新品的同條件史低；當前1-pack售價不是歷史低價證明。 海外新品價格未含國際運費、進口稅；需核對電壓、插頭與USB變壓器額定，台灣保固及跨國送修不保證。"
+      },
+      "checkedSources": [
+        "https://store.yeelight.com/products/yeelight-monitor-light-bar-pro-flagship-edition",
+        "https://www.google.com/search?q=%22Yeelight%20YLTD003%22%20price%20history%20lowest"
+      ],
+      "queries": [
+        "\"Yeelight YLTD003\" price history lowest"
+      ],
+      "rejectedCandidates": [
+        {
+          "reason": "已查YLTD003 exact-model價格歷史搜尋；命中多為歐洲地區Banggood折扣轉貼、優惠碼／未確認相同美國版與供電配件，不能採作本次美國官方新品的同條件史低；當前1-pack售價不是歷史低價證明。",
+          "sourceUrl": "https://www.google.com/search?q=%22Yeelight%20YLTD003%22%20price%20history%20lowest"
+        }
+      ]
+    },
+    {
+      "id": "monitor-light-quntis-f51bk",
+      "category": "monitor-light",
+      "brand": "Quntis",
+      "model": "F51BK",
+      "name": "Focus 51 PRO+ 無線旋鈕螢幕掛燈",
+      "currentPrice": 2532,
+      "currentCurrency": "USD",
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價",
+      "currentBuyUrl": "https://www.quntis.com/products/monitor-light-bar-pro-with-remote-control-eye-care-technology-computer-monitor-lamp-with-auto-dimming-no-screen-glare",
+      "currentBuyLabel": "Quntis 官方商店",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "USD",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-08-31",
+        "note": "F51BK：已查exact-model價格歷史／最低價搜尋，命中主要為官方現售頁及支援頁，未取得具日期、同一SKU且可公開重現的可信新品歷史最低價；商品現價、劃線價及滿額優惠均不推定史低。 海外新品價格未含國際運費、進口稅；需核對電壓、插頭與USB變壓器額定，台灣保固及跨國送修不保證。"
+      },
+      "checkedSources": [
+        "https://www.quntis.com/products/monitor-light-bar-pro-with-remote-control-eye-care-technology-computer-monitor-lamp-with-auto-dimming-no-screen-glare",
+        "https://www.google.com/search?q=%22Quntis%20F51BK%22%20price%20history%20lowest"
+      ],
+      "queries": [
+        "\"Quntis F51BK\" price history lowest"
+      ],
+      "rejectedCandidates": [
+        {
+          "reason": "F51BK：已查exact-model價格歷史／最低價搜尋，命中主要為官方現售頁及支援頁，未取得具日期、同一SKU且可公開重現的可信新品歷史最低價；商品現價、劃線價及滿額優惠均不推定史低。",
+          "sourceUrl": "https://www.google.com/search?q=%22Quntis%20F51BK%22%20price%20history%20lowest"
+        }
+      ]
+    },
+    {
+      "id": "monitor-light-quntis-fr52gy",
+      "category": "monitor-light",
+      "brand": "Quntis",
+      "model": "FR52GY",
+      "name": "Focus Radar 52 人體感應螢幕掛燈",
+      "currentPrice": 2405,
+      "currentCurrency": "USD",
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價",
+      "currentBuyUrl": "https://www.quntis.com/products/quntis-screenlinear-deluxe-pro-monitor-light-bar-20-1-asymmetric-led-screen-light-with-touch-radar-sensor-high-cri-eye-care-illumination-stepless-dimming-remote-control-built-in-battery-grey",
+      "currentBuyLabel": "Quntis 官方商店",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "USD",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-08-31",
+        "note": "FR52GY：已查exact-model價格歷史／最低價搜尋，命中主要為官方現售頁及支援頁，未取得具日期、同一SKU且可公開重現的可信新品歷史最低價；商品現價、劃線價及滿額優惠均不推定史低。 海外新品價格未含國際運費、進口稅；需核對電壓、插頭與USB變壓器額定，台灣保固及跨國送修不保證。"
+      },
+      "checkedSources": [
+        "https://www.quntis.com/products/quntis-screenlinear-deluxe-pro-monitor-light-bar-20-1-asymmetric-led-screen-light-with-touch-radar-sensor-high-cri-eye-care-illumination-stepless-dimming-remote-control-built-in-battery-grey",
+        "https://www.google.com/search?q=%22Quntis%20FR52GY%22%20price%20history%20lowest"
+      ],
+      "queries": [
+        "\"Quntis FR52GY\" price history lowest"
+      ],
+      "rejectedCandidates": [
+        {
+          "reason": "FR52GY：已查exact-model價格歷史／最低價搜尋，命中主要為官方現售頁及支援頁，未取得具日期、同一SKU且可公開重現的可信新品歷史最低價；商品現價、劃線價及滿額優惠均不推定史低。",
+          "sourceUrl": "https://www.google.com/search?q=%22Quntis%20FR52GY%22%20price%20history%20lowest"
+        }
+      ]
+    },
+    {
+      "id": "monitor-light-quntis-f45bk",
+      "category": "monitor-light",
+      "brand": "Quntis",
+      "model": "F45BK",
+      "name": "Focus 45 曲線前照螢幕掛燈",
+      "currentPrice": 2310,
+      "currentCurrency": "USD",
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價",
+      "currentBuyUrl": "https://www.quntis.com/products/screenlinear-glow-for-curved-17-72inch",
+      "currentBuyLabel": "Quntis 官方商店",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "USD",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-08-31",
+        "note": "F45BK：已查exact-model價格歷史／最低價搜尋，命中主要為官方現售頁及支援頁，未取得具日期、同一SKU且可公開重現的可信新品歷史最低價；商品現價、劃線價及滿額優惠均不推定史低。 海外新品價格未含國際運費、進口稅；需核對電壓、插頭與USB變壓器額定，台灣保固及跨國送修不保證。"
+      },
+      "checkedSources": [
+        "https://www.quntis.com/products/screenlinear-glow-for-curved-17-72inch",
+        "https://www.google.com/search?q=%22Quntis%20F45BK%22%20price%20history%20lowest"
+      ],
+      "queries": [
+        "\"Quntis F45BK\" price history lowest"
+      ],
+      "rejectedCandidates": [
+        {
+          "reason": "F45BK：已查exact-model價格歷史／最低價搜尋，命中主要為官方現售頁及支援頁，未取得具日期、同一SKU且可公開重現的可信新品歷史最低價；商品現價、劃線價及滿額優惠均不推定史低。",
+          "sourceUrl": "https://www.google.com/search?q=%22Quntis%20F45BK%22%20price%20history%20lowest"
+        }
+      ]
+    },
+    {
+      "id": "monitor-light-quntis-i51gy",
+      "category": "monitor-light",
+      "brand": "Quntis",
+      "model": "I51GY",
+      "name": "IM 51 RGB Pro+ 螢幕掛燈",
+      "currentPrice": 2120,
+      "currentCurrency": "USD",
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價",
+      "currentBuyUrl": "https://www.quntis.com/products/quntis-rgb-pro-monitor-light-bar-with-remote-15-modes-gaming-backlight-4-colors-brightness-dimmable-fronlight-20-ra95-eye-care-monitor-lamp-no-screen-glare-upgraded-clip-for-all-monitor",
+      "currentBuyLabel": "Quntis 官方商店",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "USD",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-08-31",
+        "note": "I51GY：已查exact-model價格歷史／最低價搜尋，命中主要為官方現售頁及支援頁，未取得具日期、同一SKU且可公開重現的可信新品歷史最低價；商品現價、劃線價及滿額優惠均不推定史低。 海外新品價格未含國際運費、進口稅；需核對電壓、插頭與USB變壓器額定，台灣保固及跨國送修不保證。"
+      },
+      "checkedSources": [
+        "https://www.quntis.com/products/quntis-rgb-pro-monitor-light-bar-with-remote-15-modes-gaming-backlight-4-colors-brightness-dimmable-fronlight-20-ra95-eye-care-monitor-lamp-no-screen-glare-upgraded-clip-for-all-monitor",
+        "https://www.google.com/search?q=%22Quntis%20I51GY%22%20price%20history%20lowest"
+      ],
+      "queries": [
+        "\"Quntis I51GY\" price history lowest"
+      ],
+      "rejectedCandidates": [
+        {
+          "reason": "I51GY：已查exact-model價格歷史／最低價搜尋，命中主要為官方現售頁及支援頁，未取得具日期、同一SKU且可公開重現的可信新品歷史最低價；商品現價、劃線價及滿額優惠均不推定史低。",
+          "sourceUrl": "https://www.google.com/search?q=%22Quntis%20I51GY%22%20price%20history%20lowest"
+        }
+      ]
+    },
+    {
+      "id": "monitor-light-quntis-g66bk",
+      "category": "monitor-light",
+      "brand": "Quntis",
+      "model": "G66BK",
+      "name": "Glow 66 雙頭折疊白光背照螢幕掛燈",
+      "currentPrice": 2405,
+      "currentCurrency": "USD",
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價",
+      "currentBuyUrl": "https://www.quntis.com/products/quntis-led-monitor-light-bar-for-curved-screens-eye-caring-screen-lamp-with-backlight-remote-control-adjustable-brightness",
+      "currentBuyLabel": "Quntis 官方商店",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "USD",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-08-31",
+        "note": "G66BK：已查exact-model價格歷史／最低價搜尋，命中主要為官方現售頁及支援頁，未取得具日期、同一SKU且可公開重現的可信新品歷史最低價；商品現價、劃線價及滿額優惠均不推定史低。 海外新品價格未含國際運費、進口稅；需核對電壓、插頭與USB變壓器額定，台灣保固及跨國送修不保證。"
+      },
+      "checkedSources": [
+        "https://www.quntis.com/products/quntis-led-monitor-light-bar-for-curved-screens-eye-caring-screen-lamp-with-backlight-remote-control-adjustable-brightness",
+        "https://www.google.com/search?q=%22Quntis%20G66BK%22%20price%20history%20lowest"
+      ],
+      "queries": [
+        "\"Quntis G66BK\" price history lowest"
+      ],
+      "rejectedCandidates": [
+        {
+          "reason": "G66BK：已查exact-model價格歷史／最低價搜尋，命中主要為官方現售頁及支援頁，未取得具日期、同一SKU且可公開重現的可信新品歷史最低價；商品現價、劃線價及滿額優惠均不推定史低。",
+          "sourceUrl": "https://www.google.com/search?q=%22Quntis%20G66BK%22%20price%20history%20lowest"
+        }
+      ]
+    },
+    {
+      "id": "monitor-light-quntis-i66bk",
+      "category": "monitor-light",
+      "brand": "Quntis",
+      "model": "I66BK",
+      "name": "IM 66 雙頭折疊 RGB 螢幕掛燈",
+      "currentPrice": 2405,
+      "currentCurrency": "USD",
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價",
+      "currentBuyUrl": "https://www.quntis.com/products/quntis-foldable-dual-head-led-monitor-light-bar-wide-angle-screen-lamp-for-curved-monitors-with-rgb-backlight-remote-control-eye-care-design",
+      "currentBuyLabel": "Quntis 官方商店",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "USD",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-08-31",
+        "note": "I66BK：已查exact-model價格歷史／最低價搜尋，命中主要為官方現售頁及支援頁，未取得具日期、同一SKU且可公開重現的可信新品歷史最低價；商品現價、劃線價及滿額優惠均不推定史低。 海外新品價格未含國際運費、進口稅；需核對電壓、插頭與USB變壓器額定，台灣保固及跨國送修不保證。"
+      },
+      "checkedSources": [
+        "https://www.quntis.com/products/quntis-foldable-dual-head-led-monitor-light-bar-wide-angle-screen-lamp-for-curved-monitors-with-rgb-backlight-remote-control-eye-care-design",
+        "https://www.google.com/search?q=%22Quntis%20I66BK%22%20price%20history%20lowest"
+      ],
+      "queries": [
+        "\"Quntis I66BK\" price history lowest"
+      ],
+      "rejectedCandidates": [
+        {
+          "reason": "I66BK：已查exact-model價格歷史／最低價搜尋，命中主要為官方現售頁及支援頁，未取得具日期、同一SKU且可公開重現的可信新品歷史最低價；商品現價、劃線價及滿額優惠均不推定史低。",
+          "sourceUrl": "https://www.google.com/search?q=%22Quntis%20I66BK%22%20price%20history%20lowest"
+        }
+      ]
+    },
+    {
+      "id": "monitor-light-quntis-ims45bk",
+      "category": "monitor-light",
+      "brand": "Quntis",
+      "model": "IMS45BK",
+      "name": "IM Music Sync 45 音樂同步 RGB 螢幕掛燈",
+      "currentPrice": 2532,
+      "currentCurrency": "USD",
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價",
+      "currentBuyUrl": "https://www.quntis.com/products/quntis-monitor-light-bar-with-dual-control-adjustable-brightness-color-temperature-11-rgb-modes",
+      "currentBuyLabel": "Quntis 官方商店",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "USD",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-08-31",
+        "note": "IMS45BK：已查exact-model價格歷史／最低價搜尋，命中主要為官方現售頁及支援頁，未取得具日期、同一SKU且可公開重現的可信新品歷史最低價；商品現價、劃線價及滿額優惠均不推定史低。 海外新品價格未含國際運費、進口稅；需核對電壓、插頭與USB變壓器額定，台灣保固及跨國送修不保證。"
+      },
+      "checkedSources": [
+        "https://www.quntis.com/products/quntis-monitor-light-bar-with-dual-control-adjustable-brightness-color-temperature-11-rgb-modes",
+        "https://www.google.com/search?q=%22Quntis%20IMS45BK%22%20price%20history%20lowest"
+      ],
+      "queries": [
+        "\"Quntis IMS45BK\" price history lowest"
+      ],
+      "rejectedCandidates": [
+        {
+          "reason": "IMS45BK：已查exact-model價格歷史／最低價搜尋，命中主要為官方現售頁及支援頁，未取得具日期、同一SKU且可公開重現的可信新品歷史最低價；商品現價、劃線價及滿額優惠均不推定史低。",
+          "sourceUrl": "https://www.google.com/search?q=%22Quntis%20IMS45BK%22%20price%20history%20lowest"
+        }
       ]
     }
   ]

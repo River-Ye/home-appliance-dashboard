@@ -5,9 +5,9 @@
   const meta = {
     dataDate: "2026-08-31",
     costcoDate: "2026-08-31",
-    expectedCategoryCount: 30,
-    expectedProductCount: 923,
-    cacheVersion: "20260831-093326-catalog",
+    expectedCategoryCount: 31,
+    expectedProductCount: 943,
+    cacheVersion: "20260831-monitor-light",
     exchangeSummary: "USD 1 = TWD 31.649",
   };
 
@@ -53,6 +53,7 @@
     { id: "standingdesk", label: "升降桌", group: "工作網路" },
     { id: "chair", label: "電腦椅", group: "工作網路" },
     { id: "monitor", label: "電腦螢幕", group: "工作網路" },
+    { id: "monitor-light", label: "螢幕燈", group: "工作網路" },
     { id: "monitorarm", label: "懸臂支架", group: "工作網路" },
   ];
 

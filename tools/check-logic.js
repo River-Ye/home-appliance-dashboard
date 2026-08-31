@@ -2,6 +2,7 @@ const fs = require("fs");
 const path = require("path");
 const vm = require("vm");
 const { readDashboardProducts } = require("./read-dashboard-products");
+const { checkIncrementalCatalogAudit } = require("./check-incremental-catalog-audit");
 const {
   exactModelMatch,
   exactProductModelMatch,
@@ -42,6 +43,7 @@ const {
   normalizeExchangeDate,
   replaceMarkerBlock,
   renderMaintenanceSummary,
+  updateIndexMetadata,
   updateReadmeMetadata,
 } = require("./update-maintenance-metadata");
 const {
@@ -466,6 +468,7 @@ async function assertRejects(promise, pattern) {
 }
 
 async function main() {
+  checkIncrementalCatalogAudit();
   assert(
     DIMENSION_PATTERN.test("尺寸：不含底座 寬 144.1 x 深 4.5 x 高 82.6 cm；含底座 寬 144.1 x 深 26.7 x 高 89.6 cm"),
     "dimension contract should accept separate TV stand configurations",
@@ -516,6 +519,16 @@ async function main() {
     () => replaceMarkerBlock("missing markers", "maintenance", "summary"),
     "maintenance metadata should reject documents without its markers",
   );
+  const indexMetadataFixture = '<small>價格與購買連結已全量查核；<span id="exchangeSummary">old</span></small>';
+  const indexMetadata = { exchangeSummary: "USD 1 = TWD 31.649" };
+  const incrementalIndex = updateIndexMetadata(indexMetadataFixture, indexMetadata, {
+    auditScope: "added_products_only",
+    summary: { newProductsAdded: Array(20).fill("new"), baselineProducts: 923 },
+    exchange: { date: "2026-08-31 00:02 UTC" },
+  });
+  assert(incrementalIndex.includes("新增查核 20 款，其餘 923 款沿用；匯率沿用 2026-08-31 00:02 UTC") && !incrementalIndex.includes("已全量查核"), "incremental homepage must distinguish new checks from retained evidence and exchange date");
+  assert(updateIndexMetadata(incrementalIndex, indexMetadata, {}).includes("價格與購買連結已全量查核"), "a later full audit must replace the incremental homepage claim");
+  assertThrows(() => updateIndexMetadata(indexMetadataFixture, indexMetadata, { auditScope: "unknown" }), "homepage metadata must reject unknown audit scope");
   assert(
     normalizeExchangeDate("Wed, 22 Jul 2026 00:02:31 +0000") === "2026-07-22 00:02 UTC",
     "exchange metadata should normalize API timestamps",
@@ -828,6 +841,10 @@ async function main() {
   assert(
     maintenanceReviewReady(semanticReport, semanticReviewDate, semanticContext),
     "the maintenance write gate should accept a Japanese-brand matrix derived from the current catalog and baseline",
+  );
+  assert(
+    !maintenanceReviewReady({ ...semanticReport, auditScope: "added_products_only" }, semanticReviewDate, semanticContext),
+    "an incremental report must never pass the full-maintenance write gate even with complete same-date reviews",
   );
   const carriedSemanticProduct = {
     ...semanticProduct,
@@ -2842,7 +2859,7 @@ async function main() {
   const mergeResearchSource = fs.readFileSync(path.join(root, "tools/merge-product-research-bundles.js"), "utf8");
   assert(mergeResearchSource.includes("--date=YYYY-MM-DD"), "research bundle merger must require an explicit date");
   assert(!mergeResearchSource.includes('const CHECKED_AT = "2026-08-20"'), "research bundle merger must not retain a hardcoded date");
-  assert(mergeResearchSource.includes("網路交換器共 14 類尺寸"), "research bundle merger must preserve the 14-category dimension policy");
+  assert(mergeResearchSource.includes("網路交換器與螢幕燈共 15 類尺寸"), "research bundle merger must include the 15-category dimension policy");
 
   Object.assign(dashboard.state, {
     search: "",

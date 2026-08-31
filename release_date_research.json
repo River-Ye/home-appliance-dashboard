@@ -1,15 +1,16 @@
 {
   "summary": {
     "checkedAt": "2026-08-31T00:00:00+08:00",
-    "total": 923,
-    "found": 267,
-    "missing": 656,
+    "total": 943,
+    "researchedThisRun": 20,
+    "found": 272,
+    "missing": 671,
     "byConfidence": {
       "official": 179,
-      "not_found": 656,
+      "not_found": 671,
       "retailer_explicit": 22,
       "credible_article": 52,
-      "high": 12,
+      "high": 17,
       "medium": 2
     }
   },
@@ -28398,6 +28399,609 @@
       "reason": "Rechecked the exact model with two independent query forms and reopened the cited source. The source still supports 2026-04-24 under the launch/release evidence policy.",
       "checkedAt": "2026-08-28",
       "auditDisposition": "retained"
+    },
+    {
+      "id": "monitor-light-benq-screenbar-pro",
+      "category": "monitor-light",
+      "brand": "BenQ",
+      "model": "ScreenBar Pro",
+      "name": "ScreenBar Pro 入席偵測螢幕掛燈",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "2024-03-25",
+      "sourceUrl": "https://www.mobile01.com/topicdetail.php?f=503&t=6935342",
+      "sourceTitle": "BenQ 推出 ScreenBar Pro 螢幕掛燈 新增智慧入席偵測與通用夾具設計 照明亮度也再提升！",
+      "evidenceSnippet": "Mobile01於2024-03-25報導，內文明確寫ScreenBar Pro當天宣布上市並列台灣建議售價4290元。",
+      "confidence": "high",
+      "sourceKind": "media_explicit_launch",
+      "reason": "文章內有今天宣布上市的明確文字，不單靠文章刊登日期推定。",
+      "query": "\"BenQ\" \"ScreenBar Pro\" 上市 發售",
+      "auditQueries": [
+        "\"BenQ\" \"ScreenBar Pro\" 上市 發售"
+      ],
+      "checkedAt": "2026-08-31",
+      "auditDisposition": "confirmed_found",
+      "checkedSources": [
+        {
+          "url": "https://www.benq.com/zh-tw/lighting/monitor-light/screenbar-pro/spec.html",
+          "title": "BenQ ScreenBar Pro 官方／代理商規格",
+          "outcome": "核對商品型號；日期另依明確上市公告。"
+        },
+        {
+          "url": "https://www.mobile01.com/topicdetail.php?f=503&t=6935342",
+          "title": "BenQ 推出 ScreenBar Pro 螢幕掛燈 新增智慧入席偵測與通用夾具設計 照明亮度也再提升！",
+          "outcome": "文章內有今天宣布上市的明確文字，不單靠文章刊登日期推定。"
+        }
+      ]
+    },
+    {
+      "id": "monitor-light-benq-screenbar-halo2",
+      "category": "monitor-light",
+      "brand": "BenQ",
+      "model": "ScreenBar Halo 2",
+      "name": "ScreenBar Halo 2 無線旋鈕雙光源螢幕掛燈",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "2025-01-10",
+      "sourceUrl": "https://www.digitimes.com.tw/tech/dt/n/shwnws.asp?id=0000714204_59D3RSINL9LGXA52IL0VF",
+      "sourceTitle": "BenQ推出全新ScreenBar Halo 2精算控光再升級",
+      "evidenceSnippet": "DIGITIMES內文明示ScreenBar Halo 2已於2025年1月10日正式上市，台灣建議售價5290元；不採文章2月12日刊登日。",
+      "confidence": "high",
+      "sourceKind": "media_explicit_launch",
+      "reason": "採內文明列正式上市日期，並交叉核對BenQ台灣Halo 2上市新聞，未套用海外6月上市時間。",
+      "query": "\"BenQ\" \"ScreenBar Halo 2\" 上市 發售",
+      "auditQueries": [
+        "\"BenQ\" \"ScreenBar Halo 2\" 上市 發售"
+      ],
+      "checkedAt": "2026-08-31",
+      "auditDisposition": "confirmed_found",
+      "checkedSources": [
+        {
+          "url": "https://www.benq.com/zh-tw/lighting/monitor-light/screenbar-halo2/spec.html",
+          "title": "BenQ ScreenBar Halo 2 官方／代理商規格",
+          "outcome": "核對商品型號；日期另依明確上市公告。"
+        },
+        {
+          "url": "https://www.digitimes.com.tw/tech/dt/n/shwnws.asp?id=0000714204_59D3RSINL9LGXA52IL0VF",
+          "title": "BenQ推出全新ScreenBar Halo 2精算控光再升級",
+          "outcome": "採內文明列正式上市日期，並交叉核對BenQ台灣Halo 2上市新聞，未套用海外6月上市時間。"
+        }
+      ]
+    },
+    {
+      "id": "monitor-light-benq-screenbar",
+      "category": "monitor-light",
+      "brand": "BenQ",
+      "model": "ScreenBar",
+      "name": "ScreenBar 經典螢幕掛燈",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "2017",
+      "sourceUrl": "https://www.benq.com/zh-tw/lighting/monitor-light/screenbar-pro.html",
+      "sourceTitle": "BenQ ScreenBar Pro 官方產品頁：BenQ在照明領域的精算與創新",
+      "evidenceSnippet": "BenQ官方在照明創新沿革及全球用戶段落明列2017年推出ScreenBar螢幕掛燈；只採年份，不自行補月日。",
+      "confidence": "high",
+      "sourceKind": "official_product_history",
+      "reason": "官方沿革明確使用推出而非只有研發。另核對BenQ America 2018-04-24新聞稿為美加等區域販售公告，不用較晚區域日期取代原版推出年份。",
+      "query": "\"BenQ\" \"ScreenBar\" 上市 發售",
+      "auditQueries": [
+        "\"BenQ\" \"ScreenBar\" 上市 發售"
+      ],
+      "checkedAt": "2026-08-31",
+      "auditDisposition": "confirmed_found",
+      "checkedSources": [
+        {
+          "url": "https://www.benq.com/zh-tw/lighting/monitor-light/screenbar/spec.html",
+          "title": "BenQ ScreenBar 官方／代理商規格",
+          "outcome": "核對商品型號；日期另依明確上市公告。"
+        },
+        {
+          "url": "https://www.benq.com/zh-tw/lighting/monitor-light/screenbar-pro.html",
+          "title": "BenQ ScreenBar Pro 官方產品頁：BenQ在照明領域的精算與創新",
+          "outcome": "官方沿革明確使用推出而非只有研發。另核對BenQ America 2018-04-24新聞稿為美加等區域販售公告，不用較晚區域日期取代原版推出年份。"
+        }
+      ]
+    },
+    {
+      "id": "monitor-light-benq-iscreenbar",
+      "category": "monitor-light",
+      "brand": "BenQ",
+      "model": "iScreenBar",
+      "name": "iScreenBar 24吋 iMac 專用磁吸掛燈",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "2026-08-27",
+      "sourceUrl": "https://www.benq.com/zh-tw/news/products/branding-new-product-wtg-screenbarmax-iscreenbar-nooklight-20260827.html",
+      "sourceTitle": "精算每一道光 BenQ 發表智慧照明全系列新品，從 iMac 桌面美學、雙螢幕工作到慢生活閱讀，重新定義現代生活照明",
+      "evidenceSnippet": "BenQ台灣公告內文明示今（27）日發表iScreenBar等2026新品，並說三大新品即日起上市；網頁標示08-28是刊登日，不取代27日的事件日期。",
+      "confidence": "high",
+      "sourceKind": "official_press_release",
+      "reason": "同篇明列iScreenBar發表與即日起上市，故採2026-08-27。",
+      "query": "\"BenQ\" \"iScreenBar\" 上市 發售",
+      "auditQueries": [
+        "\"BenQ\" \"iScreenBar\" 上市 發售"
+      ],
+      "checkedAt": "2026-08-31",
+      "auditDisposition": "confirmed_found",
+      "checkedSources": [
+        {
+          "url": "https://www.benq.com/zh-tw/lighting/monitor-light/iscreenbar/spec.html",
+          "title": "BenQ iScreenBar 官方／代理商規格",
+          "outcome": "核對商品型號；日期另依明確上市公告。"
+        },
+        {
+          "url": "https://www.benq.com/zh-tw/news/products/branding-new-product-wtg-screenbarmax-iscreenbar-nooklight-20260827.html",
+          "title": "精算每一道光 BenQ 發表智慧照明全系列新品，從 iMac 桌面美學、雙螢幕工作到慢生活閱讀，重新定義現代生活照明",
+          "outcome": "同篇明列iScreenBar發表與即日起上市，故採2026-08-27。"
+        }
+      ]
+    },
+    {
+      "id": "monitor-light-elesense-e1129",
+      "category": "monitor-light",
+      "brand": "Elesense",
+      "model": "E1129",
+      "name": "Uni-Light 無線控制螢幕掛燈（單燈）",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "sourceKind": "not_found_after_manual_review",
+      "reason": "已查品牌與代理商產品頁，並搜尋 Elesense E1129 上市；僅找到販售、開箱及活動日期，未確認正式上市年月。",
+      "query": "\"Elesense\" \"E1129\" 上市 發售",
+      "auditQueries": [
+        "\"Elesense\" \"E1129\" 上市 發售"
+      ],
+      "checkedAt": "2026-08-31",
+      "auditDisposition": "confirmed_not_found",
+      "checkedSources": [
+        {
+          "url": "https://www.witsper.com/products/elesense-uni-light-e1129",
+          "title": "Elesense E1129 官方／代理商規格",
+          "outcome": "未明列正式上市／發售年月。"
+        }
+      ]
+    },
+    {
+      "id": "monitor-light-elesense-e1132",
+      "category": "monitor-light",
+      "brand": "Elesense",
+      "model": "E1132",
+      "name": "Gemini-Light 前後補光螢幕掛燈",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "sourceKind": "not_found_after_manual_review",
+      "reason": "已讀品牌、代理商及其授權商店並搜尋 Elesense E1132 上市，只有2023年開箱及促銷時間，沒有明確上市／發售公告，不把文章日期當上市日。",
+      "query": "\"Elesense\" \"E1132\" 上市 發售",
+      "auditQueries": [
+        "\"Elesense\" \"E1132\" 上市 發售"
+      ],
+      "checkedAt": "2026-08-31",
+      "auditDisposition": "confirmed_not_found",
+      "checkedSources": [
+        {
+          "url": "https://www.witsper.com/products/elesense-gemini-light-e1132",
+          "title": "Elesense E1132 官方／代理商規格",
+          "outcome": "未明列正式上市／發售年月。"
+        }
+      ]
+    },
+    {
+      "id": "monitor-light-elesense-e1133",
+      "category": "monitor-light",
+      "brand": "Elesense",
+      "model": "E1133",
+      "name": "Gemini-Light Ultra 自適應雙光源螢幕掛燈",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "sourceKind": "not_found_after_manual_review",
+      "reason": "已讀代理商產品頁並搜尋 Elesense E1133 上市，2024年11月開箱只能證明當時已有產品，不是明確發售日；無正式上市公告可採。",
+      "query": "\"Elesense\" \"E1133\" 上市 發售",
+      "auditQueries": [
+        "\"Elesense\" \"E1133\" 上市 發售"
+      ],
+      "checkedAt": "2026-08-31",
+      "auditDisposition": "confirmed_not_found",
+      "checkedSources": [
+        {
+          "url": "https://www.witsper.com/products/elesense-gemini-light-ultra-e1133",
+          "title": "Elesense E1133 官方／代理商規格",
+          "outcome": "未明列正式上市／發售年月。"
+        }
+      ]
+    },
+    {
+      "id": "monitor-light-kinyo-pced-805",
+      "category": "monitor-light",
+      "brand": "KINYO",
+      "model": "PCED-805",
+      "name": "40cm 螢幕掛燈",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "query": "\"PCED-805\" 上市 發售",
+      "sourceKind": "not_found_after_manual_review",
+      "reason": "已人工讀取 KINYO 官方商城與耐嘉 exact-model 產品規格頁，並搜尋完整型號上市／發售公告；官頁未給正式發售日期，搜尋主要為通路商品與相鄰產品，不以圖片檔名、通路上架或型號猜測上市年月。",
+      "checkedAt": "2026-08-31",
+      "auditDisposition": "confirmed_not_found",
+      "checkedSources": [
+        {
+          "url": "https://www.kinyo.tw/products/pced-805",
+          "title": "KINYO 台灣官方商城 螢幕掛燈40cm PCED805",
+          "outcome": "公開現價及規格，不含正式上市日期。"
+        },
+        {
+          "url": "https://www.nakay.com.tw/productdetail_tw.php?id=1687",
+          "title": "耐嘉 PCED-805 螢幕掛燈40cm",
+          "outcome": "確認 exact-model 與物理規格；未明列上市／發售日。"
+        }
+      ],
+      "auditQueries": [
+        "\"PCED-805\" 上市 發售"
+      ]
+    },
+    {
+      "id": "monitor-light-kinyo-pced-855",
+      "category": "monitor-light",
+      "brand": "KINYO",
+      "model": "PCED-855",
+      "name": "46cm 自動感光螢幕掛燈",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "query": "\"PCED-855\" 上市 發售",
+      "sourceKind": "not_found_after_manual_review",
+      "reason": "已人工讀取 KINYO 官方商城與耐嘉 exact-model 產品規格頁並搜尋完整型號上市／發售公告，未取得正式發售日期。Google 生成式摘要由影片與購物頁推定的年月不是上市證據，不採用；影片上傳日、圖片檔名或商品上架也不等於發售日。",
+      "checkedAt": "2026-08-31",
+      "auditDisposition": "confirmed_not_found",
+      "checkedSources": [
+        {
+          "url": "https://www.kinyo.tw/products/pced855",
+          "title": "KINYO 台灣官方商城 螢幕掛燈46cm PCED855",
+          "outcome": "公開現價及規格，不含正式上市日期。"
+        },
+        {
+          "url": "https://www.nakay.com.tw/productdetail_tw.php?id=1686",
+          "title": "耐嘉 PCED-855 螢幕掛燈46cm",
+          "outcome": "確認 exact-model 與物理規格；未明列上市／發售日。"
+        }
+      ],
+      "auditQueries": [
+        "\"PCED-855\" 上市 發售"
+      ]
+    },
+    {
+      "id": "monitor-light-xiaomi-mjgjd01yl",
+      "category": "monitor-light",
+      "brand": "Xiaomi",
+      "model": "MJGJD01YL",
+      "name": "米家螢幕掛燈",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "2021-01-19",
+      "sourceUrl": "https://www.mobile01.com/topicdetail.php?f=116&t=6286025",
+      "sourceTitle": "Mobile01：米家螢幕掛燈開箱快速試用 簡單提升工作亮度的好幫手",
+      "evidenceSnippet": "2021-01-19 原文明述小米台灣於當天（19日）小米年貨節宣布引進開賣米家螢幕掛燈；同篇盒側規格照片可讀產品型號 MJGJD01YL，與現行台灣官方規格一致。",
+      "confidence": "high",
+      "query": "\"MJGJD01YL\" 上市 發售",
+      "sourceKind": "media_explicit_launch",
+      "reason": "採用明確台灣引進開賣日，不是推定全球首發日或把文章日期單獨當上市日；原文有今天（19日）開賣敘述且照片核對 exact-model。",
+      "checkedAt": "2026-08-31",
+      "auditDisposition": "confirmed_found",
+      "checkedSources": [
+        {
+          "url": "https://www.mi.com/tw/product/mi-computer-monitor-light-bar/specs/",
+          "title": "小米台灣 米家螢幕掛燈規格",
+          "outcome": "官方產品型號明列 MJGJD01YL。"
+        },
+        {
+          "url": "https://www.mobile01.com/topicdetail.php?f=116&t=6286025",
+          "title": "Mobile01 米家螢幕掛燈台灣開賣與開箱",
+          "outcome": "內文明確宣告2021-01-19台灣引進開賣。"
+        },
+        {
+          "url": "https://attach.mobile01.com/attach/202101/mobile01-9f5478fbf18fa785ce5430e91b6406ea.jpg",
+          "title": "同篇 Mobile01 盒側產品型號照片",
+          "outcome": "人工檢視照片，MJGJD01YL、5V1A、5W與台灣官規對應。"
+        }
+      ],
+      "auditQueries": [
+        "\"MJGJD01YL\" 上市 發售"
+      ]
+    },
+    {
+      "id": "monitor-light-asus-alb01",
+      "category": "monitor-light",
+      "brand": "ASUS",
+      "model": "ALB01",
+      "name": "ROG Aura 非對稱 RGB 螢幕掛燈",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "sourceKind": "not_found",
+      "query": "\"ASUS ALB01\" 上市 發售 開賣",
+      "auditQueries": [
+        "\"ASUS ALB01\" 上市 發售 開賣",
+        "\"ASUS ALB01\" release launch"
+      ],
+      "reason": "已查日本ASUS發售新聞稿，明示2025-02-28日本發售，但台灣於更早的2024介紹／贈品頁已有ALB01；不能以日本區域開賣日當台灣或全球首發日。本輪未確認台灣明確上市／發售日期。",
+      "checkedAt": "2026-08-31",
+      "auditDisposition": "not_found",
+      "checkedSources": [
+        "https://rog.asus.com/tw/monitors/accessories/rog-aura-monitor-light-bar-alb01/spec/",
+        "https://rog.asus.com/tw/monitors/accessories/rog-aura-monitor-light-bar-alb01/",
+        "https://24h.pchome.com.tw/prod/DSBC1T-A900I27TY",
+        "https://www.google.com/search?q=%22ASUS%20ALB01%22%20%E4%B8%8A%E5%B8%82%20%E7%99%BC%E5%94%AE%20%E9%96%8B%E8%B3%A3",
+        "https://www.google.com/search?q=%22ASUS%20ALB01%22%20release%20launch"
+      ],
+      "rejectedCandidates": [
+        {
+          "sourceUrl": "https://ascii.jp/elem/000/004/253/4253650/",
+          "sourceTitle": "ASUS JAPAN 官方新聞稿：ROG ALB01 發售",
+          "evidenceSnippet": "ASUS JAPAN 宣布2025年2月26日開始預約、2月28日發售 ALB01；這是日本市場發售日期，不推定台灣上市日。",
+          "reason": "已查日本ASUS發售新聞稿，明示2025-02-28日本發售，但台灣於更早的2024介紹／贈品頁已有ALB01；不能以日本區域開賣日當台灣或全球首發日。本輪未確認台灣明確上市／發售日期。"
+        }
+      ]
+    },
+    {
+      "id": "monitor-light-philips-pd052",
+      "category": "monitor-light",
+      "brand": "Philips",
+      "model": "PD052",
+      "name": "66219 品笛二代 iD Pro 手勢感應螢幕掛燈",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "sourceKind": "not_found",
+      "query": "\"Philips PD052\" 上市 5V",
+      "auditQueries": [
+        "\"Philips PD052\" 上市 5V",
+        "\"Philips\" \"PD052\" 上市 發售",
+        "site:philips.com \"PD052\""
+      ],
+      "reason": "已查PD052台灣通路、燦坤12NC對照及Philips台灣／香港929003602301官方產品頁，未取得明確上市／發售公告；商品冊、說明書、上架及評論日期不當上市日。",
+      "checkedAt": "2026-08-31",
+      "auditDisposition": "not_found",
+      "checkedSources": [
+        "https://www.autobuy.tw/electrical/prod_356251",
+        "https://www.trplus.com.tw/p/016783346",
+        "https://www.gh-3c.com/products/philips-66219-pindi-pro-pd052-auto-sensing-asymmetrical-led-eye-care-monitor-light-bar",
+        "https://www.google.com/search?q=%22Philips%20PD052%22%20%E4%B8%8A%E5%B8%82%205V",
+        "https://www.google.com/search?q=%22Philips%22%20%22PD052%22%20%E4%B8%8A%E5%B8%82%20%E7%99%BC%E5%94%AE",
+        "https://www.google.com/search?q=site%3Aphilips.com%20%22PD052%22",
+        "https://www.tk3c.com/product/240594",
+        "https://www.lighting.philips.com.tw/consumer/p/myhomeoffice-pc-screen-light/929003602301",
+        "https://www.lighting.philips.com.hk/consumer/p/myhomeoffice-pc-screen-light/929003602301",
+        "https://www.yohohongkong.com/zh-hk/product/117712-Philips-66219-Edison-Pro-%E8%9E%A2%E5%B9%95%E6%8E%9B%E7%87%88-%E9%A6%99%E6%B8%AF%E8%A1%8C%E8%B2%A8"
+      ]
+    },
+    {
+      "id": "monitor-light-yeelight-yltd003",
+      "category": "monitor-light",
+      "brand": "Yeelight",
+      "model": "YLTD003",
+      "name": "Monitor Light Bar Pro 智慧 RGB 螢幕掛燈（美國版）",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "sourceKind": "not_found",
+      "query": "\"Yeelight YLTD003\" launch release",
+      "auditQueries": [
+        "\"Yeelight YLTD003\" launch release",
+        "\"YLTD003\" release launch 2021 Yeelight"
+      ],
+      "reason": "已查官方／可信通路exact-model頁及明列查詢，未取得明確上市／發售公告；產品冊、說明書、上架及評論日期均非上市日，不以文章時間推算。",
+      "checkedAt": "2026-08-31",
+      "auditDisposition": "not_found",
+      "checkedSources": [
+        "https://en.yeelight.com/product/led-screen-light-bar-pro/",
+        "https://en.yeelight.com/wp-content/uploads/sites/4/2023/08/Yeelight-home.pdf",
+        "https://store.yeelight.com/products/yeelight-monitor-light-bar-pro-flagship-edition",
+        "https://www.google.com/search?q=%22Yeelight%20YLTD003%22%20launch%20release",
+        "https://www.google.com/search?q=%22YLTD003%22%20release%20launch%202021%20Yeelight"
+      ]
+    },
+    {
+      "id": "monitor-light-quntis-f51bk",
+      "category": "monitor-light",
+      "brand": "Quntis",
+      "model": "F51BK",
+      "name": "Focus 51 PRO+ 無線旋鈕螢幕掛燈",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "sourceKind": "not_found",
+      "query": "\"Quntis F51BK\" release launch",
+      "auditQueries": [
+        "\"Quntis F51BK\" release launch"
+      ],
+      "reason": "F51BK官方exact SKU商品與支援手冊已核對；支援文章的2026年更新／刊登日不是上市日，搜尋未取得明確launch/release公告，不以型號、評論或手冊日期推算。",
+      "checkedAt": "2026-08-31",
+      "auditDisposition": "not_found",
+      "checkedSources": [
+        "https://www.quntis.com/bn/blogs/support-manuals/user-manual-quntis-monitor-light-bar-focus-51-cm-20-1-inch-black",
+        "https://www.quntis.com/products/monitor-light-bar-pro-with-remote-control-eye-care-technology-computer-monitor-lamp-with-auto-dimming-no-screen-glare",
+        "https://www.google.com/search?q=%22Quntis%20F51BK%22%20release%20launch"
+      ]
+    },
+    {
+      "id": "monitor-light-quntis-fr52gy",
+      "category": "monitor-light",
+      "brand": "Quntis",
+      "model": "FR52GY",
+      "name": "Focus Radar 52 人體感應螢幕掛燈",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "sourceKind": "not_found",
+      "query": "\"Quntis FR52GY\" released launched",
+      "auditQueries": [
+        "\"Quntis FR52GY\" released launched"
+      ],
+      "reason": "FR52GY官方exact SKU商品與支援手冊已核對；支援文章的2026年更新／刊登日不是上市日，搜尋未取得明確launch/release公告，不以型號、評論或手冊日期推算。",
+      "checkedAt": "2026-08-31",
+      "auditDisposition": "not_found",
+      "checkedSources": [
+        "https://www.quntis.com/de/blogs/support-manuals/user-manual-quntis-monitor-light-bar-focus-radar-52-cm-20-5-inch-grey",
+        "https://www.quntis.com/products/quntis-screenlinear-deluxe-pro-monitor-light-bar-20-1-asymmetric-led-screen-light-with-touch-radar-sensor-high-cri-eye-care-illumination-stepless-dimming-remote-control-built-in-battery-grey",
+        "https://www.google.com/search?q=%22Quntis%20FR52GY%22%20released%20launched"
+      ]
+    },
+    {
+      "id": "monitor-light-quntis-f45bk",
+      "category": "monitor-light",
+      "brand": "Quntis",
+      "model": "F45BK",
+      "name": "Focus 45 曲線前照螢幕掛燈",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "sourceKind": "not_found",
+      "query": "\"Quntis F45BK\" released launched",
+      "auditQueries": [
+        "\"Quntis F45BK\" released launched"
+      ],
+      "reason": "F45BK官方exact SKU商品與支援手冊已核對；支援文章的2026年更新／刊登日不是上市日，搜尋未取得明確launch/release公告，不以型號、評論或手冊日期推算。",
+      "checkedAt": "2026-08-31",
+      "auditDisposition": "not_found",
+      "checkedSources": [
+        "https://www.quntis.com/blogs/support-manuals/user-manual-quntis-curved-monitor-light-bar-focus-45-cm-17-7-inch-black",
+        "https://www.quntis.com/products/screenlinear-glow-for-curved-17-72inch",
+        "https://www.google.com/search?q=%22Quntis%20F45BK%22%20released%20launched"
+      ]
+    },
+    {
+      "id": "monitor-light-quntis-i51gy",
+      "category": "monitor-light",
+      "brand": "Quntis",
+      "model": "I51GY",
+      "name": "IM 51 RGB Pro+ 螢幕掛燈",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "sourceKind": "not_found",
+      "query": "\"Quntis I51GY\" released launched",
+      "auditQueries": [
+        "\"Quntis I51GY\" released launched"
+      ],
+      "reason": "I51GY官方exact SKU商品與支援手冊已核對；支援文章的2026年更新／刊登日不是上市日，搜尋未取得明確launch/release公告，不以型號、評論或手冊日期推算。",
+      "checkedAt": "2026-08-31",
+      "auditDisposition": "not_found",
+      "checkedSources": [
+        "https://www.quntis.com/blogs/support-manuals/user-manual-quntis-monitor-light-bar-im-51-cm-20-1-inch-grey",
+        "https://www.quntis.com/products/quntis-rgb-pro-monitor-light-bar-with-remote-15-modes-gaming-backlight-4-colors-brightness-dimmable-fronlight-20-ra95-eye-care-monitor-lamp-no-screen-glare-upgraded-clip-for-all-monitor",
+        "https://www.google.com/search?q=%22Quntis%20I51GY%22%20released%20launched"
+      ]
+    },
+    {
+      "id": "monitor-light-quntis-g66bk",
+      "category": "monitor-light",
+      "brand": "Quntis",
+      "model": "G66BK",
+      "name": "Glow 66 雙頭折疊白光背照螢幕掛燈",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "sourceKind": "not_found",
+      "query": "\"Quntis G66BK\" released launched",
+      "auditQueries": [
+        "\"Quntis G66BK\" released launched"
+      ],
+      "reason": "G66BK官方exact SKU商品與支援手冊已核對；支援文章的2026年更新／刊登日不是上市日，搜尋未取得明確launch/release公告，不以型號、評論或手冊日期推算。",
+      "checkedAt": "2026-08-31",
+      "auditDisposition": "not_found",
+      "checkedSources": [
+        "https://www.quntis.com/blogs/support-manuals/user-manual-quntis-curved-monitor-light-bar-glow-66-cm-26-inch-black",
+        "https://www.quntis.com/products/quntis-led-monitor-light-bar-for-curved-screens-eye-caring-screen-lamp-with-backlight-remote-control-adjustable-brightness",
+        "https://www.google.com/search?q=%22Quntis%20G66BK%22%20released%20launched"
+      ]
+    },
+    {
+      "id": "monitor-light-quntis-i66bk",
+      "category": "monitor-light",
+      "brand": "Quntis",
+      "model": "I66BK",
+      "name": "IM 66 雙頭折疊 RGB 螢幕掛燈",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "sourceKind": "not_found",
+      "query": "\"Quntis I66BK\" released launched",
+      "auditQueries": [
+        "\"Quntis I66BK\" released launched"
+      ],
+      "reason": "I66BK官方exact SKU商品與支援手冊已核對；支援文章的2026年更新／刊登日不是上市日，搜尋未取得明確launch/release公告，不以型號、評論或手冊日期推算。",
+      "checkedAt": "2026-08-31",
+      "auditDisposition": "not_found",
+      "checkedSources": [
+        "https://www.quntis.com/blogs/support-manuals/user-manual-quntis-curved-monitor-light-bar-im-66-cm-26-inch-black",
+        "https://www.quntis.com/products/quntis-foldable-dual-head-led-monitor-light-bar-wide-angle-screen-lamp-for-curved-monitors-with-rgb-backlight-remote-control-eye-care-design",
+        "https://www.google.com/search?q=%22Quntis%20I66BK%22%20released%20launched"
+      ]
+    },
+    {
+      "id": "monitor-light-quntis-ims45bk",
+      "category": "monitor-light",
+      "brand": "Quntis",
+      "model": "IMS45BK",
+      "name": "IM Music Sync 45 音樂同步 RGB 螢幕掛燈",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "sourceKind": "not_found",
+      "query": "\"Quntis IMS45BK\" release launch",
+      "auditQueries": [
+        "\"Quntis IMS45BK\" release launch"
+      ],
+      "reason": "IMS45BK官方exact SKU商品與支援手冊已核對；支援文章的2026年更新／刊登日不是上市日，搜尋未取得明確launch/release公告，不以型號、評論或手冊日期推算。",
+      "checkedAt": "2026-08-31",
+      "auditDisposition": "not_found",
+      "checkedSources": [
+        "https://www.quntis.com/de/blogs/support-manuals/user-manual-quntis-curved-monitor-light-bar-im-music-sync-45-cm-17-7-inch-black",
+        "https://www.quntis.com/products/quntis-monitor-light-bar-with-dual-control-adjustable-brightness-color-temperature-11-rgb-modes",
+        "https://www.google.com/search?q=%22Quntis%20IMS45BK%22%20release%20launch"
+      ]
     }
   ]
 }

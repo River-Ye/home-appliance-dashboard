@@ -33,6 +33,7 @@ const {
   NETWORK_SWITCH_COOLING_VALUES,
   NETWORK_SWITCH_TOP_PICK_MODEL,
   NETWORK_SWITCH_SPEC_PREFIXES,
+  MONITOR_LIGHT_SPEC_PREFIXES,
   AIRCON_SPEC_PREFIXES,
   WATERHEATER_SPEC_PREFIXES,
   JAPANESE_BRAND_ROSTER,
@@ -75,6 +76,9 @@ const {
 } = require("./product-issue-validation");
 const { canonicalModel } = require("./research-product-issues");
 const { CHECKED_AT } = require("./verified-product-issues");
+const {
+  ADDED_PRODUCTS_SCOPE, assertIncrementalBaselinePreserved, loadIncrementalBaseline, readEvidenceDocuments, resolveIssueEvidenceDate,
+} = require("./incremental-catalog-audit");
 
 const ISSUE_RESEARCH_STATUSES = new Set(["common_issue", "no_common_issue"]);
 const ISSUE_RESEARCH_DATE_PATTERN = /^\d{4}-\d{2}-\d{2}$/;
@@ -147,6 +151,14 @@ function textMatches(product, term) {
 
 function assert(condition, message, failures) {
   if (!condition) failures.push(message);
+}
+
+function readResearchDocument(root, file, failures, documents) {
+  const document = documents
+    ? documents[file]
+    : fs.existsSync(path.join(root, file)) ? JSON.parse(fs.readFileSync(path.join(root, file), "utf8")) : null;
+  assert(document && typeof document === "object" && !Array.isArray(document), `${file} is missing or invalid`, failures);
+  return document;
 }
 
 function isHttpUrl(value) {
@@ -449,6 +461,19 @@ function validateOrderedSpecPrefixes(product, prefixes, failures) {
   }
 }
 
+function validateMonitorLightProduct(product, failures) {
+  if (product.category !== "monitor-light") return;
+  validateOrderedSpecPrefixes(product, MONITOR_LIGHT_SPEC_PREFIXES, failures);
+  const compatibility = product.specs.find((spec) => spec.startsWith("安裝相容性：")) || "";
+  assert(/夾具厚度/.test(compatibility) && /曲面/.test(compatibility), `${product.id} monitor-light must disclose clamp thickness and curved-screen compatibility`, failures);
+  if (!product.topPick) return;
+  assert(product.channel === "tw", `${product.id} monitor-light Top Pick requires a Taiwan channel`, failures);
+  assert(/夾具厚度[^；]*\d+(?:\.\d+)?\s*(?:[-–—~～]|至)\s*\d+(?:\.\d+)?\s*(?:mm|cm)/iu.test(compatibility), `${product.id} monitor-light Top Pick requires an explicit clamp-thickness range`, failures);
+  assert(/曲面[^；]*(?:支援|不支援|適用|不適用)/u.test(compatibility) && !/未標示|未確認|查不到|未知|待確認/u.test(compatibility), `${product.id} monitor-light Top Pick requires confirmed curved-screen compatibility`, failures);
+  assert(hasTaiwanCompatiblePower(product), `${product.id} monitor-light Top Pick requires rated Taiwan-compatible power`, failures);
+  assert(/台灣|公司貨/u.test(product.warranty || ""), `${product.id} monitor-light Top Pick requires Taiwan after-sales warranty`, failures);
+}
+
 function measurementSegments(value) {
   return String(value || "")
     .split("；")
@@ -736,6 +761,7 @@ function validateProduct(product, categoryIds, failures) {
   validateAirconProduct(product, failures);
   validateWaterheaterProduct(product, failures);
   validateNetworkSwitchProduct(product, failures);
+  validateMonitorLightProduct(product, failures);
   validateHistoricalLow(product, failures);
   validateIssueResearch(product, failures);
 
@@ -858,21 +884,17 @@ function validateIssueEvidence(row, evidence, evidenceIndex, issueTitles, failur
   }
 }
 
-function validateIssueResearchFile(root, products, failures) {
-  const researchFile = path.join(root, "product_issue_research.json");
-  const reportLedgerFile = path.join(root, "product_issue_report_evidence.json");
-  assert(fs.existsSync(researchFile), "product_issue_research.json is missing", failures);
-  assert(fs.existsSync(reportLedgerFile), "product_issue_report_evidence.json is missing", failures);
-  if (!fs.existsSync(researchFile) || !fs.existsSync(reportLedgerFile)) return;
-
-  const research = JSON.parse(fs.readFileSync(researchFile, "utf8"));
-  const reportLedger = JSON.parse(fs.readFileSync(reportLedgerFile, "utf8"));
+function validateIssueResearchFile(root, products, failures, incremental = null, documents = null, expectedIssueDate = CHECKED_AT) {
+  const research = readResearchDocument(root, "product_issue_research.json", failures, documents);
+  const reportLedger = readResearchDocument(root, "product_issue_report_evidence.json", failures, documents);
+  if (!research || !reportLedger) return;
   const ledgerReports = Array.isArray(reportLedger.reports) ? reportLedger.reports : [];
   const researchReports = [];
   const aggregateCheckedAt = research.summary?.checkedAt?.slice(0, 10);
-  assert(aggregateCheckedAt === CHECKED_AT, "product issue research aggregate date mismatch", failures);
+  const expectedCheckedAt = incremental?.report.dataDate || expectedIssueDate;
+  assert(aggregateCheckedAt === expectedCheckedAt, "product issue research aggregate date mismatch", failures);
   assert(reportLedger.checkedAt === research.summary?.checkedAt?.slice(0, 10), "product issue report ledger date mismatch", failures);
-  assert(reportLedger.checkedAt === CHECKED_AT, "product issue report ledger aggregate date mismatch", failures);
+  assert(reportLedger.checkedAt === expectedCheckedAt, "product issue report ledger aggregate date mismatch", failures);
   assert(typeof reportLedger.policy === "string" && reportLedger.policy.trim(), "product issue report ledger requires policy", failures);
   assert(ledgerReports.length > 0, "product issue report ledger requires explicit reports", failures);
   const ledgerReportKeys = new Set(ledgerReports.map((report) => [
@@ -1162,18 +1184,15 @@ function validateIssueResearchFile(root, products, failures) {
   );
 }
 
-function validateIssueReviewManifest(root, products, failures) {
-  const manifestFile = path.join(root, "product_issue_review_manifest.json");
-  assert(fs.existsSync(manifestFile), "product_issue_review_manifest.json is missing", failures);
-  if (!fs.existsSync(manifestFile)) return;
-
-  const manifest = JSON.parse(fs.readFileSync(manifestFile, "utf8"));
-  const research = JSON.parse(fs.readFileSync(path.join(root, "product_issue_research.json"), "utf8"));
+function validateIssueReviewManifest(root, products, failures, incremental = null, documents = null, expectedIssueDate = CHECKED_AT) {
+  const manifest = readResearchDocument(root, "product_issue_review_manifest.json", failures, documents);
+  const research = readResearchDocument(root, "product_issue_research.json", failures, documents);
+  if (!manifest || !research) return;
   const researchById = new Map((research.results || []).map((row) => [row.id, row]));
   const rows = Array.isArray(manifest.results) ? manifest.results : [];
   const byId = new Map(rows.map((row) => [row.id, row]));
   assert(ISSUE_RESEARCH_DATE_PATTERN.test(String(manifest.checkedAt || "")), "issue review manifest requires checkedAt", failures);
-  assert(manifest.checkedAt === CHECKED_AT, "issue review manifest aggregate date mismatch", failures);
+  assert(manifest.checkedAt === (incremental?.report.dataDate || expectedIssueDate), "issue review manifest aggregate date mismatch", failures);
   assert(manifest.checkedAt === research.summary?.checkedAt?.slice(0, 10), "issue review manifest and research aggregate dates must match", failures);
   assert(manifest.methodVersion === 3, "issue review manifest must use explicit methodVersion 3", failures);
   assert(typeof manifest.policy === "string" && manifest.policy.trim(), "issue review manifest requires policy", failures);
@@ -1279,14 +1298,11 @@ function validateIssueReviewManifest(root, products, failures) {
   }
 }
 
-function validateHistoricalPriceResearch(root, products, failures) {
-  const researchFile = path.join(root, "historical_price_research.json");
+function validateHistoricalPriceResearch(root, products, failures, incremental = null, documents = null) {
   const maintenanceReportFile = path.join(root, "catalog_maintenance_latest.json");
-  assert(fs.existsSync(researchFile), "historical_price_research.json is missing", failures);
-  if (!fs.existsSync(researchFile)) return;
-
-  const research = JSON.parse(fs.readFileSync(researchFile, "utf8"));
-  const maintenanceReport = fs.existsSync(maintenanceReportFile)
+  const research = readResearchDocument(root, "historical_price_research.json", failures, documents);
+  if (!research) return;
+  const maintenanceReport = documents ? documents["catalog_maintenance_latest.json"] : fs.existsSync(maintenanceReportFile)
     ? JSON.parse(fs.readFileSync(maintenanceReportFile, "utf8"))
     : null;
   const researchRows = Array.isArray(research.results) ? research.results : [];
@@ -1322,7 +1338,7 @@ function validateHistoricalPriceResearch(root, products, failures) {
       assert(summary[key] === expected, `historical price research summary ${key} is stale`, failures);
     }
     assert(summary.checkedAt === `${maintenanceReport.dataDate}T00:00:00.000+08:00`, "historical price research summary checkedAt is stale", failures);
-    assert(summary.researchedThisRun === products.length, "historical price research researchedThisRun is stale", failures);
+    assert(summary.researchedThisRun === (incremental?.addedIds.length ?? products.length), "historical price research researchedThisRun is stale", failures);
     assert(summary.sourcePolicy?.includes(maintenanceReport.dataDate), "historical price research source policy date is stale", failures);
     assert(summary.exchange?.USD_TWD === maintenanceReport.exchange?.USD_TWD, "historical price research USD exchange rate is stale", failures);
     assert(summary.exchange?.currentUSD_TWD === maintenanceReport.exchange?.USD_TWD, "historical price research current USD exchange rate is stale", failures);
@@ -1368,12 +1384,10 @@ function validateHistoricalPriceResearch(root, products, failures) {
   }
 }
 
-function validateReleaseResearch(root, products, failures) {
-  const researchFile = path.join(root, "release_date_research.json");
-  assert(fs.existsSync(researchFile), "release_date_research.json is missing", failures);
-  if (!fs.existsSync(researchFile)) return;
-
-  const research = JSON.parse(fs.readFileSync(researchFile, "utf8"));
+function validateReleaseResearch(root, products, failures, incremental = null, documents = null) {
+  const research = readResearchDocument(root, "release_date_research.json", failures, documents);
+  if (!research) return;
+  if (incremental) assert(research.summary?.checkedAt?.slice(0, 10) === incremental.report.dataDate, "incremental release research aggregate date mismatch", failures);
   const researchById = new Map((research.results || []).map((row) => [row.id, row]));
   assert(researchById.size === products.length, `release research count ${researchById.size} does not match products ${products.length}`, failures);
 
@@ -1390,25 +1404,25 @@ function validateReleaseResearch(root, products, failures) {
   }
 }
 
-function validateDimensionResearch(root, products, failures) {
+function validateDimensionResearch(root, products, failures, incremental = null, documents = null, { skipCatalogCounts = false } = {}) {
   const dimensionProducts = products.filter((product) => DIMENSION_CATEGORIES.has(product.category));
   const weightProducts = products.filter((product) => WEIGHT_CATEGORIES.has(product.category));
-  assert(dimensionProducts.length === EXPECTED_DIMENSION_PRODUCT_COUNT, `expected ${EXPECTED_DIMENSION_PRODUCT_COUNT} dimension products, got ${dimensionProducts.length}`, failures);
-  for (const [categoryId, expectedCount] of DIMENSION_CATEGORY_COUNTS) {
-    const count = dimensionProducts.filter((product) => product.category === categoryId).length;
-    assert(count === expectedCount, `${categoryId} must have ${expectedCount} dimension products, got ${count}`, failures);
-  }
-  assert(weightProducts.length === EXPECTED_WEIGHT_PRODUCT_COUNT, `expected ${EXPECTED_WEIGHT_PRODUCT_COUNT} weight products, got ${weightProducts.length}`, failures);
-  for (const [categoryId, expectedCount] of WEIGHT_CATEGORY_COUNTS) {
-    const count = weightProducts.filter((product) => product.category === categoryId).length;
-    assert(count === expectedCount, `${categoryId} must have ${expectedCount} weight products, got ${count}`, failures);
+  if (!skipCatalogCounts) {
+    assert(dimensionProducts.length === EXPECTED_DIMENSION_PRODUCT_COUNT, `expected ${EXPECTED_DIMENSION_PRODUCT_COUNT} dimension products, got ${dimensionProducts.length}`, failures);
+    for (const [categoryId, expectedCount] of DIMENSION_CATEGORY_COUNTS) {
+      const count = dimensionProducts.filter((product) => product.category === categoryId).length;
+      assert(count === expectedCount, `${categoryId} must have ${expectedCount} dimension products, got ${count}`, failures);
+    }
+    assert(weightProducts.length === EXPECTED_WEIGHT_PRODUCT_COUNT, `expected ${EXPECTED_WEIGHT_PRODUCT_COUNT} weight products, got ${weightProducts.length}`, failures);
+    for (const [categoryId, expectedCount] of WEIGHT_CATEGORY_COUNTS) {
+      const count = weightProducts.filter((product) => product.category === categoryId).length;
+      assert(count === expectedCount, `${categoryId} must have ${expectedCount} weight products, got ${count}`, failures);
+    }
   }
 
-  const researchFile = path.join(root, "dimension_research.json");
-  assert(fs.existsSync(researchFile), "dimension_research.json is missing", failures);
-  if (!fs.existsSync(researchFile)) return;
-
-  const research = JSON.parse(fs.readFileSync(researchFile, "utf8"));
+  const research = readResearchDocument(root, "dimension_research.json", failures, documents);
+  if (!research) return;
+  if (incremental) assert(research.generatedAt === incremental.report.dataDate, "incremental dimension research aggregate date mismatch", failures);
   assert(/^\d{4}-\d{2}-\d{2}$/.test(String(research.generatedAt || "")), "dimension research requires YYYY-MM-DD generatedAt", failures);
   for (const categoryLabel of [
     "電視",
@@ -1425,6 +1439,7 @@ function validateDimensionResearch(root, products, failures) {
     "冷氣",
     "熱水器",
     "網路交換器",
+    "螢幕燈",
   ]) {
     assert(
       String(research.sourcePolicy || "").includes(categoryLabel),
@@ -1508,7 +1523,29 @@ function validateDimensionResearch(root, products, failures) {
   }
 }
 
+function expectedIssueEvidenceDate(root, products, documents, failures, incremental) {
+  if (incremental) return incremental.report.dataDate;
+  try {
+    return resolveIssueEvidenceDate(root, documents["catalog_maintenance_latest.json"], products, documents, CHECKED_AT);
+  } catch (error) {
+    failures.push(error.message);
+    return CHECKED_AT;
+  }
+}
+
+function validateResearchDocuments(products, documents, failures, incremental = null, { root = path.resolve(__dirname, ".."), skipCatalogCounts = true } = {}) {
+  const issueDate = expectedIssueEvidenceDate(root, products, documents, failures, incremental);
+  validateReleaseResearch(null, products, failures, incremental, documents);
+  // Bundle preflight checks every supplied product, independently of final catalog quotas.
+  validateDimensionResearch(null, products, failures, incremental, documents, { skipCatalogCounts });
+  validateHistoricalPriceResearch("", products, failures, incremental, documents);
+  validateIssueReviewManifest(null, products, failures, incremental, documents, issueDate);
+  validateIssueResearchFile(null, products, failures, incremental, documents, issueDate);
+}
+
 function validateCategoryContent(products, failures) {
+  const monitorLightProducts = categoryProducts(products, "monitor-light");
+  if (monitorLightProducts.length) assert(monitorLightProducts.filter((product) => product.topPick).length === 1, "monitor-light must have exactly one Top Pick", failures);
   for (const [categoryId, requiredTerms] of REQUIRED_CATEGORY_TERMS) {
     const productsInCategory = categoryProducts(products, categoryId);
     for (const term of requiredTerms) {
@@ -1784,12 +1821,23 @@ function validateJapaneseBrandReview(category, row, productById, dataDate, expec
   }
 }
 
-function validateMaintenanceReport(root, categories, products, dataDate, exchange, failures) {
+function validateMaintenanceReport(root, categories, products, dataDate, exchange, failures, reportOverride = null) {
   const reportFile = path.join(root, "catalog_maintenance_latest.json");
   assert(fs.existsSync(reportFile), `missing maintenance report for ${dataDate}`, failures);
   if (!fs.existsSync(reportFile)) return;
 
-  const report = JSON.parse(fs.readFileSync(reportFile, "utf8"));
+  const report = reportOverride || JSON.parse(fs.readFileSync(reportFile, "utf8"));
+  let incremental = null;
+  assert(report.auditScope === undefined || report.auditScope === ADDED_PRODUCTS_SCOPE, "unsupported maintenance auditScope", failures);
+  if (report.auditScope === ADDED_PRODUCTS_SCOPE) {
+    try {
+      const baseline = loadIncrementalBaseline(root, report.baselineRef);
+      incremental = assertIncrementalBaselinePreserved({ report, catalog: { categories, products, exchange }, baseline, documents: readEvidenceDocuments(root) });
+      validateMaintenanceReport(root, baseline.categories, baseline.products, baseline.meta.dataDate, baseline.exchange, failures, baseline.report);
+    } catch (error) {
+      failures.push(error.message);
+    }
+  }
   const productIds = products.map((product) => product.id).sort();
   const productIdSet = new Set(productIds);
   const historicalProductIds = products
@@ -1845,6 +1893,8 @@ function validateMaintenanceReport(root, categories, products, dataDate, exchang
     );
     assert(row?.finalProductCount === count, `${category.id} maintenance scan product count is stale`, failures);
     assert(row?.minimumSatisfied === (count >= MIN_PRODUCTS_PER_CATEGORY), `${category.id} maintenance minimum flag is stale`, failures);
+    // Only immutable, unchanged baseline rows may retain their original review date.
+    if (incremental?.baseline.categories.some((previous) => previous.id === category.id)) continue;
     const expectedReviews = buildJapaneseBrandReview({
       category,
       products,
@@ -1926,6 +1976,7 @@ function validateMaintenanceReport(root, categories, products, dataDate, exchang
     .filter((row) => row.disposition === "manual_official_evidence_required");
   assert(pendingDiscontinuationReviews.length === 0, "maintenance report has unreviewed official discontinuation candidates", failures);
   assert(report.summary?.officialDiscontinuedPendingReview === 0, "maintenance discontinuation review summary is stale", failures);
+  return incremental;
 }
 
 function main() {
@@ -2007,13 +2058,12 @@ function main() {
     }
   }
 
-  validateReleaseResearch(root, products, failures);
-  validateDimensionResearch(root, products, failures);
-  validateHistoricalPriceResearch(root, products, failures);
-  validateIssueReviewManifest(root, products, failures);
-  validateIssueResearchFile(root, products, failures);
+  const incremental = validateMaintenanceReport(root, categories, products, meta.dataDate, exchange, failures);
+  validateResearchDocuments(products, {
+    ...readEvidenceDocuments(root),
+    "catalog_maintenance_latest.json": JSON.parse(fs.readFileSync(path.join(root, "catalog_maintenance_latest.json"), "utf8")),
+  }, failures, incremental, { root, skipCatalogCounts: false });
   validateCategoryContent(products, failures);
-  validateMaintenanceReport(root, categories, products, meta.dataDate, exchange, failures);
 
   if (failures.length) {
     console.error(failures.map((failure) => `- ${failure}`).join("\n"));
@@ -2035,6 +2085,9 @@ if (require.main === module) main();
 module.exports = {
   validateAirconProduct,
   validateNetworkSwitchProduct,
+  validateMonitorLightProduct,
+  validateMaintenanceReport,
   validatePriceAndInstallationContract,
   validateWaterheaterProduct,
+  validateResearchDocuments,
 };

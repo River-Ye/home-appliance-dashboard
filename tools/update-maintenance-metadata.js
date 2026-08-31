@@ -1,6 +1,9 @@
 const fs = require("fs");
 const path = require("path");
 const { readDashboardProducts } = require("./read-dashboard-products");
+const {
+  ADDED_PRODUCTS_SCOPE, assertIncrementalBaselinePreserved, loadIncrementalBaseline, readEvidenceDocuments,
+} = require("./incremental-catalog-audit");
 
 const ROOT = path.resolve(__dirname, "..");
 const SUMMARY_MARKER = "catalog-maintenance-summary";
@@ -48,9 +51,20 @@ function taipeiTimestamp(value) {
   return `${fields.year}-${fields.month}-${fields.day} ${fields.hour}:${fields.minute}`;
 }
 
-function renderMaintenanceSummary(report) {
+function renderMaintenanceSummary(report, baselineReport = null) {
   const summary = report.summary || {};
   const exchange = report.exchange || {};
+  if (report.auditScope === ADDED_PRODUCTS_SCOPE) {
+    const added = summary.newProductsAdded || [];
+    const baselineDate = baselineReport?.dataDate || "不可變 Git 基準所記錄的日期";
+    return [
+      `- ${taipeiTimestamp(report.checkedAt)}（台灣時間）完成 ${added.length} 款新增商品查核；目前共 ${summary.categories} 類、${summary.finalProducts} 筆商品，原 ${summary.baselineProducts} 筆沿用 ${baselineDate} 的證據，沒有重新查價或修改舊商品。`,
+      `- 本次增量新增 ${added.join("、")}；沒有移除或替換商品。既有逐類與日系品牌覆核保留原內容及日期，只補查新增分類；所有分類至少 ${summary.minimumProductsPerCategory} 筆。`,
+      `- 本輪來源與圖片查核限新增 ${added.length} 款；累積來源／圖片覆蓋 ${summary.sourcesAudited}／${summary.imagesAudited} 筆，包含沿用的舊查核與例外。史低累積 ${summary.historicalFound} 筆 \`found\`、${summary.historicalMissing} 筆 \`not_found\`；既有逐筆證據與查核日期保留，累積覆蓋不代表本輪重新查核。`,
+      `- 匯率沿用 ExchangeRate-API ${exchange.date}，USD/TWD ${exchange.USD_TWD}；本輪未重抓匯率，既有外幣價格未重算，新增海外款使用同一保留匯率換算。完整摘要、不可變基準與例外保存在 \`catalog_maintenance_latest.json\`。`,
+    ].join("\n");
+  }
+  if (report.auditScope !== undefined) throw new Error(`Unsupported maintenance auditScope: ${report.auditScope}`);
   const added = summary.newProductsAdded?.length
     ? `本次增量新增 ${summary.newProductsAdded.join("、")}`
     : "本次增量沒有納入新產品";
@@ -89,7 +103,14 @@ function renderMaintenanceSummary(report) {
   ].join("\n");
 }
 
-function updateIndexMetadata(source, meta) {
+function updateIndexMetadata(source, meta, report = null) {
+  if (report) {
+    if (![undefined, ADDED_PRODUCTS_SCOPE].includes(report.auditScope)) throw new Error(`Unsupported maintenance auditScope: ${report.auditScope}`);
+    const scope = report.auditScope === ADDED_PRODUCTS_SCOPE
+      ? `新增查核 ${report.summary.newProductsAdded.length} 款，其餘 ${report.summary.baselineProducts} 款沿用；匯率沿用 ${report.exchange.date}`
+      : "價格與購買連結已全量查核";
+    source = source.replace(/<small>[^<]+；<span id="exchangeSummary">/, `<small>${scope}；<span id="exchangeSummary">`);
+  }
   return source
     .replace(/"dateModified": "\d{4}-\d{2}-\d{2}"/, `"dateModified": "${meta.dataDate}"`)
     .replace(/id="dataDate">\d{4}-\d{2}-\d{2}<\/strong>/, `id="dataDate">${meta.dataDate}</strong>`)
@@ -108,12 +129,17 @@ function updateReadmeMetadata(source, meta) {
 function main() {
   const reportPath = path.join(ROOT, "catalog_maintenance_latest.json");
   const report = JSON.parse(fs.readFileSync(reportPath, "utf8"));
-  const { meta } = readDashboardProducts(ROOT);
+  const catalog = readDashboardProducts(ROOT);
+  const { meta } = catalog;
   if (report.dataDate !== meta.dataDate) {
     throw new Error(`Maintenance report date ${report.dataDate} does not match config ${meta.dataDate}`);
   }
 
-  const summary = renderMaintenanceSummary(report);
+  const baseline = report.auditScope === ADDED_PRODUCTS_SCOPE
+    ? loadIncrementalBaseline(ROOT, report.baselineRef)
+    : null;
+  if (baseline) assertIncrementalBaselinePreserved({ report, catalog, baseline, documents: readEvidenceDocuments(ROOT) });
+  const summary = renderMaintenanceSummary(report, baseline?.report);
   for (const file of ["README.md", "AGENTS.md"]) {
     const filePath = path.join(ROOT, file);
     const source = fs.readFileSync(filePath, "utf8");
@@ -125,7 +151,7 @@ function main() {
   }
 
   const indexPath = path.join(ROOT, "index.html");
-  fs.writeFileSync(indexPath, updateIndexMetadata(fs.readFileSync(indexPath, "utf8"), meta));
+  fs.writeFileSync(indexPath, updateIndexMetadata(fs.readFileSync(indexPath, "utf8"), meta, report));
 }
 
 if (require.main === module) {

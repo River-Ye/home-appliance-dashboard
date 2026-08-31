@@ -12,7 +12,7 @@ Use this reference for frontend refactors, validation-tool changes, docs drift p
 
 ## Generated GEO Surfaces
 
-- Generate exactly one static guide per configured category (currently 30) at `/categories/<id>/` from `assets/js/config.js`, `products/*.js`, and the manually maintained editorial source `tools/category-guides.js`. Each guide keeps five detailed recommendations and a compact initial-HTML index covering every exact model in that category, so discovery does not depend on homepage JavaScript.
+- Generate exactly one static guide per configured category (currently 31) at `/categories/<id>/` from `assets/js/config.js`, `products/*.js`, and the manually maintained editorial source `tools/category-guides.js`. Each guide keeps five detailed recommendations and a compact initial-HTML index covering every exact model in that category, so discovery does not depend on homepage JavaScript.
 - After changing products, categories, category guides, or homepage CSS sources, run `npm run generate:categories`. The generated outputs are `assets/css/app.css`, `categories/<id>/index.html`, `sitemap.xml`, `llms.txt`, and the `geo-structured-data` / `geo-category-links` blocks in `index.html`; never hand-edit them.
 - Keep the shared site name, homepage title, description, H1, and AI disclosure contract in `tools/geo-config.js` so visible copy, metadata, JSON-LD, generated guides, and `llms.txt` remain aligned.
 - Keep category-guide links back to the dashboard on `/#category=<id>` fragment state. Do not emit crawlable `index.html?category=...` links; preserve that fragment before asynchronous product loading and keep existing query-based shared URLs working in `assets/js/url-state.js`.
@@ -31,6 +31,8 @@ Use this reference for frontend refactors, validation-tool changes, docs drift p
 - For CSS changes, preserve selectors and visual behavior unless the user asks for a redesign.
 
 ## Release Verification
+
+For a PR-only request, run the local checks and PR CI below, then stop with the PR ready for review. Do not merge or deploy Pages; the post-merge checks apply only after a separate authorized release.
 
 After product, category, or guide changes, regenerate before the full checks:
 
@@ -65,6 +67,6 @@ curl -I https://appliance.riverye.com/product_issue_review_manifest.json
 curl -I https://river-ye.github.io/home-appliance-dashboard/
 ```
 
-The workflow submits the homepage and every configured category URL to IndexNow only after Pages succeeds (currently 31 canonical URLs total). This notification is non-blocking, so inspect the `Notify IndexNow` log even when the workflow is green; report any rejection or network failure without treating it as a Pages deployment failure.
+The workflow submits the homepage and every configured category URL to IndexNow only after Pages succeeds (currently 32 canonical URLs total). This notification is non-blocking, so inspect the `Notify IndexNow` log even when the workflow is green; report any rejection or network failure without treating it as a Pages deployment failure.
 
 Report the public page URL, commit hash, checks run, Pages result, representative generated assets and evidence-file checks, and the IndexNow log result.

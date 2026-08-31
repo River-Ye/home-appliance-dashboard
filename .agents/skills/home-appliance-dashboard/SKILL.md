@@ -11,6 +11,8 @@ Start by reading `AGENTS.md`, then inspect `package.json`, `assets/js/config.js`
 
 Use a dedicated git worktree and short-lived `codex/` branch for repo changes unless the user explicitly says otherwise. After implementation, run the repo checks, merge back to `main`, push, verify GitHub Pages, and remove the temporary worktree.
 
+For an explicit PR-only request, stop after pushing the feature branch, opening the PR, and verifying CI. Do not merge `main`, deploy Pages, or remove the pending-review branch/worktree without a further request.
+
 ## Task Routing
 
 - For product data, prices, links, images, exchange rates, discontinued decisions, release dates, historical lows, or source evidence, read `references/product-maintenance.md`.
@@ -18,7 +20,7 @@ Use a dedicated git worktree and short-lived `codex/` branch for repo changes un
 
 ## GEO And AI Search Workflow
 
-- The site has one generated static guide for every configured category (currently 30) at `/categories/<id>/`; do not create one thin page per product or add tracking for GEO work.
+- The site has one generated static guide for every configured category (currently 31) at `/categories/<id>/`; do not create one thin page per product or add tracking for GEO work.
 - Keep every product discoverable without JavaScript: each generated category guide must include its top-five detailed recommendations plus a compact initial-HTML index of every exact model in that category.
 - Maintain category-level intros, three buying criteria, and three FAQs in `tools/category-guides.js`. Product facts continue to come from `assets/js/config.js` and `products/*.js`.
 - Keep the shared site name, homepage title, description, H1, and visible AI disclosure in `tools/geo-config.js`; metadata, JSON-LD, generated guides, and `llms.txt` must use the same contract.
@@ -26,13 +28,14 @@ Use a dedicated git worktree and short-lived `codex/` branch for repo changes un
 - Category guides must return to the interactive dashboard with `/#category=<id>` fragment state, not crawlable `index.html?category=...` links. Capture that fragment before asynchronous product loading so in-page anchors cannot discard it, and keep existing query-based shared URLs backward-compatible in `assets/js/url-state.js`.
 - Treat `llms.txt` as supplemental discovery context only; it does not guarantee indexing, ranking, or AI citation.
 - Keep all six evidence files in the Pages artifact: `release_date_research.json`, `historical_price_research.json`, `dimension_research.json`, `product_issue_research.json`, `product_issue_report_evidence.json`, and `product_issue_review_manifest.json`.
-- Keep the complete same-date 30-category × 9-brand `japaneseBrandReview` matrix in `catalog_maintenance_latest.json`; use `npm run review:japanese-brands` on the maintenance draft and do not create a seventh public evidence file.
+- Keep the complete 31-category × 9-brand `japaneseBrandReview` matrix in `catalog_maintenance_latest.json`; full maintenance requires same-date review, while an explicit `added_products_only` batch retains unchanged baseline category rows and their real dates. Do not create a seventh public evidence file or relabel carried evidence as newly reviewed.
 - IndexNow runs only after a successful Pages deployment and is non-blocking. Always inspect its workflow log and report failures accurately.
 
 ## Guardrails
 
 - Preserve `products/*.js` as the product data boundary and keep `registerProducts(categoryId, items)` compatible.
 - Keep `assets/js/config.js` `meta`, `tools/dashboard-contract.js`, README, AGENTS, and visible page dates/counts in sync.
+- For requested additions only, use the existing compact report with `auditScope: "added_products_only"`, an immutable full-SHA `baselineRef`, and `summary.newProductsAdded` as the exact catalog ID difference. Preserve every baseline product and per-item evidence row; keep cumulative audit coverage distinct from the current addition batch. Never run full catalog maintenance or refresh old prices/exchange rates under this scope.
 - Preserve exactly 30 one-to-one Taiwan residential split air-conditioner sets and exactly 45 Taiwan-market water heaters. Enforce the cold-only/heat-cool and capacity-band quotas for air conditioners, plus gas/electric/heat-pump and storage/instant quotas for water heaters.
 - For newly researched products, preserve `price.basis` (`retailer_current` or `official_suggested`) and `installation.status` (`included_basic`, `excluded`, or `not_stated`). Never present official suggested prices as retailer current prices or historical lows.
 - Start a new data date with `npm run maintain:catalog -- --draft --date=YYYY-MM-DD --baseline-ref=origin/main`; finalize with `--write` only after the same-date category and discontinuation reviews are explicit. Keep reviewed summary/exception evidence in `catalog_maintenance_latest.json`; keep `.maintenance-audit.json` and `.maintenance-draft.json` untracked or as short-lived CI artifacts.
@@ -40,6 +43,7 @@ Use a dedicated git worktree and short-lived `codex/` branch for repo changes un
 - Keep the Lighthouse budgets enforced by `npm run check:quality`: browser-throttled Performance ≥ 90, LCP ≤ 2.5s, CLS ≤ 0.1, Accessibility = 100, SEO ≥ 95, plus runner-independent Lantern TBT ≤ 200ms.
 - Do not delete products from weak signals such as one stale image URL, one transient page error, or PChome `Qty: 0`.
 - Keep `coffee` at exactly 24 Taiwan-channel, TWD-priced espresso machines: 12 fully automatic and 12 semi-automatic, each type split 4/4/4 across value/mid/premium, with six semi-automatic models using built-in grinders and six requiring external grinders. Preserve 6+ brands, at most 6 products per brand, all 12 coffee spec prefixes, dimension/weight evidence, Taiwan-market 110V or 120V/60Hz power, and exactly one Taiwan-serviceable 110V/60Hz Top Pick.
+- Keep `monitor-light` at exactly 20 desktop monitor-mounted lamps, next to `monitor`, with Taiwan channels first and eligible overseas references only. Preserve all 13 spec prefixes, explicit clamp-thickness and curved-screen limits, USB power requirements, included accessories, body dimensions/net weight, and exactly one evidence-backed Taiwan Top Pick; exclude desk lamps, laptop lights, ambient-only lights, accessories, and color/bundle duplicates.
 - Do not rewrite the app into a framework or add a build pipeline unless the user explicitly asks for that architectural change.
 - 只允許本次核准的 Google AdSense 手動廣告與 Google CMP；保留兩個 responsive manual slots 與正式 hostname gate；`https://appliance.riverye.com/` 必須維持 AdSense 全站 Auto ads page exclusion，不得擴充為其他追蹤。
 - 禁止加入 Google Analytics、Google Ads 轉換追蹤或其他未授權追蹤；本機與 `file://` 驗證不得送出廣告請求，公開驗收不得點擊自己的廣告。
