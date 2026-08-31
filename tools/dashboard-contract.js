@@ -1,5 +1,5 @@
-const EXPECTED_CATEGORY_COUNT = 30;
-const EXPECTED_PRODUCT_COUNT = 923;
+const EXPECTED_CATEGORY_COUNT = 31;
+const EXPECTED_PRODUCT_COUNT = 943;
 const MIN_PRODUCTS_PER_CATEGORY = 20;
 const EXPECTED_CATEGORY_PRODUCT_COUNTS = new Map([
   ["tv", 35],
@@ -31,6 +31,7 @@ const EXPECTED_CATEGORY_PRODUCT_COUNTS = new Map([
   ["standingdesk", 27],
   ["chair", 27],
   ["monitor", 60],
+  ["monitor-light", 20],
   ["monitorarm", 25],
 ]);
 const DATE_PATTERN = /^(找不到|\d{4}(?:[-/.]\d{1,2}(?:[-/.]\d{1,2})?)?)$/;
@@ -50,11 +51,12 @@ const DIMENSION_CATEGORY_COUNTS = new Map([
   ["aircon", 30],
   ["waterheater", 45],
   ["network-switch", 20],
+  ["monitor-light", 20],
 ]);
 const DIMENSION_CATEGORIES = new Set(DIMENSION_CATEGORY_COUNTS.keys());
 const EXPECTED_DIMENSION_PRODUCT_COUNT = [...DIMENSION_CATEGORY_COUNTS.values()]
   .reduce((sum, count) => sum + count, 0);
-const NEW_DIMENSION_CATEGORIES = new Set(["tv", "soundbar", "coffee", "oven", "dishwasher", "bidet", "aircon", "waterheater", "network-switch"]);
+const NEW_DIMENSION_CATEGORIES = new Set(["tv", "soundbar", "coffee", "oven", "dishwasher", "bidet", "aircon", "waterheater", "network-switch", "monitor-light"]);
 const MEASUREMENT_PRIORITY_CATEGORIES = new Set(["tv", "soundbar", "garmentcare", "coffee", "oven", "dishwasher", "bidet", "aircon", "waterheater", "network-switch"]);
 const MEASUREMENT_VALUE_PATTERN = "\\d+(?:\\.\\d+)?(?:[-–／/]\\d+(?:\\.\\d+)?)?";
 const DIMENSION_SEGMENT_PATTERN = `(?:[^；]+ )?寬 ${MEASUREMENT_VALUE_PATTERN} x 深 ${MEASUREMENT_VALUE_PATTERN} x 高 ${MEASUREMENT_VALUE_PATTERN} cm`;
@@ -68,6 +70,7 @@ const WEIGHT_CATEGORY_COUNTS = new Map([
   ["oven", 25],
   ["aircon", 30],
   ["waterheater", 45],
+  ["monitor-light", 20],
 ]);
 const WEIGHT_CATEGORIES = new Set(WEIGHT_CATEGORY_COUNTS.keys());
 const EXPECTED_WEIGHT_PRODUCT_COUNT = [...WEIGHT_CATEGORY_COUNTS.values()]
@@ -147,6 +150,21 @@ const NETWORK_SWITCH_SPEC_PREFIXES = [
   "尺寸：",
   "安裝方式：",
   "弱電箱提醒：",
+];
+const MONITOR_LIGHT_SPEC_PREFIXES = [
+  "類型：",
+  "配光：",
+  "照度：",
+  "色溫：",
+  "顯色性：",
+  "調光／控制：",
+  "自動感光：",
+  "背光：",
+  "安裝相容性：",
+  "供電／功率：",
+  "尺寸：",
+  "重量：",
+  "隨附配件：",
 ];
 const AIRCON_SPEC_PREFIXES = [
   "型式：",
@@ -383,6 +401,7 @@ module.exports = {
   NETWORK_SWITCH_COOLING_VALUES,
   NETWORK_SWITCH_TOP_PICK_MODEL,
   NETWORK_SWITCH_SPEC_PREFIXES,
+  MONITOR_LIGHT_SPEC_PREFIXES,
   AIRCON_SPEC_PREFIXES,
   WATERHEATER_SPEC_PREFIXES,
   JAPANESE_BRAND_ROSTER,

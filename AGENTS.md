@@ -33,10 +33,10 @@
 - `assets/js/product-loader.js`：依 `categories` 自動載入 `products/<category>.js?v=<cacheVersion>`。
 - `assets/js/main.js`：DOMContentLoaded、商品載入、事件綁定與初始 render。
 - `products/*.js`：每個商品分類一個檔案，只放該分類商品資料，透過 `globalThis.applianceDashboard.registerProducts(categoryId, items)` 註冊。
-- `tools/category-guides.js`：30 類導讀、選購條件與 FAQ 的人工維護來源，不放即時商品事實。
+- `tools/category-guides.js`：31 類導讀、選購條件與 FAQ 的人工維護來源，不放即時商品事實。
 - `tools/geo-config.js`：站名、首頁 title、description、H1、AI 揭露與 GEO 共用文案契約。
 - `tools/generate-category-pages.js`：依分類、商品、指南與 CSS 來源產生 `assets/css/app.css`、`categories/<id>/index.html`、`sitemap.xml`、`llms.txt` 與首頁 GEO 區塊。
-- `categories/<id>/index.html`：30 個可直接閱讀與索引的靜態分類指南頁，含前 5 名詳細推薦與該類全部型號的無 JavaScript 索引，屬產生結果。
+- `categories/<id>/index.html`：31 個可直接閱讀與索引的靜態分類指南頁，含前 5 名詳細推薦與該類全部型號的無 JavaScript 索引，屬產生結果。
 - `tools/dashboard-contract.js`：商品數、分類數、必要欄位與資料品質規則常數。
 - `tools/run-daily-catalog-maintenance.js`：永久維護入口，重查現價、來源、圖片、史低來源、匯率與停產候選；原始逐筆稽核只寫入 gitignored `.maintenance-audit.json`。
 - `tools/catalog-maintenance-policy.js`：exact-model、排除品與官方停產文字的純邏輯規則。
@@ -68,7 +68,7 @@
 
 ## GEO / AI 搜尋規則
 
-- 網站由現有 30 類資料產生 30 個 `/categories/<id>/` 靜態分類指南頁；不建立 923 個重複商品事實的薄內容頁。
+- 網站由現有 31 類資料產生 31 個 `/categories/<id>/` 靜態分類指南頁；不建立 943 個重複商品事實的薄內容頁。
 - 每個分類指南的初始 HTML 必須含該類全部商品的品牌、完整型號、名稱、參考價、價格基準、上市／發售日期與摘要；前 5 名繼續顯示完整評估卡。
 - `tools/category-guides.js` 只維護分類層級的繁中導讀、3 項選購條件與 3 組 FAQ；商品名稱、價格、排名、規格、史低與負評仍從既有商品資料產生，避免第二套事實來源。
 - 站名、首頁 title、description、H1 與 AI 揭露集中在 `tools/geo-config.js`；首頁 metadata、JSON-LD、分類頁與 `llms.txt` 必須共用此契約。首頁與分類頁首屏皆需可見 AI 協作、資料日期、查核方法與 GitHub 原始碼。
@@ -81,7 +81,7 @@
 
 ## 目前資料規模
 
-- 共 30 類、923 筆商品。
+- 共 31 類、943 筆商品。
 - 所有分類每類至少 20 筆；新增分類或補資料時不可讓任何分類低於 20 筆。
 - 特殊分類目前數量：
   - `電視`：35 筆，其中 5 筆為 exact 70 吋，需涵蓋主流顯示技術與可信台灣新品通路。
@@ -90,6 +90,7 @@
   - `無線路由器`：52 筆，只收 Wi-Fi 6 以上，Mesh/多 AP/商用管理支援要寫清楚。
   - `網路交換器`：20 筆，固定 8 個主要 RJ45 埠，1G／2.5G／10G 各至少 4 款；只收台灣公司貨、金屬外殼與非 PoE 型號。
   - `電腦螢幕`：60 筆，需涵蓋主流品牌、不同用途帶與 34/40/45/49/57 吋寬螢幕。
+  - `螢幕燈`：20 筆，只收桌機螢幕掛燈，台灣通路優先、可信海外通路補充；需核對夾具厚度、曲面限制、配光、供電、燈體尺寸與淨重。
   - `懸臂支架`：25 筆，需標示支援尺寸、承重重量與是否適合 49/57 吋大寬螢幕。
   - `電子鎖`：51 筆，需涵蓋知名品牌且注意安裝條件。
   - `鍋具`：28 筆、`刀具`：23 筆、`櫥下飲水機`：40 筆、`洗碗機`：30 筆，需排除配件、耗材、桌上/直立誤判、福利品與展示機。
@@ -153,6 +154,7 @@
 - 升降桌
 - 電腦椅
 - 電腦螢幕
+- 螢幕燈
 - 懸臂支架
 
 ## 商品資料規則
@@ -194,15 +196,15 @@
 - 電壓明顯不適合台灣者不可列為 Top Pick。
 - 使用者曾要求「全網最低價」，實作上要以可信通路與同型號可查低價為準；不要為了低價改放不可信網站或非新品頁。
 - 新增商品的 `price.basis` 只允許 `retailer_current` 或 `official_suggested`；後者必須顯示「建議售價／查看官方資料」，不可被卡片、史低或 maintenance 文案稱為通路現價。`installation.status` 只允許 `included_basic`、`excluded`、`not_stated`，並須用 `installation.note` 說明邊界與可能加價。
-- 日系品牌固定盤點 Sony、Panasonic、HITACHI、Mitsubishi Electric、Daikin、GENERAL、Rinnai、Noritz、TOTO；`Hitachi` 統一為 `HITACHI`，`Mitsubishi` 只在確認為 Mitsubishi Electric 時收錄，GENERAL 可接受 Fujitsu General alias，TOTO 不得誤中 TOTOLINK。30 類 × 9 品牌的完整 `japaneseBrandReview` 保存在 `catalog_maintenance_latest.json`，不新增第七份公開 audit JSON。
+- 日系品牌固定盤點 Sony、Panasonic、HITACHI、Mitsubishi Electric、Daikin、GENERAL、Rinnai、Noritz、TOTO；`Hitachi` 統一為 `HITACHI`，`Mitsubishi` 只在確認為 Mitsubishi Electric 時收錄，GENERAL 可接受 Fujitsu General alias，TOTO 不得誤中 TOTOLINK。31 類 × 9 品牌的完整 `japaneseBrandReview` 保存在 `catalog_maintenance_latest.json`，不新增第七份公開 audit JSON；僅新增模式保留原分類日期，不宣稱 279 格於本輪同日重查。
 - 商品內容若有「排除福利/展示/拆封品」等說明文字是允許的，但商品名稱、型號與購買頁本身不能是這類商品。
 - 每筆商品都必須標示 `releaseDate`，代表上市/發售日期；若可信通路或品牌頁找不到明確日期，需填「找不到」，不要用評論日期、促銷日期、上架日或型號年份猜測。
 - 日期查核需保留 `release_date_research.json` 證據檔；非「找不到」項目必須有 `sourceUrl`、`sourceTitle`、`evidenceSnippet` 與 `confidence`，且 `releaseDate` 只能使用 `YYYY-MM-DD`、`YYYY-MM`、`YYYY`。
 - 補查上市/發售日時，優先官方新聞稿、官方產品發表頁、官方上市/發售公告；其次才使用可信媒體/評測明確寫出的 release/launch/上市/發售文字。不可把 Google/Bing 生成式摘要、支援頁的說明書/韌體/驅動 release date、文章發布日、促銷期間、上架日、保固文件日期、購買頁庫存日期或型號年份當作上市日。
 - 若搜尋結果只找到「released in 2024」這類明確年份，可填 `YYYY`；只寫月份則填 `YYYY-MM`。不要自行補月份或日期。
-- `dimension_research.json` 同步保存 14 類商品的機身／組件尺寸證據，以及電視、Soundbar、咖啡機、多功能氣炸烤箱／微波爐、冷氣、熱水器 6 類商品重量證據；商品規格與研究列必須逐筆對齊。
+- `dimension_research.json` 同步保存 15 類商品的機身／組件尺寸證據，以及電視、Soundbar、咖啡機、多功能氣炸烤箱／微波爐、冷氣、熱水器、螢幕燈 7 類商品重量證據；商品規格與研究列必須逐筆對齊。
 - 尺寸與重量優先採品牌官方 exact-model 產品頁、官方規格表或官方 PDF，其次才使用可信通路。只採本體／機身尺寸與淨重，不可使用包裝、外箱尺寸或毛重；來源沒有明確標示寬／深／高順序時不得自行推定。
-- 新增查核的電視、Soundbar、咖啡機、多功能氣炸烤箱／微波爐、洗碗機與免治馬桶若仍無法確認，規格文字固定使用「尺寸：查不到」／「重量：查不到」，並在研究列保留實際查過的代表性頁面與找不到原因；既有大型家電的「未標示」契約不回溯改寫。
+- 新增查核的電視、Soundbar、咖啡機、多功能氣炸烤箱／微波爐、洗碗機、免治馬桶與螢幕燈若仍無法確認，規格文字固定使用「尺寸：查不到」／「重量：查不到」，並在研究列保留實際查過的代表性頁面與找不到原因；既有大型家電的「未標示」契約不回溯改寫。
 - 每筆商品都必須標示 `historicalLow`，代表同型號、同尺寸/容量/規格在可信新品通路可驗證的歷史最低價與入手時機判斷；若找不到可靠來源，需填 `status: "not_found"`，不要以現價推定史低。
 - 歷史最低價查核需保留 `historical_price_research.json` 證據檔；`found` 項目必須有 `sourceUrl`、`sourceTitle`、`evidenceSnippet`、`amount`、`currency`、`converted`、`sourceKind`、`confidence` 與 `checkedAt`，`not_found` 項目必須寫明查核說明。
 - 咖啡機的史低研究列另需保留結構化 `priceChecks`：每筆寫明 exact-model 查詢、價格來源用途與採用／排除結果，至少跨兩個網站並包含實際比價、價格歷史或 exact-model 價格搜尋；規格、保固、清潔教學、影片與品牌分類頁不得計入價格查核門檻。
@@ -291,6 +293,15 @@
 - 必須涵蓋寬螢幕/超寬螢幕，例如 34 吋 21:9、45 吋 OLED、49 吋 32:9、57 吋 Dual UHD 等；描述要提醒桌深、顯卡與支架承重。
 - 每筆需在規格中寫出螢幕重量；優先使用不含底座/僅面板/VESA 掛載重量。若通路與品牌頁未明確標示，需寫「重量：未標示」並避免猜測。
 
+### 螢幕燈
+
+- 固定精選 20 款桌機螢幕掛燈，歸「工作網路」且排在電腦螢幕與懸臂支架之間；台灣可信新品通路優先，海外款只作補充參考。排除一般檯燈、筆電燈、單純氣氛燈、燈條、配件與停產機種，不以顏色或套組重複湊數。
+- 每筆規格依序提供 `類型：`、`配光：`、`照度：`、`色溫：`、`顯色性：`、`調光／控制：`、`自動感光：`、`背光：`、`安裝相容性：`、`供電／功率：`、`尺寸：`、`重量：`、`隨附配件：`。照度保留來源的距離與測試範圍，不能把不同條件的數字直接排名；功能查不到時明寫「未標示」。
+- 安裝相容性必須涵蓋夾具可接受的螢幕厚度與曲面限制；未知項目明示「未標示」，不可依外觀、燈體弧形或相近系列推定。另提醒螢幕背面造型、無邊框面板與攝影機位置，未有 exact-model 證據不得宣稱通用於所有曲面螢幕。
+- 調光／控制須交代智慧連線是否具備；USB 供電須核對電壓、電流與功率，明示線材、充電器及控制器是否隨附，不把 USB 接口外型當成足夠供電或台灣市電相容證據。
+- 尺寸與淨重列入 `dimension_research.json`；以燈體或來源明確標示的組件為準，不使用包裝／毛重或自行推定寬深高。無可信資料時使用「尺寸：查不到」／「重量：查不到」。
+- 全類恰好一款台灣 Top Pick，須有台灣可信新品通路、可確認的官方安裝相容性、供電與台灣售後；海外款不得列為台灣 Top Pick，且需標示原幣、TWD 換算日期、國際運費、進口稅、插頭／供電及台灣保固風險。
+
 ### 升降桌
 
 - 每筆需在規格中寫出桌板厚度。
@@ -356,13 +367,21 @@
 - 禁止加入 Google Analytics、Google Ads 轉換追蹤或其他未授權追蹤；驗收時不得點擊自己的廣告，也不得用反覆刷新製造廣告活動。
 - 公開頁用 Chrome/DevTools 檢查時不應留下可避免的 console/network error，例如 favicon 404；若改版後看到這類錯誤，需補齊靜態資源或明確說明原因。
 
+## 僅新增商品的增量記錄
+
+- 使用者指定只補品時，保留 `schemaVersion: 3` 並使用 `auditScope: "added_products_only"`；省略此欄位仍按全量維護驗證，未知值必須拒絕。`baselineRef` 必須是可讀取的固定完整 commit SHA，`summary.newProductsAdded` 必須與基準 ID 差集一致，不得附帶刪除、替換或修改原商品。
+- 原商品、逐筆研究、分類覆核列及來源／圖片／史低 audit 的已確認與例外狀態都須原樣承接；完整 checked ID sets 表示目前證據覆蓋，本輪查核集合由 `newProductsAdded` 推導，不新增第二套大型 audit schema。
+- `meta.dataDate` 與 aggregate 日期表示最新研究批次；新增分類日系矩陣使用本輪真實日期，沿用分類必須與固定基準逐列相同，保留舊 `checkedAt`、`reviewedAt` 與 cutoff。`historical_price_research.json` 的 `researchedThisRun` 只計本輪新增款。
+- 僅新增模式不得執行全目錄 `maintain:catalog`；保留既有匯率與日期，新海外款依該批次換算並明示時效，不重算原商品。文件摘要需區分「本輪新增查核」與「沿用既有證據」，不得把合併後總數稱為本輪全量查核。
+- 本次螢幕燈擴充只新增 20 款，原 923 款不重查、不改價；缺少基準、舊證據被改、日期不實、ID 差集不符或新款證據未齊時停止處理，不得自行擴張為全量維護。
+
 ## 價格與匯率
 
 <!-- catalog-maintenance-summary:start -->
-- 2026-08-31 16:55（台灣時間）完成 923 筆商品、30 類全量查核；459 筆 PChome SKU API 已完成（270 筆 exact model、69 筆人工 SKU 綁定可寫入，59 筆型號未自動確認），更新 7 筆公開價格（3 筆下修、4 筆上修），37 筆 Qty 0 只列追蹤。
-- 本次增量新增 robot-hitachi-rv-x20dpa、soundbar-asus-rog-gjallar；本次增量沒有移除停產產品。沿用本資料日既有逐類人工新品覆核，並補查部分分類（原覆核時間保留），所有分類至少 20 筆；停產只採品牌官方明確證據，缺貨、反爬或單次連線錯誤不作為刪除依據。
-- 圖片查核覆蓋 923 筆；682 筆來源可由 exact model 或人工 SKU 綁定確認，241 筆來源例外與 0 筆圖片例外保留原資料。史低為 493 筆 `found`、430 筆 `not_found`，本輪其他更正 1 筆；70 筆來源可自動重現，其餘保留原逐筆證據且未臆測失效。
-- ExchangeRate-API 最新批次為 2026-08-31 00:02 UTC，USD/TWD 31.649299；30 筆外幣商品已重算。完整摘要與例外保存在 `catalog_maintenance_latest.json`。
+- 2026-08-31 18:11（台灣時間）完成 20 款新增商品查核；目前共 31 類、943 筆商品，原 923 筆沿用 2026-08-31 的證據，沒有重新查價或修改舊商品。
+- 本次增量新增 monitor-light-asus-alb01、monitor-light-benq-iscreenbar、monitor-light-benq-screenbar、monitor-light-benq-screenbar-halo2、monitor-light-benq-screenbar-pro、monitor-light-elesense-e1129、monitor-light-elesense-e1132、monitor-light-elesense-e1133、monitor-light-kinyo-pced-805、monitor-light-kinyo-pced-855、monitor-light-philips-pd052、monitor-light-quntis-f45bk、monitor-light-quntis-f51bk、monitor-light-quntis-fr52gy、monitor-light-quntis-g66bk、monitor-light-quntis-i51gy、monitor-light-quntis-i66bk、monitor-light-quntis-ims45bk、monitor-light-xiaomi-mjgjd01yl、monitor-light-yeelight-yltd003；沒有移除或替換商品。既有逐類與日系品牌覆核保留原內容及日期，只補查新增分類；所有分類至少 20 筆。
+- 本輪來源與圖片查核限新增 20 款；累積來源／圖片覆蓋 943／943 筆，包含沿用的舊查核與例外。史低累積 493 筆 `found`、450 筆 `not_found`；既有逐筆證據與查核日期保留，累積覆蓋不代表本輪重新查核。
+- 匯率沿用 ExchangeRate-API 2026-08-31 00:02 UTC，USD/TWD 31.649299；本輪未重抓匯率，既有外幣價格未重算，新增海外款使用同一保留匯率換算。完整摘要、不可變基準與例外保存在 `catalog_maintenance_latest.json`。
 <!-- catalog-maintenance-summary:end -->
 
 ## 驗證清單
@@ -373,7 +392,7 @@
 - `npm run check:logic`：純邏輯回歸，涵蓋排序、品牌依分類限制、史低／負評文案、問題摘要搜尋、來源 URL 安全、HTML escape 與 product-loader URL/錯誤。
 - `npm run check:data`：商品總數、分類數、必要欄位、日期格式、負評逐型號人工覆核、逐位反映者與研究檔對齊、重複 URL 與重複型號檢查通過。
 - `npm run check:docs`：README、AGENTS、index/config 的商品數、分類數、日期與 cache version 不漂移。
-- `npm run check:geo`：30 個分類頁、923 款靜態型號索引、metadata、結構化資料、首頁分類入口、sitemap、llms、六份公開證據檔、Pages artifact、31 個 canonical URL 的 IndexNow contract 與產生結果均無漂移。
+- `npm run check:geo`：31 個分類頁、943 款靜態型號索引、metadata、結構化資料、首頁分類入口、sitemap、llms、六份公開證據檔、Pages artifact、32 個 canonical URL 的 IndexNow contract 與產生結果均無漂移。
 - `npm run check:ui`：桌機與手機版主要互動流程通過。
 - `npm run check:quality`：Lighthouse 的 Performance、LCP、CLS、Accessibility 與 SEO 採瀏覽器行動 throttling，TBT 採 Lantern 標準化模擬；首頁 Performance ≥ 90、LCP ≤ 2.5s、CLS ≤ 0.1、TBT ≤ 200ms、Accessibility = 100、SEO ≥ 95；代表分類頁 Performance、Accessibility、SEO 均 ≥ 95。
 - 商品總數仍符合 README 與分類 tab 顯示。
@@ -389,6 +408,7 @@
 
 ## Git worktree 工作流程
 
+- 使用者明確要求「開 PR」時，只完成專用分支、PR 與 CI 驗證；未另獲要求前不 merge `main`、不部署 Pages，保留待審分支與 worktree。
 - 使用者提出新的需求，或在後續聊天對話中延伸、修正同一需求時，AI 預設要自行建立專用 git worktree 與短期分支處理，不要直接在主要 branch 上開發。
 - 在 worktree 內完成實作、文件、測試與必要驗證；若遇到 conflict，AI 需自行判讀並解決，解完後重新執行相關驗證。
 - 完成後由 AI 自行將短期分支 merge 回主要 branch，確認主要 branch 狀態正確後再推送到 repo。

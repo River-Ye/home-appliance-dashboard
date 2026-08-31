@@ -57960,6 +57960,1827 @@
       "reviewerNote": "ROG Ergo Monitor Arm AAS01R：Yahoo Search 本輪回應失敗，已改以獨立網頁索引重跑 exact-model 查詢；未發現可確認的 exact-model 原頁候選，未達同一問題至少 6 人／2 個原始網站門檻（不代表完全沒有負評）。",
       "attestation": "manual_cross_site_search_reviewed_no_candidate",
       "candidateReviews": []
+    },
+    {
+      "id": "monitor-light-benq-screenbar",
+      "category": "monitor-light",
+      "brand": "BenQ",
+      "model": "ScreenBar",
+      "reviewedAt": "2026-08-31",
+      "reviewBatch": "monitor-light",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "Reddit",
+        "Mobile01",
+        "巴哈姆特"
+      ],
+      "queries": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"ScreenBar\" (problem OR issue OR defect OR failure) -Pro -Halo -Plus -Lite -iScreenBar",
+          "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22ScreenBar%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)%20-Pro%20-Halo%20-Plus%20-Lite%20-iScreenBar",
+          "targetHost": "reddit.com"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"BenQ ScreenBar\" 故障 -Halo -Pro -Plus",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22BenQ%20ScreenBar%22%20%E6%95%85%E9%9A%9C%20-Halo%20-Pro%20-Plus",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"ScreenBar\" \"clamping force\"",
+          "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22ScreenBar%22%20%22clamping%20force%22",
+          "targetHost": "reddit.com"
+        }
+      ],
+      "candidateDisposition": "ScreenBar 原版候選分為觸控失靈、無法點亮與個別螢幕夾具過緊；同帳號續報不重算，未確認原版的系列討論先排除，各問題均未達跨兩站六人。",
+      "representativeSources": [
+        {
+          "platform": "Reddit",
+          "title": "Is it possible to reduce screenbar clamping force?",
+          "url": "https://www.reddit.com/r/BenQ/comments/1i377it/is_it_possible_to_reduce_screenbar_clamping_force/"
+        },
+        {
+          "platform": "Mobile01",
+          "title": "[開箱] 好物 BenQ WiT Screenbar 螢幕智能掛燈 LED 檯燈 可參考 (第7頁)",
+          "url": "https://www.mobile01.com/topicdetail.php?f=168&p=7&t=5301602"
+        },
+        {
+          "platform": "Mobile01",
+          "title": "BenQ ScreenBar Pro 螢幕掛燈 開箱分享",
+          "url": "https://www.mobile01.com/topicdetail.php?f=503&t=6942378"
+        }
+      ],
+      "reviewerNote": "人工分開辨識 ScreenBar 原版與 ScreenBar Pro、Plus、Halo、Halo 2、Lite/iScreenBar。Reddit 與 Mobile01 已實查，巴哈查詢只發現其他代或未能確認原版的討論。原版觸控失靈原頁可辨識三位回報者，另有一位無法點亮與一位 LG 螢幕夾具過緊；不將不同故障相加。Reddit 13oe17b、1dd81b5 僅以 ScreenBar 系列泛稱且未確認型號，未採計。此結論不代表不存在零星故障。",
+      "attestation": "manual_original_pages_reviewed",
+      "candidateReviews": [
+        {
+          "url": "https://www.reddit.com/r/BenQ/comments/1i377it/is_it_possible_to_reduce_screenbar_clamping_force/",
+          "title": "Is it possible to reduce screenbar clamping force?",
+          "platform": "Reddit",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-31",
+          "sourceExcerpt": "Schnauz 在原文回覆貼出原版 ScreenBar 官方連結，描述 LG 27GL850-B 被夾具壓得太緊而用膠帶撐開。",
+          "independentAuthors": 1,
+          "specificReason": "只確認 Schnauz 一位原版使用者的夾具受力與特定螢幕配合問題；客服建議 Pro 不構成第二位故障回報，也不能將其他代夾具討論算入原版。"
+        },
+        {
+          "url": "https://www.mobile01.com/topicdetail.php?f=168&p=7&t=5301602",
+          "title": "[開箱] 好物 BenQ WiT Screenbar 螢幕智能掛燈 LED 檯燈 可參考 (第7頁)",
+          "platform": "Mobile01",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-31",
+          "sourceExcerpt": "第62篇雞丁回報觸控失靈、隔手套改善；cyberbsd 留言指亮度及色溫鍵需隔布；第63至65篇 superkidss 為同一人約四年後觸控失效的續報。",
+          "independentAuthors": 3,
+          "specificReason": "本頁核對到雞丁、cyberbsd、superkidss 三位原版觸控異常使用者；superkidss 的多篇與維修續報只計一人，引用 ponpiqq 的未回看原文不另計。證據集中 Mobile01，未達兩網站且六人的同一問題。"
+        },
+        {
+          "url": "https://www.mobile01.com/topicdetail.php?f=503&t=6942378",
+          "title": "BenQ ScreenBar Pro 螢幕掛燈 開箱分享",
+          "platform": "Mobile01",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-31",
+          "sourceExcerpt": "雖然主題是 Pro，#4 附近 gavincwchen 明確分列自己有 ScreenBar 和 Plus，指出第一支原版 ScreenBar 已無法點亮。",
+          "independentAuthors": 1,
+          "specificReason": "原文留言可辨識為原版 ScreenBar 的一位失效回報，不能因主題標題是 Pro 改算 Pro；未提供與觸控失靈相同的故障診斷，不與原版其他觸控或夾具問題合併湊人數。"
+        }
+      ]
+    },
+    {
+      "id": "monitor-light-benq-screenbar-pro",
+      "category": "monitor-light",
+      "brand": "BenQ",
+      "model": "ScreenBar Pro",
+      "reviewedAt": "2026-08-31",
+      "reviewBatch": "monitor-light",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "Reddit",
+        "Mobile01",
+        "巴哈姆特"
+      ],
+      "queries": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"ScreenBar Pro\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22ScreenBar%20Pro%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"ScreenBar Pro\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22ScreenBar%20Pro%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        }
+      ],
+      "candidateDisposition": "ScreenBar Pro 的感應、常亮按鍵、調光操作、個別視訊或眩光與通路配件分開判斷；重複維修只算同一使用者，沒有同一問題達到兩站六人。",
+      "representativeSources": [
+        {
+          "platform": "Reddit",
+          "title": "Screenbar Pro Proximity Sensor Randomly Turns On/Off",
+          "url": "https://www.reddit.com/r/BenQ/comments/1er0fxq/screenbar_pro_proximity_sensor_randomly_turns/"
+        },
+        {
+          "platform": "Reddit",
+          "title": "Do the ScreenBar Pro illuminated touch buttons turn off after a while?",
+          "url": "https://www.reddit.com/r/BenQ/comments/1h1soqb/do_the_screenbar_pro_illuminated_touch_buttons/"
+        },
+        {
+          "platform": "Reddit",
+          "title": "BenQ ScreenBar Pro?",
+          "url": "https://www.reddit.com/r/BenQ/comments/1baaeqs/benq_screenbar_pro/"
+        },
+        {
+          "platform": "Reddit",
+          "title": "Exiting auto-dimming mode on ScreenBar Pro",
+          "url": "https://www.reddit.com/r/BenQ/comments/1hz9pmr/exiting_autodimming_mode_on_screenbar_pro/"
+        },
+        {
+          "platform": "Reddit",
+          "title": "Screenbar Pro hot to touch?",
+          "url": "https://www.reddit.com/r/BenQ/comments/1ejghlr/screenbar_pro_hot_to_touch/"
+        },
+        {
+          "platform": "巴哈姆特",
+          "title": "【心得】BenQ ScreenBar Pro 開箱",
+          "url": "https://forum.gamer.com.tw/C.php?bsn=60030&snA=662824"
+        },
+        {
+          "platform": "巴哈姆特",
+          "title": "【心得】抱怨BenQ ScreenBar Pro ⋯⋯",
+          "url": "https://forum.gamer.com.tw/C.php?bsn=60030&snA=658775"
+        },
+        {
+          "platform": "Mobile01",
+          "title": "BenQ ScreenBar Pro 螢幕掛燈 開箱分享",
+          "url": "https://www.mobile01.com/topicdetail.php?f=503&t=6942378"
+        },
+        {
+          "platform": "Mobile01",
+          "title": "買螢幕掛燈是智商稅？",
+          "url": "https://m.mobile01.com/topicdetail.php?f=350&t=7026434"
+        }
+      ],
+      "reviewerNote": "ScreenBar Pro 已人工回看 Reddit、Mobile01 及巴哈原文；巴哈658775展開31則留言，662824核對作者旋轉燈管後的改善續報。感應候選的無人誤亮、感應功能自行關閉、正常自動調光收斂分開，不把維修次數、客服回覆、Halo一代或不確定Hola2留言當Pro新回報。Reddit常亮圖示討論有四位已購買者感到干擾，另有未買者疑問與未亮電源鍵不同問題。保留這些使用取捨，不以 no_common_issue 表示零負評。",
+      "attestation": "manual_original_pages_reviewed",
+      "candidateReviews": [
+        {
+          "url": "https://www.reddit.com/r/BenQ/comments/1er0fxq/screenbar_pro_proximity_sensor_randomly_turns/",
+          "title": "Screenbar Pro Proximity Sensor Randomly Turns On/Off",
+          "platform": "Reddit",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-31",
+          "sourceExcerpt": "ljiokp、ubuntudroid、pred4tor07 描述無人時誤亮；ljiokp 後來確認移除氣流干擾即正常。goofymachew2 則說感應功能會自行退出，症狀不同。",
+          "independentAuthors": 4,
+          "specificReason": "此頁可辨識四位，但只有前三位屬無人誤亮，第四位屬功能停用；pred4tor07 已核對 m10llmz 回覆 permalink。暖氣、窗戶與氣流條件各異，客服不計人數；和巴哈維修案仍不能把不同感應症狀合計成六人同故障。"
+        },
+        {
+          "url": "https://www.reddit.com/r/BenQ/comments/1h1soqb/do_the_screenbar_pro_illuminated_touch_buttons/",
+          "title": "Do the ScreenBar Pro illuminated touch buttons turn off after a while?",
+          "platform": "Reddit",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-31",
+          "sourceExcerpt": "j0tun、jerknerkel、maysaw、Mindless_Studio900 表示常亮操作圖示在暗房令人分心；官方帳號說這些指示燈隨主燈常亮。",
+          "independentAuthors": 4,
+          "specificReason": "四位已購買者對常亮圖示不滿，但同在 Reddit；發文者 marwin_ap 尚未購買，不計使用者，MCzenman 的按鍵未亮/難摸是另一問題。這是可提醒的設計取捨，未形成兩站六人的同一集中負評。"
+        },
+        {
+          "url": "https://www.reddit.com/r/BenQ/comments/1baaeqs/benq_screenbar_pro/",
+          "title": "BenQ ScreenBar Pro?",
+          "platform": "Reddit",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-31",
+          "sourceExcerpt": "TheGoRingo 說開燈時短暫明暗變化，後續測試將現象連到自動調光；RichX99 另回報 Studio Display 全幅視訊會拍到燈條，Center Stage 不會。",
+          "independentAuthors": 2,
+          "specificReason": "TheGoRingo 的多次發言僅一人，經切換自動調光/最愛模式後已說明行為，不能當作隨機感應硬體故障；RichX99 是另一種相機取景位置問題。兩個不相同情境不相加，上市詢問或其他代使用者也不計。"
+        },
+        {
+          "url": "https://www.reddit.com/r/BenQ/comments/1hz9pmr/exiting_autodimming_mode_on_screenbar_pro/",
+          "title": "Exiting auto-dimming mode on ScreenBar Pro",
+          "platform": "Reddit",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-31",
+          "sourceExcerpt": "101BDC 以為再按自動調光鍵應退出，後來發現手動亮度可退出；先前參照的是 LaptopBar FAQ，客服說明 Pro 的操作差異。",
+          "independentAuthors": 1,
+          "specificReason": "只有101BDC一位對操作方式的疑問；borfoo3 詢問暖色自動調光設定不是已發生故障。不同產品FAQ造成的操作期待，不能與感應失效或常亮圖示合併計算。"
+        },
+        {
+          "url": "https://www.reddit.com/r/BenQ/comments/1ejghlr/screenbar_pro_hot_to_touch/",
+          "title": "Screenbar Pro hot to touch?",
+          "platform": "Reddit",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-31",
+          "sourceExcerpt": "Rainclouds_16 表示開燈約三十分鐘後右端燙手；nicaragua-hawaii 說的是自己 Xiaomi 1S 的類似感受，官方則回覆右端有主板。",
+          "independentAuthors": 1,
+          "specificReason": "只有 Rainclouds_16 可確認為 ScreenBar Pro；Xiaomi 1S 不屬同型號，客服解釋不是另一位使用者或獨立檢測。保留發熱個案，但沒有跨站六位同型號溫度異常證據。"
+        },
+        {
+          "url": "https://forum.gamer.com.tw/C.php?bsn=60030&snA=662824",
+          "title": "【心得】BenQ ScreenBar Pro 開箱",
+          "platform": "巴哈姆特",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-31",
+          "sourceExcerpt": "邯瀧☌（a11117899）用三週後提到 LED 刺眼；B10 同作者依建議旋轉燈管後表示大幅改善，OLED紫邊是聽聞而非自身損傷。",
+          "independentAuthors": 1,
+          "specificReason": "原文及留言僅一位可確認的刺眼體驗且角度調整改善；傳聞中的OLED紫邊不計第一人稱損壞，也不能與別人的自動調光亮度偏好或感應故障相加。"
+        },
+        {
+          "url": "https://forum.gamer.com.tw/C.php?bsn=60030&snA=658775",
+          "title": "【心得】抱怨BenQ ScreenBar Pro ⋯⋯",
+          "platform": "巴哈姆特",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-31",
+          "sourceExcerpt": "嘉百式（jbiss871231）描述Pro感應先前送修、同機再復發，已用獨立供電；展開留言後未見其他Pro使用者確認相同故障。",
+          "independentAuthors": 1,
+          "specificReason": "兩次維修/復發都是 jbiss871231 同一人，在其他串重述也不重算；KIMI、wish、Douglas 談舊Halo，眼冒金星的Hola2不屬Pro。與Reddit三位無人誤亮及一位功能退出是不同子症狀，不能合併湊成六人。"
+        },
+        {
+          "url": "https://www.mobile01.com/topicdetail.php?f=503&t=6942378",
+          "title": "BenQ ScreenBar Pro 螢幕掛燈 開箱分享",
+          "platform": "Mobile01",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-31",
+          "sourceExcerpt": "jctchen 表示在 momo 購入 Pro 未附變壓器，退貨後改在PChome買有附的方案；重複回覆為同一人。gavincwchen故障的是原版而非Pro。",
+          "independentAuthors": 1,
+          "specificReason": "此處核對到一位 Pro 通路配件差異經驗，而非燈本體故障；同帳號發言不重算。原版無法點亮的留言已另外歸原版，不能拿來支持 Pro 災情，需提醒確認販售方案配件。"
+        },
+        {
+          "url": "https://m.mobile01.com/topicdetail.php?f=350&t=7026434",
+          "title": "買螢幕掛燈是智商稅？",
+          "platform": "Mobile01",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-31",
+          "sourceExcerpt": "開箱作者伊森在 Pro 待改善處說連續觸控反應不夠快、需抬手操作，電源鍵無背光；回帖多為價格觀點、別款燈或Plus經驗。",
+          "independentAuthors": 1,
+          "specificReason": "只有開箱者的實測操作取捨可算一份 Pro 第一人稱經驗；這是連續按鍵反應與未背光電源鍵，非Reddit常亮圖示的相同症狀，價格批評與Plus擁有者不計Pro故障。"
+        }
+      ]
+    },
+    {
+      "id": "monitor-light-benq-screenbar-halo2",
+      "category": "monitor-light",
+      "brand": "BenQ",
+      "model": "ScreenBar Halo 2",
+      "reviewedAt": "2026-08-31",
+      "reviewBatch": "monitor-light",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "Reddit",
+        "Mobile01",
+        "巴哈姆特"
+      ],
+      "queries": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"ScreenBar Halo 2\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22ScreenBar%20Halo%202%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"ScreenBar Halo 2\" (問題 OR 故障 OR 災情 OR 噪音)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22ScreenBar%20Halo%202%22%20(%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E7%81%BD%E6%83%85%20OR%20%E5%99%AA%E9%9F%B3)",
+          "targetHost": "mobile01.com"
+        }
+      ],
+      "candidateDisposition": "ScreenBar Halo 2 海外變壓器聲響已有六位Reddit回報，但僅一個原始網站；配對/失聯兩站共五位，另案為操作誤解。眩光、安裝、第三方供電與物流不可混算。",
+      "representativeSources": [
+        {
+          "platform": "Reddit",
+          "title": "Screenbar Halo 2 power adapter noise",
+          "url": "https://www.reddit.com/r/BenQ/comments/1n9bzdn/screenbar_halo_2_power_adapter_noise/"
+        },
+        {
+          "platform": "巴哈姆特",
+          "title": "【問題】ScreenBar Halo 2 無線控制器的問題(已經解決問題)",
+          "url": "https://forum.gamer.com.tw/C.php?bsn=60030&snA=662282"
+        },
+        {
+          "platform": "Reddit",
+          "title": "【FAQ】If your ScreenBar Halo 2 controller is not responding, try these troubleshooting steps",
+          "url": "https://www.reddit.com/r/BenQ/comments/1nha9d1/faqif_your_screenbar_halo_2_controller_is_not/"
+        },
+        {
+          "platform": "Reddit",
+          "title": "What am I doing wrong?",
+          "url": "https://www.reddit.com/r/BenQ/comments/1pu2qca/what_am_i_doing_wrong/"
+        },
+        {
+          "platform": "巴哈姆特",
+          "title": "【心得】《BenQ ScreenBar Halo 2 螢幕燈》短評：除了自動調光以外其它都是有感升級！另外徵詢大家亮度普遍都調幾%？",
+          "url": "https://forum.gamer.com.tw/Co.php?bPage=0&bsn=60030&sn=2525648&subbsn=15"
+        },
+        {
+          "platform": "Reddit",
+          "title": "BenQ Screenbar Halo 2 not reducing glare (sometimes increasing it)?",
+          "url": "https://www.reddit.com/r/BenQ/comments/1uiew9u/benq_screenbar_halo_2_not_reducing_glare/"
+        },
+        {
+          "platform": "Reddit",
+          "title": "Disappointing experience with Halo 2 Screenbar",
+          "url": "https://www.reddit.com/r/BenQ/comments/1v8gssu/disappointing_experience_with_halo_2_screenbar/"
+        },
+        {
+          "platform": "Reddit",
+          "title": "BenQ screenbar issue",
+          "url": "https://www.reddit.com/r/BenQ/comments/1vg2hfu/benq_screenbar_issue/"
+        },
+        {
+          "platform": "Reddit",
+          "title": "Screenbar Halo 2 on thin monitor?",
+          "url": "https://www.reddit.com/r/BenQ/comments/1pgvbvj/screenbar_halo_2_on_thin_monitor/"
+        },
+        {
+          "platform": "Reddit",
+          "title": "Screenbar Halo 2 is finally here!",
+          "url": "https://www.reddit.com/r/BenQ/comments/1l258lz/screenbar_halo_2_is_finally_here/"
+        },
+        {
+          "platform": "Mobile01",
+          "title": "BenQ ScreenBar Halo 2 開箱心得分享",
+          "url": "https://www.mobile01.com/topicdetail.php?f=116&t=7075074"
+        },
+        {
+          "platform": "Mobile01",
+          "title": "BenQ ScreenBar Halo2 耗電測試",
+          "url": "https://www.mobile01.com/topicdetail.php?f=116&t=7095242"
+        },
+        {
+          "platform": "Mobile01",
+          "title": "「開箱」BenQ ScreenBar Halo 2 - 沒有最好，只有更好",
+          "url": "https://m.mobile01.com/topicdetail.php?f=116&t=7075975"
+        }
+      ],
+      "reviewerNote": "ScreenBar Halo 2 逐頁回看Reddit、Mobile01、巴哈；巴哈670641展開11則留言並核對662282的解決續報。海外原廠變壓器聲響六位皆在同一Reddit串，包含英國/澳洲等地插頭，不可外推台灣變壓器必然同問題。控制器初次配對兩位巴哈作者與FAQ串三位回報者合計五位；abbaisawesome已確認屬操作方式，不硬湊第六人。供電不足閃爍、主觀調光不適、薄螢幕夾具、印度配送與二手缺控制器均獨立處理。保留供電與安裝風險，不寫成沒有負評。",
+      "attestation": "manual_original_pages_reviewed",
+      "candidateReviews": [
+        {
+          "url": "https://www.reddit.com/r/BenQ/comments/1n9bzdn/screenbar_halo_2_power_adapter_noise/",
+          "title": "Screenbar Halo 2 power adapter noise",
+          "platform": "Reddit",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-31",
+          "sourceExcerpt": "pinguz、t0ffemannen、Lower_Balance8768、stup1dfukk、Flackz、Drazzan 分別回報隨附變壓器聲響；部分提高亮度更明顯或改PC USB後消失。",
+          "independentAuthors": 6,
+          "specificReason": "六位身份可分辨，但全部在 Reddit，未找到第二個原始網站相同原廠變壓器聲響。英國、澳洲等區域電源版本也不同，不與巴哈低電力USB閃爍合併，不斷言台灣版普遍故障。"
+        },
+        {
+          "url": "https://forum.gamer.com.tw/C.php?bsn=60030&snA=662282",
+          "title": "【問題】ScreenBar Halo 2 無線控制器的問題(已經解決問題)",
+          "platform": "巴哈姆特",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-31",
+          "sourceExcerpt": "水昂嵐（cjl166）新控制器充電後閃白燈，rockjojo 表示同樣初始問題並分享配對方法；原作者依步驟操作後回覆已正常。",
+          "independentAuthors": 2,
+          "specificReason": "兩位為初始配對困難，至少原作者明確解決；和RedditFAQ串三位失聯/不能配對合計也只有五位。不能把同作者的退貨準備、續報與解決留言重複算人。"
+        },
+        {
+          "url": "https://www.reddit.com/r/BenQ/comments/1nha9d1/faqif_your_screenbar_halo_2_controller_is_not/",
+          "title": "【FAQ】If your ScreenBar Halo 2 controller is not responding, try these troubleshooting steps",
+          "platform": "Reddit",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-31",
+          "sourceExcerpt": "iron-dru 說已充電仍配對失敗，Sensitive-Good5342 表示斷電後容易失聯，Otherwise-Fall-5069 回報新機五天同症並討論改PC供電。",
+          "independentAuthors": 3,
+          "specificReason": "三位可辨識的第一人稱配對/失聯回報；sa1amandra僅問是否解決，官方FAQ不是使用者。與巴哈兩位合計五人，仍未達六位，且斷電失聯與首次配對需保留差別。"
+        },
+        {
+          "url": "https://www.reddit.com/r/BenQ/comments/1pu2qca/what_am_i_doing_wrong/",
+          "title": "What am I doing wrong?",
+          "platform": "Reddit",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-31",
+          "sourceExcerpt": "abbaisawesome 收到Halo2後見控制器短暫亮起但主燈不亮，後來試Presence Detection及其他人的操作說明後表示已了解。",
+          "independentAuthors": 1,
+          "specificReason": "原作者最後確認可亮且理解操作，沒有證明配對持續失效；Competitive-Wind-424 提供操作協助而非自身故障。此案不能補成控制器配對災情的第六名。"
+        },
+        {
+          "url": "https://forum.gamer.com.tw/Co.php?bPage=0&bsn=60030&sn=2525648&subbsn=15",
+          "title": "【心得】《BenQ ScreenBar Halo 2 螢幕燈》短評：除了自動調光以外其它都是有感升級！另外徵詢大家亮度普遍都調幾%？",
+          "platform": "巴哈姆特",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-31",
+          "sourceExcerpt": "無路用的菜頭（tim820208）覺得自動亮度不適並調高手動值，螢幕USB/轉接頭供電時閃爍而PC直供正常；千里另稱電源不足，罐頭在椰子樹上則嫌太亮。",
+          "independentAuthors": 3,
+          "specificReason": "三位負面體驗不屬同症：作者與千里兩位為非充足電源，作者自動亮度不適而罐頭覺得太亮方向不同。未有人證實海外原廠變壓器聲響，不可合併計入該問題；亮度個人偏好亦非故障診斷。"
+        },
+        {
+          "url": "https://www.reddit.com/r/BenQ/comments/1uiew9u/benq_screenbar_halo_2_not_reducing_glare/",
+          "title": "BenQ Screenbar Halo 2 not reducing glare (sometimes increasing it)?",
+          "platform": "Reddit",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-31",
+          "sourceExcerpt": "valkrycp 在抬高螢幕、身後另有房間燈的配置仍看到反光，覺得桌面與身體反射變明顯，考慮退貨；客服要求確認配置。",
+          "independentAuthors": 1,
+          "specificReason": "只確認一位家庭配置的反光與不適體驗，產品不能消除其他房間光源反射；不與不同方向的自動亮度偏好、Pro燈管角度或未確認型號評論混算。"
+        },
+        {
+          "url": "https://www.reddit.com/r/BenQ/comments/1v8gssu/disappointing_experience_with_halo_2_screenbar/",
+          "title": "Disappointing experience with Halo 2 Screenbar",
+          "platform": "Reddit",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-31",
+          "sourceExcerpt": "lesswrng 描述印度官網承諾配送期後超過十天沒出貨更新，後續表示商品終於送到。",
+          "independentAuthors": 1,
+          "specificReason": "這是一位印度直購的配送服務經驗，不是燈具或控制器故障，也不是台灣售後證據；不能當硬體災情或與供電、眩光問題合併。"
+        },
+        {
+          "url": "https://www.reddit.com/r/BenQ/comments/1vg2hfu/benq_screenbar_issue/",
+          "title": "BenQ screenbar issue",
+          "platform": "Reddit",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-31",
+          "sourceExcerpt": "Dapper-Campaign6274 透過瑞典學校拍賣取得二手Halo2但沒有控制器，客服表示不單賣；原文沒有新商品漏裝的情節。",
+          "independentAuthors": 1,
+          "specificReason": "二手拍賣缺件不等於新品配件短缺或控制器自行故障；僅一位區域維修/零件取得困難，保留購買完整新品與確認替換件政策提醒，不計集中硬體問題。"
+        },
+        {
+          "url": "https://www.reddit.com/r/BenQ/comments/1pgvbvj/screenbar_halo_2_on_thin_monitor/",
+          "title": "Screenbar Halo 2 on thin monitor?",
+          "platform": "Reddit",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-31",
+          "sourceExcerpt": "MultiD0c 在 MSI MPG341CQPX 上覺得晃動、易掉，後來停用；Prestigious_Berry809 表示同樣問題，另兩人只是問解法。",
+          "independentAuthors": 2,
+          "specificReason": "可辨識兩位薄型螢幕安裝困難；Subject_Charge_2280與InevitableDramatic40未明確說自己遇到，不計。不能把同系列不同夾具或已刪除帳號的無法辨識發言算額外作者。"
+        },
+        {
+          "url": "https://www.reddit.com/r/BenQ/comments/1l258lz/screenbar_halo_2_is_finally_here/",
+          "title": "Screenbar Halo 2 is finally here!",
+          "platform": "Reddit",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-31",
+          "sourceExcerpt": "串內一則已刪除帳號描述隔天退貨、配重貼合LG 40吋不佳與端蓋觀感；客服追問確切螢幕型號，其他留言多是上市與選購。",
+          "independentAuthors": 0,
+          "specificReason": "負面回報帳號已刪除，無法辨識為獨立作者，且LG螢幕完整型號未確認，因此不計六人門檻。此處只保存候選脈絡，不能拿來補足薄螢幕或做工災情的人數。"
+        },
+        {
+          "url": "https://www.mobile01.com/topicdetail.php?f=116&t=7075074",
+          "title": "BenQ ScreenBar Halo 2 開箱心得分享",
+          "platform": "Mobile01",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-31",
+          "sourceExcerpt": "monarchero 的Halo2開箱表示使用舒適、感應正常；第3樓se3p明說使用一代並推測二代充電池老化，MiMmmmiiii質疑的語句原文已寫較不會不舒服。",
+          "independentAuthors": 0,
+          "specificReason": "沒有核實Halo2實際故障作者；一代電池耗損與對二代鋰電池膨脹的猜測不是二代第一人稱回報，誤讀句子也不增加負評人數。"
+        },
+        {
+          "url": "https://www.mobile01.com/topicdetail.php?f=116&t=7095242",
+          "title": "BenQ ScreenBar Halo2 耗電測試",
+          "platform": "Mobile01",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-31",
+          "sourceExcerpt": "WeihsiuChen 實測不同亮度/色溫耗電，提醒老USB供電限制，同時說自己直插電腦Type-C近兩月沒有斷電或故障。",
+          "independentAuthors": 0,
+          "specificReason": "供電能力提醒是測試與使用條件，不是作者的故障回報；舊原版插頭多年後鬆動也不屬Halo2，不能計入原廠變壓器聲響或配對問題。"
+        },
+        {
+          "url": "https://m.mobile01.com/topicdetail.php?f=116&t=7075975",
+          "title": "「開箱」BenQ ScreenBar Halo 2 - 沒有最好，只有更好",
+          "platform": "Mobile01",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-31",
+          "sourceExcerpt": "EnterBox 認為隨附視訊支架與BenQ ideaCam契合度不高，疊加高度使視訊俯視角度過高，其他照明與感應表現評價正面。",
+          "independentAuthors": 1,
+          "specificReason": "僅一位明確的鏡頭/支架搭配取捨；不同於薄螢幕夾不牢，更不是控制器或電源失效。購買提問者不算親身故障，未形成同一相容問題的跨站六人證據。"
+        }
+      ]
+    },
+    {
+      "id": "monitor-light-benq-iscreenbar",
+      "category": "monitor-light",
+      "brand": "BenQ",
+      "model": "iScreenBar",
+      "reviewedAt": "2026-08-31",
+      "reviewBatch": "monitor-light",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "Reddit",
+        "Mobile01",
+        "巴哈姆特",
+        "MacRumors"
+      ],
+      "queries": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"iScreenBar\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22iScreenBar%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"iScreenBar\" (問題 OR 故障 OR 災情 OR 心得)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22iScreenBar%22%20(%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E7%81%BD%E6%83%85%20OR%20%E5%BF%83%E5%BE%97)",
+          "targetHost": "mobile01.com"
+        }
+      ],
+      "candidateDisposition": "iScreenBar 在Reddit、Mobile01與巴哈實查未找到exact-model使用災情；全球搜尋發現的MacRumors兩頁已原頁覆核，主要是售價觀點與其他型號經驗，沒有可計的本型號第一人稱故障。",
+      "representativeSources": [
+        {
+          "platform": "MacRumors",
+          "title": "BenQ's New iScreenBar is a Monitor Light Bar Made for the iMac",
+          "url": "https://forums.macrumors.com/threads/benqs-new-iscreenbar-is-a-monitor-light-bar-made-for-the-imac.2487958/"
+        },
+        {
+          "platform": "MacRumors",
+          "title": "BenQ's New iScreenBar is a Monitor Light Bar Made for the iMac - Page 2",
+          "url": "https://forums.macrumors.com/threads/benqs-new-iscreenbar-is-a-monitor-light-bar-made-for-the-imac.2487958/page-2"
+        }
+      ],
+      "reviewerNote": "iScreenBar 已查Reddit、Mobile01及巴哈 exact-model queries，結果未找到本型號原始使用負評候選。另以全球搜尋和MacRumors站內限定query發現新品討論，逐頁人工回看兩頁；不能將所有提及ScreenBar的使用者視為iScreenBar所有者。iScreenBar的MacRumors討論是價格與外觀反應、用途爭論，以及明確的Halo2/其他ScreenBar經驗，未確認本型號六位同問題。公開使用紀錄有限，no_common_issue 不等於長期耐用已獲證明。",
+      "attestation": "manual_original_pages_reviewed",
+      "candidateReviews": [
+        {
+          "url": "https://forums.macrumors.com/threads/benqs-new-iscreenbar-is-a-monitor-light-bar-made-for-the-imac.2487958/",
+          "title": "BenQ's New iScreenBar is a Monitor Light Bar Made for the iMac",
+          "platform": "MacRumors",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-31",
+          "sourceExcerpt": "首頁主要討論價格、外觀與螢幕燈是否有用；isomorphic 明說不是此iMac版本，BeatCrazy/citysnaps用其他ScreenBar，smilyfox/enricoclaudio用Halo2。",
+          "independentAuthors": 0,
+          "specificReason": "逐人核對未找到可確認iScreenBar擁有者的第一人稱故障；PsykX對眩光的泛論及Astuces iOS、minhrom、svish價格反應不等於使用回報，不能把其他ScreenBar/ Halo2經驗算進iScreenBar。"
+        },
+        {
+          "url": "https://forums.macrumors.com/threads/benqs-new-iscreenbar-is-a-monitor-light-bar-made-for-the-imac.2487958/page-2",
+          "title": "BenQ's New iScreenBar is a Monitor Light Bar Made for the iMac - Page 2",
+          "platform": "MacRumors",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-31",
+          "sourceExcerpt": "第2頁仍是照明需求與售價討論；NightFox、CookeeTim、bleakend 提到自己的是Halo2，reuptake則是非BenQ燈，並非iScreenBar故障報告。",
+          "independentAuthors": 0,
+          "specificReason": "沒有本型號可計的獨立第一人稱問題作者；同串翻頁不算第二個網站，引用前頁或其他型號使用心得也不增加人數，故不能由泛系列評論成立iScreenBar集中災情。"
+        }
+      ]
+    },
+    {
+      "id": "monitor-light-elesense-e1129",
+      "category": "monitor-light",
+      "brand": "Elesense",
+      "model": "E1129",
+      "reviewBatch": "monitor-light",
+      "decision": "no_common_issue",
+      "reviewedAt": "2026-08-31",
+      "checkedPlatforms": [
+        "Mobile01",
+        "PTT",
+        "巴哈姆特"
+      ],
+      "queries": [
+        {
+          "platform": "Mobile01",
+          "query": "\"Elesense\" \"E1129\" site:mobile01.com 故障 問題",
+          "targetHost": "mobile01.com",
+          "queryUrl": "https://www.google.com/search?q=%22Elesense%22%20%22E1129%22%20site%3Amobile01.com%20%E6%95%85%E9%9A%9C%20%E5%95%8F%E9%A1%8C"
+        },
+        {
+          "platform": "PTT",
+          "query": "\"Elesense\" \"E1129\" site:ptt.cc 故障 問題",
+          "targetHost": "ptt.cc",
+          "queryUrl": "https://www.google.com/search?q=%22Elesense%22%20%22E1129%22%20site%3Aptt.cc%20%E6%95%85%E9%9A%9C%20%E5%95%8F%E9%A1%8C"
+        }
+      ],
+      "candidateDisposition": "E1129：兩位控制／開機相關回報也不足6人；供電噪音另案。跨站同文去重，正面心得、購買詢問與個人轉售不計故障人數，故沒有可成立的集中災情。",
+      "representativeSources": [
+        {
+          "url": "https://www.mobile01.com/topicdetail.php?f=116&t=6728536",
+          "title": "【開箱】Elesense Uni-Light（E1129）螢幕掛燈開箱",
+          "platform": "Mobile01"
+        },
+        {
+          "url": "https://forum.gamer.com.tw/C.php?bsn=60030&snA=615638",
+          "title": "【其他】集實用與科技之大全的價格破壞者 Elesense Uni-Light E1129 智慧螢幕掛燈開箱",
+          "platform": "巴哈姆特"
+        },
+        {
+          "url": "https://www.mobile01.com/topicdetail.php?f=350&t=6714946",
+          "title": "集實用與科技之大全的價格破壞者 Elesense Uni-Light E1129 智慧螢幕掛燈開箱",
+          "platform": "Mobile01"
+        },
+        {
+          "url": "https://www.mobile01.com/topicdetail.php?f=350&t=7009283",
+          "title": "螢幕掛燈為什麼首選BenQ",
+          "platform": "Mobile01"
+        },
+        {
+          "url": "https://www.ptt.cc/bbs/LCD/M.1668272817.A.54F.html",
+          "title": "[討論] 請問有人使用過Elesense螢幕掛燈嗎？",
+          "platform": "PTT"
+        },
+        {
+          "url": "https://www.ptt.cc/bbs/HardwareSale/M.1767320535.A.886.html",
+          "title": "[賣/雙北/皆可] Elesense Uni-Light E1129 掛燈",
+          "platform": "PTT"
+        },
+        {
+          "url": "https://www.ptt.cc/bbs/HardwareSale/M.1765519258.A.FCA.html",
+          "title": "[賣/雙北/皆可] Elesense Uni-Light E1129 掛燈",
+          "platform": "PTT"
+        },
+        {
+          "url": "https://www.ptt.cc/bbs/HardwareSale/M.1777801611.A.986.html",
+          "title": "[賣/新北/皆可]Elesense E1129 智慧掛燈",
+          "platform": "PTT"
+        },
+        {
+          "url": "https://www.ptt.cc/man/HardwareSale/DF0B/D67D/D62B/M.1763286363.A.AD5.html",
+          "title": "[賣/全國/皆可] 全新Elesense智慧螢幕掛燈",
+          "platform": "PTT"
+        }
+      ],
+      "candidateReviews": [
+        {
+          "platform": "Mobile01",
+          "url": "https://www.mobile01.com/topicdetail.php?f=116&t=6728536",
+          "title": "【開箱】Elesense Uni-Light（E1129）螢幕掛燈開箱",
+          "independentAuthors": 3,
+          "sourceExcerpt": "主文Elishark指出控制器閒置後有時需按第二次；5樓hughcmjk回報關燈後控制器亮而燈不亮；6樓seannaes談便宜電源噪音及C-to-C不支援。",
+          "specificReason": "三位作者談不同條件；控制器相關最多兩位，供電噪音一位。jack1357未確認使用型號，exricky1030為壽命推測，均不計入；同一問題未達6位且此處只一站。",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-31"
+        },
+        {
+          "platform": "巴哈姆特",
+          "url": "https://forum.gamer.com.tw/C.php?bsn=60030&snA=615638",
+          "title": "【其他】集實用與科技之大全的價格破壞者 Elesense Uni-Light E1129 智慧螢幕掛燈開箱",
+          "independentAuthors": 1,
+          "crossPostKey": "elesense-e1129-capoo-20221221",
+          "sourceExcerpt": "CapooCat（guanrong1110）描述模式反應約半秒、預設亮度不合喜好，初次配對長按後正常；可見末段留言主要詢問曲面與角度。",
+          "specificReason": "一位實測作者的操作取捨，不是6人硬體故障。主文及最新可見留言已核對，未展開29則不計入已讀；同內容Mobile01轉貼不增加獨立作者。",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-31"
+        },
+        {
+          "platform": "Mobile01",
+          "url": "https://www.mobile01.com/topicdetail.php?f=350&t=6714946",
+          "title": "集實用與科技之大全的價格破壞者 Elesense Uni-Light E1129 智慧螢幕掛燈開箱",
+          "independentAuthors": 0,
+          "crossPostKey": "elesense-e1129-capoo-20221221",
+          "sourceExcerpt": "kevin.zhu於2022-12-21貼出E1129開箱，配對過程、模式延遲及比較照片說明與巴哈同日文章一致。",
+          "specificReason": "原文內容相同的跨站文章視為轉貼，不因另一個網站或帳號名稱就計為第二位獨立使用者。",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-31"
+        },
+        {
+          "platform": "Mobile01",
+          "url": "https://www.mobile01.com/topicdetail.php?f=350&t=7009283",
+          "title": "螢幕掛燈為什麼首選BenQ",
+          "independentAuthors": 0,
+          "sourceExcerpt": "第3樓pighead.jen明列自己使用Elesense Uni-Light E1129並表示無線遙控器及使用感受不錯。",
+          "specificReason": "已核對第一頁第3樓的exact-model正面心得；其他未標示E1129的泛論不算故障，未讀後續頁不宣稱完成。",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-31"
+        },
+        {
+          "platform": "PTT",
+          "url": "https://www.ptt.cc/bbs/LCD/M.1668272817.A.54F.html",
+          "title": "[討論] 請問有人使用過Elesense螢幕掛燈嗎？",
+          "independentAuthors": 0,
+          "sourceExcerpt": "WPKevin詢問Elesense Uni-Light並附E1129商品頁；seanrulina與Klauhal回覆BenQ選購或專利意見。",
+          "specificReason": "主文是購買前詢問，兩位回覆沒有E1129第一人稱故障，不計為負評或產品使用者數。",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-31"
+        },
+        {
+          "platform": "PTT",
+          "url": "https://www.ptt.cc/bbs/HardwareSale/M.1767320535.A.886.html",
+          "title": "[賣/雙北/皆可] Elesense Uni-Light E1129 掛燈",
+          "independentAuthors": 0,
+          "crossPostKey": "e1129-lioujeryuan-sale",
+          "sourceExcerpt": "lioujeryuan於2026-01-02轉售E1129，註明2023年購入、已過保但功能正常且無明顯外傷。",
+          "specificReason": "已讀個人二手出售原頁，明示功能正常，既不是集中故障，也不是可採新品價格來源；與12月同賣家重刊去重。",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-31"
+        },
+        {
+          "platform": "PTT",
+          "url": "https://www.ptt.cc/bbs/HardwareSale/M.1765519258.A.FCA.html",
+          "title": "[賣/雙北/皆可] Elesense Uni-Light E1129 掛燈",
+          "independentAuthors": 0,
+          "crossPostKey": "e1129-lioujeryuan-sale",
+          "sourceExcerpt": "lioujeryuan於2025-12-12以同樣照片轉售2023年購入的E1129，品況仍寫功能正常。",
+          "specificReason": "同作者同物件的較早販售文，並未回報故障；不把重刊當成另一個獨立使用者或新品史低。",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-31"
+        },
+        {
+          "platform": "PTT",
+          "url": "https://www.ptt.cc/bbs/HardwareSale/M.1777801611.A.986.html",
+          "title": "[賣/新北/皆可]Elesense E1129 智慧掛燈",
+          "independentAuthors": 0,
+          "sourceExcerpt": "g86496於2026-05-03出售E1129，表示2023年購入、很少開啟且已過保，後續留言已售出。",
+          "specificReason": "出售少用二手品，沒有第一人稱故障敘述；價格及售出狀態都不能當作集中負評證據。",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-31"
+        },
+        {
+          "platform": "PTT",
+          "url": "https://www.ptt.cc/man/HardwareSale/DF0B/D67D/D62B/M.1763286363.A.AD5.html",
+          "title": "[賣/全國/皆可] 全新Elesense智慧螢幕掛燈",
+          "independentAuthors": 0,
+          "sourceExcerpt": "bighead7987表示買兩台E1129原打算給家人，另一台家人用不到，因此轉售未拆封品。",
+          "specificReason": "個人出售未拆品不是可信新品通路，也沒有使用故障；不能將未使用者計入災情人數。",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-31"
+        }
+      ],
+      "reviewerNote": "E1129：人工覆核Mobile01、PTT與巴哈原頁。Elishark控制器喚醒、hughcmjk短暫關燈後無法重啟、seannaes電源噪音分別保留，不把不同問題或不明型號的發熱留言混算。巴哈僅主文及可見最新留言完成閱讀，未展開的29則不宣稱已讀；目前可核實證據未達同問題6人且跨2站。",
+      "attestation": "manual_original_pages_reviewed"
+    },
+    {
+      "id": "monitor-light-elesense-e1132",
+      "category": "monitor-light",
+      "brand": "Elesense",
+      "model": "E1132",
+      "reviewBatch": "monitor-light",
+      "decision": "no_common_issue",
+      "reviewedAt": "2026-08-31",
+      "checkedPlatforms": [
+        "Mobile01",
+        "PTT"
+      ],
+      "queries": [
+        {
+          "platform": "Mobile01",
+          "query": "\"Elesense\" \"E1132\" site:mobile01.com 故障 問題",
+          "targetHost": "mobile01.com",
+          "queryUrl": "https://www.google.com/search?q=%22Elesense%22%20%22E1132%22%20site%3Amobile01.com%20%E6%95%85%E9%9A%9C%20%E5%95%8F%E9%A1%8C"
+        },
+        {
+          "platform": "PTT",
+          "query": "\"Elesense\" \"E1132\" site:ptt.cc 故障 問題",
+          "targetHost": "ptt.cc",
+          "queryUrl": "https://www.google.com/search?q=%22Elesense%22%20%22E1132%22%20site%3Aptt.cc%20%E6%95%85%E9%9A%9C%20%E5%95%8F%E9%A1%8C"
+        }
+      ],
+      "candidateDisposition": "E1132：唯一可核對候選為單作者開箱，沒有跨站6人同一問題；PTT查無exact-model候選，不代表產品完全沒有負評。",
+      "representativeSources": [
+        {
+          "url": "https://www.mobile01.com/topicdetail.php?f=116&t=6844496",
+          "title": "【開箱】Elesense Gemini-Light（E1132）螢幕前後雙燈掛燈開箱",
+          "platform": "Mobile01"
+        }
+      ],
+      "candidateReviews": [
+        {
+          "platform": "Mobile01",
+          "url": "https://www.mobile01.com/topicdetail.php?f=116&t=6844496",
+          "title": "【開箱】Elesense Gemini-Light（E1132）螢幕前後雙燈掛燈開箱",
+          "independentAuthors": 1,
+          "sourceExcerpt": "Elishark描述E1132操作手勢需習慣、沒有App／語音，視訊鏡頭只能改放左右；文章同時肯定前後補光。",
+          "specificReason": "這是一位作者對操作及安裝空間的實測取捨，沒有至少6位獨立使用者回報同一故障，不與E1129控制器問題合算。",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-31"
+        }
+      ],
+      "reviewerNote": "E1132：逐頁閱讀Elishark開箱，並實查PTT exact-model查詢無結果；巴哈另查到的是E1129／其他產品，型號邊界排除。保留手勢學習、缺App及頂邊鏡頭相容性取捨，不當成6人集中故障。",
+      "attestation": "manual_original_pages_reviewed"
+    },
+    {
+      "id": "monitor-light-elesense-e1133",
+      "category": "monitor-light",
+      "brand": "Elesense",
+      "model": "E1133",
+      "reviewBatch": "monitor-light",
+      "decision": "no_common_issue",
+      "reviewedAt": "2026-08-31",
+      "checkedPlatforms": [
+        "Mobile01",
+        "PTT",
+        "巴哈姆特"
+      ],
+      "queries": [
+        {
+          "platform": "Mobile01",
+          "query": "\"Elesense\" \"E1133\" site:mobile01.com 問題 故障",
+          "targetHost": "mobile01.com",
+          "queryUrl": "https://www.google.com/search?q=%22Elesense%22%20%22E1133%22%20site%3Amobile01.com%20%E5%95%8F%E9%A1%8C%20%E6%95%85%E9%9A%9C"
+        },
+        {
+          "platform": "PTT",
+          "query": "\"Elesense\" \"E1133\" site:ptt.cc 故障 問題",
+          "targetHost": "ptt.cc",
+          "queryUrl": "https://www.google.com/search?q=%22Elesense%22%20%22E1133%22%20site%3Aptt.cc%20%E6%95%85%E9%9A%9C%20%E5%95%8F%E9%A1%8C"
+        }
+      ],
+      "candidateDisposition": "E1133：阿飛的前後光控制限制不與多尼的電池／快捷設定、前鋒的線長取捨混為同一故障。兩篇巴哈文章與Mobile01轉貼只算原作者，詢問系統穩定者不當作已發生故障。",
+      "representativeSources": [
+        {
+          "url": "https://www.mobile01.com/topicdetail.php?f=350&t=7101016",
+          "title": "【開箱體驗】Elesense Gemini-Light Ultra E1133 護眼智慧螢幕掛燈",
+          "platform": "Mobile01"
+        },
+        {
+          "url": "https://www.mobile01.com/topicdetail.php?f=168&t=7041526",
+          "title": "開箱｜Elesense Gemini-Light Ultra（E1133）護眼智慧螢幕掛燈 - 搭載旋鈕控制器，隨轉即控電腦桌上的護眼好物！",
+          "platform": "Mobile01"
+        },
+        {
+          "url": "https://www.mobile01.com/topicdetail.php?f=116&t=7095734",
+          "title": "[開箱]Elesense Gemini-Light Ultra (E1133)-一盞打亮工作與娛樂的智慧掛燈",
+          "platform": "Mobile01"
+        },
+        {
+          "url": "https://forum.gamer.com.tw/C.php?bsn=60030&snA=656277",
+          "title": "【心得】【開箱】為眼睛帶來更好的工作環境 | Elesense Gemini-Light Ultra E1133",
+          "platform": "巴哈姆特"
+        },
+        {
+          "url": "https://www.mobile01.com/topicdetail.php?f=514&t=7046359",
+          "title": "〖開箱〗為眼睛帶來更好的工作環境 | Elesense Gemini-Light Ultra E1133",
+          "platform": "Mobile01"
+        },
+        {
+          "url": "https://forum.gamer.com.tw/C.php?bsn=60030&snA=657005",
+          "title": "【心得】Elesense E1133 Gemini-Light Ultra 螢幕掛燈｜前後補光照亮全局",
+          "platform": "巴哈姆特"
+        },
+        {
+          "url": "https://www.mobile01.com/topicdetail.php?f=116&t=7052704",
+          "title": "Elesense E1133 Gemini-Light Ultra 螢幕掛燈｜前後補光照亮全局",
+          "platform": "Mobile01"
+        }
+      ],
+      "candidateReviews": [
+        {
+          "platform": "Mobile01",
+          "url": "https://www.mobile01.com/topicdetail.php?f=350&t=7101016",
+          "title": "【開箱體驗】Elesense Gemini-Light Ultra E1133 護眼智慧螢幕掛燈",
+          "independentAuthors": 1,
+          "sourceExcerpt": "阿飛愛瞎搞實測後光主要照上方區域、不能獨立調後光亮度；前後同亮時前光約600lux，單開前光約800lux，自動反應約1至2秒。",
+          "specificReason": "一位評測者對雙光源及自動控制的觀察，未形成跨站6人同一故障；這些設計限制納入商品cons而不宣稱災情。",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-31"
+        },
+        {
+          "platform": "Mobile01",
+          "url": "https://www.mobile01.com/topicdetail.php?f=168&t=7041526",
+          "title": "開箱｜Elesense Gemini-Light Ultra（E1133）護眼智慧螢幕掛燈 - 搭載旋鈕控制器，隨轉即控電腦桌上的護眼好物！",
+          "independentAuthors": 1,
+          "sourceExcerpt": "多尼介紹控制器需另備兩顆AAA電池，沒有獨立最愛設定按鈕，但會記憶上次燈光參數。",
+          "specificReason": "單一使用者對配件及快捷功能的取捨，不是控制器故障；不得與其他型號或另一種問題合併湊到6人。",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-31"
+        },
+        {
+          "platform": "Mobile01",
+          "url": "https://www.mobile01.com/topicdetail.php?f=116&t=7095734",
+          "title": "[開箱]Elesense Gemini-Light Ultra (E1133)-一盞打亮工作與娛樂的智慧掛燈",
+          "independentAuthors": 0,
+          "sourceExcerpt": "Candy031640主要正面介紹E1133，列沒有內建電池及價格較高；軍哥提問系統穩定性，作者答目前使用順暢。",
+          "specificReason": "購買提問不是已發生故障，作者也未回報系統異常；文中有拍攝建議式文字，不能把宣傳／模板評述當獨立故障證據。",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-31"
+        },
+        {
+          "platform": "巴哈姆特",
+          "url": "https://forum.gamer.com.tw/C.php?bsn=60030&snA=656277",
+          "title": "【心得】【開箱】為眼睛帶來更好的工作環境 | Elesense Gemini-Light Ultra E1133",
+          "independentAuthors": 1,
+          "crossPostKey": "e1133-rickwang-20241121",
+          "sourceExcerpt": "前鋒（Rickwang0412）描述150cm供電線在主機放桌下時較緊；可見留言為專利討論、影片稱讚或其他型號E1129心得。",
+          "specificReason": "一位作者的線長／安裝限制不是硬體故障；E1129使用者與專利意見排除，Mobile01相同作者文章不增加獨立人數。",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-31"
+        },
+        {
+          "platform": "Mobile01",
+          "url": "https://www.mobile01.com/topicdetail.php?f=514&t=7046359",
+          "title": "〖開箱〗為眼睛帶來更好的工作環境 | Elesense Gemini-Light Ultra E1133",
+          "independentAuthors": 0,
+          "crossPostKey": "e1133-rickwang-20241121",
+          "sourceExcerpt": "前鋒於2024-11-21以相同照片與文字介紹E1133，包含主機放桌下時150cm供電線較緊的敘述。",
+          "specificReason": "與巴哈同日同作者開箱內容相同，按跨站轉貼去重；不能因存在兩網站就認定兩位獨立故障使用者。",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-31"
+        },
+        {
+          "platform": "巴哈姆特",
+          "url": "https://forum.gamer.com.tw/C.php?bsn=60030&snA=657005",
+          "title": "【心得】Elesense E1133 Gemini-Light Ultra 螢幕掛燈｜前後補光照亮全局",
+          "independentAuthors": 0,
+          "crossPostKey": "e1133-leaderysy-20241204",
+          "sourceExcerpt": "leaderysy正面介紹E1133；可見留言是E1132舊買家感嘆新款、專利比較及選配底座購買意願，沒有本型號故障回報。",
+          "specificReason": "主文泛談PWM不是聲稱E1133故障；可見留言沒有可計入的第一人稱故障，不與Mobile01相同內容重複計數。",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-31"
+        },
+        {
+          "platform": "Mobile01",
+          "url": "https://www.mobile01.com/topicdetail.php?f=116&t=7052704",
+          "title": "Elesense E1133 Gemini-Light Ultra 螢幕掛燈｜前後補光照亮全局",
+          "independentAuthors": 0,
+          "crossPostKey": "e1133-leaderysy-20241204",
+          "sourceExcerpt": "leaderysy的E1133雙光源介紹與巴哈版本一致；redchicken留言談替小孩電腦購買，沒有提到故障。",
+          "specificReason": "同一文章跨站發布以及購買規劃不構成新故障作者，排除重複與非第一人稱故障的回覆。",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-31"
+        }
+      ],
+      "reviewerNote": "E1133：人工閱讀Mobile01五篇與巴哈兩篇原文，兩組同文跨站去重；PTT exact-model查詢無結果。前後亮度連動、AAA電池另備、150cm線長及背光範圍記為設計取捨；沒有同問題6位且跨2站的可核實故障。",
+      "attestation": "manual_original_pages_reviewed"
+    },
+    {
+      "id": "monitor-light-kinyo-pced-805",
+      "category": "monitor-light",
+      "brand": "KINYO",
+      "model": "PCED-805",
+      "reviewBatch": "monitor-light",
+      "decision": "no_common_issue",
+      "reviewedAt": "2026-08-31",
+      "checkedPlatforms": [
+        "Mobile01",
+        "PTT"
+      ],
+      "queries": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"PCED-805\"",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com+%22PCED-805%22",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "PTT",
+          "query": "site:ptt.cc \"PCED-805\"",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc+%22PCED-805%22",
+          "targetHost": "ptt.cc"
+        }
+      ],
+      "candidateDisposition": "PCED-805：已在 Chrome 逐一執行 Mobile01 與 PTT 的帶引號完整型號搜尋，兩頁均明示找不到符合文件，無可供原文核對的 exact-model 候選。",
+      "representativeSources": [],
+      "candidateReviews": [],
+      "reviewerNote": "PCED-805：2026-08-31 人工讀取兩站搜尋結果並以畫面確認均為無文件，不從批次搜尋自動產生結論；查無達6位獨立使用者、跨2原始網站的同問題證據，不表示完全沒有負評。",
+      "attestation": "manual_cross_site_search_reviewed_no_candidate"
+    },
+    {
+      "id": "monitor-light-kinyo-pced-855",
+      "category": "monitor-light",
+      "brand": "KINYO",
+      "model": "PCED-855",
+      "reviewBatch": "monitor-light",
+      "decision": "no_common_issue",
+      "reviewedAt": "2026-08-31",
+      "checkedPlatforms": [
+        "Mobile01",
+        "PTT"
+      ],
+      "queries": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"PCED-855\"",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com+%22PCED-855%22",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "PTT",
+          "query": "site:ptt.cc \"PCED-855\"",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc+%22PCED-855%22",
+          "targetHost": "ptt.cc"
+        }
+      ],
+      "candidateDisposition": "PCED-855：Mobile01與PTT帶引號完整型號搜尋都明示找不到符合文件；沒有把40cm PCED-805、一般KINYO印象或購物聚合評分移植為本型號故障。",
+      "representativeSources": [],
+      "candidateReviews": [],
+      "reviewerNote": "PCED-855：2026-08-31 逐頁人工閱讀兩個原始網站的 exact-model 搜尋入口，均沒有候選；不足以成立6位且跨2站的相同問題，因此採限定查核日的no_common_issue，不宣稱零負評。",
+      "attestation": "manual_cross_site_search_reviewed_no_candidate"
+    },
+    {
+      "id": "monitor-light-xiaomi-mjgjd01yl",
+      "category": "monitor-light",
+      "brand": "Xiaomi",
+      "model": "MJGJD01YL",
+      "reviewBatch": "monitor-light",
+      "decision": "no_common_issue",
+      "reviewedAt": "2026-08-31",
+      "checkedPlatforms": [
+        "Mobile01",
+        "PTT"
+      ],
+      "queries": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"MJGJD01YL\"",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com+%22MJGJD01YL%22",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "PTT",
+          "query": "site:ptt.cc \"MJGJD01YL\"",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc+%22MJGJD01YL%22",
+          "targetHost": "ptt.cc"
+        }
+      ],
+      "candidateDisposition": "MJGJD01YL：完整型號 Mobile01 搜尋無文件，PTT找到ai0二手出售文並人工讀原文，功能正常而非故障。上市日期搜尋另發現Mobile01台灣開箱，核對首篇及第2至10樓與型號照片；一位實測者的眩光取捨不等於6人2站集中災情。",
+      "representativeSources": [
+        {
+          "platform": "PTT",
+          "title": "[賣//] 米家螢幕掛燈",
+          "url": "https://www.ptt.cc/bbs/HardwareSale/M.1721971816.A.6E8.html"
+        },
+        {
+          "platform": "Mobile01",
+          "title": "米家螢幕掛燈開箱快速試用 簡單提升工作亮度的好幫手",
+          "url": "https://www.mobile01.com/topicdetail.php?f=116&t=6286025"
+        }
+      ],
+      "candidateReviews": [
+        {
+          "url": "https://www.ptt.cc/bbs/HardwareSale/M.1721971816.A.6E8.html",
+          "title": "[賣//] 米家螢幕掛燈",
+          "platform": "PTT",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-31",
+          "sourceExcerpt": "ai0 的交易文明列米家螢幕掛燈 MJGJD01YL，2022年9月購入、過保，並自述功能正常；NT$450標為售出。",
+          "independentAuthors": 0,
+          "specificReason": "原文是單一過保二手商品出售，作者明示功能正常，沒有同型號故障或集中負評回報；不把出售、過保或二手價作為故障／新品史低證據。"
+        },
+        {
+          "url": "https://www.mobile01.com/topicdetail.php?f=116&t=6286025",
+          "title": "米家螢幕掛燈開箱快速試用 簡單提升工作亮度的好幫手",
+          "platform": "Mobile01",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-31",
+          "sourceExcerpt": "陳拔在台灣發售開箱比較中，指出米家掛燈暗環境時前端溢光可能刺眼；第2至10樓主要為価格、設計、購前邊框及耐用度期待，沒有六名同問題持有者。",
+          "independentAuthors": 1,
+          "specificReason": "人工閱讀首篇完整比較及同頁第2至10樓，並由盒側照片核對MJGJD01YL。主編的實測眩光意見保留為一位評論者，不把按讚、品牌批評、購前疑問或他型號經驗算成獨立故障作者；其他分頁未逐頁覆核，這一頁不能單獨成立跨兩站至少六人的集中災情。"
+        }
+      ],
+      "reviewerNote": "MJGJD01YL：2026-08-31人工執行Mobile01、PTT canonical model查詢並閱讀候選原頁。PTT為功能正常的二手出售，Mobile01首篇實測有暗環境溢光意見，已在推薦風險保留；未逐頁覆核整串其他分頁，不宣稱全網無負評，已核實證據未達相同問題6位且跨2原始網站。",
+      "attestation": "manual_original_pages_reviewed"
+    },
+    {
+      "id": "monitor-light-asus-alb01",
+      "category": "monitor-light",
+      "brand": "ASUS",
+      "model": "ALB01",
+      "name": "ROG Aura 非對稱 RGB 螢幕掛燈",
+      "reviewBatch": "monitor-light",
+      "decision": "no_common_issue",
+      "reviewedAt": "2026-08-31",
+      "checkedPlatforms": [
+        "Reddit",
+        "Mobile01",
+        "ASUS ROG Forum"
+      ],
+      "queries": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"ALB01\" problem issue",
+          "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22ALB01%22%20problem%20issue",
+          "targetHost": "reddit.com"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"ASUS\" \"ALB01\" 問題 故障",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22ASUS%22%20%22ALB01%22%20%E5%95%8F%E9%A1%8C%20%E6%95%85%E9%9A%9C",
+          "targetHost": "mobile01.com"
+        }
+      ],
+      "candidateDisposition": "ALB01：逐頁核對ASUS論壇的記憶設定、主機板USB辨識、螢幕USB斷電三種個案，各只有一位第一人稱作者，不能合併成同一問題。Mobile01兩篇為新品／螢幕介紹；Reddit exact-model查詢未找到另站同一故障候選。",
+      "representativeSources": [
+        {
+          "platform": "ASUS ROG Forum",
+          "url": "https://rog-forum.asus.com/t5/gaming-accessories/rog-aura-monitor-light-bar-alb01-memory-settings-startup/m-p/1074640/highlight/true",
+          "title": "ROG Aura Monitor Light Bar ALB01 Memory Settings startup"
+        },
+        {
+          "platform": "ASUS ROG Forum",
+          "url": "https://rog-forum.asus.com/t5/amd-800-series/crosshair-x870e-extreme-unknown-usb-device-device-descriptor/td-p/1107030",
+          "title": "Crosshair X870E Extreme unknown USB device device descriptor"
+        },
+        {
+          "platform": "ASUS ROG Forum",
+          "url": "https://rog-forum.asus.com/t5/gaming-monitors/unusual-usb-3-0-ports-on-the-rog-swift-oled-pg48uq-monitor/m-p/1077306/highlight/true",
+          "title": "Unusual USB 3.0 ports on ROG Swift OLED PG48UQ"
+        },
+        {
+          "platform": "Mobile01",
+          "url": "https://www.mobile01.com/topicdetail.php?f=350&t=6906945",
+          "title": "CES 2024 ASUS ROG 螢幕與ALB01新品介紹"
+        },
+        {
+          "platform": "Mobile01",
+          "url": "https://www.mobile01.com/topicdetail.php?f=350&t=7010459",
+          "title": "ASUS ROG Swift OLED PG32UCDP 開箱與ALB01贈品資訊"
+        }
+      ],
+      "candidateReviews": [
+        {
+          "platform": "ASUS ROG Forum",
+          "url": "https://rog-forum.asus.com/t5/gaming-accessories/rog-aura-monitor-light-bar-alb01-memory-settings-startup/m-p/1074640/highlight/true",
+          "title": "ROG Aura Monitor Light Bar ALB01 Memory Settings startup",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-31",
+          "sourceExcerpt": "Owambo（2025-02-03）描述重開後燈光設定不保留，使用Mac／Linux而非Windows工具；後續官方／支援回覆不是新使用者回報。",
+          "independentAuthors": 1,
+          "specificReason": "同一設定記憶問題僅一名可辨識作者、一個原始網站，未達六人跨兩站；不能與其他USB問題合計。"
+        },
+        {
+          "platform": "ASUS ROG Forum",
+          "url": "https://rog-forum.asus.com/t5/amd-800-series/crosshair-x870e-extreme-unknown-usb-device-device-descriptor/td-p/1107030",
+          "title": "Crosshair X870E Extreme unknown USB device device descriptor",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-31",
+          "sourceExcerpt": "Diego1494（2025-07-11）自述ALB01接主機板後置USB出現裝置描述錯誤，改經USB hub可使用。",
+          "independentAuthors": 1,
+          "specificReason": "只有一位作者，且涉及特定主機板USB組合；不能推定所有ALB01缺陷或與設定記憶問題合併。"
+        },
+        {
+          "platform": "ASUS ROG Forum",
+          "url": "https://rog-forum.asus.com/t5/gaming-monitors/unusual-usb-3-0-ports-on-the-rog-swift-oled-pg48uq-monitor/m-p/1077306/highlight/true",
+          "title": "Unusual USB 3.0 ports on ROG Swift OLED PG48UQ",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-31",
+          "sourceExcerpt": "czechoj（2025-02-15）自述PC關機後PG48UQ的USB裝置週期通斷，ALB01與其他USB設備都受影響。",
+          "independentAuthors": 1,
+          "specificReason": "單一螢幕USB供電互動、一位作者，不把伴隨提及ALB01當成燈具自身普遍故障。"
+        },
+        {
+          "platform": "Mobile01",
+          "url": "https://www.mobile01.com/topicdetail.php?f=350&t=6906945",
+          "title": "CES 2024 ASUS ROG 螢幕與ALB01新品介紹",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-31",
+          "sourceExcerpt": "原頁介紹CES 2024新產品及ALB01；已讀段落為新品資訊與展示，不是持有後故障紀錄。",
+          "independentAuthors": 0,
+          "specificReason": "沒有可採計的ALB01第一人稱故障作者；媒體介紹不能計入六人門檻。"
+        },
+        {
+          "platform": "Mobile01",
+          "url": "https://www.mobile01.com/topicdetail.php?f=350&t=7010459",
+          "title": "ASUS ROG Swift OLED PG32UCDP 開箱與ALB01贈品資訊",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-31",
+          "sourceExcerpt": "原文主題為PG32UCDP螢幕，提及ALB01掛燈贈品／搭配使用資訊，並非ALB01集中故障串。",
+          "independentAuthors": 0,
+          "specificReason": "相關商品贈品與螢幕評測不等於ALB01同一問題使用者回報。"
+        }
+      ],
+      "reviewerNote": "ALB01：逐頁核對ASUS論壇的記憶設定、主機板USB辨識、螢幕USB斷電三種個案，各只有一位第一人稱作者，不能合併成同一問題。Mobile01兩篇為新品／螢幕介紹；Reddit exact-model查詢未找到另站同一故障候選。 人工逐型號判讀，不由星等、留言數或批次搜尋自動推定。",
+      "attestation": "manual_original_pages_reviewed"
+    },
+    {
+      "id": "monitor-light-philips-pd052",
+      "category": "monitor-light",
+      "brand": "Philips",
+      "model": "PD052",
+      "name": "66219 品笛二代 iD Pro 手勢感應螢幕掛燈",
+      "reviewBatch": "monitor-light",
+      "decision": "no_common_issue",
+      "reviewedAt": "2026-08-31",
+      "checkedPlatforms": [
+        "Mobile01",
+        "PTT",
+        "Yahoo購物中心"
+      ],
+      "queries": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"PD052\" 問題 故障",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22PD052%22%20%E5%95%8F%E9%A1%8C%20%E6%95%85%E9%9A%9C",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "PTT",
+          "query": "site:ptt.cc \"PD052\" 問題 故障",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22PD052%22%20%E5%95%8F%E9%A1%8C%20%E6%95%85%E9%9A%9C",
+          "targetHost": "ptt.cc"
+        }
+      ],
+      "candidateDisposition": "PD052：Mobile01與PTT exact-model查詢沒有故障候選；補查供電時實讀Yahoo自營原始評價，只有W亮度體感與c**鍵盤反光各一名作者，問題不同、單站且未達六人跨兩站。",
+      "representativeSources": [
+        {
+          "platform": "Yahoo購物中心",
+          "url": "https://tw.buy.yahoo.com/gdsale/Philips-%E9%A3%9B%E5%88%A9%E6%B5%A6-66219-%E5%93%81%E7%AC%9BPro-LED%E8%AD%B7%E7%9C%BC%E8%9E%A2%E5%B9%95%E6%8E%9B%E7%87%88-PD052-10388402.html",
+          "title": "Philips 66219 品笛二代 iD pro PD052 — Yahoo 自營原始評價"
+        }
+      ],
+      "candidateReviews": [
+        {
+          "platform": "Yahoo購物中心",
+          "url": "https://tw.buy.yahoo.com/gdsale/Philips-%E9%A3%9B%E5%88%A9%E6%B5%A6-66219-%E5%93%81%E7%AC%9BPro-LED%E8%AD%B7%E7%9C%BC%E8%9E%A2%E5%B9%95%E6%8E%9B%E7%87%88-PD052-10388402.html",
+          "title": "Philips 66219 品笛二代 iD pro PD052 — Yahoo 自營原始評價",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-31",
+          "sourceExcerpt": "補查供電時讀到Yahoo原始評價：W（2026-02-02）覺得光線幫助不大，廠商回覆可調亮度／色溫；c**（2024-11-03）稱手勢開關貼心但易造成鍵盤反光。喵喵重複正評不作新作者。",
+          "independentAuthors": 2,
+          "specificReason": "兩位作者分別談亮度需求與鍵盤反光，不是六位同一問題，且只有Yahoo一個原始網站；不把廠商回覆或重複正評計入災情。"
+        }
+      ],
+      "reviewerNote": "PD052：Mobile01與PTT exact-model查詢沒有故障候選；補查供電時實讀Yahoo自營原始評價，只有W亮度體感與c**鍵盤反光各一名作者，問題不同、單站且未達六人跨兩站。 不以無搜尋結果推定完全沒有負評；Yahoo候選是補充原頁閱讀，不假稱由前兩條搜尋發現。",
+      "attestation": "manual_original_pages_reviewed"
+    },
+    {
+      "id": "monitor-light-yeelight-yltd003",
+      "category": "monitor-light",
+      "brand": "Yeelight",
+      "model": "YLTD003",
+      "name": "Monitor Light Bar Pro 智慧 RGB 螢幕掛燈（美國版）",
+      "reviewBatch": "monitor-light",
+      "decision": "no_common_issue",
+      "reviewedAt": "2026-08-31",
+      "checkedPlatforms": [
+        "Reddit",
+        "Mobile01",
+        "Yeelight Forum"
+      ],
+      "queries": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"YLTD003\" problem issue",
+          "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22YLTD003%22%20problem%20issue",
+          "targetHost": "reddit.com"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Yeelight\" \"YLTD003\" 問題 故障",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Yeelight%22%20%22YLTD003%22%20%E5%95%8F%E9%A1%8C%20%E6%95%85%E9%9A%9C",
+          "targetHost": "mobile01.com"
+        }
+      ],
+      "candidateDisposition": "YLTD003：逐篇核對Yeelight官方論壇及Reddit原文。持續閃爍／離線目前只辨識nick96、michalpasek97、Bedric三名作者，Bedric跨兩串重複只算一次且仍為同一網站。App狀態同步、第三方後燈控制與區域配對問題分開處理，不把兩台設備算兩個人，未達同一問題六人且跨兩個原始網站。",
+      "representativeSources": [
+        {
+          "platform": "Yeelight Forum",
+          "url": "https://forum.yeelight.com/t/topic/41557",
+          "title": "YLTD003 Pro continuous blinking after removing magnetic base"
+        },
+        {
+          "platform": "Yeelight Forum",
+          "url": "https://forum.yeelight.com/t/topic/37022",
+          "title": "YLTD003 Blinking and no reaction"
+        },
+        {
+          "platform": "Yeelight Forum",
+          "url": "https://forum.yeelight.com/t/topic/33485/1",
+          "title": "Yeelight LED Screen Light Bar Pro ambient controlling problems"
+        },
+        {
+          "platform": "Yeelight Forum",
+          "url": "https://forum.yeelight.com/t/topic/31680",
+          "title": "YLTD003 OpenRGB ambient light control"
+        },
+        {
+          "platform": "Yeelight Forum",
+          "url": "https://forum.yeelight.com/t/topic/23903",
+          "title": "YLTD003 physical button and app state synchronization"
+        },
+        {
+          "platform": "Yeelight Forum",
+          "url": "https://forum.yeelight.com/t/topic/23184",
+          "title": "YLTD003 incorrect power notification"
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/yeelight/comments/mnmd9j/yltd003_lightbar_mi_home_app/",
+          "title": "YLTD003 lightbar Mi Home app"
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/yeelight/comments/lp3e2d/ambilight_for_mac/",
+          "title": "Ambilight for Mac"
+        },
+        {
+          "platform": "Yeelight Forum",
+          "url": "https://forum.yeelight.com/t/topic/28295",
+          "title": "Lightbar Pro: Ambient Awareness in Synapse"
+        }
+      ],
+      "candidateReviews": [
+        {
+          "platform": "Yeelight Forum",
+          "url": "https://forum.yeelight.com/t/topic/41557",
+          "title": "YLTD003 Pro continuous blinking after removing magnetic base",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-31",
+          "sourceExcerpt": "nick96描述移離磁吸底座後前後燈持續閃爍，換5V2A供電、線材、清潔接點與五次重設無效；Bedric自述同樣問題且試過建議方法。gsshssh只是排查建議。",
+          "independentAuthors": 2,
+          "specificReason": "本頁兩名第一人稱閃爍作者；Bedric也出現在37022，須跨串去重。兩串合計只有三名獨立作者且同站，不成立集中災情。"
+        },
+        {
+          "platform": "Yeelight Forum",
+          "url": "https://forum.yeelight.com/t/topic/37022",
+          "title": "YLTD003 Blinking and no reaction",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-31",
+          "sourceExcerpt": "michalpasek97於2025年10月頁面自述前後燈持續閃爍、App離線與旋鈕無反應；五次斷電、換USB-C線與5V2A以上充電器仍無效。Bedric回覆自身相同狀況。",
+          "independentAuthors": 2,
+          "specificReason": "michalpasek97是一名新作者；Bedric與41557重複。不是四人，也未找到另站可確認同型號同症狀的一組回報。"
+        },
+        {
+          "platform": "Yeelight Forum",
+          "url": "https://forum.yeelight.com/t/topic/33485/1",
+          "title": "Yeelight LED Screen Light Bar Pro ambient controlling problems",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-31",
+          "sourceExcerpt": "PerezChilli（2023-09-14）首文明列YLTD003；Google Home／Yandex Alice只能控制前燈，App能控後燈；與其他燈分組時後燈不跟隨。作者買兩台仍只有一名使用者。",
+          "independentAuthors": 1,
+          "specificReason": "這是第三方整合功能限制，與持續閃爍不同；不能把兩台設備當兩個作者，也不能把不同問題湊六人。"
+        },
+        {
+          "platform": "Yeelight Forum",
+          "url": "https://forum.yeelight.com/t/topic/31680",
+          "title": "YLTD003 OpenRGB ambient light control",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-31",
+          "sourceExcerpt": "yukipastelcat於2022年12月描述OpenRGB把YLTD003背燈視為單顆LED、控制無效果，API亦無法重現Mi Home的漸層；原串只有此位作者。",
+          "independentAuthors": 1,
+          "specificReason": "單一第三方軟體控制個案，不推定燈具本體故障；沒有六位同問題作者或第二原始網站。"
+        },
+        {
+          "platform": "Yeelight Forum",
+          "url": "https://forum.yeelight.com/t/topic/23903",
+          "title": "YLTD003 physical button and app state synchronization",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-31",
+          "sourceExcerpt": "jo295890於2021年3月描述App 3.2.63、韌體2.0.8_0015，用實體按鈕關燈後App仍顯示開啟；ramses自述相近狀態不同步，App直接控制正常。",
+          "independentAuthors": 2,
+          "specificReason": "兩名狀態同步作者，不能與硬體閃爍或購買問題混算；連同23184也只有同站三位可能相關作者。"
+        },
+        {
+          "platform": "Yeelight Forum",
+          "url": "https://forum.yeelight.com/t/topic/23184",
+          "title": "YLTD003 incorrect power notification",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-31",
+          "sourceExcerpt": "Arteusz於2021年2月以韌體2.0.8_0018測試，關閉前後燈時收到on通知，但get_prop回傳off；原頁僅一則作者回報。",
+          "independentAuthors": 1,
+          "specificReason": "單一API狀態通知個案，與23903或許相關但仍不足六人跨兩站；沒有推定新韌體已修復。"
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/yeelight/comments/mnmd9j/yltd003_lightbar_mi_home_app/",
+          "title": "YLTD003 lightbar Mi Home app",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-31",
+          "sourceExcerpt": "Motafota找不到Canada地區的YLTD003裝置，後續自己回報改成Mainland China地區能連接；其他感謝／協助留言未提供新的本人故障經驗。",
+          "independentAuthors": 1,
+          "specificReason": "單一地區設定問題且作者已找到設定方法，不能當成持續閃爍的跨站證據，也不把回覆人數計作故障人數。"
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/yeelight/comments/lp3e2d/ambilight_for_mac/",
+          "title": "Ambilight for Mac",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-31",
+          "sourceExcerpt": "Udddi明說已買YLTD003 Pro，macOS找不到螢幕Ambilight程式、Jeelight無法啟動，後續同人表示放棄。bayesrocks建議Mac調色工具，但明說不知道對方燈泡型號。",
+          "independentAuthors": 1,
+          "specificReason": "只有Udddi一位同型號作者，屬Mac第三方軟體／整合限制，不是持續閃爍；bayesrocks不是同型號故障回報，不能計入六人樣本。"
+        },
+        {
+          "platform": "Yeelight Forum",
+          "url": "https://forum.yeelight.com/t/topic/28295",
+          "title": "Lightbar Pro: Ambient Awareness in Synapse",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-31",
+          "sourceExcerpt": "douwannaparty明列YLTD003，說Synapse Ambient Awareness後燈亮度太低且不能調；後續同作者改用RazerAmbilight可調畫面區域及亮度。dongsheng為品牌員工；desert_runner未確認同型號。",
+          "independentAuthors": 1,
+          "specificReason": "只採明確認出同型號的douwannaparty一人，十多篇續報不重算；品牌人員不是使用者，Bulb／strip或未確認型號不混計。讀到首文與最後六則，中段虛擬載入未全展開，不宣稱全串30則已覆核；沒有採用此頁作六人集中故障證據。"
+        }
+      ],
+      "reviewerNote": "YLTD003：逐篇核對Yeelight官方論壇及Reddit原文。持續閃爍／離線目前只辨識nick96、michalpasek97、Bedric三名作者，Bedric跨兩串重複只算一次且仍為同一網站。App狀態同步、第三方後燈控制與區域配對問題分開處理，不把兩台設備算兩個人，未達同一問題六人且跨兩個原始網站。 人工逐型號判讀，不由星等、留言數或批次搜尋自動推定。",
+      "attestation": "manual_original_pages_reviewed"
+    },
+    {
+      "id": "monitor-light-quntis-f51bk",
+      "category": "monitor-light",
+      "brand": "Quntis",
+      "model": "F51BK",
+      "name": "Focus 51 PRO+ 無線旋鈕螢幕掛燈",
+      "reviewBatch": "monitor-light",
+      "decision": "no_common_issue",
+      "reviewedAt": "2026-08-31",
+      "checkedPlatforms": [
+        "Reddit",
+        "Mobile01",
+        "Quntis"
+      ],
+      "queries": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com Quntis (\"F51BK\" OR \"ScreenLinear Pro+\") problem issue",
+          "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20Quntis%20(%22F51BK%22%20OR%20%22ScreenLinear%20Pro%2B%22)%20problem%20issue",
+          "targetHost": "reddit.com"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Quntis\" \"F51BK\" 問題 故障",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Quntis%22%20%22F51BK%22%20%E5%95%8F%E9%A1%8C%20%E6%95%85%E9%9A%9C",
+          "targetHost": "mobile01.com"
+        }
+      ],
+      "candidateDisposition": "F51BK：核對官網當前PRO+獨立SKU與可見評價，CodyTurner的控制器個案僅一人，夾具厚薄體感另列。Reddit舊PRO+回報沒有確認F51BK硬體版本；另一51cm背光款與此無背光前照款不一致。Mobile01沒有exact-model候選，不把系列相近型號拼成災情。",
+      "representativeSources": [
+        {
+          "platform": "Quntis",
+          "url": "https://www.quntis.com/products/monitor-light-bar-pro-with-remote-control-eye-care-technology-computer-monitor-lamp-with-auto-dimming-no-screen-glare",
+          "title": "Quntis Focus 51 PRO+ 官方商品頁與可見評價"
+        }
+      ],
+      "candidateReviews": [
+        {
+          "platform": "Quntis",
+          "url": "https://www.quntis.com/products/monitor-light-bar-pro-with-remote-control-eye-care-technology-computer-monitor-lamp-with-auto-dimming-no-screen-glare",
+          "title": "Quntis Focus 51 PRO+ 官方商品頁與可見評價",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-31",
+          "sourceExcerpt": "CodyTurner自述初期控制器有問題且賣方協助處理；JonDiPietro談夾具厚與薄邊框，ToddOwen需加墊。只讀當下可見評價，不宣稱全頁所有評價均無問題。",
+          "independentAuthors": 1,
+          "specificReason": "控制器問題僅一位可辨識作者、一個品牌網站；薄邊框相容性意見是另一議題。二手／轉述破損內容不計入新品故障樣本。"
+        }
+      ],
+      "reviewerNote": "F51BK：核對官網當前PRO+獨立SKU與可見評價，CodyTurner的控制器個案僅一人，夾具厚薄體感另列。Reddit舊PRO+回報沒有確認F51BK硬體版本；另一51cm背光款與此無背光前照款不一致。Mobile01沒有exact-model候選，不把系列相近型號拼成災情。 人工逐型號判讀，不由星等、留言數或批次搜尋自動推定。",
+      "attestation": "manual_original_pages_reviewed"
+    },
+    {
+      "id": "monitor-light-quntis-fr52gy",
+      "category": "monitor-light",
+      "brand": "Quntis",
+      "model": "FR52GY",
+      "name": "Focus Radar 52 人體感應螢幕掛燈",
+      "reviewBatch": "monitor-light",
+      "decision": "no_common_issue",
+      "reviewedAt": "2026-08-31",
+      "checkedPlatforms": [
+        "Reddit",
+        "Mobile01",
+        "Quntis"
+      ],
+      "queries": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com Quntis (\"FR52GY\" OR \"Focus Radar 52\") problem issue",
+          "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20Quntis%20(%22FR52GY%22%20OR%20%22Focus%20Radar%2052%22)%20problem%20issue",
+          "targetHost": "reddit.com"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Quntis\" \"FR52GY\" 問題 故障",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Quntis%22%20%22FR52GY%22%20%E5%95%8F%E9%A1%8C%20%E6%95%85%E9%9A%9C",
+          "targetHost": "mobile01.com"
+        }
+      ],
+      "candidateDisposition": "FR52GY：跨Reddit與Mobile01 exact-model查詢無可確認故障串；另親讀官方Radar52商品頁可見評價，兩名作者希望更亮屬亮度需求差異，沒有六位同問題跨站。保留感應距離及供電條件，不把沒有搜尋命中說成完全沒有負評。",
+      "representativeSources": [
+        {
+          "platform": "Quntis",
+          "url": "https://www.quntis.com/products/quntis-screenlinear-deluxe-pro-monitor-light-bar-20-1-asymmetric-led-screen-light-with-touch-radar-sensor-high-cri-eye-care-illumination-stepless-dimming-remote-control-built-in-battery-grey",
+          "title": "Quntis Focus Radar 52 官方商品頁與可見評價"
+        }
+      ],
+      "candidateReviews": [
+        {
+          "platform": "Quntis",
+          "url": "https://www.quntis.com/products/quntis-screenlinear-deluxe-pro-monitor-light-bar-20-1-asymmetric-led-screen-light-with-touch-radar-sensor-high-cri-eye-care-illumination-stepless-dimming-remote-control-built-in-battery-grey",
+          "title": "Quntis Focus Radar 52 官方商品頁與可見評價",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-31",
+          "sourceExcerpt": "ElfyTheDuck希望亮度更高並提到3顆AAA遙控電池；WendyYang希望再亮約20%，換充電器無明顯改變。LifeBytes、DanielS與AstralSway可見內容偏正面。",
+          "independentAuthors": 2,
+          "specificReason": "兩名亮度期待作者只在Quntis原商品網站，未達六人跨兩站；個人工作區亮度需求不能直接等同規格失效。"
+        }
+      ],
+      "reviewerNote": "FR52GY：跨Reddit與Mobile01 exact-model查詢無可確認故障串；另親讀官方Radar52商品頁可見評價，兩名作者希望更亮屬亮度需求差異，沒有六位同問題跨站。保留感應距離及供電條件，不把沒有搜尋命中說成完全沒有負評。 人工逐型號判讀，不由星等、留言數或批次搜尋自動推定。",
+      "attestation": "manual_original_pages_reviewed"
+    },
+    {
+      "id": "monitor-light-quntis-f45bk",
+      "category": "monitor-light",
+      "brand": "Quntis",
+      "model": "F45BK",
+      "name": "Focus 45 曲線前照螢幕掛燈",
+      "reviewBatch": "monitor-light",
+      "decision": "no_common_issue",
+      "reviewedAt": "2026-08-31",
+      "checkedPlatforms": [
+        "Reddit",
+        "Mobile01",
+        "Quntis"
+      ],
+      "queries": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com Quntis (\"F45BK\" OR \"Focus 45\") problem issue",
+          "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20Quntis%20(%22F45BK%22%20OR%20%22Focus%2045%22)%20problem%20issue",
+          "targetHost": "reddit.com"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Quntis\" \"F45BK\" 問題 故障",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Quntis%22%20%22F45BK%22%20%E5%95%8F%E9%A1%8C%20%E6%95%85%E9%9A%9C",
+          "targetHost": "mobile01.com"
+        }
+      ],
+      "candidateDisposition": "F45BK：核對獨立曲線前照SKU與官方可見評價；Reddit命中為貼出同款購買連結的詢問文，沒有本人故障。Mobile01 exact-model未找到候選；未以全部評論數或星等推定沒有負評。",
+      "representativeSources": [
+        {
+          "platform": "Quntis",
+          "url": "https://www.quntis.com/products/screenlinear-glow-for-curved-17-72inch",
+          "title": "Quntis Focus 45 官方商品頁與可見評價"
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/desksetup/comments/1gp5n10/does_anyone_have_this_light_bar/",
+          "title": "Does anyone have this light bar?"
+        }
+      ],
+      "candidateReviews": [
+        {
+          "platform": "Quntis",
+          "url": "https://www.quntis.com/products/screenlinear-glow-for-curved-17-72inch",
+          "title": "Quntis Focus 45 官方商品頁與可見評價",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-31",
+          "sourceExcerpt": "本輪可見TahomaManybeads、KionaSun、YazhiBlue、WinonaLittlefeather及NaicheWolf評價描述照明／使用體驗，未見可採計同一故障第一人稱敘述。",
+          "independentAuthors": 0,
+          "specificReason": "只代表本次實際讀取的五則可見內容，不代表所有523則評價；零可採計故障作者不能轉成無瑕疵保證。"
+        },
+        {
+          "platform": "Reddit",
+          "url": "https://www.reddit.com/r/desksetup/comments/1gp5n10/does_anyone_have_this_light_bar/",
+          "title": "Does anyone have this light bar?",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-31",
+          "sourceExcerpt": "Robin_Bankss在購買前詢問是否有人使用，連結到現Focus45的screenlinear-glow-for-curved商品頁。",
+          "independentAuthors": 0,
+          "specificReason": "可核對購買連結同款，但購買前提問不是使用後故障回報；沒有可計入的第一人稱故障作者。"
+        }
+      ],
+      "reviewerNote": "F45BK：核對獨立曲線前照SKU與官方可見評價；Reddit命中為貼出同款購買連結的詢問文，沒有本人故障。Mobile01 exact-model未找到候選；未以全部評論數或星等推定沒有負評。 人工逐型號判讀，不由星等、留言數或批次搜尋自動推定。",
+      "attestation": "manual_original_pages_reviewed"
+    },
+    {
+      "id": "monitor-light-quntis-i51gy",
+      "category": "monitor-light",
+      "brand": "Quntis",
+      "model": "I51GY",
+      "name": "IM 51 RGB Pro+ 螢幕掛燈",
+      "reviewBatch": "monitor-light",
+      "decision": "no_common_issue",
+      "reviewedAt": "2026-08-31",
+      "checkedPlatforms": [
+        "Reddit",
+        "Mobile01",
+        "Quntis"
+      ],
+      "queries": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com Quntis (\"I51GY\" OR \"RGB Pro+\") problem issue",
+          "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20Quntis%20(%22I51GY%22%20OR%20%22RGB%20Pro%2B%22)%20problem%20issue",
+          "targetHost": "reddit.com"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Quntis\" \"I51GY\" 問題 故障",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Quntis%22%20%22I51GY%22%20%E5%95%8F%E9%A1%8C%20%E6%95%85%E9%9A%9C",
+          "targetHost": "mobile01.com"
+        }
+      ],
+      "candidateDisposition": "I51GY：官方可見評價有一名作者指出螢幕USB供電不足，與規格5V1.5A要求一起揭露；Reddit泛稱51cm背光款沒有確切RGB Pro+／I51GY映射。沒有六人同一問題與兩站證據。",
+      "representativeSources": [
+        {
+          "platform": "Quntis",
+          "url": "https://www.quntis.com/products/quntis-rgb-pro-monitor-light-bar-with-remote-15-modes-gaming-backlight-4-colors-brightness-dimmable-fronlight-20-ra95-eye-care-monitor-lamp-no-screen-glare-upgraded-clip-for-all-monitor",
+          "title": "Quntis IM51 RGB Pro+ 官方商品頁與可見評價"
+        }
+      ],
+      "candidateReviews": [
+        {
+          "platform": "Quntis",
+          "url": "https://www.quntis.com/products/quntis-rgb-pro-monitor-light-bar-with-remote-15-modes-gaming-backlight-4-colors-brightness-dimmable-fronlight-20-ra95-eye-care-monitor-lamp-no-screen-glare-upgraded-clip-for-all-monitor",
+          "title": "Quntis IM51 RGB Pro+ 官方商品頁與可見評價",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-31",
+          "sourceExcerpt": "OscarLinnartz說透過螢幕USB供電效果不佳、需要更多電力；Jay.loves.to.shop偏好旋鈕，ParveshThakur、Juan與Randman可見內容正面。",
+          "independentAuthors": 1,
+          "specificReason": "只有一位供電互動作者，未知其螢幕USB是否滿足5V1.5A；不把控制方式偏好與供電問題合計六人。"
+        }
+      ],
+      "reviewerNote": "I51GY：官方可見評價有一名作者指出螢幕USB供電不足，與規格5V1.5A要求一起揭露；Reddit泛稱51cm背光款沒有確切RGB Pro+／I51GY映射。沒有六人同一問題與兩站證據。 人工逐型號判讀，不由星等、留言數或批次搜尋自動推定。",
+      "attestation": "manual_original_pages_reviewed"
+    },
+    {
+      "id": "monitor-light-quntis-g66bk",
+      "category": "monitor-light",
+      "brand": "Quntis",
+      "model": "G66BK",
+      "name": "Glow 66 雙頭折疊白光背照螢幕掛燈",
+      "reviewBatch": "monitor-light",
+      "decision": "no_common_issue",
+      "reviewedAt": "2026-08-31",
+      "checkedPlatforms": [
+        "Reddit",
+        "Mobile01",
+        "Quntis"
+      ],
+      "queries": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com Quntis \"G66BK\" problem",
+          "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20Quntis%20%22G66BK%22%20problem",
+          "targetHost": "reddit.com"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Quntis\" \"G66BK\" 問題 故障",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Quntis%22%20%22G66BK%22%20%E5%95%8F%E9%A1%8C%20%E6%95%85%E9%9A%9C",
+          "targetHost": "mobile01.com"
+        }
+      ],
+      "candidateDisposition": "G66BK：核對Glow66白背光獨立SKU及官網可見評價，一名作者提到固定機構偶爾位移；另一作者提醒不可取代房間照明。Reddit及Mobile01 exact-model查詢未找到可補足的第二站同問題候選。",
+      "representativeSources": [
+        {
+          "platform": "Quntis",
+          "url": "https://www.quntis.com/products/quntis-led-monitor-light-bar-for-curved-screens-eye-caring-screen-lamp-with-backlight-remote-control-adjustable-brightness",
+          "title": "Quntis Glow 66 官方商品頁與可見評價"
+        }
+      ],
+      "candidateReviews": [
+        {
+          "platform": "Quntis",
+          "url": "https://www.quntis.com/products/quntis-led-monitor-light-bar-for-curved-screens-eye-caring-screen-lamp-with-backlight-remote-control-adjustable-brightness",
+          "title": "Quntis Glow 66 官方商品頁與可見評價",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-31",
+          "sourceExcerpt": "Mike自述holding mechanism偶爾會移動；StevenT認為不能取代房間照明並提到自估重量；NiveaDavis、Shopper1、Al.Fonz可見內容偏正面。",
+          "independentAuthors": 1,
+          "specificReason": "固定位移僅一名作者、一個網站；StevenT個人重量描述不當作官方淨重，照明用途偏好也不是同一固定缺陷。"
+        }
+      ],
+      "reviewerNote": "G66BK：核對Glow66白背光獨立SKU及官網可見評價，一名作者提到固定機構偶爾位移；另一作者提醒不可取代房間照明。Reddit及Mobile01 exact-model查詢未找到可補足的第二站同問題候選。 人工逐型號判讀，不由星等、留言數或批次搜尋自動推定。",
+      "attestation": "manual_original_pages_reviewed"
+    },
+    {
+      "id": "monitor-light-quntis-i66bk",
+      "category": "monitor-light",
+      "brand": "Quntis",
+      "model": "I66BK",
+      "name": "IM 66 雙頭折疊 RGB 螢幕掛燈",
+      "reviewBatch": "monitor-light",
+      "decision": "no_common_issue",
+      "reviewedAt": "2026-08-31",
+      "checkedPlatforms": [
+        "Reddit",
+        "Mobile01",
+        "Quntis"
+      ],
+      "queries": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com Quntis \"I66BK\" problem",
+          "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20Quntis%20%22I66BK%22%20problem",
+          "targetHost": "reddit.com"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Quntis\" \"I66BK\" 問題 故障",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Quntis%22%20%22I66BK%22%20%E5%95%8F%E9%A1%8C%20%E6%95%85%E9%9A%9C",
+          "targetHost": "mobile01.com"
+        }
+      ],
+      "candidateDisposition": "I66BK：官網RGB雙頭款可見一位作者覺得燈頭角度定位不精準，需要墊片，已寫入購前注意；Reddit與Mobile01 exact-model查詢未找到另站同款問題。沒有以其他66cm白背光SKU的意見湊成六人。",
+      "representativeSources": [
+        {
+          "platform": "Quntis",
+          "url": "https://www.quntis.com/products/quntis-foldable-dual-head-led-monitor-light-bar-wide-angle-screen-lamp-for-curved-monitors-with-rgb-backlight-remote-control-eye-care-design",
+          "title": "Quntis IM66 RGB 官方商品頁與可見評價"
+        }
+      ],
+      "candidateReviews": [
+        {
+          "platform": "Quntis",
+          "url": "https://www.quntis.com/products/quntis-foldable-dual-head-led-monitor-light-bar-wide-angle-screen-lamp-for-curved-monitors-with-rgb-backlight-remote-control-eye-care-design",
+          "title": "Quntis IM66 RGB 官方商品頁與可見評價",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-31",
+          "sourceExcerpt": "iyerviking自述燈頭角度機構不夠精準，需要加楔形墊；另可見NorelysMartinez的正面使用描述。",
+          "independentAuthors": 1,
+          "specificReason": "同一角度固定問題只有一名可辨識作者、一個官方商品網站；不能與Glow66白背光的另一SKU合併計數。"
+        }
+      ],
+      "reviewerNote": "I66BK：官網RGB雙頭款可見一位作者覺得燈頭角度定位不精準，需要墊片，已寫入購前注意；Reddit與Mobile01 exact-model查詢未找到另站同款問題。沒有以其他66cm白背光SKU的意見湊成六人。 人工逐型號判讀，不由星等、留言數或批次搜尋自動推定。",
+      "attestation": "manual_original_pages_reviewed"
+    },
+    {
+      "id": "monitor-light-quntis-ims45bk",
+      "category": "monitor-light",
+      "brand": "Quntis",
+      "model": "IMS45BK",
+      "name": "IM Music Sync 45 音樂同步 RGB 螢幕掛燈",
+      "reviewBatch": "monitor-light",
+      "decision": "no_common_issue",
+      "reviewedAt": "2026-08-31",
+      "checkedPlatforms": [
+        "Reddit",
+        "Mobile01",
+        "Quntis"
+      ],
+      "queries": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com Quntis \"IMS45BK\" problem",
+          "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20Quntis%20%22IMS45BK%22%20problem",
+          "targetHost": "reddit.com"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Quntis\" \"IMS45BK\" 問題 故障",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22Quntis%22%20%22IMS45BK%22%20%E5%95%8F%E9%A1%8C%20%E6%95%85%E9%9A%9C",
+          "targetHost": "mobile01.com"
+        }
+      ],
+      "candidateDisposition": "IMS45BK：官方獨立音樂同步SKU原頁可見一名作者抱怨30日未收到貨，屬跨國物流，不是假設燈具本體故障；Reddit與Mobile01查詢未取得同型號故障候選。RGB模式與電池文案矛盾另在規格揭露，沒有用商品說明矛盾充作使用者災情。",
+      "representativeSources": [
+        {
+          "platform": "Quntis",
+          "url": "https://www.quntis.com/products/quntis-monitor-light-bar-with-dual-control-adjustable-brightness-color-temperature-11-rgb-modes",
+          "title": "Quntis IM Music Sync45 官方商品頁與可見評價"
+        }
+      ],
+      "candidateReviews": [
+        {
+          "platform": "Quntis",
+          "url": "https://www.quntis.com/products/quntis-monitor-light-bar-with-dual-control-adjustable-brightness-color-temperature-11-rgb-modes",
+          "title": "Quntis IM Music Sync45 官方商品頁與可見評價",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-31",
+          "sourceExcerpt": "AnmolTiwari表示下單30天仍未收到貨；品牌回覆追蹤稱3月17日出貨、4月1日至印度、4月17日完成清關。其他當下可見K14、ChenoaMoon、EnolaRiver與TahomaManybeads為正面描述。",
+          "independentAuthors": 1,
+          "specificReason": "只確認一名跨國到貨延遲作者，不把品牌回覆當另一位使用者或把物流延遲當本體故障；未形成六人跨兩站同問題。"
+        }
+      ],
+      "reviewerNote": "IMS45BK：官方獨立音樂同步SKU原頁可見一名作者抱怨30日未收到貨，屬跨國物流，不是假設燈具本體故障；Reddit與Mobile01查詢未取得同型號故障候選。RGB模式與電池文案矛盾另在規格揭露，沒有用商品說明矛盾充作使用者災情。 人工逐型號判讀，不由星等、留言數或批次搜尋自動推定。",
+      "attestation": "manual_original_pages_reviewed"
     }
   ]
 }

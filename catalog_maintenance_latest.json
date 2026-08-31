@@ -1,8 +1,8 @@
 {
   "schemaVersion": 3,
   "dataDate": "2026-08-31",
-  "checkedAt": "2026-08-31T08:55:01.455Z",
-  "baselineRef": "origin/main",
+  "checkedAt": "2026-08-31T10:11:25.170Z",
+  "baselineRef": "f04a7ea0fd5150da94e52972d94dbca2384d62b5",
   "policy": {
     "exactModelOrReviewedSourceBindingOnly": true,
     "trustedNewProductsOnly": true,
@@ -23,24 +23,42 @@
     ]
   },
   "summary": {
-    "baselineProducts": 921,
-    "finalProducts": 923,
-    "categories": 30,
+    "baselineProducts": 923,
+    "finalProducts": 943,
+    "categories": 31,
     "minimumProductsPerCategory": 20,
     "newProductsAdded": [
-      "robot-hitachi-rv-x20dpa",
-      "soundbar-asus-rog-gjallar"
+      "monitor-light-asus-alb01",
+      "monitor-light-benq-iscreenbar",
+      "monitor-light-benq-screenbar",
+      "monitor-light-benq-screenbar-halo2",
+      "monitor-light-benq-screenbar-pro",
+      "monitor-light-elesense-e1129",
+      "monitor-light-elesense-e1132",
+      "monitor-light-elesense-e1133",
+      "monitor-light-kinyo-pced-805",
+      "monitor-light-kinyo-pced-855",
+      "monitor-light-philips-pd052",
+      "monitor-light-quntis-f45bk",
+      "monitor-light-quntis-f51bk",
+      "monitor-light-quntis-fr52gy",
+      "monitor-light-quntis-g66bk",
+      "monitor-light-quntis-i51gy",
+      "monitor-light-quntis-i66bk",
+      "monitor-light-quntis-ims45bk",
+      "monitor-light-xiaomi-mjgjd01yl",
+      "monitor-light-yeelight-yltd003"
     ],
     "catalogEntriesReplaced": [],
-    "priceChanges": 7,
-    "priceDrops": 3,
-    "priceRises": 4,
+    "priceChanges": 0,
+    "priceDrops": 0,
+    "priceRises": 0,
     "linkChanges": 0,
     "imageChanges": 0,
-    "historicalLowChanges": 1,
-    "historicalLowPriceChanges": 1,
+    "historicalLowChanges": 0,
+    "historicalLowPriceChanges": 0,
     "historicalFound": 493,
-    "historicalMissing": 430,
+    "historicalMissing": 450,
     "pchomeAudited": 459,
     "pchomeExactModelVerified": 270,
     "pchomeReviewedBindingVerified": 69,
@@ -49,18 +67,18 @@
     "pchomeInvalidPrices": 0,
     "pchomeRequestFailures": 0,
     "pchomeOtherExceptions": 24,
-    "sourcesAudited": 923,
-    "sourcesVerifiedAvailable": 682,
+    "sourcesAudited": 943,
+    "sourcesVerifiedAvailable": 702,
     "sourcesModelUnverified": 130,
     "sourceExceptions": 241,
-    "imagesAudited": 923,
+    "imagesAudited": 943,
     "imageExceptions": 0,
     "historicalSourcesAudited": 493,
     "historicalSourcesVerified": 70,
     "historicalSourcesBlocked": 63,
     "historicalSourcesModelUnverified": 359,
     "historicalSourceExceptions": 423,
-    "foreignPricesRecomputed": 30,
+    "foreignPricesRecomputed": 0,
     "officialDiscontinuedCandidates": 0,
     "officialDiscontinuedPendingReview": 0,
     "officialDiscontinuedFalsePositives": 0,
@@ -6436,320 +6454,659 @@
         "previousFullReviewAt": "2026-08-30T23:50:41.414Z"
       },
       "priceReviews": []
+    },
+    {
+      "category": "monitor-light",
+      "cutoff": "2026-08-31",
+      "status": "manually_reviewed",
+      "decision": "added_products",
+      "note": "新增查核20款獨立桌機螢幕掛燈，原923款及30類覆核原樣沿用。台灣12款、海外8款；BenQ ScreenBar Pro為唯一台灣綜合首選。排除筆電專用、一般檯燈、純背光、配件、換色與套裝重複；照度測距、夾具、曲率、尺寸與重量缺口逐款揭露。2026-08-31 僅補查螢幕燈新增分類的 9 個指定日系品牌。逐一開啟官方產品總覽，並實際執行品牌官方網域限定的螢幕燈／monitor light 搜尋（Noritz 另含日文モニターライト）。本輪指定官方型錄與搜尋範圍均未確認符合桌機螢幕掛燈定義的獨立商品線，9 格可依既有 builder 記為 no_relevant_line；不代表品牌全球從未製造此類產品。Panasonic 的淨水器濾芯燈號、GENERAL 的空調故障指示燈均經原始頁面內容排除。只為此新分類保存本日來源；原有 30 類 × 9 品牌的矩陣與 categoryScan 原文、來源及日期不重寫。",
+      "acceptedCandidates": [
+        "monitor-light-asus-alb01",
+        "monitor-light-benq-iscreenbar",
+        "monitor-light-benq-screenbar",
+        "monitor-light-benq-screenbar-halo2",
+        "monitor-light-benq-screenbar-pro",
+        "monitor-light-elesense-e1129",
+        "monitor-light-elesense-e1132",
+        "monitor-light-elesense-e1133",
+        "monitor-light-kinyo-pced-805",
+        "monitor-light-kinyo-pced-855",
+        "monitor-light-philips-pd052",
+        "monitor-light-quntis-f45bk",
+        "monitor-light-quntis-f51bk",
+        "monitor-light-quntis-fr52gy",
+        "monitor-light-quntis-g66bk",
+        "monitor-light-quntis-i51gy",
+        "monitor-light-quntis-i66bk",
+        "monitor-light-quntis-ims45bk",
+        "monitor-light-xiaomi-mjgjd01yl",
+        "monitor-light-yeelight-yltd003"
+      ],
+      "trackedOrRejectedCandidates": [
+        "BenQ LaptopBar：筆電專用；Quntis Studio系列：夾桌式一般工作燈，均不混入螢幕掛燈。",
+        "Elesense E1129雙燈套裝及E1133控制器供電底座：分別為同型號套裝與配件，不額外計數。",
+        "Quntis Glow41：來源SKU、夾具及感應器資訊衝突，未納入本次20款。"
+      ],
+      "japaneseBrandReview": [
+        {
+          "brand": "Sony",
+          "status": "no_relevant_line",
+          "checkedAt": "2026-08-31",
+          "officialSources": [
+            "https://www.sony.com.tw/zh/all-products"
+          ],
+          "existingProductIds": [],
+          "addedProductIds": [],
+          "reason": "2026-08-31 核對 Sony 官方產品目錄；未見與螢幕燈收錄邊界相符的台灣產品線，因此不以相近品、配件或海外型號補數。"
+        },
+        {
+          "brand": "Panasonic",
+          "status": "no_relevant_line",
+          "checkedAt": "2026-08-31",
+          "officialSources": [
+            "https://www.panasonic.com/tw/consumer.html"
+          ],
+          "existingProductIds": [],
+          "addedProductIds": [],
+          "reason": "2026-08-31 核對 Panasonic 官方產品目錄；未見與螢幕燈收錄邊界相符的台灣產品線，因此不以相近品、配件或海外型號補數。"
+        },
+        {
+          "brand": "HITACHI",
+          "status": "no_relevant_line",
+          "checkedAt": "2026-08-31",
+          "officialSources": [
+            "https://hitachi-homeappliances.com.tw/products/"
+          ],
+          "existingProductIds": [],
+          "addedProductIds": [],
+          "reason": "2026-08-31 核對 HITACHI 官方產品目錄；未見與螢幕燈收錄邊界相符的台灣產品線，因此不以相近品、配件或海外型號補數。"
+        },
+        {
+          "brand": "Mitsubishi Electric",
+          "status": "no_relevant_line",
+          "checkedAt": "2026-08-31",
+          "officialSources": [
+            "https://www.mitsubishielectric.com.tw/home/"
+          ],
+          "existingProductIds": [],
+          "addedProductIds": [],
+          "reason": "2026-08-31 核對 Mitsubishi Electric 官方產品目錄；未見與螢幕燈收錄邊界相符的台灣產品線，因此不以相近品、配件或海外型號補數。"
+        },
+        {
+          "brand": "Daikin",
+          "status": "no_relevant_line",
+          "checkedAt": "2026-08-31",
+          "officialSources": [
+            "https://www.hotaidev.com.tw/web/"
+          ],
+          "existingProductIds": [],
+          "addedProductIds": [],
+          "reason": "2026-08-31 核對 Daikin 官方產品目錄；未見與螢幕燈收錄邊界相符的台灣產品線，因此不以相近品、配件或海外型號補數。"
+        },
+        {
+          "brand": "GENERAL",
+          "status": "no_relevant_line",
+          "checkedAt": "2026-08-31",
+          "officialSources": [
+            "https://www.fujitsu-general.com/tw/products/"
+          ],
+          "existingProductIds": [],
+          "addedProductIds": [],
+          "reason": "2026-08-31 核對 GENERAL 官方產品目錄；未見與螢幕燈收錄邊界相符的台灣產品線，因此不以相近品、配件或海外型號補數。"
+        },
+        {
+          "brand": "Rinnai",
+          "status": "no_relevant_line",
+          "checkedAt": "2026-08-31",
+          "officialSources": [
+            "https://www.rinnai.tw/"
+          ],
+          "existingProductIds": [],
+          "addedProductIds": [],
+          "reason": "2026-08-31 核對 Rinnai 官方產品目錄；未見與螢幕燈收錄邊界相符的台灣產品線，因此不以相近品、配件或海外型號補數。"
+        },
+        {
+          "brand": "Noritz",
+          "status": "no_relevant_line",
+          "checkedAt": "2026-08-31",
+          "officialSources": [
+            "https://www.noritz.co.jp/product/"
+          ],
+          "existingProductIds": [],
+          "addedProductIds": [],
+          "reason": "2026-08-31 核對 Noritz 官方產品目錄；未見與螢幕燈收錄邊界相符的台灣產品線，因此不以相近品、配件或海外型號補數。"
+        },
+        {
+          "brand": "TOTO",
+          "status": "no_relevant_line",
+          "checkedAt": "2026-08-31",
+          "officialSources": [
+            "https://www.twtoto.com.tw/"
+          ],
+          "existingProductIds": [],
+          "addedProductIds": [],
+          "reason": "2026-08-31 核對 TOTO 官方產品目錄；未見與螢幕燈收錄邊界相符的台灣產品線，因此不以相近品、配件或海外型號補數。"
+        }
+      ],
+      "reviewedAt": "2026-08-31T10:11:25.170Z",
+      "finalProductCount": 20,
+      "minimumSatisfied": true,
+      "sources": [
+        {
+          "url": "https://www.sony.com.tw/zh/all-products",
+          "title": "Sony 台灣｜所有產品：螢幕燈產品線查核",
+          "evidence": "Chrome 實際開啟官方所有產品頁，所列分類為電視／顯示器與家庭劇院、音效、遊戲設備、相機、影像平台、行動裝置、媒體／硬碟／連接線及專業級產品，未見螢幕掛燈商品線。另以 site:sony.com.tw 螢幕燈 OR \"monitor light\" 查詢，Google 當次頁面明示找不到符合搜尋字詞的文件。據本輪官方目錄及指定網域搜尋範圍記為 no_relevant_line，不以顯示器商品本身視為掛燈候選。",
+          "checkedAt": "2026-08-31"
+        },
+        {
+          "url": "https://www.panasonic.com/tw/consumer/all-products.html",
+          "title": "Panasonic 台灣｜全部商品：螢幕燈產品線查核",
+          "evidence": "Chrome 開啟官方全部商品頁，生活家電的照明入口為吸頂燈，未见桌機螢幕掛燈商品線。執行 site:panasonic.com/tw 螢幕燈 OR \"monitor light\" 後，命中 TK-CB50／TK-CB30 淨水器而非照明燈；回到 https://www.panasonic.com/tw/consumer/health/water/water-purifier/tk-cb50.html 確認原頁標題為櫥下型淨水器、內容為濾芯壽命顯示與更換燈號提醒，因此排除。據本輪官方目錄及搜尋結果記為 no_relevant_line。",
+          "checkedAt": "2026-08-31"
+        },
+        {
+          "url": "https://hitachi-homeappliances.com.tw/products/",
+          "title": "HITACHI 日立家電台灣｜產品總覽：螢幕燈產品線查核",
+          "evidence": "Chrome 開啟官方產品總覽，實際商品入口為冰箱、洗衣機、吸塵器、多功能料理爐、洗碗機，未見桌機螢幕掛燈。以 site:hitachi-homeappliances.com.tw 螢幕燈 OR \"monitor light\" 查詢，Google 當次頁面明示找不到符合搜尋字詞的文件。據本輪台灣官方家電目錄與指定網域搜尋範圍記為 no_relevant_line。",
+          "checkedAt": "2026-08-31"
+        },
+        {
+          "url": "https://www.mitsubishielectric.com.tw/home/",
+          "title": "Mitsubishi Electric 台灣三菱電機｜家電全產品選單：螢幕燈產品線查核",
+          "evidence": "Chrome 開啟台灣三菱電機家電首頁並展開全產品選單，實際列出電冰箱／冷凍櫃、除濕機、電風扇、烘被機、空調產品，未見螢幕掛燈。另執行 site:mitsubishielectric.com.tw 螢幕燈 OR 螢幕掛燈 OR \"monitor light\"，搜尋工具未回傳相關候選。據本輪 Mitsubishi Electric 官方目錄與網域搜尋範圍記為 no_relevant_line；未將其他 Mitsubishi 集團公司混入。",
+          "checkedAt": "2026-08-31"
+        },
+        {
+          "url": "https://www.hotaidev.com.tw/web/",
+          "title": "Daikin 大金空調台灣｜產品分類：螢幕燈產品線查核",
+          "evidence": "Chrome 開啟大金台灣和泰興業官方網站，產品導覽為家用／商用空調、空氣清淨機、除濕機、智能控制、冰水機、全熱交換器與冷凍冷藏等，未見桌機螢幕掛燈。另執行 site:hotaidev.com.tw 螢幕燈 OR 螢幕掛燈 OR \"monitor light\"，搜尋工具未回傳相關候選。據本輪官方產品分類與網域搜尋範圍記為 no_relevant_line。",
+          "checkedAt": "2026-08-31"
+        },
+        {
+          "url": "https://www.generalww.com/tw/products/",
+          "title": "GENERAL Taiwan｜產品：螢幕燈產品線查核（原 Fujitsu General 官方網址重新導向）",
+          "evidence": "Chrome 從 https://www.fujitsu-general.com/tw/products/ 開啟後，官方重新導向至此 GENERAL Taiwan 頁；實際產品分類為變頻分離式空調、變頻一對多空調及 VRF 空調系統，未見螢幕掛燈。執行 site:generalww.com/tw 螢幕燈 OR \"monitor light\"，工具回傳的候選為空調安裝／技術手冊，例如 https://www.generalww.com/datafiles/W9319205939-0101_IM_En_AOYG24KBTA3.pdf；原文 ERROR CODE 段落的 MONITOR light 指空調故障位置 LED 指示燈，並非可獨立購買的桌面螢幕燈，故排除。據本輪官方產品目錄與搜尋範圍記為 no_relevant_line。",
+          "checkedAt": "2026-08-31"
+        },
+        {
+          "url": "https://www.rinnai.tw/sitemap",
+          "title": "Rinnai 台灣林內｜網站地圖商品分類：螢幕燈產品線查核",
+          "evidence": "實際開啟林內官方首頁並由其連結進入網站地圖，商品分類列出熱水器與溫控／迴水設備、瓦斯／IH 爐、廚房設備、乾衣機及商用保溫鍋／煮飯鍋／烤爐，未見桌機螢幕掛燈。官方商品連結跨 rinnai.tw 與 rinnai.com.tw，因此兩網域皆執行 螢幕燈 OR 螢幕掛燈 OR \"monitor light\" 的 site 查詢，工具均未回傳相關候選。據本輪官方分類與指定網域搜尋範圍記為 no_relevant_line。",
+          "checkedAt": "2026-08-31"
+        },
+        {
+          "url": "https://www.noritz.co.jp/product/",
+          "title": "Noritz ノーリツ｜商品情報：螢幕燈產品線查核",
+          "evidence": "實際開啟 Noritz 日本官方商品情報總覽，產品分為給湯／浴室、廚房與居家暖房；可見給湯器、遙控器、浴室暖房乾燥機、浴室防水電視、爐具與暖房設備，未見桌機螢幕掛燈。執行 site:noritz.co.jp/product 螢幕燈 OR モニターライト OR \"monitor light\"，工具未回傳相關候選；浴室防水電視不屬於獨立掛燈。據本輪官方目錄與搜尋範圍記為 no_relevant_line。",
+          "checkedAt": "2026-08-31"
+        },
+        {
+          "url": "https://www.twtoto.com.tw/",
+          "title": "TOTO 台灣｜官方商品分類：螢幕燈產品線查核",
+          "evidence": "實際開啟 TOTO 台灣官方網站，商品分类为馬桶、溫水洗淨便座、便座、臉盆、龍頭／淋浴、小便斗、浴缸、浴室換氣暖房乾燥機、烘手機、浴室配件與沖水閥，未見桌機螢幕掛燈。執行 site:twtoto.com.tw 螢幕燈 OR \"monitor light\"，工具未回傳相關候選。據本輪 TOTO 官方衛浴目錄與搜尋範圍記為 no_relevant_line；未以 TOTOLINK 等不同品牌字串誤判。",
+          "checkedAt": "2026-08-31"
+        },
+        {
+          "id": "monitor-light-benq-screenbar-pro",
+          "buyUrl": "https://www.benq.com/zh-tw/lighting/monitor-light/screenbar-pro/buy.html",
+          "specUrl": "https://www.benq.com/zh-tw/lighting/monitor-light/screenbar-pro/spec.html",
+          "checkedAt": "2026-08-31",
+          "price": 4290,
+          "currency": "TWD",
+          "evidence": "Chrome核對ScreenBar Pro原廠／代理商品頁公開NT4290及購買按鈕。",
+          "url": "https://www.benq.com/zh-tw/lighting/monitor-light/screenbar-pro/buy.html",
+          "title": "BenQ ScreenBar Pro 單品公開售價與來源",
+          "productId": "monitor-light-benq-screenbar-pro",
+          "amount": 4290,
+          "image": "https://image.benq.com/is/image/benqco/screenbar-pro-black-01?$ResponsivePreset$&fmt=png-alpha",
+          "imageNaturalWidth": 1000,
+          "priceBasis": "retailer_current"
+        },
+        {
+          "id": "monitor-light-benq-screenbar-halo2",
+          "buyUrl": "https://www.benq.com/zh-tw/lighting/monitor-light/screenbar-halo2/buy.html",
+          "specUrl": "https://www.benq.com/zh-tw/lighting/monitor-light/screenbar-halo2/spec.html",
+          "checkedAt": "2026-08-31",
+          "price": 5290,
+          "currency": "TWD",
+          "evidence": "Chrome核對ScreenBar Halo 2原廠／代理商品頁公開NT5290及購買按鈕。",
+          "url": "https://www.benq.com/zh-tw/lighting/monitor-light/screenbar-halo2/buy.html",
+          "title": "BenQ ScreenBar Halo 2 單品公開售價與來源",
+          "productId": "monitor-light-benq-screenbar-halo2",
+          "amount": 5290,
+          "image": "https://image.benq.com/is/image/benqco/together45-6?$ResponsivePreset$&fmt=png-alpha",
+          "imageNaturalWidth": 1000,
+          "priceBasis": "retailer_current"
+        },
+        {
+          "id": "monitor-light-elesense-e1133",
+          "buyUrl": "https://www.witsper.com/products/elesense-gemini-light-ultra-e1133",
+          "specUrl": "https://www.witsper.com/products/elesense-gemini-light-ultra-e1133",
+          "checkedAt": "2026-08-31",
+          "price": 3490,
+          "currency": "TWD",
+          "evidence": "Chrome選E1133掛燈單品NT3490，490元控制器底座為配件不收。",
+          "url": "https://www.witsper.com/products/elesense-gemini-light-ultra-e1133",
+          "title": "Elesense E1133 單品公開售價與來源",
+          "productId": "monitor-light-elesense-e1133",
+          "amount": 3490,
+          "image": "https://shoplineimg.com/5a238dc8080f0658ad003280/682d7caff11f630011504b64/800x.webp?source_format=jpg",
+          "imageNaturalWidth": 800,
+          "priceBasis": "retailer_current"
+        },
+        {
+          "id": "monitor-light-xiaomi-mjgjd01yl",
+          "checkedAt": "2026-08-31",
+          "buyUrl": "https://www.mi.com/tw/product/mi-computer-monitor-light-bar/buy/",
+          "sourceUrl": "https://www.mi.com/tw/product/mi-computer-monitor-light-bar/specs/",
+          "status": "exact_model_verified",
+          "note": "台灣官方商城NT$1,049、加到購物車可用，已截圖；官規型號MJGJD01YL；顯示器掛燈一年保固、電源線六個月；無操作購物車。",
+          "url": "https://www.mi.com/tw/product/mi-computer-monitor-light-bar/buy/",
+          "title": "Xiaomi MJGJD01YL 單品公開售價與來源",
+          "evidence": "2026-08-31 小米台灣官方商城公開現價；頁面加到購物車可用，不扣會員回饋",
+          "productId": "monitor-light-xiaomi-mjgjd01yl",
+          "currency": "TWD",
+          "amount": 1049,
+          "image": "https://i01.appmifile.com/v1/MI_18455B3E4DA706226CF7535A58E875F0267/pms_1608286965.72071325.png?thumb=1&f=webp&q=85",
+          "imageNaturalWidth": 800,
+          "priceBasis": "retailer_current"
+        },
+        {
+          "id": "monitor-light-elesense-e1132",
+          "buyUrl": "https://www.witsper.com/products/elesense-gemini-light-e1132",
+          "specUrl": "https://www.witsper.com/products/elesense-gemini-light-e1132",
+          "checkedAt": "2026-08-31",
+          "price": 2490,
+          "currency": "TWD",
+          "evidence": "Chrome核對E1132原廠／代理商品頁公開NT2490及購買按鈕。",
+          "url": "https://www.witsper.com/products/elesense-gemini-light-e1132",
+          "title": "Elesense E1132 單品公開售價與來源",
+          "productId": "monitor-light-elesense-e1132",
+          "amount": 2490,
+          "image": "https://shoplineimg.com/5a238dc8080f0658ad003280/64fac98dc7899a3016d2913b/800x.webp?source_format=jpg",
+          "imageNaturalWidth": 750,
+          "priceBasis": "retailer_current"
+        },
+        {
+          "id": "monitor-light-asus-alb01",
+          "checkedAt": "2026-08-31",
+          "buyUrl": "https://24h.pchome.com.tw/prod/DSBC1T-A900I27TY",
+          "imageUrl": "https://img.pchome.com.tw/cs/items/DSBC1TA900I27TY/000001_1773628504.jpg",
+          "price": {
+            "currency": "TWD",
+            "amount": 4688,
+            "variant": "單件主商品"
+          },
+          "priceMethod": "Chrome rendered original page",
+          "specificationSources": [
+            "https://rog.asus.com/tw/monitors/accessories/rog-aura-monitor-light-bar-alb01/spec/",
+            "https://rog.asus.com/tw/monitors/accessories/rog-aura-monitor-light-bar-alb01/",
+            "https://24h.pchome.com.tw/prod/DSBC1T-A900I27TY"
+          ],
+          "exactModelEvidence": "ASUS ALB01 由官方或可信新品exact-model頁核對。",
+          "sourceConflicts": "未確認自動調光；非Windows平台軟體控制需先確認；保固年限需向通路確認",
+          "url": "https://24h.pchome.com.tw/prod/DSBC1T-A900I27TY",
+          "title": "ASUS ALB01 單品公開售價與來源",
+          "evidence": "PChome 2026-08-31 Chrome原頁公開新品单件價；未使用會員、點數、信用卡或門市現金折扣。",
+          "productId": "monitor-light-asus-alb01",
+          "currency": "TWD",
+          "amount": 4688,
+          "image": "https://img.pchome.com.tw/cs/items/DSBC1TA900I27TY/000001_1773628504.jpg",
+          "imageNaturalWidth": 640,
+          "priceBasis": "retailer_current"
+        },
+        {
+          "id": "monitor-light-benq-screenbar",
+          "buyUrl": "https://www.benq.com/zh-tw/lighting/monitor-light/screenbar/buy.html",
+          "specUrl": "https://www.benq.com/zh-tw/lighting/monitor-light/screenbar/spec.html",
+          "checkedAt": "2026-08-31",
+          "price": 2990,
+          "currency": "TWD",
+          "evidence": "Chrome核對ScreenBar原廠／代理商品頁公開NT2990及購買按鈕。",
+          "url": "https://www.benq.com/zh-tw/lighting/monitor-light/screenbar/buy.html",
+          "title": "BenQ ScreenBar 單品公開售價與來源",
+          "productId": "monitor-light-benq-screenbar",
+          "amount": 2990,
+          "image": "https://image.benq.com/is/image/benqco/07screenbar-topleft45-button-2?$ResponsivePreset$&fmt=png-alpha",
+          "imageNaturalWidth": 1000,
+          "priceBasis": "retailer_current"
+        },
+        {
+          "id": "monitor-light-kinyo-pced-805",
+          "checkedAt": "2026-08-31",
+          "buyUrl": "https://www.kinyo.tw/products/pced-805",
+          "sourceUrl": "https://www.nakay.com.tw/productdetail_tw.php?id=1687",
+          "status": "exact_model_verified",
+          "note": "台灣官方商城NT$990、加入購物車可用；品牌頁型號PCED-805；一年保固；僅新增查核，無操作購物車。",
+          "url": "https://www.kinyo.tw/products/pced-805",
+          "title": "KINYO PCED-805 單品公開售價與來源",
+          "evidence": "2026-08-31 KINYO 台灣官方商城公開單件現價；不扣會員金或多件優惠",
+          "productId": "monitor-light-kinyo-pced-805",
+          "currency": "TWD",
+          "amount": 990,
+          "image": "https://shoplineimg.com/5d52c4cef982a4000166da12/6271d946da5fd9002a9cc579/800x.webp?source_format=jpg",
+          "imageNaturalWidth": 800,
+          "priceBasis": "retailer_current"
+        },
+        {
+          "id": "monitor-light-kinyo-pced-855",
+          "checkedAt": "2026-08-31",
+          "buyUrl": "https://www.kinyo.tw/products/pced855",
+          "sourceUrl": "https://www.nakay.com.tw/productdetail_tw.php?id=1686",
+          "status": "exact_model_verified",
+          "note": "台灣官方商城NT$1,180、加入購物車可用；品牌頁型號PCED-855；一年保固；僅新增查核，無操作購物車。",
+          "url": "https://www.kinyo.tw/products/pced855",
+          "title": "KINYO PCED-855 單品公開售價與來源",
+          "evidence": "2026-08-31 KINYO 台灣官方商城公開單件現價；不扣會員金或多件優惠",
+          "productId": "monitor-light-kinyo-pced-855",
+          "currency": "TWD",
+          "amount": 1180,
+          "image": "https://shoplineimg.com/5d52c4cef982a4000166da12/628d8cda7dedc00015b40803/800x.webp?source_format=jpg",
+          "imageNaturalWidth": 800,
+          "priceBasis": "retailer_current"
+        },
+        {
+          "id": "monitor-light-elesense-e1129",
+          "buyUrl": "https://www.witsper.com/products/elesense-uni-light-e1129",
+          "specUrl": "https://www.witsper.com/products/elesense-uni-light-e1129",
+          "checkedAt": "2026-08-31",
+          "price": 2290,
+          "currency": "TWD",
+          "evidence": "Chrome已選單掛燈選項，NT2290且可加入購物車，預設雙燈NT3490不採用。",
+          "url": "https://www.witsper.com/products/elesense-uni-light-e1129",
+          "title": "Elesense E1129 單品公開售價與來源",
+          "productId": "monitor-light-elesense-e1129",
+          "amount": 2290,
+          "image": "https://shoplineimg.com/5a238dc8080f0658ad003280/63455214160ac5001ff0b78d/800x.webp?source_format=jpg",
+          "imageNaturalWidth": 800,
+          "priceBasis": "retailer_current"
+        },
+        {
+          "id": "monitor-light-philips-pd052",
+          "checkedAt": "2026-08-31",
+          "buyUrl": "https://www.gh-3c.com/products/philips-66219-pindi-pro-pd052-auto-sensing-asymmetrical-led-eye-care-monitor-light-bar",
+          "imageUrl": "https://images.autobuy.tw/1/38109578.jpg",
+          "price": {
+            "currency": "TWD",
+            "amount": 1700,
+            "variant": "單件主商品"
+          },
+          "priceMethod": "Chrome rendered original page",
+          "specificationSources": [
+            "https://www.autobuy.tw/electrical/prod_356251",
+            "https://www.trplus.com.tw/p/016783346",
+            "https://www.gh-3c.com/products/philips-66219-pindi-pro-pd052-auto-sensing-asymmetrical-led-eye-care-monitor-light-bar",
+            "https://www.tk3c.com/product/240594",
+            "https://www.lighting.philips.com.tw/consumer/p/myhomeoffice-pc-screen-light/929003602301",
+            "https://www.lighting.philips.com.hk/consumer/p/myhomeoffice-pc-screen-light/929003602301",
+            "https://www.yohohongkong.com/zh-hk/product/117712-Philips-66219-Edison-Pro-%E8%9E%A2%E5%B9%95%E6%8E%9B%E7%87%88-%E9%A6%99%E6%B8%AF%E8%A1%8C%E8%B2%A8"
+          ],
+          "exactModelEvidence": "Philips PD052 由官方或可信新品exact-model頁核對。",
+          "sourceConflicts": "夾厚及曲率邊界未確認；尺寸與本體淨重證據未明確；感應功能與CRI各來源說法不同",
+          "ratedPowerEvidence": {
+            "voltage": "USB DC 5V",
+            "powerW": 8,
+            "sourceUrl": "https://www.yohohongkong.com/zh-hk/product/117712-Philips-66219-Edison-Pro-%E8%9E%A2%E5%B9%95%E6%8E%9B%E7%87%88-%E9%A6%99%E6%B8%AF%E8%A1%8C%E8%B2%A8",
+            "identitySources": [
+              "https://www.gh-3c.com/products/philips-66219-pindi-pro-pd052-auto-sensing-asymmetrical-led-eye-care-monitor-light-bar",
+              "https://www.tk3c.com/product/240594",
+              "https://www.lighting.philips.com.tw/consumer/p/myhomeoffice-pc-screen-light/929003602301"
+            ],
+            "evidenceSnippet": "國揚PD052明示66219與5V；燦坤PD052的原廠12NC929003602301對應Philips台灣官方66219 Edison Pro；YOHO原頁66219 Edison Pro技術規格列額定8W與DC5V。未以除法推算額定電流。"
+          },
+          "url": "https://www.gh-3c.com/products/philips-66219-pindi-pro-pd052-auto-sensing-asymmetrical-led-eye-care-monitor-light-bar",
+          "title": "Philips PD052 單品公開售價與來源",
+          "evidence": "國揚電腦 2026-08-31 Chrome原頁公開新品单件價；未使用會員、點數、信用卡或門市現金折扣。",
+          "productId": "monitor-light-philips-pd052",
+          "currency": "TWD",
+          "amount": 1700,
+          "image": "https://images.autobuy.tw/1/38109578.jpg",
+          "imageNaturalWidth": 800,
+          "priceBasis": "retailer_current"
+        },
+        {
+          "id": "monitor-light-benq-iscreenbar",
+          "buyUrl": "https://www.benq.com/zh-tw/lighting/monitor-light/iscreenbar/buy.html",
+          "specUrl": "https://www.benq.com/zh-tw/lighting/monitor-light/iscreenbar/spec.html",
+          "checkedAt": "2026-08-31",
+          "price": 5690,
+          "currency": "TWD",
+          "evidence": "Chrome核對iScreenBar原廠／代理商品頁公開NT5690及購買按鈕。",
+          "url": "https://www.benq.com/zh-tw/lighting/monitor-light/iscreenbar/buy.html",
+          "title": "BenQ iScreenBar 單品公開售價與來源",
+          "productId": "monitor-light-benq-iscreenbar",
+          "amount": 5690,
+          "image": "https://image.benq.com/is/image/benqco/01iscreenbar-top-with-imac-silver?$ResponsivePreset$&fmt=png-alpha",
+          "imageNaturalWidth": 1000,
+          "priceBasis": "retailer_current"
+        },
+        {
+          "id": "monitor-light-yeelight-yltd003",
+          "checkedAt": "2026-08-31",
+          "buyUrl": "https://store.yeelight.com/products/yeelight-monitor-light-bar-pro-flagship-edition",
+          "imageUrl": "https://store.yeelight.com/cdn/shop/files/01.jpg?v=1745911254",
+          "price": {
+            "currency": "USD",
+            "amount": 103.99,
+            "variant": "1-pack"
+          },
+          "priceMethod": "Chrome rendered original page",
+          "specificationSources": [
+            "https://en.yeelight.com/product/led-screen-light-bar-pro/",
+            "https://en.yeelight.com/wp-content/uploads/sites/4/2023/08/Yeelight-home.pdf",
+            "https://store.yeelight.com/products/yeelight-monitor-light-bar-pro-flagship-edition"
+          ],
+          "exactModelEvidence": "Yeelight YLTD003 由官方或可信新品exact-model頁核對。",
+          "sourceConflicts": "地區設定與第三方整合有個案限制；夾厚、曲率、淨重未確認；海外運費、進口與送修風險",
+          "url": "https://store.yeelight.com/products/yeelight-monitor-light-bar-pro-flagship-edition",
+          "title": "Yeelight YLTD003 單品公開售價與來源",
+          "evidence": "Yeelight 美國官方商店 2026-08-31 Chrome原頁USD公開新品單件價（1-pack）。沿用基線USD/TWD 31.649299（2026-08-31 00:02 UTC），未重新抓取匯率；海外新品價格未含國際運費、進口稅；需核對電壓、插頭與USB變壓器額定，台灣保固及跨國送修不保證。",
+          "productId": "monitor-light-yeelight-yltd003",
+          "currency": "USD",
+          "amount": 103.99,
+          "image": "https://store.yeelight.com/cdn/shop/files/01.jpg?v=1745911254",
+          "imageNaturalWidth": 3000,
+          "priceBasis": "retailer_current"
+        },
+        {
+          "id": "monitor-light-quntis-f51bk",
+          "checkedAt": "2026-08-31",
+          "buyUrl": "https://www.quntis.com/products/monitor-light-bar-pro-with-remote-control-eye-care-technology-computer-monitor-lamp-with-auto-dimming-no-screen-glare",
+          "imageUrl": "https://www.quntis.com/cdn/shop/files/31279278096450.jpg?v=1710310541&width=1000",
+          "price": {
+            "currency": "USD",
+            "amount": 79.99,
+            "variant": "單件主商品"
+          },
+          "priceMethod": "Chrome rendered original page",
+          "specificationSources": [
+            "https://www.quntis.com/bn/blogs/support-manuals/user-manual-quntis-monitor-light-bar-focus-51-cm-20-1-inch-black",
+            "https://www.quntis.com/products/monitor-light-bar-pro-with-remote-control-eye-care-technology-computer-monitor-lamp-with-auto-dimming-no-screen-glare"
+          ],
+          "exactModelEvidence": "Quntis F51BK 由官方獨立支援手冊／SKU與商品名稱相互對照。",
+          "sourceConflicts": "官網夾厚與CRI有矛盾；未列可比較的照度測試條件；海外保固與薄邊框需確認",
+          "url": "https://www.quntis.com/products/monitor-light-bar-pro-with-remote-control-eye-care-technology-computer-monitor-lamp-with-auto-dimming-no-screen-glare",
+          "title": "Quntis F51BK 單品公開售價與來源",
+          "evidence": "Quntis 官方商店 2026-08-31 Chrome原頁USD公開新品單件價。沿用基線USD/TWD 31.649299（2026-08-31 00:02 UTC），未重新抓取匯率；海外新品價格未含國際運費、進口稅；需核對電壓、插頭與USB變壓器額定，台灣保固及跨國送修不保證。",
+          "productId": "monitor-light-quntis-f51bk",
+          "currency": "USD",
+          "amount": 79.99,
+          "image": "https://www.quntis.com/cdn/shop/files/31279278096450.jpg?v=1710310541&width=1000",
+          "imageNaturalWidth": 1000,
+          "priceBasis": "retailer_current"
+        },
+        {
+          "id": "monitor-light-quntis-fr52gy",
+          "checkedAt": "2026-08-31",
+          "buyUrl": "https://www.quntis.com/products/quntis-screenlinear-deluxe-pro-monitor-light-bar-20-1-asymmetric-led-screen-light-with-touch-radar-sensor-high-cri-eye-care-illumination-stepless-dimming-remote-control-built-in-battery-grey",
+          "imageUrl": "https://www.quntis.com/cdn/shop/files/3003.jpg?v=1749700280&width=1600",
+          "price": {
+            "currency": "USD",
+            "amount": 75.99,
+            "variant": "單件主商品"
+          },
+          "priceMethod": "Chrome rendered original page",
+          "specificationSources": [
+            "https://www.quntis.com/de/blogs/support-manuals/user-manual-quntis-monitor-light-bar-focus-radar-52-cm-20-5-inch-grey",
+            "https://www.quntis.com/products/quntis-screenlinear-deluxe-pro-monitor-light-bar-20-1-asymmetric-led-screen-light-with-touch-radar-sensor-high-cri-eye-care-illumination-stepless-dimming-remote-control-built-in-battery-grey"
+          ],
+          "exactModelEvidence": "Quntis FR52GY 由官方獨立支援手冊／SKU與商品名稱相互對照。",
+          "sourceConflicts": "官方螢幕尺寸與夾厚資料不一致；感測需要合適坐姿距離；海外運送及送修",
+          "url": "https://www.quntis.com/products/quntis-screenlinear-deluxe-pro-monitor-light-bar-20-1-asymmetric-led-screen-light-with-touch-radar-sensor-high-cri-eye-care-illumination-stepless-dimming-remote-control-built-in-battery-grey",
+          "title": "Quntis FR52GY 單品公開售價與來源",
+          "evidence": "Quntis 官方商店 2026-08-31 Chrome原頁USD公開新品單件價。沿用基線USD/TWD 31.649299（2026-08-31 00:02 UTC），未重新抓取匯率；海外新品價格未含國際運費、進口稅；需核對電壓、插頭與USB變壓器額定，台灣保固及跨國送修不保證。",
+          "productId": "monitor-light-quntis-fr52gy",
+          "currency": "USD",
+          "amount": 75.99,
+          "image": "https://www.quntis.com/cdn/shop/files/3003.jpg?v=1749700280&width=1600",
+          "imageNaturalWidth": 1600,
+          "priceBasis": "retailer_current"
+        },
+        {
+          "id": "monitor-light-quntis-f45bk",
+          "checkedAt": "2026-08-31",
+          "buyUrl": "https://www.quntis.com/products/screenlinear-glow-for-curved-17-72inch",
+          "imageUrl": "https://www.quntis.com/cdn/shop/files/Quntis-Curved-Monitor-Light-Bar-Wireless-Remote-Monitor-Auto-Dimming-Camera-Base-Screen-Light-Bar-Screens-Screen-Glare-for-Home-Office_4020b13b-0b87-45a8-9d4f-4ccb13864fc0.e3a923af757.jpg?v=1751435604&width=600",
+          "price": {
+            "currency": "USD",
+            "amount": 72.99,
+            "variant": "單件主商品"
+          },
+          "priceMethod": "Chrome rendered original page",
+          "specificationSources": [
+            "https://www.quntis.com/blogs/support-manuals/user-manual-quntis-curved-monitor-light-bar-focus-45-cm-17-7-inch-black",
+            "https://www.quntis.com/products/screenlinear-glow-for-curved-17-72inch"
+          ],
+          "exactModelEvidence": "Quntis F45BK 由官方獨立支援手冊／SKU與商品名稱相互對照。",
+          "sourceConflicts": "曲率界限未列；完整三軸尺寸與淨重查不到；海外售後",
+          "url": "https://www.quntis.com/products/screenlinear-glow-for-curved-17-72inch",
+          "title": "Quntis F45BK 單品公開售價與來源",
+          "evidence": "Quntis 官方商店 2026-08-31 Chrome原頁USD公開新品單件價。沿用基線USD/TWD 31.649299（2026-08-31 00:02 UTC），未重新抓取匯率；海外新品價格未含國際運費、進口稅；需核對電壓、插頭與USB變壓器額定，台灣保固及跨國送修不保證。",
+          "productId": "monitor-light-quntis-f45bk",
+          "currency": "USD",
+          "amount": 72.99,
+          "image": "https://www.quntis.com/cdn/shop/files/Quntis-Curved-Monitor-Light-Bar-Wireless-Remote-Monitor-Auto-Dimming-Camera-Base-Screen-Light-Bar-Screens-Screen-Glare-for-Home-Office_4020b13b-0b87-45a8-9d4f-4ccb13864fc0.e3a923af757.jpg?v=1751435604&width=600",
+          "imageNaturalWidth": 600,
+          "priceBasis": "retailer_current"
+        },
+        {
+          "id": "monitor-light-quntis-i51gy",
+          "checkedAt": "2026-08-31",
+          "buyUrl": "https://www.quntis.com/products/quntis-rgb-pro-monitor-light-bar-with-remote-15-modes-gaming-backlight-4-colors-brightness-dimmable-fronlight-20-ra95-eye-care-monitor-lamp-no-screen-glare-upgraded-clip-for-all-monitor",
+          "imageUrl": "https://www.quntis.com/cdn/shop/files/20251125-162341.jpg?v=1764061284&width=2400",
+          "price": {
+            "currency": "USD",
+            "amount": 66.99,
+            "variant": "單件主商品"
+          },
+          "priceMethod": "Chrome rendered original page",
+          "specificationSources": [
+            "https://www.quntis.com/blogs/support-manuals/user-manual-quntis-monitor-light-bar-im-51-cm-20-1-inch-grey",
+            "https://www.quntis.com/products/quntis-rgb-pro-monitor-light-bar-with-remote-15-modes-gaming-backlight-4-colors-brightness-dimmable-fronlight-20-ra95-eye-care-monitor-lamp-no-screen-glare-upgraded-clip-for-all-monitor"
+          ],
+          "exactModelEvidence": "Quntis I51GY 由官方獨立支援手冊／SKU與商品名稱相互對照。",
+          "sourceConflicts": "不具自動感光；螢幕USB輸出不足可能影響工作；海外保固與運費",
+          "url": "https://www.quntis.com/products/quntis-rgb-pro-monitor-light-bar-with-remote-15-modes-gaming-backlight-4-colors-brightness-dimmable-fronlight-20-ra95-eye-care-monitor-lamp-no-screen-glare-upgraded-clip-for-all-monitor",
+          "title": "Quntis I51GY 單品公開售價與來源",
+          "evidence": "Quntis 官方商店 2026-08-31 Chrome原頁USD公開新品單件價。沿用基線USD/TWD 31.649299（2026-08-31 00:02 UTC），未重新抓取匯率；海外新品價格未含國際運費、進口稅；需核對電壓、插頭與USB變壓器額定，台灣保固及跨國送修不保證。",
+          "productId": "monitor-light-quntis-i51gy",
+          "currency": "USD",
+          "amount": 66.99,
+          "image": "https://www.quntis.com/cdn/shop/files/20251125-162341.jpg?v=1764061284&width=2400",
+          "imageNaturalWidth": 2400,
+          "priceBasis": "retailer_current"
+        },
+        {
+          "id": "monitor-light-quntis-g66bk",
+          "checkedAt": "2026-08-31",
+          "buyUrl": "https://www.quntis.com/products/quntis-led-monitor-light-bar-for-curved-screens-eye-caring-screen-lamp-with-backlight-remote-control-adjustable-brightness",
+          "imageUrl": "https://www.quntis.com/cdn/shop/files/6391ace427ade714b70fb966024ae804_ebcf4812-c01f-4e7e-9f43-eeca728139a7.jpg?v=1751596993&width=2000",
+          "price": {
+            "currency": "USD",
+            "amount": 75.99,
+            "variant": "Warmwhite / US"
+          },
+          "priceMethod": "Chrome rendered original page",
+          "specificationSources": [
+            "https://www.quntis.com/blogs/support-manuals/user-manual-quntis-curved-monitor-light-bar-glow-66-cm-26-inch-black",
+            "https://www.quntis.com/products/quntis-led-monitor-light-bar-for-curved-screens-eye-caring-screen-lamp-with-backlight-remote-control-adjustable-brightness"
+          ],
+          "exactModelEvidence": "Quntis G66BK 由官方獨立支援手冊／SKU與商品名稱相互對照。",
+          "sourceConflicts": "重心與固定機構需小心核對；無完整尺寸／淨重；海外運費、插頭及送修風險",
+          "url": "https://www.quntis.com/products/quntis-led-monitor-light-bar-for-curved-screens-eye-caring-screen-lamp-with-backlight-remote-control-adjustable-brightness",
+          "title": "Quntis G66BK 單品公開售價與來源",
+          "evidence": "Quntis 官方商店 2026-08-31 Chrome原頁USD公開新品單件價（Warmwhite／US）。沿用基線USD/TWD 31.649299（2026-08-31 00:02 UTC），未重新抓取匯率；海外新品價格未含國際運費、進口稅；需核對電壓、插頭與USB變壓器額定，台灣保固及跨國送修不保證。",
+          "productId": "monitor-light-quntis-g66bk",
+          "currency": "USD",
+          "amount": 75.99,
+          "image": "https://www.quntis.com/cdn/shop/files/6391ace427ade714b70fb966024ae804_ebcf4812-c01f-4e7e-9f43-eeca728139a7.jpg?v=1751596993&width=2000",
+          "imageNaturalWidth": 2000,
+          "priceBasis": "retailer_current"
+        },
+        {
+          "id": "monitor-light-quntis-i66bk",
+          "checkedAt": "2026-08-31",
+          "buyUrl": "https://www.quntis.com/products/quntis-foldable-dual-head-led-monitor-light-bar-wide-angle-screen-lamp-for-curved-monitors-with-rgb-backlight-remote-control-eye-care-design",
+          "imageUrl": "https://www.quntis.com/cdn/shop/files/2218.jpg?v=1751609759&width=2000",
+          "price": {
+            "currency": "USD",
+            "amount": 75.99,
+            "variant": "RGB / US"
+          },
+          "priceMethod": "Chrome rendered original page",
+          "specificationSources": [
+            "https://www.quntis.com/blogs/support-manuals/user-manual-quntis-curved-monitor-light-bar-im-66-cm-26-inch-black",
+            "https://www.quntis.com/products/quntis-foldable-dual-head-led-monitor-light-bar-wide-angle-screen-lamp-for-curved-monitors-with-rgb-backlight-remote-control-eye-care-design"
+          ],
+          "exactModelEvidence": "Quntis I66BK 由官方獨立支援手冊／SKU與商品名稱相互對照。",
+          "sourceConflicts": "雙頭角度鎖定精度有單站個案；安裝須核對曲率及重量；海外配件、運费與保固",
+          "url": "https://www.quntis.com/products/quntis-foldable-dual-head-led-monitor-light-bar-wide-angle-screen-lamp-for-curved-monitors-with-rgb-backlight-remote-control-eye-care-design",
+          "title": "Quntis I66BK 單品公開售價與來源",
+          "evidence": "Quntis 官方商店 2026-08-31 Chrome原頁USD公開新品單件價（RGB／US）。沿用基線USD/TWD 31.649299（2026-08-31 00:02 UTC），未重新抓取匯率；海外新品價格未含國際運費、進口稅；需核對電壓、插頭與USB變壓器額定，台灣保固及跨國送修不保證。",
+          "productId": "monitor-light-quntis-i66bk",
+          "currency": "USD",
+          "amount": 75.99,
+          "image": "https://www.quntis.com/cdn/shop/files/2218.jpg?v=1751609759&width=2000",
+          "imageNaturalWidth": 2000,
+          "priceBasis": "retailer_current"
+        },
+        {
+          "id": "monitor-light-quntis-ims45bk",
+          "checkedAt": "2026-08-31",
+          "buyUrl": "https://www.quntis.com/products/quntis-monitor-light-bar-with-dual-control-adjustable-brightness-color-temperature-11-rgb-modes",
+          "imageUrl": "https://www.quntis.com/cdn/shop/files/6391ace427ade714b70fb966024ae804_8b814843-403b-46ae-b664-ae018bcb129c.jpg?v=1764655647&width=2000",
+          "price": {
+            "currency": "USD",
+            "amount": 79.99,
+            "variant": "單件主商品"
+          },
+          "priceMethod": "Chrome rendered original page",
+          "specificationSources": [
+            "https://www.quntis.com/de/blogs/support-manuals/user-manual-quntis-curved-monitor-light-bar-im-music-sync-45-cm-17-7-inch-black",
+            "https://www.quntis.com/products/quntis-monitor-light-bar-with-dual-control-adjustable-brightness-color-temperature-11-rgb-modes"
+          ],
+          "exactModelEvidence": "Quntis IMS45BK 由官方獨立支援手冊／SKU與商品名稱相互對照。",
+          "sourceConflicts": "RGB模式數與電池說明有矛盾；無自動感光；海外運送與送修",
+          "url": "https://www.quntis.com/products/quntis-monitor-light-bar-with-dual-control-adjustable-brightness-color-temperature-11-rgb-modes",
+          "title": "Quntis IMS45BK 單品公開售價與來源",
+          "evidence": "Quntis 官方商店 2026-08-31 Chrome原頁USD公開新品單件價。沿用基線USD/TWD 31.649299（2026-08-31 00:02 UTC），未重新抓取匯率；海外新品價格未含國際運費、進口稅；需核對電壓、插頭與USB變壓器額定，台灣保固及跨國送修不保證。",
+          "productId": "monitor-light-quntis-ims45bk",
+          "currency": "USD",
+          "amount": 79.99,
+          "image": "https://www.quntis.com/cdn/shop/files/6391ace427ade714b70fb966024ae804_8b814843-403b-46ae-b664-ae018bcb129c.jpg?v=1764655647&width=2000",
+          "imageNaturalWidth": 2000,
+          "priceBasis": "retailer_current"
+        }
+      ]
     }
   ],
   "changes": {
-    "prices": [
-      {
-        "id": "cookware-tefal-4",
-        "before": 990,
-        "after": 1099,
-        "currency": "TWD",
-        "basis": "retailer_current",
-        "source": "https://tw.buy.yahoo.com/gdsale/Tefal%E6%B3%95%E5%9C%8B%E7%89%B9%E7%A6%8F-%E9%A5%97%E6%A8%82%E7%B3%BB%E5%88%97%E4%B8%8D%E6%B2%BE%E9%8D%8B%E5%85%B74%E4%BB%B6%E7%B5%84-28cm%E7%82%92%E9%8D%8B-16cm%E6%B9%AF%E9%8D%8B-16cm%E9%8D%8B%E8%93%8B-%E9%8D%8B%E9%8F%9F-10238240.html"
-      },
-      {
-        "id": "fan-sharp-pv16",
-        "before": 3125,
-        "after": 3890,
-        "currency": "TWD",
-        "basis": "retailer_current",
-        "source": "https://24h.pchome.com.tw/prod/DMABPM-A900K2ITT"
-      },
-      {
-        "id": "oven-extra-11-dmbj6q-a900eo5dh",
-        "before": 9400,
-        "after": 9500,
-        "currency": "TWD",
-        "basis": "retailer_current",
-        "source": "https://tw.buy.yahoo.com/gdsale/Whirlpool%E6%83%A0%E8%80%8C%E6%B5%A6-25%E5%85%AC%E5%8D%87%E7%8D%A8%E7%AB%8B%E5%BC%8F%E8%92%B8%E7%83%A4%E7%88%90-WSO2500B-9918063.html"
-      },
-      {
-        "id": "oven-extra-18-dmbm1pa900garya",
-        "before": 22908,
-        "after": 21763,
-        "currency": "TWD",
-        "basis": "retailer_current",
-        "source": "https://tw.buy.yahoo.com/gdsale/HITACHI-%E6%97%A5%E7%AB%8B-%E9%81%8E%E7%86%B1%E6%B0%B4%E8%92%B8%E6%B0%A3%E7%83%98%E7%83%A4%E5%BE%AE%E6%B3%A2%E7%88%90-%E7%88%B5%E8%89%B2%E9%BB%91-MROS800AT-11995105.html"
-      },
-      {
-        "id": "oven-extra-19-dmbj5pa900gn8pm",
-        "before": 48668,
-        "after": 46235,
-        "currency": "TWD",
-        "basis": "retailer_current",
-        "source": "https://tw.buy.yahoo.com/gdsale/HITACHI-%E6%97%A5%E7%AB%8B-%E9%81%8E%E7%86%B1%E6%B0%B4%E8%92%B8%E6%B0%A3%E7%83%98%E7%83%A4%E5%BE%AE%E6%B3%A2%E7%88%90-MROBK5000AT-11995474.html"
-      },
-      {
-        "id": "oven-whirlpool-mwp269",
-        "before": 17766,
-        "after": 17955,
-        "currency": "TWD",
-        "basis": "retailer_current",
-        "source": "https://tw.buy.yahoo.com/gdsale/Whirlpool%E6%83%A0%E8%80%8C%E6%B5%A6-Coloris%E7%B3%BB%E5%88%97-26%E5%85%AC%E5%8D%878%E5%90%88%E4%B8%80%E5%85%A8%E8%83%BD%E8%AE%8A%E9%A0%BB%E6%B0%A3%E7%82%B8%E8%92%B8%E7%83%A4%E5%BE%AE%E6%B3%A2%E7%88%90-%E9%9B%B2%E9%9C%A7%E7%99%BD-MWP2-11705976.html"
-      },
-      {
-        "id": "waterdispenser-philips-aut7005",
-        "before": 29999,
-        "after": 28999,
-        "currency": "TWD",
-        "basis": "retailer_current",
-        "source": "https://24h.pchome.com.tw/prod/DMAC6R-A900IUC3J"
-      }
-    ],
+    "prices": [],
     "links": [],
     "images": [],
-    "historicalLows": [
-      {
-        "id": "waterdispenser-philips-aut7005",
-        "before": null,
-        "after": 25500,
-        "status": "found",
-        "source": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1269639153&cgp=28999"
-      }
-    ],
-    "foreignConversions": [
-      {
-        "id": "bidet-costco-us-brondell-cl1700",
-        "currency": "USD",
-        "amount": 383.99,
-        "before": 12153,
-        "after": 12153,
-        "rate": 31.649299
-      },
-      {
-        "id": "blender-ninja-bn701",
-        "currency": "USD",
-        "amount": 99.98,
-        "before": 3164,
-        "after": 3164,
-        "rate": 31.649299
-      },
-      {
-        "id": "garmentcare-lg-sc5gmr80h",
-        "currency": "USD",
-        "amount": 2199,
-        "before": 69597,
-        "after": 69597,
-        "rate": 31.649299
-      },
-      {
-        "id": "garmentcare-lg-sc5mar4g",
-        "currency": "USD",
-        "amount": 1799,
-        "before": 56937,
-        "after": 56937,
-        "rate": 31.649299
-      },
-      {
-        "id": "garmentcare-lg-s3mfbn",
-        "currency": "USD",
-        "amount": 1699,
-        "before": 53772,
-        "after": 53772,
-        "rate": 31.649299
-      },
-      {
-        "id": "garmentcare-lg-s3wfbn",
-        "currency": "USD",
-        "amount": 1499,
-        "before": 47442,
-        "after": 47442,
-        "rate": 31.649299
-      },
-      {
-        "id": "garmentcare-lg-s3rfbn",
-        "currency": "USD",
-        "amount": 1499,
-        "before": 47442,
-        "after": 47442,
-        "rate": 31.649299
-      },
-      {
-        "id": "garmentcare-samsung-df90h24r5c",
-        "currency": "KRW",
-        "amount": 2443730,
-        "before": 56184,
-        "after": 56184,
-        "rate": 0.022990974312124667
-      },
-      {
-        "id": "garmentcare-samsung-df90h24r4d",
-        "currency": "KRW",
-        "amount": 2172430,
-        "before": 49946,
-        "after": 49946,
-        "rate": 0.022990974312124667
-      },
-      {
-        "id": "garmentcare-samsung-df90h24r4p",
-        "currency": "KRW",
-        "amount": 2203310,
-        "before": 50656,
-        "after": 50656,
-        "rate": 0.022990974312124667
-      },
-      {
-        "id": "garmentcare-samsung-df90h24r4b",
-        "currency": "KRW",
-        "amount": 2017980,
-        "before": 46395,
-        "after": 46395,
-        "rate": 0.022990974312124667
-      },
-      {
-        "id": "garmentcare-samsung-df80h24r1c",
-        "currency": "KRW",
-        "amount": 2018400,
-        "before": 46405,
-        "after": 46405,
-        "rate": 0.022990974312124667
-      },
-      {
-        "id": "garmentcare-samsung-df80h24r1d",
-        "currency": "KRW",
-        "amount": 1791170,
-        "before": 41181,
-        "after": 41181,
-        "rate": 0.022990974312124667
-      },
-      {
-        "id": "garmentcare-panasonic-hcc-r600al-x",
-        "currency": "JPY",
-        "amount": 328680,
-        "before": 64997,
-        "after": 64997,
-        "rate": 0.19775241807359173
-      },
-      {
-        "id": "oven-breville-joule",
-        "currency": "USD",
-        "amount": 499.95,
-        "before": 15823,
-        "after": 15823,
-        "rate": 31.649299
-      },
-      {
-        "id": "oven-ninja-crispi-mw101",
-        "currency": "USD",
-        "amount": 399.99,
-        "before": 12659,
-        "after": 12659,
-        "rate": 31.649299
-      },
-      {
-        "id": "robot-narwal-flow-2",
-        "currency": "EUR",
-        "amount": 1099,
-        "before": 40337,
-        "after": 40337,
-        "rate": 36.70356316573794
-      },
-      {
-        "id": "robot-narwal-freo-z10-ultra",
-        "currency": "USD",
-        "amount": 551.69,
-        "before": 17461,
-        "after": 17461,
-        "rate": 31.649299
-      },
-      {
-        "id": "robot-shark-powerdetect-nevertouch-pro",
-        "currency": "USD",
-        "amount": 999.99,
-        "before": 31649,
-        "after": 31649,
-        "rate": 31.649299
-      },
-      {
-        "id": "robot-costco-us-roborock-qx-revo",
-        "currency": "USD",
-        "amount": 399.99,
-        "before": 12659,
-        "after": 12659,
-        "rate": 31.649299
-      },
-      {
-        "id": "smartlock-lockin-v7-max",
-        "currency": "HKD",
-        "amount": 9638,
-        "before": 38906,
-        "after": 38906,
-        "rate": 4.036684131717434
-      },
-      {
-        "id": "soundbar-marshall-heston-120",
-        "currency": "USD",
-        "amount": 1299.99,
-        "before": 41144,
-        "after": 41144,
-        "rate": 31.649299
-      },
-      {
-        "id": "soundbar-marshall-heston-60",
-        "currency": "USD",
-        "amount": 549.99,
-        "before": 17407,
-        "after": 17407,
-        "rate": 31.649299
-      },
-      {
-        "id": "vacuum-dreame-aero-ultra-steam",
-        "currency": "USD",
-        "amount": 679.99,
-        "before": 21521,
-        "after": 21521,
-        "rate": 31.649299
-      },
-      {
-        "id": "waterdispenser-costco-us-brondell-circle",
-        "currency": "USD",
-        "amount": 289.99,
-        "before": 9178,
-        "after": 9178,
-        "rate": 31.649299
-      },
-      {
-        "id": "wifi-unifi-u7-pro",
-        "currency": "USD",
-        "amount": 189,
-        "before": 5982,
-        "after": 5982,
-        "rate": 31.649299
-      },
-      {
-        "id": "wifi-unifi-u6-pro",
-        "currency": "USD",
-        "amount": 159,
-        "before": 5032,
-        "after": 5032,
-        "rate": 31.649299
-      },
-      {
-        "id": "wifi-unifi-u7-lite",
-        "currency": "USD",
-        "amount": 99,
-        "before": 3133,
-        "after": 3133,
-        "rate": 31.649299
-      },
-      {
-        "id": "wifi-unifi-u6-plus",
-        "currency": "USD",
-        "amount": 129,
-        "before": 4083,
-        "after": 4083,
-        "rate": 31.649299
-      },
-      {
-        "id": "wifi-unifi-u7-pro-max",
-        "currency": "USD",
-        "amount": 279,
-        "before": 8830,
-        "after": 8830,
-        "rate": 31.649299
-      }
-    ]
+    "historicalLows": [],
+    "foreignConversions": []
   },
   "sourceAudit": {
     "checkedProductIds": [
@@ -7675,7 +8032,27 @@
       "wifi-unifi-u7-pro-max",
       "wifi-xiaomi-ax3000-1pack",
       "wifi-xiaomi-ax3000-2pack",
-      "wifi-zyxel-usg-lite-60ax"
+      "wifi-zyxel-usg-lite-60ax",
+      "monitor-light-asus-alb01",
+      "monitor-light-benq-iscreenbar",
+      "monitor-light-benq-screenbar",
+      "monitor-light-benq-screenbar-halo2",
+      "monitor-light-benq-screenbar-pro",
+      "monitor-light-elesense-e1129",
+      "monitor-light-elesense-e1132",
+      "monitor-light-elesense-e1133",
+      "monitor-light-kinyo-pced-805",
+      "monitor-light-kinyo-pced-855",
+      "monitor-light-philips-pd052",
+      "monitor-light-quntis-f45bk",
+      "monitor-light-quntis-f51bk",
+      "monitor-light-quntis-fr52gy",
+      "monitor-light-quntis-g66bk",
+      "monitor-light-quntis-i51gy",
+      "monitor-light-quntis-i66bk",
+      "monitor-light-quntis-ims45bk",
+      "monitor-light-xiaomi-mjgjd01yl",
+      "monitor-light-yeelight-yltd003"
     ],
     "verifiedAvailableIds": [
       "aircon-daikin-ftxm36zvlt-rxm36zvlt",
@@ -8359,7 +8736,27 @@
       "wifi-unifi-u7-lite",
       "wifi-unifi-u7-pro",
       "wifi-unifi-u7-pro-max",
-      "wifi-zyxel-usg-lite-60ax"
+      "wifi-zyxel-usg-lite-60ax",
+      "monitor-light-asus-alb01",
+      "monitor-light-benq-iscreenbar",
+      "monitor-light-benq-screenbar",
+      "monitor-light-benq-screenbar-halo2",
+      "monitor-light-benq-screenbar-pro",
+      "monitor-light-elesense-e1129",
+      "monitor-light-elesense-e1132",
+      "monitor-light-elesense-e1133",
+      "monitor-light-kinyo-pced-805",
+      "monitor-light-kinyo-pced-855",
+      "monitor-light-philips-pd052",
+      "monitor-light-quntis-f45bk",
+      "monitor-light-quntis-f51bk",
+      "monitor-light-quntis-fr52gy",
+      "monitor-light-quntis-g66bk",
+      "monitor-light-quntis-i51gy",
+      "monitor-light-quntis-i66bk",
+      "monitor-light-quntis-ims45bk",
+      "monitor-light-xiaomi-mjgjd01yl",
+      "monitor-light-yeelight-yltd003"
     ],
     "exceptions": [
       {
@@ -11885,7 +12282,27 @@
       "wifi-unifi-u7-pro-max",
       "wifi-xiaomi-ax3000-1pack",
       "wifi-xiaomi-ax3000-2pack",
-      "wifi-zyxel-usg-lite-60ax"
+      "wifi-zyxel-usg-lite-60ax",
+      "monitor-light-asus-alb01",
+      "monitor-light-benq-iscreenbar",
+      "monitor-light-benq-screenbar",
+      "monitor-light-benq-screenbar-halo2",
+      "monitor-light-benq-screenbar-pro",
+      "monitor-light-elesense-e1129",
+      "monitor-light-elesense-e1132",
+      "monitor-light-elesense-e1133",
+      "monitor-light-kinyo-pced-805",
+      "monitor-light-kinyo-pced-855",
+      "monitor-light-philips-pd052",
+      "monitor-light-quntis-f45bk",
+      "monitor-light-quntis-f51bk",
+      "monitor-light-quntis-fr52gy",
+      "monitor-light-quntis-g66bk",
+      "monitor-light-quntis-i51gy",
+      "monitor-light-quntis-i66bk",
+      "monitor-light-quntis-ims45bk",
+      "monitor-light-xiaomi-mjgjd01yl",
+      "monitor-light-yeelight-yltd003"
     ],
     "verifiedIds": [
       "aircon-daikin-ftxm36zvlt-rxm36zvlt",
@@ -12810,7 +13227,27 @@
       "wifi-unifi-u7-pro-max",
       "wifi-xiaomi-ax3000-1pack",
       "wifi-xiaomi-ax3000-2pack",
-      "wifi-zyxel-usg-lite-60ax"
+      "wifi-zyxel-usg-lite-60ax",
+      "monitor-light-asus-alb01",
+      "monitor-light-benq-iscreenbar",
+      "monitor-light-benq-screenbar",
+      "monitor-light-benq-screenbar-halo2",
+      "monitor-light-benq-screenbar-pro",
+      "monitor-light-elesense-e1129",
+      "monitor-light-elesense-e1132",
+      "monitor-light-elesense-e1133",
+      "monitor-light-kinyo-pced-805",
+      "monitor-light-kinyo-pced-855",
+      "monitor-light-philips-pd052",
+      "monitor-light-quntis-f45bk",
+      "monitor-light-quntis-f51bk",
+      "monitor-light-quntis-fr52gy",
+      "monitor-light-quntis-g66bk",
+      "monitor-light-quntis-i51gy",
+      "monitor-light-quntis-i66bk",
+      "monitor-light-quntis-ims45bk",
+      "monitor-light-xiaomi-mjgjd01yl",
+      "monitor-light-yeelight-yltd003"
     ],
     "exceptions": []
   },
@@ -15923,5 +16360,6 @@
       }
     ]
   },
-  "officialDiscontinuedCandidates": []
+  "officialDiscontinuedCandidates": [],
+  "auditScope": "added_products_only"
 }

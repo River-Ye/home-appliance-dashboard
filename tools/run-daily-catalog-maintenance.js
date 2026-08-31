@@ -16,6 +16,8 @@ const {
 } = require("./pchome-product-api");
 const { normalizeExchangeDate } = require("./update-maintenance-metadata");
 const { readDashboardProducts } = require("./read-dashboard-products");
+const { CHECKED_AT } = require("./verified-product-issues");
+const { readEvidenceDocuments, resolveIssueEvidenceDate } = require("./incremental-catalog-audit");
 const {
   buildJapaneseBrandReview,
   sameCatalogIdentity,
@@ -47,6 +49,9 @@ if (WRITE && !/^\d{4}-\d{2}-\d{2}$/.test(MAINTENANCE_DATE)) {
   throw new Error("--write requires --date=YYYY-MM-DD");
 }
 if (WRITE && DRAFT) throw new Error("Choose either --write or --draft");
+if (process.argv.some((argument) => /^--audit-scope(?:=|$)/.test(argument))) {
+  throw new Error("maintain:catalog performs a full audit and does not accept an incremental scope");
+}
 
 function readProductSource(source, filename) {
   let categoryId = null;
@@ -823,7 +828,7 @@ function syncHistoricalResearch(products, exchange, compact) {
 function selectPreviousCategoryReview(reports, maintenanceDate) {
   const candidates = reports.filter((report) => {
     const reportDate = report.dataDate;
-    return reportDate === maintenanceDate && Array.isArray(report.categoryScan);
+    return report.auditScope === undefined && reportDate === maintenanceDate && Array.isArray(report.categoryScan);
   });
   if (candidates.length === 0) return { rows: [], sourceCheckedAt: null };
 
@@ -922,7 +927,8 @@ function carriedCategoryReviewMatchesCatalog({
 }
 
 function maintenanceReviewReady(report, maintenanceDate, catalogContext = null) {
-  const structurallyReady = report?.dataDate === maintenanceDate
+  const structurallyReady = report?.auditScope === undefined
+    && report?.dataDate === maintenanceDate
     && Array.isArray(report.categoryScan)
     && report.categoryScan.length > 0
     && report.categoryScan.every((row) => categoryReviewReady(row, report.checkedAt, maintenanceDate));
@@ -1179,7 +1185,7 @@ function buildCompactReport({ catalog, baselineById, raw, exchange, checkedAt, c
     schemaVersion: 3,
     dataDate: MAINTENANCE_DATE,
     checkedAt,
-    baselineRef: BASELINE_REF,
+    baselineRef: raw.baselineRef || BASELINE_REF,
     policy: {
       exactModelOrReviewedSourceBindingOnly: true,
       trustedNewProductsOnly: true,
@@ -1265,13 +1271,16 @@ async function main() {
   const catalog = loadCatalogFromDisk();
   if (catalog.products.length === 0 || catalog.categories.length === 0) throw new Error("Catalog is empty");
   const categoryDefinitions = readDashboardProducts(ROOT).categories;
-  const baselineById = loadCatalogFromGit(BASELINE_REF, catalog.categories.map((category) => category.fileName));
+  const baselineRef = execFileSync("git", ["rev-parse", "--verify", "--end-of-options", `${BASELINE_REF}^{commit}`], { cwd: ROOT, encoding: "utf8" }).trim();
+  const baselineById = loadCatalogFromGit(baselineRef, catalog.categories.map((category) => category.fileName));
+  // Full price maintenance may carry existing issue evidence, but cannot relabel or rewrite it.
+  resolveIssueEvidenceDate(ROOT, { baselineRef, dataDate: MAINTENANCE_DATE }, catalog.products, readEvidenceDocuments(ROOT), CHECKED_AT);
   const checkedAt = new Date().toISOString();
   const raw = {
     schemaVersion: 3,
     dataDate: MAINTENANCE_DATE,
     checkedAt,
-    baselineRef: BASELINE_REF,
+    baselineRef,
     sourceRows: [],
     imageRows: [],
     historicalRows: [],
