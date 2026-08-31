@@ -1896,9 +1896,9 @@
     "name": "HERAN HI-SL36 / HO-SL36 一對一分離式變頻冷專",
     "price": {
       "currency": "TWD",
-      "amount": 36000,
-      "converted": 36000,
-      "confidence": "玉明電器 exact-pair 完整室內外機新品公開價 2026-08-14 可公開重現現價；型號與室內外機完整組合已核對",
+      "amount": 26500,
+      "converted": 26500,
+      "confidence": "2026-08-31 人工核對 玉明電器 exact-pair 完整室內外機新品公開價 HI-SL36 / HO-SL36 公開可購主價 TWD 26,500；已區分劃線原價、同頁其他 SKU、配件、分期與個人化回饋。",
       "basis": "retailer_current",
       "scope": "complete_system"
     },
@@ -2020,9 +2020,9 @@
     "name": "HERAN HI-SL41R / HO-SL41R 一對一分離式變頻冷專",
     "price": {
       "currency": "TWD",
-      "amount": 36400,
-      "converted": 36400,
-      "confidence": "玉明電器 exact-pair 完整室內外機新品公開價 2026-08-14 可公開重現現價；型號與室內外機完整組合已核對",
+      "amount": 28800,
+      "converted": 28800,
+      "confidence": "2026-08-31 人工核對 玉明電器 exact-pair 完整室內外機新品公開價 HI-SL41R / HO-SL41R 公開可購主價 TWD 28,800；已區分劃線原價、同頁其他 SKU、配件、分期與個人化回饋。",
       "basis": "retailer_current",
       "scope": "complete_system"
     },
@@ -2144,9 +2144,9 @@
     "name": "HERAN HI-SL80 / HO-SL80 一對一分離式變頻冷專",
     "price": {
       "currency": "TWD",
-      "amount": 57900,
-      "converted": 57900,
-      "confidence": "玉明電器 exact-pair 完整室內外機新品公開價 2026-08-14 可公開重現現價；型號與室內外機完整組合已核對",
+      "amount": 46300,
+      "converted": 46300,
+      "confidence": "2026-08-31 人工核對 玉明電器 exact-pair 完整室內外機新品公開價 HI-SL80 / HO-SL80 公開可購主價 TWD 46,300；已區分劃線原價、同頁其他 SKU、配件、分期與個人化回饋。",
       "basis": "retailer_current",
       "scope": "complete_system"
     },

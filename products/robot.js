@@ -210,7 +210,7 @@
       "currency": "TWD",
       "amount": 34980,
       "converted": 34980,
-      "confidence": "Momo 2026-08-25 exact-model 台灣公司貨新品公開價",
+      "confidence": "2026-08-31 人工查核：Saros 20 Sonic 顯示 NT$33,980，但實際購買控制為『開賣通知我』『9/1 00:00 開賣』；本輪 8/31 尚未可購。保留原紀錄價 34,980，低價僅追蹤，不改現價或史低。",
       "basis": "retailer_current"
     },
     "installation": {
@@ -1355,8 +1355,8 @@
     "price": {
       "currency": "EUR",
       "amount": 1099,
-      "converted": 40389,
-      "confidence": "Narwal 德國官方 2026-08-28 exact-model 標準套裝公開價 €1,099，目前所有變體售罄；ExchangeRate-API 2026-08-30 匯率換算"
+      "converted": 40337,
+      "confidence": "Narwal 德國官方 2026-08-28 exact-model 標準套裝公開價 €1,099，目前所有變體售罄；ExchangeRate-API 2026-08-31 匯率換算"
     },
     "image": "https://de.narwal.com/cdn/shop/files/narwal-flow-2-saugroboter-mit-selbstreinigung-9224922_1200x1200.png?v=1781597108",
     "buyUrl": "https://de.narwal.com/products/narwal-flow-2-saugroboter-mit-selbstreinigung?variant=52366680523028",
@@ -1452,8 +1452,8 @@
     "price": {
       "currency": "USD",
       "amount": 551.69,
-      "converted": 17468,
-      "confidence": "Geekbuying 2026-07-21 來源價；ExchangeRate-API 2026-08-30 匯率換算"
+      "converted": 17461,
+      "confidence": "Geekbuying 2026-07-21 來源價；ExchangeRate-API 2026-08-31 匯率換算"
     },
     "image": "https://img.gkbcdn.com/p/2025-04-11/Narwal-Freo-Z10-Ultra-Robot-Vacuum-with-Base-Station-Gray-528438-0._w315_.jpg",
     "buyUrl": "https://www.geekbuying.com/item/Narwal-Freo-Z10-Ultra-Robot-Vacuum-with-Base-Station-Gray-528438.html",
@@ -2596,8 +2596,8 @@
     "price": {
       "currency": "USD",
       "amount": 999.99,
-      "converted": 31662,
-      "confidence": "SharkNinja US 2026-07-21 來源價；ExchangeRate-API 2026-08-30 匯率換算"
+      "converted": 31649,
+      "confidence": "SharkNinja US 2026-07-21 來源價；ExchangeRate-API 2026-08-31 匯率換算"
     },
     "image": "https://assets.sharkninja.com/image/upload/f_auto/q_auto/SharkNinja-NA/RV2820ZE_01.jpg",
     "buyUrl": "https://www.sharkninja.com/shark-powerdetect-2-in-1-robot-vacuum-and-mop-with-nevertouch-pro-base/RV2820ZE.html",
@@ -2790,8 +2790,8 @@
     "price": {
       "currency": "USD",
       "amount": 399.99,
-      "converted": 12665,
-      "confidence": "Costco US 2026-07-21 最後可驗證價；2026-08-15 exact-model 頁顯示 Unavailable；ExchangeRate-API 2026-08-30 匯率換算"
+      "converted": 12659,
+      "confidence": "Costco US 2026-07-21 最後可驗證價；2026-08-15 exact-model 頁顯示 Unavailable；ExchangeRate-API 2026-08-31 匯率換算"
     },
     "image": "https://bfasset.costco-static.com/U447IH35/as/tkj772p4357mmh3bwz8kcq/1791272-847__1?auto=webp&format=jpg",
     "buyUrl": "https://www.costco.com/p/-/roborock-qx-revo-robot-vacuum-and-mop-with-multifunctional-dock/4000233271",
@@ -3605,9 +3605,9 @@
     "name": "5300Pa LiDAR 自動集塵掃拖機器人",
     "price": {
       "currency": "TWD",
-      "amount": 6888,
-      "converted": 6888,
-      "confidence": "momo 購物網於 2026-08-20 的 exact-model 台灣公司貨新品頁公開價 NT$6,888",
+      "amount": 7999,
+      "converted": 7999,
+      "confidence": "2026-08-31 人工查核：Tapo RV30 Max Plus 整套主價 NT$7,999、低庫存 3 組，直接購買／購物車可用；排除 RV50 與耗材推薦價。",
       "basis": "retailer_current"
     },
     "installation": {
@@ -3990,6 +3990,104 @@
       "遠端鏡頭",
       "4cm越障",
       "85°C熱水洗布"
+    ]
+  },
+  {
+    "id": "robot-hitachi-rv-x20p",
+    "category": "robot",
+    "rank": 42,
+    "topPick": false,
+    "budget": "value",
+    "channel": "tw",
+    "brand": "HITACHI",
+    "model": "RV-X20P",
+    "name": "LDS 雷射濕拖掃地機器人（香檳金／無自動集塵）",
+    "price": {
+      "currency": "TWD",
+      "amount": 6099,
+      "converted": 6099,
+      "basis": "retailer_current",
+      "confidence": "信源電器 3cu 2026-08-31 exact-model 公開售價；原頁 JSON-LD TWD6099／InStock，香檳金變體庫存3件，is_preorder=false、sold_out=false；未扣LINE會員購物金或回饋，實際出貨依通路確認。"
+    },
+    "installation": {
+      "status": "not_stated",
+      "note": "含原廠充電底座與電源供應器；通路未明列到府設定服務。底座置於硬質水平地面，前方保留1.5m、左右各0.5m，使用獨立110V插座，水箱與拖布由使用者手動維護。"
+    },
+    "image": "https://img.shoplineapp.com/media/image_clips/691575d90fcefd9c855f48f0/original.png?1763014105=&owner_id=660818d6bfec170041bd5ec5",
+    "buyUrl": "https://www.3cu.com.tw/products/rvx20prvx20p",
+    "buyLabel": "信源電器（台灣原廠授權通路）",
+    "specs": [
+      "LDS 雷射導航；HomeDirect App，最多保存5張地圖",
+      "最高吸力5,000Pa、4段吸力；電子水量控制，越障最高2cm",
+      "集塵盒0.4L、水箱0.3L；無自動集塵站，拖布須手動清洗",
+      "電池14.4V／5.0Ah；安靜模式最長250分鐘，標準模式180分鐘，超強模式65分鐘",
+      "充電時間6–7.5小時；Wi-Fi 2.4GHz，802.11b/g/n",
+      "充電底座尺寸：寬15.5 x 深14.6 x 高9cm；官方本體只列342 x 94.5mm，未標示完整三軸順序與淨重",
+      "原廠配件包含充電底座、電源供應器、拖地工具、拖布、邊刷、濾網與清潔刷",
+      "電源供應器 ZD024D240100US：輸入100–240V／50–60Hz，輸出24V DC／1A；台灣說明書指定獨立110V插座"
+    ],
+    "description": "HITACHI RV-X20P 是台灣官方仍列示的基礎雷射掃拖款，附小型充電底座但沒有自動集塵、洗布或烘布。以日立台灣公司貨與六千元級公開價補足入門品牌比較，不把它描述為2026新發表或技術旗艦。",
+    "pros": [
+      "LDS 地圖導航與 App 分區、水量、吸力調整可供基本日常掃拖",
+      "小型充電底座不需大型洗烘基座或固定給排水",
+      "台灣官方 exact-model 說明書、相容電力及可信通路新品庫存可核對"
+    ],
+    "cons": [
+      "每次仍需手動倒塵、加水與清洗拖布，自動化程度低於同價位部分集塵款",
+      "最高續航是安靜模式條件，超強模式約65分鐘，不能同時當成最大吸力續航",
+      "通路未單列本型號保固年限；購前應確認隨附保證書、耗材型號與供貨"
+    ],
+    "bestFor": "偏好日立台灣售後、只需基礎雷射掃拖，且可接受自行倒塵與洗布的家庭。",
+    "recommendation": "日系品牌入門比較款，不列 Top Pick。重視品牌售後可納入比較；若更在意少做家務，應同時比較相近價位的自動集塵款。購前向通路確認庫存、保固年限與拖布／濾網供應。",
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-08-31",
+      "note": "已查信源電器 RV-X20P exact-model NT$6,099 現價、樂天秀翔 NT$6,480 及 FindPrice、BigGo、比價撿便宜的同型號比價／歷史入口。比較頁混有 RV-X20DPA、耗材及拍賣，搜尋舊快照與相對時間降價敘述不能證明可重現的同型號新品歷史最低價；未取得具日期的可靠歷史價格序列，不以 NT$6,099 現價推定史低。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-08-31",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"RV-X20P\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22RV-X20P%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "PTT",
+          "query": "site:ptt.cc \"RV-X20P\"",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22RV-X20P%22",
+          "targetHost": "ptt.cc"
+        },
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"RV-X20P\"",
+          "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22RV-X20P%22",
+          "targetHost": "reddit.com"
+        }
+      ]
+    },
+    "score": 80,
+    "voltage": "原廠電源供應器100–240V／50–60Hz，輸出24V DC／1A；台灣說明書指定獨立110V插座",
+    "warranty": "台灣信源電器通路；依隨附原廠保證書，商品頁未明載本型號保固年限，下單前須確認",
+    "tags": [
+      "日系品牌",
+      "LDS雷射導航",
+      "台灣公司貨",
+      "手動集塵",
+      "基礎濕拖"
     ]
   }
 ]);

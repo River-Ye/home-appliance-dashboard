@@ -1454,9 +1454,9 @@
     "name": "高彈力人體工學網椅",
     "price": {
       "currency": "TWD",
-      "amount": 5890,
-      "converted": 5890,
-      "confidence": "PChome 2026-08-04 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 6800,
+      "converted": 6800,
+      "confidence": "PChome 2026-08-31 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DQBJ0AA900JSBYX/000001_1780972580.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DQBJ0A-A900JSBYX",
@@ -2328,9 +2328,10 @@
     "name": "T36 人體工學椅",
     "price": {
       "currency": "TWD",
-      "amount": 6641,
-      "converted": 6641,
-      "confidence": "PCPARTY 2026-08-04 exact-model 結構化公開現貨價"
+      "amount": 6470,
+      "converted": 6470,
+      "confidence": "2026-08-31 人工核對 PC PARTY i-Rocks T36 主商品公開特價 NT$6,470；藍、灰、綠三變體同價且非預購，未採會員限定價格。",
+      "basis": "retailer_current"
     },
     "image": "https://img.shoplineapp.com/media/image_clips/6a3bb7831f653f80a5328a3b/original.jpg?1782298499=&owner_id=58463ef36170691735790100",
     "buyUrl": "https://www.pcparty.com.tw/en/products/i-rocks-i-rocks-t36",

@@ -117,10 +117,11 @@
       "currency": "TWD",
       "amount": 17766,
       "converted": 17766,
-      "confidence": "Yahoo購物中心 2026-08-14 exact-model 公開結構化價格"
+      "basis": "retailer_current",
+      "confidence": "Yahoo購物中心 2026-08-31 10:33 人工核對賣場11705976、MWP269TMT雲霧白新品；公開滿888享94折，單件達門檻，活動折後NT$17,766，活動細則至2026-08-31 11:59截止。未扣點數、信用卡或個人化回饋；促銷結束後需重新確認。"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBJ02A900J1WEX/000001_1753093870.jpg",
-    "buyUrl": "https://tw.buy.yahoo.com/gdsale/Whirlpool-%E6%83%A0%E8%80%8C%E6%B5%A6-26L-MWP269TMT-%E9%9B%B2%E9%9C%A7%E7%99%BD-%E8%AE%8A%E9%A0%BB%E6%B0%A3%E7%82%B8%E8%92%B8%E7%83%A4%E5%BE%AE%E6%B3%A2%E7%88%90-8%E5%90%881-Chef-12003584.html",
+    "buyUrl": "https://tw.buy.yahoo.com/gdsale/Whirlpool%E6%83%A0%E8%80%8C%E6%B5%A6-Coloris%E7%B3%BB%E5%88%97-26%E5%85%AC%E5%8D%878%E5%90%88%E4%B8%80%E5%85%A8%E8%83%BD%E8%AE%8A%E9%A0%BB%E6%B0%A3%E7%82%B8%E8%92%B8%E7%83%A4%E5%BE%AE%E6%B3%A2%E7%88%90-%E9%9B%B2%E9%9C%A7%E7%99%BD-MWP2-11705976.html",
     "buyLabel": "Yahoo購物中心",
     "specs": [
       "26L",
@@ -410,8 +411,8 @@
     "price": {
       "currency": "USD",
       "amount": 499.95,
-      "converted": 15830,
-      "confidence": "Breville 官方 2026-07-21 來源價；ExchangeRate-API 2026-08-30 匯率換算"
+      "converted": 15823,
+      "confidence": "Breville 官方 2026-07-21 來源價；ExchangeRate-API 2026-08-31 匯率換算"
     },
     "image": "https://assets.breville.com/cdn-cgi/image/width=1300,format=auto/BOV950/BOV950BSS1BUS1/pdp3.png?pdp=",
     "buyUrl": "https://www.breville.com/en-us/product/bov950",
@@ -1683,9 +1684,9 @@
     "name": "過熱水蒸氣烘烤微波爐",
     "price": {
       "currency": "TWD",
-      "amount": 21534,
-      "converted": 21534,
-      "confidence": "Yahoo購物中心 2026-07-21 頁面公開價"
+      "amount": 22908,
+      "converted": 22908,
+      "confidence": "Yahoo購物中心 2026-08-31 exact-model 公開結構化價格"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBJ031900I80DM/000001_1778655849.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/HITACHI-%E6%97%A5%E7%AB%8B-%E9%81%8E%E7%86%B1%E6%B0%B4%E8%92%B8%E6%B0%A3%E7%83%98%E7%83%A4%E5%BE%AE%E6%B3%A2%E7%88%90-%E7%88%B5%E8%89%B2%E9%BB%91-MROS800AT-11995105.html",
@@ -1781,9 +1782,9 @@
     "name": "過熱水蒸氣烘烤微波爐",
     "price": {
       "currency": "TWD",
-      "amount": 45748,
-      "converted": 45748,
-      "confidence": "Yahoo購物中心 2026-07-21 頁面公開價"
+      "amount": 48668,
+      "converted": 48668,
+      "confidence": "Yahoo購物中心 2026-08-31 exact-model 公開結構化價格"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBJ5PA900GN8PM/000001_1750840663.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/HITACHI-%E6%97%A5%E7%AB%8B-%E9%81%8E%E7%86%B1%E6%B0%B4%E8%92%B8%E6%B0%A3%E7%83%98%E7%83%A4%E5%BE%AE%E6%B3%A2%E7%88%90-MROBK5000AT-11995474.html",
@@ -2278,9 +2279,10 @@
     "name": "Crispi 5.5qt 氣炸微波爐",
     "price": {
       "currency": "USD",
-      "amount": 449.99,
-      "converted": 14248,
-      "confidence": "SharkNinja 美國官方 2026-07-21 商品頁現貨價；ExchangeRate-API 2026-08-30 匯率換算"
+      "amount": 399.99,
+      "converted": 12659,
+      "confidence": "2026-08-31 人工核對 SharkNinja 美國官方 MW101 公開可購主價 USD 399.99；已區分劃線原價、同頁其他 SKU、配件、分期與個人化回饋。；ExchangeRate-API 2026-08-31 匯率換算",
+      "basis": "retailer_current"
     },
     "image": "https://assets.sharkninja.com/image/upload/f_auto/q_auto/SharkNinja-NA/MW101_01.jpg",
     "buyUrl": "https://www.sharkninja.com/ninja-crispi-microwave/MW101.html",

@@ -743,9 +743,9 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/1f2a33ce70-Gd-10053955.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 43563,
-      "converted": 43563,
-      "confidence": "Yahoo購物中心 2026-08-29 exact-model 公開結構化價格"
+      "amount": 44910,
+      "converted": 44910,
+      "confidence": "Yahoo購物中心 2026-08-31 exact-model 公開結構化價格"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心",
@@ -2916,9 +2916,9 @@
     "name": "17公斤 Heat Pump 智慧聯網洗脫烘（夜幕黑）",
     "price": {
       "currency": "TWD",
-      "amount": 54800,
-      "converted": 54800,
-      "confidence": "myfone 購物 2026-08-14 exact-model 夜幕黑新品頁公開網路價；牌價 NT$64,900",
+      "amount": 55990,
+      "converted": 55990,
+      "confidence": "2026-08-31 人工核對 myfone 商品P0000203670244，Panasonic NA-V170RPH-K 夜幕黑網路限定價 NT$55,990，含基本定位安裝；額外施工與搬運依通路規則。未採白色款或定價。",
       "basis": "retailer_current"
     },
     "image": "https://www.myfone.com.tw/website_twmf/uploads_product/website_2041/036/699/ECP0204103669957_1_20458150.jpg",

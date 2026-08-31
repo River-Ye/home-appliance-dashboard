@@ -314,9 +314,10 @@
     "name": "27KG 57 吋鋁合金氣壓式螢幕支架",
     "price": {
       "currency": "TWD",
-      "amount": 2634,
-      "converted": 2634,
-      "confidence": "momo購物 2026-07-15 晚間頁面查核價"
+      "amount": 3099,
+      "converted": 3099,
+      "confidence": "2026-08-31 人工查核：T101-12U 27kg 57 吋款主價 NT$3,099、低庫存 2 組，直接購買／購物車可用；不是低承重其他型號。",
+      "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DCBB69A900INQG2/000001_1745485048.jpg",
     "buyUrl": "https://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=13989541",
@@ -1106,9 +1107,10 @@
     "name": "LX Pro 桌上型單螢幕支架",
     "price": {
       "currency": "TWD",
-      "amount": 6800,
-      "converted": 6800,
-      "confidence": "momo購物 2026-07-11 頁面查核價"
+      "amount": 6120,
+      "converted": 6120,
+      "confidence": "2026-08-31 人工查核：LX Pro 標準單螢幕支架，08/03–08/31 滿 1 件 9 折，頁面折後價 NT$6,120（原促銷 6,800），直接購買／購物車可用；不以其他加高款比價。",
+      "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DGBJPWA900IO3XY/000001_1745568644.jpg",
     "buyUrl": "https://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=15317771",
@@ -1205,9 +1207,10 @@
     "name": "17-32 吋 8KG 氣壓式舒適螢幕懸臂支架",
     "price": {
       "currency": "TWD",
-      "amount": 1532,
-      "converted": 1532,
-      "confidence": "momo 2026-07-21 頁面公開價"
+      "amount": 1910,
+      "converted": 1910,
+      "confidence": "2026-08-31 人工查核：JTSA101 主價 1,990，08/03–08/31 滿 1 件 96 折；展開『下單再折』可見折扣 80、折後 NT$1,910，直接購買／購物車可用。未點擊購物。",
+      "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DCAX3NA900HNTHZ/000001_1724123200.jpg",
     "buyUrl": "https://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=13335412",
@@ -1304,9 +1307,10 @@
     "name": "17-32 吋 8KG/臂 雙螢幕氣壓式懸臂支架",
     "price": {
       "currency": "TWD",
-      "amount": 2302,
-      "converted": 2302,
-      "confidence": "momo 2026-07-21 頁面公開價"
+      "amount": 2720,
+      "converted": 2720,
+      "confidence": "2026-08-31 人工查核：JTSA102 主價 2,990，08/03–08/31 滿 1 件 91 折；展開『下單再折』可見折扣 270、折後 NT$2,720，直接購買／購物車可用。未點擊購物。",
+      "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DCAX3NA900HNTEF/000001_1724123227.jpg",
     "buyUrl": "https://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=13335413",
@@ -2121,14 +2125,14 @@
       "status": "found",
       "amount": 282,
       "currency": "GBP",
-      "converted": 12100,
+      "converted": 12090,
       "sourceUrl": "https://pricespy.co.uk/product.php?p=16273588",
       "sourceTitle": "PriceSpy UK：Dell HDA26 Single Monitor Arm",
       "evidenceSnippet": "PriceSpy exact-model 頁的 Price History 明示新品最低價 £282，且商品名稱、品牌與 GTIN 對應 Dell HDA26。",
       "sourceKind": "price_history",
       "confidence": "medium",
       "checkedAt": "2026-08-25",
-      "note": "採英國市場 exact-model 公開價格歷史並依 2026-08-30 GBP/TWD 匯率換算；未含國際運費、進口稅、退換貨與台灣保固風險，不能直接視為台灣到手價。"
+      "note": "採英國市場 exact-model 公開價格歷史並依 2026-08-31 GBP/TWD 匯率換算；未含國際運費、進口稅、退換貨與台灣保固風險，不能直接視為台灣到手價。"
     },
     "issueResearch": {
       "status": "no_common_issue",

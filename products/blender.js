@@ -397,9 +397,10 @@
     "name": "Professional Plus Blender",
     "price": {
       "currency": "USD",
-      "amount": 119.99,
-      "converted": 3799,
-      "confidence": "SharkNinja 官方 2026-07-21 來源價；ExchangeRate-API 2026-08-30 匯率換算"
+      "amount": 99.98,
+      "converted": 3164,
+      "confidence": "2026-08-31 人工核對 SharkNinja 官方 BN701 公開可購主價 USD 99.98；已區分劃線原價、同頁其他 SKU、配件、分期與個人化回饋。；ExchangeRate-API 2026-08-31 匯率換算",
+      "basis": "retailer_current"
     },
     "image": "https://ak1.ostkcdn.com/images/products/is/images/direct/d1c25153baa2aa99eae7831be826d2a51d87c485/Ninja-BN701-Professional-Plus-Blender-with-Auto-iQ.jpg",
     "buyUrl": "https://www.sharkninja.com/ninja-professional-plus-blender-with-auto-iq/BN701.html",
@@ -580,9 +581,10 @@
     "name": "VITA PREP3 多功能營養調理機",
     "price": {
       "currency": "TWD",
-      "amount": 24300,
-      "converted": 24300,
-      "confidence": "momo 2026-07-30 exact-model 公開限時折後價"
+      "amount": 24900,
+      "converted": 24900,
+      "confidence": "2026-08-31 人工查核：VITA PREP 3 台灣公司貨，08/19–08/31 滿 1 件折 2,100，頁面折後 NT$24,900；直接購買／購物車可用。不採另列的保險或個資同意。",
+      "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAY9TA900G068X/000001_1782790517.jpg",
     "buyUrl": "https://www.momoshop.com.tw/product/622427",

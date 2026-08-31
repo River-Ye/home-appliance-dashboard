@@ -2128,8 +2128,8 @@
     "price": {
       "currency": "USD",
       "amount": 289.99,
-      "converted": 9182,
-      "confidence": "Costco US 2026-08-28 exact-model 分類頁折後公開價；ExchangeRate-API 2026-08-30 匯率換算"
+      "converted": 9178,
+      "confidence": "Costco US 2026-08-28 exact-model 分類頁折後公開價；ExchangeRate-API 2026-08-31 匯率換算"
     },
     "image": "https://bfasset.costco-static.com/U447IH35/as/4xjr3phfqx7p9vvxzfhp3jp/100457228-847_chrome_1?auto=webp&format=jpg",
     "buyUrl": "https://www.costco.com/p/-/brondell-circle-reverse-osmosis-water-filtration-system/100457228",
@@ -2165,14 +2165,14 @@
       "status": "found",
       "amount": 289.99,
       "currency": "USD",
-      "converted": 9182,
+      "converted": 9178,
       "sourceUrl": "https://www.costco.com/CategoryDisplay?catalogId=10701&identifier=water-dispensers-filtration-water-filtration&storeId=10301",
       "sourceTitle": "Costco US：Brondell Circle Reverse Osmosis Water Filtration System",
       "evidenceSnippet": "Costco US exact-model 分類頁於 2026-08-28 顯示 Brondell Circle 折後 US$289.99，原價 US$369.99，優惠 US$80。",
       "sourceKind": "retailer_promo",
       "confidence": "medium",
       "checkedAt": "2026-08-28",
-      "note": "採 Costco US 公開 exact-model 折價作為本次可重現最低觀測價；未含國際運費、進口稅、耗材與台灣安裝／保固風險；依 2026-08-30 USD/TWD 匯率換算。"
+      "note": "採 Costco US 公開 exact-model 折價作為本次可重現最低觀測價；未含國際運費、進口稅、耗材與台灣安裝／保固風險；依 2026-08-31 USD/TWD 匯率換算。"
     },
     "issueResearch": {
       "status": "common_issue",

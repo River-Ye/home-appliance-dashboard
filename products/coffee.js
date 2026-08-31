@@ -1302,9 +1302,10 @@
     "name": "1公升極致美味500 半自動義式咖啡機（不鏽鋼觸控式）",
     "price": {
       "currency": "TWD",
-      "amount": 4690,
-      "converted": 4690,
-      "confidence": "伊萊克斯台灣官方 2026-08-04 exact-model 公開新品價；台灣公司貨／原廠通路"
+      "amount": 7990,
+      "converted": 7990,
+      "confidence": "2026-08-31 人工核對 Electrolux 台灣官方 E5EC1-51ST 主商品售價 NT$7,990，頁面標示有現貨並可加到購物車；不採推薦區不同型號或福利品價格。",
+      "basis": "retailer_current"
     },
     "image": "https://www.electrolux.com.tw/globalassets/appliances/coffee-machine/e5ec1-51st/e5ec1-51st-fr-1500x1500.png?width=1200&height=630",
     "buyUrl": "https://www.electrolux.com.tw/appliances/coffee-machines/e5ec1-51st/",
@@ -1731,9 +1732,10 @@
     "name": "the Bambino 半自動義式咖啡機",
     "price": {
       "currency": "TWD",
-      "amount": 8300,
-      "converted": 8300,
-      "confidence": "momo 購物網｜Breville 台灣總代理公司貨 2026-08-04 exact-model 公開新品價；台灣公司貨／原廠通路"
+      "amount": 12800,
+      "converted": 12800,
+      "confidence": "2026-08-31 人工核對 momo 品號14547707，BES450XL 金屬銀總代理公司貨公開促銷價 NT$12,800；頁面載入完成後可直接購買或放入購物車。未扣點數、信用卡或個人化優惠。",
+      "basis": "retailer_current"
     },
     "image": "https://storage.googleapis.com/uni-splendor.appspot.com/images/p/4ef71aab-221e-42be-80b7-67676515bb0d.png",
     "buyUrl": "https://www.momoshop.com.tw/product/14547707",
@@ -2267,9 +2269,10 @@
     "name": "the Barista Pro 專業級複合式研磨義式咖啡機",
     "price": {
       "currency": "TWD",
-      "amount": 29300,
-      "converted": 29300,
-      "confidence": "momo 購物網｜Breville 台灣總代理公司貨 2026-08-04 exact-model 公開新品價；台灣公司貨／原廠通路"
+      "amount": 32000,
+      "converted": 32000,
+      "confidence": "2026-08-31 人工核對 momo 品號14956869，BES878XL 雪花白總代理公司貨公開促銷價 NT$32,000；頁面載入完成後可直接購買或放入購物車。未扣點數、信用卡或個人化優惠。",
+      "basis": "retailer_current"
     },
     "image": "https://storage.googleapis.com/uni-splendor.appspot.com/images/p/6cf71d58-a653-465a-a6c3-7089f7f37314.png",
     "buyUrl": "https://www.momoshop.com.tw/product/14956869",

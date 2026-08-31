@@ -1,12 +1,12 @@
 {
   "summary": {
     "checkedAt": "2026-08-31T00:00:00+08:00",
-    "total": 920,
+    "total": 921,
     "found": 266,
-    "missing": 654,
+    "missing": 655,
     "byConfidence": {
       "official": 178,
-      "not_found": 654,
+      "not_found": 655,
       "retailer_explicit": 22,
       "credible_article": 52,
       "high": 12,
@@ -28298,6 +28298,60 @@
       "auditQueries": [
         "\"HDFF168CV\" \"上市\"",
         "site:hitachi-homeappliances.com.tw \"HDFF168CV\" 新聞"
+      ]
+    },
+    {
+      "id": "robot-hitachi-rv-x20p",
+      "category": "robot",
+      "brand": "HITACHI",
+      "model": "RV-X20P",
+      "name": "LDS 雷射濕拖掃地機器人（香檳金／無自動集塵）",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "query": "\"RV-X20P\" \"上市\"",
+      "sourceKind": "not_found_after_manual_review",
+      "reason": "已查日立台灣 exact-model 產品／規格及官方說明書，並搜尋明確上市或發售公告。官方頁未明載發售日；說明書檔名240828、2025年目錄、Mobile01開箱發布或擁有日期、通路上架／新品標籤都不是正式上市證據，不推定年月。",
+      "checkedAt": "2026-08-31",
+      "auditDisposition": "confirmed_not_found",
+      "checkedSources": [
+        {
+          "url": "https://hitachi-homeappliances.com.tw/products/products_feature.php?pid=RVX20P",
+          "title": "HITACHI 台灣 RV-X20P 產品特色與規格",
+          "outcome": "確認現行 exact model、配件及功能；未明載上市日期。"
+        },
+        {
+          "url": "https://hitachi-homeappliances.com.tw/products/products_compare.php?gid=B05&prod=RVX20P",
+          "title": "HITACHI 台灣 RV-X20P 規格比較",
+          "outcome": "確認規格及建議售價，不把現行產品列示視為發售公告。"
+        },
+        {
+          "url": "https://hitachi-homeappliances.com.tw/image/hsct/service/download/manual/RV-X20P%20%28EN-TW%29_240828.pdf",
+          "title": "HITACHI RV-X20P 官方中英文說明書",
+          "outcome": "下載、文字核對並渲染第46–47頁；檔名日期不可當上市日。"
+        },
+        {
+          "url": "https://www.3cu.com.tw/products/rvx20prvx20p",
+          "title": "信源電器 RV-X20P/RVX20P exact-model 商品頁",
+          "outcome": "確認公開NT$6,099及現貨香檳金變體3件；售完為止只是售罄截止描述，沒有正式上市日期。"
+        },
+        {
+          "url": "https://www.rakuten.com.tw/shop/ss3c/product/RV-X20P/",
+          "title": "樂天秀翔 RV-X20P exact SKU",
+          "outcome": "確認現售新品價格與庫存，並無可採用上市日期。"
+        },
+        {
+          "url": "https://www.mobile01.com/topicdetail.php?f=728&t=7134766",
+          "title": "日立掃地機器人RV-X20P開箱",
+          "outcome": "2025-06-20開箱及一個多月使用敘述只能證明當時持有，不作上市日。"
+        }
+      ],
+      "auditQueries": [
+        "\"HITACHI\" \"RV-X20P\" 上市 發售",
+        "\"RV-X20P\" \"上市\" \"日立\""
       ]
     }
   ]

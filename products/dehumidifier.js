@@ -2444,9 +2444,9 @@
     "name": "UltimateHome 300 10L 清淨除濕機",
     "price": {
       "currency": "TWD",
-      "amount": 10900,
-      "converted": 10900,
-      "confidence": "Electrolux 台灣官方商城於 2026-08-20 的 exact-model 可購公開售價 NT$10,900",
+      "amount": 12900,
+      "converted": 12900,
+      "confidence": "2026-08-31 人工查核：Electrolux 台灣官方 ED1031WD 晨曦白主價 NT$12,900，明示『有現貨』『加到購物車』；排除相似產品 PA91-606GY 與其他除濕機。",
       "basis": "retailer_current"
     },
     "installation": {

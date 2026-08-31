@@ -1,9 +1,9 @@
 {
   "summary": {
     "checkedAt": "2026-08-31T00:00:00+08:00",
-    "total": 920,
+    "total": 921,
     "commonIssueProducts": 40,
-    "noCommonIssueProducts": 880,
+    "noCommonIssueProducts": 881,
     "pendingManualReview": 0,
     "commonIssues": 41,
     "searchUnavailable": 621,
@@ -22343,8 +22343,7 @@
         "canonicalModel": "AC-M25-SC",
         "lookupLabel": "Xiaomi AC-M25-SC",
         "aliases": [
-          "Xiaomi AC-M25-SC",
-          "米家智慧空氣清淨機 6 AC-M25-SC"
+          "Xiaomi AC-M25-SC"
         ],
         "evidenceUrl": "https://www.momoshop.com.tw/product/15189670"
       },
@@ -33193,6 +33192,227 @@
       ],
       "evidence": [],
       "rejectedCandidates": []
+    },
+    {
+      "id": "robot-hitachi-rv-x20p",
+      "category": "robot",
+      "brand": "HITACHI",
+      "model": "RV-X20P",
+      "name": "LDS 雷射濕拖掃地機器人（香檳金／無自動集塵）",
+      "identity": {
+        "canonicalModel": "RV-X20P",
+        "lookupLabel": "HITACHI RV-X20P",
+        "aliases": [
+          "HITACHI RV-X20P"
+        ],
+        "evidenceUrl": "https://www.3cu.com.tw/products/rvx20prvx20p"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "status": "completed",
+        "decision": "no_common_issue",
+        "reviewedAt": "2026-08-31",
+        "checkedPlatforms": [
+          "Mobile01",
+          "PTT",
+          "Reddit"
+        ],
+        "queries": [
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"RV-X20P\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22RV-X20P%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "mobile01.com"
+          },
+          {
+            "platform": "PTT",
+            "query": "site:ptt.cc \"RV-X20P\"",
+            "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22RV-X20P%22",
+            "targetHost": "ptt.cc"
+          },
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"RV-X20P\"",
+            "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22RV-X20P%22",
+            "targetHost": "reddit.com"
+          }
+        ],
+        "candidateDisposition": "RV-X20P：人工覆核 Mobile01 兩串共三頁原文；開箱作者的正面心得、代工猜測、購前耗材問題，以及 RV-X20DPA／RVDX1T 的使用經驗均不能計入本型號同問題故障作者。PTT、Reddit exact-model 搜尋未出現可覆核候選。未達至少6位且跨2站的同問題門檻。",
+        "representativeSources": [
+          {
+            "platform": "Mobile01",
+            "title": "日立掃地機器人RV-X20P開箱",
+            "url": "https://www.mobile01.com/topicdetail.php?f=728&t=7134766"
+          },
+          {
+            "platform": "Mobile01",
+            "title": "日立掃地機器人RV-X20P開箱 (第2頁)",
+            "url": "https://www.mobile01.com/topicdetail.php?f=728&p=2&t=7134766"
+          },
+          {
+            "platform": "Mobile01",
+            "title": "[請益]日立濕拖掃地機器人RV-X20DPA好不好用？",
+            "url": "https://www.mobile01.com/topicdetail.php?f=728&t=7077088"
+          }
+        ],
+        "candidateReviews": [
+          {
+            "url": "https://www.mobile01.com/topicdetail.php?f=728&t=7134766",
+            "title": "日立掃地機器人RV-X20P開箱",
+            "platform": "Mobile01",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-08-31",
+            "sourceExcerpt": "眉似月火的 RV-X20P 開箱描述一個多月基本掃拖與路徑使用滿意；CyouKei_ZERO 討論日本 minimaru 停產，wind0083 談本人另一台日立無線吸塵器耗材成本。",
+            "independentAuthors": 0,
+            "specificReason": "已人工核對第1至10樓及附屬回文。正面開箱不是故障；日本 minimaru、無線吸塵器均不是 RV-X20P；代工批評及沙發高度提問沒有本型號第一人稱故障事實。獨立作者數指可計入同問題災情者，不是整頁留言人數。"
+          },
+          {
+            "url": "https://www.mobile01.com/topicdetail.php?f=728&p=2&t=7134766",
+            "title": "日立掃地機器人RV-X20P開箱 (第2頁)",
+            "platform": "Mobile01",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-08-31",
+            "sourceExcerpt": "第11樓 shock-q 猜測代工來源；第12樓 iauder220 表示仍在觀望並詢問半年使用與耗材購買；第13樓 rjfinte 提醒比較掃地機技術與性價比。",
+            "independentAuthors": 0,
+            "specificReason": "已逐則讀第11至13樓。三則均未提出本人持有 RV-X20P 後的具體故障；購前找不到耗材資訊不能改寫成已有使用者遭遇耗材斷供，也不與第一頁重複累計作者。"
+          },
+          {
+            "url": "https://www.mobile01.com/topicdetail.php?f=728&t=7077088",
+            "title": "[請益]日立濕拖掃地機器人RV-X20DPA好不好用？",
+            "platform": "Mobile01",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-08-31",
+            "sourceExcerpt": "此串主題為 RV-X20DPA；Eyou 說明自動集塵款的空間分割與集塵袋疑問。眉似月火回文談自己的 X20P 基本掃拖順暢；Anteros.W 另貼越南 RV-X20P 官方頁。",
+            "independentAuthors": 0,
+            "specificReason": "原頁確有 RV-X20P 文字，因此保留人工處置；Eyou 的基座集塵袋與 App 經驗屬 RV-X20DPA，首文舊機抱怨屬 RVDX1T，不套用 P。眉似月火與另一開箱是同一作者且非故障，越南選購留言也非第一人稱故障。"
+          }
+        ],
+        "reviewerNote": "RV-X20P：2026-08-31 重新以完整 canonical model 跨 Mobile01、PTT、Reddit 查詢，人工閱讀可辨識候選兩串三頁及回覆。沒有符合本型號同問題、6位獨立使用者且跨2個原始網站的集中故障證據。no_common_issue 不代表完全沒有負評；代工或品牌耐用印象不作產品可靠度保證。",
+        "attestation": "manual_original_pages_reviewed"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-08-31",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"RV-X20P\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22RV-X20P%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "mobile01.com"
+          },
+          {
+            "platform": "PTT",
+            "query": "site:ptt.cc \"RV-X20P\"",
+            "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22RV-X20P%22",
+            "targetHost": "ptt.cc"
+          },
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"RV-X20P\"",
+            "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22RV-X20P%22",
+            "targetHost": "reddit.com"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"RV-X20P\" (災情 OR 問題 OR 故障 OR 負評)",
+          "searchUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22RV-X20P%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "result": "candidates_unverified_by_search_only",
+          "candidateUrls": [
+            "https://www.mobile01.com/topicdetail.php?f=728&t=7134766",
+            "https://www.mobile01.com/topicdetail.php?f=728&p=2&t=7134766",
+            "https://www.mobile01.com/topicdetail.php?f=728&t=7077088"
+          ],
+          "inspectedAt": "2026-08-31T02:05:56Z",
+          "resultCount": 3,
+          "candidates": [
+            {
+              "url": "https://www.mobile01.com/topicdetail.php?f=728&t=7134766",
+              "title": "日立掃地機器人RV-X20P開箱",
+              "snippet": "眉似月火的 RV-X20P 開箱描述一個多月基本掃拖與路徑使用滿意；CyouKei_ZERO 討論日本 minimaru 停產，wind0083 談本人另一台日立無線吸塵器耗材成本。",
+              "exactModel": true
+            },
+            {
+              "url": "https://www.mobile01.com/topicdetail.php?f=728&p=2&t=7134766",
+              "title": "日立掃地機器人RV-X20P開箱 (第2頁)",
+              "snippet": "第11樓 shock-q 猜測代工來源；第12樓 iauder220 表示仍在觀望並詢問半年使用與耗材購買；第13樓 rjfinte 提醒比較掃地機技術與性價比。",
+              "exactModel": true
+            },
+            {
+              "url": "https://www.mobile01.com/topicdetail.php?f=728&t=7077088",
+              "title": "[請益]日立濕拖掃地機器人RV-X20DPA好不好用？",
+              "snippet": "此串主題為 RV-X20DPA；Eyou 說明自動集塵款的空間分割與集塵袋疑問。眉似月火回文談自己的 X20P 基本掃拖順暢；Anteros.W 另貼越南 RV-X20P 官方頁。",
+              "exactModel": true
+            }
+          ]
+        },
+        {
+          "platform": "PTT",
+          "query": "site:ptt.cc \"RV-X20P\"",
+          "searchUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22RV-X20P%22",
+          "result": "no_exact_model_result",
+          "candidateUrls": [],
+          "inspectedAt": "2026-08-31T02:05:56Z",
+          "resultCount": 0,
+          "candidates": []
+        },
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"RV-X20P\"",
+          "searchUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22RV-X20P%22",
+          "result": "no_exact_model_result",
+          "candidateUrls": [],
+          "inspectedAt": "2026-08-31T02:05:56Z",
+          "resultCount": 0,
+          "candidates": []
+        }
+      ],
+      "evidence": [],
+      "rejectedCandidates": [
+        {
+          "url": "https://www.mobile01.com/topicdetail.php?f=728&t=7134766",
+          "title": "日立掃地機器人RV-X20P開箱",
+          "platform": "Mobile01",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-31",
+          "sourceExcerpt": "眉似月火的 RV-X20P 開箱描述一個多月基本掃拖與路徑使用滿意；CyouKei_ZERO 討論日本 minimaru 停產，wind0083 談本人另一台日立無線吸塵器耗材成本。",
+          "independentAuthors": 0,
+          "specificReason": "已人工核對第1至10樓及附屬回文。正面開箱不是故障；日本 minimaru、無線吸塵器均不是 RV-X20P；代工批評及沙發高度提問沒有本型號第一人稱故障事實。獨立作者數指可計入同問題災情者，不是整頁留言人數。",
+          "reason": "已人工核對第1至10樓及附屬回文。正面開箱不是故障；日本 minimaru、無線吸塵器均不是 RV-X20P；代工批評及沙發高度提問沒有本型號第一人稱故障事實。獨立作者數指可計入同問題災情者，不是整頁留言人數。"
+        },
+        {
+          "url": "https://www.mobile01.com/topicdetail.php?f=728&p=2&t=7134766",
+          "title": "日立掃地機器人RV-X20P開箱 (第2頁)",
+          "platform": "Mobile01",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-31",
+          "sourceExcerpt": "第11樓 shock-q 猜測代工來源；第12樓 iauder220 表示仍在觀望並詢問半年使用與耗材購買；第13樓 rjfinte 提醒比較掃地機技術與性價比。",
+          "independentAuthors": 0,
+          "specificReason": "已逐則讀第11至13樓。三則均未提出本人持有 RV-X20P 後的具體故障；購前找不到耗材資訊不能改寫成已有使用者遭遇耗材斷供，也不與第一頁重複累計作者。",
+          "reason": "已逐則讀第11至13樓。三則均未提出本人持有 RV-X20P 後的具體故障；購前找不到耗材資訊不能改寫成已有使用者遭遇耗材斷供，也不與第一頁重複累計作者。"
+        },
+        {
+          "url": "https://www.mobile01.com/topicdetail.php?f=728&t=7077088",
+          "title": "[請益]日立濕拖掃地機器人RV-X20DPA好不好用？",
+          "platform": "Mobile01",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-31",
+          "sourceExcerpt": "此串主題為 RV-X20DPA；Eyou 說明自動集塵款的空間分割與集塵袋疑問。眉似月火回文談自己的 X20P 基本掃拖順暢；Anteros.W 另貼越南 RV-X20P 官方頁。",
+          "independentAuthors": 0,
+          "specificReason": "原頁確有 RV-X20P 文字，因此保留人工處置；Eyou 的基座集塵袋與 App 經驗屬 RV-X20DPA，首文舊機抱怨屬 RVDX1T，不套用 P。眉似月火與另一開箱是同一作者且非故障，越南選購留言也非第一人稱故障。",
+          "reason": "原頁確有 RV-X20P 文字，因此保留人工處置；Eyou 的基座集塵袋與 App 經驗屬 RV-X20DPA，首文舊機抱怨屬 RVDX1T，不套用 P。眉似月火與另一開箱是同一作者且非故障，越南選購留言也非第一人稱故障。"
+        }
+      ]
     },
     {
       "id": "vac-dyson-v12",

@@ -106,7 +106,7 @@
       "currency": "TWD",
       "amount": 1771,
       "converted": 1771,
-      "confidence": "momo購物 2026-07-13 公開折後價"
+      "confidence": "2026-08-31 人工查核：PCF-SC15T 沙黑雖顯示單件 9 折 NT$2,061、數量 1 與到貨日期，但載入後只有『可訂購時通知我』，沒有直接購買／購物車；不以數量選單或預計到貨文字推定現售。保留原紀錄價 1,771，不因缺貨移除。"
     },
     "image": "https://cs-a.ecimg.tw/items/DSBE18A900J27XM/000001_1754619793.jpg",
     "buyUrl": "https://www.momoshop.com.tw/product/8033074",
@@ -1920,9 +1920,10 @@
     "name": "森呼吸 NEXT 自動除菌離子 3D 清淨循環扇",
     "price": {
       "currency": "TWD",
-      "amount": 5990,
-      "converted": 5990,
-      "confidence": "momo購物 2026-07-24 exact-model 商品頁公開現貨價"
+      "amount": 5690,
+      "converted": 5690,
+      "confidence": "2026-08-31 人工查核：PK-18S03T 主商品 NT$5,690，可直接購買／放入購物車；不採推薦區其他型號。",
+      "basis": "retailer_current"
     },
     "image": "https://www.tw.sharp/sites/default/files/styles/resize_640x640/public/2026-05/PK-18S03T-H.png?itok=HVyf5ufH",
     "buyUrl": "https://www.momoshop.com.tw/product/15360868",
