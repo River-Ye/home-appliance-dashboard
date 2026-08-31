@@ -1,12 +1,12 @@
 {
   "summary": {
-    "checkedAt": "2026-08-30T00:00:00+08:00",
+    "checkedAt": "2026-08-31T00:00:00+08:00",
     "total": 920,
-    "found": 267,
-    "missing": 653,
+    "found": 266,
+    "missing": 654,
     "byConfidence": {
-      "official": 179,
-      "not_found": 653,
+      "official": 178,
+      "not_found": 654,
       "retailer_explicit": 22,
       "credible_article": 52,
       "high": 12,
@@ -256,28 +256,6 @@
       "reason": "Official Sony announcement explicitly covers both model families and the 65-inch variants.",
       "checkedAt": "2026-08-28",
       "auditDisposition": "retained"
-    },
-    {
-      "id": "tv-extra-7-dpadye-1900jgoya",
-      "category": "tv",
-      "brand": "LG",
-      "model": "OLED65G5PTA",
-      "name": "65 型 OLED evo G5 零間隙藝廊系列 4K 顯示器",
-      "previousReleaseDate": "2025-01",
-      "releaseDate": "2025",
-      "sourceUrl": "https://www.lg.com/us/press-release/lg-announces-us-rollout-of-2025-oled-evo-tv-lineup",
-      "sourceTitle": "LG ANNOUNCES U.S. ROLLOUT OF 2025 OLED evo TV LINEUP",
-      "evidenceSnippet": "LG's official rollout explicitly covers the 2025 G5 series and its 65-inch size. The page gives a pre-order day but only says retail availability would follow, so this audit records the launch year only.",
-      "confidence": "official",
-      "query": "LG G5 65 official rollout 2025",
-      "auditQueries": [
-        "\"LG OLED65G5PTA\" release date launch launched available",
-        "\"LG OLED65G5PTA\" 上市 發售 開賣 推出"
-      ],
-      "sourceKind": "official_launch_announcement",
-      "reason": "Official LG rollout supports the 2025 launch year; the pre-order day was deliberately not used as the release date.",
-      "checkedAt": "2026-08-28",
-      "auditDisposition": "corrected"
     },
     {
       "id": "tv-extra-8-dpad09-a900j9faz",
@@ -28282,6 +28260,45 @@
       "reason": "Rechecked the exact model with two independent query forms and reopened the cited source. The source still supports 2026-04-24 under the launch/release evidence policy.",
       "checkedAt": "2026-08-28",
       "auditDisposition": "retained"
+    },
+    {
+      "id": "dishwasher-hitachi-hdff168cvgb",
+      "category": "dishwasher",
+      "brand": "HITACHI",
+      "model": "HDFF168CVGB",
+      "name": "16 人份獨立式洗碗機（琉璃黑）",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "query": "\"HDFF168CV\" \"上市\"",
+      "sourceKind": "not_found_after_manual_review",
+      "reason": "開啟日立台灣產品與規格頁並查 exact-model 上市／新聞；官方影片發布日、說明書檔案日期及通路「新品上市」未提供可確認之實際上市日期，不推定年月。",
+      "checkedAt": "2026-08-31",
+      "auditDisposition": "confirmed_not_found",
+      "checkedSources": [
+        {
+          "url": "https://hitachi-homeappliances.com.tw/products/products_03.php?pid=HDFF168CV",
+          "title": "日立 HDFF168CV 台灣官方產品頁",
+          "outcome": "確認16人份現行產品；未明示上市日期。"
+        },
+        {
+          "url": "https://hitachi-homeappliances.com.tw/products/products_feature.php?pid=HDFF168CV",
+          "title": "日立 HDFF168CV 官方規格及特色",
+          "outcome": "確認 X／GB 兩色與120V/60Hz；未明示上市日期。"
+        },
+        {
+          "url": "https://24h.pchome.com.tw/prod/DMBR0N-A900JXF2E",
+          "title": "PChome HDFF168CVGB 琉璃黑",
+          "outcome": "確認現售新品；不得以上架、庫存或促銷日期代替上市日。"
+        }
+      ],
+      "auditQueries": [
+        "\"HDFF168CV\" \"上市\"",
+        "site:hitachi-homeappliances.com.tw \"HDFF168CV\" 新聞"
+      ]
     }
   ]
 }

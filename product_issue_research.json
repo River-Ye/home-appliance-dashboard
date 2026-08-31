@@ -1,6 +1,6 @@
 {
   "summary": {
-    "checkedAt": "2026-08-30T00:00:00+08:00",
+    "checkedAt": "2026-08-31T00:00:00+08:00",
     "total": 920,
     "commonIssueProducts": 40,
     "noCommonIssueProducts": 880,
@@ -1070,123 +1070,6 @@
           "platform": "Yahoo Search",
           "query": "(\"Sony Y-65XR80\") (problem OR issue OR defect OR failure OR 災情 OR 故障 OR 負評) (site:mobile01.com OR site:dcard.tw OR site:ptt.cc OR site:reddit.com OR site:snbforums.com OR site:52asus.com)",
           "searchUrl": "https://search.yahoo.com/search?p=(%22Sony%20Y-65XR80%22)%20(problem%20OR%20issue%20OR%20defect%20OR%20failure%20OR%20%E7%81%BD%E6%83%85%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)%20(site%3Amobile01.com%20OR%20site%3Adcard.tw%20OR%20site%3Aptt.cc%20OR%20site%3Areddit.com%20OR%20site%3Asnbforums.com%20OR%20site%3A52asus.com)",
-          "result": "no_exact_model_result",
-          "resultCount": 0,
-          "candidateUrls": [],
-          "candidates": [],
-          "inspectedAt": "2026-08-29T00:00:00+08:00"
-        }
-      ],
-      "evidence": [],
-      "rejectedCandidates": []
-    },
-    {
-      "id": "tv-extra-7-dpadye-1900jgoya",
-      "category": "tv",
-      "brand": "LG",
-      "model": "OLED65G5PTA",
-      "name": "65 型 OLED evo G5 零間隙藝廊系列 4K 顯示器",
-      "identity": {
-        "canonicalModel": "OLED65G5PTA",
-        "lookupLabel": "LG OLED65G5PTA",
-        "aliases": [
-          "LG OLED65G5PTA"
-        ],
-        "evidenceUrl": "https://24h.pchome.com.tw/prod/DPADYE-A900JFBEC"
-      },
-      "workflowStatus": "completed",
-      "manualReview": {
-        "status": "completed",
-        "decision": "no_common_issue",
-        "reviewedAt": "2026-08-29",
-        "checkedPlatforms": [
-          "Reddit",
-          "Mobile01",
-          "PTT",
-          "Dcard",
-          "YouTube"
-        ],
-        "queries": [
-          {
-            "platform": "Reddit",
-            "query": "site:reddit.com \"LG OLED65G5PTA\" (problem OR issue OR defect OR failure)",
-            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22LG%20OLED65G5PTA%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
-            "targetHost": "reddit.com"
-          },
-          {
-            "platform": "Mobile01",
-            "query": "site:mobile01.com \"LG OLED65G5PTA\" (災情 OR 問題 OR 故障 OR 負評)",
-            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22LG%20OLED65G5PTA%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
-            "targetHost": "mobile01.com"
-          },
-          {
-            "platform": "PTT",
-            "query": "site:ptt.cc \"LG OLED65G5PTA\" (災情 OR 問題 OR 故障 OR 負評)",
-            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22LG%20OLED65G5PTA%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
-            "targetHost": "ptt.cc"
-          },
-          {
-            "platform": "Dcard",
-            "query": "site:dcard.tw \"LG OLED65G5PTA\" (災情 OR 問題 OR 故障 OR 負評)",
-            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22LG%20OLED65G5PTA%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
-            "targetHost": "dcard.tw"
-          },
-          {
-            "platform": "YouTube",
-            "query": "\"LG OLED65G5PTA\" problem issue defect failure broken 災情 故障 異常",
-            "queryUrl": "https://www.youtube.com/results?search_query=%22LG%20OLED65G5PTA%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
-            "targetHost": "youtube.com"
-          }
-        ],
-        "candidateDisposition": "OLED65G5PTA：Yahoo Search 本輪 exact-model discovery 已完成；未發現可確認的 exact-model 原頁候選，未達同一問題至少 6 人／2 個原始網站門檻（不代表完全沒有負評）。",
-        "representativeSources": [],
-        "candidateReviews": [],
-        "reviewerNote": "OLED65G5PTA：Yahoo Search 本輪 exact-model discovery 已完成；未發現可確認的 exact-model 原頁候選，未達同一問題至少 6 人／2 個原始網站門檻（不代表完全沒有負評）。",
-        "attestation": "manual_cross_site_search_reviewed_no_candidate"
-      },
-      "issueResearch": {
-        "status": "no_common_issue",
-        "checkedAt": "2026-08-29",
-        "summary": "截至查核日，查無達門檻的集中負評／災情",
-        "issues": [],
-        "checkedSources": [
-          {
-            "platform": "Reddit",
-            "query": "site:reddit.com \"LG OLED65G5PTA\" (problem OR issue OR defect OR failure)",
-            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22LG%20OLED65G5PTA%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
-            "targetHost": "reddit.com"
-          },
-          {
-            "platform": "Mobile01",
-            "query": "site:mobile01.com \"LG OLED65G5PTA\" (災情 OR 問題 OR 故障 OR 負評)",
-            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22LG%20OLED65G5PTA%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
-            "targetHost": "mobile01.com"
-          },
-          {
-            "platform": "PTT",
-            "query": "site:ptt.cc \"LG OLED65G5PTA\" (災情 OR 問題 OR 故障 OR 負評)",
-            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22LG%20OLED65G5PTA%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
-            "targetHost": "ptt.cc"
-          },
-          {
-            "platform": "Dcard",
-            "query": "site:dcard.tw \"LG OLED65G5PTA\" (災情 OR 問題 OR 故障 OR 負評)",
-            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22LG%20OLED65G5PTA%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
-            "targetHost": "dcard.tw"
-          },
-          {
-            "platform": "YouTube",
-            "query": "\"LG OLED65G5PTA\" problem issue defect failure broken 災情 故障 異常",
-            "queryUrl": "https://www.youtube.com/results?search_query=%22LG%20OLED65G5PTA%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
-            "targetHost": "youtube.com"
-          }
-        ]
-      },
-      "searchChecks": [
-        {
-          "platform": "Yahoo Search",
-          "query": "(\"LG OLED65G5PTA\") (problem OR issue OR defect OR failure OR 災情 OR 故障 OR 負評) (site:mobile01.com OR site:dcard.tw OR site:ptt.cc OR site:reddit.com OR site:snbforums.com OR site:52asus.com)",
-          "searchUrl": "https://search.yahoo.com/search?p=(%22LG%20OLED65G5PTA%22)%20(problem%20OR%20issue%20OR%20defect%20OR%20failure%20OR%20%E7%81%BD%E6%83%85%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)%20(site%3Amobile01.com%20OR%20site%3Adcard.tw%20OR%20site%3Aptt.cc%20OR%20site%3Areddit.com%20OR%20site%3Asnbforums.com%20OR%20site%3A52asus.com)",
           "result": "no_exact_model_result",
           "resultCount": 0,
           "candidateUrls": [],
@@ -22450,8 +22333,8 @@
         }
       ]
     },
-  {
-    "id": "purifier-xiaomi-ac-m25-sc",
+    {
+      "id": "purifier-xiaomi-ac-m25-sc",
       "category": "purifier",
       "brand": "Xiaomi",
       "model": "AC-M25-SC",
@@ -22466,10 +22349,10 @@
         "evidenceUrl": "https://www.momoshop.com.tw/product/15189670"
       },
       "workflowStatus": "completed",
-    "manualReview": {
-      "status": "completed",
-      "decision": "no_common_issue",
-      "reviewedAt": "2026-08-30",
+      "manualReview": {
+        "status": "completed",
+        "decision": "no_common_issue",
+        "reviewedAt": "2026-08-30",
         "checkedPlatforms": [
           "Reddit",
           "Mobile01"
@@ -22494,9 +22377,9 @@
         "reviewerNote": "AC-M25-SC：跨站 exact-model 查詢只出現不可採的跨區聚合資料，Reddit 與 Mobile01 無可確認的原始第一人稱故障候選，故保守標記查無達門檻的集中負評／災情。",
         "attestation": "manual_cross_site_search_reviewed_no_candidate"
       },
-    "issueResearch": {
-      "status": "no_common_issue",
-      "checkedAt": "2026-08-30",
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-08-30",
         "summary": "截至查核日，查無達門檻的集中負評／災情",
         "issues": [],
         "checkedSources": [
@@ -81174,6 +81057,134 @@
       ],
       "evidence": [],
       "rejectedCandidates": []
+    },
+    {
+      "id": "dishwasher-hitachi-hdff168cvgb",
+      "category": "dishwasher",
+      "brand": "HITACHI",
+      "model": "HDFF168CVGB",
+      "name": "16 人份獨立式洗碗機（琉璃黑）",
+      "identity": {
+        "canonicalModel": "HDFF168CVGB",
+        "lookupLabel": "HITACHI HDFF168CVGB",
+        "aliases": [
+          "HITACHI HDFF168CVGB"
+        ],
+        "evidenceUrl": "https://24h.pchome.com.tw/prod/DMBR0N-A900JXF2E"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "status": "completed",
+        "decision": "no_common_issue",
+        "reviewedAt": "2026-08-31",
+        "checkedPlatforms": [
+          "Mobile01",
+          "PTT"
+        ],
+        "queries": [
+          {
+            "platform": "Mobile01",
+            "query": "\"HDFF168CVGB\" site:mobile01.com",
+            "queryUrl": "https://www.google.com/search?q=%22HDFF168CVGB%22%20site%3Amobile01.com",
+            "targetHost": "mobile01.com"
+          },
+          {
+            "platform": "PTT",
+            "query": "\"HDFF168CVGB\" site:ptt.cc",
+            "queryUrl": "https://www.google.com/search?q=%22HDFF168CVGB%22%20site%3Aptt.cc",
+            "targetHost": "ptt.cc"
+          }
+        ],
+        "candidateDisposition": "HDFF168CVGB：跨 Mobile01 與 PTT exact-model 查詢；已開啟 PTT 選購文並逐則閱讀。延伸 base model 查詢的 Mobile01 只貼官方連結且討論他牌，不計入 exact GB 回報。沒有至少6位且跨2站的同問題第一人稱回報。",
+        "representativeSources": [
+          {
+            "platform": "PTT",
+            "title": "[挑選] 日立、惠而浦，獨立式洗碗機選擇？",
+            "url": "https://www.ptt.cc/bbs/E-appliance/M.1770777071.A.AF0.html"
+          }
+        ],
+        "candidateReviews": [
+          {
+            "url": "https://www.ptt.cc/bbs/E-appliance/M.1770777071.A.AF0.html",
+            "title": "[挑選] 日立、惠而浦，獨立式洗碗機選擇？",
+            "platform": "PTT",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-08-31",
+            "sourceExcerpt": "blackpigg 在商品1列出 HDFF168CVGB，文章是在下單前挑選；回覆談品牌偏好、代工及維修資訊，未陳述本人持有本型號後發生同一故障。",
+            "independentAuthors": 0,
+            "specificReason": "已人工讀原文與推文；「洗滌手臂很強」是轉述，質疑品牌或零件的推文沒有此 exact model 的第一人稱故障事實，不能計入災情作者。"
+          }
+        ],
+        "reviewerNote": "HDFF168CVGB：人工覆核 PTT 2026-02-11 選購文及 Mobile01 黑色廚房討論；未形成符合門檻之災情證據。不將泛品牌批評、他牌使用心得或僅貼官方連結計為本型號問題，結論不代表完全沒有負評。",
+        "attestation": "manual_original_pages_reviewed"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-08-31",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Mobile01",
+            "query": "\"HDFF168CVGB\" site:mobile01.com",
+            "queryUrl": "https://www.google.com/search?q=%22HDFF168CVGB%22%20site%3Amobile01.com",
+            "targetHost": "mobile01.com"
+          },
+          {
+            "platform": "PTT",
+            "query": "\"HDFF168CVGB\" site:ptt.cc",
+            "queryUrl": "https://www.google.com/search?q=%22HDFF168CVGB%22%20site%3Aptt.cc",
+            "targetHost": "ptt.cc"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "Mobile01",
+          "query": "\"HDFF168CVGB\" site:mobile01.com",
+          "searchUrl": "https://www.google.com/search?q=%22HDFF168CVGB%22%20site%3Amobile01.com",
+          "result": "no_exact_model_result",
+          "candidateUrls": [],
+          "inspectedAt": "2026-08-30T23:47:14.257640+00:00",
+          "resultCount": 0,
+          "candidates": []
+        },
+        {
+          "platform": "PTT",
+          "query": "\"HDFF168CVGB\" site:ptt.cc",
+          "searchUrl": "https://www.google.com/search?q=%22HDFF168CVGB%22%20site%3Aptt.cc",
+          "result": "candidates_unverified_by_search_only",
+          "candidateUrls": [
+            "https://www.ptt.cc/bbs/E-appliance/M.1770777071.A.AF0.html"
+          ],
+          "inspectedAt": "2026-08-30T23:47:14.257640+00:00",
+          "resultCount": 1,
+          "candidates": [
+            {
+              "url": "https://www.ptt.cc/bbs/E-appliance/M.1770777071.A.AF0.html",
+              "title": "[挑選] 日立、惠而浦，獨立式洗碗機選擇？",
+              "snippet": "選購文列商品1 HDFF168CVGB，非購後第一人稱故障回報。",
+              "exactModel": true
+            }
+          ]
+        }
+      ],
+      "evidence": [],
+      "rejectedCandidates": [
+        {
+          "url": "https://www.ptt.cc/bbs/E-appliance/M.1770777071.A.AF0.html",
+          "title": "[挑選] 日立、惠而浦，獨立式洗碗機選擇？",
+          "platform": "PTT",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-08-31",
+          "sourceExcerpt": "blackpigg 在商品1列出 HDFF168CVGB，文章是在下單前挑選；回覆談品牌偏好、代工及維修資訊，未陳述本人持有本型號後發生同一故障。",
+          "independentAuthors": 0,
+          "specificReason": "已人工讀原文與推文；「洗滌手臂很強」是轉述，質疑品牌或零件的推文沒有此 exact model 的第一人稱故障事實，不能計入災情作者。",
+          "reason": "已人工讀原文與推文；「洗滌手臂很強」是轉述，質疑品牌或零件的推文沒有此 exact model 的第一人稱故障事實，不能計入災情作者。"
+        }
+      ]
     },
     {
       "id": "waterheater-rinnai-rua-d1620wf",

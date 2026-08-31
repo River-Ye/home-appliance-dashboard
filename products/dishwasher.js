@@ -2234,9 +2234,9 @@
     "name": "60 公分 15 人份 AirDry 獨立式洗碗機",
     "price": {
       "currency": "TWD",
-      "amount": 21599,
-      "converted": 21599,
-      "confidence": "Costco 好市多 2026-08-17 exact-model 公開結構化價格"
+      "amount": 26999,
+      "converted": 26999,
+      "confidence": "Costco 好市多 2026-08-31 exact-model 公開結構化價格"
     },
     "image": "https://www.costco.com.tw/medias/sys_master/images/heb/hf0/379632229416990.webp",
     "buyUrl": "https://www.costco.com.tw/Televisions-Appliances/Kitchen-Appliances/Dishwashers-Dish-Dryers/Electrolux-60cm-UltimateCare-300-AirDry-Freestanding-Dishwasher/p/155128",
@@ -2959,6 +2959,98 @@
           "query": "\"Bosch SMV4ECX00X\" problem issue defect failure broken 災情 故障 異常",
           "queryUrl": "https://www.youtube.com/results?search_query=%22Bosch%20SMV4ECX00X%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
           "targetHost": "youtube.com"
+        }
+      ]
+    }
+  },
+  {
+    "id": "dishwasher-hitachi-hdff168cvgb",
+    "category": "dishwasher",
+    "brand": "HITACHI",
+    "model": "HDFF168CVGB",
+    "name": "16 人份獨立式洗碗機（琉璃黑）",
+    "rank": 30,
+    "budget": "premium",
+    "channel": "tw",
+    "price": {
+      "currency": "TWD",
+      "amount": 39468,
+      "converted": 39468,
+      "basis": "retailer_current",
+      "confidence": "PChome 24h 2026-08-31 exact-model SKU DMBR0N-A900JXF2E 公開售價；API Qty 5，原頁有加入購物車與立即購買，不含信用卡及點數回饋。"
+    },
+    "image": "https://cs-a.ecimg.tw/items/DMBR0NA900JXF2E/000001_1786589992.jpg",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DMBR0N-A900JXF2E",
+    "buyLabel": "PChome 24h（含運／拆箱定位）",
+    "installation": {
+      "status": "not_stated",
+      "note": "PChome 原頁僅明載含運與拆箱定位，未明確包含水電接管或基本安裝；規格表為 120V／60Hz，官方安裝圖要求鄰近 110V 接地三孔插座且不可使用延長線；進排水、櫥櫃修改及額外材料須下單前評估與報價。"
+    },
+    "specs": [
+      "獨立式、16 人份；8 大洗程，40–70°C 水溫控制",
+      "Surround Wash 迴旋洗臂、家庭安心洗區、可調整魔術餐具籃",
+      "自動開門烘乾；BLDC 變頻馬達，官方噪音 43dBA",
+      "尺寸：寬 59.8 x 深 60 x 高 85 cm",
+      "開門尺寸：寬 59.8 x 深 115 x 高 85 cm；高度含上蓋 3cm",
+      "安裝空間：嵌入櫥櫃需預留寬至少 60cm、深至少 63cm；門全開需預留 120cm，實際依現場丈量評估",
+      "重量：57.4kg（琉璃黑 GB 淨重）",
+      "120V / 60Hz、1200W；需接地插座及進水／排水",
+      "官方標示耗電量 1.01kWh、用水量 9.9L，實際依洗程及環境而異"
+    ],
+    "description": "HITACHI HDFF168CVGB 是台灣正式販售的 16 人份獨立式洗碗機，提供自動開門烘乾與可調整餐具籃；琉璃黑款為單一代表型號，不另以銀色變體重複湊數。",
+    "pros": [
+      "16 人份與可調整餐具籃能容納家庭鍋碗及中式餐具",
+      "提供深鍋奶瓶清洗區、8 種洗程及自動開門烘乾",
+      "台灣官方 exact-model 規格、PChome 新品現貨與原廠保固可核對"
+    ],
+    "cons": [
+      "機身開門深度 115cm 不等於安裝淨空；門全開需預留 120cm，嵌櫃深至少 63cm，非免安裝桌上機",
+      "規格是 120V／60Hz，應先由合格人員確認插座與配線條件",
+      "含運與拆箱定位不代表包含水電施工，接管與櫥櫃調整可能加價"
+    ],
+    "bestFor": "有獨立式 60cm 洗碗機空間、重視大容量和黑色面板的家庭。",
+    "recommendation": "補齊日立台灣洗碗機代表款；以 16 人份容量、家庭安心洗區與原廠售後作比較，不列為低門檻 Top Pick。先核對 120V 供電、接地、進排水及自動開門淨空，再確認施工費用。",
+    "score": 86,
+    "voltage": "120V / 60Hz、1200W；需合格接地插座與進排水",
+    "warranty": "台灣公司貨；原廠全機保固 1 年（依原廠保固條款）",
+    "tags": [
+      "16人份",
+      "獨立式",
+      "自動開門",
+      "120V",
+      "台灣公司貨"
+    ],
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-08-31",
+      "note": "已查 PChome exact-model 現價、FindPrice 同型號比價及比價撿便宜價格搜尋；搜尋所列 Yahoo 37,100 元是舊活動頁，混合銀色 X／黑色 GB 的最低起價與會員、折價券、回饋不能當琉璃黑史低。未找到可追溯日期且同型號同安裝範圍的歷史紀錄，現價不推定為史低。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-08-31",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Mobile01",
+          "query": "\"HDFF168CVGB\" site:mobile01.com",
+          "queryUrl": "https://www.google.com/search?q=%22HDFF168CVGB%22%20site%3Amobile01.com",
+          "targetHost": "mobile01.com"
+        },
+        {
+          "platform": "PTT",
+          "query": "\"HDFF168CVGB\" site:ptt.cc",
+          "queryUrl": "https://www.google.com/search?q=%22HDFF168CVGB%22%20site%3Aptt.cc",
+          "targetHost": "ptt.cc"
         }
       ]
     }

@@ -1,7 +1,7 @@
 const reportLedger = require("../product_issue_report_evidence.json");
 const { canonicalWebsite, normalize } = require("./product-issue-validation");
 
-const CHECKED_AT = "2026-08-30";
+const CHECKED_AT = "2026-08-31";
 const DEFAULT_EVIDENCE_CHECKED_AT = "2026-08-29";
 const REVIEW_DATE_PATTERN = /^\d{4}-\d{2}-\d{2}$/;
 

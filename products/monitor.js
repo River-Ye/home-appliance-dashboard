@@ -2277,9 +2277,9 @@
     "name": "27 型 WQHD 360Hz QD-OLED 電競螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 18333,
-      "converted": 18333,
-      "confidence": "Yahoo購物中心 2026-08-29 exact-model 公開結構化價格"
+      "amount": 18900,
+      "converted": 18900,
+      "confidence": "Yahoo購物中心 2026-08-31 exact-model 公開結構化價格"
     },
     "image": "https://cs-a.ecimg.tw/items/DSBC1ZA900HE04M/000001_1757303897.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/MSI%E5%BE%AE%E6%98%9F-MPG-271QRX-QD-OLED-27%E5%9E%8B-2K-360Hz-HDR%E9%9B%BB%E7%AB%B6%E8%9E%A2%E5%B9%95-10958143.html",
@@ -5496,7 +5496,7 @@
     "recommendation": "Panasonic 日系螢幕補強：雙模式規格清楚且官方現售，但不因品牌直接取代既有 Top Pick。",
     "score": 89,
     "voltage": "原廠適配器輸出 19V／3.42A；BSMI 驗證登錄 R31417、證書 CI315064175992；台灣官方公司貨",
-    "warranty": "Panasonic 台灣公司貨；期限依官方商城與保證書",
+    "warranty": "Panasonic 台灣公司貨；自購買日起 3 年全機保固，依 2026-07-01 官方公告，線材等配件耗損不含在延長範圍",
     "tags": [
       "27吋",
       "4K 160Hz",

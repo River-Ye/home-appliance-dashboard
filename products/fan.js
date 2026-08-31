@@ -2036,9 +2036,9 @@
     "name": "14 吋 DC 直流遙控立扇",
     "price": {
       "currency": "TWD",
-      "amount": 1679,
-      "converted": 1679,
-      "confidence": "Costco 好市多 2026-08-19 exact-model 公開結構化價格"
+      "amount": 2099,
+      "converted": 2099,
+      "confidence": "Costco 好市多 2026-08-31 exact-model 公開結構化價格"
     },
     "image": "https://www.costco.com.tw/medias/sys_master/images/h33/h32/333377590099998.jpg",
     "buyUrl": "https://www.costco.com.tw/Televisions-Appliances/Cooling-Heating-Air-Treatment/Heating-Cooling/Airmate-14-inch-DC-Inverter-Stand-Fan-FS35150R/p/149335",

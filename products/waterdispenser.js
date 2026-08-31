@@ -221,9 +221,9 @@
     "image": "https://cs-a.ecimg.tw/items/DMAW25A900G453U/000001_1781668075.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 8333,
-      "converted": 8333,
-      "confidence": "Yahoo購物中心 2026-08-29 exact-model 公開結構化價格"
+      "amount": 8590,
+      "converted": 8590,
+      "confidence": "Yahoo購物中心 2026-08-31 exact-model 公開結構化價格"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心",
@@ -324,9 +324,9 @@
     "image": "https://cs-a.ecimg.tw/items/DMCI1NA900HIJUW/000001_1782095197.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 9108,
-      "converted": 9108,
-      "confidence": "Yahoo購物中心 2026-08-29 exact-model 公開結構化價格"
+      "amount": 9900,
+      "converted": 9900,
+      "confidence": "Yahoo購物中心 2026-08-31 exact-model 公開結構化價格"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心",
@@ -1139,9 +1139,9 @@
     "image": "https://cs-a.ecimg.tw/items/DMAWEMA900GDIXH/000001_1774485785.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 18810,
-      "converted": 18810,
-      "confidence": "PChome 2026-08-30 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 20900,
+      "converted": 20900,
+      "confidence": "PChome 2026-08-31 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -2031,9 +2031,9 @@
     "name": "廚下型飲用水加熱器",
     "price": {
       "currency": "TWD",
-      "amount": 21150,
-      "converted": 21150,
-      "confidence": "Yahoo購物中心 2026-08-29 exact-model 公開結構化價格"
+      "amount": 23500,
+      "converted": 23500,
+      "confidence": "Yahoo購物中心 2026-08-31 exact-model 公開結構化價格"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAWB8A900BVEOG/000001_1760685693.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/BWT%E5%BE%B7%E5%9C%8B%E5%80%8D%E4%B8%96-%E6%99%BA%E6%85%A7%E5%9E%8B%E6%AB%A5%E4%B8%8B%E5%8A%A0%E7%86%B1%E5%99%A8-DWH30A-9802406.html",
@@ -2128,8 +2128,8 @@
     "price": {
       "currency": "USD",
       "amount": 289.99,
-      "converted": 9180,
-      "confidence": "Costco US 2026-08-28 exact-model 分類頁折後公開價；ExchangeRate-API 2026-08-29 匯率換算"
+      "converted": 9182,
+      "confidence": "Costco US 2026-08-28 exact-model 分類頁折後公開價；ExchangeRate-API 2026-08-30 匯率換算"
     },
     "image": "https://bfasset.costco-static.com/U447IH35/as/4xjr3phfqx7p9vvxzfhp3jp/100457228-847_chrome_1?auto=webp&format=jpg",
     "buyUrl": "https://www.costco.com/p/-/brondell-circle-reverse-osmosis-water-filtration-system/100457228",
@@ -2165,14 +2165,14 @@
       "status": "found",
       "amount": 289.99,
       "currency": "USD",
-      "converted": 9180,
+      "converted": 9182,
       "sourceUrl": "https://www.costco.com/CategoryDisplay?catalogId=10701&identifier=water-dispensers-filtration-water-filtration&storeId=10301",
       "sourceTitle": "Costco US：Brondell Circle Reverse Osmosis Water Filtration System",
       "evidenceSnippet": "Costco US exact-model 分類頁於 2026-08-28 顯示 Brondell Circle 折後 US$289.99，原價 US$369.99，優惠 US$80。",
       "sourceKind": "retailer_promo",
       "confidence": "medium",
       "checkedAt": "2026-08-28",
-      "note": "採 Costco US 公開 exact-model 折價作為本次可重現最低觀測價；未含國際運費、進口稅、耗材與台灣安裝／保固風險；依 2026-08-29 USD/TWD 匯率換算。"
+      "note": "採 Costco US 公開 exact-model 折價作為本次可重現最低觀測價；未含國際運費、進口稅、耗材與台灣安裝／保固風險；依 2026-08-30 USD/TWD 匯率換算。"
     },
     "issueResearch": {
       "status": "common_issue",
@@ -2315,9 +2315,9 @@
     "name": "PREMIER 廚下冰溫瞬熱旗艦飲水機",
     "price": {
       "currency": "TWD",
-      "amount": 33120,
-      "converted": 33120,
-      "confidence": "PChome 2026-08-30 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 36800,
+      "converted": 36800,
+      "confidence": "PChome 2026-08-31 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAWI0A900ITF3M/000001_1781688918.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAWI0-A900ITF3M",

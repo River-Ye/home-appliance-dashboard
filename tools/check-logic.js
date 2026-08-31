@@ -46,6 +46,7 @@ const {
 } = require("./update-maintenance-metadata");
 const {
   applyExchangeRates,
+  auditNonPchome,
   buildCompactReport,
   categoryReviewProvenance,
   currentCategoryScan,
@@ -693,6 +694,64 @@ async function main() {
   } finally {
     global.fetch = originalFetch;
   }
+  const costcoFixture = {
+    id: "wifi-costco-stock-fixture", model: "Archer BE3600",
+    buyUrl: "https://www.costco.com.tw/router/p/154268",
+    price: { amount: 1639, converted: 1639, currency: "TWD", basis: "retailer_current" },
+    historicalLow: { status: "found", amount: 2200, converted: 2200, currency: "TWD" },
+  };
+  const costcoProductSchema = (availability, sku = "154268", amount = 2049) => ({
+    "@type": "product", sku, name: "TP-Link Archer BE3600",
+    offers: { "@type": "Offer", price: amount, priceCurrency: "TWD", availability: `http://schema.org/${availability}`, url: `https://www.costco.com.tw/p/${sku}` },
+  });
+  const runCostcoFixture = async (schemas, extraHtml = "") => {
+    const product = structuredClone(costcoFixture);
+    const raw = { sourceRows: [], structuredPriceChanges: [], historicalLowChanges: [], discontinuedCandidates: [] };
+    global.fetch = async () => new Response(`<title>TP-Link Archer BE3600</title>
+      <script type="application/ld+json">${JSON.stringify({ "@graph": schemas })}</script>${extraHtml}`,
+    { status: 200, headers: { "content-type": "text/html" } });
+    await auditNonPchome(product, raw);
+    return { product, raw };
+  };
+  try {
+    const unavailable = await runCostcoFixture([costcoProductSchema("OutOfStock")]);
+    assert(
+      unavailable.raw.sourceRows[0].status === "tracking_out_of_stock"
+        && unavailable.product.price.amount === 1639
+        && unavailable.product.historicalLow.amount === 2200
+        && unavailable.raw.structuredPriceChanges.length === 0
+        && unavailable.raw.historicalLowChanges.length === 0,
+      "Costco's own OutOfStock Offer must be tracked without rewriting the current or historical price",
+    );
+    const available = await runCostcoFixture([
+      costcoProductSchema("OutOfStock", "999999", 99),
+      costcoProductSchema("InStock"),
+    ], '<div hidden>已售完</div><template>Out of stock, coming soon</template>');
+    assert(
+      available.raw.sourceRows[0].status === "verified_available"
+        && available.product.price.amount === 2049
+        && available.raw.structuredPriceChanges.length === 1,
+      "Costco's own InStock Offer must retain its price despite hidden sold templates and another product's Offer",
+    );
+    const unrelated = await runCostcoFixture([costcoProductSchema("InStock", "999999", 99)]);
+    assert(
+      unrelated.product.price.amount === 1639 && unrelated.raw.structuredPriceChanges.length === 0,
+      "an exact model mentioned on the page must not authorize a different Costco SKU's price",
+    );
+    const noPrice = await runCostcoFixture([costcoProductSchema("OutOfStock", "154268", null)]);
+    assert(
+      noPrice.raw.sourceRows[0].status === "tracking_out_of_stock" && noPrice.product.price.amount === 1639,
+      "Costco inventory evidence must survive a missing Offer price",
+    );
+    const templateOffer = await runCostcoFixture([costcoProductSchema("InStock")],
+      `<template><script type="application/ld+json">${JSON.stringify(costcoProductSchema("OutOfStock"))}</script></template>`);
+    assert(
+      templateOffer.raw.sourceRows[0].status === "verified_available" && templateOffer.product.price.amount === 2049,
+      "inactive template JSON-LD must not override the live Costco Product Offer",
+    );
+  } finally {
+    global.fetch = originalFetch;
+  }
   const retainedDiscontinuationReview = mergeDiscontinuationReviews(
     [{ id: "oven-breville-joule", url: "https://www.breville.com/en-us/product/bov950", disposition: "manual_official_evidence_required" }],
     new Map([["oven-breville-joule", {
@@ -1015,6 +1074,15 @@ async function main() {
   assert(
     japaneseReview.find((review) => review.brand === "HITACHI")?.status === "no_relevant_line",
     "Japanese-brand audit must record an explicit no-line decision for uncovered categories",
+  );
+  for (const id of ["dishwasher", "robot"]) assert(
+    buildJapaneseBrandReview({
+      category: { id },
+      products: [],
+      baselineById: new Map(),
+      checkedAt: "2026-08-31",
+    }).find((review) => review.brand === "HITACHI")?.status === "no_eligible_taiwan_model",
+    `HITACHI ${id} is an official product line even before an eligible model is catalogued`,
   );
   const overseasJapaneseReview = buildJapaneseBrandReview({
     category: { id: "garmentcare", label: "電子衣櫥（衣物護理機）" },

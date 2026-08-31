@@ -308,9 +308,9 @@
     "name": "BE3600 雙頻 Wi-Fi 7 AiMesh 可擴充路由器",
     "price": {
       "currency": "TWD",
-      "amount": 3515,
-      "converted": 3515,
-      "confidence": "Yahoo購物中心 2026-08-30 exact-model 公開結構化價格"
+      "amount": 3699,
+      "converted": 3699,
+      "confidence": "Yahoo購物中心 2026-08-31 exact-model 公開結構化價格"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAFLPA900JKWXK/000001_1783555436.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/ASUS-%E8%8F%AF%E7%A2%A9-RT-BE58U-V2-BE3600-%E9%9B%99%E9%A0%BB-Wi-Fi-7-%E5%8F%AF%E6%93%B4%E5%85%85%E5%BC%8F%E8%B7%AF%E7%94%B1%E5%99%A8-12005854.html",
@@ -600,9 +600,9 @@
     "name": "BE5000 Wi-Fi 7 Mesh 延伸系統路由器+2衛星",
     "price": {
       "currency": "TWD",
-      "amount": 12863,
-      "converted": 12863,
-      "confidence": "PChome 2026-08-22 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 8900,
+      "converted": 8900,
+      "confidence": "PChome 2026-08-31 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAFJAA900JG5AK/000001_1763014538.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DRAFJA-A900JG5AK",
@@ -887,8 +887,8 @@
     "price": {
       "currency": "USD",
       "amount": 189,
-      "converted": 5983,
-      "confidence": "Ubiquiti Store 2026-07-21 來源價；ExchangeRate-API 2026-08-29 匯率換算"
+      "converted": 5984,
+      "confidence": "Ubiquiti Store 2026-07-21 來源價；ExchangeRate-API 2026-08-30 匯率換算"
     },
     "image": "https://cdn.ecomm.ui.com/products/fa8dd4e4-36c8-4c79-a928-22c7bff2ce29/ab5bc8a4-6135-402e-a695-e3ea5e16d3e6.png",
     "buyUrl": "https://store.ui.com/us/en/category/all-wifi/products/u7-pro",
@@ -976,8 +976,8 @@
     "price": {
       "currency": "USD",
       "amount": 159,
-      "converted": 5033,
-      "confidence": "Ubiquiti Store 2026-07-21 來源價；ExchangeRate-API 2026-08-29 匯率換算"
+      "converted": 5034,
+      "confidence": "Ubiquiti Store 2026-07-21 來源價；ExchangeRate-API 2026-08-30 匯率換算"
     },
     "image": "https://cdn.ecomm.ui.com/products/8e88b222-7a55-4cf0-8677-ae9b6347fe84/e16aa122-b5e5-4ffb-9f1a-27ee14d9ab3d.png",
     "buyUrl": "https://store.ui.com/us/en/category/all-wifi/products/u6-pro",
@@ -1093,8 +1093,8 @@
     "price": {
       "currency": "USD",
       "amount": 99,
-      "converted": 3134,
-      "confidence": "Ubiquiti Store 2026-07-21 來源價；ExchangeRate-API 2026-08-29 匯率換算"
+      "converted": 3135,
+      "confidence": "Ubiquiti Store 2026-07-21 來源價；ExchangeRate-API 2026-08-30 匯率換算"
     },
     "image": "https://cdn.ecomm.ui.com/products/253cc208-4b09-4b2e-9d1a-7aa1e8f93507/49241c96-878f-4e40-8541-c2e89c1c5e6e.png",
     "buyUrl": "https://store.ui.com/us/en/category/all-wifi/products/u7-lite",
@@ -1570,7 +1570,7 @@
       "currency": "USD",
       "amount": 129,
       "converted": 4084,
-      "confidence": "Ubiquiti Store 2026-07-21 來源價；ExchangeRate-API 2026-08-29 匯率換算"
+      "confidence": "Ubiquiti Store 2026-07-21 來源價；ExchangeRate-API 2026-08-30 匯率換算"
     },
     "image": "https://cdn.ecomm.ui.com/products/6d5c6141-e2e9-416a-b789-53e59416bb1a/853bc73b-f65b-4e59-a171-75c9a4a4615e.png",
     "buyUrl": "https://store.ui.com/us/en/category/all-wifi/products/u6-plus",
@@ -1673,8 +1673,8 @@
     "price": {
       "currency": "USD",
       "amount": 279,
-      "converted": 8832,
-      "confidence": "Ubiquiti Store 2026-07-21 來源價；ExchangeRate-API 2026-08-29 匯率換算"
+      "converted": 8834,
+      "confidence": "Ubiquiti Store 2026-07-21 來源價；ExchangeRate-API 2026-08-30 匯率換算"
     },
     "image": "https://cdn.ecomm.ui.com/products/350070a0-ae43-431b-b052-8e849c3b0a75/bad94693-bc54-4ab4-b060-9b972401941c.png",
     "buyUrl": "https://store.ui.com/us/en/category/all-wifi/products/u7-pro-max",
@@ -1767,9 +1767,9 @@
     "name": "BE6500 雙頻 Wi-Fi 7 路由器",
     "price": {
       "currency": "TWD",
-      "amount": 4741,
-      "converted": 4741,
-      "confidence": "Yahoo購物中心 2026-08-30 exact-model 公開結構化價格"
+      "amount": 4990,
+      "converted": 4990,
+      "confidence": "Yahoo購物中心 2026-08-31 exact-model 公開結構化價格"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAFLPA900IV4B6/000001_1783556530.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/ASUS-%E8%8F%AF%E7%A2%A9-RT-BE82U-WiFi-7-%E9%9B%99%E9%A0%BB-BE6500-%E8%B7%AF%E7%94%B1%E5%99%A8-%E5%88%86%E4%BA%AB%E5%99%A8-11798654.html",
@@ -3288,9 +3288,9 @@
     "name": "BE9300 三頻 Wi-Fi 7 旗艦路由器",
     "price": {
       "currency": "TWD",
-      "amount": 6990,
-      "converted": 6990,
-      "confidence": "PChome 2026-08-24 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 8700,
+      "converted": 8700,
+      "confidence": "PChome 2026-08-31 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAFJAA900IFBVA/000001_1780997121.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DRAFJA-A900IFBVA",
@@ -4721,9 +4721,9 @@
     "name": "BE19000 三頻 Wi-Fi 7 AI 電競路由器",
     "price": {
       "currency": "TWD",
-      "amount": 26591,
-      "converted": 26591,
-      "confidence": "Yahoo購物中心 2026-08-30 exact-model 公開結構化價格"
+      "amount": 27990,
+      "converted": 27990,
+      "confidence": "Yahoo購物中心 2026-08-31 exact-model 公開結構化價格"
     },
     "image": "https://dlcdnwebimgs.asus.com/gain/FF5DB299-9708-4259-ABF9-167FDC7166BD",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/%E6%98%8C%E9%81%8B%E7%9B%A3%E8%A6%96%E5%99%A8-ASUS-%E8%8F%AF%E7%A2%A9-ROG-Rapture-GT-BE19000AI-WiFi-7-%E4%B8%89%E9%A0%BB%E9%9B%BB%E7%AB%B6-12032656.html",

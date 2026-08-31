@@ -381,20 +381,40 @@ async function auditPchome(product, raw) {
   }
 }
 
-function structuredPriceCandidates(text) {
+function costcoProductId(url) {
+  try {
+    const parsed = new URL(url);
+    return parsed.hostname === "www.costco.com.tw" ? parsed.pathname.match(/\/p\/(\d+)\/?$/)?.[1] || null : null;
+  } catch (_error) {
+    return null;
+  }
+}
+
+function structuredPriceCandidates(text, productUrl) {
   const candidates = [];
-  const add = (amount, currency, source) => {
+  const costcoSku = costcoProductId(productUrl);
+  const activeHtml = text.replace(/<template\b[^>]*>[\s\S]*?<\/template>/gi, " ");
+  const add = (amount, currency, source, availability) => {
     const numeric = Number(String(amount || "").replace(/[,\s]/g, ""));
-    if (Number.isFinite(numeric) && numeric > 0) candidates.push({ amount: numeric, currency: currency || null, source });
+    const validPrice = Number.isFinite(numeric) && numeric > 0;
+    if (validPrice || availability) candidates.push({ amount: validPrice ? numeric : null, currency: currency || null, source, ...(availability ? { availability } : {}) });
   };
-  for (const match of text.matchAll(/<script[^>]+type=["']application\/ld\+json["'][^>]*>([\s\S]*?)<\/script>/gi)) {
+  for (const match of activeHtml.matchAll(/<script[^>]+type=["']application\/ld\+json["'][^>]*>([\s\S]*?)<\/script>/gi)) {
     try {
       const queue = [JSON.parse(match[1])];
       while (queue.length) {
         const value = queue.shift();
         if (Array.isArray(value)) queue.push(...value);
         else if (value && typeof value === "object") {
-          if (value.price !== undefined) add(value.price, value.priceCurrency, "json_ld");
+          if (costcoSku) {
+            if (String(value["@type"]).toLowerCase() === "product" && String(value.sku) === costcoSku) {
+              for (const offer of [value.offers].flat().filter(Boolean)) {
+                if (!offer.url || costcoProductId(offer.url) === costcoSku) {
+                  add(offer.price, offer.priceCurrency, "json_ld", offer.availability);
+                }
+              }
+            }
+          } else if (value.price !== undefined) add(value.price, value.priceCurrency, "json_ld");
           queue.push(...Object.values(value).filter((item) => item && typeof item === "object"));
         }
       }
@@ -402,10 +422,10 @@ function structuredPriceCandidates(text) {
       // Invalid third-party JSON-LD is ignored and never written automatically.
     }
   }
-  for (const match of text.matchAll(/<(?:meta|input)[^>]+(?:property|itemprop|name)=["'](?:product:price:amount|price)["'][^>]+content=["']([^"']+)["'][^>]*>/gi)) {
-    add(match[1], null, "meta");
+  for (const match of activeHtml.matchAll(/<(?:meta|input)[^>]+(?:property|itemprop|name)=["'](?:product:price:amount|price)["'][^>]+content=["']([^"']+)["'][^>]*>/gi)) {
+    if (!costcoSku) add(match[1], null, "meta");
   }
-  const unique = new Map(candidates.map((candidate) => [`${candidate.currency}:${candidate.amount}`, candidate]));
+  const unique = new Map(candidates.map((candidate) => [`${candidate.currency}:${candidate.amount}:${candidate.availability || ""}`, candidate]));
   return [...unique.values()];
 }
 
@@ -418,7 +438,8 @@ function trustedStructuredPrice(url, candidates, currency) {
   }
   const trustedHosts = new Set(["tw.buy.yahoo.com", "www.costco.com.tw"]);
   if (!trustedHosts.has(hostname)) return null;
-  const matching = candidates.filter((candidate) => candidate.currency === currency);
+  const matching = candidates.filter((candidate) => candidate.currency === currency && Number.isFinite(candidate.amount) && candidate.amount > 0
+    && (hostname !== "www.costco.com.tw" || /(?:^|\/)(?:InStock|LimitedAvailability|OnlineOnly)$/i.test(candidate.availability || "")));
   const uniqueAmounts = [...new Set(matching.map((candidate) => candidate.amount))];
   return uniqueAmounts.length === 1 ? uniqueAmounts[0] : null;
 }
@@ -428,14 +449,18 @@ async function auditNonPchome(product, raw) {
   let status;
   let exact = false;
   let excluded = false;
+  let priceCandidates = [];
   if (!page.ok) status = page.blocked ? "blocked" : "request_failed";
   else {
     exact = exactProductModelMatch(`${page.title}\n${page.text}`, product);
     excluded = isExcludedListing(page.title);
-    const unavailable = exact && isExplicitlyUnavailable(visiblePageText(page.text));
+    priceCandidates = exact && !excluded ? structuredPriceCandidates(page.text, product.buyUrl) : [];
+    const availability = priceCandidates.map((candidate) => candidate.availability || "");
+    const structuredUnavailable = availability.some((value) => /(?:^|\/)(?:OutOfStock|SoldOut|Discontinued|PreOrder|PreSale|BackOrder)$/i.test(value));
+    const structuredAvailable = availability.some((value) => /(?:^|\/)(?:InStock|LimitedAvailability|OnlineOnly)$/i.test(value));
+    const unavailable = exact && (structuredUnavailable || (!structuredAvailable && isExplicitlyUnavailable(visiblePageText(page.text))));
     status = excluded ? "excluded_listing" : unavailable ? "tracking_out_of_stock" : exact ? "verified_available" : "model_unverified";
   }
-  const priceCandidates = page.ok && exact && !excluded ? structuredPriceCandidates(page.text) : [];
   const trustedPrice = status === "verified_available"
     ? trustedStructuredPrice(product.buyUrl, priceCandidates, product.price.currency)
     : null;
@@ -1324,6 +1349,7 @@ if (require.main === module) {
 
 module.exports = {
   applyExchangeRates,
+  auditNonPchome,
   buildCompactReport,
   categoryReviewProvenance,
   currentCategoryScan,

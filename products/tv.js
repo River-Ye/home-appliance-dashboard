@@ -902,105 +902,6 @@
     }
   },
   {
-    "id": "tv-extra-7-dpadye-1900jgoya",
-    "category": "tv",
-    "rank": 10,
-    "budget": "premium",
-    "channel": "tw",
-    "brand": "LG",
-    "model": "OLED65G5PTA",
-    "name": "65 型 OLED evo G5 零間隙藝廊系列 4K 顯示器",
-    "price": {
-      "currency": "TWD",
-      "amount": 71910,
-      "converted": 71910,
-      "confidence": "PChome 2026-07-22 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
-    },
-    "image": "https://cs-a.ecimg.tw/items/DPADYE1900JGOYA/000001_1778348657.jpg",
-    "buyUrl": "https://24h.pchome.com.tw/prod/DPADYE-A900JFBEC",
-    "buyLabel": "PChome",
-    "specs": [
-      "尺寸：不含底座 寬 144.1 x 深 2.43 x 高 82.6 cm；含底座 寬 144.1 x 深 26.3 x 高 86.5–91 cm",
-      "重量：不含底座 22 kg；含底座 26.6 kg",
-      "65 吋 OLED evo",
-      "4K 120Hz",
-      "零間隙藝廊設計",
-      "AI 物聯網智慧顯示器",
-      "手機投影：AirPlay / Chromecast"
-    ],
-    "description": "LG OLED65G5PTA 是電視類的補充比較型號，依 2026-07-09 通路頁面整理售價、圖片與核心規格。",
-    "pros": [
-      "同尺寸規格可直接比價",
-      "台灣通路資訊與圖片完整"
-    ],
-    "cons": [
-      "套組贈品與活動價波動大",
-      "內建音響仍建議另搭 Soundbar"
-    ],
-    "bestFor": "想把綜合推薦之外的同尺寸或同級顯示器一起列入比價的人。",
-    "recommendation": "同類推薦：可用來橫向比較面板技術、刷新率、系統與套組價格。",
-    "score": 86,
-    "voltage": "110V 台灣通路",
-    "warranty": "依 PChome/供應商頁面",
-    "tags": [
-      "OLED",
-      "藝廊",
-      "旗艦"
-    ],
-    "releaseDate": "2025",
-    "historicalLow": {
-      "status": "found",
-      "amount": 62521,
-      "currency": "TWD",
-      "converted": 62521,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1250629133&cgp=69618",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：LG樂金 OLED65G5PTA 65 吋 OLED evo AI 4K 智慧顯示器",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Yahoo購物中心 / LG樂金 OLED65G5PTA 65 吋 OLED evo AI 4K 智慧顯示器」最低價為 NT$62,521，最低點日期 2026-04-15。",
-      "sourceKind": "price_history",
-      "confidence": "high",
-      "checkedAt": "2026-07-09",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
-    },
-    "issueResearch": {
-      "status": "no_common_issue",
-      "checkedAt": "2026-08-29",
-      "summary": "截至查核日，查無達門檻的集中負評／災情",
-      "issues": [],
-      "checkedSources": [
-        {
-          "platform": "Reddit",
-          "query": "site:reddit.com \"LG OLED65G5PTA\" (problem OR issue OR defect OR failure)",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22LG%20OLED65G5PTA%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
-          "targetHost": "reddit.com"
-        },
-        {
-          "platform": "Mobile01",
-          "query": "site:mobile01.com \"LG OLED65G5PTA\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22LG%20OLED65G5PTA%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
-          "targetHost": "mobile01.com"
-        },
-        {
-          "platform": "PTT",
-          "query": "site:ptt.cc \"LG OLED65G5PTA\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22LG%20OLED65G5PTA%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
-          "targetHost": "ptt.cc"
-        },
-        {
-          "platform": "Dcard",
-          "query": "site:dcard.tw \"LG OLED65G5PTA\" (災情 OR 問題 OR 故障 OR 負評)",
-          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22LG%20OLED65G5PTA%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
-          "targetHost": "dcard.tw"
-        },
-        {
-          "platform": "YouTube",
-          "query": "\"LG OLED65G5PTA\" problem issue defect failure broken 災情 故障 異常",
-          "queryUrl": "https://www.youtube.com/results?search_query=%22LG%20OLED65G5PTA%22%20problem%20issue%20defect%20failure%20broken%20%E7%81%BD%E6%83%85%20%E6%95%85%E9%9A%9C%20%E7%95%B0%E5%B8%B8",
-          "targetHost": "youtube.com"
-        }
-      ]
-    }
-  },
-  {
     "id": "tv-extra-8-dpad09-a900j9faz",
     "category": "tv",
     "rank": 11,
@@ -1011,9 +912,9 @@
     "name": "65 型 OLED 智慧聯網顯示器",
     "price": {
       "currency": "TWD",
-      "amount": 67977,
-      "converted": 67977,
-      "confidence": "PChome 2026-08-29 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 72072,
+      "converted": 72072,
+      "confidence": "PChome 2026-08-31 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DPAD09A900J9FAZ/000001_1761888394.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DPAD09-A900J9FAZ",
