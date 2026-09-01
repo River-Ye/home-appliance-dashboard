@@ -19,17 +19,22 @@ const {
 const { matchesPchomeProductId, selectPchomeCurrentPrice } = require("./pchome-product-api");
 const {
   AIRCON_SPEC_PREFIXES,
+  dimensionPatternForCategory,
   DIMENSION_PATTERN,
   JAPANESE_BRAND_ROSTER,
   MEASUREMENT_PRIORITY_CATEGORIES,
   NETWORK_SWITCH_SPEC_PREFIXES,
   NEW_DIMENSION_CATEGORIES,
   WEIGHT_CATEGORIES,
+  weightPatternForCategory,
   WEIGHT_PATTERN,
   WATERHEATER_SPEC_PREFIXES,
 } = require("./dashboard-contract");
 const {
   validateAirconProduct,
+  validateBeddingCatalog,
+  validateBeddingProduct,
+  measurementEvidenceSupportsSpec,
   validateNetworkSwitchProduct,
   validatePriceAndInstallationContract,
   validateWaterheaterProduct,
@@ -494,6 +499,230 @@ async function main() {
   assert(WEIGHT_PATTERN.test("重量：約 15.7 kg"), "weight contract should preserve an explicit approximate qualifier");
   assert(WEIGHT_PATTERN.test("重量：75±5 kg"), "weight contract should preserve an official plus-minus tolerance");
   assert(!WEIGHT_PATTERN.test("重量：毛重 20 kg"), "weight contract should reject gross weight");
+  assert(
+    dimensionPatternForCategory("pillow").test("尺寸：長 60 x 寬 40 x 高 12 cm"),
+    "bedding dimension contract should accept a positive labeled pillow size",
+  );
+  assert(
+    !dimensionPatternForCategory("pillow").test("尺寸：深 40 x 高 10 cm")
+      && !dimensionPatternForCategory("bedsheet").test("尺寸：長 0 x 寬 0 cm"),
+    "bedding dimension contract must require positive planar axes",
+  );
+  assert(
+    weightPatternForCategory("comforter").test("重量：涼被 1.08 kg；暖被 1.47 kg")
+      && !weightPatternForCategory("comforter").test("重量：填充物重量 0.7 kg")
+      && !weightPatternForCategory("pillow").test("重量：shipping weight 1.2 kg")
+      && !weightPatternForCategory("pillow").test("重量：0 kg"),
+    "bedding net-weight contract must reject fill, shipping and zero weights",
+  );
+
+  const mismatchedBeddingTypeFailures = [];
+  validateBeddingProduct({
+    id: "pillow-type-mismatch-fixture",
+    category: "pillow",
+    type: "latex",
+    variantFamily: "fixture",
+    model: "TYPE-MISMATCH",
+    name: "成人睡眠枕 TYPE-MISMATCH",
+    specs: [
+      "類型：記憶泡棉完整成品枕",
+      "枕型／睡姿：仰睡",
+      "表布材質：聚酯纖維",
+      "填充／核心材質：記憶泡棉",
+      "高度／軟硬度：高 10 cm／適中",
+      "尺寸：長 60 x 寬 40 x 高 10 cm",
+      "重量：1 kg",
+      "透氣／溫控：未標示",
+      "認證／產地：未標示",
+      "清潔保養：依洗標",
+    ],
+  }, mismatchedBeddingTypeFailures);
+  assert(
+    mismatchedBeddingTypeFailures.some((failure) => failure.includes("type spec")),
+    "bedding validation must reject a type enum that contradicts the visible type spec",
+  );
+
+  const mismatchedComforterFillFailures = [];
+  validateBeddingProduct({
+    id: "comforter-fill-type-mismatch-fixture",
+    category: "comforter",
+    type: "cotton",
+    variantFamily: "fixture",
+    model: "FILL-TYPE-MISMATCH",
+    name: "成人棉被 FILL-TYPE-MISMATCH",
+    specs: [
+      "類型：棉質完整被芯",
+      "組合內容：棉被 1 件",
+      "表布材質：100% 棉",
+      "填充材質：100% 聚酯纖維",
+      "填充比例／蓬鬆度：未標示",
+      "適用季節／保暖性：四季",
+      "尺寸：長 210 x 寬 180 cm",
+      "填充重量：1 kg",
+      "重量：2 kg",
+      "認證／產地：未標示",
+      "清潔保養：依洗標",
+    ],
+  }, mismatchedComforterFillFailures);
+  assert(
+    mismatchedComforterFillFailures.some((failure) => failure.includes("type spec")),
+    "comforter type must follow the filling material rather than the shell",
+  );
+
+  const excludedBeddingSetFailures = [];
+  validateBeddingProduct({
+    id: "bedsheet-duvet-set-fixture",
+    category: "bedsheet",
+    type: "cotton",
+    variantFamily: "fixture",
+    model: "DUVET-SET",
+    name: "成人床包組 DUVET-SET",
+    specs: [
+      "類型：棉質床包",
+      "組合內容：床包 1 件＋枕套 2 件＋兩用被 1 件",
+      "材質：100% 棉",
+      "織法／支數：平織",
+      "適用床墊：雙人",
+      "尺寸：長 188 x 寬 152 cm",
+      "可包覆高度：30 cm",
+      "認證／產地：未標示",
+      "清潔保養：依洗標",
+      "重量：1 kg",
+    ],
+  }, excludedBeddingSetFailures);
+  assert(
+    excludedBeddingSetFailures.some((failure) => failure.includes("approved bedding scope")),
+    "bedsheet validation must allow only the fitted sheet and optional pillowcases",
+  );
+  const englishBeddingScopeFailures = [];
+  validateBeddingProduct({
+    id: "pillow-travel-neck-fixture",
+    category: "pillow",
+    type: "memory_foam",
+    variantFamily: "travel-neck",
+    model: "TRAVEL-NECK",
+    name: "Adult Travel Neck Pillow",
+    specs: [
+      "類型：記憶泡棉完整成品枕", "枕型／睡姿：仰睡", "表布材質：聚酯纖維", "填充／核心材質：記憶泡棉", "高度／軟硬度：高 10 cm／適中",
+      "尺寸：長 60 x 寬 40 x 高 10 cm", "重量：1 kg", "透氣／溫控：未標示", "認證／產地：未標示", "清潔保養：依洗標",
+    ],
+  }, englishBeddingScopeFailures);
+  validateBeddingProduct({
+    id: "comforter-electric-blanket-fixture",
+    category: "comforter",
+    type: "synthetic",
+    variantFamily: "electric-blanket",
+    model: "ELECTRIC-BLANKET",
+    name: "Adult Electric Blanket",
+    specs: [
+      "類型：化纖完整被芯", "組合內容：棉被 1 件", "表布材質：棉", "填充材質：聚酯纖維", "填充比例／蓬鬆度：未標示", "適用季節／保暖性：冬季",
+      "尺寸：長 210 x 寬 180 cm", "填充重量：1 kg", "重量：2 kg", "認證／產地：未標示", "清潔保養：依洗標",
+    ],
+  }, englishBeddingScopeFailures);
+  assert(
+    englishBeddingScopeFailures.filter((failure) => failure.includes("approved bedding scope")).length === 2,
+    "bedding validation must exclude English travel-neck pillows and electric blankets",
+  );
+  const cervicalSleepPillowFailures = [];
+  validateBeddingProduct({
+    id: "pillow-cervical-sleep-fixture",
+    category: "pillow",
+    type: "memory_foam",
+    variantFamily: "cervical-sleep",
+    model: "CERVICAL-SLEEP",
+    name: "Ergonomic Cervical Pillow for Back and Side Sleepers",
+    specs: [
+      "類型：記憶泡棉完整成品枕", "枕型／睡姿：仰睡／側睡", "表布材質：聚酯纖維", "填充／核心材質：記憶泡棉", "高度／軟硬度：高 10 cm／適中",
+      "尺寸：長 60 x 寬 40 x 高 10 cm", "重量：1 kg", "透氣／溫控：未標示", "認證／產地：未標示", "清潔保養：依洗標",
+    ],
+  }, cervicalSleepPillowFailures);
+  assert(
+    !cervicalSleepPillowFailures.some((failure) => failure.includes("approved bedding scope")),
+    "a full-size cervical sleep pillow must not be mistaken for a travel neck pillow",
+  );
+  const zeroBeddingMeasurementFailures = [];
+  validateBeddingProduct({
+    id: "bedsheet-zero-pocket-fixture",
+    category: "bedsheet",
+    type: "cotton",
+    variantFamily: "fixture",
+    model: "ZERO-POCKET",
+    name: "成人床包 ZERO-POCKET",
+    specs: [
+      "類型：棉質床包",
+      "組合內容：床包 1 件",
+      "材質：100% 棉",
+      "織法／支數：平織",
+      "適用床墊：雙人",
+      "尺寸：長 188 x 寬 152 cm",
+      "可包覆高度：0 cm",
+      "認證／產地：未標示",
+      "清潔保養：依洗標",
+      "重量：1 kg",
+    ],
+  }, zeroBeddingMeasurementFailures);
+  validateBeddingProduct({
+    id: "comforter-zero-fill-fixture",
+    category: "comforter",
+    type: "synthetic",
+    variantFamily: "fixture",
+    model: "ZERO-FILL",
+    name: "成人棉被 ZERO-FILL",
+    specs: [
+      "類型：化纖完整被芯",
+      "組合內容：棉被 1 件",
+      "表布材質：棉",
+      "填充材質：聚酯纖維",
+      "填充比例／蓬鬆度：未標示",
+      "適用季節／保暖性：四季",
+      "尺寸：長 210 x 寬 180 cm",
+      "填充重量：0 kg",
+      "重量：1 kg",
+      "認證／產地：未標示",
+      "清潔保養：依洗標",
+    ],
+  }, zeroBeddingMeasurementFailures);
+  assert(
+    zeroBeddingMeasurementFailures.some((failure) => failure.includes("bedsheet-zero-pocket-fixture requires mattress pocket height"))
+      && zeroBeddingMeasurementFailures.some((failure) => failure.includes("comforter-zero-fill-fixture requires fill weight")),
+    "bedding pocket height and fill weight must be positive",
+  );
+  assert(
+    measurementEvidenceSupportsSpec("尺寸：寬 152 x 長 188 cm", "官方規格明示尺寸：寬 152 x 長 188 cm")
+      && !measurementEvidenceSupportsSpec("尺寸：寬 152 x 長 188 cm", "官方頁沒有提供尺寸")
+      && !measurementEvidenceSupportsSpec("可包覆高度：30 cm", "枕套寬 30 cm；可包覆高度未提供")
+      && !measurementEvidenceSupportsSpec("重量：1 kg", "僅列填充重量 1 kg；整件淨重未提供"),
+    "bedding measurement evidence must reproduce each recorded value",
+  );
+  const unsupportedBeddingTopPickFailures = [];
+  validateBeddingProduct({
+    id: "pillow-unsupported-top-pick-fixture",
+    category: "pillow",
+    type: "latex",
+    variantFamily: "fixture",
+    model: "UNSUPPORTED-TOP-PICK",
+    name: "乳膠成人睡眠枕 UNSUPPORTED-TOP-PICK",
+    channel: "tw",
+    topPick: true,
+    voltage: "不需供電。",
+    warranty: "台灣官方資料；保固與售後均未標示。",
+    specs: [
+      "類型：乳膠完整成品枕",
+      "枕型／睡姿：仰睡",
+      "表布材質：棉",
+      "填充／核心材質：乳膠",
+      "高度／軟硬度：高 10 cm／適中",
+      "尺寸：長 60 x 寬 40 x 高 10 cm",
+      "重量：1 kg",
+      "透氣／溫控：未標示",
+      "認證／產地：未標示",
+      "清潔保養：依洗標",
+    ],
+  }, unsupportedBeddingTopPickFailures);
+  assert(
+    unsupportedBeddingTopPickFailures.some((failure) => failure.includes("Taiwan after-sales")),
+    "a bedding Top Pick must name a concrete Taiwan official or after-sales channel",
+  );
   assert(NEW_DIMENSION_CATEGORIES.has("bidet"), "dimension contract should cover bidets");
   assert(MEASUREMENT_PRIORITY_CATEGORIES.has("garmentcare"), "measurement display contract should surface garment-care dimensions");
   assert(!MEASUREMENT_PRIORITY_CATEGORIES.has("monitor"), "measurement display contract should not reorder unrelated monitor specs");
@@ -1093,6 +1322,16 @@ async function main() {
   assert(
     japaneseReview.find((review) => review.brand === "HITACHI")?.status === "no_relevant_line",
     "Japanese-brand audit must record an explicit no-line decision for uncovered categories",
+  );
+  const beddingJapaneseReview = buildJapaneseBrandReview({
+    category: { id: "bedsheet", label: "床包" },
+    products: [],
+    baselineById: new Map(),
+    checkedAt: "2026-09-01",
+  });
+  assert(
+    beddingJapaneseReview.every((review) => review.reason.includes("Chrome 人工逐項檢視")),
+    "bedding Japanese-brand rows must use the manual catalog-review basis rather than a default no-line conclusion",
   );
   for (const id of ["dishwasher", "robot"]) assert(
     buildJapaneseBrandReview({
@@ -2288,6 +2527,60 @@ async function main() {
   assert(products.length === meta.expectedProductCount, "meta product count should match products");
   assert(productLoader.productScriptUrl(categories[0]) === `./products/tv.js?v=${meta.cacheVersion}`, "loader URL should use category id and cache version");
 
+  const punctuationFamilyProducts = JSON.parse(JSON.stringify(products.filter((product) => product.category === "pillow")));
+  const punctuationFamilyTarget = punctuationFamilyProducts.find((product) => product.id === "pillow-emma-black-diamond");
+  punctuationFamilyTarget.brand = "3M";
+  punctuationFamilyTarget.variantFamily = "3m longlife antibacterial washable";
+  punctuationFamilyTarget.specs = punctuationFamilyTarget.specs.map((spec) => (
+    spec.startsWith("高度／軟硬度：") ? "高度／軟硬度：高 17–23 cm／加高偏硬支撐" : spec
+  ));
+  const punctuationFamilyFailures = [];
+  validateBeddingCatalog(punctuationFamilyProducts, punctuationFamilyFailures);
+  assert(
+    punctuationFamilyFailures.some((failure) => failure.includes("at most 3 variants")),
+    "bedding variant families must not be split by punctuation or spaces",
+  );
+
+  const descriptiveFamilyProducts = JSON.parse(JSON.stringify(products.filter((product) => product.category === "bedsheet")));
+  const descriptiveFamilyAliases = ["ORCHID 白色", "天絲 ORCHID 藍色床包", "涼感 ORCHID 灰色系列", "ORCHID 粉色"];
+  descriptiveFamilyProducts.slice(0, 4).forEach((product, index) => {
+    product.brand = "Fixture Brand";
+    product.variantFamily = descriptiveFamilyAliases[index];
+  });
+  const descriptiveFamilyFailures = [];
+  validateBeddingCatalog(descriptiveFamilyProducts, descriptiveFamilyFailures);
+  assert(
+    descriptiveFamilyFailures.some((failure) => failure.includes("at most 3 variants")),
+    "bedding variant families must not be split by color, material, or category words",
+  );
+
+  const pillowColorVariantProducts = JSON.parse(JSON.stringify(products.filter((product) => product.category === "pillow")));
+  const pillowColorVariantSource = pillowColorVariantProducts.find((product) => product.id === "pillow-ikea-kvarnven-side-back");
+  const pillowColorVariantTarget = pillowColorVariantProducts.find((product) => product.id === "pillow-ikea-kvarnven-stomach");
+  pillowColorVariantTarget.specs = pillowColorVariantTarget.specs.map((spec) => {
+    if (spec.startsWith("高度／軟硬度：")) return "高度／軟硬度：高 13 cm／側仰睡穩固支撐／灰色";
+    if (spec.startsWith("尺寸：")) return pillowColorVariantSource.specs.find((value) => value.startsWith("尺寸："));
+    return spec;
+  });
+  const pillowColorVariantFailures = [];
+  validateBeddingCatalog(pillowColorVariantProducts, pillowColorVariantFailures);
+  assert(
+    pillowColorVariantFailures.some((failure) => failure.includes("duplicate 高度／軟硬度")),
+    "pillow color text must not create another height or firmness variant",
+  );
+
+  const bedsheetThirdAxisProducts = JSON.parse(JSON.stringify(products.filter((product) => product.category === "bedsheet")));
+  const bedsheetThirdAxisTarget = bedsheetThirdAxisProducts.find((product) => product.id === "bedsheet-ikea-60482454");
+  bedsheetThirdAxisTarget.specs = bedsheetThirdAxisTarget.specs.map((spec) => (
+    spec.startsWith("尺寸：") ? "尺寸：寬 150 x 長 200 x 高 35 cm" : spec
+  ));
+  const bedsheetThirdAxisFailures = [];
+  validateBeddingCatalog(bedsheetThirdAxisProducts, bedsheetThirdAxisFailures);
+  assert(
+    bedsheetThirdAxisFailures.some((failure) => failure.includes("duplicate 尺寸")),
+    "bedsheet pocket or third-axis changes must not create another planar-size variant",
+  );
+
   const sample = [
     { id: "unknown", category: "tv", rank: 1, releaseDate: "找不到" },
     { id: "year", category: "tv", rank: 2, releaseDate: "2024" },
@@ -2334,6 +2627,22 @@ async function main() {
   );
   filters.applyFilterValue("category", "wifi");
   assert(dashboard.state.type === "all", "switching from network-switch to wifi must clear the speed tier");
+  dashboard.state.category = "bedsheet";
+  const bedsheetTypeValues = filters.filterOptions("type").map((option) => option.value);
+  assert(
+    bedsheetTypeValues.join(",") === "all,cotton,lyocell,linen,synthetic,other_natural",
+    "bedsheet type filter must expose only the approved material values",
+  );
+  dashboard.state.type = "lyocell";
+  assert(
+    filters.filteredProducts().every((product) => product.category === "bedsheet" && product.type === "lyocell"),
+    "bedding type filtering must apply to the complete product dataset",
+  );
+  dashboard.state.type = "cotton";
+  filters.applyFilterValue("category", "comforter");
+  assert(dashboard.state.type === "all", "switching categories must clear a shared type value");
+  filters.applyFilterValue("category", "refrigerator");
+  assert(dashboard.state.type === "all", "switching away from bedding must clear the material type");
   dashboard.state.category = "all";
 
   assert(
@@ -2895,6 +3204,13 @@ async function main() {
     dashboard.urlState.syncToQuery();
     assert(context.history.lastUrl.includes(`category=network-switch&type=${type}`), `query sync should persist switch speed tier ${type}`);
   }
+
+  context.location = new URL("https://example.test/index.html?category=comforter&type=down");
+  context.history.lastUrl = "";
+  dashboard.urlState.applyFromQuery();
+  assert(dashboard.state.category === "comforter" && dashboard.state.type === "down", "query should restore a compatible bedding type");
+  dashboard.urlState.syncToQuery();
+  assert(context.history.lastUrl.includes("category=comforter&type=down"), "query sync should persist a compatible bedding type");
 
   context.location = new URL("https://example.test/index.html?category=monitor&type=gas");
   context.history.lastUrl = "";

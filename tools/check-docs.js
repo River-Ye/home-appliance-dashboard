@@ -57,6 +57,10 @@ function main() {
     assert(agents.includes(phrase), `AGENTS peripheral contract missing: ${phrase}`);
   }
   assert(repoSkill.includes("PERIPHERAL_SPEC_PREFIXES"), "repo skill peripheral specification contract missing");
+  for (const phrase of ["variantFamily", "6／12／12", "床包 / 棉被 / 枕頭"]) {
+    assert(agents.includes(phrase), `AGENTS bedding contract missing: ${phrase}`);
+  }
+  assert(repoSkill.includes("BEDDING_SPEC_PREFIXES"), "repo skill bedding specification contract missing");
   const packageJson = JSON.parse(read("package.json"));
   assertFileExists("CNAME");
   assertFileExists("robots.txt");

@@ -34,6 +34,27 @@
       { value: "hard", label: "硬質", keywords: "hard 硬質 非玻璃" },
       { value: "glass", label: "玻璃", keywords: "glass 玻璃" },
     ],
+    bedsheet: [
+      { value: "cotton", label: "棉", keywords: "cotton 棉 純棉" },
+      { value: "lyocell", label: "萊賽爾（天絲）", keywords: "lyocell tencel 天絲 萊賽爾" },
+      { value: "linen", label: "亞麻", keywords: "linen 亞麻" },
+      { value: "synthetic", label: "化纖", keywords: "synthetic polyester 聚酯 化纖" },
+      { value: "other_natural", label: "其他天然纖維", keywords: "natural bamboo hemp 天然纖維 竹纖維" },
+    ],
+    comforter: [
+      { value: "cotton", label: "棉", keywords: "cotton 棉 棉花" },
+      { value: "down", label: "羽絨", keywords: "down feather 羽絨 羽毛" },
+      { value: "synthetic", label: "化纖", keywords: "synthetic polyester 聚酯 化纖" },
+      { value: "wool", label: "羊毛", keywords: "wool 羊毛" },
+      { value: "silk", label: "蠶絲", keywords: "silk 蠶絲" },
+    ],
+    pillow: [
+      { value: "latex", label: "乳膠", keywords: "latex 乳膠" },
+      { value: "memory_foam", label: "記憶棉", keywords: "memory foam 記憶棉 慢回彈" },
+      { value: "down", label: "羽絨／羽毛", keywords: "down feather 羽絨 羽毛" },
+      { value: "fiber", label: "纖維", keywords: "fiber polyester 纖維 聚酯" },
+      { value: "hybrid", label: "混合材質", keywords: "hybrid blend 混合 複合" },
+    ],
   };
 
   function defaultSortCompare(a, b) {
@@ -227,6 +248,7 @@
 
   function applyFilterValue(name, value) {
     if (name === "category") {
+      if (state.category !== value) state.type = "all";
       state.category = value;
       ensureSelectedBrandIsAvailable();
       ensureSelectedTypeIsAvailable();

@@ -20,6 +20,10 @@ const {
   PERIPHERAL_TYPES,
   PERIPHERAL_BUDGET_COUNTS,
   PERIPHERAL_SPEC_PREFIXES,
+  BEDDING_TYPES,
+  BEDDING_BUDGET_COUNTS,
+  BEDDING_SPEC_PREFIXES,
+  POSITIVE_MEASUREMENT_VALUE_PATTERN,
   WEIGHT_CONFIDENCE_VALUES,
   HISTORICAL_LOW_STATUSES,
   HISTORICAL_LOW_SOURCE_KINDS,
@@ -88,6 +92,29 @@ const {
 const ISSUE_RESEARCH_STATUSES = new Set(["common_issue", "no_common_issue"]);
 const ISSUE_RESEARCH_DATE_PATTERN = /^\d{4}-\d{2}-\d{2}$/;
 const NO_COMMON_ISSUE_SUMMARY = "截至查核日，查無達門檻的集中負評／災情";
+const BEDDING_TYPE_PATTERNS = {
+  bedsheet: {
+    cotton: /棉/u,
+    lyocell: /萊賽爾|天絲/iu,
+    linen: /亞麻|linen/iu,
+    synthetic: /化纖|聚酯|尼龍|聚乙烯|synthetic/iu,
+    other_natural: /竹纖維|莫代爾|modal|bamboo|hemp/iu,
+  },
+  comforter: {
+    cotton: /棉/u,
+    down: /羽絨|羽毛|鴨絨|鴨毛|鵝絨|鵝毛|down|feather/iu,
+    synthetic: /化纖|聚酯|科技蠶絲|超細纖維|樹脂纖維|synthetic/iu,
+    wool: /羊毛|wool/iu,
+    silk: /(?<!科技)蠶絲|silk/iu,
+  },
+  pillow: {
+    latex: /乳膠|latex/iu,
+    memory_foam: /記憶|感溫|泡棉|黑鑽石棉|支撐棉|hypergel|memory foam/iu,
+    down: /羽絨|羽毛|鴨絨|鴨毛|鵝絨|鵝毛|down|feather/iu,
+    fiber: /纖維|聚酯|fiber/iu,
+    hybrid: /混合|複合|airgrid|網格/iu,
+  },
+};
 const NETWORK_SWITCH_OFFICIAL_DOMAINS = new Map([
   ["D-Link", ["dlink.com"]],
   ["TP-Link", ["tp-link.com"]],
@@ -127,6 +154,45 @@ function compactIdentity(value) {
     .normalize("NFKC")
     .toLowerCase()
     .replace(/[^\p{L}\p{N}]+/gu, "");
+}
+
+function beddingFamilyIdentity(value) {
+  return compactIdentity(String(value || "")
+    .replace(/\b(?:series|collection|fitted sheet|sheet|comforter|duvet|pillow|white|black|gray|grey|blue|pink|red|green|yellow|beige|brown|purple|orange)\b/giu, " ")
+    .replace(/天絲|萊賽爾|涼感|床包|棉被|枕頭|系列|花色|圖案|白色|黑色|灰色|藍色|粉色|紅色|綠色|黃色|米色|棕色|紫色|橘色|卡其色/gu, " "));
+}
+
+function measurementEvidenceSupportsSpec(spec, evidenceSnippet) {
+  const [field = "", ...valueParts] = String(spec || "").split("：");
+  const recorded = valueParts.join("：").trim();
+  const evidence = String(evidenceSnippet || "");
+  const fieldPattern = {
+    尺寸: /尺寸|長\s*\d.*寬\s*\d|寬\s*\d.*(?:長|深)\s*\d/u,
+    可包覆高度: /包覆.*高度|床墊.*(?:厚度|高度)/u,
+    填充重量: /填充(?:物)?.{0,4}(?:重量|重)/u,
+    重量: /淨重|本體重量|產品總重|商品重量|整件重量|(?:^|[，,\s])重量[：:]/u,
+  }[field];
+  if (!fieldPattern || !recorded) return false;
+  const missingPattern = /查不到|未標示|未找到|未提供|未列|未明示|無法確認|沒有/u;
+  const segments = evidence.split(/[；;。!?]/u);
+  if (/^(?:查不到|未標示)$/u.test(recorded)) {
+    return segments.some((segment) => fieldPattern.test(segment) && missingPattern.test(segment));
+  }
+  const evidenceKey = compactIdentity(evidence);
+  const valueKey = compactIdentity(recorded);
+  if (field === "尺寸") return evidenceKey.includes(valueKey);
+  if (field === "可包覆高度" || field === "填充重量") {
+    return evidenceKey.includes(compactIdentity(spec));
+  }
+  const specKey = compactIdentity(spec);
+  for (let index = evidenceKey.indexOf(specKey); index >= 0; index = evidenceKey.indexOf(specKey, index + 1)) {
+    if (!/填充(?:物)?$/u.test(evidenceKey.slice(Math.max(0, index - 4), index))) return true;
+  }
+  return segments.some((segment) => {
+    if (!fieldPattern.test(segment)) return false;
+    if (/填充(?:物)?.{0,4}(?:重量|重)/u.test(segment) && !/淨重|本體重量|產品總重|商品重量|整件重量/u.test(segment)) return false;
+    return !missingPattern.test(segment) && compactIdentity(segment).includes(valueKey);
+  });
 }
 
 function productText(product) {
@@ -544,6 +610,127 @@ function validatePeripheralCatalog(products, failures) {
   }
 }
 
+function validateBeddingProduct(product, failures) {
+  const types = BEDDING_TYPES[product.category];
+  if (!types) return;
+  assert(types.includes(product.type), `${product.id} has invalid bedding type: ${product.type}`, failures);
+  assert(typeof product.variantFamily === "string" && product.variantFamily.trim(), `${product.id} requires variantFamily`, failures);
+  validateOrderedSpecPrefixes(product, BEDDING_SPEC_PREFIXES[product.category], failures);
+  const visibleTypeSpec = product.specs.find((spec) => spec.startsWith("類型：")) || "";
+  const materialSpecPrefix = {
+    bedsheet: "材質：",
+    comforter: "填充材質：",
+    pillow: "填充／核心材質：",
+  }[product.category];
+  const materialSpec = product.specs.find((spec) => spec.startsWith(materialSpecPrefix)) || "";
+  const typePatterns = BEDDING_TYPE_PATTERNS[product.category];
+  const detectedVisibleTypes = Object.entries(typePatterns)
+    .filter(([, pattern]) => pattern.test(visibleTypeSpec))
+    .map(([type]) => type);
+  assert(
+    (!detectedVisibleTypes.length || detectedVisibleTypes.includes(product.type))
+      && typePatterns[product.type].test(materialSpec),
+    `${product.id} type spec contradicts bedding type ${product.type}`,
+    failures,
+  );
+  const listing = `${product.model || ""} ${product.name || ""}`;
+  const excluded = {
+    bedsheet: /被套|床罩|保潔墊|四件套|寢具(?:大)?套組|\b(?:duvet cover|mattress (?:protector|pad|topper)|bedspread|bed cover|flat sheet|sheet set)\b/iu,
+    comforter: /被套|毛毯|電熱毯|涼感薄毯|涼被|\b(?:duvet cover|blanket|throw|electric blanket|heated blanket|cooling blanket)\b/iu,
+    pillow: /抱枕|長枕|長版|旅行(?:頸|脖)枕|嬰幼兒枕|嬰兒枕|兒童枕|枕套|替換填充|\b(?:travel (?:neck|cervical) pillow|(?:neck|cervical) travel pillow|u[- ]?shaped (?:neck )?pillow|body pillow|bolster pillow|baby pillow|infant pillow|toddler pillow|kids? pillow|pillow ?case)\b/iu,
+  }[product.category];
+  assert(!isExcludedListing(listing) && !excluded.test(listing), `${product.id} is outside the approved bedding scope`, failures);
+  const combination = (product.specs.find((spec) => spec.startsWith("組合內容：")) || "")
+    .replace(/不含[^；。]*/gu, "")
+    .replace(/[；;。]+$/u, "")
+    .trim();
+  const bedsheetContents = combination.replace(/^組合內容：/u, "");
+  const excludedCombination = product.category === "bedsheet"
+    ? !/^(?:伸縮)?床包(?:\s*\d+\s*件)?(?:\s*[＋+、，,]\s*枕套(?:\s*\d+\s*件)?)*$/u.test(bedsheetContents)
+    : product.category === "comforter"
+      ? /被套|毛毯|電熱毯|涼感薄毯/iu.test(combination)
+        || (/涼被/u.test(combination) && !/暖被|冬被|四季/u.test(combination))
+      : false;
+  assert(!excludedCombination, `${product.id} is outside the approved bedding scope`, failures);
+
+  if (product.category === "bedsheet") {
+    const height = product.specs.find((spec) => spec.startsWith("可包覆高度：")) || "";
+    assert(new RegExp(`^可包覆高度：(查不到|(?:約 )?${POSITIVE_MEASUREMENT_VALUE_PATTERN} cm)$`, "u").test(height), `${product.id} requires mattress pocket height in cm or 查不到`, failures);
+  }
+  if (product.category === "comforter") {
+    const fillWeight = product.specs.find((spec) => spec.startsWith("填充重量：")) || "";
+    const fillWeightSegment = `(?:[^；]+ )?(?:約 )?${POSITIVE_MEASUREMENT_VALUE_PATTERN} (?:g|kg)`;
+    assert(new RegExp(`^填充重量：(查不到|${fillWeightSegment}(?:；${fillWeightSegment})*)$`, "u").test(fillWeight), `${product.id} requires fill weight or 查不到`, failures);
+    assert(!/包裝|外箱|毛重|shipping|gross/iu.test(fillWeight), `${product.id} fill weight cannot use packaging or gross weight`, failures);
+  }
+  if (product.topPick) {
+    const warranty = String(product.warranty || "");
+    assert(product.channel === "tw", `${product.id} bedding Top Pick requires a Taiwan channel`, failures);
+    assert(/台灣官方[^；。]*(?:\d+\s*年保固|售後|客服|門市|退換)|台灣(?:客服|門市|售後)|公司貨[^；。]*(?:保固|售後|客服)/u.test(warranty), `${product.id} bedding Top Pick requires a concrete Taiwan after-sales channel`, failures);
+    assert(!/無(?:台灣)?保固|不提供保固|no warranty|(?:保固|售後)[^；。]{0,10}未標示/iu.test(warranty), `${product.id} bedding Top Pick cannot have no warranty`, failures);
+    assert(hasTaiwanCompatiblePower(product), `${product.id} bedding Top Pick requires a non-electric or Taiwan-compatible power statement`, failures);
+  }
+}
+
+function beddingPlanarVariantIdentity(product) {
+  const dimension = product.specs.find((value) => value.startsWith("尺寸：")) || "";
+  const axes = new Map([...dimension.matchAll(/([長寬深高]) (\d+(?:\.\d+)?(?:[-–／/]\d+(?:\.\d+)?)?)/gu)]
+    .map(([, axis, value]) => [axis, value]));
+  const planar = [axes.get("寬"), axes.get("長") || axes.get("深")];
+  return planar.every(Boolean)
+    ? planar.map((value) => normalize(value)).sort((left, right) => Number.parseFloat(left) - Number.parseFloat(right)).join("x")
+    : "";
+}
+
+function pillowVariantIdentity(product) {
+  const heightSpec = product.specs.find((value) => value.startsWith("高度／軟硬度：")) || "";
+  const primary = heightSpec.slice("高度／軟硬度：".length).split(/[；;]/u)[0];
+  const measurements = [...primary.matchAll(/\d+(?:\.\d+)?(?:[-–／/]\d+(?:\.\d+)?)?\s*cm/giu)]
+    .map(([value]) => normalize(value));
+  const descriptors = primary.match(/\b(?:extra small|small|medium|large|queen [smlx]+|xs|s|m|l|low|high|soft|firm)\b|低枕|高枕|偏軟|偏硬|適中|中等|柔軟|硬度可調|軟硬可調|可調支撐/giu) || [];
+  return [...measurements, ...descriptors.map(normalize)].join("|");
+}
+
+function validateBeddingCatalog(products, failures) {
+  const recommendationTags = {
+    bedsheet: ["涼爽推薦", "親膚推薦"],
+    comforter: ["四季推薦", "冬季保暖推薦"],
+    pillow: ["仰睡推薦", "側睡推薦"],
+  };
+  for (const [category, types] of Object.entries(BEDDING_TYPES)) {
+    const items = products.filter((product) => product.category === category);
+    if (!items.length) continue;
+    assert(items.length === 30, `${category} must contain 30 products`, failures);
+    for (const [budget, count] of BEDDING_BUDGET_COUNTS) {
+      assert(items.filter((product) => product.budget === budget).length === count, `${category} budget ${budget} must contain ${count} products`, failures);
+    }
+    for (const type of types) {
+      assert(items.some((product) => product.type === type), `${category} must cover type ${type}`, failures);
+    }
+    assert(items.filter((product) => product.topPick).length === 1, `${category} must have exactly one Top Pick`, failures);
+    for (const tag of recommendationTags[category]) {
+      assert(items.some((product) => product.tags?.includes(tag)), `${category} must include ${tag}`, failures);
+    }
+
+    const families = new Map();
+    for (const product of items) {
+      const key = `${compactIdentity(product.brand)}||${beddingFamilyIdentity(product.variantFamily)}`;
+      const variants = families.get(key) || [];
+      variants.push(product);
+      families.set(key, variants);
+    }
+    for (const [family, variants] of families) {
+      assert(variants.length <= 3, `${category} ${family} must have at most 3 variants`, failures);
+      const prefix = category === "pillow" ? "高度／軟硬度：" : "尺寸：";
+      const identities = variants.map((product) => (
+        category === "pillow" ? pillowVariantIdentity(product) : beddingPlanarVariantIdentity(product)
+      ));
+      assert(new Set(identities).size === identities.length, `${category} ${family} contains a duplicate ${prefix} variant`, failures);
+      if (variants.length > 1) assert(identities.every((identity) => identity && !/查不到|未標示/u.test(identity)), `${category} ${family} variants require explicit ${prefix}`, failures);
+    }
+  }
+}
+
 function measurementSegments(value) {
   return String(value || "")
     .split("；")
@@ -837,6 +1024,7 @@ function validateProduct(product, categoryIds, failures) {
   validateNetworkSwitchProduct(product, failures);
   validateMonitorLightProduct(product, failures);
   validatePeripheralProduct(product, failures);
+  validateBeddingProduct(product, failures);
   validateHistoricalLow(product, failures);
   validateIssueResearch(product, failures);
 
@@ -1525,6 +1713,9 @@ function validateDimensionResearch(root, products, failures, incremental = null,
     ["mouse", "滑鼠"],
     ["keyboard", "鍵盤"],
     ["mousepad", "滑鼠墊"],
+    ["bedsheet", "床包"],
+    ["comforter", "棉被"],
+    ["pillow", "枕頭"],
   ]) {
     if (!dimensionProducts.some((product) => product.category === category)) continue;
     assert(
@@ -1548,7 +1739,7 @@ function validateDimensionResearch(root, products, failures, incremental = null,
     const row = researchById.get(product.id);
     assert(row, `${product.id} missing dimension research row`, failures);
     if (!row) continue;
-    if (PERIPHERAL_TYPES[product.category]) {
+    if (PERIPHERAL_TYPES[product.category] || BEDDING_TYPES[product.category]) {
       for (const field of ["category", "brand", "model", "name"]) {
         assert(row[field] === product[field], `${product.id} dimension research ${field} mismatch`, failures);
       }
@@ -1557,11 +1748,28 @@ function validateDimensionResearch(root, products, failures, incremental = null,
     const dimensionSpecs = product.specs.filter((spec) => String(spec).trim().startsWith("尺寸："));
     const dimensionSpec = dimensionSpecs[0];
     assert(row.dimension === dimensionSpec, `${product.id} dimension research mismatch`, failures);
+    if (product.category === "bedsheet") {
+      const pocketHeight = product.specs.find((spec) => String(spec).startsWith("可包覆高度："));
+      assert(row.pocketHeight === pocketHeight, `${product.id} pocket-height research mismatch`, failures);
+    }
+    if (product.category === "comforter") {
+      const fillWeight = product.specs.find((spec) => String(spec).startsWith("填充重量："));
+      assert(row.fillWeight === fillWeight, `${product.id} fill-weight research mismatch`, failures);
+    }
     assert(dimensionPatternForCategory(product.category).test(String(row.dimension || "").trim()), `${product.id} dimension research has invalid dimension: ${row.dimension}`, failures);
     assert(isHttpUrl(row.sourceUrl), `${product.id} dimension research requires a valid http(s) sourceUrl`, failures);
     assert(!isSearchDiscoveryUrl(row.sourceUrl), `${product.id} dimension research must cite an original product/spec page`, failures);
     assert(row.sourceTitle, `${product.id} dimension research requires sourceTitle`, failures);
     assert(row.evidenceSnippet, `${product.id} dimension research requires evidenceSnippet`, failures);
+    if (BEDDING_TYPES[product.category]) {
+      assert(measurementEvidenceSupportsSpec(row.dimension, row.evidenceSnippet), `${product.id} dimension evidence does not support the recorded value`, failures);
+      if (product.category === "bedsheet") {
+        assert(measurementEvidenceSupportsSpec(row.pocketHeight, row.evidenceSnippet), `${product.id} pocket-height evidence does not support the recorded value`, failures);
+      }
+      if (product.category === "comforter") {
+        assert(measurementEvidenceSupportsSpec(row.fillWeight, row.evidenceSnippet), `${product.id} fill-weight evidence does not support the recorded value`, failures);
+      }
+    }
     assert(DIMENSION_CONFIDENCE_VALUES.has(row.confidence), `${product.id} dimension research has invalid confidence: ${row.confidence}`, failures);
     assert(typeof row.isOfficialSource === "boolean", `${product.id} dimension research requires boolean isOfficialSource`, failures);
     assert(/^\d{4}-\d{2}-\d{2}$/.test(String(row.checkedAt || "")), `${product.id} dimension research requires YYYY-MM-DD checkedAt`, failures);
@@ -1592,6 +1800,9 @@ function validateDimensionResearch(root, products, failures, incremental = null,
       assert(!isSearchDiscoveryUrl(row.weightSourceUrl), `${product.id} weight research must cite an original product/spec page`, failures);
       assert(row.weightSourceTitle, `${product.id} weight research requires weightSourceTitle`, failures);
       assert(row.weightEvidenceSnippet, `${product.id} weight research requires weightEvidenceSnippet`, failures);
+      if (BEDDING_TYPES[product.category]) {
+        assert(measurementEvidenceSupportsSpec(row.weight, row.weightEvidenceSnippet), `${product.id} weight evidence does not support the recorded value`, failures);
+      }
       assert(WEIGHT_CONFIDENCE_VALUES.has(row.weightConfidence), `${product.id} weight research has invalid weightConfidence: ${row.weightConfidence}`, failures);
       assert(typeof row.weightIsOfficialSource === "boolean", `${product.id} weight research requires boolean weightIsOfficialSource`, failures);
       assert(/^\d{4}-\d{2}-\d{2}$/.test(String(row.weightCheckedAt || "")), `${product.id} weight research requires YYYY-MM-DD weightCheckedAt`, failures);
@@ -1637,6 +1848,7 @@ function validateResearchDocuments(products, documents, failures, incremental = 
 
 function validateCategoryContent(products, failures) {
   validatePeripheralCatalog(products, failures);
+  validateBeddingCatalog(products, failures);
   const monitorLightProducts = categoryProducts(products, "monitor-light");
   if (monitorLightProducts.length) assert(monitorLightProducts.filter((product) => product.topPick).length === 1, "monitor-light must have exactly one Top Pick", failures);
   for (const [categoryId, requiredTerms] of REQUIRED_CATEGORY_TERMS) {
@@ -2014,6 +2226,17 @@ function validateMaintenanceReport(root, categories, products, dataDate, exchang
       failures,
     );
   }
+  for (const [categoryId, reviews] of Object.entries(report.addedProductReview?.manualJapaneseBrandReview || {})) {
+    const canonicalReviews = new Map((categoryScan.get(categoryId)?.japaneseBrandReview || []).map((review) => [review.brand, review]));
+    for (const review of reviews) {
+      const canonical = canonicalReviews.get(review.brand);
+      assert(
+        canonical?.status === review.status && canonical?.checkedAt === review.checkedAt,
+        `${categoryId} ${review.brand} manual Japanese-brand review contradicts categoryScan`,
+        failures,
+      );
+    }
+  }
 
   const validateCompactAudit = (name, audit, expectedIds, verifiedKey, expectedExceptionCount) => {
     const checkedIds = [...(audit?.checkedProductIds || [])].sort();
@@ -2082,6 +2305,16 @@ function main() {
   assert(products.length === EXPECTED_PRODUCT_COUNT, `expected ${EXPECTED_PRODUCT_COUNT} products, got ${products.length}`, failures);
   const coffeeCategoryIndex = categories.findIndex((category) => category.id === "coffee");
   assert(coffeeCategoryIndex > 0 && categories[coffeeCategoryIndex - 1]?.id === "blender", "coffee category must appear immediately after blender", failures);
+  const beddingCategoryIndex = categories.findIndex((category) => category.id === "bedsheet");
+  assert(
+    beddingCategoryIndex > 0
+      && categories[beddingCategoryIndex - 1]?.id === "garmentcare"
+      && categories.slice(beddingCategoryIndex, beddingCategoryIndex + 3).map((category) => category.id).join(",") === "bedsheet,comforter,pillow"
+      && categories[beddingCategoryIndex + 3]?.id === "refrigerator"
+      && categories.slice(beddingCategoryIndex, beddingCategoryIndex + 3).every((category) => category.group === "臥室寢具"),
+    "bedding categories must form the 臥室寢具 group between garmentcare and refrigerator",
+    failures,
+  );
   const missingIssueResearchIds = products
     .filter((product) => !product.issueResearch || typeof product.issueResearch !== "object" || Array.isArray(product.issueResearch))
     .map((product) => product.id);
@@ -2182,6 +2415,9 @@ module.exports = {
   validateMonitorLightProduct,
   validatePeripheralProduct,
   validatePeripheralCatalog,
+  validateBeddingProduct,
+  validateBeddingCatalog,
+  measurementEvidenceSupportsSpec,
   validateMaintenanceReport,
   validatePriceAndInstallationContract,
   validateWaterheaterProduct,

@@ -1,13 +1,13 @@
 {
   "summary": {
     "checkedAt": "2026-09-01T00:00:00+08:00",
-    "total": 1035,
-    "researchedThisRun": 2,
+    "total": 1125,
+    "researchedThisRun": 90,
     "found": 331,
-    "missing": 704,
+    "missing": 794,
     "byConfidence": {
       "official": 181,
-      "not_found": 701,
+      "not_found": 791,
       "retailer_explicit": 22,
       "credible_article": 52,
       "high": 60,
@@ -31656,6 +31656,2956 @@
           "outcome": "原頁確認台灣 exact model、現售與保固，但沒有上市／發售日期；僅用於區域型號對照，不把促銷、上架或查核日期當上市日。"
         }
       ]
+    },
+    {
+      "id": "bedsheet-nitori-2115100136769",
+      "category": "bedsheet",
+      "brand": "NITORI",
+      "model": "2115100136769",
+      "name": "素色天絲床包 NV 雙人 150×186 cm",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "sourceKind": "not_found",
+      "reason": "2026-09-01 以 Chrome 人工檢查 official exact SKU 2115100136769 商品頁與 exact-model 上市／發售／開賣／launch／release 查詢；商品頁未列上市日，查詢結果未取得可採用的 exact-variant 原始發表或上市來源。",
+      "query": "\"2115100136769\" (上市 OR 發售 OR 開賣 OR launch OR release OR 史低 OR 價格歷史)",
+      "auditQueries": [
+        "\"2115100136769\" 上市 OR 發售 OR 開賣",
+        "\"2115100136769\" launch OR release"
+      ],
+      "checkedAt": "2026-09-01",
+      "auditDisposition": "not_found_after_review",
+      "checkedSources": [
+        {
+          "url": "https://www.nitori-net.tw/product/2115100136769",
+          "title": "素色天絲床包 NV 雙人 150×186 cm｜NITORI 宜得利台灣官方商城",
+          "outcome": "NITORI 宜得利台灣官方商城 exact SKU 2115100136769 商品頁提供現售規格，但未明示上市／發售日期。"
+        },
+        {
+          "url": "https://www.google.com/search?q=%222115100136769%22%20(%E4%B8%8A%E5%B8%82%20OR%20%E7%99%BC%E5%94%AE%20OR%20%E9%96%8B%E8%B3%A3%20OR%20launch%20OR%20release%20OR%20%E5%8F%B2%E4%BD%8E%20OR%20%E5%83%B9%E6%A0%BC%E6%AD%B7%E5%8F%B2)",
+          "title": "Google exact-model query for 2115100136769",
+          "outcome": "人工檢查結果未找到可採用的 exact-variant 原始上市來源。"
+        }
+      ]
+    },
+    {
+      "id": "bedsheet-hola-014366794",
+      "category": "bedsheet",
+      "brand": "HOLA",
+      "model": "014366794",
+      "name": "查莉 100% 亞麻床包雙人 暮灰 150×186 cm",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "sourceKind": "not_found",
+      "reason": "2026-09-01 以 Chrome 人工檢查 official exact SKU 014366794 商品頁與 exact-model 上市／發售／開賣／launch／release 查詢；商品頁未列上市日，查詢結果未取得可採用的 exact-variant 原始發表或上市來源。",
+      "query": "\"014366794\" (上市 OR 發售 OR 開賣 OR launch OR release OR 史低 OR 價格歷史)",
+      "auditQueries": [
+        "\"014366794\" 上市 OR 發售 OR 開賣",
+        "\"014366794\" launch OR release"
+      ],
+      "checkedAt": "2026-09-01",
+      "auditDisposition": "not_found_after_review",
+      "checkedSources": [
+        {
+          "url": "https://www.hola.com.tw/p/014366794",
+          "title": "查莉 100% 亞麻床包雙人 暮灰 150×186 cm｜HOLA 和樂台灣官方商城",
+          "outcome": "HOLA 和樂台灣官方商城 exact SKU 014366794 商品頁提供現售規格，但未明示上市／發售日期。"
+        },
+        {
+          "url": "https://www.google.com/search?q=%22014366794%22%20(%E4%B8%8A%E5%B8%82%20OR%20%E7%99%BC%E5%94%AE%20OR%20%E9%96%8B%E8%B3%A3%20OR%20launch%20OR%20release%20OR%20%E5%8F%B2%E4%BD%8E%20OR%20%E5%83%B9%E6%A0%BC%E6%AD%B7%E5%8F%B2)",
+          "title": "Google exact-model query for 014366794",
+          "outcome": "人工檢查結果未找到可採用的 exact-variant 原始上市來源。"
+        }
+      ]
+    },
+    {
+      "id": "bedsheet-ikea-50336953",
+      "category": "bedsheet",
+      "brand": "IKEA",
+      "model": "503.369.53",
+      "name": "ULLVIDE 雙人床包 灰色 150×200 cm",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "sourceKind": "not_found",
+      "reason": "2026-09-01 以 Chrome 人工檢查 official exact SKU 503.369.53 商品頁與 exact-model 上市／發售／開賣／launch／release 查詢；商品頁未列上市日，查詢結果未取得可採用的 exact-variant 原始發表或上市來源。",
+      "query": "\"503.369.53\" (上市 OR 發售 OR 開賣 OR launch OR release OR 史低 OR 價格歷史)",
+      "auditQueries": [
+        "\"503.369.53\" 上市 OR 發售 OR 開賣",
+        "\"503.369.53\" launch OR release"
+      ],
+      "checkedAt": "2026-09-01",
+      "auditDisposition": "not_found_after_review",
+      "checkedSources": [
+        {
+          "url": "https://www.ikea.com.tw/zh/products/bedlinen/sheets-and-pillow-cases/ullvide-art-50336953",
+          "title": "ULLVIDE 雙人床包 灰色 150×200 cm｜IKEA 台灣官方商城",
+          "outcome": "IKEA 台灣官方商城 exact SKU 503.369.53 商品頁提供現售規格，但未明示上市／發售日期。"
+        },
+        {
+          "url": "https://www.google.com/search?q=%22503.369.53%22%20(%E4%B8%8A%E5%B8%82%20OR%20%E7%99%BC%E5%94%AE%20OR%20%E9%96%8B%E8%B3%A3%20OR%20launch%20OR%20release%20OR%20%E5%8F%B2%E4%BD%8E%20OR%20%E5%83%B9%E6%A0%BC%E6%AD%B7%E5%8F%B2)",
+          "title": "Google exact-model query for 503.369.53",
+          "outcome": "人工檢查結果未找到可採用的 exact-variant 原始上市來源。"
+        }
+      ]
+    },
+    {
+      "id": "bedsheet-nitori-7518868",
+      "category": "bedsheet",
+      "brand": "NITORI",
+      "model": "7518868",
+      "name": "N HOTEL 純棉多種厚度對應床包 WH 雙人",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "sourceKind": "not_found",
+      "reason": "2026-09-01 以 Chrome 人工檢查 official exact SKU 7518868 商品頁與 exact-model 上市／發售／開賣／launch／release 查詢；商品頁未列上市日，查詢結果未取得可採用的 exact-variant 原始發表或上市來源。",
+      "query": "\"7518868\" (上市 OR 發售 OR 開賣 OR launch OR release OR 史低 OR 價格歷史)",
+      "auditQueries": [
+        "\"7518868\" 上市 OR 發售 OR 開賣",
+        "\"7518868\" launch OR release"
+      ],
+      "checkedAt": "2026-09-01",
+      "auditDisposition": "not_found_after_review",
+      "checkedSources": [
+        {
+          "url": "https://www.nitori-net.tw/product/7518868",
+          "title": "N HOTEL 純棉多種厚度對應床包 WH 雙人｜NITORI 宜得利台灣官方商城",
+          "outcome": "NITORI 宜得利台灣官方商城 exact SKU 7518868 商品頁提供現售規格，但未明示上市／發售日期。"
+        },
+        {
+          "url": "https://www.google.com/search?q=%227518868%22%20(%E4%B8%8A%E5%B8%82%20OR%20%E7%99%BC%E5%94%AE%20OR%20%E9%96%8B%E8%B3%A3%20OR%20launch%20OR%20release%20OR%20%E5%8F%B2%E4%BD%8E%20OR%20%E5%83%B9%E6%A0%BC%E6%AD%B7%E5%8F%B2)",
+          "title": "Google exact-model query for 7518868",
+          "outcome": "人工檢查結果未找到可採用的 exact-variant 原始上市來源。"
+        }
+      ]
+    },
+    {
+      "id": "bedsheet-ikea-00442673",
+      "category": "bedsheet",
+      "brand": "IKEA",
+      "model": "004.426.73",
+      "name": "NATTJASMIN 雙人床包 深灰色 150×200 cm",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "sourceKind": "not_found",
+      "reason": "2026-09-01 以 Chrome 人工檢查 official exact SKU 004.426.73 商品頁與 exact-model 上市／發售／開賣／launch／release 查詢；商品頁未列上市日，查詢結果未取得可採用的 exact-variant 原始發表或上市來源。",
+      "query": "\"004.426.73\" (上市 OR 發售 OR 開賣 OR launch OR release OR 史低 OR 價格歷史)",
+      "auditQueries": [
+        "\"004.426.73\" 上市 OR 發售 OR 開賣",
+        "\"004.426.73\" launch OR release"
+      ],
+      "checkedAt": "2026-09-01",
+      "auditDisposition": "not_found_after_review",
+      "checkedSources": [
+        {
+          "url": "https://www.ikea.com.tw/zh/products/bedlinen/sheets-and-pillow-cases/nattjasmin-art-00442673",
+          "title": "NATTJASMIN 雙人床包 深灰色 150×200 cm｜IKEA 台灣官方商城",
+          "outcome": "IKEA 台灣官方商城 exact SKU 004.426.73 商品頁提供現售規格，但未明示上市／發售日期。"
+        },
+        {
+          "url": "https://www.google.com/search?q=%22004.426.73%22%20(%E4%B8%8A%E5%B8%82%20OR%20%E7%99%BC%E5%94%AE%20OR%20%E9%96%8B%E8%B3%A3%20OR%20launch%20OR%20release%20OR%20%E5%8F%B2%E4%BD%8E%20OR%20%E5%83%B9%E6%A0%BC%E6%AD%B7%E5%8F%B2)",
+          "title": "Google exact-model query for 004.426.73",
+          "outcome": "人工檢查結果未找到可採用的 exact-variant 原始上市來源。"
+        }
+      ]
+    },
+    {
+      "id": "bedsheet-nitori-7518131",
+      "category": "bedsheet",
+      "brand": "NITORI",
+      "model": "7518131",
+      "name": "POLY WASH 聚酯床包 GY 單人",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "sourceKind": "not_found",
+      "reason": "2026-09-01 以 Chrome 人工檢查 official exact SKU 7518131 商品頁與 exact-model 上市／發售／開賣／launch／release 查詢；商品頁未列上市日，查詢結果未取得可採用的 exact-variant 原始發表或上市來源。",
+      "query": "\"7518131\" (上市 OR 發售 OR 開賣 OR launch OR release OR 史低 OR 價格歷史)",
+      "auditQueries": [
+        "\"7518131\" 上市 OR 發售 OR 開賣",
+        "\"7518131\" launch OR release"
+      ],
+      "checkedAt": "2026-09-01",
+      "auditDisposition": "not_found_after_review",
+      "checkedSources": [
+        {
+          "url": "https://www.nitori-net.tw/product/7518131",
+          "title": "POLY WASH 聚酯床包 GY 單人｜NITORI 宜得利台灣官方商城",
+          "outcome": "NITORI 宜得利台灣官方商城 exact SKU 7518131 商品頁提供現售規格，但未明示上市／發售日期。"
+        },
+        {
+          "url": "https://www.google.com/search?q=%227518131%22%20(%E4%B8%8A%E5%B8%82%20OR%20%E7%99%BC%E5%94%AE%20OR%20%E9%96%8B%E8%B3%A3%20OR%20launch%20OR%20release%20OR%20%E5%8F%B2%E4%BD%8E%20OR%20%E5%83%B9%E6%A0%BC%E6%AD%B7%E5%8F%B2)",
+          "title": "Google exact-model query for 7518131",
+          "outcome": "人工檢查結果未找到可採用的 exact-variant 原始上市來源。"
+        }
+      ]
+    },
+    {
+      "id": "bedsheet-ikea-30482460",
+      "category": "bedsheet",
+      "brand": "IKEA",
+      "model": "304.824.60",
+      "name": "DVALA 單人床包 白色 90×200 cm",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "sourceKind": "not_found",
+      "reason": "2026-09-01 以 Chrome 人工檢查 official exact SKU 304.824.60 商品頁與 exact-model 上市／發售／開賣／launch／release 查詢；商品頁未列上市日，查詢結果未取得可採用的 exact-variant 原始發表或上市來源。",
+      "query": "\"304.824.60\" (上市 OR 發售 OR 開賣 OR launch OR release OR 史低 OR 價格歷史)",
+      "auditQueries": [
+        "\"304.824.60\" 上市 OR 發售 OR 開賣",
+        "\"304.824.60\" launch OR release"
+      ],
+      "checkedAt": "2026-09-01",
+      "auditDisposition": "not_found_after_review",
+      "checkedSources": [
+        {
+          "url": "https://www.ikea.com.tw/zh/products/bedlinen/sheets-and-pillow-cases/dvala-art-30482460",
+          "title": "DVALA 單人床包 白色 90×200 cm｜IKEA 台灣官方商城",
+          "outcome": "IKEA 台灣官方商城 exact SKU 304.824.60 商品頁提供現售規格，但未明示上市／發售日期。"
+        },
+        {
+          "url": "https://www.google.com/search?q=%22304.824.60%22%20(%E4%B8%8A%E5%B8%82%20OR%20%E7%99%BC%E5%94%AE%20OR%20%E9%96%8B%E8%B3%A3%20OR%20launch%20OR%20release%20OR%20%E5%8F%B2%E4%BD%8E%20OR%20%E5%83%B9%E6%A0%BC%E6%AD%B7%E5%8F%B2)",
+          "title": "Google exact-model query for 304.824.60",
+          "outcome": "人工檢查結果未找到可採用的 exact-variant 原始上市來源。"
+        }
+      ]
+    },
+    {
+      "id": "bedsheet-nitori-7516608",
+      "category": "bedsheet",
+      "brand": "NITORI",
+      "model": "7516608",
+      "name": "N FIT EVE2 伸縮床包 DBR 單人",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "sourceKind": "not_found",
+      "reason": "2026-09-01 以 Chrome 人工檢查 official exact SKU 7516608 商品頁與 exact-model 上市／發售／開賣／launch／release 查詢；商品頁未列上市日，查詢結果未取得可採用的 exact-variant 原始發表或上市來源；搜尋亦出現棒球藥檢、股票公告、Chromium issue 與唱片資料等純數字碰撞，人工判讀後均非 NITORI 床包。",
+      "query": "\"7516608\" (上市 OR 發售 OR 開賣 OR launch OR release OR 史低 OR 價格歷史)",
+      "auditQueries": [
+        "\"7516608\" 上市 OR 發售 OR 開賣",
+        "\"7516608\" launch OR release"
+      ],
+      "checkedAt": "2026-09-01",
+      "auditDisposition": "not_found_after_review",
+      "checkedSources": [
+        {
+          "url": "https://www.nitori-net.tw/product/7516608",
+          "title": "N FIT EVE2 伸縮床包 DBR 單人｜NITORI 宜得利台灣官方商城",
+          "outcome": "NITORI 宜得利台灣官方商城 exact SKU 7516608 商品頁提供現售規格，但未明示上市／發售日期。"
+        },
+        {
+          "url": "https://www.google.com/search?q=%227516608%22%20(%E4%B8%8A%E5%B8%82%20OR%20%E7%99%BC%E5%94%AE%20OR%20%E9%96%8B%E8%B3%A3%20OR%20launch%20OR%20release%20OR%20%E5%8F%B2%E4%BD%8E%20OR%20%E5%83%B9%E6%A0%BC%E6%AD%B7%E5%8F%B2)",
+          "title": "Google exact-model query for 7516608",
+          "outcome": "人工檢查結果未找到可採用的 exact-variant 原始上市來源；搜尋亦出現棒球藥檢、股票公告、Chromium issue 與唱片資料等純數字碰撞，人工判讀後均非 NITORI 床包。"
+        }
+      ]
+    },
+    {
+      "id": "bedsheet-ikea-60482449",
+      "category": "bedsheet",
+      "brand": "IKEA",
+      "model": "604.824.49",
+      "name": "DVALA 雙人床包 白色 150×200 cm",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "sourceKind": "not_found",
+      "reason": "2026-09-01 以 Chrome 人工檢查 official exact SKU 604.824.49 商品頁與 exact-model 上市／發售／開賣／launch／release 查詢；商品頁未列上市日，查詢結果未取得可採用的 exact-variant 原始發表或上市來源。",
+      "query": "\"604.824.49\" (上市 OR 發售 OR 開賣 OR launch OR release OR 史低 OR 價格歷史)",
+      "auditQueries": [
+        "\"604.824.49\" 上市 OR 發售 OR 開賣",
+        "\"604.824.49\" launch OR release"
+      ],
+      "checkedAt": "2026-09-01",
+      "auditDisposition": "not_found_after_review",
+      "checkedSources": [
+        {
+          "url": "https://www.ikea.com.tw/zh/products/bedlinen/sheets-and-pillow-cases/dvala-art-60482449",
+          "title": "DVALA 雙人床包 白色 150×200 cm｜IKEA 台灣官方商城",
+          "outcome": "IKEA 台灣官方商城 exact SKU 604.824.49 商品頁提供現售規格，但未明示上市／發售日期。"
+        },
+        {
+          "url": "https://www.google.com/search?q=%22604.824.49%22%20(%E4%B8%8A%E5%B8%82%20OR%20%E7%99%BC%E5%94%AE%20OR%20%E9%96%8B%E8%B3%A3%20OR%20launch%20OR%20release%20OR%20%E5%8F%B2%E4%BD%8E%20OR%20%E5%83%B9%E6%A0%BC%E6%AD%B7%E5%8F%B2)",
+          "title": "Google exact-model query for 604.824.49",
+          "outcome": "人工檢查結果未找到可採用的 exact-variant 原始上市來源。"
+        }
+      ]
+    },
+    {
+      "id": "bedsheet-ikea-60482454",
+      "category": "bedsheet",
+      "brand": "IKEA",
+      "model": "604.824.54",
+      "name": "DVALA 雙人加大床包 白色 180×200 cm",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "sourceKind": "not_found",
+      "reason": "2026-09-01 以 Chrome 人工檢查 official exact SKU 604.824.54 商品頁與 exact-model 上市／發售／開賣／launch／release 查詢；商品頁未列上市日，查詢結果未取得可採用的 exact-variant 原始發表或上市來源。",
+      "query": "\"604.824.54\" (上市 OR 發售 OR 開賣 OR launch OR release OR 史低 OR 價格歷史)",
+      "auditQueries": [
+        "\"604.824.54\" 上市 OR 發售 OR 開賣",
+        "\"604.824.54\" launch OR release"
+      ],
+      "checkedAt": "2026-09-01",
+      "auditDisposition": "not_found_after_review",
+      "checkedSources": [
+        {
+          "url": "https://www.ikea.com.tw/zh/products/bedlinen/sheets-and-pillow-cases/dvala-art-60482454",
+          "title": "DVALA 雙人加大床包 白色 180×200 cm｜IKEA 台灣官方商城",
+          "outcome": "IKEA 台灣官方商城 exact SKU 604.824.54 商品頁提供現售規格，但未明示上市／發售日期。"
+        },
+        {
+          "url": "https://www.google.com/search?q=%22604.824.54%22%20(%E4%B8%8A%E5%B8%82%20OR%20%E7%99%BC%E5%94%AE%20OR%20%E9%96%8B%E8%B3%A3%20OR%20launch%20OR%20release%20OR%20%E5%8F%B2%E4%BD%8E%20OR%20%E5%83%B9%E6%A0%BC%E6%AD%B7%E5%8F%B2)",
+          "title": "Google exact-model query for 604.824.54",
+          "outcome": "人工檢查結果未找到可採用的 exact-variant 原始上市來源。"
+        }
+      ]
+    },
+    {
+      "id": "bedsheet-nitori-7518718",
+      "category": "bedsheet",
+      "brand": "NITORI",
+      "model": "7518718",
+      "name": "WASH 水洗純棉多種厚度對應床包 DGY 單人",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "sourceKind": "not_found",
+      "reason": "2026-09-01 以 Chrome 人工檢查 official exact SKU 7518718 商品頁與 exact-model 上市／發售／開賣／launch／release 查詢；商品頁未列上市日，查詢結果未取得可採用的 exact-variant 原始發表或上市來源。",
+      "query": "\"7518718\" (上市 OR 發售 OR 開賣 OR launch OR release OR 史低 OR 價格歷史)",
+      "auditQueries": [
+        "\"7518718\" 上市 OR 發售 OR 開賣",
+        "\"7518718\" launch OR release"
+      ],
+      "checkedAt": "2026-09-01",
+      "auditDisposition": "not_found_after_review",
+      "checkedSources": [
+        {
+          "url": "https://www.nitori-net.tw/product/7518718",
+          "title": "WASH 水洗純棉多種厚度對應床包 DGY 單人｜NITORI 宜得利台灣官方商城",
+          "outcome": "NITORI 宜得利台灣官方商城 exact SKU 7518718 商品頁提供現售規格，但未明示上市／發售日期。"
+        },
+        {
+          "url": "https://www.google.com/search?q=%227518718%22%20(%E4%B8%8A%E5%B8%82%20OR%20%E7%99%BC%E5%94%AE%20OR%20%E9%96%8B%E8%B3%A3%20OR%20launch%20OR%20release%20OR%20%E5%8F%B2%E4%BD%8E%20OR%20%E5%83%B9%E6%A0%BC%E6%AD%B7%E5%8F%B2)",
+          "title": "Google exact-model query for 7518718",
+          "outcome": "人工檢查結果未找到可採用的 exact-variant 原始上市來源。"
+        }
+      ]
+    },
+    {
+      "id": "bedsheet-nitori-2115100119564",
+      "category": "bedsheet",
+      "brand": "NITORI",
+      "model": "2115100119564",
+      "name": "竹纖緞面多種厚度對應床包 GY S2611 單人",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "sourceKind": "not_found",
+      "reason": "2026-09-01 以 Chrome 人工檢查 official exact SKU 2115100119564 商品頁與 exact-model 上市／發售／開賣／launch／release 查詢；商品頁未列上市日，查詢結果未取得可採用的 exact-variant 原始發表或上市來源。",
+      "query": "\"2115100119564\" (上市 OR 發售 OR 開賣 OR launch OR release OR 史低 OR 價格歷史)",
+      "auditQueries": [
+        "\"2115100119564\" 上市 OR 發售 OR 開賣",
+        "\"2115100119564\" launch OR release"
+      ],
+      "checkedAt": "2026-09-01",
+      "auditDisposition": "not_found_after_review",
+      "checkedSources": [
+        {
+          "url": "https://www.nitori-net.tw/product/2115100119564",
+          "title": "竹纖緞面多種厚度對應床包 GY S2611 單人｜NITORI 宜得利台灣官方商城",
+          "outcome": "NITORI 宜得利台灣官方商城 exact SKU 2115100119564 商品頁提供現售規格，但未明示上市／發售日期。"
+        },
+        {
+          "url": "https://www.google.com/search?q=%222115100119564%22%20(%E4%B8%8A%E5%B8%82%20OR%20%E7%99%BC%E5%94%AE%20OR%20%E9%96%8B%E8%B3%A3%20OR%20launch%20OR%20release%20OR%20%E5%8F%B2%E4%BD%8E%20OR%20%E5%83%B9%E6%A0%BC%E6%AD%B7%E5%8F%B2)",
+          "title": "Google exact-model query for 2115100119564",
+          "outcome": "人工檢查結果未找到可採用的 exact-variant 原始上市來源。"
+        }
+      ]
+    },
+    {
+      "id": "bedsheet-ikea-20458856",
+      "category": "bedsheet",
+      "brand": "IKEA",
+      "model": "204.588.56",
+      "name": "HÖSTVÄDD 單人加寬涼感床包 120×200 cm",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "sourceKind": "not_found",
+      "reason": "2026-09-01 以 Chrome 人工檢查 official exact SKU 204.588.56 商品頁與 exact-model 上市／發售／開賣／launch／release 查詢；商品頁未列上市日，查詢結果未取得可採用的 exact-variant 原始發表或上市來源。",
+      "query": "\"204.588.56\" (上市 OR 發售 OR 開賣 OR launch OR release OR 史低 OR 價格歷史)",
+      "auditQueries": [
+        "\"204.588.56\" 上市 OR 發售 OR 開賣",
+        "\"204.588.56\" launch OR release"
+      ],
+      "checkedAt": "2026-09-01",
+      "auditDisposition": "not_found_after_review",
+      "checkedSources": [
+        {
+          "url": "https://www.ikea.com.tw/zh/products/bedlinen/sheets-and-pillow-cases/hostvadd-art-20458856",
+          "title": "HÖSTVÄDD 單人加寬涼感床包 120×200 cm｜IKEA 台灣官方商城",
+          "outcome": "IKEA 台灣官方商城 exact SKU 204.588.56 商品頁提供現售規格，但未明示上市／發售日期。"
+        },
+        {
+          "url": "https://www.google.com/search?q=%22204.588.56%22%20(%E4%B8%8A%E5%B8%82%20OR%20%E7%99%BC%E5%94%AE%20OR%20%E9%96%8B%E8%B3%A3%20OR%20launch%20OR%20release%20OR%20%E5%8F%B2%E4%BD%8E%20OR%20%E5%83%B9%E6%A0%BC%E6%AD%B7%E5%8F%B2)",
+          "title": "Google exact-model query for 204.588.56",
+          "outcome": "人工檢查結果未找到可採用的 exact-variant 原始上市來源。"
+        }
+      ]
+    },
+    {
+      "id": "bedsheet-ikea-00458857",
+      "category": "bedsheet",
+      "brand": "IKEA",
+      "model": "004.588.57",
+      "name": "HÖSTVÄDD 雙人涼感床包 150×200 cm",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "sourceKind": "not_found",
+      "reason": "2026-09-01 以 Chrome 人工檢查 official exact SKU 004.588.57 商品頁與 exact-model 上市／發售／開賣／launch／release 查詢；商品頁未列上市日，查詢結果未取得可採用的 exact-variant 原始發表或上市來源。",
+      "query": "\"004.588.57\" (上市 OR 發售 OR 開賣 OR launch OR release OR 史低 OR 價格歷史)",
+      "auditQueries": [
+        "\"004.588.57\" 上市 OR 發售 OR 開賣",
+        "\"004.588.57\" launch OR release"
+      ],
+      "checkedAt": "2026-09-01",
+      "auditDisposition": "not_found_after_review",
+      "checkedSources": [
+        {
+          "url": "https://www.ikea.com.tw/zh/products/bedlinen/sheets-and-pillow-cases/hostvadd-art-00458857",
+          "title": "HÖSTVÄDD 雙人涼感床包 150×200 cm｜IKEA 台灣官方商城",
+          "outcome": "IKEA 台灣官方商城 exact SKU 004.588.57 商品頁提供現售規格，但未明示上市／發售日期。"
+        },
+        {
+          "url": "https://www.google.com/search?q=%22004.588.57%22%20(%E4%B8%8A%E5%B8%82%20OR%20%E7%99%BC%E5%94%AE%20OR%20%E9%96%8B%E8%B3%A3%20OR%20launch%20OR%20release%20OR%20%E5%8F%B2%E4%BD%8E%20OR%20%E5%83%B9%E6%A0%BC%E6%AD%B7%E5%8F%B2)",
+          "title": "Google exact-model query for 004.588.57",
+          "outcome": "人工檢查結果未找到可採用的 exact-variant 原始上市來源。"
+        }
+      ]
+    },
+    {
+      "id": "bedsheet-ikea-80458858",
+      "category": "bedsheet",
+      "brand": "IKEA",
+      "model": "804.588.58",
+      "name": "HÖSTVÄDD 雙人加大涼感床包 180×200 cm",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "sourceKind": "not_found",
+      "reason": "2026-09-01 以 Chrome 人工檢查 official exact SKU 804.588.58 商品頁與 exact-model 上市／發售／開賣／launch／release 查詢；商品頁未列上市日，查詢結果未取得可採用的 exact-variant 原始發表或上市來源。",
+      "query": "\"804.588.58\" (上市 OR 發售 OR 開賣 OR launch OR release OR 史低 OR 價格歷史)",
+      "auditQueries": [
+        "\"804.588.58\" 上市 OR 發售 OR 開賣",
+        "\"804.588.58\" launch OR release"
+      ],
+      "checkedAt": "2026-09-01",
+      "auditDisposition": "not_found_after_review",
+      "checkedSources": [
+        {
+          "url": "https://www.ikea.com.tw/zh/products/bedlinen/sheets-and-pillow-cases/hostvadd-art-80458858",
+          "title": "HÖSTVÄDD 雙人加大涼感床包 180×200 cm｜IKEA 台灣官方商城",
+          "outcome": "IKEA 台灣官方商城 exact SKU 804.588.58 商品頁提供現售規格，但未明示上市／發售日期。"
+        },
+        {
+          "url": "https://www.google.com/search?q=%22804.588.58%22%20(%E4%B8%8A%E5%B8%82%20OR%20%E7%99%BC%E5%94%AE%20OR%20%E9%96%8B%E8%B3%A3%20OR%20launch%20OR%20release%20OR%20%E5%8F%B2%E4%BD%8E%20OR%20%E5%83%B9%E6%A0%BC%E6%AD%B7%E5%8F%B2)",
+          "title": "Google exact-model query for 804.588.58",
+          "outcome": "人工檢查結果未找到可採用的 exact-variant 原始上市來源。"
+        }
+      ]
+    },
+    {
+      "id": "bedsheet-nitori-2115100107202",
+      "category": "bedsheet",
+      "brand": "NITORI",
+      "model": "2115100107202",
+      "name": "N FIT FT05 COTTON 伸縮床包 GY 單人",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "sourceKind": "not_found",
+      "reason": "2026-09-01 以 Chrome 人工檢查 official exact SKU 2115100107202 商品頁與 exact-model 上市／發售／開賣／launch／release 查詢；商品頁未列上市日，查詢結果未取得可採用的 exact-variant 原始發表或上市來源。",
+      "query": "\"2115100107202\" (上市 OR 發售 OR 開賣 OR launch OR release OR 史低 OR 價格歷史)",
+      "auditQueries": [
+        "\"2115100107202\" 上市 OR 發售 OR 開賣",
+        "\"2115100107202\" launch OR release"
+      ],
+      "checkedAt": "2026-09-01",
+      "auditDisposition": "not_found_after_review",
+      "checkedSources": [
+        {
+          "url": "https://www.nitori-net.tw/product/2115100107202",
+          "title": "N FIT FT05 COTTON 伸縮床包 GY 單人｜NITORI 宜得利台灣官方商城",
+          "outcome": "NITORI 宜得利台灣官方商城 exact SKU 2115100107202 商品頁提供現售規格，但未明示上市／發售日期。"
+        },
+        {
+          "url": "https://www.google.com/search?q=%222115100107202%22%20(%E4%B8%8A%E5%B8%82%20OR%20%E7%99%BC%E5%94%AE%20OR%20%E9%96%8B%E8%B3%A3%20OR%20launch%20OR%20release%20OR%20%E5%8F%B2%E4%BD%8E%20OR%20%E5%83%B9%E6%A0%BC%E6%AD%B7%E5%8F%B2)",
+          "title": "Google exact-model query for 2115100107202",
+          "outcome": "人工檢查結果未找到可採用的 exact-variant 原始上市來源。"
+        }
+      ]
+    },
+    {
+      "id": "bedsheet-nitori-2115100006123",
+      "category": "bedsheet",
+      "brand": "NITORI",
+      "model": "2115100006123",
+      "name": "PT30 BOTANICAL 純棉多種厚度對應床包 RO 單人",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "sourceKind": "not_found",
+      "reason": "2026-09-01 以 Chrome 人工檢查 official exact SKU 2115100006123 商品頁與 exact-model 上市／發售／開賣／launch／release 查詢；商品頁未列上市日，查詢結果未取得可採用的 exact-variant 原始發表或上市來源。",
+      "query": "\"2115100006123\" (上市 OR 發售 OR 開賣 OR launch OR release OR 史低 OR 價格歷史)",
+      "auditQueries": [
+        "\"2115100006123\" 上市 OR 發售 OR 開賣",
+        "\"2115100006123\" launch OR release"
+      ],
+      "checkedAt": "2026-09-01",
+      "auditDisposition": "not_found_after_review",
+      "checkedSources": [
+        {
+          "url": "https://www.nitori-net.tw/product/2115100006123",
+          "title": "PT30 BOTANICAL 純棉多種厚度對應床包 RO 單人｜NITORI 宜得利台灣官方商城",
+          "outcome": "NITORI 宜得利台灣官方商城 exact SKU 2115100006123 商品頁提供現售規格，但未明示上市／發售日期。"
+        },
+        {
+          "url": "https://www.google.com/search?q=%222115100006123%22%20(%E4%B8%8A%E5%B8%82%20OR%20%E7%99%BC%E5%94%AE%20OR%20%E9%96%8B%E8%B3%A3%20OR%20launch%20OR%20release%20OR%20%E5%8F%B2%E4%BD%8E%20OR%20%E5%83%B9%E6%A0%BC%E6%AD%B7%E5%8F%B2)",
+          "title": "Google exact-model query for 2115100006123",
+          "outcome": "人工檢查結果未找到可採用的 exact-variant 原始上市來源。"
+        }
+      ]
+    },
+    {
+      "id": "bedsheet-nitori-7518634",
+      "category": "bedsheet",
+      "brand": "NITORI",
+      "model": "7518634",
+      "name": "天絲塞內加爾床包 單人 105×186 cm",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "sourceKind": "not_found",
+      "reason": "2026-09-01 以 Chrome 人工檢查 official exact SKU 7518634 商品頁與 exact-model 上市／發售／開賣／launch／release 查詢；商品頁未列上市日，查詢結果未取得可採用的 exact-variant 原始發表或上市來源。",
+      "query": "\"7518634\" (上市 OR 發售 OR 開賣 OR launch OR release OR 史低 OR 價格歷史)",
+      "auditQueries": [
+        "\"7518634\" 上市 OR 發售 OR 開賣",
+        "\"7518634\" launch OR release"
+      ],
+      "checkedAt": "2026-09-01",
+      "auditDisposition": "not_found_after_review",
+      "checkedSources": [
+        {
+          "url": "https://www.nitori-net.tw/product/7518634",
+          "title": "天絲塞內加爾床包 單人 105×186 cm｜NITORI 宜得利台灣官方商城",
+          "outcome": "NITORI 宜得利台灣官方商城 exact SKU 7518634 商品頁提供現售規格，但未明示上市／發售日期。"
+        },
+        {
+          "url": "https://www.google.com/search?q=%227518634%22%20(%E4%B8%8A%E5%B8%82%20OR%20%E7%99%BC%E5%94%AE%20OR%20%E9%96%8B%E8%B3%A3%20OR%20launch%20OR%20release%20OR%20%E5%8F%B2%E4%BD%8E%20OR%20%E5%83%B9%E6%A0%BC%E6%AD%B7%E5%8F%B2)",
+          "title": "Google exact-model query for 7518634",
+          "outcome": "人工檢查結果未找到可採用的 exact-variant 原始上市來源。"
+        }
+      ]
+    },
+    {
+      "id": "bedsheet-nitori-2115100004365",
+      "category": "bedsheet",
+      "brand": "NITORI",
+      "model": "2115100004365",
+      "name": "N FIT FT01 PREMIUM 莫代爾伸縮床包 GY 單人",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "sourceKind": "not_found",
+      "reason": "2026-09-01 以 Chrome 人工檢查 official exact SKU 2115100004365 商品頁與 exact-model 上市／發售／開賣／launch／release 查詢；商品頁未列上市日，查詢結果未取得可採用的 exact-variant 原始發表或上市來源。",
+      "query": "\"2115100004365\" (上市 OR 發售 OR 開賣 OR launch OR release OR 史低 OR 價格歷史)",
+      "auditQueries": [
+        "\"2115100004365\" 上市 OR 發售 OR 開賣",
+        "\"2115100004365\" launch OR release"
+      ],
+      "checkedAt": "2026-09-01",
+      "auditDisposition": "not_found_after_review",
+      "checkedSources": [
+        {
+          "url": "https://www.nitori-net.tw/product/2115100004365",
+          "title": "N FIT FT01 PREMIUM 莫代爾伸縮床包 GY 單人｜NITORI 宜得利台灣官方商城",
+          "outcome": "NITORI 宜得利台灣官方商城 exact SKU 2115100004365 商品頁提供現售規格，但未明示上市／發售日期。"
+        },
+        {
+          "url": "https://www.google.com/search?q=%222115100004365%22%20(%E4%B8%8A%E5%B8%82%20OR%20%E7%99%BC%E5%94%AE%20OR%20%E9%96%8B%E8%B3%A3%20OR%20launch%20OR%20release%20OR%20%E5%8F%B2%E4%BD%8E%20OR%20%E5%83%B9%E6%A0%BC%E6%AD%B7%E5%8F%B2)",
+          "title": "Google exact-model query for 2115100004365",
+          "outcome": "人工檢查結果未找到可採用的 exact-variant 原始上市來源。"
+        }
+      ]
+    },
+    {
+      "id": "bedsheet-nitori-2115100006703",
+      "category": "bedsheet",
+      "brand": "NITORI",
+      "model": "2115100006703",
+      "name": "N FIT PLAIN 伸縮床包 IV 雙人",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "sourceKind": "not_found",
+      "reason": "2026-09-01 以 Chrome 人工檢查 official exact SKU 2115100006703 商品頁與 exact-model 上市／發售／開賣／launch／release 查詢；商品頁未列上市日，查詢結果未取得可採用的 exact-variant 原始發表或上市來源。",
+      "query": "\"2115100006703\" (上市 OR 發售 OR 開賣 OR launch OR release OR 史低 OR 價格歷史)",
+      "auditQueries": [
+        "\"2115100006703\" 上市 OR 發售 OR 開賣",
+        "\"2115100006703\" launch OR release"
+      ],
+      "checkedAt": "2026-09-01",
+      "auditDisposition": "not_found_after_review",
+      "checkedSources": [
+        {
+          "url": "https://www.nitori-net.tw/product/2115100006703",
+          "title": "N FIT PLAIN 伸縮床包 IV 雙人｜NITORI 宜得利台灣官方商城",
+          "outcome": "NITORI 宜得利台灣官方商城 exact SKU 2115100006703 商品頁提供現售規格，但未明示上市／發售日期。"
+        },
+        {
+          "url": "https://www.google.com/search?q=%222115100006703%22%20(%E4%B8%8A%E5%B8%82%20OR%20%E7%99%BC%E5%94%AE%20OR%20%E9%96%8B%E8%B3%A3%20OR%20launch%20OR%20release%20OR%20%E5%8F%B2%E4%BD%8E%20OR%20%E5%83%B9%E6%A0%BC%E6%AD%B7%E5%8F%B2)",
+          "title": "Google exact-model query for 2115100006703",
+          "outcome": "人工檢查結果未找到可採用的 exact-variant 原始上市來源。"
+        }
+      ]
+    },
+    {
+      "id": "bedsheet-ikea-40335548",
+      "category": "bedsheet",
+      "brand": "IKEA",
+      "model": "403.355.48",
+      "name": "ULLVIDE 單人床包 灰色 90×200 cm",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "sourceKind": "not_found",
+      "reason": "2026-09-01 以 Chrome 人工檢查 official exact SKU 403.355.48 商品頁與 exact-model 上市／發售／開賣／launch／release 查詢；商品頁未列上市日，查詢結果未取得可採用的 exact-variant 原始發表或上市來源。",
+      "query": "\"403.355.48\" (上市 OR 發售 OR 開賣 OR launch OR release OR 史低 OR 價格歷史)",
+      "auditQueries": [
+        "\"403.355.48\" 上市 OR 發售 OR 開賣",
+        "\"403.355.48\" launch OR release"
+      ],
+      "checkedAt": "2026-09-01",
+      "auditDisposition": "not_found_after_review",
+      "checkedSources": [
+        {
+          "url": "https://www.ikea.com.tw/zh/products/bedlinen/sheets-and-pillow-cases/ullvide-art-40335548",
+          "title": "ULLVIDE 單人床包 灰色 90×200 cm｜IKEA 台灣官方商城",
+          "outcome": "IKEA 台灣官方商城 exact SKU 403.355.48 商品頁提供現售規格，但未明示上市／發售日期。"
+        },
+        {
+          "url": "https://www.google.com/search?q=%22403.355.48%22%20(%E4%B8%8A%E5%B8%82%20OR%20%E7%99%BC%E5%94%AE%20OR%20%E9%96%8B%E8%B3%A3%20OR%20launch%20OR%20release%20OR%20%E5%8F%B2%E4%BD%8E%20OR%20%E5%83%B9%E6%A0%BC%E6%AD%B7%E5%8F%B2)",
+          "title": "Google exact-model query for 403.355.48",
+          "outcome": "人工檢查結果未找到可採用的 exact-variant 原始上市來源。"
+        }
+      ]
+    },
+    {
+      "id": "bedsheet-ikea-90342773",
+      "category": "bedsheet",
+      "brand": "IKEA",
+      "model": "903.427.73",
+      "name": "ULLVIDE 雙人加大床包 深藍色 180×200 cm",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "sourceKind": "not_found",
+      "reason": "2026-09-01 以 Chrome 人工檢查 official exact SKU 903.427.73 商品頁與 exact-model 上市／發售／開賣／launch／release 查詢；商品頁未列上市日，查詢結果未取得可採用的 exact-variant 原始發表或上市來源。",
+      "query": "\"903.427.73\" (上市 OR 發售 OR 開賣 OR launch OR release OR 史低 OR 價格歷史)",
+      "auditQueries": [
+        "\"903.427.73\" 上市 OR 發售 OR 開賣",
+        "\"903.427.73\" launch OR release"
+      ],
+      "checkedAt": "2026-09-01",
+      "auditDisposition": "not_found_after_review",
+      "checkedSources": [
+        {
+          "url": "https://www.ikea.com.tw/zh/products/bedlinen/sheets-and-pillow-cases/ullvide-art-90342773",
+          "title": "ULLVIDE 雙人加大床包 深藍色 180×200 cm｜IKEA 台灣官方商城",
+          "outcome": "IKEA 台灣官方商城 exact SKU 903.427.73 商品頁提供現售規格，但未明示上市／發售日期。"
+        },
+        {
+          "url": "https://www.google.com/search?q=%22903.427.73%22%20(%E4%B8%8A%E5%B8%82%20OR%20%E7%99%BC%E5%94%AE%20OR%20%E9%96%8B%E8%B3%A3%20OR%20launch%20OR%20release%20OR%20%E5%8F%B2%E4%BD%8E%20OR%20%E5%83%B9%E6%A0%BC%E6%AD%B7%E5%8F%B2)",
+          "title": "Google exact-model query for 903.427.73",
+          "outcome": "人工檢查結果未找到可採用的 exact-variant 原始上市來源。"
+        }
+      ]
+    },
+    {
+      "id": "bedsheet-ikea-00442668",
+      "category": "bedsheet",
+      "brand": "IKEA",
+      "model": "004.426.68",
+      "name": "NATTJASMIN 單人加寬床包 深灰色 120×200 cm",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "sourceKind": "not_found",
+      "reason": "2026-09-01 以 Chrome 人工檢查 official exact SKU 004.426.68 商品頁與 exact-model 上市／發售／開賣／launch／release 查詢；商品頁未列上市日，查詢結果未取得可採用的 exact-variant 原始發表或上市來源。",
+      "query": "\"004.426.68\" (上市 OR 發售 OR 開賣 OR launch OR release OR 史低 OR 價格歷史)",
+      "auditQueries": [
+        "\"004.426.68\" 上市 OR 發售 OR 開賣",
+        "\"004.426.68\" launch OR release"
+      ],
+      "checkedAt": "2026-09-01",
+      "auditDisposition": "not_found_after_review",
+      "checkedSources": [
+        {
+          "url": "https://www.ikea.com.tw/zh/products/bedlinen/sheets-and-pillow-cases/nattjasmin-art-00442668",
+          "title": "NATTJASMIN 單人加寬床包 深灰色 120×200 cm｜IKEA 台灣官方商城",
+          "outcome": "IKEA 台灣官方商城 exact SKU 004.426.68 商品頁提供現售規格，但未明示上市／發售日期。"
+        },
+        {
+          "url": "https://www.google.com/search?q=%22004.426.68%22%20(%E4%B8%8A%E5%B8%82%20OR%20%E7%99%BC%E5%94%AE%20OR%20%E9%96%8B%E8%B3%A3%20OR%20launch%20OR%20release%20OR%20%E5%8F%B2%E4%BD%8E%20OR%20%E5%83%B9%E6%A0%BC%E6%AD%B7%E5%8F%B2)",
+          "title": "Google exact-model query for 004.426.68",
+          "outcome": "人工檢查結果未找到可採用的 exact-variant 原始上市來源。"
+        }
+      ]
+    },
+    {
+      "id": "bedsheet-ikea-90442678",
+      "category": "bedsheet",
+      "brand": "IKEA",
+      "model": "904.426.78",
+      "name": "NATTJASMIN 雙人加大床包 深灰色 180×200 cm",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "sourceKind": "not_found",
+      "reason": "2026-09-01 以 Chrome 人工檢查 official exact SKU 904.426.78 商品頁與 exact-model 上市／發售／開賣／launch／release 查詢；商品頁未列上市日，查詢結果未取得可採用的 exact-variant 原始發表或上市來源。",
+      "query": "\"904.426.78\" (上市 OR 發售 OR 開賣 OR launch OR release OR 史低 OR 價格歷史)",
+      "auditQueries": [
+        "\"904.426.78\" 上市 OR 發售 OR 開賣",
+        "\"904.426.78\" launch OR release"
+      ],
+      "checkedAt": "2026-09-01",
+      "auditDisposition": "not_found_after_review",
+      "checkedSources": [
+        {
+          "url": "https://www.ikea.com.tw/zh/products/bedlinen/sheets-and-pillow-cases/nattjasmin-art-90442678",
+          "title": "NATTJASMIN 雙人加大床包 深灰色 180×200 cm｜IKEA 台灣官方商城",
+          "outcome": "IKEA 台灣官方商城 exact SKU 904.426.78 商品頁提供現售規格，但未明示上市／發售日期。"
+        },
+        {
+          "url": "https://www.google.com/search?q=%22904.426.78%22%20(%E4%B8%8A%E5%B8%82%20OR%20%E7%99%BC%E5%94%AE%20OR%20%E9%96%8B%E8%B3%A3%20OR%20launch%20OR%20release%20OR%20%E5%8F%B2%E4%BD%8E%20OR%20%E5%83%B9%E6%A0%BC%E6%AD%B7%E5%8F%B2)",
+          "title": "Google exact-model query for 904.426.78",
+          "outcome": "人工檢查結果未找到可採用的 exact-variant 原始上市來源。"
+        }
+      ]
+    },
+    {
+      "id": "bedsheet-nitori-2115100027623",
+      "category": "bedsheet",
+      "brand": "NITORI",
+      "model": "2115100027623",
+      "name": "ORCHID 100% 天絲床包 單人",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "sourceKind": "not_found",
+      "reason": "2026-09-01 以 Chrome 人工檢查 official exact SKU 2115100027623 商品頁與 exact-model 上市／發售／開賣／launch／release 查詢；商品頁未列上市日，查詢結果未取得可採用的 exact-variant 原始發表或上市來源。",
+      "query": "\"2115100027623\" (上市 OR 發售 OR 開賣 OR launch OR release OR 史低 OR 價格歷史)",
+      "auditQueries": [
+        "\"2115100027623\" 上市 OR 發售 OR 開賣",
+        "\"2115100027623\" launch OR release"
+      ],
+      "checkedAt": "2026-09-01",
+      "auditDisposition": "not_found_after_review",
+      "checkedSources": [
+        {
+          "url": "https://www.nitori-net.tw/product/2115100027623",
+          "title": "ORCHID 100% 天絲床包 單人｜NITORI 宜得利台灣官方商城",
+          "outcome": "NITORI 宜得利台灣官方商城 exact SKU 2115100027623 商品頁提供現售規格，但未明示上市／發售日期。"
+        },
+        {
+          "url": "https://www.google.com/search?q=%222115100027623%22%20(%E4%B8%8A%E5%B8%82%20OR%20%E7%99%BC%E5%94%AE%20OR%20%E9%96%8B%E8%B3%A3%20OR%20launch%20OR%20release%20OR%20%E5%8F%B2%E4%BD%8E%20OR%20%E5%83%B9%E6%A0%BC%E6%AD%B7%E5%8F%B2)",
+          "title": "Google exact-model query for 2115100027623",
+          "outcome": "人工檢查結果未找到可採用的 exact-variant 原始上市來源。"
+        }
+      ]
+    },
+    {
+      "id": "bedsheet-nitori-2115100123042",
+      "category": "bedsheet",
+      "brand": "NITORI",
+      "model": "2115100123042",
+      "name": "精梳棉純棉床包 LGR 單人",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "sourceKind": "not_found",
+      "reason": "2026-09-01 以 Chrome 人工檢查 official exact SKU 2115100123042 商品頁與 exact-model 上市／發售／開賣／launch／release 查詢；商品頁未列上市日，查詢結果未取得可採用的 exact-variant 原始發表或上市來源。",
+      "query": "\"2115100123042\" (上市 OR 發售 OR 開賣 OR launch OR release OR 史低 OR 價格歷史)",
+      "auditQueries": [
+        "\"2115100123042\" 上市 OR 發售 OR 開賣",
+        "\"2115100123042\" launch OR release"
+      ],
+      "checkedAt": "2026-09-01",
+      "auditDisposition": "not_found_after_review",
+      "checkedSources": [
+        {
+          "url": "https://www.nitori-net.tw/product/2115100123042",
+          "title": "精梳棉純棉床包 LGR 單人｜NITORI 宜得利台灣官方商城",
+          "outcome": "NITORI 宜得利台灣官方商城 exact SKU 2115100123042 商品頁提供現售規格，但未明示上市／發售日期。"
+        },
+        {
+          "url": "https://www.google.com/search?q=%222115100123042%22%20(%E4%B8%8A%E5%B8%82%20OR%20%E7%99%BC%E5%94%AE%20OR%20%E9%96%8B%E8%B3%A3%20OR%20launch%20OR%20release%20OR%20%E5%8F%B2%E4%BD%8E%20OR%20%E5%83%B9%E6%A0%BC%E6%AD%B7%E5%8F%B2)",
+          "title": "Google exact-model query for 2115100123042",
+          "outcome": "人工檢查結果未找到可採用的 exact-variant 原始上市來源。"
+        }
+      ]
+    },
+    {
+      "id": "bedsheet-nitori-2115100119403",
+      "category": "bedsheet",
+      "brand": "NITORI",
+      "model": "2115100119403",
+      "name": "N FIT N COOL 極冷 GY 26NC-04 接觸涼感伸縮床包 單人",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "sourceKind": "not_found",
+      "reason": "2026-09-01 以 Chrome 人工檢查 official exact SKU 2115100119403 商品頁與 exact-model 上市／發售／開賣／launch／release 查詢；商品頁未列上市日，查詢結果未取得可採用的 exact-variant 原始發表或上市來源。",
+      "query": "\"2115100119403\" (上市 OR 發售 OR 開賣 OR launch OR release OR 史低 OR 價格歷史)",
+      "auditQueries": [
+        "\"2115100119403\" 上市 OR 發售 OR 開賣",
+        "\"2115100119403\" launch OR release"
+      ],
+      "checkedAt": "2026-09-01",
+      "auditDisposition": "not_found_after_review",
+      "checkedSources": [
+        {
+          "url": "https://24h.pchome.com.tw/prod/DQCI0J-A900JTB2E",
+          "title": "N FIT N COOL 極冷 GY 26NC-04 接觸涼感伸縮床包 單人｜PChome 24h NITORI 宜得利新品頁",
+          "outcome": "PChome 24h NITORI 宜得利新品頁 exact SKU 2115100119403 商品頁提供現售規格，但未明示上市／發售日期。"
+        },
+        {
+          "url": "https://www.nitori-net.tw/product/2115100119359s",
+          "title": "N FIT N COOL 極冷 GY 26NC-04 接觸涼感伸縮床包 單人｜NITORI 台灣官方系列頁選定商品編號 2115100119403",
+          "outcome": "Chrome 人工確認官方頁所選商品編號為 2115100119403、同一單人 GY 版本與規格，但未明示上市／發售日期。"
+        },
+        {
+          "url": "https://www.bing.com/search?q=%222115100119403%22%20(%E4%B8%8A%E5%B8%82%20OR%20%E7%99%BC%E5%94%AE%20OR%20%E9%96%8B%E8%B3%A3%20OR%20launch%20OR%20release%20OR%20%E5%8F%B2%E4%BD%8E%20OR%20%E5%83%B9%E6%A0%BC%E6%AD%B7%E5%8F%B2)",
+          "title": "Bing exact-model query for 2115100119403",
+          "outcome": "人工檢查結果未找到可採用的 exact-variant 原始上市來源。"
+        }
+      ]
+    },
+    {
+      "id": "bedsheet-nitori-2115100027647",
+      "category": "bedsheet",
+      "brand": "NITORI",
+      "model": "2115100027647",
+      "name": "ORCHID 100% 天絲床包 雙人加大",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "sourceKind": "not_found",
+      "reason": "2026-09-01 以 Chrome 人工檢查 official exact SKU 2115100027647 商品頁與 exact-model 上市／發售／開賣／launch／release 查詢；商品頁未列上市日，查詢結果未取得可採用的 exact-variant 原始發表或上市來源。",
+      "query": "\"2115100027647\" (上市 OR 發售 OR 開賣 OR launch OR release OR 史低 OR 價格歷史)",
+      "auditQueries": [
+        "\"2115100027647\" 上市 OR 發售 OR 開賣",
+        "\"2115100027647\" launch OR release"
+      ],
+      "checkedAt": "2026-09-01",
+      "auditDisposition": "not_found_after_review",
+      "checkedSources": [
+        {
+          "url": "https://www.nitori-net.tw/product/2115100027647",
+          "title": "ORCHID 100% 天絲床包 雙人加大｜NITORI 宜得利台灣官方商城",
+          "outcome": "NITORI 宜得利台灣官方商城 exact SKU 2115100027647 商品頁提供現售規格，但未明示上市／發售日期。"
+        },
+        {
+          "url": "https://24h.pchome.com.tw/prod/DQCI0M-A900HW999",
+          "title": "ORCHID 100% 天絲床包 雙人加大｜PChome 24h exact 原廠編號頁",
+          "outcome": "PChome 頁明示原廠編號 2115100027647 與同尺寸現價，但未明示上市日；消費者評價日不得作上市日。"
+        },
+        {
+          "url": "https://www.bing.com/search?q=%222115100027647%22%20(%E4%B8%8A%E5%B8%82%20OR%20%E7%99%BC%E5%94%AE%20OR%20%E9%96%8B%E8%B3%A3%20OR%20launch%20OR%20release%20OR%20%E5%8F%B2%E4%BD%8E%20OR%20%E5%83%B9%E6%A0%BC%E6%AD%B7%E5%8F%B2)",
+          "title": "Bing exact-model query for 2115100027647",
+          "outcome": "人工檢查結果未找到可採用的 exact-variant 原始上市來源。"
+        }
+      ]
+    },
+    {
+      "id": "bedsheet-nitori-2115100053394",
+      "category": "bedsheet",
+      "brand": "NITORI",
+      "model": "2115100053394",
+      "name": "N COOL WSP D2518 極致涼感伸縮床包 BL 雙人加大",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "sourceKind": "not_found",
+      "reason": "2026-09-01 以 Chrome 人工檢查 official exact SKU 2115100053394 商品頁與 exact-model 上市／發售／開賣／launch／release 查詢；商品頁未列上市日，查詢結果未取得可採用的 exact-variant 原始發表或上市來源。",
+      "query": "\"2115100053394\" (上市 OR 發售 OR 開賣 OR launch OR release OR 史低 OR 價格歷史)",
+      "auditQueries": [
+        "\"2115100053394\" 上市 OR 發售 OR 開賣",
+        "\"2115100053394\" launch OR release"
+      ],
+      "checkedAt": "2026-09-01",
+      "auditDisposition": "not_found_after_review",
+      "checkedSources": [
+        {
+          "url": "https://www.nitori-net.tw/product/2115100053394",
+          "title": "N COOL WSP D2518 極致涼感伸縮床包 BL 雙人加大｜NITORI 宜得利台灣官方商城",
+          "outcome": "NITORI 宜得利台灣官方商城 exact SKU 2115100053394 商品頁提供現售規格，但未明示上市／發售日期。"
+        },
+        {
+          "url": "https://www.google.com/search?q=%222115100053394%22%20(%E4%B8%8A%E5%B8%82%20OR%20%E7%99%BC%E5%94%AE%20OR%20%E9%96%8B%E8%B3%A3%20OR%20launch%20OR%20release%20OR%20%E5%8F%B2%E4%BD%8E%20OR%20%E5%83%B9%E6%A0%BC%E6%AD%B7%E5%8F%B2)",
+          "title": "Google exact-model query for 2115100053394",
+          "outcome": "人工檢查結果未找到可採用的 exact-variant 原始上市來源。"
+        }
+      ]
+    },
+    {
+      "id": "bedsheet-nitori-2115100053264",
+      "category": "bedsheet",
+      "brand": "NITORI",
+      "model": "2115100053264",
+      "name": "N COOL SP 25NC-11 進階涼感伸縮床包 BL 雙人加大",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "sourceKind": "not_found",
+      "reason": "2026-09-01 以 Chrome 人工檢查 official exact SKU 2115100053264 商品頁與 exact-model 上市／發售／開賣／launch／release 查詢；商品頁未列上市日，查詢結果未取得可採用的 exact-variant 原始發表或上市來源。",
+      "query": "\"2115100053264\" (上市 OR 發售 OR 開賣 OR launch OR release OR 史低 OR 價格歷史)",
+      "auditQueries": [
+        "\"2115100053264\" 上市 OR 發售 OR 開賣",
+        "\"2115100053264\" launch OR release"
+      ],
+      "checkedAt": "2026-09-01",
+      "auditDisposition": "not_found_after_review",
+      "checkedSources": [
+        {
+          "url": "https://www.nitori-net.tw/product/2115100053264",
+          "title": "N COOL SP 25NC-11 進階涼感伸縮床包 BL 雙人加大｜NITORI 宜得利台灣官方商城",
+          "outcome": "NITORI 宜得利台灣官方商城 exact SKU 2115100053264 商品頁提供現售規格，但未明示上市／發售日期。"
+        },
+        {
+          "url": "https://www.google.com/search?q=%222115100053264%22%20(%E4%B8%8A%E5%B8%82%20OR%20%E7%99%BC%E5%94%AE%20OR%20%E9%96%8B%E8%B3%A3%20OR%20launch%20OR%20release%20OR%20%E5%8F%B2%E4%BD%8E%20OR%20%E5%83%B9%E6%A0%BC%E6%AD%B7%E5%8F%B2)",
+          "title": "Google exact-model query for 2115100053264",
+          "outcome": "人工檢查結果未找到可採用的 exact-variant 原始上市來源。"
+        }
+      ]
+    },
+    {
+      "id": "comforter-hola-wool-016788505",
+      "category": "comforter",
+      "brand": "HOLA",
+      "model": "016788505",
+      "name": "100%可水洗法國羊毛防蟎冬被雙人（016788505）",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "query": "\"016788505\" release OR launch OR 上市 OR 發售",
+      "auditQueries": [
+        "\"016788505\" 上市 OR 發售 OR 開賣",
+        "\"016788505\" launch OR release"
+      ],
+      "sourceKind": "not_found",
+      "reason": "2026-09-01 已核對 exact SKU 016788505 的原始商品頁，並以完整型號查上市／發售／launch／release；未取得可採用的 exact-variant 原始發布日期。未把評論日期、促銷期間、頁面上架時間、型號年份或相近版本日期套用。",
+      "checkedAt": "2026-09-01",
+      "auditDisposition": "not_found_after_review",
+      "checkedSources": [
+        {
+          "url": "https://www.momoshop.com.tw/TP/TP0006553/goodsDetail/TP00065530008496",
+          "title": "100%可水洗法國羊毛防蟎冬被雙人（016788505）｜momo HOLA 官方店",
+          "outcome": "exact SKU 016788505 現售頁未明示上市／發售日。"
+        },
+        {
+          "url": "https://www.google.com/search?q=%22016788505%22%20release%20OR%20launch%20OR%20%E4%B8%8A%E5%B8%82%20OR%20%E7%99%BC%E5%94%AE",
+          "title": "exact-model release query for 016788505",
+          "outcome": "未找到可採用的 exact-variant 原始上市來源。"
+        }
+      ]
+    },
+    {
+      "id": "comforter-ikea-skogsfraken-70618640",
+      "category": "comforter",
+      "brand": "IKEA",
+      "model": "706.186.40",
+      "name": "SKOGSFRÄKEN 四季被 150×200 cm（706.186.40）",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "query": "\"706.186.40\" release OR launch OR 上市 OR 發售",
+      "auditQueries": [
+        "\"706.186.40\" 上市 OR 發售 OR 開賣",
+        "\"706.186.40\" launch OR release"
+      ],
+      "sourceKind": "not_found",
+      "reason": "2026-09-01 已核對 exact SKU 706.186.40 的原始商品頁，並以完整型號查上市／發售／launch／release；未取得可採用的 exact-variant 原始發布日期。未把評論日期、促銷期間、頁面上架時間、型號年份或相近版本日期套用。",
+      "checkedAt": "2026-09-01",
+      "auditDisposition": "not_found_after_review",
+      "checkedSources": [
+        {
+          "url": "https://www.ikea.com.tw/zh/products/duvets-pillows-and-protectors/duvets/skogsfraken-art-70618640",
+          "title": "SKOGSFRÄKEN 四季被 150×200 cm（706.186.40）｜IKEA 台灣官方商城",
+          "outcome": "exact SKU 706.186.40 現售頁未明示上市／發售日。"
+        },
+        {
+          "url": "https://www.google.com/search?q=%22706.186.40%22%20release%20OR%20launch%20OR%20%E4%B8%8A%E5%B8%82%20OR%20%E7%99%BC%E5%94%AE",
+          "title": "exact-model release query for 706.186.40",
+          "outcome": "未找到可採用的 exact-variant 原始上市來源。"
+        }
+      ]
+    },
+    {
+      "id": "comforter-ikea-smasporre-10458588",
+      "category": "comforter",
+      "brand": "IKEA",
+      "model": "104.585.88",
+      "name": "SMÅSPORRE 四季被 150×200 cm（104.585.88）",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "query": "\"104.585.88\" release OR launch OR 上市 OR 發售",
+      "auditQueries": [
+        "\"104.585.88\" 上市 OR 發售 OR 開賣",
+        "\"104.585.88\" launch OR release"
+      ],
+      "sourceKind": "not_found",
+      "reason": "2026-09-01 已核對 exact SKU 104.585.88 的原始商品頁，並以完整型號查上市／發售／launch／release；未取得可採用的 exact-variant 原始發布日期。未把評論日期、促銷期間、頁面上架時間、型號年份或相近版本日期套用。",
+      "checkedAt": "2026-09-01",
+      "auditDisposition": "not_found_after_review",
+      "checkedSources": [
+        {
+          "url": "https://www.ikea.com.tw/zh/products/duvets-pillows-and-protectors/duvets/smasporre-art-10458588",
+          "title": "SMÅSPORRE 四季被 150×200 cm（104.585.88）｜IKEA 台灣官方商城",
+          "outcome": "exact SKU 104.585.88 現售頁未明示上市／發售日。"
+        },
+        {
+          "url": "https://www.google.com/search?q=%22104.585.88%22%20release%20OR%20launch%20OR%20%E4%B8%8A%E5%B8%82%20OR%20%E7%99%BC%E5%94%AE",
+          "title": "exact-model release query for 104.585.88",
+          "outcome": "未找到可採用的 exact-variant 原始上市來源。"
+        }
+      ]
+    },
+    {
+      "id": "comforter-ikea-smasporre-00458584",
+      "category": "comforter",
+      "brand": "IKEA",
+      "model": "004.585.84",
+      "name": "SMÅSPORRE 四季被 200×200 cm（004.585.84）",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "query": "\"004.585.84\" release OR launch OR 上市 OR 發售",
+      "auditQueries": [
+        "\"004.585.84\" 上市 OR 發售 OR 開賣",
+        "\"004.585.84\" launch OR release"
+      ],
+      "sourceKind": "not_found",
+      "reason": "2026-09-01 已核對 exact SKU 004.585.84 的原始商品頁，並以完整型號查上市／發售／launch／release；未取得可採用的 exact-variant 原始發布日期。未把評論日期、促銷期間、頁面上架時間、型號年份或相近版本日期套用。",
+      "checkedAt": "2026-09-01",
+      "auditDisposition": "not_found_after_review",
+      "checkedSources": [
+        {
+          "url": "https://www.ikea.com.tw/zh/products/duvets-pillows-and-protectors/duvets/smasporre-art-00458584",
+          "title": "SMÅSPORRE 四季被 200×200 cm（004.585.84）｜IKEA 台灣官方商城",
+          "outcome": "exact SKU 004.585.84 現售頁未明示上市／發售日。"
+        },
+        {
+          "url": "https://www.google.com/search?q=%22004.585.84%22%20release%20OR%20launch%20OR%20%E4%B8%8A%E5%B8%82%20OR%20%E7%99%BC%E5%94%AE",
+          "title": "exact-model release query for 004.585.84",
+          "outcome": "未找到可採用的 exact-variant 原始上市來源。"
+        }
+      ]
+    },
+    {
+      "id": "comforter-hiyori-thin-deat3aa900bfnyl",
+      "category": "comforter",
+      "brand": "日和賞",
+      "model": "DEAT3A-A900BFNYL",
+      "name": "MIT 夏季薄被胎雙人 180×210 cm（DEAT3A-A900BFNYL）",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "query": "\"DEAT3A-A900BFNYL\" release OR launch OR 上市 OR 發售",
+      "auditQueries": [
+        "\"DEAT3A-A900BFNYL\" 上市 OR 發售 OR 開賣",
+        "\"DEAT3A-A900BFNYL\" launch OR release"
+      ],
+      "sourceKind": "not_found",
+      "reason": "2026-09-01 已核對 exact SKU DEAT3A-A900BFNYL 的原始商品頁，並以完整型號查上市／發售／launch／release；未取得可採用的 exact-variant 原始發布日期。未把評論日期、促銷期間、頁面上架時間、型號年份或相近版本日期套用。",
+      "checkedAt": "2026-09-01",
+      "auditDisposition": "not_found_after_review",
+      "checkedSources": [
+        {
+          "url": "https://24h.pchome.com.tw/prod/DEAT3A-A900BFNYL",
+          "title": "MIT 夏季薄被胎雙人 180×210 cm（DEAT3A-A900BFNYL）｜PChome 24h",
+          "outcome": "exact SKU DEAT3A-A900BFNYL 現售頁未明示上市／發售日。"
+        },
+        {
+          "url": "https://www.google.com/search?q=%22DEAT3A-A900BFNYL%22%20release%20OR%20launch%20OR%20%E4%B8%8A%E5%B8%82%20OR%20%E7%99%BC%E5%94%AE",
+          "title": "exact-model release query for DEAT3A-A900BFNYL",
+          "outcome": "未找到可採用的 exact-variant 原始上市來源。"
+        }
+      ]
+    },
+    {
+      "id": "comforter-ikea-bruksvara-60560475",
+      "category": "comforter",
+      "brand": "IKEA",
+      "model": "605.604.75",
+      "name": "BRUKSVARA 暖被 150×200 cm（605.604.75）",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "query": "\"605.604.75\" release OR launch OR 上市 OR 發售",
+      "auditQueries": [
+        "\"605.604.75\" 上市 OR 發售 OR 開賣",
+        "\"605.604.75\" launch OR release"
+      ],
+      "sourceKind": "not_found",
+      "reason": "2026-09-01 已核對 exact SKU 605.604.75 的原始商品頁，並以完整型號查上市／發售／launch／release；未取得可採用的 exact-variant 原始發布日期。未把評論日期、促銷期間、頁面上架時間、型號年份或相近版本日期套用。",
+      "checkedAt": "2026-09-01",
+      "auditDisposition": "not_found_after_review",
+      "checkedSources": [
+        {
+          "url": "https://www.ikea.com.tw/zh/products/duvets-pillows-and-protectors/duvets/bruksvara-art-60560475",
+          "title": "BRUKSVARA 暖被 150×200 cm（605.604.75）｜IKEA 台灣官方商城",
+          "outcome": "exact SKU 605.604.75 現售頁未明示上市／發售日。"
+        },
+        {
+          "url": "https://www.google.com/search?q=%22605.604.75%22%20release%20OR%20launch%20OR%20%E4%B8%8A%E5%B8%82%20OR%20%E7%99%BC%E5%94%AE",
+          "title": "exact-model release query for 605.604.75",
+          "outcome": "未找到可採用的 exact-variant 原始上市來源。"
+        }
+      ]
+    },
+    {
+      "id": "comforter-ikea-bruksvara-20560477",
+      "category": "comforter",
+      "brand": "IKEA",
+      "model": "205.604.77",
+      "name": "BRUKSVARA 暖被 200×200 cm（205.604.77）",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "query": "\"205.604.77\" release OR launch OR 上市 OR 發售",
+      "auditQueries": [
+        "\"205.604.77\" 上市 OR 發售 OR 開賣",
+        "\"205.604.77\" launch OR release"
+      ],
+      "sourceKind": "not_found",
+      "reason": "2026-09-01 已核對 exact SKU 205.604.77 的原始商品頁，並以完整型號查上市／發售／launch／release；未取得可採用的 exact-variant 原始發布日期。未把評論日期、促銷期間、頁面上架時間、型號年份或相近版本日期套用。",
+      "checkedAt": "2026-09-01",
+      "auditDisposition": "not_found_after_review",
+      "checkedSources": [
+        {
+          "url": "https://www.ikea.com.tw/zh/products/duvets-pillows-and-protectors/duvets/bruksvara-art-20560477",
+          "title": "BRUKSVARA 暖被 200×200 cm（205.604.77）｜IKEA 台灣官方商城",
+          "outcome": "exact SKU 205.604.77 現售頁未明示上市／發售日。"
+        },
+        {
+          "url": "https://www.google.com/search?q=%22205.604.77%22%20release%20OR%20launch%20OR%20%E4%B8%8A%E5%B8%82%20OR%20%E7%99%BC%E5%94%AE",
+          "title": "exact-model release query for 205.604.77",
+          "outcome": "未找到可採用的 exact-variant 原始上市來源。"
+        }
+      ]
+    },
+    {
+      "id": "comforter-best-tencel-qfav6za9009hy1d",
+      "category": "comforter",
+      "brand": "BEST 貝思特",
+      "model": "QFAV6Z-A9009HY1D",
+      "name": "天絲保暖被雙人 180×210 cm（QFAV6Z-A9009HY1D）",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "query": "\"QFAV6Z-A9009HY1D\" release OR launch OR 上市 OR 發售",
+      "auditQueries": [
+        "\"QFAV6Z-A9009HY1D\" 上市 OR 發售 OR 開賣",
+        "\"QFAV6Z-A9009HY1D\" launch OR release"
+      ],
+      "sourceKind": "not_found",
+      "reason": "2026-09-01 已核對 exact SKU QFAV6Z-A9009HY1D 的原始商品頁，並以完整型號查上市／發售／launch／release；未取得可採用的 exact-variant 原始發布日期。未把評論日期、促銷期間、頁面上架時間、型號年份或相近版本日期套用。",
+      "checkedAt": "2026-09-01",
+      "auditDisposition": "not_found_after_review",
+      "checkedSources": [
+        {
+          "url": "https://24h.pchome.com.tw/prod/QFAV6Z-A9009HY1D",
+          "title": "天絲保暖被雙人 180×210 cm（QFAV6Z-A9009HY1D）｜PChome 24h",
+          "outcome": "exact SKU QFAV6Z-A9009HY1D 現售頁未明示上市／發售日。"
+        },
+        {
+          "url": "https://www.google.com/search?q=%22QFAV6Z-A9009HY1D%22%20release%20OR%20launch%20OR%20%E4%B8%8A%E5%B8%82%20OR%20%E7%99%BC%E5%94%AE",
+          "title": "exact-model release query for QFAV6Z-A9009HY1D",
+          "outcome": "未找到可採用的 exact-variant 原始上市來源。"
+        }
+      ]
+    },
+    {
+      "id": "comforter-ikea-fjallarnika-30459025",
+      "category": "comforter",
+      "brand": "IKEA",
+      "model": "304.590.25",
+      "name": "FJÄLLARNIKA 羽毛羽絨暖被 150×200 cm（304.590.25）",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "query": "\"304.590.25\" release OR launch OR 上市 OR 發售",
+      "auditQueries": [
+        "\"304.590.25\" 上市 OR 發售 OR 開賣",
+        "\"304.590.25\" launch OR release"
+      ],
+      "sourceKind": "not_found",
+      "reason": "2026-09-01 已核對 exact SKU 304.590.25 的原始商品頁，並以完整型號查上市／發售／launch／release；未取得可採用的 exact-variant 原始發布日期。未把評論日期、促銷期間、頁面上架時間、型號年份或相近版本日期套用。",
+      "checkedAt": "2026-09-01",
+      "auditDisposition": "not_found_after_review",
+      "checkedSources": [
+        {
+          "url": "https://www.ikea.com.tw/zh/products/duvets-pillows-and-protectors/duvets/fjallarnika-art-30459025",
+          "title": "FJÄLLARNIKA 羽毛羽絨暖被 150×200 cm（304.590.25）｜IKEA 台灣官方商城",
+          "outcome": "exact SKU 304.590.25 現售頁未明示上市／發售日。"
+        },
+        {
+          "url": "https://www.google.com/search?q=%22304.590.25%22%20release%20OR%20launch%20OR%20%E4%B8%8A%E5%B8%82%20OR%20%E7%99%BC%E5%94%AE",
+          "title": "exact-model release query for 304.590.25",
+          "outcome": "未找到可採用的 exact-variant 原始上市來源。"
+        }
+      ]
+    },
+    {
+      "id": "comforter-ikea-fjallarnika-70459028",
+      "category": "comforter",
+      "brand": "IKEA",
+      "model": "704.590.28",
+      "name": "FJÄLLARNIKA 羽毛羽絨暖被 200×200 cm（704.590.28）",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "query": "\"704.590.28\" release OR launch OR 上市 OR 發售",
+      "auditQueries": [
+        "\"704.590.28\" 上市 OR 發售 OR 開賣",
+        "\"704.590.28\" launch OR release"
+      ],
+      "sourceKind": "not_found",
+      "reason": "2026-09-01 已核對 exact SKU 704.590.28 的原始商品頁，並以完整型號查上市／發售／launch／release；未取得可採用的 exact-variant 原始發布日期。未把評論日期、促銷期間、頁面上架時間、型號年份或相近版本日期套用。",
+      "checkedAt": "2026-09-01",
+      "auditDisposition": "not_found_after_review",
+      "checkedSources": [
+        {
+          "url": "https://www.ikea.com.tw/zh/products/duvets-pillows-and-protectors/duvets/fjallarnika-art-70459028",
+          "title": "FJÄLLARNIKA 羽毛羽絨暖被 200×200 cm（704.590.28）｜IKEA 台灣官方商城",
+          "outcome": "exact SKU 704.590.28 現售頁未明示上市／發售日。"
+        },
+        {
+          "url": "https://www.google.com/search?q=%22704.590.28%22%20release%20OR%20launch%20OR%20%E4%B8%8A%E5%B8%82%20OR%20%E7%99%BC%E5%94%AE",
+          "title": "exact-model release query for 704.590.28",
+          "outcome": "未找到可採用的 exact-variant 原始上市來源。"
+        }
+      ]
+    },
+    {
+      "id": "comforter-shikoku-washable-debclla900jcc6a",
+      "category": "comforter",
+      "brand": "四國纖維",
+      "model": "DEBCLL-A900JCC6A",
+      "name": "可水洗好眠四季被雙人 180×210 cm（DEBCLL-A900JCC6A）",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "query": "\"DEBCLL-A900JCC6A\" release OR launch OR 上市 OR 發售",
+      "auditQueries": [
+        "\"DEBCLL-A900JCC6A\" 上市 OR 發售 OR 開賣",
+        "\"DEBCLL-A900JCC6A\" launch OR release"
+      ],
+      "sourceKind": "not_found",
+      "reason": "2026-09-01 已核對 exact SKU DEBCLL-A900JCC6A 的原始商品頁，並以完整型號查上市／發售／launch／release；未取得可採用的 exact-variant 原始發布日期。未把評論日期、促銷期間、頁面上架時間、型號年份或相近版本日期套用。",
+      "checkedAt": "2026-09-01",
+      "auditDisposition": "not_found_after_review",
+      "checkedSources": [
+        {
+          "url": "https://24h.pchome.com.tw/prod/DEBCLL-A900JCC6A",
+          "title": "可水洗好眠四季被雙人 180×210 cm（DEBCLL-A900JCC6A）｜PChome 24h",
+          "outcome": "exact SKU DEBCLL-A900JCC6A 現售頁未明示上市／發售日。"
+        },
+        {
+          "url": "https://www.google.com/search?q=%22DEBCLL-A900JCC6A%22%20release%20OR%20launch%20OR%20%E4%B8%8A%E5%B8%82%20OR%20%E7%99%BC%E5%94%AE",
+          "title": "exact-model release query for DEBCLL-A900JCC6A",
+          "outcome": "未找到可採用的 exact-variant 原始上市來源。"
+        }
+      ]
+    },
+    {
+      "id": "comforter-ikea-fjallbracka-70537385",
+      "category": "comforter",
+      "brand": "IKEA",
+      "model": "705.373.85",
+      "name": "FJÄLLBRÄCKA 再生羽絨暖被 150×200 cm（705.373.85）",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "query": "\"705.373.85\" release OR launch OR 上市 OR 發售",
+      "auditQueries": [
+        "\"705.373.85\" 上市 OR 發售 OR 開賣",
+        "\"705.373.85\" launch OR release"
+      ],
+      "sourceKind": "not_found",
+      "reason": "2026-09-01 已核對 exact SKU 705.373.85 的原始商品頁，並以完整型號查上市／發售／launch／release；未取得可採用的 exact-variant 原始發布日期。未把評論日期、促銷期間、頁面上架時間、型號年份或相近版本日期套用。",
+      "checkedAt": "2026-09-01",
+      "auditDisposition": "not_found_after_review",
+      "checkedSources": [
+        {
+          "url": "https://www.ikea.com.tw/zh/products/duvets-pillows-and-protectors/duvets/fjallbracka-art-70537385",
+          "title": "FJÄLLBRÄCKA 再生羽絨暖被 150×200 cm（705.373.85）｜IKEA 台灣官方商城",
+          "outcome": "exact SKU 705.373.85 現售頁未明示上市／發售日。"
+        },
+        {
+          "url": "https://www.google.com/search?q=%22705.373.85%22%20release%20OR%20launch%20OR%20%E4%B8%8A%E5%B8%82%20OR%20%E7%99%BC%E5%94%AE",
+          "title": "exact-model release query for 705.373.85",
+          "outcome": "未找到可採用的 exact-variant 原始上市來源。"
+        }
+      ]
+    },
+    {
+      "id": "comforter-ikea-fjallbracka-10537388",
+      "category": "comforter",
+      "brand": "IKEA",
+      "model": "105.373.88",
+      "name": "FJÄLLBRÄCKA 再生羽絨暖被 200×200 cm（105.373.88）",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "query": "\"105.373.88\" release OR launch OR 上市 OR 發售",
+      "auditQueries": [
+        "\"105.373.88\" 上市 OR 發售 OR 開賣",
+        "\"105.373.88\" launch OR release"
+      ],
+      "sourceKind": "not_found",
+      "reason": "2026-09-01 已核對 exact SKU 105.373.88 的原始商品頁，並以完整型號查上市／發售／launch／release；未取得可採用的 exact-variant 原始發布日期。未把評論日期、促銷期間、頁面上架時間、型號年份或相近版本日期套用。",
+      "checkedAt": "2026-09-01",
+      "auditDisposition": "not_found_after_review",
+      "checkedSources": [
+        {
+          "url": "https://www.ikea.com.tw/zh/products/duvets-pillows-and-protectors/duvets/fjallbracka-art-10537388",
+          "title": "FJÄLLBRÄCKA 再生羽絨暖被 200×200 cm（105.373.88）｜IKEA 台灣官方商城",
+          "outcome": "exact SKU 105.373.88 現售頁未明示上市／發售日。"
+        },
+        {
+          "url": "https://www.google.com/search?q=%22105.373.88%22%20release%20OR%20launch%20OR%20%E4%B8%8A%E5%B8%82%20OR%20%E7%99%BC%E5%94%AE",
+          "title": "exact-model release query for 105.373.88",
+          "outcome": "未找到可採用的 exact-variant 原始上市來源。"
+        }
+      ]
+    },
+    {
+      "id": "comforter-3m-nz370-m",
+      "category": "comforter",
+      "brand": "3M",
+      "model": "NZ370-M",
+      "name": "新2代發熱纖維暖冬被標準雙人 180×210 cm（NZ370-M）",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "query": "\"NZ370-M\" release OR launch OR 上市 OR 發售",
+      "auditQueries": [
+        "\"NZ370-M\" 上市 OR 發售 OR 開賣",
+        "\"NZ370-M\" launch OR release"
+      ],
+      "sourceKind": "not_found",
+      "reason": "2026-09-01 已核對 exact SKU NZ370-M 的原始商品頁，並以完整型號查上市／發售／launch／release；未取得可採用的 exact-variant 原始發布日期。未把評論日期、促銷期間、頁面上架時間、型號年份或相近版本日期套用。",
+      "checkedAt": "2026-09-01",
+      "auditDisposition": "not_found_after_review",
+      "checkedSources": [
+        {
+          "url": "https://shop.3m.com.tw/SalePage/Index/4612154",
+          "title": "新2代發熱纖維暖冬被標準雙人 180×210 cm（NZ370-M）｜3M 台灣官方旗艦店",
+          "outcome": "exact SKU NZ370-M 現售頁未明示上市／發售日。"
+        },
+        {
+          "url": "https://www.google.com/search?q=%22NZ370-M%22%20release%20OR%20launch%20OR%20%E4%B8%8A%E5%B8%82%20OR%20%E7%99%BC%E5%94%AE",
+          "title": "exact-model release query for NZ370-M",
+          "outcome": "未找到可採用的 exact-variant 原始上市來源。"
+        }
+      ]
+    },
+    {
+      "id": "comforter-muji-jaap6a6s",
+      "category": "comforter",
+      "brand": "MUJI",
+      "model": "JAAP6A6S",
+      "name": "防蟎羽毛薄被 S 150×210 cm（JAAP6A6S／11617453）",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "query": "\"JAAP6A6S\" release OR launch OR 上市 OR 發售",
+      "auditQueries": [
+        "\"JAAP6A6S\" 上市 OR 發售 OR 開賣",
+        "\"JAAP6A6S\" launch OR release"
+      ],
+      "sourceKind": "not_found",
+      "reason": "2026-09-01 已核對 exact SKU JAAP6A6S 的原始商品頁，並以完整型號查上市／發售／launch／release；未取得可採用的 exact-variant 原始發布日期。未把評論日期、促銷期間、頁面上架時間、型號年份或相近版本日期套用。",
+      "checkedAt": "2026-09-01",
+      "auditDisposition": "not_found_after_review",
+      "checkedSources": [
+        {
+          "url": "https://shop.muji.tw/SalePage/Index/11617453",
+          "title": "防蟎羽毛薄被 S 150×210 cm（JAAP6A6S／11617453）｜MUJI 台灣官方商城",
+          "outcome": "exact SKU JAAP6A6S 現售頁未明示上市／發售日。"
+        },
+        {
+          "url": "https://www.google.com/search?q=%22JAAP6A6S%22%20release%20OR%20launch%20OR%20%E4%B8%8A%E5%B8%82%20OR%20%E7%99%BC%E5%94%AE",
+          "title": "exact-model release query for JAAP6A6S",
+          "outcome": "未找到可採用的 exact-variant 原始上市來源。"
+        }
+      ]
+    },
+    {
+      "id": "comforter-muji-jaap9a6s",
+      "category": "comforter",
+      "brand": "MUJI",
+      "model": "JAAP9A6S",
+      "name": "防蟎羽毛薄被 Q 210×210 cm（JAAP9A6S／11617456）",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "query": "\"JAAP9A6S\" release OR launch OR 上市 OR 發售",
+      "auditQueries": [
+        "\"JAAP9A6S\" 上市 OR 發售 OR 開賣",
+        "\"JAAP9A6S\" launch OR release"
+      ],
+      "sourceKind": "not_found",
+      "reason": "2026-09-01 已核對 exact SKU JAAP9A6S 的原始商品頁，並以完整型號查上市／發售／launch／release；未取得可採用的 exact-variant 原始發布日期。未把評論日期、促銷期間、頁面上架時間、型號年份或相近版本日期套用。",
+      "checkedAt": "2026-09-01",
+      "auditDisposition": "not_found_after_review",
+      "checkedSources": [
+        {
+          "url": "https://shop.muji.tw/SalePage/Index/11617456",
+          "title": "防蟎羽毛薄被 Q 210×210 cm（JAAP9A6S／11617456）｜MUJI 台灣官方商城",
+          "outcome": "exact SKU JAAP9A6S 現售頁未明示上市／發售日。"
+        },
+        {
+          "url": "https://www.google.com/search?q=%22JAAP9A6S%22%20release%20OR%20launch%20OR%20%E4%B8%8A%E5%B8%82%20OR%20%E7%99%BC%E5%94%AE",
+          "title": "exact-model release query for JAAP9A6S",
+          "outcome": "未找到可採用的 exact-variant 原始上市來源。"
+        }
+      ]
+    },
+    {
+      "id": "comforter-muji-jabg2a6a",
+      "category": "comforter",
+      "brand": "MUJI",
+      "model": "JABG2A6A",
+      "name": "可水洗聚酯纖維被 SD 170×210 cm（JABG2A6A／12072381）",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "query": "\"JABG2A6A\" release OR launch OR 上市 OR 發售",
+      "auditQueries": [
+        "\"JABG2A6A\" 上市 OR 發售 OR 開賣",
+        "\"JABG2A6A\" launch OR release"
+      ],
+      "sourceKind": "not_found",
+      "reason": "2026-09-01 已核對 exact SKU JABG2A6A 的原始商品頁，並以完整型號查上市／發售／launch／release；未取得可採用的 exact-variant 原始發布日期。未把評論日期、促銷期間、頁面上架時間、型號年份或相近版本日期套用。",
+      "checkedAt": "2026-09-01",
+      "auditDisposition": "not_found_after_review",
+      "checkedSources": [
+        {
+          "url": "https://shop.muji.tw/SalePage/Index/12072381",
+          "title": "可水洗聚酯纖維被 SD 170×210 cm（JABG2A6A／12072381）｜MUJI 台灣官方商城",
+          "outcome": "exact SKU JABG2A6A 現售頁未明示上市／發售日。"
+        },
+        {
+          "url": "https://www.google.com/search?q=%22JABG2A6A%22%20release%20OR%20launch%20OR%20%E4%B8%8A%E5%B8%82%20OR%20%E7%99%BC%E5%94%AE",
+          "title": "exact-model release query for JABG2A6A",
+          "outcome": "未找到可採用的 exact-variant 原始上市來源。"
+        }
+      ]
+    },
+    {
+      "id": "comforter-muji-jabg3a6a",
+      "category": "comforter",
+      "brand": "MUJI",
+      "model": "JABG3A6A",
+      "name": "可水洗聚酯纖維被 D 190×210 cm（JABG3A6A／12072382）",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "query": "\"JABG3A6A\" release OR launch OR 上市 OR 發售",
+      "auditQueries": [
+        "\"JABG3A6A\" 上市 OR 發售 OR 開賣",
+        "\"JABG3A6A\" launch OR release"
+      ],
+      "sourceKind": "not_found",
+      "reason": "2026-09-01 已核對 exact SKU JABG3A6A 的原始商品頁，並以完整型號查上市／發售／launch／release；未取得可採用的 exact-variant 原始發布日期。未把評論日期、促銷期間、頁面上架時間、型號年份或相近版本日期套用。",
+      "checkedAt": "2026-09-01",
+      "auditDisposition": "not_found_after_review",
+      "checkedSources": [
+        {
+          "url": "https://shop.muji.tw/SalePage/Index/12072382",
+          "title": "可水洗聚酯纖維被 D 190×210 cm（JABG3A6A／12072382）｜MUJI 台灣官方商城",
+          "outcome": "exact SKU JABG3A6A 現售頁未明示上市／發售日。"
+        },
+        {
+          "url": "https://www.google.com/search?q=%22JABG3A6A%22%20release%20OR%20launch%20OR%20%E4%B8%8A%E5%B8%82%20OR%20%E7%99%BC%E5%94%AE",
+          "title": "exact-model release query for JABG3A6A",
+          "outcome": "未找到可採用的 exact-variant 原始上市來源。"
+        }
+      ]
+    },
+    {
+      "id": "comforter-hola-wool-016788504",
+      "category": "comforter",
+      "brand": "HOLA",
+      "model": "016788504",
+      "name": "100%可水洗法國羊毛防蟎冬被單人（016788504）",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "query": "\"016788504\" release OR launch OR 上市 OR 發售",
+      "auditQueries": [
+        "\"016788504\" 上市 OR 發售 OR 開賣",
+        "\"016788504\" launch OR release"
+      ],
+      "sourceKind": "not_found",
+      "reason": "2026-09-01 已核對 exact SKU 016788504 的原始商品頁，並以完整型號查上市／發售／launch／release；未取得可採用的 exact-variant 原始發布日期。未把評論日期、促銷期間、頁面上架時間、型號年份或相近版本日期套用。",
+      "checkedAt": "2026-09-01",
+      "auditDisposition": "not_found_after_review",
+      "checkedSources": [
+        {
+          "url": "https://www.momoshop.com.tw/TP/TP0006553/goodsDetail/TP00065530008497",
+          "title": "100%可水洗法國羊毛防蟎冬被單人（016788504）｜momo HOLA 官方店",
+          "outcome": "exact SKU 016788504 現售頁未明示上市／發售日。"
+        },
+        {
+          "url": "https://www.google.com/search?q=%22016788504%22%20release%20OR%20launch%20OR%20%E4%B8%8A%E5%B8%82%20OR%20%E7%99%BC%E5%94%AE",
+          "title": "exact-model release query for 016788504",
+          "outcome": "未找到可採用的 exact-variant 原始上市來源。"
+        }
+      ]
+    },
+    {
+      "id": "comforter-hola-down-014301109",
+      "category": "comforter",
+      "brand": "HOLA",
+      "model": "014301109",
+      "name": "90/10可水洗長效防蟎羽絨薄被單人（014301109）",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "query": "\"014301109\" release OR launch OR 上市 OR 發售",
+      "auditQueries": [
+        "\"014301109\" 上市 OR 發售 OR 開賣",
+        "\"014301109\" launch OR release"
+      ],
+      "sourceKind": "not_found",
+      "reason": "2026-09-01 已核對 exact SKU 014301109 的原始商品頁，並以完整型號查上市／發售／launch／release；未取得可採用的 exact-variant 原始發布日期。未把評論日期、促銷期間、頁面上架時間、型號年份或相近版本日期套用。",
+      "checkedAt": "2026-09-01",
+      "auditDisposition": "not_found_after_review",
+      "checkedSources": [
+        {
+          "url": "https://www.momoshop.com.tw/TP/TP0006553/goodsDetail/TP00065530004585",
+          "title": "90/10可水洗長效防蟎羽絨薄被單人（014301109）｜momo HOLA 官方店",
+          "outcome": "exact SKU 014301109 現售頁未明示上市／發售日。"
+        },
+        {
+          "url": "https://www.google.com/search?q=%22014301109%22%20release%20OR%20launch%20OR%20%E4%B8%8A%E5%B8%82%20OR%20%E7%99%BC%E5%94%AE",
+          "title": "exact-model release query for 014301109",
+          "outcome": "未找到可採用的 exact-variant 原始上市來源。"
+        }
+      ]
+    },
+    {
+      "id": "comforter-hola-down-014381508",
+      "category": "comforter",
+      "brand": "HOLA",
+      "model": "014381508",
+      "name": "90/10可水洗長效防蟎羽絨冬被加大（014381508）",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "query": "\"014381508\" release OR launch OR 上市 OR 發售",
+      "auditQueries": [
+        "\"014381508\" 上市 OR 發售 OR 開賣",
+        "\"014381508\" launch OR release"
+      ],
+      "sourceKind": "not_found",
+      "reason": "2026-09-01 已核對 exact SKU 014381508 的原始商品頁，並以完整型號查上市／發售／launch／release；未取得可採用的 exact-variant 原始發布日期。未把評論日期、促銷期間、頁面上架時間、型號年份或相近版本日期套用。",
+      "checkedAt": "2026-09-01",
+      "auditDisposition": "not_found_after_review",
+      "checkedSources": [
+        {
+          "url": "https://www.momoshop.com.tw/TP/TP0006553/goodsDetail/TP00065530008377",
+          "title": "90/10可水洗長效防蟎羽絨冬被加大（014381508）｜momo HOLA 官方店",
+          "outcome": "exact SKU 014381508 現售頁未明示上市／發售日。"
+        },
+        {
+          "url": "https://www.google.com/search?q=%22014381508%22%20release%20OR%20launch%20OR%20%E4%B8%8A%E5%B8%82%20OR%20%E7%99%BC%E5%94%AE",
+          "title": "exact-model release query for 014381508",
+          "outcome": "未找到可採用的 exact-variant 原始上市來源。"
+        }
+      ]
+    },
+    {
+      "id": "comforter-hola-real-014408625",
+      "category": "comforter",
+      "brand": "HOLA",
+      "model": "014408625",
+      "name": "REAL極親膚科技蠶絲防蟎冬被雙人（014408625）",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "query": "\"014408625\" release OR launch OR 上市 OR 發售",
+      "auditQueries": [
+        "\"014408625\" 上市 OR 發售 OR 開賣",
+        "\"014408625\" launch OR release"
+      ],
+      "sourceKind": "not_found",
+      "reason": "2026-09-01 已核對 exact SKU 014408625 的原始商品頁，並以完整型號查上市／發售／launch／release；未取得可採用的 exact-variant 原始發布日期。未把評論日期、促銷期間、頁面上架時間、型號年份或相近版本日期套用。",
+      "checkedAt": "2026-09-01",
+      "auditDisposition": "not_found_after_review",
+      "checkedSources": [
+        {
+          "url": "https://www.momoshop.com.tw/TP/TP0006553/goodsDetail/TP00065530010853",
+          "title": "REAL極親膚科技蠶絲防蟎冬被雙人（014408625）｜momo HOLA 官方店",
+          "outcome": "exact SKU 014408625 現售頁未明示上市／發售日。"
+        },
+        {
+          "url": "https://www.google.com/search?q=%22014408625%22%20release%20OR%20launch%20OR%20%E4%B8%8A%E5%B8%82%20OR%20%E7%99%BC%E5%94%AE",
+          "title": "exact-model release query for 014408625",
+          "outcome": "未找到可採用的 exact-variant 原始上市來源。"
+        }
+      ]
+    },
+    {
+      "id": "comforter-tanaka-silk-deatiwa900ayfmu",
+      "category": "comforter",
+      "brand": "田中保暖試驗所",
+      "model": "DEATIW-A900AYFMU",
+      "name": "100%長纖蠶絲夏被 3台斤 180×210 cm（DEATIW-A900AYFMU）",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "query": "\"DEATIW-A900AYFMU\" release OR launch OR 上市 OR 發售",
+      "auditQueries": [
+        "\"DEATIW-A900AYFMU\" 上市 OR 發售 OR 開賣",
+        "\"DEATIW-A900AYFMU\" launch OR release"
+      ],
+      "sourceKind": "not_found",
+      "reason": "2026-09-01 已核對 exact SKU DEATIW-A900AYFMU 的原始商品頁，並以完整型號查上市／發售／launch／release；未取得可採用的 exact-variant 原始發布日期。未把評論日期、促銷期間、頁面上架時間、型號年份或相近版本日期套用。",
+      "checkedAt": "2026-09-01",
+      "auditDisposition": "not_found_after_review",
+      "checkedSources": [
+        {
+          "url": "https://24h.pchome.com.tw/prod/DEATIW-A900AYFMU",
+          "title": "100%長纖蠶絲夏被 3台斤 180×210 cm（DEATIW-A900AYFMU）｜PChome 24h",
+          "outcome": "exact SKU DEATIW-A900AYFMU 現售頁未明示上市／發售日。"
+        },
+        {
+          "url": "https://www.google.com/search?q=%22DEATIW-A900AYFMU%22%20release%20OR%20launch%20OR%20%E4%B8%8A%E5%B8%82%20OR%20%E7%99%BC%E5%94%AE",
+          "title": "exact-model release query for DEATIW-A900AYFMU",
+          "outcome": "未找到可採用的 exact-variant 原始上市來源。"
+        }
+      ]
+    },
+    {
+      "id": "comforter-shikoku-sofair-deatgma900hqsfg",
+      "category": "comforter",
+      "brand": "四國纖維",
+      "model": "DEATGM-A900HQSFG",
+      "name": "SOFAIR WARM 無重力空氣暖被雙人 190×210 cm（DEATGM-A900HQSFG）",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "query": "\"DEATGM-A900HQSFG\" release OR launch OR 上市 OR 發售",
+      "auditQueries": [
+        "\"DEATGM-A900HQSFG\" 上市 OR 發售 OR 開賣",
+        "\"DEATGM-A900HQSFG\" launch OR release"
+      ],
+      "sourceKind": "not_found",
+      "reason": "2026-09-01 已核對 exact SKU DEATGM-A900HQSFG 的原始商品頁，並以完整型號查上市／發售／launch／release；未取得可採用的 exact-variant 原始發布日期。未把評論日期、促銷期間、頁面上架時間、型號年份或相近版本日期套用。",
+      "checkedAt": "2026-09-01",
+      "auditDisposition": "not_found_after_review",
+      "checkedSources": [
+        {
+          "url": "https://24h.pchome.com.tw/prod/DEATGM-A900HQSFG",
+          "title": "SOFAIR WARM 無重力空氣暖被雙人 190×210 cm（DEATGM-A900HQSFG）｜PChome 24h",
+          "outcome": "exact SKU DEATGM-A900HQSFG 現售頁未明示上市／發售日。"
+        },
+        {
+          "url": "https://www.google.com/search?q=%22DEATGM-A900HQSFG%22%20release%20OR%20launch%20OR%20%E4%B8%8A%E5%B8%82%20OR%20%E7%99%BC%E5%94%AE",
+          "title": "exact-model release query for DEATGM-A900HQSFG",
+          "outcome": "未找到可採用的 exact-variant 原始上市來源。"
+        }
+      ]
+    },
+    {
+      "id": "comforter-tonia-graphene-debcb6a900gropd",
+      "category": "comforter",
+      "brand": "Tonia Nicole 東妮寢飾",
+      "model": "DEBCB6-A900GROPD",
+      "name": "英威達抗菌七孔石墨烯冬被雙人 180×210 cm（DEBCB6-A900GROPD）",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "query": "\"DEBCB6-A900GROPD\" release OR launch OR 上市 OR 發售",
+      "auditQueries": [
+        "\"DEBCB6-A900GROPD\" 上市 OR 發售 OR 開賣",
+        "\"DEBCB6-A900GROPD\" launch OR release"
+      ],
+      "sourceKind": "not_found",
+      "reason": "2026-09-01 已核對 exact SKU DEBCB6-A900GROPD 的原始商品頁，並以完整型號查上市／發售／launch／release；未取得可採用的 exact-variant 原始發布日期。未把評論日期、促銷期間、頁面上架時間、型號年份或相近版本日期套用。",
+      "checkedAt": "2026-09-01",
+      "auditDisposition": "not_found_after_review",
+      "checkedSources": [
+        {
+          "url": "https://24h.pchome.com.tw/prod/DEBCB6-A900GROPD",
+          "title": "英威達抗菌七孔石墨烯冬被雙人 180×210 cm（DEBCB6-A900GROPD）｜PChome 24h",
+          "outcome": "exact SKU DEBCB6-A900GROPD 現售頁未明示上市／發售日。"
+        },
+        {
+          "url": "https://www.google.com/search?q=%22DEBCB6-A900GROPD%22%20release%20OR%20launch%20OR%20%E4%B8%8A%E5%B8%82%20OR%20%E7%99%BC%E5%94%AE",
+          "title": "exact-model release query for DEBCB6-A900GROPD",
+          "outcome": "未找到可採用的 exact-variant 原始上市來源。"
+        }
+      ]
+    },
+    {
+      "id": "comforter-belle-vie-wool-deatiba900c15jx",
+      "category": "comforter",
+      "brand": "BELLE VIE",
+      "model": "DEATIB-A900C15JX",
+      "name": "澳洲純羊毛被單人 135×195 cm（DEATIB-A900C15JX）",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "query": "\"DEATIB-A900C15JX\" release OR launch OR 上市 OR 發售",
+      "auditQueries": [
+        "\"DEATIB-A900C15JX\" 上市 OR 發售 OR 開賣",
+        "\"DEATIB-A900C15JX\" launch OR release"
+      ],
+      "sourceKind": "not_found",
+      "reason": "2026-09-01 已核對 exact SKU DEATIB-A900C15JX 的原始商品頁，並以完整型號查上市／發售／launch／release；未取得可採用的 exact-variant 原始發布日期。未把評論日期、促銷期間、頁面上架時間、型號年份或相近版本日期套用。",
+      "checkedAt": "2026-09-01",
+      "auditDisposition": "not_found_after_review",
+      "checkedSources": [
+        {
+          "url": "https://24h.pchome.com.tw/prod/DEATIB-A900C15JX",
+          "title": "澳洲純羊毛被單人 135×195 cm（DEATIB-A900C15JX）｜PChome 24h",
+          "outcome": "exact SKU DEATIB-A900C15JX 現售頁未明示上市／發售日。"
+        },
+        {
+          "url": "https://www.google.com/search?q=%22DEATIB-A900C15JX%22%20release%20OR%20launch%20OR%20%E4%B8%8A%E5%B8%82%20OR%20%E7%99%BC%E5%94%AE",
+          "title": "exact-model release query for DEATIB-A900C15JX",
+          "outcome": "未找到可採用的 exact-variant 原始上市來源。"
+        }
+      ]
+    },
+    {
+      "id": "comforter-belle-vie-wool-deatiba900c15xv",
+      "category": "comforter",
+      "brand": "BELLE VIE",
+      "model": "DEATIB-A900C15XV",
+      "name": "澳洲純羊毛被雙人 180×210 cm（DEATIB-A900C15XV）",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "query": "\"DEATIB-A900C15XV\" release OR launch OR 上市 OR 發售",
+      "auditQueries": [
+        "\"DEATIB-A900C15XV\" 上市 OR 發售 OR 開賣",
+        "\"DEATIB-A900C15XV\" launch OR release"
+      ],
+      "sourceKind": "not_found",
+      "reason": "2026-09-01 已核對 exact SKU DEATIB-A900C15XV 的原始商品頁，並以完整型號查上市／發售／launch／release；未取得可採用的 exact-variant 原始發布日期。未把評論日期、促銷期間、頁面上架時間、型號年份或相近版本日期套用。",
+      "checkedAt": "2026-09-01",
+      "auditDisposition": "not_found_after_review",
+      "checkedSources": [
+        {
+          "url": "https://24h.pchome.com.tw/prod/DEATIB-A900C15XV",
+          "title": "澳洲純羊毛被雙人 180×210 cm（DEATIB-A900C15XV）｜PChome 24h",
+          "outcome": "exact SKU DEATIB-A900C15XV 現售頁未明示上市／發售日。"
+        },
+        {
+          "url": "https://www.google.com/search?q=%22DEATIB-A900C15XV%22%20release%20OR%20launch%20OR%20%E4%B8%8A%E5%B8%82%20OR%20%E7%99%BC%E5%94%AE",
+          "title": "exact-model release query for DEATIB-A900C15XV",
+          "outcome": "未找到可採用的 exact-variant 原始上市來源。"
+        }
+      ]
+    },
+    {
+      "id": "comforter-belle-vie-wool-deatiba900aytrq",
+      "category": "comforter",
+      "brand": "BELLE VIE",
+      "model": "DEATIB-A900AYTRQ",
+      "name": "澳洲純羊毛被歐式加大 240×210 cm（DEATIB-A900AYTRQ）",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "query": "\"DEATIB-A900AYTRQ\" release OR launch OR 上市 OR 發售",
+      "auditQueries": [
+        "\"DEATIB-A900AYTRQ\" 上市 OR 發售 OR 開賣",
+        "\"DEATIB-A900AYTRQ\" launch OR release"
+      ],
+      "sourceKind": "not_found",
+      "reason": "2026-09-01 已核對 exact SKU DEATIB-A900AYTRQ 的原始商品頁，並以完整型號查上市／發售／launch／release；未取得可採用的 exact-variant 原始發布日期。未把評論日期、促銷期間、頁面上架時間、型號年份或相近版本日期套用。",
+      "checkedAt": "2026-09-01",
+      "auditDisposition": "not_found_after_review",
+      "checkedSources": [
+        {
+          "url": "https://24h.pchome.com.tw/prod/DEATIB-A900AYTRQ",
+          "title": "澳洲純羊毛被歐式加大 240×210 cm（DEATIB-A900AYTRQ）｜PChome 24h",
+          "outcome": "exact SKU DEATIB-A900AYTRQ 現售頁未明示上市／發售日。"
+        },
+        {
+          "url": "https://www.google.com/search?q=%22DEATIB-A900AYTRQ%22%20release%20OR%20launch%20OR%20%E4%B8%8A%E5%B8%82%20OR%20%E7%99%BC%E5%94%AE",
+          "title": "exact-model release query for DEATIB-A900AYTRQ",
+          "outcome": "未找到可採用的 exact-variant 原始上市來源。"
+        }
+      ]
+    },
+    {
+      "id": "comforter-owlting-organic-cotton-17469",
+      "category": "comforter",
+      "brand": "台灣有機棉",
+      "model": "OwlTing-17469",
+      "name": "100%台灣有機棉被胎單人 4.5×6.5尺（OwlTing-17469）",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "query": "\"OwlTing-17469\" release OR launch OR 上市 OR 發售",
+      "auditQueries": [
+        "\"OwlTing-17469\" 上市 OR 發售 OR 開賣",
+        "\"OwlTing-17469\" launch OR release"
+      ],
+      "sourceKind": "not_found",
+      "reason": "2026-09-01 已核對 exact SKU OwlTing-17469 的原始商品頁，並以完整型號查上市／發售／launch／release；未取得可採用的 exact-variant 原始發布日期。未把評論日期、促銷期間、頁面上架時間、型號年份或相近版本日期套用。",
+      "checkedAt": "2026-09-01",
+      "auditDisposition": "not_found_after_review",
+      "checkedSources": [
+        {
+          "url": "https://market.owlting.com/items/17469",
+          "title": "100%台灣有機棉被胎單人 4.5×6.5尺（OwlTing-17469）｜OwlTing Market 奧丁丁市集",
+          "outcome": "exact SKU OwlTing-17469 現售頁未明示上市／發售日。"
+        },
+        {
+          "url": "https://www.google.com/search?q=%22OwlTing-17469%22%20release%20OR%20launch%20OR%20%E4%B8%8A%E5%B8%82%20OR%20%E7%99%BC%E5%94%AE",
+          "title": "exact-model release query for OwlTing-17469",
+          "outcome": "未找到可採用的 exact-variant 原始上市來源。"
+        }
+      ]
+    },
+    {
+      "id": "comforter-owlting-organic-cotton-17190",
+      "category": "comforter",
+      "brand": "台灣有機棉",
+      "model": "OwlTing-17190",
+      "name": "100%台灣有機棉被胎雙人薄被 6×7尺（OwlTing-17190）",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "query": "\"OwlTing-17190\" release OR launch OR 上市 OR 發售",
+      "auditQueries": [
+        "\"OwlTing-17190\" 上市 OR 發售 OR 開賣",
+        "\"OwlTing-17190\" launch OR release"
+      ],
+      "sourceKind": "not_found",
+      "reason": "2026-09-01 已核對 exact SKU OwlTing-17190 的原始商品頁，並以完整型號查上市／發售／launch／release；未取得可採用的 exact-variant 原始發布日期。未把評論日期、促銷期間、頁面上架時間、型號年份或相近版本日期套用。",
+      "checkedAt": "2026-09-01",
+      "auditDisposition": "not_found_after_review",
+      "checkedSources": [
+        {
+          "url": "https://market.owlting.com/items/17190",
+          "title": "100%台灣有機棉被胎雙人薄被 6×7尺（OwlTing-17190）｜OwlTing Market 奧丁丁市集",
+          "outcome": "exact SKU OwlTing-17190 現售頁未明示上市／發售日。"
+        },
+        {
+          "url": "https://www.google.com/search?q=%22OwlTing-17190%22%20release%20OR%20launch%20OR%20%E4%B8%8A%E5%B8%82%20OR%20%E7%99%BC%E5%94%AE",
+          "title": "exact-model release query for OwlTing-17190",
+          "outcome": "未找到可採用的 exact-variant 原始上市來源。"
+        }
+      ]
+    },
+    {
+      "id": "pillow-tempur-symphony-medium",
+      "category": "pillow",
+      "brand": "TEMPUR",
+      "model": "TPILSYMM",
+      "name": "丹普夢幻感溫枕 MEDIUM TPILSYMM",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "query": "\"TPILSYMM\" \"丹普夢幻感溫枕 MEDIUM TPILSYMM\" 上市 發售 launch release",
+      "auditQueries": [
+        {
+          "purpose": "exact_official_page",
+          "query": "TPILSYMM official product",
+          "url": "https://shop.tw.tempur.com/products/symphony-pillow-%E5%A4%A2%E5%B9%BB%E6%84%9F%E6%BA%AB%E6%9E%95?variant=34660708909211"
+        },
+        {
+          "purpose": "release_date_search",
+          "query": "\"TPILSYMM\" \"丹普夢幻感溫枕 MEDIUM TPILSYMM\" 上市 發售 launch release",
+          "url": "https://tw.search.yahoo.com/search?p=%22TPILSYMM%22%20%22%E4%B8%B9%E6%99%AE%E5%A4%A2%E5%B9%BB%E6%84%9F%E6%BA%AB%E6%9E%95%20MEDIUM%20TPILSYMM%22%20%E4%B8%8A%E5%B8%82%20%E7%99%BC%E5%94%AE%20launch%20release"
+        }
+      ],
+      "sourceKind": "not_found",
+      "reason": "已在 Chrome 核對 TPILSYMM 確切官方商品頁並以完整型號查詢上市／發售資料；頁面未明示可採用的 launch/release 日期，且未把評論日期、促銷期、網頁上架時間、型號年份或系列其他版本日期套用。",
+      "checkedAt": "2026-09-01",
+      "auditDisposition": "not_found_after_review"
+    },
+    {
+      "id": "pillow-3m-mz600",
+      "category": "pillow",
+      "brand": "3M",
+      "model": "MZ600",
+      "name": "3M 防蟎可調式記憶枕 MZ600 側仰舒眠型",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "query": "\"MZ600\" \"3M 防蟎可調式記憶枕 MZ600 側仰舒眠型\" 上市 發售 launch release",
+      "auditQueries": [
+        {
+          "purpose": "exact_official_page",
+          "query": "MZ600 official product",
+          "url": "https://shop.3m.com.tw/SalePage/Index/6213493"
+        },
+        {
+          "purpose": "release_date_search",
+          "query": "\"MZ600\" \"3M 防蟎可調式記憶枕 MZ600 側仰舒眠型\" 上市 發售 launch release",
+          "url": "https://tw.search.yahoo.com/search?p=%22MZ600%22%20%223M%20%E9%98%B2%E8%9F%8E%E5%8F%AF%E8%AA%BF%E5%BC%8F%E8%A8%98%E6%86%B6%E6%9E%95%20MZ600%20%E5%81%B4%E4%BB%B0%E8%88%92%E7%9C%A0%E5%9E%8B%22%20%E4%B8%8A%E5%B8%82%20%E7%99%BC%E5%94%AE%20launch%20release"
+        }
+      ],
+      "sourceKind": "not_found",
+      "reason": "已在 Chrome 核對 MZ600 確切官方商品頁並以完整型號查詢上市／發售資料；頁面未明示可採用的 launch/release 日期，且未把評論日期、促銷期、網頁上架時間、型號年份或系列其他版本日期套用。",
+      "checkedAt": "2026-09-01",
+      "auditDisposition": "not_found_after_review"
+    },
+    {
+      "id": "pillow-emma-black-diamond",
+      "category": "pillow",
+      "brand": "Emma",
+      "model": "EPWCF040070RAB",
+      "name": "Emma 石墨烯黑鑽記憶枕 40x70 EPWCF040070RAB",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "query": "\"EPWCF040070RAB\" \"Emma 石墨烯黑鑽記憶枕 40x70 EPWCF040070RAB\" 上市 發售 launch release",
+      "auditQueries": [
+        {
+          "purpose": "exact_official_page",
+          "query": "EPWCF040070RAB official product",
+          "url": "https://www.emma-sleep.com.tw/black-diamond-pillow/"
+        },
+        {
+          "purpose": "release_date_search",
+          "query": "\"EPWCF040070RAB\" \"Emma 石墨烯黑鑽記憶枕 40x70 EPWCF040070RAB\" 上市 發售 launch release",
+          "url": "https://tw.search.yahoo.com/search?p=%22EPWCF040070RAB%22%20%22Emma%20%E7%9F%B3%E5%A2%A8%E7%83%AF%E9%BB%91%E9%91%BD%E8%A8%98%E6%86%B6%E6%9E%95%2040x70%20EPWCF040070RAB%22%20%E4%B8%8A%E5%B8%82%20%E7%99%BC%E5%94%AE%20launch%20release"
+        }
+      ],
+      "sourceKind": "not_found",
+      "reason": "已在 Chrome 核對 EPWCF040070RAB 確切官方商品頁並以完整型號查詢上市／發售資料；頁面未明示可採用的 launch/release 日期，且未把評論日期、促銷期、網頁上架時間、型號年份或系列其他版本日期套用。",
+      "checkedAt": "2026-09-01",
+      "auditDisposition": "not_found_after_review"
+    },
+    {
+      "id": "pillow-emma-airgrid",
+      "category": "pillow",
+      "brand": "Emma",
+      "model": "EPWGF040070RAB",
+      "name": "Emma 零重力 AirGrid 記憶枕 40x70 EPWGF040070RAB",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "query": "\"EPWGF040070RAB\" \"Emma 零重力 AirGrid 記憶枕 40x70 EPWGF040070RAB\" 上市 發售 launch release",
+      "auditQueries": [
+        {
+          "purpose": "exact_official_page",
+          "query": "EPWGF040070RAB official product",
+          "url": "https://www.emma-sleep.com.tw/airgrid-pillow/"
+        },
+        {
+          "purpose": "release_date_search",
+          "query": "\"EPWGF040070RAB\" \"Emma 零重力 AirGrid 記憶枕 40x70 EPWGF040070RAB\" 上市 發售 launch release",
+          "url": "https://tw.search.yahoo.com/search?p=%22EPWGF040070RAB%22%20%22Emma%20%E9%9B%B6%E9%87%8D%E5%8A%9B%20AirGrid%20%E8%A8%98%E6%86%B6%E6%9E%95%2040x70%20EPWGF040070RAB%22%20%E4%B8%8A%E5%B8%82%20%E7%99%BC%E5%94%AE%20launch%20release"
+        }
+      ],
+      "sourceKind": "not_found",
+      "reason": "已在 Chrome 核對 EPWGF040070RAB 確切官方商品頁並以完整型號查詢上市／發售資料；頁面未明示可採用的 launch/release 日期，且未把評論日期、促銷期、網頁上架時間、型號年份或系列其他版本日期套用。",
+      "checkedAt": "2026-09-01",
+      "auditDisposition": "not_found_after_review"
+    },
+    {
+      "id": "pillow-hola-organic-latex-curve",
+      "category": "pillow",
+      "brand": "HOLA",
+      "model": "014416047",
+      "name": "HOLA 斯里蘭卡有機乳膠枕 H12/14 曲線型 014416047",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "query": "\"014416047\" \"HOLA 斯里蘭卡有機乳膠枕 H12/14 曲線型 014416047\" 上市 發售 launch release",
+      "auditQueries": [
+        {
+          "purpose": "exact_official_page",
+          "query": "014416047 official product",
+          "url": "https://www.hola.com.tw/p/014416047"
+        },
+        {
+          "purpose": "release_date_search",
+          "query": "\"014416047\" \"HOLA 斯里蘭卡有機乳膠枕 H12/14 曲線型 014416047\" 上市 發售 launch release",
+          "url": "https://tw.search.yahoo.com/search?p=%22014416047%22%20%22HOLA%20%E6%96%AF%E9%87%8C%E8%98%AD%E5%8D%A1%E6%9C%89%E6%A9%9F%E4%B9%B3%E8%86%A0%E6%9E%95%20H12%2F14%20%E6%9B%B2%E7%B7%9A%E5%9E%8B%20014416047%22%20%E4%B8%8A%E5%B8%82%20%E7%99%BC%E5%94%AE%20launch%20release"
+        }
+      ],
+      "sourceKind": "not_found",
+      "reason": "已在 Chrome 核對 014416047 確切官方商品頁並以完整型號查詢上市／發售資料；頁面未明示可採用的 launch/release 日期，且未把評論日期、促銷期、網頁上架時間、型號年份或系列其他版本日期套用。",
+      "checkedAt": "2026-09-01",
+      "auditDisposition": "not_found_after_review"
+    },
+    {
+      "id": "pillow-ikea-bergven",
+      "category": "pillow",
+      "brand": "IKEA",
+      "model": "205.715.84",
+      "name": "IKEA BERGVEN 羽絨羽毛高枕 50x80 205.715.84",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "query": "\"205.715.84\" \"IKEA BERGVEN 羽絨羽毛高枕 50x80 205.715.84\" 上市 發售 launch release",
+      "auditQueries": [
+        {
+          "purpose": "exact_official_page",
+          "query": "205.715.84 official product",
+          "url": "https://www.ikea.com.tw/zh/products/duvets-pillows-and-protectors/pillows/bergven-art-20571584"
+        },
+        {
+          "purpose": "release_date_search",
+          "query": "\"205.715.84\" \"IKEA BERGVEN 羽絨羽毛高枕 50x80 205.715.84\" 上市 發售 launch release",
+          "url": "https://tw.search.yahoo.com/search?p=%22205.715.84%22%20%22IKEA%20BERGVEN%20%E7%BE%BD%E7%B5%A8%E7%BE%BD%E6%AF%9B%E9%AB%98%E6%9E%95%2050x80%20205.715.84%22%20%E4%B8%8A%E5%B8%82%20%E7%99%BC%E5%94%AE%20launch%20release"
+        }
+      ],
+      "sourceKind": "not_found",
+      "reason": "已在 Chrome 核對 205.715.84 確切官方商品頁並以完整型號查詢上市／發售資料；頁面未明示可採用的 launch/release 日期，且未把評論日期、促銷期、網頁上架時間、型號年份或系列其他版本日期套用。",
+      "checkedAt": "2026-09-01",
+      "auditDisposition": "not_found_after_review"
+    },
+    {
+      "id": "pillow-ikea-gulkavle",
+      "category": "pillow",
+      "brand": "IKEA",
+      "model": "605.329.44",
+      "name": "IKEA GULKAVLE 羽絨羽毛高枕 50x80 605.329.44",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "query": "\"605.329.44\" \"IKEA GULKAVLE 羽絨羽毛高枕 50x80 605.329.44\" 上市 發售 launch release",
+      "auditQueries": [
+        {
+          "purpose": "exact_official_page",
+          "query": "605.329.44 official product",
+          "url": "https://www.ikea.com.tw/zh/products/duvets-pillows-and-protectors/pillows/gulkavle-art-60532944"
+        },
+        {
+          "purpose": "release_date_search",
+          "query": "\"605.329.44\" \"IKEA GULKAVLE 羽絨羽毛高枕 50x80 605.329.44\" 上市 發售 launch release",
+          "url": "https://tw.search.yahoo.com/search?p=%22605.329.44%22%20%22IKEA%20GULKAVLE%20%E7%BE%BD%E7%B5%A8%E7%BE%BD%E6%AF%9B%E9%AB%98%E6%9E%95%2050x80%20605.329.44%22%20%E4%B8%8A%E5%B8%82%20%E7%99%BC%E5%94%AE%20launch%20release"
+        }
+      ],
+      "sourceKind": "not_found",
+      "reason": "已在 Chrome 核對 605.329.44 確切官方商品頁並以完整型號查詢上市／發售資料；頁面未明示可採用的 launch/release 日期，且未把評論日期、促銷期、網頁上架時間、型號年份或系列其他版本日期套用。",
+      "checkedAt": "2026-09-01",
+      "auditDisposition": "not_found_after_review"
+    },
+    {
+      "id": "pillow-ikea-hirsstarr",
+      "category": "pillow",
+      "brand": "IKEA",
+      "model": "403.347.99",
+      "name": "IKEA HIRSSTARR 乳膠枕 45x70 403.347.99",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "query": "\"403.347.99\" \"IKEA HIRSSTARR 乳膠枕 45x70 403.347.99\" 上市 發售 launch release",
+      "auditQueries": [
+        {
+          "purpose": "exact_official_page",
+          "query": "403.347.99 official product",
+          "url": "https://www.ikea.com.tw/zh/products/duvets-pillows-and-protectors/pillows/hirsstarr-art-40334799"
+        },
+        {
+          "purpose": "release_date_search",
+          "query": "\"403.347.99\" \"IKEA HIRSSTARR 乳膠枕 45x70 403.347.99\" 上市 發售 launch release",
+          "url": "https://tw.search.yahoo.com/search?p=%22403.347.99%22%20%22IKEA%20HIRSSTARR%20%E4%B9%B3%E8%86%A0%E6%9E%95%2045x70%20403.347.99%22%20%E4%B8%8A%E5%B8%82%20%E7%99%BC%E5%94%AE%20launch%20release"
+        }
+      ],
+      "sourceKind": "not_found",
+      "reason": "已在 Chrome 核對 403.347.99 確切官方商品頁並以完整型號查詢上市／發售資料；頁面未明示可採用的 launch/release 日期，且未把評論日期、促銷期、網頁上架時間、型號年份或系列其他版本日期套用。",
+      "checkedAt": "2026-09-01",
+      "auditDisposition": "not_found_after_review"
+    },
+    {
+      "id": "pillow-tempur-original-smartcool-queen-s",
+      "category": "pillow",
+      "brand": "TEMPUR",
+      "model": "0000559654",
+      "name": "丹普新原創感溫枕 SmartCool QUEEN S 0000559654",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "query": "\"0000559654\" \"丹普新原創感溫枕 SmartCool QUEEN S 0000559654\" 上市 發售 launch release",
+      "auditQueries": [
+        {
+          "purpose": "exact_official_page",
+          "query": "0000559654 official product",
+          "url": "https://shop.tw.tempur.com/products/original-pillow-with-smartcool-%E6%96%B0%E5%8E%9F%E5%89%B5%E6%84%9F%E6%BA%AB%E6%9E%95?variant=42452299939995"
+        },
+        {
+          "purpose": "release_date_search",
+          "query": "\"0000559654\" \"丹普新原創感溫枕 SmartCool QUEEN S 0000559654\" 上市 發售 launch release",
+          "url": "https://tw.search.yahoo.com/search?p=%220000559654%22%20%22%E4%B8%B9%E6%99%AE%E6%96%B0%E5%8E%9F%E5%89%B5%E6%84%9F%E6%BA%AB%E6%9E%95%20SmartCool%20QUEEN%20S%200000559654%22%20%E4%B8%8A%E5%B8%82%20%E7%99%BC%E5%94%AE%20launch%20release"
+        }
+      ],
+      "sourceKind": "not_found",
+      "reason": "已在 Chrome 核對 0000559654 確切官方商品頁並以完整型號查詢上市／發售資料；頁面未明示可採用的 launch/release 日期，且未把評論日期、促銷期、網頁上架時間、型號年份或系列其他版本日期套用。",
+      "checkedAt": "2026-09-01",
+      "auditDisposition": "not_found_after_review"
+    },
+    {
+      "id": "pillow-tempur-millennium-small",
+      "category": "pillow",
+      "brand": "TEMPUR",
+      "model": "0001209107",
+      "name": "丹普永恆千禧感溫枕 SMALL 0001209107",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "query": "\"0001209107\" \"丹普永恆千禧感溫枕 SMALL 0001209107\" 上市 發售 launch release",
+      "auditQueries": [
+        {
+          "purpose": "exact_official_page",
+          "query": "0001209107 official product",
+          "url": "https://shop.tw.tempur.com/products/ergoplus-pillow-%E6%B0%B8%E6%81%86%E5%8D%83%E7%A6%A7%E6%84%9F%E6%BA%AB%E6%9E%95?variant=47934674337947"
+        },
+        {
+          "purpose": "release_date_search",
+          "query": "\"0001209107\" \"丹普永恆千禧感溫枕 SMALL 0001209107\" 上市 發售 launch release",
+          "url": "https://tw.search.yahoo.com/search?p=%220001209107%22%20%22%E4%B8%B9%E6%99%AE%E6%B0%B8%E6%81%86%E5%8D%83%E7%A6%A7%E6%84%9F%E6%BA%AB%E6%9E%95%20SMALL%200001209107%22%20%E4%B8%8A%E5%B8%82%20%E7%99%BC%E5%94%AE%20launch%20release"
+        }
+      ],
+      "sourceKind": "not_found",
+      "reason": "已在 Chrome 核對 0001209107 確切官方商品頁並以完整型號查詢上市／發售資料；頁面未明示可採用的 launch/release 日期，且未把評論日期、促銷期、網頁上架時間、型號年份或系列其他版本日期套用。",
+      "checkedAt": "2026-09-01",
+      "auditDisposition": "not_found_after_review"
+    },
+    {
+      "id": "pillow-tempur-original-xs",
+      "category": "pillow",
+      "brand": "TEMPUR",
+      "model": "0000348682",
+      "name": "丹普原創感溫枕 EXTRA SMALL 0000348682",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "query": "\"0000348682\" \"丹普原創感溫枕 EXTRA SMALL 0000348682\" 上市 發售 launch release",
+      "auditQueries": [
+        {
+          "purpose": "exact_official_page",
+          "query": "0000348682 official product",
+          "url": "https://shop.tw.tempur.com/products/original-pillow-%E5%8E%9F%E5%89%B5%E6%84%9F%E6%BA%AB%E9%A0%B8%E6%9E%95?variant=45258873110683"
+        },
+        {
+          "purpose": "release_date_search",
+          "query": "\"0000348682\" \"丹普原創感溫枕 EXTRA SMALL 0000348682\" 上市 發售 launch release",
+          "url": "https://tw.search.yahoo.com/search?p=%220000348682%22%20%22%E4%B8%B9%E6%99%AE%E5%8E%9F%E5%89%B5%E6%84%9F%E6%BA%AB%E6%9E%95%20EXTRA%20SMALL%200000348682%22%20%E4%B8%8A%E5%B8%82%20%E7%99%BC%E5%94%AE%20launch%20release"
+        }
+      ],
+      "sourceKind": "not_found",
+      "reason": "已在 Chrome 核對 0000348682 確切官方商品頁並以完整型號查詢上市／發售資料；頁面未明示可採用的 launch/release 日期，且未把評論日期、促銷期、網頁上架時間、型號年份或系列其他版本日期套用。",
+      "checkedAt": "2026-09-01",
+      "auditDisposition": "not_found_after_review"
+    },
+    {
+      "id": "pillow-emma-original",
+      "category": "pillow",
+      "brand": "Emma",
+      "model": "EPWAF040070RAB",
+      "name": "Emma 經典三層記憶枕 40x70 EPWAF040070RAB",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "query": "\"EPWAF040070RAB\" \"Emma 經典三層記憶枕 40x70 EPWAF040070RAB\" 上市 發售 launch release",
+      "auditQueries": [
+        {
+          "purpose": "exact_official_page",
+          "query": "EPWAF040070RAB official product",
+          "url": "https://www.emma-sleep.com.tw/original-foam-pillow/"
+        },
+        {
+          "purpose": "release_date_search",
+          "query": "\"EPWAF040070RAB\" \"Emma 經典三層記憶枕 40x70 EPWAF040070RAB\" 上市 發售 launch release",
+          "url": "https://tw.search.yahoo.com/search?p=%22EPWAF040070RAB%22%20%22Emma%20%E7%B6%93%E5%85%B8%E4%B8%89%E5%B1%A4%E8%A8%98%E6%86%B6%E6%9E%95%2040x70%20EPWAF040070RAB%22%20%E4%B8%8A%E5%B8%82%20%E7%99%BC%E5%94%AE%20launch%20release"
+        }
+      ],
+      "sourceKind": "not_found",
+      "reason": "已在 Chrome 核對 EPWAF040070RAB 確切官方商品頁並以完整型號查詢上市／發售資料；頁面未明示可採用的 launch/release 日期，且未把評論日期、促銷期、網頁上架時間、型號年份或系列其他版本日期套用。",
+      "checkedAt": "2026-09-01",
+      "auditDisposition": "not_found_after_review"
+    },
+    {
+      "id": "pillow-ikea-rosenskarm",
+      "category": "pillow",
+      "brand": "IKEA",
+      "model": "704.443.67",
+      "name": "IKEA ROSENSKÄRM 人體工學枕 33x50x11 704.443.67",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "query": "\"704.443.67\" \"IKEA ROSENSKÄRM 人體工學枕 33x50x11 704.443.67\" 上市 發售 launch release",
+      "auditQueries": [
+        {
+          "purpose": "exact_official_page",
+          "query": "704.443.67 official product",
+          "url": "https://www.ikea.com.tw/zh/products/duvets-pillows-and-protectors/pillows/rosenskarm-art-70444367"
+        },
+        {
+          "purpose": "release_date_search",
+          "query": "\"704.443.67\" \"IKEA ROSENSKÄRM 人體工學枕 33x50x11 704.443.67\" 上市 發售 launch release",
+          "url": "https://tw.search.yahoo.com/search?p=%22704.443.67%22%20%22IKEA%20ROSENSK%C3%84RM%20%E4%BA%BA%E9%AB%94%E5%B7%A5%E5%AD%B8%E6%9E%95%2033x50x11%20704.443.67%22%20%E4%B8%8A%E5%B8%82%20%E7%99%BC%E5%94%AE%20launch%20release"
+        }
+      ],
+      "sourceKind": "not_found",
+      "reason": "已在 Chrome 核對 704.443.67 確切官方商品頁並以完整型號查詢上市／發售資料；頁面未明示可採用的 launch/release 日期，且未把評論日期、促銷期、網頁上架時間、型號年份或系列其他版本日期套用。",
+      "checkedAt": "2026-09-01",
+      "auditDisposition": "not_found_after_review"
+    },
+    {
+      "id": "pillow-ikea-klubbsporre",
+      "category": "pillow",
+      "brand": "IKEA",
+      "model": "804.460.97",
+      "name": "IKEA KLUBBSPORRE 涼感記憶枕 41x70x13 804.460.97",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "query": "\"804.460.97\" \"IKEA KLUBBSPORRE 涼感記憶枕 41x70x13 804.460.97\" 上市 發售 launch release",
+      "auditQueries": [
+        {
+          "purpose": "exact_official_page",
+          "query": "804.460.97 official product",
+          "url": "https://www.ikea.com.tw/zh/products/duvets-pillows-and-protectors/pillows/klubbsporre-art-80446097"
+        },
+        {
+          "purpose": "release_date_search",
+          "query": "\"804.460.97\" \"IKEA KLUBBSPORRE 涼感記憶枕 41x70x13 804.460.97\" 上市 發售 launch release",
+          "url": "https://tw.search.yahoo.com/search?p=%22804.460.97%22%20%22IKEA%20KLUBBSPORRE%20%E6%B6%BC%E6%84%9F%E8%A8%98%E6%86%B6%E6%9E%95%2041x70x13%20804.460.97%22%20%E4%B8%8A%E5%B8%82%20%E7%99%BC%E5%94%AE%20launch%20release"
+        }
+      ],
+      "sourceKind": "not_found",
+      "reason": "已在 Chrome 核對 804.460.97 確切官方商品頁並以完整型號查詢上市／發售資料；頁面未明示可採用的 launch/release 日期，且未把評論日期、促銷期、網頁上架時間、型號年份或系列其他版本日期套用。",
+      "checkedAt": "2026-09-01",
+      "auditDisposition": "not_found_after_review"
+    },
+    {
+      "id": "pillow-ikea-hargangel",
+      "category": "pillow",
+      "brand": "IKEA",
+      "model": "404.947.83",
+      "name": "IKEA HÅRGÄNGEL 涼感記憶枕 41x71x13 404.947.83",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "query": "\"404.947.83\" \"IKEA HÅRGÄNGEL 涼感記憶枕 41x71x13 404.947.83\" 上市 發售 launch release",
+      "auditQueries": [
+        {
+          "purpose": "exact_official_page",
+          "query": "404.947.83 official product",
+          "url": "https://www.ikea.com.tw/zh/products/duvets-pillows-and-protectors/pillows/hargangel-art-40494783"
+        },
+        {
+          "purpose": "release_date_search",
+          "query": "\"404.947.83\" \"IKEA HÅRGÄNGEL 涼感記憶枕 41x71x13 404.947.83\" 上市 發售 launch release",
+          "url": "https://tw.search.yahoo.com/search?p=%22404.947.83%22%20%22IKEA%20H%C3%85RG%C3%84NGEL%20%E6%B6%BC%E6%84%9F%E8%A8%98%E6%86%B6%E6%9E%95%2041x71x13%20404.947.83%22%20%E4%B8%8A%E5%B8%82%20%E7%99%BC%E5%94%AE%20launch%20release"
+        }
+      ],
+      "sourceKind": "not_found",
+      "reason": "已在 Chrome 核對 404.947.83 確切官方商品頁並以完整型號查詢上市／發售資料；頁面未明示可採用的 launch/release 日期，且未把評論日期、促銷期、網頁上架時間、型號年份或系列其他版本日期套用。",
+      "checkedAt": "2026-09-01",
+      "auditDisposition": "not_found_after_review"
+    },
+    {
+      "id": "pillow-ikea-kvarnven-side-back",
+      "category": "pillow",
+      "brand": "IKEA",
+      "model": "105.073.48",
+      "name": "IKEA KVARNVEN 側仰睡人體工學枕 39x69x13 105.073.48",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "query": "\"105.073.48\" \"IKEA KVARNVEN 側仰睡人體工學枕 39x69x13 105.073.48\" 上市 發售 launch release",
+      "auditQueries": [
+        {
+          "purpose": "exact_official_page",
+          "query": "105.073.48 official product",
+          "url": "https://www.ikea.com.tw/zh/products/duvets-pillows-and-protectors/pillows/kvarnven-art-10507348"
+        },
+        {
+          "purpose": "release_date_search",
+          "query": "\"105.073.48\" \"IKEA KVARNVEN 側仰睡人體工學枕 39x69x13 105.073.48\" 上市 發售 launch release",
+          "url": "https://tw.search.yahoo.com/search?p=%22105.073.48%22%20%22IKEA%20KVARNVEN%20%E5%81%B4%E4%BB%B0%E7%9D%A1%E4%BA%BA%E9%AB%94%E5%B7%A5%E5%AD%B8%E6%9E%95%2039x69x13%20105.073.48%22%20%E4%B8%8A%E5%B8%82%20%E7%99%BC%E5%94%AE%20launch%20release"
+        }
+      ],
+      "sourceKind": "not_found",
+      "reason": "已在 Chrome 核對 105.073.48 確切官方商品頁並以完整型號查詢上市／發售資料；頁面未明示可採用的 launch/release 日期，且未把評論日期、促銷期、網頁上架時間、型號年份或系列其他版本日期套用。",
+      "checkedAt": "2026-09-01",
+      "auditDisposition": "not_found_after_review"
+    },
+    {
+      "id": "pillow-ikea-kvarnven-stomach",
+      "category": "pillow",
+      "brand": "IKEA",
+      "model": "805.132.18",
+      "name": "IKEA KVARNVEN 趴睡人體工學枕 39x69x10 805.132.18",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "query": "\"805.132.18\" \"IKEA KVARNVEN 趴睡人體工學枕 39x69x10 805.132.18\" 上市 發售 launch release",
+      "auditQueries": [
+        {
+          "purpose": "exact_official_page",
+          "query": "805.132.18 official product",
+          "url": "https://www.ikea.com.tw/zh/products/duvets-pillows-and-protectors/pillows/kvarnven-art-80513218"
+        },
+        {
+          "purpose": "release_date_search",
+          "query": "\"805.132.18\" \"IKEA KVARNVEN 趴睡人體工學枕 39x69x10 805.132.18\" 上市 發售 launch release",
+          "url": "https://tw.search.yahoo.com/search?p=%22805.132.18%22%20%22IKEA%20KVARNVEN%20%E8%B6%B4%E7%9D%A1%E4%BA%BA%E9%AB%94%E5%B7%A5%E5%AD%B8%E6%9E%95%2039x69x10%20805.132.18%22%20%E4%B8%8A%E5%B8%82%20%E7%99%BC%E5%94%AE%20launch%20release"
+        }
+      ],
+      "sourceKind": "not_found",
+      "reason": "已在 Chrome 核對 805.132.18 確切官方商品頁並以完整型號查詢上市／發售資料；頁面未明示可採用的 launch/release 日期，且未把評論日期、促銷期、網頁上架時間、型號年份或系列其他版本日期套用。",
+      "checkedAt": "2026-09-01",
+      "auditDisposition": "not_found_after_review"
+    },
+    {
+      "id": "pillow-ikea-bjorkpyrola",
+      "category": "pillow",
+      "brand": "IKEA",
+      "model": "404.701.07",
+      "name": "IKEA BJÖRKPYROLA 涼感記憶枕 33x50 404.701.07",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "query": "\"404.701.07\" \"IKEA BJÖRKPYROLA 涼感記憶枕 33x50 404.701.07\" 上市 發售 launch release",
+      "auditQueries": [
+        {
+          "purpose": "exact_official_page",
+          "query": "404.701.07 official product",
+          "url": "https://www.ikea.com.tw/zh/products/duvets-pillows-and-protectors/pillows/bjorkpyrola-art-40470107"
+        },
+        {
+          "purpose": "release_date_search",
+          "query": "\"404.701.07\" \"IKEA BJÖRKPYROLA 涼感記憶枕 33x50 404.701.07\" 上市 發售 launch release",
+          "url": "https://tw.search.yahoo.com/search?p=%22404.701.07%22%20%22IKEA%20BJ%C3%96RKPYROLA%20%E6%B6%BC%E6%84%9F%E8%A8%98%E6%86%B6%E6%9E%95%2033x50%20404.701.07%22%20%E4%B8%8A%E5%B8%82%20%E7%99%BC%E5%94%AE%20launch%20release"
+        }
+      ],
+      "sourceKind": "not_found",
+      "reason": "已在 Chrome 核對 404.701.07 確切官方商品頁並以完整型號查詢上市／發售資料；頁面未明示可採用的 launch/release 日期，且未把評論日期、促銷期、網頁上架時間、型號年份或系列其他版本日期套用。",
+      "checkedAt": "2026-09-01",
+      "auditDisposition": "not_found_after_review"
+    },
+    {
+      "id": "pillow-ikea-isranunkel",
+      "category": "pillow",
+      "brand": "IKEA",
+      "model": "905.767.38",
+      "name": "IKEA ISRANUNKEL 蝴蝶型記憶枕 41x71x12 905.767.38",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "query": "\"905.767.38\" \"IKEA ISRANUNKEL 蝴蝶型記憶枕 41x71x12 905.767.38\" 上市 發售 launch release",
+      "auditQueries": [
+        {
+          "purpose": "exact_official_page",
+          "query": "905.767.38 official product",
+          "url": "https://www.ikea.com.tw/zh/products/duvets-pillows-and-protectors/pillows/isranunkel-art-90576738"
+        },
+        {
+          "purpose": "release_date_search",
+          "query": "\"905.767.38\" \"IKEA ISRANUNKEL 蝴蝶型記憶枕 41x71x12 905.767.38\" 上市 發售 launch release",
+          "url": "https://tw.search.yahoo.com/search?p=%22905.767.38%22%20%22IKEA%20ISRANUNKEL%20%E8%9D%B4%E8%9D%B6%E5%9E%8B%E8%A8%98%E6%86%B6%E6%9E%95%2041x71x12%20905.767.38%22%20%E4%B8%8A%E5%B8%82%20%E7%99%BC%E5%94%AE%20launch%20release"
+        }
+      ],
+      "sourceKind": "not_found",
+      "reason": "已在 Chrome 核對 905.767.38 確切官方商品頁並以完整型號查詢上市／發售資料；頁面未明示可採用的 launch/release 日期，且未把評論日期、促銷期、網頁上架時間、型號年份或系列其他版本日期套用。",
+      "checkedAt": "2026-09-01",
+      "auditDisposition": "not_found_after_review"
+    },
+    {
+      "id": "pillow-ikea-pilspinnare-high",
+      "category": "pillow",
+      "brand": "IKEA",
+      "model": "505.871.16",
+      "name": "IKEA PILSPINNARE 羽絨羽毛高枕 50x80 505.871.16",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "query": "\"505.871.16\" \"IKEA PILSPINNARE 羽絨羽毛高枕 50x80 505.871.16\" 上市 發售 launch release",
+      "auditQueries": [
+        {
+          "purpose": "exact_official_page",
+          "query": "505.871.16 official product",
+          "url": "https://www.ikea.com.tw/zh/products/duvets-pillows-and-protectors/pillows/pilspinnare-art-50587116"
+        },
+        {
+          "purpose": "release_date_search",
+          "query": "\"505.871.16\" \"IKEA PILSPINNARE 羽絨羽毛高枕 50x80 505.871.16\" 上市 發售 launch release",
+          "url": "https://tw.search.yahoo.com/search?p=%22505.871.16%22%20%22IKEA%20PILSPINNARE%20%E7%BE%BD%E7%B5%A8%E7%BE%BD%E6%AF%9B%E9%AB%98%E6%9E%95%2050x80%20505.871.16%22%20%E4%B8%8A%E5%B8%82%20%E7%99%BC%E5%94%AE%20launch%20release"
+        }
+      ],
+      "sourceKind": "not_found",
+      "reason": "已在 Chrome 核對 505.871.16 確切官方商品頁並以完整型號查詢上市／發售資料；頁面未明示可採用的 launch/release 日期，且未把評論日期、促銷期、網頁上架時間、型號年份或系列其他版本日期套用。",
+      "checkedAt": "2026-09-01",
+      "auditDisposition": "not_found_after_review"
+    },
+    {
+      "id": "pillow-3m-anti-005",
+      "category": "pillow",
+      "brand": "3M",
+      "model": "ANTI 005",
+      "name": "3M 長效抗菌防蟎水洗枕 加高支撐型 ANTI 005",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "query": "\"ANTI 005\" \"3M 長效抗菌防蟎水洗枕 加高支撐型 ANTI 005\" 上市 發售 launch release",
+      "auditQueries": [
+        {
+          "purpose": "exact_official_page",
+          "query": "ANTI 005 official product",
+          "url": "https://shop.3m.com.tw/SalePage/Index/7759499"
+        },
+        {
+          "purpose": "release_date_search",
+          "query": "\"ANTI 005\" \"3M 長效抗菌防蟎水洗枕 加高支撐型 ANTI 005\" 上市 發售 launch release",
+          "url": "https://tw.search.yahoo.com/search?p=%22ANTI%20005%22%20%223M%20%E9%95%B7%E6%95%88%E6%8A%97%E8%8F%8C%E9%98%B2%E8%9F%8E%E6%B0%B4%E6%B4%97%E6%9E%95%20%E5%8A%A0%E9%AB%98%E6%94%AF%E6%92%90%E5%9E%8B%20ANTI%20005%22%20%E4%B8%8A%E5%B8%82%20%E7%99%BC%E5%94%AE%20launch%20release"
+        }
+      ],
+      "sourceKind": "not_found",
+      "reason": "已在 Chrome 核對 ANTI 005 確切官方商品頁並以完整型號查詢上市／發售資料；頁面未明示可採用的 launch/release 日期，且未把評論日期、促銷期、網頁上架時間、型號年份或系列其他版本日期套用。",
+      "checkedAt": "2026-09-01",
+      "auditDisposition": "not_found_after_review"
+    },
+    {
+      "id": "pillow-3m-anti-004",
+      "category": "pillow",
+      "brand": "3M",
+      "model": "ANTI 004",
+      "name": "3M 長效抗菌防蟎水洗枕 加高型 ANTI 004",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "query": "\"ANTI 004\" \"3M 長效抗菌防蟎水洗枕 加高型 ANTI 004\" 上市 發售 launch release",
+      "auditQueries": [
+        {
+          "purpose": "exact_official_page",
+          "query": "ANTI 004 official product",
+          "url": "https://shop.3m.com.tw/SalePage/Index/7759465"
+        },
+        {
+          "purpose": "release_date_search",
+          "query": "\"ANTI 004\" \"3M 長效抗菌防蟎水洗枕 加高型 ANTI 004\" 上市 發售 launch release",
+          "url": "https://tw.search.yahoo.com/search?p=%22ANTI%20004%22%20%223M%20%E9%95%B7%E6%95%88%E6%8A%97%E8%8F%8C%E9%98%B2%E8%9F%8E%E6%B0%B4%E6%B4%97%E6%9E%95%20%E5%8A%A0%E9%AB%98%E5%9E%8B%20ANTI%20004%22%20%E4%B8%8A%E5%B8%82%20%E7%99%BC%E5%94%AE%20launch%20release"
+        }
+      ],
+      "sourceKind": "not_found",
+      "reason": "已在 Chrome 核對 ANTI 004 確切官方商品頁並以完整型號查詢上市／發售資料；頁面未明示可採用的 launch/release 日期，且未把評論日期、促銷期、網頁上架時間、型號年份或系列其他版本日期套用。",
+      "checkedAt": "2026-09-01",
+      "auditDisposition": "not_found_after_review"
+    },
+    {
+      "id": "pillow-hola-malaysia-latex-side",
+      "category": "pillow",
+      "brand": "HOLA",
+      "model": "016582346",
+      "name": "HOLA 馬來西亞乳膠枕 正側睡型 H8.5/12.5 016582346",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "query": "\"016582346\" \"HOLA 馬來西亞乳膠枕 正側睡型 H8.5/12.5 016582346\" 上市 發售 launch release",
+      "auditQueries": [
+        {
+          "purpose": "exact_official_page",
+          "query": "016582346 official product",
+          "url": "https://www.hola.com.tw/p/016582346"
+        },
+        {
+          "purpose": "release_date_search",
+          "query": "\"016582346\" \"HOLA 馬來西亞乳膠枕 正側睡型 H8.5/12.5 016582346\" 上市 發售 launch release",
+          "url": "https://tw.search.yahoo.com/search?p=%22016582346%22%20%22HOLA%20%E9%A6%AC%E4%BE%86%E8%A5%BF%E4%BA%9E%E4%B9%B3%E8%86%A0%E6%9E%95%20%E6%AD%A3%E5%81%B4%E7%9D%A1%E5%9E%8B%20H8.5%2F12.5%20016582346%22%20%E4%B8%8A%E5%B8%82%20%E7%99%BC%E5%94%AE%20launch%20release"
+        }
+      ],
+      "sourceKind": "not_found",
+      "reason": "已在 Chrome 核對 016582346 確切官方商品頁並以完整型號查詢上市／發售資料；頁面未明示可採用的 launch/release 日期，且未把評論日期、促銷期、網頁上架時間、型號年份或系列其他版本日期套用。",
+      "checkedAt": "2026-09-01",
+      "auditDisposition": "not_found_after_review"
+    },
+    {
+      "id": "pillow-dunlopillo-classic-standard",
+      "category": "pillow",
+      "brand": "Dunlopillo",
+      "model": "69e85a35bb09d03c8df9915c",
+      "name": "Dunlopillo 護頸經典乳膠枕 基本型 69e85a35bb09d03c8df9915c",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "query": "\"69e85a35bb09d03c8df9915c\" \"Dunlopillo 護頸經典乳膠枕 基本型 69e85a35bb09d03c8df9915c\" 上市 發售 launch release",
+      "auditQueries": [
+        {
+          "purpose": "exact_official_page",
+          "query": "69e85a35bb09d03c8df9915c official product",
+          "url": "https://www.dunlopillo.com.tw/products/dunlopillo-natural-latex-pillow-classic-standard"
+        },
+        {
+          "purpose": "release_date_search",
+          "query": "\"69e85a35bb09d03c8df9915c\" \"Dunlopillo 護頸經典乳膠枕 基本型 69e85a35bb09d03c8df9915c\" 上市 發售 launch release",
+          "url": "https://tw.search.yahoo.com/search?p=%2269e85a35bb09d03c8df9915c%22%20%22Dunlopillo%20%E8%AD%B7%E9%A0%B8%E7%B6%93%E5%85%B8%E4%B9%B3%E8%86%A0%E6%9E%95%20%E5%9F%BA%E6%9C%AC%E5%9E%8B%2069e85a35bb09d03c8df9915c%22%20%E4%B8%8A%E5%B8%82%20%E7%99%BC%E5%94%AE%20launch%20release"
+        }
+      ],
+      "sourceKind": "not_found",
+      "reason": "已在 Chrome 核對 69e85a35bb09d03c8df9915c 確切官方商品頁並以完整型號查詢上市／發售資料；頁面未明示可採用的 launch/release 日期，且未把評論日期、促銷期、網頁上架時間、型號年份或系列其他版本日期套用。",
+      "checkedAt": "2026-09-01",
+      "auditDisposition": "not_found_after_review"
+    },
+    {
+      "id": "pillow-ikea-senapsmott-high",
+      "category": "pillow",
+      "brand": "IKEA",
+      "model": "705.803.26",
+      "name": "IKEA SENAPSMOTT 涼感纖維高枕 50x80 705.803.26",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "query": "\"705.803.26\" \"IKEA SENAPSMOTT 涼感纖維高枕 50x80 705.803.26\" 上市 發售 launch release",
+      "auditQueries": [
+        {
+          "purpose": "exact_official_page",
+          "query": "705.803.26 official product",
+          "url": "https://www.ikea.com.tw/zh/products/duvets-pillows-and-protectors/pillows/senapsmott-art-70580326"
+        },
+        {
+          "purpose": "release_date_search",
+          "query": "\"705.803.26\" \"IKEA SENAPSMOTT 涼感纖維高枕 50x80 705.803.26\" 上市 發售 launch release",
+          "url": "https://tw.search.yahoo.com/search?p=%22705.803.26%22%20%22IKEA%20SENAPSMOTT%20%E6%B6%BC%E6%84%9F%E7%BA%96%E7%B6%AD%E9%AB%98%E6%9E%95%2050x80%20705.803.26%22%20%E4%B8%8A%E5%B8%82%20%E7%99%BC%E5%94%AE%20launch%20release"
+        }
+      ],
+      "sourceKind": "not_found",
+      "reason": "已在 Chrome 核對 705.803.26 確切官方商品頁並以完整型號查詢上市／發售資料；頁面未明示可採用的 launch/release 日期，且未把評論日期、促銷期、網頁上架時間、型號年份或系列其他版本日期套用。",
+      "checkedAt": "2026-09-01",
+      "auditDisposition": "not_found_after_review"
+    },
+    {
+      "id": "pillow-ikea-gaffelklocka",
+      "category": "pillow",
+      "brand": "IKEA",
+      "model": "406.286.26",
+      "name": "IKEA GAFFELKLOCKA 高支撐纖維枕 50x80 406.286.26",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "query": "\"406.286.26\" \"IKEA GAFFELKLOCKA 高支撐纖維枕 50x80 406.286.26\" 上市 發售 launch release",
+      "auditQueries": [
+        {
+          "purpose": "exact_official_page",
+          "query": "406.286.26 official product",
+          "url": "https://www.ikea.com.tw/zh/products/duvets-pillows-and-protectors/pillows/gaffelklocka-art-40628626"
+        },
+        {
+          "purpose": "release_date_search",
+          "query": "\"406.286.26\" \"IKEA GAFFELKLOCKA 高支撐纖維枕 50x80 406.286.26\" 上市 發售 launch release",
+          "url": "https://tw.search.yahoo.com/search?p=%22406.286.26%22%20%22IKEA%20GAFFELKLOCKA%20%E9%AB%98%E6%94%AF%E6%92%90%E7%BA%96%E7%B6%AD%E6%9E%95%2050x80%20406.286.26%22%20%E4%B8%8A%E5%B8%82%20%E7%99%BC%E5%94%AE%20launch%20release"
+        }
+      ],
+      "sourceKind": "not_found",
+      "reason": "已在 Chrome 核對 406.286.26 確切官方商品頁並以完整型號查詢上市／發售資料；頁面未明示可採用的 launch/release 日期，且未把評論日期、促銷期、網頁上架時間、型號年份或系列其他版本日期套用。",
+      "checkedAt": "2026-09-01",
+      "auditDisposition": "not_found_after_review"
+    },
+    {
+      "id": "pillow-3m-anti-003",
+      "category": "pillow",
+      "brand": "3M",
+      "model": "ANTI 003",
+      "name": "3M 長效抗菌防蟎水洗枕 標準型 ANTI 003",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "query": "\"ANTI 003\" \"3M 長效抗菌防蟎水洗枕 標準型 ANTI 003\" 上市 發售 launch release",
+      "auditQueries": [
+        {
+          "purpose": "exact_official_page",
+          "query": "ANTI 003 official product",
+          "url": "https://shop.3m.com.tw/SalePage/Index/7759430"
+        },
+        {
+          "purpose": "release_date_search",
+          "query": "\"ANTI 003\" \"3M 長效抗菌防蟎水洗枕 標準型 ANTI 003\" 上市 發售 launch release",
+          "url": "https://tw.search.yahoo.com/search?p=%22ANTI%20003%22%20%223M%20%E9%95%B7%E6%95%88%E6%8A%97%E8%8F%8C%E9%98%B2%E8%9F%8E%E6%B0%B4%E6%B4%97%E6%9E%95%20%E6%A8%99%E6%BA%96%E5%9E%8B%20ANTI%20003%22%20%E4%B8%8A%E5%B8%82%20%E7%99%BC%E5%94%AE%20launch%20release"
+        }
+      ],
+      "sourceKind": "not_found",
+      "reason": "已在 Chrome 核對 ANTI 003 確切官方商品頁並以完整型號查詢上市／發售資料；頁面未明示可採用的 launch/release 日期，且未把評論日期、促銷期、網頁上架時間、型號年份或系列其他版本日期套用。",
+      "checkedAt": "2026-09-01",
+      "auditDisposition": "not_found_after_review"
+    },
+    {
+      "id": "pillow-nitori-n-hotel3-std",
+      "category": "pillow",
+      "brand": "NITORI",
+      "model": "7550721",
+      "name": "NITORI 飯店式樣枕 N HOTEL3 STD 7550721",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "query": "\"7550721\" \"NITORI 飯店式樣枕 N HOTEL3 STD 7550721\" 上市 發售 launch release",
+      "auditQueries": [
+        {
+          "purpose": "exact_official_page",
+          "query": "7550721 official product",
+          "url": "https://www.nitori-net.tw/product/7550721s"
+        },
+        {
+          "purpose": "release_date_search",
+          "query": "\"7550721\" \"NITORI 飯店式樣枕 N HOTEL3 STD 7550721\" 上市 發售 launch release",
+          "url": "https://tw.search.yahoo.com/search?p=%227550721%22%20%22NITORI%20%E9%A3%AF%E5%BA%97%E5%BC%8F%E6%A8%A3%E6%9E%95%20N%20HOTEL3%20STD%207550721%22%20%E4%B8%8A%E5%B8%82%20%E7%99%BC%E5%94%AE%20launch%20release"
+        }
+      ],
+      "sourceKind": "not_found",
+      "reason": "已在 Chrome 核對 7550721 確切官方商品頁並以完整型號查詢上市／發售資料；頁面未明示可採用的 launch/release 日期，且未把評論日期、促銷期、網頁上架時間、型號年份或系列其他版本日期套用。",
+      "checkedAt": "2026-09-01",
+      "auditDisposition": "not_found_after_review"
+    },
+    {
+      "id": "pillow-ikea-bruksvara-high",
+      "category": "pillow",
+      "brand": "IKEA",
+      "model": "205.603.64",
+      "name": "IKEA BRUKSVARA 聚酯纖維高枕 50x80 205.603.64",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "query": "\"205.603.64\" \"IKEA BRUKSVARA 聚酯纖維高枕 50x80 205.603.64\" 上市 發售 launch release",
+      "auditQueries": [
+        {
+          "purpose": "exact_official_page",
+          "query": "205.603.64 official product",
+          "url": "https://www.ikea.com.tw/zh/products/duvets-pillows-and-protectors/pillows/bruksvara-art-20560364"
+        },
+        {
+          "purpose": "release_date_search",
+          "query": "\"205.603.64\" \"IKEA BRUKSVARA 聚酯纖維高枕 50x80 205.603.64\" 上市 發售 launch release",
+          "url": "https://tw.search.yahoo.com/search?p=%22205.603.64%22%20%22IKEA%20BRUKSVARA%20%E8%81%9A%E9%85%AF%E7%BA%96%E7%B6%AD%E9%AB%98%E6%9E%95%2050x80%20205.603.64%22%20%E4%B8%8A%E5%B8%82%20%E7%99%BC%E5%94%AE%20launch%20release"
+        }
+      ],
+      "sourceKind": "not_found",
+      "reason": "已在 Chrome 核對 205.603.64 確切官方商品頁並以完整型號查詢上市／發售資料；頁面未明示可採用的 launch/release 日期，且未把評論日期、促銷期、網頁上架時間、型號年份或系列其他版本日期套用。",
+      "checkedAt": "2026-09-01",
+      "auditDisposition": "not_found_after_review"
+    },
+    {
+      "id": "pillow-ikea-pilspinnare-low",
+      "category": "pillow",
+      "brand": "IKEA",
+      "model": "905.871.38",
+      "name": "IKEA PILSPINNARE 羽絨羽毛低枕 50x80 905.871.38",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "query": "\"905.871.38\" \"IKEA PILSPINNARE 羽絨羽毛低枕 50x80 905.871.38\" 上市 發售 launch release",
+      "auditQueries": [
+        {
+          "purpose": "exact_official_page",
+          "query": "905.871.38 official product",
+          "url": "https://www.ikea.com.tw/zh/products/duvets-pillows-and-protectors/pillows/pilspinnare-art-90587138"
+        },
+        {
+          "purpose": "release_date_search",
+          "query": "\"905.871.38\" \"IKEA PILSPINNARE 羽絨羽毛低枕 50x80 905.871.38\" 上市 發售 launch release",
+          "url": "https://tw.search.yahoo.com/search?p=%22905.871.38%22%20%22IKEA%20PILSPINNARE%20%E7%BE%BD%E7%B5%A8%E7%BE%BD%E6%AF%9B%E4%BD%8E%E6%9E%95%2050x80%20905.871.38%22%20%E4%B8%8A%E5%B8%82%20%E7%99%BC%E5%94%AE%20launch%20release"
+        }
+      ],
+      "sourceKind": "not_found",
+      "reason": "已在 Chrome 核對 905.871.38 確切官方商品頁並以完整型號查詢上市／發售資料；頁面未明示可採用的 launch/release 日期，且未把評論日期、促銷期、網頁上架時間、型號年份或系列其他版本日期套用。",
+      "checkedAt": "2026-09-01",
+      "auditDisposition": "not_found_after_review"
     }
   ]
 }

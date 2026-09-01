@@ -162,7 +162,7 @@ function checkIncrementalCatalogAudit() {
   } finally {
     fs.rmSync(tempDirectory, { recursive: true, force: true });
   }
-  for (const voltage of ["USB-C DC 5V／1A", "USB DC 5 V，額定功率 5W"]) assert.equal(hasTaiwanCompatiblePower({ voltage }), true);
+  for (const voltage of ["USB-C DC 5V／1A", "USB DC 5 V，額定功率 5W", "不需供電。"]) assert.equal(hasTaiwanCompatiblePower({ voltage }), true);
   for (const voltage of ["USB-C", "USB DC 5V", "USB DC 5V 0A 0W", "USB DC 12V 1A"]) assert.equal(hasTaiwanCompatiblePower({ voltage }), false);
   const monitorLight = {
     id: "light-fixture", category: "monitor-light", channel: "tw", topPick: false,

@@ -5,9 +5,9 @@
   const meta = {
     dataDate: "2026-09-01",
     costcoDate: "2026-09-01",
-    expectedCategoryCount: 34,
-    expectedProductCount: 1035,
-    cacheVersion: "20260901-230541-catalog",
+    expectedCategoryCount: 37,
+    expectedProductCount: 1125,
+    cacheVersion: "20260901-bedding",
     exchangeSummary: "USD 1 = TWD 31.649",
   };
 
@@ -37,6 +37,9 @@
     { id: "dryer", label: "烘衣機", group: "洗衣家務" },
     { id: "washerdryer", label: "洗烘衣機(多功能型)", group: "洗衣家務" },
     { id: "garmentcare", label: "電子衣櫥（衣物護理機）", group: "洗衣家務" },
+    { id: "bedsheet", label: "床包", group: "臥室寢具" },
+    { id: "comforter", label: "棉被", group: "臥室寢具" },
+    { id: "pillow", label: "枕頭", group: "臥室寢具" },
     { id: "refrigerator", label: "冰箱", group: "廚房餐飲" },
     { id: "cookware", label: "鍋具", group: "廚房餐飲" },
     { id: "knife", label: "刀具", group: "廚房餐飲" },

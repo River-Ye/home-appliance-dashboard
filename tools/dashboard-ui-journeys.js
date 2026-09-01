@@ -5,6 +5,7 @@ const {
   EXPECTED_PRODUCT_COUNT,
   EXPECTED_CATEGORY_PRODUCT_COUNTS,
   PERIPHERAL_TYPES,
+  BEDDING_TYPES,
 } = require("./dashboard-contract");
 const { readDashboardProducts } = require("./read-dashboard-products");
 const {
@@ -1053,8 +1054,8 @@ async function assertUrlHashRestore(page, name) {
   await resetFilters(page);
 }
 
-async function assertPeripheralTypeFilters(page, name, mobile = false) {
-  for (const [category, types] of Object.entries(PERIPHERAL_TYPES)) {
+async function assertProductTypeFilters(page, name, mobile = false) {
+  for (const [category, types] of Object.entries({ ...PERIPHERAL_TYPES, ...BEDDING_TYPES })) {
     const products = DASHBOARD_PRODUCTS.filter((product) => product.category === category);
     for (const type of mobile ? types.slice(0, 1) : types) {
       const count = products.filter((product) => product.type === type).length;
@@ -1181,7 +1182,7 @@ async function runTypeFilterJourney(browser) {
     if (!await basisRow.getByText("官方建議售價", { exact: true }).count()) throw new Error(`${name}: comparison price basis is missing`);
     const installationRow = page.locator("#compareTable tr", { has: page.getByRole("rowheader", { name: "安裝" }) });
     if (!await installationRow.locator("td").count()) throw new Error(`${name}: comparison installation disclosure is missing`);
-    await assertPeripheralTypeFilters(page, name);
+    await assertProductTypeFilters(page, name);
     assertNoRuntimeIssues(page, name);
   } finally {
     await page.close();
@@ -1207,7 +1208,7 @@ async function runTypeFilterJourney(browser) {
     if (await mobile.locator("#typeInput").inputValue() !== "10G（8 埠）") throw new Error(`${mobileName}: mobile switch speed is stale`);
     if (EXPECTED_NETWORK_SWITCH_COUNT !== 20) throw new Error(`${mobileName}: network-switch fixture count is stale`);
     await assertNoHorizontalOverflow(mobile, `${mobileName}-switch`);
-    await assertPeripheralTypeFilters(mobile, mobileName, true);
+    await assertProductTypeFilters(mobile, mobileName, true);
     assertNoRuntimeIssues(mobile, mobileName);
   } finally {
     await mobile.close();

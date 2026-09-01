@@ -1,39 +1,42 @@
 {
   "summary": {
     "checkedAt": "2026-09-01T00:00:00.000+08:00",
-    "sourcePolicy": "2026-09-01 以 1033 筆基準清單全量查核公開價格基準（通路現價或明示官方建議售價）、購買連結與可信新品狀態，並複核最終 1035 筆商品圖片、全部 502 筆 found 史低來源、原廠停產訊號與同批次匯率。官方建議售價不自動寫成通路現價或史低；PChome exact-model 現貨頁有正值 Price.Low 時採公開折扣價，否則採 Price.P；Qty 0、福利品、展示機與配件不寫回。其他頁面的結構化價格差異列入人工覆核候選，阻擋、暫時錯誤與單次頁面失效只列稽核，不臆測停產或史低失效。",
-    "total": 1035,
-    "researchedThisRun": 1035,
-    "found": 502,
-    "missing": 533,
+    "sourcePolicy": "2026-09-01 合併 90 款新增 exact-model 研究，既有逐筆證據及查核日期沿用、不表示重新查核。每筆明確區分通路現價與官方建議售價，官方建議售價不得被當成通路現價或史低。史低只接受具日期、同型號且可公開重現的可信新品來源；會員個人化折扣、點數、二手、福利品、展示機、拆封、整新、配件與耗材均排除。",
+    "total": 1125,
+    "researchedThisRun": 90,
+    "found": 503,
+    "missing": 622,
     "byConfidence": {
-      "not_found": 533,
-      "high": 324,
+      "not_found": 622,
+      "high": 325,
       "medium": 178
     },
     "exchange": {
+      "source": "ExchangeRate-API",
+      "date": "2026-08-31 00:02 UTC",
+      "timeLastUpdateUnix": 1788134551,
       "USD_TWD": 31.649299,
-      "currentUSD_TWD": 31.649299,
       "GBP_TWD": 42.87076447106599,
       "EUR_TWD": 36.70356316573794,
       "JPY_TWD": 0.19775241807359173,
       "CNY_TWD": 4.698696851031383,
       "HKD_TWD": 4.036684131717434,
-      "KRW_TWD": 0.022990974312124667
+      "KRW_TWD": 0.022990974312124667,
+      "currentUSD_TWD": 31.649299
     },
-    "lastMaintenanceCheckAt": "2026-08-31T23:05:41.009Z",
-    "currentPriceChanged": 116,
+    "lastMaintenanceCheckAt": "2026-09-01T00:37:30.164Z",
+    "currentPriceChanged": 0,
     "currentBuyLinkChanged": 0,
-    "currentPriceDrops": 81,
-    "currentPriceRises": 35,
+    "currentPriceDrops": 0,
+    "currentPriceRises": 0,
     "currentPriceFallbacks": 0,
-    "historicalLowUpdated": 3,
+    "historicalLowUpdated": 0,
     "historicalLowInvalidated": 0,
     "catalogEntriesReplaced": 0,
     "catalogReplacementNotes": [],
     "currentImageChanged": 0,
     "discontinuedRemoved": 0,
-    "newProductsAdded": 2,
+    "newProductsAdded": 90,
     "discontinuedRemovalNotes": [],
     "catalogEntriesRemoved": 0,
     "catalogRemovalNotes": []
@@ -48082,6 +48085,4158 @@
       "rejectedCandidates": [
         "排除把 Sony Store、FindPrice、LBJ 或 BigGo 的查核日現價當成史低，也排除分期月繳、會員券、信用卡回饋、點數、二手、福利品、展示機、拆封與非 exact model。"
       ]
+    },
+    {
+      "id": "bedsheet-nitori-2115100136769",
+      "category": "bedsheet",
+      "brand": "NITORI",
+      "model": "2115100136769",
+      "name": "素色天絲床包 NV 雙人 150×186 cm",
+      "currentPrice": 1190,
+      "currentCurrency": "TWD",
+      "currentBuyUrl": "https://www.nitori-net.tw/product/2115100136769",
+      "currentBuyLabel": "NITORI 宜得利台灣官方商城",
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "TWD",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-09-01",
+        "note": "2026-09-01 以 Chrome 核對 exact SKU 2115100136769 的 NITORI 宜得利台灣官方商城 現售頁，並執行 exact-model 上市／發售／開賣／launch／release／史低／價格歷史查詢；未取得可公開重現、具日期且同一版本的可信新品歷史最低價，現價不倒推為史低。"
+      },
+      "checkedSources": [
+        "https://www.nitori-net.tw/product/2115100136769",
+        "https://www.google.com/search?q=%222115100136769%22%20(%E4%B8%8A%E5%B8%82%20OR%20%E7%99%BC%E5%94%AE%20OR%20%E9%96%8B%E8%B3%A3%20OR%20launch%20OR%20release%20OR%20%E5%8F%B2%E4%BD%8E%20OR%20%E5%83%B9%E6%A0%BC%E6%AD%B7%E5%8F%B2)"
+      ],
+      "priceChecks": [
+        {
+          "kind": "official_price",
+          "url": "https://www.nitori-net.tw/product/2115100136769",
+          "query": "NITORI 2115100136769 現價",
+          "outcome": "排除作為史低：exact SKU 新品頁只支持 2026-09-01 通路現價 NT$1190，未提供歷史低點日期。"
+        },
+        {
+          "kind": "search_query",
+          "url": "https://www.google.com/search?q=%222115100136769%22%20(%E4%B8%8A%E5%B8%82%20OR%20%E7%99%BC%E5%94%AE%20OR%20%E9%96%8B%E8%B3%A3%20OR%20launch%20OR%20release%20OR%20%E5%8F%B2%E4%BD%8E%20OR%20%E5%83%B9%E6%A0%BC%E6%AD%B7%E5%8F%B2)",
+          "query": "\"2115100136769\" (上市 OR 發售 OR 開賣 OR launch OR release OR 史低 OR 價格歷史)",
+          "outcome": "排除：official 頁只證明 2026-09-01 現價；exact-model 查詢沒有同版本、具日期、可公開重現且能確認新品身分的最低價來源。"
+        }
+      ],
+      "rejectedCandidates": [
+        "official 頁只證明 2026-09-01 現價；exact-model 查詢沒有同版本、具日期、可公開重現且能確認新品身分的最低價來源。"
+      ]
+    },
+    {
+      "id": "bedsheet-hola-014366794",
+      "category": "bedsheet",
+      "brand": "HOLA",
+      "model": "014366794",
+      "name": "查莉 100% 亞麻床包雙人 暮灰 150×186 cm",
+      "currentPrice": 3380,
+      "currentCurrency": "TWD",
+      "currentBuyUrl": "https://www.hola.com.tw/p/014366794",
+      "currentBuyLabel": "HOLA 和樂台灣官方商城",
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "TWD",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-09-01",
+        "note": "2026-09-01 以 Chrome 核對 exact SKU 014366794 的 HOLA 和樂台灣官方商城 現售頁，並執行 exact-model 上市／發售／開賣／launch／release／史低／價格歷史查詢；未取得可公開重現、具日期且同一版本的可信新品歷史最低價，現價不倒推為史低。"
+      },
+      "checkedSources": [
+        "https://www.hola.com.tw/p/014366794",
+        "https://www.google.com/search?q=%22014366794%22%20(%E4%B8%8A%E5%B8%82%20OR%20%E7%99%BC%E5%94%AE%20OR%20%E9%96%8B%E8%B3%A3%20OR%20launch%20OR%20release%20OR%20%E5%8F%B2%E4%BD%8E%20OR%20%E5%83%B9%E6%A0%BC%E6%AD%B7%E5%8F%B2)"
+      ],
+      "priceChecks": [
+        {
+          "kind": "official_price",
+          "url": "https://www.hola.com.tw/p/014366794",
+          "query": "HOLA 014366794 現價",
+          "outcome": "排除作為史低：exact SKU 新品頁只支持 2026-09-01 通路現價 NT$3380，未提供歷史低點日期。"
+        },
+        {
+          "kind": "search_query",
+          "url": "https://www.google.com/search?q=%22014366794%22%20(%E4%B8%8A%E5%B8%82%20OR%20%E7%99%BC%E5%94%AE%20OR%20%E9%96%8B%E8%B3%A3%20OR%20launch%20OR%20release%20OR%20%E5%8F%B2%E4%BD%8E%20OR%20%E5%83%B9%E6%A0%BC%E6%AD%B7%E5%8F%B2)",
+          "query": "\"014366794\" (上市 OR 發售 OR 開賣 OR launch OR release OR 史低 OR 價格歷史)",
+          "outcome": "排除：official 頁只證明 2026-09-01 現價；exact-model 查詢沒有同版本、具日期、可公開重現且能確認新品身分的最低價來源。"
+        }
+      ],
+      "rejectedCandidates": [
+        "official 頁只證明 2026-09-01 現價；exact-model 查詢沒有同版本、具日期、可公開重現且能確認新品身分的最低價來源。"
+      ]
+    },
+    {
+      "id": "bedsheet-ikea-50336953",
+      "category": "bedsheet",
+      "brand": "IKEA",
+      "model": "503.369.53",
+      "name": "ULLVIDE 雙人床包 灰色 150×200 cm",
+      "currentPrice": 799,
+      "currentCurrency": "TWD",
+      "currentBuyUrl": "https://www.ikea.com.tw/zh/products/bedlinen/sheets-and-pillow-cases/ullvide-art-50336953",
+      "currentBuyLabel": "IKEA 台灣官方商城",
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "TWD",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-09-01",
+        "note": "2026-09-01 以 Chrome 核對 exact SKU 503.369.53 的 IKEA 台灣官方商城 現售頁，並執行 exact-model 上市／發售／開賣／launch／release／史低／價格歷史查詢；未取得可公開重現、具日期且同一版本的可信新品歷史最低價，現價不倒推為史低。"
+      },
+      "checkedSources": [
+        "https://www.ikea.com.tw/zh/products/bedlinen/sheets-and-pillow-cases/ullvide-art-50336953",
+        "https://www.google.com/search?q=%22503.369.53%22%20(%E4%B8%8A%E5%B8%82%20OR%20%E7%99%BC%E5%94%AE%20OR%20%E9%96%8B%E8%B3%A3%20OR%20launch%20OR%20release%20OR%20%E5%8F%B2%E4%BD%8E%20OR%20%E5%83%B9%E6%A0%BC%E6%AD%B7%E5%8F%B2)"
+      ],
+      "priceChecks": [
+        {
+          "kind": "official_price",
+          "url": "https://www.ikea.com.tw/zh/products/bedlinen/sheets-and-pillow-cases/ullvide-art-50336953",
+          "query": "IKEA 503.369.53 現價",
+          "outcome": "排除作為史低：exact SKU 新品頁只支持 2026-09-01 通路現價 NT$799，未提供歷史低點日期。"
+        },
+        {
+          "kind": "search_query",
+          "url": "https://www.google.com/search?q=%22503.369.53%22%20(%E4%B8%8A%E5%B8%82%20OR%20%E7%99%BC%E5%94%AE%20OR%20%E9%96%8B%E8%B3%A3%20OR%20launch%20OR%20release%20OR%20%E5%8F%B2%E4%BD%8E%20OR%20%E5%83%B9%E6%A0%BC%E6%AD%B7%E5%8F%B2)",
+          "query": "\"503.369.53\" (上市 OR 發售 OR 開賣 OR launch OR release OR 史低 OR 價格歷史)",
+          "outcome": "排除：official 頁只證明 2026-09-01 現價；exact-model 查詢沒有同版本、具日期、可公開重現且能確認新品身分的最低價來源。"
+        }
+      ],
+      "rejectedCandidates": [
+        "official 頁只證明 2026-09-01 現價；exact-model 查詢沒有同版本、具日期、可公開重現且能確認新品身分的最低價來源。"
+      ]
+    },
+    {
+      "id": "bedsheet-nitori-7518868",
+      "category": "bedsheet",
+      "brand": "NITORI",
+      "model": "7518868",
+      "name": "N HOTEL 純棉多種厚度對應床包 WH 雙人",
+      "currentPrice": 899,
+      "currentCurrency": "TWD",
+      "currentBuyUrl": "https://www.nitori-net.tw/product/7518868",
+      "currentBuyLabel": "NITORI 宜得利台灣官方商城",
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "TWD",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-09-01",
+        "note": "2026-09-01 以 Chrome 核對 exact SKU 7518868 的 NITORI 宜得利台灣官方商城 現售頁，並執行 exact-model 上市／發售／開賣／launch／release／史低／價格歷史查詢；未取得可公開重現、具日期且同一版本的可信新品歷史最低價，現價不倒推為史低。"
+      },
+      "checkedSources": [
+        "https://www.nitori-net.tw/product/7518868",
+        "https://www.google.com/search?q=%227518868%22%20(%E4%B8%8A%E5%B8%82%20OR%20%E7%99%BC%E5%94%AE%20OR%20%E9%96%8B%E8%B3%A3%20OR%20launch%20OR%20release%20OR%20%E5%8F%B2%E4%BD%8E%20OR%20%E5%83%B9%E6%A0%BC%E6%AD%B7%E5%8F%B2)"
+      ],
+      "priceChecks": [
+        {
+          "kind": "official_price",
+          "url": "https://www.nitori-net.tw/product/7518868",
+          "query": "NITORI 7518868 現價",
+          "outcome": "排除作為史低：exact SKU 新品頁只支持 2026-09-01 通路現價 NT$899，未提供歷史低點日期。"
+        },
+        {
+          "kind": "search_query",
+          "url": "https://www.google.com/search?q=%227518868%22%20(%E4%B8%8A%E5%B8%82%20OR%20%E7%99%BC%E5%94%AE%20OR%20%E9%96%8B%E8%B3%A3%20OR%20launch%20OR%20release%20OR%20%E5%8F%B2%E4%BD%8E%20OR%20%E5%83%B9%E6%A0%BC%E6%AD%B7%E5%8F%B2)",
+          "query": "\"7518868\" (上市 OR 發售 OR 開賣 OR launch OR release OR 史低 OR 價格歷史)",
+          "outcome": "排除：official 頁只證明 2026-09-01 現價；exact-model 查詢沒有同版本、具日期、可公開重現且能確認新品身分的最低價來源。"
+        }
+      ],
+      "rejectedCandidates": [
+        "official 頁只證明 2026-09-01 現價；exact-model 查詢沒有同版本、具日期、可公開重現且能確認新品身分的最低價來源。"
+      ]
+    },
+    {
+      "id": "bedsheet-ikea-00442673",
+      "category": "bedsheet",
+      "brand": "IKEA",
+      "model": "004.426.73",
+      "name": "NATTJASMIN 雙人床包 深灰色 150×200 cm",
+      "currentPrice": 1199,
+      "currentCurrency": "TWD",
+      "currentBuyUrl": "https://www.ikea.com.tw/zh/products/bedlinen/sheets-and-pillow-cases/nattjasmin-art-00442673",
+      "currentBuyLabel": "IKEA 台灣官方商城",
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "TWD",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-09-01",
+        "note": "2026-09-01 以 Chrome 核對 exact SKU 004.426.73 的 IKEA 台灣官方商城 現售頁，並執行 exact-model 上市／發售／開賣／launch／release／史低／價格歷史查詢；未取得可公開重現、具日期且同一版本的可信新品歷史最低價，現價不倒推為史低。"
+      },
+      "checkedSources": [
+        "https://www.ikea.com.tw/zh/products/bedlinen/sheets-and-pillow-cases/nattjasmin-art-00442673",
+        "https://www.google.com/search?q=%22004.426.73%22%20(%E4%B8%8A%E5%B8%82%20OR%20%E7%99%BC%E5%94%AE%20OR%20%E9%96%8B%E8%B3%A3%20OR%20launch%20OR%20release%20OR%20%E5%8F%B2%E4%BD%8E%20OR%20%E5%83%B9%E6%A0%BC%E6%AD%B7%E5%8F%B2)"
+      ],
+      "priceChecks": [
+        {
+          "kind": "official_price",
+          "url": "https://www.ikea.com.tw/zh/products/bedlinen/sheets-and-pillow-cases/nattjasmin-art-00442673",
+          "query": "IKEA 004.426.73 現價",
+          "outcome": "排除作為史低：exact SKU 新品頁只支持 2026-09-01 通路現價 NT$1199，未提供歷史低點日期。"
+        },
+        {
+          "kind": "search_query",
+          "url": "https://www.google.com/search?q=%22004.426.73%22%20(%E4%B8%8A%E5%B8%82%20OR%20%E7%99%BC%E5%94%AE%20OR%20%E9%96%8B%E8%B3%A3%20OR%20launch%20OR%20release%20OR%20%E5%8F%B2%E4%BD%8E%20OR%20%E5%83%B9%E6%A0%BC%E6%AD%B7%E5%8F%B2)",
+          "query": "\"004.426.73\" (上市 OR 發售 OR 開賣 OR launch OR release OR 史低 OR 價格歷史)",
+          "outcome": "排除：official 頁只證明 2026-09-01 現價；exact-model 查詢沒有同版本、具日期、可公開重現且能確認新品身分的最低價來源。"
+        }
+      ],
+      "rejectedCandidates": [
+        "official 頁只證明 2026-09-01 現價；exact-model 查詢沒有同版本、具日期、可公開重現且能確認新品身分的最低價來源。"
+      ]
+    },
+    {
+      "id": "bedsheet-nitori-7518131",
+      "category": "bedsheet",
+      "brand": "NITORI",
+      "model": "7518131",
+      "name": "POLY WASH 聚酯床包 GY 單人",
+      "currentPrice": 269,
+      "currentCurrency": "TWD",
+      "currentBuyUrl": "https://www.nitori-net.tw/product/7518131",
+      "currentBuyLabel": "NITORI 宜得利台灣官方商城",
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "TWD",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-09-01",
+        "note": "2026-09-01 以 Chrome 核對 exact SKU 7518131 的 NITORI 宜得利台灣官方商城 現售頁，並執行 exact-model 上市／發售／開賣／launch／release／史低／價格歷史查詢；未取得可公開重現、具日期且同一版本的可信新品歷史最低價，現價不倒推為史低。"
+      },
+      "checkedSources": [
+        "https://www.nitori-net.tw/product/7518131",
+        "https://www.google.com/search?q=%227518131%22%20(%E4%B8%8A%E5%B8%82%20OR%20%E7%99%BC%E5%94%AE%20OR%20%E9%96%8B%E8%B3%A3%20OR%20launch%20OR%20release%20OR%20%E5%8F%B2%E4%BD%8E%20OR%20%E5%83%B9%E6%A0%BC%E6%AD%B7%E5%8F%B2)"
+      ],
+      "priceChecks": [
+        {
+          "kind": "official_price",
+          "url": "https://www.nitori-net.tw/product/7518131",
+          "query": "NITORI 7518131 現價",
+          "outcome": "排除作為史低：exact SKU 新品頁只支持 2026-09-01 通路現價 NT$269，未提供歷史低點日期。"
+        },
+        {
+          "kind": "search_query",
+          "url": "https://www.google.com/search?q=%227518131%22%20(%E4%B8%8A%E5%B8%82%20OR%20%E7%99%BC%E5%94%AE%20OR%20%E9%96%8B%E8%B3%A3%20OR%20launch%20OR%20release%20OR%20%E5%8F%B2%E4%BD%8E%20OR%20%E5%83%B9%E6%A0%BC%E6%AD%B7%E5%8F%B2)",
+          "query": "\"7518131\" (上市 OR 發售 OR 開賣 OR launch OR release OR 史低 OR 價格歷史)",
+          "outcome": "排除：official 頁只證明 2026-09-01 現價；exact-model 查詢沒有同版本、具日期、可公開重現且能確認新品身分的最低價來源。"
+        }
+      ],
+      "rejectedCandidates": [
+        "official 頁只證明 2026-09-01 現價；exact-model 查詢沒有同版本、具日期、可公開重現且能確認新品身分的最低價來源。"
+      ]
+    },
+    {
+      "id": "bedsheet-ikea-30482460",
+      "category": "bedsheet",
+      "brand": "IKEA",
+      "model": "304.824.60",
+      "name": "DVALA 單人床包 白色 90×200 cm",
+      "currentPrice": 349,
+      "currentCurrency": "TWD",
+      "currentBuyUrl": "https://www.ikea.com.tw/zh/products/bedlinen/sheets-and-pillow-cases/dvala-art-30482460",
+      "currentBuyLabel": "IKEA 台灣官方商城",
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "TWD",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-09-01",
+        "note": "2026-09-01 以 Chrome 核對 exact SKU 304.824.60 的 IKEA 台灣官方商城 現售頁，並執行 exact-model 上市／發售／開賣／launch／release／史低／價格歷史查詢；未取得可公開重現、具日期且同一版本的可信新品歷史最低價，現價不倒推為史低。"
+      },
+      "checkedSources": [
+        "https://www.ikea.com.tw/zh/products/bedlinen/sheets-and-pillow-cases/dvala-art-30482460",
+        "https://www.google.com/search?q=%22304.824.60%22%20(%E4%B8%8A%E5%B8%82%20OR%20%E7%99%BC%E5%94%AE%20OR%20%E9%96%8B%E8%B3%A3%20OR%20launch%20OR%20release%20OR%20%E5%8F%B2%E4%BD%8E%20OR%20%E5%83%B9%E6%A0%BC%E6%AD%B7%E5%8F%B2)"
+      ],
+      "priceChecks": [
+        {
+          "kind": "official_price",
+          "url": "https://www.ikea.com.tw/zh/products/bedlinen/sheets-and-pillow-cases/dvala-art-30482460",
+          "query": "IKEA 304.824.60 現價",
+          "outcome": "排除作為史低：exact SKU 新品頁只支持 2026-09-01 通路現價 NT$349，未提供歷史低點日期。"
+        },
+        {
+          "kind": "search_query",
+          "url": "https://www.google.com/search?q=%22304.824.60%22%20(%E4%B8%8A%E5%B8%82%20OR%20%E7%99%BC%E5%94%AE%20OR%20%E9%96%8B%E8%B3%A3%20OR%20launch%20OR%20release%20OR%20%E5%8F%B2%E4%BD%8E%20OR%20%E5%83%B9%E6%A0%BC%E6%AD%B7%E5%8F%B2)",
+          "query": "\"304.824.60\" (上市 OR 發售 OR 開賣 OR launch OR release OR 史低 OR 價格歷史)",
+          "outcome": "排除：official 頁只證明 2026-09-01 現價；exact-model 查詢沒有同版本、具日期、可公開重現且能確認新品身分的最低價來源。"
+        }
+      ],
+      "rejectedCandidates": [
+        "official 頁只證明 2026-09-01 現價；exact-model 查詢沒有同版本、具日期、可公開重現且能確認新品身分的最低價來源。"
+      ]
+    },
+    {
+      "id": "bedsheet-nitori-7516608",
+      "category": "bedsheet",
+      "brand": "NITORI",
+      "model": "7516608",
+      "name": "N FIT EVE2 伸縮床包 DBR 單人",
+      "currentPrice": 474,
+      "currentCurrency": "TWD",
+      "currentBuyUrl": "https://www.nitori-net.tw/product/7516608",
+      "currentBuyLabel": "NITORI 宜得利台灣官方商城",
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "TWD",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-09-01",
+        "note": "2026-09-01 以 Chrome 核對 exact SKU 7516608 的 NITORI 宜得利台灣官方商城 現售頁，並執行 exact-model 上市／發售／開賣／launch／release／史低／價格歷史查詢；未取得可公開重現、具日期且同一版本的可信新品歷史最低價，現價不倒推為史低。"
+      },
+      "checkedSources": [
+        "https://www.nitori-net.tw/product/7516608",
+        "https://www.google.com/search?q=%227516608%22%20(%E4%B8%8A%E5%B8%82%20OR%20%E7%99%BC%E5%94%AE%20OR%20%E9%96%8B%E8%B3%A3%20OR%20launch%20OR%20release%20OR%20%E5%8F%B2%E4%BD%8E%20OR%20%E5%83%B9%E6%A0%BC%E6%AD%B7%E5%8F%B2)"
+      ],
+      "priceChecks": [
+        {
+          "kind": "official_price",
+          "url": "https://www.nitori-net.tw/product/7516608",
+          "query": "NITORI 7516608 現價",
+          "outcome": "排除作為史低：exact SKU 新品頁只支持 2026-09-01 通路現價 NT$474，未提供歷史低點日期。"
+        },
+        {
+          "kind": "search_query",
+          "url": "https://www.google.com/search?q=%227516608%22%20(%E4%B8%8A%E5%B8%82%20OR%20%E7%99%BC%E5%94%AE%20OR%20%E9%96%8B%E8%B3%A3%20OR%20launch%20OR%20release%20OR%20%E5%8F%B2%E4%BD%8E%20OR%20%E5%83%B9%E6%A0%BC%E6%AD%B7%E5%8F%B2)",
+          "query": "\"7516608\" (上市 OR 發售 OR 開賣 OR launch OR release OR 史低 OR 價格歷史)",
+          "outcome": "排除：搜尋中的棒球藥檢、股票公告、Chromium issue 與唱片條目只是數字 7516608 碰撞，均非本床包；official 現價也不能倒推為史低。"
+        }
+      ],
+      "rejectedCandidates": [
+        "搜尋中的棒球藥檢、股票公告、Chromium issue 與唱片條目只是數字 7516608 碰撞，均非本床包；official 現價也不能倒推為史低。"
+      ]
+    },
+    {
+      "id": "bedsheet-ikea-60482449",
+      "category": "bedsheet",
+      "brand": "IKEA",
+      "model": "604.824.49",
+      "name": "DVALA 雙人床包 白色 150×200 cm",
+      "currentPrice": 549,
+      "currentCurrency": "TWD",
+      "currentBuyUrl": "https://www.ikea.com.tw/zh/products/bedlinen/sheets-and-pillow-cases/dvala-art-60482449",
+      "currentBuyLabel": "IKEA 台灣官方商城",
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "TWD",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-09-01",
+        "note": "2026-09-01 以 Chrome 核對 exact SKU 604.824.49 的 IKEA 台灣官方商城 現售頁，並執行 exact-model 上市／發售／開賣／launch／release／史低／價格歷史查詢；未取得可公開重現、具日期且同一版本的可信新品歷史最低價，現價不倒推為史低。"
+      },
+      "checkedSources": [
+        "https://www.ikea.com.tw/zh/products/bedlinen/sheets-and-pillow-cases/dvala-art-60482449",
+        "https://www.google.com/search?q=%22604.824.49%22%20(%E4%B8%8A%E5%B8%82%20OR%20%E7%99%BC%E5%94%AE%20OR%20%E9%96%8B%E8%B3%A3%20OR%20launch%20OR%20release%20OR%20%E5%8F%B2%E4%BD%8E%20OR%20%E5%83%B9%E6%A0%BC%E6%AD%B7%E5%8F%B2)"
+      ],
+      "priceChecks": [
+        {
+          "kind": "official_price",
+          "url": "https://www.ikea.com.tw/zh/products/bedlinen/sheets-and-pillow-cases/dvala-art-60482449",
+          "query": "IKEA 604.824.49 現價",
+          "outcome": "排除作為史低：exact SKU 新品頁只支持 2026-09-01 通路現價 NT$549，未提供歷史低點日期。"
+        },
+        {
+          "kind": "search_query",
+          "url": "https://www.google.com/search?q=%22604.824.49%22%20(%E4%B8%8A%E5%B8%82%20OR%20%E7%99%BC%E5%94%AE%20OR%20%E9%96%8B%E8%B3%A3%20OR%20launch%20OR%20release%20OR%20%E5%8F%B2%E4%BD%8E%20OR%20%E5%83%B9%E6%A0%BC%E6%AD%B7%E5%8F%B2)",
+          "query": "\"604.824.49\" (上市 OR 發售 OR 開賣 OR launch OR release OR 史低 OR 價格歷史)",
+          "outcome": "排除：official 頁只證明 2026-09-01 現價；exact-model 查詢沒有同版本、具日期、可公開重現且能確認新品身分的最低價來源。"
+        }
+      ],
+      "rejectedCandidates": [
+        "official 頁只證明 2026-09-01 現價；exact-model 查詢沒有同版本、具日期、可公開重現且能確認新品身分的最低價來源。"
+      ]
+    },
+    {
+      "id": "bedsheet-ikea-60482454",
+      "category": "bedsheet",
+      "brand": "IKEA",
+      "model": "604.824.54",
+      "name": "DVALA 雙人加大床包 白色 180×200 cm",
+      "currentPrice": 649,
+      "currentCurrency": "TWD",
+      "currentBuyUrl": "https://www.ikea.com.tw/zh/products/bedlinen/sheets-and-pillow-cases/dvala-art-60482454",
+      "currentBuyLabel": "IKEA 台灣官方商城",
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "TWD",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-09-01",
+        "note": "2026-09-01 以 Chrome 核對 exact SKU 604.824.54 的 IKEA 台灣官方商城 現售頁，並執行 exact-model 上市／發售／開賣／launch／release／史低／價格歷史查詢；未取得可公開重現、具日期且同一版本的可信新品歷史最低價，現價不倒推為史低。"
+      },
+      "checkedSources": [
+        "https://www.ikea.com.tw/zh/products/bedlinen/sheets-and-pillow-cases/dvala-art-60482454",
+        "https://www.google.com/search?q=%22604.824.54%22%20(%E4%B8%8A%E5%B8%82%20OR%20%E7%99%BC%E5%94%AE%20OR%20%E9%96%8B%E8%B3%A3%20OR%20launch%20OR%20release%20OR%20%E5%8F%B2%E4%BD%8E%20OR%20%E5%83%B9%E6%A0%BC%E6%AD%B7%E5%8F%B2)"
+      ],
+      "priceChecks": [
+        {
+          "kind": "official_price",
+          "url": "https://www.ikea.com.tw/zh/products/bedlinen/sheets-and-pillow-cases/dvala-art-60482454",
+          "query": "IKEA 604.824.54 現價",
+          "outcome": "排除作為史低：exact SKU 新品頁只支持 2026-09-01 通路現價 NT$649，未提供歷史低點日期。"
+        },
+        {
+          "kind": "search_query",
+          "url": "https://www.google.com/search?q=%22604.824.54%22%20(%E4%B8%8A%E5%B8%82%20OR%20%E7%99%BC%E5%94%AE%20OR%20%E9%96%8B%E8%B3%A3%20OR%20launch%20OR%20release%20OR%20%E5%8F%B2%E4%BD%8E%20OR%20%E5%83%B9%E6%A0%BC%E6%AD%B7%E5%8F%B2)",
+          "query": "\"604.824.54\" (上市 OR 發售 OR 開賣 OR launch OR release OR 史低 OR 價格歷史)",
+          "outcome": "排除：official 頁只證明 2026-09-01 現價；exact-model 查詢沒有同版本、具日期、可公開重現且能確認新品身分的最低價來源。"
+        }
+      ],
+      "rejectedCandidates": [
+        "official 頁只證明 2026-09-01 現價；exact-model 查詢沒有同版本、具日期、可公開重現且能確認新品身分的最低價來源。"
+      ]
+    },
+    {
+      "id": "bedsheet-nitori-7518718",
+      "category": "bedsheet",
+      "brand": "NITORI",
+      "model": "7518718",
+      "name": "WASH 水洗純棉多種厚度對應床包 DGY 單人",
+      "currentPrice": 599,
+      "currentCurrency": "TWD",
+      "currentBuyUrl": "https://www.nitori-net.tw/product/7518718",
+      "currentBuyLabel": "NITORI 宜得利台灣官方商城",
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "TWD",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-09-01",
+        "note": "2026-09-01 以 Chrome 核對 exact SKU 7518718 的 NITORI 宜得利台灣官方商城 現售頁，並執行 exact-model 上市／發售／開賣／launch／release／史低／價格歷史查詢；未取得可公開重現、具日期且同一版本的可信新品歷史最低價，現價不倒推為史低。"
+      },
+      "checkedSources": [
+        "https://www.nitori-net.tw/product/7518718",
+        "https://www.google.com/search?q=%227518718%22%20(%E4%B8%8A%E5%B8%82%20OR%20%E7%99%BC%E5%94%AE%20OR%20%E9%96%8B%E8%B3%A3%20OR%20launch%20OR%20release%20OR%20%E5%8F%B2%E4%BD%8E%20OR%20%E5%83%B9%E6%A0%BC%E6%AD%B7%E5%8F%B2)"
+      ],
+      "priceChecks": [
+        {
+          "kind": "official_price",
+          "url": "https://www.nitori-net.tw/product/7518718",
+          "query": "NITORI 7518718 現價",
+          "outcome": "排除作為史低：exact SKU 新品頁只支持 2026-09-01 通路現價 NT$599，未提供歷史低點日期。"
+        },
+        {
+          "kind": "search_query",
+          "url": "https://www.google.com/search?q=%227518718%22%20(%E4%B8%8A%E5%B8%82%20OR%20%E7%99%BC%E5%94%AE%20OR%20%E9%96%8B%E8%B3%A3%20OR%20launch%20OR%20release%20OR%20%E5%8F%B2%E4%BD%8E%20OR%20%E5%83%B9%E6%A0%BC%E6%AD%B7%E5%8F%B2)",
+          "query": "\"7518718\" (上市 OR 發售 OR 開賣 OR launch OR release OR 史低 OR 價格歷史)",
+          "outcome": "排除：official 頁只證明 2026-09-01 現價；exact-model 查詢沒有同版本、具日期、可公開重現且能確認新品身分的最低價來源。"
+        }
+      ],
+      "rejectedCandidates": [
+        "official 頁只證明 2026-09-01 現價；exact-model 查詢沒有同版本、具日期、可公開重現且能確認新品身分的最低價來源。"
+      ]
+    },
+    {
+      "id": "bedsheet-nitori-2115100119564",
+      "category": "bedsheet",
+      "brand": "NITORI",
+      "model": "2115100119564",
+      "name": "竹纖緞面多種厚度對應床包 GY S2611 單人",
+      "currentPrice": 699,
+      "currentCurrency": "TWD",
+      "currentBuyUrl": "https://www.nitori-net.tw/product/2115100119564",
+      "currentBuyLabel": "NITORI 宜得利台灣官方商城",
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "TWD",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-09-01",
+        "note": "2026-09-01 以 Chrome 核對 exact SKU 2115100119564 的 NITORI 宜得利台灣官方商城 現售頁，並執行 exact-model 上市／發售／開賣／launch／release／史低／價格歷史查詢；未取得可公開重現、具日期且同一版本的可信新品歷史最低價，現價不倒推為史低。"
+      },
+      "checkedSources": [
+        "https://www.nitori-net.tw/product/2115100119564",
+        "https://www.google.com/search?q=%222115100119564%22%20(%E4%B8%8A%E5%B8%82%20OR%20%E7%99%BC%E5%94%AE%20OR%20%E9%96%8B%E8%B3%A3%20OR%20launch%20OR%20release%20OR%20%E5%8F%B2%E4%BD%8E%20OR%20%E5%83%B9%E6%A0%BC%E6%AD%B7%E5%8F%B2)"
+      ],
+      "priceChecks": [
+        {
+          "kind": "official_price",
+          "url": "https://www.nitori-net.tw/product/2115100119564",
+          "query": "NITORI 2115100119564 現價",
+          "outcome": "排除作為史低：exact SKU 新品頁只支持 2026-09-01 通路現價 NT$699，未提供歷史低點日期。"
+        },
+        {
+          "kind": "search_query",
+          "url": "https://www.google.com/search?q=%222115100119564%22%20(%E4%B8%8A%E5%B8%82%20OR%20%E7%99%BC%E5%94%AE%20OR%20%E9%96%8B%E8%B3%A3%20OR%20launch%20OR%20release%20OR%20%E5%8F%B2%E4%BD%8E%20OR%20%E5%83%B9%E6%A0%BC%E6%AD%B7%E5%8F%B2)",
+          "query": "\"2115100119564\" (上市 OR 發售 OR 開賣 OR launch OR release OR 史低 OR 價格歷史)",
+          "outcome": "排除：official 頁只證明 2026-09-01 現價；exact-model 查詢沒有同版本、具日期、可公開重現且能確認新品身分的最低價來源。"
+        }
+      ],
+      "rejectedCandidates": [
+        "official 頁只證明 2026-09-01 現價；exact-model 查詢沒有同版本、具日期、可公開重現且能確認新品身分的最低價來源。"
+      ]
+    },
+    {
+      "id": "bedsheet-ikea-20458856",
+      "category": "bedsheet",
+      "brand": "IKEA",
+      "model": "204.588.56",
+      "name": "HÖSTVÄDD 單人加寬涼感床包 120×200 cm",
+      "currentPrice": 549,
+      "currentCurrency": "TWD",
+      "currentBuyUrl": "https://www.ikea.com.tw/zh/products/bedlinen/sheets-and-pillow-cases/hostvadd-art-20458856",
+      "currentBuyLabel": "IKEA 台灣官方商城",
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "TWD",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-09-01",
+        "note": "2026-09-01 以 Chrome 核對 exact SKU 204.588.56 的 IKEA 台灣官方商城 現售頁，並執行 exact-model 上市／發售／開賣／launch／release／史低／價格歷史查詢；未取得可公開重現、具日期且同一版本的可信新品歷史最低價，現價不倒推為史低。"
+      },
+      "checkedSources": [
+        "https://www.ikea.com.tw/zh/products/bedlinen/sheets-and-pillow-cases/hostvadd-art-20458856",
+        "https://www.google.com/search?q=%22204.588.56%22%20(%E4%B8%8A%E5%B8%82%20OR%20%E7%99%BC%E5%94%AE%20OR%20%E9%96%8B%E8%B3%A3%20OR%20launch%20OR%20release%20OR%20%E5%8F%B2%E4%BD%8E%20OR%20%E5%83%B9%E6%A0%BC%E6%AD%B7%E5%8F%B2)"
+      ],
+      "priceChecks": [
+        {
+          "kind": "official_price",
+          "url": "https://www.ikea.com.tw/zh/products/bedlinen/sheets-and-pillow-cases/hostvadd-art-20458856",
+          "query": "IKEA 204.588.56 現價",
+          "outcome": "排除作為史低：exact SKU 新品頁只支持 2026-09-01 通路現價 NT$549，未提供歷史低點日期。"
+        },
+        {
+          "kind": "search_query",
+          "url": "https://www.google.com/search?q=%22204.588.56%22%20(%E4%B8%8A%E5%B8%82%20OR%20%E7%99%BC%E5%94%AE%20OR%20%E9%96%8B%E8%B3%A3%20OR%20launch%20OR%20release%20OR%20%E5%8F%B2%E4%BD%8E%20OR%20%E5%83%B9%E6%A0%BC%E6%AD%B7%E5%8F%B2)",
+          "query": "\"204.588.56\" (上市 OR 發售 OR 開賣 OR launch OR release OR 史低 OR 價格歷史)",
+          "outcome": "排除：official 頁只證明 2026-09-01 現價；exact-model 查詢沒有同版本、具日期、可公開重現且能確認新品身分的最低價來源。"
+        }
+      ],
+      "rejectedCandidates": [
+        "official 頁只證明 2026-09-01 現價；exact-model 查詢沒有同版本、具日期、可公開重現且能確認新品身分的最低價來源。"
+      ]
+    },
+    {
+      "id": "bedsheet-ikea-00458857",
+      "category": "bedsheet",
+      "brand": "IKEA",
+      "model": "004.588.57",
+      "name": "HÖSTVÄDD 雙人涼感床包 150×200 cm",
+      "currentPrice": 649,
+      "currentCurrency": "TWD",
+      "currentBuyUrl": "https://www.ikea.com.tw/zh/products/bedlinen/sheets-and-pillow-cases/hostvadd-art-00458857",
+      "currentBuyLabel": "IKEA 台灣官方商城",
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "TWD",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-09-01",
+        "note": "2026-09-01 以 Chrome 核對 exact SKU 004.588.57 的 IKEA 台灣官方商城 現售頁，並執行 exact-model 上市／發售／開賣／launch／release／史低／價格歷史查詢；未取得可公開重現、具日期且同一版本的可信新品歷史最低價，現價不倒推為史低。"
+      },
+      "checkedSources": [
+        "https://www.ikea.com.tw/zh/products/bedlinen/sheets-and-pillow-cases/hostvadd-art-00458857",
+        "https://www.google.com/search?q=%22004.588.57%22%20(%E4%B8%8A%E5%B8%82%20OR%20%E7%99%BC%E5%94%AE%20OR%20%E9%96%8B%E8%B3%A3%20OR%20launch%20OR%20release%20OR%20%E5%8F%B2%E4%BD%8E%20OR%20%E5%83%B9%E6%A0%BC%E6%AD%B7%E5%8F%B2)"
+      ],
+      "priceChecks": [
+        {
+          "kind": "official_price",
+          "url": "https://www.ikea.com.tw/zh/products/bedlinen/sheets-and-pillow-cases/hostvadd-art-00458857",
+          "query": "IKEA 004.588.57 現價",
+          "outcome": "排除作為史低：exact SKU 新品頁只支持 2026-09-01 通路現價 NT$649，未提供歷史低點日期。"
+        },
+        {
+          "kind": "search_query",
+          "url": "https://www.google.com/search?q=%22004.588.57%22%20(%E4%B8%8A%E5%B8%82%20OR%20%E7%99%BC%E5%94%AE%20OR%20%E9%96%8B%E8%B3%A3%20OR%20launch%20OR%20release%20OR%20%E5%8F%B2%E4%BD%8E%20OR%20%E5%83%B9%E6%A0%BC%E6%AD%B7%E5%8F%B2)",
+          "query": "\"004.588.57\" (上市 OR 發售 OR 開賣 OR launch OR release OR 史低 OR 價格歷史)",
+          "outcome": "排除：official 頁只證明 2026-09-01 現價；exact-model 查詢沒有同版本、具日期、可公開重現且能確認新品身分的最低價來源。"
+        }
+      ],
+      "rejectedCandidates": [
+        "official 頁只證明 2026-09-01 現價；exact-model 查詢沒有同版本、具日期、可公開重現且能確認新品身分的最低價來源。"
+      ]
+    },
+    {
+      "id": "bedsheet-ikea-80458858",
+      "category": "bedsheet",
+      "brand": "IKEA",
+      "model": "804.588.58",
+      "name": "HÖSTVÄDD 雙人加大涼感床包 180×200 cm",
+      "currentPrice": 749,
+      "currentCurrency": "TWD",
+      "currentBuyUrl": "https://www.ikea.com.tw/zh/products/bedlinen/sheets-and-pillow-cases/hostvadd-art-80458858",
+      "currentBuyLabel": "IKEA 台灣官方商城",
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "TWD",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-09-01",
+        "note": "2026-09-01 以 Chrome 核對 exact SKU 804.588.58 的 IKEA 台灣官方商城 現售頁，並執行 exact-model 上市／發售／開賣／launch／release／史低／價格歷史查詢；未取得可公開重現、具日期且同一版本的可信新品歷史最低價，現價不倒推為史低。"
+      },
+      "checkedSources": [
+        "https://www.ikea.com.tw/zh/products/bedlinen/sheets-and-pillow-cases/hostvadd-art-80458858",
+        "https://www.google.com/search?q=%22804.588.58%22%20(%E4%B8%8A%E5%B8%82%20OR%20%E7%99%BC%E5%94%AE%20OR%20%E9%96%8B%E8%B3%A3%20OR%20launch%20OR%20release%20OR%20%E5%8F%B2%E4%BD%8E%20OR%20%E5%83%B9%E6%A0%BC%E6%AD%B7%E5%8F%B2)"
+      ],
+      "priceChecks": [
+        {
+          "kind": "official_price",
+          "url": "https://www.ikea.com.tw/zh/products/bedlinen/sheets-and-pillow-cases/hostvadd-art-80458858",
+          "query": "IKEA 804.588.58 現價",
+          "outcome": "排除作為史低：exact SKU 新品頁只支持 2026-09-01 通路現價 NT$749，未提供歷史低點日期。"
+        },
+        {
+          "kind": "search_query",
+          "url": "https://www.google.com/search?q=%22804.588.58%22%20(%E4%B8%8A%E5%B8%82%20OR%20%E7%99%BC%E5%94%AE%20OR%20%E9%96%8B%E8%B3%A3%20OR%20launch%20OR%20release%20OR%20%E5%8F%B2%E4%BD%8E%20OR%20%E5%83%B9%E6%A0%BC%E6%AD%B7%E5%8F%B2)",
+          "query": "\"804.588.58\" (上市 OR 發售 OR 開賣 OR launch OR release OR 史低 OR 價格歷史)",
+          "outcome": "排除：official 頁只證明 2026-09-01 現價；exact-model 查詢沒有同版本、具日期、可公開重現且能確認新品身分的最低價來源。"
+        }
+      ],
+      "rejectedCandidates": [
+        "official 頁只證明 2026-09-01 現價；exact-model 查詢沒有同版本、具日期、可公開重現且能確認新品身分的最低價來源。"
+      ]
+    },
+    {
+      "id": "bedsheet-nitori-2115100107202",
+      "category": "bedsheet",
+      "brand": "NITORI",
+      "model": "2115100107202",
+      "name": "N FIT FT05 COTTON 伸縮床包 GY 單人",
+      "currentPrice": 799,
+      "currentCurrency": "TWD",
+      "currentBuyUrl": "https://www.nitori-net.tw/product/2115100107202",
+      "currentBuyLabel": "NITORI 宜得利台灣官方商城",
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "TWD",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-09-01",
+        "note": "2026-09-01 以 Chrome 核對 exact SKU 2115100107202 的 NITORI 宜得利台灣官方商城 現售頁，並執行 exact-model 上市／發售／開賣／launch／release／史低／價格歷史查詢；未取得可公開重現、具日期且同一版本的可信新品歷史最低價，現價不倒推為史低。"
+      },
+      "checkedSources": [
+        "https://www.nitori-net.tw/product/2115100107202",
+        "https://www.google.com/search?q=%222115100107202%22%20(%E4%B8%8A%E5%B8%82%20OR%20%E7%99%BC%E5%94%AE%20OR%20%E9%96%8B%E8%B3%A3%20OR%20launch%20OR%20release%20OR%20%E5%8F%B2%E4%BD%8E%20OR%20%E5%83%B9%E6%A0%BC%E6%AD%B7%E5%8F%B2)"
+      ],
+      "priceChecks": [
+        {
+          "kind": "official_price",
+          "url": "https://www.nitori-net.tw/product/2115100107202",
+          "query": "NITORI 2115100107202 現價",
+          "outcome": "排除作為史低：exact SKU 新品頁只支持 2026-09-01 通路現價 NT$799，未提供歷史低點日期。"
+        },
+        {
+          "kind": "search_query",
+          "url": "https://www.google.com/search?q=%222115100107202%22%20(%E4%B8%8A%E5%B8%82%20OR%20%E7%99%BC%E5%94%AE%20OR%20%E9%96%8B%E8%B3%A3%20OR%20launch%20OR%20release%20OR%20%E5%8F%B2%E4%BD%8E%20OR%20%E5%83%B9%E6%A0%BC%E6%AD%B7%E5%8F%B2)",
+          "query": "\"2115100107202\" (上市 OR 發售 OR 開賣 OR launch OR release OR 史低 OR 價格歷史)",
+          "outcome": "排除：official 頁只證明 2026-09-01 現價；exact-model 查詢沒有同版本、具日期、可公開重現且能確認新品身分的最低價來源。"
+        }
+      ],
+      "rejectedCandidates": [
+        "official 頁只證明 2026-09-01 現價；exact-model 查詢沒有同版本、具日期、可公開重現且能確認新品身分的最低價來源。"
+      ]
+    },
+    {
+      "id": "bedsheet-nitori-2115100006123",
+      "category": "bedsheet",
+      "brand": "NITORI",
+      "model": "2115100006123",
+      "name": "PT30 BOTANICAL 純棉多種厚度對應床包 RO 單人",
+      "currentPrice": 719,
+      "currentCurrency": "TWD",
+      "currentBuyUrl": "https://www.nitori-net.tw/product/2115100006123",
+      "currentBuyLabel": "NITORI 宜得利台灣官方商城",
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "TWD",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-09-01",
+        "note": "2026-09-01 以 Chrome 核對 exact SKU 2115100006123 的 NITORI 宜得利台灣官方商城 現售頁，並執行 exact-model 上市／發售／開賣／launch／release／史低／價格歷史查詢；未取得可公開重現、具日期且同一版本的可信新品歷史最低價，現價不倒推為史低。"
+      },
+      "checkedSources": [
+        "https://www.nitori-net.tw/product/2115100006123",
+        "https://www.google.com/search?q=%222115100006123%22%20(%E4%B8%8A%E5%B8%82%20OR%20%E7%99%BC%E5%94%AE%20OR%20%E9%96%8B%E8%B3%A3%20OR%20launch%20OR%20release%20OR%20%E5%8F%B2%E4%BD%8E%20OR%20%E5%83%B9%E6%A0%BC%E6%AD%B7%E5%8F%B2)"
+      ],
+      "priceChecks": [
+        {
+          "kind": "official_price",
+          "url": "https://www.nitori-net.tw/product/2115100006123",
+          "query": "NITORI 2115100006123 現價",
+          "outcome": "排除作為史低：exact SKU 新品頁只支持 2026-09-01 通路現價 NT$719，未提供歷史低點日期。"
+        },
+        {
+          "kind": "search_query",
+          "url": "https://www.google.com/search?q=%222115100006123%22%20(%E4%B8%8A%E5%B8%82%20OR%20%E7%99%BC%E5%94%AE%20OR%20%E9%96%8B%E8%B3%A3%20OR%20launch%20OR%20release%20OR%20%E5%8F%B2%E4%BD%8E%20OR%20%E5%83%B9%E6%A0%BC%E6%AD%B7%E5%8F%B2)",
+          "query": "\"2115100006123\" (上市 OR 發售 OR 開賣 OR launch OR release OR 史低 OR 價格歷史)",
+          "outcome": "排除：official 頁只證明 2026-09-01 現價；exact-model 查詢沒有同版本、具日期、可公開重現且能確認新品身分的最低價來源。"
+        }
+      ],
+      "rejectedCandidates": [
+        "official 頁只證明 2026-09-01 現價；exact-model 查詢沒有同版本、具日期、可公開重現且能確認新品身分的最低價來源。"
+      ]
+    },
+    {
+      "id": "bedsheet-nitori-7518634",
+      "category": "bedsheet",
+      "brand": "NITORI",
+      "model": "7518634",
+      "name": "天絲塞內加爾床包 單人 105×186 cm",
+      "currentPrice": 699,
+      "currentCurrency": "TWD",
+      "currentBuyUrl": "https://www.nitori-net.tw/product/7518634",
+      "currentBuyLabel": "NITORI 宜得利台灣官方商城",
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "TWD",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-09-01",
+        "note": "2026-09-01 以 Chrome 核對 exact SKU 7518634 的 NITORI 宜得利台灣官方商城 現售頁，並執行 exact-model 上市／發售／開賣／launch／release／史低／價格歷史查詢；未取得可公開重現、具日期且同一版本的可信新品歷史最低價，現價不倒推為史低。"
+      },
+      "checkedSources": [
+        "https://www.nitori-net.tw/product/7518634",
+        "https://www.google.com/search?q=%227518634%22%20(%E4%B8%8A%E5%B8%82%20OR%20%E7%99%BC%E5%94%AE%20OR%20%E9%96%8B%E8%B3%A3%20OR%20launch%20OR%20release%20OR%20%E5%8F%B2%E4%BD%8E%20OR%20%E5%83%B9%E6%A0%BC%E6%AD%B7%E5%8F%B2)"
+      ],
+      "priceChecks": [
+        {
+          "kind": "official_price",
+          "url": "https://www.nitori-net.tw/product/7518634",
+          "query": "NITORI 7518634 現價",
+          "outcome": "排除作為史低：exact SKU 新品頁只支持 2026-09-01 通路現價 NT$699，未提供歷史低點日期。"
+        },
+        {
+          "kind": "search_query",
+          "url": "https://www.google.com/search?q=%227518634%22%20(%E4%B8%8A%E5%B8%82%20OR%20%E7%99%BC%E5%94%AE%20OR%20%E9%96%8B%E8%B3%A3%20OR%20launch%20OR%20release%20OR%20%E5%8F%B2%E4%BD%8E%20OR%20%E5%83%B9%E6%A0%BC%E6%AD%B7%E5%8F%B2)",
+          "query": "\"7518634\" (上市 OR 發售 OR 開賣 OR launch OR release OR 史低 OR 價格歷史)",
+          "outcome": "排除：official 頁只證明 2026-09-01 現價；exact-model 查詢沒有同版本、具日期、可公開重現且能確認新品身分的最低價來源。"
+        }
+      ],
+      "rejectedCandidates": [
+        "official 頁只證明 2026-09-01 現價；exact-model 查詢沒有同版本、具日期、可公開重現且能確認新品身分的最低價來源。"
+      ]
+    },
+    {
+      "id": "bedsheet-nitori-2115100004365",
+      "category": "bedsheet",
+      "brand": "NITORI",
+      "model": "2115100004365",
+      "name": "N FIT FT01 PREMIUM 莫代爾伸縮床包 GY 單人",
+      "currentPrice": 949,
+      "currentCurrency": "TWD",
+      "currentBuyUrl": "https://www.nitori-net.tw/product/2115100004365",
+      "currentBuyLabel": "NITORI 宜得利台灣官方商城",
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "TWD",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-09-01",
+        "note": "2026-09-01 以 Chrome 核對 exact SKU 2115100004365 的 NITORI 宜得利台灣官方商城 現售頁，並執行 exact-model 上市／發售／開賣／launch／release／史低／價格歷史查詢；未取得可公開重現、具日期且同一版本的可信新品歷史最低價，現價不倒推為史低。"
+      },
+      "checkedSources": [
+        "https://www.nitori-net.tw/product/2115100004365",
+        "https://www.google.com/search?q=%222115100004365%22%20(%E4%B8%8A%E5%B8%82%20OR%20%E7%99%BC%E5%94%AE%20OR%20%E9%96%8B%E8%B3%A3%20OR%20launch%20OR%20release%20OR%20%E5%8F%B2%E4%BD%8E%20OR%20%E5%83%B9%E6%A0%BC%E6%AD%B7%E5%8F%B2)"
+      ],
+      "priceChecks": [
+        {
+          "kind": "official_price",
+          "url": "https://www.nitori-net.tw/product/2115100004365",
+          "query": "NITORI 2115100004365 現價",
+          "outcome": "排除作為史低：exact SKU 新品頁只支持 2026-09-01 通路現價 NT$949，未提供歷史低點日期。"
+        },
+        {
+          "kind": "search_query",
+          "url": "https://www.google.com/search?q=%222115100004365%22%20(%E4%B8%8A%E5%B8%82%20OR%20%E7%99%BC%E5%94%AE%20OR%20%E9%96%8B%E8%B3%A3%20OR%20launch%20OR%20release%20OR%20%E5%8F%B2%E4%BD%8E%20OR%20%E5%83%B9%E6%A0%BC%E6%AD%B7%E5%8F%B2)",
+          "query": "\"2115100004365\" (上市 OR 發售 OR 開賣 OR launch OR release OR 史低 OR 價格歷史)",
+          "outcome": "排除：official 頁只證明 2026-09-01 現價；exact-model 查詢沒有同版本、具日期、可公開重現且能確認新品身分的最低價來源。"
+        }
+      ],
+      "rejectedCandidates": [
+        "official 頁只證明 2026-09-01 現價；exact-model 查詢沒有同版本、具日期、可公開重現且能確認新品身分的最低價來源。"
+      ]
+    },
+    {
+      "id": "bedsheet-nitori-2115100006703",
+      "category": "bedsheet",
+      "brand": "NITORI",
+      "model": "2115100006703",
+      "name": "N FIT PLAIN 伸縮床包 IV 雙人",
+      "currentPrice": 719,
+      "currentCurrency": "TWD",
+      "currentBuyUrl": "https://www.nitori-net.tw/product/2115100006703",
+      "currentBuyLabel": "NITORI 宜得利台灣官方商城",
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "TWD",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-09-01",
+        "note": "2026-09-01 以 Chrome 核對 exact SKU 2115100006703 的 NITORI 宜得利台灣官方商城 現售頁，並執行 exact-model 上市／發售／開賣／launch／release／史低／價格歷史查詢；未取得可公開重現、具日期且同一版本的可信新品歷史最低價，現價不倒推為史低。"
+      },
+      "checkedSources": [
+        "https://www.nitori-net.tw/product/2115100006703",
+        "https://www.google.com/search?q=%222115100006703%22%20(%E4%B8%8A%E5%B8%82%20OR%20%E7%99%BC%E5%94%AE%20OR%20%E9%96%8B%E8%B3%A3%20OR%20launch%20OR%20release%20OR%20%E5%8F%B2%E4%BD%8E%20OR%20%E5%83%B9%E6%A0%BC%E6%AD%B7%E5%8F%B2)"
+      ],
+      "priceChecks": [
+        {
+          "kind": "official_price",
+          "url": "https://www.nitori-net.tw/product/2115100006703",
+          "query": "NITORI 2115100006703 現價",
+          "outcome": "排除作為史低：exact SKU 新品頁只支持 2026-09-01 通路現價 NT$719，未提供歷史低點日期。"
+        },
+        {
+          "kind": "search_query",
+          "url": "https://www.google.com/search?q=%222115100006703%22%20(%E4%B8%8A%E5%B8%82%20OR%20%E7%99%BC%E5%94%AE%20OR%20%E9%96%8B%E8%B3%A3%20OR%20launch%20OR%20release%20OR%20%E5%8F%B2%E4%BD%8E%20OR%20%E5%83%B9%E6%A0%BC%E6%AD%B7%E5%8F%B2)",
+          "query": "\"2115100006703\" (上市 OR 發售 OR 開賣 OR launch OR release OR 史低 OR 價格歷史)",
+          "outcome": "排除：official 頁只證明 2026-09-01 現價；exact-model 查詢沒有同版本、具日期、可公開重現且能確認新品身分的最低價來源。"
+        }
+      ],
+      "rejectedCandidates": [
+        "official 頁只證明 2026-09-01 現價；exact-model 查詢沒有同版本、具日期、可公開重現且能確認新品身分的最低價來源。"
+      ]
+    },
+    {
+      "id": "bedsheet-ikea-40335548",
+      "category": "bedsheet",
+      "brand": "IKEA",
+      "model": "403.355.48",
+      "name": "ULLVIDE 單人床包 灰色 90×200 cm",
+      "currentPrice": 549,
+      "currentCurrency": "TWD",
+      "currentBuyUrl": "https://www.ikea.com.tw/zh/products/bedlinen/sheets-and-pillow-cases/ullvide-art-40335548",
+      "currentBuyLabel": "IKEA 台灣官方商城",
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "TWD",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-09-01",
+        "note": "2026-09-01 以 Chrome 核對 exact SKU 403.355.48 的 IKEA 台灣官方商城 現售頁，並執行 exact-model 上市／發售／開賣／launch／release／史低／價格歷史查詢；未取得可公開重現、具日期且同一版本的可信新品歷史最低價，現價不倒推為史低。"
+      },
+      "checkedSources": [
+        "https://www.ikea.com.tw/zh/products/bedlinen/sheets-and-pillow-cases/ullvide-art-40335548",
+        "https://www.google.com/search?q=%22403.355.48%22%20(%E4%B8%8A%E5%B8%82%20OR%20%E7%99%BC%E5%94%AE%20OR%20%E9%96%8B%E8%B3%A3%20OR%20launch%20OR%20release%20OR%20%E5%8F%B2%E4%BD%8E%20OR%20%E5%83%B9%E6%A0%BC%E6%AD%B7%E5%8F%B2)"
+      ],
+      "priceChecks": [
+        {
+          "kind": "official_price",
+          "url": "https://www.ikea.com.tw/zh/products/bedlinen/sheets-and-pillow-cases/ullvide-art-40335548",
+          "query": "IKEA 403.355.48 現價",
+          "outcome": "排除作為史低：exact SKU 新品頁只支持 2026-09-01 通路現價 NT$549，未提供歷史低點日期。"
+        },
+        {
+          "kind": "search_query",
+          "url": "https://www.google.com/search?q=%22403.355.48%22%20(%E4%B8%8A%E5%B8%82%20OR%20%E7%99%BC%E5%94%AE%20OR%20%E9%96%8B%E8%B3%A3%20OR%20launch%20OR%20release%20OR%20%E5%8F%B2%E4%BD%8E%20OR%20%E5%83%B9%E6%A0%BC%E6%AD%B7%E5%8F%B2)",
+          "query": "\"403.355.48\" (上市 OR 發售 OR 開賣 OR launch OR release OR 史低 OR 價格歷史)",
+          "outcome": "排除：official 頁只證明 2026-09-01 現價；exact-model 查詢沒有同版本、具日期、可公開重現且能確認新品身分的最低價來源。"
+        }
+      ],
+      "rejectedCandidates": [
+        "official 頁只證明 2026-09-01 現價；exact-model 查詢沒有同版本、具日期、可公開重現且能確認新品身分的最低價來源。"
+      ]
+    },
+    {
+      "id": "bedsheet-ikea-90342773",
+      "category": "bedsheet",
+      "brand": "IKEA",
+      "model": "903.427.73",
+      "name": "ULLVIDE 雙人加大床包 深藍色 180×200 cm",
+      "currentPrice": 899,
+      "currentCurrency": "TWD",
+      "currentBuyUrl": "https://www.ikea.com.tw/zh/products/bedlinen/sheets-and-pillow-cases/ullvide-art-90342773",
+      "currentBuyLabel": "IKEA 台灣官方商城",
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "TWD",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-09-01",
+        "note": "2026-09-01 以 Chrome 核對 exact SKU 903.427.73 的 IKEA 台灣官方商城 現售頁，並執行 exact-model 上市／發售／開賣／launch／release／史低／價格歷史查詢；未取得可公開重現、具日期且同一版本的可信新品歷史最低價，現價不倒推為史低。"
+      },
+      "checkedSources": [
+        "https://www.ikea.com.tw/zh/products/bedlinen/sheets-and-pillow-cases/ullvide-art-90342773",
+        "https://www.google.com/search?q=%22903.427.73%22%20(%E4%B8%8A%E5%B8%82%20OR%20%E7%99%BC%E5%94%AE%20OR%20%E9%96%8B%E8%B3%A3%20OR%20launch%20OR%20release%20OR%20%E5%8F%B2%E4%BD%8E%20OR%20%E5%83%B9%E6%A0%BC%E6%AD%B7%E5%8F%B2)"
+      ],
+      "priceChecks": [
+        {
+          "kind": "official_price",
+          "url": "https://www.ikea.com.tw/zh/products/bedlinen/sheets-and-pillow-cases/ullvide-art-90342773",
+          "query": "IKEA 903.427.73 現價",
+          "outcome": "排除作為史低：exact SKU 新品頁只支持 2026-09-01 通路現價 NT$899，未提供歷史低點日期。"
+        },
+        {
+          "kind": "search_query",
+          "url": "https://www.google.com/search?q=%22903.427.73%22%20(%E4%B8%8A%E5%B8%82%20OR%20%E7%99%BC%E5%94%AE%20OR%20%E9%96%8B%E8%B3%A3%20OR%20launch%20OR%20release%20OR%20%E5%8F%B2%E4%BD%8E%20OR%20%E5%83%B9%E6%A0%BC%E6%AD%B7%E5%8F%B2)",
+          "query": "\"903.427.73\" (上市 OR 發售 OR 開賣 OR launch OR release OR 史低 OR 價格歷史)",
+          "outcome": "排除：official 頁只證明 2026-09-01 現價；exact-model 查詢沒有同版本、具日期、可公開重現且能確認新品身分的最低價來源。"
+        }
+      ],
+      "rejectedCandidates": [
+        "official 頁只證明 2026-09-01 現價；exact-model 查詢沒有同版本、具日期、可公開重現且能確認新品身分的最低價來源。"
+      ]
+    },
+    {
+      "id": "bedsheet-ikea-00442668",
+      "category": "bedsheet",
+      "brand": "IKEA",
+      "model": "004.426.68",
+      "name": "NATTJASMIN 單人加寬床包 深灰色 120×200 cm",
+      "currentPrice": 999,
+      "currentCurrency": "TWD",
+      "currentBuyUrl": "https://www.ikea.com.tw/zh/products/bedlinen/sheets-and-pillow-cases/nattjasmin-art-00442668",
+      "currentBuyLabel": "IKEA 台灣官方商城",
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "TWD",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-09-01",
+        "note": "2026-09-01 以 Chrome 核對 exact SKU 004.426.68 的 IKEA 台灣官方商城 現售頁，並執行 exact-model 上市／發售／開賣／launch／release／史低／價格歷史查詢；未取得可公開重現、具日期且同一版本的可信新品歷史最低價，現價不倒推為史低。"
+      },
+      "checkedSources": [
+        "https://www.ikea.com.tw/zh/products/bedlinen/sheets-and-pillow-cases/nattjasmin-art-00442668",
+        "https://www.google.com/search?q=%22004.426.68%22%20(%E4%B8%8A%E5%B8%82%20OR%20%E7%99%BC%E5%94%AE%20OR%20%E9%96%8B%E8%B3%A3%20OR%20launch%20OR%20release%20OR%20%E5%8F%B2%E4%BD%8E%20OR%20%E5%83%B9%E6%A0%BC%E6%AD%B7%E5%8F%B2)"
+      ],
+      "priceChecks": [
+        {
+          "kind": "official_price",
+          "url": "https://www.ikea.com.tw/zh/products/bedlinen/sheets-and-pillow-cases/nattjasmin-art-00442668",
+          "query": "IKEA 004.426.68 現價",
+          "outcome": "排除作為史低：exact SKU 新品頁只支持 2026-09-01 通路現價 NT$999，未提供歷史低點日期。"
+        },
+        {
+          "kind": "search_query",
+          "url": "https://www.google.com/search?q=%22004.426.68%22%20(%E4%B8%8A%E5%B8%82%20OR%20%E7%99%BC%E5%94%AE%20OR%20%E9%96%8B%E8%B3%A3%20OR%20launch%20OR%20release%20OR%20%E5%8F%B2%E4%BD%8E%20OR%20%E5%83%B9%E6%A0%BC%E6%AD%B7%E5%8F%B2)",
+          "query": "\"004.426.68\" (上市 OR 發售 OR 開賣 OR launch OR release OR 史低 OR 價格歷史)",
+          "outcome": "排除：official 頁只證明 2026-09-01 現價；exact-model 查詢沒有同版本、具日期、可公開重現且能確認新品身分的最低價來源。"
+        }
+      ],
+      "rejectedCandidates": [
+        "official 頁只證明 2026-09-01 現價；exact-model 查詢沒有同版本、具日期、可公開重現且能確認新品身分的最低價來源。"
+      ]
+    },
+    {
+      "id": "bedsheet-ikea-90442678",
+      "category": "bedsheet",
+      "brand": "IKEA",
+      "model": "904.426.78",
+      "name": "NATTJASMIN 雙人加大床包 深灰色 180×200 cm",
+      "currentPrice": 1299,
+      "currentCurrency": "TWD",
+      "currentBuyUrl": "https://www.ikea.com.tw/zh/products/bedlinen/sheets-and-pillow-cases/nattjasmin-art-90442678",
+      "currentBuyLabel": "IKEA 台灣官方商城",
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "TWD",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-09-01",
+        "note": "2026-09-01 以 Chrome 核對 exact SKU 904.426.78 的 IKEA 台灣官方商城 現售頁，並執行 exact-model 上市／發售／開賣／launch／release／史低／價格歷史查詢；未取得可公開重現、具日期且同一版本的可信新品歷史最低價，現價不倒推為史低。"
+      },
+      "checkedSources": [
+        "https://www.ikea.com.tw/zh/products/bedlinen/sheets-and-pillow-cases/nattjasmin-art-90442678",
+        "https://www.google.com/search?q=%22904.426.78%22%20(%E4%B8%8A%E5%B8%82%20OR%20%E7%99%BC%E5%94%AE%20OR%20%E9%96%8B%E8%B3%A3%20OR%20launch%20OR%20release%20OR%20%E5%8F%B2%E4%BD%8E%20OR%20%E5%83%B9%E6%A0%BC%E6%AD%B7%E5%8F%B2)"
+      ],
+      "priceChecks": [
+        {
+          "kind": "official_price",
+          "url": "https://www.ikea.com.tw/zh/products/bedlinen/sheets-and-pillow-cases/nattjasmin-art-90442678",
+          "query": "IKEA 904.426.78 現價",
+          "outcome": "排除作為史低：exact SKU 新品頁只支持 2026-09-01 通路現價 NT$1299，未提供歷史低點日期。"
+        },
+        {
+          "kind": "search_query",
+          "url": "https://www.google.com/search?q=%22904.426.78%22%20(%E4%B8%8A%E5%B8%82%20OR%20%E7%99%BC%E5%94%AE%20OR%20%E9%96%8B%E8%B3%A3%20OR%20launch%20OR%20release%20OR%20%E5%8F%B2%E4%BD%8E%20OR%20%E5%83%B9%E6%A0%BC%E6%AD%B7%E5%8F%B2)",
+          "query": "\"904.426.78\" (上市 OR 發售 OR 開賣 OR launch OR release OR 史低 OR 價格歷史)",
+          "outcome": "排除：official 頁只證明 2026-09-01 現價；exact-model 查詢沒有同版本、具日期、可公開重現且能確認新品身分的最低價來源。"
+        }
+      ],
+      "rejectedCandidates": [
+        "official 頁只證明 2026-09-01 現價；exact-model 查詢沒有同版本、具日期、可公開重現且能確認新品身分的最低價來源。"
+      ]
+    },
+    {
+      "id": "bedsheet-nitori-2115100027623",
+      "category": "bedsheet",
+      "brand": "NITORI",
+      "model": "2115100027623",
+      "name": "ORCHID 100% 天絲床包 單人",
+      "currentPrice": 899,
+      "currentCurrency": "TWD",
+      "currentBuyUrl": "https://www.nitori-net.tw/product/2115100027623",
+      "currentBuyLabel": "NITORI 宜得利台灣官方商城",
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "TWD",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-09-01",
+        "note": "2026-09-01 以 Chrome 核對 exact SKU 2115100027623 的 NITORI 宜得利台灣官方商城 現售頁，並執行 exact-model 上市／發售／開賣／launch／release／史低／價格歷史查詢；未取得可公開重現、具日期且同一版本的可信新品歷史最低價，現價不倒推為史低。"
+      },
+      "checkedSources": [
+        "https://www.nitori-net.tw/product/2115100027623",
+        "https://www.google.com/search?q=%222115100027623%22%20(%E4%B8%8A%E5%B8%82%20OR%20%E7%99%BC%E5%94%AE%20OR%20%E9%96%8B%E8%B3%A3%20OR%20launch%20OR%20release%20OR%20%E5%8F%B2%E4%BD%8E%20OR%20%E5%83%B9%E6%A0%BC%E6%AD%B7%E5%8F%B2)"
+      ],
+      "priceChecks": [
+        {
+          "kind": "official_price",
+          "url": "https://www.nitori-net.tw/product/2115100027623",
+          "query": "NITORI 2115100027623 現價",
+          "outcome": "排除作為史低：exact SKU 新品頁只支持 2026-09-01 通路現價 NT$899，未提供歷史低點日期。"
+        },
+        {
+          "kind": "search_query",
+          "url": "https://www.google.com/search?q=%222115100027623%22%20(%E4%B8%8A%E5%B8%82%20OR%20%E7%99%BC%E5%94%AE%20OR%20%E9%96%8B%E8%B3%A3%20OR%20launch%20OR%20release%20OR%20%E5%8F%B2%E4%BD%8E%20OR%20%E5%83%B9%E6%A0%BC%E6%AD%B7%E5%8F%B2)",
+          "query": "\"2115100027623\" (上市 OR 發售 OR 開賣 OR launch OR release OR 史低 OR 價格歷史)",
+          "outcome": "排除：official 頁只證明 2026-09-01 現價；exact-model 查詢沒有同版本、具日期、可公開重現且能確認新品身分的最低價來源。"
+        }
+      ],
+      "rejectedCandidates": [
+        "official 頁只證明 2026-09-01 現價；exact-model 查詢沒有同版本、具日期、可公開重現且能確認新品身分的最低價來源。"
+      ]
+    },
+    {
+      "id": "bedsheet-nitori-2115100123042",
+      "category": "bedsheet",
+      "brand": "NITORI",
+      "model": "2115100123042",
+      "name": "精梳棉純棉床包 LGR 單人",
+      "currentPrice": 899,
+      "currentCurrency": "TWD",
+      "currentBuyUrl": "https://www.nitori-net.tw/product/2115100123042",
+      "currentBuyLabel": "NITORI 宜得利台灣官方商城",
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "TWD",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-09-01",
+        "note": "2026-09-01 以 Chrome 核對 exact SKU 2115100123042 的 NITORI 宜得利台灣官方商城 現售頁，並執行 exact-model 上市／發售／開賣／launch／release／史低／價格歷史查詢；未取得可公開重現、具日期且同一版本的可信新品歷史最低價，現價不倒推為史低。"
+      },
+      "checkedSources": [
+        "https://www.nitori-net.tw/product/2115100123042",
+        "https://www.google.com/search?q=%222115100123042%22%20(%E4%B8%8A%E5%B8%82%20OR%20%E7%99%BC%E5%94%AE%20OR%20%E9%96%8B%E8%B3%A3%20OR%20launch%20OR%20release%20OR%20%E5%8F%B2%E4%BD%8E%20OR%20%E5%83%B9%E6%A0%BC%E6%AD%B7%E5%8F%B2)"
+      ],
+      "priceChecks": [
+        {
+          "kind": "official_price",
+          "url": "https://www.nitori-net.tw/product/2115100123042",
+          "query": "NITORI 2115100123042 現價",
+          "outcome": "排除作為史低：exact SKU 新品頁只支持 2026-09-01 通路現價 NT$899，未提供歷史低點日期。"
+        },
+        {
+          "kind": "search_query",
+          "url": "https://www.google.com/search?q=%222115100123042%22%20(%E4%B8%8A%E5%B8%82%20OR%20%E7%99%BC%E5%94%AE%20OR%20%E9%96%8B%E8%B3%A3%20OR%20launch%20OR%20release%20OR%20%E5%8F%B2%E4%BD%8E%20OR%20%E5%83%B9%E6%A0%BC%E6%AD%B7%E5%8F%B2)",
+          "query": "\"2115100123042\" (上市 OR 發售 OR 開賣 OR launch OR release OR 史低 OR 價格歷史)",
+          "outcome": "排除：official 頁只證明 2026-09-01 現價；exact-model 查詢沒有同版本、具日期、可公開重現且能確認新品身分的最低價來源。"
+        }
+      ],
+      "rejectedCandidates": [
+        "official 頁只證明 2026-09-01 現價；exact-model 查詢沒有同版本、具日期、可公開重現且能確認新品身分的最低價來源。"
+      ]
+    },
+    {
+      "id": "bedsheet-nitori-2115100119403",
+      "category": "bedsheet",
+      "brand": "NITORI",
+      "model": "2115100119403",
+      "name": "N FIT N COOL 極冷 GY 26NC-04 接觸涼感伸縮床包 單人",
+      "currentPrice": 899,
+      "currentCurrency": "TWD",
+      "currentBuyUrl": "https://24h.pchome.com.tw/prod/DQCI0J-A900JTB2E",
+      "currentBuyLabel": "PChome 24h NITORI 宜得利新品頁",
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "TWD",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-09-01",
+        "note": "2026-09-01 以 Chrome 核對 exact SKU 2115100119403 的 PChome 24h NITORI 宜得利新品頁 現售頁，並執行 exact-model 上市／發售／開賣／launch／release／史低／價格歷史查詢；未取得可公開重現、具日期且同一版本的可信新品歷史最低價，現價不倒推為史低。"
+      },
+      "checkedSources": [
+        "https://24h.pchome.com.tw/prod/DQCI0J-A900JTB2E",
+        "https://www.nitori-net.tw/product/2115100119359s",
+        "https://www.bing.com/search?q=%222115100119403%22%20(%E4%B8%8A%E5%B8%82%20OR%20%E7%99%BC%E5%94%AE%20OR%20%E9%96%8B%E8%B3%A3%20OR%20launch%20OR%20release%20OR%20%E5%8F%B2%E4%BD%8E%20OR%20%E5%83%B9%E6%A0%BC%E6%AD%B7%E5%8F%B2)"
+      ],
+      "priceChecks": [
+        {
+          "kind": "retailer_price",
+          "url": "https://24h.pchome.com.tw/prod/DQCI0J-A900JTB2E",
+          "query": "NITORI 2115100119403 現價",
+          "outcome": "排除作為史低：exact SKU 新品頁只支持 2026-09-01 通路現價 NT$899，未提供歷史低點日期。"
+        },
+        {
+          "kind": "official_price",
+          "url": "https://www.nitori-net.tw/product/2115100119359s",
+          "query": "NITORI 2115100119403 現價",
+          "outcome": "排除作為史低：NITORI 官方頁所選商品編號為 2115100119403，只支持查核當時現價與規格，未提供歷史低點日期。"
+        },
+        {
+          "kind": "search_query",
+          "url": "https://www.bing.com/search?q=%222115100119403%22%20(%E4%B8%8A%E5%B8%82%20OR%20%E7%99%BC%E5%94%AE%20OR%20%E9%96%8B%E8%B3%A3%20OR%20launch%20OR%20release%20OR%20%E5%8F%B2%E4%BD%8E%20OR%20%E5%83%B9%E6%A0%BC%E6%AD%B7%E5%8F%B2)",
+          "query": "\"2115100119403\" (上市 OR 發售 OR 開賣 OR launch OR release OR 史低 OR 價格歷史)",
+          "outcome": "排除：official 頁只證明 2026-09-01 現價；exact-model 查詢沒有同版本、具日期、可公開重現且能確認新品身分的最低價來源。"
+        }
+      ],
+      "rejectedCandidates": [
+        "official 頁只證明 2026-09-01 現價；exact-model 查詢沒有同版本、具日期、可公開重現且能確認新品身分的最低價來源。"
+      ]
+    },
+    {
+      "id": "bedsheet-nitori-2115100027647",
+      "category": "bedsheet",
+      "brand": "NITORI",
+      "model": "2115100027647",
+      "name": "ORCHID 100% 天絲床包 雙人加大",
+      "currentPrice": 1190,
+      "currentCurrency": "TWD",
+      "currentBuyUrl": "https://www.nitori-net.tw/product/2115100027647",
+      "currentBuyLabel": "NITORI 宜得利台灣官方商城",
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "TWD",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-09-01",
+        "note": "2026-09-01 以 Chrome 核對 exact SKU 2115100027647 的 NITORI 宜得利台灣官方商城 現售頁，並執行 exact-model 上市／發售／開賣／launch／release／史低／價格歷史查詢；未取得可公開重現、具日期且同一版本的可信新品歷史最低價，現價不倒推為史低。"
+      },
+      "checkedSources": [
+        "https://www.nitori-net.tw/product/2115100027647",
+        "https://24h.pchome.com.tw/prod/DQCI0M-A900HW999",
+        "https://www.bing.com/search?q=%222115100027647%22%20(%E4%B8%8A%E5%B8%82%20OR%20%E7%99%BC%E5%94%AE%20OR%20%E9%96%8B%E8%B3%A3%20OR%20launch%20OR%20release%20OR%20%E5%8F%B2%E4%BD%8E%20OR%20%E5%83%B9%E6%A0%BC%E6%AD%B7%E5%8F%B2)"
+      ],
+      "priceChecks": [
+        {
+          "kind": "official_price",
+          "url": "https://www.nitori-net.tw/product/2115100027647",
+          "query": "NITORI 2115100027647 現價",
+          "outcome": "排除作為史低：exact SKU 新品頁只支持 2026-09-01 通路現價 NT$1190，未提供歷史低點日期。"
+        },
+        {
+          "kind": "retailer_price",
+          "url": "https://24h.pchome.com.tw/prod/DQCI0M-A900HW999",
+          "query": "PChome 2115100027647 價格",
+          "outcome": "排除作為史低：PChome exact 原廠編號頁只顯示查核當時現價 NT$1190；頁面評價日期不是價格歷史日期。"
+        },
+        {
+          "kind": "search_query",
+          "url": "https://www.bing.com/search?q=%222115100027647%22%20(%E4%B8%8A%E5%B8%82%20OR%20%E7%99%BC%E5%94%AE%20OR%20%E9%96%8B%E8%B3%A3%20OR%20launch%20OR%20release%20OR%20%E5%8F%B2%E4%BD%8E%20OR%20%E5%83%B9%E6%A0%BC%E6%AD%B7%E5%8F%B2)",
+          "query": "\"2115100027647\" (上市 OR 發售 OR 開賣 OR launch OR release OR 史低 OR 價格歷史)",
+          "outcome": "排除：official 頁只證明 2026-09-01 現價；exact-model 查詢沒有同版本、具日期、可公開重現且能確認新品身分的最低價來源。"
+        }
+      ],
+      "rejectedCandidates": [
+        "official 頁只證明 2026-09-01 現價；exact-model 查詢沒有同版本、具日期、可公開重現且能確認新品身分的最低價來源。"
+      ]
+    },
+    {
+      "id": "bedsheet-nitori-2115100053394",
+      "category": "bedsheet",
+      "brand": "NITORI",
+      "model": "2115100053394",
+      "name": "N COOL WSP D2518 極致涼感伸縮床包 BL 雙人加大",
+      "currentPrice": 1043,
+      "currentCurrency": "TWD",
+      "currentBuyUrl": "https://www.nitori-net.tw/product/2115100053394",
+      "currentBuyLabel": "NITORI 宜得利台灣官方商城",
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "TWD",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-09-01",
+        "note": "2026-09-01 以 Chrome 核對 exact SKU 2115100053394 的 NITORI 宜得利台灣官方商城 現售頁，並執行 exact-model 上市／發售／開賣／launch／release／史低／價格歷史查詢；未取得可公開重現、具日期且同一版本的可信新品歷史最低價，現價不倒推為史低。"
+      },
+      "checkedSources": [
+        "https://www.nitori-net.tw/product/2115100053394",
+        "https://www.google.com/search?q=%222115100053394%22%20(%E4%B8%8A%E5%B8%82%20OR%20%E7%99%BC%E5%94%AE%20OR%20%E9%96%8B%E8%B3%A3%20OR%20launch%20OR%20release%20OR%20%E5%8F%B2%E4%BD%8E%20OR%20%E5%83%B9%E6%A0%BC%E6%AD%B7%E5%8F%B2)"
+      ],
+      "priceChecks": [
+        {
+          "kind": "official_price",
+          "url": "https://www.nitori-net.tw/product/2115100053394",
+          "query": "NITORI 2115100053394 現價",
+          "outcome": "排除作為史低：exact SKU 新品頁只支持 2026-09-01 通路現價 NT$1043，未提供歷史低點日期。"
+        },
+        {
+          "kind": "search_query",
+          "url": "https://www.google.com/search?q=%222115100053394%22%20(%E4%B8%8A%E5%B8%82%20OR%20%E7%99%BC%E5%94%AE%20OR%20%E9%96%8B%E8%B3%A3%20OR%20launch%20OR%20release%20OR%20%E5%8F%B2%E4%BD%8E%20OR%20%E5%83%B9%E6%A0%BC%E6%AD%B7%E5%8F%B2)",
+          "query": "\"2115100053394\" (上市 OR 發售 OR 開賣 OR launch OR release OR 史低 OR 價格歷史)",
+          "outcome": "排除：official 頁只證明 2026-09-01 現價；exact-model 查詢沒有同版本、具日期、可公開重現且能確認新品身分的最低價來源。"
+        }
+      ],
+      "rejectedCandidates": [
+        "official 頁只證明 2026-09-01 現價；exact-model 查詢沒有同版本、具日期、可公開重現且能確認新品身分的最低價來源。"
+      ]
+    },
+    {
+      "id": "bedsheet-nitori-2115100053264",
+      "category": "bedsheet",
+      "brand": "NITORI",
+      "model": "2115100053264",
+      "name": "N COOL SP 25NC-11 進階涼感伸縮床包 BL 雙人加大",
+      "currentPrice": 699,
+      "currentCurrency": "TWD",
+      "currentBuyUrl": "https://www.nitori-net.tw/product/2115100053264",
+      "currentBuyLabel": "NITORI 宜得利台灣官方商城",
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "TWD",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-09-01",
+        "note": "2026-09-01 以 Chrome 核對 exact SKU 2115100053264 的 NITORI 宜得利台灣官方商城 現售頁，並執行 exact-model 上市／發售／開賣／launch／release／史低／價格歷史查詢；未取得可公開重現、具日期且同一版本的可信新品歷史最低價，現價不倒推為史低。"
+      },
+      "checkedSources": [
+        "https://www.nitori-net.tw/product/2115100053264",
+        "https://www.google.com/search?q=%222115100053264%22%20(%E4%B8%8A%E5%B8%82%20OR%20%E7%99%BC%E5%94%AE%20OR%20%E9%96%8B%E8%B3%A3%20OR%20launch%20OR%20release%20OR%20%E5%8F%B2%E4%BD%8E%20OR%20%E5%83%B9%E6%A0%BC%E6%AD%B7%E5%8F%B2)"
+      ],
+      "priceChecks": [
+        {
+          "kind": "official_price",
+          "url": "https://www.nitori-net.tw/product/2115100053264",
+          "query": "NITORI 2115100053264 現價",
+          "outcome": "排除作為史低：exact SKU 新品頁只支持 2026-09-01 通路現價 NT$699，未提供歷史低點日期。"
+        },
+        {
+          "kind": "search_query",
+          "url": "https://www.google.com/search?q=%222115100053264%22%20(%E4%B8%8A%E5%B8%82%20OR%20%E7%99%BC%E5%94%AE%20OR%20%E9%96%8B%E8%B3%A3%20OR%20launch%20OR%20release%20OR%20%E5%8F%B2%E4%BD%8E%20OR%20%E5%83%B9%E6%A0%BC%E6%AD%B7%E5%8F%B2)",
+          "query": "\"2115100053264\" (上市 OR 發售 OR 開賣 OR launch OR release OR 史低 OR 價格歷史)",
+          "outcome": "排除：official 頁只證明 2026-09-01 現價；exact-model 查詢沒有同版本、具日期、可公開重現且能確認新品身分的最低價來源。"
+        }
+      ],
+      "rejectedCandidates": [
+        "official 頁只證明 2026-09-01 現價；exact-model 查詢沒有同版本、具日期、可公開重現且能確認新品身分的最低價來源。"
+      ]
+    },
+    {
+      "id": "comforter-hola-wool-016788505",
+      "category": "comforter",
+      "brand": "HOLA",
+      "model": "016788505",
+      "name": "100%可水洗法國羊毛防蟎冬被雙人（016788505）",
+      "currentPrice": 2480,
+      "currentCurrency": "TWD",
+      "currentBuyUrl": "https://www.momoshop.com.tw/TP/TP0006553/goodsDetail/TP00065530008496",
+      "currentBuyLabel": "momo HOLA 官方店",
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "TWD",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-09-01",
+        "note": "2026-09-01 以 exact SKU「016788505」分別查 BigGo 與 FindPrice；未取得同尺寸、同版本、具日期且可公開重現的可信新品史低，不以本次現價或跨版本價格推定。"
+      },
+      "checkedSources": [
+        "https://www.momoshop.com.tw/TP/TP0006553/goodsDetail/TP00065530008496",
+        "https://www.google.com/search?q=site%3Abiggo.com.tw%20%22016788505%22",
+        "https://www.google.com/search?q=site%3Afindprice.com.tw%20%22016788505%22"
+      ],
+      "priceChecks": [
+        {
+          "kind": "official_price",
+          "url": "https://www.momoshop.com.tw/TP/TP0006553/goodsDetail/TP00065530008496",
+          "query": "016788505 current price",
+          "outcome": "排除作為史低：exact SKU 新品頁只支持 2026-09-01 通路現價 NT$2480，不提供歷史低點日期。"
+        },
+        {
+          "kind": "search_query",
+          "url": "https://www.google.com/search?q=site%3Abiggo.com.tw%20%22016788505%22",
+          "query": "site:biggo.com.tw \"016788505\"",
+          "outcome": "BigGo exact-model 查詢未提供同尺寸、同版本、具日期且可公開重現的可信新品歷史低點。"
+        },
+        {
+          "kind": "search_query",
+          "url": "https://www.google.com/search?q=site%3Afindprice.com.tw%20%22016788505%22",
+          "query": "site:findprice.com.tw \"016788505\"",
+          "outcome": "FindPrice exact-model 查詢未提供同尺寸、同版本、具日期且可公開重現的可信新品歷史低點。"
+        }
+      ],
+      "rejectedCandidates": [
+        "未找到 016788505 同尺寸、同版本、具日期且排除會員／套裝／福利品／二手的可信新品史低。"
+      ],
+      "reviewNote": "以完整型號 016788505 逐筆核對現售頁、BigGo 與 FindPrice exact-model 查詢；沒有可重現的同版本歷史最低價。",
+      "checkedAt": "2026-09-01"
+    },
+    {
+      "id": "comforter-ikea-skogsfraken-70618640",
+      "category": "comforter",
+      "brand": "IKEA",
+      "model": "706.186.40",
+      "name": "SKOGSFRÄKEN 四季被 150×200 cm（706.186.40）",
+      "currentPrice": 2799,
+      "currentCurrency": "TWD",
+      "currentBuyUrl": "https://www.ikea.com.tw/zh/products/duvets-pillows-and-protectors/duvets/skogsfraken-art-70618640",
+      "currentBuyLabel": "IKEA 台灣官方商城",
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "TWD",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-09-01",
+        "note": "2026-09-01 以 exact SKU「706.186.40」分別查 BigGo 與 FindPrice；未取得同尺寸、同版本、具日期且可公開重現的可信新品史低，不以本次現價或跨版本價格推定。"
+      },
+      "checkedSources": [
+        "https://www.ikea.com.tw/zh/products/duvets-pillows-and-protectors/duvets/skogsfraken-art-70618640",
+        "https://www.google.com/search?q=site%3Abiggo.com.tw%20%22706.186.40%22",
+        "https://www.google.com/search?q=site%3Afindprice.com.tw%20%22706.186.40%22"
+      ],
+      "priceChecks": [
+        {
+          "kind": "official_price",
+          "url": "https://www.ikea.com.tw/zh/products/duvets-pillows-and-protectors/duvets/skogsfraken-art-70618640",
+          "query": "706.186.40 current price",
+          "outcome": "排除作為史低：exact SKU 新品頁只支持 2026-09-01 通路現價 NT$2799，不提供歷史低點日期。"
+        },
+        {
+          "kind": "search_query",
+          "url": "https://www.google.com/search?q=site%3Abiggo.com.tw%20%22706.186.40%22",
+          "query": "site:biggo.com.tw \"706.186.40\"",
+          "outcome": "BigGo exact-model 查詢未提供同尺寸、同版本、具日期且可公開重現的可信新品歷史低點。"
+        },
+        {
+          "kind": "search_query",
+          "url": "https://www.google.com/search?q=site%3Afindprice.com.tw%20%22706.186.40%22",
+          "query": "site:findprice.com.tw \"706.186.40\"",
+          "outcome": "FindPrice exact-model 查詢未提供同尺寸、同版本、具日期且可公開重現的可信新品歷史低點。"
+        }
+      ],
+      "rejectedCandidates": [
+        "未找到 706.186.40 同尺寸、同版本、具日期且排除會員／套裝／福利品／二手的可信新品史低。"
+      ],
+      "reviewNote": "以完整型號 706.186.40 逐筆核對現售頁、BigGo 與 FindPrice exact-model 查詢；沒有可重現的同版本歷史最低價。",
+      "checkedAt": "2026-09-01"
+    },
+    {
+      "id": "comforter-ikea-smasporre-10458588",
+      "category": "comforter",
+      "brand": "IKEA",
+      "model": "104.585.88",
+      "name": "SMÅSPORRE 四季被 150×200 cm（104.585.88）",
+      "currentPrice": 1299,
+      "currentCurrency": "TWD",
+      "currentBuyUrl": "https://www.ikea.com.tw/zh/products/duvets-pillows-and-protectors/duvets/smasporre-art-10458588",
+      "currentBuyLabel": "IKEA 台灣官方商城",
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "TWD",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-09-01",
+        "note": "2026-09-01 以 exact SKU「104.585.88」分別查 BigGo 與 FindPrice；未取得同尺寸、同版本、具日期且可公開重現的可信新品史低，不以本次現價或跨版本價格推定。"
+      },
+      "checkedSources": [
+        "https://www.ikea.com.tw/zh/products/duvets-pillows-and-protectors/duvets/smasporre-art-10458588",
+        "https://www.google.com/search?q=site%3Abiggo.com.tw%20%22104.585.88%22",
+        "https://www.google.com/search?q=site%3Afindprice.com.tw%20%22104.585.88%22"
+      ],
+      "priceChecks": [
+        {
+          "kind": "official_price",
+          "url": "https://www.ikea.com.tw/zh/products/duvets-pillows-and-protectors/duvets/smasporre-art-10458588",
+          "query": "104.585.88 current price",
+          "outcome": "排除作為史低：exact SKU 新品頁只支持 2026-09-01 通路現價 NT$1299，不提供歷史低點日期。"
+        },
+        {
+          "kind": "search_query",
+          "url": "https://www.google.com/search?q=site%3Abiggo.com.tw%20%22104.585.88%22",
+          "query": "site:biggo.com.tw \"104.585.88\"",
+          "outcome": "BigGo exact-model 查詢未提供同尺寸、同版本、具日期且可公開重現的可信新品歷史低點。"
+        },
+        {
+          "kind": "search_query",
+          "url": "https://www.google.com/search?q=site%3Afindprice.com.tw%20%22104.585.88%22",
+          "query": "site:findprice.com.tw \"104.585.88\"",
+          "outcome": "FindPrice exact-model 查詢未提供同尺寸、同版本、具日期且可公開重現的可信新品歷史低點。"
+        }
+      ],
+      "rejectedCandidates": [
+        "未找到 104.585.88 同尺寸、同版本、具日期且排除會員／套裝／福利品／二手的可信新品史低。"
+      ],
+      "reviewNote": "以完整型號 104.585.88 逐筆核對現售頁、BigGo 與 FindPrice exact-model 查詢；沒有可重現的同版本歷史最低價。",
+      "checkedAt": "2026-09-01"
+    },
+    {
+      "id": "comforter-ikea-smasporre-00458584",
+      "category": "comforter",
+      "brand": "IKEA",
+      "model": "004.585.84",
+      "name": "SMÅSPORRE 四季被 200×200 cm（004.585.84）",
+      "currentPrice": 1699,
+      "currentCurrency": "TWD",
+      "currentBuyUrl": "https://www.ikea.com.tw/zh/products/duvets-pillows-and-protectors/duvets/smasporre-art-00458584",
+      "currentBuyLabel": "IKEA 台灣官方商城",
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "TWD",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-09-01",
+        "note": "2026-09-01 以 exact SKU「004.585.84」分別查 BigGo 與 FindPrice；未取得同尺寸、同版本、具日期且可公開重現的可信新品史低，不以本次現價或跨版本價格推定。"
+      },
+      "checkedSources": [
+        "https://www.ikea.com.tw/zh/products/duvets-pillows-and-protectors/duvets/smasporre-art-00458584",
+        "https://www.google.com/search?q=site%3Abiggo.com.tw%20%22004.585.84%22",
+        "https://www.google.com/search?q=site%3Afindprice.com.tw%20%22004.585.84%22"
+      ],
+      "priceChecks": [
+        {
+          "kind": "official_price",
+          "url": "https://www.ikea.com.tw/zh/products/duvets-pillows-and-protectors/duvets/smasporre-art-00458584",
+          "query": "004.585.84 current price",
+          "outcome": "排除作為史低：exact SKU 新品頁只支持 2026-09-01 通路現價 NT$1699，不提供歷史低點日期。"
+        },
+        {
+          "kind": "search_query",
+          "url": "https://www.google.com/search?q=site%3Abiggo.com.tw%20%22004.585.84%22",
+          "query": "site:biggo.com.tw \"004.585.84\"",
+          "outcome": "BigGo exact-model 查詢未提供同尺寸、同版本、具日期且可公開重現的可信新品歷史低點。"
+        },
+        {
+          "kind": "search_query",
+          "url": "https://www.google.com/search?q=site%3Afindprice.com.tw%20%22004.585.84%22",
+          "query": "site:findprice.com.tw \"004.585.84\"",
+          "outcome": "FindPrice exact-model 查詢未提供同尺寸、同版本、具日期且可公開重現的可信新品歷史低點。"
+        }
+      ],
+      "rejectedCandidates": [
+        "未找到 004.585.84 同尺寸、同版本、具日期且排除會員／套裝／福利品／二手的可信新品史低。"
+      ],
+      "reviewNote": "以完整型號 004.585.84 逐筆核對現售頁、BigGo 與 FindPrice exact-model 查詢；沒有可重現的同版本歷史最低價。",
+      "checkedAt": "2026-09-01"
+    },
+    {
+      "id": "comforter-hiyori-thin-deat3aa900bfnyl",
+      "category": "comforter",
+      "brand": "日和賞",
+      "model": "DEAT3A-A900BFNYL",
+      "name": "MIT 夏季薄被胎雙人 180×210 cm（DEAT3A-A900BFNYL）",
+      "currentPrice": 750,
+      "currentCurrency": "TWD",
+      "currentBuyUrl": "https://24h.pchome.com.tw/prod/DEAT3A-A900BFNYL",
+      "currentBuyLabel": "PChome 24h",
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "TWD",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-09-01",
+        "note": "2026-09-01 以 exact SKU「DEAT3A-A900BFNYL」分別查 BigGo 與 FindPrice；未取得同尺寸、同版本、具日期且可公開重現的可信新品史低，不以本次現價或跨版本價格推定。"
+      },
+      "checkedSources": [
+        "https://24h.pchome.com.tw/prod/DEAT3A-A900BFNYL",
+        "https://www.google.com/search?q=site%3Abiggo.com.tw%20%22DEAT3A-A900BFNYL%22",
+        "https://www.google.com/search?q=site%3Afindprice.com.tw%20%22DEAT3A-A900BFNYL%22"
+      ],
+      "priceChecks": [
+        {
+          "kind": "retailer_price",
+          "url": "https://24h.pchome.com.tw/prod/DEAT3A-A900BFNYL",
+          "query": "DEAT3A-A900BFNYL current price",
+          "outcome": "排除作為史低：exact SKU 新品頁只支持 2026-09-01 通路現價 NT$750，不提供歷史低點日期。"
+        },
+        {
+          "kind": "search_query",
+          "url": "https://www.google.com/search?q=site%3Abiggo.com.tw%20%22DEAT3A-A900BFNYL%22",
+          "query": "site:biggo.com.tw \"DEAT3A-A900BFNYL\"",
+          "outcome": "BigGo exact-model 查詢未提供同尺寸、同版本、具日期且可公開重現的可信新品歷史低點。"
+        },
+        {
+          "kind": "search_query",
+          "url": "https://www.google.com/search?q=site%3Afindprice.com.tw%20%22DEAT3A-A900BFNYL%22",
+          "query": "site:findprice.com.tw \"DEAT3A-A900BFNYL\"",
+          "outcome": "FindPrice exact-model 查詢未提供同尺寸、同版本、具日期且可公開重現的可信新品歷史低點。"
+        }
+      ],
+      "rejectedCandidates": [
+        "未找到 DEAT3A-A900BFNYL 同尺寸、同版本、具日期且排除會員／套裝／福利品／二手的可信新品史低。"
+      ],
+      "reviewNote": "以完整型號 DEAT3A-A900BFNYL 逐筆核對現售頁、BigGo 與 FindPrice exact-model 查詢；沒有可重現的同版本歷史最低價。",
+      "checkedAt": "2026-09-01"
+    },
+    {
+      "id": "comforter-ikea-bruksvara-60560475",
+      "category": "comforter",
+      "brand": "IKEA",
+      "model": "605.604.75",
+      "name": "BRUKSVARA 暖被 150×200 cm（605.604.75）",
+      "currentPrice": 799,
+      "currentCurrency": "TWD",
+      "currentBuyUrl": "https://www.ikea.com.tw/zh/products/duvets-pillows-and-protectors/duvets/bruksvara-art-60560475",
+      "currentBuyLabel": "IKEA 台灣官方商城",
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "TWD",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-09-01",
+        "note": "2026-09-01 以 exact SKU「605.604.75」分別查 BigGo 與 FindPrice；未取得同尺寸、同版本、具日期且可公開重現的可信新品史低，不以本次現價或跨版本價格推定。"
+      },
+      "checkedSources": [
+        "https://www.ikea.com.tw/zh/products/duvets-pillows-and-protectors/duvets/bruksvara-art-60560475",
+        "https://www.google.com/search?q=site%3Abiggo.com.tw%20%22605.604.75%22",
+        "https://www.google.com/search?q=site%3Afindprice.com.tw%20%22605.604.75%22"
+      ],
+      "priceChecks": [
+        {
+          "kind": "official_price",
+          "url": "https://www.ikea.com.tw/zh/products/duvets-pillows-and-protectors/duvets/bruksvara-art-60560475",
+          "query": "605.604.75 current price",
+          "outcome": "排除作為史低：exact SKU 新品頁只支持 2026-09-01 通路現價 NT$799，不提供歷史低點日期。"
+        },
+        {
+          "kind": "search_query",
+          "url": "https://www.google.com/search?q=site%3Abiggo.com.tw%20%22605.604.75%22",
+          "query": "site:biggo.com.tw \"605.604.75\"",
+          "outcome": "BigGo exact-model 查詢未提供同尺寸、同版本、具日期且可公開重現的可信新品歷史低點。"
+        },
+        {
+          "kind": "search_query",
+          "url": "https://www.google.com/search?q=site%3Afindprice.com.tw%20%22605.604.75%22",
+          "query": "site:findprice.com.tw \"605.604.75\"",
+          "outcome": "FindPrice exact-model 查詢未提供同尺寸、同版本、具日期且可公開重現的可信新品歷史低點。"
+        }
+      ],
+      "rejectedCandidates": [
+        "未找到 605.604.75 同尺寸、同版本、具日期且排除會員／套裝／福利品／二手的可信新品史低。"
+      ],
+      "reviewNote": "以完整型號 605.604.75 逐筆核對現售頁、BigGo 與 FindPrice exact-model 查詢；沒有可重現的同版本歷史最低價。",
+      "checkedAt": "2026-09-01"
+    },
+    {
+      "id": "comforter-ikea-bruksvara-20560477",
+      "category": "comforter",
+      "brand": "IKEA",
+      "model": "205.604.77",
+      "name": "BRUKSVARA 暖被 200×200 cm（205.604.77）",
+      "currentPrice": 899,
+      "currentCurrency": "TWD",
+      "currentBuyUrl": "https://www.ikea.com.tw/zh/products/duvets-pillows-and-protectors/duvets/bruksvara-art-20560477",
+      "currentBuyLabel": "IKEA 台灣官方商城",
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "TWD",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-09-01",
+        "note": "2026-09-01 以 exact SKU「205.604.77」分別查 BigGo 與 FindPrice；未取得同尺寸、同版本、具日期且可公開重現的可信新品史低，不以本次現價或跨版本價格推定。"
+      },
+      "checkedSources": [
+        "https://www.ikea.com.tw/zh/products/duvets-pillows-and-protectors/duvets/bruksvara-art-20560477",
+        "https://www.google.com/search?q=site%3Abiggo.com.tw%20%22205.604.77%22",
+        "https://www.google.com/search?q=site%3Afindprice.com.tw%20%22205.604.77%22"
+      ],
+      "priceChecks": [
+        {
+          "kind": "official_price",
+          "url": "https://www.ikea.com.tw/zh/products/duvets-pillows-and-protectors/duvets/bruksvara-art-20560477",
+          "query": "205.604.77 current price",
+          "outcome": "排除作為史低：exact SKU 新品頁只支持 2026-09-01 通路現價 NT$899，不提供歷史低點日期。"
+        },
+        {
+          "kind": "search_query",
+          "url": "https://www.google.com/search?q=site%3Abiggo.com.tw%20%22205.604.77%22",
+          "query": "site:biggo.com.tw \"205.604.77\"",
+          "outcome": "BigGo exact-model 查詢未提供同尺寸、同版本、具日期且可公開重現的可信新品歷史低點。"
+        },
+        {
+          "kind": "search_query",
+          "url": "https://www.google.com/search?q=site%3Afindprice.com.tw%20%22205.604.77%22",
+          "query": "site:findprice.com.tw \"205.604.77\"",
+          "outcome": "FindPrice exact-model 查詢未提供同尺寸、同版本、具日期且可公開重現的可信新品歷史低點。"
+        }
+      ],
+      "rejectedCandidates": [
+        "未找到 205.604.77 同尺寸、同版本、具日期且排除會員／套裝／福利品／二手的可信新品史低。"
+      ],
+      "reviewNote": "以完整型號 205.604.77 逐筆核對現售頁、BigGo 與 FindPrice exact-model 查詢；沒有可重現的同版本歷史最低價。",
+      "checkedAt": "2026-09-01"
+    },
+    {
+      "id": "comforter-best-tencel-qfav6za9009hy1d",
+      "category": "comforter",
+      "brand": "BEST 貝思特",
+      "model": "QFAV6Z-A9009HY1D",
+      "name": "天絲保暖被雙人 180×210 cm（QFAV6Z-A9009HY1D）",
+      "currentPrice": 1112,
+      "currentCurrency": "TWD",
+      "currentBuyUrl": "https://24h.pchome.com.tw/prod/QFAV6Z-A9009HY1D",
+      "currentBuyLabel": "PChome 24h",
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "TWD",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-09-01",
+        "note": "2026-09-01 以 exact SKU「QFAV6Z-A9009HY1D」分別查 BigGo 與 FindPrice；未取得同尺寸、同版本、具日期且可公開重現的可信新品史低，不以本次現價或跨版本價格推定。"
+      },
+      "checkedSources": [
+        "https://24h.pchome.com.tw/prod/QFAV6Z-A9009HY1D",
+        "https://www.google.com/search?q=site%3Abiggo.com.tw%20%22QFAV6Z-A9009HY1D%22",
+        "https://www.google.com/search?q=site%3Afindprice.com.tw%20%22QFAV6Z-A9009HY1D%22"
+      ],
+      "priceChecks": [
+        {
+          "kind": "retailer_price",
+          "url": "https://24h.pchome.com.tw/prod/QFAV6Z-A9009HY1D",
+          "query": "QFAV6Z-A9009HY1D current price",
+          "outcome": "排除作為史低：exact SKU 新品頁只支持 2026-09-01 通路現價 NT$1112，不提供歷史低點日期。"
+        },
+        {
+          "kind": "search_query",
+          "url": "https://www.google.com/search?q=site%3Abiggo.com.tw%20%22QFAV6Z-A9009HY1D%22",
+          "query": "site:biggo.com.tw \"QFAV6Z-A9009HY1D\"",
+          "outcome": "BigGo exact-model 查詢未提供同尺寸、同版本、具日期且可公開重現的可信新品歷史低點。"
+        },
+        {
+          "kind": "search_query",
+          "url": "https://www.google.com/search?q=site%3Afindprice.com.tw%20%22QFAV6Z-A9009HY1D%22",
+          "query": "site:findprice.com.tw \"QFAV6Z-A9009HY1D\"",
+          "outcome": "FindPrice exact-model 查詢未提供同尺寸、同版本、具日期且可公開重現的可信新品歷史低點。"
+        }
+      ],
+      "rejectedCandidates": [
+        "未找到 QFAV6Z-A9009HY1D 同尺寸、同版本、具日期且排除會員／套裝／福利品／二手的可信新品史低。"
+      ],
+      "reviewNote": "以完整型號 QFAV6Z-A9009HY1D 逐筆核對現售頁、BigGo 與 FindPrice exact-model 查詢；沒有可重現的同版本歷史最低價。",
+      "checkedAt": "2026-09-01"
+    },
+    {
+      "id": "comforter-ikea-fjallarnika-30459025",
+      "category": "comforter",
+      "brand": "IKEA",
+      "model": "304.590.25",
+      "name": "FJÄLLARNIKA 羽毛羽絨暖被 150×200 cm（304.590.25）",
+      "currentPrice": 1499,
+      "currentCurrency": "TWD",
+      "currentBuyUrl": "https://www.ikea.com.tw/zh/products/duvets-pillows-and-protectors/duvets/fjallarnika-art-30459025",
+      "currentBuyLabel": "IKEA 台灣官方商城",
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "TWD",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-09-01",
+        "note": "2026-09-01 以 exact SKU「304.590.25」分別查 BigGo 與 FindPrice；未取得同尺寸、同版本、具日期且可公開重現的可信新品史低，不以本次現價或跨版本價格推定。"
+      },
+      "checkedSources": [
+        "https://www.ikea.com.tw/zh/products/duvets-pillows-and-protectors/duvets/fjallarnika-art-30459025",
+        "https://www.google.com/search?q=site%3Abiggo.com.tw%20%22304.590.25%22",
+        "https://www.google.com/search?q=site%3Afindprice.com.tw%20%22304.590.25%22"
+      ],
+      "priceChecks": [
+        {
+          "kind": "official_price",
+          "url": "https://www.ikea.com.tw/zh/products/duvets-pillows-and-protectors/duvets/fjallarnika-art-30459025",
+          "query": "304.590.25 current price",
+          "outcome": "排除作為史低：exact SKU 新品頁只支持 2026-09-01 通路現價 NT$1499，不提供歷史低點日期。"
+        },
+        {
+          "kind": "search_query",
+          "url": "https://www.google.com/search?q=site%3Abiggo.com.tw%20%22304.590.25%22",
+          "query": "site:biggo.com.tw \"304.590.25\"",
+          "outcome": "BigGo exact-model 查詢未提供同尺寸、同版本、具日期且可公開重現的可信新品歷史低點。"
+        },
+        {
+          "kind": "search_query",
+          "url": "https://www.google.com/search?q=site%3Afindprice.com.tw%20%22304.590.25%22",
+          "query": "site:findprice.com.tw \"304.590.25\"",
+          "outcome": "FindPrice exact-model 查詢未提供同尺寸、同版本、具日期且可公開重現的可信新品歷史低點。"
+        }
+      ],
+      "rejectedCandidates": [
+        "未找到 304.590.25 同尺寸、同版本、具日期且排除會員／套裝／福利品／二手的可信新品史低。"
+      ],
+      "reviewNote": "以完整型號 304.590.25 逐筆核對現售頁、BigGo 與 FindPrice exact-model 查詢；沒有可重現的同版本歷史最低價。",
+      "checkedAt": "2026-09-01"
+    },
+    {
+      "id": "comforter-ikea-fjallarnika-70459028",
+      "category": "comforter",
+      "brand": "IKEA",
+      "model": "704.590.28",
+      "name": "FJÄLLARNIKA 羽毛羽絨暖被 200×200 cm（704.590.28）",
+      "currentPrice": 1999,
+      "currentCurrency": "TWD",
+      "currentBuyUrl": "https://www.ikea.com.tw/zh/products/duvets-pillows-and-protectors/duvets/fjallarnika-art-70459028",
+      "currentBuyLabel": "IKEA 台灣官方商城",
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "TWD",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-09-01",
+        "note": "2026-09-01 以 exact SKU「704.590.28」分別查 BigGo 與 FindPrice；未取得同尺寸、同版本、具日期且可公開重現的可信新品史低，不以本次現價或跨版本價格推定。"
+      },
+      "checkedSources": [
+        "https://www.ikea.com.tw/zh/products/duvets-pillows-and-protectors/duvets/fjallarnika-art-70459028",
+        "https://www.google.com/search?q=site%3Abiggo.com.tw%20%22704.590.28%22",
+        "https://www.google.com/search?q=site%3Afindprice.com.tw%20%22704.590.28%22"
+      ],
+      "priceChecks": [
+        {
+          "kind": "official_price",
+          "url": "https://www.ikea.com.tw/zh/products/duvets-pillows-and-protectors/duvets/fjallarnika-art-70459028",
+          "query": "704.590.28 current price",
+          "outcome": "排除作為史低：exact SKU 新品頁只支持 2026-09-01 通路現價 NT$1999，不提供歷史低點日期。"
+        },
+        {
+          "kind": "search_query",
+          "url": "https://www.google.com/search?q=site%3Abiggo.com.tw%20%22704.590.28%22",
+          "query": "site:biggo.com.tw \"704.590.28\"",
+          "outcome": "BigGo exact-model 查詢未提供同尺寸、同版本、具日期且可公開重現的可信新品歷史低點。"
+        },
+        {
+          "kind": "search_query",
+          "url": "https://www.google.com/search?q=site%3Afindprice.com.tw%20%22704.590.28%22",
+          "query": "site:findprice.com.tw \"704.590.28\"",
+          "outcome": "FindPrice exact-model 查詢未提供同尺寸、同版本、具日期且可公開重現的可信新品歷史低點。"
+        }
+      ],
+      "rejectedCandidates": [
+        "未找到 704.590.28 同尺寸、同版本、具日期且排除會員／套裝／福利品／二手的可信新品史低。"
+      ],
+      "reviewNote": "以完整型號 704.590.28 逐筆核對現售頁、BigGo 與 FindPrice exact-model 查詢；沒有可重現的同版本歷史最低價。",
+      "checkedAt": "2026-09-01"
+    },
+    {
+      "id": "comforter-shikoku-washable-debclla900jcc6a",
+      "category": "comforter",
+      "brand": "四國纖維",
+      "model": "DEBCLL-A900JCC6A",
+      "name": "可水洗好眠四季被雙人 180×210 cm（DEBCLL-A900JCC6A）",
+      "currentPrice": 5856,
+      "currentCurrency": "TWD",
+      "currentBuyUrl": "https://24h.pchome.com.tw/prod/DEBCLL-A900JCC6A",
+      "currentBuyLabel": "PChome 24h",
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "TWD",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-09-01",
+        "note": "2026-09-01 以 exact SKU「DEBCLL-A900JCC6A」分別查 BigGo 與 FindPrice；未取得同尺寸、同版本、具日期且可公開重現的可信新品史低，不以本次現價或跨版本價格推定。"
+      },
+      "checkedSources": [
+        "https://24h.pchome.com.tw/prod/DEBCLL-A900JCC6A",
+        "https://www.google.com/search?q=site%3Abiggo.com.tw%20%22DEBCLL-A900JCC6A%22",
+        "https://www.google.com/search?q=site%3Afindprice.com.tw%20%22DEBCLL-A900JCC6A%22"
+      ],
+      "priceChecks": [
+        {
+          "kind": "retailer_price",
+          "url": "https://24h.pchome.com.tw/prod/DEBCLL-A900JCC6A",
+          "query": "DEBCLL-A900JCC6A current price",
+          "outcome": "排除作為史低：exact SKU 新品頁只支持 2026-09-01 通路現價 NT$5856，不提供歷史低點日期。"
+        },
+        {
+          "kind": "search_query",
+          "url": "https://www.google.com/search?q=site%3Abiggo.com.tw%20%22DEBCLL-A900JCC6A%22",
+          "query": "site:biggo.com.tw \"DEBCLL-A900JCC6A\"",
+          "outcome": "BigGo exact-model 查詢未提供同尺寸、同版本、具日期且可公開重現的可信新品歷史低點。"
+        },
+        {
+          "kind": "search_query",
+          "url": "https://www.google.com/search?q=site%3Afindprice.com.tw%20%22DEBCLL-A900JCC6A%22",
+          "query": "site:findprice.com.tw \"DEBCLL-A900JCC6A\"",
+          "outcome": "FindPrice exact-model 查詢未提供同尺寸、同版本、具日期且可公開重現的可信新品歷史低點。"
+        }
+      ],
+      "rejectedCandidates": [
+        "未找到 DEBCLL-A900JCC6A 同尺寸、同版本、具日期且排除會員／套裝／福利品／二手的可信新品史低。"
+      ],
+      "reviewNote": "以完整型號 DEBCLL-A900JCC6A 逐筆核對現售頁、BigGo 與 FindPrice exact-model 查詢；沒有可重現的同版本歷史最低價。",
+      "checkedAt": "2026-09-01"
+    },
+    {
+      "id": "comforter-ikea-fjallbracka-70537385",
+      "category": "comforter",
+      "brand": "IKEA",
+      "model": "705.373.85",
+      "name": "FJÄLLBRÄCKA 再生羽絨暖被 150×200 cm（705.373.85）",
+      "currentPrice": 2999,
+      "currentCurrency": "TWD",
+      "currentBuyUrl": "https://www.ikea.com.tw/zh/products/duvets-pillows-and-protectors/duvets/fjallbracka-art-70537385",
+      "currentBuyLabel": "IKEA 台灣官方商城",
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "TWD",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-09-01",
+        "note": "2026-09-01 以 exact SKU「705.373.85」分別查 BigGo 與 FindPrice；未取得同尺寸、同版本、具日期且可公開重現的可信新品史低，不以本次現價或跨版本價格推定。"
+      },
+      "checkedSources": [
+        "https://www.ikea.com.tw/zh/products/duvets-pillows-and-protectors/duvets/fjallbracka-art-70537385",
+        "https://www.google.com/search?q=site%3Abiggo.com.tw%20%22705.373.85%22",
+        "https://www.google.com/search?q=site%3Afindprice.com.tw%20%22705.373.85%22"
+      ],
+      "priceChecks": [
+        {
+          "kind": "official_price",
+          "url": "https://www.ikea.com.tw/zh/products/duvets-pillows-and-protectors/duvets/fjallbracka-art-70537385",
+          "query": "705.373.85 current price",
+          "outcome": "排除作為史低：exact SKU 新品頁只支持 2026-09-01 通路現價 NT$2999，不提供歷史低點日期。"
+        },
+        {
+          "kind": "search_query",
+          "url": "https://www.google.com/search?q=site%3Abiggo.com.tw%20%22705.373.85%22",
+          "query": "site:biggo.com.tw \"705.373.85\"",
+          "outcome": "BigGo exact-model 查詢未提供同尺寸、同版本、具日期且可公開重現的可信新品歷史低點。"
+        },
+        {
+          "kind": "search_query",
+          "url": "https://www.google.com/search?q=site%3Afindprice.com.tw%20%22705.373.85%22",
+          "query": "site:findprice.com.tw \"705.373.85\"",
+          "outcome": "FindPrice exact-model 查詢未提供同尺寸、同版本、具日期且可公開重現的可信新品歷史低點。"
+        }
+      ],
+      "rejectedCandidates": [
+        "未找到 705.373.85 同尺寸、同版本、具日期且排除會員／套裝／福利品／二手的可信新品史低。"
+      ],
+      "reviewNote": "以完整型號 705.373.85 逐筆核對現售頁、BigGo 與 FindPrice exact-model 查詢；沒有可重現的同版本歷史最低價。",
+      "checkedAt": "2026-09-01"
+    },
+    {
+      "id": "comforter-ikea-fjallbracka-10537388",
+      "category": "comforter",
+      "brand": "IKEA",
+      "model": "105.373.88",
+      "name": "FJÄLLBRÄCKA 再生羽絨暖被 200×200 cm（105.373.88）",
+      "currentPrice": 3799,
+      "currentCurrency": "TWD",
+      "currentBuyUrl": "https://www.ikea.com.tw/zh/products/duvets-pillows-and-protectors/duvets/fjallbracka-art-10537388",
+      "currentBuyLabel": "IKEA 台灣官方商城",
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "TWD",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-09-01",
+        "note": "2026-09-01 以 exact SKU「105.373.88」分別查 BigGo 與 FindPrice；未取得同尺寸、同版本、具日期且可公開重現的可信新品史低，不以本次現價或跨版本價格推定。"
+      },
+      "checkedSources": [
+        "https://www.ikea.com.tw/zh/products/duvets-pillows-and-protectors/duvets/fjallbracka-art-10537388",
+        "https://www.google.com/search?q=site%3Abiggo.com.tw%20%22105.373.88%22",
+        "https://www.google.com/search?q=site%3Afindprice.com.tw%20%22105.373.88%22"
+      ],
+      "priceChecks": [
+        {
+          "kind": "official_price",
+          "url": "https://www.ikea.com.tw/zh/products/duvets-pillows-and-protectors/duvets/fjallbracka-art-10537388",
+          "query": "105.373.88 current price",
+          "outcome": "排除作為史低：exact SKU 新品頁只支持 2026-09-01 通路現價 NT$3799，不提供歷史低點日期。"
+        },
+        {
+          "kind": "search_query",
+          "url": "https://www.google.com/search?q=site%3Abiggo.com.tw%20%22105.373.88%22",
+          "query": "site:biggo.com.tw \"105.373.88\"",
+          "outcome": "BigGo exact-model 查詢未提供同尺寸、同版本、具日期且可公開重現的可信新品歷史低點。"
+        },
+        {
+          "kind": "search_query",
+          "url": "https://www.google.com/search?q=site%3Afindprice.com.tw%20%22105.373.88%22",
+          "query": "site:findprice.com.tw \"105.373.88\"",
+          "outcome": "FindPrice exact-model 查詢未提供同尺寸、同版本、具日期且可公開重現的可信新品歷史低點。"
+        }
+      ],
+      "rejectedCandidates": [
+        "未找到 105.373.88 同尺寸、同版本、具日期且排除會員／套裝／福利品／二手的可信新品史低。"
+      ],
+      "reviewNote": "以完整型號 105.373.88 逐筆核對現售頁、BigGo 與 FindPrice exact-model 查詢；沒有可重現的同版本歷史最低價。",
+      "checkedAt": "2026-09-01"
+    },
+    {
+      "id": "comforter-3m-nz370-m",
+      "category": "comforter",
+      "brand": "3M",
+      "model": "NZ370-M",
+      "name": "新2代發熱纖維暖冬被標準雙人 180×210 cm（NZ370-M）",
+      "currentPrice": 8490,
+      "currentCurrency": "TWD",
+      "currentBuyUrl": "https://shop.3m.com.tw/SalePage/Index/4612154",
+      "currentBuyLabel": "3M 台灣官方旗艦店",
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "TWD",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-09-01",
+        "note": "2026-09-01 以 exact SKU「NZ370-M」分別查 BigGo 與 FindPrice；未取得同尺寸、同版本、具日期且可公開重現的可信新品史低，不以本次現價或跨版本價格推定。"
+      },
+      "checkedSources": [
+        "https://shop.3m.com.tw/SalePage/Index/4612154",
+        "https://www.google.com/search?q=site%3Abiggo.com.tw%20%22NZ370-M%22",
+        "https://www.google.com/search?q=site%3Afindprice.com.tw%20%22NZ370-M%22"
+      ],
+      "priceChecks": [
+        {
+          "kind": "official_price",
+          "url": "https://shop.3m.com.tw/SalePage/Index/4612154",
+          "query": "NZ370-M current price",
+          "outcome": "排除作為史低：exact SKU 新品頁只支持 2026-09-01 通路現價 NT$8490，不提供歷史低點日期。"
+        },
+        {
+          "kind": "search_query",
+          "url": "https://www.google.com/search?q=site%3Abiggo.com.tw%20%22NZ370-M%22",
+          "query": "site:biggo.com.tw \"NZ370-M\"",
+          "outcome": "BigGo exact-model 查詢未提供同尺寸、同版本、具日期且可公開重現的可信新品歷史低點。"
+        },
+        {
+          "kind": "search_query",
+          "url": "https://www.google.com/search?q=site%3Afindprice.com.tw%20%22NZ370-M%22",
+          "query": "site:findprice.com.tw \"NZ370-M\"",
+          "outcome": "FindPrice 找到 NZ370-M 的目前比價列，但頁面價格為查核時點比較，不是具事件日期的歷史最低價；未採用為史低。"
+        }
+      ],
+      "rejectedCandidates": [
+        "FindPrice 的 NZ370-M 目前比價未附可證明歷史低點的事件日期，且混列其他尺寸；不以其最低當前列或官方現價倒推史低。"
+      ],
+      "reviewNote": "以完整型號 NZ370-M 逐筆核對現售頁、BigGo 與 FindPrice exact-model 查詢；沒有可重現的同版本歷史最低價。",
+      "checkedAt": "2026-09-01"
+    },
+    {
+      "id": "comforter-muji-jaap6a6s",
+      "category": "comforter",
+      "brand": "MUJI",
+      "model": "JAAP6A6S",
+      "name": "防蟎羽毛薄被 S 150×210 cm（JAAP6A6S／11617453）",
+      "currentPrice": 3590,
+      "currentCurrency": "TWD",
+      "currentBuyUrl": "https://shop.muji.tw/SalePage/Index/11617453",
+      "currentBuyLabel": "MUJI 台灣官方商城",
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "TWD",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-09-01",
+        "note": "2026-09-01 以 exact SKU「JAAP6A6S」分別查 BigGo 與 FindPrice；未取得同尺寸、同版本、具日期且可公開重現的可信新品史低，不以本次現價或跨版本價格推定。"
+      },
+      "checkedSources": [
+        "https://shop.muji.tw/SalePage/Index/11617453",
+        "https://www.google.com/search?q=site%3Abiggo.com.tw%20%22JAAP6A6S%22",
+        "https://www.google.com/search?q=site%3Afindprice.com.tw%20%22JAAP6A6S%22"
+      ],
+      "priceChecks": [
+        {
+          "kind": "official_price",
+          "url": "https://shop.muji.tw/SalePage/Index/11617453",
+          "query": "JAAP6A6S current price",
+          "outcome": "排除作為史低：exact SKU 新品頁只支持 2026-09-01 通路現價 NT$3590，不提供歷史低點日期。"
+        },
+        {
+          "kind": "search_query",
+          "url": "https://www.google.com/search?q=site%3Abiggo.com.tw%20%22JAAP6A6S%22",
+          "query": "site:biggo.com.tw \"JAAP6A6S\"",
+          "outcome": "BigGo exact-model 查詢未提供同尺寸、同版本、具日期且可公開重現的可信新品歷史低點。"
+        },
+        {
+          "kind": "search_query",
+          "url": "https://www.google.com/search?q=site%3Afindprice.com.tw%20%22JAAP6A6S%22",
+          "query": "site:findprice.com.tw \"JAAP6A6S\"",
+          "outcome": "FindPrice exact-model 查詢未提供同尺寸、同版本、具日期且可公開重現的可信新品歷史低點。"
+        }
+      ],
+      "rejectedCandidates": [
+        "未找到 JAAP6A6S 同尺寸、同版本、具日期且排除會員／套裝／福利品／二手的可信新品史低。"
+      ],
+      "reviewNote": "以完整型號 JAAP6A6S 逐筆核對現售頁、BigGo 與 FindPrice exact-model 查詢；沒有可重現的同版本歷史最低價。",
+      "checkedAt": "2026-09-01"
+    },
+    {
+      "id": "comforter-muji-jaap9a6s",
+      "category": "comforter",
+      "brand": "MUJI",
+      "model": "JAAP9A6S",
+      "name": "防蟎羽毛薄被 Q 210×210 cm（JAAP9A6S／11617456）",
+      "currentPrice": 4590,
+      "currentCurrency": "TWD",
+      "currentBuyUrl": "https://shop.muji.tw/SalePage/Index/11617456",
+      "currentBuyLabel": "MUJI 台灣官方商城",
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "TWD",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-09-01",
+        "note": "2026-09-01 以 exact SKU「JAAP9A6S」分別查 BigGo 與 FindPrice；未取得同尺寸、同版本、具日期且可公開重現的可信新品史低，不以本次現價或跨版本價格推定。"
+      },
+      "checkedSources": [
+        "https://shop.muji.tw/SalePage/Index/11617456",
+        "https://www.google.com/search?q=site%3Abiggo.com.tw%20%22JAAP9A6S%22",
+        "https://www.google.com/search?q=site%3Afindprice.com.tw%20%22JAAP9A6S%22"
+      ],
+      "priceChecks": [
+        {
+          "kind": "official_price",
+          "url": "https://shop.muji.tw/SalePage/Index/11617456",
+          "query": "JAAP9A6S current price",
+          "outcome": "排除作為史低：exact SKU 新品頁只支持 2026-09-01 通路現價 NT$4590，不提供歷史低點日期。"
+        },
+        {
+          "kind": "search_query",
+          "url": "https://www.google.com/search?q=site%3Abiggo.com.tw%20%22JAAP9A6S%22",
+          "query": "site:biggo.com.tw \"JAAP9A6S\"",
+          "outcome": "BigGo exact-model 查詢未提供同尺寸、同版本、具日期且可公開重現的可信新品歷史低點。"
+        },
+        {
+          "kind": "search_query",
+          "url": "https://www.google.com/search?q=site%3Afindprice.com.tw%20%22JAAP9A6S%22",
+          "query": "site:findprice.com.tw \"JAAP9A6S\"",
+          "outcome": "FindPrice exact-model 查詢未提供同尺寸、同版本、具日期且可公開重現的可信新品歷史低點。"
+        }
+      ],
+      "rejectedCandidates": [
+        "未找到 JAAP9A6S 同尺寸、同版本、具日期且排除會員／套裝／福利品／二手的可信新品史低。"
+      ],
+      "reviewNote": "以完整型號 JAAP9A6S 逐筆核對現售頁、BigGo 與 FindPrice exact-model 查詢；沒有可重現的同版本歷史最低價。",
+      "checkedAt": "2026-09-01"
+    },
+    {
+      "id": "comforter-muji-jabg2a6a",
+      "category": "comforter",
+      "brand": "MUJI",
+      "model": "JABG2A6A",
+      "name": "可水洗聚酯纖維被 SD 170×210 cm（JABG2A6A／12072381）",
+      "currentPrice": 3990,
+      "currentCurrency": "TWD",
+      "currentBuyUrl": "https://shop.muji.tw/SalePage/Index/12072381",
+      "currentBuyLabel": "MUJI 台灣官方商城",
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "TWD",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-09-01",
+        "note": "2026-09-01 以 exact SKU「JABG2A6A」分別查 BigGo 與 FindPrice；未取得同尺寸、同版本、具日期且可公開重現的可信新品史低，不以本次現價或跨版本價格推定。"
+      },
+      "checkedSources": [
+        "https://shop.muji.tw/SalePage/Index/12072381",
+        "https://www.google.com/search?q=site%3Abiggo.com.tw%20%22JABG2A6A%22",
+        "https://www.google.com/search?q=site%3Afindprice.com.tw%20%22JABG2A6A%22"
+      ],
+      "priceChecks": [
+        {
+          "kind": "official_price",
+          "url": "https://shop.muji.tw/SalePage/Index/12072381",
+          "query": "JABG2A6A current price",
+          "outcome": "排除作為史低：exact SKU 新品頁只支持 2026-09-01 通路現價 NT$3990，不提供歷史低點日期。"
+        },
+        {
+          "kind": "search_query",
+          "url": "https://www.google.com/search?q=site%3Abiggo.com.tw%20%22JABG2A6A%22",
+          "query": "site:biggo.com.tw \"JABG2A6A\"",
+          "outcome": "BigGo exact-model 查詢未提供同尺寸、同版本、具日期且可公開重現的可信新品歷史低點。"
+        },
+        {
+          "kind": "search_query",
+          "url": "https://www.google.com/search?q=site%3Afindprice.com.tw%20%22JABG2A6A%22",
+          "query": "site:findprice.com.tw \"JABG2A6A\"",
+          "outcome": "FindPrice exact-model 查詢未提供同尺寸、同版本、具日期且可公開重現的可信新品歷史低點。"
+        }
+      ],
+      "rejectedCandidates": [
+        "未找到 JABG2A6A 同尺寸、同版本、具日期且排除會員／套裝／福利品／二手的可信新品史低。"
+      ],
+      "reviewNote": "以完整型號 JABG2A6A 逐筆核對現售頁、BigGo 與 FindPrice exact-model 查詢；沒有可重現的同版本歷史最低價。",
+      "checkedAt": "2026-09-01"
+    },
+    {
+      "id": "comforter-muji-jabg3a6a",
+      "category": "comforter",
+      "brand": "MUJI",
+      "model": "JABG3A6A",
+      "name": "可水洗聚酯纖維被 D 190×210 cm（JABG3A6A／12072382）",
+      "currentPrice": 4290,
+      "currentCurrency": "TWD",
+      "currentBuyUrl": "https://shop.muji.tw/SalePage/Index/12072382",
+      "currentBuyLabel": "MUJI 台灣官方商城",
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "TWD",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-09-01",
+        "note": "2026-09-01 以 exact SKU「JABG3A6A」分別查 BigGo 與 FindPrice；未取得同尺寸、同版本、具日期且可公開重現的可信新品史低，不以本次現價或跨版本價格推定。"
+      },
+      "checkedSources": [
+        "https://shop.muji.tw/SalePage/Index/12072382",
+        "https://www.google.com/search?q=site%3Abiggo.com.tw%20%22JABG3A6A%22",
+        "https://www.google.com/search?q=site%3Afindprice.com.tw%20%22JABG3A6A%22"
+      ],
+      "priceChecks": [
+        {
+          "kind": "official_price",
+          "url": "https://shop.muji.tw/SalePage/Index/12072382",
+          "query": "JABG3A6A current price",
+          "outcome": "排除作為史低：exact SKU 新品頁只支持 2026-09-01 通路現價 NT$4290，不提供歷史低點日期。"
+        },
+        {
+          "kind": "search_query",
+          "url": "https://www.google.com/search?q=site%3Abiggo.com.tw%20%22JABG3A6A%22",
+          "query": "site:biggo.com.tw \"JABG3A6A\"",
+          "outcome": "BigGo exact-model 查詢未提供同尺寸、同版本、具日期且可公開重現的可信新品歷史低點。"
+        },
+        {
+          "kind": "search_query",
+          "url": "https://www.google.com/search?q=site%3Afindprice.com.tw%20%22JABG3A6A%22",
+          "query": "site:findprice.com.tw \"JABG3A6A\"",
+          "outcome": "FindPrice exact-model 查詢未提供同尺寸、同版本、具日期且可公開重現的可信新品歷史低點。"
+        }
+      ],
+      "rejectedCandidates": [
+        "未找到 JABG3A6A 同尺寸、同版本、具日期且排除會員／套裝／福利品／二手的可信新品史低。"
+      ],
+      "reviewNote": "以完整型號 JABG3A6A 逐筆核對現售頁、BigGo 與 FindPrice exact-model 查詢；沒有可重現的同版本歷史最低價。",
+      "checkedAt": "2026-09-01"
+    },
+    {
+      "id": "comforter-hola-wool-016788504",
+      "category": "comforter",
+      "brand": "HOLA",
+      "model": "016788504",
+      "name": "100%可水洗法國羊毛防蟎冬被單人（016788504）",
+      "currentPrice": 2180,
+      "currentCurrency": "TWD",
+      "currentBuyUrl": "https://www.momoshop.com.tw/TP/TP0006553/goodsDetail/TP00065530008497",
+      "currentBuyLabel": "momo HOLA 官方店",
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "TWD",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-09-01",
+        "note": "2026-09-01 以 exact SKU「016788504」分別查 BigGo 與 FindPrice；未取得同尺寸、同版本、具日期且可公開重現的可信新品史低，不以本次現價或跨版本價格推定。"
+      },
+      "checkedSources": [
+        "https://www.momoshop.com.tw/TP/TP0006553/goodsDetail/TP00065530008497",
+        "https://www.google.com/search?q=site%3Abiggo.com.tw%20%22016788504%22",
+        "https://www.google.com/search?q=site%3Afindprice.com.tw%20%22016788504%22"
+      ],
+      "priceChecks": [
+        {
+          "kind": "official_price",
+          "url": "https://www.momoshop.com.tw/TP/TP0006553/goodsDetail/TP00065530008497",
+          "query": "016788504 current price",
+          "outcome": "排除作為史低：exact SKU 新品頁只支持 2026-09-01 通路現價 NT$2180，不提供歷史低點日期。"
+        },
+        {
+          "kind": "search_query",
+          "url": "https://www.google.com/search?q=site%3Abiggo.com.tw%20%22016788504%22",
+          "query": "site:biggo.com.tw \"016788504\"",
+          "outcome": "BigGo exact-model 查詢未提供同尺寸、同版本、具日期且可公開重現的可信新品歷史低點。"
+        },
+        {
+          "kind": "search_query",
+          "url": "https://www.google.com/search?q=site%3Afindprice.com.tw%20%22016788504%22",
+          "query": "site:findprice.com.tw \"016788504\"",
+          "outcome": "FindPrice exact-model 查詢未提供同尺寸、同版本、具日期且可公開重現的可信新品歷史低點。"
+        }
+      ],
+      "rejectedCandidates": [
+        "未找到 016788504 同尺寸、同版本、具日期且排除會員／套裝／福利品／二手的可信新品史低。"
+      ],
+      "reviewNote": "以完整型號 016788504 逐筆核對現售頁、BigGo 與 FindPrice exact-model 查詢；沒有可重現的同版本歷史最低價。",
+      "checkedAt": "2026-09-01"
+    },
+    {
+      "id": "comforter-hola-down-014301109",
+      "category": "comforter",
+      "brand": "HOLA",
+      "model": "014301109",
+      "name": "90/10可水洗長效防蟎羽絨薄被單人（014301109）",
+      "currentPrice": 3680,
+      "currentCurrency": "TWD",
+      "currentBuyUrl": "https://www.momoshop.com.tw/TP/TP0006553/goodsDetail/TP00065530004585",
+      "currentBuyLabel": "momo HOLA 官方店",
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "TWD",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-09-01",
+        "note": "2026-09-01 以 exact SKU「014301109」分別查 BigGo 與 FindPrice；未取得同尺寸、同版本、具日期且可公開重現的可信新品史低，不以本次現價或跨版本價格推定。"
+      },
+      "checkedSources": [
+        "https://www.momoshop.com.tw/TP/TP0006553/goodsDetail/TP00065530004585",
+        "https://www.google.com/search?q=site%3Abiggo.com.tw%20%22014301109%22",
+        "https://www.google.com/search?q=site%3Afindprice.com.tw%20%22014301109%22"
+      ],
+      "priceChecks": [
+        {
+          "kind": "official_price",
+          "url": "https://www.momoshop.com.tw/TP/TP0006553/goodsDetail/TP00065530004585",
+          "query": "014301109 current price",
+          "outcome": "排除作為史低：exact SKU 新品頁只支持 2026-09-01 通路現價 NT$3680，不提供歷史低點日期。"
+        },
+        {
+          "kind": "search_query",
+          "url": "https://www.google.com/search?q=site%3Abiggo.com.tw%20%22014301109%22",
+          "query": "site:biggo.com.tw \"014301109\"",
+          "outcome": "BigGo exact-model 查詢未提供同尺寸、同版本、具日期且可公開重現的可信新品歷史低點。"
+        },
+        {
+          "kind": "search_query",
+          "url": "https://www.google.com/search?q=site%3Afindprice.com.tw%20%22014301109%22",
+          "query": "site:findprice.com.tw \"014301109\"",
+          "outcome": "FindPrice exact-model 查詢未提供同尺寸、同版本、具日期且可公開重現的可信新品歷史低點。"
+        }
+      ],
+      "rejectedCandidates": [
+        "未找到 014301109 同尺寸、同版本、具日期且排除會員／套裝／福利品／二手的可信新品史低。"
+      ],
+      "reviewNote": "以完整型號 014301109 逐筆核對現售頁、BigGo 與 FindPrice exact-model 查詢；沒有可重現的同版本歷史最低價。",
+      "checkedAt": "2026-09-01"
+    },
+    {
+      "id": "comforter-hola-down-014381508",
+      "category": "comforter",
+      "brand": "HOLA",
+      "model": "014381508",
+      "name": "90/10可水洗長效防蟎羽絨冬被加大（014381508）",
+      "currentPrice": 10980,
+      "currentCurrency": "TWD",
+      "currentBuyUrl": "https://www.momoshop.com.tw/TP/TP0006553/goodsDetail/TP00065530008377",
+      "currentBuyLabel": "momo HOLA 官方店",
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "TWD",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-09-01",
+        "note": "2026-09-01 以 exact SKU「014381508」分別查 BigGo 與 FindPrice；未取得同尺寸、同版本、具日期且可公開重現的可信新品史低，不以本次現價或跨版本價格推定。"
+      },
+      "checkedSources": [
+        "https://www.momoshop.com.tw/TP/TP0006553/goodsDetail/TP00065530008377",
+        "https://www.google.com/search?q=site%3Abiggo.com.tw%20%22014381508%22",
+        "https://www.google.com/search?q=site%3Afindprice.com.tw%20%22014381508%22"
+      ],
+      "priceChecks": [
+        {
+          "kind": "official_price",
+          "url": "https://www.momoshop.com.tw/TP/TP0006553/goodsDetail/TP00065530008377",
+          "query": "014381508 current price",
+          "outcome": "排除作為史低：exact SKU 新品頁只支持 2026-09-01 通路現價 NT$10980，不提供歷史低點日期。"
+        },
+        {
+          "kind": "search_query",
+          "url": "https://www.google.com/search?q=site%3Abiggo.com.tw%20%22014381508%22",
+          "query": "site:biggo.com.tw \"014381508\"",
+          "outcome": "BigGo exact-model 查詢未提供同尺寸、同版本、具日期且可公開重現的可信新品歷史低點。"
+        },
+        {
+          "kind": "search_query",
+          "url": "https://www.google.com/search?q=site%3Afindprice.com.tw%20%22014381508%22",
+          "query": "site:findprice.com.tw \"014381508\"",
+          "outcome": "FindPrice exact-model 查詢未提供同尺寸、同版本、具日期且可公開重現的可信新品歷史低點。"
+        }
+      ],
+      "rejectedCandidates": [
+        "未找到 014381508 同尺寸、同版本、具日期且排除會員／套裝／福利品／二手的可信新品史低。"
+      ],
+      "reviewNote": "以完整型號 014381508 逐筆核對現售頁、BigGo 與 FindPrice exact-model 查詢；沒有可重現的同版本歷史最低價。",
+      "checkedAt": "2026-09-01"
+    },
+    {
+      "id": "comforter-hola-real-014408625",
+      "category": "comforter",
+      "brand": "HOLA",
+      "model": "014408625",
+      "name": "REAL極親膚科技蠶絲防蟎冬被雙人（014408625）",
+      "currentPrice": 2624,
+      "currentCurrency": "TWD",
+      "currentBuyUrl": "https://www.momoshop.com.tw/TP/TP0006553/goodsDetail/TP00065530010853",
+      "currentBuyLabel": "momo HOLA 官方店",
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "TWD",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-09-01",
+        "note": "2026-09-01 以 exact SKU「014408625」分別查 BigGo 與 FindPrice；未取得同尺寸、同版本、具日期且可公開重現的可信新品史低，不以本次現價或跨版本價格推定。"
+      },
+      "checkedSources": [
+        "https://www.momoshop.com.tw/TP/TP0006553/goodsDetail/TP00065530010853",
+        "https://www.google.com/search?q=site%3Abiggo.com.tw%20%22014408625%22",
+        "https://www.google.com/search?q=site%3Afindprice.com.tw%20%22014408625%22"
+      ],
+      "priceChecks": [
+        {
+          "kind": "official_price",
+          "url": "https://www.momoshop.com.tw/TP/TP0006553/goodsDetail/TP00065530010853",
+          "query": "014408625 current price",
+          "outcome": "排除作為史低：exact SKU 新品頁只支持 2026-09-01 通路現價 NT$2624，不提供歷史低點日期。"
+        },
+        {
+          "kind": "search_query",
+          "url": "https://www.google.com/search?q=site%3Abiggo.com.tw%20%22014408625%22",
+          "query": "site:biggo.com.tw \"014408625\"",
+          "outcome": "BigGo exact-model 查詢未提供同尺寸、同版本、具日期且可公開重現的可信新品歷史低點。"
+        },
+        {
+          "kind": "search_query",
+          "url": "https://www.google.com/search?q=site%3Afindprice.com.tw%20%22014408625%22",
+          "query": "site:findprice.com.tw \"014408625\"",
+          "outcome": "FindPrice exact-model 查詢未提供同尺寸、同版本、具日期且可公開重現的可信新品歷史低點。"
+        }
+      ],
+      "rejectedCandidates": [
+        "未找到 014408625 同尺寸、同版本、具日期且排除會員／套裝／福利品／二手的可信新品史低。"
+      ],
+      "reviewNote": "以完整型號 014408625 逐筆核對現售頁、BigGo 與 FindPrice exact-model 查詢；沒有可重現的同版本歷史最低價。",
+      "checkedAt": "2026-09-01"
+    },
+    {
+      "id": "comforter-tanaka-silk-deatiwa900ayfmu",
+      "category": "comforter",
+      "brand": "田中保暖試驗所",
+      "model": "DEATIW-A900AYFMU",
+      "name": "100%長纖蠶絲夏被 3台斤 180×210 cm（DEATIW-A900AYFMU）",
+      "currentPrice": 4674,
+      "currentCurrency": "TWD",
+      "currentBuyUrl": "https://24h.pchome.com.tw/prod/DEATIW-A900AYFMU",
+      "currentBuyLabel": "PChome 24h",
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "TWD",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-09-01",
+        "note": "2026-09-01 以 exact SKU「DEATIW-A900AYFMU」分別查 BigGo 與 FindPrice；未取得同尺寸、同版本、具日期且可公開重現的可信新品史低，不以本次現價或跨版本價格推定。"
+      },
+      "checkedSources": [
+        "https://24h.pchome.com.tw/prod/DEATIW-A900AYFMU",
+        "https://www.google.com/search?q=site%3Abiggo.com.tw%20%22DEATIW-A900AYFMU%22",
+        "https://www.google.com/search?q=site%3Afindprice.com.tw%20%22DEATIW-A900AYFMU%22"
+      ],
+      "priceChecks": [
+        {
+          "kind": "retailer_price",
+          "url": "https://24h.pchome.com.tw/prod/DEATIW-A900AYFMU",
+          "query": "DEATIW-A900AYFMU current price",
+          "outcome": "排除作為史低：exact SKU 新品頁只支持 2026-09-01 通路現價 NT$4674，不提供歷史低點日期。"
+        },
+        {
+          "kind": "search_query",
+          "url": "https://www.google.com/search?q=site%3Abiggo.com.tw%20%22DEATIW-A900AYFMU%22",
+          "query": "site:biggo.com.tw \"DEATIW-A900AYFMU\"",
+          "outcome": "BigGo exact-model 查詢未提供同尺寸、同版本、具日期且可公開重現的可信新品歷史低點。"
+        },
+        {
+          "kind": "search_query",
+          "url": "https://www.google.com/search?q=site%3Afindprice.com.tw%20%22DEATIW-A900AYFMU%22",
+          "query": "site:findprice.com.tw \"DEATIW-A900AYFMU\"",
+          "outcome": "FindPrice exact-model 查詢未提供同尺寸、同版本、具日期且可公開重現的可信新品歷史低點。"
+        }
+      ],
+      "rejectedCandidates": [
+        "未找到 DEATIW-A900AYFMU 同尺寸、同版本、具日期且排除會員／套裝／福利品／二手的可信新品史低。"
+      ],
+      "reviewNote": "以完整型號 DEATIW-A900AYFMU 逐筆核對現售頁、BigGo 與 FindPrice exact-model 查詢；沒有可重現的同版本歷史最低價。",
+      "checkedAt": "2026-09-01"
+    },
+    {
+      "id": "comforter-shikoku-sofair-deatgma900hqsfg",
+      "category": "comforter",
+      "brand": "四國纖維",
+      "model": "DEATGM-A900HQSFG",
+      "name": "SOFAIR WARM 無重力空氣暖被雙人 190×210 cm（DEATGM-A900HQSFG）",
+      "currentPrice": 9341,
+      "currentCurrency": "TWD",
+      "currentBuyUrl": "https://24h.pchome.com.tw/prod/DEATGM-A900HQSFG",
+      "currentBuyLabel": "PChome 24h",
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "TWD",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-09-01",
+        "note": "2026-09-01 以 exact SKU「DEATGM-A900HQSFG」分別查 BigGo 與 FindPrice；未取得同尺寸、同版本、具日期且可公開重現的可信新品史低，不以本次現價或跨版本價格推定。"
+      },
+      "checkedSources": [
+        "https://24h.pchome.com.tw/prod/DEATGM-A900HQSFG",
+        "https://www.google.com/search?q=site%3Abiggo.com.tw%20%22DEATGM-A900HQSFG%22",
+        "https://www.google.com/search?q=site%3Afindprice.com.tw%20%22DEATGM-A900HQSFG%22"
+      ],
+      "priceChecks": [
+        {
+          "kind": "retailer_price",
+          "url": "https://24h.pchome.com.tw/prod/DEATGM-A900HQSFG",
+          "query": "DEATGM-A900HQSFG current price",
+          "outcome": "排除作為史低：exact SKU 新品頁只支持 2026-09-01 通路現價 NT$9341，不提供歷史低點日期。"
+        },
+        {
+          "kind": "search_query",
+          "url": "https://www.google.com/search?q=site%3Abiggo.com.tw%20%22DEATGM-A900HQSFG%22",
+          "query": "site:biggo.com.tw \"DEATGM-A900HQSFG\"",
+          "outcome": "BigGo exact-model 查詢未提供同尺寸、同版本、具日期且可公開重現的可信新品歷史低點。"
+        },
+        {
+          "kind": "search_query",
+          "url": "https://www.google.com/search?q=site%3Afindprice.com.tw%20%22DEATGM-A900HQSFG%22",
+          "query": "site:findprice.com.tw \"DEATGM-A900HQSFG\"",
+          "outcome": "FindPrice exact-model 查詢未提供同尺寸、同版本、具日期且可公開重現的可信新品歷史低點。"
+        }
+      ],
+      "rejectedCandidates": [
+        "未找到 DEATGM-A900HQSFG 同尺寸、同版本、具日期且排除會員／套裝／福利品／二手的可信新品史低。"
+      ],
+      "reviewNote": "以完整型號 DEATGM-A900HQSFG 逐筆核對現售頁、BigGo 與 FindPrice exact-model 查詢；沒有可重現的同版本歷史最低價。",
+      "checkedAt": "2026-09-01"
+    },
+    {
+      "id": "comforter-tonia-graphene-debcb6a900gropd",
+      "category": "comforter",
+      "brand": "Tonia Nicole 東妮寢飾",
+      "model": "DEBCB6-A900GROPD",
+      "name": "英威達抗菌七孔石墨烯冬被雙人 180×210 cm（DEBCB6-A900GROPD）",
+      "currentPrice": 4980,
+      "currentCurrency": "TWD",
+      "currentBuyUrl": "https://24h.pchome.com.tw/prod/DEBCB6-A900GROPD",
+      "currentBuyLabel": "PChome 24h",
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "TWD",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-09-01",
+        "note": "2026-09-01 以 exact SKU「DEBCB6-A900GROPD」分別查 BigGo 與 FindPrice；未取得同尺寸、同版本、具日期且可公開重現的可信新品史低，不以本次現價或跨版本價格推定。"
+      },
+      "checkedSources": [
+        "https://24h.pchome.com.tw/prod/DEBCB6-A900GROPD",
+        "https://www.google.com/search?q=site%3Abiggo.com.tw%20%22DEBCB6-A900GROPD%22",
+        "https://www.google.com/search?q=site%3Afindprice.com.tw%20%22DEBCB6-A900GROPD%22"
+      ],
+      "priceChecks": [
+        {
+          "kind": "retailer_price",
+          "url": "https://24h.pchome.com.tw/prod/DEBCB6-A900GROPD",
+          "query": "DEBCB6-A900GROPD current price",
+          "outcome": "排除作為史低：exact SKU 新品頁只支持 2026-09-01 通路現價 NT$4980，不提供歷史低點日期。"
+        },
+        {
+          "kind": "search_query",
+          "url": "https://www.google.com/search?q=site%3Abiggo.com.tw%20%22DEBCB6-A900GROPD%22",
+          "query": "site:biggo.com.tw \"DEBCB6-A900GROPD\"",
+          "outcome": "BigGo exact-model 查詢未提供同尺寸、同版本、具日期且可公開重現的可信新品歷史低點。"
+        },
+        {
+          "kind": "search_query",
+          "url": "https://www.google.com/search?q=site%3Afindprice.com.tw%20%22DEBCB6-A900GROPD%22",
+          "query": "site:findprice.com.tw \"DEBCB6-A900GROPD\"",
+          "outcome": "FindPrice exact-model 查詢未提供同尺寸、同版本、具日期且可公開重現的可信新品歷史低點。"
+        }
+      ],
+      "rejectedCandidates": [
+        "未找到 DEBCB6-A900GROPD 同尺寸、同版本、具日期且排除會員／套裝／福利品／二手的可信新品史低。"
+      ],
+      "reviewNote": "以完整型號 DEBCB6-A900GROPD 逐筆核對現售頁、BigGo 與 FindPrice exact-model 查詢；沒有可重現的同版本歷史最低價。",
+      "checkedAt": "2026-09-01"
+    },
+    {
+      "id": "comforter-belle-vie-wool-deatiba900c15jx",
+      "category": "comforter",
+      "brand": "BELLE VIE",
+      "model": "DEATIB-A900C15JX",
+      "name": "澳洲純羊毛被單人 135×195 cm（DEATIB-A900C15JX）",
+      "currentPrice": 1312,
+      "currentCurrency": "TWD",
+      "currentBuyUrl": "https://24h.pchome.com.tw/prod/DEATIB-A900C15JX",
+      "currentBuyLabel": "PChome 24h",
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "TWD",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-09-01",
+        "note": "2026-09-01 以 exact SKU「DEATIB-A900C15JX」分別查 BigGo 與 FindPrice；未取得同尺寸、同版本、具日期且可公開重現的可信新品史低，不以本次現價或跨版本價格推定。"
+      },
+      "checkedSources": [
+        "https://24h.pchome.com.tw/prod/DEATIB-A900C15JX",
+        "https://www.google.com/search?q=site%3Abiggo.com.tw%20%22DEATIB-A900C15JX%22",
+        "https://www.google.com/search?q=site%3Afindprice.com.tw%20%22DEATIB-A900C15JX%22"
+      ],
+      "priceChecks": [
+        {
+          "kind": "retailer_price",
+          "url": "https://24h.pchome.com.tw/prod/DEATIB-A900C15JX",
+          "query": "DEATIB-A900C15JX current price",
+          "outcome": "排除作為史低：exact SKU 新品頁只支持 2026-09-01 通路現價 NT$1312，不提供歷史低點日期。"
+        },
+        {
+          "kind": "search_query",
+          "url": "https://www.google.com/search?q=site%3Abiggo.com.tw%20%22DEATIB-A900C15JX%22",
+          "query": "site:biggo.com.tw \"DEATIB-A900C15JX\"",
+          "outcome": "BigGo exact-model 查詢未提供同尺寸、同版本、具日期且可公開重現的可信新品歷史低點。"
+        },
+        {
+          "kind": "search_query",
+          "url": "https://www.google.com/search?q=site%3Afindprice.com.tw%20%22DEATIB-A900C15JX%22",
+          "query": "site:findprice.com.tw \"DEATIB-A900C15JX\"",
+          "outcome": "FindPrice exact-model 查詢未提供同尺寸、同版本、具日期且可公開重現的可信新品歷史低點。"
+        }
+      ],
+      "rejectedCandidates": [
+        "未找到 DEATIB-A900C15JX 同尺寸、同版本、具日期且排除會員／套裝／福利品／二手的可信新品史低。"
+      ],
+      "reviewNote": "以完整型號 DEATIB-A900C15JX 逐筆核對現售頁、BigGo 與 FindPrice exact-model 查詢；沒有可重現的同版本歷史最低價。",
+      "checkedAt": "2026-09-01"
+    },
+    {
+      "id": "comforter-belle-vie-wool-deatiba900c15xv",
+      "category": "comforter",
+      "brand": "BELLE VIE",
+      "model": "DEATIB-A900C15XV",
+      "name": "澳洲純羊毛被雙人 180×210 cm（DEATIB-A900C15XV）",
+      "currentPrice": 1412,
+      "currentCurrency": "TWD",
+      "currentBuyUrl": "https://24h.pchome.com.tw/prod/DEATIB-A900C15XV",
+      "currentBuyLabel": "PChome 24h",
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "TWD",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-09-01",
+        "note": "2026-09-01 以 exact SKU「DEATIB-A900C15XV」分別查 BigGo 與 FindPrice；未取得同尺寸、同版本、具日期且可公開重現的可信新品史低，不以本次現價或跨版本價格推定。"
+      },
+      "checkedSources": [
+        "https://24h.pchome.com.tw/prod/DEATIB-A900C15XV",
+        "https://www.google.com/search?q=site%3Abiggo.com.tw%20%22DEATIB-A900C15XV%22",
+        "https://www.google.com/search?q=site%3Afindprice.com.tw%20%22DEATIB-A900C15XV%22"
+      ],
+      "priceChecks": [
+        {
+          "kind": "retailer_price",
+          "url": "https://24h.pchome.com.tw/prod/DEATIB-A900C15XV",
+          "query": "DEATIB-A900C15XV current price",
+          "outcome": "排除作為史低：exact SKU 新品頁只支持 2026-09-01 通路現價 NT$1412，不提供歷史低點日期。"
+        },
+        {
+          "kind": "search_query",
+          "url": "https://www.google.com/search?q=site%3Abiggo.com.tw%20%22DEATIB-A900C15XV%22",
+          "query": "site:biggo.com.tw \"DEATIB-A900C15XV\"",
+          "outcome": "BigGo exact-model 查詢未提供同尺寸、同版本、具日期且可公開重現的可信新品歷史低點。"
+        },
+        {
+          "kind": "search_query",
+          "url": "https://www.google.com/search?q=site%3Afindprice.com.tw%20%22DEATIB-A900C15XV%22",
+          "query": "site:findprice.com.tw \"DEATIB-A900C15XV\"",
+          "outcome": "FindPrice exact-model 查詢未提供同尺寸、同版本、具日期且可公開重現的可信新品歷史低點。"
+        }
+      ],
+      "rejectedCandidates": [
+        "未找到 DEATIB-A900C15XV 同尺寸、同版本、具日期且排除會員／套裝／福利品／二手的可信新品史低。"
+      ],
+      "reviewNote": "以完整型號 DEATIB-A900C15XV 逐筆核對現售頁、BigGo 與 FindPrice exact-model 查詢；沒有可重現的同版本歷史最低價。",
+      "checkedAt": "2026-09-01"
+    },
+    {
+      "id": "comforter-belle-vie-wool-deatiba900aytrq",
+      "category": "comforter",
+      "brand": "BELLE VIE",
+      "model": "DEATIB-A900AYTRQ",
+      "name": "澳洲純羊毛被歐式加大 240×210 cm（DEATIB-A900AYTRQ）",
+      "currentPrice": 2712,
+      "currentCurrency": "TWD",
+      "currentBuyUrl": "https://24h.pchome.com.tw/prod/DEATIB-A900AYTRQ",
+      "currentBuyLabel": "PChome 24h",
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "TWD",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-09-01",
+        "note": "2026-09-01 以 exact SKU「DEATIB-A900AYTRQ」分別查 BigGo 與 FindPrice；未取得同尺寸、同版本、具日期且可公開重現的可信新品史低，不以本次現價或跨版本價格推定。"
+      },
+      "checkedSources": [
+        "https://24h.pchome.com.tw/prod/DEATIB-A900AYTRQ",
+        "https://www.google.com/search?q=site%3Abiggo.com.tw%20%22DEATIB-A900AYTRQ%22",
+        "https://www.google.com/search?q=site%3Afindprice.com.tw%20%22DEATIB-A900AYTRQ%22"
+      ],
+      "priceChecks": [
+        {
+          "kind": "retailer_price",
+          "url": "https://24h.pchome.com.tw/prod/DEATIB-A900AYTRQ",
+          "query": "DEATIB-A900AYTRQ current price",
+          "outcome": "排除作為史低：exact SKU 新品頁只支持 2026-09-01 通路現價 NT$2712，不提供歷史低點日期。"
+        },
+        {
+          "kind": "search_query",
+          "url": "https://www.google.com/search?q=site%3Abiggo.com.tw%20%22DEATIB-A900AYTRQ%22",
+          "query": "site:biggo.com.tw \"DEATIB-A900AYTRQ\"",
+          "outcome": "BigGo exact-model 查詢未提供同尺寸、同版本、具日期且可公開重現的可信新品歷史低點。"
+        },
+        {
+          "kind": "search_query",
+          "url": "https://www.google.com/search?q=site%3Afindprice.com.tw%20%22DEATIB-A900AYTRQ%22",
+          "query": "site:findprice.com.tw \"DEATIB-A900AYTRQ\"",
+          "outcome": "FindPrice exact-model 查詢未提供同尺寸、同版本、具日期且可公開重現的可信新品歷史低點。"
+        }
+      ],
+      "rejectedCandidates": [
+        "未找到 DEATIB-A900AYTRQ 同尺寸、同版本、具日期且排除會員／套裝／福利品／二手的可信新品史低。"
+      ],
+      "reviewNote": "以完整型號 DEATIB-A900AYTRQ 逐筆核對現售頁、BigGo 與 FindPrice exact-model 查詢；沒有可重現的同版本歷史最低價。",
+      "checkedAt": "2026-09-01"
+    },
+    {
+      "id": "comforter-owlting-organic-cotton-17469",
+      "category": "comforter",
+      "brand": "台灣有機棉",
+      "model": "OwlTing-17469",
+      "name": "100%台灣有機棉被胎單人 4.5×6.5尺（OwlTing-17469）",
+      "currentPrice": 6500,
+      "currentCurrency": "TWD",
+      "currentBuyUrl": "https://market.owlting.com/items/17469",
+      "currentBuyLabel": "OwlTing Market 奧丁丁市集",
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "TWD",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-09-01",
+        "note": "2026-09-01 以 exact SKU「OwlTing-17469」分別查 BigGo 與 FindPrice；未取得同尺寸、同版本、具日期且可公開重現的可信新品史低，不以本次現價或跨版本價格推定。"
+      },
+      "checkedSources": [
+        "https://market.owlting.com/items/17469",
+        "https://www.google.com/search?q=site%3Abiggo.com.tw%20%22OwlTing-17469%22",
+        "https://www.google.com/search?q=site%3Afindprice.com.tw%20%22OwlTing-17469%22"
+      ],
+      "priceChecks": [
+        {
+          "kind": "retailer_price",
+          "url": "https://market.owlting.com/items/17469",
+          "query": "OwlTing-17469 current price",
+          "outcome": "排除作為史低：exact SKU 新品頁只支持 2026-09-01 通路現價 NT$6500，不提供歷史低點日期。"
+        },
+        {
+          "kind": "search_query",
+          "url": "https://www.google.com/search?q=site%3Abiggo.com.tw%20%22OwlTing-17469%22",
+          "query": "site:biggo.com.tw \"OwlTing-17469\"",
+          "outcome": "BigGo exact-model 查詢未提供同尺寸、同版本、具日期且可公開重現的可信新品歷史低點。"
+        },
+        {
+          "kind": "search_query",
+          "url": "https://www.google.com/search?q=site%3Afindprice.com.tw%20%22OwlTing-17469%22",
+          "query": "site:findprice.com.tw \"OwlTing-17469\"",
+          "outcome": "FindPrice exact-model 查詢未提供同尺寸、同版本、具日期且可公開重現的可信新品歷史低點。"
+        }
+      ],
+      "rejectedCandidates": [
+        "未找到 OwlTing-17469 同尺寸、同版本、具日期且排除會員／套裝／福利品／二手的可信新品史低。"
+      ],
+      "reviewNote": "以完整型號 OwlTing-17469 逐筆核對現售頁、BigGo 與 FindPrice exact-model 查詢；沒有可重現的同版本歷史最低價。",
+      "checkedAt": "2026-09-01"
+    },
+    {
+      "id": "comforter-owlting-organic-cotton-17190",
+      "category": "comforter",
+      "brand": "台灣有機棉",
+      "model": "OwlTing-17190",
+      "name": "100%台灣有機棉被胎雙人薄被 6×7尺（OwlTing-17190）",
+      "currentPrice": 6500,
+      "currentCurrency": "TWD",
+      "currentBuyUrl": "https://market.owlting.com/items/17190",
+      "currentBuyLabel": "OwlTing Market 奧丁丁市集",
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "TWD",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-09-01",
+        "note": "2026-09-01 以 exact SKU「OwlTing-17190」分別查 BigGo 與 FindPrice；未取得同尺寸、同版本、具日期且可公開重現的可信新品史低，不以本次現價或跨版本價格推定。"
+      },
+      "checkedSources": [
+        "https://market.owlting.com/items/17190",
+        "https://www.google.com/search?q=site%3Abiggo.com.tw%20%22OwlTing-17190%22",
+        "https://www.google.com/search?q=site%3Afindprice.com.tw%20%22OwlTing-17190%22"
+      ],
+      "priceChecks": [
+        {
+          "kind": "retailer_price",
+          "url": "https://market.owlting.com/items/17190",
+          "query": "OwlTing-17190 current price",
+          "outcome": "排除作為史低：exact SKU 新品頁只支持 2026-09-01 通路現價 NT$6500，不提供歷史低點日期。"
+        },
+        {
+          "kind": "search_query",
+          "url": "https://www.google.com/search?q=site%3Abiggo.com.tw%20%22OwlTing-17190%22",
+          "query": "site:biggo.com.tw \"OwlTing-17190\"",
+          "outcome": "BigGo exact-model 查詢未提供同尺寸、同版本、具日期且可公開重現的可信新品歷史低點。"
+        },
+        {
+          "kind": "search_query",
+          "url": "https://www.google.com/search?q=site%3Afindprice.com.tw%20%22OwlTing-17190%22",
+          "query": "site:findprice.com.tw \"OwlTing-17190\"",
+          "outcome": "FindPrice exact-model 查詢未提供同尺寸、同版本、具日期且可公開重現的可信新品歷史低點。"
+        }
+      ],
+      "rejectedCandidates": [
+        "未找到 OwlTing-17190 同尺寸、同版本、具日期且排除會員／套裝／福利品／二手的可信新品史低。"
+      ],
+      "reviewNote": "以完整型號 OwlTing-17190 逐筆核對現售頁、BigGo 與 FindPrice exact-model 查詢；沒有可重現的同版本歷史最低價。",
+      "checkedAt": "2026-09-01"
+    },
+    {
+      "id": "pillow-tempur-symphony-medium",
+      "category": "pillow",
+      "brand": "TEMPUR",
+      "model": "TPILSYMM",
+      "name": "丹普夢幻感溫枕 MEDIUM TPILSYMM",
+      "currentPrice": 8880,
+      "currentCurrency": "TWD",
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價",
+      "currentBuyUrl": "https://shop.tw.tempur.com/products/symphony-pillow-%E5%A4%A2%E5%B9%BB%E6%84%9F%E6%BA%AB%E6%9E%95?variant=34660708909211",
+      "currentBuyLabel": "TEMPUR 台灣官方商城（MEDIUM）",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "TWD",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-09-01",
+        "note": "已逐一查核 TPILSYMM 的確切版本官方現價、品牌／通路頁與價格歷史查詢；沒有找到可回溯且排除會員、套裝、福利品與跨版本的可靠史低，因此不以現價或劃線價推定。"
+      },
+      "checkedSources": [
+        "https://shop.tw.tempur.com/products/symphony-pillow-%E5%A4%A2%E5%B9%BB%E6%84%9F%E6%BA%AB%E6%9E%95?variant=34660708909211",
+        "https://tw.search.yahoo.com/search?p=%22TPILSYMM%22%20%22%E4%B8%B9%E6%99%AE%E5%A4%A2%E5%B9%BB%E6%84%9F%E6%BA%AB%E6%9E%95%20MEDIUM%20TPILSYMM%22%20%E6%9C%80%E4%BD%8E%E5%83%B9%20%E5%83%B9%E6%A0%BC"
+      ],
+      "rejectedCandidates": [
+        "未採用 TPILSYMM 現價或未附可回溯日期的劃線價；無法證明為同一 SKU 的可信新品史低。"
+      ],
+      "reviewNote": "以 TPILSYMM 完整型號逐筆核對官方現價與價格歷史查詢，未找到排除會員、套裝、福利品、二手及跨版本後仍可重現的可靠史低。",
+      "checkedAt": "2026-09-01"
+    },
+    {
+      "id": "pillow-3m-mz600",
+      "category": "pillow",
+      "brand": "3M",
+      "model": "MZ600",
+      "name": "3M 防蟎可調式記憶枕 MZ600 側仰舒眠型",
+      "currentPrice": 3290,
+      "currentCurrency": "TWD",
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價",
+      "currentBuyUrl": "https://shop.3m.com.tw/SalePage/Index/6213493",
+      "currentBuyLabel": "3M 台灣官方商城（MZ600）",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "TWD",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-09-01",
+        "note": "已逐一查核 MZ600 的確切版本官方現價、品牌／通路頁與價格歷史查詢；沒有找到可回溯且排除會員、套裝、福利品與跨版本的可靠史低，因此不以現價或劃線價推定。"
+      },
+      "checkedSources": [
+        "https://shop.3m.com.tw/SalePage/Index/6213493",
+        "https://tw.search.yahoo.com/search?p=%22MZ600%22%20%223M%20%E9%98%B2%E8%9F%8E%E5%8F%AF%E8%AA%BF%E5%BC%8F%E8%A8%98%E6%86%B6%E6%9E%95%20MZ600%20%E5%81%B4%E4%BB%B0%E8%88%92%E7%9C%A0%E5%9E%8B%22%20%E6%9C%80%E4%BD%8E%E5%83%B9%20%E5%83%B9%E6%A0%BC"
+      ],
+      "rejectedCandidates": [
+        "未採用 MZ600 現價或未附可回溯日期的劃線價；無法證明為同一 SKU 的可信新品史低。"
+      ],
+      "reviewNote": "以 MZ600 完整型號逐筆核對官方現價與價格歷史查詢，未找到排除會員、套裝、福利品、二手及跨版本後仍可重現的可靠史低。",
+      "checkedAt": "2026-09-01"
+    },
+    {
+      "id": "pillow-emma-black-diamond",
+      "category": "pillow",
+      "brand": "Emma",
+      "model": "EPWCF040070RAB",
+      "name": "Emma 石墨烯黑鑽記憶枕 40x70 EPWCF040070RAB",
+      "currentPrice": 3199,
+      "currentCurrency": "TWD",
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價",
+      "currentBuyUrl": "https://www.emma-sleep.com.tw/black-diamond-pillow/",
+      "currentBuyLabel": "Emma 台灣官網（EPWCF040070RAB）",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "TWD",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-09-01",
+        "note": "已逐一查核 EPWCF040070RAB 的確切版本官方現價、品牌／通路頁與價格歷史查詢；沒有找到可回溯且排除會員、套裝、福利品與跨版本的可靠史低，因此不以現價或劃線價推定。"
+      },
+      "checkedSources": [
+        "https://www.emma-sleep.com.tw/black-diamond-pillow/",
+        "https://tw.search.yahoo.com/search?p=%22EPWCF040070RAB%22%20%22Emma%20%E7%9F%B3%E5%A2%A8%E7%83%AF%E9%BB%91%E9%91%BD%E8%A8%98%E6%86%B6%E6%9E%95%2040x70%20EPWCF040070RAB%22%20%E6%9C%80%E4%BD%8E%E5%83%B9%20%E5%83%B9%E6%A0%BC"
+      ],
+      "rejectedCandidates": [
+        "未採用 EPWCF040070RAB 現價或未附可回溯日期的劃線價；無法證明為同一 SKU 的可信新品史低。"
+      ],
+      "reviewNote": "以 EPWCF040070RAB 完整型號逐筆核對官方現價與價格歷史查詢，未找到排除會員、套裝、福利品、二手及跨版本後仍可重現的可靠史低。",
+      "checkedAt": "2026-09-01"
+    },
+    {
+      "id": "pillow-emma-airgrid",
+      "category": "pillow",
+      "brand": "Emma",
+      "model": "EPWGF040070RAB",
+      "name": "Emma 零重力 AirGrid 記憶枕 40x70 EPWGF040070RAB",
+      "currentPrice": 5399,
+      "currentCurrency": "TWD",
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價",
+      "currentBuyUrl": "https://www.emma-sleep.com.tw/airgrid-pillow/",
+      "currentBuyLabel": "Emma 台灣官網（EPWGF040070RAB）",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "TWD",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-09-01",
+        "note": "已逐一查核 EPWGF040070RAB 的確切版本官方現價、品牌／通路頁與價格歷史查詢；沒有找到可回溯且排除會員、套裝、福利品與跨版本的可靠史低，因此不以現價或劃線價推定。"
+      },
+      "checkedSources": [
+        "https://www.emma-sleep.com.tw/airgrid-pillow/",
+        "https://tw.search.yahoo.com/search?p=%22EPWGF040070RAB%22%20%22Emma%20%E9%9B%B6%E9%87%8D%E5%8A%9B%20AirGrid%20%E8%A8%98%E6%86%B6%E6%9E%95%2040x70%20EPWGF040070RAB%22%20%E6%9C%80%E4%BD%8E%E5%83%B9%20%E5%83%B9%E6%A0%BC"
+      ],
+      "rejectedCandidates": [
+        "未採用 EPWGF040070RAB 現價或未附可回溯日期的劃線價；無法證明為同一 SKU 的可信新品史低。"
+      ],
+      "reviewNote": "以 EPWGF040070RAB 完整型號逐筆核對官方現價與價格歷史查詢，未找到排除會員、套裝、福利品、二手及跨版本後仍可重現的可靠史低。",
+      "checkedAt": "2026-09-01"
+    },
+    {
+      "id": "pillow-hola-organic-latex-curve",
+      "category": "pillow",
+      "brand": "HOLA",
+      "model": "014416047",
+      "name": "HOLA 斯里蘭卡有機乳膠枕 H12/14 曲線型 014416047",
+      "currentPrice": 2580,
+      "currentCurrency": "TWD",
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價",
+      "currentBuyUrl": "https://www.hola.com.tw/p/014416047",
+      "currentBuyLabel": "HOLA 和樂家居（014416047）",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "TWD",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-09-01",
+        "note": "已逐一查核 014416047 的確切版本官方現價、品牌／通路頁與價格歷史查詢；沒有找到可回溯且排除會員、套裝、福利品與跨版本的可靠史低，因此不以現價或劃線價推定。"
+      },
+      "checkedSources": [
+        "https://www.hola.com.tw/p/014416047",
+        "https://tw.search.yahoo.com/search?p=%22014416047%22%20%22HOLA%20%E6%96%AF%E9%87%8C%E8%98%AD%E5%8D%A1%E6%9C%89%E6%A9%9F%E4%B9%B3%E8%86%A0%E6%9E%95%20H12%2F14%20%E6%9B%B2%E7%B7%9A%E5%9E%8B%20014416047%22%20%E6%9C%80%E4%BD%8E%E5%83%B9%20%E5%83%B9%E6%A0%BC"
+      ],
+      "rejectedCandidates": [
+        "未採用 014416047 現價或未附可回溯日期的劃線價；無法證明為同一 SKU 的可信新品史低。"
+      ],
+      "reviewNote": "以 014416047 完整型號逐筆核對官方現價與價格歷史查詢，未找到排除會員、套裝、福利品、二手及跨版本後仍可重現的可靠史低。",
+      "checkedAt": "2026-09-01"
+    },
+    {
+      "id": "pillow-ikea-bergven",
+      "category": "pillow",
+      "brand": "IKEA",
+      "model": "205.715.84",
+      "name": "IKEA BERGVEN 羽絨羽毛高枕 50x80 205.715.84",
+      "currentPrice": 2799,
+      "currentCurrency": "TWD",
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價",
+      "currentBuyUrl": "https://www.ikea.com.tw/zh/products/duvets-pillows-and-protectors/pillows/bergven-art-20571584",
+      "currentBuyLabel": "IKEA 台灣（205.715.84）",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "TWD",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-09-01",
+        "note": "已逐一查核 205.715.84 的確切版本官方現價、品牌／通路頁與價格歷史查詢；沒有找到可回溯且排除會員、套裝、福利品與跨版本的可靠史低，因此不以現價或劃線價推定。"
+      },
+      "checkedSources": [
+        "https://www.ikea.com.tw/zh/products/duvets-pillows-and-protectors/pillows/bergven-art-20571584",
+        "https://tw.search.yahoo.com/search?p=%22205.715.84%22%20%22IKEA%20BERGVEN%20%E7%BE%BD%E7%B5%A8%E7%BE%BD%E6%AF%9B%E9%AB%98%E6%9E%95%2050x80%20205.715.84%22%20%E6%9C%80%E4%BD%8E%E5%83%B9%20%E5%83%B9%E6%A0%BC"
+      ],
+      "rejectedCandidates": [
+        "未採用 205.715.84 現價或未附可回溯日期的劃線價；無法證明為同一 SKU 的可信新品史低。"
+      ],
+      "reviewNote": "以 205.715.84 完整型號逐筆核對官方現價與價格歷史查詢，未找到排除會員、套裝、福利品、二手及跨版本後仍可重現的可靠史低。",
+      "checkedAt": "2026-09-01"
+    },
+    {
+      "id": "pillow-ikea-gulkavle",
+      "category": "pillow",
+      "brand": "IKEA",
+      "model": "605.329.44",
+      "name": "IKEA GULKAVLE 羽絨羽毛高枕 50x80 605.329.44",
+      "currentPrice": 2499,
+      "currentCurrency": "TWD",
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價",
+      "currentBuyUrl": "https://www.ikea.com.tw/zh/products/duvets-pillows-and-protectors/pillows/gulkavle-art-60532944",
+      "currentBuyLabel": "IKEA 台灣（605.329.44）",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "TWD",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-09-01",
+        "note": "已逐一查核 605.329.44 的確切版本官方現價、品牌／通路頁與價格歷史查詢；沒有找到可回溯且排除會員、套裝、福利品與跨版本的可靠史低，因此不以現價或劃線價推定。"
+      },
+      "checkedSources": [
+        "https://www.ikea.com.tw/zh/products/duvets-pillows-and-protectors/pillows/gulkavle-art-60532944",
+        "https://tw.search.yahoo.com/search?p=%22605.329.44%22%20%22IKEA%20GULKAVLE%20%E7%BE%BD%E7%B5%A8%E7%BE%BD%E6%AF%9B%E9%AB%98%E6%9E%95%2050x80%20605.329.44%22%20%E6%9C%80%E4%BD%8E%E5%83%B9%20%E5%83%B9%E6%A0%BC"
+      ],
+      "rejectedCandidates": [
+        "未採用 605.329.44 現價或未附可回溯日期的劃線價；無法證明為同一 SKU 的可信新品史低。"
+      ],
+      "reviewNote": "以 605.329.44 完整型號逐筆核對官方現價與價格歷史查詢，未找到排除會員、套裝、福利品、二手及跨版本後仍可重現的可靠史低。",
+      "checkedAt": "2026-09-01"
+    },
+    {
+      "id": "pillow-ikea-hirsstarr",
+      "category": "pillow",
+      "brand": "IKEA",
+      "model": "403.347.99",
+      "name": "IKEA HIRSSTARR 乳膠枕 45x70 403.347.99",
+      "currentPrice": 2299,
+      "currentCurrency": "TWD",
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價",
+      "currentBuyUrl": "https://www.ikea.com.tw/zh/products/duvets-pillows-and-protectors/pillows/hirsstarr-art-40334799",
+      "currentBuyLabel": "IKEA 台灣（403.347.99）",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "TWD",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-09-01",
+        "note": "已逐一查核 403.347.99 的確切版本官方現價、品牌／通路頁與價格歷史查詢；沒有找到可回溯且排除會員、套裝、福利品與跨版本的可靠史低，因此不以現價或劃線價推定。"
+      },
+      "checkedSources": [
+        "https://www.ikea.com.tw/zh/products/duvets-pillows-and-protectors/pillows/hirsstarr-art-40334799",
+        "https://tw.search.yahoo.com/search?p=%22403.347.99%22%20%22IKEA%20HIRSSTARR%20%E4%B9%B3%E8%86%A0%E6%9E%95%2045x70%20403.347.99%22%20%E6%9C%80%E4%BD%8E%E5%83%B9%20%E5%83%B9%E6%A0%BC"
+      ],
+      "rejectedCandidates": [
+        "未採用 403.347.99 現價或未附可回溯日期的劃線價；無法證明為同一 SKU 的可信新品史低。"
+      ],
+      "reviewNote": "以 403.347.99 完整型號逐筆核對官方現價與價格歷史查詢，未找到排除會員、套裝、福利品、二手及跨版本後仍可重現的可靠史低。",
+      "checkedAt": "2026-09-01"
+    },
+    {
+      "id": "pillow-tempur-original-smartcool-queen-s",
+      "category": "pillow",
+      "brand": "TEMPUR",
+      "model": "0000559654",
+      "name": "丹普新原創感溫枕 SmartCool QUEEN S 0000559654",
+      "currentPrice": 11120,
+      "currentCurrency": "TWD",
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價",
+      "currentBuyUrl": "https://shop.tw.tempur.com/products/original-pillow-with-smartcool-%E6%96%B0%E5%8E%9F%E5%89%B5%E6%84%9F%E6%BA%AB%E6%9E%95?variant=42452299939995",
+      "currentBuyLabel": "TEMPUR 台灣官方商城（QUEEN S）",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "TWD",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-09-01",
+        "note": "已逐一查核 0000559654 的確切版本官方現價、品牌／通路頁與價格歷史查詢；沒有找到可回溯且排除會員、套裝、福利品與跨版本的可靠史低，因此不以現價或劃線價推定。"
+      },
+      "checkedSources": [
+        "https://shop.tw.tempur.com/products/original-pillow-with-smartcool-%E6%96%B0%E5%8E%9F%E5%89%B5%E6%84%9F%E6%BA%AB%E6%9E%95?variant=42452299939995",
+        "https://tw.search.yahoo.com/search?p=%220000559654%22%20%22%E4%B8%B9%E6%99%AE%E6%96%B0%E5%8E%9F%E5%89%B5%E6%84%9F%E6%BA%AB%E6%9E%95%20SmartCool%20QUEEN%20S%200000559654%22%20%E6%9C%80%E4%BD%8E%E5%83%B9%20%E5%83%B9%E6%A0%BC"
+      ],
+      "rejectedCandidates": [
+        "未採用 0000559654 現價或未附可回溯日期的劃線價；無法證明為同一 SKU 的可信新品史低。"
+      ],
+      "reviewNote": "以 0000559654 完整型號逐筆核對官方現價與價格歷史查詢，未找到排除會員、套裝、福利品、二手及跨版本後仍可重現的可靠史低。",
+      "checkedAt": "2026-09-01"
+    },
+    {
+      "id": "pillow-tempur-millennium-small",
+      "category": "pillow",
+      "brand": "TEMPUR",
+      "model": "0001209107",
+      "name": "丹普永恆千禧感溫枕 SMALL 0001209107",
+      "currentPrice": 6880,
+      "currentCurrency": "TWD",
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價",
+      "currentBuyUrl": "https://shop.tw.tempur.com/products/ergoplus-pillow-%E6%B0%B8%E6%81%86%E5%8D%83%E7%A6%A7%E6%84%9F%E6%BA%AB%E6%9E%95?variant=47934674337947",
+      "currentBuyLabel": "TEMPUR 台灣官方商城（SMALL）",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "TWD",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-09-01",
+        "note": "已逐一查核 0001209107 的確切版本官方現價、品牌／通路頁與價格歷史查詢；沒有找到可回溯且排除會員、套裝、福利品與跨版本的可靠史低，因此不以現價或劃線價推定。"
+      },
+      "checkedSources": [
+        "https://shop.tw.tempur.com/products/ergoplus-pillow-%E6%B0%B8%E6%81%86%E5%8D%83%E7%A6%A7%E6%84%9F%E6%BA%AB%E6%9E%95?variant=47934674337947",
+        "https://tw.search.yahoo.com/search?p=%220001209107%22%20%22%E4%B8%B9%E6%99%AE%E6%B0%B8%E6%81%86%E5%8D%83%E7%A6%A7%E6%84%9F%E6%BA%AB%E6%9E%95%20SMALL%200001209107%22%20%E6%9C%80%E4%BD%8E%E5%83%B9%20%E5%83%B9%E6%A0%BC"
+      ],
+      "rejectedCandidates": [
+        "未採用 0001209107 現價或未附可回溯日期的劃線價；無法證明為同一 SKU 的可信新品史低。"
+      ],
+      "reviewNote": "以 0001209107 完整型號逐筆核對官方現價與價格歷史查詢，未找到排除會員、套裝、福利品、二手及跨版本後仍可重現的可靠史低。",
+      "checkedAt": "2026-09-01"
+    },
+    {
+      "id": "pillow-tempur-original-xs",
+      "category": "pillow",
+      "brand": "TEMPUR",
+      "model": "0000348682",
+      "name": "丹普原創感溫枕 EXTRA SMALL 0000348682",
+      "currentPrice": 6240,
+      "currentCurrency": "TWD",
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價",
+      "currentBuyUrl": "https://shop.tw.tempur.com/products/original-pillow-%E5%8E%9F%E5%89%B5%E6%84%9F%E6%BA%AB%E9%A0%B8%E6%9E%95?variant=45258873110683",
+      "currentBuyLabel": "TEMPUR 台灣官方商城（EXTRA SMALL）",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "TWD",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-09-01",
+        "note": "已逐一查核 0000348682 的確切版本官方現價、品牌／通路頁與價格歷史查詢；沒有找到可回溯且排除會員、套裝、福利品與跨版本的可靠史低，因此不以現價或劃線價推定。"
+      },
+      "checkedSources": [
+        "https://shop.tw.tempur.com/products/original-pillow-%E5%8E%9F%E5%89%B5%E6%84%9F%E6%BA%AB%E9%A0%B8%E6%9E%95?variant=45258873110683",
+        "https://tw.search.yahoo.com/search?p=%220000348682%22%20%22%E4%B8%B9%E6%99%AE%E5%8E%9F%E5%89%B5%E6%84%9F%E6%BA%AB%E6%9E%95%20EXTRA%20SMALL%200000348682%22%20%E6%9C%80%E4%BD%8E%E5%83%B9%20%E5%83%B9%E6%A0%BC"
+      ],
+      "rejectedCandidates": [
+        "未採用 0000348682 現價或未附可回溯日期的劃線價；無法證明為同一 SKU 的可信新品史低。"
+      ],
+      "reviewNote": "以 0000348682 完整型號逐筆核對官方現價與價格歷史查詢，未找到排除會員、套裝、福利品、二手及跨版本後仍可重現的可靠史低。",
+      "checkedAt": "2026-09-01"
+    },
+    {
+      "id": "pillow-emma-original",
+      "category": "pillow",
+      "brand": "Emma",
+      "model": "EPWAF040070RAB",
+      "name": "Emma 經典三層記憶枕 40x70 EPWAF040070RAB",
+      "currentPrice": 2099,
+      "currentCurrency": "TWD",
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價",
+      "currentBuyUrl": "https://www.emma-sleep.com.tw/original-foam-pillow/",
+      "currentBuyLabel": "Emma 台灣官網（EPWAF040070RAB）",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "TWD",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-09-01",
+        "note": "已逐一查核 EPWAF040070RAB 的確切版本官方現價、品牌／通路頁與價格歷史查詢；沒有找到可回溯且排除會員、套裝、福利品與跨版本的可靠史低，因此不以現價或劃線價推定。"
+      },
+      "checkedSources": [
+        "https://www.emma-sleep.com.tw/original-foam-pillow/",
+        "https://tw.search.yahoo.com/search?p=%22EPWAF040070RAB%22%20%22Emma%20%E7%B6%93%E5%85%B8%E4%B8%89%E5%B1%A4%E8%A8%98%E6%86%B6%E6%9E%95%2040x70%20EPWAF040070RAB%22%20%E6%9C%80%E4%BD%8E%E5%83%B9%20%E5%83%B9%E6%A0%BC"
+      ],
+      "rejectedCandidates": [
+        "未採用 EPWAF040070RAB 現價或未附可回溯日期的劃線價；無法證明為同一 SKU 的可信新品史低。"
+      ],
+      "reviewNote": "以 EPWAF040070RAB 完整型號逐筆核對官方現價與價格歷史查詢，未找到排除會員、套裝、福利品、二手及跨版本後仍可重現的可靠史低。",
+      "checkedAt": "2026-09-01"
+    },
+    {
+      "id": "pillow-ikea-rosenskarm",
+      "category": "pillow",
+      "brand": "IKEA",
+      "model": "704.443.67",
+      "name": "IKEA ROSENSKÄRM 人體工學枕 33x50x11 704.443.67",
+      "currentPrice": 499,
+      "currentCurrency": "TWD",
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價",
+      "currentBuyUrl": "https://www.ikea.com.tw/zh/products/duvets-pillows-and-protectors/pillows/rosenskarm-art-70444367",
+      "currentBuyLabel": "IKEA 台灣（704.443.67）",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "TWD",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-09-01",
+        "note": "已逐一查核 704.443.67 的確切版本官方現價、品牌／通路頁與價格歷史查詢；沒有找到可回溯且排除會員、套裝、福利品與跨版本的可靠史低，因此不以現價或劃線價推定。"
+      },
+      "checkedSources": [
+        "https://www.ikea.com.tw/zh/products/duvets-pillows-and-protectors/pillows/rosenskarm-art-70444367",
+        "https://tw.search.yahoo.com/search?p=%22704.443.67%22%20%22IKEA%20ROSENSK%C3%84RM%20%E4%BA%BA%E9%AB%94%E5%B7%A5%E5%AD%B8%E6%9E%95%2033x50x11%20704.443.67%22%20%E6%9C%80%E4%BD%8E%E5%83%B9%20%E5%83%B9%E6%A0%BC"
+      ],
+      "rejectedCandidates": [
+        "未採用 704.443.67 現價或未附可回溯日期的劃線價；無法證明為同一 SKU 的可信新品史低。"
+      ],
+      "reviewNote": "以 704.443.67 完整型號逐筆核對官方現價與價格歷史查詢，未找到排除會員、套裝、福利品、二手及跨版本後仍可重現的可靠史低。",
+      "checkedAt": "2026-09-01"
+    },
+    {
+      "id": "pillow-ikea-klubbsporre",
+      "category": "pillow",
+      "brand": "IKEA",
+      "model": "804.460.97",
+      "name": "IKEA KLUBBSPORRE 涼感記憶枕 41x70x13 804.460.97",
+      "currentPrice": 1499,
+      "currentCurrency": "TWD",
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價",
+      "currentBuyUrl": "https://www.ikea.com.tw/zh/products/duvets-pillows-and-protectors/pillows/klubbsporre-art-80446097",
+      "currentBuyLabel": "IKEA 台灣（804.460.97）",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "TWD",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-09-01",
+        "note": "已逐一查核 804.460.97 的確切版本官方現價、品牌／通路頁與價格歷史查詢；沒有找到可回溯且排除會員、套裝、福利品與跨版本的可靠史低，因此不以現價或劃線價推定。"
+      },
+      "checkedSources": [
+        "https://www.ikea.com.tw/zh/products/duvets-pillows-and-protectors/pillows/klubbsporre-art-80446097",
+        "https://tw.search.yahoo.com/search?p=%22804.460.97%22%20%22IKEA%20KLUBBSPORRE%20%E6%B6%BC%E6%84%9F%E8%A8%98%E6%86%B6%E6%9E%95%2041x70x13%20804.460.97%22%20%E6%9C%80%E4%BD%8E%E5%83%B9%20%E5%83%B9%E6%A0%BC"
+      ],
+      "rejectedCandidates": [
+        "未採用 804.460.97 現價或未附可回溯日期的劃線價；無法證明為同一 SKU 的可信新品史低。"
+      ],
+      "reviewNote": "以 804.460.97 完整型號逐筆核對官方現價與價格歷史查詢，未找到排除會員、套裝、福利品、二手及跨版本後仍可重現的可靠史低。",
+      "checkedAt": "2026-09-01"
+    },
+    {
+      "id": "pillow-ikea-hargangel",
+      "category": "pillow",
+      "brand": "IKEA",
+      "model": "404.947.83",
+      "name": "IKEA HÅRGÄNGEL 涼感記憶枕 41x71x13 404.947.83",
+      "currentPrice": 1799,
+      "currentCurrency": "TWD",
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價",
+      "currentBuyUrl": "https://www.ikea.com.tw/zh/products/duvets-pillows-and-protectors/pillows/hargangel-art-40494783",
+      "currentBuyLabel": "IKEA 台灣（404.947.83）",
+      "historicalLow": {
+        "status": "found",
+        "amount": 1799,
+        "currency": "TWD",
+        "converted": 1799,
+        "sourceUrl": "https://www.ikea.com.tw/zh/products/duvets-pillows-and-protectors/pillows/hargangel-art-40494783",
+        "sourceTitle": "IKEA 台灣 HÅRGÄNGEL 404.947.83 人體工學枕",
+        "evidenceSnippet": "確切商品頁與官方目錄顯示『再創低價』，現價 NT$1,799、之前價格 NT$1,999。",
+        "sourceKind": "official_sale",
+        "confidence": "high",
+        "checkedAt": "2026-09-01",
+        "note": "採用 IKEA 台灣確切 SKU 404.947.83 的官方再創低價標示；僅代表本次可驗證的官方降價，不延伸為無限期全網最低。"
+      },
+      "checkedSources": [
+        "https://www.ikea.com.tw/zh/products/duvets-pillows-and-protectors/pillows/hargangel-art-40494783",
+        "https://tw.search.yahoo.com/search?p=%22404.947.83%22%20%22IKEA%20H%C3%85RG%C3%84NGEL%20%E6%B6%BC%E6%84%9F%E8%A8%98%E6%86%B6%E6%9E%95%2041x71x13%20404.947.83%22%20%E6%9C%80%E4%BD%8E%E5%83%B9%20%E5%83%B9%E6%A0%BC"
+      ],
+      "rejectedCandidates": [],
+      "reviewNote": "IKEA 台灣確切 SKU 404.947.83 官方頁明示「再創低價」及前價，採為可公開重現的官方降價證據。",
+      "checkedAt": "2026-09-01"
+    },
+    {
+      "id": "pillow-ikea-kvarnven-side-back",
+      "category": "pillow",
+      "brand": "IKEA",
+      "model": "105.073.48",
+      "name": "IKEA KVARNVEN 側仰睡人體工學枕 39x69x13 105.073.48",
+      "currentPrice": 1899,
+      "currentCurrency": "TWD",
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價",
+      "currentBuyUrl": "https://www.ikea.com.tw/zh/products/duvets-pillows-and-protectors/pillows/kvarnven-art-10507348",
+      "currentBuyLabel": "IKEA 台灣（側仰睡 105.073.48）",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "TWD",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-09-01",
+        "note": "已逐一查核 105.073.48 的確切版本官方現價、品牌／通路頁與價格歷史查詢；沒有找到可回溯且排除會員、套裝、福利品與跨版本的可靠史低，因此不以現價或劃線價推定。"
+      },
+      "checkedSources": [
+        "https://www.ikea.com.tw/zh/products/duvets-pillows-and-protectors/pillows/kvarnven-art-10507348",
+        "https://tw.search.yahoo.com/search?p=%22105.073.48%22%20%22IKEA%20KVARNVEN%20%E5%81%B4%E4%BB%B0%E7%9D%A1%E4%BA%BA%E9%AB%94%E5%B7%A5%E5%AD%B8%E6%9E%95%2039x69x13%20105.073.48%22%20%E6%9C%80%E4%BD%8E%E5%83%B9%20%E5%83%B9%E6%A0%BC"
+      ],
+      "rejectedCandidates": [
+        "未採用 105.073.48 現價或未附可回溯日期的劃線價；無法證明為同一 SKU 的可信新品史低。"
+      ],
+      "reviewNote": "以 105.073.48 完整型號逐筆核對官方現價與價格歷史查詢，未找到排除會員、套裝、福利品、二手及跨版本後仍可重現的可靠史低。",
+      "checkedAt": "2026-09-01"
+    },
+    {
+      "id": "pillow-ikea-kvarnven-stomach",
+      "category": "pillow",
+      "brand": "IKEA",
+      "model": "805.132.18",
+      "name": "IKEA KVARNVEN 趴睡人體工學枕 39x69x10 805.132.18",
+      "currentPrice": 1699,
+      "currentCurrency": "TWD",
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價",
+      "currentBuyUrl": "https://www.ikea.com.tw/zh/products/duvets-pillows-and-protectors/pillows/kvarnven-art-80513218",
+      "currentBuyLabel": "IKEA 台灣（趴睡 805.132.18）",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "TWD",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-09-01",
+        "note": "已逐一查核 805.132.18 的確切版本官方現價、品牌／通路頁與價格歷史查詢；沒有找到可回溯且排除會員、套裝、福利品與跨版本的可靠史低，因此不以現價或劃線價推定。"
+      },
+      "checkedSources": [
+        "https://www.ikea.com.tw/zh/products/duvets-pillows-and-protectors/pillows/kvarnven-art-80513218",
+        "https://tw.search.yahoo.com/search?p=%22805.132.18%22%20%22IKEA%20KVARNVEN%20%E8%B6%B4%E7%9D%A1%E4%BA%BA%E9%AB%94%E5%B7%A5%E5%AD%B8%E6%9E%95%2039x69x10%20805.132.18%22%20%E6%9C%80%E4%BD%8E%E5%83%B9%20%E5%83%B9%E6%A0%BC"
+      ],
+      "rejectedCandidates": [
+        "未採用 805.132.18 現價或未附可回溯日期的劃線價；無法證明為同一 SKU 的可信新品史低。"
+      ],
+      "reviewNote": "以 805.132.18 完整型號逐筆核對官方現價與價格歷史查詢，未找到排除會員、套裝、福利品、二手及跨版本後仍可重現的可靠史低。",
+      "checkedAt": "2026-09-01"
+    },
+    {
+      "id": "pillow-ikea-bjorkpyrola",
+      "category": "pillow",
+      "brand": "IKEA",
+      "model": "404.701.07",
+      "name": "IKEA BJÖRKPYROLA 涼感記憶枕 33x50 404.701.07",
+      "currentPrice": 649,
+      "currentCurrency": "TWD",
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價",
+      "currentBuyUrl": "https://www.ikea.com.tw/zh/products/duvets-pillows-and-protectors/pillows/bjorkpyrola-art-40470107",
+      "currentBuyLabel": "IKEA 台灣（404.701.07）",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "TWD",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-09-01",
+        "note": "已逐一查核 404.701.07 的確切版本官方現價、品牌／通路頁與價格歷史查詢；沒有找到可回溯且排除會員、套裝、福利品與跨版本的可靠史低，因此不以現價或劃線價推定。"
+      },
+      "checkedSources": [
+        "https://www.ikea.com.tw/zh/products/duvets-pillows-and-protectors/pillows/bjorkpyrola-art-40470107",
+        "https://tw.search.yahoo.com/search?p=%22404.701.07%22%20%22IKEA%20BJ%C3%96RKPYROLA%20%E6%B6%BC%E6%84%9F%E8%A8%98%E6%86%B6%E6%9E%95%2033x50%20404.701.07%22%20%E6%9C%80%E4%BD%8E%E5%83%B9%20%E5%83%B9%E6%A0%BC"
+      ],
+      "rejectedCandidates": [
+        "未採用 404.701.07 現價或未附可回溯日期的劃線價；無法證明為同一 SKU 的可信新品史低。"
+      ],
+      "reviewNote": "以 404.701.07 完整型號逐筆核對官方現價與價格歷史查詢，未找到排除會員、套裝、福利品、二手及跨版本後仍可重現的可靠史低。",
+      "checkedAt": "2026-09-01"
+    },
+    {
+      "id": "pillow-ikea-isranunkel",
+      "category": "pillow",
+      "brand": "IKEA",
+      "model": "905.767.38",
+      "name": "IKEA ISRANUNKEL 蝴蝶型記憶枕 41x71x12 905.767.38",
+      "currentPrice": 1299,
+      "currentCurrency": "TWD",
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價",
+      "currentBuyUrl": "https://www.ikea.com.tw/zh/products/duvets-pillows-and-protectors/pillows/isranunkel-art-90576738",
+      "currentBuyLabel": "IKEA 台灣（905.767.38）",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "TWD",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-09-01",
+        "note": "已逐一查核 905.767.38 的確切版本官方現價、品牌／通路頁與價格歷史查詢；沒有找到可回溯且排除會員、套裝、福利品與跨版本的可靠史低，因此不以現價或劃線價推定。"
+      },
+      "checkedSources": [
+        "https://www.ikea.com.tw/zh/products/duvets-pillows-and-protectors/pillows/isranunkel-art-90576738",
+        "https://tw.search.yahoo.com/search?p=%22905.767.38%22%20%22IKEA%20ISRANUNKEL%20%E8%9D%B4%E8%9D%B6%E5%9E%8B%E8%A8%98%E6%86%B6%E6%9E%95%2041x71x12%20905.767.38%22%20%E6%9C%80%E4%BD%8E%E5%83%B9%20%E5%83%B9%E6%A0%BC"
+      ],
+      "rejectedCandidates": [
+        "未採用 905.767.38 現價或未附可回溯日期的劃線價；無法證明為同一 SKU 的可信新品史低。"
+      ],
+      "reviewNote": "以 905.767.38 完整型號逐筆核對官方現價與價格歷史查詢，未找到排除會員、套裝、福利品、二手及跨版本後仍可重現的可靠史低。",
+      "checkedAt": "2026-09-01"
+    },
+    {
+      "id": "pillow-ikea-pilspinnare-high",
+      "category": "pillow",
+      "brand": "IKEA",
+      "model": "505.871.16",
+      "name": "IKEA PILSPINNARE 羽絨羽毛高枕 50x80 505.871.16",
+      "currentPrice": 649,
+      "currentCurrency": "TWD",
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價",
+      "currentBuyUrl": "https://www.ikea.com.tw/zh/products/duvets-pillows-and-protectors/pillows/pilspinnare-art-50587116",
+      "currentBuyLabel": "IKEA 台灣（高枕 505.871.16）",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "TWD",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-09-01",
+        "note": "已逐一查核 505.871.16 的確切版本官方現價、品牌／通路頁與價格歷史查詢；沒有找到可回溯且排除會員、套裝、福利品與跨版本的可靠史低，因此不以現價或劃線價推定。"
+      },
+      "checkedSources": [
+        "https://www.ikea.com.tw/zh/products/duvets-pillows-and-protectors/pillows/pilspinnare-art-50587116",
+        "https://tw.search.yahoo.com/search?p=%22505.871.16%22%20%22IKEA%20PILSPINNARE%20%E7%BE%BD%E7%B5%A8%E7%BE%BD%E6%AF%9B%E9%AB%98%E6%9E%95%2050x80%20505.871.16%22%20%E6%9C%80%E4%BD%8E%E5%83%B9%20%E5%83%B9%E6%A0%BC"
+      ],
+      "rejectedCandidates": [
+        "未採用 505.871.16 現價或未附可回溯日期的劃線價；無法證明為同一 SKU 的可信新品史低。"
+      ],
+      "reviewNote": "以 505.871.16 完整型號逐筆核對官方現價與價格歷史查詢，未找到排除會員、套裝、福利品、二手及跨版本後仍可重現的可靠史低。",
+      "checkedAt": "2026-09-01"
+    },
+    {
+      "id": "pillow-3m-anti-005",
+      "category": "pillow",
+      "brand": "3M",
+      "model": "ANTI 005",
+      "name": "3M 長效抗菌防蟎水洗枕 加高支撐型 ANTI 005",
+      "currentPrice": 1599,
+      "currentCurrency": "TWD",
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價",
+      "currentBuyUrl": "https://shop.3m.com.tw/SalePage/Index/7759499",
+      "currentBuyLabel": "3M 台灣官方商城（ANTI 005）",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "TWD",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-09-01",
+        "note": "已逐一查核 ANTI 005 的確切版本官方現價、品牌／通路頁與價格歷史查詢；沒有找到可回溯且排除會員、套裝、福利品與跨版本的可靠史低，因此不以現價或劃線價推定。"
+      },
+      "checkedSources": [
+        "https://shop.3m.com.tw/SalePage/Index/7759499",
+        "https://tw.search.yahoo.com/search?p=%22ANTI%20005%22%20%223M%20%E9%95%B7%E6%95%88%E6%8A%97%E8%8F%8C%E9%98%B2%E8%9F%8E%E6%B0%B4%E6%B4%97%E6%9E%95%20%E5%8A%A0%E9%AB%98%E6%94%AF%E6%92%90%E5%9E%8B%20ANTI%20005%22%20%E6%9C%80%E4%BD%8E%E5%83%B9%20%E5%83%B9%E6%A0%BC"
+      ],
+      "rejectedCandidates": [
+        "未採用 ANTI 005 現價或未附可回溯日期的劃線價；無法證明為同一 SKU 的可信新品史低。"
+      ],
+      "reviewNote": "以 ANTI 005 完整型號逐筆核對官方現價與價格歷史查詢，未找到排除會員、套裝、福利品、二手及跨版本後仍可重現的可靠史低。",
+      "checkedAt": "2026-09-01"
+    },
+    {
+      "id": "pillow-3m-anti-004",
+      "category": "pillow",
+      "brand": "3M",
+      "model": "ANTI 004",
+      "name": "3M 長效抗菌防蟎水洗枕 加高型 ANTI 004",
+      "currentPrice": 1299,
+      "currentCurrency": "TWD",
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價",
+      "currentBuyUrl": "https://shop.3m.com.tw/SalePage/Index/7759465",
+      "currentBuyLabel": "3M 台灣官方商城（ANTI 004）",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "TWD",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-09-01",
+        "note": "已逐一查核 ANTI 004 的確切版本官方現價、品牌／通路頁與價格歷史查詢；沒有找到可回溯且排除會員、套裝、福利品與跨版本的可靠史低，因此不以現價或劃線價推定。"
+      },
+      "checkedSources": [
+        "https://shop.3m.com.tw/SalePage/Index/7759465",
+        "https://tw.search.yahoo.com/search?p=%22ANTI%20004%22%20%223M%20%E9%95%B7%E6%95%88%E6%8A%97%E8%8F%8C%E9%98%B2%E8%9F%8E%E6%B0%B4%E6%B4%97%E6%9E%95%20%E5%8A%A0%E9%AB%98%E5%9E%8B%20ANTI%20004%22%20%E6%9C%80%E4%BD%8E%E5%83%B9%20%E5%83%B9%E6%A0%BC"
+      ],
+      "rejectedCandidates": [
+        "未採用 ANTI 004 現價或未附可回溯日期的劃線價；無法證明為同一 SKU 的可信新品史低。"
+      ],
+      "reviewNote": "以 ANTI 004 完整型號逐筆核對官方現價與價格歷史查詢，未找到排除會員、套裝、福利品、二手及跨版本後仍可重現的可靠史低。",
+      "checkedAt": "2026-09-01"
+    },
+    {
+      "id": "pillow-hola-malaysia-latex-side",
+      "category": "pillow",
+      "brand": "HOLA",
+      "model": "016582346",
+      "name": "HOLA 馬來西亞乳膠枕 正側睡型 H8.5/12.5 016582346",
+      "currentPrice": 1608,
+      "currentCurrency": "TWD",
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價",
+      "currentBuyUrl": "https://www.hola.com.tw/p/016582346",
+      "currentBuyLabel": "HOLA 和樂家居（016582346）",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "TWD",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-09-01",
+        "note": "已逐一查核 016582346 的確切版本官方現價、品牌／通路頁與價格歷史查詢；沒有找到可回溯且排除會員、套裝、福利品與跨版本的可靠史低，因此不以現價或劃線價推定。"
+      },
+      "checkedSources": [
+        "https://www.hola.com.tw/p/016582346",
+        "https://tw.search.yahoo.com/search?p=%22016582346%22%20%22HOLA%20%E9%A6%AC%E4%BE%86%E8%A5%BF%E4%BA%9E%E4%B9%B3%E8%86%A0%E6%9E%95%20%E6%AD%A3%E5%81%B4%E7%9D%A1%E5%9E%8B%20H8.5%2F12.5%20016582346%22%20%E6%9C%80%E4%BD%8E%E5%83%B9%20%E5%83%B9%E6%A0%BC"
+      ],
+      "rejectedCandidates": [
+        "未採用 016582346 現價或未附可回溯日期的劃線價；無法證明為同一 SKU 的可信新品史低。"
+      ],
+      "reviewNote": "以 016582346 完整型號逐筆核對官方現價與價格歷史查詢，未找到排除會員、套裝、福利品、二手及跨版本後仍可重現的可靠史低。",
+      "checkedAt": "2026-09-01"
+    },
+    {
+      "id": "pillow-dunlopillo-classic-standard",
+      "category": "pillow",
+      "brand": "Dunlopillo",
+      "model": "69e85a35bb09d03c8df9915c",
+      "name": "Dunlopillo 護頸經典乳膠枕 基本型 69e85a35bb09d03c8df9915c",
+      "currentPrice": 2299,
+      "currentCurrency": "TWD",
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價",
+      "currentBuyUrl": "https://www.dunlopillo.com.tw/products/dunlopillo-natural-latex-pillow-classic-standard",
+      "currentBuyLabel": "Dunlopillo 台灣官方（基本型）",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "TWD",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-09-01",
+        "note": "已逐一查核 69e85a35bb09d03c8df9915c 的確切版本官方現價、品牌／通路頁與價格歷史查詢；沒有找到可回溯且排除會員、套裝、福利品與跨版本的可靠史低，因此不以現價或劃線價推定。"
+      },
+      "checkedSources": [
+        "https://www.dunlopillo.com.tw/products/dunlopillo-natural-latex-pillow-classic-standard",
+        "https://tw.search.yahoo.com/search?p=%2269e85a35bb09d03c8df9915c%22%20%22Dunlopillo%20%E8%AD%B7%E9%A0%B8%E7%B6%93%E5%85%B8%E4%B9%B3%E8%86%A0%E6%9E%95%20%E5%9F%BA%E6%9C%AC%E5%9E%8B%2069e85a35bb09d03c8df9915c%22%20%E6%9C%80%E4%BD%8E%E5%83%B9%20%E5%83%B9%E6%A0%BC"
+      ],
+      "rejectedCandidates": [
+        "未採用 69e85a35bb09d03c8df9915c 現價或未附可回溯日期的劃線價；無法證明為同一 SKU 的可信新品史低。"
+      ],
+      "reviewNote": "以 69e85a35bb09d03c8df9915c 完整型號逐筆核對官方現價與價格歷史查詢，未找到排除會員、套裝、福利品、二手及跨版本後仍可重現的可靠史低。",
+      "checkedAt": "2026-09-01"
+    },
+    {
+      "id": "pillow-ikea-senapsmott-high",
+      "category": "pillow",
+      "brand": "IKEA",
+      "model": "705.803.26",
+      "name": "IKEA SENAPSMOTT 涼感纖維高枕 50x80 705.803.26",
+      "currentPrice": 799,
+      "currentCurrency": "TWD",
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價",
+      "currentBuyUrl": "https://www.ikea.com.tw/zh/products/duvets-pillows-and-protectors/pillows/senapsmott-art-70580326",
+      "currentBuyLabel": "IKEA 台灣（705.803.26）",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "TWD",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-09-01",
+        "note": "已逐一查核 705.803.26 的確切版本官方現價、品牌／通路頁與價格歷史查詢；沒有找到可回溯且排除會員、套裝、福利品與跨版本的可靠史低，因此不以現價或劃線價推定。"
+      },
+      "checkedSources": [
+        "https://www.ikea.com.tw/zh/products/duvets-pillows-and-protectors/pillows/senapsmott-art-70580326",
+        "https://tw.search.yahoo.com/search?p=%22705.803.26%22%20%22IKEA%20SENAPSMOTT%20%E6%B6%BC%E6%84%9F%E7%BA%96%E7%B6%AD%E9%AB%98%E6%9E%95%2050x80%20705.803.26%22%20%E6%9C%80%E4%BD%8E%E5%83%B9%20%E5%83%B9%E6%A0%BC"
+      ],
+      "rejectedCandidates": [
+        "未採用 705.803.26 現價或未附可回溯日期的劃線價；無法證明為同一 SKU 的可信新品史低。"
+      ],
+      "reviewNote": "以 705.803.26 完整型號逐筆核對官方現價與價格歷史查詢，未找到排除會員、套裝、福利品、二手及跨版本後仍可重現的可靠史低。",
+      "checkedAt": "2026-09-01"
+    },
+    {
+      "id": "pillow-ikea-gaffelklocka",
+      "category": "pillow",
+      "brand": "IKEA",
+      "model": "406.286.26",
+      "name": "IKEA GAFFELKLOCKA 高支撐纖維枕 50x80 406.286.26",
+      "currentPrice": 899,
+      "currentCurrency": "TWD",
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價",
+      "currentBuyUrl": "https://www.ikea.com.tw/zh/products/duvets-pillows-and-protectors/pillows/gaffelklocka-art-40628626",
+      "currentBuyLabel": "IKEA 台灣（406.286.26）",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "TWD",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-09-01",
+        "note": "已逐一查核 406.286.26 的確切版本官方現價、品牌／通路頁與價格歷史查詢；沒有找到可回溯且排除會員、套裝、福利品與跨版本的可靠史低，因此不以現價或劃線價推定。"
+      },
+      "checkedSources": [
+        "https://www.ikea.com.tw/zh/products/duvets-pillows-and-protectors/pillows/gaffelklocka-art-40628626",
+        "https://tw.search.yahoo.com/search?p=%22406.286.26%22%20%22IKEA%20GAFFELKLOCKA%20%E9%AB%98%E6%94%AF%E6%92%90%E7%BA%96%E7%B6%AD%E6%9E%95%2050x80%20406.286.26%22%20%E6%9C%80%E4%BD%8E%E5%83%B9%20%E5%83%B9%E6%A0%BC"
+      ],
+      "rejectedCandidates": [
+        "未採用 406.286.26 現價或未附可回溯日期的劃線價；無法證明為同一 SKU 的可信新品史低。"
+      ],
+      "reviewNote": "以 406.286.26 完整型號逐筆核對官方現價與價格歷史查詢，未找到排除會員、套裝、福利品、二手及跨版本後仍可重現的可靠史低。",
+      "checkedAt": "2026-09-01"
+    },
+    {
+      "id": "pillow-3m-anti-003",
+      "category": "pillow",
+      "brand": "3M",
+      "model": "ANTI 003",
+      "name": "3M 長效抗菌防蟎水洗枕 標準型 ANTI 003",
+      "currentPrice": 1199,
+      "currentCurrency": "TWD",
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價",
+      "currentBuyUrl": "https://shop.3m.com.tw/SalePage/Index/7759430",
+      "currentBuyLabel": "3M 台灣官方商城（ANTI 003）",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "TWD",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-09-01",
+        "note": "已逐一查核 ANTI 003 的確切版本官方現價、品牌／通路頁與價格歷史查詢；沒有找到可回溯且排除會員、套裝、福利品與跨版本的可靠史低，因此不以現價或劃線價推定。"
+      },
+      "checkedSources": [
+        "https://shop.3m.com.tw/SalePage/Index/7759430",
+        "https://tw.search.yahoo.com/search?p=%22ANTI%20003%22%20%223M%20%E9%95%B7%E6%95%88%E6%8A%97%E8%8F%8C%E9%98%B2%E8%9F%8E%E6%B0%B4%E6%B4%97%E6%9E%95%20%E6%A8%99%E6%BA%96%E5%9E%8B%20ANTI%20003%22%20%E6%9C%80%E4%BD%8E%E5%83%B9%20%E5%83%B9%E6%A0%BC"
+      ],
+      "rejectedCandidates": [
+        "未採用 ANTI 003 現價或未附可回溯日期的劃線價；無法證明為同一 SKU 的可信新品史低。"
+      ],
+      "reviewNote": "以 ANTI 003 完整型號逐筆核對官方現價與價格歷史查詢，未找到排除會員、套裝、福利品、二手及跨版本後仍可重現的可靠史低。",
+      "checkedAt": "2026-09-01"
+    },
+    {
+      "id": "pillow-nitori-n-hotel3-std",
+      "category": "pillow",
+      "brand": "NITORI",
+      "model": "7550721",
+      "name": "NITORI 飯店式樣枕 N HOTEL3 STD 7550721",
+      "currentPrice": 549,
+      "currentCurrency": "TWD",
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價",
+      "currentBuyUrl": "https://www.nitori-net.tw/product/7550721s",
+      "currentBuyLabel": "NITORI 宜得利台灣（7550721）",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "TWD",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-09-01",
+        "note": "已逐一查核 7550721 的確切版本官方現價、品牌／通路頁與價格歷史查詢；沒有找到可回溯且排除會員、套裝、福利品與跨版本的可靠史低，因此不以現價或劃線價推定。"
+      },
+      "checkedSources": [
+        "https://www.nitori-net.tw/product/7550721s",
+        "https://tw.search.yahoo.com/search?p=%227550721%22%20%22NITORI%20%E9%A3%AF%E5%BA%97%E5%BC%8F%E6%A8%A3%E6%9E%95%20N%20HOTEL3%20STD%207550721%22%20%E6%9C%80%E4%BD%8E%E5%83%B9%20%E5%83%B9%E6%A0%BC"
+      ],
+      "rejectedCandidates": [
+        "未採用 7550721 現價或未附可回溯日期的劃線價；無法證明為同一 SKU 的可信新品史低。"
+      ],
+      "reviewNote": "以 7550721 完整型號逐筆核對官方現價與價格歷史查詢，未找到排除會員、套裝、福利品、二手及跨版本後仍可重現的可靠史低。",
+      "checkedAt": "2026-09-01"
+    },
+    {
+      "id": "pillow-ikea-bruksvara-high",
+      "category": "pillow",
+      "brand": "IKEA",
+      "model": "205.603.64",
+      "name": "IKEA BRUKSVARA 聚酯纖維高枕 50x80 205.603.64",
+      "currentPrice": 399,
+      "currentCurrency": "TWD",
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價",
+      "currentBuyUrl": "https://www.ikea.com.tw/zh/products/duvets-pillows-and-protectors/pillows/bruksvara-art-20560364",
+      "currentBuyLabel": "IKEA 台灣（205.603.64）",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "TWD",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-09-01",
+        "note": "已逐一查核 205.603.64 的確切版本官方現價、品牌／通路頁與價格歷史查詢；沒有找到可回溯且排除會員、套裝、福利品與跨版本的可靠史低，因此不以現價或劃線價推定。"
+      },
+      "checkedSources": [
+        "https://www.ikea.com.tw/zh/products/duvets-pillows-and-protectors/pillows/bruksvara-art-20560364",
+        "https://tw.search.yahoo.com/search?p=%22205.603.64%22%20%22IKEA%20BRUKSVARA%20%E8%81%9A%E9%85%AF%E7%BA%96%E7%B6%AD%E9%AB%98%E6%9E%95%2050x80%20205.603.64%22%20%E6%9C%80%E4%BD%8E%E5%83%B9%20%E5%83%B9%E6%A0%BC"
+      ],
+      "rejectedCandidates": [
+        "未採用 205.603.64 現價或未附可回溯日期的劃線價；無法證明為同一 SKU 的可信新品史低。"
+      ],
+      "reviewNote": "以 205.603.64 完整型號逐筆核對官方現價與價格歷史查詢，未找到排除會員、套裝、福利品、二手及跨版本後仍可重現的可靠史低。",
+      "checkedAt": "2026-09-01"
+    },
+    {
+      "id": "pillow-ikea-pilspinnare-low",
+      "category": "pillow",
+      "brand": "IKEA",
+      "model": "905.871.38",
+      "name": "IKEA PILSPINNARE 羽絨羽毛低枕 50x80 905.871.38",
+      "currentPrice": 549,
+      "currentCurrency": "TWD",
+      "priceBasis": "retailer_current",
+      "priceLabel": "通路現價",
+      "currentBuyUrl": "https://www.ikea.com.tw/zh/products/duvets-pillows-and-protectors/pillows/pilspinnare-art-90587138",
+      "currentBuyLabel": "IKEA 台灣（低枕 905.871.38）",
+      "historicalLow": {
+        "status": "not_found",
+        "amount": null,
+        "currency": "TWD",
+        "converted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "evidenceSnippet": "",
+        "sourceKind": "not_found",
+        "confidence": "not_found",
+        "checkedAt": "2026-09-01",
+        "note": "已逐一查核 905.871.38 的確切版本官方現價、品牌／通路頁與價格歷史查詢；沒有找到可回溯且排除會員、套裝、福利品與跨版本的可靠史低，因此不以現價或劃線價推定。"
+      },
+      "checkedSources": [
+        "https://www.ikea.com.tw/zh/products/duvets-pillows-and-protectors/pillows/pilspinnare-art-90587138",
+        "https://tw.search.yahoo.com/search?p=%22905.871.38%22%20%22IKEA%20PILSPINNARE%20%E7%BE%BD%E7%B5%A8%E7%BE%BD%E6%AF%9B%E4%BD%8E%E6%9E%95%2050x80%20905.871.38%22%20%E6%9C%80%E4%BD%8E%E5%83%B9%20%E5%83%B9%E6%A0%BC"
+      ],
+      "rejectedCandidates": [
+        "未採用 905.871.38 現價或未附可回溯日期的劃線價；無法證明為同一 SKU 的可信新品史低。"
+      ],
+      "reviewNote": "以 905.871.38 完整型號逐筆核對官方現價與價格歷史查詢，未找到排除會員、套裝、福利品、二手及跨版本後仍可重現的可靠史低。",
+      "checkedAt": "2026-09-01"
     }
   ]
 }
