@@ -119,9 +119,9 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/2E9A754FA4-SP-22052141.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 19104,
-      "converted": 19104,
-      "confidence": "Yahoo購物中心 2026-08-31 exact-model 公開結構化價格",
+      "amount": 19900,
+      "converted": 19900,
+      "confidence": "Yahoo購物中心 2026-09-01 exact-model 公開結構化價格",
       "basis": "retailer_current",
       "note": "2026-08-31 Chrome核對Yahoo同SKU公開滿1件享96折折後價；促銷至2026-09-01 08:29（台灣時間），未扣點數或信用卡回饋，結帳前再確認。"
     },
@@ -225,9 +225,9 @@
     "image": "https://img.yec.tw/zp/MerchandiseImages/7A7EBA14D6-SP-22052251.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 20064,
-      "converted": 20064,
-      "confidence": "Yahoo購物中心 2026-08-31 exact-model 公開結構化價格",
+      "amount": 20900,
+      "converted": 20900,
+      "confidence": "Yahoo購物中心 2026-09-01 exact-model 公開結構化價格",
       "basis": "retailer_current",
       "note": "2026-08-31 Chrome核對Yahoo同SKU公開滿1件享96折折後價；促銷至2026-09-01 08:29（台灣時間），未扣點數或信用卡回饋，結帳前再確認。"
     },
@@ -2502,9 +2502,9 @@
     "name": "17kg 變頻溫水直立式洗衣機",
     "price": {
       "currency": "TWD",
-      "amount": 19770,
-      "converted": 19770,
-      "confidence": "PChome 24h 2026-08-14 exact-model 新品頁公開售價，標示 InStock",
+      "amount": 22490,
+      "converted": 22490,
+      "confidence": "PChome 2026-09-01 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
       "basis": "retailer_current"
     },
     "image": "https://img.pchome.com.tw/cs/items/DMBM1PA900IE3KH/000001_1775150195.jpg",

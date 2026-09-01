@@ -6,7 +6,7 @@
     "noCommonIssueProducts": 1075,
     "pendingManualReview": 0,
     "commonIssues": 51,
-    "searchUnavailable": 614,
+    "searchUnavailable": 616,
     "threshold": {
       "minimumDistinctUsers": 6,
       "minimumPlatforms": 2,
@@ -17,9 +17,10 @@
     "searchLimitations": [
       "2026-08-31 增量批次定向覆核7款既有商品（Flexus Core 100/200/300、U7 Pro、U7 Pro Max、AP22、AW3225QF），另研究Mobius 60候選但因台灣電力證據不足未正式納入。其餘逐型人工負評查核沿用既有日期；AP22及AW3225QF原逐人證據保留，該批次只補修正背景，不表示當時943款皆重新閱讀原始評價。",
       "Dyson V8 Cyclone SV55 於 2026-09-01 另完成 exact-model 人工覆核：Reddit、Mobile01 查詢未發現可確認的原頁候選；Yahoo購物中心 exact-model 原頁僅 1 位作者留下到貨機體刮傷文字，未達同一問題 6 人／2 個原始網站門檻。",
-      "Sony Y-65XR80M2 於 2026-09-01 完成 Reddit、Mobile01、PTT exact-model 人工覆核：Mobile01 為評測／價格與上市討論，PTT 為業代現售清單，兩頁皆無第一人稱同型號故障回報；未達同一問題 6 人／2 個原始網站門檻。"
+      "Sony Y-65XR80M2 於 2026-09-01 完成 Reddit、Mobile01、PTT exact-model 人工覆核：Mobile01 為評測／價格與上市討論，PTT 為業代現售清單，兩頁皆無第一人稱同型號故障回報；未達同一問題 6 人／2 個原始網站門檻。",
+      "2026-09-01 對 1125 款執行 Yahoo exact-model 新候選發現；本輪 1010 款搜尋回應不可用，未以失敗結果自動改判。唯一新增候選為 Dyson V12s Detect Slim Submarine 的 PTT 頁，連同既有 Mobile01 候選逐頁人工覆核後仍未達同一問題 6 人／2 個原始網站門檻；其餘既有人工決策與真實覆核日期原樣保留，不宣稱全部原頁同日重讀。"
     ],
-    "researchedThisRun": 90
+    "researchedThisRun": 1
   },
   "results": [
     {
@@ -35947,7 +35948,7 @@
       "manualReview": {
         "status": "completed",
         "decision": "no_common_issue",
-        "reviewedAt": "2026-08-29",
+        "reviewedAt": "2026-09-01",
         "checkedPlatforms": [
           "Reddit",
           "Mobile01",
@@ -35987,8 +35988,13 @@
             "targetHost": "youtube.com"
           }
         ],
-        "candidateDisposition": "V12s Detect Slim Submarine：Yahoo Search 本輪 exact-model discovery 已完成；候選原頁已逐頁人工覆核，未形成同一問題至少 6 人且跨 2 個原始網站的門檻（不代表完全沒有負評）。",
+        "candidateDisposition": "V12s Detect Slim Submarine：本輪 Yahoo Search 找到 PTT 與 Mobile01 兩個同型號候選，已逐頁人工覆核；未形成同一問題至少 6 人且跨 2 個原始網站的門檻（不代表完全沒有負評）。",
         "representativeSources": [
+          {
+            "platform": "PTT",
+            "title": "[問題] DYSON V12S和LG A9K濕拖無線吸塵 - 看板 E-appliance - 批踢踢實業坊",
+            "url": "https://www.ptt.cc/bbs/E-appliance/M.1686047750.A.3FF.html"
+          },
           {
             "platform": "Mobile01",
             "title": "日本沖繩買Dyson V12s 濕拖吸塵器分享 - Mobile01",
@@ -35996,6 +36002,18 @@
           }
         ],
         "candidateReviews": [
+          {
+            "url": "https://www.ptt.cc/bbs/E-appliance/M.1686047750.A.3FF.html",
+            "title": "[問題] DYSON V12S和LG A9K濕拖無線吸塵 - 看板 E-appliance - 批踢踢實業坊",
+            "platform": "PTT",
+            "sourceExcerpt": "原 PO 是購前比較；留言只有零星現場試用負面感受與一位正面持有者，沒有六位使用者回報同一具體故障。",
+            "independentAuthors": 2,
+            "specificReason": "同型號頁面以購前討論與主觀試用感受為主，負面留言沒有指出可合併計數的同一具體故障，也未達六位獨立第一人稱使用者。",
+            "productId": "vac-dyson-submarine",
+            "exactModel": true,
+            "reviewedAt": "2026-09-01",
+            "outcome": "excluded"
+          },
           {
             "url": "https://www.mobile01.com/topicdetail.php?f=728&t=6897854",
             "title": "日本沖繩買Dyson V12s 濕拖吸塵器分享 - Mobile01",
@@ -36009,12 +36027,12 @@
             "outcome": "excluded"
           }
         ],
-        "reviewerNote": "V12s Detect Slim Submarine：Yahoo Search 本輪 exact-model discovery 已完成；候選原頁已逐頁人工覆核，未形成同一問題至少 6 人且跨 2 個原始網站的門檻（不代表完全沒有負評）。",
+        "reviewerNote": "V12s Detect Slim Submarine：PTT 為購前比較與零星試用感受，Mobile01 為 SV49 購買分享；兩頁均未出現同一具體故障的 6 位同型號第一人稱回報，故維持 no_common_issue。",
         "attestation": "manual_original_pages_reviewed"
       },
       "issueResearch": {
         "status": "no_common_issue",
-        "checkedAt": "2026-08-29",
+        "checkedAt": "2026-09-01",
         "summary": "截至查核日，查無達門檻的集中負評／災情",
         "issues": [],
         "checkedSources": [
@@ -36056,21 +36074,39 @@
           "query": "(\"Dyson V12s Detect Slim Submarine\" OR \"Dyson V12s\") (problem OR issue OR defect OR failure OR 災情 OR 故障 OR 負評) (site:mobile01.com OR site:dcard.tw OR site:ptt.cc OR site:reddit.com OR site:snbforums.com OR site:52asus.com)",
           "searchUrl": "https://search.yahoo.com/search?p=(%22Dyson%20V12s%20Detect%20Slim%20Submarine%22%20OR%20%22Dyson%20V12s%22)%20(problem%20OR%20issue%20OR%20defect%20OR%20failure%20OR%20%E7%81%BD%E6%83%85%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)%20(site%3Amobile01.com%20OR%20site%3Adcard.tw%20OR%20site%3Aptt.cc%20OR%20site%3Areddit.com%20OR%20site%3Asnbforums.com%20OR%20site%3A52asus.com)",
           "result": "candidates_unverified_by_search_only",
-          "resultCount": 1,
+          "resultCount": 2,
           "candidateUrls": [
+            "https://www.ptt.cc/bbs/E-appliance/M.1686047750.A.3FF.html",
             "https://www.mobile01.com/topicdetail.php?f=728&t=6897854"
           ],
           "candidates": [
+            {
+              "url": "https://www.ptt.cc/bbs/E-appliance/M.1686047750.A.3FF.html",
+              "title": "[問題] DYSON V12S和LG A9K濕拖無線吸塵 - 看板 E-appliance - 批踢踢實業坊"
+            },
             {
               "url": "https://www.mobile01.com/topicdetail.php?f=728&t=6897854",
               "title": "日本沖繩買Dyson V12s 濕拖吸塵器分享 - Mobile01"
             }
           ],
-          "inspectedAt": "2026-08-29T00:00:00+08:00"
+          "inspectedAt": "2026-09-01T00:00:00+08:00"
         }
       ],
       "evidence": [],
       "rejectedCandidates": [
+        {
+          "url": "https://www.ptt.cc/bbs/E-appliance/M.1686047750.A.3FF.html",
+          "title": "[問題] DYSON V12S和LG A9K濕拖無線吸塵 - 看板 E-appliance - 批踢踢實業坊",
+          "platform": "PTT",
+          "sourceExcerpt": "原 PO 是購前比較；留言只有零星現場試用負面感受與一位正面持有者，沒有六位使用者回報同一具體故障。",
+          "independentAuthors": 2,
+          "specificReason": "同型號頁面以購前討論與主觀試用感受為主，負面留言沒有指出可合併計數的同一具體故障，也未達六位獨立第一人稱使用者。",
+          "productId": "vac-dyson-submarine",
+          "exactModel": true,
+          "reviewedAt": "2026-09-01",
+          "outcome": "excluded",
+          "reason": "同型號頁面以購前討論與主觀試用感受為主，負面留言沒有指出可合併計數的同一具體故障，也未達六位獨立第一人稱使用者。"
+        },
         {
           "url": "https://www.mobile01.com/topicdetail.php?f=728&t=6897854",
           "title": "日本沖繩買Dyson V12s 濕拖吸塵器分享 - Mobile01",

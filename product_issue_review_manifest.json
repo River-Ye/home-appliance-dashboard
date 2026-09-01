@@ -15493,7 +15493,7 @@
       "category": "vacuum",
       "brand": "Dyson",
       "model": "V12s Detect Slim Submarine",
-      "reviewedAt": "2026-08-29",
+      "reviewedAt": "2026-09-01",
       "reviewBatch": "vacuum",
       "decision": "no_common_issue",
       "checkedPlatforms": [
@@ -15535,17 +15535,34 @@
           "targetHost": "youtube.com"
         }
       ],
-      "candidateDisposition": "V12s Detect Slim Submarine：Yahoo Search 本輪 exact-model discovery 已完成；候選原頁已逐頁人工覆核，未形成同一問題至少 6 人且跨 2 個原始網站的門檻（不代表完全沒有負評）。",
+      "candidateDisposition": "V12s Detect Slim Submarine：本輪 Yahoo Search 找到 PTT 與 Mobile01 兩個同型號候選，已逐頁人工覆核；未形成同一問題至少 6 人且跨 2 個原始網站的門檻（不代表完全沒有負評）。",
       "representativeSources": [
+        {
+          "platform": "PTT",
+          "title": "[問題] DYSON V12S和LG A9K濕拖無線吸塵 - 看板 E-appliance - 批踢踢實業坊",
+          "url": "https://www.ptt.cc/bbs/E-appliance/M.1686047750.A.3FF.html"
+        },
         {
           "platform": "Mobile01",
           "title": "日本沖繩買Dyson V12s 濕拖吸塵器分享 - Mobile01",
           "url": "https://www.mobile01.com/topicdetail.php?f=728&t=6897854"
         }
       ],
-      "reviewerNote": "V12s Detect Slim Submarine：Yahoo Search 本輪 exact-model discovery 已完成；候選原頁已逐頁人工覆核，未形成同一問題至少 6 人且跨 2 個原始網站的門檻（不代表完全沒有負評）。",
+      "reviewerNote": "V12s Detect Slim Submarine：PTT 為購前比較與零星試用感受，Mobile01 為 SV49 購買分享；兩頁均未出現同一具體故障的 6 位同型號第一人稱回報，故維持 no_common_issue。",
       "attestation": "manual_original_pages_reviewed",
       "candidateReviews": [
+        {
+          "url": "https://www.ptt.cc/bbs/E-appliance/M.1686047750.A.3FF.html",
+          "title": "[問題] DYSON V12S和LG A9K濕拖無線吸塵 - 看板 E-appliance - 批踢踢實業坊",
+          "platform": "PTT",
+          "sourceExcerpt": "原 PO 是購前比較；留言只有零星現場試用負面感受與一位正面持有者，沒有六位使用者回報同一具體故障。",
+          "independentAuthors": 2,
+          "specificReason": "同型號頁面以購前討論與主觀試用感受為主，負面留言沒有指出可合併計數的同一具體故障，也未達六位獨立第一人稱使用者。",
+          "productId": "vac-dyson-submarine",
+          "exactModel": true,
+          "reviewedAt": "2026-09-01",
+          "outcome": "excluded"
+        },
         {
           "url": "https://www.mobile01.com/topicdetail.php?f=728&t=6897854",
           "title": "日本沖繩買Dyson V12s 濕拖吸塵器分享 - Mobile01",

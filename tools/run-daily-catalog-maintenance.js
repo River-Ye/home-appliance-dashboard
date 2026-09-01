@@ -80,7 +80,8 @@ function loadCatalogFromDisk() {
     .map((fileName) => {
       const filePath = path.join(PRODUCT_DIR, fileName);
       const source = fs.readFileSync(filePath, "utf8");
-      return { fileName, filePath, source, ...readProductSource(source, filePath) };
+      const parsed = readProductSource(source, filePath);
+      return { fileName, filePath, source, ...parsed, originalItemsJson: JSON.stringify(parsed.items) };
     });
   const products = categories.flatMap((category) => category.items);
   return { categories, products, productById: new Map(products.map((product) => [product.id, product])) };
@@ -115,8 +116,13 @@ function productFileMarkup(categoryId, products) {
   return `(() => {\n  const dashboard = globalThis.applianceDashboard;\n  if (!dashboard || typeof dashboard.registerProducts !== "function") {\n    throw new Error("appliance dashboard registry is not ready");\n  }\n\n  dashboard.registerProducts(${JSON.stringify(categoryId)}, ${JSON.stringify(products, null, 2)});\n})();\n`;
 }
 
+function categoryProductsChanged(category) {
+  return JSON.stringify(category.items) !== category.originalItemsJson;
+}
+
 function writeChangedCategories(categories) {
   for (const category of categories) {
+    if (!categoryProductsChanged(category)) continue;
     const next = productFileMarkup(category.categoryId, category.items);
     if (next !== category.source) fs.writeFileSync(category.filePath, next);
   }
@@ -463,7 +469,8 @@ async function auditNonPchome(product, raw) {
     const availability = priceCandidates.map((candidate) => candidate.availability || "");
     const structuredUnavailable = availability.some((value) => /(?:^|\/)(?:OutOfStock|SoldOut|Discontinued|PreOrder|PreSale|BackOrder)$/i.test(value));
     const structuredAvailable = availability.some((value) => /(?:^|\/)(?:InStock|LimitedAvailability|OnlineOnly)$/i.test(value));
-    const unavailable = exact && (structuredUnavailable || (!structuredAvailable && isExplicitlyUnavailable(visiblePageText(page.text))));
+    const unavailable = exact && (structuredUnavailable || /^(?:預購|pre[\s-]?order)(?:\s|$)/iu.test(page.title)
+      || (!structuredAvailable && isExplicitlyUnavailable(visiblePageText(page.text))));
     status = excluded ? "excluded_listing" : unavailable ? "tracking_out_of_stock" : exact ? "verified_available" : "model_unverified";
   }
   const trustedPrice = status === "verified_available"
@@ -1360,6 +1367,7 @@ module.exports = {
   applyExchangeRates,
   auditNonPchome,
   buildCompactReport,
+  categoryProductsChanged,
   categoryReviewProvenance,
   currentCategoryScan,
   carriedCategoryReviewMatchesCatalog,
