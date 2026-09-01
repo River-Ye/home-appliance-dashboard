@@ -1163,8 +1163,8 @@
     "type": "2_5g",
     "price": {
       "currency": "TWD",
-      "amount": 7353,
-      "converted": 7353,
+      "amount": 6900,
+      "converted": 6900,
       "confidence": "PChome 2026-09-01 exact-model 公開價；有正值 Price.Low 時優先於 Price.P",
       "basis": "retailer_current"
     },

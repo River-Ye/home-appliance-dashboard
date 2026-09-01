@@ -7,20 +7,20 @@
     costcoDate: "2026-09-01",
     expectedCategoryCount: 37,
     expectedProductCount: 1125,
-    cacheVersion: "20260901-bedding",
-    exchangeSummary: "USD 1 = TWD 31.649",
+    cacheVersion: "20260901-062958-catalog",
+    exchangeSummary: "USD 1 = TWD 31.700",
   };
 
   const exchange = {
     source: "ExchangeRate-API",
-    date: "2026-08-31 00:02 UTC",
-    USD_TWD: 31.649299,
-    GBP_TWD: 42.87076447106599,
-    EUR_TWD: 36.70356316573794,
-    JPY_TWD: 0.19775241807359173,
-    CNY_TWD: 4.698696851031383,
-    HKD_TWD: 4.036684131717434,
-    KRW_TWD: 0.022990974312124667,
+    date: "2026-09-01 00:02 UTC",
+    USD_TWD: 31.69974,
+    GBP_TWD: 42.93269263325835,
+    EUR_TWD: 36.80021267679049,
+    JPY_TWD: 0.19838657570991045,
+    CNY_TWD: 4.705874493743214,
+    HKD_TWD: 4.04395160842797,
+    KRW_TWD: 0.023163470020205783,
   };
 
   const categories = [

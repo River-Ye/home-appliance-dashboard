@@ -15,8 +15,8 @@
     "image": "https://cs-a.ecimg.tw/items/DMBR1PA900I386D/000001_1738721735.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 22900,
-      "converted": 22900,
+      "amount": 17800,
+      "converted": 17800,
       "confidence": "PChome 2026-09-01 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "channel": "tw",
@@ -321,9 +321,9 @@
     "image": "https://cs-a.ecimg.tw/items/DCBE34A900HUR37/000001_1779329303.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 15900,
-      "converted": 15900,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 15600,
+      "converted": 15600,
+      "confidence": "PChome 2026-09-01 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "channel": "tw",
     "buyLabel": "PChome",
@@ -1746,9 +1746,9 @@
     "name": "VORTEX KW1 桌上型全自動洗碗機",
     "price": {
       "currency": "TWD",
-      "amount": 16990,
-      "converted": 16990,
-      "confidence": "PChome 2026-08-24 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 16141,
+      "converted": 16141,
+      "confidence": "PChome 2026-09-01 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBR25A900J5BGP/000001_1782112645.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBR25-A900J5BGP",

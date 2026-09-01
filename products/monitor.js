@@ -994,9 +994,9 @@
     "name": "27 型 2K 120Hz 電腦螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 3699,
-      "converted": 3699,
-      "confidence": "PChome 2026-08-20 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 3399,
+      "converted": 3399,
+      "confidence": "PChome 2026-09-01 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DSABVOA900JMD8B/000001_1768285501.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DSABVO-A900JMD8B",
@@ -1032,16 +1032,16 @@
     "releaseDate": "2026-02-24",
     "historicalLow": {
       "status": "found",
-      "amount": 3499,
+      "amount": 3399,
       "currency": "TWD",
-      "converted": 3499,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1268930064&cgp=3699",
-      "sourceTitle": "LBJ 比價撿便宜歷史價格：PChome Xiaomi A27Qi 2026",
-      "evidenceSnippet": "LBJ PChome history shows NT$3,499 on 2026-01-09 and 2026-01-17 for Xiaomi A27Qi 2026.",
-      "sourceKind": "price_history",
-      "confidence": "high",
-      "checkedAt": "2026-07-09",
-      "note": "已由 worker 查核 LBJ、BigGo 與 FindPrice；採 LBJ PChome 同型號歷史低點 NT$3,499。低於此價的福利品、拍賣混列或非可信新品通路候選均排除。"
+      "converted": 3399,
+      "sourceUrl": "https://24h.pchome.com.tw/prod/DSABVO-A900JMD8B",
+      "sourceTitle": "PChome 24h 購物：小米 Xiaomi 2K 電腦螢幕 A27Qi 2026(27型/2K/120Hz)",
+      "evidenceSnippet": "PChome 24h 購物於 2026-09-01 顯示同型號可信新品公開價 NT$3,399，低於既有史低 NT$3,499。",
+      "sourceKind": "retailer_page",
+      "confidence": "medium",
+      "checkedAt": "2026-09-01",
+      "note": "採用 PChome 24h 購物當日可購商品的同型號新品公開價；不含會員券、點數、信用卡回饋、二手、福利、展示、拆封或整新品。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -2277,8 +2277,8 @@
     "name": "27 型 WQHD 360Hz QD-OLED 電競螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 18333,
-      "converted": 18333,
+      "amount": 18900,
+      "converted": 18900,
       "confidence": "Yahoo購物中心 2026-09-01 exact-model 公開結構化價格"
     },
     "image": "https://cs-a.ecimg.tw/items/DSBC1ZA900HE04M/000001_1757303897.jpg",
@@ -3928,8 +3928,8 @@
     "name": "49 型 Odyssey OLED G9 Dual QHD 240Hz 曲面螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 34900,
-      "converted": 34900,
+      "amount": 36900,
+      "converted": 36900,
       "confidence": "PChome 2026-09-01 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBM10A900HZCPE/000001_1781766568.jpg",
@@ -4228,8 +4228,8 @@
     "name": "57 型 Odyssey Neo G9 Dual UHD 240Hz Mini LED 曲面螢幕",
     "price": {
       "currency": "TWD",
-      "amount": 66500,
-      "converted": 66500,
+      "amount": 69900,
+      "converted": 69900,
       "confidence": "PChome 2026-09-01 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBM10A900GQLSE/000001_1783054239.jpg",

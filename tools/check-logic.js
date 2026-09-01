@@ -56,6 +56,7 @@ const {
   applyExchangeRates,
   auditNonPchome,
   buildCompactReport,
+  categoryProductsChanged,
   categoryReviewProvenance,
   currentCategoryScan,
   exchangeRateRequestUrl,
@@ -935,6 +936,28 @@ async function main() {
       ) === 11662,
       "daily maintenance must use Yahoo's full HTML representation instead of the Range variant's secondary price",
     );
+    const preorderProduct = {
+      id: "dehumidifier-yahoo-preorder-fixture",
+      model: "DD121QWE0",
+      buyUrl: "https://tw.buy.yahoo.com/gdsale/lg-dd121qwe0-11864251.html",
+      price: { amount: 12730, converted: 12730, currency: "TWD", basis: "retailer_current" },
+      historicalLow: { status: "not_found" },
+    };
+    const preorderRaw = { sourceRows: [], structuredPriceChanges: [], historicalLowChanges: [], discontinuedCandidates: [] };
+    global.fetch = async () => new Response(`
+      <title>預購 LG 樂金 DD121QWE0</title>
+      <main><h1>預購 LG 樂金 DD121QWE0</h1></main>
+      <script type="application/ld+json">
+        {"@type":"Product","offers":{"price":"13400","priceCurrency":"TWD"}}
+      </script>
+    `, { status: 200, headers: { "content-type": "text/html" } });
+    await auditNonPchome(preorderProduct, preorderRaw);
+    assert(
+      preorderRaw.sourceRows[0].status === "tracking_out_of_stock"
+        && preorderProduct.price.amount === 12730
+        && preorderRaw.structuredPriceChanges.length === 0,
+      "an exact Yahoo preorder must be tracked without rewriting the current price",
+    );
   } finally {
     global.fetch = originalFetch;
   }
@@ -1757,6 +1780,19 @@ async function main() {
     "historical research sync should reject not-found rows with an empty checked-source list",
   );
   const baselineCalls = [];
+  const unchangedCategory = {
+    items: [{ id: "compact-source", price: 100 }],
+    originalItemsJson: JSON.stringify([{ id: "compact-source", price: 100 }]),
+  };
+  assert(
+    !categoryProductsChanged(unchangedCategory),
+    "catalog maintenance should preserve a compact product source when its data is unchanged",
+  );
+  unchangedCategory.items[0].price = 90;
+  assert(
+    categoryProductsChanged(unchangedCategory),
+    "catalog maintenance should rewrite a product source when its data changes",
+  );
   const baselineById = loadCatalogFromGit("origin/main", ["tv.js", "garmentcare.js"], {
     root,
     execGit(args) {
