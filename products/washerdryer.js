@@ -747,7 +747,6 @@
       "converted": 44910,
       "confidence": "Yahoo購物中心 2026-09-01 exact-model 公開結構化價格",
       "basis": "retailer_current",
-      "note": "2026-08-31 Chrome核對Yahoo同SKU公開滿1件享97折折後價；促銷至2026-09-01 08:29（台灣時間），未扣點數或信用卡回饋，結帳前再確認。"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心",

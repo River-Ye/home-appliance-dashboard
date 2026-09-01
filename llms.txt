@@ -2,12 +2,12 @@
 
 > 本站內容與網站由 AI 協助研究、整理與製作；依公開規則查核，仍可能有錯漏。
 
-由 AI 協作整理 37 類、1125 款可信新品，提供價格、規格、歷史最低價與負評查核，並公開查核方法與原始碼。
+由 AI 協作整理 37 類、1126 款可信新品，提供價格、規格、歷史最低價與負評查核，並公開查核方法與原始碼。
 
 - Brand: 家電推薦比較工作台
 - Canonical site: https://appliance.riverye.com/
-- Data updated: 2026-09-01
-- Catalog: 37 categories, 1125 products
+- Data updated: 2026-09-02
+- Catalog: 37 categories, 1126 products
 - Source code: https://github.com/River-Ye/home-appliance-dashboard
 
 ## 查核方法
@@ -57,7 +57,7 @@
 - [2026 熱水器 推薦與選購指南](https://appliance.riverye.com/categories/waterheater/): 45 筆候選。生活熱水器應先依住宅能源條件與安裝位置選瓦斯、電熱或熱泵，再比較熱水能力、能效與總安裝成本。瓦斯排氣、電熱專用迴路、熱泵主機與儲槽空間都屬安全前提；公開售價不一定含施工，購買前必須由合格人員現勘。
 - [2026 免治馬桶 推薦與選購指南](https://appliance.riverye.com/categories/bidet/): 21 筆候選。免治馬桶選購要先確認是馬桶座或整座馬桶，並量原有馬桶形狀、固定孔距與水電位置。比較清洗、加熱、除臭等功能時，也要考量浴室防濺、接地、進水與清潔維護；安裝費、耗材和台灣保固需在下單前確認。
 - [2026 電子鎖 推薦與選購指南](https://appliance.riverye.com/categories/smartlock/): 51 筆候選。電子鎖不能只比較指紋、密碼或手機解鎖，必須先確認門厚、門向、鎖體、天地栓與現場施工條件。安裝可能有基本費之外的改孔或配件費用；也要核對電池、緊急開鎖、管理權限，以及台灣技師與保固服務。
-- [2026 無線路由器 推薦與選購指南](https://appliance.riverye.com/categories/wifi/): 52 筆候選。無線路由器分類只收 Wi-Fi 6、Wi-Fi 6E、Wi-Fi 7 或以上，並區分家用一體式路由器、Mesh 節點與商用／Prosumer AP。選購要依格局、裝置數、網路速率與回程方式規劃；Aruba Instant On、UniFi 等 AP 通常還需 Gateway、PoE 和管理平台。
+- [2026 無線路由器 推薦與選購指南](https://appliance.riverye.com/categories/wifi/): 53 筆候選。無線路由器分類只收 Wi-Fi 6、Wi-Fi 6E、Wi-Fi 7 或以上，並區分家用一體式路由器、Mesh 節點與商用／Prosumer AP。選購要依格局、裝置數、網路速率與回程方式規劃；Aruba Instant On、UniFi 等 AP 通常還需 Gateway、PoE 和管理平台。
 - [2026 網路交換器 推薦與選購指南](https://appliance.riverye.com/categories/network-switch/): 20 筆候選。網路交換器分類固定比較 8 個主要 RJ45 埠的 1G、2.5G 與 10G 機種，額外 SFP+ 或 combo uplink 另行標示。只收台灣公司貨、公開 TWD 售價、金屬外殼與非 PoE 型號；放入密閉弱電箱時，最大功耗、操作溫度、散熱方式與保固比峰值速率更重要。
 - [2026 升降桌 推薦與選購指南](https://appliance.riverye.com/categories/standingdesk/): 27 筆候選。升降桌應依使用者身高、工作姿勢、桌板尺寸與設備重量選擇，不只比較升降速度。桌板厚度會影響螢幕支架與夾具相容性；穩定度、線材管理、馬達供電、組裝方式、零件供應與保固也應一起確認。
 - [2026 電腦椅 推薦與選購指南](https://appliance.riverye.com/categories/chair/): 27 筆候選。電腦椅的適配取決於身形、坐姿與每日使用時間，不能只靠外觀或單一尺寸判斷。應比較座高、座深、腰靠、扶手與後仰調整，並考量台灣氣候下的材質、組裝、試坐或退換條件，以及零件供應和保固。

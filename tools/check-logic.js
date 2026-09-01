@@ -908,6 +908,51 @@ async function main() {
     ) === 7490,
     "daily maintenance should accept one exact public Yahoo structured price",
   );
+  const sameDayYahooPrice = structuredPriceCandidates(`
+    <script type="application/ld+json">
+      {"@type":"Product","offers":{"price":"4,741","priceCurrency":"TWD","availability":"https://schema.org/OutOfStock"}}
+    </script>
+    <script id="gqlstate-data" type="mime/invalid">{
+      "Shopping_Product:11798654": {
+        "currentPrice": "4990",
+        "promotionPrice": "4741",
+        "promotions": [{"__ref":"Shopping_Promotion:788489"}]
+      },
+      "Shopping_Promotion:788489": {
+        "endTs":"${new Intl.DateTimeFormat("en-CA", { timeZone: "Asia/Taipei" }).format(new Date())}T08:00:59+08:00",
+        "rules":[{"discountDescription":"滿1件享95折"}]
+      }
+    }</script>
+  `, "https://tw.buy.yahoo.com/gdsale/asus-rt-be82u-11798654.html");
+  assert(
+    sameDayYahooPrice.length === 1
+      && sameDayYahooPrice[0].amount === 4990
+      && sameDayYahooPrice[0].availability === "https://schema.org/OutOfStock"
+      && sameDayYahooPrice[0].source === "yahoo_current_price_same_day_promotion_excluded",
+    "daily maintenance should keep Yahoo's base public price and availability when its matching flash promotion expires on the data date",
+  );
+  const unrelatedSameDayYahooPromotion = structuredPriceCandidates(`
+    <script type="application/ld+json">
+      {"@type":"Product","offers":{"price":"4,500","priceCurrency":"TWD"}}
+    </script>
+    <script id="gqlstate-data" type="mime/invalid">{
+      "Shopping_Product:11798654": {
+        "currentPrice": "4990",
+        "promotionPrice": "4800",
+        "promotions": [{"__ref":"Shopping_Promotion:gift"}]
+      },
+      "Shopping_Promotion:gift": {
+        "endTs":"${new Intl.DateTimeFormat("en-CA", { timeZone: "Asia/Taipei" }).format(new Date())}T08:00:59+08:00",
+        "rules":[{"discountDescription":"滿1件贈好禮"}]
+      }
+    }</script>
+  `, "https://tw.buy.yahoo.com/gdsale/asus-rt-be82u-11798654.html");
+  assert(
+    unrelatedSameDayYahooPromotion.length === 1
+      && unrelatedSameDayYahooPromotion[0].amount === 4500
+      && unrelatedSameDayYahooPromotion[0].source === "json_ld",
+    "daily maintenance should not discard a public price for an unrelated same-day Yahoo promotion",
+  );
   assert(
     trustedStructuredPrice(
       "https://brand.example/products/model",
@@ -1364,6 +1409,20 @@ async function main() {
       checkedAt: "2026-08-31",
     }).find((review) => review.brand === "HITACHI")?.status === "no_eligible_taiwan_model",
     `HITACHI ${id} is an official product line even before an eligible model is catalogued`,
+  );
+  const hitachiPurifierReview = buildJapaneseBrandReview({
+    category: { id: "purifier", label: "空氣清淨機" },
+    products: [],
+    baselineById: new Map(),
+    checkedAt: "2026-09-02",
+  }).find((review) => review.brand === "HITACHI");
+  assert(
+    hitachiPurifierReview.status === "no_eligible_taiwan_model"
+      && hitachiPurifierReview.officialSources.includes("https://www.jci-hitachi.tw/products/products_level2.aspx?pid=11")
+      && hitachiPurifierReview.reason.includes("UDP-J60")
+      && hitachiPurifierReview.reason.includes("已售罄")
+      && hitachiPurifierReview.reason.includes("已停售"),
+    "HITACHI purifier review must retain its official line while rejecting unavailable Taiwan models",
   );
   const overseasJapaneseReview = buildJapaneseBrandReview({
     category: { id: "garmentcare", label: "電子衣櫥（衣物護理機）" },

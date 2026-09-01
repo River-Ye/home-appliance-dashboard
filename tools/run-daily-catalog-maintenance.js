@@ -425,7 +425,7 @@ function structuredPriceCandidates(text, productUrl) {
                 }
               }
             }
-          } else if (value.price !== undefined) add(value.price, value.priceCurrency, "json_ld");
+          } else if (value.price !== undefined) add(value.price, value.priceCurrency, "json_ld", value.availability);
           queue.push(...Object.values(value).filter((item) => item && typeof item === "object"));
         }
       }
@@ -435,6 +435,36 @@ function structuredPriceCandidates(text, productUrl) {
   }
   for (const match of activeHtml.matchAll(/<(?:meta|input)[^>]+(?:property|itemprop|name)=["'](?:product:price:amount|price)["'][^>]+content=["']([^"']+)["'][^>]*>/gi)) {
     if (!costcoSku) add(match[1], null, "meta");
+  }
+  const yahooId = (() => {
+    try {
+      const url = new URL(productUrl);
+      if (url.hostname !== "tw.buy.yahoo.com") return null;
+      return url.searchParams.get("gdid") || url.pathname.match(/-(\d+)\.html$/)?.[1] || null;
+    } catch (_error) {
+      return null;
+    }
+  })();
+  if (yahooId) {
+    try {
+      const state = JSON.parse(activeHtml.match(/<script[^>]+id=["']gqlstate-data["'][^>]*>([\s\S]*?)<\/script>/i)?.[1] || "null");
+      const product = state?.[`Shopping_Product:${yahooId}`];
+      const currentPrice = Number(product?.currentPrice);
+      const promotionPrice = Number(product?.promotionPrice);
+      const publicPromotion = candidates.find((candidate) => candidate.amount === promotionPrice);
+      const expiresToday = product?.promotions?.some(({ __ref }) => (
+        String(state?.[__ref]?.endTs || "").slice(0, 10) === MAINTENANCE_DATE
+        && state?.[__ref]?.rules?.some((rule) => {
+          const percent = String(rule?.discountDescription || "").match(/(\d+(?:\.\d+)?)折/);
+          return percent && Math.round(currentPrice * Number(percent[1]) / 100) === promotionPrice;
+        })
+      ));
+      if (expiresToday && publicPromotion && Number.isFinite(currentPrice) && currentPrice > 0) {
+        return [{ ...publicPromotion, amount: currentPrice, currency: "TWD", source: "yahoo_current_price_same_day_promotion_excluded" }];
+      }
+    } catch (_error) {
+      // Invalid third-party state falls back to the public structured price.
+    }
   }
   const unique = new Map(candidates.map((candidate) => [`${candidate.currency}:${candidate.amount}:${candidate.availability || ""}`, candidate]));
   return [...unique.values()];

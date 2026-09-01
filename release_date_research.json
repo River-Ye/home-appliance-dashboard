@@ -1,12 +1,12 @@
 {
   "summary": {
-    "checkedAt": "2026-09-01T00:00:00+08:00",
-    "total": 1125,
-    "researchedThisRun": 90,
-    "found": 331,
+    "checkedAt": "2026-09-02T00:00:00+08:00",
+    "total": 1126,
+    "researchedThisRun": 1,
+    "found": 332,
     "missing": 794,
     "byConfidence": {
-      "official": 181,
+      "official": 182,
       "not_found": 791,
       "retailer_explicit": 22,
       "credible_article": 52,
@@ -34606,6 +34606,28 @@
       "reason": "已在 Chrome 核對 905.871.38 確切官方商品頁並以完整型號查詢上市／發售資料；頁面未明示可採用的 launch/release 日期，且未把評論日期、促銷期、網頁上架時間、型號年份或系列其他版本日期套用。",
       "checkedAt": "2026-09-01",
       "auditDisposition": "not_found_after_review"
+    },
+    {
+      "id": "wifi-asus-rt-be86u",
+      "category": "wifi",
+      "brand": "ASUS",
+      "model": "RT-BE86U",
+      "name": "BE6800 雙頻 Wi-Fi 7 AiMesh 路由器",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "2024-08-21",
+      "sourceUrl": "https://press.asus.com/news/press-releases/asus-wifi-7-devices-gamescom-2024/",
+      "sourceTitle": "ASUS Unveils Cutting-Edge WiFi 7 Devices During Gamescom 2024",
+      "evidenceSnippet": "ASUS 官方新聞稿標示 Taipei, Taiwan, August 21, 2024，並在同份發表內容明確宣布 RT-BE86U WiFi 7 路由器。",
+      "confidence": "official",
+      "query": "\"ASUS RT-BE86U\" release launch announced available",
+      "auditQueries": [
+        "\"ASUS RT-BE86U\" release date launch announced available",
+        "\"ASUS RT-BE86U\" 上市 發售 開賣 推出"
+      ],
+      "sourceKind": "official_launch_announcement",
+      "reason": "ASUS 官方全球新聞稿在 2024-08-21 明確宣布 exact model RT-BE86U；未把產品頁上線、支援文件或韌體日期當作上市日。",
+      "checkedAt": "2026-09-02",
+      "auditDisposition": "added"
     }
   ]
 }

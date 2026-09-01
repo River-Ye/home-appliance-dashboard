@@ -116,9 +116,9 @@
     "name": "65 型 S90F OLED 4K 智慧顯示器",
     "price": {
       "currency": "TWD",
-      "amount": 50900,
-      "converted": 50900,
-      "confidence": "PChome 2026-08-01 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 46900,
+      "converted": 46900,
+      "confidence": "PChome 2026-09-02 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DPADEW1900K4WRT/000001_1782056882.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DPADEW-A900IUE7F",
@@ -215,9 +215,9 @@
     "name": "BRAVIA 7 65 型 Mini LED 4K Google TV",
     "price": {
       "currency": "TWD",
-      "amount": 56900,
-      "converted": 56900,
-      "confidence": "PChome 2026-09-01 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 53910,
+      "converted": 53910,
+      "confidence": "PChome 2026-09-02 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DPADFNA900K7VQ8/000001_1784011502.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DPADFN-A900K7VQ8",
@@ -414,9 +414,9 @@
     "name": "BRAVIA 9 II 65 型 RGB LED 4K Google TV",
     "price": {
       "currency": "TWD",
-      "amount": 110533,
-      "converted": 110533,
-      "confidence": "Yahoo購物中心 2026-09-01 exact-model 公開結構化價格"
+      "amount": 108323,
+      "converted": 108323,
+      "confidence": "Yahoo購物中心 2026-09-02 exact-model 公開結構化價格"
     },
     "image": "https://img.yec.tw/zp/MerchandiseImages/F326F9F0C5-SP-23019953.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/%E5%90%AB%E6%A8%99%E6%BA%96%E5%AE%89%E8%A3%9D-SONY%E7%B4%A2%E5%B0%BC65%E5%90%8B%E5%90%8BRGB-4K%E9%80%A3%E7%B6%B2%E6%99%BA%E6%85%A7%E9%A1%AF%E7%A4%BA%E5%99%A8Y-65XR90M2-12159450.html",
@@ -813,9 +813,9 @@
     "name": "BRAVIA 8 65 型 XR OLED 4K HDR Google TV 顯示器",
     "price": {
       "currency": "TWD",
-      "amount": 93900,
-      "converted": 93900,
-      "confidence": "PChome 2026-09-01 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 84510,
+      "converted": 84510,
+      "confidence": "PChome 2026-09-02 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DPAD06A900HLBJO/000001_1776334113.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DPAD06-A900HLBJO",
@@ -1011,9 +1011,9 @@
     "name": "65 型 4K 144Hz VRR OLED Google TV 顯示器",
     "price": {
       "currency": "TWD",
-      "amount": 79900,
-      "converted": 79900,
-      "confidence": "PChome 2026-07-11 API 查核價"
+      "amount": 69900,
+      "converted": 69900,
+      "confidence": "PChome 2026-09-02 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DPADIKA900HJGF2/000001_1782900149.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DPADIK-A900HJGF2",
@@ -1049,16 +1049,16 @@
     "releaseDate": "2024-05",
     "historicalLow": {
       "status": "found",
-      "amount": 74900,
+      "amount": 69900,
       "currency": "TWD",
-      "converted": 74900,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1250838362&cgp=74900",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：(店+)飛利浦65吋OLED連網智慧顯示器65OLED809 無安裝",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Momo富邦購物 / (店+)飛利浦65吋OLED連網智慧顯示器65OLED809 無安裝」最低價為 NT$74,900，最低點日期 2026-07-09。",
-      "sourceKind": "price_history",
-      "confidence": "high",
-      "checkedAt": "2026-07-09",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+      "converted": 69900,
+      "sourceUrl": "https://24h.pchome.com.tw/prod/DPADIK-A900HJGF2",
+      "sourceTitle": "PChome 24h 購物：Philips 飛利浦 65型4K 144Hz VRR OLED Google TV智慧聯網顯示器(65OLED809)",
+      "evidenceSnippet": "PChome 24h 購物於 2026-09-02 顯示同型號可信新品公開價 NT$69,900，低於既有史低 NT$74,900。",
+      "sourceKind": "retailer_page",
+      "confidence": "medium",
+      "checkedAt": "2026-09-02",
+      "note": "採用 PChome 24h 購物當日可購商品的同型號新品公開價；不含會員券、點數、信用卡回饋、二手、福利、展示、拆封或整新品。"
     },
     "issueResearch": {
       "status": "no_common_issue",
@@ -1902,9 +1902,9 @@
     "name": "65型 4K QLED 120Hz Google TV",
     "price": {
       "currency": "TWD",
-      "amount": 13990,
-      "converted": 13990,
-      "confidence": "PChome 2026-09-01 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 12591,
+      "converted": 12591,
+      "confidence": "PChome 2026-09-02 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DPADTOA900JNE73/000001_1768523868.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DPADTO-A900JNMOP",
@@ -2808,9 +2808,9 @@
     "name": "70 型 4K QLED Google TV 智慧顯示器",
     "price": {
       "currency": "TWD",
-      "amount": 22999,
-      "converted": 22999,
-      "confidence": "PChome 2026-07-26 exact-model API 公開價，庫存 5"
+      "amount": 25999,
+      "converted": 25999,
+      "confidence": "PChome 2026-09-02 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-b.ecimg.tw/items/DPADIKA900JFCPA/000001_1762407157.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DPADIK-A900JFCPA",

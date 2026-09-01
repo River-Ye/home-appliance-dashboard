@@ -308,11 +308,10 @@
     "name": "BE3600 雙頻 Wi-Fi 7 AiMesh 可擴充路由器",
     "price": {
       "currency": "TWD",
-      "amount": 3699,
-      "converted": 3699,
-      "confidence": "Yahoo購物中心 2026-09-01 exact-model 公開結構化價格",
-      "basis": "retailer_current",
-      "note": "2026-08-31 Chrome核對Yahoo同SKU公開滿1件享95折折後價；促銷至2026-09-01 08:00（台灣時間），未扣點數或信用卡回饋，結帳前再確認。"
+      "amount": 3515,
+      "converted": 3515,
+      "confidence": "Yahoo購物中心 2026-09-02 exact-model 公開結構化價格",
+      "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAFLPA900JKWXK/000001_1783555436.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/ASUS-%E8%8F%AF%E7%A2%A9-RT-BE58U-V2-BE3600-%E9%9B%99%E9%A0%BB-Wi-Fi-7-%E5%8F%AF%E6%93%B4%E5%85%85%E5%BC%8F%E8%B7%AF%E7%94%B1%E5%99%A8-12005854.html",
@@ -699,9 +698,9 @@
     "name": "Wi-Fi 6E 三頻無線網狀路由器一入",
     "price": {
       "currency": "TWD",
-      "amount": 7590,
-      "converted": 7590,
-      "confidence": "PChome 2026-09-01 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 7990,
+      "converted": 7990,
+      "confidence": "PChome 2026-09-02 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAFL7A900IJMF6/000001_1744352670.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DRAFL7-A900IJMF6",
@@ -1763,8 +1762,7 @@
       "amount": 4990,
       "converted": 4990,
       "confidence": "Yahoo購物中心 2026-09-01 exact-model 公開結構化價格",
-      "basis": "retailer_current",
-      "note": "2026-08-31 Chrome核對Yahoo同SKU公開滿1件享95折折後價；促銷至2026-09-01 08:00（台灣時間），未扣點數或信用卡回饋，結帳前再確認。"
+      "basis": "retailer_current"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAFLPA900IV4B6/000001_1783556530.jpg",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/ASUS-%E8%8F%AF%E7%A2%A9-RT-BE82U-WiFi-7-%E9%9B%99%E9%A0%BB-BE6500-%E8%B7%AF%E7%94%B1%E5%99%A8-%E5%88%86%E4%BA%AB%E5%99%A8-11798654.html",
@@ -2053,9 +2051,9 @@
     "name": "BE11000 Mesh Wi-Fi 7 電競路由器",
     "price": {
       "currency": "TWD",
-      "amount": 5290,
-      "converted": 5290,
-      "confidence": "PChome 2026-08-25 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 5490,
+      "converted": 5490,
+      "confidence": "PChome 2026-09-02 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAF02A900I473A/000001_1732699929.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DRAF02-A900I473A",
@@ -3478,9 +3476,9 @@
     "name": "Wi-Fi 6E 三頻電競路由器",
     "price": {
       "currency": "TWD",
-      "amount": 7590,
-      "converted": 7590,
-      "confidence": "PChome 2026-08-25 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 7990,
+      "converted": 7990,
+      "confidence": "PChome 2026-09-02 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAFKSA900HEQVN/000001_1713512948.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DRAFKS-A900HEQVN",
@@ -3852,9 +3850,9 @@
     "name": "Wi-Fi 6 雙 10GbE SD-WAN 路由器",
     "price": {
       "currency": "TWD",
-      "amount": 7590,
-      "converted": 7590,
-      "confidence": "PChome 2026-08-25 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 7990,
+      "converted": 7990,
+      "confidence": "PChome 2026-09-02 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DRAG6JA900AUW3D/000001_1626400932.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DRAG6J-A900AUW3D",
@@ -4434,9 +4432,9 @@
     "name": "AX3000 Wi-Fi 6 雙頻 Mesh 路由器",
     "price": {
       "currency": "TWD",
-      "amount": 1999,
-      "converted": 1999,
-      "confidence": "Costco 好市多 2026-07-09 查核價"
+      "amount": 2199,
+      "converted": 2199,
+      "confidence": "Costco 好市多 2026-09-02 exact-model 公開結構化價格"
     },
     "image": "https://www.costco.com.tw/medias/sys_master/images/h66/hc1/98612373651486.jpg",
     "buyUrl": "https://www.costco.com.tw/Digital-Mobile/Laptops-Computers/Keyboards-Mice-Computer-Accessories/TP-Link-AX3000-Mesh-Wi-Fi-6-System-Deco-X55/p/134457",
@@ -4631,9 +4629,9 @@
     "name": "BE9300 三頻 Wi-Fi 7 路由器",
     "price": {
       "currency": "TWD",
-      "amount": 4699,
-      "converted": 4699,
-      "confidence": "Costco 好市多 2026-07-11 頁面查核價"
+      "amount": 4899,
+      "converted": 4899,
+      "confidence": "Costco 好市多 2026-09-02 exact-model 公開結構化價格"
     },
     "image": "https://www.costco.com.tw/medias/sys_master/images/h31/h45/366793143058462.jpg",
     "buyUrl": "https://www.costco.com.tw/Digital-Mobile/Laptops-Computers/Keyboards-Mice-Computer-Accessories/TP-Link-BE9300-Tri-Band-Wi-Fi-7-Router-Archer-BE550/p/154270",
@@ -4719,8 +4717,7 @@
       "amount": 27990,
       "converted": 27990,
       "confidence": "Yahoo購物中心 2026-09-01 exact-model 公開結構化價格",
-      "basis": "retailer_current",
-      "note": "2026-08-31 Chrome核對Yahoo同SKU公開滿1件享95折折後價；促銷至2026-09-01 08:00（台灣時間），未扣點數或信用卡回饋，結帳前再確認。"
+      "basis": "retailer_current"
     },
     "image": "https://dlcdnwebimgs.asus.com/gain/FF5DB299-9708-4259-ABF9-167FDC7166BD",
     "buyUrl": "https://tw.buy.yahoo.com/gdsale/%E6%98%8C%E9%81%8B%E7%9B%A3%E8%A6%96%E5%99%A8-ASUS-%E8%8F%AF%E7%A2%A9-ROG-Rapture-GT-BE19000AI-WiFi-7-%E4%B8%89%E9%A0%BB%E9%9B%BB%E7%AB%B6-12032656.html",
@@ -5005,6 +5002,112 @@
           "query": "site:mobile01.com \"ROG Rapture GT-BE25000 Edition 20\" (災情 OR 問題 OR 故障 OR 負評)",
           "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22ROG%20Rapture%20GT-BE25000%20Edition%2020%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
           "targetHost": "mobile01.com"
+        }
+      ]
+    }
+  },
+  {
+    "id": "wifi-asus-rt-be86u",
+    "category": "wifi",
+    "rank": 53,
+    "topPick": false,
+    "budget": "premium",
+    "channel": "tw",
+    "brand": "ASUS",
+    "model": "RT-BE86U",
+    "name": "BE6800 雙頻 Wi-Fi 7 AiMesh 路由器",
+    "price": {
+      "currency": "TWD",
+      "amount": 7199,
+      "converted": 7199,
+      "confidence": "PChome 2026-09-02 API 與公開頁 exact-model 查核價；Price.P=NT$7,199、Price.Low 無有效低價、Qty 20",
+      "basis": "retailer_current"
+    },
+    "image": "https://dlcdnwebimgs.asus.com/gain/c591d551-742d-40f9-8c16-f5386255909e/",
+    "buyUrl": "https://24h.pchome.com.tw/prod/DRAFJ5-A900HUUKE",
+    "buyLabel": "PChome 24h購物",
+    "installation": {
+      "status": "not_stated",
+      "note": "售價為單台路由器與原廠變壓器；不含網路佈線、到府設定、交換器或額外 AiMesh 節點。"
+    },
+    "specs": [
+      "Wi-Fi 7 / BE6800 雙頻（5GHz 5764Mbps＋2.4GHz 1032Mbps），支援 MLO、160MHz 與 4096-QAM",
+      "無線：5GHz 4x4、2.4GHz 3x3；三支外接天線＋一支內建天線",
+      "Mesh：支援 AiMesh，可作 AiMesh 主路由或節點",
+      "有線：10G WAN/LAN x1、2.5G WAN/LAN x1、2.5G LAN x3；USB 3.2 Gen 1 x1、USB 2.0 x1",
+      "2.6GHz 四核心處理器、1GB RAM、256MB Flash；AiProtection Pro 與 Guest Network Pro",
+      "尺寸：235 x 90 x 316 mm；重量：854 g"
+    ],
+    "description": "RT-BE86U 是雙頻 BE6800 Wi-Fi 7 路由器，將 10GbE、四個 2.5GbE 等級連接埠、AiMesh 與 ASUS 網路安全功能放進萬元內級距；適合已布建多 Gigabit 網路、但不需要 6GHz 的家庭。",
+    "pros": [
+      "10G WAN/LAN 加四個 2.5GbE 等級連接埠，適合高速 NAS 與多 Gigabit 寬頻",
+      "支援 AiMesh、MLO、160MHz 與完整 ASUSWRT 管理功能",
+      "台灣正式販售，主機享 ASUS 台灣 36 個月保固"
+    ],
+    "cons": [
+      "雙頻設計沒有 6GHz，無法使用 320MHz 頻寬",
+      "單台不是完整 Mesh 套組，多樓層仍可能需要額外節點或有線回程",
+      "已有跨三個網站的 exact-model 使用者回報特定韌體後 Wi-Fi 反覆斷線或無線電重啟"
+    ],
+    "bestFor": "需要 10GbE、多個 2.5GbE、AiMesh 與成熟 ASUSWRT 功能，但不打算部署 6GHz／320MHz 的進階家庭與小型工作室。",
+    "recommendation": "高速有線與 AiMesh 補充推薦；購買後先更新至最新穩定韌體，再於退換貨期內長時間測試 2.4GHz IoT、5GHz 負載、漫遊與重啟後穩定性。",
+    "score": 84,
+    "voltage": "AC 110-240V、50-60Hz；DC 12V/5A 或 19.5V/2.31A，台灣電力可用",
+    "warranty": "ASUS 台灣網通產品主機 36 個月；變壓器、電源線與天線 12 個月（限台灣代理商銷售產品）",
+    "tags": [
+      "Wi-Fi 7",
+      "BE6800",
+      "雙頻",
+      "AiMesh",
+      "10G",
+      "2.5G",
+      "MLO"
+    ],
+    "releaseDate": "2024-08-21",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-09-02",
+      "note": "已跨 PChome、Yahoo購物中心、ASUS 台灣官方商城與比價來源查核 RT-BE86U exact model；Yahoo NT$6,999／活動價 NT$6,618 是本輪仍顯示的即時促銷，沒有可回溯的歷史最低日期，其他更低候選亦無法同時確認新品、賣家與台灣保固，因此不以現價或促銷價推定史低。"
+    },
+    "issueResearch": {
+      "status": "common_issue",
+      "checkedAt": "2026-09-02",
+      "summary": "多位 RT-BE86U 使用者回報特定韌體後 Wi-Fi 用戶端或無線電會反覆斷線、重啟，嚴重時需重新開機或降版才暫時恢復。",
+      "issues": [
+        {
+          "title": "特定韌體下 Wi-Fi 反覆斷線或無線電重啟",
+          "detail": "七位可辨識使用者在 Reddit、ASUS ZenTalk 與 Whirlpool 回報 RT-BE86U 的 Wi-Fi 用戶端、整個無線電或網路服務反覆掉線／重啟；部分案例降版後改善。ASUS 後續韌體說明曾提及改善漫遊、連接埠穩定與部分斷線原因，但不能據此推定所有案例已解決。建議先更新最新穩定版、必要時恢復原廠設定，並於退換貨期內同時壓測 2.4GHz、5GHz、有線連接與 AiMesh。",
+          "reportCount": 7,
+          "sources": [
+            {
+              "platform": "Reddit",
+              "title": "After firmware update RT-BE86U randomly disconnects and reconnects",
+              "url": "https://www.reddit.com/r/ASUS/comments/1p24n2y/after_firmware_update_rtbe86u_randomly/"
+            },
+            {
+              "platform": "ASUS ZenTalk",
+              "title": "Critical kernel panics / instability by Broadcom Wi-Fi driver bug",
+              "url": "https://zentalk.asus.com/t5/networking/critical-kernel-panics-instability-by-broadcom-wi-fi-driver-bug/td-p/494971/page/2"
+            },
+            {
+              "platform": "ASUS ZenTalk",
+              "title": "RT-BE86U Kernel: WLC_SCB_DEAUTHORIZE error -30",
+              "url": "https://zentalk.asus.com/t5/networking/rt-be86u-kernel-wlc-scb-deauthorize-error-30/td-p/485994/page/3"
+            },
+            {
+              "platform": "Whirlpool",
+              "title": "ASUS RT-BE86U discussion",
+              "url": "https://forums.whirlpool.net.au/archive/3246v0yj"
+            }
+          ]
         }
       ]
     }

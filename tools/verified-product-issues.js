@@ -1,7 +1,7 @@
 const reportLedger = require("../product_issue_report_evidence.json");
 const { canonicalWebsite, normalize } = require("./product-issue-validation");
 
-const CHECKED_AT = "2026-09-01";
+const CHECKED_AT = "2026-09-02";
 const DEFAULT_EVIDENCE_CHECKED_AT = "2026-08-29";
 const REVIEW_DATE_PATTERN = /^\d{4}-\d{2}-\d{2}$/;
 
@@ -2004,6 +2004,44 @@ const verifiedRows = [
         url: "https://community.ui.com/questions/U6-Pro-Cap-Broken-COMPLAINT/0682ca4d-645b-49db-ac47-5571ffeca795",
         authors: ["thpap"],
         evidenceSnippet: "使用者回報 U6 Pro 中央蓋自行從天花板落下，塑膠固定柱已斷裂，過保後 RMA 未獲受理。",
+      },
+    ],
+  },
+  {
+    id: "wifi-asus-rt-be86u",
+    checkedAt: "2026-09-02",
+    summary: "多位 RT-BE86U 使用者回報特定韌體下 Wi-Fi 用戶端或無線電會反覆斷線、重啟，嚴重時需重新開機或降版才暫時恢復。",
+    title: "特定韌體下 Wi-Fi 反覆斷線或無線電重啟",
+    detail: "七位可辨識使用者在 Reddit、ASUS ZenTalk 與 Whirlpool 回報 RT-BE86U 的 Wi-Fi 用戶端、整個無線電或網路服務反覆掉線／重啟；部分案例降版後改善。ASUS 後續韌體說明曾提及改善漫遊、連接埠穩定與部分斷線原因，但不能據此推定所有案例已解決。建議先更新最新穩定版、必要時恢復原廠設定，並於退換貨期內同時壓測 2.4GHz、5GHz、有線連接與 AiMesh。",
+    reportCount: 7,
+    sources: [
+      {
+        platform: "Reddit",
+        title: "After firmware update RT-BE86U randomly disconnects and reconnects",
+        url: "https://www.reddit.com/r/ASUS/comments/1p24n2y/after_firmware_update_rtbe86u_randomly/",
+        authors: ["swfanatic717", "HenrikGustavsson", "J_Bug"],
+        evidenceSnippet: "三位 RT-BE86U 使用者回報特定韌體後網路反覆斷線、Wi-Fi 凍結或重啟，其中有人降版後才恢復穩定。",
+      },
+      {
+        platform: "ASUS ZenTalk",
+        title: "Critical kernel panics / instability by Broadcom Wi-Fi driver bug",
+        url: "https://zentalk.asus.com/t5/networking/critical-kernel-panics-instability-by-broadcom-wi-fi-driver-bug/td-p/494971/page/2",
+        authors: ["VolkovRA"],
+        evidenceSnippet: "RT-BE86U 使用者在 39112 回報個別裝置或整個 Wi-Fi 會斷線並重新啟動，而有線網路維持正常。",
+      },
+      {
+        platform: "ASUS ZenTalk",
+        title: "RT-BE86U Kernel: WLC_SCB_DEAUTHORIZE error -30",
+        url: "https://zentalk.asus.com/t5/networking/rt-be86u-kernel-wlc-scb-deauthorize-error-30/td-p/485994/page/3",
+        authors: ["Hesster92", "RNA"],
+        evidenceSnippet: "兩位 RT-BE86U 使用者回報整體連線掉線、韌體崩潰或重啟，恢復原廠設定與換機仍可能復發。",
+      },
+      {
+        platform: "Whirlpool",
+        title: "ASUS RT-BE86U discussion",
+        url: "https://forums.whirlpool.net.au/archive/3246v0yj",
+        authors: ["Edd"],
+        evidenceSnippet: "RT-BE86U 使用者回報原廠最新韌體下 Wi-Fi 不穩且 LAN4 偶發斷線，約每半小時掉線一次，最後退貨。",
       },
     ],
   },

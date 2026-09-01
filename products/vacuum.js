@@ -690,9 +690,9 @@
     "name": "V15 Detect Fluffy 智慧無線吸塵器",
     "price": {
       "currency": "TWD",
-      "amount": 17900,
-      "converted": 17900,
-      "confidence": "PChome 2026-09-01 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 18900,
+      "converted": 18900,
+      "confidence": "PChome 2026-09-02 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAX00A900HC7B6/000001_1782183523.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAX00-A900HC7B6",

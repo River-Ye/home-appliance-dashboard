@@ -981,9 +981,9 @@
     "name": "JURA E8 Chrome (NAC) 全自動咖啡機",
     "price": {
       "currency": "TWD",
-      "amount": 72500,
-      "converted": 72500,
-      "confidence": "PChome 2026-09-01 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 63800,
+      "converted": 63800,
+      "confidence": "PChome 2026-09-02 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://img.pchome.com.tw/cs/items/DMAT3GA900JFELW/000001_1762414552.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAT3G-A900JFELW",
@@ -1088,9 +1088,9 @@
     "name": "JURA ENA 4 Full Metropolitan Black (EA) 全自動咖啡機",
     "price": {
       "currency": "TWD",
-      "amount": 38900,
-      "converted": 38900,
-      "confidence": "PChome 2026-09-01 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 34232,
+      "converted": 34232,
+      "confidence": "PChome 2026-09-02 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://img.pchome.com.tw/cs/items/DMAT00A900BQG97/000001_1777222745.png",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAT00-A900BQG97",

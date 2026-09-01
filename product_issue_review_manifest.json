@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-09-01",
+  "checkedAt": "2026-09-02",
   "methodVersion": 3,
   "policy": "每筆決策須保存 exact-model 跨站查詢與人工 attestation；每個搜尋候選須逐頁保存摘要、獨立作者數與具體排除理由，研究工具不得自行生成拒絕結論。",
   "results": [
@@ -83004,6 +83004,61 @@
           "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22905.871.38%22%20%E6%9E%95%E9%A0%AD"
         }
       ]
+    },
+    {
+      "id": "wifi-asus-rt-be86u",
+      "category": "wifi",
+      "brand": "ASUS",
+      "model": "RT-BE86U",
+      "reviewedAt": "2026-09-02",
+      "reviewBatch": "wifi",
+      "decision": "common_issue",
+      "checkedPlatforms": [
+        "Reddit",
+        "PTT",
+        "ASUS ZenTalk",
+        "Whirlpool"
+      ],
+      "queries": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"ASUS RT-BE86U\" (problem OR issue OR disconnect OR reboot)",
+          "queryUrl": "https://www.google.com/search?q=site%3Areddit.com%20%22ASUS%20RT-BE86U%22%20(problem%20OR%20issue%20OR%20disconnect%20OR%20reboot)",
+          "targetHost": "reddit.com"
+        },
+        {
+          "platform": "PTT",
+          "query": "site:ptt.cc \"ASUS RT-BE86U\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22ASUS%20RT-BE86U%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "ptt.cc"
+        }
+      ],
+      "candidateDisposition": "RT-BE86U：搜尋候選已回到 Reddit、ASUS ZenTalk 與 Whirlpool 原始頁逐人覆核，七位獨立作者皆明確指向 exact model 的同類斷線／重啟問題；PTT 查詢未另計搜尋摘要或非原頁內容。",
+      "representativeSources": [
+        {
+          "platform": "Reddit",
+          "title": "After firmware update RT-BE86U randomly disconnects and reconnects",
+          "url": "https://www.reddit.com/r/ASUS/comments/1p24n2y/after_firmware_update_rtbe86u_randomly/"
+        },
+        {
+          "platform": "ASUS ZenTalk",
+          "title": "Critical kernel panics / instability by Broadcom Wi-Fi driver bug",
+          "url": "https://zentalk.asus.com/t5/networking/critical-kernel-panics-instability-by-broadcom-wi-fi-driver-bug/td-p/494971/page/2"
+        },
+        {
+          "platform": "ASUS ZenTalk",
+          "title": "RT-BE86U Kernel: WLC_SCB_DEAUTHORIZE error -30",
+          "url": "https://zentalk.asus.com/t5/networking/rt-be86u-kernel-wlc-scb-deauthorize-error-30/td-p/485994/page/3"
+        },
+        {
+          "platform": "Whirlpool",
+          "title": "ASUS RT-BE86U discussion",
+          "url": "https://forums.whirlpool.net.au/archive/3246v0yj"
+        }
+      ],
+      "reviewerNote": "RT-BE86U 已逐頁人工核對七位獨立使用者與三個原始網站；同一問題集中在特定韌體後 Wi-Fi 用戶端、無線電或網路服務反覆斷線／重啟，無跨站作者重複計數。",
+      "attestation": "manual_original_pages_reviewed",
+      "candidateReviews": []
     }
   ]
 }
