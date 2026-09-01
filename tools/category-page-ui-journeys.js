@@ -12,6 +12,9 @@ const representativeCategories = [
   { id: "mouse", label: "滑鼠" },
   { id: "keyboard", label: "鍵盤" },
   { id: "mousepad", label: "滑鼠墊" },
+  { id: "bedsheet", label: "床包" },
+  { id: "comforter", label: "棉被" },
+  { id: "pillow", label: "枕頭" },
 ];
 const viewports = [
   { name: "category-desktop", viewport: { width: 1440, height: 1100 } },

@@ -1,5 +1,5 @@
-const EXPECTED_CATEGORY_COUNT = 34;
-const EXPECTED_PRODUCT_COUNT = 1035;
+const EXPECTED_CATEGORY_COUNT = 37;
+const EXPECTED_PRODUCT_COUNT = 1125;
 const MIN_PRODUCTS_PER_CATEGORY = 20;
 const EXPECTED_CATEGORY_PRODUCT_COUNTS = new Map([
   ["tv", 36],
@@ -15,6 +15,9 @@ const EXPECTED_CATEGORY_PRODUCT_COUNTS = new Map([
   ["dryer", 24],
   ["washerdryer", 31],
   ["garmentcare", 20],
+  ["bedsheet", 30],
+  ["comforter", 30],
+  ["pillow", 30],
   ["refrigerator", 26],
   ["cookware", 28],
   ["knife", 23],
@@ -46,6 +49,9 @@ const DIMENSION_CATEGORY_COUNTS = new Map([
   ["dryer", 24],
   ["washerdryer", 31],
   ["garmentcare", 20],
+  ["bedsheet", 30],
+  ["comforter", 30],
+  ["pillow", 30],
   ["refrigerator", 26],
   ["coffee", 24],
   ["oven", 25],
@@ -62,7 +68,7 @@ const DIMENSION_CATEGORY_COUNTS = new Map([
 const DIMENSION_CATEGORIES = new Set(DIMENSION_CATEGORY_COUNTS.keys());
 const EXPECTED_DIMENSION_PRODUCT_COUNT = [...DIMENSION_CATEGORY_COUNTS.values()]
   .reduce((sum, count) => sum + count, 0);
-const NEW_DIMENSION_CATEGORIES = new Set(["tv", "soundbar", "coffee", "oven", "dishwasher", "bidet", "aircon", "waterheater", "network-switch", "monitor-light", "mouse", "keyboard", "mousepad"]);
+const NEW_DIMENSION_CATEGORIES = new Set(["tv", "soundbar", "coffee", "oven", "dishwasher", "bidet", "aircon", "waterheater", "network-switch", "monitor-light", "mouse", "keyboard", "mousepad", "bedsheet", "comforter", "pillow"]);
 const MEASUREMENT_PRIORITY_CATEGORIES = new Set(["tv", "soundbar", "garmentcare", "coffee", "oven", "dishwasher", "bidet", "aircon", "waterheater", "network-switch"]);
 const MEASUREMENT_VALUE_PATTERN = "\\d+(?:\\.\\d+)?(?:[-–／/]\\d+(?:\\.\\d+)?)?";
 const DIMENSION_SEGMENT_PATTERN = `(?:[^；]+ )?寬 ${MEASUREMENT_VALUE_PATTERN} x 深 ${MEASUREMENT_VALUE_PATTERN} x 高 ${MEASUREMENT_VALUE_PATTERN} cm`;
@@ -80,6 +86,9 @@ const WEIGHT_CATEGORY_COUNTS = new Map([
   ["mouse", 30],
   ["keyboard", 30],
   ["mousepad", 30],
+  ["bedsheet", 30],
+  ["comforter", 30],
+  ["pillow", 30],
 ]);
 const WEIGHT_CATEGORIES = new Set(WEIGHT_CATEGORY_COUNTS.keys());
 const EXPECTED_WEIGHT_PRODUCT_COUNT = [...WEIGHT_CATEGORY_COUNTS.values()]
@@ -108,13 +117,32 @@ const PERIPHERAL_DIMENSION_PATTERN = new RegExp(`^尺寸：${FORBIDDEN_MEASUREME
 const MOUSEPAD_DIMENSION_PATTERN = new RegExp(`^尺寸：${FORBIDDEN_MEASUREMENT_LABEL_PATTERN}(查不到|(?:${PERIPHERAL_DIMENSION_SEGMENT}(?:${PERIPHERAL_THIRD_AXIS})?${PERIPHERAL_DIMENSION_END})+)$`, "iu");
 const PERIPHERAL_WEIGHT_SEGMENT_PATTERN = WEIGHT_SEGMENT_PATTERN.replace(/ kg$/, ` g${PERIPHERAL_MEASUREMENT_NOTE}`);
 const PERIPHERAL_WEIGHT_PATTERN = new RegExp(`^重量：${FORBIDDEN_MEASUREMENT_LABEL_PATTERN}(查不到|${PERIPHERAL_WEIGHT_SEGMENT_PATTERN}(?:；${PERIPHERAL_WEIGHT_SEGMENT_PATTERN})*)$`, "i");
+const BEDDING_TYPES = {
+  bedsheet: ["cotton", "lyocell", "linen", "synthetic", "other_natural"],
+  comforter: ["cotton", "down", "synthetic", "wool", "silk"],
+  pillow: ["latex", "memory_foam", "down", "fiber", "hybrid"],
+};
+const BEDDING_BUDGET_COUNTS = new Map([["value", 6], ["mid", 12], ["premium", 12]]);
+const BEDDING_SPEC_PREFIXES = {
+  bedsheet: ["類型：", "組合內容：", "材質：", "織法／支數：", "適用床墊：", "尺寸：", "可包覆高度：", "認證／產地：", "清潔保養：", "重量："],
+  comforter: ["類型：", "組合內容：", "表布材質：", "填充材質：", "填充比例／蓬鬆度：", "適用季節／保暖性：", "尺寸：", "填充重量：", "重量：", "認證／產地：", "清潔保養："],
+  pillow: ["類型：", "枕型／睡姿：", "表布材質：", "填充／核心材質：", "高度／軟硬度：", "尺寸：", "重量：", "透氣／溫控：", "認證／產地：", "清潔保養："],
+};
+const POSITIVE_MEASUREMENT_NUMBER = "(?:0*[1-9]\\d*(?:\\.\\d+)?|0+\\.\\d*[1-9]\\d*)";
+const POSITIVE_MEASUREMENT_VALUE_PATTERN = `${POSITIVE_MEASUREMENT_NUMBER}(?:[-–／/]${POSITIVE_MEASUREMENT_NUMBER})?`;
+const BEDDING_DIMENSION_SEGMENT = `(?=[^；]*寬 ${POSITIVE_MEASUREMENT_VALUE_PATTERN})(?=[^；]*(?:長|深) ${POSITIVE_MEASUREMENT_VALUE_PATTERN})(?<beddingAxis1>[長寬深高]) ${POSITIVE_MEASUREMENT_VALUE_PATTERN} x (?!\\k<beddingAxis1>)(?<beddingAxis2>[長寬深高]) ${POSITIVE_MEASUREMENT_VALUE_PATTERN}(?: x (?!\\k<beddingAxis1>|\\k<beddingAxis2>)[長寬深高] ${POSITIVE_MEASUREMENT_VALUE_PATTERN})? cm`;
+const BEDDING_DIMENSION_PATTERN = new RegExp(`^尺寸：${FORBIDDEN_MEASUREMENT_LABEL_PATTERN}(查不到|${BEDDING_DIMENSION_SEGMENT})$`, "iu");
+const BEDDING_WEIGHT_SEGMENT = `(?:[^；]+ )?(?:約 )?${POSITIVE_MEASUREMENT_VALUE_PATTERN} kg`;
+const BEDDING_WEIGHT_PATTERN = new RegExp(`^重量：(?!.*(?:包裝|外箱|紙箱|毛重|gross|carton|shipping|填充(?:物)?重量))(查不到|${BEDDING_WEIGHT_SEGMENT}(?:；${BEDDING_WEIGHT_SEGMENT})*)$`, "iu");
 
 function dimensionPatternForCategory(category) {
   if (category === "mousepad") return MOUSEPAD_DIMENSION_PATTERN;
+  if (Object.hasOwn(BEDDING_TYPES, category)) return BEDDING_DIMENSION_PATTERN;
   return Object.hasOwn(PERIPHERAL_TYPES, category) ? PERIPHERAL_DIMENSION_PATTERN : DIMENSION_PATTERN;
 }
 
 function weightPatternForCategory(category) {
+  if (Object.hasOwn(BEDDING_TYPES, category)) return BEDDING_WEIGHT_PATTERN;
   return Object.hasOwn(PERIPHERAL_TYPES, category) ? PERIPHERAL_WEIGHT_PATTERN : WEIGHT_PATTERN;
 }
 const WEIGHT_CONFIDENCE_VALUES = new Set(["high", "medium", "low", "not_found"]);
@@ -422,6 +450,10 @@ module.exports = {
   PERIPHERAL_TYPES,
   PERIPHERAL_BUDGET_COUNTS,
   PERIPHERAL_SPEC_PREFIXES,
+  BEDDING_TYPES,
+  BEDDING_BUDGET_COUNTS,
+  BEDDING_SPEC_PREFIXES,
+  POSITIVE_MEASUREMENT_VALUE_PATTERN,
   dimensionPatternForCategory,
   weightPatternForCategory,
   WEIGHT_CONFIDENCE_VALUES,

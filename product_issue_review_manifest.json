@@ -79883,6 +79883,3110 @@
           "reviewedAt": "2026-09-01"
         }
       ]
+    },
+    {
+      "id": "bedsheet-nitori-2115100136769",
+      "category": "bedsheet",
+      "brand": "NITORI",
+      "model": "2115100136769",
+      "name": "素色天絲床包 NV 雙人 150×186 cm",
+      "status": "completed",
+      "reviewedAt": "2026-09-01",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "PTT",
+        "Mobile01"
+      ],
+      "queries": [
+        {
+          "platform": "PTT",
+          "query": "site:ptt.cc \"2115100136769\" (問題 OR 災情 OR 負評)",
+          "targetHost": "ptt.cc",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%222115100136769%22%20(%E5%95%8F%E9%A1%8C%20OR%20%E7%81%BD%E6%83%85%20OR%20%E8%B2%A0%E8%A9%95)"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"2115100136769\" (問題 OR 災情 OR 負評)",
+          "targetHost": "mobile01.com",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%222115100136769%22%20(%E5%95%8F%E9%A1%8C%20OR%20%E7%81%BD%E6%83%85%20OR%20%E8%B2%A0%E8%A9%95)"
+        }
+      ],
+      "candidateDisposition": "2115100136769：2026-09-01 以 Chrome 人工檢查 PTT 與 Mobile01 兩組含完整 official SKU 的 exact-model 查詢；兩站均未出現可回到原始頁核對的 exact-model 使用者負評候選，沒有作者或原文可計入，故不虛構 no-common 證據，也不借同系列、花色、尺寸或數字碰撞湊門檻。",
+      "representativeSources": [],
+      "reviewerNote": "2115100136769：2026-09-01 以 Chrome 人工檢查 PTT 與 Mobile01 兩組含完整 official SKU 的 exact-model 查詢；兩站均未出現可回到原始頁核對的 exact-model 使用者負評候選，沒有作者或原文可計入，故不虛構 no-common 證據，也不借同系列、花色、尺寸或數字碰撞湊門檻。",
+      "attestation": "manual_cross_site_search_reviewed_no_candidate",
+      "candidateReviews": [],
+      "reviewBatch": "bedsheet"
+    },
+    {
+      "id": "bedsheet-hola-014366794",
+      "category": "bedsheet",
+      "brand": "HOLA",
+      "model": "014366794",
+      "name": "查莉 100% 亞麻床包雙人 暮灰 150×186 cm",
+      "status": "completed",
+      "reviewedAt": "2026-09-01",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "PTT",
+        "Mobile01"
+      ],
+      "queries": [
+        {
+          "platform": "PTT",
+          "query": "site:ptt.cc \"014366794\" (問題 OR 災情 OR 負評)",
+          "targetHost": "ptt.cc",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22014366794%22%20(%E5%95%8F%E9%A1%8C%20OR%20%E7%81%BD%E6%83%85%20OR%20%E8%B2%A0%E8%A9%95)"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"014366794\" (問題 OR 災情 OR 負評)",
+          "targetHost": "mobile01.com",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22014366794%22%20(%E5%95%8F%E9%A1%8C%20OR%20%E7%81%BD%E6%83%85%20OR%20%E8%B2%A0%E8%A9%95)"
+        }
+      ],
+      "candidateDisposition": "014366794：2026-09-01 以 Chrome 人工檢查 PTT 與 Mobile01 兩組含完整 official SKU 的 exact-model 查詢；兩站均未出現可回到原始頁核對的 exact-model 使用者負評候選，沒有作者或原文可計入，故不虛構 no-common 證據，也不借同系列、花色、尺寸或數字碰撞湊門檻。",
+      "representativeSources": [],
+      "reviewerNote": "014366794：2026-09-01 以 Chrome 人工檢查 PTT 與 Mobile01 兩組含完整 official SKU 的 exact-model 查詢；兩站均未出現可回到原始頁核對的 exact-model 使用者負評候選，沒有作者或原文可計入，故不虛構 no-common 證據，也不借同系列、花色、尺寸或數字碰撞湊門檻。",
+      "attestation": "manual_cross_site_search_reviewed_no_candidate",
+      "candidateReviews": [],
+      "reviewBatch": "bedsheet"
+    },
+    {
+      "id": "bedsheet-ikea-50336953",
+      "category": "bedsheet",
+      "brand": "IKEA",
+      "model": "503.369.53",
+      "name": "ULLVIDE 雙人床包 灰色 150×200 cm",
+      "status": "completed",
+      "reviewedAt": "2026-09-01",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "PTT",
+        "Mobile01"
+      ],
+      "queries": [
+        {
+          "platform": "PTT",
+          "query": "site:ptt.cc \"503.369.53\" (問題 OR 災情 OR 負評)",
+          "targetHost": "ptt.cc",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22503.369.53%22%20(%E5%95%8F%E9%A1%8C%20OR%20%E7%81%BD%E6%83%85%20OR%20%E8%B2%A0%E8%A9%95)"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"503.369.53\" (問題 OR 災情 OR 負評)",
+          "targetHost": "mobile01.com",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22503.369.53%22%20(%E5%95%8F%E9%A1%8C%20OR%20%E7%81%BD%E6%83%85%20OR%20%E8%B2%A0%E8%A9%95)"
+        }
+      ],
+      "candidateDisposition": "503.369.53：2026-09-01 以 Chrome 人工檢查 PTT 與 Mobile01 兩組含完整 official SKU 的 exact-model 查詢；兩站均未出現可回到原始頁核對的 exact-model 使用者負評候選，沒有作者或原文可計入，故不虛構 no-common 證據，也不借同系列、花色、尺寸或數字碰撞湊門檻。",
+      "representativeSources": [],
+      "reviewerNote": "503.369.53：2026-09-01 以 Chrome 人工檢查 PTT 與 Mobile01 兩組含完整 official SKU 的 exact-model 查詢；兩站均未出現可回到原始頁核對的 exact-model 使用者負評候選，沒有作者或原文可計入，故不虛構 no-common 證據，也不借同系列、花色、尺寸或數字碰撞湊門檻。",
+      "attestation": "manual_cross_site_search_reviewed_no_candidate",
+      "candidateReviews": [],
+      "reviewBatch": "bedsheet"
+    },
+    {
+      "id": "bedsheet-nitori-7518868",
+      "category": "bedsheet",
+      "brand": "NITORI",
+      "model": "7518868",
+      "name": "N HOTEL 純棉多種厚度對應床包 WH 雙人",
+      "status": "completed",
+      "reviewedAt": "2026-09-01",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "PTT",
+        "Mobile01"
+      ],
+      "queries": [
+        {
+          "platform": "PTT",
+          "query": "site:ptt.cc \"7518868\" (問題 OR 災情 OR 負評)",
+          "targetHost": "ptt.cc",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%227518868%22%20(%E5%95%8F%E9%A1%8C%20OR%20%E7%81%BD%E6%83%85%20OR%20%E8%B2%A0%E8%A9%95)"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"7518868\" (問題 OR 災情 OR 負評)",
+          "targetHost": "mobile01.com",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%227518868%22%20(%E5%95%8F%E9%A1%8C%20OR%20%E7%81%BD%E6%83%85%20OR%20%E8%B2%A0%E8%A9%95)"
+        }
+      ],
+      "candidateDisposition": "7518868：2026-09-01 以 Chrome 人工檢查 PTT 與 Mobile01 兩組含完整 official SKU 的 exact-model 查詢；兩站均未出現可回到原始頁核對的 exact-model 使用者負評候選，沒有作者或原文可計入，故不虛構 no-common 證據，也不借同系列、花色、尺寸或數字碰撞湊門檻。",
+      "representativeSources": [],
+      "reviewerNote": "7518868：2026-09-01 以 Chrome 人工檢查 PTT 與 Mobile01 兩組含完整 official SKU 的 exact-model 查詢；兩站均未出現可回到原始頁核對的 exact-model 使用者負評候選，沒有作者或原文可計入，故不虛構 no-common 證據，也不借同系列、花色、尺寸或數字碰撞湊門檻。",
+      "attestation": "manual_cross_site_search_reviewed_no_candidate",
+      "candidateReviews": [],
+      "reviewBatch": "bedsheet"
+    },
+    {
+      "id": "bedsheet-ikea-00442673",
+      "category": "bedsheet",
+      "brand": "IKEA",
+      "model": "004.426.73",
+      "name": "NATTJASMIN 雙人床包 深灰色 150×200 cm",
+      "status": "completed",
+      "reviewedAt": "2026-09-01",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "PTT",
+        "Mobile01"
+      ],
+      "queries": [
+        {
+          "platform": "PTT",
+          "query": "site:ptt.cc \"004.426.73\" (問題 OR 災情 OR 負評)",
+          "targetHost": "ptt.cc",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22004.426.73%22%20(%E5%95%8F%E9%A1%8C%20OR%20%E7%81%BD%E6%83%85%20OR%20%E8%B2%A0%E8%A9%95)"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"004.426.73\" (問題 OR 災情 OR 負評)",
+          "targetHost": "mobile01.com",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22004.426.73%22%20(%E5%95%8F%E9%A1%8C%20OR%20%E7%81%BD%E6%83%85%20OR%20%E8%B2%A0%E8%A9%95)"
+        }
+      ],
+      "candidateDisposition": "004.426.73：2026-09-01 以 Chrome 人工檢查 PTT 與 Mobile01 兩組含完整 official SKU 的 exact-model 查詢；兩站均未出現可回到原始頁核對的 exact-model 使用者負評候選，沒有作者或原文可計入，故不虛構 no-common 證據，也不借同系列、花色、尺寸或數字碰撞湊門檻。",
+      "representativeSources": [],
+      "reviewerNote": "004.426.73：2026-09-01 以 Chrome 人工檢查 PTT 與 Mobile01 兩組含完整 official SKU 的 exact-model 查詢；兩站均未出現可回到原始頁核對的 exact-model 使用者負評候選，沒有作者或原文可計入，故不虛構 no-common 證據，也不借同系列、花色、尺寸或數字碰撞湊門檻。",
+      "attestation": "manual_cross_site_search_reviewed_no_candidate",
+      "candidateReviews": [],
+      "reviewBatch": "bedsheet"
+    },
+    {
+      "id": "bedsheet-nitori-7518131",
+      "category": "bedsheet",
+      "brand": "NITORI",
+      "model": "7518131",
+      "name": "POLY WASH 聚酯床包 GY 單人",
+      "status": "completed",
+      "reviewedAt": "2026-09-01",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "PTT",
+        "Mobile01"
+      ],
+      "queries": [
+        {
+          "platform": "PTT",
+          "query": "site:ptt.cc \"7518131\" (問題 OR 災情 OR 負評)",
+          "targetHost": "ptt.cc",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%227518131%22%20(%E5%95%8F%E9%A1%8C%20OR%20%E7%81%BD%E6%83%85%20OR%20%E8%B2%A0%E8%A9%95)"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"7518131\" (問題 OR 災情 OR 負評)",
+          "targetHost": "mobile01.com",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%227518131%22%20(%E5%95%8F%E9%A1%8C%20OR%20%E7%81%BD%E6%83%85%20OR%20%E8%B2%A0%E8%A9%95)"
+        }
+      ],
+      "candidateDisposition": "7518131：2026-09-01 以 Chrome 人工檢查 PTT 與 Mobile01 兩組含完整 official SKU 的 exact-model 查詢；兩站均未出現可回到原始頁核對的 exact-model 使用者負評候選，沒有作者或原文可計入，故不虛構 no-common 證據，也不借同系列、花色、尺寸或數字碰撞湊門檻。",
+      "representativeSources": [],
+      "reviewerNote": "7518131：2026-09-01 以 Chrome 人工檢查 PTT 與 Mobile01 兩組含完整 official SKU 的 exact-model 查詢；兩站均未出現可回到原始頁核對的 exact-model 使用者負評候選，沒有作者或原文可計入，故不虛構 no-common 證據，也不借同系列、花色、尺寸或數字碰撞湊門檻。",
+      "attestation": "manual_cross_site_search_reviewed_no_candidate",
+      "candidateReviews": [],
+      "reviewBatch": "bedsheet"
+    },
+    {
+      "id": "bedsheet-ikea-30482460",
+      "category": "bedsheet",
+      "brand": "IKEA",
+      "model": "304.824.60",
+      "name": "DVALA 單人床包 白色 90×200 cm",
+      "status": "completed",
+      "reviewedAt": "2026-09-01",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "PTT",
+        "Mobile01"
+      ],
+      "queries": [
+        {
+          "platform": "PTT",
+          "query": "site:ptt.cc \"304.824.60\" (問題 OR 災情 OR 負評)",
+          "targetHost": "ptt.cc",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22304.824.60%22%20(%E5%95%8F%E9%A1%8C%20OR%20%E7%81%BD%E6%83%85%20OR%20%E8%B2%A0%E8%A9%95)"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"304.824.60\" (問題 OR 災情 OR 負評)",
+          "targetHost": "mobile01.com",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22304.824.60%22%20(%E5%95%8F%E9%A1%8C%20OR%20%E7%81%BD%E6%83%85%20OR%20%E8%B2%A0%E8%A9%95)"
+        }
+      ],
+      "candidateDisposition": "304.824.60：2026-09-01 以 Chrome 人工檢查 PTT 與 Mobile01 兩組含完整 official SKU 的 exact-model 查詢；兩站均未出現可回到原始頁核對的 exact-model 使用者負評候選，沒有作者或原文可計入，故不虛構 no-common 證據，也不借同系列、花色、尺寸或數字碰撞湊門檻。",
+      "representativeSources": [],
+      "reviewerNote": "304.824.60：2026-09-01 以 Chrome 人工檢查 PTT 與 Mobile01 兩組含完整 official SKU 的 exact-model 查詢；兩站均未出現可回到原始頁核對的 exact-model 使用者負評候選，沒有作者或原文可計入，故不虛構 no-common 證據，也不借同系列、花色、尺寸或數字碰撞湊門檻。",
+      "attestation": "manual_cross_site_search_reviewed_no_candidate",
+      "candidateReviews": [],
+      "reviewBatch": "bedsheet"
+    },
+    {
+      "id": "bedsheet-nitori-7516608",
+      "category": "bedsheet",
+      "brand": "NITORI",
+      "model": "7516608",
+      "name": "N FIT EVE2 伸縮床包 DBR 單人",
+      "status": "completed",
+      "reviewedAt": "2026-09-01",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "PTT",
+        "Mobile01"
+      ],
+      "queries": [
+        {
+          "platform": "PTT",
+          "query": "site:ptt.cc \"7516608\" (問題 OR 災情 OR 負評)",
+          "targetHost": "ptt.cc",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%227516608%22%20(%E5%95%8F%E9%A1%8C%20OR%20%E7%81%BD%E6%83%85%20OR%20%E8%B2%A0%E8%A9%95)"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"7516608\" (問題 OR 災情 OR 負評)",
+          "targetHost": "mobile01.com",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%227516608%22%20(%E5%95%8F%E9%A1%8C%20OR%20%E7%81%BD%E6%83%85%20OR%20%E8%B2%A0%E8%A9%95)"
+        }
+      ],
+      "candidateDisposition": "7516608：2026-09-01 以 Chrome 人工檢查 PTT 與 Mobile01 兩組含完整 official SKU 的 exact-model 查詢；兩站均未出現可回到原始頁核對的 exact-model 使用者負評候選，沒有作者或原文可計入，故不虛構 no-common 證據，也不借同系列、花色、尺寸或數字碰撞湊門檻。",
+      "representativeSources": [],
+      "reviewerNote": "7516608：2026-09-01 以 Chrome 人工檢查 PTT 與 Mobile01 兩組含完整 official SKU 的 exact-model 查詢；兩站均未出現可回到原始頁核對的 exact-model 使用者負評候選，沒有作者或原文可計入，故不虛構 no-common 證據，也不借同系列、花色、尺寸或數字碰撞湊門檻。",
+      "attestation": "manual_cross_site_search_reviewed_no_candidate",
+      "candidateReviews": [],
+      "reviewBatch": "bedsheet"
+    },
+    {
+      "id": "bedsheet-ikea-60482449",
+      "category": "bedsheet",
+      "brand": "IKEA",
+      "model": "604.824.49",
+      "name": "DVALA 雙人床包 白色 150×200 cm",
+      "status": "completed",
+      "reviewedAt": "2026-09-01",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "PTT",
+        "Mobile01"
+      ],
+      "queries": [
+        {
+          "platform": "PTT",
+          "query": "site:ptt.cc \"604.824.49\" (問題 OR 災情 OR 負評)",
+          "targetHost": "ptt.cc",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22604.824.49%22%20(%E5%95%8F%E9%A1%8C%20OR%20%E7%81%BD%E6%83%85%20OR%20%E8%B2%A0%E8%A9%95)"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"604.824.49\" (問題 OR 災情 OR 負評)",
+          "targetHost": "mobile01.com",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22604.824.49%22%20(%E5%95%8F%E9%A1%8C%20OR%20%E7%81%BD%E6%83%85%20OR%20%E8%B2%A0%E8%A9%95)"
+        }
+      ],
+      "candidateDisposition": "604.824.49：2026-09-01 以 Chrome 人工檢查 PTT 與 Mobile01 兩組含完整 official SKU 的 exact-model 查詢；兩站均未出現可回到原始頁核對的 exact-model 使用者負評候選，沒有作者或原文可計入，故不虛構 no-common 證據，也不借同系列、花色、尺寸或數字碰撞湊門檻。",
+      "representativeSources": [],
+      "reviewerNote": "604.824.49：2026-09-01 以 Chrome 人工檢查 PTT 與 Mobile01 兩組含完整 official SKU 的 exact-model 查詢；兩站均未出現可回到原始頁核對的 exact-model 使用者負評候選，沒有作者或原文可計入，故不虛構 no-common 證據，也不借同系列、花色、尺寸或數字碰撞湊門檻。",
+      "attestation": "manual_cross_site_search_reviewed_no_candidate",
+      "candidateReviews": [],
+      "reviewBatch": "bedsheet"
+    },
+    {
+      "id": "bedsheet-ikea-60482454",
+      "category": "bedsheet",
+      "brand": "IKEA",
+      "model": "604.824.54",
+      "name": "DVALA 雙人加大床包 白色 180×200 cm",
+      "status": "completed",
+      "reviewedAt": "2026-09-01",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "PTT",
+        "Mobile01"
+      ],
+      "queries": [
+        {
+          "platform": "PTT",
+          "query": "site:ptt.cc \"604.824.54\" (問題 OR 災情 OR 負評)",
+          "targetHost": "ptt.cc",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22604.824.54%22%20(%E5%95%8F%E9%A1%8C%20OR%20%E7%81%BD%E6%83%85%20OR%20%E8%B2%A0%E8%A9%95)"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"604.824.54\" (問題 OR 災情 OR 負評)",
+          "targetHost": "mobile01.com",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22604.824.54%22%20(%E5%95%8F%E9%A1%8C%20OR%20%E7%81%BD%E6%83%85%20OR%20%E8%B2%A0%E8%A9%95)"
+        }
+      ],
+      "candidateDisposition": "604.824.54：2026-09-01 以 Chrome 人工檢查 PTT 與 Mobile01 兩組含完整 official SKU 的 exact-model 查詢；兩站均未出現可回到原始頁核對的 exact-model 使用者負評候選，沒有作者或原文可計入，故不虛構 no-common 證據，也不借同系列、花色、尺寸或數字碰撞湊門檻。",
+      "representativeSources": [],
+      "reviewerNote": "604.824.54：2026-09-01 以 Chrome 人工檢查 PTT 與 Mobile01 兩組含完整 official SKU 的 exact-model 查詢；兩站均未出現可回到原始頁核對的 exact-model 使用者負評候選，沒有作者或原文可計入，故不虛構 no-common 證據，也不借同系列、花色、尺寸或數字碰撞湊門檻。",
+      "attestation": "manual_cross_site_search_reviewed_no_candidate",
+      "candidateReviews": [],
+      "reviewBatch": "bedsheet"
+    },
+    {
+      "id": "bedsheet-nitori-7518718",
+      "category": "bedsheet",
+      "brand": "NITORI",
+      "model": "7518718",
+      "name": "WASH 水洗純棉多種厚度對應床包 DGY 單人",
+      "status": "completed",
+      "reviewedAt": "2026-09-01",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "PTT",
+        "Mobile01"
+      ],
+      "queries": [
+        {
+          "platform": "PTT",
+          "query": "site:ptt.cc \"7518718\" (問題 OR 災情 OR 負評)",
+          "targetHost": "ptt.cc",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%227518718%22%20(%E5%95%8F%E9%A1%8C%20OR%20%E7%81%BD%E6%83%85%20OR%20%E8%B2%A0%E8%A9%95)"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"7518718\" (問題 OR 災情 OR 負評)",
+          "targetHost": "mobile01.com",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%227518718%22%20(%E5%95%8F%E9%A1%8C%20OR%20%E7%81%BD%E6%83%85%20OR%20%E8%B2%A0%E8%A9%95)"
+        }
+      ],
+      "candidateDisposition": "7518718：2026-09-01 以 Chrome 人工檢查 PTT 與 Mobile01 兩組含完整 official SKU 的 exact-model 查詢；兩站均未出現可回到原始頁核對的 exact-model 使用者負評候選，沒有作者或原文可計入，故不虛構 no-common 證據，也不借同系列、花色、尺寸或數字碰撞湊門檻。",
+      "representativeSources": [],
+      "reviewerNote": "7518718：2026-09-01 以 Chrome 人工檢查 PTT 與 Mobile01 兩組含完整 official SKU 的 exact-model 查詢；兩站均未出現可回到原始頁核對的 exact-model 使用者負評候選，沒有作者或原文可計入，故不虛構 no-common 證據，也不借同系列、花色、尺寸或數字碰撞湊門檻。",
+      "attestation": "manual_cross_site_search_reviewed_no_candidate",
+      "candidateReviews": [],
+      "reviewBatch": "bedsheet"
+    },
+    {
+      "id": "bedsheet-nitori-2115100119564",
+      "category": "bedsheet",
+      "brand": "NITORI",
+      "model": "2115100119564",
+      "name": "竹纖緞面多種厚度對應床包 GY S2611 單人",
+      "status": "completed",
+      "reviewedAt": "2026-09-01",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "PTT",
+        "Mobile01"
+      ],
+      "queries": [
+        {
+          "platform": "PTT",
+          "query": "site:ptt.cc \"2115100119564\" (問題 OR 災情 OR 負評)",
+          "targetHost": "ptt.cc",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%222115100119564%22%20(%E5%95%8F%E9%A1%8C%20OR%20%E7%81%BD%E6%83%85%20OR%20%E8%B2%A0%E8%A9%95)"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"2115100119564\" (問題 OR 災情 OR 負評)",
+          "targetHost": "mobile01.com",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%222115100119564%22%20(%E5%95%8F%E9%A1%8C%20OR%20%E7%81%BD%E6%83%85%20OR%20%E8%B2%A0%E8%A9%95)"
+        }
+      ],
+      "candidateDisposition": "2115100119564：2026-09-01 以 Chrome 人工檢查 PTT 與 Mobile01 兩組含完整 official SKU 的 exact-model 查詢；兩站均未出現可回到原始頁核對的 exact-model 使用者負評候選，沒有作者或原文可計入，故不虛構 no-common 證據，也不借同系列、花色、尺寸或數字碰撞湊門檻。",
+      "representativeSources": [],
+      "reviewerNote": "2115100119564：2026-09-01 以 Chrome 人工檢查 PTT 與 Mobile01 兩組含完整 official SKU 的 exact-model 查詢；兩站均未出現可回到原始頁核對的 exact-model 使用者負評候選，沒有作者或原文可計入，故不虛構 no-common 證據，也不借同系列、花色、尺寸或數字碰撞湊門檻。",
+      "attestation": "manual_cross_site_search_reviewed_no_candidate",
+      "candidateReviews": [],
+      "reviewBatch": "bedsheet"
+    },
+    {
+      "id": "bedsheet-ikea-20458856",
+      "category": "bedsheet",
+      "brand": "IKEA",
+      "model": "204.588.56",
+      "name": "HÖSTVÄDD 單人加寬涼感床包 120×200 cm",
+      "status": "completed",
+      "reviewedAt": "2026-09-01",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "PTT",
+        "Mobile01"
+      ],
+      "queries": [
+        {
+          "platform": "PTT",
+          "query": "site:ptt.cc \"204.588.56\" (問題 OR 災情 OR 負評)",
+          "targetHost": "ptt.cc",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22204.588.56%22%20(%E5%95%8F%E9%A1%8C%20OR%20%E7%81%BD%E6%83%85%20OR%20%E8%B2%A0%E8%A9%95)"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"204.588.56\" (問題 OR 災情 OR 負評)",
+          "targetHost": "mobile01.com",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22204.588.56%22%20(%E5%95%8F%E9%A1%8C%20OR%20%E7%81%BD%E6%83%85%20OR%20%E8%B2%A0%E8%A9%95)"
+        }
+      ],
+      "candidateDisposition": "204.588.56：2026-09-01 以 Chrome 人工檢查 PTT 與 Mobile01 兩組含完整 official SKU 的 exact-model 查詢；兩站均未出現可回到原始頁核對的 exact-model 使用者負評候選，沒有作者或原文可計入，故不虛構 no-common 證據，也不借同系列、花色、尺寸或數字碰撞湊門檻。",
+      "representativeSources": [],
+      "reviewerNote": "204.588.56：2026-09-01 以 Chrome 人工檢查 PTT 與 Mobile01 兩組含完整 official SKU 的 exact-model 查詢；兩站均未出現可回到原始頁核對的 exact-model 使用者負評候選，沒有作者或原文可計入，故不虛構 no-common 證據，也不借同系列、花色、尺寸或數字碰撞湊門檻。",
+      "attestation": "manual_cross_site_search_reviewed_no_candidate",
+      "candidateReviews": [],
+      "reviewBatch": "bedsheet"
+    },
+    {
+      "id": "bedsheet-ikea-00458857",
+      "category": "bedsheet",
+      "brand": "IKEA",
+      "model": "004.588.57",
+      "name": "HÖSTVÄDD 雙人涼感床包 150×200 cm",
+      "status": "completed",
+      "reviewedAt": "2026-09-01",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "PTT",
+        "Mobile01"
+      ],
+      "queries": [
+        {
+          "platform": "PTT",
+          "query": "site:ptt.cc \"004.588.57\" (問題 OR 災情 OR 負評)",
+          "targetHost": "ptt.cc",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22004.588.57%22%20(%E5%95%8F%E9%A1%8C%20OR%20%E7%81%BD%E6%83%85%20OR%20%E8%B2%A0%E8%A9%95)"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"004.588.57\" (問題 OR 災情 OR 負評)",
+          "targetHost": "mobile01.com",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22004.588.57%22%20(%E5%95%8F%E9%A1%8C%20OR%20%E7%81%BD%E6%83%85%20OR%20%E8%B2%A0%E8%A9%95)"
+        }
+      ],
+      "candidateDisposition": "004.588.57：2026-09-01 以 Chrome 人工檢查 PTT 與 Mobile01 兩組含完整 official SKU 的 exact-model 查詢；兩站均未出現可回到原始頁核對的 exact-model 使用者負評候選，沒有作者或原文可計入，故不虛構 no-common 證據，也不借同系列、花色、尺寸或數字碰撞湊門檻。",
+      "representativeSources": [],
+      "reviewerNote": "004.588.57：2026-09-01 以 Chrome 人工檢查 PTT 與 Mobile01 兩組含完整 official SKU 的 exact-model 查詢；兩站均未出現可回到原始頁核對的 exact-model 使用者負評候選，沒有作者或原文可計入，故不虛構 no-common 證據，也不借同系列、花色、尺寸或數字碰撞湊門檻。",
+      "attestation": "manual_cross_site_search_reviewed_no_candidate",
+      "candidateReviews": [],
+      "reviewBatch": "bedsheet"
+    },
+    {
+      "id": "bedsheet-ikea-80458858",
+      "category": "bedsheet",
+      "brand": "IKEA",
+      "model": "804.588.58",
+      "name": "HÖSTVÄDD 雙人加大涼感床包 180×200 cm",
+      "status": "completed",
+      "reviewedAt": "2026-09-01",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "PTT",
+        "Mobile01"
+      ],
+      "queries": [
+        {
+          "platform": "PTT",
+          "query": "site:ptt.cc \"804.588.58\" (問題 OR 災情 OR 負評)",
+          "targetHost": "ptt.cc",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22804.588.58%22%20(%E5%95%8F%E9%A1%8C%20OR%20%E7%81%BD%E6%83%85%20OR%20%E8%B2%A0%E8%A9%95)"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"804.588.58\" (問題 OR 災情 OR 負評)",
+          "targetHost": "mobile01.com",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22804.588.58%22%20(%E5%95%8F%E9%A1%8C%20OR%20%E7%81%BD%E6%83%85%20OR%20%E8%B2%A0%E8%A9%95)"
+        }
+      ],
+      "candidateDisposition": "804.588.58：2026-09-01 以 Chrome 人工檢查 PTT 與 Mobile01 兩組含完整 official SKU 的 exact-model 查詢；兩站均未出現可回到原始頁核對的 exact-model 使用者負評候選，沒有作者或原文可計入，故不虛構 no-common 證據，也不借同系列、花色、尺寸或數字碰撞湊門檻。",
+      "representativeSources": [],
+      "reviewerNote": "804.588.58：2026-09-01 以 Chrome 人工檢查 PTT 與 Mobile01 兩組含完整 official SKU 的 exact-model 查詢；兩站均未出現可回到原始頁核對的 exact-model 使用者負評候選，沒有作者或原文可計入，故不虛構 no-common 證據，也不借同系列、花色、尺寸或數字碰撞湊門檻。",
+      "attestation": "manual_cross_site_search_reviewed_no_candidate",
+      "candidateReviews": [],
+      "reviewBatch": "bedsheet"
+    },
+    {
+      "id": "bedsheet-nitori-2115100107202",
+      "category": "bedsheet",
+      "brand": "NITORI",
+      "model": "2115100107202",
+      "name": "N FIT FT05 COTTON 伸縮床包 GY 單人",
+      "status": "completed",
+      "reviewedAt": "2026-09-01",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "PTT",
+        "Mobile01"
+      ],
+      "queries": [
+        {
+          "platform": "PTT",
+          "query": "site:ptt.cc \"2115100107202\" (問題 OR 災情 OR 負評)",
+          "targetHost": "ptt.cc",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%222115100107202%22%20(%E5%95%8F%E9%A1%8C%20OR%20%E7%81%BD%E6%83%85%20OR%20%E8%B2%A0%E8%A9%95)"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"2115100107202\" (問題 OR 災情 OR 負評)",
+          "targetHost": "mobile01.com",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%222115100107202%22%20(%E5%95%8F%E9%A1%8C%20OR%20%E7%81%BD%E6%83%85%20OR%20%E8%B2%A0%E8%A9%95)"
+        }
+      ],
+      "candidateDisposition": "2115100107202：2026-09-01 以 Chrome 人工檢查 PTT 與 Mobile01 兩組含完整 official SKU 的 exact-model 查詢；兩站均未出現可回到原始頁核對的 exact-model 使用者負評候選，沒有作者或原文可計入，故不虛構 no-common 證據，也不借同系列、花色、尺寸或數字碰撞湊門檻。",
+      "representativeSources": [],
+      "reviewerNote": "2115100107202：2026-09-01 以 Chrome 人工檢查 PTT 與 Mobile01 兩組含完整 official SKU 的 exact-model 查詢；兩站均未出現可回到原始頁核對的 exact-model 使用者負評候選，沒有作者或原文可計入，故不虛構 no-common 證據，也不借同系列、花色、尺寸或數字碰撞湊門檻。",
+      "attestation": "manual_cross_site_search_reviewed_no_candidate",
+      "candidateReviews": [],
+      "reviewBatch": "bedsheet"
+    },
+    {
+      "id": "bedsheet-nitori-2115100006123",
+      "category": "bedsheet",
+      "brand": "NITORI",
+      "model": "2115100006123",
+      "name": "PT30 BOTANICAL 純棉多種厚度對應床包 RO 單人",
+      "status": "completed",
+      "reviewedAt": "2026-09-01",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "PTT",
+        "Mobile01"
+      ],
+      "queries": [
+        {
+          "platform": "PTT",
+          "query": "site:ptt.cc \"2115100006123\" (問題 OR 災情 OR 負評)",
+          "targetHost": "ptt.cc",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%222115100006123%22%20(%E5%95%8F%E9%A1%8C%20OR%20%E7%81%BD%E6%83%85%20OR%20%E8%B2%A0%E8%A9%95)"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"2115100006123\" (問題 OR 災情 OR 負評)",
+          "targetHost": "mobile01.com",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%222115100006123%22%20(%E5%95%8F%E9%A1%8C%20OR%20%E7%81%BD%E6%83%85%20OR%20%E8%B2%A0%E8%A9%95)"
+        }
+      ],
+      "candidateDisposition": "2115100006123：2026-09-01 以 Chrome 人工檢查 PTT 與 Mobile01 兩組含完整 official SKU 的 exact-model 查詢；兩站均未出現可回到原始頁核對的 exact-model 使用者負評候選，沒有作者或原文可計入，故不虛構 no-common 證據，也不借同系列、花色、尺寸或數字碰撞湊門檻。",
+      "representativeSources": [],
+      "reviewerNote": "2115100006123：2026-09-01 以 Chrome 人工檢查 PTT 與 Mobile01 兩組含完整 official SKU 的 exact-model 查詢；兩站均未出現可回到原始頁核對的 exact-model 使用者負評候選，沒有作者或原文可計入，故不虛構 no-common 證據，也不借同系列、花色、尺寸或數字碰撞湊門檻。",
+      "attestation": "manual_cross_site_search_reviewed_no_candidate",
+      "candidateReviews": [],
+      "reviewBatch": "bedsheet"
+    },
+    {
+      "id": "bedsheet-nitori-7518634",
+      "category": "bedsheet",
+      "brand": "NITORI",
+      "model": "7518634",
+      "name": "天絲塞內加爾床包 單人 105×186 cm",
+      "status": "completed",
+      "reviewedAt": "2026-09-01",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "PTT",
+        "Mobile01"
+      ],
+      "queries": [
+        {
+          "platform": "PTT",
+          "query": "site:ptt.cc \"7518634\" (問題 OR 災情 OR 負評)",
+          "targetHost": "ptt.cc",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%227518634%22%20(%E5%95%8F%E9%A1%8C%20OR%20%E7%81%BD%E6%83%85%20OR%20%E8%B2%A0%E8%A9%95)"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"7518634\" (問題 OR 災情 OR 負評)",
+          "targetHost": "mobile01.com",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%227518634%22%20(%E5%95%8F%E9%A1%8C%20OR%20%E7%81%BD%E6%83%85%20OR%20%E8%B2%A0%E8%A9%95)"
+        }
+      ],
+      "candidateDisposition": "7518634：2026-09-01 以 Chrome 人工檢查 PTT 與 Mobile01 兩組含完整 official SKU 的 exact-model 查詢；兩站均未出現可回到原始頁核對的 exact-model 使用者負評候選，沒有作者或原文可計入，故不虛構 no-common 證據，也不借同系列、花色、尺寸或數字碰撞湊門檻。",
+      "representativeSources": [],
+      "reviewerNote": "7518634：2026-09-01 以 Chrome 人工檢查 PTT 與 Mobile01 兩組含完整 official SKU 的 exact-model 查詢；兩站均未出現可回到原始頁核對的 exact-model 使用者負評候選，沒有作者或原文可計入，故不虛構 no-common 證據，也不借同系列、花色、尺寸或數字碰撞湊門檻。",
+      "attestation": "manual_cross_site_search_reviewed_no_candidate",
+      "candidateReviews": [],
+      "reviewBatch": "bedsheet"
+    },
+    {
+      "id": "bedsheet-nitori-2115100004365",
+      "category": "bedsheet",
+      "brand": "NITORI",
+      "model": "2115100004365",
+      "name": "N FIT FT01 PREMIUM 莫代爾伸縮床包 GY 單人",
+      "status": "completed",
+      "reviewedAt": "2026-09-01",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "PTT",
+        "Mobile01"
+      ],
+      "queries": [
+        {
+          "platform": "PTT",
+          "query": "site:ptt.cc \"2115100004365\" (問題 OR 災情 OR 負評)",
+          "targetHost": "ptt.cc",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%222115100004365%22%20(%E5%95%8F%E9%A1%8C%20OR%20%E7%81%BD%E6%83%85%20OR%20%E8%B2%A0%E8%A9%95)"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"2115100004365\" (問題 OR 災情 OR 負評)",
+          "targetHost": "mobile01.com",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%222115100004365%22%20(%E5%95%8F%E9%A1%8C%20OR%20%E7%81%BD%E6%83%85%20OR%20%E8%B2%A0%E8%A9%95)"
+        }
+      ],
+      "candidateDisposition": "2115100004365：2026-09-01 以 Chrome 人工檢查 PTT 與 Mobile01 兩組含完整 official SKU 的 exact-model 查詢；兩站均未出現可回到原始頁核對的 exact-model 使用者負評候選，沒有作者或原文可計入，故不虛構 no-common 證據，也不借同系列、花色、尺寸或數字碰撞湊門檻。",
+      "representativeSources": [],
+      "reviewerNote": "2115100004365：2026-09-01 以 Chrome 人工檢查 PTT 與 Mobile01 兩組含完整 official SKU 的 exact-model 查詢；兩站均未出現可回到原始頁核對的 exact-model 使用者負評候選，沒有作者或原文可計入，故不虛構 no-common 證據，也不借同系列、花色、尺寸或數字碰撞湊門檻。",
+      "attestation": "manual_cross_site_search_reviewed_no_candidate",
+      "candidateReviews": [],
+      "reviewBatch": "bedsheet"
+    },
+    {
+      "id": "bedsheet-nitori-2115100006703",
+      "category": "bedsheet",
+      "brand": "NITORI",
+      "model": "2115100006703",
+      "name": "N FIT PLAIN 伸縮床包 IV 雙人",
+      "status": "completed",
+      "reviewedAt": "2026-09-01",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "PTT",
+        "Mobile01"
+      ],
+      "queries": [
+        {
+          "platform": "PTT",
+          "query": "site:ptt.cc \"2115100006703\" (問題 OR 災情 OR 負評)",
+          "targetHost": "ptt.cc",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%222115100006703%22%20(%E5%95%8F%E9%A1%8C%20OR%20%E7%81%BD%E6%83%85%20OR%20%E8%B2%A0%E8%A9%95)"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"2115100006703\" (問題 OR 災情 OR 負評)",
+          "targetHost": "mobile01.com",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%222115100006703%22%20(%E5%95%8F%E9%A1%8C%20OR%20%E7%81%BD%E6%83%85%20OR%20%E8%B2%A0%E8%A9%95)"
+        }
+      ],
+      "candidateDisposition": "2115100006703：2026-09-01 以 Chrome 人工檢查 PTT 與 Mobile01 兩組含完整 official SKU 的 exact-model 查詢；兩站均未出現可回到原始頁核對的 exact-model 使用者負評候選，沒有作者或原文可計入，故不虛構 no-common 證據，也不借同系列、花色、尺寸或數字碰撞湊門檻。",
+      "representativeSources": [],
+      "reviewerNote": "2115100006703：2026-09-01 以 Chrome 人工檢查 PTT 與 Mobile01 兩組含完整 official SKU 的 exact-model 查詢；兩站均未出現可回到原始頁核對的 exact-model 使用者負評候選，沒有作者或原文可計入，故不虛構 no-common 證據，也不借同系列、花色、尺寸或數字碰撞湊門檻。",
+      "attestation": "manual_cross_site_search_reviewed_no_candidate",
+      "candidateReviews": [],
+      "reviewBatch": "bedsheet"
+    },
+    {
+      "id": "bedsheet-ikea-40335548",
+      "category": "bedsheet",
+      "brand": "IKEA",
+      "model": "403.355.48",
+      "name": "ULLVIDE 單人床包 灰色 90×200 cm",
+      "status": "completed",
+      "reviewedAt": "2026-09-01",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "PTT",
+        "Mobile01"
+      ],
+      "queries": [
+        {
+          "platform": "PTT",
+          "query": "site:ptt.cc \"403.355.48\" (問題 OR 災情 OR 負評)",
+          "targetHost": "ptt.cc",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22403.355.48%22%20(%E5%95%8F%E9%A1%8C%20OR%20%E7%81%BD%E6%83%85%20OR%20%E8%B2%A0%E8%A9%95)"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"403.355.48\" (問題 OR 災情 OR 負評)",
+          "targetHost": "mobile01.com",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22403.355.48%22%20(%E5%95%8F%E9%A1%8C%20OR%20%E7%81%BD%E6%83%85%20OR%20%E8%B2%A0%E8%A9%95)"
+        }
+      ],
+      "candidateDisposition": "403.355.48：2026-09-01 以 Chrome 人工檢查 PTT 與 Mobile01 兩組含完整 official SKU 的 exact-model 查詢；兩站均未出現可回到原始頁核對的 exact-model 使用者負評候選，沒有作者或原文可計入，故不虛構 no-common 證據，也不借同系列、花色、尺寸或數字碰撞湊門檻。",
+      "representativeSources": [],
+      "reviewerNote": "403.355.48：2026-09-01 以 Chrome 人工檢查 PTT 與 Mobile01 兩組含完整 official SKU 的 exact-model 查詢；兩站均未出現可回到原始頁核對的 exact-model 使用者負評候選，沒有作者或原文可計入，故不虛構 no-common 證據，也不借同系列、花色、尺寸或數字碰撞湊門檻。",
+      "attestation": "manual_cross_site_search_reviewed_no_candidate",
+      "candidateReviews": [],
+      "reviewBatch": "bedsheet"
+    },
+    {
+      "id": "bedsheet-ikea-90342773",
+      "category": "bedsheet",
+      "brand": "IKEA",
+      "model": "903.427.73",
+      "name": "ULLVIDE 雙人加大床包 深藍色 180×200 cm",
+      "status": "completed",
+      "reviewedAt": "2026-09-01",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "PTT",
+        "Mobile01"
+      ],
+      "queries": [
+        {
+          "platform": "PTT",
+          "query": "site:ptt.cc \"903.427.73\" (問題 OR 災情 OR 負評)",
+          "targetHost": "ptt.cc",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22903.427.73%22%20(%E5%95%8F%E9%A1%8C%20OR%20%E7%81%BD%E6%83%85%20OR%20%E8%B2%A0%E8%A9%95)"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"903.427.73\" (問題 OR 災情 OR 負評)",
+          "targetHost": "mobile01.com",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22903.427.73%22%20(%E5%95%8F%E9%A1%8C%20OR%20%E7%81%BD%E6%83%85%20OR%20%E8%B2%A0%E8%A9%95)"
+        }
+      ],
+      "candidateDisposition": "903.427.73：2026-09-01 以 Chrome 人工檢查 PTT 與 Mobile01 兩組含完整 official SKU 的 exact-model 查詢；兩站均未出現可回到原始頁核對的 exact-model 使用者負評候選，沒有作者或原文可計入，故不虛構 no-common 證據，也不借同系列、花色、尺寸或數字碰撞湊門檻。",
+      "representativeSources": [],
+      "reviewerNote": "903.427.73：2026-09-01 以 Chrome 人工檢查 PTT 與 Mobile01 兩組含完整 official SKU 的 exact-model 查詢；兩站均未出現可回到原始頁核對的 exact-model 使用者負評候選，沒有作者或原文可計入，故不虛構 no-common 證據，也不借同系列、花色、尺寸或數字碰撞湊門檻。",
+      "attestation": "manual_cross_site_search_reviewed_no_candidate",
+      "candidateReviews": [],
+      "reviewBatch": "bedsheet"
+    },
+    {
+      "id": "bedsheet-ikea-00442668",
+      "category": "bedsheet",
+      "brand": "IKEA",
+      "model": "004.426.68",
+      "name": "NATTJASMIN 單人加寬床包 深灰色 120×200 cm",
+      "status": "completed",
+      "reviewedAt": "2026-09-01",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "PTT",
+        "Mobile01"
+      ],
+      "queries": [
+        {
+          "platform": "PTT",
+          "query": "site:ptt.cc \"004.426.68\" (問題 OR 災情 OR 負評)",
+          "targetHost": "ptt.cc",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22004.426.68%22%20(%E5%95%8F%E9%A1%8C%20OR%20%E7%81%BD%E6%83%85%20OR%20%E8%B2%A0%E8%A9%95)"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"004.426.68\" (問題 OR 災情 OR 負評)",
+          "targetHost": "mobile01.com",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22004.426.68%22%20(%E5%95%8F%E9%A1%8C%20OR%20%E7%81%BD%E6%83%85%20OR%20%E8%B2%A0%E8%A9%95)"
+        }
+      ],
+      "candidateDisposition": "004.426.68：2026-09-01 以 Chrome 人工檢查 PTT 與 Mobile01 兩組含完整 official SKU 的 exact-model 查詢；兩站均未出現可回到原始頁核對的 exact-model 使用者負評候選，沒有作者或原文可計入，故不虛構 no-common 證據，也不借同系列、花色、尺寸或數字碰撞湊門檻。",
+      "representativeSources": [],
+      "reviewerNote": "004.426.68：2026-09-01 以 Chrome 人工檢查 PTT 與 Mobile01 兩組含完整 official SKU 的 exact-model 查詢；兩站均未出現可回到原始頁核對的 exact-model 使用者負評候選，沒有作者或原文可計入，故不虛構 no-common 證據，也不借同系列、花色、尺寸或數字碰撞湊門檻。",
+      "attestation": "manual_cross_site_search_reviewed_no_candidate",
+      "candidateReviews": [],
+      "reviewBatch": "bedsheet"
+    },
+    {
+      "id": "bedsheet-ikea-90442678",
+      "category": "bedsheet",
+      "brand": "IKEA",
+      "model": "904.426.78",
+      "name": "NATTJASMIN 雙人加大床包 深灰色 180×200 cm",
+      "status": "completed",
+      "reviewedAt": "2026-09-01",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "PTT",
+        "Mobile01"
+      ],
+      "queries": [
+        {
+          "platform": "PTT",
+          "query": "site:ptt.cc \"904.426.78\" (問題 OR 災情 OR 負評)",
+          "targetHost": "ptt.cc",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22904.426.78%22%20(%E5%95%8F%E9%A1%8C%20OR%20%E7%81%BD%E6%83%85%20OR%20%E8%B2%A0%E8%A9%95)"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"904.426.78\" (問題 OR 災情 OR 負評)",
+          "targetHost": "mobile01.com",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22904.426.78%22%20(%E5%95%8F%E9%A1%8C%20OR%20%E7%81%BD%E6%83%85%20OR%20%E8%B2%A0%E8%A9%95)"
+        }
+      ],
+      "candidateDisposition": "904.426.78：2026-09-01 以 Chrome 人工檢查 PTT 與 Mobile01 兩組含完整 official SKU 的 exact-model 查詢；兩站均未出現可回到原始頁核對的 exact-model 使用者負評候選，沒有作者或原文可計入，故不虛構 no-common 證據，也不借同系列、花色、尺寸或數字碰撞湊門檻。",
+      "representativeSources": [],
+      "reviewerNote": "904.426.78：2026-09-01 以 Chrome 人工檢查 PTT 與 Mobile01 兩組含完整 official SKU 的 exact-model 查詢；兩站均未出現可回到原始頁核對的 exact-model 使用者負評候選，沒有作者或原文可計入，故不虛構 no-common 證據，也不借同系列、花色、尺寸或數字碰撞湊門檻。",
+      "attestation": "manual_cross_site_search_reviewed_no_candidate",
+      "candidateReviews": [],
+      "reviewBatch": "bedsheet"
+    },
+    {
+      "id": "bedsheet-nitori-2115100027623",
+      "category": "bedsheet",
+      "brand": "NITORI",
+      "model": "2115100027623",
+      "name": "ORCHID 100% 天絲床包 單人",
+      "status": "completed",
+      "reviewedAt": "2026-09-01",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "PTT",
+        "Mobile01"
+      ],
+      "queries": [
+        {
+          "platform": "PTT",
+          "query": "site:ptt.cc \"2115100027623\" (問題 OR 災情 OR 負評)",
+          "targetHost": "ptt.cc",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%222115100027623%22%20(%E5%95%8F%E9%A1%8C%20OR%20%E7%81%BD%E6%83%85%20OR%20%E8%B2%A0%E8%A9%95)"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"2115100027623\" (問題 OR 災情 OR 負評)",
+          "targetHost": "mobile01.com",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%222115100027623%22%20(%E5%95%8F%E9%A1%8C%20OR%20%E7%81%BD%E6%83%85%20OR%20%E8%B2%A0%E8%A9%95)"
+        }
+      ],
+      "candidateDisposition": "2115100027623：2026-09-01 以 Chrome 人工檢查 PTT 與 Mobile01 兩組含完整 official SKU 的 exact-model 查詢；兩站均未出現可回到原始頁核對的 exact-model 使用者負評候選，沒有作者或原文可計入，故不虛構 no-common 證據，也不借同系列、花色、尺寸或數字碰撞湊門檻。",
+      "representativeSources": [],
+      "reviewerNote": "2115100027623：2026-09-01 以 Chrome 人工檢查 PTT 與 Mobile01 兩組含完整 official SKU 的 exact-model 查詢；兩站均未出現可回到原始頁核對的 exact-model 使用者負評候選，沒有作者或原文可計入，故不虛構 no-common 證據，也不借同系列、花色、尺寸或數字碰撞湊門檻。",
+      "attestation": "manual_cross_site_search_reviewed_no_candidate",
+      "candidateReviews": [],
+      "reviewBatch": "bedsheet"
+    },
+    {
+      "id": "bedsheet-nitori-2115100123042",
+      "category": "bedsheet",
+      "brand": "NITORI",
+      "model": "2115100123042",
+      "name": "精梳棉純棉床包 LGR 單人",
+      "status": "completed",
+      "reviewedAt": "2026-09-01",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "PTT",
+        "Mobile01"
+      ],
+      "queries": [
+        {
+          "platform": "PTT",
+          "query": "site:ptt.cc \"2115100123042\" (問題 OR 災情 OR 負評)",
+          "targetHost": "ptt.cc",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%222115100123042%22%20(%E5%95%8F%E9%A1%8C%20OR%20%E7%81%BD%E6%83%85%20OR%20%E8%B2%A0%E8%A9%95)"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"2115100123042\" (問題 OR 災情 OR 負評)",
+          "targetHost": "mobile01.com",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%222115100123042%22%20(%E5%95%8F%E9%A1%8C%20OR%20%E7%81%BD%E6%83%85%20OR%20%E8%B2%A0%E8%A9%95)"
+        }
+      ],
+      "candidateDisposition": "2115100123042：2026-09-01 以 Chrome 人工檢查 PTT 與 Mobile01 兩組含完整 official SKU 的 exact-model 查詢；兩站均未出現可回到原始頁核對的 exact-model 使用者負評候選，沒有作者或原文可計入，故不虛構 no-common 證據，也不借同系列、花色、尺寸或數字碰撞湊門檻。",
+      "representativeSources": [],
+      "reviewerNote": "2115100123042：2026-09-01 以 Chrome 人工檢查 PTT 與 Mobile01 兩組含完整 official SKU 的 exact-model 查詢；兩站均未出現可回到原始頁核對的 exact-model 使用者負評候選，沒有作者或原文可計入，故不虛構 no-common 證據，也不借同系列、花色、尺寸或數字碰撞湊門檻。",
+      "attestation": "manual_cross_site_search_reviewed_no_candidate",
+      "candidateReviews": [],
+      "reviewBatch": "bedsheet"
+    },
+    {
+      "id": "bedsheet-nitori-2115100119403",
+      "category": "bedsheet",
+      "brand": "NITORI",
+      "model": "2115100119403",
+      "name": "N FIT N COOL 極冷 GY 26NC-04 接觸涼感伸縮床包 單人",
+      "status": "completed",
+      "reviewedAt": "2026-09-01",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "PTT",
+        "Mobile01"
+      ],
+      "queries": [
+        {
+          "platform": "PTT",
+          "query": "2115100119403",
+          "targetHost": "ptt.cc",
+          "queryUrl": "https://www.ptt.cc/bbs/LivingGoods/search?q=2115100119403"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "2115100119403",
+          "targetHost": "mobile01.com",
+          "queryUrl": "https://www.mobile01.com/googlesearch.php?q=2115100119403"
+        }
+      ],
+      "candidateDisposition": "2115100119403：2026-09-01 以 Chrome 人工檢查 PTT 與 Mobile01 兩組含完整 official SKU 的 exact-model 查詢；兩站均未出現可回到原始頁核對的 exact-model 使用者負評候選，沒有作者或原文可計入，故不虛構 no-common 證據，也不借同系列、花色、尺寸或數字碰撞湊門檻。",
+      "representativeSources": [],
+      "reviewerNote": "2115100119403：2026-09-01 以 Chrome 人工檢查 PTT 與 Mobile01 兩組含完整 official SKU 的 exact-model 查詢；兩站均未出現可回到原始頁核對的 exact-model 使用者負評候選，沒有作者或原文可計入，故不虛構 no-common 證據，也不借同系列、花色、尺寸或數字碰撞湊門檻。",
+      "attestation": "manual_cross_site_search_reviewed_no_candidate",
+      "candidateReviews": [],
+      "reviewBatch": "bedsheet"
+    },
+    {
+      "id": "bedsheet-nitori-2115100027647",
+      "category": "bedsheet",
+      "brand": "NITORI",
+      "model": "2115100027647",
+      "name": "ORCHID 100% 天絲床包 雙人加大",
+      "status": "completed",
+      "reviewedAt": "2026-09-01",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "PTT",
+        "Mobile01"
+      ],
+      "queries": [
+        {
+          "platform": "PTT",
+          "query": "2115100027647",
+          "targetHost": "ptt.cc",
+          "queryUrl": "https://www.ptt.cc/bbs/LivingGoods/search?q=2115100027647"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "2115100027647",
+          "targetHost": "mobile01.com",
+          "queryUrl": "https://www.mobile01.com/googlesearch.php?q=2115100027647"
+        }
+      ],
+      "candidateDisposition": "2115100027647：2026-09-01 以 Chrome 人工檢查 PTT 與 Mobile01 兩組含完整 official SKU 的 exact-model 查詢；兩站均未出現可回到原始頁核對的 exact-model 使用者負評候選，沒有作者或原文可計入，故不虛構 no-common 證據，也不借同系列、花色、尺寸或數字碰撞湊門檻。",
+      "representativeSources": [],
+      "reviewerNote": "2115100027647：2026-09-01 以 Chrome 人工檢查 PTT 與 Mobile01 兩組含完整 official SKU 的 exact-model 查詢；兩站均未出現可回到原始頁核對的 exact-model 使用者負評候選，沒有作者或原文可計入，故不虛構 no-common 證據，也不借同系列、花色、尺寸或數字碰撞湊門檻。",
+      "attestation": "manual_cross_site_search_reviewed_no_candidate",
+      "candidateReviews": [],
+      "reviewBatch": "bedsheet"
+    },
+    {
+      "id": "bedsheet-nitori-2115100053394",
+      "category": "bedsheet",
+      "brand": "NITORI",
+      "model": "2115100053394",
+      "name": "N COOL WSP D2518 極致涼感伸縮床包 BL 雙人加大",
+      "status": "completed",
+      "reviewedAt": "2026-09-01",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "PTT",
+        "Mobile01"
+      ],
+      "queries": [
+        {
+          "platform": "PTT",
+          "query": "site:ptt.cc \"2115100053394\" (問題 OR 災情 OR 負評)",
+          "targetHost": "ptt.cc",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%222115100053394%22%20(%E5%95%8F%E9%A1%8C%20OR%20%E7%81%BD%E6%83%85%20OR%20%E8%B2%A0%E8%A9%95)"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"2115100053394\" (問題 OR 災情 OR 負評)",
+          "targetHost": "mobile01.com",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%222115100053394%22%20(%E5%95%8F%E9%A1%8C%20OR%20%E7%81%BD%E6%83%85%20OR%20%E8%B2%A0%E8%A9%95)"
+        }
+      ],
+      "candidateDisposition": "2115100053394：2026-09-01 以 Chrome 人工檢查 PTT 與 Mobile01 兩組含完整 official SKU 的 exact-model 查詢；兩站均未出現可回到原始頁核對的 exact-model 使用者負評候選，沒有作者或原文可計入，故不虛構 no-common 證據，也不借同系列、花色、尺寸或數字碰撞湊門檻。",
+      "representativeSources": [],
+      "reviewerNote": "2115100053394：2026-09-01 以 Chrome 人工檢查 PTT 與 Mobile01 兩組含完整 official SKU 的 exact-model 查詢；兩站均未出現可回到原始頁核對的 exact-model 使用者負評候選，沒有作者或原文可計入，故不虛構 no-common 證據，也不借同系列、花色、尺寸或數字碰撞湊門檻。",
+      "attestation": "manual_cross_site_search_reviewed_no_candidate",
+      "candidateReviews": [],
+      "reviewBatch": "bedsheet"
+    },
+    {
+      "id": "bedsheet-nitori-2115100053264",
+      "category": "bedsheet",
+      "brand": "NITORI",
+      "model": "2115100053264",
+      "name": "N COOL SP 25NC-11 進階涼感伸縮床包 BL 雙人加大",
+      "status": "completed",
+      "reviewedAt": "2026-09-01",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "PTT",
+        "Mobile01"
+      ],
+      "queries": [
+        {
+          "platform": "PTT",
+          "query": "site:ptt.cc \"2115100053264\" (問題 OR 災情 OR 負評)",
+          "targetHost": "ptt.cc",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%222115100053264%22%20(%E5%95%8F%E9%A1%8C%20OR%20%E7%81%BD%E6%83%85%20OR%20%E8%B2%A0%E8%A9%95)"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"2115100053264\" (問題 OR 災情 OR 負評)",
+          "targetHost": "mobile01.com",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%222115100053264%22%20(%E5%95%8F%E9%A1%8C%20OR%20%E7%81%BD%E6%83%85%20OR%20%E8%B2%A0%E8%A9%95)"
+        }
+      ],
+      "candidateDisposition": "2115100053264：2026-09-01 以 Chrome 人工檢查 PTT 與 Mobile01 兩組含完整 official SKU 的 exact-model 查詢；兩站均未出現可回到原始頁核對的 exact-model 使用者負評候選，沒有作者或原文可計入，故不虛構 no-common 證據，也不借同系列、花色、尺寸或數字碰撞湊門檻。",
+      "representativeSources": [],
+      "reviewerNote": "2115100053264：2026-09-01 以 Chrome 人工檢查 PTT 與 Mobile01 兩組含完整 official SKU 的 exact-model 查詢；兩站均未出現可回到原始頁核對的 exact-model 使用者負評候選，沒有作者或原文可計入，故不虛構 no-common 證據，也不借同系列、花色、尺寸或數字碰撞湊門檻。",
+      "attestation": "manual_cross_site_search_reviewed_no_candidate",
+      "candidateReviews": [],
+      "reviewBatch": "bedsheet"
+    },
+    {
+      "id": "comforter-hola-wool-016788505",
+      "category": "comforter",
+      "brand": "HOLA",
+      "model": "016788505",
+      "name": "100%可水洗法國羊毛防蟎冬被雙人（016788505）",
+      "status": "completed",
+      "reviewedAt": "2026-09-01",
+      "reviewBatch": "comforter",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "Reddit",
+        "Mobile01"
+      ],
+      "queries": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"016788505\" problem OR issue",
+          "targetHost": "reddit.com",
+          "queryUrl": "https://www.bing.com/search?q=site%3Areddit.com%20%22016788505%22%20problem%20OR%20issue"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"016788505\" 問題 OR 災情",
+          "targetHost": "mobile01.com",
+          "queryUrl": "https://www.bing.com/search?q=site%3Amobile01.com%20%22016788505%22%20%E5%95%8F%E9%A1%8C%20OR%20%E7%81%BD%E6%83%85"
+        }
+      ],
+      "candidateDisposition": "016788505：以完整型號分別查 Reddit 與 Mobile01，人工檢視後未發現通過 exact-model 邊界、可回到原始頁核對的使用者負評候選；不代表完全沒有負評。",
+      "representativeSources": [],
+      "reviewerNote": "016788505：2026-09-01 已人工完成 Reddit、Mobile01 兩個獨立網站的 exact-model 查詢；沒有原始候選可進入作者計數，未批次預設 no_common_issue。",
+      "attestation": "manual_cross_site_search_reviewed_no_candidate",
+      "candidateReviews": []
+    },
+    {
+      "id": "comforter-ikea-skogsfraken-70618640",
+      "category": "comforter",
+      "brand": "IKEA",
+      "model": "706.186.40",
+      "name": "SKOGSFRÄKEN 四季被 150×200 cm（706.186.40）",
+      "status": "completed",
+      "reviewedAt": "2026-09-01",
+      "reviewBatch": "comforter",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "Reddit",
+        "Mobile01"
+      ],
+      "queries": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"706.186.40\" problem OR issue",
+          "targetHost": "reddit.com",
+          "queryUrl": "https://www.bing.com/search?q=site%3Areddit.com%20%22706.186.40%22%20problem%20OR%20issue"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"706.186.40\" 問題 OR 災情",
+          "targetHost": "mobile01.com",
+          "queryUrl": "https://www.bing.com/search?q=site%3Amobile01.com%20%22706.186.40%22%20%E5%95%8F%E9%A1%8C%20OR%20%E7%81%BD%E6%83%85"
+        }
+      ],
+      "candidateDisposition": "706.186.40：以完整型號分別查 Reddit 與 Mobile01，人工檢視後未發現通過 exact-model 邊界、可回到原始頁核對的使用者負評候選；不代表完全沒有負評。",
+      "representativeSources": [],
+      "reviewerNote": "706.186.40：2026-09-01 已人工完成 Reddit、Mobile01 兩個獨立網站的 exact-model 查詢；沒有原始候選可進入作者計數，未批次預設 no_common_issue。",
+      "attestation": "manual_cross_site_search_reviewed_no_candidate",
+      "candidateReviews": []
+    },
+    {
+      "id": "comforter-ikea-smasporre-10458588",
+      "category": "comforter",
+      "brand": "IKEA",
+      "model": "104.585.88",
+      "name": "SMÅSPORRE 四季被 150×200 cm（104.585.88）",
+      "status": "completed",
+      "reviewedAt": "2026-09-01",
+      "reviewBatch": "comforter",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "Reddit",
+        "Mobile01"
+      ],
+      "queries": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"104.585.88\" problem OR issue",
+          "targetHost": "reddit.com",
+          "queryUrl": "https://www.bing.com/search?q=site%3Areddit.com%20%22104.585.88%22%20problem%20OR%20issue"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"104.585.88\" 問題 OR 災情",
+          "targetHost": "mobile01.com",
+          "queryUrl": "https://www.bing.com/search?q=site%3Amobile01.com%20%22104.585.88%22%20%E5%95%8F%E9%A1%8C%20OR%20%E7%81%BD%E6%83%85"
+        }
+      ],
+      "candidateDisposition": "104.585.88：以完整型號分別查 Reddit 與 Mobile01，人工檢視後未發現通過 exact-model 邊界、可回到原始頁核對的使用者負評候選；不代表完全沒有負評。",
+      "representativeSources": [],
+      "reviewerNote": "104.585.88：2026-09-01 已人工完成 Reddit、Mobile01 兩個獨立網站的 exact-model 查詢；沒有原始候選可進入作者計數，未批次預設 no_common_issue。",
+      "attestation": "manual_cross_site_search_reviewed_no_candidate",
+      "candidateReviews": []
+    },
+    {
+      "id": "comforter-ikea-smasporre-00458584",
+      "category": "comforter",
+      "brand": "IKEA",
+      "model": "004.585.84",
+      "name": "SMÅSPORRE 四季被 200×200 cm（004.585.84）",
+      "status": "completed",
+      "reviewedAt": "2026-09-01",
+      "reviewBatch": "comforter",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "Reddit",
+        "Mobile01"
+      ],
+      "queries": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"004.585.84\" problem OR issue",
+          "targetHost": "reddit.com",
+          "queryUrl": "https://www.bing.com/search?q=site%3Areddit.com%20%22004.585.84%22%20problem%20OR%20issue"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"004.585.84\" 問題 OR 災情",
+          "targetHost": "mobile01.com",
+          "queryUrl": "https://www.bing.com/search?q=site%3Amobile01.com%20%22004.585.84%22%20%E5%95%8F%E9%A1%8C%20OR%20%E7%81%BD%E6%83%85"
+        }
+      ],
+      "candidateDisposition": "004.585.84：以完整型號分別查 Reddit 與 Mobile01，人工檢視後未發現通過 exact-model 邊界、可回到原始頁核對的使用者負評候選；不代表完全沒有負評。",
+      "representativeSources": [],
+      "reviewerNote": "004.585.84：2026-09-01 已人工完成 Reddit、Mobile01 兩個獨立網站的 exact-model 查詢；沒有原始候選可進入作者計數，未批次預設 no_common_issue。",
+      "attestation": "manual_cross_site_search_reviewed_no_candidate",
+      "candidateReviews": []
+    },
+    {
+      "id": "comforter-hiyori-thin-deat3aa900bfnyl",
+      "category": "comforter",
+      "brand": "日和賞",
+      "model": "DEAT3A-A900BFNYL",
+      "name": "MIT 夏季薄被胎雙人 180×210 cm（DEAT3A-A900BFNYL）",
+      "status": "completed",
+      "reviewedAt": "2026-09-01",
+      "reviewBatch": "comforter",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "Reddit",
+        "Mobile01"
+      ],
+      "queries": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"DEAT3A-A900BFNYL\" problem OR issue",
+          "targetHost": "reddit.com",
+          "queryUrl": "https://www.bing.com/search?q=site%3Areddit.com%20%22DEAT3A-A900BFNYL%22%20problem%20OR%20issue"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"DEAT3A-A900BFNYL\" 問題 OR 災情",
+          "targetHost": "mobile01.com",
+          "queryUrl": "https://www.bing.com/search?q=site%3Amobile01.com%20%22DEAT3A-A900BFNYL%22%20%E5%95%8F%E9%A1%8C%20OR%20%E7%81%BD%E6%83%85"
+        }
+      ],
+      "candidateDisposition": "DEAT3A-A900BFNYL：以完整型號分別查 Reddit 與 Mobile01，人工檢視後未發現通過 exact-model 邊界、可回到原始頁核對的使用者負評候選；不代表完全沒有負評。",
+      "representativeSources": [],
+      "reviewerNote": "DEAT3A-A900BFNYL：2026-09-01 已人工完成 Reddit、Mobile01 兩個獨立網站的 exact-model 查詢；沒有原始候選可進入作者計數，未批次預設 no_common_issue。",
+      "attestation": "manual_cross_site_search_reviewed_no_candidate",
+      "candidateReviews": []
+    },
+    {
+      "id": "comforter-ikea-bruksvara-60560475",
+      "category": "comforter",
+      "brand": "IKEA",
+      "model": "605.604.75",
+      "name": "BRUKSVARA 暖被 150×200 cm（605.604.75）",
+      "status": "completed",
+      "reviewedAt": "2026-09-01",
+      "reviewBatch": "comforter",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "Reddit",
+        "Mobile01"
+      ],
+      "queries": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"605.604.75\" problem OR issue",
+          "targetHost": "reddit.com",
+          "queryUrl": "https://www.bing.com/search?q=site%3Areddit.com%20%22605.604.75%22%20problem%20OR%20issue"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"605.604.75\" 問題 OR 災情",
+          "targetHost": "mobile01.com",
+          "queryUrl": "https://www.bing.com/search?q=site%3Amobile01.com%20%22605.604.75%22%20%E5%95%8F%E9%A1%8C%20OR%20%E7%81%BD%E6%83%85"
+        }
+      ],
+      "candidateDisposition": "605.604.75：以完整型號分別查 Reddit 與 Mobile01，人工檢視後未發現通過 exact-model 邊界、可回到原始頁核對的使用者負評候選；不代表完全沒有負評。",
+      "representativeSources": [],
+      "reviewerNote": "605.604.75：2026-09-01 已人工完成 Reddit、Mobile01 兩個獨立網站的 exact-model 查詢；沒有原始候選可進入作者計數，未批次預設 no_common_issue。",
+      "attestation": "manual_cross_site_search_reviewed_no_candidate",
+      "candidateReviews": []
+    },
+    {
+      "id": "comforter-ikea-bruksvara-20560477",
+      "category": "comforter",
+      "brand": "IKEA",
+      "model": "205.604.77",
+      "name": "BRUKSVARA 暖被 200×200 cm（205.604.77）",
+      "status": "completed",
+      "reviewedAt": "2026-09-01",
+      "reviewBatch": "comforter",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "Reddit",
+        "Mobile01"
+      ],
+      "queries": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"205.604.77\" problem OR issue",
+          "targetHost": "reddit.com",
+          "queryUrl": "https://www.bing.com/search?q=site%3Areddit.com%20%22205.604.77%22%20problem%20OR%20issue"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"205.604.77\" 問題 OR 災情",
+          "targetHost": "mobile01.com",
+          "queryUrl": "https://www.bing.com/search?q=site%3Amobile01.com%20%22205.604.77%22%20%E5%95%8F%E9%A1%8C%20OR%20%E7%81%BD%E6%83%85"
+        }
+      ],
+      "candidateDisposition": "205.604.77：以完整型號分別查 Reddit 與 Mobile01，人工檢視後未發現通過 exact-model 邊界、可回到原始頁核對的使用者負評候選；不代表完全沒有負評。",
+      "representativeSources": [],
+      "reviewerNote": "205.604.77：2026-09-01 已人工完成 Reddit、Mobile01 兩個獨立網站的 exact-model 查詢；沒有原始候選可進入作者計數，未批次預設 no_common_issue。",
+      "attestation": "manual_cross_site_search_reviewed_no_candidate",
+      "candidateReviews": []
+    },
+    {
+      "id": "comforter-best-tencel-qfav6za9009hy1d",
+      "category": "comforter",
+      "brand": "BEST 貝思特",
+      "model": "QFAV6Z-A9009HY1D",
+      "name": "天絲保暖被雙人 180×210 cm（QFAV6Z-A9009HY1D）",
+      "status": "completed",
+      "reviewedAt": "2026-09-01",
+      "reviewBatch": "comforter",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "Reddit",
+        "Mobile01"
+      ],
+      "queries": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"QFAV6Z-A9009HY1D\" problem OR issue",
+          "targetHost": "reddit.com",
+          "queryUrl": "https://www.bing.com/search?q=site%3Areddit.com%20%22QFAV6Z-A9009HY1D%22%20problem%20OR%20issue"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"QFAV6Z-A9009HY1D\" 問題 OR 災情",
+          "targetHost": "mobile01.com",
+          "queryUrl": "https://www.bing.com/search?q=site%3Amobile01.com%20%22QFAV6Z-A9009HY1D%22%20%E5%95%8F%E9%A1%8C%20OR%20%E7%81%BD%E6%83%85"
+        }
+      ],
+      "candidateDisposition": "QFAV6Z-A9009HY1D：以完整型號分別查 Reddit 與 Mobile01，人工檢視後未發現通過 exact-model 邊界、可回到原始頁核對的使用者負評候選；不代表完全沒有負評。",
+      "representativeSources": [],
+      "reviewerNote": "QFAV6Z-A9009HY1D：2026-09-01 已人工完成 Reddit、Mobile01 兩個獨立網站的 exact-model 查詢；沒有原始候選可進入作者計數，未批次預設 no_common_issue。",
+      "attestation": "manual_cross_site_search_reviewed_no_candidate",
+      "candidateReviews": []
+    },
+    {
+      "id": "comforter-ikea-fjallarnika-30459025",
+      "category": "comforter",
+      "brand": "IKEA",
+      "model": "304.590.25",
+      "name": "FJÄLLARNIKA 羽毛羽絨暖被 150×200 cm（304.590.25）",
+      "status": "completed",
+      "reviewedAt": "2026-09-01",
+      "reviewBatch": "comforter",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "Reddit",
+        "Mobile01"
+      ],
+      "queries": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"304.590.25\" problem OR issue",
+          "targetHost": "reddit.com",
+          "queryUrl": "https://www.bing.com/search?q=site%3Areddit.com%20%22304.590.25%22%20problem%20OR%20issue"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"304.590.25\" 問題 OR 災情",
+          "targetHost": "mobile01.com",
+          "queryUrl": "https://www.bing.com/search?q=site%3Amobile01.com%20%22304.590.25%22%20%E5%95%8F%E9%A1%8C%20OR%20%E7%81%BD%E6%83%85"
+        }
+      ],
+      "candidateDisposition": "304.590.25：以完整型號分別查 Reddit 與 Mobile01，人工檢視後未發現通過 exact-model 邊界、可回到原始頁核對的使用者負評候選；不代表完全沒有負評。",
+      "representativeSources": [],
+      "reviewerNote": "304.590.25：2026-09-01 已人工完成 Reddit、Mobile01 兩個獨立網站的 exact-model 查詢；沒有原始候選可進入作者計數，未批次預設 no_common_issue。",
+      "attestation": "manual_cross_site_search_reviewed_no_candidate",
+      "candidateReviews": []
+    },
+    {
+      "id": "comforter-ikea-fjallarnika-70459028",
+      "category": "comforter",
+      "brand": "IKEA",
+      "model": "704.590.28",
+      "name": "FJÄLLARNIKA 羽毛羽絨暖被 200×200 cm（704.590.28）",
+      "status": "completed",
+      "reviewedAt": "2026-09-01",
+      "reviewBatch": "comforter",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "Reddit",
+        "Mobile01"
+      ],
+      "queries": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"704.590.28\" problem OR issue",
+          "targetHost": "reddit.com",
+          "queryUrl": "https://www.bing.com/search?q=site%3Areddit.com%20%22704.590.28%22%20problem%20OR%20issue"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"704.590.28\" 問題 OR 災情",
+          "targetHost": "mobile01.com",
+          "queryUrl": "https://www.bing.com/search?q=site%3Amobile01.com%20%22704.590.28%22%20%E5%95%8F%E9%A1%8C%20OR%20%E7%81%BD%E6%83%85"
+        }
+      ],
+      "candidateDisposition": "704.590.28：以完整型號分別查 Reddit 與 Mobile01，人工檢視後未發現通過 exact-model 邊界、可回到原始頁核對的使用者負評候選；不代表完全沒有負評。",
+      "representativeSources": [],
+      "reviewerNote": "704.590.28：2026-09-01 已人工完成 Reddit、Mobile01 兩個獨立網站的 exact-model 查詢；沒有原始候選可進入作者計數，未批次預設 no_common_issue。",
+      "attestation": "manual_cross_site_search_reviewed_no_candidate",
+      "candidateReviews": []
+    },
+    {
+      "id": "comforter-shikoku-washable-debclla900jcc6a",
+      "category": "comforter",
+      "brand": "四國纖維",
+      "model": "DEBCLL-A900JCC6A",
+      "name": "可水洗好眠四季被雙人 180×210 cm（DEBCLL-A900JCC6A）",
+      "status": "completed",
+      "reviewedAt": "2026-09-01",
+      "reviewBatch": "comforter",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "Reddit",
+        "Mobile01"
+      ],
+      "queries": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"DEBCLL-A900JCC6A\" problem OR issue",
+          "targetHost": "reddit.com",
+          "queryUrl": "https://www.bing.com/search?q=site%3Areddit.com%20%22DEBCLL-A900JCC6A%22%20problem%20OR%20issue"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"DEBCLL-A900JCC6A\" 問題 OR 災情",
+          "targetHost": "mobile01.com",
+          "queryUrl": "https://www.bing.com/search?q=site%3Amobile01.com%20%22DEBCLL-A900JCC6A%22%20%E5%95%8F%E9%A1%8C%20OR%20%E7%81%BD%E6%83%85"
+        }
+      ],
+      "candidateDisposition": "DEBCLL-A900JCC6A：以完整型號分別查 Reddit 與 Mobile01，人工檢視後未發現通過 exact-model 邊界、可回到原始頁核對的使用者負評候選；不代表完全沒有負評。",
+      "representativeSources": [],
+      "reviewerNote": "DEBCLL-A900JCC6A：2026-09-01 已人工完成 Reddit、Mobile01 兩個獨立網站的 exact-model 查詢；沒有原始候選可進入作者計數，未批次預設 no_common_issue。",
+      "attestation": "manual_cross_site_search_reviewed_no_candidate",
+      "candidateReviews": []
+    },
+    {
+      "id": "comforter-ikea-fjallbracka-70537385",
+      "category": "comforter",
+      "brand": "IKEA",
+      "model": "705.373.85",
+      "name": "FJÄLLBRÄCKA 再生羽絨暖被 150×200 cm（705.373.85）",
+      "status": "completed",
+      "reviewedAt": "2026-09-01",
+      "reviewBatch": "comforter",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "Reddit",
+        "Mobile01"
+      ],
+      "queries": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"705.373.85\" problem OR issue",
+          "targetHost": "reddit.com",
+          "queryUrl": "https://www.bing.com/search?q=site%3Areddit.com%20%22705.373.85%22%20problem%20OR%20issue"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"705.373.85\" 問題 OR 災情",
+          "targetHost": "mobile01.com",
+          "queryUrl": "https://www.bing.com/search?q=site%3Amobile01.com%20%22705.373.85%22%20%E5%95%8F%E9%A1%8C%20OR%20%E7%81%BD%E6%83%85"
+        }
+      ],
+      "candidateDisposition": "705.373.85：以完整型號分別查 Reddit 與 Mobile01，人工檢視後未發現通過 exact-model 邊界、可回到原始頁核對的使用者負評候選；不代表完全沒有負評。",
+      "representativeSources": [],
+      "reviewerNote": "705.373.85：2026-09-01 已人工完成 Reddit、Mobile01 兩個獨立網站的 exact-model 查詢；沒有原始候選可進入作者計數，未批次預設 no_common_issue。",
+      "attestation": "manual_cross_site_search_reviewed_no_candidate",
+      "candidateReviews": []
+    },
+    {
+      "id": "comforter-ikea-fjallbracka-10537388",
+      "category": "comforter",
+      "brand": "IKEA",
+      "model": "105.373.88",
+      "name": "FJÄLLBRÄCKA 再生羽絨暖被 200×200 cm（105.373.88）",
+      "status": "completed",
+      "reviewedAt": "2026-09-01",
+      "reviewBatch": "comforter",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "Reddit",
+        "Mobile01"
+      ],
+      "queries": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"105.373.88\" problem OR issue",
+          "targetHost": "reddit.com",
+          "queryUrl": "https://www.bing.com/search?q=site%3Areddit.com%20%22105.373.88%22%20problem%20OR%20issue"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"105.373.88\" 問題 OR 災情",
+          "targetHost": "mobile01.com",
+          "queryUrl": "https://www.bing.com/search?q=site%3Amobile01.com%20%22105.373.88%22%20%E5%95%8F%E9%A1%8C%20OR%20%E7%81%BD%E6%83%85"
+        }
+      ],
+      "candidateDisposition": "105.373.88：以完整型號分別查 Reddit 與 Mobile01，人工檢視後未發現通過 exact-model 邊界、可回到原始頁核對的使用者負評候選；不代表完全沒有負評。",
+      "representativeSources": [],
+      "reviewerNote": "105.373.88：2026-09-01 已人工完成 Reddit、Mobile01 兩個獨立網站的 exact-model 查詢；沒有原始候選可進入作者計數，未批次預設 no_common_issue。",
+      "attestation": "manual_cross_site_search_reviewed_no_candidate",
+      "candidateReviews": []
+    },
+    {
+      "id": "comforter-3m-nz370-m",
+      "category": "comforter",
+      "brand": "3M",
+      "model": "NZ370-M",
+      "name": "新2代發熱纖維暖冬被標準雙人 180×210 cm（NZ370-M）",
+      "status": "completed",
+      "reviewedAt": "2026-09-01",
+      "reviewBatch": "comforter",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "Reddit",
+        "Mobile01"
+      ],
+      "queries": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"NZ370-M\" problem OR issue",
+          "targetHost": "reddit.com",
+          "queryUrl": "https://www.bing.com/search?q=site%3Areddit.com%20%22NZ370-M%22%20problem%20OR%20issue"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"NZ370-M\" 問題 OR 災情",
+          "targetHost": "mobile01.com",
+          "queryUrl": "https://www.bing.com/search?q=site%3Amobile01.com%20%22NZ370-M%22%20%E5%95%8F%E9%A1%8C%20OR%20%E7%81%BD%E6%83%85"
+        }
+      ],
+      "candidateDisposition": "NZ370-M：exact-model 跨站查詢出現 1 個候選／字串碰撞；已逐頁回到原始網站人工覆核並保存標題、URL、原頁摘要、獨立作者數與具體排除理由，沒有同一問題達 6 位獨立使用者且跨 2 個原始網站。",
+      "representativeSources": [
+        {
+          "platform": "Mobile01",
+          "title": "想問一下3m的四季被跟暖冬被",
+          "url": "https://www.mobile01.com/topicdetail.php?f=400&t=7057050"
+        }
+      ],
+      "reviewerNote": "NZ370-M：2026-09-01 已人工開啟所有原始候選頁；候選均為他牌／他類別字串碰撞、系列層級購買提問或非負評，未把搜尋摘要與跨版本內容計入人數。",
+      "attestation": "manual_original_pages_reviewed",
+      "candidateReviews": [
+        {
+          "platform": "Mobile01",
+          "title": "想問一下3m的四季被跟暖冬被",
+          "url": "https://www.mobile01.com/topicdetail.php?f=400&t=7057050",
+          "outcome": "excluded",
+          "reviewedAt": "2026-09-01",
+          "exactModel": false,
+          "sourceExcerpt": "樓主只寫 NZ250 四季被與 NZ370 暖冬被，詢問北部冷暖氣環境如何選擇；頁面沒有 NZ370-M 尺寸尾碼，也沒有使用後負評或回覆者。",
+          "independentAuthors": 1,
+          "specificReason": "Chrome 原頁人工覆核後確認這是系列層級的購買前選擇提問，未鎖定標準雙人 SKU NZ370-M，且沒有第一人稱故障／負評回報，不能計入集中問題。"
+        }
+      ]
+    },
+    {
+      "id": "comforter-muji-jaap6a6s",
+      "category": "comforter",
+      "brand": "MUJI",
+      "model": "JAAP6A6S",
+      "name": "防蟎羽毛薄被 S 150×210 cm（JAAP6A6S／11617453）",
+      "status": "completed",
+      "reviewedAt": "2026-09-01",
+      "reviewBatch": "comforter",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "Reddit",
+        "Mobile01"
+      ],
+      "queries": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"JAAP6A6S\" problem OR issue",
+          "targetHost": "reddit.com",
+          "queryUrl": "https://www.bing.com/search?q=site%3Areddit.com%20%22JAAP6A6S%22%20problem%20OR%20issue"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"JAAP6A6S\" 問題 OR 災情",
+          "targetHost": "mobile01.com",
+          "queryUrl": "https://www.bing.com/search?q=site%3Amobile01.com%20%22JAAP6A6S%22%20%E5%95%8F%E9%A1%8C%20OR%20%E7%81%BD%E6%83%85"
+        }
+      ],
+      "candidateDisposition": "JAAP6A6S：以完整型號分別查 Reddit 與 Mobile01，人工檢視後未發現通過 exact-model 邊界、可回到原始頁核對的使用者負評候選；不代表完全沒有負評。",
+      "representativeSources": [],
+      "reviewerNote": "JAAP6A6S：2026-09-01 已人工完成 Reddit、Mobile01 兩個獨立網站的 exact-model 查詢；沒有原始候選可進入作者計數，未批次預設 no_common_issue。",
+      "attestation": "manual_cross_site_search_reviewed_no_candidate",
+      "candidateReviews": []
+    },
+    {
+      "id": "comforter-muji-jaap9a6s",
+      "category": "comforter",
+      "brand": "MUJI",
+      "model": "JAAP9A6S",
+      "name": "防蟎羽毛薄被 Q 210×210 cm（JAAP9A6S／11617456）",
+      "status": "completed",
+      "reviewedAt": "2026-09-01",
+      "reviewBatch": "comforter",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "Reddit",
+        "Mobile01"
+      ],
+      "queries": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"JAAP9A6S\" problem OR issue",
+          "targetHost": "reddit.com",
+          "queryUrl": "https://www.bing.com/search?q=site%3Areddit.com%20%22JAAP9A6S%22%20problem%20OR%20issue"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"JAAP9A6S\" 問題 OR 災情",
+          "targetHost": "mobile01.com",
+          "queryUrl": "https://www.bing.com/search?q=site%3Amobile01.com%20%22JAAP9A6S%22%20%E5%95%8F%E9%A1%8C%20OR%20%E7%81%BD%E6%83%85"
+        }
+      ],
+      "candidateDisposition": "JAAP9A6S：以完整型號分別查 Reddit 與 Mobile01，人工檢視後未發現通過 exact-model 邊界、可回到原始頁核對的使用者負評候選；不代表完全沒有負評。",
+      "representativeSources": [],
+      "reviewerNote": "JAAP9A6S：2026-09-01 已人工完成 Reddit、Mobile01 兩個獨立網站的 exact-model 查詢；沒有原始候選可進入作者計數，未批次預設 no_common_issue。",
+      "attestation": "manual_cross_site_search_reviewed_no_candidate",
+      "candidateReviews": []
+    },
+    {
+      "id": "comforter-muji-jabg2a6a",
+      "category": "comforter",
+      "brand": "MUJI",
+      "model": "JABG2A6A",
+      "name": "可水洗聚酯纖維被 SD 170×210 cm（JABG2A6A／12072381）",
+      "status": "completed",
+      "reviewedAt": "2026-09-01",
+      "reviewBatch": "comforter",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "Reddit",
+        "Mobile01"
+      ],
+      "queries": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"JABG2A6A\" problem OR issue",
+          "targetHost": "reddit.com",
+          "queryUrl": "https://www.bing.com/search?q=site%3Areddit.com%20%22JABG2A6A%22%20problem%20OR%20issue"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"JABG2A6A\" 問題 OR 災情",
+          "targetHost": "mobile01.com",
+          "queryUrl": "https://www.bing.com/search?q=site%3Amobile01.com%20%22JABG2A6A%22%20%E5%95%8F%E9%A1%8C%20OR%20%E7%81%BD%E6%83%85"
+        }
+      ],
+      "candidateDisposition": "JABG2A6A：以完整型號分別查 Reddit 與 Mobile01，人工檢視後未發現通過 exact-model 邊界、可回到原始頁核對的使用者負評候選；不代表完全沒有負評。",
+      "representativeSources": [],
+      "reviewerNote": "JABG2A6A：2026-09-01 已人工完成 Reddit、Mobile01 兩個獨立網站的 exact-model 查詢；沒有原始候選可進入作者計數，未批次預設 no_common_issue。",
+      "attestation": "manual_cross_site_search_reviewed_no_candidate",
+      "candidateReviews": []
+    },
+    {
+      "id": "comforter-muji-jabg3a6a",
+      "category": "comforter",
+      "brand": "MUJI",
+      "model": "JABG3A6A",
+      "name": "可水洗聚酯纖維被 D 190×210 cm（JABG3A6A／12072382）",
+      "status": "completed",
+      "reviewedAt": "2026-09-01",
+      "reviewBatch": "comforter",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "Reddit",
+        "Mobile01"
+      ],
+      "queries": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"JABG3A6A\" problem OR issue",
+          "targetHost": "reddit.com",
+          "queryUrl": "https://www.bing.com/search?q=site%3Areddit.com%20%22JABG3A6A%22%20problem%20OR%20issue"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"JABG3A6A\" 問題 OR 災情",
+          "targetHost": "mobile01.com",
+          "queryUrl": "https://www.bing.com/search?q=site%3Amobile01.com%20%22JABG3A6A%22%20%E5%95%8F%E9%A1%8C%20OR%20%E7%81%BD%E6%83%85"
+        }
+      ],
+      "candidateDisposition": "JABG3A6A：以完整型號分別查 Reddit 與 Mobile01，人工檢視後未發現通過 exact-model 邊界、可回到原始頁核對的使用者負評候選；不代表完全沒有負評。",
+      "representativeSources": [],
+      "reviewerNote": "JABG3A6A：2026-09-01 已人工完成 Reddit、Mobile01 兩個獨立網站的 exact-model 查詢；沒有原始候選可進入作者計數，未批次預設 no_common_issue。",
+      "attestation": "manual_cross_site_search_reviewed_no_candidate",
+      "candidateReviews": []
+    },
+    {
+      "id": "comforter-hola-wool-016788504",
+      "category": "comforter",
+      "brand": "HOLA",
+      "model": "016788504",
+      "name": "100%可水洗法國羊毛防蟎冬被單人（016788504）",
+      "status": "completed",
+      "reviewedAt": "2026-09-01",
+      "reviewBatch": "comforter",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "Reddit",
+        "Mobile01"
+      ],
+      "queries": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"016788504\" problem OR issue",
+          "targetHost": "reddit.com",
+          "queryUrl": "https://www.bing.com/search?q=site%3Areddit.com%20%22016788504%22%20problem%20OR%20issue"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"016788504\" 問題 OR 災情",
+          "targetHost": "mobile01.com",
+          "queryUrl": "https://www.bing.com/search?q=site%3Amobile01.com%20%22016788504%22%20%E5%95%8F%E9%A1%8C%20OR%20%E7%81%BD%E6%83%85"
+        }
+      ],
+      "candidateDisposition": "016788504：以完整型號分別查 Reddit 與 Mobile01，人工檢視後未發現通過 exact-model 邊界、可回到原始頁核對的使用者負評候選；不代表完全沒有負評。",
+      "representativeSources": [],
+      "reviewerNote": "016788504：2026-09-01 已人工完成 Reddit、Mobile01 兩個獨立網站的 exact-model 查詢；沒有原始候選可進入作者計數，未批次預設 no_common_issue。",
+      "attestation": "manual_cross_site_search_reviewed_no_candidate",
+      "candidateReviews": []
+    },
+    {
+      "id": "comforter-hola-down-014301109",
+      "category": "comforter",
+      "brand": "HOLA",
+      "model": "014301109",
+      "name": "90/10可水洗長效防蟎羽絨薄被單人（014301109）",
+      "status": "completed",
+      "reviewedAt": "2026-09-01",
+      "reviewBatch": "comforter",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "Reddit",
+        "Mobile01"
+      ],
+      "queries": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"014301109\" problem OR issue",
+          "targetHost": "reddit.com",
+          "queryUrl": "https://www.bing.com/search?q=site%3Areddit.com%20%22014301109%22%20problem%20OR%20issue"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"014301109\" 問題 OR 災情",
+          "targetHost": "mobile01.com",
+          "queryUrl": "https://www.bing.com/search?q=site%3Amobile01.com%20%22014301109%22%20%E5%95%8F%E9%A1%8C%20OR%20%E7%81%BD%E6%83%85"
+        }
+      ],
+      "candidateDisposition": "014301109：以完整型號分別查 Reddit 與 Mobile01，人工檢視後未發現通過 exact-model 邊界、可回到原始頁核對的使用者負評候選；不代表完全沒有負評。",
+      "representativeSources": [],
+      "reviewerNote": "014301109：2026-09-01 已人工完成 Reddit、Mobile01 兩個獨立網站的 exact-model 查詢；沒有原始候選可進入作者計數，未批次預設 no_common_issue。",
+      "attestation": "manual_cross_site_search_reviewed_no_candidate",
+      "candidateReviews": []
+    },
+    {
+      "id": "comforter-hola-down-014381508",
+      "category": "comforter",
+      "brand": "HOLA",
+      "model": "014381508",
+      "name": "90/10可水洗長效防蟎羽絨冬被加大（014381508）",
+      "status": "completed",
+      "reviewedAt": "2026-09-01",
+      "reviewBatch": "comforter",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "Reddit",
+        "Mobile01"
+      ],
+      "queries": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"014381508\" problem OR issue",
+          "targetHost": "reddit.com",
+          "queryUrl": "https://www.bing.com/search?q=site%3Areddit.com%20%22014381508%22%20problem%20OR%20issue"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"014381508\" 問題 OR 災情",
+          "targetHost": "mobile01.com",
+          "queryUrl": "https://www.bing.com/search?q=site%3Amobile01.com%20%22014381508%22%20%E5%95%8F%E9%A1%8C%20OR%20%E7%81%BD%E6%83%85"
+        }
+      ],
+      "candidateDisposition": "014381508：以完整型號分別查 Reddit 與 Mobile01，人工檢視後未發現通過 exact-model 邊界、可回到原始頁核對的使用者負評候選；不代表完全沒有負評。",
+      "representativeSources": [],
+      "reviewerNote": "014381508：2026-09-01 已人工完成 Reddit、Mobile01 兩個獨立網站的 exact-model 查詢；沒有原始候選可進入作者計數，未批次預設 no_common_issue。",
+      "attestation": "manual_cross_site_search_reviewed_no_candidate",
+      "candidateReviews": []
+    },
+    {
+      "id": "comforter-hola-real-014408625",
+      "category": "comforter",
+      "brand": "HOLA",
+      "model": "014408625",
+      "name": "REAL極親膚科技蠶絲防蟎冬被雙人（014408625）",
+      "status": "completed",
+      "reviewedAt": "2026-09-01",
+      "reviewBatch": "comforter",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "Reddit",
+        "Mobile01"
+      ],
+      "queries": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"014408625\" problem OR issue",
+          "targetHost": "reddit.com",
+          "queryUrl": "https://www.bing.com/search?q=site%3Areddit.com%20%22014408625%22%20problem%20OR%20issue"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"014408625\" 問題 OR 災情",
+          "targetHost": "mobile01.com",
+          "queryUrl": "https://www.bing.com/search?q=site%3Amobile01.com%20%22014408625%22%20%E5%95%8F%E9%A1%8C%20OR%20%E7%81%BD%E6%83%85"
+        }
+      ],
+      "candidateDisposition": "014408625：以完整型號分別查 Reddit 與 Mobile01，人工檢視後未發現通過 exact-model 邊界、可回到原始頁核對的使用者負評候選；不代表完全沒有負評。",
+      "representativeSources": [],
+      "reviewerNote": "014408625：2026-09-01 已人工完成 Reddit、Mobile01 兩個獨立網站的 exact-model 查詢；沒有原始候選可進入作者計數，未批次預設 no_common_issue。",
+      "attestation": "manual_cross_site_search_reviewed_no_candidate",
+      "candidateReviews": []
+    },
+    {
+      "id": "comforter-tanaka-silk-deatiwa900ayfmu",
+      "category": "comforter",
+      "brand": "田中保暖試驗所",
+      "model": "DEATIW-A900AYFMU",
+      "name": "100%長纖蠶絲夏被 3台斤 180×210 cm（DEATIW-A900AYFMU）",
+      "status": "completed",
+      "reviewedAt": "2026-09-01",
+      "reviewBatch": "comforter",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "Reddit",
+        "Mobile01"
+      ],
+      "queries": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"DEATIW-A900AYFMU\" problem OR issue",
+          "targetHost": "reddit.com",
+          "queryUrl": "https://www.bing.com/search?q=site%3Areddit.com%20%22DEATIW-A900AYFMU%22%20problem%20OR%20issue"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"DEATIW-A900AYFMU\" 問題 OR 災情",
+          "targetHost": "mobile01.com",
+          "queryUrl": "https://www.bing.com/search?q=site%3Amobile01.com%20%22DEATIW-A900AYFMU%22%20%E5%95%8F%E9%A1%8C%20OR%20%E7%81%BD%E6%83%85"
+        }
+      ],
+      "candidateDisposition": "DEATIW-A900AYFMU：以完整型號分別查 Reddit 與 Mobile01，人工檢視後未發現通過 exact-model 邊界、可回到原始頁核對的使用者負評候選；不代表完全沒有負評。",
+      "representativeSources": [],
+      "reviewerNote": "DEATIW-A900AYFMU：2026-09-01 已人工完成 Reddit、Mobile01 兩個獨立網站的 exact-model 查詢；沒有原始候選可進入作者計數，未批次預設 no_common_issue。",
+      "attestation": "manual_cross_site_search_reviewed_no_candidate",
+      "candidateReviews": []
+    },
+    {
+      "id": "comforter-shikoku-sofair-deatgma900hqsfg",
+      "category": "comforter",
+      "brand": "四國纖維",
+      "model": "DEATGM-A900HQSFG",
+      "name": "SOFAIR WARM 無重力空氣暖被雙人 190×210 cm（DEATGM-A900HQSFG）",
+      "status": "completed",
+      "reviewedAt": "2026-09-01",
+      "reviewBatch": "comforter",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "Reddit",
+        "Mobile01"
+      ],
+      "queries": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"DEATGM-A900HQSFG\" problem OR issue",
+          "targetHost": "reddit.com",
+          "queryUrl": "https://www.bing.com/search?q=site%3Areddit.com%20%22DEATGM-A900HQSFG%22%20problem%20OR%20issue"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"DEATGM-A900HQSFG\" 問題 OR 災情",
+          "targetHost": "mobile01.com",
+          "queryUrl": "https://www.bing.com/search?q=site%3Amobile01.com%20%22DEATGM-A900HQSFG%22%20%E5%95%8F%E9%A1%8C%20OR%20%E7%81%BD%E6%83%85"
+        }
+      ],
+      "candidateDisposition": "DEATGM-A900HQSFG：以完整型號分別查 Reddit 與 Mobile01，人工檢視後未發現通過 exact-model 邊界、可回到原始頁核對的使用者負評候選；不代表完全沒有負評。",
+      "representativeSources": [],
+      "reviewerNote": "DEATGM-A900HQSFG：2026-09-01 已人工完成 Reddit、Mobile01 兩個獨立網站的 exact-model 查詢；沒有原始候選可進入作者計數，未批次預設 no_common_issue。",
+      "attestation": "manual_cross_site_search_reviewed_no_candidate",
+      "candidateReviews": []
+    },
+    {
+      "id": "comforter-tonia-graphene-debcb6a900gropd",
+      "category": "comforter",
+      "brand": "Tonia Nicole 東妮寢飾",
+      "model": "DEBCB6-A900GROPD",
+      "name": "英威達抗菌七孔石墨烯冬被雙人 180×210 cm（DEBCB6-A900GROPD）",
+      "status": "completed",
+      "reviewedAt": "2026-09-01",
+      "reviewBatch": "comforter",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "Reddit",
+        "Mobile01"
+      ],
+      "queries": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"DEBCB6-A900GROPD\" problem OR issue",
+          "targetHost": "reddit.com",
+          "queryUrl": "https://www.bing.com/search?q=site%3Areddit.com%20%22DEBCB6-A900GROPD%22%20problem%20OR%20issue"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"DEBCB6-A900GROPD\" 問題 OR 災情",
+          "targetHost": "mobile01.com",
+          "queryUrl": "https://www.bing.com/search?q=site%3Amobile01.com%20%22DEBCB6-A900GROPD%22%20%E5%95%8F%E9%A1%8C%20OR%20%E7%81%BD%E6%83%85"
+        }
+      ],
+      "candidateDisposition": "DEBCB6-A900GROPD：以完整型號分別查 Reddit 與 Mobile01，人工檢視後未發現通過 exact-model 邊界、可回到原始頁核對的使用者負評候選；不代表完全沒有負評。",
+      "representativeSources": [],
+      "reviewerNote": "DEBCB6-A900GROPD：2026-09-01 已人工完成 Reddit、Mobile01 兩個獨立網站的 exact-model 查詢；沒有原始候選可進入作者計數，未批次預設 no_common_issue。",
+      "attestation": "manual_cross_site_search_reviewed_no_candidate",
+      "candidateReviews": []
+    },
+    {
+      "id": "comforter-belle-vie-wool-deatiba900c15jx",
+      "category": "comforter",
+      "brand": "BELLE VIE",
+      "model": "DEATIB-A900C15JX",
+      "name": "澳洲純羊毛被單人 135×195 cm（DEATIB-A900C15JX）",
+      "status": "completed",
+      "reviewedAt": "2026-09-01",
+      "reviewBatch": "comforter",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "Reddit",
+        "Mobile01"
+      ],
+      "queries": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"DEATIB-A900C15JX\" problem OR issue",
+          "targetHost": "reddit.com",
+          "queryUrl": "https://www.bing.com/search?q=site%3Areddit.com%20%22DEATIB-A900C15JX%22%20problem%20OR%20issue"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"DEATIB-A900C15JX\" 問題 OR 災情",
+          "targetHost": "mobile01.com",
+          "queryUrl": "https://www.bing.com/search?q=site%3Amobile01.com%20%22DEATIB-A900C15JX%22%20%E5%95%8F%E9%A1%8C%20OR%20%E7%81%BD%E6%83%85"
+        }
+      ],
+      "candidateDisposition": "DEATIB-A900C15JX：以完整型號分別查 Reddit 與 Mobile01，人工檢視後未發現通過 exact-model 邊界、可回到原始頁核對的使用者負評候選；不代表完全沒有負評。",
+      "representativeSources": [],
+      "reviewerNote": "DEATIB-A900C15JX：2026-09-01 已人工完成 Reddit、Mobile01 兩個獨立網站的 exact-model 查詢；沒有原始候選可進入作者計數，未批次預設 no_common_issue。",
+      "attestation": "manual_cross_site_search_reviewed_no_candidate",
+      "candidateReviews": []
+    },
+    {
+      "id": "comforter-belle-vie-wool-deatiba900c15xv",
+      "category": "comforter",
+      "brand": "BELLE VIE",
+      "model": "DEATIB-A900C15XV",
+      "name": "澳洲純羊毛被雙人 180×210 cm（DEATIB-A900C15XV）",
+      "status": "completed",
+      "reviewedAt": "2026-09-01",
+      "reviewBatch": "comforter",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "Reddit",
+        "Mobile01"
+      ],
+      "queries": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"DEATIB-A900C15XV\" problem OR issue",
+          "targetHost": "reddit.com",
+          "queryUrl": "https://www.bing.com/search?q=site%3Areddit.com%20%22DEATIB-A900C15XV%22%20problem%20OR%20issue"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"DEATIB-A900C15XV\" 問題 OR 災情",
+          "targetHost": "mobile01.com",
+          "queryUrl": "https://www.bing.com/search?q=site%3Amobile01.com%20%22DEATIB-A900C15XV%22%20%E5%95%8F%E9%A1%8C%20OR%20%E7%81%BD%E6%83%85"
+        }
+      ],
+      "candidateDisposition": "DEATIB-A900C15XV：以完整型號分別查 Reddit 與 Mobile01，人工檢視後未發現通過 exact-model 邊界、可回到原始頁核對的使用者負評候選；不代表完全沒有負評。",
+      "representativeSources": [],
+      "reviewerNote": "DEATIB-A900C15XV：2026-09-01 已人工完成 Reddit、Mobile01 兩個獨立網站的 exact-model 查詢；沒有原始候選可進入作者計數，未批次預設 no_common_issue。",
+      "attestation": "manual_cross_site_search_reviewed_no_candidate",
+      "candidateReviews": []
+    },
+    {
+      "id": "comforter-belle-vie-wool-deatiba900aytrq",
+      "category": "comforter",
+      "brand": "BELLE VIE",
+      "model": "DEATIB-A900AYTRQ",
+      "name": "澳洲純羊毛被歐式加大 240×210 cm（DEATIB-A900AYTRQ）",
+      "status": "completed",
+      "reviewedAt": "2026-09-01",
+      "reviewBatch": "comforter",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "Reddit",
+        "Mobile01"
+      ],
+      "queries": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"DEATIB-A900AYTRQ\" problem OR issue",
+          "targetHost": "reddit.com",
+          "queryUrl": "https://www.bing.com/search?q=site%3Areddit.com%20%22DEATIB-A900AYTRQ%22%20problem%20OR%20issue"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"DEATIB-A900AYTRQ\" 問題 OR 災情",
+          "targetHost": "mobile01.com",
+          "queryUrl": "https://www.bing.com/search?q=site%3Amobile01.com%20%22DEATIB-A900AYTRQ%22%20%E5%95%8F%E9%A1%8C%20OR%20%E7%81%BD%E6%83%85"
+        }
+      ],
+      "candidateDisposition": "DEATIB-A900AYTRQ：exact-model 跨站查詢出現 2 個候選／字串碰撞；已逐頁回到原始網站人工覆核並保存標題、URL、原頁摘要、獨立作者數與具體排除理由，沒有同一問題達 6 位獨立使用者且跨 2 個原始網站。",
+      "representativeSources": [
+        {
+          "platform": "Reddit",
+          "title": "Issues with AX900 : r/TpLink",
+          "url": "https://www.reddit.com/r/TpLink/comments/1m5f808/issues_with_ax900/"
+        },
+        {
+          "platform": "Mobile01",
+          "title": "i9-14900K版災情",
+          "url": "https://www.mobile01.com/topicdetail.php?f=296&t=7142425"
+        }
+      ],
+      "reviewerNote": "DEATIB-A900AYTRQ：2026-09-01 已人工開啟所有原始候選頁；候選均為他牌／他類別字串碰撞、系列層級購買提問或非負評，未把搜尋摘要與跨版本內容計入人數。",
+      "attestation": "manual_original_pages_reviewed",
+      "candidateReviews": [
+        {
+          "platform": "Reddit",
+          "title": "Issues with AX900 : r/TpLink",
+          "url": "https://www.reddit.com/r/TpLink/comments/1m5f808/issues_with_ax900/",
+          "outcome": "excluded",
+          "reviewedAt": "2026-09-01",
+          "exactModel": false,
+          "sourceExcerpt": "作者說剛買 AX900（TX10UB Nano）Wi-Fi／Bluetooth 網卡，遊戲時會斷線與封包遺失；內容是 TP-Link 電腦網路設備。",
+          "independentAuthors": 1,
+          "specificReason": "搜尋僅碰撞 SKU 中的 A900 字串；Chrome 原頁標題與內文都在討論 TP-Link AX900／TX10UB Nano 網卡，與 BELLE VIE 羊毛被 DEATIB-A900AYTRQ 無關。"
+        },
+        {
+          "platform": "Mobile01",
+          "title": "i9-14900K版災情",
+          "url": "https://www.mobile01.com/topicdetail.php?f=296&t=7142425",
+          "outcome": "excluded",
+          "reviewedAt": "2026-09-01",
+          "exactModel": false,
+          "sourceExcerpt": "原頁位於電腦核心組件／中央處理器討論區，標題是 i9-14900K 版災情，內容與 Intel 處理器穩定性相關。",
+          "independentAuthors": 0,
+          "specificReason": "搜尋僅因 A900／數字 token 碰撞；Chrome 原頁是 Intel i9-14900K 處理器討論，沒有 BELLE VIE、羊毛被或完整 SKU DEATIB-A900AYTRQ。"
+        }
+      ]
+    },
+    {
+      "id": "comforter-owlting-organic-cotton-17469",
+      "category": "comforter",
+      "brand": "台灣有機棉",
+      "model": "OwlTing-17469",
+      "name": "100%台灣有機棉被胎單人 4.5×6.5尺（OwlTing-17469）",
+      "status": "completed",
+      "reviewedAt": "2026-09-01",
+      "reviewBatch": "comforter",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "Reddit",
+        "Mobile01"
+      ],
+      "queries": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"OwlTing-17469\" problem OR issue",
+          "targetHost": "reddit.com",
+          "queryUrl": "https://www.bing.com/search?q=site%3Areddit.com%20%22OwlTing-17469%22%20problem%20OR%20issue"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"OwlTing-17469\" 問題 OR 災情",
+          "targetHost": "mobile01.com",
+          "queryUrl": "https://www.bing.com/search?q=site%3Amobile01.com%20%22OwlTing-17469%22%20%E5%95%8F%E9%A1%8C%20OR%20%E7%81%BD%E6%83%85"
+        }
+      ],
+      "candidateDisposition": "OwlTing-17469：exact-model 跨站查詢出現 2 個候選／字串碰撞；已逐頁回到原始網站人工覆核並保存標題、URL、原頁摘要、獨立作者數與具體排除理由，沒有同一問題達 6 位獨立使用者且跨 2 個原始網站。",
+      "representativeSources": [
+        {
+          "platform": "Reddit",
+          "title": "Issues with Owl Labs equipment : r/CommercialAV",
+          "url": "https://www.reddit.com/r/CommercialAV/comments/1ssmv20/issues_with_owl_labs_equipment/"
+        },
+        {
+          "platform": "Mobile01",
+          "title": "JET最近災情好像特別多?",
+          "url": "https://www.mobile01.com/topicdetail.php?f=294&t=7176671"
+        }
+      ],
+      "reviewerNote": "OwlTing-17469：2026-09-01 已人工開啟所有原始候選頁；候選均為他牌／他類別字串碰撞、系列層級購買提問或非負評，未把搜尋摘要與跨版本內容計入人數。",
+      "attestation": "manual_original_pages_reviewed",
+      "candidateReviews": [
+        {
+          "platform": "Reddit",
+          "title": "Issues with Owl Labs equipment : r/CommercialAV",
+          "url": "https://www.reddit.com/r/CommercialAV/comments/1ssmv20/issues_with_owl_labs_equipment/",
+          "outcome": "excluded",
+          "reviewedAt": "2026-09-01",
+          "exactModel": false,
+          "sourceExcerpt": "作者描述公司採購 Owl Bar 與 Meeting Owl 4+ 後發生會議配對與音訊問題；內容是 Owl Labs 視訊會議設備。",
+          "independentAuthors": 1,
+          "specificReason": "搜尋把 OwlTing 的 Owl 字串誤命中 Owl Labs；Chrome 原頁沒有台灣有機棉、被胎或 SKU OwlTing-17469，產品類別與品牌皆不相同。"
+        },
+        {
+          "platform": "Mobile01",
+          "title": "JET最近災情好像特別多?",
+          "url": "https://www.mobile01.com/topicdetail.php?f=294&t=7176671",
+          "outcome": "excluded",
+          "reviewedAt": "2026-09-01",
+          "exactModel": false,
+          "sourceExcerpt": "原頁位於汽車／汽機車七嘴八舌討論區，標題為 JET 最近災情好像特別多，內容不是寢具使用回報。",
+          "independentAuthors": 0,
+          "specificReason": "搜尋數字 token 產生跨類別碰撞；Chrome 原頁是汽機車 JET 話題，未出現 OwlTing-17469、台灣有機棉或被胎，完全不是同型號。"
+        }
+      ]
+    },
+    {
+      "id": "comforter-owlting-organic-cotton-17190",
+      "category": "comforter",
+      "brand": "台灣有機棉",
+      "model": "OwlTing-17190",
+      "name": "100%台灣有機棉被胎雙人薄被 6×7尺（OwlTing-17190）",
+      "status": "completed",
+      "reviewedAt": "2026-09-01",
+      "reviewBatch": "comforter",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "Reddit",
+        "Mobile01"
+      ],
+      "queries": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"OwlTing-17190\" problem OR issue",
+          "targetHost": "reddit.com",
+          "queryUrl": "https://www.bing.com/search?q=site%3Areddit.com%20%22OwlTing-17190%22%20problem%20OR%20issue"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"OwlTing-17190\" 問題 OR 災情",
+          "targetHost": "mobile01.com",
+          "queryUrl": "https://www.bing.com/search?q=site%3Amobile01.com%20%22OwlTing-17190%22%20%E5%95%8F%E9%A1%8C%20OR%20%E7%81%BD%E6%83%85"
+        }
+      ],
+      "candidateDisposition": "OwlTing-17190：exact-model 跨站查詢出現 1 個候選／字串碰撞；已逐頁回到原始網站人工覆核並保存標題、URL、原頁摘要、獨立作者數與具體排除理由，沒有同一問題達 6 位獨立使用者且跨 2 個原始網站。",
+      "representativeSources": [
+        {
+          "platform": "Reddit",
+          "title": "Issues with Owl Labs equipment : r/CommercialAV",
+          "url": "https://www.reddit.com/r/CommercialAV/comments/1ssmv20/issues_with_owl_labs_equipment/"
+        }
+      ],
+      "reviewerNote": "OwlTing-17190：2026-09-01 已人工開啟所有原始候選頁；候選均為他牌／他類別字串碰撞、系列層級購買提問或非負評，未把搜尋摘要與跨版本內容計入人數。",
+      "attestation": "manual_original_pages_reviewed",
+      "candidateReviews": [
+        {
+          "platform": "Reddit",
+          "title": "Issues with Owl Labs equipment : r/CommercialAV",
+          "url": "https://www.reddit.com/r/CommercialAV/comments/1ssmv20/issues_with_owl_labs_equipment/",
+          "outcome": "excluded",
+          "reviewedAt": "2026-09-01",
+          "exactModel": false,
+          "sourceExcerpt": "作者描述公司採購 Owl Bar 與 Meeting Owl 4+ 後發生會議配對與音訊問題；內容是 Owl Labs 視訊會議設備。",
+          "independentAuthors": 1,
+          "specificReason": "搜尋把 OwlTing 的 Owl 字串誤命中 Owl Labs；Chrome 原頁沒有台灣有機棉、被胎或 SKU OwlTing-17190，產品類別與品牌皆不相同。"
+        }
+      ]
+    },
+    {
+      "id": "pillow-tempur-symphony-medium",
+      "category": "pillow",
+      "brand": "TEMPUR",
+      "model": "TPILSYMM",
+      "reviewBatch": "pillow",
+      "reviewedAt": "2026-09-01",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "PTT",
+        "Mobile01"
+      ],
+      "attestation": "manual_cross_site_search_reviewed_no_candidate",
+      "reviewerNote": "人工以完整型號 TPILSYMM 在 PTT 與 Mobile01 分別查詢並檢視候選；未發現可回到原始頁核對為同一 SKU 的集中負評。",
+      "candidateDisposition": "TPILSYMM 的跨站查詢沒有通過 exact-model 邊界的原始頁候選，因此沒有候選進入獨立作者計數。",
+      "representativeSources": [],
+      "candidateReviews": [],
+      "queries": [
+        {
+          "platform": "PTT",
+          "targetHost": "ptt.cc",
+          "query": "site:ptt.cc \"TPILSYMM\" 枕頭",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22TPILSYMM%22%20%E6%9E%95%E9%A0%AD"
+        },
+        {
+          "platform": "Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "site:mobile01.com \"TPILSYMM\" 枕頭",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22TPILSYMM%22%20%E6%9E%95%E9%A0%AD"
+        }
+      ]
+    },
+    {
+      "id": "pillow-3m-mz600",
+      "category": "pillow",
+      "brand": "3M",
+      "model": "MZ600",
+      "reviewBatch": "pillow",
+      "reviewedAt": "2026-09-01",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "PTT",
+        "Mobile01"
+      ],
+      "attestation": "manual_cross_site_search_reviewed_no_candidate",
+      "reviewerNote": "人工以完整型號 MZ600 在 PTT 與 Mobile01 分別查詢並檢視候選；未發現可回到原始頁核對為同一 SKU 的集中負評。",
+      "candidateDisposition": "MZ600 的跨站查詢沒有通過 exact-model 邊界的原始頁候選，因此沒有候選進入獨立作者計數。",
+      "representativeSources": [],
+      "candidateReviews": [],
+      "queries": [
+        {
+          "platform": "PTT",
+          "targetHost": "ptt.cc",
+          "query": "site:ptt.cc \"MZ600\" 枕頭",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22MZ600%22%20%E6%9E%95%E9%A0%AD"
+        },
+        {
+          "platform": "Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "site:mobile01.com \"MZ600\" 枕頭",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22MZ600%22%20%E6%9E%95%E9%A0%AD"
+        }
+      ]
+    },
+    {
+      "id": "pillow-emma-black-diamond",
+      "category": "pillow",
+      "brand": "Emma",
+      "model": "EPWCF040070RAB",
+      "reviewBatch": "pillow",
+      "reviewedAt": "2026-09-01",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "PTT",
+        "Mobile01"
+      ],
+      "attestation": "manual_cross_site_search_reviewed_no_candidate",
+      "reviewerNote": "人工以完整型號 EPWCF040070RAB 在 PTT 與 Mobile01 分別查詢並檢視候選；未發現可回到原始頁核對為同一 SKU 的集中負評。",
+      "candidateDisposition": "EPWCF040070RAB 的跨站查詢沒有通過 exact-model 邊界的原始頁候選，因此沒有候選進入獨立作者計數。",
+      "representativeSources": [],
+      "candidateReviews": [],
+      "queries": [
+        {
+          "platform": "PTT",
+          "targetHost": "ptt.cc",
+          "query": "site:ptt.cc \"EPWCF040070RAB\" 枕頭",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22EPWCF040070RAB%22%20%E6%9E%95%E9%A0%AD"
+        },
+        {
+          "platform": "Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "site:mobile01.com \"EPWCF040070RAB\" 枕頭",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22EPWCF040070RAB%22%20%E6%9E%95%E9%A0%AD"
+        }
+      ]
+    },
+    {
+      "id": "pillow-emma-airgrid",
+      "category": "pillow",
+      "brand": "Emma",
+      "model": "EPWGF040070RAB",
+      "reviewBatch": "pillow",
+      "reviewedAt": "2026-09-01",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "PTT",
+        "Mobile01"
+      ],
+      "attestation": "manual_cross_site_search_reviewed_no_candidate",
+      "reviewerNote": "人工以完整型號 EPWGF040070RAB 在 PTT 與 Mobile01 分別查詢並檢視候選；未發現可回到原始頁核對為同一 SKU 的集中負評。",
+      "candidateDisposition": "EPWGF040070RAB 的跨站查詢沒有通過 exact-model 邊界的原始頁候選，因此沒有候選進入獨立作者計數。",
+      "representativeSources": [],
+      "candidateReviews": [],
+      "queries": [
+        {
+          "platform": "PTT",
+          "targetHost": "ptt.cc",
+          "query": "site:ptt.cc \"EPWGF040070RAB\" 枕頭",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22EPWGF040070RAB%22%20%E6%9E%95%E9%A0%AD"
+        },
+        {
+          "platform": "Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "site:mobile01.com \"EPWGF040070RAB\" 枕頭",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22EPWGF040070RAB%22%20%E6%9E%95%E9%A0%AD"
+        }
+      ]
+    },
+    {
+      "id": "pillow-hola-organic-latex-curve",
+      "category": "pillow",
+      "brand": "HOLA",
+      "model": "014416047",
+      "reviewBatch": "pillow",
+      "reviewedAt": "2026-09-01",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "PTT",
+        "Mobile01"
+      ],
+      "attestation": "manual_cross_site_search_reviewed_no_candidate",
+      "reviewerNote": "人工以完整型號 014416047 在 PTT 與 Mobile01 分別查詢並檢視候選；未發現可回到原始頁核對為同一 SKU 的集中負評。",
+      "candidateDisposition": "014416047 的跨站查詢沒有通過 exact-model 邊界的原始頁候選，因此沒有候選進入獨立作者計數。",
+      "representativeSources": [],
+      "candidateReviews": [],
+      "queries": [
+        {
+          "platform": "PTT",
+          "targetHost": "ptt.cc",
+          "query": "site:ptt.cc \"014416047\" 枕頭",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22014416047%22%20%E6%9E%95%E9%A0%AD"
+        },
+        {
+          "platform": "Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "site:mobile01.com \"014416047\" 枕頭",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22014416047%22%20%E6%9E%95%E9%A0%AD"
+        }
+      ]
+    },
+    {
+      "id": "pillow-ikea-bergven",
+      "category": "pillow",
+      "brand": "IKEA",
+      "model": "205.715.84",
+      "reviewBatch": "pillow",
+      "reviewedAt": "2026-09-01",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "PTT",
+        "Mobile01"
+      ],
+      "attestation": "manual_cross_site_search_reviewed_no_candidate",
+      "reviewerNote": "人工以完整型號 205.715.84 在 PTT 與 Mobile01 分別查詢並檢視候選；未發現可回到原始頁核對為同一 SKU 的集中負評。",
+      "candidateDisposition": "205.715.84 的跨站查詢沒有通過 exact-model 邊界的原始頁候選，因此沒有候選進入獨立作者計數。",
+      "representativeSources": [],
+      "candidateReviews": [],
+      "queries": [
+        {
+          "platform": "PTT",
+          "targetHost": "ptt.cc",
+          "query": "site:ptt.cc \"205.715.84\" 枕頭",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22205.715.84%22%20%E6%9E%95%E9%A0%AD"
+        },
+        {
+          "platform": "Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "site:mobile01.com \"205.715.84\" 枕頭",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22205.715.84%22%20%E6%9E%95%E9%A0%AD"
+        }
+      ]
+    },
+    {
+      "id": "pillow-ikea-gulkavle",
+      "category": "pillow",
+      "brand": "IKEA",
+      "model": "605.329.44",
+      "reviewBatch": "pillow",
+      "reviewedAt": "2026-09-01",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "PTT",
+        "Mobile01"
+      ],
+      "attestation": "manual_cross_site_search_reviewed_no_candidate",
+      "reviewerNote": "人工以完整型號 605.329.44 在 PTT 與 Mobile01 分別查詢並檢視候選；未發現可回到原始頁核對為同一 SKU 的集中負評。",
+      "candidateDisposition": "605.329.44 的跨站查詢沒有通過 exact-model 邊界的原始頁候選，因此沒有候選進入獨立作者計數。",
+      "representativeSources": [],
+      "candidateReviews": [],
+      "queries": [
+        {
+          "platform": "PTT",
+          "targetHost": "ptt.cc",
+          "query": "site:ptt.cc \"605.329.44\" 枕頭",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22605.329.44%22%20%E6%9E%95%E9%A0%AD"
+        },
+        {
+          "platform": "Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "site:mobile01.com \"605.329.44\" 枕頭",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22605.329.44%22%20%E6%9E%95%E9%A0%AD"
+        }
+      ]
+    },
+    {
+      "id": "pillow-ikea-hirsstarr",
+      "category": "pillow",
+      "brand": "IKEA",
+      "model": "403.347.99",
+      "reviewBatch": "pillow",
+      "reviewedAt": "2026-09-01",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "PTT",
+        "Mobile01"
+      ],
+      "attestation": "manual_cross_site_search_reviewed_no_candidate",
+      "reviewerNote": "人工以完整型號 403.347.99 在 PTT 與 Mobile01 分別查詢並檢視候選；未發現可回到原始頁核對為同一 SKU 的集中負評。",
+      "candidateDisposition": "403.347.99 的跨站查詢沒有通過 exact-model 邊界的原始頁候選，因此沒有候選進入獨立作者計數。",
+      "representativeSources": [],
+      "candidateReviews": [],
+      "queries": [
+        {
+          "platform": "PTT",
+          "targetHost": "ptt.cc",
+          "query": "site:ptt.cc \"403.347.99\" 枕頭",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22403.347.99%22%20%E6%9E%95%E9%A0%AD"
+        },
+        {
+          "platform": "Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "site:mobile01.com \"403.347.99\" 枕頭",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22403.347.99%22%20%E6%9E%95%E9%A0%AD"
+        }
+      ]
+    },
+    {
+      "id": "pillow-tempur-original-smartcool-queen-s",
+      "category": "pillow",
+      "brand": "TEMPUR",
+      "model": "0000559654",
+      "reviewBatch": "pillow",
+      "reviewedAt": "2026-09-01",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "PTT",
+        "Mobile01"
+      ],
+      "attestation": "manual_cross_site_search_reviewed_no_candidate",
+      "reviewerNote": "人工以完整型號 0000559654 在 PTT 與 Mobile01 分別查詢並檢視候選；未發現可回到原始頁核對為同一 SKU 的集中負評。",
+      "candidateDisposition": "0000559654 的跨站查詢沒有通過 exact-model 邊界的原始頁候選，因此沒有候選進入獨立作者計數。",
+      "representativeSources": [],
+      "candidateReviews": [],
+      "queries": [
+        {
+          "platform": "PTT",
+          "targetHost": "ptt.cc",
+          "query": "site:ptt.cc \"0000559654\" 枕頭",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%220000559654%22%20%E6%9E%95%E9%A0%AD"
+        },
+        {
+          "platform": "Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "site:mobile01.com \"0000559654\" 枕頭",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%220000559654%22%20%E6%9E%95%E9%A0%AD"
+        }
+      ]
+    },
+    {
+      "id": "pillow-tempur-millennium-small",
+      "category": "pillow",
+      "brand": "TEMPUR",
+      "model": "0001209107",
+      "reviewBatch": "pillow",
+      "reviewedAt": "2026-09-01",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "PTT",
+        "Mobile01"
+      ],
+      "attestation": "manual_cross_site_search_reviewed_no_candidate",
+      "reviewerNote": "人工以完整型號 0001209107 在 PTT 與 Mobile01 分別查詢並檢視候選；未發現可回到原始頁核對為同一 SKU 的集中負評。",
+      "candidateDisposition": "0001209107 的跨站查詢沒有通過 exact-model 邊界的原始頁候選，因此沒有候選進入獨立作者計數。",
+      "representativeSources": [],
+      "candidateReviews": [],
+      "queries": [
+        {
+          "platform": "PTT",
+          "targetHost": "ptt.cc",
+          "query": "site:ptt.cc \"0001209107\" 枕頭",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%220001209107%22%20%E6%9E%95%E9%A0%AD"
+        },
+        {
+          "platform": "Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "site:mobile01.com \"0001209107\" 枕頭",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%220001209107%22%20%E6%9E%95%E9%A0%AD"
+        }
+      ]
+    },
+    {
+      "id": "pillow-tempur-original-xs",
+      "category": "pillow",
+      "brand": "TEMPUR",
+      "model": "0000348682",
+      "reviewBatch": "pillow",
+      "reviewedAt": "2026-09-01",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "PTT",
+        "Mobile01"
+      ],
+      "attestation": "manual_cross_site_search_reviewed_no_candidate",
+      "reviewerNote": "人工以完整型號 0000348682 在 PTT 與 Mobile01 分別查詢並檢視候選；未發現可回到原始頁核對為同一 SKU 的集中負評。",
+      "candidateDisposition": "0000348682 的跨站查詢沒有通過 exact-model 邊界的原始頁候選，因此沒有候選進入獨立作者計數。",
+      "representativeSources": [],
+      "candidateReviews": [],
+      "queries": [
+        {
+          "platform": "PTT",
+          "targetHost": "ptt.cc",
+          "query": "site:ptt.cc \"0000348682\" 枕頭",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%220000348682%22%20%E6%9E%95%E9%A0%AD"
+        },
+        {
+          "platform": "Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "site:mobile01.com \"0000348682\" 枕頭",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%220000348682%22%20%E6%9E%95%E9%A0%AD"
+        }
+      ]
+    },
+    {
+      "id": "pillow-emma-original",
+      "category": "pillow",
+      "brand": "Emma",
+      "model": "EPWAF040070RAB",
+      "reviewBatch": "pillow",
+      "reviewedAt": "2026-09-01",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "PTT",
+        "Mobile01"
+      ],
+      "attestation": "manual_cross_site_search_reviewed_no_candidate",
+      "reviewerNote": "人工以完整型號 EPWAF040070RAB 在 PTT 與 Mobile01 分別查詢並檢視候選；未發現可回到原始頁核對為同一 SKU 的集中負評。",
+      "candidateDisposition": "EPWAF040070RAB 的跨站查詢沒有通過 exact-model 邊界的原始頁候選，因此沒有候選進入獨立作者計數。",
+      "representativeSources": [],
+      "candidateReviews": [],
+      "queries": [
+        {
+          "platform": "PTT",
+          "targetHost": "ptt.cc",
+          "query": "site:ptt.cc \"EPWAF040070RAB\" 枕頭",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22EPWAF040070RAB%22%20%E6%9E%95%E9%A0%AD"
+        },
+        {
+          "platform": "Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "site:mobile01.com \"EPWAF040070RAB\" 枕頭",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22EPWAF040070RAB%22%20%E6%9E%95%E9%A0%AD"
+        }
+      ]
+    },
+    {
+      "id": "pillow-ikea-rosenskarm",
+      "category": "pillow",
+      "brand": "IKEA",
+      "model": "704.443.67",
+      "reviewBatch": "pillow",
+      "reviewedAt": "2026-09-01",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "PTT",
+        "Mobile01"
+      ],
+      "attestation": "manual_cross_site_search_reviewed_no_candidate",
+      "reviewerNote": "人工以完整型號 704.443.67 在 PTT 與 Mobile01 分別查詢並檢視候選；未發現可回到原始頁核對為同一 SKU 的集中負評。",
+      "candidateDisposition": "704.443.67 的跨站查詢沒有通過 exact-model 邊界的原始頁候選，因此沒有候選進入獨立作者計數。",
+      "representativeSources": [],
+      "candidateReviews": [],
+      "queries": [
+        {
+          "platform": "PTT",
+          "targetHost": "ptt.cc",
+          "query": "site:ptt.cc \"704.443.67\" 枕頭",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22704.443.67%22%20%E6%9E%95%E9%A0%AD"
+        },
+        {
+          "platform": "Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "site:mobile01.com \"704.443.67\" 枕頭",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22704.443.67%22%20%E6%9E%95%E9%A0%AD"
+        }
+      ]
+    },
+    {
+      "id": "pillow-ikea-klubbsporre",
+      "category": "pillow",
+      "brand": "IKEA",
+      "model": "804.460.97",
+      "reviewBatch": "pillow",
+      "reviewedAt": "2026-09-01",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "PTT",
+        "Mobile01"
+      ],
+      "attestation": "manual_cross_site_search_reviewed_no_candidate",
+      "reviewerNote": "人工以完整型號 804.460.97 在 PTT 與 Mobile01 分別查詢並檢視候選；未發現可回到原始頁核對為同一 SKU 的集中負評。",
+      "candidateDisposition": "804.460.97 的跨站查詢沒有通過 exact-model 邊界的原始頁候選，因此沒有候選進入獨立作者計數。",
+      "representativeSources": [],
+      "candidateReviews": [],
+      "queries": [
+        {
+          "platform": "PTT",
+          "targetHost": "ptt.cc",
+          "query": "site:ptt.cc \"804.460.97\" 枕頭",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22804.460.97%22%20%E6%9E%95%E9%A0%AD"
+        },
+        {
+          "platform": "Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "site:mobile01.com \"804.460.97\" 枕頭",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22804.460.97%22%20%E6%9E%95%E9%A0%AD"
+        }
+      ]
+    },
+    {
+      "id": "pillow-ikea-hargangel",
+      "category": "pillow",
+      "brand": "IKEA",
+      "model": "404.947.83",
+      "reviewBatch": "pillow",
+      "reviewedAt": "2026-09-01",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "PTT",
+        "Mobile01"
+      ],
+      "attestation": "manual_cross_site_search_reviewed_no_candidate",
+      "reviewerNote": "人工以完整型號 404.947.83 在 PTT 與 Mobile01 分別查詢並檢視候選；未發現可回到原始頁核對為同一 SKU 的集中負評。",
+      "candidateDisposition": "404.947.83 的跨站查詢沒有通過 exact-model 邊界的原始頁候選，因此沒有候選進入獨立作者計數。",
+      "representativeSources": [],
+      "candidateReviews": [],
+      "queries": [
+        {
+          "platform": "PTT",
+          "targetHost": "ptt.cc",
+          "query": "site:ptt.cc \"404.947.83\" 枕頭",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22404.947.83%22%20%E6%9E%95%E9%A0%AD"
+        },
+        {
+          "platform": "Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "site:mobile01.com \"404.947.83\" 枕頭",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22404.947.83%22%20%E6%9E%95%E9%A0%AD"
+        }
+      ]
+    },
+    {
+      "id": "pillow-ikea-kvarnven-side-back",
+      "category": "pillow",
+      "brand": "IKEA",
+      "model": "105.073.48",
+      "reviewBatch": "pillow",
+      "reviewedAt": "2026-09-01",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "PTT",
+        "Mobile01"
+      ],
+      "attestation": "manual_cross_site_search_reviewed_no_candidate",
+      "reviewerNote": "人工以完整型號 105.073.48 在 PTT 與 Mobile01 分別查詢並檢視候選；未發現可回到原始頁核對為同一 SKU 的集中負評。",
+      "candidateDisposition": "105.073.48 的跨站查詢沒有通過 exact-model 邊界的原始頁候選，因此沒有候選進入獨立作者計數。",
+      "representativeSources": [],
+      "candidateReviews": [],
+      "queries": [
+        {
+          "platform": "PTT",
+          "targetHost": "ptt.cc",
+          "query": "site:ptt.cc \"105.073.48\" 枕頭",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22105.073.48%22%20%E6%9E%95%E9%A0%AD"
+        },
+        {
+          "platform": "Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "site:mobile01.com \"105.073.48\" 枕頭",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22105.073.48%22%20%E6%9E%95%E9%A0%AD"
+        }
+      ]
+    },
+    {
+      "id": "pillow-ikea-kvarnven-stomach",
+      "category": "pillow",
+      "brand": "IKEA",
+      "model": "805.132.18",
+      "reviewBatch": "pillow",
+      "reviewedAt": "2026-09-01",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "PTT",
+        "Mobile01"
+      ],
+      "attestation": "manual_cross_site_search_reviewed_no_candidate",
+      "reviewerNote": "人工以完整型號 805.132.18 在 PTT 與 Mobile01 分別查詢並檢視候選；未發現可回到原始頁核對為同一 SKU 的集中負評。",
+      "candidateDisposition": "805.132.18 的跨站查詢沒有通過 exact-model 邊界的原始頁候選，因此沒有候選進入獨立作者計數。",
+      "representativeSources": [],
+      "candidateReviews": [],
+      "queries": [
+        {
+          "platform": "PTT",
+          "targetHost": "ptt.cc",
+          "query": "site:ptt.cc \"805.132.18\" 枕頭",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22805.132.18%22%20%E6%9E%95%E9%A0%AD"
+        },
+        {
+          "platform": "Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "site:mobile01.com \"805.132.18\" 枕頭",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22805.132.18%22%20%E6%9E%95%E9%A0%AD"
+        }
+      ]
+    },
+    {
+      "id": "pillow-ikea-bjorkpyrola",
+      "category": "pillow",
+      "brand": "IKEA",
+      "model": "404.701.07",
+      "reviewBatch": "pillow",
+      "reviewedAt": "2026-09-01",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "PTT",
+        "Mobile01"
+      ],
+      "attestation": "manual_cross_site_search_reviewed_no_candidate",
+      "reviewerNote": "人工以完整型號 404.701.07 在 PTT 與 Mobile01 分別查詢並檢視候選；未發現可回到原始頁核對為同一 SKU 的集中負評。",
+      "candidateDisposition": "404.701.07 的跨站查詢沒有通過 exact-model 邊界的原始頁候選，因此沒有候選進入獨立作者計數。",
+      "representativeSources": [],
+      "candidateReviews": [],
+      "queries": [
+        {
+          "platform": "PTT",
+          "targetHost": "ptt.cc",
+          "query": "site:ptt.cc \"404.701.07\" 枕頭",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22404.701.07%22%20%E6%9E%95%E9%A0%AD"
+        },
+        {
+          "platform": "Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "site:mobile01.com \"404.701.07\" 枕頭",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22404.701.07%22%20%E6%9E%95%E9%A0%AD"
+        }
+      ]
+    },
+    {
+      "id": "pillow-ikea-isranunkel",
+      "category": "pillow",
+      "brand": "IKEA",
+      "model": "905.767.38",
+      "reviewBatch": "pillow",
+      "reviewedAt": "2026-09-01",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "PTT",
+        "Mobile01"
+      ],
+      "attestation": "manual_cross_site_search_reviewed_no_candidate",
+      "reviewerNote": "人工以完整型號 905.767.38 在 PTT 與 Mobile01 分別查詢並檢視候選；未發現可回到原始頁核對為同一 SKU 的集中負評。",
+      "candidateDisposition": "905.767.38 的跨站查詢沒有通過 exact-model 邊界的原始頁候選，因此沒有候選進入獨立作者計數。",
+      "representativeSources": [],
+      "candidateReviews": [],
+      "queries": [
+        {
+          "platform": "PTT",
+          "targetHost": "ptt.cc",
+          "query": "site:ptt.cc \"905.767.38\" 枕頭",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22905.767.38%22%20%E6%9E%95%E9%A0%AD"
+        },
+        {
+          "platform": "Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "site:mobile01.com \"905.767.38\" 枕頭",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22905.767.38%22%20%E6%9E%95%E9%A0%AD"
+        }
+      ]
+    },
+    {
+      "id": "pillow-ikea-pilspinnare-high",
+      "category": "pillow",
+      "brand": "IKEA",
+      "model": "505.871.16",
+      "reviewBatch": "pillow",
+      "reviewedAt": "2026-09-01",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "PTT",
+        "Mobile01"
+      ],
+      "attestation": "manual_cross_site_search_reviewed_no_candidate",
+      "reviewerNote": "人工以完整型號 505.871.16 在 PTT 與 Mobile01 分別查詢並檢視候選；未發現可回到原始頁核對為同一 SKU 的集中負評。",
+      "candidateDisposition": "505.871.16 的跨站查詢沒有通過 exact-model 邊界的原始頁候選，因此沒有候選進入獨立作者計數。",
+      "representativeSources": [],
+      "candidateReviews": [],
+      "queries": [
+        {
+          "platform": "PTT",
+          "targetHost": "ptt.cc",
+          "query": "site:ptt.cc \"505.871.16\" 枕頭",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22505.871.16%22%20%E6%9E%95%E9%A0%AD"
+        },
+        {
+          "platform": "Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "site:mobile01.com \"505.871.16\" 枕頭",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22505.871.16%22%20%E6%9E%95%E9%A0%AD"
+        }
+      ]
+    },
+    {
+      "id": "pillow-3m-anti-005",
+      "category": "pillow",
+      "brand": "3M",
+      "model": "ANTI 005",
+      "reviewBatch": "pillow",
+      "reviewedAt": "2026-09-01",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "PTT",
+        "Mobile01"
+      ],
+      "attestation": "manual_cross_site_search_reviewed_no_candidate",
+      "reviewerNote": "人工以完整型號 ANTI 005 在 PTT 與 Mobile01 分別查詢並檢視候選；未發現可回到原始頁核對為同一 SKU 的集中負評。",
+      "candidateDisposition": "ANTI 005 的跨站查詢沒有通過 exact-model 邊界的原始頁候選，因此沒有候選進入獨立作者計數。",
+      "representativeSources": [],
+      "candidateReviews": [],
+      "queries": [
+        {
+          "platform": "PTT",
+          "targetHost": "ptt.cc",
+          "query": "site:ptt.cc \"ANTI 005\" 枕頭",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22ANTI%20005%22%20%E6%9E%95%E9%A0%AD"
+        },
+        {
+          "platform": "Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "site:mobile01.com \"ANTI 005\" 枕頭",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22ANTI%20005%22%20%E6%9E%95%E9%A0%AD"
+        }
+      ]
+    },
+    {
+      "id": "pillow-3m-anti-004",
+      "category": "pillow",
+      "brand": "3M",
+      "model": "ANTI 004",
+      "reviewBatch": "pillow",
+      "reviewedAt": "2026-09-01",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "PTT",
+        "Mobile01"
+      ],
+      "attestation": "manual_cross_site_search_reviewed_no_candidate",
+      "reviewerNote": "人工以完整型號 ANTI 004 在 PTT 與 Mobile01 分別查詢並檢視候選；未發現可回到原始頁核對為同一 SKU 的集中負評。",
+      "candidateDisposition": "ANTI 004 的跨站查詢沒有通過 exact-model 邊界的原始頁候選，因此沒有候選進入獨立作者計數。",
+      "representativeSources": [],
+      "candidateReviews": [],
+      "queries": [
+        {
+          "platform": "PTT",
+          "targetHost": "ptt.cc",
+          "query": "site:ptt.cc \"ANTI 004\" 枕頭",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22ANTI%20004%22%20%E6%9E%95%E9%A0%AD"
+        },
+        {
+          "platform": "Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "site:mobile01.com \"ANTI 004\" 枕頭",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22ANTI%20004%22%20%E6%9E%95%E9%A0%AD"
+        }
+      ]
+    },
+    {
+      "id": "pillow-hola-malaysia-latex-side",
+      "category": "pillow",
+      "brand": "HOLA",
+      "model": "016582346",
+      "reviewBatch": "pillow",
+      "reviewedAt": "2026-09-01",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "PTT",
+        "Mobile01"
+      ],
+      "attestation": "manual_cross_site_search_reviewed_no_candidate",
+      "reviewerNote": "人工以完整型號 016582346 在 PTT 與 Mobile01 分別查詢並檢視候選；未發現可回到原始頁核對為同一 SKU 的集中負評。",
+      "candidateDisposition": "016582346 的跨站查詢沒有通過 exact-model 邊界的原始頁候選，因此沒有候選進入獨立作者計數。",
+      "representativeSources": [],
+      "candidateReviews": [],
+      "queries": [
+        {
+          "platform": "PTT",
+          "targetHost": "ptt.cc",
+          "query": "site:ptt.cc \"016582346\" 枕頭",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22016582346%22%20%E6%9E%95%E9%A0%AD"
+        },
+        {
+          "platform": "Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "site:mobile01.com \"016582346\" 枕頭",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22016582346%22%20%E6%9E%95%E9%A0%AD"
+        }
+      ]
+    },
+    {
+      "id": "pillow-dunlopillo-classic-standard",
+      "category": "pillow",
+      "brand": "Dunlopillo",
+      "model": "69e85a35bb09d03c8df9915c",
+      "reviewBatch": "pillow",
+      "reviewedAt": "2026-09-01",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "PTT",
+        "Mobile01"
+      ],
+      "attestation": "manual_cross_site_search_reviewed_no_candidate",
+      "reviewerNote": "人工以完整型號 69e85a35bb09d03c8df9915c 在 PTT 與 Mobile01 分別查詢並檢視候選；未發現可回到原始頁核對為同一 SKU 的集中負評。",
+      "candidateDisposition": "69e85a35bb09d03c8df9915c 的跨站查詢沒有通過 exact-model 邊界的原始頁候選，因此沒有候選進入獨立作者計數。",
+      "representativeSources": [],
+      "candidateReviews": [],
+      "queries": [
+        {
+          "platform": "PTT",
+          "targetHost": "ptt.cc",
+          "query": "site:ptt.cc \"69e85a35bb09d03c8df9915c\" 枕頭",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%2269e85a35bb09d03c8df9915c%22%20%E6%9E%95%E9%A0%AD"
+        },
+        {
+          "platform": "Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "site:mobile01.com \"69e85a35bb09d03c8df9915c\" 枕頭",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%2269e85a35bb09d03c8df9915c%22%20%E6%9E%95%E9%A0%AD"
+        }
+      ]
+    },
+    {
+      "id": "pillow-ikea-senapsmott-high",
+      "category": "pillow",
+      "brand": "IKEA",
+      "model": "705.803.26",
+      "reviewBatch": "pillow",
+      "reviewedAt": "2026-09-01",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "PTT",
+        "Mobile01"
+      ],
+      "attestation": "manual_cross_site_search_reviewed_no_candidate",
+      "reviewerNote": "人工以完整型號 705.803.26 在 PTT 與 Mobile01 分別查詢並檢視候選；未發現可回到原始頁核對為同一 SKU 的集中負評。",
+      "candidateDisposition": "705.803.26 的跨站查詢沒有通過 exact-model 邊界的原始頁候選，因此沒有候選進入獨立作者計數。",
+      "representativeSources": [],
+      "candidateReviews": [],
+      "queries": [
+        {
+          "platform": "PTT",
+          "targetHost": "ptt.cc",
+          "query": "site:ptt.cc \"705.803.26\" 枕頭",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22705.803.26%22%20%E6%9E%95%E9%A0%AD"
+        },
+        {
+          "platform": "Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "site:mobile01.com \"705.803.26\" 枕頭",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22705.803.26%22%20%E6%9E%95%E9%A0%AD"
+        }
+      ]
+    },
+    {
+      "id": "pillow-ikea-gaffelklocka",
+      "category": "pillow",
+      "brand": "IKEA",
+      "model": "406.286.26",
+      "reviewBatch": "pillow",
+      "reviewedAt": "2026-09-01",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "PTT",
+        "Mobile01"
+      ],
+      "attestation": "manual_cross_site_search_reviewed_no_candidate",
+      "reviewerNote": "人工以完整型號 406.286.26 在 PTT 與 Mobile01 分別查詢並檢視候選；未發現可回到原始頁核對為同一 SKU 的集中負評。",
+      "candidateDisposition": "406.286.26 的跨站查詢沒有通過 exact-model 邊界的原始頁候選，因此沒有候選進入獨立作者計數。",
+      "representativeSources": [],
+      "candidateReviews": [],
+      "queries": [
+        {
+          "platform": "PTT",
+          "targetHost": "ptt.cc",
+          "query": "site:ptt.cc \"406.286.26\" 枕頭",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22406.286.26%22%20%E6%9E%95%E9%A0%AD"
+        },
+        {
+          "platform": "Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "site:mobile01.com \"406.286.26\" 枕頭",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22406.286.26%22%20%E6%9E%95%E9%A0%AD"
+        }
+      ]
+    },
+    {
+      "id": "pillow-3m-anti-003",
+      "category": "pillow",
+      "brand": "3M",
+      "model": "ANTI 003",
+      "reviewBatch": "pillow",
+      "reviewedAt": "2026-09-01",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "PTT",
+        "Mobile01"
+      ],
+      "attestation": "manual_cross_site_search_reviewed_no_candidate",
+      "reviewerNote": "人工以完整型號 ANTI 003 在 PTT 與 Mobile01 分別查詢並檢視候選；未發現可回到原始頁核對為同一 SKU 的集中負評。",
+      "candidateDisposition": "ANTI 003 的跨站查詢沒有通過 exact-model 邊界的原始頁候選，因此沒有候選進入獨立作者計數。",
+      "representativeSources": [],
+      "candidateReviews": [],
+      "queries": [
+        {
+          "platform": "PTT",
+          "targetHost": "ptt.cc",
+          "query": "site:ptt.cc \"ANTI 003\" 枕頭",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22ANTI%20003%22%20%E6%9E%95%E9%A0%AD"
+        },
+        {
+          "platform": "Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "site:mobile01.com \"ANTI 003\" 枕頭",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22ANTI%20003%22%20%E6%9E%95%E9%A0%AD"
+        }
+      ]
+    },
+    {
+      "id": "pillow-nitori-n-hotel3-std",
+      "category": "pillow",
+      "brand": "NITORI",
+      "model": "7550721",
+      "reviewBatch": "pillow",
+      "reviewedAt": "2026-09-01",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "PTT",
+        "Mobile01"
+      ],
+      "attestation": "manual_cross_site_search_reviewed_no_candidate",
+      "reviewerNote": "人工以完整型號 7550721 在 PTT 與 Mobile01 邊界查核；Yahoo 結果中的 Baseball 索引與一般落枕討論不含該產品型號與第一人稱使用證據，未計入。",
+      "candidateDisposition": "7550721 的數字碰撞結果與無型號枕頭討論均在 exact-model 邊界排除；沒有候選進入獨立作者計數。",
+      "representativeSources": [],
+      "candidateReviews": [],
+      "queries": [
+        {
+          "platform": "PTT",
+          "targetHost": "ptt.cc",
+          "query": "site:ptt.cc \"7550721\" 枕頭",
+          "queryUrl": "https://tw.search.yahoo.com/search?p=site%3Aptt.cc%20%227550721%22%20%E6%9E%95%E9%A0%AD"
+        },
+        {
+          "platform": "Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "site:mobile01.com \"7550721\" 枕頭",
+          "queryUrl": "https://tw.search.yahoo.com/search?p=site%3Amobile01.com%20%227550721%22%20%E6%9E%95%E9%A0%AD"
+        }
+      ]
+    },
+    {
+      "id": "pillow-ikea-bruksvara-high",
+      "category": "pillow",
+      "brand": "IKEA",
+      "model": "205.603.64",
+      "reviewBatch": "pillow",
+      "reviewedAt": "2026-09-01",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "PTT",
+        "Mobile01"
+      ],
+      "attestation": "manual_cross_site_search_reviewed_no_candidate",
+      "reviewerNote": "人工以完整型號 205.603.64 在 PTT 與 Mobile01 分別查詢並檢視候選；未發現可回到原始頁核對為同一 SKU 的集中負評。",
+      "candidateDisposition": "205.603.64 的跨站查詢沒有通過 exact-model 邊界的原始頁候選，因此沒有候選進入獨立作者計數。",
+      "representativeSources": [],
+      "candidateReviews": [],
+      "queries": [
+        {
+          "platform": "PTT",
+          "targetHost": "ptt.cc",
+          "query": "site:ptt.cc \"205.603.64\" 枕頭",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22205.603.64%22%20%E6%9E%95%E9%A0%AD"
+        },
+        {
+          "platform": "Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "site:mobile01.com \"205.603.64\" 枕頭",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22205.603.64%22%20%E6%9E%95%E9%A0%AD"
+        }
+      ]
+    },
+    {
+      "id": "pillow-ikea-pilspinnare-low",
+      "category": "pillow",
+      "brand": "IKEA",
+      "model": "905.871.38",
+      "reviewBatch": "pillow",
+      "reviewedAt": "2026-09-01",
+      "decision": "no_common_issue",
+      "checkedPlatforms": [
+        "PTT",
+        "Mobile01"
+      ],
+      "attestation": "manual_cross_site_search_reviewed_no_candidate",
+      "reviewerNote": "人工以完整型號 905.871.38 在 PTT 與 Mobile01 分別查詢並檢視候選；未發現可回到原始頁核對為同一 SKU 的集中負評。",
+      "candidateDisposition": "905.871.38 的跨站查詢沒有通過 exact-model 邊界的原始頁候選，因此沒有候選進入獨立作者計數。",
+      "representativeSources": [],
+      "candidateReviews": [],
+      "queries": [
+        {
+          "platform": "PTT",
+          "targetHost": "ptt.cc",
+          "query": "site:ptt.cc \"905.871.38\" 枕頭",
+          "queryUrl": "https://www.google.com/search?q=site%3Aptt.cc%20%22905.871.38%22%20%E6%9E%95%E9%A0%AD"
+        },
+        {
+          "platform": "Mobile01",
+          "targetHost": "mobile01.com",
+          "query": "site:mobile01.com \"905.871.38\" 枕頭",
+          "queryUrl": "https://www.google.com/search?q=site%3Amobile01.com%20%22905.871.38%22%20%E6%9E%95%E9%A0%AD"
+        }
+      ]
     }
   ]
 }
