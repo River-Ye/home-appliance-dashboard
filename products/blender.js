@@ -398,8 +398,8 @@
     "price": {
       "currency": "USD",
       "amount": 99.98,
-      "converted": 3169,
-      "confidence": "2026-08-31 人工核對 SharkNinja 官方 BN701 公開可購主價 USD 99.98；已區分劃線原價、同頁其他 SKU、配件、分期與個人化回饋。；ExchangeRate-API 2026-09-01 匯率換算",
+      "converted": 3171,
+      "confidence": "2026-08-31 人工核對 SharkNinja 官方 BN701 公開可購主價 USD 99.98；已區分劃線原價、同頁其他 SKU、配件、分期與個人化回饋。；ExchangeRate-API 2026-09-02 匯率換算",
       "basis": "retailer_current"
     },
     "image": "https://ak1.ostkcdn.com/images/products/is/images/direct/d1c25153baa2aa99eae7831be826d2a51d87c485/Ninja-BN701-Professional-Plus-Blender-with-Auto-iQ.jpg",
@@ -1453,9 +1453,9 @@
     "name": "免清洗多功能破壁豆漿機",
     "price": {
       "currency": "TWD",
-      "amount": 9480,
-      "converted": 9480,
-      "confidence": "PChome 2026-08-04 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 8532,
+      "converted": 8532,
+      "confidence": "PChome 2026-09-02 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMAY01A900GFJCO/000001_1780310319.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMAY01-A900GFJCO",
@@ -1488,16 +1488,16 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 8722,
+      "amount": 8532,
       "currency": "TWD",
-      "converted": 8722,
-      "sourceUrl": "https://www.lbj.tw/BJ/getPriceHis.aspx?pid=1273838610&cgp=8912",
-      "sourceTitle": "LBJ 比價撿便宜 歷史價格：Joyoung九陽免清洗多功能破壁豆漿機DJ10M-K96G(遠航灰)",
-      "evidenceSnippet": "LBJ 比價撿便宜 歷史價格顯示「Yahoo購物中心 / Joyoung九陽免清洗多功能破壁豆漿機DJ10M-K96G(遠航灰)」最低價為 NT$8,722，最低點日期 2026-06-10。",
-      "sourceKind": "price_history",
-      "confidence": "high",
-      "checkedAt": "2026-07-09",
-      "note": "採用 LBJ 比價撿便宜 可公開查核的價格歷史；同型號/規格並排除會員券、點數、信用卡回饋、二手、福利品、展示、箱損、拆封與整新品。"
+      "converted": 8532,
+      "sourceUrl": "https://24h.pchome.com.tw/prod/DMAY01-A900GFJCO",
+      "sourceTitle": "PChome 24h 購物：【Joyoung九陽】免清洗多功能破壁豆漿機DJ10M-K96G",
+      "evidenceSnippet": "PChome 24h 購物於 2026-09-02 顯示同型號可信新品公開價 NT$8,532，低於既有史低 NT$8,722。",
+      "sourceKind": "retailer_page",
+      "confidence": "medium",
+      "checkedAt": "2026-09-02",
+      "note": "採用 PChome 24h 購物當日可購商品的同型號新品公開價；不含會員券、點數、信用卡回饋、二手、福利、展示、拆封或整新品。"
     },
     "issueResearch": {
       "status": "no_common_issue",

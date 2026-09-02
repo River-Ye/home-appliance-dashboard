@@ -113,9 +113,9 @@
     "name": "22 公升 PuriCare 雙變頻除濕機",
     "price": {
       "currency": "TWD",
-      "amount": 19999,
-      "converted": 19999,
-      "confidence": "PChome 2026-08-13 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 18500,
+      "converted": 18500,
+      "confidence": "PChome 2026-09-02 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBQ4NA900JMY77/000001_1783337653.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBQ4N-A900JMY77",
@@ -148,15 +148,15 @@
     "releaseDate": "找不到",
     "historicalLow": {
       "status": "found",
-      "amount": 19999,
+      "amount": 18500,
       "currency": "TWD",
-      "converted": 19999,
+      "converted": 18500,
       "sourceUrl": "https://24h.pchome.com.tw/prod/DMBQ4N-A900JMY77",
       "sourceTitle": "PChome 24h 購物：LG 樂金 22公升 一級能效 PuriCare™ 雙變頻除濕機 DE221MWE0",
-      "evidenceSnippet": "PChome 24h 購物於 2026-08-13 顯示同型號可信新品公開價 NT$19,999，低於既有史低 NT$20,900。",
+      "evidenceSnippet": "PChome 24h 購物於 2026-09-02 顯示同型號可信新品公開價 NT$18,500，低於既有史低 NT$19,999。",
       "sourceKind": "retailer_page",
       "confidence": "medium",
-      "checkedAt": "2026-08-13",
+      "checkedAt": "2026-09-02",
       "note": "採用 PChome 24h 購物當日可購商品的同型號新品公開價；不含會員券、點數、信用卡回饋、二手、福利、展示、拆封或整新品。"
     },
     "issueResearch": {

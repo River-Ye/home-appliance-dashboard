@@ -1,13 +1,13 @@
 {
   "summary": {
     "checkedAt": "2026-09-02T00:00:00+08:00",
-    "total": 1126,
-    "researchedThisRun": 1,
+    "total": 1127,
+    "researchedThisRun": 2,
     "found": 332,
-    "missing": 794,
+    "missing": 795,
     "byConfidence": {
       "official": 182,
-      "not_found": 791,
+      "not_found": 792,
       "retailer_explicit": 22,
       "credible_article": 52,
       "high": 60,
@@ -34628,6 +34628,50 @@
       "reason": "ASUS 官方全球新聞稿在 2024-08-21 明確宣布 exact model RT-BE86U；未把產品頁上線、支援文件或韌體日期當作上市日。",
       "checkedAt": "2026-09-02",
       "auditDisposition": "added"
+    },
+    {
+      "id": "robot-dreame-aqua-10-pro-track",
+      "category": "robot",
+      "brand": "Dreame",
+      "model": "Aqua 10 Pro Track",
+      "name": "履帶式活熱水洗地旗艦機皇（主機 RLR81CE／基站 RCZE0308）",
+      "previousReleaseDate": "找不到",
+      "releaseDate": "找不到",
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "confidence": "not_found",
+      "query": "\"Dreame Aqua 10 Pro Track\" 上市 發售 開賣 推出",
+      "auditQueries": [
+        "\"Dreame Aqua 10 Pro Track\" 上市 發售 開賣 推出",
+        "site:dreametech.com.tw \"Aqua 10 Pro Track\""
+      ],
+      "sourceKind": "not_found",
+      "reason": "台灣官方商品頁與使用指南未列上市日；官方 YouTube 的 2025-05-27 是影片發布日，2025-06-17 社群貼文雖寫正式開賣但同文仍是首批預購，均不當成發售日。Notebookcheck 僅在 2025-06-04 刊文稱新加坡已推出，沒有另載可採用的實際發售日期，因此不以文章發布日代替。",
+      "checkedAt": "2026-09-02",
+      "auditDisposition": "not_found_after_review",
+      "checkedSources": [
+        {
+          "url": "https://www.dreametech.com.tw/products/dreame-aqua-10-pro-track",
+          "title": "追覓 Aqua 10 Pro Track 履帶式活熱水洗地旗艦機皇",
+          "outcome": "台灣官方 exact-model 在售頁未明載上市或發售日期。"
+        },
+        {
+          "url": "https://www.dreametech.com.tw/pages/aqua-10-pro-track-guide",
+          "title": "Aqua 10 Pro Track 產品使用指南",
+          "outcome": "台灣官方使用指南未明載上市或發售日期。"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=F4mLcdP0p-w",
+          "title": "Dreame Taiwan Aqua 10 Pro Track 官方影片",
+          "outcome": "2025-05-27 是影片發布日，不作為產品發售日。"
+        },
+        {
+          "url": "https://www.notebookcheck.net/New-Dreame-Aqua-10-Pro-Track-robot-vacuum-with-roller-mop-launches.1030286.0.html",
+          "title": "New Dreame Aqua 10 Pro Track robot vacuum with roller mop launches",
+          "outcome": "可信媒體稱新加坡已推出，但未另載實際發售日期；文章發布日不替代上市日。"
+        }
+      ]
     }
   ]
 }

@@ -1,9 +1,9 @@
 {
   "summary": {
     "checkedAt": "2026-09-02T00:00:00+08:00",
-    "total": 1126,
+    "total": 1127,
     "commonIssueProducts": 51,
-    "noCommonIssueProducts": 1075,
+    "noCommonIssueProducts": 1076,
     "pendingManualReview": 0,
     "commonIssues": 52,
     "searchUnavailable": 616,
@@ -19,7 +19,8 @@
       "Dyson V8 Cyclone SV55 於 2026-09-01 另完成 exact-model 人工覆核：Reddit、Mobile01 查詢未發現可確認的原頁候選；Yahoo購物中心 exact-model 原頁僅 1 位作者留下到貨機體刮傷文字，未達同一問題 6 人／2 個原始網站門檻。",
       "Sony Y-65XR80M2 於 2026-09-01 完成 Reddit、Mobile01、PTT exact-model 人工覆核：Mobile01 為評測／價格與上市討論，PTT 為業代現售清單，兩頁皆無第一人稱同型號故障回報；未達同一問題 6 人／2 個原始網站門檻。",
       "2026-09-01 對 1125 款執行 Yahoo exact-model 新候選發現；本輪 1010 款搜尋回應不可用，未以失敗結果自動改判。唯一新增候選為 Dyson V12s Detect Slim Submarine 的 PTT 頁，連同既有 Mobile01 候選逐頁人工覆核後仍未達同一問題 6 人／2 個原始網站門檻；其餘既有人工決策與真實覆核日期原樣保留，不宣稱全部原頁同日重讀。",
-      "2026-09-02 增量加入 ASUS RT-BE86U；逐頁核對 Reddit、ASUS ZenTalk 與 Whirlpool 共 7 位可辨識 exact-model 第一人稱回報，成立一項特定韌體下 Wi-Fi 反覆斷線或無線電重啟的 common_issue。"
+      "2026-09-02 增量加入 ASUS RT-BE86U；逐頁核對 Reddit、ASUS ZenTalk 與 Whirlpool 共 7 位可辨識 exact-model 第一人稱回報，成立一項特定韌體下 Wi-Fi 反覆斷線或無線電重啟的 common_issue。",
+      "2026-09-02 增量加入 Dreame Aqua 10 Pro Track；人工覆核 Reddit、Dcard、PTT 與 Mobile01 exact-model 候選。Reddit 同題最高為單站約 5 位清潔液盒偵測個案，Dcard 的 SPC 黑印為另一個單一案例，未達同一問題 6 人且跨 2 個原始網站門檻。"
     ],
     "researchedThisRun": 1
   },
@@ -190098,6 +190099,593 @@
               "reviewedAt": "2026-09-02"
             }
           ]
+        }
+      ]
+    },
+    {
+      "id": "robot-dreame-aqua-10-pro-track",
+      "category": "robot",
+      "brand": "Dreame",
+      "model": "Aqua 10 Pro Track",
+      "name": "履帶式活熱水洗地旗艦機皇（主機 RLR81CE／基站 RCZE0308）",
+      "identity": {
+        "canonicalModel": "Aqua 10 Pro Track",
+        "lookupLabel": "Dreame Aqua 10 Pro Track",
+        "aliases": [
+          "Dreame Aqua 10 Pro Track"
+        ],
+        "evidenceUrl": "https://www.dreametech.com.tw/products/dreame-aqua-10-pro-track"
+      },
+      "workflowStatus": "completed",
+      "manualReview": {
+        "status": "completed",
+        "decision": "no_common_issue",
+        "reviewedAt": "2026-09-02",
+        "checkedPlatforms": [
+          "Reddit",
+          "Dcard",
+          "PTT",
+          "Mobile01"
+        ],
+        "queries": [
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"Dreame Aqua 10 Pro Track\" (problem OR issue OR defect OR failure)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Dreame%20Aqua%2010%20Pro%20Track%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+            "targetHost": "reddit.com"
+          },
+          {
+            "platform": "Dcard",
+            "query": "site:dcard.tw \"Dreame Aqua 10 Pro Track\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22Dreame%20Aqua%2010%20Pro%20Track%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "dcard.tw"
+          },
+          {
+            "platform": "PTT",
+            "query": "site:ptt.cc \"Dreame Aqua 10 Pro Track\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22Dreame%20Aqua%2010%20Pro%20Track%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "ptt.cc"
+          },
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"Dreame Aqua 10 Pro Track\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Dreame%20Aqua%2010%20Pro%20Track%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "mobile01.com"
+          }
+        ],
+        "candidateDisposition": "Aqua 10 Pro Track 已逐頁覆核 Reddit、Dcard、PTT 與 Mobile01 候選；Reddit 同題最高約 5 位清潔液盒偵測個案且仍是單站，Dcard 的 SPC 黑印為不同單一案例，其他候選為零星不同問題、轉述、他型號或一般取捨，未達同一問題 6 人且跨 2 個原始網站。",
+        "representativeSources": [
+          {
+            "platform": "Reddit",
+            "title": "Dreame Aqua 10 Pro Track Issues",
+            "url": "https://www.reddit.com/r/Dreame_Tech/comments/1lvonqk/dreame_aqua_10_pro_track_issues/"
+          },
+          {
+            "platform": "Reddit",
+            "title": "1 Month Aqua 10 Pro Track experience",
+            "url": "https://www.reddit.com/r/Dreame_Tech/comments/1mfkt7z/1_month_aqua_10_pro_track_experience/"
+          },
+          {
+            "platform": "Reddit",
+            "title": "Customer complaint of the Dreame Aqua 10 Pro Track’s quality control for the charging contact and poor customer service from Dreame in the Hong Kong market.",
+            "url": "https://www.reddit.com/r/Dreame_Tech/comments/1mexwhc/"
+          },
+          {
+            "platform": "Reddit",
+            "title": "Dreame Aqua 10 Pro Track first 24 hours",
+            "url": "https://www.reddit.com/r/Dreame_Tech/comments/1o3p38t/dreame_aqua_10_pro_track_first_24_hours/"
+          },
+          {
+            "platform": "Reddit",
+            "title": "Dreams Aqua 10 pro track",
+            "url": "https://www.reddit.com/r/Dreame_Tech/comments/1m68xi3/dreams_aqua_10_pro_track/"
+          },
+          {
+            "platform": "Reddit",
+            "title": "Dreame Aqua 10 Pro Track 'review'",
+            "url": "https://www.reddit.com/r/Dreame_Tech/comments/1l0z91a/dreame_aqua_10_pro_track_review/"
+          },
+          {
+            "platform": "Reddit",
+            "title": "Aqua 10 Pro Track",
+            "url": "https://www.reddit.com/r/Dreame_Tech/comments/1pc2oq3/aqua_10_pro_track/"
+          },
+          {
+            "platform": "Dcard",
+            "title": "追覓 Aqua 10 Pro Track 履帶於 SPC 地板留下黑印",
+            "url": "https://www.dcard.tw/f/house/p/260630711"
+          },
+          {
+            "platform": "Dcard",
+            "title": "#討論 #發問 吸地洗地多功能吸塵器、掃地機器人詢問",
+            "url": "https://www.dcard.tw/f/house/p/260155412"
+          },
+          {
+            "platform": "PTT",
+            "title": "[挑選] 滾筒履帶 掃拖機器人（iRobot 追覓）",
+            "url": "https://www.ptt.cc/bbs/E-appliance/M.1758255429.A.121.html"
+          },
+          {
+            "platform": "PTT",
+            "title": "[心得] 追覓 Aqua 10 Pro Track 開箱分享",
+            "url": "https://www.ptt.cc/bbs/E-appliance/M.1755097675.A.008.html"
+          },
+          {
+            "platform": "Mobile01",
+            "title": "掃拖機器人選購，預算20000-25000",
+            "url": "https://www.mobile01.com/topicdetail.php?f=728&t=7145554"
+          },
+          {
+            "platform": "Mobile01",
+            "title": "12坪小家庭尋找掃拖機器人",
+            "url": "https://www.mobile01.com/topicdetail.php?f=728&t=7150821"
+          }
+        ],
+        "candidateReviews": [
+          {
+            "url": "https://www.reddit.com/r/Dreame_Tech/comments/1lvonqk/dreame_aqua_10_pro_track_issues/",
+            "title": "Dreame Aqua 10 Pro Track Issues",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-09-02",
+            "sourceExcerpt": "原頁可辨識 7 位同型號持有者，分別談清潔液盒、漏水進水、導航、熱水體感、水耗與輪子故障；同題最高約 5 位清潔液盒偵測。",
+            "independentAuthors": 7,
+            "specificReason": "同一串內的不同問題不可合併計數；人數最高的清潔液盒問題仍約 5 位且只在 Reddit，沒有第二個原始網站的同題第一人稱回報。",
+            "platform": "Reddit"
+          },
+          {
+            "url": "https://www.reddit.com/r/Dreame_Tech/comments/1mfkt7z/1_month_aqua_10_pro_track_experience/",
+            "title": "1 Month Aqua 10 Pro Track experience",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-09-02",
+            "sourceExcerpt": "作者 raen1r 使用一個月後回報清潔液不出、拖地不熱、水耗與耗電偏高及低矮區降雷達不穩。",
+            "independentAuthors": 1,
+            "specificReason": "作者與另一個 Reddit 問題串為同一帳號及同一部機，已按跨文重複個案去重；單一作者且沒有第二網站同題門檻。",
+            "platform": "Reddit"
+          },
+          {
+            "url": "https://www.reddit.com/r/Dreame_Tech/comments/1mexwhc/",
+            "title": "Customer complaint of the Dreame Aqua 10 Pro Track’s quality control for the charging contact and poor customer service from Dreame in the Hong Kong market.",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-09-02",
+            "sourceExcerpt": "原貼為香港充電接點品質與客服申訴；留言者 DisastrousBit5114 明確回報自己的 Aqua 10 Pro Track 有相同問題。",
+            "independentAuthors": 2,
+            "specificReason": "原作者與一位同型號留言者合計 2 位，且貼文另有同作者跨貼版本；充電接點問題未達 6 人，也沒有第二原始網站同題。",
+            "platform": "Reddit"
+          },
+          {
+            "url": "https://www.reddit.com/r/Dreame_Tech/comments/1o3p38t/dreame_aqua_10_pro_track_first_24_hours/",
+            "title": "Dreame Aqua 10 Pro Track first 24 hours",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-09-02",
+            "sourceExcerpt": "作者回報耗電較高、移動時滴水，後續曾遇基站漏水但清濾網後未再發生；另一持有者只回報高耗電。",
+            "independentAuthors": 2,
+            "specificReason": "兩位同型號使用者談的是耗電與單一已緩解漏水個案；Complete Roller 留言已排除為不同型號，任一同題都未達跨站門檻。",
+            "platform": "Reddit"
+          },
+          {
+            "url": "https://www.reddit.com/r/Dreame_Tech/comments/1m68xi3/dreams_aqua_10_pro_track/",
+            "title": "Dreams Aqua 10 pro track",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-09-02",
+            "sourceExcerpt": "作者收貨使用三天，主要缺點是機器會把狗毛團誤判為障礙並繞開，其餘內容與回覆以正面經驗或詢問為主。",
+            "independentAuthors": 1,
+            "specificReason": "狗毛團誤判只有一位可辨識同型號作者，沒有形成 6 位使用者，也沒有第二個原始網站的相同第一人稱問題。",
+            "platform": "Reddit"
+          },
+          {
+            "url": "https://www.reddit.com/r/Dreame_Tech/comments/1l0z91a/dreame_aqua_10_pro_track_review/",
+            "title": "Dreame Aqua 10 Pro Track 'review'",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-09-02",
+            "sourceExcerpt": "原頁有一位留言者表示清潔液盒持續無法偵測，已到服務中心兩次仍未解決。",
+            "independentAuthors": 1,
+            "specificReason": "原頁只確認一位同型號第一人稱清潔液盒個案；與其他 Reddit 個案合併後仍只在單一網站，沒有跨站門檻。",
+            "platform": "Reddit"
+          },
+          {
+            "url": "https://www.reddit.com/r/Dreame_Tech/comments/1pc2oq3/aqua_10_pro_track/",
+            "title": "Aqua 10 Pro Track",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-09-02",
+            "sourceExcerpt": "作者使用四次後覺得拖布偏乾，並回報拖布烘乾約 4 小時、集塵袋烘乾約 10 小時。",
+            "independentAuthors": 1,
+            "specificReason": "拖布偏乾與烘乾時間只有一位同型號作者；回覆主要釐清新加坡版本，未出現 6 人且跨第二站的同題回報。",
+            "platform": "Reddit"
+          },
+          {
+            "url": "https://www.dcard.tw/f/house/p/260630711",
+            "title": "追覓 Aqua 10 Pro Track 履帶於 SPC 地板留下黑印",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-09-02",
+            "sourceExcerpt": "作者 Kai 回報履帶在 SPC 地板轉向與牆邊留下規則網狀黑印，更換新履帶後仍發生。",
+            "independentAuthors": 1,
+            "specificReason": "SPC 地板黑印是 Dcard 上一位同型號持有者的單一案例，與 Reddit 的清潔液盒、漏水及導航個案不同，未達同題門檻。",
+            "platform": "Dcard"
+          },
+          {
+            "url": "https://www.dcard.tw/f/house/p/260155412",
+            "title": "#討論 #發問 吸地洗地多功能吸塵器、掃地機器人詢問",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-09-02",
+            "sourceExcerpt": "樓主只寫聽說改版後容易漏水，回覆也只是購前擔心，沒有自身 Aqua 10 Pro Track 的使用事件。",
+            "independentAuthors": 0,
+            "specificReason": "候選是轉述與購前疑問，不是可辨識作者的第一人稱同型號回報，因此不計入漏水問題的人數或跨站數。",
+            "platform": "Dcard"
+          },
+          {
+            "url": "https://www.ptt.cc/bbs/E-appliance/M.1758255429.A.121.html",
+            "title": "[挑選] 滾筒履帶 掃拖機器人（iRobot 追覓）",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-09-02",
+            "sourceExcerpt": "選購文推文只寫 Aqua 一堆災情，沒有作者自己的機器、具體故障事件或可核對的原始回報。",
+            "independentAuthors": 0,
+            "specificReason": "只有籠統轉述，無第一人稱 exact-model 事件、問題細節與可去重作者，不能拿來補足 Reddit 個案的第二原始網站。",
+            "platform": "PTT"
+          },
+          {
+            "url": "https://www.ptt.cc/bbs/E-appliance/M.1755097675.A.008.html",
+            "title": "[心得] 追覓 Aqua 10 Pro Track 開箱分享",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-09-02",
+            "sourceExcerpt": "作者 ianzaro 自購使用兩週，提到強力模式耗電與聲音不小，但全文視為性能取捨且整體推薦。",
+            "independentAuthors": 1,
+            "specificReason": "耗電與噪音在原文是單一作者的預期取捨，不是故障集中回報；也未與另一網站形成 6 位同題使用者。",
+            "platform": "PTT"
+          },
+          {
+            "url": "https://www.mobile01.com/topicdetail.php?f=728&t=7145554",
+            "title": "掃拖機器人選購，預算20000-25000",
+            "outcome": "excluded",
+            "exactModel": false,
+            "reviewedAt": "2026-09-02",
+            "sourceExcerpt": "第一人稱滴水描述指向發文者現有的另一款機器，之後才說預算足夠會想試 Aqua 10 Pro Track。",
+            "independentAuthors": 0,
+            "specificReason": "負面事件屬另一型號，Aqua 10 Pro Track 只是購買意向；型號邊界不符，不能計入同型號負評人數。",
+            "platform": "Mobile01"
+          },
+          {
+            "url": "https://www.mobile01.com/topicdetail.php?f=728&t=7150821",
+            "title": "12坪小家庭尋找掃拖機器人",
+            "outcome": "excluded",
+            "exactModel": true,
+            "reviewedAt": "2026-09-02",
+            "sourceExcerpt": "頁面是 12 坪家庭選購討論，列入 Aqua 10 Pro Track，但沒有持有者提出可核對的具體第一人稱問題。",
+            "independentAuthors": 0,
+            "specificReason": "候選只證明該型號被拿來比較，沒有第一人稱同型號問題，不能視為集中負評或跨站問題證據。",
+            "platform": "Mobile01"
+          }
+        ],
+        "reviewerNote": "Aqua 10 Pro Track 已逐頁人工核對 13 個 Reddit、Dcard、PTT 與 Mobile01 候選；同一問題最高仍是 Reddit 單站約 5 位清潔液盒偵測個案，其他均為不同零星問題、跨文重複、轉述、他型號或一般取捨，未達 6 人且跨 2 個原始網站。",
+        "attestation": "manual_original_pages_reviewed"
+      },
+      "issueResearch": {
+        "status": "no_common_issue",
+        "checkedAt": "2026-09-02",
+        "summary": "截至查核日，查無達門檻的集中負評／災情",
+        "issues": [],
+        "checkedSources": [
+          {
+            "platform": "Reddit",
+            "query": "site:reddit.com \"Dreame Aqua 10 Pro Track\" (problem OR issue OR defect OR failure)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Dreame%20Aqua%2010%20Pro%20Track%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+            "targetHost": "reddit.com"
+          },
+          {
+            "platform": "Dcard",
+            "query": "site:dcard.tw \"Dreame Aqua 10 Pro Track\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22Dreame%20Aqua%2010%20Pro%20Track%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "dcard.tw"
+          },
+          {
+            "platform": "PTT",
+            "query": "site:ptt.cc \"Dreame Aqua 10 Pro Track\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22Dreame%20Aqua%2010%20Pro%20Track%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "ptt.cc"
+          },
+          {
+            "platform": "Mobile01",
+            "query": "site:mobile01.com \"Dreame Aqua 10 Pro Track\" (災情 OR 問題 OR 故障 OR 負評)",
+            "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Dreame%20Aqua%2010%20Pro%20Track%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+            "targetHost": "mobile01.com"
+          }
+        ]
+      },
+      "searchChecks": [
+        {
+          "platform": "Bing Search",
+          "query": "site:reddit.com \"Dreame Aqua 10 Pro Track\" (problem OR issue OR defect OR failure)",
+          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Dreame%20Aqua%2010%20Pro%20Track%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "result": "candidates_unverified_by_search_only",
+          "resultCount": 7,
+          "candidateUrls": [
+            "https://www.reddit.com/r/Dreame_Tech/comments/1lvonqk/dreame_aqua_10_pro_track_issues/",
+            "https://www.reddit.com/r/Dreame_Tech/comments/1mfkt7z/1_month_aqua_10_pro_track_experience/",
+            "https://www.reddit.com/r/Dreame_Tech/comments/1mexwhc/",
+            "https://www.reddit.com/r/Dreame_Tech/comments/1o3p38t/dreame_aqua_10_pro_track_first_24_hours/",
+            "https://www.reddit.com/r/Dreame_Tech/comments/1m68xi3/dreams_aqua_10_pro_track/",
+            "https://www.reddit.com/r/Dreame_Tech/comments/1l0z91a/dreame_aqua_10_pro_track_review/",
+            "https://www.reddit.com/r/Dreame_Tech/comments/1pc2oq3/aqua_10_pro_track/"
+          ],
+          "candidates": [
+            {
+              "title": "Dreame Aqua 10 Pro Track Issues",
+              "url": "https://www.reddit.com/r/Dreame_Tech/comments/1lvonqk/dreame_aqua_10_pro_track_issues/",
+              "exactModel": true
+            },
+            {
+              "title": "1 Month Aqua 10 Pro Track experience",
+              "url": "https://www.reddit.com/r/Dreame_Tech/comments/1mfkt7z/1_month_aqua_10_pro_track_experience/",
+              "exactModel": true
+            },
+            {
+              "title": "Customer complaint of the Dreame Aqua 10 Pro Track’s quality control for the charging contact and poor customer service from Dreame in the Hong Kong market.",
+              "url": "https://www.reddit.com/r/Dreame_Tech/comments/1mexwhc/",
+              "exactModel": true
+            },
+            {
+              "title": "Dreame Aqua 10 Pro Track first 24 hours",
+              "url": "https://www.reddit.com/r/Dreame_Tech/comments/1o3p38t/dreame_aqua_10_pro_track_first_24_hours/",
+              "exactModel": true
+            },
+            {
+              "title": "Dreams Aqua 10 pro track",
+              "url": "https://www.reddit.com/r/Dreame_Tech/comments/1m68xi3/dreams_aqua_10_pro_track/",
+              "exactModel": true
+            },
+            {
+              "title": "Dreame Aqua 10 Pro Track 'review'",
+              "url": "https://www.reddit.com/r/Dreame_Tech/comments/1l0z91a/dreame_aqua_10_pro_track_review/",
+              "exactModel": true
+            },
+            {
+              "title": "Aqua 10 Pro Track",
+              "url": "https://www.reddit.com/r/Dreame_Tech/comments/1pc2oq3/aqua_10_pro_track/",
+              "exactModel": true
+            }
+          ],
+          "inspectedAt": "2026-09-02T00:00:00+08:00"
+        },
+        {
+          "platform": "Bing Search",
+          "query": "site:dcard.tw \"Dreame Aqua 10 Pro Track\" (災情 OR 問題 OR 故障 OR 負評)",
+          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22Dreame%20Aqua%2010%20Pro%20Track%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "result": "candidates_unverified_by_search_only",
+          "resultCount": 2,
+          "candidateUrls": [
+            "https://www.dcard.tw/f/house/p/260630711",
+            "https://www.dcard.tw/f/house/p/260155412"
+          ],
+          "candidates": [
+            {
+              "title": "追覓 Aqua 10 Pro Track 履帶於 SPC 地板留下黑印",
+              "url": "https://www.dcard.tw/f/house/p/260630711",
+              "exactModel": true
+            },
+            {
+              "title": "#討論 #發問 吸地洗地多功能吸塵器、掃地機器人詢問",
+              "url": "https://www.dcard.tw/f/house/p/260155412",
+              "exactModel": true
+            }
+          ],
+          "inspectedAt": "2026-09-02T00:00:00+08:00"
+        },
+        {
+          "platform": "Bing Search",
+          "query": "site:ptt.cc \"Dreame Aqua 10 Pro Track\" (災情 OR 問題 OR 故障 OR 負評)",
+          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22Dreame%20Aqua%2010%20Pro%20Track%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "result": "candidates_unverified_by_search_only",
+          "resultCount": 2,
+          "candidateUrls": [
+            "https://www.ptt.cc/bbs/E-appliance/M.1758255429.A.121.html",
+            "https://www.ptt.cc/bbs/E-appliance/M.1755097675.A.008.html"
+          ],
+          "candidates": [
+            {
+              "title": "[挑選] 滾筒履帶 掃拖機器人（iRobot 追覓）",
+              "url": "https://www.ptt.cc/bbs/E-appliance/M.1758255429.A.121.html",
+              "exactModel": true
+            },
+            {
+              "title": "[心得] 追覓 Aqua 10 Pro Track 開箱分享",
+              "url": "https://www.ptt.cc/bbs/E-appliance/M.1755097675.A.008.html",
+              "exactModel": true
+            }
+          ],
+          "inspectedAt": "2026-09-02T00:00:00+08:00"
+        },
+        {
+          "platform": "Bing Search",
+          "query": "site:mobile01.com \"Dreame Aqua 10 Pro Track\" (災情 OR 問題 OR 故障 OR 負評)",
+          "searchUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Dreame%20Aqua%2010%20Pro%20Track%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "result": "candidates_unverified_by_search_only",
+          "resultCount": 2,
+          "candidateUrls": [
+            "https://www.mobile01.com/topicdetail.php?f=728&t=7145554",
+            "https://www.mobile01.com/topicdetail.php?f=728&t=7150821"
+          ],
+          "candidates": [
+            {
+              "title": "掃拖機器人選購，預算20000-25000",
+              "url": "https://www.mobile01.com/topicdetail.php?f=728&t=7145554",
+              "exactModel": true
+            },
+            {
+              "title": "12坪小家庭尋找掃拖機器人",
+              "url": "https://www.mobile01.com/topicdetail.php?f=728&t=7150821",
+              "exactModel": true
+            }
+          ],
+          "inspectedAt": "2026-09-02T00:00:00+08:00"
+        }
+      ],
+      "evidence": [],
+      "rejectedCandidates": [
+        {
+          "url": "https://www.reddit.com/r/Dreame_Tech/comments/1lvonqk/dreame_aqua_10_pro_track_issues/",
+          "title": "Dreame Aqua 10 Pro Track Issues",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-09-02",
+          "sourceExcerpt": "原頁可辨識 7 位同型號持有者，分別談清潔液盒、漏水進水、導航、熱水體感、水耗與輪子故障；同題最高約 5 位清潔液盒偵測。",
+          "independentAuthors": 7,
+          "specificReason": "同一串內的不同問題不可合併計數；人數最高的清潔液盒問題仍約 5 位且只在 Reddit，沒有第二個原始網站的同題第一人稱回報。",
+          "platform": "Reddit",
+          "reason": "同一串內的不同問題不可合併計數；人數最高的清潔液盒問題仍約 5 位且只在 Reddit，沒有第二個原始網站的同題第一人稱回報。"
+        },
+        {
+          "url": "https://www.reddit.com/r/Dreame_Tech/comments/1mfkt7z/1_month_aqua_10_pro_track_experience/",
+          "title": "1 Month Aqua 10 Pro Track experience",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-09-02",
+          "sourceExcerpt": "作者 raen1r 使用一個月後回報清潔液不出、拖地不熱、水耗與耗電偏高及低矮區降雷達不穩。",
+          "independentAuthors": 1,
+          "specificReason": "作者與另一個 Reddit 問題串為同一帳號及同一部機，已按跨文重複個案去重；單一作者且沒有第二網站同題門檻。",
+          "platform": "Reddit",
+          "reason": "作者與另一個 Reddit 問題串為同一帳號及同一部機，已按跨文重複個案去重；單一作者且沒有第二網站同題門檻。"
+        },
+        {
+          "url": "https://www.reddit.com/r/Dreame_Tech/comments/1mexwhc/",
+          "title": "Customer complaint of the Dreame Aqua 10 Pro Track’s quality control for the charging contact and poor customer service from Dreame in the Hong Kong market.",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-09-02",
+          "sourceExcerpt": "原貼為香港充電接點品質與客服申訴；留言者 DisastrousBit5114 明確回報自己的 Aqua 10 Pro Track 有相同問題。",
+          "independentAuthors": 2,
+          "specificReason": "原作者與一位同型號留言者合計 2 位，且貼文另有同作者跨貼版本；充電接點問題未達 6 人，也沒有第二原始網站同題。",
+          "platform": "Reddit",
+          "reason": "原作者與一位同型號留言者合計 2 位，且貼文另有同作者跨貼版本；充電接點問題未達 6 人，也沒有第二原始網站同題。"
+        },
+        {
+          "url": "https://www.reddit.com/r/Dreame_Tech/comments/1o3p38t/dreame_aqua_10_pro_track_first_24_hours/",
+          "title": "Dreame Aqua 10 Pro Track first 24 hours",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-09-02",
+          "sourceExcerpt": "作者回報耗電較高、移動時滴水，後續曾遇基站漏水但清濾網後未再發生；另一持有者只回報高耗電。",
+          "independentAuthors": 2,
+          "specificReason": "兩位同型號使用者談的是耗電與單一已緩解漏水個案；Complete Roller 留言已排除為不同型號，任一同題都未達跨站門檻。",
+          "platform": "Reddit",
+          "reason": "兩位同型號使用者談的是耗電與單一已緩解漏水個案；Complete Roller 留言已排除為不同型號，任一同題都未達跨站門檻。"
+        },
+        {
+          "url": "https://www.reddit.com/r/Dreame_Tech/comments/1m68xi3/dreams_aqua_10_pro_track/",
+          "title": "Dreams Aqua 10 pro track",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-09-02",
+          "sourceExcerpt": "作者收貨使用三天，主要缺點是機器會把狗毛團誤判為障礙並繞開，其餘內容與回覆以正面經驗或詢問為主。",
+          "independentAuthors": 1,
+          "specificReason": "狗毛團誤判只有一位可辨識同型號作者，沒有形成 6 位使用者，也沒有第二個原始網站的相同第一人稱問題。",
+          "platform": "Reddit",
+          "reason": "狗毛團誤判只有一位可辨識同型號作者，沒有形成 6 位使用者，也沒有第二個原始網站的相同第一人稱問題。"
+        },
+        {
+          "url": "https://www.reddit.com/r/Dreame_Tech/comments/1l0z91a/dreame_aqua_10_pro_track_review/",
+          "title": "Dreame Aqua 10 Pro Track 'review'",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-09-02",
+          "sourceExcerpt": "原頁有一位留言者表示清潔液盒持續無法偵測，已到服務中心兩次仍未解決。",
+          "independentAuthors": 1,
+          "specificReason": "原頁只確認一位同型號第一人稱清潔液盒個案；與其他 Reddit 個案合併後仍只在單一網站，沒有跨站門檻。",
+          "platform": "Reddit",
+          "reason": "原頁只確認一位同型號第一人稱清潔液盒個案；與其他 Reddit 個案合併後仍只在單一網站，沒有跨站門檻。"
+        },
+        {
+          "url": "https://www.reddit.com/r/Dreame_Tech/comments/1pc2oq3/aqua_10_pro_track/",
+          "title": "Aqua 10 Pro Track",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-09-02",
+          "sourceExcerpt": "作者使用四次後覺得拖布偏乾，並回報拖布烘乾約 4 小時、集塵袋烘乾約 10 小時。",
+          "independentAuthors": 1,
+          "specificReason": "拖布偏乾與烘乾時間只有一位同型號作者；回覆主要釐清新加坡版本，未出現 6 人且跨第二站的同題回報。",
+          "platform": "Reddit",
+          "reason": "拖布偏乾與烘乾時間只有一位同型號作者；回覆主要釐清新加坡版本，未出現 6 人且跨第二站的同題回報。"
+        },
+        {
+          "url": "https://www.dcard.tw/f/house/p/260630711",
+          "title": "追覓 Aqua 10 Pro Track 履帶於 SPC 地板留下黑印",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-09-02",
+          "sourceExcerpt": "作者 Kai 回報履帶在 SPC 地板轉向與牆邊留下規則網狀黑印，更換新履帶後仍發生。",
+          "independentAuthors": 1,
+          "specificReason": "SPC 地板黑印是 Dcard 上一位同型號持有者的單一案例，與 Reddit 的清潔液盒、漏水及導航個案不同，未達同題門檻。",
+          "platform": "Dcard",
+          "reason": "SPC 地板黑印是 Dcard 上一位同型號持有者的單一案例，與 Reddit 的清潔液盒、漏水及導航個案不同，未達同題門檻。"
+        },
+        {
+          "url": "https://www.dcard.tw/f/house/p/260155412",
+          "title": "#討論 #發問 吸地洗地多功能吸塵器、掃地機器人詢問",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-09-02",
+          "sourceExcerpt": "樓主只寫聽說改版後容易漏水，回覆也只是購前擔心，沒有自身 Aqua 10 Pro Track 的使用事件。",
+          "independentAuthors": 0,
+          "specificReason": "候選是轉述與購前疑問，不是可辨識作者的第一人稱同型號回報，因此不計入漏水問題的人數或跨站數。",
+          "platform": "Dcard",
+          "reason": "候選是轉述與購前疑問，不是可辨識作者的第一人稱同型號回報，因此不計入漏水問題的人數或跨站數。"
+        },
+        {
+          "url": "https://www.ptt.cc/bbs/E-appliance/M.1758255429.A.121.html",
+          "title": "[挑選] 滾筒履帶 掃拖機器人（iRobot 追覓）",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-09-02",
+          "sourceExcerpt": "選購文推文只寫 Aqua 一堆災情，沒有作者自己的機器、具體故障事件或可核對的原始回報。",
+          "independentAuthors": 0,
+          "specificReason": "只有籠統轉述，無第一人稱 exact-model 事件、問題細節與可去重作者，不能拿來補足 Reddit 個案的第二原始網站。",
+          "platform": "PTT",
+          "reason": "只有籠統轉述，無第一人稱 exact-model 事件、問題細節與可去重作者，不能拿來補足 Reddit 個案的第二原始網站。"
+        },
+        {
+          "url": "https://www.ptt.cc/bbs/E-appliance/M.1755097675.A.008.html",
+          "title": "[心得] 追覓 Aqua 10 Pro Track 開箱分享",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-09-02",
+          "sourceExcerpt": "作者 ianzaro 自購使用兩週，提到強力模式耗電與聲音不小，但全文視為性能取捨且整體推薦。",
+          "independentAuthors": 1,
+          "specificReason": "耗電與噪音在原文是單一作者的預期取捨，不是故障集中回報；也未與另一網站形成 6 位同題使用者。",
+          "platform": "PTT",
+          "reason": "耗電與噪音在原文是單一作者的預期取捨，不是故障集中回報；也未與另一網站形成 6 位同題使用者。"
+        },
+        {
+          "url": "https://www.mobile01.com/topicdetail.php?f=728&t=7145554",
+          "title": "掃拖機器人選購，預算20000-25000",
+          "outcome": "excluded",
+          "exactModel": false,
+          "reviewedAt": "2026-09-02",
+          "sourceExcerpt": "第一人稱滴水描述指向發文者現有的另一款機器，之後才說預算足夠會想試 Aqua 10 Pro Track。",
+          "independentAuthors": 0,
+          "specificReason": "負面事件屬另一型號，Aqua 10 Pro Track 只是購買意向；型號邊界不符，不能計入同型號負評人數。",
+          "platform": "Mobile01",
+          "reason": "負面事件屬另一型號，Aqua 10 Pro Track 只是購買意向；型號邊界不符，不能計入同型號負評人數。"
+        },
+        {
+          "url": "https://www.mobile01.com/topicdetail.php?f=728&t=7150821",
+          "title": "12坪小家庭尋找掃拖機器人",
+          "outcome": "excluded",
+          "exactModel": true,
+          "reviewedAt": "2026-09-02",
+          "sourceExcerpt": "頁面是 12 坪家庭選購討論，列入 Aqua 10 Pro Track，但沒有持有者提出可核對的具體第一人稱問題。",
+          "independentAuthors": 0,
+          "specificReason": "候選只證明該型號被拿來比較，沒有第一人稱同型號問題，不能視為集中負評或跨站問題證據。",
+          "platform": "Mobile01",
+          "reason": "候選只證明該型號被拿來比較，沒有第一人稱同型號問題，不能視為集中負評或跨站問題證據。"
         }
       ]
     }

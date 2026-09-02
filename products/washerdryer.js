@@ -746,7 +746,7 @@
       "amount": 44910,
       "converted": 44910,
       "confidence": "Yahoo購物中心 2026-09-01 exact-model 公開結構化價格",
-      "basis": "retailer_current",
+      "basis": "retailer_current"
     },
     "channel": "tw",
     "buyLabel": "Yahoo購物中心",
@@ -2705,9 +2705,9 @@
     "image": "https://pstw.panasonic.com.tw/shop/Upload/Product/20260514190222S44S2J5E.jpg",
     "price": {
       "currency": "TWD",
-      "amount": 39512,
-      "converted": 39512,
-      "confidence": "PChome 2026-09-01 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 40410,
+      "converted": 40410,
+      "confidence": "PChome 2026-09-02 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "channel": "tw",
     "buyLabel": "PChome",

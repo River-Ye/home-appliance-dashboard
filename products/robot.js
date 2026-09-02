@@ -489,9 +489,9 @@
     "name": "滾筒全自動洗拖烘掃地機器人",
     "price": {
       "currency": "TWD",
-      "amount": 18999,
-      "converted": 18999,
-      "confidence": "PChome 2026-09-01 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
+      "amount": 19999,
+      "converted": 19999,
+      "confidence": "PChome 2026-09-02 exact-model 公開價；有正值 Price.Low 時優先於 Price.P"
     },
     "image": "https://cs-a.ecimg.tw/items/DMBL1CA900JA04J/000001_1783562731.jpg",
     "buyUrl": "https://24h.pchome.com.tw/prod/DMBL1C-A900JA04J",
@@ -1355,8 +1355,8 @@
     "price": {
       "currency": "EUR",
       "amount": 1099,
-      "converted": 40443,
-      "confidence": "Narwal 德國官方 2026-08-28 exact-model 標準套裝公開價 €1,099，目前所有變體售罄；ExchangeRate-API 2026-09-01 匯率換算"
+      "converted": 40415,
+      "confidence": "Narwal 德國官方 2026-08-28 exact-model 標準套裝公開價 €1,099，目前所有變體售罄；ExchangeRate-API 2026-09-02 匯率換算"
     },
     "image": "https://de.narwal.com/cdn/shop/files/narwal-flow-2-saugroboter-mit-selbstreinigung-9224922_1200x1200.png?v=1781597108",
     "buyUrl": "https://de.narwal.com/products/narwal-flow-2-saugroboter-mit-selbstreinigung?variant=52366680523028",
@@ -1452,8 +1452,8 @@
     "price": {
       "currency": "USD",
       "amount": 551.69,
-      "converted": 17488,
-      "confidence": "Geekbuying 2026-07-21 來源價；ExchangeRate-API 2026-09-01 匯率換算"
+      "converted": 17499,
+      "confidence": "Geekbuying 2026-07-21 來源價；ExchangeRate-API 2026-09-02 匯率換算"
     },
     "image": "https://img.gkbcdn.com/p/2025-04-11/Narwal-Freo-Z10-Ultra-Robot-Vacuum-with-Base-Station-Gray-528438-0._w315_.jpg",
     "buyUrl": "https://www.geekbuying.com/item/Narwal-Freo-Z10-Ultra-Robot-Vacuum-with-Base-Station-Gray-528438.html",
@@ -2596,8 +2596,8 @@
     "price": {
       "currency": "USD",
       "amount": 999.99,
-      "converted": 31699,
-      "confidence": "SharkNinja US 2026-07-21 來源價；ExchangeRate-API 2026-09-01 匯率換算"
+      "converted": 31718,
+      "confidence": "SharkNinja US 2026-07-21 來源價；ExchangeRate-API 2026-09-02 匯率換算"
     },
     "image": "https://assets.sharkninja.com/image/upload/f_auto/q_auto/SharkNinja-NA/RV2820ZE_01.jpg",
     "buyUrl": "https://www.sharkninja.com/shark-powerdetect-2-in-1-robot-vacuum-and-mop-with-nevertouch-pro-base/RV2820ZE.html",
@@ -2790,8 +2790,8 @@
     "price": {
       "currency": "USD",
       "amount": 399.99,
-      "converted": 12680,
-      "confidence": "Costco US 2026-07-21 最後可驗證價；2026-08-15 exact-model 頁顯示 Unavailable；ExchangeRate-API 2026-09-01 匯率換算"
+      "converted": 12687,
+      "confidence": "Costco US 2026-07-21 最後可驗證價；2026-08-15 exact-model 頁顯示 Unavailable；ExchangeRate-API 2026-09-02 匯率換算"
     },
     "image": "https://bfasset.costco-static.com/U447IH35/as/tkj772p4357mmh3bwz8kcq/1791272-847__1?auto=webp&format=jpg",
     "buyUrl": "https://www.costco.com/p/-/roborock-qx-revo-robot-vacuum-and-mop-with-multifunctional-dock/4000233271",
@@ -4187,6 +4187,109 @@
       "台灣公司貨",
       "自動集塵",
       "手洗拖布"
+    ]
+  },
+  {
+    "id": "robot-dreame-aqua-10-pro-track",
+    "category": "robot",
+    "brand": "Dreame",
+    "model": "Aqua 10 Pro Track",
+    "name": "履帶式活熱水洗地旗艦機皇（主機 RLR81CE／基站 RCZE0308）",
+    "rank": 44,
+    "topPick": false,
+    "budget": "premium",
+    "channel": "tw",
+    "price": {
+      "currency": "TWD",
+      "amount": 27980,
+      "converted": 27980,
+      "basis": "retailer_current",
+      "confidence": "2026-09-02 Chrome 核對台灣官方 exact-model 頁顯示 NT$27,980；結構化資料為 InStock，Shopline 商品狀態為 active、非預購、sold_out=false、unlimited_quantity=true，實際頁面有加入購物車與立即購買控制。未顯示的舊 3 月補貨欄位與目前狀態衝突，視為 stale metadata。",
+      "note": "黑／白同價；官方活動、贈品與庫存可能變動，結帳前仍須確認。"
+    },
+    "installation": {
+      "status": "not_stated",
+      "note": "含全能基站；官方說明書要求硬質水平地面，左右各至少 5cm、前方至少 1m。自動上下水模組另購，可自行安裝或自費洽官方合作廠商。"
+    },
+    "image": "https://img.shoplineapp.com/media/image_clips/6a86657d2846513637771f54/original.jpg?1787192700=&owner_id=61dbf2e6069266001658ea21",
+    "buyUrl": "https://www.dreametech.com.tw/products/dreame-aqua-10-pro-track",
+    "buyLabel": "Dreame 追覓台灣官方商城",
+    "specs": [
+      "主機型號 RLR81CE；基站型號 RCZE0308；履帶式拖布以 45°C 活熱水洗地，主機內置清／污水箱並邊拖邊自清潔",
+      "最高吸力 25,000Pa；雙滾刷宣稱可處理最長 30cm 毛髮；升降 LDS 與 AI 雙鏡頭，官方宣稱辨識 280 種物品",
+      "單層門檻最高 4.2cm、連續門檻最高 6cm；基站最高 100°C 熱水洗拖布，並支援自動集塵、烘乾與 UV 殺菌",
+      "掃拖、先掃後拖、僅掃、僅拖四種模式；僅支援 2.4GHz Wi-Fi；充電約 4.5 小時",
+      "主機 14.4V／75W；基站輸入 110V~50–60Hz，輸出 20V DC／2A／40W；集塵 650W、熱水清洗 400W、充電＋烘乾 89W",
+      "尺寸：查不到；重量：查不到；台灣官方未明載可採用的本體／基站完整三軸尺寸與淨重"
+    ],
+    "description": "Aqua 10 Pro Track 是追覓台灣在售的履帶式掃拖旗艦，主機 RLR81CE 搭配 RCZE0308 基站，強項是邊拖邊洗的履帶拖布、25,000Pa 吸力與高門檻跨越。官方頁目前可購，但首次世代的水耗、漏水、清潔液盒偵測與導航個案值得在退換貨期內實測。",
+    "pros": [
+      "履帶拖布持續以清水側供水並回收污水，較能避免髒拖布反覆擦地",
+      "4.2cm 單層／6cm 連續越障與升降 LDS，適合門檻或低矮家具較多的空間",
+      "台灣官方商城、110V／50–60Hz 繁中手冊與在地售後證據完整"
+    ],
+    "cons": [
+      "台灣官方未明載機身與基站完整尺寸、淨重、電池容量、續航及水箱容量，櫃位與補水頻率須現場確認",
+      "自動上下水模組另購；手動水箱使用者可能需要頻繁補水，硬質地面也要預留基站空間",
+      "跨站人工覆核未達集中災情門檻，但 Reddit 有漏水、清潔液盒偵測、耗電與導航等零星同型號個案"
+    ],
+    "bestFor": "想要履帶式邊拖邊洗、高越障與台灣官方 110V 售後，並願意在退換貨期密集測試基站漏水、清潔液取用與導航的家庭。",
+    "recommendation": "高階履帶洗地比較款，不列 Top Pick。NT$27,980 為 2026-09-02 官方商城現價；購買時應留存三年保固活動與訂單證明，並優先測試基站排水、清潔液盒、長時間耗電、低矮區導航及自動集塵。",
+    "releaseDate": "找不到",
+    "historicalLow": {
+      "status": "not_found",
+      "amount": null,
+      "currency": "TWD",
+      "converted": null,
+      "sourceUrl": "",
+      "sourceTitle": "",
+      "evidenceSnippet": "",
+      "sourceKind": "not_found",
+      "confidence": "not_found",
+      "checkedAt": "2026-09-02",
+      "note": "已查台灣官方現價、FindPrice、LBJ、BigGo、PChome 舊頁、Beutii 及官方 2025 預購貼文；未取得可信新品通路可重現且具日期的價格序列，不以目前 NT$27,980 推定史低。FindPrice 的更低候選未回到 exact 原頁確認庫存與台灣保固；PChome 舊頁已移除、Beutii 目前缺貨、官方舊價屬預購，均不採用。"
+    },
+    "issueResearch": {
+      "status": "no_common_issue",
+      "checkedAt": "2026-09-02",
+      "summary": "截至查核日，查無達門檻的集中負評／災情",
+      "issues": [],
+      "checkedSources": [
+        {
+          "platform": "Reddit",
+          "query": "site:reddit.com \"Dreame Aqua 10 Pro Track\" (problem OR issue OR defect OR failure)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Areddit.com%20%22Dreame%20Aqua%2010%20Pro%20Track%22%20(problem%20OR%20issue%20OR%20defect%20OR%20failure)",
+          "targetHost": "reddit.com"
+        },
+        {
+          "platform": "Dcard",
+          "query": "site:dcard.tw \"Dreame Aqua 10 Pro Track\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Adcard.tw%20%22Dreame%20Aqua%2010%20Pro%20Track%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "dcard.tw"
+        },
+        {
+          "platform": "PTT",
+          "query": "site:ptt.cc \"Dreame Aqua 10 Pro Track\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Aptt.cc%20%22Dreame%20Aqua%2010%20Pro%20Track%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "ptt.cc"
+        },
+        {
+          "platform": "Mobile01",
+          "query": "site:mobile01.com \"Dreame Aqua 10 Pro Track\" (災情 OR 問題 OR 故障 OR 負評)",
+          "queryUrl": "https://www.bing.com/search?format=rss&q=site%3Amobile01.com%20%22Dreame%20Aqua%2010%20Pro%20Track%22%20(%E7%81%BD%E6%83%85%20OR%20%E5%95%8F%E9%A1%8C%20OR%20%E6%95%85%E9%9A%9C%20OR%20%E8%B2%A0%E8%A9%95)",
+          "targetHost": "mobile01.com"
+        }
+      ]
+    },
+    "score": 91,
+    "voltage": "主機 14.4V；基站 110V~50–60Hz，輸出 20V DC／2A／40W；集塵 650W、熱水清洗 400W、充電＋烘乾 89W",
+    "warranty": "台灣說明書基本免費保固 12 個月；2026-09-02 官方商品頁另顯示 Aqua 系列三年原廠保固活動，購買時應留存活動與訂單證明",
+    "tags": [
+      "台灣公司貨",
+      "履帶式洗地",
+      "25,000Pa",
+      "高門檻越障",
+      "110V基站"
     ]
   }
 ]);
